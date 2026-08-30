@@ -1,0 +1,178 @@
+import BigWorld, constants, BattleReplay
+from adisp import adisp_process
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.battle_control.battle_session import BattleExitResult
+from gui.Scaleform.genConsts.INGAMEMENU_CONSTANTS import INGAMEMENU_CONSTANTS
+from th_async import th_async, th_await
+from gui import DialogsInterface, GUI_SETTINGS
+from gui import makeHtmlString
+from account_helpers.counter_settings import getCountNewSettings
+from gui.Scaleform.daapi.view.dialogs import DIALOG_BUTTON_ID
+from gui.Scaleform.daapi.view.dialogs import I18nConfirmDialogMeta
+from gui.Scaleform.daapi.view.meta.IngameMenuMeta import IngameMenuMeta
+from gui.Scaleform.genConsts.GLOBAL_VARS_MGR_CONSTS import GLOBAL_VARS_MGR_CONSTS
+from gui.Scaleform.genConsts.INTERFACE_STATES import INTERFACE_STATES
+from gui.Scaleform.locale.TOOLTIPS import TOOLTIPS
+from gui.Scaleform.managers.battle_input import BattleGUIKeyHandler
+from gui.battle_control import event_dispatcher as battle_event_dispatcher
+from gui.shared import event_dispatcher as shared_event_dispatcher
+from gui.shared import events
+from gui.shared.utils.functions import makeTooltip
+from helpers import i18n, dependency
+from skeletons.connection_mgr import IConnectionManager
+from skeletons.gui.battle_session import IBattleSessionProvider
+from skeletons.gui.game_control import IServerStatsController
+from gui.Scaleform.locale.MENU import MENU
+from gui.Scaleform.daapi.view.battle.shared.premature_leave import showLeaverAliveWindow, showExitWindow, showLeaverReplayWindow, showComp7LeaverAliveWindow
+from arena_bonus_type_caps import ARENA_BONUS_TYPE_CAPS
+
+class IngameMenu(IngameMenuMeta, BattleGUIKeyHandler):
+    serverStats = dependency.descriptor(IServerStatsController)
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    connectionMgr = dependency.descriptor(IConnectionManager)
+
+    def onWindowClose(self):
+        self.destroy()
+        return
+
+    def handleEscKey(self, isDown):
+        return isDown
+
+    def quitBattleClick(self):
+        if self.app.varsManager.isTutorialRunning(GLOBAL_VARS_MGR_CONSTS.BATTLE):
+            self.__doLeaveTutorial()
+        else:
+            self.__doLeaveArena()
+        return
+
+    def settingsClick(self):
+        shared_event_dispatcher.showSettingsWindow(redefinedKeyMode=True, isBattleSettings=True)
+        return
+
+    def helpClick(self):
+        battle_event_dispatcher.toggleHelp()
+        return
+
+    def cancelClick(self):
+        self.destroy()
+        return
+
+    def onCounterNeedUpdate(self):
+        self.__updateNewSettingsCount()
+        return
+
+    def _populate(self):
+        super(IngameMenu, self)._populate()
+        if self.app is not None:
+            self.app.registerGuiKeyHandler(self)
+        self.app.loaderManager.onViewLoaded += self.__onViewLoaded
+        self._setServerSettings()
+        self._setServerStats()
+        self._setMenuButtonsLabels()
+        self._setMenuButtons()
+        return
+
+    def __updateNewSettingsCount(self):
+        newSettingsCount = getCountNewSettings()
+        if newSettingsCount > 0:
+            self.as_setCounterS([{b'componentId': (INGAMEMENU_CONSTANTS.SETTINGS), b'count': (str(newSettingsCount))}])
+        else:
+            self.as_removeCounterS([INGAMEMENU_CONSTANTS.SETTINGS])
+        return
+
+    def _dispose(self):
+        if self.app is not None:
+            self.app.unregisterGuiKeyHandler(self)
+        self.app.loaderManager.onViewLoaded -= self.__onViewLoaded
+        super(IngameMenu, self)._dispose()
+        return
+
+    def _setServerSettings(self):
+        if BattleReplay.g_replayCtrl.isPlaying:
+            serverName = b''
+            tooltipFullData = b''
+            state = INTERFACE_STATES.HIDE_ALL_SERVER_INFO
+        else:
+            tooltipBody = i18n.makeString(TOOLTIPS.HEADER_INFO_PLAYERS_ONLINE_FULL_BODY)
+            tooltipFullData = makeTooltip(TOOLTIPS.HEADER_INFO_PLAYERS_ONLINE_FULL_HEADER, tooltipBody % {b'servername': (self.connectionMgr.serverUserName)})
+            serverName = makeHtmlString(b'html_templates:lobby/serverStats', b'serverName', {b'name': (self.connectionMgr.serverUserName)})
+            if constants.IS_SHOW_SERVER_STATS:
+                state = INTERFACE_STATES.SHOW_ALL
+            else:
+                state = INTERFACE_STATES.HIDE_SERVER_STATS
+        self.as_setServerSettingS(serverName, tooltipFullData, state)
+        return
+
+    def _setServerStats(self):
+        if constants.IS_SHOW_SERVER_STATS:
+            self.as_setServerStatsS(*self.serverStats.getFormattedStats())
+        return
+
+    def _setMenuButtonsLabels(self):
+        if self.app.varsManager.isTutorialRunning(GLOBAL_VARS_MGR_CONSTS.BATTLE):
+            quitLabel = MENU.LOBBY_MENU_BUTTONS_REFUSE_TRAINING
+        elif BattleReplay.isPlaying():
+            quitLabel = MENU.INGAME_MENU_BUTTONS_REPLAYEXIT
+        else:
+            quitLabel = MENU.INGAME_MENU_BUTTONS_LOGOFF
+        self.as_setMenuButtonsLabelsS(MENU.INGAME_MENU_BUTTONS_HELP, MENU.INGAME_MENU_BUTTONS_SETTINGS, MENU.INGAME_MENU_BUTTONS_BACK, quitLabel)
+        return
+
+    def _setMenuButtons(self):
+        buttons = [INGAMEMENU_CONSTANTS.QUIT, INGAMEMENU_CONSTANTS.SETTINGS, INGAMEMENU_CONSTANTS.HELP,
+         INGAMEMENU_CONSTANTS.CANCEL]
+        self.as_setMenuButtonsS(buttons)
+        return
+
+    @adisp_process
+    def __doLeaveTutorial(self):
+        result = yield DialogsInterface.showDialog(I18nConfirmDialogMeta(b'refuseTraining', focusedID=DIALOG_BUTTON_ID.CLOSE))
+        if result:
+            self.fireEvent(events.TutorialEvent(events.TutorialEvent.STOP_TRAINING))
+            self.destroy()
+        return
+
+    @th_async
+    def __doLeaveArena(self):
+        self.as_setVisibilityS(False)
+        vInfo = self.sessionProvider.getArenaDP().getVehicleInfo()
+        exitResult = BattleExitResult(self._getExitResult(), vInfo.player)
+        if exitResult.isDeserter:
+            isPlayerIGR = self.__isPlayerIGR(exitResult.playerInfo)
+            result = yield th_await(self._showLeaverAliveWindow(isPlayerIGR))
+        elif BattleReplay.isPlaying():
+            result = yield th_await(showLeaverReplayWindow())
+        else:
+            result = yield th_await(showExitWindow())
+        if result:
+            self.__doExit()
+        else:
+            self.destroy()
+        return
+
+    def __doExit(self):
+        self.sessionProvider.exit()
+        self.destroy()
+        return
+
+    def _getExitResult(self):
+        return self.sessionProvider.getExitResult()
+
+    @staticmethod
+    def _showLeaverAliveWindow(isPlayerIGR):
+        arenaBonusType = BigWorld.player().arenaBonusType
+        if ARENA_BONUS_TYPE_CAPS.checkAny(arenaBonusType, ARENA_BONUS_TYPE_CAPS.COMP7):
+            return showComp7LeaverAliveWindow()
+        return showLeaverAliveWindow(isPlayerIGR)
+
+    @staticmethod
+    def __isPlayerIGR(playerInfo):
+        igrType = playerInfo.igrType if playerInfo else constants.IGR_TYPE.NONE
+        if constants.IS_KOREA and GUI_SETTINGS.igrEnabled and igrType != constants.IGR_TYPE.NONE:
+            return True
+        return False
+
+    def __onViewLoaded(self, view, *args, **kwargs):
+        if view.alias == VIEW_ALIAS.INGAME_HELP:
+            self.destroy()
+        return

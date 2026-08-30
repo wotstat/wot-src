@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<season>summer</season>
+		<historical>1</historical>
+		<camouflage>
+			<id>31416</id>
+			<scales>1.3 1 0.7</scales>
+			<palettes>
+				<palette>
+					<c0>81 54 9 255</c0>
+					<c1>179 149 89 255</c1>
+					<c2>179 149 89 255</c2>
+					<c3>0 0 0 0</c3>
+				</palette>
+			</palettes>
+			<texture>vehicles/russian/Camouflage/ArmoryYard7_Summer_139.dds</texture>
+			<userString>#vehicle_customization:ArmoryYard7_Summer_139/name</userString>
+			<description>#vehicle_customization:ArmoryYard7_Summer_139/description</description>
+			<rotation>
+				<HULL>-0.0322889984</HULL>
+				<TURRET>-0.0322889984</TURRET>
+				<GUN>-0.0322889984</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>1.7 1.7</factor>
+				<offset>-0.62 0.14</offset>
+			</tilingSettings>
+		</camouflage>
+		<userString>#vehicle_customization:camouflage/transparent</userString>
+		<tags>hiddenInUI</tags>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R47_ISU-152_Zveroboj ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+	</itemGroup>
+</root>

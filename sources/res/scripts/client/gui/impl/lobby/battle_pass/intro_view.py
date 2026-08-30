@@ -1,0 +1,127 @@
+from account_helpers.settings_core.settings_constants import BattlePassStorageKeys
+from frameworks.wulf import ViewSettings
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.battle_pass.battle_pass_helpers import getIntroSlidesNames, getMarathonIntroSlidesNames, getIntroVideoURL, isIntroVideoExist
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.battle_pass.battle_pass_intro_view_model import BattlePassIntroViewModel
+from gui.impl.gen.view_models.views.lobby.common.intro_slide_model import IntroSlideModel
+from gui.impl.pub import ViewImpl, WindowImpl
+from gui.impl.pub.dialog_window import DialogFlags
+from gui.shared.event_dispatcher import showBrowserOverlayView, showHangar
+from gui.server_events.events_dispatcher import showMissionsBattlePass
+from helpers import dependency
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.game_control import IBattlePassController
+from tutorial.control.game_vars import getVehicleByIntCD
+_IMAGES = R.images.gui.maps.icons.battlePass.intro
+_TEXTS = R.strings.battle_pass.intro
+_BG = R.images.gui.maps.icons.battlePass.backgrounds
+
+class IntroView(ViewImpl):
+    __battlePass = dependency.descriptor(IBattlePassController)
+    __settingsCore = dependency.descriptor(ISettingsCore)
+
+    def __init__(self, *args, **kwargs):
+        settings = ViewSettings(R.views.lobby.battle_pass.BattlePassIntroView())
+        settings.model = BattlePassIntroViewModel()
+        super(IntroView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(IntroView, self).getViewModel()
+
+    def startListeners(self):
+        self._subscribe()
+        return
+
+    def stopListeners(self):
+        self._unsubscribe()
+        return
+
+    def updateData(self):
+        self.__updateBattlePassState()
+        self.__updateViewModel()
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(IntroView, self)._onLoading(*args, **kwargs)
+        self.__updateBattlePassState()
+        self.__updateViewModel()
+        return
+
+    def _getEvents(self):
+        return (
+         (
+          self.viewModel.onClose, self.__close),
+         (
+          self.viewModel.onVideo, self.__showVideo),
+         (
+          self.__battlePass.onBattlePassSettingsChange, self.__updateBattlePassState),
+         (
+          self.__battlePass.onSeasonStateChanged, self.__updateBattlePassState))
+
+    def __updateViewModel(self):
+        with self.viewModel.transaction() as tx:
+            placeholders = self.__genResCommPlaceholders()
+            hasMarathon = self.__battlePass.hasMarathon()
+            if hasMarathon:
+                slidesNames = getMarathonIntroSlidesNames()
+                marathonChapterId = self.__battlePass.getMarathonChapterID()
+                tx.setMarathonChapterStartDate(self.__battlePass.getChapterStartDate(marathonChapterId))
+                tx.setMarathonChapterEndDate(self.__battlePass.getChapterExpiration(marathonChapterId))
+            else:
+                slidesNames = getIntroSlidesNames()
+            slides = tx.getSlides()
+            for slideName in slidesNames:
+                slides.addViewModel(self.__createSlideModel(slideName, **placeholders))
+
+            tx.setIsVideoExist(isIntroVideoExist())
+            tx.setHasMarathon(hasMarathon)
+        return
+
+    @staticmethod
+    def __createSlideModel(slideName, **kwargs):
+        slide = IntroSlideModel()
+        slide.setIcon(_IMAGES.dyn(slideName)())
+        slide.setTitle(_TEXTS.dyn(slideName).title())
+        slide.setDescription(backport.text(_TEXTS.dyn(slideName).text(), **kwargs))
+        return slide
+
+    def __close(self):
+        self.__settingsCore.serverSettings.saveInBPStorage({(BattlePassStorageKeys.INTRO_SHOWN): True})
+        if self.__battlePass.hasMarathon():
+            self.__settingsCore.serverSettings.saveInBPStorage({(BattlePassStorageKeys.EXTRA_CHAPTER_INTRO_SHOWN): True})
+        self.destroyWindow()
+        return
+
+    @staticmethod
+    def __showVideo():
+        if isIntroVideoExist():
+            showBrowserOverlayView(getIntroVideoURL(), VIEW_ALIAS.BROWSER_OVERLAY)
+        return
+
+    def __genResCommPlaceholders(self):
+        commonResArgs = {}
+        vehIntCDs = self.__battlePass.getSpecialVehicles()
+        commonResArgs[b'points'] = self.__battlePass.getSpecialVehicleCapBonus()
+        for idx, vehIntCD in enumerate(vehIntCDs, 1):
+            vehicle = getVehicleByIntCD(vehIntCD)
+            commonResArgs[(b'tankName{}').format(idx)] = vehicle.userName if vehicle else b''
+
+        return commonResArgs
+
+    def __updateBattlePassState(self, *_):
+        if self.__battlePass.isPaused():
+            showMissionsBattlePass()
+        elif not self.__battlePass.isActive():
+            showHangar()
+        return
+
+
+class IntroWindow(WindowImpl):
+
+    def __init__(self, parent=None):
+        super(IntroWindow, self).__init__(wndFlags=DialogFlags.TOP_FULLSCREEN_WINDOW, content=IntroView(), parent=parent)
+        return

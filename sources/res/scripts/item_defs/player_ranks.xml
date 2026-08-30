@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<DEFAULT>
+		<initialRank>1</initialRank>
+		<BasicThreshold>
+			<_2>
+				<threshold>250</threshold>
+			</_2>
+			<_3>
+				<threshold>550</threshold>
+			</_3>
+			<_4>
+				<threshold>850</threshold>
+			</_4>
+			<_5>
+				<threshold>1300</threshold>
+			</_5>
+			<_6>
+				<threshold>1700</threshold>
+			</_6>
+		</BasicThreshold>
+		<bonus>
+			<_1>0</_1>
+			<_2>10</_2>
+			<_3>25</_3>
+			<_4>50</_4>
+			<_5>100</_5>
+			<_6>200</_6>
+		</bonus>
+	</DEFAULT>
+</root>

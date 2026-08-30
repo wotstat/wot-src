@@ -1,0 +1,108 @@
+from debug_utils import LOG_UNEXPECTED
+from gui.shared import EVENT_BUS_SCOPE
+from gui.shared.events import ViewEventType
+from gui.Scaleform.framework.entities.EventSystemEntity import EventSystemEntity
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.Scaleform.framework.managers.loaders import ViewLoadMode
+from gui.Scaleform.framework.managers.containers import ChainItem
+
+def _loadViewEventHandler(containerManager, e):
+    containerManager.load(e.loadParams, *e.args, **e.kwargs)
+    return
+
+
+def _loadGuiImplViewEventHandler(containerManager, e):
+    containerManager.load(e.loadParams, *e.args, **e.kwargs)
+    return
+
+
+def _preLoadViewEventHandler(containerManager, e):
+    containerManager.load(SFViewLoadParams(e.alias, e.name, loadMode=ViewLoadMode.PRELOAD), e.ctx)
+    return
+
+
+def _destroyViewEventHandler(containerManager, e):
+    containerManager.destroyViews(e.alias, e.name)
+    return
+
+
+def _destroyGuiImplViewEventHandler(containerManager, e):
+    containerManager.destroyViews(e.alias)
+    return
+
+
+def _loadViewsChainEventHandler(containerManager, e):
+    items = [ChainItem(event.loadParams, event.args, event.kwargs) for event in e.viewLoadEvents]
+    containerManager.loadChain(items)
+    return
+
+
+_EVENT_HANDLERS = {(ViewEventType.LOAD_VIEW): _loadViewEventHandler, 
+   (ViewEventType.LOAD_GUI_IMPL_VIEW): _loadGuiImplViewEventHandler, 
+   (ViewEventType.PRELOAD_VIEW): _preLoadViewEventHandler, 
+   (ViewEventType.DESTROY_VIEW): _destroyViewEventHandler, 
+   (ViewEventType.DESTROY_GUI_IMPL_VIEW): _destroyGuiImplViewEventHandler, 
+   (ViewEventType.LOAD_VIEWS_CHAIN): _loadViewsChainEventHandler}
+
+class ViewEventsListener(EventSystemEntity):
+
+    def __init__(self, appProxy):
+        super(ViewEventsListener, self).__init__()
+        self._app = appProxy
+        self._waitingEvents = []
+        return
+
+    def _populate(self):
+        super(ViewEventsListener, self)._populate()
+        self._addListeners()
+        return
+
+    def _dispose(self):
+        self._removeListeners()
+        del self._waitingEvents[:]
+        self._app = None
+        super(ViewEventsListener, self)._dispose()
+        return
+
+    def handleWaitingEvents(self):
+        if self._app.containerManager is not None:
+            while self._waitingEvents:
+                self._handleEvent(self._waitingEvents.pop(0))
+
+        return
+
+    def handleEvent(self, e):
+        if self._app.containerManager is not None:
+            self._handleEvent(e)
+        else:
+            self._waitingEvents.append(e)
+        return
+
+    def addWaitingEvent(self, e):
+        self._waitingEvents.append(e)
+        return
+
+    def _addListeners(self):
+        for eventType in _EVENT_HANDLERS:
+            if eventType != ViewEventType.LOAD_VIEW:
+                for scope in EVENT_BUS_SCOPE.ALL:
+                    self.addListener(eventType, self.handleEvent, scope=scope)
+
+        return
+
+    def _removeListeners(self):
+        for eventType in _EVENT_HANDLERS:
+            if eventType != ViewEventType.LOAD_VIEW:
+                for scope in EVENT_BUS_SCOPE.ALL:
+                    self.removeListener(eventType, self.handleEvent, scope=scope)
+
+        return
+
+    def _handleEvent(self, e):
+        eventType = e.eventType
+        if eventType in _EVENT_HANDLERS:
+            handler = _EVENT_HANDLERS[eventType]
+            handler(self._app.containerManager, e)
+        else:
+            LOG_UNEXPECTED(b'Unsupported event:', eventType, e)
+        return

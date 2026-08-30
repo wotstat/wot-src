@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:95_lost_city_ctf/name</name>
+	<description>#arenas:95_lost_city_ctf/description</description>
+	<geometry>spaces/95_lost_city_ctf</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<minimap>spaces/95_lost_city_ctf/mmap.dds</minimap>
+	<vehicleCamouflageKind>desert</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_lost_city_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_lost_city_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_lost_city_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_lost_city_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_lost_city_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_lost_city_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<soundRemapping>
+		<events>
+			<event>
+				<name>ev_battle_royale_2020_amb_fueltank</name>
+				<mod>amb_map_95_metal_stress</mod>
+			</event>
+		</events>
+	</soundRemapping>
+	<wwambientSound>amb_map_95_wind</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>0 -349.999756</position1>
+				</team1>
+				<team2>
+					<position1>-0.561653018 350.284088</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>350 -450</position>
+				</team1>
+				<team2>
+					<position>350 450</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-0.000136999995 1.49999996e-05</controlPoint>
+		</domination>
+		<assault>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<teamSpawnPoints>
+				<team1>
+					<position>380 0</position>
+				</team1>
+				<team2>
+					<position>-410 0</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>112.008011 0.0860000029</position1>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-315.682007 121.161003</position>
+				</team1>
+				<team2>
+					<position>315.682007 -121.161003</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>53.4633751 292.17688</position1>
+					<position2>-4.6000001e-05 0</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-305.232666 136.427078</position>
+				</team1>
+				<team2>
+					<position>326.719727 -118.230736</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/95_lost_city_ctf/mmap_comp7.dds</minimap>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-153.331696 462.357513</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>139.604568 -395.324036</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-133.693787 -457.891388</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>244.322815 388.357208</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>53.4633751 292.17688</position1>
+					<position2>-4.6000001e-05 0</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>50.5960693 326.755096</position>
+				</team1>
+				<team2>
+					<position>48.5665321 -330.203918</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/95_lost_city_ctf/mmap_comp7.dds</minimap>
+			<controlPoint>0 0</controlPoint>
+		</bob>
+		<domination3>
+			<boundingBox>
+				<bottomLeft>-300 -300</bottomLeft>
+				<upperRight>300 300</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>115.545532 -198.442413</position>
+				</team1>
+				<team2>
+					<position>115.545998 198.19928</position>
+				</team2>
+			</teamSpawnPoints>
+			<minimap>spaces/95_lost_city_ctf/mmap_domination3.dds</minimap>
+			<controlPoint>-2.50499701 0.657999992</controlPoint>
+		</domination3>
+	</gameplayTypes>
+</root>

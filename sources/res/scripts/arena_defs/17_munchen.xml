@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:17_munchen/name</name>
+	<description>#arenas:17_munchen/description</description>
+	<geometry>spaces/17_munchen</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-300.0 -300.0</bottomLeft>
+		<upperRight>300.0 300.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/17_munchen/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_munchen_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_munchen_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_munchen_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_munchen_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_munchen_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_munchen_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-83.6165771 -197.31839</position1>
+				</team1>
+				<team2>
+					<position1>61.9298286 242.775162</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>-83.6165771 -197.31839</position1>
+				</team1>
+				<team2>
+					<position1>61.9298286 242.775162</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<minimap>spaces/17_munchen/mmap_comp7.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamSpawnPoints>
+				<team1>
+					<position>133.303574 -256.029022</position>
+				</team1>
+				<team2>
+					<position>-252.010284 244.986069</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>78.4542084 49.9365578</position1>
+					<position2>-235.372055 -250.827072</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<pointsOfInterestUDO>
+				<point>
+					<position>285.381989 184.761002</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>60.6910019 -119.973999</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-189.158829 83.6262894</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>40.987999 170.164001</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-135.927994 -47.2459984</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>269.289093 -28.0224171</position>
+					<type>4</type>
+				</point>
+			</pointsOfInterestUDO>
+		</comp7>
+	</gameplayTypes>
+	<useAdvancedPhysics>true</useAdvancedPhysics>
+</root>

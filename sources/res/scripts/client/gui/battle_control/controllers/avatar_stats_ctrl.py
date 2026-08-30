@@ -1,0 +1,31 @@
+import Event
+from gui.battle_control.battle_constants import BATTLE_CTRL_ID
+from gui.battle_control.controllers.interfaces import IBattleController
+
+class AvatarStatsController(IBattleController):
+
+    def __init__(self):
+        super(AvatarStatsController, self).__init__()
+        self.__stats = {}
+        self.__eManager = Event.EventManager()
+        self.onUpdated = Event.Event(self.__eManager)
+        return
+
+    def getControllerID(self):
+        return BATTLE_CTRL_ID.AVATAR_PRIVATE_STATS
+
+    def startControl(self):
+        return
+
+    def stopControl(self):
+        self.__eManager.clear()
+        self.__eManager = None
+        return
+
+    def getStats(self):
+        return self.__stats
+
+    def update(self, stats):
+        self.__stats = stats
+        self.onUpdated(stats)
+        return

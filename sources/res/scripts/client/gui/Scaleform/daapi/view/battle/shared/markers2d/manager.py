@@ -1,0 +1,318 @@
+import logging, weakref, BattleReplay, GUI
+from account_helpers.settings_core.settings_constants import BattleCommStorageKeys
+from chat_commands_consts import INVALID_MARKER_SUBTYPE, MarkerType, INVALID_MARKER_ID
+from gui import DEPTH_OF_VehicleMarker, GUI_SETTINGS
+from gui.Scaleform.daapi.view.battle.shared.map_zones.markers2d import MapZonesPlugin
+from gui.Scaleform.daapi.view.battle.shared.markers2d.settings import CommonMarkerType
+from gui.Scaleform.daapi.view.battle.shared.markers2d import plugins, vehicle_plugins
+from gui.Scaleform.daapi.view.battle.shared.markers2d.plugins import MarkerPlugin
+from gui.Scaleform.daapi.view.external_components import ExternalFlashComponent
+from gui.Scaleform.daapi.view.external_components import ExternalFlashSettings
+from gui.Scaleform.daapi.view.meta.VehicleMarkersManagerMeta import VehicleMarkersManagerMeta
+from gui.Scaleform.flash_wrapper import InputKeyMode
+from gui.Scaleform.genConsts.BATTLE_VIEW_ALIASES import BATTLE_VIEW_ALIASES
+from gui.Scaleform.genConsts.ROOT_SWF_CONSTANTS import ROOT_SWF_CONSTANTS
+from gui.shared import EVENT_BUS_SCOPE
+from gui.shared.events import MarkersManagerEvent
+from gui.shared.utils.plugins import PluginsCollection
+from helpers import dependency, isPlayerAvatar
+from skeletons.account_helpers.settings_core import ISettingsCore
+from skeletons.gui.battle_session import IBattleSessionProvider
+from soft_exception import SoftException
+_logger = logging.getLogger(__name__)
+_STICKY_MARKER_RADIUS_SCALE = 0.7
+
+class MarkersManager(ExternalFlashComponent, VehicleMarkersManagerMeta, plugins.IMarkersManager):
+    MARKERS_MANAGER_SWF = b'battleVehicleMarkersApp.swf'
+    settingsCore = dependency.descriptor(ISettingsCore)
+    setablePluginsDict = {b'area': (plugins.AreaStaticMarkerPlugin), b'teamAndControlPoints': (plugins.TeamsOrControlsPointsPlugin)}
+
+    def __init__(self):
+        super(MarkersManager, self).__init__(ExternalFlashSettings(BATTLE_VIEW_ALIASES.MARKERS_2D, self.MARKERS_MANAGER_SWF, b'root.vehicleMarkersCanvas', ROOT_SWF_CONSTANTS.BATTLE_VEHICLE_MARKERS_REGISTER_CALLBACK))
+        self.__plugins = None
+        self.__canvas = None
+        self.__ids = set()
+        self.__isIBCEnabled = False
+        self.__isStickyEnabled = False
+        self.__showBaseMarkers = False
+        self.__showLocationMarkers = False
+        return
+
+    @property
+    def _isMarkerHoveringEnabled(self):
+        sessionProvider = dependency.instance(IBattleSessionProvider)
+        arenaVisitor = sessionProvider.arenaVisitor
+        return self.__isIBCEnabled and not (arenaVisitor.gui.isBootcampBattle() or sessionProvider.getCtx().isPlayerObserver() or arenaVisitor.gui.isBattleRoyale())
+
+    def setScaleProps(self, minScale=40, maxScale=100, defScale=100, speed=3.0):
+        self.__canvas.scaleProperties = (
+         minScale, maxScale, defScale, speed)
+        return
+
+    def setMarkerSettings(self, markerSettings, notify=False):
+        self.as_setMarkerSettingsS(markerSettings)
+        if notify:
+            self.as_updateMarkersSettingsS()
+        return
+
+    def setColorsSchemes(self, defaultSchemes, colorBlindSchemes):
+        self.as_setColorSchemesS(defaultSchemes, colorBlindSchemes)
+        return
+
+    def setColorBlindFlag(self, isColorBlind):
+        self.as_setColorBlindS(isColorBlind)
+        return
+
+    def setShowExInfoFlag(self, flag):
+        if self.owner is None or not self.owner.isModalViewShown():
+            self.as_setShowExInfoFlagS(flag)
+        return
+
+    def createMarker(self, symbol, matrixProvider=None, active=True, markerType=CommonMarkerType.NORMAL):
+        if active and matrixProvider is None:
+            raise SoftException((b'Active marker {} must has matrixProvider').format(symbol))
+        markerID = self.__canvas.addMarker(matrixProvider, symbol, active, markerType)
+        self.__ids.add(markerID)
+        return markerID
+
+    def setMarkerActive(self, markerID, active):
+        if markerID in self.__ids:
+            self.__canvas.markerSetActive(markerID, active)
+        else:
+            _logger.error(b'Marker %d is not added by given ID. Ids: %s. Active: %d', markerID, self.__ids, active)
+        return
+
+    def setMarkerSticky(self, markerID, isSticky):
+        if self.__isStickyEnabled and self.__isIBCEnabled:
+            self.__canvas.markerSetSticky(markerID, isSticky)
+        return
+
+    def setMarkerRenderInfo(self, markerID, minScale, bounds, innerBounds, cullDistance, markerBoundsScale):
+        self.__canvas.markerSetRenderInfo(markerID, minScale, bounds, innerBounds, cullDistance, markerBoundsScale)
+        return
+
+    def setMarkerLocationOffset(self, markerID, minYOffset, maxYOffset, distanceForMinYOffset, maxBoost, boostStart):
+        self.__canvas.markerSetLocationOffset(markerID, minYOffset, maxYOffset, distanceForMinYOffset, maxBoost, boostStart)
+        return
+
+    def setMarkerBoundCheckEnabled(self, markerID, enabled):
+        self.__canvas.markerSetBoundCheckEnabled(markerID, enabled)
+        return
+
+    def setMarkerObjectInFocus(self, markerID, inFocus):
+        if not self._isMarkerHoveringEnabled:
+            return
+        self.__canvas.markerSetMarkerObjectInFocus(markerID, inFocus)
+        return
+
+    def setMarkerMinScale(self, markerID, minScale):
+        self.__canvas.markerSetMinScale(markerID, minScale)
+        return
+
+    def setMarkerMatrix(self, markerID, matrix):
+        if markerID in self.__ids:
+            self.__canvas.markerSetMatrix(markerID, matrix)
+        else:
+            _logger.error(b'Marker %d is not added by given ID. Ids: %s. Matrix: %s', markerID, self.__ids, matrix)
+        return
+
+    def destroyMarker(self, markerID):
+        if self.__canvas:
+            if markerID in self.__ids:
+                self.__canvas.delMarker(markerID)
+                self.__ids.discard(markerID)
+            else:
+                _logger.error(b'Marker %d is not added by given ID. Ids: %s', markerID, self.__ids)
+        return
+
+    def invokeMarker(self, markerID, *signature):
+        if markerID in self.__ids:
+            self.__canvas.markerInvoke(markerID, signature)
+        else:
+            _logger.error(b'Marker %d is not added by given ID. Ids: %s. Signature: %s', markerID, self.__ids, signature)
+        return
+
+    def updateCameraAimOffset(self, offset):
+        self.__canvas.updateCameraAimOffset(offset)
+        return
+
+    def setActiveCameraAimOffset(self, aimOffset):
+        self.__canvas.activeCameraAimOffset = aimOffset
+        return
+
+    def getPlugin(self, name):
+        if self.__plugins is not None:
+            return self.__plugins.getPlugin(name)
+        else:
+            return
+
+    def startPlugins(self):
+        if not isPlayerAvatar():
+            log = _logger.warning if BattleReplay.g_replayCtrl.isPlaying else _logger.error
+            log(b'Failed to start plugins for %s', self.__class__.__name__)
+            return
+        else:
+            sessionProvider = dependency.instance(IBattleSessionProvider)
+            if sessionProvider is not None:
+                arenaVisitor = sessionProvider.arenaVisitor
+                self.__addCanvas(sessionProvider, arenaVisitor)
+                self.__setMarkerDuration()
+                self.__createPlugins(arenaVisitor)
+                self.fireEvent(MarkersManagerEvent(MarkersManagerEvent.MARKERS_CREATED, self), EVENT_BUS_SCOPE.BATTLE)
+            else:
+                _logger.error(b'Could not create component due to data missing')
+            return
+
+    def stopPlugins(self):
+        self.__destroyPlugins()
+        self.__removeCanvas()
+        return
+
+    def getCurrentlyAimedAtMarkerIDAndType(self):
+        if not self._isMarkerHoveringEnabled:
+            return (INVALID_MARKER_ID, MarkerType.INVALID_MARKER_TYPE, INVALID_MARKER_SUBTYPE)
+        else:
+            aimedAtMarkerID = self.__canvas.getAimedAtMarker()
+            if aimedAtMarkerID is None:
+                return (INVALID_MARKER_ID, MarkerType.INVALID_MARKER_TYPE, INVALID_MARKER_SUBTYPE)
+            for pluginName in self.__plugins:
+                plugin = self.__plugins.getPlugin(pluginName)
+                if plugin is None:
+                    continue
+                targetID = plugin.getTargetIDFromMarkerID(aimedAtMarkerID)
+                if targetID > -1:
+                    return (targetID, plugin.getMarkerType(), plugin.getMarkerSubtype(targetID))
+
+            return (
+             INVALID_MARKER_ID, MarkerType.INVALID_MARKER_TYPE, INVALID_MARKER_SUBTYPE)
+
+    def createExternalComponent(self):
+        super(MarkersManager, self).createExternalComponent()
+        self.component.inputKeyMode = InputKeyMode.NO_HANDLE
+        self.component.position.z = DEPTH_OF_VehicleMarker
+        self.component.drawWithRestrictedViewPort = False
+        self.movie.backgroundAlpha = 0
+        return
+
+    def _populate(self):
+        super(MarkersManager, self)._populate()
+        self.__isIBCEnabled = bool(self.settingsCore.getSetting(BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION))
+        self.__isStickyEnabled = bool(self.settingsCore.getSetting(BattleCommStorageKeys.SHOW_STICKY_MARKERS))
+        self.__showBaseMarkers = bool(self.settingsCore.getSetting(BattleCommStorageKeys.SHOW_BASE_MARKERS))
+        self.__showLocationMarkers = bool(self.settingsCore.getSetting(BattleCommStorageKeys.SHOW_LOCATION_MARKERS))
+        self.settingsCore.onSettingsChanged += self.__onSettingsChange
+        self.startPlugins()
+        return
+
+    def _dispose(self):
+        self.stopPlugins()
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChange
+        super(MarkersManager, self)._dispose()
+        return
+
+    def _createCanvas(self, arenaVisitor):
+        return GUI.VehicleMarkersCanvasFlashAS3(self.movie)
+
+    def _setupPlugins(self, arenaVisitor):
+        setup = {b'eventBus': (plugins.EventBusPlugin), 
+           b'equipments': (plugins.EquipmentsMarkerPlugin), 
+           b'vehiclesTargets': (plugins.VehicleMarkerTargetPlugin), 
+           b'controlMode': (plugins.ControlModePlugin), 
+           b'area_markers': (plugins.AreaMarkerPlugin)}
+        if self.__showBaseMarkers:
+            setup[b'teamAndControlPoints'] = plugins.TeamsOrControlsPointsPlugin
+        if self.__showLocationMarkers:
+            setup[b'area'] = plugins.AreaStaticMarkerPlugin
+        if BattleReplay.g_replayCtrl.isPlaying:
+            setup[b'vehiclesTargets'] = plugins.VehicleMarkerTargetPluginReplayPlaying
+        if BattleReplay.g_replayCtrl.isRecording:
+            setup[b'vehiclesTargets'] = plugins.VehicleMarkerTargetPluginReplayRecording
+        if arenaVisitor.hasRespawns() or arenaVisitor.isEnableExternalRespawn():
+            setup[b'vehicles'] = vehicle_plugins.RespawnableVehicleMarkerPlugin
+        else:
+            setup[b'vehicles'] = vehicle_plugins.VehicleMarkerPlugin
+        setup[b'settings'] = plugins.SettingsPlugin
+        setup[b'map_zones'] = MapZonesPlugin
+        return setup
+
+    def __addCanvas(self, sessionProvider, arenaVisitor):
+        self.__canvas = self._createCanvas(arenaVisitor)
+        self.__canvas.script = self
+        self.__canvas.inputKeyMode = InputKeyMode.NO_HANDLE
+        self.__canvas.scaleProperties = GUI_SETTINGS.markerScaleSettings
+        self.__canvas.stickyMarkerRadiusScale = _STICKY_MARKER_RADIUS_SCALE
+        self.enableMarkerHovering()
+        self.__canvasProxy = weakref.ref(self.__canvas)
+        self.component.addChild(self.__canvas, b'vehicleMarkersCanvas')
+        return
+
+    def __removeCanvas(self):
+        if self.__canvas is not None:
+            self.component.delChild(self.__canvas)
+        self.__canvas = None
+        self.__canvasProxy = None
+        return
+
+    def __setMarkerDuration(self):
+        self.as_setMarkerDurationS(GUI_SETTINGS.markerHitSplashDuration)
+        return
+
+    def __createPlugins(self, arenaVisitor):
+        setup = self._setupPlugins(arenaVisitor)
+        self.__plugins = PluginsCollection(self)
+        self.__plugins.addPlugins(setup)
+        self.__plugins.init()
+        self.__plugins.start()
+        return
+
+    def __destroyPlugins(self):
+        if self.__plugins is not None:
+            self.__plugins.stop()
+            self.__plugins.fini()
+        return
+
+    def enableMarkerHovering(self):
+        if self.__canvas:
+            self.__canvas.enableMarkerHovering = self._isMarkerHoveringEnabled
+        return
+
+    def __onSettingsChange(self, diff):
+        addSettings = {}
+        for item in diff:
+            if item in (BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION, BattleCommStorageKeys.SHOW_STICKY_MARKERS,
+             BattleCommStorageKeys.SHOW_BASE_MARKERS, BattleCommStorageKeys.SHOW_LOCATION_MARKERS):
+                addSettings[item] = diff[item]
+
+        if not addSettings:
+            return
+        newIBCEnabled = bool(addSettings.get(BattleCommStorageKeys.ENABLE_BATTLE_COMMUNICATION, self.__isIBCEnabled))
+        newShowBaseMarkers = bool(addSettings.get(BattleCommStorageKeys.SHOW_BASE_MARKERS, self.__showBaseMarkers))
+        newIsSticky = bool(addSettings.get(BattleCommStorageKeys.SHOW_STICKY_MARKERS, self.__isStickyEnabled))
+        new3DMarkers = bool(addSettings.get(BattleCommStorageKeys.SHOW_LOCATION_MARKERS, self.__showLocationMarkers))
+        if newIBCEnabled != self.__isIBCEnabled:
+            self.__isIBCEnabled = newIBCEnabled
+            self.enableMarkerHovering()
+        if not newIsSticky:
+            for markerId in self.__ids:
+                self.__canvas.markerSetSticky(markerId, False)
+
+        if newShowBaseMarkers != self.__showBaseMarkers:
+            self.__setPlugin(pluginName=b'teamAndControlPoints', startPlugin=newShowBaseMarkers)
+            self.__showBaseMarkers = newShowBaseMarkers
+        if new3DMarkers != self.__showLocationMarkers:
+            self.__setPlugin(pluginName=b'area', startPlugin=new3DMarkers)
+            self.__showLocationMarkers = new3DMarkers
+        self.__isStickyEnabled = newIsSticky
+        return
+
+    def __setPlugin(self, pluginName, startPlugin):
+        plugin = self.__plugins.getPlugin(pluginName)
+        if not plugin and startPlugin:
+            self.__plugins.addPlugins({pluginName: (self.setablePluginsDict[pluginName])})
+            plugin = self.__plugins.getPlugin(pluginName)
+            plugin.init()
+        if startPlugin:
+            plugin.start()
+        elif plugin:
+            plugin.stop()
+        return

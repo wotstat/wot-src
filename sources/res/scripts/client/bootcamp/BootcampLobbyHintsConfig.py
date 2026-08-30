@@ -1,0 +1,65 @@
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from Bootcamp import BOOTCAMP_UI_COMPONENTS
+
+class BootcampLobbyHintsConfig:
+    battleButton = {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_INTRO_VIDEO), 
+       b'path': b'btnSelect', 
+       b'hideBorder': True, 
+       b'customHint': b'BCIconTextBigButtonFxUI'}
+    objects = {b'InBattleRepairKit': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                              b'path': b'consumablesPanel:index=slotIndex', 
+                              b'slotIndex': 4, 
+                              b'customHint': b'BCHudConsumableHintUI', 
+                              b'padding': {b'left': 6, b'right': (-6), b'top': 28, b'bottom': (-6)}}, 
+       b'InBattleHealKit': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                            b'path': b'consumablesPanel:index=slotIndex', 
+                            b'slotIndex': 3, 
+                            b'customHint': b'BCHudConsumableHintUI', 
+                            b'padding': {b'left': 6, b'right': (-6), b'top': 28, b'bottom': (-6)}}, 
+       b'InBattleExtinguisher': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                                 b'path': b'consumablesPanel:index=slotIndex', 
+                                 b'slotIndex': 5, 
+                                 b'customHint': b'BCHudConsumableHintUI', 
+                                 b'padding': {b'left': 6, b'right': (-6), b'top': 28, b'bottom': (-6)}}, 
+       b'FragCorrelationBar': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                               b'path': b'fragCorrelationBar', 
+                               b'padding': {b'bottom': (-7)}, b'customHint': b'BCAppearFragCorrelationHintUI'}, 
+       b'Minimap': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                    b'path': b'minimap.mapHit', 
+                    b'padding': {b'left': (-15), b'top': (-15), b'right': 2, b'bottom': 2}, b'customHint': b'BCHudMinimapHintUI'}, 
+       b'ConsumablesAppear': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                              b'path': b'consumablesPanel:index=slotIndex.iconLoader', 
+                              b'slotIndex': 4, 
+                              b'customHint': b'BCAppearEquipmentHintUI'}, 
+       b'MinimapAppear': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                          b'path': b'minimap.background', 
+                          b'padding': {b'left': (-14), b'right': 1, b'top': (-14), b'bottom': 1}, b'customHint': b'BCAppearMinimapHintUI'}, 
+       b'ConsumableSlot4': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                            b'path': b'consumablesPanel:index=slotIndex.iconLoader', 
+                            b'slotIndex': 3, 
+                            b'customHint': b'BCHudTintHintUI'}, 
+       b'ConsumableSlot5': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                            b'path': b'consumablesPanel:index=slotIndex.iconLoader', 
+                            b'slotIndex': 4, 
+                            b'customHint': b'BCHudTintHintUI'}, 
+       b'ConsumableSlot6': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                            b'path': b'consumablesPanel:index=slotIndex.iconLoader', 
+                            b'slotIndex': 5, 
+                            b'customHint': b'BCHudTintHintUI'}, 
+       b'DamagePanelHealthbar': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_BATTLE_PAGE), 
+                                 b'path': b'damagePanel.healthBar', 
+                                 b'customHint': b'BCHudTintHintUI'}, 
+       b'LoadingRightButton': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_INTRO_VIDEO), 
+                               b'path': b'btnRight', 
+                               b'customHint': b'BCHudTintHintUI'}, 
+       b'LoadingLeftButton': {b'viewAlias': (VIEW_ALIAS.BOOTCAMP_INTRO_VIDEO), 
+                              b'path': b'btnLeft', 
+                              b'customHint': b'BCHudTintHintUI'}, 
+       (BOOTCAMP_UI_COMPONENTS.START_BATTLE_BUTTON): battleButton, 
+       (BOOTCAMP_UI_COMPONENTS.WELCOME_START_BATTLE_BUTTON): battleButton}
+
+    def getItems(self):
+        return self.objects
+
+
+g_bootcampHintsConfig = BootcampLobbyHintsConfig()

@@ -1,0 +1,297 @@
+import logging, typing
+from account_helpers.offers.events_data import OfferEventData, OfferGift
+from adisp import adisp_process
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.impl.backport import createTooltipData
+from gui.selectable_reward.constants import FEATURE_TO_PREFIX, Features
+from gui.server_events.bonuses import SelectableBonus
+from gui.shared.gui_items.processors import makeError
+from gui.shared.gui_items.processors.offers import ReceiveMultipleOfferGiftsProcessor, ReceiveOfferGiftProcessor, BattleMattersOfferProcessor
+from helpers import dependency
+from personal_missions_constants import PM3_OFFER_TOKEN_PREFIX
+from shared_utils import first
+from skeletons.gui.battle_matters import IBattleMattersController
+from skeletons.gui.offers import IOffersDataProvider
+from skeletons.gui.shared import IItemsCache
+if typing.TYPE_CHECKING:
+    from typing import Callable, Dict, List, Tuple
+    from gui.SystemMessages import ResultMsg
+_logger = logging.getLogger(__name__)
+
+class SelectableRewardManager(object):
+    _itemsCache = dependency.descriptor(IItemsCache)
+    _offersDataProvider = dependency.descriptor(IOffersDataProvider)
+    _FEATURE = None
+    _SINGLE_GIFT_PROCESSOR = ReceiveOfferGiftProcessor
+    _MULTIPLE_GIFT_PROCESSOR = ReceiveMultipleOfferGiftsProcessor
+
+    @classmethod
+    def isFeatureReward(cls, tokenID):
+        return tokenID.startswith(FEATURE_TO_PREFIX.get(cls._FEATURE))
+
+    @classmethod
+    @adisp_process
+    def chooseReward(cls, bonus, giftID, callback):
+        offer = cls._getBonusOffer(bonus)
+        result = yield cls._SINGLE_GIFT_PROCESSOR(offer.id, giftID, skipConfirm=True).request()
+        callback(result)
+        return
+
+    @classmethod
+    @adisp_process
+    def chooseRewards(cls, bonusChoices, callback):
+        choices = {}
+        for bonus, giftIDs in bonusChoices:
+            offer = cls._getBonusOffer(bonus)
+            if offer is None:
+                _logger.error(b'Offer for %s is None!', bonus)
+                callback(makeError())
+                return
+            choices.setdefault(offer.id, [])
+            choices[offer.id].extend(giftIDs)
+
+        result = yield cls._MULTIPLE_GIFT_PROCESSOR(choices).request()
+        callback(result)
+        return
+
+    @classmethod
+    def getBonusOptions(cls, bonus):
+        if not isinstance(bonus, SelectableBonus):
+            return {}
+        offer = cls._getBonusOffer(bonus)
+        return {gift.id: {b'option': (gift.bonus), b'count': (gift.giftCount), b'limit': (gift.limit())} for gift in offer.getAllGifts()}
+
+    @staticmethod
+    def defaultGiftExtractor(gift, count):
+        return (gift.bonus, count)
+
+    @staticmethod
+    def giftBonusesExtractor(gift, *_):
+        return gift.bonuses
+
+    @staticmethod
+    def giftRawBonusesExtractor(gift, *_):
+        return gift.rawBonuses
+
+    @classmethod
+    def getBonusReceivedOptions(cls, bonus, extractor=None):
+        if not isinstance(bonus, SelectableBonus):
+            return []
+        else:
+            extractor = extractor or cls.defaultGiftExtractor
+            offer = cls._getBonusOffer(bonus)
+            result = []
+            receivedGifts = cls._offersDataProvider.getReceivedGifts(offer.id)
+            for giftId, count in receivedGifts.iteritems():
+                if count > 0:
+                    gift = offer.getGift(giftId)
+                    if gift is not None:
+                        result.append(extractor(gift, count))
+
+            return result
+
+    @classmethod
+    def isAvailableBonus(cls, tokenID):
+        offer = cls._offersDataProvider.getOfferByToken(tokenID)
+        return offer is not None and offer.isOfferAvailable
+
+    @classmethod
+    def getAvailableSelectableBonuses(cls, condition=None):
+        return cls.getSelectableBonuses((lambda tokenID: cls.isAvailableBonus(tokenID) and (not callable(condition) or condition(tokenID))))
+
+    @classmethod
+    def getSelectableBonuses(cls, condition=None):
+        return [cls._createSelectableBonus(tokenID, token) for tokenID, token in cls._itemsCache.items.tokens.getTokens().iteritems() if cls.isFeatureReward(tokenID) and (not callable(condition) or condition(tokenID))]
+
+    @classmethod
+    def getRemainedChoices(cls, bonus):
+        offer = cls._getBonusOffer(bonus)
+        if offer is None:
+            return 0
+        else:
+            return offer.availableTokens
+
+    @classmethod
+    def getGiftTokenCount(cls, bonus):
+        offer = cls._getBonusOffer(bonus)
+        if offer is None:
+            return 0
+        else:
+            offerDataReceivedGifts = cls._offersDataProvider.getReceivedGifts(offer.id)
+            countReceivedGifts = sum(offerDataReceivedGifts.itervalues())
+            return offer.availableTokens + countReceivedGifts
+
+    @classmethod
+    def getTokenByGiftToken(cls, giftToken):
+        offer = cls._offersDataProvider.getOfferByGiftToken(giftToken)
+        if offer is None:
+            return
+        else:
+            return offer.token
+
+    @classmethod
+    def getRemainedChoicesForFeature(cls):
+        result = 0
+        for token in cls.__getFeatureTokens():
+            offer = cls._offersDataProvider.getOfferByToken(token)
+            if offer is not None:
+                result += offer.availableTokens
+
+        return result
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        return
+
+    @classmethod
+    def getRewardProperties(cls, tokenID):
+        offer = cls._offersDataProvider.getOfferByToken(tokenID)
+        if offer is None:
+            return {}
+        else:
+            return offer.properties
+
+    @classmethod
+    def _createSelectableBonus(cls, tokenID, token):
+        return SelectableBonus({tokenID: (cls._packTokenData(token))})
+
+    @classmethod
+    def _getBonusOffer(cls, bonus):
+        return cls._offersDataProvider.getOfferByToken(cls._getBonusOfferToken(bonus))
+
+    @classmethod
+    def _getBonusOfferToken(cls, bonus):
+        tokenID = first(bonus.getValue().keys())
+        return tokenID.replace(b'_gift', b'')
+
+    @classmethod
+    def _packTokenData(cls, token):
+        expiresAfter, count = token
+        return {b'count': count, b'expires': {b'after': expiresAfter}, b'limit': 0}
+
+    @classmethod
+    def __getFeatureTokens(cls):
+        return {tokenID: token for tokenID, token in cls._itemsCache.items.tokens.getTokens().iteritems() if cls.isFeatureReward(tokenID)}
+
+
+class BattlePassSelectableRewardManager(SelectableRewardManager):
+    _FEATURE = Features.BATTLE_PASS
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        tokenID = selectableBonus.getValue().keys()[0]
+        if cls.isFeatureReward(tokenID):
+            return createTooltipData(tooltip=None, isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.BATTLE_PASS_GIFT_TOKEN, specialArgs=[
+             _getGiftTokenFromOffer(tokenID), True])
+        else:
+            return
+
+
+class PersonalMissionsSelectableRewardManager(SelectableRewardManager):
+    _FEATURE = Features.PERSONAL_MISSIONS
+    __REWARD_EXTRA_ENDING = b'_gift'
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        tokenID = selectableBonus.getValue().keys()[0]
+        if cls.__REWARD_EXTRA_ENDING in tokenID:
+            tokenID = tokenID.replace(cls.__REWARD_EXTRA_ENDING, b'')
+        if cls.isFeatureReward(tokenID):
+            return createTooltipData(tooltip=None, isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.BATTLE_PASS_GIFT_TOKEN, specialArgs=[
+             _getGiftTokenFromOffer(tokenID), True])
+        else:
+            return
+
+    @classmethod
+    def isAvailableBonus(cls, tokenID):
+        if tokenID.startswith(PM3_OFFER_TOKEN_PREFIX):
+            tokenID = tokenID.replace(PersonalMissionsSelectableRewardManager.__REWARD_EXTRA_ENDING, b'')
+        offer = cls._offersDataProvider.getOfferByToken(tokenID)
+        return offer is not None and offer.isOfferAvailable
+
+
+class RankedSelectableRewardManager(SelectableRewardManager):
+    _FEATURE = Features.RANKED
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        tokenID = selectableBonus.getValue().keys()[0]
+        if cls.isFeatureReward(tokenID):
+            return createTooltipData(tooltip=None, isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.BATTLE_PASS_GIFT_TOKEN, specialArgs=[
+             _getGiftTokenFromOffer(tokenID), True])
+        else:
+            return
+
+
+class StrongholdSelectableRewardManager(SelectableRewardManager):
+    _FEATURE = Features.STRONGHOLD
+    _BONUS_COUNT = 1
+
+    @classmethod
+    def _makeCustomGifts(cls, offer):
+        allGifts = []
+        for giftID, settings in offer._data.get(b'gift', {}).iteritems():
+            bonus = settings.get(b'bonus', {})
+            if b'customizations' in bonus.keys():
+                bonus[b'clans_customizations'] = bonus.pop(b'customizations')
+            allGifts.append(OfferGift(giftID, settings))
+
+        return allGifts
+
+    @classmethod
+    def getBonusOptions(cls, bonus):
+        if not isinstance(bonus, SelectableBonus):
+            return {}
+        offer = cls._getBonusOffer(bonus)
+        allGifts = cls._makeCustomGifts(offer)
+        return {gift.id: {b'option': (gift.bonus), b'count': (cls._BONUS_COUNT), b'limit': (gift.limit())} for gift in allGifts}
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        tokenID = selectableBonus.getValue().keys()[0]
+        if cls.isFeatureReward(tokenID):
+            return createTooltipData(tooltip=None, isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.BATTLE_PASS_GIFT_TOKEN, specialArgs=[
+             _getGiftTokenFromOffer(tokenID), True])
+        else:
+            return
+
+
+class EpicSelectableRewardManager(SelectableRewardManager):
+    _FEATURE = Features.EPIC
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        tokenID = selectableBonus.getValue().keys()[0]
+        if cls.isFeatureReward(tokenID):
+            return createTooltipData(tooltip=None, isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.EPIC_BATTLE_INSTRUCTION_TOOLTIP, specialArgs=[
+             _getGiftTokenFromOffer(tokenID)])
+        else:
+            return
+
+    @classmethod
+    def isAvailableBonus(cls, tokenID):
+        offer = cls._offersDataProvider.getOfferByGiftToken(tokenID)
+        return offer is not None and offer.isOfferAvailable
+
+
+class BattleMattersSelectableRewardManager(SelectableRewardManager):
+    _battleMattersController = dependency.descriptor(IBattleMattersController)
+    _SINGLE_GIFT_PROCESSOR = BattleMattersOfferProcessor
+
+    @classmethod
+    def isFeatureReward(cls, tokenID):
+        return cls._battleMattersController.isDelayedRewardToken(tokenID)
+
+    @classmethod
+    def getTabTooltipData(cls, selectableBonus):
+        return
+
+    @classmethod
+    def getBonusOffer(cls, bonus):
+        return cls._getBonusOffer(bonus)
+
+
+def _getGiftTokenFromOffer(offerToken):
+    splitToken = offerToken.split(b':')
+    splitToken[2] += b'_gift'
+    return (b':').join(splitToken)

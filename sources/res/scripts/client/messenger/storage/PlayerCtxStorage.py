@@ -1,0 +1,117 @@
+import types, Event
+from constants import ACCOUNT_ATTR
+from debug_utils import LOG_WARNING
+from messenger.storage import SimpleCachedStorage
+
+class PlayerCtxStorage(SimpleCachedStorage):
+    __slots__ = (b'__accAttrs', b'__clanInfo', b'__banInfo', b'__cachedItems', b'__eManager', b'__denunciations', b'onAccountAttrsChanged', b'onClanInfoChanged')
+
+    def __init__(self):
+        super(PlayerCtxStorage, self).__init__()
+        self.__accAttrs = 0
+        self.__clanInfo = None
+        self.__banInfo = None
+        self.__cachedItems = {b'lastVoipUri': b''}
+        self.__denunciations = set()
+        self.__eManager = Event.EventManager()
+        self.onAccountAttrsChanged = Event.Event(self.__eManager)
+        self.onClanInfoChanged = Event.Event(self.__eManager)
+        return
+
+    def __repr__(self):
+        return (b'PlayerCtxStorage(id=0x{0:08X}, accAttrs={1:n}, clanInfo={2!r:s})').format(id(self), self.__accAttrs, self.__clanInfo)
+
+    def clear(self):
+        self.__accAttrs = 0
+        self.__clanInfo = None
+        self.__eManager.clear()
+        self.__denunciations.clear()
+        return
+
+    def getClanInfo(self):
+        return self.__clanInfo
+
+    def getClanAbbrev(self):
+        if self.__clanInfo:
+            return self.__clanInfo.abbrev
+        return b''
+
+    def getClanRole(self):
+        if self.__clanInfo:
+            return self.__clanInfo.role
+        return 0
+
+    def getClanDbID(self):
+        if self.__clanInfo:
+            return self.__clanInfo.dbID
+        return 0
+
+    def setClanInfo(self, clanInfo):
+        self.__clanInfo = clanInfo
+        self.onClanInfoChanged()
+        return
+
+    def setAccountAttrs(self, accAttrs):
+        if self.__accAttrs ^ accAttrs:
+            self.__accAttrs = accAttrs
+            self.onAccountAttrsChanged()
+        return
+
+    def isGameAdmin(self):
+        return self.__accAttrs & ACCOUNT_ATTR.ADMIN != 0
+
+    def isChatAdmin(self):
+        return self.__accAttrs & ACCOUNT_ATTR.CHAT_ADMIN != 0
+
+    def isBanned(self, components=None):
+        if self.__banInfo:
+            result = self.__banInfo.isBanned(game=self.__banInfo.getCurrentGame(), components=components)
+        else:
+            result = False
+        return result
+
+    def getBanInfo(self):
+        return self.__banInfo
+
+    def setBanInfo(self, banInfo):
+        self.__banInfo = banInfo
+        return
+
+    def hasDenunciationFor(self, violatorID, topicID, arenaUniqueID):
+        return (violatorID, topicID, arenaUniqueID) in self.__denunciations
+
+    def addDenunciationFor(self, violatorID, topicID, arenaUniqueID):
+        self.__denunciations.add((violatorID, topicID, arenaUniqueID))
+        return
+
+    def setCachedItem(self, key, value):
+        if not isinstance(key, types.StringType):
+            LOG_WARNING(b'Key is not string', type(key), key)
+            return
+        if not isinstance(value, types.StringTypes):
+            LOG_WARNING(b'Value is not string', type(value), value)
+            return
+        if key in self.__cachedItems:
+            self.__cachedItems[key] = value
+        else:
+            LOG_WARNING(b'Item is not enabled', key)
+        return
+
+    def getCachedItem(self, key):
+        if key in self.__cachedItems:
+            return self.__cachedItems[key]
+        else:
+            return
+
+    def _getCachedData(self):
+        data = []
+        lastVoipUri = self.__cachedItems[b'lastVoipUri']
+        if lastVoipUri:
+            data.append(lastVoipUri)
+        return data
+
+    def _setCachedData(self, data):
+        lastVoipUri = data.pop(0)
+        if isinstance(lastVoipUri, types.StringType):
+            self.__cachedItems[b'lastVoipUri'] = lastVoipUri
+        return

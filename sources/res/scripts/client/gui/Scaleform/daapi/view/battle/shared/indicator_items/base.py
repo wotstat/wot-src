@@ -1,0 +1,150 @@
+from constants import BigWorld
+from gui.Scaleform.daapi.view.battle.shared.indicator_items.indicators_storage import g_indicatorsStorage
+from gui.shared import EVENT_BUS_SCOPE, events
+from skeletons.gui.battle_session import IBattleSessionProvider
+from gui.Scaleform.daapi.view.meta.CommonIndicatorMeta import CommonIndicatorMeta
+from gui.battle_control.battle_constants import CROSSHAIR_VIEW_ID, VEHICLE_VIEW_STATE
+from helpers import dependency
+from helpers.events_handler import EventsHandler
+
+class BaseIndicator(CommonIndicatorMeta, EventsHandler):
+    __slots__ = (b'__isAllowedByContext', b'__isEnabled')
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self):
+        super(BaseIndicator, self).__init__()
+        self.__isAllowedByContext = False
+        self.__isEnabled = False
+        return
+
+    @property
+    def attachedVehicle(self):
+        avatar = BigWorld.player()
+        if avatar and avatar.vehicle:
+            return avatar.vehicle
+        else:
+            return
+
+    def setState(self, state):
+        raise NotImplementedError
+        return
+
+    def isValidVehicle(self, vehicle):
+        raise NotImplementedError
+        return
+
+    @staticmethod
+    def componentName():
+        raise NotImplementedError
+        return
+
+    def _populate(self):
+        super(BaseIndicator, self)._populate()
+        g_indicatorsStorage.add(self.componentName(), self)
+        self.addListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, EVENT_BUS_SCOPE.BATTLE)
+        self.__onVehicleControlling(self.attachedVehicle)
+        self._subscribe()
+        self.__updateVisibility()
+        return
+
+    def _dispose(self):
+        self._unsubscribe()
+        self.removeListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, scope=EVENT_BUS_SCOPE.BATTLE)
+        g_indicatorsStorage.pop(self.componentName())
+        super(BaseIndicator, self)._dispose()
+        return
+
+    def _getEvents(self):
+        result = ()
+        result += self.__getCrosshairEvents()
+        result += self.__getComp7Events()
+        result += self.__getVehicleStateEvents()
+        return result
+
+    def _setVisible(self, state):
+        self.__isEnabled = state
+        self.__updateVisibility()
+        return
+
+    def __getCrosshairEvents(self):
+        crosshairCtrl = self.__sessionProvider.shared.crosshair
+        if crosshairCtrl is None:
+            return ()
+        else:
+            return (
+             (
+              crosshairCtrl.onCrosshairPositionChanged, self._updateScale),
+             (
+              crosshairCtrl.onCrosshairScaleChanged, self._updateScale),
+             (
+              crosshairCtrl.onCrosshairViewChanged, self.__onCrosshairViewChanged))
+
+    def __getComp7Events(self):
+        prbCtrl = self.__sessionProvider.dynamic.comp7PrebattleSetup
+        if prbCtrl is None:
+            return ()
+        else:
+            return (
+             (
+              prbCtrl.onBattleStarted, self.__onComp7BattleStarted),)
+
+    def __getVehicleStateEvents(self):
+        vStateCtrl = self.__sessionProvider.shared.vehicleState
+        if vStateCtrl is None:
+            return ()
+        else:
+            return (
+             (
+              vStateCtrl.onVehicleStateUpdated, self.__onVehicleStateUpdated),
+             (
+              vStateCtrl.onVehicleControlling, self.__onVehicleControlling))
+
+    def __onComp7BattleStarted(self):
+        self.__isAllowedByContext = self.__isComp7IndicatorAllowed()
+        self.__updateVisibility()
+        return
+
+    def __onVehicleControlling(self, vehicle):
+        if vehicle is None:
+            return
+        else:
+            self._setVisible(self.isValidVehicle(vehicle))
+            return
+
+    def __onVehicleStateUpdated(self, state, value):
+        if state == VEHICLE_VIEW_STATE.DESTROYED:
+            self.__updateDestroyed(value)
+            return
+        if state == VEHICLE_VIEW_STATE.CREW_DEACTIVATED:
+            self.__updateDestroyed(value)
+            return
+        return
+
+    def __updateDestroyed(self, _):
+        self.as_setVisibleS(False)
+        return
+
+    def _updateScale(self, *_):
+        self.as_updateLayoutS(*self.__sessionProvider.shared.crosshair.getScaledPosition())
+        self.__updateVisibility()
+        return
+
+    def __onCrosshairViewChanged(self, viewID):
+        if viewID == CROSSHAIR_VIEW_ID.UNDEFINED:
+            self.as_setVisibleS(False)
+        else:
+            self.__updateVisibility()
+        return
+
+    def __updateVisibility(self):
+        self.as_setVisibleS(self.__isEnabled and self.__isAllowedByContext)
+        return
+
+    def __handleBattleLoading(self, event):
+        self.__isAllowedByContext = not event.ctx[b'isShown'] and self.__isComp7IndicatorAllowed()
+        self.__updateVisibility()
+        return
+
+    def __isComp7IndicatorAllowed(self):
+        prebattleCtrl = self.__sessionProvider.dynamic.comp7PrebattleSetup
+        return prebattleCtrl is None or prebattleCtrl.isVehicleStateIndicatorAllowed()

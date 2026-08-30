@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:23_westfeld/name</name>
+	<description>#arenas:23_westfeld/description</description>
+	<geometry>spaces/23_westfeld</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500 -500</bottomLeft>
+		<upperRight>500 500</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/23_westfeld/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_westfield_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_westfield_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_westfield_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_westfield_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_westfield_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_westfield_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_23_westfield_wind_spring</wwambientSound>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-300.099518 -339.599609</position1>
+				</team1>
+				<team2>
+					<position1>339.399506 299.766785</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-399.89801 57.2120018</position>
+				</team1>
+				<team2>
+					<position>-33.1419983 407.04599</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>57.8327599 -26.8808746</controlPoint>
+		</domination>
+		<comp7>
+			<teamSpawnPoints>
+				<team1>
+					<position>8.62153625 405.434967</position>
+				</team1>
+				<team2>
+					<position>-398.561005 -21.9890003</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>66.3089981 -43.2060013</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>124.584 91.2539978</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>-117.147003 -132.162003</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>-136.29512 126.955276</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>-412.713318 376.435913</position>
+					<type>2</type>
+				</point>
+			</pointsOfInterestUDO>
+			<controlPoint>-290.223999 275.864014</controlPoint>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>7.19874382 403.638824</position>
+				</team1>
+				<team2>
+					<position>-398.668243 -23.5691528</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<controlPoint>-290.223999 275.864014</controlPoint>
+		</bob>
+	</gameplayTypes>
+</root>

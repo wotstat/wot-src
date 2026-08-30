@@ -1,0 +1,557 @@
+import WWISE, BigWorld, ResMgr
+from PlayerEvents import g_playerEvents
+from constants import ARENA_PERIOD
+from helpers import isPlayerAvatar
+from items import _xml
+from helpers import dependency
+from skeletons.gui.game_control import ISpecialSoundCtrl
+MUSIC_EVENT_NONE = 0
+MUSIC_EVENT_LOBBY = 2
+MUSIC_EVENT_COMBAT = 3
+MUSIC_EVENT_COMBAT_LOADING = 4
+MUSIC_EVENT_COMBAT_VICTORY = 5
+MUSIC_EVENT_COMBAT_LOSE = 6
+MUSIC_EVENT_COMBAT_DRAW = 7
+MUSIC_EVENT_SOUND_EXIT = 8
+_BATTLE_RESULT_MUSIC_EVENTS = (
+ MUSIC_EVENT_COMBAT_VICTORY, MUSIC_EVENT_COMBAT_LOSE, MUSIC_EVENT_COMBAT_DRAW)
+AMBIENT_EVENT_NONE = 1000
+AMBIENT_EVENT_LOBBY = 1001
+AMBIENT_EVENT_SHOP = 1002
+AMBIENT_EVENT_STATISTICS = 1003
+AMBIENT_EVENT_COMBAT = 1004
+AMBIENT_EVENT_LOBBY_FORT = 1005
+AMBIENT_EVENT_LOBBY_FORT_FINANCIAL_DEPT = 1006
+AMBIENT_EVENT_LOBBY_FORT_TANKODROME = 1007
+AMBIENT_EVENT_LOBBY_FORT_TRAINING_DEPT = 1008
+AMBIENT_EVENT_LOBBY_FORT_MILITARY_ACADEMY = 1009
+AMBIENT_EVENT_LOBBY_FORT_TRANSPORT_DEPT = 1010
+AMBIENT_EVENT_LOBBY_FORT_INTENDANT_SERVICE = 1011
+AMBIENT_EVENT_LOBBY_FORT_TROPHY_BRIGADE = 1012
+AMBIENT_EVENT_LOBBY_FORT_OFFICE = 1013
+AMBIENT_EVENT_LOBBY_FORT_MILITARY_SHOP = 1014
+FORT_MAPPING = {b'wwfort': AMBIENT_EVENT_LOBBY_FORT, 
+   b'wwfort_building_financial_dept': AMBIENT_EVENT_LOBBY_FORT_FINANCIAL_DEPT, 
+   b'wwfort_building_tankodrome': AMBIENT_EVENT_LOBBY_FORT_TANKODROME, 
+   b'wwfort_building_training_dept': AMBIENT_EVENT_LOBBY_FORT_TRAINING_DEPT, 
+   b'wwfort_building_military_academy': AMBIENT_EVENT_LOBBY_FORT_MILITARY_ACADEMY, 
+   b'wwfort_building_transport_dept': AMBIENT_EVENT_LOBBY_FORT_TRANSPORT_DEPT, 
+   b'wwfort_building_intendant_service': AMBIENT_EVENT_LOBBY_FORT_INTENDANT_SERVICE, 
+   b'wwfort_building_trophy_brigade': AMBIENT_EVENT_LOBBY_FORT_TROPHY_BRIGADE, 
+   b'wwfort_building_office': AMBIENT_EVENT_LOBBY_FORT_OFFICE, 
+   b'wwfort_building_military_shop': AMBIENT_EVENT_LOBBY_FORT_MILITARY_SHOP}
+_ARENA_EVENTS = (
+ MUSIC_EVENT_COMBAT, AMBIENT_EVENT_COMBAT, MUSIC_EVENT_COMBAT_LOADING)
+_CMD_SERVER_CHANGE_HANGAR_AMBIENT = b'cmd_change_hangar_ambient'
+_CMD_SERVER_CHANGE_HANGAR_MUSIC = b'cmd_change_hangar_music'
+_ON_VEHICLE_KILLED_EVENT = b'music_stinger'
+_SERVER_OVERRIDDEN = 0
+_CLIENT_OVERRIDDEN = 1
+_ARENA_PERIOD_STATE_NAME = b'STATE_arenastate'
+_ARENA_PERIOD_STATE = {(ARENA_PERIOD.WAITING): b'STATE_arenastate_waiting', 
+   (ARENA_PERIOD.PREBATTLE): b'STATE_arenastate_counter', 
+   (ARENA_PERIOD.BATTLE): b'STATE_arenastate_battle'}
+_STATE_POSTMORTEM = b'STATE_postmortem_mode'
+_STATE_POSTMORTEM_OFF = b'STATE_postmortem_mode_off'
+_STATE_POSTMORTEM_ON = b'STATE_postmortem_mode_on'
+g_musicController = None
+
+def create():
+    global g_musicController
+    if g_musicController is None:
+        g_musicController = MusicController()
+    return
+
+
+def init(arenaName):
+    global g_musicController
+    if g_musicController is None:
+        g_musicController = MusicController()
+    g_musicController.init(arenaName)
+    return
+
+
+def destroy():
+    if g_musicController is not None:
+        g_musicController.destroy()
+    return
+
+
+def onBecomePlayer():
+    if g_musicController is not None:
+        g_musicController.onBecomePlayer()
+    return
+
+
+def onLeaveArena():
+    if g_musicController is not None:
+        g_musicController.onLeaveArena()
+    return
+
+
+def onEnterArena():
+    if g_musicController is not None:
+        g_musicController.onEnterArena()
+    return
+
+
+def unloadCustomSounds():
+    if g_musicController is not None:
+        g_musicController.unloadCustomSounds()
+    return
+
+
+def play(eventId=None):
+    if g_musicController is not None:
+        if eventId is None:
+            g_musicController.play(MUSIC_EVENT_LOBBY, None, True)
+            g_musicController.play(AMBIENT_EVENT_LOBBY, None, True)
+        else:
+            g_musicController.play(eventId)
+    return
+
+
+def onPostmortemState(enable):
+    if g_musicController is not None:
+        g_musicController.onPostmortemState(enable)
+    return
+
+
+class MusicController(object):
+    __specialSounds = dependency.descriptor(ISpecialSoundCtrl)
+
+    class MusicEvent(object):
+
+        def __init__(self, event=None):
+            self.__muted = False
+            self.__event = event
+            self.__eventID = None
+            return
+
+        def replace(self, event, eventId, unlink=True):
+            if self.__event is not None:
+                if self.__event.name != event.name:
+                    if self.__eventID != MUSIC_EVENT_LOBBY and unlink:
+                        self.__event.unlink()
+                else:
+                    self.__eventID = eventId
+                    if not self.__event.isPlaying:
+                        self.__event.play()
+                    return
+            self.__eventID = eventId
+            self.__event = event
+            self.__event.play()
+            return
+
+        def mute(self, isMute):
+            if self.__event is not None:
+                if isMute != self.__muted:
+                    self.__muted = isMute
+                    if self.__muted:
+                        self.__event.stop()
+                    else:
+                        self.__event.play()
+            return
+
+        def param(self, paramName):
+            if self.__event is not None:
+                return self.__event.param(paramName)
+            else:
+                return
+
+        def getEventId(self):
+            return self.__eventID
+
+        def isPlaying(self):
+            if self.__event is not None:
+                return self.__event.isPlaying
+            else:
+                return False
+
+        def destroy(self, force=False):
+            if self.__event is not None:
+                if force:
+                    self.__event.stop(5.0)
+                else:
+                    self.__event.unlink()
+                self.__event = None
+                self.__eventID = None
+            return
+
+    __lastBattleResultEvents = {}
+
+    def __init__(self):
+        self.__overriddenEvents = {}
+        self.__music = MusicController.MusicEvent()
+        self.__ambient = MusicController.MusicEvent()
+        self.__sndEventMusic = None
+        self.__soundEvents = {MUSIC_EVENT_NONE: None, 
+           AMBIENT_EVENT_NONE: None}
+        self._skipArenaChanges = False
+        self.__vehicleKilled = False
+        self.init()
+        return
+
+    def init(self, path=None):
+        self.__isOnArena = False
+        self.__isPremiumAccount = False
+        if path is not None:
+            self.__loadCustomSounds(path)
+        self.__loadConfig()
+        g_playerEvents.onEventNotificationsChanged += self.__onEventNotificationsChanged
+        return
+
+    def destroy(self):
+        g_playerEvents.onEventNotificationsChanged -= self.__onEventNotificationsChanged
+        self.__eraseOverridden(_CLIENT_OVERRIDDEN)
+        return
+
+    def __del__(self):
+        self.stop()
+        self.__soundEvents.clear()
+        return
+
+    def play(self, eventId, params=None, checkIsPlaying=False):
+        if eventId is None:
+            return
+        else:
+            newSoundEvent = self.__getEvent(eventId)
+            if newSoundEvent is None:
+                return
+            if eventId < AMBIENT_EVENT_NONE:
+                eventSnd = self.__music
+                unlink = True
+            else:
+                eventSnd = self.__ambient
+                unlink = False
+            if checkIsPlaying and eventSnd.isPlaying():
+                return
+            eventSnd.replace(newSoundEvent, eventId, unlink)
+            if params is not None:
+                for paramName, paramValue in params.iteritems():
+                    self.setEventParam(paramName, paramValue)
+
+            return
+
+    def stopMusic(self):
+        self.__music.destroy()
+        return
+
+    def stopAmbient(self, force=False):
+        self.__ambient.destroy(force)
+        return
+
+    def stop(self):
+        self.stopAmbient()
+        self.stopMusic()
+        return
+
+    def stopEvent(self, eventId):
+        e = self.__getEvent(eventId)
+        if e is not None:
+            e.stop()
+        return
+
+    def muteMusic(self, isMute):
+        self.__music.mute(isMute)
+        return
+
+    def setEventParam(self, paramName, paramValue):
+        WWISE.WW_setRTCPGlobal(paramName, paramValue)
+        return
+
+    def onBecomePlayer(self):
+        WWISE.WW_setState(_ARENA_PERIOD_STATE_NAME, _ARENA_PERIOD_STATE[ARENA_PERIOD.WAITING])
+        return
+
+    def onEnterArena(self):
+        BigWorld.player().arena.onPeriodChange += self.__onArenaStateChanged
+        BigWorld.player().arena.onVehicleKilled += self.__onArenaVehicleKilled
+        self.__isOnArena = True
+        self.__vehicleKilled = False
+        self.__onArenaStateChanged()
+        return
+
+    def onLeaveArena(self):
+        self.__isOnArena = False
+        self.onPostmortemState(False)
+        BigWorld.player().arena.onVehicleKilled -= self.__onArenaVehicleKilled
+        BigWorld.player().arena.onPeriodChange -= self.__onArenaStateChanged
+        return
+
+    def setAccountPremiumState(self, isPremium, restart=False):
+        wasPremiumAccount = self.__isPremiumAccount
+        self.__isPremiumAccount = isPremium
+        musicEventId = self.__music.getEventId()
+        if restart and self.__isPremiumAccount != wasPremiumAccount and musicEventId == MUSIC_EVENT_LOBBY:
+            self.play(musicEventId)
+            self.play(self.__ambient.getEventId())
+        return
+
+    def __getEvent(self, eventId):
+        soundEvent = None
+        if eventId in _ARENA_EVENTS or eventId in _BATTLE_RESULT_MUSIC_EVENTS:
+            soundEvent = self.__getArenaSoundEvent(eventId)
+        if soundEvent is None:
+            soundEvent = self.__soundEvents.get(eventId)
+            if soundEvent is not None:
+                if isinstance(soundEvent, list):
+                    isPremium = self.__isPremiumAccount
+                    idx = 1 if isPremium and len(soundEvent) > 1 else 0
+                    soundEvent = soundEvent[idx]
+        return soundEvent
+
+    def __onArenaStateChanged(self, *args):
+        from BattleReplay import g_replayCtrl
+        if self._skipArenaChanges:
+            return
+        else:
+            arena = BigWorld.player().arena
+            period = arena.period
+            if not g_replayCtrl.isTimeWarpInProgress or period == ARENA_PERIOD.BATTLE:
+                stateValue = _ARENA_PERIOD_STATE.get(period, None)
+                if stateValue is not None:
+                    WWISE.WW_setState(_ARENA_PERIOD_STATE_NAME, stateValue)
+            if period == ARENA_PERIOD.PREBATTLE or period == ARENA_PERIOD.BATTLE:
+                if self.__isOnArena and not g_replayCtrl.isTimeWarpInProgress:
+                    if not self.isPlaying(AMBIENT_EVENT_COMBAT):
+                        self.play(AMBIENT_EVENT_COMBAT)
+            if period == ARENA_PERIOD.BATTLE and self.__isOnArena:
+                self.play(MUSIC_EVENT_COMBAT)
+            elif period == ARENA_PERIOD.AFTERBATTLE:
+                wwSetup = self.__specialSounds.arenaMusicSetup
+                self.stopAmbient()
+                if wwSetup is not None:
+                    endBattleSoundName = wwSetup.get(b'wwmusicEndbattleStop', b'')
+                    if endBattleSoundName:
+                        import SoundGroups
+                        SoundGroups.g_instance.playSound2D(endBattleSoundName)
+                lastBattleEvents = {}
+                if wwSetup is not None:
+                    lastBattleEvents[MUSIC_EVENT_COMBAT_VICTORY] = wwSetup.get(b'wwmusicResultWin', b'')
+                    lastBattleEvents[MUSIC_EVENT_COMBAT_DRAW] = wwSetup.get(b'wwmusicResultDrawn', b'')
+                    lastBattleEvents[MUSIC_EVENT_COMBAT_LOSE] = wwSetup.get(b'wwmusicResultDefeat', b'')
+                elif hasattr(arena.arenaType, b'battleLoseMusic'):
+                    lastBattleEvents[MUSIC_EVENT_COMBAT_LOSE] = arena.arenaType.battleLoseMusic
+                MusicController.__lastBattleResultEvents = lastBattleEvents
+            return
+
+    def __onArenaVehicleKilled(self, *args):
+        if not self.__vehicleKilled:
+            WWISE.WW_eventGlobal(_ON_VEHICLE_KILLED_EVENT)
+            self.__vehicleKilled = True
+        return
+
+    def onPostmortemState(self, enable):
+        WWISE.WW_setState(_STATE_POSTMORTEM, _STATE_POSTMORTEM_ON if enable else _STATE_POSTMORTEM_OFF)
+        return
+
+    def __getArenaSoundEvent(self, eventId):
+        soundEventName = None
+        if eventId in _BATTLE_RESULT_MUSIC_EVENTS:
+            soundEventName = MusicController.__lastBattleResultEvents.get(eventId, b'')
+        else:
+            player = BigWorld.player()
+            if not isPlayerAvatar():
+                return
+            if player.arena is None:
+                return
+            arenaType = player.arena.arenaType
+            if eventId == MUSIC_EVENT_COMBAT_LOADING:
+                wwmusicSetup = self.__specialSounds.arenaMusicSetup
+                if wwmusicSetup is not None:
+                    soundEventName = wwmusicSetup.get(b'wwmusicLoading')
+            elif eventId == AMBIENT_EVENT_COMBAT:
+                soundEventName = arenaType.ambientSound
+        if soundEventName:
+            import SoundGroups
+            return SoundGroups.g_instance.getSound2D(soundEventName)
+        else:
+            return
+
+    def __loadConfig(self):
+        eventNames = {}
+        xmlPath = b'gui/music_events.xml'
+        section = ResMgr.openSection(xmlPath)
+        if section is None:
+            _xml.raiseWrongXml(None, xmlPath, b'can not open or read')
+        for i in section.items():
+            s = i[1]
+            if i[0] == b'music':
+                eventNames[MUSIC_EVENT_LOBBY] = (
+                 s.readString(b'wwlobby'), s.readString(b'wwlobby'))
+                eventNames[MUSIC_EVENT_COMBAT_VICTORY] = s.readString(b'wwcombat_victory')
+                eventNames[MUSIC_EVENT_COMBAT_LOSE] = s.readString(b'wwcombat_lose')
+                eventNames[MUSIC_EVENT_COMBAT_DRAW] = s.readString(b'wwcombat_draw')
+            elif i[0] == b'ambient':
+                eventNames[AMBIENT_EVENT_LOBBY] = (
+                 s.readString(b'wwlobby'), s.readString(b'wwlobby'))
+                eventNames[AMBIENT_EVENT_SHOP] = (s.readString(b'wwshop'), s.readString(b'wwlobby'))
+                eventNames[AMBIENT_EVENT_STATISTICS] = (s.readString(b'wwrating'), s.readString(b'wwlobby'))
+                for key, const in FORT_MAPPING.iteritems():
+                    eventNames[const] = (
+                     s.readString(key), s.readString(key))
+
+        self.__overrideEvents(eventNames)
+        for eventId, names in eventNames.items():
+            if not isinstance(names, tuple):
+                names = (
+                 names,)
+            soundNames = []
+            for eventName in names:
+                if eventName not in soundNames:
+                    soundNames.append(eventName)
+
+            newSounds = []
+            prevSounds = self.__soundEvents.get(eventId, None)
+            unlink = eventId < AMBIENT_EVENT_NONE
+            for soundName in soundNames:
+                eventExist = False
+                if prevSounds is not None:
+                    for i in xrange(len(prevSounds)):
+                        event = prevSounds[i]
+                        if event is not None and event.name == soundName:
+                            newSounds.append(event)
+                            prevSounds[i] = None
+                            eventExist = True
+                            break
+
+                if not eventExist:
+                    import SoundGroups
+                    newSounds.append(SoundGroups.g_instance.getSound2D(soundName))
+
+            if prevSounds is not None:
+                for event in prevSounds:
+                    if event is not None:
+                        if unlink:
+                            event.stop()
+                            event.unlink()
+
+            self.__soundEvents[eventId] = newSounds
+
+        ResMgr.purge(xmlPath, True)
+        return
+
+    def __overrideEvents(self, eventNames):
+        for eventId, overriddenNames in self.__overriddenEvents.iteritems():
+            if overriddenNames:
+                if overriddenNames[_SERVER_OVERRIDDEN]:
+                    eventNames[eventId] = overriddenNames[_SERVER_OVERRIDDEN]
+                elif overriddenNames[_CLIENT_OVERRIDDEN]:
+                    eventNames[eventId] = overriddenNames[_CLIENT_OVERRIDDEN]
+
+        return
+
+    def _getSoundEventById(self, soundEventID):
+        if soundEventID < AMBIENT_EVENT_NONE:
+            return self.__music
+        return self.__ambient
+
+    def isPlaying(self, soundEventID):
+        soundEvent = self._getSoundEventById(soundEventID)
+        return soundEvent.getEventId() == soundEventID and soundEvent.isPlaying()
+
+    def isCompleted(self, soundEventID):
+        soundEvent = self._getSoundEventById(soundEventID)
+        return soundEvent.getEventId() == soundEventID and not soundEvent.isPlaying()
+
+    def __reloadSounds(self):
+        self.__loadConfig()
+        self.play(self.__music.getEventId())
+        self.play(self.__ambient.getEventId())
+        return
+
+    def __onEventNotificationsChanged(self, notificationsDiff):
+        hasChanges = False
+        for notification in notificationsDiff[b'removed']:
+            if notification[b'type'] == _CMD_SERVER_CHANGE_HANGAR_AMBIENT:
+                self.__updateOverridden(AMBIENT_EVENT_LOBBY, _SERVER_OVERRIDDEN, None)
+                self.__updateOverridden(AMBIENT_EVENT_SHOP, _SERVER_OVERRIDDEN, None)
+                self.__updateOverridden(AMBIENT_EVENT_STATISTICS, _SERVER_OVERRIDDEN, None)
+                hasChanges = True
+            elif notification[b'type'] == _CMD_SERVER_CHANGE_HANGAR_MUSIC:
+                self.__updateOverridden(MUSIC_EVENT_LOBBY, _SERVER_OVERRIDDEN, None)
+                hasChanges = True
+
+        for notification in notificationsDiff[b'added']:
+            if notification[b'type'] == _CMD_SERVER_CHANGE_HANGAR_AMBIENT:
+                ambientEventName = notification[b'data']
+                self.__updateOverridden(AMBIENT_EVENT_LOBBY, _SERVER_OVERRIDDEN, (ambientEventName, ambientEventName))
+                self.__updateOverridden(AMBIENT_EVENT_SHOP, _SERVER_OVERRIDDEN, (ambientEventName, ambientEventName))
+                self.__updateOverridden(AMBIENT_EVENT_STATISTICS, _SERVER_OVERRIDDEN, (
+                 ambientEventName, ambientEventName))
+                hasChanges = True
+            elif notification[b'type'] == _CMD_SERVER_CHANGE_HANGAR_MUSIC:
+                musicEventNames = [event.strip() for event in notification[b'data'].split(b'|')]
+                musicEventName = musicEventNames[0]
+                premiumMusicEventName = musicEventNames[1] if len(musicEventNames) > 1 else musicEventName
+                self.__updateOverridden(MUSIC_EVENT_LOBBY, _SERVER_OVERRIDDEN, (musicEventName, premiumMusicEventName))
+                hasChanges = True
+
+        if hasChanges:
+            self.__reloadSounds()
+        return
+
+    def changeHangarSound(self, notificationsDiff):
+        self.__onEventNotificationsChanged(notificationsDiff)
+        return
+
+    def __loadCustomSounds(self, xmlName):
+        settings = ResMgr.openSection(b'scripts/arena_defs/' + xmlName + b'.xml')
+        if settings is None:
+            return
+        else:
+            musicName = settings.readString(b'wwmusic')
+            ambientName = settings.readString(b'wwambientSound')
+            combatVictory = settings.readString(b'wwcombatVictory')
+            combatLose = settings.readString(b'wwcombatLose')
+            combatDraw = settings.readString(b'wwcombatDraw')
+            exitName = settings.readString(b'wwexitSound')
+            if musicName:
+                self.__updateOverridden(MUSIC_EVENT_LOBBY, _CLIENT_OVERRIDDEN, (musicName, musicName))
+            if combatVictory:
+                self.__updateOverridden(MUSIC_EVENT_COMBAT_VICTORY, _CLIENT_OVERRIDDEN, combatVictory)
+            if combatLose:
+                self.__updateOverridden(MUSIC_EVENT_COMBAT_LOSE, _CLIENT_OVERRIDDEN, combatLose)
+            if combatDraw:
+                self.__updateOverridden(MUSIC_EVENT_COMBAT_DRAW, _CLIENT_OVERRIDDEN, combatDraw)
+            if ambientName:
+                self.__updateOverridden(AMBIENT_EVENT_LOBBY, _CLIENT_OVERRIDDEN, (ambientName, ambientName))
+                self.__updateOverridden(AMBIENT_EVENT_SHOP, _CLIENT_OVERRIDDEN, (ambientName, ambientName))
+                self.__updateOverridden(AMBIENT_EVENT_STATISTICS, _CLIENT_OVERRIDDEN, (ambientName, ambientName))
+            if exitName:
+                self.__updateOverridden(MUSIC_EVENT_SOUND_EXIT, _CLIENT_OVERRIDDEN, (exitName, exitName))
+            return
+
+    def __updateOverridden(self, eventID, typeId, value):
+        music_list = self.__overriddenEvents.setdefault(eventID, [None, None])
+        music_list[typeId] = value
+        return
+
+    def unloadCustomSounds(self):
+        self.__eraseOverridden(_CLIENT_OVERRIDDEN)
+        return
+
+    def unloadServerSounds(self, isDisconnect=False):
+        if isDisconnect:
+            self.__ambient = MusicController.MusicEvent()
+        self.__eraseOverridden(_SERVER_OVERRIDDEN)
+        self.__loadConfig()
+        self.play(self.__music.getEventId())
+        self.play(self.__ambient.getEventId())
+        return
+
+    def __eraseOverridden(self, index):
+        for eventId, _ in self.__overriddenEvents.iteritems():
+            self.__overriddenEvents[eventId][index] = None
+
+        return
+
+    @property
+    def skipArenaChanges(self):
+        return self._skipArenaChanges
+
+    @skipArenaChanges.setter
+    def skipArenaChanges(self, skipArenaChanges):
+        self._skipArenaChanges = skipArenaChanges
+        return

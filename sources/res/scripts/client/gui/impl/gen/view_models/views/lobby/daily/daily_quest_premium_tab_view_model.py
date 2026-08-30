@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.views.lobby.daily.daily_quest_regular_tab_view_model import DailyQuestRegularTabViewModel
+
+class DailyQuestPremiumTabViewModel(DailyQuestRegularTabViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(DailyQuestPremiumTabViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getHasPremiumAccount(self):
+        return self._getBool(3)
+
+    def setHasPremiumAccount(self, value):
+        self._setBool(3, value)
+        return
+
+    def _initialize(self):
+        super(DailyQuestPremiumTabViewModel, self)._initialize()
+        self._addBoolProperty(b'hasPremiumAccount', False)
+        return

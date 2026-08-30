@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<type>tiles</type>
+	<overlayTexture>particles/content_deferred/GFX_models/GFX_textures/sh_mass_lighting_02.dds</overlayTexture>
+	<maskTexture>particles/content_deferred/GFX_models/GFX_textures/Masks/Mask_09.dds</maskTexture>
+	<distortionTextureName>particles/content_deferred/GFX_models/GFX_textures/Distortion02.dds</distortionTextureName>
+	<cameraInterpSpeed>0</cameraInterpSpeed>
+	<cameraRotationDeltaMax>0</cameraRotationDeltaMax>
+	<overlayTextureShift>0 0</overlayTextureShift>
+	<overlayTextureScale>3.11999989 0.920000017</overlayTextureScale>
+	<overlayTextureSpeedDirectionMagnitude>0.00523599982 -0.0199999996</overlayTextureSpeedDirectionMagnitude>
+	<maskTextureShift>0 0</maskTextureShift>
+	<maskTextureScale>0.140000001 0.0399999991</maskTextureScale>
+	<maskTextureSpeedDirectionMagnitude>3.82052588 0.519999981</maskTextureSpeedDirectionMagnitude>
+	<fadeStrength>2.50999999</fadeStrength>
+	<hardVignetteSize>0.670000017</hardVignetteSize>
+	<vignetteBlur>0.689999998</vignetteBlur>
+	<brightness>4.25</brightness>
+	<alphaMin>0.699999988</alphaMin>
+	<alphaMax>2</alphaMax>
+	<pulseSpeed>12.7200003</pulseSpeed>
+	<effectDistortionParams>
+		<distortionSpeed>0.0434410013 0.00999999978</distortionSpeed>
+		<distortionScale>1 2.13000011</distortionScale>
+		<distortionVignetteSize>1.59000003</distortionVignetteSize>
+		<distortionVignetteBlur>-58.3400002</distortionVignetteBlur>
+	</effectDistortionParams>
+</root>

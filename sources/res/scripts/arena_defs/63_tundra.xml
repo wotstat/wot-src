@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:63_tundra/name</name>
+	<description>#arenas:63_tundra/description</description>
+	<geometry>spaces/63_tundra</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-400.0 -400.0</bottomLeft>
+		<upperRight>400.0 400.0</upperRight>
+	</boundingBox>
+	<minimap>spaces/63_tundra/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_tundra_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_tundra_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_tundra_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_tundra_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_tundra_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_tundra_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>85.4164886 -167.155136</position1>
+				</team1>
+				<team2>
+					<position1>-72.2025528 141.256042</position1>
+				</team2>
+			</teamBasePositions>
+			<teamSpawnPoints>
+				<team1>
+					<position>13.3260002 -306.419006</position>
+				</team1>
+				<team2>
+					<position>-3.16400003 282.311005</position>
+				</team2>
+			</teamSpawnPoints>
+		</ctf>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-325.562012 96.4589996</position>
+				</team1>
+				<team2>
+					<position>316.803009 0.0309999995</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-41.3471756 224.069412</position1>
+					<position2>-215.285446 -235.364365</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamBasePositions>
+				<team1>
+					<position1>-204.914001 -237.908997</position1>
+					<position2>7.50601196 241.912994</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<pointsOfInterestUDO>
+				<point>
+					<position>85.2525711 355.180542</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-281.412628 329.707703</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-346.809509 -334.66922</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>125.22319 -132.927444</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-129.269348 57.6449013</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-261.583557 -75.3344879</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>100.599289 -361.857178</position>
+					<type>4</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamSpawnPoints>
+				<team1>
+					<position>-337.886078 89.354393</position>
+				</team1>
+				<team2>
+					<position>305.327606 0.455455989</position>
+				</team2>
+			</teamSpawnPoints>
+		</comp7>
+	</gameplayTypes>
+</root>

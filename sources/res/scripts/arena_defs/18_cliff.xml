@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:18_cliff/name</name>
+	<description>#arenas:18_cliff/description</description>
+	<geometry>spaces/18_cliff</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<minimap>spaces/18_cliff/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_cliff_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_cliff_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_cliff_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_cliff_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_cliff_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_cliff_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_18_cliff_wind_summer</wwambientSound>
+	<wwDefaultReverb>
+		<auxBus>AUX_env_Mountain</auxBus>
+		<controlValue>1.0</controlValue>
+	</wwDefaultReverb>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-273.785645 -436.600922</position1>
+				</team1>
+				<team2>
+					<position1>-251.606842 434.590698</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-286 -450</position>
+				</team1>
+				<team2>
+					<position>-248 449</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-6.69036102 0.175830007</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1></team1>
+				<team2>
+					<position>-285.944 -451.039001</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-252.066788 434.820038</position1>
+					<position2>228.184616 176.506653</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1></team1>
+				<team2>
+					<position>-284.788391 -460.435211</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-413.401031 -247.966797</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-63.5074921 -0.407415986</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-401.913666 198.881851</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>347.529205 1.98798501</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-260.2836 0.372680008</position>
+					<type>4</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>-252.066788 434.820038</position1>
+					<position2>228.184616 176.506653</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>-214.917816 388.478088</position>
+				</team1>
+				<team2>
+					<position>-179.18454 -389.344482</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<controlPoint>-6.89499712 0.260001987</controlPoint>
+		</bob>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities>
+		<scenario>
+			<startTime>30 60</startTime>
+			<possibility>1</possibility>
+			<interval>150</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>cliff_bomber</name>
+			<trajectories>
+				<warplane>
+					<preset>cliff_bomber_clin_1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>cliff_bomber_clin_2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>cliff_bomber_clin_3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>cliff_bomber_clin_4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>cliff_bomber_clin_5</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

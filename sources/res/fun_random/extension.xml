@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>fun_random</FeatureName>
+	<IsEnabled>true</IsEnabled>
+	<Personality>FunRandomPersonality</Personality>
+	<Entities>
+		<ServerOnlyEntities>
+			<FunRandomMgr></FunRandomMgr>
+			<FunRandomUnitMgr></FunRandomUnitMgr>
+		</ServerOnlyEntities>
+	</Entities>
+	<Components>
+		<StaticComponents>
+			<AccountFunRandomComponent></AccountFunRandomComponent>
+			<FunRandomKafkaLoggingComponent></FunRandomKafkaLoggingComponent>
+		</StaticComponents>
+		<DynamicComponents></DynamicComponents>
+	</Components>
+</root>

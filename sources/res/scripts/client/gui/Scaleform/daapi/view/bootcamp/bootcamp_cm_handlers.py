@@ -1,0 +1,50 @@
+from gui.Scaleform.daapi.view.lobby.techtree.research_cm_handlers import ResearchVehicleContextMenuHandler
+from gui.Scaleform.daapi.view.lobby.techtree.research_cm_handlers import ResearchItemContextMenuHandler
+from gui.Scaleform.daapi.view.lobby.hangar.hangar_cm_handlers import VehicleContextMenuHandler
+from gui.Scaleform.daapi.view.lobby.hangar.hangar_cm_handlers import TechnicalMaintenanceCMHandler
+
+def _disableContextMenuItem(item):
+    if item[b'initData'] is None:
+        item[b'initData'] = {}
+    item[b'initData'].update({b'enabled': False})
+    return
+
+
+def _disableAllContextMenuItems(options, exceptions=()):
+    for item in options:
+        if item[b'id'] not in exceptions:
+            _disableContextMenuItem(item)
+
+    return
+
+
+class BCResearchVehicleContextMenuHandler(ResearchVehicleContextMenuHandler):
+
+    def _generateOptions(self, ctx=None):
+        options = super(BCResearchVehicleContextMenuHandler, self)._generateOptions(ctx)
+        _disableAllContextMenuItems(options)
+        return options
+
+
+class BCResearchItemContextMenuHandler(ResearchItemContextMenuHandler):
+
+    def _generateOptions(self, ctx=None):
+        options = super(BCResearchItemContextMenuHandler, self)._generateOptions(ctx)
+        _disableAllContextMenuItems(options)
+        return options
+
+
+class BCVehicleContextMenuHandler(VehicleContextMenuHandler):
+
+    def _generateOptions(self, ctx=None):
+        options = super(BCVehicleContextMenuHandler, self)._generateOptions(ctx)
+        _disableAllContextMenuItems(options)
+        return options
+
+
+class BCTechnicalMaintenanceCMHandler(TechnicalMaintenanceCMHandler):
+
+    def _generateOptions(self, ctx=None):
+        options = super(BCTechnicalMaintenanceCMHandler, self)._generateOptions(ctx)
+        _disableAllContextMenuItems(options)
+        return options

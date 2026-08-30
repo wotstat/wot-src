@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/title"
+msgstr "ЗДОЛЬНАСЦІ"
+
+msgid "abilities/tooltip/description"
+msgstr "Прынцып дзеяння:"
+
+msgid "abilities/tooltip/subTitle"
+msgstr "Базавы снарад для атакі"
+
+msgid "aboutEvent"
+msgstr "ПРА ЭКСПЕДЫЦЫЮ"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Час чакання бою скончыўся, паспрабуйце змяніць сервер або зайсці пазней."
+
+msgid "artefact/actionList/abilityHit"
+msgstr "Прымяненне ўзмацнення"
+
+msgid "artefact/actionList/assist"
+msgstr "Падмога"
+
+msgid "artefact/actionList/desc/abilityHit"
+msgstr "Ачкі налічваюцца пры паспяховым выкарыстанні ўзмацненняў. Лічба ачкоў будзе памножана на лічбу машын, закранутых узмацненнем."
+
+msgid "artefact/actionList/desc/assist"
+msgstr "Ачкі налічваюцца за непасрэдны ўнёсак ў ліквідацыю машыны."
+
+msgid "artefact/actionList/desc/firstBlood"
+msgstr "Ачкі налічваюцца таму, хто першым у заездзе ліквідуе машыну."
+
+msgid "artefact/actionList/desc/kill"
+msgstr "Ачкі налічваюцца за выпіхванне машыны з Зоны сутыкнення любым спосабам."
+
+msgid "artefact/actionList/desc/killStreak"
+msgstr "Серыя пачынаецца з дзвюх ліквідацый запар і расце да ліквідацыі вашай машыны або да канца заезду. Чым даўжэйшая серыя, тым больш ачкоў."
+
+msgid "artefact/actionList/desc/lootResearchablePickUp"
+msgstr "Ачкі налічваюцца таму, хто падабраў Карал або ліквідаваў таго, хто ім валодаў."
+
+msgid "artefact/actionList/desc/lootResearching"
+msgstr "Ачкі налічваюцца штосекунду, пакуль вы валодаеце Каралам."
+
+msgid "artefact/actionList/desc/lootResearchingDone"
+msgstr "Ачкі налічваюцца таму, хто будзе валодаць Каралам у момант яго знікнення."
+
+msgid "artefact/actionList/desc/pickup"
+msgstr "Ачкі налічваюцца таму, хто паспее падабраць узніклыя на мапе ўзмацненні."
+
+msgid "artefact/actionList/desc/ram"
+msgstr "Ачкі налічваюцца за таран машын."
+
+msgid "artefact/actionList/desc/scan"
+msgstr "Ачкі налічваюцца штосекунду за знаходжанне ў Зоне сканавання."
+
+msgid "artefact/actionList/desc/shot"
+msgstr "Ачкі налічваюцца пры траплянні ў машыну простым стрэлам."
+
+msgid "artefact/actionList/firstBlood"
+msgstr "Першае знішчэнне"
+
+msgid "artefact/actionList/helpScreen/abilityHit"
+msgstr "Выкарыстаць узмацненне."
+
+msgid "artefact/actionList/helpScreen/assist"
+msgstr "Садзейнічаць ліквідацыі машыны."
+
+msgid "artefact/actionList/helpScreen/firstBlood"
+msgstr "Першым у заездзе ліквідаваць машыну."
+
+msgid "artefact/actionList/helpScreen/kill"
+msgstr "Ліквідаваць машыну з Зоны сутыкнення."
+
+msgid "artefact/actionList/helpScreen/killStreak"
+msgstr "Ліквідаваць некалькі машын запар."
+
+msgid "artefact/actionList/helpScreen/lootResearchablePickUp"
+msgstr "Падабраць або адабраць Карал у іншай машыны."
+
+msgid "artefact/actionList/helpScreen/lootResearching"
+msgstr "Утрымліваць Карал (ачкі налічваюцца за кожную секунду)."
+
+msgid "artefact/actionList/helpScreen/lootResearchingDone"
+msgstr "Захаваць валоданне Каралам да яго знікнення."
+
+msgid "artefact/actionList/helpScreen/pickup"
+msgstr "Падабраць узмацненне."
+
+msgid "artefact/actionList/helpScreen/ram"
+msgstr "Пратараніць машыну."
+
+msgid "artefact/actionList/helpScreen/scan"
+msgstr "Заставацца ў Зоне сканавання, атрымліваючы ачкі пасекундна. "
+
+msgid "artefact/actionList/helpScreen/shot"
+msgstr "Патрапіць імпульсам."
+
+msgid "artefact/actionList/kill"
+msgstr "Знішчэнне"
+
+msgid "artefact/actionList/killStreak"
+msgstr "Серыя знішчэнняў"
+
+msgid "artefact/actionList/lootResearchablePickUp"
+msgstr "Падбор Каралу"
+
+msgid "artefact/actionList/lootResearching"
+msgstr "Вывучэнне Каралу"
+
+msgid "artefact/actionList/lootResearchingDone"
+msgstr "Адпраўка даных"
+
+msgid "artefact/actionList/pickup"
+msgstr "Падбор узмацнення"
+
+msgid "artefact/actionList/ram"
+msgstr "Таран"
+
+msgid "artefact/actionList/scan"
+msgstr "Сканаванне Зоны"
+
+msgid "artefact/actionList/shot"
+msgstr "Траплянне імпульсам"
+
+msgid "artefact/actionsTitle"
+msgstr "Карысныя дзеянні"
+
+msgid "artefact/descShort"
+msgstr "Бадзёрыя заезды па паверхні планеты Усход — не проста вясёлы спосаб бавіць час. Гэта непасрэдны ўдзел у даследаванні слядоў старажытнай цывілізацыі. Этап за этапам набліжайце паспяховае завяршэнне экспедыцыі і атрымлівайце за гэта пашану і ўзнагароду."
+
+msgid "artefact/description"
+msgstr "Невядомае навуцы нябеснае цела, названае нашымі вучонымі «Аб'ект». Прыкладайце ўсе намаганні, каб выканаць як мага больш карысных дзеянняў у непасрэднай блізкасці ад Аб'екта. Чым больш энергіі будзе пры гэтым выраблена, тым больш даных мы атрымаем для расшыфроўкі паслання з Марса!"
+
+msgid "artefact/doneProgression"
+msgstr "Экспедыцыя завершана паспяхова."
+
+msgid "artefact/medalsTitle"
+msgstr "Памятныя ўзнагароды"
+
+msgid "artefact/points"
+msgstr "{points} / {pointsLimit}"
+
+msgid "artefact/progressionCloseBtn"
+msgstr "ДА МАШЫН"
+
+msgid "artefact/progressionTitle"
+msgstr "ПРАГРЭС ЭКСПЕДЫЦЫІ"
+
+msgid "artefact/title"
+msgstr "АБ'ЕКТ"
+
+msgid "artefact/tooltip/currentRewards"
+msgstr "Узнагароды этапу"
+
+msgid "artefact/tooltip/currentStep"
+msgstr "Бягучы этап"
+
+msgid "artefact/tooltip/investigationDesc"
+msgstr "Касманаўты! Вы паспяхова справіліся з пастаўленымі задачамі экспедыцыі на планету Усход. Дзякуючы вашай самааддачы падчас заездаў вучоным «Перспектывы» ўдалося сабраць багаты матэрыял. Гэта дазволіць айчыннай касманаўтыцы прасунуцца ў заваёве космасу — на крок або нават на некалькі! І з гонарам сказаць таму, хто зрабіў гэта магчымым: «Юра, мы цябе не падвялі!»"
+
+msgid "artefact/tooltip/investigationDone"
+msgstr "ЭКСПЕДЫЦЫЯ ЗАВЕРШАНА"
+
+msgid "artefact/tooltip/newProgressionLevel"
+msgstr "Што ўнутры Аб'екта? Мы павінны даведацца..."
+
+msgid "artefact/tooltip/timeTillEnd"
+msgstr "Да завяршэння экспедыцыі: %(time)s"
+
+msgid "artefact/tooltip/title"
+msgstr "У космас!"
+
+msgid "banner/info/disabled"
+msgstr "Вось-вось стартуе."
+
+msgid "banner/info/lastDay"
+msgstr "Спяшайцеся нарабіць шуму на новай планеце!"
+
+msgid "banner/infoSmall/disabled"
+msgstr "Вось-вось стартуе."
+
+msgid "banner/title"
+msgstr "У КОСМАС!"
+
+msgid "battle/abilityHint/overcharge"
+msgstr "Узмацненне «Бар'ер» актывавана на %(seconds) секундаў"
+
+msgid "battle/abilityHint/rapid_shelling"
+msgstr "Узмацненне «Залп» актывавана на %(seconds) секундаў"
+
+msgid "battle/abilityHint/teleport"
+msgstr "Вы можаце вярнуцца на пазіцыю, дзе ўсталявана метка, на працягу %(seconds) секунд."
+
+msgid "battle/announcement/awaiting_players/title"
+msgstr "ЧАКАННЕ АПЕРАТАРАЎ..."
+
+msgid "battle/announcement/infoPlate/command"
+msgstr "F1"
+
+msgid "battle/announcement/infoPlate/title"
+msgstr "Націсніце %(command), каб даведацца, за якія карысныя дзеянні выдаюцца ачкі."
+
+msgid "battle/announcement/lootScanning/time_left"
+msgstr "Карал знікне праз:"
+
+msgid "battle/announcement/mission_completed/title"
+msgstr "ЗАЕЗД ЗАВЕРШАНЫ!"
+
+msgid "battle/announcement/pickups/title"
+msgstr "УЗМАЦНЕННІ З'ЯВЯЦЦА ПРАЗ:"
+
+msgid "battle/announcement/pre_battle/title"
+msgstr "ЗАЕЗД СТАРТУЕ ПРАЗ:"
+
+msgid "battle/announcement/prepare_to_loot_pickup/title"
+msgstr "КАРАЛ МОЖНА ПАДАБРАЦЬ ПРАЗ:"
+
+msgid "battle/announcement/prepare_to_scan/title"
+msgstr "ЗОНА СКАНАВАННЯ З'ЯВІЦЦА ПРАЗ:"
+
+msgid "battle/announcement/prepare_to_scan_final/title"
+msgstr "ЗОНА СКАНАВАННЯ \n З'ЯВІЦЦА ПРАЗ:"
+
+msgid "battle/announcement/respawn/title"
+msgstr "ВЫ ВЕРНЕЦЕСЯ Ў ЗАЕЗД ПРАЗ:"
+
+msgid "battle/announcement/scanning/players_scanning"
+msgstr "Гульцоў скануе:"
+
+msgid "battle/announcement/scanning/time_left"
+msgstr "Да канца сканавання:"
+
+msgid "battle/announcement/start_battle/subtitle"
+msgstr "ЧЫМ БОЛЬШ АЧКОЎ, ТЫМ БЛІЖЭЙШЫЯ ЎЗНАГАРОДЫ"
+
+msgid "battle/announcement/start_battle/title"
+msgstr "ПАДБІРАЙЦЕ КАРАЛЫ І СКАНУЙЦЕ ЗОНУ НА КРАБЕ"
+
+msgid "battle/battleHelp/title"
+msgstr "ЯК АТРЫМАЦЬ АЧКІ"
+
+msgid "battle/crosshair/killStreak"
+msgstr "ЛІКВІДАЦЫЙ ЗАПАР: %(count)d"
+
+msgid "battle/distanceUnit"
+msgstr "м"
+
+msgid "battle/f1hint"
+msgstr "Націсніце %(key), каб даведацца падрабязней пра правілы падзеі."
+
+msgid "battle/hint"
+msgstr "Націсніце %(key), каб скарыстацца ручным тормазам."
+
+msgid "battle/loadingScreen/tip1"
+msgstr "Не прапусціце матэрыялізацыю Каралаў: іх падбор і ўтрыманне прынясуць шмат ачкоў!"
+
+msgid "battle/loadingScreen/tip2"
+msgstr "Выкарыстоўвайце ўмацаванні разумна і няспешна."
+
+msgid "battle/loadingScreen/tip3"
+msgstr "У фінальнай фазе заезду скануйце Зону на Крабе. Чым даўжэй, тым лепш!"
+
+msgid "battle/loadingScreen/title"
+msgstr "Задача простая: весяліцеся і атрымлівайце ачкі за выкананне карысных дзеянняў у заездах!"
+
+msgid "cosmicEventName"
+msgstr "У КОСМАС!"
+
+msgid "cosmicLootboxTooltipExtended/percentage"
+msgstr "%(percent)s%"
+
+msgid "cosmicLootboxTooltipExtended/rewardExtraText"
+msgstr "У кантэйнеры «Рэдкі госць» могуць знаходзіцца прэміум тэхніка, золата і іншая маёмасць."
+
+msgid "cosmicLootboxTooltipExtended/slot/description"
+msgstr "%(idx)s. Адна з узнагарод з імавернасцю выпадзення: "
+
+msgid "cosmicLootboxTooltipExtended/slotTitle"
+msgstr "Што можа быць унутры:"
+
+msgid "countUp/timer_hrs"
+msgstr "%H гадз %M хв."
+
+msgid "countUp/timer_min"
+msgstr "%MM:%SS"
+
+msgid "exitMode"
+msgstr "ВЯРНУЦЦА НА ЗЯМЛЮ"
+
+msgid "fightButton/tooltip/vehicleInBattle/body"
+msgstr "Зноў стане даступны пасля завяршэння заезду."
+
+msgid "fightButton/tooltip/vehicleInBattle/header"
+msgstr "Машына на заданні"
+
+msgid "fightButton/vehicleInBattle"
+msgstr "У баі"
+
+msgid "headerButton/main/title"
+msgstr "ПАЕХАЛІ!"
+
+msgid "headerButtons/battle/types/cosmicEvent"
+msgstr "У космас!"
+
+msgid "lobby/dailyMission/expiryTimer"
+msgstr "%(hours)s%(minutes)s"
+
+msgid "lobby/dailyMission/hours"
+msgstr "гадз."
+
+msgid "lobby/dailyMission/minutes"
+msgstr "хв."
+
+msgid "main/description"
+msgstr "Адважныя ўдзельнікі экспедыцыі! Вам давядзецца збіраць і сканаваць інфармацыю, якую скідвае Аб'ект, выяўлены вучонымі НПВА «Перспектыва» на Марсе. Ёсць усе падставы меркаваць, што гэта асаблівае пасланне нашых суседзяў па Сонечнай сістэме. Згодна з гіпотэзай нашага аддзела касмічных даследаванняў, чым больш энергіі вы і іншыя ўдзельнікі экспедыцыі будзеце вырабляць сваімі дзеяннямі побач з Аб'ектам, тым больш даных ён будзе выкідваць і тым хутчэй мы зможам расшыфраваць незямное пасланне. Наперад, космас не чакае!"
+
+msgid "main/howToPlay/paragraph1"
+msgstr "Атакаваць марсаходы іншых удзельнікаў экспедыцыі, каб атрымаць больш ачкоў."
+
+msgid "main/howToPlay/paragraph2"
+msgstr "Падбіраць і выкарыстоўваць узмацненні, каб павысіць сваю эфектыўнасць."
+
+msgid "main/howToPlay/paragraph3"
+msgstr "Сканаваць Аб'ект у асаблівых зонах, каб перадаць больш інфармацыі на Зямлю."
+
+msgid "main/howToPlay/title"
+msgstr "Што трэба рабіць"
+
+msgid "main/title"
+msgstr "НА МАРС!"
+
+msgid "navigation/artefact"
+msgstr "АБ'ЕКТ"
+
+msgid "navigation/main"
+msgstr "ГАЛОЎНАЕ"
+
+msgid "navigation/pickups"
+msgstr "Узмацненні"
+
+msgid "pickups/black_hole/description"
+msgstr "Стварае асаблівае поле, якое зацягвае марсаходы, а затым перакідвае іх у выпадковае месца ў Зоне сутыкнення."
+
+msgid "pickups/black_hole/label"
+msgstr "ЧОРНАЯ ДЗІРКА"
+
+msgid "pickups/black_hole/title"
+msgstr "ЧОРНАЯ ДЗІРКА"
+
+msgid "pickups/description"
+msgstr "Час ад часу Аб'ект будзе выкідваць узмацненні чатырох тыпаў. Напярэдадні іх з'яўленне вы атрымаеце адпаведнае апавяшчэнне. Кожнае ўзмацненне надзеліць ваш марсаход асаблівай здольнасцю, якую можна будзе рэалізоўваць адзін раз. %(important) пакуль у вас ёсць якое-небудзь узмацненне, іншыя будуць недаступныя."
+
+msgid "pickups/important"
+msgstr "ВАЖНА:"
+
+msgid "pickups/overcharge/description"
+msgstr "Стварае магутнае энергетычнае поле, якое абараняе вашу машыну і адштурхоўвае машыны іншых удзельнікаў заезду."
+
+msgid "pickups/overcharge/label"
+msgstr "БАР'ЕР"
+
+msgid "pickups/overcharge/title"
+msgstr "БАР'ЕР"
+
+msgid "pickups/power_shot/description"
+msgstr "Страляе звышмагутным снарадам. Асабліва эфектыўны пры траплянні ў скопішча машын."
+
+msgid "pickups/power_shot/label"
+msgstr "ПЛАЗМЕННЫ ПРАМЕНЬ"
+
+msgid "pickups/power_shot/title"
+msgstr "ПЛАЗМЕННЫ ПРАМЕНЬ"
+
+msgid "pickups/rapid_shelling/description"
+msgstr "Робіць некалькі магутных стрэлаў запар. Выдатна надаецца для спіхвання марсаходаў у азёры або за межы Зоны сканавання."
+
+msgid "pickups/rapid_shelling/label"
+msgstr "ЗАЛП"
+
+msgid "pickups/rapid_shelling/title"
+msgstr "ЗАЛП"
+
+msgid "pickups/teleport/description"
+msgstr "Стварае ў Зоне сутыкнення метку, куды можна вярнуцца цягам пэўнага часу."
+
+msgid "pickups/teleport/label"
+msgstr "ТЭЛЕПОРТ"
+
+msgid "pickups/teleport/title"
+msgstr "ТЭЛЕПОРТ"
+
+msgid "pickups/title"
+msgstr "УЗМАЦНЕННІ"
+
+msgid "postBattleScreen/arenaScore/activeActions"
+msgstr "Карысныя дзеянні"
+
+msgid "postBattleScreen/arenaScore/player/abilityHit"
+msgstr "Прымяненне ўзмацнення"
+
+msgid "postBattleScreen/arenaScore/player/abilityPickups"
+msgstr "Падбор узмацненняў"
+
+msgid "postBattleScreen/arenaScore/player/artefactScanning"
+msgstr "Сканаванне Зоны"
+
+msgid "postBattleScreen/arenaScore/player/assist"
+msgstr "Падмога"
+
+msgid "postBattleScreen/arenaScore/player/enemyKills"
+msgstr "Знішчэнне"
+
+msgid "postBattleScreen/arenaScore/player/firstBlood"
+msgstr "Першае знішчэнне"
+
+msgid "postBattleScreen/arenaScore/player/killStreak"
+msgstr "Серыя знішчэнняў"
+
+msgid "postBattleScreen/arenaScore/player/lootResearch"
+msgstr "Вывучэнне Каралу"
+
+msgid "postBattleScreen/arenaScore/player/lootResearchablePickUp"
+msgstr "Падбор Каралу"
+
+msgid "postBattleScreen/arenaScore/player/lootResearching"
+msgstr "Вывучэнне Каралу"
+
+msgid "postBattleScreen/arenaScore/player/lootResearchingDone"
+msgstr "Адпраўка даных"
+
+msgid "postBattleScreen/arenaScore/player/players"
+msgstr "Удзельнікі заезду"
+
+msgid "postBattleScreen/arenaScore/player/pointsGained"
+msgstr "Атрымана ачкоў"
+
+msgid "postBattleScreen/arenaScore/player/ramming"
+msgstr "Таран"
+
+msgid "postBattleScreen/arenaScore/player/shots"
+msgstr "Траплянне імпульсам"
+
+msgid "postBattleScreen/arenaScore/tooltip/marsPoints/body"
+msgstr "Выконвайце адмысловыя задачы і рабіце карысныя дзеянні ў баі, каб заслужыць ачкі."
+
+msgid "postBattleScreen/arenaScore/tooltip/marsPoints/header"
+msgstr "Ачкі"
+
+msgid "postBattleScreen/battleResults/button/affirmative"
+msgstr "Так!"
+
+msgid "postBattleScreen/battleResults/button/close"
+msgstr "Закрыць"
+
+msgid "postBattleScreen/battleResults/info/"
+msgstr "Закрыць"
+
+msgid "postBattleScreen/battleResults/info/battleOver"
+msgstr "Заезд скончаны: %(date)"
+
+msgid "postBattleScreen/battleResults/info/heading"
+msgstr "У КОСМАС! • ЗОНА СУТЫКНЕННЯ"
+
+msgid "postBattleScreen/battleResults/missionsCompleted"
+msgstr "Усе штодзённыя задачы выкананы. За новыя можна ўзяцца заўтра."
+
+msgid "postBattleScreen/battleResults/noQuestProgression"
+msgstr "Вы не выканалі ніводнага штодзённага задання."
+
+msgid "postBattleScreen/battleResults/player/abilityPickups"
+msgstr "Узмацненні"
+
+msgid "postBattleScreen/battleResults/player/enemyKills"
+msgstr "Знішчэнні"
+
+msgid "postBattleScreen/battleResults/player/killStreak"
+msgstr "Серыя знішчэнняў"
+
+msgid "postBattleScreen/battleResults/player/lootResearch"
+msgstr "Вывучэнне Каралу"
+
+msgid "postBattleScreen/battleResults/player/marsPoints"
+msgstr "Усяго ачкоў"
+
+msgid "postBattleScreen/battleResults/playersPlace"
+msgstr "МЕСЦА: %(place)"
+
+msgid "postBattleScreen/dailyMission/heading"
+msgstr "Асабістае заданне"
+
+msgid "postBattleScreen/dailyMission/status/active"
+msgstr "Выконваецца"
+
+msgid "postBattleScreen/dailyMission/status/done"
+msgstr "Выканана"
+
+msgid "postBattleScreen/desertersPoints"
+msgstr "--"
+
+msgid "postBattleScreen/tabs/arenaScore"
+msgstr "Табліца лідараў"
+
+msgid "postBattleScreen/tabs/battleResults"
+msgstr "Асабісты вынік"
+
+msgid "queue/cosmicEventName"
+msgstr "У КОСМАС!"
+
+msgid "queue/description"
+msgstr " "
+
+msgid "queue/leaveBattleButton"
+msgstr "Выйсці"
+
+msgid "queue/newRoverName"
+msgstr "Метэор"
+
+msgid "queue/oldRoverName"
+msgstr "Спадарожнік"
+
+msgid "queue/playersInQueue"
+msgstr "Удзельнікаў заезду ў чарзе:"
+
+msgid "queue/vehicle"
+msgstr "Машына:"
+
+msgid "queue/vehicleName/new"
+msgstr "Метэор"
+
+msgid "queue/vehicleName/old"
+msgstr "Спадарожнік"
+
+msgid "queue/waitingTime"
+msgstr "Час чакання:"
+
+msgid "rewardsView/allDailyCompleted"
+msgstr "УСЕ ЗАДАННІ ГЭТАГА ДНЯ ВЫКАНАНЫ!"
+
+msgid "rewardsView/close"
+msgstr "ЗАКРЫЦЬ"
+
+msgid "rewardsView/conditionsFulfilledTitle"
+msgstr "ПАДЗЕЯ «У КОСМАС!»"
+
+msgid "rewardsView/confirm"
+msgstr "Наперад!"
+
+msgid "rewardsView/progressionComplete/text"
+msgstr " "
+
+msgid "rewardsView/progressionComplete/title"
+msgstr "ЭКСПЕДЫЦЫЯ ЗАВЕРШЫЛАСЯ ПОСПЕХАМ!"
+
+msgid "rewardsView/rewardReceived/text"
+msgstr " "
+
+msgid "rewardsView/rewardReceived/title"
+msgstr "ПАДЗЕЯ «У КОСМАС!»"
+
+msgid "rewardsView/rewardsReceived/text"
+msgstr " "
+
+msgid "rewardsView/rewardsReceived/title"
+msgstr "НУ І ДЗІВА: ВЫ ЗАСЛУЖЫЛІ АБОДВА МЕДАЛІ!"
+
+msgid "rewardsView/stepCompleted"
+msgstr "ЭТАП %(stepNumber)s ЗАВЕРШАНЫ!"
+
+msgid "rewardsView/viewTitle"
+msgstr " "
+
+msgid "rulesEntrypoint/tooltip/description"
+msgstr "Разбярыцеся ва ўмацаваннях, каб больш эфектыўна ўдзельнічаць у заездах і даследаваць Усход."
+
+msgid "rulesEntrypoint/tooltip/footerDesc"
+msgstr "«Зонды будуць дастаўляць на паверхню асаблівыя ўзмацненні, каб рэзка змяніць хаду заездаў і зразумець, як на гэта адрэагуе Краб. Ці выдасць ён больш інфармацыі?..»"
+
+msgid "rulesEntrypoint/tooltip/personDesc"
+msgstr "Ваш асабісты сувязны"
+
+msgid "rulesEntrypoint/tooltip/personTitle"
+msgstr "Алена Васільева"
+
+msgid "rulesEntrypoint/tooltip/title"
+msgstr "Таямніцы планеты"
+
+msgid "shopEntry/title"
+msgstr "ТАВАРЫ З МАРСА"
+
+msgid "specifications/acceleration/desc"
+msgstr "Паказчык таго, як хутка марсаход можна набраць хуткасць пасля пачатку руху."
+
+msgid "specifications/acceleration/title"
+msgstr "Разгон"
+
+msgid "specifications/acceleration/tooltipTitle"
+msgstr "Разгон"
+
+msgid "specifications/fireRate/desc"
+msgstr "Колькасць стрэлаў, якія марсаход можа зрабіць за хвіліну."
+
+msgid "specifications/fireRate/title"
+msgstr "Хуткастрэльнасць"
+
+msgid "specifications/fireRate/tooltipTitle"
+msgstr "Хуткастрэльнасць"
+
+msgid "specifications/maxSpeed/desc"
+msgstr "Верхний предел скорости, которую может набрать марсоход."
+
+msgid "specifications/maxSpeed/title"
+msgstr "Макс. хуткасць"
+
+msgid "specifications/maxSpeed/tooltipTitle"
+msgstr "Макс. хуткасць"
+
+msgid "specifications/shotPower/desc"
+msgstr "Сіла, з якой марсаходы будуць адкінуты пры ўздзеянні імпульсу."
+
+msgid "specifications/shotPower/title"
+msgstr "Магутнасць стрэлу"
+
+msgid "specifications/shotPower/tooltipTitle"
+msgstr "Магутнасць стрэлу"
+
+msgid "specifications/stability/desc"
+msgstr "Здольнасць марсахода супраціўляцца ўздзеянню імпульсаў. Чым ніжэйшы параметр, тым далей адкіне машыну пры траплянні."
+
+msgid "specifications/stability/title"
+msgstr "Устойлівасць"
+
+msgid "specifications/stability/tooltipTitle"
+msgstr "Устойлівасць"
+
+msgid "specifications/title"
+msgstr "Ключавыя параметры"
+
+msgid "tooltip/dailyQuestsTimer/description"
+msgstr "Такія заданні даступныя на працягу сутак і абнаўляюцца ў 03:00 (Мінск). Пасля гэтага ўвесь назапашаны прагрэс будзе скінуты."
+
+msgid "tooltip/dailyQuestsTimer/title"
+msgstr "Час да абнаўлення штодзённых заданняў"
+
+msgid "tooltip/marsPoints/description"
+msgstr "Выконвайце асабістыя заданні і рабіце карысныя дзеянні падчас заездаў, каб атрымліваць ачкі падзеі і прасоўвацца па прагрэсіі."
+
+msgid "tooltip/marsPoints/header"
+msgstr "Ачкі падзеі"
+
+msgid "tooltip/shopEntry/description"
+msgstr "Націсніце, каб перайсці да адмысловых прапаноў экспедыцыі «У космас!»."
+
+msgid "vehicle/aspectList/aspect1/description"
+msgstr "Выконвае стрэл снарадам, які выбухае пры траплянні, адкідваючы праціўніка."
+
+msgid "vehicle/aspectList/aspect1/title"
+msgstr "ІМПУЛЬС"
+
+msgid "vehicle/aspectList/aspect2/description"
+msgstr "Павялічвае хуткасць машыны. Можна выкарыстоўваць для тарана або для хуткага выйсця з небяспечных сітуацый."
+
+msgid "vehicle/aspectList/aspect2/title"
+msgstr "ПАСКАРЭННЕ"
+
+msgid "vehicle/aspectList/aspect3/description"
+msgstr "Фіксуе ваш марсаход на месцы, абараняючы яго ад атак і тарана праціўніка."
+
+msgid "vehicle/aspectList/aspect3/title"
+msgstr "ЯКАРНЫ ШЧЫТ"
+
+msgid "vehicle/description"
+msgstr "На час экспедыцыі ў распараджэнне кожнага ўдзельніка паступаюць браняваныя машыны, распрацаваныя ў НПВА «Перспектыва» і прызначаныя для перасоўвання па пясках Чырвонай планеты. Звярніце ўвагу: марсаходы аснашчаны асаблівымі тэхналогіямі."
+
+msgid "vehicle/inBattle"
+msgstr "НА ЗАДАННІ"
+
+msgid "vehicle/title/new"
+msgstr "МЕТЭОР"
+
+msgid "vehicle/title/old"
+msgstr "СПАДАРОЖНІК"
+
+msgid "vehicle/tooltip/newVehicle/longDesc"
+msgstr "Мадэль, спраектаваная на аснове марсахода «Спадарожнік». Вылучаецца %(parameter_one) і %(parameter_two)."
+
+msgid "vehicle/tooltip/newVehicle/parameter_one"
+msgstr "больш высокай хуткасцю"
+
+msgid "vehicle/tooltip/newVehicle/parameter_two"
+msgstr "манеўранасцю"
+
+msgid "vehicle/tooltip/newVehicle/shortDesc"
+msgstr "Баявая машына касмічнага прызначэння"
+
+msgid "vehicle/tooltip/newVehicle/title"
+msgstr "Метэор"
+
+msgid "vehicle/tooltip/oldVehicle/longDesc"
+msgstr "У параўнанні з машынам мадэлі «Метэор» %(parameter_one) і страляюць %(parameter_two)."
+
+msgid "vehicle/tooltip/oldVehicle/parameter_one"
+msgstr "больш устойлівыя"
+
+msgid "vehicle/tooltip/oldVehicle/parameter_two"
+msgstr "больш магутнымі імпульсамі"
+
+msgid "vehicle/tooltip/oldVehicle/shortDesc"
+msgstr "Баявая машына касмічнага прызначэння"
+
+msgid "vehicle/tooltip/oldVehicle/title"
+msgstr "Спадарожнік"

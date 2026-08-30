@@ -1,0 +1,104 @@
+from gui.battle_control.controllers.dyn_squad_functional import DYN_SQUAD_TYPE
+from messenger import g_settings
+from messenger.gui.Scaleform import FILL_COLORS
+from messenger.proto.shared_messages import ACTION_MESSAGE_TYPE
+
+class _WARNING_FONT_COLOR(object):
+    GENERAL = b'#FFC364'
+    TEAM_SIDE_BASED = b'#999999'
+    VOIP_DISABLE = b'#FEAB34'
+    VOIP_ENABLE = b'#71BB33'
+
+
+_DYN_SQUAD_IMAGE = b'squad_silver_{0}'
+
+def getMessageFormatter(actionMessage):
+    if actionMessage.getType() == ACTION_MESSAGE_TYPE.ERROR:
+        return ErrorMessageFormatter(actionMessage)
+    if actionMessage.getType() == ACTION_MESSAGE_TYPE.WARNING:
+        return WarningMessageFormatter(actionMessage)
+    return BaseMessageFormatter(actionMessage)
+
+
+def getComp7VOIPNotificationFormatter(actionMessage):
+    if actionMessage.getType() == ACTION_MESSAGE_TYPE.WARNING:
+        return DisableVOIPMessageFormatter(actionMessage)
+    return EnableVOIPMessageFormatter(actionMessage)
+
+
+def getRankedVOIPNotificationFormatter(actionMessage):
+    if actionMessage.getType() == ACTION_MESSAGE_TYPE.WARNING:
+        return DisableVOIPMessageFormatter(actionMessage)
+    return EnableVOIPMessageFormatter(actionMessage)
+
+
+class BaseMessageFormatter(object):
+
+    def __init__(self, actionMessage):
+        self._actionMessage = actionMessage
+        return
+
+    def getFormattedMessage(self):
+        return self._actionMessage.getMessage()
+
+    def getFillColor(self):
+        return FILL_COLORS.BLACK
+
+
+class WarningMessageFormatter(BaseMessageFormatter):
+
+    def __init__(self, actionMessage):
+        BaseMessageFormatter.__init__(self, actionMessage)
+        return
+
+    def getFormattedMessage(self):
+        fontColor = _WARNING_FONT_COLOR.GENERAL
+        if self._actionMessage.squadType in (DYN_SQUAD_TYPE.ENEMY, DYN_SQUAD_TYPE.ALLY):
+            fontColor = _WARNING_FONT_COLOR.TEAM_SIDE_BASED
+        formatted = g_settings.htmlTemplates.format(b'battleWarningMessage', ctx={b'fontColor': fontColor, 
+           b'message': (self._actionMessage.getMessage())})
+        if self._actionMessage.squadNum is not None and self._actionMessage.squadType != DYN_SQUAD_TYPE.OWN:
+            formatted = (b'{0}{1}').format(g_settings.htmlTemplates.format(b'battleWarningMessageImage', ctx={b'image': (_DYN_SQUAD_IMAGE.format(self._actionMessage.squadNum))}), formatted)
+        return formatted
+
+    def getFillColor(self):
+        fillColor = FILL_COLORS.BLACK
+        if self._actionMessage.squadType == DYN_SQUAD_TYPE.ENEMY:
+            fillColor = FILL_COLORS.RED
+        if self._actionMessage.squadType == DYN_SQUAD_TYPE.ALLY:
+            fillColor = FILL_COLORS.GREEN
+        return fillColor
+
+
+class ErrorMessageFormatter(BaseMessageFormatter):
+
+    def getFormattedMessage(self):
+        formatted = g_settings.htmlTemplates.format(b'battleErrorMessage', ctx={b'error': (self._actionMessage.getMessage())})
+        return formatted
+
+
+class DisableVOIPMessageFormatter(BaseMessageFormatter):
+
+    def __init__(self, actionMessage):
+        BaseMessageFormatter.__init__(self, actionMessage)
+        return
+
+    @classmethod
+    def getFontColor(cls):
+        return _WARNING_FONT_COLOR.VOIP_DISABLE
+
+    @classmethod
+    def getFillColor(cls):
+        return FILL_COLORS.BLACK
+
+    def getFormattedMessage(self):
+        formatted = g_settings.htmlTemplates.format(b'battleWarningMessage', ctx={b'fontColor': (self.getFontColor()), 
+           b'message': (self._actionMessage.getMessage())})
+        return formatted
+
+
+class EnableVOIPMessageFormatter(DisableVOIPMessageFormatter):
+
+    @classmethod
+    def getFontColor(cls):
+        return _WARNING_FONT_COLOR.VOIP_ENABLE

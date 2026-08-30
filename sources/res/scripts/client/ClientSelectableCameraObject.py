@@ -1,0 +1,75 @@
+import CGF
+from ClientSelectableObject import ClientSelectableObject
+from gui.hangar_cameras.hangar_camera_common import CameraMovementStates, CameraRelatedEvents
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from helpers import dependency
+from cgf_components.hangar_camera_manager import HangarCameraManager
+from skeletons.gui.shared.utils import IHangarSpace
+
+class ClientSelectableCameraObject(ClientSelectableObject):
+    hangarSpace = dependency.descriptor(IHangarSpace)
+    allCameraObjects = set()
+
+    def __init__(self):
+        ClientSelectableObject.__init__(self)
+        self.__state = CameraMovementStates.FROM_OBJECT
+        return
+
+    def onEnterWorld(self, prereqs):
+        ClientSelectableCameraObject.allCameraObjects.add(self)
+        ClientSelectableObject.onEnterWorld(self, prereqs)
+        return
+
+    def onLeaveWorld(self):
+        if self in ClientSelectableCameraObject.allCameraObjects:
+            ClientSelectableCameraObject.allCameraObjects.remove(self)
+        return
+
+    def onMouseClick(self):
+        ClientSelectableCameraObject.switchCamera(self)
+        return self.state != CameraMovementStates.FROM_OBJECT
+
+    @classmethod
+    def switchCamera(cls, clickedObject=None, cameraName=None):
+        if not cls.hangarSpace.spaceInited:
+            return
+        else:
+            if not clickedObject:
+                clickedObject = cls.hangarSpace.space.getVehicleEntity()
+            if clickedObject is None or clickedObject.state != CameraMovementStates.FROM_OBJECT:
+                return
+            cls.deselectAll()
+            cameraManager = CGF.getManager(cls.hangarSpace.spaceID, HangarCameraManager)
+            if cameraName is None:
+                cameraManager.switchToTank(False)
+            else:
+                cameraManager.switchByCameraName(cameraName, False)
+            clickedObject.onSelect()
+            return
+
+    @classmethod
+    def deselectAll(cls):
+        for cameraObject in ClientSelectableCameraObject.allCameraObjects:
+            cameraObject.onDeselect()
+
+        return
+
+    def onSelect(self):
+        self.setEnable(False)
+        self.setState(CameraMovementStates.MOVING_TO_OBJECT)
+        self.setState(CameraMovementStates.ON_OBJECT)
+        return
+
+    def onDeselect(self):
+        self.setState(CameraMovementStates.FROM_OBJECT)
+        self.setEnable(True)
+        return
+
+    def setState(self, state):
+        self.__state = state
+        g_eventBus.handleEvent(CameraRelatedEvents(CameraRelatedEvents.CAMERA_ENTITY_UPDATED, ctx={b'state': (self.__state), b'entityId': (self.id)}), scope=EVENT_BUS_SCOPE.DEFAULT)
+        return
+
+    @property
+    def state(self):
+        return self.__state

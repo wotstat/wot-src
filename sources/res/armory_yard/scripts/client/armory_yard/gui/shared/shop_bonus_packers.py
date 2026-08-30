@@ -1,0 +1,661 @@
+import logging, re
+from typing import TYPE_CHECKING
+import nations
+from armory_yard.gui.impl.gen.view_models.views.lobby.feature.armory_yard_shop_item import ArmoryYardShopItem, TemplateType
+from constants import PREMIUM_ENTITLEMENTS, ROLE_TYPE, ROLE_TYPE_TO_LABEL
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.Scaleform.daapi.view.lobby.storage.storage_helpers import OptDeviceBonusesDescriptionBuilder, getCategoriesIcons, getStorageItemName, getStorageItemIcon, getItemNationID, getTypeUserName
+from gui.Scaleform.genConsts.STORE_CONSTANTS import STORE_CONSTANTS
+from gui.shared.gui_items import GUI_ITEM_TYPE, GUI_ITEM_TYPE_INDICES
+from gui.shared.gui_items.customization.c11n_items import Style
+from gui.shared.money import Currency
+from goodies.goodie_constants import GOODIE_RESOURCE_TYPE
+from helpers import int2roman, dependency
+from skeletons.gui.customization import ICustomizationService
+from skeletons.gui.goodies import IGoodiesCache
+from skeletons.gui.shared import IItemsCache
+if TYPE_CHECKING:
+    from typing import Optional
+_logger = logging.getLogger(__name__)
+
+def _removeStringColorTags(string):
+    return re.sub(b'{colorTagOpen}|{colorTagClose}', b'', string)
+
+
+def _getNationFlagIcon(item):
+    itemNationID = getItemNationID(item)
+    if itemNationID != nations.NONE_INDEX:
+        return nations.NAMES[itemNationID]
+    return b''
+
+
+class ArmoryOptDeviceBonusesDescriptionBuilder(OptDeviceBonusesDescriptionBuilder):
+    KPI_VALUE_TEMPLATE = b'%(80d43a_Open)s{}%(80d43a_Close)s'
+
+    def _effectStringFormat(self, effect):
+        return effect
+
+    def _kpiStringFormat(self, description):
+        return description
+
+
+class ShopBaseUIPacker(object):
+
+    def __init__(self, count):
+        self.count = count
+        return
+
+    @property
+    def isSupported(self):
+        return False
+
+    @property
+    def icon(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def largeIcon(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def title(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def description(self):
+        return b''
+
+    @property
+    def longDescription(self):
+        return b''
+
+    @property
+    def template(self):
+        return TemplateType.OTHER
+
+    @property
+    def nationFlagIcon(self):
+        return b''
+
+    @property
+    def effect(self):
+        return b''
+
+    @property
+    def itemType(self):
+        return b''
+
+    def pack(self, model, isLargeIcon=False):
+        if not self.isSupported:
+            return False
+        model.setTemplate(self.template)
+        model.setCount(self.count)
+        model.setTitle(self.title)
+        model.setImage(self.icon)
+        model.setLargeImage(self.largeIcon)
+        model.setEffect(self.effect)
+        model.setLongDescription(self.longDescription)
+        model.setDescription(self.description)
+        model.setNationFlagIcon(self.nationFlagIcon)
+        model.setAvailable(True)
+        return True
+
+
+class CurrencyPacker(ShopBaseUIPacker):
+    _CURRENCY = None
+    __FORMATTER = b'%(C9C9B6_Open)s{}%(C9C9B6_Close)s'
+
+    def __init__(self, count=0):
+        super(CurrencyPacker, self).__init__(count)
+        self._strSection = R.strings.armory_shop.dyn(self._CURRENCY)
+        return
+
+    @property
+    def isSupported(self):
+        return True
+
+    @property
+    def icon(self):
+        return backport.image(R.images.gui.maps.icons.quests.bonuses.s180x135.dyn(self._CURRENCY)())
+
+    @property
+    def largeIcon(self):
+        return backport.image(R.images.gui.maps.icons.quests.bonuses.s400x300.dyn(self._CURRENCY)())
+
+    @property
+    def title(self):
+        if self._strSection is not None:
+            return backport.text(self._strSection.title())
+        else:
+            return
+
+    @property
+    def description(self):
+        if self._strSection is not None:
+            return backport.text(self._strSection.description(), value=self.__FORMATTER.format(self.count))
+        else:
+            return
+
+    @property
+    def longDescription(self):
+        if self._strSection is not None:
+            return backport.text(self._strSection.longDescription(), value=self.count)
+        else:
+            return
+
+
+class CreditsPacker(CurrencyPacker):
+    _CURRENCY = Currency.CREDITS
+
+
+class GoldPacker(CurrencyPacker):
+    _CURRENCY = Currency.GOLD
+
+
+class FreeXpPacker(CurrencyPacker):
+    _CURRENCY = Currency.FREE_XP
+
+
+class EquipCoinPacker(CurrencyPacker):
+    _CURRENCY = Currency.EQUIP_COIN
+
+
+class CrystalPacker(CurrencyPacker):
+    _CURRENCY = Currency.CRYSTAL
+
+
+class PremiumPlusPacker(ShopBaseUIPacker):
+    __IMG_NAME = b'premium_plus_{}'
+    __FORMATTER = b'%(C9C9B6_Open)s{}%(C9C9B6_Close)s'
+    __SIZE_SMALL = b's232x174'
+    __SIZE_LARGE = b's400x300'
+
+    def __init__(self, day):
+        super(PremiumPlusPacker, self).__init__(day)
+        self.__day = day
+        return
+
+    def __getIcon(self, size):
+        resource = R.images.gui.maps.icons.quests.bonuses.dyn(size).dyn(self.__IMG_NAME.format(self.__day))
+        if resource.isValid():
+            return resource()
+        return R.images.gui.maps.icons.quests.bonuses.dyn(size).premium_plus_universal()
+
+    @property
+    def isSupported(self):
+        return True
+
+    @property
+    def icon(self):
+        return backport.image(self.__getIcon(self.__SIZE_SMALL))
+
+    @property
+    def largeIcon(self):
+        return backport.image(self.__getIcon(self.__SIZE_LARGE))
+
+    @property
+    def title(self):
+        return backport.text(R.strings.armory_shop.premiumPlus.title())
+
+    @property
+    def description(self):
+        return backport.text(self.__getDescription()(), value=self.__FORMATTER.format(self.__day))
+
+    @property
+    def longDescription(self):
+        return backport.text(R.strings.armory_shop.premiumPlus.longDescription(), dayStr=backport.text(self.__getDescription()(), value=self.__day))
+
+    def __getDescription(self):
+        if self.__day == 1:
+            descr = R.strings.armory_shop.premiumPlus.description_1
+        elif self.__day in (2, 3):
+            descr = R.strings.armory_shop.premiumPlus.description_2
+        else:
+            descr = R.strings.armory_shop.premiumPlus.description_3
+        return descr
+
+
+class CustomizationPacker(ShopBaseUIPacker):
+    __service = dependency.descriptor(ICustomizationService)
+    __customizationTitle = R.strings.armory_shop.product.customizationTitle
+    __customizationImgPath = R.images.armory_yard.gui.maps.icons.shop.customizations.styles
+
+    def __init__(self, params):
+        styleParams = params[1][0]
+        styleCount = styleParams[b'value']
+        styleType = styleParams[b'custType']
+        super(CustomizationPacker, self).__init__(styleCount)
+        self.__itemTypeID = GUI_ITEM_TYPE_INDICES.get(styleType) if styleType != b'projection_decal' else GUI_ITEM_TYPE.PROJECTION_DECAL
+        self.__item = self.__service.getItemByID(self.__itemTypeID, styleParams[b'id'])
+        if not self.__item:
+            _logger.warning(b'ArmoryYardShop style %s not found', styleParams[b'id'])
+        self.__is3DStyle = isinstance(self.__item, Style) and self.__item.is3D
+        return
+
+    @property
+    def isSupported(self):
+        return bool(self.__item)
+
+    @property
+    def icon(self):
+        if self.__itemTypeID == GUI_ITEM_TYPE.PROJECTION_DECAL:
+            return self.__item.iconUrl
+        return backport.image(self.__customizationImgPath.num(STORE_CONSTANTS.ICON_SIZE_SMALL).num(self.__item.id)())
+
+    @property
+    def largeIcon(self):
+        if self.__itemTypeID == GUI_ITEM_TYPE.PROJECTION_DECAL:
+            return self.__item.iconUrl
+        return backport.image(self.__customizationImgPath.num(STORE_CONSTANTS.ICON_SIZE_296).num(self.__item.id)())
+
+    @property
+    def title(self):
+        if self.__itemTypeID == GUI_ITEM_TYPE.PROJECTION_DECAL:
+            title = self.__customizationTitle.decals()
+        elif self.__is3DStyle:
+            title = self.__customizationTitle.style3D()
+        else:
+            title = self.__customizationTitle.style2D()
+        return backport.text(title, styleName=self.__item.userName)
+
+    @property
+    def description(self):
+        return self.__item.fullDescription
+
+    @property
+    def longDescription(self):
+        return self.__item.fullDescription
+
+    @property
+    def template(self):
+        return TemplateType.CUSTOMIZATION
+
+    @property
+    def itemType(self):
+        return self.__item.itemTypeName
+
+    def pack(self, model, isLargeIcon=False):
+        if not super(CustomizationPacker, self).pack(model, isLargeIcon):
+            return False
+        model.setItemType(self.itemType)
+        if self.__is3DStyle:
+            model.setAvailable(not self.__item.inventoryCount)
+        return True
+
+
+class GoodiesPacker(ShopBaseUIPacker):
+    __cache = dependency.descriptor(IGoodiesCache)
+    __FORMATTER = b'%(CBAC77_Open)s{}%(CBAC77_Close)s'
+    __BOOSTER_TYPE_TITLE = {(GOODIE_RESOURCE_TYPE.CREDITS): (R.strings.personal_reserves.activation.creditsTitle()), 
+       (GOODIE_RESOURCE_TYPE.XP): (R.strings.personal_reserves.activation.battleXPTitle()), 
+       (GOODIE_RESOURCE_TYPE.CREW_XP): (R.strings.personal_reserves.activation.battleXPTitle()), 
+       (GOODIE_RESOURCE_TYPE.FREE_XP): (R.strings.personal_reserves.activation.battleXPTitle()), 
+       (GOODIE_RESOURCE_TYPE.FREE_XP_CREW_XP): (R.strings.personal_reserves.activation.comboXPTitle()), 
+       (GOODIE_RESOURCE_TYPE.FREE_XP_MAIN_XP): (R.strings.personal_reserves.activation.comboXPTitle())}
+
+    def __init__(self, params):
+        goodiesId, goodieParams = params.items()[0]
+        self.__item = self.__cache.getBooster(goodiesId)
+        super(GoodiesPacker, self).__init__(goodieParams.get(b'count', 1))
+        if not self.__item:
+            _logger.warning(b'ArmoryYardShop goodies %s not found', goodiesId)
+        return
+
+    @property
+    def isSupported(self):
+        return bool(self.__item)
+
+    @property
+    def icon(self):
+        return self.__item.getShopIcon(size=STORE_CONSTANTS.ICON_SIZE_SMALL)
+
+    @property
+    def largeIcon(self):
+        return self.__item.getShopIcon(size=STORE_CONSTANTS.ICON_SIZE_MEDIUM)
+
+    @property
+    def title(self):
+        title = self.__BOOSTER_TYPE_TITLE.get(self.__item.boosterType, None)
+        if title is not None:
+            return backport.text(title)
+        else:
+            return self.__item.userName
+
+    @property
+    def longDescription(self):
+        return self.__item.longDescriptionSpecial
+
+    @property
+    def effect(self):
+        return self.__item.getDescription(valueFormatter=self.__format)
+
+    @property
+    def template(self):
+        return TemplateType.MAINTAIN
+
+    def __format(self, value):
+        return self.__FORMATTER.format(value)
+
+
+class ItemPacker(ShopBaseUIPacker):
+    __cache = dependency.descriptor(IItemsCache)
+    __BATTLE_BOOSTER_FORMATTER = b'%(80D43A_Open)s{}%(80D43A_Close)s'
+    __DEFAULT_TEMPLATE = {b'expTagOpen': b'%(C9C9B6_Open)s', 
+       b'expTagClose': b'%(C9C9B6_Close)s', 
+       b'effectTagOpen': b'%(CBAC77_Open)s', 
+       b'effectTagClose': b'%(CBAC77_Close)s', 
+       b'colourTagOpen': b'%(80D43A_Open)s', 
+       b'colourTagClose': b'%(80D43A_Close)s'}
+
+    def __init__(self, params):
+        itemId, count = params.items()[0]
+        super(ItemPacker, self).__init__(count)
+        self.__item = self.__cache.items.getItemByCD(itemId)
+        self.__builder = None
+        if not self.__item:
+            _logger.warning(b'ArmoryYardShop item %s not found', itemId)
+            return
+        else:
+            if self.__item.itemTypeID == GUI_ITEM_TYPE.OPTIONALDEVICE:
+                self.__builder = ArmoryOptDeviceBonusesDescriptionBuilder()
+            return
+
+    @property
+    def isSupported(self):
+        return bool(self.__item)
+
+    @property
+    def icon(self):
+        return getStorageItemIcon(self.__item, STORE_CONSTANTS.ICON_SIZE_SMALL)
+
+    @property
+    def largeIcon(self):
+        return getStorageItemIcon(self.__item, STORE_CONSTANTS.ICON_SIZE_MEDIUM)
+
+    @property
+    def title(self):
+        return getStorageItemName(self.__item)
+
+    @property
+    def description(self):
+        if self.__item.itemTypeID == GUI_ITEM_TYPE.OPTIONALDEVICE:
+            return b''
+        else:
+            if self.__item.itemTypeID != GUI_ITEM_TYPE.BATTLE_BOOSTER:
+                return self.__item.formattedShortDescription(self.__DEFAULT_TEMPLATE)
+            if self.__item.isCrewBooster():
+                return self.__item.shortDescriptionSpecial
+            if self.__item.isEconomicBooster():
+                return self.__item.getEconomicDirectivesDescription()
+            return self.__item.getOptDeviceBoosterDescription(None, valueFormatter=self.__format)
+
+    @property
+    def longDescription(self):
+        if self.__item.itemTypeID == GUI_ITEM_TYPE.OPTIONALDEVICE:
+            return backport.text(R.strings.tooltips.advanced.dyn(self.__item.descriptor.archetype)())
+        else:
+            if self.__item.itemTypeID != GUI_ITEM_TYPE.BATTLE_BOOSTER:
+                return self.__item.fullDescription
+            if self.__item.isCrewBooster():
+                return self.__item.fullDescriptionSpecial
+            if self.__item.isEconomicBooster():
+                return self.__item.longDescriptionSpecial
+            return self.__item.getOptDeviceBoosterDescription(None)
+
+    @property
+    def nationFlagIcon(self):
+        return _getNationFlagIcon(self.__item)
+
+    @property
+    def effect(self):
+        if self.__builder is not None:
+            return self.__builder.getEffectDescription(self.__item)
+        else:
+            return b''
+
+    @property
+    def template(self):
+        if self.__item.itemTypeID == GUI_ITEM_TYPE.BATTLE_BOOSTER and self.__item.isEconomicBooster():
+            return TemplateType.ECONOMICBOOSTER
+        return TemplateType.MAINTAIN
+
+    @property
+    def itemType(self):
+        itemType = self.__item.getOverlayType()
+        if itemType:
+            return itemType
+        return self.__item.itemTypeName
+
+    def __setExtraParams(self, model):
+        if self.__builder is None:
+            return
+        else:
+            for param in self.__builder.getDescriptionByKpiStrings(self.__item):
+                model.addString(param)
+
+            model.invalidate()
+            return
+
+    def __setSpecializations(self, model):
+        if self.__builder is None:
+            return
+        else:
+            for specialization in getCategoriesIcons(self.__item):
+                model.addString(specialization)
+
+            model.invalidate()
+            return
+
+    def __format(self, value):
+        return self.__BATTLE_BOOSTER_FORMATTER.format(value)
+
+    def pack(self, model, isLargeIcon=False):
+        if not super(ItemPacker, self).pack(model, isLargeIcon):
+            return False
+        model.setItemType(self.itemType)
+        self.__setExtraParams(model.getExtraParams())
+        self.__setSpecializations(model.getSpecializations())
+        return True
+
+
+class VehiclePacker(ShopBaseUIPacker):
+    __cache = dependency.descriptor(IItemsCache)
+    __COLOR_OPEN_TAG = b'%(E9E2BF_open)s'
+    __COLOR_CLOSE_TAG = b'%(E9E2BF_close)s'
+
+    def __init__(self, params):
+        self.__vehicleId, self.__isOtherBonus, self.__isCrew, self.__isSlot, self.__armoryEpisode = params
+        self.__item = self.__cache.items.getItemByCD(self.__vehicleId)
+        super(VehiclePacker, self).__init__(1)
+        if not self.__item:
+            _logger.warning(b'ArmoryYardShop vehicle %s not found', self.__vehicleId)
+        return
+
+    @property
+    def vehicleId(self):
+        return self.__vehicleId
+
+    @property
+    def isSupported(self):
+        return bool(self.__item)
+
+    @property
+    def icon(self):
+        return self.__item.getShopIcon(STORE_CONSTANTS.ICON_SIZE_SMALL)
+
+    @property
+    def largeIcon(self):
+        return self.__item.getShopIcon(STORE_CONSTANTS.ICON_SIZE_MEDIUM)
+
+    @property
+    def title(self):
+        if self.__isOtherBonus:
+            return backport.text(R.strings.armory_shop.product.bundle.title(), vehicleName=self.__item.userName)
+        return getStorageItemName(self.__item)
+
+    @property
+    def template(self):
+        if self.__isOtherBonus:
+            return TemplateType.BUNDLE
+        return TemplateType.VEHICLE
+
+    @property
+    def longDescription(self):
+        if self.__isOtherBonus:
+            return backport.text(R.strings.armory_shop.product.bundle.longDescription.dyn((b'episode{}').format(self.__armoryEpisode))())
+        return self.__item.longDescriptionSpecial
+
+    @property
+    def nationFlagIcon(self):
+        return _getNationFlagIcon(self.__item)
+
+    @property
+    def itemType(self):
+        if self.__isOtherBonus:
+            return b'bundle'
+        return self.__item.itemTypeName
+
+    def __setExtraParams(self, model):
+        extraParams = model.getExtraParams()
+        if not self.__isOtherBonus:
+            extraParams.addString(self.__item.shortDescriptionSpecial)
+            extraParams.invalidate()
+            return
+        extraParams.addString(backport.text(R.strings.armory_shop.product.bundle.vehDescr(), vehicleName=self.__item.userName, vehicleLvl=model.getVehicleLevel(), color_open=self.__COLOR_OPEN_TAG, color_close=self.__COLOR_CLOSE_TAG))
+        if self.__armoryEpisode > 0:
+            extraParams.addString(backport.text(R.strings.armory_shop.product.bundle.armoryExtDescr(), color_open=self.__COLOR_OPEN_TAG, color_close=self.__COLOR_CLOSE_TAG))
+        extraParams.invalidate()
+        return
+
+    def pack(self, model, isLargeIcon=False):
+        if not super(VehiclePacker, self).pack(model, isLargeIcon):
+            return False
+        model.setVehicleType(getTypeUserName(self.__item.type, self.__item.isElite))
+        model.setVehicleLevel(int2roman(self.__item.level))
+        if self.__item.role != ROLE_TYPE.NOT_DEFINED:
+            model.setVehicleRoleName(ROLE_TYPE_TO_LABEL[self.__item.role])
+        model.setAvailable(not self.__item.inventoryCount and not self.__item.isRestoreAvailable())
+        model.setItemType(self.itemType)
+        self.__setExtraParams(model)
+        return True
+
+
+class BundlePacker(ShopBaseUIPacker):
+    __TEMPLATES = {b'bundle': (TemplateType.BUNDLE), 
+       b'other': (TemplateType.OTHER), 
+       b'maintain': (TemplateType.MAINTAIN), 
+       b'customization': (TemplateType.CUSTOMIZATION), 
+       b'economicBooster': (TemplateType.ECONOMICBOOSTER)}
+
+    def __init__(self, params):
+        self.__keyName, self.__category, self.count = params
+        super(BundlePacker, self).__init__(self.count)
+        return
+
+    @property
+    def isSupported(self):
+        return True
+
+    @property
+    def icon(self):
+        return backport.image(R.images.armory_yard.gui.maps.icons.shop.bundles.c_180x135.dyn(self.__keyName)())
+
+    @property
+    def largeIcon(self):
+        return backport.image(R.images.armory_yard.gui.maps.icons.shop.bundles.c_400x300.dyn(self.__keyName)())
+
+    @property
+    def title(self):
+        return backport.text(R.strings.armory_shop.bundles.dyn(self.__keyName).title())
+
+    @property
+    def template(self):
+        return self.__TEMPLATES.get(self.__category, None)
+
+    @property
+    def description(self):
+        return backport.text(R.strings.armory_shop.bundles.dyn(self.__keyName).description())
+
+    @property
+    def longDescription(self):
+        return backport.text(R.strings.armory_shop.bundles.dyn(self.__keyName).longDescription())
+
+    def pack(self, model, isLargeIcon=False):
+        if not super(BundlePacker, self).pack(model, isLargeIcon):
+            return False
+        return True
+
+
+_BONUS_PACKS = {b'customizations': CustomizationPacker, 
+   b'goodies': GoodiesPacker, 
+   b'items': ItemPacker, 
+   b'vehicles': VehiclePacker, 
+   b'bundle': BundlePacker, 
+   (PREMIUM_ENTITLEMENTS.PLUS): PremiumPlusPacker, 
+   (Currency.CREDITS): CreditsPacker, 
+   (Currency.CRYSTAL): CrystalPacker, 
+   (Currency.GOLD): GoldPacker, 
+   (Currency.FREE_XP): FreeXpPacker, 
+   (Currency.EQUIP_COIN): EquipCoinPacker}
+
+def packShopItem(productId, productParams, itemModel=None, isLargeIcon=False):
+    packer = getBonusPacker(productId, **productParams)
+    if itemModel is None:
+        itemModel = ArmoryYardShopItem()
+    itemModel.setItemID(productId)
+    if b'limit' in productParams:
+        itemModel.setLimit(max(productParams[b'limit'] - productParams.get(b'currCount', 0), 0))
+    else:
+        itemModel.setLimit(-1)
+    itemModel.setIsOnlyArmoryCoins(productParams.get(b'onlyArmoryCoins', False))
+    itemModel.setCoinsCost(productParams[b'price'])
+    if packer and packer.pack(itemModel, isLargeIcon):
+        return itemModel
+    else:
+        return
+
+
+def getBonusPacker(productId, bonus, **kwargs):
+    bonusItems = {}
+    isCrew = isSlot = False
+    exclusiveVehicleID = kwargs.get(b'exclusiveVehicle', None)
+    uiSection = kwargs.get(b'UI', {})
+    packAsBundle = kwargs.get(b'packAsBundle', uiSection.get(b'packAsBundle', {}))
+    vehicleID = None
+    for bonusType, bonusValue in bonus.iteritems():
+        if bonusType == b'vehicles':
+            for vehID, attr in bonusValue.iteritems():
+                if exclusiveVehicleID is not None and exclusiveVehicleID != vehID:
+                    continue
+                vehicleID = vehID
+                if attr.get(b'crewLvl', 0) > 0:
+                    isCrew = True
+                break
+
+            continue
+        if bonusType == b'slots':
+            isSlot = True
+            continue
+        bonusItems[bonusType] = bonusValue
+
+    if packAsBundle:
+        bonusType = b'bundle'
+        bonusValue = [packAsBundle.get(b'useKeyName'), packAsBundle.get(b'category'), kwargs.get(b'count', 0)]
+    elif vehicleID is not None:
+        bonusType = b'vehicles'
+        bonusValue = [vehicleID, bool(bonusItems), isCrew, isSlot, uiSection.get(b'armoryEpisode', 0)]
+    else:
+        bonusType, bonusValue = bonusItems.items()[0]
+    if bonusType == b'customizations':
+        bonusValue = (
+         productId, bonusValue)
+    if bonusType not in _BONUS_PACKS:
+        _logger.warning(b'ArmoryYardShop bonus packer %s not found', bonusType)
+        return
+    else:
+        packer = _BONUS_PACKS[bonusType](bonusValue)
+        return packer

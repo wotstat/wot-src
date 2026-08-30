@@ -1,0 +1,11 @@
+class BOOTCAMP_MESSAGE_ALIASES(object):
+    RENDERER_FIN_UI = b'BCMessageFinUI'
+    RENDERER_ORANGE_UI = b'BCMessageOrangeUI'
+    RENDERER_BLUE = b'BCMessageBlueUI'
+    RENDERER_GOLD = b'BCMessageGoldUI'
+    RENDERER_INTRO = b'BCMessageIntroUI'
+    BOTTOM_REWARDS_VIEW_UI = b'BottomRewardsViewUI'
+    BOTTOM_NODES_VIEW_UI = b'BottomNodesViewUI'
+    BOTTOM_BUTTONS_TANK_VIEW_UI = b'BottomButtonsTankViewUI'
+    BOTTOM_BUTTONS_VIEW_UI = b'BottomButtonsViewUI'
+    BOTTOM_NODE_LINE_VIEW_UI = b'BottomNodeLineViewUI'

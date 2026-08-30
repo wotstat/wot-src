@@ -1,0 +1,356 @@
+import typing
+from shared_utils import first
+import BigWorld
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import NEW_LOBBY_TAB_COUNTER
+from dossiers2.ui.achievements import ACHIEVEMENT_BLOCK
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.header.LobbyHeader import HEADER_BUTTONS_COUNTERS_CHANGED_EVENT
+from gui.Scaleform.daapi.view.lobby.vehicle_preview.items_kit_helper import lookupItem, showItemTooltip, getCDFromId, canInstallStyle, showAwardsTooltip
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS as TC
+from gui.Scaleform.daapi.view.lobby.header import battle_selector_items
+from gui.server_events.bonuses import getNonQuestBonuses
+from gui.shared import g_eventBus
+from gui.shared.events import HasCtxEvent
+from gui.shared.gui_items.dossier import dumpDossier
+from gui.shared.gui_items.dossier.achievements.abstract import isRareAchievement
+from gui.shared.utils import showInvitationInWindowsBar
+from gui.shared.event_dispatcher import runSalesChain
+from gui.shared.view_helpers import UsersInfoHelper
+from gui.shared.utils.functions import makeTooltip
+from helpers import time_utils
+from helpers import dependency
+from helpers.gui_utils import getMousePosition
+from messenger.storage import storage_getter
+from skeletons.gui.app_loader import IAppLoader
+from skeletons.gui.game_control import IExternalLinksController
+from skeletons.gui.goodies import IGoodiesCache
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.web import IWebController
+from web.web_client_api import w2c, W2CSchema, Field, WebCommandException
+from web.web_client_api.common import ItemPackType, ItemPackEntry, SPA_ID_TYPES
+from gui.clientgw.utils.contexts import SPAAccountAttributeCtx, PlatformFetchProductListCtx
+from web.web_client_api.ui.vehicle import _VehicleCustomizationPreviewSchema
+from items import makeIntCompactDescrByID, parseIntCompactDescr
+from items.components.crew_books_constants import CrewBookCacheType
+if typing.TYPE_CHECKING:
+    from gui.Scaleform.framework.entities.abstract.ToolTipMgrMeta import ToolTipMgrMeta
+_COUNTER_IDS_MAP = {b'shop': (VIEW_ALIAS.LOBBY_STORE)}
+
+def _itemTypeValidator(itemType, _=None):
+    if not ItemPackType.hasValue(itemType):
+        raise WebCommandException((b'unsupported item type "{}"').format(itemType))
+    return True
+
+
+def _counterIdValidator(counterId, _=None):
+    if counterId not in _COUNTER_IDS_MAP:
+        raise WebCommandException((b'unsupported counter id "{}"').format(counterId))
+    return True
+
+
+def _counterIdsValidator(idList, _=None):
+    return all(_counterIdValidator(id) for id in idList)
+
+
+class _SetCounterSchema(W2CSchema):
+    id = Field(required=True, type=basestring, validator=_counterIdValidator)
+    value = Field(required=True, type=(int, basestring))
+
+
+class _GetCountersSchema(W2CSchema):
+    id_list = Field(required=False, type=list, validator=_counterIdsValidator)
+
+
+class _RunTriggerChainSchema(W2CSchema):
+    trigger_chain_id = Field(required=True, type=basestring)
+
+
+class _ShowToolTipSchema(W2CSchema):
+    tooltipType = Field(required=True, type=basestring)
+    itemId = Field(type=(int, basestring))
+    blockId = Field(type=basestring, validator=(lambda value, _: value in ACHIEVEMENT_BLOCK.ALL))
+    isWulfTooltip = Field(type=bool)
+
+
+class _ShowCustomTooltipSchema(W2CSchema):
+    header = Field(required=True, type=basestring)
+    body = Field(required=True, type=basestring)
+
+
+class _ShowSimpleTooltipSchema(W2CSchema):
+    body = Field(required=True, type=basestring)
+
+
+class _ShowBonusTooltipSchema(W2CSchema):
+    name = Field(required=True, type=basestring)
+    value = Field(required=True, type=basestring)
+
+
+class _ShowItemTooltipSchema(W2CSchema):
+    id = Field(required=True, type=(basestring, int))
+    type = Field(required=True, type=basestring, validator=_itemTypeValidator)
+    count = Field(required=False, type=int)
+    extra = Field(required=False, type=dict)
+
+
+class _ShowAwardsTooltipSchema(W2CSchema):
+    type = Field(required=True, type=basestring, validator=_itemTypeValidator)
+    data = Field(required=True, type=dict)
+
+
+class _ChatAvailabilitySchema(W2CSchema):
+    receiver_id = Field(required=True, type=SPA_ID_TYPES)
+
+
+class _AccountAttribute(W2CSchema):
+    attr_prefix = Field(required=True, type=basestring)
+
+
+class _PlatformProductListSchema(W2CSchema):
+    storefront = Field(required=True, type=basestring)
+    wgid = Field(required=True, type=basestring)
+    language = Field(required=True, type=basestring)
+    additional_data = Field(required=True, type=dict)
+    country = Field(required=True, type=basestring)
+    response_fields = Field(required=True, type=dict)
+    response_fields_profile = Field(required=False, type=basestring)
+    category = Field(required=False, type=basestring)
+    product_codes = Field(required=False, type=list)
+
+
+class _SelectBattleTypeSchema(W2CSchema):
+    battle_type = Field(required=True, type=basestring)
+
+
+class _UrlInfoSchema(W2CSchema):
+    url = Field(required=True, type=basestring)
+
+
+class _ShowAdditionalRewardsTooltipSchema(W2CSchema):
+    rewards = Field(required=True, type=dict)
+    x = Field(required=True, type=int)
+    y = Field(required=True, type=int)
+
+
+class _GuaranteedRewardTooltipSchema(W2CSchema):
+    id = Field(required=True, type=int)
+    x = Field(required=True, type=int)
+    y = Field(required=True, type=int)
+
+
+class _RequestTokenSchema(W2CSchema):
+    tokenName = Field(required=True, type=basestring)
+
+
+class UtilWebApiMixin(object):
+    itemsCache = dependency.descriptor(IItemsCache)
+    goodiesCache = dependency.descriptor(IGoodiesCache)
+    _webCtrl = dependency.descriptor(IWebController)
+    _lnkCtrl = dependency.descriptor(IExternalLinksController)
+
+    def __init__(self):
+        super(UtilWebApiMixin, self).__init__()
+        self.__usersInfoHelper = UsersInfoHelper()
+        return
+
+    @w2c(_SetCounterSchema, b'set_counter')
+    def setCounterState(self, cmd):
+        alias = _COUNTER_IDS_MAP.get(cmd.id)
+        if alias is not None:
+            g_eventBus.handleEvent(HasCtxEvent(eventType=HEADER_BUTTONS_COUNTERS_CHANGED_EVENT, ctx={b'alias': alias, b'value': (cmd.value or b'')}))
+        return
+
+    @w2c(_GetCountersSchema, b'get_counters')
+    def getCountersInfo(self, cmd):
+        ids = cmd.id_list or _COUNTER_IDS_MAP.keys()
+        counters = AccountSettings.getCounters(NEW_LOBBY_TAB_COUNTER)
+        return {id: counters.get(_COUNTER_IDS_MAP[id]) for id in ids if id in _COUNTER_IDS_MAP}
+
+    @w2c(W2CSchema, b'blink_taskbar')
+    def blinkTaskbar(self, _):
+        showInvitationInWindowsBar()
+        return
+
+    @w2c(_RunTriggerChainSchema, b'run_trigger_chain')
+    def runTriggerChain(self, cmd):
+        chainID = cmd.trigger_chain_id
+        runSalesChain(chainID, reloadIfRun=True, isStopForced=True)
+        return
+
+    @w2c(_ShowToolTipSchema, b'show_tooltip')
+    def showTooltip(self, cmd):
+        tooltipType = cmd.tooltipType
+        itemId = cmd.itemId
+        isWulfTooltip = cmd.isWulfTooltip
+        args = []
+        withLongIntArgs = (
+         TC.AWARD_SHELL,)
+        withLongOnlyArgs = (TC.AWARD_VEHICLE, TC.AWARD_MODULE, TC.INVENTORY_BATTLE_BOOSTER, TC.BOOSTERS_BOOSTER_INFO,
+         TC.BADGE, TC.TECH_CUSTOMIZATION_ITEM, TC.EVENT_BATTLES_TICKET, TC.EVENT_LOOTBOX,
+         TC.WT_GUARANTED_REWARD)
+        if tooltipType in withLongIntArgs:
+            args = [
+             itemId, 0]
+        elif tooltipType in withLongOnlyArgs:
+            args = [
+             itemId]
+        elif tooltipType == TC.ACHIEVEMENT:
+            dossier = self.itemsCache.items.getAccountDossier()
+            dossierCompDescr = dumpDossier(self.itemsCache.items.getAccountDossier())
+            achievement = dossier.getTotalStats().getAchievement((cmd.blockId, itemId))
+            args = [dossier.getDossierType(), dossierCompDescr, achievement.getBlock(), cmd.itemId,
+             isRareAchievement(achievement)]
+        if isWulfTooltip:
+            mouseX, mouseY = getMousePosition()
+            self.__getTooltipMgr().onCreateWulfTooltip(tooltipType, args, mouseX, mouseY)
+        else:
+            self.__getTooltipMgr().onCreateTypedTooltip(tooltipType, args, b'INFO')
+        return
+
+    @w2c(_ShowItemTooltipSchema, b'show_item_tooltip')
+    def showItemTooltip(self, cmd):
+        itemType = cmd.type
+        if itemType == ItemPackType.CREW_BOOK:
+            itemId = makeIntCompactDescrByID(b'crewBook', CrewBookCacheType.CREW_BOOK, cmd.id)
+        elif itemType == ItemPackType.ITEM_CREW_SKIN:
+            _, _, itemId = parseIntCompactDescr(cmd.id)
+        elif itemType == ItemPackType.CUSTOM_LOOTBOX:
+            lootBox = self.itemsCache.items.tokens.getLootBoxByTokenID(cmd.id)
+            if lootBox:
+                if lootBox.isExtendedTooltip():
+                    self.__getTooltipMgr().onCreateWulfTooltip(TC.LOOT_BOX_EXTENDED_TOOLTIP, [cmd.id], cmd.extra[b'x'], cmd.extra[b'y'])
+                    return
+                self.__getTooltipMgr().onCreateComplexTooltip(makeTooltip(header=lootBox.getUserName(), body=lootBox.getDescriptionText()), b'INFO')
+            return
+        if itemType == ItemPackType.CUSTOM_LOOTBOXKEY:
+            self.__getTooltipMgr().onCreateWulfTooltip(TC.LOOT_BOX_KEY_TOOLTIP, [cmd.id], cmd.extra[b'x'], cmd.extra[b'y'])
+            return
+        itemId = getCDFromId(itemType=cmd.type, itemId=cmd.id)
+        rawItem = ItemPackEntry(type=itemType, id=itemId, count=cmd.count or 1, extra=cmd.extra or {})
+        item = lookupItem(rawItem, self.itemsCache, self.goodiesCache)
+        showItemTooltip(self.__getTooltipMgr(), rawItem, item)
+        return
+
+    @w2c(_ShowAwardsTooltipSchema, b'show_awards_tooltip')
+    def showAwardsTooltip(self, cmd):
+        showAwardsTooltip(self.__getTooltipMgr(), cmd.type, cmd.data)
+        return
+
+    @w2c(_ShowCustomTooltipSchema, b'show_custom_tooltip')
+    def showCustomTooltip(self, cmd):
+        self.__getTooltipMgr().onCreateComplexTooltip(makeTooltip(header=cmd.header, body=cmd.body), b'INFO')
+        return
+
+    @w2c(_ShowBonusTooltipSchema, b'show_bonus_tooltip')
+    def showBonusTooltip(self, cmd):
+        self.__getTooltipMgr().onCreateComplexTooltip(first(getNonQuestBonuses(cmd.name, cmd.value)).getTooltip(), b'INFO')
+        return
+
+    @w2c(_ShowSimpleTooltipSchema, b'show_simple_tooltip')
+    def showSimpleTooltip(self, cmd):
+        self.__getTooltipMgr().onCreateComplexTooltip(makeTooltip(body=cmd.body), b'INFO')
+        return
+
+    @w2c(W2CSchema, b'hide_tooltip')
+    def hideToolTip(self, _):
+        self.__getTooltipMgr().hide()
+        return
+
+    @w2c(W2CSchema, b'hide_window_tooltip')
+    def hideWulfToolTip(self, _):
+        self.__getTooltipMgr().onHideTooltip(b'')
+        return
+
+    @w2c(_ShowAdditionalRewardsTooltipSchema, b'show_additional_rewards_tooltip')
+    def showAdditionalRewardsTooltip(self, cmd):
+        bonuses = []
+        for key, value in cmd.rewards.iteritems():
+            bonuses.extend(getNonQuestBonuses(key, value))
+
+        self.__getTooltipMgr().onCreateWulfTooltip(TC.ADDITIONAL_REWARDS, [bonuses], cmd.x, cmd.y)
+        return
+
+    @w2c(_GuaranteedRewardTooltipSchema, b'show_guaranteed_reward_tooltip')
+    def showLootboxGuaranteedRewardTooltip(self, cmd):
+        self.__getTooltipMgr().onCreateWulfTooltip(TC.LOOT_BOX_GUARANTEED_REWARD_TOOLTIP, [cmd.id], cmd.x, cmd.y)
+        return
+
+    @w2c(W2CSchema, b'server_timestamp')
+    def getCurrentLocalServerTimestamp(self, _):
+        return time_utils.getCurrentLocalServerTimestamp()
+
+    @w2c(_PlatformProductListSchema, name=b'fetch_product_list')
+    def handleFetchProductList(self, cmd):
+        ctx = PlatformFetchProductListCtx(cmd)
+        response = yield self._webCtrl.sendRequest(ctx=ctx)
+        if response.isSuccess():
+            data = response.getData()
+            yield {b'result': {b'body': data}}
+        else:
+            yield {b'error': (self.__getErrorResponse(response.data, b'Unable to fetch product list.'))}
+        return
+
+    @w2c(_AccountAttribute, name=b'get_account_attribute_by_prefix')
+    def handleGetAccountAttributeByPrefix(self, cmd):
+        ctx = SPAAccountAttributeCtx(cmd)
+        response = yield self._webCtrl.sendRequest(ctx=ctx)
+        if response.isSuccess():
+            yield {b'result': (response.getData())}
+        else:
+            yield {b'error': (self.__getErrorResponse(response.data, b'Unable to obtain account attrs.'))}
+        return
+
+    @storage_getter(b'users')
+    def usersStorage(self):
+        return
+
+    @w2c(_ChatAvailabilitySchema, b'check_if_chat_available')
+    def checkIfChatAvailable(self, cmd):
+        receiverId = cmd.receiver_id
+
+        def isAvailable():
+            receiver = self.__usersInfoHelper.getContact(receiverId)
+            return receiver.hasValidName() and not receiver.isIgnored()
+
+        def onNamesReceivedCallback():
+            self.__usersInfoHelper.onNamesReceived -= onNamesReceivedCallback
+            yield isAvailable()
+            return
+
+        if not bool(self.__usersInfoHelper.getUserName(receiverId)):
+            self.__usersInfoHelper.onNamesReceived += onNamesReceivedCallback
+            self.__usersInfoHelper.syncUsersInfo()
+        else:
+            yield isAvailable()
+        return
+
+    @w2c(_VehicleCustomizationPreviewSchema, b'can_install_style')
+    def canStyleBeInstalled(self, cmd):
+        result = canInstallStyle(cmd.style_id)
+        return {b'can_install': (result.canInstall)}
+
+    def __getTooltipMgr(self):
+        appLoader = dependency.instance(IAppLoader)
+        return appLoader.getApp().getToolTipMgr()
+
+    @staticmethod
+    def __getErrorResponse(data, defaultError=b''):
+        if data:
+            return data
+        return {b'description': defaultError}
+
+    @w2c(_SelectBattleTypeSchema, b'select_battle_type')
+    def selectBattleType(self, cmd):
+        battle_selector_items.getItems().select(cmd.battle_type, onlyActive=True)
+        return
+
+    @w2c(_UrlInfoSchema, b'get_url_info')
+    def getUrlInfo(self, cmd):
+        external = self._lnkCtrl.externalAllowed(cmd.url)
+        return {b'external_allowed': external}
+
+    @w2c(_RequestTokenSchema, b'request_single_token')
+    def requestToken(self, cmd):
+        BigWorld.player().requestSingleToken(cmd.tokenName)
+        return

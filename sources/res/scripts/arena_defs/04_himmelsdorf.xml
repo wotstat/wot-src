@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:04_himmelsdorf/name</name>
+	<description>#arenas:04_himmelsdorf/description</description>
+	<geometry>spaces/04_himmelsdorf</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-300.0 -300.0</bottomLeft>
+		<upperRight>400.0 400.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/04_himmelsdorf/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<wwmusicSetup>
+		<wwmusicLoading>music_himmelsdorf_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_himmelsdorf_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_himmelsdorf_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_himmelsdorf_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_himmelsdorf_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_himmelsdorf_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_04_himmelsdorf_wind_spring</wwambientSound>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>2.49999189 -252.600693</position1>
+				</team1>
+				<team2>
+					<position1>69.0996399 348.999969</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>243.678146 359.278809</position>
+				</team1>
+				<team2>
+					<position>222.201324 -271.346985</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-223.100937 64.999527</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-123.776001 356.640015</position>
+				</team1>
+				<team2>
+					<position>374.260986 -241.209</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-214.139175 18.4976807</position1>
+					<position2>103.040794 335.699524</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-125.518349 -162.723236</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>259.999817 48.7992592</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>180.071869 -6.32462978</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-144.070892 136.689621</position>
+					<type>4</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>-214.139175 18.4976807</position1>
+					<position2>103.040794 335.699524</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<teamSpawnPoints>
+				<team1>
+					<position>-123.776001 356.640015</position>
+				</team1>
+				<team2>
+					<position>374.260986 -241.209</position>
+				</team2>
+			</teamSpawnPoints>
+		</comp7>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities>
+		<scenario>
+			<startTime>0 0</startTime>
+			<possibility>100</possibility>
+			<interval>0</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>himmelsdorf_bomber</name>
+			<trajectories>
+				<warplane>
+					<preset>himmelsdorf_bomber_1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>himmelsdorf_bomber_2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>5 5</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>himmelsdorf_bomber_3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>11 30</startTime>
+					<interval>200</interval>
+				</warplane>
+				<warplane>
+					<preset>himmelsdorf_bomber_4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>5 5</startTime>
+					<interval>200</interval>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

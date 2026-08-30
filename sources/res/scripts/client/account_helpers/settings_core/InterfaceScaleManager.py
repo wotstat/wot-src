@@ -1,0 +1,64 @@
+import weakref, typing, Event, BigWorld
+from account_helpers.settings_core.options import InterfaceScaleSetting
+from gui.shared.utils import graphics
+from gui import g_guiResetters
+from account_helpers.settings_core import settings_constants
+from helpers import dependency
+from skeletons.connection_mgr import IConnectionManager
+if typing.TYPE_CHECKING:
+    from typing import Tuple
+
+class InterfaceScaleManager(object):
+    connectionMgr = dependency.descriptor(IConnectionManager)
+    onScaleChanged = Event.Event()
+    onScaleExactlyChanged = Event.Event()
+
+    def __init__(self, settingsCore):
+        self.proxy = weakref.proxy(settingsCore)
+        self.__scaleValue = 0.0
+        return
+
+    def init(self):
+        g_guiResetters.add(self.scaleChanged)
+        self.connectionMgr.onConnected += self.scaleChanged
+        self.connectionMgr.onDisconnected += self.scaleChanged
+        self.proxy.onSettingsChanged += self.onSettingsChanged
+        self.scaleChanged()
+        return
+
+    def fini(self):
+        self.connectionMgr.onDisconnected -= self.scaleChanged
+        self.connectionMgr.onConnected -= self.scaleChanged
+        self.proxy.onSettingsChanged -= self.onSettingsChanged
+        g_guiResetters.discard(self.scaleChanged)
+        return
+
+    def get(self):
+        return self.__scaleValue
+
+    def onSettingsChanged(self, diff):
+        if settings_constants.GRAPHICS.INTERFACE_SCALE in diff:
+            index = int(diff[settings_constants.GRAPHICS.INTERFACE_SCALE])
+            options = self.getScaleOptions()
+            if index == InterfaceScaleSetting.AUTO_SCALE or index >= len(options):
+                index = -1
+            self.changeScale(options[index])
+        return
+
+    def scaleChanged(self):
+        scale = self.proxy.getSetting(settings_constants.GRAPHICS.INTERFACE_SCALE)
+        self.changeScale(scale)
+        return
+
+    def changeScale(self, scale):
+        prevScaleValue = self.__scaleValue
+        self.__scaleValue = scale
+        self.onScaleChanged(self.__scaleValue)
+        graphics.onInterfaceScaleChanged(self.__scaleValue)
+        if prevScaleValue != self.__scaleValue:
+            self.onScaleExactlyChanged(self.__scaleValue)
+        return
+
+    @staticmethod
+    def getScaleOptions():
+        return graphics.getInterfaceScalesList(BigWorld.screenSize())

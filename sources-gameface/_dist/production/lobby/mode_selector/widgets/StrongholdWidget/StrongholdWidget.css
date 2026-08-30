@@ -1,0 +1,98 @@
+.StrongholdWidget_base_6e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20rem;
+    color: #fff;
+    filter: saturate(1);
+    opacity: 1;
+}
+
+    .StrongholdWidget_base_6e > div {
+        width: 136rem;
+        height: 136rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .StrongholdWidget_base_6e.StrongholdWidget_inactive_a4 {
+        filter: saturate(0);
+        opacity: 0.8;
+    }
+
+    .StrongholdWidget_base__b1_0b {
+        margin-top: 146rem;
+    }
+
+    .StrongholdWidget_base__b2_0b {
+        margin-top: 10rem;
+    }
+
+    .StrongholdWidget_base__b3_49 {
+        margin-top: -10rem;
+    }
+
+    .StrongholdWidget_base__b4_f0 {
+        margin-top: 4rem;
+    }
+
+    .StrongholdWidget_base__b4_f0 > div {
+            width: 72rem;
+            height: 72rem;
+        }
+
+.StrongholdWidget_mediumScreen_7b.StrongholdWidget_base__b1_0b {
+        margin-top: 107rem;
+    }
+
+.StrongholdWidget_mediumScreen_7b.StrongholdWidget_base__b2_0b {
+        margin-top: 0;
+    }
+
+.StrongholdWidget_mediumScreen_7b.StrongholdWidget_base__b3_49 {
+        margin-top: 14rem;
+    }
+
+.StrongholdWidget_mediumScreen_7b.StrongholdWidget_base__b3_49 > div {
+            width: 72rem;
+            height: 72rem;
+        }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b1_0b {
+        margin-top: 107rem;
+    }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b1_0b > div {
+            width: 72rem;
+            height: 72rem;
+        }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b2_0b {
+        margin-top: 6rem;
+    }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b2_0b > div {
+            width: 72rem;
+            height: 72rem;
+        }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b3_49 {
+        margin-top: 0;
+    }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b3_49 > div {
+            width: 72rem;
+            height: 72rem;
+        }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b4_f0 {
+        margin-top: 0;
+    }
+
+.StrongholdWidget_smallScreen_4b.StrongholdWidget_base__b4_f0 > div {
+            width: 64rem;
+            height: 64rem;
+        }
+

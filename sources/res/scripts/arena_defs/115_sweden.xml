@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:115_sweden/name</name>
+	<description>#arenas:115_sweden/description</description>
+	<geometry>spaces/115_sweden</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/115_sweden/mmap.dds</minimap>
+	<vehicleCamouflageKind>winter</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_sweden_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_sweden_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_sweden_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_sweden_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_sweden_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_sweden_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_115_sweden_wind_winter</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-303.16095 -345.72934</position1>
+				</team1>
+				<team2>
+					<position1>356.137238 246.011429</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<comp7>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-299.01059 346.889465</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>-245.974335 245.552032</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>22.3894482 -47.7986717</position>
+					<type>1</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamSpawnPoints>
+				<team1>
+					<position>-473.821716 -129.706757</position>
+				</team1>
+				<team2>
+					<position>237.861359 319.852936</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-148.626923 139.28804</controlPoint>
+		</comp7>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities></mapActivities>
+</root>

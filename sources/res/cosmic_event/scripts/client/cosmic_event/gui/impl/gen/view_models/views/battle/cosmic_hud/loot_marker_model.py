@@ -1,0 +1,20 @@
+from cosmic_event.gui.impl.gen.view_models.views.battle.cosmic_hud.marker_model import MarkerModel
+
+class LootMarkerModel(MarkerModel):
+    __slots__ = ()
+
+    def __init__(self, properties=6, commands=0):
+        super(LootMarkerModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getDistance(self):
+        return self._getNumber(5)
+
+    def setDistance(self, value):
+        self._setNumber(5, value)
+        return
+
+    def _initialize(self):
+        super(LootMarkerModel, self)._initialize()
+        self._addNumberProperty(b'distance', 0)
+        return

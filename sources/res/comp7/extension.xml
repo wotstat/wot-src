@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>comp7</FeatureName>
+	<IsEnabled>true</IsEnabled>
+	<Personality>Comp7ExtensionPersonality</Personality>
+	<Components>
+		<StaticComponents>
+			<ArenaComp7Component></ArenaComp7Component>
+			<AccountComp7Component></AccountComp7Component>
+			<AccountTournamentComp7Component></AccountTournamentComp7Component>
+		</StaticComponents>
+		<DynamicComponents>
+			<TeamInfoComp7Component></TeamInfoComp7Component>
+			<VehicleComp7Component></VehicleComp7Component>
+			<ArenaInfoComp7Component></ArenaInfoComp7Component>
+			<VehiclePrestigePoint></VehiclePrestigePoint>
+			<VehicleRoleSkill></VehicleRoleSkill>
+			<VehicleInspireController></VehicleInspireController>
+			<VehicleHealController></VehicleHealController>
+			<ArenaComp7MinesComponent></ArenaComp7MinesComponent>
+		</DynamicComponents>
+	</Components>
+</root>

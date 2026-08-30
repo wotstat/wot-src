@@ -1,0 +1,22 @@
+import typing
+from BWUtil import AsyncReturn
+import th_async
+from gui.platform.base.statuses.controller_mixin import StatusesMixin
+from gui.platform.wgnp.base.controller import WGNPRequestController
+from gui.platform.wgnp.general.request import AccountCountryParams
+from gui.platform.wgnp.general.statuses import GeneralAccountCountryStatus, createAccountCountryStatusFromResponse
+from skeletons.gui.platform.wgnp_controllers import IWGNPGeneralRequestController
+ACCOUNT_COUNTRY_CONTEXT = b'<country>'
+
+class WGNPGeneralRequestController(StatusesMixin, WGNPRequestController, IWGNPGeneralRequestController):
+
+    @th_async.th_async
+    def getAccountCountry(self, waitingID=None):
+        status = self._getStatus(ACCOUNT_COUNTRY_CONTEXT)
+        self._logger.debug(b'Getting account country from cache=%s, waitingID=%s.', status, waitingID)
+        if status.isUndefined:
+            response = yield self._request(AccountCountryParams(self.settings.getUrl()), waitingID=waitingID)
+            status = createAccountCountryStatusFromResponse(response)
+            self._updateStatus(status)
+        raise AsyncReturn(status)
+        return

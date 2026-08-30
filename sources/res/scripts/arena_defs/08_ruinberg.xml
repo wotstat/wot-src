@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:08_ruinberg/name</name>
+	<description>#arenas:08_ruinberg/description</description>
+	<geometry>spaces/08_ruinberg</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-425 -400</bottomLeft>
+		<upperRight>425 450</upperRight>
+	</boundingBox>
+	<minimap>spaces/08_ruinberg/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<wwmusicSetup>
+		<wwmusicLoading>music_ruinberg_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_ruinberg_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_ruinberg_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_ruinberg_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_ruinberg_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_ruinberg_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-66.3999939 306.099976</position1>
+				</team1>
+				<team2>
+					<position1>-83 -290.899994</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-49 337</position>
+				</team1>
+				<team2>
+					<position>-9 -282</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-346.377258 -60.4469643</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>390.070129 -349.752533</position>
+				</team1>
+				<team2>
+					<position>-342.735199 -40.3121338</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-63.9456482 -262.439301</position1>
+					<position2>195.954361 101.283958</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<bootcamp>
+			<wwmusicSetup>
+				<wwmusicLoading>bc_music_loadingscreen</wwmusicLoading>
+				<wwmusicIntensive>bc_music_mission_04</wwmusicIntensive>
+				<wwmusicRelaxed>bc_music_mission_04</wwmusicRelaxed>
+				<wwmusicStop>music_dron_stop</wwmusicStop>
+				<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+				<wwmusicResultWin>music_ruinberg_result_win</wwmusicResultWin>
+				<wwmusicResultDrawn>music_ruinberg_result_drawn</wwmusicResultDrawn>
+				<wwmusicResultDefeat>music_ruinberg_result_defeat</wwmusicResultDefeat>
+			</wwmusicSetup>
+			<boundingBox>
+				<bottomLeft>-200 -400</bottomLeft>
+				<upperRight>350 400</upperRight>
+			</boundingBox>
+			<maxPlayersInTeam>1</maxPlayersInTeam>
+			<minimap>spaces/08_ruinberg/mmap_bootcamp.dds</minimap>
+			<runDelay>10</runDelay>
+			<teamBasePositions>
+				<team1>
+					<position1>-63.9456482 -262.439301</position1>
+				</team1>
+				<team2>
+					<position1>-83 -290.899994</position1>
+				</team2>
+			</teamBasePositions>
+			<visualScript>
+				<server>
+					<plan>BootCamp/Lesson_4_arena_08_ruinberg</plan>
+				</server>
+				<client>
+					<plan>BootCamp/Lesson_4_hints_08_ruinberg</plan>
+				</client>
+			</visualScript>
+		</bootcamp>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>-66.3999939 306.099976</position1>
+				</team1>
+				<team2>
+					<position1>-83 -290.899994</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>395.013214 -350.86792</position>
+				</team1>
+				<team2>
+					<position>-349.713348 -45.510376</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>133.308746 -293.862457</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>392.238342 184.529465</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-47.1278992 366.439453</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-253.252441 -376.364136</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamBasePositions>
+				<team1>
+					<position1>-63.9456482 -262.439301</position1>
+					<position2>195.954361 101.283958</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+	</gameplayTypes>
+</root>

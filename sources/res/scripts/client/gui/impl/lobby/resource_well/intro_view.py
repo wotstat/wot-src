@@ -1,0 +1,59 @@
+from frameworks.wulf import ViewFlags, ViewSettings
+from gui.impl.auxiliary.vehicle_helper import fillVehicleInfo
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.resource_well.intro_view_model import IntroViewModel
+from gui.impl.pub import ViewImpl
+from gui.impl.wrappers.function_helpers import replaceNoneKwargsModel
+from gui.resource_well.resource_well_helpers import setIntroShown
+from gui.resource_well.sounds import RESOURCE_WELL_SOUND_SPACE
+from gui.shared.event_dispatcher import showResourceWellProgressionWindow, showHangar
+from helpers import dependency
+from skeletons.gui.game_control import IResourceWellController
+from tutorial.control.game_vars import getVehicleByIntCD
+
+class IntroView(ViewImpl):
+    __slots__ = (b'__backCallback',)
+    _COMMON_SOUND_SPACE = RESOURCE_WELL_SOUND_SPACE
+    __resourceWell = dependency.descriptor(IResourceWellController)
+
+    def __init__(self, layoutID, backCallback):
+        settings = ViewSettings(R.views.lobby.resource_well.IntroView())
+        settings.flags = ViewFlags.LOBBY_SUB_VIEW
+        settings.model = IntroViewModel()
+        self.__backCallback = backCallback
+        super(IntroView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(IntroView, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(IntroView, self)._onLoading(*args, **kwargs)
+        setIntroShown()
+        with self.viewModel.transaction() as model:
+            fillVehicleInfo(model.vehicleInfo, getVehicleByIntCD(self.__resourceWell.getRewardVehicle()))
+            self.__fillEventInfo(model=model)
+        return
+
+    def _getEvents(self):
+        return ((self.viewModel.onClose, self.__onClose),
+         (
+          self.__resourceWell.onEventUpdated, self.__onEventStateUpdated))
+
+    @replaceNoneKwargsModel
+    def __fillEventInfo(self, model=None):
+        model.setTopRewardPlayersCount(self.__resourceWell.getRewardLimit(isTop=True))
+        model.setRegularRewardVehiclesCount(self.__resourceWell.getRewardLimit(isTop=False))
+        return
+
+    def __onClose(self):
+        self.destroyWindow()
+        showResourceWellProgressionWindow(backCallback=self.__backCallback)
+        return
+
+    def __onEventStateUpdated(self):
+        if not self.__resourceWell.isActive():
+            self.destroyWindow()
+            showHangar()
+        return

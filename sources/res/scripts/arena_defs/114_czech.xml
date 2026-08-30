@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:114_czech/name</name>
+	<description>#arenas:114_czech/description</description>
+	<geometry>spaces/114_czech</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-400 -500</bottomLeft>
+		<upperRight>600 500</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/114_czech/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_pilsen_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_pilsen_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_pilsen_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_pilsen_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_pilsen_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_pilsen_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_summer_01</wwambientSound>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>30.5001392 406.306885</position1>
+				</team1>
+				<team2>
+					<position1>27.8591022 -413.104523</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-51.6539993 406.415009</position>
+				</team1>
+				<team2>
+					<position>-75.4489975 -404.036011</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-83.4122543 -3.4824369</controlPoint>
+		</domination>
+		<comp7>
+			<boundingBox>
+				<bottomLeft>-400 -350</bottomLeft>
+				<upperRight>450 500</upperRight>
+			</boundingBox>
+			<minimap>spaces/114_czech/mmap_comp7.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-216.675781 327.847137</position>
+				</team1>
+				<team2>
+					<position>321.956604 -314.424347</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-346.998352 -212.926834</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-265.687134 9.46531105</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>37.3145218 -96.1631699</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>17.7113991 101.699379</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>333.236115 -7.989429</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>324.400482 319.182892</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>37.4975395 452.444702</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>186.002457 236.660477</position1>
+					<position2>-166.62439 -140.830902</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>-45.8930779 378.856842</position>
+				</team1>
+				<team2>
+					<position>-67.9623871 -367.500946</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/114_czech/mmap_comp7.dds</minimap>
+			<controlPoint>-140.511002 -6.51300001</controlPoint>
+		</bob>
+		<domination3>
+			<boundingBox>
+				<bottomLeft>-250 -300</bottomLeft>
+				<upperRight>300 250</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>82.7024689 195.58197</position>
+				</team1>
+				<team2>
+					<position>78.4469299 -228.519485</position>
+				</team2>
+			</teamSpawnPoints>
+			<minimap>spaces/114_czech/mmap_domination3.dds</minimap>
+			<controlPoint>-92.0029984 -9.43699646</controlPoint>
+		</domination3>
+		<assault2>
+			<boundingBox>
+				<bottomLeft>-400 -350</bottomLeft>
+				<upperRight>450 500</upperRight>
+			</boundingBox>
+			<minimap>spaces/114_czech/mmap_assault2.dds</minimap>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-222.432236 328.88089</position>
+				</team1>
+				<team2>
+					<position>317.138519 -282.270996</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>186.002487 236.660477</position1>
+					<position2>-166.624374 -140.830917</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+	</gameplayTypes>
+	<roadMap></roadMap>
+	<mapActivities>
+		<scenario>
+			<startTime>60 0</startTime>
+			<possibility>100</possibility>
+			<interval>0</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>check_explosion</name>
+			<trajectories>
+				<warplane>
+					<preset>chech_explosion</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+					<interval>120</interval>
+				</warplane>
+				<warplane>
+					<preset>chech_explosion</preset>
+					<position>1 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>60 0</startTime>
+					<interval>150</interval>
+				</warplane>
+				<warplane>
+					<preset>chech_explosion</preset>
+					<position>1 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>90 0</startTime>
+					<interval>150</interval>
+				</warplane>
+				<warplane>
+					<preset>chech_fire</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>5 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

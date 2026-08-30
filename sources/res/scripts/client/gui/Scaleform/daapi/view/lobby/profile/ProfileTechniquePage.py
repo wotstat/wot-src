@@ -1,0 +1,85 @@
+from account_helpers import AccountSettings
+from account_helpers.AccountSettings import PROFILE_TECHNIQUE
+from comp7_common import COMP7_CURRENT_SEASON
+from gui.Scaleform.daapi.view.meta.ProfileTechniquePageMeta import ProfileTechniquePageMeta
+from gui.Scaleform.locale.PROFILE import PROFILE
+from helpers.i18n import makeString
+from gui.Scaleform.genConsts.PROFILE_DROPDOWN_KEYS import PROFILE_DROPDOWN_KEYS
+
+class ProfileTechniquePage(ProfileTechniquePageMeta):
+
+    def _populate(self):
+        super(ProfileTechniquePage, self)._populate()
+        vehCD = int(self._selectedData.get(b'itemCD', -1)) if self._selectedData else -1
+        accountDossier = self.itemsCache.items.getAccountDossier(None)
+        if vehCD in accountDossier.getRandomStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.ALL
+        elif vehCD in accountDossier.getTeam7x7Stats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.TEAM
+        elif vehCD in accountDossier.getHistoricalStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.HISTORICAL
+        elif vehCD in accountDossier.getFortBattlesStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.FORTIFICATIONS_BATTLES
+        elif vehCD in accountDossier.getFortSortiesStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.FORTIFICATIONS_SORTIES
+        elif vehCD in accountDossier.getRated7x7Stats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.STATICTEAM
+        elif vehCD in accountDossier.getFalloutStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.FALLOUT
+        elif vehCD in accountDossier.getRankedStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.RANKED
+        elif vehCD in accountDossier.getEpicRandomStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.EPIC_RANDOM
+        elif vehCD in accountDossier.getBattleRoyaleSoloStats().getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.BATTLE_ROYALE_SOLO
+        elif COMP7_CURRENT_SEASON >= 4 and vehCD in accountDossier.getComp7Stats(season=4).getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.COMP7_SEASON_4
+        elif COMP7_CURRENT_SEASON >= 3 and vehCD in accountDossier.getComp7Stats(season=3).getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.COMP7_SEASON_3
+        elif COMP7_CURRENT_SEASON >= 2 and vehCD in accountDossier.getComp7Stats(season=2).getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.COMP7_SEASON_2
+        elif COMP7_CURRENT_SEASON >= 1 and vehCD in accountDossier.getComp7Stats(season=1).getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.COMP7_SEASON_1
+        elif vehCD in accountDossier.getComp7Stats(archive=True).getVehicles():
+            self._battlesType = PROFILE_DROPDOWN_KEYS.COMP7_ARCHIVE_GRIFFIN
+        self.as_setSelectedVehicleIntCDS(vehCD)
+        return
+
+    def _getInitData(self, accountDossier=None, isFallout=False):
+        initDataResult = super(ProfileTechniquePage, self)._getInitData(accountDossier, isFallout)
+        initDataResult[b'hangarVehiclesLabel'] = makeString(PROFILE.SECTION_TECHNIQUE_WINDOW_HANGARVEHICLESLABEL)
+        storedData = self._getStorageData()
+        initDataResult[b'isInHangarSelected'] = storedData[b'isInHangarSelected']
+        return initDataResult
+
+    def _getTechniqueListVehicles(self, targetData, addVehiclesThatInHangarOnly=False):
+        storedData = self._getStorageData()
+        return super(ProfileTechniquePage, self)._getTechniqueListVehicles(targetData, storedData[b'isInHangarSelected'])
+
+    def _getStorageId(self):
+        return PROFILE_TECHNIQUE
+
+    def _sendAccountData(self, targetData, accountDossier):
+        super(ProfileTechniquePage, self)._sendAccountData(targetData, accountDossier)
+        if self._selectedVehicleIntCD is not None and self._selectedVehicleIntCD not in targetData.getVehicles():
+            self.as_setSelectedVehicleIntCDS(-1)
+        return
+
+    def setIsInHangarSelected(self, value):
+        storageId = self._getStorageId()
+        storedData = AccountSettings.getFilter(storageId)
+        storedData[b'isInHangarSelected'] = value
+        AccountSettings.setFilter(storageId, storedData)
+        if self._data is not None:
+            self.as_responseDossierS(self._battlesType, self._getTechniqueListVehicles(self._data), b'', self.getEmptyScreenLabel())
+        return
+
+    def requestData(self, vehicleId):
+        self._receiveVehicleDossier(int(vehicleId), None)
+        return
+
+    def invokeUpdate(self):
+        super(ProfileTechniquePage, self).invokeUpdate()
+        if self._selectedVehicleIntCD is not None:
+            self._receiveVehicleDossier(self._selectedVehicleIntCD, None)
+        return

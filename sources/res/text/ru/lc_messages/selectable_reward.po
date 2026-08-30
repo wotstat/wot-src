@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "decorator/style2D"
+msgstr "2D-стиль «%(value)s»"
+
+msgid "decorator/style3D"
+msgstr "3D-стиль «%(value)s»"
+
+msgid "error/button"
+msgstr "Так точно!"
+
+msgid "error/description"
+msgstr "Информация временно недоступна. Приносим извинения за неудобства, попробуйте повторить позже."
+
+msgid "error/title"
+msgstr "Не удалось открыть выбор награды"
+
+msgid "footer/closeBtn/label"
+msgstr "Выбрать позже"
+
+msgid "footer/okBtn/label"
+msgstr "Забрать"
+
+msgid "footer/rewardsSelected"
+msgstr "Выбрано наград:"
+
+msgid "footer/selectRewards"
+msgstr "Выберите награды из представленных категорий."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Достигнут максимум"
+
+msgid "reward/state_received"
+msgstr "Уже получено"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Достигнут лимит выбираемых предметов в данной категории. Вы можете отменить выбор одной из единиц, чтобы добавить другую."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Достигнут максимум"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Инструкции"
+
+msgid "tabs/items/blueprint"
+msgstr "Фрагменты чертежей"
+
+msgid "tabs/items/book"
+msgstr "Учебное пособие"
+
+msgid "tabs/items/brochure"
+msgstr "Учебная брошюра"
+
+msgid "tabs/items/deluxe"
+msgstr "Усовершенствованное оборудование"
+
+msgid "tabs/items/expequipments"
+msgstr "Экспериментальное\nоборудование"
+
+msgid "tabs/items/guide"
+msgstr "Учебное руководство"
+
+msgid "tabs/items/new_device_fv"
+msgstr "Оборудование: Огневая мощь и Живучесть"
+
+msgid "tabs/items/new_device_mi"
+msgstr "Оборудование: Мобильность и Разведка"
+
+msgid "tabs/items/new_device_pm3"
+msgstr "Штатное\nоборудование"
+
+msgid "tabs/items/style"
+msgstr "Кастомизация"
+
+msgid "tabs/items/trophy"
+msgstr "Трофейное оборудование"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Нажмите «Забрать», чтобы получить выбранные награды."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Выбрано наград: %(white_open)s%(count)s%(white_close)s"

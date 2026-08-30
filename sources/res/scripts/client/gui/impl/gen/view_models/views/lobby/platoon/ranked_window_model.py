@@ -1,0 +1,26 @@
+from frameworks.wulf import Array
+from gui.impl.gen.view_models.views.lobby.platoon.members_window_model import MembersWindowModel
+from gui.impl.gen.view_models.views.lobby.platoon.ranked_slot_model import RankedSlotModel
+
+class RankedWindowModel(MembersWindowModel):
+    __slots__ = ()
+
+    def __init__(self, properties=18, commands=3):
+        super(RankedWindowModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getSlots(self):
+        return self._getArray(17)
+
+    def setSlots(self, value):
+        self._setArray(17, value)
+        return
+
+    @staticmethod
+    def getSlotsType():
+        return RankedSlotModel
+
+    def _initialize(self):
+        super(RankedWindowModel, self)._initialize()
+        self._addArrayProperty(b'slots', Array())
+        return

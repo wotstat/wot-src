@@ -1,0 +1,774 @@
+import math
+from Event import Event
+from adisp import adisp_process
+from constants import ARENA_GUI_TYPE, IS_CHINA, PREBATTLE_TYPE
+from debug_utils import LOG_DEBUG
+from gui import SystemMessages, DialogsInterface
+from gui.Scaleform.framework.entities.EventSystemEntity import EventSystemEntity
+from gui.Scaleform.framework.managers.context_menu import AbstractContextMenuHandler
+from gui.Scaleform.locale.MENU import MENU
+from gui.Scaleform.locale.SYSTEM_MESSAGES import SYSTEM_MESSAGES
+from gui.clans.clan_helpers import showClanInviteSystemMsg
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.periodic_battles.models import PrimeTimeStatus
+from gui.prb_control import prbDispatcherProperty, prbEntityProperty
+from gui.prb_control.entities.base.ctx import PrbAction, SendInvitesCtx
+from gui.prb_control.settings import PREBATTLE_ACTION_NAME
+from gui.shared import event_dispatcher as shared_events, events, g_eventBus, utils
+from gui.clans.clan_cache import ClanInfo
+from gui.shared.denunciator import LobbyDenunciator, LobbyChatDenunciator, DENUNCIATIONS, DENUNCIATIONS_MAP
+from gui.shared.event_bus import EVENT_BUS_SCOPE
+from gui.shared.gui_items.vehicle_helpers import isSecretExtendedNonInventoryVehicle
+from gui.shared.utils.functions import showSentInviteMessage
+from gui.clientgw.clan.contexts import CreateInviteCtx
+from helpers import i18n, dependency
+from helpers.i18n import makeString
+from messenger import g_settings
+from messenger.m_constants import PROTO_TYPE, USER_TAG, UserEntityScope
+from messenger.proto import proto_getter
+from messenger.proto.entities import ClanInfo as UserClanInfo
+from messenger.proto.entities import SharedUserEntity
+from messenger.storage import storage_getter
+from nation_change_helpers.client_nation_change_helper import getValidVehicleCDForNationChange
+from skeletons.gui.game_control import IVehicleComparisonBasket, IBattleRoyaleController, IMapboxController, IEventBattlesController, IPlatoonController, IEpicBattleMetaGameController, IComp7Controller, IRankedBattlesController, IWhiteTigerController
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.web import IWebController
+
+class _EXTENDED_OPT_IDS(object):
+    VEHICLE_COMPARE = b'userVehicleCompare'
+
+
+class USER(object):
+    INFO = b'userInfo'
+    CLAN_INFO = b'clanInfo'
+    SEND_CLAN_INVITE = b'sendClanInvite'
+    CREATE_PRIVATE_CHANNEL = b'createPrivateChannel'
+    ADD_TO_FRIENDS = b'addToFriends'
+    ADD_TO_FRIENDS_AGAIN = b'addToFriendsAgain'
+    REMOVE_FROM_FRIENDS = b'removeFromFriends'
+    ADD_TO_IGNORED = b'addToIgnored'
+    REMOVE_FROM_IGNORED = b'removeFromIgnored'
+    COPY_TO_CLIPBOARD = b'copyToClipBoard'
+    SET_MUTED = b'setMuted'
+    UNSET_MUTED = b'unsetMuted'
+    CREATE_SQUAD = b'createSquad'
+    CREATE_EVENT_SQUAD = b'createEventSquad'
+    CREATE_BATTLE_ROYALE_SQUAD = b'createBattleRoyaleSquad'
+    INVITE = b'invite'
+    REQUEST_FRIENDSHIP = b'requestFriendship'
+    VEHICLE_INFO = b'vehicleInfoEx'
+    VEHICLE_PREVIEW = b'vehiclePreview'
+    END_REFERRAL_COMPANY = b'endReferralCompany'
+    CREATE_MAPBOX_SQUAD = b'createMapboxSquad'
+    CREATE_COMP7_SQUAD = b'createComp7Squad'
+    CREATE_RANKED_SQUAD = b'createRankedSquad'
+    CREATE_EPIC_SQUAD = b'createEpicSquad'
+    CREATE_WHITE_TIGER_SQUAD = b'createWhiteTigerSquad'
+
+
+_CM_ICONS = {(USER.END_REFERRAL_COMPANY): b'endReferralCompany'}
+_ADD_SQUAD_COLOR = 13347959
+
+class BaseUserCMHandler(AbstractContextMenuHandler, EventSystemEntity):
+    itemsCache = dependency.descriptor(IItemsCache)
+    eventsCache = dependency.descriptor(IEventsCache)
+    clanCtrl = dependency.descriptor(IWebController)
+    lobbyContext = dependency.descriptor(ILobbyContext)
+    __battleRoyale = dependency.descriptor(IBattleRoyaleController)
+    __mapboxCtrl = dependency.descriptor(IMapboxController)
+    __eventBattlesCtrl = dependency.descriptor(IEventBattlesController)
+    __platoonCtrl = dependency.descriptor(IPlatoonController)
+    __epicCtrl = dependency.descriptor(IEpicBattleMetaGameController)
+    __comp7Ctrl = dependency.descriptor(IComp7Controller)
+    __rankedCtrl = dependency.descriptor(IRankedBattlesController)
+    __wtBattlesCtrl = dependency.descriptor(IWhiteTigerController)
+
+    @prbDispatcherProperty
+    def prbDispatcher(self):
+        return
+
+    @storage_getter(b'users')
+    def usersStorage(self):
+        return
+
+    @prbEntityProperty
+    def prbEntity(self):
+        return
+
+    @proto_getter(PROTO_TYPE.MIGRATION)
+    def proto(self):
+        return
+
+    def canInvite(self):
+        if self.prbEntity is not None:
+            if hasattr(self.prbEntity, b'getFlags'):
+                flags = self.prbEntity.getFlags()
+                if flags.isInSearch():
+                    return False
+            return self.prbEntity.getPermissions().canSendInvite()
+        else:
+            return False
+
+    def isSquadCreator(self):
+        return False
+
+    def showUserInfo(self):
+
+        def onDossierReceived(databaseID, userName):
+            shared_events.showProfileWindow(databaseID, userName)
+            return
+
+        shared_events.requestProfile(self.databaseID, self.userName, successCallback=onDossierReceived)
+        return
+
+    def showClanInfo(self):
+        if not self.lobbyContext.getServerSettings().clanProfile.isEnabled():
+            SystemMessages.pushMessage(makeString(SYSTEM_MESSAGES.CLANS_ISCLANPROFILEDISABLED), type=SystemMessages.SM_TYPE.Error)
+            return
+
+        def onDossierReceived(databaseID, _):
+            clanID, clanInfo = self.itemsCache.items.getClanInfo(databaseID)
+            if clanID != 0:
+                clanInfo = ClanInfo(*clanInfo)
+                shared_events.showClanProfileWindow(clanID, clanInfo.getClanAbbrev())
+            else:
+                DialogsInterface.showI18nInfoDialog(b'clan_data_not_available', (lambda result: None))
+            return
+
+        shared_events.requestProfile(self.databaseID, self.userName, successCallback=onDossierReceived)
+        return
+
+    @adisp_process
+    def sendClanInvite(self):
+        profile = self.clanCtrl.getAccountProfile()
+        userName = self.userName
+        context = CreateInviteCtx(profile.getClanDbID(), [self.databaseID])
+        result = yield self.clanCtrl.sendRequest(context, allowDelay=True)
+        showClanInviteSystemMsg(userName, result.isSuccess(), result.getCode(), result.data)
+        return
+
+    def createPrivateChannel(self):
+        self.proto.contacts.createPrivateChannel(self.databaseID, self.userName)
+        return
+
+    def addFriend(self):
+        self.proto.contacts.addFriend(self.databaseID, self.userName)
+        return
+
+    def requestFriendship(self):
+        self.proto.contacts.requestFriendship(self.databaseID)
+        return
+
+    def removeFriend(self):
+        self.proto.contacts.removeFriend(self.databaseID)
+        return
+
+    def setMuted(self):
+        self.proto.contacts.setMuted(self.databaseID, self.userName)
+        return
+
+    def unsetMuted(self):
+        self.proto.contacts.unsetMuted(self.databaseID)
+        return
+
+    def setIgnored(self):
+        self.proto.contacts.addIgnored(self.databaseID, self.userName)
+        return
+
+    def unsetIgnored(self):
+        self.proto.contacts.removeIgnored(self.databaseID)
+        return
+
+    def copyToClipboard(self):
+        utils.copyToClipboard(self.userName)
+        return
+
+    def createSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.SQUAD, (self.databaseID,))
+        return
+
+    def createEventSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.EVENT_SQUAD, (self.databaseID,))
+        return
+
+    def createBattleRoyaleSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.BATTLE_ROYALE_SQUAD, (self.databaseID,))
+        return
+
+    def createMapboxSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.MAPBOX_SQUAD, (self.databaseID,))
+        return
+
+    def createWhiteTigerSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.WHITE_TIGER_SQUAD, (self.databaseID,))
+        return
+
+    def createComp7Squad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.COMP7_SQUAD, (self.databaseID,))
+        return
+
+    def createRankedSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.RANKED_SQUAD, (self.databaseID,))
+        return
+
+    def createEpicSquad(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.EPIC_SQUAD, (self.databaseID,))
+        return
+
+    def invite(self):
+        user = self.usersStorage.getUser(self.databaseID)
+        if self.prbEntity.getPermissions().canSendInvite():
+            self.prbEntity.request(SendInvitesCtx([self.databaseID], b''))
+            showSentInviteMessage(user)
+        return
+
+    def getOptions(self, ctx=None):
+        if not self._getUseCmInfo().isCurrentPlayer:
+            return self._generateOptions(ctx)
+        else:
+            return
+
+    def _getHandlers(self):
+        handlers = {(USER.INFO): b'showUserInfo', 
+           (USER.CLAN_INFO): b'showClanInfo', 
+           (USER.SEND_CLAN_INVITE): b'sendClanInvite', 
+           (USER.CREATE_PRIVATE_CHANNEL): b'createPrivateChannel', 
+           (USER.ADD_TO_FRIENDS): b'addFriend', 
+           (USER.REMOVE_FROM_FRIENDS): b'removeFriend', 
+           (USER.ADD_TO_IGNORED): b'setIgnored', 
+           (USER.REMOVE_FROM_IGNORED): b'unsetIgnored', 
+           (USER.COPY_TO_CLIPBOARD): b'copyToClipboard', 
+           (USER.CREATE_SQUAD): b'createSquad', 
+           (USER.CREATE_EVENT_SQUAD): b'createEventSquad', 
+           (USER.CREATE_BATTLE_ROYALE_SQUAD): b'createBattleRoyaleSquad', 
+           (USER.INVITE): b'invite', 
+           (USER.REQUEST_FRIENDSHIP): b'requestFriendship', 
+           (USER.CREATE_MAPBOX_SQUAD): b'createMapboxSquad', 
+           (USER.CREATE_COMP7_SQUAD): b'createComp7Squad', 
+           (USER.CREATE_RANKED_SQUAD): b'createRankedSquad', 
+           (USER.CREATE_EPIC_SQUAD): b'createEpicSquad', 
+           (USER.CREATE_WHITE_TIGER_SQUAD): b'createWhiteTigerSquad'}
+        if not IS_CHINA:
+            handlers.update({(USER.SET_MUTED): b'setMuted', 
+               (USER.UNSET_MUTED): b'unsetMuted'})
+        return handlers
+
+    def _initFlashValues(self, ctx):
+        self.databaseID = long(ctx.dbID)
+        self.userName = ctx.userName
+        self.wasInBattle = getattr(ctx, b'wasInBattle', True)
+        self.showClanProfile = getattr(ctx, b'showClanProfile', True)
+        self.clanAbbrev = getattr(ctx, b'clanAbbrev', None)
+        return
+
+    def _clearFlashValues(self):
+        self.databaseID = None
+        self.userName = None
+        self.wasInBattle = None
+        return
+
+    def _getUseCmInfo(self):
+        return UserContextMenuInfo(self.databaseID, self.userName, self.clanAbbrev)
+
+    def _generateOptions(self, ctx=None):
+        userCMInfo = self._getUseCmInfo()
+        if ctx is not None and not userCMInfo.hasClan:
+            try:
+                clanAbbrev = ctx.clanAbbrev
+                userCMInfo.hasClan = bool(clanAbbrev)
+            except Exception:
+                LOG_DEBUG(b'ctx has no property "clanAbbrev"')
+
+        if userCMInfo.isBot:
+            return self._makeAIBotOptions()
+        else:
+            options = [
+             self._makeItem(USER.INFO, MENU.contextmenu(USER.INFO))]
+            options = self._addVehicleInfo(options)
+            options = self._addClanProfileInfo(options, userCMInfo)
+            options = self._addFriendshipInfo(options, userCMInfo)
+            options = self._addChannelInfo(options, userCMInfo)
+            options.append(self._makeItem(USER.COPY_TO_CLIPBOARD, MENU.contextmenu(USER.COPY_TO_CLIPBOARD)))
+            options = self._addSquadInfo(options, userCMInfo.isIgnored)
+            options = self._addPrebattleInfo(options, userCMInfo)
+            options = self._addContactsNoteInfo(options, userCMInfo)
+            options = self._addAppealInfo(options)
+            options = self._addIgnoreInfo(options, userCMInfo)
+            if not IS_CHINA:
+                options = self._addMutedInfo(options, userCMInfo)
+            options = self._addRejectFriendshipInfo(options, userCMInfo)
+            options = self._addRemoveFromGroupInfo(options, userCMInfo)
+            options = self._addRemoveFriendInfo(options, userCMInfo)
+            options = self._addInviteClanInfo(options, userCMInfo)
+            return options
+
+    def _addIgnoreInfo(self, options, userCMInfo):
+        ignoring = USER.REMOVE_FROM_IGNORED if userCMInfo.isIgnored else USER.ADD_TO_IGNORED
+        options.append(self._makeItem(ignoring, MENU.contextmenu(ignoring), optInitData={b'enabled': (userCMInfo.isSameRealm)}))
+        return options
+
+    def _addFriendshipInfo(self, options, userCMInfo):
+        if not userCMInfo.isFriend:
+            options.append(self._makeItem(USER.ADD_TO_FRIENDS, MENU.contextmenu(USER.ADD_TO_FRIENDS), optInitData={b'enabled': (userCMInfo.isSameRealm)}))
+        elif self.proto.contacts.isBidiFriendshipSupported():
+            if USER_TAG.SUB_NONE in userCMInfo.getTags():
+                options.append(self._makeItem(USER.REQUEST_FRIENDSHIP, MENU.contextmenu(USER.ADD_TO_FRIENDS_AGAIN), optInitData={b'enabled': (userCMInfo.isSameRealm)}))
+        return options
+
+    def _addChannelInfo(self, options, userCMInfo):
+        if not userCMInfo.isIgnored:
+            options.append(self._makeItem(USER.CREATE_PRIVATE_CHANNEL, MENU.contextmenu(USER.CREATE_PRIVATE_CHANNEL), optInitData={b'enabled': (userCMInfo.canCreateChannel)}))
+        return options
+
+    def _addSquadInfo(self, options, isIgnored):
+        if not isIgnored and not self.isSquadCreator() and self.prbDispatcher is not None:
+            canCreate = not self.prbEntity.isInQueue()
+            if not any([self.__isSquadAlreadyCreated(prbType) for prbType in (PREBATTLE_TYPE.SQUAD,
+             PREBATTLE_TYPE.FUN_RANDOM,
+             PREBATTLE_TYPE.VERSUS_AI)]):
+                options.append(self._makeItem(USER.CREATE_SQUAD, MENU.contextmenu(USER.CREATE_SQUAD), optInitData={b'enabled': canCreate}))
+            if self.__epicCtrl.isEnabled() and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.EPIC):
+                options.append(self._makeItem(USER.CREATE_EPIC_SQUAD, MENU.contextmenu(USER.CREATE_EPIC_SQUAD), optInitData={b'enabled': canCreate, b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__eventBattlesCtrl.isEnabled() and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.EVENT):
+                options.append(self._makeItem(USER.CREATE_EVENT_SQUAD, MENU.contextmenu(USER.CREATE_EVENT_SQUAD), optInitData={b'enabled': canCreate, b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__battleRoyale.isEnabled() and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.BATTLE_ROYALE_TOURNAMENT) and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.BATTLE_ROYALE):
+                primeTimeStatus, _, _ = self.__battleRoyale.getPrimeTimeStatus()
+                options.append(self._makeItem(USER.CREATE_BATTLE_ROYALE_SQUAD, MENU.contextmenu(USER.CREATE_BATTLE_ROYALE_SQUAD), optInitData={b'enabled': (canCreate and primeTimeStatus == PrimeTimeStatus.AVAILABLE), 
+                   b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__mapboxCtrl.isEnabled() and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.MAPBOX):
+                isOptionEnabled = canCreate and self.__mapboxCtrl.isActive() and self.__mapboxCtrl.isInPrimeTime()
+                options.append(self._makeItem(USER.CREATE_MAPBOX_SQUAD, backport.text(R.strings.menu.contextMenu.createMapboxSquad()), optInitData={b'enabled': isOptionEnabled, 
+                   b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__comp7Ctrl.isEnabled():
+                primeTimeStatus, _, _ = self.__comp7Ctrl.getPrimeTimeStatus()
+                isEnabled = primeTimeStatus == PrimeTimeStatus.AVAILABLE and not self.__comp7Ctrl.isBanned and not self.__comp7Ctrl.isOffline and self.__comp7Ctrl.hasSuitableVehicles() and self.__comp7Ctrl.isQualificationSquadAllowed()
+                options.append(self._makeItem(USER.CREATE_COMP7_SQUAD, MENU.contextmenu(USER.CREATE_COMP7_SQUAD), optInitData={b'enabled': (canCreate and isEnabled), 
+                   b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__rankedCtrl.isEnabled():
+                primeTimeStatus, _, _ = self.__rankedCtrl.getPrimeTimeStatus()
+                isEnabled = primeTimeStatus == PrimeTimeStatus.AVAILABLE and self.__rankedCtrl.hasSuitableVehicles()
+                options.append(self._makeItem(USER.CREATE_RANKED_SQUAD, MENU.contextmenu(USER.CREATE_RANKED_SQUAD), optInitData={b'enabled': (canCreate and isEnabled), 
+                   b'textColor': _ADD_SQUAD_COLOR}))
+            if self.__wtBattlesCtrl.isEnabled() and not self.__wtBattlesCtrl.isFrozen() and not self.__isSquadAlreadyCreated(PREBATTLE_TYPE.WHITE_TIGER):
+                options.append(self._makeItem(USER.CREATE_WHITE_TIGER_SQUAD, backport.text(R.strings.menu.contextMenu.dyn(USER.CREATE_WHITE_TIGER_SQUAD)()), optInitData={b'enabled': canCreate, b'textColor': 13347959}))
+        return options
+
+    def _addPrebattleInfo(self, options, userCMInfo):
+        if not userCMInfo.isIgnored and self.canInvite():
+            options.append(self._makeItem(USER.INVITE, MENU.contextmenu(USER.INVITE)))
+        return options
+
+    def _addRemoveFriendInfo(self, options, userCMInfo):
+        if userCMInfo.isFriend:
+            options.append(self._makeItem(USER.REMOVE_FROM_FRIENDS, MENU.contextmenu(USER.REMOVE_FROM_FRIENDS), optInitData={b'enabled': (userCMInfo.isSameRealm)}))
+        return options
+
+    def _addVehicleInfo(self, options):
+        return options
+
+    def _addContactsNoteInfo(self, options, userCMInfo):
+        return options
+
+    def _addAppealInfo(self, options):
+        return options
+
+    def _addMutedInfo(self, options, userCMInfo):
+        return options
+
+    def _addRemoveFromGroupInfo(self, options, isIgnored):
+        return options
+
+    def _addRejectFriendshipInfo(self, options, userCMInfo):
+        return options
+
+    def _addClanProfileInfo(self, options, userCMInfo):
+        if self.lobbyContext.getServerSettings().clanProfile.isEnabled() and userCMInfo.hasClan and self.showClanProfile:
+            options.append(self._makeItem(USER.CLAN_INFO, MENU.contextmenu(USER.CLAN_INFO), optInitData={b'enabled': (self.clanCtrl.isAvailable())}))
+        return options
+
+    def _addInviteClanInfo(self, options, userCMInfo):
+        if self.lobbyContext.getServerSettings().clanProfile.isEnabled() and userCMInfo.user is not None and not userCMInfo.hasClan:
+            profile = self.clanCtrl.getAccountProfile()
+            canHandleClanInvites = profile.getMyClanPermissions().canHandleClanInvites()
+            if profile.isInClan() and canHandleClanInvites:
+                isEnabled = self.clanCtrl.isAvailable()
+                canHandleClanInvites = profile.getMyClanPermissions().canHandleClanInvites()
+                if isEnabled:
+                    profile = self.clanCtrl.getAccountProfile()
+                    dossier = profile.getClanDossier()
+                    isEnabled = canHandleClanInvites and not dossier.isClanInviteSent(userCMInfo.databaseID) and not dossier.hasClanApplication(userCMInfo.databaseID)
+                options.append(self._makeItem(USER.SEND_CLAN_INVITE, MENU.contextmenu(USER.SEND_CLAN_INVITE), optInitData={b'enabled': isEnabled}))
+        return options
+
+    def _makeAIBotOptions(self):
+        return [
+         self._makeItem(USER.VEHICLE_INFO, MENU.contextmenu(USER.VEHICLE_INFO)),
+         self._makeItem(USER.VEHICLE_PREVIEW, MENU.contextmenu(USER.VEHICLE_PREVIEW), optInitData={b'enabled': (not self.prbDispatcher.getFunctionalState().isNavigationDisabled())})]
+
+    def _doSelect(self, prebattleActionName, accountsToInvite=None):
+        action = PrbAction(prebattleActionName, accountsToInvite=accountsToInvite)
+        event = events.PrbActionEvent(action, events.PrbActionEvent.SELECT)
+        g_eventBus.handleEvent(event, EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def __isSquadAlreadyCreated(self, prbType):
+        return self.__platoonCtrl.isInPlatoon() and self.__platoonCtrl.getPrbEntityType() == prbType
+
+
+class BaseAppealCMLobbyChatHandler(AbstractContextMenuHandler, EventSystemEntity):
+
+    def __init__(self, cmProxy, ctx=None):
+        super(BaseAppealCMLobbyChatHandler, self).__init__(cmProxy, ctx, handlers=self._getHandlers())
+        self.__denunciator = LobbyChatDenunciator()
+        return
+
+    def fini(self):
+        self.__denunciator = None
+        super(BaseAppealCMLobbyChatHandler, self).fini()
+        return
+
+    def appealIncorrectBehavior(self):
+        self.__denunciator.makeAppeal(self.databaseID, self.displayName, DENUNCIATIONS.INCORRECT_BEHAVIOR, 0)
+        return
+
+    def appealForbiddenNick(self):
+        self.__denunciator.makeAppeal(self.databaseID, self.displayName, DENUNCIATIONS.FORBIDDEN_NICK, 0)
+        return
+
+    def _initFlashValues(self, ctx):
+        self.databaseID = long(ctx.dbID)
+        self.userName = ctx.userName
+        self.displayName = self.userName
+        super(BaseAppealCMLobbyChatHandler, self)._initFlashValues(ctx)
+        return
+
+    def _clearFlashValues(self):
+        super(BaseAppealCMLobbyChatHandler, self)._clearFlashValues()
+        self.databaseID = None
+        self.userName = None
+        self.displayName = None
+        return
+
+    def _getHandlers(self):
+        handlers = {(DENUNCIATIONS.INCORRECT_BEHAVIOR): b'appealIncorrectBehavior', 
+           (DENUNCIATIONS.FORBIDDEN_NICK): b'appealForbiddenNick'}
+        return handlers
+
+    def _isAppealsForTopicEnabled(self, topic):
+        topicID = DENUNCIATIONS_MAP[topic]
+        return self.__denunciator.isAppealsForTopicEnabled(self.databaseID, topicID, 0)
+
+    def _getUseCmInfo(self):
+        return UserContextMenuInfo(self.databaseID, self.userName, None)
+
+    def getOptions(self, ctx=None):
+        if not self._getUseCmInfo().isCurrentPlayer:
+            return self._generateOptions(ctx)
+        else:
+            return
+
+    def _generateOptions(self, ctx=None):
+        isEnabled = False
+        showCheckmark = False
+        userCMInfo = self._getUseCmInfo()
+        if userCMInfo.hasClan:
+            self.displayName = userCMInfo.displayName
+        if not self.__denunciator.isAppealsEnabled():
+            labelStr = MENU.CONTEXTMENU_REPORTLIMITREACHED
+        elif not self._isAppealsForTopicEnabled(DENUNCIATIONS.INCORRECT_BEHAVIOR):
+            labelStr = MENU.CONTEXTMENU_REPORTALREADYMADE
+            showCheckmark = True
+        else:
+            labelStr = MENU.CONTEXTMENU_REPORTCHATVIOLATOR
+            isEnabled = self.databaseID != 0
+        return [self._makeItem(DENUNCIATIONS.INCORRECT_BEHAVIOR, labelStr, optInitData={b'enabled': isEnabled, b'showCheckmark': showCheckmark})]
+
+
+class BaseUserAppealCMHandler(BaseUserCMHandler, BaseAppealCMLobbyChatHandler):
+
+    def _initFlashValues(self, ctx):
+        BaseUserCMHandler._initFlashValues(self, ctx)
+        BaseAppealCMLobbyChatHandler._initFlashValues(self, ctx)
+        return
+
+    def _clearFlashValues(self):
+        BaseAppealCMLobbyChatHandler._clearFlashValues(self)
+        BaseUserCMHandler._clearFlashValues(self)
+        return
+
+    def _getHandlers(self):
+        handlers = BaseUserCMHandler._getHandlers(self)
+        handlers.update(BaseAppealCMLobbyChatHandler._getHandlers(self))
+        return handlers
+
+    def _generateOptions(self, ctx=None):
+        options = BaseUserCMHandler._generateOptions(self, ctx)
+        options.extend(BaseAppealCMLobbyChatHandler._generateOptions(self, ctx))
+        return options
+
+
+class AppealCMHandler(BaseUserCMHandler):
+
+    def __init__(self, cmProxy, ctx=None):
+        super(AppealCMHandler, self).__init__(cmProxy, ctx)
+        self._denunciator = LobbyDenunciator()
+        self._ctx = ctx
+        return
+
+    def fini(self):
+        self._denunciator = None
+        super(AppealCMHandler, self).fini()
+        return
+
+    def appealIncorrectBehavior(self):
+        self._denunciator.makeAppeal(self.databaseID, self.userName, DENUNCIATIONS.INCORRECT_BEHAVIOR, self._arenaUniqueID, self._ctx)
+        return
+
+    def appealNotFairPlay(self):
+        self._denunciator.makeAppeal(self.databaseID, self.userName, DENUNCIATIONS.NOT_FAIR_PLAY, self._arenaUniqueID, self._ctx)
+        return
+
+    def appealForbiddenNick(self):
+        self._denunciator.makeAppeal(self.databaseID, self.userName, DENUNCIATIONS.FORBIDDEN_NICK, self._arenaUniqueID, self._ctx)
+        return
+
+    def appealBot(self):
+        self._denunciator.makeAppeal(self.databaseID, self.userName, DENUNCIATIONS.BOT, self._arenaUniqueID, self._ctx)
+        return
+
+    def showVehicleInfo(self):
+        vehicleCD = getValidVehicleCDForNationChange(self._vehicleCD)
+        shared_events.showVehicleInfo(vehicleCD)
+        return
+
+    def showVehiclePreview(self):
+        vehicleCD = getValidVehicleCDForNationChange(self._vehicleCD)
+        if isSecretExtendedNonInventoryVehicle(vehicleCD):
+            return
+        shared_events.showVehiclePreview(vehicleCD)
+        shared_events.hideBattleResults()
+        return
+
+    def _initFlashValues(self, ctx):
+        self._vehicleCD = None
+        vehicleCD = getattr(ctx, b'vehicleCD', None)
+        if vehicleCD is not None and not math.isnan(vehicleCD):
+            self._vehicleCD = int(vehicleCD)
+        clientArenaIdx = getattr(ctx, b'clientArenaIdx', 0)
+        self._arenaUniqueID = self.lobbyContext.getArenaUniqueIDByClientID(clientArenaIdx)
+        self._arenaGuiType = getattr(ctx, b'arenaType', ARENA_GUI_TYPE.UNKNOWN)
+        self._isAlly = getattr(ctx, b'isAlly', False)
+        super(AppealCMHandler, self)._initFlashValues(ctx)
+        return
+
+    def _clearFlashValues(self):
+        super(AppealCMHandler, self)._clearFlashValues()
+        self._vehicleCD = None
+        self._arenaGuiType = None
+        self._isAlly = None
+        return
+
+    def _getHandlers(self):
+        handlers = super(AppealCMHandler, self)._getHandlers()
+        handlers.update({(DENUNCIATIONS.INCORRECT_BEHAVIOR): b'appealIncorrectBehavior', 
+           (DENUNCIATIONS.NOT_FAIR_PLAY): b'appealNotFairPlay', 
+           (DENUNCIATIONS.FORBIDDEN_NICK): b'appealForbiddenNick', 
+           (DENUNCIATIONS.BOT): b'appealBot', 
+           (USER.VEHICLE_INFO): b'showVehicleInfo', 
+           (USER.VEHICLE_PREVIEW): b'showVehiclePreview'})
+        return handlers
+
+    def _addAppealInfo(self, options):
+        if self.wasInBattle:
+            options.append(self._createSubMenuItem())
+        return options
+
+    def _addVehicleInfo(self, options):
+        if self._vehicleCD > 0:
+            vehicle = self.itemsCache.items.getItemByCD(self._vehicleCD)
+            if not vehicle.isSecret:
+                isEnabled = True
+                if vehicle.isPreviewAllowed():
+                    isEnabled = not self.prbDispatcher.getFunctionalState().isNavigationDisabled()
+                    action = USER.VEHICLE_PREVIEW
+                    label = MENU.contextmenu(USER.VEHICLE_PREVIEW)
+                else:
+                    action = USER.VEHICLE_INFO
+                    label = MENU.contextmenu(USER.VEHICLE_INFO)
+                options.append(self._makeItem(action, label, optInitData={b'enabled': isEnabled}))
+        return options
+
+    def _isAppealsForTopicEnabled(self, topic):
+        topicID = DENUNCIATIONS_MAP[topic]
+        return self._denunciator.isAppealsForTopicEnabled(self.databaseID, topicID, self._arenaUniqueID)
+
+    def _getSubmenuData(self):
+        if self._isAlly or self._arenaGuiType in (ARENA_GUI_TYPE.UNKNOWN, ARENA_GUI_TYPE.TRAINING):
+            order = DENUNCIATIONS.ORDER
+        else:
+            order = DENUNCIATIONS.ENEMY_ORDER
+        make = self._makeItem
+        return [make(denunciation, MENU.contextmenu(denunciation), optInitData={b'enabled': (self._isAppealsForTopicEnabled(denunciation))}) for denunciation in order]
+
+    def _createSubMenuItem(self):
+        labelStr = (u'{} {}/{}').format(i18n.makeString(MENU.CONTEXTMENU_APPEAL), self._denunciator.getDenunciationsLeft(), self._denunciator.getDenunciationsPerDay())
+        return self._makeItem(DENUNCIATIONS.APPEAL, labelStr, optInitData={b'enabled': (self._denunciator.isAppealsEnabled())}, optSubMenu=self._getSubmenuData())
+
+
+class UserVehicleCMHandler(AppealCMHandler):
+    comparisonBasket = dependency.descriptor(IVehicleComparisonBasket)
+
+    def compareVehicle(self):
+        vehicleCD = getValidVehicleCDForNationChange(self._vehicleCD)
+        self.comparisonBasket.addVehicle(vehicleCD)
+        return
+
+    def _getHandlers(self):
+        handlers = super(UserVehicleCMHandler, self)._getHandlers()
+        handlers.update({(_EXTENDED_OPT_IDS.VEHICLE_COMPARE): b'compareVehicle'})
+        return handlers
+
+    def _generateOptions(self, ctx=None):
+        options = super(AppealCMHandler, self)._generateOptions(ctx)
+        self._manageVehCompareOptions(options)
+        return options
+
+    def _manageVehCompareOptions(self, options):
+        if self.comparisonBasket.isEnabled():
+            options.insert(2, self._makeItem(_EXTENDED_OPT_IDS.VEHICLE_COMPARE, MENU.contextmenu(_EXTENDED_OPT_IDS.VEHICLE_COMPARE), {b'enabled': (self.comparisonBasket.isReadyToAdd(self.itemsCache.items.getItemByCD(self._vehicleCD)))}))
+        return
+
+
+class CustomUserCMHandler(BaseUserCMHandler):
+
+    def __init__(self, cmProxy, ctx=None):
+        super(CustomUserCMHandler, self).__init__(cmProxy, ctx=ctx)
+        self.__customOptions = ctx.customItems
+        self.__excludedOptions = ctx.excludedItems
+        self.__customOptionsAfterEnd = ctx.customItemsAfterEnd
+        self.__optionSelected = False
+        self.onSelected = Event(self._eManager)
+        return
+
+    def fini(self):
+        if not self.__optionSelected:
+            self.onSelected(None)
+        super(CustomUserCMHandler, self).fini()
+        return
+
+    def onOptionSelect(self, optionId):
+        self.__optionSelected = True
+        self.onSelected(optionId)
+        if not any([option[0] == optionId for option in self.__customOptions]) and not any([option[0] == optionId for option in self.__customOptionsAfterEnd]):
+            super(CustomUserCMHandler, self).onOptionSelect(optionId=optionId)
+        return
+
+    def _generateOptions(self, ctx=None):
+        options = super(CustomUserCMHandler, self)._generateOptions(ctx)
+        options = self._addCustomInfo(options)
+        options = self._excludeOptions(options)
+        return options
+
+    def _addCustomInfo(self, options):
+        customOptions = []
+        if self.__customOptions:
+            for optID, label, enabled in self.__customOptions:
+                customOptions.append(self._makeItem(optID, label, optInitData={b'enabled': enabled}, iconType=_CM_ICONS.get(optID, b'')))
+
+            customOptions.append(self._makeSeparator())
+            options = customOptions + options
+        if self.__customOptionsAfterEnd:
+            options.append(self._makeSeparator())
+            for optID, label, enabled in self.__customOptionsAfterEnd:
+                options.append(self._makeItem(optID, label, optInitData={b'enabled': enabled}, iconType=_CM_ICONS.get(optID, b'')))
+
+        return options
+
+    def _excludeOptions(self, options):
+        excludedOptions = self.__excludedOptions
+        options = [opt for opt in options if opt[b'id'] not in excludedOptions]
+        return options
+
+
+class Comp7LeaderboardCMHandler(BaseUserCMHandler):
+
+    def _generateOptions(self, ctx=None):
+        userCMInfo = self._getUseCmInfo()
+        options = [
+         self._makeItem(USER.INFO, MENU.contextmenu(USER.INFO))]
+        options = self._addFriendshipInfo(options, userCMInfo)
+        options = self._addRemoveFriendInfo(options, userCMInfo)
+        options = self._addChannelInfo(options, userCMInfo)
+        options.append(self._makeItem(USER.COPY_TO_CLIPBOARD, MENU.contextmenu(USER.COPY_TO_CLIPBOARD)))
+        return options
+
+
+class UserContextMenuInfo(object):
+    lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, databaseID, userName, clanAbbrev):
+        self.user = self.__getUser(databaseID, userName, clanAbbrev)
+        self.databaseID = databaseID
+        self.isBot = databaseID <= 0
+        self.canAddToIgnore = True
+        self.canDoDenunciations = True
+        self.isFriend = False
+        self.isIgnored = False
+        self.isTemporaryIgnored = False
+        self.isMuted = False
+        self.hasClan = False
+        self.userName = userName
+        self.displayName = userName
+        self.isOnline = False
+        self.isCurrentPlayer = False
+        if self.user is not None:
+            self.isFriend = self.user.isFriend()
+            self.isIgnored = self.user.isIgnored()
+            self.isTemporaryIgnored = self.user.isTemporaryIgnored()
+            self.isMuted = self.user.isMuted()
+            self.displayName = self.user.getFullName()
+            self.isOnline = self.user.isOnline()
+            self.isCurrentPlayer = self.user.isCurrentPlayer()
+            self.hasClan = self.user.getClanInfo().isInClan()
+        super(UserContextMenuInfo, self).__init__()
+        return
+
+    @storage_getter(b'users')
+    def usersStorage(self):
+        return
+
+    @property
+    def isSameRealm(self):
+        return self.lobbyContext.getServerSettings().roaming.isSameRealm(self.databaseID)
+
+    @property
+    def canCreateChannel(self):
+        roaming = self.lobbyContext.getServerSettings().roaming
+        if g_settings.server.XMPP.isEnabled():
+            canCreate = roaming.isSameRealm(self.databaseID)
+        else:
+            canCreate = not roaming.isInRoaming() and not roaming.isPlayerInRoaming(self.databaseID) and self.isOnline
+        return canCreate
+
+    def getTags(self):
+        if self.user is not None:
+            return self.user.getTags()
+        else:
+            return set()
+
+    def getNote(self):
+        if self.user is not None:
+            return self.user.getNote()
+        else:
+            return b''
+
+    def __getUser(self, dbId, username, clanAbbrev):
+        user = self.usersStorage.getUser(dbId)
+        if user is None:
+            user = SharedUserEntity(dbId, name=username, clanInfo=UserClanInfo(abbrev=clanAbbrev), scope=UserEntityScope.LOBBY, tags={
+             USER_TAG.SEARCH, USER_TAG.TEMP})
+            self.usersStorage.addUser(user)
+        return user

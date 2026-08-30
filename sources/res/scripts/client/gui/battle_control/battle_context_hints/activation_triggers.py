@@ -1,0 +1,344 @@
+import typing, logging, BigWorld, TriggersManager
+from helpers import dependency
+from constants import ARENA_PERIOD
+from gui.battle_control.battle_context_hints.common import HintId
+from gui.battle_control.battle_constants import VEHICLE_VIEW_STATE
+from skeletons.gui.battle_session import IBattleSessionProvider
+from skeletons.gui.game_control import ITankAcademyController
+if typing.TYPE_CHECKING:
+    from gui.battle_control.controllers.vehicle_state_ctrl import VehicleStateController
+_logger = logging.getLogger(__name__)
+
+class HintActivationTrigger(object):
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        self._hintId = hintId
+        self._activationCallback = activationCallback
+        self._args = args
+        self._kwargs = kwargs
+        return
+
+    def start(self):
+        raise NotImplementedError
+        return
+
+    def stop(self):
+        raise NotImplementedError
+        return
+
+
+class PreBattleHintActivationTrigger(HintActivationTrigger):
+    _sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        super(PreBattleHintActivationTrigger, self).__init__(hintId, activationCallback, *args, **kwargs)
+        self.__arena = self._sessionProvider.arenaVisitor.getArenaSubscription()
+        return
+
+    def start(self):
+        if self.__arena is not None:
+            self.__arena.onPeriodChange += self.__onArenaPeriodChange
+        return
+
+    def stop(self):
+        if self.__arena is not None:
+            self.__arena.onPeriodChange -= self.__onArenaPeriodChange
+        return
+
+    def needToShowHint(self):
+        raise NotImplementedError
+        return
+
+    def __onArenaPeriodChange(self, period, *args, **kwargs):
+        if period == ARENA_PERIOD.BATTLE and self.needToShowHint():
+            self._activationCallback(self._hintId, *self._args, **self._kwargs)
+        return
+
+
+class TankAcademyQuestHintTrigger(object):
+    __tankAcademyController = dependency.descriptor(ITankAcademyController)
+
+    def isTankAcademyQuestActive(self, questNumber):
+        currentQuestOrder = self.__tankAcademyController.getCurrentQuestOrder()
+        return self.__tankAcademyController.isFinished() or currentQuestOrder is not None and currentQuestOrder >= questNumber
+
+
+class KilledWhileObservedHintTrigger(HintActivationTrigger):
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        super(KilledWhileObservedHintTrigger, self).__init__(hintId, activationCallback, *args, **kwargs)
+        self.__vehicleStateCtrl = None
+        return
+
+    def start(self):
+        if self.__vehicleStateCtrl is None:
+            self.__vehicleStateCtrl = self.sessionProvider.shared.vehicleState
+            if self.__vehicleStateCtrl is not None:
+                self.__vehicleStateCtrl.onPostMortemSwitched += self.__onPostMortemSwitched
+        return
+
+    def stop(self):
+        if self.__vehicleStateCtrl is not None:
+            self.__vehicleStateCtrl.onPostMortemSwitched -= self.__onPostMortemSwitched
+            self.__vehicleStateCtrl = None
+        return
+
+    def __onPostMortemSwitched(self, noRespawnPossible, respawnAvailable):
+        playerVehicle = BigWorld.entity(BigWorld.player().playerVehicleID)
+        if playerVehicle is None:
+            _logger.error(b'playerVehicle is None')
+            return
+        else:
+            sixthSenseState = playerVehicle.sixthSenseState
+            if sixthSenseState:
+                self._activationCallback(self._hintId, *self._args, **self._kwargs)
+            return
+
+
+class InSafetyWhileNotObservedHintTrigger(PreBattleHintActivationTrigger):
+
+    def needToShowHint(self):
+        hintsCtrl = self._sessionProvider.dynamic.battleContextHintsCtrl
+        hintsData = hintsCtrl.getHintsData().get(HintId.KILLED_WHILE_OBSERVED)
+        return hintsData and hintsData.getLastBattleTriggered()
+
+
+class AmmunitionCritHintTrigger(HintActivationTrigger, TriggersManager.ITriggerListener):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        super(AmmunitionCritHintTrigger, self).__init__(hintId, activationCallback, *args, **kwargs)
+        self.__vehicleStateCtrl = None
+        self.__needToShowHint = False
+        return
+
+    def start(self):
+        if self.__vehicleStateCtrl is None:
+            self.__vehicleStateCtrl = self.__sessionProvider.shared.vehicleState
+            if self.__vehicleStateCtrl is not None:
+                self.__vehicleStateCtrl.onPostMortemSwitched += self.__onPostMortemSwitched
+        TriggersManager.g_manager.addListener(self)
+        return
+
+    def stop(self):
+        if self.__vehicleStateCtrl is not None:
+            self.__vehicleStateCtrl.onPostMortemSwitched -= self.__onPostMortemSwitched
+            self.__vehicleStateCtrl = None
+        TriggersManager.g_manager.delListener(self)
+        return
+
+    def onTriggerActivated(self, args):
+        if args[b'type'] != TriggersManager.TRIGGER_TYPE.PLAYER_RECEIVE_DAMAGE:
+            return
+        else:
+            if args[b'vehicleId'] != BigWorld.player().playerVehicleID:
+                return
+            damageContext = args[b'damageContext']
+            if damageContext is None:
+                return
+            if damageContext[b'damageCode'] == b'DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT':
+                deviceName = damageContext[b'extra'].name[:-len(b'Health')]
+                if deviceName == b'ammoBay' and self.__needToShowHint:
+                    self._activationCallback(self._hintId, *self._args, **self._kwargs)
+                    self.__needToShowHint = False
+            return
+
+    def __onPostMortemSwitched(self, noRespawnPossible, respawnAvailable):
+        self.__needToShowHint = True
+        return
+
+
+class FueltankCritHintTrigger(HintActivationTrigger):
+    _sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        super(FueltankCritHintTrigger, self).__init__(hintId, activationCallback, *args, **kwargs)
+        self._vehicleStateCtrl = None
+        self._equipmentCtrl = None
+        self._wasOnFire = False
+        self._hasExtinguisher = True
+        return
+
+    def start(self):
+        if self._equipmentCtrl is None:
+            self._equipmentCtrl = self._sessionProvider.shared.equipments
+        if self._vehicleStateCtrl is None:
+            self._vehicleStateCtrl = self._sessionProvider.shared.vehicleState
+            if self._vehicleStateCtrl is not None:
+                self._vehicleStateCtrl.onPostMortemSwitched += self._onPostMortemSwitched
+                self._vehicleStateCtrl.onVehicleStateUpdated += self._onVehicleStateUpdated
+        return
+
+    def stop(self):
+        if self._vehicleStateCtrl is not None:
+            self._vehicleStateCtrl.onPostMortemSwitched -= self._onPostMortemSwitched
+            self._vehicleStateCtrl.onVehicleStateUpdated -= self._onVehicleStateUpdated
+            self._vehicleStateCtrl = None
+        self._equipmentCtrl = None
+        self._wasOnFire = False
+        self._hasExtinguisher = True
+        return
+
+    def _onVehicleStateUpdated(self, state, value):
+        if state == VEHICLE_VIEW_STATE.FIRE:
+            if value:
+                self._wasOnFire = True
+                self._vehicleStateCtrl.onVehicleStateUpdated -= self._onVehicleStateUpdated
+                self._hasExtinguisher = bool(next(self._equipmentCtrl.iterEquipmentsByTag(b'extinguisher'), False))
+        return
+
+    def _onPostMortemSwitched(self, *_):
+        if self._wasOnFire and not self._hasExtinguisher:
+            self._activationCallback(self._hintId, *self._args, **self._kwargs)
+        return
+
+
+class ModuleDamageHintTrigger(PreBattleHintActivationTrigger):
+    _MODULE_RELATED_HINTS = [
+     HintId.ENGINE_DAMAGE_REPAIR_KIT,
+     HintId.ENGINE_DESTROY_REPAIR_KIT,
+     HintId.AMMUNITION_DAMAGE_REPAIR_KIT,
+     HintId.GUN_ROTATOR_DAMAGE_REPAIR_KIT,
+     HintId.GUN_ROTATOR_DESTROY_REPAIR_KIT,
+     HintId.GUN_DAMAGE_REPAIR_KIT,
+     HintId.GUN_DESTROY_REPAIR_KIT,
+     HintId.TRACK_DESTROY_REPAIR_KIT,
+     HintId.FUELTANK_DAMAGE_REPAIR_KIT]
+
+    def needToShowHint(self):
+        hintsCtrl = self._sessionProvider.dynamic.battleContextHintsCtrl
+        hintsData = hintsCtrl.getHintsData()
+        return all(hintData.getWatchingCounter() == 0 for hintId, hintData in hintsData.iteritems() if hintId in self._MODULE_RELATED_HINTS)
+
+
+class AmmoAvailableHintTrigger(TankAcademyQuestHintTrigger, PreBattleHintActivationTrigger):
+    _TANK_ACADEMY_AMMO_QUEST_NUMBER = 8
+    _MIN_VEHICLE_LEVEL = 4
+
+    def needToShowHint(self):
+        if not self.isTankAcademyQuestActive(self._TANK_ACADEMY_AMMO_QUEST_NUMBER):
+            return False
+        else:
+            vehicleStateCtrl = self._sessionProvider.shared.vehicleState
+            vehicle = vehicleStateCtrl.getControllingVehicle() if vehicleStateCtrl is not None else None
+            if vehicle is None or vehicle.typeDescriptor.level < self._MIN_VEHICLE_LEVEL:
+                return False
+            ammoCtrl = self._sessionProvider.shared.ammo
+            if ammoCtrl is None:
+                return False
+            availableShells = set(ammoCtrl.getGunSettings().shots)
+            if not availableShells:
+                return False
+            loadedShells = set(intCD for intCD, (count, _) in ammoCtrl.getShellsLayout() if count > 0)
+            return availableShells == loadedShells
+
+
+class AmmoTypeSwitchHintTrigger(TankAcademyQuestHintTrigger, HintActivationTrigger, TriggersManager.ITriggerListener):
+    _REQUIRED_FAILED_HITS = 2
+    _NO_DAMAGE_NO_PIERCE_EVENTS = (
+     TriggersManager.TRIGGER_TYPE.PLAYER_SHOT_NOT_PIERCED,
+     TriggersManager.TRIGGER_TYPE.PLAYER_SHOT_RICOCHET)
+    _BREAK_SEQUENCE_EVENTS = (
+     TriggersManager.TRIGGER_TYPE.PLAYER_SHOT_MISSED,
+     TriggersManager.TRIGGER_TYPE.PLAYER_SHOT_MADE_NONFATAL_DAMAGE)
+    _sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, hintId, activationCallback, *args, **kwargs):
+        super(AmmoTypeSwitchHintTrigger, self).__init__(hintId, activationCallback, *args, **kwargs)
+        self.__ammoCtrl = None
+        self.__shellQuantities = {}
+        self.__shotShellCD = None
+        self.__lastShellCD = None
+        self.__lastTargetId = None
+        self.__failedHitsCount = 0
+        return
+
+    def start(self):
+        self.__ammoCtrl = self._sessionProvider.shared.ammo
+        if self.__ammoCtrl is not None:
+            self.__ammoCtrl.onShellsAdded += self.__onShellsAdded
+            self.__ammoCtrl.onShellsUpdated += self.__onShellsUpdated
+        TriggersManager.g_manager.addListener(self)
+        return
+
+    def stop(self):
+        if self.__ammoCtrl is not None:
+            self.__ammoCtrl.onShellsAdded -= self.__onShellsAdded
+            self.__ammoCtrl.onShellsUpdated -= self.__onShellsUpdated
+            self.__ammoCtrl = None
+        TriggersManager.g_manager.delListener(self)
+        self.__shellQuantities.clear()
+        self.__shotShellCD = None
+        self.__resetSequence()
+        return
+
+    def onTriggerActivated(self, args):
+        triggerType = args[b'type']
+        if triggerType in self._BREAK_SEQUENCE_EVENTS:
+            self.__resetSequence()
+            return
+        else:
+            if triggerType not in self._NO_DAMAGE_NO_PIERCE_EVENTS:
+                return
+            shotShellCD = self.__shotShellCD
+            self.__shotShellCD = None
+            targetId = args.get(b'targetId')
+            if targetId is None:
+                self.__resetSequence()
+                return
+            if not self.__ammoTypeAvailableWasShown():
+                self.__resetSequence()
+                return
+            if shotShellCD is None:
+                self.__resetSequence()
+                return
+            if self.__isShellHighestPiercing(shotShellCD):
+                self.__resetSequence()
+                return
+            if shotShellCD == self.__lastShellCD and targetId == self.__lastTargetId:
+                self.__failedHitsCount += 1
+            else:
+                self.__lastShellCD = shotShellCD
+                self.__lastTargetId = targetId
+                self.__failedHitsCount = 1
+            if self.__failedHitsCount >= self._REQUIRED_FAILED_HITS:
+                self.__resetSequence()
+                self._activationCallback(self._hintId, *self._args, **self._kwargs)
+            return
+
+    def __ammoTypeAvailableWasShown(self):
+        hintsCtrl = self._sessionProvider.dynamic.battleContextHintsCtrl
+        if hintsCtrl is None:
+            return False
+        else:
+            hintsData = hintsCtrl.getHintsData().get(HintId.AMMO_TYPE_AVAILABLE)
+            hintsConfig = hintsCtrl.getHintsConfig()[HintId.AMMO_TYPE_AVAILABLE]
+            return hintsData is not None and hintsData.getWatchingCounter() < hintsConfig.maxWatchingQty
+
+    def __isShellHighestPiercing(self, shellCD):
+        ammoCtrl = self.__ammoCtrl
+        if ammoCtrl is None:
+            return True
+        else:
+            gunSettings = ammoCtrl.getGunSettings()
+            piercingPower = gunSettings.getPiercingPower(shellCD)
+            loadedShells = (intCD for intCD, (count, _) in ammoCtrl.getShellsLayout() if count > 0)
+            return all(piercingPower >= gunSettings.getPiercingPower(intCD) for intCD in loadedShells)
+
+    def __onShellsUpdated(self, intCD, quantity, _, __):
+        previousQuantity = self.__shellQuantities.get(intCD)
+        self.__shellQuantities[intCD] = quantity
+        if previousQuantity is not None and quantity < previousQuantity:
+            self.__shotShellCD = intCD
+        return
+
+    def __onShellsAdded(self, intCD, _, quantity, *__):
+        self.__shellQuantities[intCD] = quantity
+        return
+
+    def __resetSequence(self):
+        self.__lastShellCD = None
+        self.__lastTargetId = None
+        self.__failedHitsCount = 0
+        return

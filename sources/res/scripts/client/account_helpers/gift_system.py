@@ -1,0 +1,85 @@
+import logging, typing
+from functools import partial
+import AccountCommands
+from gui.gift_system.wrappers import GiftsHistoryData
+from shared_utils import makeTupleByDict
+from shared_utils.account_helpers.diff_utils import synchronizeDicts
+_logger = logging.getLogger(__name__)
+_CACHE_DIFF_KEY = b'cache'
+_GIFT_SYSTEM_KEY = b'giftsData'
+
+def _packEventHistoryData(eventExt):
+    aggregatedData = {}
+    detailedData = []
+    for itemID, details in eventExt.iteritems():
+        aggregatedData[itemID] = details[0]
+        metaInfo = details[1]
+        for senderID, messageID in metaInfo:
+            detailedData.append({itemID: {b'senderID': senderID, b'messageID': messageID}})
+
+    return makeTupleByDict(GiftsHistoryData, {b'aggregated': aggregatedData, b'detailed': detailedData})
+
+
+class _RequestHistoryProxy(object):
+
+    def __init__(self, reqEventIds, callback):
+        self.__reqEventIds = reqEventIds
+        self.__callback = callback
+        return
+
+    def __call__(self, requestID, resultID, errorStr, ext=None):
+        ext = ext if ext is not None else {}
+        for eventID in self.__reqEventIds:
+            ext[eventID] = _packEventHistoryData(ext[eventID]) if eventID in ext else None
+
+        self.__callback((resultID >= AccountCommands.RES_SUCCESS, ext))
+        return
+
+
+class GiftSystem(object):
+
+    def __init__(self, syncData, commandsProxy):
+        self.__cache = {}
+        self.__ignore = True
+        self.__syncData = syncData
+        self.__commandsProxy = commandsProxy
+        return
+
+    def onAccountBecomePlayer(self):
+        self.__ignore = False
+        return
+
+    def onAccountBecomeNonPlayer(self):
+        self.__ignore = True
+        return
+
+    def getCache(self, callback=None):
+        if self.__ignore:
+            if callback is not None:
+                callback(AccountCommands.RES_NON_PLAYER, None)
+            return
+        self.__syncData.waitForSync(partial(self.__onGetCacheResponse, callback))
+        return
+
+    def requestGiftsHistory(self, reqEventIds, callback):
+        proxy = _RequestHistoryProxy(reqEventIds, callback)
+        self.__commandsProxy.perform(AccountCommands.CMD_SYNC_GIFTS, reqEventIds, proxy)
+        return
+
+    def synchronize(self, isFullSync, diff):
+        _logger.debug(b'Synchronize gift system')
+        if isFullSync and self.__cache:
+            self.__cache.clear()
+        if _CACHE_DIFF_KEY in diff and _GIFT_SYSTEM_KEY in diff[_CACHE_DIFF_KEY]:
+            synchronizeDicts(diff[_CACHE_DIFF_KEY][_GIFT_SYSTEM_KEY], self.__cache)
+        _logger.debug(b'Gift system info: %s', self.__cache)
+        return
+
+    def __onGetCacheResponse(self, callback, resultID):
+        if resultID < 0:
+            if callback is not None:
+                callback(resultID, None)
+            return
+        if callback is not None:
+            callback(resultID, self.__cache)
+        return

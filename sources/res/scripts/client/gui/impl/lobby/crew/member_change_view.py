@@ -1,0 +1,397 @@
+import BigWorld
+from frameworks.wulf import ViewFlags, ViewSettings
+from frameworks.wulf.view.array import fillIntsArray
+from gui.game_control import restore_contoller
+from gui.impl.auxiliary.vehicle_helper import fillVehicleInfo
+from gui.impl.dialogs import dialogs
+from gui.impl.dialogs.dialogs import showRecruitNewTankmanDialog
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.crew.filter_panel_widget_model import FilterPanelType
+from gui.impl.gen.view_models.views.lobby.crew.member_change_view_model import MemberChangeViewModel
+from gui.impl.gen.view_models.views.lobby.crew.tankman_model import TankmanModel, TankmanKind, TankmanCardState
+from gui.impl.gui_decorators import args2params
+from gui.impl.lobby.crew.base_crew_view import BaseCrewView
+from gui.impl.lobby.crew.base_tankman_list_view import BaseTankmanListView
+from gui.impl.lobby.crew.crew_helpers.model_setters import setTankmanModel, setTmanSkillsModel, setRecruitTankmanModel
+from gui.impl.lobby.crew.filter import getTankmanLocationSettings, getTankmanRoleSettings, getVehicleTypeSettings, getVehicleTierSettings, getTankmanKindSettings
+from gui.impl.lobby.crew.filter.data_providers import CompoundDataProvider, MemberChangeDataProvider
+from gui.impl.lobby.crew.filter.filter_panel_widget import FilterPanelWidget
+from gui.impl.lobby.crew.filter.state import FilterState
+from gui.impl.lobby.crew.utils import discountPercent
+from gui.impl.lobby.hangar.sub_views.vehicle_params_view import VehicleSkillPreviewParamsView
+from gui.server_events.events_dispatcher import showRecruitWindow
+from gui.shared.gui_items import GUI_ITEM_TYPE
+from gui.shared.gui_items.Tankman import NO_SLOT
+from gui.shared.gui_items.Vehicle import NO_VEHICLE_ID
+from gui.shared.gui_items.items_actions import factory
+from gui.shared.items_cache import CACHE_SYNC_REASON
+from helpers import dependency
+from skeletons.gui.game_control import IRestoreController
+from skeletons.gui.game_control import ISpecialSoundCtrl
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.shared.utils.requesters import IShopRequester
+from uilogging.crew.loggers import CrewMemberChangeLogger
+from uilogging.crew.logging_constants import CrewViewKeys, LAYOUT_ID_TO_ITEM, CrewMemberChangeKeys, CrewMemberAdditionalInfo
+from th_async import th_async, th_await
+
+class MemberChangeView(BaseCrewView, BaseTankmanListView):
+    itemsCache = dependency.descriptor(IItemsCache)
+    restore = dependency.descriptor(IRestoreController)
+    specialSounds = dependency.descriptor(ISpecialSoundCtrl)
+    __slots__ = (b'__currentVehicle', b'__tankmanId', b'__slotIdx', b'__requiredRole', b'__tankman', b'__filterPanelWidget')
+
+    def __init__(self, layoutID, **kwargs):
+        settings = ViewSettings(layoutID=layoutID, flags=ViewFlags.LOBBY_TOP_SUB_VIEW, model=MemberChangeViewModel(), kwargs=kwargs)
+        vehicleInvID = kwargs.get(b'vehicleInvID', NO_VEHICLE_ID)
+        slotIdx = kwargs.get(b'slotIdx', NO_SLOT)
+        self.__currentVehicle = self.itemsCache.items.getVehicle(vehicleInvID)
+        self.__tankmanId = None
+        self.__slotIdx = None
+        self.__requiredRole = None
+        self.__tankman = None
+        self.__filterPanelWidget = None
+        self.__updateTankmanData(slotIdx)
+        self.__filterState = FilterState({(FilterState.GROUPS.LOCATION.value): (TankmanKind.TANKMAN.value), 
+           (FilterState.GROUPS.TANKMANROLE.value): (self.__requiredRole)})
+        self.__dataProviders = CompoundDataProvider(memberChange=MemberChangeDataProvider(self.__filterState, self.__tankman, self.__currentVehicle, self.__requiredRole))
+        self.__requiredNation = self.__currentVehicle.nationName
+        self.__paramsView = None
+        self.__hasFilters = False
+        previousViewID = kwargs.get(b'previousViewID')
+        self.__uiTooltipLogger = CrewMemberChangeLogger()
+        super(MemberChangeView, self).__init__(settings, parentViewKey=LAYOUT_ID_TO_ITEM.get(previousViewID))
+        return
+
+    @property
+    def _viewProvider(self):
+        return self.__dataProviders[b'memberChange']
+
+    @property
+    def _filterState(self):
+        return self.__filterState
+
+    @property
+    def _uiLoggingKey(self):
+        return CrewViewKeys.MEMBER_CHANGE
+
+    @property
+    def viewModel(self):
+        return super(MemberChangeView, self).getViewModel()
+
+    def createToolTip(self, event):
+        if event.contentID == R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent():
+            self.__uiTooltipLogger.onBeforeTooltipOpened(event.getArgument(b'tooltipId', None))
+        return super(MemberChangeView, self).createToolTip(event)
+
+    def selectSlot(self, slotIdx):
+        if self.__slotIdx != slotIdx:
+            self._onChangeSlotIdx(slotIdx)
+            self._crewWidget.updateSlotIdx(self.__slotIdx)
+            with self.viewModel.transaction() as tx:
+                tx.setRequiredRole(self.__requiredRole)
+                self._fillTankmenList(tx)
+        return
+
+    def _getEvents(self):
+        eventsTuple = super(MemberChangeView, self)._getEvents()
+        return eventsTuple + (
+         (
+          self.viewModel.onResetFilters, self._onResetFilters),
+         (
+          self.viewModel.onTankmanSelected, self._onTankmanSelected),
+         (
+          self.viewModel.onRecruitSelected, self._onRecruitSelected),
+         (
+          self.viewModel.onRecruitNewTankman, self._onRecruitNewTankman),
+         (
+          self.viewModel.onTankmanRestore, self._onTankmanRestore),
+         (
+          self.viewModel.onPlayRecruitVoiceover, self._onPlayTankmanVoiceover),
+         (
+          self.viewModel.onLoadCards, self._onLoadCards),
+         (
+          self.__filterState.onStateChanged, self._onFilterStateUpdated),
+         (
+          self.__dataProviders.onDataChanged, self._onDataChanged),
+         (
+          self.itemsCache.onSyncCompleted, self._onItemsCacheSyncCompleted),
+         (
+          self.__filterPanelWidget.onPopoverTooltipCreated, self._onPopoverTooltipCreated))
+
+    def _getCallbacks(self):
+        return (
+         (
+          b'inventory', self._onInventoryUpdate),
+         (
+          b'inventory.1.crew', self._onCrewChanged),
+         (
+          b'tokens', self._onCrewChanged),
+         (
+          b'personalMissionQuests', self._onCrewChanged))
+
+    def _setWidgets(self, **kwargs):
+        super(MemberChangeView, self)._setWidgets(**kwargs)
+        self.__paramsView = VehicleSkillPreviewParamsView()
+        self.setChildView(R.views.lobby.hangar.subViews.VehicleParams(), self.__paramsView)
+        self.__filterPanelWidget = FilterPanelWidget(getTankmanLocationSettings(), self.__getPopoverGroupSettings(), R.strings.crew.filter.popup.default.title(), self.__filterState, title=R.strings.crew.tankmanList.filter.title(), panelType=FilterPanelType.MEMBERCHANGE, popoverTooltipHeader=R.strings.crew.tankmanList.tooltip.popover.header(), popoverTooltipBody=R.strings.crew.tankmanList.tooltip.popover.body(), hasDiscountAlert=self.__isChangeRoleDiscountAvailable)
+        self.setChildView(FilterPanelWidget.LAYOUT_ID(), self.__filterPanelWidget)
+        return
+
+    def _fillViewModel(self, vm):
+        super(MemberChangeView, self)._fillViewModel(vm)
+        vm.setVehicle(self.__currentVehicle.descriptor.type.shortUserString)
+        vm.setRequiredRole(self.__requiredRole)
+        vm.setNation(self.__requiredNation)
+        vm.setRoleChangeDiscountPercent(self.__roleChangeDiscountPercent)
+        vm.setHasCrew(self.__currentVehicle.hasCrew)
+        fillVehicleInfo(vm.vehicleInfo, self.__currentVehicle, separateIGRTag=True)
+        self._fillTankmenList(vm)
+        return
+
+    def _fillTankmenList(self, tx):
+        self.__filterPanelWidget.updateAmountInfo(self.__dataProviders.itemsCount, self.__dataProviders.initialItemsCount)
+        fillIntsArray(self._viewProvider.getHeaderIndexes(), tx.getHeadersIndexes())
+        self.__filterPanelWidget.applyStateToModel()
+        tx.setHasFilters(self.__hasFilters)
+        tx.setItemsAmount(self._viewProvider.getActualItemsAmount())
+        tx.setItemsOffset(self._itemsOffset)
+        self._fillVisibleCards(tx.getTankmanList())
+        return
+
+    def _getSortedTankmanList(self):
+        return self._viewProvider.getTankmanSortedList()
+
+    def _fillTankmanCard(self, cardsList, tankman):
+        tm = TankmanModel()
+        setTankmanModel(tm, tankman, tmanNativeVeh=self.itemsCache.items.getItemByCD(tankman.vehicleNativeDescr.type.compactDescr), tmanVeh=self.itemsCache.items.getVehicle(tankman.vehicleInvID), compVeh=self.__currentVehicle, requiredRole=self.__requiredRole)
+        if tankman.invID == self.__tankmanId:
+            tm.setCardState(TankmanCardState.SELECTED)
+        tm.setHasRolePenalty(self.__requiredRole != tankman.role)
+        setTmanSkillsModel(tm.getSkills(), tankman)
+        tm.setHasVoiceover(False)
+        if tankman.isDismissed:
+            _, time = restore_contoller.getTankmenRestoreInfo(tankman)
+            tm.setTimeToDismiss(time)
+        cardsList.addViewModel(tm)
+        return
+
+    def _fillRecruitCard(self, cardsList, recruitInfo):
+        tm = TankmanModel()
+        setRecruitTankmanModel(tm, recruitInfo)
+        cardsList.addViewModel(tm)
+        return
+
+    def _onLoading(self, *args, **kwargs):
+        super(MemberChangeView, self)._onLoading(*args, **kwargs)
+        self.__dataProviders.subscribe()
+        self.__dataProviders.update()
+        self.__uiTooltipLogger.initialize()
+        if self.__dataProviders.itemsCount < 1:
+            self.__filterState.reinit({(FilterState.GROUPS.LOCATION.value): (TankmanKind.TANKMAN.value)})
+        return
+
+    def widgetAutoSelectSlot(self, **kwargs):
+        self._crewWidget.updateSlotIdx(self.__slotIdx)
+        return
+
+    def _finalize(self):
+        self.__dataProviders.unsubscribe()
+        self.__dataProviders.clear()
+        super(MemberChangeView, self)._finalize()
+        self.__currentVehicle = None
+        self.__tankman = None
+        self.__filterState = None
+        self.__filterPanelWidget = None
+        self.__paramsView = None
+        self.__dataProviders = None
+        self.__uiTooltipLogger.finalize()
+        self.__uiTooltipLogger = None
+        return
+
+    def _onPopoverTooltipCreated(self, event, window):
+        if event.contentID == R.views.lobby.crew.tooltips.DismissedToggleTooltip():
+            self.__uiTooltipLogger.logDismissedTooltip(window)
+        return
+
+    def _onItemsCacheSyncCompleted(self, reason, _):
+        if reason == CACHE_SYNC_REASON.SHOP_RESYNC:
+            self.__updatedRoleChangeCost()
+        return
+
+    def _onEmptySlotClick(self, tankmanID, slotIdx):
+        self.selectSlot(slotIdx)
+        return
+
+    def _onFilterStateUpdated(self):
+        self.__hasFilters = self.__filterPanelWidget.hasAppliedFilters()
+        self.__dataProviders.update()
+        return
+
+    def _onClose(self, params=None):
+        self._logClose(params)
+        if self.__currentVehicle.hasCrew:
+            self._onBack(False)
+        else:
+            self._destroySubViews()
+        return
+
+    def _onDataChanged(self):
+        self._updateViewModel()
+        return
+
+    def _onInventoryUpdate(self, invDiff):
+        if GUI_ITEM_TYPE.TANKMAN in invDiff:
+            self.__dataProviders.update()
+        return
+
+    def _onWidgetChangeCrewClick(self, _, slotIdx, __):
+        self.selectSlot(slotIdx)
+        return
+
+    def _onResetFilters(self):
+        self.__filterPanelWidget.resetPopoverFilter()
+        return
+
+    def _onCrewChanged(self, *_, **__):
+        self._onChangeSlotIdx(self.__slotIdx)
+        return
+
+    def _onChangeSlotIdx(self, slotIdx):
+        self.__updateTankmanData(slotIdx)
+        self.viewModel.setHasCrew(self.__currentVehicle.hasCrew)
+        self.__dataProviders.reinit(tankman=self.__tankman, role=self.__requiredRole)
+        self.__filterState.state.update({(FilterState.GROUPS.TANKMANROLE.value): {self.__requiredRole}})
+        self.__filterState.reinit(self.__filterState.state)
+        return
+
+    @th_async
+    @args2params(int)
+    def _onTankmanSelected(self, tankmanID):
+        if tankmanID == self.__tankmanId:
+            return
+        newTankman = self.itemsCache.items.getTankman(tankmanID)
+        if not newTankman:
+            return
+        self._uiLogger.logClick(CrewMemberChangeKeys.CARD, info=CrewMemberAdditionalInfo.TANKMAN)
+        if newTankman.role == self.__requiredRole:
+            vehicleNew = self.itemsCache.items.getVehicle(newTankman.vehicleInvID)
+            if vehicleNew and vehicleNew != self.__currentVehicle:
+                yield self.__memberChangeConfirm(newTankman, vehicleNew)
+            else:
+                self.__equipTankman(newTankman)
+        else:
+            yield self.__changeRoleAndEquipConfirm(newTankman)
+        self._crewWidget.updateSlotIdx(self.__slotIdx)
+        return
+
+    @args2params(str)
+    def _onPlayTankmanVoiceover(self, recruitID):
+        self._uiLogger.logClick(CrewMemberChangeKeys.CARD_VOICEOVER_BUTTON)
+        self._onPlayVoiceover(recruitID)
+        return
+
+    @args2params(str)
+    def _onRecruitSelected(self, recruitID):
+        self._uiLogger.logClick(CrewMemberChangeKeys.CARD, info=CrewMemberAdditionalInfo.RECRUIT)
+        showRecruitWindow(recruitID, vehicleSlotToUnpack=self.__slotIdx, vehicle=self.__currentVehicle, parentViewKey=CrewViewKeys.MEMBER_CHANGE)
+        return
+
+    @args2params(int)
+    def _onTankmanRestore(self, tankmanID):
+        self._uiLogger.logClick(CrewMemberChangeKeys.CARD_RESTORE_BUTTON)
+        dialogs.showRestoreTankmanDialog(tankmanID, self.__currentVehicle.invID, self.__slotIdx, parentViewKey=self._uiLoggingKey)
+        return
+
+    def _onRecruitNewTankman(self):
+        showRecruitNewTankmanDialog(self.__currentVehicle.intCD, self.__slotIdx, putInTank=True)
+        return
+
+    @property
+    def __roleChangeDiscountPercent(self):
+        shopRequester = self.itemsCache.items.shop
+        return discountPercent(shopRequester.changeRoleCost, shopRequester.defaults.changeRoleCost)
+
+    @property
+    def __isChangeRoleDiscountAvailable(self):
+        return self.__roleChangeDiscountPercent > 0
+
+    @th_async
+    def __memberChangeConfirm(self, newTankman, vehicleNew):
+        from gui.impl.dialogs.dialogs import showCrewMemberTankChangeDialog
+        result = yield th_await(showCrewMemberTankChangeDialog(newTankman.invID, self.__currentVehicle, vehicleNew, parentViewKey=CrewViewKeys.MEMBER_CHANGE))
+        if result.result:
+            self.__equipTankman(newTankman)
+        return
+
+    def __getPopoverGroupSettings(self):
+        return (getTankmanRoleSettings(self.__isChangeRoleDiscountAvailable),
+         getVehicleTypeSettings(customTooltipBody=R.strings.crew.filter.tooltip.crewMemberVehicleType.body()),
+         getVehicleTierSettings(),
+         getTankmanKindSettings(labelResId=R.strings.crew.filter.group.other.title(), options=(
+          TankmanKind.DISMISSED,)))
+
+    def __updatedRoleChangeCost(self):
+        self.__filterPanelWidget.updateHasDiscountAlert(self.__isChangeRoleDiscountAvailable)
+        self.__filterPanelWidget.updatePopoverGroupSettings(self.__getPopoverGroupSettings())
+        self.__filterPanelWidget.applyStateToModel()
+        with self.viewModel.transaction() as tx:
+            tx.setRoleChangeDiscountPercent(self.__roleChangeDiscountPercent)
+        return
+
+    def __equipTankman(self, newTankman):
+        if self.__currentVehicle:
+            factory.doAction(factory.EQUIP_TANKMAN, newTankman.invID, self.__currentVehicle.invID, int(self.__slotIdx))
+        return
+
+    @th_async
+    def __changeRoleAndEquipConfirm(self, newTankman):
+        from gui.impl.dialogs.dialogs import showCrewMemberRoleChangeDialog
+        vehicleNew = self.itemsCache.items.getVehicle(newTankman.vehicleInvID)
+        result = yield th_await(showCrewMemberRoleChangeDialog(newTankman.invID, self.__currentVehicle, vehicleNew, self.__requiredRole, parentViewKey=CrewViewKeys.MEMBER_CHANGE))
+        if result.result:
+            self.__changeRoleAndEquip(newTankman)
+        return
+
+    def __changeRoleAndEquip(self, newTankman):
+        if not self.__currentVehicle:
+            return
+        newVehicle = self.itemsCache.items.getVehicle(newTankman.vehicleInvID)
+        unloadVehicle = newVehicle if newVehicle and newTankman.vehicleInvID != self.__currentVehicle.invID else self.__currentVehicle
+        unloadSlot = self.__getSlotForNewTankman(unloadVehicle, newTankman)
+        doActions = [
+         (
+          factory.UNLOAD_TANKMAN,
+          unloadVehicle.invID,
+          int(self.__slotIdx) if unloadSlot < 0 else unloadSlot),
+         (
+          factory.CHANGE_ROLE_TANKMAN,
+          newTankman.invID,
+          self.__requiredRole,
+          self.__currentVehicle.intCD,
+          int(self.__slotIdx)),
+         (
+          factory.EQUIP_TANKMAN,
+          newTankman.invID,
+          self.__currentVehicle.invID,
+          int(self.__slotIdx))]
+        groupSize = len(doActions)
+        groupID = int(BigWorld.serverTime())
+        while doActions:
+            factory.doAction(*(doActions.pop(0) + (groupID, groupSize)))
+
+        return
+
+    def __getSlotForNewTankman(self, unloadVehicle, newTankman):
+        for slotIdx, tman in unloadVehicle.crew:
+            if tman and tman.invID == newTankman.invID:
+                return slotIdx
+
+        return -1
+
+    def __updateTankmanData(self, slotIdx):
+        self.__slotIdx = int(slotIdx)
+        self.__currentVehicle = self.itemsCache.items.getVehicle(self.__currentVehicle.invID)
+        self.__tankmanId = self.__currentVehicle.getTankmanIDBySlotIdx(self.__slotIdx)
+        self.__tankman = self.itemsCache.items.getTankman(self.__tankmanId)
+        self.__requiredRole = self.__currentVehicle.descriptor.type.crewRoles[self.__slotIdx][0]
+        return

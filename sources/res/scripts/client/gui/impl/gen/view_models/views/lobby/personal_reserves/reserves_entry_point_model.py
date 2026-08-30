@@ -1,0 +1,71 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.common.personal_reserves.booster_model import BoosterModel
+from gui.impl.gen.view_models.views.lobby.personal_reserves.disabled_category import DisabledCategory
+
+class ReservesEntryPointModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=6, commands=0):
+        super(ReservesEntryPointModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getReserves(self):
+        return self._getArray(0)
+
+    def setReserves(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getReservesType():
+        return BoosterModel
+
+    def getTotalReserves(self):
+        return self._getNumber(1)
+
+    def setTotalReserves(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getTotalLimitedReserves(self):
+        return self._getNumber(2)
+
+    def setTotalLimitedReserves(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getIsDisabled(self):
+        return self._getBool(3)
+
+    def setIsDisabled(self, value):
+        self._setBool(3, value)
+        return
+
+    def getIsClanMember(self):
+        return self._getBool(4)
+
+    def setIsClanMember(self, value):
+        self._setBool(4, value)
+        return
+
+    def getDisabledCategories(self):
+        return self._getArray(5)
+
+    def setDisabledCategories(self, value):
+        self._setArray(5, value)
+        return
+
+    @staticmethod
+    def getDisabledCategoriesType():
+        return DisabledCategory
+
+    def _initialize(self):
+        super(ReservesEntryPointModel, self)._initialize()
+        self._addArrayProperty(b'reserves', Array())
+        self._addNumberProperty(b'totalReserves', 0)
+        self._addNumberProperty(b'totalLimitedReserves', 0)
+        self._addBoolProperty(b'isDisabled', False)
+        self._addBoolProperty(b'isClanMember', False)
+        self._addArrayProperty(b'disabledCategories', Array())
+        return

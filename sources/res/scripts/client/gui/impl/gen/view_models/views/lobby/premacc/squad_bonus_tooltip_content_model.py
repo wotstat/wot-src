@@ -1,0 +1,44 @@
+from frameworks.wulf import ViewModel
+
+class SquadBonusTooltipContentModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(SquadBonusTooltipContentModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getCreditsBonusWithPremium(self):
+        return self._getNumber(0)
+
+    def setCreditsBonusWithPremium(self, value):
+        self._setNumber(0, value)
+        return
+
+    def getCreditsBonusWithoutPremium(self):
+        return self._getNumber(1)
+
+    def setCreditsBonusWithoutPremium(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getExperienceBonus(self):
+        return self._getNumber(2)
+
+    def setExperienceBonus(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getBattleType(self):
+        return self._getString(3)
+
+    def setBattleType(self, value):
+        self._setString(3, value)
+        return
+
+    def _initialize(self):
+        super(SquadBonusTooltipContentModel, self)._initialize()
+        self._addNumberProperty(b'creditsBonusWithPremium', 0)
+        self._addNumberProperty(b'creditsBonusWithoutPremium', 0)
+        self._addNumberProperty(b'experienceBonus', 0)
+        self._addStringProperty(b'battleType', b'')
+        return

@@ -1,0 +1,34 @@
+import CGF
+from GenericComponents import ParticleComponent
+from BoosterComponent import BoosterComponent
+from cosmic_event_common_cgf.helpers import registerCosmicEventManager
+from cosmic_sound import CosmicBattleSounds
+
+@registerCosmicEventManager(CGF.DomainOption.DomainClient)
+class BoosterEffectManager(CGF.ComponentManager):
+    __GEYSER_SPLASH_EFFECT = b'particles/Environment/interior/280_cosmic_geyser_26.eff'
+
+    def __init__(self):
+        super(BoosterEffectManager, self).__init__()
+        BoosterComponent.onBoardApply += self.__onBoardApply
+        BoosterComponent.onGeyserApply += self.__onGeyserApply
+        return
+
+    def destroy(self):
+        BoosterComponent.onBoardApply -= self.__onBoardApply
+        BoosterComponent.onGeyserApply -= self.__onGeyserApply
+        return
+
+    def __onBoardApply(self, boosterGO, position):
+        CosmicBattleSounds.playBoardJump(position)
+        return
+
+    def __onGeyserApply(self, boosterGO, position):
+        component = boosterGO.findComponentByType(ParticleComponent)
+        if component:
+            boosterGO.removeComponent(component)
+        rate = 1
+        isAutoStart = True
+        boosterGO.createComponent(ParticleComponent, self.__GEYSER_SPLASH_EFFECT, isAutoStart, rate)
+        CosmicBattleSounds.playGeyserSplash(position)
+        return

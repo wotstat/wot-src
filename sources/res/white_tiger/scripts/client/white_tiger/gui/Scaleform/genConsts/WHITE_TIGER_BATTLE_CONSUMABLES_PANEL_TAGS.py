@@ -1,0 +1,2 @@
+class WHITE_TIGER_BATTLE_CONSUMABLES_PANEL_TAGS(object):
+    WT_PASSIVE_ABILITY_ITEM = b'wtPassiveAbilityItem'

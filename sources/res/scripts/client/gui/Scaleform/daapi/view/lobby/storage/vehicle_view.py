@@ -1,0 +1,27 @@
+from gui.Scaleform.daapi.view.lobby.storage.category_view import InventoryCategoryView
+from gui.shared.gui_items import GUI_ITEM_TYPE
+
+class VehicleView(InventoryCategoryView):
+
+    def _populate(self):
+        super(VehicleView, self)._populate()
+        self._itemsCache.onSyncCompleted += self._onCacheResync
+        return
+
+    def _dispose(self):
+        self._itemsCache.onSyncCompleted -= self._onCacheResync
+        super(VehicleView, self)._dispose()
+        return
+
+    def _buildItems(self):
+        return
+
+    def _getVO(self, item):
+        return
+
+    def _getItemTypeID(self):
+        return GUI_ITEM_TYPE.VEHICLE
+
+    def _onCacheResync(self, *args):
+        raise NotImplementedError
+        return

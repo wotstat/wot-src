@@ -1,0 +1,275 @@
+import logging
+from traceback import print_stack
+from dossiers2.custom.records import RECORD_MAX_VALUES
+from dossiers2.ui import achievements
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.shared.gui_items.gui_item import GUIItem
+from helpers import i18n
+_logger = logging.getLogger(__name__)
+
+def dyn_or_num(accessor, name, default=None):
+    if name and name[0].isdigit():
+        return accessor.num(name, default=default)
+    return accessor.dyn(name, default=default)
+
+
+class RegularAchievement(GUIItem):
+    __slots__ = (b'_name', b'_block', b'_value', b'_lvlUpValue', b'_lvlUpTotalValue', b'_isDone', b'_isInDossier', b'_isValid')
+
+    class ICON_TYPE:
+        IT_180X180 = b'180x180'
+        IT_67X71 = b'67x71'
+        IT_32X32 = b'32x32'
+
+    ICON_PATH_180X180 = b'../maps/icons/achievement/big'
+    ICON_PATH_67X71 = b'../maps/icons/achievement'
+    ICON_PATH_32X32 = b'../maps/icons/achievement/32x32'
+    ICON_PATH_95X85 = b'../maps/icons/achievement/95x85'
+    ICON_DEFAULT = b'../maps/icons/achievement/noImage.png'
+
+    def __init__(self, name, block, dossier, value=None):
+        super(RegularAchievement, self).__init__()
+        self._name = str(name)
+        self._block = str(block)
+        self._value = int(value or 0)
+        self._lvlUpValue = 0
+        self._lvlUpTotalValue = 0
+        self._isDone = False
+        self._isInDossier = self.checkIsInDossier(block, name, dossier)
+        self._isValid = self.checkIsValid(block, name, dossier)
+        if dossier is not None:
+            if value is None:
+                self._value = int(self._readValue(dossier))
+            self._lvlUpTotalValue = self._readLevelUpTotalValue(dossier)
+            self._lvlUpValue = self._readLevelUpValue(dossier)
+            self._isDone = self._getDoneStatus(dossier)
+        return
+
+    def getName(self):
+        return self._name
+
+    def getBlock(self):
+        return self._block
+
+    def getResourceName(self):
+        return self._getActualName()
+
+    def getValue(self):
+        return self._value
+
+    def isApproachable(self):
+        return self.getIconName() in achievements.BATTLE_APPROACHABLE_ACHIEVES
+
+    def hasRibbon(self):
+        return self.getIconName() in achievements.BATTLE_ACHIEVES_WITH_RIBBON
+
+    def getI18nValue(self):
+        maxValue = RECORD_MAX_VALUES.get(self.getRecordName())
+        if maxValue is not None and self._value >= maxValue:
+            return i18n.makeString(b'#achievements:achievement/maxMedalValue') % backport.getIntegralFormat(maxValue - 1)
+        else:
+            return backport.getIntegralFormat(self._value)
+
+    def getLevelUpValue(self):
+        return self._lvlUpValue
+
+    def getLevelUpTotalValue(self):
+        return self._lvlUpTotalValue
+
+    def getRecordName(self):
+        return (
+         self._block, self._name)
+
+    def isInDossier(self):
+        return self._isInDossier
+
+    def isValid(self):
+        return self._isValid
+
+    def getNextLevelInfo(self):
+        return (
+         b'', self._lvlUpValue)
+
+    def getType(self):
+        return self.__getPredefinedValue(achievements.getType)
+
+    def getSection(self):
+        return self.__getPredefinedValue(achievements.getSection)
+
+    def getWeight(self):
+        return self.__getPredefinedValue(achievements.getWeight)
+
+    def isActive(self):
+        return True
+
+    def isDone(self):
+        return self._isDone
+
+    def getProgressValue(self):
+        return 0.0
+
+    def hasProgress(self):
+        return False
+
+    def hasCounter(self):
+        return bool(self._value)
+
+    def tryGetSmallIcon(self, iconName):
+        resource = R.images.gui.maps.icons.achievement.num(b'32x32')
+        accessor = dyn_or_num(resource, iconName)
+        if accessor.isValid():
+            return backport.image(accessor())
+        return self.ICON_DEFAULT
+
+    def tryGetBigIcon(self, iconName):
+        resource = R.images.gui.maps.icons.achievement.big
+        accessor = dyn_or_num(resource, iconName)
+        if accessor.isValid():
+            return backport.image(accessor())
+        return self.ICON_DEFAULT
+
+    def tryGetMediumIcon(self, iconName):
+        resource = R.images.gui.maps.icons.achievement
+        accessor = dyn_or_num(resource, iconName)
+        if accessor.isValid():
+            return backport.image(accessor())
+        return self.ICON_DEFAULT
+
+    def getIconName(self):
+        return self._getActualName()
+
+    def getIcons(self):
+        iconName = self.getIconName()
+        iconBig = iconMedium = iconSmall = b''
+        if iconName:
+            iconBig = self.tryGetBigIcon(iconName)
+            iconMedium = self.tryGetMediumIcon(iconName)
+            iconSmall = self.tryGetSmallIcon(iconName)
+        return {(self.ICON_TYPE.IT_180X180): iconBig, 
+           (self.ICON_TYPE.IT_67X71): iconMedium, 
+           (self.ICON_TYPE.IT_32X32): iconSmall}
+
+    def canDisplayAchievement(self):
+        iconName = self.getIconName()
+        resource = dyn_or_num(R.images.gui.maps.icons.achievement, iconName)
+        return resource.isValid()
+
+    def getHugeIcon(self):
+        return self.getIcons()[self.ICON_TYPE.IT_180X180]
+
+    def getBigIcon(self):
+        iconName = self._getActualName()
+        iconRes = dyn_or_num(R.images.gui.maps.icons.achievement.c_80x80, iconName)
+        if iconRes.exists():
+            return backport.image(iconRes())
+        else:
+            return self.getSmallIcon()
+
+        return
+
+    def getSmallIcon(self):
+        return self.getIcons()[self.ICON_TYPE.IT_67X71]
+
+    def getIcon32x32(self):
+        return self.getIcons()[self.ICON_TYPE.IT_32X32]
+
+    def getUserName(self):
+        return self.__getAchievementText(self._getActualName())
+
+    def getUserDescription(self):
+        return self.__getAchievementText((b'{}_descr').format(self._getActualName()))
+
+    def getUserWebDescription(self):
+        return self.getUserDescription()
+
+    def getUserHeroInfo(self):
+        heroInfoKey = b'#achievements:%s_heroInfo' % self._getActualName()
+        if i18n.doesTextExist(heroInfoKey):
+            return i18n.makeString(heroInfoKey)
+        return b''
+
+    def getNotificationInfo(self):
+        notificationKey = b'#achievements:%s_notification' % self._getActualName()
+        if i18n.doesTextExist(notificationKey):
+            return i18n.makeString(notificationKey)
+        return b''
+
+    def getShowCondSeparator(self):
+        return True
+
+    def getUserCondition(self):
+        condKey = b'#achievements:%s_condition' % self._getActualName()
+        if i18n.doesTextExist(condKey):
+            return i18n.makeString(condKey)
+        return b''
+
+    def isAvailableInQuest(self):
+        return True
+
+    def isHidden(self):
+        return self._name.startswith(b'epicBattle') and not self._isInDossier
+
+    @classmethod
+    def checkIsInDossier(cls, block, name, dossier):
+        if dossier is not None:
+            a = bool(dossier.getRecordValue(block, name))
+            return a
+        else:
+            return False
+
+    @classmethod
+    def checkIsValid(cls, block, name, dossier):
+        return True
+
+    def _readValue(self, dossier):
+        return dossier.getRecordValue(*self.getRecordName())
+
+    def _readLevelUpValue(self, dossier):
+        return
+
+    def _readLevelUpTotalValue(self, dossier):
+        return
+
+    def _getActualName(self):
+        return self._name
+
+    def _getDoneStatus(self, dossier):
+        return self.getProgressValue() == 1.0
+
+    def __getPredefinedValue(self, getter):
+        value = getter(self.getRecordName())
+        if value is None:
+            value = getter(achievements.makeAchievesStorageName(self._block))
+        return value
+
+    def __getAchievementText(self, key):
+        attrName = key.format(self._getActualName())
+        if attrName and attrName[0].isdigit():
+            resource = R.strings.achievements.num(attrName)
+        else:
+            resource = R.strings.achievements.dyn(attrName)
+        if resource.isValid():
+            return backport.text(resource())
+        else:
+            print_stack(limit=2)
+            _logger.error((b'Invalid key "#achievements:{}"').format(key))
+            return b''
+
+        return
+
+    def __repr__(self):
+        return b'%s<name=%s; value=%s; levelUpValue=%s levelUpTotalValue=%s isDone=%s>' % (
+         self.__class__.__name__, self._name, str(self._value), str(self._lvlUpValue),
+         str(self._lvlUpTotalValue), str(self._isDone))
+
+    def __cmp__(self, other):
+        if isinstance(other, RegularAchievement):
+            aSection, bSection = self.getSection(), other.getSection()
+            if aSection is not None and bSection is not None:
+                res = achievements.ACHIEVEMENT_SECTIONS_INDICES[aSection] - achievements.ACHIEVEMENT_SECTIONS_INDICES[bSection]
+                if res:
+                    return res
+            return cmp(self.getWeight(), other.getWeight())
+        else:
+            return 1

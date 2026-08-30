@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R47_ISU-152_Zveroboj ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>385</id>
+			<texture>vehicles/russian/Camouflage/lunar_ny_2022.dds</texture>
+			<description>#vehicle_customization:camouflage/lunar_ny_2022/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/lunar_ny_2022/label</userString>
+			<tags>fullRGB</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.185877994</HULL>
+				<TURRET>-0.185877994</TURRET>
+				<GUN>-0.185877994</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativeWithFactor</type>
+				<factor>2.4000001 2.4000001</factor>
+				<offset>-0.0799999982 -0.0700000003</offset>
+			</tilingSettings>
+			<gloss>0.509000003 0.509000003 0.5 0.75</gloss>
+			<metallic>0.230000004 0.230000004 0.150000006 0.230000004</metallic>
+		</camouflage>
+	</itemGroup>
+</root>

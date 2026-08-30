@@ -1,0 +1,34 @@
+from enum import Enum
+from gui.impl.gen.view_models.views.lobby.post_progression.tooltip.feature_tooltip_view_model import FeatureTooltipViewModel
+
+class SetupFeatureType(Enum):
+    SHELLSCONSUMABLESSWITCH = b'shells_consumables_switch'
+    OPTDEVBOOSTERSSWITCH = b'opt_dev_boosters_switch'
+
+
+class SetupTooltipViewModel(FeatureTooltipViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=5, commands=0):
+        super(SetupTooltipViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIconName(self):
+        return self._getString(3)
+
+    def setIconName(self, value):
+        self._setString(3, value)
+        return
+
+    def getType(self):
+        return SetupFeatureType(self._getString(4))
+
+    def setType(self, value):
+        self._setString(4, value.value)
+        return
+
+    def _initialize(self):
+        super(SetupTooltipViewModel, self)._initialize()
+        self._addStringProperty(b'iconName', b'')
+        self._addStringProperty(b'type')
+        return

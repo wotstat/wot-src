@@ -1,0 +1,27 @@
+from enum import Enum
+RS_PDATA_KEY = b'renewableSub'
+RS_ENABLED = b'isEnabled'
+RS_EXPIRATION_TIME = b'expiry'
+IDLE_CREW_XP_PDATA_KEY = b'idleCrewXP'
+GOLD_RESERVE_GAINS_SECTION = b'goldReserveGainsPerBattleType'
+IDLE_CREW_VEH_INV_ID = b'vehInvID'
+LAST_XP_UPDATE_TIMESTAMP = b'lastXPUpdate'
+PASSIVE_XP_CURRENCY = b'currency'
+ISSUED_XP_CACHE = b'xpCache'
+PASSIVE_XP_ENTITLEMENT = b'subscription_passive_xp'
+PASSIVE_XP_SECONDS = b'passive_xp_seconds'
+SUBSCRIPTION_DURATION_LENGTH = 2592000
+WOTPLUS_BADGE_ID = 106
+DEFAULT_DEMOUNT_ACTION = 0
+WOT_PLUS_DEMOUNT_ACTION = 1
+
+class WotPlusState(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+    CANCELLED = 2
+    ERROR = 3
+    TRIAL = 4
+
+
+SUBSCRIPTION_STATE = {b'ACTIVE': 1, 
+   b'INACTIVE': 2}

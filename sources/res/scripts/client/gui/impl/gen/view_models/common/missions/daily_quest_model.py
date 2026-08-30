@@ -1,0 +1,66 @@
+from frameworks.wulf import Array
+from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
+from gui.impl.gen.view_models.common.missions.quest_model import QuestModel
+
+class DailyQuestModel(QuestModel):
+    __slots__ = ()
+
+    def __init__(self, properties=19, commands=0):
+        super(DailyQuestModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIcon(self):
+        return self._getString(13)
+
+    def setIcon(self, value):
+        self._setString(13, value)
+        return
+
+    def getSubscriptionBonuses(self):
+        return self._getArray(14)
+
+    def setSubscriptionBonuses(self, value):
+        self._setArray(14, value)
+        return
+
+    @staticmethod
+    def getSubscriptionBonusesType():
+        return BonusModel
+
+    def getIsEnabledSubscription(self):
+        return self._getBool(15)
+
+    def setIsEnabledSubscription(self, value):
+        self._setBool(15, value)
+        return
+
+    def getIsActiveSubscription(self):
+        return self._getBool(16)
+
+    def setIsActiveSubscription(self, value):
+        self._setBool(16, value)
+        return
+
+    def getIsFirstView(self):
+        return self._getBool(17)
+
+    def setIsFirstView(self, value):
+        self._setBool(17, value)
+        return
+
+    def getHasPremium(self):
+        return self._getBool(18)
+
+    def setHasPremium(self, value):
+        self._setBool(18, value)
+        return
+
+    def _initialize(self):
+        super(DailyQuestModel, self)._initialize()
+        self._addStringProperty(b'icon', b'')
+        self._addArrayProperty(b'subscriptionBonuses', Array())
+        self._addBoolProperty(b'isEnabledSubscription', False)
+        self._addBoolProperty(b'isActiveSubscription', False)
+        self._addBoolProperty(b'isFirstView', False)
+        self._addBoolProperty(b'hasPremium', False)
+        return

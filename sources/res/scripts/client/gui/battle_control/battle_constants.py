@@ -1,0 +1,472 @@
+from constants import SECTOR_STATE
+from enumerations import Enumeration, AttributeEnumItem
+from gui.impl.gen import R
+from items.vehicle_items import CHASSIS_ITEM_TYPE
+from shared_utils import CONST_CONTAINER
+
+class BATTLE_CTRL_ID(object):
+    AMMO, EQUIPMENTS, OPTIONAL_DEVICES, OBSERVED_VEHICLE_STATE, ARENA_LOAD_PROGRESS, ARENA_PERIOD, TEAM_BASES, DEBUG, HIT_DIRECTION, FEEDBACK, CHAT_COMMANDS, MESSAGES, DRR_SCALE, RESPAWN, REPAIR, DYN_SQUADS, AVATAR_PRIVATE_STATS, FLAG_NOTS, CROSSHAIR, MOD, GUI, PERSONAL_EFFICIENCY, VIEW_POINTS, BATTLE_FIELD_CTRL, PLAYER_GAME_MODE_DATA, TEAM_HEALTH_BAR, ARENA_BORDER, PROGRESS_TIMER, MAPS, SPECTATOR, GAME_NOTIFICATIONS, EPIC_MISSIONS, GAME_MESSAGES_PANEL, QUEST_PROGRESS, ANONYMIZER_FAKES, GAME_RESTRICTIONS_MESSAGES, BATTLE_HINTS, DOG_TAGS, CALLOUT, PROGRESSION_CTRL, RADAR_CTRL, SPAWN_CTRL, DEATH_SCREEN_CTRL, VEHICLES_COUNT_CTRL, AREA_MARKER, DEATHZONES, APPEARANCE_CACHE_CTRL, BATTLE_NOTIFIER, PREBATTLE_SETUPS_CTRL, SOUND_PLAYERS_CTRL, POINTS_OF_INTEREST_CTRL, COMP7_PREBATTLE_SETUP_CTRL, COMP7_VOIP_CTRL, INGAME_HELP_CTRL, PERKS, MAP_ZONES_CONTROLLER, ARENA_INFO_CTRL, PLAYERS_PANEL_CTRL, BOSS_INFO_CTRL, TELEPORT_CTRL, WT_ABILITY_CTRL, OVERRIDE_SETTINGS, AIMING_SOUNDS_CTRL, AUTOSHOOT_GUN_CTRL, BATTLE_SPAM_CTRL, RANKED_VOIP_CTRL, BATTLE_CONTEXT_HINTS, COMP7_PREBATTLE_SKILL_CTRL = range(1, 69)
+
+
+REUSABLE_BATTLE_CTRL_IDS = (
+ BATTLE_CTRL_ID.MOD, BATTLE_CTRL_ID.GUI)
+BATTLE_CTRL_NAMES = dict([(v, k) for k, v in BATTLE_CTRL_ID.__dict__.iteritems() if not k.startswith(b'_')])
+
+def getBattleCtrlName(ctrlID):
+    if ctrlID in BATTLE_CTRL_NAMES:
+        return BATTLE_CTRL_NAMES[ctrlID]
+    return (b'UNKNOWN_{}').format(ctrlID)
+
+
+class VIEW_COMPONENT_RULE(object):
+    NONE = 0
+    PROXY = 1
+
+
+PLAYERS_PANEL_LENGTH = 24
+HIT_INDICATOR_MAX_ON_SCREEN = 5
+PREDICTION_INDICATOR_MAX_ON_SCREEN = 5
+
+class SHELL_SET_RESULT(object):
+    UNDEFINED = 0
+    ADDED = 1
+    UPDATED = 2
+    CURRENT = 4
+    CASSETTE_RELOAD = 8
+
+
+class CANT_SHOOT_ERROR(object):
+    UNDEFINED = b''
+    WAITING = b'waiting'
+    NO_AMMO = b'no_ammo'
+    RELOADING = b'gun_reload'
+    EMPTY_CLIP = b'empty_clip'
+    EMPTY_AUTO_CLIP = b'empty_auto_clip'
+
+
+SHELL_QUANTITY_UNKNOWN = -1
+
+class VEHICLE_VIEW_STATE(object):
+    FIRE = 1
+    DEVICES = 2
+    HEALTH = 4
+    DESTROYED = 8
+    CREW_DEACTIVATED = 16
+    AUTO_ROTATION = 32
+    SPEED = 64
+    CRUISE_MODE = 128
+    REPAIRING = 256
+    PLAYER_INFO = 512
+    DESTROY_TIMER = 1024
+    OBSERVED_BY_ENEMY = 4096
+    RESPAWNING = 8192
+    SWITCHING = 16384
+    DEATHZONE_TIMER = 32768
+    DEATH_INFO = 131072
+    VEHICLE_CHANGED = 262144
+    SIEGE_MODE = 524288
+    STUN = 16777216
+    CAPTURE_BLOCKED = 33554432
+    SMOKE = 67108864
+    INSPIRE = 134217728
+    UNDER_FIRE = 268435456
+    RECOVERY = 536870912
+    PROGRESS_CIRCLE = 1073741824
+    BURNOUT = 2147483648L
+    BURNOUT_WARNING = 4294967296L
+    BURNOUT_UNAVAILABLE_DUE_TO_BROKEN_ENGINE = 8589934592L
+    DUAL_GUN_CHARGER = 17179869184L
+    DUAL_GUN_MODE = 34359738368L
+    DUAL_GUN_STATE_UPDATED = 68719476736L
+    LOOT = 137438953472L
+    HEALING = 274877906944L
+    DOT_EFFECT = 549755813888L
+    DEBUFF = 1099511627776L
+    REPAIR_POINT = 2199023255552L
+    DEATHZONE = 4398046511104L
+    PERSONAL_DEATHZONE = 8796093022208L
+    STEALTH_RADAR = 17592186044416L
+    ADAPTATION_HEALTH_RESTORE = 35184372088832L
+    BERSERKER = 70368744177664L
+    CORRODING_SHOT = 140737488355328L
+    FIRE_CIRCLE = 281474976710656L
+    THUNDER_STRIKE = 562949953421312L
+    AOE_ZONE = 1125899906842624L
+    SHOT_PASSION = 2251799813685248L
+    POINT_OF_INTEREST_STATE = 4503599627370496L
+    POINT_OF_INTEREST_VEHICLE_STATE = 9007199254740992L
+    AOE_INSPIRE = 18014398509481984L
+    AOE_HEAL = 36028797018963968L
+    RISKY_ATTACK_BUFF = 72057594037927936L
+    RISKY_ATTACK_HEAL = 144115188075855872L
+    BERSERK = 288230376151711744L
+    SNIPER = 576460752303423488L
+    HUNTER = 1152921504606846976L
+    FAST_RECHARGE = 2305843009213693952L
+    ALLY_SUPPORT = 4611686018427387904L
+    JUGGERNAUT = 9223372036854775808L
+    SURE_SHOT = 18446744073709551616L
+    CONCENTRATION = 36893488147419103232L
+    MARCH = 73786976294838206464L
+    AGGRESSIVE_DETECTION = 147573952589676412928L
+    GUN_RELOAD_BOOST = 295147905179352825856L
+    DANGER_ZONE = 590295810358705651712L
+    WARNING_ZONE = 1180591620717411303424L
+    MAP_DEATH_ZONE = 2361183241434822606848L
+    ABILITY = 4722366482869645213696L
+    THERMAL_VISION_WARNING = 9444732965739290427392L
+    HEALING_SMALL = 18889465931478580854784L
+    HEALING_LARGE = 37778931862957161709568L
+    FULL_HP = 75557863725914323419136L
+    CLIENT_ONLY = (
+     AUTO_ROTATION, CRUISE_MODE)
+    PLASMA = 151115727451828646838272L
+    WT_HYPERION_WARNING_CHARGING = 302231454903657293676544L
+    WT_STUN_AREA = 604462909807314587353088L
+    WT_HYPERION_2025_WARNING_CHARGING = 1208925819614629174706176L
+    WT_SILENCE = 2417851639229258349412352L
+    WT_STUN_AREA_MOD_A = 4835703278458516698824704L
+    WT_BOSS_INVISIBILITY = 9671406556917033397649408L
+    WT_ENERGY_SHIELD = 19342813113834066795298816L
+    WT_DOME = 38685626227668133590597632L
+    WT_ANOMALY = 77371252455336267181195264L
+
+
+VEHICLE_DEVICES = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'leftTrack0', b'rightTrack0', b'surveyingDevice', b'radio', b'fuelTank')
+WHEELED_VEHICLE_DEVICES = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'surveyingDevice', b'radio', b'fuelTank', b'wheel0', b'wheel1', b'wheel2', b'wheel3', b'wheel4', b'wheel5', b'wheel6', b'wheel7')
+TRACK_WITHIN_TRACK_DEVICES = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'leftTrack0', b'rightTrack0', b'leftTrack1', b'rightTrack1', b'surveyingDevice', b'radio', b'fuelTank')
+VEHICLE_GUI_ITEMS = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'chassis', b'surveyingDevice', b'radio', b'fuelTank')
+WHEELED_VEHICLE_GUI_ITEMS = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'wheel', b'surveyingDevice', b'radio', b'fuelTank')
+ALL_VEHICLE_GUI_ITEMS = (b'engine', b'ammoBay', b'gun', b'turretRotator', b'chassis', b'wheel', b'surveyingDevice', b'radio', b'fuelTank')
+
+def getVehicleDeviceInComplexItemName(deviceName):
+    result = deviceName
+    if b'wheel' in deviceName:
+        result = b'wheel'
+    elif b'Track' in deviceName:
+        result = b'chassis'
+    return result
+
+
+VEHICLE_COMPLEX_ITEMS = {b'chassis': (b'leftTrack0', b'rightTrack0', b'leftTrack1', b'rightTrack1'), 
+   b'wheel': (b'wheel0', b'wheel1', b'wheel2', b'wheel3', b'wheel4', b'wheel5', b'wheel6', b'wheel7')}
+DEVICE_STATE_NORMAL = b'normal'
+DEVICE_STATE_CRITICAL = b'critical'
+DEVICE_STATE_DESTROYED = b'destroyed'
+DEVICE_STATES_RANGE = (
+ DEVICE_STATE_NORMAL, DEVICE_STATE_CRITICAL, DEVICE_STATE_DESTROYED)
+DEVICE_STATE_AS_DAMAGE = (
+ DEVICE_STATE_CRITICAL, DEVICE_STATE_DESTROYED)
+
+class TIMER_VIEW_STATE(object):
+    CRITICAL = b'critical'
+    WARNING = b'warning'
+
+
+class VEHICLE_INDICATOR_TYPE(CONST_CONTAINER):
+    DEFAULT = b'Tank'
+    SPG = b'SPG'
+    AT_SPG = b'AT-SPG'
+    DEFAULT_YOH = b'TankYoh'
+    DEFAULT_MULTITRACK_SEQUENT = b'TankMultitrackSequent'
+    DEFAULT_MULTITRACK_PARALLEL = b'TankMultitrackParallel'
+    SPG_MULTITRACK_SEQUENT = b'SPGMultitrackSequent'
+    SPG_MULTITRACK_PARALLEL = b'SPGMultitrackParallel'
+    AT_SPG_MULTITRACK_SEQUENT = b'AT-SPGMultitrackSequent'
+    AT_SPG_MULTITRACK_PARALLEL = b'AT-SPGMultitrackParallel'
+    WHEEL = b'Wheel'
+
+
+VEHICLE_CHASSIS_INDICATOR_POSTFIX = {(CHASSIS_ITEM_TYPE.TRACK_WITHIN_TRACK): b'Yoh', 
+   (CHASSIS_ITEM_TYPE.MULTITRACK_SEQUENT): b'MultitrackSequent', 
+   (CHASSIS_ITEM_TYPE.MULTITRACK_PARALLEL): b'MultitrackParallel'}
+EXTRA_SUFFIX = b'Health'
+EXTRA_PREFIX_LENGTH = len(EXTRA_SUFFIX)
+
+def makeExtraName(entityName):
+    return (b'').join([entityName, EXTRA_SUFFIX])
+
+
+PLAYER_GUI_PROPS = Enumeration(b'Gui properties for entity', [
+ (
+  b'ally', {b'isFriend': True, b'base': b'ally'}),
+ (
+  b'teamKiller', {b'isFriend': True, b'base': b'ally'}),
+ (
+  b'squadman', {b'isFriend': True, b'base': b'ally'}),
+ (
+  b'enemy', {b'isFriend': False, b'base': b'enemy'})], instance=AttributeEnumItem)
+VEHICLE_WAINING_INTERVAL = 0.05
+VEHICLE_UPDATE_INTERVAL = 0.03
+
+class FEEDBACK_EVENT_ID(object):
+    PLAYER_KILLED_ENEMY, PLAYER_DAMAGED_HP_ENEMY, PLAYER_DAMAGED_DEVICE_ENEMY, PLAYER_SPOTTED_ENEMY, PLAYER_ASSIST_TO_KILL_ENEMY, PLAYER_ASSIST_TO_STUN_ENEMY, PLAYER_USED_ARMOR, PLAYER_CAPTURED_BASE, PLAYER_DROPPED_CAPTURE, PLAYER_BLOCKED_CAPTURE, PLAYER_STUN_ENEMIES, VEHICLE_HEALTH, VEHICLE_HIT, VEHICLE_CRITICAL_HIT, VEHICLE_CRITICAL_HIT_DAMAGE, VEHICLE_CRITICAL_HIT_CHASSIS, VEHICLE_CRITICAL_HIT_CHASSIS_PIERCED, VEHICLE_RICOCHET, VEHICLE_ARMOR_PIERCED, VEHICLE_DEAD, VEHICLE_SHOW_MARKER, VEHICLE_ATTRS_CHANGED, ENTITY_IN_FOCUS, VEHICLE_HAS_AMMO, SHOW_VEHICLE_DAMAGES_DEVICES, HIDE_VEHICLE_DAMAGES_DEVICES, MINIMAP_SHOW_MARKER, MINIMAP_MARK_CELL, DAMAGE_LOG_SUMMARY, POSTMORTEM_SUMMARY, ENEMY_DAMAGED_HP_PLAYER, ENEMY_DAMAGED_DEVICE_PLAYER, VEHICLE_VISIBILITY_CHANGED, VEHICLE_STUN, VEHICLE_DEBUFF, VEHICLE_INSPIRE, VEHICLE_HEAL_POINT, VEHICLE_PASSIVE_ENGINEERING, VEHICLE_REPAIR_POINT, VEHICLE_AOE_INSPIRE, VEHICLE_AOE_HEAL, VEHICLE_RISKY_ATTACK_BUFF, VEHICLE_RISKY_ATTACK_HEAL, VEHICLE_BERSERK, VEHICLE_SNIPER, VEHICLE_HUNTER, VEHICLE_FAST_RECHARGE, VEHICLE_ALLY_SUPPORT, VEHICLE_JUGGERNAUT, VEHICLE_SURE_SHOT, VEHICLE_CONCENTRATION, VEHICLE_MARCH, VEHICLE_AGGRESSIVE_DETECTION, VEHICLE_POINT_RECON, VEHICLE_RED_LINE, MINIMAP_MARK_POSITION, MINIMAP_MARK_OBJECTIVE, MINIMAP_MARK_BASE, ENEMY_SECTOR_CAPTURED, DESTRUCTIBLE_DAMAGED, DESTRUCTIBLE_DESTROYED, DESTRUCTIBLES_DEFENDED, DEFENDER_BONUS, SMOKE_ASSIST, INSPIRE_ASSIST, VEHICLE_RECOVERY_STATE_UPDATE, VEHICLE_RECOVERY_CANCELED, VEHICLE_RECOVERY_KEY_PRESSED, VEHICLE_ACTIVE_GUN_CHANGED, VEHICLE_SHOW_MESSAGE, VEHICLE_DETECTED, EQUIPMENT_TIMER_EXPIRED, VEHICLE_ARMOR_SCREEN_BLOCKED, VEHICLE_TRACK_BLOCKED, VEHICLE_WHEEL_BLOCKED, VEHICLE_ARMOR_MISSED, VEHICLE_FRONTLINE_STEALTH_RADAR_ACTIVE, VEHICLE_FRONTLINE_REGENERATION_KIT_ACTIVE, VEHICLE_CUSTOM_MARKER, ABILITY, DETECTED_BY_THERMAL_VISION, THERMAL_VISION_STATE_CHANGED, THERMAL_VISION_UPDATE_SETTINGS, THERMAL_VISION_TIME, FRONTLINE_SUPPLY_REPAIR_TIMER, VEHICLE_DISCRETE_DAMAGE_RECEIVED, VEHICLE_HEALTH_ADDED = range(1, 88)
+
+
+class ENTITY_IN_FOCUS_TYPE(object):
+    VEHICLE = 0
+    DESTRUCTIBLE_ENTITY = 1
+
+
+MARKER_HIT_STATE = {(FEEDBACK_EVENT_ID.VEHICLE_HIT): (
+                                   b'hit', b'hit_blocked', R.strings.ingame_gui.hitMarker.blocked()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_CRITICAL_HIT): (
+                                            b'hit_critical', b'hit_critical',
+                                            R.strings.ingame_gui.hitMarker.critical()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_CRITICAL_HIT_DAMAGE): (
+                                                   b'hit_critical', b'hit_critical_damage', R.invalid()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_CRITICAL_HIT_CHASSIS): (
+                                                    b'hit_critical', b'hit_critical_chassis', R.strings.ingame_gui.hitMarker.critical()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_CRITICAL_HIT_CHASSIS_PIERCED): (
+                                                            b'hit_pierced', b'hit_critical_chassis', R.strings.ingame_gui.hitMarker.critical()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_RICOCHET): (
+                                        b'hit', b'hit_ricochet', R.strings.ingame_gui.hitMarker.ricochet()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_ARMOR_PIERCED): (
+                                             b'hit_pierced', b'', R.invalid()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_ARMOR_SCREEN_BLOCKED): (
+                                                    b'hit', b'hit_spaced_armor_blocked',
+                                                    R.strings.ingame_gui.hitMarker.spacedArmorBlocked()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_TRACK_BLOCKED): (
+                                             b'hit', b'hit_track_blocked',
+                                             R.strings.ingame_gui.hitMarker.trackBlocked()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_WHEEL_BLOCKED): (
+                                             b'hit', b'hit_wheel_blocked',
+                                             R.strings.ingame_gui.hitMarker.wheelBlocked()), 
+   (FEEDBACK_EVENT_ID.VEHICLE_ARMOR_MISSED): (
+                                            b'hit', b'hit_miss_armor', R.strings.ingame_gui.hitMarker.missArmor())}
+
+class COUNTDOWN_STATE(object):
+    UNDEFINED = 0
+    WAIT = 1
+    START = 2
+    STOP = 3
+    VISIBLE = (WAIT, START)
+
+
+class MULTIPLE_TEAMS_TYPE(object):
+    UNDEFINED = b''
+    FFA = b'ffa'
+    TDM = b'teams'
+    MIXED = b'mixed'
+
+
+NEUTRAL_TEAM = 0
+
+class WinStatus(object):
+    DRAW = 0
+    WIN = 1
+    LOSE = 2
+
+    def __init__(self, status):
+        self._status = status
+        return
+
+    def isValid(self):
+        return self._status is not None
+
+    def isWin(self):
+        return self._status == self.WIN
+
+    def isLose(self):
+        return self._status == self.LOSE
+
+    def isDraw(self):
+        return self._status == self.DRAW
+
+    def getStatus(self):
+        return self._status
+
+    @classmethod
+    def fromWinnerTeam(cls, winnerTeam, isAlly):
+        if winnerTeam == 0:
+            status = cls.DRAW
+        elif isAlly:
+            status = cls.WIN
+        else:
+            status = cls.LOSE
+        return cls(status=status)
+
+    @classmethod
+    def empty(cls):
+        return cls(status=None)
+
+
+class VEHICLE_LOCATION(object):
+    UNDEFINED = 0
+    AOI = 1
+    FAR = 2
+    AOI_TO_FAR = 3
+
+
+class GAS_ATTACK_STATE(object):
+    NO_ATTACK = 0
+    PREPEARING = 1
+    INSIDE_SAFE_ZONE = 2
+    NEAR_SAFE = 3
+    NEAR_CLOUD = 4
+    INSIDE_CLOUD = 5
+    DEAD = 6
+    VISIBLE = (
+     NEAR_SAFE, NEAR_CLOUD, INSIDE_CLOUD)
+
+
+class REPAIR_STATE_ID(object):
+    UNRESOLVED = 0
+    DISABLED = 1
+    READY = 2
+    REPAIRING = 3
+    COOLDOWN = 4
+
+
+class CROSSHAIR_VIEW_ID(object):
+    UNDEFINED = 0
+    ARCADE = 1
+    SNIPER = 2
+    STRATEGIC = 3
+    POSTMORTEM = 4
+    ASSAULT = 5
+
+
+class PROGRESS_CIRCLE_TYPE(object):
+    RESUPPLY_CIRCLE = 1
+    SECTOR_BASE_CIRCLE = 2
+
+
+SECTOR_STATE_ID = {(SECTOR_STATE.CLOSED): 0, 
+   (SECTOR_STATE.OPEN): 1, 
+   (SECTOR_STATE.TRANSITION): 2, 
+   (SECTOR_STATE.CAPTURED): 3, 
+   (SECTOR_STATE.BOMBING): 4}
+
+class AUTO_ROTATION_FLAG(int):
+    IGNORE_IN_UI = 1
+    TURN_ON = 2
+    TURN_OFF = 3
+
+
+class HIT_FLAGS(CONST_CONTAINER):
+    HP_DAMAGE = 1
+    IS_ALLAY = 2
+    IS_BLOCKED = 4
+    IS_CRITICAL = 8
+    IS_HIGH_EXPLOSIVE = 16
+    IS_BATTLE_CONSUMABLES = 32
+    IS_NON_PLAYER_ATTACK_REASON = 64
+
+
+class PERSONAL_EFFICIENCY_TYPE(CONST_CONTAINER):
+    DAMAGE = 1
+    ASSIST_DAMAGE = 2
+    BLOCKED_DAMAGE = 4
+    RECEIVED_DAMAGE = 8
+    RECEIVED_CRITICAL_HITS = 16
+    STUN = 32
+
+
+class CACHE_RECORDS_IDS(CONST_CONTAINER):
+    RELATIONS = 0
+    TMP_PROGRESSION = 1
+    INITIAL_MODULES = 2
+
+
+class NET_TYPE_OVERRIDE(CONST_CONTAINER):
+    DISABLED = -1
+    SIEGE_MODE = 5
+
+
+class STRATEGIC_CAMERA_ID(object):
+    UNDEFINED = 0
+    AERIAL = 1
+    TRAJECTORY = 2
+
+
+class ITimerViewState(object):
+    __slots__ = ()
+
+    @classmethod
+    def makeCloseTimerState(cls, code):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def makeCloseAllState(cls):
+        raise NotImplementedError
+        return
+
+    def needToShow(self):
+        raise NotImplementedError
+        return
+
+    def needToCloseTimer(self):
+        raise NotImplementedError
+        return
+
+    def needToCloseAll(self):
+        raise NotImplementedError
+        return
+
+
+class DestroyTimerViewState(ITimerViewState):
+    __slots__ = (b'code', b'totalTime', b'level', b'startTime')
+
+    def __init__(self, code, totalTime, level, startTime=None):
+        self.code = code
+        self.totalTime = totalTime
+        self.level = level
+        self.startTime = startTime
+        return
+
+    def needToShow(self):
+        return self.code is not None and self.level is not None
+
+    def needToCloseTimer(self):
+        return self.code is not None and self.level is None
+
+    def needToCloseAll(self):
+        return self.code is None
+
+    @classmethod
+    def makeCloseTimerState(cls, code):
+        return cls(code, 0, None)
+
+    @classmethod
+    def makeCloseAllState(cls):
+        return cls.makeCloseTimerState(code=None)
+
+    def __repr__(self):
+        return (b'<DestroyTimerViewState code={} totalTime={}, level={}, startTime={}>').format(self.code, self.totalTime, self.level, self.startTime)
+
+
+class DeathZoneTimerViewState(ITimerViewState):
+    __slots__ = (b'zoneID', b'isCausingDamage', b'totalTime', b'level', b'finishTime', b'entered')
+
+    def __init__(self, zoneID, isCausingDamage, totalTime, level, finishTime, entered=None):
+        self.zoneID = zoneID
+        self.isCausingDamage = isCausingDamage
+        self.totalTime = totalTime
+        self.level = level
+        self.finishTime = finishTime
+        self.entered = entered
+        return
+
+    def needToShow(self):
+        return self.zoneID is not None and self.level is not None
+
+    def needToCloseTimer(self):
+        return self.zoneID is not None and self.level is None
+
+    def needToCloseAll(self):
+        return self.zoneID is None
+
+    @classmethod
+    def makeCloseTimerState(cls, zoneID, isCausingDamage=False):
+        return cls(zoneID, isCausingDamage, totalTime=0, level=None, finishTime=0)
+
+    @classmethod
+    def makeCloseAllState(cls):
+        return cls.makeCloseTimerState(zoneID=None, isCausingDamage=False)
+
+
+class BonusRibbonLabel(CONST_CONTAINER):
+    NO_BONUS = -1
+    BASE_BONUS_LABEL = 0

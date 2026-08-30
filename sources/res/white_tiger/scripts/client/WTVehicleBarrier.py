@@ -1,0 +1,25 @@
+import aih_constants
+from AvatarInputHandler import aih_global_binding
+from script_component.DynamicScriptComponent import DynamicScriptComponent
+_GUN_MARKER_FLAG = aih_constants.GUN_MARKER_FLAG
+
+class WTVehicleBarrier(DynamicScriptComponent):
+    gunMarkersFlags = aih_global_binding.bindRW(aih_global_binding.BINDING_ID.GUN_MARKERS_FLAGS)
+
+    def _onAvatarReady(self):
+        self.__handleAbilityMode()
+        return
+
+    def set_abilityMode(self, prev):
+        self.__handleAbilityMode()
+        return
+
+    def set_gunLockFlag(self, prev):
+        if self.gunLockFlag:
+            self.gunMarkersFlags &= ~_GUN_MARKER_FLAG.CLIENT_MODE_ENABLED
+            return
+        self.gunMarkersFlags |= _GUN_MARKER_FLAG.CLIENT_MODE_ENABLED
+        return
+
+    def __handleAbilityMode(self):
+        return

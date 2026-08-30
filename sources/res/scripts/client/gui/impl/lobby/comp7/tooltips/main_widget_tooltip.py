@@ -1,0 +1,61 @@
+from adisp import adisp_process
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.comp7.tooltips.main_widget_tooltip_model import MainWidgetTooltipModel, State
+from gui.impl.lobby.comp7 import comp7_model_helpers, comp7_shared, comp7_qualification_helpers
+from gui.impl.pub import ViewImpl
+from helpers import dependency
+from skeletons.gui.game_control import IComp7Controller
+
+class MainWidgetTooltip(ViewImpl):
+    __slots__ = ()
+    __comp7Controller = dependency.descriptor(IComp7Controller)
+
+    def __init__(self, layoutID=R.views.lobby.comp7.tooltips.MainWidgetTooltip()):
+        settings = ViewSettings(layoutID)
+        settings.model = MainWidgetTooltipModel()
+        super(MainWidgetTooltip, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(MainWidgetTooltip, self).getViewModel()
+
+    def _onLoading(self):
+        super(MainWidgetTooltip, self)._onLoading()
+        self.__updateData()
+        return
+
+    def __updateData(self):
+        with self.viewModel.transaction() as vm:
+            isQualification = self.__comp7Controller.isQualificationActive()
+            if isQualification:
+                self.__updateQualificationData(vm)
+            else:
+                self.__updateLeaderboardData(vm)
+                self.__updateProgressionData(vm)
+        return
+
+    @staticmethod
+    def __updateQualificationData(model):
+        comp7_qualification_helpers.setQualificationInfo(model.qualificationModel)
+        return
+
+    def __updateProgressionData(self, model):
+        division = comp7_shared.getPlayerDivision()
+        model.setRank(comp7_shared.getRankEnumValue(division))
+        model.setCurrentScore(self.__comp7Controller.rating)
+        comp7_model_helpers.setDivisionInfo(model=model.divisionInfo, division=division)
+        return
+
+    @adisp_process
+    def __updateLeaderboardData(self, model):
+        model.setExternalDataState(State.LOADING)
+        lbUpdateTime, isSuccessLastUpdateTime = yield self.__comp7Controller.leaderboard.getLastUpdateTime()
+        if isSuccessLastUpdateTime:
+            model.setLeaderboardUpdateTimestamp(lbUpdateTime or 0)
+        isSuccessOwnData, myPosition, _, _ = yield self.__comp7Controller.leaderboard.getOwnData()
+        if isSuccessOwnData:
+            model.setMyPosition(myPosition or 0)
+        model.setExternalDataState(State.SUCCESS if all((isSuccessLastUpdateTime, isSuccessOwnData)) else State.ERROR)
+        return

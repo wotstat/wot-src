@@ -1,0 +1,13 @@
+class BATTLE_MARKERS_CONSTS(object):
+    VEHICLE_TYPE_AT_SPG = b'AT-SPG'
+    VEHICLE_TYPE_MEDIUM_AT_SPG = b'mediumAT-SPG'
+    VEHICLE_TYPE_HEAVY_AT_SPG = b'heavyAT-SPG'
+    VEHICLE_TYPE_LIGHT_TANK = b'lightTank'
+    VEHICLE_TYPE_HEAVY_TANK = b'heavyTank'
+    VEHICLE_TYPE_MEDIUM_TANK = b'mediumTank'
+    VEHICLE_TYPE_SPG = b'SPG'
+    VEHICLE_TYPE_MEDIUM_SPG = b'mediumSPG'
+    VEHICLE_TYPE_HEAVY_SPG = b'heavySPG'
+    COLOR_GREEN = b'green'
+    COLOR_YELLOW = b'yellow'
+    COLOR_RED = b'red'

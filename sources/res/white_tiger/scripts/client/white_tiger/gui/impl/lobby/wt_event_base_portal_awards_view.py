@@ -1,0 +1,146 @@
+import logging
+from constants import IS_LOOT_BOXES_ENABLED
+from gui.impl.gen import R
+from white_tiger.gui.impl.gen.view_models.views.lobby.portal_rewards.wt_portal_rewards_base_model import WtPortalRewardsBaseModel
+from white_tiger.gui.impl.lobby.tooltips.wt_event_lootbox_tooltip_view import WtEventLootBoxTooltipView
+from white_tiger.gui.impl.lobby.tooltips.wt_event_buy_lootboxes_tooltip_view import WtEventBuyLootBoxesTooltipView
+from gui.impl.pub import ViewImpl
+from gui.shared import event_dispatcher
+from gui.shop import showBuyLootboxOverlay
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.Waiting import Waiting
+from white_tiger.gui.wt_event_helpers import backportTooltipDecorator
+from helpers import dependency
+from skeletons.gui.app_loader import IAppLoader
+from skeletons.gui.game_control import IWhiteTigerController, ILootBoxesController
+from skeletons.gui.lobby_context import ILobbyContext
+from gui_lootboxes.gui.impl.lobby.gui_lootboxes.tooltips.additional_rewards_tooltip import AdditionalRewardsTooltip
+_logger = logging.getLogger(__name__)
+
+class WtEventBasePortalAwards(ViewImpl):
+    __slots__ = (b'_awards', b'_tooltipItems')
+    _lobbyContext = dependency.descriptor(ILobbyContext)
+    _eventCtrl = dependency.descriptor(IWhiteTigerController)
+    _boxesCtrl = dependency.descriptor(ILootBoxesController)
+    _appLoader = dependency.descriptor(IAppLoader)
+
+    def __init__(self, settings, awards, *args, **kwargs):
+        super(WtEventBasePortalAwards, self).__init__(settings)
+        self._awards = [bonus for bonus in awards if bonus.isShowInGUI()]
+        self._tooltipItems = {}
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()
+
+    @backportTooltipDecorator()
+    def createToolTip(self, event):
+        return super(WtEventBasePortalAwards, self).createToolTip(event)
+
+    def createToolTipContent(self, event, contentID):
+        if contentID == R.views.white_tiger.lobby.tooltips.LootBoxTooltipView():
+            return WtEventLootBoxTooltipView(isHunterLootBox=event.getArgument(b'isHunterLootBox'))
+        if contentID == R.views.white_tiger.lobby.tooltips.BuyLootBoxesTooltipView():
+            return WtEventBuyLootBoxesTooltipView()
+        if contentID == R.views.lobby.tooltips.AdditionalRewardsTooltip():
+            fromIndex = int(event.getArgument(b'showCount'))
+            return AdditionalRewardsTooltip(self._awards[fromIndex:])
+        return super(WtEventBasePortalAwards, self).createToolTipContent(event, contentID)
+
+    def _onLoading(self, *args, **kwargs):
+        super(WtEventBasePortalAwards, self)._onLoading()
+        self._addListeners()
+        self._updateModel()
+        return
+
+    def _onLoaded(self, *args, **kwargs):
+        super(WtEventBasePortalAwards, self)._onLoaded(*args, **kwargs)
+        self._eventCtrl.getLootBoxAreaSoundMgr().enter()
+        return
+
+    def _finalize(self):
+        self._removeListeners()
+        self._awards = None
+        self._tooltipItems = None
+        super(WtEventBasePortalAwards, self)._finalize()
+        return
+
+    def _updateModel(self):
+        self.viewModel.setIsBoxesEnabled(self._boxesCtrl.isEnabled())
+        return
+
+    def _updateLootBoxesCount(self, *args, **kwargs):
+        return
+
+    def _addListeners(self):
+        app = self._appLoader.getApp()
+        self.viewModel.onBackToPortal += self._goToPortals
+        self.viewModel.onClose += self._onClose
+        self.viewModel.onBuy += self.__goToShop
+        self.viewModel.onPreview += self._goToPreview
+        self._boxesCtrl.onUpdated += self._updateLootBoxesCount
+        self._lobbyContext.getServerSettings().onServerSettingsChange += self._onServerSettingsChange
+        self._eventCtrl.onEventPrbChanged += self.__onEventPrbChanged
+        if app:
+            app.containerManager.onViewAddedToContainer += self.__onViewAddedToContainer
+        return
+
+    def _removeListeners(self):
+        app = self._appLoader.getApp()
+        self.viewModel.onBackToPortal -= self._goToPortals
+        self.viewModel.onClose -= self._onClose
+        self.viewModel.onBuy -= self.__goToShop
+        self.viewModel.onPreview -= self._goToPreview
+        self._boxesCtrl.onUpdated -= self._updateLootBoxesCount
+        self._lobbyContext.getServerSettings().onServerSettingsChange -= self._onServerSettingsChange
+        self._eventCtrl.onEventPrbChanged -= self.__onEventPrbChanged
+        if app:
+            app.containerManager.onViewAddedToContainer -= self.__onViewAddedToContainer
+        return
+
+    def _getBoxType(self):
+        raise NotImplementedError
+        return
+
+    def _goToPreview(self, args):
+        intCD = int(args.get(b'intCD', 0))
+        if intCD == 0:
+            _logger.error(b'Invalid intCD to preview the bonus vehicle')
+            return
+        self._eventCtrl.getLootBoxAreaSoundMgr().leave()
+        self._showVehiclePreview(intCD)
+        return
+
+    def _showVehiclePreview(self, intCD):
+        event_dispatcher.selectVehicleInHangar(intCD)
+        self.destroyWindow()
+        return
+
+    def _goToPortals(self):
+        return
+
+    def _onClose(self, args=None):
+        self.destroyWindow()
+        return
+
+    def __goToShop(self):
+        Waiting.show(b'updating')
+        showBuyLootboxOverlay(self.getParentWindow(), alias=VIEW_ALIAS.OVERLAY_WEB_STORE)
+        return
+
+    def __onViewAddedToContainer(self, _, pyEntity):
+        if pyEntity.alias == VIEW_ALIAS.OVERLAY_WEB_STORE:
+            if Waiting.isOpened(b'updating'):
+                Waiting.hide(b'updating')
+        return
+
+    def __onEventPrbChanged(self, isActive):
+        if not isActive:
+            self.destroyWindow()
+        return
+
+    def _onServerSettingsChange(self, diff):
+        if IS_LOOT_BOXES_ENABLED in diff:
+            self.viewModel.setIsBoxesEnabled(self._boxesCtrl.isEnabled())
+        return

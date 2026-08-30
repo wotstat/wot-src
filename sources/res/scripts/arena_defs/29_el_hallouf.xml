@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:29_el_hallouf/name</name>
+	<description>#arenas:29_el_hallouf/description</description>
+	<geometry>spaces/29_el_hallouf</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/29_el_hallouf/mmap.dds</minimap>
+	<vehicleCamouflageKind>desert</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_el_halluf_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_el_halluf_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_el_halluf_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_el_halluf_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_el_halluf_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_el_halluf_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_summer_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>301.446716 316.445587</position1>
+				</team1>
+				<team2>
+					<position1>-338.937042 -320.33139</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>337.232666 305.598541</position>
+				</team1>
+				<team2>
+					<position>-318.289734 -347.465454</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-194.927673 204.043686</controlPoint>
+		</domination>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>301.446716 316.445587</position1>
+				</team1>
+				<team2>
+					<position1>-338.937042 -320.33139</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<teamSpawnPoints>
+				<team1>
+					<position>97.9810028 357.014008</position>
+				</team1>
+				<team2>
+					<position>-326.98999 -161.020996</position>
+				</team2>
+			</teamSpawnPoints>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/29_el_hallouf/mmap_comp7.dds</minimap>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-465.467621 400.892883</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>-237.886246 -16.3506355</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>118.866318 242.007507</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>-328.970825 290.565552</position>
+					<type>1</type>
+				</point>
+			</pointsOfInterestUDO>
+			<controlPoint>-194.927673 204.043686</controlPoint>
+		</comp7>
+		<bob>
+			<teamSpawnPoints>
+				<team1>
+					<position>103.987183 358.23175</position>
+				</team1>
+				<team2>
+					<position>-330.008118 -145.32988</position>
+				</team2>
+			</teamSpawnPoints>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<controlPoint>-194.927994 204.044006</controlPoint>
+		</bob>
+	</gameplayTypes>
+</root>

@@ -1,0 +1,38 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.AdvancedTooltipViewApp_base_42 {
+    display: flex;
+    flex-direction: column;
+    width: 416rem;
+    color: #fff;
+}
+
+.AdvancedTooltipViewApp_header_72 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 20rem;
+}
+
+.AdvancedTooltipViewApp_movie_58 {
+    width: 416rem;
+    height: 240rem;
+    margin: 5rem 0;
+}
+
+.AdvancedTooltipViewApp_description_17 {
+    padding: 10rem 20rem 20rem;
+}
+

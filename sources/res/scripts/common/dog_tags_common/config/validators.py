@@ -1,0 +1,102 @@
+import typing
+from dog_tags_common.config.common import ValidateException, TRIUMPH_GRADES, SKILL_GRADES, STARTING_COMPONENT_TYPES, DEDICATION_GRADES, RANKED_SKILL_GRADES
+from common import ComponentPurpose, ComponentViewType
+if typing.TYPE_CHECKING:
+    from dog_tag_framework import ComponentDefinition, StartingComponents
+
+def validateCommon(component):
+    if component.isDefault and component.isHidden:
+        raise ValidateException(ValidateException.DEFAULT_HIDDEN, component.componentId)
+    if component.lightingUpTo is not None and component.purpose != ComponentPurpose.STATIC:
+        raise ValidateException(ValidateException.HAS_LIGHTING, component.componentId)
+    return
+
+
+def validateTriumphMedal(component):
+    if component.grades is not None and len(component.grades) != 0:
+        raise ValidateException(ValidateException.HAS_GRADES, component.componentId, component.grades)
+    if component.unlockKey and component.isExternalUnlockOnly:
+        raise ValidateException(ValidateException.UNLOCK_KEY_AND_EXTERNAL_UNLOCK, component.componentId, component.grades)
+    return
+
+
+def validateTriumph(component):
+    if component.grades is None or len(component.grades) != TRIUMPH_GRADES:
+        raise ValidateException(ValidateException.WRONG_NUMBER_OF_GRADES, component.componentId, TRIUMPH_GRADES)
+    if component.isDefault and component.grades[0] > 0:
+        raise ValidateException(ValidateException.DEFAULT_WRONG_GRADES, component.componentId, component.grades)
+    if component.unlockKey and component.isExternalUnlockOnly:
+        raise ValidateException(ValidateException.UNLOCK_KEY_AND_EXTERNAL_UNLOCK, component.componentId, component.grades)
+    return
+
+
+def validateSkill(component):
+    if component.grades is None or len(component.grades) != SKILL_GRADES:
+        raise ValidateException(ValidateException.WRONG_NUMBER_OF_GRADES, component.componentId, SKILL_GRADES)
+    if component.isDefault and component.grades[0] > 0:
+        raise ValidateException(ValidateException.DEFAULT_WRONG_GRADES, component.componentId, component.grades)
+    if component.unlockKey and component.isExternalUnlockOnly:
+        raise ValidateException(ValidateException.UNLOCK_KEY_AND_EXTERNAL_UNLOCK, component.componentId, component.grades)
+    return
+
+
+def validateDedication(component):
+    if component.grades is None or len(component.grades) != DEDICATION_GRADES:
+        raise ValidateException(ValidateException.WRONG_NUMBER_OF_GRADES, component.componentId, DEDICATION_GRADES)
+    if component.isDefault and component.grades[0] > 0:
+        raise ValidateException(ValidateException.DEFAULT_WRONG_GRADES, component.componentId, component.grades)
+    return
+
+
+def validateDedicationUnlock(component):
+    if not (component.unlockKey or component.isDefault or component.isExternalUnlockOnly) or component.unlockKey and component.isDefault or component.unlockKey and component.isExternalUnlockOnly or component.isDefault and component.isExternalUnlockOnly:
+        raise ValidateException(ValidateException.SHOULD_BE_DEFAULT_OR_HAS_UNLOCK_KEY, component.componentId, component.grades)
+    return
+
+
+def validateRankedSkill(component):
+    if component.unlockKey is not None and len(component.unlockKey) != 0:
+        raise ValidateException(ValidateException.HAS_UNLOCK_KEY, component.componentId, component.unlockKey)
+    if component.grades is None or len(component.grades) != RANKED_SKILL_GRADES:
+        raise ValidateException(ValidateException.WRONG_NUMBER_OF_GRADES, component.componentId, RANKED_SKILL_GRADES)
+    if component.isDefault:
+        raise ValidateException(ValidateException.CANNOT_BE_DEFAULT, component.componentId)
+    return
+
+
+def validateBase(component):
+    if component.unlockKey is not None and len(component.unlockKey) != 0:
+        raise ValidateException(ValidateException.HAS_UNLOCK_KEY, component.componentId, component.unlockKey)
+    if component.grades is not None and len(component.grades) != 0:
+        raise ValidateException(ValidateException.HAS_GRADES, component.componentId, component.grades)
+    return
+
+
+def validateStatic(component):
+    if component.isDefault:
+        raise ValidateException(ValidateException.CANNOT_BE_DEFAULT, component.componentId)
+    if component.grades is None or not len(component.grades):
+        raise ValidateException(ValidateException.HAS_GRADES, component.componentId, component.grades)
+    if component.progressKey:
+        raise ValidateException(ValidateException.HAS_PROGRESS_KEY, component.componentId)
+    return
+
+
+def validateViewType(component, viewType, purpose):
+    if component.viewType is None or component.viewType != viewType:
+        raise ValidateException(ValidateException.WRONG_TYPE_VIEW_COMBINATION, component.componentId, purpose, component.viewType)
+    return
+
+
+def validateStartingComponent(component):
+    cache = []
+    for c in component.components:
+        if not c.isDefault:
+            raise ValidateException(ValidateException.STARTING_COMPONENT_NON_DEFAULT, c.componentId)
+        if c.viewType is None or c.viewType not in STARTING_COMPONENT_TYPES:
+            raise ValidateException(ValidateException.STARTING_COMPONENT_INVALID_TYPE, b'None' if c.viewType is None else c.viewType.value.lower())
+        cache.append(c.viewType.value)
+
+    if sorted(cache) != sorted([x.value for x in STARTING_COMPONENT_TYPES]):
+        raise ValidateException(ValidateException.STARTING_COMPONENT_WRONG_DATA, [x.value for x in STARTING_COMPONENT_TYPES], cache)
+    return

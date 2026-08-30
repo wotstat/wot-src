@@ -1,0 +1,44 @@
+import weakref, BigWorld
+from AvatarInputHandler import VehiclesSelectionControlMode
+from aih_constants import CTRL_MODES
+from AvatarInputHandler.commands.input_handler_command import InputHandlerCommand
+from AvatarInputHandler.control_modes import ArcadeControlMode, SniperControlMode, DualGunControlMode, StrategicControlMode, ArtyControlMode, OnlyArtyControlMode
+from BigWorld import ArcadeAimingSystem, SniperAimingSystem, DualGunAimingSystem, StrategicAimingSystem, ArtyAimingSystem
+from AvatarInputHandler.MapCaseMode import MapCaseControlModeBase
+SENDING_TIMER_TIMEOUT = 0.05
+
+class RemoteCameraSender(InputHandlerCommand):
+
+    def __init__(self, avatarInputHandler):
+        self.__aih = weakref.proxy(avatarInputHandler)
+        self.__cameraSenderTimer = BigWorld.callback(SENDING_TIMER_TIMEOUT, self.__sendCameraData)
+        return
+
+    def destroy(self):
+        BigWorld.cancelCallback(self.__cameraSenderTimer)
+        return
+
+    def __sendCameraData(self):
+        self.__cameraSenderTimer = None
+        self.__cameraSenderTimer = BigWorld.callback(SENDING_TIMER_TIMEOUT, self.__sendCameraData)
+        from BigWorld import OnlyArtyAimingSystem
+        player = BigWorld.player()
+        if player.isObserver() or not player.arena.hasObservers:
+            return
+        vehicle = player.getVehicleAttached()
+        if vehicle is None:
+            return
+        else:
+            ctrl = self.__aih.ctrl
+            if isinstance(ctrl, VehiclesSelectionControlMode):
+                return
+            aimingSystem = ctrl.camera.aimingSystem
+            if isinstance(ctrl, ArcadeControlMode) and isinstance(aimingSystem, ArcadeAimingSystem) or isinstance(ctrl, SniperControlMode) and isinstance(aimingSystem, SniperAimingSystem) or isinstance(ctrl, ArtyControlMode) and isinstance(aimingSystem, ArtyAimingSystem) or isinstance(ctrl, DualGunControlMode) and isinstance(aimingSystem, DualGunAimingSystem) or isinstance(ctrl, StrategicControlMode) and isinstance(aimingSystem, StrategicAimingSystem) or isinstance(ctrl, MapCaseControlModeBase) and isinstance(aimingSystem, ArcadeAimingSystem) or isinstance(ctrl, OnlyArtyControlMode) and isinstance(aimingSystem, OnlyArtyAimingSystem):
+                ctrlModeName = self.__aih.ctrlModeName
+                shotPoint = aimingSystem.getShotPoint()
+                zoom = aimingSystem.getZoom()
+                if shotPoint is not None and zoom is not None:
+                    vehicle.cell.setRemoteCamera({b'time': (BigWorld.serverTime()), b'shotPoint': shotPoint, 
+                       b'zoom': zoom, 
+                       b'mode': (CTRL_MODES.index(ctrlModeName))})
+            return

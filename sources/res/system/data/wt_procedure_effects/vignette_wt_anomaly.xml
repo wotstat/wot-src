@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<type>flames</type>
+	<m_saturationColor>0.215487003 0.345744014 0.911329985</m_saturationColor>
+	<m_saturationStrength>0.291999996</m_saturationStrength>
+	<m_tankDesaturation>1 0.985000014 0.755999982</m_tankDesaturation>
+	<m_backgroundDesaturation>0.263999999 0.799000025 0.335999995</m_backgroundDesaturation>
+	<m_cameraInterpSpeed>0</m_cameraInterpSpeed>
+	<m_cameraRotationDeltaMax>0</m_cameraRotationDeltaMax>
+	<m_noiseTexture>particles/content_deferred/GFX_models/GFX_textures/building_grid.dds</m_noiseTexture>
+	<m_gradientTexture>particles/content_deferred/GFX_models/GFX_textures/Gradients/purple.dds</m_gradientTexture>
+	<m_distortionTexture></m_distortionTexture>
+	<m_desaturationEnabled>true</m_desaturationEnabled>
+	<m_useColorFromNoiseTexture>false</m_useColorFromNoiseTexture>
+	<m_flameHardVignetteSize>0.170000002</m_flameHardVignetteSize>
+	<m_flameTransitionSpeed>5</m_flameTransitionSpeed>
+	<m_flameVignetteSpeedMul>3</m_flameVignetteSpeedMul>
+	<m_layer0Scale>1 1</m_layer0Scale>
+	<m_layer1Scale>1 1</m_layer1Scale>
+	<m_outerLayerScale>0.910000026 0.879999995</m_outerLayerScale>
+	<commonLayerProps>
+		<sectorCount>3.29999995</sectorCount>
+		<layerSeed>0.5</layerSeed>
+		<speedRange>0.150000006 0.529999971</speedRange>
+		<densityRange>0.00999999978 0.569999993</densityRange>
+		<oBlur>6</oBlur>
+		<oConeFactor>2.20000005</oConeFactor>
+		<oWidth>0.529999971 0.560000002</oWidth>
+		<oLength>1.00999999 1.03999996</oLength>
+		<oNoiseStrenght>0.670000017</oNoiseStrenght>
+		<oWeight>0.920000017</oWeight>
+		<iBlur>0.200000003</iBlur>
+		<iConeFactor>0.689999998</iConeFactor>
+		<iWidth>0.150000006 1</iWidth>
+		<iLength>0.0799999982 0.409999996</iLength>
+		<iWeight>0.189999998</iWeight>
+		<edgeIntensityMultiplier>0.529999971</edgeIntensityMultiplier>
+		<intensityMultiplierLen>2.36999989</intensityMultiplierLen>
+		<intensityMultiplierSpeed>1.46000004</intensityMultiplierSpeed>
+		<colorRamp>1.53999996</colorRamp>
+		<alphaRamp>1.01999998</alphaRamp>
+		<uvShiftRange>0.560000002 1</uvShiftRange>
+		<noiseUVScale>0.0399999991 0.349999994</noiseUVScale>
+		<fadeInOut>0.150000006 0.560000002</fadeInOut>
+		<brightness>0.439999998</brightness>
+		<contrast>0.170000002</contrast>
+		<alphaMin>0.0399999991</alphaMin>
+		<alphaMax>0.270000011</alphaMax>
+	</commonLayerProps>
+	<layer0>
+		<scale>1 1</scale>
+		<layerPhase>0.639999986</layerPhase>
+		<swingSpeed>0.0299999993</swingSpeed>
+		<swingMagnitude>0.0170000009</swingMagnitude>
+		<constantRotSpeed>0.152999997</constantRotSpeed>
+	</layer0>
+	<layer1>
+		<scale>1 1</scale>
+		<layerPhase>0</layerPhase>
+		<swingSpeed>1.41999996</swingSpeed>
+		<swingMagnitude>0.207000002</swingMagnitude>
+		<constantRotSpeed>0.0240000002</constantRotSpeed>
+	</layer1>
+	<outerLayerProps>
+		<sectorCount>0.400000006</sectorCount>
+		<layerSeed>1</layerSeed>
+		<scrollSpeed>-0.0599999987</scrollSpeed>
+		<densityRange>0.920000017 1.37</densityRange>
+		<oBlur>1.70000005</oBlur>
+		<oLength>3.36999989</oLength>
+		<oNoiseStrenght>-0.200000003</oNoiseStrenght>
+		<edgeIntensityMultiplier>0.980000019</edgeIntensityMultiplier>
+		<intensityMultiplierLen>1.53999996</intensityMultiplierLen>
+		<pulseSpeed>7.5</pulseSpeed>
+		<intensityMultiplierSpeed>1.86000001</intensityMultiplierSpeed>
+		<colorRamp>3.1400001</colorRamp>
+		<alphaRamp>0.720000029</alphaRamp>
+		<noiseUVScale>3.3499999 1.28999996</noiseUVScale>
+		<rectRoundness>6</rectRoundness>
+		<scale>0.910000026 0.879999995</scale>
+	</outerLayerProps>
+	<m_effectDistortionParams>
+		<distortionSpeed>0 0</distortionSpeed>
+		<distortionScale>1 1</distortionScale>
+		<distortionVignetteSize>2</distortionVignetteSize>
+		<distortionVignetteBlur>1</distortionVignetteBlur>
+	</m_effectDistortionParams>
+</root>

@@ -1,0 +1,249 @@
+from debug_utils import LOG_WARNING
+
+class EVENT(object):
+    HUNTERRESPAWN_TIMERTEXT = b'#event:hunterRespawn/timerText'
+    HUNTERRESPAWN_HINTTEXT = b'#event:hunterRespawn/hintText'
+    MINIMAP_RESPAWNENTRY_HINTTEXT = b'#event:minimap/respawnEntry/hintText'
+    PLAYERSPANEL_CAMPLABEL = b'#event:playersPanel/campLabel'
+    PLAYERSPANEL_BOMBLABEL = b'#event:playersPanel/bombLabel'
+    PLAYERSPANEL_BOTNAME = b'#event:playersPanel/botName'
+    WTEVENTSCAROUSELVIEW_INBATTLETEXT = b'#event:WTEventsCarouselView/inBattleText'
+    WTEVENTSCAROUSELVIEW_INPLATOONTEXT = b'#event:WTEventsCarouselView/inPlatoonText'
+    WTEVENTSCAROUSELVIEW_UNSUITABLETEXT = b'#event:WTEventsCarouselView/unsuitableText'
+    WTEVENTSCAROUSELVIEW_TICKETNEEDEDTEXT = b'#event:WTEventsCarouselView/ticketNeededText'
+    WTEVENTSCAROUSELVIEW_NOBATTLESLEFT = b'#event:WTEventsCarouselView/noBattlesLeft'
+    WTEVENTSCAROUSELVIEW_SPECIALBATTLESLEFT = b'#event:WTEventsCarouselView/specialBattlesLeft'
+    BATTLEQUEUE_WIDGET_BTNLABEL = b'#event:battleQueue/widget/btnLabel'
+    BATTLEQUEUE_WIDGET_CALCULATEDTEXT = b'#event:battleQueue/widget/calculatedText'
+    BATTLEQUEUE_WIDGET_CHANGETITLE = b'#event:battleQueue/widget/changeTitle'
+    BATTLEQUEUE_WIDGET_OFFERHUNTERTITLE = b'#event:battleQueue/widget/offerHunterTitle'
+    BATTLEQUEUE_WIDGET_TICKETTEXT = b'#event:battleQueue/widget/ticketText'
+    BATTLEQUEUE_WIDGET_BONUS = b'#event:battleQueue/widget/bonus'
+    BATTLEQUEUE_WIDGET_BONUSDESCR = b'#event:battleQueue/widget/bonusDescr'
+    PUNISHMENTWINDOW_REASON_EVENT_DESERTER = b'#event:punishmentWindow/reason/event_deserter'
+    PUNISHMENTWINDOW_REASON_EVENT_AFK = b'#event:punishmentWindow/reason/event_afk'
+    BATTLEHINTS_TESTMESSAGE = b'#event:battleHints/testMessage'
+    BATTLEHINTS_TESTMESSAGEWITHPARAMS = b'#event:battleHints/testMessageWithParams'
+    CRAFTMACHINE_TITLE = b'#event:craftMachine/title'
+    CRAFTMACHINE_SUBTITLE = b'#event:craftMachine/subTitle'
+    CRAFTMACHINE_ENDDATETEXT = b'#event:craftMachine/endDateText'
+    SHOPSALES_ENDDATETEXT = b'#event:shopSales/endDateText'
+    SHOPSALES_EVENTSTARTFORMAT = b'#event:shopSales/eventStartFormat'
+    SHOPSALES_EVENTFINISHFORMAT = b'#event:shopSales/eventFinishFormat'
+    SHOPSALES_TITLE = b'#event:shopSales/title'
+    UNIVERSALFLAG_UNAVALIBLEHEADER = b'#event:universalFlag/unavalibleHeader'
+    UNIVERSALFLAG_UNAVALIBLETEXT = b'#event:universalFlag/unavalibleText'
+    UNIVERSALFLAG_TIMERFORMAT = b'#event:universalFlag/timerFormat'
+    SUMMERSALES_TITLE = b'#event:summerSales/title'
+    SUMMERSALES_SUBTITLE = b'#event:summerSales/subTitle'
+    SUMMERSALES_EVENTFINISHFORMAT = b'#event:summerSales/eventFinishFormat'
+    SUMMERSALES_LESSTHANMINUTE = b'#event:summerSales/lessThanMinute'
+    SUMMERSALES_ENDDATETEXT = b'#event:summerSales/endDateText'
+    SUMMERSALES_REWARD_TITLEGENERAL = b'#event:summerSales/reward/titleGeneral'
+    SUMMERSALES_REWARD_TITLEHONEY = b'#event:summerSales/reward/titleHoney'
+    SUMMERSALES_REWARD_FOOTER_PREVIEWBUTTONTEXT = b'#event:summerSales/reward/footer/previewButtonText'
+    SUMMERSALES_REWARD_FOOTER_BUTTONTEXT = b'#event:summerSales/reward/footer/buttonText'
+    SUMMERSALES_REWARD_HEADER_CLOSEBUTTONTEXT = b'#event:summerSales/reward/header/closeButtonText'
+    SUMMERSALES_INTROVIEW_HEADER_TITLE = b'#event:summerSales/introView/header/title'
+    SUMMERSALES_INTROVIEW_TITLE_FIRST = b'#event:summerSales/introView/title/first'
+    SUMMERSALES_INTROVIEW_DESCRIPTION_FIRST = b'#event:summerSales/introView/description/first'
+    SUMMERSALES_INTROVIEW_TITLE_SECOND = b'#event:summerSales/introView/title/second'
+    SUMMERSALES_INTROVIEW_DESCRIPTION_SECOND = b'#event:summerSales/introView/description/second'
+    SUMMERSALES_INTROVIEW_TITLE_THIRD = b'#event:summerSales/introView/title/third'
+    SUMMERSALES_INTROVIEW_DESCRIPTION_THIRD = b'#event:summerSales/introView/description/third'
+    SUMMERSALES_INTROVIEW_CLOSEBUTTON = b'#event:summerSales/introView/closeButton'
+    SUMMERSALES_INTROVIEW_CLOSEBUTTONTEXT = b'#event:summerSales/introView/closeButtonText'
+    SUMMERSALES_INTROVIEW_GOTOFEATUREBUTTON = b'#event:summerSales/introView/goToFeatureButton'
+    SUMMERSALES_MAINVIEW_TITLE = b'#event:summerSales/mainView/title'
+    SUMMERSALES_MAINVIEW_RANGE = b'#event:summerSales/mainView/range'
+    SUMMERSALES_MAINVIEW_BACKBTN = b'#event:summerSales/mainView/backBtn'
+    SUMMERSALES_MAINVIEW_BACKBTNLABEL = b'#event:summerSales/mainView/backBtnLabel'
+    SUMMERSALES_MAINVIEW_CATALOG_MAINTITLE = b'#event:summerSales/mainView/catalog/mainTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_FIRSTTITLE = b'#event:summerSales/mainView/catalog/firstTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_FIRSTSUBTITLE = b'#event:summerSales/mainView/catalog/firstSubTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_SECONTTITLE = b'#event:summerSales/mainView/catalog/secontTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_SECONDSUBTITLE = b'#event:summerSales/mainView/catalog/secondSubTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_REWARDTITLE = b'#event:summerSales/mainView/catalog/rewardTitle'
+    SUMMERSALES_MAINVIEW_CATALOG_PRICEBUMBLEBEE = b'#event:summerSales/mainView/catalog/priceBumblebee'
+    SUMMERSALES_MAINVIEW_CATALOG_PRICEHONEY = b'#event:summerSales/mainView/catalog/priceHoney'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_ADDMORE = b'#event:summerSales/mainView/catalog/button/addMore'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_BUY = b'#event:summerSales/mainView/catalog/button/buy'
+    SUMMERSALES_MAINVIEW_CATALOG_VEHICLESTATUS_WASSOLD = b'#event:summerSales/mainView/catalog/vehicleStatus/wasSold'
+    SUMMERSALES_MAINVIEW_CATALOG_VEHICLESTATUS_ININVENTORY = b'#event:summerSales/mainView/catalog/vehicleStatus/inInventory'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_HEADER_BUMBLEBEE = b'#event:summerSales/mainView/catalog/button/tooltip/header/bumblebee'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_BODY_BUMBLEBEE = b'#event:summerSales/mainView/catalog/button/tooltip/body/bumblebee'
+    SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_HEADER_BUMBLEBEE = b'#event:summerSales/mainView/catalog/tooltip/header/bumblebee'
+    SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_BODY_BUMBLEBEE = b'#event:summerSales/mainView/catalog/tooltip/body/bumblebee'
+    SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_HEADER_HONEY = b'#event:summerSales/mainView/catalog/tooltip/header/honey'
+    SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_BODY_HONEY = b'#event:summerSales/mainView/catalog/tooltip/body/honey'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_CHANGE = b'#event:summerSales/mainView/catalog/button/change'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_HEADER_DISABLED = b'#event:summerSales/mainView/catalog/button/tooltip/header/disabled'
+    SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_BODY_DISABLED = b'#event:summerSales/mainView/catalog/button/tooltip/body/disabled'
+    SUMMERSALES_MAINVIEW_CATALOG_ALERT = b'#event:summerSales/mainView/catalog/alert'
+    SUMMERSALES_MAINVIEW_CATALOG_TOPREVIEW = b'#event:summerSales/mainView/catalog/toPreview'
+    SUMMERSALES_MAINVIEW_CATALOG_TOHANGAR = b'#event:summerSales/mainView/catalog/toHangar'
+    SUMMERSALES_MAINVIEW_WIDGET_BUTTON_QUESTS = b'#event:summerSales/mainView/widget/button/quests'
+    SUMMERSALES_MAINVIEW_WIDGET_BUTTON_SHOP = b'#event:summerSales/mainView/widget/button/shop'
+    SUMMERSALES_MAINVIEW_WIDGET_TEXT_QUESTS = b'#event:summerSales/mainView/widget/text/quests'
+    SUMMERSALES_MAINVIEW_WIDGET_TEXT_SHOP = b'#event:summerSales/mainView/widget/text/shop'
+    SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_TITLE_QUESTS = b'#event:summerSales/mainView/widget/tooltip/title/quests'
+    SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_DESCRIPTION_QUESTS = b'#event:summerSales/mainView/widget/tooltip/description/quests'
+    SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_TITLE_SHOP = b'#event:summerSales/mainView/widget/tooltip/title/shop'
+    SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_DESCRIPTION_SHOP = b'#event:summerSales/mainView/widget/tooltip/description/shop'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_CREDITS = b'#event:summerSales/tooltip/possibleRewards/title/credits'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_CREDITS = b'#event:summerSales/tooltip/possibleRewards/description/credits'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_BUMBLEBEECOIN = b'#event:summerSales/tooltip/possibleRewards/title/bumblebeeCoin'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_BUMBLEBEECOIN = b'#event:summerSales/tooltip/possibleRewards/description/bumblebeeCoin'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_HONEYCOIN = b'#event:summerSales/tooltip/possibleRewards/title/honeyCoin'
+    SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_HONEYCOIN = b'#event:summerSales/tooltip/possibleRewards/description/honeyCoin'
+    SUMMERSALES_TOOLTIP_RANDOMVEHICLE_TITLE = b'#event:summerSales/tooltip/randomVehicle/title'
+    SUMMERSALES_TOOLTIP_RANDOMVEHICLE_DESCRIPTION = b'#event:summerSales/tooltip/randomVehicle/description'
+    SUMMERSALES_MAINVIEW_CATALOG_RANDOMVEHICLE_LABEL = b'#event:summerSales/mainView/catalog/randomVehicle/label'
+    SUMMERSALES_MARKETSCALES_TOOLTIP_HEADER_HONEY = b'#event:summerSales/marketScales/tooltip/header/honey'
+    SUMMERSALES_MARKETSCALES_TOOLTIP_BODY_HONEY = b'#event:summerSales/marketScales/tooltip/body/honey'
+    SUMMERSALES_MARKETSCALES_BUTTON_DEFAULT = b'#event:summerSales/marketScales/button/default'
+    SUMMERSALES_MARKETSCALES_BUTTON_BACK = b'#event:summerSales/marketScales/button/back'
+    SUMMERSALES_MARKETSCALES_BUTTON_JUSTSHOWME = b'#event:summerSales/marketScales/button/justShowMe'
+    SUMMERSALES_CONFIRM_TITLE_PLACEHOLDER = b'#event:summerSales/confirm/title/placeHolder'
+    SUMMERSALES_CONFIRM_CONTENT_PLACEHOLDER = b'#event:summerSales/confirm/content/placeHolder'
+    SUMMERSALES_CONFIRM_FOOTER_PLACEHOLDER = b'#event:summerSales/confirm/footer/placeHolder'
+    SUBTITLE_WT_INTRO_PHRASE_1 = b'#event:subtitle/wt_intro/phrase_1'
+    SUBTITLE_WT_INTRO_PHRASE_2 = b'#event:subtitle/wt_intro/phrase_2'
+    SUBTITLE_WT_INTRO_PHRASE_3 = b'#event:subtitle/wt_intro/phrase_3'
+    SUBTITLE_WT_INTRO_PHRASE_4 = b'#event:subtitle/wt_intro/phrase_4'
+    SUBTITLE_WT_INTRO_PHRASE_5 = b'#event:subtitle/wt_intro/phrase_5'
+    SUBTITLE_WT_INTRO_PHRASE_6 = b'#event:subtitle/wt_intro/phrase_6'
+    SUBTITLE_WT_INTRO_PHRASE_7 = b'#event:subtitle/wt_intro/phrase_7'
+    SUBTITLE_WT_OUTRO_PHRASE_1 = b'#event:subtitle/wt_outro/phrase_1'
+    SUBTITLE_WT_OUTRO_PHRASE_2 = b'#event:subtitle/wt_outro/phrase_2'
+    SUBTITLE_WT_OUTRO_PHRASE_3 = b'#event:subtitle/wt_outro/phrase_3'
+    SUBTITLE_WT_OUTRO_PHRASE_4 = b'#event:subtitle/wt_outro/phrase_4'
+    SUBTITLE_WT_OUTRO_PHRASE_5 = b'#event:subtitle/wt_outro/phrase_5'
+    ALL_ENUM = (
+     HUNTERRESPAWN_TIMERTEXT,
+     HUNTERRESPAWN_HINTTEXT,
+     MINIMAP_RESPAWNENTRY_HINTTEXT,
+     PLAYERSPANEL_CAMPLABEL,
+     PLAYERSPANEL_BOMBLABEL,
+     PLAYERSPANEL_BOTNAME,
+     WTEVENTSCAROUSELVIEW_INBATTLETEXT,
+     WTEVENTSCAROUSELVIEW_INPLATOONTEXT,
+     WTEVENTSCAROUSELVIEW_UNSUITABLETEXT,
+     WTEVENTSCAROUSELVIEW_TICKETNEEDEDTEXT,
+     WTEVENTSCAROUSELVIEW_NOBATTLESLEFT,
+     WTEVENTSCAROUSELVIEW_SPECIALBATTLESLEFT,
+     BATTLEQUEUE_WIDGET_BTNLABEL,
+     BATTLEQUEUE_WIDGET_CALCULATEDTEXT,
+     BATTLEQUEUE_WIDGET_CHANGETITLE,
+     BATTLEQUEUE_WIDGET_OFFERHUNTERTITLE,
+     BATTLEQUEUE_WIDGET_TICKETTEXT,
+     BATTLEQUEUE_WIDGET_BONUS,
+     BATTLEQUEUE_WIDGET_BONUSDESCR,
+     PUNISHMENTWINDOW_REASON_EVENT_DESERTER,
+     PUNISHMENTWINDOW_REASON_EVENT_AFK,
+     BATTLEHINTS_TESTMESSAGE,
+     BATTLEHINTS_TESTMESSAGEWITHPARAMS,
+     CRAFTMACHINE_TITLE,
+     CRAFTMACHINE_SUBTITLE,
+     CRAFTMACHINE_ENDDATETEXT,
+     SHOPSALES_ENDDATETEXT,
+     SHOPSALES_EVENTSTARTFORMAT,
+     SHOPSALES_EVENTFINISHFORMAT,
+     SHOPSALES_TITLE,
+     UNIVERSALFLAG_UNAVALIBLEHEADER,
+     UNIVERSALFLAG_UNAVALIBLETEXT,
+     UNIVERSALFLAG_TIMERFORMAT,
+     SUMMERSALES_TITLE,
+     SUMMERSALES_SUBTITLE,
+     SUMMERSALES_EVENTFINISHFORMAT,
+     SUMMERSALES_LESSTHANMINUTE,
+     SUMMERSALES_ENDDATETEXT,
+     SUMMERSALES_REWARD_TITLEGENERAL,
+     SUMMERSALES_REWARD_TITLEHONEY,
+     SUMMERSALES_REWARD_FOOTER_PREVIEWBUTTONTEXT,
+     SUMMERSALES_REWARD_FOOTER_BUTTONTEXT,
+     SUMMERSALES_REWARD_HEADER_CLOSEBUTTONTEXT,
+     SUMMERSALES_INTROVIEW_HEADER_TITLE,
+     SUMMERSALES_INTROVIEW_TITLE_FIRST,
+     SUMMERSALES_INTROVIEW_DESCRIPTION_FIRST,
+     SUMMERSALES_INTROVIEW_TITLE_SECOND,
+     SUMMERSALES_INTROVIEW_DESCRIPTION_SECOND,
+     SUMMERSALES_INTROVIEW_TITLE_THIRD,
+     SUMMERSALES_INTROVIEW_DESCRIPTION_THIRD,
+     SUMMERSALES_INTROVIEW_CLOSEBUTTON,
+     SUMMERSALES_INTROVIEW_CLOSEBUTTONTEXT,
+     SUMMERSALES_INTROVIEW_GOTOFEATUREBUTTON,
+     SUMMERSALES_MAINVIEW_TITLE,
+     SUMMERSALES_MAINVIEW_RANGE,
+     SUMMERSALES_MAINVIEW_BACKBTN,
+     SUMMERSALES_MAINVIEW_BACKBTNLABEL,
+     SUMMERSALES_MAINVIEW_CATALOG_MAINTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_FIRSTTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_FIRSTSUBTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_SECONTTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_SECONDSUBTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_REWARDTITLE,
+     SUMMERSALES_MAINVIEW_CATALOG_PRICEBUMBLEBEE,
+     SUMMERSALES_MAINVIEW_CATALOG_PRICEHONEY,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_ADDMORE,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_BUY,
+     SUMMERSALES_MAINVIEW_CATALOG_VEHICLESTATUS_WASSOLD,
+     SUMMERSALES_MAINVIEW_CATALOG_VEHICLESTATUS_ININVENTORY,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_HEADER_BUMBLEBEE,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_BODY_BUMBLEBEE,
+     SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_HEADER_BUMBLEBEE,
+     SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_BODY_BUMBLEBEE,
+     SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_HEADER_HONEY,
+     SUMMERSALES_MAINVIEW_CATALOG_TOOLTIP_BODY_HONEY,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_CHANGE,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_HEADER_DISABLED,
+     SUMMERSALES_MAINVIEW_CATALOG_BUTTON_TOOLTIP_BODY_DISABLED,
+     SUMMERSALES_MAINVIEW_CATALOG_ALERT,
+     SUMMERSALES_MAINVIEW_CATALOG_TOPREVIEW,
+     SUMMERSALES_MAINVIEW_CATALOG_TOHANGAR,
+     SUMMERSALES_MAINVIEW_WIDGET_BUTTON_QUESTS,
+     SUMMERSALES_MAINVIEW_WIDGET_BUTTON_SHOP,
+     SUMMERSALES_MAINVIEW_WIDGET_TEXT_QUESTS,
+     SUMMERSALES_MAINVIEW_WIDGET_TEXT_SHOP,
+     SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_TITLE_QUESTS,
+     SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_DESCRIPTION_QUESTS,
+     SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_TITLE_SHOP,
+     SUMMERSALES_MAINVIEW_WIDGET_TOOLTIP_DESCRIPTION_SHOP,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_CREDITS,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_CREDITS,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_BUMBLEBEECOIN,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_BUMBLEBEECOIN,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_TITLE_HONEYCOIN,
+     SUMMERSALES_TOOLTIP_POSSIBLEREWARDS_DESCRIPTION_HONEYCOIN,
+     SUMMERSALES_TOOLTIP_RANDOMVEHICLE_TITLE,
+     SUMMERSALES_TOOLTIP_RANDOMVEHICLE_DESCRIPTION,
+     SUMMERSALES_MAINVIEW_CATALOG_RANDOMVEHICLE_LABEL,
+     SUMMERSALES_MARKETSCALES_TOOLTIP_HEADER_HONEY,
+     SUMMERSALES_MARKETSCALES_TOOLTIP_BODY_HONEY,
+     SUMMERSALES_MARKETSCALES_BUTTON_DEFAULT,
+     SUMMERSALES_MARKETSCALES_BUTTON_BACK,
+     SUMMERSALES_MARKETSCALES_BUTTON_JUSTSHOWME,
+     SUMMERSALES_CONFIRM_TITLE_PLACEHOLDER,
+     SUMMERSALES_CONFIRM_CONTENT_PLACEHOLDER,
+     SUMMERSALES_CONFIRM_FOOTER_PLACEHOLDER,
+     SUBTITLE_WT_INTRO_PHRASE_1,
+     SUBTITLE_WT_INTRO_PHRASE_2,
+     SUBTITLE_WT_INTRO_PHRASE_3,
+     SUBTITLE_WT_INTRO_PHRASE_4,
+     SUBTITLE_WT_INTRO_PHRASE_5,
+     SUBTITLE_WT_INTRO_PHRASE_6,
+     SUBTITLE_WT_INTRO_PHRASE_7,
+     SUBTITLE_WT_OUTRO_PHRASE_1,
+     SUBTITLE_WT_OUTRO_PHRASE_2,
+     SUBTITLE_WT_OUTRO_PHRASE_3,
+     SUBTITLE_WT_OUTRO_PHRASE_4,
+     SUBTITLE_WT_OUTRO_PHRASE_5)
+
+    @classmethod
+    def all(cls, key0):
+        outcome = (b'#event:{}').format(key0)
+        if outcome not in cls.ALL_ENUM:
+            LOG_WARNING((b'Localization key "{}" not found').format(outcome))
+            return None
+        else:
+            return outcome

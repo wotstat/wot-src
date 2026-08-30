@@ -1,0 +1,27 @@
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.views.lobby.postbattle.currency_model import CurrencyModel
+
+class PremiumBonusesModel(ViewModel):
+    __slots__ = (b'onBuyPremium',)
+
+    def __init__(self, properties=1, commands=1):
+        super(PremiumBonusesModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getCurrencies(self):
+        return self._getArray(0)
+
+    def setCurrencies(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getCurrenciesType():
+        return CurrencyModel
+
+    def _initialize(self):
+        super(PremiumBonusesModel, self)._initialize()
+        self._addArrayProperty(b'currencies', Array())
+        self.onBuyPremium = self._addCommand(b'onBuyPremium')
+        return

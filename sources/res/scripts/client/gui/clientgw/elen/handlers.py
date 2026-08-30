@@ -1,0 +1,47 @@
+from gui.clientgw.base.handlers import RequestHandlers
+from gui.clientgw.settings import WebRequestDataType
+
+class ElenRequestHandlers(RequestHandlers):
+
+    def get(self):
+        handlers = {(WebRequestDataType.EVENT_BOARDS_GET_EVENTS_DATA): (self.__getEventsData), 
+           (WebRequestDataType.EVENT_BOARDS_GET_PLAYER_DATA): (self.__getPlayerData), 
+           (WebRequestDataType.EVENT_BOARDS_JOIN_EVENT): (self.__joinEvent), 
+           (WebRequestDataType.EVENT_BOARDS_LEAVE_EVENT): (self.__leaveEvent), 
+           (WebRequestDataType.EVENT_BOARDS_GET_MY_EVENT_TOP): (self.__getMyEventTop), 
+           (WebRequestDataType.EVENT_BOARDS_GET_MY_LEADERBOARD_POSITION): (self.__getMyLeaderboardPosition), 
+           (WebRequestDataType.EVENT_BOARDS_GET_LEADERBOARD): (self.__getLeaderboard), 
+           (WebRequestDataType.EVENT_BOARDS_GET_HANGAR_FLAG): (self.__getHangarFlag)}
+        return handlers
+
+    def __getEventsData(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_events_data'))
+        return
+
+    def __getPlayerData(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_player_data'))
+        return
+
+    def __joinEvent(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'join_event'), ctx.getEventID())
+        return
+
+    def __leaveEvent(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'leave_event'), ctx.getEventID())
+        return
+
+    def __getMyEventTop(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_my_event_top'), ctx.getEventID())
+        return
+
+    def __getMyLeaderboardPosition(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_my_leaderboard_position'), ctx.getEventID(), ctx.getLeaderboardID())
+        return
+
+    def __getLeaderboard(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_leaderboard'), ctx.getEventID(), ctx.getPageNumber(), ctx.getLeaderboardID())
+        return
+
+    def __getHangarFlag(self, ctx, callback):
+        self._requester.doRequestEx(ctx, callback, (b'wgelen', b'get_hangar_flag'))
+        return

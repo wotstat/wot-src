@@ -1,0 +1,111 @@
+import logging
+from functools import partial
+import typing, AccountCommands
+from account_helpers.paragons_storage import ParagonsStorage
+from gui.shared.utils.requesters import REQ_CRITERIA
+from gui.shared.utils.requesters.ItemsRequester import RESEARCH_CRITERIA
+from items import vehicles
+from helpers import dependency
+from skeletons.gui.shared import IItemsCache
+from paragons_common import ErrorReasons, BaseParagons, PARAGONS_MAX_VEHICLE_LEVEL
+if typing.TYPE_CHECKING:
+    from typing import Dict, Set, Callable, Optional
+    from Account import _ClientCommandProxy
+    from paragons_common import BaseParagonsBranchState
+    T_COMMAND_CALLBACK = Callable[[int, int, str], None]
+_logger = logging.getLogger()
+
+class Paragons(BaseParagons):
+    __itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, commandProxy):
+        super(Paragons, self).__init__(ParagonsStorage())
+        self.__commandProxy = commandProxy
+        self.onParagonsStateChanged = self.storage.onParagonsStateChanged
+        self.onLevelIncreased = self.storage.onLevelIncreased
+        self.onParagonsUnlocksGranted = self.storage.onParagonsUnlocksGranted
+        return
+
+    @property
+    def resetBranchesIds(self):
+        return self.storage.resetBranchesIds
+
+    @property
+    def resetBranchesCount(self):
+        return self.storage.resetBranchesCount
+
+    def clear(self):
+        self.__commandProxy = None
+        self.destroy()
+        return
+
+    def synchronize(self, isFullSync, diff):
+        self.storage.synchronize(isFullSync, diff)
+        return
+
+    def isVehicleReset(self, compDescr):
+        resetBranchIds = vehicles.g_cache.paragonsBranchesToReset.getResetBranchIdsByVehicleCd(compDescr)
+        return any(self.storage.branchPendingVehicles(resetBranchId) and compDescr in self.storage.branchPendingVehicles(resetBranchId) and self.storage.getBranchStateById(resetBranchId).resetsCount for resetBranchId in resetBranchIds)
+
+    def isVehicleWasReset(self, compDescr):
+        return any(self.storage.isBranchStateExists(branchID) for branchID in vehicles.g_cache.paragonsBranchesToReset.getResetBranchIdsByVehicleCd(compDescr))
+
+    def getBranchStateById(self, branchID):
+        resetBranch = vehicles.g_cache.paragonsBranchesToReset.getResetBranchById(branchID)
+        if not resetBranch:
+            return None
+        else:
+            return self.storage.getBranchStateById(branchID)
+
+    def resetBranch(self, branchID, isStock=0, callback=None):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_RESET_BRANCH, branchID, isStock, callback)
+        return
+
+    def setChapter(self, chapterID, callback=None):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_SELECT_CHAPTER, chapterID, callback)
+        return
+
+    def markSelectedRewards(self, chapterID, levelID, entCode, bonusCD, callback=None):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_MARK_SELECTED_REWARDS, chapterID, levelID, entCode, bonusCD, callback)
+        return
+
+    def getUnlockedNecessaryLevelVehiclesCDs(self):
+        criteria = RESEARCH_CRITERIA.UNLOCKED_VEHICLES
+        criteria |= REQ_CRITERIA.VEHICLE.LEVEL(PARAGONS_MAX_VEHICLE_LEVEL)
+        getResetBranchIdsByVehicleCd = vehicles.g_cache.paragonsBranchesToReset.getResetBranchIdsByVehicleCd
+        criteria |= REQ_CRITERIA.CUSTOM((lambda item: bool(getResetBranchIdsByVehicleCd(item.intCD))))
+        eliteVehiclesCDs = set(self.__itemsCache.items.getVehicles(criteria))
+        return eliteVehiclesCDs
+
+    def setResetBranchState(self, branchID, resetsCount=1):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_SET_RESET_BRANCH_STATE, branchID, resetsCount, partial(self.__onDevCommandExecuted, b'setResetBranchState', {b'branchID': branchID, b'resetsCount': resetsCount}))
+        return
+
+    def clearResetBranchState(self, branchID):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_CLEAR_RESET_BRANCH_STATE, branchID, partial(self.__onDevCommandExecuted, b'clearResetBranchState', {b'branchID': branchID}))
+        return
+
+    def grantParagonsUnlock(self, paragonsUnlockID):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_GRANT_PARAGONS_UNLOCK, paragonsUnlockID, partial(self.__onDevCommandExecuted, b'grantParagonsUnlock', {b'paragonsUnlockID': paragonsUnlockID}))
+        return
+
+    def consumeParagonsUnlock(self, paragonsUnlockID):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_CONSUME_PARAGONS_UNLOCK, paragonsUnlockID, partial(self.__onDevCommandExecuted, b'consumeParagonsUnlock', {b'paragonsUnlockID': paragonsUnlockID}))
+        return
+
+    def grantParagonsCoins(self, coinsCount):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_GRANT_PARAGONS_COINS, coinsCount, partial(self.__onDevCommandExecuted, b'grantParagonsCoins', {b'coinsCount': coinsCount}))
+        return
+
+    def clearResetVehicles(self, branchID):
+        self.__commandProxy.perform(AccountCommands.CMD_PARAGONS_CLEAR_RESET_VEHICLES, branchID, (lambda *_: None))
+        return
+
+    def __onDevCommandExecuted(self, commandName, callArgs, _, resultID, reason):
+        if resultID == AccountCommands.RES_SUCCESS:
+            return
+        if resultID == AccountCommands.RES_FAILURE and reason in ErrorReasons.all():
+            _logger.error(b'[Paragons]: %s failed: callArgs = %s, reason = %s', commandName, callArgs, reason)
+        else:
+            _logger.error(b'[Paragons]: %s command unexpected result: resultID = %s, reason = %s', commandName, resultID, reason)
+        return

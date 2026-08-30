@@ -1,0 +1,32 @@
+import enum
+ENEMY_VEHICLE_ID = -1
+INVALID_TIMESTAMP = -1
+POI_EQUIPMENT_TAG = b'poiEquipment'
+
+@enum.unique
+class PoiType(enum.IntEnum):
+    ARTILLERY = 1
+    RECON = 2
+    SMOKE = 3
+    MINEFIELD = 4
+
+
+@enum.unique
+class PoiStatus(enum.IntEnum):
+    ACTIVE = 1
+    CAPTURING = 2
+    COOLDOWN = 3
+
+
+@enum.unique
+class PoiBlockReasons(enum.IntEnum):
+    DAMAGE = 1
+    EQUIPMENT = 2
+    OVERTURNED = 3
+
+
+PoiEquipmentNamesByPoiType = {(PoiType.ARTILLERY): b'poi_artillery_aoe', 
+   (PoiType.RECON): b'poi_radar', 
+   (PoiType.SMOKE): b'poi_smoke', 
+   (PoiType.MINEFIELD): b'poi_minefield'}
+PoiTypesByPoiEquipmentName = {name: poiType for poiType, name in PoiEquipmentNamesByPoiType.iteritems()}

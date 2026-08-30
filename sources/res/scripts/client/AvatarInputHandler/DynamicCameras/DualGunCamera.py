@@ -1,0 +1,22 @@
+import BigWorld
+from BigWorld import DualGunAimingSystem, DualGunAimingSystemRemote
+from AvatarInputHandler.DynamicCameras.SniperCamera import SniperCamera
+
+def getCameraAsSettingsHolder(settingsDataSec):
+    return DualGunCamera(settingsDataSec)
+
+
+class DualGunCamera(SniperCamera):
+
+    def _aimingSystemClass(self):
+        if BigWorld.player().isObserver():
+            return DualGunAimingSystemRemote
+        return DualGunAimingSystem
+
+    def _readCfg(self, dataSec):
+        super(DualGunCamera, self)._readCfg(dataSec)
+        transitionTime = dataSec.readFloat(b'transitionTime', 0.3)
+        DualGunAimingSystem.setTransitionTime(transitionTime)
+        transitionDelay = dataSec.readFloat(b'transitionDelay', 0.0)
+        DualGunAimingSystem.setTransitionDelay(transitionDelay)
+        return

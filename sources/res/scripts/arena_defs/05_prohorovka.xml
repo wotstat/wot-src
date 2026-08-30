@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:05_prohorovka/name</name>
+	<description>#arenas:05_prohorovka/description</description>
+	<geometry>spaces/05_prohorovka</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/05_prohorovka/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<defaultGroundEffect>ground</defaultGroundEffect>
+	<wwmusicSetup>
+		<wwmusicLoading>music_prokhorovka_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_prokhorovka_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_prokhorovka_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_prokhorovka_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_prokhorovka_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_prokhorovka_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_autumn_01</wwambientSound>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<artilleryPreparationChance>0.7</artilleryPreparationChance>
+			<teamBasePositions>
+				<team1>
+					<position1>-125.100235 448.299774</position1>
+				</team1>
+				<team2>
+					<position1>51.5997467 -447</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<artilleryPreparationChance>0.5</artilleryPreparationChance>
+			<teamSpawnPoints>
+				<team1>
+					<position>-123.780487 446.538147</position>
+					<position>27.1664791 450.829651</position>
+				</team1>
+				<team2>
+					<position>-139.92099 -436.843872</position>
+					<position>194.176819 -423.173431</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>171.058044 16.3513527</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-122.311996 425.031006</position>
+				</team1>
+				<team2>
+					<position>48.9129982 -435.869995</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>-163.605865 256.277771</position1>
+					<position2>156.715881 151.554291</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<teamBasePositions>
+				<team1>
+					<position1>-163.605865 256.277771</position1>
+					<position2>156.715881 151.554291</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+			<teamSpawnPoints>
+				<team1>
+					<position>-121.092537 445.202148</position>
+				</team1>
+				<team2>
+					<position>50.2196732 -456.551178</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-295.816864 -6.73156691</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-485.16629 -252.841583</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>-486.045624 234.489029</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>457.536957 -131.20871</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>380.302277 310.115112</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>168.433029 14.6689978</position>
+					<type>3</type>
+				</point>
+			</pointsOfInterestUDO>
+		</comp7>
+		<bootcamp>
+			<wwmusicSetup>
+				<wwmusicLoading>bc_music_loadingscreen</wwmusicLoading>
+				<wwmusicIntensive>bc_music_mission_03</wwmusicIntensive>
+				<wwmusicRelaxed>bc_music_mission_03</wwmusicRelaxed>
+				<wwmusicStop>music_dron_stop</wwmusicStop>
+				<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+				<wwmusicResultWin>music_prokhorovka_result_win</wwmusicResultWin>
+				<wwmusicResultDrawn>music_prokhorovka_result_drawn</wwmusicResultDrawn>
+				<wwmusicResultDefeat>music_prokhorovka_result_defeat</wwmusicResultDefeat>
+			</wwmusicSetup>
+			<boundingBox>
+				<bottomLeft>-350 -500</bottomLeft>
+				<upperRight>100 500</upperRight>
+			</boundingBox>
+			<teamBasePositions>
+				<team1>
+					<position1>-129.228485 -331.571106</position1>
+				</team1>
+				<team2>
+					<position1>-151.967773 345.846069</position1>
+				</team2>
+			</teamBasePositions>
+			<maxPlayersInTeam>1</maxPlayersInTeam>
+			<runDelay>7</runDelay>
+			<minimap>spaces/05_prohorovka/mmap_bootcamp.dds</minimap>
+			<visualScript>
+				<server>
+					<plan>BootCamp/Lesson_3_arena_05_prohorovka</plan>
+				</server>
+				<client>
+					<plan>BootCamp/Lesson_3_hints_05_prohorovka</plan>
+				</client>
+			</visualScript>
+		</bootcamp>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>-125.100235 448.299774</position1>
+				</team1>
+				<team2>
+					<position1>51.5997467 -447</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+	</gameplayTypes>
+	<mapActivities>
+		<scenario>
+			<startTime>30 30</startTime>
+			<possibility>1</possibility>
+			<interval>450</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>prohorovka_defense_sc1</name>
+			<trajectories>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a5</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc1_a6</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+		<scenario>
+			<startTime>170 170</startTime>
+			<possibility>1</possibility>
+			<interval>450</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>prohorovka_defense_sc2</name>
+			<trajectories>
+				<warplane>
+					<preset>prohorovka_defense_sc2_a1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc2_a2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc2_a3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc2_a4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+		<scenario>
+			<startTime>290 290</startTime>
+			<possibility>1</possibility>
+			<interval>450</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>prohorovka_defense_sc3</name>
+			<trajectories>
+				<warplane>
+					<preset>prohorovka_defense_sc3_a1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc3_a2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc3_a3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc3_a4</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+		<scenario>
+			<startTime>410 410</startTime>
+			<possibility>1</possibility>
+			<interval>450</interval>
+			<arenaPeriod>3</arenaPeriod>
+			<name>prohorovka_defense_sc4</name>
+			<trajectories>
+				<warplane>
+					<preset>prohorovka_defense_sc4_a1</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>0 0</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc4_a2</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>6 6</startTime>
+				</warplane>
+				<warplane>
+					<preset>prohorovka_defense_sc4_a3</preset>
+					<position>0 0 0</position>
+					<yaw>0</yaw>
+					<possibility>1</possibility>
+					<startTime>6 6</startTime>
+				</warplane>
+			</trajectories>
+		</scenario>
+	</mapActivities>
+</root>

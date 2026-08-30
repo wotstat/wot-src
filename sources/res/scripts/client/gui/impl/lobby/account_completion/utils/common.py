@@ -1,0 +1,66 @@
+import typing
+from enum import Enum
+from constants import EMAIL_CONFIRMATION_QUEST_ID
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
+from gui.impl.gen import R
+from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
+from gui.shared.missions.packers.bonus import packMissionsBonusModelAndTooltipData, getDefaultBonusPacker
+from gui.shared.money import Currency
+from helpers import dependency
+from skeletons.gui.server_events import IEventsCache
+if typing.TYPE_CHECKING:
+    from gui.impl.gen.view_models.views.lobby.account_completion.add_credentials_model import AddCredentialsModel
+    from gui.impl.gen.view_models.views.lobby.account_completion.common.base_wgnp_overlay_view_model import BaseWgnpOverlayViewModel
+    from gui.impl.backport import TooltipData
+    from typing import Dict
+_BONUSES_ORDER = (
+ b'vehicles', b'premium', Currency.CRYSTAL, Currency.GOLD, b'freeXP', b'freeXPFactor',
+ Currency.CREDITS, b'creditsFactor', b'tankmen', b'items', b'slots', b'berths', b'dossier',
+ b'customizations', b'tokens', b'goodies', Currency.EVENT_COIN)
+RESTRICTED_REQUEST_MIN_TIME = 5
+DISABLE_BUTTON_TIME = 90
+SUPPORT_URL = b'accountCompletionSupportURL'
+
+class AccountCompletionType(str, Enum):
+    UNDEFINED = b'undefined'
+    SOI = b'soi'
+    DOI = b'doi'
+
+
+def _keyBonusesOrder(bonus):
+    if bonus.getName() in _BONUSES_ORDER:
+        return _BONUSES_ORDER.index(bonus.getName())
+    return len(_BONUSES_ORDER)
+
+
+def getBonuses():
+    eventsCache = dependency.instance(IEventsCache)
+    quest = eventsCache.getHiddenQuests().get(EMAIL_CONFIRMATION_QUEST_ID)
+    if quest is not None:
+        return quest.getBonuses()
+    else:
+        return []
+
+
+def fillRewards(model, bonuses=None, tooltipItems=None):
+    bonuses = bonuses or getBonuses()
+    bonuses.sort(key=_keyBonusesOrder)
+    bonusesListModel = model.getBonuses()
+    bonusesListModel.clear()
+    packMissionsBonusModelAndTooltipData(bonuses=bonuses, packer=getDefaultBonusPacker(), model=bonusesListModel, tooltipData=tooltipItems)
+    bonusesListModel.invalidate()
+    return
+
+
+def showAccountAlreadyHasEmail(viewModel):
+    with viewModel.transaction() as model:
+        model.setIsTitleOnly(True)
+        model.setTitle(R.strings.dialogs.accountCompletion.emailOverlay.alreadyConfirmed.title())
+        model.setSubTitle(R.strings.dialogs.accountCompletion.emailOverlay.alreadyConfirmed.subTitle())
+    return
+
+
+def openMenu():
+    g_eventBus.handleEvent(events.LoadViewEvent(SFViewLoadParams(VIEW_ALIAS.LOBBY_MENU)), scope=EVENT_BUS_SCOPE.LOBBY)
+    return

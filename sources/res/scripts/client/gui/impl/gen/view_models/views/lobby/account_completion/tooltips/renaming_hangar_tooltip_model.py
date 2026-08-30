@@ -1,0 +1,37 @@
+from gui.impl.gen import R
+from frameworks.wulf import ViewModel
+
+class RenamingHangarTooltipModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(RenamingHangarTooltipModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getTitle(self):
+        return self._getResource(0)
+
+    def setTitle(self, value):
+        self._setResource(0, value)
+        return
+
+    def getText(self):
+        return self._getResource(1)
+
+    def setText(self, value):
+        self._setResource(1, value)
+        return
+
+    def getTextInner(self):
+        return self._getResource(2)
+
+    def setTextInner(self, value):
+        self._setResource(2, value)
+        return
+
+    def _initialize(self):
+        super(RenamingHangarTooltipModel, self)._initialize()
+        self._addResourceProperty(b'title', R.invalid())
+        self._addResourceProperty(b'text', R.invalid())
+        self._addResourceProperty(b'textInner', R.invalid())
+        return

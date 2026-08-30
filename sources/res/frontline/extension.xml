@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>FrontLine</FeatureName>
+	<Components>
+		<StaticComponents>
+			<ArenaFrontLineComponent></ArenaFrontLineComponent>
+		</StaticComponents>
+		<DynamicComponents>
+			<ArenaFLMinefieldComponent></ArenaFLMinefieldComponent>
+			<VehicleFLRegenerationKitComponent></VehicleFLRegenerationKitComponent>
+			<StealthRadarComponent></StealthRadarComponent>
+			<ArenaFLBattleModifiersComponent></ArenaFLBattleModifiersComponent>
+			<VehicleFrontlineComponent></VehicleFrontlineComponent>
+			<AvatarFrontlineComponent></AvatarFrontlineComponent>
+			<FrontlineSectorsProgression></FrontlineSectorsProgression>
+			<SupplyResurrectComponent></SupplyResurrectComponent>
+		</DynamicComponents>
+	</Components>
+	<IsEnabled>True</IsEnabled>
+	<Personality>frontline_personality</Personality>
+	<Entities>
+		<ClientServerEntities>
+			<FLBasicMine></FLBasicMine>
+		</ClientServerEntities>
+	</Entities>
+	<cgf>
+		<script>
+			<module>client.fl_cgf.cgf_mechanics</module>
+		</script>
+	</cgf>
+</root>

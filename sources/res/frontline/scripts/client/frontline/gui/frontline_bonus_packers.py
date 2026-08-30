@@ -1,0 +1,213 @@
+import typing
+from epic_constants import FRONTLINE_BONUSES_ORDER, EPIC_SKILL_TOKEN_NAME, EPIC_SELECT_BONUS_NAME, EPIC_ARMORY_YARD_TOKEN_NAME
+from frontline.gui.bonus import FrontlineSkillBonus
+from frontline.gui.impl.gen.view_models.views.lobby.views.frontline_reward_model import FrontlineRewardModel, ClaimState
+from gui.impl.backport import createTooltipData, TooltipData
+from gui.shared.missions.packers.bonus import getDefaultBonusPackersMap, SimpleBonusUIPacker, BonusUIPacker, GoodiesBonusUIPacker, CrewBookBonusUIPacker, BattlePassPointsBonusPacker
+from gui.shared.money import Currency
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.shared.missions.packers.bonus import TokenBonusUIPacker
+from gui.shared.utils.functions import makeTooltip
+if typing.TYPE_CHECKING:
+    from gui.server_events.bonuses import SimpleBonus, EpicSelectTokensBonus, GoodiesBonus
+
+def getFrontlineBonusPacker():
+    mapping = getDefaultBonusPackersMap()
+    mapping.update({b'battlePassPoints': (FrontlineBattlePassPointsBonusPacker()), 
+       EPIC_SELECT_BONUS_NAME: (FrontlineTokenBonusPacker()), 
+       b'goodies': (FrontlineGoodiesBonusPacker()), 
+       b'crewBooks': (FrontlineCrewBookBonusPacker()), 
+       (Currency.CRYSTAL): (FrontlineCrystalBonusPacker()), 
+       EPIC_SKILL_TOKEN_NAME: (FrontlineAbilityTokenPacker()), 
+       b'battleToken': (FrontlineArmoryYardTokenBonusUIPacker())})
+    return BonusUIPacker(mapping)
+
+
+def _keySortOrder(bonus):
+    name = bonus.getName()
+    if name in FRONTLINE_BONUSES_ORDER:
+        return FRONTLINE_BONUSES_ORDER.index(name)
+    return len(FRONTLINE_BONUSES_ORDER)
+
+
+def packBonusModelAndTooltipData(bonuses, listVM, tooltipData=None):
+    packer = getFrontlineBonusPacker()
+    listVM.clear()
+    bonuses.sort(key=_keySortOrder)
+    bonusIndexTotal = len(tooltipData) if tooltipData is not None else 0
+    for bonus in bonuses:
+        if bonus.isShowInGUI():
+            rewardsVM = packer.pack(bonus)
+            rewardsTooltips = packer.getToolTip(bonus)
+            rewardsContentIds = packer.getContentId(bonus)
+            for idx, rewardModel in enumerate(rewardsVM):
+                rewardTooltipData = rewardsTooltips[idx]
+                tooltipIdx = str(bonusIndexTotal)
+                rewardModel.setTooltipId(tooltipIdx)
+                rewardModel.setTooltipContentId(str(rewardsContentIds[idx]))
+                if tooltipData is not None:
+                    tooltipData[tooltipIdx] = rewardTooltipData
+                    bonusIndexTotal += 1
+                listVM.addViewModel(rewardModel)
+
+    listVM.invalidate()
+    return
+
+
+class FrontlineCrystalBonusPacker(SimpleBonusUIPacker):
+
+    @classmethod
+    def _getBonusModel(cls):
+        return FrontlineRewardModel()
+
+    @classmethod
+    def _packSingleBonus(cls, bonus, *args):
+        model = FrontlineRewardModel()
+        cls._packCommon(bonus, model)
+        model.setIcon(bonus.getName())
+        model.setValue(str(bonus.getValue()))
+        model.setClaimState(ClaimState.STATIC)
+        return model
+
+    @classmethod
+    def getToolTip(cls, bonus):
+        return cls._getToolTip(bonus)
+
+    @classmethod
+    def _getToolTip(cls, bonus):
+        return [
+         createTooltipData(bonus.getTooltip())]
+
+
+class FrontlineTokenBonusPacker(SimpleBonusUIPacker):
+
+    @classmethod
+    def _getBonusModel(cls):
+        return FrontlineRewardModel()
+
+    @classmethod
+    def _pack(cls, bonus):
+        return [
+         cls._packSingleBonus(bonus)]
+
+    @classmethod
+    def _packSingleBonus(cls, bonus, **kwargs):
+        model = cls._getBonusModel()
+        bonusType = bonus.getType()
+        model.setName(bonusType)
+        model.setType(bonusType)
+        claimState = ClaimState.CLAIMABLE if bonus.canClaim() else ClaimState.STATIC
+        model.setClaimState(claimState)
+        value = bonus.firstOfferCount()
+        model.setValue(str(value) if value > 1 else b'')
+        return model
+
+    @classmethod
+    def _getToolTip(cls, bonus):
+        return [
+         bonus.getTooltip()]
+
+
+class FrontlineBattlePassPointsBonusPacker(BattlePassPointsBonusPacker):
+
+    @classmethod
+    def _getBonusModel(cls):
+        return FrontlineRewardModel()
+
+    @classmethod
+    def _packSingleBonus(cls, bonus, label):
+        model = super(FrontlineBattlePassPointsBonusPacker, cls)._packSingleBonus(bonus, label)
+        model.setClaimState(ClaimState.STATIC)
+        return model
+
+
+class FrontlineGoodiesBonusPacker(GoodiesBonusUIPacker):
+
+    @classmethod
+    def _packIconBonusModel(cls, bonus, icon, count, label):
+        model = FrontlineRewardModel()
+        cls._packCommon(bonus, model)
+        model.setValue(str(count))
+        model.setIcon(icon)
+        model.setLabel(label)
+        model.setClaimState(ClaimState.STATIC)
+        return model
+
+
+class FrontlineCrewBookBonusPacker(CrewBookBonusUIPacker):
+
+    @classmethod
+    def _getBonusModel(cls):
+        return FrontlineRewardModel()
+
+    @classmethod
+    def _packSingleBonus(cls, bonus, book, count):
+        model = super(FrontlineCrewBookBonusPacker, cls)._packSingleBonus(bonus, book, count)
+        model.setClaimState(ClaimState.STATIC)
+        return model
+
+
+class FrontlineAbilityTokenPacker(SimpleBonusUIPacker):
+
+    @classmethod
+    def _getBonusModel(cls):
+        return FrontlineRewardModel()
+
+    @classmethod
+    def _pack(cls, bonus):
+        return [
+         cls._packSingleBonus(bonus)]
+
+    @classmethod
+    def _packSingleBonus(cls, bonus, *args):
+        model = cls._getBonusModel()
+        cls._packCommon(bonus, model)
+        value = bonus.getValue()
+        model.setValue(str(value) if value > 1 else b'')
+        model.setType(bonus.getName())
+        model.setClaimState(ClaimState.STATIC)
+        return model
+
+
+class FrontlineArmoryYardTokenBonusUIPacker(TokenBonusUIPacker):
+
+    @classmethod
+    def _getTokenBonusType(cls, tokenID, complexToken):
+        if tokenID.startswith(EPIC_ARMORY_YARD_TOKEN_NAME):
+            return EPIC_ARMORY_YARD_TOKEN_NAME
+        return super(FrontlineArmoryYardTokenBonusUIPacker, cls)._getTokenBonusType(tokenID, complexToken)
+
+    @classmethod
+    def _getTooltipsPackers(cls):
+        packers = super(FrontlineArmoryYardTokenBonusUIPacker, cls)._getTooltipsPackers()
+        packers.update({EPIC_ARMORY_YARD_TOKEN_NAME: (cls.__getArmoryYardProgressionTooltip)})
+        return packers
+
+    @classmethod
+    def __getArmoryYardProgressionTooltip(cls, _, token):
+        armoryYardCurrency = R.strings.fl_tooltips.armoryYard.currency
+        featureName = backport.text(armoryYardCurrency.featureName())
+        return createTooltipData(makeTooltip(header=backport.text(armoryYardCurrency.progression_token.title()), body=backport.text(armoryYardCurrency.progression_token.description(), featureName=featureName)))
+
+    @classmethod
+    def _getTokenBonusPackers(cls):
+        packers = super(FrontlineArmoryYardTokenBonusUIPacker, cls)._getTokenBonusPackers()
+        packers.update({EPIC_ARMORY_YARD_TOKEN_NAME: (cls.__packArmoryYardProgressionToken)})
+        return packers
+
+    @classmethod
+    def __packArmoryYardProgressionToken(cls, model, bonus, *_):
+        model.setValue(str(cls.__getValueFromToken(bonus)))
+        image = R.images.frontline.gui.maps.icons.bonuses
+        model.setIconSmall(backport.image(image.armory_yard_s48()))
+        model.setIconBig(backport.image(image.armory_yard_s80()))
+        return model
+
+    @classmethod
+    def __getValueFromToken(cls, bonus):
+        for bonusName, bonusParams in bonus.getValue().iteritems():
+            if bonusName.startswith(EPIC_ARMORY_YARD_TOKEN_NAME):
+                return bonusParams.get(b'count', 0)
+
+        return 0

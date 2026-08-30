@@ -1,0 +1,84 @@
+import typing
+from web.web_client_api import webApiCollection
+from web.web_client_api.battle_pass import BattlePassWebApi
+from web.web_client_api.blueprints_convert_sale import BlueprintsConvertSaleWebApi
+from web.web_client_api.clans import ClansWebApi
+from web.web_client_api.comp7 import Comp7WebApi
+from web.web_client_api.frontline import FrontLineWebApi
+from web.web_client_api.mapbox import MapboxWebApi
+from web.web_client_api.platform import PlatformWebApi
+from web.web_client_api.quests import QuestsWebApi
+from web.web_client_api.ranked_battles import RankedBattlesWebApi
+from web.web_client_api.battle_royale import BattleRoyaleWebApi
+from web.web_client_api.request import RequestWebApi
+from web.web_client_api.rewards import RewardsWebApi
+from web.web_client_api.shop import ShopWebApi
+from web.web_client_api.shop.summersale import SummerSaleWebApi
+from web.web_client_api.social import SocialWebApi
+from web.web_client_api.sound import HangarSoundWebApi, SoundStateWebApi, SoundWebApi
+from web.web_client_api.ui import CloseWindowWebApi, NotificationWebApi, OpenTabWebApi, OpenWindowWebApi, UtilWebApi
+from web.web_client_api.uilogging import UILoggingWebApi
+from web.web_client_api.vehicles import VehiclesWebApi
+from web.web_client_api.wt import WtWebApi
+if typing.TYPE_CHECKING:
+    from typing import Dict, List, Optional
+
+class ExtBrowserWebHandlers(object):
+    REGISTERED_WEB_API = []
+
+    @classmethod
+    def registerHandler(cls, webApi):
+        cls.REGISTERED_WEB_API.append(webApi)
+        return
+
+    @classmethod
+    def unregisterHandler(cls, webApi):
+        cls.REGISTERED_WEB_API.remove(webApi)
+        return
+
+
+_DEFAULT_WEB_API_COLLECTION = (
+ CloseWindowWebApi,
+ OpenWindowWebApi,
+ NotificationWebApi,
+ OpenTabWebApi,
+ RequestWebApi,
+ ShopWebApi,
+ SoundWebApi,
+ SoundStateWebApi,
+ HangarSoundWebApi,
+ UtilWebApi,
+ QuestsWebApi,
+ VehiclesWebApi,
+ RewardsWebApi,
+ SocialWebApi,
+ BlueprintsConvertSaleWebApi,
+ PlatformWebApi,
+ MapboxWebApi,
+ FrontLineWebApi,
+ BattlePassWebApi,
+ ClansWebApi,
+ RankedBattlesWebApi,
+ BattleRoyaleWebApi,
+ UILoggingWebApi,
+ Comp7WebApi,
+ SummerSaleWebApi,
+ WtWebApi)
+
+def createWebHandlers(replaces=None):
+    handlersList = list(_DEFAULT_WEB_API_COLLECTION)
+    handlersList.extend(ExtBrowserWebHandlers.REGISTERED_WEB_API)
+    handlers = webApiCollection(*handlersList)
+    if replaces:
+        replaceHandlers(handlers, replaces)
+    return handlers
+
+
+def replaceHandlers(handlers, nameToApiMap):
+    handlersToReplace = [e for e in handlers if e.name in nameToApiMap.keys()]
+    for element in handlersToReplace:
+        handlers.remove(element)
+
+    newHandlers = webApiCollection(*nameToApiMap.values())
+    handlers.extend(newHandlers)
+    return

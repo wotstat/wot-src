@@ -1,0 +1,91 @@
+import BigWorld
+from gui.Scaleform.daapi.view.common.settings.mixins import LayerVisibilityMixin
+from gui.Scaleform.daapi.view.meta.GammaWizardViewMeta import GammaWizardViewMeta
+from gui.Scaleform.locale.SETTINGS import SETTINGS
+from gui.shared import EVENT_BUS_SCOPE
+from gui.shared.events import GameEvent
+from gui.shared.formatters import text_styles
+from gui.shared.utils.functions import makeTooltip
+from account_helpers.settings_core.settings_logging import logPlayerSettingsBeforeChange, logPlayerSettingsAfterChange
+
+class GammaWizardView(LayerVisibilityMixin, GammaWizardViewMeta):
+    MIN_VALUE = 0
+    MAX_VALUE = 1
+    DEFAULT_VALUE = 0.5
+
+    def __init__(self, ctx=None):
+        super(GammaWizardView, self).__init__(GammaWizardView)
+        x = ctx.get(b'x', 0)
+        y = ctx.get(b'y', 0)
+        size = ctx.get(b'size', 0)
+        self._gammaWizard = BigWorld.PyGammaWizard()
+        self._currentGammaValue = 0
+        self._changeGammaValue = 0
+        self._gammaValueChanged = False
+        self.updateTexture(x, y, size)
+        self._gammaWizard.enable = True
+        self.fireEvent(GameEvent(GameEvent.HIDE_EXTERNAL_COMPONENTS), scope=EVENT_BUS_SCOPE.GLOBAL)
+        return
+
+    def updateTexture(self, x, y, size):
+        self._gammaWizard.offsetSize = (
+         x, y, size, size)
+        return
+
+    def onApply(self):
+        self._gammaValueChanged = self._currentGammaValue != self._changeGammaValue
+        self._currentGammaValue = self._changeGammaValue
+        self.destroy()
+        return
+
+    def onChangeGamma(self, value):
+        self._changeGammaValue = value
+        self._gammaWizard.gamma = value
+        return
+
+    def onReset(self):
+        self._changeGammaValue = self.DEFAULT_VALUE
+        return
+
+    def onClose(self):
+        self._changeGammaValue = self._currentGammaValue
+        self.destroy()
+        return
+
+    def _populate(self):
+        super(GammaWizardView, self)._populate()
+        if self.app is not None:
+            self._savedBackgroundAlpha = self.app.getBackgroundAlpha()
+            self.app.setBackgroundAlpha(0)
+            self.addListener(GameEvent.ON_BACKGROUND_ALPHA_CHANGE, self.__onExternalBackgroundAlphaChange, EVENT_BUS_SCOPE.GLOBAL)
+        self._currentGammaValue = self._changeGammaValue = self._gammaWizard.gamma
+        self.as_initDataS({b'title': (text_styles.superPromoTitle(SETTINGS.GAMMAWIZARD_TITLE)), 
+           b'header': (text_styles.highlightText(SETTINGS.GAMMAWIZARD_HEADER)), 
+           b'description': (text_styles.main(SETTINGS.GAMMAWIZARD_DESCRIPTION)), 
+           b'applyLabel': (SETTINGS.GAMMAWIZARD_APPLY), 
+           b'cancelLabel': (SETTINGS.GAMMAWIZARD_CANCEL), 
+           b'defaultLabel': (SETTINGS.GAMMAWIZARD_DEFAULT), 
+           b'currentValue': (self._currentGammaValue), 
+           b'gammaTooltip': (makeTooltip(SETTINGS.GAMMAWIZARD_TOOLTIP_HEADER, SETTINGS.GAMMAWIZARD_TOOLTIP_BODY)), 
+           b'minValue': (self.MIN_VALUE), 
+           b'maxValue': (self.MAX_VALUE), 
+           b'defaultValue': (self.DEFAULT_VALUE)})
+        logPlayerSettingsBeforeChange()
+        return
+
+    def _dispose(self):
+        self._gammaWizard.gamma = self._changeGammaValue
+        self._gammaWizard.enable = False
+        if self._gammaValueChanged:
+            logPlayerSettingsAfterChange()
+        self.removeListener(GameEvent.ON_BACKGROUND_ALPHA_CHANGE, self.__onExternalBackgroundAlphaChange, EVENT_BUS_SCOPE.GLOBAL)
+        if self.app is not None:
+            self.app.setBackgroundAlpha(self._savedBackgroundAlpha)
+        self.fireEvent(GameEvent(GameEvent.SHOW_EXTERNAL_COMPONENTS), scope=EVENT_BUS_SCOPE.GLOBAL)
+        super(GammaWizardView, self)._dispose()
+        return
+
+    def __onExternalBackgroundAlphaChange(self, event):
+        self._savedBackgroundAlpha = event.ctx[b'alpha']
+        self.app.setBackgroundAlpha(0, notSilentChange=False)
+        return

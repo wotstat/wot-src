@@ -1,0 +1,150 @@
+from enum import Enum
+from gui.impl.gen import R
+FEATURE = b'crew'
+MIN_VIEW_TIME = 2.0
+
+class CrewLogActions(Enum):
+    OPEN = b'open'
+    CLOSE = b'close'
+    CLICK = b'click'
+    VIEWED = b'viewed'
+
+
+class CrewViewKeys(Enum):
+    HANGAR = b'hangar'
+    PERSONAL_FILE = b'personal_file_view'
+    PERSONAL_DATA = b'personal_data_view'
+    SERVICE_RECORD = b'service_record_view'
+    BARRACKS = b'barracks_view'
+    MEMBER_CHANGE = b'member_change_view'
+    QUICK_TRAINING = b'quick_training_view'
+    TANK_CHANGE = b'tank_change_view'
+
+
+class CrewDialogKeys(Enum):
+    ROLE_CHANGE = b'role_change_dialog'
+    TANK_CHANGE = b'tank_change_dialog'
+    DISMISS_TANKMAN = b'dismiss_tankman_dialog'
+    DOCUMENT_CHANGE = b'document_change_dialog'
+    RECRUIT = b'recruit_dialog'
+    RESTORE_TANKMAN = b'restore_tankman_dialog'
+    SKIN_APPLY = b'skin_apply_dialog'
+    CONFIRM_SKILLS_LEARN = b'confirm_skills_learn_dialog'
+    FREE_SKILL_CONFIRMATION = b'free_skill_confirmation_dialog'
+    DISMISS_OR_RESTORE = b'dismiss_or_restore_dialog'
+
+
+class CrewWidgetKeys(Enum):
+    CREW_OPERATIONS_BUTTON = b'crew_widget_crew_operations_button'
+    QUIK_TRAINING_BUTTON = b'crew_widget_quik_training_button'
+    TANKMAN_SLOT = b'crew_widget_tankman_slot'
+    CHANGE_TANKMAN_BUTTON = b'crew_widget_change_tankman_button'
+    SLOT_CONTEXT_MENU = b'crew_widget_slot_context_menu'
+    TANKMAN_TOOLTIP = b'crew_widget_tankman_tooltip'
+    MSTL_TOOLTIP = b'crew_widget_mstl_tooltip'
+    CHANGE_BUTTON_TOOLTIP = b'crew_widget_change_button_tooltip'
+
+
+class CrewTankmanContextMenuKeys(Enum):
+    PERSONAL_FILE = b'tankman_cm_personal_file_button'
+    CHANGE_MEMBER = b'tankman_cm_change_member_button'
+    SEND_TO_BARRACKS = b'tankman_cm_send_to_barracks_button'
+    DISMISS = b'tankman_cm_dismiss_button'
+    QUICK_TRAINING = b'tankman_cm_quick_training_button'
+    TANK_CHANGE = b'tankman_cm_tank_change_button'
+    RETRAIN = b'tankman_cm_retrain_button'
+
+
+class CrewPersonalFileKeys(Enum):
+    TAB_PERSONAL_FILE = b'personal_file_view_tab_personal_file'
+    TAB_PERSONAL_DATA = b'personal_file_view_tab_personal_data'
+    TAB_SERVICE_RECORD = b'personal_file_view_tab_service_record'
+    TANKMAN_TOOLTIP = b'personal_file_view_tankman_tooltip'
+    VOICEOVER_BUTTON = b'personal_file_view_voiceover_button'
+    CHANGE_SPECIALIZATION_BUTTON = b'personal_file_view_change_specialization_button'
+    RETRAIN_BUTTON = b'personal_file_view_retrain_button'
+    PREMIUM_TOOLTIP = b'personal_file_view_premium_tooltip'
+    MSTL_TOOLTIP = b'personal_file_view_mstl_tooltip'
+    MATRIX_SKILL_TOOLTIP = b'personal_file_view_matrix_skill_tooltip'
+    MATRIX_SKILL = b'personal_file_view_matrix_skill'
+    MATRIX_INCREASE_BUTTON = b'personal_file_view_matrix_increase_button'
+    MATRIX_RESET_BUTTON = b'personal_file_view_matrix_reset_button'
+
+
+class CrewMemberChangeKeys(Enum):
+    CARD = b'member_change_view_card'
+    CARD_RESTORE_BUTTON = b'member_change_view_card_restore_button'
+    CARD_VOICEOVER_BUTTON = b'member_change_view_card_voiceover_button'
+    TANKMAN_CARD_TOOLTIP = b'member_change_view_tankman_card_tooltip'
+    DISMISSED_TOGGLE_TOOLTIP = b'member_change_view_dismissed_toggle_tooltip'
+
+
+class CrewTankChangeKeys(Enum):
+    CARD = b'tank_change_view_card'
+
+
+class CrewQuickTrainingKeys(Enum):
+    FREE_XP_CARD = b'quick_training_view_free_xp_card'
+    CREW_BOOK_CARD = b'quick_training_view_crew_book_card'
+    BUY_CREW_BOOK_BUTTON = b'quick_training_view_buy_crew_book_button'
+    SUBMIT_BUTTON = b'quick_training_view_submit_button'
+    CANCEL_BUTTON = b'quick_training_view_cancel_button'
+    ESC_BUTTON = b'quick_training_view_esc_button'
+
+
+class CrewPersonalDataKeys(Enum):
+    DOCUMENT_CARD = b'personal_data_view_document_card'
+    SKIN_CARD = b'personal_data_view_skin_card'
+
+
+class CrewBarracksKeys(Enum):
+    CARD = b'barracks_view_card'
+    CARD_DISMISS_BUTTON = b'barracks_view_card_dismiss_button'
+    CARD_RESTORE_BUTTON = b'barracks_view_card_restore_button'
+    CARD_SELECTED_DISMISS_BUTTON = b'barracks_view_card_selected_dismiss_button'
+    CARD_SELECTED_RESTORE_BUTTON = b'barracks_view_card_selected_restore_button'
+    CARD_VOICEOVER_BUTTON = b'barracks_view_card_voiceover_button'
+    CARD_CONTEXT_MENU = b'barracks_view_card_context_menu'
+
+
+class CrewDocumentChangeDialogKeys(Enum):
+    FIRSTNAME_SELECT = b'document_change_dialog_firstname_select'
+    FIRSTNAME = b'document_change_dialog_firstname'
+    LASTNAME_SELECT = b'document_change_dialog_lastname_select'
+    LASTNAME = b'document_change_dialog_lastname'
+
+
+class CrewNavigationButtons(Enum):
+    ESC = b'esc'
+    CLOSE = b'close'
+    TO_PERSONAL_FILE = b'to_personal_file'
+    TO_GARAGE = b'to_garage'
+    TO_BARRACKS = b'to_barracks'
+    SUBMIT = b'submit'
+    CANCEL = b'cancel'
+
+
+class CrewMemberAdditionalInfo(Enum):
+    RECRUIT = b'0'
+    TANKMAN = b'1'
+
+
+class CrewRoleChangeDialogAdditionalInfo(Enum):
+    ONLY_ROLE = b'0'
+    ROLE_AND_TANK = b'1'
+
+
+class TooltipAdditionalInfo(Enum):
+    MAIN = b'0'
+    ALT = b'1'
+
+
+LAYOUT_ID_TO_ITEM = {(R.views.lobby.crew.personal_case.PersonalFileView()): (CrewViewKeys.PERSONAL_FILE), 
+   (R.views.lobby.crew.personal_case.ServiceRecordView()): (CrewViewKeys.SERVICE_RECORD), 
+   (R.views.lobby.crew.BarracksView()): (CrewViewKeys.BARRACKS), 
+   (R.views.lobby.crew.HangarCrewWidget()): (CrewViewKeys.HANGAR), 
+   (R.views.lobby.crew.MemberChangeView()): (CrewViewKeys.MEMBER_CHANGE), 
+   (R.views.lobby.crew.TankChangeView()): (CrewViewKeys.TANK_CHANGE), 
+   (R.views.lobby.crew.QuickTrainingView()): (CrewViewKeys.QUICK_TRAINING)}
+TABS_LOGGING_KEYS = {(R.views.lobby.crew.personal_case.PersonalFileView()): (CrewPersonalFileKeys.TAB_PERSONAL_FILE), 
+   (R.views.lobby.crew.personal_case.ServiceRecordView()): (CrewPersonalFileKeys.TAB_SERVICE_RECORD)}

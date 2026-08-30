@@ -1,0 +1,22 @@
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_battle_royale_widget_model import ModeSelectorBattleRoyaleWidgetModel
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_normal_card_model import ModeSelectorNormalCardModel
+
+class ModeSelectorBattleRoyaleModel(ModeSelectorNormalCardModel):
+    __slots__ = ()
+
+    def __init__(self, properties=22, commands=0):
+        super(ModeSelectorBattleRoyaleModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def widget(self):
+        return self._getViewModel(21)
+
+    @staticmethod
+    def getWidgetType():
+        return ModeSelectorBattleRoyaleWidgetModel
+
+    def _initialize(self):
+        super(ModeSelectorBattleRoyaleModel, self)._initialize()
+        self._addViewModelProperty(b'widget', ModeSelectorBattleRoyaleWidgetModel())
+        return

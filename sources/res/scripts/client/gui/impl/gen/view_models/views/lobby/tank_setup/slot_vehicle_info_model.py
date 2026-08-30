@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.common.vehicle_info_model import VehicleInfoModel
+
+class SlotVehicleInfoModel(VehicleInfoModel):
+    __slots__ = ()
+
+    def __init__(self, properties=11, commands=0):
+        super(SlotVehicleInfoModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicleID(self):
+        return self._getNumber(10)
+
+    def setVehicleID(self, value):
+        self._setNumber(10, value)
+        return
+
+    def _initialize(self):
+        super(SlotVehicleInfoModel, self)._initialize()
+        self._addNumberProperty(b'vehicleID', 0)
+        return

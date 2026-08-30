@@ -1,0 +1,45 @@
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.tank_setup.sub_views.base_slot_model import BaseSlotModel
+
+class BattleBoosterSlotModel(BaseSlotModel):
+    __slots__ = ()
+
+    def __init__(self, properties=25, commands=0):
+        super(BattleBoosterSlotModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getDescription(self):
+        return self._getString(21)
+
+    def setDescription(self, value):
+        self._setString(21, value)
+        return
+
+    def getIsBuyMoreVisible(self):
+        return self._getBool(22)
+
+    def setIsBuyMoreVisible(self, value):
+        self._setBool(22, value)
+        return
+
+    def getIsBuyMoreDisabled(self):
+        return self._getBool(23)
+
+    def setIsBuyMoreDisabled(self, value):
+        self._setBool(23, value)
+        return
+
+    def getEffect(self):
+        return self._getResource(24)
+
+    def setEffect(self, value):
+        self._setResource(24, value)
+        return
+
+    def _initialize(self):
+        super(BattleBoosterSlotModel, self)._initialize()
+        self._addStringProperty(b'description', b'')
+        self._addBoolProperty(b'isBuyMoreVisible', True)
+        self._addBoolProperty(b'isBuyMoreDisabled', False)
+        self._addResourceProperty(b'effect', R.invalid())
+        return

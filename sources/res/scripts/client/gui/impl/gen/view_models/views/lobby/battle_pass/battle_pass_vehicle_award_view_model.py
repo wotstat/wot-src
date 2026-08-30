@@ -1,0 +1,125 @@
+from frameworks.wulf import ViewModel
+
+class BattlePassVehicleAwardViewModel(ViewModel):
+    __slots__ = (b'onClose',)
+
+    def __init__(self, properties=14, commands=1):
+        super(BattlePassVehicleAwardViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicleLevelPoints(self):
+        return self._getNumber(0)
+
+    def setVehicleLevelPoints(self, value):
+        self._setNumber(0, value)
+        return
+
+    def getBattlePassPointsAward(self):
+        return self._getNumber(1)
+
+    def setBattlePassPointsAward(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getVehicleType(self):
+        return self._getString(2)
+
+    def setVehicleType(self, value):
+        self._setString(2, value)
+        return
+
+    def getVehicleNation(self):
+        return self._getString(3)
+
+    def setVehicleNation(self, value):
+        self._setString(3, value)
+        return
+
+    def getVehicleLevel(self):
+        return self._getNumber(4)
+
+    def setVehicleLevel(self, value):
+        self._setNumber(4, value)
+        return
+
+    def getLimitRefreshTimeLeft(self):
+        return self._getNumber(5)
+
+    def setLimitRefreshTimeLeft(self, value):
+        self._setNumber(5, value)
+        return
+
+    def getVehicleName(self):
+        return self._getString(6)
+
+    def setVehicleName(self, value):
+        self._setString(6, value)
+        return
+
+    def getTechName(self):
+        return self._getString(7)
+
+    def setTechName(self, value):
+        self._setString(7, value)
+        return
+
+    def getIsPremiumVehicle(self):
+        return self._getBool(8)
+
+    def setIsPremiumVehicle(self, value):
+        self._setBool(8, value)
+        return
+
+    def getIsEliteVehicle(self):
+        return self._getBool(9)
+
+    def setIsEliteVehicle(self, value):
+        self._setBool(9, value)
+        return
+
+    def getIsPostProgression(self):
+        return self._getBool(10)
+
+    def setIsPostProgression(self, value):
+        self._setBool(10, value)
+        return
+
+    def getChapterID(self):
+        return self._getNumber(11)
+
+    def setChapterID(self, value):
+        self._setNumber(11, value)
+        return
+
+    def getIsBattlePassPurchased(self):
+        return self._getBool(12)
+
+    def setIsBattlePassPurchased(self, value):
+        self._setBool(12, value)
+        return
+
+    def getIsPaidReward(self):
+        return self._getBool(13)
+
+    def setIsPaidReward(self, value):
+        self._setBool(13, value)
+        return
+
+    def _initialize(self):
+        super(BattlePassVehicleAwardViewModel, self)._initialize()
+        self._addNumberProperty(b'vehicleLevelPoints', 0)
+        self._addNumberProperty(b'battlePassPointsAward', 0)
+        self._addStringProperty(b'vehicleType', b'')
+        self._addStringProperty(b'vehicleNation', b'')
+        self._addNumberProperty(b'vehicleLevel', 0)
+        self._addNumberProperty(b'limitRefreshTimeLeft', 0)
+        self._addStringProperty(b'vehicleName', b'')
+        self._addStringProperty(b'techName', b'')
+        self._addBoolProperty(b'isPremiumVehicle', False)
+        self._addBoolProperty(b'isEliteVehicle', False)
+        self._addBoolProperty(b'isPostProgression', False)
+        self._addNumberProperty(b'chapterID', 0)
+        self._addBoolProperty(b'isBattlePassPurchased', False)
+        self._addBoolProperty(b'isPaidReward', False)
+        self.onClose = self._addCommand(b'onClose')
+        return

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>newbie_start_page</FeatureName>
+	<IsEnabled>True</IsEnabled>
+	<Personality>NewbieStartPagePersonality</Personality>
+	<Components>
+		<StaticComponents>
+			<NewbieStartPageComponent></NewbieStartPageComponent>
+		</StaticComponents>
+		<DynamicComponents></DynamicComponents>
+	</Components>
+	<Entities></Entities>
+	<ExternalComponents></ExternalComponents>
+	<gui>
+		<paths></paths>
+		<overrideAlias></overrideAlias>
+		<context_menu></context_menu>
+		<handler></handler>
+	</gui>
+</root>

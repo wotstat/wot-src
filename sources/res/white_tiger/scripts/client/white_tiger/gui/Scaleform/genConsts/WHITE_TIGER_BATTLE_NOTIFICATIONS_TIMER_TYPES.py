@@ -1,0 +1,10 @@
+class WHITE_TIGER_BATTLE_NOTIFICATIONS_TIMER_TYPES(object):
+    WT_STUN_AREA = b'wtStunArea'
+    WT_HYPERION_WARNING_CHARGING = b'wtHyperionCharging'
+    WT_HYPERION_2025_WARNING_CHARGING = b'wtHyperion2025Charging'
+    WT_ANOMALY = b'wtAnomaly'
+    WT_SILENCE = b'wtSilence'
+    WT_ENERGY_SHIELD = b'wtEnergyShield'
+    WT_STUN_AREA_MOD_A = b'wtStunAreaModA'
+    WT_BOSS_INVISIBILITY = b'wtInvisibilityModA'
+    WT_STATIC_SHIELD = b'wtStaticShield'

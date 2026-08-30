@@ -1,0 +1,9 @@
+class ATLAS_CONSTANTS(object):
+    BATTLE_ATLAS = b'battleAtlas'
+    COMMON_BATTLE_LOBBY = b'commonBattleLobby'
+    COMPONENTS = b'components'
+    DAMAGE_INDICATOR = b'damageIndicator'
+    MAPS_BLACKLIST = b'mapsBlacklist'
+    QUESTS_PROGRESS = b'questsProgress'
+    STORE = b'store'
+    VEHICLE_MARKER_ATLAS = b'vehicleMarkerAtlas'

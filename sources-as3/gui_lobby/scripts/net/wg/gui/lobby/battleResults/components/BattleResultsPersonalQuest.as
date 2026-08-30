@@ -1,0 +1,347 @@
+package net.wg.gui.lobby.battleResults.components
+{
+   import flash.display.DisplayObjectContainer;
+   import flash.display.MovieClip;
+   import flash.events.Event;
+   import flash.events.MouseEvent;
+   import flash.text.TextField;
+   import flash.text.TextFieldAutoSize;
+   import net.wg.data.VO.BattleResultsQuestVO;
+   import net.wg.data.constants.Directions;
+   import net.wg.data.constants.SoundTypes;
+   import net.wg.gui.components.controls.SoundButtonEx;
+   import net.wg.gui.events.QuestEvent;
+   import net.wg.gui.interfaces.ISoundButtonEx;
+   import net.wg.gui.lobby.interfaces.ISubtaskComponent;
+   import net.wg.gui.lobby.questsWindow.data.PersonalInfoVO;
+   import net.wg.infrastructure.base.UIComponentEx;
+   import net.wg.infrastructure.managers.ITooltipMgr;
+   import net.wg.utils.IClassFactory;
+   import org.idmedia.as3commons.util.StringUtils;
+   import scaleform.clik.constants.InvalidationType;
+   import scaleform.clik.constants.LayoutMode;
+   import scaleform.clik.events.ButtonEvent;
+   
+   public class BattleResultsPersonalQuest extends UIComponentEx implements ISubtaskComponent
+   {
+      
+      private static const LINE_SEPARATOR_PADDING:int = 5;
+      
+      private static const LINK_BTN:String = "LinkBtn_UI";
+      
+      private static const LINK_BTN_PADDING_TOP:int = 1;
+      
+      private static const LINK_BTN_PADDING_LEFT:int = 8;
+      
+      private static const LINK_BTN_PADDING_H:int = 5;
+      
+      private static const QUEST_STATUS_PADDING_TOP:int = 4;
+      
+      private static const QUEST_CONTENT_TF_Y:int = 38;
+      
+      private static const QUEST_DESCR_TF_Y:int = 29;
+      
+      private static const TF_X:int = 20;
+      
+      private static const TF_HAS_CONTENT_X:int = 38;
+      
+      private static const STATE_RIGHT:int = 16;
+      
+      private static const DOTS:String = "...";
+      
+      private static const QUEST_TITLE_TF_MAX_WIDTH:int = 280;
+      
+      private static const PERSONAL_CONDITION_LINK:String = "PersonalConditionUI";
+      
+      public var questTitleTF:TextField = null;
+      
+      public var questDescrTF:TextField = null;
+      
+      public var questStatus:PersonalQuestState = null;
+      
+      public var lineMC:MovieClip = null;
+      
+      public var collapsedToggleBtn:ISoundButtonEx = null;
+      
+      public var quests:Vector.<PersonalCondition> = null;
+      
+      private var _model:BattleResultsQuestVO = null;
+      
+      private var _linkBtn:SoundButtonEx = null;
+      
+      private var _hasQuestDescr:Boolean = false;
+      
+      private var _factory:IClassFactory = App.utils.classFactory;
+      
+      private var _toolTipMgr:ITooltipMgr = App.toolTipMgr;
+      
+      public function BattleResultsPersonalQuest()
+      {
+         super();
+      }
+      
+      override protected function configUI() : void
+      {
+         super.configUI();
+         this.collapsedToggleBtn.selected = true;
+         this.collapsedToggleBtn.addEventListener(ButtonEvent.CLICK,this.onCollapsedToggleBtnClickHandler);
+         this.quests = new Vector.<PersonalCondition>();
+      }
+      
+      override protected function draw() : void
+      {
+         super.draw();
+         if(this._model != null && Boolean(isInvalid(InvalidationType.DATA)))
+         {
+            this.questTitleTF.autoSize = TextFieldAutoSize.LEFT;
+            this.questTitleTF.htmlText = this._model.title;
+            if(this.questTitleTF.width > QUEST_TITLE_TF_MAX_WIDTH)
+            {
+               this.questTitleTF.autoSize = TextFieldAutoSize.NONE;
+               this.questTitleTF.width = QUEST_TITLE_TF_MAX_WIDTH;
+               App.utils.commons.truncateTextFieldText(this.questTitleTF,this._model.title,true,true,DOTS);
+               this.questTitleTF.addEventListener(MouseEvent.ROLL_OUT,this.onQuestTitleTFRollOutHandler);
+               this.questTitleTF.addEventListener(MouseEvent.ROLL_OVER,this.onQuestTitleTFRollOverHandler);
+               App.utils.commons.updateTextFieldSize(this.questTitleTF,true,false);
+            }
+            this.questTitleTF.x = this._model.collapsedToggleBtnVisible ? TF_HAS_CONTENT_X : TF_X;
+            this.questStatus.update(this._model.questState);
+            if(this._model.linkBtnVisible && this._linkBtn == null)
+            {
+               this.createLinkBtn();
+            }
+            if(this._linkBtn != null)
+            {
+               this._linkBtn.visible = this._model.linkBtnVisible;
+            }
+            this.collapsedToggleBtn.visible = this._model.collapsedToggleBtnVisible;
+            this._hasQuestDescr = StringUtils.isNotEmpty(this._model.descr);
+            this.questDescrTF.visible = this._hasQuestDescr;
+            if(this._hasQuestDescr)
+            {
+               this.questDescrTF.x = this.questTitleTF.x;
+               this.questDescrTF.htmlText = this._model.descr;
+               App.utils.commons.updateTextFieldSize(this.questDescrTF);
+            }
+            this.deleteConditions();
+            this.setQuestInfo();
+            this.doLayout();
+         }
+      }
+      
+      private function setQuestInfo() : void
+      {
+         var _loc3_:Boolean = false;
+         var _loc4_:int = 0;
+         var _loc5_:PersonalInfoVO = null;
+         var _loc6_:PersonalCondition = null;
+         var _loc1_:int = int(this._model.personalInfo.length);
+         var _loc2_:int = 0;
+         while(_loc2_ < _loc1_)
+         {
+            _loc3_ = _loc2_ % 2 == 0;
+            _loc4_ = 0;
+            while(_loc4_ < this._model.personalInfo[_loc2_].length)
+            {
+               _loc5_ = this._model.personalInfo[_loc2_][_loc4_];
+               _loc6_ = this.createCondition(_loc5_.text,_loc5_.statusText,_loc3_);
+               this.quests.push(_loc6_);
+               _loc4_++;
+            }
+            _loc2_++;
+         }
+      }
+      
+      override protected function onDispose() : void
+      {
+         if(this._linkBtn != null)
+         {
+            this._linkBtn.removeEventListener(ButtonEvent.CLICK,this.onLinkBtnClickHandler);
+            this._linkBtn.removeEventListener(MouseEvent.ROLL_OUT,this.onLinkBtnRollOutHandler);
+            this._linkBtn.removeEventListener(MouseEvent.ROLL_OVER,this.onLinkBtnRollOverHandler);
+            this._linkBtn.dispose();
+            removeChild(this._linkBtn);
+            this._linkBtn = null;
+         }
+         if(this._model != null)
+         {
+            this._model.dispose();
+            this._model = null;
+         }
+         if(this.lineMC != null)
+         {
+            removeChild(this.lineMC);
+            this.lineMC = null;
+         }
+         this.questStatus.dispose();
+         this.questStatus = null;
+         this.collapsedToggleBtn.removeEventListener(ButtonEvent.CLICK,this.onCollapsedToggleBtnClickHandler);
+         this.collapsedToggleBtn.dispose();
+         this.collapsedToggleBtn = null;
+         this.questTitleTF.removeEventListener(MouseEvent.ROLL_OUT,this.onQuestTitleTFRollOutHandler);
+         this.questTitleTF.removeEventListener(MouseEvent.ROLL_OVER,this.onQuestTitleTFRollOverHandler);
+         this.questTitleTF = null;
+         this._factory = null;
+         this._toolTipMgr = null;
+         this.deleteConditions();
+         this.quests = null;
+         super.onDispose();
+      }
+      
+      public function disableLinkBtns(param1:Vector.<String>) : void
+      {
+         this._linkBtn.enabled = param1.indexOf(this._model.questInfo.questID) != -1;
+         this._linkBtn.mouseEnabled = true;
+      }
+      
+      public function setData(param1:Object) : void
+      {
+         this._model = new BattleResultsQuestVO(param1);
+         invalidateData();
+      }
+      
+      private function makeComponent(param1:String) : DisplayObjectContainer
+      {
+         return this._factory.getComponent(param1,DisplayObjectContainer);
+      }
+      
+      private function doLayout() : void
+      {
+         var _loc2_:int = 0;
+         this.questStatus.x = width - this.questStatus.width - STATE_RIGHT | 0;
+         this.questStatus.y = this.questTitleTF.y + QUEST_STATUS_PADDING_TOP | 0;
+         this.lineMC.y = this.questTitleTF.y + this.questTitleTF.height + LINE_SEPARATOR_PADDING | 0;
+         if(this._linkBtn != null)
+         {
+            this._linkBtn.x = this.questTitleTF.x + this.questTitleTF.width + LINK_BTN_PADDING_LEFT | 0;
+            this._linkBtn.y = this.questTitleTF.y + (this.questTitleTF.height - this._linkBtn.height >> 1) + LINK_BTN_PADDING_TOP | 0;
+         }
+         var _loc1_:PersonalCondition = null;
+         if(Boolean(this.collapsedToggleBtn.selected) && this._model.collapsedToggleBtnVisible && this._model.personalInfo != null)
+         {
+            this.questDescrTF.y = QUEST_CONTENT_TF_Y;
+            this.questDescrTF.visible = this._hasQuestDescr;
+            _loc2_ = this._hasQuestDescr ? int(this.questDescrTF.y + this.questDescrTF.height) : QUEST_CONTENT_TF_Y;
+            for each(_loc1_ in this.quests)
+            {
+               _loc1_.y = _loc2_;
+               _loc1_.visible = true;
+               _loc2_ += _loc1_.getTextHeight() + (QUEST_CONTENT_TF_Y >> 2);
+            }
+            this.lineMC.y = _loc2_ + LINE_SEPARATOR_PADDING | 0;
+         }
+         else
+         {
+            if(this._hasQuestDescr && !this._model.collapsedToggleBtnVisible)
+            {
+               this.questDescrTF.y = QUEST_DESCR_TF_Y;
+               this.questDescrTF.visible = true;
+               this.lineMC.y = this.questDescrTF.y + this.questDescrTF.height + LINE_SEPARATOR_PADDING | 0;
+            }
+            else
+            {
+               this.questDescrTF.y = 0;
+               this.questDescrTF.visible = false;
+            }
+            for each(_loc1_ in this.quests)
+            {
+               _loc1_.y = 0;
+               _loc1_.visible = false;
+            }
+         }
+         setSize(width,this.lineMC.y);
+         dispatchEvent(new Event(Event.RESIZE,true));
+      }
+      
+      private function createCondition(param1:String, param2:String, param3:Boolean) : PersonalCondition
+      {
+         var _loc4_:PersonalCondition = PersonalCondition(this.makeComponent(PERSONAL_CONDITION_LINK));
+         _loc4_.setData(param1,param2,param3);
+         _loc4_.addEventListener(MouseEvent.ROLL_OVER,this.onConditionTFRollOverHandler);
+         _loc4_.addEventListener(MouseEvent.ROLL_OUT,this.onConditionTFRollOutHandler);
+         addChild(_loc4_);
+         return _loc4_;
+      }
+      
+      private function deleteConditions() : void
+      {
+         var _loc1_:PersonalCondition = null;
+         if(this.quests != null)
+         {
+            for each(_loc1_ in this.quests)
+            {
+               removeChild(_loc1_);
+               _loc1_.removeEventListener(MouseEvent.ROLL_OVER,this.onConditionTFRollOverHandler);
+               _loc1_.removeEventListener(MouseEvent.ROLL_OUT,this.onConditionTFRollOutHandler);
+               _loc1_.dispose();
+            }
+            this.quests.splice(0,this.quests.length);
+         }
+      }
+      
+      private function createLinkBtn() : void
+      {
+         this._linkBtn = SoundButtonEx(this.makeComponent(LINK_BTN));
+         this._linkBtn.autoSize = LayoutMode.ALIGN_NONE;
+         this._linkBtn.helpDirection = Directions.TOP;
+         this._linkBtn.paddingHorizontal = LINK_BTN_PADDING_H;
+         this._linkBtn.soundType = SoundTypes.NORMAL_BTN;
+         this._linkBtn.scaleX = this._linkBtn.scaleY = 1;
+         addChild(this._linkBtn);
+         this._linkBtn.addEventListener(ButtonEvent.CLICK,this.onLinkBtnClickHandler);
+         this._linkBtn.addEventListener(MouseEvent.ROLL_OUT,this.onLinkBtnRollOutHandler);
+         this._linkBtn.addEventListener(MouseEvent.ROLL_OVER,this.onLinkBtnRollOverHandler);
+      }
+      
+      private function onConditionTFRollOverHandler(param1:MouseEvent) : void
+      {
+         var _loc3_:String = null;
+         var _loc2_:PersonalCondition = param1.target as PersonalCondition;
+         if(Boolean(_loc2_))
+         {
+            _loc3_ = _loc2_.isMainQuest() ? TOOLTIPS.QUESTS_PM_STATUS_MAIN : TOOLTIPS.QUESTS_PM_STATUS_ADDITIONAL;
+            this._toolTipMgr.show(_loc3_);
+         }
+      }
+      
+      private function onConditionTFRollOutHandler(param1:MouseEvent) : void
+      {
+         this._toolTipMgr.hide();
+      }
+      
+      private function onLinkBtnRollOverHandler(param1:MouseEvent) : void
+      {
+         this._toolTipMgr.show(this._linkBtn.enabled ? this._model.questInfo.linkTooltip : TOOLTIPS.QUESTS_DISABLELINKBTN_TASK);
+      }
+      
+      private function onLinkBtnRollOutHandler(param1:MouseEvent) : void
+      {
+         this._toolTipMgr.hide();
+      }
+      
+      private function onQuestTitleTFRollOverHandler(param1:MouseEvent) : void
+      {
+         this._toolTipMgr.show(this._model.title);
+      }
+      
+      private function onQuestTitleTFRollOutHandler(param1:MouseEvent) : void
+      {
+         this._toolTipMgr.hide();
+      }
+      
+      private function onLinkBtnClickHandler(param1:ButtonEvent) : void
+      {
+         this._toolTipMgr.hide();
+         var _loc2_:QuestEvent = new QuestEvent(QuestEvent.SELECT_QUEST,this._model.questInfo.questID);
+         _loc2_.eventType = this._model.questInfo.eventType;
+         dispatchEvent(_loc2_);
+      }
+      
+      private function onCollapsedToggleBtnClickHandler(param1:ButtonEvent) : void
+      {
+         this.collapsedToggleBtn.selected = !this.collapsedToggleBtn.selected;
+         this.doLayout();
+      }
+   }
+}
+

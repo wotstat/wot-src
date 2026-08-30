@@ -1,0 +1,3750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xmlref="http://bwt/xmlref">
+	<crew>
+		<commander>radioman</commander>
+		<gunner></gunner>
+		<driver></driver>
+		<loader></loader>
+		<loader></loader>
+	</crew>
+	<supplySlots>5 1 1 6 6 6 7 8 8 8</supplySlots>
+	<postProgressionTree>role_HT_universal</postProgressionTree>
+	<customRoleSlotOptions>2 4</customRoleSlotOptions>
+	<speedLimits>
+		<forward>38</forward>
+		<backward>14</backward>
+	</speedLimits>
+	<invisibility>
+		<moving>0.042</moving>
+		<still>0.085</still>
+		<camouflageBonus>0.02</camouflageBonus>
+		<firePenalty>0.128</firePenalty>
+	</invisibility>
+	<optDevsOverrides>
+		<camouflageNet>
+			<invisibilityBonus>0.05 0.075</invisibilityBonus>
+		</camouflageNet>
+		<additionalInvisibilityDevice>
+			<invisibilityBonus>0.03 0.04</invisibilityBonus>
+		</additionalInvisibilityDevice>
+		<trophyBasicAdditionalInvisibilityDevice>
+			<invisibilityBonus>0.03</invisibilityBonus>
+		</trophyBasicAdditionalInvisibilityDevice>
+		<trophyUpgradedAdditionalInvisibilityDevice>
+			<invisibilityBonus>0.05</invisibilityBonus>
+		</trophyUpgradedAdditionalInvisibilityDevice>
+	</optDevsOverrides>
+	<repairCost>9.0</repairCost>
+	<crewXpFactor>1.0</crewXpFactor>
+	<camouflage>
+		<priceFactor>1.8</priceFactor>
+		<density>1.17126501 1.17126501</density>
+	</camouflage>
+	<hull>
+		<armor>
+			<armor_1>180</armor_1>
+			<armor_2>160</armor_2>
+			<armor_3>110</armor_3>
+			<armor_4>80</armor_4>
+			<armor_5>30</armor_5>
+			<armor_6>20</armor_6>
+			<armor_7>180</armor_7>
+			<armor_8>0</armor_8>
+			<armor_9>110</armor_9>
+			<armor_10>20</armor_10>
+			<armor_11>230</armor_11>
+			<armor_12>110</armor_12>
+			<armor_13>55</armor_13>
+			<armor_14>30</armor_14>
+			<armor_15>5
+				<vehicleDamageFactor>0</vehicleDamageFactor>
+			</armor_15>
+			<armor_16>21
+				<vehicleDamageFactor>0</vehicleDamageFactor>
+			</armor_16>
+		</armor>
+		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+		<weight>45190</weight>
+		<maxHealth>1500</maxHealth>
+		<ammoBayHealth>
+			<maxHealth>200</maxHealth>
+			<maxRegenHealth>135</maxRegenHealth>
+			<repairCost>1.0</repairCost>
+		</ammoBayHealth>
+		<models>
+			<undamaged>vehicles/british/GB136_FV245/normal/lod0/Hull.model</undamaged>
+			<destroyed>vehicles/british/GB136_FV245/crash/lod0/Hull.model</destroyed>
+			<exploded>vehicles/british/GB136_FV245/crash/lod0/Hull.model</exploded>
+		</models>
+		<swinging>
+			<lodDist>FAR</lodDist>
+			<pitchParams>0.34 38 0.36 1 0.05 0.34</pitchParams>
+			<rollParams>1 0.34 38 0.36 1 0.06 0.4</rollParams>
+			<sensitivityToImpulse>0.94</sensitivityToImpulse>
+		</swinging>
+		<exhaust>
+			<pixie>gas_large</pixie>
+			<nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
+		</exhaust>
+		<turretPositions>
+			<turret>2.40000008e-05 0.711034 0.573733985</turret>
+		</turretPositions>
+		<hitTester>
+			<collisionModelServer>vehicles/british/GB136_FV245/collision/Hull.model</collisionModelServer>
+			<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Hull.model</collisionModelClient>
+		</hitTester>
+		<customizationSlots>
+			<slot>
+				<slotType>clan</slotType>
+				<slotId>10000</slotId>
+				<rayStart>-0.44144401 0.0149870003 3.37479591</rayStart>
+				<rayEnd>-0.423586994 -0.151437998 3.26532602</rayEnd>
+				<rayUp>0.0105339997 0.550303996 -0.834897995</rayUp>
+				<size>0.32</size>
+				<hideIfDamaged>true</hideIfDamaged>
+				<isUVProportional>false</isUVProportional>
+			</slot>
+			<slot>
+				<slotType>paint</slotType>
+				<slotId>11000</slotId>
+				<anchorPosition>-0 0.994154 -2.905066</anchorPosition>
+				<anchorDirection>-0 0 0</anchorDirection>
+			</slot>
+			<slot>
+				<slotType>camouflage</slotType>
+				<slotId>12000</slotId>
+				<anchorPosition>-0 0.994154 -2.90507</anchorPosition>
+				<anchorDirection>-0 0 0</anchorDirection>
+			</slot>
+			<slot>
+				<slotType>inscription</slotType>
+				<slotId>14000</slotId>
+				<rayStart>-1.50328803 0.474198014 -1.74481201</rayStart>
+				<rayEnd>-1.30391 0.458434 -1.744812</rayEnd>
+				<rayUp>0.078822 0.996889 0</rayUp>
+				<size>0.8</size>
+				<hideIfDamaged>true</hideIfDamaged>
+				<isUVProportional>false</isUVProportional>
+			</slot>
+			<slot>
+				<slotType>inscription</slotType>
+				<slotId>14001</slotId>
+				<rayStart>1.51992798 0.453377992 -1.74481201</rayStart>
+				<rayEnd>1.32234704 0.422363013 -1.74481201</rayEnd>
+				<rayUp>-0.155074 0.987903 0</rayUp>
+				<size>0.8</size>
+				<hideIfDamaged>true</hideIfDamaged>
+				<isUVProportional>false</isUVProportional>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15000</slotId>
+				<tags>cover formfactor_rect1x2 direction_right_to_left</tags>
+				<position>0 2.831184 0.254771</position>
+				<rotation>3.14159298 1.57079601 -0.153787002</rotation>
+				<scale>8.28000069 6.52305889 8.33539581</scale>
+				<hiddenForUser>true</hiddenForUser>
+				<showOn>4368</showOn>
+				<clipAngle>0.87441</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15001</slotId>
+				<tags>mimic formfactor_rect1x2 front</tags>
+				<position>0.018672 1.37244 2.729708</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>2.71693492 0.865392029 2.71693492</scale>
+				<hiddenForUser>true</hiddenForUser>
+				<showOn>16</showOn>
+				<clipAngle>0.837409019</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15002</slotId>
+				<tags>safe formfactor_square front</tags>
+				<position>-0.619049013 1.59596205 2.64741898</position>
+				<rotation>0.615903 -0 3.141593</rotation>
+				<scale>0.751455009 0.288066 0.751455009</scale>
+				<hiddenForUser>true</hiddenForUser>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15003</slotId>
+				<tags>safe formfactor_rect1x2 front</tags>
+				<position>-0.632444978 1.59323299 2.65127611</position>
+				<rotation>0.615903 -0 3.141593</rotation>
+				<scale>0.812108994 0.406055003 0.812108994</scale>
+				<hiddenForUser>true</hiddenForUser>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15004</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>-1.484817 1.29147 3.930779</position>
+				<rotation>0.59058702 -9.99999997e-07 3.14159107</rotation>
+				<scale>0.481308013 0.240654007 0.481308013</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15005</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>1.484817 1.29147 3.930779</position>
+				<rotation>0.59058702 9.99999997e-07 -3.14159107</rotation>
+				<scale>0.481308013 0.240654007 0.481308013</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15006</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>-0.663984001 1.63918197 2.58635211</position>
+				<rotation>0.615903 -0 3.141593</rotation>
+				<scale>0.717314 0.20511 0.717314</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15007</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>0.695616007 1.63918197 2.58635211</position>
+				<rotation>0.615903 -0 3.141593</rotation>
+				<scale>0.708595991 0.202617005 0.708595991</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15008</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>-0.474379003 1.15225303 3.28188109</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>0.589856029 0.183881998 0.589856029</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15009</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>0.474379003 1.15225303 3.28188109</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>0.589856029 0.183881998 0.589856029</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15010</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>1.229213 1.24646699 -4.05805111</position>
+				<rotation>2.09017205 0.00170799997 0.00196700008</rotation>
+				<scale>0.47121799 0.179502994 0.47121799</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15011</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-1.229213 1.24646699 -4.05805111</position>
+				<rotation>1.05142105 3.13988495 3.13962507</rotation>
+				<scale>0.47121799 0.179502994 0.47121799</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15012</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>1.41081297 1.63094902 -1.90509701</position>
+				<rotation>1.43130696 1.57079697 3.14159298</rotation>
+				<scale>0.525328994 0.190889001 0.525328994</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15013</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-1.41081297 1.63094902 -1.90509701</position>
+				<rotation>1.710285 1.570796 0</rotation>
+				<scale>0.525328994 0.190889001 0.525328994</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15014</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-2.070997 0.895534992 2.84259892</position>
+				<rotation>1.570796 0 -1.570795</rotation>
+				<scale>0.775071979 0.167512998 0.775071979</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15015</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-2.07099891 0.895318985 1.64031196</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15016</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-2.07099795 0.895318985 -0.021613</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15017</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-2.07099795 0.895318985 -1.69963098</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15018</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-2.070997 0.97514 -2.827353</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>0.597643971 0.158968002 0.597643971</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15019</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>2.070997 0.97514 -2.827353</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>0.597643971 0.158968002 0.597643971</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15020</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>2.07099795 0.895318985 -0.021613</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15021</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>2.07099795 0.895318985 -1.69963098</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15022</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>2.07099891 0.895318985 1.64031196</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>0.766274989 0.203822002 0.766274989</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15023</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>2.070997 0.895534992 2.84259892</position>
+				<rotation>1.570796 0 1.570795</rotation>
+				<scale>0.775071979 0.167512998 0.775071979</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15024</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>0 1.446906 2.927272</position>
+				<rotation>0.660826 0 3.141593</rotation>
+				<scale>1.51390696 0.515035987 1.51390696</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15025</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>1.63557398 1.70991504 -0.244089007</position>
+				<rotation>0.179369003 1.57079601 -3.1415441</rotation>
+				<scale>0.487453997 0.243726999 0.487453997</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15026</slotId>
+				<tags>formfactor_square direction_left_to_right</tags>
+				<position>1.63556194 1.709849 1.11929297</position>
+				<rotation>0.179369003 1.57079601 -3.1415441</rotation>
+				<scale>0.487453997 0.243726999 0.487453997</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15027</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-1.63557398 1.70991504 -0.244089007</position>
+				<rotation>0.179369003 -1.57079601 3.1415441</rotation>
+				<scale>0.487453997 0.243726999 0.487453997</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15028</slotId>
+				<tags>formfactor_square direction_right_to_left</tags>
+				<position>-1.63556194 1.709849 1.11929297</position>
+				<rotation>0.179369003 -1.57079601 3.1415441</rotation>
+				<scale>0.487453997 0.243726999 0.487453997</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15029</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-2.07099795 0.899253011 -0.0440710001</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>1.53727 0.252391 1.53727</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15030</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-2.070998 0.899253 -1.68693</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>1.51449704 0.248651996 1.51449704</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15031</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-2.07099891 0.896903992 1.60824203</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>1.53727 0.252391 1.53727</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15032</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-2.071 1.051987 -3.179701</position>
+				<rotation>1.570796 0 -1.570795</rotation>
+				<scale>0.89972 0.246634 0.89972</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15033</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-2.070997 1.00278294 3.06863689</position>
+				<rotation>1.570796 0 -1.570795</rotation>
+				<scale>1.119576 0.31502 1.119576</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15034</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>2.071 1.051987 -3.179701</position>
+				<rotation>1.570796 0 1.570795</rotation>
+				<scale>0.889292002 0.243774995 0.889292002</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15035</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>2.07099795 0.899253011 -0.0440710001</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>1.53727 0.252391 1.53727</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15036</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>2.07099891 0.896903992 1.60824203</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>1.53727 0.252391 1.53727</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15037</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>2.070997 1.00278294 3.06863689</position>
+				<rotation>1.570796 0 1.570795</rotation>
+				<scale>1.119576 0.31502 1.119576</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15038</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>2.070998 0.899253 -1.68693</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>1.51449704 0.248651996 1.51449704</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15039</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-1.40101 1.222577 -4.070423</position>
+				<rotation>1.16972804 3.13650894 3.13607097</rotation>
+				<scale>0.83199 0.181412 0.83199</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15040</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>1.40101 1.222577 -4.070423</position>
+				<rotation>1.97186399 0.00508400006 0.00552200014</rotation>
+				<scale>0.83199 0.181412 0.83199</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15041</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>1.49703395 1.28386903 3.93067503</position>
+				<rotation>0.704158008 9.99999997e-07 -3.14159107</rotation>
+				<scale>0.99438 0.339084 0.99438</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15042</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>-1.49703395 1.28386903 3.93067503</position>
+				<rotation>0.704158008 -9.99999997e-07 3.14159107</rotation>
+				<scale>0.99438 0.339084 0.99438</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15043</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>1.41494203 1.60153794 -1.75775802</position>
+				<rotation>1.43130696 1.57079697 3.14159298</rotation>
+				<scale>0.924513996 0.0748109967 0.924513996</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15044</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-1.41494203 1.60153794 -1.75775802</position>
+				<rotation>1.710285 1.570796 0</rotation>
+				<scale>0.924513996 0.0748109967 0.924513996</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15045</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-1.63649499 1.70974803 -0.241797</position>
+				<rotation>0.17937 -1.570796 3.141544</rotation>
+				<scale>0.967554986 0.31011799 0.967554986</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15046</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>1.63649499 1.70974803 -0.241797</position>
+				<rotation>0.17937 1.570796 -3.141544</rotation>
+				<scale>0.967554986 0.31011799 0.967554986</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15047</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-1.59897196 1.71670401 1.07345498</position>
+				<rotation>2.96222305 1.57079601 0.000449000014</rotation>
+				<scale>0.799179018 0.262935996 0.799179018</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15048</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>1.59897196 1.71670401 1.07345498</position>
+				<rotation>0.179369003 1.57079601 3.14114404</rotation>
+				<scale>0.799179018 0.262935996 0.799179018</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15049</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>0 1.735571 2.702001</position>
+				<rotation>0.615903 -0 3.141593</rotation>
+				<scale>1.673015 0.836507022 1.673015</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15050</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>-0.502143979 1.14943099 3.28596401</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>0.883776009 0.236561999 0.883776009</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15051</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>0.502143979 1.14943099 3.28596401</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>0.883776009 0.236561999 0.883776009</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15052</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-1.38313699 1.82691598 -3.01046896</position>
+				<rotation>1.709433 1.570796 0</rotation>
+				<scale>0.631177008 0.186153993 0.631177008</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15053</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>1.38313699 1.82691598 -3.01046896</position>
+				<rotation>1.43215895 1.57079697 3.14159298</rotation>
+				<scale>0.631177008 0.186153993 0.631177008</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15054</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-2.07099795 0.893812001 -0.0496710017</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>2.37558699 0.376783997 2.37558699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15055</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-2.07099891 0.893812001 2.1378541</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>2.37558699 0.376783997 2.37558699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15056</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-2.070997 0.981952012 -2.28187108</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>1.802248 0.285849005 1.802248</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15057</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>2.070997 0.981952012 -2.28187108</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>1.802248 0.285849005 1.802248</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15058</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>2.07099795 0.893812001 -0.0496710017</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>2.37558699 0.376783997 2.37558699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15059</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>2.07099891 0.893812001 2.1378541</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>2.37558699 0.376783997 2.37558699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15060</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>0 1.232488 3.322827</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>1.80076694 0.667468011 1.80076694</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15061</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>0 1.750205 2.69125</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>2.67596889 0.859695017 2.67596889</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15062</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>1.67554498 1.702667 -0.231133997</position>
+				<rotation>0.17937 1.570796 -3.141544</rotation>
+				<scale>1.317487 0.396162003 1.317487</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15063</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-1.67554498 1.702667 -0.231133997</position>
+				<rotation>0.17937 -1.570796 3.141544</rotation>
+				<scale>1.317487 0.396162003 1.317487</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15064</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-1.38369405 1.82292402 -2.95209289</position>
+				<rotation>1.709433 1.570796 0</rotation>
+				<scale>1 0.228617 1</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15065</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>1.38369405 1.82292402 -2.95209289</position>
+				<rotation>1.43215895 1.57079697 3.14159298</rotation>
+				<scale>1 0.228617 1</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15066</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-1.497283 1.18493 -4.093411</position>
+				<rotation>2.089912 0 0</rotation>
+				<scale>1.027694 0.26325 1.027694</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15067</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>1.497283 1.18493 -4.093411</position>
+				<rotation>2.089912 0 0</rotation>
+				<scale>1.027694 0.26325 1.027694</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15068</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>1.42507803 1.52934802 -1.62519097</position>
+				<rotation>1.43130696 1.57079697 3.14159298</rotation>
+				<scale>1.029737 0.12933 1.029737</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15069</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-1.41709495 1.58620596 -1.62519097</position>
+				<rotation>1.710285 1.570796 0</rotation>
+				<scale>1.029737 0.12933 1.029737</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15070</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-1.54314601 1.72685099 1.12649095</position>
+				<rotation>2.96222305 1.57079601 0.000449000014</rotation>
+				<scale>0.903473973 0.205383003 0.903473973</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15071</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>1.54314601 1.72685099 1.12649095</position>
+				<rotation>0.179369003 1.57079601 3.14114404</rotation>
+				<scale>0.903473973 0.205383003 0.903473973</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15072</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-2.070998 0.89597 -0.033653</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>3.01875806 0.297747999 3.01875806</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15073</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-2.070999 0.89597 1.871453</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>3.01875806 0.297747999 3.01875806</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15074</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-2.070997 1.01640701 -2.41070509</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>2.06312203 0.203491002 2.06312203</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15075</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>2.070998 0.89597 -0.033653</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>3.01875806 0.297747999 3.01875806</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15076</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>2.070997 1.01640701 -2.41070509</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>2.06312203 0.203491002 2.06312203</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15077</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>2.070999 0.89597 1.871453</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>3.01875806 0.297747999 3.01875806</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15078</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-1.38412499 1.81926298 -2.82181501</position>
+				<rotation>1.70966697 1.57079601 0.000193999993</rotation>
+				<scale>1.32931602 0.232301995 1.32931602</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15079</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>1.38412499 1.81926298 -2.82181501</position>
+				<rotation>1.43192601 1.57079601 3.14139795</rotation>
+				<scale>1.32931602 0.232301995 1.32931602</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15080</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>1.42317605 1.54289699 -1.63370395</position>
+				<rotation>1.43130696 1.57079697 3.14159298</rotation>
+				<scale>1.1211 0.215653 1.1211</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15081</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-1.41705298 1.58650601 -1.63370395</position>
+				<rotation>1.710285 1.570796 0</rotation>
+				<scale>1.1211 0.215653 1.1211</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15082</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-1.72353697 1.69396496 -0.226317003</position>
+				<rotation>0.17937 -1.570796 3.141544</rotation>
+				<scale>1.31632102 0.355744004 1.31632102</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15083</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>1.72353697 1.69396496 -0.226317003</position>
+				<rotation>0.17937 1.570796 -3.141544</rotation>
+				<scale>1.31632102 0.355744004 1.31632102</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15084</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>0 1.220438 3.331441</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>1.91705894 0.516547024 1.91705894</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15085</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>0 1.810234 2.634584</position>
+				<rotation>0.604722 0 3.141593</rotation>
+				<scale>2.70584607 1.04755294 2.70584607</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15086</slotId>
+				<tags>formfactor_rect1x6 direction_right_to_left</tags>
+				<position>-2.07099795 0.901351988 -0.0291579999</position>
+				<rotation>1.570796 0 -1.570796</rotation>
+				<scale>4.76161385 0.616144001 4.76161385</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15087</slotId>
+				<tags>formfactor_rect1x6 direction_left_to_right</tags>
+				<position>2.07099795 0.901351988 -0.0291579999</position>
+				<rotation>1.570796 0 1.570796</rotation>
+				<scale>4.76161385 0.616144001 4.76161385</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15088</slotId>
+				<tags>formfactor_rect1x6</tags>
+				<position>0 1.718891 2.746605</position>
+				<rotation>0.415122 -0 3.141593</rotation>
+				<scale>3.84696293 1.313941 3.84696293</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15089</slotId>
+				<tags>formfactor_rect1x6</tags>
+				<position>0 1.176062 3.24743</position>
+				<rotation>0.56003 0 3.141593</rotation>
+				<scale>3.85002208 1.92501104 3.85002208</scale>
+				<showOn>16</showOn>
+				<clipAngle>0.455704987</clipAngle>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15090</slotId>
+				<tags>formfactor_rect1x6 direction_left_to_right</tags>
+				<position>1.385777 1.80783904 -2.83853102</position>
+				<rotation>1.432083 1.570796 3.14153</rotation>
+				<scale>1.79263699 0.272915006 1.79263699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15091</slotId>
+				<tags>formfactor_rect1x6 direction_right_to_left</tags>
+				<position>-1.385777 1.80783904 -2.83853102</position>
+				<rotation>1.70951 1.570796 0.000062</rotation>
+				<scale>1.79263699 0.272915006 1.79263699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15092</slotId>
+				<tags>formfactor_rect1x6</tags>
+				<position>0 1.673419 -4.011158</position>
+				<rotation>1.708959 0 0</rotation>
+				<scale>2.47920704 0.519578993 2.47920704</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15093</slotId>
+				<tags>formfactor_rect1x6 direction_right_to_left</tags>
+				<position>-0.684036016 1.444157 2.89787698</position>
+				<rotation>0.367935002 -0.994794011 2.77390194</rotation>
+				<scale>1.90405 0.952025 1.90405</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15094</slotId>
+				<tags>formfactor_rect1x6 direction_left_to_right</tags>
+				<position>0.684036016 1.444157 2.89787698</position>
+				<rotation>0.367935002 0.994794011 -2.77390194</rotation>
+				<scale>1.90405 0.952025 1.90405</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15095</slotId>
+				<tags>formfactor_rect1x2 direction_right_to_left</tags>
+				<position>-0.704308987 1.44202399 2.8649261</position>
+				<rotation>0.425725013 -0.875373006 2.846246</rotation>
+				<scale>1.45635104 0.728175998 1.45635104</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15096</slotId>
+				<tags>formfactor_rect1x2 direction_left_to_right</tags>
+				<position>0.704308987 1.44202399 2.8649261</position>
+				<rotation>0.425725013 0.875373006 -2.846246</rotation>
+				<scale>1.45635104 0.728175998 1.45635104</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15097</slotId>
+				<tags>formfactor_rect1x3 direction_right_to_left</tags>
+				<position>-0.678566992 1.45160604 2.8705821</position>
+				<rotation>0.469197005 -0.942094982 2.81330895</rotation>
+				<scale>1.54563606 0.772818029 1.54563606</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15098</slotId>
+				<tags>formfactor_rect1x3 direction_left_to_right</tags>
+				<position>0.678566992 1.45160604 2.8705821</position>
+				<rotation>0.469197005 0.942094982 -2.81330895</rotation>
+				<scale>1.54563606 0.772818029 1.54563606</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15099</slotId>
+				<tags>formfactor_rect1x4 direction_right_to_left</tags>
+				<position>-0.67473799 1.43994904 2.86679697</position>
+				<rotation>0.409440994 -0.991204023 2.68445206</rotation>
+				<scale>1.65964699 0.829823017 1.65964699</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15100</slotId>
+				<tags>formfactor_rect1x4 direction_left_to_right</tags>
+				<position>0.67473799 1.43994904 2.86679697</position>
+				<rotation>0.409440994 0.991204023 -2.68445206</rotation>
+				<scale>1.65964699 0.829823017 1.65964699</scale>
+				<showOn>16</showOn>
+			</slot>
+		</customizationSlots>
+		<customization>
+			<customizableVehicleAreas>
+				<paint>HULL</paint>
+				<camouflage>HULL</camouflage>
+			</customizableVehicleAreas>
+		</customization>
+		<hangarShadowTexture>vehicles/british/GB136_FV245/FV245_HangarShadowMap.dds</hangarShadowTexture>
+		<camouflage>
+			<density>94.6878433 94.3155746</density>
+			<aoTextureSize>1024 1024</aoTextureSize>
+		</camouflage>
+	</hull>
+	<chassis>
+		<Chassis_GB136_FV245>
+			<userString>#gb_vehicles:Chassis_GB136_FV245</userString>
+			<tags></tags>
+			<level>8</level>
+			<price>31000</price>
+			<unlocks>
+				<chassis>Chassis_GB136_FV245_2
+					<cost>23500</cost>
+				</chassis>
+			</unlocks>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<weight>19000</weight>
+			<terrainResistance>1.1 1.4 2.3</terrainResistance>
+			<brakeForce>39500</brakeForce>
+			<rotationIsAroundCenter>true</rotationIsAroundCenter>
+			<rotationSpeed>26</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.18</vehicleMovement>
+				<vehicleRotation>0.18</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>220</maxHealth>
+			<maxRegenHealth>165</maxRegenHealth>
+			<repairCost>5.0</repairCost>
+			<models>
+				<undamaged>vehicles/british/GB136_FV245/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/british/GB136_FV245/crash/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/british/GB136_FV245/crash/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>MEDIUM</lodDist>
+				<activePostmortem>false</activePostmortem>
+				<tracesParams>
+					<trackPairIdx>0</trackPairIdx>
+					<bufferPrefs>mediumTank</bufferPrefs>
+					<textureSet>gb_24</textureSet>
+					<size>0.7 1.1</size>
+					<offset>0 0</offset>
+					<centerOffsetFactor>1 1</centerOffsetFactor>
+				</tracesParams>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM_TRACK</lodDist>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<leftMaterial>track_mat_L_skinned</leftMaterial>
+					<rightMaterial>track_mat_R_skinned</rightMaterial>
+					<textureScale>-6.2</textureScale>
+					<trackDebris>
+						<isLeft>true</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.0201650001</renderModelOffset>
+							<lengthwiseSpringLength>0.147046</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.835111022</widthwiseSpringLength>
+							<hingeJointStiffness>1943.40881</hingeJointStiffness>
+							<torsionStiffnessStep>8</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_L5</wheelName>
+									<groupRadius>0.370326012</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_L7</wheelName>
+									<wheelName>W_L6</wheelName>
+									<wheelName>W_L5</wheelName>
+									<wheelName>W_L4</wheelName>
+									<wheelName>W_L3</wheelName>
+									<wheelName>W_L2</wheelName>
+									<wheelName>W_L1</wheelName>
+									<wheelName>W_L0</wheelName>
+									<groupRadius>0.300000995</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_L4</wheelName>
+									<wheelName>WD_L3</wheelName>
+									<wheelName>WD_L2</wheelName>
+									<wheelName>WD_L1</wheelName>
+									<groupRadius>0.127875</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_L0</wheelName>
+									<groupRadius>0.320933998</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.93107104 0 0 0 1.495561 0 -0 0 8.18906879 -0 1.23712504 -0.0047960002</boxCollider>
+								<boxCollider>4.02731514 -0 -0 -0 0.300000012 -0 0 0 7.83058596 0 1.49088204 -0.0574950017</boxCollider>
+								<boxCollider>4.02731991 -9.99999997e-07 -0 0 0.149740994 -0.259956986 0 0.668074012 0.384824008 -0 1.37311006 -4.03692818</boxCollider>
+								<boxCollider>0.66514498 0 -0 0 1.49556005 0 -0 -0 8.18906975 -2.29584503 1.23713005 -0.0047960002</boxCollider>
+								<boxCollider>4.02731991 0 -9.99999997e-07 0 0.230823994 0.191624999 0 -0.412245989 0.496574014 -0 1.28757298 3.94209409</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+					<trackDebris>
+						<isLeft>false</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.020126</renderModelOffset>
+							<lengthwiseSpringLength>0.147046998</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.835111976</widthwiseSpringLength>
+							<hingeJointStiffness>1943.40576</hingeJointStiffness>
+							<torsionStiffnessStep>8</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_R5</wheelName>
+									<groupRadius>0.370287001</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_R7</wheelName>
+									<wheelName>W_R6</wheelName>
+									<wheelName>W_R5</wheelName>
+									<wheelName>W_R4</wheelName>
+									<wheelName>W_R3</wheelName>
+									<wheelName>W_R2</wheelName>
+									<wheelName>W_R1</wheelName>
+									<wheelName>W_R0</wheelName>
+									<groupRadius>0.300000995</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_R4</wheelName>
+									<wheelName>WD_R3</wheelName>
+									<wheelName>WD_R2</wheelName>
+									<wheelName>WD_R1</wheelName>
+									<groupRadius>0.127874002</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_R0</wheelName>
+									<groupRadius>0.320894986</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.966434 0 0 0 1.495561 0 0 0 8.18906879 0 1.23712504 -0.0047960002</boxCollider>
+								<boxCollider>3.86644197 0 0 0 0.300000012 0 0 0 7.96072483 0 1.49088204 -0.0574950017</boxCollider>
+								<boxCollider>4.02731991 -9.99999997e-07 -0 0 0.149740994 -0.259956986 0 0.668074012 0.384824008 -0 1.37311006 -4.03693008</boxCollider>
+								<boxCollider>0.66514498 0 0 -0 1.49556005 0 -0 -0 8.18906975 2.296 1.23713005 -0.0047960002</boxCollider>
+								<boxCollider>4.02731991 0 -9.99999997e-07 0 0.230823994 0.191624999 0 -0.412245989 0.496574014 -0 1.28757 3.94209003</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+				</trackPair>
+			</tracks>
+			<AODecals>
+				<decal>
+					<transform>5.59776878 0 -0 0 1.30695498 0 0 -0 9.03140831 -0 -0 0</transform>
+				</decal>
+			</AODecals>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<geometry>
+						<radius>0.337998986</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>WD_L</template>
+					<geometry>
+						<radius>0.125</radius>
+					</geometry>
+					<startIndex>1</startIndex>
+					<count>4</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L5</name>
+					<geometry>
+						<radius>0.438915998</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<startIndex>0</startIndex>
+					<count>7</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L7</name>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<geometry>
+						<radius>0.337998986</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>WD_R</template>
+					<geometry>
+						<radius>0.125</radius>
+					</geometry>
+					<startIndex>1</startIndex>
+					<count>4</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R5</name>
+					<geometry>
+						<radius>0.438915998</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<geometry>
+						<radius>0.300002009</radius>
+					</geometry>
+					<startIndex>0</startIndex>
+					<count>7</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>W_R7</name>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L5</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<mud>largeTankMud</mud>
+			</effects>
+			<wwsoundPC>treads_type_pc</wwsoundPC>
+			<wwsoundNPC>trds_chf_npc</wwsoundNPC>
+			<hullPosition>0 1.10369694 0</hullPosition>
+			<customizationSlots>
+				<slot>
+					<slotType>paint</slotType>
+					<slotId>21000</slotId>
+					<anchorPosition>-2.074111 0.335734 -0</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>style</slotType>
+					<slotId>29000</slotId>
+					<anchorPosition>0 2.789175 -0.288472</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+			</customizationSlots>
+			<customization>
+				<customizableVehicleAreas>
+					<paint>CHASSIS</paint>
+					<camouflage></camouflage>
+				</customizableVehicleAreas>
+			</customization>
+			<hitTester>
+				<trackPairIdx>0</trackPairIdx>
+				<collisionModelServer>vehicles/british/GB136_FV245/collision/Chassis.model</collisionModelServer>
+				<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Chassis.model</collisionModelClient>
+			</hitTester>
+			<topRightCarryingPoint>1.51147199 2.79845405</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<trackNodes>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<trackThickness>-0.01</trackThickness>
+					<maxAmplitude>0.01</maxAmplitude>
+					<maxOffset>0.01</maxOffset>
+					<gravity>-9.8</gravity>
+					<damping>2</damping>
+					<enable>true</enable>
+					<linkBones>false</linkBones>
+					<elasticity>1100</elasticity>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L0</name>
+						<forwardElastK>0.6</forwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L1</name>
+						<forwardElastK>0.8</forwardElastK>
+						<backwardElastK>0.6</backwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R0</name>
+						<forwardElastK>0.6</forwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R1</name>
+						<forwardElastK>0.8</forwardElastK>
+						<backwardElastK>0.6</backwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+				</trackPair>
+			</trackNodes>
+			<groundNodes>
+				<node>
+					<name>Track_L0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L4</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L5</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L6</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L7</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R4</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R5</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R6</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R7</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+			</groundNodes>
+			<splineDesc>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentModelLeft>vehicles/british/GB136_FV245/track/segment.model</segmentModelLeft>
+					<segmentModelRight>vehicles/british/GB136_FV245/track/segment.model</segmentModelRight>
+					<left>vehicles/british/GB136_FV245/track/left.track</left>
+					<right>vehicles/british/GB136_FV245/track/right.track</right>
+					<segmentLength>0.15</segmentLength>
+					<segmentOffset>0</segmentOffset>
+					<segment2Offset>0.1</segment2Offset>
+					<atlas>
+						<UTiles>1</UTiles>
+						<VTiles>1</VTiles>
+					</atlas>
+				</trackPair>
+				<lodDist>SPLINE_TRACK</lodDist>
+			</splineDesc>
+			<physicalTracks>
+				<left>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>113</segmentsCount>
+					<segmentsOuterThickness>0.05</segmentsOuterThickness>
+					<segmentsInnerThickness>0.01</segmentsInnerThickness>
+					<segmentsPlaneOffset>-1.5</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/british/GB136_FV245/track/segment.model</model>
+						<length>0.141211003</length>
+					</mainSegment>
+					<springsLength>
+						<backwardMovement>
+							<back>0.147827998</back>
+							<top>0.147193998</top>
+							<front>0.145505995</front>
+							<bottom>0.103496</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.143530995</back>
+							<top>0.147193998</top>
+							<front>0.150193006</front>
+							<bottom>0.103496</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_L5</wheel>
+						<wheel>W_L7</wheel>
+						<wheel>W_L6</wheel>
+						<wheel>W_L5</wheel>
+						<wheel>W_L4</wheel>
+						<wheel>W_L3</wheel>
+						<wheel>W_L2</wheel>
+						<wheel>W_L1</wheel>
+						<wheel>W_L0</wheel>
+						<wheel>WD_L0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_L0</wheelName>
+							<basePos>3.510352 0.8786</basePos>
+							<shiftVec>0.318915993 0.0965650007</shiftVec>
+							<jointIdx>10</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_L5</wheelName>
+							<basePos>-3.56686401 0.827356994</basePos>
+							<shiftVec>-0.355037987 0.142603993</shiftVec>
+							<jointIdx>64</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_L7</wheelName>
+							<basePos>-2.79591894 0.364897013</basePos>
+							<shiftVec>0.0154130002 -0.312281996</shiftVec>
+							<jointIdx>75</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_L0</wheelName>
+							<basePos>2.79878092 0.364894986</basePos>
+							<shiftVec>0.00846699998 -0.312168002</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_L5</name>
+							<radius>0.381563008</radius>
+						</wheel>
+						<wheel>
+							<name>WD_L0</name>
+							<radius>0.332015991</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_L5</name>
+							<startAngle>0.101497002</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+						<sync>
+							<name>WD_L0</name>
+							<startAngle>-6.06986713</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<bottom>
+							<part>
+								<xStart>-3.14396</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.878654 0.878654 0.878654 0.878654 0.878654 0.878654 0.878654</ySamples>
+							</part>
+							<part>
+								<xStart>-3.08396101</xStart>
+								<xStep>1.02377701</xStep>
+								<ySamples>0.948654 0.948649 0.948646 0.948645 0.948641 0.94864 0.948634</ySamples>
+							</part>
+							<part>
+								<xStart>3.0587</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.948634 0.938634 0.928634 0.918634 0.908634 0.898634 0.888634</ySamples>
+							</part>
+						</bottom>
+						<top>
+							<part>
+								<xStart>-4.00182915</xStart>
+								<xStep>0.0706050023</xStep>
+								<ySamples>1.18052 1.26528 1.2653 1.26532 1.26534 1.26536 1.26538 1.2654 1.26542 1.26544 1.26546 1.26548 1.2655 1.26551 1.26553 1.26555 1.26557 1.26559 1.26561 1.26563 1.26565 1.26567 1.26569 1.26571 1.26573 1.26575 1.26577 1.26579 1.26581 1.26582 1.26584 1.26586 1.26588 1.2659 1.26592 1.26594 1.26596 1.26598 1.266 1.26602 1.26604 1.26606 1.26608 1.2661 1.26612 1.26613 1.26615 1.26617 1.26619 1.26621 1.26623 1.26625 1.26627 1.26629 1.26631 1.26633 1.26635 1.26637 1.26639 1.26641 1.26642 1.26644 1.26646 1.26648 1.2665 1.26652 1.26654 1.26656 1.26658 1.2666 1.26662 1.26664 1.26666 1.26668 1.2667 1.26672 1.26673 1.26675 1.26677 1.26679 1.26681 1.26683 1.26685 1.26687 1.26689 1.26691 1.26693 1.26695 1.26697 1.26699 1.26701 1.26702 1.26704 1.26706 1.26708 1.2671 1.26712 1.26714 1.26716 1.26718 1.2672 1.26722 1.26722 1.26723 1.26724 1.26725 1.26726 1.26727 1.26704 1.26706 1.26708 1.25102 1.18102</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<bottom>
+							<range>
+								<point>-1.70822096 0.878297985 -3.08396101</point>
+								<point>-1.70822096 0.878292978 -1.67185497</point>
+								<point>-1.708221 0.87829 -0.118538</point>
+								<point>-1.70822096 0.878288984 0.0932769999</point>
+								<point>-1.70822096 0.878284991 1.50538301</point>
+								<point>-1.70822096 0.878283978 1.71719897</point>
+								<point>-1.708221 0.878278 3.0587</point>
+							</range>
+						</bottom>
+						<top>
+							<range>
+								<point>-1.85822105 1.25413597 -4.00182915</point>
+								<point>-1.85822105 1.33889604 -3.93122411</point>
+								<point>-1.85822105 1.33891499 -3.86061907</point>
+								<point>-1.85822105 1.33893394 -3.79001403</point>
+								<point>-1.85822105 1.33895397 -3.71940804</point>
+								<point>-1.85822105 1.33897305 -3.648803</point>
+								<point>-1.85822105 1.338992 -3.57819796</point>
+								<point>-1.85822105 1.33901203 -3.50759196</point>
+								<point>-1.85822105 1.33903098 -3.43698692</point>
+								<point>-1.85822105 1.33905101 -3.36638188</point>
+								<point>-1.858221 1.33907 -3.295777</point>
+								<point>-1.85822105 1.33908904 -3.22517109</point>
+								<point>-1.85822105 1.33910894 -3.15456605</point>
+								<point>-1.85822105 1.33912802 -3.08396101</point>
+								<point>-1.85822105 1.33914697 -3.01335502</point>
+								<point>-1.858221 1.339167 -2.94275</point>
+								<point>-1.85822105 1.33918595 -2.87214494</point>
+								<point>-1.85822105 1.33920503 -2.80153894</point>
+								<point>-1.85822105 1.33922505 -2.7309339</point>
+								<point>-1.85822105 1.33924401 -2.6603291</point>
+								<point>-1.85822105 1.33926296 -2.58972406</point>
+								<point>-1.85822105 1.33928299 -2.51911807</point>
+								<point>-1.85822105 1.33930194 -2.44851303</point>
+								<point>-1.85822105 1.33932197 -2.37790799</point>
+								<point>-1.85822105 1.33934104 -2.307302</point>
+								<point>-1.858221 1.33936 -2.236697</point>
+								<point>-1.858221 1.33938 -2.166092</point>
+								<point>-1.85822105 1.33939898 -2.09548712</point>
+								<point>-1.85822105 1.33941805 -2.02488089</point>
+								<point>-1.85822105 1.33943796 -1.95427597</point>
+								<point>-1.85822105 1.33945704 -1.88367105</point>
+								<point>-1.85822105 1.33947599 -1.81306601</point>
+								<point>-1.858221 1.339496 -1.74246</point>
+								<point>-1.85822105 1.33951497 -1.67185497</point>
+								<point>-1.858221 1.339535 -1.60125</point>
+								<point>-1.85822105 1.33955395 -1.53064406</point>
+								<point>-1.85822105 1.33957303 -1.46003902</point>
+								<point>-1.85822105 1.33959305 -1.38943398</point>
+								<point>-1.85822105 1.33961201 -1.31882799</point>
+								<point>-1.85822105 1.33963096 -1.24822295</point>
+								<point>-1.85822105 1.33965099 -1.17761803</point>
+								<point>-1.858221 1.33967 -1.107012</point>
+								<point>-1.85822105 1.33968902 -1.03640699</point>
+								<point>-1.85822105 1.33970904 -0.965802014</point>
+								<point>-1.85822105 1.339728 -0.895196021</point>
+								<point>-1.85822105 1.33974695 -0.824590981</point>
+								<point>-1.85822105 1.33976698 -0.753986001</point>
+								<point>-1.85822105 1.33978605 -0.683381021</point>
+								<point>-1.85822105 1.33980596 -0.612775028</point>
+								<point>-1.858221 1.339825 -0.54217</point>
+								<point>-1.85822105 1.33984399 -0.471565008</point>
+								<point>-1.85822105 1.33986402 -0.400959015</point>
+								<point>-1.85822105 1.33988297 -0.330354005</point>
+								<point>-1.85822105 1.33990204 -0.259748995</point>
+								<point>-1.85822105 1.33992195 -0.189144</point>
+								<point>-1.85822105 1.33994102 -0.118538</point>
+								<point>-1.858221 1.33996 -0.047933</point>
+								<point>-1.858221 1.33998 0.022672</point>
+								<point>-1.85822105 1.33999896 0.0932769999</point>
+								<point>-1.85822105 1.34001899 0.163883001</point>
+								<point>-1.85822105 1.34003794 0.234487996</point>
+								<point>-1.85822105 1.34005702 0.30509299</point>
+								<point>-1.85822105 1.34007704 0.375699013</point>
+								<point>-1.85822105 1.340096 0.446303993</point>
+								<point>-1.85822105 1.34011495 0.516909003</point>
+								<point>-1.85822105 1.34013498 0.587513983</point>
+								<point>-1.858221 1.340154 0.65812</point>
+								<point>-1.85822105 1.34017301 0.728725016</point>
+								<point>-1.858221 1.340193 0.79933</point>
+								<point>-1.85822105 1.34021199 0.869935989</point>
+								<point>-1.85822105 1.34023094 0.940541029</point>
+								<point>-1.85822105 1.34025097 1.01114702</point>
+								<point>-1.858221 1.34027 1.081752</point>
+								<point>-1.858221 1.34029 1.152357</point>
+								<point>-1.85822105 1.34030902 1.22296202</point>
+								<point>-1.85822105 1.34032798 1.29356802</point>
+								<point>-1.85822105 1.34034801 1.36417305</point>
+								<point>-1.85822105 1.34036696 1.43477798</point>
+								<point>-1.85822105 1.34038603 1.50538301</point>
+								<point>-1.85822105 1.34040594 1.57598901</point>
+								<point>-1.85822105 1.34042501 1.64659405</point>
+								<point>-1.85822105 1.34044397 1.71719897</point>
+								<point>-1.85822105 1.340464 1.78780496</point>
+								<point>-1.858221 1.340483 1.85841</point>
+								<point>-1.85822105 1.34050298 1.92901504</point>
+								<point>-1.858221 1.340522 1.99962</point>
+								<point>-1.85822105 1.34054101 2.07022595</point>
+								<point>-1.85822105 1.34056103 2.14083099</point>
+								<point>-1.858221 1.34058 2.211436</point>
+								<point>-1.85822105 1.34059894 2.28204203</point>
+								<point>-1.85822105 1.34061897 2.35264707</point>
+								<point>-1.85822105 1.34063804 2.42325211</point>
+								<point>-1.85822105 1.340657 2.49385691</point>
+								<point>-1.85822105 1.34067702 2.5644629</point>
+								<point>-1.85822105 1.34069598 2.63506794</point>
+								<point>-1.85822105 1.34071505 2.70567298</point>
+								<point>-1.85822105 1.34073496 2.77627802</point>
+								<point>-1.85822105 1.34075403 2.84688401</point>
+								<point>-1.85822105 1.34077406 2.91748905</point>
+								<point>-1.85822105 1.34079301 2.98809409</point>
+								<point>-1.858221 1.340812 3.0587</point>
+								<point>-1.85822105 1.34082794 3.12930489</point>
+								<point>-1.858221 1.340837 3.19991</point>
+								<point>-1.85822105 1.34084499 3.27051497</point>
+								<point>-1.85822105 1.34085298 3.34112096</point>
+								<point>-1.85822105 1.34086204 3.411726</point>
+								<point>-1.858221 1.34087 3.482331</point>
+								<point>-1.85822105 1.34087801 3.55293703</point>
+								<point>-1.70822096 1.34065604 3.62354207</point>
+								<point>-1.70822096 1.34067595 3.69414711</point>
+								<point>-1.70822096 1.34069598 3.76475191</point>
+								<point>-1.708221 1.32463 3.835358</point>
+								<point>-1.85822105 1.25463295 3.90596294</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</left>
+				<right>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>113</segmentsCount>
+					<segmentsOuterThickness>0.05</segmentsOuterThickness>
+					<segmentsInnerThickness>0.01</segmentsInnerThickness>
+					<segmentsPlaneOffset>1.5</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/british/GB136_FV245/track/segment.model</model>
+						<length>0.14121</length>
+					</mainSegment>
+					<springsLength>
+						<backwardMovement>
+							<back>0.14785</back>
+							<top>0.147193998</top>
+							<front>0.145505995</front>
+							<bottom>0.103496</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.143161997</back>
+							<top>0.147193998</top>
+							<front>0.150193006</front>
+							<bottom>0.103496</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_R5</wheel>
+						<wheel>W_R7</wheel>
+						<wheel>W_R6</wheel>
+						<wheel>W_R5</wheel>
+						<wheel>W_R4</wheel>
+						<wheel>W_R3</wheel>
+						<wheel>W_R2</wheel>
+						<wheel>W_R1</wheel>
+						<wheel>W_R0</wheel>
+						<wheel>WD_R0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_R0</wheelName>
+							<basePos>3.510352 0.8786</basePos>
+							<shiftVec>0.318915993 0.0965650007</shiftVec>
+							<jointIdx>10</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_R5</wheelName>
+							<basePos>-3.56686401 0.827356994</basePos>
+							<shiftVec>-0.355042011 0.142593995</shiftVec>
+							<jointIdx>64</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_R7</wheelName>
+							<basePos>-2.79624605 0.364897013</basePos>
+							<shiftVec>0.0156970005 -0.312321007</shiftVec>
+							<jointIdx>75</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_R0</wheelName>
+							<basePos>2.79845405 0.364895999</basePos>
+							<shiftVec>0.0087580001 -0.312198997</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_R5</name>
+							<radius>0.381563008</radius>
+						</wheel>
+						<wheel>
+							<name>WD_R0</name>
+							<radius>0.332015991</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_R5</name>
+							<startAngle>0.101585999</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+						<sync>
+							<name>WD_R0</name>
+							<startAngle>-6.06992197</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<bottom>
+							<part>
+								<xStart>-3.14396906</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.878654 0.878654 0.878654 0.878654 0.878654 0.878654 0.878654</ySamples>
+							</part>
+							<part>
+								<xStart>-3.08396912</xStart>
+								<xStep>1.02377498</xStep>
+								<ySamples>0.948654 0.948649 0.948646 0.948645 0.948641 0.94864 0.948634</ySamples>
+							</part>
+							<part>
+								<xStart>3.05867791</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.948634 0.938634 0.928634 0.918634 0.908634 0.898634 0.888634</ySamples>
+							</part>
+						</bottom>
+						<top>
+							<part>
+								<xStart>-4.00183582</xStart>
+								<xStep>0.0706050023</xStep>
+								<ySamples>1.18051 1.26528 1.2653 1.26532 1.26534 1.26536 1.26538 1.2654 1.26542 1.26544 1.26546 1.26548 1.2655 1.26552 1.26553 1.26555 1.26557 1.26559 1.26561 1.26563 1.26565 1.26567 1.26569 1.26571 1.26573 1.26575 1.26577 1.26579 1.26581 1.26583 1.26584 1.26586 1.26588 1.2659 1.26592 1.26594 1.26596 1.26598 1.266 1.26602 1.26604 1.26606 1.26608 1.2661 1.26612 1.26613 1.26615 1.26617 1.26619 1.26621 1.26623 1.26625 1.26627 1.26629 1.26631 1.26633 1.26635 1.26637 1.26639 1.26641 1.26642 1.26644 1.26646 1.26648 1.2665 1.26652 1.26654 1.26656 1.26658 1.2666 1.26662 1.26664 1.26666 1.26668 1.2667 1.26672 1.26673 1.26675 1.26677 1.26679 1.26681 1.26683 1.26685 1.26687 1.26689 1.26691 1.26693 1.26695 1.26697 1.26699 1.26701 1.26702 1.26704 1.26706 1.26708 1.2671 1.26712 1.26714 1.26716 1.26718 1.2672 1.26722 1.26722 1.26723 1.26724 1.26725 1.26726 1.26726 1.26704 1.26706 1.26708 1.24984 1.17599</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<bottom>
+							<range>
+								<point>1.70822096 0.878297985 -3.08396912</point>
+								<point>1.70822096 0.878292978 -1.67186701</point>
+								<point>1.708221 0.87829 -0.118554</point>
+								<point>1.70822096 0.878288984 0.0932620019</point>
+								<point>1.70822096 0.878284991 1.50536394</point>
+								<point>1.708221 0.878284 1.71718</point>
+								<point>1.70822096 0.878278017 3.05867791</point>
+							</range>
+						</bottom>
+						<top>
+							<range>
+								<point>1.85822105 1.25412405 -4.00183582</point>
+								<point>1.85822105 1.33889604 -3.93123102</point>
+								<point>1.85822105 1.33891594 -3.86062598</point>
+								<point>1.85822105 1.33893502 -3.79002094</point>
+								<point>1.85822105 1.33895397 -3.7194159</point>
+								<point>1.858221 1.338974 -3.64881</point>
+								<point>1.85822105 1.33899295 -3.57820511</point>
+								<point>1.858221 1.339012 -3.5076</point>
+								<point>1.85822105 1.33903205 -3.43699503</point>
+								<point>1.858221 1.339051 -3.36639</point>
+								<point>1.858221 1.33907 -3.295785</point>
+								<point>1.858221 1.33909 -3.22518</point>
+								<point>1.85822105 1.33910894 -3.15457511</point>
+								<point>1.85822105 1.33912802 -3.08396912</point>
+								<point>1.85822105 1.33914804 -3.01336408</point>
+								<point>1.85822105 1.339167 -2.94275904</point>
+								<point>1.85822105 1.33918703 -2.872154</point>
+								<point>1.85822105 1.33920598 -2.80154896</point>
+								<point>1.85822105 1.33922505 -2.73094392</point>
+								<point>1.85822105 1.33924496 -2.66033792</point>
+								<point>1.85822105 1.33926404 -2.58973408</point>
+								<point>1.85822105 1.33928299 -2.51912808</point>
+								<point>1.85822105 1.33930302 -2.44852304</point>
+								<point>1.85822105 1.33932197 -2.377918</point>
+								<point>1.85822105 1.33934104 -2.30731297</point>
+								<point>1.85822105 1.33936095 -2.23670793</point>
+								<point>1.858221 1.33938 -2.166102</point>
+								<point>1.85822105 1.33939898 -2.09549809</point>
+								<point>1.85822105 1.33941901 -2.02489209</point>
+								<point>1.85822105 1.33943796 -1.95428705</point>
+								<point>1.85822105 1.33945704 -1.88368201</point>
+								<point>1.85822105 1.33947694 -1.81307697</point>
+								<point>1.85822105 1.33949602 -1.74247205</point>
+								<point>1.85822105 1.33951497 -1.67186701</point>
+								<point>1.85822105 1.339535 -1.60126197</point>
+								<point>1.85822105 1.33955395 -1.53065598</point>
+								<point>1.85822105 1.33957398 -1.46005094</point>
+								<point>1.85822105 1.33959305 -1.38944602</point>
+								<point>1.85822105 1.33961201 -1.31884098</point>
+								<point>1.85822105 1.33963203 -1.24823594</point>
+								<point>1.85822105 1.33965099 -1.17763102</point>
+								<point>1.858221 1.33967 -1.107026</point>
+								<point>1.858221 1.33969 -1.03642</point>
+								<point>1.85822105 1.33970904 -0.965816021</point>
+								<point>1.858221 1.339728 -0.89521</point>
+								<point>1.85822105 1.33974802 -0.824604988</point>
+								<point>1.858221 1.339767 -0.754</point>
+								<point>1.85822105 1.33978605 -0.683395028</point>
+								<point>1.858221 1.339806 -0.61279</point>
+								<point>1.85822105 1.33982503 -0.542183995</point>
+								<point>1.858221 1.339844 -0.47158</point>
+								<point>1.85822105 1.33986402 -0.400974005</point>
+								<point>1.85822105 1.33988297 -0.330368996</point>
+								<point>1.85822105 1.339903 -0.259763986</point>
+								<point>1.85822105 1.33992195 -0.189159006</point>
+								<point>1.85822105 1.33994102 -0.118554004</point>
+								<point>1.85822105 1.33996105 -0.0479479991</point>
+								<point>1.858221 1.33998 0.022656</point>
+								<point>1.85822105 1.33999896 0.0932620019</point>
+								<point>1.85822105 1.34001899 0.163866997</point>
+								<point>1.85822105 1.34003794 0.234472007</point>
+								<point>1.85822105 1.34005702 0.305076987</point>
+								<point>1.85822105 1.34007704 0.375681996</point>
+								<point>1.85822105 1.340096 0.44628799</point>
+								<point>1.85822105 1.34011495 0.516892016</point>
+								<point>1.85822105 1.34013498 0.587498009</point>
+								<point>1.85822105 1.34015405 0.658102989</point>
+								<point>1.85822105 1.34017301 0.728708029</point>
+								<point>1.85822105 1.34019303 0.799313009</point>
+								<point>1.85822105 1.34021199 0.869917989</point>
+								<point>1.85822105 1.34023094 0.940523028</point>
+								<point>1.85822105 1.34025097 1.01112795</point>
+								<point>1.858221 1.34027 1.081734</point>
+								<point>1.85822105 1.340289 1.15233898</point>
+								<point>1.85822105 1.34030902 1.22294402</point>
+								<point>1.85822105 1.34032798 1.29354894</point>
+								<point>1.85822105 1.34034801 1.36415398</point>
+								<point>1.85822105 1.34036696 1.43475902</point>
+								<point>1.85822105 1.34038603 1.50536394</point>
+								<point>1.858221 1.340406 1.57597</point>
+								<point>1.85822105 1.34042501 1.64657497</point>
+								<point>1.858221 1.340444 1.71718</point>
+								<point>1.85822105 1.340464 1.78778505</point>
+								<point>1.858221 1.340483 1.85839</point>
+								<point>1.85822105 1.34050202 1.92899501</point>
+								<point>1.858221 1.340522 1.9996</point>
+								<point>1.85822105 1.34054101 2.07020593</point>
+								<point>1.858221 1.34056 2.140811</point>
+								<point>1.858221 1.34058 2.211416</point>
+								<point>1.85822105 1.34059894 2.28202105</point>
+								<point>1.85822105 1.34061801 2.35262609</point>
+								<point>1.85822105 1.34063804 2.42323089</point>
+								<point>1.85822105 1.340657 2.49383593</point>
+								<point>1.85822105 1.34067702 2.56444192</point>
+								<point>1.85822105 1.34069598 2.63504696</point>
+								<point>1.85822105 1.34071505 2.705652</point>
+								<point>1.85822105 1.34073496 2.77625704</point>
+								<point>1.85822105 1.34075403 2.84686208</point>
+								<point>1.85822105 1.34077299 2.91746712</point>
+								<point>1.85822105 1.34079301 2.98807192</point>
+								<point>1.85822105 1.34081197 3.05867791</point>
+								<point>1.85822105 1.34082794 3.12928295</point>
+								<point>1.85822105 1.34083605 3.19988704</point>
+								<point>1.85822105 1.34084499 3.27049303</point>
+								<point>1.85822105 1.34085298 3.34109807</point>
+								<point>1.85822105 1.34086096 3.41170311</point>
+								<point>1.858221 1.34087 3.482308</point>
+								<point>1.85822105 1.34087801 3.5529139</point>
+								<point>1.70822096 1.34065604 3.62351894</point>
+								<point>1.70822096 1.340675 3.69412303</point>
+								<point>1.70822096 1.34069502 3.76472902</point>
+								<point>1.70822096 1.32345605 3.83533406</point>
+								<point>1.70822096 1.24959898 3.9059391</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</right>
+			</physicalTracks>
+			<camouflage>
+				<density>102.703369 103.162369</density>
+				<aoTextureSize>1024 512</aoTextureSize>
+			</camouflage>
+			<repairTime>6.85714293</repairTime>
+		</Chassis_GB136_FV245>
+		<Chassis_GB136_FV245_2>
+			<userString>#gb_vehicles:Chassis_GB136_FV245_2</userString>
+			<tags></tags>
+			<level>9</level>
+			<price>63000</price>
+			<armor>
+				<leftTrack>20</leftTrack>
+				<rightTrack>20</rightTrack>
+			</armor>
+			<weight>19000</weight>
+			<terrainResistance>1 1.1 1.9</terrainResistance>
+			<brakeForce>39500</brakeForce>
+			<rotationIsAroundCenter>true</rotationIsAroundCenter>
+			<rotationSpeed>28</rotationSpeed>
+			<shotDispersionFactors>
+				<vehicleMovement>0.16</vehicleMovement>
+				<vehicleRotation>0.16</vehicleRotation>
+			</shotDispersionFactors>
+			<bulkHealthFactor>3.0</bulkHealthFactor>
+			<maxHealth>240</maxHealth>
+			<maxRegenHealth>180</maxRegenHealth>
+			<repairCost>5.0</repairCost>
+			<models>
+				<undamaged>vehicles/british/GB136_FV245/normal/lod0/Chassis.model</undamaged>
+				<destroyed>vehicles/british/GB136_FV245/crash/lod0/Chassis.model</destroyed>
+				<exploded>vehicles/british/GB136_FV245/crash/lod0/Chassis.model</exploded>
+			</models>
+			<traces>
+				<lodDist>MEDIUM</lodDist>
+				<activePostmortem>false</activePostmortem>
+				<tracesParams>
+					<trackPairIdx>0</trackPairIdx>
+					<bufferPrefs>mediumTank</bufferPrefs>
+					<textureSet>gb_24</textureSet>
+					<size>0.7 1.1</size>
+					<offset>0 0</offset>
+					<centerOffsetFactor>1 1</centerOffsetFactor>
+				</tracesParams>
+			</traces>
+			<tracks>
+				<lodDist>MEDIUM_TRACK</lodDist>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<leftMaterial>track_mat_L_skinned</leftMaterial>
+					<rightMaterial>track_mat_R_skinned</rightMaterial>
+					<textureScale>-6.2</textureScale>
+					<trackDebris>
+						<isLeft>true</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.0201650001</renderModelOffset>
+							<lengthwiseSpringLength>0.147046</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.835111022</widthwiseSpringLength>
+							<hingeJointStiffness>1943.40881</hingeJointStiffness>
+							<torsionStiffnessStep>8</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_L5</wheelName>
+									<groupRadius>0.370326012</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_L7</wheelName>
+									<wheelName>W_L6</wheelName>
+									<wheelName>W_L5</wheelName>
+									<wheelName>W_L4</wheelName>
+									<wheelName>W_L3</wheelName>
+									<wheelName>W_L2</wheelName>
+									<wheelName>W_L1</wheelName>
+									<wheelName>W_L0</wheelName>
+									<groupRadius>0.300000995</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_L4</wheelName>
+									<wheelName>WD_L3</wheelName>
+									<wheelName>WD_L2</wheelName>
+									<wheelName>WD_L1</wheelName>
+									<groupRadius>0.127875</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_L0</wheelName>
+									<groupRadius>0.320933998</groupRadius>
+									<groupInnerOffset>0.550001979</groupInnerOffset>
+									<groupOuterOffset>-0.450002015</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.93107104 0 0 0 1.495561 0 -0 0 8.18906879 -0 1.23712504 -0.0047960002</boxCollider>
+								<boxCollider>4.02731514 -0 -0 -0 0.300000012 -0 0 0 7.83058596 0 1.49088204 -0.0574950017</boxCollider>
+								<boxCollider>4.02731991 -9.99999997e-07 -0 0 0.149740994 -0.259956986 0 0.668074012 0.384824008 -0 1.37311006 -4.03692818</boxCollider>
+								<boxCollider>0.66514498 0 -0 0 1.49556005 0 -0 -0 8.18906975 -2.29584503 1.23713005 -0.0047960002</boxCollider>
+								<boxCollider>4.02731991 0 -9.99999997e-07 0 0.230823994 0.191624999 0 -0.412245989 0.496574014 -0 1.28757298 3.94209409</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+					<trackDebris>
+						<isLeft>false</isLeft>
+						<destructionEffect></destructionEffect>
+						<physicalParams>
+							<renderModelOffset>-0.020126</renderModelOffset>
+							<lengthwiseSpringLength>0.147046998</lengthwiseSpringLength>
+							<widthwiseSpringLength>0.835111976</widthwiseSpringLength>
+							<hingeJointStiffness>1943.40576</hingeJointStiffness>
+							<torsionStiffnessStep>8</torsionStiffnessStep>
+							<wheelGroups>
+								<wheelGroup>
+									<wheelName>WD_R5</wheelName>
+									<groupRadius>0.370287001</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>W_R7</wheelName>
+									<wheelName>W_R6</wheelName>
+									<wheelName>W_R5</wheelName>
+									<wheelName>W_R4</wheelName>
+									<wheelName>W_R3</wheelName>
+									<wheelName>W_R2</wheelName>
+									<wheelName>W_R1</wheelName>
+									<wheelName>W_R0</wheelName>
+									<groupRadius>0.300000995</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_R4</wheelName>
+									<wheelName>WD_R3</wheelName>
+									<wheelName>WD_R2</wheelName>
+									<wheelName>WD_R1</wheelName>
+									<groupRadius>0.127874002</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+								<wheelGroup>
+									<wheelName>WD_R0</wheelName>
+									<groupRadius>0.320894986</groupRadius>
+									<groupInnerOffset>-0.550001979</groupInnerOffset>
+									<groupOuterOffset>0.450002015</groupOuterOffset>
+								</wheelGroup>
+							</wheelGroups>
+							<hullCollider>
+								<boxCollider>1.966434 0 0 0 1.495561 0 0 0 8.18906879 0 1.23712504 -0.0047960002</boxCollider>
+								<boxCollider>3.86644197 0 0 0 0.300000012 0 0 0 7.96072483 0 1.49088204 -0.0574950017</boxCollider>
+								<boxCollider>4.02731991 -9.99999997e-07 -0 0 0.149740994 -0.259956986 0 0.668074012 0.384824008 -0 1.37311006 -4.03693008</boxCollider>
+								<boxCollider>0.66514498 0 0 -0 1.49556005 0 -0 -0 8.18906975 2.296 1.23713005 -0.0047960002</boxCollider>
+								<boxCollider>4.02731991 0 -9.99999997e-07 0 0.230823994 0.191624999 0 -0.412245989 0.496574014 -0 1.28757 3.94209003</boxCollider>
+							</hullCollider>
+						</physicalParams>
+					</trackDebris>
+				</trackPair>
+			</tracks>
+			<AODecals>
+				<decal>
+					<transform>5.59776878 0 -0 0 1.30695498 0 0 -0 9.03140831 -0 -0 0</transform>
+				</decal>
+			</AODecals>
+			<wheels>
+				<lodDist>MEDIUM</lodDist>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L0</name>
+					<geometry>
+						<radius>0.337998986</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>WD_L</template>
+					<geometry>
+						<radius>0.125</radius>
+					</geometry>
+					<startIndex>1</startIndex>
+					<count>4</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>WD_L5</name>
+					<geometry>
+						<radius>0.438915998</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>true</isLeft>
+					<template>W_L</template>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<startIndex>0</startIndex>
+					<count>7</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>true</isLeft>
+					<name>W_L7</name>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R0</name>
+					<geometry>
+						<radius>0.337998986</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>WD_R</template>
+					<geometry>
+						<radius>0.125</radius>
+					</geometry>
+					<startIndex>1</startIndex>
+					<count>4</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>WD_R5</name>
+					<geometry>
+						<radius>0.438915998</radius>
+					</geometry>
+					<isLeading>true</isLeading>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+				<group>
+					<isLeft>false</isLeft>
+					<template>W_R</template>
+					<geometry>
+						<radius>0.300002009</radius>
+					</geometry>
+					<startIndex>0</startIndex>
+					<count>7</count>
+					<trackPairIdx>0</trackPairIdx>
+				</group>
+				<wheel>
+					<isLeft>false</isLeft>
+					<name>W_R7</name>
+					<geometry>
+						<radius>0.300000995</radius>
+					</geometry>
+					<trackPairIdx>0</trackPairIdx>
+					<syncAngle>21.176471</syncAngle>
+				</wheel>
+			</wheels>
+			<drivingWheels>WD_L0 WD_L5</drivingWheels>
+			<effects>
+				<lodDist>MEDIUM</lodDist>
+				<mud>largeTankMud</mud>
+			</effects>
+			<wwsoundPC>treads_type_pc</wwsoundPC>
+			<wwsoundNPC>trds_chf_npc</wwsoundNPC>
+			<hullPosition>0 1.10369694 0</hullPosition>
+			<customizationSlots>
+				<slot>
+					<slotType>paint</slotType>
+					<slotId>21000</slotId>
+					<anchorPosition>-2.074111 0.335734 -0</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>style</slotType>
+					<slotId>29000</slotId>
+					<anchorPosition>0 2.789175 -0.288472</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+			</customizationSlots>
+			<customization>
+				<customizableVehicleAreas>
+					<paint>CHASSIS</paint>
+					<camouflage></camouflage>
+				</customizableVehicleAreas>
+			</customization>
+			<hitTester>
+				<trackPairIdx>0</trackPairIdx>
+				<collisionModelServer>vehicles/british/GB136_FV245/collision/Chassis.model</collisionModelServer>
+				<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Chassis.model</collisionModelClient>
+			</hitTester>
+			<topRightCarryingPoint>1.51147199 2.79845405</topRightCarryingPoint>
+			<maxClimbAngle>25</maxClimbAngle>
+			<navmeshGirth>6.0</navmeshGirth>
+			<trackNodes>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<trackThickness>-0.01</trackThickness>
+					<maxAmplitude>0.01</maxAmplitude>
+					<maxOffset>0.01</maxOffset>
+					<gravity>-9.8</gravity>
+					<damping>2</damping>
+					<enable>true</enable>
+					<linkBones>false</linkBones>
+					<elasticity>1100</elasticity>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L0</name>
+						<forwardElastK>0.6</forwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>true</isLeft>
+						<name>Track_VD_L1</name>
+						<forwardElastK>0.8</forwardElastK>
+						<backwardElastK>0.6</backwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R0</name>
+						<forwardElastK>0.6</forwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+					<node>
+						<isLeft>false</isLeft>
+						<name>Track_VD_R1</name>
+						<forwardElastK>0.8</forwardElastK>
+						<backwardElastK>0.6</backwardElastK>
+						<trackPairIdx>0</trackPairIdx>
+					</node>
+				</trackPair>
+			</trackNodes>
+			<groundNodes>
+				<node>
+					<name>Track_L0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L4</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L5</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L6</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_L7</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>true</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R0</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R1</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R2</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R3</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R4</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R5</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R6</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+				<node>
+					<name>Track_R7</name>
+					<collisionSamplesCount>1</collisionSamplesCount>
+					<isLeft>false</isLeft>
+					<minOffset>-0.1</minOffset>
+					<maxOffset>0.3</maxOffset>
+					<trackPairIdx>0</trackPairIdx>
+				</node>
+			</groundNodes>
+			<splineDesc>
+				<trackPair>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentModelLeft>vehicles/british/GB136_FV245/track/segment.model</segmentModelLeft>
+					<segmentModelRight>vehicles/british/GB136_FV245/track/segment.model</segmentModelRight>
+					<left>vehicles/british/GB136_FV245/track/left.track</left>
+					<right>vehicles/british/GB136_FV245/track/right.track</right>
+					<segmentLength>0.15</segmentLength>
+					<segmentOffset>0</segmentOffset>
+					<segment2Offset>0.1</segment2Offset>
+					<atlas>
+						<UTiles>1</UTiles>
+						<VTiles>1</VTiles>
+					</atlas>
+				</trackPair>
+				<lodDist>SPLINE_TRACK</lodDist>
+			</splineDesc>
+			<physicalTracks>
+				<left>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>113</segmentsCount>
+					<segmentsOuterThickness>0.05</segmentsOuterThickness>
+					<segmentsInnerThickness>0.01</segmentsInnerThickness>
+					<segmentsPlaneOffset>-1.5</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/british/GB136_FV245/track/segment.model</model>
+						<length>0.141211003</length>
+					</mainSegment>
+					<springsLength>
+						<backwardMovement>
+							<back>0.147827998</back>
+							<top>0.147193998</top>
+							<front>0.145505995</front>
+							<bottom>0.103496</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.143530995</back>
+							<top>0.147193998</top>
+							<front>0.150193006</front>
+							<bottom>0.103496</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_L5</wheel>
+						<wheel>W_L7</wheel>
+						<wheel>W_L6</wheel>
+						<wheel>W_L5</wheel>
+						<wheel>W_L4</wheel>
+						<wheel>W_L3</wheel>
+						<wheel>W_L2</wheel>
+						<wheel>W_L1</wheel>
+						<wheel>W_L0</wheel>
+						<wheel>WD_L0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_L0</wheelName>
+							<basePos>3.510352 0.8786</basePos>
+							<shiftVec>0.318915993 0.0965650007</shiftVec>
+							<jointIdx>10</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_L5</wheelName>
+							<basePos>-3.56686401 0.827356994</basePos>
+							<shiftVec>-0.355037987 0.142603993</shiftVec>
+							<jointIdx>64</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_L7</wheelName>
+							<basePos>-2.79591894 0.364897013</basePos>
+							<shiftVec>0.0154130002 -0.312281996</shiftVec>
+							<jointIdx>75</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_L0</wheelName>
+							<basePos>2.79878092 0.364894986</basePos>
+							<shiftVec>0.00846699998 -0.312168002</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_L5</name>
+							<radius>0.381563008</radius>
+						</wheel>
+						<wheel>
+							<name>WD_L0</name>
+							<radius>0.332015991</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_L5</name>
+							<startAngle>0.101497002</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+						<sync>
+							<name>WD_L0</name>
+							<startAngle>-6.06986713</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<bottom>
+							<part>
+								<xStart>-3.14396</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.878654 0.878654 0.878654 0.878654 0.878654 0.878654 0.878654</ySamples>
+							</part>
+							<part>
+								<xStart>-3.08396101</xStart>
+								<xStep>1.02377701</xStep>
+								<ySamples>0.948654 0.948649 0.948646 0.948645 0.948641 0.94864 0.948634</ySamples>
+							</part>
+							<part>
+								<xStart>3.0587</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.948634 0.938634 0.928634 0.918634 0.908634 0.898634 0.888634</ySamples>
+							</part>
+						</bottom>
+						<top>
+							<part>
+								<xStart>-4.00182915</xStart>
+								<xStep>0.0706050023</xStep>
+								<ySamples>1.18052 1.26528 1.2653 1.26532 1.26534 1.26536 1.26538 1.2654 1.26542 1.26544 1.26546 1.26548 1.2655 1.26551 1.26553 1.26555 1.26557 1.26559 1.26561 1.26563 1.26565 1.26567 1.26569 1.26571 1.26573 1.26575 1.26577 1.26579 1.26581 1.26582 1.26584 1.26586 1.26588 1.2659 1.26592 1.26594 1.26596 1.26598 1.266 1.26602 1.26604 1.26606 1.26608 1.2661 1.26612 1.26613 1.26615 1.26617 1.26619 1.26621 1.26623 1.26625 1.26627 1.26629 1.26631 1.26633 1.26635 1.26637 1.26639 1.26641 1.26642 1.26644 1.26646 1.26648 1.2665 1.26652 1.26654 1.26656 1.26658 1.2666 1.26662 1.26664 1.26666 1.26668 1.2667 1.26672 1.26673 1.26675 1.26677 1.26679 1.26681 1.26683 1.26685 1.26687 1.26689 1.26691 1.26693 1.26695 1.26697 1.26699 1.26701 1.26702 1.26704 1.26706 1.26708 1.2671 1.26712 1.26714 1.26716 1.26718 1.2672 1.26722 1.26722 1.26723 1.26724 1.26725 1.26726 1.26727 1.26704 1.26706 1.26708 1.25102 1.18102</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<bottom>
+							<range>
+								<point>-1.70822096 0.878297985 -3.08396101</point>
+								<point>-1.70822096 0.878292978 -1.67185497</point>
+								<point>-1.708221 0.87829 -0.118538</point>
+								<point>-1.70822096 0.878288984 0.0932769999</point>
+								<point>-1.70822096 0.878284991 1.50538301</point>
+								<point>-1.70822096 0.878283978 1.71719897</point>
+								<point>-1.708221 0.878278 3.0587</point>
+							</range>
+						</bottom>
+						<top>
+							<range>
+								<point>-1.85822105 1.25413597 -4.00182915</point>
+								<point>-1.85822105 1.33889604 -3.93122411</point>
+								<point>-1.85822105 1.33891499 -3.86061907</point>
+								<point>-1.85822105 1.33893394 -3.79001403</point>
+								<point>-1.85822105 1.33895397 -3.71940804</point>
+								<point>-1.85822105 1.33897305 -3.648803</point>
+								<point>-1.85822105 1.338992 -3.57819796</point>
+								<point>-1.85822105 1.33901203 -3.50759196</point>
+								<point>-1.85822105 1.33903098 -3.43698692</point>
+								<point>-1.85822105 1.33905101 -3.36638188</point>
+								<point>-1.858221 1.33907 -3.295777</point>
+								<point>-1.85822105 1.33908904 -3.22517109</point>
+								<point>-1.85822105 1.33910894 -3.15456605</point>
+								<point>-1.85822105 1.33912802 -3.08396101</point>
+								<point>-1.85822105 1.33914697 -3.01335502</point>
+								<point>-1.858221 1.339167 -2.94275</point>
+								<point>-1.85822105 1.33918595 -2.87214494</point>
+								<point>-1.85822105 1.33920503 -2.80153894</point>
+								<point>-1.85822105 1.33922505 -2.7309339</point>
+								<point>-1.85822105 1.33924401 -2.6603291</point>
+								<point>-1.85822105 1.33926296 -2.58972406</point>
+								<point>-1.85822105 1.33928299 -2.51911807</point>
+								<point>-1.85822105 1.33930194 -2.44851303</point>
+								<point>-1.85822105 1.33932197 -2.37790799</point>
+								<point>-1.85822105 1.33934104 -2.307302</point>
+								<point>-1.858221 1.33936 -2.236697</point>
+								<point>-1.858221 1.33938 -2.166092</point>
+								<point>-1.85822105 1.33939898 -2.09548712</point>
+								<point>-1.85822105 1.33941805 -2.02488089</point>
+								<point>-1.85822105 1.33943796 -1.95427597</point>
+								<point>-1.85822105 1.33945704 -1.88367105</point>
+								<point>-1.85822105 1.33947599 -1.81306601</point>
+								<point>-1.858221 1.339496 -1.74246</point>
+								<point>-1.85822105 1.33951497 -1.67185497</point>
+								<point>-1.858221 1.339535 -1.60125</point>
+								<point>-1.85822105 1.33955395 -1.53064406</point>
+								<point>-1.85822105 1.33957303 -1.46003902</point>
+								<point>-1.85822105 1.33959305 -1.38943398</point>
+								<point>-1.85822105 1.33961201 -1.31882799</point>
+								<point>-1.85822105 1.33963096 -1.24822295</point>
+								<point>-1.85822105 1.33965099 -1.17761803</point>
+								<point>-1.858221 1.33967 -1.107012</point>
+								<point>-1.85822105 1.33968902 -1.03640699</point>
+								<point>-1.85822105 1.33970904 -0.965802014</point>
+								<point>-1.85822105 1.339728 -0.895196021</point>
+								<point>-1.85822105 1.33974695 -0.824590981</point>
+								<point>-1.85822105 1.33976698 -0.753986001</point>
+								<point>-1.85822105 1.33978605 -0.683381021</point>
+								<point>-1.85822105 1.33980596 -0.612775028</point>
+								<point>-1.858221 1.339825 -0.54217</point>
+								<point>-1.85822105 1.33984399 -0.471565008</point>
+								<point>-1.85822105 1.33986402 -0.400959015</point>
+								<point>-1.85822105 1.33988297 -0.330354005</point>
+								<point>-1.85822105 1.33990204 -0.259748995</point>
+								<point>-1.85822105 1.33992195 -0.189144</point>
+								<point>-1.85822105 1.33994102 -0.118538</point>
+								<point>-1.858221 1.33996 -0.047933</point>
+								<point>-1.858221 1.33998 0.022672</point>
+								<point>-1.85822105 1.33999896 0.0932769999</point>
+								<point>-1.85822105 1.34001899 0.163883001</point>
+								<point>-1.85822105 1.34003794 0.234487996</point>
+								<point>-1.85822105 1.34005702 0.30509299</point>
+								<point>-1.85822105 1.34007704 0.375699013</point>
+								<point>-1.85822105 1.340096 0.446303993</point>
+								<point>-1.85822105 1.34011495 0.516909003</point>
+								<point>-1.85822105 1.34013498 0.587513983</point>
+								<point>-1.858221 1.340154 0.65812</point>
+								<point>-1.85822105 1.34017301 0.728725016</point>
+								<point>-1.858221 1.340193 0.79933</point>
+								<point>-1.85822105 1.34021199 0.869935989</point>
+								<point>-1.85822105 1.34023094 0.940541029</point>
+								<point>-1.85822105 1.34025097 1.01114702</point>
+								<point>-1.858221 1.34027 1.081752</point>
+								<point>-1.858221 1.34029 1.152357</point>
+								<point>-1.85822105 1.34030902 1.22296202</point>
+								<point>-1.85822105 1.34032798 1.29356802</point>
+								<point>-1.85822105 1.34034801 1.36417305</point>
+								<point>-1.85822105 1.34036696 1.43477798</point>
+								<point>-1.85822105 1.34038603 1.50538301</point>
+								<point>-1.85822105 1.34040594 1.57598901</point>
+								<point>-1.85822105 1.34042501 1.64659405</point>
+								<point>-1.85822105 1.34044397 1.71719897</point>
+								<point>-1.85822105 1.340464 1.78780496</point>
+								<point>-1.858221 1.340483 1.85841</point>
+								<point>-1.85822105 1.34050298 1.92901504</point>
+								<point>-1.858221 1.340522 1.99962</point>
+								<point>-1.85822105 1.34054101 2.07022595</point>
+								<point>-1.85822105 1.34056103 2.14083099</point>
+								<point>-1.858221 1.34058 2.211436</point>
+								<point>-1.85822105 1.34059894 2.28204203</point>
+								<point>-1.85822105 1.34061897 2.35264707</point>
+								<point>-1.85822105 1.34063804 2.42325211</point>
+								<point>-1.85822105 1.340657 2.49385691</point>
+								<point>-1.85822105 1.34067702 2.5644629</point>
+								<point>-1.85822105 1.34069598 2.63506794</point>
+								<point>-1.85822105 1.34071505 2.70567298</point>
+								<point>-1.85822105 1.34073496 2.77627802</point>
+								<point>-1.85822105 1.34075403 2.84688401</point>
+								<point>-1.85822105 1.34077406 2.91748905</point>
+								<point>-1.85822105 1.34079301 2.98809409</point>
+								<point>-1.858221 1.340812 3.0587</point>
+								<point>-1.85822105 1.34082794 3.12930489</point>
+								<point>-1.858221 1.340837 3.19991</point>
+								<point>-1.85822105 1.34084499 3.27051497</point>
+								<point>-1.85822105 1.34085298 3.34112096</point>
+								<point>-1.85822105 1.34086204 3.411726</point>
+								<point>-1.858221 1.34087 3.482331</point>
+								<point>-1.85822105 1.34087801 3.55293703</point>
+								<point>-1.70822096 1.34065604 3.62354207</point>
+								<point>-1.70822096 1.34067595 3.69414711</point>
+								<point>-1.70822096 1.34069598 3.76475191</point>
+								<point>-1.708221 1.32463 3.835358</point>
+								<point>-1.85822105 1.25463295 3.90596294</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</left>
+				<right>
+					<trackPairIdx>0</trackPairIdx>
+					<segmentsCount>113</segmentsCount>
+					<segmentsOuterThickness>0.05</segmentsOuterThickness>
+					<segmentsInnerThickness>0.01</segmentsInnerThickness>
+					<segmentsPlaneOffset>1.5</segmentsPlaneOffset>
+					<mainSegment>
+						<model>vehicles/british/GB136_FV245/track/segment.model</model>
+						<length>0.14121</length>
+					</mainSegment>
+					<springsLength>
+						<backwardMovement>
+							<back>0.14785</back>
+							<top>0.147193998</top>
+							<front>0.145505995</front>
+							<bottom>0.103496</bottom>
+						</backwardMovement>
+						<forwardMovement>
+							<back>0.143161997</back>
+							<top>0.147193998</top>
+							<front>0.150193006</front>
+							<bottom>0.103496</bottom>
+						</forwardMovement>
+					</springsLength>
+					<bottomWheels>
+						<wheel>WD_R5</wheel>
+						<wheel>W_R7</wheel>
+						<wheel>W_R6</wheel>
+						<wheel>W_R5</wheel>
+						<wheel>W_R4</wheel>
+						<wheel>W_R3</wheel>
+						<wheel>W_R2</wheel>
+						<wheel>W_R1</wheel>
+						<wheel>W_R0</wheel>
+						<wheel>WD_R0</wheel>
+					</bottomWheels>
+					<snapWheels>
+						<topFront>
+							<wheelName>WD_R0</wheelName>
+							<basePos>3.510352 0.8786</basePos>
+							<shiftVec>0.318915993 0.0965650007</shiftVec>
+							<jointIdx>10</jointIdx>
+						</topFront>
+						<topBack>
+							<wheelName>WD_R5</wheelName>
+							<basePos>-3.56686401 0.827356994</basePos>
+							<shiftVec>-0.355042011 0.142593995</shiftVec>
+							<jointIdx>64</jointIdx>
+						</topBack>
+						<bottomBack>
+							<wheelName>W_R7</wheelName>
+							<basePos>-2.79624605 0.364897013</basePos>
+							<shiftVec>0.0156970005 -0.312321007</shiftVec>
+							<jointIdx>75</jointIdx>
+						</bottomBack>
+						<bottomFront>
+							<wheelName>W_R0</wheelName>
+							<basePos>2.79845405 0.364895999</basePos>
+							<shiftVec>0.0087580001 -0.312198997</shiftVec>
+							<jointIdx>0</jointIdx>
+						</bottomFront>
+					</snapWheels>
+					<radiusOverrides>
+						<wheel>
+							<name>WD_R5</name>
+							<radius>0.381563008</radius>
+						</wheel>
+						<wheel>
+							<name>WD_R0</name>
+							<radius>0.332015991</radius>
+						</wheel>
+					</radiusOverrides>
+					<teethSyncs>
+						<syncWithMainModel>true</syncWithMainModel>
+						<segmentSyncPivotOffset>0</segmentSyncPivotOffset>
+						<sync>
+							<name>WD_R5</name>
+							<startAngle>0.101585999</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+						<sync>
+							<name>WD_R0</name>
+							<startAngle>-6.06992197</startAngle>
+							<teethCount>17</teethCount>
+						</sync>
+					</teethSyncs>
+					<collisionHull>
+						<bottom>
+							<part>
+								<xStart>-3.14396906</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.878654 0.878654 0.878654 0.878654 0.878654 0.878654 0.878654</ySamples>
+							</part>
+							<part>
+								<xStart>-3.08396912</xStart>
+								<xStep>1.02377498</xStep>
+								<ySamples>0.948654 0.948649 0.948646 0.948645 0.948641 0.94864 0.948634</ySamples>
+							</part>
+							<part>
+								<xStart>3.05867791</xStart>
+								<xStep>0.01</xStep>
+								<ySamples>0.948634 0.938634 0.928634 0.918634 0.908634 0.898634 0.888634</ySamples>
+							</part>
+						</bottom>
+						<top>
+							<part>
+								<xStart>-4.00183582</xStart>
+								<xStep>0.0706050023</xStep>
+								<ySamples>1.18051 1.26528 1.2653 1.26532 1.26534 1.26536 1.26538 1.2654 1.26542 1.26544 1.26546 1.26548 1.2655 1.26552 1.26553 1.26555 1.26557 1.26559 1.26561 1.26563 1.26565 1.26567 1.26569 1.26571 1.26573 1.26575 1.26577 1.26579 1.26581 1.26583 1.26584 1.26586 1.26588 1.2659 1.26592 1.26594 1.26596 1.26598 1.266 1.26602 1.26604 1.26606 1.26608 1.2661 1.26612 1.26613 1.26615 1.26617 1.26619 1.26621 1.26623 1.26625 1.26627 1.26629 1.26631 1.26633 1.26635 1.26637 1.26639 1.26641 1.26642 1.26644 1.26646 1.26648 1.2665 1.26652 1.26654 1.26656 1.26658 1.2666 1.26662 1.26664 1.26666 1.26668 1.2667 1.26672 1.26673 1.26675 1.26677 1.26679 1.26681 1.26683 1.26685 1.26687 1.26689 1.26691 1.26693 1.26695 1.26697 1.26699 1.26701 1.26702 1.26704 1.26706 1.26708 1.2671 1.26712 1.26714 1.26716 1.26718 1.2672 1.26722 1.26722 1.26723 1.26724 1.26725 1.26726 1.26726 1.26704 1.26706 1.26708 1.24984 1.17599</ySamples>
+							</part>
+						</top>
+					</collisionHull>
+					<sourceCollisionHullPoints>
+						<bottom>
+							<range>
+								<point>1.70822096 0.878297985 -3.08396912</point>
+								<point>1.70822096 0.878292978 -1.67186701</point>
+								<point>1.708221 0.87829 -0.118554</point>
+								<point>1.70822096 0.878288984 0.0932620019</point>
+								<point>1.70822096 0.878284991 1.50536394</point>
+								<point>1.708221 0.878284 1.71718</point>
+								<point>1.70822096 0.878278017 3.05867791</point>
+							</range>
+						</bottom>
+						<top>
+							<range>
+								<point>1.85822105 1.25412405 -4.00183582</point>
+								<point>1.85822105 1.33889604 -3.93123102</point>
+								<point>1.85822105 1.33891594 -3.86062598</point>
+								<point>1.85822105 1.33893502 -3.79002094</point>
+								<point>1.85822105 1.33895397 -3.7194159</point>
+								<point>1.858221 1.338974 -3.64881</point>
+								<point>1.85822105 1.33899295 -3.57820511</point>
+								<point>1.858221 1.339012 -3.5076</point>
+								<point>1.85822105 1.33903205 -3.43699503</point>
+								<point>1.858221 1.339051 -3.36639</point>
+								<point>1.858221 1.33907 -3.295785</point>
+								<point>1.858221 1.33909 -3.22518</point>
+								<point>1.85822105 1.33910894 -3.15457511</point>
+								<point>1.85822105 1.33912802 -3.08396912</point>
+								<point>1.85822105 1.33914804 -3.01336408</point>
+								<point>1.85822105 1.339167 -2.94275904</point>
+								<point>1.85822105 1.33918703 -2.872154</point>
+								<point>1.85822105 1.33920598 -2.80154896</point>
+								<point>1.85822105 1.33922505 -2.73094392</point>
+								<point>1.85822105 1.33924496 -2.66033792</point>
+								<point>1.85822105 1.33926404 -2.58973408</point>
+								<point>1.85822105 1.33928299 -2.51912808</point>
+								<point>1.85822105 1.33930302 -2.44852304</point>
+								<point>1.85822105 1.33932197 -2.377918</point>
+								<point>1.85822105 1.33934104 -2.30731297</point>
+								<point>1.85822105 1.33936095 -2.23670793</point>
+								<point>1.858221 1.33938 -2.166102</point>
+								<point>1.85822105 1.33939898 -2.09549809</point>
+								<point>1.85822105 1.33941901 -2.02489209</point>
+								<point>1.85822105 1.33943796 -1.95428705</point>
+								<point>1.85822105 1.33945704 -1.88368201</point>
+								<point>1.85822105 1.33947694 -1.81307697</point>
+								<point>1.85822105 1.33949602 -1.74247205</point>
+								<point>1.85822105 1.33951497 -1.67186701</point>
+								<point>1.85822105 1.339535 -1.60126197</point>
+								<point>1.85822105 1.33955395 -1.53065598</point>
+								<point>1.85822105 1.33957398 -1.46005094</point>
+								<point>1.85822105 1.33959305 -1.38944602</point>
+								<point>1.85822105 1.33961201 -1.31884098</point>
+								<point>1.85822105 1.33963203 -1.24823594</point>
+								<point>1.85822105 1.33965099 -1.17763102</point>
+								<point>1.858221 1.33967 -1.107026</point>
+								<point>1.858221 1.33969 -1.03642</point>
+								<point>1.85822105 1.33970904 -0.965816021</point>
+								<point>1.858221 1.339728 -0.89521</point>
+								<point>1.85822105 1.33974802 -0.824604988</point>
+								<point>1.858221 1.339767 -0.754</point>
+								<point>1.85822105 1.33978605 -0.683395028</point>
+								<point>1.858221 1.339806 -0.61279</point>
+								<point>1.85822105 1.33982503 -0.542183995</point>
+								<point>1.858221 1.339844 -0.47158</point>
+								<point>1.85822105 1.33986402 -0.400974005</point>
+								<point>1.85822105 1.33988297 -0.330368996</point>
+								<point>1.85822105 1.339903 -0.259763986</point>
+								<point>1.85822105 1.33992195 -0.189159006</point>
+								<point>1.85822105 1.33994102 -0.118554004</point>
+								<point>1.85822105 1.33996105 -0.0479479991</point>
+								<point>1.858221 1.33998 0.022656</point>
+								<point>1.85822105 1.33999896 0.0932620019</point>
+								<point>1.85822105 1.34001899 0.163866997</point>
+								<point>1.85822105 1.34003794 0.234472007</point>
+								<point>1.85822105 1.34005702 0.305076987</point>
+								<point>1.85822105 1.34007704 0.375681996</point>
+								<point>1.85822105 1.340096 0.44628799</point>
+								<point>1.85822105 1.34011495 0.516892016</point>
+								<point>1.85822105 1.34013498 0.587498009</point>
+								<point>1.85822105 1.34015405 0.658102989</point>
+								<point>1.85822105 1.34017301 0.728708029</point>
+								<point>1.85822105 1.34019303 0.799313009</point>
+								<point>1.85822105 1.34021199 0.869917989</point>
+								<point>1.85822105 1.34023094 0.940523028</point>
+								<point>1.85822105 1.34025097 1.01112795</point>
+								<point>1.858221 1.34027 1.081734</point>
+								<point>1.85822105 1.340289 1.15233898</point>
+								<point>1.85822105 1.34030902 1.22294402</point>
+								<point>1.85822105 1.34032798 1.29354894</point>
+								<point>1.85822105 1.34034801 1.36415398</point>
+								<point>1.85822105 1.34036696 1.43475902</point>
+								<point>1.85822105 1.34038603 1.50536394</point>
+								<point>1.858221 1.340406 1.57597</point>
+								<point>1.85822105 1.34042501 1.64657497</point>
+								<point>1.858221 1.340444 1.71718</point>
+								<point>1.85822105 1.340464 1.78778505</point>
+								<point>1.858221 1.340483 1.85839</point>
+								<point>1.85822105 1.34050202 1.92899501</point>
+								<point>1.858221 1.340522 1.9996</point>
+								<point>1.85822105 1.34054101 2.07020593</point>
+								<point>1.858221 1.34056 2.140811</point>
+								<point>1.858221 1.34058 2.211416</point>
+								<point>1.85822105 1.34059894 2.28202105</point>
+								<point>1.85822105 1.34061801 2.35262609</point>
+								<point>1.85822105 1.34063804 2.42323089</point>
+								<point>1.85822105 1.340657 2.49383593</point>
+								<point>1.85822105 1.34067702 2.56444192</point>
+								<point>1.85822105 1.34069598 2.63504696</point>
+								<point>1.85822105 1.34071505 2.705652</point>
+								<point>1.85822105 1.34073496 2.77625704</point>
+								<point>1.85822105 1.34075403 2.84686208</point>
+								<point>1.85822105 1.34077299 2.91746712</point>
+								<point>1.85822105 1.34079301 2.98807192</point>
+								<point>1.85822105 1.34081197 3.05867791</point>
+								<point>1.85822105 1.34082794 3.12928295</point>
+								<point>1.85822105 1.34083605 3.19988704</point>
+								<point>1.85822105 1.34084499 3.27049303</point>
+								<point>1.85822105 1.34085298 3.34109807</point>
+								<point>1.85822105 1.34086096 3.41170311</point>
+								<point>1.858221 1.34087 3.482308</point>
+								<point>1.85822105 1.34087801 3.5529139</point>
+								<point>1.70822096 1.34065604 3.62351894</point>
+								<point>1.70822096 1.340675 3.69412303</point>
+								<point>1.70822096 1.34069502 3.76472902</point>
+								<point>1.70822096 1.32345605 3.83533406</point>
+								<point>1.70822096 1.24959898 3.9059391</point>
+							</range>
+						</top>
+					</sourceCollisionHullPoints>
+				</right>
+			</physicalTracks>
+			<camouflage>
+				<density>102.703369 103.162369</density>
+				<aoTextureSize>1024 512</aoTextureSize>
+			</camouflage>
+			<repairTime>6.85714293</repairTime>
+		</Chassis_GB136_FV245_2>
+	</chassis>
+	<turrets0>
+		<Turret_2_GB136_FV245>
+			<userString>#gb_vehicles:Turret_2_GB136_FV245</userString>
+			<tags></tags>
+			<level>9</level>
+			<price>60500</price>
+			<unlocks>
+				<gun>_105mm_L7L_dualgun
+					<cost>62000</cost>
+				</gun>
+			</unlocks>
+			<armor>
+				<armor_1>275</armor_1>
+				<armor_2>300</armor_2>
+				<armor_3>120</armor_3>
+				<armor_4>90</armor_4>
+				<armor_5>30</armor_5>
+				<armor_6>35</armor_6>
+				<armor_7>90</armor_7>
+				<armor_8>0</armor_8>
+				<armor_9>35</armor_9>
+				<armor_10>127</armor_10>
+				<armor_11>190</armor_11>
+				<armor_12>254</armor_12>
+				<armor_13>206</armor_13>
+				<armor_14>270</armor_14>
+				<armor_15>152</armor_15>
+				<armor_16>228</armor_16>
+				<armor_17>120</armor_17>
+				<armor_18>90</armor_18>
+				<armor_19>50
+					<vehicleDamageFactor>0</vehicleDamageFactor>
+				</armor_19>
+			</armor>
+			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
+			<weight>18000</weight>
+			<maxHealth>450</maxHealth>
+			<rotationSpeed>28</rotationSpeed>
+			<turretRotatorHealth>
+				<maxHealth>160</maxHealth>
+				<maxRegenHealth>80</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+			</turretRotatorHealth>
+			<circularVisionRadius>390</circularVisionRadius>
+			<surveyingDeviceHealth>
+				<maxHealth>110</maxHealth>
+				<maxRegenHealth>55</maxRegenHealth>
+				<repairCost>1.0</repairCost>
+			</surveyingDeviceHealth>
+			<guns>
+				<_32_pounder_dualgun_QF>shared
+					<maxAmmo>80</maxAmmo>
+					<unlocks></unlocks>
+					<armor>
+						<armor_1>260
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>155
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>185
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_3>
+						<armor_4>0
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_4>
+						<gun>40</gun>
+					</armor>
+					<pitchLimits>
+						<minPitch>0 -20 1 -20</minPitch>
+						<maxPitch>0 10 0.36 10 0.44 2 0.56 2 0.64 10 1 10</maxPitch>
+					</pitchLimits>
+					<shotDispersionRadius>0.34</shotDispersionRadius>
+					<shotDispersionFactors>
+						<turretRotation>0.08</turretRotation>
+						<afterShot>3.5</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<reloadTime>8.0</reloadTime>
+					<aimingTime>2.1</aimingTime>
+					<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
+					<multiGunEffects>shot_dualgun1_main_mb_L shot_dualgun1_main_mb_R</multiGunEffects>
+					<dualGun>
+						<chargeTime>2</chargeTime>
+						<shootImpulse>200</shootImpulse>
+						<reloadLockTime>4.0</reloadLockTime>
+						<reloadTimes>8.0 8.0</reloadTimes>
+						<rateTime>3</rateTime>
+						<chargeThreshold>0.5</chargeThreshold>
+						<afterShotDelay>1</afterShotDelay>
+						<preChargeIndication>0.25</preChargeIndication>
+					</dualGun>
+					<customizationSlots>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41000</slotId>
+							<anchorPosition>0 0 2.51708</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41001</slotId>
+							<anchorPosition>-0 0.277203 0.344841</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>16384</applyTo>
+						</slot>
+						<slot>
+							<slotType>camouflage</slotType>
+							<slotId>42000</slotId>
+							<anchorPosition>0 0 2.51708</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49000</slotId>
+							<rayStart>-0.22 0 2.45</rayStart>
+							<rayEnd>-0.22 0 2.95</rayEnd>
+							<rayUp>0.11 0 0</rayUp>
+							<size>0.5</size>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49001</slotId>
+							<rayStart>0.22 0 2.45</rayStart>
+							<rayEnd>0.22 0 2.95</rayEnd>
+							<rayUp>0.11 0 0</rayUp>
+							<size>0.5</size>
+						</slot>
+					</customizationSlots>
+					<customization>
+						<customizableVehicleAreas>
+							<paint>GUN GUN_2</paint>
+							<camouflage>GUN</camouflage>
+						</customizableVehicleAreas>
+					</customization>
+					<models>
+						<undamaged>vehicles/british/GB136_FV245/normal/lod0/Gun_03.model</undamaged>
+						<destroyed>vehicles/british/GB136_FV245/crash/lod0/Gun_03.model</destroyed>
+						<exploded>vehicles/british/GB136_FV245/crash/lod0/Gun_03.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModelServer>vehicles/british/GB136_FV245/collision/Gun_03.model</collisionModelServer>
+						<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Gun_03.model</collisionModelClient>
+					</hitTester>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<camouflage>
+						<density>94.433784 103.29821</density>
+						<aoTextureSize>512 512</aoTextureSize>
+					</camouflage>
+				</_32_pounder_dualgun_QF>
+				<_105mm_L7L_dualgun>shared
+					<unlocks>
+						<vehicle>GB134_FV242B_Condor
+							<cost>244100</cost>
+						</vehicle>
+					</unlocks>
+					<maxAmmo>64</maxAmmo>
+					<unlocks></unlocks>
+					<armor>
+						<armor_1>260
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_1>
+						<armor_2>155
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_2>
+						<armor_3>185
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_3>
+						<armor_4>0
+							<vehicleDamageFactor>0</vehicleDamageFactor>
+						</armor_4>
+						<gun>45</gun>
+					</armor>
+					<pitchLimits>
+						<minPitch>0 -20 1 -20</minPitch>
+						<maxPitch>0 10 0.36 10 0.44 2 0.56 2 0.64 10 1 10</maxPitch>
+					</pitchLimits>
+					<shotDispersionRadius>0.37</shotDispersionRadius>
+					<shotDispersionFactors>
+						<turretRotation>0.08</turretRotation>
+						<afterShot>3.5</afterShot>
+						<whileGunDamaged>2.0</whileGunDamaged>
+					</shotDispersionFactors>
+					<reloadTime>10.8</reloadTime>
+					<aimingTime>2.5</aimingTime>
+					<invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+					<multiGunEffects>shot_dualgun1_large_mb_L shot_dualgun1_large_mb_R</multiGunEffects>
+					<dualGun>
+						<chargeTime>1.5</chargeTime>
+						<shootImpulse>200</shootImpulse>
+						<reloadLockTime>4.0</reloadLockTime>
+						<reloadTimes>10.8 10.8</reloadTimes>
+						<rateTime>3</rateTime>
+						<chargeThreshold>0.5</chargeThreshold>
+						<afterShotDelay>1</afterShotDelay>
+						<preChargeIndication>0.25</preChargeIndication>
+					</dualGun>
+					<customizationSlots>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41000</slotId>
+							<anchorPosition>0 0 2.51708</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>paint</slotType>
+							<slotId>41001</slotId>
+							<anchorPosition>-0 0.27716 0.310423</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>16384</applyTo>
+						</slot>
+						<slot>
+							<slotType>camouflage</slotType>
+							<slotId>42000</slotId>
+							<anchorPosition>0 0 2.51708</anchorPosition>
+							<anchorDirection>-0 0 0</anchorDirection>
+							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49000</slotId>
+							<rayStart>-0.22 0 2.4</rayStart>
+							<rayEnd>-0.22 0 2.9</rayEnd>
+							<rayUp>0.11 0 0</rayUp>
+							<size>0.5</size>
+						</slot>
+						<slot>
+							<slotType>insigniaOnGun</slotType>
+							<slotId>49001</slotId>
+							<rayStart>0.22 0 2.4</rayStart>
+							<rayEnd>0.22 0 2.9</rayEnd>
+							<rayUp>0.11 0 0</rayUp>
+							<size>0.5</size>
+						</slot>
+					</customizationSlots>
+					<customization>
+						<customizableVehicleAreas>
+							<paint>GUN GUN_2</paint>
+							<camouflage>GUN</camouflage>
+						</customizableVehicleAreas>
+					</customization>
+					<models>
+						<undamaged>vehicles/british/GB136_FV245/normal/lod0/Gun_04.model</undamaged>
+						<destroyed>vehicles/british/GB136_FV245/crash/lod0/Gun_04.model</destroyed>
+						<exploded>vehicles/british/GB136_FV245/crash/lod0/Gun_04.model</exploded>
+					</models>
+					<hitTester>
+						<collisionModelServer>vehicles/british/GB136_FV245/collision/Gun_04.model</collisionModelServer>
+						<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Gun_04.model</collisionModelClient>
+					</hitTester>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<camouflage>
+						<density>99.6598816 99.4696579</density>
+						<aoTextureSize>512 512</aoTextureSize>
+					</camouflage>
+				</_105mm_L7L_dualgun>
+			</guns>
+			<models>
+				<undamaged>vehicles/british/GB136_FV245/normal/lod0/Turret_02.model</undamaged>
+				<destroyed>vehicles/british/GB136_FV245/crash/lod0/Turret_02.model</destroyed>
+				<exploded>vehicles/british/GB136_FV245/crash/lod0/Turret_02.model</exploded>
+			</models>
+			<hitTester>
+				<collisionModelServer>vehicles/british/GB136_FV245/collision/Turret_02.model</collisionModelServer>
+				<collisionModelClient>vehicles/british/GB136_FV245/collision_client/Turret_02.model</collisionModelClient>
+			</hitTester>
+			<gunPosition>-2.40000008e-05 0.40219 1.314399</gunPosition>
+			<customizationSlots>
+				<slot>
+					<slotType>paint</slotType>
+					<slotId>31000</slotId>
+					<anchorPosition>-0 0.984842 0.1659</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>camouflage</slotType>
+					<slotId>32000</slotId>
+					<anchorPosition>-0 0.984842 0.1659</anchorPosition>
+					<anchorDirection>-0 0 0</anchorDirection>
+				</slot>
+				<slot>
+					<slotType>player</slotType>
+					<slotId>33000</slotId>
+					<rayStart>-1.10149097 0.579442024 -1.70699501</rayStart>
+					<rayEnd>-0.907078981 0.543636978 -1.67663598</rayEnd>
+					<rayUp>0.175235003 0.983789027 0.0381029993</rayUp>
+					<size>0.32</size>
+					<hideIfDamaged>true</hideIfDamaged>
+					<isUVProportional>false</isUVProportional>
+				</slot>
+				<slot>
+					<slotType>player</slotType>
+					<slotId>33001</slotId>
+					<isMirrored>true</isMirrored>
+					<rayStart>1.08351398 0.579344988 -1.69258499</rayStart>
+					<rayEnd>0.891412973 0.538137019 -1.65517294</rayEnd>
+					<rayUp>-0.199755996 0.978462994 0.052046001</rayUp>
+					<size>0.32</size>
+					<hideIfDamaged>true</hideIfDamaged>
+					<isUVProportional>false</isUVProportional>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35000</slotId>
+					<tags>mimic formfactor_rect1x2 direction_right_to_left left</tags>
+					<position>-1.18046796 2.30439806 0.229975</position>
+					<rotation>1.812602 1.51228 0.060618</rotation>
+					<scale>1.830603 0.915301025 1.83060396</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+					<clipAngle>1.29276502</clipAngle>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35001</slotId>
+					<tags>mimic formfactor_rect1x2 direction_left_to_right right</tags>
+					<position>1.17789495 2.297189 0.192794994</position>
+					<rotation>1.79825902 -1.455235 -0.124352001</rotation>
+					<scale>1.83489501 0.489367008 1.83489597</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+					<clipAngle>0.995536029</clipAngle>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35002</slotId>
+					<tags>safe formfactor_square direction_left_to_right right</tags>
+					<position>1.251273 2.18281 0.421301</position>
+					<rotation>1.36864603 1.67838597 -3.12726307</rotation>
+					<scale>0.575721 0.28786 0.575721</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35003</slotId>
+					<tags>safe formfactor_square direction_right_to_left left</tags>
+					<position>-1.251273 2.18281 0.421301</position>
+					<rotation>1.36864603 -1.67838597 3.12726307</rotation>
+					<scale>0.575721 0.28786 0.575721</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35004</slotId>
+					<tags>safe formfactor_rect1x2 direction_left_to_right right</tags>
+					<position>1.25344503 2.20710397 0.403135985</position>
+					<rotation>1.41117597 1.76906896 -3.0397439</rotation>
+					<scale>0.64 0.317975 0.64</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35005</slotId>
+					<tags>safe formfactor_rect1x2 direction_right_to_left left</tags>
+					<position>-1.25889301 2.21074605 0.408638</position>
+					<rotation>1.74989605 1.50268805 0.0266769994</rotation>
+					<scale>0.64 0.375442 0.64</scale>
+					<hiddenForUser>true</hiddenForUser>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35006</slotId>
+					<tags>formfactor_square direction_left_to_right</tags>
+					<position>0 2.785399 -1.211456</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.437729 0.718864024 1.437729</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35007</slotId>
+					<tags>formfactor_square direction_left_to_right</tags>
+					<position>1.202991 2.31982 0.285258</position>
+					<rotation>1.36478698 1.70332301 -3.10584903</rotation>
+					<scale>0.809557974 0.404778987 0.809557974</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35008</slotId>
+					<tags>formfactor_square direction_right_to_left</tags>
+					<position>-1.202991 2.31982 0.285258</position>
+					<rotation>1.36478698 -1.70332301 3.10584903</rotation>
+					<scale>0.809557974 0.404778987 0.809557974</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35009</slotId>
+					<tags>formfactor_square direction_left_to_right</tags>
+					<position>0 2.691648 1.3913</position>
+					<rotation>0.270631 0 3.141593</rotation>
+					<scale>0.999646008 0.499823004 0.999646008</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35010</slotId>
+					<tags>formfactor_rect1x2 direction_left_to_right</tags>
+					<position>0 2.661189 1.487524</position>
+					<rotation>0.306562 -0 3.141593</rotation>
+					<scale>1.05385399 0.397888005 1.05385399</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35011</slotId>
+					<tags>formfactor_rect1x2 direction_right_to_left</tags>
+					<position>-1.189354 2.33797 0.126621</position>
+					<rotation>1.30656803 -1.69300902 3.10636806</rotation>
+					<scale>1.183869 0.457587987 1.183869</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35012</slotId>
+					<tags>formfactor_rect1x2 direction_left_to_right</tags>
+					<position>1.189354 2.33797 0.126621</position>
+					<rotation>1.30656803 1.69300902 -3.10636806</rotation>
+					<scale>1.183869 0.457587987 1.183869</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35013</slotId>
+					<tags>formfactor_rect1x2 direction_left_to_right</tags>
+					<position>0 2.7854 -1.327592</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.49505401 0.553372025 1.49505401</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35014</slotId>
+					<tags>formfactor_rect1x3 direction_right_to_left</tags>
+					<position>-1.16397095 2.40657091 -0.400813997</position>
+					<rotation>1.31387806 -1.76418495 3.06485391</rotation>
+					<scale>2.11420488 0.701402009 2.11420488</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35015</slotId>
+					<tags>formfactor_rect1x3 direction_left_to_right</tags>
+					<position>1.16397095 2.40657091 -0.400813997</position>
+					<rotation>1.31387806 1.76418495 -3.06485391</rotation>
+					<scale>2.11420488 0.701402009 2.11420488</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35016</slotId>
+					<tags>formfactor_rect1x3 direction_left_to_right</tags>
+					<position>9.99999997e-07 2.78109694 1.07573903</position>
+					<rotation>0.181711003 3.60000013e-05 -3.1413939</rotation>
+					<scale>2.02421 0.725782 2.02421</scale>
+					<showOn>256</showOn>
+					<clipAngle>0.04852</clipAngle>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35017</slotId>
+					<tags>formfactor_rect1x3 direction_left_to_right</tags>
+					<position>0 2.785398 -0.902874</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.70977402 0.568759024 1.70977402</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35018</slotId>
+					<tags>formfactor_rect1x3 direction_left_to_right</tags>
+					<position>0 2.785401 -1.790228</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.38865101 0.448143005 1.38865101</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35019</slotId>
+					<tags>formfactor_rect1x4 direction_left_to_right</tags>
+					<position>0 2.785398 -0.885286</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.69876802 0.488958001 1.69876802</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35020</slotId>
+					<tags>formfactor_rect1x4 direction_left_to_right</tags>
+					<position>0 2.785398 -1.775708</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.42028201 0.408800989 1.42028201</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35021</slotId>
+					<tags>formfactor_rect1x4 direction_right_to_left</tags>
+					<position>-1.15957105 2.4358871 -0.596617997</position>
+					<rotation>1.78099597 1.48588204 0.0442159995</rotation>
+					<scale>2.53668904 0.433934003 2.53668904</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35022</slotId>
+					<tags>formfactor_rect1x4 direction_left_to_right</tags>
+					<position>1.15957105 2.4358871 -0.596617997</position>
+					<rotation>1.36059594 1.65571105 3.09737706</rotation>
+					<scale>2.53668904 0.521158993 2.53668904</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35023</slotId>
+					<tags>formfactor_rect1x4 direction_left_to_right</tags>
+					<position>0 2.7814 1.107758</position>
+					<rotation>0.378064 -0 3.141593</rotation>
+					<scale>2.14782405 0.649132013 2.14782405</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35024</slotId>
+					<tags>formfactor_rect1x6</tags>
+					<position>0 2.785401 -1.866669</position>
+					<rotation>3.141593 0 0</rotation>
+					<scale>1.380512 0.29022 1.380512</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35025</slotId>
+					<tags>formfactor_rect1x6 direction_right_to_left</tags>
+					<position>-1.16157198 2.31859803 -0.628144979</position>
+					<rotation>1.36277604 -1.75753701 3.13760805</rotation>
+					<scale>2.52708602 0.664561987 2.52708602</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35026</slotId>
+					<tags>formfactor_rect1x6 direction_left_to_right</tags>
+					<position>1.15934706 2.3276751 -0.627726018</position>
+					<rotation>1.39504504 1.75827205 -3.13688588</rotation>
+					<scale>2.52708602 0.664561987 2.52708602</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35027</slotId>
+					<tags>formfactor_rect1x6 direction_left_to_right</tags>
+					<position>0 2.78254 1.104157</position>
+					<rotation>0.253931 -0 3.141593</rotation>
+					<scale>2.15937 0.552959 2.15937</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35028</slotId>
+					<tags>formfactor_square direction_right_to_left</tags>
+					<position>-0.954033017 2.39405894 -1.23716497</position>
+					<rotation>1.77680504 1.43827105 0.088087</rotation>
+					<scale>0.675462008 0.337731004 0.675462008</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35029</slotId>
+					<tags>direction_right_to_left formfactor_rect1x2</tags>
+					<position>-0.922151983 2.41019607 -1.41159403</position>
+					<rotation>1.776806 1.43827105 0.088087</rotation>
+					<scale>1.00840497 0.504202008 1.00840497</scale>
+					<showOn>256</showOn>
+				</slot>
+			</customizationSlots>
+			<customization>
+				<customizableVehicleAreas>
+					<paint>TURRET</paint>
+					<camouflage>TURRET</camouflage>
+				</customizableVehicleAreas>
+			</customization>
+			<wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+			<multiGun>
+				<gun>
+					<gunNode>G_L</gunNode>
+					<gunFire>HP_gunFire_L</gunFire>
+					<position>-0.211482 0.399117 1.2502</position>
+				</gun>
+				<gun>
+					<gunNode>G_R</gunNode>
+					<gunFire>HP_gunFire_R</gunFire>
+					<position>0.210655 0.400298 1.2502</position>
+				</gun>
+			</multiGun>
+			<physicsShape>1.086 0.181 1.004 0 0.817 -0.115 0.755 0.7 0.349 0.5 0.2 0.5 0.182 0 0</physicsShape>
+			<camouflage>
+				<density>102.703369 103.162369</density>
+				<aoTextureSize>1024 512</aoTextureSize>
+			</camouflage>
+		</Turret_2_GB136_FV245>
+	</turrets0>
+	<engines>
+		<Rolls_Royce_Griffon_1>shared
+			<unlocks>
+				<engine>Rolls_Royce_Griffon_180
+					<cost>29000</cost>
+				</engine>
+			</unlocks>
+		</Rolls_Royce_Griffon_1>
+		<Rolls_Royce_Griffon_180>shared</Rolls_Royce_Griffon_180>
+	</engines>
+	<fuelTanks>
+		<Large>shared</Large>
+	</fuelTanks>
+	<radios>
+		<N22>shared
+			<unlocks>
+				<radio>C42
+					<cost>9000</cost>
+				</radio>
+			</unlocks>
+		</N22>
+		<C42>shared</C42>
+	</radios>
+	<clientAdjustmentFactors></clientAdjustmentFactors>
+	<physics>
+		<detailed>
+			<engines>
+				<Rolls_Royce_Griffon_1>
+					<smplEnginePower>950</smplEnginePower>
+					<smplFwMaxSpeed>38</smplFwMaxSpeed>
+				</Rolls_Royce_Griffon_1>
+				<Rolls_Royce_Griffon_180>
+					<smplEnginePower>1050</smplEnginePower>
+					<smplFwMaxSpeed>38</smplFwMaxSpeed>
+				</Rolls_Royce_Griffon_180>
+			</engines>
+			<chassis>
+				<Chassis_GB136_FV245>
+					<grounds>
+						<soft>
+							<rollingFriction>0.18515</rollingFriction>
+						</soft>
+						<medium>
+							<rollingFriction>0.1127</rollingFriction>
+						</medium>
+						<firm>
+							<rollingFriction>0.08855</rollingFriction>
+						</firm>
+					</grounds>
+					<axleCount>5</axleCount>
+				</Chassis_GB136_FV245>
+				<Chassis_GB136_FV245_2>
+					<grounds>
+						<soft>
+							<rollingFriction>0.15295</rollingFriction>
+						</soft>
+						<medium>
+							<rollingFriction>0.08855</rollingFriction>
+						</medium>
+						<firm>
+							<rollingFriction>0.0805</rollingFriction>
+						</firm>
+					</grounds>
+					<axleCount>5</axleCount>
+				</Chassis_GB136_FV245_2>
+			</chassis>
+		</detailed>
+	</physics>
+	<siege_mode>
+		<switchOnTime>0</switchOnTime>
+		<switchOffTime>0</switchOffTime>
+		<engineDamageCoeff>1</engineDamageCoeff>
+		<switchCancelEnabled>true</switchCancelEnabled>
+	</siege_mode>
+	<effects>
+		<collision></collision>
+		<damagedStateGroup>large</damagedStateGroup>
+	</effects>
+	<emblems>
+		<default>15506</default>
+		<lodDist>MEDIUM</lodDist>
+		<alpha>1.0</alpha>
+	</emblems>
+	<prefabAttachments>
+		<sleeveEjection>
+			<attachmentId>31074</attachmentId>
+		</sleeveEjection>
+	</prefabAttachments>
+</root>

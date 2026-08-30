@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<itemGroup>
+		<name>EU Independence Day</name>
+		<userString>#vehicle_customization:repaint/color_group_04</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>paints 20g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+		</vehicleFilter>
+		<paint>
+			<id>250</id>
+			<texture>gui/maps/vehicles/repaints/sweden_color_05.png</texture>
+			<color>74 0 0 255</color>
+			<gloss>0.400000006</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/eu_independence_day_1</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+		<paint>
+			<id>251</id>
+			<texture>gui/maps/vehicles/repaints/custom_color_26.png</texture>
+			<color>12 19 51 255</color>
+			<gloss>0.400000006</gloss>
+			<metallic>0.230000004</metallic>
+			<userString>#vehicle_customization:repaint/eu_independence_day_2</userString>
+			<tags>hiddenInUI</tags>
+		</paint>
+	</itemGroup>
+</root>

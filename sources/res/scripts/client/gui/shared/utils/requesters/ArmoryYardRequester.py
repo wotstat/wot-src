@@ -1,0 +1,46 @@
+import BigWorld
+from adisp import adisp_async
+from gui.shared.utils.requesters.abstract import AbstractSyncDataRequester
+from skeletons.gui.shared.utils.requesters import IArmoryYardRequester
+
+class ArmoryYardRequester(AbstractSyncDataRequester, IArmoryYardRequester):
+
+    @property
+    def data(self):
+        return self._data
+
+    @property
+    def progressionLevel(self):
+        from armory_yard_constants import PROGRESSION_LEVEL_PDATA_KEY
+        return self._data.get(PROGRESSION_LEVEL_PDATA_KEY, 0)
+
+    @property
+    def shopLastSeasonCompleted(self):
+        from armory_yard_constants import SHOP_PDATA_KEY, SHOP_LAST_SEASON_COMPLETED
+        return self._data.get(SHOP_PDATA_KEY, {}).get(SHOP_LAST_SEASON_COMPLETED, False)
+
+    @property
+    def shopProductLimits(self):
+        from armory_yard_constants import SHOP_PDATA_KEY, SHOP_PRODUCT_LIMITS
+        return self._data.get(SHOP_PDATA_KEY, {}).get(SHOP_PRODUCT_LIMITS, {})
+
+    @property
+    def currentReroll(self):
+        from armory_yard_constants import CURRENT_REROLL_PDATA_KEY
+        return self._data.get(CURRENT_REROLL_PDATA_KEY, {})
+
+    @property
+    def overrideConditions(self):
+        from armory_yard_constants import QUEST_CONDITION_OVERRIDE_PDATA_KEY
+        return self._data.get(QUEST_CONDITION_OVERRIDE_PDATA_KEY, {})
+
+    @adisp_async
+    def _requestCache(self, callback):
+        BigWorld.player().armoryYard.getCache((lambda resID, value: self._response(resID, value, callback)))
+        return
+
+    def _preprocessValidData(self, data):
+        from armory_yard_constants import PDATA_KEY_ARMORY_YARD
+        if PDATA_KEY_ARMORY_YARD in data:
+            return dict(data[PDATA_KEY_ARMORY_YARD])
+        return dict()

@@ -1,0 +1,22 @@
+from gui.impl.gen.view_models.common.vehicle_info_model import VehicleInfoModel
+
+class VideoRewardViewModel(VehicleInfoModel):
+    __slots__ = (b'onClose', b'onError')
+
+    def __init__(self, properties=11, commands=2):
+        super(VideoRewardViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsWindowAccessible(self):
+        return self._getBool(10)
+
+    def setIsWindowAccessible(self, value):
+        self._setBool(10, value)
+        return
+
+    def _initialize(self):
+        super(VideoRewardViewModel, self)._initialize()
+        self._addBoolProperty(b'isWindowAccessible', True)
+        self.onClose = self._addCommand(b'onClose')
+        self.onError = self._addCommand(b'onError')
+        return

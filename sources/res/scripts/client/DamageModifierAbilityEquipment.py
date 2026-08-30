@@ -1,0 +1,24 @@
+from AbilityEquipment import AbilityEquipment
+from gui.battle_control.controllers.sound_ctrls.common import getGunSoundObject
+from items import vehicles
+_BOOST_DAMAGE_SOUNDS = {0: b'ability_eisbaer_shot_01', 
+   1: b'ability_eisbaer_shot_02', 
+   2: b'ability_eisbaer_shot_03', 
+   3: b'ability_eisbaer_shot_04'}
+
+class DamageModifierAbilityEquipment(AbilityEquipment):
+
+    def set_currentDamageModifier(self, _):
+        currentDamageModifier = self.currentDamageModifier
+        equipments = self._sessionProvider.shared.equipments
+        equipments.onUpdateDamageModifier(self.compactDescr, currentDamageModifier)
+        return
+
+    def playCustomShotSound(self):
+        descriptor = vehicles.getItemByCompactDescr(self.compactDescr)
+        damageFirstIncrease = descriptor.damageFirstIncrease
+        damageIncreasePerShot = descriptor.damageIncreasePerShot
+        countPierced = int(round((self.currentDamageModifier - damageFirstIncrease) / damageIncreasePerShot))
+        if countPierced in _BOOST_DAMAGE_SOUNDS:
+            getGunSoundObject(self.entity).play(_BOOST_DAMAGE_SOUNDS[countPierced])
+        return

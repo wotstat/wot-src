@@ -1,0 +1,157 @@
+.Flag_base_97 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66rem;
+    height: 113rem;
+    background-image: var(--activeImage);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    cursor: pointer;
+}
+
+    .Flag_base__maintenance_11 {
+        background-image: var(--disabledImage);
+        background-size: contain;
+        cursor: pointer;
+    }
+
+    .Flag_base__not_started_41 {
+        background-image: var(--disabledImage);
+        background-size: contain;
+        cursor: pointer;
+    }
+
+.Flag_hover_6e {
+    width: 100%;
+    height: 100%;
+    background-image: var(--activeHoverImage);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    opacity: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity .3s ease-in-out;
+}
+
+.Flag_base__maintenance_11 .Flag_hover_6e {
+        background-image: var(--disabledHoverImage);
+        background-size: contain;
+    }
+
+.Flag_base__not_started_41 .Flag_hover_6e {
+        background-image: var(--disabledHoverImage);
+        background-size: contain;
+    }
+
+.Flag_base_97:hover .Flag_hover_6e {
+        opacity: 1;
+    }
+
+.Flag_error_f3 {
+    width: 64rem;
+    height: 64rem;
+    margin-top: -8rem;
+    background: url('R.images.gui.maps.icons.collectiveGoal.entryPoint.error_icon') no-repeat 0 0 / cover;
+    position: relative;
+}
+
+.Flag_progress_f3 {
+    margin-top: -2rem;
+}
+
+@keyframes App_fadeOut_93 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+@keyframes App_fadeIn_eb {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes App_fadeInWithScale_de {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes App_slideUp_d8 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes App_slideUpCenter_07 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes App_blink_a6 {
+    0% {
+        filter: brightness(1);
+    }
+
+    16% {
+        filter: brightness(3);
+    }
+
+    100% {
+        filter: brightness(1);
+    }
+}
+body {
+    margin: 1rem;
+    overflow: hidden;
+}
+.App_base_11 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.App_flag_ab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.App_flag__hide_e6 {
+    opacity: 1;
+    animation: App_fadeOut_93 .6s 'ease-in-out' .3s forwards;
+        pointer-events: none;
+    }
+.App_flag__hideDelay_f7 {
+    opacity: 1;
+    animation: App_fadeOut_93 .6s 'ease-in-out' 1.6s forwards;
+        pointer-events: none;
+    }
+

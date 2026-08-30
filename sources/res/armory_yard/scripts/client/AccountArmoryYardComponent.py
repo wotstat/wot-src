@@ -1,0 +1,36 @@
+from typing import Callable
+import BigWorld, armory_yard_constants
+
+class AccountArmoryYardComponent(BigWorld.StaticScriptComponent):
+
+    def collectAllRewards(self, callback=None):
+        self.entity._doCmdInt(armory_yard_constants.CMD_COLLECT_REWARDS, 0, callback)
+        return
+
+    def buyStepTokens(self, currency, count, callback=None):
+        self.entity._doCmdIntStr(armory_yard_constants.CMD_BUY_STEP_TOKENS, count, currency, callback)
+        return
+
+    def devAddToken(self, count, callback=None):
+        self.entity._doCmdInt(armory_yard_constants.DEV_CMD_ADD_PROGRESSION_TOKEN, count, callback)
+        return
+
+    def devAddArmoryCoin(self, count, callback=None):
+        self.entity._doCmdInt(armory_yard_constants.DEV_CMD_ADD_ARMORY_COIN, count, callback)
+        return
+
+    def devCompleteQuest(self, cycle, number, callback=None):
+        self.entity._doCmdInt2(armory_yard_constants.DEV_CMD_SET_QUEST, cycle, number, callback)
+        return
+
+    def devCompleteCycle(self, cycle, number, callback=None):
+        self.entity._doCmdInt2(armory_yard_constants.DEV_CMD_SET_CYCLE, cycle, number, callback)
+        return
+
+    def claimRareReward(self, callback=None):
+        self.entity._doCmdInt(armory_yard_constants.CMD_CLAIM_RARE_REWARD, 0, callback)
+        return
+
+    def buyShopProduct(self, product, count, data, callback=None):
+        self.entity._doCmdInt2Str(armory_yard_constants.CMD_BUY_SHOP_PRODUCT, product, count, data, callback)
+        return

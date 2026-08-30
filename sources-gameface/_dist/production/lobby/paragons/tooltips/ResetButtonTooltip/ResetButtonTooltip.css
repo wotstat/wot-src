@@ -1,0 +1,833 @@
+.TooltipDecorator_base_c9 {
+    display: flex;
+    position: absolute;
+}
+
+.TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
+        padding: 4rem 6rem 8rem;
+        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
+        border-image-slice: 24 fill;
+        border-image-width: 24rem;
+        position: relative;
+    }
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FormatTextWithColorTags_blackReal_3c {
+    color: #000000;
+}
+
+.FormatTextWithColorTags_whiteReal_8a {
+    color: #FFFFFF;
+}
+
+.FormatTextWithColorTags_white_16 {
+    color: #F2F2F7;
+}
+
+.FormatTextWithColorTags_whiteOrange_18 {
+    color: #FEFEEC;
+}
+
+.FormatTextWithColorTags_whiteSpanish_10 {
+    color: #E9E2BF;
+}
+
+.FormatTextWithColorTags_par_ca {
+    color: #8C8C7E;
+}
+
+.FormatTextWithColorTags_parSecondary_8d {
+    color: #595950;
+}
+
+.FormatTextWithColorTags_parTertiary_a3 {
+    color: #37362E;
+}
+
+.FormatTextWithColorTags_red_60 {
+    color: #FF2717;
+}
+
+.FormatTextWithColorTags_redDark_03 {
+    color: #B70000;
+}
+
+.FormatTextWithColorTags_yellow_ad {
+    color: #FEAB34;
+}
+
+.FormatTextWithColorTags_orange_e4 {
+    color: #EE7000;
+}
+
+.FormatTextWithColorTags_cream_cd {
+    color: #FFDD99;
+}
+
+.FormatTextWithColorTags_brown_c8 {
+    color: #CBAC77;
+}
+
+.FormatTextWithColorTags_greenBright_f0 {
+    color: #80D43A;
+}
+
+.FormatTextWithColorTags_green_c5 {
+    color: #7AB300;
+}
+
+.FormatTextWithColorTags_greenDark_af {
+    color: #497212;
+}
+
+.FormatTextWithColorTags_blueBooster_ac {
+    color: #CCFFFF;
+}
+
+.FormatTextWithColorTags_blueTeamkiller_6f {
+    color: #09E2FF;
+}
+
+.FormatTextWithColorTags_cred_4e {
+    color: #CED9D9;
+}
+
+.FormatTextWithColorTags_gold_90 {
+    color: #FFC363;
+}
+
+.FormatTextWithColorTags_bond_71 {
+    color: #C9C9B6;
+}
+
+.FormatTextWithColorTags_prom_dd {
+    color: #A29B70;
+}
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.Active_base_2d {
+    width: 100%;
+}
+
+.Active_subHeader_16 {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 10rem;
+}
+
+.Active_topHeader_95 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+}
+
+.Active_description_92 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.Active_params_f9 {
+    margin-bottom: 8rem;
+}
+
+.Active_params__small_6b {
+        margin-bottom: 2rem;
+    }
+
+.Active_item_ca {
+    margin-bottom: 5rem;
+    padding-left: 24rem;
+    position: relative;
+}
+
+.Active_item__colored_95 {
+        color: #CBAC77;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+
+.Active_item__small_04 {
+        margin-bottom: 2rem;
+    }
+
+.Active_bullet_ac {
+    position: absolute;
+    top: 0;
+    left: 12rem;
+    transform: translateX(-50%);
+}
+
+.Active_points_07 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    transform: translateY(-1rem);
+}
+
+.Active_pointsIcon_dc {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 5rem;
+    background: url('R.images.gui.maps.icons.paragons.paragon') no-repeat center / contain;
+}
+
+.Active_creditIcon_ea {
+    width: 16rem;
+    height: 16rem;
+    background: url('R.images.gui.maps.icons.paragons.resetBranch.credits_small') no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    right: -20rem;
+    transform: translateY(-50%);
+}
+
+.Active_list_0e {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 15rem;
+}
+
+.App_base_43 {
+    display: flex;
+    flex-direction: column;
+    width: 434rem;
+}
+
+.App_holder_a0 {
+    width: 100%;
+    padding: 17rem 28rem 7rem;
+}
+
+.App_warning_7f {
+    width: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(201, 201, 182, 0.07) 38.22%, rgba(201, 201, 182, 0.07) 64.56%, transparent 100%);
+}
+
+.App_divider_6d {
+    width: 100%;
+    height: 1rem;
+    background: url('R.images.gui.maps.icons.paragons.tooltips.entryPointTooltip.divider_points') no-repeat center / cover;
+}
+
+.App_alertIcon_79 {
+    width: 16rem;
+    height: 16rem;
+    margin-right: 8rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center / contain;
+    transform: translateY(3rem);
+}
+
+.App_warningContainer_52 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    margin: 20rem 28rem;
+}
+
+.App_warningText_9a {
+    width: 370rem;
+}
+
+.BattleModeList_base_3e {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.BattleModeList_itemList_dd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.BattleModeList_battleTypeIcon_7e {
+    width: 24rem;
+    height: 24rem;
+    margin-right: 6rem;
+    background: no-repeat center / contain;
+}
+
+.BattleModeList_battleModeText_f2 {
+    width: 157rem;
+}
+
+.DroppedBranch_base_c3 {
+    width: 100%;
+}
+
+.DroppedBranch_topHeader_70 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+}
+
+.DroppedBranch_description_4f {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.DroppedBranch_params_08 {
+    margin-bottom: 2rem;
+}
+
+.DroppedBranch_points_50 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    transform: translateY(-1rem);
+}
+
+.DroppedBranch_points__vehicles_f6 {
+        transform: translateY(-1rem) translateX(5rem);
+    }
+
+.DroppedBranch_pointsIcon_d8 {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 5rem;
+    background: url('R.images.gui.maps.icons.paragons.paragon') no-repeat center / contain;
+}
+
+.DroppedBranch_item_5e {
+    color: #CBAC77;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    padding-left: 24rem;
+    position: relative;
+}
+
+.DroppedBranch_item__single_bf {
+        padding-left: 0;
+    }
+
+.DroppedBranch_bullet_34 {
+    position: absolute;
+    top: 0;
+    left: 12rem;
+    transform: translateX(-50%);
+}
+
+.DroppedBranch_subHeader_03 {
+    color: #E9E2BF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 10rem 0;
+}
+
+.DroppedBranch_battleTypesTable_31 {
+    display: flex;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.DroppedBranch_column_b8 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: wrap;
+}
+
+.DroppedBranch_column__left_52 {
+        margin-right: 12rem;
+    }
+
+.FirstBranchReset_base_c4 {
+    width: 100%;
+}
+
+.FirstBranchReset_topHeader_92 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+}
+
+.FirstBranchReset_description_75 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.FirstBranchReset_params_01 {
+    margin-bottom: 8rem;
+}
+
+.FirstBranchReset_item_a2 {
+    color: #CBAC77;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    padding-left: 24rem;
+    position: relative;
+}
+
+.FirstBranchReset_bullet_a3 {
+    position: absolute;
+    top: 0;
+    left: 12rem;
+    transform: translateX(-50%);
+}
+
+.FirstBranchReset_points_07 {
+    color: #E9E2BF;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    transform: translateY(-1rem);
+}
+
+.FirstBranchReset_points__vehicles_62 {
+        transform: translateY(-1rem) translateX(5rem);
+    }
+
+.FirstBranchReset_pointsIcon_07 {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 5rem;
+    background: url('R.images.gui.maps.icons.paragons.paragon') no-repeat center / contain;
+}
+
+.LimitReached_base_a7 {
+    width: 100%;
+}
+
+.LimitReached_topHeader_12 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+    padding-left: 30rem;
+    position: relative;
+}
+
+.LimitReached_icon_63 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center center / contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-10rem);
+}
+
+.LimitReached_description_55 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.Paused_base_37 {
+    width: 100%;
+}
+
+.Paused_topHeader_a8 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+    padding-left: 30rem;
+    position: relative;
+}
+
+.Paused_icon_76 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.library.stopIcon') no-repeat center center / contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-10rem);
+}
+
+.Paused_description_3e {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.RulesIncompleted_base_ea {
+    width: 100%;
+}
+
+.RulesIncompleted_topHeader_b7 {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+    padding-left: 30rem;
+    position: relative;
+}
+
+.RulesIncompleted_icon_d3 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center center / contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-10rem);
+}
+
+.RulesIncompleted_cream_41 {
+    color: #FFDD99;
+}
+
+.RulesIncompleted_description_54 {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+
+.VehiclesRequired_base_41 {
+    width: 100%;
+}
+
+.VehiclesRequired_topHeader_5e {
+    color: #E9E2BF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10rem;
+    padding-left: 30rem;
+    position: relative;
+}
+
+.VehiclesRequired_icon_50 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center center / contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-10rem);
+}
+
+.VehiclesRequired_description_ab {
+    color: #8C8C7E;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10rem;
+}
+

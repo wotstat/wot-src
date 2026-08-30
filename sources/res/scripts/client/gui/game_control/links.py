@@ -1,0 +1,64 @@
+import re
+from gui import macroses
+from debug_utils import LOG_ERROR
+from adisp import adisp_process, adisp_async
+
+class URLMacros(object):
+    __MACROS_PREFIX = b'$'
+
+    def __init__(self, allowedMacroses=None):
+        super(URLMacros, self).__init__()
+        self.__asyncMacroses = macroses.getAsyncMacroses()
+        self.__syncMacroses = macroses.getSyncMacroses()
+        macrosKeys = self.__syncMacroses.keys()
+        macrosKeys.extend(self.__asyncMacroses.keys())
+        if allowedMacroses is not None:
+            macrosKeys = [key for key in macrosKeys if key in allowedMacroses]
+        patterns = []
+        for macro in macrosKeys:
+            patterns.append(b'\\%(macro)s\\(.*\\)|\\%(macro)s' % {b'macro': (self._getUserMacrosName(macro))})
+
+        self.__filter = re.compile((b'|').join(patterns))
+        self.__argsFilter = re.compile(b'\\$(\\w*)(\\((.*)\\))?')
+        return
+
+    def clear(self):
+        self.__asyncMacroses = None
+        self.__syncMacroses = None
+        self.__argsFilter = None
+        self.__filter = None
+        return
+
+    def hasMarcos(self, url):
+        return len(self.__filter.findall(url)) > 0
+
+    @adisp_async
+    @adisp_process
+    def parse(self, url, params=None, callback=(lambda *args: None)):
+        try:
+            for macros in self.__filter.findall(url):
+                macroName, _, args = self.__argsFilter.match(macros).groups()
+                replacement = yield self._replace(macroName, args, params)
+                url = url.replace(macros, replacement)
+
+        except Exception as e:
+            LOG_ERROR((b'Error: {0}. \nParameters for parsing: url - {1}, filter - {2}, callback - {3}').format(e, url, self.__filter, callback))
+
+        callback(url)
+        return
+
+    @adisp_async
+    @adisp_process
+    def _replace(self, macros, args, params, callback):
+        result = b''
+        if macros in self.__asyncMacroses:
+            result = yield self.__asyncMacroses[macros](self, args, params)
+        elif macros in self.__syncMacroses:
+            result = self.__syncMacroses[macros](args)
+        else:
+            LOG_ERROR(b'URL macros is not found', macros)
+        callback(result)
+        return
+
+    def _getUserMacrosName(self, macros):
+        return b'%s%s' % (self.__MACROS_PREFIX, str(macros))

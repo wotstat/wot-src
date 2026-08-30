@@ -1,0 +1,188 @@
+import typing, BigWorld, logging
+from adisp import adisp_process
+from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+from gui.Scaleform.daapi.view.lobby.hangar.BrowserView import makeBrowserParams
+from gui.Scaleform.daapi.view.meta.BrowserScreenMeta import BrowserScreenMeta
+from gui.Scaleform.framework.entities.DisposableEntity import EntityState
+from gui.shared import EVENT_BUS_SCOPE, events
+from gui.shared.view_helpers.blur_manager import CachedBlur
+from gui.sounds.ambients import HangarOverlayEnv
+from helpers import dependency
+from skeletons.gui.app_loader import IAppLoader
+from skeletons.gui.game_control import IBrowserController
+if typing.TYPE_CHECKING:
+    from gui.Scaleform.framework.managers import ContainerManager
+_logger = logging.getLogger(__name__)
+_logger.addHandler(logging.NullHandler())
+BROWSER_LOAD_CALLBACK_DELAY = 0.01
+
+class WebView(BrowserScreenMeta):
+    __browserCtrl = dependency.descriptor(IBrowserController)
+    appLoader = dependency.descriptor(IAppLoader)
+
+    def __init__(self, ctx=None):
+        super(WebView, self).__init__(ctx)
+        self.__browser = None
+        self.__hasFocus = False
+        self.__browserId = 0
+        self.__loadBrowserCbID = None
+        self.__ctx = ctx or {}
+        self._url = ctx.get(b'url') if ctx else None
+        self._forcedSkipEscape = ctx.get(b'forcedSkipEscape', False) if ctx else False
+        self._browserParams = (ctx or {}).get(b'browserParams', makeBrowserParams())
+        self.__callbackOnLoad = ctx.get(b'callbackOnLoad', None) if ctx else None
+        return
+
+    @property
+    def webHandlersReplacements(self):
+        return
+
+    def destroy(self):
+        tooltipManager = self.appLoader.getApp().getToolTipMgr()
+        tooltipManager.hide()
+        super(WebView, self).destroy()
+        return
+
+    def onEscapePress(self):
+        if not self._browserParams.get(b'isHidden'):
+            self.destroy()
+        return
+
+    def onCloseBtnClick(self):
+        if not self._browserParams.get(b'isHidden'):
+            self.destroy()
+        return
+
+    def onFocusChange(self, hasFocus):
+        self.__hasFocus = hasFocus
+        self.__updateSkipEscape(not hasFocus)
+        return
+
+    def viewSize(self, width, height):
+        self.__loadBrowser(width, height)
+        return
+
+    def getBrowser(self):
+        return self.__browser
+
+    def webHandlers(self):
+        from gui.Scaleform.daapi.view.lobby.shared.web_handlers import createWebHandlers
+        return createWebHandlers(self.webHandlersReplacements)
+
+    def _onRegisterFlashComponent(self, viewPy, alias):
+        webHandlers = self.webHandlers()
+        super(WebView, self)._onRegisterFlashComponent(viewPy, alias)
+        if alias == VIEW_ALIAS.BROWSER:
+            viewPy.init(browserID=self.__browserId, webHandlersMap=webHandlers)
+            viewPy.onError += self._onError
+        return
+
+    def _onUnregisterFlashComponent(self, viewPy, alias):
+        if alias == VIEW_ALIAS.BROWSER:
+            viewPy.onError -= self._onError
+        super(WebView, self)._onUnregisterFlashComponent(viewPy, alias)
+        return
+
+    def _getUrl(self):
+        return self._url
+
+    def _populate(self):
+        super(WebView, self)._populate()
+        self.addListener(events.HideWindowEvent.HIDE_OVERLAY_BROWSER_VIEW, self.__handleBrowserClose, scope=EVENT_BUS_SCOPE.LOBBY)
+        self.as_setBrowserParamsS(self._browserParams)
+        return
+
+    def _dispose(self):
+        super(WebView, self)._dispose()
+        self.removeListener(events.HideWindowEvent.HIDE_OVERLAY_BROWSER_VIEW, self.__handleBrowserClose, scope=EVENT_BUS_SCOPE.LOBBY)
+        if self.__browserId:
+            self.__browserCtrl.delBrowser(self.__browserId)
+        return
+
+    def _refresh(self):
+        self.__browser.refresh()
+        return
+
+    def _onError(self):
+        self.__updateSkipEscape(True)
+        return
+
+    @adisp_process
+    def __loadBrowser(self, width, height):
+        url = self._getUrl()
+        if url is not None:
+            self.__browserId = yield self.__browserCtrl.load(url=url, useBrowserWindow=False, browserSize=(
+             width, height), showBrowserCallback=self.__showBrowser, browserID=self.alias)
+            self.__browser = self.__browserCtrl.getBrowser(self.__browserId)
+            if self.__browser:
+                self.__browser.allowRightClick = self.__ctx.get(b'allowRightClick', True)
+                self.__browser.useSpecialKeys = self.__ctx.get(b'useSpecialKeys', False)
+                self.__browser.ignoreAltKey = self.__ctx.get(b'ignoreAltKey', True)
+                self.__browser.ignoreCtrlClick = self.__ctx.get(b'ignoreCtrlClick', True)
+                self.__browser.ignoreShiftClick = self.__ctx.get(b'ignoreShiftClick', True)
+            self.__updateSkipEscape(not self.__hasFocus)
+        else:
+            _logger.error(b'ERROR: Browser could not be opened. Invalid URL!')
+        return
+
+    def __updateSkipEscape(self, skipEscape):
+        if self.__browser is not None:
+            self.__browser.skipEscape = self._forcedSkipEscape or skipEscape
+            self.__browser.ignoreKeyEvents = skipEscape
+        return
+
+    def __showBrowser(self):
+        self.__loadBrowserCbID = BigWorld.callback(BROWSER_LOAD_CALLBACK_DELAY, self.__loadBrowserAS)
+        return
+
+    def __loadBrowserAS(self):
+        self.__loadBrowserCbID = None
+        if self.__callbackOnLoad is not None:
+            self.__callbackOnLoad()
+        self.as_loadBrowserS()
+        return
+
+    def __handleBrowserClose(self, _):
+        self.destroy()
+        return
+
+
+class WebViewTransparent(WebView):
+    __sound_env__ = HangarOverlayEnv
+
+    def __init__(self, ctx=None):
+        super(WebViewTransparent, self).__init__(ctx)
+        self._browserParams = makeBrowserParams(bgAlpha=0.67)
+        self._browserParams.update((ctx or {}).get(b'browserParams', {}))
+        self.__blur = None
+        self.__hiddenLayers = (ctx or {}).get(b'hiddenLayers', ())
+        return
+
+    def _populate(self):
+        super(WebViewTransparent, self)._populate()
+        if self.__hiddenLayers:
+            containerManager = self.app.containerManager
+            containerManager.hideContainers(self.__hiddenLayers, 0)
+        return
+
+    def setParentWindow(self, window):
+        super(WebViewTransparent, self).setParentWindow(window)
+        self.__blur = CachedBlur(enabled=True, ownLayer=window.layer)
+        return
+
+    def onEscapePress(self):
+        self.destroy()
+        return
+
+    def _needToBeDisposed(self):
+        return self.getState() == EntityState.UNDEFINED or super(WebViewTransparent, self)._needToBeDisposed()
+
+    def _dispose(self):
+        if self.__blur is not None:
+            self.__blur.fini()
+            self.__blur = None
+        if self.__hiddenLayers:
+            containerManager = self.app.containerManager
+            containerManager.showContainers(self.__hiddenLayers, 0)
+        super(WebViewTransparent, self)._dispose()
+        return

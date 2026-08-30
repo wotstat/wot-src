@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.views.lobby.battle_pass.reward_item_model import RewardItemModel
+
+class TankmanBonusModel(RewardItemModel):
+    __slots__ = ()
+
+    def __init__(self, properties=16, commands=0):
+        super(TankmanBonusModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getWithUniqueVoice(self):
+        return self._getBool(15)
+
+    def setWithUniqueVoice(self, value):
+        self._setBool(15, value)
+        return
+
+    def _initialize(self):
+        super(TankmanBonusModel, self)._initialize()
+        self._addBoolProperty(b'withUniqueVoice', False)
+        return

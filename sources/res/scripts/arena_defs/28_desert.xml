@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:28_desert/name</name>
+	<description>#arenas:28_desert/description</description>
+	<geometry>spaces/28_desert</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<boundingBox>
+		<bottomLeft>-500.0 -500.0</bottomLeft>
+		<upperRight>500.0 500.0</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/28_desert/mmap.dds</minimap>
+	<vehicleCamouflageKind>desert</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<wwmusicSetup>
+		<wwmusicLoading>music_sand_river_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_sand_river_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_sand_river_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_sand_river_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_sand_river_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_sand_river_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>ambient_wind_desert_01</wwambientSound>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>373.485199 -178.960999</position1>
+				</team1>
+				<team2>
+					<position1>-405.038452 137.526245</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>421.21817 152.382004</position>
+					<position>448.545532 -58.1144142</position>
+				</team1>
+				<team2>
+					<position>-254.094955 394.119507</position>
+					<position>-456.017151 229.979965</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-89.6970291 -323.644165</controlPoint>
+		</domination>
+		<assault2>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>430 186</position>
+				</team1>
+				<team2>
+					<position>-433.378998 152.272003</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>249.90094 -208.700195</position1>
+					<position2>116.863976 310.117004</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>373.485199 -178.960999</position1>
+				</team1>
+				<team2>
+					<position1>-405.038452 137.526245</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/28_desert/mmap_comp7.dds</minimap>
+			<teamSpawnPoints>
+				<team1>
+					<position>404.521606 213.309036</position>
+				</team1>
+				<team2>
+					<position>-413.864929 124.521797</position>
+				</team2>
+			</teamSpawnPoints>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-94.5849686 -431.050873</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>159.682037 -67.8771133</position>
+					<type>4</type>
+				</point>
+				<point>
+					<position>-4.27583885 100.850296</position>
+					<type>3</type>
+				</point>
+				<point>
+					<position>208.646896 484.979584</position>
+					<type>4</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamBasePositions>
+				<team1>
+					<position1>249.90094 -208.700195</position1>
+					<position2>116.863976 310.117004</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</comp7>
+	</gameplayTypes>
+</root>

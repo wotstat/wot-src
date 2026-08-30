@@ -1,0 +1,271 @@
+from UnitBase import UNIT_BROWSER_ERROR
+from adisp import adisp_process
+from constants import PREBATTLE_TYPE
+from debug_utils import LOG_ERROR
+from gui import DialogsInterface, SystemMessages
+from gui.Scaleform.daapi.view.dialogs.rally_dialog_meta import UnitConfirmDialogMeta
+from gui.Scaleform.daapi.view.meta.CyberSportMainWindowMeta import CyberSportMainWindowMeta
+from gui.Scaleform.genConsts.CYBER_SPORT_ALIASES import CYBER_SPORT_ALIASES
+from gui.Scaleform.locale.CYBERSPORT import CYBERSPORT
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.Scaleform.locale.TOOLTIPS import TOOLTIPS
+from gui.Scaleform.managers.windows_stored_data import DATA_TYPE, TARGET_ID
+from gui.Scaleform.managers.windows_stored_data import stored_window
+from gui.prb_control import settings, prbPeripheriesHandlerProperty
+from gui.prb_control.events_dispatcher import g_eventDispatcher
+from gui.prb_control.formatters import messages
+from gui.prb_control.entities.base.unit.ctx import AutoSearchUnitCtx, JoinUnitCtx, AcceptSearchUnitCtx, DeclineSearchUnitCtx, BattleQueueUnitCtx, CreateUnitCtx
+from gui.prb_control.settings import SELECTOR_BATTLE_TYPES, CREATOR_ROSTER_SLOT_INDEXES, PREBATTLE_ACTION_NAME
+from gui.shared import EVENT_BUS_SCOPE, events
+from gui.shared.utils import SelectorBattleTypesUtils as selectorUtils
+from helpers import dependency
+from helpers import i18n
+from account_helpers.AccountSettings import SELECTED_INTRO_VEHICLES_FIELD
+from skeletons.gui.lobby_context import ILobbyContext
+from CurrentVehicle import g_currentVehicle
+from skeletons.gui.shared import IItemsCache
+
+@stored_window(DATA_TYPE.UNIQUE_WINDOW, TARGET_ID.CHANNEL_CAROUSEL)
+class CyberSportMainWindow(CyberSportMainWindowMeta):
+    lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, _=None):
+        super(CyberSportMainWindow, self).__init__()
+        self.__currentState = b''
+        selectorUtils.setBattleTypeAsKnown(SELECTOR_BATTLE_TYPES.UNIT)
+        return
+
+    def getIntroViewAlias(self):
+        return CYBER_SPORT_ALIASES.INTRO_VIEW_UI
+
+    def getBrowserViewAlias(self, prbType):
+        return CYBER_SPORT_ALIASES.UNITS_LIST_VIEW_UI
+
+    def getRoomViewAlias(self, prbType):
+        return CYBER_SPORT_ALIASES.UNIT_VIEW_UI
+
+    def getFlashAliases(self):
+        return CYBER_SPORT_ALIASES.FLASH_ALIASES
+
+    def getPythonAliases(self):
+        return CYBER_SPORT_ALIASES.PYTHON_ALIASES
+
+    def getPrbType(self):
+        return PREBATTLE_TYPE.E_SPORT_COMMON
+
+    @prbPeripheriesHandlerProperty
+    def prbPeripheriesHandler(self):
+        return
+
+    def onUnitRejoin(self):
+        if not self.prbEntity.getFlags().isInIdle():
+            self.__clearState()
+        return
+
+    def onUnitFlagsChanged(self, flags, timeLeft):
+        if self.prbEntity.hasLockedState():
+            if flags.isInSearch():
+                self.as_enableWndCloseBtnS(False)
+                self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_WAITING_PLAYERS_STATE
+            elif flags.isInQueue() or flags.isInArena():
+                self.as_enableWndCloseBtnS(False)
+                self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_ENEMY_STATE
+            else:
+                LOG_ERROR(b'View for modal state is not resolved', flags)
+            self.__initState(timeLeft=timeLeft)
+        else:
+            self.__clearState()
+        return
+
+    def onUnitPlayerStateChanged(self, pInfo):
+        if self.prbEntity.getFlags().isInIdle():
+            self.__initState()
+        return
+
+    def onUnitErrorReceived(self, errorCode):
+        self.as_autoSearchEnableBtnS(True)
+        return
+
+    def onUnitPlayerOnlineStatusChanged(self, pInfo):
+        if pInfo.isOffline():
+            key = settings.UNIT_NOTIFICATION_KEY.PLAYER_OFFLINE
+        else:
+            key = settings.UNIT_NOTIFICATION_KEY.PLAYER_ONLINE
+        self.__addPlayerNotification(key, pInfo)
+        return
+
+    def onUnitPlayerAdded(self, pInfo):
+        if not pInfo.isInvite():
+            self.__addPlayerNotification(settings.UNIT_NOTIFICATION_KEY.PLAYER_ADDED, pInfo)
+        return
+
+    def onUnitPlayerRemoved(self, pInfo):
+        if not pInfo.isInvite():
+            self.__addPlayerNotification(settings.UNIT_NOTIFICATION_KEY.PLAYER_REMOVED, pInfo)
+        return
+
+    def onUnitPlayerBecomeCreator(self, pInfo):
+        if pInfo.isCurrentPlayer():
+            self._showLeadershipNotification()
+        chat = self.chat
+        if chat:
+            chat.as_addMessageS(messages.getUnitPlayerNotification(settings.UNIT_NOTIFICATION_KEY.GIVE_LEADERSHIP, pInfo))
+        return
+
+    def onUnitAutoSearchStarted(self, timeLeft):
+        self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_COMMANDS_STATE
+        vehicles = self.prbEntity.getSelectedVehicles(SELECTED_INTRO_VEHICLES_FIELD)
+        if vehicles and g_currentVehicle.item.intCD != vehicles[0]:
+            itemsCache = dependency.instance(IItemsCache)
+            item = itemsCache.items.getItemByCD(vehicles[0])
+            if hasattr(item, b'invID'):
+                g_currentVehicle.selectVehicle(item.invID)
+        self.as_enableWndCloseBtnS(False)
+        self.__initState(timeLeft=timeLeft)
+        return
+
+    def onUnitAutoSearchFinished(self):
+        self.__clearState()
+        return
+
+    def onUnitAutoSearchSuccess(self, acceptDelta):
+        self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_CONFIRMATION_STATE
+        self.__initState(acceptDelta=acceptDelta)
+        from BigWorld import WindowsNotifier
+        WindowsNotifier.onInvitation()
+        return
+
+    def onUnitBrowserErrorReceived(self, errorCode):
+        if errorCode == UNIT_BROWSER_ERROR.ACCEPT_TIMEOUT:
+            self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_ERROR_STATE
+            self.__initState()
+        else:
+            self.as_autoSearchEnableBtnS(True)
+        return
+
+    def onWindowMinimize(self):
+        self.destroy()
+        g_eventDispatcher.showUnitProgressInCarousel(self.getPrbType())
+        return
+
+    def onAutoMatch(self, value, vehTypes):
+        if value == CYBER_SPORT_ALIASES.INTRO_VIEW_UI:
+            self.prbEntity.request(AutoSearchUnitCtx(vehTypes=vehTypes))
+        return
+
+    def onBrowseRallies(self):
+        self._doSelect(PREBATTLE_ACTION_NAME.PUBLICS_LIST)
+        return
+
+    def onCreateRally(self):
+        self.__requestToCreate()
+        return
+
+    def onJoinRally(self, rallyId, slotIndex, peripheryID):
+        ctx = JoinUnitCtx(rallyId, self.prbEntity.getEntityType(), slotIndex, waitingID=b'prebattle/join')
+        if self.lobbyContext.isAnotherPeriphery(peripheryID):
+            if self.lobbyContext.isPeripheryAvailable(peripheryID):
+                self.__requestToReloginAndJoin(peripheryID, ctx)
+            else:
+                SystemMessages.pushI18nMessage(b'#system_messages:periphery/errors/isNotAvailable', type=SystemMessages.SM_TYPE.Error)
+        else:
+            self.__requestToJoin(ctx)
+        return
+
+    def autoSearchApply(self, value):
+        if value == CYBER_SPORT_ALIASES.AUTO_SEARCH_CONFIRMATION_STATE:
+            self.prbEntity.request(AcceptSearchUnitCtx())
+        elif value == CYBER_SPORT_ALIASES.AUTO_SEARCH_ERROR_STATE:
+            self.__currentState = CYBER_SPORT_ALIASES.AUTO_SEARCH_COMMANDS_STATE
+            self.prbEntity.request(AutoSearchUnitCtx())
+        return
+
+    def autoSearchCancel(self, value):
+        self.__currentState = value
+        if value == CYBER_SPORT_ALIASES.AUTO_SEARCH_COMMANDS_STATE or value == CYBER_SPORT_ALIASES.AUTO_SEARCH_ERROR_STATE or value == CYBER_SPORT_ALIASES.AUTO_SEARCH_WAITING_PLAYERS_STATE:
+            self.prbEntity.request(AutoSearchUnitCtx(action=0))
+        elif value == CYBER_SPORT_ALIASES.AUTO_SEARCH_CONFIRMATION_STATE:
+            self.prbEntity.request(DeclineSearchUnitCtx())
+        elif value == CYBER_SPORT_ALIASES.AUTO_SEARCH_ENEMY_STATE:
+            self.prbEntity.request(BattleQueueUnitCtx(action=0))
+        return
+
+    def _populate(self):
+        super(CyberSportMainWindow, self)._populate()
+        self.addListener(events.HideWindowEvent.HIDE_UNIT_WINDOW, self.__handleUnitWindowHide, scope=EVENT_BUS_SCOPE.LOBBY)
+        self.prbEntity.initEvents(self)
+        g_eventDispatcher.hideUnitProgressInCarousel(self.getPrbType())
+        return
+
+    def _dispose(self):
+        self._itemIdMap = None
+        super(CyberSportMainWindow, self)._dispose()
+        self.removeListener(events.HideWindowEvent.HIDE_UNIT_WINDOW, self.__handleUnitWindowHide, scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    @adisp_process
+    def __requestToCreate(self):
+        yield self.prbDispatcher.create(CreateUnitCtx(PREBATTLE_TYPE.UNIT, waitingID=b'prebattle/create'))
+        return
+
+    @adisp_process
+    def __requestToJoin(self, ctx):
+        yield self.prbDispatcher.join(ctx)
+        return
+
+    @adisp_process
+    def __requestToReloginAndJoin(self, peripheryID, ctx):
+        result = yield DialogsInterface.showDialog(UnitConfirmDialogMeta(PREBATTLE_TYPE.UNIT, b'changePeriphery', messageCtx={b'host': (self.lobbyContext.getPeripheryName(peripheryID))}))
+        if result:
+            self.prbPeripheriesHandler.join(peripheryID, ctx)
+        return
+
+    def __handleUnitWindowHide(self, _):
+        self.destroy()
+        return
+
+    def __initState(self, timeLeft=0, acceptDelta=0):
+        model = None
+        if self.__currentState == CYBER_SPORT_ALIASES.AUTO_SEARCH_COMMANDS_STATE:
+            message = i18n.makeString(CYBERSPORT.WINDOW_AUTOSEARCH_SEARCHCOMMAND_CXTDNMMESSAGE, settings.AUTO_SEARCH_UNITS_ARG_TIME)
+            model = self.__createAutoUpdateModel(self.__currentState, timeLeft, message, [])
+        elif self.__currentState == CYBER_SPORT_ALIASES.AUTO_SEARCH_CONFIRMATION_STATE:
+            model = self.__createAutoUpdateModel(self.__currentState, acceptDelta, b'', [])
+        elif self.__currentState == CYBER_SPORT_ALIASES.AUTO_SEARCH_WAITING_PLAYERS_STATE:
+            model = self.__createAutoUpdateModel(self.__currentState, timeLeft, b'', self.prbEntity.getReadyStates())
+            _, unit = self.prbEntity.getUnit()
+            if unit and unit.isRosterSet(ignored=CREATOR_ROSTER_SLOT_INDEXES):
+                model[b'extraData'] = {b'showAlert': True, b'alertTooltip': (TOOLTIPS.CYBERSPORT_WAITINGPLAYERS_CONFIGALERT), 
+                   b'alertIcon': (RES_ICONS.MAPS_ICONS_LIBRARY_GEAR)}
+            else:
+                model[b'extraData'] = {b'showAlert': False, b'alertTooltip': b'', 
+                   b'alertIcon': b''}
+        elif self.__currentState == CYBER_SPORT_ALIASES.AUTO_SEARCH_ENEMY_STATE:
+            model = self.__createAutoUpdateModel(self.__currentState, timeLeft, b'', [])
+        elif self.__currentState == CYBER_SPORT_ALIASES.AUTO_SEARCH_ERROR_STATE:
+            model = self.__createAutoUpdateModel(self.__currentState, 0, b'', [])
+        if model is not None:
+            self.as_changeAutoSearchStateS(model)
+        return
+
+    def __clearState(self):
+        self.__currentState = b''
+        self.as_enableWndCloseBtnS(True)
+        self.as_hideAutoSearchS()
+        return
+
+    def __createAutoUpdateModel(self, state, countDownSeconds, ctxMessage, playersReadiness):
+        permissions = self.prbEntity.getPermissions(unitMgrID=self.prbEntity.getID())
+        model = {b'state': state, 
+           b'countDownSeconds': countDownSeconds, 
+           b'contextMessage': ctxMessage, 
+           b'playersReadiness': playersReadiness, 
+           b'canInvokeAutoSearch': (permissions.canStartAutoSearch()), 
+           b'canInvokeBattleQueue': (permissions.canStopBattleQueue())}
+        return model
+
+    def __addPlayerNotification(self, key, pInfo):
+        chat = self.chat
+        if chat and not pInfo.isCurrentPlayer():
+            chat.as_addMessageS(messages.getUnitPlayerNotification(key, pInfo))
+        return

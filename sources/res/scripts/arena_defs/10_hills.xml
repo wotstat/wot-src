@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:10_hills/name</name>
+	<description>#arenas:10_hills/description</description>
+	<geometry>spaces/10_hills</geometry>
+	<estimatedLoad>0.3</estimatedLoad>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>-400 -400</bottomLeft>
+		<upperRight>400 400</upperRight>
+	</boundingBox>
+	<minimap>spaces/10_hills/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<wwmusicSetup>
+		<wwmusicLoading>music_mines_loading_screen</wwmusicLoading>
+		<wwmusicIntensive>music_mines_dron_intensive</wwmusicIntensive>
+		<wwmusicRelaxed>music_mines_dron_relaxed</wwmusicRelaxed>
+		<wwmusicStop>music_dron_stop</wwmusicStop>
+		<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+		<wwmusicResultWin>music_mines_result_win</wwmusicResultWin>
+		<wwmusicResultDrawn>music_mines_result_drawn</wwmusicResultDrawn>
+		<wwmusicResultDefeat>music_mines_result_defeat</wwmusicResultDefeat>
+	</wwmusicSetup>
+	<wwambientSound>amb_map_10_hills_wind_summer</wwambientSound>
+	<soundRemapping>
+		<loadBanks>
+			<bank>
+				<name>env_Mountain.bnk</name>
+			</bank>
+		</loadBanks>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<artilleryPreparationChance>0.0</artilleryPreparationChance>
+			<teamBasePositions>
+				<team1>
+					<position1>175.783722 -305.848389</position1>
+				</team1>
+				<team2>
+					<position1>-236.649323 329.638184</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>-14 -330</position>
+				</team1>
+				<team2>
+					<position>-177 305</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>258.448547 132.453369</controlPoint>
+		</domination>
+		<assault2>
+			<roundLength>420</roundLength>
+			<winnerIfTimeout>1</winnerIfTimeout>
+			<winnerIfExtermination>1</winnerIfExtermination>
+			<teamSpawnPoints>
+				<team1>
+					<position>86.7050018 -311.497009</position>
+				</team1>
+				<team2>
+					<position>-172.927002 264.269012</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1>
+					<position1>195.064728 -18.8734741</position1>
+					<position2>-222.885666 -81.2801056</position2>
+				</team1>
+				<team2></team2>
+			</teamBasePositions>
+		</assault2>
+		<bootcamp>
+			<wwmusicSetup>
+				<wwmusicLoading>bc_music_loadingscreen</wwmusicLoading>
+				<wwmusicIntensive>bc_music_mission_05</wwmusicIntensive>
+				<wwmusicRelaxed>bc_music_mission_05</wwmusicRelaxed>
+				<wwmusicStop>music_dron_stop</wwmusicStop>
+				<wwmusicEndbattleStop>music_dron_endbattle_stop</wwmusicEndbattleStop>
+				<wwmusicResultWin>music_mines_result_win</wwmusicResultWin>
+				<wwmusicResultDrawn>music_mines_result_drawn</wwmusicResultDrawn>
+				<wwmusicResultDefeat>music_mines_result_defeat</wwmusicResultDefeat>
+			</wwmusicSetup>
+			<teamBasePositions>
+				<team1>
+					<position1>175.658508 -305.792603</position1>
+				</team1>
+				<team2>
+					<position1>-236.649323 329.638184</position1>
+				</team2>
+			</teamBasePositions>
+			<maxPlayersInTeam>1</maxPlayersInTeam>
+			<runDelay>10</runDelay>
+			<visualScript>
+				<server>
+					<plan>BootCamp/Lesson_5_arena_10_hills</plan>
+				</server>
+				<client>
+					<plan>BootCamp/Lesson_5_client_10_hills</plan>
+				</client>
+			</visualScript>
+		</bootcamp>
+		<maps_training>
+			<teamBasePositions>
+				<team1>
+					<position1>175.783722 -305.848389</position1>
+				</team1>
+				<team2>
+					<position1>-236.649323 329.638184</position1>
+				</team2>
+			</teamBasePositions>
+		</maps_training>
+		<comp7>
+			<visualScript>
+				<server>
+					<plan>PointsOfInterest/pointsOfInterest</plan>
+				</server>
+			</visualScript>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/10_hills/mmap_comp7.dds</minimap>
+			<pointsOfInterestUDO>
+				<point>
+					<position>-210.890121 -6.76128101</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>184.469055 67.7895279</position>
+					<type>1</type>
+				</point>
+				<point>
+					<position>79.6135254 23.8221798</position>
+					<type>2</type>
+				</point>
+				<point>
+					<position>-320.713806 -26.1933479</position>
+					<type>1</type>
+				</point>
+			</pointsOfInterestUDO>
+			<teamSpawnPoints>
+				<team1>
+					<position>-19.0395966 -292.89856</position>
+				</team1>
+				<team2>
+					<position>-62.6879272 258.237152</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-66.4121094 12.9332371</controlPoint>
+		</comp7>
+		<bob>
+			<recon>
+				<flyDirections>
+					<flyDirection>
+						<team>1</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+					<flyDirection>
+						<team>2</team>
+						<direction>0 0 1</direction>
+					</flyDirection>
+				</flyDirections>
+			</recon>
+			<minimap>spaces/10_hills/mmap_comp7.dds</minimap>
+			<teamSpawnPoints>
+				<team1>
+					<position>-19.0395966 -292.89856</position>
+				</team1>
+				<team2>
+					<position>-62.6879272 258.237152</position>
+				</team2>
+			</teamSpawnPoints>
+			<controlPoint>-66.4120026 12.9329996</controlPoint>
+		</bob>
+		<domination3>
+			<boundingBox>
+				<bottomLeft>-300 -200</bottomLeft>
+				<upperRight>200 300</upperRight>
+			</boundingBox>
+			<teamSpawnPoints>
+				<team1>
+					<position>-49.2719879 -147.577194</position>
+				</team1>
+				<team2>
+					<position>-58.6725693 190.07016</position>
+				</team2>
+			</teamSpawnPoints>
+			<minimap>spaces/10_hills/mmap_domination3.dds</minimap>
+			<controlPoint>-68.6740036 17.1940002</controlPoint>
+		</domination3>
+	</gameplayTypes>
+	<roadMap></roadMap>
+</root>

@@ -1,0 +1,39 @@
+import typing
+if typing.TYPE_CHECKING:
+    from frameworks.wulf import ViewModel
+    from gui.impl.gen.view_models.views.battle.battle_context_hints.info_battle_context_hint_model import InfoBattleContextHintModel
+
+class BattleContextHintsViewPresenter(object):
+
+    def __init__(self, *args, **kwargs):
+        return
+
+    def updateModel(self, viewModel):
+        raise NotImplementedError
+        return
+
+
+class InfoHintPresenter(BattleContextHintsViewPresenter):
+
+    def __init__(self, duration, hintId, *args, **kwargs):
+        super(InfoHintPresenter, self).__init__(duration, hintId, *args, **kwargs)
+        self.__duration = duration
+        self.__hintId = hintId
+        return
+
+    def updateModel(self, viewModel):
+        viewModel.setDuration(self.__duration)
+        viewModel.setHintId(self.__hintId)
+        return
+
+
+class InSafetyWhileNotObservedHintPresenter(BattleContextHintsViewPresenter):
+
+    def updateModel(self, viewModel):
+        return
+
+
+class FueltankCritHintPresenter(BattleContextHintsViewPresenter):
+
+    def updateModel(self, viewModel):
+        return

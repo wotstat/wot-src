@@ -1,0 +1,39 @@
+from frameworks.wulf import WindowLayer
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.lobby.mode_selector.items.base_item import ModeSelectorLegacyItem
+from story_mode.gui.fade_in_out import UseStoryModeFading, UseHeaderNavigationImpossible
+from story_mode.uilogging.story_mode.loggers import SelectorCardLogger
+from th_async import th_async
+
+class StoryModeSelectorItem(ModeSelectorLegacyItem):
+    __slots__ = (b'_uiLogger',)
+
+    def __init__(self, oldSelectorItem):
+        super(StoryModeSelectorItem, self).__init__(oldSelectorItem)
+        self._uiLogger = SelectorCardLogger()
+        return
+
+    def _onInitializing(self):
+        super(StoryModeSelectorItem, self)._onInitializing()
+        self.viewModel.setDescription(backport.text(R.strings.sm_lobby.mode.story_mode.description()))
+        self.viewModel.setStatusActive(backport.text(R.strings.sm_lobby.mode.story_mode.callToAction()))
+        return
+
+    @th_async
+    def handleClick(self):
+        self._uiLogger.logSelfClick()
+        super(StoryModeSelectorItem, self).handleClick()
+        if not self.viewModel.getIsSelected():
+            yield self.animateSelection()
+        return
+
+    @UseHeaderNavigationImpossible()
+    @UseStoryModeFading(layer=WindowLayer.TOP_SUB_VIEW, hide=False)
+    def animateSelection(self):
+        return
+
+    def handleInfoPageClick(self):
+        self._uiLogger.logInfoClick()
+        super(StoryModeSelectorItem, self).handleInfoPageClick()
+        return

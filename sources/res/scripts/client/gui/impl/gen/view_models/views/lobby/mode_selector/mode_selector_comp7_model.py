@@ -1,0 +1,22 @@
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_comp7_widget_model import ModeSelectorComp7WidgetModel
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_normal_card_model import ModeSelectorNormalCardModel
+
+class ModeSelectorComp7Model(ModeSelectorNormalCardModel):
+    __slots__ = ()
+
+    def __init__(self, properties=22, commands=0):
+        super(ModeSelectorComp7Model, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def widget(self):
+        return self._getViewModel(21)
+
+    @staticmethod
+    def getWidgetType():
+        return ModeSelectorComp7WidgetModel
+
+    def _initialize(self):
+        super(ModeSelectorComp7Model, self)._initialize()
+        self._addViewModelProperty(b'widget', ModeSelectorComp7WidgetModel())
+        return

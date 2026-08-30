@@ -1,0 +1,17 @@
+from script_component.DynamicScriptComponent import DynamicScriptComponent
+
+class VehicleSkillCounter(DynamicScriptComponent):
+
+    def set_counterValue(self, prev):
+        if self._isAvatarReady:
+            self.__updateCounter()
+        return
+
+    def _onAvatarReady(self):
+        self.__updateCounter()
+        return
+
+    def __updateCounter(self):
+        from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
+        g_eventBus.handleEvent(events.RoleSkillEvent(events.RoleSkillEvent.COUNTER_CHANGED, {b'value': (self.counterValue)}), scope=EVENT_BUS_SCOPE.BATTLE)
+        return

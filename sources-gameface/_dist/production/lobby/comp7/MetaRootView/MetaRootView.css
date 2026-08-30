@@ -1,0 +1,7579 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.TextButton_base_b6 {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    font-size: 12rem;
+    position: relative;
+    cursor: pointer;
+}
+
+    .TextButton_base__right_39 {
+        flex-direction: row-reverse;
+    }
+.TextButton_icon_17 {
+    width: 32rem;
+    height: 32rem;
+    background: no-repeat center / contain;
+    position: relative;
+}
+.TextButton_icon__back_43,
+    .TextButton_icon__forward_59 {
+        margin: -1rem -5rem;
+        background-image: url('R.images.gui.maps.icons.components.text_button.back');
+        transform: translateY(1rem);
+    }
+.TextButton_icon__forward_59 {
+        transform: rotate(180deg) translateY(1rem);
+    }
+.TextButton_icon__close_53 {
+        margin: -1rem 0;
+        background-image: url('R.images.gui.maps.icons.components.text_button.close');
+    }
+.TextButton_icon__info_33 {
+        margin: -1rem -5rem;
+        background-image: url('R.images.gui.maps.icons.components.text_button.info');
+    }
+.TextButton_glow_a4 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .16s;
+}
+.TextButton_icon__back_43 .TextButton_glow_a4,
+    .TextButton_icon__forward_59 .TextButton_glow_a4 {
+        background-image: url('R.images.gui.maps.icons.components.text_button.back_hover');
+    }
+.TextButton_icon__close_53 .TextButton_glow_a4 {
+        background-image: url('R.images.gui.maps.icons.components.text_button.close_hover');
+    }
+.TextButton_icon__info_33 .TextButton_glow_a4 {
+        background-image: url('R.images.gui.maps.icons.components.text_button.info_hover');
+    }
+.TextButton_base_b6:hover .TextButton_glow_a4 {
+        opacity: 1;
+    }
+.TextButton_base_b6:active .TextButton_glow_a4 {
+        opacity: 0;
+    }
+.TextButton_caption_82 {
+    position: relative;
+    transition: color .16s, text-shadow .16s;
+}
+.TextButton_caption__back_b9,
+    .TextButton_caption__forward_4e,
+    .TextButton_caption__close_36 {
+        color: #FFDD99;
+        text-shadow: 0 0 10rem rgba(255,42,0, 1),
+            0 0 10rem rgba(255,42,0, .4),
+            0 0 10rem rgba(255,42,0, .4),
+            0 0 2rem rgba(255,42,0, .4),
+            0 0 1rem rgba(255,42,0, .4),
+            0 0 2rem rgba(255,42,0, .4),
+            0 0 1rem rgba(255,42,0, .4);
+    }
+.TextButton_base_b6:hover .TextButton_caption__back_b9, .TextButton_base_b6:hover .TextButton_caption__forward_4e, .TextButton_base_b6:hover .TextButton_caption__close_36 {
+            color: #fffa9f;
+        }
+.TextButton_base_b6:active .TextButton_caption__back_b9, .TextButton_base_b6:active .TextButton_caption__forward_4e, .TextButton_base_b6:active .TextButton_caption__close_36 {
+            color: #FFDD99;
+        }
+.TextButton_caption__info_23 {
+        padding: 0 5rem;
+        color: #CCFFFF;
+        text-shadow: 0 0 12rem rgba(31,68,255, .8),
+            0 0 8rem #00eaff;
+    }
+.TextButton_base_b6:hover .TextButton_caption__info_23 {
+            color: #e3ffff;
+            text-shadow: 0 0 12rem rgba(31,68,255, .8),
+                0 0 12rem rgba(0,234,255, 1),
+                0 0 8rem #00eaff;
+        }
+.TextButton_base_b6:active .TextButton_caption__info_23 {
+            color: #CCFFFF;
+            text-shadow: 0 0 12rem rgba(31,68,255, .6),
+                0 0 8rem #00eaff;
+        }
+.TextButton_goto_e7 {
+    color: #7c7c6c;
+}
+.TextButton_base__left_ff .TextButton_goto_e7 {
+        margin-left: 8rem;
+    }
+.TextButton_base__right_39 .TextButton_goto_e7 {
+        margin-right: 8rem;
+    }
+.TextButton_shine_e2 {
+    width: 90rem;
+    height: 40rem;
+    background: url('R.images.gui.maps.icons.components.text_button.shine') no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    top: -4rem;
+    transition: opacity .16s;
+    pointer-events: none;
+}
+.TextButton_base__left_ff .TextButton_shine_e2 {
+        left: -4rem;
+    }
+.TextButton_base__right_39 .TextButton_shine_e2 {
+        right: -4rem;
+        transform: rotate(180deg);
+    }
+.TextButton_base_b6:hover .TextButton_shine_e2 {
+        opacity: 1;
+    }
+.TextButton_base_b6:active .TextButton_shine_e2 {
+        opacity: 0;
+    }
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+.page_heading_05 {
+    padding-top: 54rem;
+}
+.mediaMedium .page_heading_05 {
+        padding-top: 63rem;
+        padding-bottom: 9rem;
+}
+.page_close_a4 {
+    position: absolute;
+    top: 54rem;
+    right: 29rem;
+}
+.mediaMedium .page_close_a4 {
+        top: 63rem;
+}
+.mediaLarge .page_close_a4 {
+        right: 40rem;
+}
+
+.Frame_base_af {
+    border: 1rem solid rgba(255,85,0, .2);
+    position: absolute;
+    pointer-events: none;
+}
+
+    .Frame_base__small_f0 {
+        width: 68rem;
+        height: 52rem;
+    }
+
+    .Frame_base__medium_05 {
+        width: 100rem;
+        height: 80rem;
+    }
+
+.Frame_border_17 {
+    width: 100%;
+    height: 1rem;
+    background: url('R.images.gui.maps.icons.components.tabs.tab.border_horizontal') no-repeat 50% 0 / contain;
+    position: absolute;
+}
+
+.Frame_border__top_f7 {
+        top: -1rem;
+    }
+
+.Frame_border__bottom_52 {
+        bottom: -1rem;
+    }
+
+.Frame_arrow_c3 {
+    width: 7rem;
+    height: 12rem;
+    margin-left: 12rem;
+    background: url('R.images.gui.maps.icons.components.tabs.tab.arrow') no-repeat center / contain;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+}
+
+.Tab_base_cd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: color 0.5s ease-in-out, text-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+    .Tab_base__small_bf {
+        width: 68rem;
+        height: 52rem;
+    }
+
+    .Tab_base__medium_96 {
+        width: 100rem;
+        height: 80rem;
+    }
+
+    .Tab_base_cd:hover {
+        background-color: rgba(255,85,0, 0.06);
+    }
+
+    .Tab_base__active_7e {
+        background-color: rgba(255,85,0, 0.06);
+        cursor: default;
+    }
+
+.Tab_highlight_b6 {
+    width: 0rem;
+    height: 0rem;
+    background: url('R.images.gui.maps.icons.components.tabs.tab.highlight') no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease-in-out, width 0.3s ease-out;
+    transition-delay: 0.1s;
+    pointer-events: none;
+}
+
+.Tab_base__active_7e .Tab_highlight_b6 {
+        width: 338rem;
+        height: 168rem;
+        opacity: 1;
+    }
+
+.Tab_icon_28 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale(.5) sepia(1);
+    pointer-events: none;
+}
+
+.Tab_icon__small_48 {
+        width: 32rem;
+        height: 32rem;
+    }
+
+.Tab_icon__medium_73 {
+        width: 64rem;
+        height: 64rem;
+    }
+
+.Tab_base_cd:hover .Tab_icon_28,
+    .Tab_base__active_7e .Tab_icon_28 {
+        filter: grayscale(0) sepia(0);
+    }
+
+.Tab_notification_86 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 14rem;
+    height: 14rem;
+    padding: 0 3rem 2rem;
+    border: 1rem solid #fe4e0f;
+    border-radius: 999rem;
+    box-shadow: 0 0 0 1rem rgba(0,0,0, 0.3), 0 0 6rem rgba(254,103,0, 0.2), 0 0 12rem 4rem rgba(249,0,0, 0.3);
+    background-image: url('R.images.gui.maps.icons.components.counter.pattern');
+    color: #FFFFFF;
+    font-size: 12rem;
+    text-align: center;
+    position: absolute;
+    top: 12rem;
+    right: 12rem;
+    z-index: 5;
+    transform: translateY(-50%);
+    transition: right 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.Tab_notification__symbol_9b {
+        width: 14rem;
+    }
+
+.Tab_notification__symbol_9b.Tab_notification__small_92 {
+            width: 13rem;
+        }
+
+.Tab_notification__small_92 {
+        min-width: 13rem;
+        height: 13rem;
+        padding: 0 3rem 2rem;
+        font-size: 10rem;
+    }
+
+.Tab_notification__dot_51 {
+        min-width: 0;
+        padding: 0;
+    }
+
+.Tab_notification__dot_51.Tab_notification__small_92 {
+            width: 6rem;
+            height: 6rem;
+        }
+
+.Tab_notification__dot_51.Tab_notification__medium_e6,
+        .Tab_notification__dot_51.Tab_notification__large_6b {
+            width: 8rem;
+            height: 8rem;
+        }
+
+.VerticalTabs_base_41 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.VerticalTabs_title_8c {
+    padding: 0 5rem 10rem;
+    font-size: 14rem;
+    text-align: center;
+}
+
+.VerticalTabs_group_08 {
+    padding: 10rem 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.VerticalTabs_group__small_69 {
+        width: 68rem;
+    }
+
+.VerticalTabs_group__medium_68 {
+        width: 100rem;
+    }
+
+.VerticalTabs_group_08 + .VerticalTabs_group_08 {
+        margin-top: 10rem;
+    }
+
+.Tabs_icon_78 {
+    width: 40rem;
+    height: 40rem;
+    filter: grayscale(.75) sepia(0);
+    transition: .2s filter;
+}
+    .mediaMedium .Tabs_icon_78 {
+        width: 64rem;
+        height: 64rem;
+}
+
+.Spinner_base_87 {
+    width: 260rem;
+    height: 260rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.Spinner_caption_cf {
+    color: #8C8C7E;
+    font-size: 12rem;
+    text-align: center;
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateY(48rem);
+}
+
+.Spinner_gear_c4 {
+    width: 260rem;
+    height: 260rem;
+    margin-top: 2rem;
+    background: url('R.images.gui.maps.icons.components.spinner.spinner') 0 0;
+    background-size: 260rem 520rem;
+    position: absolute;
+    top: -4rem;
+    left: 0;
+    animation: Spinner_spin_f5 5s linear infinite;
+}
+
+.Spinner_logo_bf {
+    width: 260rem;
+    height: 260rem;
+    background: url('R.images.gui.maps.icons.components.spinner.spinner') 0 -260rem no-repeat;
+    background-size: 260rem 520rem;
+    position: absolute;
+    top: -4rem;
+    left: 0;
+}
+
+@keyframes Spinner_spin_f5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.Heading_base_74 {
+    color: #FFFFFF;
+    font-size: 36rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+}
+    .mediaMedium .Heading_base_74 {
+        color: #FFFFFF;
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+    .mediaExtraLarge .Heading_base_74 {
+        color: #FFFFFF;
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ActiveSeasonState_base_55 {
+    display: flex;
+    align-items: center;
+}
+
+.ActiveSeasonState_calendarIcon_df {
+    width: 21rem;
+    height: 21rem;
+    margin-right: 8rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.calendar') no-repeat center / cover;
+    transform: translateY(2rem);
+}
+
+.mediaLarge .ActiveSeasonState_calendarIcon_df {
+        width: 14rem;
+        height: 16rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.calendar_14x16');
+}
+
+.ActiveSeasonState_divider_5b {
+    width: 2rem;
+    height: 17rem;
+    margin: 2rem 12rem 0;
+    background-color: rgba(255,255,255, .5);
+}
+
+.ScheduleSubheading_base_f7 {
+    color: #FFFFFF;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+}
+    .mediaLarge .ScheduleSubheading_base_f7 {
+        color: #FFFFFF;
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+
+.CButton_base_40 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 1rem rgba(0,0,0, .6);
+    position: relative;
+    cursor: pointer;
+}
+
+    .CButton_base__main_42,
+    .CButton_base__primary_7f,
+    .CButton_base__primaryGreen_6f,
+    .CButton_base__primaryRed_ec,
+    .CButton_base__secondary_50 {
+        background-size: 100% 100%;
+    }
+
+    .CButton_base__main_42 {
+        background-image: url('R.images.gui.maps.icons.components.button.back_main');
+    }
+
+    .CButton_base__primary_7f {
+        background-image: url('R.images.gui.maps.icons.components.button.back_primary');
+    }
+
+    .CButton_base__primaryGreen_6f {
+        background-image: url('R.images.gui.maps.icons.components.button.back_primary_green');
+    }
+
+    .CButton_base__primaryRed_ec {
+        background-image: url('R.images.gui.maps.icons.components.button.back_primary_red');
+    }
+
+    .CButton_base__secondary_50 {
+        background-image: url('R.images.gui.maps.icons.components.button.back_secondary');
+    }
+
+    .CButton_base__ghost_ed {
+        border-radius: 3rem;
+        box-shadow: 0 0 0 1rem rgba(0,0,0, .3),
+            0 0 0 1rem rgba(255,255,255, .15) inset;
+        background-color: rgba(0,0,0, .15);
+    }
+
+    .CButton_base__extraSmall_27 {
+        min-height: 17rem;
+        padding: 0 16rem;
+    }
+
+    .CButton_base__small_df,
+    .CButton_base__medium_74 {
+        padding: 0 20rem;
+    }
+
+    .CButton_base__small_df {
+        min-height: 18rem;
+    }
+
+    .CButton_base__medium_74 {
+        min-height: 32rem;
+    }
+
+    .CButton_base__disabled_d9 {
+        cursor: default;
+    }
+/* Element .back and background-image in element .base need for fix bug in GF https://jira-archive.lesta.group/browse/WOTD-158525
+The bug is that under certain conditions, when using border-image, stripes appear. Strip is a single-pixel gap
+between 'border-image-width' and 'fill'.
+This bug is reproduced in Google Chrome 81.0.4044.113
+*/
+.CButton_back_e5 {
+    border-image-slice: 4 fill;
+    border-image-width: 4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.CButton_base__main_42 .CButton_back_e5 {
+        border-image-source: url('R.images.gui.maps.icons.components.button.back_main');
+    }
+.CButton_base__primary_7f .CButton_back_e5 {
+        border-image-source: url('R.images.gui.maps.icons.components.button.back_primary');
+    }
+.CButton_base__primaryGreen_6f .CButton_back_e5 {
+        border-image-source: url('R.images.gui.maps.icons.components.button.back_primary_green');
+    }
+.CButton_base__primaryRed_ec .CButton_back_e5 {
+        border-image-source: url('R.images.gui.maps.icons.components.button.back_primary_red');
+    }
+.CButton_base__secondary_50 .CButton_back_e5 {
+        border-image-source: url('R.images.gui.maps.icons.components.button.back_secondary');
+    }
+.CButton_texture_fe {
+    background: url('R.images.gui.maps.icons.components.button.standard_texture_file');
+    background-size: 155rem 31rem;
+    mix-blend-mode: soft-light;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.CButton_state_11 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: box-shadow .16s ease-in-out;
+}
+.CButton_base__focus_83 .CButton_state_11 {
+        border-radius: 2rem;
+        box-shadow: inset 0 0 2rem 1rem rgba(255,85,0, .2);
+    }
+.CButton_stateHighlightHover_ff,
+.CButton_stateHighlightActive_35,
+.CButton_stateDisabled_54 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.CButton_base__firstHover_d5 .CButton_stateHighlightHover_ff, .CButton_base__firstHover_d5 .CButton_stateHighlightActive_35, .CButton_base__firstHover_d5 .CButton_stateDisabled_54 {
+        transition: opacity .16s ease-in-out;
+    }
+.CButton_stateHighlightHover_ff {
+    background-image: linear-gradient(180deg, rgba(252,248,235, .25) 0%, rgba(252,248,235, .1) 50%, rgba(255,255,255, 0) 100%);
+}
+.CButton_base_40:hover .CButton_stateHighlightHover_ff {
+        opacity: 1;
+    }
+.CButton_base_40:active .CButton_stateHighlightHover_ff {
+        opacity: 0;
+    }
+.CButton_base__disabled_d9:hover .CButton_stateHighlightHover_ff {
+        opacity: 0;
+    }
+.CButton_base__ghost_ed .CButton_stateHighlightHover_ff {
+        box-shadow: 0 15rem 12rem 0 rgba(242,242,230, .11) inset;
+        background-color: rgba(8,6,0, .18);
+        background-image: none;
+    }
+.CButton_stateHighlightActive_35 {
+    background-image: linear-gradient(180deg, rgba(0,0,0, .3) 0%, rgba(0,0,0, .15) 100%);
+}
+.CButton_base__highlightActive_b2 .CButton_stateHighlightActive_35 {
+        opacity: 1;
+    }
+.CButton_stateDisabled_54 {
+    background-color: rgba(0,0,0, .25);
+    background-image: url('R.images.gui.maps.icons.components.button.texture_disable');
+    background-size: 15rem;
+}
+.CButton_base__disabled_d9 .CButton_stateDisabled_54 {
+        opacity: 1;
+    }
+.CButton_content_cc {
+    display: flex;
+    align-items: center;
+    color: #f2f2e6;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 0 -1rem 1rem #000;
+    letter-spacing: .03em;
+    transform: translateY(-1rem);
+}
+.CButton_content_cc[lang=ja],
+    .CButton_content_cc[lang=ko],
+    .CButton_content_cc[lang=zh_tw],
+    .CButton_content_cc[lang=zh_sg],
+    .CButton_content_cc[lang=zh_cn],
+    .CButton_content_cc[lang=th] {
+        font-weight: 400;
+    }
+.CButton_base__main_42 .CButton_content_cc,
+    .CButton_base__primaryRed_ec .CButton_content_cc {
+        text-shadow: 0 -1rem 1rem #600;
+    }
+.CButton_base__secondary_50 .CButton_content_cc {
+        color: rgba(254,254,236, .75);
+    }
+.CButton_base__primaryGreen_6f .CButton_content_cc {
+        text-shadow: 0 -1rem 1rem #1c2502;
+    }
+.CButton_base__extraSmall_27 .CButton_content_cc {
+        font-size: 12rem;
+    }
+.CButton_base__small_df .CButton_content_cc {
+        font-size: 14rem;
+    }
+.CButton_base__medium_74 .CButton_content_cc {
+        font-size: 15rem;
+    }
+.CButton_base__disabled_d9 .CButton_content_cc {
+        opacity: .6;
+    }
+
+.ErrorState_base_eb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ErrorState_titleContainer_ca {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15rem;
+    position: relative;
+}
+
+.ErrorState_alertIcon_76 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center / cover;
+    position: absolute;
+    right: 100%;
+    transform: translateX(-6rem);
+}
+
+.ErrorState_title_c1 {
+    color: #FEFEEC;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.ErrorState_description_d9 {
+    color: rgba(255,255,255, 0.6);
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.ErrorState_buttonWrapper_5e {
+    margin-top: 28rem;
+}
+
+.ErrorState_button_23 {
+    min-width: 160rem;
+    min-height: 24rem;
+}
+
+.mediaMedium .ErrorState_button_23 {
+        min-height: 32rem;
+}
+
+.Box_mt__XS_0c {
+            margin-top: 4rem;
+        }
+        .Box_mt__SM_eb {
+            margin-top: 8rem;
+        }
+        .Box_mt__SMp_cf {
+            margin-top: 10rem;
+        }
+        .Box_mt__MD_25 {
+            margin-top: 16rem;
+        }
+        .Box_mt__MDp_49 {
+            margin-top: 20rem;
+        }
+        .Box_mt__LG_e8 {
+            margin-top: 32rem;
+        }
+        .Box_mt__XL_83 {
+            margin-top: 64rem;
+        }
+
+.Box_mr__XS_7c {
+            margin-right: 4rem;
+        }
+
+.Box_mr__SM_08 {
+            margin-right: 8rem;
+        }
+
+.Box_mr__SMp_06 {
+            margin-right: 10rem;
+        }
+
+.Box_mr__MD_4a {
+            margin-right: 16rem;
+        }
+
+.Box_mr__MDp_b6 {
+            margin-right: 20rem;
+        }
+
+.Box_mr__LG_d0 {
+            margin-right: 32rem;
+        }
+
+.Box_mr__XL_db {
+            margin-right: 64rem;
+        }
+
+.Box_mb__XS_bb {
+            margin-bottom: 4rem;
+        }
+
+.Box_mb__SM_83 {
+            margin-bottom: 8rem;
+        }
+
+.Box_mb__SMp_04 {
+            margin-bottom: 10rem;
+        }
+
+.Box_mb__MD_ed {
+            margin-bottom: 16rem;
+        }
+
+.Box_mb__MDp_65 {
+            margin-bottom: 20rem;
+        }
+
+.Box_mb__LG_c8 {
+            margin-bottom: 32rem;
+        }
+
+.Box_mb__XL_f8 {
+            margin-bottom: 64rem;
+        }
+
+.Box_ml__XS_8a {
+            margin-left: 4rem;
+        }
+
+.Box_ml__SM_e6 {
+            margin-left: 8rem;
+        }
+
+.Box_ml__SMp_fb {
+            margin-left: 10rem;
+        }
+
+.Box_ml__MD_2b {
+            margin-left: 16rem;
+        }
+
+.Box_ml__MDp_c7 {
+            margin-left: 20rem;
+        }
+
+.Box_ml__LG_39 {
+            margin-left: 32rem;
+        }
+
+.Box_ml__XL_4a {
+            margin-left: 64rem;
+        }
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+        font-size: 12rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+        font-size: 18rem;
+        font-weight: 400;
+        line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 32rem;
+}
+.Text_heading-H14_8b {
+        font-size: 14rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H15_9e {
+        font-size: 15rem;
+        font-weight: 700;
+        line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H22_27 {
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H24R_be {
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+}
+.Text_heading-H24_0c {
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.Text_heading-H28_78 {
+        font-size: 28rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H36_32 {
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+        font-size: 56rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H73_8f {
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+        font-size: 144rem;
+        font-weight: 700;
+        line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+        color: #000000;
+    }
+.Text_WHITE_REAL_bc {
+        color: #FFFFFF;
+    }
+.Text_WHITE_62 {
+        color: #F2F2F7;
+    }
+.Text_WHITE_ORANGE_54 {
+        color: #FEFEEC;
+    }
+.Text_WHITE_SPANISH_df {
+        color: #E9E2BF;
+    }
+.Text_PAR_15 {
+        color: #8C8C7E;
+    }
+.Text_PAR_SECONDARY_5d {
+        color: #595950;
+    }
+.Text_PAR_TERTIARY_c9 {
+        color: #37362E;
+    }
+.Text_INFO_RED_30 {
+        color: #FF0000;
+    }
+.Text_RED_66 {
+        color: #FF2717;
+    }
+.Text_RED_DARK_d8 {
+        color: #B70000;
+    }
+.Text_YELLOW_ed {
+        color: #FEAB34;
+    }
+.Text_ORANGE_be {
+        color: #EE7000;
+    }
+.Text_CREAM_57 {
+        color: #FFDD99;
+    }
+.Text_BROWN_18 {
+        color: #CBAC77;
+    }
+.Text_GREEN_BRIGHT_3f {
+        color: #80D43A;
+    }
+.Text_GREEN_e3 {
+        color: #7AB300;
+    }
+.Text_GREEN_DARK_f1 {
+        color: #497212;
+    }
+.Text_BLUE_BOOSTER_21 {
+        color: #CCFFFF;
+    }
+.Text_BLUE_TEAMKILLER_ab {
+        color: #09E2FF;
+    }
+.Text_CRED_f7 {
+        color: #CED9D9;
+    }
+.Text_GOLD_28 {
+        color: #FFC363;
+    }
+.Text_BOND_be {
+        color: #C9C9B6;
+    }
+.Text_PROM_65 {
+        color: #A29B70;
+    }
+
+.LastUpdateNote_base_7f {
+    display: flex;
+    align-items: center;
+}
+
+.LastUpdateNote_infoIcon_5c {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.infoIcon') no-repeat center / cover;
+}
+
+.LastUpdateNote_lineDivider_2c {
+    width: 1rem;
+    height: 14rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    background-color: #595950;
+    opacity: .5;
+}
+
+.FormatTextWithColorTags_blackReal_3c {
+    color: #000000;
+}
+
+.FormatTextWithColorTags_whiteReal_8a {
+    color: #FFFFFF;
+}
+
+.FormatTextWithColorTags_white_16 {
+    color: #F2F2F7;
+}
+
+.FormatTextWithColorTags_whiteOrange_18 {
+    color: #FEFEEC;
+}
+
+.FormatTextWithColorTags_whiteSpanish_10 {
+    color: #E9E2BF;
+}
+
+.FormatTextWithColorTags_par_ca {
+    color: #8C8C7E;
+}
+
+.FormatTextWithColorTags_parSecondary_8d {
+    color: #595950;
+}
+
+.FormatTextWithColorTags_parTertiary_a3 {
+    color: #37362E;
+}
+
+.FormatTextWithColorTags_red_60 {
+    color: #FF2717;
+}
+
+.FormatTextWithColorTags_redDark_03 {
+    color: #B70000;
+}
+
+.FormatTextWithColorTags_yellow_ad {
+    color: #FEAB34;
+}
+
+.FormatTextWithColorTags_orange_e4 {
+    color: #EE7000;
+}
+
+.FormatTextWithColorTags_cream_cd {
+    color: #FFDD99;
+}
+
+.FormatTextWithColorTags_brown_c8 {
+    color: #CBAC77;
+}
+
+.FormatTextWithColorTags_greenBright_f0 {
+    color: #80D43A;
+}
+
+.FormatTextWithColorTags_green_c5 {
+    color: #7AB300;
+}
+
+.FormatTextWithColorTags_greenDark_af {
+    color: #497212;
+}
+
+.FormatTextWithColorTags_blueBooster_ac {
+    color: #CCFFFF;
+}
+
+.FormatTextWithColorTags_blueTeamkiller_6f {
+    color: #09E2FF;
+}
+
+.FormatTextWithColorTags_cred_4e {
+    color: #CED9D9;
+}
+
+.FormatTextWithColorTags_gold_90 {
+    color: #FFC363;
+}
+
+.FormatTextWithColorTags_bond_71 {
+    color: #C9C9B6;
+}
+
+.FormatTextWithColorTags_prom_dd {
+    color: #A29B70;
+}
+
+.NoRecordsState_base_9b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.NoRecordsState_imageContainer_13 {
+    width: 420rem;
+    height: 260rem;
+    margin-bottom: 20rem;
+    position: relative;
+}
+
+.NoRecordsState_image_fe {
+    width: 540rem;
+    height: 380rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.leaderboardRanks') no-repeat center / cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.NoRecordsState_title_f4 {
+    color: #FFFFFF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.mediaMedium .NoRecordsState_title_f4 {
+        color: #FFFFFF;
+        font-size: 22rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+
+.NoRecordsState_subtitle_5b {
+    color: rgba(255,255,255, .6);
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    justify-content: center;
+    max-width: 550rem;
+    margin-top: 10rem;
+}
+
+.mediaMedium .NoRecordsState_subtitle_5b {
+        margin-top: 12rem;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+.CurrentPositionPanel_base_92 {
+    color: #CBAC77;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--height);
+    border: 1rem solid rgba(255, 161, 0, .2);
+    background-color: rgba(255, 161, 0, .1);
+    position: relative;
+}
+/* TODO: add state to HasRecordsState and move out this css, and set it only when scroll position doesn't math with personalPositionDistance */
+.CurrentPositionPanel_base__active_8c {
+        transition: background-color 0.3s cubic-bezier(.07, .82, .17, 1);
+        cursor: pointer;
+    }
+.CurrentPositionPanel_base__active_8c:hover {
+            background-color: rgba(255, 161, 0, .15);
+        }
+.CurrentPositionPanel_base__highlight_f1 {
+        background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal_background_start') no-repeat 0 0 /
+                contain,
+            url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal_background_end') no-repeat 100% 100% / contain,
+            rgba(255, 161, 0, .1);
+    }
+.CurrentPositionPanel_marker_0b {
+    width: 16rem;
+    height: 100%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal') no-repeat center / contain;
+}
+.CurrentPositionPanel_cell_be {
+    display: flex;
+}
+.CurrentPositionPanel_cell__highlightMarker_9f {
+        justify-content: flex-end;
+        align-items: center;
+        width: 52rem;
+        height: 100%;
+    }
+.CurrentPositionPanel_cell__order_be {
+        justify-content: center;
+        width: 80rem;
+    }
+.CurrentPositionPanel_cell__currentPosition_c5 {
+        flex: 1;
+        padding-left: 35rem;
+    }
+.CurrentPositionPanel_cell__battles_8f {
+        justify-content: flex-end;
+        width: 172rem;
+        padding-right: 28rem;
+    }
+.CurrentPositionPanel_cell__score_d2 {
+        justify-content: flex-end;
+        width: 228rem;
+        padding-right: 28rem;
+    }
+.CurrentPositionPanel_screwIcon_8f {
+    --screwOffset: 15rem;
+    width: 5rem;
+    height: 5rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.screw') no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mediaLarge .CurrentPositionPanel_screwIcon_8f {
+        --screwOffset: 12rem;
+}
+.CurrentPositionPanel_screwIcon__left_cb {
+        left: var(--screwOffset);
+    }
+.CurrentPositionPanel_screwIcon__right_6e {
+        right: var(--screwOffset);
+    }
+
+.VerticalBar_base_f3 {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    height: 100%;
+    position: relative;
+}
+
+    .VerticalBar_base__nonActive_42 {
+        visibility: hidden;
+    }
+
+    .VerticalBar_base_f3 .disable,
+    .VerticalBar_base_f3 .disable:hover {
+        opacity: .3;
+        cursor: default;
+    }
+
+.VerticalBar_topButton_d7,
+.VerticalBar_bottomButton_06 {
+    width: 13rem;
+    height: 13rem;
+    border: 1rem solid #7e7b68;
+    box-shadow: inset 0 0 1rem rgba(255,255,190, .3);
+    background: no-repeat center / 7rem 5rem;
+    opacity: .5;
+    z-index: 1;
+    transition: opacity 130ms linear;
+    cursor: pointer;
+}
+
+.VerticalBar_topButton_d7:hover, .VerticalBar_bottomButton_06:hover {
+        opacity: 1;
+    }
+
+.VerticalBar_topButton_d7 {
+    background-image: url('R.images.gui.maps.icons.components.scroll_area.arrow_top');
+}
+
+.VerticalBar_bottomButton_06 {
+    background-image: url('R.images.gui.maps.icons.components.scroll_area.arrow_down');
+}
+
+.VerticalBar_track_df {
+    flex: 1;
+    margin: 1rem 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.VerticalBar_thumb_32 {
+    display: flex;
+    flex: 0 0 13rem;
+    width: 13rem;
+    height: 100%;
+    min-height: 20rem;
+    border: 1rem solid #7e7b68;
+    box-shadow: inset 0 0 1rem rgba(255,255,190, .3);
+    background: #26241b url('R.images.gui.maps.icons.components.scroll_area.thumb') no-repeat center / 7rem 8rem;
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 130ms linear;
+    cursor: pointer;
+}
+
+.VerticalBar_thumb_32:hover {
+        opacity: 1;
+    }
+
+.VerticalBar_rail_43 {
+    width: 0;
+    height: 100%;
+    border-left: 1rem solid #2f2e24;
+    border-top: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    z-index: 0;
+}
+
+.VerticalBar_rail_43:hover {
+        opacity: .7;
+    }
+
+
+.VerticalScroll_content_cb {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.VerticalScroll_defaultScroll_f8 {
+    display: flex;
+}
+
+.VerticalScroll_bar_1e {
+    flex: 1;
+    margin-left: 7rem;
+}
+
+.VerticalScroll_area_af {
+    flex: 1;
+}
+
+.RankEmblem_base_ec {
+    width: var(--imageSize);
+    height: var(--imageSize);
+    background: no-repeat center / cover;
+}
+
+.RowsDivider_base_0a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .07);
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerCenter') no-repeat bottom center / 840rem 100%,
+    url('R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerLeft') no-repeat bottom left / 264rem 100%,
+    url('R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerRight') no-repeat bottom right / 264rem 100%,
+    rgba(255, 255, 255, .04);
+}
+.RowsDivider_rankText_96 {
+    color: #FFFFFF;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-left: 14rem;
+    line-height: 1.3;
+}
+.RowsDivider_divisionText_7d {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.Header_base_83 {
+    color: rgba(255,255,255, .8);
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: flex;
+    height: 30rem;
+}
+.Header_separator_14 {
+    width: 2rem;
+    height: 100%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.header_separator') no-repeat center / cover;
+}
+.Header_cell_0e {
+    display: flex;
+    align-items: center;
+}
+.Header_cell__order_7d {
+        justify-content: center;
+        width: 132rem;
+        padding-left: 1rem;
+    }
+.Header_cell__player_c5 {
+        flex: 1;
+        padding-left: 35rem;
+    }
+.Header_cell__battles_0d {
+        justify-content: flex-end;
+        width: 172rem;
+        padding-right: 28rem;
+    }
+.Header_cell__score_3e {
+        justify-content: flex-end;
+        width: 228rem;
+        padding-right: 28rem;
+    }
+
+.TextOverflow_base_3b {
+    flex: 0 1 auto;
+    width: auto;
+    line-height: 1.3;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Badge_base_ac {
+    display: flex;
+    justify-content: center;
+    background: no-repeat center / contain;
+}
+
+    .Badge_base__default_c9 {
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .Badge_base__x48_e4 {
+        width: 48rem;
+        height: 48rem;
+    }
+
+.PlayerNickname_base_32 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.PlayerNickname_userName_cc {
+    flex: 0 1 auto; /* the only value for correct work */
+}
+
+.PlayerNickname_igrIcon_34 {
+    background: url('R.images.gui.maps.icons.library.premium_igr_big.png') no-repeat center / contain;
+}
+
+.PlayerNickname_base__default_8d .PlayerNickname_igrIcon_34 {
+        width: 32rem;
+        height: 14rem;
+    }
+
+.PlayerNickname_base__x48_84 .PlayerNickname_igrIcon_34 {
+        width: 64rem;
+        height: 28rem;
+    }
+
+.PlayerNickname_suffixBadgeWrapper_cc {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.PlayerNickname_suffixBadgeStripe_8a {
+    background: no-repeat center / contain;
+    position: absolute;
+    z-index: -1;
+}
+
+.PlayerNickname_base__default_8d .PlayerNickname_suffixBadgeStripe_8a {
+        width: 64rem;
+        height: 24rem;
+        right: 12rem;
+    }
+
+.PlayerNickname_base__default_8d.PlayerNickname_base__inverted_34 .PlayerNickname_suffixBadgeStripe_8a {
+        right: auto;
+        left: 12rem;
+        transform: rotateY(180deg);
+    }
+
+.PlayerNickname_base__x48_84 .PlayerNickname_suffixBadgeStripe_8a {
+        width: 68rem;
+        height: 28rem;
+        right: 16rem;
+    }
+
+.PlayerNickname_base__x48_84.PlayerNickname_base__inverted_34 .PlayerNickname_suffixBadgeStripe_8a {
+        right: auto;
+        left: 16rem;
+        transform: rotateY(180deg);
+    }
+
+.PlayerNickname_suffixBadge_bd {
+    background: no-repeat center / contain;
+}
+
+.PlayerNickname_base__default_8d .PlayerNickname_suffixBadge_bd {
+        width: 24rem;
+        height: 24rem;
+    }
+
+.PlayerNickname_base__x48_84 .PlayerNickname_suffixBadge_bd {
+        width: 32rem;
+        height: 32rem;
+    }
+
+.PlayerNickname_anonymizedIcon_80 {
+    background: no-repeat center / contain;
+}
+
+.PlayerNickname_base__default_8d .PlayerNickname_anonymizedIcon_80 {
+        width: 24rem;
+        height: 24rem;
+        background-image: url('R.images.gui.maps.icons.library.eye.png');
+    }
+
+.PlayerNickname_base__x48_84 .PlayerNickname_anonymizedIcon_80 {
+        width: 48rem;
+        height: 48rem;
+        background-image: url('R.images.gui.maps.icons.library.eye_48x48.png');
+    }
+
+.Row_base_fc {
+    color: rgba(201,201,182, .8);
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1rem solid rgba(255,255,255, .07);
+}
+
+    .Row_base__highlight_35 {
+        color: #C9C9B6;
+        font-size: 16rem;
+        font-weight: 400;
+        line-height: 1.25;
+        border: 1rem solid rgba(151, 87, 240, .2);
+        background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite_background_start') no-repeat 0 0 / contain,
+            url('R.images.comp7.gui.maps.icons.comp7.icons.elite_background_end') no-repeat 100% 100% / contain,
+            rgba(151, 87, 240, .07);
+    }
+
+    .Row_base__highlight_35.Row_base__personal_1c {
+            background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal_background_start') no-repeat 0 0 / contain,
+            url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal_background_end') no-repeat 100% 100% / contain,
+            rgba(255, 161, 0, .1);
+        }
+
+    .Row_base__highlight_35.Row_base__personal_1c .Row_marker_b0 {
+                background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite_personal') no-repeat center / contain;
+            }
+
+    .Row_base__personal_1c {
+        padding-left: 0;
+        border: 1rem solid rgba(255, 161, 0, .2);
+        background: rgba(255, 161, 0, .1);
+        color: #CBAC77;
+        position: relative;
+    }
+.Row_highlightMarker_eb {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 52rem;
+    height: 100%;
+    padding-right: 8rem;
+}
+.Row_marker_b0 {
+    width: 16rem;
+    height: 100%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.elite') no-repeat center / contain;
+}
+.Row_order_30 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    background: no-repeat center / contain;
+    color: rgba(255,255,255, .4);
+}
+.Row_order__first_53 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.first');
+    }
+.Row_order__second_cb {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.second');
+    }
+.Row_order__third_c6 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.third');
+    }
+.Row_playerContainer_9e {
+    display: flex;
+    flex: 1;
+    padding-left: 25rem;
+}
+.Row_player_f9 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10rem;
+}
+.Row_clanTag_73 {
+    color: var(--clanTagColor);
+    mix-blend-mode: screen;
+}
+.Row_battles_61 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 172rem;
+    padding-right: 28rem;
+}
+.Row_score_55 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 228rem;
+    padding-right: 28rem;
+}
+
+.Leaderboard_base_ec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Leaderboard_content_a5 {
+    display: flex;
+    flex: 1 1;
+    position: relative;
+}
+.Leaderboard_shadowsContainer_bc {
+    display: flex;
+    width: 100%;
+    height: 176rem;
+    position: absolute;
+    top: -81rem;
+    left: 0;
+    pointer-events: none;
+}
+.Leaderboard_shadowsContainer__bottom_b4 {
+        top: auto;
+        bottom: -81rem;
+        transform: rotate(180deg);
+    }
+.Leaderboard_shadow_3f {
+    height: 100%;
+    background: no-repeat center / contain;
+}
+.Leaderboard_shadow__left_ee {
+        width: 150rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.shadow_left_side');
+    }
+.Leaderboard_shadow__center_37 {
+        flex: 1;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.shadow_middle');
+        background-repeat: repeat;
+    }
+.Leaderboard_shadow__right_ee {
+        width: 150rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.shadow_right_side');
+    }
+.Leaderboard_area_c7 {
+    width: 100%;
+}
+.Leaderboard_row_06 {
+    height: var(--rowHeight);
+}
+.Leaderboard_bar_69 {
+    padding-left: 20rem;
+}
+.Leaderboard_rowsDivider_2c {
+    height: var(--rowsDividerHeight);
+    margin-top: var(--rowsDividerMargin);
+    margin-bottom: var(--rowsDividerMargin);
+}
+
+.Pagination_base_49 {
+    display: flex;
+    justify-content: center;
+}
+.Pagination_pageButton_27 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34rem;
+    height: 20rem;
+    border: 1rem solid transparent;
+    color: rgba(255,255,255, .5);
+    font-size: 14rem;
+}
+.Pagination_pageButton_27 + .Pagination_pageButton_27 {
+        margin-left: 10rem;
+    }
+.Pagination_pageButton__active_0b,
+    .Pagination_pageButton__inactive_4c {
+        cursor: pointer;
+    }
+.Pagination_pageButton__active_0b {
+        border-image-source: url('R.images.comp7.gui.maps.icons.comp7.icons.pageButtonBg');
+        border-image-slice: 1 fill;
+        box-shadow: 0 0 15rem #ee5003,
+            0 0 6rem rgba(255,42,0, .5);
+        color: #e9e2bf;
+        transition: box-shadow .16s ease-in-out;
+    }
+.Pagination_pageButton__inactive_4c {
+        border-color: rgba(255,255,255, .15);
+        border-radius: 2rem;
+        transition: border-color .16s ease-out, color .16s ease-out;
+    }
+.Pagination_pageButton__inactive_4c:hover {
+            border-color: rgba(255,255,255, .3);
+            color: rgba(255,255,255, 1);
+        }
+.Pagination_pageButton__disabled_e4 {
+        cursor: default;
+    }
+.Pagination_pageValue_b2 {
+    margin-top: -.5rem;
+}
+.Pagination_control_4f {
+    height: 20rem;
+    padding: 0 10rem;
+    border: 1rem solid rgba(255,255,255, .15);
+    border-radius: 2rem;
+    color: rgba(255,255,255, .5);
+    font-size: 14rem;
+}
+.Pagination_control__active_25 {
+        transition: border-color .16s ease-in, color .16s ease-in;
+        cursor: pointer;
+    }
+.Pagination_control__active_25:hover {
+            border-color: rgba(255,255,255, .3);
+            color: rgba(255,255,255, 1);
+        }
+.Pagination_control__prev_8e {
+        margin-right: 10rem;
+    }
+.Pagination_control__next_86 {
+        margin-left: 10rem;
+    }
+
+.HasRecordsState_base_bb {
+    --offset: 12rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+    .mediaMedium .HasRecordsState_base_bb {
+        --offset: 24rem;
+}
+
+    .HasRecordsState_base__withoutPagination_ad {
+        padding-bottom: calc(var(--offset)*2 + 20rem);
+    }
+.HasRecordsState_tableContainer_02 {
+    flex: 1 1;
+    margin-bottom: var(--offset);
+}
+.HasRecordsState_pagination_cb {
+    padding-top: var(--offset);
+    padding-bottom: var(--offset);
+}
+
+.DivisionTab_base_52 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36rem;
+    height: 24rem;
+    margin: 0 4rem;
+    padding: 0 6rem;
+    border: 1rem solid rgba(255,255,255, .15);
+    border-radius: 2rem;
+    box-shadow: 0 0 24rem 0 rgba(255,255,255, .1) inset;
+    background-color: rgba(0,0,0, .6);
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.icons.cornersTab');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all ease-in .15s;
+    cursor: pointer;
+}
+
+    .mediaMedium .DivisionTab_base_52 {
+        width: 48rem;
+}
+
+    .DivisionTab_base_52 .DivisionTab_border_1c {
+        border: 1rem solid rgba(0,0,0, .2);
+        border-radius: 2rem;
+        position: absolute;
+        top: -2rem;
+        right: -2rem;
+        bottom: -2rem;
+        left: -2rem;
+    }
+
+    .DivisionTab_base_52.DivisionTab_disabled_57 {
+        opacity: .6;
+        cursor: default;
+    }
+
+    .DivisionTab_base_52.DivisionTab_disabled_57:hover {
+            border-color: rgba(255,255,255, .15);
+            background-color: rgba(0,0,0, .6);
+        }
+
+    .DivisionTab_base_52:hover {
+        border-color: rgba(255,255,255, .1);
+        background: rgba(13, 13, 13, .6);
+    }
+
+    .DivisionTab_base_52 .DivisionTab_text_9b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+        color: #FEFEEC;
+        font-size: 16rem;
+        font-weight: 900;
+        text-shadow: 1rem 1rem 0 #000000,
+            -1rem -1rem 0 #000000,
+            1rem -1rem 0 #000000,
+            -1rem 1rem 0 #000000;
+        vertical-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .DivisionTab_base_52 .DivisionTab_glow_8c {
+        border: 1rem solid #994c00;
+        border-radius: 2rem;
+        box-shadow: 0 0 32rem 0 rgba(255, 43, 0, .6), 0 0 64rem 0 rgba(255, 0, 0, .6);
+        background: url('R.images.comp7.gui.maps.icons.comp7.icons.glowTab') no-repeat center;
+        opacity: 0;
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+        bottom: -1rem;
+        left: -1rem;
+        transition: opacity ease-in .15s;
+    }
+
+    .DivisionTab_base_52.DivisionTab_selected_0e {
+        background-color: rgba(255, 43, 0, .2);
+    }
+
+    .DivisionTab_base_52.DivisionTab_selected_0e:hover {
+            background-color: rgba(255, 43, 0, .2);
+        }
+
+    .DivisionTab_base_52.DivisionTab_selected_0e .DivisionTab_glow_8c {
+        opacity: 1;
+    }
+
+    .DivisionTab_base_52.DivisionTab_selected_0e .DivisionTab_text_9b {
+        background-color: rgba(255, 43, 0, .2);
+    }
+
+.RankTabs_base_c4 {
+    display: flex;
+    align-items: center;
+    padding: 0 18rem;
+    position: relative;
+}
+
+    .RankTabs_base_c4 > div {
+        display: flex;
+        align-items: center;
+        margin: 0 6rem;
+    }
+
+.RankTabs_divisions_a2 {
+    display: flex;
+    align-items: center;
+}
+
+.RankTabs_rankEmblem_d6 {
+    margin: 0 6rem;
+}
+
+.StateContainer_base_4e {
+    height: 100%;
+    padding-top: 16rem;
+}
+    .mediaLarge .StateContainer_base_4e {
+        padding-top: 40rem;
+}
+
+.StateContainer_content_62 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    padding-top: 20rem;
+}
+
+.StateContainer_line_30 {
+    height: 1rem;
+    margin: 0 8rem;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+}
+
+.StateContainer_noRecords_49 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 5%;
+}
+
+.mediaMedium .StateContainer_noRecords_49 {
+        padding-bottom: 10%;
+}
+
+.StateContainer_controls_11 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.StateContainer_controls_11 > div:first-child,
+    .StateContainer_controls_11 > div:last-child {
+        flex: 1 1 0;
+    }
+
+.mediaMedium .StateContainer_controls_11 {
+        padding-top: 24rem;
+}
+
+.StateContainer_updateInfo_12 {
+    display: flex;
+    align-items: center;
+}
+
+.StateContainer_updateInfo_12 .StateContainer_line_30 {
+        flex: 1;
+        opacity: 0;
+    }
+
+.mediaSmall .StateContainer_updateInfo_12 .StateContainer_line_30 {
+            opacity: .1;
+}
+
+.StateContainer_updateInfo_12 .StateContainer_noRecordsLine_71 {
+        opacity: .1;
+    }
+
+.mediaMedium .StateContainer_updateInfo_12 .StateContainer_noRecordsLine_71 {
+            opacity: .1;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes LeaderboardPage_fadeIn_46 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes LeaderboardPage_fadeInThreeQuarters_98 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes LeaderboardPage_fadeInHalf_30 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes LeaderboardPage_fadeOut_e8 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes LeaderboardPage_fadeInWithScale_07 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes LeaderboardPage_slideUp_9c {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes LeaderboardPage_scale_5d {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes LeaderboardPage_raysAppearance_c3 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes LeaderboardPage_rotate_db {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes LeaderboardPage_reverse-rotate_1d {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes LeaderboardPage_glowAppearance_4f {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes LeaderboardPage_highlightAppearance_23 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes LeaderboardPage_blink_7e {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes LeaderboardPage_slideUpIn_37 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.LeaderboardPage_base_4a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+.LeaderboardPage_animationContainer_94 {
+    flex: 1 1;
+    position: relative;
+}
+.LeaderboardPage_subHeading_ae {
+    display: flex;
+    justify-content: center;
+}
+.LeaderboardPage_animationContainer_94,
+.LeaderboardPage_subHeading_ae {
+    width: 800rem;
+}
+.mediaSmall .LeaderboardPage_animationContainer_94, .mediaSmall .LeaderboardPage_subHeading_ae {
+        width: 900rem;
+}
+.mediaMedium .LeaderboardPage_animationContainer_94, .mediaMedium .LeaderboardPage_subHeading_ae {
+        width: 1220rem;
+}
+.mediaLarge .LeaderboardPage_animationContainer_94, .mediaLarge .LeaderboardPage_subHeading_ae {
+        width: 1320rem;
+}
+.LeaderboardPage_content_46 {
+    height: 100%;
+    opacity: 1;
+    transition: opacity .5s cubic-bezier(.07, .82, .17, 1);
+}
+.LeaderboardPage_base__loading_12 .LeaderboardPage_content_46 {
+        opacity: .3;
+        pointer-events: none;
+    }
+.LeaderboardPage_error_7d {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 8%;
+}
+.LeaderboardPage_spinner_67 {
+    transform: translate(-50%, -70%);
+}
+
+.FailedFetchPointsText_base_be {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.FailedFetchPointsText_icon_76 {
+    width: 18rem;
+    height: 18rem;
+    background: url('R.images.gui.maps.icons.library.alertBigIcon') no-repeat center / cover;
+}
+
+.FailedFetchPointsText_text_ea {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    color: #EE7000;
+    font-size: 16rem;
+}
+
+.HonorsPlace_base_57 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14rem;
+}
+    .mediaLarge .HonorsPlace_base_57 {
+        margin-top: 31rem;
+}
+    .HonorsPlace_base__error_c4 {
+        height: 100%;
+        margin-top: 0;
+    }
+    .HonorsPlace_base__tooltip_b9 {
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+    .HonorsPlace_base__tooltipError_3c {
+        margin-top: 30rem;
+    }
+
+.HonorsPlace_transferPlace_46 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.HonorsPlace_elitePlace_eb {
+    width: 102rem;
+    height: 48rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.mediaLarge .HonorsPlace_elitePlace_eb {
+        width: 102rem;
+        height: 80rem;
+}
+
+.HonorsPlace_elitePlace__bronze_5b {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendBronzePlace');
+    }
+
+.HonorsPlace_elitePlace__silver_cd {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendSilverPlace');
+    }
+
+.HonorsPlace_elitePlace__gold_87 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendGoldPlace');
+    }
+
+.HonorsPlace_elitePlace__tooltip_0a {
+        height: 62rem;
+    }
+
+.HonorsPlace_elitePlace__modeSelector_dc {
+        height: 24rem;
+    }
+
+.mediaMedium .HonorsPlace_elitePlace__modeSelector_dc {
+            height: 40rem;
+}
+
+.HonorsPlace_garland_ab {
+    width: 45rem;
+    height: 48rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.mediaLarge .HonorsPlace_garland_ab {
+        width: 45rem;
+        height: 80rem;
+}
+
+.HonorsPlace_garland__transferPlaceLeft_e7 {
+        margin-right: -18rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_garland.championGarlandLeft');
+    }
+
+.HonorsPlace_garland__transferPlaceLeft__tooltip_23 {
+            margin-right: -11rem;
+        }
+
+.HonorsPlace_garland__transferPlaceLeft__modeSelector_5a {
+            margin-right: -2rem;
+        }
+
+.HonorsPlace_garland__transferPlaceRight_d4 {
+        margin-left: -18rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_garland.championGarlandRight');
+    }
+
+.HonorsPlace_garland__transferPlaceRight__tooltip_20 {
+            margin-left: -11rem;
+        }
+
+.HonorsPlace_garland__transferPlaceRight__modeSelector_9f {
+            margin-left: -2rem;
+        }
+
+.HonorsPlace_garland__tooltip_3f {
+        width: 34rem;
+        height: 62rem;
+    }
+
+.mediaLarge .HonorsPlace_garland__tooltip_3f {
+            width: 34rem;
+            height: 62rem;
+}
+
+.HonorsPlace_garland__modeSelector_e0 {
+        width: 13rem;
+        height: 24rem;
+    }
+
+.mediaMedium .HonorsPlace_garland__modeSelector_e0 {
+            width: 23rem;
+            height: 42rem;
+}
+
+.mediaLarge .HonorsPlace_garland__modeSelector_e0 {
+            width: 23rem;
+            height: 42rem;
+}
+
+.HonorsPlace_placeText_23 {
+    margin-top: -5rem;
+    font-size: 44rem;
+    font-weight: 700;
+    line-height: 44rem;
+}
+
+.mediaLarge .HonorsPlace_placeText_23 {
+        font-size: 73rem;
+        line-height: 73rem;
+}
+
+.HonorsPlace_placeText__transfer_d3 {
+        color: transparent;
+        top: 3rem;
+    }
+
+.HonorsPlace_placeText__transfer__copied_0f {
+            color: #988c84;
+            position: absolute;
+            mask-image: linear-gradient(to top, transparent -30%, #988c84);
+        }
+
+.HonorsPlace_placeText__tooltip_98 {
+        font-size: 56rem;
+        line-height: 56rem;
+    }
+
+.mediaLarge .HonorsPlace_placeText__tooltip_98 {
+            font-size: 56rem;
+            line-height: 56rem;
+}
+
+.HonorsPlace_placeText__notInLeaderboard_81 {
+        top: 0;
+    }
+
+.HonorsPlace_placeText__modeSelector_57 {
+        margin-top: -7rem;
+        font-size: 23rem;
+        line-height: 23rem;
+        top: 6rem;
+    }
+
+.mediaMedium .HonorsPlace_placeText__modeSelector_57 {
+            font-size: 36rem;
+            line-height: 36rem;
+}
+
+.mediaLarge .HonorsPlace_placeText__modeSelector_57 {
+            font-size: 36rem;
+            line-height: 36rem;
+}
+
+.HonorsPlace_positionTitle_c9 {
+    color: #FEFEEC;
+    font-size: 14rem;
+}
+
+.HonorsPlace_positionTitle__tooltip_8a {
+        color: #8C8C7E;
+    }
+
+.HonorsPlace_positionTitle__modeSelector_c7 {
+        margin-top: 6rem;
+        color: #8C8C7E;
+        font-size: 12rem;
+    }
+
+.mediaMedium .HonorsPlace_positionTitle__modeSelector_c7 {
+            font-size: 14rem;
+}
+
+.HonorsPlace_titleDescriptionContainer_15 {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.HonorsPlace_descriptionText_b8 {
+    margin-right: 6rem;
+    margin-bottom: 0;
+    color: #8C8C7E;
+    font-size: 12rem;
+}
+
+.HonorsPlace_descriptionText__tooltip_70 {
+        margin-right: 8rem;
+        font-size: 14rem;
+    }
+
+.HonorsPlace_descriptionText__withoutMargin_a9 {
+        margin-right: 0;
+    }
+
+.HonorsPlace_descriptionText__blackout_3a {
+        color: #595950;
+    }
+
+.HonorsPlace_infoIcon_75 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.infoIcon') no-repeat center / cover;
+}
+
+.HonorsPlace_rankInactivityCount_34 {
+    margin-left: 4rem;
+}
+
+.HonorsPlace_failedFetchPointsText_e2 {
+    margin-bottom: 30rem;
+}
+
+.RankInactivityCount_base_c2 {
+    display: flex;
+    align-items: center;
+}
+
+.RankInactivityCount_count_28 {
+    color: #E9E2BF;
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-right: 2rem;
+}
+
+.RankInactivityCount_iconContainer_85 {
+    width: 16rem;
+    height: 16rem;
+    position: relative;
+}
+
+.RankInactivityCount_icon_52 {
+    width: 42rem;
+    height: 43rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.timer') no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.RatingScore_base_bd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.RatingScore_rating_c9 {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.RatingScore_content_62 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RatingScore_score_33 {
+    color: #FFFFFF;
+    font-size: 44rem;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.mediaLarge .RatingScore_score_33 {
+        color: #FFFFFF;
+        font-size: 73rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 6rem;
+}
+
+.RatingScore_counter_1a {
+    position: absolute;
+    left: 105%;
+}
+
+.RatingScore_title_e4 {
+    color: rgba(255,255,255, .6);
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes ItemFooter_fadeIn_16 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ItemFooter_fadeInThreeQuarters_73 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes ItemFooter_fadeInHalf_2c {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes ItemFooter_fadeOut_41 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes ItemFooter_fadeInWithScale_61 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes ItemFooter_slideUp_76 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes ItemFooter_scale_a2 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes ItemFooter_raysAppearance_c4 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes ItemFooter_rotate_af {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes ItemFooter_reverse-rotate_d4 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes ItemFooter_glowAppearance_0e {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ItemFooter_highlightAppearance_80 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes ItemFooter_blink_c4 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ItemFooter_slideUpIn_e5 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ItemFooter_base_0f {
+    width: 100%;
+    height: 110rem;
+    padding-top: 2rem;
+    position: relative;
+}
+.mediaLarge .ItemFooter_base_0f {
+        height: 180rem;
+}
+.ItemFooter_background_bf {
+    width: 100%;
+    padding-bottom: 18.67%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.footerBg') no-repeat center / contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ItemFooter_divider_bb {
+    width: 100%;
+    height: 2rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.footerDivider') no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ItemFooter_light_79 {
+    width: 81rem;
+    height: 38rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.footerLight') no-repeat center / contain;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    pointer-events: none;
+}
+.ItemFooter_footer_e7 {
+    width: 100%;
+    height: 100%;
+}
+.ItemFooter_rankItemFooter_e6 {
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.Parallax_base_c9 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.qualificationParallax.c_6') no-repeat center / cover;
+    overflow: hidden;
+    position: relative;
+}
+.Parallax_layer_15 {
+    height: calc(100vh + 120rem);
+    background: no-repeat center / cover;
+    position: absolute;
+    top: -60rem;
+}
+.mediaExtraLargeWidth .Parallax_layer_15 {
+        height: calc(100vh + 228rem);
+        top: -114rem;
+}
+.mediaMedium .Parallax_layer_15 {
+        height: calc(100vh + 140rem);
+        top: -70rem;
+}
+.mediaLarge .Parallax_layer_15 {
+        height: calc(100vh + 168rem);
+        top: -84rem;
+}
+.mediaExtraLarge .Parallax_layer_15 {
+        height: calc(100vh + 228rem);
+        top: -114rem;
+}
+.Parallax_shadow_45 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 10, 25, .6);
+}
+.Parallax_waiting_36 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.ParallaxContainer_base_17 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.HorizontalBar_base_49 {
+    display: flex;
+    width: 100%;
+    height: 13rem;
+    position: relative;
+}
+
+    .HorizontalBar_base__nonActive_82 {
+        visibility: hidden;
+    }
+
+    .HorizontalBar_base_49 .disable,
+    .HorizontalBar_base_49 .disable:hover {
+        opacity: .3;
+        cursor: default;
+    }
+
+.HorizontalBar_leftButton_5f,
+.HorizontalBar_rightButton_03 {
+    width: 13rem;
+    height: 13rem;
+    border: 1rem solid #7e7b68;
+    box-shadow: inset 0 0 1rem rgba(255,255,190, .3);
+    background: no-repeat center / 7rem 5rem;
+    opacity: .5;
+    z-index: 1;
+    transform: rotate(-90deg);
+    transition: opacity 130ms linear;
+    cursor: pointer;
+}
+
+.HorizontalBar_leftButton_5f:hover, .HorizontalBar_rightButton_03:hover {
+        opacity: 1;
+    }
+
+.HorizontalBar_leftButton_5f {
+    background-image: url('R.images.gui.maps.icons.components.scroll_area.arrow_top');
+}
+
+.HorizontalBar_rightButton_03 {
+    background-image: url('R.images.gui.maps.icons.components.scroll_area.arrow_down');
+}
+
+.HorizontalBar_track_0d {
+    flex: 1;
+    margin: 0 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.HorizontalBar_thumb_fd {
+    display: none;
+    flex: 0 0 100%;
+    width: 100%;
+    min-width: 20rem;
+    height: 13rem;
+    border: 1rem solid #7e7b68;
+    box-shadow: inset 0 0 1rem rgba(255,255,190, .3);
+    background: #26241b url('R.images.gui.maps.icons.components.scroll_area.thumb_horizontal') no-repeat center / 8rem 7rem;
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 130ms linear;
+    cursor: pointer;
+}
+
+.HorizontalBar_thumb_fd:hover {
+        opacity: 1;
+    }
+
+.HorizontalBar_rail_32 {
+    height: 0;
+    border-top: 1rem solid #2f2e24;
+    position: absolute;
+    top: 6rem;
+    right: 5rem;
+    left: 5rem;
+}
+
+.HorizontalBar_rail_32:hover {
+        opacity: .7;
+    }
+
+
+.HorizontalScroll_base_29 {
+    width: 100%;
+}
+
+.HorizontalScroll_wrapper_1e {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.HorizontalScroll_defaultScrollArea_8d {
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.ProgressionScroll_base_0f {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ProgressionScroll_areaWrapper_dc {
+    height: 100%;
+    mask-image: linear-gradient(90deg, transparent, #000 20%, #000 80%, transparent);
+}
+
+.ProgressionScroll_areaContent_2f {
+    display: flex;
+    align-content: center;
+    padding-left: var(--offset);
+    padding-right: var(--offset);
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes HighlightedRankEmblem_fadeIn_3a {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes HighlightedRankEmblem_fadeInThreeQuarters_a4 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes HighlightedRankEmblem_fadeInHalf_6e {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes HighlightedRankEmblem_fadeOut_48 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes HighlightedRankEmblem_fadeInWithScale_a8 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes HighlightedRankEmblem_slideUp_82 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes HighlightedRankEmblem_scale_ec {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes HighlightedRankEmblem_raysAppearance_a6 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes HighlightedRankEmblem_rotate_0f {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes HighlightedRankEmblem_reverse-rotate_e8 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes HighlightedRankEmblem_glowAppearance_2a {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes HighlightedRankEmblem_highlightAppearance_60 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes HighlightedRankEmblem_blink_ce {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes HighlightedRankEmblem_slideUpIn_80 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.HighlightedRankEmblem_base_e2 {
+    position: relative;
+}
+.HighlightedRankEmblem_highlights_cc {
+    width: var(--highlightsSize);
+    height: var(--highlightsSize);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .3s linear, filter .3s linear;
+}
+.HighlightedRankEmblem_highlights__gold_9f {
+        filter: grayscale(0%) brightness(250%);
+        transition-delay: .3s;
+    }
+.HighlightedRankEmblem_highlights__silver_f4 {
+        filter: grayscale(100%) brightness(150%);
+        transition-delay: .3s;
+    }
+.HighlightedRankEmblem_highlights__hidden_10 {
+        filter: grayscale(0%) brightness(0%);
+        opacity: 0;
+    }
+.HighlightedRankEmblem_highlight_72 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / cover;
+    position: absolute;
+    animation: HighlightedRankEmblem_highlightAppearance_60 .3s linear .3s both, HighlightedRankEmblem_rotate_0f 80s linear infinite;
+    pointer-events: none;
+}
+.HighlightedRankEmblem_highlight__second_91 {
+        animation-direction: normal, reverse;
+    }
+.HighlightedRankEmblem_base__static_87 .HighlightedRankEmblem_highlight_72 {
+        animation: HighlightedRankEmblem_highlightAppearance_60 .3s linear .3s both;
+    }
+.HighlightedRankEmblem_highlights__hidden_10 .HighlightedRankEmblem_highlight_72 {
+        display: none;
+    }
+.HighlightedRankEmblem_rankEmblem_29 {
+    position: relative;
+}
+
+.RankItemDivider_base_c4 {
+    width: 152rem;
+    height: 2rem;
+    background-image: linear-gradient(270deg, rgba(91, 139, 193, 0), rgba(102, 156, 212, 1) 50%, rgba(91, 139, 193, 0));
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBar_base_45 {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+.ProgressBar_base__medium_62 {
+        height: 6rem;
+    }
+.ProgressBar_base__small_df {
+        height: 2rem;
+    }
+.ProgressBar_background_51 {
+    width: 100%;
+    max-width: 8001px;
+    height: 100%;
+    background-image: var(--progress-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ProgressBar_background__medium_6e {
+        height: 6rem;
+    }
+.ProgressBar_background__small_46 {
+        height: 2rem;
+    }
+.ProgressBar_lineWrapper_6a {
+    display: flex;
+    flex: 1;
+}
+
+
+.ProgressBarBlink_base_24 {
+    width: 60rem;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none;
+}
+
+    .ProgressBarBlink_base__medium_ec {
+        width: 42rem;
+        height: 70rem;
+    }
+
+    .ProgressBarBlink_base__small_0f {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressLineImpose_base_80 {
+    max-width: 8001px;
+    height: 100%;
+    background-color: var(--progress-line-base);
+    position: relative;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressLineImpose_base__disabled_cc {
+        background-color: var(--progress-line-disabled);
+    }
+.ProgressLineImpose_base__finished_d4 {
+        background-color: var(--progress-line-finished);
+    }
+.ProgressLineImpose_base__withoutBounce_56 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressLineImpose_pattern_1c {
+    max-width: 8001px;
+    background-image: var(--progress-pattern-base);
+    background-repeat: repeat;
+    background-position: 0 50%;
+    background-size: 3rem 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-disabled);
+        left: 0;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
+        background-image: var(--progress-pattern-finished);
+    }
+.ProgressLineImpose_gradient_35 {
+    max-width: 8001px;
+    background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75));
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+}
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
+        top: 0;
+        bottom: 0;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
+        display: none;
+    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
+        background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75), rgba(0,0,0, .5));
+    }
+.ProgressLineImpose_glow_a5 {
+    width: 60rem;
+    max-width: 8001px;
+    height: 100rem;
+    background-image: var(--progress-glow);
+    background-size: contain;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.ProgressLineImpose_glow__left_d8 {
+        left: 1rem;
+    }
+.ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
+    .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+        display: none;
+    }
+.ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
+        width: 44rem;
+        height: 43rem;
+        background-image: var(--progress-glow-small);
+    }
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaSimple_base_6c {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.ProgressBarDeltaSimple_delta_99 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1), cubic-bezier(.21, .61, .35, 1);
+    transition-property: width, transform;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.ProgressBarDeltaGrow_base_7e {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+.ProgressBarDeltaGrow_glow_68 {
+    width: 0;
+    max-width: 8001px;
+    height: 100%;
+    box-shadow: var(--progress-delta-shadow);
+    background-color: var(--progress-delta-color);
+    position: absolute;
+    bottom: 0;
+    transform-origin: right center;
+    transition-timing-function: cubic-bezier(1, 0, .92, 1);
+    transition-property: width;
+}
+.ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
+        transition-timing-function: cubic-bezier(1, 0, .75, .75);
+    }
+
+.ProgressionDivision_base_6e {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    margin-bottom: -1rem;
+    position: relative;
+}
+
+    .ProgressionDivision_base__current_67 {
+        position: relative;
+    }
+
+.ProgressionDivision_highlightContainer_3d {
+    width: 100%;
+    height: 150rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.ProgressionDivision_radialBack_d2 {
+    width: 150%;
+    height: 100%;
+    background-image: radial-gradient(59% 59% at 50% 0%, rgba(255, 42, 0, .12), transparent);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(1, -1);
+}
+
+.ProgressionDivision_mainBack_d2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(243, 104, 60, .16), transparent);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ProgressionDivision_bottomLine_f5 {
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+}
+
+.ProgressionDivision_bottomLine__first_d9 {
+        background-image: linear-gradient(90deg, transparent, #bf684d, transparent);
+        bottom: 0;
+    }
+
+.ProgressionDivision_bottomLine__second_8d {
+        background-image: linear-gradient(90deg, transparent, rgba(191, 104, 77, .3), transparent);
+        bottom: 1rem;
+    }
+
+.ProgressionDivision_bottomLine__third_91 {
+        background-image: linear-gradient(90deg, transparent, rgba(191, 104, 77, .1), transparent);
+        bottom: 2rem;
+    }
+
+.ProgressionDivision_divisionText_c7 {
+    margin-bottom: 6rem;
+    font-size: 18rem;
+    opacity: .4;
+    position: relative;
+}
+
+.ProgressionDivision_divisionText__current_74 {
+        display: flex;
+        color: #FFDD99;
+        text-shadow: 0 0 4rem rgba(255, 127, 0, .25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+        opacity: 1;
+    }
+
+.ProgressionDivision_note_53 {
+    font-size: 14rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.RankProgressDivisions_base_54 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.RankProgressPoint_point_b1 {
+    display: flex;
+    position: absolute;
+}
+
+    .RankProgressPoint_point__top_d2 {
+        bottom: 0;
+    }
+
+    .RankProgressPoint_point__bottom_d9 {
+        top: 0;
+    }
+.RankProgressPoint_pointLine_56 {
+    width: 1rem;
+    height: 10rem;
+}
+.RankProgressPoint_pointLine__extended_05 {
+        height: 20rem;
+    }
+.RankProgressPoint_pointLine__top_0e {
+        background-image: linear-gradient(
+            to top,
+            rgba(255,255,255, .3),
+            transparent
+        );
+    }
+.RankProgressPoint_pointLine__bottom_ee {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255,255,255, .3),
+            transparent
+        );
+    }
+.RankProgressPoint_pointValue_22 {
+    max-width: 76rem;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+}
+.RankProgressPoint_pointValue__highlight_65 {
+        color: rgba(255,255,255, .7);
+    }
+.RankProgressPoint_pointValue__top_a7 {
+        bottom: 10rem;
+    }
+.RankProgressPoint_pointValue__bottom_7a {
+        top: 10rem;
+    }
+
+.RankProgressPoints_base_86 {
+    color: rgba(255,255,255, .4);
+    font-size: 12rem;
+    position: relative;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+.RankProgress_base_97 {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    transition: opacity .3s linear;
+}
+.RankProgress_base__hidden_b9 {
+        opacity: 0;
+    }
+.RankProgress_base__inactive_49 {
+        opacity: .7;
+    }
+.RankProgress_base__active_a2 {
+        opacity: 1;
+        transition-delay: .3s;
+    }
+.RankProgress_progressWrapper_4e {
+    padding: 3rem 0;
+    border-top: 1rem solid rgba(255,255,255, .2);
+    border-bottom: 1rem solid rgba(255,255,255, .2);
+}
+
+.HighlightedRectangles_base_4c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+}
+
+.HighlightedRectangles_triangle_ae {
+    width: 5rem;
+    height: 6rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.triangle') no-repeat center /
+        cover;
+    filter: drop-shadow(0 0 15px #e52) drop-shadow(0 0 8px #ff2a00) drop-shadow(0 0 4px rgba(255, 127, 0, .25));
+    opacity: 0;
+    will-change: opacity;
+}
+
+.HighlightedRectangles_triangle_ae.HighlightedRectangles_running_cc {
+    opacity: 1;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc .HighlightedRectangles_triangle_ae {
+    animation: HighlightedRectangles_pulse_3e 10.4s ease-out infinite;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc .HighlightedRectangles_triangle_ae:nth-child(1) {
+    margin-right: 3rem;
+    animation-delay: 0s;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc .HighlightedRectangles_triangle_ae:nth-child(2) {
+    margin-right: 3rem;
+    animation-delay: .4s;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc .HighlightedRectangles_triangle_ae:nth-child(3) {
+    animation-delay: .8s;
+}
+
+@keyframes HighlightedRectangles_pulse_3e {
+    0% {
+        opacity: 0;
+    }
+
+    4.9% {
+        opacity: 1;
+    }
+
+    16.35% {
+        opacity: 1;
+    }
+
+    17.98% {
+        opacity: 0;
+    }
+
+    32.69% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes RankTransferProgression_fadeIn_17 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankTransferProgression_fadeInThreeQuarters_31 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes RankTransferProgression_fadeInHalf_ee {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes RankTransferProgression_fadeOut_9d {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes RankTransferProgression_fadeInWithScale_f9 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes RankTransferProgression_slideUp_2b {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes RankTransferProgression_scale_28 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes RankTransferProgression_raysAppearance_59 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes RankTransferProgression_rotate_3d {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes RankTransferProgression_reverse-rotate_19 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes RankTransferProgression_glowAppearance_5c {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankTransferProgression_highlightAppearance_12 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes RankTransferProgression_blink_12 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankTransferProgression_slideUpIn_f3 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.RankTransferProgression_base_28 {
+    display: flex;
+    padding-bottom: 48rem;
+}
+.RankTransferProgression_transferProgression_8c {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+.RankTransferProgression_transferProgression__inactive_87 {
+        opacity: .7;
+    }
+.RankTransferProgression_progressWrapper_f9 {
+    display: flex;
+    align-items: center;
+    width: 105rem;
+    padding: 4rem 0;
+    border-top: 1rem solid rgba(255,255,255, .2);
+    border-bottom: 1rem solid rgba(255,255,255, .2);
+    position: relative;
+}
+.RankTransferProgression_default_35 {
+    width: 100%;
+    height: 10rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.background')
+        no-repeat center / cover;
+    z-index: 1;
+}
+.RankTransferProgression_complete_e7 {
+    width: 100%;
+    height: 12rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.background_completed')
+        no-repeat center / cover;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    transition: opacity .2s ease-out;
+}
+.RankTransferProgression_visible_c9 {
+    opacity: 1;
+}
+
+.AchievedRankStatus_base_70 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.LinkButton_base_fa {
+    color: #FFDD99;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    text-shadow: 0 0 14px #f00;
+    will-change: text-shadow;
+    transition: text-shadow .3s ease-in;
+}
+
+.LinkButton_base_fa:hover {
+    text-shadow: 0 0 4px rgba(255, 127, 0, .25), 0 0 8px #ff2a00, 0 0 15px #e52;
+    cursor: pointer;
+}
+
+.HonorRankDescription_base_fd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 134%;
+    max-width: 600rem;
+}
+
+.HonorRankDescription_text_38 {
+    color: #8c8c7e;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    justify-content: center;
+}
+
+.HonorRankDescription_button_88 {
+    margin-left: 4rem;
+}
+
+.RankEliteProgression_base_4d {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.RankEliteProgression_elite_00 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 8rem;
+    border-top: 1rem solid rgba(255, 255, 255, .2);
+}
+
+.RankEliteProgression_elitePercent_61 {
+    margin-bottom: 44rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12rem;
+    opacity: .4;
+}
+
+.RankEliteProgression_elitePercent__current_d1 {
+        opacity: .7;
+    }
+
+.CurrentRankStatus_base_d4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.RankStatusDescription_base_07 {
+    color: rgba(255,255,255, 0.6);
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    display: inline;
+    width: 120%;
+    max-width: 500rem;
+    text-align: center;
+}
+    .mediaLarge .RankStatusDescription_base_07 {
+        width: 100%;
+}
+
+.FutureRankStatus_base_c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.FutureRankStatus_lock_d0 {
+    width: 49rem;
+    height: 64rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.lockBig') no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -40rem);
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes RankItem_fadeIn_95 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItem_fadeInThreeQuarters_f1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes RankItem_fadeInHalf_8a {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes RankItem_fadeOut_56 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes RankItem_fadeInWithScale_68 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes RankItem_slideUp_74 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes RankItem_scale_6b {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes RankItem_raysAppearance_a8 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes RankItem_rotate_da {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes RankItem_reverse-rotate_3e {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes RankItem_glowAppearance_90 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItem_highlightAppearance_5c {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes RankItem_blink_7e {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItem_slideUpIn_ee {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.RankItem_base_60 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* should be fluid for rank dividers positioning */
+    padding-bottom: 150rem;
+    color: #FFFFFF;
+    position: relative;
+}
+.RankItem_rankEmblem__future_08 {
+        opacity: .5;
+    }
+.RankItem_rankDescription_32 {
+    display: flex;
+    height: 150rem; /* should be static for correct positioning of emblem without rankDescription context */
+    opacity: 0;
+    position: absolute; /* should be cut from context due to extra width of children (more than parent container by design) */
+    top: 100%;
+    transition: opacity .3s linear;
+    pointer-events: none;
+}
+/* hidden siblings can have tooltips, block them here */
+.RankItem_rankDescription__text_90 {
+        padding-top: 50rem;
+    }
+.mediaLarge .RankItem_rankDescription__text_90 {
+            padding-top: 62rem;
+}
+.RankItem_rankDescription__progress_e2 {
+        padding-top: 29rem;
+    }
+.mediaLarge .RankItem_rankDescription__progress_e2 {
+            padding-top: 41rem;
+}
+.RankItem_rankDescription__viewed_6b {
+        opacity: 1;
+        transition-delay: .3s;
+        pointer-events: auto;
+    }
+.RankItem_rankInfo_6f {
+    padding-top: 16rem;
+    padding-bottom: 14rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mediaLarge .RankItem_rankInfo_6f {
+        padding-top: 28rem;
+}
+.RankItem_dividerContainer_0f {
+    position: absolute;
+    top: calc(var(--emblemSize)/2);
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes RankItemContainer_fadeIn_f3 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItemContainer_fadeInThreeQuarters_70 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes RankItemContainer_fadeInHalf_a0 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes RankItemContainer_fadeOut_84 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes RankItemContainer_fadeInWithScale_dd {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes RankItemContainer_slideUp_e1 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes RankItemContainer_scale_a2 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes RankItemContainer_raysAppearance_47 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes RankItemContainer_rotate_47 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes RankItemContainer_reverse-rotate_c5 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes RankItemContainer_glowAppearance_49 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItemContainer_highlightAppearance_7a {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes RankItemContainer_blink_d5 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankItemContainer_slideUpIn_da {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.RankItemContainer_base_b3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--itemWidth);
+    height: 100%;
+    position: relative;
+}
+.RankItemContainer_title_d5 {
+    color: #FEFEEC;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 100%;
+    margin-bottom: 10rem;
+    line-height: 1.3;
+    text-align: center;
+    opacity: .3;
+    transition: opacity .3s linear;
+}
+.mediaLargeHeight .RankItemContainer_title_d5 {
+        color: #FEFEEC;
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+        line-height: 1.3;
+}
+.RankItemContainer_title__active_f0 {
+        opacity: 1;
+        transition-delay: .3s;
+    }
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes Progression_fadeIn_1f {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Progression_fadeInThreeQuarters_f6 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes Progression_fadeInHalf_9e {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes Progression_fadeOut_f2 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes Progression_fadeInWithScale_35 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes Progression_slideUp_90 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes Progression_scale_9c {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes Progression_raysAppearance_55 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes Progression_rotate_f4 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes Progression_reverse-rotate_ab {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes Progression_glowAppearance_87 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Progression_highlightAppearance_5d {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes Progression_blink_3d {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Progression_slideUpIn_a3 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Progression_base_97 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Progression_areaContainer_09 {
+    flex: 1 1;
+}
+.Progression_areaWrapper_5f {
+    mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 4%, #c4c4c4 30%, #c4c4c4 70%, rgba(196,196,196, .1) 96%, transparent);
+}
+.mediaSmall .Progression_areaWrapper_5f {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 6%, #c4c4c4 30%, #c4c4c4 70%, rgba(196,196,196, .1) 94%, transparent);
+}
+.mediaMedium .Progression_areaWrapper_5f {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 2%, #c4c4c4 30%, #c4c4c4 70%, rgba(196,196,196, .1) 98%, transparent);
+}
+.mediaLarge .Progression_areaWrapper_5f {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 4%, #c4c4c4 35%, #c4c4c4 65%, rgba(196,196,196, .1) 96%, transparent);
+}
+.mediaExtraLarge .Progression_areaWrapper_5f {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 6%, #c4c4c4 30%, #c4c4c4 70%, rgba(196,196,196, .1) 94%, transparent);
+}
+.Progression_bar_4d {
+    width: 78vw;
+}
+
+.BattlesCounter_base_f1 {
+    color: rgba(255,255,255, 0.6);
+    font-size: 42rem;
+    line-height: 1.2;
+}
+    .mediaMedium .BattlesCounter_base_f1 {
+        font-size: 56rem;
+}
+    .mediaLarge .BattlesCounter_base_f1 {
+        font-size: 73rem;
+}
+    .mediaExtraLarge .BattlesCounter_base_f1 {
+        font-size: 100rem;
+}
+
+.BattlesCounter_battlesCount_ef {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes QualificationBattleItem_fadeIn_c9 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes QualificationBattleItem_fadeInThreeQuarters_20 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes QualificationBattleItem_fadeInHalf_89 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes QualificationBattleItem_fadeOut_c3 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes QualificationBattleItem_fadeInWithScale_4f {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes QualificationBattleItem_slideUp_1f {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes QualificationBattleItem_scale_37 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes QualificationBattleItem_raysAppearance_8f {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes QualificationBattleItem_rotate_2d {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes QualificationBattleItem_reverse-rotate_9d {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes QualificationBattleItem_glowAppearance_56 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes QualificationBattleItem_highlightAppearance_a0 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes QualificationBattleItem_blink_3b {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes QualificationBattleItem_slideUpIn_be {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.QualificationBattleItem_base_0d {
+    width: 68rem;
+    height: 68rem;
+    position: relative;
+}
+.QualificationBattleItem_base__size_234_ab {
+        width: 80rem;
+        height: 80rem;
+    }
+.QualificationBattleItem_battleBackground_67 {
+    width: var(--imageSize);
+    height: var(--imageSize);
+    background: no-repeat center / cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.QualificationBattleItem_base__inProgress_2a .QualificationBattleItem_battleBackground_67 {
+        animation: QualificationBattleItem_blink_3b 1.5s linear 1s forwards infinite;
+    }
+
+.BattlesProgression_base_a1 {
+    display: flex;
+    position: relative;
+}
+
+.BattlesProgression_item_73 + .BattlesProgression_item_73 {
+        margin-left: -6rem;
+    }
+
+.mediaMedium .BattlesProgression_item_73 + .BattlesProgression_item_73 {
+            margin-left: -3rem;
+}
+
+.mediaLarge .BattlesProgression_item_73 + .BattlesProgression_item_73 {
+            margin-left: 4rem;
+}
+
+.mediaExtraLarge .BattlesProgression_item_73 + .BattlesProgression_item_73 {
+            margin-left: 23rem;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+.Qualification_base_0f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Qualification_content_64 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+.Qualification_footer_8f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14rem;
+    line-height: 18rem;
+}
+.mediaMedium .Qualification_footer_8f {
+        font-size: 16rem;
+        line-height: 20rem;
+}
+.mediaLarge .Qualification_footer_8f {
+        font-size: 20rem;
+        line-height: 24rem;
+}
+.Qualification_qualificationEmblem_e2 {
+    width: 200rem;
+    height: 200rem;
+    margin-top: 15rem;
+    margin-bottom: 16rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.ranks.c_200.qualification') no-repeat center / cover;
+}
+.mediaMedium .Qualification_qualificationEmblem_e2 {
+        width: 280rem;
+        height: 280rem;
+        margin-bottom: 8rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.ranks.c_260.qualification');
+}
+.mediaLarge .Qualification_qualificationEmblem_e2 {
+        width: 420rem;
+        height: 420rem;
+        margin-bottom: -4rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.ranks.c_420.qualification');
+}
+.mediaExtraLarge .Qualification_qualificationEmblem_e2 {
+        width: 600rem;
+        height: 600rem;
+        margin-top: 20rem;
+        margin-bottom: -10rem;
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.ranks.c_600.qualification');
+}
+.Qualification_battlesProgression_51 {
+    margin: 14rem 0 32rem;
+}
+.mediaMedium .Qualification_battlesProgression_51 {
+        margin: 19rem 0 50rem;
+}
+.mediaLarge .Qualification_battlesProgression_51 {
+        margin-top: 30rem;
+        margin-bottom: 61rem;
+}
+.mediaExtraLarge .Qualification_battlesProgression_51 {
+        margin-top: 44rem;
+        margin-bottom: 89rem;
+}
+.Qualification_counterDescription_20 {
+    color: rgba(255,255,255, 0.7);
+    font-size: 14rem;
+}
+.mediaMedium .Qualification_counterDescription_20 {
+        font-size: 16rem;
+}
+.mediaLarge .Qualification_counterDescription_20 {
+        font-size: 20rem;
+}
+.Qualification_counterDescription_20 + .Qualification_counterDescription_20 {
+        margin-top: 3rem;
+    }
+.mediaLarge .Qualification_counterDescription_20 + .Qualification_counterDescription_20 {
+            margin-top: 5rem;
+}
+.mediaExtraLarge .Qualification_counterDescription_20 + .Qualification_counterDescription_20 {
+            margin-top: 8rem;
+}
+.Qualification_ratingCalculationDescription_7a {
+    margin-top: 3rem;
+    color: rgba(255,255,255, 0.6);
+    font-size: 14rem;
+    line-height: 18rem;
+    text-shadow: 0 0 4rem rgba(255, 127, 0, .25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+    position: relative;
+}
+.mediaMedium .Qualification_ratingCalculationDescription_7a {
+        font-size: 16rem;
+        line-height: 20rem;
+}
+.mediaLarge .Qualification_ratingCalculationDescription_7a {
+        margin-top: 5rem;
+        font-size: 20rem;
+        line-height: 24rem;
+}
+.mediaExtraLarge .Qualification_ratingCalculationDescription_7a {
+        margin-top: 8rem;
+}
+.Qualification_timerIcon_35 {
+    width: 33rem;
+    height: 33rem;
+    margin: 2rem 0 0 -10rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.timer') no-repeat center / cover;
+    filter: drop-shadow(0rem 0rem 4rem rgba(255, 127, 0, .25)) drop-shadow(0rem 0rem 8rem #ff2a00) drop-shadow(0rem 0rem 15rem #e52);
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+.mediaLarge .Qualification_timerIcon_35 {
+        width: 48rem;
+        height: 48rem;
+        margin: 2rem 0 0 -10rem;
+        background: url('R.images.comp7.gui.maps.icons.comp7.icons.timer_48x48') no-repeat center / cover;
+}
+.Qualification_conditionContainer_c4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.mediaLarge .Qualification_conditionContainer_c4 {
+        margin-bottom: 9rem;
+}
+.mediaExtraLarge .Qualification_conditionContainer_c4 {
+        margin-bottom: 13rem;
+}
+.Qualification_condition_23,
+.Qualification_rewardsDescription_c2 {
+    color: rgba(255,255,255, 0.6);
+}
+.Qualification_infoIcon_fe {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 5rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.infoIcon_16x16') no-repeat center / cover;
+    transform: translateY(2rem);
+}
+.Qualification_rewardsButton_db {
+    margin-top: 25rem;
+    margin-bottom: 40rem;
+    font-size: 14rem;
+    line-height: 18rem;
+    opacity: .8;
+}
+.mediaMedium .Qualification_rewardsButton_db {
+        margin-top: 26rem;
+        margin-bottom: 35rem;
+        font-size: 16rem;
+        line-height: 20rem;
+}
+.mediaLarge .Qualification_rewardsButton_db {
+        margin-top: 29rem;
+        margin-bottom: 42rem;
+        font-size: 18rem;
+}
+.mediaExtraLarge .Qualification_rewardsButton_db {
+        margin-top: 49rem;
+        margin-bottom: 60rem;
+        font-size: 20rem;
+}
+.Qualification_buttonIcon_39 {
+    display: none;
+}
+.Qualification_waiting_de {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes ProgressionPage_fadeIn_16 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ProgressionPage_fadeInThreeQuarters_a8 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes ProgressionPage_fadeInHalf_9d {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes ProgressionPage_fadeOut_0e {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes ProgressionPage_fadeInWithScale_ee {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes ProgressionPage_slideUp_e2 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes ProgressionPage_scale_2c {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes ProgressionPage_raysAppearance_a2 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes ProgressionPage_rotate_75 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes ProgressionPage_reverse-rotate_bc {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes ProgressionPage_glowAppearance_12 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ProgressionPage_highlightAppearance_da {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes ProgressionPage_blink_57 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ProgressionPage_slideUpIn_0f {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ProgressionPage_base_fa {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.ProgressionPage_bgLayer_41 {
+    width: 100%;
+    height: 100%;
+    background: #000 no-repeat center / cover;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(0);
+    pointer-events: none;
+    inset: 0;
+    backface-visibility: hidden;
+}
+.ProgressionPage_bgLayer__iron_79 {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.iron');
+}
+.ProgressionPage_bgLayer__bronze_46 {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.bronze');
+}
+.ProgressionPage_bgLayer__silver_53 {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.silver');
+}
+.ProgressionPage_bgLayer__gold_ef {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.gold');
+}
+.ProgressionPage_bgLayer__champion_73 {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.champion');
+}
+.ProgressionPage_bgLayer__legend_8f {
+    background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.legend');
+}
+.ProgressionPage_parallaxContainer_c4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.ProgressionPage_contentWrapper_cf {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    width: 100%;
+}
+.ProgressionPage_content_4a {
+    flex: 1 1;
+}
+.ProgressionPage_content__progression_c5 {
+        margin-bottom: 12rem;
+    }
+.mediaMedium .ProgressionPage_content__progression_c5 {
+            margin-bottom: 20rem;
+}
+.mediaLarge .ProgressionPage_content__progression_c5 {
+            margin-bottom: 33rem;
+}
+.ProgressionPage_footer_d1 {
+    width: 78vw;
+}
+
+.Reward_base_ea {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+    .Reward_base__s48x48_46,
+    .Reward_base__small_c0 {
+        width: 48rem;
+        height: 48rem;
+    }
+
+    .Reward_base__s80x80_ce,
+    .Reward_base__big_e5 {
+        width: 80rem;
+        height: 80rem;
+    }
+
+    .Reward_base__s128x100_c3 {
+        width: 128rem;
+        height: 100rem;
+    }
+
+    .Reward_base__s180x135_7c {
+        width: 180rem;
+        height: 135rem;
+    }
+
+    .Reward_base__s232x174_67 {
+        width: 232rem;
+        height: 174rem;
+    }
+
+    .Reward_base__s296x222_78 {
+        width: 296rem;
+        height: 222rem;
+    }
+
+    .Reward_base__s400x300_07 {
+        width: 400rem;
+        height: 300rem;
+    }
+
+    .Reward_base__s600x450_f8 {
+        width: 600rem;
+        height: 450rem;
+    }
+
+.Reward_tooltipWrapper_b5 {
+    height: 100%;
+}
+
+.Reward_icon_df {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+
+.Reward_overlay_68 {
+    background: no-repeat center / 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.Reward_base__s48x48_46 .Reward_overlay_68,
+    .Reward_base__small_c0 .Reward_overlay_68 {
+        width: 96rem;
+        height: 96rem;
+        background-size: 100%;
+        overflow: visible;
+    }
+
+.Reward_base__s80x80_ce .Reward_overlay_68,
+    .Reward_base__big_e5 .Reward_overlay_68 {
+        width: 128rem;
+        height: 128rem;
+    }
+
+.Reward_base__s180x135_7c .Reward_overlay_68 {
+        width: 266rem;
+        height: 241rem;
+    }
+
+.Reward_base__s232x174_67 .Reward_overlay_68 {
+        width: 344rem;
+        height: 312rem;
+    }
+
+.Reward_base__s296x222_78 .Reward_overlay_68 {
+        width: 450rem;
+        height: 408rem;
+    }
+
+.Reward_base__s400x300_07 .Reward_overlay_68 {
+        width: 618rem;
+        height: 590rem;
+    }
+
+.Reward_base__s600x450_f8 .Reward_overlay_68 {
+        width: 670rem;
+        height: 575rem;
+    }
+
+.Reward_highlight_36 {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center / contain;
+    position: absolute;
+    z-index: 0;
+}
+
+.Reward_image_89 {
+    position: relative;
+}
+
+.Reward_info_72 {
+    margin-top: -13rem;
+    color: #e9e2bf;
+    font-size: 14rem;
+    line-height: 18rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.Reward_base__s48x48_46 .Reward_info_72,
+    .Reward_base__small_c0 .Reward_info_72 {
+        margin: -10rem -10rem 0;
+    }
+
+.Reward_info__multi_63 {
+        margin-right: 2rem;
+        text-align: right;
+    }
+
+.Reward_base__s48x48_46 .Reward_info__multi_63,
+        .Reward_base__small_c0 .Reward_info__multi_63 {
+            margin-right: 0;
+        }
+
+.Reward_info__credits_ef {
+        color: #E9E2BF;
+    }
+
+.Reward_info__gold_36 {
+        color: #FFC363;
+    }
+
+.Reward_info__crystal_36 {
+        color: #C9C9B6;
+    }
+
+.Reward_info__premiumTank_d3 {
+        color: #FFDD99;
+    }
+
+.Reward_timer_d3 {
+    background: no-repeat center / contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.Reward_base__s48x48_46 .Reward_timer_d3,
+    .Reward_base__small_c0 .Reward_timer_d3 {
+        width: 23rem;
+        height: 23rem;
+        background-image: url('R.images.gui.maps.icons.quests.bonuses.small.timer');
+        top: -6rem;
+        right: -6rem;
+    }
+
+.Reward_base__s80x80_ce .Reward_timer_d3,
+    .Reward_base__big_e5 .Reward_timer_d3 {
+        width: 48rem;
+        height: 48rem;
+        background-image: url('R.images.gui.maps.icons.quests.bonuses.big.timer');
+        top: -14rem;
+        right: -14rem;
+    }
+
+.Rewards_base_26 {
+    display: flex;
+}
+
+    .Rewards_base__vertical_9f {
+        flex-direction: column;
+    }
+
+.Rewards_reward_7b {
+    margin: 0 10rem;
+}
+
+.Rewards_reward__vertical_c6 {
+        margin: 15rem 0;
+    }
+
+.AdditionalRewards_reward_16 {
+    margin: 0;
+}
+
+    .AdditionalRewards_reward_16 + .AdditionalRewards_reward_16 {
+        margin-left: 20rem;
+    }
+
+    .mediaSmall .AdditionalRewards_reward_16 + .AdditionalRewards_reward_16 {
+            margin-left: 24rem;
+}
+
+    .mediaLarge .AdditionalRewards_reward_16 + .AdditionalRewards_reward_16 {
+            margin-left: 30rem;
+}
+
+.AdditionalRewards_vehiclesRentBase_d4 {
+    margin: 0 5rem;
+}
+
+.AdditionalRewards_vehiclesRentBase_d4 .AdditionalRewards_vehiclesRentLabel_3e {
+    color: #FFDD99;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: -7rem -12rem 0;
+}
+
+.Heading_base_99 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Heading_tooltipArea_c9 {
+    display: flex;
+    position: relative;
+}
+
+.Heading_rankEmblem__future_6d {
+        opacity: .5;
+    }
+
+.Heading_lock_a8 {
+    width: 11rem;
+    height: 14rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.lockExtraSmall') no-repeat center / cover;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mediaMedium .Heading_lock_a8 {
+        bottom: 4rem;
+}
+
+.mediaLarge .Heading_lock_a8 {
+        bottom: 9rem;
+}
+
+.Heading_description_6f {
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 26rem;
+    text-align: center;
+    position: relative;
+}
+
+.Heading_rankName_05 {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.Heading_rankStatus_63 {
+    color: rgba(255,255,255, .5);
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.Preview_base_1f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 60rem;
+    opacity: .7;
+    position: relative;
+    transition: opacity .25s ease-out;
+    cursor: pointer;
+}
+
+    .Preview_base__hovered_ee {
+        opacity: 1;
+    }
+.Preview_icon_f3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('R.images.gui.maps.icons.library.previewVehicle') no-repeat center / contain;
+    transition: opacity .25s ease-out;
+    pointer-events: none;
+}
+.Preview_icon__small_a1 {
+        width: 70rem;
+        height: 70rem;
+    }
+.Preview_icon__normal_5c {
+        width: 100rem;
+        height: 100rem;
+    }
+.Preview_base__mouseDown_d0 .Preview_icon_f3 {
+        opacity: .7;
+    }
+.Preview_label_2e {
+    color: #FFDD99;
+    font-size: 14rem;
+    line-height: 1.25;
+    text-shadow: 0 0 4rem rgba(255,127,0, .25),
+        0 0 8rem #ff2a00,
+        0 0 12rem #e52;
+    opacity: 0;
+    position: absolute;
+    bottom: -8rem;
+    transform: translateY(-5rem);
+    transition: transform .25s ease-out,
+        opacity .25s ease-out;
+}
+.Preview_base__visibleLabel_92 .Preview_label_2e,
+    .Preview_base__hovered_ee .Preview_label_2e {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes MainReward_fadeIn_88 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes MainReward_fadeInThreeQuarters_30 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes MainReward_fadeInHalf_73 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes MainReward_fadeOut_27 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes MainReward_fadeInWithScale_51 {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes MainReward_slideUp_58 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes MainReward_scale_5c {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes MainReward_raysAppearance_6b {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes MainReward_rotate_8c {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes MainReward_reverse-rotate_39 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes MainReward_glowAppearance_20 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes MainReward_highlightAppearance_ab {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes MainReward_blink_b5 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes MainReward_slideUpIn_d0 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.MainReward_base_32 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 85rem;
+    position: relative;
+}
+.mediaMedium .MainReward_base_32 {
+        padding-bottom: 105rem;
+}
+.MainReward_imageContainer_37 {
+    display: flex;
+    position: relative;
+}
+.MainReward_highlightContainer_cf {
+    width: 460rem;
+    height: 460rem;
+    filter: brightness(130%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.mediaMedium .MainReward_highlightContainer_cf {
+        width: 580rem;
+        height: 580rem;
+}
+.mediaLarge .MainReward_highlightContainer_cf {
+        width: 760rem;
+        height: 760rem;
+}
+.mediaExtraLarge .MainReward_highlightContainer_cf {
+        width: 840rem;
+        height: 840rem;
+}
+.MainReward_highlight_06 {
+    width: 100%;
+    height: 100%;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.blue_highlight') no-repeat center / cover;
+    animation: MainReward_glowAppearance_20 linear .7s both, MainReward_rotate_8c 80s linear infinite;
+}
+.MainReward_preview_7a {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 24rem;
+    left: 0;
+    z-index: 1;
+}
+.mediaMedium .MainReward_preview_7a {
+        bottom: 20rem;
+}
+.mediaLarge .MainReward_preview_7a {
+        bottom: 30rem;
+}
+.mediaExtraLarge .MainReward_preview_7a {
+        bottom: 80rem;
+}
+.MainReward_info_58 {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 85rem;
+    left: 0;
+    transform: translateY(100%);
+}
+.mediaMedium .MainReward_info_58 {
+        bottom: 105rem;
+}
+.MainReward_title_6d {
+    color: #FFFFFF;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0 25rem;
+}
+.mediaMedium .MainReward_title_6d {
+        color: #FFFFFF;
+        font-size: 24rem;
+        font-weight: 700;
+        line-height: 1.2;
+}
+.mediaLarge .MainReward_title_6d {
+        padding: 0 35rem;
+}
+.mediaExtraLarge .MainReward_title_6d {
+        padding: 0 110rem;
+}
+.MainReward_subTitle_e2 {
+    color: #F2F2F7;
+    font-size: 15rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-top: 12rem;
+}
+.mediaMedium .MainReward_subTitle_e2 {
+        color: #F2F2F7;
+        font-size: 18rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+
+.RankRewardsItem_base_a7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--itemWidth);
+    height: 100%;
+    position: relative;
+}
+
+.RankRewardsItem_mainRewardContainer_e0 {
+    width: 100%;
+}
+
+.RankRewardsItem_rewardsContainer_69 {
+    height: 48rem;
+    margin-bottom: 20rem;
+}
+
+.mediaLarge .RankRewardsItem_rewardsContainer_69 {
+        margin-bottom: 60rem;
+}
+
+.RankRewardsItem_rewardsContainer__qualification_b0 {
+        margin-bottom: 0;
+    }
+
+.mediaLarge .RankRewardsItem_rewardsContainer__qualification_b0 {
+            margin-bottom: 0;
+}
+
+.RankRewardsItem_statusContainer_bf {
+    display: flex;
+    color: #80D43A;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    min-height: 40rem;
+}
+
+/* for 2 lines localization support */
+
+.RankRewardsItem_statusContainer__hidden_c8 {
+        visibility: hidden;
+    }
+
+.RankRewardsItem_icon_7d {
+    width: 16rem;
+    height: 17rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.done') no-repeat center / cover;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes RankRewardsPage_fadeIn_0c {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankRewardsPage_fadeInThreeQuarters_05 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes RankRewardsPage_fadeInHalf_fb {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes RankRewardsPage_fadeOut_00 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes RankRewardsPage_fadeInWithScale_db {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes RankRewardsPage_slideUp_13 {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes RankRewardsPage_scale_7d {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes RankRewardsPage_raysAppearance_f8 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes RankRewardsPage_rotate_eb {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes RankRewardsPage_reverse-rotate_79 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes RankRewardsPage_glowAppearance_3e {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankRewardsPage_highlightAppearance_b7 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes RankRewardsPage_blink_6f {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes RankRewardsPage_slideUpIn_36 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.RankRewardsPage_base_fd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.RankRewardsPage_content_3f {
+    flex: 1 1;
+    width: 100%;
+    margin-bottom: 12rem;
+    position: relative;
+}
+.mediaMedium .RankRewardsPage_content_3f {
+        margin-bottom: 20rem;
+}
+.mediaLarge .RankRewardsPage_content_3f {
+        margin-bottom: 33rem;
+}
+.RankRewardsPage_scrollContainer_f2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.RankRewardsPage_areaContainer_9e {
+    flex: 1 1;
+}
+.RankRewardsPage_areaWrapper_fb {
+    mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 4%, #c4c4c4 10%, #c4c4c4 90%, rgba(196,196,196, .1) 96%, transparent);
+}
+.mediaSmall .RankRewardsPage_areaWrapper_fb {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 5%, #c4c4c4 20%, #c4c4c4 80%, rgba(196,196,196, .1) 95%, transparent);
+}
+.mediaMedium .RankRewardsPage_areaWrapper_fb {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 3%, #c4c4c4 25%, #c4c4c4 75%, rgba(196,196,196, .1) 97%, transparent);
+}
+.mediaLarge .RankRewardsPage_areaWrapper_fb {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 4%, #c4c4c4 20%, #c4c4c4 80%, rgba(196,196,196, .1) 96%, transparent);
+}
+.mediaExtraLarge .RankRewardsPage_areaWrapper_fb {
+        mask-image: linear-gradient(90deg, transparent, rgba(196,196,196, .1) 4%, #c4c4c4 25%, #c4c4c4 75%, rgba(196,196,196, .1) 96%, transparent);
+}
+.RankRewardsPage_bar_59 {
+    width: 78vw;
+}
+.RankRewardsPage_qualificationFooter_71 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 18rem;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+.mediaMedium .RankRewardsPage_qualificationFooter_71 {
+        margin-top: 2rem;
+        margin-bottom: 22rem;
+}
+.mediaLarge .RankRewardsPage_qualificationFooter_71 {
+        margin-top: 11rem;
+        margin-bottom: 44rem;
+}
+.RankRewardsPage_shopButtonContainer_90 {
+    padding: 5rem 0 21rem;
+}
+.mediaMedium .RankRewardsPage_shopButtonContainer_90 {
+        padding: 2rem 0 22rem;
+}
+.mediaLarge .RankRewardsPage_shopButtonContainer_90 {
+        padding: 1rem 0 52rem;
+}
+.RankRewardsPage_shopButton_4e {
+    padding: 5rem 20rem;
+}
+.mediaMedium .RankRewardsPage_shopButton_4e {
+        padding: 11rem 20rem;
+}
+.RankRewardsPage_comp7ShopButtonBackground_cc {
+    width: 130rem;
+    min-height: 36rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.comp7ShopButtonBackground') no-repeat 0 100%;
+    background-size: contain;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: -1;
+}
+.mediaMedium .RankRewardsPage_comp7ShopButtonBackground_cc {
+        height: 48rem;
+}
+.RankRewardsPage_shopButtonIcon_51 {
+    width: 24rem;
+    height: 24rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.comp7TokenCouponReward') no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.Prompt_base_74 {
+    display: flex;
+}
+
+.Prompt_defaultText_05 {
+    color: rgba(255,255,255, .4);
+}
+
+.Prompt_defaultText__done_b0 {
+        color: #80D43A;
+        opacity: .7;
+    }
+
+.LevelCard_base_cd {
+    display: flex;
+    width: 158rem;
+    height: 55rem;
+    position: relative;
+}
+
+    .mediaLarge .LevelCard_base_cd {
+        width: 187rem;
+}
+.LevelCard_bgCompleted_e8 {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.LevelCard_bgCompleted__completed_53 {
+        opacity: .9;
+    }
+.LevelCard_bgCompleted__fast_2a {
+        opacity: .9;
+        transition: none;
+    }
+.LevelCard_bgCompleted_e8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(78.04% 100% at 50% 100%, rgba(240, 218, 191, .23) 0%, rgba(90, 90, 90, 0) 100%);
+    transition-delay: 1100ms;
+}
+.LevelCard_completedIconContainer_28 {
+    opacity: 0;
+    transform: translateY(-20rem);
+    transition: opacity 500ms, transform 500ms;
+}
+.LevelCard_completedIconContainer__completed_47,
+    .LevelCard_completedIconContainer__prevLevel_05 {
+        opacity: 1;
+        transform: translateY(0);
+    }
+.LevelCard_completedIconContainer_28 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition-delay: 1100ms;
+}
+.LevelCard_completedIcon_40 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.progression.icon_now_rewards_title') no-repeat center / cover;
+    position: absolute;
+    top: -8rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.LevelCard_completedIconGlow_27 {
+    width: 9rem;
+    height: 9rem;
+    border: 3rem solid #24ff00;
+    filter: blur(7px);
+    opacity: .7;
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.LevelCard_border_b4 {
+    width: 1rem;
+    height: 36rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.LevelCard_border__right_c1 {
+        right: 0;
+        left: auto;
+    }
+
+.LevelLabel_base_10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.LevelLabel_activeGlow_6d {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.LevelLabel_activeGlow__completed_b9 {
+        opacity: 1;
+    }
+.LevelLabel_activeGlow__fast_5a {
+        opacity: 1;
+        transition: none;
+    }
+.LevelLabel_activeGlow_6d {
+    width: 100%;
+    height: 134rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.progression.bg_rare_light_current') no-repeat center / cover;
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    transition-delay: 1100ms;
+}
+.LevelLabel_level_4c {
+    color: #F2F2F7;
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    opacity: .5;
+    position: relative;
+    bottom: 2rem;
+    transition: opacity 500ms;
+    transition-delay: 1100ms;
+}
+.LevelLabel_level__completed_c4 {
+        opacity: 1;
+    }
+.LevelLabel_level__active_85 {
+        opacity: 0;
+    }
+.LevelLabel_tokenIcon_67 {
+    width: 24rem;
+    height: 24rem;
+    background: url('R.images.gui.maps.icons.quests.bonuses.small.comp7TokenWeeklyReward') no-repeat center / cover;
+    z-index: 1;
+}
+.LevelLabel_tokenIcon__active_7a {
+        width: 40rem;
+        height: 40rem;
+        margin-left: 4rem;
+    }
+.LevelLabel_levelCurrent_ce {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.LevelLabel_levelCurrent__completed_97 {
+        opacity: 1;
+    }
+.LevelLabel_levelCurrent__fast_d8 {
+        opacity: 1;
+        transition: none;
+    }
+.LevelLabel_levelCurrent_ce {
+    color: #FFDD99;
+    font-size: 36rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-right: -8rem;
+    text-shadow: 0 0 16rem #ff2e00, 0 0 4rem rgba(168, 30, 0, .5);
+    position: relative;
+    bottom: 4rem;
+    transition-delay: 1100ms;
+}
+
+.LevelCards_base_b9 {
+    display: flex;
+}
+
+.RewardCard_base_1f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 158rem;
+    min-height: 145rem;
+    padding-bottom: 16rem;
+    position: relative;
+}
+
+    .RewardCard_base__mediaLarge_1a {
+        width: 187rem;
+        min-height: 232rem;
+    }
+
+    .RewardCard_base__mediaExtraExtraLarge_c5 {
+        min-height: 232rem;
+    }
+
+    .mediaExtraLarge .RewardCard_base_1f {
+        width: 187rem;
+        min-height: 232rem;
+}
+.RewardCard_activeBlock_0f {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.RewardCard_activeBlock__completed_7c {
+        opacity: 1;
+    }
+.RewardCard_activeBlock__fast_1a {
+        opacity: 1;
+        transition: none;
+    }
+.RewardCard_activeBlock_0f {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('R.images.comp7.gui.maps.icons.comp7.progression.bg_current_small') no-repeat center -60rem / cover;
+    transition-delay: 1100ms;
+}
+.RewardCard_bgCompleted_3c {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.RewardCard_bgCompleted__completed_c9 {
+        opacity: .9;
+    }
+.RewardCard_bgCompleted__fast_93 {
+        opacity: .9;
+        transition: none;
+    }
+.RewardCard_bgCompleted_3c {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(126.66% 103.83% at 50% 0%, rgba(254, 228, 198, .15) 0%, rgba(49, 49, 49, 0) 100%);
+    transition-delay: 1100ms;
+}
+.RewardCard_border_ab {
+    width: 1rem;
+    height: 90%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.RewardCard_border__right_55 {
+        right: 0;
+        left: auto;
+    }
+
+.Rewards_base_76 {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+    .Rewards_base__completed_f5 {
+        opacity: .5;
+    }
+
+    .Rewards_base__fast_3c {
+        opacity: .5;
+        transition: none;
+    }
+
+    .Rewards_base_76 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    padding-top: 7rem;
+    transition-delay: 1100ms;
+}
+
+    .Rewards_base__wide_f7 {
+        width: 100%;
+    }
+.Rewards_reward_24 {
+    margin: 10rem;
+}
+
+.RewardCards_base_07 {
+    display: flex;
+}
+
+/*
+    Gameface can't calculate gradient biggest than 8128px
+    in JS 8000 reserved like anchor for start optimization
+*/
+/* stylelint-disable-line */
+.OptimizedProgressBar_base_1f {
+    width: 100%;
+    padding: 30rem 0;
+    overflow: hidden;
+}
+.OptimizedProgressBar_wrapper_ab {
+    position: relative;
+}
+.OptimizedProgressBar_line_ef {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.OptimizedProgressBar_background_ce {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 8001px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Container_base_31 {
+    display: flex;
+}
+.Container_progressWrapper_e1 {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+.Container_progressWrapper__completed_9e {
+        opacity: .7;
+    }
+.Container_progressWrapper__fast_af {
+        opacity: .7;
+        transition: none;
+    }
+.Container_progressWrapper_e1 {
+    display: flex;
+    margin: -30rem 0;
+    padding: 0 2rem;
+    position: relative;
+}
+.Container_bg_d7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: -3rem -1rem;
+    border-radius: 2rem;
+    background: #000;
+    opacity: .5;
+}
+
+.Content_base_d5 {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .03s;
+}
+
+    .Content_base__centered_e6,
+    .Content_base__layoutReady_84 {
+        opacity: 1;
+    }
+.Content_horizontalContent_91 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10rem;
+    position: relative;
+}
+.Content_wrapper_d8 {
+    overflow-x: visible;
+}
+.Content_progress_35 {
+    height: 13rem;
+    position: relative;
+    z-index: 1;
+}
+.Content_progressArea_68 {
+    display: flex;
+    position: absolute;
+}
+
+.ScrollDrag_base_bd {
+    cursor: grab;
+}
+
+    .ScrollDrag_base__grabbing_1f {
+        cursor: move;
+    }
+
+@keyframes Progression_add-blur_31 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+@keyframes Progression_hide_32 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+@keyframes Progression_show_89 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.Progression_base_d2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.Progression_contentWrapper_6f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Progression_progressionContentWrapper_59 {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+.Progression_progressionContentWrapper__completed_a7 {
+        opacity: .7;
+    }
+.Progression_progressionContentWrapper__fast_58 {
+        opacity: .7;
+        transition: none;
+    }
+.Progression_progressionContentWrapper_59 {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    position: relative;
+    transition-duration: 1500ms;
+}
+.mediaMedium .Progression_progressionContentWrapper_59 {
+        margin-bottom: -18rem;
+}
+.Progression_prompt_7b {
+    margin: 9rem 0 14rem;
+}
+.mediaMedium .Progression_prompt_7b {
+        margin: 38rem 0 14rem;
+}
+.mediaExtraLarge .Progression_prompt_7b {
+        margin: 54rem 0 14rem;
+}
+
+.Countdown_base_fe {
+    display: flex;
+    align-items: center;
+}
+
+.Countdown_icon_8b {
+    width: 32rem;
+    height: 32rem;
+    background: no-repeat center / contain;
+}
+
+.Countdown_description_8d {
+    color: #FFDD99;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+@keyframes Separator_add-blur_ba {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+
+@keyframes Separator_hide_0e {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes Separator_show_ca {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.Separator_base_81 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.Separator_separator_9e {
+    flex: 1 1 auto;
+    height: 1rem;
+    position: relative;
+}
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__left_74 {
+            background: linear-gradient(270deg, #ffc061 0%, rgba(203, 73, 0, 0) 100%);
+        }
+
+.Separator_base__inProgressBattleQuests_4d .Separator_separator__left_74 {
+            background: linear-gradient(270deg, rgba(255, 255, 255, .4) 0%, rgba(255, 255, 255, .03) 100%);
+        }
+
+.Separator_base__condition_d9 .Separator_separator__left_74 {
+            background: linear-gradient(90deg, rgba(108, 108, 108, .15) 0%, #6c6c6c 102.66%);
+        }
+
+.Separator_base__awards_d6 .Separator_separator__left_74 {
+            margin: 0 10rem 2.5rem 2.5rem;
+            background: linear-gradient(270deg, #fff -2.27%, rgba(255, 255, 255, .1) 100%);
+        }
+
+.Separator_separator__left_74 .Separator_base__lockedByNoXVehicles_00,
+        .Separator_separator__left_74 .Separator_base__lockedByInactiveSeason_66,
+        .Separator_base__lockedByPreviousQuest_75 .Separator_separator__left_74 {
+            background: linear-gradient(270deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, .01) 100%);
+        }
+
+.Separator_base__completed_5f .Separator_separator__left_74::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #81ea30 -2.27%, rgba(129, 234, 48, .1) 100%);
+    opacity: 0;
+    content: '';
+    animation-name: Separator_show_ca;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+            }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__right_3d {
+            background: linear-gradient(90deg, #ffc061 0%, rgba(203, 73, 0, 0) 100%);
+        }
+
+.Separator_base__inProgressBattleQuests_4d .Separator_separator__right_3d {
+            background: linear-gradient(90deg, rgba(255, 255, 255, .4) 0%, rgba(255, 255, 255, .03) 100%);
+        }
+
+.Separator_base__condition_d9 .Separator_separator__right_3d {
+            background: linear-gradient(270deg, rgba(108, 108, 108, .15) 0%, #6c6c6c 102.66%);
+        }
+
+.Separator_base__awards_d6 .Separator_separator__right_3d {
+            margin: 0 3rem 2.5rem 10rem;
+            background: linear-gradient(90deg, #fff -2.27%, rgba(255, 255, 255, .1) 100%);
+        }
+
+.Separator_separator__right_3d .Separator_base__lockedByNoXVehicles_00,
+        .Separator_separator__right_3d .Separator_base__lockedByInactiveSeason_66,
+        .Separator_base__lockedByPreviousQuest_75 .Separator_separator__right_3d {
+            background: linear-gradient(90deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, .01) 100%);
+        }
+
+.Separator_base__completed_5f .Separator_separator__right_3d::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #81ea30 -2.27%, rgba(129, 234, 48, .1) 100%);
+    opacity: 0;
+    content: '';
+    animation-name: Separator_show_ca;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+            }
+
+.Separator_ellipse_c0 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    filter: blur(.5rem);
+    opacity: .5;
+    position: absolute;
+    top: -1rem;
+    right: -.5rem;
+}
+
+.Separator_base__awards_d6 .Separator_separator__left_74 .Separator_ellipse_c0,
+        .Separator_base__inProgressBattleQuests_4d .Separator_separator__left_74 .Separator_ellipse_c0 {
+            background: #F2F2F7;
+        }
+
+.Separator_base__completed_5f .Separator_separator__left_74 .Separator_ellipse_c0 {
+            background: #b5ff92;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__left_74 .Separator_ellipse_c0 {
+    width: 6rem;
+    height: 6rem;
+    background: #af2000;
+    filter: blur(1rem);
+    top: -2.5rem;
+    right: -1.5rem;
+        }
+
+.Separator_separator__right_3d .Separator_ellipse_c0 {
+        left: -.5rem;
+    }
+
+.Separator_base__awards_d6 .Separator_separator__right_3d .Separator_ellipse_c0,
+        .Separator_base__inProgressBattleQuests_4d .Separator_separator__right_3d .Separator_ellipse_c0 {
+            background: #F2F2F7;
+        }
+
+.Separator_base__completed_5f .Separator_separator__right_3d .Separator_ellipse_c0 {
+            background: #b5ff92;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__right_3d .Separator_ellipse_c0 {
+    width: 6rem;
+    height: 6rem;
+    background: #af2000;
+    filter: blur(1rem);
+    top: -2.5rem;
+    right: -1.5rem;
+            left: -1.5rem;
+        }
+
+.Separator_firstLayer_34 {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -1rem;
+    right: .5rem;
+}
+
+.Separator_base__awards_d6 .Separator_separator__left_74 .Separator_firstLayer_34,
+        .Separator_base__inProgressBattleQuests_4d .Separator_separator__left_74 .Separator_firstLayer_34 {
+            background: #FFFFFF;
+        }
+
+.Separator_base__completed_5f .Separator_separator__left_74 .Separator_firstLayer_34 {
+            background: #b5ff92;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__left_74 .Separator_firstLayer_34 {
+    width: 4rem;
+    height: 4rem;
+    background: #ffad32;
+    filter: blur(.5rem);
+    top: 1.5rem;
+    right: 1.5rem;
+        }
+
+.Separator_separator__right_3d .Separator_firstLayer_34 {
+        left: -.5rem;
+    }
+
+.Separator_base__awards_d6 .Separator_separator__right_3d .Separator_firstLayer_34,
+        .Separator_base__inProgressBattleQuests_4d .Separator_separator__right_3d .Separator_firstLayer_34 {
+            background: #FFFFFF;
+        }
+
+.Separator_base__completed_5f .Separator_separator__right_3d .Separator_firstLayer_34 {
+            background: #b5ff92;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__right_3d .Separator_firstLayer_34 {
+    width: 4rem;
+    height: 4rem;
+    background: #ffad32;
+    filter: blur(.5rem);
+    top: 1.5rem;
+    right: 1.5rem;
+            left: 1.5rem;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__left_74 .Separator_secondLayer_54 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #E9E2BF;
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+        }
+
+.Separator_base__completedBattleQuests_ef .Separator_separator__right_3d .Separator_secondLayer_54 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #E9E2BF;
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+            left: 1rem;
+        }
+
+@keyframes Timer_add-blur_c0 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+
+@keyframes Timer_hide_7d {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes Timer_show_1b {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.Timer_base_ad {
+    display: flex;
+}
+
+.Timer_timer_4c {
+    width: 100%;
+}
+
+.Timer_block_de {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Timer_base__small_5a .Timer_block_de {
+        margin: 0 10rem 3rem;
+    }
+
+.Timer_base__big_03 .Timer_block_de {
+        margin: 0;
+    }
+
+.Timer_base__small_5a .Timer_text_35 {
+        color: #FEFEEC;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+        display: block;
+    }
+
+.Timer_base__big_03 .Timer_text_35 {
+        display: none;
+    }
+
+.Timer_base__small_5a .Timer_bgCountdown_86 {
+        display: none;
+    }
+
+.Timer_base__big_03 .Timer_bgCountdown_86 {
+        display: block;
+        width: 280rem;
+        height: 190rem;
+        background: url('R.images.comp7.gui.maps.icons.comp7.progression.bg_big_timer') no-repeat center / contain;
+        position: absolute;
+        top: -75rem;
+        left: -73rem;
+    }
+
+.Timer_base__small_5a .Timer_description_bc {
+        color: #FFDD99;
+        font-size: 14rem;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+
+.Timer_base__big_03 .Timer_description_bc {
+        color: #FFDD99;
+        font-size: 24rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 3rem;
+    }
+
+.Timer_base__big_03 .Timer_countdown_e1 {
+        margin-right: 5rem;
+        position: relative;
+    }
+
+.ResetStatus_base_25 {
+    width: 980rem;
+    min-height: 32rem;
+}
+
+    .ResetStatus_base__ended_5e {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 216rem;
+    }
+
+    .mediaMedium .ResetStatus_base__ended_5e {
+            min-height: 253rem;
+}
+
+.ResetStatus_endedTextTitle_20 {
+    color: #FEFEEC;
+    font-size: 24rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 28rem;
+}
+
+.mediaLarge .ResetStatus_endedTextTitle_20 {
+        color: #FEFEEC;
+        font-size: 36rem;
+        font-weight: 700;
+        line-height: 1.1;
+}
+
+.ResetStatus_endedTextSubtitle_6e {
+    color: #FEFEEC;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 4rem;
+}
+
+.Progress_base_d5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Progress_counter_3b {
+    color: rgba(254,254,236, 1);
+    font-size: 18rem;
+    font-weight: 700;
+    line-height: 1.1;
+    flex-wrap: nowrap;
+    line-height: 20rem;
+}
+
+.Progress_current_fd {
+    color: #FEAB34;
+}
+
+.Progress_progressBar_d2 {
+    width: 140rem;
+    padding: 7rem 0;
+}
+
+@keyframes TaskBattle_add-blur_68 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+
+@keyframes TaskBattle_hide_e0 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes TaskBattle_show_4d {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.TaskBattle_nextArrowWrapper_bb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.TaskBattle_nextArrow_32 {
+    width: 28rem;
+    height: 50rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.weekly_quests.arrow') no-repeat center / contain;
+}
+
+.TaskBattle_nextArrow__completed_0d {
+        background: url('R.images.comp7.gui.maps.icons.comp7.weekly_quests.arrow_highlighted') no-repeat center / contain;
+    }
+
+.TaskBattle_nextArrow__active_0a {
+        background: url('R.images.comp7.gui.maps.icons.comp7.weekly_quests.arrow_highlighted') no-repeat center / contain;
+    }
+
+.mediaMedium .TaskBattle_nextArrow_32 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+}
+
+.TaskBattle_base_44 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 268rem;
+    height: 136rem;
+    border: 1rem solid rgba(255, 255, 255, .15);
+    border-radius: 5rem;
+    border-bottom: 0;
+    background: linear-gradient(180deg, rgba(26, 26, 26, .3) 92.64%, rgba(26, 26, 26, 0) 100%);
+    position: relative;
+}
+
+.TaskBattle_base__completed_96 {
+    animation-name: TaskBattle_add-shadow_a9;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+.TaskBattle_base__lockedByNoXVehicles_65,
+    .TaskBattle_base__lockedByInactiveSeason_b0,
+    .TaskBattle_base__lockedByPreviousQuest_34 {
+    border-color: rgba(255, 255, 255, .07);
+    box-shadow: none;
+        background: linear-gradient(180deg, rgba(26, 26, 26, .15) 92.64%, rgba(26, 26, 26, 0) 100%);
+    }
+
+.TaskBattle_base__mediaMediumHeight_96 {
+        width: 268rem;
+        height: 176rem;
+    }
+
+.TaskBattle_base_44 + .TaskBattle_base_44 {
+        margin-left: 10rem;
+    }
+
+.mediaLarge .TaskBattle_base_44 + .TaskBattle_base_44 {
+            margin-left: 20rem;
+}
+
+.mediaMedium .TaskBattle_base_44 {
+        width: 268rem;
+        height: 176rem;
+}
+
+.TaskBattle_taskType_94 {
+    position: absolute;
+    top: -17rem;
+}
+
+.TaskBattle_conditions_2d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220rem;
+}
+
+.TaskBattle_base__mediaMediumHeight_96 .TaskBattle_conditions_2d {
+        width: 260rem;
+    }
+
+.mediaLarge .TaskBattle_conditions_2d {
+        width: 260rem;
+}
+
+.TaskBattle_description_f6 {
+    color: #F2F2F7;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 1.3;
+    justify-content: center;
+    align-items: center;
+    max-width: 200rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.TaskBattle_description__completed_a2 {
+    animation-name: TaskBattle_update-condition_a0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+.TaskBattle_description__completedWasVisited_42 {
+        color: #7AB300;
+    }
+
+.TaskBattle_awards_0a {
+    width: 265rem;
+    position: absolute;
+    bottom: -25rem;
+}
+
+.TaskBattle_base__completed_96 .TaskBattle_awards_0a {
+    animation-name: TaskBattle_add-blur_68;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+.TaskBattle_base__completedWasVisited_8a .TaskBattle_awards_0a {
+        opacity: .5;
+    }
+
+.TaskBattle_base__mediaMediumHeight_96 .TaskBattle_awards_0a {
+        width: 265rem;
+    }
+
+.mediaLarge .TaskBattle_awards_0a {
+        width: 265rem;
+}
+
+.TaskBattle_awardsList_bf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TaskBattle_award_8b + .TaskBattle_award_8b {
+        margin-left: 15rem;
+    }
+
+@keyframes TaskBattle_update-condition_a0 {
+    from {
+        color: #F2F2F7;
+    }
+
+    to {
+        color: #7AB300;
+    }
+}
+
+@keyframes TaskBattle_add-shadow_a9 {
+    from {
+        border-color: rgba(255, 255, 255, .15);
+        box-shadow: none;
+    }
+
+    to {
+    border-color: rgba(137, 167, 1, .2);
+    box-shadow: inset 0 19rem 30rem  rgba(137, 167, 1, .1);
+    }
+}
+
+@keyframes TaskType_add-blur_1d {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+
+@keyframes TaskType_hide_4e {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes TaskType_show_a3 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.TaskType_base_d9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.TaskType_ellipse_95 {
+    width: 228rem;
+    height: 125rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.weekly_quests.ellipse')  no-repeat center / contain;
+    position: absolute;
+    top: -47rem;
+    z-index: 1;
+}
+
+.TaskType_base__completed_00 .TaskType_ellipse_95 {
+    animation-name: TaskType_hide_4e;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+.TaskType_ellipse_95 .TaskType_base__completedWasVisited_28,
+    .TaskType_ellipse_95 .TaskType_base__lockedByNoXVehicles_99,
+    .TaskType_ellipse_95 .TaskType_base__lockedByInactiveSeason_c5,
+    .TaskType_base__lockedByPreviousQuest_42 .TaskType_ellipse_95 {
+        opacity: 0;
+    }
+
+.TaskType_typeIcon_0c {
+    width: 32rem;
+    height: 32rem;
+    background: no-repeat center / contain;
+    position: relative;
+    z-index: 5;
+}
+
+.TaskType_base__completed_00 .TaskType_typeIcon_0c {
+        opacity: 0;
+    }
+
+.TaskType_typeIcon_0c .TaskType_base__lockedByNoXVehicles_99,
+    .TaskType_typeIcon_0c .TaskType_base__lockedByInactiveSeason_c5,
+    .TaskType_base__lockedByPreviousQuest_42 .TaskType_typeIcon_0c {
+        opacity: 0.4;
+    }
+
+.TaskType_completedIcon_cf {
+    width: 32rem;
+    height: 32rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.weekly_quests.completed') no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.TaskType_base__completed_00 .TaskType_completedIcon_cf {
+        opacity: 1;
+    }
+
+.TaskType_lockIcon_20 {
+    width: 18rem;
+    height: 18rem;
+    background: url('R.images.comp7.gui.maps.icons.comp7.icons.lockMedium') no-repeat center / contain;
+    opacity: 0;
+    position: absolute;
+    top: 22rem;
+    left: 25%;
+    z-index: 5;
+}
+
+.TaskType_lockIcon_20 .TaskType_base__lockedByNoXVehicles_99,
+    .TaskType_lockIcon_20 .TaskType_base__lockedByInactiveSeason_c5,
+    .TaskType_base__lockedByPreviousQuest_42 .TaskType_lockIcon_20 {
+    animation-name: TaskType_slide-down_53;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+@keyframes TaskType_slide-down_53 {
+    from {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes TaskBattleList_add-blur_67 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .5;
+    }
+}
+
+@keyframes TaskBattleList_hide_56 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes TaskBattleList_show_f9 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+
+/* should be percentage of screen width */
+
+@keyframes TaskBattleList_fadeIn_38 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes TaskBattleList_fadeInThreeQuarters_b4 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+
+@keyframes TaskBattleList_fadeInHalf_5a {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+
+@keyframes TaskBattleList_fadeOut_f6 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes TaskBattleList_fadeInWithScale_0a {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes TaskBattleList_slideUp_dd {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes TaskBattleList_scale_d4 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes TaskBattleList_raysAppearance_32 {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+
+@keyframes TaskBattleList_rotate_3f {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes TaskBattleList_reverse-rotate_56 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes TaskBattleList_glowAppearance_55 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes TaskBattleList_highlightAppearance_7c {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+
+@keyframes TaskBattleList_blink_1d {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes TaskBattleList_slideUpIn_33 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.TaskBattleList_base__completed_e6 {
+    animation-name: TaskBattleList_hidden-tasks-list_39;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    }
+
+.mediaLarge .TaskBattleList_base_c6 {
+        margin: 0;
+}
+
+.TaskBattleList_scroll_73 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.TaskBattleList_timerWithQuestsTotal_39 {
+    margin: -10rem 0 8rem;
+}
+
+.mediaMedium .TaskBattleList_timerWithQuestsTotal_39 {
+        margin: 5rem 0 3rem;
+}
+
+.mediaLarge .TaskBattleList_timerWithQuestsTotal_39 {
+        margin: 0 0 11rem;
+}
+
+.TaskBattleList_timer_fe {
+    margin: -10rem 0 5rem;
+}
+
+.mediaMedium .TaskBattleList_timer_fe {
+        margin: 9rem 0 3rem;
+}
+
+.mediaLarge .TaskBattleList_timer_fe {
+        margin: 0 0 -11rem;
+}
+
+.TaskBattleList_taskList_d4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TaskBattleList_scrollContainer_e0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TaskBattleList_areaContainer_fb {
+    display: flex;
+    overflow: visible;
+}
+
+.TaskBattleList_areaWrapper_04 {
+    display: flex;
+    width: 100%;
+    padding: 26rem 0 42rem;
+    overflow-x: visible;
+    mask-image: none;
+}
+
+.mediaMedium .TaskBattleList_areaWrapper_04 {
+        padding: 26rem 0 52rem;
+}
+
+.mediaLarge .TaskBattleList_areaWrapper_04 {
+        padding: 26rem 0 56rem;
+}
+
+.mediaExtraLarge .TaskBattleList_areaWrapper_04 {
+        padding: 26rem 0 68rem;
+}
+
+.TaskBattleList_bar_d9 {
+    visibility: hidden;
+}
+
+@keyframes TaskBattleList_hidden-tasks-list_39 {
+    0% {
+        height: 100%;
+        opacity: 1;
+    }
+
+    40% {
+        height: 70%;
+        opacity: 0;
+    }
+
+    50%,
+    100% {
+        height: 0%;
+        opacity: 0;
+    }
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes WeeklyQuestsPage_fadeIn_46 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes WeeklyQuestsPage_fadeInThreeQuarters_8d {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .75;
+    }
+}
+@keyframes WeeklyQuestsPage_fadeInHalf_b5 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes WeeklyQuestsPage_fadeOut_6c {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes WeeklyQuestsPage_fadeInWithScale_7b {
+    0% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes WeeklyQuestsPage_slideUp_3b {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes WeeklyQuestsPage_scale_6e {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes WeeklyQuestsPage_raysAppearance_aa {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateY(0);
+    }
+}
+@keyframes WeeklyQuestsPage_rotate_4d {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes WeeklyQuestsPage_reverse-rotate_c0 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes WeeklyQuestsPage_glowAppearance_2f {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes WeeklyQuestsPage_highlightAppearance_b4 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+@keyframes WeeklyQuestsPage_blink_03 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes WeeklyQuestsPage_slideUpIn_e0 {
+    from {
+        opacity: 0;
+        transform: translateY(50rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.WeeklyQuestsPage_base_6c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.WeeklyQuestsPage_content_cc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    width: 1024rem;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 7.5%, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 89%, rgba(255, 255, 255, 0) 92.5%);
+}
+.mediaSmall .WeeklyQuestsPage_content_cc {
+        width: 1366rem;
+}
+.mediaMedium .WeeklyQuestsPage_content_cc {
+        width: 1600rem;
+}
+.mediaLarge .WeeklyQuestsPage_content_cc {
+        width: 1920rem;
+}
+.mediaExtraLarge .WeeklyQuestsPage_content_cc {
+        mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 7%, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 1) 91%, rgba(255, 255, 255, 0) 93%);
+        width: 2560rem;
+}
+.WeeklyQuestsPage_questsList_78 {
+    margin-top: -55rem;
+    margin-bottom: 35rem;
+}
+.mediaSmall .WeeklyQuestsPage_questsList_78 {
+        margin-bottom: 24rem;
+}
+.mediaMedium .WeeklyQuestsPage_questsList_78 {
+        margin-top: -5rem;
+        margin-bottom: 0;
+}
+.mediaLarge .WeeklyQuestsPage_questsList_78 {
+        margin-top: 0;
+        margin-bottom: 52rem;
+}
+.mediaExtraLarge .WeeklyQuestsPage_questsList_78 {
+        margin-top: 7vh;
+        margin-bottom: 11vh;
+}
+.WeeklyQuestsPage_resetStatus_8a {
+    margin-top: 17rem;
+    margin-bottom: -2rem;
+}
+.mediaMedium .WeeklyQuestsPage_resetStatus_8a {
+        width: 1260rem;
+}
+.mediaExtraLarge .WeeklyQuestsPage_resetStatus_8a {
+        margin-bottom: 20rem;
+}
+.WeeklyQuestsPage_progression_25 {
+    padding-top: 12rem;
+    overflow-y: hidden;
+}
+.mediaMedium .WeeklyQuestsPage_progression_25 {
+        padding-top: 33rem;
+}
+.mediaLarge .WeeklyQuestsPage_progression_25 {
+        padding-top: 64rem;
+}
+.mediaExtraLarge .WeeklyQuestsPage_progression_25 {
+        padding-top: 75rem;
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+.App_base_ef {
+    width: 100%;
+    height: 100%;
+    background: #000 no-repeat center / cover;
+    position: relative;
+}
+.App_base__qualification_73 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.qualification');
+    }
+.App_base__leaderboard_da {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.leaderboard_bg');
+    }
+.App_base__rankRewards_55 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.rewards_bg');
+    }
+.App_base__weeklyQuests_58 {
+        background-image: url('R.images.comp7.gui.maps.icons.comp7.backgrounds.quests_bg');
+    }
+.App_viewContainer_81 {
+    width: 100%;
+    height: 100%;
+}
+.App_sidebar_95 {
+    position: absolute;
+    top: 50%;
+    left: 16rem;
+    transform: translateY(-50%);
+}
+.mediaSmall .App_sidebar_95 {
+        left: 32rem;
+}
+.mediaExtraLarge .App_sidebar_95 {
+        left: 56rem;
+}
+.App_info_e9 {
+    position: absolute;
+    top: 54rem;
+    left: 29rem;
+}
+.mediaMedium .App_info_e9 {
+        top: 63rem;
+}
+.mediaLarge .App_info_e9 {
+        left: 40rem;
+}
+

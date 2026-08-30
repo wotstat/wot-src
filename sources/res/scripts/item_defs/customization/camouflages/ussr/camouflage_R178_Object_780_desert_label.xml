@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>desert</season>
+		<historical>0</historical>
+		<priceGroup>MT camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<vehicles>ussr:R178_Object_780</vehicles>
+			</include>
+		</vehicleFilter>
+		<camouflage>
+			<id>393</id>
+			<texture>vehicles/russian/Camouflage/R178_Object_780_desert.dds</texture>
+			<description>#vehicle_customization:camouflage/R178_Object_780_desert/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/R178_Object_780_desert/label</userString>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>89 73 52 255</c0>
+					<c1>110 86 70 255</c1>
+					<c2>153 144 113 242</c2>
+					<c3>156 138 103 0</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-1.43989694</HULL>
+				<TURRET>2.09055495</TURRET>
+				<GUN>-2.52968</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>1.125 1.125</factor>
+				<offset>-0.32 0.18</offset>
+			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+</root>

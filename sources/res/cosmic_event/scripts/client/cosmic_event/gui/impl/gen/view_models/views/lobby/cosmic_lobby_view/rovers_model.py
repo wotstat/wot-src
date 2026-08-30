@@ -1,0 +1,56 @@
+from enum import IntEnum
+from frameworks.wulf import Array
+from frameworks.wulf import ViewModel
+from cosmic_event.gui.impl.gen.view_models.views.battle.cosmic_hud.ability_model import AbilityModel
+
+class RoverEnum(IntEnum):
+    OLD = 1
+    NEW = 2
+
+
+class RoversModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(RoversModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicleName(self):
+        return self._getString(0)
+
+    def setVehicleName(self, value):
+        self._setString(0, value)
+        return
+
+    def getVehicle(self):
+        return RoverEnum(self._getNumber(1))
+
+    def setVehicle(self, value):
+        self._setNumber(1, value.value)
+        return
+
+    def getAbilities(self):
+        return self._getArray(2)
+
+    def setAbilities(self, value):
+        self._setArray(2, value)
+        return
+
+    @staticmethod
+    def getAbilitiesType():
+        return AbilityModel
+
+    def getIsVehicleInBattle(self):
+        return self._getBool(3)
+
+    def setIsVehicleInBattle(self, value):
+        self._setBool(3, value)
+        return
+
+    def _initialize(self):
+        super(RoversModel, self)._initialize()
+        self._addStringProperty(b'vehicleName', b'')
+        self._addNumberProperty(b'vehicle')
+        self._addArrayProperty(b'abilities', Array())
+        self._addBoolProperty(b'isVehicleInBattle', False)
+        return

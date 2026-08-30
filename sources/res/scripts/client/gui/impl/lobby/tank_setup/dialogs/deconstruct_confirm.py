@@ -1,0 +1,225 @@
+from itertools import chain
+from constants import OPT_DEVICES_RESTORE_SETTING
+from gui.impl import backport
+from gui.impl.dialogs.dialog_template import DialogTemplateView
+from gui.impl.dialogs.dialog_template_button import CustomSoundButtonPresenter, getConfirmButton, CancelButton
+from gui.impl.gen import R
+from gui.ClientUpdateManager import g_clientUpdateManager
+from gui.impl.gen.view_models.views.lobby.tank_setup.dialogs.confirm_actions_with_equipment_dialog_model import ConfirmActionsWithEquipmentDialogModel, DialogType as LocationDialogType
+from gui.impl.gen.view_models.views.lobby.tank_setup.dialogs.deconstruct_confirm_model import DeconstructConfirmModel, DialogType as ActionDialogType
+from gui.impl.gen.view_models.views.lobby.tank_setup.dialogs.main_content.deconstruct_confirm_item_model import DeconstructConfirmItemModel
+from gui.impl.lobby.tank_setup.array_providers.opt_device import DeconstructOptDeviceStorageProvider, DeconstructOptDeviceOnVehicleProvider, ListTypes
+from gui.impl.lobby.tank_setup.dialogs.dialog_helpers.balance import initBalance
+from gui.impl.lobby.tank_setup.dialogs.dialog_helpers.model_formatters import initItemInfo
+from gui.impl.lobby.tank_setup.tooltips.deconstruct_from_inventory_tooltip import DeconstructFromInventoryTooltip
+from gui.impl.lobby.tank_setup.tooltips.deconstruct_from_vehicle_tooltip import DeconstructFromVehicleTooltip
+from gui.impl.pub.dialog_window import DialogButtons
+from gui.shared.money import Currency
+from helpers import dependency
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.shared import IItemsCache
+_SUBMIT_CLICK_SOUND = b'mod_equipment_disassemble'
+
+class DeconstructMultConfirm(DialogTemplateView):
+    itemsCache = dependency.descriptor(IItemsCache)
+    __slots__ = (b'storageItems', b'vehicleItems', b'upgradeModulePair', b'ctx', b'__tooltipCache', b'_storageProvider', b'_onVehicleProvider')
+    LAYOUT_ID = R.views.lobby.tanksetup.dialogs.DeconstructConfirm()
+    VIEW_MODEL = DeconstructConfirmModel
+
+    def __init__(self, ctx):
+        self.ctx = ctx
+        self.storageItems = ctx.cart.storage.values()
+        self.vehicleItems = chain(*ctx.cart.onVehicle.values())
+        self.upgradeModulePair = ctx.upgradedPair
+        self.__tooltipCache = {}
+        self._storageProvider = DeconstructOptDeviceStorageProvider()
+        self._onVehicleProvider = DeconstructOptDeviceOnVehicleProvider()
+        super(DeconstructMultConfirm, self).__init__()
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()
+
+    def updateArray(self, array, items, isInventory=False):
+        totalCount = 0
+        array.clear()
+        tooltipItems = self.__tooltipCache.setdefault(ListTypes.STORAGE if isInventory else ListTypes.ON_VEHICLE, {})
+        itemsDict = dict()
+        for itemSpec in items:
+            itemsList = itemsDict.setdefault(itemSpec.intCD, [])
+            itemsList.append(itemSpec)
+
+        for intCD, itemSpecs in sorted(itemsDict.items(), key=self._sortItemsKey):
+            itemModel = DeconstructConfirmItemModel()
+            item = self.itemsCache.items.getItemByCD(intCD)
+            count = sum(itemSpec.count if isInventory else 1 for itemSpec in itemSpecs)
+            if isInventory:
+                tooltipItems[intCD] = count
+            else:
+                vehiclesNames = []
+                for itemSpec in itemSpecs:
+                    vehCD = itemSpec.vehicleCD
+                    vehicle = self.itemsCache.items.getItemByCD(vehCD)
+                    if vehicle:
+                        vehiclesNames.append(vehicle.userName)
+
+                tooltipItems.update({intCD: vehiclesNames})
+            totalCount += count
+            itemModel.setIntCD(intCD)
+            itemModel.setName(b'')
+            itemModel.setValue(str(count))
+            itemModel.setIcon(item.descriptor.iconName)
+            itemModel.setLevel(item.level)
+            array.addViewModel(itemModel)
+
+        array.invalidate()
+        return totalCount
+
+    def createToolTipContent(self, event, contentID):
+        intCD = int(event.getArgument(b'intCD'))
+        if not intCD:
+            return
+        else:
+            item = self.itemsCache.items.getItemByCD(intCD)
+            title = item.userName
+            if contentID == R.views.lobby.tanksetup.tooltips.DeconstructFromInventoryTooltip():
+                tooltipItems = self.__tooltipCache.get(ListTypes.STORAGE, {})
+                if intCD in tooltipItems:
+                    value = tooltipItems[intCD]
+                    return DeconstructFromInventoryTooltip(title, value)
+            if contentID == R.views.lobby.tanksetup.tooltips.DeconstructFromVehicleTooltip():
+                tooltipItems = self.__tooltipCache.get(ListTypes.ON_VEHICLE, {})
+                if intCD in tooltipItems:
+                    value = tooltipItems[intCD]
+                    return DeconstructFromVehicleTooltip(title, value)
+            return
+
+    def _onLoading(self, *args, **kwargs):
+        super(DeconstructMultConfirm, self)._onLoading(*args, **kwargs)
+        self._update()
+        self.__initBalance()
+        g_clientUpdateManager.addMoneyCallback(self.__onMoneyUpdated)
+        if self.upgradeModulePair:
+            _item, _ = self.upgradeModulePair
+            self.viewModel.setDialogType(ActionDialogType.UPGRADE)
+            self.viewModel.setDeviceName(_item.name)
+            upgradePrice = _item.getUpgradePrice(self.itemsCache.items).price
+            self.viewModel.setEquipUpgradeCost(upgradePrice.equipCoin)
+            confirmButton = R.strings.dialogs.equipmentDeconstruction.confirmAndUpgradeButton()
+        else:
+            self.viewModel.setDialogType(ActionDialogType.DECONSTRUCT)
+            confirmButton = R.strings.dialogs.equipmentDeconstruction.confirmButton()
+        self.addButton(getConfirmButton(CustomSoundButtonPresenter, label=confirmButton, soundClick=_SUBMIT_CLICK_SOUND))
+        self.addButton(CancelButton(R.strings.dialogs.equipmentUpgrade.cancelButton()))
+        self.viewModel.onClose += self._closeClickHandler
+        return
+
+    def _finalize(self):
+        self.viewModel.onClose -= self._closeClickHandler
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        super(DeconstructMultConfirm, self)._finalize()
+        return
+
+    def _sortItemsKey(self, item):
+        itemCD, _ = item
+        item = self.itemsCache.items.getItemByCD(itemCD)
+        return (-item.level, item.userName)
+
+    def _update(self):
+        self._storageProvider.updateItems()
+        self._onVehicleProvider.updateItems()
+        with self.viewModel.transaction() as model:
+            totalCount = sum(item.inventoryCount for item in self._storageProvider.getItems()) + len(self._onVehicleProvider.getItems())
+            totalIncome = self._storageProvider.getTotalPrice(self.ctx) + self._onVehicleProvider.getTotalPrice(self.ctx)
+            model.setDeconstructingEquipCoinsAmount(totalIncome.equipCoin)
+            storageCount = self.updateArray(model.getInventoryEquipment(), self.storageItems, True)
+            vehicleCount = self.updateArray(model.getVehicleEquipment(), self.vehicleItems)
+            countLeft = totalCount - (storageCount + vehicleCount)
+            model.setIsLastVehicleEquipment(countLeft == 0)
+        return
+
+    def __initBalance(self):
+        initBalance(self.viewModel.getBalance(), (Currency.EQUIP_COIN,), self.itemsCache)
+        return
+
+    def __onMoneyUpdated(self, _):
+        self.__initBalance()
+        return
+
+
+class DeconstructConfirm(DialogTemplateView):
+    __slots__ = (b'__device', b'__currency', b'__fromVehicle', b'__curCount')
+    LAYOUT_ID = R.views.lobby.tanksetup.dialogs.ConfirmActionsWithEquipmentDialog()
+    VIEW_MODEL = ConfirmActionsWithEquipmentDialogModel
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, itemIntCD, fromVehicle=False):
+        super(DeconstructConfirm, self).__init__()
+        self.__device = self.__itemsCache.items.getItemByCD(itemIntCD)
+        self.__currency = self.__device.sellPrices.itemPrice.price.getCurrency(byWeight=True)
+        self.__fromVehicle = fromVehicle
+        self.__curCount = (fromVehicle or self.__device).inventoryCount if 1 else 1
+        return
+
+    @property
+    def viewModel(self):
+        return super(DeconstructConfirm, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(DeconstructConfirm, self)._onLoading(*args, **kwargs)
+        self.__fillModel()
+        self.__addListeners()
+        return
+
+    def _finalize(self):
+        self.__removeListeners()
+        super(DeconstructConfirm, self)._finalize()
+        return
+
+    def _getAdditionalData(self):
+        return self.__curCount
+
+    def __fillModel(self):
+        initBalance(self.viewModel.getBalance(), (self.__currency,), self.__itemsCache)
+        baseAlert = R.strings.tank_setup.dialogs.confirmActionsWithEquipmentDialog
+        alertText = backport.text(baseAlert.warningEnabled() if self.__getOptDevicesRestoreState() else baseAlert.warningDisabled())
+        dialogType = LocationDialogType.DECONSTRUCTFROMSLOTS if self.__fromVehicle else LocationDialogType.DECONSTRUCTFROMSTORAGE
+        initItemInfo(self.viewModel, self.__device, self.__currency, dialogType, alertText)
+        return
+
+    def __addListeners(self):
+        g_clientUpdateManager.addMoneyCallback(self.__onMoneyUpdated)
+        self.viewModel.onDeconstruct += self.__onDeconstruct
+        self.viewModel.onClose += self.__onClose
+        self.__lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChange
+        return
+
+    def __removeListeners(self):
+        self.viewModel.onDeconstruct -= self.__onDeconstruct
+        self.viewModel.onClose -= self.__onClose
+        self.__lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChange
+        g_clientUpdateManager.removeObjectCallbacks(self)
+        return
+
+    def __onDeconstruct(self, count):
+        self.__curCount = count.get(b'count', 1)
+        self._setResult(DialogButtons.SUBMIT)
+        return
+
+    def __onClose(self, *args, **kwargs):
+        self._setResult(DialogButtons.CANCEL)
+        return
+
+    def __onMoneyUpdated(self, _):
+        initBalance(self.viewModel.getBalance(), (self.__currency,), self.__itemsCache)
+        return
+
+    def __onServerSettingsChange(self, diff):
+        if OPT_DEVICES_RESTORE_SETTING in diff:
+            self.__fillModel()
+        return
+
+    def __getOptDevicesRestoreState(self):
+        return self.__lobbyContext.getServerSettings().isOptionalDeviceRestoreEnabled()

@@ -1,0 +1,675 @@
+import weakref, random, BigWorld, GenericComponents
+from visual_script.block import Block, InitParam, buildStrKeysValue
+from visual_script.slot_types import SLOT_TYPE
+from visual_script.misc import ASPECT, EDITOR_TYPE, errorVScript
+from visual_script.tunable_event_block import TunableEventBlock
+from skeletons.gui.battle_session import IBattleSessionProvider
+from visual_script.vehicle_blocks import VehicleMeta
+from visual_script.vehicle_blocks_bases import NoCrewCriticalBase, OptionalDevicesBase, VehicleClassBase, GunTypeInfoBase, VehicleForwardSpeedBase, VehicleCooldownEquipmentBase, VehicleClipFullAndReadyBase, GetTankOptDevicesHPModBase, IsInHangarBase, VehicleRadioDistanceBase, NoInnerDeviceDamagedBase
+from visual_script_client.vehicle_common import TunableVehicleEventBlock
+from constants import IS_VS_EDITOR
+from PlayerEvents import g_playerEvents
+from visual_script.dependency import dependencyImporter
+helpers, dependency = dependencyImporter(b'helpers', b'helpers.dependency')
+if not IS_VS_EDITOR:
+    from helpers import dependency, isPlayerAccount
+    from skeletons.gui.shared import IItemsCache
+
+class GetVehicleLabel(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(GetVehicleLabel, self).__init__(*args, **kwargs)
+        self._vehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._label = self._makeDataOutputSlot(b'label', SLOT_TYPE.STR, self._getLabel)
+        return
+
+    def _getLabel(self):
+        vehicle = self._vehicle.getValue()
+        label = vehicle.label if hasattr(vehicle, b'label') else None
+        if label is None:
+            label = b''
+        self._label.setValue(label)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnAnyVehicleDestroyed(TunableEventBlock, VehicleMeta):
+    _EVENT_SLOT_NAMES = [
+     b'onDestroyed']
+
+    def __init__(self, *args, **kwargs):
+        super(OnAnyVehicleDestroyed, self).__init__(*args, **kwargs)
+        self._target = self._makeDataOutputSlot(b'target', SLOT_TYPE.VEHICLE, None)
+        self._attacker = self._makeDataOutputSlot(b'attacker', SLOT_TYPE.VEHICLE, None)
+        return
+
+    @classmethod
+    def blockIcon(cls):
+        return b':vse/blocks/arena_event'
+
+    def onStartScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleKilled += self.__onVehicleKilled
+        else:
+            errorVScript(self, b'can not subscribe on event')
+        return
+
+    def onFinishScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleKilled -= self.__onVehicleKilled
+        return
+
+    @TunableEventBlock.eventProcessor
+    def __onVehicleKilled(self, targetID, attackerID, equipmentID, reason, numVehiclesAffected):
+        target = BigWorld.entities.get(targetID)
+        if target:
+            self._target.setValue(weakref.proxy(BigWorld.entities.get(targetID)))
+        else:
+            self._target.setValue(None)
+        if attackerID > 0:
+            attacker = BigWorld.entities.get(attackerID)
+            if attacker:
+                attacker = weakref.proxy(BigWorld.entities.get(attackerID))
+                self._attacker.setValue(attacker)
+            else:
+                self._attacker.setValue(None)
+        else:
+            self._attacker.setValue(None)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnAnyVehicleDamaged(TunableEventBlock, VehicleMeta):
+    _EVENT_SLOT_NAMES = [
+     b'onDamaged']
+
+    def __init__(self, *args, **kwargs):
+        super(OnAnyVehicleDamaged, self).__init__(*args, **kwargs)
+        self._target = self._makeDataOutputSlot(b'target', SLOT_TYPE.VEHICLE, None)
+        self._attacker = self._makeDataOutputSlot(b'attacker', SLOT_TYPE.VEHICLE, None)
+        self._damage = self._makeDataOutputSlot(b'damage', SLOT_TYPE.INT, None)
+        return
+
+    @classmethod
+    def blockIcon(cls):
+        return b':vse/blocks/arena_event'
+
+    def onStartScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleHealthChanged += self.__onDamageReceived
+        else:
+            errorVScript(self, b'can not subscribe on event')
+        return
+
+    def onFinishScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleHealthChanged -= self.__onDamageReceived
+        return
+
+    @TunableEventBlock.eventProcessor
+    def __onDamageReceived(self, vehicleId, attackerId, damage):
+        self._damage.setValue(damage)
+        vehicle = BigWorld.entities.get(vehicleId)
+        if vehicle:
+            self._target.setValue(weakref.proxy(vehicle))
+        else:
+            self._damage.setValue(None)
+            self._target.setValue(None)
+        if attackerId > 0:
+            attacker = BigWorld.entities.get(attackerId)
+            if attacker:
+                attacker = weakref.proxy(BigWorld.entities.get(attackerId))
+                self._attacker.setValue(attacker)
+            else:
+                self._attacker.setValue(None)
+        else:
+            self._attacker.setValue(None)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnAnyVehicleShoot(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(OnAnyVehicleShoot, self).__init__(*args, **kwargs)
+        self._out = self._makeEventOutputSlot(b'out')
+        self._gunIndex = self._makeDataOutputSlot(b'gunIndex', SLOT_TYPE.INT, None)
+        self._outVehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, None)
+        return
+
+    def onStartScript(self):
+        g_playerEvents.onShowShooterTracer += self.__onShotEvent
+        return
+
+    def onFinishScript(self):
+        g_playerEvents.onShowShooterTracer -= self.__onShotEvent
+        return
+
+    def __onShotEvent(self, shooterEntity, gunIndex):
+        self._gunIndex.setValue(gunIndex)
+        self._outVehicle.setValue(weakref.proxy(shooterEntity))
+        self._out.call()
+        return
+
+
+class OnVehicleEngineStateChange(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(OnVehicleEngineStateChange, self).__init__(*args, **kwargs)
+        self._vehicle = None
+        self._inVehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._out = self._makeEventOutputSlot(b'out')
+        self._outPowerMode = self._makeDataOutputSlot(b'engineState', SLOT_TYPE.INT, None)
+        return
+
+    def onStartScript(self):
+        self._vehicle = self._inVehicle.getValue()
+        if self._vehicle:
+            self._vehicle.onEngineStateChange += self.__onEngineStateChange
+        return
+
+    def onFinishScript(self):
+        if self._vehicle and not self._vehicle.isDestroyed:
+            self._vehicle.onEngineStateChange -= self.__onEngineStateChange
+        return
+
+    def __onEngineStateChange(self, engineState):
+        self._outPowerMode.setValue(engineState[0])
+        self._out.call()
+        return
+
+
+class OnOverturnLevelUpdated(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(OnOverturnLevelUpdated, self).__init__(*args, **kwargs)
+        self._out = self._makeEventOutputSlot(b'out')
+        self._outVehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, None)
+        self._level = self._makeDataOutputSlot(b'level', SLOT_TYPE.INT, None)
+        return
+
+    def onStartScript(self):
+        g_playerEvents.onOverturnLevelUpdated += self.__onOverturnEvent
+        return
+
+    def onFinishScript(self):
+        g_playerEvents.onOverturnLevelUpdated -= self.__onOverturnEvent
+        return
+
+    def __onOverturnEvent(self, overturnVehicle, level):
+        self._outVehicle.setValue(weakref.proxy(BigWorld.entities[overturnVehicle]))
+        self._level.setValue(level)
+        self._out.call()
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class IsVehicleOverturned(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(IsVehicleOverturned, self).__init__(*args, **kwargs)
+        self._res = self._makeDataOutputSlot(b'isVehicleOverturned', SLOT_TYPE.BOOL, self._exec)
+        return
+
+    def _exec(self):
+        avatar = BigWorld.player()
+        self._res.setValue(avatar.isVehicleOverturned)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnUnderWaterSwitch(TunableVehicleEventBlock, VehicleMeta):
+    _EVENT_SLOT_NAMES = [
+     b'onUnderWaterSwitch']
+
+    def __init__(self, *args, **kwargs):
+        super(OnUnderWaterSwitch, self).__init__(*args, **kwargs)
+        self._isUnderWater = self._makeDataOutputSlot(b'isUnderWater', SLOT_TYPE.BOOL, None)
+        return
+
+    @staticmethod
+    def event(vehicle):
+        return vehicle.onUnderWaterSwitch
+
+    @TunableEventBlock.eventProcessor
+    def _onEvent(self, isUnderWater):
+        self._isUnderWater.setValue(isUnderWater)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class IsUnderwater(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(IsUnderwater, self).__init__(*args, **kwargs)
+        self._inVehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._res = self._makeDataOutputSlot(b'isUnderwater', SLOT_TYPE.BOOL, self._exec)
+        return
+
+    def _exec(self):
+        self._res.setValue(self._inVehicle.getValue().appearance.isUnderwater)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnGunReloadTimeSet(Block, VehicleMeta):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, *args, **kwargs):
+        super(OnGunReloadTimeSet, self).__init__(*args, **kwargs)
+        self._out = self._makeEventOutputSlot(b'out')
+        return
+
+    def onStartScript(self):
+        self.__sessionProvider.shared.ammo.onGunReloadTimeSet += self.__onGunReloadTimeSet
+        return
+
+    def onFinishScript(self):
+        self.__sessionProvider.shared.ammo.onGunReloadTimeSet -= self.__onGunReloadTimeSet
+        return
+
+    def __onGunReloadTimeSet(self, currShellCD, state, skipAutoLoader):
+        self._out.call()
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GetGunReloadTime(Block, VehicleMeta):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self, *args, **kwargs):
+        super(GetGunReloadTime, self).__init__(*args, **kwargs)
+        self._gunReloadTime = self._makeDataOutputSlot(b'gunReloadTime', SLOT_TYPE.FLOAT, self._exec)
+        self._baseGunReloadTime = self._makeDataOutputSlot(b'baseGunReloadTime', SLOT_TYPE.FLOAT, self._exec)
+        self._clipInterval = self._makeDataOutputSlot(b'clipInterval', SLOT_TYPE.FLOAT, self._exec)
+        return
+
+    def _exec(self):
+        ammoCtrl = self.__sessionProvider.shared.ammo
+        reloadState = ammoCtrl.getGunReloadingState()
+        self._gunReloadTime.setValue(reloadState.getTimeLeft())
+        self._baseGunReloadTime.setValue(reloadState.getBaseValue())
+        self._clipInterval.setValue(ammoCtrl.getGunSettings().getClipInterval())
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class IsVehicleBurning(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(IsVehicleBurning, self).__init__(*args, **kwargs)
+        self._vehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._res = self._makeDataOutputSlot(b'res', SLOT_TYPE.BOOL, self._exec)
+        return
+
+    def _exec(self):
+        v = self._vehicle.getValue()
+        self._res.setValue(v.isOnFire())
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class NoCrewCritical(NoCrewCriticalBase):
+
+    def _execute(self):
+        self._outSlot.setValue(True)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class NoInnerDeviceDamaged(NoInnerDeviceDamagedBase):
+
+    def _execute(self):
+        self._outSlot.setValue(True)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OptionalDevices(OptionalDevicesBase):
+
+    def _execute(self):
+        self._outSlot.setValue([])
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GetTankOptDevicesHPMod(GetTankOptDevicesHPModBase):
+
+    def _execute(self):
+        self._outSlot.setValue(1.0)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class VehicleClass(VehicleClassBase):
+
+    def _execute(self):
+        if isPlayerAccount():
+            from CurrentVehicle import g_currentVehicle
+            itemsCache = dependency.instance(IItemsCache)
+            vehicle = self._vehicle.getValue()
+            vehId = vehicle.vehicleID
+            if g_currentVehicle.item and g_currentVehicle.item.descriptor.type.compactDescr == vehId:
+                vehicle = g_currentVehicle.item
+            else:
+                vehicle = itemsCache.items.getItemByCD(vehId)
+            self._outSlot.setValue(next(iter(vehicle.type)))
+        else:
+            self._outSlot.setValue(b'')
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GunTypeInfo(GunTypeInfoBase):
+
+    def _execute(self):
+        self._outSlot.setValue([])
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class VehicleForwardSpeed(VehicleForwardSpeedBase):
+
+    def _execute(self):
+        self._outSlot.setValue(0.0)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class VehicleCooldownEquipment(VehicleCooldownEquipmentBase):
+
+    def _execute(self):
+        if isPlayerAccount():
+            from CurrentVehicle import g_currentVehicle
+            itemsCache = dependency.instance(IItemsCache)
+            vehicle = self._vehicle.getValue()
+            vehIntId = vehicle.vehicleID
+            if g_currentVehicle.item and g_currentVehicle.item.descriptor.type.compactDescr == vehIntId:
+                vehicle = g_currentVehicle.item
+            else:
+                vehicle = itemsCache.items.getItemByCD(vehIntId)
+            eqs = vehicle.getCooldownEquipment()
+            self._outSlot.setValue(eqs)
+        else:
+            self._outSlot.setValue([])
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class VehicleClipFullAndReady(VehicleClipFullAndReadyBase):
+
+    def _execute(self):
+        self._outSlot.setValue(True)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GetNearestAliveVehicle(Block, VehicleMeta):
+    _settingTypes = [
+     b'Ally', b'Enemy', b'Any']
+
+    @classmethod
+    def initParams(cls):
+        return [
+         InitParam(b'Vehicle Team', SLOT_TYPE.STR, buildStrKeysValue(*cls._settingTypes), EDITOR_TYPE.STR_KEY_SELECTOR)]
+
+    def __init__(self, *args, **kwargs):
+        super(GetNearestAliveVehicle, self).__init__(*args, **kwargs)
+        self._settingType, = self._getInitParams()
+        self._position = self._makeDataInputSlot(b'position', SLOT_TYPE.VECTOR3)
+        self._vehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, self._execute)
+        return
+
+    def __checkVehicle(self, vehicle):
+        player = BigWorld.player()
+        if not hasattr(vehicle, b'isStarted') or not vehicle.isStarted or not vehicle.isAlive():
+            return False
+        if player.vehicle and vehicle.id == player.vehicle.id:
+            return False
+        if self._settingType == b'Ally':
+            return vehicle.publicInfo.team == player.team
+        if self._settingType == b'Enemy':
+            return vehicle.publicInfo.team != player.team
+        return True
+
+    def _execute(self):
+        player = BigWorld.player()
+        vehicles = (v for v in player.vehicles if self.__checkVehicle(v))
+        vehicle = None
+        minDist = 99999
+        for v in vehicles:
+            dist = player.vehicle.position.distTo(v.position)
+            if dist < minDist:
+                vehicle = v
+                minDist = dist
+
+        self._vehicle.setValue(weakref.proxy(vehicle) if vehicle else None)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GetAnyVehicle(Block, VehicleMeta):
+    _settingTypes = [
+     b'Ally', b'Enemy', b'Any']
+
+    @classmethod
+    def initParams(cls):
+        return [
+         InitParam(b'Vehicle Team', SLOT_TYPE.STR, buildStrKeysValue(*cls._settingTypes), EDITOR_TYPE.STR_KEY_SELECTOR)]
+
+    def __init__(self, *args, **kwargs):
+        super(GetAnyVehicle, self).__init__(*args, **kwargs)
+        self._settingType, = self._getInitParams()
+        self._vehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, self._execute)
+        return
+
+    def __checkVehicle(self, vehicle):
+        player = BigWorld.player()
+        if not hasattr(vehicle, b'isStarted') or not vehicle.isStarted or not vehicle.isAlive():
+            return False
+        if player.vehicle and vehicle.id == player.vehicle.id:
+            return False
+        if self._settingType == b'Ally':
+            return vehicle.publicInfo.team == player.team
+        if self._settingType == b'Enemy':
+            return vehicle.publicInfo.team != player.team
+        return True
+
+    def _execute(self):
+        player = BigWorld.player()
+        vehicles = [v for v in player.vehicles if self.__checkVehicle(v)]
+        vehicle = random.choice(vehicles) if vehicles else None
+        self._vehicle.setValue(weakref.proxy(vehicle) if vehicle else None)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class GameObjectToVehicle(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(GameObjectToVehicle, self).__init__(*args, **kwargs)
+        self._go = self._makeDataInputSlot(b'gameObject', SLOT_TYPE.GAME_OBJECT)
+        self._vehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, self._exec)
+        return
+
+    def _exec(self):
+        go = self._go.getValue()
+        if go is None:
+            errorVScript(self, b'Please check input game object.')
+            return
+        else:
+            goSyncComponent = go.findComponentByType(GenericComponents.EntityGOSync)
+            if goSyncComponent is None:
+                errorVScript(self, b"Can't find associated entity. Please check input game object")
+                return
+            self._vehicle.setValue(weakref.proxy(goSyncComponent.entity))
+            return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class IsInHangar(IsInHangarBase):
+
+    def _execute(self):
+        self._outSlot.setValue(isPlayerAccount())
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class VehicleRadioDistance(VehicleRadioDistanceBase):
+
+    def _execute(self):
+        self._outSlot.setValue(256.0)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class BattleGetVehicleInsigniaRank(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(BattleGetVehicleInsigniaRank, self).__init__(*args, **kwargs)
+        self._vehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._insigniaRank = self._makeDataOutputSlot(b'insigniaRank', SLOT_TYPE.INT, self._exec)
+        return
+
+    def _exec(self):
+        vehicle = self._vehicle.getValue()
+        if vehicle is None:
+            errorVScript(self, b'Vehicle object is invalid.')
+            self._insigniaRank.setValue(0)
+            return
+        else:
+            insigniaRank = vehicle.publicInfo[b'marksOnGun']
+            self._insigniaRank.setValue(insigniaRank)
+            return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class HangarGetVehicleInsigniaRank(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(HangarGetVehicleInsigniaRank, self).__init__(*args, **kwargs)
+        self._vehicleObject = self._makeDataInputSlot(b'hangarVehicleObject', SLOT_TYPE.GAME_OBJECT)
+        self._insigniaRank = self._makeDataOutputSlot(b'insigniaRank', SLOT_TYPE.INT, self._exec)
+        return
+
+    def _exec(self):
+        vehicleObject = self._vehicleObject.getValue()
+        if vehicleObject is None:
+            errorVScript(self, b'GameObject is invalid.')
+            self._insigniaRank.setValue(0)
+            return
+        else:
+            entityGoSync = vehicleObject.findComponentByType(GenericComponents.EntityGOSync)
+            if entityGoSync is None or entityGoSync.entity is None or entityGoSync.entity.appearance is None:
+                errorVScript(self, b'Could not find vehicle entity, associated with gameObject')
+                self._insigniaRank.setValue(0)
+                return
+            insigniaRank = entityGoSync.entity.appearance.getThisVehicleDossierInsigniaRank()
+            self._insigniaRank.setValue(insigniaRank)
+            return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.HANGAR]
+
+
+class OnVehicleAutoShootStateChange(Block, VehicleMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(OnVehicleAutoShootStateChange, self).__init__(*args, **kwargs)
+        self._vehicle = None
+        self._inVehicle = self._makeDataInputSlot(b'vehicle', SLOT_TYPE.VEHICLE)
+        self._out = self._makeEventOutputSlot(b'out')
+        self._outAutoShootState = self._makeDataOutputSlot(b'autoShootState', SLOT_TYPE.INT, None)
+        return
+
+    def onStartScript(self):
+        self._vehicle = self._inVehicle.getValue()
+        if self._vehicle:
+            self._vehicle.onAutoShootStateChange += self.__onAutoShootStateChange
+        return
+
+    def onFinishScript(self):
+        if self._vehicle and not self._vehicle.isDestroyed:
+            self._vehicle.onAutoShootStateChange -= self.__onAutoShootStateChange
+        return
+
+    def __onAutoShootStateChange(self, autoShootState):
+        self._outAutoShootState.setValue(autoShootState)
+        self._out.call()
+        return

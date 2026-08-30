@@ -1,0 +1,84 @@
+import logging, CGF, GenericComponents, Vehicular
+from constants import IS_CLIENT
+from cgf_script.component_meta_class import registerComponent, ComponentProperty, CGFMetaTypes
+from cgf_script.managers_registrator import autoregister, onAddedQuery, onRemovedQuery
+if IS_CLIENT:
+    from AutoShootGunController import AutoShootGunController
+else:
+
+    class AutoShootGunController(object):
+        pass
+
+
+_logger = logging.getLogger(__name__)
+
+@registerComponent
+class AutoShootingGunEffect(object):
+    editorTitle = b'Auto Shooting Gun Effect'
+    category = b'Auto Shoot Guns'
+    shot = ComponentProperty(type=CGFMetaTypes.LINK, editorName=b'One Shot', value=CGF.GameObject)
+
+
+@registerComponent
+class AutoShootingGunBurstPixie(object):
+    editorTitle = b'Auto Shooting Gun Burst Pixie'
+    category = b'Auto Shoot Guns'
+    rateFactor = ComponentProperty(type=CGFMetaTypes.FLOAT, editorName=b'Rate factor', value=1.0)
+
+
+@autoregister(presentInAllWorlds=True)
+class AutoShootingGunManager(CGF.ComponentManager):
+
+    @onAddedQuery(CGF.GameObject, AutoShootingGunBurstPixie, GenericComponents.ParticleComponent)
+    def onBurstParticleAdded(self, go, particleConfig, particleComponent):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.addBurstParticleComponent(particleConfig, particleComponent)
+        return
+
+    @onAddedQuery(CGF.GameObject, AutoShootingGunEffect)
+    def onGunEffectAdded(self, go, gunEffect):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.addShotGameObject(gunEffect.shot)
+        return
+
+    @onAddedQuery(CGF.GameObject, Vehicular.GunRecoilAnimator)
+    def onGunRecoilAnimatorAdded(self, go, gunRecoilAnimator):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.addRecoilAnimator(gunRecoilAnimator)
+        return
+
+    @onRemovedQuery(CGF.GameObject, AutoShootingGunBurstPixie, GenericComponents.ParticleComponent)
+    def onBurstParticleRemoved(self, go, particleConfig, particleComponent):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.removeBurstParticleComponent(particleConfig, particleComponent)
+        return
+
+    @onRemovedQuery(CGF.GameObject, AutoShootingGunEffect)
+    def onGunEffectRemoved(self, go, gunEffect):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.removeShotGameObject(gunEffect.shot)
+        return
+
+    @onRemovedQuery(CGF.GameObject, Vehicular.GunRecoilAnimator)
+    def onGunRecoilAnimatorRemoved(self, go, gunRecoilAnimator):
+        hierarchy = CGF.HierarchyManager(go.spaceID)
+        root = hierarchy.getTopMostParent(go)
+        controller = root.findComponentByType(AutoShootGunController)
+        if controller is not None:
+            controller.shootingAnimator.removeRecoilAnimator(gunRecoilAnimator)
+        return

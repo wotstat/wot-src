@@ -1,0 +1,21 @@
+import BigWorld
+from gui.login.social_networks import SOCIAL_NETWORKS
+from LoginView import LoginView
+from login_modes.social_mode import SOCIAL_NETWORK_TO_DOMAIN_MAPPING
+
+class SocialLoginView(LoginView):
+
+    def onRegister(self, host):
+        self._loginMode.doSocialLogin(SOCIAL_NETWORKS.WGNI, host, True)
+        return
+
+    def onLoginBySocial(self, socialNetworkName, serverName):
+        self._loginMode.doSocialLogin(socialNetworkName, serverName, False)
+        return
+
+    def onTextLinkClick(self, socialNetworkName):
+        if socialNetworkName in SOCIAL_NETWORK_TO_DOMAIN_MAPPING:
+            BigWorld.openWebBrowser(SOCIAL_NETWORK_TO_DOMAIN_MAPPING[socialNetworkName])
+            return
+        super(SocialLoginView, self).onTextLinkClick(socialNetworkName)
+        return

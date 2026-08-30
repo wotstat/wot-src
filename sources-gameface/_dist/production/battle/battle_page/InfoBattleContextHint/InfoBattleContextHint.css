@@ -1,0 +1,306 @@
+.FormatText_base_d0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FormatTextWithColorTags_blackReal_3c {
+    color: #000000;
+}
+
+.FormatTextWithColorTags_whiteReal_8a {
+    color: #FFFFFF;
+}
+
+.FormatTextWithColorTags_white_16 {
+    color: #F2F2F7;
+}
+
+.FormatTextWithColorTags_whiteOrange_18 {
+    color: #FEFEEC;
+}
+
+.FormatTextWithColorTags_whiteSpanish_10 {
+    color: #E9E2BF;
+}
+
+.FormatTextWithColorTags_par_ca {
+    color: #8C8C7E;
+}
+
+.FormatTextWithColorTags_parSecondary_8d {
+    color: #595950;
+}
+
+.FormatTextWithColorTags_parTertiary_a3 {
+    color: #37362E;
+}
+
+.FormatTextWithColorTags_red_60 {
+    color: #FF2717;
+}
+
+.FormatTextWithColorTags_redDark_03 {
+    color: #B70000;
+}
+
+.FormatTextWithColorTags_yellow_ad {
+    color: #FEAB34;
+}
+
+.FormatTextWithColorTags_orange_e4 {
+    color: #EE7000;
+}
+
+.FormatTextWithColorTags_cream_cd {
+    color: #FFDD99;
+}
+
+.FormatTextWithColorTags_brown_c8 {
+    color: #CBAC77;
+}
+
+.FormatTextWithColorTags_greenBright_f0 {
+    color: #80D43A;
+}
+
+.FormatTextWithColorTags_green_c5 {
+    color: #7AB300;
+}
+
+.FormatTextWithColorTags_greenDark_af {
+    color: #497212;
+}
+
+.FormatTextWithColorTags_blueBooster_ac {
+    color: #CCFFFF;
+}
+
+.FormatTextWithColorTags_blueTeamkiller_6f {
+    color: #09E2FF;
+}
+
+.FormatTextWithColorTags_cred_4e {
+    color: #CED9D9;
+}
+
+.FormatTextWithColorTags_gold_90 {
+    color: #FFC363;
+}
+
+.FormatTextWithColorTags_bond_71 {
+    color: #C9C9B6;
+}
+
+.FormatTextWithColorTags_prom_dd {
+    color: #A29B70;
+}
+
+.App_base_4e {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.App_video_ef {
+    display: none;
+    width: 240rem;
+    height: 100%;
+    background: rgba(41, 14, 0, 0.8);
+}
+
+.mediaSmall .App_video_ef {
+        display: block;
+}
+
+.App_contentInner_e8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 428rem;
+    height: 135rem;
+    border-radius: 6rem;
+    background: rgba(51, 17, 0, 0.6);
+    opacity: 0;
+    overflow: hidden;
+    animation: App_contentAppearByHeight_e1 390ms forwards ease-out 30ms;
+}
+
+.mediaSmall .App_contentInner_e8 {
+        width: 668rem;
+}
+
+.App_contentInnerClosing_30 {
+    animation: App_contentInnerClose_3e 200ms ease-out forwards;
+}
+
+.App_content_f5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 428rem;
+    height: 135rem;
+    margin-bottom: 80rem;
+    position: relative;
+}
+
+.mediaSmall .App_content_f5 {
+        width: 668rem;
+}
+
+.mediaMedium .App_content_f5 {
+        margin-bottom: 100rem;
+}
+
+.mediaLarge .App_content_f5 {
+        margin-bottom: 150rem;
+}
+
+.mediaExtraLarge .App_content_f5 {
+        margin-bottom: 200rem;
+}
+
+.App_textContainer_a5 {
+    color: #F37A02;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 428rem;
+    height: 100%;
+    padding: 0 32rem 0 48rem;
+}
+
+.App_text_d7 {
+    justify-content: center;
+}
+
+.mediaSmall .App_text_d7 {
+        justify-content: flex-start;
+}
+
+.App_shineLineAnimation_77 {
+    width: 417rem;
+    height: 235rem;
+    background: url('R.images.gui.maps.icons.info_battle_context_hints.shine_line') no-repeat center / cover;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    animation: App_shineSequence_f2 550ms forwards ease-out;
+    pointer-events: none;
+}
+
+.App_lightRedAnimation_2d {
+    width: 1000rem;
+    height: 894rem;
+    background: url('R.images.gui.maps.icons.info_battle_context_hints.light_red') no-repeat center / cover;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    animation: App_flashSequence_0c 550ms forwards ease-out;
+    pointer-events: none;
+}
+
+@keyframes App_shineSequence_f2 {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    14% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    18% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(3.86);
+    }
+
+    59% {
+        opacity: 0.01;
+        transform: translate(-50%, -50%) scale(3.86);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(3.86);
+    }
+}
+
+@keyframes App_flashSequence_0c {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    14% {
+        opacity: 0.01;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    18% {
+        opacity: 0.4;
+        transform: translate(-50%, -50%) scale(0.93);
+    }
+
+    59% {
+        opacity: 0.07;
+        transform: translate(-50%, -50%) scale(1.23);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.23);
+    }
+}
+
+@keyframes App_contentAppearByHeight_e1 {
+    0% {
+        height: 3rem;
+        opacity: 0;
+    }
+
+    12% {
+        height: 3rem;
+        opacity: 0;
+    }
+
+    23% {
+        height: 3rem;
+        opacity: 0.03;
+    }
+
+    61% {
+        height: 135rem;
+        opacity: 0.75;
+    }
+
+    100% {
+        height: 135rem;
+        opacity: 1;
+    }
+}
+
+@keyframes App_contentInnerClose_3e {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(24rem);
+    }
+}
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<triggers>
+		<trigger>CurrentVehicleChangeTrigger
+			<type>current-vehicle-changed</type>
+			<validate-var></validate-var>
+		</trigger>
+		<trigger>ItemsCacheSyncTrigger
+			<type>items-cache-sync</type>
+			<validate-var></validate-var>
+		</trigger>
+	</triggers>
+</root>

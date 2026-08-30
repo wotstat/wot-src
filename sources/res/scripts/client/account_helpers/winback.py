@@ -1,0 +1,17 @@
+import typing, AccountCommands
+if typing.TYPE_CHECKING:
+    from typing import Callable, Optional
+
+class Winback(object):
+
+    def __init__(self, commandsProxy):
+        self.__commandsProxy = commandsProxy
+        return
+
+    def drawWinbackSelectorHintToken(self, callback):
+        if callback is not None:
+            proxy = lambda requestID, resultID, errorStr, ext={}: callback(resultID, errorStr)
+        else:
+            proxy = None
+        self.__commandsProxy.perform(AccountCommands.CMD_DRAW_WINBACK_SELECTOR_HINT_TOKEN, 0, proxy)
+        return

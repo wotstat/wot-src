@@ -1,0 +1,309 @@
+from typing import Optional
+from items.components import component_constants
+from items.components import legacy_stuff
+from items.components import skills_constants
+from items.components.shared_components import I18nComponent
+from items.components.skills_constants import SkillTypeName
+from perks_constants import StubPerkIDs
+
+class BasicSkill(legacy_stuff.LegacyStuff):
+    __slots__ = (b'__name', b'__i18n', b'__icon', b'__vsePerk', b'__uiSettings', b'__tags')
+
+    def __init__(self, name, i18n=None, icon=None, vsePerk=None, uiSettings=None, tags=None):
+        super(BasicSkill, self).__init__()
+        self.__name = name
+        self.__i18n = i18n
+        self.__icon = icon
+        self.__vsePerk = vsePerk
+        self.__uiSettings = uiSettings
+        self.__tags = tags
+        return
+
+    def __repr__(self):
+        return (b'{}({})').format(self.__class__.__name__, self.__name)
+
+    @property
+    def name(self):
+        return self.__name
+
+    @property
+    def i18n(self):
+        return self.__i18n
+
+    @property
+    def userString(self):
+        if self.__i18n is not None:
+            return self.__i18n.userString
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def description(self):
+        if self.__i18n is not None:
+            return self.__i18n.description
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def maxLvlDescription(self):
+        if self.__i18n is not None:
+            return self.__i18n.maxLvlDescription
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def currentLvlDescription(self):
+        if self.__i18n is not None:
+            return self.__i18n.currentLvlDescription
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def altDescription(self):
+        if self.__i18n is not None:
+            return self.__i18n.altDescription
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def altInfo(self):
+        if self.__i18n is not None:
+            return self.__i18n.altInfo
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def alertDescription(self):
+        if self.__i18n is not None:
+            return self.__i18n.alertDescription
+        else:
+            return component_constants.EMPTY_STRING
+            return
+
+    @property
+    def icon(self):
+        return self.__icon
+
+    @property
+    def extensionLessIcon(self):
+        return self.__icon.split(b'.png')[0]
+
+    @property
+    def vsePerk(self):
+        return self.__vsePerk
+
+    @property
+    def kpi(self):
+        if self.uiSettings:
+            return self.uiSettings.kpi
+        return []
+
+    @property
+    def tooltipSection(self):
+        if self.uiSettings:
+            return self.uiSettings.tooltipSection
+        return b'skill'
+
+    def recreate(self, *args):
+        raise NotImplementedError
+        return
+
+    @property
+    def uiSettings(self):
+        return self.__uiSettings
+
+    @property
+    def situational(self):
+        if self.uiSettings:
+            return self.uiSettings.typeName is SkillTypeName.SITUATIONAL
+        return False
+
+    @property
+    def typeName(self):
+        if self.uiSettings:
+            return self.uiSettings.typeName
+        return SkillTypeName.MAIN
+
+    @property
+    def params(self):
+        if self.uiSettings:
+            return self.uiSettings.params
+        return {}
+
+    @property
+    def tags(self):
+        return self.__tags
+
+
+class ExtendedSkill(BasicSkill):
+    __slots__ = (b'_setOfParameters',)
+
+    def __init__(self, basicSkill, *args):
+        super(ExtendedSkill, self).__init__(basicSkill.name, i18n=basicSkill.i18n, icon=basicSkill.icon, vsePerk=basicSkill.vsePerk, uiSettings=basicSkill.uiSettings, tags=basicSkill.tags)
+        self._setOfParameters = args
+        return
+
+    def recreate(self, *args):
+        return self.__class__(BasicSkill(self.name, self.i18n, self.icon, self.vsePerk, self.uiSettings, self.tags), *args)
+
+
+class BrotherhoodSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def crewLevelIncrease(self):
+        return self._setOfParameters[0]
+
+
+class CommanderTutorSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def xpBonusFactorPerLevel(self):
+        return self._setOfParameters[0]
+
+
+class CommanderUniversalistSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def efficiency(self):
+        return self._setOfParameters[0]
+
+
+class CommanderSkillWithDelay(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def turnOnDelay(self):
+        return self._setOfParameters[0]
+
+    @property
+    def turnOffDelay(self):
+        return self._setOfParameters[1]
+
+
+class CommanderEnemyShotPredictor(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def minExplosionRadius(self):
+        return self._setOfParameters[0]
+
+    @property
+    def explosionMultiplier(self):
+        return self._setOfParameters[1]
+
+    @property
+    def recalculatingHeight(self):
+        return self._setOfParameters[2]
+
+    @property
+    def targetRadius(self):
+        return self._setOfParameters[3]
+
+
+class CommonSkill(ExtendedSkill):
+    __slots__ = ()
+
+
+class DriverSmoothDrivingSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def shotDispersionFactorPerLevel(self):
+        return self._setOfParameters[0]
+
+
+class GunnerGunsmithSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def shotDispersionFactorPerLevel(self):
+        return self._setOfParameters[0]
+
+
+class GunnerSniperSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def deviceChanceToHitBoost(self):
+        return self._setOfParameters[0]
+
+
+class RadiomanLastEffortSkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def durationPerLevel(self):
+        return self._setOfParameters[0]
+
+
+class CrewMasterySkill(ExtendedSkill):
+    __slots__ = ()
+
+    @property
+    def crewLevelIncrease(self):
+        return self._setOfParameters[0]
+
+
+class SkillsConfig(legacy_stuff.LegacyStuff):
+    __slots__ = skills_constants.ROLES | skills_constants.ACTIVE_SKILLS | {b'vsePerkToSkill'}
+
+    def __init__(self):
+        self.vsePerkToSkill = {(StubPerkIDs.COMMANDER_UNIVERSALIST): b'commander_universalist', 
+           (StubPerkIDs.RADIOMAN_LAST_EFFORT): b'radioman_lastEffort'}
+        return
+
+    @staticmethod
+    def getNumberOfActiveSkills():
+        return len(skills_constants.ACTIVE_SKILLS)
+
+    def addSkill(self, name, skill):
+        setattr(self, name, skill)
+        vsePerk = skill.vsePerk
+        if vsePerk is not None:
+            self.vsePerkToSkill[vsePerk] = name
+        return
+
+    def getSkill(self, name):
+        return getattr(self, name, BasicSkill(b'unknown'))
+
+
+class SkillLocales(I18nComponent):
+    __slots__ = (b'__maxLvlDescription', b'__currentLvlDescription', b'__altDescription', b'__altInfo', b'__alertDescription')
+
+    def __init__(self, userName=b'', description=b'', maxLvlDescription=b'', currentLvlDescription=b'', altDescription=b'', altInfo=b'', alertDescription=b''):
+        super(SkillLocales, self).__init__(userName, description, description)
+        self.__maxLvlDescription = maxLvlDescription
+        self.__currentLvlDescription = currentLvlDescription
+        self.__altDescription = altDescription
+        self.__altInfo = altInfo
+        self.__alertDescription = alertDescription
+        return
+
+    @property
+    def maxLvlDescription(self):
+        return self.__maxLvlDescription
+
+    @property
+    def currentLvlDescription(self):
+        return self.__currentLvlDescription
+
+    @property
+    def altDescription(self):
+        return self.__altDescription
+
+    @property
+    def altInfo(self):
+        return self.__altInfo
+
+    @property
+    def alertDescription(self):
+        return self.__alertDescription

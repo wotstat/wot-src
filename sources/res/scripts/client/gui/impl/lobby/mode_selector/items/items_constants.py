@@ -1,0 +1,62 @@
+import typing
+from enum import Enum
+from constants import ARENA_BONUS_TYPE
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_columns import ModeSelectorColumns
+from gui.prb_control.settings import PREBATTLE_ACTION_NAME
+DEFAULT_COLUMN = ModeSelectorColumns.COLUMN_2
+DEFAULT_PRIORITY = -1
+DEFAULT_MODE_SETTING = b'default'
+DEFAULT_COLUMN_SETTINGS = {(PREBATTLE_ACTION_NAME.RANDOM): (
+                                  ModeSelectorColumns.COLUMN_0, -1), 
+   (PREBATTLE_ACTION_NAME.EPIC): (
+                                ModeSelectorColumns.COLUMN_2, 20), 
+   (PREBATTLE_ACTION_NAME.COMP7): (
+                                 ModeSelectorColumns.COLUMN_1, 10), 
+   (PREBATTLE_ACTION_NAME.EVENT_BATTLE): (
+                                        ModeSelectorColumns.COLUMN_1, 20), 
+   (PREBATTLE_ACTION_NAME.BATTLE_ROYALE): (
+                                         ModeSelectorColumns.COLUMN_2, 10), 
+   (PREBATTLE_ACTION_NAME.MAPBOX): (
+                                  ModeSelectorColumns.COLUMN_2, 20), 
+   (PREBATTLE_ACTION_NAME.RANKED): (
+                                  ModeSelectorColumns.COLUMN_1, 10), 
+   (PREBATTLE_ACTION_NAME.STRONGHOLDS_BATTLES_LIST): (
+                                                    ModeSelectorColumns.COLUMN_3, 10), 
+   (PREBATTLE_ACTION_NAME.SPEC_BATTLES_LIST): (
+                                             ModeSelectorColumns.COLUMN_3, 20), 
+   (PREBATTLE_ACTION_NAME.TRAININGS_LIST): (
+                                          ModeSelectorColumns.COLUMN_3, 30), 
+   (PREBATTLE_ACTION_NAME.MAPS_TRAINING): (
+                                         ModeSelectorColumns.COLUMN_3, 40), 
+   DEFAULT_MODE_SETTING: (
+                        ModeSelectorColumns.COLUMN_2, 50)}
+modeNamesByArenaBonusType = {(ARENA_BONUS_TYPE.REGULAR): (PREBATTLE_ACTION_NAME.RANDOM), 
+   (ARENA_BONUS_TYPE.EPIC_BATTLE): (PREBATTLE_ACTION_NAME.EPIC), 
+   (ARENA_BONUS_TYPE.COMP7): (PREBATTLE_ACTION_NAME.COMP7), 
+   (ARENA_BONUS_TYPE.EVENT_BATTLES): (PREBATTLE_ACTION_NAME.EVENT_BATTLE), 
+   (ARENA_BONUS_TYPE.BATTLE_ROYALE_SOLO): (PREBATTLE_ACTION_NAME.BATTLE_ROYALE), 
+   (ARENA_BONUS_TYPE.MAPBOX): (PREBATTLE_ACTION_NAME.MAPBOX), 
+   (ARENA_BONUS_TYPE.RANKED): (PREBATTLE_ACTION_NAME.RANKED), 
+   (ARENA_BONUS_TYPE.TRAINING): (PREBATTLE_ACTION_NAME.TRAININGS_LIST), 
+   (ARENA_BONUS_TYPE.MAPS_TRAINING): (PREBATTLE_ACTION_NAME.MAPS_TRAINING), 
+   (ARENA_BONUS_TYPE.TOURNAMENT): (PREBATTLE_ACTION_NAME.SPEC_BATTLES_LIST), 
+   (ARENA_BONUS_TYPE.FORT_BATTLE_2): (PREBATTLE_ACTION_NAME.STRONGHOLDS_BATTLES_LIST)}
+arenaBonusTypeByModeName = {value: key for key, value in modeNamesByArenaBonusType.iteritems()}
+COLUMN_SETTINGS = {}
+
+class ModeSelectorRewardID(Enum):
+    BONES = b'bones'
+    BOUNTY_EQUIPMENT = b'bountyEquipment'
+    CREDITS = b'credits'
+    CREW = b'crew'
+    EXPERIENCE = b'experience'
+    IMPROVED_EQUIPMENT = b'improvedEquipment'
+    OTHER = b'other'
+    STYLE = b'style'
+    PROGRESSION_STYLE = b'progressionStyle'
+    VEHICLE = b'vehicle'
+    STYLE_2D = b'style2D'
+    PRIZE = b'prize'
+    TANKMEN = b'tankmen'
+    LOOTBOX = b'lootbox'
+    DELUXE_EQUIPMENT = b'deluxeEquipment'

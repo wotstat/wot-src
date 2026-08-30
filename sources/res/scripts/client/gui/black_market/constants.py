@@ -1,0 +1,8 @@
+BLACK_MARKET_VEHICLE_START_EVENT_TYPE = b'blackMarketVehicleStageStart'
+BLACK_MARKET_VEHICLE_FINISH_EVENT_TYPE = b'blackMarketVehicleStageFinish'
+BLACK_MARKET_VEHICLE_STAGE_START_SEEN = b'blackMarketVehicleStageStartNotification'
+BLACK_MARKET_VEHICLE_FINISH_STAGE_SEEN = b'blackMarketVehicleStageFinishNotification'
+BLACK_MARKET_START_EVENT_TYPE = b'blackMarketStageStart'
+BLACK_MARKET_FINISH_EVENT_TYPE = b'blackMarketStageFinish'
+BLACK_MARKET_STAGE_START_SEEN = b'blackMarketStageStartNotification'
+BLACK_MARKET_FINISH_STAGE_SEEN = b'blackMarketStageFinishNotification'

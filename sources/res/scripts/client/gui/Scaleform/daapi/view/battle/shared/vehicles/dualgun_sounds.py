@@ -1,0 +1,133 @@
+import SoundGroups, math_utils, BigWorld
+from gui.battle_control.battle_constants import CANT_SHOOT_ERROR
+from helpers.CallbackDelayer import CallbackDelayer
+
+class DualGunSoundEvents(object):
+    CHARGE_FX = b'gun_rld_dual_charge_FX'
+    CHARGE_STARTED = b'gun_rld_dual_charge_start'
+    CHARGE_CANCEL = b'gun_rld_dual_charge_cancel'
+    CHARGE_FAILED = b'gun_rld_dual_charge_fail'
+    CHARGE_PRE = b'gun_rld_dual_charge_pre'
+    RTPC_CHARGE_PROGRESS = b'RTPC_ext_gun_rld_dual_charge_progress'
+    CHARGE_PROGRESS_STOP = b'gun_rld_dual_charge_progress_loop_stop'
+    COOLDOWN_END = b'gun_rld_dual_cooldown_end'
+    NOT_ENOUGH_SHELLS = b'gun_rld_dual_charge_no_enough_shells'
+    WEAPON_CHANGED = b'gun_rld_dual_wpn_change'
+    DAULGUN_RELOAD_SNIPER_SWITCH = b'gun_rld_dual_wpn_switch_sniper_mode'
+    CHARGE_SOUND_FX_LENGTH = 1.0
+    WEAPON_CHANGED_SOUND_LENGTH = 1.0
+
+
+class ChargeSoundRTPCInterpolator(CallbackDelayer):
+
+    def __init__(self, interpolationTime=0.0):
+        super(ChargeSoundRTPCInterpolator, self).__init__()
+        self.__startTime = 0.0
+        self.__totalInterpolationTime = interpolationTime
+        self.enabled = False
+        return
+
+    def enable(self, interpolationTime):
+        self.__totalInterpolationTime = interpolationTime
+        self.__startTime = BigWorld.timeExact()
+        self.delayCallback(0.0, self.__update)
+        self.enabled = True
+        return
+
+    def disable(self):
+        self.__startTime = 0.0
+        self.stopCallback(self.__update)
+        self.stopCallback(self.disable)
+        if self.enabled:
+            SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_PROGRESS_STOP)
+        self.enabled = False
+        return
+
+    def __update(self):
+        currentTime = BigWorld.timeExact()
+        elapsedTime = currentTime - self.__startTime
+        interpolationCoefficient = math_utils.linearTween(elapsedTime, 1.0, self.__totalInterpolationTime)
+        resultValue = int(math_utils.lerp(0, 100, interpolationCoefficient))
+        SoundGroups.g_instance.setRTCPGlobal(DualGunSoundEvents.RTPC_CHARGE_PROGRESS, resultValue)
+        if elapsedTime > self.__totalInterpolationTime:
+            self.delayCallback(0.0, self.disable)
+            return 10.0
+        return 0.0
+
+
+class DualGunSounds(CallbackDelayer):
+
+    def __init__(self):
+        super(DualGunSounds, self).__init__()
+        self.__interpolator = ChargeSoundRTPCInterpolator()
+        return
+
+    def onComponentDisposed(self):
+        self.__interpolator.disable()
+        return
+
+    def onChargeStarted(self, timeLeft):
+        if timeLeft > 0:
+            SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_STARTED)
+            self.__interpolator.enable(timeLeft)
+            timeToStart = timeLeft - DualGunSoundEvents.CHARGE_SOUND_FX_LENGTH
+            if timeToStart > 0:
+                self.delayCallback(timeToStart, self.__runFXSound)
+        return
+
+    def onChargeCanceled(self):
+        if self.__interpolator.enabled:
+            SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_CANCEL)
+            self.__interpolator.disable()
+        self.stopCallback(self.__runFXSound)
+        return
+
+    def onWeaponChanged(self, leftTime):
+        if leftTime > 0:
+            timeToStart = leftTime - DualGunSoundEvents.WEAPON_CHANGED_SOUND_LENGTH
+            if timeToStart > 0:
+                self.delayCallback(timeToStart, self.__runChangeWeaponSound)
+        return
+
+    def onCooldownEnd(self, leftTime):
+        if leftTime > 0:
+            self.delayCallback(leftTime, self.__runCooldownEndSound)
+            self.__interpolator.disable()
+        return
+
+    def onObserverSwitched(self):
+        self.stopCallback(self.__runCooldownEndSound)
+        return
+
+    @staticmethod
+    def onSniperCameraTransition():
+        SoundGroups.g_instance.playSound2D(DualGunSoundEvents.DAULGUN_RELOAD_SNIPER_SWITCH)
+        return
+
+    @staticmethod
+    def onPreChargeStarted():
+        SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_PRE)
+        return
+
+    @staticmethod
+    def onChargeReleased(canShoot, error, canMakeDualShoot):
+        if not canShoot and error == CANT_SHOOT_ERROR.NO_AMMO:
+            SoundGroups.g_instance.playSound2D(DualGunSoundEvents.NOT_ENOUGH_SHELLS)
+        if not canMakeDualShoot:
+            SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_FAILED)
+        return
+
+    @staticmethod
+    def __runFXSound():
+        SoundGroups.g_instance.playSound2D(DualGunSoundEvents.CHARGE_FX)
+        return
+
+    @staticmethod
+    def __runCooldownEndSound():
+        SoundGroups.g_instance.playSound2D(DualGunSoundEvents.COOLDOWN_END)
+        return
+
+    @staticmethod
+    def __runChangeWeaponSound():
+        SoundGroups.g_instance.playSound2D(DualGunSoundEvents.WEAPON_CHANGED)
+        return

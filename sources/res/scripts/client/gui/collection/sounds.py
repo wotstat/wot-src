@@ -1,0 +1,14 @@
+from enum import Enum
+from sound_gui_manager import CommonSoundSpaceSettings
+
+class Sounds(Enum):
+    SPACE = b'collections_space'
+    STATE_PLACE = b'STATE_hangar_place'
+    STATE_PLACE_GARAGE = b'STATE_hangar_place_garage'
+    STATE_PLACE_TASKS = b'STATE_hangar_place_tasks'
+    REWARD_SCREEN = b'bp_reward_screen'
+    MT_BIRTHDAY23_ENTER = b'collections_anniversary13_enter'
+    MT_BIRTHDAY23_EXIT = b'collections_anniversary13_exit'
+
+
+COLLECTIONS_MT_BIRTHDAY23_SOUND_SPACE = CommonSoundSpaceSettings(name=Sounds.SPACE.value, entranceStates={}, exitStates={}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=Sounds.MT_BIRTHDAY23_ENTER.value, exitEvent=Sounds.MT_BIRTHDAY23_EXIT.value)

@@ -1,0 +1,82 @@
+from constants import CURRENT_REALM
+from dossiers2.ui.achievements import BADGES_BLOCK
+from frameworks.wulf import WindowFlags, ViewSettings
+from helpers import dependency
+from gui.impl.gen.view_models.views.lobby.ranked.year_leaderboard_view_model import YearLeaderboardViewModel
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.pub import ViewImpl
+from gui.impl.pub.lobby_window import LobbyNotificationWindow
+from gui.shared.utils import getPlayerName
+from skeletons.gui.game_control import IRankedBattlesController
+from skeletons.gui.shared import IItemsCache
+from skeletons.gui.lobby_context import ILobbyContext
+
+def _extractReward(rewardsData):
+    for block in rewardsData.get(b'dossier', {}).itervalues():
+        for record in block.iterkeys():
+            block, name = record
+            if block == BADGES_BLOCK:
+                return name
+
+    return
+
+
+class YearLeaderboardView(ViewImpl):
+    __slots__ = ()
+    __rankedController = dependency.descriptor(IRankedBattlesController)
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, contentResID, *args):
+        settings = ViewSettings(contentResID)
+        settings.model = YearLeaderboardViewModel()
+        settings.args = args
+        super(YearLeaderboardView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(YearLeaderboardView, self).getViewModel()
+
+    def _initialize(self, _, __, *args, **kwargs):
+        super(YearLeaderboardView, self)._initialize(*args, **kwargs)
+        self.__rankedController.getSoundManager().setOverlayStateOn()
+        return
+
+    def _finalize(self):
+        self.__rankedController.getSoundManager().setOverlayStateOff()
+        super(YearLeaderboardView, self)._finalize()
+        return
+
+    def _onLoading(self, playerPosition, rewardsData, *args, **kwargs):
+        super(YearLeaderboardView, self)._onLoading(*args, **kwargs)
+        defaultBG = R.images.gui.maps.icons.rankedBattles.yearLeaderboardReward.bg_default
+        overrideBG = R.images.gui.maps.icons.rankedBattles.yearLeaderboardReward.dyn(b'bg_' + CURRENT_REALM, defaultBG)
+        with self.viewModel.transaction() as model:
+            model.setPlayerName(getPlayerName())
+            model.setPlayerClan(self.__getClanAbbrev())
+            model.setPositionsTotal(self.__rankedController.getYearLBSize())
+            model.setPosition(playerPosition)
+            model.setRewardId(_extractReward(rewardsData))
+            model.setBgImage(overrideBG())
+        return
+
+    def __getClanAbbrev(self):
+        clanAbbrev = self.__lobbyContext.getClanAbbrev(self.__itemsCache.items.stats.clanInfo)
+        if clanAbbrev is not None:
+            return backport.text(R.strings.ranked_battles.yearLeaderboard.rewardView.clanDescr(), clan=clanAbbrev)
+        else:
+            return b''
+
+
+class YearLeaderboardAwardWindow(LobbyNotificationWindow):
+    __slots__ = (b'__args',)
+
+    def __init__(self, *args):
+        super(YearLeaderboardAwardWindow, self).__init__(content=YearLeaderboardView(R.views.lobby.ranked.YearLeaderboardView(), *args), wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN)
+        self.__args = args
+        return
+
+    def isParamsEqual(self, *args):
+        return self.__args == args

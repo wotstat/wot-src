@@ -1,0 +1,35 @@
+import BigWorld, SoundGroups
+from helpers.CallbackDelayer import CallbackDelayer
+
+class RTPCSoundEvent(CallbackDelayer):
+
+    def __init__(self, rtpcName, startSound, stopSound):
+        super(RTPCSoundEvent, self).__init__()
+        self.rtpcName = rtpcName
+        self.startSound = startSound
+        self.stopSound = stopSound
+        return
+
+    def play(self, duration, startTime=None):
+        if duration <= 0:
+            return
+        startTime = startTime or BigWorld.serverTime()
+        if not self.hasDelayedCallback(self._updateValue):
+            SoundGroups.g_instance.playSound2D(self.startSound)
+        self.delayCallback(0, self._updateValue, duration, startTime)
+        return
+
+    def stop(self):
+        SoundGroups.g_instance.setRTCPGlobal(self.rtpcName, 0)
+        SoundGroups.g_instance.playSound2D(self.stopSound)
+        self.stopCallback(self._updateValue)
+        return
+
+    def _updateValue(self, duration, startTime):
+        elapsedTime = BigWorld.serverTime() - startTime
+        if elapsedTime >= duration:
+            self.stop()
+            return
+        value = elapsedTime / duration * 100.0
+        SoundGroups.g_instance.setRTCPGlobal(self.rtpcName, value)
+        return 0
