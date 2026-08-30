@@ -23,7 +23,10 @@ SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
 GIT_OBJECT_ID_RE = re.compile(r"^(?:[a-f0-9]{40}|[a-f0-9]{64})$")
 SNAPSHOT_ID_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
 LANGUAGE_RE = re.compile(r"^[A-Z]{2}(?:_[A-Z]{2})?$")
-VERSION_XML_COMMIT_RE = re.compile(r"^v\.[0-9]+(?:\.[0-9]+){3} #[0-9]+$")
+VERSION_XML_COMMIT_RE = re.compile(
+    r"^v\.(?P<version>[0-9]+(?:\.[0-9]+){3})"
+    r"(?: [A-Za-z]+(?: [A-Za-z]+)*)? #(?P<build>[0-9]+)$"
+)
 SOURCE_SUFFIXES = frozenset({".po", ".py", ".txt", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
@@ -1160,9 +1163,10 @@ def _commit_subject(source_map: dict[str, PayloadFile]) -> str:
         raise PublicationError(f"cannot parse root version.xml: {error}") from error
     version = root.find("version")
     subject = " ".join(version.text.split()) if version is not None and version.text else ""
-    if not VERSION_XML_COMMIT_RE.fullmatch(subject):
+    match = VERSION_XML_COMMIT_RE.fullmatch(subject)
+    if match is None:
         raise PublicationError(f"root version.xml has an invalid commit version: {subject!r}")
-    return subject.removeprefix("v.")
+    return f"{match.group('version')} #{match.group('build')}"
 
 
 def _data_readme_intro(branch: str, commit_subject: str) -> str:
