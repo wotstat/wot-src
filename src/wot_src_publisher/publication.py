@@ -1169,12 +1169,24 @@ def _commit_subject(source_map: dict[str, PayloadFile]) -> str:
     return f"{match.group('version')} #{match.group('build')}"
 
 
-def _data_readme_intro(branch: str, commit_subject: str) -> str:
+def _status_badge(target: str, branch: str) -> str:
+    endpoint = (
+        "https://img.shields.io/endpoint?"
+        "url=https%3A%2F%2Fwotstat.github.io%2F"
+        f"game-unpack-pipeline%2Fbadges%2F{target}.json"
+    )
+    return f"[![{target} status]({endpoint})]({REPOSITORY_URL}/tree/{branch})"
+
+
+def _data_readme_intro(target: str, branch: str, commit_subject: str) -> str:
     region_rows = "\n".join(
         f"| {client} | [`{data_branch}`]({REPOSITORY_URL}/tree/{data_branch}) |"
         for client, data_branch in REGION_BRANCHES
     )
+    status_badge = _status_badge(target, branch)
     readme = f"""# wot-src • {branch} • {commit_subject}
+
+{status_badge}
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`]({REPOSITORY_URL}/tree/main), а данные каждого клиента — в отдельной региональной ветке.
@@ -1227,7 +1239,7 @@ def _data_readme(
     publisher: str,
     snapshot_id: str,
 ) -> str:
-    return f"""{_data_readme_intro(branch, commit_subject)}
+    return f"""{_data_readme_intro(target, branch, commit_subject)}
 
 ## Текущая публикация
 
