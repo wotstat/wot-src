@@ -229,23 +229,14 @@ msgstr "khi mua:"
 msgid "battlePassBuyView/descr"
 msgstr "Mua Giai đoạn Tiến trình sẽ lập tức mở khóa và cho bạn mọi phần thưởng có trong đó."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Những phần thưởng này sẽ thuộc về bạn sau khi hoàn tất các Giai đoạn sắp tới."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Các phần thưởng sau sẽ thuộc về bạn ứng với Giai đoạn %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Bạn sẽ lập tức nhận các phần thưởng sau"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Các phần thưởng sau sẽ thuộc về bạn ứng với Giai đoạn %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "SẼ ĐƯỢC MỞ KHÓA"
+msgstr "Mở khóa ở các giai đoạn chưa hoàn thành"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "SẼ LẬP TỨC NHẬN ĐƯỢC"
+msgstr "Nhận lập tức"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Kích hoạt Chương GPQS"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elite Circuit"
 
-msgid "chapter/fullName/201"
-msgstr "Buried Time"
+msgid "chapter/fullName/211"
+msgstr "Specialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntman"
 
-msgid "chapter/fullName/203"
-msgstr "Desert Command"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoic"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "BURIED TIME"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNTMAN"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "DESERT COMMAND"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIC"
 
 msgid "chapter/title"
 msgstr "CHƯƠNG %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Nhiệm vụ ×3 XP Kíp lái"
 
 msgid "equipCoinBonus"
 msgstr "Thành phần: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Bộ Phụ tùng 3D"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Chỉ huy"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Khả dụng sau khi hoàn tất mọi Chương. Số Chương đã xong: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Ẵm xe Premium và tùy biến độc quyền."
+msgstr "Khám phá để nhận quà độc và các chi tiết tùy biến có một không hai."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "GPQS: Far Cry đã đến!"
+msgstr "Chương Đặc biệt đã đến!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Mua Giấy phép Ưu tú để lấy thêm hàng xịn!"
@@ -1114,11 +1102,8 @@ msgstr "Giai đoạn %(level)d của Elite Circuit"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "XP cho mỗi thành viên tổ lái của xe %(nation)s được chọn"
 
-msgid "rewardChoice/subTitle"
-msgstr "CHỌN PHẦN THƯỞNG CỦA BẠN"
-
 msgid "rewardChoice/title"
-msgstr "GIẤY PHÉP QUÂN SỰ"
+msgstr "Chọn Quà của mình"
 
 msgid "rewardChoice/titleChapter"
 msgstr "GIẤY PHÉP QUÂN SỰ: CHƯƠNG %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "GIẤY PHÉP QUÂN SỰ: CHƯƠNG %(chapter)s, GIAI ĐOẠN %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Searching the Sands"
+msgid "season/fullName/21"
+msgstr "Grounded"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "SEARCHING THE SANDS"
+msgid "season/fullNameUppercased/21"
+msgstr "GROUNDED"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Tùy chọn Ứng dụng Kỹ thuật"

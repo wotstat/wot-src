@@ -395,9 +395,6 @@ html[lang=th] input {
 .mediaMedium .ResearchPurchaseControl_controls_9dac55a2 {
   min-width: 390rem;
 }
-.ResearchPurchaseControl_controls__rent_35316773 {
-  min-width: 260rem;
-}
 
 .ResearchPurchaseControl_actionButton_d5574927 {
   margin-right: 10rem;
@@ -515,6 +512,22 @@ html[lang=th] input {
 }
 .mediaMedium .ResearchPurchaseControl_experienceBlock__bottomOffset_b7ecf008 {
   margin-bottom: 16rem;
+}
+
+.ResearchPurchaseControl_lootboxLabel_f0f39650 {
+  font-family: DINRoundPro;
+  font-weight: 700;
+}
+[lang=th] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=el] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=vi] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=ja] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=ko] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=zh_tw] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=zh_sg] .ResearchPurchaseControl_lootboxLabel_f0f39650, [lang=zh_cn] .ResearchPurchaseControl_lootboxLabel_f0f39650 {
+  font-family: Warhelios;
+}
+.ResearchPurchaseControl_lootboxLabel_f0f39650 {
+  margin-bottom: 10rem;
+  font-size: 16rem;
+}
+.mediaMedium .ResearchPurchaseControl_lootboxLabel_f0f39650 {
+  margin-bottom: 20rem;
+  font-size: 20rem;
 }/* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
@@ -1078,7 +1091,7 @@ html[lang=th] input {
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_86685469 {
+.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_cf76872, .Background_multiplier_284cda6c {
   position: absolute;
   top: 0;
   right: 0;
@@ -1172,8 +1185,12 @@ html[lang=th] input {
   background-image: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal_limit);
 }
 
-.Background_bpBonus_86685469 {
+.Background_bpBonus_cf76872 {
   background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat right top/contain;
+}
+
+.Background_multiplier_284cda6c {
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.multiplier) no-repeat left top/contain;
 }
 
 .Background_favorite_d98f92cc {
@@ -1629,6 +1646,19 @@ html[lang=th] input {
 }
 .Shell_7ff268b0:hover .Shell_hover_68f02b96 {
   opacity: 1;
+}
+
+.Shell_mechanics_f9de2c44 {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+
+.Shell_mechanic_786bd5df {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+  background: no-repeat center/cover;
 }/* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
@@ -1751,9 +1781,9 @@ html[lang=th] input {
   right: 5rem;
 }
 
-.VehicleModule_mechanic_8c3eaf17 {
-  width: 16rem;
-  height: 16rem;
+.VehicleModule_mechanic_bcc10da6 {
+  width: 20rem;
+  height: 20rem;
   margin-bottom: 2rem;
   background: no-repeat center/cover;
 }
@@ -5461,11 +5491,12 @@ html[lang=th] input {
   font-weight: 500;
 }
 
-.TtcRow_iconContainer_fe7d6ff9 {
+.TtcRow_iconContainer_6fb67cef {
   display: flex;
   align-items: flex-start;
   flex: 1;
   height: 100%;
+  position: relative;
 }
 
 .TtcRow_icon_4cf3eded {
@@ -5481,6 +5512,11 @@ html[lang=th] input {
 }
 .mediaLarge .TtcRow_icon_4cf3eded {
   margin-left: 6rem;
+}
+.TtcRow_icon__overlay_f011559b {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .TtcRow_name_91458529 {

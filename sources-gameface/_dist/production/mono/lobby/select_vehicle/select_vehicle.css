@@ -2175,7 +2175,7 @@ html[lang=th] input {
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_86685469 {
+.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_cf76872, .Background_multiplier_284cda6c {
   position: absolute;
   top: 0;
   right: 0;
@@ -2269,8 +2269,12 @@ html[lang=th] input {
   background-image: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal_limit);
 }
 
-.Background_bpBonus_86685469 {
+.Background_bpBonus_cf76872 {
   background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat right top/contain;
+}
+
+.Background_multiplier_284cda6c {
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.multiplier) no-repeat left top/contain;
 }
 
 .Background_favorite_d98f92cc {

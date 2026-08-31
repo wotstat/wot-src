@@ -136,6 +136,24 @@ msgstr[0] "{{count}} การชนะ"
 msgstr[1] "{{count}} การชนะ"
 msgstr[2] "{{count}} การชนะ"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "มีให้ใน {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "ประสบการณ์การรบ"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "ในการฉลองการกลับมาออกรบของคุณ ทางเราก็มีของพิเศษบางอย่างให้คุณ: {{@ style (color #ede6d9e6)}}โบนัสการวางกำลังใหม่ประจำวัน{{/}}ที่จะเร่งประสบการณ์การรบที่ได้รับในการชนะครั้งแรกของวันด้วยพาหนะแต่ละคัน"
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "ขอต้อนรับกลับสู่เกม ผู้การ!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "โบนัสจะตั้งใหม่ในแต่ละวันใน {{@ style (color #ede6d9e6)}}{{value}}{{/}}"
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "โบนัสการวางกำลังใหม่: มีให้"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "คลิกเพื่อนไปยังรายชื่อพาหนะของคุณ"
 

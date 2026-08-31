@@ -139,15 +139,6 @@ msgstr "มอบให้กับผู้เล่นสำหรับกา
 msgid "15YearsOfService_descr"
 msgstr "คุณได้มาร่วมเล่นเกมนับตั้งแต่ %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "ความสำเร็จกำลังสำรองบัตรผ่านการรบ 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• มอบให้สำหรับการผ่านความก้าวหน้า"
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "มอบให้กับความสำเร็จของคุณในช่วงการเล่นเกม"
-
 msgid "BPReserveAchievement_2"
 msgstr "ความสำเร็จกำลังสำรองบัตรผ่านการรบ 2"
 
@@ -429,6 +420,15 @@ msgstr "• มอบให้กับการผ่านทั้งสา�
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "มอบให้สำหรับความสำเร็จที่คุณได้รับในช่วงบัตรผ่านการรบฤดูกาล XX"
+
+msgid "BattlePassCommonPr_21"
+msgstr "การปะทะที่ลุ่มต่ำ"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• มอบให้กับการผ่านทั้งสามบท"
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "มอบให้สำหรับความสำเร็จที่คุณได้รับในช่วงบัตรผ่านการรบฤดูกาล XXI"
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• ความก้าวหน้าหลักประกอบด้วยด่าน 45 ด่าน"
@@ -1828,6 +1828,48 @@ msgstr "มังกรเงิน"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 9 อันในปีแห่งมังกรในรูปแบบการบุกรุก"
 
+msgid "comp7_6_1"
+msgstr "ประกายคราม"
+
+msgid "comp7_6_1_descr"
+msgstr "มอบให้สำหรับการผ่านชุดภารกิจของฤดูกาลวิหคเพลิงครามในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_bronze"
+msgstr "วิหคเพลิงทองแดง"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 6 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_champion"
+msgstr "แชมป์ปีแห่งวิหคเพลิง"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 15 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_gold"
+msgstr "วิหคเพลิงทอง"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 12 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_iron"
+msgstr "วิหคเพลิงเหล็ก"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 3 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_legend"
+msgstr "ตำนานปีแห่งวิหคเพลิง"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 18 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
+msgid "comp7_6_yearly_silver"
+msgstr "วิหคเพลิงเงิน"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 9 อันในปีแห่งวิหคเพลิงในรูปแบบการบุกรุก"
+
 msgid "conqueror"
 msgstr "ผู้ยึด %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• มอบให้ในการรบแบบสุ่มเท่านั้น"
 
 msgid "huntsman_descr"
-msgstr "ทำลายรถถังเบาข้าศึกทั้ง หมด(อย่างน้อย 3 คัน) ในการรบหนึ่งครั้ง"
+msgstr "ทำลายรถถังเบาข้าศึกทั้ง หมด(อย่างน้อย 2 คัน) ในการรบหนึ่งครั้ง"
 
 msgid "huntsman_heroInfo"
 msgstr "สิบเอก Grigoriy Naydin เป็นผู้บังคับรถถัง BT-7 ในวันที่ 25 มิถุนายน 1941 ใกล้กับเมือง Rudishkyay ใน Lithuania เขาได้ทำลายขบวนยานเกราะของเยอรมันโดยแบ่งเป็นยานเกราะ 15 คัน และปืนลากจูง 10 กระบอกของกองพลน้อยยานเกราะที่ 19 Naydin สามารถต้านทานการรุกคืบของฝ่ายเยอรมันเป็นเวลาสองวันซึ่งทำให้ฝ่ายโซเวียตสามารถตั้งหลักเพื่อป้องกันพื้นที่แถบ Vilnius ได้ จากเหตุการณ์นี้ทำให้ Naydin ได้กลายเป็นวีรบุรุษแห่งสหภาพโซเวียตในเวลาต่อมา"
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "ปฏิบัติภารกิจส่วนตัวสำหรับสหภาพสำเร็จ 15 ภารกิจพร้อมด้วยเกียรติยศ รางวัล: ผลงานชั้นยอด: เหรียญสหภาพ ชั้น III"
 
 msgid "readyForBattleAssault"
-msgstr "ผลงานชั้นยอด: แนวหน้า"
+msgstr "การปฏิบัติการที่ยอดเยี่ยม: แนวหน้าเขต 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "สำหรับการผ่านด่านแนวหน้าทั้งหมดในสมรภูมิเขต 3"
+msgstr "สำหรับการผ่านด่านแนวหน้าทั้งหมดของปฏิบัติการหลักในสมรภูมิเขต 3"
+
+msgid "readyForBattleFossaAssault"
+msgstr "ผลงานชั้นยอด: แนวหน้าฟอซซา"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "สำหรับการผ่านด่านแนวหน้าทั้งหมดของปฏิบัติการฟอซซาในสมรภูมิเขต 3"
+
+msgid "readyForBattleFossaSniper"
+msgstr "ผลงานชั้นยอด: ซุ่มโจมตีฟอซซา"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "สำหรับการผ่านด่านซุ่มโจมตีทั้งหมดของปฏิบัติการฟอซซาในสมรภูมิเขต 3"
+
+msgid "readyForBattleFossaSupport"
+msgstr "ผลงานชั้นยอด: ความช่วยเหลือฟอซซา"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "สำหรับการผ่านด่านช่วยเหลือทั้งหมดของปฏิบัติการฟอซซาในสมรภูมิเขต 3"
 
 msgid "readyForBattleHT"
 msgstr "การปฏิบัติการอย่างยอดเยี่ยม: รถถังหนัก"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "ปฏิบัติภารกิจส่วนตัวสำหรับรถถังหนักจบอย่างมีเกียรติ 15 ภารกิจ รางวัล: เหรียญตราปฏิบัติการปืนอัตตาจรยอดเยี่ยม ชั้น IV"
 
 msgid "readyForBattleSniper"
-msgstr "ผลงานชั้นยอด: ซุ่มโจมตี"
+msgstr "การปฏิบัติการที่ยอดเยี่ยม: ซุ่มโจมตีเขต 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "สำหรับการผ่านด่านซุ่มโจมตีทั้งหมดในสมรภูมิเขต 3"
+msgstr "สำหรับการผ่านด่านซุ่มโจมตีทั้งหมดของปฏิบัติการฟอซซาในสมรภูมิเขต 3"
 
 msgid "readyForBattleSupport"
-msgstr "ผลงานชั้นยอด: ความช่วยเหลือ"
+msgstr "การปฏิบัติการที่ยอดเยี่ยม: การช่วยเหลือเขต 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "สำหรับการผ่านด่านความช่วยเหลือทั้งหมดในสมรภูมิเขต 3"
+msgstr "สำหรับการผ่านด่านช่วยเหลือทั้งหมดของปฏิบัติการฟอซซาในสมรภูมิเขต 3"
 
 msgid "reliableComrade"
 msgstr "คู่หูสงคราม"
@@ -4692,6 +4761,15 @@ msgstr "มอบให้สำหรับการผ่านความก
 
 msgid "wt2025progression_descr"
 msgstr "ผ่านความก้าวหน้ารูปแบบ Waffenträger ทั้งหมด"
+
+msgid "wt2026progression"
+msgstr "ผู้ขี่พายุ"
+
+msgid "wt2026progression_condition"
+msgstr "มอบให้กับการผ่านความก้าวหน้าของ Waffenträger: การกำเนิด 2026 นี่คือเกียรติยศมอบให้กับผู้ที่ยืนหยัดต่อสู้กับเครื่องจักรคิดเองได้เครื่องแรกของ von Krieger ซึ่งก็คือปัญญากระแสไฟฟ้าและตัดทุกสายวงจรที่มันได้ใช้เข้ามายังโลกของเรา"
+
+msgid "wt2026progression_descr"
+msgstr "ผ่านความก้าวหน้าใน Waffenträger: การกำเนิด 2026"
 
 msgid "wtBossWins"
 msgstr "จ้าวแห่งสายฟ้า"

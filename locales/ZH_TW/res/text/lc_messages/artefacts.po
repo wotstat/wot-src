@@ -880,6 +880,12 @@ msgstr "增加履帶導齒數 3 型"
 msgid "gun_balancing_1/name"
 msgstr "炮管平衡（類型 1）"
 
+msgid "gun_balancing_2/name"
+msgstr "炮管平衡（類型 2）"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "炮管改裝（類型 1）"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "懸吊改良（類型 1）"
 msgid "improved_suspension_2/name"
 msgstr "懸吊改良（類型 2）"
 
+msgid "improved_turret_drive_1/name"
+msgstr "改良型炮塔驅動裝置（類型 1）"
+
 msgid "inspire/longDescr"
 msgstr "提升車輛及特定半徑內隊友的乘員表現，為每名乘員的熟練度提供 % 加成。使用此戰鬥儲備的玩家將獲得改善效果。"
 
@@ -1294,6 +1303,9 @@ msgstr "機動性改良系統等級 3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "機動性改良系統等級 3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "炮口消焰器（類型 1）"
+
 msgid "nitro/battleDescr"
 msgstr "暫時將車輛的引擎功率提高 %(enginePowerFactor)s，並將最高速度提高為 %(maxSpeedFactor)s 倍，持續 %(consumeSeconds)s 秒。"
 
@@ -1347,6 +1359,12 @@ msgstr "所選區域將在 {colorTagOpen}%(delay)d 秒{colorTagClose}後遭到�
 
 msgid "poi_artillery_aoe/name"
 msgstr "火炮襲擊"
+
+msgid "poi_illumination_flare/descr"
+msgstr "在短暫延遲後，一枚照明彈將照亮所選區域。其半徑範圍內的敵方車輛將持續被偵察到，且會受到較高的傷害。\n觀測站可在數分鐘後再次佔領。"
+
+msgid "poi_illumination_flare/name"
+msgstr "照明彈"
 
 msgid "poi_radar/descr"
 msgstr "啟用時，所有敵方車輛將持續被偵察到，效果持續 {colorTagOpen}%(duration)d 秒{colorTagClose}。"
@@ -1879,29 +1897,77 @@ msgstr "車身輕量化"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "車身\n輕量化"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "光學鏡防反光鍍膜"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "車頭燈防反光鍍膜"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "光學鏡\n防反光鍍膜"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "車頭燈\n防反光鍍膜"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "外部視覺系統"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "潛望鏡電驅動器"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "外部視覺\n系統"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "潛望鏡\n電驅動器"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "全景三合鏡"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "全景\n三合鏡"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "全景三合鏡"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "狹角觀測裝置"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "狹角\n觀測裝置"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "全新瞄準齒輪"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "全新瞄準齒輪"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "潛望鏡電驅動器"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "潛望鏡\n電驅動器"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "整體耐久性提升"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "整體耐久性\n提升"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "車頭燈防反光鍍膜"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "車頭燈\n防反光鍍膜"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "退彈器調節"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "退彈器調節"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "動力供應重新分配"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "動力供應\n重新分配"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "改良型膛線"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "改良型\n膛線"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "靈敏光學鏡"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "靈敏光學鏡"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "主要結構強化"
@@ -2424,6 +2490,9 @@ msgstr "電流猛擊"
 
 msgid "thunderStrike/shortDescr"
 msgstr "建立一個會產生 %(thunderCount)s 次高頻率電擊的區域。每次電擊會對作用範圍內的所有敵方車輛造成 {whiteSpanish_Open}%(damage)s 血量傷害{whiteSpanish_Close}，並暫時降低其機動性。\n\n*啟用能力至首次電擊間，將有 %(delay)s 秒的延遲。可用「工具包」移除此負面效果。"
+
+msgid "torsion_bars_replace_1/name"
+msgstr "替代扭力桿（類型 1）"
 
 msgid "trappoint/battleDescr"
 msgstr "建立一個區域，使作用範圍內所有敵方車輛的動力特性降低 %(vehicleMaxSpeed)s，且其炮管裝填與瞄準速度降低 %(gunReloadTime)s，持續 %(duration)s 秒。"

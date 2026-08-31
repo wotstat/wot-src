@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import logging
 from functools import partial
 from typing import TYPE_CHECKING
@@ -6,7 +7,7 @@ from GenericComponents import Sequence
 from cgf_components.hangar_camera_manager import HangarCameraSystem
 from cgf_components.pm30_hangar_components import HangarOperationsSystem
 from gui.hangar_cameras.hangar_camera_common import CameraRelatedEvents
-from gui.impl.lobby.personal_missions_30.personal_mission_constants import OperationIDs, CameraNameTemplates, StageAdditions, STAGES_CONFIG, TopCameras, SoundsKeys, SoundsStateKeys
+from gui.impl.lobby.personal_missions_30.personal_mission_constants import CameraNameTemplates, StageAdditions, STAGES_CONFIG, TopCameras, SoundsKeys, SoundsStateKeys
 from gui.impl.lobby.personal_missions_30.personal_mission_constants import StageInfo
 from gui.shared import g_eventBus, EVENT_BUS_SCOPE, events
 from gui.shared.event_dispatcher import showPM30OperationAssemblingVideoWindow
@@ -14,7 +15,7 @@ from helpers import dependency
 from shared_utils import nextTick
 from skeletons.gui.shared.utils import IHangarSpace
 if TYPE_CHECKING:
-    from typing import Optional, Callable
+    from typing import Dict, Optional, Callable
     from cgf_components.pm30_hangar_components import AssemblingStagesComponent
 _logger = logging.getLogger(__name__)
 
@@ -27,6 +28,8 @@ class AssemblingManager(object):
         self.onAssemblingVideoFinished = Event.Event()
         self.onAssemblingAnimationStarted = Event.Event()
         self.onAssemblingAnimationFinished = Event.Event()
+        self.__focused = False
+        self.__isOver3DScene = False
         self.__operationID = None
         self.__currentStage = None
         self.__vehicleGO = None
@@ -38,6 +41,7 @@ class AssemblingManager(object):
         self.__activeComponents = StageInfo(0, 0, set(), set())
         self.__cameraSwitchingCallback = None
         self.__inited = False
+        self.__isRewardAssemblingInProgress = False
         return
 
     def init(self):
@@ -45,6 +49,7 @@ class AssemblingManager(object):
         if cameraManager is not None:
             cameraManager.onCameraSwitched += self.__onCameraSwitched
         self.__inited = True
+        self.__notifyCursorOver3DScene()
         return
 
     @property
@@ -112,6 +117,13 @@ class AssemblingManager(object):
     def switchCameraToStagePosition(self, stageNumber, instantly=False, callback=None):
         cameraName = CameraNameTemplates.STAGE.format(self.__operationID, stageNumber)
         self.__switchByCameraName(cameraName, instantly=instantly, callback=callback)
+        return
+
+    def onFocus(self, focused):
+        self.__focused = focused
+        if not focused:
+            self.__isOver3DScene = False
+        self.__notifyCursorOver3DScene()
         return
 
     def switchCameraToTopPosition(self, topCameraNumber, instantly=False, callback=None):
@@ -199,18 +211,27 @@ class AssemblingManager(object):
         cameraManager = self.getCameraManager()
         if not cameraManager:
             _logger.warning(b'[PM3.0] CameraManager is not found')
-            return
-        topCameras = [
-         CameraNameTemplates.TOP.format(self.__operationID, TopCameras.FIRST),
-         CameraNameTemplates.TOP.format(self.__operationID, TopCameras.SECOND)]
-        return cameraManager.getCurrentCameraName() not in topCameras
+            return None
+        else:
+            topCameras = [
+             CameraNameTemplates.TOP.format(self.__operationID, TopCameras.FIRST),
+             CameraNameTemplates.TOP.format(self.__operationID, TopCameras.SECOND)]
+            return cameraManager.getCurrentCameraName() not in topCameras
 
     def isSwitchingToFreeFarCameraNeeded(self):
         cameraManager = self.getCameraManager()
         if not cameraManager:
             _logger.warning(b'[PM3.0] CameraManager is not found')
-            return
-        return cameraManager.getCurrentCameraName() != CameraNameTemplates.FREE_FAR.format(self.__operationID)
+            return None
+        else:
+            return cameraManager.getCurrentCameraName() != CameraNameTemplates.FREE_FAR.format(self.__operationID)
+
+    def setRewardAssemblingInProgress(self, status):
+        self.__isRewardAssemblingInProgress = status
+        return
+
+    def isRewardAssemblingInProgress(self):
+        return self.__isRewardAssemblingInProgress
 
     def __activateVehicleGO(self):
         if self.__vehicleGO:
@@ -236,7 +257,7 @@ class AssemblingManager(object):
                 freeCameraName = CameraNameTemplates.FREE.format(self.__operationID)
                 if currentCameraName == freeCameraName:
                     self.setHangarProgressionStateOn()
-                elif cameraName == freeCameraName:
+                if cameraName == freeCameraName:
                     self.setHangarProgressionStateOff()
                 if not instantly:
                     SoundGroups.g_instance.playSound2D(SoundsKeys.SWITCH_CAMERA_EVENT)
@@ -245,20 +266,12 @@ class AssemblingManager(object):
 
     def __getVehicleGOForOperation(self, operationID):
         manager = self.getHangarOperationsManager()
-        vehicleGO = None
-        vehicleStagesComponent = None
         if not manager:
             _logger.warning(b'[PM3.0] HangarOperationsManager is not found')
-            return (
-             vehicleGO, vehicleStagesComponent)
+            return (None, None)
         else:
-            if operationID == OperationIDs.OPERATION_FIRST:
-                vehicleGO, vehicleStagesComponent = manager.vehicleForOperation8, manager.stagesComponentForOperation8
-            elif operationID == OperationIDs.OPERATION_SECOND:
-                vehicleGO, vehicleStagesComponent = manager.vehicleForOperation9, manager.stagesComponentForOperation9
-            elif operationID == OperationIDs.OPERATION_THIRD:
-                vehicleGO, vehicleStagesComponent = manager.vehicleForOperation10, manager.stagesComponentForOperation10
-            return (vehicleGO, vehicleStagesComponent)
+            return (
+             manager.getVehicleForOperation(operationID), manager.getStagesForOperation(operationID))
 
     def __setAndActivateVehicleGO(self, vehicleGOForOperation, vehicleStagesComponent, operationID, currentStage):
         self.__vehicleGO, self.__vehicleStagesComponent = vehicleGOForOperation, vehicleStagesComponent
@@ -270,24 +283,26 @@ class AssemblingManager(object):
     def __getStage(self, stageNumber, isFade=False):
         if not self.__vehicleStagesComponent:
             _logger.warning(b'[PM3.0] AssemblingStagesComponent is not found')
-            return
-        stageKey = b'stage_{}_fade' if isFade else b'stage_{}'
-        stage = getattr(self.__vehicleStagesComponent, stageKey.format(stageNumber))
-        if not (stage and stage.valid):
-            if not isFade:
-                _logger.warning(b'[PM3.0] GO for %s is not found or invalid', stageKey.format(stageNumber))
-            return
-        return stage
+            return None
+        else:
+            stageKey = b'stage_{}_fade' if isFade else b'stage_{}'
+            stage = getattr(self.__vehicleStagesComponent, stageKey.format(stageNumber))
+            if not (stage and stage.valid):
+                if not isFade:
+                    _logger.warning(b'[PM3.0] GO for %s is not found or invalid', stageKey.format(stageNumber))
+                return None
+            return stage
 
     def __getStageAddition(self, additionKey):
         if not self.__vehicleStagesComponent:
             _logger.warning(b'[PM3.0] AssemblingStagesComponent is not found')
-            return
-        addition = getattr(self.__vehicleStagesComponent, additionKey)
-        if not (addition and addition.valid):
-            _logger.warning(b'[PM3.0] GO for %s is not found or invalid', additionKey)
-            return
-        return addition
+            return None
+        else:
+            addition = getattr(self.__vehicleStagesComponent, additionKey)
+            if not (addition and addition.valid):
+                _logger.warning(b'[PM3.0] GO for %s is not found or invalid', additionKey)
+                return None
+            return addition
 
     def __activateStages(self, stageNumber):
         stageInfo = STAGES_CONFIG[self.__operationID][stageNumber]
@@ -344,15 +359,16 @@ class AssemblingManager(object):
         stage = CGF.gameObject(spaceID, stageFade)
         if not stage:
             return
-        sequence = stage.findWrite(Sequence)
-        if sequence:
-            self.__hangarOperationsManager.addTimer((b'assemblingAnimation_{}').format(self.__stageNumberForAssembling), sequence.duration, self.__onAnimationFinished)
-            soundEvent = SoundsKeys.PLAY_ANIMATION_EVENT % (self.__operationID, self.__stageNumberForAssembling)
-            SoundGroups.g_instance.playSound2D(soundEvent)
-            queue = CGF.CommandQueue(self.hangarSpace.spaceID)
-            queue.activateGameObject(stageFade)
-            sequence.start()
-        return
+        else:
+            sequence = stage.findWrite(Sequence)
+            if sequence:
+                self.__hangarOperationsManager.addTimer((b'assemblingAnimation_{}').format(self.__stageNumberForAssembling), sequence.duration, self.__onAnimationFinished)
+                soundEvent = SoundsKeys.PLAY_ANIMATION_EVENT % (self.__operationID, self.__stageNumberForAssembling)
+                SoundGroups.g_instance.playSound2D(soundEvent)
+                queue = CGF.CommandQueue(self.hangarSpace.spaceID)
+                queue.activateGameObject(stageFade)
+                sequence.start()
+            return
 
     def __deactivateStageFade(self):
         if self.__stageFade and self.__stageFade.valid:
@@ -390,7 +406,11 @@ class AssemblingManager(object):
             g_eventBus.handleEvent(CameraRelatedEvents(CameraRelatedEvents.LOBBY_VIEW_MOUSE_MOVE, ctx=ctx), EVENT_BUS_SCOPE.GLOBAL)
             return
 
-    @staticmethod
-    def __onMouseOver3dScene(args):
-        g_eventBus.handleEvent(events.LobbySimpleEvent(events.LobbySimpleEvent.NOTIFY_CURSOR_OVER_3DSCENE, ctx={b'isOver3dScene': (bool(args.get(b'isOver3dScene')))}))
+    def __onMouseOver3dScene(self, args):
+        self.__isOver3DScene = bool(args.get(b'isOver3dScene'))
+        self.__notifyCursorOver3DScene()
+        return
+
+    def __notifyCursorOver3DScene(self):
+        g_eventBus.handleEvent(events.LobbySimpleEvent(events.LobbySimpleEvent.NOTIFY_CURSOR_OVER_3DSCENE, ctx={b'isOver3dScene': (self.__isOver3DScene and self.__focused)}))
         return

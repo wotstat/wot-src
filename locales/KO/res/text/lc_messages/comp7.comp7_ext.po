@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "%(serverName)s 서버 해당 모드 이용 불가"
 
 msgid "alertMessage/preannounce/first"
-msgstr "하늘색 드래곤 시즌 시작: %(date)s"
+msgstr "하늘색 피닉스 시즌 시작: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "진홍색 드래곤 시즌 시작: %(date)s"
+msgstr "진홍색 피닉스 시즌 시작: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "비취색 드래곤 시즌 시작: %(date)s"
+msgstr "비취색 피닉스 시즌 시작: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "랭크 배정을 위해 사전 평가 결과 산출 중"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "하늘색 드래곤 시즌 종료"
+msgstr "하늘색 피닉스 시즌 종료"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "진홍색 드래곤 시즌 종료"
+msgstr "진홍색 피닉스 시즌 종료"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "비취색 드래곤 시즌 종료"
+msgstr "비취색 피닉스 시즌 종료"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "해당 서버 %(primeDelta)s 후 전투 참여 가능"
@@ -253,6 +253,9 @@ msgstr "전차 성능 향상"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "내구도 회복"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "받는 피해 증가"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "전차 성능 향상"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s~%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "하늘색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[1] "하늘색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[2] "하늘색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[0] "하늘색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[1] "하늘색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[2] "하늘색 피닉스 시즌 종료까지 %(days)d일"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "진홍색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[1] "진홍색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[2] "진홍색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[0] "진홍색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[1] "진홍색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[2] "진홍색 피닉스 시즌 종료까지 %(days)d일"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "비취색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[1] "비취색 드래곤 시즌 종료까지 %(days)d일"
-msgstr[2] "비취색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[0] "비취색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[1] "비취색 피닉스 시즌 종료까지 %(days)d일"
+msgstr[2] "비취색 피닉스 시즌 종료까지 %(days)d일"
 
 msgid "calendarDay/title"
 msgstr "일정"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "능력"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "격전: 드래곤의 해"
+msgstr "격전: 피닉스의 해"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "기본 보유 능력"
@@ -574,11 +577,17 @@ msgstr "확인"
 msgid "intro/description/banPhase"
 msgstr "각 팀은 전투에서 특정 전차의 운용을 금지할 수 있습니다. 아군과 투표를 조율하여 가장 위협적인 전차를 제외하거나 적이 예상치 못한 조합을 준비할 수 있습니다. 자신이 운용하려던 전차가 금지되면 사전 구성 대여 전차 중 하나를 선택할 수 있습니다."
 
+msgid "intro/description/draw"
+msgstr "시간이 종료될 때까지 승패가 가려지지 않으면 생존 전차 수, 기록한 피해량, 선제 격파 여부 등 판정 요소를 순서대로 비교해 승패가 결정됩니다. 양 팀이 모두 피해를 기록하지 못했다면 무승부로 처리됩니다."
+
+msgid "intro/description/nightMaps"
+msgstr "야간 지도에서는 야간 환경, 새로운 관측 지점, 업데이트된 거점, 변경된 탐지 시스템을 통해 익숙한 전장에서 새로운 전투를 펼칠 수 있습니다. 현재 빙하, 샌드 리버, 전초기지, 스텝에서 해당 야간 지도를 이용할 수 있습니다."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "해당 모드에서는 전차 내구도, 소모품 재사용 시간, 전차 발각 유지 시간 등 전차의 특정 성능이 변동됩니다."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "지도 내 거점을 점령하면 전술 기술을 사용할 수 있습니다. 거점은 특정 지역에 포격 지원을 요청할 수 있는 포병 본부와 모든 적 전차를 관측할 수 있는 무전 센터 두 가지로 나누어집니다. 지도에 따라 거점 유무와 위치가 다를 수도 있습니다."
+msgstr "지도 내 특정 거점을 점령하면 전술 기술을 사용할 수 있습니다. 거점은 지정한 위치에 포격을 요청할 수 있는 포병 본부와 모든 적 전차의 위치를 파악할 수 있는 무전 센터 두 가지로 나뉩니다. 지도에 따라 거점 수와 위치가 다를 수 있습니다."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "사전 평가 전투에 %(count)s회 참여하면 실력에 따라 �
 msgstr[2] "사전 평가 전투에 %(count)s회 참여하면 실력에 따라 랭크를 배정받을 수 있습니다. 사전 평가 완료 시 달성한 랭크를 기준으로 보상이 지급됩니다.\n\n사전 평가 전투에서 전장을 이탈하거나 무승부를 기록하면 패배한 것으로 처리됩니다."
 
 msgid "intro/description/ranks"
-msgstr "플레이어의 실력을 반영하는 시스템입니다. 아이언부터 레전드까지 랭크를 진행하고 값진 보상을 획득해 보십시오. 드래곤의 해 모든 시즌에 참여하여 특별한 연간 보상을 획득할 수도 있습니다."
+msgstr "아이언부터 레전드까지 랭크를 진행하고 값진 보상을 획득해 보십시오. 피닉스의 해 모든 시즌에 참여하면 특별한 연간 보상을 획득할 수 있습니다."
 
 msgid "intro/description/roleSkills"
 msgstr "각 전차는 충전 레벨을 3까지 올릴 수 있는 역할 기술을 보유하고 있습니다. 충전 레벨을 올릴수록 기술 활성화 시 효과가 더 강해집니다. 충전 레벨은 전투 중 활약, 거점 점령, 전술 기술 사용 등의 활동을 통해 획득할 수 있는 영예 점수를 수집하여 올릴 수 있습니다.\n\n영예 점수 획득 방법에 관한 세부 정보는 모드 규정을 통해 확인할 수 있습니다."
@@ -597,6 +606,12 @@ msgstr "전투는 %(levels)s단계 일반 전차(자주포 제외), 수집 전�
 
 msgid "intro/title/banPhase"
 msgstr "전차 금지"
+
+msgid "intro/title/draw"
+msgstr "무승부 규칙"
+
+msgid "intro/title/nightMaps"
+msgstr "야간 지도"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "격전 성능 변동"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "떳떳하지 못한 승리"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "%(rank)s로 승급"
+msgstr "승급: {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "레이팅: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "%(rank)s, %(division)s로 강등"
+msgstr "강등: {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "%(rank)s, %(division)s로 승급"
+msgstr "승급: {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "참전 횟수"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "시즌 최고 영예 점수: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "%(server)s 서버에서 하늘색 드래곤 시즌이 종료되었습니다."
+msgstr "%(server)s 서버에서 하늘색 피닉스 시즌이 종료되었습니다."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "%(server)s 서버에서 진홍색 드래곤 시즌이 종료되었습니다."
+msgstr "%(server)s 서버에서 진홍색 피닉스 시즌이 종료되었습니다."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "%(server)s 서버에서 비취색 드래곤 시즌이 종료되었습니다."
+msgstr "%(server)s 서버에서 비취색 피닉스 시즌이 종료되었습니다."
 
 msgid "products/actions/buy"
 msgstr "구매"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "격전: 사전 평가 완료"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "격전: 하늘색 드래곤 시즌"
+msgstr "격전: 하늘색 피닉스 시즌"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "격전: 진홍색 드래곤 시즌"
+msgstr "격전: 진홍색 피닉스 시즌"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "격전: 비취색 드래곤 시즌"
+msgstr "격전: 비취색 피닉스 시즌"
 
 msgid "rewardsScreen/description/year"
-msgstr "격전: 드래곤의 해"
+msgstr "격전: 피닉스의 해"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Ashbringer 확인"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "종료까지 %(seconds)s초"
 
 msgid "seasonName/first"
-msgstr "하늘색 드래곤 시즌"
+msgstr "하늘색 피닉스 시즌"
 
 msgid "seasonName/second"
-msgstr "진홍색 드래곤 시즌"
+msgstr "진홍색 피닉스 시즌"
 
 msgid "seasonName/third"
-msgstr "비취색 드래곤 시즌"
+msgstr "비취색 피닉스 시즌"
 
 msgid "seasonPointTooltip/header"
 msgstr "격전 색상"
@@ -1532,13 +1550,13 @@ msgstr[1] "격전 색상 %(points)s개 획득"
 msgstr[2] "격전 색상 %(points)s개 획득"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "시즌 1: 하늘색 드래곤"
+msgstr "시즌 1: 하늘색 피닉스"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "시즌 2: 진홍색 드래곤"
+msgstr "시즌 2: 진홍색 피닉스"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "시즌 3: 비취색 드래곤"
+msgstr "시즌 3: 비취색 피닉스"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "승률: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "%(time)s부터 해당 모드 이용 가능"
 
 msgid "shortSeasonName/first"
-msgstr "하늘색 드래곤"
+msgstr "하늘색 피닉스"
 
 msgid "shortSeasonName/second"
-msgstr "진홍색 드래곤"
+msgstr "진홍색 피닉스"
 
 msgid "shortSeasonName/third"
-msgstr "비취색 드래곤"
+msgstr "비취색 피닉스"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "격전 모드 현재 시즌 상위권 플레이어 관련 정보"
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "모두 보기"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "토너먼트 패키지로 상금 규모를 키워 격전 레전드 시리즈를 응원해 보십시오!"
+msgstr "선택한 팀이 승리하면 황금색의 특별한 2026 OLS 증표가 지급됩니다. 좋아하는 팀을 응원해 보십시오!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "e스포츠에 대한 열정이 담긴 테마 전차 꾸미기 요소와 특별 전차를 확인해 보십시오!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "중국 쑤저우에서 개최되는 월드 오브 탱크 챔피언십 인터내셔널에서 전 세계에서 모인 최강의 팀이 세계 챔피언이라는 명예를 놓고 격전 모드 규칙하에 불꽃 튀는 결투를 벌입니다. 전설이 탄생하는 그 전율의 순간을 함께해 보십시오!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS 시즌 6"
+msgstr "OLS 시즌 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,10 +2090,10 @@ msgid "whatsNewView/banner/description"
 msgstr "이번 시즌, 특별 10단계 중전차 Ashbringer, 특별 3D 스타일, 전우애 능력 기본 보유 승무원, 강화 장비 및 시제 장비(선택), 눈길을 사로잡는 2D 스타일 등 값진 보상을 손에 넣을 마지막 기회를 놓치지 마십시오. 승리가 기다립니다!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "드래곤의 해 마지막 시즌!"
+msgstr "피닉스의 해 마지막 시즌!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "비취색 드래곤 시즌"
+msgstr "하늘색 피닉스 시즌"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "격전: 새로운 소식"
@@ -2083,44 +2101,41 @@ msgstr "격전: 새로운 소식"
 msgid "whatsNewView/button/ok"
 msgstr "확인"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "새로운 2.0 업데이트 디자인이 적용된 전투 결과 화면에서 이제 매 전투 이후 모드 관련 추가 정보를 확인할 수 있습니다."
+msgid "whatsNewView/drawConditions/description"
+msgstr "시간이 종료될 때까지 승패가 가려지지 않으면 생존 전차 수, 기록한 피해량, 선제 격파 여부 등 판정 요소를 순서대로 비교해 승패가 결정됩니다. 양 팀이 모두 피해를 기록하지 못했다면 무승부로 처리됩니다."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "상세 전투 결과"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "선호하는 전차가 제외되었더라도 걱정하지 마십시오. 이제 대여 전차를 선택하면 사전에 구성된 승무원, 장비, 포탄, 소모품이 함께 지급됩니다."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "바로 운용 가능한 대여 전차 %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "이번 시즌에는 각 팀이 운용 금지 전차를 선택할 수 있습니다. 아군과 투표를 조율하여 가장 위협적인 전차를 제외하거나 적이 예상할 수 없는 조합을 준비해 보십시오."
-
-msgid "whatsNewView/intro/heading"
-msgstr "전차 금지 %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "무승부 조건 변경 {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "지도"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "격전에서 운용 가능한 새로운 전차"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "2.4 업데이트와 함께 새로운 경전차 역할을 추가하고 전차 성능 밸런스를 조정하였습니다. 전투에 참여하여 직접 확인해 보십시오!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "경전차 신규 역할 {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "익숙한 지도에서 새로운 플레이를 경험해 보십시오. 야간 환경, 신규 관측 지점, 업데이트된 거점, 변경된 탐지 시스템 등 다양한 변경 사항을 적용하였습니다. 전투의 흐름이 바뀌어 상황 파악, 기회 포착, 전술적 기동이 그 어느 때보다 중요해질 것입니다."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "야간 지도 등장! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "전투 참여 플레이어 수가 적어 특급 소대가 비활성화되었습니다. 격전 모드를 팀 기반으로 즐길 수 있는 다른 방법을 모색 중이며, 그동안 7 대 7 토너먼트가 정기적으로 진행될 예정입니다."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "특급 소대 비활성화 {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "대여 전차"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "최근 선보인 미국 10단계 중형전차 Ares 90의 역할 기술을 조정하였습니다. 이제 해당 모드에서 Ares 90를 운용할 수 있습니다."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• 지도: 엘렌베르크를 목록에서 제외하고, 비행장의 거점 위치를 변경하였습니다. 플젠 지도의 일부 요소를 조정하였습니다.\n• 전차: Vz. 60S Dravec를 제외하고, 신규 독일 중전차 Kampfpanzer 67을 추가하였습니다."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "역할 기술 조정 %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "이제 실버 랭크를 달성하기만 해도 격전 상점에서 114 SP2를 구매할 수 있습니다."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "상점 업데이트 %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "시즌 밸런스 조정 {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "제외"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s~%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "시즌 1: 하늘색 드래곤"
+msgstr "시즌 1: 하늘색 피닉스"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "시즌 2: 진홍색 드래곤"
+msgstr "시즌 2: 진홍색 피닉스"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "시즌 3: 비취색 드래곤"
+msgstr "시즌 3: 비취색 피닉스"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "현재"

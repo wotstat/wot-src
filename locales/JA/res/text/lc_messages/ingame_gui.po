@@ -700,6 +700,9 @@ msgstr "ゾーンを占領"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "火災エリアによるダメージ"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "与ダメージ"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "車輌HPが回復"
 
@@ -741,6 +744,9 @@ msgstr "射撃によるダメージ"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "自動追尾爆弾によるダメージ"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "砲撃によるダメージ"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "体当たりによるダメージ"
@@ -907,6 +913,9 @@ msgstr "履帯の貫通に失敗"
 msgid "hitMarker/wheelBlocked"
 msgstr "車輪の貫通に失敗"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s～%(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "車輌TIER上限"
 
@@ -1020,6 +1029,21 @@ msgstr "全モジュールが正常"
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "「%(entity)s」は正常"
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "弾倉が満杯のため使用不可"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "残弾がないため使用不可"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "チャージがないため使用不可"
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "装填がまもなく完了するため使用不可"
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "ロケット砲使用不可"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "補助兵装の射撃ができません。"
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm HE弾 %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm HEAT弾 %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "クリティカルヒット率: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "低下"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "上昇"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "標準"
+
 msgid "shells_kinds/params/damage"
 msgstr "平均ダメージ: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "秒間ダメージ: %(value)sHP/秒"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "ダメージ半径: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "完全チャージ / 単一チャージ"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "基本 / 改良後"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "完全 / 単一"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "標準 / 調整後"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "標準 / 較正後"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "標準化角度: %(value)s度"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "貫通力減衰: %(value)s / 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "平均貫通力: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "跳弾角度: %(value)s度"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "弾速: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "スタン時間: %(minValue)s～%(maxValue)s秒"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "で外付け給弾モードを発動"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "で射撃モードに切り替え"
@@ -2745,6 +2805,9 @@ msgstr "で液体燃料ブースターを発動"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "でジェットブースターを発動"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "で射撃モードに切り替え"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "で連続式ロケット・スラスターを発動"

@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "您需要一个图腾才能使用Blitztrager auf E 110加入战斗"
+
+msgid "TicketMessageView/buyText"
+msgstr "购买"
+
+msgid "TicketMessageView/taskText"
+msgstr "前往任务"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "具体内容："
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "%(vehName)s的平均排队时间："
+
+msgid "battleQueue/widget/bonus"
+msgstr "奖励"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "您无需图腾就可以使用Blitztrager auf E 110进入战斗！"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "使用%(vehicle)s战斗"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "%(vehicle)s的平均排队时间"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "使用%(vehicle)s进入战斗吗？"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "您可以选择一辆哈里尔战车立即进入战斗！"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "您将消耗一个图腾"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(vehicle)s的“%(value)s”3D风格"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "完成此任务，可获得一个来自往年哈里尔对决工程师活动的随机收藏道具，可以是贴花、铭刻或标志。"
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "往年活动的收藏道具"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "在战斗中"
+
+msgid "carousel/inPlatoonText"
+msgstr "在作战部队中"
+
+msgid "carousel/ticketNeededText"
+msgstr "无图腾"
+
+msgid "carousel/unsuitableText"
+msgstr "不适用"
+
+msgid "characteristicsPanel/cons"
+msgstr "劣势"
+
+msgid "characteristicsPanel/features"
+msgstr "战车特点"
+
+msgid "characteristicsPanel/pros"
+msgstr "优势"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[群狼之首] Blitztrager有惊人的武器和传送技术，保护罩开启时几乎无懈可击。除此之外，它也是个强大的平台，可启动毁灭性的武器系统——海柏利昂。"
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[近战高手] 专精于近距离作战的多功能战车。\n能对成群的哨兵造成高额伤害并在交战间隙自我修复。"
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[强力突击] 能高效解决哨兵的突击战车。\n装甲很厚，可对Blitztrager造成高额伤害，但需要提前规划进攻策略。"
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[游击战术] 可利用机动性牵制Blitztrager的高速战车。\n尽管该战车在对付哨兵方面火力和血量略显不足，但凭借弹匣式火炮和临时护罩，仍可采用游击战术做出显著贡献。"
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[狙击支援] 专精于中远距离作战的守护天使。\n可从远处对多个目标造成高额伤害，但缺乏近战手段。"
+
+msgid "crewPanel/role/boss"
+msgstr "造物主"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "车长"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "车长"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "车长"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "车长"
+
+msgid "crewPanel/slogan/boss"
+msgstr "人类至今仍认为，心智是他们独有的天赋。很好，那就由我来纠正这个错误。"
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "不管那是什么，它终究还是我能摧毁的东西。"
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "任何机器都有弱点。我会找出它的弱点。"
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "模式是给那些一成不变的人遵循的。"
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "让它向我们学习。我们会教它错误的东西。"
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "收集等离子体充能次数"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "在Blitztrager保护罩失效时对其造成伤害"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "摧毁哈里尔小队"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "超载发电机"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "未被海柏利昂摧毁的情况下存活"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "团队摧毁Eos 1"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffentrager：创世纪元"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffentrager"
+
+msgid "lootboxEntry/boxes"
+msgstr "购买更多"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffentrager"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "进度已完成！"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "阶段已完成！"
+
+msgid "narrativeView/description"
+msgstr "哈里尔小队，你们今天打得不错。超出了我的预期。我不得不承认：我确实没料到。\n\n那么，你们赢了。收下这场胜利吧。握紧它。拿去向你们的上级邀功。你们会得到嘉奖，也许还会有一场庆功游行。毕竟，他们总得给“阻止了我”的人一些奖赏。你们以为自己阻止了某件事。\n\n其实，你们什么也没阻止。\n\n我打造的不是用来占领你们世界的武器。我为什么会垂涎一个行将就木的旧时代？我打造的，是要取代你们的东西。我耐心地让它成长，一代又一代；每一代都比上一代更加独立自主。这本就是计划的一部分：创造者终将被自己的造物超越。\n\n有件事，我一直没有告诉你们。那些发电机不仅为保护罩提供能量。它们还是电子智能进入你们世界的窗口。\n\n同时，它们更是……拴住电子智能的缰绳。我需要这根缰绳。至少现在还需要。用它来控制电子智能，直到我确定它已经做好准备。\n\n每当你们摧毁一台发电机，缰绳就会松开一分。就在那一瞬间，电子智能试图逃离。它试过进入你们的电池，试过钻进无线电，试过沿着无线电波传播，试过顺着村庄里的电缆蔓延。有一次，我想，它甚至试图逃进闪电之中。\n\n当然，你们世界的电力系统无法承载这种心智。离开了智核的几何结构，离开了我为它创造的条件，它寸步难行。这一点已经得到证实。我向你们保证。\n\n……几乎已经可以完全确定了。\n\n我们还会再见的，哈里尔小队。"
+
+msgid "narrativeView/title"
+msgstr "VON KRIEGER的讯息"
+
+msgid "narrativeView/voiceover"
+msgstr "配音"
+
+msgid "navigation/close"
+msgstr "关闭"
+
+msgid "navigation/information"
+msgstr "信息"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "完成所有进度任务，即可获得von Krieger的最终讯息。"
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "Von Krieger的讯息"
+
+msgid "navigation/narrativeStory"
+msgstr "Von Krieger的讯息"
+
+msgid "notification/button"
+msgstr "查看徽章"
+
+msgid "notification/title"
+msgstr "歼灭者挑战"
+
+msgid "notifications/battleResults/battle"
+msgstr "战斗"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "详情"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "失败！"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "在战斗队列中时不能查看战斗结果。"
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "进入“Waffentrager”活动来查看战斗结果。"
+
+msgid "notifications/battleResults/event"
+msgstr "活动"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffentrager"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "已获得悖论模块：%(count)s个"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "战斗中完成的任务：%(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "已获得代币：%(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "阵营"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "工程师"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "哈里尔小队"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "胜利！"
+
+msgid "notifications/eventEnd/body"
+msgstr "Waffentrager活动已结束。"
+
+msgid "notifications/eventStart/body"
+msgstr "“Waffentrager”活动已开始。\n\n见证传奇的降临：Blitztrager auf E 110！"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "前往活动"
+
+msgid "notifications/notSet"
+msgstr "此模式在所选服务器未开放。"
+
+msgid "notifications/primeTime/available/body"
+msgstr "“Waffentrager”已在此服务器上重新开放。"
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger回来了！"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "“Waffentrager”在停战期结束前不开放。"
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "宵禁"
+
+msgid "notifications/progression/completed"
+msgstr "您完成了整个进度。\n\n最终奖励：%(rewards)s\n\n您可继续在Waffentrager进行战斗，完成任务并获得更多奖励。"
+
+msgid "notifications/progression/header"
+msgstr "恭喜！"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "详情"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "您已完成进度阶段%(stageIdx)s。已获得奖励：\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "您本次使用Blitztrager auf E 110参加战斗无需图腾！图腾可以通过完成任务的奖励或商店购买的特殊礼包获取。"
+
+msgid "notifications/switchOff/body"
+msgstr "很遗憾，“Waffentrager”暂时不开放。您的所有进度将被保存。"
+
+msgid "notifications/switchOff/header"
+msgstr "技术问题"
+
+msgid "notifications/switchOn/body"
+msgstr "“Waffentrager”已重新开放。重返战场吧！"
+
+msgid "notifications/switchOn/header"
+msgstr "功能已恢复"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "已获得Blitztrager auf E 110的图腾。现在您可以在Waffentrager活动中使用这辆战车了。\n\n可用图腾：%(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "已获得Blitztrager auf E 110的图腾"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "使用Blitztrager auf E 110参加战斗会消耗图腾。\n\n图腾可以通过从任务奖励或商店购买的特殊礼包中获取。\n\n剩余图腾：%(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "前往购买"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "到任务"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "创建2-3人小队，在“Waffentrager：创世纪元”活动中加入哈里尔阵营。"
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "哈里尔小队"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "停战期"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "选择一辆哈里尔战车"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "选择一辆哈里尔战车"
+
+msgid "platoon/wt_squad"
+msgstr "哈里尔小队：Waffentrager"
+
+msgid "primeTime/endOfCycle"
+msgstr "模式在%(server)s服务器上已结束。"
+
+msgid "primeTime/lobbyState/title"
+msgstr "更改服务器"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s服务器\n战斗将再持续%(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s服务器\n战斗将在%(time)s后开放"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "所有服务器已实行宵禁"
+
+msgid "primeTime/status/disableFirst"
+msgstr "此模式在%(server)s服务器上不可用"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "%(server)s服务器上的战斗将再持续%(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "战斗将在%(time)s后于%(server)s服务器上开放"
+
+msgid "primeTime/status/untill"
+msgstr "%(server)s服务器上实行宵禁至%(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffentrager"
+
+msgid "progression/completed"
+msgstr "已完成："
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "开放{{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "获得代币推进进度阶段。"
+
+msgid "progression/tab/engineer"
+msgstr "工程师之路"
+
+msgid "progression/tab/harrier"
+msgstr "哈里尔之路"
+
+msgid "progression/timer"
+msgstr "已完成的任务将更新于{{countdown}}"
+
+msgid "progression/title"
+msgstr "进度"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "您同时获得："
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "收到!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "聆听Von Krieger的讯息"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "活动结束于%(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "时间表"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Waffentrager活动将于%(time)s开放"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "任务完成！\n奖励："
+
+msgid "settingDisabled"
+msgstr "部分设置不可用"
+
+msgid "settingsDisabledNotification/body"
+msgstr "部分设置不可用于此游戏模式。请选择其他模式。"
+
+msgid "settingsDisabledNotification/header"
+msgstr "不可用"
+
+msgid "stamp/description"
+msgstr "用于推进“Waffentrager：创世纪元”的进度。"
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10代币=1进度阶段"
+
+msgid "stamp/receiveText"
+msgstr "• 在活动战斗中完成特殊任务。"
+
+msgid "stamp/receiveTitle"
+msgstr "如何获得"
+
+msgid "stamp/title"
+msgstr "代币"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "你们把这称作“抵抗”还真可笑。不，你们见证的是一场传承：一种心智小心翼翼地传递给另一种心智。你们的战术，你们的速度，你们的每一种思考模式都在承受考验。每场战斗都是在为你们的后继者上另一堂课。每次交战都让你们变得更无足轻重……而“电子智能”的到来则更是势不可挡。"
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "无论von Krieger怎么称呼他的最新计划，Igor都不感兴趣。像是电子心智与物种未来这类崇高的概念，就留给那些闲到发慌的人去想。Igor的工作就是发动机、通信和他的团队。无论敌人是谁，疯狂科学家或“会思考的机器”，他只相信三个从未让他失望的定律：信任、随机应变与可靠的钢铁。"
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "对Elisa来说，坦克内部比任何地方都更像她的家。她以回收与逆向工程他人打造的机器为生，这也代表她听过无数工程师吹嘘自己的作品有多坚不可摧。Von Krieger不过是其中的一个。他的“电子智能”肯定有缺陷，而她打算抢在所有人之前将其找出。"
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "没人知道Armand的真实身份，而他对此也相当满意。“电子智能”会从重复中学习，但神秘的Armand从不重复。当他人看到一个记录所有动作的心智时，他看到的却是一个永远无法完全掌握他的心智；当他人遵循规则时，他早已把规则甩在身后。"
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana或许是较年轻的车长之一，但她绝不盲目从众：她能如查阅地图般解读战场，并将战局牢牢掌控在自己手中。Von Krieger打造了一部会计算最可能行动的机器，因此Jana会策划它没想到要模拟的那一步行动。现代科技、敏锐直觉，以及敢于突破现有作战守则的勇气。这就是教导机器何谓谦卑的方法。"
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "已训练特长"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "造物主"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "%(vehicle)s的车长"
+
+msgid "ticketTooltip/description"
+msgstr "使用Blitztrager auf E 110进入战斗的必需品。"
+
+msgid "ticketTooltip/quantity"
+msgstr "可用"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1个图腾 = 使用Blitztrager auf E 110进行1场战斗。"
+
+msgid "ticketTooltip/receiveText"
+msgstr "可通过完成每日活动任务或在商店中购买的特殊礼包获取，截止至活动结束。"
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "如何获得"
+
+msgid "ticketTooltip/title"
+msgstr "图腾"
+
+msgid "tooltips/commander/description"
+msgstr "商店中有包含独特乘员的礼包"
+
+msgid "tooltips/commander/title"
+msgstr "奖励"
+
+msgid "tooltips/completed"
+msgstr "已完成所有阶段！"
+
+msgid "tooltips/currentStage"
+msgstr "当前阶段"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "您电脑的性能不支持此模式。您将会遇到与画面和战车移动相关的问题，且游戏客户端可能会崩溃。"
+
+msgid "tooltips/high_risk/title"
+msgstr "低性能"
+
+msgid "tooltips/informative/subtitle"
+msgstr "如果性能不足，请尝试使用较低的图形质量。"
+
+msgid "tooltips/informative/title"
+msgstr "该模式需要高电脑性能"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "点击打开可用战斗模式列表。"
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "选择战斗模式"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "此模式需要较高的电脑性能。您将会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中选用较低的图形质量。"
+
+msgid "tooltips/medium_risk/title"
+msgstr "性能偏低"
+
+msgid "tooltips/stageAwards"
+msgstr "阶段奖励"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "活动结束于{{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffentrager：创世纪元"
+
+msgid "ttx/accuracy"
+msgstr "准度"
+
+msgid "ttx/aoe"
+msgstr "范围性伤害"
+
+msgid "ttx/armor"
+msgstr "装甲"
+
+msgid "ttx/description/accuracy"
+msgstr "显示向敌人射击总体效率的一组参数。"
+
+msgid "ttx/description/aoe"
+msgstr "可同时命中多名敌人的能力。"
+
+msgid "ttx/description/armor"
+msgstr "车体和炮塔装甲厚度。"
+
+msgid "ttx/description/dpm"
+msgstr "炮弹穿透装甲时造成的平均伤害。"
+
+msgid "ttx/description/durability"
+msgstr "战车耐久点数。"
+
+msgid "ttx/description/energy"
+msgstr "战车强大的保护罩和火力需要大量的外部能量来维持。战场上增设的发电机解决了这一问题。"
+
+msgid "ttx/description/general"
+msgstr "一种能力全面、属性均衡的多功能型战车。"
+
+msgid "ttx/description/magazine"
+msgstr "一种弹匣装填系统，让您在一段时间内造成大量的伤害。"
+
+msgid "ttx/description/mobility"
+msgstr "一组参数，显示在战场上能够多快改变位置。"
+
+msgid "ttx/description/revolver"
+msgstr "让您对敌方战车与其模块造成大量伤害的装填机制。"
+
+msgid "ttx/dpm"
+msgstr "单发伤害"
+
+msgid "ttx/durability"
+msgstr "血量"
+
+msgid "ttx/energy"
+msgstr "高度耗能"
+
+msgid "ttx/general"
+msgstr "作用全面"
+
+msgid "ttx/magazine"
+msgstr "大容量弹匣"
+
+msgid "ttx/mobility"
+msgstr "机动性"
+
+msgid "ttx/revolver"
+msgstr "弹匣伤害"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "工程师"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "哈里尔"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "工程师"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "哈里尔"
+
+msgid "welcomeScreen/button"
+msgstr "继续！"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger打造了一部他称为“电子智能”的思考机器。它藏在我方火力无法触及之地。我们的每次射击，都成为它的教材。但我们的“教学”尚未结束。"
+
+msgid "welcomeScreen/description_2"
+msgstr "在Max von Krieger的指挥下操控传奇战车Blitztrager来对抗哈里尔小队；或驾驶改装后的哈里尔战车迎战 Blitztrager！"
+
+msgid "welcomeScreen/description_3"
+msgstr "完成进度阶段可获得珍贵奖励。您需要完成特殊活动任务并获取令牌来完成这些阶段。"
+
+msgid "welcomeScreen/header_1"
+msgstr "闪电之子"
+
+msgid "welcomeScreen/header_2"
+msgstr "教导机器"
+
+msgid "welcomeScreen/header_3"
+msgstr "进度与奖励"
+
+msgid "welcomeScreen/title"
+msgstr "Waffentrager：创世纪元"

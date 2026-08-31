@@ -232,11 +232,35 @@ msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うた
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "過熱制御式自動連射砲"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "砲弾の装填時間を即座に短い固定時間に短縮します。使用するたびに砲弾1発につきチャージを1つ消費し、チャージは時間経過とともに補充されます。弾倉が満タンの場合は、チャージの補充速度が上昇します。戦闘開始時に一定数のチャージが最初から貯まっています。"
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "強制装填メカニズム"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "本車輌の防盾にはロケット砲が搭載されています。次のキーを押すと、ロケット砲の照準器に切り替えることができます。"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "同軸ロケット砲"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "ロケット照準器で照準中に砲撃ボタンを押すと、ロケット弾が発射される。"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "同軸ロケット砲"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。\n射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "セミオート装填"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "「外付け給弾」モジュールにより、与ダメージが増加した強力な高チャージ単発弾を発射できます。発動中は、モジュールの効果で機動性と発射速度が低下します。"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "外付け給弾モード"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "主砲の装填が完了している間、次の射撃の平均与ダメージを向上させる「ヒート・レベル」が貯まっていく。レベルが貯まるほど、平均与ダメージへのボーナスも増加する。\n次のキーを押すとレベルの蓄積を開始できる。"
@@ -345,6 +369,30 @@ msgstr "「ジェットブースター」を使用すると車輌のエンジン
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "長所と短所"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "発見状態の敵車輌に砲弾を命中させると、次弾の信管が調整され、パラメーターが変化します。最初の砲撃が敵の装甲を貫通した場合、次弾のダメージが増加します。貫通しなかった場合は、次弾の貫通力が増加します。"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "調整式信管設定器"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊な装置が主砲に搭載されています。選択したモードによって異なる砲弾のパラメーターが変化し、各モードを使用することでさまざまな戦況に素早く適応できます。"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "砲弾較正システム"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "高性能な光学装置により視認範囲が拡大され、移動中や茂みに隠れている車輌の発見能力が向上します。発動すると、車輌前方の狭い範囲をスキャンして隠れている目標を発見し、その後クールダウンに入ります。"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "赤外線捜索追尾 (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "ただし、未発見の敵を発見した場合、自車輌も即座に一定時間発見状態になり、自車輌と発見した敵車輌の両方に即座に通知されます。スキャンは手動で停止でき、短い遅延の後に装置のクールダウンが開始します。"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "赤外線捜索追尾 (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右スラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。"

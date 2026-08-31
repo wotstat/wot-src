@@ -644,7 +644,7 @@ msgid "badge_190"
 msgstr "제3 섹터 특급 요원"
 
 msgid "badge_190_descr"
-msgstr "제3 섹터 캠페인 개인 임무를 모두 완료"
+msgstr "제3 섹터 캠페인 주요 작전 개인 임무 모두 완료"
 
 msgid "badge_191"
 msgstr "2025 추계 OLS 응원단"
@@ -842,19 +842,19 @@ msgid "badge_225"
 msgstr "불타는 맹세"
 
 msgid "badge_225_descr"
-msgstr "격전 모드 진홍색 드래곤 시즌에서 챔피언 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 진홍색 드래곤 시즌 챔피언 랭크 달성 시 지급"
 
 msgid "badge_226"
 msgstr "화염의 왕관"
 
 msgid "badge_226_descr"
-msgstr "격전 모드 진홍색 드래곤 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 진홍색 드래곤 시즌 레전드 랭크 달성 시 지급"
 
 msgid "badge_227"
 msgstr "초신성"
 
 msgid "badge_227_descr"
-msgstr "격전 모드 진홍색 드래곤 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 진홍색 드래곤 시즌 레전드 랭크 달성 시 지급"
 
 msgid "badge_228"
 msgstr "아틀라스 수호자"
@@ -878,19 +878,19 @@ msgid "badge_231"
 msgstr "유독성 역병"
 
 msgid "badge_231_descr"
-msgstr "격전 모드 비취색 드래곤 시즌에서 챔피언 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 비취색 드래곤 시즌 챔피언 랭크 달성 시 지급"
 
 msgid "badge_232"
 msgstr "독성 낙원"
 
 msgid "badge_232_descr"
-msgstr "격전 모드 비취색 드래곤 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 비취색 드래곤 시즌 레전드 랭크 달성 시 지급"
 
 msgid "badge_233"
 msgstr "생물학적 재해"
 
 msgid "badge_233_descr"
-msgstr "격전 모드 비취색 드래곤 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+msgstr "격전 모드 비취색 드래곤 시즌 레전드 랭크 달성 시 지급"
 
 msgid "badge_234"
 msgstr "2026 추계 OLS 응원단"
@@ -904,11 +904,65 @@ msgstr "2026 추계 OLS 예언가"
 msgid "badge_235_descr"
 msgstr "2026 추계 OLS 우승팀을 예측한 전설적인 팬에게 지급"
 
+msgid "badge_236"
+msgstr "보초병 처형자"
+
+msgid "badge_236_descr"
+msgstr "Von Krieger의 보초병 200대 격파 시 지급"
+
+msgid "badge_237"
+msgstr "Fossa VM 68 증표 2급"
+
+msgid "badge_237_descr"
+msgstr "중형전차 Fossa VM 68 제작"
+
+msgid "badge_238"
+msgstr "Fossa VM 68 증표 1급"
+
+msgid "badge_238_descr"
+msgstr "Fossa 작전 임무 완료"
+
+msgid "badge_239"
+msgstr "피닉스 챔피언"
+
+msgid "badge_239_descr"
+msgstr "격전 모드 하늘색 피닉스 시즌에서 챔피언 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+
 msgid "badge_23_descr"
 msgstr "국가의 행진 이벤트에서 7단계 전차로 상위 10위 달성"
 
 msgid "badge_24"
 msgstr "전차 전문가: 8단계"
+
+msgid "badge_240"
+msgstr "피닉스 레전드"
+
+msgid "badge_240_descr"
+msgstr "격전 모드 하늘색 피닉스 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+
+msgid "badge_241"
+msgstr "전설적인 피닉스"
+
+msgid "badge_241_descr"
+msgstr "격전 모드 하늘색 피닉스 시즌에서 레전드 랭크 달성 시 지급, 다음 시즌 시작 시 제거"
+
+msgid "badge_242"
+msgstr "2026~2027 격전: 챔피언"
+
+msgid "badge_242_descr"
+msgstr "격전 색상 15개 수집 시 지급"
+
+msgid "badge_243"
+msgstr "2026~2027 격전: 레전드"
+
+msgid "badge_243_descr"
+msgstr "격전 색상 18개 수집 시 지급"
+
+msgid "badge_244"
+msgstr "피닉스의 전설"
+
+msgid "badge_244_descr"
+msgstr "격전 피닉스의 해에 가장 뛰어난 활약을 펼친 플레이어에게 지급"
 
 msgid "badge_24_descr"
 msgstr "국가의 행진 이벤트에서 8단계 전차로 상위 1000위 달성"
@@ -1512,6 +1566,12 @@ msgstr "초신성"
 
 msgid "suffix/badge_233"
 msgstr "생물학적 재해"
+
+msgid "suffix/badge_241"
+msgstr "전설적인 피닉스"
+
+msgid "suffix/badge_244"
+msgstr "피닉스의 전설"
 
 msgid "suffix/badge_56"
 msgstr "알파 테스터"

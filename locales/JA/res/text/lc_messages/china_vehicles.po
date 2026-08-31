@@ -49,6 +49,9 @@ msgstr "A-220A-2"
 msgid "A_220A_CFE_D"
 msgstr "A-220A"
 
+msgid "A_220B_1_F"
+msgstr "A-220B"
+
 msgid "A_220B_1_QL"
 msgstr "A-220B QL"
 
@@ -57,6 +60,9 @@ msgstr "A-220B/78"
 
 msgid "A_220B_79"
 msgstr "A-220B/79"
+
+msgid "A_220C"
+msgstr "A-220C"
 
 msgid "A_220R"
 msgstr "A 220R"
@@ -700,6 +706,21 @@ msgstr "BZ-75 7x7"
 msgid "Ch48_BZ_75_7x7_short"
 msgstr "BZ-75 7x7"
 
+msgid "Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_descr"
+msgstr "「私は身じろぎもせず、はるか上空に立ち上る黒煙の柱を眺めていた。黒い煙はどんな砲火よりも高く舞い上がり、燃えさしは空に筋を描いては消えていった。私の敗北を証明するものは、戦場を覆う灰だけだった。灰色で、形なく、動きもなく、そして決定的な証。しかし、その中には命なきものとは思えぬほどの熱を帯びて、いまだ燻っているものもあった。この破壊の跡地でさえ、火種は生き永らえていた。\n\nそのとき、悟ったのだ。私の終わりこそが、私の始まりなのだと。\n\n燃え尽きずして、どうして蘇ることができようか?」"
+
+msgid "Ch48_BZ_75_CFE_F_long_special"
+msgstr "「Fireborn」は戦場を席巻し、多くの者に恐れられ、すべての者から尊敬を集める車輌である。その強力な兵装はあらゆる目標に大ダメージを与えることができ、ジェットブースターと信頼性の高い装甲の組み合わせは、比類なき機動性と防御力を提供する。敵の不意を突き、不死鳥を飛翔させよ!"
+
+msgid "Ch48_BZ_75_CFE_F_short"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_short_special"
+msgstr "ジェットブースターと強力な主砲"
+
 msgid "Ch48_BZ_75_descr"
 msgstr "1960年代、ソ連との外交関係の悪化により防衛力を強化する必要に迫られた中国は、広大な国境地帯をカバーするための新たな軍隊の創設に取り掛かった。このとき火力面で中心を担うことを前提に開発が進められた計画のひとつが「BZ-75」である。本車輌には、重戦車「WZ-111」の開発を通じて培われた様々な経験が生かされているほか、砲塔には「WZ-1224」計画の設計が採用されている。しかしながら、「BZ-75」の試作車輌が製造されることはなかった。"
 
@@ -981,6 +1002,18 @@ msgstr "馴染みのある中国駆逐戦車の系譜をさらに磨き上げた
 
 msgid "Ch70_PTZ_78_short"
 msgstr "PTZ-78"
+
+msgid "Ch71_WZ_219"
+msgstr "WZ-219"
+
+msgid "Ch71_WZ_219_descr"
+msgstr "1970年代初頭、中国は旧式化した「Type 62」の後継車輌として軽戦車の開発を開始した。コンパクトで高速な本車輌には、火力面で主力戦車に匹敵する性能が備わる予定だった。設計には多機能の照準装置や測距システムが盛り込まれていたが、これは非常に大型で独立した動力装置を必要とした。その複雑さと高コストが原因で、計画は中止された。"
+
+msgid "Ch71_WZ_219_long_special"
+msgstr "「WZ-219」は、その強力な兵装という点で他の中国軽戦車と似ている。その独自性は高性能な測距装置にあり、これにより隠れている無防備な敵車輌の位置を効果的に暴き、脆弱な状態にすることができる。"
+
+msgid "Ch71_WZ_219_short"
+msgstr "WZ-219"
 
 msgid "Ch72_Yongshi"
 msgstr "Yongshi"
@@ -1264,6 +1297,9 @@ msgstr "Bull Demon King"
 msgid "Chassis_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Chassis_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Chassis_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1330,6 +1366,9 @@ msgstr "BZ-79"
 msgid "Chassis_Ch68_PGZ_70"
 msgstr "PGZ-70"
 
+msgid "Chassis_Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "Chassis_Ch72_Yongshi"
 msgstr "Yongshi"
 
@@ -1367,6 +1406,9 @@ msgid "Gun_Ch00_ClingeBot_SH"
 msgstr "Clinger"
 
 msgid "HS_110F"
+msgstr "HS 110F"
+
+msgid "HS_110F_F"
 msgstr "HS 110F"
 
 msgid "HS_110F_M"
@@ -1588,6 +1630,9 @@ msgstr "Bull Demon King"
 msgid "Turret_1_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Turret_1_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Turret_1_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1647,6 +1692,9 @@ msgstr "PGZ-70"
 
 msgid "Turret_1_Ch70_PTZ_78"
 msgstr "PTZ-78"
+
+msgid "Turret_1_Ch71_WZ_219"
+msgstr "WZ-219"
 
 msgid "Turret_1_Ch72_Yongshi"
 msgstr "Yongshi"
@@ -2029,6 +2077,18 @@ msgstr "105 mm Type 81-I"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_115mm_69_115T"
+msgstr "115 mm 69-115T"
+
+msgid "_115mm_Po_115G"
+msgstr "Po-115G"
+
+msgid "_115mm_Sha_bao_115G"
+msgstr "Sha bao-115G"
+
+msgid "_115mm_Tuo_chuan_115G"
+msgstr "Tuo chuan-115G"
+
 msgid "_120mm_CB-472LY"
 msgstr "Chuan bei-472LY"
 
@@ -2166,6 +2226,9 @@ msgstr "12150L (34-1)"
 
 msgid "_12150L_70"
 msgstr "12150L-70"
+
+msgid "_12150ZL"
+msgstr "12150ZL"
 
 msgid "_122-mm_37-122JT"
 msgstr "122 mm 37-122JT"
@@ -2527,6 +2590,9 @@ msgstr "Sprgr. G 45 (WT IV)"
 msgid "_152_mm_64_152T"
 msgstr "152 mm 64-152T"
 
+msgid "_152_mm_64_152T_F"
+msgstr "152 mm 64-152T"
+
 msgid "_152_mm_64_152T_M"
 msgstr "152 mm 64-152DV"
 
@@ -2555,6 +2621,9 @@ msgid "_152mm_59_152JG_FT_HE_G6_SH"
 msgstr "59-152JG HE"
 
 msgid "_152mm_AP_T"
+msgstr "Chuan bei-152T"
+
+msgid "_152mm_AP_T_F"
 msgstr "Chuan bei-152T"
 
 msgid "_152mm_Chuan_bei_152T_DV"
@@ -2599,7 +2668,13 @@ msgstr "GM 45HE B"
 msgid "_152mm_HEAT_T"
 msgstr "Po-152T"
 
+msgid "_152mm_HEAT_T_F"
+msgstr "Po-152T"
+
 msgid "_152mm_HE_T"
+msgstr "Sha bao-152T"
+
+msgid "_152mm_HE_T_F"
 msgstr "Sha bao-152T"
 
 msgid "_152mm_Po_152"

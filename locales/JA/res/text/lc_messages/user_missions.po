@@ -382,11 +382,56 @@ msgstr "「ウィークリーミッション」は、毎週挑戦できるミッ
 msgid "info_page/main/weekly/title"
 msgstr "ウィークリーミッション"
 
+msgid "pm/missionState/active"
+msgstr "挑戦中"
+
+msgid "pm/missionState/complete"
+msgstr "ミッション達成"
+
+msgid "pm/missionState/improve"
+msgstr "結果向上"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "車輌変更"
+
+msgid "pm/no_missions"
+msgstr "選択中の車輌で挑戦できるミッションはありません"
+
+msgid "pm/tier"
+msgstr "Tier不適合"
+
+msgid "pm/unavailable"
+msgstr "ミッションは一時的に挑戦不可"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "選択中の車輌で挑戦できるミッションはありません。別の車輌を選択してください。"
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "このミッションは技術的理由により一時的にご利用頂けません。ご不便をおかけして申し訳ございません。"
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "選択中の車輌は、挑戦可能なオペレーションのTier要件を満たしていません。別の車輌を選択してください。"
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "挑戦可能なミッションなし"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "一時的に使用不可"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Tier不適合"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "本日の通常ミッションはすべて達成済み"
 
 msgid "quests/daily_quests/completed"
 msgstr "全デイリーミッションを達成済み"
+
+msgid "slider/title/missions"
+msgstr "通常のミッション"
+
+msgid "slider/title/personalMissions"
+msgstr "パーソナルミッション"
 
 msgid "tooltip/common/timer"
 msgstr "変更可能になるまで{{timeLeft}}"

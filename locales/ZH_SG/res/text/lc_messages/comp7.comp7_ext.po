@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "此模式在%(serverName)s服务器上不可用"
 
 msgid "alertMessage/preannounce/first"
-msgstr "苍蓝蛟龙赛季开始于：%(date)s"
+msgstr "苍蓝凤凰赛季开始于：%(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "绯红蛟龙赛季开始于：%(date)s"
+msgstr "绯红凤凰赛季开始于：%(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "翠绿蛟龙赛季开始于：%(date)s"
+msgstr "翠绿凤凰赛季开始于：%(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "正在等待定位赛结果以确定段位"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "苍蓝蛟龙赛季已结束"
+msgstr "苍蓝凤凰赛季已结束"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "绯红蛟龙赛季已结束"
+msgstr "绯红凤凰赛季已结束"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "翠绿蛟龙赛季已结束"
+msgstr "翠绿凤凰赛季已结束"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "此服务器的战斗将于%(primeDelta)s后开放"
@@ -253,6 +253,9 @@ msgstr "战车属性提高"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "正在恢复血量"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "受到的伤害提高"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "战车属性提高"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "苍蓝蛟龙赛季将持续%(days)d天"
-msgstr[1] "苍蓝蛟龙赛季将持续%(days)d天"
-msgstr[2] "苍蓝蛟龙赛季将持续%(days)d天"
+msgstr[0] "苍蓝凤凰赛季将持续%(days)d天"
+msgstr[1] "苍蓝凤凰赛季将持续%(days)d天"
+msgstr[2] "苍蓝凤凰赛季将持续%(days)d天"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "绯红蛟龙赛季将持续%(days)d天"
-msgstr[1] "绯红蛟龙赛季将持续%(days)d天"
-msgstr[2] "绯红蛟龙赛季将持续%(days)d天"
+msgstr[0] "绯红凤凰赛季将持续%(days)d天"
+msgstr[1] "绯红凤凰赛季将持续%(days)d天"
+msgstr[2] "绯红凤凰赛季将持续%(days)d天"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "翠绿蛟龙赛季将持续%(days)d天"
-msgstr[1] "翠绿蛟龙赛季将持续%(days)d天"
-msgstr[2] "翠绿蛟龙赛季将持续%(days)d天"
+msgstr[0] "翠绿凤凰赛季将持续%(days)d天"
+msgstr[1] "翠绿凤凰赛季将持续%(days)d天"
+msgstr[2] "翠绿凤凰赛季将持续%(days)d天"
 
 msgid "calendarDay/title"
 msgstr "时间表"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "特长"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "天梯战：蛟龙年"
+msgstr "天梯战：凤凰年"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "零特长"
@@ -574,11 +577,17 @@ msgstr "收到！"
 msgid "intro/description/banPhase"
 msgstr "每个团队可完全禁用一辆战车，使其无法参与战斗。与队友协调投票来排除您最忌惮的战车，或为敌人准备意想不到的阵容。如果您的战车被禁用，您可从数辆预先配置的租用战车进行选择。"
 
+msgid "intro/description/draw"
+msgstr "当战斗时间结束且无任何团队取得明确胜利时，战斗结果将按照以下顺序进行判定：存活的战车数量、造成的伤害，以及率先摧毁对方战车的一方。如果双方团队均未造成任何伤害，则该场战斗判定为平局。"
+
+msgid "intro/description/nightMaps"
+msgstr "夜间地图通过夜间环境、全新观测站、更新后的关键点位，以及调整后的侦察机制，为熟悉的战场带来焕然一新的体验。目前包括以下地图：冰川、荒漠小镇、前哨和荒蛮之地。"
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "模式的变项会改变战车的特定参数：如战车血量、消耗品冷却时间、保持可见的时间等。"
 
 msgid "intro/description/pointsOfInterest"
-msgstr "一旦您占领地图上的特定区域，您就能使用战术技能。共有2种关键点位：占领炮兵总部可以向特定位置发动轰击，占领通信中心则可以侦察所有敌方战车。关键点位的数量和位置视地图而定。"
+msgstr "一旦您占领地图上的特定区域，您就能使用战术技能。共有2种关键点位：占领炮兵总部可让您呼叫定点打击，占领通信中心可显示所有敌方战车的位置。这些点位的数量和位置会因地图而异。"
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "完成%(count)s场定位赛战斗，以便系统根据您的技术水
 msgstr[2] "完成%(count)s场定位赛战斗，以便系统根据您的技术水平为您分配段位。完成后您将获得已达到段位及更低段位的所有奖励。\n\n在定位赛中逃离战场或以平局结束将被视为战败。"
 
 msgid "intro/description/ranks"
-msgstr "反映玩家技术水平的系统。从黑铁推进至传奇段位，获得珍贵奖励。在整个蛟龙年期间持续奋战，争取独特年度奖励。"
+msgstr "从黑铁推进至传奇段位，获得珍贵奖励。在整个凤凰年期间持续奋战，争取独特年度奖励。"
 
 msgid "intro/description/roleSkills"
 msgstr "每辆战车有一个视角色而定、有3个充能等级的特殊技能。激活时技能的充能等级越高，效果就越强。充能等级取决于威望点数的多寡，点数可通过在战斗中表现出色、占领关键点位、使用战术技能等方式获取。\n\n查看模式规则，了解关于威望点数获取方式的更多详情。"
@@ -597,6 +606,12 @@ msgstr "您可以驾驶%(levels)s级可研发战车(自行火炮除外)、收藏
 
 msgid "intro/title/banPhase"
 msgstr "战车禁用"
+
+msgid "intro/title/draw"
+msgstr "平局规则"
+
+msgid "intro/title/nightMaps"
+msgstr "夜间地图"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "天梯战变项"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "胜利，但您"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "晋升为“%(rank)s”"
+msgstr "晋升为“{{rank}}”"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "评级：{{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "“%(rank)s”的%(division)s"
+msgstr "{{rank}}，{{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "降级至“%(rank)s”的%(division)s"
+msgstr "降级至“{{rank}}”的{{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "晋升为“%(rank)s”的%(division)s"
+msgstr "晋升为“{{rank}}”的{{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "参战场次"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "赛季威望点数纪录：%(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "%(server)s服务器上的苍蓝蛟龙赛季已结束。"
+msgstr "%(server)s服务器上的苍蓝凤凰赛季已结束。"
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "%(server)s服务器上的绯红蛟龙赛季已结束。"
+msgstr "%(server)s服务器上的绯红凤凰赛季已结束。"
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "%(server)s服务器上的翠绿蛟龙赛季已结束。"
+msgstr "%(server)s服务器上的翠绿凤凰赛季已结束。"
 
 msgid "products/actions/buy"
 msgstr "购买"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "天梯战：已完成定位赛"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "天梯战：苍蓝蛟龙赛季"
+msgstr "天梯战：苍蓝凤凰赛季"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "天梯战：绯红蛟龙赛季"
+msgstr "天梯战：绯红凤凰赛季"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "天梯战：翠绿蛟龙赛季"
+msgstr "天梯战：翠绿凤凰赛季"
 
 msgid "rewardsScreen/description/year"
-msgstr "天梯战：蛟龙年"
+msgstr "天梯战：凤凰年"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "我的Ashbringer哪去了？"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "于%(seconds)s秒后结束"
 
 msgid "seasonName/first"
-msgstr "苍蓝蛟龙赛季"
+msgstr "苍蓝凤凰赛季"
 
 msgid "seasonName/second"
-msgstr "绯红蛟龙赛季"
+msgstr "绯红凤凰赛季"
 
 msgid "seasonName/third"
-msgstr "翠绿蛟龙赛季"
+msgstr "翠绿凤凰赛季"
 
 msgid "seasonPointTooltip/header"
 msgstr "天梯战锦旗"
@@ -1532,13 +1550,13 @@ msgstr[1] "已获得%(points)s面天梯战锦旗"
 msgstr[2] "已获得%(points)s面天梯战锦旗"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "赛季I：苍蓝蛟龙"
+msgstr "赛季I：苍蓝凤凰"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "赛季II：绯红蛟龙"
+msgstr "赛季II：绯红凤凰"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "赛季III：翠绿蛟龙"
+msgstr "赛季III：翠绿凤凰"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "胜率：%(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "此模式将于%(time)s开放"
 
 msgid "shortSeasonName/first"
-msgstr "苍蓝蛟龙"
+msgstr "苍蓝凤凰"
 
 msgid "shortSeasonName/second"
-msgstr "绯红蛟龙"
+msgstr "绯红凤凰"
 
 msgid "shortSeasonName/third"
-msgstr "翠绿蛟龙"
+msgstr "翠绿凤凰"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "此版块包含天梯战模式当前赛季最强玩家的相关信息。"
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "查看全部"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "支持天梯战传奇系列，入手赛事礼包来为奖金池加码！"
+msgstr "若您选择的团队获胜，您将获得金色的2026 OLS独特徽章。为您最爱的团队喝彩！"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "入手专属主题自定义元素与独特坦克，展现您的电竞精神！"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "《坦克世界》国际冠军赛将在中国苏州展开最终的史诗对决，来自全球的最强战队将在“天梯战”模式规则下争夺世界冠军的荣誉称号。体验究极刺激战斗，见证传奇在战场诞生！"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS第6赛季"
+msgstr "OLS第7赛季"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "2025年WCI"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "此赛季是您获取珍贵奖励的最后机会，包括专属的X级重型坦克Ashbringer及其所有（您已为它解锁的）独特3D风格、附带“兄弟连”作为零特长的英勇无畏乘员、可自选的改进型和试验型装备、引人注目的2D风格等。机不可失——胜利就在前方！"
 
 msgid "whatsNewView/banner/heading"
-msgstr "把握蛟龙年的最后时刻！"
+msgstr "把握凤凰年的最后时刻！"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "翠绿蛟龙赛季"
+msgstr "苍蓝凤凰赛季"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "天梯战：有什么新内容？"
 
 msgid "whatsNewView/button/ok"
-msgstr "禁得好！"
+msgstr "点燃您的烈焰！"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "采用全新2.0版本设计的战斗后结果界面优化，现在每场战斗后都会为您提供更多的模式相关信息。"
+msgid "whatsNewView/drawConditions/description"
+msgstr "当战斗时间结束且无任何团队取得明确胜利时，战斗结果将按照以下顺序进行判定：存活的战车数量、造成的伤害，以及率先摧毁对方战车的一方。如果双方团队均未造成任何伤害，则该场战斗判定为平局。"
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "详细战斗结果"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "如果您最喜爱的战车被排除在外，也不用太担心。租用战车现有预先配置的乘员、装备、炮弹与消耗品。"
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "可立即上场的租用战车%(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "每个团队可完全禁用一辆战车，使其无法参与战斗。与队友协调投票来排除您最忌惮的战车，或为敌人准备意想不到的阵容。"
-
-msgid "whatsNewView/intro/heading"
-msgstr "战车禁用%(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "平局条件更新{{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "地图"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "天梯战有新战车可用"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "2.4版本推出全新的轻型坦克角色，并对战车属性进行平衡性调整。尽情在战斗中体验吧！"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "轻型坦克的全新角色{{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "在熟悉的地图上体验全新玩法。改动内容包括夜间环境、新的观测站、新的关键点位位置，以及经过修改的侦察机制。这一切都将重塑战斗节奏，让战场意识、时机把握和战术机动的重要性进一步提升。"
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "夜间地图登场！{{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "由于参与战斗的玩家人数不足，超级小队功能已停用。我们正在为天梯战模式开发其他以团队为基础的玩法。在此期间，我们将定期举办7v7赛事。"
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "超级小队已停用{{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "租用战车"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "最近推出的美国X级中型坦克Ares 90现已开放在此模式中使用，相应的角色技能已调整。"
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "•地图：已移除埃勒斯堡。已调整阿拉曼机场关键点位位置。已针对皮尔森进行小幅调整。\n•战车：已移除Vz. 60S Dravec。已添加德国重型坦克Kampfpanzer 67。"
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "角色技能更新%(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "达到白银段位的玩家，即可在天梯战商店购买114 SP2。"
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "商店更新%(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "赛季平衡性调整{{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "已移除"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "赛季I：苍蓝蛟龙"
+msgstr "赛季I：苍蓝凤凰"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "赛季II：绯红蛟龙"
+msgstr "赛季II：绯红凤凰"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "赛季III：翠绿蛟龙"
+msgstr "赛季III：翠绿凤凰"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "当前"

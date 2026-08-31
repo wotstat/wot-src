@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=1; plural=0;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "เมื่อเปิดแล้ว กล่องเหล่านี้อาจจะมอบพาหนะ, สกุลเงินในเกมและรางวัลมีค่าอื่นๆให้คุณ"
+msgstr "เมื่อเปิด กล่องเหล่านี้อาจจะมอบพาหนะพิเศษระดับ VIII, สกุลเงินในเกมและสิ่งของมีค่าอื่นๆให้"
 
 msgid "boxTooltip/description/text/gold"
-msgstr "เมื่อเปิดแล้ว กล่องเหล่านี้อาจจะมอบพาหนะ, องค์ประกอบปรับแต่งและรางวัลมีค่าอื่นๆให้คุณ"
+msgstr "เมื่อเปิด กล่องเหล่านี้อาจจะมอบพาหนะหายากระดับ X, สกุลเงินในเกมและสิ่งของมีค่าอื่นๆให้"
 
 msgid "boxTooltip/description/text/silver"
-msgstr "เมื่อเปิดแล้ว กล่องเหล่านี้อาจจะมอบพาหนะ, องค์ประกอบปรับแต่งและรางวัลมีค่าอื่นๆให้คุณ"
+msgstr "เมื่อเปิด กล่องเหล่านี้อาจจะมอบพาหนะพิเศษระดับ IX, สกุลเงินในเกมและสิ่งของมีค่าอื่นๆให้"
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "สามารถได้รับจากร้านค้าในเกมและได้รับเมื่อทำการเปิดกล่องชนิดอื่นๆใดๆก็ตาม"
+msgstr "สามารถได้รับเป็นของขวัญจากการซื้อสิ่งของในร้านค้าพิเศษรวมไปถึงเมื่อเปิดกล่องชนิดอื่นๆ"
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "สามารถได้รับระหว่างเปิดกล่องชนิดอื่นๆได้"
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "สามารถได้รับระหว่างเปิดกล่องชนิดอื่นๆได้"
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "กล่องเงินรางวัล"
+msgstr "กล่องสวรรค์"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "กล่องประโยชน์"
+msgstr "กล่องผู้ถูกเลือก"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "กล่องการมอบ"
+msgstr "กล่องสวรรค์ช่วยเหลือ"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "กล่องเงินรางวัล"
+msgstr "กล่องสวรรค์"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "กล่องประโยชน์"
+msgstr "กล่องผู้ถูกเลือก"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "กล่องการมอบ"
+msgstr "กล่องสวรรค์ช่วยเหลือ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "กล่องพิเศษเหล่านี้มีสิ่งของใหม่และสิ่งของที่เป็นเอกลักษณ์ กล่องสามารถซื้อได้จากร้านค้าในเกม"
+msgstr "เหล่านี้เป็นกล่องพิเศษที่มีพาหนะระดับ VIII-X ที่ใหม่และเป็นเอกลักษณ์กับรางวัลเพิ่มเติม\nคุณสามารถได้รับกล่องเป็นรางวัลจากการซื้อสิ่งของในร้านค้าพิเศษรวมไปถึงได้รับกล่องจากการเปิดกล่องชนิดอื่นๆด้วย"
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "กิจกรรมจะจบลงใน"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "กล่องไม่สามารถเปิดหรือซื้อได้ในขณะนี้เนื่องด้วยเหตุทางเทคนิค ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "กล่องพรของทวยเทพไม่มีให้ชั่วคราว"
 
 msgid "eventName/lowerCase"
-msgstr "คลังเสียงกระซิบ"
+msgstr "พรของทวยเทพ"
 
 msgid "eventName/upperCase"
-msgstr "คลังเสียงกระซิบ"
+msgstr "พรของทวยเทพ"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "ถ้ามีพาหนะทั้งหมดแล้วคุณจะได้รับกล่องประโยชน์แทน"
+msgid "infoPage/footer/description/autoOpen"
+msgstr "ถ้าคุณยังไมไ่ด้เปิดกล่องก่อนกิจกรรมจบลง ก็จะทำการเปิดกล่องดังกล่าวโดยอัตโนมัติในภายหลัง"
 
 msgid "infoPage/footer/description/compensation"
-msgstr "ถ้าคุณมีพาหนะทั้งหมดจากกล่องดังกล่าวแล้ว คุณจะได้รับกล่องประโยชน์เป็นรางวัลแทนที่พาหนะ"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากกล่องดังกล่าวแล้ว คุณจะได้รับกล่องผู้ถูกเลือกเป็นรางวัลรับประกันหรือแทนพาหนะที่สามารถมอบให้ได้"
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "่ทุกๆกล่องเงินรางวัลที่ %(guaranteed0)s, กล่องการมอบที่ %(guaranteed1)s, และกล่องประโยชน์ที่ %(guaranteed2)s นั้นรับประกันว่าจะมีพาหนะให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องที่ %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (ขึ้นกับชนิดของกล่อง) และเมื่อได้รับ ตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+msgstr "่ทุกๆกล่องสวรรค์ที่ %(guaranteed0)s, กล่องสวรรค์ช่วยเหลือที่ %(guaranteed1)s, และกล่องผู้ถูกเลือกที่ %(guaranteed2)s นั้นรับประกันว่าจะมีพาหนะระดับ VIII-X ให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับ VIII-X ที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องที่ %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (ขึ้นกับชนิดของกล่อง) และเมื่อได้รับ ตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
 
 msgid "infoPage/footer/title/compensation"
-msgstr "ค่าชดเชย"
+msgstr "ถ้าได้รับพาหนะทั้งหมดแล้ว"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "รางวัลรับประกัน"
+msgid "infoPage/header/description"
+msgstr "เปิดกล่องเพื่อโอกาสในการได้รับสิ่งของในเกมที่มีค่า!\nมาดูรายการที่เป็นไปได้ในด้านล่างกัน"
 
-msgid "infoPage/header/rewards/description"
-msgstr "ไม่สามารถมอบมากกว่าหนึ่งรางวัลต่อหนึ่งกลุ่ม"
+msgid "noBoxesView/description/"
+msgstr "คุณไม่มีกล่องใดๆ\nคุณสามารถหากล่องได้จากร้านค้าพิเศษ"
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "กล่องผู้ถูกเลือก"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากกล่องดังกล่าวแล้ว คุณจะได้รับกล่องผู้ถูกเลือกเป็นรางวัลรับประกันหรือแทนที่พาหนะ"
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "กล่องสวรรค์"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "กล่องผู้ถูกเลือก"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "กล่องสวรรค์ช่วยเหลือ"

@@ -10,7 +10,7 @@ from helpers import html
 from gui.clans.formatters import getClanRoleString
 from gui.shared.utils import code2str
 from messenger.ext import passCensor
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from shared_utils import CONST_CONTAINER
 from skeletons.gui.shared import IItemsCache
 if typing.TYPE_CHECKING:
@@ -42,6 +42,7 @@ class ClanInfo(namedtuple(b'ClanInfo', [
 
 class _ClanCache(object):
     itemsCache = dependency.descriptor(IItemsCache)
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
 
     def __init__(self):
         self.__waitForSync = False
@@ -92,10 +93,6 @@ class _ClanCache(object):
 
     def clear(self):
         self.__stopProviders()
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     @property

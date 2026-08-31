@@ -102,7 +102,10 @@ SM_TYPE = Enumeration(b'System message type', [
  103, 
  104, 
  105, 
- 106])
+ 106, 
+ 107, 
+ 108, 
+ 109])
 CURRENCY_TO_SM_TYPE = {(Currency.CREDITS): (SM_TYPE.PurchaseForCredits), 
    (Currency.GOLD): (SM_TYPE.PurchaseForGold), 
    (Currency.CRYSTAL): (SM_TYPE.PurchaseForCrystal), 

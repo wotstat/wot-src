@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "연말연시 작전 상자가 모두 개봉되었습니다."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "축하합니다!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "프리미엄 상점에서 대형 상자 구매 가능"
 
-msgid "entryDesc/newYear_premium"
-msgstr "대형 상자"
-
-msgid "entryDesc/newYear_usual"
-msgstr "소형 상자"
-
-msgid "entryDesc/questSlot"
-msgstr "임무 완료 시 소형 상자가 지급됩니다."
-
 msgid "entryDesc/restrictedMode"
 msgstr "일시적으로 해당 기능을 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
 
 msgid "entryPoint/header"
-msgstr "상자"
-
-msgid "entryTooltip/body/h1"
-msgstr "대형 상자 구매"
-
-msgid "entryTooltip/body/h2"
-msgstr "소형 상자 획득"
-
-msgid "entryTooltip/body/p1"
-msgstr "프리미엄 상점에서 연말연시 장식이 들어있는 상자를 구매하여 직접 사용하거나 친구에게 선물해 보십시오."
-
-msgid "entryTooltip/body/p2"
-msgstr "연말연시 작전 임무 완료 시 지급됩니다."
-
-msgid "entryTooltip/header"
 msgstr "상자"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "보유: {count}개"
 msgid "entryView/buyLabel"
 msgstr "상자 구매"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "보관소에 대형 상자가 없습니다.\n프리미엄 상점에서 추가로 구매하십시오."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "보유한 소형 상자가 없습니다.\n전투를 통해 획득하십시오."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "{year} 연말연시 작전"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "확인"
@@ -178,9 +139,6 @@ msgstr "보급 상자 개봉"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "추가 완료"
 
-msgid "notification/ny19man"
-msgstr "특별 승무원: %(count)s"
-
 msgid "notification/rewards"
 msgstr "다음 보상 획득:"
 
@@ -244,36 +202,6 @@ msgstr "특별 스타일"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "차고에서 보기"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "크리스마스 상자"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "마법 상자"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "새해 상자"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "정월 초하루 상자"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "크리스마스 컬렉션"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "마법 컬렉션"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "새해 컬렉션"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "정월 초하루 컬렉션"
-
-msgid "tooltip/category/rewards/description"
-msgstr "{category} 장식과 여러 값진 보상이 포함되어 있는 상자입니다."
-
-msgid "tooltip/category/rewards/header"
-msgstr "보상:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "프리미엄 상점에서 상자를 추가로 구매합니다."
 
@@ -285,12 +213,6 @@ msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 �
 
 msgid "type/event_premium"
 msgstr "새벽 보급 상자"
-
-msgid "type/newYear_premium"
-msgstr "대형 상자"
-
-msgid "type/newYear_usual"
-msgstr "소형 상자"
 
 msgid "type/wt_boss"
 msgstr "기술자 시동 장치"

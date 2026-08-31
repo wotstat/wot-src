@@ -49,6 +49,9 @@ msgstr "A-220A-2"
 msgid "A_220A_CFE_D"
 msgstr "A-220A"
 
+msgid "A_220B_1_F"
+msgstr "A-220B"
+
 msgid "A_220B_1_QL"
 msgstr "A-220B QL"
 
@@ -57,6 +60,9 @@ msgstr "A-220B/78"
 
 msgid "A_220B_79"
 msgstr "A-220B/79"
+
+msgid "A_220C"
+msgstr "A-220C"
 
 msgid "A_220R"
 msgstr "A 220R"
@@ -700,6 +706,21 @@ msgstr "BZ-75 7x7"
 msgid "Ch48_BZ_75_7x7_short"
 msgstr "BZ-75 7x7"
 
+msgid "Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_descr"
+msgstr "「我靜靜地躺著，看著遠方升起的濃煙。黑色煙霧竄得比任何高射炮都要高，餘燼在空中交織，然後消逝。我戰敗的唯一證明，是覆蓋戰場的灰燼 — 灰暗、無形、死寂且終結。然而其中，仍有幾縷熾熱的餘火在隱隱燃燒，無視將臨的止息。即便在此，毀滅過後，仍存一絲火花。\n\n我這才意識到，終點即是起點。\n\n因為若不曾燃燒，又怎能浴火重生？」"
+
+msgid "Ch48_BZ_75_CFE_F_long_special"
+msgstr "Fireborn 橫掃戰場，眾人畏懼，萬人景仰。強大武裝能對任何目標造成大量傷害，而噴射助推器與可靠裝甲的結合，則帶來無與倫比的機動性與防護。出其不意地襲擊對手，讓鳳凰展翅高飛吧！"
+
+msgid "Ch48_BZ_75_CFE_F_short"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_short_special"
+msgstr "噴射助推器，強大的炮管"
+
 msgid "Ch48_BZ_75_descr"
 msgstr "1960 年代，在與蘇聯關係緊張之際，中國提出了打造「邊境巡防部隊」的概念。此部隊的主要火力由「邊境巡防戰車」組成。這類車輛的其中一項計畫為 BZ-75，借助開發 WZ-111 重型戰車所獲的經驗並於 1975 年展開研發。研發炮塔期間，工程師結合了 WZ-1224 計畫的設計特色。BZ-75 從未製造過原型車。"
 
@@ -981,6 +1002,18 @@ msgstr "延續中國驅逐戰車的一貫風格，PTZ-78 裝備有火力驚人�
 
 msgid "Ch70_PTZ_78_short"
 msgstr "PTZ-78"
+
+msgid "Ch71_WZ_219"
+msgstr "WZ-219"
+
+msgid "Ch71_WZ_219_descr"
+msgstr "1970 年代初期，中國開始研發一款輕型戰車，以取代過時的 Type 62。此車輛尺寸小巧且快速，本應在火力方面與主力戰車匹敵。設計中包括多功能瞄準系統與測距系統；然而，這套系統過於笨重，且需要單獨安裝動力單元。受限各項困難且成本高昂，此計畫最終遭終止。"
+
+msgid "Ch71_WZ_219_long_special"
+msgstr "如同其他中國輕型戰車，WZ-219 擁有令人印象深刻的武裝。此車輛的獨特之處在於其精密的測距裝置，能高效揭露不設防隱蔽目標的位置，使對手淪為脆弱的活靶。"
+
+msgid "Ch71_WZ_219_short"
+msgstr "WZ-219"
 
 msgid "Ch72_Yongshi"
 msgstr "Yongshi"
@@ -1264,6 +1297,9 @@ msgstr "Bull Demon King"
 msgid "Chassis_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Chassis_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Chassis_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1330,6 +1366,9 @@ msgstr "BZ-79"
 msgid "Chassis_Ch68_PGZ_70"
 msgstr "PGZ-70"
 
+msgid "Chassis_Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "Chassis_Ch72_Yongshi"
 msgstr "Yongshi"
 
@@ -1367,6 +1406,9 @@ msgid "Gun_Ch00_ClingeBot_SH"
 msgstr "Clinger"
 
 msgid "HS_110F"
+msgstr "HS 110F"
+
+msgid "HS_110F_F"
 msgstr "HS 110F"
 
 msgid "HS_110F_M"
@@ -1588,6 +1630,9 @@ msgstr "Bull Demon King"
 msgid "Turret_1_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Turret_1_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Turret_1_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1647,6 +1692,9 @@ msgstr "PGZ-70"
 
 msgid "Turret_1_Ch70_PTZ_78"
 msgstr "PTZ-78"
+
+msgid "Turret_1_Ch71_WZ_219"
+msgstr "WZ-219"
 
 msgid "Turret_1_Ch72_Yongshi"
 msgstr "Yongshi"
@@ -2029,6 +2077,18 @@ msgstr "105 mm Type 81-I"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_115mm_69_115T"
+msgstr "115 mm 69-115T"
+
+msgid "_115mm_Po_115G"
+msgstr "Po-115G"
+
+msgid "_115mm_Sha_bao_115G"
+msgstr "Sha bao-115G"
+
+msgid "_115mm_Tuo_chuan_115G"
+msgstr "Tuo chuan-115G"
+
 msgid "_120mm_CB-472LY"
 msgstr "Chuan bei-472LY"
 
@@ -2166,6 +2226,9 @@ msgstr "12150L (34-1)"
 
 msgid "_12150L_70"
 msgstr "12150L-70"
+
+msgid "_12150ZL"
+msgstr "12150ZL"
 
 msgid "_122-mm_37-122JT"
 msgstr "122 mm 37-122JT"
@@ -2527,6 +2590,9 @@ msgstr "Sprgr. G 45 (WT IV)"
 msgid "_152_mm_64_152T"
 msgstr "152 mm 64-152T"
 
+msgid "_152_mm_64_152T_F"
+msgstr "152 mm 64-152T"
+
 msgid "_152_mm_64_152T_M"
 msgstr "152 mm 64-152DV"
 
@@ -2555,6 +2621,9 @@ msgid "_152mm_59_152JG_FT_HE_G6_SH"
 msgstr "59-152JG HE"
 
 msgid "_152mm_AP_T"
+msgstr "Chuan bei-152T"
+
+msgid "_152mm_AP_T_F"
 msgstr "Chuan bei-152T"
 
 msgid "_152mm_Chuan_bei_152T_DV"
@@ -2599,7 +2668,13 @@ msgstr "GM 45HE B"
 msgid "_152mm_HEAT_T"
 msgstr "Po-152T"
 
+msgid "_152mm_HEAT_T_F"
+msgstr "Po-152T"
+
 msgid "_152mm_HE_T"
+msgstr "Sha bao-152T"
+
+msgid "_152mm_HE_T_F"
 msgstr "Sha bao-152T"
 
 msgid "_152mm_Po_152"

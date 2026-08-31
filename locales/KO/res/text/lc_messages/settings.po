@@ -46,6 +46,15 @@ msgstr "게임 사물 파괴 처리가 더욱 세밀하고 현실적으로 향�
 msgid "HAVOK_ENABLED/warning"
 msgstr "현재 전투에서 비활성화한 설정은 다음 전투부터 적용됩니다."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "시각 효과 향상"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "활성화 시 시각 효과가 향상됩니다. 해당 설정을 비활성화하면 일반 효과로 전환되어 게임 성능이 향상될 수 있습니다."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "현재 전투에서 비활성화한 설정은 다음 전투부터 적용됩니다."
+
 msgid "LANGUAGE_CODE"
 msgstr "ko"
 
@@ -175,11 +184,11 @@ msgstr "궤도 및 차륜 자국 활성화"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "지면에 궤도 및 차륜 자국을 표시합니다.\n\n간소 그래픽 설정, 낮음 데칼 품질에서는 이용할 수 없습니다."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "저격 모드에서 3D 부착물 숨기기"
+msgid "VISIBILITY_TUNNEL"
+msgstr "효과 및 3D 부착물 표시 조정"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "저격 모드에서 조준원 주변에 표시되는 전차의 3D 부착물을 임시로 숨깁니다.\n\n시각적 혼잡이 줄어들고 조준 정확도가 향상됩니다."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "조준 시 화면 중앙 부근의 효과와 3D 부착물 시각 표시 수준을 조정하여 시야 방해를 줄입니다. 3D 부착물 시각 표시 조정은 저격 모드에서만 적용됩니다.\n\n값을 낮추면 효과 및 3D 부착물이 더 투명해져 조준 시 시야를 더 명확하게 확보할 수 있습니다."
 
 msgid "WATER_QUALITY"
 msgstr "수면 품질"
@@ -1995,6 +2004,15 @@ msgstr "모드"
 
 msgid "screenMode/windowed"
 msgstr "창 모드"
+
+msgid "showPrebattleHighlights"
+msgstr "집중 조명 활성화"
+
+msgid "showPrebattleHighlights/description"
+msgstr "전투 시작 전 초읽기 중 일부 전차를 집중적으로 조명합니다.\n\n해당 설정을 비활성화하면 게임 성능이 향상됩니다."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "현재 전투에서 설정을 비활성화하면 다음 전투에서는 다시 활성화됩니다."
 
 msgid "smoothing/description"
 msgstr "게임 화면 내 사물 윤곽선 처리 품질을 설정합니다. 계단 현상을 최소화하고 사물의 윤곽선이 부드럽게 처리됩니다."

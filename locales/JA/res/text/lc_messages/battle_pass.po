@@ -229,23 +229,14 @@ msgstr "(購入時)"
 msgid "battlePassBuyView/descr"
 msgstr "ステージを購入すると、そのステージに含まれるすべての報酬が即座に手に入ります。"
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "ステージを達成した際に以下の報酬が追加で手に入るようになります。"
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "ステージ%(steps)sの報酬を入手できます"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "以下の報酬が即座に手に入ります。"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "ステージ%(steps)sの報酬を入手できます"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "今後獲得できる報酬"
+msgstr "ステージ達成で獲得"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "今すぐ獲得できる報酬"
+msgstr "即時獲得"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "バトルパス・チャプターへの挑戦を開始"
@@ -277,20 +268,17 @@ msgstr "ジュブルの歌"
 msgid "chapter/fullName/1114"
 msgstr "ジュブルの歌"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "エリート・サイクル"
 
-msgid "chapter/fullName/201"
-msgstr "覆われし刻"
+msgid "chapter/fullName/211"
+msgstr "スペシャリスト"
 
-msgid "chapter/fullName/202"
-msgstr "我らの運命"
+msgid "chapter/fullName/212"
+msgstr "スタントマン"
 
-msgid "chapter/fullName/203"
-msgstr "砂の司令塔"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "ストイック"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "ジュブルの歌"
@@ -298,17 +286,14 @@ msgstr "ジュブルの歌"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "ジュブルの歌"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "覆われし刻"
+msgid "chapter/fullNameUppercased/211"
+msgstr "スペシャリスト"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "我らの運命"
+msgid "chapter/fullNameUppercased/212"
+msgstr "スタントマン"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "砂の司令塔"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "ストイック"
 
 msgid "chapter/title"
 msgstr "チャプター%(chapter)s"
@@ -471,6 +456,9 @@ msgstr "搭乗員EXP3倍ミッション"
 
 msgid "equipCoinBonus"
 msgstr "コンポーネント: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D付属品のセット"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "車長"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "全チャプターを制覇すると挑戦できるようになります。達成したチャプター: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "プレミアム車輌1輌と『Far Cry』コラボ限定カスタマイズ要素が手に入ります。"
+msgstr "限定報酬やカスタマイズ要素を手に入れるチャンスです。"
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "バトルパス〈Far Cry〉が開幕！"
+msgstr "特別チャプターが登場!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "「改良パス」でさらなる報酬をアンロック"
@@ -1114,11 +1102,8 @@ msgstr "「エリート・サイクル」のステージ%(level)d"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "EXPを選択した%(nation)s車輌の各搭乗員に付与する。"
 
-msgid "rewardChoice/subTitle"
-msgstr "報酬を選択可能"
-
 msgid "rewardChoice/title"
-msgstr "バトルパス"
+msgstr "報酬を選択"
 
 msgid "rewardChoice/titleChapter"
 msgstr "【バトルパス】チャプター『%(chapter)s』"
@@ -1129,14 +1114,14 @@ msgstr "【バトルパス】チャプター『%(chapter)s』ステージ%(level
 msgid "season/fullName/1002"
 msgstr "ジュブルの歌"
 
-msgid "season/fullName/20"
-msgstr "砂上の轍を辿って"
+msgid "season/fullName/21"
+msgstr "地上を行く者"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "ジュブルの歌"
 
-msgid "season/fullNameUppercased/20"
-msgstr "砂上の轍を辿って"
+msgid "season/fullNameUppercased/21"
+msgstr "地上を行く者"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "好きなディレクティブ"

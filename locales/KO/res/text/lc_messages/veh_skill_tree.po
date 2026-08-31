@@ -298,8 +298,26 @@ msgstr "추력기 활성화 시 엔진 출력이 {colorTagOpen}{value}%{colorTag
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "한 전투에서 추력기의 최대 사용 가능 횟수가 {colorTagOpen}{value}회{colorTagClose} 증가합니다."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "적외선 탐색 추적 최초 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "적외선 탐색 추적 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "적외선 탐색 추적으로 적을 발견한 후 내 전차가 발각 상태로 유지되는 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "적외선 탐색 추적 지속 시간이 {colorTagOpen}{value0}초{colorTagClose} 증가하며, 탐색 범위가 {colorTagOpen}{value1}도{colorTagClose} 좁아지고, 관측 범위가 {colorTagOpen}{value2}%{colorTagClose} 증가합니다. 또한 기동 중인 적 전차 위장률은 {colorTagOpen}{value3}%{colorTagClose}만큼, 수풀 뒤에 숨은 적 전차 위장률은 {colorTagOpen}{value4}%{colorTagClose}만큼 감소합니다."
+
 msgid "tooltips/description/crewProtection"
 msgstr "전차가 피해를 받을 때 승무원이 부상을 당할 확률이 감소합니다."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "비관통 후 관통력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "관통 후 공격력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "주포 손상 시 분산도가 감소합니다."
@@ -460,6 +478,18 @@ msgstr "주포 클립 내 포탄 간 재장전 시간이 단축됩니다."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "사격 시 적 전차에 발견될 확률이 감소합니다."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "클립이 모두 장전되지 않았을 때 충전 보충 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "클립이 모두 장전되어 있을 때 충전 보충 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "포탄 고속 장전 시간이 {colorTagOpen}추가로 {value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "전투 시작 시 사용 가능한 충전 횟수가 {colorTagOpen}{value}회{colorTagClose} 증가합니다."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "주포 냉각 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
 
@@ -468,6 +498,18 @@ msgstr "사격 시 발생하는 열이 {colorTagOpen}{value}%{colorTagClose} 감
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "과열된 주포의 냉각 속도가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "동축 비유도 로켓 재장전 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "동축 비유도 로켓 재장전 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "동축 비유도 로켓 재장전 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "로켓 공격력이 {colorTagOpen}{value}{colorTagClose} 증가합니다."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "고폭탄 이외의 포탄 공격력이 증가합니다."
@@ -547,6 +589,18 @@ msgstr "포대 모드에서 주포 분산도가 {colorTagOpen}{value}%{colorTagC
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "포대 모드에서 주포 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 단축됩니다."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "외장 탄약 보급 모드에서 최고 전진 속력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "외장 탄약 보급 모드에서 특별 포탄 공격력이 {colorTagOpen}{value}{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "외장 탄약 보급 모드에서 기본 포탄 공격력이 {colorTagOpen}{value}{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "외장 탄약 보급 모드에서 주포 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 감소합니다. 고폭탄에는 적용되지 않습니다."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "전차 연료 탱크 및 엔진 부품 내구력이 향상됩니다."
 
@@ -555,6 +609,9 @@ msgstr "탄약고 및 엔진 손상에 대한 페널티가 감소합니다."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "적 전차의 부품에 포탄 명중 시 입히는 피해가 증가합니다."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "사격 모드 전환에 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "대체 포탄 및 소모품 세트를 구성할 수 있습니다."
@@ -742,6 +799,18 @@ msgstr "코어 형태 최적화"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "확장형 추진기 보관 장치"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "개량형 시머 점화기"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "고성능 수랭식 시스템"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "저분산 광학 장치"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "동시 작동형 수랭식 시스템"
+
 msgid "tooltips/title/chassisHP"
 msgstr "현가장치 내구력"
 
@@ -750,6 +819,12 @@ msgstr "현가장치 수리 속도"
 
 msgid "tooltips/title/crewProtection"
 msgstr "승무원 보호"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "신관 조정 장치: 관통"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "신관 조정 장치: 공격력"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "상황별 주포 분산도"
@@ -928,6 +1003,18 @@ msgstr "내장 클립 재장전 시간"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "사격 후 위장률"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "고순도 회전자 권선"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "능동형 회전자 냉각"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "고전도성 고정자 외장"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "직교 배열식 권선"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "저온 열전달 유체"
 
@@ -936,6 +1023,18 @@ msgstr "고전도 열 하우징"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "열전달 파이프 최적화"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "장전 주기 최적화"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "장전 주기 최적화"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "장전 주기 최적화"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "개선형 탄두 배치"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "고폭탄 이외의 포탄 공격력"
@@ -1018,6 +1117,18 @@ msgstr "정밀 균형 회전자"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "유압 구동 장전기"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "개선형 현가장치 감쇠기"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "개량형 특별 일체형 포탄"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "개량형 일반 일체형 포탄"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "외장 탄약 보급 장전 주기 최적화"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "선별 부품 내구력 향상"
 
@@ -1026,6 +1137,9 @@ msgstr "선별 부품 보호 장치"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "포탄 부품 피해"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "재보정 최적화"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "포탄 및 소모품 구성"

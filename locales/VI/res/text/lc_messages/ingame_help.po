@@ -232,11 +232,35 @@ msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ n�
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Autocannon Kiểm Thermal Overheat"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Cơ chế này lập tức giảm thời gian nạp viên đạn xuống còn một khoảng ngắn nhất định. Mỗi lần dùng sẽ tiêu tốn một sạc mỗi viên, và sạc hồi dần theo thời gian — nhanh hơn khi đầy băng. Có lượng sạc cụ thể khả dụng từ đầu trận."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mechanism Cưỡng bức Loading"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Xe này trang bị ống phóng tên lửa gắn trên mặt nạ súng. Để chuyển sang kính ngắm tên lửa, nhấn:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Coaxial Rocket Launcher"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Khi ngắm bằng ống phóng tên lửa, nhấn nút bắn để phóng rốc-két:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Coaxial Rocket Launcher"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Mỗi lần trúng địch bằng một viên đạn, bạn sẽ nhận một mức hiệu quả tái nạp, giúp tạm thời tăng tốc reload cho súng. Các mức độ sẽ cộng dồn theo từng phát trúng.\nDiệt xe địch bằng đạn sẽ cho thêm mức hiệu quả tái nạp."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Ammo Rack bán-tự động"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Mô-đun Tiếp đạn Ngoài External Ammunition Feed của xe này cho phép bắn đạn liền khối có lượng thuốc phóng lớn, uy lực mạnh, gây sát thương cao hơn. Khi kích hoạt, mô-đun này làm giảm khả năng cơ động và tốc độ bắn."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Cơ chế External Ammunition Feed"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Nếu súng đã được nạp, bạn có thể bắt đầu làm nóng phát tiếp theo để tăng sát thương—mức nhiệt càng cao, Bonus cho sát thương trung bình càng lớn.\nĐể bắt đầu quá trình làm nóng, bấm:"
@@ -345,6 +369,30 @@ msgstr "Khi kích hoạt, bộ áp phản lực tăng công suất động cơ v
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Ưu và Nhược"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Khi dùng đạn bắn trúng một xe địch đang lộ hình, bộ hiệu chuẩn ngòi nổ trên viên tiếp theo sẽ được điều chỉnh. Nếu phát đầu xuyên giáp địch, sát thương của phát bắn tiếp theo sẽ tăng lên. Nếu không, khả năng xuyên giáp của phát tiếp theo sẽ tăng lên."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Adjustable Fuze Setter"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Súng xe có các thiết bị đặc biệt cho phép điều chỉnh tham số đạn trước khi bắn. Tham số mỗi loại đạn sẽ thay đổi tùy chế độ được chọn, mỗi chế độ giúp nhanh chóng thích nghi với tình huống chiến đấu."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Shell Calibration System"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Một thiết bị quang học tiên tiến giúp tăng tầm quan sát, cải thiện khả năng phát hiện xe đang di chuyển cũng như bị che khuất trong bụi cây. Lúc kích hoạt, nó quét một khu vực hẹp phía trước phương tiện, làm lộ các mục tiêu ẩn trước khi vào thời gian hồi phục."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrared Search and Track (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Tuy nhiên, nếu soi ra một kẻ địch chưa lộ diện, bạn cũng sẽ lập tức \"sáng đèn\" trong một khoảng thời gian nhất định, và cả bản thân lẫn địch do mình phát hiện đều được thông báo tức thì. Bạn có thể tự tay dừng quá trình quét và kích hoạt thời gian hồi phục của thiết bị sau một khoảng trễ ngắn."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrared Search and Track (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động của xe trong vài giây. Hai Thruster trái–phải có thể hoạt động độc lập, cho phép xoay thân nhanh hơn và không hạn chế khả năng lùi."

@@ -56,7 +56,6 @@ class BattlePassAwardsManager(object):
     @classmethod
     def uniteTokenBonuses(cls, bonuses):
         keys = []
-        splitKey = b''
         for bonus in bonuses:
             if bonus.getName() == BATTLE_PASS_SELECT_BONUS_NAME:
                 result = {}

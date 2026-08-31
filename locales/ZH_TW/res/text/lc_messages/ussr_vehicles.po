@@ -43,6 +43,9 @@ msgstr "1937 年在 No. 12 裝甲車維修基地 (由 Kharkov 指揮) 研發。B
 msgid "Bedford_Twin-Six"
 msgstr "Bedford Twin-Six"
 
+msgid "Chassis_1_R233_NK_1"
+msgstr "NK-1"
+
 msgid "Chassis_IS-6"
 msgstr "IS-6"
 
@@ -334,6 +337,9 @@ msgstr "Object 701"
 msgid "Chassis_R148_Object_430_U"
 msgstr "Object 430U"
 
+msgid "Chassis_R148_Object_430_U_7x7"
+msgstr "Object 430U"
+
 msgid "Chassis_R149_Object_268_4"
 msgstr "Object 268 Version 4"
 
@@ -611,6 +617,9 @@ msgid "Chassis_R43_T-70_2"
 msgstr "T-70 enhanced"
 
 msgid "Chassis_R45_IS-7"
+msgstr "IS-7"
+
+msgid "Chassis_R45_IS-7_7x7"
 msgstr "IS-7"
 
 msgid "Chassis_R47_ISU-152"
@@ -1141,6 +1150,9 @@ msgstr "M-50T"
 msgid "M_50TI"
 msgstr "M-50TI"
 
+msgid "M_50TI_7x7"
+msgstr "M-50TI"
+
 msgid "M_50TS"
 msgstr "M-50TS"
 
@@ -1164,6 +1176,9 @@ msgstr "M-80 (T-70)"
 
 msgid "M_850"
 msgstr "M-850"
+
+msgid "M_850B7"
+msgstr "M-850B7"
 
 msgid "M_850_7x7"
 msgstr "M-850"
@@ -1415,6 +1430,9 @@ msgid "R113M_140_7x7"
 msgstr "R-113"
 
 msgid "R113M_7x7"
+msgstr "R-113"
+
+msgid "R113M_7x7_0"
 msgstr "R-113"
 
 msgid "R113M_DR"
@@ -1983,6 +2001,15 @@ msgstr "全方位裝甲、大口徑炮管"
 
 msgid "R148_Object_430_U"
 msgstr "Object 430U"
+
+msgid "R148_Object_430_U_7x7"
+msgstr "Object 430U 7x7"
+
+msgid "R148_Object_430_U_7x7_descr"
+msgstr "Object 430U 為引擎傳動裝置室後置的 Object 430 中型戰車版本之一。此版本特色在於橫向的引擎配置以及兩個行星齒輪變速箱。這種技術解決方案可以擴大車內空間並減輕車輛重量。此車輛是為了取代 T-54 而在 1953 年到 1957 年間研發，但由於 Object 432 較受青睞而在 1961 年中止了所有工作。"
+
+msgid "R148_Object_430_U_7x7_short"
+msgstr "Obj. 430U 7x7"
 
 msgid "R148_Object_430_U_descr"
 msgstr "Object 430U 為引擎傳動裝置室後置的 Object 430 中型戰車版本之一。此版本特色在於橫向的引擎配置以及兩個行星齒輪變速箱。這種技術解決方案可以擴大車內空間並減輕車輛重量。此車輛是為了取代 T-54 而在 1953 年到 1957 年間研發，但由於 Object 432 較受青睞而在 1961 年中止了所有工作。"
@@ -2795,13 +2822,28 @@ msgid "R231_Buryan_descr"
 msgstr "戰後研發的一個方向，是探討戰車乘員的人體工學與最佳編制。基於所獲數據所開展的「NIR 1476」計畫（非正式名稱為 Buryan）旨在將人體測量研究成果應用於戰車設計。\n採用常規佈局、寬敞炮塔，配上兩名裝填手，可實現高射速；但 55 噸的重量、過大的炮塔側面投影面積，以及駕駛艙蓋缺失等問題，導致其操控性不佳。強化傾斜的車身前部進一步增加了重量，而唯一適配的 6TD 引擎在當時僅停留於設計階段。\n由於工程師難以平衡重量、尺寸、裝甲防護與人體工學等多重要求，最終研發未能成功。同時，至 1950 年代後期，配備自動裝填火炮的戰車佈局已出現，使減少乘員數量、降低重量、縮小正面投影面積，以及提高射速成為可能。"
 
 msgid "R231_Buryan_long_special"
-msgstr "Buryan 為蘇聯 IX 階重型戰車，兼具高單發傷害與高每分鐘傷害，在一對一交戰中表現出色；然而其炮管操控性表現平庸。其機動性足以應付短距離轉移，但較低的最高速度限制了側翼攻擊能力。堅固的炮塔可有效抵禦多數來襲砲彈。"
+msgstr "Buryan 為蘇聯 IX 階重型戰車，兼具高每發傷害與高每分鐘傷害，在一對一交戰中表現出色；然而其炮管操控性表現平庸。其機動性足以應付短距離轉移，但較低的最高速度限制了側翼攻擊能力。堅固的炮塔可有效抵禦多數來襲砲彈。"
 
 msgid "R231_Buryan_short"
 msgstr "Buryan"
 
 msgid "R231_Buryan_short_special"
 msgstr "較高的單發傷害，較高的每分鐘傷害"
+
+msgid "R233_NK_1"
+msgstr "NK-1"
+
+msgid "R233_NK_1_desc"
+msgstr "一項重型戰車計畫，誕生於 1950 年代末期至 1960 年代初期 — 此時期的戰車建造研究飛速發展，各方積極開發新型戰車並嘗試改良現有車輛。此車輛結合 IS-7 與 Object 277 的重型戰車元素。然而，隨著戰車建造方針的改變，角色定位成為決定性因素，而非作戰重量，重型戰車的研發也因而停止。"
+
+msgid "R233_NK_1_long_special"
+msgstr "NK-1 為蘇聯 IX 階突圍型重型戰車。此車輛極為擅長自身角色，擁有優異的最高前進速度、強大的炮管與堅固的裝甲。準度上的弱勢，完全由移動時優異的炮管操控性所彌補，讓您朝敵方防線不斷突破時能維持火力輸出。"
+
+msgid "R233_NK_1_short"
+msgstr "NK-1"
+
+msgid "R233_NK_1_short_special"
+msgstr "出色的操控性，堅固的正面裝甲"
 
 msgid "R234_T_13"
 msgstr "T-13"
@@ -2925,6 +2967,15 @@ msgstr "1941 年 10、11 月 Gorky Automobile Plant 建造局在 N. A. Astrov �
 
 msgid "R45_IS-7"
 msgstr "IS-7"
+
+msgid "R45_IS-7_7x7"
+msgstr "IS-7 7x7"
+
+msgid "R45_IS-7_7x7_descr"
+msgstr "IS-7 的研發始於 1945 年春季。在 1946 年到 1947 年間原型車成功地進行了測試。然而，IS-7 從未投入大量生產。"
+
+msgid "R45_IS-7_7x7_short"
+msgstr "IS-7 7x7"
 
 msgid "R45_IS-7_descr"
 msgstr "IS-7 的研發始於 1945 年春季。在 1946 年到 1947 年間原型車成功地進行了測試。然而，IS-7 從未投入大量生產。"
@@ -3703,6 +3754,9 @@ msgstr "Object 701"
 msgid "Turret_1_R148_Object_430_U"
 msgstr "Object 430U"
 
+msgid "Turret_1_R148_Object_430_U_7x7"
+msgstr "Object 430U"
+
 msgid "Turret_1_R149_Object_268_4"
 msgstr "Object 268 Version 4"
 
@@ -3889,6 +3943,9 @@ msgstr "Object 432U"
 msgid "Turret_1_R231_Buryan"
 msgstr "Buryan"
 
+msgid "Turret_1_R233_NK_1"
+msgstr "NK-1"
+
 msgid "Turret_1_R234_T_13"
 msgstr "T-13"
 
@@ -3926,6 +3983,9 @@ msgid "Turret_1_R43_T-70"
 msgstr "T-70"
 
 msgid "Turret_1_R45_IS-7"
+msgstr "IS-7"
+
+msgid "Turret_1_R45_IS-7_7x7"
 msgstr "IS-7"
 
 msgid "Turret_1_R47_ISU-152"
@@ -5221,6 +5281,9 @@ msgstr "10RK-26"
 msgid "_10RK-26M"
 msgstr "10RK-26B"
 
+msgid "_10RK-26_7x7_0"
+msgstr "10RK-26"
+
 msgid "_10RK-26_CN"
 msgstr "10RK-26M"
 
@@ -5238,6 +5301,9 @@ msgstr "10RKM"
 
 msgid "_10RK_2"
 msgstr "10RK-2"
+
+msgid "_10RK_26B7"
+msgstr "10RK-26B7"
 
 msgid "_10RK_SH"
 msgstr "10RK-DV"
@@ -5380,6 +5446,9 @@ msgstr "BK-9U"
 msgid "_122mm_BK_9U_430U"
 msgstr "BK-9U (430U)"
 
+msgid "_122mm_BK_9U_430U_7x7"
+msgstr "BK-9U (430U)"
+
 msgid "_122mm_BK_9_263"
 msgstr "BK-9 (263)"
 
@@ -5509,6 +5578,9 @@ msgstr "BR-472U"
 msgid "_122mm_BR_472U_430U"
 msgstr "BR-472U (430U)"
 
+msgid "_122mm_BR_472U_430U_7x7"
+msgstr "BR-472U (430U)"
+
 msgid "_122mm_BR_472VA"
 msgstr "BR-472VA"
 
@@ -5615,6 +5687,9 @@ msgid "_122mm_M62_T2D"
 msgstr "122 mm M62-T2D"
 
 msgid "_122mm_M62_T2U"
+msgstr "122 mm M62-T2U"
+
+msgid "_122mm_M62_T2U_7x7"
 msgstr "122 mm M62-T2U"
 
 msgid "_122mm_M62_T2_A"
@@ -5872,6 +5947,9 @@ msgstr "UOF-472U"
 msgid "_122mm_UOF_472U_430U"
 msgstr "UOF-472U (430U)"
 
+msgid "_122mm_UOF_472U_430U_7x7"
+msgstr "UOF-472U (430U)"
+
 msgid "_122mm_UOF_472VA"
 msgstr "UOF-472VA"
 
@@ -6064,8 +6142,14 @@ msgstr "130 mm S-70"
 msgid "_130mm_S_70A"
 msgstr "130 mm S-70A"
 
+msgid "_130mm_S_70B7"
+msgstr "130 mm S-70B7"
+
 msgid "_130mm_S_70_705"
 msgstr "130 mm S-70 (705)"
+
+msgid "_130mm_S_70_7x7"
+msgstr "130 mm S-70"
 
 msgid "_130mm_UBR-482P_fallout"
 msgstr "UBR-482P R"
@@ -6076,11 +6160,17 @@ msgstr "UBR-482 R"
 msgid "_130mm_UBR_482"
 msgstr "UBR-482"
 
+msgid "_130mm_UBR_482B7"
+msgstr "UBR-482B7"
+
 msgid "_130mm_UBR_482M"
 msgstr "UBR-482M"
 
 msgid "_130mm_UBR_482P"
 msgstr "UBR-482P"
+
+msgid "_130mm_UBR_482PB7"
+msgstr "UBR-482PB7"
 
 msgid "_130mm_UBR_482PM"
 msgstr "UBR-482PM"
@@ -6088,8 +6178,14 @@ msgstr "UBR-482PM"
 msgid "_130mm_UBR_482P_705"
 msgstr "UBR-482P (705)"
 
+msgid "_130mm_UBR_482P_7x7"
+msgstr "UBR-482P"
+
 msgid "_130mm_UBR_482_705"
 msgstr "UBR-482 (705)"
+
+msgid "_130mm_UBR_482_7x7"
+msgstr "UBR-482"
 
 msgid "_130mm_UOF-482_fallout"
 msgstr "UOF-482 R"
@@ -6097,11 +6193,17 @@ msgstr "UOF-482 R"
 msgid "_130mm_UOF_482"
 msgstr "UOF-482"
 
+msgid "_130mm_UOF_482B7"
+msgstr "UOF-482B7"
+
 msgid "_130mm_UOF_482M"
 msgstr "UOF-482M"
 
 msgid "_130mm_UOF_482_705"
 msgstr "UOF-482 (705)"
+
+msgid "_130mm_UOF_482_7x7"
+msgstr "UOF-482"
 
 msgid "_130mm_ZBK60M"
 msgstr "ZBK60M"
@@ -6800,6 +6902,9 @@ msgid "_4TDF"
 msgstr "4TDF"
 
 msgid "_4TPD"
+msgstr "4TPD"
+
+msgid "_4TPD_7x7"
 msgstr "4TPD"
 
 msgid "_53-BR-471-DG"

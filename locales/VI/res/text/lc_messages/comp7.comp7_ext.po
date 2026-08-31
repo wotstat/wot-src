@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Mùa Azure Dragon bắt đầu: %(date)s"
+msgstr "Mùa Azure Phoenix bắt đầu: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Mùa Crimson Dragon bắt đầu: %(date)s"
+msgstr "Mùa Crimson Phoenix bắt đầu: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Mùa Jade Dragon bắt đầu: %(date)s"
+msgstr "Mùa Jade Phoenix bắt đầu: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Đang chờ kết quả Vòng loại để nhận bậc của bạn"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Mùa Azure Dragon đã kết thúc"
+msgstr "Mùa Azure Phoenix đã kết thúc"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Mùa Crimson Dragon đã kết thúc"
+msgstr "Mùa Crimson Phoenix đã kết thúc"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Mùa Jade Dragon đã kết thúc"
+msgstr "Mùa Jade Phoenix đã kết thúc"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Giao tranh ở máy chủ này sẽ khả dụng sau %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Đã tăng đặc tính xe"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Đang khôi phục HP"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Tăng thiệt hại hứng chịu sắp tới"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Đã tăng đặc tính xe"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Mùa Azure Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[1] "Mùa Azure Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[2] "Mùa Azure Dragon sẽ kéo dài trong %(days)d ngày"
+msgstr[0] "Mùa Azure Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[1] "Mùa Azure Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[2] "Mùa Azure Phoenix sẽ kéo dài trong %(days)d ngày"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Mùa Crimson Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[1] "Mùa Crimson Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[2] "Mùa Crimson Dragon sẽ kéo dài trong %(days)d ngày"
+msgstr[0] "Mùa Crimson Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[1] "Mùa Crimson Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[2] "Mùa Crimson Phoenix sẽ kéo dài trong %(days)d ngày"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Mùa Jade Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[1] "Mùa Jade Dragon sẽ kéo dài trong %(days)d ngày"
-msgstr[2] "Mùa Jade Dragon sẽ kéo dài trong %(days)d ngày"
+msgstr[0] "Mùa Jade Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[1] "Mùa Jade Phoenix sẽ kéo dài trong %(days)d ngày"
+msgstr[2] "Mùa Jade Phoenix sẽ kéo dài trong %(days)d ngày"
 
 msgid "calendarDay/title"
 msgstr "Lịch"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Kỹ năng"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Cường kích. Năm Dragon"
+msgstr "Cường kích. Năm Phoenix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Kỹ năng \"số 0\""
@@ -574,11 +577,17 @@ msgstr "Rõ!"
 msgid "intro/description/banPhase"
 msgstr "Mỗi phe có thể cấm hoàn toàn một xe khỏi trận. Phối hợp bỏ phiếu cùng đồng minh để loại trừ cỗ máy đáng ngại nhất, hoặc chuẩn bị đội hình bất ngờ cho địch. Nếu phương tiện của bạn bị ban, hãy thay thế bằng xe thuê đã cấu hình sẵn."
 
+msgid "intro/description/draw"
+msgstr "Khi hết thời gian mà không đội nào thắng rõ ràng, tiêu chí phân định sẽ theo thứ tự sau: Số xe còn sống, lượng thiệt hại gây ra và xe bị hạ đầu tiên. Nếu không đội nào gây sát thương, trận đấu coi như hòa."
+
+msgid "intro/description/nightMaps"
+msgstr "Bản đồ Đêm làm các chiến trường quen thuộc thú vị hơn với ánh sáng mù mờ, Đồn Quan sát mới, cập nhật Điểm Then chốt, điều chỉnh cơ chế phát hiện. Danh sách hiện tại gồm Glacier, Sand River, Outpost và Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Chế độ có các hệ số điều chỉnh làm thay đổi đặc tính kỹ thuật của xe, chẳng hạn như sức kháng cự, thời gian chờ hồi vật phẩm, thời gian bị lộ hình, v.v..."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Sau khi chiếm được các khu vực nhất định trên bản đồ, bạn sẽ có thể sử dụng Kỹ Chiến lược. Có hai loại Điểm Then chốt: Sở Chỉ huy Pháo cho phép bắn phá một vị trí cụ thể, trong khi Trung tâm Liên lạc sẽ phát hiện mọi xe địch. Tùy vào bản đồ, địa điểm và sự hiện diện của những Điểm Then chốt này có thể sai khác."
+msgstr "Sau khi chiếm được các khu vực nhất định trên bản đồ, bạn sẽ có thể sử dụng Kỹ Chiến lược. Có hai loại Điểm Then chốt: Sở Chỉ huy Pháo cho phép bắn phá một vị trí cụ thể, trong khi Trung tâm Liên lạc sẽ phát hiện mọi xe địch. Tùy vào bản đồ, địa điểm và sự hiện diện của những Điểm Then chốt này có thể khác."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Đánh %(count)s trận Vòng loại để xác định mức kỹ n
 msgstr[2] "Đánh %(count)s trận Vòng loại để xác định mức kỹ năng và vị trí của mình. Khi xong, bạn sẽ nhận được phần thưởng cho bậc đạt được cũng như mọi bậc trước đó.\n\nĐào ngũ hoặc hòa trong Vòng loại sẽ bị tính là thua."
 
 msgid "intro/description/ranks"
-msgstr "Một hệ thống phản ánh kỹ năng của người chơi. Thăng tiến qua các bậc từ Iron đến Legend để nhận quà giá trị. Đánh suốt Mùa Dragon và lấy Phần thưởng Hàng năm độc đáo."
+msgstr "Thăng tiến qua các bậc từ Iron đến Legend để nhận quà giá trị. Đánh suốt Mùa Phoenix và lấy Phần thưởng Hàng năm độc đáo."
 
 msgid "intro/description/roleSkills"
 msgstr "Tùy theo vai trò, mỗi xe có một kỹ thuật đặc biệt với ba cấp độ sạc. Cấp sạc càng cao khi kích hoạt kỹ thuật, hiệu ứng sẽ càng mạnh. Cấp sạc phụ thuộc vào số Điểm Thanh thế, vốn kiếm được theo hiệu suất ấn tượng trong trận, chiếm Điểm Then chốt, sử dụng Kỹ Chiến lược, v.v...\n\nXem các nguyên tắc của chế độ để tìm hiểu những cách kiếm Điểm Thanh thế khác nhau."
@@ -597,6 +606,12 @@ msgstr "Bạn có thể tham chiến bằng xe Cấp %(levels)s nghiên cứu �
 
 msgid "intro/title/banPhase"
 msgstr "BAN XE"
+
+msgid "intro/title/draw"
+msgstr "LUẬT HÒA"
+
+msgid "intro/title/nightMaps"
+msgstr "BẢN ĐỒ ĐÊM"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "HỆ SỐ CHỈNH CƯỜNG KÍCH"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "THẮNG, NHƯNG BẠN"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Đã thăng lên %(rank)s"
+msgstr "Đã thăng lên {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Chỉ số: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Đã hạ xuống %(rank)s, %(division)s"
+msgstr "Đã hạ xuống {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Đã thăng lên %(rank)s, %(division)s"
+msgstr "Đã thăng lên {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Trận đã đánh"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Kỷ lục Điểm Thanh thế (mùa): %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Mùa Azure Dragon đã kết thúc trên máy chủ %(server)s."
+msgstr "Mùa Azure Phoenix đã kết thúc trên máy chủ %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Mùa Crimson Dragon đã kết thúc trên máy chủ %(server)s."
+msgstr "Mùa Crimson Phoenix đã kết thúc trên máy chủ %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Mùa Jade Dragon đã kết thúc trên máy chủ %(server)s."
+msgstr "Mùa Jade Phoenix đã kết thúc trên máy chủ %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Mua"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "CƯỜNG KÍCH. ĐÃ HOÀN TẤT VÒNG LOẠI"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "CƯỜNG KÍCH. MÙA AZURE DRAGON"
+msgstr "CƯỜNG KÍCH: MÙA AZURE PHOENIX"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "CƯỜNG KÍCH. MÙA CRIMSON DRAGON"
+msgstr "CƯỜNG KÍCH: MÙA CRIMSON PHOENIX"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "CƯỜNG KÍCH. MÙA JADE DRAGON"
+msgstr "CƯỜNG KÍCH: MÙA JADE PHOENIX"
 
 msgid "rewardsScreen/description/year"
-msgstr "CƯỜNG KÍCH. NĂM DRAGON"
+msgstr "CƯỜNG KÍCH. NĂM PHOENIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Ashbringer đâu?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Kết thúc sau %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Mùa Azure Dragon"
+msgstr "Mùa Azure Phoenix"
 
 msgid "seasonName/second"
-msgstr "Mùa Crimson Dragon"
+msgstr "Mùa Crimson Phoenix"
 
 msgid "seasonName/third"
-msgstr "Mùa Jade Dragon"
+msgstr "Mùa Jade Phoenix"
 
 msgid "seasonPointTooltip/header"
 msgstr "Onslaught Color"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Vị thứ trên Bảng Xếp hạng: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "CƯỜNG KÍCH. %(seasonNameUpper)s"
+msgstr "CƯỜNG KÍCH %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Đã nhận %(points)s Onslaught Color"
 msgstr[2] "Đã nhận %(points)s Onslaught Color"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "MÙA I. AZURE DRAGON"
+msgstr "MÙA I: AZURE PHOENIX"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "MÙA II. CRIMSON DRAGON"
+msgstr "MÙA II: CRIMSON PHOENIX"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "MÙA III. JADE DRAGON"
+msgstr "MÙA III: JADE PHOENIX"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Số thắng lợi: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Chế độ này sẽ khả dụng vào %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azure Dragon"
+msgstr "Azure Phoenix"
 
 msgid "shortSeasonName/second"
-msgstr "Crimson Dragon"
+msgstr "Crimson Phoenix"
 
 msgid "shortSeasonName/third"
-msgstr "Jade Dragon"
+msgstr "Jade Phoenix"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Mục này bao gồm thông tin về những người chơi giỏi nhất Mùa hiện tại của chế độ Cường kích."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Xem tất cả"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Ủng hộ Onslaught Legends Series đồng thời tăng quỹ thưởng bằng các gói Tour đấu!"
+msgstr "Nếu đội thắng, bạn sẽ nhận được một phù hiệu OLS 2026 vàng kim độc đáo. Cổ vũ Team ưa thích!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Thể hiện tinh thần eSport của bạn với các tùy biến độc quyền đúng chủ đề và xe tăng đặc biệt!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Một cuộc đụng độ kinh điển ở Giải World of Tanks Championship International sắp diễn ra tại Tô Châu, Trung Quốc. Những đội mạnh nhất thế giới sẽ tỉ thí theo luật của chế độ Cường kích, tất cả nuôi mộng giành danh hiệu vô địch thế giới danh giá. Trải nghiệm sự phấn khích khi chứng kiến huyền thoại ra đời trên chiến trường!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS Mùa 6"
+msgstr "OLS Mùa 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Mùa này đánh dấu cơ hội cuối cùng để đoạt thưởng quý giá, bao gồm tăng hạng nặng Ashbringer Cấp X độc đáo cùng tất cả kiểu mẫu 3D đặc biệt mà bạn đã kiếm được cho nó, cũng như kíp lái dũng mãnh Đoàn Kết kiểu kỹ năng \"số 0\", Thiết bị Tiên tiến/Thử nghiệm tùy chọn, một kiểu mẫu 2D bắt mắt và hơn nữa. Đừng bỏ lỡ—vinh quang chờ đón trên chiến trường!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Bắt khoảnh khắc chung cuộc Năm Dragon!"
+msgstr "Bắt khoảnh khắc chung cuộc Năm Phoenix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "MÙA JADE DRAGON"
+msgstr "MÙA AZURE PHOENIX"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "CƯỜNG KÍCH. CÓ GÌ MỚI?"
 
 msgid "whatsNewView/button/ok"
-msgstr "OK vát bôn!"
+msgstr "Phóng lửa Phượng Hoàng!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Màn hình kết quả hậu-chiến được cải tiến với thiết kế Cập nhật 2.0 mới mẻ, giờ sẽ cung cấp thêm thông tin liên quan đến chế độ sau mỗi trận."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Khi hết thời gian mà không đội nào thắng rõ ràng, tiêu chí phân định sẽ theo thứ tự sau: Số xe còn sống, lượng thiệt hại gây ra và xe bị hạ đầu tiên. Nếu không đội nào gây sát thương, trận đấu coi như hòa."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Kết quả Chiến đấu Chi li"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Hết lo phương tiện ưa thích của mình bị phân biệt đối xử. Các xe thuê giờ đi kèm kíp lái, thiết bị, đạn dược và vật phẩm được cấu hình sẵn."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Thuê Xài liền %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Mùa này, mỗi đội có thể ban hoàn toàn 1 xe khỏi trận. Phối hợp bỏ phiếu với đồng minh để vốt bỏ cỗ máy đáng ngại nhất, hoặc chuẩn bị đội hình bất ngờ cho đối thủ."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Ban Xe %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Cập nhật tiêu chí hòa {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Bản đồ"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Xe Mới trong Cường kích"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Bản 2.4 phát hành vai trò mới cho tăng hạng nhẹ và tái cân bằng đặc tính xe. Thử chúng trong trận!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Vai mới cho tăng hạng nhẹ {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Lối lạ trên bản đồ quen. Các thay đổi bao gồm ánh sáng mù mờ, Đồn Quan sát mới, cập nhật Điểm Then chốt, điều chỉnh cơ chế phát hiện. Tất cả tái định hình nhịp đánh, khiến khả năng quan sát, căn thời điểm và di chuyển chiến thuật quan trọng hơn bao giờ hết."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Đang đêm đem đèn đi đâu đấy! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Do số loại người chơi quá ít, Siêu Trung đội đã bị tắt. Chúng tôi đang nghiên cứu cách đánh Cường kích khác. Trong thời gian chờ, các Tour đấu 7v7 vẫn diễn ra thường xuyên đấy."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Hết Siêu Trung đội {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Xe Thuê"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Tăng hạng trung Ares 90 Cấp X của Mỹ ra mắt gần đây đã có trong chế độ, với Kỹ Vai trò được điều chỉnh."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Bản đồ: Erlenberg bị bỏ. Bố trí lại các ĐTc trên Airfield. Vài điều chỉnh nhỏ với Pilsen.\n• Xe: Vz. 60S Dravec bị bỏ. Tăng hạng nặng mới Kampfpanzer 67 của Đức được vào."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Cập nhật Kỹ Vai trò %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 hiện đã có thể mua từ hạng Silver trong Cửa hàng Cường kích."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Cập nhật Shop %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Cân bằng mùa này {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "BỊ BỎ"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Mùa I. Azure Dragon"
+msgstr "MÙA I: AZURE PHOENIX"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Mùa II. Crimson Dragon"
+msgstr "MÙA II: CRIMSON PHOENIX"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Mùa III: Jade Dragon"
+msgstr "MÙA III: JADE PHOENIX"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Hiện tại"

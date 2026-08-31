@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neon Dash là một sự kiện độc đáo, thời gian có hạn, đầy tính khác biệt! Đua xe, giao tranh trên những cung đường hiểm nguy, hoàn thành nhiệm vụ và nhận thưởng."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+msgstr "Hiệu suất máy tính hiện tại không đủ mạnh cho chế độ này. Bạn sẽ gặp vấn đề với đồ họa và chuyển động xe. Client trò chơi cũng có khả năng gặp sự cố."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Có thể Giảm Hiệu suất"
+msgstr "Hiệu suất thấp"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn có thể gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Có thể Giảm Hiệu suất"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Mọi Cấp"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+msgstr "Hiệu năng máy tính của bạn không đủ cho chế độ này. Bạn sẽ gặp vấn đề về đồ họa và chuyển động của xe. Khả năng ứng dụng game bị sập cũng rất cao."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Nên dùng thiết lập đồ họa cao nhất"
+msgstr "Hiệu suất thấp"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+msgstr "%(icon) Hiệu suất thấp"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Nên dùng thiết lập đồ họa cao nhất"
+msgstr "Có thể Giảm Hiệu suất"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+msgstr "%(icon) Có thể Giảm Hiệu suất"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Nhiệm vụ Neon Dash mới sẽ khả dụng sau:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Xin chúc mừng!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Hậu-Tiến-trình Vô tận"
+msgstr "Giai đoạn Làm lại được"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "Bạn đã hoàn tất tiến trình chính"
+msgstr "Bạn đã hoàn tất Tiến trình Chính"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Làm giai đoạn này bao lần cũng được."
+msgstr "Ẵm nhiều quà nhất có thể:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Điểm kiếm được: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Lặp lại được"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Khi hoàn tất:"
+msgstr "Khi hoàn tất"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Khi thua:"
+msgstr "Khi thua"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Khi thắng:"
+msgstr "Khi thắng"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Điểm:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Bạn đã hoàn thành tất cả nhiệm vụ khả dụng thời điểm này. Sẽ có thêm ở đợt xoay vòng tiếp theo."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Khả dụng trong {{timeLeft}}"
+msgstr "Hết hạn sau {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Khả dụng trong {{timeLeft}}"
+msgstr "Sự kiện hết sau {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nhiệm vụ mới khả dụng sau {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Né tia laser, canh chuẩn cú nhảy để lao nhanh về đích!"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Cẩn thận: Laser và Nhảy"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Nếu xe bị kẹt, hãy dùng khả năng \"Quay lại Chốt\" để dịch chuyển về chốt gần nhất đã thông."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Quay lại Chốt"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "để tìm hiểu thêm về chế độ này"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Lót đường\ntới vạch đích"
+msgstr "Lót đường tới vạch đích"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Mọi Cấp"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị khác có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng cao. Số khung hình trên giây (FPS) có thể bị tụt trong các lúc gay cấn."
+msgstr "Hiệu năng máy tính của bạn không đủ cho chế độ này. Bạn sẽ gặp vấn đề về đồ họa và chuyển động của xe. Khả năng ứng dụng game bị sập cũng rất cao."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Nên dùng Thiết lập Đồ họa Cao nhất"
+msgstr "Hiệu suất thấp"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+msgstr "%(icon) Hiệu suất thấp"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị khác có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng cao. Số khung hình trên giây (FPS) có thể bị tụt trong các lúc gay cấn."
+msgstr "Chế độ này đòi hỏi hiệu năng máy tính cao. Bạn có thể gặp sự cố về tải bản đồ, đồ họa và chuyển động của xe. Nếu hiệu năng không đủ, hãy thử giảm chất lượng đồ họa trong phần Cài đặt."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Nên dùng Thiết lập Đồ họa Cao nhất"
+msgstr "Có thể Giảm Hiệu suất"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+msgstr "%(icon) Có thể Giảm Hiệu suất"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Đua xe bắn súng trên những đường đua đầy hiểm nguy, hoàn thành nhiệm vụ và nhận thưởng."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neon Dash"

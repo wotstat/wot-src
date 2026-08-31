@@ -4,7 +4,7 @@ from contextlib import contextmanager
 import Event
 from constants import IGR_TYPE
 from messenger.m_constants import USER_TAG, UserEntityScope
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from shared_utils import AlwaysValidObject
 
 class IExchangeComponent(object):
@@ -319,14 +319,11 @@ class NoExchangeBlock(ExchangeBlock, AlwaysValidObject):
 
 class ExchangeCtx(object):
     __slots__ = (b'__weakref__', b'__playerFormatter')
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
 
     def __init__(self, playerFormatter):
         super(ExchangeCtx, self).__init__()
         self.__playerFormatter = playerFormatter
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     def clear(self):

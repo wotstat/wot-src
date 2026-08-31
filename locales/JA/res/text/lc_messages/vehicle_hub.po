@@ -34,6 +34,9 @@ msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うた
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "エンジン出力と最大速度を向上させて、戦場を迅速に移動します。ただしジェットブースターを発動すると旋回性能が低下し、一度発動すると手動では解除できません。"
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊な装置が主砲に搭載されている。選択したモードによって異なる砲弾のパラメーターが変化し、各モードを使用することでさまざまな戦況に素早く適応できる。"
+
 msgid "abilities/common/description/siegeMode"
 msgstr "発動すると特定の戦闘パラメーターが向上、または変化します。ポジションに到着し、敵車輌と交戦する準備が整ってからの使用が最適です。"
 
@@ -82,6 +85,9 @@ msgstr "過熱制御式自動連射砲"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "ジェットブースター"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "砲弾較正システム"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "射撃モード"
 
@@ -100,8 +106,17 @@ msgstr "斉射モード"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "静止または低速で移動している間、次の射撃の精度を向上させる「精度レベル」が貯まっていく。\n最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。"
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "砲弾の装填時間を即座に短い固定時間に短縮する。使用するたびに砲弾1発につきチャージを1つ消費し、チャージは時間経過とともに補充される。弾倉が満タンの場合は、チャージの補充速度が上昇する。戦闘開始時に一定数のチャージが最初から貯まっている。"
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "本車輌は防盾にロケット砲を搭載している。アビリティーを有効化すると、ロケット砲の照準サイトに切り替わり、砲撃ボタンで無誘導のHEロケット弾を発射できる。"
+
 msgid "abilities/special/description/battleFury"
 msgstr "敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。\n射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "「外付け給弾」モジュールにより、与ダメージが増加した強力な高チャージ単発弾を発射できる。発動中は、モジュールの効果で機動性と発射速度が低下する。"
 
 msgid "abilities/special/description/chargeShot"
 msgstr "主砲の装填が完了している間、次の射撃の与ダメージを向上させる「ヒート・レベル」が貯まっていく。レベルが高いほど、与ダメージも増加する。\nただし、最大レベルまで貯まった状態で、射撃を行わないまま一定時間が経過するとオーバーヒートを起こし、一時的に射撃不能になる。"
@@ -142,6 +157,15 @@ msgstr "時間経過とともにシステムが自動的にチャージを蓄積
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "「液体燃料ブースター」を使用すると、短い間、機動性が大幅に向上する。また使用しても、クールダウンさえ終われば繰り返し発動できる。ただしオーバーヒートすると、一時的に完全に使用不能になる。"
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "発見状態の敵車輌に砲弾を命中させると、次弾の信管が調整され、パラメーターが変化する。最初の砲撃が敵の装甲を貫通した場合、次弾のダメージが増加する一方、貫通しなかった場合は、次弾の貫通力が増加する。"
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊な装置が主砲に搭載されている。選択したモードによって異なる砲弾のパラメーターが変化し、各モードを使用することでさまざまな戦況に素早く適応できる。"
+
+msgid "abilities/special/description/sightPointer"
+msgstr "発動すると装置が自車輌前方の範囲をスキャンし、隠蔽状態の目標を発見する。その後クールダウンに入る。非発見状態の敵を発見した場合、自車輌も即座に発見状態になる。短い遅延の後、手動でスキャンを停止できる。"
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右スラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。"
 
@@ -166,8 +190,17 @@ msgstr "機械的な改良により、車輌の加速性能、エンジン出力
 msgid "abilities/special/name/accuracyStacks"
 msgstr "アナログ弾道演算装置"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "強制装填メカニズム"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "同軸ロケット砲"
+
 msgid "abilities/special/name/battleFury"
 msgstr "セミオート装填"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "外付け給弾モード"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "放熱弾道チャージ"
@@ -208,6 +241,15 @@ msgstr "電磁誘導アフターバーナー"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "液体燃料ブースター"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "調整式信管設定器"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "砲弾較正システム"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "赤外線捜索追尾 (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "連続式ロケット・スラスター"
 
@@ -232,8 +274,17 @@ msgstr "高圧ターボチャージャー・アシスト"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "次の射撃の精度を向上させる。最大レベルでは散布界の拡大が著しく抑えられる。"
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "砲弾の装填時間を即座に一定の時間まで短縮する。"
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "主砲とは独立して、同軸ロケット砲から無誘導のHEロケット弾を発射する。"
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "敵に砲弾を命中させるたびに、主砲の装填速度が一時的に向上する。"
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "機動性と発射速度を犠牲に、高ダメージの砲弾を発射する。"
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "「ヒート・レベル」を貯めて次弾の与ダメージを増加させる。"
@@ -274,6 +325,15 @@ msgstr "システムをチャージすることで与ダメージが増加する
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "発動すると、短時間、急激に速度が上昇する。条件を満たせば繰り返し発動できる。"
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "発見状態の敵車輌に砲撃が命中すると、次弾のダメージまたは貫通力を向上させる。"
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "砲撃前に一部の砲弾パラメーターを変更できる特殊装置が主砲に搭載されている。"
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "視認範囲を拡大し、狭い範囲内にいる移動中または遮蔽物に隠れている車輌を発見する。"
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "加速性能、機動性、俊敏性を強化する固体燃料スラスター。"
 
@@ -298,8 +358,14 @@ msgstr "短時間、エンジン出力、加速性能、最大速度を向上さ
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "静止、または一定の速度以下で移動している間、次の射撃の精度を向上させる「精度レベル」が「アナログ弾道演算装置」に貯まっていく。自車輌が一定の速度を超えた場合、再び速度が下がるまで、レベルの上昇が一時停止する。最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。射撃を行うと効果はリセットされる。"
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "本車輌は防盾にロケット砲を搭載している。アビリティーを有効化すると、ロケット砲の照準サイトに切り替わり、砲撃ボタンで無誘導のHEロケット弾を発射できる。"
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "発見状態の敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "「外付け給弾」モジュールにより、与ダメージが増加した強力な高チャージ単発弾を発射できる。発動中は、モジュールの効果で機動性と発射速度が低下する。"
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "主砲の装填が完了している間、次の射撃の平均ダメージを増加させる「ヒート・レベル」が貯まっていく。レベルが高いほど、平均ダメージへのボーナスも増加する。ただし、レベルが上昇している間は弾種を変更できない。最大レベルまで貯まると、カウントダウンが始まり、カウントが終わるまでに射撃を行わないとオーバーヒートを起こし、数秒間にわたり射撃不能になる。"
@@ -340,6 +406,15 @@ msgstr "時間経過とともにシステムが自動的にチャージを蓄積
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "「液体燃料ブースター」を使用すると、短い間、機動性が大幅に向上し、素早く射撃ポジションへ向かうことができる。一方で、後退速度と旋回速度が下がる。「ブースター」は、オーバーヒート状態の時を除き、オンとオフを自由に切り替えられる。使用中は熱が蓄積していくため、クールダウンを挟まずに使用し続けることはできず、オーバーヒートすると、一時的に完全に使用不能になる。大きな隙を生むことを避けるには、計画的な使用が求められる。"
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "発見状態の敵車輌に砲弾を命中させると、次弾の信管が調整され、パラメーターが変化する。最初の砲撃が敵の装甲を貫通した場合、次弾のダメージが増加する一方、貫通しなかった場合は、次弾の貫通力が増加する。"
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "砲撃前に砲弾のパラメーターの一部を変更できる特殊な装置が主砲に搭載されている。選択したモードによって異なる砲弾のパラメーターが変化し、各モードを使用することでさまざまな戦況に素早く適応できる。"
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "先進的な光学装置により視認範囲が拡大し、移動中または遮蔽物に隠れている敵車輌に対する索敵能力が向上する。発動すると、車輌前方の狭い範囲をスキャンし、隠れている目標を発見した後、クールダウンに入る。非発見状態の敵を発見した場合、自車輌も即座に発見状態になる。短い遅延の後、手動でスキャンを停止できる。"
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右のスラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。1戦につき複数回使用できるが、再使用までにクールダウンが必要。"
 
@@ -363,6 +438,18 @@ msgstr "機械的な改良により、車輌の加速性能、エンジン出力
 
 msgid "characteristics/abilities/special/notes"
 msgstr "表示されている数値は、この車輌で発揮できる最大値です。拡張パーツ、ディレクティブ、消耗品によって数値はさらに変化しますが、こちらには反映されません。"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "調整可能なAP弾"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "調整可能なAPCR弾"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "調整可能なHE弾"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "調整可能なHEAT弾"
 
 msgid "characteristics/templates/upTo"
 msgstr "最大%(value)%s"

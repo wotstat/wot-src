@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "閉じる"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "了解！"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "久しぶりの実戦に備えてマウス感度やキーボード操作を確かめたい場合は「ウォームアップ」モードがおススメです。AI車輌を相手に「ランダム戦」形式で戦闘を行うことができます。戦闘結果は通算成績に反映されません。「ウォームアップ」を飛ばしてすぐさま「ランダム戦」に出撃しても構いません。"
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "ウォームアップ"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "久しぶりに実戦に復帰するプレイヤーは「バック・イン・アクション」に挑戦することができます。「ウォームアップ」モードまたは「ランダム戦」モードのいずれかでミッションを達成して専用の進捗バーを満たすと様々な報酬が手に入ります。標準ミッション、プレミアムミッション、ボーナスミッションのすべてが対象です。"
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "久しぶりに実戦に復帰するプレイヤーは「バック・イン・アクション」に挑戦することができます。「ウォームアップ」モードまたは「ランダム戦」モードのいずれかでミッションを達成して専用の進捗バーを満たすと様々な報酬が手に入ります。「バトルパス」の開催期間中であれば追加報酬として「バトルパス進捗ポイント」も取得できます。"
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "バック・イン・アクション"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "「バック・イン・アクション」には、Tier VIIIプレミアム車輌の無料レンタル、技術ツリー上の好きなTier VI車輌複数、新車輌の研究や購入に必要な費用の割引など、様々な報酬が用意されています。進捗バーを満たせば追加でプログラムのメイン報酬も手に入ります。"
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "報酬"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "バック・イン・アクション"
-
 msgid "mainRewardTooltip/description"
 msgstr "「バック・イン・アクション」の進捗バーを満たすと追加で以下の報酬が手に入ります。"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "メイン報酬"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "好きなTier %(level)s車輌の研究費用と購入価格の割引"
+msgstr "Tier {{level}}車輌の研究費用と購入価格の割引"
 
 msgid "modeInfoTooltip/description"
 msgstr "AI車輌を相手に戦闘を行える特殊モードです。勝利するには、制限時間内に敵車輌を殲滅するか、敵陣地を占領する必要があります。車輌数は、Tier I～Vでは各チーム10輌ずつ、Tier VI～XIでは各チーム15輌ずつに設定されています。戦闘結果は通算成績に反映されません。"
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "ウォームアップ"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "技術ツリー上の好きなTier %(level)s車輌を無料で入手できます。全モジュールの研究が完了しているほか、搭乗員1組とガレージスロット1個も付属しています。"
+msgstr "技術ツリー上の好きなTier {{level}}車輌を無料で入手できます。全モジュールの研究が完了しているほか、搭乗員1組とガレージスロット1個も付属しています。"
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Tier %(level)s車輌"
+msgstr "Tier {{level}}車輌"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "技術ツリー上の好きなTier %(level)s車輌の研究に必要なEXPを%(researchDiscount)s、購入に必要なクレジットを%(purchaseDiscount)s減少させることができます。"
+msgstr "技術ツリー上の好きなTier {{level}}車輌の研究に必要なEXPを{{researchDiscount}}、購入に必要なクレジットを{{purchaseDiscount}}減少させることができます。"
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "{whiteSpanish_Open}研究に必要なEXPの割引{whiteSpanish_Close}は車輌設計図のピースによるボーナスと合算されます。これに対して{whiteSpanish_Open}購入に必要なクレジットの割引{whiteSpanish_Close}は他のボーナスと併用できません。割引率が最も高いボーナスのみ適用されます。"
+msgstr "{{@ style (color $color)}}研究に必要なEXPの割引{{/}}は車輌設計図のピースによるボーナスと合算されます。これに対して{{@ style (color $color)}}購入に必要なクレジットの割引{{/}}は他のボーナスと併用できません。割引率が最も高いボーナスのみ適用されます。"
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Tier %(level)s車輌の割引"
+msgstr "Tier {{level}}車輌の割引"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "了解!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "久しぶりの実戦に備えてマウス感度やキーボード操作を確かめたい場合は「ウォームアップ」モードがおススメです。AI車輌を相手に「ランダム戦」形式で戦闘を行うことができます。戦闘結果は通算成績に反映されません。「ウォームアップ」を飛ばしてすぐさま「ランダム戦」に出撃しても構いません。"
+
+msgid "umgIntroView/info/mode/title"
+msgstr "ウォームアップ"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "久しぶりに実戦に復帰するプレイヤーは「バック・イン・アクション」に挑戦することができます。「ウォームアップ」モードまたは「ランダム戦」モードのいずれかでミッションを達成して専用の進捗バーを満たすと様々な報酬が手に入ります。「バトルパス」の開催期間中であれば追加報酬として「バトルパス進捗ポイント」も取得できます。"
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "久しぶりに実戦に復帰するプレイヤーは「バック・イン・アクション」に挑戦することができます。「ウォームアップ」モードまたは「ランダム戦」モードのいずれかでミッションを達成して専用の進捗バーを満たすとさまざまな報酬が手に入ります。標準ミッション、プレミアムミッション、ボーナスミッションのすべてが対象です。"
+
+msgid "umgIntroView/info/quests/title"
+msgstr "バック・イン・アクション"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "「バック・イン・アクション」には、Tier VIIIプレミアム車輌の無料レンタル、技術ツリー上の好きなTier VI車輌複数、新車輌の研究や購入に必要な費用の割引など、様々な報酬が用意されています。進捗バーを満たせば追加でプログラムのメイン報酬も手に入ります。"
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "報酬"
+
+msgid "umgIntroView/title"
+msgstr "バック・イン・アクション"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "%(research)sは車輌設計図のピースによるボーナスと合算されます。これに対して%(purchase)sは他のボーナスと併用できません。割引率が最も高いボーナスのみ適用されます。"
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "「ウォームアップ」を終了しますか？"
 
 msgid "winbackPopover/battlesCount"
-msgstr "残り戦闘数: %(battlesCount)s"
+msgstr "残り戦闘数: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "AI車輌を相手に戦闘を行える特殊モードです。戦闘結果は通算成績に反映されません。"
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "他に受け取った報酬"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "技術ツリー上の好きなTier %(level)s車輌の研究費用%(expDiscount)s割引と購入価格%(priceDiscount)s割引"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "技術ツリー上の好きなTier {{level}}車輌の研究費用{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}}{{@ style (bold) (color $color2)}}引きと購入価格{{priceDiscount}}%{{/}}引き"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Tier %(level)s車輌"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Tier {{level}}車輌"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Tier %(level)s車輌の割引"
+msgstr "Tier {{level}}車輌の割引"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "既定数のミッションを達成しました。"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "プログラムを制覇！"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "研究費用の%(expDiscount)s割引と\n購入費用の%(priceDiscount)s割引"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "研究費用 {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} 割引および購入費用 {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} 割引"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "所有中"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "レンタル日数: %(days)s"
+msgstr "レンタル日数: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "研究費用と購入費用の割引"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "あとで選択"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "フィルターをリセット"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "車輌の割引"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Tier %(vehicleLevel)s車輌"
+msgstr "Tier {{vehicleLevel}}車輌"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "了解！"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "報酬選択不可"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "全Tier %(vehicleLevel)s車輌の研究が完了しているため報酬として国別設計図のピースを受け取ることができます。"
+msgstr "全Tier {{vehicleLevel}}車輌の研究が完了しているため報酬として国別設計図のピースを受け取ることができます。"
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "名称で検索"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "表示中:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "フィルターをリセット"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "選択済みの報酬: %(amountRewards)s %(infoIcon)s"
+msgstr "選択した報酬: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "受け取る報酬を選択する必要があります。"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "該当なし。フィルター設定を変更するかリセットしてください。"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}国別設計図のピース (%(countryName)s) %(bluePrintsAmount)s枚{white_Close}"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}}国別設計図のピース{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (研究費用%(expDiscount)s%オフ & 購入費用%(priceDiscount)s%オフ)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (研究費用{{expDiscount}}%引きと購入価格{{priceDiscount}}%引き)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Tier %(level)s車輌の割引"
+msgstr "Tier {{level}}車輌の割引"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (全モジュールの研究が完了済み & 搭乗員とガレージスロットが付属)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (全モジュールの研究が完了済みかつ搭乗員とガレージスロットが付属)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Tier %(level)s車輌"
+msgstr "Tier {{level}}車輌"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "「入手」ボタンをクリックすると選択した報酬を受け取ることができます。"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "選択済みの報酬: %(amountRewards)s"
+msgstr "選択済みの報酬: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "購入"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "報酬を選択可能"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close}%(type)s「%(name)s」"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "駆逐戦車"

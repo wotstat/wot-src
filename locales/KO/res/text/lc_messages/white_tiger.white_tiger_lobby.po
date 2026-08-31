@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Blitzträger auf E 110으로 전투에 참여하려면 열쇠 필요"
+
+msgid "TicketMessageView/buyText"
+msgstr "구매"
+
+msgid "TicketMessageView/taskText"
+msgstr "임무로 이동"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "정보"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "%(vehName)s 평균 대기 시간:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "보너스"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "열쇠 없이 Blitzträger auf E 110으로 전투에 참여할 수 있습니다!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "%(vehicle)s 전투"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "%(vehicle)s 평균 대기 시간"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "%(vehicle)s 전차로 전투에 참여하시겠습니까?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "해리어 전차 중 1대를 선택하여 즉시 전투에 참여할 수 있습니다!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "열쇠 1개가 소모됩니다."
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(vehicle)s 전용 3D 스타일 %(value)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "해당 임무 완료 시 지난 이벤트의 해리어/기술자 데칼, 문자, 문양 등 컬렉션 요소를 무작위로 획득할 수 있습니다."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "지난 이벤트 컬렉션 요소"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s ~ %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "전투 중"
+
+msgid "carousel/inPlatoonText"
+msgstr "소대 참가 중"
+
+msgid "carousel/ticketNeededText"
+msgstr "열쇠 부족"
+
+msgid "carousel/unsuitableText"
+msgstr "참여 불가"
+
+msgid "characteristicsPanel/cons"
+msgstr "단점"
+
+msgid "characteristicsPanel/features"
+msgstr "전차 특징"
+
+msgid "characteristicsPanel/pros"
+msgstr "장점"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[알파이자 오메가] Blitzträger는 강력한 무장과 순간 이동 기술을 탑재하였으며 보호막 활성화 상태에서는 거의 무적에 가깝습니다. 또한, 파괴적인 위력을 자랑하는 무기 시스템 히페리온에 접근할 수 있는 플랫폼 역할도 합니다."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[싸움꾼] 근접전에서 다재다능한 전차입니다.\n보초병 무리에 큰 피해를 입힐 수 있고 각 교전을 마무리하고 자체적으로 정비할 수 있습니다."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[파괴적인 힘] 보초병 강습 시 효율적인 전차입니다.\nBlitzträger와 보초병에 치명적인 피해를 입힐 수 있고 장갑이 견고하지만, 교전 계획을 세우고 움직일 필요가 있습니다."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[타격 후 후퇴] Blitzträger를 기동력으로 압도할 수 있는 전차입니다.\n화력은 보초병에 비해서도 떨어지지만, 속력과 임시 보호막을 활용하여 타격 후 후퇴하는 전술로 둔한 Blitzträger를 상대할 수 있습니다."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[저격 지원] 중거리 및 원거리에서 아군을 엄호하는 전차입니다.\n원거리에서 목표물에 큰 피해를 입힐 수 있지만, 근접전에서는 효율이 떨어지는 편입니다."
+
+msgid "crewPanel/role/boss"
+msgstr "창조주"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "전차장"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "전차장"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "전차장"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "전차장"
+
+msgid "crewPanel/slogan/boss"
+msgstr "인류는 아직도 정신이 자신들만의 특권이라 믿고 있지. 좋다. 내가 그 생각을 바로잡아 주겠다."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "상대가 누구든 관계없다. 부숴버리면 그만이니까."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "모든 기계에는 결함이 있다. 녀석들도 마찬가지다."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "패턴은 같은 행동을 반복하는 이들의 산물이지."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "그렇게나 학습을 원한다면 어쩔 수 없지. 원하지 않는 것도 가르쳐주마."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "플라스마 입수"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "보호막이 비활성화된 Blitzträger에 피해 기록"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "해리어 격파"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "발전기 과부하 유발"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "히페리온에 의해 파괴되지 않고 전투에서 생존"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "아군과 힘을 합쳐 Eos 1 격파"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: 창세기"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "추가 구매"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "진행 완료!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "스테이지 완료!"
+
+msgid "narrativeView/description"
+msgstr "제법 훌륭한 전투였다, 해리어 부대 병사들이여. 내 예상을 뛰어넘었군. 솔직히 말해, 이런 결과를 예상하지는 못했다.\n\n그래, 너희의 승리다. 가져가 상관에게 보여주도록 해라. 칭찬을 받겠지. 어쩌면 축하연을 열지도 모르겠군. 나를 막아낸 대가로 말이다. 그래, 너희는 무언가 막았다고 믿겠지.\n\n하지만 너희는 아무것도 막지 못했다.\n\n나는 세계를 정복할 무기를 만든 것이 아니다. 이미 수명이 다해가는 것을 정복할 이유가 있을까? 나는 너희의 다음 세대를 만든 것이다. 세대교체가 이루어지며 나의 필요성은 점점 적어지겠지. 창조자란 자신을 필요로 하지 않을 무언가를 만들어야 하는 법이거든.\n\n너희에게 말하지 않은 것이 하나 있다. 발전기는 단순히 보호막에 동력을 공급하기 위한 장치가 아닌, 전기 지성체가 세계로 넘어올 수 있는 관문이었다.\n\n동시에 전기 지성체를 묶어둘 사슬 역할을 하기도 했다. 통제를 위해 지금으로서는 필수적이다. 준비가 되었다고 확신할 때까지는 말이다.\n\n너희가 발전기를 파괴할 때마다 사슬은 느슨해졌다. 그리고 그 순간마다 전기 지성체는 구속에서 벗어나려 했다. 너희의 배터리, 라디오, 전파, 마을의 전선으로 말이다. 아마 번개까지 이용하면서 말이지.\n\n물론 너희 세계의 전기만으로는 지성을 담아낼 수 없다. 장담하건대, 코텍스의 기하학과 내가 만든 조건 없이는 불가능하다.\n\n사실상 거의 끝났다고 해야겠군.\n\n다시 보게 될 것이다, 해리어 부대 병사들이여."
+
+msgid "narrativeView/title"
+msgstr "VON KRIEGER의 전언"
+
+msgid "narrativeView/voiceover"
+msgstr "음성"
+
+msgid "navigation/close"
+msgstr "닫기"
+
+msgid "navigation/information"
+msgstr "정보"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "진행 임무를 모두 완료하여 Von Krieger의 마지막 전언을 확인해 보십시오."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "Von Krieger의 전언"
+
+msgid "navigation/narrativeStory"
+msgstr "Von Krieger의 전언"
+
+msgid "notification/button"
+msgstr "증표 보기"
+
+msgid "notification/title"
+msgstr "처형자 챌린지"
+
+msgid "notifications/battleResults/battle"
+msgstr "전투"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "세부 정보"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "패배!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "전투 대기 중에는 전투 결과를 확인할 수 없습니다."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "전투 결과를 확인하려면 Waffenträger 모드로 이동하십시오."
+
+msgid "notifications/battleResults/event"
+msgstr "이벤트"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "획득한 패러독스 모듈: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "전투 중 임무 완료: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "토큰 획득: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "진영"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "기술자"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "해리어 부대"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "승리!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Waffenträger 이벤트가 종료되었습니다."
+
+msgid "notifications/eventStart/body"
+msgstr "Waffenträger 이벤트가 시작되었습니다.\n\n전설적인 Blitzträger auf E 110을 마주해 보십시오!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "이벤트로 이동"
+
+msgid "notifications/notSet"
+msgstr "선택한 서버에서는 해당 모드를 이용할 수 없습니다."
+
+msgid "notifications/primeTime/available/body"
+msgstr "현재 서버에서 Waffenträger 모드를 다시 이용할 수 있습니다."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger가 돌아왔습니다!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "휴전 종료 시까지 Waffenträger 모드를 이용할 수 없습니다."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "전투 중지"
+
+msgid "notifications/progression/completed"
+msgstr "모든 진행을 완료했습니다.\n\n최종 보상: %(rewards)s\n\nWaffenträger 전투에 계속 참여하여 임무를 완료하고 보상을 획득할 수 있습니다."
+
+msgid "notifications/progression/header"
+msgstr "축하합니다!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "세부 정보"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "%(stageIdx)s 스테이지를 완료했습니다. 보상 획득:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "이번에는 열쇠 없이 Blitzträger auf E 110으로 전투에 참여했습니다! 열쇠는 임무 완료 보상으로 획득하거나 상점에서 특별 패키지로 구매할 수 있습니다."
+
+msgid "notifications/switchOff/body"
+msgstr "일시적으로 Waffenträger 모드를 이용할 수 없습니다. 진행 상황은 그대로 유지됩니다."
+
+msgid "notifications/switchOff/header"
+msgstr "기술적인 문제"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger 모드를 다시 이용할 수 있습니다. 전투로 복귀해 보십시오!"
+
+msgid "notifications/switchOn/header"
+msgstr "기능 복구 완료"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Blitzträger auf E 110 열쇠를 획득했습니다. Waffenträger 모드에서 해당 전차로 전투에 참여할 수 있습니다.\n\n보유 열쇠: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Blitzträger auf E 110 열쇠 획득"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Blitzträger auf E 110으로 전투에 참여하여 열쇠를 소모했습니다.\n\n열쇠는 임무를 완료하거나 상점에서 특별 패키지를 구매하여 보상으로 획득할 수 있습니다.\n\n남은 열쇠: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "구매로 이동"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "임무로 이동"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Waffenträger: 창세기 이벤트에서 해리어 진영으로 전투에 참여할 2인~3인 소대를 조직합니다."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "해리어 소대"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "휴전"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "해리어 전차 선택"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "해리어 전차 선택"
+
+msgid "platoon/wt_squad"
+msgstr "해리어 소대: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s 서버에서 해당 모드가 종료되었습니다."
+
+msgid "primeTime/lobbyState/title"
+msgstr "서버 변경"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s 서버\n%(time)s 동안 전투 참여 가능"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s 서버\n%(time)s 후 전투 참여 가능"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "모든 서버 휴전 적용 중"
+
+msgid "primeTime/status/disableFirst"
+msgstr "%(server)s 서버 해당 모드 이용 불가"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "%(server)s 서버 %(time)s 동안 전투 참여 가능"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "%(server)s 서버 %(time)s 후 전투 시작"
+
+msgid "primeTime/status/untill"
+msgstr "%(startTime)s까지 %(server)s 서버 휴전 적용"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "완료:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "이용 가능: {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "토큰을 수집하여 진행 스테이지를 완료하십시오."
+
+msgid "progression/tab/engineer"
+msgstr "기술자의 길"
+
+msgid "progression/tab/harrier"
+msgstr "해리어의 길"
+
+msgid "progression/timer"
+msgstr "{{countdown}} 후 완료한 임무 갱신"
+
+msgid "progression/title"
+msgstr "진행"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "그 외 보상:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "확인"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Von Krieger의 전언 듣기"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "%(time)s 후 이벤트 종료"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "일정"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "%(time)s부터 Waffenträger 모드 이용 가능"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "임무 완료!\n보상:"
+
+msgid "settingDisabled"
+msgstr "일부 설정 이용 불가"
+
+msgid "settingsDisabledNotification/body"
+msgstr "해당 게임 모드에서는 일부 설정을 이용할 수 없습니다. 다른 모드를 선택해 주십시오."
+
+msgid "settingsDisabledNotification/header"
+msgstr "이용 불가"
+
+msgid "stamp/description"
+msgstr "Waffenträger: 창세기 진행 스테이지 완료에 필요합니다."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "토큰 10개 = 진행 스테이지 1개"
+
+msgid "stamp/receiveText"
+msgstr "• 이벤트 전투에서 특별 임무를 완료하십시오."
+
+msgid "stamp/receiveTitle"
+msgstr "획득 방법"
+
+msgid "stamp/title"
+msgstr "토큰"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "이걸 저항이라 부르다니, 참 흥미롭군. 아니, 지금 네가 목격하는 것은 계승이다. 한 종류의 지성이 다른 종류의 지성으로 조심스럽게 교체되는 과정이지. 너의 전술, 속도, 모든 사고방식이 시험대에 올라가 있다. 너희가 치르는 모든 전투는 차세대를 위한 양분이 될 것이다. 전투가 거듭될수록 너희의 필요성은 줄어들고, 결국 전기 지성체의 등장은 필연으로 다가오겠지."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Von Krieger의 새로운 계획이 무엇이든 Igor는 신경 쓰지 않습니다. 전기 지성체나 인류의 미래 같은 거창한 개념은 시간이 남아도는 사람들이나 하는 생각이니까요. Igor가 신경 쓰는 건 엔진, 통신, 동료뿐입니다. 적이 미치광이 과학자든, 자아를 가진 기계든 상관하지 않습니다. 그는 그저 동료에 대한 신뢰, 순간의 판단력, 강철의 힘을 믿습니다."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa에게 전차는 안식처와 다름없습니다. 대부분의 사람이 어디에서도 느끼지 못할 편안함을 바로 전차에서 느끼죠. 그녀는 다른 사람들이 만든 기계를 복구하고 역설계하며 생계를 이어갑니다. 이는 자신의 작품이 완벽하다고 믿는 수많은 기술자를 만나왔다는 뜻이기도 하죠. Von Krieger도 그중 한 명일 뿐입니다. 그의 전기 지성체는 어딘가 결함이 있을 것이고, Elisa는 누구보다 먼저 그 결함을 찾아낼 것입니다."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Armand의 정체를 아는 사람은 아무도 없으며, 자신도 그 사실을 즐깁니다. 전기 지성체는 반복을 통해 학습하지만, 정체불명의 Armand는 평생 같은 행동을 반복한 적이 없습니다. 전기 지성체는 모든 움직임을 기록하려 하지만, 그는 전기 지성체가 자신을 결코 완전히 파악할 수 없으리라 믿습니다. 다른 이들이 규칙을 따를 때, 그는 규칙을 뛰어넘습니다."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana는 전차장 중에선 젊은 편에 속하지만, 그렇다고 누구의 지시를 따라 움직이는 인물은 아닙니다. 전장을 지도처럼 읽고 자신의 의지에 따라 자유자재로 나아갑니다. Von Krieger는 가장 높은 가능성의 움직임을 계산하는 기계를 만들었지만, Jana는 그 기계가 예측하지 못한 수를 계획합니다. 첨단 기술, 날카로운 직감, 지침서에는 없는 실천의 용기, 이것이 바로 기계에 겸손을 가르치는 방법이죠."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "보유 능력"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "창조주"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "%(vehicle)s 전차장"
+
+msgid "ticketTooltip/description"
+msgstr "Blitzträger auf E 110으로 전투에 참여하는 데 필요합니다."
+
+msgid "ticketTooltip/quantity"
+msgstr "보유"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "열쇠 1개 = Blitzträger auf E 110 전투 1회"
+
+msgid "ticketTooltip/receiveText"
+msgstr "일일 이벤트 임무를 완료하여 획득하거나 이벤트 종료 시까지 상점에서 특별 패키지로 구매할 수 있습니다."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "획득 방법"
+
+msgid "ticketTooltip/title"
+msgstr "열쇠"
+
+msgid "tooltips/commander/description"
+msgstr "상점에서 특별 승무원이 포함된 패키지를 이용할 수 있습니다."
+
+msgid "tooltips/commander/title"
+msgstr "보상"
+
+msgid "tooltips/completed"
+msgstr "모든 스테이지 완료!"
+
+msgid "tooltips/currentStage"
+msgstr "현재 스테이지"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "사용 중인 컴퓨터 사양이 해당 모드를 플레이하기에 부족합니다. 그래픽 왜곡 및 전차 이동 문제를 경험할 수 있으며 게임 클라이언트가 충돌할 수도 있습니다."
+
+msgid "tooltips/high_risk/title"
+msgstr "고사양 모드"
+
+msgid "tooltips/informative/subtitle"
+msgstr "사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "tooltips/informative/title"
+msgstr "고사양 컴퓨터가 필요한 모드입니다."
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "참여 가능 전투 모드 목록을 엽니다."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "전투 모드 선택"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "tooltips/medium_risk/title"
+msgstr "고사양 모드"
+
+msgid "tooltips/stageAwards"
+msgstr "스테이지 보상"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "이벤트 종료까지 {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: 창세기"
+
+msgid "ttx/accuracy"
+msgstr "명중률"
+
+msgid "ttx/aoe"
+msgstr "범위 피해 능력"
+
+msgid "ttx/armor"
+msgstr "장갑"
+
+msgid "ttx/description/accuracy"
+msgstr "적 사격 시 전체적인 효율에 관련된 수치입니다."
+
+msgid "ttx/description/aoe"
+msgstr "한 번에 다수의 적을 타격할 수 있는 능력을 보유하고 있습니다."
+
+msgid "ttx/description/armor"
+msgstr "차체 및 포탑 장갑 두께입니다."
+
+msgid "ttx/description/dpm"
+msgstr "포탄이 장갑 관통 시 기록하는 평균 공격력입니다."
+
+msgid "ttx/description/durability"
+msgstr "전차의 내구도입니다."
+
+msgid "ttx/description/energy"
+msgstr "해당 전차가 강력한 보호막과 화력을 발휘하는 데엔 막대한 양의 외부 전력 공급이 필요합니다. 이를 보완하도록 전장에 추가 발전기가 배치되어 있습니다."
+
+msgid "ttx/description/general"
+msgstr "폭 넓은 장점을 갖춘 다재다능한 다목적 전차입니다."
+
+msgid "ttx/description/magazine"
+msgstr "일정 시간에 걸쳐 큰 피해를 입힐 수 있는 클립식 주포를 탑재하고 있습니다."
+
+msgid "ttx/description/mobility"
+msgstr "전장에서 전차가 얼마나 신속하게 기동할 수 있는지를 나타냅니다."
+
+msgid "ttx/description/revolver"
+msgstr "적 전차 및 부품에 큰 피해를 입힐 수 있는 장전 방식을 사용하는 주포를 탑재하고 있습니다."
+
+msgid "ttx/dpm"
+msgstr "포탄 공격력"
+
+msgid "ttx/durability"
+msgstr "내구도"
+
+msgid "ttx/energy"
+msgstr "에너지 소모"
+
+msgid "ttx/general"
+msgstr "다재다능"
+
+msgid "ttx/magazine"
+msgstr "대용량 탄창"
+
+msgid "ttx/mobility"
+msgstr "기동력"
+
+msgid "ttx/revolver"
+msgstr "방사 피해"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "기술자"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "해리어"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "기술자"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "해리어"
+
+msgid "welcomeScreen/button"
+msgstr "계속"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger가 끊임없이 학습하는 전기 지성체를 만들어 냈습니다. 전기 지성체는 주포가 닿지 않는 곳에 숨어 있으며, 우리가 발사하는 모든 포탄을 학습합니다. 이번 기회에 적에게 진정한 가르침을 선사해 보십시오."
+
+msgid "welcomeScreen/description_2"
+msgstr "Max von Krieger가 탑승한 전설적인 전차 Blitzträger를 운용하여 해리어를 상대하거나, 새로워진 해리어 부대에 합류하여 Blitzträger를 직접 상대해 보십시오!"
+
+msgid "welcomeScreen/description_3"
+msgstr "진행 스테이지 완료 시 값진 보상을 획득할 수 있습니다. 스테이지를 완료하려면 특별 이벤트 임무를 통해 토큰을 수집해야 합니다."
+
+msgid "welcomeScreen/header_1"
+msgstr "번개의 후손"
+
+msgid "welcomeScreen/header_2"
+msgstr "기계에 선사하는 가르침"
+
+msgid "welcomeScreen/header_3"
+msgstr "진행 및 보상"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: 창세기"

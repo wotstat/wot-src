@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import logging, weakref, BigWorld
 from battle_royale.gui.battle_control.controllers.notification_manager import INotificationManagerListener
 from debug_utils import LOG_ERROR
@@ -88,7 +89,7 @@ class SpawnController(ViewComponentsController, ISpawnController):
         return
 
     def showSpawnPoints(self, points):
-        if self._app:
+        if self._app is not None:
             self._app.containerManager.onViewAddedToContainer += self.__onViewAddedToContainer
         else:
             _logger.warning(b'App reference is still None!')
@@ -219,7 +220,7 @@ class SpawnController(ViewComponentsController, ISpawnController):
         return PeriodicNotifier(self._getDeltaTime, self.__updateCloseTime, (1,))
 
     def __closeSpawnPoints(self):
-        if self._app:
+        if self._app is not None:
             self._app.containerManager.onViewAddedToContainer -= self.__onViewAddedToContainer
         if self.__notifier:
             self.__notifier.stopNotification()

@@ -172,9 +172,6 @@ msgstr "ครอบครอง&nbsp;T-44-122 (ระดับ&nbsp;%(level)s)"
 msgid "description/branch_china_Ch19_121"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางจีนที่นำไปสู่ &nbsp;121 (ระดับ&nbsp;%(level)s)"
 
-msgid "description/branch_china_Ch29_Type_62C_prot"
-msgstr "วิจัยพาหนะทุกคันในสายรถถังเบาจีนที่นำไปสู่ &nbsp;WZ-132-1 (ระดับ&nbsp;%(level)s)"
-
 msgid "description/branch_china_Ch38_WZ113G_FT"
 msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังจีนที่นำไปสู่ &nbsp;WZ-113G&nbsp;FT (ระดับ&nbsp;%(level)s)"
 
@@ -190,14 +187,17 @@ msgstr "วิจัยพาหนะทุกคันในสายรถถ
 msgid "description/branch_china_Ch70_PTZ_78"
 msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังจีนที่นำไปสู่ &nbsp;PTZ-78 (ระดับ&nbsp;%(level)s)"
 
+msgid "description/branch_china_Ch71_WZ_219"
+msgstr "วิจัยพาหนะทุกคันในสายรถถังเบาจีนที่นำไปสู่ &nbsp;WZ-219 (ระดับ&nbsp;%(level)s)"
+
 msgid "description/branch_czech_Cz04_T50_51"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางเชคโกสโลวาเกียที่นำไปสู่ &nbsp;TVP&nbsp;T&nbsp;50/51 (ระดับ&nbsp;%(level)s)"
 
-msgid "description/branch_czech_Cz17_Vz_55"
-msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักเชคโกสโลวาเกียที่นำไปสู่ &nbsp;Vz.&nbsp;55 (ระดับ&nbsp;%(level)s)"
-
 msgid "description/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังเบาเชคโกสโลวาเกียที่นำไปสู่ &nbsp;Vz.&nbsp;71&nbsp;Tesák (ระดับ&nbsp;%(level)s)"
+
+msgid "description/branch_czech_Cz46_Vz_63P"
+msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักเชคโกสโลวาเกียที่นำไปสู่ &nbsp;Vz.&nbsp;63P (ระดับ&nbsp;%(level)s)"
 
 msgid "description/branch_france_F108_Panhard_EBR_105"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังเบาฝรั่งเศสที่นำไปสู่ Panhard EBR&nbsp;105 (ระดับ&nbsp;%(level)s)"
@@ -247,6 +247,9 @@ msgstr "วิจัยพาหนะทุกคันในสายรถถ
 msgid "description/branch_germany_G189_Hirschkafer"
 msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังเยอรมันที่นำไปสู่ &nbsp;Hirschkäfer (ระดับ&nbsp;%(level)s)"
 
+msgid "description/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักเยอรมันที่นำไปสู่ &nbsp;Pz.Kpfw.&nbsp;Neu (ระดับ&nbsp;%(level)s)"
+
 msgid "description/branch_germany_G42_Maus"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักเยอรมันที่นำไปสู่ &nbsp;Maus (ระดับ&nbsp;%(level)s)"
 
@@ -274,20 +277,23 @@ msgstr "วิจัยพาหนะทุกคันในสายรถถ
 msgid "description/branch_italy_It23_CC_3"
 msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังอิตาลีที่นำไปสู่ Controcarro&nbsp;3 Minotauro (ระดับ&nbsp;%(level)s)"
 
+msgid "description/branch_italy_It43_CAV_mod_71"
+msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางอิตาลีที่นำไปสู่ &nbsp;CAV 71 (ระดับ&nbsp;%(level)s)"
+
 msgid "description/branch_japan_J16_ST_B1"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางญี่ปุ่นที่นำไปสู่ &nbsp;STB-1 (ระดับ&nbsp;%(level)s)"
 
 msgid "description/branch_japan_J20_Type_2605"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักญี่ปุ่นที่นำไปสู่ Type 5 Heavy (ระดับ&nbsp;%(level)s)"
 
-msgid "description/branch_japan_J35_Ho_Ri_3"
-msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังญี่ปุ่นที่นำไปสู่ &nbsp;Ho-Ri&nbsp;3 (ระดับ&nbsp;%(level)s)"
-
 msgid "description/branch_japan_J40_Type_71"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักญี่ปุ่นที่นำไปสู่ Type&nbsp;71 (ระดับ&nbsp;%(level)s)"
 
 msgid "description/branch_japan_J52_STK_2"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักญี่ปุ่นที่นำไปสู่ &nbsp;STK-2 (ระดับ&nbsp;%(level)s)"
+
+msgid "description/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังญี่ปุ่นที่นำไปสู่ Shugo (ระดับ&nbsp;%(level)s)"
 
 msgid "description/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักโปแลนด์ที่นำไปสู่ &nbsp;60TP Lewandowskiego (ระดับ&nbsp;%(level)s)"
@@ -307,11 +313,11 @@ msgstr "วิจัยพาหนะทุกคันในสายยาน
 msgid "description/branch_sweden_S16_Kranvagn"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังหนักสวีเดนที่นำไปสู่ Kranvagn (ระดับ&nbsp;%(level)s)"
 
-msgid "description/branch_sweden_S28_UDES_15_16"
-msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางสวีเดนที่นำไปสู่ UDES&nbsp;15/16 (ระดับ&nbsp;%(level)s)"
-
 msgid "description/branch_sweden_S36_Strv_107_12"
 msgstr "วิจัยพาหนะทุกคันในสายยานพิฆาตรถถังสวีเดนที่นำไปสู่ &nbsp;Strv&nbsp;107-12 (ระดับ&nbsp;%(level)s)"
+
+msgid "description/branch_sweden_S41_BV_111"
+msgstr "วิจัยพาหนะทุกคันในสายรถถังกลางสวีเดนที่นำไปสู่ BV-111&nbsp;(ระดับ&nbsp;%(level)s)"
 
 msgid "description/branch_uk_GB100_Manticore"
 msgstr "วิจัยพาหนะทุกคันในสายรถถังเบาอังกฤษที่นำไปสู่ Manticore (ระดับ&nbsp;%(level)s)"
@@ -510,6 +516,9 @@ msgstr "ครอบครองพาหนะทุกคันของสม
 
 msgid "description/third_campaign_first_operation"
 msgstr "ผ่านปฏิบัติการที่หนึ่งแล้วครอบครอง &nbsp;Windhund (ระดับ&nbsp;%(level)s)"
+
+msgid "description/third_campaign_fourth_operation"
+msgstr "ผ่านปฏิบัติการที่สี่แล้วครอบครอง &nbsp;Fossa (ระดับ&nbsp;%(level)s)"
 
 msgid "description/third_campaign_second_operation"
 msgstr "ผ่านปฏิบัติการที่สองแล้วครอบครอง &nbsp;Dravec (ระดับ&nbsp;%(level)s)"
@@ -850,6 +859,9 @@ msgstr "BZ-79"
 msgid "name/Ch70_PTZ_78"
 msgstr "PTZ-78"
 
+msgid "name/Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "name/Cz02_TVP_T50"
 msgstr "Škoda T&nbsp;50"
 
@@ -894,6 +906,9 @@ msgstr "Vz.&nbsp;71&nbsp;Tesák"
 
 msgid "name/Cz40_DBV_152"
 msgstr "DBV-152"
+
+msgid "name/Cz46_Vz_63P"
+msgstr "Vz.&nbsp;63P"
 
 msgid "name/F06_ARL_44"
 msgstr "ARL&nbsp;44"
@@ -1074,6 +1089,18 @@ msgstr "Hirschkäfer"
 
 msgid "name/G18_JagdPanther"
 msgstr "Jagdpanther"
+
+msgid "name/G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw.&nbsp;55"
+
+msgid "name/G196_Versuchspanzer_57"
+msgstr "Versuchspanzer&nbsp;57"
+
+msgid "name/G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw.&nbsp;Neu"
+
+msgid "name/G198_Kampfpanzer_67"
+msgstr "Kampfpanzer&nbsp;67"
 
 msgid "name/G200_Chi_Go"
 msgstr "Chi-Go"
@@ -1378,6 +1405,9 @@ msgstr "Semovente&nbsp;M43 Bassotto"
 msgid "name/It31_CC_67_B"
 msgstr "SMV&nbsp;CC-67"
 
+msgid "name/It43_CAV_mod_71"
+msgstr "CAV 71"
+
 msgid "name/J10_Chi_To"
 msgstr "Type&nbsp;4 Chi-To"
 
@@ -1443,6 +1473,9 @@ msgstr "Ashigaru"
 
 msgid "name/J52_STK_2"
 msgstr "STK-2"
+
+msgid "name/J53_Ho_Ri_Shugo"
+msgstr "Shugo"
 
 msgid "name/Pl05_50TP_Tyszkiewicza"
 msgstr "50TP Tyszkiewicza"
@@ -1735,11 +1768,11 @@ msgstr "UDES&nbsp;14 Alt&nbsp;5"
 msgid "name/S36_Strv_107_12"
 msgstr "Strv&nbsp;107-12"
 
+msgid "name/S41_BV_111"
+msgstr "BV-111"
+
 msgid "name/branch_china_Ch19_121"
 msgstr "จีน:&nbsp;121"
-
-msgid "name/branch_china_Ch29_Type_62C_prot"
-msgstr "จีน: WZ-132-1"
 
 msgid "name/branch_china_Ch38_WZ113G_FT"
 msgstr "จีน: WZ-113G&nbsp;FT"
@@ -1756,14 +1789,17 @@ msgstr "จีน: BZ-79"
 msgid "name/branch_china_Ch70_PTZ_78"
 msgstr "จีน: PTZ-78"
 
+msgid "name/branch_china_Ch71_WZ_219"
+msgstr "จีน: WZ-219"
+
 msgid "name/branch_czech_Cz04_T50_51"
 msgstr "เชคโกสโลวาเกีย: TVP&nbsp;T&nbsp;50/51"
 
-msgid "name/branch_czech_Cz17_Vz_55"
-msgstr "เชคโกสโลวาเกีย: Vz.&nbsp;55"
-
 msgid "name/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "เชคโกสโลวาเกีย: Vz.&nbsp;71&nbsp;Tesák"
+
+msgid "name/branch_czech_Cz46_Vz_63P"
+msgstr "เชคโกสโลวาเกีย: Vz.&nbsp;63P"
 
 msgid "name/branch_france_F108_Panhard_EBR_105"
 msgstr "ฝรั่งเศส: Panhard EBR&nbsp;105"
@@ -1813,6 +1849,9 @@ msgstr "เยอรมนี: leKpz&nbsp;Borkenkäfer"
 msgid "name/branch_germany_G189_Hirschkafer"
 msgstr "เยอรมนี: Hirschkäfer"
 
+msgid "name/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "เยอรมนี: Pz.Kpfw.&nbsp;Neu"
+
 msgid "name/branch_germany_G42_Maus"
 msgstr "เยอรมนี: Maus"
 
@@ -1840,20 +1879,23 @@ msgstr "อิตาลี: Rinoceronte"
 msgid "name/branch_italy_It23_CC_3"
 msgstr "อิตาลี: Controcarro&nbsp;3 Minotauro"
 
+msgid "name/branch_italy_It43_CAV_mod_71"
+msgstr "อิตาลี: CAV 71"
+
 msgid "name/branch_japan_J16_ST_B1"
 msgstr "ญี่ปุ่น: STB-1"
 
 msgid "name/branch_japan_J20_Type_2605"
 msgstr "ญี่ปุ่น: Type&nbsp;5 Heavy"
 
-msgid "name/branch_japan_J35_Ho_Ri_3"
-msgstr "ญี่ปุ่น: Ho-Ri&nbsp;3"
-
 msgid "name/branch_japan_J40_Type_71"
 msgstr "ญี่ปุ่น: Type&nbsp;71"
 
 msgid "name/branch_japan_J52_STK_2"
 msgstr "ญี่ปุ่น: STK-2"
+
+msgid "name/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "ญี่ปุ่น: Ho-Ri&nbsp;4"
 
 msgid "name/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "โปแลนด์: 60TP Lewandowskiego"
@@ -1873,11 +1915,11 @@ msgstr "สวีเดน: Strv&nbsp;103B"
 msgid "name/branch_sweden_S16_Kranvagn"
 msgstr "สวีเดน: Kranvagn"
 
-msgid "name/branch_sweden_S28_UDES_15_16"
-msgstr "สวีเดน: UDES&nbsp;15/16"
-
 msgid "name/branch_sweden_S36_Strv_107_12"
 msgstr "สวีเดน: Strv&nbsp;107-12"
+
+msgid "name/branch_sweden_S41_BV_111"
+msgstr "สวีเดน: BV-111"
 
 msgid "name/branch_uk_GB100_Manticore"
 msgstr "อังกฤษ: Manticore"
@@ -2076,6 +2118,9 @@ msgstr "เขต 3"
 
 msgid "name/third_campaign_first_operation"
 msgstr "ปฏิบัติการ: สุนัขล่าเนื้อ"
+
+msgid "name/third_campaign_fourth_operation"
+msgstr "ปฏิบัติการ: ฟอสซา"
 
 msgid "name/third_campaign_second_operation"
 msgstr "ปฏิบัติการ: นกล่าเหยื่อ"

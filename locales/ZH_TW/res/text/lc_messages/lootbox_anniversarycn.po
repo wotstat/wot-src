@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=1; plural=0;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "這些補給箱可能開出車輛、遊戲內貨幣與其他珍貴獎勵。"
+msgstr "這些補給箱可能開出 VIII 階加值車輛、遊戲內貨幣與其他珍貴獎勵。"
 
 msgid "boxTooltip/description/text/gold"
-msgstr "這些補給箱可能開出車輛、遊戲內貨幣、自訂要素與其他珍貴獎勵。"
+msgstr "這些補給箱可能開出稀有 X 階車輛、遊戲內貨幣與其他珍貴獎勵。"
 
 msgid "boxTooltip/description/text/silver"
-msgstr "這些補給箱可能開出車輛、遊戲內貨幣、自訂要素與其他珍貴獎勵。"
+msgstr "這些補給箱可能開出 IX 階加值車輛、遊戲內貨幣與其他珍貴獎勵。"
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "可在遊戲內商店獲取，也可在打開任何其他類型的補給箱時獲得。"
+msgstr "可在打開任何類型的補給箱時獲得，或在加值商店購買物品時獲取作為禮物。"
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "可在打開任何其他類型的補給箱時獲得。"
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "可在打開任何其他類型的補給箱時獲得。"
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "賞金補給箱"
+msgstr "天人補給箱"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "福祉補給箱"
+msgstr "天選補給箱"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "恩賜補給箱"
+msgstr "天相補給箱"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "賞金補給箱"
+msgstr "天人補給箱"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "福祉補給箱"
+msgstr "天選補給箱"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "恩賜補給箱"
+msgstr "天相補給箱"
 
 msgid "entryPoint/tooltip/description"
-msgstr "這些為可能開出全新與獨特物品的特殊補給箱。可在遊戲內商店中獲取。"
+msgstr "這些為可能開出全新且獨特 VIII–X 階車輛與其他獎勵的特殊補給箱。\n您可在打開任何類型的補給箱時獲得補給箱，或在加值商店購買物品時獲取作為禮物。"
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "活動將結束於"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由於技術性原因，目前無法打開或購買補給箱。很抱歉暫時為您帶來不便。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "「天賜之福補給箱」暫時無法使用"
 
 msgid "eventName/lowerCase"
-msgstr "低語寶庫"
+msgstr "天賜之福"
 
 msgid "eventName/upperCase"
-msgstr "低語寶庫"
+msgstr "天賜之福"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "若在車庫中已擁有所有車輛，您將改為獲得一個「福祉補給箱」。"
+msgid "infoPage/footer/description/autoOpen"
+msgstr "若您未在活動結束前打開所有的補給箱，這些補給箱將會於稍後自動打開。"
 
 msgid "infoPage/footer/description/compensation"
-msgstr "若您在車庫中已擁有補給箱可能開出的所有車輛，您將獲得一個「福祉補給箱」作為獎勵，而不會再開出車輛。"
+msgstr "若您已擁有補給箱可能開出的所有車輛，您將獲得一個「天選補給箱」作為保證可獲得的獎勵，而不會再開出車輛。"
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "每 %(guaranteed0)s 個「賞金補給箱」、%(guaranteed1)s 個「恩賜補給箱」及 %(guaranteed2)s 個「福祉補給箱」保證會開出一輛車輛。若這些補給箱連續未開出此類車輛，當您打開第%(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s 個補給箱（依補給箱類型而異）時，將會開出一輛您尚未在車庫中擁有的車輛。開出車輛後，計數器將重置。"
+msgstr "每 %(guaranteed0)s 個「天人補給箱」、%(guaranteed1)s 個「天相補給箱」及 %(guaranteed2)s 個「天選補給箱」保證會開出一輛 VIII–X 階加值車輛。若這些補給箱連續未開出此類車輛，當您打開第 %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s 個補給箱（依補給箱類型而異）時，將會開出一輛您尚未擁有的 VIII–X 階加值車輛。開出車輛後，計數器將重置。"
 
 msgid "infoPage/footer/title/compensation"
-msgstr "補償"
+msgstr "若已擁有所有車輛"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "保證可獲得的獎勵"
+msgid "infoPage/header/description"
+msgstr "打開補給箱即有機會獲取珍貴遊戲內物品！\n請在下方檢視可能開出之獎勵的清單。"
 
-msgid "infoPage/header/rewards/description"
-msgstr "每個群組中的獎勵最多僅會有一項開出"
+msgid "noBoxesView/description/"
+msgstr "您無任何補給箱。\n您可在加值商店中獲取。"
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "天選補給箱"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "若您已擁有補給箱可能開出的所有車輛，您將獲得一個「天選補給箱」作為保證可獲得的獎勵，而不會再開出車輛。"
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "天人補給箱"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "天選補給箱"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "天相補給箱"

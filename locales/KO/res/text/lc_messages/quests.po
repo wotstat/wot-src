@@ -802,6 +802,12 @@ msgstr "선택식 경험치 보너스"
 msgid "bonusName/attachment"
 msgstr "3D 부착물"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "대공 지원"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "방공 체계"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "도전자의 전리품"
 
@@ -810,6 +816,9 @@ msgstr "3D 부착물 세트"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "대양 파수꾼"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "수색 및 격파"
 
 msgid "bonusName/attendance_reward"
 msgstr "점호 보상"
@@ -4152,6 +4161,12 @@ msgstr "전략 임무"
 
 msgid "item/type/specialMission"
 msgstr "요새: 특수 임무"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "해당 임무는 이벤트 기간에 매일 완료할 수 있으며 변경이 불가능합니다."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "고정 임무"
 
 msgid "metrics/state/done"
 msgstr "완료"

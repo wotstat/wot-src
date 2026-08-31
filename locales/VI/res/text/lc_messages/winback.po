@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "TẮT"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Rõ!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "\"Khởi động\" sẽ giúp bạn ghi nhớ những kiến thức cơ bản của game. Chiến trận diễn ra cùng các xe do trí tuệ nhân tạo (AI) điều khiển và không tính vào thống kê/chỉ số người chơi. Bạn có thể thoát \"Khởi động\" bất kỳ lúc nào để tham chiến trong Trận đấu Ngẫu nhiên."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Khởi động"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Làm hết các nhiệm vụ, hoàn thành Tiến trình Giai đoạn \"Trở lại Khói lửa\" để nhận nhiều phần thưởng giá trị. Mỗi Nhiệm vụ Tiêu chuẩn, Premium và Đặc cách được hoàn tất sẽ giúp đến gần phần thưởng hơn. Nhiệm vụ có thể được hoàn thành trong \"Khởi động\" và Trận đấu Ngẫu nhiên."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Làm hết các nhiệm vụ, hoàn thành Tiến trình Giai đoạn \"Trở lại Khói lửa\" để nhận nhiều phần thưởng giá trị. Trong Giấy phép Quân sự, Điểm GPQS sẽ gồm luôn trong danh sách phần thưởng. Nhiệm vụ có thể được hoàn thành trong \"Khởi động\" và Trận đấu Ngẫu nhiên."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Trở lại Khói lửa"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Bạn có thể được thưởng xe Premium thuê Cấp VIII, xe Cấp VI từ sơ đồ công nghệ, giảm giá nghiên cứu và mua xe. Sau khi hoàn thành Tiến trình, phần thưởng chính sẽ xuất hiện."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Phần thưởng"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "TRỞ LẠI KHÓI LỬA"
-
 msgid "mainRewardTooltip/description"
 msgstr "Sau khi hoàn thành Tiến trình \"Trở lại Khói lửa\", bạn sẽ nhận được:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Phần thưởng chính"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Giảm giá nghiên cứu và mua một xe Cấp %(level)s"
+msgstr "Giảm giá khi nghiên cứu và mua một xe Cấp {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Chiến trận đấu với các xe do trí tuệ nhân tạo (AI) điều khiển và không tính vào thống kê/chỉ số của bạn. Để thắng, bạn cần chiếm căn cứ địch hoặc diệt mọi xe đối phương. Giao tranh diễn ra theo định dạng 15v15 ở Cấp VI–XI và 10v10 ở Cấp I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Khởi động"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Có thể chọn bất cứ xe Cấp %(level)s nào trong sơ đồ công nghệ. Nó đi kèm mô-đun được nghiên cứu xong, kíp lái và một chỗ để trong Ga-ra."
+msgstr "Có thể chọn bất cứ xe Cấp {{level}} nào trong sơ đồ công nghệ. Nó đi kèm mô-đun được nghiên cứu xong, kíp lái và một chỗ để trong Ga-ra."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Xe Cấp %(level)s"
+msgstr "Xe Cấp {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Một ưu đãi giảm %(researchDiscount)s khi nghiên cứu và một ưu đãi giảm %(purchaseDiscount)s khi mua một xe Cấp %(level)s. Có thể chọn bất cứ xe nào trong sơ đồ công nghệ."
+msgstr "Một ưu đãi giảm {{researchDiscount}} khi nghiên cứu và một ưu đãi giảm {{purchaseDiscount}} khi mua một xe Cấp {{level}}. Có thể chọn bất cứ xe nào trong sơ đồ công nghệ."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Ưu đãi giảm giá {whiteSpanish_Open}khi nghiên cứu{whiteSpanish_Close} được cộng thêm vào giảm giá từ phân đoạn bản vẽ xe. Giảm giá lớn nhất {whiteSpanish_Open}khi mua{whiteSpanish_Close} sẽ được áp dụng."
+msgstr "Ưu đãi giảm giá {{@ style (color $color)}}khi nghiên cứu{{/}} được cộng thêm vào giảm giá từ phân đoạn bản vẽ xe. Giảm giá lớn nhất {{@ style (color $color)}}khi mua{{/}} sẽ được áp dụng."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Giảm giá cho Xe Cấp %(level)s"
+msgstr "Giảm giá cho Xe Cấp {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Rõ!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "\"Khởi động\" sẽ giúp bạn ghi nhớ những kiến thức cơ bản của game. Chiến trận diễn ra cùng các xe do trí tuệ nhân tạo (AI) điều khiển và không tính vào thống kê/chỉ số người chơi. Bạn có thể thoát \"Khởi động\" bất kỳ lúc nào để tham chiến trong Trận đấu Ngẫu nhiên."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Khởi động"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Làm hết các nhiệm vụ, hoàn thành Tiến trình Giai đoạn \"Trở lại Khói lửa\" để nhận nhiều phần thưởng giá trị. Trong Giấy phép Quân sự, Điểm GPQS sẽ gồm luôn trong danh sách phần thưởng. Nhiệm vụ có thể được hoàn thành trong \"Khởi động\" và Trận đấu Ngẫu nhiên."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Làm hết các nhiệm vụ, hoàn thành Tiến trình Giai đoạn \"Trở lại Khói lửa\" để nhận nhiều phần thưởng giá trị. Mỗi Nhiệm vụ Tiêu chuẩn, Premium và Đặc cách được hoàn tất sẽ giúp đến gần phần thưởng hơn. Nhiệm vụ có thể được hoàn thành trong \"Khởi động\" và Trận đấu Ngẫu nhiên."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Trở lại Khói lửa"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Bạn có thể được thưởng xe Premium thuê Cấp VIII, xe Cấp VI từ sơ đồ công nghệ, giảm giá nghiên cứu và mua xe. Sau khi hoàn thành Tiến trình, phần thưởng chính sẽ xuất hiện."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Phần thưởng"
+
+msgid "umgIntroView/title"
+msgstr "TRỞ LẠI KHÓI LỬA"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Ưu đãi giảm giá %(research)s được cộng thêm vào giảm giá từ phân đoạn bản vẽ xe. Giảm giá lớn nhất %(purchase)s sẽ được áp dụng."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Thoát \"Khởi động\"?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Số trận còn lại: %(battlesCount)s"
+msgstr "Số trận còn lại: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Chiến trận diễn ra cùng các xe do trí tuệ nhân tạo (AI) điều khiển và không tính vào thống kê/chỉ số của bạn."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Bạn cũng sẽ nhận được:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "Một ưu đãi giảm %(expDiscount)s khi nghiên cứu và một ưu đãi giảm %(priceDiscount)s khi mua một xe Cấp %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Giảm {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} khi nghiên cứu và giảm {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} khi mua xe Cấp {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Xe Cấp %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Xe Cấp {{level}} "
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Ưu đãi giảm giá một xe Cấp %(level)s"
+msgstr "Ưu đãi giảm giá một xe Cấp {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Cho việc hoàn thành chuỗi Nhiệm vụ Hàng ngày"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "TIẾN TRÌNH ĐÃ HOÀN TẤT"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "Một ưu đãi giảm %(expDiscount)s khi nghiên cứu\nvà một ưu đãi giảm %(priceDiscount)s khi mua"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Giảm {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} khi nghiên cứu và giảm {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} khi mua"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Trong Ga-ra"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Số ngày thuê: %(days)s"
+msgstr "Số ngày thuê: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Giảm giá nghiên cứu và mua"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Chọn Sau"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Đặt lại bộ lọc"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Giảm giá xe"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Xe Cấp %(vehicleLevel)s"
+msgstr "Xe Cấp {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Rõ!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Không thể Mở mục Chọn Phần thưởng"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Bạn đã nghiên cứu hết mọi xe Cấp %(vehicleLevel)s. Bạn giờ có thể được thưởng phân đoạn bản vẽ quốc gia."
+msgstr "Bạn đã nghiên cứu hết mọi xe Cấp {{vehicleLevel}}. Bạn giờ có thể được thưởng phân đoạn bản vẽ quốc gia."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Tìm theo tên"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Được hiển thị:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Đặt theo Mặc định"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Phần thưởng đã chọn: %(amountRewards)s %(infoIcon)s"
+msgstr "Phần thưởng đã chọn: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Chọn phần thưởng từ các danh mục được cung cấp"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Không có kết quả. Hãy thay đổi bộ lọc hoặc trả lại mặc định."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s phân đoạn bản vẽ quốc gia{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Phân đoạn bản vẽ quốc gia{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% giảm giá nghiên cứu và %(priceDiscount)s% giảm giá mua)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (giảm {{expDiscount}}% khi nghiên cứu và giảm {{priceDiscount}}% khi mua)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Giảm giá cho Xe Cấp %(level)s"
+msgstr "Giảm giá cho Xe Cấp {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Tất cả mô-đun được nghiên cứu xong, kíp lái và một chỗ để trong Ga-ra)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Mọi mô-đun đã nghiên cứu, kíp lái và chỗ để xe)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Xe Cấp %(level)s"
+msgstr "Xe Cấp {{level}} "
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Click nút \"Lấy\" để nhận phần thưởng đã chọn."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Phần thưởng đã chọn: %(amountRewards)s"
+msgstr "Phần thưởng đã chọn: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Mua"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "CHỌN PHẦN THƯỞNG CỦA BẠN"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "Pháo Chống tăng"

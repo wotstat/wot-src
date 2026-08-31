@@ -826,6 +826,9 @@ msgstr "Kiểu mẫu 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Chỉ loại Chính"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Trinh sát"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Bắn tỉa"
 
@@ -834,9 +837,6 @@ msgstr "Hỗ trợ"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Toàn diện"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Bánh lốp"
 
 msgid "centerIsAvailable"
 msgstr "Tất cả máy chủ đã khả dụng lại."
@@ -4159,6 +4159,9 @@ msgstr "Hệ thống tái nạp tự động cải tiến:\nGiảm thời gian t
 msgid "moduleInfo/autoShootGun"
 msgstr "Súng với hệ thống bắn liên thanh"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Xe này trang bị ống phóng tên lửa gắn trên mặt nạ súng. Kích hoạt khả năng bằng cách chuyển sang tâm ngắm vũ khí phụ, sau đó phóng tên lửa HE không-điều-khiển bằng nút bắn."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Tắt"
 
@@ -4312,6 +4315,9 @@ msgstr "TG chờ hồi phục"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "cho chuyên môn chính và kỹ năng kíp lái"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Xác suất Hại Nghiêm trọng"
+
 msgid "moduleInfo/params/damage"
 msgstr "Sát thương"
 
@@ -4342,11 +4348,29 @@ msgstr "Khả năng Cháy khi Trúng đạn"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Thời gian Bay"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Luôn sát thương nếu trúng giáp chính"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* khoảng cách đạn bay xa nhất đối với nòng pháo này"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " không phụ thuộc khoảng cách đối với loại đạn này"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", tầm bay xa nhất—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " Sau khi đâm qua lớp đầu tiên, loại đạn này bắt đầu mất sức xuyên theo khoảng cách"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " phụ thuộc khoảng cách: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " Loại đạn này đâm qua các lớp như bình thường, nhưng sau đó mất sức xuyên tương đương 3 lần độ dày lớp giáp"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Tốc độ Tối đa"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Luôn sát thương nếu trúng giáp chính"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Trọng lượng"
@@ -4378,20 +4402,11 @@ msgstr "Sức Kháng cự"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Tầm Bắn"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* khoảng cách đạn bay xa nhất đối với nòng pháo này"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Góc Quay Lớn nhất của Bánh"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Sát thương Trung bình ở %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " không phụ thuộc khoảng cách đối với loại đạn này"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", tầm bay xa nhất—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Góc Thường hóa"
@@ -4399,14 +4414,8 @@ msgstr "Góc Thường hóa"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Mất Sức xuyên"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Sau khi đâm qua lớp đầu tiên, loại đạn này bắt đầu mất sức xuyên theo khoảng cách"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " phụ thuộc khoảng cách: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Độ xuyên Trung bình (mm)—Khoảng cách"
@@ -4456,9 +4465,6 @@ msgstr "Tốc độ Quay"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Hệ số Nhân Giáp rỗng"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Loại đạn này đâm qua các lớp như bình thường, nhưng sau đó mất sức xuyên tương đương 3 lần độ dày lớp giáp"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Afterburner Cảm ứng Propellant làm tăng sát thương trung bình"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Bộ áp phản lực tăng tốc độ của xe"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Súng của xe có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động"
@@ -5284,11 +5293,14 @@ msgstr "Các xe với nòng súng hoàn hảo, nhưng cần một số điều k
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Các tăng đa nhiệm, dễ dàng thích nghi với bất cứ tình huống chiến đấu nào."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Các xe nhanh và cơ động, có thể trinh sát lẫn gây thiệt hại khi đánh chọc sườn."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Tăng hạng nhẹ trinh sát là những phương tiện nhỏ gọn, cơ động, được chế tạo để phát hiện kẻ địch. Dáng xe thấp, ngụy trang tốt, cùng độ linh hoạt tuyệt vời, tốc độ tối đa cao giúp chúng rất hiệu quả trong cả trinh sát thụ động lẫn chủ động, nhưng sức kháng cự kém và hỏa lực yếu không thể hỗ trợ hỏa lực đáng kể cho đồng minh."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Các xe với độ cơ động tuyệt vời, nhưng hiệu quả lại tùy thuộc vào bản đồ hoặc tình huống giao tranh."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Tăng hạng nhẹ hỗ trợ tận dụng khả năng cơ động cao, độ linh hoạt tuyệt vời và hỏa lực mạnh để nhanh chóng chuyển cánh, gây thiệt hại lớn trước khi rút về vị trí an toàn. Dù có thể thực hiện nhiệm vụ trinh sát trong một số tình huống nhất định, kích thước lớn, ngụy trang kém khiến chúng tệ hơn các tăng hạng nhẹ đặc thù vai trinh sát."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Tăng hạng nhẹ đa năng là những phương tiện toàn diện, vừa trinh sát được vừa yểm trợ hỏa lực được. Dù kém hiệu quả hơn xe trinh sát đặc thù, hỏa lực yếu hơn tăng hạng nhẹ hỗ trợ, đặc tính cân bằng đa năng cho phép đảm nhiệm tốt cả hai vai trò, dễ dàng thích nghi nhiều tình huống chiến đấu."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Các xe với giáp tương đối, phù hợp nhất khi cận chiến và cầm chân tăng hạng nặng đối phương."
@@ -5329,11 +5341,14 @@ msgstr "Tăng hạng Nặng Hỗ trợ"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Tăng hạng Nặng Toàn diện"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Tăng hạng Nhẹ Trinh sát"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Tăng hạng Nhẹ Hỗ trợ"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Tăng hạng Nhẹ Toàn diện"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Tăng hạng Nhẹ Bánh lốp"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Tăng hạng Trung Tấn công"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Tái nạp"
 msgid "tank_params/autoShootClipSec"
 msgstr "(băng/số lượng)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Tăng tốc thời gian nạp đạn"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Hồi phục sạc khi đầy băng"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Hồi sạc cơ bản"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Sạc đầu trận"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Sạc"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Sát thương trung bình (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Phân tán ở 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Độ xuyên trung bình (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Hồi phục (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Vận tốc tên lửa (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Sát thương Trung bình"
 
@@ -6057,6 +6105,21 @@ msgstr "Ổ Đạn"
 
 msgid "tank_params/burstSec"
 msgstr "(s/số lượng/số lượng)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Sát thương trung bình (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Tốc độ tối đa (chế độ EAF) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Tốc độ bắn (viên/phút)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Kích hoạt chế độ EAF (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Tắt Chế độ EAF (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Chuẩn bị Loạt bắn"
@@ -6150,6 +6213,12 @@ msgstr "Công suất Động cơ (mã lực) (cơ chế Turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Bán kính Sát thương"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Tốc độ tối đa (chế độ EAF) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Kích hoạt chế độ EAF (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Thời gian nguội súng sau bắn"
@@ -6325,9 +6394,6 @@ msgstr "Khả năng Vượt Địa hình"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Sạc Sight cơ-điện Coincidence (% mỗi s) (cơ chế Tiếp chiến, thụ động)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(mỗi lần kích hoạt)"
 
@@ -6484,8 +6550,20 @@ msgstr "Nạp Vũ khí Phụ"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Đạn Vũ khí Phụ"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Sát thương trung bình của đạn sau chỉnh (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Độ xuyên trung bình của đạn sau chỉnh (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Nạp dây đạn"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Thời gian Đổi Cơ chế"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Độ xuyên:"
@@ -6495,6 +6573,36 @@ msgstr "Độ phân tán ở Cự ly 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Vận tốc Đạn"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Ẩn giấu của địch sau thực vật (đứng yên và di chuyển)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Ẩn giấu của địch di chuyển"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Thời gian hồi ban đầu"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Thời lượng"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Thời gian hồi"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Tốc độ Quay Tháp pháo"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Chiều rộng quét cuối"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Chiều rộng quét đầu"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Thời lượng tự phát hiện"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Tầm Nhìn"
 
 msgid "tank_params/speedLimits"
 msgstr "Tốc độ Tối đa / Tốc độ Lùi"

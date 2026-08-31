@@ -880,6 +880,12 @@ msgstr "Vấu xích Bổ sung Loại 3"
 msgid "gun_balancing_1/name"
 msgstr "Cân bằng Súng (Loại 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Cân bằng Súng (Loại 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Cải tiến nòng (Loại 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Cải thiện Hệ Giảm xóc (Loại 1)"
 msgid "improved_suspension_2/name"
 msgstr "Cải thiện Hệ Giảm xóc (Loại 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Cơ cấu quay tháp cải tiến (Loại 1)"
+
 msgid "inspire/longDescr"
 msgstr "Đẩy mạnh hiệu suất chiến đấu của kíp lái trên xe mình và tất cả đồng đội nội trong một khoảng cách nhất định, mang lại một khoản tăng % cho chuyên môn chính của mỗi thành viên kíp lái. Người chơi áp dụng nó sẽ nhận được hiệu quả lớn hơn."
 
@@ -1294,6 +1303,9 @@ msgstr "Hệ thống Cải thiện Cơ động T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Hệ thống Cải thiện Cơ động T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Ống giảm chớp đầu nòng (Loại 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Tạm thời tăng %(enginePowerFactor)s công suất động cơ và gấp %(maxSpeedFactor)s tốc độ tối đa trong %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Trong vòng {colorTagOpen}%(delay)d s{colorTagClose}, khu vực đượ
 
 msgid "poi_artillery_aoe/name"
 msgstr "Pháo Kích"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Sau một khoảng trễ ngắn, Pháo sáng sẽ chiếu rọi khu vực chỉ định. Xe địch trong bán kính đó sẽ luôn lộ hình và hứng chịu nhiều thiệt hại hơn thường.\nĐồn Quan sát có thể chiếm lại được sau vài phút."
+
+msgid "poi_illumination_flare/name"
+msgstr "Pháo sáng"
 
 msgid "poi_radar/descr"
 msgstr "Khi được kích hoạt, mọi xe địch sẽ không mất hình trong {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Thân xe Nhẹ"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Thân xe\nNhẹ"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Lớp Phủ Thấu kính Chống Phản chiếu"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Lớp Phủ Đèn pha Chống Phản chiếu"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Lớp Phủ Thấu kính\nChống Phản chiếu"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Lớp Phủ Đèn pha\nChống Phản chiếu"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Hệ thống Quan sát Ngoại biên"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Bộ truyền Tiềm vọng Điện"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Hệ thống\nQuan sát Ngoại biên"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Bộ truyền\nTiềm vọng Điện"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Kính Triplêch Toàn cảnh"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Kính Triplêch\nToàn cảnh"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Kính Triplêch Toàn cảnh"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Thiết bị Quan sát Góc hẹp"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Thiết bị Quan sát\nGóc hẹp"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Răng Ngắm Mới"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Răng Ngắm Mới"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Bộ truyền Tiềm vọng Điện"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Bộ truyền\nTiềm vọng Điện"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Tăng Bền Chung"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Tăng Bền\nChung"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Lớp Phủ Đèn pha Chống Phản chiếu"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Lớp Phủ Đèn pha\nChống Phản chiếu"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Tinh chỉnh Bộ phóng"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Tinh chỉnh Bộ phóng"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Mắc lại dây Nguồn"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Mắc lại\ndây Nguồn"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Rãnh xoắn đầu đạn cải tiến"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Rãnh xoắn đầu đạn\ncải tiến"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Thấu kính Nhạy"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Thấu kính Nhạy"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Gia cường Kết cấu Chính"
@@ -2424,6 +2490,9 @@ msgstr "Phóng Điện"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Tạo một khu vực có %(thunderCount)s phát điện giật với tần suất cao. Mỗi lần xẹt gây {whiteSpanish_Open}%(damage)s HP thiệt hại{whiteSpanish_Close} và tạm thời giảm độ cơ động của xe nội trong vùng ảnh hưởng.\n\n*Có độ trễ %(delay)s s giữa lúc kích hoạt khả năng và phát xẹt điện đầu tiên. Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Thanh xoắn thay thế (Loại 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Trong %(duration)s s, tạo một khu vực làm giảm %(vehicleMaxSpeed)s độ cơ động, và tăng thời gian tái nạp súng cũng như thời gian ngắm thêm %(gunReloadTime)s cho mọi xe địch nằm trong đó."

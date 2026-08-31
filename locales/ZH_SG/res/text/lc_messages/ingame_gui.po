@@ -700,6 +700,9 @@ msgstr "占领区域"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "火灾区域伤害"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "造成伤害"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "战车已修复"
 
@@ -741,6 +744,9 @@ msgstr "射击伤害"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "受到自爆战车伤害"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "射击伤害"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "撞击伤害"
@@ -907,6 +913,9 @@ msgstr "未击穿履带"
 msgid "hitMarker/wheelBlocked"
 msgstr "未击穿车轮"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "最高战车等级"
 
@@ -1020,6 +1029,21 @@ msgstr "不需要维修：所有装备完好无损。"
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s]完全正常，不需修理。"
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "不可用：弹匣已满。"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "不可用：无剩余炮弹。"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "不可用：无剩余次数。"
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "不可用：装填即将完成。"
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "无法发射火箭"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "无法激活同轴武器。"
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s 毫米 HE弹%(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s 毫米 HEAT弹%(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "致命一击几率：%(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "降低"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "提高"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "标准"
+
 msgid "shells_kinds/params/damage"
 msgstr "平均伤害：%(value)s点"
 
@@ -2710,17 +2746,41 @@ msgstr "每秒伤害：%(value)s点/秒"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "伤害半径：%(value)s米"
 
-msgid "shells_kinds/params/header"
-msgstr "完全/半充能"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "基础/调整后："
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "完全/半充能："
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "标准/调整后："
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "标准/校准："
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "转正角度：%(value)s度"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "穿透力衰减：每100毫米%(value)s"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "平均穿深：%(value)s毫米"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "跳弹角度：%(value)s度"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "炮弹速度：%(value)s米/秒"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "震晕时长：%(minValue)s–%(maxValue)s秒"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "激活外部供弹模式"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "切换到围攻模式"
@@ -2745,6 +2805,9 @@ msgstr "激活“液体燃料助推器”"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "激活火箭助推器"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "切换射击模式"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "激活“序列式火箭助推器”"

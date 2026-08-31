@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "我们打开了您所有的节日大作战箱子。"
-
 msgid "autoOpenView/congratsLabel"
 msgstr "祝贺！"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "您可以在高级商店中购买大箱子"
 
-msgid "entryDesc/newYear_premium"
-msgstr "大箱子"
-
-msgid "entryDesc/newYear_usual"
-msgstr "小箱子"
-
-msgid "entryDesc/questSlot"
-msgstr "您通过完成任务获得了小箱子。"
-
 msgid "entryDesc/restrictedMode"
 msgstr "功能暂时无法使用。请稍后重试。"
 
 msgid "entryPoint/header"
-msgstr "箱子"
-
-msgid "entryTooltip/body/h1"
-msgstr "购买大箱子："
-
-msgid "entryTooltip/body/h2"
-msgstr "获得小箱子："
-
-msgid "entryTooltip/body/p1"
-msgstr "为自己您的朋友在高级商店购买内含新年装饰品的箱子。"
-
-msgid "entryTooltip/body/p2"
-msgstr "完成节日大作战任务的奖励。"
-
-msgid "entryTooltip/header"
 msgstr "箱子"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "额外{count}个箱子"
 msgid "entryView/buyLabel"
 msgstr "购买箱子"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "您的库存中已经没有大箱子了。\n前往高级商店购买更多。"
-
-msgid "entryView/ended/newYear_usual"
-msgstr "您没有小箱子。\n在战斗中获得更多。"
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "{year}年节日大作战"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "收到！"
@@ -178,9 +139,6 @@ msgstr "补给箱开启"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "已添加"
 
-msgid "notification/ny19man"
-msgstr "特别乘员：%(count)s"
-
 msgid "notification/rewards"
 msgstr "您获得了以下奖励："
 
@@ -244,36 +202,6 @@ msgstr "独特风格，适用于"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "在车库中查看"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "圣诞节箱子"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "魔幻箱子"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "新年箱子"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "农历新年箱子"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "圣诞节收藏"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "魔幻收藏"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "新年收藏"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "农历新年收藏"
-
-msgid "tooltip/category/rewards/description"
-msgstr "箱子包含{category}的装饰品和其他珍贵奖励。"
-
-msgid "tooltip/category/rewards/header"
-msgstr "奖项："
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "在高级商店中购买更多箱子。"
 
@@ -285,12 +213,6 @@ msgstr "操作暂时无法使用。请稍后重试。"
 
 msgid "type/event_premium"
 msgstr "曙光补给箱"
-
-msgid "type/newYear_premium"
-msgstr "大箱子"
-
-msgid "type/newYear_usual"
-msgstr "小箱子"
 
 msgid "type/wt_boss"
 msgstr "工程师的启动器"

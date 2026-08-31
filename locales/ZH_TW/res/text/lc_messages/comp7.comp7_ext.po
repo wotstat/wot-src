@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "此模式不適用於 %(serverName)s 伺服器"
 
 msgid "alertMessage/preannounce/first"
-msgstr "蒼藍蛟龍賽季開始於：%(date)s"
+msgstr "蒼藍鳳凰賽季開始於：%(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "緋紅蛟龍賽季開始於：%(date)s"
+msgstr "緋紅鳳凰賽季開始於：%(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "翠綠蛟龍賽季開始於：%(date)s"
+msgstr "翠綠鳳凰賽季開始於：%(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "正在等待外圍賽結果來決定您的位階"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "蒼藍蛟龍賽季已結束"
+msgstr "蒼藍鳳凰賽季已結束"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "緋紅蛟龍賽季已結束"
+msgstr "緋紅鳳凰賽季已結束"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "翠綠蛟龍賽季已結束"
+msgstr "翠綠鳳凰賽季已結束"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "此伺服器上的戰鬥將於 %(primeDelta)s後可進行"
@@ -253,6 +253,9 @@ msgstr "車輛特性已改善"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "血量正在恢復"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "受到的傷害已提高"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "車輛特性已改善"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "蒼藍蛟龍賽季將持續 %(days)d 天"
-msgstr[1] "蒼藍蛟龍賽季將持續 %(days)d 天"
-msgstr[2] "蒼藍蛟龍賽季將持續 %(days)d 天"
+msgstr[0] "蒼藍鳳凰賽季將持續 %(days)d 天"
+msgstr[1] "蒼藍鳳凰賽季將持續 %(days)d 天"
+msgstr[2] "蒼藍鳳凰賽季將持續 %(days)d 天"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "緋紅蛟龍賽季將持續 %(days)d 天"
-msgstr[1] "緋紅蛟龍賽季將持續 %(days)d 天"
-msgstr[2] "緋紅蛟龍賽季將持續 %(days)d 天"
+msgstr[0] "緋紅鳳凰賽季將持續 %(days)d 天"
+msgstr[1] "緋紅鳳凰賽季將持續 %(days)d 天"
+msgstr[2] "緋紅鳳凰賽季將持續 %(days)d 天"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "翠綠蛟龍賽季將持續 %(days)d 天"
-msgstr[1] "翠綠蛟龍賽季將持續 %(days)d 天"
-msgstr[2] "翠綠蛟龍賽季將持續 %(days)d 天"
+msgstr[0] "翠綠鳳凰賽季將持續 %(days)d 天"
+msgstr[1] "翠綠鳳凰賽季將持續 %(days)d 天"
+msgstr[2] "翠綠鳳凰賽季將持續 %(days)d 天"
 
 msgid "calendarDay/title"
 msgstr "時間表"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "歷練"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "天梯戰：蛟龍年"
+msgstr "天梯戰：鳳凰年"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "零歷練"
@@ -574,11 +577,17 @@ msgstr "了解！"
 msgid "intro/description/banPhase"
 msgstr "每個隊伍可完全禁用一輛車輛，使其無法參與戰鬥。與隊友協調投票來排除您最忌憚的戰車，或準備出乎敵人意料外的陣容。若您的車輛遭禁用，您可改為選擇數輛預先配置的租用車輛之一。"
 
+msgid "intro/description/draw"
+msgstr "當戰鬥時間結束且無任何隊伍明確獲勝時，戰鬥結果將依下列決勝條件依次判定：存活車輛數量，造成的傷害，以及率先摧毀對方車輛的一方。若雙方隊伍皆未造成傷害，則該場戰鬥為平手。"
+
+msgid "intro/description/nightMaps"
+msgstr "夜間地圖為熟悉的戰場帶來夜間環境、全新觀測站、翻新後的關鍵點位，以及調整後的偵察機制。當前地圖清單包括 Glacier、Sand River、Outpost、Steppes。"
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "模式變項會改變車輛的特定參數，如車輛生命值、消耗品冷卻時間、可持續被見到的時間等。"
 
 msgid "intro/description/pointsOfInterest"
-msgstr "一旦您佔領地圖上的特定區域，您將能使用戰術技能。地圖上有兩種關鍵點位：「炮兵總部」可讓您對特定位置進行火炮攻擊，而「通訊中心」可讓您偵察到所有敵方車輛。根據不同地圖，這些關鍵點位的存在與位置可能有變。"
+msgstr "一旦您佔領地圖上的特定區域，您將能使用戰術技能。地圖上有兩種關鍵點位：「炮兵總部」可讓您呼叫一次針對性打擊，而「通訊中心」可揭露所有敵方車輛的位置。依地圖而異，這些點位的數量與位置可能有別。"
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "進行 %(count)s 場外圍賽戰鬥以決定您的技巧程度與位�
 msgstr[2] "進行 %(count)s 場外圍賽戰鬥以決定您的技巧程度與位階。完成這些戰鬥後，您將獲得達到之位階和所有較低位階相應的獎勵。\n\n在外圍賽戰鬥擅離職守或平手，均視為戰敗。"
 
 msgid "intro/description/ranks"
-msgstr "反映玩家技巧的系統。位階越高，獲得的獎勵越優渥。從「黑鐵」挺進到「傳奇」位階並獲得珍貴獎勵。在蛟龍年一路奮戰以獲取獨特年度獎勵。"
+msgstr "從「黑鐵」挺進到「傳奇」位階並獲得珍貴獎勵。在鳳凰年一路奮戰以獲取獨特年度獎勵。"
 
 msgid "intro/description/roleSkills"
 msgstr "每輛車輛均有與角色相應的特殊技能，該技能有三個充能等級。啟用技能時，充能等級越高，效果越強大。充能等級將取決於獲得的威望點數數量，後者可藉由在戰鬥中達成出色表現、佔領關鍵點位、使用戰術技能等方式獲取。\n\n查看模式規則來深入了解有關獲得威望點數的不同方式。"
@@ -597,6 +606,12 @@ msgstr "您可駕駛 %(levels)s 階可研發車輛 (自走炮除外)、收藏車
 
 msgid "intro/title/banPhase"
 msgstr "車輛禁用"
+
+msgid "intro/title/draw"
+msgstr "平手規則"
+
+msgid "intro/title/nightMaps"
+msgstr "夜間地圖"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "天梯戰變項"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "勝利，但您"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "升至「%(rank)s」"
+msgstr "升至「{{rank}}」"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "評價：{{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "「%(rank)s」的%(division)s"
+msgstr "{{rank}}，{{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "降至「%(rank)s」的%(division)s"
+msgstr "降至「{{rank}}」的{{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "升至「%(rank)s」的%(division)s"
+msgstr "升至「{{rank}}」的{{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "參戰數"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "賽季威望點數紀錄：%(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "%(server)s 伺服器上的蒼藍蛟龍賽季已結束。"
+msgstr "%(server)s 伺服器上的蒼藍鳳凰賽季已結束。"
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "%(server)s 伺服器上的緋紅蛟龍賽季已結束。"
+msgstr "%(server)s 伺服器上的緋紅鳳凰賽季已結束。"
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "%(server)s 伺服器上的翠綠蛟龍賽季已結束。"
+msgstr "%(server)s 伺服器上的翠綠鳳凰賽季已結束。"
 
 msgid "products/actions/buy"
 msgstr "購買"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "天梯戰：外圍賽已完成"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "天梯戰：蒼藍蛟龍賽季"
+msgstr "天梯戰：蒼藍鳳凰賽季"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "天梯戰：緋紅蛟龍賽季"
+msgstr "天梯戰：緋紅鳳凰賽季"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "天梯戰：翠綠蛟龍賽季"
+msgstr "天梯戰：翠綠鳳凰賽季"
 
 msgid "rewardsScreen/description/year"
-msgstr "天梯戰：蛟龍年"
+msgstr "天梯戰：鳳凰年"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "我的 Ashbringer 哪去了？"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "結束於 %(seconds)s 秒"
 
 msgid "seasonName/first"
-msgstr "蒼藍蛟龍賽季"
+msgstr "蒼藍鳳凰賽季"
 
 msgid "seasonName/second"
-msgstr "緋紅蛟龍賽季"
+msgstr "緋紅鳳凰賽季"
 
 msgid "seasonName/third"
-msgstr "翠綠蛟龍賽季"
+msgstr "翠綠鳳凰賽季"
 
 msgid "seasonPointTooltip/header"
 msgstr "天梯戰錦旗"
@@ -1532,13 +1550,13 @@ msgstr[1] "已獲得 %(points)s 個「天梯戰錦旗」"
 msgstr[2] "已獲得 %(points)s 個「天梯戰錦旗」"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "賽季 I：蒼藍蛟龍"
+msgstr "賽季 I：蒼藍鳳凰"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "賽季 II：緋紅蛟龍"
+msgstr "賽季 II：緋紅鳳凰"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "賽季 III：翠綠蛟龍"
+msgstr "賽季 III：翠綠鳳凰"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "勝率：%(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "此模式將開放於 %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "蒼藍蛟龍"
+msgstr "蒼藍鳳凰"
 
 msgid "shortSeasonName/second"
-msgstr "緋紅蛟龍"
+msgstr "緋紅鳳凰"
 
 msgid "shortSeasonName/third"
-msgstr "翠綠蛟龍"
+msgstr "翠綠鳳凰"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "本頁面包含有關「天梯戰」模式當前賽季中最佳玩家的資訊。"
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "檢視全部"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "支持天梯戰傳奇系列，入手比賽主題組合包來為獎金池加碼！"
+msgstr "若您選擇的隊伍獲勝，您將獲得金色的 2026 OLS 獨特徽章。為您最愛的隊伍喝采！"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "以獨家主題自訂要素與獨特戰車展現您的電競魂！"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "史詩衝突將在中國蘇州舉辦的《戰車世界》國際冠軍賽展開，當中來自全球最強悍的隊伍將以天梯戰規則一決勝負，直指世界冠軍的最終榮銜。體驗究極刺激戰鬥，見證傳奇在戰場誕生！"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS 賽季 6"
+msgstr "OLS 賽季 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "2025 國際冠軍賽"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "此賽季為您領取珍貴獎勵的最後機會，包括獨家 X 階重型戰車 Ashbringer，可搭配您為其獲取的所有專屬 3D 風格與一組已有「情同手足」為零歷練的無畏乘員，還有可選擇的改良型與試驗型裝備，以及令人目不轉睛的 2D 風格與其他內容。千萬別錯過，直奔戰場迎向勝利！"
 
 msgid "whatsNewView/banner/heading"
-msgstr "把握蛟龍年的最後時刻！"
+msgstr "把握鳳凰年的最後時刻！"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "翠綠蛟龍賽季"
+msgstr "蒼藍鳳凰賽季"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "天梯戰：有什麼新內容？"
 
 msgid "whatsNewView/button/ok"
-msgstr "禁得好！"
+msgstr "燃起您的烈焰！"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "採用全新 2.0 更新設計的改良後戰鬥結果畫面，現在會於每場戰鬥後提供您模式相關的額外資訊。"
+msgid "whatsNewView/drawConditions/description"
+msgstr "當戰鬥時間結束且無任何隊伍明確獲勝時，戰鬥結果將依下列決勝條件依次判定：存活車輛數量，造成的傷害，以及率先摧毀對方車輛的一方。若雙方隊伍皆未造成傷害，則該場戰鬥為平手。"
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "詳細戰鬥結果"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "若您的最愛車輛被禁用，也不用太擔心。租用車輛現有預先配置的乘員、裝備、砲彈與消耗品。"
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "可立即上場的租用車輛 %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "本賽季期間，每支隊伍可在每場戰鬥完全禁用一輛車輛。與隊友協調投票來排除您最忌憚的戰車，或準備出乎敵人意料外的陣容。"
-
-msgid "whatsNewView/intro/heading"
-msgstr "車輛禁用 %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "平手條件更新 {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "地圖"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "適用於天梯戰的新車輛"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "2.4 更新推出全新的輕型戰車角色，並就車輛的技術特性進行重新平衡。盡情在戰鬥中體驗吧！"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "輕型戰車的全新角色 {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "在熟悉的地圖上體驗全新玩法。變動內容包括夜間環境、全新觀測站、新的關鍵點位分布，以及經過調整的偵察機制。這一切都將重塑戰鬥節奏，讓戰況警覺、時機掌握與戰術移動，都變得比以往更為重要。"
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "夜間地圖登場！{{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "由於戰鬥中的玩家人數不足，「超級裝甲排」功能已停用。我們正在為天梯戰模式開發以團隊為基礎的其他玩法。在此期間，也將定期舉辦 7v7 比賽。"
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "不再有超級裝甲排 {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "租用車輛"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "近期推出的美國 X 階中型戰車 Ares 90 現已開放在此模式中使用，相應的「角色技能」也已調整。"
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• 地圖：已移除 Erlenberg。已重新調整 Airfield 上關鍵點位的位置。已針對 Pilsen 進行微幅調整。\n• 車輛：已移除 Vz. 60S Dravec。已新增德國重型戰車 Kampfpanzer 67。"
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "角色技能更新 %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "達到「白銀」位階的玩家，現可在「天梯戰商店」購買 114 SP2。"
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "商店更新 %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "賽季平衡變更 {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "已排除"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "賽季 I：蒼藍蛟龍"
+msgstr "賽季 I：蒼藍鳳凰"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "賽季 II：緋紅蛟龍"
+msgstr "賽季 II：緋紅鳳凰"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "賽季 III：翠綠蛟龍"
+msgstr "賽季 III：翠綠鳳凰"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "當前"

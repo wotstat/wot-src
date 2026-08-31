@@ -136,6 +136,24 @@ msgstr[0] "{{count}}승"
 msgstr[1] "{{count}}승"
 msgstr[2] "{{count}}승"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "남은 시간: {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "일반 경험치"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "전장 복귀를 기념하여 매일 각 전차로 첫 승리 시 지급되는 일반 경험치를 증폭할 수 있는 {{@ style (color #ede6d9e6)}}일일 재배치 보너스{{/}}를 준비했습니다."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "전차장님, 복귀를 환영합니다!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "보너스는 매일 {{@ style (color #ede6d9e6)}}{{value}}{{/}}에 초기화됩니다."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "재배치 보너스: 이용 가능"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "선별 전차 목록으로 이동합니다."
 

@@ -43,7 +43,7 @@ package net.wg.gui.messenger.controls
          super.draw();
          if(Boolean(this._data))
          {
-            if(this._isDataChange && Boolean(isInvalid(InvalidationType.DATA,InvalidationType.SIZE,InvalidationType.STATE)))
+            if(this._isDataChange && Boolean(isInvalidTypes(InvalidationType.DATA,InvalidationType.SIZE,InvalidationType.STATE)))
             {
                this.status.source = this._data.resource;
                _loc1_ = this._data.userPropsVO;

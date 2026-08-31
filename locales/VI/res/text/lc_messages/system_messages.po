@@ -1009,6 +1009,9 @@ msgstr "Thất bại trong việc đào tạo thành viên kíp lái do lỗi m�
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Lỗi khi nhận quà: Lỗi máy chủ."
+msgstr "Lỗi khi mở hộp: Lỗi máy chủ."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Lỗi khi nhận quà. Xin vui lòng chờ tới khi tác vụ trước được hoàn tất."
+msgstr "Lỗi mở hộp: Xin vui lòng chờ tới khi tác vụ trước được hoàn tất."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
@@ -2383,30 +2386,6 @@ msgstr "Đã nhận Ngụy trang độc đáo cho %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Ngụy trang độc đáo cho %(vehicleName)s khả dụng đối với tất cả xe thuộc quốc gia: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Tất cả tiến độ của hoạt động đã được lưu. Bạn có thể tiếp tục các chiến dịch bất cứ lúc nào."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Chiến dịch %(campaignName1)s và %(campaignName2)s tạm ngưng"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Các hoạt động và nhiệm vụ tương ứng đã tiếp tục."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Chiến dịch %(campaignName1)s và %(campaignName2)s tiếp tục"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Tất cả tiến độ của hoạt động đã được lưu. Bạn có thể tiếp tục chiến dịch bất cứ lúc nào."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Chiến dịch %(campaignName)s tạm ngưng"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Các hoạt động tác chiến đã tiếp tục."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Chiến dịch %(campaignName)s tiếp tục"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s đã được ráp thành công."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Lỗi khi nhận phần thưởng. Vui lòng thử lại sau."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s đã được ráp thành công."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Lỗi khi nhận phần thưởng. Vui lòng thử lại sau."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s đã được ráp thành công."
 
 msgid "personalMissions/reward/regular/server_error"

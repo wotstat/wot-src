@@ -139,15 +139,6 @@ msgstr "Được trao tặng cho người chơi nhằm tôn vinh những đóng 
 msgid "15YearsOfService_descr"
 msgstr "Bạn đã là một phần của game từ %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP Reserve Achievement 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Được trao tặng khi hoàn tất Tiến trình."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Được trao tặng theo thành tích của bạn trong game"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP Reserve Achievement 2"
 
@@ -429,6 +420,15 @@ msgstr "• Được trao tặng khi hoàn thành cả 3 Chương."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Được trao tặng theo thành tích của bạn trong Giấy phép Quân sự Mùa XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Lowland Skirmish"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Được trao tặng khi hoàn thành cả 3 Chương."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Được trao tặng theo thành tích của bạn trong Giấy phép Quân sự Mùa XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Tiến trình Chính bao gồm 45 Giai đoạn."
@@ -1828,6 +1828,48 @@ msgstr "Silver Dragon"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Được trao khi thu thập ít nhất 9 Onslaught Color trong Năm Dragon ở chế độ Cường kích."
 
+msgid "comp7_6_1"
+msgstr "Azure Spark"
+
+msgid "comp7_6_1_descr"
+msgstr "Được trao tặng khi hoàn thành một chuỗi nhiệm vụ trong Mùa Azure Phoenix của chế độ Cường kích."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronze Phoenix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Được trao khi thu thập ít nhất 6 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Year of the Phoenix Champion"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Được trao khi thu thập ít nhất 15 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Gold Phoenix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Được trao khi thu thập ít nhất 12 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Iron Phoenix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Được trao khi thu thập ít nhất 3 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Year of the Phoenix Legend"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Được trao khi thu thập ít nhất 18 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silver Phoenix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Được trao khi thu thập ít nhất 9 Onslaught Color trong Năm Phoenix ở chế độ Cường kích."
+
 msgid "conqueror"
 msgstr "\"Capturer %(rank)s\""
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Chỉ có thể đạt được trong các Trận đấu Ngẫu nhiên."
 
 msgid "huntsman_descr"
-msgstr "Tiêu diệt toàn bộ tăng hạng nhẹ của địch (ít nhất 3) trong một trận đấu."
+msgstr "Diệt hết tăng hạng nhẹ của địch (ít nhất 2) trong một trận."
 
 msgid "huntsman_heroInfo"
 msgstr "Trung sỹ Grigoriy Naydin là một chỉ huy tăng BT-7. Vào ngày 25/06/1941, gần thị trấn Rudishkyay (Lithuania), ông đã tiêu diệt một đội hình thiết giáp Wehrmacht gồm 15 xe và 10 pháo của Tập đoàn Cơ giới Thứ 19. Naydin đã thành công trong việc ngăn chặn đà tiến quân của Đức trong hai ngày, tạo điều kiện đủ để tổ chức phòng ngự quanh Vilnius. Vì chiến công này, Naydin được phong tặng danh hiệu Anh hùng Liên bang Xô Viết."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Hoàn thành xuất sắc 15 nhiệm vụ cá nhân của khối Xô-Viết. Phần thưởng: Huân chương \"Exemplary Performance: Union\", Hạng III."
 
 msgid "readyForBattleAssault"
-msgstr "\"Exemplary Performance: Vanguard\""
+msgstr "Exemplary Performance: Sector 3 Vanguard"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Cho việc hoàn tất mọi nhiệm vụ Vanguard ở chiến dịch Sector 3."
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Vanguard ở các hoạt động chính của chiến dịch Sector 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Exemplary Performance: Fossa Vanguard"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Vanguard ở hoạt động Fossa của chiến dịch Sector 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Exemplary Performance: Fossa Ambush"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Ambush ở hoạt động Fossa của chiến dịch Sector 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Exemplary Performance: Fossa Assistance"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Assistance ở hoạt động Fossa của chiến dịch Sector 3."
 
 msgid "readyForBattleHT"
 msgstr "\"Exemplary Performance: Heavy Tanks\""
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Hoàn thành xuất sắc 15 nhiệm vụ cá nhân đối với Pháo Tự hành. Phần thưởng: Huân chương \"Exemplary Performance: SPGs\", Hạng IV."
 
 msgid "readyForBattleSniper"
-msgstr "\"Exemplary Performance: Ambush\""
+msgstr "Exemplary Performance: Sector 3 Ambush"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Cho việc hoàn tất mọi nhiệm vụ Ambush ở chiến dịch Sector 3."
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Ambush ở các hoạt động chính của chiến dịch Sector 3."
 
 msgid "readyForBattleSupport"
-msgstr "\"Exemplary Performance: Assistance\""
+msgstr "Exemplary Performance: Sector 3 Assistance"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Cho việc hoàn tất mọi nhiệm vụ Assistance ở chiến dịch Sector 3."
+msgstr "Cho việc hoàn tất mọi nhiệm vụ Assistance ở các hoạt động chính của chiến dịch Sector 3."
 
 msgid "reliableComrade"
 msgstr "\"Battle Buddy\""
@@ -4692,6 +4761,15 @@ msgstr "Dành cho những ai hoàn thành Tiến Trình Waffenträger: Paradox. 
 
 msgid "wt2025progression_descr"
 msgstr "Hoàn tất Tiến trình của chế độ Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Stormrider"
+
+msgid "wt2026progression_condition"
+msgstr "Được trao khi hoàn thành Tiến trình Waffenträger: Genesis 2026. Vinh dự cho những ai đứng lên chống lại cỗ máy biết suy nghĩ đầu tiên của von Krieger, Electric Intelligence, và cắt mọi mạch điện qua đó nó vươn vào thế giới chúng ta."
+
+msgid "wt2026progression_descr"
+msgstr "Hoàn thành Tiến trình Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "\"Master of Lightning\""

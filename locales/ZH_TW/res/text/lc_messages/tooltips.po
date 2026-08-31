@@ -6052,6 +6052,18 @@ msgstr "您在此車輛中的每名乘員已達每個主要專長的 6 個歷練
 msgid "moduleFits/wrong_slot/body"
 msgstr "此配件已安裝於其他位置。"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "對敵方配件及/或乘員造成重傷的機率。"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "砲彈命中敵方裝甲時，命中角度的減小量。"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "砲彈命中敵方裝甲板後，每 100 毫米損失的穿透力。"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "砲彈自動從敵方裝甲跳彈的角度。"
+
 msgid "multiselection/alert/body"
 msgstr "選擇車輛：您只能用完整的團隊來加入戰鬥。"
 
@@ -6890,7 +6902,7 @@ msgid "notrecruitedtankman/hw25_Titi_CN/label"
 msgstr "巴比伦: 荣耀征途"
 
 msgid "notrecruitedtankman/jager_mailand/desc"
-msgstr "Jäger Mailand 加入行列，為戰場上不斷變化的局勢帶來全新觀點。擁有獨特配音與帥氣新外觀，Mailand 將為您的戰鬥與眾不同。"
+msgstr "Jäger Mailand 加入行列，為戰場上不斷變化的局勢帶來全新觀點。擁有獨特配音與帥氣新形象，Mailand 將讓您的戰鬥與眾不同。"
 
 msgid "notrecruitedtankman/jager_mailand/howToGetInfo"
 msgstr "?empty?"
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "戰車遠征：Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin 對這次任務所在的貧瘠鹽灘瞭若指掌，就像熟悉自己那雙同樣飽經風霜的手一樣。他對不斷變動的環境並不陌生，早在登上戰車之前，他便在化學戰鬥防禦方面累積了豐富的經驗。二十年後，他來到離當年他以初級技術員身分展開軍旅生涯的實驗室僅有數日路程的地方。歲月與磨難總會在人身上留下痕跡，但正如 Vadim 對他的乘員開的玩笑那樣，反正還沒人遞交他的退役文件。所以在那之前，他哪裡都不會去。"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bryn Powell 童年時期的蔥鬱山谷，與他後來所熟悉的嚴酷氣候有著天壤之別。他最新的簡報內容異常簡短，而「不明化學藥劑」與「致命危險風險：極高」等字眼，卻足以讓許多車長祈禱能被調離。但 Bryn 始終認為保護自我這一點，是別人才有的可貴特質。天生膽大妄為的他，只要有心，本可在特技演員這行發光發熱。讓他操控戰車，其實也沒兩樣。"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora 是沉著冷靜的車長。身為在不穩定地區執行維和任務的老兵，他學會如何在壓力逼近時保持鎮定。無論是在漫長夜巡後筋疲力盡，或是分析有關乘員被派往發掘不明物質且令人忐忑不安的情報，他都從未失去鎮定。他用輕鬆又帶有黑色幽默的笑話來提振士氣，拒絕放棄眼中的光芒或停下輕快的步伐。"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "沒什麼能逃過 Sandrine Ousset 的法眼。在獲招募加入一項機密裝甲偵察任務前，她就是名戰功彪炳的神射手，她的鷹眼所及之處，遠超其步槍的瞄準鏡。只要給她一份敵方情報的殘缺片段，她就能拼湊出一致且準確的結論，她的乘員一開始甚至還把她那不可思議的洞察力，誤以為是千里眼。在她的指揮下，機密鮮少能久藏。對她的隊伍而言，幸好她最不留情的審視，留給了奉命調查的不明試劑來源。"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "人們總是問我認不認識 Jack Reed。在我回答前，我通常會深深吸一口氣並閉上雙眼一會兒。當他的指揮官可不像躺在玫瑰花床上一樣享受。Reed 是個叛逆的傢伙，但多少還是會服從命令並遵循軍事規範。現在他被困在地獄般熾熱的戰車裡。然而內心深處，他卻是在第 66 號公路騎自行車並感受微風輕撫他的頭髮。"
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "「第三區」戰役"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefan 出身於伯恩的製錶師家庭，繼承一門需要沉靜、耐心與絕對控制力的手藝。但對他來說，這些特質將成就一個截然不同的職涯。1940 年，英國情報部門給了他一個選擇：邊界的一邊是中立的瑞士，另一邊則是他邁向未知的未來。在阿爾卑斯山的隘口，他從一名間諜裝置技師，成長為一名神射手。戰後，他繼續從事這項工作，剷除那些以假名逃脫法網的人。Stefan 總是獨自行動，不留痕跡，至今依然如此：「第三區」從未有人見過他的真面目。"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "「第三區」戰役"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s — 所選炮管的預設砲彈。用來計算炮管特性及�
 msgid "shell/basic/description/bold"
 msgstr "預設砲彈"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "此車輛的外部供彈模式可讓您使用傷害更高的砲彈。"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "基本"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "調整後"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "特殊機制，使車輛炮管可提前射擊，砲彈參數也有所變動。"
 
@@ -10866,6 +10932,21 @@ msgstr "基本："
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "變動後："
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "「可調式引信設定器」可提高平均傷害或穿透力。"
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "可調整："
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "標準"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "校準"
 
 msgid "showArtyHitOnMap/body"
 msgstr "顯示/隱藏小地圖上的敵方自走炮砲彈落點區域。"
@@ -11028,6 +11109,12 @@ msgstr "降低聲音品質可以提高低階電腦的整體遊戲效能。開啟
 
 msgid "soundQualityOn/header"
 msgstr "低品質聲音"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}平均傷害{{/}}在擊穿敵方車輛後提高。"
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}平均穿透力{{/}}在未擊穿敵方車輛後提高。"
 
 msgid "specializationWotPlus/content/header"
 msgstr "加值車輛上乘員的訓練會加快 50%："
@@ -11386,6 +11473,36 @@ msgstr "改良的自動再裝填系統可以降低自動再裝填砲彈的標準
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "射出彈匣（或雙管火炮）中最後一發砲彈與裝填新彈匣之間的時間。/ 炮管數或彈匣中的砲彈數。"
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "使用此機制時，替代剩餘裝填時間的時間。"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "彈匣已滿時，補充一個使用次數所需的時間。"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "彈匣未滿時，補充一個使用次數所需的時間。"
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "戰鬥開始時，可使用的加速裝填次數。"
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "可持有的加速裝填次數上限。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "火箭彈擊穿裝甲後平均造成的傷害。潛在傷害的誤差範圍為平均數值 +/- 25%。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "擴散度即為在 100 公尺距離下離瞄準點的最大砲彈誤差。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "火箭彈平均可穿透的裝甲厚度。誤差範圍為平均數值 +/- 25%。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "火箭發射器裝填時間"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "決定無導引火箭的飛行速度。"
+
 msgid "tank_params/desc/avgDamage"
 msgstr "標準砲彈擊穿裝甲後平均造成的傷害。潛在傷害的誤差範圍為平均數值 +/- 25%。"
 
@@ -11406,6 +11523,21 @@ msgstr "助推器啟用後的最高持續時間。"
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "短彈匣中每發間的裝填時間。/ 彈匣中的短彈匣數。/ 短彈匣中的砲彈數。"
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "高裝藥單體砲彈擊穿裝甲後平均造成的傷害。潛在傷害的誤差範圍為平均數值 +/- 25%。"
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "外部供彈模式下，車輛前進速度的降低幅度。後退速度不受影響。"
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "外部供彈模式下，每分鐘砲彈發射數量的減少幅度。"
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "啟用外部供彈模式後，炮管準備射擊的最短所需時間。在此期間，您無法切換模式。"
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "返回「標準模式」後，炮管準備射擊的最短所需時間。在此期間，您無法切換模式。"
 
 msgid "tank_params/desc/chargeTime"
 msgstr "同時以雙管火炮開火的準備時間。/ 雙管齊射後裝填的停頓時間。"
@@ -11737,8 +11869,17 @@ msgstr "輔助武器射擊後的裝填時間。"
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "每次啟用期間，輔助武器可用的砲彈數。"
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "對敵方車輛造成裝甲擊穿後獲得的傷害加成。"
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "未對敵方車輛造成裝甲擊穿後獲得的穿透力加成。"
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "戰鬥一開始裝填砲彈與此後切換不同砲彈類型的所需時間。"
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "在校準與標準射擊模式間切換的所需時間。"
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "炮管擴散度即為在 100 公尺距離下離瞄準點的最大砲彈誤差。"
@@ -11748,6 +11889,36 @@ msgstr "炮管擴散度即為在 100 公尺距離下離瞄準點的最大砲彈�
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "顯示與目標距離每隔 100 公尺，砲彈偏離瞄準點的誤差（公尺計）。標準數值（第一個）為升溫後的炮管，改良數值為（第二個）常溫下的炮管。"
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "在 IRST 掃描範圍內，樹葉後方敵方車輛隱蔽性的漸減幅度。"
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "在 IRST 掃描範圍內，移動中敵方車輛隱蔽性的漸減幅度。"
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "戰鬥開始後，可首次使用 IRST 前的所需時間。"
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "IRST 掃描的持續時間。"
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "啟用後，可再次使用 IRST 前的所需時間。"
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "IRST 啟用時，炮塔迴轉速度的降低幅度。"
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "持續時間結束時，IRST 掃描範圍的寬度。"
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "持續時間開始時，IRST 掃描範圍的寬度。"
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "使用 IRST 偵測到未偵察到的敵人後，您車輛持續被偵察到的時間。"
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "IRST 掃描範圍內漸增的可視範圍數值。"
 
 msgid "tank_params/desc/speedLimits"
 msgstr "如技術特性所定義的車輛速度。"
@@ -12596,7 +12767,7 @@ msgid "vehicleParams/bonuses/title/skills"
 msgstr "乘員歷練："
 
 msgid "vehicleParams/chassisRotationSpeed"
-msgstr "迴轉速度（度/秒）"
+msgstr "迴轉速度 (度/秒)"
 
 msgid "vehicleParams/common/title"
 msgstr "主要技術特性："
@@ -12605,16 +12776,16 @@ msgid "vehicleParams/damage"
 msgstr "標準砲彈傷害"
 
 msgid "vehicleParams/enginePower"
-msgstr "引擎功率（匹馬力）"
+msgstr "引擎功率 (匹馬力)"
 
 msgid "vehicleParams/hullArmor"
-msgstr "車身裝甲（前/側/後，毫米）"
+msgstr "車身裝甲 (前/側/後，毫米)"
 
 msgid "vehicleParams/maxSteeringLockAngle"
-msgstr "最大車輪轉向角（度）"
+msgstr "最大車輪轉向角 (度)"
 
 msgid "vehicleParams/piercingPower"
-msgstr "平均穿透力（毫米）"
+msgstr "平均穿透力 (毫米)"
 
 msgid "vehicleParams/possibleBonuses/desc"
 msgstr "該參數會受到以下因素的影響："
@@ -12626,13 +12797,13 @@ msgid "vehicleParams/skill/name"
 msgstr "乘員歷練"
 
 msgid "vehicleParams/speedLimits"
-msgstr "最高速度 / 後退速度（公里/小時）"
+msgstr "最高速度 / 後退速度 (公里/小時)"
 
 msgid "vehicleParams/title/valueTemplate"
 msgstr "%(value)s"
 
 msgid "vehicleParams/turretArmor"
-msgstr "炮塔裝甲（前/側/後，毫米）"
+msgstr "炮塔裝甲 (前/側/後，毫米)"
 
 msgid "vehicleParams/valueChange/template"
 msgstr "(%(value)s)"

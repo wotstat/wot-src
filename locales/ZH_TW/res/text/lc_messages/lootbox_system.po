@@ -28,6 +28,30 @@ msgstr "獎勵已獲得"
 msgid "awardViews/footer/backButton/"
 msgstr "了解!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "剩餘 {{count}} 次"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "無重開次數"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "珍貴獎勵"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "免費重開"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "點券不足"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "花費 {{count}} 重開"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "重開"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "開出珍貴獎勵則無法重開。"
+
 msgid "bonuses/description/battle_booster"
 msgstr "技術指南"
 
@@ -118,6 +142,18 @@ msgstr "打開的補給箱數：%(count)"
 msgid "common/statsButton"
 msgstr "統計"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "取消"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "補給箱將重開，您將有機會獲得不同獎勵。"
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "重開"
+
+msgid "confirmRerollLootBox/title"
+msgstr "要花費 {{cost}} 重開？"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "取消"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s：%(count)s"
 msgid "homeView/subtitle"
 msgstr "活動將結束於 %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "若您未在活動結束前打開所有的補給箱，這些補給箱將會於稍後自動打開。"
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "若您未在活動結束前打開補給箱，這些補給箱將會自動打開。"
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "若您已有補給箱可能開出的所有車輛，後續從補給箱開出任何車輛時，您將獲得與該車輛等值的金幣補償。"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "每%(guaranteed0)s個補給箱保證會開出一輛VIII–X階車輛。若這些補給箱連續未開出此類車輛，當您打開第%(guaranteed0)s個補給箱（依補給箱類型而異）時，將會開出一輛您未在車庫中擁有的VIII–X階車輛。開出車輛後，計數器將重置。"
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "每%(guaranteed)s個補給箱保證會開出一輛VIII–X階車輛。若這些補給箱連續未開出此類車輛，當您打開第 %(guaranteed)s 個補給箱（依補給箱類型而異）時，將會開出一輛您未在車庫中擁有的VIII–X階車輛。開出車輛後，計數器將重置。"
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "若您不滿意補給箱開出的獎勵，可重開該補給箱，有機會獲得同一清單中的不同物品。每個補給箱的重開次數有限："
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "自動打開"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "補償"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "保證可獲得的獎勵"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "重開"
 
 msgid "infoPage/header/lootListLink"
 msgstr "在遊戲入口網站檢視物品清單"
@@ -227,7 +269,7 @@ msgid "infoPage/header/probability/title"
 msgstr "群組"
 
 msgid "infoPage/header/rewards/description"
-msgstr "每個群組中的獎勵最多僅會有一項開出"
+msgstr "每個群組最多開出一項獎勵"
 
 msgid "infoPage/header/rewards/title"
 msgstr "獎勵"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo) 專屬"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "「%(style)」3D 風格"
+
+msgid "reroll/free"
+msgstr "免費"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "交易"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "已扣除銀幣：%(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "已扣除點券：%(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "日期：%(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "已扣除金幣：%(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "「%(eventName)s」活動已結束"
@@ -480,3 +546,15 @@ msgstr "已獲補償的車輛：%(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "車庫中既有車輛的補償。"
+
+msgid "tooltip/reroll/attempt"
+msgstr "重開次數"
+
+msgid "tooltip/reroll/price"
+msgstr "費用"
+
+msgid "tooltip/reroll/text/default"
+msgstr "重開補給箱讓您有機會獲得同一清單中的不同獎勵。"
+
+msgid "tooltip/reroll/title/default"
+msgstr "重開"

@@ -136,6 +136,24 @@ msgstr[0] "{{count}}勝"
 msgstr[1] "{{count}}勝"
 msgstr[2] "{{count}}勝"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "終了まで{{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "戦闘EXP"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "復帰を記念して、特別なボーナスをご用意しました。{{@ style (color #ede6d9e6)}}デイリー戦線復帰ボーナス{{/}}は、各車輌でのその日の初勝利で取得できる戦闘EXPを増加させます。"
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "戦車長! 復帰をお待ちしていました!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "ボーナスは毎日{{@ style (color #ede6d9e6)}}{{value}}{{/}}にリセットされます。"
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "戦線復帰ボーナス利用可能"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "車輌プレイリストに移動"
 

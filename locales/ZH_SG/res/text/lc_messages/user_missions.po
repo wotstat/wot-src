@@ -251,13 +251,13 @@ msgid "hub/challenge_missions/notification/mission_complete/button"
 msgstr "前往“淬炼”"
 
 msgid "hub/challenge_missions/notification/mission_complete/title"
-msgstr "{{ mission }}任务已完成！"
+msgstr "任务{{ mission }}已完成！"
 
 msgid "hub/challenge_missions/notification/shield/button"
 msgstr "前往“淬炼”"
 
 msgid "hub/challenge_missions/notification/shield/text"
-msgstr "{{ mission }}任务失败"
+msgstr "任务{{ mission }}失败"
 
 msgid "hub/challenge_missions/notification/shield/title"
 msgstr "剩余盾牌"
@@ -382,11 +382,56 @@ msgstr "每周任务为每周开放的一组任务，任务进度会在每场战
 msgid "info_page/main/weekly/title"
 msgstr "每周任务"
 
+msgid "pm/missionState/active"
+msgstr "进行中"
+
+msgid "pm/missionState/complete"
+msgstr "已完成任务"
+
+msgid "pm/missionState/improve"
+msgstr "提升战绩"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "更换战车"
+
+msgid "pm/no_missions"
+msgstr "您选择的战车没有进行中的任务"
+
+msgid "pm/tier"
+msgstr "等级不适合"
+
+msgid "pm/unavailable"
+msgstr "任务暂时不可用"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "您选择的战车没有进行中的任务。请选择另一辆战车。"
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "由于技术原因此任务暂时不可用。我们对给您造成的不便深表歉意。"
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "您选择的战车不符合进行中行动的等级需求。请选择另一辆战车。"
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "没有进行中的任务"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "暂时不可用"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "等级不适合"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "今天的所有常设任务都已完成"
 
 msgid "quests/daily_quests/completed"
 msgstr "所有每日任务已完成"
+
+msgid "slider/title/missions"
+msgstr "常设任务"
+
+msgid "slider/title/personalMissions"
+msgstr "个人任务"
 
 msgid "tooltip/common/timer"
 msgstr "可用于{{timeLeft}}"

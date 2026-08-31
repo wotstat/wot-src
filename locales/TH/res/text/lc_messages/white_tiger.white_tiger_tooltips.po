@@ -1,0 +1,170 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "ผ่านด่านทั้งหมดแล้ว!"
+
+msgid "bannerTooltip/description"
+msgstr "Blitzträger ปะทะผู้ไล่ล่า: การรบอสมมาตร 1 ต่อ 6 ด้วยยานเกราะปรับแต่ง หาองค์ประกอบปรับแต่งเฉพาะและรางวัลที่มีค่าอื่นๆ"
+
+msgid "bannerTooltip/expiryDate/frozen"
+msgstr "การหยุดยิง"
+
+msgid "bannerTooltip/expiryDate/inAnnouncement"
+msgstr "Waffenträger จะได้รับพลังจาก"
+
+msgid "bannerTooltip/expiryDate/technicalPause"
+msgstr "รูปแบบไม่มีให้ระหว่างนี้"
+
+msgid "bannerTooltip/header"
+msgstr "Waffenträger: การกำเนิด"
+
+msgid "bannerTooltip/mode"
+msgstr "รูปแบบ"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— เปลี่ยนไปยังรูปแบบเกมอื่น"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะประสบปัญหาด้านกราฟฟิคและการเคลื่อนที่ของพาหนะ อาจจะเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่มด้วย"
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "ในกรณีที่สมรรถนะคอมพิวเตอร์ไม่พอ ให้ลองลดการตั้งค่ากราฟฟิคดู"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนะเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "สมรรถนะต่ำ"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "รูปแบบนี้ดึงสมรรถนะคอมพิวเตอร์มาก"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "สมรรถนะที่ลดลง"
+
+msgid "bannerTooltip/year"
+msgstr "2026"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "คุณเป็นเพื่อนกันอยู่แล้ว"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "กำลังรอการยืนยันคำขอเป็นเพื่อน"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "ปลดผู้เล่นจากรายชื่อกีดกันของคุณ"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "เพิ่มเข้ารายชื่อเพื่อน"
+
+msgid "battleResult/interaction/menu"
+msgstr "คลิกเพื่อเปิดรายการโต้ตอบกับผู้เล่นคนนี้"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "เพิ่มเข้าหมวดรถถัง"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "ผู้เล่นอยู่ในหมวดรถถังแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "ส่งคำเชิญแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "มีเพียงผู้การหมวดรถถังเท่านั้นที่จะเชิญผู้เล่นเข้าหมวดรถถังได้"
+
+msgid "dailyQuests/badgeStatus"
+msgstr "%(icon) มีให้จนถึง %(date)s"
+
+msgid "dailyQuests/rewards"
+msgstr "รางวัล:"
+
+msgid "dailyQuests/status"
+msgstr "ภารกิจประจำวันใหม่ใน %(icon) %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "เลือกพาหหนะที่มีให้เพื่อออกรบ"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "การรบในระดับความยากที่เลือกเอาไว้ไม่มีให้ชั่วคราวอันเนื่องด้วยเหตุทางเทคนิค"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "รอจนกว่าหมวดรถถังจะกลับจากการรบครั้งก่อนเพื่อเข้าการรบครั้งใหม่"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "ความยากไม่พอสำหรับหมวดรถถัง"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "ไม่มีให้"
+
+msgid "metaWidget/body"
+msgstr "คลิกเพื่อดูเป้าหมายกิจกรรมและรางวัลทั้งหมด"
+
+msgid "metaWidget/header"
+msgstr "เส้นทางรางวัล"
+
+msgid "shopWidget/body"
+msgstr "คลิกที่ส่วนพิเศษของร้านค้าในเกมที่มีชุดสินค้ากิจกรรมเฉพาะ"
+
+msgid "shopWidget/header"
+msgstr "กุญแจ Waffenträger และอื่นๆอีกมาก"
+
+msgid "teamList/actions/body"
+msgstr "การดำเนินการด่วนสำหรับการสร้างหมวดรถถังและเพิ่ม/ลบเพื่อน"
+
+msgid "teamList/actions/header"
+msgstr "การดำเนินการด่วน"
+
+msgid "teamList/damage/body"
+msgstr "เรียงตามความเสียหายที่ทำได้"
+
+msgid "teamList/damage/header"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "teamList/keys/body"
+msgstr "จัดเรียงตามกุญแจที่ได้รับ (ค่าที่แสดงนั้นไม่นับกุญแจที่ได้รับจากการปฏิบัติภารกิจประจำวันสำเร็จ)"
+
+msgid "teamList/keys/header"
+msgstr "กุญแจที่หาได้"
+
+msgid "teamList/kills/body"
+msgstr "เรียงตามพาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/kills/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/name/header"
+msgstr "ผู้เล่น"
+
+msgid "teamList/place/body"
+msgstr "เรียงตามตำแหน่งในทีม"
+
+msgid "teamList/place/header"
+msgstr "ตำแหน่งในทีม"
+
+msgid "teamList/squad/header"
+msgstr "หมวดรถถังเป็นหน่วยรบสำหรับผู้เล่นร่วมมือกันในการรบ"
+
+msgid "teamList/vehicle/body"
+msgstr "เรียงตามชนิดและชื่อพาหนะ"
+
+msgid "teamList/vehicle/header"
+msgstr "พาหนะ"
+
+msgid "vehicle/eventBonus"
+msgstr "กุญแจโบนัสมีให้สำหรับการผ่านภารกิจประจำวันด้วยพาหนะนี้"
+
+msgid "vehicle/lowEfficiency"
+msgstr "ประสิทธิภาพพลรถถังต่ำ"
+
+msgid "vehicle/rentState"
+msgstr "ถูกล็อก"

@@ -46,6 +46,15 @@ msgstr "Cho phép xử lý cũng như hiển thị sự phá hủy vật thể c
 msgid "HAVOK_ENABLED/warning"
 msgstr "Thiết lập này sẽ được áp dụng ở trận tiếp theo, nếu bị tắt ở trận hiện tại."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Hiệu ứng hình ảnh nâng cao"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Bật các hiệu ứng hình ảnh nâng cao. Tắt tùy chọn này sẽ trở lại các hiệu ứng tiêu chuẩn, điều này có thể cải thiện hiệu năng trò chơi."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Thiết lập này sẽ được áp dụng ở trận tiếp theo, nếu bị tắt ở trận hiện tại."
+
 msgid "LANGUAGE_CODE"
 msgstr "vi"
 
@@ -175,11 +184,11 @@ msgstr "Bật hiển thị vết xích và bánh xe"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Hiển thị vết xích và bánh xe trên mặt đất.\n\nKhông khả dụng đối với thiết lập Đồ họa Tiêu chuẩn và Chất lượng Đề-can Thấp."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Ẩn phụ tùng 3D trong chế độ Sniper"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Hiệu ứng và độ hiển thị phụ tùng 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Tạm thời ẩn các phụ tùng 3D của xe khỏi tâm ngắm trong chế độ Sniper.\n\nGiảm rối mắt trên màn hình, cải thiện chính xác ngắm bắn."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Điều chỉnh độ hiển thị của hiệu ứng và các phụ tùng 3D gần trung tâm màn hình để giảm cản trở tầm nhìn khi ngắm. Độ hiển thị của phụ tùng 3D chỉ được điều chỉnh trong chế độ Sniper.\n\nGiá trị thấp sẽ làm hiệu ứng và phụ tùng 3D trong suốt hơn để tăng độ rõ khi ngắm."
 
 msgid "WATER_QUALITY"
 msgstr "Chất lượng Mặt nước"
@@ -1995,6 +2004,15 @@ msgstr "Chế độ:"
 
 msgid "screenMode/windowed"
 msgstr "Cửa sổ"
+
+msgid "showPrebattleHighlights"
+msgstr "Bật Spotlight"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Hiển thị tuyển chọn các xe tăng nổi bật về mặt hình ảnh trong thời gian đếm ngược trước trận.\n\nTắt cái này có thể cải thiện hiệu năng trò chơi."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Nếu thiết lập này bị tắt ở trận hiện tại, nó sẽ được áp dụng ở trận tiếp theo."
 
 msgid "smoothing/description"
 msgstr "Quyết định độ xử lý bổ sung cho các nét mảnh và đường viền của vật thể trong khung cảnh game. Giảm tối thiểu hiện tượng răng cưa. Đường viền của các vật thể trông tự nhiên hơn."

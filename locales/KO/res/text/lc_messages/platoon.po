@@ -130,6 +130,9 @@ msgstr "적합한 %(level)s단계 전차가 차고에 없어 소대를 조직하
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "사전 평가를 완료하면 2인 및 7인 소대로 전투에 참여할 수 있습니다."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "사전 평가를 완료하면 2인 소대를 이용할 수 있습니다."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "소대를 조직할 수 없습니다."
 
@@ -141,6 +144,9 @@ msgstr "소대를 조직하거나 소대에 참여할 수 있습니다. 격전 �
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "소대"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "소대를 조직하거나 소대에 참여할 수 있습니다. 격전 소대는 2인으로만 구성됩니다."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "2명 또는 3명으로 소대를 구성하여 전투에 참여합니다.\n• 전투 모드: 무한 결사전\n• 전투 유형: 난투전, 깃발전"
@@ -264,12 +270,6 @@ msgstr "소대 중전차 제한 도달"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "소대 중형전차 제한 도달"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "소대 경전차 제한 도달"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "소대 치륜 전차 제한 도달"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "소대 경전차 제한 도달"

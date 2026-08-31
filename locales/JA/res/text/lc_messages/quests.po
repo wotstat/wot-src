@@ -802,6 +802,12 @@ msgstr "勝利時に適用できるEXPボーナス"
 msgid "bonusName/attachment"
 msgstr "3D付属品"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "エアリアル・アドヴァンス"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "エアディフェンス・スイート"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "挑戦者への報奨"
 
@@ -810,6 +816,9 @@ msgstr "3D付属品のセット"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "特殊海洋兵器"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "サーチ・アンド・デストロイ"
 
 msgid "bonusName/attendance_reward"
 msgstr "アテンダンス報酬"
@@ -4152,6 +4161,12 @@ msgstr "戦略ミッション"
 
 msgid "item/type/specialMission"
 msgstr "拠点: 特別指示"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "イベント期間中は毎日こちらのミッションに挑戦できます。ミッションの条件は変更できません。"
+
+msgid "lockedForRerollTooltip/header"
+msgstr "固定ミッション"
 
 msgid "metrics/state/done"
 msgstr "達成済み"

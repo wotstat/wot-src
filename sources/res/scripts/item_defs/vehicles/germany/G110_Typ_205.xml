@@ -1105,6 +1105,33 @@
 				<clipAngle>0.635683</clipAngle>
 				<anchorShift>0.67384398</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>-9.79999968e-05 0.56220901 -3.87579799</position>
+				<rotation>-0.00102199998 -1.57222199 0.876497984</rotation>
+				<scale>1 0.999999 0.999999</scale>
+				<applyType>universal</applyType>
+				<size>large</size>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18001</slotId>
+				<position>-1.79257202 0.578972995 -0.319922</position>
+				<rotation>0.000001 0 1.558366</rotation>
+				<scale>0.999999 0.999999 1</scale>
+				<applyType>universal</applyType>
+				<size>large</size>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18002</slotId>
+				<position>1.79239702 0.578976989 -0.319916993</position>
+				<rotation>-9.99999997e-07 3.13984704 1.56905198</rotation>
+				<scale>0.999998 0.999998 1</scale>
+				<applyType>universal</applyType>
+				<size>large</size>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -2955,6 +2982,17 @@
 							<applyTo>4096</applyTo>
 						</slot>
 						<slot>
+							<slotType>attachment</slotType>
+							<slotId>48000</slotId>
+							<size>large</size>
+							<position>-0 0.57437 0.93772</position>
+							<rotation>0 0 -0</rotation>
+							<scale>1 1 1</scale>
+							<applyType>gunMantlet</applyType>
+							<hangerId>6</hangerId>
+							<enableVisTunnel>true</enableVisTunnel>
+						</slot>
+						<slot>
 							<slotType>insigniaOnGun</slotType>
 							<slotId>49000</slotId>
 							<rayStart>-0.094274 -0.003648 3.91311</rayStart>
@@ -3040,6 +3078,17 @@
 							<anchorPosition>-0.047129 -0.001603 2.59953</anchorPosition>
 							<anchorDirection>0 0 1</anchorDirection>
 							<applyTo>4096</applyTo>
+						</slot>
+						<slot>
+							<slotType>attachment</slotType>
+							<slotId>48000</slotId>
+							<size>large</size>
+							<position>-0 0.57437 0.93772</position>
+							<rotation>0 0 -0</rotation>
+							<scale>1 1 1</scale>
+							<applyType>gunMantlet</applyType>
+							<hangerId>6</hangerId>
+							<enableVisTunnel>true</enableVisTunnel>
 						</slot>
 						<slot>
 							<slotType>insigniaOnGun</slotType>
@@ -3584,6 +3633,18 @@
 					<showOn>256</showOn>
 					<clipAngle>1.43704</clipAngle>
 					<anchorShift>0.552498996</anchorShift>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38000</slotId>
+					<position>-0.744763 1.524 0.103317</position>
+					<rotation>0 0 -0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>turret</applyType>
+					<size>large</size>
+					<enableVisTunnel>true</enableVisTunnel>
+					<hangerId>6</hangerId>
+					<hangerRotation>0 -0.523599 0</hangerRotation>
 				</slot>
 			</customizationSlots>
 			<customization>

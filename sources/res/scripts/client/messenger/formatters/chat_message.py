@@ -3,7 +3,7 @@ from messenger import g_settings
 from messenger.ext.player_helpers import isCurrentPlayer
 from messenger.formatters import TimeFormatter
 from messenger.m_constants import USER_GUI_TYPE
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from skeletons.gui.battle_session import IBattleSessionProvider
 from skeletons.gui.lobby_context import ILobbyContext
 
@@ -98,6 +98,7 @@ class SquadMessageBuilder(_BattleMessageBuilder):
 
 class LobbyMessageBuilder(object):
     lobbyContext = dependency.descriptor(ILobbyContext)
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
 
     def __init__(self):
         super(LobbyMessageBuilder, self).__init__()
@@ -106,10 +107,6 @@ class LobbyMessageBuilder(object):
         self.__name = b''
         self.__time = 0.0
         self.__text = b''
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     def setTime(self, time_):

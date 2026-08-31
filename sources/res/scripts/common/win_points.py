@@ -56,10 +56,7 @@ class WinPointsSettings(object):
     def __getattr__(self, item):
         if item in (b'pointsForFlag', b'pointsForOneResource'):
             return (lambda isSolo: getattr(self.soloSettings, item) if isSolo else getattr(self.teamSettings, item))
-        else:
-            return super(WinPointsSettings, self).__getattr__(item)
-
-        return
+        return super(WinPointsSettings, self).__getattr__(item)
 
 
 g_cache = None

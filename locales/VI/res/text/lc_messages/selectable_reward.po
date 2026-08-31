@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Đã rõ!"
 
 msgid "error/description"
-msgstr "Thông tin tạm thời không khả dụng. Chúng tôi rất xin lỗi vì vấn đề này. Xin vui lòng thử lại sau."
+msgstr "Chúng tôi rất tiếc vì vấn đề này. Xin vui lòng thử lại sau."
 
 msgid "error/title"
-msgstr "Không thể Mở mục Chọn Phần thưởng"
+msgstr "Trang này tạm thời không khả dụng"
 
 msgid "footer/closeBtn/label"
 msgstr "Chọn Sau"
@@ -23,7 +23,7 @@ msgstr[1] "Chọn phần thưởng từ các danh mục được cung cấp."
 msgstr[2] "Chọn phần thưởng từ các danh mục được cung cấp."
 
 msgid "footer/okBtn/label"
-msgstr "Lấy"
+msgstr "Lấy Thưởng"
 
 msgid "footer/rewardsSelected"
 msgstr "Phần thưởng đã chọn:"
@@ -44,19 +44,19 @@ msgid "reward/state_received"
 msgstr "Đã nhận rồi"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Đã đạt đến giới hạn chọn lợi phẩm ở danh mục này. Bạn có thể hủy chọn một cái để lựa thứ khác."
+msgstr "Bạn đã đạt số lượng tối đa được phép trong danh mục này. Bỏ một để chọn mục khác."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Đã đạt Giới hạn"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Ứng dụng kỹ thuật\ncho thiết bị"
 
 msgid "tabs/items/battle_booster"
-msgstr "Ứng dụng Kỹ thuật Thiết bị"
+msgstr "ƯDKT cho Thiết bị"
 
 msgid "tabs/items/blueprint"
 msgstr "Phân đoạn Bản vẽ"
@@ -93,6 +93,9 @@ msgstr "Thiết bị Tiêu chuẩn"
 
 msgid "tabs/items/trophy"
 msgstr "Thiết bị Bao cấp"
+
+msgid "tooltips/footer/body"
+msgstr "Chọn phần thưởng để nhận"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Click nút Lấy để nhận phần thưởng đã chọn."

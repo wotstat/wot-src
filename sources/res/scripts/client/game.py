@@ -1,7 +1,7 @@
 from __future__ import absolute_import, print_function
-import functools, locale, sys, zlib
+import functools, locale, sys, zlib, typing
 from future.moves import pickle
-import Account, AreaDestructibles, BigWorld, CommandMapping, GUI, MusicControllerWWISE, Settings, SoundGroups, TriggersManager, VOIP, WebBrowser, constants, persistent_data_cache as pdc, services_config
+import Account, AreaDestructibles, BigWorld, CommandMapping, Input, GUI, MusicControllerWWISE, Settings, SoundGroups, TriggersManager, VOIP, WebBrowser, constants, persistent_data_cache as pdc, services_config
 from MemoryCriticalController import g_critMemHandler
 from debug_utils import LOG_CURRENT_EXCEPTION, LOG_DEBUG, LOG_ERROR, LOG_NOTE
 from gui import onRepeatKeyEvent, g_keyEventHandlers, g_mouseEventHandlers, InputHandler
@@ -15,6 +15,8 @@ from skeletons.connection_mgr import IConnectionManager
 from skeletons.gameplay import IGameplayLogic
 from system_events import g_systemEvents
 from wg_async import wg_async, wg_await
+if typing.TYPE_CHECKING:
+    from BigWorld import KeyEvent, MouseEvent, AxisEvent
 try:
     locale.setlocale(locale.LC_TIME, b'')
 except locale.Error:
@@ -54,6 +56,7 @@ def init(scriptConfig, engineConfig, userPreferences):
         BigWorld.wg_initCustomSettings()
         Settings.g_instance = Settings.Settings(scriptConfig, engineConfig, userPreferences)
         CommandMapping.g_instance = CommandMapping.CommandMapping()
+        Input.loadProfiles()
         gameLoading.step()
         from helpers import DecalMap
         DecalMap.init(scriptConfig[b'decal'])
@@ -193,6 +196,7 @@ def fini():
     if TriggersManager.g_manager is not None:
         TriggersManager.g_manager.destroy()
         TriggersManager.g_manager = None
+    Input.unloadProfiles()
     if g_replayCtrl is not None:
         g_replayCtrl.unsubscribe()
     if dependency.isConfigured():
@@ -297,6 +301,10 @@ def onCameraChange(oldCamera):
 
 
 def handleAxisEvent(event):
+    inputHandler = getattr(BigWorld.player(), b'inputHandler', None)
+    if inputHandler is not None:
+        if inputHandler.handleAxisEvent(event):
+            return True
     return False
 
 
@@ -360,7 +368,7 @@ def handleMouseEvent(event):
                 return True
         inputHandler = getattr(BigWorld.player(), b'inputHandler', None)
         if inputHandler is not None:
-            if inputHandler.handleMouseEvent(dx, dy, dz):
+            if inputHandler.handleMouseEvent(event):
                 return True
         for handler in g_mouseEventHandlers:
             try:

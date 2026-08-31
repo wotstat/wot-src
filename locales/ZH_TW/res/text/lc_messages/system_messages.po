@@ -1009,6 +1009,9 @@ msgstr "由於伺服器錯誤而導致乘員訓練失敗。請稍後再試。"
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s"
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s（x%(count)s）"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "獲得禮物時發生錯誤：伺服器錯誤。"
+msgstr "打開補給箱時發生錯誤：伺服器錯誤。"
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "獲得禮物時發生錯誤。請等到前一個操作完成為止。"
+msgstr "打開補給箱時發生錯誤：請等到前一個操作完成為止。"
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "操作暫時無法使用。請稍後再試。"
@@ -2383,30 +2386,6 @@ msgstr "%(vehicleName)s 的獨特迷彩已獲得。"
 msgid "personalMissions/camouflageUnlocked"
 msgstr "%(vehicleName)s 的獨特迷彩可用於該國的所有車輛：%(nation)s。"
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "所有行動進度已儲存。您可隨時繼續戰役。"
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "「%(campaignName1)s」與「%(campaignName2)s」戰役已暫停"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "暫停的行動與相應任務已繼續。"
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "「%(campaignName1)s」與「%(campaignName2)s」戰役已繼續"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "所有行動進度已儲存。您可隨時繼續戰役。"
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "「%(campaignName)s」戰役已暫停"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "暫停的行動已繼續。"
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "「%(campaignName)s」戰役已繼續"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "「%(detailName)s」已成功安裝。"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "獲得獎勵時發生錯誤。請稍後再試。"
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "「%(detail_name)s」已成功安裝。"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "獲得獎勵時發生錯誤。請稍後再試。"
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "「%(detail_name)s」已成功安裝。"
 
 msgid "personalMissions/reward/regular/server_error"

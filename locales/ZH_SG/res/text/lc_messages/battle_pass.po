@@ -229,23 +229,14 @@ msgstr "可在购买时获得："
 msgid "battlePassBuyView/descr"
 msgstr "购买进度阶段会立即解锁并获得相应阶段当中的所有奖励。"
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "完成后续阶段发放以下奖励。"
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "立即发放阶段%(steps)s的奖励。"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "您将立即获得以下奖励"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "以下奖励将在阶段%(steps)s发放给您"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "将解锁"
+msgstr "于未完成阶段中解锁"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "将立刻收到"
+msgstr "立即获得"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "激活战令章节"
@@ -277,20 +268,17 @@ msgstr "野牛颂"
 msgid "chapter/fullName/1114"
 msgstr "野牛颂"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "精英循环"
 
-msgid "chapter/fullName/201"
-msgstr "尘封时光"
+msgid "chapter/fullName/211"
+msgstr "行动专家"
 
-msgid "chapter/fullName/202"
-msgstr "使命所向"
+msgid "chapter/fullName/212"
+msgstr "特技演员"
 
-msgid "chapter/fullName/203"
-msgstr "沙漠号令"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "坚忍斗士"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "野牛颂"
@@ -298,17 +286,14 @@ msgstr "野牛颂"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "野牛颂"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "尘封时光"
+msgid "chapter/fullNameUppercased/211"
+msgstr "行动专家"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "使命所向"
+msgid "chapter/fullNameUppercased/212"
+msgstr "特技演员"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "沙漠号令"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "坚忍斗士"
 
 msgid "chapter/title"
 msgstr "“%(chapter)s”章节"
@@ -471,6 +456,9 @@ msgstr "×3乘员经验任务"
 
 msgid "equipCoinBonus"
 msgstr "部件：%(count)s个"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D配饰套组"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "车长"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "完成所有章节后开放。已完成章节：%(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "获取一辆高级战车与专属自定义元素。"
+msgstr "投身其中，获取专属奖励和独特自定义元素。"
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "战令：Far Cry现已推出！"
+msgstr "特殊章节来了！"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "购买进阶战令，获取更多奖励！"
@@ -1114,11 +1102,8 @@ msgstr "精英循环第%(level)d阶段"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "经验给所选%(nation)s战车的每名乘员"
 
-msgid "rewardChoice/subTitle"
-msgstr "选择您的奖励"
-
 msgid "rewardChoice/title"
-msgstr "战令"
+msgstr "选择您的奖励"
 
 msgid "rewardChoice/titleChapter"
 msgstr "战令：“%(chapter)s”章节"
@@ -1129,14 +1114,14 @@ msgstr "战令：“%(chapter)s”章节，阶段%(level)s"
 msgid "season/fullName/1002"
 msgstr "野牛颂"
 
-msgid "season/fullName/20"
-msgstr "荒漠寻踪"
+msgid "season/fullName/21"
+msgstr "稳扎稳打"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "野牛颂"
 
-msgid "season/fullNameUppercased/20"
-msgstr "荒漠寻踪"
+msgid "season/fullNameUppercased/21"
+msgstr "稳扎稳打"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "可选择的指令"

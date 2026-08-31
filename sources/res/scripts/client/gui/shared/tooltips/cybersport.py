@@ -26,8 +26,7 @@ class CybersportSelectedVehicleToolTipData(CybersportToolTipData):
             vehicle = self.itemsCache.items.getItemByCD(int(intCD))
             return vo_converters.makeVehicleVO(vehicle)
         else:
-            super(CybersportSelectedVehicleToolTipData, self).getDisplayableData(intCD)
-            return
+            return super(CybersportSelectedVehicleToolTipData, self).getDisplayableData(intCD)
 
 
 class CybersportSlotToolTipData(CybersportToolTipData):
@@ -40,8 +39,7 @@ class CybersportSlotToolTipData(CybersportToolTipData):
             entity = dispatcher.getEntity()
             return vo_converters.getUnitRosterData(entity, unitMgrID, int(index))
         else:
-            super(CybersportSlotToolTipData, self).getDisplayableData(index, unitMgrID)
-            return
+            return super(CybersportSlotToolTipData, self).getDisplayableData(index, unitMgrID)
 
 
 class CybersportSlotSelectedToolTipData(CybersportToolTipData):
@@ -75,8 +73,7 @@ class SquadSlotSelectedToolTipData(CybersportToolTipData):
             if vehicles:
                 vehicle = self.itemsCache.items.getItemByCD(vehicles[0].vehTypeCompDescr)
                 return vo_converters.makeVehicleVO(vehicle)
-        super(SquadSlotSelectedToolTipData, self).getDisplayableData()
-        return
+        return super(SquadSlotSelectedToolTipData, self).getDisplayableData()
 
 
 class CybersportUnitToolTipData(CybersportToolTipData):

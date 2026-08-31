@@ -130,7 +130,7 @@ class BasePerksController(object):
         return
 
     def clean(self):
-        self._scopedPerks = ()
+        self._scopedPerks = {}
         self._modifiedFactors = defaultdict((lambda : defaultdict(list)))
         self.stop()
         return
@@ -144,7 +144,7 @@ class BasePerksController(object):
         self._destroyPlanHolder()
         self._attrFactorCollectors = {}
         self.dynamicFactorCollectors = {}
-        self._scopedPerks = ()
+        self._scopedPerks = {}
         self._owner = None
         return
 
@@ -227,6 +227,13 @@ class BasePerksController(object):
         self.dynamicFactorCollectors = {}
         self._buildDynamicFactorsCollectorMap()
         return
+
+    def isPerkModifierApplied(self, perkID):
+        for perkMap in viewvalues(self._scopedPerksToFactors):
+            if perkID in perkMap:
+                return True
+
+        return False
 
     @wg_async
     def updateScopedPerks(self, newScopedPerks):

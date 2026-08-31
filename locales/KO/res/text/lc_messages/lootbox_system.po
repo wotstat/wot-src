@@ -28,6 +28,30 @@ msgstr "획득한 보상"
 msgid "awardViews/footer/backButton/"
 msgstr "확인"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "남은 횟수: {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "재개봉 불가"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "값진 보상"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "무료 재개봉"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "전쟁 채권 부족"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "재개봉 비용: {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "재개봉"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "해당 보상은 재개봉 조건에 부합하지 않습니다."
+
 msgid "bonuses/description/battle_booster"
 msgstr "지휘명령"
 
@@ -118,6 +142,18 @@ msgstr "개봉한 상자: %(count)"
 msgid "common/statsButton"
 msgstr "통계"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "취소"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "상자를 다시 열면 다른 보상을 획득할 수도 있습니다."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "재개봉"
+
+msgid "confirmRerollLootBox/title"
+msgstr "{{cost}}에 재개봉하시겠습니까?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "취소"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "이벤트 종료까지 %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/default"
 msgstr "이벤트 종료 시까지 개봉하지 않은 상자는 자동으로 개봉됩니다."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "상자에서 획득할 수 있는 아이템 목록 내 전차를 모두 보유하고 있다면 상자에서 전차 획득 시 해당 전차 가격에 상응하는 골드가 대신 지급됩니다."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "상자를 %(guaranteed0)s개 개봉할 때마다 8단계~10단계 전차를 확정 획득합니다. 상자를 개봉하였지만 전차가 나오지 않았다면 상자 유형에 따라 %(guaranteed0)s번째 상자 개봉 시 보유하지 않은 8단계~10단계 전차를 확정 획득합니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "상자를 %(guaranteed)s개 개봉할 때마다 8단계~10단계 전차를 확정 획득합니다. 상자를 개봉하였지만 전차가 나오지 않았다면 상자 유형에 따라 %(guaranteed)s번째 상자 개봉 시 보유하지 않은 8단계~10단계 전차를 확정 획득합니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "상자에서 획득한 보상이 마음에 들지 않으면 상자를 재개봉하여 같은 목록에서 다른 아이템을 획득할 수도 있습니다. 상자별 재개봉 가능 횟수:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "자동 개봉"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "대체 보상"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "확정 보상"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "재개봉"
 
 msgid "infoPage/header/lootListLink"
 msgstr "게임 포털에서 아이템 목록 확인"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo) 전용"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "%(style) 3D 스타일"
+
+msgid "reroll/free"
+msgstr "무료"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}~{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "내역"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "차감된 크레딧: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "차감된 전쟁 채권: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "날짜: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "차감된 골드: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "\"%(eventName)s\" 이벤트 종료"
@@ -480,3 +546,15 @@ msgstr "대체된 전차: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "이미 보유한 전차에 대한 대체 보상입니다."
+
+msgid "tooltip/reroll/attempt"
+msgstr "재개봉"
+
+msgid "tooltip/reroll/price"
+msgstr "비용"
+
+msgid "tooltip/reroll/text/default"
+msgstr "상자를 재개봉하면 동일한 목록에서 다른 보상을 획득할 수도 있습니다."
+
+msgid "tooltip/reroll/title/default"
+msgstr "재개봉"

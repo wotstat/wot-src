@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "「霓虹競速」為獨特且限時開放的活動，帶給您與眾不同的內容！在險惡的賽道上競速與戰鬥，完成任務並獲得獎勵。"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "此模式需要較高的電腦效能。您可能遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+msgstr "您的電腦效能不足以執行此模式。您將遇到圖形運算及車輛移動相關問題。遊戲客戶端很有可能會當掉。"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "效能可能會降低"
+msgstr "效能不足"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "此模式需要較高的電腦效能。您可能遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "效能可能會降低"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} 所有階級"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+msgstr "您的電腦效能不足以執行此模式。您將遇到圖形運算及車輛移動相關問題。遊戲客戶端很有可能會當掉。"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "建議使用最高的畫質設定"
+msgstr "效能不足"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) 建議使用最高的畫質設定"
+msgstr "%(icon) 效能不足"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "建議使用最高的畫質設定"
+msgstr "效能可能會降低"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) 建議使用最高的畫質設定"
+msgstr "%(icon) 效能可能會降低"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "新的霓虹競速任務開放於："
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "恭喜!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "可無限次完成的進度後系統"
+msgstr "可重複完成的階段"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "您已完成主要進度"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "此階段可重複完成，次數不限。"
+msgstr "盡可能獲取越多的獎勵："
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "獲得的點數：{{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "可重複"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "完成："
+msgstr "完成"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "戰敗："
+msgstr "戰敗"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "勝利："
+msgstr "勝利"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "點數："
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "您已完成所有當前可用的任務。更多任務將在下一次輪替時出現。"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "開放 {{timeLeft}}"
+msgstr "到期於 {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "開放 {{timeLeft}}"
+msgstr "活動結束於 {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "新任務可用於 {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "閃避雷射並謹慎抓準跳躍時機，更要加速衝向終點！"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "小心：雷射與跳躍"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "若您的車輛卡住了，可使用「返回中繼點」能力，將您傳送回最後通過的中繼點。"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "返回中繼點"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "以深入了解此模式"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "全力奮戰\n並直奔終點"
+msgstr "全力奮戰並直奔終點"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} 所有階級"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的效能，激烈戰鬥期間，每秒幀率可能降低。"
+msgstr "您的電腦效能不足以執行此模式。您將遇到圖形運算及車輛移動相關問題。遊戲客戶端很有可能會當掉。"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "建議使用最高的畫質設定"
+msgstr "效能不足"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) 建議使用最高的畫質設定"
+msgstr "%(icon) 效能不足"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，您的每秒幀率可能降低。"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "建議使用最高的畫質設定"
+msgstr "效能可能會降低"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) 建議使用最高的畫質設定"
+msgstr "%(icon) 效能可能會降低"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "霓虹競速"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "在險惡的賽道上競速與戰鬥，完成任務並獲得獎勵。"
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "霓虹競速"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "霓虹競速"

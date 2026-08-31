@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "ให้ความทนทานพาหนะ"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+msgstr "ให้กับความเร็วการหมุนปืน"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "ให้ความเร็วการหมุนป้อมปืน"
@@ -1325,7 +1325,7 @@ msgid "kpi/bonus/positive/vehicleGunShotDispersion"
 msgstr "ให้กับการกระจายเมื่อพาหนะแล่นหรือหมุนตัว"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
-msgstr "ให้กับขนาดวงการเล็งหลังทำการยิง"
+msgstr "ให้กับวงการเล็งหลังยิง"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
 msgstr "ให้กับการกระจายระหว่างแล่น"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "ให้ความทนทานพาหนะ"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+msgstr "ให้กับความเร็วการหมุนปืน"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "ให้ความเร็วการหมุนป้อมปืน"
@@ -2100,6 +2100,51 @@ msgstr " และ "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "รูปแบบระบบป้อนกระสุนภายนอกของพาหนะทำให้สามารถใช้กระสุนมีความเสียหายเพิ่มขึ้นได้"
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "ค่าพื้นฐานในรูปแบบปกติ"
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "ค่าปรับในรูปแบบระบบป้อนกระสุนภายนอก"
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "ค่ามาตรฐานสำหรับการยิงเต็มประจุ"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "ค่าสำหรับการยิงประจุเดียว"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "ค่ามาตรฐานสำหรับการยิงเต็มประจุ"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "พื้นฐาน"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "ค่าสำหรับการยิงประจุเดียว"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "ในรูปแบบปรับแล้ว กระสุนชนิดนี้จะมีประสิทธิภาพกับเกราะลาดเอียง"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "ตัวปืนของพาหนะมีอุปกรณ์พิเศษที่ทำให้เปลี่ยนค่ากระสุนบางอย่างก่อนทำการยิงได้"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "ในรูปแบบมาตรฐาน กระสุนชนิดนี้จะมีประสิทธิภาพกับเกราะที่ไม่มีแผงเกราะกั้น"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "รูปแบบปกติ"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "รูปแบบปรับแล้ว"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "ในรูปแบบปรับแล้ว กระสุนชนิดนี้สามารถเจาะแผงเกราะกั้นได้"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "ในรูปแบบปกติ กระสุนชนิดนี้จะมีประสิทธิภาพกับเกราะแนวตั้ง"
 
 msgid "tooltips/specializationDesc"
 msgstr "อุปกรณ์มาตรฐานของประเภท %(spec)s จะมีประสิทธิภาพมากกว่าถ้าติดตั้งในช่องนี้ อุปกรณ์จากประเภทอื่นจะมอบโบนัสปกติให้เท่านั้น"

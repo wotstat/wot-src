@@ -26,6 +26,8 @@ class BATTLE_EFFICIENCY_TYPES(object):
     VEHICLE_HEALTH_ADDED = b'healthAdded'
     WEATHER_ZONE = b'weatherZone'
     FIRE_DAMAGE_ZONE = b'fireDamageZone'
+    HE_ROCKET = b'heRocket'
+    RECEIVED_HE_ROCKET = b'receivedHERocket'
     COMMANDER_EAGLE_EYE = b'commander_eagleEye'
     COMMANDER_EMERGENCY = b'commander_emergency'
     COMMANDER_TUTOR = b'commander_tutor'

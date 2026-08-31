@@ -6052,6 +6052,18 @@ msgstr "職能あたりのパーク数の上限およびボーナス・パーク
 msgid "moduleFits/wrong_slot/body"
 msgstr "このモジュールは既に別のスロットに搭載中です。"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "敵のモジュールや搭乗員に重大な損傷を与える確率です。"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "砲弾が敵の装甲に命中した際の、命中角度の減少量です。"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "砲弾が敵の追加装甲に命中した後、100 mmごとに減衰する貫通力の量です。"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "砲弾が敵の装甲で自動的に跳弾する角度を表します。"
+
 msgid "multiselection/alert/body"
 msgstr "車輌を選択してください: 完全なグループのみが戦闘参加可能です。"
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "バトルパス〈Far Cry〉"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprinは、現在の任務地である不毛の塩類平原を、同じく風雨にさらされた自分の手の甲のごとく知り尽くしていた。不安定な環境にも慣れており、戦車に乗り込むずっと以前から化学兵器防衛の専門家として名を馳せていた。20年後、彼は下級技術者として軍務を開始した研究所からわずか数日の距離にいることに気づく。時と苦難は誰をも無傷ではおかないが、Vadimは搭乗員に冗談を飛ばした。「除隊の書類は提出されていない。誰かが正式に提出するまでは、ここにいるつもりだ」と。"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bryn Powellが少年時代を過ごした緑豊かな渓谷は、彼が知ることになる過酷な気候とは別世界だった。直近のブリーフィングは驚くほど詳細に欠けており、《未確認の化学剤》や《極度な生命の危険》といった言葉は多くの指揮官に配置転換を祈らせたことだろう。しかしBrynは、自衛本能を他人事ながらも賞賛に値する資質だと常に考えていた。生まれつき命知らずの彼は、その気になればスタントマンとして輝かしいキャリアを築くこともできただろう。戦車の操縦席に乗せても、その違いはほとんどなかった。"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Soraは何事にも動じない指揮官だった。不安定な地域での平和維持活動のベテランとして、プレッシャーの中でも冷静さを保つ術を心得ていた。長い夜間パトロールで疲労困憊のときも、部隊が調査を命じられた未知の物質に関する不穏な情報を分析するときも、彼の冷静さが揺らぐことはなかった。軽妙さとブラックユーモアの紙一重の冗談で士気を保ち、その目の輝きや軽やかな足取りが失われることはなかった。"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Oussetの目をごまかすことはできない。極秘の偵察任務に抜擢される前は勲章を受けた狙撃手であった彼女の鋭い視力はライフルのスコープの範囲をはるかに超えていた。不明瞭な敵の情報の断片を見せるだけでも、彼女は一貫して正確な結論を導き出すことができた。当初は仲間でさえ彼女の並外れた観察力を千里眼と見間違えたほどだった。彼女の指揮下では、秘密が長く隠し通されることは滅多になかった。幸いなことに、彼女の最も執拗な精査は調査を命じられた未知の試薬の源に向けられていた。"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Jack Reedとはどんな男だとよく訊かれるよ。そんな時はいつも、まず深く息を吸って、しばらく目を瞑らずにはいられないんだ。ああいう男を部下に持つというのは、決して楽ではないからな。ただ、確かにあいつは反抗的だが、命令を与えられれば確実に遂行するし、軍の規則に違反することもない。灼熱の戦車の中にあっても、きっと心の中じゃあ、髪をなびかせながらルート66をバイクで流しているんだろうよ。"
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "「セクター3」キャンペーン"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "ベルンの時計職人の一家に生まれたStefanは、沈黙、忍耐、そして完全な制御を要求される技術を受け継いだ。しかし彼にとって、それらの資質はまったく異なるキャリアを形作ることになる。1940年、イギリスの諜報機関は彼に選択肢を提示した。国境の一方には中立国スイス、もう一方には彼自身。アルプスの峠で、彼は諜報装置の整備士から狙撃手へと成長した。戦後も彼はその仕事を続け、偽名で裁きを逃れた者たちを排除した。Stefanは常に単独で痕跡を残さずに働き、今もそれは変わらない。《セクター3》で彼の顔を見た者は誰もいない。"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "「セクター3」キャンペーン"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—選択中の主砲の標準砲弾。主砲特性および火�
 msgid "shell/basic/description/bold"
 msgstr "標準砲弾"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "「外部給弾モード」を使用すると、与ダメージが増加した砲弾を使用できます。"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "基本"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "改良後"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "車輌の主砲に搭載された特殊メカニズムにより、変化した砲弾パラメーターでより早いタイミングでの発射が可能となります。"
 
@@ -10866,6 +10932,21 @@ msgstr "完全"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "単一"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "「調整式信管設定器」により、平均ダメージまたは貫通力が上昇します。"
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "調整可能"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "砲撃前に一部の砲弾パラメーターを変更できる特殊装置が主砲に搭載されています。"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "標準"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "較正済み"
 
 msgid "showArtyHitOnMap/body"
 msgstr "敵自走砲弾の弾着点を表示します。"
@@ -11028,6 +11109,12 @@ msgstr "サウンド品質を下げることで、ローエンド PC におい�
 
 msgid "soundQualityOn/header"
 msgstr "LQ サウンド"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "敵車輌に命中させた砲弾が装甲を貫通すると次弾の{{@ style (color #E9E2BF)}}平均ダメージ{{/}}が増加します。"
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "敵車輌に命中させた砲弾が装甲の貫通に失敗すると次弾の{{@ style (color #E9E2BF)}}平均貫通力{{/}}が増加します。"
 
 msgid "specializationWotPlus/content/header"
 msgstr "プレミアム車輌に配属された搭乗員は通常より50%早く訓練が進みます。"
@@ -11386,6 +11473,36 @@ msgstr "改良型自動再装填システムでは通常の単発自動再装填
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "弾倉内の全弾または両門の主砲を撃ち切ってから再び全弾を装填するのに要する時間と、主砲または弾倉に装填できる砲弾の総数を表します。"
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "メカニズム使用時に、残りの装填時間に置き換わる時間です。"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "弾倉が満タンの状態でチャージを1つ補充するのに要する時間です。"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "弾倉が満タンではない状態でチャージを1つ補充するのに要する時間です。"
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "戦闘開始時のチャージ数です。"
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "砲弾の装填を加速するために一度に保持できるチャージの最大数です。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "ロケット弾が敵の装甲を貫通した際に与えうるダメージの平均値を表します。ダメージの偏差は平均値の+/- 25%です。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "100 mの距離から射撃を行った場合の照準点と弾着点の最大誤差を表します。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "ロケット弾が貫通しうる装甲厚の平均値を表します。貫通力の偏差は平均値の+/- 25%です。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "ロケット砲の装填時間です。"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "無誘導のロケット弾の飛翔速度を表します。"
+
 msgid "tank_params/desc/avgDamage"
 msgstr "標準砲弾が敵の装甲を貫通した際に与えうるダメージの平均値を表します。ダメージの偏差は平均値の+/- 25%です。"
 
@@ -11406,6 +11523,21 @@ msgstr "ブースターの持続時間の最大値を表します。"
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "左から順に、挿弾子内の砲弾が発射される間隔、弾倉内に装填できる挿弾子の総数、そして各挿弾子内の砲弾数を表します。"
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "高チャージ単発弾が敵の装甲を貫通した際に与えうるダメージの平均値を表します。ダメージの偏差は平均値の+/- 25%です。"
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "「外部給弾モード」時の前進速度へのペナルティーを表します。後退速度は影響を受けません。"
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "「外部給弾モード」時の発射速度の低下を表します。"
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "「外部給弾モード」を有効にしてから主砲が砲撃可能になるまでに要する最短時間を表します。この間、モードの切り替えはできません。"
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "「通常モード」に戻ってから主砲が砲撃可能になるまでに要する最短時間を表します。この間、モードの切り替えはできません。"
 
 msgid "tank_params/desc/chargeTime"
 msgstr "左から順に、両門の主砲で同時に射撃を行うための準備に要する時間と、斉射を行ってから次の装填が始まるまでの時間を表します。"
@@ -11737,8 +11869,17 @@ msgstr "補助兵装で射撃を行ってから装填が完了するまでに要
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "補助兵装での攻撃時に発射できる砲弾の数を表します。"
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "敵車輌の装甲を貫通した後に付与される与ダメージへのボーナスを表します。"
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "敵車輌の装甲を貫通できなかった後に付与される貫通力へのボーナスを表します。"
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "戦闘開始時の初弾装填にかかる時間と、弾種を切り替える際に要する時間です。"
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "「較正モード」と「通常モード」の切り替えにかかる時間を表します。"
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "100 mの距離から射撃を行った場合の照準点と弾着点の最大誤差を表します。"
@@ -11748,6 +11889,36 @@ msgstr "100 mの距離から射撃を行った場合の照準点と弾着点の
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "100 mの距離から射撃を行った場合の照準点と弾着点の最大誤差を表します。スラッシュの左側には砲身が過熱している際のデフォルトの散布界が、右側には砲身の冷却が完了して射撃精度が向上した際の散布界が表示されます。"
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "「IRST」のスキャン範囲内における、茂みや樹木の陰に隠れた敵車輌の隠蔽率の段階的な低下を表します。"
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "「IRST」のスキャン範囲内における、移動中の敵車輌の隠蔽率の段階的な低下を表します。"
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "戦闘が開始してから「IRST」を初めて使用できるようになるまでに要する時間を表します。"
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "「IRST」のスキャンに要する時間です。"
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "「IRST」の再使用までに要する時間を表します。"
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "「IRST」使用中の砲塔旋回速度へのペナルティーを表します。"
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "スキャン終了時の「IRST」のスキャン範囲の幅です。"
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "スキャン開始時の「IRST」のスキャン範囲の幅です。"
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "「IRST」で未発見の敵を発見した際の自車輌の被発見時間を表します。"
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "「IRST」のスキャン範囲内における視認範囲の段階的な拡大を表します。"
 
 msgid "tank_params/desc/speedLimits"
 msgstr "前進および後進する際に到達しうる走行速度の最大値を表します。"

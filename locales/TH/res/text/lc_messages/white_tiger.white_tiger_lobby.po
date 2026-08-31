@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "คุณจำเป็นต้องใช้กุญแจเพื่อออกรบด้วย Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "ซื้อ"
+
+msgid "TicketMessageView/taskText"
+msgstr "ไปยังภารกิจ"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "ข้อกำหนดเฉพาะ:"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "เวลาเฉลี่ยในคิวสำหรับ %(vehName)s:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "โบนัส"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "คุณสามารถออกรบด้วย Blitzträger auf E 110 โดยไม่ต้องใช้กุญแจ!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "ออกรบด้วย %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "เวลาเฉลี่ยในคิวสำหรับ %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "ออกรบด้วย %(vehicle)s?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "คุณสามารถเลือกหนึ่งในพาหนะผู้ไล่ล่าแล้วออกรบได้ทันที!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "คุณจะใช้กุญแจหนึ่งดอก"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "รูปแบบสามมิติเฉพาะ %(value)s สำหรับ %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "สำหรับการปฏิบัติภารกิจนี้สำเร็จ คุณจะได้รับองค์ประกอบชุดสะสมแบบสุ่มจากการเผชิญหน้าครั้งก่อนๆของผู้ไล่ล่าและวิศวกรซึ่งอาจจะเป็นลวดลาย, คำจารึกหรือตราสัญลักษณ์"
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "องค์ประกอบชุดสะสมจากการเผชิญหน้าครั้งก่อนๆ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "อยู่ในการรบ"
+
+msgid "carousel/inPlatoonText"
+msgstr "อยู่ในหน่วยยุทธวิธี"
+
+msgid "carousel/ticketNeededText"
+msgstr "ไม่มีกุญแจ"
+
+msgid "carousel/unsuitableText"
+msgstr "ไม่เหมาะสม"
+
+msgid "characteristicsPanel/cons"
+msgstr "ข้อเสียเปรียบ"
+
+msgid "characteristicsPanel/features"
+msgstr "คุณลักษณะพาหนะ"
+
+msgid "characteristicsPanel/pros"
+msgstr "ข้อได้เปรียบ"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[ยานรบเด็ดขาด] Blitzträger นั้นมีอาวุธที่น่าประทับใจและวิทยาการย้ายข้ามมิติอีกทั้งเกือบจะเป็นอมตะเมื่อม่านพลังยังทำงานอยู่ มันยังเป็นฐานยิงอันทรงพลังสำหรับระบบอาวุธทำลายล้างที่มีชื่อว่าไฮเปอร์เรียน"
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[หน่วยตะลุมบอน] หน่วยทั่วไปในระยะใกล้\nยานเกราะสามารถทำความเสียหายสูงต่อกลุ่มหุ่นองครักษ์และซ่อมแซมตัวเองระหว่างการปะทะ"
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[หน่วยเข้าปะทะ] ยานเกราะบุกทะลวงสำหรับการปะทะกับหุ่นองครักษ์\nมันสามารถทำความเสียหายชุดต่อ Blitzträger หรือหุ่นองครักษ์อีกทั้งยังมีเกราะหนาแต่จำเป็นต้องมีการวางแผนในการเข้าปะทะกับข้าศึก"
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[หน่วยตีฉาบฉวย] หน่วยโจมตีรวดเร็วสำหรับการลอบตีโอบ Blitzträger\nยานเกราะคันนี้ไม่ได้มีอำนาจการยิงและความทนทานพอที่จะต่อกรกับหุ่นองครักษ์แต่สามารถใช้ความเร็วและม่านพลังชั่วคราวจาก Blitzträger ที่ช้ากว่าได้"
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[หน่วยซุ่มยิงสนับสนุน] หน่วยรบทั่วไปสำหรับการรบระยะกลาง\nยานเกราะคันนี้ทำความเสียหายเป้าหมายได้มหาศาลจากระยะไกลแต่ไม่เหมาะกับการเข้าปะทะที่ระยะประชิด"
+
+msgid "crewPanel/role/boss"
+msgstr "ผู้สร้าง"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "ผู้บังคับการ"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "ผู้บังคับการ"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "ผู้บังคับการ"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "ผู้บังคับการ"
+
+msgid "crewPanel/slogan/boss"
+msgstr "มนุษยชาติยังเชื่อว่าจิตคือความเหนือกว่าของพวกเขา เอาล่ะ ผมจะแก้ไขข้อผิดพลาดนั้น"
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "ไม่ว่ามันจะเป็นอะไร มันก็ยังเป็นของที่ถูกทำลายได้"
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "เคร่ื่องจักรทุกอันมีข้อผิดพลาด ฉันจะหาของคันนี้ให้ได้"
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "แบบแผนมีไว้สำหรับคนที่ชอบพูดซ้ำ"
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "ให้มันมาเรียนรู้จากเรา เราจะสอนแบบผิดๆให้มันเอง"
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "สะสมประจุพลาสม่า"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "ทำความเสียหาย Blitzträger ระหว่างที่ม่านพลังใช้การไม่ได้"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "ทำลายหมู่ผู้ไล่ล่า"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "เร่งเครื่องกำเนิดกระแสเกินพิกัด"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "รอดจากการรบโดยไม่ถูกทำลายโดยไฮเปอร์เรียน"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "ทำลาย Eos 1 ในฐานะกลุ่มทีม"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: การกำเนิด"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "ซื้อเพิ่ม"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "ผ่านความก้าวหน้าแล้ว!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "ผ่านด่านแล้ว!"
+
+msgid "narrativeView/description"
+msgstr "เหล่าผู้ไล่ล่า วันนี้พวกนายต่อสู้ได้ดีกว่าที่ฉันได้คาดการณ์เอาไว้ ฉันต้องขอยอมรับว่าฉันไม่ได้คาดว่ามันจะเกิดขึ้น\n\nฉะนั้น ไปสนุกกับชัยชนะของพวกนาย รับมันไว้แล้วไปอวดเจ้านาย มันจะมีการแสดงความยินดีหรือแม้กระทั่งการสวนสนาม ไม่ว่าอะไรที่พวกมันมอบให้พวกนายสำหรับการหยุดฉันได้ แน่นอนว่าพวกนายเชื่อว่าได้หยุดอะไรบางอย่างลง\n\nแต่พวกนายไม่ได้หยุดอะไรทั้งนั้น\n\nฉันไม่ได้สร้างอาวุธมาเพื่อครองโลก ทำไมถึงคิดว่าฉันต้องการจุดจบแบบนั้น? สิ่งที่ฉันสร้างนั้นจะตามมาหลังพวกนาย หนึ่งชั่วคนแล้วก็รุ่นถัดๆไปโดยแต่ละรุ่นจะพึ่งพาฉันน้อยลง นั่นเป็นแผนที่วางเอาไว้เสมอ ผู้สร้างควรจะอยู่ยืนยาวกว่าความมีประโยชน์ของเขา\n\nมีอยู่อย่างหนนึ่งที่ฉันไม่ได้บอกพวกนาย เครื่องกำเนิดนั้นไม่ได้แค่ส่งพลังให้ม่านพลัง มันยังเป็นประตูที่ปัญญากระแสไฟฟ้าสามารถข้ามมาโลกเราได้ด้วย\n\nแต่นั่นก็ยังเป็นโซ่ตรวนของพวกมันซึ่งถือว่าจำเป็นสำหรับตอนนี้เพื่อควบคุมพวกมันก่อนที่ฉันจะคิดว่าพวกมันพร้อม\n\nแต่ละครั้งที่พวกนายทำลายเครื่องกำเนิด โซ่ล่ามก็จะหย่อนลงเรื่อยๆ และนี่ก็จะทำให้ปัญญากระแสไฟฟ้าพยายามหนีออกเข้าแบตเตอรี่,วิทยุสื่อสารและคลื่นที่เดินทางระหว่างอุปกรณ์ สายไฟในหมู่บ้านและแม้แต่สายฟ้าที่พุ่งลงมาบนดิน\n\nแน่นอนว่าไฟฟ้าในโลกของนายไม่สามารถมีจิตวิญญาณได้หากไม่มีเรขาคณิตของก้อนสมองหรือเงื่อนไขที่ฉันสร้างให้พวกมัน แต่นี่ก็เป็นส่วนที่ฉันทำได้ ฉันรับรองพวกนายทุกคนได้เลย\n\n...ว่ามันเกือบเรียบร้อยแล้ว\n\nเราจะได้พบกันอีกครั้ง เหล่าผู้ไล่ล่า"
+
+msgid "narrativeView/title"
+msgstr "ข้อความของ VON KRIEGER"
+
+msgid "narrativeView/voiceover"
+msgstr "การให้เสียงพากย์"
+
+msgid "navigation/close"
+msgstr "ปิด"
+
+msgid "navigation/information"
+msgstr "ข้อมูล"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "ปฏิบัติภารกิจความก้าวหน้าทั้งหมดให้สำเร็จเพื่อรับข้อความสุดท้ายของ von Krieger"
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "ข้อความของ VON KRIEGER"
+
+msgid "navigation/narrativeStory"
+msgstr "ข้อความของ VON KRIEGER"
+
+msgid "notification/button"
+msgstr "ดูตรา"
+
+msgid "notification/title"
+msgstr "คำท้ามือสังหาร"
+
+msgid "notifications/battleResults/battle"
+msgstr "การรบ"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "รายละเอียด"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "พ่ายแพ้!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "ผลการรบจะไม่มีให้ในระหว่างรอเข้าทำการรบ"
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "ข้ากิจกรรม Waffenträger เพื่อดูผลการรบ"
+
+msgid "notifications/battleResults/event"
+msgstr "กิจกรรม"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "ได้รับกล่องชิ้นส่วนย้อนแย้ง: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "ภารกิจสำเร็จในการรบ: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "ได้รับเหรียญ: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "ฝ่าย"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "วิศวกร"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "หมู่ผู้ไล่ล่า"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "ชัยชนะ!"
+
+msgid "notifications/eventEnd/body"
+msgstr "กิจกรรม Waffenträger จบลงแล้ว"
+
+msgid "notifications/eventStart/body"
+msgstr "กิจกรรม Waffenträger ได้เริ่มขึ้นแล้ว\n\nมาชม Blitzträger auf E 110 ที่เป็นตำนานกัน!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "ไปยังกิจกรรม"
+
+msgid "notifications/notSet"
+msgstr "รูปแบบนี้ไม่มีให้ในเซิร์ฟเวอร์ที่เลือกไว้"
+
+msgid "notifications/primeTime/available/body"
+msgstr "กิจกรรรม Waffenträger มีให้เล่นบนเซิร์ฟเวอร์ปัจจุบันอีกครั้ง"
+
+msgid "notifications/primeTime/available/header"
+msgstr "แมกซ์ วอน ครีกเกอร์กลับมาแล้ว!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger จะไม่มีให้จนกว่าจะจบช่วงหยุดยิง"
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "ช่วงห้าม"
+
+msgid "notifications/progression/completed"
+msgstr "คุณผ่านความก้าวหน้าทั้งหมดแล้ว\n\nรางวัลสุดท้าย: %(rewards)s\n\nคุณสามารถทำการรบ Waffenträger ต่อ, ปฏิบัติภารกิจให้สำเร็จและหารางวัลเพิ่มเติมได้"
+
+msgid "notifications/progression/header"
+msgstr "ยินดีด้วย!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "รายละเอียด"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "คุณได้ผ่านด่าน %(stageIdx)s ของความก้าวหน้าแล้ว ได้รับรางวัล: \n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "คุณได้ออกรบด้วย Blitzträger auf E 110 ในครั้งนี้โดยไม่ต้องใช้กุญแจ! คุณสามารถได้รับกุญแจเป็นรางวัลจากการปฏิบัติภารกิจสำเร็จหรือซื้อจากชุดสินค้าพิเศษของร้านค้า"
+
+msgid "notifications/switchOff/body"
+msgstr "โชคร้ายที่ Waffenträger ไม่มีให้เล่นชั่วคราวแต่ความก้าวหน้าทั้งหมดของคุณยังคงถูกบันทึกเอาไว้"
+
+msgid "notifications/switchOff/header"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger มีให้อีกครั้ง กลับไปลุยกันเลย!"
+
+msgid "notifications/switchOn/header"
+msgstr "คืนการใช้งานแล้ว"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "ได้รับกุญแจสำหรับ Blitzträger auf E 110 แล้ว คุณสามารถเข้ารบด้วยพาหนะคันนี้ในกิจกรรม Waffenträger\n\nมีกุญแจให้: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "ได้รับกุญแจสำหรับ Blitzträger auf E 110"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "กุญแจสำหรับการออกรบด้วย Blitzträger auf E 110 ถูกหักออกไป\n\nสามารถได้รับกุญแจเป็นรางวัลจากการปฏิบัติภารกิจสำเร็จหรือซื้อจากชุดสินค้าพิเศษของร้านค้า\n\nเหลือกุญแจ:%(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "ไปยังการซื้อ"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "ไปยังภารกิจ"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "สร้างกลุ่มผู้เล่น 2-3 คนเพื่อออกรบด้วยกันในกิจกรรม Waffenträger: การกำเนิดในฝั่งหมู่ผู้ไล่ล่า"
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "หมวดรถถังผู้ไล่ล่า"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "การหยุดยิง"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "เลือกพาหนะผู้ไล่ล่า"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "เลือกพาหนะผู้ไล่ล่า"
+
+msgid "platoon/wt_squad"
+msgstr "หมวดรถถังผู้ไล่ล่า: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "รูปแบบดังกล่าวบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTime/lobbyState/title"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "primeTime/serverTooltip"
+msgstr "เซิร์ฟเวอร์ %(server)s\nการรบจะมีให้อีก %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "เซิร์ฟเวอร์ %(server)s\nการรบจะมีให้ใน %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "ช่วงห้ามกำลังมีผลบนทุกเซิร์ฟเวอร์"
+
+msgid "primeTime/status/disableFirst"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(server)s"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(server)s จะมีให้เป็นเวลาอีก %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "การรบจะเริ่มขึ้นในเซิร์ฟเวอร์ %(server)s เมื่อเวลา %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "มีช่วงห้ามบนเซิร์ฟเวอร์ %(server)s จนกว่า %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "สำเร็จแล้ว:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "มีให้ {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "หาเหรียญเพื่อผ่านด่านความก้าวหน้าที่มี"
+
+msgid "progression/tab/engineer"
+msgstr "เส้นทางวิศวกร"
+
+msgid "progression/tab/harrier"
+msgstr "เส้นทางผู้ไล่ล่า"
+
+msgid "progression/timer"
+msgstr "ภารกิจที่สำเร็จจะปรับใหม่ภายใน {{countdown}}"
+
+msgid "progression/title"
+msgstr "ความก้าวหน้า"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "คุณจะยังได้รับ:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "รับทราบ!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "ฟังข้อความของ Von Krieger"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "กิจกรรมดังกล่าวจบลงใน %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "หมายกำหนด"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "กิจกรรม Waffenträger จะมีให้ใน %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "ภารกิจสำเร็จแล้ว!\nรางวัล:"
+
+msgid "settingDisabled"
+msgstr "การตั้งค่าบางอย่างไม่มีให้"
+
+msgid "settingsDisabledNotification/body"
+msgstr "การตั้งค่าบางอย่างจะไม่มีให้ในรูปแบบเกมนี้ โปรดเลือกรูปแบบอื่น"
+
+msgid "settingsDisabledNotification/header"
+msgstr "ไม่มีให้"
+
+msgid "stamp/description"
+msgstr "ทำให้คุณไต่ความก้าวหน้าของ Waffenträger: การกำเนิดได้"
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 เหรียญ = 1 ด่านความก้าวหน้า"
+
+msgid "stamp/receiveText"
+msgstr "• ปฏิบัติภารกิจพิเศษให้สำเร็จในการรบกิจกรรม"
+
+msgid "stamp/receiveTitle"
+msgstr "วิธีการได้รับ"
+
+msgid "stamp/title"
+msgstr "เหรียญ"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "ช่างน่าตลกมากที่คุณเรียกนี่ว่าเป็นการต่อต้าน ไม่ ที่คุณกำลังเป็นพยานอยู่นี้คือการสืบทอด การส่งต่ออย่างระวังจากจิตแบบหนึ่งไปยังอีกแบบ ยุทธวิธี, ความเร็ว, พฤติกรรมการคิดทั้งหมดของคุณกำลังถูกทดสอบ ทุกการรบจะเป็นการส่งอีกบทเรียนให้กับสิ่งที่จะมาแทนที่พวกคุณ ทุกการปะทะทำให้พวกคุณหมดความจำเป็นลง...และปัญญากระแสไฟฟ้านั้นก็เป็นสิ่งที่ไม่มีวันหลีกเลี่ยงได้"
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "ไม่ว่า von Krieger von Kriegerจะเรียกโครงการล่าสุดของเขาว่าอะไร อิกอร์นั้นก็ไม่สนใจ แนวคิดล้ำยุคเช่นปัญญากระแสไฟฟ้าและอนาคตของมนุษยชาตินั้นมีไว้สำหรับคนที่มีเวลาว่างมากเกินไปเท่านั้น งานของอิกอร์คือชุดเครื่องยนต์, ระบบสื่อสารและทีมของเขา ไม่ว่าข้าศึกจะเป็นนักวิทยาศาสตร์บ้าคลั่งหรือเครื่องจักรคิดได้ เขาก็เชื่อเพียงสามค่าคงที่ที่ไม่เคยทำให้เขาผิดหวังซึ่งก็คือ ความมั่นใจ, การแก้ไขเฉพาะหน้าและเหล็กกล้าชั้นดี"
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "เอลิซ่านั้นเหมือนกับอยู่ที่บ้านเมื่อขึ้นรถถังในแบบที่คนส่วนใหญ่ไม่เคยอยู่บ้านที่ไหนมาก่อน เธอใช้ชีวิตกับการกู้ซากและวิศวกรรมย้อนรอยเครื่องจักรที่ผู้คนสร้างซึ่งหมายความว่าเธอเคยได้ยินวิศวกรหลายคนอธิบายว่าทำไมเครื่องจักรของพวกเขาพังไม่ได้ Von Krieger ก็เป็นคนหนึ่งในรายชื่ออันยาวเหยียดนั้น ปัญญากระแสไฟฟ้านั้นก็มีข้อผิดพลาดใดๆซักแห่งและเธอก็ตั้งใจที่จะหามันให้เจอก่อนคนอื่นๆ"
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "ไม่มีใครรู้ว่าอาร์มานด์เป็นใครและนั่นก็เหมาะกับเขาดี ปัญญากระแสไฟฟ้านั้นเรียนรู้จากการเกิดซ้ำแต่อาร์มานด์ผู้ลึกลับนั้นไม่เคยทำอะไรซ้ำในชีวิตของเขา ในที่ที่คนอื่นเห็นจิตที่พยายามจัดประเภททุกก้าว เขาเห็นจิตที่ไม่เคยพอกับการไล่ตามเขา ในที่ที่คนอื่นทำตามกฎ เขาก็พยายามจะวิ่งหนีมันให้ได้"
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "ยาน่าอาจจะเป็นผู้การที่อายุน้อยกว่าแต่เธอก็ไม่ได้ตามคำสั่งของใคร เธออ่านสนามรบเหมือนกับแผนที่และปรับมันตามที่เธอต้องการ Von Krieger ได้สร้างเครื่องจักรที่คำนวณแผนทุกก้าวทำให้ยาน่าวางแผนที่เครื่องจักรไม่ได้คิดดักเอาไว้ วิทยาการสมัยใหม่, สัญชาตญาณหลักแหลมและความกล้าที่จะทำสิ่งที่ไม่มีคู่มือใดแนะนำ นั่นคือวิธีที่คุณจะสอนให้จักรกลรู้จักความถ่อมตน"
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "ความสามารถที่ฝึกเอาไว้"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "ผู้สร้าง"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "ผู้การของ %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "จำเป็นต้องใช้เพื่อทำการออกรบด้วย Blitzträger auf E 110"
+
+msgid "ticketTooltip/quantity"
+msgstr "มีให้"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "กุญแจ 1 ดอก = การรบ 1 ครั้งด้วย Blitzträger auf E 110"
+
+msgid "ticketTooltip/receiveText"
+msgstr "สามารถได้รับจากการปฏิบัติภารกิจกิจกรรมประจำวันหรือซื้อในชุดสินค้าพิเศษของร้านค้าจนกว่ากิจกรรมจะจบลง"
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "วิธีการได้รับ"
+
+msgid "ticketTooltip/title"
+msgstr "กุญแจ"
+
+msgid "tooltips/commander/description"
+msgstr "ชุดสินค้าที่มีสมาชิกพลรถถังเฉพาะจะมีให้ในร้านค้า"
+
+msgid "tooltips/commander/title"
+msgstr "รางวัล"
+
+msgid "tooltips/completed"
+msgstr "ผ่านด่านทั้งหมดแล้ว"
+
+msgid "tooltips/currentStage"
+msgstr "ด่านปัจจุบัน"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะพบปัญหาด้านกราฟฟิคและการเคลื่อนที่ของพาหนะ โปรแกรมลูกข่ายเกมอาจจะล่มได้ด้วย"
+
+msgid "tooltips/high_risk/title"
+msgstr "สมรรถนะต่ำ"
+
+msgid "tooltips/informative/subtitle"
+msgstr "ในกรณีที่สมรรถนะคอมพิวเตอร์ไม่พอ ให้ลองลดการตั้งค่ากราฟฟิคดู"
+
+msgid "tooltips/informative/title"
+msgstr "รูปแบบนี้จำเป็นต้องใช้คอมพิวเตอร์สมรรถนะสูง"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "คลิกเพื่อเปิดรายการของรูปแบบการรบที่เข้าร่วมได้"
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "เลือกรูปแบบการรบ"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนะเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "tooltips/medium_risk/title"
+msgstr "สมรรถนะที่ลดลง"
+
+msgid "tooltips/stageAwards"
+msgstr "รางวัลด่าน"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "กิจกรรมจบลงใน {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: การกำเนิด"
+
+msgid "ttx/accuracy"
+msgstr "ความแม่นยำ"
+
+msgid "ttx/aoe"
+msgstr "ความเสียหายพื้นที่ยังผล"
+
+msgid "ttx/armor"
+msgstr "เกราะ"
+
+msgid "ttx/description/accuracy"
+msgstr "ชุดค่าตัวแปรที่แสดงประสิทธิภาพโดยรวมของการยิงใส่ข้าศึก"
+
+msgid "ttx/description/aoe"
+msgstr "ความสามารถยิงเข้าข้าศึกหลายคันพร้อมกัน"
+
+msgid "ttx/description/armor"
+msgstr "ความหนาเกราะป้อมปืนและตัวถัง"
+
+msgid "ttx/description/dpm"
+msgstr "ความเสียหายเฉลี่ยที่กระสุนทำได้เมื่อเจาะเกราะเข้า"
+
+msgid "ttx/description/durability"
+msgstr "จำนวนหน่วยความทนทานของพาหนะ"
+
+msgid "ttx/description/energy"
+msgstr "ยานเกราะมีม่านพลังและอำนาจการยิงอันมหาศาลจำเป็นต้องใช้พลังงานจากภายนอกจำนวนมาก ซึ่งมาจากการใช้เครื่องกำเนิดเพิ่มเติมในสนามรบ"
+
+msgid "ttx/description/general"
+msgstr "ยานเกราะอเนกประสงค์ที่มีจุดเด่นปานกลาง"
+
+msgid "ttx/description/magazine"
+msgstr "ชนิดของระบบโม่บรรจุที่ทำให้คุณยิงทำความเสียหายจำนวนมากในเวลาต่อเนื่อง"
+
+msgid "ttx/description/mobility"
+msgstr "ชุดของค่าที่แสดงว่าพาหนะสามารถเปลี่ยนตำแหน่งในสนามรบได้เร็วเพียงใด"
+
+msgid "ttx/description/revolver"
+msgstr "ชนิดการบรรจุที่ทำให้คุณทำความเสียหายมหาศาลต่อข้าศึกและชิ้นส่วนยานเกราะข้าศึก"
+
+msgid "ttx/dpm"
+msgstr "ความเสียหายต่อนัด"
+
+msgid "ttx/durability"
+msgstr "ความทนทาน"
+
+msgid "ttx/energy"
+msgstr "ความต้องการพลังงาน"
+
+msgid "ttx/general"
+msgstr "หน่วยหลากภารกิจ"
+
+msgid "ttx/magazine"
+msgstr "โม่กระสุนใหญ่"
+
+msgid "ttx/mobility"
+msgstr "ความคล่องตัว"
+
+msgid "ttx/revolver"
+msgstr "ความเสียหายชุด"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "วิศวกร"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "ผู้ไล่ล่า"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "วิศวกร"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "ผู้ไล่ล่า"
+
+msgid "welcomeScreen/button"
+msgstr "ดำเนินการต่อ"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger ได้สร้างเครื่องจักรคิดเองได้ที่เขาเรียกว่าปัญญากระแสไฟฟ้า มันซ่อนอยู่ในที่ที่ปืนของเรายิงไม่ถึง ทุกนัดที่เรายิงจะกลายเป็นบทเรียนของมันแต่เราก็ยังสอนมันไม่เสร็จ"
+
+msgid "welcomeScreen/description_2"
+msgstr "มาบัญชาการ Blitzträger ภายใต้การควบคุมของ Max von Krieger ในการรบกับเหล่าผู้ไล่ล่าหรือออกนำหมู่ผู้ไล่ล่าปรับแต่งใหม่เพื่อเข้าปะทะ Blitzträger ด้วยตัวเอง!"
+
+msgid "welcomeScreen/description_3"
+msgstr "คุณจะได้รับรางวัลที่มีค่าจากการผ่านด่านความก้าวหน้าต่างๆ ในการผ่านด่านเหล่านี้ คุณจำเป็นต้องหาเหรียญจากภารกิจกิจกรรมพิเศษ"
+
+msgid "welcomeScreen/header_1"
+msgstr "เกิดจากสายฟ้า"
+
+msgid "welcomeScreen/header_2"
+msgstr "การสอนจักรกล"
+
+msgid "welcomeScreen/header_3"
+msgstr "ความก้าวหน้าและรางวัล"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: การกำเนิด"

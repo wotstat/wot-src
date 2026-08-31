@@ -880,6 +880,12 @@ msgstr "보조 그라우저 3급"
 msgid "gun_balancing_1/name"
 msgstr "주포 조준 보정(1형)"
 
+msgid "gun_balancing_2/name"
+msgstr "주포 조준 보정(2형)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "포신 개량(1형)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "개선형 현가장치(1형)"
 msgid "improved_suspension_2/name"
 msgstr "개선형 현가장치(2형)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "개량형 포탑 구동 장치(1형)"
+
 msgid "inspire/longDescr"
 msgstr "일정 범위 내에 있는 모든 아군 전차 승무원에 일정 보너스가 적용됩니다. 해당 물자를 사용한 플레이어에게는 더 높은 보너스가 적용됩니다."
 
@@ -1294,6 +1303,9 @@ msgstr "기동 강화 시스템 T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "기동 강화 시스템 T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "포구 소염기(1형)"
+
 msgid "nitro/battleDescr"
 msgstr "%(consumeSeconds)s초 동안 전차의 엔진 출력이 %(enginePowerFactor)s, 최고 속력이 %(maxSpeedFactor)s배 증가합니다."
 
@@ -1347,6 +1359,12 @@ msgstr "{colorTagOpen}%(delay)d초{colorTagClose} 후 선택한 지역을 포격
 
 msgid "poi_artillery_aoe/name"
 msgstr "포격 지원"
+
+msgid "poi_illumination_flare/descr"
+msgstr "짧은 시간 내에 조명탄이 선택한 지역을 밝힙니다. 범위 내 적 전차는 발각된 상태로 유지되며 받는 피해가 증가합니다.\n관측소는 몇 분 후에 다시 점령할 수 있습니다."
+
+msgid "poi_illumination_flare/name"
+msgstr "조명탄"
 
 msgid "poi_radar/descr"
 msgstr "활성화 시 모든 적 전차가 {colorTagOpen}%(duration)d초{colorTagClose} 동안 발견된 상태로 유지됩니다."
@@ -1879,29 +1897,77 @@ msgstr "경량 차체"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "경량\n차체"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "광학 장비 반사 방지 코팅"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "전조등 반사 방지 코팅"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "광학 장비\n반사 방지 코팅"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "전조등\n반사 방지 코팅"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "외부 비전 시스템"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "전기 구동 잠망경"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "외부 비전\n시스템"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "전기 구동\n잠망경"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "삼중 파노라마"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "삼중\n파노라마"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "삼중 파노라마"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "협각 관측 장치"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "협각\n관측 장치"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "신형 조준 기어"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "신형 조준 기어"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "전기 구동 잠망경"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "전기 구동\n잠망경"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "총 내구력 향상"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "총 내구력\n향상"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "전조등 반사 방지 코팅"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "전조등\n반사 방지 코팅"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "배출 장치\n정밀 조정"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "배출 장치\n정밀 조정"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "전원 공급 배선 정렬"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "전원 공급\n배선 정렬"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "개조 강선"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "개조 강선"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "민감성 광학 장비"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "민감성 광학 장비"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "강화형 주요 구조"
@@ -2424,6 +2490,9 @@ msgstr "전기 충격파"
 
 msgid "thunderStrike/shortDescr"
 msgstr "%(thunderCount)s회의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 범위 내 모든 적 전차에 {whiteSpanish_Open}%(damage)s의 피해{whiteSpanish_Close}를 입히고 일시적으로 기동력을 저하합니다.\n\n*능력 활성화 후 첫 번째 충격파가 발생하기까지 %(delay)s초가 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "토션 바 교체(1형)"
 
 msgid "trappoint/battleDescr"
 msgstr "범위 내 모든 적 전차의 기동력이 %(vehicleMaxSpeed)s 저하되고 주포 재장전 시간 및 조준 시간이 %(gunReloadTime)s 늘어나는 구역을 생성합니다. %(duration)s초 동안 유지됩니다."

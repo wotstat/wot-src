@@ -298,8 +298,26 @@ msgstr "推進器提供的引擎功率加成提升 {colorTagOpen}{value}%{colorT
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "單場戰鬥的推進器啟用次數上限增加 {colorTagOpen}{value}{colorTagClose} 次。"
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "IRST 可使用前的初始冷卻時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "IRST 可再次使用前的冷卻時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "使用 IRST 偵察到敵人後，您車輛持續被偵察到的時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "IRST 掃描持續時間延長 {colorTagOpen}{value0} 秒{colorTagClose}；掃描區域額外縮小 {colorTagOpen}{value1} 度{colorTagClose}；可視範圍擴大 {colorTagOpen}{value2}%{colorTagClose}；移動中車輛的隱蔽性降低 {colorTagOpen}{value3}%{colorTagClose}；樹葉後方車輛的隱蔽性降低 {colorTagOpen}{value4}%{colorTagClose}。"
+
 msgid "tooltips/description/crewProtection"
 msgstr "降低車輛受損時乘員受傷的機率。"
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "命中但未擊穿裝甲，穿透力提高 {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "命中且擊穿裝甲，傷害提高 {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "降低炮管受損時擴散度的惡化程度。"
@@ -460,6 +478,18 @@ msgstr "縮短炮管彈匣中的每發之間的裝填時間。"
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "降低開火時被敵方車輛偵察到的機率。"
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "彈匣未滿時，次數補充耗時縮短 {colorTagOpen}{value} 秒。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "彈匣已滿時，次數補充耗時縮短 {colorTagOpen}{value} 秒。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "加速後的砲彈裝填時間額外縮短 {colorTagOpen}{value} 秒。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "戰鬥開始時的可用次數增加 {colorTagOpen}{value} 次。{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "炮管降溫延遲時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
 
@@ -468,6 +498,18 @@ msgstr "炮管每次射擊產生的熱能減少 {colorTagOpen}{value}%{colorTagC
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "升溫炮管的降溫速度提高 {colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "同軸火箭發射器的裝填時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "同軸火箭發射器的裝填時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "同軸火箭發射器的裝填時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "火箭傷害提高 {colorTagOpen}{value} 血量{colorTagClose}。"
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "提高非 HE 彈造成的傷害。"
@@ -547,6 +589,18 @@ msgstr "在碉堡模式下，炮管擴散度降低 {colorTagOpen}{value}%{colorT
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "在碉堡模式下，炮管裝填時間縮短 {colorTagOpen}{value}%{colorTagClose}。"
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "在外部供彈模式下，最高前進速度提高 {colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "在外部供彈模式下，特殊砲彈造成的傷害提高 {colorTagOpen}{value} 血量{colorTagClose}。"
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "在外部供彈模式下，標準砲彈造成的傷害提高 {colorTagOpen}{value} 血量{colorTagClose}。"
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "在外部供彈模式下，炮管裝填時間縮短 {colorTagOpen}{value}%{colorTagClose}（HE 彈除外）。"
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "提高您車輛油箱與引擎的血量。"
 
@@ -555,6 +609,9 @@ msgstr "降低彈藥架與引擎受損時，車輛特性的削弱幅度。"
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "提高您砲彈對敵方車輛配件造成的傷害。"
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "在射擊模式間切換的所需時間縮短 {colorTagOpen}{value} 秒{colorTagClose}。"
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "讓您配置彈藥與消耗品的替代武裝。"
@@ -742,6 +799,18 @@ msgstr "核心結構最佳化"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "推進器容量擴充"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "修改型預燃點火器"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "高性能液體冷卻"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "低發散光學鏡"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "並聯式液體冷卻系統"
+
 msgid "tooltips/title/chassisHP"
 msgstr "懸吊血量"
 
@@ -750,6 +819,12 @@ msgstr "懸吊修理速度"
 
 msgid "tooltips/title/crewProtection"
 msgstr "乘員防護"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "可調式引信設定器：穿透"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "可調式引信設定器：傷害"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "觸發式炮管擴散度"
@@ -928,6 +1003,18 @@ msgstr "彈匣短裝填時間"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "開火後的隱蔽性"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "高純度轉子繞組"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "主動轉子降溫系統"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "高傳導定子外殼"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "正交循環繞組"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "低溫傳熱流體"
 
@@ -936,6 +1023,18 @@ msgstr "高導熱性散熱外殼"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "熱導管最佳化"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "裝填循環最佳化"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "裝填循環最佳化"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "裝填循環最佳化"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "改良型彈頭配置"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "非 HE 彈傷害"
@@ -1018,6 +1117,18 @@ msgstr "精度平衡轉子"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "液壓驅動進彈裝置"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "改良型懸吊減震器"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "修改型特殊單體砲彈"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "修改型標準單體砲彈"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "外部供彈裝填循環最佳化"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "局部配件血量提升"
 
@@ -1026,6 +1137,9 @@ msgstr "局部配件防護"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "砲彈配件傷害"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "重新校準最佳化"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "砲彈與消耗品武裝"

@@ -858,6 +858,8 @@ class SYSTEM_MESSAGES(object):
     PERSONALMISSIONS_REWARD_REGULAR_SERVER_ERROR_DISABLED = b'#system_messages:personalMissions/reward/regular/server_error/DISABLED'
     PERSONALMISSIONS_REWARD_PM3_SERVER_ERROR = b'#system_messages:personalMissions/reward/pm3/server_error'
     PERSONALMISSIONS_REWARD_PM3_SUCCESS = b'#system_messages:personalMissions/reward/pm3/success'
+    PERSONALMISSIONS_REWARD_PM4_SERVER_ERROR = b'#system_messages:personalMissions/reward/pm4/server_error'
+    PERSONALMISSIONS_REWARD_PM4_SUCCESS = b'#system_messages:personalMissions/reward/pm4/success'
     PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR = b'#system_messages:personalMissions/reward/tankwoman/server_error'
     PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR_WRONG_ARGS_TYPE = b'#system_messages:personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE'
     PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR_NO_REWARD = b'#system_messages:personalMissions/reward/tankwoman/server_error/NO_REWARD'
@@ -879,14 +881,6 @@ class SYSTEM_MESSAGES(object):
     PERSONALMISSIONS_OPERATIONPAUSED_BODY = b'#system_messages:personalMissions/operationPaused/body'
     PERSONALMISSIONS_OPERATIONRESUMED_TITLE = b'#system_messages:personalMissions/operationResumed/title'
     PERSONALMISSIONS_OPERATIONRESUMED_BODY = b'#system_messages:personalMissions/operationResumed/body'
-    PERSONALMISSIONS_CAMPAIGN3PAUSED_TITLE = b'#system_messages:personalMissions/campaign3Paused/title'
-    PERSONALMISSIONS_CAMPAIGN3PAUSED_BODY = b'#system_messages:personalMissions/campaign3Paused/body'
-    PERSONALMISSIONS_CAMPAIGN3RESUMED_TITLE = b'#system_messages:personalMissions/campaign3Resumed/title'
-    PERSONALMISSIONS_CAMPAIGN3RESUMED_BODY = b'#system_messages:personalMissions/campaign3Resumed/body'
-    PERSONALMISSIONS_CAMPAIGN12PAUSED_TITLE = b'#system_messages:personalMissions/campaign12Paused/title'
-    PERSONALMISSIONS_CAMPAIGN12PAUSED_BODY = b'#system_messages:personalMissions/campaign12Paused/body'
-    PERSONALMISSIONS_CAMPAIGN12RESUMED_TITLE = b'#system_messages:personalMissions/campaign12Resumed/title'
-    PERSONALMISSIONS_CAMPAIGN12RESUMED_BODY = b'#system_messages:personalMissions/campaign12Resumed/body'
     PERSONALMISSIONS_OPERATIONCOMPLETE_TITLE = b'#system_messages:personalMissions/operationComplete/title'
     PERSONALMISSIONS_OPERATIONCOMPLETE_BODY = b'#system_messages:personalMissions/operationComplete/body'
     UNIT_ERRORS_ALREADY_JOINED_UNIT = b'#system_messages:unit/errors/ALREADY_JOINED_UNIT'
@@ -1235,6 +1229,7 @@ class SYSTEM_MESSAGES(object):
     CREWBOOKS_SELL_SUCCESS = b'#system_messages:crewBooks_sell/success'
     CREWBOOKSNOTIFICATION_SUCCESS = b'#system_messages:crewBooksNotification/success'
     CREWBOOKSNOTIFICATION_BOOKUSED = b'#system_messages:crewBooksNotification/bookUsed'
+    CREWBOOKSNOTIFICATION_BOOKUSEDONEOF = b'#system_messages:crewBooksNotification/bookUsedOneOf'
     CREWBOOKSNOTIFICATION_BOOKSUSED = b'#system_messages:crewBooksNotification/booksUsed'
     CREWBOOKS_FAILED = b'#system_messages:crewBooks/failed'
     CREWBOOKS_SERVER_ERROR = b'#system_messages:crewBooks/server_error'
@@ -2471,6 +2466,8 @@ class SYSTEM_MESSAGES(object):
      PERSONALMISSIONS_REWARD_REGULAR_SERVER_ERROR_DISABLED,
      PERSONALMISSIONS_REWARD_PM3_SERVER_ERROR,
      PERSONALMISSIONS_REWARD_PM3_SUCCESS,
+     PERSONALMISSIONS_REWARD_PM4_SERVER_ERROR,
+     PERSONALMISSIONS_REWARD_PM4_SUCCESS,
      PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR,
      PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR_WRONG_ARGS_TYPE,
      PERSONALMISSIONS_REWARD_TANKWOMAN_SERVER_ERROR_NO_REWARD,
@@ -2492,14 +2489,6 @@ class SYSTEM_MESSAGES(object):
      PERSONALMISSIONS_OPERATIONPAUSED_BODY,
      PERSONALMISSIONS_OPERATIONRESUMED_TITLE,
      PERSONALMISSIONS_OPERATIONRESUMED_BODY,
-     PERSONALMISSIONS_CAMPAIGN3PAUSED_TITLE,
-     PERSONALMISSIONS_CAMPAIGN3PAUSED_BODY,
-     PERSONALMISSIONS_CAMPAIGN3RESUMED_TITLE,
-     PERSONALMISSIONS_CAMPAIGN3RESUMED_BODY,
-     PERSONALMISSIONS_CAMPAIGN12PAUSED_TITLE,
-     PERSONALMISSIONS_CAMPAIGN12PAUSED_BODY,
-     PERSONALMISSIONS_CAMPAIGN12RESUMED_TITLE,
-     PERSONALMISSIONS_CAMPAIGN12RESUMED_BODY,
      PERSONALMISSIONS_OPERATIONCOMPLETE_TITLE,
      PERSONALMISSIONS_OPERATIONCOMPLETE_BODY,
      UNIT_ERRORS_ALREADY_JOINED_UNIT,
@@ -2848,6 +2837,7 @@ class SYSTEM_MESSAGES(object):
      CREWBOOKS_SELL_SUCCESS,
      CREWBOOKSNOTIFICATION_SUCCESS,
      CREWBOOKSNOTIFICATION_BOOKUSED,
+     CREWBOOKSNOTIFICATION_BOOKUSEDONEOF,
      CREWBOOKSNOTIFICATION_BOOKSUSED,
      CREWBOOKS_FAILED,
      CREWBOOKS_SERVER_ERROR,

@@ -17,7 +17,9 @@ package net.wg.gui.prebattle.controls
    public class TeamMemberRendererBase extends SoundListItemRenderer
    {
       
-      private static var UPDATE_STATUS:String = "updateStatus";
+      private static const UPDATE_STATUS:String = "updateStatus";
+      
+      private static const NEXT_LINE_TOOLTIP:String = "\n\n";
       
       public var vehicleLevelField:TextField;
       
@@ -32,8 +34,6 @@ package net.wg.gui.prebattle.controls
       private var _playerNameStr:String = "";
       
       private var currentDbID:Number = -1;
-      
-      private const NEXT_LINE_TOOLTIP:String = "\n\n";
       
       public function TeamMemberRendererBase()
       {
@@ -191,15 +191,13 @@ package net.wg.gui.prebattle.controls
                   this.showToolTips();
                }
             }
-            var _loc2_:Number = 4290295975;
-            var _loc3_:Number = _loc2_;
             this.updateVoiceWave();
-            _loc3_ = this.model.getCurrentColor();
-            if(!isNaN(_loc3_))
+            var _loc2_:Number = this.model.getCurrentColor();
+            if(!isNaN(_loc2_))
             {
-               textField.textColor = _loc3_;
-               this.vehicleNameField.textColor = _loc3_;
-               this.vehicleLevelField.textColor = _loc3_;
+               textField.textColor = _loc2_;
+               this.vehicleNameField.textColor = _loc2_;
+               this.vehicleLevelField.textColor = _loc2_;
             }
             if(this.model.vLevel != null && this.model.vLevel != Values.EMPTY_STR)
             {
@@ -235,12 +233,12 @@ package net.wg.gui.prebattle.controls
             _loc1_ = App.utils.locale.makeString(MESSENGER.getSquadChannelTooltipsStatus(this._statusString));
             if(this.model.isExperimentalModule)
             {
-               _loc1_ += this.NEXT_LINE_TOOLTIP + App.utils.locale.makeString(MESSENGER.DIALOGS_SQUADCHANNEL_TOOLTIPS_MODULE,{"name":this.model.experimentalModuleName});
+               _loc1_ += NEXT_LINE_TOOLTIP + App.utils.locale.makeString(MESSENGER.DIALOGS_SQUADCHANNEL_TOOLTIPS_MODULE,{"name":this.model.experimentalModuleName});
             }
          }
          if(this.model.hasPermissions)
          {
-            _loc1_ += this.NEXT_LINE_TOOLTIP + App.utils.locale.makeString(TOOLTIPS.PREBATTLE_HASPERMISSIONS);
+            _loc1_ += NEXT_LINE_TOOLTIP + App.utils.locale.makeString(TOOLTIPS.PREBATTLE_HASPERMISSIONS);
          }
          return _loc1_;
       }

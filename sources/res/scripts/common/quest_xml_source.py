@@ -8,7 +8,7 @@ from soft_exception import SoftException
 from copy import deepcopy
 from pprint import pformat
 from bonus_readers import readBonusSection, readUTC, timeDataToUTC, checkLogExtInfoLen
-from constants import VEHICLE_CLASS_INDICES, ARENA_BONUS_TYPE, EVENT_TYPE, IGR_TYPE, ATTACK_REASONS, QUEST_RUN_FLAGS, DEFAULT_QUEST_START_TIME, DEFAULT_QUEST_FINISH_TIME, ROLE_LABEL_TO_TYPE, ACCOUNT_ATTR, QUESTS_SUPPORTED_EXCLUDE_TAGS, MIN_VEHICLE_LEVEL, MAX_VEHICLE_LEVEL
+from constants import VEHICLE_CLASS_INDICES, ARENA_BONUS_TYPE, EVENT_TYPE, IGR_TYPE, ATTACK_REASONS, QUEST_RUN_FLAGS, DEFAULT_QUEST_START_TIME, DEFAULT_QUEST_FINISH_TIME, ROLE_LABEL_TO_TYPE, ACCOUNT_ATTR, QUESTS_SUPPORTED_EXCLUDE_TAGS, MIN_VEHICLE_LEVEL, MAX_VEHICLE_LEVEL, QUEST_BONUS_TYPES
 from debug_utils import LOG_WARNING
 from dossiers2.custom.layouts import accountDossierLayout, vehicleDossierLayout, StaticSizeBlockBuilder, BinarySetDossierBlockBuilder
 from dossiers2.custom.records import RECORD_DB_IDS
@@ -396,6 +396,7 @@ class Source(object):
            b'isWinbackQuestsEnabled': (self.__readCondition_bool), 
            b'isDailyQuestsEnabled': (self.__readCondition_bool), 
            b'isWeeklyQuestsEnabled': (self.__readCondition_bool), 
+           b'dailyXPFactor': (self.__readBattleResultsConditionList), 
            b'isSteamAllowed': (self.__readCondition_bool), 
            b'isFirstLogin': (self.__readCondition_bool), 
            b'totalBattles': (self.__readBattleResultsConditionList), 
@@ -536,22 +537,11 @@ class Source(object):
         return condition_readers
 
     def __getAvailableBonuses(self, eventType):
-        bonusTypes = {
-         1, 2, 3, 4, 5, 6, 7, 8, 9, 
-         10, 
-         11, 12, 13, 14, 15, 16, 17, 
-         18, 19, 
-         20, 21, 22, 23, 
-         24, 25, 26, 27, 28, 
-         29, 
-         30, 31, 32, 33, 34, 
-         35, 
-         36, 37}
         if eventType in (EVENT_TYPE.BATTLE_QUEST, EVENT_TYPE.PERSONAL_QUEST, EVENT_TYPE.NT_QUEST):
-            bonusTypes.update((b'xp', b'tankmenXP', b'xpFactor', b'creditsFactor', b'freeXPFactor', b'tankmenXPFactor'))
+            QUEST_BONUS_TYPES.update((b'xp', b'tankmenXP', b'xpFactor', b'creditsFactor', b'freeXPFactor', b'tankmenXPFactor'))
         if eventType in (EVENT_TYPE.NT_QUEST,):
-            bonusTypes.update((b'vehicleXP', b'vehicleXPFactor'))
-        return bonusTypes
+            QUEST_BONUS_TYPES.update((b'vehicleXP', b'vehicleXPFactor'))
+        return QUEST_BONUS_TYPES
 
     def __readCondition_groupBy(self, _, section, node):
         s = section.asString

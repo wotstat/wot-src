@@ -90,8 +90,7 @@ class MyReplaysPage(PageSubModelPresenter):
             window = PopOverWindow(event, content, self.getParentWindow(), WindowLayer.TOP_WINDOW)
             window.load()
             return window
-        super(MyReplaysPage, self).createPopOver(event)
-        return
+        return super(MyReplaysPage, self).createPopOver(event)
 
     def _getEvents(self):
         return super(MyReplaysPage, self)._getEvents() + (

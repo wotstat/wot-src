@@ -321,6 +321,12 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             self.__updateFLRegenerationKitMarker(vehicleID, handle, value)
         elif eventID == _EVENT_ID.TARGET_DESIGNATOR_SPOTTED_MARKER:
             self.updateTargetDesignatorSpottedMarkerTimer(vehicleID, handle, value)
+        elif eventID == _EVENT_ID.VEHICLE_SIGHT_POINTER_SPOTTED:
+            self._onSightPointerSpotted(vehicleID, handle)
+        return
+
+    def _onSightPointerSpotted(self, vehicleID, handle):
+        self._invokeMarker(handle, b'playSightPointerSpottedEffect')
         return
 
     def _onChatCommandTargetUpdate(self, _, chatCommandStates):
@@ -657,7 +663,16 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         if vehicleID not in self._markers:
             return
         handle = self._markers[vehicleID].getMarkerID()
-        self._invokeMarker(handle, b'setEntityName', arenaDP.getPlayerGuiProps(vehicleID, vInfo.team).name())
+        if arenaDP.isPlayerObserver():
+            observedVehicleID = BigWorld.player().getObservedVehicleID()
+            observedVInfo = arenaDP.getVehicleInfo(observedVehicleID)
+            if observedVInfo and observedVInfo.team == vInfo.team:
+                entityName = PLAYER_GUI_PROPS.ally.name()
+            else:
+                entityName = PLAYER_GUI_PROPS.enemy.name()
+        else:
+            entityName = arenaDP.getPlayerGuiProps(vehicleID, vInfo.team).name()
+        self._invokeMarker(handle, b'setEntityName', entityName)
         return
 
     @staticmethod

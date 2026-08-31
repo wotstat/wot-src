@@ -139,15 +139,6 @@ msgstr "授予为《坦克世界》不断改进做出宝贵贡献的玩家们。
 msgid "15YearsOfService_descr"
 msgstr "您的游戏生涯开始于%(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "战令储备成就1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• 完成进度的奖励。"
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "战令期间的成就奖励。"
-
 msgid "BPReserveAchievement_2"
 msgstr "战令储备成就2"
 
@@ -429,6 +420,15 @@ msgstr "• 完成全部三个章节的奖励。"
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "战令赛季XX期间的成就奖励。"
+
+msgid "BattlePassCommonPr_21"
+msgstr "低地交锋"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• 完成全部三个章节的奖励。"
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "战令赛季XXI期间的成就奖励。"
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• 主要进度包含45个阶段。"
@@ -1828,6 +1828,48 @@ msgstr "白银蛟龙"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "在天梯战的蛟龙年期间收集至少9面天梯战锦旗。"
 
+msgid "comp7_6_1"
+msgstr "苍蓝火花"
+
+msgid "comp7_6_1_descr"
+msgstr "在天梯战模式的苍蓝凤凰赛季期间完成一系列任务的奖励。"
+
+msgid "comp7_6_yearly_bronze"
+msgstr "青铜凤凰"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "在天梯战的凤凰年期间收集至少6面天梯战锦旗。"
+
+msgid "comp7_6_yearly_champion"
+msgstr "凤凰年勇士"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "在天梯战的凤凰年期间收集至少15面天梯战锦旗。"
+
+msgid "comp7_6_yearly_gold"
+msgstr "黄金凤凰"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "在天梯战的凤凰年期间收集至少12面天梯战锦旗。"
+
+msgid "comp7_6_yearly_iron"
+msgstr "黑铁凤凰"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "在天梯战的凤凰年期间收集至少3面天梯战锦旗。"
+
+msgid "comp7_6_yearly_legend"
+msgstr "凤凰年传奇"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "在天梯战的凤凰年期间收集至少18面天梯战锦旗。"
+
+msgid "comp7_6_yearly_silver"
+msgstr "白银凤凰"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "在天梯战的凤凰年期间收集至少9面天梯战锦旗。"
+
 msgid "conqueror"
 msgstr "占领者 %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• 仅随机战模式下可获取。"
 
 msgid "huntsman_descr"
-msgstr "在一场战斗中击毁所有敌方轻型坦克（至少3辆）。"
+msgstr "在一场战斗中摧毁所有敌方轻型坦克（至少2辆）。"
 
 msgid "huntsman_heroInfo"
 msgstr "格里戈里 纳金(Grigoriy Naydin）是一名BT-7的车长。1941年6月25日，在立陶宛Rudishkyay镇附近，他摧毁了一整个德军装甲集纵队。包括15辆战车和10门第19机械化军的火炮。纳金托住了德军整整两天不得寸进，从而保证了维尔纽斯防线的及时建造。纳金因此获得苏联英雄称号。"
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "为联队完美完成15个个人任务。奖励：“模范表现：联队”勋章，III级。"
 
 msgid "readyForBattleAssault"
-msgstr "模范表现：先锋"
+msgstr "模范表现：“第三区”先锋"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "完成“第三区”战役的所有“先锋”任务。"
+msgstr "完成“第三区”战役主要行动中的所有“先锋”任务。"
+
+msgid "readyForBattleFossaAssault"
+msgstr "模范表现：Fossa先锋"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "完成“第三区”战役Fossa行动中的所有“先锋”任务。"
+
+msgid "readyForBattleFossaSniper"
+msgstr "模范表现：Fossa伏击"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "完成“第三区”战役Fossa行动中的所有“伏击”任务。"
+
+msgid "readyForBattleFossaSupport"
+msgstr "模范表现：Fossa支援"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "完成“第三区”战役Fossa行动中的所有“支援”任务。"
 
 msgid "readyForBattleHT"
 msgstr "卓越表现:重型坦克"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "卓越完成15个自行火炮分支的个人任务。奖励：\"卓越表现:自行火炮 IV 等\"勋章。"
 
 msgid "readyForBattleSniper"
-msgstr "模范表现：伏击"
+msgstr "模范表现：“第三区”伏击"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "完成“第三区”战役的所有“伏击”任务。"
+msgstr "完成“第三区”战役主要行动中的所有“伏击”任务。"
 
 msgid "readyForBattleSupport"
-msgstr "模范表现：支援"
+msgstr "模范表现：“第三区”支援"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "完成“第三区”战役的所有“支援”任务。"
+msgstr "完成“第三区”战役主要行动中的所有“支援”任务。"
 
 msgid "reliableComrade"
 msgstr "战友"
@@ -4598,7 +4667,7 @@ msgid "wot16thAnniversary"
 msgstr "《坦克世界》16周年纪念"
 
 msgid "wot16thAnniversary_condition"
-msgstr "授予参与“2026周年纪念之旅”活动的玩家。"
+msgstr "授予参与“2026年周年纪念之旅”活动的玩家。"
 
 msgid "wot16thAnniversary_descr"
 msgstr "加入“周年纪念之旅”活动，一同庆祝《坦克世界》16周年纪念。"
@@ -4692,6 +4761,15 @@ msgstr "颁发给在“Waffentrager：时空悖论”完成进度的玩家。此
 
 msgid "wt2025progression_descr"
 msgstr "完成Waffentrager模式进度。"
+
+msgid "wt2026progression"
+msgstr "风暴骑士"
+
+msgid "wt2026progression_condition"
+msgstr "颁发给在“2026年Waffentrager：创世纪元”中完成进度的玩家。此荣耀颁发给曾与von Krieger的首部思考机器“电子智能”对抗，并切断它通向我们世界的每一条电路的玩家。"
+
+msgid "wt2026progression_descr"
+msgstr "完成“2026年Waffentrager：创世纪元”的进度。"
 
 msgid "wtBossWins"
 msgstr "闪电主宰"

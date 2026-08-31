@@ -1357,6 +1357,7 @@
 						<collisionModelServer>vehicles/british/GB123_GSOR_1006_v7/collision/Gun_01.model</collisionModelServer>
 						<collisionModelClient>vehicles/british/GB123_GSOR_1006_v7/collision_client/Gun_01.model</collisionModelClient>
 					</hitTester>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>109.371819 109.374702</density>
 						<aoTextureSize>512 256</aoTextureSize>
@@ -1436,6 +1437,7 @@
 						<collisionModelServer>vehicles/british/GB123_GSOR_1006_v7/collision/Gun_02.model</collisionModelServer>
 						<collisionModelClient>vehicles/british/GB123_GSOR_1006_v7/collision_client/Gun_02.model</collisionModelClient>
 					</hitTester>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>99.6221466 100.878288</density>
 						<aoTextureSize>512 256</aoTextureSize>
@@ -1977,6 +1979,7 @@
 						<collisionModelServer>vehicles/british/GB123_GSOR_1006_v7/collision/Gun_03.model</collisionModelServer>
 						<collisionModelClient>vehicles/british/GB123_GSOR_1006_v7/collision_client/Gun_03.model</collisionModelClient>
 					</hitTester>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>99.9270325 99.9138412</density>
 						<aoTextureSize>512 256</aoTextureSize>
@@ -2087,6 +2090,7 @@
 						<collisionModelServer>vehicles/british/GB123_GSOR_1006_v7/collision/Gun_04.model</collisionModelServer>
 						<collisionModelClient>vehicles/british/GB123_GSOR_1006_v7/collision_client/Gun_04.model</collisionModelClient>
 					</hitTester>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>99.3349991 99.2454605</density>
 						<aoTextureSize>512 256</aoTextureSize>

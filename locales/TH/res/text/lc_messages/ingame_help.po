@@ -232,11 +232,35 @@ msgstr "ปืนนี้สามารถยิงต่อเนื่อง
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "ปืนใหญ่อัตโนมัติควบคุมความร้อน"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "กลไกดังกล่าวจะลดเวลาบรรจุกระสุนเป็นช่วงเวลาสั้นๆที่กำหนดไว้ การใช้แต่ละครั้งจะใช้หนึ่งประจุต่อนัดและประจุจะเติมใหม่ในช่วงเวลาหนึ่งและจะเร็วขึ้นเมื่อซองกระสุนเต็ม จะมีจำนวนประจุจำนวนหนึ่งให้ตั้งแต่เริ่มการรบ"
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "กลไกบังคับบรรจุ"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "พาหนะคันนี้ติดตั้งเครื่องยิงจรวดติดตั้งเอาไว้ที่แผ่นเกราะปืน ในการเปลี่ยนเป็นศูนย์เล็งจรวด ให้กด:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "เครื่องยิงจรวดร่วมแกน"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "ระหว่างเล็งด้วยศูนย์เล็งจรวด ให้กดปุุ่มยิงเพื่อทำการปล่อยจรวด:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "เครื่องยิงจรวดร่วมแกน"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "ทุกครั้งคุณยิงกระสุนเข้าข้าศึก คุณก็จะได้ขั้นประสิทธิภาพการบรรจุซึ่งเพิ่มความเร็วการบรรจุกระสุนเป็นการชั่วคราว การยิงเข้าแต่ละครั้งนั้นจะเป็นการสะสมขั้น\nการทำลายพาหนะข้าศึกได้ด้วยกระสุนจะทำให้มีขั้นประสิทธิภาพการบรรจุเพิ่มเติม"
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "รางกระสุนกึ่งอัตโนมัติ"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "รูปแบบระบบป้อนกระสุนภายนอกของพาหนะคันนี้ทำให้สามารถยิงกระสุนรวมประจุสูงที่ทำความเสียหายเพิ่มขึ้น เมื่อเปิดใช้งาน ระบบจะลดความคล่องตัวและอัตราการยิงลง"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "รูปแบบระบบป้อนกระสุนภายนอก"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "ถ้าปืนของคุณบรรจุกระสุนไว้ คุณจะเริ่มเพิ่มความร้อนกระสุนนัดต่อไป ยิ่งมีขั้นความร้อนเพิ่มขึ้นเท่าใด โบนัสความเสียหายเฉลี่ยก็จะเพิ่มขึ้นตาม\nในการเริ่มกระบวนการทำความร้อนให้กด:"
@@ -345,6 +369,30 @@ msgstr "ก่อนการเปิดใช้งาน ตัวเร่�
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "จุดเด่นและจุดด้อย"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "เมื่อคุณยิงพาหนะข้าศึกที่มองเห็นด้วยกระสุน ชนวนของนัดถัดไปก็จะถูกปรับ ถ้ากระสุนนัดแรกเจาะเกราะข้าศึกได้ นัดต่อไปก็จะมีความเสียหายมากขึ้น ถ้าไม่เข้า นัดต่อไปก็จะเจาะเกราะได้มากขึ้น"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "ชนวนปรับได้"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "ปืนของยานเกราะมีอุปกรณ์พิเศษที่ทำให้ปรับค่ากระสุนบางอย่างได้ก่อนทำการยิง ค่าสำหรับกระสุนที่มีนั้นจะต่างกันไปโดยขึ้นกับรูปแบบที่เลือกซึ่งแต่ละรูปแบจะทำให้คุณปรับตัวเข้ากับสถานการณ์การรบที่ต่างไปจากเดิมได้"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "ระบบปรับกระสุน"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "อุปกรณ์กล้องเล็งรุ่นก้าวหน้าที่เพิ่มระยะการมองเห็นของคุณและเสริมการตรวจจับพาหนะที่กำลังแล่นและซ่อนในแมกไม้ เมื่อเปิดใช้กล้องจะทำการกวาดมุมแคบด้านหน้าพาหนะของคุณและเปิดเผยตำแหน่งเป้าหมายก่อนจะต้องพักใช้"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "ระบบค้นหาติดตามอินฟราเรด (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "อย่างไรก็ตาม ถ้าระบบตรวจจับข้าศึกที่ยังไม่เคยพบมาก่อน คุณก็จะถูกพบเช่นกันเป็นช่วงเวลาหนึ่งและทั้งคุณและข้าศึกที่คุณตรวจจับได้จะถูกระบุโดยทันที คุณสามารถหยุดการตรวจจับแล้วเริ่มทำการพักใช้หลังจากช่วงหน่วงเป็นเวลาสั้นๆ"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "ระบบค้นหาติดตามอินฟราเรด (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "จรวดไอพ่นเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไวเป็นเวลาหลายวินาที ไอพ่นซ้ายและขวาสามารถทำงานแยกจากกันได้เพื่อให้หันตัวถังได้เร็วขึ้นและไม่จำกัดการถอยหลัง"

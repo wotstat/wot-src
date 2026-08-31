@@ -80,7 +80,9 @@ def getMenuItems():
     return collectMenuItems(b'hangar')
 
 
-def fillMenuItems(model, menuData=RANDOM_MENU_ITEMS):
+def fillMenuItems(model, menuData=None):
+    if menuData is None:
+        menuData = RANDOM_MENU_ITEMS
     menuItems = model.getMenuItems()
     menuItems.clear()
     for menuItemName in menuData:
@@ -100,8 +102,10 @@ def fillMenuItems(model, menuData=RANDOM_MENU_ITEMS):
     return
 
 
-def fillMenuSharedItems(model, menuData=SHARED_MENU_ITEMS):
-    fillMenuItems(model, menuData)
+def fillMenuSharedItems(model, menuData=None):
+    if menuData is None:
+        menuData = SHARED_MENU_ITEMS
+    fillMenuItems(model, menuData=menuData)
     return
 
 

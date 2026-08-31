@@ -232,11 +232,35 @@ msgstr "此炮管可持續射擊而不需要進行裝填。每次發射砲彈都
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "過熱調控自動火炮"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "此機制會立即將砲彈裝填時間縮短為固定的較短時間。使用時，每加速裝填一發砲彈，就消耗一個使用次數，次數會隨時間補充 — 彈匣已滿時補充速度較快。戰鬥開始時會提供固定的使用次數。"
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "強制裝填機制"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "此車輛在炮盾上安裝了火箭發射器。若要切換至火箭瞄準鏡，請按下："
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "同軸火箭發射器"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "使用火箭瞄準鏡瞄準時，按下射擊鍵以發射火箭："
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "同軸火箭發射器"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "每當您以砲彈命中一輛敵方車輛時，您會獲得一個裝填效率等級，可暫時提高炮管的裝填速度。等級隨每次命中累積。\n藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "半自動彈藥架"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "此車輛的「外部彈藥供應模組」能讓其發射可造成更高傷害的強大高裝藥單體砲彈。啟用時，此模組也會降低機動性與射擊速率。"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "外部供彈模式"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈。您達到的加熱等級越高，平均傷害的加成也將越高。\n若要開始加熱，請按下："
@@ -345,6 +369,30 @@ msgstr "啟用後，噴射助推器可提高引擎功率與最高前進速度。
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "優勢與劣勢"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "當您以砲彈命中一輛可見的敵方車輛時，下一發砲彈的引信設定器將會調整。若首發砲彈擊穿敵方裝甲，下一發砲彈的傷害將會提高。若未擊穿，下一發砲彈的穿透力將會提高。"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "可調式引信設定器"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。不同砲彈的參數會根據所選模式而異，且每種模式都能讓您快速因應不同戰況。"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "砲彈校準系統"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "一種先進光學裝置，可擴大可視範圍並強化對移動中與躲在植被後方車輛的偵測。啟用時，裝置會掃描車輛前方的狹窄區域，在進入冷卻時間前揭露隱藏的目標。"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "紅外線搜索與追蹤系統（IRST）"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "然而，若揭露了未被偵察到的敵人，您也會立即被偵察到一段時間，且您與您偵察到的敵人都會立即收到通知。您可在短暫延遲後手動停止掃描，並開始冷卻裝置。"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "紅外線搜索與追蹤系統（IRST）"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "固態燃料推進器，可持續數秒提升加速度、機動性與操控性。左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。"

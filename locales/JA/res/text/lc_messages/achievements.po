@@ -139,15 +139,6 @@ msgstr "『World of Tanks』の発展のために果たしてくださったか�
 msgid "15YearsOfService_descr"
 msgstr "『World of Tanks』のプレイ開始日: %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "バトルパス・リザーブ実績1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• 「バトルパス」の進捗を制覇したプレイヤーに対して授与。"
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "バトルパスの制覇報酬として授与。"
-
 msgid "BPReserveAchievement_2"
 msgstr "バトルパス・リザーブ実績2"
 
@@ -429,6 +420,15 @@ msgstr "• 3つのチャプターすべてを制覇したプレイヤーに対�
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "「バトルパス・シーズンXX」の制覇報酬として授与。"
+
+msgid "BattlePassCommonPr_21"
+msgstr "低地戦の生還者"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• 3つのチャプターすべてを制覇したプレイヤーに対して授与。"
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "「バトルパス・シーズンXXI」の制覇報酬として授与。"
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• メイン進行は45ステージから構成されます。"
@@ -1828,6 +1828,48 @@ msgstr "シルバー・ドラゴン"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "「オンスロート」モードの「ドラゴン・イヤー」で「オンスロート・フラッグ」を9枚以上集めたプレイヤーに対して授与される。"
 
+msgid "comp7_6_1"
+msgstr "紺碧の閃光"
+
+msgid "comp7_6_1_descr"
+msgstr "「オンスロート」モードのシーズン「アジュール・フェニックス」で一連のミッションを達成したプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_bronze"
+msgstr "ブロンズ・フェニックス"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を6枚以上集めたプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_champion"
+msgstr "フェニックス・チャンプ"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を15枚以上集めたプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_gold"
+msgstr "ゴールド・フェニックス"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を12枚以上集めたプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_iron"
+msgstr "アイアン・フェニックス"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を3枚以上集めたプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_legend"
+msgstr "フェニックス・レジェンド"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を18枚以上集めたプレイヤーに対して授与される。"
+
+msgid "comp7_6_yearly_silver"
+msgstr "シルバー・フェニックス"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "「オンスロート」モードの「フェニックス・イヤー」で「オンスロート・フラッグ」を9枚以上集めたプレイヤーに対して授与される。"
+
 msgid "conqueror"
 msgstr "占領者 %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• ランダム戦限定"
 
 msgid "huntsman_descr"
-msgstr "1戦中に、すべての敵軽戦車 (3輌以上) を撃破する。"
+msgstr "1戦中に、すべての敵軽戦車 (2輌以上) を撃破する。"
 
 msgid "huntsman_heroInfo"
 msgstr "BT-7の車長であったグリゴーリー・ ナイディン軍曹は、1941年6月25日、リトアニアのルディスケイ近郊において、車輌15輌と対戦車砲10門を含むドイツ国防軍第19機械化軍団の装甲車列を撃破した。彼の奮闘によりドイツ軍の進撃が2日間遅滞し、ソ連軍はヴィリニュス付近で防衛体制を整える猶予を得ることができたため、ナイディンにはソ連邦英雄の称号が授与された。"
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Union のパーソナルミッションを 15 個名誉達成する。報酬: 勲章「模範的成績: Union クラス III」"
 
 msgid "readyForBattleAssault"
-msgstr "模範的成績: Vanguard"
+msgstr "模範的成績: セクター3 Vanguard"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "「セクター3」キャンペーンの「Vanguard」ミッションをすべて達成したプレイヤーに授与される。"
+msgstr "「セクター3」キャンペーンのメイン・オペレーションにおける「Vanguard」ミッションをすべて達成したプレイヤーに授与される。"
+
+msgid "readyForBattleFossaAssault"
+msgstr "模範的成績: Fossa Vanguard"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "「セクター3」キャンペーンのオペレーション Fossaにおける「Vanguard」ミッションをすべて達成したプレイヤーに授与される。"
+
+msgid "readyForBattleFossaSniper"
+msgstr "模範的成績: Fossa Ambush"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "「セクター3」キャンペーンのオペレーション Fossa における「Ambush」ミッションをすべて達成したプレイヤーに授与される。"
+
+msgid "readyForBattleFossaSupport"
+msgstr "模範的成績: Fossa Assistance"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "「セクター3」キャンペーンのオペレーション Fossa における「Assistance」ミッションをすべて達成したプレイヤーに授与される。"
 
 msgid "readyForBattleHT"
 msgstr "模範的功績: 重戦車"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "自走砲パーソナルミッション 15 個を名誉達成する。報酬: 勲章「模範的功績: 自走砲 クラス IV」"
 
 msgid "readyForBattleSniper"
-msgstr "模範的成績: Ambush"
+msgstr "模範的成績: セクター3 Ambush"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "「セクター3」キャンペーンの「Ambush」ミッションをすべて達成したプレイヤーに授与される。"
+msgstr "「セクター3」キャンペーンのメイン・オペレーションにおける「Ambush」ミッションをすべて達成したプレイヤーに授与される。"
 
 msgid "readyForBattleSupport"
-msgstr "模範的成績: Assistance"
+msgstr "模範的成績: セクター3 Assistance"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "「セクター3」キャンペーンの「Assistance」ミッションをすべて達成したプレイヤーに授与される。"
+msgstr "「セクター3」キャンペーンのメイン・オペレーションにおける「Assistance」ミッションをすべて達成したプレイヤーに授与される。"
 
 msgid "reliableComrade"
 msgstr "戦いの相棒"
@@ -4692,6 +4761,15 @@ msgstr "「Waffenträger Paradox」のイベント進捗を制覇した者に授
 
 msgid "wt2025progression_descr"
 msgstr "「Waffenträger」モードの進捗を制覇する。"
+
+msgid "wt2026progression"
+msgstr "電脳の嵐を操りし者"
+
+msgid "wt2026progression_condition"
+msgstr "「Waffenträger Genesis 2026」のイベント進捗を制覇した者に授与される。この栄誉は、von Krieger初の思考する機械《エレクトリック・インテリジェンス》に立ち向かい、現実世界へと繋がるその回路をすべて断ち切った者に与えられる。"
+
+msgid "wt2026progression_descr"
+msgstr "「Waffenträger Genesis 2026」の進捗を制覇する。"
 
 msgid "wtBossWins"
 msgstr "稲妻の化身"

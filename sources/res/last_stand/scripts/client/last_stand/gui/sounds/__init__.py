@@ -15,7 +15,8 @@ def playSound(eventName):
 def getSound2D(eventName):
     if eventName:
         return SoundGroups.g_instance.getSound2D(eventName)
-    return
+    else:
+        return
 
 
 def playVoiceover(voiceover):

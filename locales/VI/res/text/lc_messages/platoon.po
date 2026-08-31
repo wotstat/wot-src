@@ -130,6 +130,9 @@ msgstr "Bạn không thể tạo hoặc tham gia Trung đội vì không có xe 
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Sau khi hoàn tất Vòng loại, Trung đội gồm 2 và 7 người chơi sẽ khả dụng."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Sau khi hoàn tất Vòng loại, Trung đội 2-người sẽ khả dụng."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Không thể tạo Trung đội."
 
@@ -141,6 +144,9 @@ msgstr "Tạo Trung đội hoặc gia nhập Trung đội đang tồn tại. T
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Trung đội"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Tạo Trung đội hoặc gia nhập Trung đội đang tồn tại. Trong Cường kích, Trung đội chỉ có thể bao gồm 2 người chơi."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Tạo một đơn vị tác chiến gồm 2 hoặc 3 người chơi để cùng phối hợp.\n• Chế độ đánh: Chiến đấu Tới cùng.\n• Loại trận đánh: Săn Thiết giáp, Áp đảo."
@@ -264,12 +270,6 @@ msgstr "Trung đội đã có số tăng hạng nặng tối đa"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Trung đội đã có số tăng hạng trung tối đa"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Trung đội đã có số tăng hạng nhẹ tối đa"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Trung đội đã có số xe bánh lốp tối đa"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Trung đội đã có số tăng hạng nhẹ tối đa"

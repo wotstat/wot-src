@@ -880,6 +880,12 @@ msgstr "ตีนตะขาบเสริม ชั้น 3"
 msgid "gun_balancing_1/name"
 msgstr "การปรับสมดุลปืน (ชนิด 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "การปรับสมดุลปืน (ชนิด 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "การปรับลำกล้องปืน (ชนิด 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "ระบบช่วงล่างรุ่นปรับปรุง
 msgid "improved_suspension_2/name"
 msgstr "ระบบช่วงล่างรุ่นปรับปรุง (ชนิด 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "เฟืองขับป้อมปืนปรับปรุง (ชนิด 1)"
+
 msgid "inspire/longDescr"
 msgstr "เพิ่มสมรรถนะของพลรถถังของทั้งพาหนะคุณและพันธมิตรทั้งหมดในรัศมี โดยเพิ่มโบนัสอีก % ให้กับคุณสมบัติหลักของสมาชิกพลรถถังแต่ละนาย ผู้เล่นที่สั่งใช้งานจะได้รับผลที่สูงขึ้นกว่าเดิม"
 
@@ -1294,6 +1303,9 @@ msgstr "ระบบปรับปรุงความคล่องตัว
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "ระบบปรับปรุงความคล่องตัว T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "ปลอกลดแสง (ชนิด 1)"
+
 msgid "nitro/battleDescr"
 msgstr "เพิ่มกำลังเครื่องยนต์พาหนะของคุณชั่วคราวอีก %(enginePowerFactor)s และเพิ่มความเร็วสูงสุดอีก %(maxSpeedFactor)s เท่าเป็นเวลา %(consumeSeconds)s วินาที"
 
@@ -1347,6 +1359,12 @@ msgstr "ในช่วงเวลา {colorTagOpen}%(delay)d วิ{colorTagC
 
 msgid "poi_artillery_aoe/name"
 msgstr "การโจมตีปืนใหญ่"
+
+msgid "poi_illumination_flare/descr"
+msgstr "หลังจากเวลาหน่วงชั่วครู่ พลุส่องสว่างจะเปิดเผยพื้นที่ที่เลือกเอาไว้ พาหนะข้าศึกที่อยู่ในรัศมีของพลุจะถูกพบและได้รับความเสียหายเพิ่มขึ้น\nจุดสังเกตการณ์สามารถถูกยึดซ้ำได้ในเวลาไม่กี่นาที"
+
+msgid "poi_illumination_flare/name"
+msgstr "พลุส่องสว่าง"
 
 msgid "poi_radar/descr"
 msgstr "เมื่อเปิดใช้ พาหนะข้าศึกที่จะปรากฎเป็นเวลา {colorTagOpen} %(duration)d วิ{colorTagClose}"
@@ -1879,29 +1897,77 @@ msgstr "ตัวถังน้ำหนักเบา"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "ตัวถังน้ำหนัก\nเบา"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "การเคลือบเลนส์กันสะท้อน"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "การเคลือบไฟหน้ากันสะท้อน"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "การเคลือบ\nเลนส์กันสะท้อน"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "สารเคลือบ\nไฟส่องกันสะท้อน"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "ระบบสังเกตการณ์ภายนอก"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "ระบบขับกล้องปริทรรศน์ไฟฟ้า"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "ระบบสังเกตการณ์\nภายนอก"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "ระบบขับเคลื่อนไฟฟ้า\nปริทรรศน์"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "สามช่องมองมุมกว้าง"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "สามช่องมอง\nมุมกว้าง"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "สามช่องมองมุมกว้าง"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "อุปกรณ์สังเกตการณ์มุมแคบ"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "อุปกรณ์สังเกตการณ์\nมุมแคบ"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "เฟืองขับเล็งปืนใหม่"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "เฟืองขับเล็งปืนใหม่"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "ระบบขับกล้องปริทรรศน์ไฟฟ้า"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "ระบบขับเคลื่อนไฟฟ้า\nปริทรรศน์"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "การเพิ่มความทนทานรวม"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "เพิ่ม\nความทนทานทั่วไป"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "การเคลือบไฟหน้ากันสะท้อน"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "สารเคลือบ\nไฟส่องกันสะท้อน"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "การปรับเครื่องดีดปลอก"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "การปรับเครื่องดีดปลอก"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "การวางสายอุปกรณ์จ่ายไฟใหม่"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "การวางสาย\nอุปกรณ์จ่ายไฟใหม่"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "เกลียวลำกล้องปืนปรับปรุง"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "เกลียวลำกล้องปืน\nปรับปรุง"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "ชุดกล้องความไวสูง"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "ชุดกล้องความไวสูง"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "โครงหลักเสริมความแข็งแรง"
@@ -2424,6 +2490,9 @@ msgstr "วงสายฟ้า"
 
 msgid "thunderStrike/shortDescr"
 msgstr "สร้างเขตที่%(thunderCount)sปล่อยไฟฟ้าความถี่สูงขึ้นมา การปล่อยไฟฟ้าแต่ละครั้งจะทำความเสียหาย{whiteSpanish_Open}%(damage)s หน่วย{whiteSpanish_Close}และลดความคล่องตัวพาหนะข้าศึกทั้งหมดที่อยู่ในพื้นที่แสดงผลของความสามารถเป็นการชั่วคราว\n\n*จะมีเวลาหน่วง %(delay)s วินาทีระหว่างการเปิดใช้งานความสามารถและการปล่อยครั้งแรก ผลเสียสามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "torsion_bars_replace_1/name"
+msgstr "เพลากันสะเทือนเปลี่ยน (ชนิด 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "เป็นเวลา %(duration)s วินาที สร้างพื้นที่ที่ลดค่าความคล่องตัวลง %(vehicleMaxSpeed)s และเพิ่มเวลาบรรจุกับเล็งปืนอีก %(gunReloadTime)s สำหรับพาหนะข้าศึกทุกคันที่อยู่ในพื้นที่ดังกล่าว"

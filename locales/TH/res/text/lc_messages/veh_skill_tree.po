@@ -298,8 +298,26 @@ msgstr "เพิ่มการเร่งกำลังเครื่อง
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "เพิ่มจำนวนครั้งสูงสุดที่ไอพ่นสามารถใช้ในการรบหนึ่งครั้งอีก {colorTagOpen}{value}{colorTagClose}"
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "ลดเวลาพักใช้แรกเริ่มก่อนระบบค้นหาติดตามอินฟราเรดจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "ลดเวลาพักใช้ก่อนระบบค้นหาติดตามอินฟราเรดะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "ลดเวลาที่พาหนะของคุณถูกเปิดเผยให้ข้าศึกหลังตรวจจับข้าศึกได้ด้วยระบบค้นหาติดตามอินฟราเรดลง {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "ขยายช่วงเวลากวาดของระบบค้นหาติดตามอินฟราเรดอีก {colorTagOpen}{value0} วิ{colorTagClose} และค่อย ๆ บีบเขตกวาดให้แคบลงอีก {colorTagOpen}{value1} องศา{colorTagClose}, เพิ่มระยะการมองเห็นอีก {colorTagOpen}{value2}%{colorTagClose} และลดการซ่อนตัวของพาหนะที่กำลังเคลื่อนที่ลง {colorTagOpen}{value3}%{colorTagClose} และพาหนะที่ซ่อนในแมกไม้อีก {colorTagOpen}{value4}%{colorTagClose}"
+
 msgid "tooltips/description/crewProtection"
 msgstr "ลดโอกาสที่สมาชิกพลรถถังจะบาดเจ็บเมื่อพาหนะได้รับความเสียหาย"
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "เพิ่มอำนาจการเจาะเกราะหลังจากยิงไม่เข้าอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "เพิ่มความเสียหายหลังยิงเจาะเกราะได้อีก {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "ลดการกระจายกระสุนเมื่อปืนได้รับความเสียหาย"
@@ -460,6 +478,18 @@ msgstr "ลดเวลาบรรจุระหว่างนัดในโ
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "ลดโอกาสถูกพบโดยพาหนะข้าศึกระหว่างยิง"
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "ลดเวลาพักใช้ประจุเมื่อตับกระสุนไม่เต็ม{colorTagOpen}ลง {value} วิ{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "ลดเวลาพักใช้ประจุเมื่อตับกระสุนเต็ม{colorTagOpen}ลง {value} วิ{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "ลดเวลาการเร่งบรรจุ {colorTagOpen} ลงอีก {value} วิ {colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "เพิ่มจำนวนประจุที่มีให้เมื่อเริ่มการรบ {colorTagOpen} อีก {value} {colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "ลดเวลาการหน่วงการหล่อเย็นปืนลง {colorTagOpen}{value} วิ{colorTagClose}"
 
@@ -468,6 +498,18 @@ msgstr "ลดความร้อนปืนต่อการยิงลง
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "เพิ่มความเร็วการหล่อเย็นปืนที่ร้อนอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "ลดเวลาบรรจุจรวดร่วมแกนไม่นำวิถีลง {colorTagOpen} {value} วิ {colorTagClose}"
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "ลดเวลาบรรจุจรวดร่วมแกนไม่นำวิถีลง {colorTagOpen} {value} วิ {colorTagClose}"
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "ลดเวลาบรรจุจรวดร่วมแกนไม่นำวิถีลง {colorTagOpen} {value} วิ {colorTagClose}"
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "เพิ่มความเสียหายจรวดอีก {colorTagOpen}{value} หน่วย{colorTagClose}"
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "เพิ่มความเสียหายจากกระสุนไม่ใช่ระเบิดแรงสูง"
@@ -547,6 +589,18 @@ msgstr "ลดการกระจายกระสุนอีก {colorTagOp
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "ลดเวลาบรรจุปืนอีก {colorTagOpen}{value}%{colorTagClose} ในรูปแบบรังปืน"
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "เพิ่มความเร็วเดินหน้าสูงสุดในรูปแบบระบบป้อนกระสุนภายนอกอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "เพิ่มความเสียหายจากกระสุนพิเศษในรูปแบบระบบป้อนกระสุนภายนอกอีก {colorTagOpen}{value} หน่วย{colorTagClose}"
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "เพิ่มความเสียหายจากกระสุนมาตรฐานในรูปแบบระบบป้อนกระสุนภายนอกอีก {colorTagOpen}{value} หน่วย{colorTagClose}"
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "ลดเวลาบรรจุในรูปแบบระบบป้อนกระสุนภายนอกลง {colorTagOpen}{value}%{colorTagClose} (ยกเว้นกระสุนระเบิดแรงสูง)"
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "เพิ่มความทนทานถังน้ำมันและชิ้นส่วนเครื่องยนต์พาหนะของคุณ"
 
@@ -555,6 +609,9 @@ msgstr "ลดข้อเสียต่อชั้นวางกระสุ
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "เพิ่มความเสียหายที่กระสุนของคุณทำได้ต่อชิ้นส่วนพาหนะข้าศึก"
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "ลดเวลาที่ใช้ในการเปลี่ยนระหว่างรูปแบบการยิงอีก {colorTagOpen}{value} วิ{colorTagClose}"
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "ทำให้คุณสามารถปรับแต่งการติดตั้งตัวเลือกกระสุนและยุทธปัจจัยได้"
@@ -742,6 +799,18 @@ msgstr "การปรับทรงแกน"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "ห้องเก็บตัวเร่งขยาย"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "ตัวจุดระเบิดปรับแก้"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "ระบบหล่อเย็นเหลวสมรรถนะสูง"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "กล้องเล็งความเบี่ยงเบนต่ำ"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "ระบบหล่อเย็นเหลวร่วม"
+
 msgid "tooltips/title/chassisHP"
 msgstr "ความทนทานช่วงล่าง"
 
@@ -750,6 +819,12 @@ msgstr "ความเร็วการซ่อมช่วงล่าง"
 
 msgid "tooltips/title/crewProtection"
 msgstr "การป้องกันพลรถถัง"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "ชนวนปรับได้: การเจาะเกราะ"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "ชนวนปรับได้: ความเสียหาย"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "การกระจายกระสุนตามสถานการณ์"
@@ -928,6 +1003,18 @@ msgstr "เวลาบรรจุในโม่"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "การอำพรางหลังการยิง"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "ขดลวดมอเตอร์ความบริสุทธิ์สูง"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "การหล่อเย็นโรเตอร์ต่อเนื่อง"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "ห้องสเตเตอร์เหนี่ยวนำสูง"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "การพันขดลวดแบบออร์โธไซคลิก"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "สารนำความร้อนอุณหภูมิต่ำ"
 
@@ -936,6 +1023,18 @@ msgstr "ห้องความร้อนเหนี่ยวนำสูง
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "การปรับท่อความร้อน"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "การปรับรอบบรรจุให้เหมาะสม"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "การปรับรอบบรรจุให้เหมาะสม"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "การปรับรอบบรรจุให้เหมาะสม"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "การจัดวางหัวรบปรับปรุง"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "ความเสียหายกระสุนที่ไม่ใช่ระเบิดแรงสูง"
@@ -1018,6 +1117,18 @@ msgstr "ใบพัดปรับสมดุลความแม่นยำ
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "เครื่องป้อนไฮโดรลิค"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "ตัวรับแรงกระแทกช่วงล่างปรับปรุง"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "กระสุนรวมปรับแต่งพิเศษ"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "กระสุนรวมปรับแต่งมาตรฐาน"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "รอบการบรรจุรูปแบบระบบป้อนกระสุนภายนอกที่เหมาะสม"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "การเพิ่มความทนทานเลือกชิ้นส่วน"
 
@@ -1026,6 +1137,9 @@ msgstr "การป้องกันเลือกชิ้นส่วน"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "ความเสียหายชิ้นส่วนกระสุน"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "การปรับแต่งใหม่แก้ไขแล้ว"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "การติดตั้งกระสุนและยุทธปัจจัย"

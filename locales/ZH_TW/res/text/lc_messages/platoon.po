@@ -130,6 +130,9 @@ msgstr "您無法建立裝甲排，您車庫中並無適用於此模式的 %(lev
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "完成外圍賽後，將可建立 2 人與 7 人裝甲排。"
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "完成外圍賽後，將可建立 2 人裝甲排。"
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "無法建立裝甲排。"
 
@@ -141,6 +144,9 @@ msgstr "建立裝甲排或加入現有的裝甲排。在天梯戰中，裝甲排
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "裝甲排"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "建立裝甲排或加入現有的裝甲排。在天梯戰中，裝甲排僅能由 2 名玩家組成。"
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "建立一支 2 或 3 名玩家的戰術單位來一同暢玩。\n• 戰鬥模式：大亂鬥。\n• 戰鬥類型：鋼鐵獵殺、爭霸戰。"
@@ -264,12 +270,6 @@ msgstr "裝甲排的重型戰車數量已達上限"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "裝甲排的中型戰車數量已達上限"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "裝甲排的輕型戰車數量已達上限"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "裝甲排的輪式車輛數量已達上限"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "裝甲排的輕型戰車數量已達上限"

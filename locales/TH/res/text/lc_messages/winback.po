@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "ปิด"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "รับทราบ!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "การอุ่นเครื่องจะเป็นการทบทวนพื้นฐานเกมของคุณ การรบจะเป็นการต่อสู้กับยานเกราะควบคุมโดยปัญญาประดิษฐ์และผลจะไม่นับเข้าสถิติของคุณ คุณสามารถออกจากการอุ่นเครื่องเมื่อใดก็ได้เพื่อเข้าสูการรบแบบสุ่มโดยตรง"
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "อุ่นเครื่อง"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "ปฏิบัติภารกิจให้สำเร็จ ผ่านด่านความก้าวหน้ากลับเข้าสู่การรบและรับรางวัลในเกมที่มีค่า จะนับแต่ละภารกิจปกติ ภารกิจพิเศษหรือภารกิจโบนัสที่ปฏิบัติสำเร็จเข้ากับการรับรางวัล ภารกิจสามารถปฏิบัติให้สำเร็จได้ในการอุ่นเครื่องและการรบแบบสุ่ม"
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "ปฏิบัติภารกิจให้สำเร็จ ผ่านด่านความก้าวหน้ากลับเข้าสู่การรบและรับรางวัลในเกมที่มีค่า ในช่วงบัตรผ่านการรบ จะมีการเพิ่มคะแนนบัตรผ่านการรบเข้าชุดรางวัลที่มี ภารกิจสามารถปฏิบัติให้สำเร็จได้ในการอุ่นเครื่องและการรบแบบสุ่ม"
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "กลับสู่การรบ"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "คุณสามารถได้รับพาหนะพิเศษระดับ VIII, พาหนะวิจัยได้ระดับ VI และส่วนลดการวิจัยกับซื้อพาหนะเป็นรางวัล หลังจากผ่านความก้าวหน้าแล้ว คุณจะได้รับรางวัลหลัก"
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "รางวัล"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "กลับสู่การรบ"
-
 msgid "mainRewardTooltip/description"
 msgstr "หลังจากผ่านความก้าวหน้ากลับสู่การรบแล้ว คุณจะได้รับ:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "รางวัลหลัก"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "ส่วนลดในการวิจัยและซื้อพาหนะระดับ %(level)s"
+msgstr "ส่วนลดในการวิจัยและซื้อพาหนะระดับ {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "การรบกับพาหนะควบคุมโดยปัญญาประดิษฐ์จะไม่นับเข้าสถิิติของคุณ ในการชนะ คุณจำเป็นต้องยึดฐานข้าศึกหรือทำลายพาหนะข้าศึกทั้งหมด การรบจะเป็นรูปแบบ 15 ต่อ 15 ด้วยพาหนะระดับ VI–XI และรูปแบบ 10 ต่อ 10 ด้วยพาหนะระดับ I–V"
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "อุ่นเครื่อง"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "สามารถเลือกพาหนะวิจัยได้ระดับ %(level)s ใดๆก็ได้ พาหนะดังกล่าวจะมาพร้อมกับชิ้นส่วนวิจัยหมดแล้ว, พลรถถังและช่องเก็บในโรงรถ"
+msgstr "สามารถเลือกพาหนะวิจัยได้ระดับ {{level}} ใดๆก็ได้ พาหนะดังกล่าวจะมาพร้อมกับชิ้นส่วนวิจัยหมดแล้ว, พลรถถังและช่องเก็บในโรงรถ"
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "พาหนะระดับ %(level)s"
+msgstr "พาหนะระดับ {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "ส่วนลด %(researchDiscount)s ในการวิจัยและส่วนลด %(purchaseDiscount)s ในการซื้อพาหนะระดับ %(level)s สามารถเลือกพาหนะวิจัยได้คันใดก็ได้"
+msgstr "ส่วนลด {{researchDiscount}} ในการวิจัยและส่วนลด {{purchaseDiscount}} ในการซื้อพาหนะระดับ {{level}} สามารถเลือกพาหนะวิจัยได้คันใดก็ได้"
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "ส่วนลดใน{whiteSpanish_Open}การวิจัย{whiteSpanish_Close}ถูกเพิ่มเข้าส่วนลดจากเศษแผ่นพิมพ์เขียวพาหนะ ใช้ส่วนลด{whiteSpanish_Open}การซื้อ{whiteSpanish_Close}สูงสุดที่มีให้อยู่"
+msgstr "ส่วนลดใน{{@ style (color $color)}}การวิจัย{{/}}ถูกเพิ่มเข้าส่วนลดจากเศษแผ่นพิมพ์เขียวพาหนะ ใช้ส่วนลด{{@ style (color $color)}}การซื้อ{{/}}สูงสุดที่มีให้อยู่"
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "ส่วนลดของพาหนะระดับ %(level)s"
+msgstr "ส่วนลดพาหนะระดับ {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "รับทราบ!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "การอุ่นเครื่องจะเป็นการทบทวนพื้นฐานเกมของคุณ การรบจะเป็นการต่อสู้กับยานเกราะควบคุมโดยปัญญาประดิษฐ์และผลจะไม่นับเข้าสถิติของคุณ คุณสามารถออกจากการอุ่นเครื่องเมื่อใดก็ได้เพื่อเข้าสูการรบแบบสุ่มโดยตรง"
+
+msgid "umgIntroView/info/mode/title"
+msgstr "อุ่นเครื่อง"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "ปฏิบัติภารกิจให้สำเร็จ ผ่านด่านความก้าวหน้ากลับเข้าสู่การรบและรับรางวัลในเกมที่มีค่า ในช่วงบัตรผ่านการรบ จะเพิ่มคะแนนบัตรผ่านการรบเข้าชุดรางวัลที่มี ภารกิจสามารถปฏิบัติให้สำเร็จได้ในการอุ่นเครื่องและการรบแบบสุ่ม"
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "ปฏิบัติภารกิจให้สำเร็จ ผ่านด่านความก้าวหน้ากลับเข้าสู่การรบและรับรางวัลในเกมที่มีค่า จะนับแต่ละภารกิจปกติ, ภารกิจพิเศษหรือภารกิจโบนัสที่ปฏิบัติสำเร็จเข้ากับการรับรางวัล ภารกิจสามารถปฏิบัติให้สำเร็จได้ในการอุ่นเครื่องและการรบแบบสุ่ม"
+
+msgid "umgIntroView/info/quests/title"
+msgstr "กลับสู่การรบ"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "คุณสามารถได้รับพาหนะพิเศษระดับ VIII, พาหนะวิจัยได้ระดับ VI และส่วนลดการวิจัยกับซื้อพาหนะเป็นรางวัล หลังจากผ่านความก้าวหน้าแล้ว คุณจะได้รับรางวัลหลัก"
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "รางวัล"
+
+msgid "umgIntroView/title"
+msgstr "กลับสู่การรบ"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "ส่วนลด %(research)sถูกเพิ่มเข้าส่วนลดจากเศษแผ่นพิมพ์เขียวพาหนะ ใช้ส่วนลด%(purchase)s สูงสุดที่มีให้อยู่"
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "ออกจากการอุ่นเครื่อง?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "เหลือการรบ: %(battlesCount)s"
+msgstr "เหลือการรบ: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "การรบกับพาหนะควบคุมโดยปัญญาประดิษฐ์จะไม่นับเข้าสถิติของคุณ"
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "คุณจะยังได้รับ:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "ส่วนลด %(expDiscount)sในการวิจัยและส่วนลด %(priceDiscount)s ในการซื้อพาหนะระดับ %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "ส่วนลด {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} ให้กับการวิจัยและส่วนลด {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} ให้กับการซื้อพาหนะระดับ {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "พาหนะระดับ %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "พาหนะระดับ {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "ส่วนลดสำหรับพาหนะระดับ %(level)s"
+msgstr "ส่วนลดพาหนะระดับ {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "สำหรับการปฏิบัติชุดภารกิจประจำวันสำเร็จ"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "ผ่านความก้าวหน้าแล้ว"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "ส่วนลด %(expDiscount)s ในการวิจัย\nและส่วนลด %(priceDiscount)s ในการซื้อ"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "ส่วนลด {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} ให้กับการวิจัยและส่วนลด {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} ให้กับการซื้อ"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "ในโรงรถ"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "จำนวนวันเช่าที่เหลือ: %(days)s"
+msgstr "วันทำการเช่า: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "ส่วนลดในการวิจัยและซื้อ"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "เลือกภายหลัง"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "ตั้งตัวกรองใหม่"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "ส่วนลดพาหนะ"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "พาหนะระดับ %(vehicleLevel)s"
+msgstr "พาหนะระดับ {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "รับทราบ!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "ไม่สามารถเปิดการเลือกรางวัลได้"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "คุณได้วิจัยพาหนะระดับ %(vehicleLevel)s ทั้งหมดแล้ว ตอนนี้คุณสามารถได้รับเศษแผ่นประจำชาติเป็นรางวัล"
+msgstr "คุณได้วิจัยพาหนะระดับ {{vehicleLevel}} ทั้งหมดแล้ว ตอนนี้คุณสามารถได้รับเศษแผ่นประจำชาติเป็นรางวัล"
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "ค้นหาตามชื่อ"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "แสดงอยู่:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "ตั้งตามมาตรฐาน"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "เลือกรางวัลเอาไว้: %(amountRewards)s %(infoIcon)s"
+msgstr "รางวัลที่เลือกเอาไว้: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "เลือกรางวัลจากประเภทที่มอบให้เอาไว้"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "ไม่พบที่ตรงกัน ลองเปลี่ยนการตั้งค่าตัวกรองของคุณหรือตั้งใหม่ให้เป็นค่ามาตรฐาน"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s เศษแผ่นพิมพ์เขียวประจำชาติ{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} เศษแผ่นพิมพ์เขียวประจำชาติ{{/}}{{countryName}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (ส่วนลด %(expDiscount)s%ในการวิจัยและส่วนลด %(priceDiscount)s% ในการซื้อ)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (ส่วนลด {{expDiscount}}% สำหรับการวิจัยและส่วนลด {{priceDiscount}}% สำหรับการซื้อ)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "ส่วนลดของพาหนะระดับ %(level)s"
+msgstr "ส่วนลดพาหนะระดับ {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close}(ชิ้นส่วนวิจัยหมดแล้ว, พลรถถังและช่องเก็บในโรงรถ)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (ชิ้นส่วนที่วิจัยทั้งหมด, พลรถถังและช่องเก็บโรงรถ)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "พาหนะระดับ %(level)s"
+msgstr "พาหนะระดับ {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "คลิกที่ปุ่ม\"รับ\"เพื่อรับรางวัลที่ได้เลือกเอาไว้"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "เลือกรางวัลเอาไว้: %(amountRewards)s"
+msgstr "รางวัลที่เลือกเอาไว้: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "ซื้อ"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "เลือกรางวัลของคุณ"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "%(type)s%(name)s {cream_Open}%(level)s{cream_Close}"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "ยานพิฆาตรถถัง"

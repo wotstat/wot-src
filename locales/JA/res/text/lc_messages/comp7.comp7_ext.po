@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
 
 msgid "alertMessage/preannounce/first"
-msgstr "シーズン「アジュール・ドラゴン」は%(date)sに開幕します。"
+msgstr "シーズン「アジュール・フェニックス」は%(date)sに開幕します。"
 
 msgid "alertMessage/preannounce/second"
-msgstr "シーズン「クリムゾン・ドラゴン」は%(date)sに開幕します。"
+msgstr "シーズン「クリムゾン・フェニックス」は%(date)sに開幕します。"
 
 msgid "alertMessage/preannounce/third"
-msgstr "シーズン「ジェイド・ドラゴン」は%(date)sに開幕します。"
+msgstr "シーズン「ジェイド・フェニックス」は%(date)sに開幕します。"
 
 msgid "alertMessage/qualification"
 msgstr "初期ランクの決定に必要となる「測定ラウンド」の結果待ち"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "シーズン「アジュール・ドラゴン」は終了しています。"
+msgstr "シーズン「アジュール・フェニックス」は終了しています。"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "シーズン「クリムゾン・ドラゴン」は終了しています。"
+msgstr "シーズン「クリムゾン・フェニックス」は終了しています。"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "シーズン「ジェイド・ドラゴン」は終了しています。"
+msgstr "シーズン「ジェイド・フェニックス」は終了しています。"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "選択中のサーバーでの再開まで%(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "車輌性能が上昇中"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "車輌HPが回復中"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "被ダメージ増加"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "車輌性能が上昇中"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s～%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
-msgstr[1] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
-msgstr[2] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
+msgstr[0] "シーズン「アジュール・フェニックス」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「アジュール・フェニックス」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「アジュール・フェニックス」の終了まで残り%(days)d日"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
-msgstr[1] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
-msgstr[2] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
+msgstr[0] "シーズン「クリムゾン・フェニックス」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「クリムゾン・フェニックス」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「クリムゾン・フェニックス」の終了まで残り%(days)d日"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
-msgstr[1] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
-msgstr[2] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
+msgstr[0] "シーズン「ジェイド・フェニックス」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「ジェイド・フェニックス」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「ジェイド・フェニックス」の終了まで残り%(days)d日"
 
 msgid "calendarDay/title"
 msgstr "スケジュール"
@@ -410,13 +413,13 @@ msgid "countdown/lastMinute"
 msgstr "1分未満"
 
 msgid "crewMembersTooltip/description"
-msgstr "世界各国より集められた特別な搭乗員です。どの搭乗員もゼロパーク「戦友」を習得済みで、好きなパークをさらに2つ習得できるようになっています。パークを習得すると車輌の性能が向上します。またどのパークを習得するかによって戦闘における効果も変化します。"
+msgstr "世界各国より集められた特別な搭乗員です。どの搭乗員もゼロパーク「戦友」を習得済みで、好きなパークを2つ習得できるようになっています。パークを習得すると車輌の性能が向上します。またどのパークを習得するかによって戦闘における効果も変化します。"
 
 msgid "crewMembersTooltip/perks"
 msgstr "パーク"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "オンスロート (ドラゴン・イヤー)"
+msgstr "オンスロート (フェニックス・イヤー)"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "ゼロパーク"
@@ -574,11 +577,17 @@ msgstr "了解！"
 msgid "intro/description/banPhase"
 msgstr "各チームが、戦闘から車輌を1輌完全にBAN (除外) できます。味方と投票を調整すれば、最も脅威となる車輌を排除したり、敵にとって予想外の陣容を編成したりすることができます。自分の車輌がBAN対象になった場合は、代わりに用意された複数のレンタル車輌の中から選択できます。"
 
+msgid "intro/description/draw"
+msgstr "制限時間切れでどちらのチームも明確な勝利を収められなかった場合、生存車輌数が多い方の勝利となります。同率の場合は、与ダメージ量、これも同率の場合は、どちらのチームの車輌が最初に撃破されたかで勝敗が決まります。両チームの与ダメージが0だった場合は引き分けとなります。"
+
+msgid "intro/description/nightMaps"
+msgstr "お馴染みの戦場が夜間設定で登場する「夜間マップ」では、新登場の「観測センター」、新しくなった「戦術サークル」、変更された発見システムなどが実装されています。現在のラインナップは「氷の大地」、「砂の川」、「前哨地」、「ステップ」です。"
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "本モードには専用の調整因子が導入されており、車輌HP、消耗品のクールダウン時間、被発見状態の持続時間など、車輌のパラメーターの一部が変動します。"
 
 msgid "intro/description/pointsOfInterest"
-msgstr "「オンスロート」モードでは、どのマップにも「戦術サークル」と呼ばれる特殊なエリアが登場します。「戦術サークル」を占領すると対応する「タクティカル・アビリティー」を発動できるようになります。「戦術サークル」には「砲兵センター」と「諜報センター」の2種類が存在し、前者には指定したエリアへの砲兵射撃を行う「アーティーストライク」が、後者には全敵車輌の位置を捕捉する「ディビジョンレーダー」が割り当てられています。「戦術サークル」の位置や数はマップによって異なります。"
+msgstr "マップ上の特定のエリアを占領すると、「タクティカル・アビリティー」を使用できるようになります。「戦術サークル」には2種類あり、「砲兵センター」では指定したエリアへの攻撃を要請でき、「諜報センター」では全敵車輌を発見できます。これらの拠点の数と位置はマップによって異なります。"
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "「測定ラウンド」で合計%(count)s回の戦闘を行うと初
 msgstr[2] "「測定ラウンド」で戦闘を合計%(count)s回行うと初期ランクが決定し、対応する報酬が手に入ります。\n\n「測定ラウンド」における引き分けおよび車輌大破前の戦闘離脱行為は《敗北》として扱われます。"
 
 msgid "intro/description/ranks"
-msgstr "本モードには、プレイヤーの実力を反映する独自の進捗システムが用意されています。「アイアン」から「レジェンド」までの複数の「ランク」で構成され、昇格するたびにさまざまな報酬が手に入るほか、1年を通して優れた成績を残せばさらに豪華な「年間報酬」が手に入ります。"
+msgstr "「アイアン」から「レジェンド」までの複数の「ランク」を昇格するたびにさまざまな報酬が手に入るほか、1年を通して優れた成績を残せばさらに豪華な「年間報酬」が手に入ります。"
 
 msgid "intro/description/roleSkills"
 msgstr "本モードでは、各車輌に「ロール」が割り当てられており、どの車輌も「ロール」に応じた独自の「ロール・アビリティー」を発動できるようになっています。「ロール・アビリティー」にはそれぞれ3段階のレベルが存在し、レベルが上がると効果も上昇します。レベルを上げるには、戦闘中に「戦術サークル」の占領や「タクティカル・アビリティー」の発動といったさまざまな条件を満たして「プレステージ・ポイント」を集める必要があります。\n\n「プレステージ・ポイント」の取得方法の詳細はイベントのレギュレーションで確認できます。"
@@ -597,6 +606,12 @@ msgstr "本モードでは、技術ツリー上のTier %(levels)sおよびコ�
 
 msgid "intro/title/banPhase"
 msgstr "車輌BAN"
+
+msgid "intro/title/draw"
+msgstr "引き分けのルール"
+
+msgid "intro/title/nightMaps"
+msgstr "夜間マップ"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "「オンスロート」専用のパラメーター調整因子"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "勝利 (以下の理由によりペナルティー発生)"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "%(rank)sに昇進しました"
+msgstr "{{rank}}に昇格しました"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "レーティング: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s、%(division)s"
+msgstr "{{rank}}、{{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "%(rank)s、%(division)sに降格しました"
+msgstr "{{rank}}、{{division}}に降格しました"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "%(rank)s、%(division)sに昇格しました"
+msgstr "{{rank}}、{{division}}に昇格しました"
 
 msgid "pbs/overview/qualification/description"
 msgstr "戦闘数"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "シーズンの最多取得プレステージ・ポイント: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "%(server)sサーバーではシーズン「アジュール・ドラゴン」が終了しています。"
+msgstr "%(server)sサーバーではシーズン「アジュール・フェニックス」が終了しています。"
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "%(server)sサーバーではシーズン「クリムゾン・ドラゴン」が終了しています。"
+msgstr "%(server)sサーバーではシーズン「クリムゾン・フェニックス」が終了しています。"
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "%(server)sサーバーではシーズン「ジェイド・ドラゴン」が終了しています。"
+msgstr "%(server)sサーバーではシーズン「ジェイド・フェニックス」が終了しています。"
 
 msgid "products/actions/buy"
 msgstr "購入"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "「測定ラウンド」を突破！"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "シーズン「アジュール・ドラゴン」"
+msgstr "【オンスロート】シーズン「アジュール・フェニックス」"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "シーズン「クリムゾン・ドラゴン」"
+msgstr "【オンスロート】シーズン「クリムゾン・フェニックス」"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "シーズン「ジェイド・ドラゴン」"
+msgstr "【オンスロート】シーズン「ジェイド・フェニックス」"
 
 msgid "rewardsScreen/description/year"
-msgstr "オンスロート (ドラゴン・イヤー)"
+msgstr "オンスロート (フェニックス・イヤー)"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "「Ashbringer」を表示"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "終了まで%(seconds)s秒"
 
 msgid "seasonName/first"
-msgstr "シーズン「アジュール・ドラゴン」"
+msgstr "シーズン「アジュール・フェニックス」"
 
 msgid "seasonName/second"
-msgstr "シーズン「クリムゾン・ドラゴン」"
+msgstr "シーズン「クリムゾン・フェニックス」"
 
 msgid "seasonName/third"
-msgstr "シーズン「ジェイド・ドラゴン」"
+msgstr "シーズン「ジェイド・フェニックス」"
 
 msgid "seasonPointTooltip/header"
 msgstr "オンスロート・フラッグ"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "ランキング順位: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "オンスロート %(seasonNameUpper)s"
+msgstr "オンスロート %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "%(points)s枚の「オンスロート・フラッグ」を入手"
 msgstr[2] "%(points)s枚の「オンスロート・フラッグ」を入手"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "アジュール・ドラゴン (シーズンI)"
+msgstr "アジュール・フェニックス (シーズンI)"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "クリムゾン・ドラゴン (シーズンII)"
+msgstr "クリムゾン・フェニックス (シーズンII)"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "ジェイド・ドラゴン (シーズンIII)"
+msgstr "ジェイド・フェニックス (シーズンIII)"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "勝率: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "本モードは%(time)sからプレイ可能"
 
 msgid "shortSeasonName/first"
-msgstr "アジュール・ドラゴン"
+msgstr "アジュール・フェニックス"
 
 msgid "shortSeasonName/second"
-msgstr "クリムゾン・ドラゴン"
+msgstr "クリムゾン・フェニックス"
 
 msgid "shortSeasonName/third"
-msgstr "ジェイド・ドラゴン"
+msgstr "ジェイド・フェニックス"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "「オンスロート」モードでランキング入りを果たしているトッププレイヤーの名前や成績を確認できます。"
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "すべて見る"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "大会に合わせて登場するパックを購入することで、賞金総額を増額し、「オンスロート・レジェンド・シリーズ」を支援することができます。"
+msgstr "選択したチームが優勝すると、特別な金色の「OLS 2026」バッジを入手できます。イチ推しチームを応援しましょう!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "eスポーツへの情熱を示すことができる限定カスタマイズ要素と限定車輌が登場!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "中国の蘇州で開催される「WCI」の激戦が幕を開けました。世界中から集まった強豪チームが「オンスロート」モードのルールで激突し、栄誉ある世界チャンピオンの称号を懸けて覇を競います。戦車戦の歴史に新たな伝説が生まれる瞬間をお見逃しなく!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLSシーズン6"
+msgstr "OLSシーズン7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "今シーズンが貴重な報酬の数々を手に入れる最後のチャンスです。報酬には限定のTier X重戦車「Ashbringer」をはじめ、特別な3Dスタイル、ゼロパーク「戦友」を習得済みの搭乗員、選べる拡張パーツや試験拡張パーツ、そして目を引く2Dスタイルなどが含まれています。高みを目指して、いざ戦場へRoll Out!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "「ドラゴン・イヤー」を締めくくる最後のシーズンが開幕しました!"
+msgstr "「フェニックス・イヤー」を締めくくる最後のシーズンが開幕しました！"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "シーズン「ジェイド・ドラゴン」"
+msgstr "シーズン「アジュール・フェニックス」"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "「オンスロート」の変更点"
 
 msgid "whatsNewView/button/ok"
-msgstr "了解!"
+msgstr "炎を解き放て!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "戦闘結果画面は、アップデート2.0でデザインが刷新されました。今後はさらに、戦闘終了後にモード関連の追加情報が表示されるようになります。"
+msgid "whatsNewView/drawConditions/description"
+msgstr "制限時間切れでどちらのチームも明確な勝利を収められなかった場合、生存車輌数が多い方の勝利となります。同率の場合は、与ダメージ量、これも同率の場合は、どちらのチームの車輌が最初に撃破されたかで勝敗が決まります。両チームの与ダメージが0だった場合は引き分けとなります。"
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "詳細な戦闘結果"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "お気に入りの車輌がBANされても心配無用です。レンタル車輌には、あらかじめ搭乗員、拡張パーツ、砲弾、消耗品が搭載されています。"
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "準備万端のレンタル車輌%(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "今シーズンでは、各チームが車輌を1輌、特定の戦闘において「BAN」できるようになります。味方と投票を調整すれば、最も脅威になりそうな車輌を選択できないようにしたり、敵にとって予想外の陣容を編成したりすることができます。"
-
-msgid "whatsNewView/intro/heading"
-msgstr "車輌BAN%(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "引き分け条件の変更{{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "マップ"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "「オンスロート」で使用できる新たな車輌"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "アップデート2.4で新たな軽戦車のロールが導入され、車輌特性のバランスが再調整されました。戦闘でぜひお試しください!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "新たな軽戦車のロール{{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "お馴染みのマップで新鮮なゲームプレイを体験できる、夜間マップが登場します。通常版との変更点には、夜間設定、新登場の「観測センター」、新たな「戦術サークル」の配置、変更された発見システムが含まれます。これらすべてが戦闘の流れを刷新し、状況認識、タイミング、そして戦術的な移動がこれまで以上に重要になります。"
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "夜間マップが登場{{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "戦闘におけるプレイヤー人口の減少により、「スーパー小隊」を無効化しました。現在、「オンスロート」をチームでプレイするための代替案を検討中です。それまでの間、定期的に開催される7対7トーナメントをご利用いただけます。"
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "スーパー小隊の廃止{{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "レンタル車輌"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "「Ares 90」が、本モードで使用できるようになりました。なお、アビリティーに調整が加えられています。"
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• マップ「エーレンベルク」を削除し、「飛行場」の「戦術サークル」の位置を変更し、「ピルゼン」に微調整を加えました。\n• 車輌「Vz. 60S Dravec」を削除し、新たなドイツ重戦車「Kampfpanzer 67」を追加しました。"
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "アビリティーへの変更%(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "シルバー・ランクに到達すると「オンスロート」ショップでアンロックされる報酬に「114 SP2」が追加されました。"
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "ショップの更新%(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "シーズンのバランス調整{{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "除外"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s～%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "シーズンI アジュール・ドラゴン"
+msgstr "アジュール・フェニックス (シーズンI)"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "シーズンII クリムゾン・ドラゴン"
+msgstr "クリムゾン・フェニックス (シーズンII)"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "シーズンIII ジェイド・ドラゴン"
+msgstr "ジェイド・フェニックス (シーズンIII)"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "開催中"

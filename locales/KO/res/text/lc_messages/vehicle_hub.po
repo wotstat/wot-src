@@ -34,6 +34,9 @@ msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니�
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "엔진 출력을 높여 최고 속력을 향상함으로써 전장을 빠르게 가로지를 수 있습니다. 제트 추진기가 활성화된 동안은 기동성이 저하되며 수동으로 비활성화할 수 없습니다."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "해당 전차의 주포에는 사격 전에 일부 포탄 성능을 변경할 수 있는 특수 장치가 탑재되어 있습니다. 선택한 모드에 따라 포탄 성능이 달라지며, 각 모드를 활용하면 다양한 전투 상황에 신속하게 대응할 수 있습니다."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "특수 모드를 활성화하면 특정 전투 성능이 향상되거나 변화합니다. 위치 선정을 마치고 교전 준비가 되었을 때 활성화하는 것이 가장 좋습니다."
 
@@ -82,6 +85,9 @@ msgstr "과열 제어 자동포"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "제트 추진기"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "포탄 보정 시스템"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "사격 모드"
 
@@ -100,8 +106,17 @@ msgstr "일제 사격 모드"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "정지 상태를 유지하거나 천천히 이동하면 다음 포탄의 명중률이 단계적으로 상승합니다.\n명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "해당 장치는 포탄 재장전 시간을 짧은 고정 시간으로 즉시 변경합니다. 사용할 때마다 포탄 한 발당 충전 횟수 1회가 소모되며, 충전 횟수는 시간이 지나면 보충됩니다. 클립이 전체 장전되어 있을 때 더 빠르게 보충되며, 전투 시작 시 일정량의 충전 횟수가 주어집니다."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "해당 전차는 포방패에 로켓 발사기를 장착하였습니다. 능력을 활성화하면 보조 무기 조준 시점으로 전환되며 발사 버튼으로 비유도 고폭 로켓을 발사할 수 있습니다."
+
 msgid "abilities/special/description/battleFury"
 msgstr "적에게 포탄이 명중하면 재장전 효율 단계가 상승하여 일시적으로 주포의 재장전 속도가 가속됩니다. 단계는 포탄이 명중할 때마다 누적됩니다.\n적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "해당 전차는 외장 탄약 보급 모드를 사용하여 더 강력한 고장약 일체형 포탄을 발사할 수 있습니다. 해당 모드가 활성화된 동안에는 기동력과 연사력이 감소합니다."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "주포가 장전되면 다음에 발사할 포탄을 가열하여 공격력을 강화할 수 있습니다. 가열 단계가 높을수록 효과가 커집니다.\n가열 최고 단계에 도달하면 수 초 안에 발사해야 합니다. 해당 시간이 지나면 일시적으로 포탄을 발사할 수 없습니다."
@@ -142,6 +157,15 @@ msgstr "시간이 흐름에 따라 자동으로 충전되며, 충전량이 높�
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "필요할 때 언제든지 액체 연료 추진기를 활성화하여 속력을 높일 수 있습니다. 추진기는 가열되므로 재사용하기 전에 냉각이 필요합니다. 가열 한도를 초과하면 일시적으로 완전히 비활성화됩니다."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "발견한 적 전차에 포탄이 명중하면 다음 포탄의 신관이 조정됩니다. 첫 포탄이 적 장갑을 관통하면 다음 포탄의 공격력이 증가하고, 관통하지 못하면 다음 포탄의 관통력이 증가합니다."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "해당 전차의 주포에는 사격 전에 일부 포탄 성능을 변경할 수 있는 특수 장치가 탑재되어 있습니다. 선택한 모드에 따라 포탄 성능이 달라지며, 각 모드를 활용하면 다양한 전투 상황에 신속하게 대응할 수 있습니다."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "활성화 시 장치가 전차 전방의 일정 구역을 스캔하여 은폐 중인 목표물을 드러내며 이후 재사용 시간이 적용됩니다. 발각되지 않은 적을 발견하면 내 전차 또한 즉시 발각됩니다. 활성화 후 짧은 시간이 지나면 스캔을 수동으로 중단할 수 있습니다."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "일정 시간 동안 가속력, 속력, 기동력을 높일 수 있는 고체 연료 추력기입니다. 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다."
 
@@ -166,8 +190,17 @@ msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전�
 msgid "abilities/special/name/accuracyStacks"
 msgstr "아날로그식 탄도 계산기"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "강제 장전 장치"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "동축 로켓 발사기"
+
 msgid "abilities/special/name/battleFury"
 msgstr "반자동 탄약 적재함"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "외장 탄약 보급 모드"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "열탄도 과충전"
@@ -208,6 +241,15 @@ msgstr "유도 추진식 재연소 장치"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "액체 연료 추진기"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "신관 조정 장치"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "포탄 보정 시스템"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "적외선 탐색 추적"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "연속 로켓 추력기"
 
@@ -232,8 +274,17 @@ msgstr "고압 터보 과급기 보조 장치"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "다음 포탄 명중률이 향상됩니다. 완전 보정 시 안정성이 준수한 수준으로 향상됩니다."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "포탄 재장전 시간을 짧은 고정 시간으로 즉시 변경합니다."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "주포와 별개로 작동하는 동축 발사기로 비유도 고폭 로켓을 발사합니다."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "적 전차에 공격이 명중할 때마다 일정 시간 동안 주포 재장전 속도가 향상됩니다."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "기동력 및 연사력에 불이익이 적용되지만 높은 피해를 입히는 포탄을 발사합니다."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "다음 포탄을 가열하여 적 전차에 입히는 피해량을 강화합니다."
@@ -274,6 +325,15 @@ msgstr "시스템 충전으로 공격력에 보너스가 적용됩니다. 충전
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "언제든 추진기를 활성화하여 속력을 급격히 가속할 수 있습니다."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "발견된 적 전차에 명중 시 다음 포탄의 공격력 또는 관통력이 증가합니다."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "사격 전 일부 포탄 성능을 변경할 수 있는 특별 장치입니다."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "관측 범위를 확장하고 좁은 구역 내에서 기동 중이거나 수풀 뒤에 숨어 있는 전차를 탐지합니다."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "가속력, 속력, 기동력을 높이는 고체 연료 추력기입니다."
 
@@ -298,8 +358,14 @@ msgstr "일시적으로 엔진 출력, 가속력, 최고 속력을 향상하는 
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 전차의 아날로그식 탄도 계산기가 보정됨에 따라 명중률 단계가 증가하여 다음 사격 명중률이 향상됩니다. 속력 제한을 초과하면 속력을 줄일 때까지 명중률 단계 상승이 중단됩니다. 명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다. 사격 시 효과가 사라집니다."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "해당 전차는 포방패에 로켓 발사기를 장착하였습니다. 능력을 활성화하면 보조 무기 조준 시점으로 전환되며 발사 버튼으로 비유도 고폭 로켓을 발사할 수 있습니다."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "발견된 적에게 포탄이 명중할 때마다 재장전 효율 단계가 상승하여 일시적으로 주포 재장전이 가속됩니다. 단계는 명중 시마다 축적됩니다. 적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "해당 전차는 외장 탄약 보급 모드를 사용하여 더 강력한 고장약 일체형 포탄을 발사할 수 있습니다. 해당 모드가 활성화된 동안에는 기동력과 연사력이 감소합니다."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "포탄이 장전되면 다음에 발사할 포탄을 가열할 수 있습니다. 가열 단계가 높을수록 평균 공격력에 더 큰 보너스가 적용됩니다. 가열 중에는 포탄을 변경할 수 없습니다. 가열 최고 단계에 도달하면 수 초 안에 발사해야 합니다. 해당 시간이 지나면 일시적으로 포탄을 발사할 수 없습니다."
@@ -340,6 +406,15 @@ msgstr "시간이 흐름에 따라 자동으로 충전되며, 사격 시 충전�
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "액체 연료 추진기를 사용하면 엔진 출력이 향상되어 전장에서 유리한 고지를 점할 수 있지만, 대신 전차 후진 속력 및 회전 속도가 제한됩니다. 재사용 제한에 도달하였을 때를 제외하고 언제든지 활성화/비활성화할 수 있습니다. 추진기는 활성화된 동안 가열되며, 냉각할 때까지 이용 불가 상태가 되므로 연속적으로는 사용할 수 없습니다. 가열 한도를 초과하면 일시적으로 완전히 비활성화됩니다. 불의의 습격을 당하지 않도록 신중하게 움직임을 계획하십시오."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "발견한 적 전차에 포탄이 명중하면 다음 포탄의 신관이 조정됩니다. 첫 포탄이 적 장갑을 관통하면 다음 포탄의 공격력이 증가하고, 관통하지 못하면 다음 포탄의 관통력이 증가합니다."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "해당 전차의 주포에 장착된 특별 장치를 사용하여 사격 전 일부 포탄 성능을 변경할 수 있습니다. 사격 모드 전환 시 변경되는 성능은 구성에서 확인할 수 있습니다."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "개량형 광학 장비로 관측 범위를 확장하고 기동 중이거나 수풀 뒤에 숨어 있는 전차에 대한 탐지 성능을 향상합니다. 활성화 시 전차 정면의 좁은 구역을 스캔하여 은폐 중인 목표물을 드러내고 재사용 시간이 적용됩니다. 발각되지 않은 적을 발견하면 내 전차 또한 즉시 발각됩니다. 활성화 후 짧은 시간이 지나면 스캔을 수동으로 중단할 수 있습니다."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "일정 시간 동안 가속력, 기동 성능을 높일 수 있는 고체 연료 추력기입니다. 일반 제트 추진기와 달리 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다. 전투당 여러 번 사용할 수 있지만 재사용 전 재사용 대기 시간이 필요합니다."
 
@@ -363,6 +438,18 @@ msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전�
 
 msgid "characteristics/abilities/special/notes"
 msgstr "표시된 수치는 해당 전차의 최대 성능치입니다. 해당 수치는 장비, 지휘명령, 소모품에 따라 변동될 수 있지만, 그와 같은 변동 사항은 이곳에 반영되지 않습니다."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "보정 가능 철갑탄"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "보정 가능 고속철갑탄"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "보정 가능 고폭탄"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "보정 가능 성형작약탄"
 
 msgid "characteristics/templates/upTo"
 msgstr "최대 %(value)%s"

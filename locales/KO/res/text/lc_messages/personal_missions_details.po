@@ -5857,6 +5857,978 @@ msgstr "피해 기록"
 msgid "pm3_9_3_9_title_kills"
 msgstr "격파 기록"
 
+msgid "pm4_11_1_1"
+msgstr "선봉-1"
+
+msgid "pm4_11_1_10"
+msgstr "선봉-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "사격으로 본인 전차를 공격한 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_10_short"
+msgstr "선봉-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_11"
+msgstr "선봉-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "%(distanceShortOrEqual)sm 이내에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "적 전차를 충돌로 격파하고 해당 충돌에서 생존"
+
+msgid "pm4_11_1_11_short"
+msgstr "선봉-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_12"
+msgstr "선봉-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "%(distanceShortOrEqual)sm 이내에서 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_1_12_short"
+msgstr "선봉-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_13"
+msgstr "선봉-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "능력자 업적 달성"
+
+msgid "pm4_11_1_13_short"
+msgstr "선봉-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "전장의 영웅"
+
+msgid "pm4_11_1_14"
+msgstr "선봉-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "입힌 피해, 받은 피해, 막은 피해 총 %(goal)s 기록"
+
+msgid "pm4_11_1_14_short"
+msgstr "선봉-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "복합 조건"
+
+msgid "pm4_11_1_15"
+msgstr "선봉-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "관측 범위 내에 있는 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_1_15_short"
+msgstr "선봉-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_16"
+msgstr "선봉-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "철벽 업적 달성"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "입힌 피해량 아군 1위 기록"
+
+msgid "pm4_11_1_16_short"
+msgstr "선봉-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "전장의 영웅"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "상위권 기록"
+
+msgid "pm4_11_1_17"
+msgstr "선봉-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "입힌 피해와 장갑으로 막은 피해를 합쳐서 본인 전차 내구도의 %(vehicleHealthFactor)s배 이상 기록"
+
+msgid "pm4_11_1_17_short"
+msgstr "선봉-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "피해 기록 및 장갑 활용"
+
+msgid "pm4_11_1_18"
+msgstr "선봉-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "이동 불가 상태인 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_18_short"
+msgstr "선봉-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_19"
+msgstr "선봉-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "%(distanceShortOrEqual)sm 이내에서 단계가 같거나 더 높은 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "%(distanceShortOrEqual)sm 이내에서 단계가 같거나 더 높은 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_1_19_short"
+msgstr "선봉-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "적 중전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "사격으로 적 중전차에 피해 %(goal)s회 기록"
+
+msgid "pm4_11_1_1_short"
+msgstr "선봉-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_2"
+msgstr "선봉-2"
+
+msgid "pm4_11_1_20"
+msgstr "선봉-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "서로 다른 %(uniqueGoal)s가지 유형의 적 전차를 총 %(goal)s대 격파"
+
+msgid "pm4_11_1_20_short"
+msgstr "선봉-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_21"
+msgstr "선봉-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "입힌 피해, 받은 피해, 막은 피해 총 %(goal)s 기록"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "아군 전체 피해 기록 중 25%% 기록"
+
+msgid "pm4_11_1_21_short"
+msgstr "선봉-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "복합 조건"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "서로 다른 %(uniqueGoal)s가지 유형의 적 전차를 총 %(goal)s대 격파"
+
+msgid "pm4_11_1_2_short"
+msgstr "선봉-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "격파 기록"
+
+msgid "pm4_11_1_3"
+msgstr "선봉-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "입힌 피해량 아군 1위 기록"
+
+msgid "pm4_11_1_3_short"
+msgstr "선봉-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "상위권 기록"
+
+msgid "pm4_11_1_4"
+msgstr "선봉-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "정지한 상태로 막은 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_4_short"
+msgstr "선봉-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "장갑 활용"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_5"
+msgstr "선봉-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "관측 범위 내에 있는 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_5_short"
+msgstr "선봉-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_6"
+msgstr "선봉-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "입힌 피해와 장갑으로 막은 피해를 합쳐서 본인 전차 내구도의 %(vehicleHealthFactor)s배 이상 기록"
+
+msgid "pm4_11_1_6_short"
+msgstr "선봉-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "피해 기록 및 장갑 활용"
+
+msgid "pm4_11_1_7"
+msgstr "선봉-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "%(distanceShortOrEqual)sm 이내에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "%(distanceGreatOrEqual)sm 밖에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_7_short"
+msgstr "선봉-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_8"
+msgstr "선봉-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "적 중전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "입힌 피해량 아군 1위 기록"
+
+msgid "pm4_11_1_8_short"
+msgstr "선봉-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "상위권 기록"
+
+msgid "pm4_11_1_9"
+msgstr "선봉-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "이동 불가 상태인 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_1_9_short"
+msgstr "선봉-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_1"
+msgstr "매복-1"
+
+msgid "pm4_11_2_10"
+msgstr "매복-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "피해 %(goal)s 기록"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "경험치 획득량 아군 1위 기록"
+
+msgid "pm4_11_2_10_short"
+msgstr "매복-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "상위권 기록"
+
+msgid "pm4_11_2_11"
+msgstr "매복-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "사격으로 기동 중인 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_11_short"
+msgstr "매복-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_12"
+msgstr "매복-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "피해 %(goal)s 기록"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_12_short"
+msgstr "매복-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_13"
+msgstr "매복-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "아군 전체 피해 기록 중 25%% 기록"
+
+msgid "pm4_11_2_13_short"
+msgstr "매복-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_14"
+msgstr "매복-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "능력자 업적 달성"
+
+msgid "pm4_11_2_14_short"
+msgstr "매복-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "전장의 영웅"
+
+msgid "pm4_11_2_15"
+msgstr "매복-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "적 전차에 입힌 피해를 본인 전차 내구도의 %(vehicleHealthFactor)s배 이상 기록"
+
+msgid "pm4_11_2_15_short"
+msgstr "매복-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_16"
+msgstr "매복-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "본인이 피해를 %(damageDealt)s 이상 기록한 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_16_short"
+msgstr "매복-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_17"
+msgstr "매복-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "피해 %(goal)s 기록"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_17_short"
+msgstr "매복-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_18"
+msgstr "매복-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "%(distanceGreatOrEqual)sm 밖에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "경험치 획득량 아군 1위 기록"
+
+msgid "pm4_11_2_18_short"
+msgstr "매복-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "상위권 기록"
+
+msgid "pm4_11_2_19"
+msgstr "매복-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "본인 전차에 피해를 받지 않고 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_19_short"
+msgstr "매복-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "피해 %(goal)s 기록"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "장갑 관통 %(goal)s회 기록"
+
+msgid "pm4_11_2_1_short"
+msgstr "매복-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "관통"
+
+msgid "pm4_11_2_2"
+msgstr "매복-2"
+
+msgid "pm4_11_2_20"
+msgstr "매복-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "아군 전체 피해 기록 중 30%% 기록"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "모든 적 전차 격파, 또는 기지 점령/기지 방어"
+
+msgid "pm4_11_2_20_short"
+msgstr "매복-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "전투 승리"
+
+msgid "pm4_11_2_21"
+msgstr "매복-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_21_short"
+msgstr "매복-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "전투 시작 후 %(timeLimit)s분 이내에 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "서로 다른 %(uniqueGoal)s가지 유형의 적 전차를 총 %(goal)s대 격파"
+
+msgid "pm4_11_2_2_short"
+msgstr "매복-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_3"
+msgstr "매복-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "경험치 획득량 아군 1위 기록"
+
+msgid "pm4_11_2_3_short"
+msgstr "매복-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "상위권 기록"
+
+msgid "pm4_11_2_4"
+msgstr "매복-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "적 중형전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "관측 범위 밖에 있는 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_4_short"
+msgstr "매복-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_5"
+msgstr "매복-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "발견되지 않은 상태로 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_5_short"
+msgstr "매복-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_6"
+msgstr "매복-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "입힌 피해와 도움 피해 총 %(goal)s 기록"
+
+msgid "pm4_11_2_6_short"
+msgstr "매복-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "복합 조건"
+
+msgid "pm4_11_2_7"
+msgstr "매복-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "전차 저격수 업적 달성"
+
+msgid "pm4_11_2_7_short"
+msgstr "매복-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "전장의 영웅"
+
+msgid "pm4_11_2_8"
+msgstr "매복-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "%(distanceGreatOrEqual)sm 밖에서 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_2_8_short"
+msgstr "매복-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_2_9"
+msgstr "매복-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "이동 불가 상태인 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "피해 %(goal)s 기록"
+
+msgid "pm4_11_2_9_short"
+msgstr "매복-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "피해 기록"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "피해 기록"
+
+msgid "pm4_11_3_1"
+msgstr "지원-1"
+
+msgid "pm4_11_3_10"
+msgstr "지원-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "발견되지 않은 상태로 적 전차 발견 또는 이동 불가 상태 유발에 의한 도움 피해 %(goal)s 기록"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "적 중형전차 또는 구축전차에 폭발 충격 총 %(goal)s초 기록, 기대 폭발 충격 지속 시간 반영"
+
+msgid "pm4_11_3_10_short"
+msgstr "지원-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "지원"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "폭발 충격"
+
+msgid "pm4_11_3_11"
+msgstr "지원-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "적 전차 발견, 이동 불가 상태 유발, 폭발 충격 기록에 의한 도움 피해 %(goal)s 기록"
+
+msgid "pm4_11_3_11_short"
+msgstr "지원-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "지원"
+
+msgid "pm4_11_3_12"
+msgstr "지원-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "본인이 발견하였거나, 이동 불가 상태를 유발하였거나, 폭발 충격을 기록한 적 전차 %(goal)s대를 아군이 격파"
+
+msgid "pm4_11_3_12_short"
+msgstr "지원-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "지원"
+
+msgid "pm4_11_3_13"
+msgstr "지원-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "숙련의 증표 1급 이상 획득"
+
+msgid "pm4_11_3_13_short"
+msgstr "지원-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "숙련의 증표"
+
+msgid "pm4_11_3_14"
+msgstr "지원-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "전투에서 생존"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "경험치 획득량 양 팀 전체 1위 기록"
+
+msgid "pm4_11_3_14_short"
+msgstr "지원-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "전투 생존"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "상위권 기록"
+
+msgid "pm4_11_3_15"
+msgstr "지원-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "본인이 발견하였거나, 이동 불가 상태를 유발하였거나, 폭발 충격을 기록한 적 전차 %(goal)s대를 아군이 격파"
+
+msgid "pm4_11_3_15_short"
+msgstr "지원-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "지원"
+
+msgid "pm4_11_3_16"
+msgstr "지원-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "%(attackerMovingSpeedGreaterOrEqual)skm/h 이상 속력으로 기동하며 적 전차에 피해 %(goal)s 기록"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "사격으로 기동 중인 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_3_16_short"
+msgstr "지원-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "피해 기록"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_17"
+msgstr "지원-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "전투에서 생존"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "본인이 폭발 충격을 기록하거나 궤도를 파괴한 전차에 아군이 총 %(goal)s 이상 피해 기록 후 전투에서 생존"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "적 전차에 입힌 피해와 도움 피해 총 %(goal)s 기록 후 전투에서 생존"
+
+msgid "pm4_11_3_17_short"
+msgstr "지원-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "전투 생존"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "지원"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "복합 조건"
+
+msgid "pm4_11_3_18"
+msgstr "지원-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "%(distanceShortOrEqual)sm 이내에서 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "%(distanceGreatOrEqual)sm 밖에서 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_3_18_short"
+msgstr "지원-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_19"
+msgstr "지원-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "숙련의 증표: 전차 에이스 획득"
+
+msgid "pm4_11_3_19_short"
+msgstr "지원-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "숙련의 증표"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "전투에서 생존"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "적 자주포 격파 후 전투에서 생존"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "적 전차에 폭발 충격을 %(goal)s회 기록하고 전투에서 생존"
+
+msgid "pm4_11_3_1_short"
+msgstr "지원-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "전투 생존"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "폭발 충격"
+
+msgid "pm4_11_3_2"
+msgstr "지원-2"
+
+msgid "pm4_11_3_20"
+msgstr "지원-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "발견되지 않은 상태로 적 전차 발견에 의한 도움 피해 %(goal)s 기록 및 전투에서 승리"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "적 중전차에 폭발 충격 %(goal)s회 기록 및 전투에서 승리"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "모든 적 전차 격파, 또는 기지 점령/기지 방어"
+
+msgid "pm4_11_3_20_short"
+msgstr "지원-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "지원"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "폭발 충격"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "전투 승리"
+
+msgid "pm4_11_3_21"
+msgstr "지원-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "전투에서 생존"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "적 전차에 입힌 피해와 도움 피해 총 %(goal)s 기록"
+
+msgid "pm4_11_3_21_short"
+msgstr "지원-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "전투 생존"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "복합 조건"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "적 경전차 1대 격파"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "적 전차에 폭발 충격 총 %(goal)s초 기록, 기대 폭발 충격 지속 시간 반영"
+
+msgid "pm4_11_3_2_short"
+msgstr "지원-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "폭발 충격"
+
+msgid "pm4_11_3_3"
+msgstr "지원-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "적 전차 발견, 이동 불가 상태 유발, 폭발 충격 기록에 의한 도움 피해 %(goal)s 기록"
+
+msgid "pm4_11_3_3_short"
+msgstr "지원-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "지원"
+
+msgid "pm4_11_3_4"
+msgstr "지원-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "전투에서 생존"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "적 전차 %(goal)s대 발견 후 생존"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "포탄 한 발로 적 전차 %(stunSeveralTargets)s대에 폭발 충격 기록 %(goal)s회 달성 후 생존"
+
+msgid "pm4_11_3_4_short"
+msgstr "지원-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "전투 생존"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "전차 발견"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "폭발 충격"
+
+msgid "pm4_11_3_5"
+msgstr "지원-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "숙련의 증표 2급 이상 획득"
+
+msgid "pm4_11_3_5_short"
+msgstr "지원-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "숙련의 증표"
+
+msgid "pm4_11_3_6"
+msgstr "지원-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "적 전차에 입힌 피해와 도움 피해 총 %(goal)s 기록"
+
+msgid "pm4_11_3_6_short"
+msgstr "지원-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "복합 조건"
+
+msgid "pm4_11_3_7"
+msgstr "지원-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "적 전차 발견, 폭발 충격 기록, 이동 불가 상태 유발에 의한 도움 피해 %(goal)s 기록"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "적 자주포 격파"
+
+msgid "pm4_11_3_7_short"
+msgstr "지원-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "지원"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_8"
+msgstr "지원-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_3_8_short"
+msgstr "지원-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_9"
+msgstr "지원-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "%(distanceShortOrEqual)sm 이내에서 적 전차 %(goal)s대 격파"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "적 중형전차 또는 구축전차에 폭발 충격 %(goal)s회 기록"
+
+msgid "pm4_11_3_9_short"
+msgstr "지원-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "격파 기록"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "폭발 충격"
+
 msgid "quest/advice/biathlon/description"
 msgstr "해당 유형 임무는 도전 횟수가 제한됩니다."
 
@@ -10345,6 +11317,9 @@ msgstr "제2차 전선"
 msgid "season_3"
 msgstr "제3 섹터"
 
+msgid "season_4"
+msgstr "제3 섹터"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "모든 전차 유형으로 진행할 수 있는 미국 중전차 Black Rock 획득 임무 세트입니다."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "모든 전차 유형으로 진행할 수 있는 독일 중형전차 Fossa VM 68 획득 가능 임무 세트입니다."
 
 msgid "tile_1_descr"
 msgstr "모든 전차 유형으로 진행할 수 있는 독일 구축전차 StuG IV 획득 임무 세트입니다."

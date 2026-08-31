@@ -826,6 +826,9 @@ msgstr "3D 風格"
 msgid "carousel_tank_filter/ready"
 msgstr "只顯示最愛"
 
+msgid "carousel_tank_filter/scout"
+msgstr "偵察型"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "狙擊型"
 
@@ -834,9 +837,6 @@ msgstr "支援型"
 
 msgid "carousel_tank_filter/universal"
 msgstr "多功能"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "輪式"
 
 msgid "centerIsAvailable"
 msgstr "所有伺服器再次可以使用。"
@@ -4159,6 +4159,9 @@ msgstr "改良的自動再裝填系統：\n降低自動再裝填砲彈的標準�
 msgid "moduleInfo/autoShootGun"
 msgstr "具有連續射擊系統的炮管"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "此車輛在炮盾上安裝了火箭發射器。啟用能力來切換至次要武器的瞄準鏡，然後按下射擊鍵來發射無導引高爆火箭。"
+
 msgid "moduleInfo/closeBtn"
 msgstr "關閉"
 
@@ -4312,6 +4315,9 @@ msgstr "冷卻時間"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "熟練度與乘員歷練"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "重傷機率"
+
 msgid "moduleInfo/params/damage"
 msgstr "傷害"
 
@@ -4342,11 +4348,29 @@ msgstr "碰撞時火災發生機率"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "飛行時間"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "若命中主要裝甲，必定會造成傷害"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* 此炮管的最大砲彈飛行距離"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " 此類型砲彈不會受到距離的影響"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr "，最大飛行距離 — 400 公尺"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " 此砲彈類型在穿透第一層裝甲板後，穿透力會隨著距離開始衰減"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " 受距離影響的範圍：%(minDist)s–%(maxDist)s 公尺"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " 此砲彈類型會如常擊穿裝甲板，但隨後會損失相當於裝甲板厚度 3 倍的穿透力"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "最高速度"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "若主要裝甲遭命中，必定會造成傷害"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "重量"
@@ -4378,20 +4402,11 @@ msgstr "生命值"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "射程"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* 此炮管的最大砲彈飛行距離"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "最大車輪轉向角"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "%(dist)s 公尺處傷害"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " 此類型砲彈不會受到距離的影響"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr "，最大飛行距離 — 400 公尺"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "轉正角度"
@@ -4399,14 +4414,8 @@ msgstr "轉正角度"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "穿透力衰減"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " 此砲彈類型在穿透第一層裝甲板後，穿透力會隨著距離開始衰減"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s 公尺"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " 受距離影響的範圍：%(minDist)s–%(maxDist)s 公尺"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "平均穿透力 (毫米)──距離"
@@ -4456,9 +4465,6 @@ msgstr "迴轉速度"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "間隙裝甲乘數"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " 此砲彈類型會如常擊穿間隙裝甲，但隨後會損失相當於間隙裝甲厚度 3 倍的穿透力"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "可提高平均傷害的「感應式彈藥推進劑助燃」"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "噴射助推器可提高車輛的機動性"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。"
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "固態燃料推進器，可提升加速度、機動性與操控性"
@@ -5284,11 +5293,14 @@ msgstr "炮管完美的車輛，需要符合特定條件才能有效使用。這
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "多功能戰車，可輕易適用任何戰鬥情況。"
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "快速且操控性佳的車輛，可肩負偵察並在側翼迂迴時造成傷害。"
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "偵察型輕型戰車小巧且敏捷，專為偵察敵人而生。具有低矮的輪廓與良好的隱蔽性，加上出色的操控性與較高的最高速度，足以勝任被動與主動偵察，但耐久性較差且火力不足，無法為隊友提供實質的火力支援。"
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "動力特性出色的車輛，能否有效運用該車輛與地圖與戰術情況有關。"
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "支援型輕型戰車具有較高的機動性、出色的操控性與強大的炮管，能快速變換側翼並造成大量傷害，隨後再後撤至安全處。特定情況下雖能執行偵察任務，但尺寸較大且隱蔽性較差，偵察效率不如其他輕型戰車。"
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "多功能輕型戰車為特性均衡的車輛，能執行偵察任務並為隊友提供火力支援。雖然偵察效率不如偵察型輕型戰車，火力也不及支援型輕型戰車，但均衡的特性讓此類車輛能兼任這兩種角色，並輕鬆因應各種戰況。"
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "裝甲不錯的車輛，這些車輛最適合近距離戰鬥並正面對抗敵方重型戰車。"
@@ -5329,11 +5341,14 @@ msgstr "支援型重型戰車"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "多功能重型戰車"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "偵察型輕型戰車"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "支援型輕型戰車"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "多功能輕型戰車"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "輪式輕型戰車"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "突擊型中型戰車"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6032,7 +6050,37 @@ msgid "tank_params/autoShootClipFireRate"
 msgstr "裝填"
 
 msgid "tank_params/autoShootClipSec"
-msgstr "（彈匣/數量）"
+msgstr " (彈匣/數量)"
+
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "加速後的砲彈裝填時間"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "彈匣已滿時的次數補充耗時"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "次數補充基本耗時"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "戰鬥開始時的可用次數"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "最高可用次數"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "平均傷害 (血量)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "100 公尺處擴散度 (公尺)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "平均穿透力 (毫米)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "冷卻時間 (秒)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "火箭彈速度 (公尺/秒)"
 
 msgid "tank_params/avgDamage"
 msgstr "平均傷害"
@@ -6056,7 +6104,22 @@ msgid "tank_params/burstFireRate"
 msgstr "短彈匣"
 
 msgid "tank_params/burstSec"
-msgstr "（秒/數量/數量）"
+msgstr " (秒/數量/數量)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "平均傷害 (血量)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "最高速度 (外部供彈模式) (公里/小時)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "射擊速率 (發/分鐘)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "外部供彈模式啟用耗時 (秒)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "外部供彈模式停用耗時 (秒)"
 
 msgid "tank_params/chargeTime"
 msgstr "雙管齊射準備時間"
@@ -6092,10 +6155,10 @@ msgid "tank_params/clipFireRate"
 msgstr "裝填"
 
 msgid "tank_params/clipSec"
-msgstr "（彈匣/砲彈或短彈匣/數量）"
+msgstr " (彈匣/砲彈或短彈匣/數量)"
 
 msgid "tank_params/cnt"
-msgstr "（顆）"
+msgstr " (顆)"
 
 msgid "tank_params/coincidenceElectromechanicalSightDuration"
 msgstr "重疊電機觀測鏡作用時間"
@@ -6151,6 +6214,12 @@ msgstr "引擎功率 (馬力) (渦輪模式)"
 msgid "tank_params/explosionRadius"
 msgstr "傷害半徑"
 
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "最高速度 (外部供彈模式) (公里/小時)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "外部供彈模式啟用耗時 (秒)"
+
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "開火後的炮管降溫時間"
 
@@ -6161,7 +6230,7 @@ msgid "tank_params/extraShotClipReloadTime"
 msgstr "裝填時間延長"
 
 msgid "tank_params/faceFrontBoardInMM"
-msgstr "（前/側/後 毫米）"
+msgstr " (前/側/後 毫米)"
 
 msgid "tank_params/factor"
 msgstr "(%)"
@@ -6188,10 +6257,10 @@ msgid "tank_params/furyReloadSpeedBonusPerEfficiencyLevel"
 msgstr "每個效率等級的裝填速度加成"
 
 msgid "tank_params/gps"
-msgstr "（度/秒）"
+msgstr " (度/秒)"
 
 msgid "tank_params/grads"
-msgstr "（度）"
+msgstr " (度)"
 
 msgid "tank_params/gunModuleAvgDamageList"
 msgstr "平均傷害"
@@ -6203,7 +6272,7 @@ msgid "tank_params/gunYawLimits"
 msgstr "炮管迴轉上限"
 
 msgid "tank_params/h"
-msgstr "（發）"
+msgstr " (發)"
 
 msgid "tank_params/heatAvgDmgPerLvl"
 msgstr "每個加熱等級的平均傷害"
@@ -6236,10 +6305,10 @@ msgid "tank_params/increaseHealth"
 msgstr "耐久性提升"
 
 msgid "tank_params/invisibilityMovingFactor"
-msgstr "車輛移動時（%）"
+msgstr "車輛移動時 (%)"
 
 msgid "tank_params/invisibilityStillFactor"
-msgstr "靜止車輛（%）"
+msgstr "靜止車輛 (%)"
 
 msgid "tank_params/ionAfterburnerActiveTurboCharge"
 msgstr "離子流後燃器充能 (每秒 %) (渦輪模式，主動)"
@@ -6257,7 +6326,7 @@ msgid "tank_params/ionAfterburnerPassiveTurboCharge"
 msgstr "離子流後燃器充能 (每秒 %) (渦輪模式，被動)"
 
 msgid "tank_params/kg"
-msgstr "（公斤）"
+msgstr " (公斤)"
 
 msgid "tank_params/lowChargeShotAvgDamage"
 msgstr "平均傷害 (血量)"
@@ -6266,7 +6335,7 @@ msgid "tank_params/lowChargeShotBlockDuration"
 msgstr "射擊鎖定持續時間 (秒)"
 
 msgid "tank_params/lowChargeShotDispertion"
-msgstr "100 公尺處擴散度（公尺）"
+msgstr "100 公尺處擴散度 (公尺)"
 
 msgid "tank_params/lowChargeShotPenetration"
 msgstr "平均穿透力 (毫米)"
@@ -6278,7 +6347,7 @@ msgid "tank_params/lowChargeShotVelocity"
 msgstr "砲彈速度 (公尺/秒)"
 
 msgid "tank_params/m"
-msgstr "（公尺）"
+msgstr " (公尺)"
 
 msgid "tank_params/maxAccuracyLevel"
 msgstr "最高準度等級"
@@ -6293,16 +6362,16 @@ msgid "tank_params/maxSteeringLockAngle"
 msgstr "最大車輪轉向角"
 
 msgid "tank_params/mm"
-msgstr "（毫米）"
+msgstr " (毫米)"
 
 msgid "tank_params/movementTraverseDispersionTurbo"
 msgstr "移動時的炮管擴散度 (%) (渦輪模式)"
 
 msgid "tank_params/mph"
-msgstr "（公里/小時）"
+msgstr " (公里/小時)"
 
 msgid "tank_params/mps"
-msgstr "（公尺/秒）"
+msgstr " (公尺/秒)"
 
 msgid "tank_params/no_brackets/kg"
 msgstr "公斤"
@@ -6317,16 +6386,13 @@ msgid "tank_params/overheatDuration"
 msgstr "過熱炮管的降溫時間"
 
 msgid "tank_params/p"
-msgstr "（馬力）"
+msgstr " (馬力)"
 
 msgid "tank_params/param12"
 msgstr "地形越野能力"
 
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "重疊電機觀測鏡充能 (每秒 %) (交戰模式，被動)"
-
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 毫米)"
 
 msgid "tank_params/perActivation"
 msgstr "(每次啟用)"
@@ -6410,10 +6476,10 @@ msgid "tank_params/propellantPreLimitDamageBonus"
 msgstr "超限前最高傷害加成"
 
 msgid "tank_params/pt"
-msgstr "（馬力/噸）"
+msgstr " (馬力/噸)"
 
 msgid "tank_params/qpt"
-msgstr "（可用次數/持續時間）"
+msgstr " (可用次數/持續時間)"
 
 msgid "tank_params/quantity"
 msgstr "(發)"
@@ -6461,16 +6527,16 @@ msgid "tank_params/reverseSpeedReductionWithBoosters"
 msgstr "後退速度降低 (助推器)"
 
 msgid "tank_params/rocketAccelerationEnginePower"
-msgstr "引擎功率（助推器）"
+msgstr "引擎功率 (助推器)"
 
 msgid "tank_params/rocketAccelerationReuseAndDuration"
 msgstr "噴射助推器"
 
 msgid "tank_params/rocketAccelerationSpeedLimits"
-msgstr "最高速度/後退速度（助推器）"
+msgstr "最高速度/後退速度 (助推器)"
 
 msgid "tank_params/s"
-msgstr "（秒）"
+msgstr " (秒)"
 
 msgid "tank_params/secondaryAvgDamage"
 msgstr "每發砲彈平均傷害"
@@ -6484,8 +6550,20 @@ msgstr "輔助武器裝填"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "輔助武器砲彈數"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "調整後砲彈平均傷害 (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "調整後砲彈平均穿透力 (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "彈藥帶裝填"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "切換模式耗時"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 毫米)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "穿透力："
@@ -6496,14 +6574,44 @@ msgstr "100 公尺處擴散度"
 msgid "tank_params/shotSpeed"
 msgstr "砲彈速度"
 
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "樹葉後方移動中與靜止敵方車輛的隱蔽性"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "移動中敵方車輛的隱蔽性"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "初始冷卻時間"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "持續時間"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "冷卻時間"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "炮塔迴轉速度"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "最終掃描寬度"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "初始掃描寬度"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "自身被偵察到的持續時間"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "可視範圍"
+
 msgid "tank_params/speedLimits"
 msgstr "最高速度/後退速度"
 
 msgid "tank_params/spm"
-msgstr "（發/分鐘）"
+msgstr " (發/分鐘)"
 
 msgid "tank_params/sqm"
-msgstr "（平方公尺）"
+msgstr " (平方公尺)"
 
 msgid "tank_params/stagedJetBoostersChargeDuration"
 msgstr "推進器持續時間 (秒)"
@@ -6554,7 +6662,7 @@ msgid "tank_params/switchTime"
 msgstr "切換到攻城模式 / 移動模式"
 
 msgid "tank_params/t"
-msgstr "（噸）"
+msgstr " (噸)"
 
 msgid "tank_params/temperatureAvgDamagePerMinute"
 msgstr "平均每分鐘傷害"
@@ -6578,19 +6686,19 @@ msgid "tank_params/turboSpeedCap"
 msgstr "最高速度/後退速度 (公里/小時) (渦輪模式)"
 
 msgid "tank_params/turboshaftBurstFireRate"
-msgstr "短彈匣（渦輪）"
+msgstr "短彈匣 (渦輪)"
 
 msgid "tank_params/turboshaftEnginePower"
-msgstr "引擎功率（渦輪）"
+msgstr "引擎功率 (渦輪)"
 
 msgid "tank_params/turboshaftInvisibilityMovingFactor"
-msgstr "車輛移動時（渦輪）（%）"
+msgstr "車輛移動時 (渦輪) (%)"
 
 msgid "tank_params/turboshaftInvisibilityStillFactor"
-msgstr "靜止車輛（渦輪）（%）"
+msgstr "靜止車輛 (渦輪) (%)"
 
 msgid "tank_params/turboshaftSpeedModeSpeed"
-msgstr "最高速度/後退速度（渦輪）"
+msgstr "最高速度/後退速度 (渦輪)"
 
 msgid "tank_params/turboshaftSwitchTime"
 msgstr "切換引擎模式耗時"
@@ -6608,16 +6716,16 @@ msgid "tank_params/turretYawLimits"
 msgstr "炮塔迴轉角度"
 
 msgid "tank_params/twinGunReloadTime"
-msgstr "炮管裝填（單發模式/雙管齊射模式）"
+msgstr "炮管裝填 (單發模式/雙管齊射模式)"
 
 msgid "tank_params/twinGunSwitchFireModeTime"
 msgstr "射擊模式切換時間"
 
 msgid "tank_params/twinGunTopSpeed"
-msgstr "最高速度/後退速度（雙管齊射模式）"
+msgstr "最高速度/後退速度 (雙管齊射模式)"
 
 msgid "tank_params/val"
-msgstr "（血量）"
+msgstr " (血量)"
 
 msgid "tank_params/values/param10/value0"
 msgstr "出色的"
@@ -6659,10 +6767,10 @@ msgid "tank_params/vehicleWeight"
 msgstr "重量"
 
 msgid "tank_params/vpm"
-msgstr "（血量/分鐘）"
+msgstr " (血量/分鐘)"
 
 msgid "tank_params/vps"
-msgstr "（血量/秒）"
+msgstr " (血量/秒)"
 
 msgid "tank_params/wheeledDashAbilityDuration"
 msgstr "持續時間 (秒)"
@@ -6686,7 +6794,7 @@ msgid "tank_params/wheeledDashTopSpeed"
 msgstr "最高速度 (%)"
 
 msgid "tank_params/wheeledSpeedModeSpeed"
-msgstr "最高速度/後退速度（高速）"
+msgstr "最高速度/後退速度 (高速)"
 
 msgid "tank_params/wheeledSwitchOffTime"
 msgstr "切換為巡航模式"
@@ -6698,7 +6806,7 @@ msgid "tank_params/wheeledSwitchTime"
 msgstr "切換為高速/巡航模式"
 
 msgid "tank_params/yoh_s_s"
-msgstr "（主要/備用，以秒計）"
+msgstr " (主要/備用，以秒計)"
 
 msgid "tankmanRecruitRenderer/commander"
 msgstr "招募車長"
@@ -7073,16 +7181,16 @@ msgid "vehicleInfo/nationChangeBtn/label"
 msgstr "變更國籍"
 
 msgid "vehicleInfo/params/aimingTime"
-msgstr "瞄準時間（秒）"
+msgstr "瞄準時間 (秒)"
 
 msgid "vehicleInfo/params/autoReloadTime"
-msgstr "自動再裝填一發砲彈的時間（秒）"
+msgstr "自動再裝填一發砲彈的時間 (秒)"
 
 msgid "vehicleInfo/params/autoReloadTimeBoost"
-msgstr "自動再裝填一發砲彈的標準時間（秒）"
+msgstr "自動再裝填一發砲彈的標準時間 (秒)"
 
 msgid "vehicleInfo/params/autoShootClipFireRate"
-msgstr "裝填（彈匣/數量）"
+msgstr "裝填 (彈匣/數量)"
 
 msgid "vehicleInfo/params/avgDamage"
 msgstr "平均每發傷害"
@@ -7091,172 +7199,172 @@ msgid "vehicleInfo/params/avgDamagePerMinute"
 msgstr "平均每分鐘傷害"
 
 msgid "vehicleInfo/params/avgDamagePerSecond"
-msgstr "每秒傷害（血量/秒）"
+msgstr "每秒傷害 (血量/秒)"
 
 msgid "vehicleInfo/params/avgPiercingPower"
 msgstr "平均穿透力"
 
 msgid "vehicleInfo/params/burstFireRate"
-msgstr "短彈匣（秒/數量/數量）"
+msgstr "短彈匣 (秒/數量/數量)"
 
 msgid "vehicleInfo/params/chargeTime"
-msgstr "雙管齊射準備時間（秒）"
+msgstr "雙管齊射準備時間 (秒)"
 
 msgid "vehicleInfo/params/chassisRepairTime"
-msgstr "懸吊修理時間（秒）"
+msgstr "懸吊修理時間 (秒)"
 
 msgid "vehicleInfo/params/chassisRepairTimeYoh"
-msgstr "懸吊修理時間（主要/備用，以秒計）"
+msgstr "懸吊修理時間 (主要/備用，以秒計)"
 
 msgid "vehicleInfo/params/chassisRotationSpeed"
-msgstr "迴轉速度（度/秒）"
+msgstr "迴轉速度 (度/秒)"
 
 msgid "vehicleInfo/params/circularVisionRadius"
-msgstr "可視範圍（公尺）"
+msgstr "可視範圍 (公尺)"
 
 msgid "vehicleInfo/params/clipFireRate"
-msgstr "裝填（彈匣/砲彈或短彈匣/數量）"
+msgstr "裝填 (彈匣/砲彈或短彈匣/數量)"
 
 msgid "vehicleInfo/params/continuousShotsPerMinute"
-msgstr "連續射擊速率（發/分鐘）"
+msgstr "連續射擊速率 (發/分鐘)"
 
 msgid "vehicleInfo/params/dualAccuracyCoolingDelay"
-msgstr "開火後的炮管降溫時間（秒）"
+msgstr "開火後的炮管降溫時間 (秒)"
 
 msgid "vehicleInfo/params/enginePower"
-msgstr "引擎功率（匹馬力）"
+msgstr "引擎功率 (匹馬力)"
 
 msgid "vehicleInfo/params/enginePowerPerTon"
-msgstr "推重比（馬力/噸）"
+msgstr "推重比 (馬力/噸)"
 
 msgid "vehicleInfo/params/gunYawLimits"
-msgstr "炮管迴轉上限（度）"
+msgstr "炮管迴轉上限 (度)"
 
 msgid "vehicleInfo/params/hullArmor"
-msgstr "車身裝甲（前/側/後，毫米）"
+msgstr "車身裝甲 (前/側/後，毫米)"
 
 msgid "vehicleInfo/params/invisibility"
-msgstr "移動/靜止車輛的隱蔽性（%）"
+msgstr "移動/靜止車輛的隱蔽性 (%)"
 
 msgid "vehicleInfo/params/invisibilityMovingFactor"
-msgstr "車輛移動時的隱蔽性（%）"
+msgstr "車輛移動時的隱蔽性 (%)"
 
 msgid "vehicleInfo/params/invisibilityStillFactor"
-msgstr "靜止車輛的隱蔽性（%）"
+msgstr "靜止車輛的隱蔽性 (%)"
 
 msgid "vehicleInfo/params/maxHealth"
-msgstr "耐久性（血量）"
+msgstr "耐久性 (血量)"
 
 msgid "vehicleInfo/params/maxSteeringLockAngle"
-msgstr "最大車輪轉向角（度）"
+msgstr "最大車輪轉向角 (度)"
 
 msgid "vehicleInfo/params/piercingPower"
-msgstr "平均穿透力（毫米）"
+msgstr "平均穿透力 (毫米)"
 
 msgid "vehicleInfo/params/pitchLimits"
-msgstr "炮管俯/仰角（度）"
+msgstr "炮管俯/仰角 (度)"
 
 msgid "vehicleInfo/params/radioDistance"
-msgstr "通訊範圍（公尺）"
+msgstr "通訊範圍 (公尺)"
 
 msgid "vehicleInfo/params/rateTime"
-msgstr "開火後切換至已裝填炮管的所需時間（秒）"
+msgstr "開火後切換至已裝填炮管的所需時間 (秒)"
 
 msgid "vehicleInfo/params/reloadTime"
-msgstr "射擊速率（發/分鐘）"
+msgstr "射擊速率 (發/分鐘)"
 
 msgid "vehicleInfo/params/reloadTimeSecs"
-msgstr "炮管裝填（秒）"
+msgstr "炮管裝填 (秒)"
 
 msgid "vehicleInfo/params/rocketAccelerationEnginePower"
-msgstr "引擎功率（助推器）（匹馬力）"
+msgstr "引擎功率 (助推器) (匹馬力)"
 
 msgid "vehicleInfo/params/rocketAccelerationReuseAndDuration"
-msgstr "噴射助推器（可用次數/持續時間）"
+msgstr "噴射助推器 (可用次數/持續時間)"
 
 msgid "vehicleInfo/params/rocketAccelerationSpeedLimits"
-msgstr "最高速度/後退速度（助推器，公里/小時）"
+msgstr "最高速度/後退速度 (助推器，公里/小時)"
 
 msgid "vehicleInfo/params/shotDispersionAngle"
-msgstr "100 公尺處擴散度（公尺）"
+msgstr "100 公尺處擴散度 (公尺)"
 
 msgid "vehicleInfo/params/shotSpeed"
 msgstr "飛行速度"
 
 msgid "vehicleInfo/params/speedLimits"
-msgstr "最高速度 / 後退速度（公里/小時）"
+msgstr "最高速度 / 後退速度 (公里/小時)"
 
 msgid "vehicleInfo/params/stunMaxDuration"
-msgstr "最高震盪持續時間（秒）"
+msgstr "最高震盪持續時間 (秒)"
 
 msgid "vehicleInfo/params/stunMinDuration"
-msgstr "最低震盪持續時間（秒）"
+msgstr "最低震盪持續時間 (秒)"
 
 msgid "vehicleInfo/params/switchOffTime"
-msgstr "切換到移動模式（秒）"
+msgstr "切換到移動模式 (秒)"
 
 msgid "vehicleInfo/params/switchOnTime"
-msgstr "切換到攻城模式（秒）"
+msgstr "切換到攻城模式 (秒)"
 
 msgid "vehicleInfo/params/switchTime"
-msgstr "切換到攻城模式 / 移動模式（秒）"
+msgstr "切換到攻城模式 / 移動模式 (秒)"
 
 msgid "vehicleInfo/params/temperatureAvgDamagePerMinute"
 msgstr "平均每分鐘傷害"
 
 msgid "vehicleInfo/params/temperatureReloadTime"
-msgstr "射擊速率（發/分鐘）"
+msgstr "射擊速率 (發/分鐘)"
 
 msgid "vehicleInfo/params/turboshaftBurstFireRate"
-msgstr "短彈匣（渦輪）（秒/數量/數量）"
+msgstr "短彈匣 (渦輪) (秒/數量/數量)"
 
 msgid "vehicleInfo/params/turboshaftEnginePower"
-msgstr "引擎功率（渦輪）（匹馬力）"
+msgstr "引擎功率 (渦輪) (匹馬力)"
 
 msgid "vehicleInfo/params/turboshaftInvisibilityMovingFactor"
-msgstr "車輛移動時的隱蔽性（渦輪）（%）"
+msgstr "車輛移動時的隱蔽性 (渦輪) (%)"
 
 msgid "vehicleInfo/params/turboshaftInvisibilityStillFactor"
-msgstr "靜止車輛的隱蔽性（渦輪）（%）"
+msgstr "靜止車輛的隱蔽性 (渦輪) (%)"
 
 msgid "vehicleInfo/params/turboshaftSpeedModeSpeed"
-msgstr "最高時速 / 後退速度（渦輪）（公里/小時）"
+msgstr "最高時速 / 後退速度 (渦輪) (公里/小時)"
 
 msgid "vehicleInfo/params/turboshaftSwitchTime"
-msgstr "切換引擎模式耗時（至渦輪/至標準）（秒）"
+msgstr "切換引擎模式耗時 (至渦輪/至標準) (秒)"
 
 msgid "vehicleInfo/params/turretArmor"
-msgstr "炮塔裝甲（前/側/後，毫米）"
+msgstr "炮塔裝甲 (前/側/後，毫米)"
 
 msgid "vehicleInfo/params/turretRotationSpeed"
-msgstr "炮管迴轉速度（度/秒）"
+msgstr "炮管迴轉速度 (度/秒)"
 
 msgid "vehicleInfo/params/turretYawLimits"
-msgstr "炮塔迴轉角度（度）"
+msgstr "炮塔迴轉角度 (度)"
 
 msgid "vehicleInfo/params/twinGunReloadTime"
-msgstr "炮管裝填（單發模式/雙管齊射模式）（秒）"
+msgstr "炮管裝填 (單發模式/雙管齊射模式) (秒)"
 
 msgid "vehicleInfo/params/twinGunSwitchFireModeTime"
-msgstr "射擊模式切換時間（秒）"
+msgstr "射擊模式切換時間 (秒)"
 
 msgid "vehicleInfo/params/twinGunTopSpeed"
-msgstr "最高速度/後退速度（單發模式/雙管齊射模式）（公里/小時）"
+msgstr "最高速度/後退速度 (單發模式/雙管齊射模式) (公里/小時)"
 
 msgid "vehicleInfo/params/vehicleWeight"
-msgstr "重量（噸）"
+msgstr "重量 (噸)"
 
 msgid "vehicleInfo/params/wheeledSpeedModeSpeed"
-msgstr "最高速度 / 後退速度（高速，公里/小時）"
+msgstr "最高速度 / 後退速度 (高速，公里/小時)"
 
 msgid "vehicleInfo/params/wheeledSwitchOffTime"
-msgstr "切換為巡航模式（秒）"
+msgstr "切換為巡航模式 (秒)"
 
 msgid "vehicleInfo/params/wheeledSwitchOnTime"
-msgstr "切換為高速模式（秒）"
+msgstr "切換為高速模式 (秒)"
 
 msgid "vehicleInfo/params/wheeledSwitchTime"
-msgstr "切換為高速/巡航模式（秒）"
+msgstr "切換為高速/巡航模式 (秒)"
 
 msgid "vehicleInfo/stats/avgExperience"
 msgstr "平均每場經驗"

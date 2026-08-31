@@ -40,6 +40,9 @@ msgstr "วิจัย"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "กู้คืน"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "ไปยังกล่องของขวัญใหญ่"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "ยังไม่ได้วิจัยพาหนะ %(nation)s ระดับ %(level)s"
 
@@ -54,6 +57,15 @@ msgstr "ส่วนลดเมื่อทำการซื้อ:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "ส่วนลดในการวิจัย:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "พาหนะคันนี้อาจจะมอบให้จาก {{@ style (color $color)}}กล่องใหญ่!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "กล่องใหญ่!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "พาหนะนี้อาจจะได้จาก"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "ใช้บัตรส่วนลด: %(value)s"

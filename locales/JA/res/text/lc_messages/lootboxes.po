@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "「ホリデー作戦」の「ボックス」がすべて開封されました。"
-
 msgid "autoOpenView/congratsLabel"
 msgstr "おめでとう!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "大きなボックスをプレミアムショップで購入可能"
 
-msgid "entryDesc/newYear_premium"
-msgstr "大きなボックス"
-
-msgid "entryDesc/newYear_usual"
-msgstr "小さなボックス"
-
-msgid "entryDesc/questSlot"
-msgstr "ミッションを達成すると「小さなボックス」が手に入ります。"
-
 msgid "entryDesc/restrictedMode"
 msgstr "こちらの機能は一時停止中です。時間をおいて再度お試しください。"
 
 msgid "entryPoint/header"
-msgstr "ボックス"
-
-msgid "entryTooltip/body/h1"
-msgstr "大きなボックスの入手方法"
-
-msgid "entryTooltip/body/h2"
-msgstr "小さなボックスの入手方法"
-
-msgid "entryTooltip/body/p1"
-msgstr "プレミアムショップで自分やフレンド用にニューイヤーデコレーション入りのボックスを購入しましょう。"
-
-msgid "entryTooltip/body/p2"
-msgstr "「ホリデー作戦」の特別ミッションを達成すると手に入ります。"
-
-msgid "entryTooltip/header"
 msgstr "ボックス"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "もう {count} 個のボックス"
 msgid "entryView/buyLabel"
 msgstr "ボックス購入"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "倉庫内に大きなボックスがありません。\nプレミアムショップでさらに購入できます。"
-
-msgid "entryView/ended/newYear_usual"
-msgstr "小さなボックスがありません。\n戦闘を行うとさらに入手できます。"
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "ホリデー作戦 {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "了解！"
@@ -178,9 +139,6 @@ msgstr "ボックスの開封"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "追加"
 
-msgid "notification/ny19man"
-msgstr "特別搭乗員: %(count)s"
-
 msgid "notification/rewards"
 msgstr "次の報酬を取得:"
 
@@ -244,36 +202,6 @@ msgstr "特別スタイル: "
 msgid "specialReward/vehicle/goToBtn"
 msgstr "ガレージで表示"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "クリスマスボックス"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "マジックボックス"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "ニューイヤーボックス"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "春節ボックス"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "クリスマス・コレクション"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "マジック・コレクション"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "ニューイヤーコレクション"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "春節コレクション"
-
-msgid "tooltip/category/rewards/description"
-msgstr "「{category}」に含まれる「デコレーション」やその他の貴重な報酬がドロップする可能性のあるボックスです。"
-
-msgid "tooltip/category/rewards/header"
-msgstr "報酬:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "プレミアムショップで追加のボックスを購入できます。"
 
@@ -285,12 +213,6 @@ msgstr "こちらの操作は一時的に実行できません。時間をおい
 
 msgid "type/event_premium"
 msgstr "サンライズ・サプライボックス"
-
-msgid "type/newYear_premium"
-msgstr "大きなボックス"
-
-msgid "type/newYear_usual"
-msgstr "小さなボックス"
 
 msgid "type/wt_boss"
 msgstr "エンジニア・スターター"

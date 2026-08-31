@@ -205,6 +205,9 @@ msgstr "Ambassador"
 msgid "Chassis_S39_Strv_m31"
 msgstr "Strv m/31"
 
+msgid "Chassis_S41_BV_111"
+msgstr "BV-111"
+
 msgid "DB_605"
 msgstr "DB 605"
 
@@ -267,6 +270,9 @@ msgstr "Ra 105"
 
 msgid "Ra_121"
 msgstr "Ra 121"
+
+msgid "Ra_122"
+msgstr "Ra 122"
 
 msgid "Ra_122_Ambassador"
 msgstr "Ra 122 (Ambassador)"
@@ -766,6 +772,18 @@ msgstr "Strv m/31"
 msgid "S39_Strv_m31_short_special"
 msgstr "射撃精度の高い主砲と高い機動性"
 
+msgid "S41_BV_111"
+msgstr "BV-111"
+
+msgid "S41_BV_111_descr"
+msgstr "1970年代初頭、スウェーデン国防装備庁 (FMV) は、低い車高、旋回式砲塔、スウェーデンの開発に基づく装填システム、そして将来有望な12 cm högtrycksstrvkan L/40砲を組み合わせた砲塔搭載戦車を製造する可能性を研究した。この計画には「Projekt BV-111」という開発名が与えられた。しかし、本車輌は試作車輌「Leopard 2AV」と比較して軽量すぎると見なされ、開発は無期限に延期された。その後スウェーデンが「Leopard 2」(Strv 121/122) を購入したことで、本計画は最終的に中止された。"
+
+msgid "S41_BV_111_long_special"
+msgstr "「BV-111」は外付け給弾モジュールを有効活用し、必要に応じて高威力の砲弾を装填できる。その他の特徴は、油気圧サスペンション、非常に鋭い装甲の傾斜角、低い車高など、スウェーデン車輌にお馴染みのものとなっている。"
+
+msgid "S41_BV_111_short"
+msgstr "BV-111"
+
 msgid "SFA_8_cyl_boxer"
 msgstr "SFA 8 cyl boxer"
 
@@ -934,6 +952,9 @@ msgstr "Ambassador"
 msgid "Turret_1_S39_Strv_m31"
 msgstr "Strv m/31"
 
+msgid "Turret_1_S41_BV_111"
+msgstr "BV-111"
+
 msgid "Turret_2_S02_Strv_M42"
 msgstr "Strv m/42"
 
@@ -972,6 +993,9 @@ msgstr "Volvo DC"
 
 msgid "Volvo_FE"
 msgstr "Volvo FE"
+
+msgid "Volvo_SFA_12B"
+msgstr "Volvo SFA 12B"
 
 msgid "Volvo_SFA_12_Ambassador"
 msgstr "Volvo SFA 12 (Ambassador)"
@@ -1336,6 +1360,9 @@ msgstr "psgr m/60"
 msgid "_120mm_psgr_m_ny"
 msgstr "psgr m/ny"
 
+msgid "_120mm_psgr_m_ny_hog_laddning"
+msgstr "psgr m/ny hög laddning"
+
 msgid "_120mm_sgr_b_51"
 msgstr "slpprj b/51"
 
@@ -1350,6 +1377,9 @@ msgstr "sgr m/60"
 
 msgid "_120mm_sgr_m_ny"
 msgstr "sgr m/ny"
+
+msgid "_120mm_sgr_m_ny_ord"
+msgstr "sgr m/ny ord"
 
 msgid "_120mm_slpprj_b"
 msgstr "slpprj b/68"
@@ -1369,8 +1399,14 @@ msgstr "slpprj m/60"
 msgid "_120mm_slpprj_m_ny"
 msgstr "slpprj m/ny"
 
+msgid "_120mm_slpprj_m_ny_hog_laddning"
+msgstr "slpprj m/ny hög laddning"
+
 msgid "_120mm_strvkan_L_40"
 msgstr "12 cm strvkan L/40"
+
+msgid "_12_cm_hogtrycksstrvkan_L_40"
+msgstr "12 cm högtrycksstrvkan L/40"
 
 msgid "_1_W_Sv"
 msgstr "1 W Sv"

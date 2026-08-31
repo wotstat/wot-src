@@ -451,6 +451,9 @@ msgstr "Jagdpanzer IV 0-Serie"
 msgid "Chassis_G17_JagdPzIV_2"
 msgstr "Jagdpanzer IV"
 
+msgid "Chassis_G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
 msgid "Chassis_G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -481,8 +484,32 @@ msgstr "Jagdpanther verstärkteketten"
 msgid "Chassis_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
+msgid "Chassis_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 54"
+
+msgid "Chassis_G193_Pz_Kpfw_55_2"
+msgstr "Pz.Kpfw. 55"
+
+msgid "Chassis_G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "Chassis_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 56"
+
+msgid "Chassis_G196_Versuchspanzer_57_2"
+msgstr "Versuchspanzer 57"
+
+msgid "Chassis_G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "Chassis_G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
 msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
+
+msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P)"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -593,6 +620,9 @@ msgid "Chassis_G55_E-75_2"
 msgstr "E 75 verstärkteketten"
 
 msgid "Chassis_G56_E-100"
+msgstr "E 100"
+
+msgid "Chassis_G56_E-100_7x7"
 msgstr "E 100"
 
 msgid "Chassis_G57_PzVI_Tiger_P"
@@ -907,6 +937,12 @@ msgstr "Daimler Benz MB 880 Ea-500"
 msgid "Daimler_Benz_MB_8V837_Ba"
 msgstr "Daimler–Benz MB 8V837 Ba"
 
+msgid "Daimler_Benz_V12_56"
+msgstr "Daimler-Benz V12 56"
+
+msgid "Daimler_Benz_V12_57"
+msgstr "Daimler-Benz V12 57"
+
 msgid "DickerMax"
 msgstr "Dicker Max"
 
@@ -1027,6 +1063,9 @@ msgstr "Fu 8"
 msgid "FuG8f"
 msgstr "FuG 8 (f)"
 
+msgid "FuG_7_45_01"
+msgstr "FuG 7 (45.01)"
+
 msgid "FuG_7_F"
 msgstr "FuG 7 (F)"
 
@@ -1044,6 +1083,12 @@ msgstr "Fu.Spr.Ger. \"a\""
 
 msgid "Fu_12"
 msgstr "Fu 12"
+
+msgid "Fu_55"
+msgstr "Fu. 55"
+
+msgid "Fu_57"
+msgstr "Fu. 57"
 
 msgid "Fu_7S"
 msgstr "Fu 7S"
@@ -2155,6 +2200,21 @@ msgstr "รถถังกลาง Pz. IV เป็นฐานให้กั�
 msgid "G17_JagdPzIV_short"
 msgstr "Jg.Pz. IV"
 
+msgid "G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
+msgid "G183_Fossa_VM_68_descr"
+msgstr "Radpanzer Versuchsmuster 68 Fossa นั้นเป็นโครงการรถถังล้อพัฒนาโดยเยอรมนีตะวันตกในปลายทศวรรษ 1960 การออกแบบนั้นกำหนดให้เป็นยานเกราะเร็วที่มีอาวุธดีสำหรับการลาดตระเวนและต่อสู้ยานเกราะข้าศึก ยานเกราะคันนี้น่าจะมีเครื่องยนต์วางลูกสูบสองแถวตัววีติดตั้งในตัวถังล้อแบบ 8 x 8 และมีระบบช่วงล่างเป็นอิสระทำให้หมุนตัวได้แบบรถถัง ปืน 105 มม.พร้อมปลอกลดเสียงได้รับการพิจารณาให้ติดตั้งบนยานเกราะแต่ก็พบข้อเสียร้ายแรงในช่วงเริ่มการออกแบบเพราะการจัดวางอุปกรณ์ที่แน่นภายในยานเกราะทำให้การซ่อมบำรุงและซ่อมแซมนั้นยากกว่าเดิมอีกทั้งมีขนาดถังเชื้อเพลิงไม่เพียงพอและมีรางกระสุนขนาดเล็กรวมไปถึงศูนย์ถ่วงที่สูงซึ่งลดความเสถียรระหว่างหมุนตัวและระหว่างการยิง โครงการนี้ถูกปิดตัวลงก่อนที่จะมีการสร้างรถต้นแบบขึ้น"
+
+msgid "G183_Fossa_VM_68_long_special"
+msgstr "Radpanzer Versuchsmuster 68 Fossa นั้นเป็นรถถังกลางล้อซุ่มยิงเยอรมันระดับ X ที่รวมความคล่องตัวชั้นยอดที่มาจากตัวถังล้อและเครื่องยนต์ที่ทรงพลังและปืนที่แม่นยำอย่างมาก ค่าคุณลักษณะเหล่านี้ทำให้ยานเกราะสามารถแทรกซึมเข้าแนวข้าศึกและทำการโจมตีจากมุมที่ไม่คาดคิดได้"
+
+msgid "G183_Fossa_VM_68_short"
+msgstr "Fossa VM 68"
+
+msgid "G183_Fossa_VM_68_short_special"
+msgstr "ความคล่องตัวที่ยอดเยี่ยม, ปืนที่แม่นยำ"
+
 msgid "G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -2269,6 +2329,60 @@ msgstr "StuG III Kaba"
 msgid "G191_StuG_IIIF_CFE_A_short_special"
 msgstr "ความคล่องตัวดีกับอัตราการยิงที่สูง"
 
+msgid "G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 55"
+
+msgid "G193_Pz_Kpfw_55_descr"
+msgstr "ในช่วงท้ายสงครามโลกครั้งที่สอง ทางเยอรมนีมีความต้องการรถถังหนักยุคใหม่ที่มีปืนที่ทรงพลังกว่าเดิมเพื่อต่อสู้กับยาเนกราะใหม่ของสัมพันธมิตรที่ปืนของรถถังผลิตจำนวนมากไม่สามารถทำความเสียหายได้อย่างแน่นอน เพื่อเป็นการเสริมประสิทธิภาพปืนที่มีอยู่เดิมโดยไม่ต้องพัฒนาปืนรุ่นใหม่ขึ้น ทางวิศวกรก็ได้เสนอทำการใช้ห้องดินขับเสริม โครงการดังกล่าวเป็นของรถถัง Panzerkampfwagen 55 Adler อย่างไรก็ตามแม้ว่าจะมีการทดลองกับปืนห้องดินขับเสริมและมีการใช้รวมกับยานเกราะหนักก็ไม่สามารถทำให้โครงการได้พัฒนาต่อ วงการอุตสาหกรรมที่รับภาระงานมากเกินไปและการแพ้ของเยอรมนีทำให้โครงการนี้หยุดลงในช่วงการร่างแบบพิมพ์เขียวเท่านั้น"
+
+msgid "G193_Pz_Kpfw_55_short"
+msgstr "Pz. 55"
+
+msgid "G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "G195_HWK_40_descr"
+msgstr "โครงการรถถังหนักจากปลายทศวรรษ 1960 ที่มุ่งหมายให้รุ่นหนักกว่าที่มีการป้องกันและอำนาจการยิงที่ดีกว่าของรถถังหลักนิยม Leopard 1 โดยยังมีการปรับแต่งแบบเดิม รถถังคันนี้รวมแนวการออกแบบตามธรรมเนียมและองค์ประกอบใหม่เข้าด้วยกันคือ ระบบการปรับเสถียรพัฒนาใหม่, ระบบส่งกำลังรุ่นล่าสุดและชุดเกราะรุ่นทดลอง การพัฒนาเริ่มขึ้นตั้งแต่ 1967 ถึง 1971 โดยมีการสร้างแบบจำลองขนาดเต็มขึ้นมา อย่างไรก็ตามด้วยหลายสาเหตุ (โดยหลักมาจากการที่น้ำหนักที่มากของรถถังไม่ตรงกับแนวหลักนิยมของกองทัพบกเยอรมันที่ต้องการกองรบที่คล่องตัว) ทำให้โครงการไม่ได้ทำการพัฒนาต่อ แต่กระนั้นเอง แนวการออกแบบทางเทคนิคหลายอย่างก็ถูกใช้ต่อมาในการวิจัยที่นำไปสู่รถถังของรุ่นถัดไปซึ่งรวมไปถึง Leopard 2"
+
+msgid "G195_HWK_40_long_special"
+msgstr "HWK 40 นั้นเป็นรถถังหนักเยอรมันระดับ IX ที่สามารถปฏิบัติงานได้หลากหลายจากคุณลักษณะที่ดีของรถถังเองเช่นความคล่องตัวที่ดี, ปืนที่ใช้งานได้สะดวกและเกราะที่ดีพอตัว ส่วนผสมนี้ยังถูกเสริมด้วยระบบที่ทำให้คุณสามารถปรับคุณลักษณะของกระสุนได้เมื่อจำเป็น"
+
+msgid "G195_HWK_40_short"
+msgstr "HWK 40"
+
+msgid "G195_HWK_40_short_special"
+msgstr "ความคล่องตัวดี, ปืนที่ควบคุมได้ง่าย"
+
+msgid "G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 57"
+
+msgid "G196_Versuchspanzer_57_descr"
+msgstr "ในช่วงทศวรรษ 1950 มีการเริ่มพัฒนาโครงการ Versuchpanzer 57 ที่เยอรมนี เหล่าวิศวกรของกองทัพบกเยอรมันได้ยืมแนวการออกแบบของยานเกราะรุ่นก่อนหน้าโดยมีแผนที่จะทดสอบปืนที่มีห้องดินขับเสริมซึ่งพัฒนาขึ้นในช่วงสงครามโลกกับรถถังคันนี้ อย่างไรก็ตาม การพัฒนาเผชิญกับปัญหาใหญ่ซึ่งก็คือวงการอุตสาหกรรมเพิ่มจะคืนสภาพจากสงครามและการนำรถถัง M47 ของสหรัฐฯเข้าประจำการกองทัพทำให้ฝ่ายเสนาธิการของกองทัพเลือกที่ลดการใช้ทรัพยากรกับการพัฒนารถถังของตัวเองขึ้น ทั้งหมดนี้ก็เป็นผลให้โครงการถูกพักการพัฒนาชั่วคราว เมื่อมีการพัฒนารถถังยุโรปรวมขึ้นมา โครงการนี้ก็ถูกปิดตัวอย่างถาวร"
+
+msgid "G196_Versuchspanzer_57_short"
+msgstr "VPz 57"
+
+msgid "G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "G197_Pz_Kpfw_Neu_descr"
+msgstr "โครงการ Panzerkampfwagen Neu-70/120 นั้นเป็นความพยายามพัฒนาเพื่อหารถถังมาแทนที่รถถัง Leopard 1 และมุ่งหมายไม่ได้ให้เป็นเพียงยานรบคั่นกลางแต่ยังเป็นตัวเลือกทางวิทยาการที่โดดเด่นสำหรับรถถังรบหลักยุคต่อไป รถถังนี้ก็ควรจะมีตัวถังและป้อมปืนเชื่อมเข้าด้วยกันและมีการมุ่งเป้าในการเพิ่มโอกาสการยิงเข้าเป้าหมายในนัดแรกด้วยการใช้ระบบควบคุมการยิงรุ่นก้าวหน้า รุ่นนี้เองก็ถือเป็นรถถังรุ่นแรกที่องค์กรออกแบบรถถังเยอรมันได้พิจารณาการใช้ปืนใหญ่ 120 มม.ที่มีกระสุนตั้งเวลาระเบิดระยะไกลที่ทำให้สามารถทำความเสียหายเป้าหมายที่อยู่หลังที่กำบังได้อย่างมีประสิทธิภาพ อย่างไรก็ตาม การวิเคราะห์ของโครงการก็ได้แสดงให้เห็นปัญหาหลายอย่างเช่น ตัวถังและป้อมปืนมีน้ำหนักสูงเกินไป, ราคาที่สูงและความเป็นไปได้ในการปรับให้ทันสมัยที่ต่ำ นอกจากนี้ ก็มีโครงการที่มีความสมดุลอยู่แล้วซึ่งก็คือ Leopard 2 ทำให้การพัฒนาถูกเห็นว่าไม่มีโอกาสพัฒนาต่อและทำให้ถูกปิดตัวลง"
+
+msgid "G197_Pz_Kpfw_Neu_long_special"
+msgstr "Pz.Kpfw. Neu นั้นออกแบบมาสำหรับความอเนกประสงค์ขั้นสูงสุดและการปรับตัวตามสถานการณ์มากกว่าความยอดเยี่ยมในคุณลักษณะใดคุณลักษณะหนึ่ง นอกเหนือไปจากเกราะที่ทนทาน, ความคล่องตัวที่ดีและปืนที่ควบคุมได้สบายแล้ว ปืนยังมีระบบตั้งโปรแกรมชนวนกระสุนและห้องดินขับเสริมทำให้สามารถปรับคุณลักษณะของกระสุนและปรับการเจาะเกราะได้ด้วย"
+
+msgid "G197_Pz_Kpfw_Neu_short"
+msgstr "Pz. Neu"
+
+msgid "G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
+msgid "G198_Kampfpanzer_67_descr"
+msgstr "ในทศวรรษ 1960 ที่ยังมีการพัฒนาชุดโครงการรถถังที่มีระบบเสริมอำนาจการยิงแบบทดลองกำลังดำเนินอยู่ ทางองค์กรกลางวิทยาการทหารและการจัดหาก็ได้ทำการพิจารณาโครงการยานเกราะหนัก Kampfpanzer 67 ซึ่งมีการกำหนดให้ใช้ระบบตั้งโปรแกรมชนวนกระสุนและมีห้องดินขับเสริมหรือแม้กระทั่วรวมทั้งสองระบบเข้าด้วยกัน ห้องดินขับเสริมนั้นเป็นวิทยาการที่มีการพัฒนามากว่าหนึ่งทศวรรษแล้วและระบบตั้งโปรแกรมชนวนก็ถูกพิจารณาว่าเป็นแนวการพัฒนาที่น่าสนใจ อย่างไรก็ตาม การเปิดตัวของอาวุธต่อสู้รถถังใหม่และค่าการพัฒนาที่สูงเมื่อเทียบกับ Leopard 1 นั้นก็ทำให้โครงการต้องปิดตัวลงในช่วงเริ่มต้นได้ไม่นาน"
+
+msgid "G198_Kampfpanzer_67_short"
+msgstr "KPz 67"
+
 msgid "G200_Chi_Go"
 msgstr "Chi-Go"
 
@@ -2283,6 +2397,21 @@ msgstr "Chi-Go"
 
 msgid "G200_Chi_Go_short_special"
 msgstr "ป้อมปืนมีเกราะใช้ได้, ความเสียหายต่อนัดสูง"
+
+msgid "G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P)"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_descr"
+msgstr "?empty?"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
+msgstr "VK 45.01 (P) เป็นรถถังหนักเยอรมันระดับ VI ที่มีเกราะหน้าทนทานสามารถต้านทานกระสุนปกติจากรถถังกลางและรถถังหนักระดับเดียวกันได้อย่างดี ปืนของมันมีความเสียหายต่อนาทีที่ดีอีกทั้งยังเจาะเกราะได้ดีและมีความเสียหายต่อนัดสูง แม้ว่าจะช้า รถถังคันนี้ก็มีระบบเฉพาะที่เพิ่มความคล่องตัวชั่วคราวทำให้มันเร่งความเร็วสูงสุดได้รวดเร็ว"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_short"
+msgstr "VK 45.01 (P)"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
+msgstr "เกราะหน้าทนทาน, ระบบปรับปรุงความคล่องตัว"
 
 msgid "G20_Marder_II"
 msgstr "Marder II"
@@ -2475,6 +2604,15 @@ msgstr "E 75"
 
 msgid "G56_E-100"
 msgstr "E 100"
+
+msgid "G56_E-100_7x7"
+msgstr "E 100 7x7"
+
+msgid "G56_E-100_7x7_descr"
+msgstr "ในเดือนมิถุนายน 1943 บริษัท Adlerwerke ได้รับคำสั่งให้พัฒนารถถัง E 100 แต่ในคริสตศักราช 1944 การพัฒนาก็ได้หยุดลง เมื่อจบสงครามก็มีเพียงส่วนตัวถังรถเท่านั้นที่เสร็จสมบูรณ์ และถูกยึดโดยกองทัพบกสหราชอาณาจักร"
+
+msgid "G56_E-100_7x7_short"
+msgstr "E 100 7x7"
 
 msgid "G56_E-100_descr"
 msgstr "ในเดือนมิถุนายน 1943 บริษัท Adlerwerke ได้รับคำสั่งให้พัฒนารถถัง E 100 แต่ในคริสตศักราช 1944 การพัฒนาก็ได้หยุดลง เมื่อจบสงครามก็มีเพียงส่วนตัวถังรถเท่านั้นที่เสร็จสมบูรณ์ และถูกยึดโดยกองทัพบกสหราชอาณาจักร"
@@ -2812,6 +2950,12 @@ msgstr "Pz.Kpfw. 38H 735 (f)"
 msgid "Hall_Scott_V12_RKW"
 msgstr "Hall-Scott V12 RKW"
 
+msgid "Hall_Scott_V12_VM_68"
+msgstr "Hall-Scott V12 VM 68"
+
+msgid "Henschel_MAN_V12_67"
+msgstr "Henschel-MAN V12 67"
+
 msgid "Hetzer"
 msgstr "Jagdpanzer 38(t) Hetzer"
 
@@ -2934,6 +3078,18 @@ msgstr "ปืนที่แม่นยำและเจาะเกราะ
 
 msgid "MAN_D2840_LXE"
 msgstr "MAN D2840 LXE"
+
+msgid "MAN_H_40"
+msgstr "MAN H 40"
+
+msgid "MAN_Mehrstoff_Hochleistungsdiesel_70N"
+msgstr "MAN Mehrstoff-Hochleistungsdiesel 70N"
+
+msgid "MAN_V12_D_54"
+msgstr "MAN V12 D 54"
+
+msgid "MAN_V12_D_55"
+msgstr "MAN V12 D 55"
 
 msgid "MB-503"
 msgstr "Daimler-Benz MB 503"
@@ -3556,6 +3712,9 @@ msgstr "Maybach Neues Projekt 90"
 msgid "Maybach_Neues_Projekt_E_100"
 msgstr "Maybach Neues Projekt (E 100)"
 
+msgid "Maybach_Neues_Projekt_E_100_7x7"
+msgstr "Maybach Neues Projekt (E 100)"
+
 msgid "Maybach_Neues_Projekt_E_100_short"
 msgstr "Maybach Neues Projekt (E 100)"
 
@@ -3657,6 +3816,9 @@ msgstr "2x Porsche Typ 100/P"
 
 msgid "Porsche_Typ_101_1_x2"
 msgstr "2 x Porsche Typ 101/1"
+
+msgid "Porsche_Typ_101_45_01"
+msgstr "2x Porsche Typ 101 (45.01)"
 
 msgid "Porsche_Typ_101_P"
 msgstr "2x Porsche Typ 101/P"
@@ -4048,6 +4210,15 @@ msgstr "Pz. S35"
 msgid "S35_captured_short_special"
 msgstr "อัตราการยิงที่สูงและการวางเกราะที่ดี"
 
+msgid "SEL_Bordfunkanlage_Neu"
+msgstr "SEL Bordfunkanlage Neu"
+
+msgid "SEL_Panzerfunkanlage_67"
+msgstr "SEL Panzerfunkanlage 67"
+
+msgid "SEL_Panzerfunkanlage_69A"
+msgstr "SEL Panzerfunkanlage 69A"
+
 msgid "SEM25"
 msgstr "SEM 25"
 
@@ -4092,6 +4263,9 @@ msgstr "SEM 25 Funkgerät"
 
 msgid "SEM_25_funkgerat_RKW"
 msgstr "SEM 25 Funkgerät RKW"
+
+msgid "SEM_25_funkgerat_VM_68"
+msgstr "SEM 25 Funkgerät VM 68"
 
 msgid "SPA_19TB_mod_43_german"
 msgstr "SPA 19TBM42"
@@ -4465,6 +4639,9 @@ msgstr "Straussler V–4/40"
 msgid "Turret_1_G17_JagdPzIV"
 msgstr "Jagdpanzer IV"
 
+msgid "Turret_1_G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
 msgid "Turret_1_G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -4492,8 +4669,26 @@ msgstr "Jagdpanther"
 msgid "Turret_1_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
+msgid "Turret_1_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 54"
+
+msgid "Turret_1_G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "Turret_1_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 56"
+
+msgid "Turret_1_G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "Turret_1_G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
 msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
+
+msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P) Turm"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4753,6 +4948,12 @@ msgstr "Tiger II Serienturm"
 msgid "Turret_2_G16_PzVIB_Tiger_II_short"
 msgstr "Tiger II\nSerienturm"
 
+msgid "Turret_2_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 55"
+
+msgid "Turret_2_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 57"
+
 msgid "Turret_2_G24_VK3002DB"
 msgstr "VK 30.02 (D) Schmalturm"
 
@@ -4772,6 +4973,9 @@ msgid "Turret_2_G55_E-75"
 msgstr "E 75 Ausf. B"
 
 msgid "Turret_2_G56_E-100"
+msgstr "E 100"
+
+msgid "Turret_2_G56_E-100_7x7"
 msgstr "E 100"
 
 msgid "Turret_2_G57_PzVI_Tiger_P"
@@ -4978,6 +5182,9 @@ msgstr "DM11 Kurz"
 msgid "_105mm_DM11_RKW"
 msgstr "DM11 RKW"
 
+msgid "_105mm_DM11_VM_68"
+msgstr "DM11 VM 68"
+
 msgid "_105mm_DM12"
 msgstr "DM12"
 
@@ -4989,6 +5196,9 @@ msgstr "DM12 Kurz"
 
 msgid "_105mm_DM12_RKW"
 msgstr "DM12 RKW"
+
+msgid "_105mm_DM12_VM_68"
+msgstr "DM12 VM 68"
 
 msgid "_105mm_DM13"
 msgstr "DM13"
@@ -5010,6 +5220,9 @@ msgstr "DM13 Kurz"
 
 msgid "_105mm_DM13_RKW"
 msgstr "DM13 RKW"
+
+msgid "_105mm_DM13_VM_68"
+msgstr "DM13 VM 68"
 
 msgid "_105mm_DM23"
 msgstr "DM23"
@@ -5082,6 +5295,9 @@ msgstr "10,5 cm Kanone 18"
 
 msgid "_105mm_Kanone_L7_RKW"
 msgstr "105 mm Kanone L7 RKW"
+
+msgid "_105mm_Kanone_L7_VM_68"
+msgstr "105 mm Kanone L7 VM 68"
 
 msgid "_105mm_KwK45_L52_N"
 msgstr "10.5 cm Kw.K. L/52 Ausf. B"
@@ -5269,6 +5485,9 @@ msgstr "Sprgr. 18 K"
 msgid "_105mm_Sprgr_45"
 msgstr "Sprgr. 45"
 
+msgid "_105mm_Sprgr_55"
+msgstr "Sprgr. 55"
+
 msgid "_105mm_Sprgr_E"
 msgstr "Sprgr. E"
 
@@ -5311,6 +5530,9 @@ msgstr "10,5 cm Panzerkanone L7A3"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_10WSc_7x7_0"
+msgstr "10WSc"
+
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
 
@@ -5326,8 +5548,50 @@ msgstr "10WSc"
 msgid "_10_5_cm_Bordkanone_L7W"
 msgstr "10,5 cm Bordkanone L7W"
 
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_56_mit_Zusatzkammern"
+msgstr "10,5 cm Hochdruck-Panzerkanone Muster 56 mit Zusatzkammern"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_56_mit_Zusatzkammern_short"
+msgstr "10,5 cm H.Pz.K. 56 mit ZK"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_57_mit_Zusatzkammern"
+msgstr "10,5 cm Hochdruck-Panzerkanone Muster 57 mit Zusatzkammern"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_57_mit_Zusatzkammern_short"
+msgstr "10,5 cm H.Pz.K. 57 mit ZK"
+
 msgid "_10_5_cm_Pak_L_52_JP"
 msgstr "10,5 cm Pak L/52 (JP)"
+
+msgid "_10_5_cm_Panzerkanone_Muster_55_mit_Zusatzkammern"
+msgstr "10,5 cm Panzerkanone Muster 55 mit Zusatzkammern"
+
+msgid "_10_5_cm_Panzerkanone_Muster_55_mit_Zusatzkammern_short"
+msgstr "10,5 cm Pz.K. 55 mit ZK"
+
+msgid "_10_5_cm_Pzgr_55_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_55_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_56_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 56 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_56_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 56 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_57_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 57 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_57_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 57 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Sprgr_56"
+msgstr "Sprgr. 56"
+
+msgid "_10_5_cm_Sprgr_57"
+msgstr "Sprgr. 57"
 
 msgid "_10_5_cm_Stu_H_42_L_28_B"
 msgstr "10,5 cm Stu.H. 42 L/28 (B)"
@@ -5359,8 +5623,53 @@ msgstr "114 hkr 42/A-18/24-38 is 32-18/24"
 msgid "_114mm_hkr_42_C_18_24_38_is_32_18_24"
 msgstr "114 hkr 42/C-18/24-38 is 32-18/24"
 
+msgid "_11_cm_Hl_Gr_67_mit_mundungsgestelltem_Zunder"
+msgstr "Hl.Gr. 67 mit mündungsgestelltem Zünder"
+
+msgid "_11_cm_Hl_Gr_69_mit_mundungsgestelltem_Zunder"
+msgstr "Hl.Gr. 69 mit mündungsgestelltem Zünder"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_67_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "11 cm Hochdruck-Panzerkanone Muster 67 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_67_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "11 cm H.Pz.K. 67 mit ZK M u. ZG"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_69_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "11 cm Hochdruck-Panzerkanone Muster 69 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_69_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "11 cm H.Pz.K. 69 mit ZK M u. ZG"
+
+msgid "_11_cm_Pzgr_67_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 67 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_11_cm_Pzgr_69_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 69 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_11_cm_Sprgr_67"
+msgstr "Sprgr. 67"
+
+msgid "_11_cm_Sprgr_69"
+msgstr "Sprgr. 69"
+
+msgid "_120_mm_Glattrohr_Panzerkanone_Muster_70_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "120 mm Glattrohr-Panzerkanone Muster 70 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_120_mm_Glattrohr_Panzerkanone_Muster_70_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "120 mm G.Pz.K. 70 mit ZK M u. ZG"
+
+msgid "_120_mm_Hartkern_Wuchtgeschoss_70_fur_Zusatzkammerbetrieb"
+msgstr "Hartkern-Wuchtgeschoss 70 für Zusatzkammerbetrieb"
+
+msgid "_120_mm_Mehrzweck_Hl_Gr_70_mit_mundungsgestelltem_Zunder"
+msgstr "Mehrzweck-Hl.Gr. 70 mit mündungsgestelltem Zünder"
+
 msgid "_120_mm_Rh2B"
 msgstr "12 cm Panzerkanone Rh2B"
+
+msgid "_120_mm_Sprgr_70"
+msgstr "Sprgr. 70"
 
 msgid "_120mm_APDS_DM14"
 msgstr "DM14"
@@ -5491,6 +5800,9 @@ msgstr "12,8 cm Kw.K. 44 L/55 (180B)"
 msgid "_128mm_Kw_K_44_L_55_Ausf_E"
 msgstr "12.8 cm Kw.K. 44 L/55 Ausf. E"
 
+msgid "_128mm_Kw_K_44_L_55_Ausf_E_7x7"
+msgstr "12.8 cm Kw.K. 44 L/55 Ausf. E"
+
 msgid "_128mm_Kw_K_L_50"
 msgstr "12,8 cm Kw.K. L/50"
 
@@ -5599,6 +5911,9 @@ msgstr "Pzgr. 39 (180B)"
 msgid "_128mm_Pzgr_39_E"
 msgstr "Pzgr. 39 E"
 
+msgid "_128mm_Pzgr_39_E_7x7"
+msgstr "Pzgr. 39 E"
+
 msgid "_128mm_Pzgr_39_F"
 msgstr "Pzgr. 39 (F)"
 
@@ -5633,6 +5948,9 @@ msgid "_128mm_Pzgr_40_180B"
 msgstr "Pzgr. 40 (180B)"
 
 msgid "_128mm_Pzgr_40_E"
+msgstr "Pzgr. 40 E"
+
+msgid "_128mm_Pzgr_40_E_7x7"
 msgstr "Pzgr. 40 E"
 
 msgid "_128mm_Pzgr_40_F"
@@ -5705,6 +6023,9 @@ msgid "_128mm_Sprgr_18_180B"
 msgstr "Sprgr. 18 (180B)"
 
 msgid "_128mm_Sprgr_18_E"
+msgstr "Sprgr. 18 E"
+
+msgid "_128mm_Sprgr_18_E_7x7"
 msgstr "Sprgr. 18 E"
 
 msgid "_128mm_Sprgr_18_F"
@@ -6796,6 +7117,9 @@ msgstr "8,8 cm Flak 41 L/74"
 msgid "_88mm_KwK_36_L56A"
 msgstr "8,8 cm Kw.K. 36 L/56"
 
+msgid "_88mm_KwK_36_L_56_45_01"
+msgstr "8,8 cm KwK 36 L/56 (45.01)"
+
 msgid "_88mm_KwK_43_L71"
 msgstr "8,8 cm Kw.K. 43 L/71"
 
@@ -6961,6 +7285,9 @@ msgstr "Pzgr. 39/43 Typ 101"
 msgid "_88mm_Pzgr_39_43_ZK"
 msgstr "Pzgr. 39/43 ZK"
 
+msgid "_88mm_Pzgr_39_45_01"
+msgstr "Pzgr. 39 (45.01)"
+
 msgid "_88mm_Pzgr_39_Ausf_E"
 msgstr "Pzgr. 39 Ausf. E"
 
@@ -7015,6 +7342,9 @@ msgstr "Pzgr. 40/43 Typ 101"
 msgid "_88mm_Pzgr_40_43_ZK"
 msgstr "Pzgr. 40/43 ZK"
 
+msgid "_88mm_Pzgr_40_45_01"
+msgstr "Pzgr. 40 (45.01)"
+
 msgid "_88mm_Pzgr_40_Ausf_E"
 msgstr "Pzgr. 40 Ausf. E"
 
@@ -7056,6 +7386,9 @@ msgstr "Sprgr. 18 (3002D)"
 
 msgid "_88mm_Sprgr_18_3601"
 msgstr "Sprgr. 18 (3601)"
+
+msgid "_88mm_Sprgr_18_45_01"
+msgstr "Sprgr. 18 (45.01)"
 
 msgid "_88mm_Sprgr_18_Ausf_E"
 msgstr "Sprgr. 18 Ausf. E"
@@ -7113,6 +7446,21 @@ msgstr "8,8 cm Pak 43 L/71 (JP)"
 
 msgid "_8_8_cm_Pak_L_56_IV"
 msgstr "8,8 cm Pak L/56 (IV)"
+
+msgid "_8_8_cm_Panzerkanone_Muster_55_mit_Zusatzkammern"
+msgstr "8,8 cm Panzerkanone Muster 55 mit Zusatzkammern"
+
+msgid "_8_8_cm_Panzerkanone_Muster_55_mit_Zusatzkammern_short"
+msgstr "8,8 cm Pz.K. 55 mit ZK"
+
+msgid "_8_8_cm_Pzgr_55_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_8_8_cm_Pzgr_55_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 für Zusatzkammerbetrieb"
+
+msgid "_8_8_cm_Sprgr_55"
+msgstr "Sprgr. 55"
 
 msgid "_8_cm_8H62_2"
 msgstr "8 cm 8H62-2"

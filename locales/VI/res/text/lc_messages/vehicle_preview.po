@@ -40,6 +40,9 @@ msgstr "Nghiên cứu"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Lấy lại"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Đến Hộp Lớn"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Xe Cấp %(level)s của %(nation)s chưa được nghiên cứu"
 
@@ -54,6 +57,15 @@ msgstr "Hạ giá khi mua:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Giảm phí nghiên cứu:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Xe này có thể xuất hiện từ {{@ style (color $color)}}Hộp Lớn!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Hộp Lớn!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Xe này có thể xuất hiện từ"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Áp dụng Coupon giảm giá: %(value)s"

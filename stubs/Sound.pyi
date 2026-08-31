@@ -19,6 +19,7 @@ def setSpatialAudioPreset(arg0: str) -> None: ...
 
 Audition2D: Any
 RTPCComponent: Any
+Sound3DComponent: Any
 
 class RTPCSourceType:
     DISTANCE_TO_CANNON: ClassVar[RTPCSourceType]  # native value: 4

@@ -1009,6 +1009,9 @@ msgstr "การฝึกสมาชิกพลรถถังล้มเห
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s"
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "ข้อผิดพลาดในการรับของขวัญ: ข้อผิดพลาดเซิร์ฟเวอร์"
+msgstr "ข้อผิดพลาดการเปิดกล่อง: ข้อผิดพลาดเซิร์ฟเวอร์"
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "ข้อผิดพลาดในการรับของขวัญ: โปรดรอจนกว่าการดำเนินการก่อนหน้าจะเสร็จสิ้น"
+msgstr "ข้อผิดพลาดการเปิดกล่อง: โปรดรอจนกว่าการดำเนินการก่อนหน้าเสร็จสิ้น"
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "การดำเนินการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
@@ -2383,30 +2386,6 @@ msgstr "ได้รับลายพรางเฉพาะตัวสำห
 msgid "personalMissions/camouflageUnlocked"
 msgstr "ลายพรางเฉพาะตัวของ %(vehicleName)s มีให้สำหรับพาหนะทุกคันของประเทศ: %(nation)s"
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "ความก้าวหน้าปฏิบัติการได้ถูกบันทึกเอาไว้ คุณสามารถกลับมายังสมรภูมิเมื่อใดก็ได้"
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "สมรภูมิ %(campaignName1)s และ %(campaignName2)s ถูกพักไว้"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "ปฏิบัติการและภารกิจในปฏิบัติการที่ถูกพักไว้ได้กลับมาอีกครั้ง"
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "สมรภูมิ %(campaignName1)s และ %(campaignName2)s กลับมาอีกครั้ง"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "ความก้าวหน้าปฏิบัติการได้ถูกบันทึกเอาไว้ คุณสามารถกลับมายังสมรภูมิเมื่อใดก็ได้"
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "สมรภูมิ %(campaignName)s ถูกพักไว้ "
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "ปฏิบัติการที่พักไว้กลับมาเล่นต่อแล้ว"
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "สมรภูมิ %(campaignName)s กลับมาแล้ว"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "ทำการติดตั้ง %(detailName)s เรียบร้อยแล้ว"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "เกิดข้อผิดพลาดในการรับรางวัล โปรดลองใหม่ในภายหลัง"
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "ติดตั้ง %(detail_name)s เรียบร้อยแล้ว"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "เกิดข้อผิดพลาดในการรับรางวัล โปรดลองใหม่ในภายหลัง"
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "ติดตั้ง %(detail_name)s เรียบร้อยแล้ว"
 
 msgid "personalMissions/reward/regular/server_error"

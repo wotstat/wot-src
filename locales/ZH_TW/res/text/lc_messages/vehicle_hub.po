@@ -34,6 +34,9 @@ msgstr "炮管可持續射擊而不需要進行裝填。每次發射砲彈都會
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "提高引擎功率與最高速度，來快速穿越戰場。啟用時，噴射助推器會導致操控性降低，且無法手動關閉。"
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。不同砲彈的參數會根據所選模式而異，且每種模式都能讓您快速因應不同戰況。"
+
 msgid "abilities/common/description/siegeMode"
 msgstr "啟用時，此特殊模式能提高且/或變更特定戰鬥參數。最適合在就定位且準備與敵人交戰時啟用。"
 
@@ -82,6 +85,9 @@ msgstr "過熱調控自動火炮"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "噴射助推器"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "砲彈校準系統"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "圍城模式"
 
@@ -100,8 +106,17 @@ msgstr "齊射模式"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "保持靜止或緩慢移動，可累積準度等級來提升下一發砲彈的準度。\n當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。"
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "此機制會立即將砲彈裝填時間縮短為固定的較短時間。使用時，每加速裝填一發砲彈，就消耗一個使用次數，次數會隨時間補充 — 彈匣已滿時補充速度較快。戰鬥開始時會提供固定的使用次數。"
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "此車輛在炮盾上安裝了火箭發射器。啟用能力來切換至次要武器的瞄準鏡，然後按下射擊鍵來發射無導引高爆火箭。"
+
 msgid "abilities/special/description/battleFury"
 msgstr "每當您以砲彈命中一輛敵方車輛時，您會獲得一個裝填效率等級，可暫時提升您炮管的裝填速度。等級隨每次命中累積。\n藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "此車輛的「外部彈藥供應模組」能讓其發射可造成更高傷害的強大高裝藥單體砲彈。啟用時，此模組也會降低機動性與射擊速率。"
 
 msgid "abilities/special/description/chargeShot"
 msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈來提高傷害。加熱等級越高，效果就越顯著。\n達到最高熱度時，您需在數秒內射擊，否則您暫時無法射擊。"
@@ -142,6 +157,15 @@ msgstr "此系統會隨著時間累積充能，累積的充能越高，傷害加
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "在任何時候啟用「液態燃料助推器」來獲得最需要的速度提升。助推器會升溫且再次使用前必須冷卻，要是超過臨界加熱等級將暫時完全停用。"
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "當您以砲彈命中一輛可見的敵方車輛時，下一發砲彈的引信設定器將會調整。若首發砲彈擊穿敵方裝甲，下一發砲彈的傷害將會提高。若未擊穿，下一發砲彈的穿透力將會提高。"
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。不同砲彈的參數會根據所選模式而異，且每種模式都能讓您快速因應不同戰況。"
+
+msgid "abilities/special/description/sightPointer"
+msgstr "啟用時，裝置會掃描車輛前方的區域，在進入冷卻時間前揭露隱藏的目標。若揭露了未被偵察到的敵人，您也會立即被偵察到。您可在短暫延遲後手動停止掃描。"
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "固態燃料推進器，可持續數秒提升加速度、機動性與操控性。左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。"
 
@@ -166,8 +190,17 @@ msgstr "此機械改裝可在一小段時間內顯著提高車輛的加速度、
 msgid "abilities/special/name/accuracyStacks"
 msgstr "類比彈道計算裝置"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "強制裝填機制"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "同軸火箭發射器"
+
 msgid "abilities/special/name/battleFury"
 msgstr "半自動彈藥架"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "外部供彈模式"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "彈道加熱超載"
@@ -208,6 +241,15 @@ msgstr "感應式彈藥推進劑助燃"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "液態燃料助推器"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "可調式引信設定器"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "砲彈校準系統"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "紅外線搜索與追蹤系統（IRST）"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "分段火箭推進器"
 
@@ -232,8 +274,17 @@ msgstr "高壓渦輪增壓器輔助"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "提升您下一發砲彈的準度，同時具有完整校準下不錯的穩定性。"
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "立即將砲彈裝填時間縮短為固定的短暫時間。"
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "與主炮分開運作，從同軸發射器發射一枚無導引高爆火箭彈。"
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "每命中一輛敵方車輛，可在限定時間內加快炮管裝填速度。"
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "發射傷害較高的砲彈，但會犧牲機動性與射擊速率。"
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "累積加熱等級來讓下一發砲彈對敵方車輛造成更高傷害。"
@@ -274,6 +325,15 @@ msgstr "系統會進行充能以提高傷害。充能越高，傷害就越高。
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "可隨時啟用助推器，來為速度帶來大幅加成。"
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "命中可見的敵方車輛可提升下一發砲彈的傷害或穿透力。"
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "炮管具有特殊裝置，可在射擊前修改部分砲彈參數。"
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "擴大可視範圍，並在狹窄區域內偵測移動中或藏於植被後的車輛。"
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "固態燃料推進器，可提升加速度、機動性與操控性。"
 
@@ -298,8 +358,14 @@ msgstr "特殊機制，可在一小段時間期間提高引擎功率、加速度
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持靜止或以低於特定數值的速度移動，可讓您校正車輛的「類比彈道計算裝置」並累積準度等級，提高您下一發砲彈的準度。若您超過速限，您的準度等級累積進度將暫停，直到您降低速度。當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。此效果會在射擊後移除。"
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "此車輛在炮盾上安裝了火箭發射器。啟用能力來切換至次要武器的瞄準鏡，然後按下射擊鍵來發射無導引高爆火箭。"
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "每當您以砲彈命中一輛可見的敵方車輛時，您會獲得一個裝填效率等級，可暫時提高炮管的裝填速度。等級隨每次命中累積，藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "此車輛的「外部彈藥供應模組」能讓其發射可造成更高傷害的強大高裝藥單體砲彈。啟用時，此模組也會降低機動性與射擊速率。"
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈。您達到的加熱等級越高，平均傷害的加成也將越高。加熱過程中，您無法變更砲彈。當您達到最高加熱等級時，會開始倒數計時。若您未在倒數結束前發射砲彈，您將在數秒內無法射擊。"
@@ -340,6 +406,15 @@ msgstr "系統會隨著時間自動累積充能，在射擊時消耗部分充能
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "「液態燃料助推器」會提高引擎功率，讓您在戰場上獲得搶佔位置的優勢，但也會限制車輛的後退與迴轉速度。助推器可隨時開啟或關閉，若超過重新啟用次數限制將無法操作。助推器會在啟用時升溫，同時冷卻期間將無法使用，代表無法不斷使用助推器，要是超過臨界加熱等級更會遭暫時完全停用。謹慎計劃使用時機，避免反遭對手突襲。"
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "以砲彈命中一輛可見的敵方車輛時，下一發砲彈的引信設定器將會調整。若首發砲彈擊穿敵方裝甲，下一發砲彈的傷害將會提高。若未擊穿，下一發砲彈的穿透力將會提高。"
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "此車輛的炮管具有特殊裝置，可在射擊前修改部分砲彈參數。武裝配置會顯示受切換射擊模式影響的參數。"
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "一種先進光學裝置，可擴大可視範圍並強化對移動中與躲在植被後方車輛的偵測能力。啟用時，裝置會掃描車輛前方的狹窄區域，在進入冷卻時間前揭露隱藏的目標。若揭露了未被偵察到的敵人，您也會立即被偵察到。您可在短暫延遲後手動停止掃描。"
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "固態燃料推進器，可持續數秒提高車輛的加速度、機動性與操控性。與一般的噴射助推器不同，左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。助推器可在每場戰鬥期間使用數次，但再次啟用前需要進行冷卻。"
 
@@ -363,6 +438,18 @@ msgstr "此機械改裝可在一小段時間內顯著提高車輛的加速度、
 
 msgid "characteristics/abilities/special/notes"
 msgstr "顯示的所有數值均為此車輛的可能最大值。可以藉由裝備、技術指南與消耗品變更這些數值，但此處未反映相關變化。"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "可校準 AP 彈"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "可校準 APCR 彈"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "可校準 HE 彈"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "可校準 HEAT 彈"
 
 msgid "characteristics/templates/upTo"
 msgstr "最多 %(value)%s"

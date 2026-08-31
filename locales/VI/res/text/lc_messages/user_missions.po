@@ -382,11 +382,56 @@ msgstr "Nhiệm vụ Hàng tuần là bộ nhiệm vụ mới mỗi bảy ngày.
 msgid "info_page/main/weekly/title"
 msgstr "Nhiệm vụ Hàng tuần"
 
+msgid "pm/missionState/active"
+msgstr "Đang làm"
+
+msgid "pm/missionState/complete"
+msgstr "NV Hoàn thành"
+
+msgid "pm/missionState/improve"
+msgstr "Cải thiện kết quả"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Đổi xe"
+
+msgid "pm/no_missions"
+msgstr "Không có nhiệm vụ đang làm cho xe đã chọn."
+
+msgid "pm/tier"
+msgstr "Cấp không phù hợp"
+
+msgid "pm/unavailable"
+msgstr "Nhiệm vụ tạm thời không khả dụng"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Không có nhiệm vụ nào đang làm cho xe đã chọn. Vui lòng chọn phương tiện khác."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Nhiệm vụ này tạm thời không khả dụng do các vấn đề kỹ thuật. Chúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Phương tiện không đáp ứng các yêu cầu cấp bậc cho các hoạt động đang làm. Vui lòng chọn xe khác."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Không Nhiệm vụ đang làm"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Tạm thời không khả dụng"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Cấp không phù hợp"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Đã xong hết nhiệm vụ thường của hôm nay"
 
 msgid "quests/daily_quests/completed"
 msgstr "Đã xong hết Nhiệm vụ Hàng ngày"
+
+msgid "slider/title/missions"
+msgstr "Nhiệm vụ thường"
+
+msgid "slider/title/personalMissions"
+msgstr "Nhiệm vụ cá nhân"
 
 msgid "tooltip/common/timer"
 msgstr "Khả dụng sau {{timeLeft}}"

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from collections import namedtuple
 import CGF, Math, BigWorld
 from death_zones_helpers import ZONE_STATE, idxFrom, zoneIdFrom, ZONES_SIZE
@@ -19,8 +20,8 @@ _INVISIBLE_UP = 4
 _INVISIBLE_DOWN = 8
 _UPDATE_PERIOD = 0.1
 DeathZoneWallParameters = namedtuple(b'DeathZoneWallParameters', [
- 17, 18, 19, 20, 21, 22, 23, 
- 24])
+ 18, 19, 20, 21, 22, 23, 24, 
+ 25])
 
 @registerComponent
 class DeathZoneComponentSettings(object):

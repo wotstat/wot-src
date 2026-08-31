@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "ฤดูกาลแห่งมังกรน้ำเงินจะเริ่มขึ้นใน: %(date)s"
+msgstr "ฤดูกาลแห่งวิหคเพลิงครามจะเริ่มขึ้นใน: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "ฤดูกาลแห่งมังกรโลหิตจะเริ่มขึ้นใน: %(date)s"
+msgstr "ฤดูกาลแห่งวิหคเพลิงโลหิตจะเริ่มขึ้นใน: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "ฤดูกาลแห่งมังกรหยกจะเริ่มขึ้นใน: %(date)s"
+msgstr "ฤดูกาลแห่งวิหคเพลิงหยกจะเริ่มขึ้นใน: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "กำลังรอผลการคัดเลือกเพื่อรับอันดับของคุณ"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "ฤดูกาลแห่งมังกรน้ำเงินจบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงครามจบลงแล้ว"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "ฤดูกาลแห่งมังกรโลหิตจบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงโลหิตจบลงแล้ว"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "ฤดูกาลแห่งมังกรหยกจบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงหยกจบลงแล้ว"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "การรบในเซิร์ฟเวอร์นี้จะมีให้ภายใน %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "เพิ่มคุณลักษณะพาหนะ"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "คืนความทนทาน"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "ความเสียหายที่ได้รับเพิ่มขึ้น"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "เพิ่มคุณลักษณะพาหนะ"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
-msgstr[1] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
-msgstr[2] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
+msgstr[0] "ฤดูกาลแห่งวิหคเพลิงครามจะมีเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งวิหคเพลิงครามจะมีเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งวิหคเพลิงครามจะมีเวลา %(days)d วัน"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
-msgstr[1] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
-msgstr[2] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
+msgstr[0] "ฤดูกาลแห่งวิหคเพลิงโลหิตจะมีเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งวิหคเพลิงโลหิตจะมีเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งวิหคเพลิงโลหิตจะมีเวลา %(days)d วัน"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
-msgstr[1] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
-msgstr[2] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
+msgstr[0] "ฤดูกาลแห่งวิหคเพลิงหยกจะมีเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งวิหคเพลิงหยกจะมีเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งวิหคเพลิงหยกจะมีเวลา %(days)d วัน"
 
 msgid "calendarDay/title"
 msgstr "หมายกำหนด"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "ความสามารถ"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "การบุกรุก ปีแห่งมังกร"
+msgstr "การบุกรุก: ปีแห่งวิหคเพลิง"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "ความสามารถศูนย์"
@@ -574,11 +577,17 @@ msgstr "รับทราบ!"
 msgid "intro/description/banPhase"
 msgstr "แต่ละทีมสามารถแบนพาหนะจากการรบได้ ประสานการลงคะแนนกับพันธมิตรเพื่อปลดยานเกราะที่เป็นภัย กับคุณที่สุดหรือเตรียมรายชื่อยานเกราะที่ข้าศึกไม่คาดเอาไว้ ถ้าพาหนะของคุณถูกแบน คุณสามารถเลือกจากพาหนะเช่าที่ปรับเอาไว้ล่วงหน้าหลายคันได้แทน"
 
+msgid "intro/description/draw"
+msgstr "เมื่อเวลานับถอยหลังหมดลงและไม่มีทีมใดได้รับชัยชนะแบบชัดเจน ผลการรบก็จะถูกตัดสินโดยการวัดค่าตามลำดับนี้: จำนวนพาหนะที่รอด, ความเสียหายที่ทำได้และพาหนะคันแรกที่ถูกทำลาย ถ้าทั้งสองทีมไม่ได้ทำความเสียหายใดๆ การรบก็จะถูกถือว่าเสมอ"
+
+msgid "intro/description/nightMaps"
+msgstr "แผนที่กลางคืนจะปรับสนามรบที่คุ้นเคยให้กลายเป็นสภาวะยามค่ำ, จุดสังเกตการณ์ใหม่, จุดสนใจปรับใหม่และกลไกการตรวจจับปรับแก้ใหม่ รายการแผนที่ปัจจุบันที่มีแบบนี้จะมีธารน้ำแข็ง, แม่น้ำทราย, ด่านวางกำลังและทุ่งหญ้า"
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "รูปแบบนี้มีตัวปรับที่เปลี่ยนค่าบางอย่างของพาหนะเช่นความทนทานพาหนะ, เวลาพักใช้ยุทธปัจจัย, เวลาที่ยังปรากฎและอื่นๆอีกมากมาย"
 
 msgid "intro/description/pointsOfInterest"
-msgstr "ทันทีที่คุณยึดบางพื้นที่ของแผนที่ได้ คุณจะสามารถใช้ทักษะยุทธวิธ๊ได้ จุดสนใจจะมีสองชนิดด้วยกันคือ: กองบัญชาการปืนใหญ่ที่ทำให้คุณสามารถสั่งปืนอัตตาจรโจมตีพื้นที่ตามกำหนดและศูนย์สื่อสารที่จะทำการตรวจจับพาหนะข้าศึกทั้งหมด การมีอยู่และตำแหน่งของจุดสนใจเหล่านี้สามารถเปลี่ยนไปในแต่ละแผนที่ได้"
+msgstr "เมื่อคุณยึดบางส่วนของแผนที่ได้ คุณจะสามารถเข้าถึงทักษะยุทธวิธี ทั้งนี้จะมีจุดสนใจสองชนิดด้วยกันคือ กองบัญชาการปืนใหญ่ซึ่งคุณสามารถสั่งทำการยิงโจมตีในจุดเป้าหมายได้และศูนย์สื่อสารที่จะเปิดเผยตำแหน่งพาหนะข้าศึกทั้งหมด จำนวนและตำแหน่งของจุดสนใจเหล่านี้จะต่างกันไปตามและแผนที่"
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "เข้าการรบคัดเลือก %(count)s คร�
 msgstr[2] "เข้าการรบคัดเลือก %(count)s ครั้งเพื่อกำหนดระดับทักษะและอันดับของคุณ เมื่อผ่านแล้ว คุณจะได้รับรางวัลสำหรับอันดับที่่คุณได้และอันดับอื่นๆที่ผ่านมาก่อน\n\nการหนีการรบหรือการเสมอในการคัดเลือกจะถือว่าเป็นการแพ้"
 
 msgid "intro/description/ranks"
-msgstr "ระบบที่เป็นการสะท้อนทักษะของผู้เล่น ก้าวหน้าผ่านอันดับจากเหล็กถึงตำนานและรับรางวัลที่มีค่าต่างๆ ต่อสู็ตลอดช่วงปีของมังกรแล้วรับรางวัลเฉพาะประจำปี"
+msgstr "ก้าวหน้าผ่านอันดับจากเหล็กถึงตำนานและรับรางวัลที่มีค่าต่างๆ ต่อสู็ตลอดช่วงปีของวิหคเพลิงแล้วรับรางวัลเฉพาะประจำปี"
 
 msgid "intro/description/roleSkills"
 msgstr "พาหนะแต่ละคันต่างก็มีความสามารถพิเศษที่มีระดับใช้งานสามขั้นโดยขึ้นกับบทบาทของพาหนะ ยิ่งระดับใช้งานสูงเท่าใดเมื่อใช้งาน ผลที่เกิดขึ้นก็จะเพิ่มขึ้นตาม ระดับใช้งานจะขึ้นกับจำนวนคะแนนเกียรติภูมิที่สามารถหาได้จากการแสดงผลงานที่ดีในการรบ, การยึดจุดสนใจและการใช้ทักษะยุทธวิธีและอื่นๆ\n\nโปรดอ่านกติกาของรูปแบบเพื่อเรียนรู้วิธีอื่นๆที่ทำให้คุณสามารถได้รับคะแนนเกียรติภูมิมากกว่าเดิม"
@@ -597,6 +606,12 @@ msgstr "คุณสามารถออกรบได้ด้วยพาห
 
 msgid "intro/title/banPhase"
 msgstr "การแบนพาหนะ"
+
+msgid "intro/title/draw"
+msgstr "กฎการเสมอ"
+
+msgid "intro/title/nightMaps"
+msgstr "แผนที่กลางคืน"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ตัวปรับการบุกรุก"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "การชนะ แต่คุณ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "เลื่อนขั้นเป็น %(rank)s"
+msgstr "เลื่อนขั้นเป็น {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "อันดับ: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "ถูกลดเป็น %(rank)s, %(division)s"
+msgstr "ลดขั้นเป็น {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "ได้เลื่อนเป็น %(rank)s, %(division)s"
+msgstr "เลื่อนขั้นเป็น {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "การรบที่เข้าร่วม"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "สถิติคะแนนเกียรติภูมิฤดูกาล: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "ฤดูกาลแห่งมังกรเงินบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงครามบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "ฤดูกาลแห่งมังกรโลหิตบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงโลหิตบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "ฤดูกาลแห่งมังกรหยกบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+msgstr "ฤดูกาลแห่งวิหคเพลิงหยกบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
 
 msgid "products/actions/buy"
 msgstr "ซื้อ"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "การบุกรุก ผ่านการคัดเลือกแล้ว"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "การบุกรุก ฤดูกาลแห่งมังกรน้ำเงิน"
+msgstr "การบุกรุก: ฤดูกาลแห่งวิหคเพลิงคราม"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "การบุกรุก ฤดูกาลแห่งมังกรโลหิต"
+msgstr "การบุกรุก: ฤดูกาลแห่งวิหคเพลิงโลหิต"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "การบุกรุก ฤดูกาลแห่งมังกรหยก"
+msgstr "การบุกรุก: ฤดูกาลแห่งวิหคเพลิงหยก"
 
 msgid "rewardsScreen/description/year"
-msgstr "การบุกรุก ปีแห่งมังกร"
+msgstr "การบุกรุก: ปีแห่งวิหคเพลิง"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Ashbringer ฉันอยู่ไหน?"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "จบลงใน %(seconds)s วิ"
 
 msgid "seasonName/first"
-msgstr "ฤดูกาลแห่งมังกรน้ำเงิน"
+msgstr "ฤดูกาลวิหคเพลิงคราม"
 
 msgid "seasonName/second"
-msgstr "ฤดูกาลแห่งมังกรโลหิต"
+msgstr "ฤดูกาลแห่งวิหคเพลิงโลหิต"
 
 msgid "seasonName/third"
-msgstr "ฤดูกาลแห่งมังกรหยก"
+msgstr "ฤดูกาลแห่งวิหคเพลิงหยก"
 
 msgid "seasonPointTooltip/header"
 msgstr "ธงสัญลักษณ์การบุกรุก"
@@ -1532,13 +1550,13 @@ msgstr[1] "ได้รับ %(points)s ธงสัญลักษณ์กา
 msgstr[2] "ได้รับ %(points)s ธงสัญลักษณ์การบุกรุก"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "ฤดูกาลที่ I มังกรน้ำเงิน"
+msgstr "ฤดูกาลที่ I: วิหคเพลิงคราม"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "ฤดูกาลที่ II มังกรโลหิต"
+msgstr "ฤดูกาลที่ II: วิหคเพลิงโลหิต"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "ฤดูกาลที่ III มังกรหยก"
+msgstr "ฤดูกาลที่ III: วิหคเพลิงหยก"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "การชนะ: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "รูปแบบนี้จะมีให้ใน %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "มังกรน้ำเงิน"
+msgstr "วิหคเพลิงคราม"
 
 msgid "shortSeasonName/second"
-msgstr "มังกรโลหิต"
+msgstr "วิหคเพลิงโลหิต"
 
 msgid "shortSeasonName/third"
-msgstr "มังกรหยก"
+msgstr "วิหคเพลิงหยก"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "ส่วนนี้ประกอบด้วยข้อมูลเกี่ยวกับผู้เล่นที่ดีที่สุดในฤดูกาลการบุกรุกปัจจุบัน"
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "ดูทั้งหมด"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "สนับสนุนชุดตำนานการบุกรุกและเร่งชุดรางวัลกันด้วยชุดสินค้าทัวร์นาเมนต์!"
+msgstr "ถ้าทีมที่คุณเลือกชนะ คุณจะได้รับตราทองเฉพาะชุดตำนานการบุกรุก 2026 มาเชียร์ทีมโปรดของคุณกัน!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "แสดงวิญญาณอีสปอร์ตของคุณด้วยองค์ประกอบปรับแต่งเฉพาะแนวกิจกรรมและรถถังเฉพาะ!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "มหากาพย์แห่งการปะทะกำลังเกิดขึ้นในการแข่งขันชิงแชมป์นานาชาติ World of Tanks ที่ซู่โจวในประเทศจีนซึ่งทีมอันดุดันจากทั่วโลกจะมาเผชิญหน้ากันภายใต้กฎรูปแบบการบุกรุก ซึ่งทุกทีมจะมาแข่งขันเพื่อชิงตำแหน่งการเป็นแชมป์โลกที่มีเกียรติ มาสัมผัสความตื่นเต้นเมื่อตำนานเกิดขึ้นในสนามรบ!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS ฤดูกาล 6"
+msgstr "ชุดตำนานการบุกรุกฤดูกาล 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "ฤดูกาลนี้ถือเป็นโอกาสสุดท้ายของคุณในการคว้ารางวัล ที่มีค่ารวมไปถึงรถถังหนักเฉพาะ Ashbringer ระดับ X พร้อมด้วยรูปแบบสามมิติเฉพาะทั้งหมด ที่คุณได้รับสำหรับรถถังคันดังกล่าว และเหล่าพลรถถังที่ไร้ความกลัวมีพี่น้องร่วมรบเป็นความสามารถศูนย์พร้อม อุปกรณ์ปรับปรุงและอุปกรณ์ทดลองให้เลือกรับ, รูปแบบสองมิติที่เตะตาและอื่นๆอีกมากมาย อย่าพลาดล่ะ ชัยชนะรอคุณอยู่ในสนามรบ!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "คว้าโอกาสสุดท้ายของปีแห่งมังกร!"
+msgstr "คว้าโอกาสสุดท้ายของปีแห่งวิหคเพลิง!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "ฤดูกาลแห่งมังกรหยก"
+msgstr "ฤดูกาลวิหคเพลิงคราม"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "การบุกรุก มีอะไรใหม่บ้าง?"
 
 msgid "whatsNewView/button/ok"
-msgstr "แบนเต็มที่!"
+msgstr "ปลดปล่อยไฟของคุณ!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "หน้าจอผลการรบปรับปรุงใหม่ด้วยการออกแบบล่าสุดในอัพเดต 2.0 จะทำให้คุณเห็นข้อมูลเกี่ยวกับรูปแบบเพิ่มเติมหลังการรบทุกครั้ง"
+msgid "whatsNewView/drawConditions/description"
+msgstr "เมื่อเวลานับถอยหลังหมดลงและไม่มีทีมใดได้รับชัยชนะแบบชัดเจน ผลการรบก็จะถูกตัดสินโดยการวัดค่าตามลำดับนี้: จำนวนพาหนะที่รอด, ความเสียหายที่ทำได้และพาหนะคันแรกที่ถูกทำลาย ถ้าทั้งสองทีมไม่ได้ทำความเสียหายใดๆ การรบก็จะถูกถือว่าเสมอ"
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "ผลการรบแบบละเอียด"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "ไม่ต้องกลัวไปถ้าพาหนะโปรดของคุณถูกยกเว้น พาหนะเช่าตอนนี้ก็มาพร้อมกับพลรถถัง, อุปกรณ์, กระสุนและยุทธปัจจัยปรับไว้ล่วงหน้าแล้ว"
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "พาหนะเช่าพร้อมออกรบ%(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "ฤดูกาลนี้ แต่ละทีมจะสามารถแบนพาหนะหนึ่งคันจากการรบได้ ประสานการลงคะแนนกับพันธมิตรเพื่อปลดยานเกราะที่เป็นภัยกับคุณที่สุดหรือเตรียมรายชื่อยานเกราะที่ข้าศึกไม่คาดเอาไว้"
-
-msgid "whatsNewView/intro/heading"
-msgstr "การแบนพาหนะ %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "เงื่อนไขการเสมอถูกปรับ {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "แผนที่"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "พาหนะใหม่มีให้ในการบุกรุก"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "เวอร์ชัน 2.4 จะทำการเพิ่มบทบาทรถถังเบาใหม่และทำการปรับสมดุลคุณลักษณะพาหนะต่างๆ มาลองพวกมันในการรบเลย!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "บทบาทใหม่ของรถถังเบา {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "การเล่นเกมใหม่ในแผนที่ที่คุ้นเคย การเปลี่ยนแปลงนั้นมีการรบยามค่ำ, จุดสังเกตการณ์ใหม่, ตำแหน่งจุดสนใจใหม่และการปรับกลไกการตรวจจับ ทั้งหมดนี้จะเป็นการพลิกกระแสของการรบและทำให้การระวังตัว, การกะจังหวะและการเดินยุทธวิธีนั้นสำคัญมากขึ้นกว่าเดิม"
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "แผนที่กลางคืนมาแล้ว! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "เนื่องด้วยจำนวนผู้เล่นในการรบที่น้อยทำให้หมวดรถถังใหญ่ถูกปิดเอาไว้ ทางเรากำลังดำเนินการแก้ไขหาวิธีการเล่นเป็นทีมตัวเลือกสำหรับการเล่นในการบุกรุก ในระหว่างนี้ ทัวร์นาเมนต์ 7ต่อ7 จะมีให้ทำการรบเป็นปกติ"
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "ไม่มีหมวดรถถังใหญ่ให้{{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "พาหนะเช่า"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "รถถังกลางสหรัฐฯ Ares 90 ระดับ X ที่เพิ่งเปิดตัวตอนนี้มีให้ในรูปแบบแล้วโดยมีทักษะบทบาทปรับใหม่"
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• แผนที่: เออร์เลนเบิร์กถูกลบออก จุดสนใจในสนามบินถูกเปลี่ยนตำแหน่ง การปรับแก้เล็กน้อยกับพิลเซน\n• พาหนะ: VZ. 60S Dravec ถูกลบออก เพิ่มรถถังหนักเยอรมัน Kampfpanzer 67 เข้ามา"
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "การปรับทักษะบทบาท %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 ตอนนี้มีให้ซื้อที่อันดับเงินในร้านค้าการบุกรุกแล้ว"
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "การปรับร้านค้า %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "การปรับสมดุลฤดูกาล {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "ลบออก"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "ฤดูกาลที่ I มังกรน้ำเงิน"
+msgstr "ฤดูกาลที่ I: วิหคเพลิงคราม"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "ฤดูกาลที่ II มังกรโลหิต"
+msgstr "ฤดูกาลที่ II: วิหคเพลิงโลหิต"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "ฤดูกาลที่ III มังกรหยก"
+msgstr "ฤดูกาลที่ III: วิหคเพลิงหยก"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "ปัจจุบัน"

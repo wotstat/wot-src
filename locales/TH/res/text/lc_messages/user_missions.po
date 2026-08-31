@@ -382,11 +382,56 @@ msgstr "ภารกิจประจำสัปดาห์นั้นเป
 msgid "info_page/main/weekly/title"
 msgstr "ภารกิจประจำสัปดาห์"
 
+msgid "pm/missionState/active"
+msgstr "ใช้งานอยู่"
+
+msgid "pm/missionState/complete"
+msgstr "ภารกิจสำเร็จ"
+
+msgid "pm/missionState/improve"
+msgstr "การปรับปรุงผล"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "เปลี่ยนพาหนะ"
+
+msgid "pm/no_missions"
+msgstr "ไม่มีภารกิจปฏิบัติอยู่สำหรับพาหนะที่คุณเลือกเอาไว้"
+
+msgid "pm/tier"
+msgstr "ระดับไม่เหมาะสม"
+
+msgid "pm/unavailable"
+msgstr "ภารกิจไม่มีให้ชั่วคราว"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "ไม่มีภารกิจปฏิบัติอยู่สำหรับพาหนะที่คุณเลือกเอาไว้ โปรดเลือกพาหนะคันอื่น"
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "ภารกิจนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "พาหนะที่คุณเลือกเอาไว้ไม่ตรงกับข้อกำหนดระดับของปฏิบัติการที่ทำอยู่ โปรดเลือกพาหนะคันอื่น"
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "ไม่มีภารกิจต้องปฏิบัติ"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "ไม่มีให้ชั่วคราว"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "ระดับไม่เหมาะสม"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "ภารกิจปกติทั้งหมดที่สำเร็จสำหรับวันนี้"
 
 msgid "quests/daily_quests/completed"
 msgstr "ภารกิจประจำวันทั้งหมดสำเร็จแล้ว"
+
+msgid "slider/title/missions"
+msgstr "ภารกิจปกติ"
+
+msgid "slider/title/personalMissions"
+msgstr "ภารกิจส่วนตัว"
 
 msgid "tooltip/common/timer"
 msgstr "มีให้ใน {{timeLeft}}"

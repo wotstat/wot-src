@@ -130,6 +130,9 @@ msgstr "คุณไม่สามารถสร้างหรือเข้
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "หลังผ่านการคัดเลือกแล้ว ก็จะมีหมวดรถถังผู้เล่น 2 และ 7 คนให้"
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "หลังผ่านการคัดเลือกแล้ว หมวดรถถังสองผู้เล่นจะมีให้"
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "ไม่สามารถสร้างหมวดรถถังได้"
 
@@ -141,6 +144,9 @@ msgstr "สร้างหมวดรถถังหรือเข้าร่
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "สร้างหมวดรถถังหรือเข้าร่วมหมวดรถถังที่มีอยู่ หมวดรถถังในรูปแบบการบุกรุกสามารถมีผู้เล่นสองคนเท่านั้น"
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "สร้างหน่วยยุทธวิธีประกอบด้วยผู้เล่น 2 หรือ 3 คนเพื่อเล่นร่วมกัน\n• รูปแบบการรบ: การรบอาละวาด\n• ชนิดการรบ: พรานเหล็ก การรบครอบครอง"
@@ -264,12 +270,6 @@ msgstr "หมวดรถถังมีรถถังหนักจำนว
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "หมวดรถถังมีรถถังกลางจำนวนสูงสุดแล้ว"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "หมวดรถถังมีรถถังเบามีจำนวนสูงสุดแล้ว"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "หมวดรถถังมียานเกราะล้อจำนวนสูงสุดแล้ว"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "หมวดรถถังมีรถถังเบามีจำนวนสูงสุดแล้ว"

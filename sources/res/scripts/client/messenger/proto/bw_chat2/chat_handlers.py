@@ -15,7 +15,7 @@ from messenger.proto.bw_chat2.battle_chat_cmd import BattleCommandFactory
 from messenger.proto.bw_chat2.unit_chat_cmd import UnitCommandFactory
 from messenger.proto.events import g_messengerEvents
 from messenger.proto.interfaces import IBattleCommandFactory
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, ChannelsStorage, UsersStorage
 from messenger_common_chat2 import BATTLE_CHAT_COMMANDS, UNIT_CHAT_COMMANDS, DEFAULT_SPAM_PROTECTION_SETTING, BattleChatCmdGameModeCoolDownData
 from messenger_common_chat2 import MESSENGER_ACTION_IDS as _ACTIONS
 from messenger_common_chat2 import MESSENGER_LIMITS as _LIMITS
@@ -25,6 +25,8 @@ _ActionsCollection = namedtuple(b'_ActionsCollection', b'initID deInitID onBroad
 _logger = logging.getLogger(__name__)
 
 class _EntityChatHandler(bw2_provider.ResponseSeqHandler):
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
+    channelsStorage = MessengerStorageDescriptor(ChannelsStorage)
 
     def __init__(self, provider, adminChat, actions, factory, limits_):
         super(_EntityChatHandler, self).__init__(provider, 10)
@@ -36,14 +38,6 @@ class _EntityChatHandler(bw2_provider.ResponseSeqHandler):
         self.__factory = factory
         self.__limits = limits_
         self.__msgFilters = None
-        return
-
-    @storage_getter(b'channels')
-    def channelsStorage(self):
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     def isInited(self):

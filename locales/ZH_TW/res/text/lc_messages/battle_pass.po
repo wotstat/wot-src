@@ -229,23 +229,14 @@ msgstr "可在購買時獲得："
 msgid "battlePassBuyView/descr"
 msgstr "購買進度階段會立即解鎖並獲得相應階段當中的所有獎勵。"
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "這些獎勵將於完成之後的階段後給予。"
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "階段 %(steps)s 將給予您下列獎勵。"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "您將立即獲得以下獎勵"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "階段 %(steps)s 將給予您下列獎勵"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "後續獎勵"
+msgstr "於未完成階段中解鎖"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "當前獎勵"
+msgstr "立即獲得"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "啟用戰車遠征章節"
@@ -277,20 +268,17 @@ msgstr "野牛頌"
 msgid "chapter/fullName/1114"
 msgstr "野牛頌"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "精英循環"
 
-msgid "chapter/fullName/201"
-msgstr "塵封時光"
+msgid "chapter/fullName/211"
+msgstr "行動專家"
 
-msgid "chapter/fullName/202"
-msgstr "使命所向"
+msgid "chapter/fullName/212"
+msgstr "特技演員"
 
-msgid "chapter/fullName/203"
-msgstr "沙漠號令"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "堅忍鬥士"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "野牛頌"
@@ -298,17 +286,14 @@ msgstr "野牛頌"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "野牛頌"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "塵封時光"
+msgid "chapter/fullNameUppercased/211"
+msgstr "行動專家"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "使命所向"
+msgid "chapter/fullNameUppercased/212"
+msgstr "特技演員"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "沙漠號令"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "堅忍鬥士"
 
 msgid "chapter/title"
 msgstr "章節 %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "3 倍乘員經驗加成任務"
 
 msgid "equipCoinBonus"
 msgstr "部件：%(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D 配飾套組"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "車長"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "在全部的主要章節完成後開放。章節已完成：%(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "獲取一輛加值車輛與獨家主題自訂要素。"
+msgstr "直闖其中並入手專屬獎勵與獨特自訂要素。"
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "「戰車遠征：Far Cry」來了！"
+msgstr "特殊章節來了！"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "購買遠征通行證並獲取更多獎勵！"
@@ -1114,11 +1102,8 @@ msgstr "精英循環階段 %(level)d"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "所選%(nation)s車輛之每名乘員的經驗"
 
-msgid "rewardChoice/subTitle"
-msgstr "選擇您的獎勵"
-
 msgid "rewardChoice/title"
-msgstr "戰車遠征"
+msgstr "選擇您的獎勵"
 
 msgid "rewardChoice/titleChapter"
 msgstr "戰車遠征：「%(chapter)s」章節"
@@ -1129,14 +1114,14 @@ msgstr "戰車遠征：「%(chapter)s」章節，階段 %(level)s"
 msgid "season/fullName/1002"
 msgstr "野牛頌"
 
-msgid "season/fullName/20"
-msgstr "荒漠尋蹤"
+msgid "season/fullName/21"
+msgstr "穩扎穩打"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "野牛頌"
 
-msgid "season/fullNameUppercased/20"
-msgstr "荒漠尋蹤"
+msgid "season/fullNameUppercased/21"
+msgstr "穩扎穩打"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "可選擇的技術指南"

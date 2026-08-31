@@ -210,7 +210,8 @@ class QuestsController(IQuestsController):
     def __onStatsUnlocked(self, ids):
         for intCD in ids:
             if getTypeOfCompactDescr(intCD) == GUI_ITEM_TYPE.VEHICLE:
-                return self.__invalidateEventsData()
+                self.__invalidateEventsData()
+                return
 
         return
 

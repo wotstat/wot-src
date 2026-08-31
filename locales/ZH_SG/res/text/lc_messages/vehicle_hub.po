@@ -34,6 +34,9 @@ msgstr "火炮可持续射击而不需要进行装填。每次发射炮弹都会
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "提高发动机功率与最高速度，来快速穿越战场。激活时，火箭助推器会导致操控性降低，且无法手动关闭。"
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。根据所选模式，不同炮弹的参数会有所变化，而每种模式都能让您迅速适应不同的战斗情况。"
+
 msgid "abilities/common/description/siegeMode"
 msgstr "激活时，此特殊模式提高且/或变更特定战斗参数。最适合在到达位置并准备与敌人交战时激活。"
 
@@ -82,6 +85,9 @@ msgstr "过热调节自动火炮"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "火箭助推器"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "炮弹校准系统"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "围攻模式"
 
@@ -100,8 +106,17 @@ msgstr "齐射模式"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "保持静止或缓慢移动，可累积准度等级来提升下一发炮弹的准度。\n当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转向时的散布误差亦会降低。"
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "此机制会立即将炮弹装填时间缩短为固定的较短时间。使用时，每加速装填一发炮弹，就消耗1次使用次数，次数会随时间补充——弹匣已满时补充速度较快。战斗开始时会提供固定的使用次数。"
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "此战车在炮盾上安装了火箭发射器。激活能力来切换至副武器的瞄准镜，然后按下开火键发射无制导高爆火箭。"
+
 msgid "abilities/special/description/battleFury"
 msgstr "每当您以炮弹命中一辆敌方战车时，您会获得一个装填效率等级，可暂时提升您火炮的装填速度。等级随每次命中累积。\n藉由射击摧毁一辆敌方战车，可额外累积装填效率等级。"
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "此战车的“外部弹药供应模块”能让其发射可造成更高伤害的高装药单体炮弹。激活时，此模块也会降低机动性和射速。"
 
 msgid "abilities/special/description/chargeShot"
 msgstr "若您的火炮已完成装填，您可开始加热下一发炮弹来提高伤害。加热等级越高，效果就越显著。\n达到最高热度时，您需在数秒内射击，否则您暂时无法射击。"
@@ -142,6 +157,15 @@ msgstr "此系统会随着时间累积充能，累积的充能越高，伤害加
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "在任何时候激活“液体燃料助推器”来获得最需要的速度提升。助推器会升温且再次使用前必须冷却，要是超过临界加热等级将暂时完全停用。"
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "当您以炮弹命中一辆可见的敌方战车时，下一发炮弹的引信装定器将会调整。若前一发炮弹击穿敌方装甲，下一发炮弹的伤害将会提高。若未击穿，下一发炮弹的穿透力将会提高。"
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。根据所选模式，不同炮弹的参数会有所变化，而每种模式都能让您迅速适应不同的战斗情况。"
+
+msgid "abilities/special/description/sightPointer"
+msgstr "激活时，该装置会扫描战车前方的区域，在进入冷却时间前揭露隐藏的目标。若揭露了未被侦察到的敌人，您也会立即被侦察到。您可在短暂延迟后手动停止扫描。"
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "固体燃料助推器，可持续数秒提升加速能力、机动性与操控性。左右两侧的助推器可独立工作，助您更快地旋转车体，同时不限制倒车能力。"
 
@@ -166,8 +190,17 @@ msgstr "此机械改装可在短时间内大幅提升战车的加速能力、发
 msgid "abilities/special/name/accuracyStacks"
 msgstr "模拟弹道计算设备"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "强制装填机制"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "同轴火箭发射器"
+
 msgid "abilities/special/name/battleFury"
 msgstr "半自动弹药架"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "外部供弹模式"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "弹道加热超载"
@@ -208,6 +241,15 @@ msgstr "感应式弹药推进剂助燃"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "液体燃料助推器"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "可调式引信装定器"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "炮弹校准系统"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "红外线搜索与追踪系统（IRST）"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "序列式火箭助推器"
 
@@ -232,8 +274,17 @@ msgstr "高压涡轮增压器辅助"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "提升您下一发炮弹的准度，在完全校准时具有不错的稳定性。"
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "立即将炮弹装填时间缩短至固定的较短时间。"
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "与主炮分开运作，从同轴发射器发射一枚无制导高爆火箭弹。"
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "每命中一辆敌方战车，可在限定时间内加快火炮装填速度。"
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "发射伤害较高的炮弹，但会牺牲机动性与射速。"
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "累积加热等级来让下一发炮弹对敌方战车造成更高伤害。"
@@ -274,6 +325,15 @@ msgstr "系统会进行充能以提升伤害。充能越高，伤害就越大。
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "可随时激活助推器，来为速度带来大幅加成。"
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "命中可见的敌方战车可提升下一发炮弹的伤害或穿透力。"
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "此火炮配备特殊装置，可在射击前修改部分炮弹参数。"
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "扩大视野范围，并在狭窄区域内侦测移动中或藏于树丛的战车。"
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "固体燃料助推器，可提升加速能力、机动性与操控性。"
 
@@ -298,8 +358,14 @@ msgstr "特殊机制，可在短时间期间提升发动机功率、加速能力
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "保持静止或以低于特定数值的速度移动，可让您校正战车的“模拟弹道计算设备”并累计准度等级，提升您下一发炮弹的准度。若您超过速限，您的准度等级累计进度将暂停，直到您降低速度。当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转动时的散布误差亦会降低。此效果会在射击后移除。"
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "此战车在炮盾上安装了火箭发射器。激活能力来切换至副武器的瞄准镜，然后按下开火键发射无制导高爆火箭。"
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "每当您以炮弹命中一辆已侦察到的敌方战车时，您会获得一个装填效率等级，可暂时提升您火炮的装填速度。等级随每次命中累积，借由射击摧毁一辆敌方战车，可额外累积装填效率等级。"
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "此战车的“外部弹药供应模块”能让其发射可造成更高伤害的高装药单体炮弹。激活时，此模块也会降低机动性和射速。"
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "若您的火炮已完成装填，您可开始加热下一发炮弹。您达到的加热等级越高，平均伤害的加成也将越高。加热过程中，您无法更改炮弹。当您达到最高加热等级时，会开始倒数计时。若您未在倒数结束前发射炮弹，您将在数秒内无法射击。"
@@ -340,6 +406,15 @@ msgstr "系统会随着时间自动累积充能，在射击时消耗部分充能
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "“液体燃料助推器”会提升发动机功率，让您在战场上获得抢占位置的优势，然而也会限制您战车的倒车与转向速度。助推器可随时开启或关闭，若超过重新激活次数限制将无法操作。助推器会在激活时升温，同时冷却期间将无法使用，代表无法不断使用助推器，要是超过临界加热等级更会遭暂时完全停用。谨慎计划使用时机，避免反遭对手突袭。"
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "以炮弹命中一辆可见的敌方战车时，下一发炮弹的引信装定器将会调整。若前一发炮弹击穿敌方装甲，下一发炮弹的伤害将会提高。若未击穿，下一发炮弹的穿透力将会提高。"
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。武装配置会显示受切换射击模式影响的参数。"
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "一种先进光学装置，可扩大视野范围并增强对移动中与躲在树丛后战车的侦察能力。激活时，装置会扫描战车前方的狭窄区域，揭露隐藏目标，随后进入冷却时间。若揭露了未被侦察到的敌人，您也会立即被侦察到。您可在短暂延迟后手动停止扫描。"
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "固体燃料助推器，可持续数秒提升战车的加速能力、机动性与操控性。与一般的火箭助推器不同，左右两侧的助推器可独立工作，助您更快地旋转车体，同时不限制倒车能力。助推器可在每场战斗期间使用数次，但再次激活前需要进行冷却。"
 
@@ -363,6 +438,18 @@ msgstr "此机械改装可在短时间内大幅提升战车的加速能力、发
 
 msgid "characteristics/abilities/special/notes"
 msgstr "显示的所有数值均为此战车的可能最大值。可以通过装备、指令与消耗品更改这些数值，但此处未反映相关变化。"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "可校准AP弹"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "可校准APCR弹"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "可校准HE弹"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "可校准HEAT弹"
 
 msgid "characteristics/templates/upTo"
 msgstr "最多 %(value)%s"

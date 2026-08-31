@@ -229,23 +229,14 @@ msgstr "เมื่อทำการซื้อ:"
 msgid "battlePassBuyView/descr"
 msgstr "การซื้อด่านความก้าวหน้าจะปลดล็อคแและมอบรางวัลทั้งหมดที่รวมอยู่ในด่านดังกล่าวทันที"
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "รางวัลเหล่านี้จะมอบให้คุณหลังจากที่ได้ผ่านด่านที่กำลังจะมาถึงแล้ว"
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "รางวัลต่อไปนี้จะมอบให้คุณสำหรับด่าน %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "คุณได้รับรางวัลต่อไปนี้ทันที"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "รางวัลต่อไปนี้จะมอบให้คุณสำหรับด่าน %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "จะถูกปลดล็อค"
+msgstr "การปลดล็อคในด่านี่ยังไม่ผ่าน"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "จะได้รับทันที"
+msgstr "ได้รับทันที"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "เปิดใช้บทบัตรผ่านการรบ"
@@ -277,20 +268,17 @@ msgstr "บทเพลงแห่งกระทิง"
 msgid "chapter/fullName/1114"
 msgstr "บทเพลงแห่งกระทิง"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "การแข่งชั้นยอด"
 
-msgid "chapter/fullName/201"
-msgstr "เวลาถูกฝัง"
+msgid "chapter/fullName/211"
+msgstr "ผู้เชี่ยวชาญพิเศษ"
 
-msgid "chapter/fullName/202"
-msgstr "มันคือชะตาของเรา"
+msgid "chapter/fullName/212"
+msgstr "สตั้นท์แมน"
 
-msgid "chapter/fullName/203"
-msgstr "บัญชาการทะเลทราย"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "ผู้สงบนิ่ง"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "บทเพลงแห่งกระทิง"
@@ -298,17 +286,14 @@ msgstr "บทเพลงแห่งกระทิง"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "บทเพลงแห่งกระทิง"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "เวลาถูกฝัง"
+msgid "chapter/fullNameUppercased/211"
+msgstr "ผู้เชี่ยวชาญพิเศษ"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "มันคือชะตาของเรา"
+msgid "chapter/fullNameUppercased/212"
+msgstr "สตั้นท์แมน"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "บัญชาการทะเลทราย"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "ผู้สงบนิ่ง"
 
 msgid "chapter/title"
 msgstr "บทที่ %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "ภารกิจประสบการณ์พลรถถัง x3
 
 msgid "equipCoinBonus"
 msgstr "องค์ประกอบ: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "กลุ่มชุดติดตั้งสามมิติ"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "ผู้บังคับการ"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "มีให้หลังผ่านบททั้งหมดแล้ว บทที่ผ่าน: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "คว้าพาหนะพิเศษและองค์ประกอบปรับแต่งเฉพาะตัว"
+msgstr "มาเข้าบทเพื่อรับรางวัลเฉพาะและองค์ประกอบปรับแต่งเฉพาะ"
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "บัตรผ่านการรบ: Far Cry มาแล้ว!"
+msgstr "บทพิเศษมาถึงแล้ว!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "ซื้อบัตรผ่านปรับปรุงแล้วรับรางวัลให้มากขึ้น!"
@@ -1114,11 +1102,8 @@ msgstr "ด่าน %(level)d ของการแข่งชั้นยอ�
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "ประสบการณ์ให้กับสมาชิกพลรถถังแต่ละคนของพาหนะ %(nation)s ที่เลือกไว้"
 
-msgid "rewardChoice/subTitle"
-msgstr "เลือกรางวัลของคุณ"
-
 msgid "rewardChoice/title"
-msgstr "บัตรผ่านการรบ"
+msgstr "เลือกรางวัลของคุณ"
 
 msgid "rewardChoice/titleChapter"
 msgstr "บัตรผ่านการรบ: บท %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "บัตรผ่านการรบบทที่ %(chapter)s ด�
 msgid "season/fullName/1002"
 msgstr "บทเพลงแห่งกระทิง"
 
-msgid "season/fullName/20"
-msgstr "การค้นหาทะเลทราย"
+msgid "season/fullName/21"
+msgstr "โดนกักบริเวณ"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "บทเพลงแห่งกระทิง"
 
-msgid "season/fullNameUppercased/20"
-msgstr "การค้นหาทะเลทราย"
+msgid "season/fullNameUppercased/21"
+msgstr "โดนกักบริเวณ"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "คำสั่งให้เลือกใช้"

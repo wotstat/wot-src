@@ -222,7 +222,7 @@ class SkillSelectView(ViewImpl):
         self.__selectedSkills = self.__cmpConf.getCurrentCrewSkills()
         self._fillModel()
         self.__skillsManager.updateSkills(self.__selectedSkills)
-        self.__paramsView.update()
+        self.__paramsView.updateModel()
         return
 
     def _onClick(self, event):

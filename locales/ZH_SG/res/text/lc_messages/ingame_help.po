@@ -232,11 +232,35 @@ msgstr "此火炮可持续射击而不需要进行装填。每次发射炮弹都
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "过热调节自动火炮"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "此机制会立即将炮弹装填时间缩短为固定的较短时间。使用时，每加速装填一发炮弹，就消耗1次使用次数，次数会随时间补充——弹匣已满时补充速度较快。战斗开始时会提供固定的使用次数。"
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "强制装填机制"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "此战车在炮盾上安装了火箭发射器。若要切换至火箭瞄准镜，请按下："
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "同轴火箭发射器"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "使用火箭瞄准镜瞄准时，按下开火键以发射火箭："
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "同轴火箭发射器"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "每当您以炮弹命中一辆敌方战车时，您会获得一个装填效率等级，可暂时提高您火炮的装填速度。等级随每次命中累积。\n藉由射击摧毁一辆敌方战车，可额外累积装填效率等级。"
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "半自动弹药架"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "此战车的“外部弹药供应模块”能让其发射可造成更高伤害的高装药单体炮弹。激活时，此模块也会降低机动性和射速。"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "外部供弹模式"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "若您的火炮已完成装填，您可开始加热下一发炮弹。您达到的加热等级越高，平均伤害的加成也将越高。\n若要开始加热，请按下："
@@ -345,6 +369,30 @@ msgstr "激活后，火箭助推器可提高发动机功率和最高前进速度
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "优点和缺点"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "当您以炮弹命中一辆可见的敌方战车时，下一发炮弹的引信装定器将会调整。若前一发炮弹击穿敌方装甲，下一发炮弹的伤害将会提高。若未击穿，下一发炮弹的穿透力将会提高。"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "可调式引信装定器"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。根据所选模式，不同炮弹的参数会有所变化，而每种模式都能让您迅速适应不同的战斗情况。"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "炮弹校准系统"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "一种先进光学装置，可扩大视野范围并增强对移动中与躲在树丛后战车的侦察能力。激活时，装置会扫描战车前方的狭窄区域，揭露隐藏目标，随后进入冷却时间。"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "红外线搜索与追踪系统（IRST）"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "然而，若揭露了未被侦察到的敌人，您也会立即被侦察，并持续一段固定时间，同时您与被您侦察到的敌方战车都会立即收到通知。您可以手动停止扫描，并在短暂延迟后使该装置进入冷却时间。"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "红外线搜索与追踪系统（IRST）"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "固体燃料助推器，可持续数秒提升加速能力、机动性与操控性。左右两侧的助推器可独立工作，助您更快地旋转车体，同时不限制倒车能力。"

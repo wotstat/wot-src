@@ -68,7 +68,7 @@ msgid "entryPoint/tooltip/modeBtnText"
 msgstr "モード"
 
 msgid "entryPoint/tooltip/modeDescription"
-msgstr "{{mode}} — 別のゲームモードに切り替え中"
+msgstr "{{mode}} — 別のモードに切り替え中"
 
 msgid "entryPoint/tooltip/state/announce"
 msgstr "モード開始:"
@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "「ネオンダッシュ」は、いつもとは一味違う体験を楽しめる期間限定イベントです。危険なコースを駆け抜けながらライバルと競い合い、ミッションを達成することで、報酬が手に入ります。"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+msgstr "お使いのPCは、本モードのシステム要件を満たしていません。グラフィックや車輌の操作に問題が生じたり、クライアントがクラッシュする可能性があります。"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "パフォーマンス低下の可能性あり"
+msgstr "低パフォーマンス"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} 全Tier対象"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+msgstr "お使いのPCは、本モードのシステム要件を満たしていません。グラフィックや車輌の操作に問題が生じたり、クライアントがクラッシュする可能性があります。"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "最高グラフィック設定推奨"
+msgstr "パフォーマンス低下"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon)最高グラフィック設定推奨"
+msgstr "%(icon) パフォーマンス低下中"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "最高グラフィック設定推奨"
+msgstr "パフォーマンス低下の可能性あり"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon)最高グラフィック設定推奨"
+msgstr "%(icon)パフォーマンス低下の可能性あり"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "新たなネオンダッシュ・ミッションの登場まで"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "おめでとうございます!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "全ステージ制覇後の進捗システム"
+msgstr "繰り返し挑戦可能なステージ"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "メイン進捗を制覇しました。"
+msgstr "メイン進捗を制覇"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "このステージは何度でも達成できます。"
+msgstr "報酬と交換可能なリソース:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "取得ポイント: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "繰り返し挑戦可能"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "達成報酬:"
+msgstr "達成報酬"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "敗北:"
+msgstr "敗北"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "勝利:"
+msgstr "勝利"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "ポイント:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "現在挑戦できるミッションはすべて達成しました。次のローテーションで新たなミッションが登場します。"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "期限まで{{timeLeft}}"
+msgstr "期限切れまで{{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "期限まで{{timeLeft}}"
+msgstr "イベント終了まで{{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "新たなミッションまで{{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "レーザーを避け、タイミングよくジャンプしてゴール
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "レーザーとジャンプ台に要注意"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "車輌が動けなくなった場合は、アビリティー「チェックポイントに戻る」を使用することで最後に到達したチェックポイントまでテレポートできます。"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "チェックポイントに戻る"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "でモードの詳細を確認できます。"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15～30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "ゴールラインまで\n戦い抜け"
+msgstr "ゴールラインまで戦い抜け"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} 全Tier対象"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+msgstr "お使いのPCは、本モードのシステム要件を満たしていません。グラフィックや車輌の操作に問題が生じたり、クライアントがクラッシュする可能性があります。"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "最高グラフィック設定推奨"
+msgstr "パフォーマンス低下"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon)最高グラフィック設定推奨"
+msgstr "%(icon) パフォーマンス低下中"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "最高グラフィック設定推奨"
+msgstr "パフォーマンス低下の可能性あり"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon)最高グラフィック設定推奨"
+msgstr "%(icon)パフォーマンス低下の可能性あり"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "ネオンダッシュ"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "危険なコースを駆け抜けながらライバルと競い合い、ミッションを達成することで、報酬が手に入ります。"
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "ネオンダッシュ"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "ネオンダッシュ"

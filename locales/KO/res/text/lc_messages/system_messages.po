@@ -1009,6 +1009,9 @@ msgstr "서버 오류가 발생하여 승무원 훈련에 실패했습니다. �
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s"
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)s개)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Warships에서 사용되었습니다."
 
 msgid "lootboxes/open/server_error"
-msgstr "선물 획득 오류: 서버 오류가 발생했습니다."
+msgstr "상자 개봉 오류: 서버 오류가 발생했습니다."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "선물 획득 중 오류가 발생했습니다. 이전 작업이 완료될 때까지 기다려 주십시오."
+msgstr "상자 개봉 오류: 이전 작업이 완료될 때까지 기다려 주십시오."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
@@ -2383,30 +2386,6 @@ msgstr "%(vehicleName)s 전차 특별 위장을 획득했습니다."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "%(vehicleName)s 전차의 특별 위장을 %(nation)s 국가 모든 전차에 이용할 수 있습니다."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "작전 진행 상황이 모두 저장되었습니다. 언제든지 캠페인을 재개할 수 있습니다."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "%(campaignName1)s 캠페인 및 %(campaignName2)s 캠페인 일시 중지"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "일시 중지된 작전 및 임무가 재개되었습니다."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "%(campaignName1)s 캠페인 및 %(campaignName2)s 캠페인 재개"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "작전 진행 상황이 모두 저장되었습니다. 언제든지 캠페인을 재개할 수 있습니다."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "%(campaignName)s 캠페인 일시 중지"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "일시 중지된 작전이 재개되었습니다."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "%(campaignName)s 캠페인 재개"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s 부품을 장착했습니다."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "보상 수령 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s 부품을 장착했습니다."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "보상 수령 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s 부품을 장착했습니다."
 
 msgid "personalMissions/reward/regular/server_error"

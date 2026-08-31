@@ -28,6 +28,30 @@ msgstr "QUÀ ĐÃ NHẬN"
 msgid "awardViews/footer/backButton/"
 msgstr "Rõ!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Còn {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Không mở lại"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Phần thưởng giá trị"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Mở lại miễn phí"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Không đủ trái phiếu"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Mở lại với {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Mở lại"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Phần thưởng giá trị đã xuất hiện sẽ không đủ điều kiện để mở lại."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Ứ.dụng K.thuật"
 
@@ -118,6 +142,18 @@ msgstr "Số hộp đã mở: %(count)"
 msgid "common/statsButton"
 msgstr "Thống kê"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Hộp sẽ được mở lại để có cơ hội nhận các phần thưởng khác."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Mở lại"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Mở lại với giá {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Hủy bỏ"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Sự kiện sẽ hết sau %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Nếu bạn không mở hết các hộp trước khi sự kiện kết thúc, chúng sẽ tự động được khui sau."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Nếu bạn không mở hộp trước khi sự kiện kết thúc, chúng sẽ tự động được khui."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Nếu đã sở hữu mọi xe thuộc danh sách khả dĩ trong hộp, tất cả xe mà bạn nhận sau đó từ hộp sẽ được đền bù theo vàng đúng như giá trị đầy đủ."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Mỗi %(guaranteed0)s hộp chắc chắn đem lại một xe Cấp VIII–X. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một chiếc Cấp VIII–X chưa sở hữu khi khui hộp thứ&zwnbsp;%(guaranteed0)s (tương ứng theo loại hộp). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Mỗi %(guaranteed)s hộp chắc chắn đem lại một xe Cấp VIII–X. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một chiếc Cấp VIII–X chưa sở hữu khi khui hộp thứ&zwnbsp;%(guaranteed)s (tương ứng theo loại hộp). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Nếu không hài lòng với phần thưởng trong một hộp, bạn có thể mở lại hộp đó để có cơ hội nhận đồ khác từ danh sách. Mỗi hộp chỉ có thể được mở lại số lần nhất định:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Mở Tự động"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Đền bù"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Phần thưởng Chắc chắn"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Mở lại"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Xem danh sách đầy đủ ở trang chủ game"
@@ -273,6 +315,30 @@ msgstr "cho %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "Kiểu mẫu %(style) 3D"
+
+msgid "reroll/free"
+msgstr "Miễn phí"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Giao dịch"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Bạc bị trừ: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Trái phiếu bị trừ: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Ngày: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Vàng bị trừ: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Sự kiện %(eventName)s đã kết thúc"
@@ -480,3 +546,15 @@ msgstr "Xe được đền bù: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Đền bù cho xe đã có trong Ga-ra."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Mở lại"
+
+msgid "tooltip/reroll/price"
+msgstr "Chi phí"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Mở lại một hộp sẽ cho bạn cơ hội nhận những phần thưởng khác từ cùng danh sách."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Mở lại"

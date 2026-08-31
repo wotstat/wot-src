@@ -46,6 +46,15 @@ msgstr "有効にすると、マップ上のオブジェクトが倒壊する様
 msgid "HAVOK_ENABLED/warning"
 msgstr "現在の戦闘で無効になっている場合、設定の変更は次の戦闘から反映されます。"
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "改良されたビジュアル・エフェクト"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "改良されたビジュアル・エフェクトを有効にします。このオプションを無効にすると通常のエフェクトに戻り、ゲームのパフォーマンスが改善される可能性があります。"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "現在の戦闘で無効になっている場合、設定の変更は次の戦闘から反映されます。"
+
 msgid "LANGUAGE_CODE"
 msgstr "ja"
 
@@ -175,11 +184,11 @@ msgstr "履帯と車輪の軌跡を表示"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "履帯や車輪の軌跡を地面に表示できます。\n\nグラフィック品質が低い場合や「簡易」オプションを選択している場合には利用できません。"
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "スナイパーモードで3D付属品を非表示"
+msgid "VISIBILITY_TUNNEL"
+msgstr "エフェクトと3D付属品の表示"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "スナイパーモードで照準を合わせる際に、車輌の3D付属品を一時的に非表示にします。\n\n視覚的な妨げを減らすことで、照準の精度を向上させます。"
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "照準中の視界の妨げを軽減するため、画面中央付近のエフェクトと3D付属品の表示を調整します。3D付属品の表示が調整されるのはスナイパーモード使用時のみです。\n\n値を低くするとエフェクトと3D付属品がより透明になり、照準を合わせやすくなります。"
 
 msgid "WATER_QUALITY"
 msgstr "水面の描画品質"
@@ -1995,6 +2004,15 @@ msgstr "表示モード"
 
 msgid "screenMode/windowed"
 msgstr "ウィンドウ"
+
+msgid "showPrebattleHighlights"
+msgstr "スポットライトを有効化"
+
+msgid "showPrebattleHighlights/description"
+msgstr "戦闘開始前のカウントダウン中に、見栄えのする選り抜きの車輌を表示します。\n\n無効にすることでゲームのパフォーマンスが改善される可能性があります。"
+
+msgid "showPrebattleHighlights/warning"
+msgstr "現在の戦闘で設定が無効になっている場合、次の戦闘から有効になります。"
 
 msgid "smoothing/description"
 msgstr "オブジェクトの輪郭や細い線を滑らかにするための追加処理の品質を変更します。より自然な描画結果が得られます。"

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=1; plural=0;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "車輌やゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
+msgstr "Tier VIIIプレミアム車輌やゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
 
 msgid "boxTooltip/description/text/gold"
-msgstr "車輌やカスタマイズ要素、ゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
+msgstr "希少なTier X車輌やゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
 
 msgid "boxTooltip/description/text/silver"
-msgstr "車輌やカスタマイズ要素、ゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
+msgstr "Tier IXプレミアム車輌やゲーム内通貨などといった貴重な報酬が一定の確率でドロップするボックスです。"
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "ゲーム内ショップから入手できるほか、すべての種類のボックスから報酬として一定の確率でドロップします。"
+msgstr "ボックスはプレミアムショップでアイテムを購入した際にギフトとして受け取ることができます。またすべての種類のボックスから報酬として一定の確率でドロップします。"
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "すべての種類のボックスから報酬として一定の確率でドロップします。"
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "すべての種類のボックスから報酬として一定の確率でドロップします。"
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "バウンティー・ボックス"
+msgstr "セレスティアル・ボックス"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "ブーン・ボックス"
+msgstr "チョーズン・ボックス"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "ベストーワル・ボックス"
+msgstr "ヘヴンヘルプ・ボックス"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "バウンティー・ボックス"
+msgstr "セレスティアル・ボックス"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "ブーン・ボックス"
+msgstr "チョーズン・ボックス"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "ベストーワル・ボックス"
+msgstr "ヘヴンヘルプ・ボックス"
 
 msgid "entryPoint/tooltip/description"
-msgstr "新登場の限定アイテムが一定の確率でドロップする特別なボックスです。ゲーム内ショップから入手できます。"
+msgstr "新登場の限定Tier VIII～X車輌をはじめとする報酬がドロップする特別なボックスです。\nボックスはプレミアムショップでアイテムを購入した際にギフトとして受け取ることができます。またすべての種類のボックスから報酬として一定の確率でドロップします。"
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "イベント終了まで"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "技術的な理由により、一時的にボックスの開封および購入ができなくなっています。 ご不便をおかけして申し訳ありません。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "「ゴッドブレス・ボックス」は一時的に利用不可"
 
 msgid "eventName/lowerCase"
-msgstr "囁きの貯蔵庫"
+msgstr "天帝の加護"
 
 msgid "eventName/upperCase"
-msgstr "囁きの貯蔵庫"
+msgstr "天帝の加護"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "ドロップしうる車輌をすべてガレージに所有済みの場合は、代わりに「ブーン・ボックス」を受け取ることができます。"
+msgid "infoPage/footer/description/autoOpen"
+msgstr "未開封のボックスは、イベント終了時に自動的に開封されます。"
 
 msgid "infoPage/footer/description/compensation"
-msgstr "ボックスからドロップしうる車輌をすべて所有済みの場合、車輌ではなく報酬として「ブーン・ボックス」がドロップします。"
+msgstr "ボックスからドロップしうる車輌をすべて所有済みの状態で「確約報酬」、または車輌がドロップすると、補償として「チョーズン・ボックス」を入手できます。"
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "「バウンティー・ボックス」を%(guaranteed0)s個、「ベストーワル・ボックス」を%(guaranteed1)s個、「ブーン・ボックス」を%(guaranteed2)s個開封すると、ガレージに所有していない車輌が必ず1輌はドロップするようになっています。もしボックスを開封してもそのような車輌がドロップしなかった場合、ボックスの種類ごとにそれぞれ%(guaranteed0)s個目/%(guaranteed1)s個目/%(guaranteed2)s個目から未所有の車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+msgstr "%(guaranteed0)s箱の「セレスティアル・ボックス」、%(guaranteed1)s箱の「ヘヴンヘルプ・ボックス」、%(guaranteed2)s箱の「チョーズン・ボックス」を開封すると、Tier VIII～X車輌1輌が必ずドロップするようになっています。もしボックスを開封してもTier VIII～X車輌がドロップしなかった場合、ボックスの種類ごとにそれぞれ%(guaranteed0)s箱目、%(guaranteed1)s箱目、%(guaranteed2)s箱目から未所有のTier VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
 
 msgid "infoPage/footer/title/compensation"
-msgstr "補償"
+msgstr "全車輌を入手済みの場合"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "確約報酬"
+msgid "infoPage/header/description"
+msgstr "ボックスからは貴重なゲーム内アイテムの数々がドロップします。\nドロップする報酬の一覧は下記よりご確認ください。"
 
-msgid "infoPage/header/rewards/description"
-msgstr "ひとつのグループからドロップする報酬はひとつまでです"
+msgid "noBoxesView/description/"
+msgstr "ボックスがありません。\nボックスはプレミアムショップから購入できます。"
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "チョーズン・ボックス"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "ボックスからドロップしうる車輌をすべて所有済みの場合、「確約報酬」として車輌ではなく「チョーズン・ボックス」がドロップします"
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "セレスティアル・ボックス"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "チョーズン・ボックス"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "ヘヴンヘルプ・ボックス"

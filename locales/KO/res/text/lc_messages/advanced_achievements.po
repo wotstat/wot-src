@@ -50,7 +50,7 @@ msgid "description/F140_Fantome"
 msgstr "Fantôme (%(level)s단계) 확보"
 
 msgid "description/F141_Durendal"
-msgstr "Durendal 확보(%(level)s단계)"
+msgstr "Durendal (%(level)s단계) 확보"
 
 msgid "description/G104_Stug_IV"
 msgstr "첫 번째 작전을 완료하고 StuG&nbsp;IV (%(level)s단계) 확보"
@@ -172,9 +172,6 @@ msgstr "T-44-122 (%(level)s단계) 확보"
 msgid "description/branch_china_Ch19_121"
 msgstr "121(%(level)s단계)으로 이어지는 중국 중형전차 계통도의 모든 전차 연구"
 
-msgid "description/branch_china_Ch29_Type_62C_prot"
-msgstr "WZ-132-1(%(level)s단계)으로 이어지는 중국 경전차 계통도의 모든 전차 연구"
-
 msgid "description/branch_china_Ch38_WZ113G_FT"
 msgstr "WZ-113G FT(%(level)s단계)로 이어지는 중국 구축전차 계통도의 모든 전차 연구"
 
@@ -190,14 +187,17 @@ msgstr "BZ-79(%(level)s단계)으로 이어지는 중국 중전차 계통도의 
 msgid "description/branch_china_Ch70_PTZ_78"
 msgstr "PTZ-78(%(level)s단계)으로 이어지는 중국 구축전차 계통도의 모든 전차 연구"
 
+msgid "description/branch_china_Ch71_WZ_219"
+msgstr "WZ-219(%(level)s단계)으로 이어지는 중국 경전차 계통도의 모든 전차 연구"
+
 msgid "description/branch_czech_Cz04_T50_51"
 msgstr "TVP T 50/51(%(level)s단계)으로 이어지는 체코 중형전차 계통도의 모든 전차 연구"
 
-msgid "description/branch_czech_Cz17_Vz_55"
-msgstr "Vz. 55(%(level)s단계)로 이어지는 체코 중전차 계통도의 모든 전차 연구"
-
 msgid "description/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "Vz. 71 Tesák(%(level)s단계)으로 이어지는 체코 경전차 계통도의 모든 전차 연구"
+
+msgid "description/branch_czech_Cz46_Vz_63P"
+msgstr "Vz. 63P(%(level)s단계)로 이어지는 체코 중전차 계통도의 모든 전차 연구"
 
 msgid "description/branch_france_F108_Panhard_EBR_105"
 msgstr "Panhard EBR 105(%(level)s단계)로 이어지는 프랑스 경전차 계통도의 모든 전차 연구"
@@ -247,6 +247,9 @@ msgstr "leKpz Borkenkäfer(%(level)s단계)로 이어지는 독일 경전차 계
 msgid "description/branch_germany_G189_Hirschkafer"
 msgstr "Hirschkäfer(%(level)s단계)로 이어지는 독일 구축전차 계통도의 모든 전차 연구"
 
+msgid "description/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu(%(level)s단계)로 이어지는 독일 중전차 계통도의 모든 전차 연구"
+
 msgid "description/branch_germany_G42_Maus"
 msgstr "Maus(%(level)s단계)로 이어지는 독일 중전차 계통도의 모든 전차 연구"
 
@@ -274,20 +277,23 @@ msgstr "Rinoceronte(%(level)s단계)로 이어지는 이탈리아 중전차 계�
 msgid "description/branch_italy_It23_CC_3"
 msgstr "Controcarro 3 Minotauro(%(level)s단계)로 이어지는 이탈리아 구축전차 계통도의 모든 전차 연구"
 
+msgid "description/branch_italy_It43_CAV_mod_71"
+msgstr "CAV 71(%(level)s단계)으로 이어지는 이탈리아 중형전차 계통도의 모든 전차 연구"
+
 msgid "description/branch_japan_J16_ST_B1"
 msgstr "STB-1(%(level)s단계)으로 이어지는 일본 중형전차 계통도의 모든 전차 연구"
 
 msgid "description/branch_japan_J20_Type_2605"
 msgstr "Type 5 Heavy(%(level)s단계)로 이어지는 일본 중전차 계통도의 모든 전차 연구"
 
-msgid "description/branch_japan_J35_Ho_Ri_3"
-msgstr "Ho-Ri 3(%(level)s단계)로 이어지는 일본 구축전차 계통도의 모든 전차 연구"
-
 msgid "description/branch_japan_J40_Type_71"
 msgstr "Type 71(%(level)s단계)으로 이어지는 일본 중전차 계통도의 모든 전차 연구"
 
 msgid "description/branch_japan_J52_STK_2"
 msgstr "STK-2(%(level)s단계)로 이어지는 일본 중전차 계통도의 모든 전차 연구"
+
+msgid "description/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "Shugo(%(level)s단계)로 이어지는 일본 구축전차 계통도의 모든 전차 연구"
 
 msgid "description/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "60TP Lewandowskiego(%(level)s단계)로 이어지는 폴란드 중전차 계통도의 모든 전차 연구"
@@ -307,11 +313,11 @@ msgstr "Strv 103B(%(level)s단계)로 이어지는 스웨덴 구축전차 계통
 msgid "description/branch_sweden_S16_Kranvagn"
 msgstr "Kranvagn(%(level)s단계)으로 이어지는 스웨덴 중전차 계통도의 모든 전차 연구"
 
-msgid "description/branch_sweden_S28_UDES_15_16"
-msgstr "UDES 15/16(%(level)s단계)으로 이어지는 스웨덴 중형전차 계통도의 모든 전차 연구"
-
 msgid "description/branch_sweden_S36_Strv_107_12"
 msgstr "Strv 107-12(%(level)s단계)로 이어지는 스웨덴 구축전차 계통도의 모든 전차 연구"
+
+msgid "description/branch_sweden_S41_BV_111"
+msgstr "BV-111(%(level)s단계)으로 이어지는 스웨덴 중형전차 계통도의 모든 전차 연구"
 
 msgid "description/branch_uk_GB100_Manticore"
 msgstr "Manticore(%(level)s단계)로 이어지는 영국 경전차 계통도의 모든 전차 연구"
@@ -510,6 +516,9 @@ msgstr "제3 섹터 캠페인의 모든 전차 확보"
 
 msgid "description/third_campaign_first_operation"
 msgstr "첫 번째 작전을 완료하고 Windhund(%(level)s단계) 확보"
+
+msgid "description/third_campaign_fourth_operation"
+msgstr "네 번째 작전을 완료하고 Fossa(%(level)s단계) 확보"
 
 msgid "description/third_campaign_second_operation"
 msgstr "두 번째 작전을 완료하고 Dravec(%(level)s단계) 확보"
@@ -850,6 +859,9 @@ msgstr "BZ-79"
 msgid "name/Ch70_PTZ_78"
 msgstr "PTZ-78"
 
+msgid "name/Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "name/Cz02_TVP_T50"
 msgstr "Škoda T&nbsp;50"
 
@@ -894,6 +906,9 @@ msgstr "Vz. 71 Tesák"
 
 msgid "name/Cz40_DBV_152"
 msgstr "DBV-152"
+
+msgid "name/Cz46_Vz_63P"
+msgstr "Vz. 63P"
 
 msgid "name/F06_ARL_44"
 msgstr "ARL&nbsp;44"
@@ -1074,6 +1089,18 @@ msgstr "Hirschkäfer"
 
 msgid "name/G18_JagdPanther"
 msgstr "Jagdpanther"
+
+msgid "name/G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 55"
+
+msgid "name/G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 57"
+
+msgid "name/G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "name/G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
 
 msgid "name/G200_Chi_Go"
 msgstr "Chi-Go"
@@ -1378,6 +1405,9 @@ msgstr "Semovente&nbsp;M43 Bassotto"
 msgid "name/It31_CC_67_B"
 msgstr "SMV&nbsp;CC-67"
 
+msgid "name/It43_CAV_mod_71"
+msgstr "CAV 71"
+
 msgid "name/J10_Chi_To"
 msgstr "Type&nbsp;4 Chi-To"
 
@@ -1443,6 +1473,9 @@ msgstr "Ashigaru"
 
 msgid "name/J52_STK_2"
 msgstr "STK-2"
+
+msgid "name/J53_Ho_Ri_Shugo"
+msgstr "Shugo"
 
 msgid "name/Pl05_50TP_Tyszkiewicza"
 msgstr "50TP Tyszkiewicza"
@@ -1735,11 +1768,11 @@ msgstr "UDES&nbsp;14 Alt&nbsp;5"
 msgid "name/S36_Strv_107_12"
 msgstr "Strv 107-12"
 
+msgid "name/S41_BV_111"
+msgstr "BV-111"
+
 msgid "name/branch_china_Ch19_121"
 msgstr "중국: 121"
-
-msgid "name/branch_china_Ch29_Type_62C_prot"
-msgstr "중국: WZ-132-1"
 
 msgid "name/branch_china_Ch38_WZ113G_FT"
 msgstr "중국: WZ-113G FT"
@@ -1756,14 +1789,17 @@ msgstr "중국: BZ-79"
 msgid "name/branch_china_Ch70_PTZ_78"
 msgstr "중국: PTZ-78"
 
+msgid "name/branch_china_Ch71_WZ_219"
+msgstr "중국: WZ-219"
+
 msgid "name/branch_czech_Cz04_T50_51"
 msgstr "체코: TVP T 50/51"
 
-msgid "name/branch_czech_Cz17_Vz_55"
-msgstr "체코: Vz. 55"
-
 msgid "name/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "체코: Vz. 71 Tesák"
+
+msgid "name/branch_czech_Cz46_Vz_63P"
+msgstr "체코: Vz. 63P"
 
 msgid "name/branch_france_F108_Panhard_EBR_105"
 msgstr "프랑스: Panhard EBR 105"
@@ -1813,6 +1849,9 @@ msgstr "독일 : leKpz Borkenkäfer"
 msgid "name/branch_germany_G189_Hirschkafer"
 msgstr "독일: Hirschkäfer"
 
+msgid "name/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "독일: Pz.Kpfw. Neu"
+
 msgid "name/branch_germany_G42_Maus"
 msgstr "독일: Maus"
 
@@ -1840,20 +1879,23 @@ msgstr "이탈리아: Rinoceronte"
 msgid "name/branch_italy_It23_CC_3"
 msgstr "이탈리아: Controcarro 3 Minotauro"
 
+msgid "name/branch_italy_It43_CAV_mod_71"
+msgstr "이탈리아: CAV 71"
+
 msgid "name/branch_japan_J16_ST_B1"
 msgstr "일본: STB-1"
 
 msgid "name/branch_japan_J20_Type_2605"
 msgstr "일본: Type 5 Heavy"
 
-msgid "name/branch_japan_J35_Ho_Ri_3"
-msgstr "일본: Ho-Ri 3"
-
 msgid "name/branch_japan_J40_Type_71"
 msgstr "일본: Type 71"
 
 msgid "name/branch_japan_J52_STK_2"
 msgstr "일본: STK-2"
+
+msgid "name/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "일본: Ho-Ri 4"
 
 msgid "name/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "폴란드: 60TP Lewandowskiego"
@@ -1873,11 +1915,11 @@ msgstr "스웨덴: Strv 103B"
 msgid "name/branch_sweden_S16_Kranvagn"
 msgstr "스웨덴: Kranvagn"
 
-msgid "name/branch_sweden_S28_UDES_15_16"
-msgstr "스웨덴: UDES 15/16"
-
 msgid "name/branch_sweden_S36_Strv_107_12"
 msgstr "스웨덴: Strv 107-12"
+
+msgid "name/branch_sweden_S41_BV_111"
+msgstr "스웨덴: BV-111"
 
 msgid "name/branch_uk_GB100_Manticore"
 msgstr "영국: Manticore"
@@ -2076,6 +2118,9 @@ msgstr "제3 섹터"
 
 msgid "name/third_campaign_first_operation"
 msgstr "작전: Windhund"
+
+msgid "name/third_campaign_fourth_operation"
+msgstr "작전: Fossa"
 
 msgid "name/third_campaign_second_operation"
 msgstr "작전: Dravec"

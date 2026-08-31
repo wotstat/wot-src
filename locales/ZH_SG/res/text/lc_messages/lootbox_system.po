@@ -28,6 +28,30 @@ msgstr "已获得奖励"
 msgid "awardViews/footer/backButton/"
 msgstr "收到!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "剩余{{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "无重开次数"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "珍贵的奖励"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "免费重开"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "点券不足"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "花费{{count}}重开"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "重开"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "已掉落的珍贵奖励无法重开。"
+
 msgid "bonuses/description/battle_booster"
 msgstr "指令"
 
@@ -118,6 +142,18 @@ msgstr "已开启补给箱：%(count)个"
 msgid "common/statsButton"
 msgstr "统计"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "取消"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "补给箱将重开，您将有机会获得不同奖励。"
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "重开"
+
+msgid "confirmRerollLootBox/title"
+msgstr "花费{{cost}}重开？"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "取消"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s：%(count)s"
 msgid "homeView/subtitle"
 msgstr "活动将于%(time)结束"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "如果您在活动结束前未开启所有补给箱，它们之后将自动开启。"
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "如果您在活动结束前未开启补给箱，它们将自动开启。"
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "如果您已拥有补给箱掉落列表中的所有战车，补给箱后续掉落的所有战车将全额补偿与之等值的金币。"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "每%(guaranteed0)s个补给箱必定包含一辆VIII–X级战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed0)s个补给箱（取决于补给箱类型）必定掉落一辆您未在车库中拥有的VIII–X级战车。掉落后计数器重置。"
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "每%(guaranteed)s个补给箱必定包含一辆VIII–X级战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed)s个补给箱（取决于补给箱类型）必定掉落一辆您未在车库中拥有的VIII–X级战车。掉落后计数器重置。"
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "若您不满意补给箱掉落的奖励，可重开该补给箱，有机会获得同一列表中的不同物品。每个补给箱的重开次数有限："
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "自动开启"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "补偿"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "保底奖励"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "重开"
 
 msgid "infoPage/header/lootListLink"
 msgstr "在官网上查看物品列表"
@@ -227,7 +269,7 @@ msgid "infoPage/header/probability/title"
 msgstr "奖励组"
 
 msgid "infoPage/header/rewards/description"
-msgstr "每个奖励组最多可掉落一个奖励。"
+msgstr "每个奖励组最多掉落一个奖励"
 
 msgid "infoPage/header/rewards/title"
 msgstr "奖励"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo)专属"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "“%(style)”3D风格"
+
+msgid "reroll/free"
+msgstr "免费"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "交易"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "扣除银币：%(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "扣除点券：%(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "日期：%(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "扣除金币：%(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "“%(eventName)s”活动已结束"
@@ -480,3 +546,15 @@ msgstr "补偿战车：%(count)个"
 
 msgid "tooltip/compensation/notification"
 msgstr "对车库中已有战车的补偿。"
+
+msgid "tooltip/reroll/attempt"
+msgstr "重开次数"
+
+msgid "tooltip/reroll/price"
+msgstr "价格"
+
+msgid "tooltip/reroll/text/default"
+msgstr "重开补给箱让您有机会获得同一列表中的不同奖励。"
+
+msgid "tooltip/reroll/title/default"
+msgstr "重开"

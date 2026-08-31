@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=1; plural=0;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Khi được mở, các hộp này có thể đem lại xe tăng, tiền tệ game và nhiều quà khác đầy giá trị cho bạn."
+msgstr "Khi được mở, các hộp này có thể đem lại xe Premium Cấp VIII, tiền tệ trong game và nhiều phần thưởng giá trị khác cho bạn."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Khi được mở, các hộp này có thể đem lại xe tăng, tiền tệ game, tùy biến và nhiều quà khác đầy giá trị cho bạn."
+msgstr "Khi được mở, các hộp này có thể đem lại xe Cấp X hiếm, tiền tệ trong game và nhiều phần thưởng giá trị khác cho bạn."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Khi được mở, các hộp này có thể đem lại xe tăng, tiền tệ game, tùy biến và nhiều quà khác đầy giá trị cho bạn."
+msgstr "Khi được mở, các hộp này có thể đem lại xe Premium Cấp IX, tiền tệ trong game và nhiều phần thưởng giá trị khác cho bạn."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Có thể nhận từ Cửa hàng trong game và khi mở các hộp thuộc bất kỳ loại nào khác."
+msgstr "Có thể nhận được từ quà khi mua hàng trong Shop Premium, cũng như lúc mở các hộp thuộc bất cứ loại nào khác."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Có thể nhận được lúc mở các hộp thuộc bất cứ loại nào khác."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Có thể nhận được lúc mở các hộp thuộc bất cứ loại nào khác."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Bounty Lootbox"
+msgstr "Celestial Lootbox"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Boon Lootbox"
+msgstr "Chosen Lootbox"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Bestowal Lootbox"
+msgstr "Heaven Help Lootbox"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "BOUNTY LOOTBOX"
+msgstr "CELESTIAL LOOTBOX"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "BOON LOOTBOX"
+msgstr "CHOSEN LOOTBOX"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "BESTOWAL LOOTBOX"
+msgstr "HEAVEN HELP LOOTBOX"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Đây là những hộp đặc biệt chứa đồ mới và độc. Chúng có thể sở hữu từ Cửa hàng trong game."
+msgstr "Đây là những hộp đặc biệt chứa xe VIII—X mới và độc đáo cùng nhiều phần thưởng khác.\nBạn có thể nhận được hộp từ quà khi mua hàng trong Shop Premium, cũng như lúc mở các hộp thuộc bất cứ loại nào khác."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Sự kiện sẽ hết sau"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Hiện không thể mở hay mua Hộp vì lý do kỹ thuật. Chúng tôi rất tiếc và xin lỗi về vấn đề nhất thời này."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Hộp God's Blessing Tạm thời Bất Khả dụng"
 
 msgid "eventName/lowerCase"
-msgstr "Vault of Whispers"
+msgstr "God's Blessing"
 
 msgid "eventName/upperCase"
-msgstr "VAULT OF WHISPERS"
+msgstr "GOD'S BLESSING"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Nếu đã được sở hữu mọi chiếc rồi, bạn sẽ được Boon Lootbox thay vào đó."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Nếu bạn không mở hết các hộp trước khi sự kiện kết thúc, chúng sẽ tự động được khui sau."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Nếu đã sở hữu mọi xe từ các hộp rồi, bạn sẽ nhận được Boon Lootbox làm phần thưởng thay phương tiện."
+msgstr "Nếu đã sở hữu mọi xe từ hộp rồi, bạn sẽ nhận được Chosen Lootbox làm Phần thưởng Chắc chắn hoặc thay cho xe xuất hiện."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Mỗi %(guaranteed0)s Bounty, %(guaranteed1)s Bestowal và %(guaranteed2)s Boon Lootbox chắc chắn đem lại một xe. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một chiếc chưa sở hữu khi khui hộp thứ %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (tương ứng theo loại hộp). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+msgstr "Mỗi %(guaranteed0)s Celestial, %(guaranteed1)s Heaven Help và %(guaranteed2)s Chosen Lootbox chắc chắn đem lại một xe Cấp VIII—X. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một chiếc Cấp VIII—X chưa sở hữu khi khui hộp thứ %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (tương ứng theo loại hộp). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Đền bù"
+msgstr "Nếu Đã Nhận Tất Cả Xe"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Phần thưởng Chắc chắn"
+msgid "infoPage/header/description"
+msgstr "Mở các hộp để có cơ hội nhận đồ giá trị trong game!\nXem danh sách phần thưởng khả dĩ dưới đây."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Chỉ 1 phần thưởng mỗi nhóm có thể xuất hiện"
+msgid "noBoxesView/description/"
+msgstr "Không có hộp nào.\nBạn có thể sở hữu chúng từ Shop Premium."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Chosen Lootbox"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Nếu đã sở hữu mọi xe từ hộp rồi, bạn sẽ nhận được Chosen Lootbox làm Phần thưởng Chắc chắn thay cho xe."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Celestial Lootbox"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Chosen Lootbox"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Heaven Help Lootbox"

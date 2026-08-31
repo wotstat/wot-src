@@ -57,6 +57,7 @@ class CustomizationBottomPanel(CustomizationBottomPanelMeta):
         self._carouselDP = None
         self._selectedItem = None
         self.__cachedTabData = None
+        self.__cachedBillSignature = None
         self.__uiLogger = CustomizationBottomPanelLogger(CustomizationViewKeys.CUSTOMIZATION_BOTTOM_PANEL)
         return
 
@@ -125,16 +126,12 @@ class CustomizationBottomPanel(CustomizationBottomPanelMeta):
         self.__isEscHelpSeen = False
         self.__uiLogger = None
         self.__cachedTabData = None
+        self.__cachedBillSignature = None
         super(CustomizationBottomPanel, self)._dispose()
         return
 
     def getDp(self):
         return self.as_getDataProviderS()
-
-    def returnToStyledMode(self):
-        self.__ctx.returnToStyleMode()
-        self.__updatePopoverBtn()
-        return
 
     def switchMode(self, index):
         self.__changeMode(CustomizationModes.ALL[index])
@@ -370,9 +367,10 @@ class CustomizationBottomPanel(CustomizationBottomPanelMeta):
             return self.__getFilterMessage()
 
     def __buildCustomizationCarouselDataVO(self):
-        isZeroCount = self._carouselDP.itemCount == 0
+        itemCount = self._carouselDP.itemCount
+        isZeroCount = itemCount == 0
         countStyle = text_styles.error if isZeroCount else text_styles.main
-        displayString = text_styles.main((b'{} / {}').format(countStyle(str(self._carouselDP.itemCount)), str(self._carouselDP.totalItemCount)))
+        displayString = text_styles.main((b'{} / {}').format(countStyle(str(itemCount)), str(self._carouselDP.totalItemCount)))
         shouldShow = self._carouselDP.hasAppliedFilter()
         return CustomizationCarouselDataVO(displayString, isZeroCount, shouldShow, itemLayoutSize=self._carouselDP.getItemSizeData(), bookmarks=self._carouselDP.getBookmarskData(), arrows=self._carouselDP.getArrowsData(), showSeparators=self._carouselDP.getShowSeparatorsData())._asdict()
 
@@ -413,14 +411,32 @@ class CustomizationBottomPanel(CustomizationBottomPanelMeta):
         outfitsModified = buyBtnEnabled = self.__ctx.isOutfitsModified()
         if buyBtnEnabled and cartInfo.totalPrice != ITEM_PRICE_EMPTY:
             label = _ms(VEHICLE_CUSTOMIZATION.COMMIT_BUY)
+        isOutfitsEmpty = self.__ctx.mode.isOutfitsEmpty()
         if hasEmptyNumber:
             tooltip = VEHICLE_CUSTOMIZATION.CUSTOMIZATION_EMPTYPERSONALNUMBER
         elif hasLockedItems:
             tooltip = VEHICLE_CUSTOMIZATION.CUSTOMIZATION_LOCKEDITEMSAPPLY
-        elif self.__ctx.mode.isOutfitsEmpty():
+        elif isOutfitsEmpty:
             tooltip = VEHICLE_CUSTOMIZATION.CUSTOMIZATION_NOTSELECTEDITEMS
         else:
             tooltip = VEHICLE_CUSTOMIZATION.CUSTOMIZATION_ALREADYAPPLIED
+        displayType = self.__ctx.mode.currentOutfit.customizationDisplayType()
+        signature = (
+         outfitsModified,
+         cartInfo.totalPrice,
+         hasLockedItems,
+         hasLockedItemsInStyle,
+         hasEmptyNumber,
+         isOutfitsEmpty,
+         fromStorageCount,
+         toBuyCount,
+         lockedCount,
+         displayType,
+         label,
+         tooltip)
+        if signature == self.__cachedBillSignature:
+            return
+        self.__cachedBillSignature = signature
         if outfitsModified:
             if fromStorageCount > 0 or toBuyCount > 0:
                 self.__showBill()
@@ -445,7 +461,7 @@ class CustomizationBottomPanel(CustomizationBottomPanelMeta):
         self.as_setBottomPanelPriceStateS({b'buyBtnEnabled': (buyBtnEnabled and not hasLockedItems), 
            b'buyBtnLabel': label, 
            b'buyBtnTooltip': tooltip, 
-           b'customizationDisplayType': (self.__ctx.mode.currentOutfit.customizationDisplayType()), 
+           b'customizationDisplayType': displayType, 
            b'billVO': {b'title': (text_styles.highlightText(_ms(VEHICLE_CUSTOMIZATION.BUYPOPOVER_RESULT))), 
                        b'lines': billLines, 
                        b'buttons': buttons}})

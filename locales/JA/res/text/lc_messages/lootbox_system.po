@@ -28,6 +28,30 @@ msgstr "入手した報酬"
 msgid "awardViews/footer/backButton/"
 msgstr "了解!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "残り{{count}}個"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "再開封不可"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "価値ある報酬"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "無料で再開封"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "ボンズが足りません"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "{{count}}で再開封"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "再開封"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "貴重な報酬がドロップした場合は再開封の対象外です。"
+
 msgid "bonuses/description/battle_booster"
 msgstr "ディレクティブ"
 
@@ -118,6 +142,18 @@ msgstr "開封したボックス: %(count)"
 msgid "common/statsButton"
 msgstr "統計"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "キャンセル"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "ボックスを再開封すると、異なる報酬を入手できる可能性があります。"
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "再開封"
+
+msgid "confirmRerollLootBox/title"
+msgstr "{{cost}}で再開封しますか?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "キャンセル"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s枚"
 msgid "homeView/subtitle"
 msgstr "イベント終了まで%(time)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/default"
 msgstr "未開封のボックスは、イベント終了時に自動的に開封されます。"
 
-msgid "infoPage/footer/description/compensation"
-msgstr "ボックスからドロップしうる車輌をすべてガレージに所有済みの状態で「確約報酬」または車輌がドロップすると補償として車輌価格の全額に相当するゴールドが支払われます。"
+msgid "infoPage/footer/description/compensation/default"
+msgstr "ボックスからドロップする可能性のある車輌をすべて所有済みの場合、次にボックスから車輌がドロップした際は、補償として車輌価格の全額に相当するゴールドを受け取ります。"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "%(guaranteed0)s個開封すると、Tier VIII～X車輌が最低でも1輌はドロップするようになっています。Tier VIII～X車輌が1輌もドロップしていない状態で、%(guaranteed0)s&zwnbsp;個目 (ボックスの種類によって変化) のボックスを開封すると、ガレージに所有していないTier VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "%(guaranteed)s個開封すると、Tier VIII～X車輌が最低でも1輌はドロップします。Tier VIII～X車輌が1輌もドロップしていない状態で%(guaranteed)s&zwnbsp;個目 (ボックスの種類によって変化) のボックスを開封すると、ガレージに所有していないTier VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "ボックスからドロップした報酬に満足できない場合、再開封することで同じリストから別のアイテムを入手できる可能性があります。各ボックスには再開封できる回数に上限があります。"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "自動開封"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "補償"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "確約報酬"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "再開封"
 
 msgid "infoPage/header/lootListLink"
 msgstr "アイテム一覧を公式HPで確認"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo)専用"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3Dスタイル「%(style)」"
+
+msgid "reroll/free"
+msgstr "搭乗員"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}～{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "ゴールドの取引"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "クレジット消費: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "ボンズ消費: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "日付: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "ゴールド消費: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "イベント「%(eventName)s」は終了しました"
@@ -480,3 +546,15 @@ msgstr "補償された車輌: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "ガレージに所有中の車輌に対する補填"
+
+msgid "tooltip/reroll/attempt"
+msgstr "再開封"
+
+msgid "tooltip/reroll/price"
+msgstr "費用"
+
+msgid "tooltip/reroll/text/default"
+msgstr "ボックスを再開封すると、同じリストから別の報酬を入手できる可能性があります。"
+
+msgid "tooltip/reroll/title/default"
+msgstr "再開封"

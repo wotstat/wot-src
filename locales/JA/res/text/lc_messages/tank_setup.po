@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "車輌HP"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "砲塔旋回速度または主砲旋回速度"
+msgstr "主砲または砲塔の旋回速度"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "砲塔旋回速度"
@@ -2100,6 +2100,51 @@ msgstr " と "
 
 msgid "tooltips/separator/other"
 msgstr "、 "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "「外部給弾モード」を使用すると、与ダメージが増加した砲弾を使用できます。"
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "「通常モード」での基本値。"
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "「外部給弾モード」での改良後の値。"
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "「完全チャージ」砲撃の基本パラメーター"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "「単一チャージ」砲撃のパラメーター"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "「完全チャージ」砲撃の基本パラメーター"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "基本"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "「単一チャージ」砲撃のパラメーター"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "「較正モード」では、この弾種は傾斜のある装甲に対して効果的です。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "砲撃前に一部の砲弾パラメーターを変更できる特殊装置が主砲に搭載されています。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "「通常モード」では、この弾種は追加装甲のない装甲に対して効果的です。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "通常モード"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "較正モード"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "「較正モード」では、この弾種は追加装甲を貫通できます。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "「通常モード」では、この弾種は垂直な装甲に対して効果的です。"
 
 msgid "tooltips/specializationDesc"
 msgstr "このスロットに%(spec)sカテゴリーの標準拡張パーツを搭載すると、効果に追加ボーナスが加算されます。他のカテゴリーの拡張パーツを搭載した場合、効果は通常値となります。"

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=1; plural=0;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "这些补给箱可能掉落战车、游戏内货币与其他珍贵奖励。"
+msgstr "开启后，这些补给箱可能掉落VIII级高级战车、游戏内货币和其他珍贵奖励。"
 
 msgid "boxTooltip/description/text/gold"
-msgstr "这些补给箱可能掉落战车、游戏内货币、自定义元素与其他珍贵奖励。"
+msgstr "开启后，这些补给箱可能掉落稀有X级战车、游戏内货币和其他珍贵奖励。"
 
 msgid "boxTooltip/description/text/silver"
-msgstr "这些补给箱可能掉落战车、游戏内货币、自定义元素与其他珍贵奖励。"
+msgstr "开启后，这些补给箱可能掉落IX级高级战车、游戏内货币和其他珍贵奖励。"
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "可在游戏内商店获取，也可在开启任何其他类型的补给箱时获得。"
+msgstr "在高级商店中购买物品时会附赠此补给箱，也可能在开启其他任意类型的补给箱时掉落。"
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "可能在开启其他任意类型的补给箱时掉落。"
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "可能在开启其他任意类型的补给箱时掉落。"
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "赏金补给箱"
+msgstr "天人补给箱"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "福祉补给箱"
+msgstr "天选补给箱"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "恩赐补给箱"
+msgstr "天相补给箱"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "赏金补给箱"
+msgstr "天人补给箱"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "福祉补给箱"
+msgstr "天选补给箱"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "恩赐补给箱"
+msgstr "天相补给箱"
 
 msgid "entryPoint/tooltip/description"
-msgstr "这些特殊补给箱内含全新或独特的物品。可在游戏内商店中购买。"
+msgstr "这些特殊补给箱内含全新或独特的VIII–X级战车，以及其他奖励。\n在高级商店中购买物品时会附赠此补给箱，也可能在开启其他任意类型的补给箱时掉落。"
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "活动将结束于"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由于技术原因，目前无法开启或购买补给箱。我们对造成的不便深表歉意。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "天赐之福补给箱暂不可用"
 
 msgid "eventName/lowerCase"
-msgstr "低语宝库"
+msgstr "天赐之福"
 
 msgid "eventName/upperCase"
-msgstr "低语宝库"
+msgstr "天赐之福"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "若在车库中已拥有所有战车，您将改为获得一个“福祉补给箱”。"
+msgid "infoPage/footer/description/autoOpen"
+msgstr "如果您在活动结束前未开启所有补给箱，它们之后将自动开启。"
 
 msgid "infoPage/footer/description/compensation"
-msgstr "如果您车库中已拥有补给箱中的所有战车，奖励将从战车改为“福祉补给箱”。"
+msgstr "如果您已拥有补给箱中的所有战车，保底奖励将从战车改为天选补给箱。"
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "每%(guaranteed0)s个“赏金补给箱”、%(guaranteed1)s个“恩赐补给箱”及%(guaranteed2)s个“福祉补给箱”必定包含一辆战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s个补给箱（取决于补给箱类型）必定掉落一辆您车库中没有的战车。掉落后计数器重置。"
+msgstr "每%(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s个天人/天相/天选补给箱必定包含一辆VIII–X级战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s（取决于箱子类型）个补给箱必定掉落一辆您没有的VIII–X级战车。掉落后计数器重置。"
 
 msgid "infoPage/footer/title/compensation"
-msgstr "补偿"
+msgstr "如果已获得所有战车"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "保底奖励"
+msgid "infoPage/header/description"
+msgstr "开启补给箱有几率获得珍贵的游戏内物品！\n下方为可掉落奖励列表。"
 
-msgid "infoPage/header/rewards/description"
-msgstr "每个奖励组最多可掉落一个奖励。"
+msgid "noBoxesView/description/"
+msgstr "您没有补给箱。\n您可以在高级商店中购买补给箱。"
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "天选补给箱"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "如果您已拥有补给箱中的所有战车，保底奖励将从战车改为天选补给箱。"
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "天人补给箱"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "天选补给箱"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "天相补给箱"

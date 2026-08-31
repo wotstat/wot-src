@@ -1,5 +1,7 @@
 from __future__ import absolute_import
-import logging, typing, constants
+import logging, typing
+from future.utils import iteritems
+import constants
 from account_shared import validateCustomizationItem
 from battle_pass_integration import getAllIntergatedGameModes
 from constants import ARENA_BONUS_TYPE_NAMES, IS_CLIENT, VEHICLE_CLASSES, MIN_VEHICLE_LEVEL, MAX_VEHICLE_LEVEL
@@ -131,7 +133,10 @@ class _FeatureModel(models.Model):
 
 class _TierFeatureModel(models.Model):
     __slots__ = (b'name', b'overriddenParams')
-    _FORBIDDEN_PARAMS = (b'enabled',)
+
+    class _ForbiddenOverride(object):
+        ENABLED = b'enabled'
+        XP_PER_MINUTE_FACTOR = b'xpPerMinute'
 
     def __init__(self, name, overriddenParams):
         super(_TierFeatureModel, self).__init__()
@@ -141,13 +146,12 @@ class _TierFeatureModel(models.Model):
 
     @classmethod
     def validateOverrideFields(cls, oParams):
-        intersected = set()
-        for paramName in oParams:
-            if paramName in cls._FORBIDDEN_PARAMS:
-                intersected.add(paramName)
+        for paramName, paramVal in iteritems(oParams):
+            if paramName == cls._ForbiddenOverride.ENABLED:
+                raise exceptions.ValidationError(b"The 'enabled' property is forbidden to override! It can be changed only in the corresponded descriptor (which is under the root section)!")
+            if paramName == cls._ForbiddenOverride.XP_PER_MINUTE_FACTOR:
+                raise exceptions.ValidationError((b"The <{tagName}>{tagVal}</{tagName}> property is forbidden for overriding, because the system doesn't support different values for different tiers! You may change this value in the descriptor <passiveCrewXPFeature><xpPerMinute>... which is under the root section! ").format(tagName=paramName, tagVal=paramVal))
 
-        if intersected:
-            raise exceptions.ValidationError((b'Parameters forbidden for overriding are detected:"{}"').format(intersected))
         return
 
 

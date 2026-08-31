@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/name"
+msgstr "能力"
+
+msgid "arenaDescription/winText"
+msgstr "任务：尝试抵达终点！"
+
+msgid "battleLoading/description"
+msgstr "使用冲刺和护盾能力制造更多混乱。"
+
+msgid "battleLoading/header"
+msgstr "冲向终点线并阻止其他人抵达终点！"
+
+msgid "battleResults/battleStatus/finished"
+msgstr "已完赛"
+
+msgid "battleResults/battleStatus/inTop"
+msgstr "名次"
+
+msgid "battleResults/battleStatus/notFinished"
+msgstr "未完赛"
+
+msgid "battleResults/finishReason/finished"
+msgstr "已抵达终点"
+
+msgid "battleResults/finishReason/notFinished"
+msgstr "未抵达终点"
+
+msgid "battleResults/footerSubtitle/finished"
+msgstr "不错！"
+
+msgid "battleResults/footerSubtitle/notFinished"
+msgstr "祝下次好运！"
+
+msgid "battleResults/footerSubtitle/top"
+msgstr "前3！"
+
+msgid "battleWidget/checkpoint"
+msgstr "检查点"
+
+msgid "battleWidget/enemyPosition"
+msgstr "敌人排名"
+
+msgid "battleWidget/notFinished"
+msgstr "未完赛"
+
+msgid "battleWidget/place"
+msgstr "名次"
+
+msgid "battleWidget/position"
+msgstr "排名"
+
+msgid "battleWidget/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "buttonHint/evacuation/description"
+msgstr "返回最后通过的检查点"
+
+msgid "buttonHint/evacuation/noBindingKey"
+msgstr "未分配传送键"
+
+msgid "buttonHint/evacuation/press"
+msgstr "按住"
+
+msgid "efficiencyRibbons/fallTanksKill"
+msgstr "裂解"
+
+msgid "evacuationAbilityTooltip/description"
+msgstr "如果您卡住了，可使用此功能传送回最后通过的检查点。"
+
+msgid "evacuationAbilityTooltip/name"
+msgstr "返回检查点"
+
+msgid "serviceChannelMessages/battleResults/finishTime"
+msgstr "时间"
+
+msgid "serviceChannelMessages/battleResults/finished"
+msgstr "第%(playerPlace)s名"
+
+msgid "serviceChannelMessages/battleResults/notFinished"
+msgstr "未完赛"
+
+msgid "shellTooltip/caliber"
+msgstr "口径：%(caliber)s毫米"
+
+msgid "shellTooltip/description"
+msgstr "不造成伤害，但在撞击时会产生强大的冲击力。火炮口径越大，冲击力越强！"
+
+msgid "shellTooltip/header"
+msgstr "脉冲弹"
+
+msgid "statusNotificationTimer/evacuation"
+msgstr "正在传送至检查点..."

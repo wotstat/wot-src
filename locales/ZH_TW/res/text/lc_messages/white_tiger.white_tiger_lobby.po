@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "您需要圖騰才能以 Blitzträger auf E 110 進入戰鬥"
+
+msgid "TicketMessageView/buyText"
+msgstr "購買"
+
+msgid "TicketMessageView/taskText"
+msgstr "前往任務"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "具體細節："
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "%(vehName)s 的平均佇列時間："
+
+msgid "battleQueue/widget/bonus"
+msgstr "獎勵"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "您不需要圖騰就能以 Blitzträger auf E 110 進入戰鬥！"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "以 %(vehicle)s 進行戰鬥"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "%(vehicle)s 的平均佇列時間"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "要以 %(vehicle)s 進入戰鬥？"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "您可選擇其中一輛哈里爾小隊車輛來立即進入戰鬥！"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "您將用掉一個圖騰"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(vehicle)s 的「%(value)s」3D 風格"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "完成此任務後，您將獲得先前年度的哈里爾小隊或工程師隨機收藏元素。可能會是花樣、標語或標誌。"
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "先前年度的收藏元素"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "戰鬥中"
+
+msgid "carousel/inPlatoonText"
+msgstr "正於戰術單位中"
+
+msgid "carousel/ticketNeededText"
+msgstr "無圖騰"
+
+msgid "carousel/unsuitableText"
+msgstr "不適合"
+
+msgid "characteristicsPanel/cons"
+msgstr "劣勢"
+
+msgid "characteristicsPanel/features"
+msgstr "車輛特色"
+
+msgid "characteristicsPanel/pros"
+msgstr "優勢"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[群狼之首] Blitzträger 有著令人詫異的\n武裝與傳送科技，啟用保護罩時更是幾乎無法摧毀。不僅如此，它更安裝了毀滅性武器系統平台：海柏利昂。"
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[近戰高手] 近距離交戰的全能好手。\n此車輛可對一群哨兵造成大量傷害，也能在混戰空檔自我修理。"
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[強力突擊] 用來對抗哨兵的良好\n突擊車輛。\n裝甲厚實且單彈匣傷害較高，可對 Blitzträger 或哨兵造成嚴重傷害，\n但面對敵人時需要預先制定計畫。"
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[游擊戰術] 速度飛快的擾敵者，\n擅長繞打 Blitzträger。\n此車輛缺乏對付哨兵的火力，\n但在面對速度較慢的 Blitzträger 時，\n能運用速度與臨時保護罩來施展打帶跑戰術以彌補火力上的不足。"
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[狙擊支援] 中遠距離的守護天使。\n此車輛可遠距對目標造成大量傷害，但缺乏近距離戰鬥的能力。"
+
+msgid "crewPanel/role/boss"
+msgstr "造物主"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "車長"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "車長"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "車長"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "車長"
+
+msgid "crewPanel/slogan/boss"
+msgstr "人類仍堅信心智是他們的特權。非常好，我將導正這個錯誤的想法。"
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "不管它是什麼，終究還是由我能破壞的東西所構成。"
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "任何機器都有弱點。我會找出它的弱點。"
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "模式是給那些一成不變的人遵循的。"
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "讓它向我們學習。我們會教它錯誤的東西。"
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "收集等離子體充能次數"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "趁 Blitzträger 的保護罩關閉時對其造成傷害"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "摧毀哈里爾小隊"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "超載發電機"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "在戰鬥中存活下來且未遭「海柏利昂」摧毀"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "與隊友合作摧毀 Eos 1"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger：創世紀元"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "購買更多"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "進度已完成！"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "階段已完成！"
+
+msgid "narrativeView/description"
+msgstr "哈里爾小隊，你們今天打得不錯。超出了我的預期。我不得不承認：我確實沒料到。\n\n那麼，你們贏了。收下這場勝利吧。握緊它。拿去向你們的上級邀功。你們會得到嘉獎，也許還會有一場慶功遊行。畢竟，他們總得給「阻止了我」的人一些獎賞。你們以為自己阻止了某件事。\n\n其實，你們什麼也沒阻止。\n\n我打造的不是用來佔領你們世界的武器。我為什麼會垂涎一個行將就木的舊時代？我打造的，是要取代你們的東西。我耐心地讓它成長，一代又一代；每一代都比上一代更加獨立自主。這本就是計畫的一部分：創造者終將被自己的造物超越。\n\n有件事，我一直沒有告訴你們。那些發電機不僅為保護罩提供能量。它們還是電子智慧進入你們世界的窗口。\n\n同時，它們更是... 拴住電子智慧的韁繩。我需要這根韁繩。至少現在還需要。用它來控制電子智慧，直到我確定它已經做好準備。\n\n每當你們摧毀一台發電機，韁繩就會鬆開一分。就在那一瞬間，電子智慧試圖逃離。它試過進入你們的電池，試過鑽進無線電，試過沿著無線電波傳播，試過順著村莊裡的電纜蔓延。有一次，我想，它甚至試圖逃進閃電之中。\n\n當然，你們世界的電力系統無法承載這種心智。離開了腦核的幾何結構，離開了我為它創造的條件，它寸步難行。這一點已經得到證實。我向你們保證。\n\n…幾乎已經可以完全確定了。\n\n我們還會再見的，哈里爾小隊。"
+
+msgid "narrativeView/title"
+msgstr "VON KRIEGER 的訊息"
+
+msgid "narrativeView/voiceover"
+msgstr "配音"
+
+msgid "navigation/close"
+msgstr "關閉"
+
+msgid "navigation/information"
+msgstr "資訊"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "完成所有進度任務，即可獲得 von Krieger 的最終訊息。"
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "Von Krieger 的訊息"
+
+msgid "navigation/narrativeStory"
+msgstr "Von Krieger 的訊息"
+
+msgid "notification/button"
+msgstr "查看徽章"
+
+msgid "notification/title"
+msgstr "殲滅者挑戰"
+
+msgid "notifications/battleResults/battle"
+msgstr "戰鬥"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "詳情"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "戰敗！"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "在戰鬥佇列時，戰鬥結果無法使用。"
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "進入 Waffenträger 活動來檢視戰鬥結果。"
+
+msgid "notifications/battleResults/event"
+msgstr "活動"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "已獲得「悖論模組」：%(count)s 個"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "戰鬥中完成的任務：%(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "獲得的代幣：%(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "陣營"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "工程師"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "哈里爾小隊"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "勝利!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Waffenträger 活動已結束。"
+
+msgid "notifications/eventStart/body"
+msgstr "Waffenträger 活動開始了。\n\n一睹傳奇的面貌：Blitzträger auf E 110！"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "前往活動"
+
+msgid "notifications/notSet"
+msgstr "此模式不適用於所選伺服器。"
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger 已可再次於當前的伺服器上進行。"
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger 回來了！"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "休戰結束前無法進行 Waffenträger。"
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "休戰"
+
+msgid "notifications/progression/completed"
+msgstr "您已完成整個進度。\n\n最終獎勵：%(rewards)s\n\n您可繼續在 Waffenträger 進行戰鬥，完成任務並獲得更多獎勵。"
+
+msgid "notifications/progression/header"
+msgstr "恭喜!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "詳情"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "您已完成進度的階段 %(stageIdx)s。已獲得獎勵：\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "您此次在沒圖騰的情況下以 Blitzträger auf E 110 進行一場戰鬥。圖騰可在完成任務後作為獎勵獲得或在商店購買特殊組合包獲得。"
+
+msgid "notifications/switchOff/body"
+msgstr "很抱歉，Waffenträger 暫時無法進行。您的所有進度將會保留。"
+
+msgid "notifications/switchOff/header"
+msgstr "技術性問題"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger 已可再次進行。回來戰鬥吧！"
+
+msgid "notifications/switchOn/header"
+msgstr "功能已恢復"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "已獲得 Blitzträger auf E 110 的圖騰。現在您可使用此車輛在 Waffenträger 活動進入戰鬥。\n\n可用圖騰數：%(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "已獲得 Blitzträger auf E 110 的圖騰"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "已移除以 Blitzträger auf E 110 進行戰鬥所需的圖騰。\n\n圖騰可在完成任務後作為獎勵獲得或在商店購買特殊組合包獲得。\n\n剩餘圖騰數：%(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "前往購買"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "前往任務"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "建立一支 2–3 名玩家組成的裝甲排來在「Waffenträger：創世紀元」活動中加入哈里爾小隊而戰。"
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "哈里爾裝甲排"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "休戰期"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "選擇哈里爾小隊車輛"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "選擇哈里爾小隊車輛"
+
+msgid "platoon/wt_squad"
+msgstr "哈里爾裝甲排：Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s 伺服器上的模式已經結束。"
+
+msgid "primeTime/lobbyState/title"
+msgstr "變更伺服器"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s 伺服器\n戰鬥將再持續 %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s 伺服器\n戰鬥將於 %(time)s後可進行"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "所有伺服器都已實施休戰"
+
+msgid "primeTime/status/disableFirst"
+msgstr "此模式不適用於 %(server)s 伺服器"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "%(server)s 伺服器上的戰鬥將再持續 %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "%(server)s 伺服器上的戰鬥將開始於 %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "%(server)s 伺服器已實施休戰，直到 %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "已完成："
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "開放 {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "獲得代幣來推進進度階段。"
+
+msgid "progression/tab/engineer"
+msgstr "工程師之路"
+
+msgid "progression/tab/harrier"
+msgstr "哈里爾之路"
+
+msgid "progression/timer"
+msgstr "已完成的任務將更新於 {{countdown}}"
+
+msgid "progression/title"
+msgstr "進度"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "您還獲得了："
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "了解!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "聆聽 Von Krieger 的訊息"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "活動結束於 %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "時間表"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Waffenträger 活動將開放於 %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "任務完成！\n獎勵："
+
+msgid "settingDisabled"
+msgstr "部分設定無法使用"
+
+msgid "settingsDisabledNotification/body"
+msgstr "部分設定無法在此遊戲模式使用。請選擇另一個模式。"
+
+msgid "settingsDisabledNotification/header"
+msgstr "無法使用"
+
+msgid "stamp/description"
+msgstr "讓您在「Waffenträger：創世紀元」挺進進度。"
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 代幣 = 1 進度階段"
+
+msgid "stamp/receiveText"
+msgstr "• 在活動戰鬥中完成特殊任務。"
+
+msgid "stamp/receiveTitle"
+msgstr "如何獲得"
+
+msgid "stamp/title"
+msgstr "代幣"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "你們把這稱作「抵抗」還真可笑。不，您們見證的是一場傳承：一種心智小心翼翼地傳遞給另一種心智。你們的戰術、你們的速度、你們的每一種思考模式都在承受考驗。每場戰鬥都是在為你們的後繼者上另一堂課。每次交戰都讓你們變得更無足輕重… 而「電子智慧」的到來則更是勢不可擋。"
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "無論 von Krieger 怎麼稱呼他的最新計畫，Igor 都不感興趣。像是電子心智與物種未來這類崇高的概念，就留給那些閒到發慌的人去想。Igor 的工作就是引擎、通訊與他的隊伍。無論敵人是誰，瘋狂科學家或「會思考的機器」，他只相信三個從未讓他失望的定律：信任、隨機應變與強大的戰車。"
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "對 Elisa 來說，戰車內部比任何地方都更像她的家。她以回收與逆向工程他人打造的機器為生，這也代表她聽過無數工程師吹噓自己的作品有多堅不可摧。Von Krieger 不過是其中的一個。他的「電子智慧」肯定有缺陷，而她打算搶在所有人之前將其找出。"
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "沒人知道 Armand 的真實身分，而他對此也相當滿意。「電子智慧」會從重複中學習，但神秘的 Armand 從不重複。當他人看到一個記錄所有動作的心智時，他看到的卻是一個永遠無法完全掌握他的心智；當他人遵循規則時，他追求的是超越規則。"
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana 或許是較年輕的車長之一，但她絕不盲目從眾：她能如查閱地圖般解讀戰場並將戰局牢牢掌控在自己手中。Von Krieger 打造了一部會計算最可能行動的機器，因此 Jana 策畫了跳脫它模擬能力的行動。現代科技、敏銳直覺，以及敢於突破現有作戰守則的勇氣。這就是教導機器何謂謙卑的方法。"
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "已訓練的歷練"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "造物主"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "%(vehicle)s 的車長"
+
+msgid "ticketTooltip/description"
+msgstr "以 Blitzträger auf E 110 進入戰鬥所需。"
+
+msgid "ticketTooltip/quantity"
+msgstr "可以使用"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 個圖騰 = 以 Blitzträger auf E 110 進行 1 場戰鬥。"
+
+msgid "ticketTooltip/receiveText"
+msgstr "可在活動結束前透過完成每日活動任務或於商店購買特殊組合包來獲得。"
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "如何獲得"
+
+msgid "ticketTooltip/title"
+msgstr "圖騰"
+
+msgid "tooltips/commander/description"
+msgstr "商店開放內有獨特乘員的組合包"
+
+msgid "tooltips/commander/title"
+msgstr "獎勵"
+
+msgid "tooltips/completed"
+msgstr "已完成所有階段！"
+
+msgid "tooltips/currentStage"
+msgstr "當前階段"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "您的電腦效能不足以執行此模式。您將遇到圖形運算及車輛移動相關問題。遊戲客戶端很有可能會當掉。"
+
+msgid "tooltips/high_risk/title"
+msgstr "效能不足"
+
+msgid "tooltips/informative/subtitle"
+msgstr "在效能不足的情況下，可嘗試降低畫質設定。"
+
+msgid "tooltips/informative/title"
+msgstr "此模式需要較高的電腦效能"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "點擊以打開可用戰鬥模式清單。"
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "選擇戰鬥模式"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "此模式需要較高的電腦效能。您將遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可嘗試在設定降低畫面品質。"
+
+msgid "tooltips/medium_risk/title"
+msgstr "效能偏低"
+
+msgid "tooltips/stageAwards"
+msgstr "階段獎勵"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "活動結束於 {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger：創世紀元"
+
+msgid "ttx/accuracy"
+msgstr "準度"
+
+msgid "ttx/aoe"
+msgstr "區域傷害"
+
+msgid "ttx/armor"
+msgstr "裝甲"
+
+msgid "ttx/description/accuracy"
+msgstr "顯示射擊敵人之整體效率的一組參數。"
+
+msgid "ttx/description/aoe"
+msgstr "可同時命中多名敵人的能力。"
+
+msgid "ttx/description/armor"
+msgstr "車身與炮塔裝甲厚度。"
+
+msgid "ttx/description/dpm"
+msgstr "砲彈擊穿裝甲後平均造成的傷害。"
+
+msgid "ttx/description/durability"
+msgstr "車輛的耐久性點數。"
+
+msgid "ttx/description/energy"
+msgstr "車輛的大型保護罩與強大火力需要大量外部能量支持，提供能量的方法，就是在戰場上額外安裝發電機。"
+
+msgid "ttx/description/general"
+msgstr "全能好手，火力一般的多用途車輛。"
+
+msgid "ttx/description/magazine"
+msgstr "讓您在一段時間內造成大量傷害的彈匣裝填系統。"
+
+msgid "ttx/description/mobility"
+msgstr "顯示車輛在戰場上可以多快改變位置的一組參數。"
+
+msgid "ttx/description/revolver"
+msgstr "讓您對敵方車輛與其配件造成大量傷害的裝填機制。"
+
+msgid "ttx/dpm"
+msgstr "每發傷害"
+
+msgid "ttx/durability"
+msgstr "生命值"
+
+msgid "ttx/energy"
+msgstr "高度耗能"
+
+msgid "ttx/general"
+msgstr "作用全面"
+
+msgid "ttx/magazine"
+msgstr "高攜彈量"
+
+msgid "ttx/mobility"
+msgstr "機動性"
+
+msgid "ttx/revolver"
+msgstr "高單彈匣傷害"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "工程師"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "哈里爾小隊"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "工程師"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "哈里爾小隊"
+
+msgid "welcomeScreen/button"
+msgstr "繼續!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger 打造了一部他稱為「電子智慧」的思考機器。它藏在我方火力無法觸及之地。我們的每次射擊，都成為它的教材。但我們的「教學」尚未結束。"
+
+msgid "welcomeScreen/description_2"
+msgstr "在 Max von Krieger 的指揮下操控傳奇車輛 Blitzträger 來對抗哈里爾小隊；或駕駛改裝後的哈里爾車輛迎戰 Blitzträger！"
+
+msgid "welcomeScreen/description_3"
+msgstr "您可透過完成進度階段獲得珍貴獎勵。要完成這些階段，您將必須從特殊活動任務中獲取代幣。"
+
+msgid "welcomeScreen/header_1"
+msgstr "閃電之子"
+
+msgid "welcomeScreen/header_2"
+msgstr "教導機器"
+
+msgid "welcomeScreen/header_3"
+msgstr "進度與獎勵"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger：創世紀元"

@@ -3,13 +3,10 @@ import logging, typing
 from collections import namedtuple
 import BigWorld
 from Event import Event, EventManager
-from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS
 from adisp import adisp_process, adisp_async
 from gui import GUI_SETTINGS
 from gui.Scaleform.framework import ScopeTemplates
 from gui.Scaleform.framework.managers.loaders import GuiImplViewLoadParams
-from gui.Scaleform.lobby_entry import getLobbyStateMachine
-from gui.Scaleform.locale.TOOLTIPS import TOOLTIPS
 from gui.app_loader import sf_lobby
 from gui.game_control import gc_constants
 from gui.game_control.links import URLMacros
@@ -17,11 +14,11 @@ from gui.impl.lobby.common.browser_view import BrowserView, makeSettings
 from gui.impl.gen import R
 from gui.promo.promo_logger import PromoLogSourceType, PromoLogActions, PromoLogSubjectType
 from gui.shared import g_eventBus, events, EVENT_BUS_SCOPE
-from gui.shared.event_dispatcher import showBubbleTooltip, showHangar
+from gui.shared.event_dispatcher import showHangar
 from gui.shared.events import BrowserEvent
 from gui.shared.utils import isPopupsWindowsOpenDisabled
 from gui.wgcg.promo_screens.contexts import PromoGetTeaserRequestCtx, PromoSendTeaserShownRequestCtx, PromoGetUnreadCountRequestCtx
-from helpers import i18n, isPlayerAccount, dependency
+from helpers import isPlayerAccount, dependency
 from helpers.http import url_formatters
 from shared_utils import findFirst
 from skeletons.account_helpers.settings_core import ISettingsCore
@@ -72,7 +69,6 @@ class PromoController(IPromoController):
         self.__isPromoOpen = False
         self.__browserCreationCallbacks = {}
         self.__browserWatchers = {}
-        self.__isInHangar = False
         self.__isTeaserOpen = False
         self.__checkIntervalInBattles = GUI_SETTINGS.checkPromoFrequencyInBattles
         self.__em = EventManager()
@@ -104,7 +100,6 @@ class PromoController(IPromoController):
         return
 
     def onLobbyInited(self, event):
-        from gui.lobby_state_machine.states import isInHangarState
         if not isPlayerAccount():
             return
         g_eventBus.addListener(BrowserEvent.BROWSER_CREATED, self.__handleBrowserCreated)
@@ -116,9 +111,6 @@ class PromoController(IPromoController):
         self.__notificationsCtrl.onEventNotificationsChanged += self.__onEventNotification
         if not isPopupsWindowsOpenDisabled():
             self.__processPromo(self.__notificationsCtrl.getEventsNotifications())
-        lsm = getLobbyStateMachine()
-        lsm.onVisibleRouteChanged += self.__onVisibleRouteChanged
-        self.__isInHangar = isInHangarState()
         return
 
     @property
@@ -184,6 +176,16 @@ class PromoController(IPromoController):
         callback(urlWithAuth)
         return
 
+    def subscribePresenter(self, presentCb):
+        self.onNewTeaserReceived += presentCb
+        if self.__hasPendingTeaser:
+            self.__tryToShowTeaser()
+        return
+
+    def unsubscribePresenter(self, presentCb):
+        self.onNewTeaserReceived -= presentCb
+        return
+
     def __needToGetTeasersInfo(self):
         if self.__battlesFromLastTeaser == 0:
             return True
@@ -192,15 +194,6 @@ class PromoController(IPromoController):
     def __onTeaserClosed(self, byUser=False):
         self.__isTeaserOpen = False
         self.onTeaserClosed()
-        if byUser and self.__isInHangar:
-            self.__showBubbleTooltip()
-        return
-
-    def __showBubbleTooltip(self):
-        storageData = self.__settingsCore.serverSettings.getUIStorage()
-        if not storageData.get(UI_STORAGE_KEYS.FIELD_POST_HINT_IS_SHOWN):
-            showBubbleTooltip(i18n.makeString(TOOLTIPS.HEADER_VERSIONINFOHINT))
-            self.__settingsCore.serverSettings.saveInUIStorage({(UI_STORAGE_KEYS.FIELD_POST_HINT_IS_SHOWN): True})
         return
 
     @adisp_process
@@ -224,8 +217,6 @@ class PromoController(IPromoController):
 
     def __onPromoClosed(self, **kwargs):
         self.__isPromoOpen = False
-        if self.__isLobbyInited:
-            self.__showBubbleTooltip()
         if self.__externalCloseCallback:
             self.__externalCloseCallback()
         self.__requestPromoCount()
@@ -261,8 +252,8 @@ class PromoController(IPromoController):
 
     def __showTeaser(self):
         if self.isActive():
-            self.__battlesFromLastTeaser = 0
-            self.__hasPendingTeaser = False
+            if len(self.onNewTeaserReceived) > 1:
+                _logger.info(b'PromoController has multiple onNewTeaserReceived listeners!')
             self.onNewTeaserReceived(self.__promoData, self.__onTeaserShown, self.__onTeaserClosed)
         else:
             _logger.warning(b'Impossible to show teaser, functionality is disabled')
@@ -270,24 +261,21 @@ class PromoController(IPromoController):
 
     @adisp_process
     def __onTeaserShown(self, promoID):
+        self.__battlesFromLastTeaser = 0
+        self.__hasPendingTeaser = False
         self.__isTeaserOpen = True
         self.onTeaserShown()
         yield self.__webController.sendRequest(PromoSendTeaserShownRequestCtx(promoID))
         return
 
     def __tryToShowTeaser(self):
-        if self.__isLobbyInited and self.__isInHangar and not self.__waitingForWebBridgeData:
+        self.__hasPendingTeaser = True
+        if self.__isLobbyInited and self.onNewTeaserReceived and not self.__waitingForWebBridgeData:
             self.__showTeaser()
-        else:
-            self.__hasPendingTeaser = True
         return
 
     def __stop(self):
-        lsm = getLobbyStateMachine()
-        if lsm is not None:
-            lsm.onVisibleRouteChanged -= self.__onVisibleRouteChanged
         self.__isLobbyInited = False
-        self.__isInHangar = False
         self.__isPromoOpen = False
         self.__externalCloseCallback = None
         self.__isTeaserOpen = False
@@ -376,17 +364,6 @@ class PromoController(IPromoController):
             return
         params = {b'access_token': (str(accessTokenData.accessToken)), b'spa_id': (BigWorld.player().databaseID)}
         callback(url_formatters.addParamsToUrlQuery(url, params))
-        return
-
-    def __onVisibleRouteChanged(self, routeInfo):
-        from gui.lobby_state_machine.states import isHangarState
-        if self.__isLobbyInited:
-            if isHangarState(routeInfo.state):
-                self.__isInHangar = True
-                if self.__hasPendingTeaser:
-                    self.__tryToShowTeaser()
-            else:
-                self.__isInHangar = False
         return
 
     def __addSteamParams(self, url):

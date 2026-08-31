@@ -700,6 +700,9 @@ msgstr "Đã chiếm khu vực"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Thiệt hại từ khu vực cháy"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Thiệt hại Gây ra"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Xe sửa được"
 
@@ -741,6 +744,9 @@ msgstr "Thiệt hại do đạn bắn"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Thiệt hại bởi \"Fireball\""
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Thiệt hại do đạn bắn"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Thiệt hại do đâm/húc"
@@ -907,6 +913,9 @@ msgstr "Xích đã không bị xuyên"
 msgid "hitMarker/wheelBlocked"
 msgstr "Bánh đã không bị xuyên"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "CẤP XE TỐI ĐA"
 
@@ -1020,6 +1029,21 @@ msgstr "Không cần sửa chữa: tất cả thiết bị còn nguyên vẹn."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] vẫn hoạt động tốt, không cần sửa chữa."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Không khả dụng: Băng đã đầy."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Không khả dụng: Hết đạn."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Không khả dụng: Hết sạc."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Không khả dụng: Nạp lại sắp xong."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Không thể phóng tên lửa"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Không thể kích hoạt vũ khí đồng trục."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Đạn Nổ Mạnh (HE) %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Đạn Nổ Chống Tăng (HEAT) %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Xác suất gây hại nghiêm trọng: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Bị giảm"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Tăng lên"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Thường"
+
 msgid "shells_kinds/params/damage"
 msgstr "Sát thương trung bình: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Sát thương mỗi Giây: %(value)s HP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Bán kính sát thương: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Sạc Đầy / Đơn"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Cơ bản / Chỉnh:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Sạc Đầy / Đơn:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Thường / Chỉnh:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Thường / Hiệu chuẩn:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Góc thường hóa: %(value)s độ"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Mất Sức xuyên: %(value)s mỗi 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Độ xuyên trung bình: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Góc nảy: %(value)s độ"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Vận tốc đạn: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Thời gian choáng: %(minValue)s–%(maxValue)s giây"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "để kích hoạt chế độ EAF"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "để chuyển sang chế độ Tác xạ"
@@ -2745,6 +2805,9 @@ msgstr "để kích hoạt Booster nhiên liệu lỏng"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "để kích hoạt bộ áp phản lực"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "để đổi chế độ bắn"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "để kích hoạt Thruster Rốckét Sequential"

@@ -1,6 +1,13 @@
 class IArmorFlashlightBattleController(object):
-    __slots__ = ()
 
     def toggle(self):
+        raise NotImplementedError
+        return
+
+    def addHideReason(self, reason):
+        raise NotImplementedError
+        return
+
+    def removeHideReason(self, reason):
         raise NotImplementedError
         return

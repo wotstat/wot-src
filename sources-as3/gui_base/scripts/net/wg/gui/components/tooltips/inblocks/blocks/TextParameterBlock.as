@@ -30,6 +30,7 @@ package net.wg.gui.components.tooltips.inblocks.blocks
          if(param1 > 0)
          {
             this.nameTF.width = param1 - this.nameTF.x;
+            updateTextFieldHeight(this.nameTF);
          }
       }
       

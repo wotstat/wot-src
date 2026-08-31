@@ -5,7 +5,7 @@ from future.utils import iteritems
 from past.builtins import intern
 from typing import Any, Callable, Generator, Optional, TYPE_CHECKING
 import ResMgr, constants
-from constants import SEASON_TYPE_BY_NAME, RentType
+from constants import SEASON_TYPE_BY_NAME, RentType, IS_EDITOR
 from debug_utils import LOG_ERROR
 from items import type_traits
 from soft_exception import SoftException
@@ -199,6 +199,7 @@ def readIntOrNone(xmlCtx, section, subsectionName):
             return int(subsection.asString, 0)
         except ValueError:
             raiseWrongSection(xmlCtx, subsectionName if subsectionName else section.name)
+            return
 
         return
 
@@ -311,6 +312,7 @@ def readTupleOfFloats(xmlCtx, section, subsectionName, count=None, defaultValue=
         return tuple(map(float, strings))
     except Exception:
         raiseWrongSection(xmlCtx, subsectionName if subsectionName else section.name)
+        return
 
     return
 
@@ -340,6 +342,7 @@ def readTupleOfInts(xmlCtx, section, subsectionName, count=None):
         return tuple(int(float(s)) for s in strings)
     except Exception:
         raiseWrongSection(xmlCtx, subsectionName if subsectionName else section.name)
+        return
 
     return
 
@@ -375,6 +378,7 @@ def readTupleOfBools(xmlCtx, section, subsectionName, count=None):
         return tuple(s.lower() == b'true' for s in strings)
     except Exception:
         raiseWrongSection(xmlCtx, subsectionName if subsectionName else section.name)
+        return
 
     return
 
@@ -524,6 +528,7 @@ def readIcon(xmlCtx, section, subsectionName):
          strings[0], int(strings[1]), int(strings[2]))
     except Exception:
         raiseWrongSection(xmlCtx, subsectionName if subsectionName else section.name)
+        return
 
     return
 
@@ -592,6 +597,9 @@ def rewriteData(section, subsectionName, value, defaultValue, createNew, accessF
             section.parentSection().deleteSection(section)
             return True
         if getattr(section, b'asString') == b'' or not equal(convertedValue, getattr(section, asProp)):
+            if IS_EDITOR and asProp == b'asFloat':
+                asProp = b'asString'
+                convertedValue = (b'{:.6f}').format(convertedValue)
             setattr(section, asProp, convertedValue)
             return True
     return False

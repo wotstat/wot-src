@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "확인"
 
 msgid "error/description"
-msgstr "일시적으로 정보를 확인할 수 없습니다. 불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+msgstr "불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
 
 msgid "error/title"
-msgstr "보상 선택 화면 확인 불가"
+msgstr "일시적으로 해당 페이지 이용 불가"
 
 msgid "footer/closeBtn/label"
 msgstr "나중에 선택"
@@ -23,7 +23,7 @@ msgstr[1] "해당 범주 내에서 보상을 선택하십시오."
 msgstr[2] "해당 범주 내에서 보상을 선택하십시오."
 
 msgid "footer/okBtn/label"
-msgstr "수령"
+msgstr "보상 수령"
 
 msgid "footer/rewardsSelected"
 msgstr "선택한 보상:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "이미 획득 완료"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "해당 항목 아이템 선택 제한에 도달했습니다. 한 아이템 선택을 취소하면 다른 아이템을 추가할 수 있습니다."
+msgstr "해당 범주에서 선택 가능한 아이템 최대 수에 도달했습니다. 다른 아이템을 선택하려면 아이템 하나를 해제하십시오."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "제한 도달"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "장비\n지휘명령"
@@ -93,6 +93,9 @@ msgstr "일반 장비"
 
 msgid "tabs/items/trophy"
 msgstr "포상 장비"
+
+msgid "tooltips/footer/body"
+msgstr "수령할 보상 선택"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "수령 버튼을 클릭하면 선택한 보상을 획득할 수 있습니다."

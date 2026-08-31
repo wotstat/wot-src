@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "รับทราบ!"
 
 msgid "error/description"
-msgstr "ไม่มีข้อมูลให้ชั่วคราว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น โปรดลองใหม่ภายหลัง"
+msgstr "ทางเราขออภัยในความไม่สะดวก โปรดลองใหม่ภายหลัง"
 
 msgid "error/title"
-msgstr "ไม่สามารถเปิดการเลือกรางวัลได้"
+msgstr "หน้านี้ไม่มีให้ชั่วคราว"
 
 msgid "footer/closeBtn/label"
 msgstr "เลือกภายหลัง"
@@ -23,7 +23,7 @@ msgstr[1] "เลือกรางวัลจากประเภทที่
 msgstr[2] "เลือกรางวัลจากประเภทที่มีให้"
 
 msgid "footer/okBtn/label"
-msgstr "รับ"
+msgstr "รับรางวัล"
 
 msgid "footer/rewardsSelected"
 msgstr "รางวัลที่เลือกไว้:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "ได้รับแล้ว"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "ถึงขีดจำกัดจำนวนสิ่งของที่เลือกไว้ในประเภทนี้แล้ว คุณสามารถยกเลิกการเลือกของสิ่งของหนึ่งชิ้นเพื่อเลือกชิ้นอื่น"
+msgstr "คุณได้มีจำนวนสิ่งของสูงสุดที่มีได้ของประเภทนี้แล้ว โปรดไม่เลือกสิ่งของหนึ่งอันเพื่อเลือกอันอื่น"
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "ถึงขีดจำกัดแล้ว"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "คำสั่ง\nสำหรับอุปกรณ์"
@@ -93,6 +93,9 @@ msgstr "อุปกรณ์มาตรฐาน"
 
 msgid "tabs/items/trophy"
 msgstr "อุปกรณ์เงินรางวัล"
+
+msgid "tooltips/footer/body"
+msgstr "เลือกรางวัลเพื่อทำการรับ"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "คลิกที่ปุ่มรับเพื่อรับรางวัลที่ได้เลือกเอาไว้"

@@ -130,6 +130,9 @@ msgstr "対応するTier %(level)s車輌がガレージに1輌もないため、
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "「測定ラウンド」終了後、2名小隊および7名小隊を利用できるようになります。"
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "「測定ラウンド」終了後、2名小隊を利用できるようになります。"
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "小隊を作成することができません。"
 
@@ -141,6 +144,9 @@ msgstr "小隊を作成するか、既存の小隊に参加してください。
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "小隊"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "小隊を作成するか、既存の小隊に参加してください。「オンスロート」モードで構成できるのは2名小隊のみです。"
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "2～3名編成の小隊を作成して共闘できます。\n• 戦闘モード: 乱戦\n• 戦闘タイプ: スチールハント、制圧戦"
@@ -264,12 +270,6 @@ msgstr "小隊に含まれる重戦車の数が上限に到達しています"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "小隊に含まれる中戦車の数が上限に到達しています"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "小隊に含まれる軽戦車の数が上限に到達しています"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "小隊に含まれる装輪車輌の数が上限に到達しています"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "小隊に含まれる軽戦車の数が上限に到達しています"

@@ -826,6 +826,9 @@ msgstr "รูปแบบสามมิติ"
 msgid "carousel_tank_filter/ready"
 msgstr "เฉพาะรถถังหลัก"
 
+msgid "carousel_tank_filter/scout"
+msgstr "พลสอดแนม"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "ยานซุ่มยิง"
 
@@ -834,9 +837,6 @@ msgstr "ยานสนับสนุน"
 
 msgid "carousel_tank_filter/universal"
 msgstr "ยานอเนกประสงค์"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "ยานเกราะล้อ"
 
 msgid "centerIsAvailable"
 msgstr "ทุกเซิร์ฟเวอร์พร้อมใช้งานอีกครั้ง"
@@ -4159,6 +4159,9 @@ msgstr "ระบบเติมกระสุนอัตโนมัติร
 msgid "moduleInfo/autoShootGun"
 msgstr "ปืนมีระบบการยิงต่อเนื่อง"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "ยานเกราะคันนี้ติดตั้งเครื่องยิงจรวดเอาไว้บนแผ่นเกราะปืน เปิดใช้ความสามารถเพื่อเปลี่ยนเป็นศูนย์เล็งของอาวุธรองแล้วทำการปล่อยจรวดระเบิดแรงสูงไม่นำวิถีด้วยปุ่มยิง"
+
 msgid "moduleInfo/closeBtn"
 msgstr "ปิด"
 
@@ -4312,6 +4315,9 @@ msgstr "ช่วงพัก"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "ให้กับคุณสมบัติหลักและความสามารถพลรถถัง"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "โอกาสความเสียหายร้ายแรง"
+
 msgid "moduleInfo/params/damage"
 msgstr "ความเสียหาย"
 
@@ -4342,11 +4348,29 @@ msgstr "โอกาสไฟไหม้เมื่อกระแทก"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "เวลาทำการบิน"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "ทำความเสียหายเสมอถ้ายิงโดนเกราะหลัก"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* ระยะทำการสูงสุดของกระสุนสำหรับปืนใหญ่นี้"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr "ไม่ได้ขึ้นกับระยะของกระสุนชนิดนี้"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr "ระยะทำการสูงสุด - 400 ม."
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr "กระสุนชนิดนี้เริ่มเสียอำนาจเจาะเกราะในระยะที่เพิ่มขึ้นหลังจากพุ่งผ่านแผงกั้นแรก"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr "ขึ้นกับระยะ: %(minDist)s–%(maxDist)s เมตร"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr "กระสุนชนิดนี้เจาะแผงเกราะได้ตามปกติแต่จะเสียอำนาจการเจาะเกราะเท่ากับสามเท่าของความหนาแผงเกราะ"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "ความเร็วสูงสุด"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "ทำความเสียหายเสมอถ้ายิงโดนเกราะหลัก"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "น้ำหนัก"
@@ -4378,20 +4402,11 @@ msgstr "ความทนทาน"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "ระยะการยิง"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* ระยะทำการสูงสุดของกระสุนสำหรับปืนใหญ่นี้"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "มุมเลี้ยวล้อสูงสุด"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "ความเสียหายเฉลี่ยที่ระยะ %(dist)s เมตร"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr "ไม่ได้ขึ้นกับระยะของกระสุนชนิดนี้"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr "ระยะทำการสูงสุด - 400 ม."
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "มุมปรับค่ามาตรฐาน"
@@ -4399,14 +4414,8 @@ msgstr "มุมปรับค่ามาตรฐาน"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "การเสียอำนาจเจาะเกราะ"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr "กระสุนชนิดนี้เริ่มเสียอำนาจเจาะเกราะในระยะที่เพิ่มขึ้นหลังจากพุ่งผ่านแผงกั้นแรก"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)sม."
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr "ขึ้นกับระยะ: %(minDist)s–%(maxDist)s เมตร"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "การเจาะเกราะเฉลี่ย (มม) - ระยะ"
@@ -4456,9 +4465,6 @@ msgstr "ความเร็วในการหมุน"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "ตัวคูณเกราะกลวง"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr "กระสุนชนิดนี้เจาะแผงเกราะได้ตามปกติแต่จะเสียอำนาจการเจาะเกราะเท่ากับสามเท่าของความหนาแผงเกราะ"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "ไอพ่นดินขับเหนี่ยวนำที่เ
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "ตัวเร่งไอพ่นจะเพิ่มความว่องไของพาหนะ"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "ตัวปืนของพาหนะมีอุปกรณ์พิเศษที่ทำให้เปลี่ยนค่ากระสุนบางอย่างก่อนทำการยิงได้"
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "จรวดไอพ่นเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไว"
@@ -5284,11 +5293,14 @@ msgstr "พาหนะที่มีปืนสมบูรณ์แบบ �
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "รถถังอเนกประสงค์ที่สามารถปรับตัวเข้ากับสถานการณ์การรบได้ทุกแบบอย่างง่ายดาย"
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "พาหนะที่เร็วและว่องไวซึ่งสามารถออกลาดตระเวนและทำความเสียหายได้จากการเข้าตีโอบข้าศึก"
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "รถถังเบาสอดแนมนั้นเป็นยานรบขนาดเล็กที่ว่องไวสำหรับการตรวจจับข้าศึก รูปทรงที่ต่ำและการอำพรางที่ดีรวมไปถึงความคล่องตัวและความเร็วสูงทำให้มันเหมาะกับการลาดตระเวนเคลื่อนที่และอยู่นิ่งแต่ความทนทานที่ต่ำและอำนาจการยิงไม่มากทำให้มันไม่สามารถสนับสนุนพันธมิตรได้อย่างเต็มที่"
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "พาหนะมีคุณลักษณะความคล่องตัวอันยอดเยี่ยม แต่การใช้ให้มีประสิทธิภาพนั้นจะขึ้นกับแต่ละแผนที่และสถานการณ์การรบ"
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "รถถังเบาสนับสนุนที่ใช้ความคล่องตัวที่สูง, ความว่องไวที่ยอดเยี่ยมและปืนที่ทรงพลังเพื่อเปลี่ยนแนวรบอย่างรวดเร็วและทำความเสียหายมหาศาลก่อนถอนตัวไปยังจุดปลอดภัย แม้ว่ารถถังเบาสนับสนุนจะสามารถออกลาดตระเวนได้ในบางสถานการณ์ ขนาดที่ใหญ่และการอำพรางที่ต่ำทำให้มันเป็นหน่วยลาดตระเวนที่มีประสิทธิภาพน้อยกว่ารถถังเบาคันอื่นๆ"
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "รถถังเบาอเนกประสงค์นั้นเป็นยานเกราะสมดุลดีที่สามารถลาดตระเวนและช่วยยิงสนับสนุนพันธมิตรได้ แม้ว่ามันจะมีประสิทธิภาพน้อยกว่าในการลาดตระเวนเมื่อเทียบกับรถถังลาดตระเวนและมีอำนาจการยิงน้อยกว่ารถถังเบาสนับสนุน รถถังเบาอเนกประสงค์ก็มีความสมดุลพอที่จะทำให้มันปฏิบัติทั้งสองบทบาทและปรับตัวไปตามสถานการณ์ในการรบได้หลากหลาย"
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "พาหนะมีเกราะใช้ได้ซึ่งทำให้เหมาะกับการรบประชิดและการยืนหยัดต่อสู้กับรถถังหนักข้าศึก"
@@ -5329,11 +5341,14 @@ msgstr "รถถังหนักสนับสนุน"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "รถถังหนักอเนกประสงค์"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "รถถังเบาลาดตระเวน"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "รถถังเบาสนับสนุน"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "รถถังเบาอเนกประสงค์"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "รถถังเบาล้อ"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "รถถังกลางจู่โจม"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "การบรรจุ"
 msgid "tank_params/autoShootClipSec"
 msgstr "(โม่กระสุน/จำนวน)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "เร่งเวลาบรรจุกระสุน"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "ช่วงพักประจุเมื่อซองกระสุนเต็ม"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "ช่วงพักประจุฐาน"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "ประจุเมื่อเริ่มการรบ"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "พลังประจุ"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "ความเสียหายเฉลี่ย (หน่วย)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "การกระจายกระสุนที่ระยะ 100 ม."
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "การเจาะเกราะเฉลี่ย (มม.)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "การพักใช้ (วิ)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "ความเร็วจรวด: (เมตร/วินาที)"
+
 msgid "tank_params/avgDamage"
 msgstr "ความเสียหายเฉลี่ย"
 
@@ -6057,6 +6105,21 @@ msgstr "คลิปกระสุน"
 
 msgid "tank_params/burstSec"
 msgstr "(วิ/คลิป/นัด)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "ความเสียหายเฉลี่ย (หน่วย)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "ความเร็วสูงสุด (รูปแบบระบบป้อนกระสุนภายนอก) (กม./ชม.)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "อัตราการยิง (นัด/วินาที)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "การใช้งานรูปแบบระบบป้อนกระสุนภายนอก (วิ)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "การปิดรูปแบบระบบป้อนกระสุนภายนอก (วิ)"
 
 msgid "tank_params/chargeTime"
 msgstr "การเตรียมระดมยิง"
@@ -6150,6 +6213,12 @@ msgstr "กำลังเครื่องยนต์ (แรงม้า) (�
 
 msgid "tank_params/explosionRadius"
 msgstr "รัศมีความเสียหาย"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "ความเร็วสูงสุด (รูปแบบระบบป้อนกระสุนภายนอก) (กม./ชม.)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "การใช้งานรูปแบบระบบป้อนกระสุนภายนอก (วิ)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "เวลาลดความร้อนปืนหลังการยิง"
@@ -6325,9 +6394,6 @@ msgstr "สมรรถนะการข้ามภูมิประเทศ
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "การใช้ศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อน (% ต่อการยิงเข้า) (แบบเข้าปะทะ ไม่ใช้งาน)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 มม.)"
-
 msgid "tank_params/perActivation"
 msgstr "(ต่อการเปิดใช้)"
 
@@ -6484,8 +6550,20 @@ msgstr "การบรรจุอาวุธรอง"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "กระสุนอาวุธรอง"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "ความเสียหายกระสุนเฉลี่ยปรับแล้ว (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "การเจาะเกราะกระสุนเฉลี่ยปรับแล้ว (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "การบรรจุสายกระสุน"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "เวลาการเปลี่ียนรูปแบบ"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 มม.)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "การเจาะเกราะ:"
@@ -6495,6 +6573,36 @@ msgstr "การเบี่ยงเบนกระสุนที่ 100 ม.
 
 msgid "tank_params/shotSpeed"
 msgstr "ความเร็วกระสุน"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "ข้าศึกอำพรางตัวหลังแมกไม้ (อยู่นิ่งและกำลังแล่น)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "การอำพรางข้าศึกกำลังแล่น"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "ช่วงพักแรกเริ่ม"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "ระยะเวลา"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "ช่วงพัก"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "ความเร็วการหมุนป้อมปืน"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "ความกว้างช่วงกวาดสุดท้าย"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "ความกว้างช่วงกวาดแรกเริ่ม"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "ระยะเวลาการตรวจจับตัวเอง"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "ระยะการมองเห็น"
 
 msgid "tank_params/speedLimits"
 msgstr "ความเร็วสูงสุด/ความเร็วถอยหลัง"

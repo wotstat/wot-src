@@ -700,6 +700,9 @@ msgstr "ยึดเขตได้"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "ความเสียหายจากพื้นที่ไฟไหม้"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "ความเสียหายที่ทำได้"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "ซ่อมพาหนะแล้ว"
 
@@ -741,6 +744,9 @@ msgstr "ความเสียหายของกระสุน"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "ความเสียหายจากลูกไฟ"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "ความเสียหายของกระสุน"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "ความเสียหายจากการชน"
@@ -907,6 +913,9 @@ msgstr "เจาะตีนตะขาบไม่เข้า"
 msgid "hitMarker/wheelBlocked"
 msgstr "เจาะล้อไม่เข้า"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "ระดับพาหนะสูงสุด"
 
@@ -1020,6 +1029,21 @@ msgstr "ทุกอุปกรณ์ทำงานปกติไม่ต้
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] ทำงานปกติ ไม่ต้องซ่อมแซม"
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "ไม่มีให้: ตับกระสุนเต็ม"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "ไม่มีให้: ไม่มีกระสุนเหลือ"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "ไม่มีให้: ไม่มีประจุเหลือ"
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "ไม่มีให้: การบรรจุเกือบเสร็จสิ้นแล้ว"
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "เครื่องยิงจรวดไม่มีให้ใช้"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "ไม่สามารถเปิดอาวุธรวมแกนได้"
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s มม. กระสุนหัวระเบิด %(user
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s มม. กระสุนหัวระเบิดต่อต้านรถถัง %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "โอกาสการได้รับความเสียหายร้ายแรง: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "ลดลง"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "เพิ่มขึ้น"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "ปกติ"
+
 msgid "shells_kinds/params/damage"
 msgstr "ความเสียหายเฉลี่ย: %(value)s หน่วย"
 
@@ -2710,17 +2746,41 @@ msgstr "ความเสียหายต่อวินาที: %(value)s 
 msgid "shells_kinds/params/explosionRadius"
 msgstr "รัศมีเสียหาย: %(value)s เมตร"
 
-msgid "shells_kinds/params/header"
-msgstr "เต็ม/ประจุเดียว"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "พื้นฐาน/ปรับแต่ง:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "ประจุเต็ม/ประจุเดี่ยว:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "มาตรฐาน/ปรับแก้:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "มาตรฐาน/ปรับแล้ว:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "มุมปรับค่ามาตรฐาน: %(value)s องศา"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "การเสียการเจาะเกราะ: %(value)s ต่อ 100 มม."
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "การเจาะเกราะเฉลี่ย: %(value)s มม."
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "มุมสะท้อน: %(value)s องศา"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "ความเร็วกระสุน: %(value)s ม./วิ"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "ระยะการมึนงง: %(minValue)s–%(maxValue)sวิ"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "ในการเปิดรูปแบบระบบป้อนกระสุนภายนอก"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "เพื่อเปลี่ยนเป็นแบบยิงเร็ว"
@@ -2745,6 +2805,9 @@ msgstr "เพื่อเปิดใช้จรวดเชื้อเพล
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "ในการเปิดใช้ตัวเร่งไอพ่น"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "ในการเปลี่ยนรูปแบบการยิง"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "เพื่อเปิดใช้จรวดไอพ่นตามลำดับ"

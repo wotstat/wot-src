@@ -251,13 +251,13 @@ msgid "hub/challenge_missions/notification/mission_complete/button"
 msgstr "前往「淬鍊」"
 
 msgid "hub/challenge_missions/notification/mission_complete/title"
-msgstr "{{ mission }}任務已完成！"
+msgstr "任務 {{ mission }} 已完成！"
 
 msgid "hub/challenge_missions/notification/shield/button"
 msgstr "前往「淬鍊」"
 
 msgid "hub/challenge_missions/notification/shield/text"
-msgstr "{{ mission }}任務失敗"
+msgstr "任務 {{ mission }} 失敗"
 
 msgid "hub/challenge_missions/notification/shield/title"
 msgstr "剩餘盾牌"
@@ -382,11 +382,56 @@ msgstr "每週任務為每週開放的一組任務。進度會在每場戰鬥後
 msgid "info_page/main/weekly/title"
 msgstr "每週任務"
 
+msgid "pm/missionState/active"
+msgstr "進行中"
+
+msgid "pm/missionState/complete"
+msgstr "任務已完成"
+
+msgid "pm/missionState/improve"
+msgstr "結果改善"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "變更車輛"
+
+msgid "pm/no_missions"
+msgstr "您選擇的車輛沒有進行中的任務"
+
+msgid "pm/tier"
+msgstr "階級不適合"
+
+msgid "pm/unavailable"
+msgstr "任務暫時無法使用"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "您選擇的車輛沒有進行中的任務。請選擇另一輛車輛。"
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "由於技術性原因，此任務暫時無法使用。我們為帶來的不便感到抱歉。"
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "您選擇的車輛不符合進行中行動的階級需求。請選擇另一輛車輛。"
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "沒有進行中的任務"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "暫時無法使用"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "階級不適合"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "今天的所有一般任務都已完成"
 
 msgid "quests/daily_quests/completed"
 msgstr "所有每日任務已完成"
+
+msgid "slider/title/missions"
+msgstr "常設任務"
+
+msgid "slider/title/personalMissions"
+msgstr "個人任務"
 
 msgid "tooltip/common/timer"
 msgstr "可用於 {{timeLeft}}"

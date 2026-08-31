@@ -136,6 +136,24 @@ msgstr[0] "{{count}} 場勝利"
 msgstr[1] "{{count}} 場勝利"
 msgstr[2] "{{count}} 場勝利"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "開放 {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "戰鬥經驗"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "為慶祝您重返戰場，我們為您準備了特殊獎勵：{{@ style (color #ede6d9e6)}}每日「重返戰場獎勵」{{/}}讓您的每輛車輛在獲得每日首勝時，獲取更多的戰鬥經驗。"
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "車長，歡迎回來！"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "此加成於每天的 {{@ style (color #ede6d9e6)}}{{value}}{{/}} 重置。"
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "重返戰場獎勵：可用"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "點擊以前往您的車輛遊玩清單。"
 

@@ -826,6 +826,9 @@ msgstr "3D 스타일"
 msgid "carousel_tank_filter/ready"
 msgstr "주력 전차만 표시"
 
+msgid "carousel_tank_filter/scout"
+msgstr "정찰"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "저격"
 
@@ -834,9 +837,6 @@ msgstr "지원"
 
 msgid "carousel_tank_filter/universal"
 msgstr "다목적"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "차륜"
 
 msgid "centerIsAvailable"
 msgstr "모든 서버가 다시 정상 가동 중입니다."
@@ -4159,6 +4159,9 @@ msgstr "개량 자동 재장전 시스템\n포탄 기본 자동 재장전 시간
 msgid "moduleInfo/autoShootGun"
 msgstr "연속사 시스템 탑재 주포"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "해당 전차는 포방패에 로켓 발사기를 장착하였습니다. 능력을 활성화하면 보조 무기 조준 시점으로 전환되며 발사 버튼으로 비유도 고폭 로켓을 발사할 수 있습니다."
+
 msgid "moduleInfo/closeBtn"
 msgstr "닫기"
 
@@ -4312,6 +4315,9 @@ msgstr "재사용 시간"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "승무원 숙련도"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "부품 파괴/부상 유발 확률"
+
 msgid "moduleInfo/params/damage"
 msgstr "공격력"
 
@@ -4342,11 +4348,29 @@ msgstr "충돌 시 화재 발생 확률"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "공습 시간"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "주 장갑 명중 시 항상 피해 기록"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* 주포 최대 사거리"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " 해당 포탄의 관통력은 거리와 관계없이 일정"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", 최대 사거리—400m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " 해당 포탄 유형은 첫 번째 장갑판 관통 이후 이동 거리에 따라 관통력 감쇠 시작"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " 해당 포탄의 관통력은 거리에 따라 변동: %(minDist)sm~%(maxDist)sm"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " 해당 포탄 유형은 정상적으로 장갑판을 관통하지만, 관통 이후에는 장갑판 두께의 3배만큼 관통력 감소"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "최고 속력"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "주 장갑 명중 시 항상 피해 기록"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "중량"
@@ -4378,20 +4402,11 @@ msgstr "내구도"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "사거리"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* 주포 최대 사거리"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "차륜 최대 회전각"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "%(dist)sm에서의 평균 공격력"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " 해당 포탄의 관통력은 거리와 관계없이 일정"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", 최대 사거리—400m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "표준화 각도"
@@ -4399,14 +4414,8 @@ msgstr "표준화 각도"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "관통력 감쇠"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " 해당 포탄 유형은 첫 번째 장갑판 관통 이후 이동 거리에 따라 관통력 감쇠 시작"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)sm"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " 해당 포탄의 관통력은 거리에 따라 변동: %(minDist)sm~%(maxDist)sm"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "거리에 따른 평균 관통력 (mm)"
@@ -4456,9 +4465,6 @@ msgstr "회전 속도"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "공간 장갑 계수"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " 해당 포탄 유형은 정상적으로 장갑판을 관통하지만, 관통 이후에는 장갑판 두께의 3배만큼 관통력 감소"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "평균 공격력을 향상하는 유도 추진식 재연소 장치"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "전차 기동력을 향상하는 제트 추진기"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "해당 전차의 주포에는 사격 전 일부 포탄 성능을 조정할 수 있는 특수 장치가 탑재되어 있습니다."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "가속력, 속력, 기동력을 높이는 고체 연료 추력기"
@@ -5284,11 +5293,14 @@ msgstr "특정 조건 하에 강력한 위력을 발하는 주포를 탑재한 �
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "다양한 전투 상황에 수월하게 대처할 수 있는 다목적 전차입니다."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "빠른 기동성을 활용하여 정찰 임무를 수행하거나 기습 공격으로 피해를 기록하기에 적합한 전차입니다."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "정찰 경전차는 적을 발견하는 데 특화된 고속 소형 전차입니다. 낮은 차체, 높은 위장률, 뛰어난 기동성, 높은 최고 속력으로 수동 및 능동 정찰에 모두 능하지만, 내구도가 낮고 사격 위력이 약하여 아군에게 충분한 화력을 지원하기는 어렵습니다."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "뛰어난 기동성을 자랑하지만, 지도나 전장 상황에 따라 효율성이 달라지는 전차입니다."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "지원 경전차는 높은 기동력, 뛰어난 선회 성능, 강력한 주포를 사용하여 측면에서 신속히 큰 피해를 입힌 후 안전하게 퇴각할 수 있습니다. 특정 상황에서는 정찰을 수행할 수 있지만, 차체가 크고 위장률이 낮아 다른 경전차보다 정찰 효율이 떨어집니다."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "다목적 경전차는 정찰과 아군 화력 지원을 모두 수행할 수 있는 균형 잡힌 전차입니다. 정찰 경전차보다 정찰 효율은 떨어지고 지원 경전차보다 화력은 약하지만, 균형 잡힌 성능으로 두 역할을 모두 능숙하게 수행할 수 있으며 다양한 전투 상황에 쉽게 적응할 수 있습니다."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "접근전에서 적 중전차를 상대하기에 적합한 장갑으로 무장한 전차입니다."
@@ -5329,11 +5341,14 @@ msgstr "지원 중전차"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "다목적 중전차"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "정찰 경전차"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "지원 경전차"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "다목적 경전차"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "차륜 경전차"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "강습 중형전차"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "재장전 시간"
 msgid "tank_params/autoShootClipSec"
 msgstr "(클립/포탄 수)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "포탄 고속 장전 시간"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "클립 전체 장전 상태에서 충전 보충 시간"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "기본 충전 보충 시간"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "전투 시작 시 충전 횟수"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "충전 횟수"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "평균 공격력 (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "100m에서의 분산도 (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "평균 관통력 (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "재사용 시간 (초)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "로켓 포탄 속도 (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "평균 공격력"
 
@@ -6057,6 +6105,21 @@ msgstr "탄대"
 
 msgid "tank_params/burstSec"
 msgstr "(초/탄대 수/포탄 수)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "평균 공격력 (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "최고 속력 (외장 탄약 보급 모드) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "연사력 (발/분)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "외장 탄약 보급 모드 활성화 (초)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "외장 탄약 보급 모드 비활성화 (초)"
 
 msgid "tank_params/chargeTime"
 msgstr "일제 사격 준비 시간"
@@ -6150,6 +6213,12 @@ msgstr "엔진 출력 (마력) (터보 모드)"
 
 msgid "tank_params/explosionRadius"
 msgstr "피해 범위"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "최고 속력 (외장 탄약 보급 모드) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "외장 탄약 보급 모드 활성화 (초)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "사격 후 주포 냉각 시간"
@@ -6325,9 +6394,6 @@ msgstr "지형 돌파 능력"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "동시 회로 전기기계식 조준 장치 충전 (%, 1초당) (교전 모드, 지속)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(활성화 1회당)"
 
@@ -6484,8 +6550,20 @@ msgstr "부무장 장전 시간"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "부무장 포탄 적재량"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "포탄 평균 공격력 조정 배율 (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "포탄 평균 관통력 조정 배율 (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "탄대 재장전 시간"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "모드 전환 시간"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "관통력:"
@@ -6495,6 +6573,36 @@ msgstr "100m에서의 분산도"
 
 msgid "tank_params/shotSpeed"
 msgstr "포탄 속도"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "수풀 뒤 적 전차 위장률 (정지/기동)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "기동 중인 적 전차 위장률"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "최초 대기 시간"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "지속 시간"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "재사용 시간"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "최종 스캔 범위"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "초기 스캔 범위"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "발각 유지 시간"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "관측 범위"
 
 msgid "tank_params/speedLimits"
 msgstr "최고 속력/후진 속력"

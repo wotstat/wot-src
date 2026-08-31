@@ -60,7 +60,8 @@ PERSONAL_MISSIONS_GROUP = [
  _total(b'readyForBattleAllianceUSA'), _total(b'readyForBattleAllianceFrance'), _single(b'newMeritPM2'),
  _single(b'mapboxSeason1'), _single(b'mapboxSeason2'), _single(b'mapboxSeason3'), _total(b'mapboxUniversal'),
  _total(b'mapboxClimateExpert'), _single(b'meritPM3'), _total(b'readyForBattleAssault'),
- _total(b'readyForBattleSniper'), _total(b'readyForBattleSupport')]
+ _total(b'readyForBattleSniper'), _total(b'readyForBattleSupport'), _total(b'readyForBattleFossaAssault'),
+ _total(b'readyForBattleFossaSniper'), _total(b'readyForBattleFossaSupport')]
 CHRISTMAS_QUESTS_GROUP = [
  _single(b'xmasTreeBronze'), _single(b'xmasTreeSilver'), _single(b'xmasTreeGold')]
 HE17_QUESTS_GROUP = [

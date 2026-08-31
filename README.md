@@ -1,4 +1,6 @@
-# wot-src • wot-asia • 2.3.1.3 #928
+# wot-src • wot-asia • 2.4.0.0 #933
+
+[![wot-asia status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-asia.json)](https://github.com/wotstat/wot-src/tree/wot-asia)
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной региональной ветке.
@@ -50,8 +52,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `wot-asia`
 - Ветка: `wot-asia`
-- Версия: `2.3.1.5416`
+- Версия: `2.4.0.5423`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:55379dcc1201e496c0a7030744109176f14628480563670b4e917bd3428497e2`
+- GameSnapshot: `sha256:7061af8a5d4da8cfa472a06482999fb1b26236b0d1e33cc8cecc78fdcd7145fb`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

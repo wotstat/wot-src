@@ -1009,6 +1009,9 @@ msgstr "サーバーエラーにより搭乗員の訓練に失敗しました。
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s"
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (×%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Warships へのログインに使用されました"
 
 msgid "lootboxes/open/server_error"
-msgstr "ギフトの受け取り中にサーバーエラーが発生しました。"
+msgstr "ボックスの開封中にサーバーエラーが発生しました。"
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "ギフトの受け取り中にエラーが発生しました。前の操作が完了するまでお待ちください。"
+msgstr "ボックスの開封中にエラーが発生しました。直前の操作が完了するまでお待ちください。"
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
@@ -2383,30 +2386,6 @@ msgstr "%(vehicleName)s 用の特別迷彩を取得しました。"
 msgid "personalMissions/camouflageUnlocked"
 msgstr "%(vehicleName)s 用の特別迷彩を次の国の全車輌でご利用になれます: %(nation)s"
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "オペレーションの進捗がすべて保存されました。キャンペーンへの挑戦はいつでも再開できます。"
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "「%(campaignName1)s」および「%(campaignName2)s」キャンペーンは一時停止中"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "一時停止していたオペレーションとミッションへの挑戦を再開しました。"
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "「%(campaignName1)s」および「%(campaignName2)s」キャンペーンが再開"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "オペレーションの進捗がすべて保存されました。キャンペーンへの挑戦はいつでも再開できます。"
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "「%(campaignName)s」キャンペーンは一時停止中"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "一時停止していたオペレーションへの挑戦を再開しました。"
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "「%(campaignName)s」キャンペーンが再開"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "「%(detailName)s」を搭載しました。"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "報酬の受け取り中にエラーが発生しました。後ほど再度お試しください。"
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "「%(detail_name)s」を搭載しました。"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "報酬の受け取り中にエラーが発生しました。後ほど再度お試しください。"
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "「%(detail_name)s」を搭載しました。"
 
 msgid "personalMissions/reward/regular/server_error"

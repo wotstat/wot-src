@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ปิด"
+
+msgid "continueBtn"
+msgstr "ดำเนินการต่อ"
+
+msgid "economy/double/credits"
+msgstr "บัญชีพิเศษ WoT จะเพิ่มจำนวนเงินที่ได้รับขึ้นอีก %(value)s%%"
+
+msgid "economy/double/free_xp"
+msgstr "บัญชีพิเศษ WoT จะเพิ่มจำนวนประสบการณ์การรบที่ได้รับขึ้นอีก %(value)s%%"
+
+msgid "economy/double/tmen_xp"
+msgstr "บัญชีพิเศษ WoT จะเพิ่มจำนวนประสบการณ์พลรถถังที่ได้รับขึ้นอีก %(value)s%%"
+
+msgid "economy/double/xp"
+msgstr "บัญชีพิเศษ WoT จะเพิ่มจำนวนประสบการณ์การรบที่ได้รับขึ้นอีก %(value)s%%"
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "บัญชีพิเศษ WoT จะเพิ่มจำนวนประสบการณ์การรบและอิสระที่ได้รับขึ้นอีก %(value)s%%"
+
+msgid "efficiency/capturePoints"
+msgstr "การยึดเครื่องกำเนิด"
+
+msgid "efficiency/damageAssisted"
+msgstr "ความเสียหายที่ช่วยทำ"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "ทำให้มึนงง"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "efficiency/damageDealt"
+msgstr "ความเสียหาย"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "การป้องกันเครื่องกำเนิด"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "ทำลายได้"
+
+msgid "efficiency/spotted"
+msgstr "การตรวจจับ"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "การยึดเครื่องกำเนิด"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "ช่วยทำลาย"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "ทำให้มึนงง"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "การใช้เกราะ"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "ความเสียหาย"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "การป้องกันเครื่องกำเนิด"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "ข้าศึกถูกทำลาย"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "การตรวจจับ"
+
+msgid "finish"
+msgstr "การรบจบลงแล้ว"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "จะต้องใช้กับการรบล่าสุดในพาหนะคันเดียวกัน"
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "ไม่สามารถใช้โบนัสได้: เปิดการเร่งฝึกพลรถถังเอาไว้อยู่"
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "ไม่สามารถใช้โบนัสได้: ปิดการเร่งฝึกพลรถถังเอาไว้อยู่"
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "ตัวคูณใช้ได้กับการรบที่ชนะเท่านั้น"
+
+msgid "premiumBonus/NoCrew"
+msgstr "ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบพลรถถัง"
+
+msgid "premiumBonus/NoVehicle"
+msgstr "ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบพาหนะ"
+
+msgid "progress/title"
+msgstr "%(modeName)s: ภารกิจพิเศษ ด่านา: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: ภารกิจพิเศษ"
+
+msgid "result/lose"
+msgstr "พ่ายแพ้"
+
+msgid "result/tie"
+msgstr "เสมอ"
+
+msgid "result/win"
+msgstr "ชัยชนะ"
+
+msgid "ribbon/applied"
+msgstr "ใช้งานโบนัสเรียบร้อย"
+
+msgid "ribbon/errorState"
+msgstr "การใช้ผิดพลาด"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s โบนัสให้ประสบการณ์"
+
+msgid "ribbon/timeLeft"
+msgstr "การต่ออายุโบนัสใน:"
+
+msgid "ribbon/usesLeft"
+msgstr "การใช้มีให้: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "คะแนนส่วนตัว"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "คะแนนของทีม"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "ผู้เล่น"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "คะแนนส่วนตัว"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "คะแนนของทีม"
+
+msgid "sub_modes/undefined/team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "sub_modes/undefined/team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "ผู้เล่น"

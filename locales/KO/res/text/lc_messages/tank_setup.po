@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "전차 내구도"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "포탑 회전 속도 및 주포 회전 속도"
+msgstr "주포 회전 속도"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "포탑 회전 속도"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "전차 내구도"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "포탑 회전 속도 및 주포 회전 속도"
+msgstr "주포 회전 속도"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "포탑 회전 속도"
@@ -2100,6 +2100,51 @@ msgstr " 및 "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "전차의 외장 탄약 보급 모드를 사용하면 공격력이 증가한 포탄을 사용할 수 있습니다."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "일반 모드에서 적용되는 기본 수치입니다."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "외장 탄약 보급 모드로 변경되는 수치입니다."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "최대 장약 사격 기본 수치"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "단일 장약 사격 수치"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "최대 장약 사격 기본 수치"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "기본"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "단일 장약 사격 수치"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "보정 모드에서 해당 포탄 유형은 경사 장갑에 효과적입니다."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "해당 전차의 주포에는 사격 전 일부 포탄 성능을 조정할 수 있는 특수 장치가 탑재되어 있습니다."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "일반 모드에서 해당 포탄 유형은 장갑판이 없는 장갑에 효과적입니다."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "일반 모드"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "보정 모드"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "보정 모드에서 해당 포탄 유형은 장갑판을 관통할 수 있습니다."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "일반 모드에서 해당 포탄 유형은 수직 장갑에 효과적입니다."
 
 msgid "tooltips/specializationDesc"
 msgstr "해당 슬롯에 %(spec)s 범주 일반 장비를 장착하면 더욱 효과적입니다. 다른 범주 장비 장착 시에는 기본 성능으로 적용됩니다."

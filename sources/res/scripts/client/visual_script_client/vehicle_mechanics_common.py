@@ -107,6 +107,7 @@ class VehicleMechanicLifeCycleEventsBlock(VehicleMechanicEventsBlock, IComponent
 
     def __init__(self, *args, **kwargs):
         super(VehicleMechanicLifeCycleEventsBlock, self).__init__(*args, **kwargs)
+        self._onComponentAvatarReadySlot = self._makeEventOutputSlot(b'onComponentAvatarReady')
         self._onComponentParamsCollectedSlot = self._makeEventOutputSlot(b'onComponentParamsCollected')
         self._onComponentDestroyedSlot = self._makeEventOutputSlot(b'onComponentDestroyed')
         return
@@ -122,6 +123,12 @@ class VehicleMechanicLifeCycleEventsBlock(VehicleMechanicEventsBlock, IComponent
         return
 
     @eventHandler
+    def onComponentAvatarReady(self, component):
+        self._onComponentAvatarReady(component)
+        self._onComponentAvatarReadySlot.call()
+        return
+
+    @eventHandler
     def onComponentParamsCollected(self, params):
         self._onComponentParamsCollected(params)
         self._onComponentParamsCollectedSlot.call()
@@ -131,6 +138,9 @@ class VehicleMechanicLifeCycleEventsBlock(VehicleMechanicEventsBlock, IComponent
     def onComponentDestroyed(self, component):
         self._onComponentDestroyed(component)
         self._onComponentDestroyedSlot.call()
+        return
+
+    def _onComponentAvatarReady(self, component):
         return
 
     def _onComponentParamsCollected(self, params):

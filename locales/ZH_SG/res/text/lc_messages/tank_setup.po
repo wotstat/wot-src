@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "战车血量"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+msgstr "火炮转向速度"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "炮塔转向速度"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "战车血量"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+msgstr "火炮转向速度"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "炮塔转向速度"
@@ -2100,6 +2100,51 @@ msgstr " 和 "
 
 msgid "tooltips/separator/other"
 msgstr "， "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "此战车的外部供弹模式可让您使用伤害更高的炮弹。"
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "标准模式下的基础数值。"
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "外部供弹模式下的调整后数值。"
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "完全充能射击的基础参数"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "半充能射击的参数"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "完全充能射击的基础参数"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "基础"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "半充能射击的参数"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "在校准模式下，此炮弹类型能有效对付倾斜式装甲。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "此战车的火炮配备特殊装置，可在射击前修改部分炮弹参数。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "在标准模式下，此炮弹类型能有效对付未装备间隙装甲的目标。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "标准模式"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "校准模式"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "在校准模式下，此炮弹类型可穿透间隙装甲。"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "在标准模式下，此炮弹类型能有效对付垂直装甲。"
 
 msgid "tooltips/specializationDesc"
 msgstr "此槽位安装%(spec)s类别的标准装备将发挥更高效率。其他类别的装备仅提供标准加成。"

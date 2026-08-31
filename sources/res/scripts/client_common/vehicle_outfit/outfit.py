@@ -93,9 +93,9 @@ def scaffold():
 REGIONS_BY_SLOT_TYPE = {container.getAreaID(): {slotType: slot.getRegions() for slotType in container.slots()} for container in scaffold()}
 
 class Outfit(HasStrCD):
-    __slots__ = (b'_id', b'_styleDescr', b'_containers', b'_vehicleCD', b'__itemsCounter', b'__styleProgressionLevel', b'__styleSerialNumber')
+    __slots__ = (b'_id', b'_styleDescr', b'_containers', b'_vehicleCD', b'__itemsCounter', b'__styleProgressionLevel', b'__styleSerialNumber', b'_originalCDT')
 
-    def __init__(self, strCompactDescr=None, component=None, vehicleCD=b'', vehicleType=None):
+    def __init__(self, strCompactDescr=None, component=None, vehicleCD=b'', vehicleType=None, originalCDT=None):
         super(Outfit, self).__init__(strCompactDescr)
         self._containers = {}
         self._vehicleCD = vehicleCD
@@ -122,6 +122,7 @@ class Outfit(HasStrCD):
             container.unpack(component)
 
         self.__itemsCounter = None
+        self._originalCDT = self.customizationDisplayType() if originalCDT is None else originalCDT
         self.invalidate()
         return
 
@@ -284,6 +285,10 @@ class Outfit(HasStrCD):
     @property
     def serialNumber(self):
         return self.__styleSerialNumber
+
+    @property
+    def originalCustomizationDisplayType(self):
+        return self._originalCDT
 
     def setSerialNumber(self, value):
         self.__styleSerialNumber = value

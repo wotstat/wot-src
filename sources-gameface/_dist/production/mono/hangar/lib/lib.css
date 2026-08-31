@@ -77,6 +77,9 @@
 .FormatText_db904f12 span {
   flex-wrap: wrap;
   white-space: normal;
+  overflow-wrap: normal;
+}
+html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
   overflow-wrap: anywhere;
 }
 
@@ -719,202 +722,6 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   font-size: 28rem;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.GradientText_textOverlay_2d67fbb8 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.GradientText_5009d812 {
-  position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.Currency_72d4be39 {
-  display: flex;
-  align-items: center;
-  color: var(--color-general-secondary);
-  text-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.3);
-}
-.Currency_base__reverse_f12e61b0 {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-.Currency_base__notEnough_9a7842f {
-  color: var(--color-status-error);
-}
-.Currency_base__credits_7b9ae721 {
-  color: var(--color-currency-credits);
-}
-.Currency_base__gold_d6e3cbc {
-  color: var(--color-currency-gold);
-}
-.Currency_base__freeXP_d29d5a57 {
-  color: var(--color-currency-free-experience);
-}
-.Currency_base__crystal_f830cb47 {
-  color: var(--color-currency-bond);
-}
-.Currency_base__tankXP_1707c68b {
-  color: var(--color-currency-combat-experience);
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.WithDiscount_b8b3aa7f {
-  display: flex;
-  position: relative;
-  z-index: 0;
-}
-
-.WithDiscount_discount_f7ce1b97 {
-  align-self: center;
-  width: 20rem;
-  height: 23rem;
-  position: relative;
-  z-index: -1;
-}
-
-.WithDiscount_icon_a6c57ca8 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-.WithDiscount_icon__extraSmall_97673105 {
-  transform: translate(-46%, -52%);
-}
-.WithDiscount_icon__small_60ee455a, .WithDiscount_icon__medium_2877fd99 {
-  transform: translate(-43%, -50%);
-}
-.WithDiscount_icon__large_6c06eeb7 {
-  transform: translate(-44%, -50%);
-}
-.WithDiscount_icon__extraLarge_9d22aa45 {
-  transform: translate(-38%, -50%);
-}
-.WithDiscount_icon__xxl_4080bb18 {
-  transform: translate(-42%, -50%);
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.TruncateText_dcb41d92 {
-  max-width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.PlayerInfo_89eea88b {
-  display: flex;
-  align-items: center;
-}
-
-.PlayerInfo_badge_9f134a01 {
-  margin-right: 2rem;
-}
-
-.PlayerInfo_name_120449f9 {
-  margin-right: 2rem;
-  padding-bottom: 2rem;
-  color: var(--color-general-primary);
-  opacity: 0.9;
-}
-.PlayerInfo_name__medium_4066d463 {
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.3em;
-}
-.PlayerInfo_name__big_4119f7ab {
-  font-size: 24rem;
-  font-weight: 700;
-  line-height: 1.3em;
-}
-
-.PlayerInfo_clanTag_120449f9 {
-  margin-right: 2rem;
-  padding-bottom: 2rem;
-  color: var(--color-general-primary);
-  opacity: 0.9;
-}
-.PlayerInfo_clanTag__medium_4066d463 {
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.3em;
-}
-.PlayerInfo_clanTag__big_4119f7ab {
-  font-size: 24rem;
-  font-weight: 700;
-  line-height: 1.3em;
-}
-
-.PlayerInfo_stripe_65882a8f {
-  display: flex;
-  align-items: center;
-  margin-left: -50rem;
-}
-.PlayerInfo_stripe__medium_cc0a2a19 {
-  margin-left: -35rem;
-}
-.PlayerInfo_stripe__big_ccbc3007 {
-  margin-left: -80rem;
-}
-
-.PlayerInfo_stripeBadge_605bfd0a {
-  z-index: -1;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.VehicleLevel_3c938122 {
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.3em;
-  color: var(--color-general-primary);
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.VehicleType_30b4aab0 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.VehicleType_base__x24x24_a3dc7aa3 {
-  width: 20rem;
-  height: 24rem;
-}
-.VehicleType_base__x48x48_cb59f57a {
-  width: 32rem;
-  height: 48rem;
-}
-.VehicleType_base__x64x64_bb9b890 {
-  width: 44rem;
-  height: 64rem;
-}
-.VehicleType_base__x96x96_919f9f92 {
-  width: 66rem;
-  height: 96rem;
-}
-.VehicleType_base__premium__x24x24_92335fef {
-  width: 24rem;
-  height: 24rem;
-}
-.VehicleType_base__premium__x48x48_e19c5d21 {
-  width: 48rem;
-  height: 48rem;
-}
-.VehicleType_base__premium__x64x64_ba9a2a05 {
-  width: 64rem;
-  height: 64rem;
-}
-.VehicleType_base__premium__x96x96_d837a523 {
-  width: 96rem;
-  height: 96rem;
-}
-
-.VehicleType_icon_b15d2628 {
-  width: 100%;
-  height: 100%;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
 .Popover_border_d0a76717 {
   position: absolute;
   top: 0;
@@ -1059,6 +866,13 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   left: 50%;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.TruncateText_dcb41d92 {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .Checkbox_background_ae1fc797, .Checkbox_border_e1946121, .Checkbox_overlay_de55e0a5 {
   position: absolute;
   top: 0;
@@ -1199,6 +1013,15 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.VehicleLevel_3c938122 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: var(--color-general-primary);
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .VehiclePrestigeLevel_a750cce {
   width: 36rem;
   height: 16rem;
@@ -1293,6 +1116,49 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   height: 100%;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.VehicleType_30b4aab0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.VehicleType_base__x24x24_a3dc7aa3 {
+  width: 20rem;
+  height: 24rem;
+}
+.VehicleType_base__x48x48_cb59f57a {
+  width: 32rem;
+  height: 48rem;
+}
+.VehicleType_base__x64x64_bb9b890 {
+  width: 44rem;
+  height: 64rem;
+}
+.VehicleType_base__x96x96_919f9f92 {
+  width: 66rem;
+  height: 96rem;
+}
+.VehicleType_base__premium__x24x24_92335fef {
+  width: 24rem;
+  height: 24rem;
+}
+.VehicleType_base__premium__x48x48_e19c5d21 {
+  width: 48rem;
+  height: 48rem;
+}
+.VehicleType_base__premium__x64x64_ba9a2a05 {
+  width: 64rem;
+  height: 64rem;
+}
+.VehicleType_base__premium__x96x96_d837a523 {
+  width: 96rem;
+  height: 96rem;
+}
+
+.VehicleType_icon_b15d2628 {
+  width: 100%;
+  height: 100%;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .VehicleInfo_1732f1f0 {
   display: flex;
   align-items: center;
@@ -1371,6 +1237,70 @@ body .Arrow_arrow__opened_134476cd {
   flex-direction: column;
   color: #fcf7e5;
   position: relative;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Currency_72d4be39 {
+  display: flex;
+  align-items: center;
+  color: var(--color-general-secondary);
+  text-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.3);
+}
+.Currency_base__reverse_f12e61b0 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.Currency_base__notEnough_9a7842f {
+  color: var(--color-status-error);
+}
+.Currency_base__credits_7b9ae721 {
+  color: var(--color-currency-credits);
+}
+.Currency_base__gold_d6e3cbc {
+  color: var(--color-currency-gold);
+}
+.Currency_base__freeXP_d29d5a57 {
+  color: var(--color-currency-free-experience);
+}
+.Currency_base__crystal_f830cb47 {
+  color: var(--color-currency-bond);
+}
+.Currency_base__tankXP_1707c68b {
+  color: var(--color-currency-combat-experience);
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.WithDiscount_b8b3aa7f {
+  display: flex;
+  position: relative;
+  z-index: 0;
+}
+
+.WithDiscount_discount_f7ce1b97 {
+  align-self: center;
+  width: 20rem;
+  height: 23rem;
+  position: relative;
+  z-index: -1;
+}
+
+.WithDiscount_icon_a6c57ca8 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.WithDiscount_icon__extraSmall_97673105 {
+  transform: translate(-46%, -52%);
+}
+.WithDiscount_icon__small_60ee455a, .WithDiscount_icon__medium_2877fd99 {
+  transform: translate(-43%, -50%);
+}
+.WithDiscount_icon__large_6c06eeb7 {
+  transform: translate(-44%, -50%);
+}
+.WithDiscount_icon__extraLarge_9d22aa45 {
+  transform: translate(-38%, -50%);
+}
+.WithDiscount_icon__xxl_4080bb18 {
+  transform: translate(-42%, -50%);
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Content_8eaaf71a, .Content_ab8563af::after, .Content_disabledOverlay_af87c441 {
@@ -3926,6 +3856,79 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   opacity: 0.6;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.GradientText_textOverlay_2d67fbb8 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.GradientText_5009d812 {
+  position: relative;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.PlayerInfo_89eea88b {
+  display: flex;
+  align-items: center;
+}
+
+.PlayerInfo_badge_9f134a01 {
+  margin-right: 2rem;
+}
+
+.PlayerInfo_name_120449f9 {
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+  color: var(--color-general-primary);
+  opacity: 0.9;
+}
+.PlayerInfo_name__medium_4066d463 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+.PlayerInfo_name__big_4119f7ab {
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.PlayerInfo_clanTag_120449f9 {
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+  color: var(--color-general-primary);
+  opacity: 0.9;
+}
+.PlayerInfo_clanTag__medium_4066d463 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+.PlayerInfo_clanTag__big_4119f7ab {
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.PlayerInfo_stripe_65882a8f {
+  display: flex;
+  align-items: center;
+  margin-left: -50rem;
+}
+.PlayerInfo_stripe__medium_cc0a2a19 {
+  margin-left: -35rem;
+}
+.PlayerInfo_stripe__big_ccbc3007 {
+  margin-left: -80rem;
+}
+
+.PlayerInfo_stripeBadge_605bfd0a {
+  z-index: -1;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .Tooltip_6d997cee {
   display: flex;
   position: absolute;
@@ -3958,6 +3961,10 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .VehiclePrestigeEmblem_base__md_63f722e6 {
   width: 115rem;
   height: 84rem;
+}
+.VehiclePrestigeEmblem_base__mdLg_bb48be4b {
+  width: 143rem;
+  height: 104rem;
 }
 .VehiclePrestigeEmblem_base__lg_69373327 {
   width: 170rem;
@@ -3994,6 +4001,10 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .VehiclePrestigeEmblem_levelIcon__md_914fcef3 {
   width: 16rem;
   height: 33rem;
+}
+.VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370 {
+  width: 20rem;
+  height: 41rem;
 }
 .VehiclePrestigeEmblem_levelIcon__lg_2fd402cc {
   width: 23rem;

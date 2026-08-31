@@ -826,6 +826,9 @@ msgstr "3Dスタイル"
 msgid "carousel_tank_filter/ready"
 msgstr "メインのみ"
 
+msgid "carousel_tank_filter/scout"
+msgstr "偵察型"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "狙撃型"
 
@@ -834,9 +837,6 @@ msgstr "支援型"
 
 msgid "carousel_tank_filter/universal"
 msgstr "万能型"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "装輪式"
 
 msgid "centerIsAvailable"
 msgstr "全サーバーがご利用頂けます。"
@@ -4159,6 +4159,9 @@ msgstr "【改良型自動再装填システム】\n砲弾の再装填時間を�
 msgid "moduleInfo/autoShootGun"
 msgstr "連射システムを採用した主砲"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "本車輌は防盾にロケット砲を搭載している。アビリティーを有効化すると、ロケット砲の照準サイトに切り替わり、砲撃ボタンで無誘導のHEロケット弾を発射できる。"
+
 msgid "moduleInfo/closeBtn"
 msgstr "閉じる"
 
@@ -4312,6 +4315,9 @@ msgstr "クールダウン時間"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "搭乗員の能力"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "クリティカルヒット率"
+
 msgid "moduleInfo/params/damage"
 msgstr "ダメージ"
 
@@ -4342,11 +4348,29 @@ msgstr "火災発生率"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "飛行時間"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "主装甲に命中した場合、必ずダメージを与える"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* この主砲での砲弾の最長飛翔距離"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr "この砲弾は飛翔距離が伸びても貫通力が減衰することはありません"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr "、最長飛翔距離—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " この弾種は最初の装甲板を貫通した後、距離に応じて貫通力が減衰し始めます。"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr "%(minDist)s～%(maxDist)s mの範囲で飛翔距離に応じて貫通力が減衰します"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " この弾種は追加装甲を貫通した際、その厚さの3倍の数値が貫通力から差し引かれます。"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "最大速度"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "主装甲に命中した場合、必ずダメージを与える"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "重量"
@@ -4378,20 +4402,11 @@ msgstr "HP"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "射程距離"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* この主砲での砲弾の最長飛翔距離"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "車輪の最大舵角"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "%(dist)s mでの平均ダメージ"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr "この砲弾は飛翔距離が伸びても貫通力が減衰することはありません"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr "、最長飛翔距離—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "標準化角度"
@@ -4399,14 +4414,8 @@ msgstr "標準化角度"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "貫通力減衰"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " この弾種は最初の装甲板を貫通した後、距離に応じて貫通力が減衰し始めます。"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr "%(minDist)s～%(maxDist)s mの範囲で飛翔距離に応じて貫通力が減衰します"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "平均貫通力 (mm)—距離"
@@ -4456,9 +4465,6 @@ msgstr "旋回速度"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "空間装甲倍率"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " この弾種は追加装甲を貫通した際、その厚さの3倍の数値が貫通力から差し引かれます。"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "【電磁誘導アフターバーナー】平均ダメージを強化可
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "【ジェットブースター】車輌の機動性を一時的に強化可能"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "【砲弾較正システム】砲撃前に一部の砲弾パラメーターを変更可能"
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "【連続式ロケット・スラスター】\n車輌の加速性能、機動性、俊敏性を強化可能"
@@ -5284,11 +5293,14 @@ msgstr "とりわけ瞬間火力の高い優秀な主砲を搭載した車輌で
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "その名の通り、様々な役目をそつなくこなせる優秀な車輌です。あらゆる戦局に冷静かつ柔軟に対処できます。"
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "走行速度に優れ、そして小回りが利く車輌です。慎重な偵察はもちろん、果敢に敵の側背面を取ってダメージを与えるのに必要な性能も備えています。"
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "「偵察型軽戦車」は敵を発見するために作られた小型で機敏な車輌です。低い車高と高い隠蔽性に加え、優れた機動性と高い最大速度を活かして、受動的偵察と能動的偵察の両方を得意とします。しかし、車輌HPと火力が低いため、味方への十分な火力支援は行えません。"
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "他の追随を許さない圧倒的な動力性能を誇る車輌です。大きな戦果を上げるには、マップを熟知して戦局の変化に機敏に対応できるだけの豊富な経験と高い技術が求められます。"
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "「支援型軽戦車」は、高い機動性、優れた旋回性能、強力な主砲を活かして素早くマップ両翼間を移動し、安全な場所へ後退する前に敵に大ダメージを与えます。特定の状況では偵察も行えるものの、サイズが大きく隠蔽性が低いため、他の軽戦車と比べて偵察役としての効果は劣ります。"
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "「万能型軽戦車」は、偵察と火力支援の両方を行えるバランスの取れた車輌です。偵察役としては偵察型軽戦車に劣り、火力は支援型軽戦車に及びませんが、そのバランスの取れた性能により両方の役割を十分にこなし、幅広い戦況に容易に適応できます。"
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "平均的な中戦車よりも頑丈な装甲を備えた車輌です。必要とあらば近距離で敵の重戦車と撃ち合うことも不可能ではありません。"
@@ -5329,11 +5341,14 @@ msgstr "支援型重戦車"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "万能型重戦車"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "偵察型軽戦車"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "支援型軽戦車"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "万能型軽戦車"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "装輪式軽戦車"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "攻撃的中戦車"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "連射性能"
 msgid "tank_params/autoShootClipSec"
 msgstr "(弾倉交換/容量)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "短縮後の砲弾装填時間"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "弾倉満タン時のチャージのクールダウン"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "チャージの基本クールダウン"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "戦闘開始時のチャージ"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "チャージ"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "平均ダメージ (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "100 mでの散布界 (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "平均貫通力 (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "クールダウン (秒)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "ロケット弾の弾速 (m/秒)"
+
 msgid "tank_params/avgDamage"
 msgstr "平均ダメージ"
 
@@ -6057,6 +6105,21 @@ msgstr "挿弾子"
 
 msgid "tank_params/burstSec"
 msgstr "(連射間隔 / 挿弾子数 / 砲弾数)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "平均ダメージ (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "最大速度 (外付け給弾モード) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "発射速度 (発/分)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "外付け給弾モードへの切り替え (秒)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "通常モードへの切り替え (秒)"
 
 msgid "tank_params/chargeTime"
 msgstr "斉射の準備時間"
@@ -6150,6 +6213,12 @@ msgstr "エンジン出力 (馬力) (ターボ・モード)"
 
 msgid "tank_params/explosionRadius"
 msgstr "ダメージ半径"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "最大速度 (外付け給弾モード) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "外付け給弾モードへの切り替え (秒)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "射撃後の砲身冷却時間"
@@ -6325,9 +6394,6 @@ msgstr "地盤走破性"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "同時計測エレキ・サイトのチャージ (1秒ごとの%) (交戦モード停止中)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(発動ごと)"
 
@@ -6484,8 +6550,20 @@ msgstr "補助兵装の装填時間"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "補助兵装の砲弾"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "砲弾調整後の平均ダメージ (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "砲弾調整後の平均貫通力 (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "弾帯装填時間"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "モードの切り替え時間"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "貫通力"
@@ -6495,6 +6573,36 @@ msgstr "100 mでの散布界"
 
 msgid "tank_params/shotSpeed"
 msgstr "弾速"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "茂みや樹木の陰に隠れた敵車輌の隠蔽率 (静止中および移動中)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "移動中の敵車輌の隠蔽率"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "1回目のクールダウン時間"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "持続時間"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "クールダウン"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "砲塔旋回速度"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "最終スキャン幅"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "初期スキャン幅"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "自車輌の被発見時間"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "視認範囲"
 
 msgid "tank_params/speedLimits"
 msgstr "最大速度 / 後退速度"

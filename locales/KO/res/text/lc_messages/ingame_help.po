@@ -232,11 +232,35 @@ msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니�
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "과열 제어 자동포"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "해당 장치는 포탄 재장전 시간을 짧은 고정 시간으로 즉시 변경합니다. 사용할 때마다 포탄 한 발당 충전 횟수 1회가 소모되며, 충전 횟수는 시간이 지나면 보충됩니다. 클립이 전체 장전되어 있을 때 더 빠르게 보충되며, 전투 시작 시 일정량의 충전 횟수가 주어집니다."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "강제 장전 장치"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "해당 전차는 포방패에 로켓 발사기를 장착하였습니다. 다음 단축키를 눌러 로켓 조준으로 전환할 수 있습니다."
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "동축 로켓 발사기"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "로켓 조준 중 다음 버튼을 눌러 로켓을 발사할 수 있습니다."
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "동축 로켓 발사기"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "적에게 포탄이 명중하면 재장전 효율 단계가 상승하여 일시적으로 주포의 재장전 속도가 가속됩니다. 단계는 포탄이 명중할 때마다 누적됩니다.\n적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "반자동 탄약 적재함"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "해당 전차는 외장 탄약 보급 모드를 사용하여 더 강력한 고장약 일체형 포탄을 발사할 수 있습니다. 해당 모드가 활성화된 동안에는 기동력과 연사력이 감소합니다."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "외장 탄약 보급 모드"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "주포가 장전되면 다음에 발사할 포탄을 가열할 수 있습니다. 가열 단계가 높을수록 평균 공격력에 더 큰 보너스가 적용됩니다.\n가열 시작 단축키:"
@@ -345,6 +369,30 @@ msgstr "제트 추진기 활성화 시 엔진 출력과 최고 전진 속력이 
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "장단점"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "발견한 적 전차에 포탄이 명중하면 다음 포탄의 신관이 조정됩니다. 첫 포탄이 적 장갑을 관통하면 다음 포탄의 공격력이 증가하고, 관통하지 못하면 다음 포탄의 관통력이 증가합니다."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "신관 조정 장치"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "해당 전차의 주포에는 사격 전에 일부 포탄 성능을 변경할 수 있는 특수 장치가 탑재되어 있습니다. 선택한 모드에 따라 포탄 성능이 달라지며, 각 모드를 활용하면 다양한 전투 상황에 신속하게 대응할 수 있습니다."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "포탄 보정 시스템"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "개량형 광학 장비로 관측 범위를 확장하고 기동 중이거나 수풀 뒤에 숨어 있는 전차에 대한 탐지 성능을 향상합니다. 활성화 시 일정 시간 동안 전차 정면의 좁은 구역을 스캔하여 은폐 중인 목표물을 드러내고, 이후에는 재사용 시간이 적용됩니다."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "적외선 탐색 추적"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "발각되지 않은 적을 발견하면 본인 역시 일정 시간 즉시 발각된 상태가 되며, 본인과 발견된 적 모두 즉시 알림을 받습니다. 활성화 후 짧은 시간이 지나면 탐색을 수동으로 중단할 수 있으며, 탐색을 중단하면 장치의 재사용 시간이 바로 흐르기 시작합니다."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "적외선 탐색 추적"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "일정 시간 동안 가속력, 속력, 기동력을 높일 수 있는 고체 연료 추력기입니다. 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다."

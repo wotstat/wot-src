@@ -136,6 +136,24 @@ msgstr[0] "{{count}}场胜利"
 msgstr[1] "{{count}}场胜利"
 msgstr[2] "{{count}}场胜利"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "开放{{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "战斗经验"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "为欢迎您再次投入战斗，我们为您准备了特殊奖励：{{@ style (color #ede6d9e6)}}每日“重返战场奖励”{{/}}让您的每辆战车在获得每日首胜时，获取更多的战斗经验。"
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "车长，欢迎回来！"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "此加成于每天的{{@ style (color #ede6d9e6)}}{{value}}{{/}}重置。"
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "重返战场奖励：可用"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "点击以前往您的战车游玩列表"
 

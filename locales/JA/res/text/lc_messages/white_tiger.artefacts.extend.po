@@ -1,0 +1,284 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "builtinAfterburning_wt/always"
+msgstr "?empty?"
+
+msgid "builtinAfterburning_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinAfterburning_wt/features"
+msgstr "1.「アフターバーナー」を発動すれば目指す地点に素早く到達できます。\n2.「アフターバーナー」は危険を回避する際にも役立ちます。\n3. 敵の周囲を旋回して機動性で圧倒したい場合も「アフターバーナー」が力を発揮します。\n4. 体当たりによる与ダメージ量も増加します。"
+
+msgid "builtinAfterburning_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinAfterburning_wt/name"
+msgstr "アフターバーナー"
+
+msgid "builtinAfterburning_wt/onUse"
+msgstr "車輌の移動速度を短時間向上させる。"
+
+msgid "builtinAfterburning_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinAfterburning_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinChargedShot_wt/always"
+msgstr "?empty?"
+
+msgid "builtinChargedShot_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinChargedShot_wt/features"
+msgstr "1.「レールガン」で敵の「哨戒車輌」の車体後部を撃ち抜くと高確率で火災を誘発できます。\n2.「レールガン」は遠距離から敵にダメージを与えたり、敵の注意を引くうえで大きな力を発揮します。"
+
+msgid "builtinChargedShot_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinChargedShot_wt/name"
+msgstr "レールガン"
+
+msgid "builtinChargedShot_wt/onUse"
+msgstr "次に放つ砲弾の性質を変化させ、精度、単発火力、モジュールへの与ダメージを向上させる。"
+
+msgid "builtinChargedShot_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinChargedShot_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinExplosiveShot_wt/always"
+msgstr "?empty?"
+
+msgid "builtinExplosiveShot_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinExplosiveShot_wt/features"
+msgstr "1.「デトネイター」を使用すると複数の敵車輌に対してかなりのダメージを与えることができます。\n2. 敵が遮蔽物の陰に隠れていてもダメージが発生します。\n3. 遮蔽物が分厚く頑丈な場合は与えられるダメージ量が低下します。\n4. 命中した敵車輌の数が多いほど、「デトネイター」により与えられるダメージ量が増加します。"
+
+msgid "builtinExplosiveShot_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinExplosiveShot_wt/name"
+msgstr "デトネイター"
+
+msgid "builtinExplosiveShot_wt/onUse"
+msgstr "次に放つ砲弾の性質を変化させ、着弾時に爆発により一定の範囲内の敵車輌に対して相当量のダメージを与える。"
+
+msgid "builtinExplosiveShot_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinExplosiveShot_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinHyperion_wt/always"
+msgstr "?empty?"
+
+msgid "builtinHyperion_wt/descr"
+msgstr "Ermelindaの極秘技術"
+
+msgid "builtinHyperion_wt/features"
+msgstr "1. エネルギー波を放出して対象範囲内の敵に大ダメージを与える超強力な新兵器です。\n2. 発動のタイミングが敵に筒抜けになる点には注意が求められます。\n3. エネルギー波を命中させると「エレクトロドーム」や「フルリペア」などといった敵の生存アビリティーを強制停止に追い込むことができます。\n4. 味方の「哨戒車輌」と「Blitzträger」自身にダメージが発生することはありません。"
+
+msgid "builtinHyperion_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinHyperion_wt/name"
+msgstr "ヒュペリオン"
+
+msgid "builtinHyperion_wt/onUse"
+msgstr "指定したエリアに対して強力なエネルギー波を放出する。数秒が経過するとエリア内のすべての敵車輌に大ダメージが発生する。"
+
+msgid "builtinHyperion_wt/restriction"
+msgstr "「シールド」の消失中は使用できない。"
+
+msgid "builtinHyperion_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinImpulse_wt/always"
+msgstr "?empty?"
+
+msgid "builtinImpulse_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinImpulse_wt/features"
+msgstr "1.「電磁バースト」は戦場のオブジェクトを透過します。すばしっこく逃げ回る車輌から機動性を奪うのに最適です。\n2. 発動中の敵の効果を解除できます。\n3.「電磁バースト」によるスタン中、敵はアビリティーを発動できなくなります。"
+
+msgid "builtinImpulse_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinImpulse_wt/name"
+msgstr "電磁バースト"
+
+msgid "builtinImpulse_wt/onUse"
+msgstr "自車輌の周囲にエネルギー波を放出することで効果範囲内の全敵車輌をスタンさせると同時に特に接近している敵車輌に対してダメージを与える。戦場のあらゆる遮蔽物を透過し、効果範囲内の「ジェネレーター」の破壊状況をリセットすることもできる。"
+
+msgid "builtinImpulse_wt/restriction"
+msgstr "「シールド」の消失中は使用できない。"
+
+msgid "builtinImpulse_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinInstantStunShoot_wt/always"
+msgstr "?empty?"
+
+msgid "builtinInstantStunShoot_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinInstantStunShoot_wt/features"
+msgstr "1.「電磁ショット」にはスタン効果があるため状況によってはスタンで機動性を奪ってからダメージを与えるのが賢い選択となります。\n2.「電磁ショット」は命中しなくても範囲内の敵をスタンさせることができます。\n3.「電磁ショット」は主砲の装填が完了していなくても発射できます。\n4.「電磁ショット」は発動中の敵の効果を解除できます。\n5.「電磁ショット」によるスタン中、敵はアビリティーを発動できなくなります。"
+
+msgid "builtinInstantStunShoot_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinInstantStunShoot_wt/name"
+msgstr "電磁ショット"
+
+msgid "builtinInstantStunShoot_wt/onUse"
+msgstr "高電圧を帯びた特殊な砲弾を発射する。敵車輌に命中するとスタンさせると同時にその機動性を奪う。命中した「ジェネレーター」の破壊状況を阻害することもできる。"
+
+msgid "builtinInstantStunShoot_wt/restriction"
+msgstr "「シールド」の消失中は使用できない。"
+
+msgid "builtinInstantStunShoot_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinLargeMedkit_wt/always"
+msgstr "搭乗員の保護 %(crewHitChance)s"
+
+msgid "builtinLargeMedkit_wt/descr"
+msgstr "負傷した全搭乗員を治療すると同時にスタン効果を解消する。"
+
+msgid "builtinLargeMedkit_wt/long_special"
+msgstr "使用することで負傷中の全搭乗員を治療すると同時にスタン効果を解消できるほか、搭載するだけで搭乗員が負傷する確率が低下する。車輌のタイプや国籍を問わず搭載できる。"
+
+msgid "builtinLargeMedkit_wt/name"
+msgstr "救急キット (大)"
+
+msgid "builtinLargeMedkit_wt/onUse"
+msgstr "負傷中の全搭乗員を治療する。1戦中に繰り返し使用できる。使用しても戦闘終了後に消費されない。"
+
+msgid "builtinLargeMedkit_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinLargeMedkit_wt/short_special"
+msgstr "負傷中の全搭乗員を治療する。"
+
+msgid "builtinLargeMedkit_wt/stunDisabled/descr"
+msgstr "負傷中の全搭乗員を治療する。"
+
+msgid "builtinRepairkit_wt/always"
+msgstr "モジュールの修理速度 %(vehicleRepairSpeed)s"
+
+msgid "builtinRepairkit_wt/descr"
+msgstr "損傷または大破中の全モジュールを修理する。"
+
+msgid "builtinRepairkit_wt/long_special"
+msgstr "使用することで損傷または大破中の全モジュールを修理できるほか、搭載するだけで修理速度が上昇する。"
+
+msgid "builtinRepairkit_wt/name"
+msgstr "修理キット (大)"
+
+msgid "builtinRepairkit_wt/onUse"
+msgstr "損傷または大破中の全モジュールを修理する。負傷中の全搭乗員を治療する。1戦中に繰り返し使用することができる。使用しても消費されることがない。"
+
+msgid "builtinRepairkit_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinSelfRepair_wt/always"
+msgstr "?empty?"
+
+msgid "builtinSelfRepair_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinSelfRepair_wt/features"
+msgstr "1. ダメージを受けている場合は隙を見て「フルリペア」で車輌HPを全回復させるのが大切です。\n2. ダメージを受けると効果が中断されます。\n3. 撃ち合いの最中に瀕死に陥った場合や敵の最終兵器「ヒュペリオン」の効果範囲から逃れられない場合は「フルリペア」を使用して車輌HPをわずかに回復させるだけでも大破を避けられる可能性があります。"
+
+msgid "builtinSelfRepair_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinSelfRepair_wt/name"
+msgstr "フルリペア"
+
+msgid "builtinSelfRepair_wt/onUse"
+msgstr "車輌HPを徐々に回復させる。車輌HPが満タンになるかダメージを受けると効果が停止してしまう。"
+
+msgid "builtinSelfRepair_wt/restriction"
+msgstr "車輌HPが満タンの場合は使用できない。"
+
+msgid "builtinSelfRepair_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinShield_wt/always"
+msgstr "?empty?"
+
+msgid "builtinShield_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinShield_wt/features"
+msgstr "1.「エレクトロドーム」の効果持続時間は長くありません。緊急時に素早く発動するのが重要になります。\n2.「エレクトロドーム」を発動すればスタンも回避できるようになります。\n3.「エレクトロドーム」を発動していても、体当たりや衝撃によるダメージは回避できません。"
+
+msgid "builtinShield_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinShield_wt/name"
+msgstr "エレクトロドーム"
+
+msgid "builtinShield_wt/onUse"
+msgstr "一定時間が経過するまで被弾してもダメージやスタンが発生しない無敵状態となる。"
+
+msgid "builtinShield_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinShield_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinStronghold_wt/always"
+msgstr "?empty?"
+
+msgid "builtinStronghold_wt/descr"
+msgstr "特殊アビリティー"
+
+msgid "builtinStronghold_wt/features"
+msgstr "1.「イグナイト」を発動すると機動性が大幅に低下します。危険を回避できなくなるため発動には慎重さが求められます。\n2.「イグナイト」の発動中は主砲の仰俯角も拡大されるため、稜線をさらに活かせるようになります。\n3. 必要とあらば豊富な車輌HPを活かして味方の盾となるのも勝利には欠かせません。\n4. 再度同じキーを押すことで効果をキャンセルできます。この場合でも効果の残りの持続時間がクールダウン時間から引かれるため、無駄になることはありません。"
+
+msgid "builtinStronghold_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinStronghold_wt/name"
+msgstr "イグナイト"
+
+msgid "builtinStronghold_wt/onUse"
+msgstr "一定時間が経過するまで機動性を犠牲に発射速度を向上させる。"
+
+msgid "builtinStronghold_wt/restriction"
+msgstr "?empty?"
+
+msgid "builtinStronghold_wt/short_special"
+msgstr "?empty?"
+
+msgid "builtinTeleport_wt/always"
+msgstr "?empty?"
+
+msgid "builtinTeleport_wt/descr"
+msgstr "Max von Kriegerの新秘密兵器"
+
+msgid "builtinTeleport_wt/features"
+msgstr "1.「ハーリア隊」は「テレポート」のタイミングは分かるものの具体的な移動先は把握できません。\n2.「ハーリア隊」からただ遠ざかればいい訳ではありません。その後の展開や自身の機動性も考慮して移動先を選ぶのが重要です。"
+
+msgid "builtinTeleport_wt/long_special"
+msgstr "?empty?"
+
+msgid "builtinTeleport_wt/name"
+msgstr "テレポート"
+
+msgid "builtinTeleport_wt/onUse"
+msgstr "一定の遅延時間を挟んでマップ上の選択した地点に瞬間移動する。装置の起動準備中は車輌をまったく操縦できなくなる。"
+
+msgid "builtinTeleport_wt/restriction"
+msgstr "「シールド」の消失中は使用できない。"
+
+msgid "builtinTeleport_wt/short_special"
+msgstr "?empty?"

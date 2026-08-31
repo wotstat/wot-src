@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "획득한 골드"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "%(campaignName)s에 합류하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+msgstr "%(campaignName)s 캠페인 임무를 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "축하합니다!"
@@ -1929,6 +1929,21 @@ msgstr "%(campaignName)s 캠페인 %(categoryName)s 임무를 30개 완료하여
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "%(campaignName)s 캠페인 %(categoryName)s 임무를 15개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "%(campaignName)s 캠페인 임무를 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "%(operationName)s 작전의 %(categoryName)s 연속 임무를 21개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "%(operationName)s 작전의 %(categoryName)s 연속 임무를 14개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "%(operationName)s 작전의 %(categoryName)s 연속 임무 7개를 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "아군에 입힌 피해에 대한 벌금: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "버튼을 눌러 내용물을 확인하십시오."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "상자 획득:"
+msgstr "상자 획득"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "표시"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "보상으로 이동"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "게이트 활성화: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "모든 게이트 활성화 및 아이템 획득:"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "보상 획득"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "모든 상자 개봉 완료, 연말연시 작전 보상 추가"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "범용 조각"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s 국가 조각"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "다음 전차의 구성이 변경되었습니다. \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "주의!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'> 외 %(vehiclesCount)s대</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr "•"
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "업데이트 적용에 따라 모든 데칼이 제거되어 보관소 보유 항목의 전차 꾸미기로 이동했습니다."

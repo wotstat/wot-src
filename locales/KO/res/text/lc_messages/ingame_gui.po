@@ -700,6 +700,9 @@ msgstr "기지 점령 완료"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "화재 구역에 의한 피해"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "입힌 피해"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "전차 수리 완료"
 
@@ -741,6 +744,9 @@ msgstr "사격 피해"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "화공전차 피해"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "사격 피해"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "충돌 피해"
@@ -907,6 +913,9 @@ msgstr "궤도 관통 실패"
 msgid "hitMarker/wheelBlocked"
 msgstr "차륜 관통 실패"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s ~ %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "전차 최고 단계"
 
@@ -1020,6 +1029,21 @@ msgstr "손상된 부품이 없습니다."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] 부품은 수리할 필요가 없습니다."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "이용 불가: 클립 전체 장전 상태"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "이용 불가: 포탄 부족"
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "이용 불가: 충전 횟수 소진"
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "이용 불가: 잠시 후 재장전 완료"
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "로켓 발사 불가"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "동축 무장을 활성화할 수 없습니다."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)smm 고폭탄 %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)smm 성형작약탄 %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "부품 파괴/부상 유발 확률: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "감소"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "증가"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "일반"
+
 msgid "shells_kinds/params/damage"
 msgstr "평균 공격력: %(value)s"
 
@@ -2710,17 +2746,41 @@ msgstr "초당 공격력: %(value)s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "피해 범위: %(value)sm"
 
-msgid "shells_kinds/params/header"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "기본 / 개량"
+
+msgid "shells_kinds/params/header/lowChargeShot"
 msgstr "최대 / 단일 장약"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "일반 / 조정"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "일반 / 보정"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "표준화 각도: %(value)s도"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "관통력 감소: 100mm당 %(value)s"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "평균 관통력: %(value)smm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "도탄 각도: %(value)s도"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "포탄 속도: %(value)sm/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "폭발 충격 지속 시간: %(minValue)s~%(maxValue)s초"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "입력 시 외장 탄약 보급 모드 활성화"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr " — 사격 모드로 전환"
@@ -2745,6 +2805,9 @@ msgstr "입력 시 액체 연료 부스터 활성화"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "입력 시 제트 추진기 활성화"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "입력 시 사격 모드 전환"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "입력 시 순차 로켓 추력기 활성화"

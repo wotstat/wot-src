@@ -11,6 +11,7 @@ from operator import itemgetter
 import BigWorld
 from backports.functools_lru_cache import lru_cache
 from shared_utils import findFirst, CONST_CONTAINER
+from skeletons.gui.shared.gui_items import IGuiItemsFactory
 from vehicle_outfit.outfit import Area, REGIONS_BY_SLOT_TYPE, ANCHOR_TYPE_TO_SLOT_TYPE_MAP
 import constants
 from AccountCommands import LOCK_REASON, VEHICLE_SETTINGS_FLAG, VEHICLE_EXTRA_SETTING_FLAG
@@ -63,6 +64,7 @@ if typing.TYPE_CHECKING:
     from typing import Any, Dict, List, Optional, Tuple, Iterable
     from skeletons.gui.shared import IItemsRequester
     from items.customizations import CustomizationOutfit
+    from items.vehicles import VehicleDescr
     from vehicle_outfit.outfit import Outfit
     from gui.shared.gui_items.vehicle_mechanics.vehicle_mechanic_item import VehicleMechanicItem
     from gui.veh_post_progression.models.progression import PostProgressionItem, AvailabilityCheckResult
@@ -114,7 +116,8 @@ VEHICLE_BATTLE_TYPES_ORDER = (
 VEHICLE_BATTLE_TYPES_ORDER_INDICES = {n: i for i, n in enumerate(VEHICLE_BATTLE_TYPES_ORDER)}
 _ALL_ROLES_ORDER = [
  constants.ROLE_TYPE.LT_UNIVERSAL,
- constants.ROLE_TYPE.LT_WHEELED,
+ constants.ROLE_TYPE.LT_SCOUT,
+ constants.ROLE_TYPE.LT_SUPPORT,
  constants.ROLE_TYPE.HT_UNIVERSAL,
  constants.ROLE_TYPE.MT_UNIVERSAL,
  constants.ROLE_TYPE.ATSPG_UNIVERSAL,
@@ -130,7 +133,8 @@ _ALL_ROLES_ORDER = [
  constants.ROLE_TYPE.SPG]
 _LIGHT_GROUPS = [
  constants.ROLE_TYPE.LT_UNIVERSAL,
- constants.ROLE_TYPE.LT_WHEELED]
+ constants.ROLE_TYPE.LT_SCOUT,
+ constants.ROLE_TYPE.LT_SUPPORT]
 _MEDIUM_GROUPS = [
  constants.ROLE_TYPE.MT_ASSAULT,
  constants.ROLE_TYPE.MT_UNIVERSAL,
@@ -204,6 +208,30 @@ EliteStatusProgress = typing.NamedTuple(b'EliteStatusProgress', (
  (
   b'total', typing.Set[int])))
 NO_VEHICLE_ID = -1
+
+class _OutfitCacheKey(object):
+    __slots__ = (b'vehicle',)
+
+    def __init__(self, vehicle):
+        self.vehicle = vehicle
+        return
+
+    def __hash__(self):
+        return id(self.vehicle)
+
+    def __eq__(self, other):
+        return self.vehicle is other.vehicle
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+
+@lru_cache(10)
+def _getOutfit(vehKey, component, vehicleCD):
+    itemsFactory = dependency.instance(IGuiItemsFactory)
+    outfit = itemsFactory.createOutfit(component=component, vehicleCD=vehicleCD)
+    return outfit
+
 
 class Vehicle(FittingItem):
     __slots__ = (b'__customState', b'__weakref__', b'_inventoryID', b'_xp', b'_dailyXPFactor', b'_isElite', b'_isFullyElite', b'_clanLock', b'_isUnique', b'_rentPackages', b'_rentPackagesInfo', b'_isDisabledForBuy', b'_isSelected', b'_restorePrice', b'_searchableUserName', b'_personalDiscountPrice', b'_rotationGroupNum', b'_rotationBattlesLeft', b'_isRotationGroupLocked', b'_isInfiniteRotationGroup', b'_settings', b'_lock', b'_repairCost', b'_health', b'_gun', b'_turret', b'_engine', b'_chassis', b'_radio', b'_fuelTank', b'_equipment', b'_bonuses', b'_crewIndices', b'_crew', b'_lastCrew', b'_hasModulesToSelect', b'_outfitComponents', b'_slotsAnchors', b'_unlockedBy', b'_maxRentDuration', b'_minRentDuration', b'_slotsAnchorsById', b'_hasNationGroup', b'_extraSettings', b'_groupIDs', b'_postProgression', b'_invData', b'_proxy')
@@ -578,12 +606,15 @@ class Vehicle(FittingItem):
 
         return (None, None)
 
-    def getMechanics(self, withOverrides=False):
+    def getMechanics(self, vehDescr=None, withOverrides=False):
         vehDescr = self.descriptor
         vehicleType = vehDescr.type
+        secondaryGuns = [slot.gun for slot in vehDescr.gunInstallations if not slot.isMainInstallation()]
         modules = chain.from_iterable((factory(descr.compactDescr, descriptor=descr) for descr in descriptors) for descriptors, factory in (
          (
           vehicleType.getGuns(), self.itemsFactory.createVehicleGun),
+         (
+          secondaryGuns, self.itemsFactory.createVehicleGun),
          (
           vehicleType.chassis, self.itemsFactory.createVehicleChassis),
          (
@@ -2189,10 +2220,8 @@ class Vehicle(FittingItem):
             return customizations.CustomizationOutfit(camouflages=[camoComp])
         return customizations.CustomizationOutfit()
 
-    @lru_cache(4)
     def __getOutfit(self, component, vehicleCD):
-        outfit = self.itemsFactory.createOutfit(component=component, vehicleCD=vehicleCD)
-        return outfit
+        return _getOutfit(_OutfitCacheKey(self), component, vehicleCD)
 
 
 def getTypeUserName(vehType, isElite):

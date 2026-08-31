@@ -28,6 +28,30 @@ msgstr "ได้รับรางวัล"
 msgid "awardViews/footer/backButton/"
 msgstr "รับทราบ!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "เหลือ {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "ไม่มีการเปิดใหม่"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "รางวัลที่มีค่า"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "เปิดใหม่ฟรี"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "พันธบัตรไม่พอ"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "เปิดใหม่ด้วย {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "เปิดใหม่"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "รางวัลมีค่าที่ได้รับนั้นไม่สามารถทำการเปิดใหม่ได้"
+
 msgid "bonuses/description/battle_booster"
 msgstr "คำสั่ง"
 
@@ -118,6 +142,18 @@ msgstr "เปิดกล่องแล้ว: %(count)"
 msgid "common/statsButton"
 msgstr "สถิติ"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "กล่องดังกล่าวจะเปิดอีกครั้งสำหรับโอกาสในการได้รับรางวัลที่ต่างออกไป"
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "เปิดใหม่"
+
+msgid "confirmRerollLootBox/title"
+msgstr "เปิดใหม่ด้วย {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "ยกเลิก"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "กิจกรรมจบลงใน %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "ถ้าคุณยังไมไ่ด้เปิดกล่องก่อนกิจกรรมจบลง ก็จะทำการเปิดกล่องดังกล่าวโดยอัตโนมัติในภายหลัง"
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "ถ้าคุณยังไมไ่ด้เปิดกล่องก่อนช่วงท้ายกิจกรรม ก็จะทำการเปิดกล่องดังกล่าวโดยอัตโนมัติ"
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของกล่องแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากกล่องจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "ทุกๆกล่องที่ %(guaranteed0)s นั้นรับประกันว่าจะมีพาหนะระดับ VIII-X ให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับ VIII-X ที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องที่ %(guaranteed0)s&zwnbsp; (ขึ้นกับชนิดของกล่อง) และเมื่อได้รับ ตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "ทุกๆกล่องที่ %(guaranteed)s นั้นรับประกันว่าจะมีพาหนะระดับ VIII-X ให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับ VIII-X ที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องที่ %(guaranteed)s&zwnbsp; (ขึ้นกับชนิดของกล่อง) และเมื่อได้รับ ตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "หากคุณยังไม่พอใจกับรางวัลที่ได้จากกล่อง คุณสามารถเปิดใหม่ได้โดยมีโอกาสในการได้รับรางวัลที่ต่างออกไปจากรายการเดียวกัน แต่ละกล่องสามารถเปิดใหม่ได้อีกในจำนวนครั้งที่จำกัด:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "เปิดอัตโนมัติ"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "ค่าชดเชย"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "รางวัลรับประกัน"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "การเปิดใหม่"
 
 msgid "infoPage/header/lootListLink"
 msgstr "ดูรายการสิ่งของบนเวบท่าของเกม"
@@ -273,6 +315,30 @@ msgstr "สำหรับ %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "รูปแบบสามมิติ %(style)"
+
+msgid "reroll/free"
+msgstr "ฟรี"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "ธุรกรรมเงิน"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "หักเงินไป: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "หักพันธบัตรไป: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "วัน: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "หักทองไป: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "กิจกรรม %(eventName)s จบลงแล้ว"
@@ -480,3 +546,15 @@ msgstr "พาหนะชดเชย: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "ค่าชดเชยสำหรับพาหนะที่อยู่ในโรงรถของคุณอยู่แล้ว"
+
+msgid "tooltip/reroll/attempt"
+msgstr "การเปิดใหม่"
+
+msgid "tooltip/reroll/price"
+msgstr "ราคา"
+
+msgid "tooltip/reroll/text/default"
+msgstr "การเปิดกล่องอีกครั้งจะทำให้คุณมีโอกาสในการได้รับรางวัลที่ต่างออกไปจากชุดรายชื่อเดียวกัน"
+
+msgid "tooltip/reroll/title/default"
+msgstr "การเปิดใหม่"

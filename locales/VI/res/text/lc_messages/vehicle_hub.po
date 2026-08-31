@@ -34,6 +34,9 @@ msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ n�
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Bật lên là máy gào, tốc chạy xé gió – phóng hơn ma đuổi! Nhưng lái khó như say rượu, đã bật là khỏi tắt thủ công."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Súng xe có các thiết bị đặc biệt cho phép điều chỉnh tham số đạn trước khi bắn. Tham số mỗi loại đạn sẽ thay đổi tùy chế độ được chọn, mỗi chế độ giúp nhanh chóng thích nghi với tình huống chiến đấu."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Khi được kích hoạt, cơ chế đặc biệt này làm tăng và/hoặc thay đổi một số đặc tính chiến đấu cụ thể. Tốt nhất nên kích hoạt nếu đã vào vị trí và sẵn sàng nghênh chiến."
 
@@ -82,6 +85,9 @@ msgstr "Autocannon Kiểm Thermal Overheat"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Áp phản lực"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Shell Calibration System"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Chế độ tác xạ"
 
@@ -100,8 +106,17 @@ msgstr "Chế độ bắn song song"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Bằng cách đứng yên hoặc di chuyển chậm, bạn dần xây dựng các mức chính xác để cải thiện phát bắn tiếp theo.\nỞ mức chính xác cao nhất, súng vận hành mượt, phân tán thấp ngay cả khi di chuyển hoặc xoay tháp pháo/thân xe."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Cơ chế này lập tức giảm thời gian nạp viên đạn xuống còn một khoảng ngắn nhất định. Mỗi lần dùng sẽ tiêu tốn một sạc mỗi viên, và sạc hồi dần theo thời gian — nhanh hơn khi đầy băng. Có lượng sạc cụ thể khả dụng từ đầu trận."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Xe này trang bị ống phóng tên lửa gắn trên mặt nạ súng. Kích hoạt khả năng bằng cách chuyển sang tâm ngắm vũ khí phụ, sau đó phóng tên lửa HE không-điều-khiển bằng nút bắn."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Mỗi lần trúng địch bằng một viên đạn, bạn sẽ nhận một mức hiệu quả tái nạp, giúp tạm thời tăng tốc reload cho súng. Các mức độ sẽ cộng dồn theo từng phát trúng. \nDiệt xe địch bằng đạn sẽ cho thêm mức hiệu quả tái nạp."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Mô-đun Tiếp đạn Ngoài External Ammunition Feed của xe này cho phép bắn đạn liền khối có lượng thuốc phóng lớn, uy lực mạnh, gây sát thương cao hơn. Khi kích hoạt, mô-đun này làm giảm khả năng cơ động và tốc độ bắn."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Nếu súng đã được nạp, bạn có thể bắt đầu làm nóng phát tiếp theo để tăng sát thương—mức nhiệt càng cao, hiệu quả càng lớn.\nỞ mức nhiệt cao nhất, sẽ có vài giây để bóp cò—nếu không, bạn sẽ tạm thời không thể bắn."
@@ -142,6 +157,15 @@ msgstr "Hệ thống tích lũy điện tích theo thời gian; mức sạc càn
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Kích hoạt Booster nhiên liệu lỏng bất cứ lúc nào để bứt tốc khi cần nhất. Bộ áp sẽ nóng lên và phải để nguội trước khi dùng tiếp, còn nếu quá tới hạn nhiệt thì xác định — tạm tắt luôn."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Khi dùng đạn bắn trúng một xe địch đang lộ hình, bộ hiệu chuẩn ngòi nổ trên viên tiếp theo sẽ được điều chỉnh. Nếu phát đầu xuyên giáp địch, sát thương của phát bắn tiếp theo sẽ tăng lên. Nếu không, khả năng xuyên giáp của phát tiếp theo sẽ tăng lên."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Súng xe có các thiết bị đặc biệt cho phép điều chỉnh tham số đạn trước khi bắn. Tham số mỗi loại đạn sẽ thay đổi tùy chế độ được chọn, mỗi chế độ giúp nhanh chóng thích nghi với tình huống chiến đấu."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Lúc kích hoạt, thiết bị sẽ quét một vùng hình quạt phía trước xe của bạn, phát hiện các mục tiêu ẩn trước khi bước vào thời gian hồi. Nếu nó soi ra một kẻ địch chưa lộ, bạn cũng sẽ lập tức bị phát hiện. Bạn có thể tự dừng quá trình quét sau một khoảng trễ ngắn."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động của xe trong vài giây. Hai Thruster trái–phải có thể hoạt động độc lập, cho phép xoay thân nhanh hơn và không hạn chế khả năng lùi."
 
@@ -166,8 +190,17 @@ msgstr "Sửa đổi cơ khí này nâng đáng kể khả năng tăng tốc, c�
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Device tính đạn đạo Analog"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Mechanism Cưỡng bức Loading"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Coaxial Rocket Launcher"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Ammo Rack bán-tự động"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Cơ chế External Ammunition Feed"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Overcharge đạn đạo Thermo"
@@ -208,6 +241,15 @@ msgstr "Afterburner Cảm ứng Propellant"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Booster nhiên liệu lỏng"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Adjustable Fuze Setter"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Shell Calibration System"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrared Search and Track (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Thruster Rốckét Sequential"
 
@@ -232,8 +274,17 @@ msgstr "Assist Áp High-Pressure"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Tăng chính xác cho phát kế tiếp, ổn định tốt khi full chuẩn."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Giảm ngay thời gian nạp lại đạn xuống một khoảng cố định ngắn."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Phóng một tên lửa HE không điều khiển từ ống phóng đồng trục độc lập với súng chính."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Mỗi phát trúng xe địch sẽ tăng tốc độ nạp đạn vào súng trong một khoảng thời gian nhất định."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Bắn ra những phát đạn sát thương cao, đổi lại khả năng cơ động và thời gian hồi phục."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Tích nhiệt lên để cú bắn sau thấm đau hơn."
@@ -274,6 +325,15 @@ msgstr "Hệ thống tích tụ năng lượng để tăng sát thương. Mức 
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Các bộ áp Booster có thể kích hoạt bất cứ lúc nào để đột ngột bứt tốc."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Bắn trúng một xe địch đang lộ sẽ làm tăng sát thương hoặc độ xuyên giáp của viên tiếp theo."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Súng có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Mở rộng tầm nhìn và phát hiện các xe đang di chuyển cũng như bị che khuất bởi tán lá trong một vùng hẹp."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động."
 
@@ -298,8 +358,14 @@ msgstr "Một cơ chế đặc biệt giúp tăng công suất động cơ, kh�
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Đứng yên hoặc chạy chậm dưới một tốc độ nhất định giúp xe của bạn hiệu chỉnh Device tính đạn đạo Analog, tích lũy mức chính xác, khiến phát bắn kế tiếp chuẩn hơn. Vượt quá giới hạn tốc độ sẽ làm tạm dừng quá trình tích lũy cho tới lúc giảm tốc. Ở mức chính xác cao nhất, súng xe gần như ổn định hoàn hảo, phân tán cực thấp khi di chuyển hoặc xoay tháp pháo/thân. Hiệu ứng mất đi lúc khai hỏa."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Xe này trang bị ống phóng tên lửa gắn trên mặt nạ súng. Kích hoạt khả năng bằng cách chuyển sang tâm ngắm vũ khí phụ, sau đó phóng tên lửa HE không-điều-khiển bằng nút bắn."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Mỗi lần trúng địch lộ thiên bằng một viên đạn, bạn sẽ nhận một mức hiệu quả tái nạp, giúp tạm thời tăng tốc reload cho súng. Các mức độ sẽ cộng dồn theo từng phát trúng. Diệt xe địch bằng đạn sẽ cho thêm mức hiệu quả tái nạp."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Mô-đun Tiếp đạn Ngoài External Ammunition Feed của xe này cho phép bắn đạn liền khối có lượng thuốc phóng lớn, uy lực mạnh, gây sát thương cao hơn. Khi kích hoạt, mô-đun này làm giảm khả năng cơ động và tốc độ bắn."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Nếu súng đã được nạp, bạn có thể bắt đầu làm nóng phát tiếp theo để tăng sát thương—mức nhiệt càng cao, Bonus cho sát thương trung bình càng lớn. Không thể đổi đạn trong khi làm nóng. Ở mức nhiệt cao nhất, đồng hồ sẽ đếm thời gian để bóp cò—nếu không bắn trước khi nó đếm hết, bạn sẽ tạm thời không thể khai hỏa trong vài giây."
@@ -340,6 +406,15 @@ msgstr "Theo thời gian, hệ thống tự động tích lũy sạc điện tí
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Booster Nhiên liệu Lỏng cung cấp một lượt tăng công suất động cơ để chiếm ưu thế vị trí trên trận địa—nhưng giới hạn tốc độ lùi và xoay xe. Chúng có thể bật/tắt bất cứ lúc nào, trừ trường hợp đã đạt giới hạn kích hoạt lại. Booster hoạt động sẽ nóng lên và bất khả dụng nếu chưa nguội, nghĩa là không thể dùng liên tục—vượt mức nhiệt tới hạn sẽ tạm thời vô hiệu hóa hoàn toàn. Hãy tính nước đi cẩn thận để không bị úp sọt."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Khi dùng đạn bắn trúng một xe địch đang lộ hình, bộ hiệu chuẩn ngòi nổ trên viên tiếp theo sẽ được điều chỉnh. Nếu phát đầu xuyên giáp địch, sát thương của phát bắn tiếp theo sẽ tăng lên. Nếu không, khả năng xuyên giáp của phát tiếp theo sẽ tăng lên."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Súng của xe có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn. Cấu hình hiển thị thông số nào sẽ bị ảnh hưởng khi chuyển đổi giữa các chế độ bắn."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Một thiết bị quang học tiên tiến giúp tăng phạm vi quan sát và cải thiện khả năng phát hiện các phương tiện đang di chuyển hoặc ẩn sau tán lá. Lúc kích hoạt, nó sẽ quét một vùng hẹp phía trước xe của bạn, làm lộ các mục tiêu đang ẩn nấp trước khi bước vào thời gian hồi phục. Nếu nó phát hiện một kẻ địch chưa bị lộ hình bao giờ, bạn cũng sẽ lập tức bị lộ vị trí. Bạn có thể tự dừng quá trình quét sau một khoảng trễ ngắn."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động của xe trong vài giây. Khác với bộ áp phản lực thông thường, hai Thruster trái–phải có thể hoạt động độc lập, cho phép xoay thân nhanh hơn và không hạn chế khả năng lùi. Chúng có thể kích hoạt được nhiều lần trong trận, nhưng cần thời gian hồi phục trước khi dùng tiếp."
 
@@ -363,6 +438,18 @@ msgstr "Sửa đổi cơ khí này nâng đáng kể khả năng tăng tốc, c�
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Mọi giá trị được hiển thị là cao nhất có thể đối với xe. Ứng dụng kỹ thuật, thiết bị và vật phẩm có thể ảnh hưởng đến chúng nhưng sẽ không hiện ở đây."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "calibratable AP shell"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "calibratable APCR shell"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "calibratable HE shell"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "calibratable HEAT shell"
 
 msgid "characteristics/templates/upTo"
 msgstr "Lên đến %(value)%s"

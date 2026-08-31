@@ -229,23 +229,14 @@ msgstr "구매 시"
 msgid "battlePassBuyView/descr"
 msgstr "진행 스테이지를 구매하면 해당 스테이지에 포함된 모든 보상이 즉시 해제 및 지급됩니다."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "남은 스테이지 완료 시 획득할 수 있는 보상입니다."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "스테이지 %(steps)s 완료 보상"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "다음 보상 즉시 지급"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "스테이지 %(steps)s 완료 보상"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "해제되는 보상"
+msgstr "미완료 스테이지에서 해제"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "즉시 획득하는 보상"
+msgstr "즉시 획득"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "배틀 패스 챕터 활성화"
@@ -277,20 +268,17 @@ msgstr "들소의 노래"
 msgid "chapter/fullName/1114"
 msgstr "들소의 노래"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "정예 행로"
 
-msgid "chapter/fullName/201"
-msgstr "시간의 흔적"
+msgid "chapter/fullName/211"
+msgstr "전문가"
 
-msgid "chapter/fullName/202"
-msgstr "운명의 종착지"
+msgid "chapter/fullName/212"
+msgstr "스턴트맨"
 
-msgid "chapter/fullName/203"
-msgstr "사막 사령부"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "금욕주의자"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "들소의 노래"
@@ -298,17 +286,14 @@ msgstr "들소의 노래"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "들소의 노래"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "시간의 흔적"
+msgid "chapter/fullNameUppercased/211"
+msgstr "전문가"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "운명의 종착지"
+msgid "chapter/fullNameUppercased/212"
+msgstr "스턴트맨"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "사막 사령부"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "금욕주의자"
 
 msgid "chapter/title"
 msgstr "챕터 %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "승무원 경험치 3배 획득 임무"
 
 msgid "equipCoinBonus"
 msgstr "부속품: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D 부착물 세트"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "전차장"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "모든 챕터 완료 시 이용할 수 있습니다. 완료한 챕터: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "프리미엄 전차와 특별 전차 꾸미기 요소를 획득할 기회입니다."
+msgstr "특별한 보상과 전차 꾸미기 요소를 획득해 보십시오."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "배틀 패스: Far Cry 등장!"
+msgstr "특별 챕터 등장!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "강화 패스를 구매하고 더 많은 보상 획득!"
@@ -1114,11 +1102,8 @@ msgstr "정예 행로 스테이지 %(level)d"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "각 승무원 경험치(선택한 %(nation)s 전차)"
 
-msgid "rewardChoice/subTitle"
-msgstr "보상 선택"
-
 msgid "rewardChoice/title"
-msgstr "배틀 패스"
+msgstr "보상 선택"
 
 msgid "rewardChoice/titleChapter"
 msgstr "배틀 패스: %(chapter)s 챕터"
@@ -1129,14 +1114,14 @@ msgstr "배틀 패스: %(chapter)s 챕터 스테이지 %(level)s"
 msgid "season/fullName/1002"
 msgstr "들소의 노래"
 
-msgid "season/fullName/20"
-msgstr "사막 탐색"
+msgid "season/fullName/21"
+msgstr "현실주의자"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "들소의 노래"
 
-msgid "season/fullNameUppercased/20"
-msgstr "사막 탐색"
+msgid "season/fullNameUppercased/21"
+msgstr "현실주의자"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "지휘명령(선택)"

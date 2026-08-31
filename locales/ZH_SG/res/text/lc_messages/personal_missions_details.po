@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "从%(distanceShortOrEqual)s米或更近的距离，通过射击对同等级或更高等级的敌方战车造成%(goal)s血量伤害"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "从%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆同等级或更高等级的敌方战车"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆同等级或更高等级的敌方战车"
 
 msgid "pm3_10_1_7_short"
 msgstr "先锋-7"
@@ -5856,6 +5856,978 @@ msgstr "伤害"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "摧毁"
+
+msgid "pm4_11_1_1"
+msgstr "先锋-1"
+
+msgid "pm4_11_1_10"
+msgstr "先锋-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "对通过射击伤害您战车的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_10_short"
+msgstr "先锋-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "伤害"
+
+msgid "pm4_11_1_11"
+msgstr "先锋-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "通过撞击摧毁一辆敌方战车并在撞击后存活下来"
+
+msgid "pm4_11_1_11_short"
+msgstr "先锋-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_1_12"
+msgstr "先锋-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_1_12_short"
+msgstr "先锋-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_1_13"
+msgstr "先锋-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "获得大口径奖项"
+
+msgid "pm4_11_1_13_short"
+msgstr "先锋-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "战斗英雄"
+
+msgid "pm4_11_1_14"
+msgstr "先锋-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "造成、受到及抵挡总共%(goal)s血量伤害"
+
+msgid "pm4_11_1_14_short"
+msgstr "先锋-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "复杂的条件"
+
+msgid "pm4_11_1_15"
+msgstr "先锋-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "摧毁您战车视野范围内的%(goal)s辆敌方战车"
+
+msgid "pm4_11_1_15_short"
+msgstr "先锋-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_1_16"
+msgstr "先锋-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "获得不死鸟奖项"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "成为己方团队中造成伤害最多的玩家"
+
+msgid "pm4_11_1_16_short"
+msgstr "先锋-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "战斗英雄"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_1_17"
+msgstr "先锋-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "造成的伤害与装甲抵挡的伤害总和等于或超过自身血量的%(vehicleHealthFactor)s倍"
+
+msgid "pm4_11_1_17_short"
+msgstr "先锋-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "伤害与抵挡"
+
+msgid "pm4_11_1_18"
+msgstr "先锋-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "对无法移动的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_18_short"
+msgstr "先锋-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "伤害"
+
+msgid "pm4_11_1_19"
+msgstr "先锋-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离，通过射击对同等级或更高等级的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆同等级或更高等级的敌方战车"
+
+msgid "pm4_11_1_19_short"
+msgstr "先锋-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "对敌方重型坦克造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "通过射击对敌方重型坦克造成伤害%(goal)s次"
+
+msgid "pm4_11_1_1_short"
+msgstr "先锋-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "伤害"
+
+msgid "pm4_11_1_2"
+msgstr "先锋-2"
+
+msgid "pm4_11_1_20"
+msgstr "先锋-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "摧毁%(goal)s辆%(uniqueGoal)s种不同类型的敌方战车"
+
+msgid "pm4_11_1_20_short"
+msgstr "先锋-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "摧毁"
+
+msgid "pm4_11_1_21"
+msgstr "先锋-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "造成、受到及抵挡总共%(goal)s血量伤害"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "个人造成伤害占己方团队总伤害的25%%"
+
+msgid "pm4_11_1_21_short"
+msgstr "先锋-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "复杂的条件"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "伤害"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "摧毁%(goal)s辆%(uniqueGoal)s种不同类型的敌方战车"
+
+msgid "pm4_11_1_2_short"
+msgstr "先锋-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "摧毁"
+
+msgid "pm4_11_1_3"
+msgstr "先锋-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "成为己方团队中造成伤害最多的玩家"
+
+msgid "pm4_11_1_3_short"
+msgstr "先锋-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_1_4"
+msgstr "先锋-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "在您的战车静止时抵挡%(goal)s血量伤害"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_4_short"
+msgstr "先锋-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "抵挡"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_5"
+msgstr "先锋-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "对处于您战车视野范围内的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_5_short"
+msgstr "先锋-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_6"
+msgstr "先锋-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "造成的伤害与装甲抵挡的伤害总和等于或超过自身血量的%(vehicleHealthFactor)s倍"
+
+msgid "pm4_11_1_6_short"
+msgstr "先锋-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "伤害与抵挡"
+
+msgid "pm4_11_1_7"
+msgstr "先锋-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "在%(distanceGreatOrEqual)s米或更远的距离对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_7_short"
+msgstr "先锋-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "伤害"
+
+msgid "pm4_11_1_8"
+msgstr "先锋-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "对敌方重型坦克造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "成为己方团队中造成伤害最多的玩家"
+
+msgid "pm4_11_1_8_short"
+msgstr "先锋-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_1_9"
+msgstr "先锋-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "对无法移动的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_1_9_short"
+msgstr "先锋-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "伤害"
+
+msgid "pm4_11_2_1"
+msgstr "伏击-1"
+
+msgid "pm4_11_2_10"
+msgstr "伏击-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "成为己方团队中获得经验排名第一的玩家"
+
+msgid "pm4_11_2_10_short"
+msgstr "伏击-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_2_11"
+msgstr "伏击-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "通过射击对移动中的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_11_short"
+msgstr "伏击-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_12"
+msgstr "伏击-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_2_12_short"
+msgstr "伏击-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_2_13"
+msgstr "伏击-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "个人造成伤害占己方团队总伤害的25%%"
+
+msgid "pm4_11_2_13_short"
+msgstr "伏击-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "伤害"
+
+msgid "pm4_11_2_14"
+msgstr "伏击-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "获得大口径奖项"
+
+msgid "pm4_11_2_14_short"
+msgstr "伏击-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "战斗英雄"
+
+msgid "pm4_11_2_15"
+msgstr "伏击-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "造成您战车血量%(vehicleHealthFactor)s倍的伤害"
+
+msgid "pm4_11_2_15_short"
+msgstr "伏击-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_16"
+msgstr "伏击-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "摧毁%(goal)s辆敌方战车，且对其中每一辆造成至少%(damageDealt)s血量伤害"
+
+msgid "pm4_11_2_16_short"
+msgstr "伏击-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "摧毁"
+
+msgid "pm4_11_2_17"
+msgstr "伏击-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_2_17_short"
+msgstr "伏击-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_2_18"
+msgstr "伏击-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "在%(distanceGreatOrEqual)s米或更远的距离对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "成为己方团队中获得经验排名第一的玩家"
+
+msgid "pm4_11_2_18_short"
+msgstr "伏击-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_2_19"
+msgstr "伏击-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "在您的战车受到任何伤害前摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_2_19_short"
+msgstr "伏击-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "击穿装甲%(goal)s次"
+
+msgid "pm4_11_2_1_short"
+msgstr "伏击-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "击穿"
+
+msgid "pm4_11_2_2"
+msgstr "伏击-2"
+
+msgid "pm4_11_2_20"
+msgstr "伏击-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "个人造成伤害占己方团队总伤害的30%%"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "摧毁全部敌方战车/占领基地或防御基地"
+
+msgid "pm4_11_2_20_short"
+msgstr "伏击-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "伤害"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "胜利"
+
+msgid "pm4_11_2_21"
+msgstr "伏击-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_21_short"
+msgstr "伏击-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "在战斗的前%(timeLimit)s分钟内造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "摧毁%(goal)s辆%(uniqueGoal)s种不同类型的敌方战车"
+
+msgid "pm4_11_2_2_short"
+msgstr "伏击-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "摧毁"
+
+msgid "pm4_11_2_3"
+msgstr "伏击-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "成为己方团队中获得经验排名第一的玩家"
+
+msgid "pm4_11_2_3_short"
+msgstr "伏击-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_2_4"
+msgstr "伏击-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "对敌方中型坦克造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "摧毁您战车视野范围外的%(goal)s辆敌方战车"
+
+msgid "pm4_11_2_4_short"
+msgstr "伏击-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_2_5"
+msgstr "伏击-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "造成%(goal)s血量伤害，在造成伤害时保持不被侦察"
+
+msgid "pm4_11_2_5_short"
+msgstr "伏击-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_6"
+msgstr "伏击-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "造成和协助造成总计%(goal)s血量伤害"
+
+msgid "pm4_11_2_6_short"
+msgstr "伏击-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "复杂的条件"
+
+msgid "pm4_11_2_7"
+msgstr "伏击-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "获得坦克狙击手奖项"
+
+msgid "pm4_11_2_7_short"
+msgstr "伏击-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "战斗英雄"
+
+msgid "pm4_11_2_8"
+msgstr "伏击-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "在%(distanceGreatOrEqual)s米或更远的距离摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_2_8_short"
+msgstr "伏击-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_2_9"
+msgstr "伏击-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "对无法移动的敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "造成%(goal)s血量伤害"
+
+msgid "pm4_11_2_9_short"
+msgstr "伏击-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "伤害"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "伤害"
+
+msgid "pm4_11_3_1"
+msgstr "支援-1"
+
+msgid "pm4_11_3_10"
+msgstr "支援-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "在保持自身不被侦察的情况下，通过侦察或使敌方战车无法移动来协助队友造成%(goal)s血量伤害"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "震晕敌方中型坦克与坦克歼击车，总计%(goal)s秒。包含潜在震晕时长"
+
+msgid "pm4_11_3_10_short"
+msgstr "支援-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "支援"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "震晕"
+
+msgid "pm4_11_3_11"
+msgstr "支援-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "通过侦察、使目标无法移动或震晕，协助队友对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_3_11_short"
+msgstr "支援-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "支援"
+
+msgid "pm4_11_3_12"
+msgstr "支援-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "通过侦察、使目标无法移动或震晕，协助队友摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_12_short"
+msgstr "支援-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "支援"
+
+msgid "pm4_11_3_13"
+msgstr "支援-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "获得I等或更高等的精通徽章"
+
+msgid "pm4_11_3_13_short"
+msgstr "支援-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "精通徽章"
+
+msgid "pm4_11_3_14"
+msgstr "支援-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "在战斗中存活下来"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "成为双方团队中获得经验排名第一的玩家"
+
+msgid "pm4_11_3_14_short"
+msgstr "支援-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "存活"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "顶尖玩家"
+
+msgid "pm4_11_3_15"
+msgstr "支援-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "通过侦察、使目标无法移动或震晕，协助队友摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_15_short"
+msgstr "支援-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "支援"
+
+msgid "pm4_11_3_16"
+msgstr "支援-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "在移动速度至少%(attackerMovingSpeedGreaterOrEqual)s公里/小时的情况下，对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "通过射击摧毁%(goal)s辆移动中的敌方战车"
+
+msgid "pm4_11_3_16_short"
+msgstr "支援-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "伤害"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_17"
+msgstr "支援-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "在战斗中存活下来"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "通过震晕或使目标无法移动，协助队友对敌方战车造成%(goal)s血量伤害，并在战斗中存活下来"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "您造成的伤害和您助攻造成的伤害总计需达到%(goal)s血量，并在战斗中存活下来"
+
+msgid "pm4_11_3_17_short"
+msgstr "支援-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "存活"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "支援"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "复杂的条件"
+
+msgid "pm4_11_3_18"
+msgstr "支援-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "在%(distanceGreatOrEqual)s米或更远的距离摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_18_short"
+msgstr "支援-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "摧毁"
+
+msgid "pm4_11_3_19"
+msgstr "支援-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "获得王牌精通徽章"
+
+msgid "pm4_11_3_19_short"
+msgstr "支援-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "精通徽章"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "在战斗中存活下来"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "摧毁一辆敌方自行火炮并在战斗中存活下来"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "震晕敌方战车%(goal)s次并在战斗中存活下来"
+
+msgid "pm4_11_3_1_short"
+msgstr "支援-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "存活"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "震晕"
+
+msgid "pm4_11_3_2"
+msgstr "支援-2"
+
+msgid "pm4_11_3_20"
+msgstr "支援-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "在保持自身不被侦察的情况下，让队友对您侦察到的敌方战车造成%(goal)s血量伤害，并赢得战斗"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "震晕敌方重型坦克%(goal)s次并赢得战斗"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "摧毁全部敌方战车/占领基地或防御基地"
+
+msgid "pm4_11_3_20_short"
+msgstr "支援-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "支援"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "震晕"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "胜利"
+
+msgid "pm4_11_3_21"
+msgstr "支援-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "在战斗中存活下来"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "您造成的伤害和您助攻造成的伤害总计需达到%(goal)s血量"
+
+msgid "pm4_11_3_21_short"
+msgstr "支援-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "存活"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "复杂的条件"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "摧毁一辆敌方轻型坦克"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "震晕敌方战车总计%(goal)s秒。包含潜在震晕时长"
+
+msgid "pm4_11_3_2_short"
+msgstr "支援-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "震晕"
+
+msgid "pm4_11_3_3"
+msgstr "支援-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "通过侦察、使目标无法移动或震晕，协助队友对%(goal)s辆敌方战车造成伤害"
+
+msgid "pm4_11_3_3_short"
+msgstr "支援-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "支援"
+
+msgid "pm4_11_3_4"
+msgstr "支援-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "在战斗中存活下来"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "侦察到%(goal)s辆敌方战车并在战斗中存活下来"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "通过单次射击震晕%(stunSeveralTargets)s辆敌方战车%(goal)s次，并在战斗中存活下来"
+
+msgid "pm4_11_3_4_short"
+msgstr "支援-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "存活"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "侦察"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "震晕"
+
+msgid "pm4_11_3_5"
+msgstr "支援-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "获得II等或更高等的精通徽章"
+
+msgid "pm4_11_3_5_short"
+msgstr "支援-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "精通徽章"
+
+msgid "pm4_11_3_6"
+msgstr "支援-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "您造成的伤害和您助攻造成的伤害总计需达到%(goal)s血量"
+
+msgid "pm4_11_3_6_short"
+msgstr "支援-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "复杂的条件"
+
+msgid "pm4_11_3_7"
+msgstr "支援-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "通过侦察、震晕或使战车无法移动，协助队友对敌方战车造成%(goal)s血量伤害"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "摧毁一辆敌方自行火炮"
+
+msgid "pm4_11_3_7_short"
+msgstr "支援-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "支援"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_8"
+msgstr "支援-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_8_short"
+msgstr "支援-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_9"
+msgstr "支援-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "在%(distanceShortOrEqual)s米或更近的距离摧毁%(goal)s辆敌方战车"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "震晕敌方中型坦克或坦克歼击车%(goal)s次"
+
+msgid "pm4_11_3_9_short"
+msgstr "支援-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "摧毁"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "震晕"
 
 msgid "quest/advice/biathlon/description"
 msgstr "此类任务对特定目标有尝试次数限制。"
@@ -10345,6 +11317,9 @@ msgstr "第二前线"
 msgid "season_3"
 msgstr "第三区"
 
+msgid "season_4"
+msgstr "第三区"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "适用于所有战车类型的一组任务，完成后可获得美国重型坦克Black Rock 。"
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "适用于所有战车类型的一组任务，完成后可获得德国中型坦克Fossa VM 68。"
 
 msgid "tile_1_descr"
 msgstr "适用于所有战车类型的一组任务，完成后可获得德国坦克歼击车StuG IV。"

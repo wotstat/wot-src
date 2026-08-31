@@ -13,7 +13,7 @@ from events_containers.common.containers import ContainersListener
 from PlayerEvents import g_playerEvents
 from ReplayEvents import g_replayEvents
 from aih_constants import CTRL_MODE_NAME
-from constants import IS_DEVELOPMENT, VEHICLE_SIEGE_STATE as _SIEGE_STATE, DUALGUN_CHARGER_STATUS, SERVER_TICK_LENGTH, STATIONARY_RELOAD_STATE, VEHICLE_MISC_STATUS, LowChargeShotReloadingState
+from constants import IS_DEVELOPMENT, VEHICLE_SIEGE_STATE as _SIEGE_STATE, DUALGUN_CHARGER_STATUS, SERVER_TICK_LENGTH, STATIONARY_RELOAD_STATE, VEHICLE_MISC_STATUS, LowChargeShotReloadingState, AUTORELOADER_SURGE_STATE
 from events_handler import eventHandler
 from gui import makeHtmlString, GUI_SETTINGS
 from gui.Scaleform.daapi.view.battle.shared.crosshair.settings import SHOT_RESULT_TO_ALT_COLOR
@@ -70,7 +70,10 @@ if typing.TYPE_CHECKING:
     from StationaryReloadController import StationaryReloadModeState
     from vehicles.mechanics.gun_mechanics.low_charge_shot.private import LowChargeShotMechanicState
     from vehicles.mechanics.gun_mechanics.temperature.heating_zones_gun import IHeatingZonesGunMechanicState
+    from AutoreloaderSurgeController import AutoreloaderSurgeState
     from vehicles.mechanics.gun_mechanics.propellant_gun import IPropellantGunMechanicState
+    from vehicles.mechanics.gun_mechanics.auxiliary_rocket_launcher import AuxiliaryRocketLauncherState
+    from ShellCalibrationController import ShellCalibrationModeState
 _logger = logging.getLogger(__name__)
 _SETTINGS_KEY_TO_VIEW_ID = {(AIM.ARCADE): (CROSSHAIR_VIEW_ID.ARCADE), 
    (AIM.SNIPER): (CROSSHAIR_VIEW_ID.SNIPER)}
@@ -172,6 +175,10 @@ class _AmmoSettings(object):
         return self.__gunSettings.isControllableReload
 
     @property
+    def hasShellCalibration(self):
+        return self.__gunSettings.isShellCalibration
+
+    @property
     def reloadingType(self):
         if self.hasAutoReload:
             return CLIP_RELOADING_TYPES.AUTO_LOADER_CLIP
@@ -181,6 +188,8 @@ class _AmmoSettings(object):
             return CLIP_RELOADING_TYPES.CONTROLLABLE_RELOAD
         if self.isUnlimitedClip:
             return CLIP_RELOADING_TYPES.UNLIMITED_CLIP
+        if self.hasShellCalibration:
+            return CLIP_RELOADING_TYPES.SHELL_CALIBRATION_CLIP
         return CLIP_RELOADING_TYPES.CASSETTE_CLIP
 
     def getBurstSize(self):
@@ -678,7 +687,7 @@ class AmmoPlugin(CrosshairPlugin):
                         self.__setReloadingState(predictedState)
         if self._isHideAmmo():
             self._parentObj.as_setNetVisibleS(CROSSHAIR_CONSTANTS.VISIBLE_NET)
-        self._parentObj.as_setShellChangeTimeS(*ctrl.updateShellChangeTime())
+        self.__onShellChangeTimeUpdated(*ctrl.updateShellChangeTime())
         return
 
     def __setReloadingState(self, state):
@@ -826,8 +835,16 @@ class AmmoPlugin(CrosshairPlugin):
         self._parentObj.as_setAmmoStockS(0, 0, b'normal', False)
         return
 
-    def __onShellChangeTimeUpdated(self, isActive, time):
-        self._parentObj.as_setShellChangeTimeS(isActive, time)
+    def __onShellChangeTimeUpdated(self, isActive, times):
+        times = sorted(times)
+        left, right = times[0], times[-1]
+        intuitionCooldown = b''
+        if left > 0.0:
+            if left != right and right > 0.0:
+                intuitionCooldown = backport.text(R.strings.ingame_gui.intuition.timeRange(), left=backport.getFractionalFormat(left), right=backport.getFractionalFormat(right))
+            else:
+                intuitionCooldown = backport.getFractionalFormat(left)
+        self._parentObj.as_setShellChangeTimeS(isActive, intuitionCooldown)
         return
 
 
@@ -1267,7 +1284,7 @@ class SiegeModePlugin(CrosshairPlugin):
         return
 
     def __hasStaticNetOverride(self, vTypeDescr):
-        return vTypeDescr.isWheeledVehicle or vTypeDescr.hasAutoSiegeMode or vTypeDescr.type.isDualgunVehicleType or vTypeDescr.isTwinGunVehicle
+        return vTypeDescr.isWheeledVehicle or vTypeDescr.hasAutoSiegeMode or vTypeDescr.type.isDualgunVehicleType or vTypeDescr.isTwinGunVehicle or hasVehicleDescrMechanic(vTypeDescr, VehicleMechanic.SHELL_PARAMS_SWITCHER)
 
     def __getStaticNetOverride(self, vTypeDescr):
         return (
@@ -1280,6 +1297,8 @@ class SiegeModePlugin(CrosshairPlugin):
 
     def __getNetSeparatorOverride(self, vehicleDescr):
         if hasVehicleDescrMechanic(vehicleDescr, VehicleMechanic.CHARGEABLE_BURST):
+            return CROSSHAIR_CONSTANTS.NET_SEPARATOR_TYPE_SHORT
+        if hasVehicleDescrMechanic(vehicleDescr, VehicleMechanic.SHELL_CALIBRATION):
             return CROSSHAIR_CONSTANTS.NET_SEPARATOR_TYPE_SHORT
         gun = vehicleDescr.gun
         if b'autoreload' in gun.tags:
@@ -1325,7 +1344,7 @@ class SiegeModePlugin(CrosshairPlugin):
             return
         else:
             vTypeDescr = vehicle.typeDescriptor
-            if hasVehicleDescrMechanic(vTypeDescr, VehicleMechanic.PILLBOX_SIEGE_MODE):
+            if hasVehicleDescrMechanic(vTypeDescr, VehicleMechanic.PILLBOX_SIEGE_MODE) or hasVehicleDescrMechanic(vTypeDescr, VehicleMechanic.LOW_CHARGE_SHOT):
                 return
             self._parentObj.as_setNetSeparatorTypeS(self.__getNetSeparatorOverride(vTypeDescr))
             if self.__hasStaticNetOverride(vTypeDescr):
@@ -1768,9 +1787,10 @@ class SPGShotResultIndicatorPlugin(CrosshairPlugin):
     def __setEnabled(self, viewID):
         self.__isEnabled = viewID in (CROSSHAIR_VIEW_ID.STRATEGIC,) and self.settingsCore.getSetting(SPGAim.SHOTS_RESULT_INDICATOR)
         currentState = self.sessionProvider.shared.crosshair.getSPGShotsIndicatorState()
+        ammoCtrl = self.sessionProvider.shared.ammo
         if not self.__isEnabled:
             self.__clear()
-        elif currentState:
+        elif currentState or ammoCtrl is not None and ammoCtrl.getAllShellsQuantityLeft() <= 0:
             self.__onSPGShotsIndicatorStateChanged(currentState)
         return
 
@@ -2660,6 +2680,106 @@ class PropellantGunPlugin(VehicleMechanicCrosshairPlugin, IMechanicPassengerView
         return
 
 
+class AuxiliaryRocketLauncherPlugin(VehicleMechanicCrosshairPlugin, IMechanicStatesListenerLogic):
+
+    def __init__(self, parentObj):
+        super(AuxiliaryRocketLauncherPlugin, self).__init__(parentObj)
+        self.__isInAimingMode = False
+        return
+
+    @eventHandler
+    def onStatePrepared(self, state):
+        self.__updateAimingMode(state.isInAimingMode, True)
+        return
+
+    @eventHandler
+    def onStateTransition(self, _, newState):
+        self.__updateAimingMode(newState.isInAimingMode)
+        return
+
+    def _getViewUpdaters(self):
+        return [
+         VehicleMechanicStatesUpdater(VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER, self)]
+
+    def _clearParentState(self):
+        self.__updateAimingMode(False)
+        return
+
+    def __updateAimingMode(self, isInAimingMode, force=False):
+        if self.__isInAimingMode == isInAimingMode and not force:
+            return
+        self.__isInAimingMode = isInAimingMode
+        netType = NET_TYPE_OVERRIDE.AUXILIARY_ROCKET_LAUNCHER if isInAimingMode else NET_TYPE_OVERRIDE.DISABLED
+        self.parentObj.as_setAuxiliaryRocketLauncherActiveS(isInAimingMode)
+        self.parentObj.as_setNetTypeS(netType)
+        self.parentObj.as_setReloadingCounterShownS(not isInAimingMode)
+        return
+
+
+class ShellCalibrationPlugin(VehicleMechanicCrosshairPlugin, IMechanicStatesListenerLogic):
+
+    @eventHandler
+    def onStatePrepared(self, state):
+        self.__invalidateState(state)
+        return
+
+    @eventHandler
+    def onStateTransition(self, prevState, newState):
+        self.__invalidateState(newState)
+        return
+
+    def _clearParentState(self):
+        self.parentObj.as_setShellCalibrationStateS(0)
+        return
+
+    def _getViewUpdaters(self):
+        return [
+         VehicleMechanicStatesUpdater(VehicleMechanic.SHELL_CALIBRATION, self)]
+
+    def __invalidateState(self, state):
+        self.parentObj.as_setShellCalibrationStateS(state.status)
+        return
+
+
+class AutoreloaderSurgePlugin(VehicleMechanicCrosshairPlugin, IMechanicStatesListenerLogic):
+
+    def __init__(self, parentObj):
+        super(AutoreloaderSurgePlugin, self).__init__(parentObj)
+        self.__isActive = False
+        return
+
+    @eventHandler
+    def onStatePrepared(self, state):
+        self.__update(state)
+        return
+
+    @eventHandler
+    def onStateObservation(self, state):
+        self.__update(state)
+        return
+
+    @eventHandler
+    def onStateTick(self, state):
+        self.__update(state)
+        return
+
+    def _clearParentState(self):
+        self.__isActive = False
+        self.parentObj.as_setAutoreloaderSurgeStateS(False)
+        return
+
+    def _getViewUpdaters(self):
+        return [
+         VehicleMechanicStatesUpdater(VehicleMechanic.AUTORELOADER_SURGE, self)]
+
+    def __update(self, state):
+        isActive = state.state == AUTORELOADER_SURGE_STATE.IN_USE
+        if self.__isActive != isActive:
+            self.__isActive = isActive
+            self.parentObj.as_setAutoreloaderSurgeStateS(isActive)
+        return
+
+
 class VehicleMechanicsPlugin(PluginsCollection, IVehicleTrackedMechanicsView):
     _VEHICLE_MECHANIC_PLUGINS_MAP = {(VehicleMechanic.DUAL_ACCURACY): DualAccuracyGunPlugin, 
        (VehicleMechanic.TWIN_GUN): TwinGunPlugin, 
@@ -2673,7 +2793,10 @@ class VehicleMechanicsPlugin(PluginsCollection, IVehicleTrackedMechanicsView):
        (VehicleMechanic.STATIONARY_RELOAD): StationaryReloadingPlugin, 
        (VehicleMechanic.HEATING_ZONES_GUN): TemperatureHeatingZonesPlugin, 
        (VehicleMechanic.LOW_CHARGE_SHOT): LowChargeShotPlugin, 
-       (VehicleMechanic.PROPELLANT_GUN): PropellantGunPlugin}
+       (VehicleMechanic.PROPELLANT_GUN): PropellantGunPlugin, 
+       (VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER): AuxiliaryRocketLauncherPlugin, 
+       (VehicleMechanic.SHELL_CALIBRATION): ShellCalibrationPlugin, 
+       (VehicleMechanic.AUTORELOADER_SURGE): AutoreloaderSurgePlugin}
 
     def __init__(self, parentObj):
         super(VehicleMechanicsPlugin, self).__init__(parentObj)

@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/name"
+msgstr "アビリティー"
+
+msgid "arenaDescription/winText"
+msgstr "ゴールまで到達せよ!"
+
+msgid "battleLoading/description"
+msgstr "アビリティー「ダッシュ」や「シールド」の使用でさらにカオス度がアップ!"
+
+msgid "battleLoading/header"
+msgstr "他のプレイヤーを蹴散らしながらゴールを目指せ!"
+
+msgid "battleResults/battleStatus/finished"
+msgstr "終了済み"
+
+msgid "battleResults/battleStatus/inTop"
+msgstr "順位"
+
+msgid "battleResults/battleStatus/notFinished"
+msgstr "ゴール\n未到達"
+
+msgid "battleResults/finishReason/finished"
+msgstr "ゴール到達"
+
+msgid "battleResults/finishReason/notFinished"
+msgstr "ゴール未到達"
+
+msgid "battleResults/footerSubtitle/finished"
+msgstr "悪くない!"
+
+msgid "battleResults/footerSubtitle/notFinished"
+msgstr "次は上手くいくはずだ!"
+
+msgid "battleResults/footerSubtitle/top"
+msgstr "TOP3入り"
+
+msgid "battleWidget/checkpoint"
+msgstr "チェックポイント"
+
+msgid "battleWidget/enemyPosition"
+msgstr "他プレイヤーの順位"
+
+msgid "battleWidget/notFinished"
+msgstr "ゴール\n未到達"
+
+msgid "battleWidget/place"
+msgstr "順位"
+
+msgid "battleWidget/position"
+msgstr "順位"
+
+msgid "battleWidget/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "buttonHint/evacuation/description"
+msgstr "直前のチェックポイントに戻る"
+
+msgid "buttonHint/evacuation/noBindingKey"
+msgstr "テレポート用のキーが未割当"
+
+msgid "buttonHint/evacuation/press"
+msgstr "ショートカット:"
+
+msgid "efficiencyRibbons/fallTanksKill"
+msgstr "大破"
+
+msgid "evacuationAbilityTooltip/description"
+msgstr "スタックした場合、直前のチェックポイントに戻ることができます。"
+
+msgid "evacuationAbilityTooltip/name"
+msgstr "チェックポイントに戻る"
+
+msgid "serviceChannelMessages/battleResults/finishTime"
+msgstr "タイム"
+
+msgid "serviceChannelMessages/battleResults/finished"
+msgstr "%(playerPlace)s位"
+
+msgid "serviceChannelMessages/battleResults/notFinished"
+msgstr "ゴール未到達"
+
+msgid "shellTooltip/caliber"
+msgstr "口径: %(caliber)s mm"
+
+msgid "shellTooltip/description"
+msgstr "命中するとダメージの代わりに、「インパルス」による衝撃波を起こす。主砲の口径が大きいほど、衝撃も大きくなる。"
+
+msgid "shellTooltip/header"
+msgstr "インパルス"
+
+msgid "statusNotificationTimer/evacuation"
+msgstr "チェックポイントにテレポート中…"

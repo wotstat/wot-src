@@ -451,6 +451,9 @@ msgstr "Jagdpanzer IV 0-Serie"
 msgid "Chassis_G17_JagdPzIV_2"
 msgstr "Jagdpanzer IV"
 
+msgid "Chassis_G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
 msgid "Chassis_G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -481,8 +484,32 @@ msgstr "Jagdpanther verstärkteketten"
 msgid "Chassis_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
+msgid "Chassis_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 54"
+
+msgid "Chassis_G193_Pz_Kpfw_55_2"
+msgstr "Pz.Kpfw. 55"
+
+msgid "Chassis_G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "Chassis_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 56"
+
+msgid "Chassis_G196_Versuchspanzer_57_2"
+msgstr "Versuchspanzer 57"
+
+msgid "Chassis_G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "Chassis_G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
 msgid "Chassis_G200_Chi_Go"
 msgstr "Chi-Go"
+
+msgid "Chassis_G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P)"
 
 msgid "Chassis_G23_Grille"
 msgstr "Grille"
@@ -593,6 +620,9 @@ msgid "Chassis_G55_E-75_2"
 msgstr "E 75 verstärkteketten"
 
 msgid "Chassis_G56_E-100"
+msgstr "E 100"
+
+msgid "Chassis_G56_E-100_7x7"
 msgstr "E 100"
 
 msgid "Chassis_G57_PzVI_Tiger_P"
@@ -907,6 +937,12 @@ msgstr "Daimler Benz MB 880 Ea-500"
 msgid "Daimler_Benz_MB_8V837_Ba"
 msgstr "Daimler–Benz MB 8V837 Ba"
 
+msgid "Daimler_Benz_V12_56"
+msgstr "Daimler-Benz V12 56"
+
+msgid "Daimler_Benz_V12_57"
+msgstr "Daimler-Benz V12 57"
+
 msgid "DickerMax"
 msgstr "Dicker Max"
 
@@ -1027,6 +1063,9 @@ msgstr "Fu 8"
 msgid "FuG8f"
 msgstr "FuG 8 (f)"
 
+msgid "FuG_7_45_01"
+msgstr "FuG 7 (45.01)"
+
 msgid "FuG_7_F"
 msgstr "FuG 7 (F)"
 
@@ -1044,6 +1083,12 @@ msgstr "Fu.Spr.Ger. \"a\""
 
 msgid "Fu_12"
 msgstr "Fu 12"
+
+msgid "Fu_55"
+msgstr "Fu. 55"
+
+msgid "Fu_57"
+msgstr "Fu. 57"
 
 msgid "Fu_7S"
 msgstr "Fu 7S"
@@ -2155,6 +2200,21 @@ msgstr "Pz. IV 중형전차는 구축전차를 포함한 다양한 전차 개발
 msgid "G17_JagdPzIV_short"
 msgstr "Jg.Pz. IV"
 
+msgid "G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
+msgid "G183_Fossa_VM_68_descr"
+msgstr "Radpanzer Versuchsmuster 68 Fossa는 1960년대 후반 서독에서 개발한 차륜형 전차 기획이다. 정찰 임무와 장갑 차량과의 교전을 수행할 수 있도록 강력한 무장을 갖춘 고속 전차로 설계되었다. 해당 전차는 강력하면서도 작은 미제 V형 엔진, 8륜 구동 차대, 제자리에서 선회가 가능한 독립형 현가장치를 장착할 예정이었다. 소음기를 장착한 105mm 주포 또한 고려되었지만, 설계 단계에서부터 심각한 문제점이 발견되었다. 부품 배치가 지나치게 밀집되어 정비 및 수리가 어려웠고, 연료 탱크 용량과 탄약 적재 공간이 부족했으며, 무게 중심이 높아 선회 시 사격 안정성이 저하되었다. 이로 인해 해당 기획은 시제 전차가 제작되기 전에 중단되었다."
+
+msgid "G183_Fossa_VM_68_long_special"
+msgstr "Radpanzer Versuchsmuster 68 Fossa는 독일 10단계 차륜형 저격 중형전차입니다. 차륜형 차체와 강력한 엔진을 갖추어 기동력이 뛰어나고, 주포 명중률 또한 매우 우수한 편입니다. 이러한 장점을 활용하면 상대 진영에 깊숙이 침투하여 예상치 못한 각도에서 적을 기습하는 전술을 구사할 수 있을 것입니다."
+
+msgid "G183_Fossa_VM_68_short"
+msgstr "Fossa VM 68"
+
+msgid "G183_Fossa_VM_68_short_special"
+msgstr "우수한 기동력, 뛰어난 명중률"
+
 msgid "G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -2269,6 +2329,60 @@ msgstr "StuG III Kaba"
 msgid "G191_StuG_IIIF_CFE_A_short_special"
 msgstr "우수한 기동력, 빠른 연사력"
 
+msgid "G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 55"
+
+msgid "G193_Pz_Kpfw_55_descr"
+msgstr "제2차 세계대전 후반, 독일은 새로운 연합국 장갑 차량에 대응하고자 더 강력한 주포를 장착한 신식 중전차를 확보하고자 했다. 기술자들은 새로운 주포를 개발하는 대신 기존 주포를 강화하기 위해 추가 약실을 사용하는 방안을 내놓았다. 이를 적용한 기획 중 하나가 Panzerkampfwagen 55 Adler였다. 하지만 다중 약실포 실험과 다른 중전차와의 통합 계획까지 진행하였음에도 기획의 개발을 이어갈 수는 없었다. 산업 과부하와 패전으로 인해 개발 가능성은 크게 낮아졌고, 기획은 설계도면 단계에서 중단되었다."
+
+msgid "G193_Pz_Kpfw_55_short"
+msgstr "Pz. 55"
+
+msgid "G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "G195_HWK_40_descr"
+msgstr "1960년대 후반에 고안된 중전차 기획으로, Leopard 1 운용 개념을 바탕으로 더 강력한 화력과 방호력을 갖춘 중전차를 목표로 하되 기존 전차 구조를 유지하였다. 해당 전차는 향상된 안정화 장치, 개량형 변속기, 실험용 장갑 부품 등 새로운 요소와 기존 기술을 결합하였다. 개발은 1967년부터 1971년까지 진행되었고 실물 크기 모형도 제작되었다. 하지만 중전차가 독일 연방군의 기동 전력 운용 방식에 부합하지 않는다는 점을 비롯한 여러 이유로 개발이 중단되었다. 일부 기술적 성과는 이후 Leopard 2를 포함한 차세대 전차 연구에 활용되었다."
+
+msgid "G195_HWK_40_long_special"
+msgstr "HWK 40은 독일 9단계 중전차입니다. 우수한 기동력, 조작성이 뛰어난 주포, 준수한 장갑을 갖추어 같은 단계 전차 중 범용성이 매우 높은 편입니다. 또한, 필요 시 포탄 속성을 조정할 수 있는 시스템을 탑재하여 더 강력한 성능을 발휘할 수 있습니다."
+
+msgid "G195_HWK_40_short"
+msgstr "HWK 40"
+
+msgid "G195_HWK_40_short_special"
+msgstr "우수한 기동력, 뛰어난 주포 조작성"
+
+msgid "G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 57"
+
+msgid "G196_Versuchspanzer_57_descr"
+msgstr "1950년대 독일은 Versuchspanzer 57 기획에 착수하였다. 신생 연방군 기술자들은 이전 전차의 기술적 해결책과 부품을 일부 차용하여 전쟁 중에 개발한 추가 약실식 주포 기술을 해당 전차에서 적용할 계획이었다. 하지만 개발 과정에서 심각한 어려움을 겪었다. 독일 산업은 이제 막 회복 단계에 접어들고 있었고, 미제 M47 전차를 운용하기 위해 군 수뇌부는 자체 전차 개발 계획에 투입할 자원을 절약해야 했다. 이로 인해 기획은 보류되었고, \"유럽 통합 전차\" 개발이 시작되면서 최종적으로 중단되었다."
+
+msgid "G196_Versuchspanzer_57_short"
+msgstr "VPz 57"
+
+msgid "G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "G197_Pz_Kpfw_Neu_descr"
+msgstr "Panzerkampfwagen Neu-70/120 기획은 Leopard 1을 대체할 전차를 모색하는 과정에서 개발된 선행 안으로, 차세대 주력 전차를 향한 과도기적 실험 기술이 적용되었다. 차체와 포탑은 용접 구조로 설계될 예정이었으며, 신식 사격 통제 시스템으로 초탄 명중률을 높이는 데 중점을 두었다. 독일 전차 개발 역사상 처음으로 원격 신관 설정 장치가 탑재된 120mm 주포를 고려하여, 엄폐물 뒤의 표적을 효과적으로 타격할 수 있을 것으로 예상되었다. 하지만 기획 분석 과정에서 포탑 및 차체 과부하, 높은 비용, 낮은 개량 가능성 등 여러 문제가 드러났다. 또한, 이미 더 균형 잡힌 기획인 Leopard 2가 있었기에 개발은 무의미하다고 판단되어 중단되었다."
+
+msgid "G197_Pz_Kpfw_Neu_long_special"
+msgstr "Pz.Kpfw. Neu는 특정 성능에 치중되기보다는 범용성과 적응성을 중심으로 설계된 전차입니다. 견고한 장갑, 우수한 기동력, 조작성이 뛰어난 주포와 더불어 포탄 속성을 조정하고 관통력을 최적화할 수 있는 신관 설정 장치 및 추가 약실을 겸비하고 있습니다."
+
+msgid "G197_Pz_Kpfw_Neu_short"
+msgstr "Pz. Neu"
+
+msgid "G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
+msgid "G198_Kampfpanzer_67_descr"
+msgstr "1960년대에는 실험적인 화력 증강 기술을 적용한 전차 개발이 활발히 이루어졌다. 연방 군사 기술 조달청은 중장갑 전차인 Kampfpanzer 67 기획을 검토하고 있었는데, 해당 기획에서는 신관 조정 장치와 추가 약실을 사용하고, 나아가 이들을 결합하는 방안이 제안되었다. 추가 약실은 당시 10년 이상 연구가 진행된 기술이었고, 신관 장치 또한 유망한 차세대 기술로 평가받았다. 그러나 새로운 대전차 무기의 등장과 Leopard 1 대비 높은 개발 비용으로 인해 해당 기획은 초기 단계에서 중단되었다."
+
+msgid "G198_Kampfpanzer_67_short"
+msgstr "KPz 67"
+
 msgid "G200_Chi_Go"
 msgstr "Chi-Go"
 
@@ -2283,6 +2397,21 @@ msgstr "Chi-Go"
 
 msgid "G200_Chi_Go_short_special"
 msgstr "준수한 포탑 장갑, 높은 단발 공격력"
+
+msgid "G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P)"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_descr"
+msgstr "?empty?"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_long_special"
+msgstr "VK 45.01 (P)는 독일 6단계 중전차로, 동급 중형전차 및 중전차의 일반 포탄을 안정적으로 막아낼 수 있는 견고한 정면 장갑이 특징입니다. 주포는 분당 공격력이 우수하고 관통력과 단발 공격력도 뛰어납니다. 속력은 느리지만, 일시적으로 기동성을 향상시켜 최고 속력까지 빠르게 가속할 수 있는 특별한 시스템을 탑재했습니다."
+
+msgid "G204_PzVI_Tiger_P_CFE_A_short"
+msgstr "VK 45.01 (P)"
+
+msgid "G204_PzVI_Tiger_P_CFE_A_short_special"
+msgstr "견고한 정면 장갑, 기동 강화 시스템"
 
 msgid "G20_Marder_II"
 msgstr "Marder II"
@@ -2475,6 +2604,15 @@ msgstr "E 75"
 
 msgid "G56_E-100"
 msgstr "E 100"
+
+msgid "G56_E-100_7x7"
+msgstr "E 100 7x7"
+
+msgid "G56_E-100_7x7_descr"
+msgstr "1943년 6월 Adlerwerke 사에 E 100의 개발 명령이 하달되었으나 1944년 개발이 중지되었다. 종전까지 차체만이 완성되었고 이후 영국군에 의해 노획되었다."
+
+msgid "G56_E-100_7x7_short"
+msgstr "E 100 7x7"
 
 msgid "G56_E-100_descr"
 msgstr "1943년 6월 Adlerwerke 사에 E 100의 개발 명령이 하달되었으나 1944년 개발이 중지되었다. 종전까지 차체만이 완성되었고 이후 영국군에 의해 노획되었다."
@@ -2812,6 +2950,12 @@ msgstr "Pz.Kpfw. 38H 735 (f)"
 msgid "Hall_Scott_V12_RKW"
 msgstr "Hall-Scott V12 RKW"
 
+msgid "Hall_Scott_V12_VM_68"
+msgstr "Hall-Scott V12 VM 68"
+
+msgid "Henschel_MAN_V12_67"
+msgstr "Henschel-MAN V12 67"
+
 msgid "Hetzer"
 msgstr "Jagdpanzer 38(t) Hetzer"
 
@@ -2934,6 +3078,18 @@ msgstr "관통력과 명중률이 뛰어난 주포, 단단한 장갑"
 
 msgid "MAN_D2840_LXE"
 msgstr "MAN D2840 LXE"
+
+msgid "MAN_H_40"
+msgstr "MAN H 40"
+
+msgid "MAN_Mehrstoff_Hochleistungsdiesel_70N"
+msgstr "MAN Mehrstoff-Hochleistungsdiesel 70N"
+
+msgid "MAN_V12_D_54"
+msgstr "MAN V12 D 54"
+
+msgid "MAN_V12_D_55"
+msgstr "MAN V12 D 55"
 
 msgid "MB-503"
 msgstr "Daimler-Benz MB 503"
@@ -3556,6 +3712,9 @@ msgstr "Maybach Neues Projekt 90"
 msgid "Maybach_Neues_Projekt_E_100"
 msgstr "Maybach Neues Projekt (E 100)"
 
+msgid "Maybach_Neues_Projekt_E_100_7x7"
+msgstr "Maybach Neues Projekt (E 100)"
+
 msgid "Maybach_Neues_Projekt_E_100_short"
 msgstr "Maybach Neues Projekt (E 100)"
 
@@ -3657,6 +3816,9 @@ msgstr "2x Porsche Typ 100/P"
 
 msgid "Porsche_Typ_101_1_x2"
 msgstr "2 x Porsche Typ 101/1"
+
+msgid "Porsche_Typ_101_45_01"
+msgstr "2x Porsche Typ 101 (45.01)"
 
 msgid "Porsche_Typ_101_P"
 msgstr "2x Porsche Typ 101/P"
@@ -4048,6 +4210,15 @@ msgstr "Pz. S35"
 msgid "S35_captured_short_special"
 msgstr "뛰어난 연사력, 단단한 장갑"
 
+msgid "SEL_Bordfunkanlage_Neu"
+msgstr "SEL Bordfunkanlage Neu"
+
+msgid "SEL_Panzerfunkanlage_67"
+msgstr "SEL Panzerfunkanlage 67"
+
+msgid "SEL_Panzerfunkanlage_69A"
+msgstr "SEL Panzerfunkanlage 69A"
+
 msgid "SEM25"
 msgstr "SEM 25"
 
@@ -4092,6 +4263,9 @@ msgstr "SEM 25 Funkgerät"
 
 msgid "SEM_25_funkgerat_RKW"
 msgstr "SEM 25 Funkgerät RKW"
+
+msgid "SEM_25_funkgerat_VM_68"
+msgstr "SEM 25 Funkgerät VM 68"
 
 msgid "SPA_19TB_mod_43_german"
 msgstr "SPA 19TBM42"
@@ -4465,6 +4639,9 @@ msgstr "Straussler V–4/40"
 msgid "Turret_1_G17_JagdPzIV"
 msgstr "Jagdpanzer IV"
 
+msgid "Turret_1_G183_Fossa_VM_68"
+msgstr "Fossa VM 68"
+
 msgid "Turret_1_G183_Radkampfwagen"
 msgstr "Radkampfwagen"
 
@@ -4492,8 +4669,26 @@ msgstr "Jagdpanther"
 msgid "Turret_1_G191_StuG_IIIF_CFE_A"
 msgstr "StuG III Ausf. F Kabasan"
 
+msgid "Turret_1_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 54"
+
+msgid "Turret_1_G195_HWK_40"
+msgstr "HWK 40"
+
+msgid "Turret_1_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 56"
+
+msgid "Turret_1_G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw. Neu"
+
+msgid "Turret_1_G198_Kampfpanzer_67"
+msgstr "Kampfpanzer 67"
+
 msgid "Turret_1_G200_Chi_Go"
 msgstr "Chi-Go"
+
+msgid "Turret_1_G204_PzVI_Tiger_P_CFE_A"
+msgstr "VK 45.01 (P) Turm"
 
 msgid "Turret_1_G23_Grille"
 msgstr "Grille"
@@ -4753,6 +4948,12 @@ msgstr "Tiger II Serienturm"
 msgid "Turret_2_G16_PzVIB_Tiger_II_short"
 msgstr "Tiger II\nSerienturm"
 
+msgid "Turret_2_G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw. 55"
+
+msgid "Turret_2_G196_Versuchspanzer_57"
+msgstr "Versuchspanzer 57"
+
 msgid "Turret_2_G24_VK3002DB"
 msgstr "VK 30.02 (D) Schmalturm"
 
@@ -4772,6 +4973,9 @@ msgid "Turret_2_G55_E-75"
 msgstr "E 75 Ausf. B"
 
 msgid "Turret_2_G56_E-100"
+msgstr "E 100"
+
+msgid "Turret_2_G56_E-100_7x7"
 msgstr "E 100"
 
 msgid "Turret_2_G57_PzVI_Tiger_P"
@@ -4978,6 +5182,9 @@ msgstr "DM11 Kurz"
 msgid "_105mm_DM11_RKW"
 msgstr "DM11 RKW"
 
+msgid "_105mm_DM11_VM_68"
+msgstr "DM11 VM 68"
+
 msgid "_105mm_DM12"
 msgstr "DM12"
 
@@ -4989,6 +5196,9 @@ msgstr "DM12 Kurz"
 
 msgid "_105mm_DM12_RKW"
 msgstr "DM12 RKW"
+
+msgid "_105mm_DM12_VM_68"
+msgstr "DM12 VM 68"
 
 msgid "_105mm_DM13"
 msgstr "DM13"
@@ -5010,6 +5220,9 @@ msgstr "DM13 Kurz"
 
 msgid "_105mm_DM13_RKW"
 msgstr "DM13 RKW"
+
+msgid "_105mm_DM13_VM_68"
+msgstr "DM13 VM 68"
 
 msgid "_105mm_DM23"
 msgstr "DM23"
@@ -5082,6 +5295,9 @@ msgstr "10,5 cm Kanone 18"
 
 msgid "_105mm_Kanone_L7_RKW"
 msgstr "105 mm Kanone L7 RKW"
+
+msgid "_105mm_Kanone_L7_VM_68"
+msgstr "105 mm Kanone L7 VM 68"
 
 msgid "_105mm_KwK45_L52_N"
 msgstr "10.5 cm Kw.K. L/52 Ausf. B"
@@ -5269,6 +5485,9 @@ msgstr "Sprgr. 18 K"
 msgid "_105mm_Sprgr_45"
 msgstr "Sprgr. 45"
 
+msgid "_105mm_Sprgr_55"
+msgstr "Sprgr. 55"
+
 msgid "_105mm_Sprgr_E"
 msgstr "Sprgr. E"
 
@@ -5311,6 +5530,9 @@ msgstr "10,5 cm Panzerkanone L7A3"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_10WSc_7x7_0"
+msgstr "10WSc"
+
 msgid "_10WSc_CFE_T"
 msgstr "10WSc T"
 
@@ -5326,8 +5548,50 @@ msgstr "10WSc"
 msgid "_10_5_cm_Bordkanone_L7W"
 msgstr "10,5 cm Bordkanone L7W"
 
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_56_mit_Zusatzkammern"
+msgstr "10,5 cm Hochdruck-Panzerkanone Muster 56 mit Zusatzkammern"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_56_mit_Zusatzkammern_short"
+msgstr "10,5 cm H.Pz.K. 56 mit ZK"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_57_mit_Zusatzkammern"
+msgstr "10,5 cm Hochdruck-Panzerkanone Muster 57 mit Zusatzkammern"
+
+msgid "_10_5_cm_Hochdruck_Panzerkanone_Muster_57_mit_Zusatzkammern_short"
+msgstr "10,5 cm H.Pz.K. 57 mit ZK"
+
 msgid "_10_5_cm_Pak_L_52_JP"
 msgstr "10,5 cm Pak L/52 (JP)"
+
+msgid "_10_5_cm_Panzerkanone_Muster_55_mit_Zusatzkammern"
+msgstr "10,5 cm Panzerkanone Muster 55 mit Zusatzkammern"
+
+msgid "_10_5_cm_Panzerkanone_Muster_55_mit_Zusatzkammern_short"
+msgstr "10,5 cm Pz.K. 55 mit ZK"
+
+msgid "_10_5_cm_Pzgr_55_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_55_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_56_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 56 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_56_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 56 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_57_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 57 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Pzgr_57_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 57 für Zusatzkammerbetrieb"
+
+msgid "_10_5_cm_Sprgr_56"
+msgstr "Sprgr. 56"
+
+msgid "_10_5_cm_Sprgr_57"
+msgstr "Sprgr. 57"
 
 msgid "_10_5_cm_Stu_H_42_L_28_B"
 msgstr "10,5 cm Stu.H. 42 L/28 (B)"
@@ -5359,8 +5623,53 @@ msgstr "114 hkr 42/A-18/24-38 is 32-18/24"
 msgid "_114mm_hkr_42_C_18_24_38_is_32_18_24"
 msgstr "114 hkr 42/C-18/24-38 is 32-18/24"
 
+msgid "_11_cm_Hl_Gr_67_mit_mundungsgestelltem_Zunder"
+msgstr "Hl.Gr. 67 mit mündungsgestelltem Zünder"
+
+msgid "_11_cm_Hl_Gr_69_mit_mundungsgestelltem_Zunder"
+msgstr "Hl.Gr. 69 mit mündungsgestelltem Zünder"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_67_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "11 cm Hochdruck-Panzerkanone Muster 67 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_67_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "11 cm H.Pz.K. 67 mit ZK M u. ZG"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_69_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "11 cm Hochdruck-Panzerkanone Muster 69 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_11_cm_Hochdruck_Panzerkanone_Muster_69_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "11 cm H.Pz.K. 69 mit ZK M u. ZG"
+
+msgid "_11_cm_Pzgr_67_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 67 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_11_cm_Pzgr_69_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 69 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_11_cm_Sprgr_67"
+msgstr "Sprgr. 67"
+
+msgid "_11_cm_Sprgr_69"
+msgstr "Sprgr. 69"
+
+msgid "_120_mm_Glattrohr_Panzerkanone_Muster_70_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat"
+msgstr "120 mm Glattrohr-Panzerkanone Muster 70 mit Zusatzkammern, Mündungsgeschwindigkeitsmessbasis und Zünderstellgerät"
+
+msgid "_120_mm_Glattrohr_Panzerkanone_Muster_70_mit_Zusatzkammern_Mundungsgeschwindigkeitsmessbasis_und_Zunderstellgerat_short"
+msgstr "120 mm G.Pz.K. 70 mit ZK M u. ZG"
+
+msgid "_120_mm_Hartkern_Wuchtgeschoss_70_fur_Zusatzkammerbetrieb"
+msgstr "Hartkern-Wuchtgeschoss 70 für Zusatzkammerbetrieb"
+
+msgid "_120_mm_Mehrzweck_Hl_Gr_70_mit_mundungsgestelltem_Zunder"
+msgstr "Mehrzweck-Hl.Gr. 70 mit mündungsgestelltem Zünder"
+
 msgid "_120_mm_Rh2B"
 msgstr "12 cm Panzerkanone Rh2B"
+
+msgid "_120_mm_Sprgr_70"
+msgstr "Sprgr. 70"
 
 msgid "_120mm_APDS_DM14"
 msgstr "DM14"
@@ -5491,6 +5800,9 @@ msgstr "12,8 cm Kw.K. 44 L/55 (180B)"
 msgid "_128mm_Kw_K_44_L_55_Ausf_E"
 msgstr "12.8 cm Kw.K. 44 L/55 Ausf. E"
 
+msgid "_128mm_Kw_K_44_L_55_Ausf_E_7x7"
+msgstr "12.8 cm Kw.K. 44 L/55 Ausf. E"
+
 msgid "_128mm_Kw_K_L_50"
 msgstr "12,8 cm Kw.K. L/50"
 
@@ -5599,6 +5911,9 @@ msgstr "Pzgr. 39 (180B)"
 msgid "_128mm_Pzgr_39_E"
 msgstr "Pzgr. 39 E"
 
+msgid "_128mm_Pzgr_39_E_7x7"
+msgstr "Pzgr. 39 E"
+
 msgid "_128mm_Pzgr_39_F"
 msgstr "Pzgr. 39 (F)"
 
@@ -5633,6 +5948,9 @@ msgid "_128mm_Pzgr_40_180B"
 msgstr "Pzgr. 40 (180B)"
 
 msgid "_128mm_Pzgr_40_E"
+msgstr "Pzgr. 40 E"
+
+msgid "_128mm_Pzgr_40_E_7x7"
 msgstr "Pzgr. 40 E"
 
 msgid "_128mm_Pzgr_40_F"
@@ -5705,6 +6023,9 @@ msgid "_128mm_Sprgr_18_180B"
 msgstr "Sprgr. 18 (180B)"
 
 msgid "_128mm_Sprgr_18_E"
+msgstr "Sprgr. 18 E"
+
+msgid "_128mm_Sprgr_18_E_7x7"
 msgstr "Sprgr. 18 E"
 
 msgid "_128mm_Sprgr_18_F"
@@ -6796,6 +7117,9 @@ msgstr "8,8 cm Flak 41 L/74"
 msgid "_88mm_KwK_36_L56A"
 msgstr "8,8 cm Kw.K. 36 L/56"
 
+msgid "_88mm_KwK_36_L_56_45_01"
+msgstr "8,8 cm KwK 36 L/56 (45.01)"
+
 msgid "_88mm_KwK_43_L71"
 msgstr "8,8 cm Kw.K. 43 L/71"
 
@@ -6961,6 +7285,9 @@ msgstr "Pzgr. 39/43 Typ 101"
 msgid "_88mm_Pzgr_39_43_ZK"
 msgstr "Pzgr. 39/43 ZK"
 
+msgid "_88mm_Pzgr_39_45_01"
+msgstr "Pzgr. 39 (45.01)"
+
 msgid "_88mm_Pzgr_39_Ausf_E"
 msgstr "Pzgr. 39 Ausf. E"
 
@@ -7015,6 +7342,9 @@ msgstr "Pzgr. 40/43 Typ 101"
 msgid "_88mm_Pzgr_40_43_ZK"
 msgstr "Pzgr. 40/43 ZK"
 
+msgid "_88mm_Pzgr_40_45_01"
+msgstr "Pzgr. 40 (45.01)"
+
 msgid "_88mm_Pzgr_40_Ausf_E"
 msgstr "Pzgr. 40 Ausf. E"
 
@@ -7056,6 +7386,9 @@ msgstr "Sprgr. 18 (3002D)"
 
 msgid "_88mm_Sprgr_18_3601"
 msgstr "Sprgr. 18 (3601)"
+
+msgid "_88mm_Sprgr_18_45_01"
+msgstr "Sprgr. 18 (45.01)"
 
 msgid "_88mm_Sprgr_18_Ausf_E"
 msgstr "Sprgr. 18 Ausf. E"
@@ -7113,6 +7446,21 @@ msgstr "8,8 cm Pak 43 L/71 (JP)"
 
 msgid "_8_8_cm_Pak_L_56_IV"
 msgstr "8,8 cm Pak L/56 (IV)"
+
+msgid "_8_8_cm_Panzerkanone_Muster_55_mit_Zusatzkammern"
+msgstr "8,8 cm Panzerkanone Muster 55 mit Zusatzkammern"
+
+msgid "_8_8_cm_Panzerkanone_Muster_55_mit_Zusatzkammern_short"
+msgstr "8,8 cm Pz.K. 55 mit ZK"
+
+msgid "_8_8_cm_Pzgr_55_Hartkern_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 Hartkern für Zusatzkammerbetrieb"
+
+msgid "_8_8_cm_Pzgr_55_fur_Zusatzkammerbetrieb"
+msgstr "Pzgr. 55 für Zusatzkammerbetrieb"
+
+msgid "_8_8_cm_Sprgr_55"
+msgstr "Sprgr. 55"
 
 msgid "_8_cm_8H62_2"
 msgstr "8 cm 8H62-2"

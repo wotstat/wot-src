@@ -186,10 +186,10 @@ class WheeledPagesBuilder(DetailedHelpPagesBuilder):
 
     @classmethod
     def _collectHelpCtx(cls, ctx, arenaVisitor, vehicle):
-        isRoleLtWheeled = vehicle is not None and vehicle.typeDescriptor.role == ROLE_TYPE.LT_WHEELED
-        isFrenchWheeledVehicle = isRoleLtWheeled and NATIONS_NAMES[vehicle.typeDescriptor.type.id[0]] == b'france'
-        ctx[b'isFrenchWheeledVehicle'] = isFrenchWheeledVehicle
-        ctx[b'hasUniqueVehicleHelpScreen'] = ctx.get(b'hasUniqueVehicleHelpScreen') or isFrenchWheeledVehicle
+        isScoutVehicle = vehicle is not None and vehicle.typeDescriptor.role == ROLE_TYPE.LT_SCOUT
+        isFrenchScoutVehicle = isScoutVehicle and NATIONS_NAMES[vehicle.typeDescriptor.type.id[0]] == b'france'
+        ctx[b'isFrenchWheeledVehicle'] = isFrenchScoutVehicle
+        ctx[b'hasUniqueVehicleHelpScreen'] = ctx.get(b'hasUniqueVehicleHelpScreen') or isFrenchScoutVehicle
         return
 
 
@@ -434,7 +434,17 @@ class MechanicsPagesBuilder(DetailedHelpPagesBuilder):
        (VehicleMechanic.TWIN_GUN.value): (
                                         CommandMapping.CMD_CM_VEHICLE_SWITCH_AUTOROTATION,), 
        (VehicleMechanic.WHEELED_DASH.value): (
-                                            CommandMapping.CMD_CM_VEHICLE_SWITCH_AUTOROTATION, None)}
+                                            CommandMapping.CMD_CM_VEHICLE_SWITCH_AUTOROTATION, None), 
+       (VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER.value): (
+                                                         CommandMapping.CMD_CM_SPECIAL_ABILITY, CommandMapping.CMD_CM_SHOOT), 
+       (VehicleMechanic.SHELL_PARAMS_SWITCHER.value): (
+                                                     CommandMapping.CMD_CM_VEHICLE_SWITCH_AUTOROTATION, None), 
+       (VehicleMechanic.SHELL_CALIBRATION.value): (
+                                                 None, CommandMapping.CMD_CM_SPECIAL_ABILITY), 
+       (VehicleMechanic.BUSTLE_FEED.value): (
+                                           CommandMapping.CMD_CM_VEHICLE_SWITCH_AUTOROTATION,), 
+       (VehicleMechanic.SIGHT_POINTER.value): (
+                                             CommandMapping.CMD_CM_SPECIAL_ABILITY,)}
     _VEHICLE_MECHANIC_PRIORITIES = (
      (
       (

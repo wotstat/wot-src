@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "sức kháng cự của xe"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+msgstr "tốc độ quay súng"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "tốc độ xoay tháp pháo"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "sức kháng cự của xe"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+msgstr "tốc độ quay súng"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "tốc độ xoay tháp pháo"
@@ -2100,6 +2100,51 @@ msgstr " và "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Cơ chế External Ammunition Feed (EAF) nạp đạn ngoài của xe cho phép sử dụng các loại đạn có sát thương cao hơn."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Giá trị cơ bản trong cơ chế Thường."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Giá trị Hiệu Chỉnh trong cơ chế EAF."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Thông số cơ bản cho phát sạc đầy"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Thông số cho phát sạc đơn"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Thông số cơ bản cho phát sạc đầy"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Cơ bản"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Thông số cho phát sạc đơn"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Ở cơ chế Hiệu Chuẩn, loại đạn này hiệu quả khi bắn giáp nghiêng."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Súng của xe có các thiết bị đặc biệt cho phép điều chỉnh thông số đạn trước khi bắn."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Trong chế độ Thường, loại đạn này hiệu quả trước giáp \"thịt\" không có mảng phụ."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Chế độ Thường"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Chế độ Hiệu Chuẩn"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Trong chế độ Hiệu Chuẩn, loại đạn này có thể xuyên qua các mảng chắn phụ."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Ở chế độ Thường, loại đạn này hiệu quả khi chống lại giáp thẳng đứng."
 
 msgid "tooltips/specializationDesc"
 msgstr "Thiết bị tiêu chuẩn thuộc chủng loại %(spec)s sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này. Thiết bị khác chủng loại sẽ chỉ cung cấp khoảng tăng cơ bản."

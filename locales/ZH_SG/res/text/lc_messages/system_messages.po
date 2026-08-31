@@ -1009,6 +1009,9 @@ msgstr "由于服务器错误乘员训练失败。请稍后重试。"
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s"
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s（x%(count)s）"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录《战舰世界》"
 
 msgid "lootboxes/open/server_error"
-msgstr "获得礼物时出错：服务器错误。"
+msgstr "开启箱子时出错：服务器错误。"
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "获得礼物时出错。请等待上个操作完成。"
+msgstr "开启箱子时出错：请等待上个操作完成。"
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "操作暂时无法使用。请稍后再试。"
@@ -2383,30 +2386,6 @@ msgstr "已获得%(vehicleName)s的独特迷彩。"
 msgid "personalMissions/camouflageUnlocked"
 msgstr "%(vehicleName)s的独特迷彩可用于以下国家的所有战车：%(nation)s。"
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "所有行动进度已保存。您可随时继续战役。"
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "“%(campaignName1)s”与“%(campaignName2)s”战役已暂停"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "暂停的行动与相应任务已继续。"
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "“%(campaignName1)s”与“%(campaignName2)s”战役已继续"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "所有行动进度已保存。您可随时继续战役。"
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "“%(campaignName)s”战役已暂停"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "暂停的行动已继续。"
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "“%(campaignName)s”战役已继续"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "“%(detailName)s”已成功安装。"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "获得奖励时发生错误。请稍后再试。"
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "“%(detail_name)s”已成功安装。"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "获得奖励时出错。请稍后再试。"
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "“%(detail_name)s”已成功安装。"
 
 msgid "personalMissions/reward/regular/server_error"

@@ -1,0 +1,73 @@
+from __future__ import absolute_import
+import logging, typing
+from PlayerEvents import g_playerEvents
+from constants import ARENA_PERIOD
+from frameworks_common.state_machine import BaseStateObserver
+from gui.battle_control.controllers.prebattle_highlights.sub_systems.base_sub_system import BasePbhSubSystem
+from helpers import dependency
+from skeletons.gameplay import IGameplayLogic, GameplayStateID, PlayerEventID
+if typing.TYPE_CHECKING:
+    from typing import Optional
+    from frameworks_common.state_machine import State, StateEvent
+_logger = logging.getLogger(__name__)
+
+class PbhGameLogicObserver(BasePbhSubSystem, BaseStateObserver):
+    __gameplayLogic = dependency.descriptor(IGameplayLogic)
+
+    def __init__(self, readyCallback):
+        self.__stateReached = False
+        self.__prebattlePeriodReached = False
+        super(PbhGameLogicObserver, self).__init__(readyCallback)
+        return
+
+    def subscribe(self):
+        self.__gameplayLogic.addStateObserver(self)
+        g_playerEvents.onArenaPeriodChange += self.__onArenaPeriodChange
+        return
+
+    def unsubscribe(self):
+        self.__gameplayLogic.removeStateObserver(self)
+        g_playerEvents.onArenaPeriodChange -= self.__onArenaPeriodChange
+        return
+
+    def isReady(self):
+        return self.__stateReached and self.__prebattlePeriodReached
+
+    def startFlow(self):
+        return
+
+    def stopFlow(self):
+        return
+
+    def clear(self):
+        self.__stateReached = False
+        self.__prebattlePeriodReached = False
+        super(PbhGameLogicObserver, self).clear()
+        return
+
+    def isObservingState(self, state):
+        return state.getStateID() == GameplayStateID.PREBATTLE_HIGHLIGHTS
+
+    def onEnterState(self, state, event):
+        _logger.debug(b'[PBH] PBH game state reached.')
+        self.__stateReached = True
+        self.__tryCallReadyCallback()
+        return
+
+    def postPbhEnd(self):
+        self.__gameplayLogic.postStateEvent(PlayerEventID.PREBATTLE_START)
+        self.__stateReached = False
+        self.__prebattlePeriodReached = False
+        return
+
+    def __onArenaPeriodChange(self, period, *args):
+        if period == ARENA_PERIOD.PREBATTLE:
+            _logger.debug(b'[PBH] PBH ARENA_PERIOD.PREBATTLE reached.')
+            self.__prebattlePeriodReached = True
+            self.__tryCallReadyCallback()
+        return
+
+    def __tryCallReadyCallback(self):
+        if self.isReady() and self._readyCallback is not None:
+            self._readyCallback()
+        return

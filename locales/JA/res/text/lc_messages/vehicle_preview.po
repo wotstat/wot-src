@@ -40,6 +40,9 @@ msgstr "研究"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "リカバリー"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "大きなボックスへ"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "%(nation)sTier %(level)s車輌が未研究です"
 
@@ -54,6 +57,15 @@ msgstr "購入時の割引:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "研究に必要なEXPの減少:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "こちらの車輌は「{{@ style (color $color)}}大きなボックス{{/}}」からドロップします。"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "「大きなボックス」からドロップします。"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "こちらの車輌は"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "クーポン割引を適用: %(value)s"

@@ -142,7 +142,8 @@ class AbstractContextMenuHandler(object):
 
     def onOptionSelect(self, optionId):
         if optionId in self.__handlers:
-            return getattr(self, self.__handlers[optionId])()
+            getattr(self, self.__handlers[optionId])()
+            return
         LOG_WARNING(b'AbstractContextMenuHandler: unknown context menu option', self, self.__cmProxy, optionId)
         return
 
@@ -195,7 +196,8 @@ class AbstractContextMenuCollectEventsHandler(AbstractContextMenuHandler):
     def onOptionSelect(self, optionId):
         handler = self._getContexMenuHandler()(optionId)
         if handler and callable(handler):
-            return handler(self)
+            handler(self)
+            return
         LOG_WARNING(b'AbstractContextMenuCollectEventsHandler: unknown context menu option', self, self.cmProxy, optionId)
         return
 

@@ -46,6 +46,15 @@ msgstr "启用后在地图上显示更加精细和逼真的物体破坏效果。
 msgid "HAVOK_ENABLED/warning"
 msgstr "设置如果在当前战斗中被禁用，将在下一场战斗中应用。"
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "强化的视觉效果"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "启用强化的视觉效果。关闭此选项会恢复为标准效果，可能会因此提升游戏性能。"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "设置如果在当前战斗中被禁用，则会在下一场战斗中应用。"
+
 msgid "LANGUAGE_CODE"
 msgstr "zh_sg"
 
@@ -175,11 +184,11 @@ msgstr "启用履带和车轮痕迹"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "在地面上显示履带和车轮的痕迹。\n\n在简化图形和低贴花质量设置下无法使用。"
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "在狙击模式下隐藏3D配饰"
+msgid "VISIBILITY_TUNNEL"
+msgstr "效果与3D配饰可见度"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "在狙击模式下，火炮准星中的3D配饰将暂时隐藏。\n\n可减少视觉干扰并提升瞄准精准度。"
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "调整屏幕中央附近的效果与3D配饰可见度，以降低瞄准时的视觉干扰。3D配饰的可见度仅在狙击模式下调整。\n\n较低的数值会让效果与3D配饰较透明，从而提升瞄准时的清晰度。"
 
 msgid "WATER_QUALITY"
 msgstr "水面质量"
@@ -1995,6 +2004,15 @@ msgstr "模式："
 
 msgid "screenMode/windowed"
 msgstr "窗口化"
+
+msgid "showPrebattleHighlights"
+msgstr "启用焦点玩家"
+
+msgid "showPrebattleHighlights/description"
+msgstr "在战斗前倒计时期间显示精选的亮眼坦克。\n\n禁用此选项可提升游戏性能。"
+
+msgid "showPrebattleHighlights/warning"
+msgstr "若此设置在当前战斗下禁用，将于下一场战斗启用。"
 
 msgid "smoothing/description"
 msgstr "开启可使物体线条和轮廓的平滑度。最大限度的减少混叠效果，使物体看起来更自然。"

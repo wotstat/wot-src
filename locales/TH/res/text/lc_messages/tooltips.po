@@ -6052,6 +6052,18 @@ msgstr "คำสั่งจะไม่ทำงานเพราะคุณ
 msgid "moduleFits/wrong_slot/body"
 msgstr "ชิ้นส่วนนี้ได้ติดตั้งในช่องอื่นแล้ว"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "โอกาสในการทำความเสียหายร้ายแรงต่อชิ้นส่วนและ/หรือพลรถถังของข้าศึก"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "ค่าที่มุมกระสุนกระทบลดลงเมื่อพุ่งชนเกราะ"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "ค่าอำนาจการเจาะเกราะของกระสุนที่ลดลงในทุกๆ 100 มม.หลังจากพุ่งชนแผงเกราะกั้นข้าศึก"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "มุมที่กระสุนแฉลบออกจากเกราะข้าศึกโดยอัตโนมัติ"
+
 msgid "multiselection/alert/body"
 msgstr "เลือกพาหนะ: คุณสามารถเข้าร่วมการรบได้โดยมีกลุ่มที่ครบเท่านั้น"
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "บัตรผ่านการรบ: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "วาดิม คูปรินนั้นรู้จักที่ราบเกลืออันแห้งแล้งที่เขาปฏิบัติภารกิจปัจจุบันราวกับหลังมืออันแห้งผากพอกันของเขาเอง เขาคุ้นเคยกับสภาพแวดล้อมที่เลวร้ายและฝึกฝนตัวเขาเองและเชี่ยวชาญในการป้องกันสงครามเคมีนานก่อนที่เขาจะได้มาขึ้นขับรถถัง ยี่สิบปีต่อมาเขาก็ได้เดินทางในเวลาไม่กี่วันจากศูนย์ทดลองที่เขาเริ่มราชการทหารทีี่เขาเริ่มในยศช่างเทคนิคเบื้องต้น วาดิมพูดติดตลกกับลูกน้องของเขาว่าเวลาและความยากลำบากนั้นทิ้งรอยแผลให้เขาแต่ก็ไม่มีเอกสารใดถูกเขียนเพื่อปลดเขาออกจากกองทัพ และจนกว่าจะมีคนเขียนเอกสารดังกล่าวอย่างถูกต้อง เขาก็จะยังคงอยู่ในกองทัพต่อไป"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "หุบเขาที่ชุ่มชื่นที่บรินน์ พาวเวลล์โตมาตั้งแต่เด็กนั้นเป็นโลกที่ต่างโดยสิ้นเชิงกับสภาพอากาศอันเลวร้ายที่เข้าได้รู้จัก สรุปล่าสุดของเขานั้นมีรายละเอียดน้อยมากและวลีที่ว่า สารเคมีที่ยังระบุไม่ได้ และ ความเสี่ยงภัยถึงชีวิตขั้นสูงสุด อาจจะทำให้ผู้การหลายคนภาวนาสำหรับการย้ายตำแหน่งปฏิบัติการ แต่บรินน์นั้นถือว่าความสามารถการเอาตัวรอดนั้นเป็นคุณลักษณะที่น่าชื่นชมของผู้คน เขาเป็นนักท้าความตายโดยสายเลือดและน่าจะมีอาชีพสตันท์แมนที่โด่งดังถ้าเขาอยากจะทำเช่นนั้น แม้ว่าจะให้เขามาบัญชาการรถถังมันก็ไม่ได้มีความต่างอะไรนักกับความกล้าเสี่ยงของเขา"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "นากาอิ โซระเป็นผู้การที่ไม่ค่อยพูดและทหารผ่านศึกในภารกิจรักษาสันติภาพในภูมิภาคที่ไม่มีเสถียรภาพ เขาได้เรียนรู้วิธีการรักษาความใจเย็นเมื่อเผชิญกับแรงกดดัน ไม่ว่าจะทำงานจนเกือบหมดแรงหลังการลาดตระเวนไกลช่วงกลางคืนหรือปะติดปะต่อข่าวกรองที่น่าขนลุกเกี่ยวกับสสารที่ไม่ทราบซึ่งลูกน้องของเขาถูกส่งไปทำการสืบสวน ความสงบของเขาไม่เคยหวั่นไหว เขารักษาขวัญกำลังใจด้วยการพูดตลกซึ่งเกือบจะเป็นตลกร้ายและไม่ยอมที่จะปล่อยให้ประกายในตาหรือจังหวะก้าวอันมีชีวิตหายไป"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "ไม่มีอะไรผ่านสายตาของซานดรีน อูซเซต์ซึ่งเป็นนักแม่นปืนมีชื่อก่อนที่จะถูกเกณฑ์เข้าร่วมปฏิบัติภารกิจลาดตระเวนหุ้มเกราะลับ ตาอันแหลมคมของเธอมองได้ไกลกว่ากล้องขยายบนปืนไรเฟิลของเธอ ยื่นภาพข่าวกรองข้าศึกที่ไม่ชัดให้เธอดูแล้วเธอก็จะสามารถสรุปข้อมูลที่แม่นยำได้จนลูกน้องของเธอแรกเริ่มนึกว่าเธอมีตาทิพย์ เมื่อเธอบัญชาการก็แทบจะไม่มีความลับอะไรถูกปกปิดได้นาน แต่โชคดีที่เธอเองจะทำการไต่สวนอย่างไม่สิ้นสุดก็เฉพาะกับแหล่งที่มาอันหาต้นตอไม่ได้ที่หน่วยถูกส่งไปสืบสวนเท่านั้น"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "ผู้คนมักถามอยู่เสมอว่าผมรู้จัก Jack Reed ไหม ก่อนที่ผมจะตอบ ผมก็หายใจลึกหนึ่งครั้งแล้วก็หลับตาลงชั่วครู่ การเป็นผู้บัญชาการของเขานั้นไม่ใช่เรื่องง่าย Reed นั้นเป็นกบฎที่บังเอิญสามารถปฏิบัติตามคำสั่งและบังคับให้ตัวเองอยู่ในกฎของทหารได้ ในตอนนี้เขาติดอยู่ในรถถังที่ร้อนกว่าในนรก แต่ข้างในลึกๆแล้ว เขาคิดว่าเขากำลังอยู่บนถนนที่เขากำลังขี่จักรยานไปตามเส้น 66 แล้วรับลมที่ตีเข้าหน้าของเขา"
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "สมรภูมิเขต 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "จากการโตมาในครอบครัวของช่างนาฬิกาในกรุงเบิร์น สเตฟานได้รับสืบทอดงานฝีมือที่จำเป็นต้องใช้ความเงียบ, ความใจเย็นและการควบคุมที่สมบูรณ์แบบ แต่สำหรับเขาแล้ว คุณลักษณะเหล่านี้จะเป็นตัวนิยามให้กับอาชีพที่ต่างออกไปอย่างมาก ในปี 1940 หน่วยข่าวกรองอังกฤษได้ยื่นขอเสนอให้เขาคือ สวิตเซอร์แลนด์ที่เป็นกลางจะอยู่อีกฝั่งของชายแดนและเขาจะไปอยู่อีกฝั่ง ในช่องเขาอัลไพน์ เขาได้เปลี่ยนจากช่างเครื่องมือสายลับมาเป็นพลแม่นปืน หลังสงคราม เขายังคงปฏิบัติงานของเขาด้วยการไล่กำจัดคนที่พยายามหลบหนีระบบยุติธรรมด้วยการใช้ชื่อปลอม สเตฟานนั้นทำงานเพียงลำพังเสมอแล้วหายตัวไปแบบไร้ร่องรอย ซึ่งก็ยังไม่มีใครในเขต 3 ได้เคยเห็นหน้าของเขา"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "สมรภูมิเขต 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—กระสุนมาตรฐานของปืนท�
 msgid "shell/basic/description/bold"
 msgstr "กระสุนมาตรฐาน"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "รูปแบบระบบป้อนกระสุนภายนอกของพาหนะทำให้สามารถใช้กระสุนมีความเสียหายเพิ่มขึ้นได้"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "พื้นฐาน"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "ปรับแก้แล้ว:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "กลไกพิเศษสำหรับปืนพาหนะที่ทำให้ยิงได้ก่อนโดยมีค่าคุณลักษณะกระสุนปรับต่างจากเดิม"
 
@@ -10866,6 +10932,21 @@ msgstr "พื้นฐาน:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "ปรับต่าง:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "ชนวนปรับได้จะเพิ่มความเสียหายหรือการเจาะเกราะเฉลี่ย"
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "ปรับได้:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "ตัวปืนของพาหนะมีอุปกรณ์พิเศษที่ทำให้เปลี่ยนค่ากระสุนบางอย่างก่อนทำการยิงได้"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "ปกติ"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "ปรับแต่งแล้ว"
 
 msgid "showArtyHitOnMap/body"
 msgstr "แสดง/ซ่อนพื้นที่ตกเป็นเป้าการยิงของปืนอัตตาจรข้าศึกในแผนที่ย่อ"
@@ -11028,6 +11109,12 @@ msgstr "การลดคุณภาพเสียงอาจจะปรั
 
 msgid "soundQualityOn/header"
 msgstr "เสียงคุณภาพต่ำ"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}ความเสียหายเฉลี่ย{{/}} เพิ่มขึ้นหลังยิงเจาะเกราะพาหนะข้าศึกได้"
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}การเจาะเกราะเฉลี่ย{{/}} เพิ่มขึ้นหลังจากยิงเข้าพาหนะข้าศึกแต่เจาะเกราะไม่ได้"
 
 msgid "specializationWotPlus/content/header"
 msgstr "สมาชิกพลรถถังในพาหนะพิเศษนั้นจะฝึกเร็วขึ้น 50%:"
@@ -11386,6 +11473,36 @@ msgstr "ระบบเติมกระสุนอัตโนมัติร
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "เวลาระหว่างการยิงกระสุนนัดสุดท้ายในโม่ (หรือปืนทั้งสองกระบอก) และการบรรจุโม่กระสุนใหม่/ จำนวนปืนหรือกระสุนในโม่"
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "เวลาที่เปลี่ยนเวลาบรรจุที่เหลือเมื่อกลไกถูกใช้งาน"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "เวลาที่ใช้ในการเติมหนึ่งประจุถ้าซองกระสุนเต็มอยู่"
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "เวลาที่ใช้ในการเติมหนึ่งประจุถ้าซองกระสุนไม่เต็ม"
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "จำนวนประจุที่มีให้หลังเริ่มการรบ"
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "จำนวนประจุสูงสุดสำหรับการเร่งบรรจุกระสุนที่สามารถเก็บไว้ได้"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "ความเสียหายเฉลี่ยที่ทำโดยเครื่องยิงจรวดหลังทำการเจาะเกราะได้ การแกว่งความเสียหายที่เป็นไปได้นั้นจะเป็น +/- 25% ของค่าเฉลี่ย"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "การกระจายจะเห็นจากการเบี่ยงเบนกระสุนสูงสุดจากจุดเล็งที่ระยะ 100 เมตร"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "ความหนาเกราะที่ถูกเจาะโดยจรวด การแกว่งของค่านั้นจะเป็น +/- 25% ของค่าเฉลี่ย"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "เวลาที่ต้องใช้ในการบรรจุเครื่องยิงจรวด"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "กำหนดความเร็วของจรวดไม่นำวิถี"
+
 msgid "tank_params/desc/avgDamage"
 msgstr "ความเสียหายเฉลี่ยที่ทำโดยกระสุนปกติหลังทำการเจาะเกราะได้ การแกว่งความเสียหายที่เป็นไปได้นั้นจะเป็น +/- 25% ของค่าเฉลี่ย"
 
@@ -11406,6 +11523,21 @@ msgstr "เวลาใช้งานสูงสุดของผลตัว
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "การบรรจุระหว่างนัดในคลิป/ จำนวนคลิปในซองกระสุน / จำนวนกระสุนในคลิป"
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "ความเสียหายเฉลี่ยที่ทำโดยกระสุนรวมประจุสูงหลังทำการเจาะเกราะได้ ค่าแกว่งความเสียหายที่เป็นไปได้นั้นจะเป็น +/- 25% ของค่าเฉลี่ย"
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "การลดค่าความเร็วเดินหน้าของพาหนะในรูปแบบระบบป้อนกระสุนภายนอก ความเร็วถอยหลังไม่ได้รับผลกระทบ"
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "การลดจำนวนกระสุนต่อนาทีในรูปแบบระบบป้อนกระสุนภายนอก"
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "เวลาขั้นต่ำเพื่อเตรียมปืนสำหรับการยิงหลังเปิดใช้รูปแบบระบบป้อนกระสุนภายนอก ในระหว่างนี้ คุณจะไม่สามารถเปลี่ยนรูปแบบได้"
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "เวลาขั้นต่ำเพื่อเตรียมปืนสำหรับการยิงหลังจากกลับมาเป็นรูปแบบปกติ ในระหว่างนี้ คุณจะไม่สามารถเปลี่ยนรูปแบบได้"
 
 msgid "tank_params/desc/chargeTime"
 msgstr "เวลาการเตรียมยิงปืนสองกระบอกพร้อมกัน / ระยะเวลาการบล็อคการบรรจุกระสุนเมื่อทำการระดมยิง"
@@ -11737,8 +11869,17 @@ msgstr "เวลาบรรจุกระสุนอาวุธรองห
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "จำนวนกระสุนที่มีให้สำหรับอาวุธรองในการใช้งานแต่ละครั้ง"
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "โบนัสให้กับความเสียหายหลังจากยิงเจาะเกราะพาหนะข้าศึก"
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "โบนัสให้กับการเจาะเกราะหลังจากยิงเจาะเกราะพาหนะข้าศึกไม่ได้"
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "เวลาที่ใช้ในการบรรจุกระสุนเมื่อเริ่มการรบและเปลี่ยนชนิดกระสุนไปมา"
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "เวลาที่ใช้ในการเปลี่ยนจากรูปแบบการยิงปรับแล้วมาเป็นรูปแบบการยิงปกติ"
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "การกระจายของปืนจะเห็นจากการเบี่ยงเบนกระสุนสูงสุดจากจุดเล็งที่ระยะ 100 ม."
@@ -11748,6 +11889,36 @@ msgstr "การกระจายของปืนจะเห็นจาก
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "แสดงให้เห็นว่ากระสุนสามารถเบี่ยงจากจุดเล็งได้มากเพียงใดเป็นหน่วยเมตรในระยะ 100 เมตรจากเป้าหมาย ค่ามาตรฐาน (ค่าแรก) นั้นสำหรับปืนที่กำลังร้อนและค่าที่ดีขึ้น (ค่าที่สอง) สำหรับปืนที่เย็นแล้ว"
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "การลดลงเรื่อยๆของค่าอำพรางของข้าศึกซ่อนในแมกไม้ในพื้นที่กวาดของระบบค้นหาติดตามอินฟราเรด"
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "การลดลงเรื่อยๆของค่าอำพรางของข้าศึกที่กำลังแล่นในพื้นที่กวาดของระบบค้นหาติดตามอินฟราเรด"
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "เวลาที่ต้องใช้หลังเริ่มการรบก่อนที่ระบบค้นหาติดตามอินฟราเรดจะใช้ได้เป็นครั้งแรก"
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "ช่วงเวลาการกวาดระบบค้นหาติดตามอินฟราเรด"
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "เวลาที่ต้องใช้ก่อนระบบค้นหาติดตามอินฟราเรดใช้ได้อีกครั้งหลังเปิดใช้"
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "การลดความเร็วการหมุนป้อมปืนระหว่างที่ระบบค้นหาติดตามอินฟราเรดกำลังทำงาน"
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "ความกว้างพื้นที่กวาดของระบบค้นหาติดตามอินฟราเรดเมื่อจบช่วงทำงาน"
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "ความกว้างพื้นที่กวาดของระบบค้นหาติดตามอินฟราเรดเมื่อเริ่มช่วงทำงาน"
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "เวลาที่พาหนะของคุณถูกพบหลังจากคุณพบข้าศึกที่ยังไม่ได้พบด้วยระบบค้นหาติดตามอินฟราเรด"
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "การเพิ่มขึ้นเรื่อยๆของระยะการมองเห็นในพื้นที่กวาดของระบบค้นหาติดตามอินฟราเรด"
 
 msgid "tank_params/desc/speedLimits"
 msgstr "ความเร็วพาหนะตามที่ระบุในคุณลักษณะทางเทคนิค"

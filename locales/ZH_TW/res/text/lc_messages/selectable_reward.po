@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "了解！"
 
 msgid "error/description"
-msgstr "資訊暫時無法使用。我們為帶來的不便感到抱歉。請稍後再試。"
+msgstr "我們為帶來的不便感到抱歉。請稍後再試。"
 
 msgid "error/title"
-msgstr "無法開啟獎勵選擇"
+msgstr "此頁面暫時無法使用"
 
 msgid "footer/closeBtn/label"
 msgstr "稍後選擇"
@@ -23,7 +23,7 @@ msgstr[1] "從類別中選擇獎勵。"
 msgstr[2] "從類別中選擇獎勵。"
 
 msgid "footer/okBtn/label"
-msgstr "領取"
+msgstr "領取獎勵"
 
 msgid "footer/rewardsSelected"
 msgstr "選擇的獎勵："
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "已獲得"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "已達到此類別物品的選擇上限。您可取消選擇一個物品來新增另一個。"
+msgstr "您已達可在此類別下選取物品的數量上限。請取消選擇一個物品以選擇另一個。"
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "已達上限"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "裝備\n技術指南"
@@ -93,6 +93,9 @@ msgstr "標準裝備"
 
 msgid "tabs/items/trophy"
 msgstr "戰勛裝備"
+
+msgid "tooltips/footer/body"
+msgstr "選擇獎勵以領取"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "點擊「領取」按鈕以獲得選擇的獎勵。"

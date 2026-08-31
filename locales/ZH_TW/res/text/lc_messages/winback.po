@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "關閉"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "了解！"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "熱身將讓您再次熟悉遊戲的基本操作。您將與 AI 操控的車輛對戰，戰鬥結果不會計入您的戰鬥統計。您可以隨時離開熱身並前往隨機戰鬥。"
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "熱身"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "完成任務與「再戰沙場」進度階段，並獲得珍貴遊戲內獎勵。每次完成一般、加值或獎勵任務都會計入獎勵進度。這些任務可於熱身或隨機戰鬥中完成。"
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "完成任務與「再戰沙場」進度階段，並獲得珍貴遊戲內獎勵。在戰車遠征期間，戰車遠征點數將計入獎勵池。這些任務可於熱身或隨機戰鬥中完成。"
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "再戰沙場"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "您可獲得 VIII 階租用加值車輛、VI 階可研發車輛，以及研發和購買車輛折扣作為獎勵。完成進度後，您將獲得主要獎勵。"
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "獎勵"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "再戰沙場"
-
 msgid "mainRewardTooltip/description"
 msgstr "完成「再戰沙場」進度後，您將獲得："
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "主要獎勵"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "研發並購買一輛 %(level)s 階車輛的折扣"
+msgstr "研發並購買一輛 {{level}} 階車輛的折扣"
 
 msgid "modeInfoTooltip/description"
 msgstr "與 AI 操控的車輛對戰，戰鬥結果將不會計入您的戰鬥統計。要贏得戰鬥，您必須佔領敵方基地或摧毀所有敵方車輛。戰鬥使用 VI–XI 階戰車並以 15v15 編制進行；或使用 I–V 階戰車並以 10v10 編制進行。"
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "熱身"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "可選擇任何 %(level)s 階可研發車輛。車輛配件已研發，附有一組乘員與一個車庫車位。"
+msgstr "可選擇任何 {{level}} 階可研發車輛。車輛配件已研發，附有一組乘員與一個車庫車位。"
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "%(level)s 階車輛"
+msgstr "{{level}} 階車輛"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "以 %(researchDiscount)s 折扣研發，並以 %(purchaseDiscount)s 折扣購買一輛 %(level)s 階車輛。可選擇任何可研發車輛。"
+msgstr "以 {{researchDiscount}} 折扣研發，並以 {{purchaseDiscount}} 折扣購買一輛 {{level}} 階車輛。可選擇任何可研發車輛。"
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "{whiteSpanish_Open}研發{whiteSpanish_Close}折扣已加入來自車輛藍圖碎片的折扣。已享有最高可用{whiteSpanish_Open}購買{whiteSpanish_Close}折扣。"
+msgstr "{{@ style (color $color)}}研發{{/}}折扣已加入來自車輛藍圖碎片的折扣。已享有最高可用{{@ style (color $color)}}購買{{/}}折扣。"
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "%(level)s 階車輛的折扣"
+msgstr "{{level}} 階車輛的折扣"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "了解!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "熱身將讓您再次熟悉遊戲的基本操作。您將與 AI 操控的車輛對戰，戰鬥結果不會計入您的戰鬥統計。您可以隨時離開熱身並前往隨機戰鬥。"
+
+msgid "umgIntroView/info/mode/title"
+msgstr "熱身"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "完成任務與「再戰沙場」進度階段，並獲得珍貴遊戲內獎勵。在戰車遠征期間，戰車遠征點數將計入獎勵池。這些任務可於熱身或隨機戰鬥中完成。"
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "完成任務與「再戰沙場」進度階段，並獲得珍貴遊戲內獎勵。每次完成一般、加值或獎勵任務都會計入獎勵進度。這些任務可於熱身或隨機戰鬥中完成。"
+
+msgid "umgIntroView/info/quests/title"
+msgstr "再戰沙場"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "您可獲得 VIII 階租用加值車輛、VI 階可研發車輛，以及研發和購買車輛折扣作為獎勵。完成進度後，您將獲得主要獎勵。"
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "獎勵"
+
+msgid "umgIntroView/title"
+msgstr "再戰沙場"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "%(research)s折扣已加入來自車輛藍圖碎片的折扣。已享有最高可用%(purchase)s折扣。"
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "要離開熱身嗎？"
 
 msgid "winbackPopover/battlesCount"
-msgstr "剩餘戰鬥：%(battlesCount)s "
+msgstr "剩餘戰鬥數：{{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "與 AI 操控的車輛對戰，戰鬥結果將不會計入您的戰鬥統計。"
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "您還獲得了："
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(level)s 階車輛的 %(expDiscount)s 研發折扣與 %(priceDiscount)s 購買折扣"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{level}} 階車輛的 {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} 研發折扣與 {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} 購買折扣"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "%(level)s 階車輛"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "{{level}} 階車輛"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "一輛 %(level)s 階車輛的折扣"
+msgstr "一輛 {{level}} 階車輛的折扣"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "完成一系列每日任務"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "已完成進度"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s 的研發折扣\n並以 %(priceDiscount)s 的折扣購買"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} 的研發折扣並以 {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} 的折扣購買"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "在車庫中"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "租用天數：%(days)s"
+msgstr "租用天數：{{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "研發及購買的折扣"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "稍後選擇"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "重置過濾"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "車輛折扣"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "%(vehicleLevel)s 階車輛"
+msgstr "{{vehicleLevel}} 階車輛"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "了解！"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "無法開啟獎勵選擇"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "您已研發所有 %(vehicleLevel)s 階車輛。您現在可獲得一些國家藍圖碎片作為獎勵。"
+msgstr "您已研發所有 {{vehicleLevel}} 階車輛。您現在可獲得一些國家藍圖碎片作為獎勵。"
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "按名稱搜尋"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "顯示："
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "設為預設"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "已選擇獎勵：%(amountRewards)s %(infoIcon)s"
+msgstr "已選擇獎勵：{{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "從類別中選擇獎勵"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "找不到相符內容。請變更您的過濾設定或重置為預設。"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s 國家藍圖碎片{white_Close}（%(countryName)s）"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} 國家藍圖碎片{{/}}（{{countryName}}）"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close}（%(expDiscount)s% 研發折扣和 %(priceDiscount)s% 購買折扣）"
+msgstr "{{@ style (color $color)}}{{name}}{{/}}（{{expDiscount}}% 研發折扣與 {{priceDiscount}}% 購買折扣）"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "%(level)s 階車輛的折扣"
+msgstr "{{level}} 階車輛的折扣"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close}（已研發的所有配件、乘員與車庫車位）"
+msgstr "{{@ style (color $color)}}{{name}}{{/}}（已研發的所有配件、乘員與車庫車位）"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "%(level)s 階車輛"
+msgstr "{{level}} 階車輛"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "點擊「領取」按鈕以獲得選擇的獎勵。"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "已選擇獎勵：%(amountRewards)s "
+msgstr "已選擇獎勵：{{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "購買"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "選擇您的獎勵"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "驅逐戰車"

@@ -1,6 +1,6 @@
 package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
 {
-   import flash.display.Bitmap;
+   import flash.display.Sprite;
    import flash.text.TextField;
    import net.wg.data.constants.InvalidationType;
    import net.wg.data.constants.Values;
@@ -23,7 +23,7 @@ package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
       
       public var mcTopAnimation:MarkerTopAnimation = null;
       
-      private var _iconContainer:Bitmap = new Bitmap();
+      private var _iconContainer:Sprite = new Sprite();
       
       private var _colorSchMgr:IColorSchemeManager = App.colorSchemeMgr;
       
@@ -39,7 +39,8 @@ package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
       {
          super();
          addChildAt(this._iconContainer,0);
-         this._iconContainer.smoothing = true;
+         this._iconContainer.mouseEnabled = false;
+         this._iconContainer.mouseChildren = false;
       }
       
       override protected function onDispose() : void
@@ -50,6 +51,7 @@ package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
          this.tf = null;
          this.mcTopAnimation.dispose();
          this.mcTopAnimation = null;
+         super.onDispose();
       }
       
       override protected function draw() : void
@@ -134,7 +136,7 @@ package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
       {
          var _loc7_:StatsUserProps = null;
          this._entryName = param5;
-         this._iconContainer.bitmapData = this._atlasMgr.getNewBitmapData(ATLAS_CONSTANTS.BATTLE_ATLAS,param1);
+         this._atlasMgr.drawGraphics(ATLAS_CONSTANTS.BATTLE_ATLAS,param1,this._iconContainer.graphics,"",true);
          this._iconContainer.visible = true;
          if(this._entryName != Values.EMPTY_STR)
          {
@@ -152,8 +154,8 @@ package net.wg.gui.battle.views.minimap.components.entries.battleRoyale
             App.utils.commons.formatPlayerName(this.tf,_loc7_);
          }
          this.tf.visible = _loc6_;
-         this._iconContainer.x = -this._iconContainer.width >> 1;
-         this._iconContainer.y = -this._iconContainer.height >> 1;
+         this._iconContainer.x = -(this._iconContainer.width >> 1);
+         this._iconContainer.y = -(this._iconContainer.height >> 1);
          if(this.tf.visible)
          {
             this.tf.x = this._iconContainer.x + this._iconContainer.width + TEXTFIELD_OFFSET;

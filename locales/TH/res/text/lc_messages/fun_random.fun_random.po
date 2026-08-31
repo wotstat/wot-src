@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "การประลองความเร็วนีออนเป็นกิจกรรมเวลาจำกัดที่มีแนวการเล่นที่ต่างออกไป! แข่งความเร็วและตะลุมบอนในเส้นทางอันตราย, ปฏิบัติภารกิจให้สำเร็จแล้วรับรางวัล"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองเลือกลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะประสบปัญหาด้านกราฟฟิคและการเคลื่อนที่ของพาหนะ อาจจะเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่มด้วย"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "สมรรถนะอาจจะต่ำลง"
+msgstr "สมรรถนะต่ำ"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองเลือกลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "สมรรถนะอาจจะต่ำลง"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} ทุกระดับ"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะประสบปัญหาด้านกราฟฟิคและการเคลื่อนที่ของพาหนะ อาจจะเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่มด้วย"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "สมรรถนะต่ำ"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "%(icon) สมรรถนะต่ำ"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "สมรรถนะอาจจะต่ำลง"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "%(icon) สมรรถนะอาจจะต่ำลง"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "มีภารกิจประลองความเร็วนีออนใหม่ให้ใน:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "ยินดีด้วย!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "ช่วงหลังความก้าวหน้าไม่สิ้นสุด"
+msgstr "ด่านเล่นซ้ำได้"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "คุณผ่านความก้าวหน้าหลักแล้ว"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "ผ่านด่านนี้ได้มากเท่าที่คุณต้องการ"
+msgstr "มาคว้ารางวัลให้มากที่สุดเท่าที่คุณจะทำได้"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "คะแนนที่ได้: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "ทำซ้ำได้"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "จากการสำเร็จ:"
+msgstr "จากการสำเร็จ"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "จากการแพ้:"
+msgstr "จากการแพ้"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "จากการชนะ:"
+msgstr "จากการชนะ"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "คะแนน:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "คุณผ่านภารกิจทั้งหมดที่มีให้สำหรับตอนนี้แล้ว จะมีมากกว่านี้ปรากฎให้ในรอบเวียนถัดไป"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "มีให้สำหรับ {{timeLeft}}"
+msgstr "หมดอายุใน {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "มีให้สำหรับ {{timeLeft}}"
+msgstr "กิจกรรมจบลงใน {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "มีภารกิจใหม่ให้ใน {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "หลบเลเซอร์และกะเวลากระโด
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "ระวัง: เลเซอร์และการกระโดด"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "ถ้าพาหนะของคุณติด ให้ใช้ความสามารถ กลับไปยังจุดตรวจ เพื่อย้ายกลับไปยังจุดเตรวจสุดท้ายที่คุณไปถึง"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "กลับไปยังจุดตรวจ"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "ในการอ่านเพิ่มเติมเกี่ยวกับรูปแบบนี้"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "สู้ไปให้\nถึงเส้นชัย"
+msgstr "ต่อสู้เพื่อฝ่าไปให้ถึงเส้นชัย"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} ทุกระดับ"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาอื่นๆและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะประสบปัญหาด้านกราฟฟิคและการเคลื่อนที่ของพาหนะ อาจจะเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่มด้วย"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "สมรรถนะต่ำ"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "%(icon) สมรรถนะต่ำ"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาอื่นๆและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพของคุณนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "สมรรถนะอาจจะต่ำลง"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+msgstr "%(icon) สมรรถนะอาจจะต่ำลง"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "ประลองความเร็วนีออน"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "แข่งความเร็วและตะลุมบอนผ่านเส้นทางที่อันตราย, ทำภารกิจให้สำเร็จแล้วคว้ารางวัลไปครอง"
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "การประลองความเร็วนีออน"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "ประลองความเร็วนีออน"

@@ -6,7 +6,7 @@ from gui.anonymizer.battle_cooldown_manager import BattleCooldownManager
 from gui.battle_control.battle_cache.cache_records import RelationsCacheRecord
 from gui.battle_control.battle_constants import BATTLE_CTRL_ID
 from gui.battle_control.arena_info.interfaces import IAnonymizerFakesController
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from messenger.proto import proto_getter
 from messenger.proto.entities import BattleUserEntity, CurrentBattleUserEntity
 from messenger.proto.events import g_messengerEvents
@@ -43,6 +43,7 @@ class _RelationData(object):
 
 
 class AnonymizerFakesController(IAnonymizerFakesController):
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
     __slots__ = (b'__fakeIDs', b'__relationsCache', b'__arenaDP', b'__avatarSessionID', b'__postProcs', b'__cooldown', b'__mergedDBIDs')
 
     def __init__(self, setup):
@@ -61,10 +62,6 @@ class AnonymizerFakesController(IAnonymizerFakesController):
 
     @proto_getter(PROTO_TYPE.MIGRATION)
     def proto(self):
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     def getControllerID(self):

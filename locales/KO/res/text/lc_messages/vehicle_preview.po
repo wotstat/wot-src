@@ -40,6 +40,9 @@ msgstr "연구"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "복구"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "대형 상자로 이동"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "%(nation)s %(level)s단계 전차 연구 필요"
 
@@ -54,6 +57,15 @@ msgstr "구매 시 적용 할인:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "연구 할인:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "획득 가능 경로: {{@ style (color $color)}}대형 상자{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "대형 상자"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "획득 가능 경로:"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "쿠폰 할인 적용: %(value)s"

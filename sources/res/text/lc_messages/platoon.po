@@ -130,6 +130,9 @@ msgstr "You cannot create or join Platoons because you do not have a suitable Ti
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "After Qualification is complete, Platoons of 2 and 7 players will be available."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "After Qualification is complete, a Platoon of two players will be available."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Unable to create a Platoon."
 
@@ -141,6 +144,9 @@ msgstr "Create a Platoon or join an existing one. Platoons in Onslaught can cons
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Platoon"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Create a Platoon or join an existing one. Platoons in Onslaught can consist of two players only."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Create a tactical unit of 2 or 3 players to play cooperatively.\n• Battle modes: Rampage.\n• Battle types: Steel Hunt, Domination."
@@ -264,12 +270,6 @@ msgstr "The Platoon has reached the maximum number of heavy tanks"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "The Platoon has reached the maximum number of medium tanks"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "The Platoon has reached the maximum number of light tanks"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "The Platoon has reached the maximum number of wheeled vehicles"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "The Platoon has reached the maximum number of light tanks"

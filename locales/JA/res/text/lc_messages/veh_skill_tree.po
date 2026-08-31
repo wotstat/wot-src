@@ -298,8 +298,26 @@ msgstr "スラスターによって付与されるエンジン出力へのブー
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "1回の戦闘におけるスラスターの発動可能回数の上限を{colorTagOpen}{value}{colorTagClose}増加させます。"
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "「IRST」を使用できるようになるまでの初期クールダウンを{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "「IRST」を再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "「IRST」で敵を発見した後、自車輌の被発見時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "「IRST」のスキャン時間を{colorTagOpen}{value0}秒{colorTagClose}延長し、さらにスキャン範囲を{colorTagOpen}{value1}度{colorTagClose}狭め、視認範囲を{colorTagOpen}{value2}%{colorTagClose}拡大し、移動中の車輌の隠蔽率を{colorTagOpen}{value3}%{colorTagClose}、茂みに隠れている車輌の隠蔽率を{colorTagOpen}{value4}%{colorTagClose}低下させます。"
+
 msgid "tooltips/description/crewProtection"
 msgstr "自車輌が損傷した際に搭乗員が負傷する可能性を減少させます。"
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "非貫通弾の後、貫通力を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "貫通弾を与えた後、与ダメージを{colorTagOpen}{value}%{colorTagClose}向上させます。"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "主砲が損傷した際の散布界の拡大を軽減します。"
@@ -460,6 +478,18 @@ msgstr "弾倉内の砲弾間の再装填時間を短縮します。"
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "射撃中に敵車輌に発見される可能性を減少させます。"
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "弾倉が満タンでない場合、チャージのクールダウン時間を{colorTagOpen}{value}秒短縮します。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "弾倉が満タンの場合、チャージのクールダウン時間を{colorTagOpen}{value}秒短縮します。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "短縮された砲弾装填時間を{colorTagOpen}さらに{value}秒短縮します。{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "戦闘開始時のチャージ数を{colorTagOpen}{value}増加させます。{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "主砲の冷却遅延時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
 
@@ -468,6 +498,18 @@ msgstr "発射ごとの主砲の発熱を{colorTagOpen}{value}%{colorTagClose}�
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "発熱した砲身の冷却速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "「同軸ロケット砲」の装填時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "「同軸ロケット砲」の装填時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "「同軸ロケット砲」の装填時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "ロケット弾の与ダメージを{colorTagOpen}{value}HP{colorTagClose}上昇させます。"
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "HE弾以外の砲弾による与ダメージを増加させます。"
@@ -547,6 +589,18 @@ msgstr "要塞モードでの散布界を{colorTagOpen}{value}%{colorTagClose}�
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "要塞モードでの主砲の装填時間が{colorTagOpen}{value}%{colorTagClose}短縮されます。"
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "「外付け給弾モード」での最大前進速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "「外付け給弾モード」での特別砲弾による与ダメージを{colorTagOpen}{value}HP{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "「外付け給弾モード」での標準砲弾による与ダメージを{colorTagOpen}{value}HP{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "「外付け給弾モード」でのHE弾以外の装填時間を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "自車輌の燃料タンクおよびエンジン・モジュールの耐久性を向上させます。"
 
@@ -555,6 +609,9 @@ msgstr "弾薬庫やエンジンの損傷時のペナルティーを緩和しま
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "敵車輌のモジュールへの砲弾による与ダメージを増加させます。"
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "射撃モードの切り替えにかかる時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "弾薬と消耗品の代替構成を設定することができます。"
@@ -742,6 +799,18 @@ msgstr "改良型コア"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "拡張ブースター格納庫"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "改良型低出力照射器"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "高性能液体冷却"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "低発散光学装置"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "並行液体冷却"
+
 msgid "tooltips/title/chassisHP"
 msgstr "サスペンションHP"
 
@@ -750,6 +819,12 @@ msgstr "サスペンション修理速度"
 
 msgid "tooltips/title/crewProtection"
 msgstr "搭乗員保護"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "調整式信管設定器 (貫通力)"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "調整式信管設定器 (ダメージ)"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "即応散布界"
@@ -928,6 +1003,18 @@ msgstr "弾倉内装填時間"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "射撃後の隠蔽性"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "高純度ローター巻線"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "アクティブ・ローター冷却システム"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "高熱伝導ステーター・ハウジング"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "環状巻線"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "低温伝熱液"
 
@@ -936,6 +1023,18 @@ msgstr "高熱伝導サーモ・ハウジング"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "改良型ヒートパイプ"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "装填サイクルの最適化"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "装填サイクルの最適化"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "装填サイクルの最適化"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "改良型弾頭構造"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "HE弾以外の弾種のダメージ"
@@ -1018,6 +1117,18 @@ msgstr "高精度バランス調整ローター"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "油圧駆動式ラマー"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "改良型サスペンション・ダンパー"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "改良型特別一体型砲弾"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "改良型通常一体型砲弾"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "外付け給弾サイクルの最適化"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "選択的モジュールHPブースト"
 
@@ -1026,6 +1137,9 @@ msgstr "選択的モジュール保護"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "砲弾によるモジュールへのダメージ"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "再較正の最適化"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "砲弾と消耗品の構成設定"

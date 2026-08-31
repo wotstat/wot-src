@@ -56,7 +56,7 @@ from helpers import dependency
 from helpers import i18n, time_utils, html, int2roman
 from messenger.gui.Scaleform.data.contacts_vo_converter import ContactConverter, makeClanFullName, makeContactStatusDescription
 from messenger.m_constants import USER_TAG
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, PlayerCtxStorage, UsersStorage
 from predefined_hosts import g_preDefinedHosts, HOST_AVAILABILITY, PING_STATUSES, PingData
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.connection_mgr import IConnectionManager
@@ -289,18 +289,12 @@ class EnvironmentTooltipData(ToolTipBaseData):
 
 class ContactTooltipData(ToolTipBaseData):
     lobbyContext = dependency.descriptor(ILobbyContext)
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
+    playerCtx = MessengerStorageDescriptor(PlayerCtxStorage)
 
     def __init__(self, context):
         super(ContactTooltipData, self).__init__(context, TOOLTIP_TYPE.CONTACT)
         self.__converter = ContactConverter()
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
-        return
-
-    @storage_getter(b'playerCtx')
-    def playerCtx(self):
         return
 
     def getDisplayableData(self, dbID, defaultName):
@@ -397,49 +391,50 @@ class SortieDivisionTooltipData(StrongholdTooltipData):
 
     def getDisplayableData(self):
         if not self._getEntity().isStrongholdSettingsValid():
-            return
-        headerData = self._getEntity().getStrongholdSettings().getHeader()
-        isSortie = self._getEntity().isSortie()
-        minLvl = headerData.getMinLevel()
-        maxLvl = headerData.getMaxLevel()
-        divisLevel = int2roman(minLvl)
-        if maxLvl != minLvl:
-            divisLevel += b' - ' + int2roman(maxLvl)
-        minPlayers = headerData.getMinPlayersCount()
-        maxPlayers = headerData.getMaxPlayersCount()
-        divisPlayers = str(minPlayers)
-        if minPlayers != maxPlayers:
-            divisPlayers += b'-' + str(maxPlayers)
-        battleDuration = headerData.getBattleDurationMinutes()
-        minutes = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_MINUTS)
-        hours = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_HOURS)
-        battleDurationTime = b'%d%s' % (battleDuration, minutes)
-        divisionData = {}
-        level = int2roman(maxLvl)
-        if self._getEntity().isSortie():
-            divisTime = battleDurationTime
-            divisName = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_SORTIETITLE, level=level)
+            return None
         else:
-            battleSeriesDurationMinuts = headerData.getBattleSeriesDurationMinuts()
-            battleSeriesDurationHours = headerData.getBattleSeriesDurationHours()
-            if battleSeriesDurationHours >= 1:
-                battleSeriesDurationTime = b'%d%s' % (battleSeriesDurationHours, hours)
+            headerData = self._getEntity().getStrongholdSettings().getHeader()
+            isSortie = self._getEntity().isSortie()
+            minLvl = headerData.getMinLevel()
+            maxLvl = headerData.getMaxLevel()
+            divisLevel = int2roman(minLvl)
+            if maxLvl != minLvl:
+                divisLevel += b' - ' + int2roman(maxLvl)
+            minPlayers = headerData.getMinPlayersCount()
+            maxPlayers = headerData.getMaxPlayersCount()
+            divisPlayers = str(minPlayers)
+            if minPlayers != maxPlayers:
+                divisPlayers += b'-' + str(maxPlayers)
+            battleDuration = headerData.getBattleDurationMinutes()
+            minutes = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_MINUTS)
+            hours = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_HOURS)
+            battleDurationTime = b'%d%s' % (battleDuration, minutes)
+            divisionData = {}
+            level = int2roman(maxLvl)
+            if self._getEntity().isSortie():
+                divisTime = battleDurationTime
+                divisName = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_SORTIETITLE, level=level)
             else:
-                battleSeriesDurationTime = b'%d%s' % (battleSeriesDurationMinuts, minutes)
-            divisTime = b'%s (%s)' % (battleDurationTime, battleSeriesDurationTime)
-            direction = getDirection(headerData.getDirection())
-            divisName = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_FORTTITLE, direction=direction)
-        resourceMultiplier = headerData.getIndustrialResourceMultiplier()
-        if resourceMultiplier > 1:
-            dailyBonus = b'x%d' % resourceMultiplier
-            divisionData[b'dailyBonus'] = dailyBonus
-        divisionData[b'isSortie'] = isSortie
-        divisionData[b'divisName'] = divisName
-        divisionData[b'divisLevels'] = divisLevel
-        divisionData[b'divisLegionnaires'] = str(headerData.getMaxLegionariesCount())
-        divisionData[b'divisPlayers'] = divisPlayers
-        divisionData[b'divisTime'] = divisTime
-        return {b'divisions': [divisionData]}
+                battleSeriesDurationMinuts = headerData.getBattleSeriesDurationMinuts()
+                battleSeriesDurationHours = headerData.getBattleSeriesDurationHours()
+                if battleSeriesDurationHours >= 1:
+                    battleSeriesDurationTime = b'%d%s' % (battleSeriesDurationHours, hours)
+                else:
+                    battleSeriesDurationTime = b'%d%s' % (battleSeriesDurationMinuts, minutes)
+                divisTime = b'%s (%s)' % (battleDurationTime, battleSeriesDurationTime)
+                direction = getDirection(headerData.getDirection())
+                divisName = i18n.makeString(FORTIFICATIONS.STRONGHOLDTOOLTIPS_FORTTITLE, direction=direction)
+            resourceMultiplier = headerData.getIndustrialResourceMultiplier()
+            if resourceMultiplier > 1:
+                dailyBonus = b'x%d' % resourceMultiplier
+                divisionData[b'dailyBonus'] = dailyBonus
+            divisionData[b'isSortie'] = isSortie
+            divisionData[b'divisName'] = divisName
+            divisionData[b'divisLevels'] = divisLevel
+            divisionData[b'divisLegionnaires'] = str(headerData.getMaxLegionariesCount())
+            divisionData[b'divisPlayers'] = divisPlayers
+            divisionData[b'divisTime'] = divisTime
+            return {b'divisions': [divisionData]}
 
     def __getPlayerLimitsStr(self, minCount, maxCount):
         return text_styles.main(str(minCount) + b' - ' + str(maxCount))

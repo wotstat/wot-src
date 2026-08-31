@@ -1,11 +1,10 @@
 from __future__ import absolute_import, division
-import logging, math
-from typing import Optional
-import GUI, BigWorld
-from constants import IMPACT_TYPES
+import logging, math, GUI, BigWorld, typing
+from constants import IMPACT_TYPES, BATTLE_LOG_MECHANIC_SHOT
 import Math
 from frameworks.wulf.view.submodel_presenter import SubModelPresenter
 from gui.battle_control.controllers.kill_cam_ctrl import KillCamInfoMarkerType, ImpactMarkerData, GunMarkerData, DistanceMarkerData
+from gui.impl.gen.view_models.common.vehicle_mechanic_model import MechanicsEnum
 from gui.impl.gen.view_models.views.battle.death_cam.death_cam_hud_view_model import DeathCamHudViewModel, ShellType, Phase, DeathReason, ImpactMode, CaliberRule
 from gui.prb_control.entities.listener import IGlobalListener
 from gui.shared.events import DeathCamEvent
@@ -14,7 +13,10 @@ from helpers.CallbackDelayer import CallbackDelayer
 from math_common import round_py2_style, round_py2_style_int
 from skeletons.gui.battle_session import IBattleSessionProvider
 from items import vehicles
+if typing.TYPE_CHECKING:
+    from typing import Optional, Dict
 _logger = logging.getLogger(__name__)
+_MODE_SHELL_ICON = {(BATTLE_LOG_MECHANIC_SHOT.BUSTLE_FEED_ACTIVE): (MechanicsEnum.BUSTLE_FEED.value)}
 
 def hasShellPenetrationDistanceLoss(shellType):
     return shellType in (
@@ -59,6 +61,13 @@ class DeathCamMarkerView(SubModelPresenter, IGlobalListener):
     @property
     def viewModel(self):
         return self.getViewModel()
+
+    @staticmethod
+    def __getMechanicShotModeIcon(attackerMechanicInfo):
+        if attackerMechanicInfo is None:
+            return b''
+        else:
+            return _MODE_SHELL_ICON.get(attackerMechanicInfo.get(b'mechanicShotMode'), b'')
 
     def initialize(self):
         super(DeathCamMarkerView, self).initialize()
@@ -138,7 +147,8 @@ class DeathCamMarkerView(SubModelPresenter, IGlobalListener):
         phaseDuration = gunMarkerData.phaseDuration
         projectileData = gunMarkerData.projectile
         shellType = self.shellIconMap[projectileData[b'shellType']]
-        self.__updateGunMarkerModel(phaseDuration, projectileData, shellType)
+        attackerMechanicInfo = gunMarkerData.mechanicsInfo[b'attacker']
+        self.__updateGunMarkerModel(phaseDuration, projectileData, shellType, attackerMechanicInfo)
         self.__markerMatrix, markerOffsetMatrix = self.__getCaliberMarkerPositions(gunMarkerData)
         if self.viewModel is not None:
             gunMatrixProvider = BigWorld.LerpPositionMatrixProvider(self.__markerMatrix, markerOffsetMatrix, self.__gunPosConfig)
@@ -146,8 +156,8 @@ class DeathCamMarkerView(SubModelPresenter, IGlobalListener):
             self.__showMarker()
         return
 
-    def __updateGunMarkerModel(self, phaseDuration, projectileData, shellType):
-        self.__updateGunMarkerParameters(projectileData, shellType)
+    def __updateGunMarkerModel(self, phaseDuration, projectileData, shellType, attackerMechanicInfo):
+        self.__updateGunMarkerParameters(projectileData, shellType, attackerMechanicInfo)
         self.__updateViewModelSettings(Phase.KILLER, 0, phaseDuration, True)
         return
 
@@ -161,15 +171,17 @@ class DeathCamMarkerView(SubModelPresenter, IGlobalListener):
         projectileData = distanceMarkerData.projectile
         shellType = self.shellIconMap[projectileData[b'shellType']]
         isAttackerSpotted = distanceMarkerData.isAttackerSpotted
-        self.__updateDistanceMarkerParameters(projectileData, shellType, isAttackerSpotted)
+        attackerMechanicInfo = distanceMarkerData.mechanicsInfo[b'attacker']
+        self.__updateDistanceMarkerParameters(projectileData, shellType, isAttackerSpotted, attackerMechanicInfo)
         self.__updateViewModelSettings(Phase.TRAJECTORY, 0, phaseDuration, True)
         return
 
-    def __updateGunMarkerParameters(self, projectileData, shellType):
+    def __updateGunMarkerParameters(self, projectileData, shellType, attackerMechanicInfo):
         impactType = self.__IMPACT_MODES[projectileData[b'impactType']]
         self.viewModel.setImpactMode(impactType)
         self.viewModel.setShellType(shellType)
         self.viewModel.setShellIcon(projectileData[b'shellIcon'])
+        self.viewModel.setModeShellIcon(self.__getMechanicShotModeIcon(attackerMechanicInfo))
         self.viewModel.setShellCaliber(projectileData[b'shellCaliber'])
         averageDamageOfShell = projectileData[b'averageDamageOfShell']
         self.viewModel.setShellDamageBasic(averageDamageOfShell)
@@ -184,12 +196,13 @@ class DeathCamMarkerView(SubModelPresenter, IGlobalListener):
         self.viewModel.setCaliberRule(caliberRule)
         return
 
-    def __updateDistanceMarkerParameters(self, projectileData, shellType, isAttackerSpotted):
+    def __updateDistanceMarkerParameters(self, projectileData, shellType, isAttackerSpotted, attackerMechanicInfo):
         impactType = self.__IMPACT_MODES[projectileData[b'impactType']]
         self.viewModel.setImpactMode(impactType)
         if self.__isSimplifiedView():
             self.viewModel.setShellType(shellType)
             self.viewModel.setShellIcon(projectileData[b'shellIcon'])
+            self.viewModel.setModeShellIcon(self.__getMechanicShotModeIcon(attackerMechanicInfo))
         if isAttackerSpotted and b'distanceOfShot' in projectileData:
             self.viewModel.setIsKillerUnspotted(False)
             self.viewModel.setShootDistance(projectileData[b'distanceOfShot'])

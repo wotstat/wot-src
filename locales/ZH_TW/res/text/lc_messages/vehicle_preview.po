@@ -40,6 +40,9 @@ msgstr "研發"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "重新找回"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "前往大箱子"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "尚未研發%(nation)s %(level)s 階車輛"
 
@@ -54,6 +57,15 @@ msgstr "購買折扣："
 
 msgid "buyingPanel/customOffer/research"
 msgstr "研發折扣："
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "此車輛可能開出於{{@ style (color $color)}}大箱子{{/}}！"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "大箱子！"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "此車輛可能開出於"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "套用折扣：%(value)s"

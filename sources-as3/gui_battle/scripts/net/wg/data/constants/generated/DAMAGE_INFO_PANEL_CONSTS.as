@@ -83,10 +83,6 @@ package net.wg.data.constants.generated
       
       public static const HIDE_STEPS:int = 100;
       
-      public static const SHOW_RECON_FLIGHT:int = 2;
-      
-      public static const HIDE_RECON_FLIGHT:int = 21;
-      
       public function DAMAGE_INFO_PANEL_CONSTS()
       {
          super();

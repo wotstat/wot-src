@@ -59,23 +59,23 @@ class MarathonEventTooltipData(BlocksTooltipData):
             statusLabel = text_styles.bonusAppliedText(icons.makeImageTag(self.__iconsData.okIcon, width=32, height=32, vSpace=-10, hSpace=-10) + backport.text(self.__tooltipData.extraStateCompleted))
             return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
                b'message': statusLabel}), padding=formatters.packPadding(bottom=20))
-        if state == MarathonState.IN_PROGRESS:
-            warning = self._marathonEvent.checkForWarnings(vehicle)
-            if warning == MarathonWarning.WRONG_BATTLE_TYPE:
-                return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
-                   b'message': (text_styles.critical(backport.text(self.__tooltipData.errorBattleType)))}), padding=formatters.packPadding(bottom=20))
-            if warning == MarathonWarning.WRONG_VEH_TYPE:
-                return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
-                   b'message': (text_styles.critical(backport.text(self.__tooltipData.errorVehType)))}), padding=formatters.packPadding(bottom=20))
-            currentStep, allStep = self._marathonEvent.getMarathonProgress()
-            if allStep:
-                return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
-                   b'message': (text_styles.middleTitle(backport.text(self.__tooltipData.extraStateSteps, currentStep=currentStep, allStep=text_styles.main(allStep))))}), padding=formatters.packPadding(bottom=20))
         else:
+            if state == MarathonState.IN_PROGRESS:
+                warning = self._marathonEvent.checkForWarnings(vehicle)
+                if warning == MarathonWarning.WRONG_BATTLE_TYPE:
+                    return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
+                       b'message': (text_styles.critical(backport.text(self.__tooltipData.errorBattleType)))}), padding=formatters.packPadding(bottom=20))
+                if warning == MarathonWarning.WRONG_VEH_TYPE:
+                    return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
+                       b'message': (text_styles.critical(backport.text(self.__tooltipData.errorVehType)))}), padding=formatters.packPadding(bottom=20))
+                currentStep, allStep = self._marathonEvent.getMarathonProgress()
+                if allStep:
+                    return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
+                       b'message': (text_styles.middleTitle(backport.text(self.__tooltipData.extraStateSteps, currentStep=currentStep, allStep=text_styles.main(allStep))))}), padding=formatters.packPadding(bottom=20))
+                return None
             discount = self._marathonEvent.getMarathonDiscount()
             return formatters.packTextBlockData(text=makeHtmlString(b'html_templates:lobby/textStyle', b'alignText', {b'align': b'center', 
                b'message': (text_styles.statusAttention(backport.text(self.__tooltipData.extraStateDiscount, discount=discount)))}), padding=formatters.packPadding(bottom=20))
-        return
 
     def _getAttentionNotice(self):
         return formatters.packImageTextBlockData(title=text_styles.stats(backport.text(self.__tooltipData.expRateAttention)), img=self.__iconsData.attentionIcon, imgPadding=formatters.packPadding(left=24, top=3), txtPadding=formatters.packPadding(left=6), padding=formatters.packPadding(bottom=15))

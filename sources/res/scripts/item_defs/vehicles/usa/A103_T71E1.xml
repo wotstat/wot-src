@@ -6,7 +6,7 @@
 		<driver></driver>
 	</crew>
 	<supplySlots>3 1 1 6 6 6 7 8 8 8</supplySlots>
-	<postProgressionTree>role_LT_universal</postProgressionTree>
+	<postProgressionTree>role_LT_support</postProgressionTree>
 	<speedLimits>
 		<forward>64</forward>
 		<backward>23</backward>
@@ -3137,6 +3137,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<tiling>0.655 0.655 0.22 0.36</tiling>
 						<density>102.737 103.135</density>
@@ -3485,6 +3486,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<tiling>0.7 0.7 0.23 0.000000</tiling>
 						<density>102.839 103.155</density>

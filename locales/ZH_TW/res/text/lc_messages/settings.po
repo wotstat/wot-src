@@ -46,6 +46,15 @@ msgstr "開啟更細緻且逼真的方式來處理地圖上的物件破壞效果
 msgid "HAVOK_ENABLED/warning"
 msgstr "如果當前戰鬥已關閉了該設定，要到下一場戰鬥才會套用。"
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "增強視覺效果"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "開啟增強視覺效果。關閉此選項會還原為一般效果，可能會因此提升遊戲效能。"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "如果當前戰鬥已關閉了該設定，要到下一場戰鬥才會套用。"
+
 msgid "LANGUAGE_CODE"
 msgstr "zh_tw"
 
@@ -175,11 +184,11 @@ msgstr "開啟履帶與車輪痕跡"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "顯示地面上的履帶與車輪痕跡。\n\n不適用於「簡化」畫質設定與較低的花樣品質。"
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "狙擊模式下隱藏 3D 配飾"
+msgid "VISIBILITY_TUNNEL"
+msgstr "效果與 3D 配飾可見度"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "在狙擊模式下，炮管準星中的 3D 配飾將暫時隱藏。\n\n可減少視覺干擾並改善瞄準準度。"
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "調整螢幕中央附近的效果與 3D 配飾可見度，以降低瞄準時的視覺遮蔽。3D 配飾的可見度僅在狙擊模式下調整。\n\n較低的數值會讓效果與 3D 配飾較透明，以提升瞄準時的清晰度。"
 
 msgid "WATER_QUALITY"
 msgstr "水面品質"
@@ -1995,6 +2004,15 @@ msgstr "模式："
 
 msgid "screenMode/windowed"
 msgstr "視窗化"
+
+msgid "showPrebattleHighlights"
+msgstr "開啟焦點玩家"
+
+msgid "showPrebattleHighlights/description"
+msgstr "在戰鬥前倒數期間顯示精選的亮眼戰車。\n\n關閉這個參數可以提高遊戲的效能。"
+
+msgid "showPrebattleHighlights/warning"
+msgstr "若此設定在當前戰鬥下關閉，將於下一場戰鬥開啟。"
 
 msgid "smoothing/description"
 msgstr "決定遊戲場景中，遊戲物件的線條與輪廓額外處理程度。減少鋸齒效果。讓物件的輪廓看起來更為自然。"

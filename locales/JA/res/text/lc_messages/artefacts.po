@@ -880,6 +880,12 @@ msgstr "追加グローサー クラス3"
 msgid "gun_balancing_1/name"
 msgstr "新型照準補助装置 (タイプ1)"
 
+msgid "gun_balancing_2/name"
+msgstr "新型照準補助装置 (タイプ2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "砲身改良 (タイプ1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "新型サスペンション (タイプ1)"
 msgid "improved_suspension_2/name"
 msgstr "新型サスペンション (タイプ2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "改良型砲塔旋回装置 (タイプ1)"
+
 msgid "inspire/longDescr"
 msgstr "一定範囲内にいる味方チーム全車輌の搭乗員の能力を向上させる。自車輌には他の車輌よりも大きなボーナスが加算される。"
 
@@ -1294,6 +1303,9 @@ msgstr "機動性強化システム T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "機動性強化システム T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "砲口炎抑制装置 (タイプ1)"
+
 msgid "nitro/battleDescr"
 msgstr "一時的に自車輌のエンジン出力を%(enginePowerFactor)s、最大速度を%(maxSpeedFactor)s倍に向上させる。効果は%(consumeSeconds)s秒間持続する。"
 
@@ -1347,6 +1359,12 @@ msgstr "座標を指定して砲兵による集中射撃を行うことで半径
 
 msgid "poi_artillery_aoe/name"
 msgstr "アーティーストライク"
+
+msgid "poi_illumination_flare/descr"
+msgstr "短い遅延の後、「イルミネーションフレア」が指定エリアを照らす。効果範囲内の敵車輌は発見状態が維持され、受けるダメージが増加する。\n「観測センター」は数分後に再占領できる。"
+
+msgid "poi_illumination_flare/name"
+msgstr "イルミネーションフレア"
 
 msgid "poi_radar/descr"
 msgstr "{colorTagOpen}%(duration)d秒{colorTagClose}が経過するまで全敵車輌を発見状態にする。"
@@ -1879,29 +1897,77 @@ msgstr "軽量型車体構造"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "軽量型\n車体構造"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "反射防止用光学薄膜"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "無反射前照灯"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "反射防止用\n光学薄膜"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "無反射\n前照灯"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "外部拡張式観測装置"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "電子式潜望鏡"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "外部拡張式\n観測装置"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "電子式\n潜望鏡"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "パノラマ式観測装置"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "パノラマ式\n観測装置"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "パノラマ式観測装置"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "狭角型観測装置"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "狭角型\n観測装置"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "試作型照準ギア"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "試作型照準ギア"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "電子式潜望鏡"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "電子式\n潜望鏡"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "重量型試作車台"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "重量型\n試作車台"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "無反射前照灯"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "無反射\n前照灯"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "超高性能排煙装置"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "超高性能排煙装置"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "代替配線構造"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "代替\n配線構造"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "改良型ライフリング"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "改良型\nライフリング"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "高精密観測装置"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "高精密観測装置"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "耐衝撃車台構造"
@@ -2424,6 +2490,9 @@ msgstr "電磁エリア"
 
 msgid "thunderStrike/shortDescr"
 msgstr "電磁波を発生させることで効果範囲内に%(thunderCount)s回の放電を起こし、敵車輌に対して{whiteSpanish_Open}%(damage)sHPのダメージ{whiteSpanish_Close}を与えると同時に一時的に機動性を低下させる。\n\n*アビリティーの発動から最初の放電まで%(delay)s秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "torsion_bars_replace_1/name"
+msgstr "新型トーションバー (タイプ1)"
 
 msgid "trappoint/battleDescr"
 msgstr "%(duration)s秒の間、効果範囲内にいるすべての敵車輌の機動性を%(vehicleMaxSpeed)s低下させ、主砲の装填および照準時間を%(gunReloadTime)s延長させるエリアを展開する。"

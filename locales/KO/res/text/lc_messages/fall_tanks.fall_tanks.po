@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/name"
+msgstr "능력"
+
+msgid "arenaDescription/winText"
+msgstr "임무: 결승선에 도달하십시오!"
+
+msgid "battleLoading/description"
+msgstr "질주 능력과 방어막 능력을 활용해 상대를 제치십시오."
+
+msgid "battleLoading/header"
+msgstr "누구보다 먼저 결승선에 도달하는 레이스!"
+
+msgid "battleResults/battleStatus/finished"
+msgstr "완주"
+
+msgid "battleResults/battleStatus/inTop"
+msgstr "순위"
+
+msgid "battleResults/battleStatus/notFinished"
+msgstr "완주\n실패"
+
+msgid "battleResults/finishReason/finished"
+msgstr "결승선 도달"
+
+msgid "battleResults/finishReason/notFinished"
+msgstr "결승선 도달 실패"
+
+msgid "battleResults/footerSubtitle/finished"
+msgstr "잘하셨습니다!"
+
+msgid "battleResults/footerSubtitle/notFinished"
+msgstr "다음을 기약하시죠!"
+
+msgid "battleResults/footerSubtitle/top"
+msgstr "3위 안에 들었습니다!"
+
+msgid "battleWidget/checkpoint"
+msgstr "체크포인트"
+
+msgid "battleWidget/enemyPosition"
+msgstr "적 순위"
+
+msgid "battleWidget/notFinished"
+msgstr "완주\n실패"
+
+msgid "battleWidget/place"
+msgstr "순위"
+
+msgid "battleWidget/position"
+msgstr "순위"
+
+msgid "battleWidget/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "buttonHint/evacuation/description"
+msgstr "길게 누르면 최근 체크포인트로 복귀"
+
+msgid "buttonHint/evacuation/noBindingKey"
+msgstr "순간 이동 키 미지정"
+
+msgid "buttonHint/evacuation/press"
+msgstr "단축키"
+
+msgid "efficiencyRibbons/fallTanksKill"
+msgstr "분해"
+
+msgid "evacuationAbilityTooltip/description"
+msgstr "갇혔을 때 해당 기능을 사용하여 마지막으로 도달한 체크포인트로 순간 이동할 수 있습니다."
+
+msgid "evacuationAbilityTooltip/name"
+msgstr "체크포인트로 복귀"
+
+msgid "serviceChannelMessages/battleResults/finishTime"
+msgstr "시간"
+
+msgid "serviceChannelMessages/battleResults/finished"
+msgstr "%(playerPlace)s위"
+
+msgid "serviceChannelMessages/battleResults/notFinished"
+msgstr "완주 실패"
+
+msgid "shellTooltip/caliber"
+msgstr "구경: %(caliber)smm"
+
+msgid "shellTooltip/description"
+msgstr "착탄 시 피해를 입히는 대신 강력한 충격을 발생시킵니다. 주포 구경이 클수록 더 큰 규모의 충격이 발생합니다."
+
+msgid "shellTooltip/header"
+msgstr "충격탄"
+
+msgid "statusNotificationTimer/evacuation"
+msgstr "체크포인트로 순간 이동 중..."

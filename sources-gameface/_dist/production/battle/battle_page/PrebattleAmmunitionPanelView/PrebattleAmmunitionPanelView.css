@@ -2225,7 +2225,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
     align-items: center;
     flex: 1;
     height: 100%;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
 }
 .ShellsSlot_shell__grabbing_e879a,
     .ShellsSlot_shell__active_ffe49:hover {
@@ -2233,7 +2233,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
         z-index: 1;
     }
 .ShellsSlot_shell__potential_e6c04 {
-        opacity: .5;
+        opacity: 0.5;
     }
 .ShellsSlot_label_efa7c {
     text-align: center;
@@ -2258,6 +2258,15 @@ This bug is reproduced in Google Chrome 81.0.4044.113
     position: absolute;
     bottom: -1rem;
     left: 10rem;
+    pointer-events: none;
+}
+.ShellsSlot_mechanic_feea2 {
+    width: 16rem;
+    height: 16rem;
+    background: center / contain no-repeat;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
     pointer-events: none;
 }
 
@@ -2288,6 +2297,16 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .ToggleSlot_slot__active_a0100:hover .ToggleSlot_image_ec825 {
         filter: brightness(1.5);
     }
+.ToggleSlot_mechanic_e120c {
+    width: 20rem;
+    height: 20rem;
+    background: center / contain no-repeat;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+}
 .ToggleSlot_glow_abae3 {
     width: 80rem;
     height: 120rem;

@@ -382,11 +382,56 @@ msgstr "주간 임무는 매주 부여되는 임무 세트입니다. 전투가 �
 msgid "info_page/main/weekly/title"
 msgstr "주간 임무"
 
+msgid "pm/missionState/active"
+msgstr "활성화"
+
+msgid "pm/missionState/complete"
+msgstr "임무 완료"
+
+msgid "pm/missionState/improve"
+msgstr "결과 향상"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "전차 변경"
+
+msgid "pm/no_missions"
+msgstr "선택한 전차에 활성화된 임무 없음"
+
+msgid "pm/tier"
+msgstr "적합하지 않은 단계"
+
+msgid "pm/unavailable"
+msgstr "일시적으로 임무 이용 불가"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "선택한 전차에 활성화된 임무가 없습니다. 다른 전차를 선택해 주십시오."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "해당 임무는 현재 기술적인 문제로 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "선택한 전차의 단계가 활성화된 작전의 단계 조건을 충족하지 않습니다. 다른 전차를 선택해 주십시오."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "활성화된 임무 없음"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "일시적으로 이용 불가"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "적합하지 않은 단계"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "금일 모든 정기 임무 완료"
 
 msgid "quests/daily_quests/completed"
 msgstr "모든 일일 임무 완료"
+
+msgid "slider/title/missions"
+msgstr "정기 임무"
+
+msgid "slider/title/personalMissions"
+msgstr "개인 임무"
 
 msgid "tooltip/common/timer"
 msgstr "활성화까지 {{timeLeft}}"

@@ -298,8 +298,26 @@ msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Boost công suất động c
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Tăng số lần dùng Thruster tối đa trong một trận thêm {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown ban đầu trước khi IRST có thể sử dụng."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi IRST có thể sử dụng lại."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} xe của bạn bị lộ trước địch sau khi phát hiện chúng bằng IRST."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Kéo dài thời gian quét IRST thêm {colorTagOpen}{value0} s{colorTagClose} và đồng thời thu hẹp vùng quét đi {colorTagOpen}{value1} độ{colorTagClose}, tăng tầm quan sát thêm {colorTagOpen}{value2}%{colorTagClose}, giảm ẩn giấu của xe đang di chuyển đi {colorTagOpen}{value3}%{colorTagClose} và che khuất bởi tán lá đi {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Giảm xác suất chấn thương thành viên kíp lái khi xe chịu thiệt hại."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} độ xuyên sau một phát không xuyên"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} sát thương sau một phát xuyên"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Giảm phân tán khi súng bị hư hại."
@@ -460,6 +478,18 @@ msgstr "Giảm thời gian giãn cách trong băng (nạp giữa các viên)."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Giảm khả năng bị địch phát hiện khi khai hỏa."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian hồi sạc khi băng chưa đầy."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian hồi sạc khi đầy băng."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Giảm thêm {colorTagOpen}{value} s{colorTagClose} thời gian nạp được tăng tốc."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Tăng số sạc có sẵn đầu trận {colorTagOpen}thêm {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian trễ làm mát súng."
 
@@ -468,6 +498,18 @@ msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} lượng nhiệt mà súng 
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ nguội súng bị nóng."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian nạp của Tên lửa không điều khiển đồng trục."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian nạp của Tên lửa không điều khiển đồng trục."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian nạp của Tên lửa không điều khiển đồng trục."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Tăng sát thương tên lửa thêm {colorTagOpen}{value} HP{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Tăng sát thương gây ra bởi đạn khác HE."
@@ -547,6 +589,18 @@ msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} phân tán của súng tron
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian tái nạp súng trong cơ chế Lô-cốt."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Tăng tốc độ tiến tối đa trong chế độ EAF thêm {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Tăng sát thương do đạn đặc biệt gây ra trong chế độ EAF thêm {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Tăng sát thương do đạn thường gây ra ở chế độ EAF thêm {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Giảm thời gian nạp súng ở chế độ EAF đi {colorTagOpen}{value}%{colorTagClose} (trừ HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Tăng HP thùng nhiên liệu và các mô-đun động cơ của xe."
 
@@ -555,6 +609,9 @@ msgstr "Giảm khoản phạt khi gác đạn và động cơ bị hư hại."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Tăng sát thương mà đạn của bạn gây ra cho mô-đun xe địch."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Giảm thời gian chuyển đổi giữa các chế độ bắn đi {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Cho phép bạn cấu hình một Loadout dự phòng về đạn và vật phẩm."
@@ -742,6 +799,18 @@ msgstr "Optimization Hình Lõi"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Bộ trữ Booster Expanded"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modified Simmer Ignitor"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "High-Performance Liquid Cooling"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Low-Divergence Optics"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Concurrent Liquid Cooling"
+
 msgid "tooltips/title/chassisHP"
 msgstr "HP hệ giảm xóc"
 
@@ -750,6 +819,12 @@ msgstr "Tốc độ Sửa hệ giảm xóc"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Bảo vệ Kíp lái"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Adjustable Fuze Setter: Penetration"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Adjustable Fuze Setter: Damage"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Phân tán Súng tình huống"
@@ -928,6 +1003,18 @@ msgstr "Thời gian Giãn cách Trong băng"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Ẩn giấu Sau bắn"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "High-Purity Rotor Winding"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Active Rotor Cooling"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "High-Conductivity Stator Housing"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Orthocyclic Winding"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Chất lưu Heat Transfer Low-Temp"
 
@@ -936,6 +1023,18 @@ msgstr "Vỏ tản Thermal High-Conductivity"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Tối ưu hóa Heat Pipe"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Loading Cycle Optimization"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Loading Cycle Optimization"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Loading Cycle Optimization"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Improved Warhead Layout"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Sát thương Đạn khác HE"
@@ -1018,6 +1117,18 @@ msgstr "Rotor cân bằng Precision"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Rammer thủy lực Driven"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Improved Suspension Dampers"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modified Special Unitary Rounds"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modified Standard Unitary Rounds"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimized EAF Loading Cycle"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Boost HP mô-đun Selective"
 
@@ -1026,6 +1137,9 @@ msgstr "Protection mô-đun Selective"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Sát thương mô-đun của đạn"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimized Recalibration"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Loadout Đạn và Vật phẩm"

@@ -34,13 +34,15 @@ if TYPE_CHECKING:
 _logger = logging.getLogger(__name__)
 VEH_COMP_R_ID = R.views.lobby.awards.tooltips.RewardCompensationTooltip()
 _LOOTBOX_BONUS_NAME = b'lootBox'
+_EXTRA_BONUSES_NAMES = (b'slots',)
+_MAIN_REWARD_COUNT_RARE_OR_EPIC = 3
+_MAIN_REWARD_COUNT = 4
 
-def getLootBoxesBonusPacker(eventName):
-    mapping = getDefaultBonusPackersMap()
+def getLootBoxesBonusPackerMap():
     simplePacker = LootBoxSimpleBonusUIPacker()
     blueprintPacker = LootBoxBlueprintBonusUIPacker()
     specialRandomPacker = LootBoxSpecialRandomBonusUIPacker()
-    lootBoxPackersMap = {b'battleToken': LootBoxTokenBonusUIPacker, 
+    return {b'battleToken': LootBoxTokenBonusUIPacker, 
        b'blueprints': blueprintPacker, 
        b'blueprintsAny': blueprintPacker, 
        b'crewBooks': (LootBoxCrewBookBonusUIPacker()), 
@@ -67,6 +69,11 @@ def getLootBoxesBonusPacker(eventName):
        LOOTBOX_RANDOM_NATIONAL_CREW_BOOK: specialRandomPacker, 
        _LOOTBOX_BONUS_NAME: (LootBoxesLootBoxBonusUIPacker()), 
        LOOTBOX_COMPENSATION_BONUS: (LootBoxCompensationPacker())}
+
+
+def getLootBoxesBonusPacker(eventName):
+    mapping = getDefaultBonusPackersMap()
+    lootBoxPackersMap = getLootBoxesBonusPackerMap()
     for packer in lootBoxPackersMap.itervalues():
         packer.init(eventName)
 
@@ -197,6 +204,24 @@ def processCompensationsWithLootbox(bonuses, eventName, showLootboxCompensation)
         return AwardsManager.sortBonuses(eventName, finalBonuses)
 
 
+def splitBonusesToExtra(bonuses, eventName):
+    extraBonuses = []
+    regularBonuses = []
+    for bonus in bonuses:
+        if bonus.getName() in _EXTRA_BONUSES_NAMES:
+            extraBonuses.append(bonus)
+        else:
+            regularBonuses.append(bonus)
+
+    sortedBonuses = AwardsManager.sortBonuses(eventName, regularBonuses)
+    hasRareOrEpic = any(AwardsManager.getRarity(eventName, bonus) in (BonusRarity.RARE, BonusRarity.EPIC) for bonus in sortedBonuses)
+    splitIndex = _MAIN_REWARD_COUNT_RARE_OR_EPIC if hasRareOrEpic else _MAIN_REWARD_COUNT
+    mainRewards = sortedBonuses[-splitIndex:]
+    additionalRewards = AwardsManager.sortBonuses(eventName, sortedBonuses[:-splitIndex] + extraBonuses)
+    return (
+     mainRewards, additionalRewards)
+
+
 def _getBonusCount(bonusModel):
     bonusName = bonusModel.getName()
     if bonusName in Currency.ALL or bonusName in (
@@ -216,7 +241,7 @@ def _getVehicleUIData(vehicle):
        b'vehicleLvlNum': (vehicle.level)}
 
 
-def _getPreparedBonusModel(bonus, eventName):
+def getPreparedBonusModel(bonus, eventName):
     model = BonusModel()
     model.setName(bonus.getName())
     model.setIsCompensation(bonus.isCompensation())
@@ -240,7 +265,7 @@ class LootBoxSimpleBonusUIPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setValue(str(bonus.getValue()))
         model.setIcon(bonus.getName())
         model.setLabel(label)
@@ -269,7 +294,7 @@ class LootBoxSpecialRandomBonusUIPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(bonus.getCount())
         model.setIcon(bonus.getIconName())
         model.setLabel(label)
@@ -297,7 +322,7 @@ class LootBoxSlotsBonusUIPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(bonus.getCount())
         model.setIcon(bonus.getName())
         model.setLabel(backport.text(R.strings.tooltips.awardItem.slots.header()))
@@ -332,7 +357,7 @@ class LootBoxTmanTemplateBonusUIPacker(SimpleBonusUIPacker):
         if recruit is None:
             return
         else:
-            model = _getPreparedBonusModel(bonus, cls.__eventName)
+            model = getPreparedBonusModel(bonus, cls.__eventName)
             model.setCount(count)
             model.setIcon(cls.__getBonusImageName(recruit))
             model.setLabel(recruit.getFullUserName())
@@ -388,7 +413,7 @@ class LootBoxCustomizationsBonusUIPacker(BaseBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, item, data):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         custItem = bonus.getC11nItem(item)
         itemName = custItem.itemTypeName
         description = custItem.userType
@@ -468,7 +493,7 @@ class LootBoxGoodiesBonusUIPacker(GoodiesBonusUIPacker):
 
     @classmethod
     def _packIconBonusModel(cls, bonus, icon, count, label, description=b''):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(count)
         model.setIcon(icon)
         model.setLabel(label)
@@ -524,7 +549,7 @@ class LootBoxBlueprintBonusUIPacker(BlueprintBonusUIPacker):
 
     @classmethod
     def _pack(cls, bonus):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         label = bonus.getBlueprintTooltipName()
         blueprintName = bonus.getBlueprintName()
         if blueprintName == BlueprintsBonusSubtypes.NATION_FRAGMENT:
@@ -554,7 +579,7 @@ class LootBoxItemBonusUIPacker(ItemBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, item, count):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(count)
         icon, overlay = (item.name, b'') if item.itemTypeID == GUI_ITEM_TYPE.BATTLE_BOOSTER else (
          item.getGUIEmblemID(), item.getOverlayType())
@@ -578,7 +603,7 @@ class LootBoxCrewBookBonusUIPacker(CrewBookBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, book, count):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(count)
         model.setLabel(book.userName)
         model.setIcon(book.getBonusIconName())
@@ -595,7 +620,7 @@ class LootBoxCrewSkinBonusUIPacker(CrewSkinBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, crewSkin, count, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setCount(count)
         model.setIcon(str(crewSkin.itemTypeName + str(crewSkin.getRarity())))
         model.setLabel(label)
@@ -618,7 +643,7 @@ class LootBoxesLootBoxBonusUIPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         box = bonus.getBox()
         model.setId(bonus.lootBoxID)
         model.setIcon(box.getCategory() if box else bonus.getName())
@@ -642,7 +667,7 @@ class LootBoxTokenBonusUIPacker(TokenBonusUIPacker):
 
     @classmethod
     def _packToken(cls, bonusPacker, bonus, *args):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         return bonusPacker(model, bonus, *args)
 
     @classmethod
@@ -687,7 +712,7 @@ class LootBoxPremiumBonusUIPacker(BaseBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         icon = b'premium_plus_universal'
         days = bonus.getValue()
         if days in cls._ICONS_AVAILABLE:
@@ -714,7 +739,7 @@ class LootBoxVehiclesBonusUIPacker(VehiclesBonusUIPacker):
 
     @classmethod
     def _packVehicleBonusModel(cls, bonus, vehInfo, isRent, vehicle):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         styleID = vehInfo.get(b'customization', {}).get(b'styleId')
         if styleID is not None and vehicle.isOutfitLocked:
             model.setStyleID(styleID)
@@ -831,7 +856,7 @@ class LootBoxCurrenciesBonusUIPacker(CurrenciesBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setName(bonus.getCode())
         model.setValue(str(bonus.getValue()))
         model.setIcon(bonus.getCode())
@@ -855,7 +880,7 @@ class LootBoxBPCoinBonusUIPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setValue(str(bonus.getValue()))
         model.setIcon(bonus.getName())
         model.setLabel(backport.text(R.strings.lootbox_system.bonuses.label.bpcoin()))
@@ -882,7 +907,7 @@ class LootBoxCompensationPacker(SimpleBonusUIPacker):
 
     @classmethod
     def _packSingleBonus(cls, bonus, label):
-        model = _getPreparedBonusModel(bonus, cls.__eventName)
+        model = getPreparedBonusModel(bonus, cls.__eventName)
         model.setIcon(cls.__VEHICLE_BONUS_NAME)
         model.setLabel(b'')
         model.compensation.setName(_LOOTBOX_BONUS_NAME)

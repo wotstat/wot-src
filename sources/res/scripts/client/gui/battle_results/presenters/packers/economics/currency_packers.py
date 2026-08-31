@@ -140,7 +140,7 @@ class DetailedCurrencyPacker(ICurrencyPacker):
         if recordsExtractors is None or recordsConfigsExtractor is None:
             raise SoftException(b'Invalid currency data')
         records = [extractor(battleResults.reusable) for extractor in recordsExtractors]
-        cls._packGroup(model.getEarned(), records, battleResults, recordsConfigsExtractor, cls._EARNED)
+        cls._packGroup(model.getEarned(), records, battleResults, recordsConfigsExtractor, cls._getEarnedConfig())
         cls._packGroup(model.getExpenses(), records, battleResults, recordsConfigsExtractor, cls._EXPENSES)
         cls._packGroup(model.getTotal(), records, battleResults, recordsConfigsExtractor, cls._TOTAL)
         return
@@ -149,6 +149,10 @@ class DetailedCurrencyPacker(ICurrencyPacker):
     def _getExtractors(cls, battleResults):
         raise NotImplementedError
         return
+
+    @classmethod
+    def _getEarnedConfig(cls):
+        return cls._EARNED
 
     @classmethod
     def _packGroup(cls, model, records, battleResults, recordsConfigsExtractor, sourceConfig):

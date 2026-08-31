@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Chúng tôi đã mở tất cả các hộp Chiến dịch Tết của bạn."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Xin chúc mừng!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Bạn có thể mua các Hộp Lớn trong Shop Premium"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Hộp Lớn"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Hộp Nhỏ"
-
-msgid "entryDesc/questSlot"
-msgstr "Bạn đã nhận được các Hộp Nhỏ khi hoàn thành nhiệm vụ."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Tính năng này tạm thời không khả dụng. Vui lòng thử lại sau."
 
 msgid "entryPoint/header"
-msgstr "Hộp"
-
-msgid "entryTooltip/body/h1"
-msgstr "Mua Hộp Lớn:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Lấy Hộp Nhỏ:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Mua các hộp chứa đồ trang trí Năm Mới cho chính mình hoặc bạn bè từ Shop Premium."
-
-msgid "entryTooltip/body/p2"
-msgstr "Được trao tặng khi hoàn thành các nhiệm vụ Chiến dịch Tết."
-
-msgid "entryTooltip/header"
 msgstr "Hộp"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} hộp nữa"
 msgid "entryView/buyLabel"
 msgstr "MUA HỘP"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Bạn không có Hộp Lớn nào trong Kho.\nMua thêm từ Shop Premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Bạn không có Hộp Nhỏ nào.\nLấy thêm chúng từ các trận đánh."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Chiến dịch Tết {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Rõ!"
@@ -178,9 +139,6 @@ msgstr "Mở Hộp Tiếp tế"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Đã thêm"
 
-msgid "notification/ny19man"
-msgstr "Một thành viên kíp lái độc đáo: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Bạn đã nhận được các phần thưởng sau:"
 
@@ -244,36 +202,6 @@ msgstr "Một Kiểu mẫu Độc đáo cho"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Xem trong Ga-ra"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Hộp Giáng Sinh"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Hộp Kỳ diệu"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Hộp Năm Mới"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Hộp Âm lịch"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Bộ Sưu tập Giáng Sinh"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Bộ Sưu tập Kỳ diệu"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Bộ Sưu tập Năm Mới"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Bộ Sưu tập Âm lịch"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Các hộp chứa đồ trang trí từ {category} và những phần thưởng giá trị khác."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Phần thưởng:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Mua thêm hộp từ Shop Premium."
 
@@ -285,12 +213,6 @@ msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
 
 msgid "type/event_premium"
 msgstr "Hộp Cung ứng Sáng"
-
-msgid "type/newYear_premium"
-msgstr "HỘP LỚN"
-
-msgid "type/newYear_usual"
-msgstr "HỘP NHỎ"
 
 msgid "type/wt_boss"
 msgstr "Chìa Khởi động của Kỹ sư"

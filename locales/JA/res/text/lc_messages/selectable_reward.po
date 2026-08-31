@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "了解！"
 
 msgid "error/description"
-msgstr "一時的に情報を取得できません。時間をおいて再度お試しください。ご不便をお掛けして申し訳ありません。"
+msgstr "ご不便をおかけして申し訳ございません。後ほど再度お試しください。"
 
 msgid "error/title"
-msgstr "報酬選択不可"
+msgstr "このページは一時的に利用できません"
 
 msgid "footer/closeBtn/label"
 msgstr "あとで選択"
@@ -23,7 +23,7 @@ msgstr[1] "受け取る報酬を選択する必要があります。"
 msgstr[2] "受け取る報酬を選択する必要があります。"
 
 msgid "footer/okBtn/label"
-msgstr "入手"
+msgstr "報酬を入手"
 
 msgid "footer/rewardsSelected"
 msgstr "選択した報酬"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "入手済み"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "こちらのカテゴリーでの上限に到達しています。未選択の報酬を選択するには選択済みの報酬をキャンセルする必要があります。"
+msgstr "このカテゴリーで選択できるアイテムは上限に達しています。別のアイテムを選択するには、いずれかのアイテムの選択を解除してください。"
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "上限に到達済み"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "拡張パーツ用\nディレクティブ"
@@ -93,6 +93,9 @@ msgstr "通常拡張パーツ"
 
 msgid "tabs/items/trophy"
 msgstr "報酬拡張パーツ"
+
+msgid "tooltips/footer/body"
+msgstr "報酬を選択して入手"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "選択した報酬を受け取るには「入手」ボタンをクリックする必要があります。"

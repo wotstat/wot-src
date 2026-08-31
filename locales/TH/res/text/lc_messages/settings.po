@@ -46,6 +46,15 @@ msgstr "เปิดใช้งานรูปปแบบการทำลา
 msgid "HAVOK_ENABLED/warning"
 msgstr "การตั้งค่าจะถูกใช้ในการรบครั้งต่อไป ถ้าหากถูกปิดไว้อยู่ในการรบปัจจุบัน"
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "เอฟเฟคภาพขั้นสูง"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "เปิดใช้เอฟเฟคภาพขั้นสูง การปิดตัวเลือกนี้จะกลับมาใช้เอฟเฟคปกติที่อาจจะทำให้สมรรถนะเกมดีขึ้น"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "การตั้งค่าจะถูกใช้ในการรบครั้งต่อไป ถ้าหากถูกปิดไว้อยู่ในการรบปัจจุบัน"
+
 msgid "LANGUAGE_CODE"
 msgstr "th"
 
@@ -175,11 +184,11 @@ msgstr "เปิดการแสดงรอยตีนตะขาบแล
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "แสดงรอยตีนตะขาบและรอยล้อบนพื้นดิน\n\nไม่มีให้ในการแสดงกราฟฟิคแบบง่ายและคุณภาพลวดลายต่ำ"
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "ซ่อนชุดติดตั้งสามมิติในการเล็งประณีต"
+msgid "VISIBILITY_TUNNEL"
+msgstr "การเห็นเอฟเฟคและชุดติดตั้งสามมิติ"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "ซ่อนชุดติดตั้งสามมิติพาหนะจากศูนย์เล็งปืนในการเล็งประณีตเป็นการชั่วคราว\n\nลดภาพรบกวนและเพิ่มความแม่นยำในการเล็ง"
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "ปรับเอฟเฟคการมองเห็นและชุดติดตั้งสามมิติใกล้กับกลางหน้าจอเพื่อลดภาพขวางทางระหว่างทำการเล็ง การเห็นชุดติดตั้งสามมิตินั้นถูกปรับในรูปแบบการเล็งประณีตเท่านั้น\n\nค่าที่ต่ำลงทำให้เอฟเฟคและชุดติดตั้งสามมิติโปร่งใสมากขึ้นเพื่อให้เล็งได้อย่างชัดเจนขึ้น"
 
 msgid "WATER_QUALITY"
 msgstr "รายละเอียดของน้ำ"
@@ -1995,6 +2004,15 @@ msgstr "รูปแบบ:"
 
 msgid "screenMode/windowed"
 msgstr "แบบหน้าต่าง"
+
+msgid "showPrebattleHighlights"
+msgstr "เปิดใช้ไฟส่อง"
+
+msgid "showPrebattleHighlights/description"
+msgstr "แสดงตัวเลือกรถถังที่ดูโดดเด่นในช่วงนับถอยหลังก่อนทำการรบ\n\nการปิดค่านี้สามารถเพิ่มสมรรถนะของเกมได้"
+
+msgid "showPrebattleHighlights/warning"
+msgstr "ถ้าการตั้งค่าถูกปิดสำหรับการรบปัจจุบัน มันก็จะทำการเปิดไว้สำหรับการรบต่อไป"
 
 msgid "smoothing/description"
 msgstr "เลือกระดับของการประมวลผลเพิ่มเติมของเส้นบางและเส้นขอบของวัตถุในฉากในเกม ลดเอฟเฟคของรอยหยัก เส้นขอบของวัตถุจะดูเป็นธรรมชาติขึ้น"

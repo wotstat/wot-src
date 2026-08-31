@@ -139,15 +139,6 @@ msgstr "월드 오브 탱크의 발전에 대한 공헌을 기념하여 수여"
 msgid "15YearsOfService_descr"
 msgstr "처음 플레이한 날: %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP 리저브 업적 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• 진행 완료 시 지급"
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "특정 업적 달성 시 지급"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP 리저브 업적 2"
 
@@ -429,6 +420,15 @@ msgstr "• 3개 챕터 모두 완료 시 지급"
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "배틀 패스 시즌 20 기간에 특정 업적 달성 시 지급"
+
+msgid "BattlePassCommonPr_21"
+msgstr "저지대 교전"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• 3개 챕터 모두 완료 시 지급"
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "배틀 패스 시즌 21 기간에 특정 업적 달성 시 지급"
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• 주요 진행은 45개 스테이지로 구성"
@@ -1828,6 +1828,48 @@ msgstr "실버 드래곤"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "격전 모드 드래곤의 해에 격전 색상 9개 이상 수집 시 지급"
 
+msgid "comp7_6_1"
+msgstr "하늘색 불꽃"
+
+msgid "comp7_6_1_descr"
+msgstr "격전 모드 하늘색 피닉스 시즌에 연속 임무 완료 시 지급"
+
+msgid "comp7_6_yearly_bronze"
+msgstr "브론즈 피닉스"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 6개 이상 수집 시 지급"
+
+msgid "comp7_6_yearly_champion"
+msgstr "피닉스의 해 챔피언"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 15개 이상 수집 시 지급"
+
+msgid "comp7_6_yearly_gold"
+msgstr "골드 피닉스"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 12개 이상 수집 시 지급"
+
+msgid "comp7_6_yearly_iron"
+msgstr "아이언 피닉스"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 3개 이상 수집 시 지급"
+
+msgid "comp7_6_yearly_legend"
+msgstr "피닉스의 해 레전드"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 18개 이상 수집 시 지급"
+
+msgid "comp7_6_yearly_silver"
+msgstr "실버 피닉스"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "격전 모드 피닉스의 해에 격전 색상 9개 이상 수집 시 지급"
+
 msgid "conqueror"
 msgstr "약탈자 %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• 무작위 전투에서만 획득 가능"
 
 msgid "huntsman_descr"
-msgstr "한 전투에서 적 경전차를 모두 격파(최소 3대)"
+msgstr "한 전투에서 적 경전차를 모두 격파(최소 2대)"
 
 msgid "huntsman_heroInfo"
 msgstr "하사관 그리고리 나야딘은 BT-7의 전차장이었다. 1941년 6월 25일 루디쉬크야호의 리투아니아인 마을 근처에서 그는 제 19 기계화군단 소속 15대의 전차와 10대의 포를 포함한 독일군 장갑 차량을 격파했다. 나야딘은 이틀 동안 독일군의 진격을 막아내면서, 빌니우스 주변 방어를 조직할 수 있도록 하였다. 이러한 작전으로 나야딘은 소련의 영웅이 되었다."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "연맹 개인 임무 15개를 우수 등급으로 완료 - 뛰어난 성과: 연맹 3급"
 
 msgid "readyForBattleAssault"
-msgstr "뛰어난 성과: 선봉"
+msgstr "뛰어난 성과: 제3 섹터 선봉"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "제3 섹터 캠페인 선봉 임무 모두 완료"
+msgstr "제3 섹터 캠페인 주요 작전 선봉 임무 모두 완료"
+
+msgid "readyForBattleFossaAssault"
+msgstr "뛰어난 성과: Fossa 선봉"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "제3 섹터 캠페인 Fossa 작전 선봉 임무 모두 완료"
+
+msgid "readyForBattleFossaSniper"
+msgstr "뛰어난 성과: Fossa 매복"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "제3 섹터 캠페인 Fossa 작전 매복 임무 모두 완료"
+
+msgid "readyForBattleFossaSupport"
+msgstr "뛰어난 성과: Fossa 지원"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "제3 섹터 캠페인 Fossa 작전 지원 임무 모두 완료"
 
 msgid "readyForBattleHT"
 msgstr "뛰어난 성과: 중전차"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "자주포 개인 임무 15개를 우수 등급으로 완료 - 뛰어난 성과: 자주포 4급"
 
 msgid "readyForBattleSniper"
-msgstr "뛰어난 성과: 매복"
+msgstr "뛰어난 성과: 제3 섹터 매복"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "제3 섹터 캠페인 매복 임무 모두 완료"
+msgstr "제3 섹터 캠페인 주요 작전 매복 임무 모두 완료"
 
 msgid "readyForBattleSupport"
-msgstr "뛰어난 성과: 지원"
+msgstr "뛰어난 성과: 제3 섹터 지원"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "제3 섹터 캠페인 지원 임무 모두 완료"
+msgstr "제3 섹터 캠페인 주요 작전 지원 임무 모두 완료"
 
 msgid "reliableComrade"
 msgstr "기사도"
@@ -4692,6 +4761,15 @@ msgstr "Waffenträger: 패러독스 이벤트 진행 완료 시 지급, Von Krie
 
 msgid "wt2025progression_descr"
 msgstr "Waffenträger 모드 진행 완료"
+
+msgid "wt2026progression"
+msgstr "폭풍기수"
+
+msgid "wt2026progression_condition"
+msgstr "2026 Waffenträger: 창세기 이벤트 진행 완료 시 지급, Von Krieger의 첫 번째 피조물인 전기 지성체에 맞서 우리 세계에 침투하는 모든 회로를 차단하여 쟁취한 영광을 나타내는 업적"
+
+msgid "wt2026progression_descr"
+msgstr "2026 Waffenträger: 창세기 이벤트 진행 완료"
 
 msgid "wtBossWins"
 msgstr "번개 마스터"

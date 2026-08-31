@@ -14,10 +14,15 @@ class ILifeCycleComponent(object):
 
 
 class IComponentLifeCycleEventsLogic(object):
+    onComponentAvatarReady = None
     onComponentParamsCollected = None
     onComponentAppearanceReady = None
     onComponentAppearanceReset = None
     onComponentDestroyed = None
+
+    def processComponentAvatarReady(self):
+        raise NotImplementedError
+        return
 
     def processAppearanceReady(self):
         raise NotImplementedError
@@ -37,6 +42,9 @@ class IComponentLifeCycleEvents(IClientEventsContainer, IComponentLifeCycleEvent
 
 
 class IComponentLifeCycleListenerLogic(object):
+
+    def onComponentAvatarReady(self, component):
+        return
 
     def onComponentParamsCollected(self, params):
         return

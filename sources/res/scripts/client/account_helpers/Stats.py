@@ -1,6 +1,6 @@
 import cPickle, logging
 from functools import partial, wraps
-import AccountCommands, constants, items, personal_missions
+import typing, AccountCommands, constants, items, personal_missions
 from account_helpers.premium_info import PremiumInfo
 from debug_utils import LOG_DEBUG_DEV, LOG_WARNING, LOG_ERROR
 from helpers import time_utils, dependency
@@ -393,44 +393,23 @@ class Stats(object):
         self.__account._doCmdInt2(AccountCommands.CMD_ADD_BATTLE_PASS_POINTS, vehTypeCD, points, proxy)
         return
 
+    @_checkIfNonPlayer()
     def completePersonalMission(self, questID, withAdditional=False, callback=None):
-        if self.__ignore:
-            if callback is not None:
-                callback(AccountCommands.RES_NON_PLAYER)
-            return
-        pmCache = personal_missions.g_cache
-        if not self._eventsCache.getPersonalMissions().isCampaignActive(pmCache.branchByMissionID(questID)):
-            _logger.error(b'No active campaign for personal mission with id: %s', questID)
-            return
-        else:
-            if callback is not None:
-                proxy = lambda requestID, resultID, errorStr, ext={}: callback(resultID)
-            else:
-                proxy = None
-            self.__account._doCmdIntArr(AccountCommands.CMD_COMPLETE_PERSONAL_MISSION, [questID, int(withAdditional)], proxy)
-            return
+        self.__completePersonalMissionQuests([questID], withAdditional, callback)
+        return
 
-    def completePersonalMissionRange(self, missionIdRange, withAdditional=False, callback=None):
-        missionsId = missionIdRange.split(b'-')
-        if len(missionsId) == 2:
-            if self.__ignore:
-                if callback is not None:
-                    callback(AccountCommands.RES_NON_PLAYER)
-                return
-            if callback is not None:
-                proxy = lambda requestID, resultID, errorStr, ext={}: callback(resultID)
-            else:
-                proxy = None
-            pmCache = personal_missions.g_cache
-            startMissionRange = int(missionsId[0])
-            endMissionRange = int(missionsId[1]) + 1
-            for missionID in range(startMissionRange, endMissionRange):
-                if not self._eventsCache.getPersonalMissions().isCampaignActive(pmCache.branchByMissionID(missionID)):
-                    _logger.error(b'No active campaign for personal mission with id: %s', missionID)
-                    continue
-                self.__account._doCmdIntArr(AccountCommands.CMD_COMPLETE_PERSONAL_MISSION, [
-                 missionID, int(withAdditional)], proxy)
-
+    @_checkIfNonPlayer()
+    def completePersonalMissionRange(self, questIDRange, withAdditional=False, callback=None):
+        questIDs = questIDRange.split(b'-')
+        if len(questIDs) != 2:
+            _logger.error(b'Quest IDs range should be string in format int-int: %s', questIDRange)
+            return
+        startQuestID = int(questIDs[0])
+        endQuestID = int(questIDs[1])
+        if startQuestID > endQuestID:
+            _logger.error(b'Incorrect quest IDs range: %s', questIDRange)
+            return
+        self.__completePersonalMissionQuests(range(startQuestID, endQuestID + 1), withAdditional, callback)
         return
 
     def completeQuests(self, questIDs, callback=None):
@@ -733,4 +712,15 @@ class Stats(object):
         else:
             proxy = None
         self.__account._doCmdInt3(AccountCommands.CMD_BUY_BERTHS, shopRev, countPacksBerths, 0, proxy)
+        return
+
+    def __completePersonalMissionQuests(self, questIDs, withAdditional=False, callback=None):
+        pmCache = personal_missions.g_cache
+        for questID in questIDs:
+            if not self._eventsCache.getPersonalMissions().isCampaignActive(pmCache.branchByMissionID(questID)):
+                _logger.error(b'No active campaign for personal mission with id: %s', questID)
+                continue
+            self.__account._doCmdIntArr(AccountCommands.CMD_COMPLETE_PERSONAL_MISSION, [
+             questID, int(withAdditional)], _get_callback_proxy(callback))
+
         return

@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Vàng kiếm được"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Cho thành tích gia nhập hàng ngũ %(campaignName)s, bạn đã được trao huy chương %(nameMedal)s."
+msgstr "Với việc hoàn tất một nhiệm vụ trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Xin chúc mừng!"
@@ -1929,6 +1929,21 @@ msgstr "Với việc hoàn tất 30 nhiệm vụ thuộc sê-ri %(categoryName)s
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Với việc hoàn tất 15 nhiệm vụ thuộc sê-ri %(categoryName)s trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Với việc hoàn tất một nhiệm vụ trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Với việc hoàn tất 21 nhiệm vụ thuộc sê-ri %(categoryName)s trong hoạt động tác chiến %(operationName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Với việc hoàn tất 14 nhiệm vụ thuộc sê-ri %(categoryName)s trong hoạt động tác chiến %(operationName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Với việc hoàn tất 7 nhiệm vụ thuộc sê-ri %(categoryName)s trong hoạt động tác chiến %(operationName)s, bạn được trao huân chương %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "phạt vì gây thiệt hại cho đồng đội: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Click vào nút tương ứng để xem nội dung."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Bạn nhận được bưu kiện:"
+msgstr "Đã nhận Bưu kiện"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Xem"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Đến Phần thưởng"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Đã kích hoạt Cổng: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Chúng tôi đã kích hoạt hết các Cổng và chuyển mọi thứ
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Đã nhận Phần thưởng"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Chúng tôi đã mở tất cả các hộp của bạn và trao tặng phần thưởng cho Chiến dịch Tết"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Phân đoạn phổ dụng"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "Phân đoạn quốc gia %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Cấu hình các xe sau đã thay đổi: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Chú ý!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>và %(vehiclesCount)s xe khác</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Với bản cập nhật mới này, mọi đề-can đã được gỡ khỏi xe và gửi vào Kho, trong mục Ngoại thất."

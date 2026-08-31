@@ -20,10 +20,8 @@ class PreBattleTimer(battle_timers.PreBattleTimer):
         return
 
     def updateBattleCtx(self, battleCtx):
-        self._battleTypeStr = battleCtx.getArenaDescriptionString(isInBattle=False)
         self._arenaBonusType = battleCtx.getArenaDP().getPersonalDescription().getArenaBonusType()
-        self.as_setMessageS(self._getMessage())
-        self.as_setWinConditionTextS(self._getWinMessage())
+        super(PreBattleTimer, self).updateBattleCtx(battleCtx)
         return
 
     def _getMessage(self):
@@ -31,6 +29,9 @@ class PreBattleTimer(battle_timers.PreBattleTimer):
             return backport.text(R.strings.last_stand_battle.prebattle.waiting.title())
         difficulty = backport.text(R.strings.last_stand_battle.prebattle.difficulty.num(self._arenaBonusType)())
         return backport.text(R.strings.last_stand_battle.prebattle.description.title(), difficulty=difficulty)
+
+    def _getWinConditionText(self, battleCtx):
+        return self._getWinMessage()
 
     def _getWinMessage(self):
         messageId = R.strings.last_stand_battle.prebattle.description.message()

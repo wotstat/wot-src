@@ -296,5 +296,5 @@ class ModifiersContext(object):
 
 BATTLE_MODIFIERS_TYPE = Union[BattleModifiers, ModifiersContext]
 
-def getGlobalModifiers():
+def getDevGlobalModifiers():
     return BattleModifiers()

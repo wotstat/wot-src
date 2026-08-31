@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "ได้รับทอง"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "สำหรับการได้เข้าอันดับของ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+msgstr "สำหรับการปฏิบัติภารกิจสำเร็จในสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "ยินดีด้วย!"
@@ -1929,6 +1929,21 @@ msgstr "สำหรับการปฏิบัติ 30 ภารกิจ�
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "สำหรับการปฏิบัติ 15 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "สำหรับการปฏิบัติภารกิจสำเร็จในสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "สำหรับการปฏิบัติ 21 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(operationName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "สำหรับการปฏิบัติ 14 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(operationName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "สำหรับการปฏิบัติ 7 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(operationName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "ค่าปรับการทำความเสียหายต่อพันธมิตร: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "คลิกที่ปุ่มเพื่อดูเนื้อหา"
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "คุณได้รับพัสดุ:"
+msgstr "ได้รับพัสดุแล้ว"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "ดู"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "ไปยังรางวัล"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "เปิดใช้งานประตูมิติไป: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "เราได้ทำการเปิดประตูมิติ
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "ได้รับรางวัลแล้ว"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "เราได้เปิดทุกกล่องของปฏิบัติการวันหยุดที่คุณมีแล้ว"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "เศษแผ่นสากล"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "เศษแผ่นประจำชาติ %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "การปรับแต่งพาหนะดังต่อไปนี้ถูกเปลี่ยน: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "โปรดทราบ!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'> และอีก %(vehiclesCount)s </font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "จากอัพเดตดังกล่าว ลวดลายทั้งหมดได้ถูกปลดออกจากพาหนะและส่งไปยังส่วนโครงภายนอกของโรงเก็บ"

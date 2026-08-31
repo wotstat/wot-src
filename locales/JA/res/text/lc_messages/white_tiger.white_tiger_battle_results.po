@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "閉じる"
+
+msgid "continueBtn"
+msgstr "続行"
+
+msgid "economy/double/credits"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるクレジットの量が%(value)s%%増加します。"
+
+msgid "economy/double/free_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる戦闘EXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/tmen_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる搭乗員EXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる戦闘EXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる戦闘EXPおよびフリーEXPの量が%(value)s%%増加します。"
+
+msgid "efficiency/capturePoints"
+msgstr "ジェネレーター破壊"
+
+msgid "efficiency/damageAssisted"
+msgstr "ダメージアシスト"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "スタン"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "阻ダメージ"
+
+msgid "efficiency/damageDealt"
+msgstr "与ダメージ"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "ジェネレーター防衛"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "撃破"
+
+msgid "efficiency/spotted"
+msgstr "発見"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "ジェネレーター破壊"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "撃破アシスト"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "スタンアシスト"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "装甲で阻んだダメージ"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "与ダメージ"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "ジェネレーター防衛"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "撃破した敵車輌"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "発見"
+
+msgid "finish"
+msgstr "戦闘終了"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "ボーナスは最新の勝利にしか適用できません。"
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "搭乗員訓練の促進が有効なため、ボーナスを適用できません。"
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "搭乗員訓練の促進が無効なため、ボーナスを適用できません。"
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "EXPボーナスは勝利した戦闘にしか適用できません。"
+
+msgid "premiumBonus/NoCrew"
+msgstr "搭乗員が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "premiumBonus/NoVehicle"
+msgstr "車輌が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "progress/title"
+msgstr "%(modeName)s専用ミッション【ステージ: %(done)s / %(total)s】"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s専用ミッション"
+
+msgid "result/lose"
+msgstr "敗北"
+
+msgid "result/tie"
+msgstr "引き分け"
+
+msgid "result/win"
+msgstr "勝利"
+
+msgid "ribbon/applied"
+msgstr "ボーナス適用完了"
+
+msgid "ribbon/errorState"
+msgstr "適用エラー"
+
+msgid "ribbon/expBonus"
+msgstr "%(icon)s取得EXPへのボーナス+%(count)s"
+
+msgid "ribbon/timeLeft"
+msgstr "ボーナス更新まで:"
+
+msgid "ribbon/usesLeft"
+msgstr "利用可能なボーナス: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "個人スコア"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "チームスコア"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "プレイヤー"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "個人スコア"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "チームスコア"
+
+msgid "sub_modes/undefined/team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "sub_modes/undefined/team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "プレイヤー"

@@ -139,15 +139,6 @@ msgstr "頒發給對《戰車世界》發展有著彌足珍貴貢獻的玩家。
 msgid "15YearsOfService_descr"
 msgstr "您自 %(regDate)s 起就加入了這個遊戲"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP Reserve Achievement 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• 頒發給完成進度的玩家。"
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "為您在遊戲期間取得之成就所頒發。"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP Reserve Achievement 2"
 
@@ -429,6 +420,15 @@ msgstr "• 頒發給完成全部三個章節的玩家。"
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "為您在戰車遠征賽季 XX 期間取得之成就所頒發。"
+
+msgid "BattlePassCommonPr_21"
+msgstr "Lowland Skirmish"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• 頒發給完成全部三個章節的玩家。"
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "為您在戰車遠征賽季 XXI 期間取得之成就所頒發。"
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• 主要進度由 45 個階段組成。"
@@ -1828,6 +1828,48 @@ msgstr "Silver Dragon"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "頒發給在「天梯戰」模式蛟龍年中至少收集 9 個「天梯戰錦旗」的玩家。"
 
+msgid "comp7_6_1"
+msgstr "Azure Spark"
+
+msgid "comp7_6_1_descr"
+msgstr "頒發給在「天梯戰」模式蒼藍鳳凰賽季完成系列任務的玩家。"
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronze Phoenix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 6 個「天梯戰錦旗」的玩家。"
+
+msgid "comp7_6_yearly_champion"
+msgstr "Year of the Phoenix Champion"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 15 個「天梯戰錦旗」的玩家。"
+
+msgid "comp7_6_yearly_gold"
+msgstr "Gold Phoenix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 12 個「天梯戰錦旗」的玩家。"
+
+msgid "comp7_6_yearly_iron"
+msgstr "Iron Phoenix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 3 個「天梯戰錦旗」的玩家。"
+
+msgid "comp7_6_yearly_legend"
+msgstr "Year of the Phoenix Legend"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 18 個「天梯戰錦旗」的玩家。"
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silver Phoenix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "頒發給在「天梯戰」模式鳳凰年中至少收集 9 個「天梯戰錦旗」的玩家。"
+
 msgid "conqueror"
 msgstr "Capturer %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• 只可在隨機戰鬥中獲得。"
 
 msgid "huntsman_descr"
-msgstr "於一場戰鬥中擊毀所有（至少 3 輛）敵方輕型戰車。"
+msgstr "於一場戰鬥中擊毀所有（至少 2 輛）敵方輕型戰車。"
 
 msgid "huntsman_heroInfo"
 msgstr "Grigoriy Naydin 中士是一名 BT-7 的車長。於 1941 年 6 月 25 日在一個靠近 Rudishkyay 的立陶宛小鎮，他擊毀了一支德國國防軍的裝甲縱隊，其中包含了 15 輛車以及第 19 機械化軍團的 10 門火炮。Naydin 設法在兩天內阻攔了德國的推進，使其得以組織起維爾紐斯周遭的防禦。因此一行動，Naydin 成為了蘇維埃聯邦的英雄。"
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "優異地完成聯邦的 15 項個人任務。獎勵：Exemplary Performance: Union 勳章，III 級。"
 
 msgid "readyForBattleAssault"
-msgstr "Exemplary Performance: Vanguard"
+msgstr "Exemplary Performance: Sector 3 Vanguard"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "完成「第三區」戰役的所有「先鋒」任務。"
+msgstr "完成「第三區」戰役主要行動中的所有「先鋒」任務。"
+
+msgid "readyForBattleFossaAssault"
+msgstr "Exemplary Performance: Fossa Vanguard"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "完成「第三區」戰役 Fossa 行動中的所有「先鋒」任務。"
+
+msgid "readyForBattleFossaSniper"
+msgstr "Exemplary Performance: Fossa Ambush"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "完成「第三區」戰役 Fossa 行動中的所有「伏擊」任務。"
+
+msgid "readyForBattleFossaSupport"
+msgstr "Exemplary Performance: Fossa Assistance"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "完成「第三區」戰役 Fossa 行動中的所有「協助」任務。"
 
 msgid "readyForBattleHT"
 msgstr "Exemplary Performance：重型戰車"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "優異地完成 15 個自走炮個人任務。獎項：Exemplary Performance：自走炮成就，IV 級。"
 
 msgid "readyForBattleSniper"
-msgstr "Exemplary Performance: Ambush"
+msgstr "Exemplary Performance: Sector 3 Ambush"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "完成「第三區」戰役的所有「伏擊」任務。"
+msgstr "完成「第三區」戰役主要行動中的所有「伏擊」任務。"
 
 msgid "readyForBattleSupport"
-msgstr "Exemplary Performance: Assistance"
+msgstr "Exemplary Performance: Sector 3 Assistance"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "完成「第三區」戰役的所有「協助」任務。"
+msgstr "完成「第三區」戰役主要行動中的所有「協助」任務。"
 
 msgid "reliableComrade"
 msgstr "Battle Buddy"
@@ -4692,6 +4761,15 @@ msgstr "頒發給在「Waffenträger：時空悖論」完成進度的玩家。�
 
 msgid "wt2025progression_descr"
 msgstr "完成 Waffenträger 模式進度。"
+
+msgid "wt2026progression"
+msgstr "Stormrider"
+
+msgid "wt2026progression_condition"
+msgstr "頒發給在「2026 Waffenträger：創世紀元」中完成進度的玩家。此榮耀頒發給曾與 von Krieger 的首部思考機器「電子智慧」對抗，並切斷其伸入我們世界之所有電路的玩家。"
+
+msgid "wt2026progression_descr"
+msgstr "完成「2026 Waffenträger：創世紀元」的進度。"
 
 msgid "wtBossWins"
 msgstr "Master of Lightning"

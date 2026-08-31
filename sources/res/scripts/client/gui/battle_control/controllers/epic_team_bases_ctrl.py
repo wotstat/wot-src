@@ -114,12 +114,12 @@ class EpicBattleTeamsBasesController(BattleTeamsBasesController):
         sectorBaseComp = getattr(componentSystem, b'sectorBaseComponent', None)
         if sectorBaseComp is None:
             LOG_ERROR(b'Expected SectorBaseComponent not present!')
-            return
+            return False
         else:
             playerData = getattr(componentSystem, b'playerDataComponent', None)
             if playerData is None:
                 LOG_ERROR(b'Expected PlayerDataComponent not present!')
-                return
+                return False
             baseLane = sectorBaseComp.getSectorForSectorBase(baseID).playerGroup
             if baseLane != playerData.physicalLane:
                 return False
