@@ -35,7 +35,7 @@ package net.wg.gui.lobby.vehicleCustomization
       override protected function draw() : void
       {
          super.draw();
-         if(!_usingExternalRenderers && Boolean(isInvalid(InvalidationType.RENDERERS,InvalidationType.SIZE)))
+         if(!_usingExternalRenderers && Boolean(isInvalidTypes(InvalidationType.RENDERERS,InvalidationType.SIZE)))
          {
             this.layoutRenderers();
          }

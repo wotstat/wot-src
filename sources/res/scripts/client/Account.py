@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-import copy, logging, weakref, zlib
+import copy, logging, weakref, zlib, typing
 from collections import namedtuple
 from future.moves import pickle
 from future.utils import viewitems, viewvalues
@@ -49,7 +49,9 @@ from skeletons.gui.shared.utils import IHangarSpace
 from soft_exception import SoftException
 from streamIDs import STREAM_ID_CHAT_MAX, STREAM_ID_CHAT_MIN, RangeStreamIDCallbacks
 from schema_manager import getSchemaManager
-StreamData = namedtuple(b'StreamData', [52, 53, 54, 55, 56, 57])
+if typing.TYPE_CHECKING:
+    from BigWorld import KeyEvent, MouseEvent, AxisEvent
+StreamData = namedtuple(b'StreamData', [53, 54, 55, 56, 57, 58])
 StreamData.__new__.__defaults__ = (
  None,) * len(StreamData._fields)
 _logger = logging.getLogger(__name__)
@@ -1348,7 +1350,8 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
                     prevValue = getattr(self, accountPropName, None)
                     if value != prevValue:
                         setattr(self, accountPropName, diffDict[k])
-                        return event(value)
+                        event(value)
+                        return
 
             return
 
@@ -1493,7 +1496,10 @@ class AccountInputHandler(object):
     def handleKeyEvent(self, event):
         return False
 
-    def handleMouseEvent(self, dx, dy, dz):
+    def handleMouseEvent(self, event):
+        return False
+
+    def handleAxisEvent(self, event):
         return False
 
 
@@ -1526,7 +1532,7 @@ class _AccountRepository(object):
         self.ranked = client_ranked.ClientRanked(self.syncData)
         self.battleRoyale = ClientBattleRoyale.ClientBattleRoyale(self.syncData)
         self.badges = client_badges.ClientBadges(self.syncData)
-        self.tokens = tokens.Tokens(self.syncData)
+        self.tokens = tokens.Tokens(self.syncData, self.commandProxy)
         self.epicMetaGame = client_epic_meta_game.ClientEpicMetaGame(self.syncData)
         self.blueprints = client_blueprints.ClientBlueprints(self.syncData)
         self.festivities = FestivityManager(self.syncData, self.commandProxy)

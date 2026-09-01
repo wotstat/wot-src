@@ -33,6 +33,7 @@ class VehicleMechanic(Enum):
     OVERHEAT_STACKS = b'overheatStacks'
     TARGET_DESIGNATOR = b'targetDesignator'
     STANCE_DANCE = b'stanceDance'
+    AUTORELOADER_SURGE = b'autoreloaderSurge'
     STATIONARY_RELOAD = b'stationaryReload'
     TEMPERATURE_GUN = b'temperatureGun'
     OVERHEAT_GUN = b'overheatGun'
@@ -41,6 +42,12 @@ class VehicleMechanic(Enum):
     STAGED_JET_BOOSTERS = b'stagedJetBoosters'
     PROPELLANT_GUN = b'propellantAfterburnerGun'
     WHEELED_DASH = b'wheeledDash'
+    AUXILIARY_ROCKET_LAUNCHER = b'auxiliaryRocketLauncher'
+    SHELL_PARAMS_SWITCHER = b'shellParamsSwitcher'
+    SHELL_CALIBRATION = b'shellCalibration'
+    CREST_MOVING = b'crestMoving'
+    BUSTLE_FEED = b'bustleFeed'
+    SIGHT_POINTER = b'sightPointer'
 
 
 VEHICLE_MECHANIC_DYN_COMPONENT_NAMES = {(VehicleMechanic.IMPROVED_RAMMING): b'improvedRammingController', 
@@ -61,6 +68,7 @@ VEHICLE_MECHANIC_DYN_COMPONENT_NAMES = {(VehicleMechanic.IMPROVED_RAMMING): b'im
    (VehicleMechanic.OVERHEAT_STACKS): b'overheatStacksController', 
    (VehicleMechanic.TARGET_DESIGNATOR): b'targetDesignatorController', 
    (VehicleMechanic.STANCE_DANCE): b'stanceDanceController', 
+   (VehicleMechanic.AUTORELOADER_SURGE): b'autoreloaderSurgeController', 
    (VehicleMechanic.STATIONARY_RELOAD): b'stationaryReloadController', 
    (VehicleMechanic.TEMPERATURE_GUN): b'temperatureGunController', 
    (VehicleMechanic.OVERHEAT_GUN): b'overheatGunComponent', 
@@ -68,7 +76,13 @@ VEHICLE_MECHANIC_DYN_COMPONENT_NAMES = {(VehicleMechanic.IMPROVED_RAMMING): b'im
    (VehicleMechanic.LOW_CHARGE_SHOT): b'lowChargeShotController', 
    (VehicleMechanic.STAGED_JET_BOOSTERS): b'stagedJetBoostersController', 
    (VehicleMechanic.PROPELLANT_GUN): b'propellantGunController', 
-   (VehicleMechanic.WHEELED_DASH): b'wheeledDashController'}
+   (VehicleMechanic.WHEELED_DASH): b'wheeledDashController', 
+   (VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER): b'auxiliaryRocketLauncherComponent', 
+   (VehicleMechanic.SHELL_PARAMS_SWITCHER): b'shellParamsSwitcherController', 
+   (VehicleMechanic.SHELL_CALIBRATION): b'ShellCalibrationController', 
+   (VehicleMechanic.CREST_MOVING): b'CrestMovingController', 
+   (VehicleMechanic.BUSTLE_FEED): b'bustleFeedController', 
+   (VehicleMechanic.SIGHT_POINTER): b'sightPointerComponent'}
 TRACKABLE_VEHICLE_MECHANICS = set(VEHICLE_MECHANIC_DYN_COMPONENT_NAMES)
 VEHICLE_MECHANIC_TAGS = {(VehicleMechanic.ROCKET_ACCELERATION): b'rocketAcceleration', 
    (VehicleMechanic.DUAL_ACCURACY): b'dualAccuracy', 
@@ -88,6 +102,7 @@ VEHICLE_MECHANIC_TO_PARAMS = {(VehicleMechanic.IMPROVED_RAMMING): (shared_compon
    (VehicleMechanic.OVERHEAT_STACKS): (shared_components.OverheatStacksParams.MECHANICS_NAME), 
    (VehicleMechanic.TARGET_DESIGNATOR): (shared_components.TargetDesignatorParams.MECHANICS_NAME), 
    (VehicleMechanic.STANCE_DANCE): (shared_components.StanceDanceParams.MECHANICS_NAME), 
+   (VehicleMechanic.AUTORELOADER_SURGE): (shared_components.AutoreloaderSurgeParams.MECHANICS_NAME), 
    (VehicleMechanic.STATIONARY_RELOAD): (shared_components.StationaryReloadParams.MECHANICS_NAME), 
    (VehicleMechanic.TEMPERATURE_GUN): (shared_components.TemperatureGunParams.MECHANICS_NAME), 
    (VehicleMechanic.OVERHEAT_GUN): (shared_components.OverheatGunParams.MECHANICS_NAME), 
@@ -95,7 +110,13 @@ VEHICLE_MECHANIC_TO_PARAMS = {(VehicleMechanic.IMPROVED_RAMMING): (shared_compon
    (VehicleMechanic.LOW_CHARGE_SHOT): (shared_components.LowChargeShotParams.MECHANICS_NAME), 
    (VehicleMechanic.STAGED_JET_BOOSTERS): (shared_components.StagedJetBoostersParams.MECHANICS_NAME), 
    (VehicleMechanic.PROPELLANT_GUN): (shared_components.PropellantGunParams.MECHANICS_NAME), 
-   (VehicleMechanic.WHEELED_DASH): (shared_components.WheeledDashParams.MECHANICS_NAME)}
+   (VehicleMechanic.WHEELED_DASH): (shared_components.WheeledDashParams.MECHANICS_NAME), 
+   (VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER): (shared_components.AuxiliaryRocketLauncherParams.MECHANICS_NAME), 
+   (VehicleMechanic.SHELL_PARAMS_SWITCHER): (shared_components.ShellSwitcherParams.MECHANICS_NAME), 
+   (VehicleMechanic.SHELL_CALIBRATION): (shared_components.ShellCalibrationParams.MECHANICS_NAME), 
+   (VehicleMechanic.CREST_MOVING): (shared_components.CrestMovingParams.MECHANICS_NAME), 
+   (VehicleMechanic.BUSTLE_FEED): (shared_components.BustleFeedParams.MECHANICS_NAME), 
+   (VehicleMechanic.SIGHT_POINTER): (shared_components.SightPointerParams.MECHANICS_NAME)}
 VEHICLE_PARAMS_TO_MECHANIC = {v: k for k, v in viewitems(VEHICLE_MECHANIC_TO_PARAMS)}
 TRACKABLE_VEHICLE_DESCR_MECHANICS = set()
 TRACKABLE_VEHICLE_DESCR_MECHANICS |= set(VEHICLE_MECHANIC_TAGS)
@@ -126,6 +147,8 @@ VEHICLE_MECHANIC_USED_COMMANDS = {(VehicleMechanic.CONCENTRATION_MODE): (
                                        VehicleMechanicCommand.ACTIVATE,), 
    (VehicleMechanic.STANCE_DANCE): (
                                   VehicleMechanicCommand.ACTIVATE, VehicleMechanicCommand.SWITCH), 
+   (VehicleMechanic.AUTORELOADER_SURGE): (
+                                        VehicleMechanicCommand.ACTIVATE,), 
    (VehicleMechanic.STATIONARY_RELOAD): (
                                        VehicleMechanicCommand.MANUAL_RELOAD,), 
    (VehicleMechanic.STAGED_JET_BOOSTERS): (
@@ -133,4 +156,12 @@ VEHICLE_MECHANIC_USED_COMMANDS = {(VehicleMechanic.CONCENTRATION_MODE): (
    (VehicleMechanic.PROPELLANT_GUN): (
                                     VehicleMechanicCommand.ACTIVATE,), 
    (VehicleMechanic.WHEELED_DASH): (
-                                  VehicleMechanicCommand.ACTIVATE,)}
+                                  VehicleMechanicCommand.ACTIVATE,), 
+   (VehicleMechanic.AUXILIARY_ROCKET_LAUNCHER): (
+                                               VehicleMechanicCommand.ACTIVATE,), 
+   (VehicleMechanic.SHELL_PARAMS_SWITCHER): (
+                                           VehicleMechanicCommand.ACTIVATE,), 
+   (VehicleMechanic.BUSTLE_FEED): (
+                                 VehicleMechanicCommand.SWITCH,), 
+   (VehicleMechanic.SIGHT_POINTER): (
+                                   VehicleMechanicCommand.ACTIVATE, VehicleMechanicCommand.DEACTIVATE)}

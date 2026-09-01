@@ -15,6 +15,10 @@ class GameplayStateID(object):
     AVATAR_ARENA_INFO = b'avatar.arena.info'
     AVATAR_ARENA_LOADED = b'avatar.arena.loaded'
     AVATAR_EXITING = b'avatar.exiting'
+    PREBATTLE_LOADING = b'avatar.arena.loaded.prebattle_loading'
+    PREBATTLE_HIGHLIGHTS = b'avatar.arena.loaded.prebattle_highlights'
+    PREBATTLE = b'avatar.arena.loaded.prebattle'
+    BATTLE = b'avatar.arena.loaded.battle'
     SERVER_REPLAY_ENTERING = b'replay.server.entering'
     SERVER_REPLAY_EXITING = b'replay.server.exiting'
     BATTLE_REPLAY_LOADING = b'replay.loading'
@@ -41,6 +45,9 @@ class PlayerEventID(object):
     AVATAR_ARENA_LOADING = b'player.avatar.arena.loading'
     AVATAR_ARENA_LOADED = b'player.avatar.arena.loaded'
     AVATAR_BECOME_NON_PLAYER = b'player.avatar.exiting'
+    PREBATTLE_HIGHLIGHTS_START = b'prebattle_highlights.start'
+    PREBATTLE_START = b'prebattle.start'
+    BATTLE_START = b'player.avatar.arena.loaded.battle'
     NON_PLAYER_BECOME_PLAYER = b'player.non_player'
 
 
@@ -74,6 +81,18 @@ class IGameplayLogic(object):
         return
 
     def removeStateObserver(self, observer):
+        raise NotImplementedError
+        return
+
+    def addOneshotObserver(self, gameplayStateIDs, observerLifetimeObj, enterFn=None, exitFn=None):
+        raise NotImplementedError
+        return
+
+    def addStateEnterBlocker(self, stateID, event):
+        raise NotImplementedError
+        return
+
+    def addStateExitBlocker(self, stateID, event):
         raise NotImplementedError
         return
 

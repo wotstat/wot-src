@@ -57,16 +57,17 @@ class LSBattlePassPointsFormatter(AsyncTokenQuestsSubFormatter):
         data = message.data or {}
         battlePassPoints = sum(viewvalues(data.get(b'battlePassPoints', {}).get(b'vehicles', {})))
         if not battlePassPoints:
-            return
-        operationTime = message.sentTime
-        if operationTime:
-            fDatetime = TimeFormatter.getLongDatetimeFormat(time_utils.makeLocalServerTime(operationTime))
+            return None
         else:
-            fDatetime = b'N/A'
-        formatted = g_settings.msgTemplates.format(self.__MESSAGE_TEMPLATE, ctx={b'at': fDatetime, b'bpPoints': battlePassPoints})
-        settings = self._getGuiSettings(message, self.__MESSAGE_TEMPLATE)
-        result.append(MessageData(formatted, settings))
-        return result
+            operationTime = message.sentTime
+            if operationTime:
+                fDatetime = TimeFormatter.getLongDatetimeFormat(time_utils.makeLocalServerTime(operationTime))
+            else:
+                fDatetime = b'N/A'
+            formatted = g_settings.msgTemplates.format(self.__MESSAGE_TEMPLATE, ctx={b'at': fDatetime, b'bpPoints': battlePassPoints})
+            settings = self._getGuiSettings(message, self.__MESSAGE_TEMPLATE)
+            result.append(MessageData(formatted, settings))
+            return result
 
 
 class LSKingRewardFormatter(AsyncTokenQuestsSubFormatter):

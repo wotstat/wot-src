@@ -60,7 +60,7 @@
 		</armor>
 		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 		<weight>4045</weight>
-		<maxHealth>920</maxHealth>
+		<maxHealth>1000</maxHealth>
 		<ammoBayHealth>
 			<maxHealth>220</maxHealth>
 			<maxRegenHealth>150</maxRegenHealth>
@@ -962,8 +962,8 @@
 				</chassis>
 			</unlocks>
 			<armor>
-				<leftTrack>20</leftTrack>
-				<rightTrack>20</rightTrack>
+				<leftTrack>10</leftTrack>
+				<rightTrack>10</rightTrack>
 			</armor>
 			<weight>3000</weight>
 			<terrainResistance>0.7 0.8 1.4</terrainResistance>
@@ -1935,8 +1935,8 @@
 			<level>8</level>
 			<price>29000</price>
 			<armor>
-				<leftTrack>20</leftTrack>
-				<rightTrack>20</rightTrack>
+				<leftTrack>10</leftTrack>
+				<rightTrack>10</rightTrack>
 			</armor>
 			<weight>3000</weight>
 			<terrainResistance>0.7 0.8 1.4</terrainResistance>
@@ -2921,7 +2921,7 @@
 			</armor>
 			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 			<weight>2500</weight>
-			<maxHealth>230</maxHealth>
+			<maxHealth>250</maxHealth>
 			<rotationSpeed>46</rotationSpeed>
 			<turretRotatorHealth>
 				<maxHealth>140</maxHealth>
@@ -2961,7 +2961,7 @@
 						<minPitch>0 -13 0.319444 -13 0.333333 -11 0.666667 -11 0.680556 -13 1 -13</minPitch>
 						<maxPitch>0 6 1 6</maxPitch>
 					</pitchLimits>
-					<reloadTime>19.5</reloadTime>
+					<reloadTime>17.5</reloadTime>
 					<invisibilityFactorAtShot>0.234</invisibilityFactorAtShot>
 					<clip>
 						<count>4</count>
@@ -3416,6 +3416,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<tiling>1.4 1.4 0.000000 0.000000</tiling>
 						<density>93.5292 94.6311</density>
@@ -3457,7 +3458,7 @@
 						<count>4</count>
 						<rate>30</rate>
 					</clip>
-					<shotDispersionRadius>0.38</shotDispersionRadius>
+					<shotDispersionRadius>0.39</shotDispersionRadius>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>4.0</afterShot>
@@ -3906,6 +3907,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<tiling>1.4 1.4 0.000000 0.000000</tiling>
 						<density>93.5516 94.0066</density>
@@ -4177,13 +4179,13 @@
 					<axleCount>5</axleCount>
 					<grounds>
 						<soft>
-							<rollingFriction>0.140874997</rollingFriction>
+							<rollingFriction>0.1127</rollingFriction>
 						</soft>
 						<medium>
-							<rollingFriction>0.0805</rollingFriction>
+							<rollingFriction>0.0644</rollingFriction>
 						</medium>
 						<firm>
-							<rollingFriction>0.0704379976</rollingFriction>
+							<rollingFriction>0.05635</rollingFriction>
 						</firm>
 					</grounds>
 				</Chassis_F87_Batignolles-Chatillon_12t>
@@ -4191,13 +4193,13 @@
 					<axleCount>5</axleCount>
 					<grounds>
 						<soft>
-							<rollingFriction>0.140874997</rollingFriction>
+							<rollingFriction>0.1127</rollingFriction>
 						</soft>
 						<medium>
-							<rollingFriction>0.0805</rollingFriction>
+							<rollingFriction>0.0644</rollingFriction>
 						</medium>
 						<firm>
-							<rollingFriction>0.0704379976</rollingFriction>
+							<rollingFriction>0.05635</rollingFriction>
 						</firm>
 					</grounds>
 				</Chassis_F87_Batignolles-Chatillon_12t_2>

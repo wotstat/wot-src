@@ -28,3 +28,12 @@ class FunBattleResultsSubPresenter(BattleResultsSubPresenter):
     @classmethod
     def getViewModelType(cls):
         return FunBattleResultsViewModel
+
+    def createToolTip(self, event):
+        for subPresenter in self._subPresenters:
+            if hasattr(subPresenter, b'createToolTip'):
+                content = subPresenter.createToolTip(event)
+                if content is not None:
+                    return content
+
+        return super(FunBattleResultsSubPresenter, self).createToolTip(event)

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Al abrir estas cajas, puedes conseguir vehículos, monedas del juego y otras recompensas valiosas."
+msgstr "Al abrir estas cajas, puedes conseguir vehículos premium de nivel VIII, monedas del juego y otras recompensas valiosas."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Al abrir estas cajas, puedes conseguir vehículos, monedas del juego, elementos de personalización y otras recompensas valiosas."
+msgstr "Al abrir estas cajas, puedes conseguir vehículos raros de nivel X, monedas del juego y otras recompensas valiosas."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Al abrir estas cajas, puedes conseguir vehículos, monedas del juego, elementos de personalización y otras recompensas valiosas."
+msgstr "Al abrir estas cajas, puedes conseguir vehículos premium de nivel IX, monedas del juego y otras recompensas valiosas."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Se puede obtener en la tienda del juego y también al abrir cajas de cualquier otro tipo."
+msgstr "Se puede obtener como regalo por comprar objetos en la Tienda Premium y también al abrir cajas de cualquier otro tipo."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Se puede obtener al abrir cajas de cualquier otro tipo."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Se puede obtener al abrir cajas de cualquier otro tipo."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Caja de botín"
+msgstr "Caja celestial"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Caja de bendición"
+msgstr "Caja elegida"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Caja de ofrenda"
+msgstr "Caja de ayuda divina"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "CAJA DE BOTÍN"
+msgstr "CAJA CELESTIAL"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "CAJA DE BENDICIÓN"
+msgstr "CAJA ELEGIDA"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "CAJA DE OFRENDA"
+msgstr "CAJA DE AYUDA DIVINA"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Estas son cajas especiales que contienen objetos nuevos y únicos. Se pueden obtener en la tienda del juego."
+msgstr "Son cajas especiales que contienen vehículos nuevos y únicos de nivel VIII-X y otras recompensas.\nPuedes recibir cajas como regalo por comprar objetos en la Tienda Premium o recibirlas al abrir cajas de cualquier otro tipo."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "El evento terminará en"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Debido a problemas técnicos, no se pueden abrir ni comprar cajas en este momento. Te pedimos disculpas por las molestias ocasionadas."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Cajas de bendición divina no disponibles temporalmente"
 
 msgid "eventName/lowerCase"
-msgstr "Bóveda de los susurros"
+msgstr "Bendición divina"
 
 msgid "eventName/upperCase"
-msgstr "BÓVEDA DE LOS SUSURROS"
+msgstr "BENDICIÓN DIVINA"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Si ya tienes todos los vehículos, recibirás una caja de bendición en su lugar."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si no abres todas las cajas antes de que termine el evento, se abrirán automáticamente luego."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Si ya tienes todos los vehículos de las cajas, recibirás una caja de bendición como recompensa en lugar de un vehículo."
+msgstr "Si ya tienes todos los vehículos de la caja, recibirás una caja elegida como recompensa garantizada o en lugar de obtener un vehículo."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Se garantiza que hay un vehículo cada %(guaranteed0)s cajas de botín, %(guaranteed1)s cajas de ofrenda y %(guaranteed2)s cajas de bendición. Si las abres y no consigues un vehículo de este tipo, obtendrás uno que aún no tengas cuando abras la caja %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (según el tipo de caja). Cuando suceda, el contador se reiniciará."
+msgstr "Se garantiza que hay un vehículo de nivel VIII - X cada %(guaranteed0)s cajas celestiales, %(guaranteed1)s cajas de ayuda divina y %(guaranteed2)s cajas elegidas. Si las abres y no consigues un vehículo de este tipo, obtendrás uno de nivel VIII - X que aún no tengas cuando abras la caja %(guaranteed0)s/%(guaranteed1)s/%(guaranteed2)s (según el tipo de caja). Cuando suceda, el contador se reiniciará."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Compensación"
+msgstr "Si recibes todos los vehículos"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Recompensa garantizada"
+msgid "infoPage/header/description"
+msgstr "Abre cajas para tener la oportunidad de recibir valiosos objetos del juego.\nConsulta a continuación la lista de posibles premios."
 
-msgid "infoPage/header/rewards/description"
-msgstr "No se puede obtener más de una recompensa por grupo"
+msgid "noBoxesView/description/"
+msgstr "No tienes cajas.\nPuedes conseguirlas en la Tienda Premium."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Caja elegida"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si ya tienes todos los vehículos de la caja, recibirás una caja elegida como recompensa garantizada en lugar de un vehículo."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Caja celestial"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Caja elegida"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Caja de ayuda divina"

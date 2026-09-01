@@ -20,13 +20,13 @@ class _Comp7QualificationConfig(settingsBlock(b'_Comp7QualificationConfig', (b'b
         return {b'battlesNumber': 0}
 
 
-class Comp7Config(settingsBlock(b'Comp7Config', (b'isEnabled', b'isShopEnabled', b'isTrainingEnabled', b'isVehicleBanEnabled', b'peripheryIDs', b'primeTimes', b'seasons', b'battleModifiersDescr', b'cycleTimes', b'roleEquipments', b'poiEquipments', b'numPlayers', b'levels', b'forbiddenClassTags', b'forbiddenVehTypes', b'squadRankRestriction', b'squadSizes', b'createVivoxTeamChannels', b'qualification', b'maps', b'remainingOfferTokensNotifications', b'clientEntitlementsCache', b'participantTokens', b'bans', b'vehicleCopiesInfo', b'minVehiclesRequired'))):
+class Comp7Config(settingsBlock(b'Comp7Config', (b'isEnabled', b'isShopEnabled', b'isTrainingEnabled', b'isVehicleBanEnabled', b'peripheryIDs', b'primeTimes', b'seasons', b'battleModifiersDescr', b'cycleTimes', b'roleEquipments', b'roleEquipmentsByVehicle', b'poiEquipments', b'numPlayers', b'levels', b'allowedVehTypes', b'squadRankRestriction', b'squadSizes', b'createVivoxTeamChannels', b'qualification', b'maps', b'remainingOfferTokensNotifications', b'clientEntitlementsCache', b'participantTokens', b'bans', b'vehicleCopiesInfo', b'minVehiclesRequired', b'subModes'))):
     __slots__ = ()
 
     @classmethod
     def defaults(cls):
-        return dict(isEnabled=False, isShopEnabled=False, isTrainingEnabled=False, isVehicleBanEnabled=False, peripheryIDs={}, primeTimes={}, seasons={}, battleModifiersDescr=(), cycleTimes={}, roleEquipments={}, poiEquipments={}, numPlayers=7, levels=[], forbiddenClassTags=set(), forbiddenVehTypes=set(), squadRankRestriction={}, squadSizes=[
-         0, 0], createVivoxTeamChannels=False, qualification={}, maps=set(), remainingOfferTokensNotifications=[], clientEntitlementsCache={}, participantTokens=(), bans={}, vehicleCopiesInfo={}, minVehiclesRequired=1)
+        return dict(isEnabled=False, isShopEnabled=False, isTrainingEnabled=False, isVehicleBanEnabled=False, peripheryIDs={}, primeTimes={}, seasons={}, battleModifiersDescr=(), cycleTimes={}, roleEquipments={}, roleEquipmentsByVehicle={}, poiEquipments={}, numPlayers=7, levels=[], allowedVehTypes=set(), squadRankRestriction={}, squadSizes=[
+         0, 0], createVivoxTeamChannels=False, qualification={}, maps=set(), remainingOfferTokensNotifications=[], clientEntitlementsCache={}, participantTokens=(), bans={}, vehicleCopiesInfo={}, minVehiclesRequired=1, subModes={})
 
     @classmethod
     def _preprocessData(cls, data):

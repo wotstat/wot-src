@@ -508,6 +508,26 @@ class BADGE(object):
     BADGE_234_DESCR = b'#badge:badge_234_descr'
     BADGE_235 = b'#badge:badge_235'
     BADGE_235_DESCR = b'#badge:badge_235_descr'
+    BADGE_236 = b'#badge:badge_236'
+    BADGE_236_DESCR = b'#badge:badge_236_descr'
+    BADGE_237 = b'#badge:badge_237'
+    BADGE_237_DESCR = b'#badge:badge_237_descr'
+    BADGE_238 = b'#badge:badge_238'
+    BADGE_238_DESCR = b'#badge:badge_238_descr'
+    BADGE_239 = b'#badge:badge_239'
+    BADGE_239_DESCR = b'#badge:badge_239_descr'
+    BADGE_240 = b'#badge:badge_240'
+    BADGE_240_DESCR = b'#badge:badge_240_descr'
+    BADGE_241 = b'#badge:badge_241'
+    BADGE_241_DESCR = b'#badge:badge_241_descr'
+    SUFFIX_BADGE_241 = b'#badge:suffix/badge_241'
+    BADGE_242 = b'#badge:badge_242'
+    BADGE_242_DESCR = b'#badge:badge_242_descr'
+    BADGE_243 = b'#badge:badge_243'
+    BADGE_243_DESCR = b'#badge:badge_243_descr'
+    BADGE_244 = b'#badge:badge_244'
+    BADGE_244_DESCR = b'#badge:badge_244_descr'
+    SUFFIX_BADGE_244 = b'#badge:suffix/badge_244'
     BADGE_ENUM = (
      BADGE_0,
      BADGE_0_DESCR,
@@ -981,7 +1001,25 @@ class BADGE(object):
      BADGE_234,
      BADGE_234_DESCR,
      BADGE_235,
-     BADGE_235_DESCR)
+     BADGE_235_DESCR,
+     BADGE_236,
+     BADGE_236_DESCR,
+     BADGE_237,
+     BADGE_237_DESCR,
+     BADGE_238,
+     BADGE_238_DESCR,
+     BADGE_239,
+     BADGE_239_DESCR,
+     BADGE_240,
+     BADGE_240_DESCR,
+     BADGE_241,
+     BADGE_241_DESCR,
+     BADGE_242,
+     BADGE_242_DESCR,
+     BADGE_243,
+     BADGE_243_DESCR,
+     BADGE_244,
+     BADGE_244_DESCR)
     BADGE_ALL_SHORT_ENUM = (
      BADGE_10_SHORT,
      BADGE_11_SHORT,
@@ -1228,7 +1266,16 @@ class BADGE(object):
      BADGE_232_DESCR,
      BADGE_233_DESCR,
      BADGE_234_DESCR,
-     BADGE_235_DESCR)
+     BADGE_235_DESCR,
+     BADGE_236_DESCR,
+     BADGE_237_DESCR,
+     BADGE_238_DESCR,
+     BADGE_239_DESCR,
+     BADGE_240_DESCR,
+     BADGE_241_DESCR,
+     BADGE_242_DESCR,
+     BADGE_243_DESCR,
+     BADGE_244_DESCR)
     BADGE_ALL_DESCR_LONG_ENUM = (
      BADGE_102_DESCR_LONG,)
 

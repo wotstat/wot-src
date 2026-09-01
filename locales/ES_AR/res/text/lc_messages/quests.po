@@ -802,6 +802,12 @@ msgstr "Multiplicador de XP manejable"
 msgid "bonusName/attachment"
 msgstr "Accesorio 3D"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "Avance aéreo"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "Sistema de defensa aérea"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "Botín del retador"
 
@@ -810,6 +816,9 @@ msgstr "Conjunto de accesorios 3D"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "Centinela oceánico"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "Buscar y destruir"
 
 msgid "bonusName/attendance_reward"
 msgstr "Recompensas por asistencia"
@@ -4152,6 +4161,12 @@ msgstr "Misión estratégica"
 
 msgid "item/type/specialMission"
 msgstr "Fortaleza: Instrucciones Especiales"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "Esta misión se podrá completar todos los días del evento y no se podrá cambiar."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "Misión fija"
 
 msgid "metrics/state/done"
 msgstr "Completado"

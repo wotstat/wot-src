@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 class AccountSettingsKeys(object):
     EVENT_KEY = b'frontline_keys'
     SKILL_POINTS_SHOWN = b'points_shown'

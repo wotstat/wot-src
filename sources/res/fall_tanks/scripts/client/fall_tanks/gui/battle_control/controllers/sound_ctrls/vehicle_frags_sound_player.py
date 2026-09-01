@@ -1,0 +1,44 @@
+from __future__ import absolute_import
+import typing
+from fall_tanks.gui.battle_control.mixins import FallTanksBattleMixin
+from fall_tanks.gui.feature.fall_tanks_sounds import FallTanksSounds
+from gui.battle_control.controllers.sound_ctrls.common import SoundPlayer
+if typing.TYPE_CHECKING:
+    from fall_tanks.gui.battle_control.arena_info.interfaces import IFallTanksVehicleInfo
+
+class VehicleFragsSoundPlayer(SoundPlayer, FallTanksBattleMixin):
+
+    def __init__(self):
+        self.__isPlayerVehicle = False
+        self.__frags = 0
+        return
+
+    def init(self):
+        super(VehicleFragsSoundPlayer, self).init()
+        attachedInfo = self.getFallTanksAttachedVehicleInfo()
+        self.__isPlayerVehicle = attachedInfo.isPlayerVehicle
+        self.__frags = attachedInfo.frags
+        return
+
+    def destroy(self):
+        self.__frags = 0
+        self.__isPlayerVehicle = False
+        super(VehicleFragsSoundPlayer, self).destroy()
+        return
+
+    def _subscribe(self):
+        self.startFallTanksAttachedListening(self.__onFallTanksAttachedInfoUpdate)
+        return
+
+    def _unsubscribe(self):
+        self.stopFallTanksAttachedListening(self.__onFallTanksAttachedInfoUpdate)
+        return
+
+    def __onFallTanksAttachedInfoUpdate(self, attachedInfo):
+        frags = attachedInfo.frags
+        isPlayerVehicle = attachedInfo.isPlayerVehicle
+        if isPlayerVehicle and self.__isPlayerVehicle and frags > self.__frags:
+            self._playSound2D(FallTanksSounds.ENEMY_KILLED)
+        self.__isPlayerVehicle = isPlayerVehicle
+        self.__frags = frags
+        return

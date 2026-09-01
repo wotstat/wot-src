@@ -18,15 +18,11 @@ def tabUpdateFunc(tabName):
 
 
 class TabsController(object):
-    __slots__ = (b'_tabsArray', b'_tabs', b'_autoCreating', b'_iconNamePostfix')
+    __slots__ = (b'_tabs', b'_autoCreating')
 
     def __init__(self, autoCreating=True):
         self._autoCreating = autoCreating
         self._tabs = {wrapper.tabName: wrapper for _, wrapper in inspect.getmembers(self.__class__, inspect.ismethod) if getattr(wrapper, b'tabName', None)}
-        return
-
-    def addTabModel(self, tabName, updateFunc):
-        self._tabs[tabName] = updateFunc
         return
 
     def createTabModels(self, tabsArray, **kwargs):

@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Abrimos todas tus cajas de las Operaciones Festivas."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "¡Felicitaciones!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Puedes comprar cajas grandes en la Tienda Premium"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Cajas grandes"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Cajas pequeñas"
-
-msgid "entryDesc/questSlot"
-msgstr "Recibiste cajas pequeñas por completar misiones"
-
 msgid "entryDesc/restrictedMode"
 msgstr "Esta función no está disponible temporalmente. Vuelve a intentarlo más tarde."
 
 msgid "entryPoint/header"
-msgstr "Cajas"
-
-msgid "entryTooltip/body/h1"
-msgstr "Comprar cajas grandes:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Ganar cajas pequeñas:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Compra cajas con adornos para Año Nuevo para ti y tus amigos en la Tienda Premium."
-
-msgid "entryTooltip/body/p2"
-msgstr "Recibido por completar misiones de las Operaciones Festivas."
-
-msgid "entryTooltip/header"
 msgstr "Cajas"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} cajas más"
 msgid "entryView/buyLabel"
 msgstr "COMPRAR CAJAS"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "No tienes cajas grandes en el Depósito.\nCompra más en la Tienda Premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "No tienes cajas pequeñas.\nConsigue más en las batallas."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Operaciones Festivas {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "¡Recibido!"
@@ -178,9 +139,6 @@ msgstr "Apertura de cajas de suministros"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Añadida"
 
-msgid "notification/ny19man"
-msgstr "Miembro de tripulación único: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Recibes las siguientes recompensas:"
 
@@ -244,36 +202,6 @@ msgstr "Un estilo único para"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Ver en Garage"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Cajas Navideñas"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Cajas Mágicas"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Cajas de Año Nuevo"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Cajas Lunares"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Colección de Navidad"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Colección Mágica"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Colección de Año Nuevo"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Colección Lunar"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Las cajas contienen adornos de {category} y otras recompensas valiosas."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Logros:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Compra cajas adicionales en la Tienda Premium."
 
@@ -285,12 +213,6 @@ msgstr "La acción no está disponible temporalmente. Intenta de nuevo más tard
 
 msgid "type/event_premium"
 msgstr "Caja de suministros Alba"
-
-msgid "type/newYear_premium"
-msgstr "CAJAS GRANDES"
-
-msgid "type/newYear_usual"
-msgstr "CAJAS PEQUEÑAS"
 
 msgid "type/wt_boss"
 msgstr "Arrancador de Ingeniero"

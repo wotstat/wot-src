@@ -5,7 +5,7 @@ package net.wg.gui.battle.views.consumablesPanel.interfaces
    public interface IBattleShellButton extends IConsumablesButton, ICoolDownCompleteHandler
    {
       
-      function setNext(param1:Boolean, param2:Boolean = false) : void;
+      function setNext(param1:Boolean, param2:Boolean = false, param3:Boolean = true) : void;
       
       function setCurrent(param1:Boolean, param2:Boolean = false) : void;
       
@@ -14,6 +14,8 @@ package net.wg.gui.battle.views.consumablesPanel.interfaces
       function setQuantity(param1:int, param2:Boolean = false) : void;
       
       function setSpgShotResult(param1:int) : void;
+      
+      function setShellMode(param1:String, param2:Boolean) : void;
       
       function get reloading() : Boolean;
       

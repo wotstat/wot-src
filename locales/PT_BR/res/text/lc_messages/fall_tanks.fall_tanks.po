@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/name"
+msgstr "Habilidade"
+
+msgid "arenaDescription/winText"
+msgstr "Missão: Tente alcançar a linha de chegada!"
+
+msgid "battleLoading/description"
+msgstr "Use a as habilidades Arrancada e Escudo para atrapalhar os adversários."
+
+msgid "battleLoading/header"
+msgstr "Pise fundo e deixe seus adversários pra trás!"
+
+msgid "battleResults/battleStatus/finished"
+msgstr "FINALIZADA"
+
+msgid "battleResults/battleStatus/inTop"
+msgstr "COLOCAÇÃO"
+
+msgid "battleResults/battleStatus/notFinished"
+msgstr "NÃO CHEGOU\nAO FIM"
+
+msgid "battleResults/finishReason/finished"
+msgstr "Linha de chegada alcançada"
+
+msgid "battleResults/finishReason/notFinished"
+msgstr "Linha de chegada não alcançada"
+
+msgid "battleResults/footerSubtitle/finished"
+msgstr "Nada mal!"
+
+msgid "battleResults/footerSubtitle/notFinished"
+msgstr "Mais sorte na próxima!"
+
+msgid "battleResults/footerSubtitle/top"
+msgstr "Entre os 3 melhores!"
+
+msgid "battleWidget/checkpoint"
+msgstr "CHECKPOINT"
+
+msgid "battleWidget/enemyPosition"
+msgstr "POSIÇÃO INIMIGA"
+
+msgid "battleWidget/notFinished"
+msgstr "NÃO CHEGOU\nAO FIM"
+
+msgid "battleWidget/place"
+msgstr "COLOCAÇÃO"
+
+msgid "battleWidget/position"
+msgstr "COLOCAÇÃO"
+
+msgid "battleWidget/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "buttonHint/evacuation/description"
+msgstr "para voltar ao último checkpoint"
+
+msgid "buttonHint/evacuation/noBindingKey"
+msgstr "Tecla para teletransportar não atribuída"
+
+msgid "buttonHint/evacuation/press"
+msgstr "Segure"
+
+msgid "efficiencyRibbons/fallTanksKill"
+msgstr "Desintegrado"
+
+msgid "evacuationAbilityTooltip/description"
+msgstr "Caso você fique preso, use isso para se teletransportar ao último checkpoint."
+
+msgid "evacuationAbilityTooltip/name"
+msgstr "Voltar ao Checkpoint"
+
+msgid "serviceChannelMessages/battleResults/finishTime"
+msgstr "Horário"
+
+msgid "serviceChannelMessages/battleResults/finished"
+msgstr "%(playerPlace)s Colocação"
+
+msgid "serviceChannelMessages/battleResults/notFinished"
+msgstr "Não Chegou ao Fim"
+
+msgid "shellTooltip/caliber"
+msgstr "Calibre: %(caliber)s mm"
+
+msgid "shellTooltip/description"
+msgstr "Ao invés de causar dano, provoca um impulso poderoso durante o impacto. Quanto maior for o calibre do seu canhão, maior será a explosão!"
+
+msgid "shellTooltip/header"
+msgstr "Projétil de Impulso"
+
+msgid "statusNotificationTimer/evacuation"
+msgstr "Teletransportando para o checkpoint..."

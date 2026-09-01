@@ -85,6 +85,23 @@ MODE_HIDDEN_VEHICLES_CRITERIA = 81
 PBS_ENTRY_STATE = 82
 UNIT_MEMBERS_ORDER_KEY = 83
 TEAM_VOIP_SUPPORT = 84
+DYNAMIC_RANDOM_HANGAR_PRESENTERS = 85
+SPECIAL_QUESTS_CHECKERS = 86
+DYNAMIC_BATTLE_REPO = 87
+EARNED_XP_DETAILS_PACKER = 88
+FREE_XP_DETAILS_PACKER = 89
+CREDITS_STATISTICS_PACKER = 90
+BONUS_PACKER = 91
+DYNAMIC_LOBBY_HEADER_TYPES = 92
+C11N_MESSAGE_LOCK_ALIASES = 93
+DYNAMIC_UMG_INTRO_PRESENTERS = 94
+DYNAMIC_UMG_WINBACK_PRESENTERS = 95
+DYNAMIC_UMG_INFO_PAGE_PRESENTERS = 96
+LOOTBOX_INFO_PAGE = 97
+LOOTBOX_MAIN_VIEW = 98
+REPLAY_RECORD_MAP = 99
+USER_MISSION_PLUGIN = 100
+PREBATTLE_HIGHLIGHTS_WINDOW = 101
 
 class CollectEventsManager(object):
 
@@ -720,6 +737,20 @@ def registerBattleTipsCriteria(guiTypes, criteriaCls):
 
 def collectBattleTipsCriteria(guiType):
     return __collectEM.handleEvent((BATTLE_TIPS_CRITERIA, guiType), ctx={}).get(b'criteriaCls')
+
+
+def registerPrebattleHighlightsWindow(bonusType, window):
+
+    def onCollect(ctx):
+        ctx[b'window'] = window
+        return
+
+    __collectEM.addListener((PREBATTLE_HIGHLIGHTS_WINDOW, bonusType), onCollect)
+    return
+
+
+def collectPrebattleHighlightsWindow(bonusType):
+    return __collectEM.handleEvent((PREBATTLE_HIGHLIGHTS_WINDOW, bonusType), ctx={}).get(b'window')
 
 
 def registerIngameHelpPagesBuilder(builder):
@@ -1424,3 +1455,228 @@ def registerTeamVoipSupport(guiType, status):
 
 def collectTeamVoipSupport(guiType):
     return __collectEM.handleEvent((TEAM_VOIP_SUPPORT, guiType), ctx={}).get(b'teamVoipSupport', False)
+
+
+def registerDynamicRandomHangarPresenters(accessor, presenter):
+
+    def onCollect(ctx):
+        ctx[b'dynamicRandomHangarPresenters'][accessor] = presenter
+        return
+
+    __collectEM.addListener(DYNAMIC_RANDOM_HANGAR_PRESENTERS, onCollect)
+    return
+
+
+def collectDynamicRandomHangarPresenters():
+    return __collectEM.handleEvent(DYNAMIC_RANDOM_HANGAR_PRESENTERS, {b'dynamicRandomHangarPresenters': {}})[b'dynamicRandomHangarPresenters']
+
+
+def registerSpecialQuestsCheckers(name, checker):
+
+    def onCollect(ctx):
+        ctx[b'specialQuestsCheckers'][name] = checker
+        return
+
+    __collectEM.addListener(SPECIAL_QUESTS_CHECKERS, onCollect)
+    return
+
+
+def collectSpecialQuestsCheckers():
+    return __collectEM.handleEvent(SPECIAL_QUESTS_CHECKERS, {b'specialQuestsCheckers': {}})[b'specialQuestsCheckers']
+
+
+def registerDynamicBattleControllerRepo(repoCls):
+
+    def onCollect(ctx):
+        ctx[b'repo'] = repoCls.create(ctx[b'setup']) if repoCls else None
+        return
+
+    __collectEM.addListener(DYNAMIC_BATTLE_REPO, onCollect)
+    return
+
+
+def collectDynamicBattleControllerRepo(setup):
+    ctx = __collectEM.handleEvent(DYNAMIC_BATTLE_REPO, ctx={b'setup': setup})
+    return (ctx.get(b'repo'), b'repo' in ctx)
+
+
+def registerEarnedXpDetailsPacker(earnedXpDetailsPacker):
+
+    def onCollect(ctx):
+        ctx[b'earnedXpDetailsPacker'] = earnedXpDetailsPacker
+        return
+
+    __collectEM.addListener(EARNED_XP_DETAILS_PACKER, onCollect)
+    return
+
+
+def collectEarnedXpDetailsPacker():
+    return __collectEM.handleEvent(EARNED_XP_DETAILS_PACKER, {b'earnedXpDetailsPacker': ()})[b'earnedXpDetailsPacker']
+
+
+def registerFreeXpDetailsPacker(freeXpDetailsPacker):
+
+    def onCollect(ctx):
+        ctx[b'freeXpDetailsPacker'] = freeXpDetailsPacker
+        return
+
+    __collectEM.addListener(FREE_XP_DETAILS_PACKER, onCollect)
+    return
+
+
+def collectFreeXpDetailsPacker():
+    return __collectEM.handleEvent(FREE_XP_DETAILS_PACKER, {b'freeXpDetailsPacker': ()})[b'freeXpDetailsPacker']
+
+
+def registerCreditsStatisticsPacker(creditsStatisticsPacker):
+
+    def onCollect(ctx):
+        ctx[b'creditsStatisticsPacker'] = creditsStatisticsPacker
+        return
+
+    __collectEM.addListener(CREDITS_STATISTICS_PACKER, onCollect)
+    return
+
+
+def collectCreditsStatisticsPacker():
+    return __collectEM.handleEvent(CREDITS_STATISTICS_PACKER, {b'creditsStatisticsPacker': ()})[b'creditsStatisticsPacker']
+
+
+def registerBonusPackers(bonusName, packer):
+
+    def onCollect(ctx):
+        ctx[b'bonusPackers'][bonusName] = packer
+        return
+
+    __collectEM.addListener(BONUS_PACKER, onCollect)
+    return
+
+
+def collectBonusPackers():
+    return __collectEM.handleEvent(BONUS_PACKER, {b'bonusPackers': {}})[b'bonusPackers']
+
+
+def registerDynamicLobbyHeaderTypes(validator, lobbyHeaderType):
+
+    def onCollect(ctx):
+        ctx[b'lobbyHeaderTypes'].extend([(validator, lobbyHeaderType)])
+        return
+
+    __collectEM.addListener(DYNAMIC_LOBBY_HEADER_TYPES, onCollect)
+    return
+
+
+def collectDynamicLobbyHeaderTypes():
+    return __collectEM.handleEvent(DYNAMIC_LOBBY_HEADER_TYPES, {b'lobbyHeaderTypes': []})[b'lobbyHeaderTypes']
+
+
+def registerC11nMessageLockAliases(alias):
+
+    def onCollect(ctx):
+        ctx[b'c11nMessageLockAliases'].append(alias)
+        return
+
+    __collectEM.addListener(C11N_MESSAGE_LOCK_ALIASES, onCollect)
+    return
+
+
+def collectC11nMessageLockAliases():
+    return __collectEM.handleEvent(C11N_MESSAGE_LOCK_ALIASES, {b'c11nMessageLockAliases': []})[b'c11nMessageLockAliases']
+
+
+def registerDynamicUmgIntroPresenters(accessor, presenter):
+
+    def onCollect(ctx):
+        ctx[b'dynamicUmgIntroPresenters'][accessor] = presenter
+        return
+
+    __collectEM.addListener(DYNAMIC_UMG_INTRO_PRESENTERS, onCollect)
+    return
+
+
+def collectDynamicUmgIntroPresenters():
+    return __collectEM.handleEvent(DYNAMIC_UMG_INTRO_PRESENTERS, {b'dynamicUmgIntroPresenters': {}})[b'dynamicUmgIntroPresenters']
+
+
+def registerDynamicUmgWinbackPresenters(accessor, presenter):
+
+    def onCollect(ctx):
+        ctx[b'dynamicUmgWinbackPresenters'][accessor] = presenter
+        return
+
+    __collectEM.addListener(DYNAMIC_UMG_WINBACK_PRESENTERS, onCollect)
+    return
+
+
+def collectDynamicUmgWinbackPresenters():
+    return __collectEM.handleEvent(DYNAMIC_UMG_WINBACK_PRESENTERS, {b'dynamicUmgWinbackPresenters': {}})[b'dynamicUmgWinbackPresenters']
+
+
+def registerDynamicUmgInfoPagePresenters(accessor, presenter):
+
+    def onCollect(ctx):
+        ctx[b'dynamicUmgInfoPagePresenters'][accessor] = presenter
+        return
+
+    __collectEM.addListener(DYNAMIC_UMG_INFO_PAGE_PRESENTERS, onCollect)
+    return
+
+
+def collectDynamicUmgInfoPagePresenters():
+    return __collectEM.handleEvent(DYNAMIC_UMG_INFO_PAGE_PRESENTERS, {b'dynamicUmgInfoPagePresenters': {}})[b'dynamicUmgInfoPagePresenters']
+
+
+def registerLootBoxInfoPage(validator, alias):
+
+    def onCollect(ctx):
+        ctx[b'lootBoxInfoPage'].append((validator, alias))
+        return
+
+    __collectEM.addListener(LOOTBOX_INFO_PAGE, onCollect)
+    return
+
+
+def collectLootBoxInfoPage():
+    return __collectEM.handleEvent(LOOTBOX_INFO_PAGE, {b'lootBoxInfoPage': []})[b'lootBoxInfoPage']
+
+
+def registerLootBoxMainView(validator, alias):
+
+    def onCollect(ctx):
+        ctx[b'lootBoxMainView'].append((validator, alias))
+        return
+
+    __collectEM.addListener(LOOTBOX_MAIN_VIEW, onCollect)
+    return
+
+
+def collectLootBoxMainView():
+    return __collectEM.handleEvent(LOOTBOX_MAIN_VIEW, {b'lootBoxMainView': []})[b'lootBoxMainView']
+
+
+def registerReplayRecordMap(recordMap):
+
+    def onCollect(ctx):
+        ctx[b'replayRecordMap'].update(recordMap)
+        return
+
+    __collectEM.addListener(REPLAY_RECORD_MAP, onCollect)
+    return
+
+
+def collectReplayRecordMap():
+    return __collectEM.handleEvent(REPLAY_RECORD_MAP, {b'replayRecordMap': {}})[b'replayRecordMap']
+
+
+def registerUserMissionPlugins(plugin):
+
+    def onCollect(ctx):
+        ctx[b'userMissionPlugins'].extend(plugin)
+        return
+
+    __collectEM.addListener(USER_MISSION_PLUGIN, onCollect)
+    return
+
+
+def collectUserMissionPlugins():
+    return __collectEM.handleEvent(USER_MISSION_PLUGIN, {b'userMissionPlugins': []})[b'userMissionPlugins']

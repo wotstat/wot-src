@@ -161,7 +161,6 @@ class ScopeController(DisposableEntity):
 
             return
         return self
-        return
 
     @classmethod
     def extractScopeFromView(cls, pyView):
@@ -196,7 +195,6 @@ class ScopeController(DisposableEntity):
                 raise ScopeControllerError((b'Could not to construct scopeController for {}').format(scope))
             return outcome
         return existingScopeController
-        return
 
     def __getLoadingViews(self):
         views = set()

@@ -120,7 +120,7 @@ class IEventsCache(object):
         raise NotImplementedError
         return
 
-    def getAllQuests(self, filterFunc=None, includePersonalMissions=False, makeRelations=True):
+    def getAllQuests(self, filterFunc=None, includePersonalMissions=False, specialQuestsGroup=None):
         raise NotImplementedError
         return
 
@@ -133,6 +133,14 @@ class IEventsCache(object):
         return
 
     def getAnnouncedActions(self):
+        raise NotImplementedError
+        return
+
+    def getQuestByID(self, qID):
+        raise NotImplementedError
+        return
+
+    def getQuestsByIDs(self, qIDs):
         raise NotImplementedError
         return
 

@@ -35,6 +35,7 @@ IS_LOAD_GLOSSARY = False
 IS_CGF_DUMP = BigWorld.component == b'client_cgf_dump'
 IS_PROCESS_REPLAY = BigWorld.component.endswith(b'process_replay')
 IS_UNKNOWN = BigWorld.component == b'Unknown'
+IS_COMMON_ENV = BigWorld.component == b'common'
 DEFAULT_LANGUAGE = b'en'
 AUTH_REALM = b'EU'
 IS_DEVELOPMENT = CURRENT_REALM == b'DEV'
@@ -43,9 +44,9 @@ IS_KOREA = CURRENT_REALM == b'KR'
 IS_SINGAPORE = CURRENT_REALM == b'ASIA'
 IS_SANDBOX = CURRENT_REALM == b'SB'
 IS_CT = CURRENT_REALM == b'CT'
-REALMS = frozenset([37, 30, 38, 34, 32, 33, 36, 39, 40, 31, 35])
-OVERRIDE_CODES = frozenset([37, 30, 38, 34, 32, 33, 36, 39, 40, 31, 35, 41])
-REGIONAL_REALMS = frozenset([37, 30, 38, 34, 32, 33])
+REALMS = frozenset([38, 31, 39, 35, 33, 34, 37, 40, 41, 32, 36])
+OVERRIDE_CODES = frozenset([38, 31, 39, 35, 33, 34, 37, 40, 41, 32, 36, 42])
+REGIONAL_REALMS = frozenset([38, 31, 39, 35, 33, 34])
 CURRENT_REALM_IS_REGIONAL = CURRENT_REALM in REGIONAL_REALMS
 NULL_CLUSTER_ID = BigWorld.NULL_CLUSTER_ID
 STANDALONE_CLUSTER_ID = BigWorld.DEFAULT_CLUSTER_ID
@@ -445,6 +446,7 @@ class FINISH_REASON:
     OWN_VEHICLE_DESTROYED = 9
     DESTROYED_OBJECTS = 10
     OBJECTIVES_COMPLETED = 11
+    RIGGED_BATTLE = 12
     AFK = 101
 
 
@@ -554,6 +556,16 @@ class PREBATTLE_ROLE:
     TRAINING_CREATOR = TRAINING_DEFAULT | TEAM_READY_1 | TEAM_READY_2 | ASSIGNMENT_1 | ASSIGNMENT_2 | ASSIGNMENT_1_2 | KICK_1 | KICK_2 | CHANGE_ARENA | CHANGE_COMMENT | OPEN_CLOSE | INVITE | CHANGE_ARENA_VOIP
     SQUAD_DEFAULT = SEE_1
     SQUAD_CREATOR = SQUAD_DEFAULT | TEAM_READY_1 | KICK_1 | INVITE | CHANGE_GAMEPLAYSMASK
+
+
+class PREBATTLE_SEQUENCE_EVENT_NAMES:
+    ON_ANIMATION = b'onAnimation'
+    ON_START_PBH_STAGE = b'onStartPbhStage'
+    ON_PBH_ENDS = b'onPbhEnds'
+    ON_FOCUS_CAMERA_0 = b'onFocusCamera0'
+    ON_FOCUS_CAMERA_1 = b'onFocusCamera1'
+    ON_FOCUS_CAMERA_2 = b'onFocusCamera2'
+    ON_PET_HIGHLIGHT_ANIM = b'onPetHighlightAnim'
 
 
 class PREBATTLE_STATE:
@@ -868,14 +880,15 @@ class Configs(enum.Enum):
     INGAME_TOURNAMENT_CONFIG = b'ingame_tournament_config'
     W2GT_CONFIG = b'w2gt_config'
     CHALLENGES_CONFIG = b'challenges_config'
+    PRE_BATTLE_HIGHLIGHTS_CONFIG = b'pbh_config'
 
 
 INBATTLE_CONFIGS = [
- 239, 
- 240, 
- 241, 
  242, 
- 243]
+ 243, 
+ 244, 
+ 245, 
+ 246]
 
 class RESTRICTION_TYPE:
     NONE = 0
@@ -1250,6 +1263,7 @@ class ATTACK_REASON(object):
     DAMAGE_ZONE = b'damage_zone'
     ULTIMATE = b'ultimate'
     OVERHEAT_EXECUTE = b'overheat_execute'
+    HE_ROCKET = b'he_rocket'
     NONE = b'none'
 
     @classmethod
@@ -1276,7 +1290,7 @@ ATTACK_REASONS = [
  ATTACK_REASON.CGF_WORLD, ATTACK_REASON.VEHICLE_EXPLOSION, ATTACK_REASON.BUNKER_DESTROYED,
  ATTACK_REASON.MINEFIELD_ZONE, ATTACK_REASON.BATTLESHIP, ATTACK_REASON.DESTROYER, ATTACK_REASON.DAMAGE_ZONE,
  ATTACK_REASON.ULTIMATE,
- ATTACK_REASON.OVERHEAT_EXECUTE]
+ ATTACK_REASON.OVERHEAT_EXECUTE, ATTACK_REASON.HE_ROCKET]
 ATTACK_REASON_INDICES = {value: index for index, value in enumerate(ATTACK_REASONS)}
 BOT_RAM_REASONS = (
  ATTACK_REASON.BRANDER_RAM, ATTACK_REASON.CLING_BRANDER_RAM)
@@ -1303,6 +1317,7 @@ class VEHICLE_HIT_EFFECT:
     MAX_CODE = ARMOR_PIERCED_DEVICE_DAMAGED
     RICOCHETS = (INTERMEDIATE_RICOCHET, FINAL_RICOCHET)
     PIERCED_HITS = (ARMOR_PIERCED_NO_DAMAGE, ARMOR_PIERCED, CRITICAL_HIT, ARMOR_PIERCED_DEVICE_DAMAGED)
+    PIERCED_DAMAGED_HITS = (ARMOR_PIERCED, CRITICAL_HIT, ARMOR_PIERCED_DEVICE_DAMAGED)
     INVALID = 15
     _GROUP_MAPPING = {INTERMEDIATE_RICOCHET: b'armorBasicRicochet', 
        FINAL_RICOCHET: b'armorRicochet', 
@@ -1350,15 +1365,13 @@ class VEHICLE_HIT_FLAGS(BIN_FLAGS):
     IS_ANY_IMPACT_MASK = IS_ANY_DAMAGE_MASK | IS_ANY_PIERCING_MASK
     IS_ANY_PIERCING_BY_PROJECTILE_MASK = MATERIAL_WITH_POSITIVE_DF_PIERCED_BY_PROJECTILE | DEVICE_PIERCED_BY_PROJECTILE | ARMOR_WITH_ZERO_DF_PIERCED_BY_PROJECTILE
     IS_SHELL_HIT_TO_VEHICLE_MASK = ATTACK_IS_DIRECT_PROJECTILE | ATTACK_IS_EXTERNAL_EXPLOSION
+    IS_ANY_PIERCING_DAMAGE_PROJECTILE_MASK = MATERIAL_WITH_POSITIVE_DF_PIERCED_BY_PROJECTILE | DEVICE_PIERCED_BY_PROJECTILE
 
 
 VEHICLE_HIT_FLAGS_BY_NAME = {k: v for k, v in viewitems(VEHICLE_HIT_FLAGS.__dict__) if not k.startswith(b'_')}
 FIRE_NOTIFICATION_CODES = (b'DEVICE_STARTED_FIRE_AT_SHOT', b'DEVICE_STARTED_FIRE_AT_RAMMING', b'FIRE_STOPPED')
 FIRE_NOTIFICATION_INDICES = dict((x[1], x[0]) for x in enumerate(FIRE_NOTIFICATION_CODES))
 DAMAGE_INFO_CODES = [
- 308, 
- 309, 
- 310, 
  311, 
  312, 
  313, 
@@ -1405,7 +1418,10 @@ DAMAGE_INFO_CODES = [
  354, 
  355, 
  356, 
- 357]
+ 357, 
+ 358, 
+ 359, 
+ 360]
 
 class IGR_TYPE:
     NONE = 0
@@ -1531,6 +1547,7 @@ ENDLESS_TOKEN_TIME_STRING = b'28.01.2100 00:01'
 ENDLESS_TOKEN_TIME = int(calendar.timegm(time.strptime(ENDLESS_TOKEN_TIME_STRING, b'%d.%m.%Y %H:%M')))
 END_OF_GAME_DAY = {b'endOfGameDay': True}
 LOOTBOX_TOKEN_PREFIX = b'lootBox:'
+REROLL_STOP_TOKEN_PREFIX = b'reroll_stop:'
 TWITCH_TOKEN_PREFIX = b'token:twitch'
 CUSTOMIZATION_PROGRESS_PREFIX = b'cust_progress_'
 STYLE_3D_PROGRESS_PREFIX = b'style_3D_progress'
@@ -1540,8 +1557,11 @@ DEMO_ACCOUNT_ATTR = b'isDemoAccount'
 HAS_PM1_COMPLETED_TOKEN = b'has_completed_pm1'
 HAS_PM2_COMPLETED_TOKEN = b'has_completed_pm2'
 HAS_PM3_COMPLETED_TOKEN = b'has_completed_pm3'
+HAS_PM4_COMPLETED_TOKEN = b'has_completed_pm4'
 HAS_PM_BRANCH_COMPLETED_TOKEN = b'has_completed_pm_branch'
-PM3_FINISHED_OPERATION_TEMPLATE = b'token:pt:s3:t{}:finished:base'
+PM_FINISHED_OPERATION_TEMPLATE = b'token:pt:s{}:t{}:finished:base'
+PM_FINISHED_WITH_HONOR_OPERATION_TEMPLATE = b'token:pt:s{}:t{}:finished:honor'
+PM_FINISHED_WITH_HONOR_SEASON_TEMPLATE = b'token:pt:s{}:finished:honor'
 LINKED_SET_UNFINISHED_TOKEN = b'linkedset_unfinished'
 FREE_PREMIUM_CREW_LOG_EXT_PREFIX = b'free_premium_crew:level:'
 ATTACHMENTS_SET_TOKEN_PREFIX = b'attachments_set'
@@ -1852,6 +1872,7 @@ class REQUEST_COOLDOWN:
     RUN_QUEST = 1.0
     PAWN_FREE_AWARD_LIST = 1.0
     LOOTBOX = 1.0
+    LOOTBOX_REROLL = 1.0
     BADGES = 2.0
     CREW_SKINS = 0.3
     BPF_COMMAND = 1.0
@@ -2116,10 +2137,11 @@ class USER_SERVER_SETTINGS:
     REFERRAL_PROGRAM = 114
     ADVANCED_ACHIEVEMENTS_STORAGE = 115
     PERSONAL_MISSION_3 = 124
+    PERSONAL_MISSION_4 = 129
     _ALL = (
      GAME, HIDE_MARKS_ON_GUN, EULA_VERSION, GAME_EXTENDED, BATTLE_MATTERS_QUESTS, SESSION_STATS, DOG_TAGS,
      GAME_EXTENDED_2, BATTLE_HUD, CONTOUR, UI_STORAGE_2, BATTLE_EVENTS, SENIORITY_AWARDS,
-     ADVANCED_ACHIEVEMENTS_STORAGE, BATTLE_COMM, PERSONAL_MISSION_3)
+     ADVANCED_ACHIEVEMENTS_STORAGE, BATTLE_COMM, PERSONAL_MISSION_3, PERSONAL_MISSION_4)
 
     @classmethod
     def isBattleInvitesForbidden(cls, settings):
@@ -2235,6 +2257,7 @@ INT_USER_SETTINGS_KEYS = {(USER_SERVER_SETTINGS.VERSION): b'Settings version',
    (USER_SERVER_SETTINGS.GAME_EXTENDED_2): b'Game extended section settings 2', 
    103: b'Mapbox carousel filter 1', 
    104: b'Mapbox carousel filter 2', 
+   105: b'New Year settings storage', 
    (USER_SERVER_SETTINGS.CONTOUR): b'Contour settings', 
    107: b'Fun Random carousel filter 1', 
    108: b'Fun Random carousel filter 2', 
@@ -2255,7 +2278,8 @@ INT_USER_SETTINGS_KEYS = {(USER_SERVER_SETTINGS.VERSION): b'Settings version',
    125: b'Competitive7x7 Light carousel filter 1', 
    126: b'Competitive7x7 Light carousel filter 2', 
    127: b'Competitive7x7 Light carousel filter 3', 
-   128: b'Situational perks'}
+   128: b'Situational perks', 
+   (USER_SERVER_SETTINGS.PERSONAL_MISSION_4): b'personal mission 4 settings'}
 
 class WG_GAMES:
     TANKS = b'wot'
@@ -2558,12 +2582,9 @@ class VEHICLE_SIEGE_STATE:
     def getMode(cls, siegeState):
         if siegeState in cls.DEFAULT_MODE:
             return VEHICLE_MODE.DEFAULT
-        else:
-            if siegeState in cls.SIEGE_MODE:
-                return VEHICLE_MODE.SIEGE
-            return VEHICLE_MODE.DEFAULT
-
-        return
+        if siegeState in cls.SIEGE_MODE:
+            return VEHICLE_MODE.SIEGE
+        return VEHICLE_MODE.DEFAULT
 
     @classmethod
     def isEnabled(cls, siegeState):
@@ -2608,6 +2629,19 @@ class DUAL_ACCURACY_STATE:
         return {(cls.ACTIVE): b'active', 
            (cls.NOT_ACTIVE): b'not active', 
            (cls.NONE): b'none'}.get(value)
+
+
+class SIGHT_POINTER_STATE(enum.IntEnum):
+    DISABLED = 0
+    PREPARING = 1
+    READY = 2
+    ACTIVE = 3
+    COOLDOWN = 4
+
+
+class SIGHT_POINTER_COMMON_CONSTANTS(object):
+    ANIMATION_DELAY = 3
+    MIN_ACTIVE_DURATION = 1.5
 
 
 class CONTENT_TYPE:
@@ -2710,14 +2744,11 @@ class BATTLE_LOG_SHELL_TYPES(enum.IntEnum):
     def getType(cls, shellDescr):
         if shellDescr.kind != SHELL_TYPES.HIGH_EXPLOSIVE:
             return cls[shellDescr.kind]
-        else:
-            if shellDescr.type.mechanics == SHELL_MECHANICS_TYPE.MODERN:
-                return cls.HE_MODERN
-            if shellDescr.hasStun:
-                return cls.HE_LEGACY_STUN
-            return cls.HE_LEGACY_NO_STUN
-
-        return
+        if shellDescr.type.mechanics == SHELL_MECHANICS_TYPE.MODERN:
+            return cls.HE_MODERN
+        if shellDescr.hasStun:
+            return cls.HE_LEGACY_STUN
+        return cls.HE_LEGACY_NO_STUN
 
     @classmethod
     def getIndex(cls, shellDescr):
@@ -2729,6 +2760,13 @@ class BATTLE_LOG_SHELL_TYPES(enum.IntEnum):
         if withGold and shellDescr.isGold:
             shellType += SHELL_TYPES.IMPROVED_POSTFIX
         return shellType
+
+
+class BATTLE_LOG_MECHANIC_SHOT(enum.IntEnum):
+    NOT_DEFINED = 0
+    SHELL_SWITCHER_NOT_CHARGED = 1
+    SHELL_SWITCHER_CHARGED = 2
+    BUSTLE_FEED_ACTIVE = 3
 
 
 class HIT_INDIRECTION:
@@ -3011,7 +3049,8 @@ class ROLE_TYPE:
     ATSPG_SNIPER = 12
     ATSPG_SUPPORT = 13
     LT_UNIVERSAL = 14
-    LT_WHEELED = 15
+    LT_SCOUT = 16
+    LT_SUPPORT = 17
 
 
 ROLE_LABEL_TO_TYPE = {b'NotDefined': (ROLE_TYPE.NOT_DEFINED), 
@@ -3029,7 +3068,8 @@ ROLE_LABEL_TO_TYPE = {b'NotDefined': (ROLE_TYPE.NOT_DEFINED),
    b'role_ATSPG_sniper': (ROLE_TYPE.ATSPG_SNIPER), 
    b'role_ATSPG_support': (ROLE_TYPE.ATSPG_SUPPORT), 
    b'role_LT_universal': (ROLE_TYPE.LT_UNIVERSAL), 
-   b'role_LT_wheeled': (ROLE_TYPE.LT_WHEELED)}
+   b'role_LT_scout': (ROLE_TYPE.LT_SCOUT), 
+   b'role_LT_support': (ROLE_TYPE.LT_SUPPORT)}
 ROLE_TYPE_TO_LABEL = dict((index, label) for label, index in ROLE_LABEL_TO_TYPE.items())
 
 class COMMON_ROLE:
@@ -3046,7 +3086,8 @@ COMMON_ROLE_TO_ROLE_TYPE = {(COMMON_ROLE.ASSAULT): (frozenset((ROLE_TYPE.HT_ASSA
                          ROLE_TYPE.ATSPG_UNIVERSAL))), 
    (COMMON_ROLE.SNIPER): (frozenset((ROLE_TYPE.HT_SUPPORT, ROLE_TYPE.MT_SUPPORT, ROLE_TYPE.MT_SNIPER,
                         ROLE_TYPE.ATSPG_SNIPER, ROLE_TYPE.ATSPG_SUPPORT))), 
-   (COMMON_ROLE.SUPPORT): (frozenset((ROLE_TYPE.LT_UNIVERSAL, ROLE_TYPE.LT_WHEELED, ROLE_TYPE.SPG)))}
+   (COMMON_ROLE.SUPPORT): (frozenset((ROLE_TYPE.LT_UNIVERSAL, ROLE_TYPE.LT_SCOUT, ROLE_TYPE.LT_SUPPORT,
+                         ROLE_TYPE.SPG)))}
 ROLE_TYPE_TO_COMMON_ROLE = {role: common_role for role in COMMON_ROLE_TO_ROLE_TYPE.items()}
 
 class ACTION_TYPE:
@@ -3429,15 +3470,15 @@ class LoadoutParams(object):
 
 
 BATTLE_MODE_VEHICLE_TAGS = {
- 437, 
- 108, 
- 914, 
- 915, 
- 435, 
- 916, 
- 917, 
- 121, 
- 918}
+ 444, 
+ 109, 
+ 931, 
+ 932, 
+ 442, 
+ 933, 
+ 934, 
+ 122, 
+ 935}
 BATTLE_MODE_VEH_TAGS_EXCEPT_EVENT = BATTLE_MODE_VEHICLE_TAGS - {b'event_battles'}
 BATTLE_MODE_VEH_TAGS_EXCEPT_EPIC = BATTLE_MODE_VEHICLE_TAGS - {b'epic_battles'}
 BATTLE_MODE_VEH_TAGS_EXCEPT_CLAN = BATTLE_MODE_VEHICLE_TAGS - {b'clanWarsBattles'}
@@ -3541,7 +3582,7 @@ class IMPACT_TYPES:
 
 
 QUESTS_SUPPORTED_EXCLUDE_TAGS = {
- 936, 937, 938, 939, 940, 437}
+ 953, 954, 955, 956, 957, 444}
 VEHICLE_HEALTH_DECIMALS = 1
 
 class VehicleDirection(object):
@@ -3763,6 +3804,11 @@ class DIRECT_DETECTION_TYPE:
     STEALTH_RADAR = 3
     SPECIAL_RECON = 4
     UNSPOTTED = 5
+    SIGHT_POINTER_IN_SECTOR = 6
+    SIGHT_POINTER_DETECTION = 7
+    ILLUMINATION_FLARE = 8
+    SPECIAL_SIXTH_SENSE_TYPES = (
+     SPECIAL_RECON, ILLUMINATION_FLARE)
 
 
 class PlayerSatisfactionRatingInterface(IntEnum):
@@ -3812,10 +3858,7 @@ class CommendationsState(IntEnum):
     def transition(self, isSender):
         if isSender:
             return self._transitionStateOnSend()
-        else:
-            return self._transitionStateOnReceive()
-
-        return
+        return self._transitionStateOnReceive()
 
     def _transitionStateOnSend(self):
         if self.value == CommendationsState.UNSENT:
@@ -4071,6 +4114,46 @@ class STANCE_CMD_RESULT:
     ENGINE_DESTROYED = 7
 
 
+@enum.unique
+class AUTORELOADER_SURGE_STATE(enum.IntEnum):
+    UNAVAILABLE = 0
+    CHARGING = 1
+    IN_USE = 2
+    MAX_CHARGES = 4
+
+
+@enum.unique
+class AUTORELOADER_SURGE_RESTRICTION(enum.IntEnum):
+    NO_RESTRICTION = 0
+    UNAVAILABLE = 1
+    NO_CHARGES = 2
+    CLIP_FULL = 4
+    SHORT_RELOAD_TIME = 8
+    NO_AMMO = 16
+    ALREADY_ACTIVE = 32
+
+    @classmethod
+    def getTopPriorityRestriction(cls, restrictions):
+        return cls(restrictions & -restrictions)
+
+
+@enum.unique
+class CREST_MOVING_STATE(enum.IntEnum):
+    STOPPED = 0
+    RUNNING_UP = 1
+    RUNNING_DOWN = 2
+
+    @property
+    def isRunning(self):
+        return self in (CREST_MOVING_STATE.RUNNING_UP, CREST_MOVING_STATE.RUNNING_DOWN)
+
+
+@enum.unique
+class CREST_MOVING_DIRECTION(enum.IntEnum):
+    UP = 0
+    DOWN = 1
+
+
 class GUN_LOCK_REASONS:
     NONE = 0
     OVERTURN = 1
@@ -4174,8 +4257,50 @@ class WheeledDashDirection(enum.IntEnum):
     BACKWARD = 2
 
 
+class SHELL_PARAMS_SWITCHER_STATE:
+    NOT_CHARGED = 0
+    CHARGED = 1
+    SWITCHING_OFF = 2
+    SWITCHING_ON = 3
+    ACTIVE_STATES_ALL = (
+     NOT_CHARGED, CHARGED)
+    SWITCHING_STATES = (SWITCHING_OFF, SWITCHING_ON)
+    _IDX_TO_NAME = {NOT_CHARGED: b'not charged', 
+       CHARGED: b'charged', 
+       SWITCHING_OFF: b'switching off', 
+       SWITCHING_ON: b'switching on'}
+
+    @classmethod
+    def toString(cls, value):
+        return cls._IDX_TO_NAME.get(value, str(value))
+
+
+class SHELL_PARAMS_SWITCHER_MASK:
+    NONE = 0
+    MODULE_CRIT = 1
+    NO_AMMO = 2
+
+
+class SHELL_CALIBRATION_STATE(enum.IntEnum):
+    INACTIVE = 0
+    READY = 1
+    PENETRATION_BONUS = 2
+    NON_PENETRATION_BONUS = 4
+    WAITING_RESULT = 8
+
+
 VEHICLE_MIN_ABS_INITIAL_SPEED = 0.1
 SHOT_PREDICTION_BUFFER = 0.3
+QUEST_BONUS_TYPES = {
+ 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 
+ 957, 1118, 
+ 1119, 1120, 1121, 1122, 1123, 1124, 
+ 1125, 1126, 1127, 1128, 1129, 
+ 1130, 
+ 1131, 1132, 1133, 1134, 1135, 1136, 
+ 1137, 1138, 1139, 1140, 
+ 1141, 
+ 1142, 1143, 1144}
 
 class W2GT_STAGES(object):
     STAGE1 = b'stage1'
@@ -4199,3 +4324,41 @@ class PROPELLANT_GUN_STATE:
     @classmethod
     def toString(cls, value):
         return cls._STATE_TO_NAME.get(value)
+
+
+class BUSTLE_FEED_STATE:
+    INACTIVE = 0
+    ACTIVATION = 1
+    ACTIVE = 2
+    DEACTIVATION = 3
+    _STATE_TO_NAME = {INACTIVE: b'inactive', 
+       ACTIVATION: b'activation', 
+       ACTIVE: b'active', 
+       DEACTIVATION: b'deactivation'}
+
+    @classmethod
+    def toString(cls, value):
+        return cls._STATE_TO_NAME.get(value)
+
+
+class BUSTLE_FEED_SWITCH_ACCESS:
+    ENABLED = 0
+    LOCKED = 1
+    DISABLED = 2
+
+    @staticmethod
+    def fromData(isLocked=False, isDisabled=False):
+        state = BUSTLE_FEED_SWITCH_ACCESS.ENABLED
+        if isLocked:
+            state |= BUSTLE_FEED_SWITCH_ACCESS.LOCKED
+        if isDisabled:
+            state |= BUSTLE_FEED_SWITCH_ACCESS.DISABLED
+        return state
+
+    @staticmethod
+    def isLocked(status):
+        return bool(status & BUSTLE_FEED_SWITCH_ACCESS.LOCKED)
+
+    @staticmethod
+    def isDisabled(status):
+        return bool(status & BUSTLE_FEED_SWITCH_ACCESS.DISABLED)

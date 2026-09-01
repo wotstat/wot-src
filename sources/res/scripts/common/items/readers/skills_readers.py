@@ -26,11 +26,12 @@ def _readUISettings(xmlCtx, section, subsectionName):
     from items.artefacts_helpers import readKpi
     section = _xml.getSubsection(xmlCtx, section, subsectionName, throwIfMissing=False)
     if not section:
-        return
-    kpi = []
-    if IS_CLIENT and section.has_key(b'kpi'):
-        kpi = readKpi(xmlCtx, section[b'kpi'])
-    return SkillUISettings(tooltipSection=_xml.readStringWithDefaultValue(xmlCtx, section, b'tooltipSection', TTC_TOOLTIP_SECTIONS.SKILLS), typeName=_xml.readStringWithDefaultValue(xmlCtx, section, b'typeName', SkillTypeName.MAIN), kpi=kpi, descrArgs=_readDescrArgs(xmlCtx, section, b'descr'), params=_readTTCParams(xmlCtx, section, b'params'))
+        return None
+    else:
+        kpi = []
+        if IS_CLIENT and section.has_key(b'kpi'):
+            kpi = readKpi(xmlCtx, section[b'kpi'])
+        return SkillUISettings(tooltipSection=_xml.readStringWithDefaultValue(xmlCtx, section, b'tooltipSection', TTC_TOOLTIP_SECTIONS.SKILLS), typeName=_xml.readStringWithDefaultValue(xmlCtx, section, b'typeName', SkillTypeName.MAIN), kpi=kpi, descrArgs=_readDescrArgs(xmlCtx, section, b'descr'), params=_readTTCParams(xmlCtx, section, b'params'))
 
 
 def _readDescrArgs(xmlCtx, section, subsectionName):

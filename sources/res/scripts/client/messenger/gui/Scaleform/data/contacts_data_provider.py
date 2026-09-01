@@ -7,7 +7,7 @@ from messenger.m_constants import USER_TAG as _TAG
 from messenger.m_constants import USER_ACTION_ID as _ACTION_ID
 from messenger.proto.events import g_messengerEvents
 from messenger.proto.shared_find_criteria import UserTagsFindCriteria
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, PlayerCtxStorage, UsersStorage
 from skeletons.account_helpers.settings_core import ISettingsCore
 
 class _Category(object):
@@ -253,15 +253,12 @@ class _FriendsCategory(_Category):
 
 class _FormationCategory(_Category):
     __slots__ = (b'_clan', b'__parentItemData')
+    playerCtx = MessengerStorageDescriptor(PlayerCtxStorage)
 
     def __init__(self):
         super(_FormationCategory, self).__init__(CONTACTS_ALIASES.GROUP_FORMATIONS_CATEGORY_ID)
         self.__parentItemData = self._converter.makeBaseVO()
         self._clan = _vo_converter.ClanConverter(self.__parentItemData, self.playerCtx.getClanAbbrev())
-        return
-
-    @storage_getter(b'playerCtx')
-    def playerCtx(self):
         return
 
     def clear(self, full=False):
@@ -674,6 +671,7 @@ class _OpenedTreeCreator(object):
 
 class ContactsDataProvider(DAAPIDataProvider):
     settingsCore = dependency.descriptor(ISettingsCore)
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
 
     def __init__(self):
         super(ContactsDataProvider, self).__init__()
@@ -683,10 +681,6 @@ class ContactsDataProvider(DAAPIDataProvider):
         self.__list = []
         self.onTotalStatusChanged = Event.Event()
         self.settingsCore.onSettingsChanged += self.__onSettingsChanged
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     @property

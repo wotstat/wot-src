@@ -21,7 +21,14 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
+			</block>
+			<block>
+				<class>GameObjectToVehicle</class>
+				<id>GameObjectToVehicle_1</id>
+			</block>
+			<block>
+				<class>GetVehicleGameObject</class>
+				<id>GetVehicleGameObject_1</id>
 			</block>
 			<block>
 				<class>Timer</class>
@@ -48,7 +55,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -79,7 +85,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>Timer</class>
@@ -96,6 +101,16 @@
 						<const>\1.200000\</const>
 					</slot>
 				</slots>
+			</block>
+			<block>
+				<class>ComponentMethod</class>
+				<id>ComponentMethod_9</id>
+				<params>
+					<param>Animator.stop
+						<name>Component Type</name>
+						<type>StringT</type>
+					</param>
+				</params>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -119,29 +134,28 @@
 			</block>
 			<block>
 				<class>ComponentMethod</class>
-				<id>ComponentMethod_9</id>
+				<id>ComponentMethod_10</id>
 				<params>
 					<param>Animator.stop
 						<name>Component Type</name>
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>GameObjectToVehicle</class>
-				<id>GameObjectToVehicle_1</id>
-				<params></params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>GetVehicleGameObject</class>
-				<id>GetVehicleGameObject_1</id>
-				<params></params>
-				<slots></slots>
 			</block>
 		</blocks>
 		<connections>
+			<connection>
+				<from>GetVehicleGameObject_1</from>
+				<input>gameObject</input>
+				<to>GameObjectToVehicle_1</to>
+				<output>vehicleObject</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>GetVehicleGameObject_1</to>
+				<output>value</output>
+			</connection>
 			<connection>
 				<from>Macro_1</from>
 				<input>windup</input>
@@ -167,6 +181,12 @@
 				<output>out</output>
 			</connection>
 			<connection>
+				<from>Macro_1</from>
+				<input>in</input>
+				<to>ComponentMethod_3</to>
+				<output>PrebattleHighlightStart</output>
+			</connection>
+			<connection>
 				<from>ContextGetSelf_1</from>
 				<input>gameObject</input>
 				<to>ComponentMethod_3</to>
@@ -185,18 +205,6 @@
 				<output>onKill</output>
 			</connection>
 			<connection>
-				<from>ComponentMethod_9</from>
-				<input>in</input>
-				<to>ComponentMethod_1</to>
-				<output>out</output>
-			</connection>
-			<connection>
-				<from>ContextGetSelf_1</from>
-				<input>gameObject</input>
-				<to>ComponentMethod_1</to>
-				<output>value</output>
-			</connection>
-			<connection>
 				<from>Timer_3</from>
 				<input>in</input>
 				<to>ComponentMethod_9</to>
@@ -209,15 +217,27 @@
 				<output>value</output>
 			</connection>
 			<connection>
-				<from>GetVehicleGameObject_1</from>
-				<input>gameObject</input>
-				<to>GameObjectToVehicle_1</to>
-				<output>vehicleObject</output>
+				<from>ComponentMethod_9</from>
+				<input>in</input>
+				<to>ComponentMethod_1</to>
+				<output>out</output>
 			</connection>
 			<connection>
 				<from>ContextGetSelf_1</from>
 				<input>gameObject</input>
-				<to>GetVehicleGameObject_1</to>
+				<to>ComponentMethod_1</to>
+				<output>value</output>
+			</connection>
+			<connection>
+				<from>Macro_1</from>
+				<input>in</input>
+				<to>ComponentMethod_10</to>
+				<output>PrebattleHighlightEnd</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>ComponentMethod_10</to>
 				<output>value</output>
 			</connection>
 		</connections>

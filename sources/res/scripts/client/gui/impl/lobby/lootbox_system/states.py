@@ -1,17 +1,23 @@
+from __future__ import absolute_import
 import BigWorld
 from frameworks.wulf import WindowLayer
-from frameworks.state_machine.transitions import TransitionType
+from frameworks_common.state_machine.transitions import TransitionType
 from gui.impl import backport
 from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.lootbox_system.main_view_model import SubViewID
+from gui.lootbox_system.base.awards_manager import AwardsManager
 from gui.shared.event_dispatcher import showHangar
-from gui.lootbox_system.base.common import getTextResource
+from gui.lootbox_system.base.common import REROLLABLE_BOX_OPEN_COUNT, getTextResource
 from gui.Scaleform.framework.entities.View import ViewKey
 from gui.lobby_state_machine.states import StateFlags, LobbyStateFlags, SubScopeSubLayerState, LobbyState, LobbyStateDescription, SFViewLobbyState
+from gui.shared.system_factory import collectLootBoxInfoPage, collectLootBoxMainView
 from skeletons.gui.impl import IGuiLoader
 from skeletons.gui.app_loader import IAppLoader
 from helpers import dependency
 from skeletons.gui.game_control import ILootBoxSystemController
 from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+_REWARD_SUBVIEW_IDS = (
+ SubViewID.SINGLE_BOX_REWARDS, SubViewID.MULTIPLE_BOXES_REWARDS)
 
 def registerStates(machine):
     machine.addState(LootBoxState())
@@ -25,7 +31,7 @@ def registerTransitions(machine):
 
 
 class _LootBoxBaseState(SFViewLobbyState):
-    __lootBoxes = dependency.descriptor(ILootBoxSystemController)
+    _lootBoxes = dependency.descriptor(ILootBoxSystemController)
 
     def __init__(self, flags=StateFlags.UNDEFINED):
         super(_LootBoxBaseState, self).__init__(flags)
@@ -59,7 +65,7 @@ class _LootBoxBaseState(SFViewLobbyState):
 
     def isLootBoxesAvailable(self):
         eventName = self.__cachedParams.get(b'ctx', {}).get(b'eventName')
-        return self.__lootBoxes.isAvailable(eventName) and self.__lootBoxes.getActiveBoxes(eventName)
+        return self._lootBoxes.isAvailable(eventName) and self._lootBoxes.getActiveBoxes(eventName)
 
     def updateCachedCtx(self, params):
         ctx = self.__cachedParams.get(b'ctx', {})
@@ -70,9 +76,9 @@ class _LootBoxBaseState(SFViewLobbyState):
     def _getEvents(self):
         return (
          (
-          self.__lootBoxes.onStatusChanged, self.__onStatusChanged),
+          self._lootBoxes.onStatusChanged, self.__onStatusChanged),
          (
-          self.__lootBoxes.onBoxesAvailabilityChanged, self.__onStatusChanged))
+          self._lootBoxes.onBoxesAvailabilityChanged, self.__onStatusChanged))
 
     def _subscribe(self):
         for event, handler in self._getEvents():
@@ -154,6 +160,13 @@ class LootBoxInfoState(_LootBoxBaseState):
     STATE_ID = b'lootBoxInfoState'
     VIEW_KEY = ViewKey(VIEW_ALIAS.LOOT_BOXES_INFO_VIEW)
 
+    def getViewKey(self, params=None):
+        for validator, viewKey in collectLootBoxInfoPage():
+            if validator():
+                return viewKey
+
+        return self.VIEW_KEY
+
 
 @LootBoxState.parentOf
 class LootBoxMainState(_LootBoxBaseState):
@@ -167,8 +180,29 @@ class LootBoxMainState(_LootBoxBaseState):
         window = windowsManager.getViewByLayoutID(R.views.mono.lootbox.main())
         ctx = event.params.get(b'ctx', {})
         if ctx is not None and window is not None:
+            eventName = ctx.get(b'eventName')
+            if eventName is not None and ctx.get(b'subViewID') not in _REWARD_SUBVIEW_IDS:
+                for box in self._lootBoxes.getActiveBoxes(eventName):
+                    category = box.getCategory()
+                    rewards = self._lootBoxes.getPendingRerollRewards(eventName, category)
+                    if rewards is not None:
+                        ctx.update({b'count': REROLLABLE_BOX_OPEN_COUNT, 
+                           b'bonuses': [
+                                      AwardsManager.composeBonuses(eventName, [rewards])], 
+                           b'category': category, 
+                           b'subViewID': (SubViewID.SINGLE_BOX_REWARDS), 
+                           b'isReopen': True})
+                        break
+
             window.switchToSubView(**ctx)
         return
+
+    def getViewKey(self, params=None):
+        for validator, viewKey in collectLootBoxMainView():
+            if validator():
+                return viewKey
+
+        return self.VIEW_KEY
 
     def registerTransitions(self):
         super(LootBoxMainState, self).registerTransitions()

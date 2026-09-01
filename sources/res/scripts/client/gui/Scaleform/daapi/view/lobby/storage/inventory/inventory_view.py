@@ -19,22 +19,28 @@ VERSION = 1
 _TABS_DATA = (
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_ALL), 
     b'label': (R.strings.storage.storage.tabs.all), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_REGULAR_ITEMS_TAB)},
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_REGULAR_ITEMS_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_REGULAR_ITEMS_TAB)},
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_EQUIPMENT), 
     b'label': (R.strings.storage.storage.tabs.equipment), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_DEVICES_TAB)},
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_DEVICES_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_DEVICES_TAB)},
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_CONSUMABLE), 
     b'label': (R.strings.storage.storage.tabs.consumable), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_CONSUMABLES_TAB)},
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_CONSUMABLES_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_CONSUMABLES_TAB)},
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_MODULES), 
     b'label': (R.strings.storage.storage.tabs.modules), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_MODULES_TAB)},
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_MODULES_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_MODULES_TAB)},
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_SHELLS), 
     b'label': (R.strings.storage.storage.tabs.shells), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_SHELLS_TAB)},
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_SHELLS_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_SHELLS_TAB)},
  {b'id': (STORAGE_CONSTANTS.INVENTORY_TAB_CREW_BOOKS), 
     b'label': (R.strings.storage.storage.tabs.crewBooks), 
-    b'linkage': (STORAGE_CONSTANTS.STORAGE_CREW_BOOKS_TAB)})
+    b'linkage': (STORAGE_CONSTANTS.STORAGE_CREW_BOOKS_TAB), 
+    b'viewId': (STORAGE_CONSTANTS.STORAGE_CREW_BOOKS_TAB)})
 
 def _getTabDataIndexById(tabID):
     for i, section in enumerate(_TABS_DATA):

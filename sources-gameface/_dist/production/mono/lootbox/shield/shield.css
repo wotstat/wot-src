@@ -117,6 +117,18 @@ html[lang=th] .Number_base__size-large_bbebea6f .Number_count_26a61f60 {
   left: 50%;
   z-index: 1;
   transform: translate(-50%, -50%);
+}@keyframes Icon_fadeIn_55a8ab20 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Icon_2beee90a {
+  background: no-repeat center/contain;
 }@keyframes Highlight_fadeIn_bef8f9aa {
   from {
     opacity: 0;
@@ -142,20 +154,6 @@ html[lang=th] .Number_base__size-large_bbebea6f .Number_count_26a61f60 {
 }
 .Highlight_base__highlight_8b97c5a1 {
   color: #ffe4c0;
-}@keyframes Info_fadeIn_3f9bb731 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.Info_9c6dfc74 {
-  width: 24rem;
-  height: 24rem;
-  background: no-repeat center/contain;
 }@keyframes Title_fadeIn_2e63cf3 {
   from {
     opacity: 0;

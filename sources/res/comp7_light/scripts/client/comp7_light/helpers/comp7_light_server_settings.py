@@ -9,12 +9,12 @@ from helpers import dependency
 from skeletons.gui.lobby_context import ILobbyContext
 _logger = logging.getLogger(__name__)
 
-class _Comp7LightConfig(namedtuple(b'_Comp7LightConfig', (b'isEnabled', b'isTrainingEnabled', b'peripheryIDs', b'primeTimes', b'seasons', b'cycleTimes', b'battleModifiersDescr', b'maps', b'levels', b'numPlayers', b'squadSizes', b'forbiddenClassTags', b'forbiddenVehTypes', b'roleEquipments', b'poiEquipments', b'createVivoxTeamChannels', b'tournaments', b'progression'))):
+class _Comp7LightConfig(namedtuple(b'_Comp7LightConfig', (b'isEnabled', b'isTrainingEnabled', b'peripheryIDs', b'primeTimes', b'seasons', b'cycleTimes', b'battleModifiersDescr', b'maps', b'levels', b'numPlayers', b'squadSizes', b'allowedVehTypes', b'roleEquipments', b'roleEquipmentsByVehicle', b'poiEquipments', b'createVivoxTeamChannels', b'tournaments', b'progression'))):
     __slots__ = ()
 
     def __new__(cls, **kwargs):
         defaults = dict(isEnabled=False, isTrainingEnabled=False, peripheryIDs={}, primeTimes={}, seasons={}, cycleTimes={}, battleModifiersDescr=(), maps=set(), levels=[], numPlayers=7, squadSizes=[
-         0, 0], forbiddenClassTags=set(), forbiddenVehTypes=set(), roleEquipments={}, poiEquipments={}, createVivoxTeamChannels=False, tournaments={}, progression={})
+         0, 0], allowedVehTypes=set(), roleEquipments={}, roleEquipmentsByVehicle={}, poiEquipments={}, createVivoxTeamChannels=False, tournaments={}, progression={})
         defaults.update(kwargs)
         return super(_Comp7LightConfig, cls).__new__(cls, **defaults)
 

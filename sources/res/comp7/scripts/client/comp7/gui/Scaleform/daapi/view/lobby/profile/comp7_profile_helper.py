@@ -1,6 +1,6 @@
 from gui.Scaleform.daapi.view.lobby.profile.ProfileSection import DropdownData
-COMP7_SEASON_NUMBERS = (1, 2, 3)
-COMP7_ARCHIVE_NAMES = (b'Griffin', b'Pegasus', b'Manticore')
+COMP7_SEASON_NUMBERS = (1,)
+COMP7_ARCHIVE_NAMES = (b'Griffin', b'Pegasus', b'Manticore', b'Dragon')
 COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX = b'comp7_archive_'
 COMP7_SEASON_DROPDOWN_KEY_PREFIX = b'comp7_season_'
 

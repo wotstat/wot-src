@@ -94,6 +94,14 @@ package net.wg.gui.components.crosshairPanel
       {
       }
       
+      public function setShellCalibrationClipReloading(param1:String, param2:Number, param3:Boolean = false) : void
+      {
+      }
+      
+      public function setShellCalibrationState(param1:uint) : void
+      {
+      }
+      
       public function setGunMarkersData(param1:Vector.<GunMarkerIndicatorVO>, param2:Boolean) : void
       {
       }
@@ -102,7 +110,7 @@ package net.wg.gui.components.crosshairPanel
       {
       }
       
-      public function setInfo(param1:Number, param2:String, param3:String, param4:Boolean, param5:Boolean, param6:String, param7:String, param8:Number, param9:Number, param10:int, param11:String, param12:uint, param13:Number, param14:String, param15:String, param16:Boolean = false, param17:Boolean = false, param18:Boolean = false, param19:Boolean = false, param20:Boolean = false, param21:Boolean = false) : void
+      public function setInfo(param1:Number, param2:String, param3:String, param4:Boolean, param5:Boolean, param6:String, param7:String, param8:Number, param9:Number, param10:int, param11:String, param12:uint, param13:Number, param14:String, param15:String, param16:uint, param17:Boolean = false, param18:Boolean = false, param19:Boolean = false, param20:Boolean = false, param21:Boolean = false, param22:Boolean = false) : void
       {
          this.updatePlayerInfo(param7);
          this.updateAmmoState(param11);
@@ -116,6 +124,10 @@ package net.wg.gui.components.crosshairPanel
       {
       }
       
+      public function setAutoreloaderSurgeState(param1:Boolean) : void
+      {
+      }
+      
       public function setNetSeparatorVisible(param1:Boolean) : void
       {
       }
@@ -124,7 +136,7 @@ package net.wg.gui.components.crosshairPanel
       {
       }
       
-      public function setQuickReloadingTime(param1:Boolean, param2:Number) : void
+      public function setQuickReloadingTime(param1:Boolean, param2:String) : void
       {
       }
       

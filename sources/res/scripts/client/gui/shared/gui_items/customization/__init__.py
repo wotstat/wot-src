@@ -18,8 +18,8 @@ def isNeedToMirrorProjectionDecal(item, slot):
     return itemDirection != slotDirection
 
 
-CustomizationTooltipContext = namedtuple(b'CustomizationTooltipContext', (b'itemCD', b'vehicleIntCD', b'showInventoryBlock', b'level', b'showOnlyProgressBlock', b'skipQuestValidation'))
+CustomizationTooltipContext = namedtuple(b'CustomizationTooltipContext', (b'itemCD', b'vehicleIntCD', b'showInventoryBlock', b'level', b'showOnlyProgressBlock', b'skipQuestValidation', b'context'))
 CustomizationTooltipContext.__new__.__defaults__ = (
- -1, -1, False, -1, False, False)
+ -1, -1, False, -1, False, False, None)
 C11nStyleProgressData = namedtuple(b'C11nStyleProgressData', (b'styleID', b'branch', b'level'))
 C11nStyleProgressData.__new__.__defaults__ = (-1, -1, -1)

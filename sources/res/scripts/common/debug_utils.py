@@ -43,10 +43,7 @@ class _LogWrapper(object):
     def __call__(self, func):
         if self.__lvl >= _logLevel:
             return func
-        else:
-            return (lambda *args, **kwargs: None)
-
-        return
+        return (lambda *args, **kwargs: None)
 
 
 class CriticalError(BaseException):
@@ -107,7 +104,6 @@ def init():
     _g_logMapping = {b'TRACE': (BigWorld.logTrace), 
        b'DEBUG': (BigWorld.logDebug), 
        b'INFO': (BigWorld.logInfo), 
-       b'NOTE': (BigWorld.logNotice), 
        b'NOTICE': (BigWorld.logNotice), 
        b'WARNING': (BigWorld.logWarning), 
        b'ERROR': (BigWorld.logError), 
@@ -121,7 +117,7 @@ def init():
 @_LogWrapper(LOG_LEVEL.RELEASE)
 def CRITICAL_ERROR(msg, *kargs):
     msg = (b'{0}:{1}:{2}').format(_makeMsgHeader(sys._getframe(1)), msg, kargs)
-    BigWorld.logCritical(b'CRITICAL', msg, None)
+    BigWorld.logCritical(b'', msg, None)
     if IS_CLIENT:
         BigWorld.quit()
     elif IS_CELLAPP or IS_BASEAPP:
@@ -208,7 +204,7 @@ def LOG_OBSOLETE(msg, *kargs):
 
 @_LogWrapper(LOG_LEVEL.RELEASE)
 def LOG_NOTE(msg, *kargs, **kwargs):
-    _doLog(b'NOTE', msg, kargs, kwargs)
+    _doLog(b'NOTICE', msg, kargs, kwargs)
     return
 
 
@@ -245,7 +241,11 @@ def LOG_WRONG_CLIENT(entity, *kargs):
     return
 
 
-def _doLog(category, msg, args=None, kwargs={}, frameDepth=2):
+_PLAIN_LEVEL_CATEGORIES = frozenset((b'TRACE', b'DEBUG', b'INFO', b'NOTICE', b'WARNING', b'ERROR', b'CRITICAL', b'HACK'))
+
+def _doLog(category, msg, args=None, kwargs=None, frameDepth=2):
+    if kwargs is None:
+        kwargs = {}
     header = _makeMsgHeader(sys._getframe(frameDepth))
     logFunc = _g_logMapping.get(category, None)
     if not logFunc:
@@ -260,7 +260,8 @@ def _doLog(category, msg, args=None, kwargs={}, frameDepth=2):
     else:
         output = (u' ').join(map(unicode, [header, msg]))
     tags = kwargs.pop(b'tags', None)
-    logFunc(category, _addTagsToMsg(tags, output), None)
+    engineCategory = b'' if category in _PLAIN_LEVEL_CATEGORIES else category
+    logFunc(engineCategory, _addTagsToMsg(tags, output), None)
     if kwargs.get(b'stack', False):
         traceback.print_stack(file=sys.stdout)
     return
@@ -273,7 +274,7 @@ def _makeMsgHeader(frame):
         trim_path = trim_match[0]
         idx = filename.find(trim_path)
         filename = filename[idx + len(trim_path):]
-    return b'(%s, %d):' % (filename, frame.f_lineno)
+    return b'[%s, %d]' % (filename, frame.f_lineno)
 
 
 def _doLogFmt(prefix, fmt, *args):
@@ -421,8 +422,10 @@ def memoryLeaksSafeDump(id, _):
 
 def printConnections(ports):
     portsRE = (b'\\|').join(map(str, ports))
-    ns = subprocess.Popen([b'netstat', b'-atupn'], stdout=subprocess.PIPE)
-    gr = subprocess.Popen([b'grep', portsRE], stdin=ns.stdout, stdout=subprocess.PIPE)
+    ns = subprocess.Popen([
+     b'netstat', b'-atupn'], stdout=subprocess.PIPE)
+    gr = subprocess.Popen([
+     b'grep', portsRE], stdin=ns.stdout, stdout=subprocess.PIPE)
     output = gr.communicate()[0].splitlines()
     for line in output:
         LOG_DEBUG(b'Connection: ', line)

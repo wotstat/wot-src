@@ -47,10 +47,6 @@
 			</teamBasePositions>
 		</ctf>
 		<comp7>
-			<boundingBox>
-				<bottomLeft>-350 -500</bottomLeft>
-				<upperRight>400 250</upperRight>
-			</boundingBox>
 			<visualScript>
 				<server>
 					<plan>PointsOfInterest/pointsOfInterest</plan>
@@ -71,31 +67,35 @@
 			<minimap>spaces/31_airfield/mmap_comp7.dds</minimap>
 			<pointsOfInterestUDO>
 				<point>
-					<position>-3.21865511 -349.351166</position>
+					<position>-8.19790745 -462.377441</position>
 					<type>1</type>
 				</point>
 				<point>
-					<position>-1.12287402 186.48114</position>
+					<position>0.803725004 187.304993</position>
 					<type>1</type>
 				</point>
 				<point>
-					<position>-169.32373 -168.859085</position>
+					<position>-175.723312 252.749191</position>
 					<type>2</type>
 				</point>
 				<point>
-					<position>191.544647 -178.056107</position>
+					<position>227.942993 270.816986</position>
 					<type>2</type>
+				</point>
+				<point>
+					<position>10.283123 -196.07608</position>
+					<type>1</type>
 				</point>
 			</pointsOfInterestUDO>
 			<teamSpawnPoints>
 				<team1>
-					<position>309.114777 26.0854187</position>
+					<position>442.090454 -55.3899536</position>
 				</team1>
 				<team2>
-					<position>-314.454742 32.6400681</position>
+					<position>-402.241943 -73.4130707</position>
 				</team2>
 			</teamSpawnPoints>
-			<controlPoint>-2.11198401 -75.4353409</controlPoint>
+			<controlPoint>9.12419128 16.4477997</controlPoint>
 		</comp7>
 	</gameplayTypes>
 	<mapActivities>

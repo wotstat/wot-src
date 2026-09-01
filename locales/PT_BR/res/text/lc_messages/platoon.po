@@ -130,6 +130,9 @@ msgstr "Você não pode criar ou entrar em Pelotões porque não possui um veíc
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Pelotões de 2 e 7 jogadores estarão disponíveis depois de concluir a Qualificação."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Um Pelotão para dois jogadores ficará disponível assim que a Qualificação for concluída."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Não é possível criar um Pelotão."
 
@@ -141,6 +144,9 @@ msgstr "Crie um Pelotão ou junte-se a um existente. Os Pelotões no Investida p
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Pelotão"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Crie um Pelotão ou junte-se a um existente. Os Pelotões no Investida podem consistir de apenas dois jogadores."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Crie uma unidade tática de 2 ou 3 jogadores para jogar cooperativamente.\n• Modos de Batalha: Rampage.\n• Tipos de Batalha: Caça ao Aço, Dominação."
@@ -264,12 +270,6 @@ msgstr "O Pelotão atingiu o número máximo de tanques pesados"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "O Pelotão atingiu o número máximo de tanques médios"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "O Pelotão atingiu o número máximo de tanques leves"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "O Pelotão atingiu o número máximo de veículos com roda"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "O Pelotão atingiu o número máximo de tanques leves"

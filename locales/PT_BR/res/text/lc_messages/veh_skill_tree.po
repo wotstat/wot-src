@@ -298,8 +298,26 @@ msgstr "Aumenta o impulso da potência do motor fornecido pelos propulsores em {
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Aumenta a quantidade máxima de vezes que os propulsores podem ser usados numa única batalha em {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Reduz o tempo de recarga inicial antes que a BRPI possa ser usada em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Reduz o tempo de recarga antes que a BRPI possa ser usada novamente em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Reduz o tempo em que o seu veículo fica revelado para os inimigos após detectá-los com o BRPI em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Aumenta a duração do escaneamento do BRPI em {colorTagOpen}{value0} s{colorTagClose} e também estreita o setor do escaneamento em {colorTagOpen}{value1} graus {colorTagClose}, aumenta seu alcance de visão em {colorTagOpen}{value2}%{colorTagClose}, e reduz a ocultação dos veículos em movimento em {colorTagOpen}{value3}%{colorTagClose} e veículos ocultos pela vegetação em {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Reduz a chance de ferimentos na tripulação quando o veículo for danificado."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Aumenta a potência da penetração após um disparo não penetrado em {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Aumenta o dano após um disparo penetrado em {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Reduz a dispersão do canhão quando seu canhão estiver danificado."
@@ -460,6 +478,18 @@ msgstr "Reduz o tempo de recarga entre projéteis no clipe do seu canhão."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Reduz a chance de ser detectado por veículos inimigos ao efetuar disparos."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Reduz o tempo de recarga da carga quando o pente não está completo {colorTagOpen}em {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Reduz o tempo de recarga da carga quando o pente está completo {colorTagOpen}em {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Reduz o tempo acelerado de recarga do projétil {colorTagOpen} por mais {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Aumenta o número de cargas disponíveis no começo da batalha em {colorTagOpen}by {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Reduz o atraso do resfriamento do canhão em {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Reduz a quantidade de calor gerado pelo canhão a cada disparo em {color
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Aumenta a velocidade de resfriamento do canhão aquecido em {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Reduz o tempo de recarga do Lançador de Mísseis Coaxial em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Reduz o tempo de recarga do Lançador de Mísseis Coaxial em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Reduz o tempo de recarga do Lançador de Mísseis Coaxial em {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Aumenta o dano do míssil em {colorTagOpen}{value} HP{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Aumenta o dano provocado por projéteis não-HE."
@@ -547,6 +589,18 @@ msgstr "Reduz a dispersão do canhão em {colorTagOpen}{value}%{colorTagClose} n
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Reduz o tempo de recarga do canhão em {colorTagOpen}{value}%{colorTagClose} no modo Casamata."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Aumenta a velocidade máxima frontal no modo AME em {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Aumenta o dano provocado pelos projéteis especiais no modo AME em {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Aumenta o dano provocado pelos projéteis padrões no modo AME em {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Reduz o tempo de recarga no modo AME em {colorTagOpen}{value}%{colorTagClose} (exceto HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Aumenta os pontos de vida do tanque de combustível do seu veículo e os módulos do motor."
 
@@ -555,6 +609,9 @@ msgstr "Reduz a penalidade da caixa de munição e motor danificado."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Aumenta o dano que seus projéteis provocam aos módulos dos veículos inimigos."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Reduz o tempo necessário para trocar entre os modos de disparo em {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Permite que você configure uma opção alternativa de munição e consumíveis."
@@ -742,6 +799,18 @@ msgstr "Otimização da Forma do Núcleo"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Armazenamento Expandido de Propulsores"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Ignitor de Partida Lenta Modificado"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Refrigeração Líquida de Alto Desempenho"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Óptica de Baixa Divergência"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Resfriamento Líquido Simultâneo"
+
 msgid "tooltips/title/chassisHP"
 msgstr "HP da Suspensão"
 
@@ -750,6 +819,12 @@ msgstr "Velocidade de Reparo da Suspensão"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Proteção da Tripulação"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Ajustador de Espoleta: Penetração"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Ajustador de Espoleta: Dano"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Dispersão Situacional do Canhão"
@@ -928,6 +1003,18 @@ msgstr "Tempo de Recarga Intra-clip"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Ocultação Após o Disparo"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Enrolamento do Rotor de Alta Pureza"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Resfriamento Ativo do Rotor"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Carcaça do Estator de Alta Condutividade"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Bobinagem Ortocíclica"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Fluido de Transferência de Calor de Baixa Temperatura"
 
@@ -936,6 +1023,18 @@ msgstr "Carcaça Térmica de Alta Condutividade"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Otimização de Tubos de Calor"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Otimização do Ciclo de Recarga"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Otimização do Ciclo de Recarga"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Otimização do Ciclo de Recarga"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Layout de Ogiva Aprimorado"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Dano de Projétil Não-HE"
@@ -1018,6 +1117,18 @@ msgstr "Rotor com Balanceamento de Precisão"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Carregador Acionado Hidraulicamente"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Amortecedores de Suspensão Aprimorados"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Munições Unitárias Especiais Modificadas"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Munições Unitárias Padrão Modificadas"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Otimização do Ciclo de Recarga AME"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Impulso Seletivo de HP para Módulos"
 
@@ -1026,6 +1137,9 @@ msgstr "Proteção Seletiva de Módulos"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Dano no Módulo com Projétil"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Recalibração Otimizada"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Configuração de Munição e Consumíveis"

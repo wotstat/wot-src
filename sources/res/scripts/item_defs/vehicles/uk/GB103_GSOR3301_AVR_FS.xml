@@ -6,10 +6,10 @@
 		<driver></driver>
 	</crew>
 	<supplySlots>3 1 1 6 6 6 7 8 8 8</supplySlots>
-	<postProgressionTree>role_LT_universal</postProgressionTree>
+	<postProgressionTree>role_LT_scout</postProgressionTree>
 	<customRoleSlotOptions>2 4</customRoleSlotOptions>
 	<speedLimits>
-		<forward>65</forward>
+		<forward>68</forward>
 		<backward>25</backward>
 	</speedLimits>
 	<invisibility>
@@ -1024,6 +1024,36 @@
 				<clipAngle>0.748624027</clipAngle>
 				<anchorShift>0.517781973</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>-1.142166 0.213012 -0.68536</position>
+				<rotation>-9.99999997e-07 -9.99999997e-07 1.57838798</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>small</size>
+				<hangerId>9</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18001</slotId>
+				<position>1.15304303 0.212962002 -0.835732996</position>
+				<rotation>-0 3.141593 1.578301</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>small</size>
+				<hangerId>9</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18002</slotId>
+				<position>6.00000021e-06 0.214576006 -2.11033106</position>
+				<rotation>-2.30000005e-05 -1.56719601 1.56582201</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>small</size>
+				<hangerId>7</hangerId>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -1049,8 +1079,8 @@
 				</chassis>
 			</unlocks>
 			<armor>
-				<leftTrack>15</leftTrack>
-				<rightTrack>15</rightTrack>
+				<leftTrack>10</leftTrack>
+				<rightTrack>10</rightTrack>
 			</armor>
 			<weight>1150</weight>
 			<terrainResistance>0.8 0.9 1.4</terrainResistance>
@@ -1972,8 +2002,8 @@
 			<level>9</level>
 			<price>59500</price>
 			<armor>
-				<leftTrack>15</leftTrack>
-				<rightTrack>15</rightTrack>
+				<leftTrack>10</leftTrack>
+				<rightTrack>10</rightTrack>
 			</armor>
 			<weight>1150</weight>
 			<terrainResistance>0.8 0.9 1.4</terrainResistance>
@@ -2954,7 +2984,7 @@
 						<armor_4>0
 							<vehicleDamageFactor>0</vehicleDamageFactor>
 						</armor_4>
-						<gun>10</gun>
+						<gun>30</gun>
 					</armor>
 					<reloadTime>9.7</reloadTime>
 					<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
@@ -3036,6 +3066,8 @@
 					</customization>
 					<effects>shot_medium_mb</effects>
 					<reloadEffect>reload50_75</reloadEffect>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>136.233 139.493</density>
 						<aoTextureSize>512 512</aoTextureSize>
@@ -3065,7 +3097,7 @@
 						<armor_4>0
 							<vehicleDamageFactor>0</vehicleDamageFactor>
 						</armor_4>
-						<gun>15</gun>
+						<gun>30</gun>
 					</armor>
 					<reloadTime>9.5</reloadTime>
 					<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
@@ -3147,6 +3179,9 @@
 					</customization>
 					<effects>shot_main_mb</effects>
 					<reloadEffect>reload85_107</reloadEffect>
+					<edgeByVisualModel>false</edgeByVisualModel>
+					<reloadEffect>reload85_107</reloadEffect>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>137.573 138.741</density>
 						<aoTextureSize>512 512</aoTextureSize>
@@ -3548,6 +3583,30 @@
 					<clipAngle>0.890691996</clipAngle>
 					<anchorShift>0.0802929997</anchorShift>
 				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38000</slotId>
+					<position>0.632 0.548 -0.3</position>
+					<rotation>-0 0 0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>turret</applyType>
+					<size>small</size>
+					<hangerId>2</hangerId>
+					<hangerRotation>0 1.570796 0</hangerRotation>
+					<enableVisTunnel>true</enableVisTunnel>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38001</slotId>
+					<position>-0.625 0.529 0.149</position>
+					<rotation>-0 0 0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>gunMantlet</applyType>
+					<size>small</size>
+					<hangerId>2</hangerId>
+					<hangerRotation>0 -0.785398 0</hangerRotation>
+					<enableVisTunnel>true</enableVisTunnel>
+				</slot>
 			</customizationSlots>
 			<customization>
 				<customizableVehicleAreas>
@@ -3582,12 +3641,12 @@
 		<detailed>
 			<engines>
 				<Rolls_Royce_FB60>
-					<smplEnginePower>230</smplEnginePower>
-					<smplFwMaxSpeed>65</smplFwMaxSpeed>
+					<smplEnginePower>245</smplEnginePower>
+					<smplFwMaxSpeed>68</smplFwMaxSpeed>
 				</Rolls_Royce_FB60>
 				<Daimler_D2458_V_8>
 					<smplEnginePower>265</smplEnginePower>
-					<smplFwMaxSpeed>65</smplFwMaxSpeed>
+					<smplFwMaxSpeed>68</smplFwMaxSpeed>
 				</Daimler_D2458_V_8>
 			</engines>
 			<chassis>

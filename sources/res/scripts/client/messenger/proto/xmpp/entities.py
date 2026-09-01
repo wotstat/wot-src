@@ -6,7 +6,7 @@ from messenger.proto.xmpp.gloox_constants import MESSAGE_TYPE, PRESENCE
 from messenger.proto.xmpp.jid import makeClanRoomJID, makeSystemRoomJID
 from messenger.proto.xmpp.xmpp_constants import XMPP_BAN_COMPONENT, XMPP_MUC_CHANNEL_TYPE, MESSAGE_LIMIT
 from messenger.proto.xmpp.xmpp_items import createItem
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, ShownMessagesStorage
 
 @ReprInjector.withParent((b'getItem', b'item'), (b'getGOS', b'isOnline'))
 class XMPPUserEntity(LobbyUserEntity):
@@ -102,6 +102,7 @@ class XMPPUserEntity(LobbyUserEntity):
 
 class _XMPPChannelEntity(ChannelEntity):
     __slots__ = (b'_jid', b'_name', b'_isStored', b'_shownMessageIDs')
+    shownMessagesStorage = MessengerStorageDescriptor(ShownMessagesStorage)
 
     def __init__(self, jid, name=b''):
         super(_XMPPChannelEntity, self).__init__(None)
@@ -112,10 +113,6 @@ class _XMPPChannelEntity(ChannelEntity):
         self._shownMessageIDs = deque(self.shownMessagesStorage.getMessages(jid), MESSAGE_LIMIT.HISTORY_MAX_LEN)
         self.shownMessagesStorage.onRestoredFromCache += self._onShownMessagesRestoredFromCache
         self._onShownMessagesRestoredFromCache(None)
-        return
-
-    @storage_getter(b'shownMessages')
-    def shownMessagesStorage(self):
         return
 
     def getID(self):

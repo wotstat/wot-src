@@ -46,6 +46,15 @@ msgstr "Activa un proceso de destrucción de objetos más realista y detallado e
 msgid "HAVOK_ENABLED/warning"
 msgstr "La configuración se aplicará en la siguiente batalla si está desactivada en la batalla actual."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Efectos visuales mejorados"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Habilita efectos visuales mejorados. Si desactivas esta opción, se restablecen los efectos estándar, lo que podría mejorar el rendimiento del juego."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "La configuración se aplicará en la siguiente batalla si está desactivada en la batalla actual."
+
 msgid "LANGUAGE_CODE"
 msgstr "es_ar"
 
@@ -175,11 +184,11 @@ msgstr "Activar el rastro de las orugas y las ruedas"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Muestra las marcas de las orugas y las ruedas en el suelo.\n\nNo está disponible con la opción de gráficos simplificados ni con calidad baja de calcomanía."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Ocultar accesorios 3D en modo Francotirador"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Visibilidad de efectos y accesorios 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Oculta temporalmente los accesorios 3D del vehículo de la retícula del cañón en el modo Francotirador.\n\nReduce la saturación visual y mejora la precisión al apuntar."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ajusta la visibilidad de los efectos y los accesorios 3D cerca del centro de la pantalla para reducir la obstrucción visual al apuntar. La visibilidad de los accesorios 3D solo se ajusta en el modo Francotirador.\n\nLos valores más bajos hacen que los efectos y los accesorios 3D sean más transparentes, con el objetivo de mejorar la claridad al apuntar."
 
 msgid "WATER_QUALITY"
 msgstr "Calidad del Agua"
@@ -1995,6 +2004,15 @@ msgstr "Modo:"
 
 msgid "screenMode/windowed"
 msgstr "Ventana"
+
+msgid "showPrebattleHighlights"
+msgstr "Activar reflector"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Muestra una selección de tanques visualmente llamativos durante la cuenta regresiva previa a la batalla.\n\nSi desactivas este parámetro, el rendimiento del juego podría mejorar."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Si la opción está desactivada para la batalla actual, se activará para la siguiente."
 
 msgid "smoothing/description"
 msgstr "Determina el grado de procesamiento adicional de líneas finas y contornos de los objetos del juego en las escenas. Minimiza el efecto de aliasing. Los contornos de los objetos parecen más naturales."

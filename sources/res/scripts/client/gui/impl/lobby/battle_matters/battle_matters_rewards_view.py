@@ -187,7 +187,8 @@ class BattleMattersRewardsView(ViewImpl):
         return
 
     def __getState(self):
-        if self.__questOrder == self.__battleMattersController.getFinalQuest().getOrder():
+        finalQuest = self.__battleMattersController.getFinalQuest()
+        if finalQuest and self.__questOrder == finalQuest.getOrder():
             return State.FINAL
         if self.__isWithDelayed:
             return State.TOKEN

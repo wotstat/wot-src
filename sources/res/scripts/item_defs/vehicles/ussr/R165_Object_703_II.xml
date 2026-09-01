@@ -894,6 +894,36 @@
 				<clipAngle>0.587652028</clipAngle>
 				<anchorShift>1.10901797</anchorShift>
 			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>-1.75648606 0.552088976 -1.20227098</position>
+				<rotation>0 0 1.569101</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>9</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18001</slotId>
+				<position>1.86899495 0.552088022 -1.20227396</position>
+				<rotation>-0 -3.141592 1.569102</rotation>
+				<scale>1 1 1</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>9</hangerId>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18002</slotId>
+				<position>-0.540031016 0.245434999 -3.69299412</position>
+				<rotation>9.99999997e-07 -1.57079697 1.56910205</rotation>
+				<scale>0.999998987 0.99999702 0.999998987</scale>
+				<applyType>universal</applyType>
+				<size>medium</size>
+				<hangerId>7</hangerId>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -1781,7 +1811,6 @@
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
 					<aimingTime>3.5</aimingTime>
-					<multiGunEffects>shot_dualgun1_large_mb_L shot_dualgun1_large_mb_R</multiGunEffects>
 					<dualGun>
 						<chargeTime>3</chargeTime>
 						<shootImpulse>200</shootImpulse>
@@ -1792,6 +1821,9 @@
 						<afterShotDelay>1</afterShotDelay>
 						<preChargeIndication>0.25</preChargeIndication>
 					</dualGun>
+					<prefabs>
+						<main>content/CGFPrefabs/Vehicle/guns/ussr/gun_122-mm_D-25TA_dualgun.prefab</main>
+					</prefabs>
 					<models>
 						<undamaged>vehicles/russian/R165_Object_703_II/normal/lod0/Gun_01.model</undamaged>
 						<destroyed>vehicles/russian/R165_Object_703_II/crash/lod0/Gun_01.model</destroyed>
@@ -1873,6 +1905,17 @@
 							<anchorShift>0.112402</anchorShift>
 						</slot>
 						<slot>
+							<slotType>attachment</slotType>
+							<slotId>48000</slotId>
+							<size>medium</size>
+							<position>0.0198289994 0.280359 0.553983986</position>
+							<rotation>0 -0 0</rotation>
+							<scale>1 1 1</scale>
+							<enableVisTunnel>true</enableVisTunnel>
+							<applyType>gunMantlet</applyType>
+							<hangerId>2</hangerId>
+						</slot>
+						<slot>
 							<slotType>insigniaOnGun</slotType>
 							<slotId>49000</slotId>
 							<rayStart>-0.192134 -0.031468 1.26847</rayStart>
@@ -1896,6 +1939,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<reloadEffect>dualgun_reload115_152</reloadEffect>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>128.918 132.137</density>
 						<aoTextureSize>512 512</aoTextureSize>
@@ -2719,6 +2763,18 @@
 					<showOn>256</showOn>
 					<clipAngle>0.854202986</clipAngle>
 					<anchorShift>0.0784580037</anchorShift>
+				</slot>
+				<slot>
+					<slotType>attachment</slotType>
+					<slotId>38000</slotId>
+					<position>1.05093706 0.908541977 0.155295998</position>
+					<rotation>0 0 -0</rotation>
+					<scale>1 1 1</scale>
+					<applyType>turret</applyType>
+					<size>medium</size>
+					<enableVisTunnel>true</enableVisTunnel>
+					<hangerId>2</hangerId>
+					<hangerRotation>-3.00000011e-06 0.864966989 -7.0000001e-06</hangerRotation>
 				</slot>
 			</customizationSlots>
 			<customization>

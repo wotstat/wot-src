@@ -9,7 +9,6 @@ package net.wg.gui.lobby.vehicleCustomization
    import net.wg.data.ListDAAPIDataProvider;
    import net.wg.data.VO.TankCarouselFilterInitVO;
    import net.wg.data.VO.TankCarouselFilterSelectedVO;
-   import net.wg.data.constants.Values;
    import net.wg.data.managers.impl.ToolTipParams;
    import net.wg.gui.components.carousels.HorizontalScroller;
    import net.wg.gui.components.carousels.ScrollCarousel;
@@ -35,9 +34,9 @@ package net.wg.gui.lobby.vehicleCustomization
    public class CustomizationCarousel extends ScrollCarousel implements IFocusChainContainer, IMagneticClickHandler
    {
       
-      private static const NORMAL_ITEM_GAP:Number = 20;
+      private static const NORMAL_ITEM_GAP:int = 20;
       
-      private static const MIN_RES_ITEM_GAP:Number = 16;
+      private static const MIN_RES_ITEM_GAP:int = 16;
       
       private static const MASK_SIDE_OFFSET:int = -10;
       
@@ -119,7 +118,7 @@ package net.wg.gui.lobby.vehicleCustomization
       
       private var _classFactory:IClassFactory = App.utils.classFactory;
       
-      private var _currentGroupId:int = -1;
+      private var _bookmarkClass:Class = null;
       
       public function CustomizationCarousel()
       {
@@ -147,6 +146,7 @@ package net.wg.gui.lobby.vehicleCustomization
          this.scrollBar.setBookmarkStartOffset(BOOKMARK_START_OFFSET);
          this.carouselFilters.addEventListener(RendererEvent.ITEM_CLICK,this.onCarouselFiltersItemClickHandler);
          this.carouselFilters.addEventListener(Event.RESIZE,this.onCarouselFiltersResizeHandler);
+         this._bookmarkClass = this._classFactory.getClass(BOOK_MARK_BACK_MOVIE);
          this.createShopEntryPoint();
       }
       
@@ -176,19 +176,20 @@ package net.wg.gui.lobby.vehicleCustomization
          this._data = null;
          this.dragBlocker = null;
          this._classFactory = null;
+         this._bookmarkClass = null;
          this.removeShopEntryPoint();
          super.onDispose();
       }
       
       override protected function updateLayout(param1:int, param2:int = 0) : void
       {
-         var _loc5_:int = 0;
+         var _loc3_:int = 0;
          var _loc9_:Number = NaN;
          var _loc10_:Number = NaN;
          var _loc11_:Rectangle = null;
-         var _loc3_:int = param2 + OFFSET_ARROW + EXTRA_OFFSET + this.leftOffset;
+         _loc3_ = param2 + OFFSET_ARROW + EXTRA_OFFSET + this.leftOffset;
          var _loc4_:int = param1 - _loc3_ - OFFSET_ARROW;
-         _loc5_ = _loc4_ + leftArrowOffset - rightArrowOffset;
+         var _loc5_:int = _loc4_ + leftArrowOffset - rightArrowOffset;
          this._layoutController.setLeftPanelOffset(EXTRA_OFFSET + this.leftOffset);
          if(Boolean(this.shopEntryPointBtn))
          {
@@ -282,7 +283,7 @@ package net.wg.gui.lobby.vehicleCustomization
                this._isMinResolution = _loc1_;
                this.createShopEntryPoint();
             }
-            scrollList.horizontalGap = _loc1_ ? int(MIN_RES_ITEM_GAP) : int(NORMAL_ITEM_GAP);
+            scrollList.horizontalGap = _loc1_ ? MIN_RES_ITEM_GAP : NORMAL_ITEM_GAP;
             this._dataProvider.dispatchEvent(new Event(Event.CHANGE));
          }
          if(this._data != null && scrollList.viewPort != null && Boolean(isInvalid(InvalidationType.DATA)))
@@ -295,7 +296,7 @@ package net.wg.gui.lobby.vehicleCustomization
             for each(_loc6_ in this._bookmarkBackings)
             {
                HorizontalScroller(scrollList).removeUnmanagedChild(_loc6_);
-               _loc6_.visible = false;
+               _loc6_.dispose();
             }
             this._bookmarkBackings.splice(0,this._bookmarkBackings.length);
             _loc9_ = null;
@@ -344,11 +345,6 @@ package net.wg.gui.lobby.vehicleCustomization
          }
       }
       
-      public function clearSelected() : void
-      {
-         selectedIndex = Values.DEFAULT_INT;
-      }
-      
       public function getDataProvider() : Object
       {
          if(this._dataProvider == null)
@@ -375,26 +371,6 @@ package net.wg.gui.lobby.vehicleCustomization
          this.filterCounter.blink();
       }
       
-      public function selectSlot(param1:int, param2:Boolean = false) : CustomizationCarouselRendererVO
-      {
-         var _loc3_:CustomizationCarouselRendererVO = null;
-         var _loc4_:int = int(this._dataProvider.length);
-         var _loc5_:int = 0;
-         while(_loc5_ < _loc4_)
-         {
-            _loc3_ = CustomizationCarouselRendererVO(this._dataProvider.requestItemAt(_loc5_));
-            if(_loc3_.intCD == param1)
-            {
-               selectedIndex = _loc5_;
-               goToItem(selectedIndex,param2);
-               return _loc3_;
-            }
-            _loc5_++;
-         }
-         selectedIndex = -1;
-         return _loc3_;
-      }
-      
       public function setCarouselFiltersData(param1:TankCarouselFilterSelectedVO) : void
       {
          this.carouselFilters.setSelectedData(param1);
@@ -405,12 +381,6 @@ package net.wg.gui.lobby.vehicleCustomization
       {
          this.carouselFilters.initData(param1);
          this.updatePopoverData();
-      }
-      
-      public function setCurrentGroupId(param1:int) : void
-      {
-         this._currentGroupId = param1;
-         invalidateData();
       }
       
       public function setData(param1:CustomizationCarouselDataVO) : void
@@ -483,15 +453,14 @@ package net.wg.gui.lobby.vehicleCustomization
       
       private function addBookmarkItem(param1:Rectangle, param2:CustomizationCarouselBookmarkVO, param3:Boolean) : void
       {
-         var _loc4_:Class = App.instance.utils.classFactory.getClass(BOOK_MARK_BACK_MOVIE);
-         var _loc5_:CustomizationCarouselBookmark = new _loc4_() as CustomizationCarouselBookmark;
-         if(_loc5_ != null)
+         var _loc4_:CustomizationCarouselBookmark = new this._bookmarkClass() as CustomizationCarouselBookmark;
+         if(_loc4_ != null)
          {
-            _loc5_.visible = true;
-            HorizontalScroller(scrollList).addUnmanagedChild(_loc5_,0);
-            _loc5_.width = param1.width;
-            _loc5_.setBookmarkNameText(param2.bookmarkName,param3);
-            this._bookmarkBackings.push(_loc5_);
+            _loc4_.visible = true;
+            HorizontalScroller(scrollList).addUnmanagedChild(_loc4_,0);
+            _loc4_.width = param1.width;
+            _loc4_.setBookmarkNameText(param2.bookmarkName,param3);
+            this._bookmarkBackings.push(_loc4_);
          }
       }
       

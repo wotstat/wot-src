@@ -47,7 +47,7 @@
 		<enable>true</enable>
 		<adaptationSpeed>200</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
+			<pbsBloom>true</pbsBloom>
 			<threshold>0.230000004</threshold>
 			<amount>0.25</amount>
 			<tint>0.552941024 0.588235021 0.658824027</tint>
@@ -146,7 +146,10 @@
 		<amplify>0.680000007</amplify>
 	</SSShadows>
 	<VFX>
-		<gpuParticlesMultiplier>0.5</gpuParticlesMultiplier>
+		<vfxModelsMultiplier>0.123000003</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.123000003</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.123000003</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.123000003</emissiveMaterialsMultiplier>
 		<particlesConfigXml></particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/hangar_v4/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -280,4 +283,10 @@
 		<transmissionMult>0.600000024</transmissionMult>
 		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
+	<GPUWind>
+		<enabled>false</enabled>
+	</GPUWind>
 </root>

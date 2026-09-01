@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division
 import weakref
 from collections import namedtuple
-import BigWorld, CGF
+import BigWorld, Input, logging
 from constants import VEHICLE_SIEGE_STATE
 from gui.shared.utils.decorators import ReprInjector
 from vehicles.components.component_wrappers import ifPlayerVehicle, ifObservedVehicle
@@ -11,8 +11,8 @@ from vehicles.mechanics.common import IMechanicComponent
 from vehicles.mechanics.mechanic_commands import createMechanicCommandsEvents, IMechanicCommandsEvents, IMechanicCommandsComponent
 from vehicles.mechanics.mechanic_constants import VehicleMechanic, VehicleMechanicCommand
 from vehicles.mechanics.mechanic_states import IMechanicStatesComponent, createMechanicStatesEvents, IMechanicStatesEvents, IMechanicState
-from Input import InputAction, InputTriggerHold, TriggerEvent, InputSingleton, InputTriggerTap
-from CommandMapping import CMD_CM_VEHICLE_SWITCH_AUTOROTATION
+from Input import TriggerEvent
+_logger = logging.getLogger(__name__)
 
 class PlayerVehicleInputPredicate(object):
 
@@ -62,11 +62,10 @@ class PillboxSiegeComponent(VehicleDynamicComponent, IMechanicComponent, IMechan
     DURATION = HOLD_TIME - TAP_TIME
     TAP_ACTION_NAME = b'pbs_tap'
     HOLD_ACTION_NAME = b'pbs_hold'
+    PBS_PROFILE_NAME = b'PBS_INPUT_PROFILE'
 
     def __init__(self):
         super(PillboxSiegeComponent, self).__init__()
-        self.__tapAction = None
-        self.__holdAction = None
         self.__holdTime = None
         self.__mechanicPrefabSpawner = createMechanicPrefabSpawner(self.entity, self)
         self.__commandsEvents = createMechanicCommandsEvents(self)
@@ -131,32 +130,32 @@ class PillboxSiegeComponent(VehicleDynamicComponent, IMechanicComponent, IMechan
         return
 
     @ifPlayerVehicle
-    def __attachInput(self, _):
-        if self.__tapAction is not None or self.__holdAction is not None:
+    def __attachInput(self, *_, **__):
+        if not Input.inputSystem().hasProfile(self.PBS_PROFILE_NAME):
+            _logger.error(b'[INPUT] InputProfile %s is not loaded', self.PBS_PROFILE_NAME)
             return
-        self.__tapAction = tapAction = InputAction(CMD_CM_VEHICLE_SWITCH_AUTOROTATION, [
-         InputTriggerTap(self.TAP_TIME)], PlayerVehicleInputPredicate(self.entity))
-        tapAction.bindEventReaction(TriggerEvent.Triggered, self.__onTapCompleted)
-        tapAction.bindEventReaction(TriggerEvent.Canceled, self.__onTapCanceled)
-        self.__holdAction = holdAction = InputAction(CMD_CM_VEHICLE_SWITCH_AUTOROTATION, [
-         InputTriggerHold(self.HOLD_TIME)], PlayerVehicleInputPredicate(self.entity))
-        holdAction.bindEventReaction(TriggerEvent.Started, self.__onHoldStarted)
-        holdAction.bindEventReaction(TriggerEvent.Canceled, self.__onHoldCanceled)
-        holdAction.bindEventReaction(TriggerEvent.Completed, self.__onHoldCompleted)
-        inputSingleton = CGF.findSingleton(self.entity.spaceID, InputSingleton)
-        if inputSingleton is not None:
-            inputSingleton.addAction(self.TAP_ACTION_NAME, tapAction)
-            inputSingleton.addAction(self.HOLD_ACTION_NAME, holdAction)
+        tapAction = Input.inputSystem().findAction(self.PBS_PROFILE_NAME, self.TAP_ACTION_NAME)
+        if tapAction:
+            tapAction.setPredicate(PlayerVehicleInputPredicate(self.entity))
+            tapAction.bindEventReaction(TriggerEvent.Triggered, self.__onTapCompleted)
+            tapAction.bindEventReaction(TriggerEvent.Canceled, self.__onTapCanceled)
+        else:
+            _logger.error(b"[INPUT] Can't find InputAction %s/%s", self.PBS_PROFILE_NAME, self.TAP_ACTION_NAME)
+        holdAction = Input.inputSystem().findAction(self.PBS_PROFILE_NAME, self.HOLD_ACTION_NAME)
+        if holdAction:
+            holdAction.setPredicate(PlayerVehicleInputPredicate(self.entity))
+            holdAction.bindEventReaction(TriggerEvent.Started, self.__onHoldStarted)
+            holdAction.bindEventReaction(TriggerEvent.Canceled, self.__onHoldCanceled)
+            holdAction.bindEventReaction(TriggerEvent.Completed, self.__onHoldCompleted)
+        else:
+            _logger.error(b"[INPUT] Can't find InputAction %s/%s", self.PBS_PROFILE_NAME, self.HOLD_ACTION_NAME)
+        Input.inputSystem().activateProfile(self.PBS_PROFILE_NAME)
         return
 
     @ifPlayerVehicle
-    def __detachInput(self, _):
-        inputSingleton = CGF.findSingleton(self.entity.spaceID, InputSingleton)
-        if inputSingleton is not None:
-            inputSingleton.removeAction(self.TAP_ACTION_NAME)
-            inputSingleton.removeAction(self.HOLD_ACTION_NAME)
-        self.__tapAction = None
-        self.__holdAction = None
+    def __detachInput(self, *_, **__):
+        if Input.inputSystem().hasProfile(self.PBS_PROFILE_NAME):
+            Input.inputSystem().deactivateProfile(self.PBS_PROFILE_NAME, unbindAllReactions=True)
         return
 
     def __onTapCanceled(self):

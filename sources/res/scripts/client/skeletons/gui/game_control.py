@@ -259,6 +259,10 @@ class IGameStateTracker(IGameController):
         raise NotImplementedError
         return
 
+    def removeController(self, controller):
+        raise NotImplementedError
+        return
+
 
 class IReloginController(IGameController):
 
@@ -562,11 +566,23 @@ class IHeroTankController(IGameController):
         raise NotImplementedError
         return
 
+    def getCurrentFromBoxes(self):
+        raise NotImplementedError
+        return
+
     def getCurrentShopUrl(self):
         raise NotImplementedError
         return
 
     def setDebugTankCD(self, debugTankCD):
+        raise NotImplementedError
+        return
+
+    def isEnabled(self):
+        raise NotImplementedError
+        return
+
+    def setEnabled(self, isEnabled):
         raise NotImplementedError
         return
 
@@ -859,6 +875,14 @@ class IPromoController(IGameController):
         return
 
     def getUrlWithAuthParams(self, url):
+        raise NotImplementedError
+        return
+
+    def subscribePresenter(self, presentCb):
+        raise NotImplementedError
+        return
+
+    def unsubscribePresenter(self, presentCb):
         raise NotImplementedError
         return
 
@@ -1870,7 +1894,7 @@ class IBattleRoyaleController(IGameController, ISeasonProvider):
         raise NotImplementedError
         return
 
-    def setCurrentSubModeID(self, selectedSubModeID, updateNeeded=True):
+    def setCurrentSubModeID(self, subModeID, updateNeeded=True):
         raise NotImplementedError
         return
 
@@ -2002,7 +2026,7 @@ class IBattleRoyaleTournamentController(IGameController):
         raise NotImplementedError
         return
 
-    def leaveCurrentAndJoinToAnotherTournament(self, newTournamentID):
+    def leaveCurrentAndJoinToAnotherTournament(self, tournamentID):
         raise NotImplementedError
         return
 
@@ -2101,12 +2125,9 @@ class IClanNotificationController(IGameController):
 
 class IFestivityController(IGameController):
     onStateChanged = None
+    serverSettings = None
 
     def isEnabled(self):
-        raise NotImplementedError
-        return
-
-    def getHangarQuestsFlagData(self):
         raise NotImplementedError
         return
 
@@ -2710,6 +2731,7 @@ class IMapboxController(IGameController, ISeasonProvider):
 
 
 class IOverlayController(IGameController):
+    onStateChanged = None
 
     @property
     def isActive(self):
@@ -2729,6 +2751,11 @@ class ISteamCompletionController(IGameController):
 
     @property
     def isSteamAccount(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def isLockNotificationManagerNeeded(self):
         raise NotImplementedError
         return
 
@@ -3110,6 +3137,7 @@ class ILootBoxSystemController(IGameController):
     onBoxesCountChanged = None
     onBoxesUpdated = None
     onBoxesInfoUpdated = None
+    onBoxesConfigUpdated = None
 
     @property
     def eventNames(self):
@@ -3199,6 +3227,18 @@ class ILootBoxSystemController(IGameController):
         return
 
     def getBoxesInfo(self):
+        raise NotImplementedError
+        return
+
+    def getBox(self, eventName, category):
+        raise NotImplementedError
+        return
+
+    def isEnoughMoneyForReroll(self, box):
+        raise NotImplementedError
+        return
+
+    def getPendingRerollRewards(self, eventName, category):
         raise NotImplementedError
         return
 
@@ -3737,6 +3777,11 @@ class IComp7Controller(IGameController, ISeasonProvider):
         return
 
     @property
+    def subModes(self):
+        raise NotImplementedError
+        return
+
+    @property
     def qualificationBattlesNumber(self):
         raise NotImplementedError
         return
@@ -3790,6 +3835,10 @@ class IComp7Controller(IGameController, ISeasonProvider):
         raise NotImplementedError
         return
 
+    def isSuperSquadEnabled(self):
+        raise NotImplementedError
+        return
+
     def hasActiveSeason(self, includePreannounced=False):
         raise NotImplementedError
         return
@@ -3827,6 +3876,10 @@ class IComp7Controller(IGameController, ISeasonProvider):
         return
 
     def getPreannouncedSeason(self):
+        raise NotImplementedError
+        return
+
+    def getRoleEquipmentKey(self, vehType):
         raise NotImplementedError
         return
 
@@ -3988,6 +4041,10 @@ class IComp7LightController(IGameController, ISeasonProvider):
         return
 
     def getPreannouncedSeason(self):
+        raise NotImplementedError
+        return
+
+    def getRoleEquipmentKey(self, vehType):
         raise NotImplementedError
         return
 
@@ -5094,5 +5151,43 @@ class IW2GTGameController(IGameController):
         return
 
     def getProgress(self, arenaUniqueID, playerID):
+        raise NotImplementedError
+        return
+
+
+class IRestBonusController(IGameController):
+    onUpdated = None
+
+    @property
+    def dailyXPFactor(self):
+        raise NotImplementedError
+        return
+
+    @property
+    def restBonusQuests(self):
+        raise NotImplementedError
+        return
+
+    def isRestBonusQuestID(self, quest):
+        raise NotImplementedError
+        return
+
+    def getXpFactor(self, vehicle):
+        raise NotImplementedError
+        return
+
+    def getActualXPFactor(self, vehicle):
+        raise NotImplementedError
+        return
+
+    def getRestBonusExpiryTime(self):
+        raise NotImplementedError
+        return
+
+    def getDailyResetTime(self):
+        raise NotImplementedError
+        return
+
+    def hasActiveBattleQuest(self, vehicle):
         raise NotImplementedError
         return

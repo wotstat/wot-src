@@ -218,6 +218,103 @@
   mix-blend-mode: color-dodge;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.FormatText_db904f12 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  white-space: pre-wrap;
+}
+.FormatText_base__fullSize_a514958e {
+  flex: 1 1 auto;
+  width: 100%;
+}
+.FormatText_db904f12 span {
+  flex-wrap: wrap;
+  white-space: normal;
+  overflow-wrap: normal;
+}
+html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
+  overflow-wrap: anywhere;
+}
+
+.FormatText_nowrap_ff69eca3 {
+  white-space: nowrap;
+}
+
+.FormatText_colorLegacy__blackReal {
+  color: #000;
+}
+.FormatText_colorLegacy__whiteReal {
+  color: #fff;
+}
+.FormatText_colorLegacy__white {
+  color: #f2f2f7;
+}
+.FormatText_colorLegacy__whiteOrange {
+  color: #fefeec;
+}
+.FormatText_colorLegacy__whiteSpanish {
+  color: #e9e2bf;
+}
+.FormatText_colorLegacy__par {
+  color: #8c8c7e;
+}
+.FormatText_colorLegacy__parSecondary {
+  color: #595950;
+}
+.FormatText_colorLegacy__parTertiary {
+  color: #37362e;
+}
+.FormatText_colorLegacy__infoRed {
+  color: #f00;
+}
+.FormatText_colorLegacy__red {
+  color: #ff2717;
+}
+.FormatText_colorLegacy__redDark {
+  color: #b70000;
+}
+.FormatText_colorLegacy__yellow {
+  color: #feab34;
+}
+.FormatText_colorLegacy__orange {
+  color: #ee7000;
+}
+.FormatText_colorLegacy__cream {
+  color: #fd9;
+}
+.FormatText_colorLegacy__brown {
+  color: #cbac77;
+}
+.FormatText_colorLegacy__greenBright {
+  color: #80d43a;
+}
+.FormatText_colorLegacy__green {
+  color: #7ab300;
+}
+.FormatText_colorLegacy__greenDark {
+  color: #497212;
+}
+.FormatText_colorLegacy__blueBooster {
+  color: #cff;
+}
+.FormatText_colorLegacy__blueTeamkiller {
+  color: #09e2ff;
+}
+.FormatText_colorLegacy__cred {
+  color: #ced9d9;
+}
+.FormatText_colorLegacy__gold {
+  color: #ffc363;
+}
+.FormatText_colorLegacy__bond {
+  color: #c9c9b6;
+}
+.FormatText_colorLegacy__prom {
+  color: #a29b70;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .CloseButton_7488a1b8 {
   display: flex;
   justify-content: center;
@@ -564,100 +661,6 @@
   flex: 1;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.FormatText_db904f12 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0;
-  white-space: pre-wrap;
-}
-.FormatText_base__fullSize_a514958e {
-  flex: 1 1 auto;
-  width: 100%;
-}
-.FormatText_db904f12 span {
-  flex-wrap: wrap;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
-.FormatText_nowrap_ff69eca3 {
-  white-space: nowrap;
-}
-
-.FormatText_colorLegacy__blackReal {
-  color: #000;
-}
-.FormatText_colorLegacy__whiteReal {
-  color: #fff;
-}
-.FormatText_colorLegacy__white {
-  color: #f2f2f7;
-}
-.FormatText_colorLegacy__whiteOrange {
-  color: #fefeec;
-}
-.FormatText_colorLegacy__whiteSpanish {
-  color: #e9e2bf;
-}
-.FormatText_colorLegacy__par {
-  color: #8c8c7e;
-}
-.FormatText_colorLegacy__parSecondary {
-  color: #595950;
-}
-.FormatText_colorLegacy__parTertiary {
-  color: #37362e;
-}
-.FormatText_colorLegacy__infoRed {
-  color: #f00;
-}
-.FormatText_colorLegacy__red {
-  color: #ff2717;
-}
-.FormatText_colorLegacy__redDark {
-  color: #b70000;
-}
-.FormatText_colorLegacy__yellow {
-  color: #feab34;
-}
-.FormatText_colorLegacy__orange {
-  color: #ee7000;
-}
-.FormatText_colorLegacy__cream {
-  color: #fd9;
-}
-.FormatText_colorLegacy__brown {
-  color: #cbac77;
-}
-.FormatText_colorLegacy__greenBright {
-  color: #80d43a;
-}
-.FormatText_colorLegacy__green {
-  color: #7ab300;
-}
-.FormatText_colorLegacy__greenDark {
-  color: #497212;
-}
-.FormatText_colorLegacy__blueBooster {
-  color: #cff;
-}
-.FormatText_colorLegacy__blueTeamkiller {
-  color: #09e2ff;
-}
-.FormatText_colorLegacy__cred {
-  color: #ced9d9;
-}
-.FormatText_colorLegacy__gold {
-  color: #ffc363;
-}
-.FormatText_colorLegacy__bond {
-  color: #c9c9b6;
-}
-.FormatText_colorLegacy__prom {
-  color: #a29b70;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
 .HeadlessButton_df8536fc {
   border: none;
   background: none;
@@ -879,17 +882,15 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   position: absolute;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Tooltip_6d997cee {
-  display: flex;
-  position: absolute;
+.MultilineOverflow_ec9f8e47 {
+  position: relative;
 }
 
-.Tooltip_decorator_b3486d4e {
-  padding: 4rem 6rem 8rem;
-  border-image-source: url(R.atlases.components.tooltip_background) repeat center/contain;
-  border-image-slice: 24 fill;
-  border-image-width: 24rem;
-  position: relative;
+.MultilineOverflow_content_b539970d {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .FormattedValue_item__x16x16_9eb36ff5 + .FormattedValue_item__x16x16_9eb36ff5 {
@@ -1043,6 +1044,19 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   opacity: 0.8;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.Tooltip_6d997cee {
+  display: flex;
+  position: absolute;
+}
+
+.Tooltip_decorator_b3486d4e {
+  padding: 4rem 6rem 8rem;
+  border-image-source: url(R.atlases.components.tooltip_background) repeat center/contain;
+  border-image-slice: 24 fill;
+  border-image-width: 24rem;
+  position: relative;
+}/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .Multilineoverflow_c23f658d {
   position: relative;
 }
@@ -1074,17 +1088,6 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.MultilineOverflow_ec9f8e47 {
-  position: relative;
-}
-
-.MultilineOverflow_content_b539970d {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Formattext_bb80854d {

@@ -516,7 +516,6 @@ def _long_typename(obj):
         return b'%s.%s' % (module, name)
     else:
         return name
-        return
 
 
 def _safe_repr(obj):
@@ -536,10 +535,7 @@ def _name_or_repr(value):
 
     if _isinstance(result, basestring):
         return result
-    else:
-        return repr(value)[:40]
-
-    return
+    return repr(value)[:40]
 
 
 def _short_repr(obj):
@@ -604,12 +600,11 @@ def _edge_label(source, target, shortnames=True):
                 if v is target:
                     if _isinstance(k, basestring) and _is_identifier(k):
                         return b' [label="%s",weight=2]' % _quote(k)
+                    if shortnames:
+                        tn = _short_typename(k)
                     else:
-                        if shortnames:
-                            tn = _short_typename(k)
-                        else:
-                            tn = _long_typename(k)
-                        return b' [label="%s"]' % _quote(tn + b'\n' + _safe_repr(k))
+                        tn = _long_typename(k)
+                    return b' [label="%s"]' % _quote(tn + b'\n' + _safe_repr(k))
 
         return b''
 

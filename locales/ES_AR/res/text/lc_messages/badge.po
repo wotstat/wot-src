@@ -644,7 +644,7 @@ msgid "badge_190"
 msgstr "Superagente del Sector 3"
 
 msgid "badge_190_descr"
-msgstr "Se puede obtener por completar todas las misiones personales en la campaña del Sector 3."
+msgstr "Se puede obtener por completar todas las misiones personales en las operaciones principales de la campaña del Sector 3."
 
 msgid "badge_191"
 msgstr "Simpatizante de la SLA Otoño 2025"
@@ -842,19 +842,19 @@ msgid "badge_225"
 msgstr "Juramento ardiente"
 
 msgid "badge_225_descr"
-msgstr "Otorgada por llegar al rango Campeón en Temporada del Dragón Carmesí de Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Campeón en la Temporada del Dragón Carmesí del modo Asedio."
 
 msgid "badge_226"
 msgstr "Corona de llamas"
 
 msgid "badge_226_descr"
-msgstr "Otorgada por llegar al rango Leyenda en Temporada del Dragón Carmesí de Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Leyenda en la Temporada del Dragón Carmesí del modo Asedio."
 
 msgid "badge_227"
 msgstr "Supernova"
 
 msgid "badge_227_descr"
-msgstr "Otorgada por llegar al rango Leyenda en Temporada del Dragón Carmesí de Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Leyenda en la Temporada del Dragón Carmesí del modo Asedio."
 
 msgid "badge_228"
 msgstr "Defensor de ATLAS"
@@ -878,19 +878,19 @@ msgid "badge_231"
 msgstr "Plaga nociva"
 
 msgid "badge_231_descr"
-msgstr "Otorgada por alcanzar el rango Campeón en la Temporada del Dragón de Jade del modo Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Campeón en la Temporada del Dragón de Jade del modo Asedio."
 
 msgid "badge_232"
 msgstr "Paraíso de veneno"
 
 msgid "badge_232_descr"
-msgstr "Otorgada por alcanzar el rango Leyenda en la Temporada del Dragón de Jade del modo Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Leyenda en la Temporada del Dragón de Jade del modo Asedio."
 
 msgid "badge_233"
 msgstr "Peligro biológico"
 
 msgid "badge_233_descr"
-msgstr "Otorgada por alcanzar el rango Leyenda en la Temporada del Dragón de Jade del modo Asedio. Desaparece al inicio de la siguiente temporada."
+msgstr "Recibido por alcanzar el rango Leyenda en la Temporada del Dragón de Jade del modo Asedio."
 
 msgid "badge_234"
 msgstr "Simpatizante de la OLS Otoño 2026"
@@ -904,11 +904,65 @@ msgstr "Oráculo de la OLS Otoño 2026"
 msgid "badge_235_descr"
 msgstr "Se otorga a los aficionados que predijeron el equipo ganador de la OLS Otoño 2026. ¡Su previsión es legendaria!"
 
+msgid "badge_236"
+msgstr "Exterminador de Centinelas"
+
+msgid "badge_236_descr"
+msgstr "Otorgada por eliminar a 200 Centinelas de von Krieger."
+
+msgid "badge_237"
+msgstr "Insignia de Fossa VM 68 clase II"
+
+msgid "badge_237_descr"
+msgstr "Se puede recibir al ensamblar el tanque mediano Fossa VM 68."
+
+msgid "badge_238"
+msgstr "Insignia de Fossa VM 68 clase I"
+
+msgid "badge_238_descr"
+msgstr "Se puede obtener por completar todas las misiones de la operación Fossa."
+
+msgid "badge_239"
+msgstr "Campeón del Fénix"
+
+msgid "badge_239_descr"
+msgstr "Otorgada por alcanzar el rango Campeón en la Temporada del Fénix Azur del modo Asedio. Esta recompensa desaparece cuando empieza la siguiente temporada."
+
 msgid "badge_23_descr"
 msgstr "Estar entre los 1.000 mejores participantes del evento Marcha de Naciones en vehículos de nivel VII."
 
 msgid "badge_24"
 msgstr "As de Tanques: Nivel VIII"
+
+msgid "badge_240"
+msgstr "Leyenda del Fénix"
+
+msgid "badge_240_descr"
+msgstr "Otorgada por alcanzar el rango Leyenda en la Temporada del Fénix Azur del modo Asedio. Esta recompensa desaparece cuando empieza la siguiente temporada."
+
+msgid "badge_241"
+msgstr "Fénix Legendario"
+
+msgid "badge_241_descr"
+msgstr "Otorgada por alcanzar el rango Leyenda en la Temporada del Fénix Azur del modo Asedio. Esta recompensa desaparece cuando empieza la siguiente temporada."
+
+msgid "badge_242"
+msgstr "Asedio 2026-2027: Campeón"
+
+msgid "badge_242_descr"
+msgstr "Una insignia conmemorativa obtenida por conseguir 15 Estandartes de Asedio."
+
+msgid "badge_243"
+msgstr "Asedio 2026-2027: Leyenda"
+
+msgid "badge_243_descr"
+msgstr "Una insignia conmemorativa obtenida por conseguir 18 Estandartes de Asedio."
+
+msgid "badge_244"
+msgstr "Leyenda del Fénix"
+
+msgid "badge_244_descr"
+msgstr "Una banda de nombre especial otorgada a los mejores jugadores del Año del Fénix en Asedio."
 
 msgid "badge_24_descr"
 msgstr "Estar entre los 1.000 mejores participantes del evento Marcha de Naciones en vehículos de nivel VIII."
@@ -1512,6 +1566,12 @@ msgstr "Supernova"
 
 msgid "suffix/badge_233"
 msgstr "Peligro biológico"
+
+msgid "suffix/badge_241"
+msgstr "Fénix Legendario"
+
+msgid "suffix/badge_244"
+msgstr "Leyenda del Fénix"
 
 msgid "suffix/badge_56"
 msgstr "Participante Alfa"

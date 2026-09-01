@@ -1,4 +1,6 @@
-# wot-src • wot-na • 2.3.1.3 #925
+# wot-src • wot-na • 2.4.0.0 #932
+
+[![wot-na status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-na.json)](https://github.com/wotstat/wot-src/tree/wot-na)
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной региональной ветке.
@@ -50,8 +52,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `wot-na`
 - Ветка: `wot-na`
-- Версия: `2.3.1.5413`
+- Версия: `2.4.0.5425`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:6fe598bda47eb90e4c2fa1ac9d612bb27c77444a9eedc05a1d34e91b43b09b3c`
+- GameSnapshot: `sha256:18393fa485cba50597625578c15f67347c27240c60bab21aba3bf6aa7e27e1d3`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

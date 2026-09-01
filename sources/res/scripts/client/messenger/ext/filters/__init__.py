@@ -1,10 +1,11 @@
 from gui import GUI_SETTINGS
 from messenger import g_settings
 from messenger.ext.filters import chain, collection
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, PlayerCtxStorage
 __all__ = (b'MessageFiltersChain',)
 
 class MessageFiltersChain(chain.FiltersChain):
+    playerCtx = MessengerStorageDescriptor(PlayerCtxStorage)
 
     def __init__(self):
         inFilters = [
@@ -18,10 +19,6 @@ class MessageFiltersChain(chain.FiltersChain):
             b'order': 0, 
             b'lock': False}]
         super(MessageFiltersChain, self).__init__(inFilters, outFilters)
-        return
-
-    @storage_getter(b'playerCtx')
-    def playerCtx(self):
         return
 
     def init(self):

@@ -21,3 +21,8 @@ class PrebattleTimerBaseMeta(BaseDAAPIComponent):
         if self._isDAAPIInited():
             return self.flashObject.as_setWinConditionText(winCondition)
         return
+
+    def as_togglePreBattleHighlightsVisibilityS(self, isVisible):
+        if self._isDAAPIInited():
+            return self.flashObject.as_togglePreBattleHighlightsVisibility(isVisible)
+        return

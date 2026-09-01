@@ -2,13 +2,14 @@ from __future__ import absolute_import
 import typing
 from future.utils import viewvalues
 from gui.battle_control.components_states.ammo.constants import AmmoShootPossibility
+from gui.battle_control.components_states.ammo.shells import DefaultAmmoMode
 from vehicles.mechanics.mechanic_constants import VehicleMechanic
 from shared_utils import findFirst
 if typing.TYPE_CHECKING:
     from ChargeableBurstComponent import ChargeableBurstAmmoState
     from StationaryReloadController import StationaryReloadAmmoState
     from TemperatureGunController import TemperatureGunAmmoState
-    from gui.battle_control.components_states.ammo.interfaces import IComponentAmmoState
+    from gui.battle_control.components_states.ammo.interfaces import IComponentAmmoState, IAmmoMode
 
 class AmmoStatesROCollection(object):
 
@@ -25,10 +26,6 @@ class AmmoStatesROCollection(object):
         return self._ammoStates.get(VehicleMechanic.CHARGEABLE_BURST.value)
 
     @property
-    def stationaryReloadAmmoState(self):
-        return self._ammoStates.get(VehicleMechanic.STATIONARY_RELOAD.value)
-
-    @property
     def extraShotReloadState(self):
         extraShotState = self._ammoStates.get(VehicleMechanic.EXTRA_SHOT_CLIP.value)
         if extraShotState is not None:
@@ -37,11 +34,12 @@ class AmmoStatesROCollection(object):
             return 0
 
     @property
+    def stationaryReloadAmmoState(self):
+        return self._ammoStates.get(VehicleMechanic.STATIONARY_RELOAD.value)
+
+    @property
     def temperatureGunAmmoState(self):
         return self._ammoStates.get(VehicleMechanic.TEMPERATURE_GUN.value)
-
-    def getSpecialReloadMessage(self):
-        return findFirst(None, (state.getSpecialReloadMessage() for state in viewvalues(self._ammoStates)))
 
     def isReloadingBlocked(self):
         return any(state.isReloadingBlocked() for state in viewvalues(self._ammoStates))
@@ -53,6 +51,12 @@ class AmmoStatesROCollection(object):
         return findFirst((lambda validationResult: not validationResult[0]), (state.canShootValidation() for state in viewvalues(self._ammoStates)), default=(
          True, defaultError))
 
+    def getSpecialReloadMessage(self):
+        return findFirst(None, (state.getSpecialReloadMessage() for state in viewvalues(self._ammoStates)))
+
+    def getAmmoMode(self):
+        return findFirst(None, (state.getAmmoMode() for state in viewvalues(self._ammoStates)), default=DefaultAmmoMode())
+
     def getShotsAmount(self):
         if self._ammoStates:
             return max(state.getShotsAmount() for state in viewvalues(self._ammoStates))
@@ -60,6 +64,9 @@ class AmmoStatesROCollection(object):
 
     def getShootPossibility(self, currentShells):
         return findFirst((lambda shootPossibility: shootPossibility != AmmoShootPossibility.NOT_DEFINED), (state.getShootPossibility(currentShells) for state in viewvalues(self._ammoStates)), default=AmmoShootPossibility.NOT_DEFINED)
+
+    def getShellReloadTimes(self, currShell, shellChangeTime, shells):
+        return findFirst(None, (state.getShellReloadTimes(currShell, shellChangeTime, shells) for state in viewvalues(self._ammoStates)))
 
 
 class AmmoStatesRWCollection(AmmoStatesROCollection):

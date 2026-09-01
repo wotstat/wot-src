@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Este modo não está disponível no servidor %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "A Temporada do Dragão Azure começa em: %(date)s"
+msgstr "A Temporada da Fênix Azure começa em: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "A Temporada do Dragão Carmesim começa em: %(date)s"
+msgstr "A Temporada da Fênix Carmesim começa em: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "A Temporada do Dragão Jade começa em: %(date)s"
+msgstr "A Temporada da Fênix Jade começa em: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Esperando pelos resultados da Qualificação para receber seu rank"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "A Temporada do Dragão Azure terminou"
+msgstr "A Temporada da Fênix Azure terminou"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "A Temporada do Dragão Carmesim terminou"
+msgstr "A Temporada da Fênix Carmesim terminou"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "A Temporada do Dragão Jade terminou"
+msgstr "A Temporada da Fênix Jade terminou"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "As batalhas neste servidor vão estar disponíveis em %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Características do veículo melhoradas"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Recuperando HP"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Dano recebido aumentado"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Características do veículo melhoradas"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "A Temporada do Dragão Azure vai durar %(days)d dia"
-msgstr[1] "A Temporada do Dragão Azure vai durar %(days)d dias"
-msgstr[2] "A Temporada do Dragão Azure vai durar %(days)d dias"
+msgstr[0] "A Temporada da Fênix Azure vai durar %(days)d dia"
+msgstr[1] "A Temporada da Fênix Azure vai durar %(days)d dias"
+msgstr[2] "A Temporada da Fênix Azure vai durar %(days)d dias"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "A Temporada do Dragão Carmesim vai durar %(days)d dia"
-msgstr[1] "A Temporada do Dragão Carmesim vai durar %(days)d dias"
-msgstr[2] "A Temporada do Dragão Carmesim vai durar %(days)d dias"
+msgstr[0] "A Temporada da Fênix Carmesim vai durar %(days)d dia"
+msgstr[1] "A Temporada da Fênix Carmesim vai durar %(days)d dias"
+msgstr[2] "A Temporada da Fênix Carmesim vai durar %(days)d dias"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "A Temporada do Dragão Jade vai durar %(days)d dia"
-msgstr[1] "A Temporada do Dragão Jade vai durar %(days)d dias"
-msgstr[2] "A Temporada do Dragão Jade vai durar %(days)d dias"
+msgstr[0] "A Temporada da Fênix Jade vai durar %(days)d dia"
+msgstr[1] "A Temporada da Fênix Jade vai durar %(days)d dias"
+msgstr[2] "A Temporada da Fênix Jade vai durar %(days)d dias"
 
 msgid "calendarDay/title"
 msgstr "Cronograma"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Habilidades"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Investida. Ano do Dragão"
+msgstr "Investida: O Ano da Fênix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Habilidades zero"
@@ -574,11 +577,17 @@ msgstr "Afirmativo!"
 msgid "intro/description/banPhase"
 msgstr "Cada equipe pode banir um veículo por completo de uma batalha. Coordene seu voto com seus aliados para excluir as máquinas mais perigosas ou preparar uma composição inesperada para seus inimigos. Caso seu veículo seja banido, você poderá escolher outros veículos de aluguel pré-configurados."
 
+msgid "intro/description/draw"
+msgstr "Quando o tempo acabar e nenhuma equipe alcançar uma vitória clara, o resultado da batalha será decidido por critérios de desempate na seguinte ordem: veículos sobreviventes, dano provocado e o primeiro veículo destruído. Se nenhuma das equipes causar dano, a batalha é declarada empate."
+
+msgid "intro/description/nightMaps"
+msgstr "Os Mapas Noturnos renovam os campos de batalha já conhecidos, adicionando condições noturnas, novos Postos de Observação, Pontos de Interesse atualizados e mecânicas de detecção modificadas. A lista atual inclui Geleira, Rio de Areia, Posto Avançado e Estepes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "O modo possui modificadores que alteram certos parâmetros do veículo, como os pontos de vida, tempo de recarga dos consumíveis, tempo em que o veículo permanece visível, entre outros."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Após capturar certas áreas do mapa, você vai poder usar habilidades táticas. Existem dois tipos de Pontos de Interesse: o Quartel-General de Artilharia permitirá que você ordene um ataque de artilharia em uma determinada posição e o Centro de Comunicações vai detectar todos os veículos inimigos. Dependendo do mapa, a presença e localização desses Pontos de Interesse podem mudar."
+msgstr "Você vai ganhar acesso a Habilidades Táticas assim que capturar certas áreas do mapa. Existem dois tipos de pontos de interesse: Quartel-General de Artilharia, que permite você chamar um ataque focado, e o Centro de Comunicações, que revela todos os veículos inimigos. A quantidade e a localização dessas unidades variam para cada mapa."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Jogue %(count)s batalhas de Qualificação para determinar seu nível
 msgstr[2] "Jogue %(count)s batalhas de Qualificação para determinar seu nível de habilidade e rank. Você vai receber recompensas pela classificação que alcançou e todas as classificações anteriores após a conclusão\n\nO abandono ou empate na batalha de Qualificação será considerado como derrota."
 
 msgid "intro/description/ranks"
-msgstr "Um sistema que reflete a habilidade do jogador. Progrida nos ranks de Ferro a Lenda e ganhe prêmios valiosos. Jogue durante o Ano do Dragão para receber Recompensas Anuais únicas."
+msgstr "Progrida entre as classificações Ferro a Lenda para ganhar prêmios valiosos. Dispute batalhas durante o Ano da Fênix para receber Recompensas Anuais exclusivas."
 
 msgid "intro/description/roleSkills"
 msgstr "Dependendo da função, cada veículo tem uma habilidade especial com três níveis de carga. Quanto maior o nível de carga quando a habilidade for ativada, mais forte será o efeito. O nível de carga vai depender do número de Pontos de Prestígio que podem ser ganhos por desempenho impressionante em batalha, captura de Pontos de Interesse, uso de Habilidades Táticas, etc.\n\nConfira os regulamentos do evento para saber mais sobre as diferentes maneiras de ganhar Pontos de Prestígio."
@@ -597,6 +606,12 @@ msgstr "Você pode entrar nas batalhas com veículos pesquisáveis ou de Colecio
 
 msgid "intro/title/banPhase"
 msgstr "BANIMENTO DE VEÍCULOS"
+
+msgid "intro/title/draw"
+msgstr "REGRAS DE EMPATE"
+
+msgid "intro/title/nightMaps"
+msgstr "MAPAS NOTURNOS"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICADORES DO INVESTIDA"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VITÓRIA, MAS VOCÊ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promovido para %(rank)s"
+msgstr "Promovido para {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Classificação: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Rebaixado para %(rank)s, %(division)s"
+msgstr "Rebaixado para {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promovido para %(rank)s, %(division)s"
+msgstr "Promovido para {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Batalhas disputadas"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Recorde de Pontos de Prestígio da Temporada: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "A Temporada do Dragão Azure terminou no servidor %(server)s."
+msgstr "A Temporada da Fênix Azure terminou no servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "A Temporada do Dragão Carmesim terminou no servidor %(server)s."
+msgstr "A Temporada da Fênix Carmesim terminou no servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "A Temporada do Dragão Jade terminou no servidor %(server)s."
+msgstr "A Temporada da Fênix Jade terminou no servidor %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Comprar"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "INVESTIDA: QUALIFICAÇÃO CONCLUÍDA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "INVESTIDA. TEMPORADA DO DRAGÃO AZURE"
+msgstr "INVESTIDA: TEMPORADA DA FÊNIX AZURE"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "INVESTIDA. TEMPORADA DO DRAGÃO CARMESIM"
+msgstr "INVESTIDA: TEMPORADA DA FÊNIX CARMESIM"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "INVESTIDA. TEMPORADA DO DRAGÃO JADE"
+msgstr "INVESTIDA: TEMPORADA DA FÊNIX JADE"
 
 msgid "rewardsScreen/description/year"
-msgstr "INVESTIDA. ANO DO DRAGÃO"
+msgstr "INVESTIDA. ANO DA FÊNIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Cadê Meu Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Termina em %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Temporada do Dragão Azure"
+msgstr "Temporada da Fênix Azure"
 
 msgid "seasonName/second"
-msgstr "Temporada do Dragão Carmesim"
+msgstr "Temporada da Fênix Carmesim"
 
 msgid "seasonName/third"
-msgstr "Temporada do Dragão Jade"
+msgstr "Temporada da Fênix Jade"
 
 msgid "seasonPointTooltip/header"
 msgstr "Cores do Investida"
@@ -1532,13 +1550,13 @@ msgstr[1] "Recebeu %(points)s Cores do Investida"
 msgstr[2] "Recebeu %(points)s Cores do Investida"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "TEMPORADA I: DRAGÃO AZURE"
+msgstr "TEMPORADA I: FÊNIX AZURE"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "TEMPORADA II: DRAGÃO CARMESIM"
+msgstr "TEMPORADA II: FÊNIX CARMESIM"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "TEMPORADA iII: DRAGÃO JADE"
+msgstr "TEMPORADA III: FÊNIX JADE"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Vitórias: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Este modo estará disponível em %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Dragão Azure"
+msgstr "Fênix Azure"
 
 msgid "shortSeasonName/second"
-msgstr "Dragão Carmesim"
+msgstr "Fênix Carmesim"
 
 msgid "shortSeasonName/third"
-msgstr "Dragão Jade"
+msgstr "Fênix Jade"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Esta seção contém informações sobre os melhores jogadores da temporada atual do modo Investida."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Ver Tudo"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Apoie o Lendas do Investida aumentando a premiação através dos pacotes do torneio!"
+msgstr "Você vai receber uma badge dourada do OLS 2026 caso a equipe que você escolheu vença. Torça para a sua favorita!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Mostre seu espírito esportivo com elementos de customização temáticos exclusivos e tanques únicos!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Um confronto épico está programado para acontecer no Campeonato Internacional do World of Tanks em Suzhou, China, onde as melhores equipes de todo o mundo vão se enfrentar seguindo as regras do modo Investida, lutando para obter o prestigioso título de campeão mundial. Presencie o momento em que as lendas nascem no campo de batalha!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "LDI Temporada 6"
+msgstr "OLS Temporada 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Esta temporada será sua última chance para resgatar recompensas valiosas, incluindo o tanque pesado de Nível X exclusivo, Ashbringer, junto com estilos 3D únicos que você obteve para ele e uma tripulação corajosa treinada com Irmãos de Armas como uma habilidade zero, além de Equipamento Experimental que pode ser escolhido, um lindo estilo 2D, e muito mais. Aproveite — a vitória espera por você no campo de batalha!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Aproveite os momentos finais do Ano do Dragão!"
+msgstr "Aproveite os momentos finais do Ano da Fênix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "TEMPORADA DO DRAGÃO JADE"
+msgstr "TEMPORADA DA FÊNIX AZURE"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "INVESTIDA: QUAIS AS NOVIDADES?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tástico!"
+msgstr "Liberte Suas Chamas!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "A tela dos resultados da batalha aprimorada com seu novo design da Atualização 2.0 agora vai lhe fornecer informações adicionais relacionados ao modo após cada batalha."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Quando o tempo acabar e nenhuma equipe alcançar uma vitória clara, o resultado da batalha será decidido por critérios de desempate na seguinte ordem: veículos sobreviventes, dano provocado e o primeiro veículo destruído. Se nenhuma das equipes causar dano, a batalha é declarada empate."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Resultados Detalhados da Batalha"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Não se preocupe se o seu veículo favorito foi excluído. A partir de agora, os veículos de aluguel vêm com tripulantes, equipamentos, projéteis e consumíveis pré-configurados."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Veículos de Aluguel Prontos Pra Batalha %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Cada equipe poderá banir um veículo de uma batalha nessa temporada. Coordene seus votos com seus aliados para excluir as máquinas mais perigosas ou para preparar uma composição inesperada para os inimigos."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Banimento de Veículos %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Condições de empate atualizadas {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mapas"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Novos Veículos Disponíveis no Investida"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "A versão 2.4 introduz as novas funções dos tanques leves e um reequilíbrio nas características dos veículos. Experimente-os em batalha!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Novas funções para tanques leves {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Uma nova jogabilidade em mapas já conhecidos. As mudanças incluem condições noturnas, novos Postos de Observação, Pontos de Interesse e mecânicas de detecção modificadas. Tudo isso vai mudar o ritmo da batalha, tornando a visão de jogo, coordenação e movimento tático ainda mais importante."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Os mapas noturnos chegaram! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Os Super Pelotões foram desativados devido a baixa população nas batalhas. Estamos trabalhando em formas alternativas de jogar o Investida em equipe. Enquanto isso, os torneios 7x7 estão disponíveis regularmente."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Super pelotões desativados {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Veículos de Aluguel"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "O recém lançado tanque médio americano de Nível X, Ares 90, agora está disponível no modo com uma Habilidade de Função ajustada."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mapas: Erlenberg foi removido. Os Pontos de Interesse em Aeródromo foram reposicionados. Pequenas alterações em Pilsen.\n• Veículos: Vz. 60S Dravec removido. O novo tanque pesado alemão Kampfpanzer 67 foi adicionado."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Habilidade de Função Atualizada %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "O 114 SP2 agora está disponível para compra na classificação Prata na Loja do Investida."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Atualizações da Loja %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Mudanças sazonais de equilíbrio {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EXCLUÍDO(A)"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Temporada I. Dragão Azure"
+msgstr "Temporada I: Fênix Azure"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Temporada II. Dragão Carmesim"
+msgstr "Temporada II: Fênix Carmesim"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Temporada III. Dragão Jade"
+msgstr "Temporada III: Fênix Jade"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Atual"

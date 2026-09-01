@@ -259,7 +259,7 @@ package net.wg.gui.components.controls
          var _loc1_:int = 0;
          var _loc2_:int = 0;
          super.draw();
-         if(Boolean(this.fxTextField1) && Boolean(isInvalid(InvalidationType.STATE,INVALIDATE_CAPS,INVALIDATE_PADDING,INVALIDATE_TEXT_COLOR,INVALIDATE_TEXT_SIZE)))
+         if(Boolean(this.fxTextField1) && Boolean(isInvalidTypes(InvalidationType.STATE,INVALIDATE_CAPS,INVALIDATE_PADDING,INVALIDATE_TEXT_COLOR,INVALIDATE_TEXT_SIZE)))
          {
             if(Boolean(this._textColorOver) && Boolean(!selected) && state == ComponentState.OVER)
             {

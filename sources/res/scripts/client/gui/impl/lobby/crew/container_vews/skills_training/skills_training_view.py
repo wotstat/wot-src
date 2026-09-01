@@ -22,7 +22,7 @@ from gui.shared import g_eventBus, EVENT_BUS_SCOPE
 from gui.shared.event_bus import SharedEvent
 from gui.shared.view_helpers.blur_manager import CachedBlur
 from helpers import dependency
-from skeletons.gui.game_control import IPlatoonController, IWotPlusController
+from skeletons.gui.game_control import IWotPlusController
 from skeletons.gui.shared import IItemsCache
 if typing.TYPE_CHECKING:
     from typing import List, Type
@@ -30,7 +30,6 @@ if typing.TYPE_CHECKING:
 
 class SkillsTrainingView(ContainerBase, ViewImpl):
     __slots__ = (b'_crewWidget', b'_paramsView')
-    platoonCtrl = dependency.descriptor(IPlatoonController)
     itemsCache = dependency.descriptor(IItemsCache)
     wotPlus = dependency.descriptor(IWotPlusController)
     _SKILLS_COMPONENT_NAME = b'skills_list'
@@ -81,8 +80,6 @@ class SkillsTrainingView(ContainerBase, ViewImpl):
           self.viewModel.onSortingSelectionChange, self.__onSortSelectionChanged),
          (
           g_playerEvents.onDisconnected, self.__onDisconnected),
-         (
-          self.platoonCtrl.onMembersUpdate, self.__onMembersUpdate),
          (
           self.wotPlus.onEnabledStatusChanged, self.__onEnabledStatusChanged))
 
@@ -153,10 +150,6 @@ class SkillsTrainingView(ContainerBase, ViewImpl):
         return
 
     def __onDisconnected(self):
-        self.destroyWindow()
-        return
-
-    def __onMembersUpdate(self):
         self.destroyWindow()
         return
 

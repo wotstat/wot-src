@@ -1,0 +1,34 @@
+from frameworks.wulf import Array, ViewModel
+from white_tiger.gui.impl.gen.view_models.views.lobby.widgets.carousel_tank_model import CarouselTankModel
+
+class HangarCarouselViewModel(ViewModel):
+    __slots__ = (b'onClick',)
+
+    def __init__(self, properties=2, commands=1):
+        super(HangarCarouselViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsDisableAll(self):
+        return self._getBool(0)
+
+    def setIsDisableAll(self, value):
+        self._setBool(0, value)
+        return
+
+    def getTanks(self):
+        return self._getArray(1)
+
+    def setTanks(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getTanksType():
+        return CarouselTankModel
+
+    def _initialize(self):
+        super(HangarCarouselViewModel, self)._initialize()
+        self._addBoolProperty(b'isDisableAll', False)
+        self._addArrayProperty(b'tanks', Array())
+        self.onClick = self._addCommand(b'onClick')
+        return

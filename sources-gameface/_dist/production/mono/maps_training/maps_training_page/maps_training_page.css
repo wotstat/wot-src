@@ -1617,6 +1617,10 @@ html[lang=th] input {
   padding-left: 12rem;
   padding-right: 12rem;
 }
+.InfoButton_base__smallSize_c40e1b5c .InfoButton_content__label_a89c101d {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
 .InfoButton_base__mediumSize_f347ecd3 .InfoButton_content_1cc251f9 {
   padding-left: 18rem;
   padding-right: 18rem;
@@ -1627,22 +1631,22 @@ html[lang=th] input {
   border-image: radial-gradient(ellipse 50% 60% at 50% 50%, rgba(170, 238, 255, 0.55) 50%, transparent 100%) 2/1rem 0 1rem 0 stretch;
 }
 
-.InfoButton_label_7fc8e38b {
+.InfoButton_label_94741ae8 {
   color: #a4ecf1;
-  font-weight: 600;
-  filter: drop-shadow(0rem 0rem 18rem 0rem rgba(31, 68, 255, 0.23)) drop-shadow(0rem 0rem 8rem 0rem rgba(0, 234, 255, 0.42)) drop-shadow(0rem 2rem 0rem 0rem rgba(13, 14, 16, 0.8));
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  filter: drop-shadow(0rem 0rem 18rem 0rem rgba(31, 68, 255, 0.23)) drop-shadow(0rem 0rem 8rem 0rem rgba(0, 234, 255, 0.42)) drop-shadow(0rem 1rem 0rem 0rem rgba(13, 14, 16, 0.8));
 }
-.InfoButton_base__smallSize_c40e1b5c .InfoButton_label_7fc8e38b {
-  padding-bottom: 3rem;
+.InfoButton_base__smallSize_c40e1b5c .InfoButton_label_94741ae8 {
+  padding-bottom: 1rem;
   font-size: 18rem;
 }
-.InfoButton_base__mediumSize_f347ecd3 .InfoButton_label_7fc8e38b {
-  padding-bottom: 2rem;
+.InfoButton_base__mediumSize_f347ecd3 .InfoButton_label_94741ae8 {
+  padding-bottom: 1rem;
   font-size: 20rem;
 }
-.InfoButton_icon_c58f1a93 + .InfoButton_label_7fc8e38b {
+.InfoButton_icon_c58f1a93 + .InfoButton_label_94741ae8 {
   margin-left: 4rem;
-  padding-right: 2rem;
 }/* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:

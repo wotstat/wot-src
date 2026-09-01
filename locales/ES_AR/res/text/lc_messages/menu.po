@@ -826,6 +826,9 @@ msgstr "Estilos 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Primario solamente"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Explorador"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Francotirador"
 
@@ -834,9 +837,6 @@ msgstr "Soporte"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Versátil"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Con ruedas"
 
 msgid "centerIsAvailable"
 msgstr "Todos los servidores están disponibles de nuevo."
@@ -4159,6 +4159,9 @@ msgstr "Sistema de recarga automática mejorado:\nReduce el tiempo estándar par
 msgid "moduleInfo/autoShootGun"
 msgstr "Cañón con sistema de fuego continuo"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Este vehículo está equipado con un lanzacohetes montado en el mantelete del cañón. Activa la habilidad para cambiar a la mira del arma secundaria y luego lanza un cohete HE no guiado con el botón de disparo."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Cerrar"
 
@@ -4312,6 +4315,9 @@ msgstr "Recuperación"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "a las cualificaciones principales y las pericias de tripulación"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Probabilidad de impacto crítico"
+
 msgid "moduleInfo/params/damage"
 msgstr "Daño"
 
@@ -4342,11 +4348,29 @@ msgstr "Probabilidad de incendio al impactar"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Tiempo de vuelo"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Siempre causa daño si hay impacto en el blindaje principal."
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* rango máximo de vuelo del proyectil para este cañón"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " no depende de la distancia para este tipo de proyectiles"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", rango máximo de vuelo - 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " Este tipo de proyectil comienza a perder capacidad de penetración según la distancia recorrida luego de pasar por la primera pantalla."
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " depende de la distancia: %(minDist)s - %(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " Este tipo de proyectil penetra las pantallas normalmente, pero luego pierde capacidad de penetración equivalente a tres veces el grosor del blindaje."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Velocidad máxima"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Siempre causa daño si hay impacto en el blindaje principal."
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Peso"
@@ -4378,20 +4402,11 @@ msgstr "Puntos de vida"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Alcance de disparo"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* rango máximo de vuelo del proyectil para este cañón"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Ángulo de giro de rueda máximo"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Daño promedio a %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " no depende de la distancia para este tipo de proyectiles"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", rango máximo de vuelo - 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Ángulo de normalización"
@@ -4399,14 +4414,8 @@ msgstr "Ángulo de normalización"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Pérdida de penetración"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Este tipo de proyectil comienza a perder capacidad de penetración según la distancia recorrida luego de pasar por la primera pantalla."
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " depende de la distancia: %(minDist)s - %(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Penetración promedio (mm) - Distancia"
@@ -4456,9 +4465,6 @@ msgstr "Velocidad de rotación"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplicador de blindaje espaciado"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Este tipo de proyectil penetra las pantallas normalmente, pero luego pierde capacidad de penetración equivalente a tres veces el grosor del blindaje."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Postquemador con propulsor por inducción que aumenta el daño promedio"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Propulsores que aumentan la movilidad del vehículo"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "El cañón del vehículo cuenta con dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Impulsores de combustible sólido que aumentan la aceleración, la movilidad y la maniobrabilidad."
@@ -5284,11 +5293,14 @@ msgstr "Vehículos con cañones perfectos, cuyo uso requiere de la cumplimentaci
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Tanques multipropósito que se pueden adaptar rápidamente a cualquier circunstancia de combate."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Vehículos rápidos y ágiles que pueden explorar la zona e infligir daño a los enemigos por medio de maniobras de flanqueo."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Los tanques ligeros exploradores son vehículos pequeños y ágiles diseñados para detectar enemigos. Su silueta baja y gran ocultamiento, además de excelente maniobrabilidad y un valor alto de velocidad máxima, los hacen aptos tanto para la exploración pasiva como para la activa, pero la escasa resistencia y baja potencia de fuego les impiden brindar fuego de apoyo considerable a sus aliados."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vehículos con características dinámicas impresionantes, cuya implementación depende del mapa o la situación táctica."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Los tanques ligeros de apoyo usan su alta movilidad, la excelente maniobrabilidad y sus potentes cañones para cambiar de flanco rápidamente e infligir daño considerable antes de retirarse a un lugar seguro. Si bien pueden realizar tareas de reconocimiento en ciertas situaciones, el gran tamaño y el poco valor de ocultamiento los hacen menos eficaces como exploradores que otros tanques ligeros."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Los tanques ligeros versátiles son vehículos equilibrados, capaces tanto de explorar como de brindar fuego de apoyo a sus aliados. Si bien son menos eficaces en el reconocimiento que los exploradores y tienen menos potencia de fuego que los tanques ligeros de apoyo, el perfil equilibrado de los versátiles les permite cumplir ambos roles con solvencia y adaptarse fácilmente a una amplia variedad de situaciones de combate."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vehículos con decente blindaje, ideales para luchar en combates a corta distancia y para rechazar el avance de los tanques pesados enemigos."
@@ -5329,11 +5341,14 @@ msgstr "Tanque pesado de apoyo"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Tanque pesado versátil"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Tanque ligero explorador"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Tanque ligero de apoyo"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Tanque ligero versátil"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Tanque ligero con ruedas"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Tanque mediano de asalto"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Recarga"
 msgid "tank_params/autoShootClipSec"
 msgstr "(cargador/cantidad)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Tiempo de carga de proyectil acelerado"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Recuperación de carga con cargador lleno"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Recuperación de carga base"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Cargas al comienzo de la batalla"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Cargas"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Daño promedio (PV)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersión a 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Penetración promedio (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Recuperación (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Velocidad del proyectil del cohete (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Daño promedio"
 
@@ -6057,6 +6105,21 @@ msgstr "Contenedor de proyectiles"
 
 msgid "tank_params/burstSec"
 msgstr "(s/cantidad/cantidad)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Daño promedio (PV)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Velocidad máxima (modo AME) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Cadencia de fuego (disparos/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Activación del modo AME (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Desactivación del modo AME (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Preparación de la salva"
@@ -6150,6 +6213,12 @@ msgstr "Potencia del motor (cv) (modo Turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Radio de daño"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Velocidad máxima (modo AME) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Activación del modo AME (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Tiempo de enfriamiento del cañón luego de disparar"
@@ -6325,9 +6394,6 @@ msgstr "Capacidad de cruce de terreno"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Carga de Mira electromecánica de coincidencia (% por s.) (modo Combate, pasivo)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(por activación)"
 
@@ -6484,8 +6550,20 @@ msgstr "Carga del arma auxiliar"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Proyectiles del arma auxiliar"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Daño promedio del proyectil ajustado (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Penetración promedio del proyectil ajustado (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Carga de cinturón de munición"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Tiempo para cambiar de modo"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetración:"
@@ -6495,6 +6573,36 @@ msgstr "Dispersión a 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Velocidad del proyectil"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Ocultamiento enemigo detrás de follaje (inmóvil y en movimiento)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Ocultamiento de enemigos en movimiento"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Recuperación inicial"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Duración"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Recuperación"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Velocidad de rotación de torreta"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Ancho de escaneo final"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Ancho de escaneo inicial"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Duración de autodetección"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Alcance de visión"
 
 msgid "tank_params/speedLimits"
 msgstr "Velocidad máxima/velocidad en reversa"

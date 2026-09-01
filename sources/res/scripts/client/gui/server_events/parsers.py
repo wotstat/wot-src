@@ -1,13 +1,13 @@
-import weakref
-from typing import Union, TYPE_CHECKING
+import weakref, typing
 from gui.server_events import formatters, conditions
 from gui.server_events.conditions import CumulativeResult, CLASS_TYPE
 from gui.shared.utils.requesters import REQ_CRITERIA
 from helpers import dependency
 from skeletons.gui.shared import IItemsCache
 from soft_exception import SoftException
-if TYPE_CHECKING:
-    from gui.server_events.conditions import _ConditionsGroup, _Cumulativable
+if typing.TYPE_CHECKING:
+    from typing import Union, List
+    from gui.server_events.conditions import _ConditionsGroup, Cumulativable
 
 class ConditionsParser(object):
     LOGICAL_OPS = {b'and': (conditions.AndGroup), 
@@ -117,6 +117,8 @@ class AccountRequirements(ConditionsParser):
             return conditions.VehiclesUnlocked(uniqueName, data)
         if name == b'vehiclesOwned':
             return conditions.VehiclesOwned(uniqueName, data)
+        if name == b'dailyXPFactor':
+            return conditions.DailyXPFactor(uniqueName, data)
         return
 
     def isAvailable(self):

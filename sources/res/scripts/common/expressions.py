@@ -4,10 +4,7 @@ from py2to3.moves.io import FastStringIO
 from soft_exception import SoftException
 
 class ParserException(SoftException):
-
-    def __init__(self, message):
-        super(ParserException, self).__init__(message)
-        return
+    pass
 
 
 class _Tokenizer:
@@ -78,7 +75,6 @@ class ExpressionParser(object):
             return operators[tokval]
         else:
             return
-            return
 
     def _parseExpression(self, tokenizer):
         return self._parseOrExpression(tokenizer)
@@ -90,16 +86,13 @@ class ExpressionParser(object):
             tokenizer.match(token.NAME)
             right = self._parseOrExpression(tokenizer)
             return (lambda context: left(context) or right(context))
-        else:
-            if tokval == b'if':
-                tokenizer.match(token.NAME)
-                condition = self._parseCondition(tokenizer)
-                tokenizer.match(token.NAME)
-                right = self._parseExpression(tokenizer)
-                return (lambda context: left(context) if condition(context) else right(context))
-            return left
-
-        return
+        if tokval == b'if':
+            tokenizer.match(token.NAME)
+            condition = self._parseCondition(tokenizer)
+            tokenizer.match(token.NAME)
+            right = self._parseExpression(tokenizer)
+            return (lambda context: left(context) if condition(context) else right(context))
+        return left
 
     def _parseAndExpression(self, tokenizer):
         left = self._parseCondition(tokenizer)
@@ -108,10 +101,7 @@ class ExpressionParser(object):
             tokenizer.match(token.NAME)
             right = self._parseAndExpression(tokenizer)
             return (lambda context: left(context) and right(context))
-        else:
-            return left
-
-        return
+        return left
 
     def _parseCondition(self, tokenizer):
         toknum, tokval = tokenizer.peek()
@@ -126,7 +116,6 @@ class ExpressionParser(object):
                 right = self._parseSum(tokenizer)
                 return op(left, right)
             return left
-            return
 
     def _parseSum(self, tokenizer):
         toknum, tokval = tokenizer.peek()
@@ -143,7 +132,6 @@ class ExpressionParser(object):
             return op(left, right)
         else:
             return left
-            return
 
     def _parseTerm(self, tokenizer):
         toknum, tokval = tokenizer.peek()

@@ -19,6 +19,10 @@ package net.wg.gui.components.crosshairPanel.components.autoloader
       
       public var timerIdle:AutoloaderTimerText = null;
       
+      public var autoreloaderSurge:AutoloaderTimerText = null;
+      
+      public var autoreloaderSurgeRed:AutoloaderTimerText = null;
+      
       public var reloadingBg:Sprite = null;
       
       private var _currentTimer:AutoloaderTimerText = null;
@@ -36,6 +40,8 @@ package net.wg.gui.components.crosshairPanel.components.autoloader
          super();
          this._currentTimer = this.timerIdle;
          this._mathAbs = Math.abs;
+         this.autoreloaderSurgeRed.noTranslateTextfield = true;
+         this.autoreloaderSurge.noTranslateTextfield = true;
          this.timerReloading.noTranslateTextfield = true;
          this.timerAutoload.noTranslateTextfield = true;
          this.timerStun.noTranslateTextfield = true;
@@ -46,6 +52,10 @@ package net.wg.gui.components.crosshairPanel.components.autoloader
       public function dispose() : void
       {
          this._disposed = true;
+         this.autoreloaderSurge.dispose();
+         this.autoreloaderSurge = null;
+         this.autoreloaderSurgeRed.dispose();
+         this.autoreloaderSurgeRed = null;
          this.timerReloading.dispose();
          this.timerReloading = null;
          this.timerAutoload.dispose();
@@ -78,13 +88,20 @@ package net.wg.gui.components.crosshairPanel.components.autoloader
          this._currentTimer.label = this._currentLabel;
       }
       
-      public function updateTimerColor(param1:Boolean, param2:Boolean, param3:Boolean) : void
+      public function updateTimerColor(param1:Boolean, param2:Boolean, param3:Boolean, param4:Boolean = false) : void
       {
          this._isReloading = param1;
          this.reloadingBg.visible = param1 && Boolean(this._currentLabel);
          if(param1)
          {
-            this.switchCurrentTimers(this.timerReloading);
+            if(param4)
+            {
+               this.switchCurrentTimers(this.autoreloaderSurgeRed);
+            }
+            else
+            {
+               this.switchCurrentTimers(this.timerReloading);
+            }
          }
          else if(param2)
          {
@@ -92,7 +109,14 @@ package net.wg.gui.components.crosshairPanel.components.autoloader
          }
          else if(param3)
          {
-            this.switchCurrentTimers(this.timerAutoload);
+            if(param4)
+            {
+               this.switchCurrentTimers(this.autoreloaderSurge);
+            }
+            else
+            {
+               this.switchCurrentTimers(this.timerAutoload);
+            }
          }
          else
          {

@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division
-import random, math
+import random, math, typing
 from past.builtins import xrange
 import Math
 from Math import Vector2, Vector3
@@ -29,8 +29,15 @@ def setTranslation(matrix, translation):
     return
 
 
-clamp = lambda minVal, maxVal, val: minVal if val < minVal else maxVal if val > maxVal else val
-clamp01 = lambda val: clamp(0.0, 1.0, val)
+T = typing.TypeVar(b'T', int, float)
+
+def clamp(minVal, maxVal, val):
+    return max(minVal, min(maxVal, val))
+
+
+def clamp01(val):
+    return max(0.0, min(1.0, val))
+
 
 def clampVector3(minVal, maxVal, val):
     return Math.clampVector3(minVal, maxVal, val)

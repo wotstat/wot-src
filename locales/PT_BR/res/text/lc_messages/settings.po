@@ -46,6 +46,15 @@ msgstr "Permite um processamento mais detalhado e realista da destruição de ob
 msgid "HAVOK_ENABLED/warning"
 msgstr "A configuração será aplicada na próxima batalha, se estiver desativada na batalha atual."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Efeitos Visuais Melhorados"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Habilita efeitos visuais melhorados. Desativar esta opção vai reverter para os efeitos padrões, que podem melhorar a performance do jogo."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "A configuração será aplicada na próxima batalha, se estiver desativada na batalha atual."
+
 msgid "LANGUAGE_CODE"
 msgstr "pt_br"
 
@@ -175,11 +184,11 @@ msgstr "Habilitar rastro da esteira e rodas"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Exibe os rastros de esteiras e rodas no chão.\n\nIndisponível com Gráficos Simplificados e Baixa Qualidade de Decalques."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Esconda Anexos 3D no Modo Sniper"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efeitos e Visibilidade dos Anexos 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Esconde temporariamente os anexos 3D da mira do canhão no modo Sniper.\n\nReduz a poluição visual e melhora a precisão."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ajusta a visibilidade dos efeitos e dos anexos 3D perto do centro da tela para reduzir a obstrução visual ao mirar. A visibilidade dos anexos 3D é ajustada apenas no modo sniper.\n\nValores menores tornam os efeitos e os anexos 3D mais transparentes, fornecendo maior nitidez da mira."
 
 msgid "WATER_QUALITY"
 msgstr "Qualidade da Água"
@@ -1995,6 +2004,15 @@ msgstr "Modo:"
 
 msgid "screenMode/windowed"
 msgstr "Janela"
+
+msgid "showPrebattleHighlights"
+msgstr "Habilitar Holofote"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Exibe uma seleção de tanques visualmente bonitos durante a contagem pré-batalha.\n\nDesativar este parâmetro pode melhorar a performance do jogo."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Se a configuração estiver desativada na batalha atual, ela será habilitada na próxima."
 
 msgid "smoothing/description"
 msgstr "Determina o grau de processamento adicional de linhas retas e contornos dos objetos do jogo no cenário do jogo. Minimiza o efeito de suavização. O contorno dos objetos parece mais natural."

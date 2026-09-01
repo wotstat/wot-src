@@ -130,6 +130,9 @@ msgstr "No puedes crear ni unirte a pelotones, porque no tienes en tu garage al 
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Cuando termine la clasificación, podrás acceder a pelotones de 2 y 7 jugadores."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Después de completar la clasificación, habrá un pelotón de dos jugadores disponible."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "No es posible crear un pelotón."
 
@@ -141,6 +144,9 @@ msgstr "Crea un pelotón o únete a uno existente. En Asedio, los pelotones pued
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Pelotón"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Crea un pelotón o únete a uno existente. Los pelotones en Asedio pueden tener solo dos jugadores."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Crea una unidad táctica de 2 o 3 jugadores para jugar de forma cooperativa.\n• Modos de batalla: Masacre.\n• Tipos de batalla: Cacería de acero, Dominación."
@@ -264,12 +270,6 @@ msgstr "El pelotón alcanzó la cantidad máxima de tanques pesados"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "El pelotón alcanzó la cantidad máxima de tanques medianos"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "El pelotón alcanzó la cantidad máxima de tanques ligeros"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "El pelotón alcanzó la cantidad máxima de vehículos con ruedas"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "El pelotón alcanzó la cantidad máxima de tanques ligeros"

@@ -27,7 +27,7 @@ class CheckTriangleLesson1(Block, QAMeta):
             return b'a value is required'
         if not self._b.hasValue():
             return b'b value is required'
-        return
+        return b''
 
     @classmethod
     def blockCategory(cls):
@@ -62,7 +62,7 @@ class CheckTriangleLesson2(Block, QAMeta):
             return b'r value is required'
         if not self._S.hasValue():
             return b'S value is required'
-        return
+        return b''
 
     @classmethod
     def blockCategory(cls):

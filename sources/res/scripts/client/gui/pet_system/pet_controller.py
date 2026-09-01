@@ -47,9 +47,9 @@ class PetSystemController(IGlobalListener, IPetSystemController):
         self.onUpdateSynergy = Event(self.__em)
         self.onUpdateCanInteractInHangar = Event(self.__em)
         self.__petProxy = PetPrefabProxy(self)
-        self.__storageProxy = StoragePrefabProxy(self)
+        self._storageProxy = StoragePrefabProxy(self)
         self.lsmObserver = None
-        self.__petInHangar = None
+        self._petInHangar = None
         self.__medalReceived = False
         self.__isPetObjectPresenterOpen = 0
         return
@@ -60,8 +60,8 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
     def fini(self):
         self.__em.clear()
-        self.__storageProxy.clear()
-        self.__removeListeners()
+        self._storageProxy.clear()
+        self._removeListeners()
         self.lsmObserver = None
         g_messengerEvents.serviceChannel.onChatMessageReceived -= self.handleChat
         return
@@ -72,7 +72,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
     @property
     def storageProxy(self):
-        return self.__storageProxy
+        return self._storageProxy
 
     @property
     def isInStorage(self):
@@ -81,13 +81,13 @@ class PetSystemController(IGlobalListener, IPetSystemController):
         return self.lsmObserver.currentState
 
     @property
-    def isInEventFulscreen(self):
+    def isInEventFullscreen(self):
         lsm = getLobbyStateMachine()
         return lsm.getStateByCls(PetEventFullscreenWindowState).isEntered()
 
     @property
     def petInHangar(self):
-        return self.__petInHangar
+        return self._petInHangar
 
     @property
     def canInteractInHangar(self):
@@ -145,7 +145,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
     def changePet(self, petID):
         if not self.isEnabled:
             return
-        self.__petInHangar = petID
+        self._petInHangar = petID
         self.onUpdatePrefab(petID)
         return
 
@@ -229,18 +229,18 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
     def getPetIDInHangar(self, reset=False):
         if not self.isEnabled:
-            self.__petInHangar = None
+            self._petInHangar = None
             return
         else:
             if self.getActivePet() == INVALID_PET_ID:
-                if not self.__petInHangar or reset:
+                if not self._petInHangar or reset:
                     return self.__getRandomPromoPetID()
-                return self.__petInHangar
-            self.__petInHangar = self.getActivePet()
-            return self.__petInHangar
+                return self._petInHangar
+            self._petInHangar = self.getActivePet()
+            return self._petInHangar
 
     def isPetInHangarPromoting(self):
-        return self.isEnabled and self.__petInHangar not in self.getUnlockedPets()
+        return self.isEnabled and self._petInHangar not in self.getUnlockedPets()
 
     def haveActivePromotion(self):
         return self.isEnabled and self.getPetsPromoConfig().isEnabled()
@@ -283,7 +283,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
         return
 
     def onLobbyInited(self, event):
-        self.__addListeners()
+        self._addListeners()
         return
 
     def checkBonusCapsForPetBonus(self):
@@ -304,7 +304,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
         return
 
     def onAccountBecomeNonPlayer(self):
-        self.__removeListeners()
+        self._removeListeners()
         self.__isPetObjectPresenterOpen = 0
         g_eventBus.removeListener(events.PetSystemEvent.PET_OBJECT_PRESENTER_LOADING, self.__onPetObjectPresenterLoading, scope=EVENT_BUS_SCOPE.LOBBY)
         g_eventBus.removeListener(events.PetSystemEvent.PET_OBJECT_PRESENTER_CLOSING, self.__onPetObjectPresenterClosing, scope=EVENT_BUS_SCOPE.LOBBY)
@@ -317,8 +317,8 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
     def onDisconnected(self):
         self.__medalReceived = False
-        self.__petInHangar = None
-        self.__removeListeners()
+        self._petInHangar = None
+        self._removeListeners()
         return
 
     def onStorageEntered(self):
@@ -338,7 +338,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
         return
 
-    def __addListeners(self):
+    def _addListeners(self):
         self.lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChanged
         g_playerEvents.onClientUpdated += self.__onClientUpdated
         self.lsmObserver = PetStorageObserver()
@@ -367,7 +367,7 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
             return
 
-    def __removeListeners(self):
+    def _removeListeners(self):
         self.__petProxy.clear()
         self.lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChanged
         g_playerEvents.onClientUpdated -= self.__onClientUpdated
@@ -387,11 +387,11 @@ class PetSystemController(IGlobalListener, IPetSystemController):
             sysDiff = diff[pet_constants.PETS_SYSTEM_CONFIG]
             isEnabled = sysDiff.get(PetSystemGeneralConsts.CONFIG_NAME, {}).get(PetSystemGeneralConsts.ENABLED)
             if isEnabled is not None and not isEnabled:
-                self.__petInHangar = None
+                self._petInHangar = None
                 self.__medalReceived = False
             elif PetPromoConsts.CONFIG_NAME in sysDiff:
                 if sysDiff[PetPromoConsts.CONFIG_NAME].get(PetPromoConsts.IS_ENABLED, False):
-                    self.__petInHangar = None
+                    self._petInHangar = None
             self.storageProxy.onServerSettingsChanged()
             self.petProxy.onServerSettingsChanged()
         return
@@ -427,12 +427,12 @@ class PetSystemController(IGlobalListener, IPetSystemController):
 
     def __getRandomPromoPetID(self):
         if not self.haveActivePromotion():
-            self.__petInHangar = None
+            self._petInHangar = None
             return
         else:
             validToBuyPets = self.getPetsPromoConfig().getAvailablePets(self.getUnlockedPets())
-            self.__petInHangar = random.choice(validToBuyPets)
-            return self.__petInHangar
+            self._petInHangar = random.choice(validToBuyPets)
+            return self._petInHangar
 
     def __onPetObjectPresenterLoading(self, _):
         self.__isPetObjectPresenterOpen += 1

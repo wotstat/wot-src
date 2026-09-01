@@ -2382,6 +2382,49 @@ class PoiRadarEquipment(VisualScriptEquipment):
         return
 
 
+class PoiIlluminationFlareEquipment(VisualScriptEquipment, BaseMarkerConfigReader):
+    __slots__ = BaseMarkerConfigReader._MARKER_SLOTS_ + (b'duration', b'startRadius', b'endRadius', b'unSpotDuration', b'delay', b'areaPrefabColorAlly', b'areaPrefabColorEnemy', b'areaPrefabColorEnemyCB', b'startYFlare', b'endYFlare', b'damageIncomeFactor', b'decayPhaseDuration')
+
+    def __init__(self):
+        super(PoiIlluminationFlareEquipment, self).__init__()
+        self.initMarkerInformation()
+        return
+
+    def initMarkerInformation(self):
+        super(PoiIlluminationFlareEquipment, self).initMarkerInformation()
+        self.duration = None
+        self.delay = None
+        self.startRadius = None
+        self.endRadius = None
+        self.unSpotDuration = None
+        self.areaPrefabColorAlly = None
+        self.areaPrefabColorEnemy = None
+        self.areaPrefabColorEnemyCB = None
+        self.startYFlare = None
+        self.endYFlare = None
+        self.damageIncomeFactor = None
+        self.decayPhaseDuration = None
+        return
+
+    def _readConfig(self, xmlCtx, scriptSection):
+        super(PoiIlluminationFlareEquipment, self)._readConfig(xmlCtx, scriptSection)
+        self.duration = scriptSection.readFloat(b'duration')
+        self.delay = scriptSection.readFloat(b'delay')
+        self.startRadius = scriptSection.readFloat(b'startRadius')
+        self.endRadius = scriptSection.readFloat(b'endRadius')
+        self.unSpotDuration = scriptSection.readFloat(b'unSpotDuration')
+        self.areaPrefabColorAlly = _xml.readIntOrNone(xmlCtx, scriptSection, b'areaPrefabColorAlly')
+        self.areaPrefabColorEnemy = _xml.readIntOrNone(xmlCtx, scriptSection, b'areaPrefabColorEnemy')
+        self.areaPrefabColorEnemyCB = _xml.readIntOrNone(xmlCtx, scriptSection, b'areaPrefabColorEnemyCB')
+        self.startYFlare = scriptSection.readFloat(b'startYFlare')
+        self.endYFlare = scriptSection.readFloat(b'endYFlare')
+        self.damageIncomeFactor = scriptSection.readFloat(b'damageIncomeFactor', 1.0)
+        self.decayPhaseDuration = scriptSection.readFloat(b'decayPhaseDuration', 1.0)
+        self.readMarkerConfig(xmlCtx, scriptSection)
+        self._exportSlotsToVSE()
+        return
+
+
 class PoiArtilleryEquipment(VisualScriptEquipment, BaseMarkerConfigReader, EffectsConfigReader):
     __slots__ = BaseMarkerConfigReader._MARKER_SLOTS_ + EffectsConfigReader._EFFECTS_SLOTS_ + (b'delay', b'radius', b'damage', b'stunDuration', b'duration', b'areaShow', b'fraction', b'requireAssists')
 

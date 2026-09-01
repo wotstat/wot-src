@@ -1603,26 +1603,6 @@
 									<value>1.3</value>
 								</mul>
 							</modifiers>
-							<shots>
-								<lowChargeShotModifiers>
-									<damageValue>-410</damageValue>
-									<piercingValue>-50</piercingValue>
-									<shotSpeedValue>-200</shotSpeedValue>
-									<effects>largeArmorPiercing</effects>
-								</lowChargeShotModifiers>
-								<lowChargeShotModifiers>
-									<damageValue>-410</damageValue>
-									<piercingValue>-60</piercingValue>
-									<shotSpeedValue>-200</shotSpeedValue>
-									<effects>largeAPCR</effects>
-								</lowChargeShotModifiers>
-								<lowChargeShotModifiers>
-									<damageValue>-550</damageValue>
-									<piercingValue>-45</piercingValue>
-									<shotSpeedValue>-200</shotSpeedValue>
-									<effects>largeHighExplosive</effects>
-								</lowChargeShotModifiers>
-							</shots>
 						</lowChargeShot>
 					</mechanics>
 					<prefabs>
@@ -1684,6 +1664,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>225.425323 229.917786</density>
 						<aoTextureSize>1024 1024</aoTextureSize>
@@ -2059,6 +2040,14 @@
 			</chassis>
 		</detailed>
 	</physics>
+	<siege_mode>
+		<device>gun</device>
+		<switchOnTime>0.0</switchOnTime>
+		<switchOffTime>0.0</switchOffTime>
+		<switchCancelEnabled>false</switchCancelEnabled>
+		<engineDamageCoeff>1.0</engineDamageCoeff>
+		<stopEngineOnSwitch>false</stopEngineOnSwitch>
+	</siege_mode>
 	<effects>
 		<collision></collision>
 		<damagedStateGroup>large</damagedStateGroup>

@@ -12,6 +12,7 @@ class ComponentLifeCycleEvents(ClientEventsContainer, IComponentLifeCycleEventsL
         super(ComponentLifeCycleEvents, self).__init__()
         self.__componentRef = weakref.ref(component)
         self.__isParamsCollected = self.__isAppearanceReady = False
+        self.onComponentAvatarReady = self._createEvent()
         self.onComponentParamsCollected = self._createLateEvent(self.__lateParamsCollected)
         self.onComponentAppearanceReady = self._createLateEvent(self.__lateAppearanceReady)
         self.onComponentAppearanceReset = self._createEvent()
@@ -28,6 +29,10 @@ class ComponentLifeCycleEvents(ClientEventsContainer, IComponentLifeCycleEventsL
         self.__lateParamsCollected(listener.onComponentParamsCollected)
         self.__lateAppearanceReady(listener.onComponentAppearanceReady)
         super(ComponentLifeCycleEvents, self).lateSubscribe(listener)
+        return
+
+    def processComponentAvatarReady(self):
+        self.onComponentAvatarReady(self._getComponent())
         return
 
     def processAppearanceReady(self):

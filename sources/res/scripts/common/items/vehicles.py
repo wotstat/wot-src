@@ -9,7 +9,7 @@ import persistent_data_cache_common as pdc
 from Math import Vector2, Vector3
 from backports.functools_lru_cache import lru_cache
 from collections import namedtuple, defaultdict
-from constants import ACTION_LABEL_TO_TYPE, ROLE_LABEL_TO_TYPE, ROLE_TYPE, DamageAbsorptionLabelToType, ROLE_LEVELS, ROLE_TYPE_TO_LABEL, VEHICLE_HEALTH_DECIMALS, IGR_TYPE, IS_RENTALS_ENABLED, IS_CELLAPP, IS_BASEAPP, IS_CLIENT, IS_UE_EDITOR, IS_BOT, IS_WEB, IS_PROCESS_REPLAY, ITEM_DEFS_PATH, SHELL_TYPES, VEHICLE_SIEGE_STATE, VEHICLE_MODE, VEHICLE_CLASSES, ShootImpulseApplicationPoint, SHELL_MECHANICS_TYPE, TrackBreakMode, HighExplosiveImpact, RandomizationType, INFINITE_SHELL_TAG, FORCE_FINITE_SHELL_TAG, MIN_VEHICLE_LEVEL, MAX_VEHICLE_LEVEL, VehiclePartName, VEHICLE_SECRET_TAG, ModuleKind
+from constants import ACTION_LABEL_TO_TYPE, ROLE_LABEL_TO_TYPE, ROLE_TYPE, DamageAbsorptionLabelToType, ROLE_LEVELS, ROLE_TYPE_TO_LABEL, VEHICLE_HEALTH_DECIMALS, IGR_TYPE, IS_RENTALS_ENABLED, IS_CELLAPP, IS_BASEAPP, IS_CLIENT, IS_UE_EDITOR, IS_BOT, IS_WEB, IS_PROCESS_REPLAY, ITEM_DEFS_PATH, SHELL_TYPES, VEHICLE_SIEGE_STATE, VEHICLE_MODE, VEHICLE_CLASSES, ShootImpulseApplicationPoint, SHELL_MECHANICS_TYPE, TrackBreakMode, HighExplosiveImpact, RandomizationType, INFINITE_SHELL_TAG, FORCE_FINITE_SHELL_TAG, MIN_VEHICLE_LEVEL, MAX_VEHICLE_LEVEL, VehiclePartName, VEHICLE_SECRET_TAG, ModuleKind, IS_COMMON_ENV
 from debug_utils import LOG_WARNING, LOG_ERROR, LOG_CURRENT_EXCEPTION
 from functools import partial
 from items import ItemsPrices
@@ -19,8 +19,7 @@ from items import vehicle_items
 from items._xml import cachedFloat
 from items.attributes_helpers import onCollectAttributes, readModifiers, STATIC_ATTR_PREFIX, DYNAMIC_ATTR_PREFIX, MODIFIER_FILTER_TYPE
 from items.artefacts_helpers import readKpi
-from items.components import component_constants, shell_components, chassis_components, skills_constants
-from items.components import shared_components
+from items.components import shared_components, gun_components, component_constants, shell_components, chassis_components, skills_constants
 from items.components.c11n_constants import ApplyArea, CamouflageTilingType, CamouflageTilingTypeNameToType, ProjectionDecalMatchingTags
 from items.components.gun_installation_components import GunInstallationSlot
 from items.components.post_progression_components import PostProgressionCache, getActiveModifications
@@ -59,7 +58,7 @@ if IS_UE_EDITOR:
     import Math, tankArmor
 if IS_CELLAPP or IS_CLIENT or IS_BOT or IS_UE_EDITOR:
     from ModelHitTester import HitTesterManager, BoundingBoxManager, createBBoxManagerForModels
-if IS_CELLAPP or IS_CLIENT or IS_UE_EDITOR or IS_WEB or IS_PROCESS_REPLAY:
+if IS_CELLAPP or IS_CLIENT or IS_UE_EDITOR or IS_WEB or IS_PROCESS_REPLAY or IS_COMMON_ENV:
     import material_kinds
     from material_kinds import EFFECT_MATERIALS
 if IS_CLIENT or IS_UE_EDITOR:
@@ -137,6 +136,7 @@ _CUSTOMIZATION_XML_PATH = ITEM_DEFS_PATH + b'customization/'
 _PREFAB_EFFECTS_XML_PATH = _VEHICLE_TYPE_XML_PATH + b'common/prefab_effects/'
 _readTags = shared_readers.readAllowedTags
 EmblemSlot = namedtuple(b'EmblemSlot', [
+ 117, 
  118, 
  119, 
  120, 
@@ -144,8 +144,7 @@ EmblemSlot = namedtuple(b'EmblemSlot', [
  122, 
  123, 
  124, 
- 125, 
- 126])
+ 125])
 VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES = (
  b'fuelTankHealthFactor',
  b'repairSpeedFactor',
@@ -189,7 +188,9 @@ VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES = (
  b'centerRotationFwdSpeedFactor',
  b'hullMaxHealth',
  b'turretMaxHealth',
- b'discreteDamageFactor')
+ b'discreteDamageFactor',
+ b'damageDistributionLowerBound',
+ b'piercingDistributionLowerBound')
 VEHICLE_MISC_ATTRIBUTE_FACTOR_INDICES = {value: index for index, value in enumerate(VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES)}
 
 class EnhancementItem(object):
@@ -292,7 +293,11 @@ def vehicleAttributeFactors():
        b'gun/shotDispersionFactors/afterShot': 1.0, 
        b'gun/extraReloadTime': 0.0, 
        b'gun/isExtraFullGunReload': False, 
-       b'gun/needToAdjustPotentialDamage': False}
+       b'gun/needToAdjustPotentialDamage': False, 
+       b'inConeVision/visionFactor': 1.0, 
+       b'inConeVision/demaskFoliageFactor': 1.0, 
+       b'inConeVision/demaskMovingFactor': 1.0, 
+       b'inConeVision/circularVisionRadiusFactor': 1.0}
     return factors
 
 
@@ -928,7 +933,7 @@ class VehicleDescriptor(with_metaclass(ReflectionMetaclass, object)):
             return (component_constants.EMPTY_TUPLE, component_constants.EMPTY_TUPLE)
         else:
             self.optionalDevices[slotIdx] = None
-            self._optDevSlotsMap.pop(device.compactDescr)
+            self._optDevSlotsMap.pop(device.compactDescr, None)
             if rebuildAttrs:
                 self.__updateAttributes(updateDescrAttrs=False)
             if device.removable:
@@ -1141,7 +1146,8 @@ class VehicleDescriptor(with_metaclass(ReflectionMetaclass, object)):
                         prereqs.update(effects.prerequisites())
             if gunDescr.prefabEffects is not None:
                 prereqs.add(gunDescr.prefabEffects.explosion.prefab)
-                prereqs.add(gunDescr.prefabEffects.groundwave.prefab)
+                if gunDescr.prefabEffects.groundwave.prefab:
+                    prereqs.add(gunDescr.prefabEffects.groundwave.prefab)
             for shotDescr in gunDescr.shots:
                 for effectsIndex in shotDescr.shell.prereqEffectIndexes:
                     effectsDescr = g_cache.shotEffects[effectsIndex]
@@ -1624,7 +1630,13 @@ class VehicleDescriptor(with_metaclass(ReflectionMetaclass, object)):
            b'engineReduceFineFactor': 1.0, 
            b'hullMaxHealth': 0, 
            b'turretMaxHealth': 0, 
-           b'discreteDamageFactor': 1.0}
+           b'discreteDamageFactor': 1.0, 
+           b'damageDistributionLowerBound': 0.0, 
+           b'piercingDistributionLowerBound': 0.0, 
+           b'inConeVision/visionFactor': 1.0, 
+           b'inConeVision/demaskFoliageFactor': 1.0, 
+           b'inConeVision/demaskMovingFactor': 1.0, 
+           b'inConeVision/circularVisionRadiusFactor': 1.0}
         for name, params in viewitems(type.mechanicsParams):
             self.mechanicsParams[name] = params.createMechanicsParamsOrigin()
 
@@ -3031,7 +3043,7 @@ class VehicleList(object):
         nationID = nations.INDICES[nation]
         pricesDest = _g_prices
         if pricesDest is not None:
-            if IS_CLIENT or IS_WEB:
+            if IS_CLIENT or IS_WEB or IS_COMMON_ENV:
                 SELL_PRICE_FACTOR = 0.5
             else:
                 from server_constants import SELL_PRICE_FACTOR
@@ -3391,7 +3403,7 @@ def getActionsByRole(role):
     if role in actionsByRoles:
         return actionsByRoles[role]
     LOG_ERROR((b"actionsByRoles doesn't contain role={}").format(role))
-    return
+    return ()
 
 
 def isRestorable(vehTypeCD, gameParams):
@@ -3967,13 +3979,13 @@ def _readChassis(xmlCtx, section, item, unlocksDescrs=None, _=None, isWheeledVeh
         item.hitTesterManager = mainTrackPair.hitTesterManager
         item.materials = mainTrackPair.materials
         item.healthParams = mainTrackPair.healthParams
-        if not (IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY):
+        if not (IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY or IS_COMMON_ENV):
             item.bboxManager = createBBoxManagerForModels([trackPair.hitTesterManager for trackPair in item.trackPairs])
     else:
         item.hitTesterManager = _readHitTester(xmlCtx, section, b'hitTester')
         item.materials = _readArmor(xmlCtx, section, b'armor', optional=True)
         item.healthParams = shared_readers.readDeviceHealthParams(xmlCtx, section)
-        if not (IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY):
+        if not (IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY or IS_COMMON_ENV):
             htManager = item.hitTesterManager
             item.bboxManager = BoundingBoxManager(htManager.modelHitTester.bbox, htManager.crashedModelHitTester.bbox if htManager.crashedModelHitTester else None)
     if IS_CLIENT or IS_UE_EDITOR or IS_BOT or IS_BASEAPP:
@@ -4897,17 +4909,13 @@ def _readGun(xmlCtx, section, item, unlocksDescrs=None, _=None, multiGun=None):
         tags |= {b'controllableReload'}
     item.tags = tags
     nationID = parseIntCompactDescr(item.compactDescr)[1]
-    v = []
-    projSpeedFactor = g_cache.commonConfig[b'miscParams'][b'projectileSpeedFactor']
-    for sname, subsection in _xml.getChildren(xmlCtx, section, b'shots'):
-        v.append(gun_readers.readShot((xmlCtx, b'shots/' + sname), subsection, nationID, projSpeedFactor, g_cache))
-
-    if not v:
+    shots = [_readShot((xmlCtx, b'shots/' + sname), subsection, nationID) for sname, subsection in _xml.getChildren(xmlCtx, section, b'shots')]
+    if not shots:
         _xml.raiseWrongXml(xmlCtx, b'shots', b'no shots are specified')
-    item.shots = tuple(v)
+    item.shots = tuple(shots)
     item.isDamageMutable = any(shot.shell.isDamageMutable for shot in item.shots)
     if IS_CLIENT or IS_WEB:
-        item.effectsCaliber = _xml.readPositiveFloat(xmlCtx, section, b'effectsCaliber', v[0].shell.effectsCaliber)
+        item.effectsCaliber = _xml.readPositiveFloat(xmlCtx, section, b'effectsCaliber', shots[0].shell.effectsCaliber)
     item.prefabs = shared_readers.readPrefabsSets(section[b'prefabs'], (b'main', b'custom'))
     item.slotPrefabs = shared_readers.readSlotPrefabs(section)
     item.objectSlots = shared_readers.readObjectSlots(xmlCtx, section)
@@ -5189,16 +5197,6 @@ def _readGunLocals(xmlCtx, section, sharedItem, unlocksDescrs, turretCompactDesc
     else:
         hasOverride = True
         prefabs = shared_readers.readPrefabsSets(section[b'prefabs'], (b'main', b'custom'))
-    if not section.has_key(b'slotPrefabs'):
-        slotPrefabs = sharedItem.slotPrefabs
-    else:
-        hasOverride = True
-        slotPrefabs = shared_readers.readSlotPrefabs(section)
-    if not section.has_key(b'objectSlots'):
-        objectSlots = sharedItem.objectSlots
-    else:
-        hasOverride = True
-        objectSlots = shared_readers.readObjectSlots(xmlCtx, section)
     if not section.has_key(b'secondaryGun') or isSecondaryGun:
         secondaryGunID = sharedItem.secondaryGunID
     else:
@@ -5219,6 +5217,11 @@ def _readGunLocals(xmlCtx, section, sharedItem, unlocksDescrs, turretCompactDesc
     else:
         hasOverride = True
         objectSlots = shared_readers.readObjectSlots(xmlCtx, section)
+    shots = sharedItem.shots
+    if section.has_key(b'shots'):
+        hasOverride = True
+        shotsCtx, shotsSection = _xml.getSubSectionWithContext(xmlCtx, section, b'shots')
+        shots = tuple(_readShotLocal(shotsCtx, shotsSection, shot) for shot in shots)
     if not hasOverride:
         return sharedItem
     else:
@@ -5332,6 +5335,7 @@ def _readGunLocals(xmlCtx, section, sharedItem, unlocksDescrs, turretCompactDesc
         item.prefabs = prefabs
         item.slotPrefabs = slotPrefabs
         item.objectSlots = objectSlots
+        item.shots = shots
         return item
 
 
@@ -5718,12 +5722,166 @@ def _readShell(xmlCtx, section, name, nationID, shellTypeID, icons):
             _xml.raiseWrongXml(xmlCtx, b'tags', (b'incompatible tags: {}, {}').format(INFINITE_SHELL_TAG, FORCE_FINITE_SHELL_TAG))
     if section.has_key(b'secondaryAttackReason'):
         shell.secondaryAttackReason = _xml.readStringOrNone(xmlCtx, section, b'secondaryAttackReason')
+    if section.has_key(b'chanceToHitByProjectileModifier'):
+        shell.chanceToHitByProjectileModifier = _xml.readFloat(xmlCtx, section, b'chanceToHitByProjectileModifier')
     return shell
+
+
+def _readShellLocal(xmlCtx, section, originalShell):
+    kind = originalShell.kind
+    originalShellType = originalShell.type
+    isModernHighExplosive = originalShellType.mechanics == SHELL_MECHANICS_TYPE.MODERN
+    localShell = copy.copy(originalShell)
+    localShellType = copy.copy(originalShell.type)
+    if section.has_key(b'damage/armor'):
+        localShell.armorDamage = shared_readers.readFloatPair(xmlCtx, section, b'damage/armor')
+        localShell.isDamageMutable = localShell.armorDamage[0] != localShell.armorDamage[1]
+    if section.has_key(b'damage/devices'):
+        localShell.deviceDamage = shared_readers.readFloatPair(xmlCtx, section, b'damage/devices')
+    if section.has_key(b'obstacles/damage'):
+        localShell.obstaclesDamage = _xml.readNonNegativeFloat(xmlCtx, section, b'obstacles/damage')
+    if section.has_key(b'obstacles/powerReduction'):
+        localShell.obstaclesPowerReduction = _xml.readNonNegativeFloat(xmlCtx, section, b'obstacles/powerReduction')
+    if section.has_key(b'deviceDamagePossibility/protectFromDirectHits'):
+        localShellType.protectFromDirectHits = readProtectedModules(xmlCtx, section, b'deviceDamagePossibility/protectFromDirectHits')
+    if kind == b'HIGH_EXPLOSIVE' and section.has_key(b'deviceDamagePossibility/protectFromIndirectHits'):
+        localShellType.protectFromIndirectHits = readProtectedModules(xmlCtx, section, b'deviceDamagePossibility/protectFromIndirectHits')
+    if kind.startswith(b'ARMOR_PIERCING'):
+        if section.has_key(b'normalizationAngle'):
+            localShellType.normalizationAngle = radians(_xml.readNonNegativeFloat(xmlCtx, section, b'normalizationAngle'))
+        if section.has_key(b'ricochetAngle'):
+            localShellType.ricochetAngleCos = cos(radians(_xml.readNonNegativeFloat(xmlCtx, section, b'ricochetAngle')))
+        if section.has_key(b'enableTraceRicochet'):
+            localShellType.enableTraceRicochet = _xml.readBool(xmlCtx, section, b'enableTraceRicochet')
+    elif kind == b'HOLLOW_CHARGE':
+        if section.has_key(b'piercingPowerLossFactorByDistance'):
+            localShellType.piercingPowerLossFactorByDistance = 10.0 * _xml.readNonNegativeFloat(xmlCtx, section, b'piercingPowerLossFactorByDistance')
+        if section.has_key(b'ricochetAngle'):
+            localShellType.ricochetAngleCos = cos(radians(_xml.readNonNegativeFloat(xmlCtx, section, b'ricochetAngle')))
+        if section.has_key(b'enableTraceRicochet'):
+            localShellType.enableTraceRicochet = _xml.readBool(xmlCtx, section, b'enableTraceRicochet')
+    if kind == b'HIGH_EXPLOSIVE':
+        if isModernHighExplosive:
+            if section.has_key(b'obstaclePenetration'):
+                localShellType.obstaclePenetration = _xml.readBool(xmlCtx, section, b'obstaclePenetration')
+            if section.has_key(b'shieldPenetration'):
+                localShellType.shieldPenetration = _xml.readBool(xmlCtx, section, b'shieldPenetration')
+            if section.has_key(HighExplosiveImpact.BLAST_WAVE):
+                localShellType.blastWave = _readImpactParamsLocal(xmlCtx, section, HighExplosiveImpact.BLAST_WAVE, originalShellType.blastWave)
+            if section.has_key(HighExplosiveImpact.SHELL_FRAGMENTS):
+                localShellType.shellFragments = _readImpactParamsLocal(xmlCtx, section, HighExplosiveImpact.SHELL_FRAGMENTS, originalShellType.shellFragments)
+            if section.has_key(HighExplosiveImpact.ARMOR_SPALLS):
+                localShellType.armorSpalls = _readImpactParamsLocal(xmlCtx, section, HighExplosiveImpact.ARMOR_SPALLS, originalShellType.armorSpalls)
+            blastWave = localShellType.blastWave
+            shellFragments = localShellType.shellFragments
+            armorSpalls = localShellType.armorSpalls
+            if not (blastWave.isActive or shellFragments.isActive or armorSpalls.isActive):
+                _xml.raiseWrongXml(xmlCtx, b'', b'Modern high explosive shell must contain at least one damage mechanics: blastWave, shellFragments, armorSpalls')
+            localShellType.maxDamage = max(max(shellFragments.armorDamage), max(shellFragments.deviceDamage), max(armorSpalls.armorDamage), max(armorSpalls.deviceDamage), max(blastWave.armorDamage), max(blastWave.deviceDamage))
+        if section.has_key(b'explosionRadius'):
+            localShellType.explosionRadius = cachedFloat(section.readFloat(b'explosionRadius'))
+            if not isModernHighExplosive and localShellType.explosionRadius <= 0.0:
+                localShellType.explosionRadius = cachedFloat(originalShell.caliber * originalShell.caliber / 5555.0)
+        explosionSettings = (b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor', b'shellFragmentsDamageAbsorptionFactor')
+        for f in explosionSettings:
+            if section.has_key(f):
+                factor = section.readFloat(f)
+                if factor <= 0:
+                    factor = g_cache.commonConfig[b'miscParams'][f]
+                setattr(localShellType, f, factor)
+
+        if localShellType.explosionEdgeDamageFactor > 1.0:
+            _xml.raiseWrongXml(xmlCtx, b'explosionEdgeDamageFactor', b'explosionEdgeDamageFactor must be < 1')
+    elif originalShellType.mechanics == SHELL_MECHANICS_TYPE.NON_PIERCING_DAMAGE:
+        subXmlCtx, subsection = _xml.getSubSectionWithContext(xmlCtx, section, b'nonPiercingDamage')
+        if subsection and subsection.has_key(b'damage/armor'):
+            localShellType.nonPiercingArmorDamage = _xml.readNonNegativeFloat(subXmlCtx, subsection, b'damage/armor')
+    if section.has_key(b'damageRandomization'):
+        localShell.damageRandomization = _xml.readNonNegativeFloat(xmlCtx, section, b'damageRandomization')
+    if section.has_key(b'damageRandomizationType'):
+        localShell.damageRandomizationType = _xml.readNonEmptyString(xmlCtx, section, b'damageRandomizationType')
+    if section.has_key(b'piercingPowerRandomization'):
+        localShell.piercingPowerRandomization = _xml.readNonNegativeFloat(xmlCtx, section, b'piercingPowerRandomization')
+    if section.has_key(b'piercingPowerRandomizationType'):
+        localShell.piercingPowerRandomizationType = _xml.readNonEmptyString(xmlCtx, section, b'piercingPowerRandomizationType')
+    if section.has_key(b'hasStun'):
+        hasStun = section.readBool(b'hasStun')
+        if hasStun:
+            stunParams = gun_readers.readStunParams(section, xmlCtx)
+            if originalShell.stun is None:
+                if stunParams.get(b'stunRadius') is not None:
+                    stun = shell_components.Stun(**stunParams)
+                elif kind == b'HIGH_EXPLOSIVE':
+                    stunParams[b'stunRadius'] = localShellType.explosionRadius
+                    stun = shell_components.Stun(**stunParams)
+                else:
+                    _xml.raiseWrongXml(xmlCtx, b'stunRadius', b'hasStun = true, but neither explosionRadius nor stunRadius defined')
+            else:
+                stun = copy.copy(originalShell.stun)
+                for k, v in viewitems(stunParams):
+                    setattr(stun, k, v)
+
+        else:
+            stun = None
+        localShell.stun = stun
+    if section.has_key(b'chanceToHitByProjectileModifier'):
+        localShell.chanceToHitByProjectileModifier = _xml.readFloat(xmlCtx, section, b'chanceToHitByProjectileModifier')
+    if section.has_key(b'effects'):
+        effName = _xml.readNonEmptyString(xmlCtx, section, b'effects')
+        effIdx = g_cache.shotEffectsIndexes.get(effName, component_constants.INVALID_EFFECT_INDEX)
+        localShell.effectsIndex = effIdx
+    localShell.type = localShellType
+    return localShell
 
 
 _shellKinds = (
  SHELL_TYPES.HOLLOW_CHARGE, SHELL_TYPES.HIGH_EXPLOSIVE,
  SHELL_TYPES.ARMOR_PIERCING, SHELL_TYPES.ARMOR_PIERCING_HE, SHELL_TYPES.ARMOR_PIERCING_CR, SHELL_TYPES.SMOKE)
+
+def _readShot(xmlCtx, section, nationID):
+    shellName = section.name
+    shellID = g_cache.shellIDs(nationID).get(shellName)
+    if shellID is None:
+        _xml.raiseWrongXml(xmlCtx, b'', b'unknown shell type name')
+    shellDescr = g_cache.shells(nationID)[shellID]
+    defaultPortion = component_constants.ZERO_FLOAT
+    if section.has_key(b'defaultPortion'):
+        defaultPortion = _xml.readFraction(xmlCtx, section, b'defaultPortion')
+    if IS_CLIENT or IS_WEB:
+        defaultPortion = ceilTo(defaultPortion, decimals=-3, epsilon=1e-06)
+    projectileSpeedFactor = g_cache.commonConfig[b'miscParams'][b'projectileSpeedFactor']
+    shot = gun_components.GunShot(shellDescr, defaultPortion, shared_readers.readFloatPair(xmlCtx, section, b'piercingPower'), _xml.readPositiveFloat(xmlCtx, section, b'speed') * projectileSpeedFactor, _xml.readNonNegativeFloat(xmlCtx, section, b'gravity') * projectileSpeedFactor ** 2, _xml.readPositiveFloat(xmlCtx, section, b'maxDistance'), _xml.readFloat(xmlCtx, section, b'maxHeight', 1000000.0))
+    if not IS_UE_EDITOR:
+        from helpers_common import computeShotMaxDistance
+        shot.maxDistance = computeShotMaxDistance(shot)
+    return shot
+
+
+def _readShotLocal(xmlCtx, section, originalShot):
+    shellName = originalShot.shell.name
+    shotCtx, shotSection = _xml.getSubSectionWithContext(xmlCtx, section, shellName, throwIfMissing=False)
+    if not shotSection:
+        return originalShot
+    localShot = copy.copy(originalShot)
+    localShot.shell = _readShellLocal(shotCtx, shotSection, originalShot.shell)
+    projectileSpeedFactor = g_cache.commonConfig[b'miscParams'][b'projectileSpeedFactor']
+    if shotSection.has_key(b'piercingPower'):
+        localShot.piercingPower = shared_readers.readFloatPair(shotCtx, shotSection, b'piercingPower')
+    if shotSection.has_key(b'speed'):
+        localShot.speed = _xml.readPositiveFloat(shotCtx, shotSection, b'speed') * projectileSpeedFactor
+    if shotSection.has_key(b'gravity'):
+        localShot.gravity = _xml.readNonNegativeFloat(shotCtx, shotSection, b'gravity') * projectileSpeedFactor ** 2
+    if shotSection.has_key(b'maxDistance'):
+        maxDistance = _xml.readPositiveFloat(shotCtx, shotSection, b'maxDistance')
+        localShot.maxDistance = maxDistance
+        localShot.nominalMaxDistance = maxDistance
+    if shotSection.has_key(b'maxHeight'):
+        localShot.maxHeight = _xml.readFloat(shotCtx, shotSection, b'maxHeight', 1000000.0)
+    if not IS_UE_EDITOR:
+        from helpers_common import computeShotMaxDistance
+        localShot.maxDistance = computeShotMaxDistance(localShot)
+    return localShot
+
 
 def readProtectedModules(xmlCtx, section, subsection):
     moduleKind = g_cache.moduleKind
@@ -6045,23 +6203,26 @@ def _writeMechanics(item, section):
 
 
 def _readHitTester(xmlCtx, section, subsectionName, optional=False):
-    if IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY:
+    if IS_BASEAPP or IS_WEB or IS_PROCESS_REPLAY or IS_COMMON_ENV:
         return
     subsection = _xml.getSubsection(xmlCtx, section, subsectionName, throwIfMissing=False) if subsectionName else section
     if subsection is None:
         if optional:
             return
         _xml.raiseWrongSection(xmlCtx, subsectionName)
-    try:
-        htManager = HitTesterManager(subsection)
-        if IS_CELLAPP or IS_UE_EDITOR:
-            htManager.loadHitTesters()
-        return htManager
-    except Exception as x:
-        LOG_CURRENT_EXCEPTION()
-        _xml.raiseWrongXml(xmlCtx, subsectionName, str(x))
+        return
+    else:
+        try:
+            htManager = HitTesterManager(subsection)
+            if IS_CELLAPP or IS_UE_EDITOR:
+                htManager.loadHitTesters()
+            return htManager
+        except Exception as x:
+            LOG_CURRENT_EXCEPTION()
+            _xml.raiseWrongXml(xmlCtx, subsectionName, str(x))
+            return
 
-    return
+        return
 
 
 def _writeHitTester(hitTesterManager, xmlCtx, section, subsectionName):
@@ -6394,6 +6555,7 @@ def __readReloadEffect(xmlCtx, section, parentSection):
         return reloadEffect
     except Exception as x:
         _xml.raiseWrongXml(xmlCtx, section.name, str(x))
+        return
 
     return
 
@@ -6591,6 +6753,8 @@ def _readShotEffects(xmlCtx, section):
 
             res[b'projectile'] = (
              model, modelOwnShot, effects)
+            if section.has_key(b'projectile/rotationSpeed'):
+                res[b'projectileRotationSpeed'] = _xml.readFloat(xmlCtx, section, b'projectile/rotationSpeed', 0.0)
             if not section.has_key(b'waterParams'):
                 res[b'waterParams'] = (2.0, 4.0)
             else:
@@ -6732,7 +6896,7 @@ def _readCommonConfig(xmlCtx, section):
            b'track': (_xml.readVector2(xmlCtx, section, effectVelPath + b'track')), 
            b'waterContact': (_xml.readVector2(xmlCtx, section, effectVelPath + b'waterContact')), 
            b'ramming': (_xml.readPositiveFloat(xmlCtx, section, effectVelPath + b'ramming'))}
-    elif IS_WEB or IS_PROCESS_REPLAY:
+    elif IS_WEB or IS_PROCESS_REPLAY or IS_COMMON_ENV:
         res[b'materials'], res[b'_autoDamageKindMaterials'] = _readMaterials(xmlCtx, section, b'materials', None)
     if IS_BOT:
         res[b'extras'], res[b'extrasDict'] = common_extras.readExtras(xmlCtx, section, b'extras', b'vehicle_extras')
@@ -7329,7 +7493,7 @@ def _readTurretDetachmentEffects(xmlCtx, section, subsectionName, defaultEffects
 
 if IS_CLIENT or IS_UE_EDITOR:
     _vehicleEffectKindNames = tuple([
-     422, 423, 424, 425, 426, 427, 428, 429] + [b'%sCollisionLight' % _name for _name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % _name for _name in EFFECT_MATERIALS] + [b'explosionCandle%d' % _i for _i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
+     426, 427, 428, 429, 430, 431, 432, 433] + [b'%sCollisionLight' % _name for _name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % _name for _name in EFFECT_MATERIALS] + [b'explosionCandle%d' % _i for _i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
     _damagedStateGroupEffectKindNames = (
      b'ammoBayExplosion',
      b'ammoBayBurnOff',
@@ -7527,9 +7691,34 @@ def _readImpactParams(xmlCtx, section, paramName):
         if subsection.has_key(b'damageAbsorption'):
             label = _xml.readNonEmptyString(subXmlCtx, subsection, b'damageAbsorption')
             params.damageAbsorptionType = DamageAbsorptionLabelToType.get(label)
-        params.isActive = any(params.armorDamage) or any(params.deviceDamage)
+        isActive = _xml.readBool(subXmlCtx, subsection, b'isActive', True)
+        params.isActive = (any(params.armorDamage) or any(params.deviceDamage)) and isActive
         params.hasSplash = params.radius and params.isActive
         return params
+
+
+def _readImpactParamsLocal(xmlCtx, section, paramName, originalParams):
+    subXmlCtx, subsection = _xml.getSubSectionWithContext(xmlCtx, section, paramName, throwIfMissing=True)
+    localParams = copy.copy(originalParams)
+    if subsection.has_key(b'isActive'):
+        localParams.isActive = _xml.readBool(subXmlCtx, subsection, b'isActive')
+    if subsection.has_key(b'impactRadius'):
+        localParams.radius = _xml.readNonNegativeFloat(subXmlCtx, subsection, b'impactRadius')
+    if subsection.has_key(b'damage/armor'):
+        localParams.armorDamage = shared_readers.readFloatPair(subXmlCtx, subsection, b'damage/armor')
+    if subsection.has_key(b'damage/devices'):
+        localParams.deviceDamage = shared_readers.readFloatPair(subXmlCtx, subsection, b'damage/devices')
+    if paramName == HighExplosiveImpact.ARMOR_SPALLS:
+        if subsection.has_key(b'coneAngle'):
+            localParams.coneAngleCos = cos(radians(_xml.readNonNegativeFloat(subXmlCtx, subsection, b'coneAngle')))
+        if subsection.has_key(b'piercingSpalls'):
+            localParams.piercingSpalls = _xml.readBool(subXmlCtx, subsection, b'piercingSpalls')
+    if subsection.has_key(b'damageAbsorption'):
+        label = _xml.readNonEmptyString(subXmlCtx, subsection, b'damageAbsorption')
+        localParams.damageAbsorptionType = DamageAbsorptionLabelToType.get(label)
+    localParams.isActive = (any(localParams.armorDamage) or any(localParams.deviceDamage)) and localParams.isActive
+    localParams.hasSplash = localParams.radius and localParams.isActive
+    return localParams
 
 
 def _readBrokenTrackLosses(xmlCtx, section):
@@ -7703,12 +7892,46 @@ def _readVehicleMechanics(xmlPath):
                         b'template': (paramSection.readString(b'template', b'')), 
                         b'kpiSign': (paramSection.readString(b'kpiSign', b'positive'))}))
 
+            mechanicSubtypes = _readMechanicSubtypes(xmlPath, mechanicSection, mechanicName)
             res[vehTypeCompDescr][mechanicName] = {b'priority': priority, 
                b'rank': rank, 
-               b'params': params}
+               b'params': params, 
+               b'mechanicSubtypes': mechanicSubtypes}
 
     ResMgr.purge(xmlPath, True)
     return res
+
+
+def _readMechanicSubtypes(xmlPath, mechanicSection, mechanicName):
+    if not mechanicSection.has_key(b'mechanicSubtypes'):
+        return {}
+    else:
+        mechanicSubtypes = {}
+        subtypeSection = _xml.getSubsection(xmlPath, mechanicSection, b'mechanicSubtypes')
+        if subtypeSection.has_key(b'shells'):
+            for shellSection in subtypeSection[b'shells'].values():
+                shell = shellSection.readString(b'name')
+                shellNation, shellName = shell.split(b':')
+                shellDescr = getShellByName(shellName, shellNation)
+                if shellDescr is None:
+                    _xml.raiseWrongXml(None, xmlPath, (b'Invalid shell for mechanic {}').format(mechanicName))
+                shellCD = shellDescr.compactDescr
+                basicValue = shellSection.readString(b'basic')
+                modifiedValue = shellSection.readString(b'modified')
+                if not basicValue or not modifiedValue:
+                    _xml.raiseWrongXml(None, xmlPath, (b'Empty value of basic or modified attribute for mechanic {} for shell {}').format(mechanicName, shellCD))
+                basicWithTextLabel = shellSection.readBool(b'basicWithTextLabel', False)
+                basicWithRichTooltip = shellSection.readBool(b'basicWithRichTooltip', True)
+                modifiedWithTextLabel = shellSection.readBool(b'modifiedWithTextLabel', False)
+                modifiedWithRichTooltip = shellSection.readBool(b'modifiedWithRichTooltip', True)
+                mechanicSubtypes[shellCD] = {b'basic': basicValue, 
+                   b'modified': modifiedValue, 
+                   b'basicWithTextLabel': basicWithTextLabel, 
+                   b'basicWithRichTooltip': basicWithRichTooltip, 
+                   b'modifiedWithTextLabel': modifiedWithTextLabel, 
+                   b'modifiedWithRichTooltip': modifiedWithRichTooltip}
+
+        return mechanicSubtypes
 
 
 def _descrByID(descrList, id):

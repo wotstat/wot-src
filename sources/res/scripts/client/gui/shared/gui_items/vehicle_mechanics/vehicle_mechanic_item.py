@@ -9,7 +9,7 @@ from items import vehicles
 if typing.TYPE_CHECKING:
     from vehicles.mechanics.mechanic_constants import VehicleMechanic
 
-@ReprInjector.simple(b'guiName', b'priority', b'rank')
+@ReprInjector.simple(b'guiName', b'priority', b'rank', b'mechanic')
 class VehicleMechanicItem(GUIItem):
     __slots__ = (b'__mechanic', b'__vehIntCD')
 
@@ -31,6 +31,10 @@ class VehicleMechanicItem(GUIItem):
     @property
     def guiName(self):
         return VEHICLE_MECHANICS_GUI_MAP.get(self.__mechanic, MechanicsEnum.UNKNOWN)
+
+    @property
+    def mechanic(self):
+        return self.__mechanic
 
     @property
     def priority(self):

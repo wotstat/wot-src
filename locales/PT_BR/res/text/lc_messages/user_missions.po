@@ -382,11 +382,56 @@ msgstr "As Missões Semanais são um conjunto de tarefas disponíveis toda seman
 msgid "info_page/main/weekly/title"
 msgstr "Missões Semanais"
 
+msgid "pm/missionState/active"
+msgstr "Ativas"
+
+msgid "pm/missionState/complete"
+msgstr "Missões Concluídas"
+
+msgid "pm/missionState/improve"
+msgstr "Melhoria de Resultados"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Trocar de Veículo"
+
+msgid "pm/no_missions"
+msgstr "Nenhuma missão ativa para o veículo selecionado"
+
+msgid "pm/tier"
+msgstr "Nível inadequado"
+
+msgid "pm/unavailable"
+msgstr "Missão temporariamente indisponível"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Não há missões ativas para o veículo selecionado. Por favor, escolha outro veículo."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Esta missão está temporariamente indisponível por motivos técnicos. Pedimos desculpa pelo incômodo."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "O veículo selecionado não atende aos requisitos de nível para as operações ativas. Por favor, escolha outro veículo."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Sem Missões Ativas"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Temporariamente Indisponível"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Nível inadequado"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Todas as missões regulares cumpridas por hoje"
 
 msgid "quests/daily_quests/completed"
 msgstr "Todas as Missões Diárias cumpridas"
+
+msgid "slider/title/missions"
+msgstr "Missões Regulares"
+
+msgid "slider/title/personalMissions"
+msgstr "Missões Pessoais"
 
 msgid "tooltip/common/timer"
 msgstr "Disponível em {{timeLeft}}"

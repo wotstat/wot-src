@@ -307,9 +307,11 @@ class SeniorityRewardVehiclesView(ViewImpl):
 
     def __onVehicleSelectionChanged(self, state):
         if state == VehiclesForSelectionState.STATE_CHANGED:
-            return self.__onSettingsChange()
+            self.__onSettingsChange()
+            return
         if state == VehiclesForSelectionState.VEHICLES_CHANGED:
-            return self.__onVehicleForSelectionChanged()
+            self.__onVehicleForSelectionChanged()
+            return
         _logger.error(b'Vehicle selection state is undefined %s', state)
         return
 

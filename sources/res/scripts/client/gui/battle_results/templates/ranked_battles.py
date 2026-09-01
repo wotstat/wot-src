@@ -52,12 +52,7 @@ RANKED_VEHICLE_STATS_BLOCK_VO_META = base.PropertyMeta((
   b'mileage', style.MetersToKillometersItem(b'mileage'), b'mileage')))
 RANKED_VEHICLE_STATS_BLOCK_VO_META.bind(vehicles.RankedVehicleStatValuesBlock)
 RANKED_COMMON_STATS_BLOCK.addNextComponent(ranked.RankChangesBlock(_RANK_COMMON_VO_META, b'rank', _RECORD.VEHICLES))
-RANKED_TEAM_ITEM_VO_META = regular.TEAM_ITEM_VO_META.replace((
- b'statValues', vehicles.AllRankedVehicleStatValuesBlock(base.ListMeta(), b'statValues'), b'statValues'))
-RANKED_TEAM_ITEM_VO_META.bind(vehicles.RankedBattlesVehicleStatsBlock)
 RANKED_TEAMS_STATS_BLOCK = vehicles.TwoTeamsStatsBlock(regular.TEAMS_VO_META.clone(), b'', _RECORD.VEHICLES)
-RANKED_TEAMS_STATS_BLOCK.addNextComponent(vehicles.RankedBattlesTeamStatsBlock(meta=base.ListMeta(), field=b'team1'))
-RANKED_TEAMS_STATS_BLOCK.addNextComponent(vehicles.RankedBattlesTeamStatsBlock(meta=base.ListMeta(), field=b'team2'))
 RANKED_PERSONAL_STATS_BLOCK = regular.REGULAR_PERSONAL_STATS_BLOCK.clone(8)
 RANKED_PERSONAL_STATS_BLOCK.addComponent(8, vehicles.PersonalVehiclesRankedStatsBlock(base.ListMeta(), b'statValues', _RECORD.PERSONAL))
 RANKED_RESULTS_BLOCK = base.DictMeta({b'title': (text_styles.promoTitle(backport.text(R.strings.ranked_battles.battleresult.headerText()))), 

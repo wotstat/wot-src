@@ -880,6 +880,12 @@ msgstr "Garras Adicionais Classe 3"
 msgid "gun_balancing_1/name"
 msgstr "Balanceamento do Canhão (Tipo 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Balanceamento do Canhão (Tipo 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modificação do Barril do Canhão (Tipo 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Suspensão Melhorada (Tipo 1)"
 msgid "improved_suspension_2/name"
 msgstr "Suspensão Melhorada (Tipo 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Movimentação Melhorada da Torre (Tipo 1)"
+
 msgid "inspire/longDescr"
 msgstr "Melhora o desempenho da tripulação do veículo e de todos os aliados dentro de um raio especificado, adicionando um bônus de % à qualificação principal de cada tripulante. Um jogador que a aplica vai receber um efeito melhorado."
 
@@ -1294,6 +1303,9 @@ msgstr "Sistema de Melhoria de Mobilidade T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Sistema de Melhoria de Mobilidade T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Supressor de Clarão do Freio de Boca (Tipo 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Aumenta temporariamente a potência do motor do seu veículo em %(enginePowerFactor)s e a velocidade máxima em %(maxSpeedFactor)s vezes durante %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Dentro de {colorTagOpen}%(delay)d s{colorTagClose}, a área selecionada
 
 msgid "poi_artillery_aoe/name"
 msgstr "Ataque da Artilharia"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Após um curto período, um Sinalizador de Iluminação ilumina a área selecionada. Os veículos inimigos dentro do alcance do clarão permanecem detectados e recebem mais dano.\nO Posto de Observação pode ser capturado novamente após alguns minutos."
+
+msgid "poi_illumination_flare/name"
+msgstr "Sinalizador de Iluminação"
 
 msgid "poi_radar/descr"
 msgstr "Quando ativado, todos os veículos inimigos permanecerão detectados por {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Casco Leve"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Casco\nLeve"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Revestimento Óptico Antirreflexo"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Revestimento Antirreflexo Para os Faróis"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Revestimento Óptico\nAntirreflexo"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Revestimento Antirreflexo\nPara os Faróis"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Sistema de Visão Externa"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Movimentação Elétrica do Periscópio"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Sistema de\nVisão Externa"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Movimentação\nElétrica do Periscópio"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Triplex Panorâmico"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Triplex\nPanorâmico"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Triplex Panorâmico"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Dispositivo de Observação de Ângulo Estreito"
 
+msgid "role_LT_scout_pair_5_2/splitName"
+msgstr "Dispositivo de Observação de\nÂngulo Estreito"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Novas Engrenagens de Mira"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Novas Engrenagens de Mira"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Movimentação Elétrica do Periscópio"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Movimentação\nElétrica do Periscópio"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Aumento da Durabilidade Geral"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Aumento\nda Durabilidade Geral"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Revestimento Antirreflexo Para os Faróis"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Revestimento Antirreflexo\nPara os Faróis"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Ajuste do Ejetor"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Ajuste do Ejetor"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Troca de Fios da Fonte de Alimentação"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Troca de Fios\nda Fonte de Alimentação"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Raiamento de Projétil Aprimorado"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Raiamento\nde Projétil Aprimorado"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Lentes Sensíveis"
+
 msgid "role_LT_universal_pair_5_2/splitName"
-msgstr "Dispositivo de Observação\nde Ângulo Estreito"
+msgstr "Lentes Sensíveis"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Estrutura Primária Reforçada"
@@ -2424,6 +2490,9 @@ msgstr "Descarga Elétrica"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Cria uma zona onde uma série de %(thunderCount)s descargas elétricas são liberadas com alta frequência. Cada descarga provoca {whiteSpanish_Open}%(damage)s HP de dano {whiteSpanish_Close} e reduz temporariamente a mobilidade de todos os veículos inimigos dentro da área de efeito da habilidade.\n\n*Há um atraso de %(delay)s s entre a ativação da habilidade e a primeira descarga. Seu efeito negativo pode ser removido com um Kit de Conserto."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Substituição das Barras de Torção (Tipo 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Durante %(duration)s s, cria uma área que reduz a mobilidade em %(vehicleMaxSpeed)s, aumentando o tempo de recarga e tempo de mira em %(gunReloadTime)s para todos os veículos inimigos dentro dela."

@@ -46,6 +46,7 @@ class ENTRY_SYMBOL_NAME(object):
     MARK_OBJECTIVE_REPLY_DEF = b'PositionDefendReplyEntry'
     MARK_OBJECTIVE_REPLY_ATK = b'PositionAttackReplyEntry'
     MARK_POSITION = b'PositionFlashEntry'
+    SIGHT_POINTER = b'SightPointerEntry'
     ARTY_MARKER = b'ArtyMarkerMinimapEntry'
     ARTY_HIT_DOT_MARKER = b'ArtyHitDotMarkerUI'
     LOCATION_MARKER = b'MarkGoingToPositionEntryUI'
@@ -111,6 +112,12 @@ class VIEW_RANGE_CIRCLES_AS3_DESCR(object):
     AS_DEL_MIN_SPOTTING_CIRCLE = b'as_delMinSpottingRange'
     AS_INIT_ARENA_SIZE = b'as_initArenaSize'
     AS_REMOVE_ALL_CIRCLES = b'as_removeAllCircles'
+
+
+class SIGHT_POINTER_ENTRY_AS3_DESCR(str, Enum):
+    AS_SET_VIEW_RANGE = b'as_setViewRange'
+    AS_SET_VIEW_ANGLE = b'as_setViewAngle'
+    AS_SET_MIN_VIEW_ANGLE = b'as_setMinViewAngle'
 
 
 EQ_MARKER_TO_SYMBOL = {b'artillery': (ENTRY_SYMBOL_NAME.ARTILLERY_ENTRY), 

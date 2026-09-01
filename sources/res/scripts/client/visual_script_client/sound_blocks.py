@@ -360,3 +360,80 @@ class TriggerSoundOnEngine(Block, SoundMeta):
             _logger.debug(b'Vehicle game object is None')
         self._out.call()
         return
+
+
+class ScheduleDelayedSound2D(Block, SoundMeta):
+
+    def __init__(self, *args, **kwargs):
+        super(ScheduleDelayedSound2D, self).__init__(*args, **kwargs)
+        self._start = self._makeEventInputSlot(b'start', self.__start)
+        self._stop = self._makeEventInputSlot(b'stop', self.__stop)
+        self._remainingTime = self._makeDataInputSlot(b'remainingTime', SLOT_TYPE.FLOAT)
+        self._timeBeforeEnd = self._makeDataInputSlot(b'timeBeforeEnd', SLOT_TYPE.FLOAT)
+        self._threshold = self._makeDataInputSlot(b'threshold', SLOT_TYPE.FLOAT)
+        self._sound = self._makeDataInputSlot(b'sound', SLOT_TYPE.SOUND)
+        self._startOut = self._makeEventOutputSlot(b'startOut')
+        self._stopOut = self._makeEventOutputSlot(b'stopOut')
+        self.__timerCallbackID = None
+        self.__initDefaults()
+        return
+
+    def captionText(self):
+        return b'Schedule Delayed Sound2D'
+
+    def onFinishScript(self):
+        self.__stopSound()
+        self.__cancelTimer()
+        return
+
+    def __initDefaults(self):
+        self._remainingTime.setDefaultValue(0.0)
+        self._timeBeforeEnd.setDefaultValue(0.0)
+        self._threshold.setDefaultValue(0.0)
+        return
+
+    def __start(self):
+        remainingTime = self._remainingTime.getValue()
+        timeBeforeEnd = self._timeBeforeEnd.getValue()
+        threshold = self._threshold.getValue()
+        self.__cancelTimer()
+        if remainingTime >= threshold:
+            delay = remainingTime - timeBeforeEnd
+            if delay > 0.0:
+                self.__startTimer(delay)
+            else:
+                self.__playSound()
+        self._startOut.call()
+        return
+
+    def __stop(self):
+        self.__cancelTimer()
+        self._stopOut.call()
+        return
+
+    def __startTimer(self, delay):
+        self.__timerCallbackID = BigWorld.callback(delay, self.__playSoundAfterDelay)
+        return
+
+    def __cancelTimer(self):
+        if self.__timerCallbackID is not None:
+            BigWorld.cancelCallback(self.__timerCallbackID)
+            self.__timerCallbackID = None
+        return
+
+    def __playSoundAfterDelay(self):
+        self.__timerCallbackID = None
+        self.__playSound()
+        return
+
+    def __playSound(self):
+        sound = self._sound.getValue()
+        if sound.isPlaying:
+            return
+        sound.play()
+        return
+
+    def __stopSound(self):
+        sound = self._sound.getValue()
+        sound.stop()
+        return

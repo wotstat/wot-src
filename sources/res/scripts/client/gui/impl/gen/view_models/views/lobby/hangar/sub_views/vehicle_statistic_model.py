@@ -10,7 +10,7 @@ class VehicleStatisticModel(ViewModel):
     MAXIMUM = b'prestige'
     UNDEFINED = b'undefined'
 
-    def __init__(self, properties=22, commands=0):
+    def __init__(self, properties=23, commands=0):
         super(VehicleStatisticModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -172,6 +172,13 @@ class VehicleStatisticModel(ViewModel):
         self._setBool(21, value)
         return
 
+    def getRestBonusEnabled(self):
+        return self._getBool(22)
+
+    def setRestBonusEnabled(self, value):
+        self._setBool(22, value)
+        return
+
     def _initialize(self):
         super(VehicleStatisticModel, self)._initialize()
         self._addStringProperty(b'id', b'')
@@ -196,4 +203,5 @@ class VehicleStatisticModel(ViewModel):
         self._addNumberProperty(b'bpProgress', -1)
         self._addArrayProperty(b'numberOfCrystalEarned', Array())
         self._addBoolProperty(b'own3DStyle', False)
+        self._addBoolProperty(b'restBonusEnabled', False)
         return

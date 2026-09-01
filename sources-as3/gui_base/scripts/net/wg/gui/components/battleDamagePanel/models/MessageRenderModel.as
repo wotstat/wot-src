@@ -17,6 +17,8 @@ package net.wg.gui.components.battleDamagePanel.models
       
       public var shellTypeBG:String = "";
       
+      public var shellModeImg:String = "";
+      
       public function MessageRenderModel(param1:Object = null)
       {
          super(param1);

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n > 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Quando abertas, estas Caixas podem conter veículos, economia do jogo e outras recompensas valiosas."
+msgstr "Quando abertas, as caixas podem conter veículos Premium de Nível VIII, economia do jogo e outras recompensas valiosas."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Quando abertas, estas Caixas podem conter veículos, economia do jogo, elementos de customização e outras recompensas valiosas."
+msgstr "Quando abertas, as caixas podem conter veículos Premium de Nível X, economia do jogo e outras recompensas valiosas."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Quando abertas, estas Caixas podem conter veículos, economia do jogo, elementos de customização e outras recompensas valiosas."
+msgstr "Quando abertas, as caixas podem conter veículos Premium de Nível IX, economia do jogo e outras recompensas valiosas."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Elas podem ser obtidas pela Loja no jogo e recebidas ao abrir caixas de qualquer outro tipo."
+msgstr "Pode ser recebido como um presente ao comprar itens na Loja Premium ou na abertura de qualquer tipo de caixa."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Pode ser recebido ao abrir qualquer tipo de caixa."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Pode ser recebido ao abrir qualquer tipo de caixa."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Caixa da Recompensa"
+msgstr "CAIXA CELESTIAL"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Caixa da Bênção"
+msgstr "CAIXA DO ESCOLHIDO"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Caixa da Doação"
+msgstr "Caixa de Ajuda Celestial"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "CAIXA DA RECOMPENSA"
+msgstr "CAIXA CELESTIAL"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "CAIXA DA BÊNÇÃO"
+msgstr "CAIXA DO ESCOLHIDO"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "CAIXA DA DOAÇÃO"
+msgstr "CAIXA DE AJUDA CELESTIAL"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Estas são caixas especiais que incluem itens novos e únicos. Elas podem ser obtidas pela Loja no jogo."
+msgstr "Vamos ter caixas novas com veículos exclusivos de Nível VIII-X e mais recompensas.\nVocê pode receber essas caixas ao comprar itens na Loja Premium ou abrindo caixas de outro tipo."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "O evento vai terminar em."
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "As Caixas não podem ser abertas ou compradas no momento por motivos técnicos. Pedimos desculpas pelo inconveniente temporário."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Caixas de Benção Divina Temporariamente Indisponíveis"
 
 msgid "eventName/lowerCase"
-msgstr "Cripta dos Sussurros"
+msgstr "Bênção Divina"
 
 msgid "eventName/upperCase"
-msgstr "CRIPTA DOS SUSSURROS"
+msgstr "BÊNÇÃO DIVINA"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Caso já possua todos os veículos, você receberá uma Caixa da Bênção no lugar deles."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "As caixas fechadas serão abertas automaticamente no fim do evento."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Caso já possua todos os veículos das caixas, você receberá uma Caixa da Bênção como recompensa ao invés de um veículo."
+msgstr "Recebeu todos os veículos da caixa? Você vai receber uma Caixa do Escolhido como Recompensa Garantida no lugar de um veículo."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "A cada %(guaranteed0)s Caixas da Recompensa, %(guaranteed1)s Caixas da Doação ou %(guaranteed2)s Caixas da Bênção, é garantido dropar um veículo. Um veículo que você não tenha vai dropar na %(guaranteed0)sª / %(guaranteed1)sª / %(guaranteed2)sª (dependendo do tipo da caixa) caso não tenha dropado nenhum veículo. Quando um veículo dropar, o contador é zerado."
+msgstr "A cada %(guaranteed0)s Caixas Celestiais, %(guaranteed1)s Caixas de Ajuda Celestial ou %(guaranteed2)s Caixas do Escolhido, é garantido dropar um veículo de Nível VIII–X. Um veículo Nível VIII–X que você não tenha vai dropar na %(guaranteed0)sª / %(guaranteed1)sª / %(guaranteed2)sª (dependendo da caixa) caso não tenha dropado nenhum veículo. Quando um veículo dropar, o contador é zerado."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Compensação"
+msgstr "Quando Todos os Veículos São Recebidos"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Recompensa Garantida"
+msgid "infoPage/header/description"
+msgstr "Abra caixas para ter a chance de receber itens valiosos do jogo!\nConfira abaixo a lista das possíveis recompensas."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Apenas uma recompensa pode dropar por grupo"
+msgid "noBoxesView/description/"
+msgstr "Você não tem nenhuma caixa.\nVocê pode comprar caixas na Loja Premium."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Caixa do Escolhido"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Recebeu todos os veículos da caixa? Você vai receber uma Caixa do Escolhido como Recompensa Garantida no lugar de um veículo."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Caixa Celestial"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Caixa do Escolhido"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Caixa de Ajuda Celestial"

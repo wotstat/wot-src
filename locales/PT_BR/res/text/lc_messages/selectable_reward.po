@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Afirmativo!"
 
 msgid "error/description"
-msgstr "As informações estão temporariamente indisponíveis. Pedimos desculpas pela inconveniência. Por favor, tente novamente mais tarde."
+msgstr "Pedimos desculpas por isso. Por favor, tente de novo mais tarde."
 
 msgid "error/title"
-msgstr "Não Foi Possível Abrir a Seleção de Recompensa"
+msgstr "Essa página está temporariamente indisponível"
 
 msgid "footer/closeBtn/label"
 msgstr "Selecione Mais Tarde"
@@ -23,7 +23,7 @@ msgstr[1] "Selecione recompensas das categorias fornecidas."
 msgstr[2] "Selecione recompensas das categorias fornecidas."
 
 msgid "footer/okBtn/label"
-msgstr "Resgatar"
+msgstr "Resgatar Recompensas"
 
 msgid "footer/rewardsSelected"
 msgstr "Recompensas selecionadas:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Já recebido(a)"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "O limite de itens selecionados nesta categoria foi atingido. Você pode cancelar a seleção de um item para adicionar outro."
+msgstr "Você alcançou o número máximo de itens permitidos nesta categoria. Desmarque um item para escolher outro."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limite Alcançado"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Diretivas\npara equipamento"
@@ -93,6 +93,9 @@ msgstr "Equipamento Padrão"
 
 msgid "tabs/items/trophy"
 msgstr "Equipamento de Recompensa"
+
+msgid "tooltips/footer/body"
+msgstr "Selecione as recompensas para resgatá-las"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Clique no botão Resgatar para receber as recompensas selecionadas."

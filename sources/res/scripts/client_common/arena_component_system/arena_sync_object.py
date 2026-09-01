@@ -11,6 +11,7 @@ class AttributeDict(dict):
             return self[item]
         except KeyError:
             LOG_ERROR(b'sync data object has no key: ', item)
+            return
 
         return
 
@@ -28,6 +29,7 @@ class ArenaSyncObject(object):
             return self.__cache[item]
         except KeyError:
             LOG_ERROR(b'sync data object has no key: ', item)
+            return
 
         return
 
@@ -69,7 +71,7 @@ class ArenaSyncObject(object):
         else:
             cache = self.__cache
             for item in keyList:
-                cache = cache.__getattr__(item)
+                cache = getattr(cache, item)
 
             return cache
 

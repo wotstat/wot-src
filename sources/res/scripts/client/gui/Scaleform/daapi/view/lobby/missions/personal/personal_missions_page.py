@@ -9,7 +9,7 @@ from gui.impl import backport
 from gui.impl.gen import R
 from gui.Scaleform.daapi import LobbySubView
 from gui.Scaleform.daapi.view.lobby.missions import missions_helper
-from gui.Scaleform.daapi.view.lobby.missions.missions_helper import getHtmlAwardSheetIcon, getSuitableVehicles, isBranchesStarted, switchCampaign, processOperation
+from gui.Scaleform.daapi.view.lobby.missions.missions_helper import getHtmlAwardSheetIcon, getSuitableVehicles, isBranchesStarted, switchCampaign, processOperation, isSuitableBranchForPawn
 from gui.Scaleform.daapi.view.lobby.server_events.events_helpers import getChainVehRequirements
 from gui.Scaleform.daapi.view.meta.PersonalMissionsPageMeta import PersonalMissionsPageMeta
 from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
@@ -42,7 +42,7 @@ from skeletons.gui.server_events import IEventsCache
 _logger = logging.getLogger(__name__)
 _ChainState = namedtuple(b'_ChainState', [
  42, 43, 44, 45, 46])
-_BranchState = namedtuple(b'_BranchState', [b'notStartedYetNoVehicle', b'notStartedYet', b'isBranchActive'])
+_BranchState = namedtuple(b'_BranchState', [b'notStartedYetNoVehicle', b'notStartedYet', b'isBranchActive', b'isFullCompleted'])
 _UI_CHAINS_LEN = {(PM_BRANCH.REGULAR): 5, 
    (PM_BRANCH.PERSONAL_MISSION_2): 4}
 
@@ -85,7 +85,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
             else:
                 _logger.error(b'No quest in progress to pawn: %s', chainState)
         elif btnID == PERSONAL_MISSIONS_BUTTONS.OPERATION_FOOTER_BTN_RESUME_TO_CAMPAIGN:
-            if self.getBranch() in PM_BRANCH.V1_BRANCHES:
+            if PM_BRANCH.TYPE_TO_NAME[self.getBranch()] in PM_BRANCH.MUTUAL_EXCLUSION_BRANCHES[PM_BRANCH.QUEST_GROUPS.GROUP_1]:
                 self._switchCampaign(PM_BRANCH.REGULAR)
         elif btnID == PERSONAL_MISSIONS_BUTTONS.OPERATION_FOOTER_BTN_PROCEED_EXECUTION:
             self._activateCampaign(self.getBranch(), self.getOperationID())
@@ -106,7 +106,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
     @decorators.adisp_process(b'updating')
     def _switchCampaign(self, campaignToActive):
         res = yield switchCampaign(campaignToActive)
-        if res.success:
+        if res:
             self.__updateComponents()
         return
 
@@ -116,7 +116,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
         isRegularActive = regularName in self.__eventsCache.getPersonalMissions().getActiveCampaigns()
         if not isRegularActive:
             res = yield switchCampaign(campaignToActive)
-            if not res.success:
+            if res:
                 return
         self._selectInitialMissions(campaignToActive, operationToActive)
         return
@@ -319,7 +319,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
             btnID = PERSONAL_MISSIONS_BUTTONS.OPERATION_FOOTER_BTN_PROCEED_EXECUTION
             tooltip = TOOLTIPS.PERSONALMISSIONS_OPERATION_FOOTER_ACTIVATEMISSIONS
             tooltipOnStatus = True
-        elif not branchState.isBranchActive:
+        elif not (branchState.isBranchActive or branchState.isFullCompleted):
             compaingID = currentOperation.getCampaignID()
             campaing = self.__PMCache.getAllCampaigns().get(compaingID)
             campaignName = campaing.getUserName()
@@ -349,7 +349,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
                 pawnCost = quest.getPawnCost()
                 btnLabel = _ms(PERSONAL_MISSIONS.STATUSPANEL_FREESHEETBTN_LABEL, count=pawnCost, icon=getHtmlAwardSheetIcon(quest.getQuestBranch()))
                 btnID = PERSONAL_MISSIONS_BUTTONS.OPERATION_FOOTER_BTN_COMPLETE_USING_SHEETS
-                if pawnCost <= freeSheets:
+                if pawnCost <= freeSheets and isSuitableBranchForPawn():
                     btnEnabled = True
         elif chainState.isFullCompleted:
             status = text_styles.concatStylesWithSpace(icons.doubleCheckmark(1), text_styles.bonusAppliedText(_ms(PERSONAL_MISSIONS.STATUSPANEL_STATUS_ALLEXCELLENTDONE, vehicleClass=vehicleClass)))
@@ -392,7 +392,7 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
         pm = self.__PMCache
         branch = self.getBranch()
         branchState = self.__getBranchState(branch)
-        if not isBranchesStarted(*PM_BRANCH.V1_BRANCHES) or not branchState.isBranchActive:
+        if not isBranchesStarted(*PM_BRANCH.MUTUAL_EXCLUSION_BRANCHES[PM_BRANCH.QUEST_GROUPS.GROUP_1]) or not branchState.isBranchActive:
             return {b'visible': False}
         freeSheets = pm.getFreeTokensCount(branch)
         pawnedSheets = pm.getPawnedTokensCount(branch)
@@ -512,10 +512,13 @@ class PersonalMissionsPage(LobbySubView, PersonalMissionsPageMeta, PersonalMissi
         return _ChainState(hasUnlocked, hasVehicle, isCompleted, isFullCompleted, questInProgress)
 
     def __getBranchState(self, branch):
-        notStartedYet = not isBranchesStarted(branch)
+        branchName = PM_BRANCH.TYPE_TO_NAME[branch]
+        notStartedYet = not isBranchesStarted(branchName)
         notStartedYetNoVehicle = notStartedYet and not getSuitableVehicles()
-        isBranchActive = PM_BRANCH.TYPE_TO_NAME[branch] in self.__PMCache.getActiveCampaigns()
-        return _BranchState(notStartedYetNoVehicle, notStartedYet, isBranchActive)
+        isBranchActive = branchName in self.__PMCache.getActiveCampaigns()
+        branchOperations = self.__PMCache.getOperationsForBranch(branch)
+        isFullCompleted = all(operation.isFullCompleted() for operation in viewvalues(branchOperations))
+        return _BranchState(notStartedYetNoVehicle, notStartedYet, isBranchActive, isFullCompleted)
 
     @decorators.adisp_process(b'updating')
     def __pawnMission(self, questInProgress):

@@ -92,6 +92,12 @@ class DogTagsView(ViewImpl):
         return (
          engraving, background)
 
+    def setSelectedToEquippedDogTag(self):
+        currentEngraving, currentBackground = self.getCurrentDogTag()
+        self.__selectedEngraving = currentEngraving
+        self.__selectedBackground = currentBackground
+        return
+
     @property
     def selectedEngraving(self):
         return self.__selectedEngraving
@@ -159,10 +165,8 @@ class DogTagsView(ViewImpl):
         _logger.debug(b'DogTags::__update')
         clanProfile = self._webCtrl.getAccountProfile()
         dogTag = self._composer.getSelectedDogTag(clanProfile)
-        engraving, background = self.getCurrentDogTag()
+        self.setSelectedToEquippedDogTag()
         with self.viewModel.transaction() as tx:
-            self.__selectedBackground = background
-            self.__selectedEngraving = engraving
             self._composer.fillModel(tx.equippedDogTag, dogTag)
             self._composer.fillGrid(tx)
             selectedTabIdx = DogTagsView.__getSelectedTabIdx(highlightedComponentId)

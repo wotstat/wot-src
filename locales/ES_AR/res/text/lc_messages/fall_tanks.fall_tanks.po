@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ability/name"
+msgstr "Habilidad"
+
+msgid "arenaDescription/winText"
+msgstr "Misión: ¡intenta llegar a la meta!"
+
+msgid "battleLoading/description"
+msgstr "Usa las habilidades Aceleración y Escudo para causar más caos."
+
+msgid "battleLoading/header"
+msgstr "¡Corre hacia la meta e impide que otros lleguen!"
+
+msgid "battleResults/battleStatus/finished"
+msgstr "LLEGASTE"
+
+msgid "battleResults/battleStatus/inTop"
+msgstr "PUESTO"
+
+msgid "battleResults/battleStatus/notFinished"
+msgstr "NO\nLLEGASTE"
+
+msgid "battleResults/finishReason/finished"
+msgstr "Llegaste a la meta"
+
+msgid "battleResults/finishReason/notFinished"
+msgstr "No llegaste a la meta"
+
+msgid "battleResults/footerSubtitle/finished"
+msgstr "¡Nada mal!"
+
+msgid "battleResults/footerSubtitle/notFinished"
+msgstr "¡Mejor suerte la próxima vez!"
+
+msgid "battleResults/footerSubtitle/top"
+msgstr "¡Mejores 3!"
+
+msgid "battleWidget/checkpoint"
+msgstr "PUNTO DE CONTROL"
+
+msgid "battleWidget/enemyPosition"
+msgstr "POSICIÓN DEL ENEMIGO"
+
+msgid "battleWidget/notFinished"
+msgstr "NO\nLLEGASTE"
+
+msgid "battleWidget/place"
+msgstr "PUESTO"
+
+msgid "battleWidget/position"
+msgstr "POSICIÓN"
+
+msgid "battleWidget/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "buttonHint/evacuation/description"
+msgstr "para volver al último punto de control"
+
+msgid "buttonHint/evacuation/noBindingKey"
+msgstr "No hay una tecla para teletransportar asignada"
+
+msgid "buttonHint/evacuation/press"
+msgstr "Mantener pulsado"
+
+msgid "efficiencyRibbons/fallTanksKill"
+msgstr "Desintegrado"
+
+msgid "evacuationAbilityTooltip/description"
+msgstr "Si quedas atascado, usa esto para reaparecer en el último punto de control."
+
+msgid "evacuationAbilityTooltip/name"
+msgstr "Volver al punto de control"
+
+msgid "serviceChannelMessages/battleResults/finishTime"
+msgstr "Tiempo"
+
+msgid "serviceChannelMessages/battleResults/finished"
+msgstr "%(playerPlace)s puesto"
+
+msgid "serviceChannelMessages/battleResults/notFinished"
+msgstr "No terminaste"
+
+msgid "shellTooltip/caliber"
+msgstr "Calibre: %(caliber)s mm"
+
+msgid "shellTooltip/description"
+msgstr "En vez de infligir daño, crea un impulso potente al impacto. Cuanto más grande es el cañón, ¡mayor será la explosión!"
+
+msgid "shellTooltip/header"
+msgstr "Proyectil de pulso"
+
+msgid "statusNotificationTimer/evacuation"
+msgstr "Teletransportando al punto de control..."

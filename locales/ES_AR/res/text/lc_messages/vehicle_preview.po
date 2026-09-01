@@ -40,6 +40,9 @@ msgstr "Investigar"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Recuperar"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "A cajas grandes"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Debes investigar un vehículo %(nation)s de nivel %(level)s"
 
@@ -54,6 +57,15 @@ msgstr "Descuento para la compra:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Descuento en la investigación:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "¡Podrías conseguir este vehículo en {{@ style (color $color)}}cajas grandes!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "¡Cajas grandes!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Puedes obtener este vehículo en"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Aplica un cupón de descuento: %(value)s"

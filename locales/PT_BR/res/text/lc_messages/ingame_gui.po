@@ -700,6 +700,9 @@ msgstr "Zona capturada"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Dano causado pela zona de fogo"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Dano Provocado"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Veículo reparado"
 
@@ -741,6 +744,9 @@ msgstr "Dano por Disparo"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Dano por Bola de Fogo"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Dano por Disparo"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Dano por batida"
@@ -907,6 +913,9 @@ msgstr "Esteira não penetrada"
 msgid "hitMarker/wheelBlocked"
 msgstr "Roda não penetrada"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "NÍVEL MÁXIMO DO VEÍCULO"
 
@@ -1020,6 +1029,21 @@ msgstr "Consertos não são necessários: todos os dispositivos estão intactos.
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] está operacional, nenhum conserto é necessário."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Indisponível: O pente está cheio."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Indisponível: Nenhum projétil restante."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Indisponível: Nenhuma carga restante."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Indisponível: Recarga quase completa."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Lançamento do míssil indisponível"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Não é possível ativar a arma coaxial."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Explosivo %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Explosivo Anti-Tanque %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Chance de acerto crítico: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Reduzido"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Aumentado"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Padrão"
+
 msgid "shells_kinds/params/damage"
 msgstr "Dano médio: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Dano por segundo: %(value)s HP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Raio do dano da explosão: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Carga Completa / Única"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Básico / Modificado:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Carga Completa / Única:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Padrão / Ajustado:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Padrão / Calibrado:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Ângulo de normalização: %(value)s g"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Perda de penetração: %(value)s a cada 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Penetração média: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Ângulo de ricochete: %(value)s g"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Velocidade do projétil: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Duração do atordoamento: %(minValue)s – %(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "para ativar o modo AME"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "para alterar para o modo Cerco"
@@ -2745,6 +2805,9 @@ msgstr "para ativar Impulsores de Combustível Líquido"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "para ativar impulsionadores a jato"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "para trocar os modos de disparo"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "para ativar Propulsores de Foguetes Sequenciais"

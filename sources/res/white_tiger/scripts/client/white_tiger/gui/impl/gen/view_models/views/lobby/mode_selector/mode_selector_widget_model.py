@@ -1,0 +1,36 @@
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_base_widget_model import ModeSelectorBaseWidgetModel
+
+class ModeSelectorWidgetModel(ModeSelectorBaseWidgetModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(ModeSelectorWidgetModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getCurrentProgress(self):
+        return self._getNumber(1)
+
+    def setCurrentProgress(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getTotalCount(self):
+        return self._getNumber(2)
+
+    def setTotalCount(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getTicketCount(self):
+        return self._getNumber(3)
+
+    def setTicketCount(self, value):
+        self._setNumber(3, value)
+        return
+
+    def _initialize(self):
+        super(ModeSelectorWidgetModel, self)._initialize()
+        self._addNumberProperty(b'currentProgress', 0)
+        self._addNumberProperty(b'totalCount', 0)
+        self._addNumberProperty(b'ticketCount', 0)
+        return

@@ -136,6 +136,24 @@ msgstr[0] "{{count}} vitória"
 msgstr[1] "{{count}} vitórias"
 msgstr[2] "{{count}} vitórias"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponível por {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Experiência de Combate"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Temos algo para você, em celebração ao seu retorno: {{@ style (color #ede6d9e6)}}o Bônus de Realocação diário{{/}} impulsiona a XP de Combate obtida na sua primeira vitória do dia em cada veículo."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Bem-vindo de volta, Comandante!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "O bônus é reiniciado diariamente às {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bônus de Realocação: Disponível"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Clique para acessar suas listas de veículos"
 

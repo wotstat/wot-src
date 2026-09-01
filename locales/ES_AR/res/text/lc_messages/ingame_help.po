@@ -232,11 +232,35 @@ msgstr "Este cañón puede disparar continuamente sin necesidad de recargar. Cad
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Autocañón con control térmico de sobrecalentamiento"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "El mecanismo reduce instantáneamente la recarga del proyectil a un tiempo fijo breve. Cada uso consume una carga por proyectil, y las cargas se recuperan con el tiempo (más rápido cuando el cargador está lleno). Al comienzo de la batalla hay disponible una cantidad determinada de cargas."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mecanismo de recarga forzada"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Este vehículo está equipado con un lanzacohetes montado en el mantelete del cañón. Para cambiar a la mira de cohetes, presiona:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Lanzacohetes coaxial"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Mientras apuntas con la mira de cohetes, presiona el botón de disparo para lanzar un cohete:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Lanzacohetes coaxial"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Cuando golpeas al enemigo con un proyectil, obtienes un nivel de eficiencia de recarga, que aumenta temporalmente la velocidad de recarga del cañón. Los niveles se acumulan con cada impacto.\nAl destruir un vehículo enemigo con un proyectil, recibes niveles de eficiencia de recarga adicionales."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Compartimento de municiones semiautomático"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "El módulo externo de abastecimiento de munición de este vehículo le permite disparar potentes proyectiles unitarios de alta carga que causan daño incrementado. Mientras está activo, el módulo también reduce la movilidad y la cadencia de fuego."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Modo de Alimentación de munición externa"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Si tu cañón está cargado, puedes empezar a calentar tu próximo disparo. Cuanto más alto sea el nivel de calor, mejor será la bonificación al daño promedio.\nPara empezar el proceso de calentamiento, presiona lo siguiente:"
@@ -345,6 +369,30 @@ msgstr "Al activarlos, los propulsores aumentan la potencia del motor y la veloc
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Ventajas y desventajas"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Cuando aciertas un impacto en un vehículo enemigo visible con un proyectil, la espoleta del siguiente proyectil se ajusta. Si el disparo inicial penetró el blindaje enemigo, el daño del siguiente disparo aumenta. Si no lo hizo, la penetración del siguiente disparo aumenta."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Regulador de espoleta ajustable"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "El cañón del vehículo cuenta con dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar. Los parámetros varían según el proyectil y el modo seleccionado, y cada modo te permite adaptarte rápidamente a distintas situaciones de combate."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Sistema de calibración de proyectiles"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Un dispositivo óptico avanzado aumenta tu alcance de visión y mejora la detección de vehículos en movimiento u ocultos entre follaje. Al activarse, escanea un sector angosto frente a tu vehículo para revelar objetivos ocultos antes de que termine un tiempo de recuperación."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Búsqueda y seguimiento infrarrojo (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Sin embargo, si revela a un enemigo no detectado, tú también quedas detectado de inmediato durante un tiempo determinado, y tanto tú como los enemigos que detectas reciben una notificación instantánea. Puedes detener el escaneo manualmente e iniciar el tiempo de recuperación del dispositivo después de una breve demora."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Búsqueda y seguimiento infrarrojo (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Impulsores de combustible sólido que potencian la aceleración, la movilidad y la maniobrabilidad durante algunos segundos. Los impulsores derecho e izquierdo pueden activarse por separado para girar más rápido el chasis y no restringen la capacidad de moverse en reversa."

@@ -139,15 +139,6 @@ msgstr "Concedida aos jogadores por sua contribuição inestimável para a evolu
 msgid "15YearsOfService_descr"
 msgstr "Você está no jogo desde %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "PB Conquista de Reserva 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Recebida por completar a Progressão."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Recebida pelas conquistas durante o jogo"
-
 msgid "BPReserveAchievement_2"
 msgstr "PB Conquista de Reserva 2"
 
@@ -429,6 +420,15 @@ msgstr "• Concedido por completar todos os três Capítulos."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Concedido pelas suas conquistas durante a Temporada XX do Passe de Batalha."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Conflito na Planície"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Concedido por completar todos os três Capítulos."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Concedido pelas suas conquistas durante a Temporada XXI do Passe de Batalha."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• O Progresso Principal tem 45 Estágios."
@@ -1828,6 +1828,48 @@ msgstr "Dragão Prateado"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Concedido por coletar pelo menos 9 Cores do Investida no Ano do Dragão no modo Investida."
 
+msgid "comp7_6_1"
+msgstr "Brilho Azure"
+
+msgid "comp7_6_1_descr"
+msgstr "Concedido por concluir uma série de missões na Temporada da Fênix Azure no modo Investida."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Fênix de Bronze"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Concedido por coletar pelo menos 6 Cores do Investida no Ano da Fênix no modo Investida."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Ano do Campeão Fênix"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Concedido por coletar pelo menos 15 Cores do Investida no Ano da Fênix no modo Investida."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Fênix Dourada"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Concedido por coletar pelo menos 12 Cores do Investida no Ano da Fênix no modo Investida."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Fênix de Ferro"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Concedido por coletar pelo menos 3 Cores do Investida no Ano da Fênix no modo Investida."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Ano da Lenda Fênix"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Concedido por coletar pelo menos 18 Cores do Investida no Ano da Fênix no modo Investida."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Fênix Prateada"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Concedido por coletar pelo menos 9 Cores do Investida no Ano da Fênix no modo Investida."
+
 msgid "conqueror"
 msgstr "Capturador %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Pode ser recebida apenas nas Batalhas Aleatórias."
 
 msgid "huntsman_descr"
-msgstr "Destruir todos os tanques leves inimigos (ao menos 3) durante uma batalha."
+msgstr "Destrua todos os tanques leves inimigos (ao menos 2) durante uma batalha."
 
 msgid "huntsman_heroInfo"
 msgstr "O Sargento Grigoriy Naydin era comandante de um BT-7. No dia 25 de junho de 1941, perto da cidade lituana de Rudishkyay, ele destruiu uma coluna blindada da Wehrmacht, incluindo 15 veículos e 10 canhões do 19º Corpo Mecanizado. Naydin conseguiu adiar o avanço alemão por dois dias, fazendo o possível para organizar as defesas em torno de Vilnius. Por este feito, Naydin tornou-se um Herói da União Soviética."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Complete com honras 15 missões pessoais da União. Recompensa: Desempenho Exemplar: medalha União, Classe III."
 
 msgid "readyForBattleAssault"
-msgstr "Performance Exemplar: Vanguarda"
+msgstr "Performance Exemplar: Vanguarda Setor 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Por concluir todas as missões Vanguarda na campanha Setor 3."
+msgstr "Por concluir todas as missões Vanguarda nas operações principais da campanha Setor 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Performance Exemplar: Vanguarda Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Por concluir todas as missões Vanguarda na operação Fossa da campanha Setor 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Performance Exemplar: Emboscada Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Por concluir todas as missões Emboscada na operação Fossa da campanha Setor 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Performance Exemplar: Assistência Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Por concluir todas as missões Assistência na operação Fossa da campanha Setor 3."
 
 msgid "readyForBattleHT"
 msgstr "Desempenho Exemplar: Tanques Pesados"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Completar com honra 15 missões pessoais para AAPs. Recompensa: Desempenho Exemplar: Medalha de AAPs, Classe IV."
 
 msgid "readyForBattleSniper"
-msgstr "Performance Exemplar: Emboscada"
+msgstr "Performance Exemplar: Emboscada Setor 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Por concluir todas as missões Emboscada da campanha Setor 3."
+msgstr "Por concluir todas as missões Emboscada nas operações principais da campanha Setor 3."
 
 msgid "readyForBattleSupport"
-msgstr "Performance Exemplar: Assistência"
+msgstr "Performance Exemplar: Assistência Setor 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Por concluir todas as missões Assistência da campanha Setor 3."
+msgstr "Por concluir todas as missões Assistência nas operações principais da campanha Setor 3."
 
 msgid "reliableComrade"
 msgstr "Colega de Batalha"
@@ -4692,6 +4761,15 @@ msgstr "Concedido por completar a Progressão no Waffenträger: Paradoxo. Esta h
 
 msgid "wt2025progression_descr"
 msgstr "Complete a Progressão do modo Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Cavaleiro da Tempestade"
+
+msgid "wt2026progression_condition"
+msgstr "Concedido por completar a Progressão do Waffenträger: Gênese 2026. Esta honra é dada para quem enfrentou a primeira máquina pensante de von Krieger, a Inteligência Elétrica e cortou todos os circuitos que trouxeram ela ao nosso mundo."
+
+msgid "wt2026progression_descr"
+msgstr "Conclua a Progressão do Waffenträger: Gênese 2026."
 
 msgid "wtBossWins"
 msgstr "Mestre do Relâmpago"

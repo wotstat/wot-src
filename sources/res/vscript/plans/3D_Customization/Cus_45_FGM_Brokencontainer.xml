@@ -117,30 +117,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>Macro</class>
-				<id>Macro_2</id>
-				<params>
-					<param>CustomizationVehicleEvents
-						<name>Macro Name</name>
-						<type>StringT</type>
-					</param>
-				</params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>GameObjectToVehicle</class>
-				<id>GameObjectToVehicle_2</id>
-				<params></params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>GetVehicleGameObject</class>
-				<id>GetVehicleGameObject_1</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -151,7 +127,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>SetVariable</class>
@@ -173,8 +148,6 @@
 			<block>
 				<class>If</class>
 				<id>If_13</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>GetComponentProperty</class>
@@ -185,18 +158,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>Timer</class>
-				<id>Timer_5</id>
-				<params>
-					<param>1
-						<name>Timer Count</name>
-						<type>IntT</type>
-					</param>
-				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -207,18 +168,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
-			</block>
-			<block>
-				<class>Timer</class>
-				<id>Timer_3</id>
-				<params>
-					<param>1
-						<name>Timer Count</name>
-						<type>IntT</type>
-					</param>
-				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>SetVariable</class>
@@ -238,6 +187,26 @@
 				</slots>
 			</block>
 			<block>
+				<class>Timer</class>
+				<id>Timer_5</id>
+				<params>
+					<param>1
+						<name>Timer Count</name>
+						<type>IntT</type>
+					</param>
+				</params>
+			</block>
+			<block>
+				<class>Timer</class>
+				<id>Timer_3</id>
+				<params>
+					<param>1
+						<name>Timer Count</name>
+						<type>IntT</type>
+					</param>
+				</params>
+			</block>
+			<block>
 				<class>GetVariable</class>
 				<id>GetVariable_2</id>
 				<buddy>Variable_6</buddy>
@@ -247,7 +216,6 @@
 						<type>TypeT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>GetVariable</class>
@@ -259,27 +227,20 @@
 						<type>TypeT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
-				<class>FindFirstNode</class>
-				<id>FindFirstNode_7</id>
-				<params></params>
-				<slots>
-					<slot>
-						<name>name</name>
-						<const>\trigger\</const>
-					</slot>
-					<slot>
-						<name>includingInactive</name>
-						<const>\true\</const>
-					</slot>
-				</slots>
+				<class>Macro</class>
+				<id>Macro_2</id>
+				<params>
+					<param>CustomizationVehicleEvents
+						<name>Macro Name</name>
+						<type>StringT</type>
+					</param>
+				</params>
 			</block>
 			<block>
 				<class>FindFirstNode</class>
 				<id>FindFirstNode_10</id>
-				<params></params>
 				<slots>
 					<slot>
 						<name>name</name>
@@ -291,26 +252,40 @@
 					</slot>
 				</slots>
 			</block>
+			<block>
+				<class>FindFirstNode</class>
+				<id>FindFirstNode_7</id>
+				<slots>
+					<slot>
+						<name>name</name>
+						<const>\trigger\</const>
+					</slot>
+					<slot>
+						<name>includingInactive</name>
+						<const>\true\</const>
+					</slot>
+				</slots>
+			</block>
+			<block>
+				<class>GameObjectToVehicle</class>
+				<id>GameObjectToVehicle_2</id>
+			</block>
+			<block>
+				<class>GetVehicleGameObject</class>
+				<id>GetVehicleGameObject_1</id>
+			</block>
+			<block>
+				<class>ComponentMethod</class>
+				<id>ComponentMethod_18</id>
+				<params>
+					<param>Sequence.stop
+						<name>Component Type</name>
+						<type>StringT</type>
+					</param>
+				</params>
+			</block>
 		</blocks>
 		<connections>
-			<connection>
-				<from>GameObjectToVehicle_2</from>
-				<input>vehicle</input>
-				<to>Macro_2</to>
-				<output>vehicle</output>
-			</connection>
-			<connection>
-				<from>GetVehicleGameObject_1</from>
-				<input>gameObject</input>
-				<to>GameObjectToVehicle_2</to>
-				<output>vehicleObject</output>
-			</connection>
-			<connection>
-				<from>ContextGetSelf_1</from>
-				<input>gameObject</input>
-				<to>GetVehicleGameObject_1</to>
-				<output>value</output>
-			</connection>
 			<connection>
 				<from>SetVariable_1</from>
 				<input>in</input>
@@ -348,6 +323,12 @@
 				<output>onKillStreak</output>
 			</connection>
 			<connection>
+				<from>Macro_2</from>
+				<input>input</input>
+				<to>If_13</to>
+				<output>PrebattleHighlightStart</output>
+			</connection>
+			<connection>
 				<from>GetVariable_2</from>
 				<input>value</input>
 				<to>If_13</to>
@@ -366,18 +347,6 @@
 				<output>node</output>
 			</connection>
 			<connection>
-				<from>GetComponentProperty_3</from>
-				<input>windup</input>
-				<to>Timer_5</to>
-				<output>out</output>
-			</connection>
-			<connection>
-				<from>GetComponentProperty_3</from>
-				<input>time0</input>
-				<to>Timer_5</to>
-				<output>duration</output>
-			</connection>
-			<connection>
 				<from>Timer_5</from>
 				<input>in</input>
 				<to>ComponentMethod_17</to>
@@ -388,6 +357,24 @@
 				<input>gameObject</input>
 				<to>ComponentMethod_17</to>
 				<output>node</output>
+			</connection>
+			<connection>
+				<from>Timer_3</from>
+				<input>input</input>
+				<to>SetVariable_3</to>
+				<output>event0</output>
+			</connection>
+			<connection>
+				<from>GetComponentProperty_3</from>
+				<input>windup</input>
+				<to>Timer_5</to>
+				<output>out</output>
+			</connection>
+			<connection>
+				<from>GetComponentProperty_3</from>
+				<input>time0</input>
+				<to>Timer_5</to>
+				<output>duration</output>
 			</connection>
 			<connection>
 				<from>ComponentMethod_17</from>
@@ -402,10 +389,16 @@
 				<output>value</output>
 			</connection>
 			<connection>
-				<from>Timer_3</from>
-				<input>input</input>
-				<to>SetVariable_3</to>
-				<output>event0</output>
+				<from>GameObjectToVehicle_2</from>
+				<input>vehicle</input>
+				<to>Macro_2</to>
+				<output>vehicle</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>FindFirstNode_10</to>
+				<output>value</output>
 			</connection>
 			<connection>
 				<from>ContextGetSelf_1</from>
@@ -414,10 +407,28 @@
 				<output>value</output>
 			</connection>
 			<connection>
+				<from>GetVehicleGameObject_1</from>
+				<input>gameObject</input>
+				<to>GameObjectToVehicle_2</to>
+				<output>vehicleObject</output>
+			</connection>
+			<connection>
 				<from>ContextGetSelf_1</from>
 				<input>gameObject</input>
-				<to>FindFirstNode_10</to>
+				<to>GetVehicleGameObject_1</to>
 				<output>value</output>
+			</connection>
+			<connection>
+				<from>Macro_2</from>
+				<input>in</input>
+				<to>ComponentMethod_18</to>
+				<output>PrebattleHighlightEnd</output>
+			</connection>
+			<connection>
+				<from>FindFirstNode_7</from>
+				<input>gameObject</input>
+				<to>ComponentMethod_18</to>
+				<output>node</output>
 			</connection>
 		</connections>
 		<macros></macros>

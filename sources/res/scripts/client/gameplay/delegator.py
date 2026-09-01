@@ -1,8 +1,10 @@
 import BigWorld
-from frameworks.state_machine import StringEvent
-from frameworks.state_machine import StateMachine
-from frameworks.state_machine import BaseStateObserver
+from frameworks_common.state_machine import StringEvent
+from frameworks_common.state_machine import StateMachine
+from frameworks_common.state_machine import BaseStateObserver
+from frameworks_common.state_machine import OneshotStateIdsObserver
 from gameplay import listeners
+from gameplay.blockers import BlockingStateMixin
 from helpers import dependency
 from skeletons.connection_mgr import IConnectionManager, DisconnectReason
 from skeletons.gui.login_manager import ILoginManager
@@ -34,6 +36,10 @@ class GameplayLogic(IGameplayLogic):
         self.__machine.connect(observer)
         return
 
+    def addOneshotObserver(self, gameplayStateIDs, observerLifetimeObj, enterFn=None, exitFn=None):
+        self.__machine.connect(OneshotStateIdsObserver(gameplayStateIDs, self.__machine, observerLifetimeObj, enterFn, exitFn))
+        return
+
     def removeStateObserver(self, observer):
         self.__machine.disconnect(observer)
         return
@@ -44,6 +50,16 @@ class GameplayLogic(IGameplayLogic):
 
     def tick(self):
         self.__machine.post(StringEvent(b''))
+        return
+
+    def addStateEnterBlocker(self, stateID, event):
+        state = self.__machine.getStateByID(stateID)
+        state.addEnterBlocker(event)
+        return
+
+    def addStateExitBlocker(self, stateID, event):
+        state = self.__machine.getStateByID(stateID)
+        state.addExitBlocker(event)
         return
 
     def goToLoginByRQ(self):

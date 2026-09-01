@@ -114,10 +114,7 @@ def await_deferred(d):
 def resignTickIfRequired(timeout=0.101):
     if BigWorld.isNextTickPending():
         return delay(timeout)
-    else:
-        return _g_alwaysReadyFuture
-
-    return
+    return _g_alwaysReadyFuture
 
 
 if IS_CLIENT:
@@ -457,7 +454,6 @@ class _Promise(object):
         else:
             self.__future = future
             return future
-            return
 
 
 class _FulfilledPromiseResult(object):

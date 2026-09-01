@@ -152,8 +152,11 @@ package net.wg.gui.lobby.battlequeue
          this.battleIcon.dispose();
          this.battleIcon = null;
          this.additional = null;
-         this._typeInfo.dispose();
-         this._typeInfo = null;
+         if(Boolean(this._typeInfo))
+         {
+            this._typeInfo.dispose();
+            this._typeInfo = null;
+         }
          this.tankIcon.dispose();
          this.tankIcon = null;
          if(Boolean(this.battleTypeIcon))

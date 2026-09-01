@@ -1660,6 +1660,7 @@
 						<collisionModelClient>vehicles/american/A178_SPHT/collision_client/Gun_03.model</collisionModelClient>
 					</hitTester>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>RADIAL</muzzleBrake>
 					<camouflage>
 						<density>97.8940506 98.0419693</density>
 						<aoTextureSize>512 512</aoTextureSize>
