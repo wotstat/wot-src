@@ -1192,15 +1192,21 @@ def _status_badge(target: str, branch: str) -> str:
     return f"[![{target} status]({endpoint})]({REPOSITORY_URL}/tree/{branch})"
 
 
-def _data_readme_intro(target: str, branch: str, commit_subject: str) -> str:
+def _status_badges() -> str:
+    return "\n".join(
+        _status_badge(data_branch, data_branch) for _, data_branch in REGION_BRANCHES
+    )
+
+
+def _data_readme_intro(branch: str, commit_subject: str) -> str:
     region_rows = "\n".join(
         f"| {client} | [`{data_branch}`]({REPOSITORY_URL}/tree/{data_branch}) |"
         for client, data_branch in REGION_BRANCHES
     )
-    status_badge = _status_badge(target, branch)
+    status_badges = _status_badges()
     readme = f"""# wot-src • {branch} • {commit_subject}
 
-{status_badge}
+{status_badges}
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`]({REPOSITORY_URL}/tree/main), а данные каждого клиента — в отдельной региональной ветке.
@@ -1253,7 +1259,7 @@ def _data_readme(
     publisher: str,
     snapshot_id: str,
 ) -> str:
-    return f"""{_data_readme_intro(target, branch, commit_subject)}
+    return f"""{_data_readme_intro(branch, commit_subject)}
 
 ## Текущая публикация
 
