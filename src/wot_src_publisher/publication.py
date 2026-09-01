@@ -664,6 +664,8 @@ def _prestage_large_git_objects(
                 f"publication-staging-{commit_sha[:12]}",
             )
             _run_git(staging_worktree, "read-tree", "--empty")
+        else:
+            _run_git(staging_worktree, "read-tree", staging_base)
         deleted_paths = sorted(set(changed_files) - {blob.path for blob in blobs})
         if deleted_paths:
             _run_git(
@@ -1226,7 +1228,7 @@ stubs/               # полный manifest payload IDE stubs
 
 Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали, включая default locale, также сохраняются в `locales/`.
 У клиентов Lesta отдельного дерева `locales/` нет, их локализованные файлы уже входят в `sources/`.
-"""  # noqa: RUF001 - the generated README intentionally contains Russian prose
+"""  # noqa: E501, RUF001 - generated README intentionally contains long Russian prose
     return readme
 
 
