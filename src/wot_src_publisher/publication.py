@@ -500,6 +500,18 @@ def _git_object_stats(repository: Path) -> dict[str, int]:
     }
 
 
+def _staged_changed_files(worktree: Path) -> tuple[str, ...]:
+    encoded = _run_git(
+        worktree,
+        "diff",
+        "--cached",
+        "--no-renames",
+        "--name-only",
+        "-z",
+    ).stdout.rstrip("\0")
+    return tuple(encoded.split("\0")) if encoded else ()
+
+
 def _changed_git_blobs(worktree: Path, changed_files: Sequence[str]) -> tuple[_GitBlob, ...]:
     changed = set(changed_files)
     if not changed:
@@ -1610,15 +1622,7 @@ def publish_snapshot(
                     f"could not compare projected data tree: {difference.stderr}"
                 )
             changed_files = (
-                _run_git(
-                    worktree,
-                    "diff",
-                    "--cached",
-                    "--name-only",
-                    "-z",
-                ).stdout.rstrip("\0").split("\0")
-                if difference.returncode == 1
-                else []
+                _staged_changed_files(worktree) if difference.returncode == 1 else ()
             )
             progress.update(changed=difference.returncode == 1, files=len(changed_files))
         same_version = existing is not None and existing.get("version_name") == release_name
