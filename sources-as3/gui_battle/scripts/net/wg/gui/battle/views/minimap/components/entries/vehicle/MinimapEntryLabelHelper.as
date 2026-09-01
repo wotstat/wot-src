@@ -1,9 +1,8 @@
 package net.wg.gui.battle.views.minimap.components.entries.vehicle
 {
-   import flash.events.TimerEvent;
    import flash.geom.Point;
    import flash.text.TextField;
-   import flash.utils.Timer;
+   import net.wg.gui.battle.views.minimap.MinimapEntryController;
    import net.wg.gui.battle.views.minimap.components.entries.interfaces.IVehicleMinimapEntry;
    import net.wg.gui.battle.views.minimap.constants.MinimapSizeConst;
    
@@ -14,13 +13,9 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
       
       private static const HP_OFFSET_Y:int = -2;
       
-      private static const TICK_INTERVAL:int = 330;
-      
       private static const OFFSET_Y_BETWEEN_TEXT_AND_BORDER:int = 3;
       
-      private var _timer:Timer;
-      
-      private var bounds:Point = new Point(MinimapSizeConst.MAP_SIZE[0].width / 2,MinimapSizeConst.MAP_SIZE[0].height / 2);
+      private var _bounds:Point = new Point(MinimapSizeConst.MAP_SIZE[0].width / 2,MinimapSizeConst.MAP_SIZE[0].height / 2);
       
       private var _entryRef:IVehicleMinimapEntry;
       
@@ -33,6 +28,8 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
       private var _hpOffsetY:int;
       
       private var _isSuspended:Boolean = true;
+      
+      private var _isRegistered:Boolean = false;
       
       private var _sizeIndex:int;
       
@@ -54,9 +51,24 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
          this._initialOffsetY = param2.y;
          this._hpOffsetX = this._initialOffsetX + HP_OFFSET_X;
          this._hpOffsetY = this._initialOffsetY + HP_OFFSET_Y;
-         this._timer = new Timer(TICK_INTERVAL);
-         this._timer.addEventListener(TimerEvent.TIMER,this.onTimerHandler,false,0,true);
          this.setCurrentTF(param2);
+      }
+      
+      final public function dispose() : void
+      {
+         if(this._isRegistered)
+         {
+            MinimapEntryController.instance.unregisterActiveLabelHelper(this);
+            this._isRegistered = false;
+         }
+         this._currentTF = null;
+         this._entryRef = null;
+         this._bounds = null;
+      }
+      
+      public function forceUpdate() : void
+      {
+         this.update(true);
       }
       
       public function setCurrentTF(param1:TextField) : void
@@ -66,17 +78,22 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
          this.forceUpdate();
       }
       
+      public function suspend(param1:Boolean) : void
+      {
+         this._isSuspended = param1;
+         this.validateState();
+      }
+      
+      public function timerUpdate() : void
+      {
+         this.update();
+      }
+      
       public function updateSizeIndex(param1:int) : void
       {
          this._sizeIndex = param1;
          this.recalcTFScreenParameters();
          this.forceUpdate();
-      }
-      
-      public function suspend(param1:Boolean) : void
-      {
-         this._isSuspended = param1;
-         this.validateState();
       }
       
       public function validateLabel() : void
@@ -89,39 +106,23 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
       {
          if(!this._isSuspended && this._entryRef.isVehicleLabelVisible)
          {
-            this._timer.start();
+            if(!this._isRegistered)
+            {
+               MinimapEntryController.instance.registerActiveLabelHelper(this);
+               this._isRegistered = true;
+            }
          }
          else
          {
-            this.stopTimer();
+            if(this._isRegistered)
+            {
+               MinimapEntryController.instance.unregisterActiveLabelHelper(this);
+               this._isRegistered = false;
+            }
+            this.__prevEntityX = 0;
+            this.__prevEntityY = 0;
          }
          this.forceUpdate();
-      }
-      
-      private function stopTimer() : void
-      {
-         this._timer.stop();
-         this.__prevEntityX = 0;
-         this.__prevEntityY = 0;
-      }
-      
-      public function dispose() : void
-      {
-         this._timer.removeEventListener(TimerEvent.TIMER,this.onTimerHandler);
-         this.stopTimer();
-         this._timer = null;
-         this._currentTF = null;
-         this._entryRef = null;
-      }
-      
-      public function forceUpdate() : void
-      {
-         this.update(true);
-      }
-      
-      private function onTimerHandler(param1:TimerEvent) : void
-      {
-         this.update();
       }
       
       private function update(param1:Boolean = false) : void
@@ -151,7 +152,7 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
                _loc4_ = this._initialOffsetY;
             }
             _loc5_ = this._currentTF.width;
-            if(!this._isSuspended && this._entryRef.x + this._tfWidthOnScreen + _loc3_ > this.bounds.x)
+            if(!this._isSuspended && this._entryRef.x + this._tfWidthOnScreen + _loc3_ > this._bounds.x)
             {
                this._currentTF.x = -(_loc5_ + _loc3_);
             }
@@ -160,11 +161,11 @@ package net.wg.gui.battle.views.minimap.components.entries.vehicle
                this._currentTF.x = _loc3_;
             }
             _loc6_ = this._currentTF.height;
-            if(!this._isSuspended && this._entryRef.y + this._tfHeightOnScreen + _loc4_ > this.bounds.y)
+            if(!this._isSuspended && this._entryRef.y + this._tfHeightOnScreen + _loc4_ > this._bounds.y)
             {
                this._currentTF.y = -_loc6_ + OFFSET_Y_BETWEEN_TEXT_AND_BORDER;
             }
-            else if(!this._isSuspended && this._entryRef.y < -this.bounds.y - HP_OFFSET_Y)
+            else if(!this._isSuspended && this._entryRef.y < -this._bounds.y - HP_OFFSET_Y)
             {
                this._currentTF.y = this._initialOffsetY;
             }

@@ -52,8 +52,8 @@
 		<enable>true</enable>
 		<adaptationSpeed>120</adaptationSpeed>
 		<bloom>
+			<pbsBloom>true</pbsBloom>
 			<threshold>0.330000013</threshold>
-			<amount>0.469999999</amount>
 			<dirtAmount>0.879999995</dirtAmount>
 		</bloom>
 		<environment>
@@ -108,11 +108,11 @@
 		<sunBrightness>0.200000003</sunBrightness>
 		<objectEnable>true</objectEnable>
 		<glareEnable>true</glareEnable>
-		<glareIntensity>0.819999993</glareIntensity>
-		<glareSize>0.0199999996</glareSize>
+		<glareIntensity>0.5</glareIntensity>
+		<glareSize>0.00999999978</glareSize>
 		<flareIntensity>0.5</flareIntensity>
-		<objectThreshold>4.72792101</objectThreshold>
-		<objectFlareIntensity>0.569999993</objectFlareIntensity>
+		<objectThreshold>3.58496308</objectThreshold>
+		<objectFlareIntensity>0.300000012</objectFlareIntensity>
 		<haloEnable>true</haloEnable>
 		<sunTexture1>system/maps/psf_rgbe.dds</sunTexture1>
 		<colorTexture>system/maps/lenscolorF.dds</colorTexture>
@@ -149,6 +149,10 @@
 		<amplify>0.699999988</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>1.38</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>1.38</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>1.38</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>1.38</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/217_er_alaska/particles.xml</particlesSpaceConfigXml>
 	</VFX>

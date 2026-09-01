@@ -667,6 +667,7 @@ _(#invites:invites/text/fort/defence) &lt;font color="#c9c9b6"&gt;%(clanAbbrev)s
 		<vehicle_preview>
 			<vehicleNamePremium>&lt;font face='$TitleFont' size='56' color='#FFC363'&gt;%(name)s&lt;/font&gt;</vehicleNamePremium>
 			<vehicleNameRegular>&lt;font face='$TitleFont' size='56' color='#E9E2BF'&gt;%(name)s&lt;/font&gt;</vehicleNameRegular>
+			<fromBoxes>&lt;font face='$TitleFont' size='20' color='#FFFFFF'&gt;_(#vehicle_preview:buyingPanel/fromBoxes/label)&lt;/font&gt; &lt;font face='$TitleFont' size='20' color='#FFDD99'&gt;_(#vehicle_preview:buyingPanel/fromBoxes/highlightenLabel)&lt;/font&gt;</fromBoxes>
 		</vehicle_preview>
 		<buyConfirm>
 			<eventProgression></eventProgression>
@@ -754,6 +755,7 @@ _(#invites:invites/text/fort/defence) &lt;font color="#c9c9b6"&gt;%(clanAbbrev)s
 				<battlePassPoints>_(#quests:bonusName/battlePassPoints/preview) &lt;font color='#95907F'&gt;%(value)s &lt;/font&gt;&lt;img src='img://gui/maps/icons/library/battlePassPoints.png' width='16' height='16' vspace='-3' /&gt;</battlePassPoints>
 				<battle_bonus_x5>&lt;img src='img://gui/maps/icons/library/bonus_x5.png' width='46' height='18' vspace='-4' /&gt;&lt;font color='#95907F'&gt;(x%(value)s) &lt;/font&gt;</battle_bonus_x5>
 				<crew_bonus_x3>&lt;img src='img://gui/maps/icons/library/bonus_x3.png' width='46' height='18' vspace='-4' /&gt;&lt;font color='#95907F'&gt;(x%(value)s) &lt;/font&gt;</crew_bonus_x3>
+				<ny23RandomResources>&lt;font color='#CED9D9'&gt;%(value)s&lt;/font&gt; _(#quests:bonuses/item/ny23RandomResources)</ny23RandomResources>
 				<personalExchangeRate>&lt;font color='#CED9D9'&gt;%(discount)s&lt;/font&gt;</personalExchangeRate>
 				<equipCoin>&lt;font color='#95907F'&gt;%(value)s &lt;/font&gt;&lt;img src='img://gui/maps/icons/library/EquipcoinIcon-1.png' width='16' height='16' vspace='-5' /&gt;</equipCoin>
 				<personal_missions_points>_(#quests:bonusName/personal_missions_points/preview) &lt;font color='#E9E2BF'&gt;%(value)s&lt;/font&gt;&lt;img src='img://gui/maps/icons/library/personal_missions_points.png' width='16' height='16' vspace='-3' /&gt;</personal_missions_points>
@@ -1120,6 +1122,10 @@ _(#invites:invites/text/fort/defence) &lt;font color="#c9c9b6"&gt;%(clanAbbrev)s
 			<statsText>&lt;font face='$FieldFont' size='14' color='#E9E2BF'&gt;%(message)s&lt;/font&gt;</statsText>
 			<rewardsText>&lt;font face='$FieldFont' size='14' color='#D6D7D4'&gt;%(message)s&lt;/font&gt;</rewardsText>
 			<h15ParSecondary>&lt;font face='$TitleFont' size='15' color='#595950'&gt;%(message)s&lt;/font&gt;</h15ParSecondary>
+			<nyIron>&lt;font face='$FieldFont' size='14' color='#E2E2CC'&gt;%(message)s&lt;/font&gt;</nyIron>
+			<nyEmerald>&lt;font face='$FieldFont' size='14' color='#8ADA80'&gt;%(message)s&lt;/font&gt;</nyEmerald>
+			<nyCrystal>&lt;font face='$FieldFont' size='14' color='#CCDAF3'&gt;%(message)s&lt;/font&gt;</nyCrystal>
+			<nyAmber>&lt;font face='$FieldFont' size='14' color='#EEAF6E'&gt;%(message)s&lt;/font&gt;</nyAmber>
 			<playerOnline>&lt;font face='$FieldFont' size='14' color='#C9C9B6'&gt;%(message)s&lt;/font&gt;</playerOnline>
 			<playerOffline>&lt;font face='$FieldFont' size='14' color='#505050'&gt;%(message)s&lt;/font&gt;</playerOffline>
 			<counterText>&lt;font face='$FieldFont' size='12' color='#8C8C7C'&gt;%(message)s&lt;/font&gt;</counterText>

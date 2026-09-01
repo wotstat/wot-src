@@ -1,12 +1,18 @@
 from __future__ import absolute_import
+import typing
 from functools import partial
 import BigWorld
 from aih_constants import CTRL_MODE_NAME
+from AvatarInputHandler import AvatarInputHandler
+from gui.battle_control import avatar_getter
 from gui.Scaleform.daapi.view.battle.shared.minimap import entries, settings
-from gui.shared.utils.plugins import IPlugin
+from gui.shared.utils.plugins import IPlugin, PluginsCollection
 from helpers import dependency
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.gui.battle_session import IBattleSessionProvider
+if typing.TYPE_CHECKING:
+    import Math
+    from account_helpers.settings_core.settings_constants import GAME
 
 class SimplePlugin(IPlugin):
     __slots__ = (b'__weakref__', b'_arenaVisitor', b'_arenaDP', b'_ctrlMode', b'_ctrlVehicleID')
@@ -251,4 +257,59 @@ class BaseAreaMarkerEntriesPlugin(EntriesPlugin):
 
     def setActive(self, uniqueID, isActive):
         self._setActiveEx(uniqueID, isActive)
+        return
+
+
+class MinimapPluginsCollection(PluginsCollection):
+    settingsCore = dependency.descriptor(ISettingsCore)
+
+    def start(self):
+        super(MinimapPluginsCollection, self).start()
+        handler = avatar_getter.getInputHandler()
+        if handler is not None:
+            if isinstance(handler, AvatarInputHandler):
+                handler.onCameraChanged += self.__onCameraChanged
+            self._invoke(b'initControlMode', handler.ctrlModeName, handler.ctrls.keys())
+        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
+        self._invoke(b'setSettings')
+        return
+
+    def stop(self):
+        handler = avatar_getter.getInputHandler()
+        if handler is not None and isinstance(handler, AvatarInputHandler):
+            handler.onCameraChanged -= self.__onCameraChanged
+        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
+        super(MinimapPluginsCollection, self).stop()
+        return
+
+    def onMinimapClicked(self, x, y, buttonIdx, minimapScaleIndex):
+        self._invoke(b'onMinimapClicked', x, y, buttonIdx, minimapScaleIndex)
+        return
+
+    def applyNewSize(self, sizeIndex):
+        self._invoke(b'applyNewSize', sizeIndex)
+        return
+
+    def updateControlMode(self, mode, vehicleID):
+        self._invoke(b'updateControlMode', mode, vehicleID)
+        return
+
+    def initControlMode(self, mode, available):
+        self._invoke(b'initControlMode', mode, available)
+        return
+
+    def updateSettings(self, diff):
+        self._invoke(b'updateSettings', diff)
+        return
+
+    def setSettings(self):
+        self._invoke(b'setSettings')
+        return
+
+    def __onSettingsChanged(self, diff):
+        self._invoke(b'updateSettings', diff)
+        return
+
+    def __onCameraChanged(self, mode, vehicleID=0):
+        self._invoke(b'updateControlMode', mode, vehicleID)
         return

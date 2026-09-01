@@ -39,6 +39,8 @@ package net.wg.gui.messenger.controls
       
       private var _isNewDataIsEqualOldData:Boolean = true;
       
+      private var _isEnableChanged:Boolean = true;
+      
       public function ContactsTreeItemRenderer()
       {
          super();
@@ -85,7 +87,7 @@ package net.wg.gui.messenger.controls
          var _loc5_:EmptyRowVO = null;
          var _loc6_:Number = NaN;
          super.draw();
-         var _loc1_:Boolean = !this._isNewDataIsEqualOldData && Boolean(isInvalid(InvalidationType.DATA));
+         var _loc1_:Boolean = (!this._isNewDataIsEqualOldData || this._isEnableChanged) && Boolean(isInvalid(InvalidationType.DATA));
          if(_loc1_)
          {
             if(Boolean(this._myData))
@@ -169,6 +171,7 @@ package net.wg.gui.messenger.controls
             {
                visible = false;
             }
+            this._isEnableChanged = false;
             this._isNewDataIsEqualOldData = true;
          }
          if(_loc1_ || Boolean(isInvalid(DRAGGING_ITEM_INV)))
@@ -247,6 +250,8 @@ package net.wg.gui.messenger.controls
             return;
          }
          super.enabled = param1;
+         this._isEnableChanged = true;
+         invalidateData();
       }
       
       override public function get data() : Object

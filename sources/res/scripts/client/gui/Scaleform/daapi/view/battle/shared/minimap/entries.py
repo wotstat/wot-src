@@ -112,7 +112,6 @@ class VehicleEntry(MinimapEntry):
                 self._spottedTime = BigWorld.serverTime()
             return True
         return False
-        return
 
     def updatePosition(self, position):
         self._matrix.source.setTranslate(position)

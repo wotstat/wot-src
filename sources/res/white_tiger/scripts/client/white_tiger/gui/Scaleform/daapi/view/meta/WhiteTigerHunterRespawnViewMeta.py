@@ -1,0 +1,12 @@
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+
+class WhiteTigerHunterRespawnViewMeta(BaseDAAPIComponent):
+
+    def onRespawnPointClick(self, id):
+        self._printOverrideError(b'onRespawnPointClick')
+        return
+
+    def as_updateTimerS(self, timeLeft, timeTotal, applyTimerImmediately, replaySpeed=1):
+        if self._isDAAPIInited():
+            return self.flashObject.as_updateTimer(timeLeft, timeTotal, applyTimerImmediately, replaySpeed)
+        return

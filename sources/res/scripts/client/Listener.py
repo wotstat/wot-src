@@ -76,12 +76,9 @@ class _ListenerFunc(object):
     def matches(self, func):
         if not self.alive():
             return False
-        else:
-            if self.isBoundMethod:
-                return func == getattr(self.ref(), self.func.func_name)
-            return func == self.ref()
-
-        return
+        if self.isBoundMethod:
+            return func == getattr(self.ref(), self.func.func_name)
+        return func == self.ref()
 
     def alive(self):
         return self.ref() is not None
@@ -91,9 +88,7 @@ class _ListenerFunc(object):
         if obj is not None:
             if self.isBoundMethod:
                 return getattr(obj, self.func.func_name)
-            else:
-                return obj
-
+            return obj
         return
 
     def __call__(self, *args, **kwargs):

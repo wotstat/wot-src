@@ -256,7 +256,8 @@ class SeniorityAwardsController(ISeniorityAwardsController):
     def getVehicleSelectionQuestReward(self, vehicleRewardId):
         if self.isVehicleSelectionQuestCompleted(vehicleRewardId):
             return self.getVehicleSelectionRewards()[vehicleRewardId]
-        return
+        else:
+            return
 
     def claimReward(self):
         self.__showWaiting()
@@ -347,7 +348,7 @@ class SeniorityAwardsController(ISeniorityAwardsController):
         if eligibilityToken and eligibilityToken in diff:
             self.__update()
         if self.vehicleSelectionToken in diff:
-            return self.__onVehicleSelectionStateChanged()
+            self.__onVehicleSelectionStateChanged()
         return
 
     def __onSettingsChanged(self, diff):

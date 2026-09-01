@@ -1,7 +1,11 @@
+from __future__ import absolute_import
+import logging
+from future.utils import viewitems, viewvalues
 from gui.shared.money import Currency, Money, ZERO_MONEY
 from helpers import dependency
 from messenger.formatters.service_channel_helpers import getCustomizationItem
 from skeletons.gui.shared import IItemsCache
+_logger = logging.getLogger(__name__)
 
 def preformatRewardsInfo(rewards):
     vehiclesList = rewards.get(b'vehicles', [])
@@ -11,10 +15,28 @@ def preformatRewardsInfo(rewards):
     for currency in Currency.ALL:
         if compValue.get(currency, 0) > 0:
             currencyValue = rewards.pop(currency, None)
-            if currency is not None:
+            if currencyValue is not None:
                 newCurrencyValue = currencyValue - compValue.get(currency, 0)
                 if newCurrencyValue:
                     rewards[currency] = newCurrencyValue
+
+    return
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def addCompensation(rewards, itemsCache=None):
+    vehiclesList = rewards.get(b'vehicles', [])
+    for vehicleDict in vehiclesList:
+        for vehIntCD, vehData in viewitems(vehicleDict):
+            if b'compensatedNumber' in vehData:
+                _logger.error(b'Trying to add compensation with compensation already present: %s', vehiclesList)
+                return
+            if b'customCompensation' not in vehData:
+                _logger.warning(b'Compensation amount not defined for vehicle: %s', vehData)
+                continue
+            vehicleItem = itemsCache.items.getItemByCD(vehIntCD)
+            if vehicleItem is not None and vehicleItem.inventoryCount > 0:
+                vehData[b'compensatedNumber'] = 1
 
     return
 
@@ -41,10 +63,10 @@ def _addLockedStyleForVehicle(customizations, vehicles, itemsCache=None):
 def _getCompensationValue(vehicles):
     compensation = ZERO_MONEY
     for vehicleDict in vehicles:
-        for vehData in vehicleDict.itervalues():
+        for vehData in viewvalues(vehicleDict):
             if b'rentCompensation' in vehData:
                 compensation += Money.makeFromMoneyTuple(vehData[b'rentCompensation'])
-            if b'customCompensation' in vehData:
-                compensation += Money.makeFromMoneyTuple(vehData[b'customCompensation'])
+            if b'customCompensation' in vehData and b'compensatedNumber' in vehData:
+                compensation += Money.makeFromMoneyTuple(vehData[b'customCompensation']) * vehData[b'compensatedNumber']
 
     return compensation

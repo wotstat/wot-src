@@ -47,9 +47,8 @@
 		<enable>true</enable>
 		<adaptationSpeed>100</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
-			<threshold>0.100000001</threshold>
-			<amount>0.939999998</amount>
+			<pbsBloom>true</pbsBloom>
+			<amount>0.540000021</amount>
 			<tint>0.396077991 0.686275005 0.972549021</tint>
 			<dirtAmount>0.529999971</dirtAmount>
 		</bloom>
@@ -146,6 +145,10 @@
 		<amplify>0.699999988</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.920000017</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.920000017</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.920000017</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.920000017</emissiveMaterialsMultiplier>
 		<particlesConfigXml></particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/h33_battle_royale_2021/particles.xml</particlesSpaceConfigXml>
 	</VFX>

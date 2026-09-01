@@ -29,7 +29,7 @@ from gui.impl import backport
 from gui.impl.gen import R
 from gui.referral_program import showGetVehiclePage
 from gui.shared import event_dispatcher, events, g_eventBus
-from gui.shared.event_dispatcher import showVehicleRentDialog
+from gui.shared.event_dispatcher import showVehicleRentDialog, showLootBoxEntry, showLootBoxBuyWindow
 from gui.shared.events import HasCtxEvent
 from gui.shared.formatters import chooseItemPriceVO, formatPrice, getItemPricesVO, getItemUnlockPricesVO, icons, text_styles, time_formatters
 from gui.shared.gui_items.gui_item_economics import ActualPrice, ITEM_PRICE_EMPTY, ItemPrice, getPriceTypeAndValue
@@ -43,14 +43,14 @@ from helpers import dependency, int2roman, time_utils
 from helpers.i18n import makeString as _ms
 from shared_utils import findFirst
 from skeletons.gui.app_loader import IAppLoader
-from skeletons.gui.game_control import IExternalLinksController, IHeroTankController, IMarathonEventsController, IRestoreController, ITradeInController, IVehicleComparisonBasket
+from skeletons.gui.game_control import IExternalLinksController, IHeroTankController, IMarathonEventsController, IRestoreController, ITradeInController, IVehicleComparisonBasket, ILootBoxSystemController
 from skeletons.gui.goodies import IGoodiesCache
 from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.shared import IItemsCache
 from soft_exception import SoftException
 from uilogging.shop.loggers import ShopBundleVehiclePreviewMetricsLogger
 from web.web_client_api.common import ItemPackEntry, ItemPackTypeGroup
-_ButtonState = namedtuple(b'_ButtonState', (b'enabled', b'itemPrice', b'label', b'icon', b'iconAlign', b'isAction', b'actionTooltip', b'tooltip', b'title', b'isMoneyEnough', b'isUnlock', b'isPrevItemsUnlock', b'customOffer', b'isShowSpecial'))
+_ButtonState = namedtuple(b'_ButtonState', (b'enabled', b'itemPrice', b'label', b'icon', b'iconAlign', b'isAction', b'actionTooltip', b'tooltip', b'title', b'isMoneyEnough', b'isUnlock', b'isPrevItemsUnlock', b'customOffer', b'isShowSpecial', b'isHeroTankFromBoxes'))
 _logger = logging.getLogger(__name__)
 
 def _buildBuyButtonTooltip(key):
@@ -108,6 +108,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
     _heroTanks = dependency.descriptor(IHeroTankController)
     _lobbyContext = dependency.descriptor(ILobbyContext)
     _marathonsCtrl = dependency.descriptor(IMarathonEventsController)
+    _lootBoxesCtrl = dependency.descriptor(ILootBoxSystemController)
     __linksCtrl = dependency.descriptor(IExternalLinksController)
 
     def __init__(self, skipConfirm=False):
@@ -322,6 +323,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
         self._heroTanks.onUpdated += self.__updateBtnState
         self._restores.onRestoreChangeNotify += self.__onRestoreChanged
         self._lobbyContext.getServerSettings().onServerSettingsChange += self.__onServerSettingsChanged
+        self._itemsCache.onSyncCompleted += self.__onSyncCompleted
         self.addListener(CameraRelatedEvents.VEHICLE_LOADING, self.__onVehicleLoading)
         return
 
@@ -332,6 +334,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
         self._heroTanks.onUpdated -= self.__updateBtnState
         self._restores.onRestoreChangeNotify -= self.__onRestoreChanged
         self._lobbyContext.getServerSettings().onServerSettingsChange -= self.__onServerSettingsChanged
+        self._itemsCache.onSyncCompleted -= self.__onSyncCompleted
         self.removeListener(CameraRelatedEvents.VEHICLE_LOADING, self.__onVehicleLoading)
         self.__stopTimer()
         self.__styleByGroup.clear()
@@ -405,13 +408,13 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
             else:
                 buyingPanelData = self.__previewDP.getBuyingPanelData(item, btnData, self.__isHeroTank)
             buyingPanelData.update({b'isReferralEnabled': (self.__isReferralWindow())})
-            hasExternalLink = yield self.__hasExternalLink()
-            if hasExternalLink:
-                btnIcon = backport.image(R.images.gui.maps.icons.library.buyInWeb())
-                buyingPanelData.update({b'buyButtonIcon': btnIcon, 
-                   b'buyButtonIconAlign': b'right'})
-            if self.__isHeroTank:
-                heroTankUrl = self._heroTanks.getCurrentShopUrl() or self._heroTanks.getCurrentRelatedURL()
+            if not self.__isHeroTankFromBoxes():
+                hasExternalLink = (yield self.__hasExternalLink()) if 1 else self._lootBoxesCtrl.getBoxesCount(self._lootBoxesCtrl.mainEntryPoint) == 0
+                if hasExternalLink:
+                    btnIcon = backport.image(R.images.gui.maps.icons.library.buyInWeb())
+                    buyingPanelData.update({b'buyButtonIcon': btnIcon, 
+                       b'buyButtonIconAlign': b'right'})
+                heroTankUrl = self.__isHeroTank and (self._heroTanks.getCurrentShopUrl()) or (self._heroTanks.getCurrentRelatedURL)()
                 if heroTankUrl:
                     buyingPanelData.update({b'isBuyingAvailable': True, 
                        b'itemPrice': None})
@@ -434,6 +437,10 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
     def __onServerSettingsChanged(self, diff):
         if self._lobbyContext.getServerSettings().isShopDataChangedInDiff(diff, b'isEnabled') or CollectorVehicleConsts.CONFIG_NAME in diff:
             self.__updateBtnState()
+        return
+
+    def __onSyncCompleted(self, *_):
+        self.__updateBtnState()
         return
 
     def __onBlueprintsModeChanged(self, _):
@@ -504,10 +511,12 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
                 itemPrices = ItemPrice(price=self.__price, defPrice=self.__oldPrice)
                 enabled = self.__checkBtnEnableByPrice(self.__price)
             self.__title = self.__getCurrentOfferTitle()
+        elif self.__isHeroTankFromBoxes():
+            buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.toBoxes())
         else:
             buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.buy())
         isAction = self.__oldPrice.isDefined() and self.__oldPrice != self.__price or actionTooltip is not None or self.__couponInfo and self.__couponInfo.selected
-        return _ButtonState(enabled=enabled, itemPrice=getItemPricesVO(itemPrices), label=buttonLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=isAction, actionTooltip=actionTooltip, tooltip=buyButtonTooltip, title=self.__title, isMoneyEnough=True, isUnlock=False, isPrevItemsUnlock=True, customOffer=customOffer, isShowSpecial=False)
+        return _ButtonState(enabled=enabled, itemPrice=getItemPricesVO(itemPrices), label=buttonLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=isAction, actionTooltip=actionTooltip, tooltip=buyButtonTooltip, title=self.__title, isMoneyEnough=True, isUnlock=False, isPrevItemsUnlock=True, customOffer=customOffer, isShowSpecial=False, isHeroTankFromBoxes=self.__isHeroTankFromBoxes())
 
     def __getPackPrice(self):
         if self.__couponInfo and self.__couponInfo.selected:
@@ -554,7 +563,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
         if self._disableBuyButton or self.__isHeroTank and self._vehicleCD != self._heroTanks.getCurrentTankCD():
             mayObtain = False
             isMoneyEnough = False
-        return _ButtonState(enabled=mayObtain, itemPrice=itemPrice, label=buttonLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=isAction, actionTooltip=actionTooltip, tooltip=buyButtonTooltip, title=self.__title, isMoneyEnough=isMoneyEnough, isUnlock=False, isPrevItemsUnlock=True, customOffer=None, isShowSpecial=False)
+        return _ButtonState(enabled=mayObtain, itemPrice=itemPrice, label=buttonLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=isAction, actionTooltip=actionTooltip, tooltip=buyButtonTooltip, title=self.__title, isMoneyEnough=isMoneyEnough, isUnlock=False, isPrevItemsUnlock=True, customOffer=None, isShowSpecial=False, isHeroTankFromBoxes=self.__isHeroTankFromBoxes())
 
     def __getBtnDataCollectibleVehicle(self, vehicle):
         isVehicleCollectorEnabled = self._lobbyContext.getServerSettings().isCollectorVehicleEnabled()
@@ -597,7 +606,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
             buyLabel = backport.text(specialData.buyButtonLabel)
         else:
             buyLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.research())
-        return _ButtonState(enabled=isAvailableToUnlock, itemPrice=getItemUnlockPricesVO(unlockProps), label=buyLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=unlockProps.discount > 0, actionTooltip=None, tooltip=tooltip, title=self.__title, isMoneyEnough=isXpEnough, isUnlock=True, isPrevItemsUnlock=isNext2Unlock, customOffer=None, isShowSpecial=False)
+        return _ButtonState(enabled=isAvailableToUnlock, itemPrice=getItemUnlockPricesVO(unlockProps), label=buyLabel, icon=buttonIcon, iconAlign=buttonIconAlign, isAction=unlockProps.discount > 0, actionTooltip=None, tooltip=tooltip, title=self.__title, isMoneyEnough=isXpEnough, isUnlock=True, isPrevItemsUnlock=isNext2Unlock, customOffer=None, isShowSpecial=False, isHeroTankFromBoxes=False)
 
     @staticmethod
     def __getBestOfferTooltipData(eventType=None):
@@ -715,6 +724,13 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
 
     @adisp_process
     def __purchaseHeroTank(self):
+        if self.__isHeroTankFromBoxes():
+            eventName = self._lootBoxesCtrl.mainEntryPoint
+            if self._lootBoxesCtrl.getBoxesCount(eventName):
+                showLootBoxEntry()
+            else:
+                showLootBoxBuyWindow(eventName)
+            return
         shopUrl = self._heroTanks.getCurrentShopUrl()
         if shopUrl:
             event_dispatcher.showShop(shopUrl)
@@ -764,6 +780,8 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
             buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.restore())
         elif priceType == ActualPrice.RENT_PRICE:
             buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.rent())
+        elif self.__isHeroTankFromBoxes():
+            buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.toBoxes())
         else:
             buttonLabel = backport.text(R.strings.vehicle_preview.buyingPanel.buyBtn.label.buy())
         return buttonLabel
@@ -778,3 +796,7 @@ class VehiclePreviewBottomPanel(VehiclePreviewBottomPanelMeta):
                     item[b'isEnabled'] = enabled
 
             return
+
+    def __isHeroTankFromBoxes(self):
+        isLootboxAvailable = self._lootBoxesCtrl.isAvailable(self._lootBoxesCtrl.mainEntryPoint)
+        return isLootboxAvailable and self.__isHeroTank and self._heroTanks.getCurrentFromBoxes()

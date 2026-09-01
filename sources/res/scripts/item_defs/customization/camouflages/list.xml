@@ -112624,6 +112624,47 @@
 		</camouflage>
 	</itemGroup>
 	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>1140</id>
+			<texture>vehicles/russian/Camouflage/pub_cn360_mid_autumn.dds</texture>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/pub_cn360_mid_autumn/label</userString>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.11 2.11</factor>
+				<offset>0.44 -0.18</offset>
+			</tilingSettings>
+			<rotation>
+				<HULL>0.130375996</HULL>
+				<TURRET>0.130375996</TURRET>
+				<GUN>0.130375996</GUN>
+			</rotation>
+		</camouflage>
+	</itemGroup>
+	<itemGroup>
 		<season>ALL</season>
 		<historical>1</historical>
 		<userString>#vehicle_customization:camouflage/opaque</userString>
@@ -113055,7 +113096,7 @@
 	<itemGroup>
 		<userString>#vehicle_customization:camouflage/opaque</userString>
 		<season>ALL</season>
-		<historical>1</historical>
+		<historical>0</historical>
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<exclude>
@@ -113066,12 +113107,12 @@
 			</exclude>
 		</vehicleFilter>
 		<camouflage>
-			<id>1163</id>
-			<texture>vehicles/russian/Camouflage/ols_2026_1_silver.dds</texture>
-			<userString>#vehicle_customization:camouflage/ols_2026_1_silver/label</userString>
+			<id>1148</id>
+			<texture>vehicles/russian/Camouflage/bp2026_september_takir.dds</texture>
+			<userString>#vehicle_customization:camouflage/bp2026_september_takir/label</userString>
 			<description>#vehicle_customization:camouflage/empty/description</description>
 			<scales>1.2 1 0.7</scales>
-			<tags>fullRGB styleOnly questsProgression</tags>
+			<tags>fullRGB hiddenInUI</tags>
 			<invisibilityFactor>1</invisibilityFactor>
 			<palettes>
 				<palette>
@@ -113081,26 +113122,24 @@
 					<c3>0 0 0 255</c3>
 				</palette>
 			</palettes>
-			<rotation>
-				<HULL>-0.506145</HULL>
-				<TURRET>-0.506145</TURRET>
-				<GUN>-0.506145</GUN>
-			</rotation>
 			<tilingSettings>
 				<type>relativewithfactor</type>
-				<factor>2.5 2.5</factor>
-				<offset>0 -0.2</offset>
+				<factor>3.02 3.02</factor>
+				<offset>-1.24 0</offset>
 			</tilingSettings>
-			<glossMetallicMap>vehicles/russian/Camouflage/ols_2026_1_GMM.dds</glossMetallicMap>
-			<style>1377</style>
+			<rotation>
+				<HULL>-2.28481102</HULL>
+				<TURRET>-2.28481102</TURRET>
+				<GUN>-2.28481102</GUN>
+			</rotation>
 		</camouflage>
 		<camouflage>
-			<id>1164</id>
-			<texture>vehicles/russian/Camouflage/ols_2026_1_gold.dds</texture>
-			<userString>#vehicle_customization:camouflage/ols_2026_1_gold/label</userString>
+			<id>1149</id>
+			<texture>vehicles/russian/Camouflage/bp2026_september_dune.dds</texture>
+			<userString>#vehicle_customization:camouflage/bp2026_september_dune/label</userString>
 			<description>#vehicle_customization:camouflage/empty/description</description>
 			<scales>1.2 1 0.7</scales>
-			<tags>fullRGB styleOnly questsProgression</tags>
+			<tags>fullRGB hiddenInUI</tags>
 			<invisibilityFactor>1</invisibilityFactor>
 			<palettes>
 				<palette>
@@ -113110,18 +113149,65 @@
 					<c3>0 0 0 255</c3>
 				</palette>
 			</palettes>
-			<rotation>
-				<HULL>-0.506145</HULL>
-				<TURRET>-0.506145</TURRET>
-				<GUN>-0.506145</GUN>
-			</rotation>
 			<tilingSettings>
 				<type>relativewithfactor</type>
-				<factor>2.5 2.5</factor>
-				<offset>0 -0.2</offset>
+				<factor>2.15 2.15</factor>
+				<offset>0 0</offset>
 			</tilingSettings>
-			<glossMetallicMap>vehicles/russian/Camouflage/ols_2026_1_GMM.dds</glossMetallicMap>
-			<style>1378</style>
+		</camouflage>
+		<camouflage>
+			<id>1150</id>
+			<texture>vehicles/russian/Camouflage/bp2026_september_lowland.dds</texture>
+			<userString>#vehicle_customization:camouflage/bp2026_september_lowland/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.69 2.69</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<rotation>
+				<HULL>0.675092995</HULL>
+				<TURRET>0.675092995</TURRET>
+				<GUN>0.675092995</GUN>
+			</rotation>
+		</camouflage>
+		<camouflage>
+			<id>1151</id>
+			<texture>vehicles/russian/Camouflage/bp2026_september_steppe.dds</texture>
+			<userString>#vehicle_customization:camouflage/bp2026_september_steppe/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>1.94 1.94</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<rotation>
+				<HULL>-0.675092995</HULL>
+				<TURRET>-0.675092995</TURRET>
+				<GUN>-0.675092995</GUN>
+			</rotation>
 		</camouflage>
 	</itemGroup>
 	<itemGroup>
@@ -113253,6 +113339,529 @@
 				<factor>1.24 1.24</factor>
 				<offset>-3.06 -1.07</offset>
 			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>1163</id>
+			<texture>vehicles/russian/Camouflage/ols_2026_1_silver.dds</texture>
+			<userString>#vehicle_customization:camouflage/ols_2026_1_silver/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<tags>fullRGB styleOnly questsProgression</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.506145</HULL>
+				<TURRET>-0.506145</TURRET>
+				<GUN>-0.506145</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.5 2.5</factor>
+				<offset>0 -0.2</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/ols_2026_1_GMM.dds</glossMetallicMap>
+			<style>1377</style>
+		</camouflage>
+		<camouflage>
+			<id>1164</id>
+			<texture>vehicles/russian/Camouflage/ols_2026_1_gold.dds</texture>
+			<userString>#vehicle_customization:camouflage/ols_2026_1_gold/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<tags>fullRGB styleOnly questsProgression</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.506145</HULL>
+				<TURRET>-0.506145</TURRET>
+				<GUN>-0.506145</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.5 2.5</factor>
+				<offset>0 -0.2</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/ols_2026_1_GMM.dds</glossMetallicMap>
+			<style>1378</style>
+		</camouflage>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>1169</id>
+			<scales>1.3 1 0.7</scales>
+			<tags>fullRGB styleOnly hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<texture>vehicles/russian/Camouflage/wt26_ActionPotential.dds</texture>
+			<userString>#vehicle_customization:camouflage/wt26_ActionPotential/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<rotation>
+				<HULL>-0.939511001</HULL>
+				<TURRET>-0.939511001</TURRET>
+				<GUN>-0.939511001</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.1 2.1</factor>
+				<offset>-0.05 -2.32</offset>
+			</tilingSettings>
+		</camouflage>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>1170</id>
+			<scales>1.3 1 0.7</scales>
+			<tags>styleOnly hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>39 59 76 255</c0>
+					<c1>25 36 48 255</c1>
+					<c2>28 45 56 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<texture>vehicles/russian/Camouflage/wt26_Unchained_Lightning.dds</texture>
+			<userString>#vehicle_customization:camouflage/wt26_Unchained_Lightning/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<rotation>
+				<HULL>-0.33405599</HULL>
+				<TURRET>-0.33405599</TURRET>
+				<GUN>-0.33405599</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.8 2.8</factor>
+				<offset>-0.91 0.56</offset>
+			</tilingSettings>
+			<gloss>0.509 0.509 0.776 0.509</gloss>
+			<metallic>0.23 0.23 0.57 0.23</metallic>
+		</camouflage>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>china:Ch01_Type59_Gold germany:G114_Rheinmetall_Skorpian germany:G119_Panzer58_BF usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+			</exclude>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<camouflage>
+			<id>1128</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_1.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_1/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<style>1329</style>
+		</camouflage>
+		<camouflage>
+			<id>1129</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_2.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_2/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<style>1330</style>
+		</camouflage>
+		<camouflage>
+			<id>1130</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_3.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_3/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<style>1331</style>
+		</camouflage>
+		<camouflage>
+			<id>1131</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_4.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_4/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/onslaught_2026_phoenix_4_GMM.dds</glossMetallicMap>
+			<style>1332</style>
+		</camouflage>
+		<camouflage>
+			<id>1132</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_5.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_5/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/onslaught_2026_phoenix_5_GMM.dds</glossMetallicMap>
+			<style>1333</style>
+		</camouflage>
+		<camouflage>
+			<id>1133</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_6.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_season_2023-2024_6/label</userString>
+			<description>#vehicle_customization:camouflage/onslaught_season_2023-2024/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/onslaught_2026_phoenix_6_GMM.dds</glossMetallicMap>
+			<style>1334</style>
+		</camouflage>
+		<camouflage>
+			<id>1134</id>
+			<texture>vehicles/russian/Camouflage/onslaught_2026_phoenix_annual.dds</texture>
+			<userString>#vehicle_customization:camouflage/onslaught_2026_phoenix/label</userString>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<invisibilityFactor>1</invisibilityFactor>
+			<scales>1.2 1 0.7</scales>
+			<tags>styleOnly fullRGB</tags>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.20944</HULL>
+				<TURRET>-0.20944</TURRET>
+				<GUN>-0.20944</GUN>
+			</rotation>
+			<tiling>
+				<china:Ch01_Type59>1.11 1.11 -0.26 -0.15</china:Ch01_Type59>
+				<china:Ch70_PTZ_78>2.66 2.66 0.76 0.28</china:Ch70_PTZ_78>
+				<germany:G121_Grille_15_L63>6.72 6.72 -0.13 -0.06</germany:G121_Grille_15_L63>
+				<germany:G56_E-100>3.2 3.2 -0.43 -0.15</germany:G56_E-100>
+				<germany:G89_Leopard1>3 3 0.11 1.71</germany:G89_Leopard1>
+				<france:F10_AMX_50B>1.2 1.2 -0.43 0.18</france:F10_AMX_50B>
+				<france:F114_Projet_4_1>1.2 1.2 0.6 0.05</france:F114_Projet_4_1>
+				<france:F116_Bat_Chatillon_Bourrasque>1.54 1.54 0.87 -1.76</france:F116_Bat_Chatillon_Bourrasque>
+				<japan:J16_ST_B1>2.15 2.15 -0.36 0.33</japan:J16_ST_B1>
+				<japan:J16_ST_B1_7x7>2.15 2.15 -0.36 0.33</japan:J16_ST_B1_7x7>
+				<sweden:S36_Strv_107_12>2 2 2 -0.15</sweden:S36_Strv_107_12>
+				<uk:GB83_FV4005>3 3 -0.24 1.56</uk:GB83_FV4005>
+				<uk:GB86_Centurion_Action_X>1.28 1.28 -2.35 -0.09</uk:GB86_Centurion_Action_X>
+				<uk:GB91_Super_Conqueror>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror>
+				<uk:GB91_Super_Conqueror_7x7>1.49 1.49 -0.17 0.0</uk:GB91_Super_Conqueror_7x7>
+				<usa:A87_M44>3.01 3.01 1.13 -0.26</usa:A87_M44>
+				<ussr:R19_IS-3>2.84 2.84 -0.1 -0.4</ussr:R19_IS-3>
+				<ussr:R45_IS-7>2.45 2.45 -0.16 0.0</ussr:R45_IS-7>
+				<ussr:R77_KV2>2.41 2.41 -0.7 0.0</ussr:R77_KV2>
+				<ussr:R80_KV1>3 3 -0.01 0.26</ussr:R80_KV1>
+			</tiling>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2 2</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/russian/Camouflage/onslaught_2026_phoenix_annual_GMM.dds</glossMetallicMap>
 		</camouflage>
 	</itemGroup>
 	<itemGroup>
@@ -117283,7 +117892,7 @@
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<include>
-				<vehicles>china:Ch67_BZ_79 china:Ch70_PTZ_78</vehicles>
+				<vehicles>china:Ch67_BZ_79 china:Ch70_PTZ_78 china:Ch71_WZ_219</vehicles>
 			</include>
 		</vehicleFilter>
 		<camouflage>
@@ -119046,6 +119655,71 @@
 			</palettes>
 			<gloss>0.51 0.65 0.29 0.21</gloss>
 			<metallic>0.25 0.34 0.17 0.16</metallic>
+		</camouflage>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<vehicles>czech:Cz46_Vz_63P</vehicles>
+			</include>
+		</vehicleFilter>
+		<camouflage>
+			<id>1141</id>
+			<texture>vehicles/czech/Camouflage/cz_volumetric.dds</texture>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/cz_volumetric/label</userString>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>3.34 3.34</factor>
+				<offset>0.26 -0.12</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/czech/Camouflage/cz_volumetric_GMM.dds</glossMetallicMap>
+			<normal>
+				<normalMap>vehicles/czech/Camouflage/cz_volumetric_NM.dds</normalMap>
+				<normalStrength>1</normalStrength>
+			</normal>
+		</camouflage>
+		<camouflage>
+			<id>1142</id>
+			<texture>vehicles/czech/Camouflage/cz_volumetric_gun.dds</texture>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/cz_volumetric/label</userString>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>-0.254992992</HULL>
+				<TURRET>-0.254992992</TURRET>
+				<GUN>-0.254992992</GUN>
+			</rotation>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.2 2.2</factor>
+				<offset>0 -0.07</offset>
+			</tilingSettings>
 		</camouflage>
 	</itemGroup>
 	<itemGroup>
@@ -124552,6 +125226,7 @@
 				<G54_E-50_FL>3.1 3.1 0.49 0.17</G54_E-50_FL>
 				<G55_E-75>5.2 5.2 0.87 0.8</G55_E-75>
 				<G56_E-100>3.3 3.3 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.3 3.3 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.7 2.7 0.2 0.55</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.2 2.2 0.6 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.2 2.2 0.6 0.000000</G58_VK4502P7>
@@ -124743,6 +125418,7 @@
 				<G54_E-50_FL>3.1 3.1 0.32 0.37</G54_E-50_FL>
 				<G55_E-75>4.6 4.6 0.000000 0.000000</G55_E-75>
 				<G56_E-100>4 4 0.14 0.000000</G56_E-100>
+				<G56_E-100_7x7>4 4 0.14 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.3 3.4 0.36 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.8 2.8 0.4 0.85</G58_VK4502P>
 				<G58_VK4502P7>2.8 2.8 0.4 0.85</G58_VK4502P7>
@@ -124935,6 +125611,7 @@
 				<G54_E-50_FL>2 2 0.1 0.38</G54_E-50_FL>
 				<G55_E-75>2.9 2.9 2.8 3</G55_E-75>
 				<G56_E-100>3.4 3.4 0.42 0.43</G56_E-100>
+				<G56_E-100_7x7>3.4 3.4 0.42 0.43</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>4 4 0.000000 0.32</G57_PzVI_Tiger_P>
 				<G58_VK4502P>4.1 4.3 0.13 0.000000</G58_VK4502P>
 				<G58_VK4502P7>4.1 4.3 0.13 0.000000</G58_VK4502P7>
@@ -125126,6 +125803,7 @@
 				<G54_E-50_FL>1.9 1.9 0.14 0.000000</G54_E-50_FL>
 				<G55_E-75>3.2 3.2 0.68 0.26</G55_E-75>
 				<G56_E-100>2.7 2.7 0.000000 0.04</G56_E-100>
+				<G56_E-100_7x7>2.7 2.7 0.000000 0.04</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.9 2.9 0.1 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>1.8 1.8 0.4 0.000000</G58_VK4502P>
 				<G58_VK4502P7>1.8 1.8 0.4 0.000000</G58_VK4502P7>
@@ -125316,6 +125994,7 @@
 				<G54_E-50_FL>4.3 4.3 0.29 0.000000</G54_E-50_FL>
 				<G55_E-75>5.9 5.9 0.34 0.34</G55_E-75>
 				<G56_E-100>5.7 5.7 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>5.7 5.7 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>6.4 6.5 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3.4 3.4 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>3.4 3.4 0.000000 0.000000</G58_VK4502P7>
@@ -125507,6 +126186,7 @@
 				<G54_E-50_FL>3.2 3.2 0.76 0.89</G54_E-50_FL>
 				<G55_E-75>4.3 4.3 0.63 0.56</G55_E-75>
 				<G56_E-100>2.8 2.8 0.58 0.37</G56_E-100>
+				<G56_E-100_7x7>2.8 2.8 0.58 0.37</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.9 4 0.72 0.74</G57_PzVI_Tiger_P>
 				<G58_VK4502P>4 4 0.3 0.64</G58_VK4502P>
 				<G58_VK4502P7>5 4.6 0.3 0.64</G58_VK4502P7>
@@ -125711,6 +126391,7 @@
 				<G54_E-50_FL>3.5 3.5 0.58 0.04</G54_E-50_FL>
 				<G55_E-75>5.5 5.5 0.39 0.53</G55_E-75>
 				<G56_E-100>3.2 3.2 0.34 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.2 3.2 0.34 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>4.8 4.8 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3.9 3.9 0.48 0.19</G58_VK4502P>
 				<G58_VK4502P7>3.9 3.9 0.48 0.19</G58_VK4502P7>
@@ -125903,6 +126584,7 @@
 				<G54_E-50_FL>1.3 1.3 0.17 0.000000</G54_E-50_FL>
 				<G55_E-75>1.8 1.8 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2 2 0.08 0.59</G56_E-100>
+				<G56_E-100_7x7>2 2 0.08 0.59</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.5 2.5 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2 2 0.06 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2 2 0.06 0.000000</G58_VK4502P7>
@@ -126089,6 +126771,7 @@
 				<G54_E-50_FL>2.2 2.2 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2.7 2.7 0.5 0.1</G55_E-75>
 				<G56_E-100>3.2 3.2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.2 3.2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.2 2.2 0.5 0.4</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.2 2.2 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.2 2.2 0.000000 0.000000</G58_VK4502P7>
@@ -126279,6 +126962,7 @@
 				<G54_E-50_FL>2.4 2.4 0.25 0.25</G54_E-50_FL>
 				<G55_E-75>3.2 3.2 0.34 3.2</G55_E-75>
 				<G56_E-100>2.3 2.3 0.58 0.26</G56_E-100>
+				<G56_E-100_7x7>2.3 2.3 0.58 0.26</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.8 2.6 0.17 0.4</G57_PzVI_Tiger_P>
 				<G58_VK4502P>1.9 1.9 0.1 0.3</G58_VK4502P>
 				<G58_VK4502P7>1.9 1.9 0.1 0.3</G58_VK4502P7>
@@ -126458,6 +127142,7 @@
 				<G54_E-50_FL>3.6 3.6 0.000000 0.22</G54_E-50_FL>
 				<G55_E-75>3 2.9 0.000000 0.4</G55_E-75>
 				<G56_E-100>3.5 3.7 0.23 0.13</G56_E-100>
+				<G56_E-100_7x7>3.5 3.7 0.23 0.13</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.8 2.9 0.23 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3 3.1 0.27 0.08</G58_VK4502P>
 				<G58_VK4502P7>3 3.1 0.27 0.08</G58_VK4502P7>
@@ -126642,6 +127327,7 @@
 				<G54_E-50_FL>2.2 2.2 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2.7 2.7 0.5 0.1</G55_E-75>
 				<G56_E-100>3.2 3.2 0.000000 0.3</G56_E-100>
+				<G56_E-100_7x7>3.2 3.2 0.000000 0.3</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.2 2.2 0.5 0.4</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.2 2.2 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.2 2.2 0.000000 0.000000</G58_VK4502P7>
@@ -126843,6 +127529,7 @@
 				<G54_E-50_FL>3 3 0.14 0.000000</G54_E-50_FL>
 				<G55_E-75>5.5 5.5 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2.5 2.5 0.52 0.62</G56_E-100>
+				<G56_E-100_7x7>2.5 2.5 0.52 0.62</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.9 3.9 0.2 0.24</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3.3 3.3 0.56 0.78</G58_VK4502P>
 				<G58_VK4502P7>3.3 3.3 0.56 0.78</G58_VK4502P7>
@@ -127034,6 +127721,7 @@
 				<G54_E-50_FL>3.3 3.3 0.28 0.46</G54_E-50_FL>
 				<G55_E-75>4.9 4.9 0.000000 0.04</G55_E-75>
 				<G56_E-100>3.9 3.9 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.9 3.9 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.9 4.1 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.8 0.2</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.8 0.2</G58_VK4502P7>
@@ -127235,6 +127923,7 @@
 				<G54_E-50_FL>2.2 2.2 0.2 0.8</G54_E-50_FL>
 				<G55_E-75>2.7 2.7 0.000000 0.08</G55_E-75>
 				<G56_E-100>3.2 3.2 0.21 0.65</G56_E-100>
+				<G56_E-100_7x7>3.2 3.2 0.21 0.65</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.9 3.1 0.21 0.03</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.5 2.5 0.24 0.36</G58_VK4502P>
 				<G58_VK4502P7>2.5 2.5 0.24 0.36</G58_VK4502P7>
@@ -127423,6 +128112,7 @@
 				<G54_E-50_FL>2 2 0.1 0.46</G54_E-50_FL>
 				<G55_E-75>2.7 2.7 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2.6 2.6 0.31 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.6 2.6 0.31 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.2 3.3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.5 2.5 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.5 2.5 0.000000 0.000000</G58_VK4502P7>
@@ -127613,6 +128303,7 @@
 				<G54_E-50_FL>2.8 2.8 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>3.9 3.9 0.000000 0.000000</G55_E-75>
 				<G56_E-100>3.9 4.9 0.36 0.17</G56_E-100>
+				<G56_E-100_7x7>3.9 4.9 0.36 0.17</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>5.5 5.4 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3.3 3.3 0.000000 0.1</G58_VK4502P>
 				<G58_VK4502P7>3.3 3.3 0.000000 0.1</G58_VK4502P7>
@@ -127802,6 +128493,7 @@
 				<G54_E-50_FL>2.2 2.2 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2.7 2.7 0.5 0.1</G55_E-75>
 				<G56_E-100>3.2 3.2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.2 3.2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.2 2.2 0.5 0.4</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.2 2.2 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.2 2.2 0.000000 0.000000</G58_VK4502P7>
@@ -127986,6 +128678,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>4.3 4.3 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2.1 2.1 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.1 2.1 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.2 0.2</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.2 0.2</G58_VK4502P7>
@@ -128173,6 +128866,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>4.4 4.4 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2 2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2 2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.000000 0.000000</G58_VK4502P7>
@@ -128359,6 +129053,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>4.3 4.3 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2 2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2 2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.000000 0.000000</G58_VK4502P7>
@@ -128546,6 +129241,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>4.3 4.3 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2 2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2 2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3.7 3.7 0.13 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.000000 0.000000</G58_VK4502P7>
@@ -128738,6 +129434,7 @@
 				<G54_E-50_FL>2.9 2.9 0.3 0.4</G54_E-50_FL>
 				<G55_E-75>4.4 4.4 0.000000 0.45</G55_E-75>
 				<G56_E-100>4.3 4.3 0.33 0.67</G56_E-100>
+				<G56_E-100_7x7>4.3 4.3 0.33 0.67</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>5.1 5 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.9 2.9 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.9 2.9 0.000000 0.000000</G58_VK4502P7>
@@ -128926,6 +129623,7 @@
 				<G54_E-50_FL>1.9 1.9 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2.8 2.8 0.18 0.000000</G55_E-75>
 				<G56_E-100>2.3 2.3 0.36 0.2</G56_E-100>
+				<G56_E-100_7x7>2.3 2.3 0.36 0.2</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3 3 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>3 3 0.000000 0.000000</G58_VK4502P7>
@@ -129117,6 +129815,7 @@
 				<G54_E-50_FL>2.4 2.4 0.56 0.58</G54_E-50_FL>
 				<G55_E-75>2.8 2.8 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2.4 2.4 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.4 2.4 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.2 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3 3 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>3 3 0.000000 0.000000</G58_VK4502P7>
@@ -129307,6 +130006,7 @@
 				<G54_E-50_FL>3.4 3.4 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>4.6 4.6 0.000000 0.000000</G55_E-75>
 				<G56_E-100>2.6 2.6 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.6 2.6 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>4.1 4.3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.3 2.3 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.3 2.3 0.000000 0.000000</G58_VK4502P7>
@@ -129532,6 +130232,7 @@
 				<G54_E-50_FL>2.9 2.9 0.44 0.000000</G54_E-50_FL>
 				<G55_E-75>5.2 5.2 0.26 0.14</G55_E-75>
 				<G56_E-100>2 2 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2 2 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.2 2.2 0.19 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.5 2.5 0.36 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.5 2.5 0.36 0.000000</G58_VK4502P7>
@@ -129725,6 +130426,7 @@
 				<G54_E-50_FL>4.2 4.2 0.92 0.34</G54_E-50_FL>
 				<G55_E-75>6.8 6.8 0.89 0.000000</G55_E-75>
 				<G56_E-100>4.4 4.4 0.83 1</G56_E-100>
+				<G56_E-100_7x7>4.4 4.4 0.83 1</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>5 5 0.72 0.26</G57_PzVI_Tiger_P>
 				<G58_VK4502P>3 3 0.36 0.06</G58_VK4502P>
 				<G58_VK4502P7>3 3 0.36 0.06</G58_VK4502P7>
@@ -129916,6 +130618,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>3.5 3.5 0.61 0.47</G55_E-75>
 				<G56_E-100>2.74 2.74 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.74 2.74 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 2.7 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>1.7 1.7 0.23 0.000000</G58_VK4502P>
 				<G58_VK4502P7>1.7 1.7 0.23 0.000000</G58_VK4502P7>
@@ -130105,6 +130808,7 @@
 				<G54_E-50_FL>2 2 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>3.2 3.2 0.25 0.000000</G55_E-75>
 				<G56_E-100>3 3 0.17 0.18</G56_E-100>
+				<G56_E-100_7x7>3 3 0.17 0.18</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2.4 2.3 0.76 0.35</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2 2 0.62 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2 2 0.62 0.000000</G58_VK4502P7>
@@ -130296,6 +131000,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>3.5 3.5 0.61 0.47</G55_E-75>
 				<G56_E-100>2.74 2.74 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.74 2.74 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 2.7 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>1.7 1.7 0.23 0.000000</G58_VK4502P>
 				<G58_VK4502P7>1.7 1.7 0.23 0.000000</G58_VK4502P7>
@@ -130481,6 +131186,7 @@
 				<G54_E-50_FL>2.2 2.2 0.000000 0.2</G54_E-50_FL>
 				<G55_E-75>3.2 3.2 0.000000 0.13</G55_E-75>
 				<G56_E-100>2.4 2.4 0.43 0.35</G56_E-100>
+				<G56_E-100_7x7>2.4 2.4 0.43 0.35</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>2 2 0.17 0.37</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.2 2.2 0.18 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.3 2.3 0.18 0.000000</G58_VK4502P7>
@@ -130673,6 +131379,7 @@
 				<G54_E-50_FL>3.8 3.8 0.72 0.46</G54_E-50_FL>
 				<G55_E-75>6.2 6.2 0.18 0.000000</G55_E-75>
 				<G56_E-100>6.4 6.4 0.2 0.12</G56_E-100>
+				<G56_E-100_7x7>6.4 6.4 0.2 0.12</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>5.8 5.8 0.02 0.26</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.6 2.6 0.66 0.74</G58_VK4502P>
 				<G58_VK4502P7>2.6 2.6 0.66 0.74</G58_VK4502P7>
@@ -130864,6 +131571,7 @@
 				<G54_E-50_FL>2.7 2.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>3.5 3.5 0.61 0.47</G55_E-75>
 				<G56_E-100>2.74 2.74 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>2.74 2.74 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 2.7 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>1.7 1.7 0.23 0.000000</G58_VK4502P>
 				<G58_VK4502P7>1.7 1.7 0.23 0.000000</G58_VK4502P7>
@@ -131258,6 +131966,7 @@
 				<G54_E-50_FL>1.7 1.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2 2 0.9 1.5</G55_E-75>
 				<G56_E-100>2 2 0.8 0.2</G56_E-100>
+				<G56_E-100_7x7>2 2 0.8 0.2</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>1.8 1.8 3.6 3.5</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2 2 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.1 2.1 0.000000 0.000000</G58_VK4502P7>
@@ -131434,6 +132143,7 @@
 				<G54_E-50_FL>1.7 1.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2 2 0.9 1.5</G55_E-75>
 				<G56_E-100>2 2 0.8 0.2</G56_E-100>
+				<G56_E-100_7x7>2 2 0.8 0.2</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>1.8 1.8 3.6 3.8</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.1 2.1 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.1 2.1 0.000000 0.000000</G58_VK4502P7>
@@ -131613,6 +132323,7 @@
 				<G54_E-50_FL>1.7 1.7 0.000000 0.000000</G54_E-50_FL>
 				<G55_E-75>2 2 0.9 1.5</G55_E-75>
 				<G56_E-100>2 2 0.8 0.2</G56_E-100>
+				<G56_E-100_7x7>2 2 0.8 0.2</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>1.8 1.8 3.6 3.8</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.1 2.1 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2.1 2.1 0.000000 0.000000</G58_VK4502P7>
@@ -131918,6 +132629,7 @@
 				<germany:G54_E-50_FL>2.6 2.6 2.99 1.95</germany:G54_E-50_FL>
 				<germany:G55_E-75>4 4 1 1.88</germany:G55_E-75>
 				<germany:G56_E-100>3.18 3.18 1.64 1.25</germany:G56_E-100>
+				<germany:G56_E-100_7x7>3.18 3.18 1.64 1.25</germany:G56_E-100_7x7>
 				<germany:G57_PzVI_Tiger_P>3 3 4.76 1.91</germany:G57_PzVI_Tiger_P>
 				<germany:G58_VK4502P>1.6 1.6 3.54 0.51</germany:G58_VK4502P>
 				<germany:G58_VK4502P7>1.6 1.6 3.54 0.51</germany:G58_VK4502P7>
@@ -132108,6 +132820,7 @@
 				<germany:G54_E-50_FL>2.6 2.6 2.99 1.95</germany:G54_E-50_FL>
 				<germany:G55_E-75>4 4 1 1.88</germany:G55_E-75>
 				<germany:G56_E-100>3.18 3.18 1.64 1.25</germany:G56_E-100>
+				<germany:G56_E-100_7x7>3.18 3.18 1.64 1.25</germany:G56_E-100_7x7>
 				<germany:G57_PzVI_Tiger_P>3 3 4.76 1.91</germany:G57_PzVI_Tiger_P>
 				<germany:G58_VK4502P>1.6 1.6 3.54 0.51</germany:G58_VK4502P>
 				<germany:G58_VK4502P7>1.6 1.6 3.54 0.51</germany:G58_VK4502P7>
@@ -132298,6 +133011,7 @@
 				<germany:G54_E-50_FL>2.6 2.6 2.99 1.95</germany:G54_E-50_FL>
 				<germany:G55_E-75>4 4 1 1.88</germany:G55_E-75>
 				<germany:G56_E-100>3.18 3.18 1.64 1.25</germany:G56_E-100>
+				<germany:G56_E-100_7x7>3.18 3.18 1.64 1.25</germany:G56_E-100_7x7>
 				<germany:G57_PzVI_Tiger_P>3 3 4.76 1.91</germany:G57_PzVI_Tiger_P>
 				<germany:G58_VK4502P>1.6 1.6 3.54 0.51</germany:G58_VK4502P>
 				<germany:G58_VK4502P7>1.6 1.6 3.54 0.51</germany:G58_VK4502P7>
@@ -132482,6 +133196,7 @@
 				<G54_E-50_FL>2.6 2.6 0.29 0.000000</G54_E-50_FL>
 				<G55_E-75>3.5 3.5 0.34 0.51</G55_E-75>
 				<G56_E-100>3.4 3.4 0.000000 0.000000</G56_E-100>
+				<G56_E-100_7x7>3.4 3.4 0.000000 0.000000</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>3 3 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2 2 0.000000 0.000000</G58_VK4502P>
 				<G58_VK4502P7>2 2 0.000000 0.000000</G58_VK4502P7>
@@ -132680,6 +133395,7 @@
 				<G54_E-50_FL>6 6 0.76 0.89</G54_E-50_FL>
 				<G55_E-75>8.5 8.5 0.63 0.56</G55_E-75>
 				<G56_E-100>7 7 0.58 0.37</G56_E-100>
+				<G56_E-100_7x7>7 7 0.58 0.37</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>8.5 8.5 0.72 0.74</G57_PzVI_Tiger_P>
 				<G58_VK4502P>4 4 0.51 0.64</G58_VK4502P>
 				<G58_VK4502P7>4 4 0.51 0.64</G58_VK4502P7>
@@ -132880,6 +133596,7 @@
 				<G54_E-50_FL>3 3 0.01 0.000000</G54_E-50_FL>
 				<G55_E-75>4.5 4.5 0.000000 0.000000</G55_E-75>
 				<G56_E-100>3.9 3.9 0.36 0.17</G56_E-100>
+				<G56_E-100_7x7>3.9 3.9 0.36 0.17</G56_E-100_7x7>
 				<G57_PzVI_Tiger_P>4 4 0.000000 0.000000</G57_PzVI_Tiger_P>
 				<G58_VK4502P>2.5 2.5 0.000000 0.1</G58_VK4502P>
 				<G58_VK4502P7>2.5 2.5 0.000000 0.1</G58_VK4502P7>
@@ -133549,7 +134266,7 @@
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<include>
-				<vehicles>germany:G185_Leopard_120_Verbessert germany:G187_Taschenratte germany:G188_LeKpz_Borkenkafer germany:G189_Hirschkafer</vehicles>
+				<vehicles>germany:G185_Leopard_120_Verbessert germany:G187_Taschenratte germany:G188_LeKpz_Borkenkafer germany:G189_Hirschkafer germany:G197_Pz_Kpfw_Neu</vehicles>
 			</include>
 		</vehicleFilter>
 		<camouflage>
@@ -135913,7 +136630,7 @@
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<include>
-				<vehicles>japan:J52_STK_2</vehicles>
+				<vehicles>japan:J52_STK_2 japan:J53_Ho_Ri_Shugo</vehicles>
 			</include>
 		</vehicleFilter>
 		<camouflage>
@@ -137832,6 +138549,66 @@
 			<tilingSettings>
 				<type>relative</type>
 				<factor>1.0 1.0</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<vehicles>italy:It43_CAV_mod_71</vehicles>
+			</include>
+		</vehicleFilter>
+		<camouflage>
+			<id>1143</id>
+			<texture>vehicles/italy/Camouflage/it_volumetric.dds</texture>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/it_volumetric/label</userString>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>4.23 4.23</factor>
+				<offset>1.17 -0.42</offset>
+			</tilingSettings>
+			<glossMetallicMap>vehicles/italy/Camouflage/it_volumetric_GMM.dds</glossMetallicMap>
+			<normal>
+				<normalMap>vehicles/italy/Camouflage/it_volumetric_NM.dds</normalMap>
+				<normalStrength>1</normalStrength>
+			</normal>
+		</camouflage>
+		<camouflage>
+			<id>1144</id>
+			<texture>vehicles/italy/Camouflage/it_volumetric_gun.dds</texture>
+			<description>#vehicle_customization:camouflage/empty/description</description>
+			<scales>1.2 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/it_volumetric/label</userString>
+			<tags>fullRGB hiddenInUI</tags>
+			<invisibilityFactor>1</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>255 0 0 255</c0>
+					<c1>0 255 0 255</c1>
+					<c2>0 0 255 255</c2>
+					<c3>0 0 0 255</c3>
+				</palette>
+			</palettes>
+			<tilingSettings>
+				<type>relativewithfactor</type>
+				<factor>2.84 2.84</factor>
 				<offset>0 0</offset>
 			</tilingSettings>
 		</camouflage>
@@ -141984,7 +142761,7 @@
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<include>
-				<vehicles>sweden:S36_Strv_107_12</vehicles>
+				<vehicles>sweden:S36_Strv_107_12 sweden:S41_BV_111</vehicles>
 			</include>
 		</vehicleFilter>
 		<camouflage>
@@ -149252,6 +150029,7 @@
 				<A83_T110E4>2.9 2.9 0.4 0.48</A83_T110E4>
 				<A83_T110E4_7x7>2.9 2.9 0.4 0.48</A83_T110E4_7x7>
 				<A85_T110E3>5 5 0.54 0.46</A85_T110E3>
+				<A85_T110E3_7x7>5 5 0.54 0.46</A85_T110E3_7x7>
 				<A86_T23E3>4.3 4.3 0.42 0.48</A86_T23E3>
 				<A87_M44>5.4 5.4 0.000000 0.000000</A87_M44>
 				<A88_M53_55>4 4 0.000000 0.32</A88_M53_55>
@@ -149423,6 +150201,7 @@
 				<A83_T110E4>5.2 5.2 0.42 0.48</A83_T110E4>
 				<A83_T110E4_7x7>5.2 5.2 0.42 0.48</A83_T110E4_7x7>
 				<A85_T110E3>4.8 4.8 0.000000 0.24</A85_T110E3>
+				<A85_T110E3_7x7>4.8 4.8 0.000000 0.24</A85_T110E3_7x7>
 				<A86_T23E3>3.7 3.7 0.27 0.36</A86_T23E3>
 				<A87_M44>6.3 6.3 0.72 0.95</A87_M44>
 				<A88_M53_55>6.6 6.6 0.5 0.21</A88_M53_55>
@@ -149605,6 +150384,7 @@
 				<A83_T110E4>3.8 3.8 0.27 0.94</A83_T110E4>
 				<A83_T110E4_7x7>3.8 3.8 0.27 0.94</A83_T110E4_7x7>
 				<A85_T110E3>4.8 4.9 0.27 0.02</A85_T110E3>
+				<A85_T110E3_7x7>4.8 4.9 0.27 0.02</A85_T110E3_7x7>
 				<A86_T23E3>3.4 3.4 0.2 0.51</A86_T23E3>
 				<A87_M44>5.7 5.7 0.66 0.43</A87_M44>
 				<A88_M53_55>6.1 6.1 0.71 0.1</A88_M53_55>
@@ -149776,6 +150556,7 @@
 				<A83_T110E4>3.4 3.4 0.44 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>3.4 3.4 0.44 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>6.4 6.5 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>6.4 6.5 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3.6 3.6 0.19 0.02</A86_T23E3>
 				<A87_M44>6.7 6.7 0.07 0.26</A87_M44>
 				<A88_M53_55>6.1 6.1 0.000000 0.000000</A88_M53_55>
@@ -149947,6 +150728,7 @@
 				<A83_T110E4>3 3 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>3 3 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>6.8 6.8 0.14 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>6.8 6.8 0.14 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3.2 3.2 0.000000 0.000000</A86_T23E3>
 				<A87_M44>6.9 6.9 0.000000 0.000000</A87_M44>
 				<A88_M53_55>6.3 6.3 0.000000 0.000000</A88_M53_55>
@@ -150112,6 +150894,7 @@
 				<A83_T110E4>1.4 1.4 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>1.4 1.4 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>2 2 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2 2 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1 1 0.15 0.000000</A86_T23E3>
 				<A87_M44>2.2 2.2 0.47 0.07</A87_M44>
 				<A88_M53_55>2.3 2.3 0.1 0.22</A88_M53_55>
@@ -150283,6 +151066,7 @@
 				<A83_T110E4>2.6 2.6 0.29 0.94</A83_T110E4>
 				<A83_T110E4_7x7>2.6 2.6 0.29 0.94</A83_T110E4_7x7>
 				<A85_T110E3>3.9 3.9 0.26 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>3.9 3.9 0.26 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3.2 3.2 0.18 0.35</A86_T23E3>
 				<A87_M44>5.6 5.6 0.66 0.56</A87_M44>
 				<A88_M53_55>6.2 6.2 0.68 0.32</A88_M53_55>
@@ -150466,6 +151250,7 @@
 				<A83_T110E4>3.1 3.1 0.82 0.37</A83_T110E4>
 				<A83_T110E4_7x7>3.1 3.1 0.82 0.37</A83_T110E4_7x7>
 				<A85_T110E3>7.2 7.3 0.34 0.67</A85_T110E3>
+				<A85_T110E3_7x7>7.2 7.3 0.34 0.67</A85_T110E3_7x7>
 				<A86_T23E3>4.1 4.1 0.46 0.53</A86_T23E3>
 				<A87_M44>8.1 8.1 0.21 0.19</A87_M44>
 				<A88_M53_55>7.5 7.5 0.39 0.43</A88_M53_55>
@@ -150637,6 +151422,7 @@
 				<A83_T110E4>2.4 2.4 0.28 0.48</A83_T110E4>
 				<A83_T110E4_7x7>2.4 2.4 0.28 0.48</A83_T110E4_7x7>
 				<A85_T110E3>4.8 4.8 0.71 0.86</A85_T110E3>
+				<A85_T110E3_7x7>4.8 4.8 0.71 0.86</A85_T110E3_7x7>
 				<A86_T23E3>3.4 3.4 0.27 0.28</A86_T23E3>
 				<A87_M44>6.4 6.4 0.2 0.56</A87_M44>
 				<A88_M53_55>6 6 0.26 0.4</A88_M53_55>
@@ -150808,6 +151594,7 @@
 				<A83_T110E4>2.3 2.3 0.52 0.58</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.52 0.58</A83_T110E4_7x7>
 				<A85_T110E3>3.4 3.3 0.05 0.18</A85_T110E3>
+				<A85_T110E3_7x7>3.4 3.3 0.05 0.18</A85_T110E3_7x7>
 				<A86_T23E3>2.6 2.6 0.1 0.000000</A86_T23E3>
 				<A87_M44>4.1 4.1 0.5 0.63</A87_M44>
 				<A88_M53_55>4.8 4.8 0.42 1</A88_M53_55>
@@ -150991,6 +151778,7 @@
 				<A83_T110E4>3.3 3.3 0.24 0.1</A83_T110E4>
 				<A83_T110E4_7x7>3.3 3.3 0.24 0.1</A83_T110E4_7x7>
 				<A85_T110E3>7.8 7.9 0.46 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>7.8 7.9 0.46 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3.4 3.4 0.000000 0.000000</A86_T23E3>
 				<A87_M44>7.3 7.3 0.000000 0.000000</A87_M44>
 				<A88_M53_55>5.8 5.8 0.000000 0.000000</A88_M53_55>
@@ -151153,6 +151941,7 @@
 				<A83_T110E4>5.6 5.7 0.68 0.3</A83_T110E4>
 				<A83_T110E4_7x7>5.6 5.7 0.68 0.3</A83_T110E4_7x7>
 				<A85_T110E3>4 3.1 0.38 0.64</A85_T110E3>
+				<A85_T110E3_7x7>4 3.1 0.38 0.64</A85_T110E3_7x7>
 				<A86_T23E3>3.8 3.8 0.7 0.41</A86_T23E3>
 				<A88_M53_55>3.6 3.8 0.000000 0.000000</A88_M53_55>
 				<A89_T54E1>6.8 6.6 0.000000 0.000000</A89_T54E1>
@@ -151320,6 +152109,7 @@
 				<A83_T110E4>2.8 2.8 0.04 0.04</A83_T110E4>
 				<A83_T110E4_7x7>2.8 2.8 0.04 0.04</A83_T110E4_7x7>
 				<A85_T110E3>3 5 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>3 5 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>2.1 2.1 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.9 3.9 0.52 0.65</A87_M44>
 				<A88_M53_55>4.6 4.7 0.000000 0.000000</A88_M53_55>
@@ -151490,6 +152280,7 @@
 				<A83_T110E4>3.6 3.6 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>3.6 3.6 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>3 4.6 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>3 4.6 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>2.5 2.9 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.9 3.9 0.48 0.63</A87_M44>
 				<A88_M53_55>4 4.1 0.000000 0.000000</A88_M53_55>
@@ -151660,6 +152451,7 @@
 				<A83_T110E4>4.2 4.2 0.21 0.4</A83_T110E4>
 				<A83_T110E4_7x7>4.2 4.2 0.21 0.4</A83_T110E4_7x7>
 				<A85_T110E3>4 4.2 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>4 4.2 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3 3 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.7 3.7 0.38 0.59</A87_M44>
 				<A88_M53_55>4.6 4.6 0.000000 0.000000</A88_M53_55>
@@ -151830,6 +152622,7 @@
 				<A83_T110E4>3.4 3.4 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>3.4 3.4 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>4 4 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>4 4 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>2.3 2.3 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.9 3.9 0.000000 0.76</A87_M44>
 				<A88_M53_55>5.1 5.1 0.000000 0.000000</A88_M53_55>
@@ -152120,6 +152913,7 @@
 				<A81_T95_E2>2.2 2.2 1.1 0.000000</A81_T95_E2>
 				<A83_T110E4>1.9 1.9 0.47 0.62</A83_T110E4>
 				<A85_T110E3>3.8 3.7 0.24 0.77</A85_T110E3>
+				<A85_T110E3_7x7>3.8 3.7 0.24 0.77</A85_T110E3_7x7>
 				<A86_T23E3>1.8 1.8 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.6 3.6 0.6 0.24</A87_M44>
 				<A88_M53_55>2.9 2.9 0.4 0.2</A88_M53_55>
@@ -152292,6 +153086,7 @@
 				<A83_T110E4>2.6 2.6 0.6 0.44</A83_T110E4>
 				<A83_T110E4_7x7>2.6 2.6 0.6 0.44</A83_T110E4_7x7>
 				<A85_T110E3>4.8 4.8 0.2 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>4.8 4.8 0.2 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>2.4 2.4 0.35 0.42</A86_T23E3>
 				<A87_M44>4.7 4.7 0.000000 0.000000</A87_M44>
 				<A88_M53_55>3.1 3.1 0.000000 0.24</A88_M53_55>
@@ -152460,6 +153255,7 @@
 				<A83_T110E4>2.3 2.3 0.25 0.36</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.25 0.36</A83_T110E4_7x7>
 				<A85_T110E3>4 4 0.13 0.18</A85_T110E3>
+				<A85_T110E3_7x7>4 4 0.13 0.18</A85_T110E3_7x7>
 				<A86_T23E3>2.1 2.1 0.85 0.46</A86_T23E3>
 				<A87_M44>3.8 3.8 0.12 0.44</A87_M44>
 				<A88_M53_55>3.9 3.9 0.000000 0.000000</A88_M53_55>
@@ -152632,6 +153428,7 @@
 				<A83_T110E4>2.3 2.3 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>3 3 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>3 3 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.8 1.8 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.9 3.9 0.000000 0.45</A87_M44>
 				<A88_M53_55>5 5 0.000000 0.000000</A88_M53_55>
@@ -152799,6 +153596,7 @@
 				<A83_T110E4>2.3 2.3 0.2 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.2 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>3 3 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>3 3 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>3 3 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3.7 3.7 0.21 0.26</A87_M44>
 				<A88_M53_55>3.6 3.6 0.000000 0.000000</A88_M53_55>
@@ -152971,6 +153769,7 @@
 				<A83_T110E4>2.2 2.2 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>2.2 2.2 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>5 5 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>5 5 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.2 1.2 0.000000 0.000000</A86_T23E3>
 				<A87_M44>5.4 5.4 0.000000 0.000000</A87_M44>
 				<A88_M53_55>4.6 4.6 0.000000 0.000000</A88_M53_55>
@@ -153140,6 +153939,7 @@
 				<A83_T110E4>2.9 2.9 0.000000 0.28</A83_T110E4>
 				<A83_T110E4_7x7>2.9 2.9 0.000000 0.28</A83_T110E4_7x7>
 				<A85_T110E3>6.2 4.6 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>6.2 4.6 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>2.3 2.3 0.000000 0.000000</A86_T23E3>
 				<A87_M44>6.3 6.3 0.000000 0.45</A87_M44>
 				<A88_M53_55>7.2 7.2 0.000000 0.000000</A88_M53_55>
@@ -153307,6 +154107,7 @@
 				<A83_T110E4>1.7 1.7 0.48 0.34</A83_T110E4>
 				<A83_T110E4_7x7>1.7 1.7 0.48 0.34</A83_T110E4_7x7>
 				<A85_T110E3>2.2 2.2 0.23 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2.2 2.2 0.23 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1 1 0.000000 0.000000</A86_T23E3>
 				<A87_M44>2.2 2.2 0.12 0.16</A87_M44>
 				<A88_M53_55>1.9 1.9 0.000000 0.000000</A88_M53_55>
@@ -153475,6 +154276,7 @@
 				<A83_T110E4>2.3 2.3 0.25 0.36</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.25 0.36</A83_T110E4_7x7>
 				<A85_T110E3>4 4 0.13 0.18</A85_T110E3>
+				<A85_T110E3_7x7>4 4 0.13 0.18</A85_T110E3_7x7>
 				<A86_T23E3>2.1 2.1 0.85 0.46</A86_T23E3>
 				<A87_M44>3.8 3.8 0.12 0.44</A87_M44>
 				<A88_M53_55>3.9 3.9 0.000000 0.000000</A88_M53_55>
@@ -153644,6 +154446,7 @@
 				<A83_T110E4>1 1 0.36 0.48</A83_T110E4>
 				<A83_T110E4_7x7>1 1 0.36 0.48</A83_T110E4_7x7>
 				<A85_T110E3>1.9 1.9 0.89 0.2</A85_T110E3>
+				<A85_T110E3_7x7>1.9 1.9 0.89 0.2</A85_T110E3_7x7>
 				<A86_T23E3>1.5 1.5 0.39 0.62</A86_T23E3>
 				<A87_M44>2.6 2.6 0.000000 0.37</A87_M44>
 				<A88_M53_55>3.4 3.4 0.38 0.000000</A88_M53_55>
@@ -153939,6 +154742,7 @@
 				<A83_T110E4>4.4 4.4 0.16 0.96</A83_T110E4>
 				<A83_T110E4_7x7>4.4 4.4 0.16 0.96</A83_T110E4_7x7>
 				<A85_T110E3>9.4 9.4 0.62 0.5</A85_T110E3>
+				<A85_T110E3_7x7>9.4 9.4 0.62 0.5</A85_T110E3_7x7>
 				<A86_T23E3>5.3 5.3 0.41 0.2</A86_T23E3>
 				<A87_M44>8.3 8.3 0.000000 0.000000</A87_M44>
 				<A88_M53_55>8.8 8.8 0.82 0.000000</A88_M53_55>
@@ -154229,6 +155033,7 @@
 				<A83_T110E4>2.3 2.3 0.25 0.36</A83_T110E4>
 				<A83_T110E4_7x7>2.3 2.3 0.25 0.36</A83_T110E4_7x7>
 				<A85_T110E3>4 4 0.13 0.18</A85_T110E3>
+				<A85_T110E3_7x7>4 4 0.13 0.18</A85_T110E3_7x7>
 				<A86_T23E3>2.1 2.1 0.85 0.46</A86_T23E3>
 				<A87_M44>3.8 3.8 0.12 0.44</A87_M44>
 				<A88_M53_55>3.9 3.9 0.000000 0.000000</A88_M53_55>
@@ -154387,6 +155192,7 @@
 				<A80_T26_E4_SuperPershing_FL>2 2 0.000000 0.1</A80_T26_E4_SuperPershing_FL>
 				<A81_T95_E2>1.4 1.4 0.000000 0.4</A81_T95_E2>
 				<A85_T110E3>2 2 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2 2 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.2 1.2 0.2 0.28</A86_T23E3>
 				<A87_M44>2 2 0.000000 0.000000</A87_M44>
 				<A88_M53_55>1.8 1.8 0.000000 0.000000</A88_M53_55>
@@ -154538,6 +155344,7 @@
 				<A80_T26_E4_SuperPershing_FL>2 2 0.000000 0.1</A80_T26_E4_SuperPershing_FL>
 				<A81_T95_E2>1.4 1.4 0.000000 0.4</A81_T95_E2>
 				<A85_T110E3>2 2 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2 2 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.2 1.2 0.2 0.28</A86_T23E3>
 				<A87_M44>2 2 0.000000 0.000000</A87_M44>
 				<A88_M53_55>1.8 1.8 0.000000 0.000000</A88_M53_55>
@@ -154689,6 +155496,7 @@
 				<A80_T26_E4_SuperPershing_FL>2 2 0.000000 0.1</A80_T26_E4_SuperPershing_FL>
 				<A81_T95_E2>1.4 1.4 0.000000 0.4</A81_T95_E2>
 				<A85_T110E3>2 2 0.000000 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2 2 0.000000 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.2 1.2 0.2 0.3</A86_T23E3>
 				<A87_M44>2 2 0.000000 0.000000</A87_M44>
 				<A88_M53_55>1.8 1.8 0.000000 0.000000</A88_M53_55>
@@ -154978,6 +155786,7 @@
 				<usa:A83_T110E4>1.7 1.7 1.63 1.74</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>1.7 1.7 1.63 1.74</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>3.45 3.45 1.6 0.77</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>3.45 3.45 1.6 0.77</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>2 2 10.59 2.74</usa:A86_T23E3>
 				<usa:A87_M44>3.5 3.5 1.36 6.52</usa:A87_M44>
 				<usa:A88_M53_55>3.4 3.4 1.15 1.84</usa:A88_M53_55>
@@ -155141,6 +155950,7 @@
 				<usa:A83_T110E4>1.65 1.65 0.000000 0.34</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>1.65 1.65 0.000000 0.34</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>3.42 3.42 0.83 0.92</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>3.42 3.42 0.83 0.92</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>2.22 2.22 9.45 0.63</usa:A86_T23E3>
 				<usa:A87_M44>3.88 3.88 0.97 6.6</usa:A87_M44>
 				<usa:A88_M53_55>2.97 2.97 0.000000 0.38</usa:A88_M53_55>
@@ -155306,6 +156116,7 @@
 				<usa:A83_T110E4>1.05 1.05 3.59 1.83</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>1.05 1.05 3.59 1.83</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>1.95 1.95 2.38 1.84</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>1.95 1.95 2.38 1.84</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>1.17 1.17 5.39 6.34</usa:A86_T23E3>
 				<usa:A87_M44>2.03 2.03 1.99 6.62</usa:A87_M44>
 				<usa:A88_M53_55>2 2 0.46 3.81</usa:A88_M53_55>
@@ -155469,6 +156280,7 @@
 				<usa:A83_T110E4>2.87 2.87 1.46 0.56</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>2.87 2.87 1.46 0.56</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>5.85 5.85 0.91 0.92</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>5.85 5.85 0.91 0.92</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>3.37 3.37 9.45 0.63</usa:A86_T23E3>
 				<usa:A87_M44>5.82 5.82 0.97 6.6</usa:A87_M44>
 				<usa:A88_M53_55>4.56 4.56 0.05 0.38</usa:A88_M53_55>
@@ -155631,6 +156443,7 @@
 				<A83_T110E4>1.07 1.07 0.000000 0.000000</A83_T110E4>
 				<A83_T110E4_7x7>1.07 1.07 0.000000 0.000000</A83_T110E4_7x7>
 				<A85_T110E3>2.42 2.42 0.14 0.000000</A85_T110E3>
+				<A85_T110E3_7x7>2.42 2.42 0.14 0.000000</A85_T110E3_7x7>
 				<A86_T23E3>1.14 1.14 0.000000 0.000000</A86_T23E3>
 				<A87_M44>3 3 0.000000 0.000000</A87_M44>
 				<A88_M53_55>2.24 2.24 0.000000 0.000000</A88_M53_55>
@@ -155807,6 +156620,7 @@
 				<A83_T110E4>3 3 0.52 0.58</A83_T110E4>
 				<A83_T110E4_7x7>3 3 0.52 0.58</A83_T110E4_7x7>
 				<A85_T110E3>5 5 0.05 0.18</A85_T110E3>
+				<A85_T110E3_7x7>5 5 0.05 0.18</A85_T110E3_7x7>
 				<A86_T23E3>3 3 0.1 0.000000</A86_T23E3>
 				<A87_M44>6 6 -0.01 0.63</A87_M44>
 				<A88_M53_55>5 5 0.42 1</A88_M53_55>
@@ -155982,6 +156796,7 @@
 				<A83_T110E4>6 6 0.82 0.37</A83_T110E4>
 				<A83_T110E4_7x7>6 6 0.82 0.37</A83_T110E4_7x7>
 				<A85_T110E3>10.2 10.4 0.34 0.67</A85_T110E3>
+				<A85_T110E3_7x7>10.2 10.4 0.34 0.67</A85_T110E3_7x7>
 				<A86_T23E3>5.85 5.85 0.46 0.53</A86_T23E3>
 				<A87_M44>11.5 11.5 0.21 0.19</A87_M44>
 				<A88_M53_55>10.7 10.7 0.39 0.43</A88_M53_55>
@@ -156157,6 +156972,7 @@
 				<usa:A83_T110E4>1.4 1.4 -0.62 0.000000</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>1.4 1.4 -0.62 0.000000</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>2.8 2.8 2.04 1.78</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>2.8 2.8 2.04 1.78</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>1.4 1.4 6.48 1.93</usa:A86_T23E3>
 				<usa:A87_M44>2.5 2.5 1.28 1.51</usa:A87_M44>
 				<usa:A88_M53_55>2.7 2.7 -0.91 -0.92</usa:A88_M53_55>
@@ -156363,7 +157179,7 @@
 		<priceGroup>camouflages 50g notInShop</priceGroup>
 		<vehicleFilter>
 			<include>
-				<vehicles>usa:A85_T110E3</vehicles>
+				<vehicles>usa:A85_T110E3 usa:A85_T110E3_7x7</vehicles>
 			</include>
 		</vehicleFilter>
 		<camouflage>
@@ -156388,6 +157204,7 @@
 			</rotation>
 			<tiling>
 				<usa:A85_T110E3>3.0 3.0 0.04 3.01</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>3.0 3.0 0.04 3.01</usa:A85_T110E3_7x7>
 			</tiling>
 			<tilingSettings>
 				<type>relative</type>
@@ -156780,6 +157597,7 @@
 				<usa:A83_T110E4>1.65 1.65 0.000000 0.34</usa:A83_T110E4>
 				<usa:A83_T110E4_7x7>1.65 1.65 0.000000 0.34</usa:A83_T110E4_7x7>
 				<usa:A85_T110E3>3.42 3.42 0.83 0.92</usa:A85_T110E3>
+				<usa:A85_T110E3_7x7>3.42 3.42 0.83 0.92</usa:A85_T110E3_7x7>
 				<usa:A86_T23E3>2.22 2.22 9.45 0.63</usa:A86_T23E3>
 				<usa:A87_M44>3.88 3.88 0.97 6.6</usa:A87_M44>
 				<usa:A88_M53_55>2.97 2.97 0.000000 0.38</usa:A88_M53_55>
@@ -157003,6 +157821,7 @@
 				<R145_Object_705_A_7x7>4.9 4.9 2.5 6.5</R145_Object_705_A_7x7>
 				<R146_STG>1.9 1.9 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.2 4.2 0.7 0.5</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.2 4.2 0.7 0.5</R149_Object_268_4_7x7>
 				<R14_SU-5>3.1 3.1 0.6 0.000000</R14_SU-5>
@@ -157045,6 +157864,7 @@
 				<R43_T-70>1.2 1.2 0.000000 0.8</R43_T-70>
 				<R44_T80>4.7 4.7 0.13 0.08</R44_T80>
 				<R45_IS-7>3.5 2.8 0.38 0.09</R45_IS-7>
+				<R45_IS-7_7x7>3.5 2.8 0.38 0.09</R45_IS-7_7x7>
 				<R45_IS-7_IGR>3.5 2.8 0.38 0.09</R45_IS-7_IGR>
 				<R46_KV-13>6 6 0.82 0.000000</R46_KV-13>
 				<R47_ISU-152>4.2 4.2 0.71 0.26</R47_ISU-152>
@@ -157221,6 +158041,7 @@
 				<R145_Object_705_A_7x7>7.4 7.4 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 5.3 4.4</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 5.3 4.4</R148_Object_430_U_7x7>
 				<R149_Object_268_4>7.3 7.3 3.8 5.9</R149_Object_268_4>
 				<R149_Object_268_4_7x7>7.3 7.3 3.8 5.9</R149_Object_268_4_7x7>
 				<R14_SU-5>6.7 6.7 0.58 0.4</R14_SU-5>
@@ -157263,6 +158084,7 @@
 				<R43_T-70>2.7 2.7 0.13 1.2</R43_T-70>
 				<R44_T80>5.8 4.6 0.29 0.34</R44_T80>
 				<R45_IS-7>5.4 3.5 0.4 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>5.4 3.5 0.4 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.4 3.5 0.4 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>6.2 6.2 0.74 0.27</R46_KV-13>
 				<R47_ISU-152>7.4 7.3 0.91 0.46</R47_ISU-152>
@@ -157478,6 +158300,7 @@
 				<R43_T-70>1.3 1.3 0.000000 0.000000</R43_T-70>
 				<R44_T80>7.1 7.1 0.000000 0.000000</R44_T80>
 				<R45_IS-7>6.4 5.7 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>6.4 5.7 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.4 5.7 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>6.4 6.4 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>8.1 6.3 0.06 0.000000</R47_ISU-152>
@@ -157638,6 +158461,7 @@
 				<R145_Object_705_A>6.7 6.7 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>6.7 6.7 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.4 4.4 0.22 0.4</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.4 4.4 0.22 0.4</R149_Object_268_4_7x7>
 				<R14_SU-5>3.6 3.6 0.27 0.000000</R14_SU-5>
@@ -157679,6 +158503,7 @@
 				<R43_T-70>2.9 2.9 0.000000 0.000000</R43_T-70>
 				<R44_T80>4.3 4.4 0.4 0.2</R44_T80>
 				<R45_IS-7>4.4 4.6 0.000000 0.37</R45_IS-7>
+				<R45_IS-7_7x7>4.4 4.6 0.000000 0.37</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.4 4.6 0.000000 0.37</R45_IS-7_IGR>
 				<R46_KV-13>5.7 5.7 0.21 0.38</R46_KV-13>
 				<R47_ISU-152>4.2 4.4 0.22 0.4</R47_ISU-152>
@@ -157847,6 +158672,7 @@
 				<R145_Object_705_A_7x7>5.1 5.1 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.3 5.3 2.7 0.37</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.3 5.3 2.7 0.37</R149_Object_268_4_7x7>
 				<R14_SU-5>5.7 5.7 0.000000 0.4</R14_SU-5>
@@ -157889,6 +158715,7 @@
 				<R43_T-70>1.7 1.7 0.66 0.43</R43_T-70>
 				<R44_T80>5.9 5.9 0.15 0.000000</R44_T80>
 				<R45_IS-7>6.3 3.9 0.4 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>6.3 3.9 0.4 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.3 3.9 0.4 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4.4 4.4 0.68 0.36</R46_KV-13>
 				<R47_ISU-152>6.5 5.3 0.45 0.37</R47_ISU-152>
@@ -158064,6 +158891,7 @@
 				<R145_Object_705_A_7x7>6.63 6.63 0.000000 1.7</R145_Object_705_A_7x7>
 				<R146_STG>2.8 2.8 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.6 1.6 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.6 1.6 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>6.5 5.3 9.5 2.8</R149_Object_268_4>
 				<R149_Object_268_4_7x7>6.5 5.3 9.5 2.8</R149_Object_268_4_7x7>
 				<R14_SU-5>5.8 5.8 0.15 0.15</R14_SU-5>
@@ -158106,6 +158934,7 @@
 				<R43_T-70>2.2 2.2 0.28 0.68</R43_T-70>
 				<R44_T80>4.9 4.9 0.2 0.000000</R44_T80>
 				<R45_IS-7>7.3 6.8 0.48 0.28</R45_IS-7>
+				<R45_IS-7_7x7>7.3 6.8 0.48 0.28</R45_IS-7_7x7>
 				<R45_IS-7_IGR>7.3 6.8 0.48 0.28</R45_IS-7_IGR>
 				<R46_KV-13>4.2 4.2 0.36 0.02</R46_KV-13>
 				<R47_ISU-152>6.5 5.3 0.54 0.37</R47_ISU-152>
@@ -158281,6 +159110,7 @@
 				<R145_Object_705_A_7x7>5.1 5.1 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2.4 2.4 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.1 5.1 0.8 3.6</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.1 5.1 0.8 3.6</R149_Object_268_4_7x7>
 				<R14_SU-5>4.2 4.2 0.81 0.56</R14_SU-5>
@@ -158323,6 +159153,7 @@
 				<R43_T-70>1.7 1.7 0.56 0.39</R43_T-70>
 				<R44_T80>6 6 0.21 0.26</R44_T80>
 				<R45_IS-7>5.6 4.5 0.2 0.5</R45_IS-7>
+				<R45_IS-7_7x7>5.6 4.5 0.2 0.5</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.6 4.5 0.2 0.5</R45_IS-7_IGR>
 				<R46_KV-13>6.1 6.1 0.63 0.2</R46_KV-13>
 				<R47_ISU-152>5.7 5.1 0.13 0.3</R47_ISU-152>
@@ -158509,6 +159340,7 @@
 				<R145_Object_705_A_7x7>4.2 4.2 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.2 1.2 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.2 1.2 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.5 5.2 5.7 0.19</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.5 5.2 5.7 0.19</R149_Object_268_4_7x7>
 				<R14_SU-5>3.6 3.6 0.94 0.62</R14_SU-5>
@@ -158551,6 +159383,7 @@
 				<R43_T-70>1.3 1.3 0.08 0.08</R43_T-70>
 				<R44_T80>5 5 0.22 0.000000</R44_T80>
 				<R45_IS-7>5.7 7.2 0.58 0.44</R45_IS-7>
+				<R45_IS-7_7x7>5.7 7.2 0.58 0.44</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.7 7.2 0.58 0.44</R45_IS-7_IGR>
 				<R46_KV-13>5.6 5.6 0.66 0.72</R46_KV-13>
 				<R47_ISU-152>5.3 5.3 0.66 0.19</R47_ISU-152>
@@ -158726,6 +159559,7 @@
 				<R145_Object_705_A_7x7>4.6 4.6 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.2 1.2 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.2 1.2 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>6.2 6.2 0.54 2.5</R149_Object_268_4>
 				<R149_Object_268_4_7x7>6.2 6.2 0.54 2.5</R149_Object_268_4_7x7>
 				<R14_SU-5>6.3 6.3 0.2 0.000000</R14_SU-5>
@@ -158767,6 +159601,7 @@
 				<R43_T-70>1.9 1.9 0.1 0.000000</R43_T-70>
 				<R44_T80>4.7 4.7 0.06 0.13</R44_T80>
 				<R45_IS-7>5.6 5.7 1 0.54</R45_IS-7>
+				<R45_IS-7_7x7>5.6 5.7 1 0.54</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.6 5.7 1 0.54</R45_IS-7_IGR>
 				<R46_KV-13>7.6 7.6 0.29 0.43</R46_KV-13>
 				<R47_ISU-152>6.2 6.2 0.54 0.72</R47_ISU-152>
@@ -158941,6 +159776,7 @@
 				<R145_Object_705_A_7x7>4.7 4.7 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.2 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.2 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>6.2 6.2 6.4 0.74</R149_Object_268_4>
 				<R149_Object_268_4_7x7>6.2 6.2 6.4 0.74</R149_Object_268_4_7x7>
 				<R14_SU-5>6.9 6.9 0.18 0.15</R14_SU-5>
@@ -158983,6 +159819,7 @@
 				<R43_T-70>2.2 2.2 0.24 0.000000</R43_T-70>
 				<R44_T80>6.3 6.3 0.000000 0.000000</R44_T80>
 				<R45_IS-7>7.7 7.4 0.4 0.48</R45_IS-7>
+				<R45_IS-7_7x7>7.7 7.4 0.4 0.48</R45_IS-7_7x7>
 				<R45_IS-7_IGR>7.7 7.4 0.4 0.48</R45_IS-7_IGR>
 				<R46_KV-13>8.5 8.5 0.39 0.000000</R46_KV-13>
 				<R47_ISU-152>6.2 6.2 0.7 0.74</R47_ISU-152>
@@ -159158,6 +159995,7 @@
 				<R145_Object_705_A_7x7>6.7 6.7 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.2 5.2 1.4 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.2 5.2 1.4 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>7.1 7.1 0.000000 0.000000</R14_SU-5>
@@ -159200,6 +160038,7 @@
 				<R43_T-70>2.2 2.2 0.000000 0.000000</R43_T-70>
 				<R44_T80>9.4 9.4 0.000000 0.000000</R44_T80>
 				<R45_IS-7>8 6.2 0.52 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>8 6.2 0.52 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>8 6.2 0.52 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>8.1 6.6 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>5.2 5.2 6.2 2.6</R47_ISU-152>
@@ -159375,6 +160214,7 @@
 				<R145_Object_705_A_7x7>4.1 4.1 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.2 4.2 0.4 1.8</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.2 4.2 0.4 1.8</R149_Object_268_4_7x7>
 				<R14_SU-5>4.3 4.3 0.2 0.42</R14_SU-5>
@@ -159417,6 +160257,7 @@
 				<R43_T-70>2.1 2.1 0.000000 0.000000</R43_T-70>
 				<R44_T80>5.5 5.5 0.19 0.000000</R44_T80>
 				<R45_IS-7>6.5 6.2 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>3.7 3.7 4.35 2.3</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.5 6.2 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4.8 4.8 0.54 0.57</R46_KV-13>
 				<R47_ISU-152>4.1 4.1 0.4 0.35</R47_ISU-152>
@@ -159590,6 +160431,7 @@
 				<R145_Object_705_A_7x7>6.8 6.8 1.7 2.6</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 2.7 1.2</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 2.7 1.2</R148_Object_430_U_7x7>
 				<R149_Object_268_4>6.3 6.3 0.7 3.6</R149_Object_268_4>
 				<R149_Object_268_4_7x7>6.3 6.3 0.7 3.6</R149_Object_268_4_7x7>
 				<R14_SU-5>6.8 6.8 0.6 0.34</R14_SU-5>
@@ -159632,6 +160474,7 @@
 				<R43_T-70>1.5 1.5 0.14 0.24</R43_T-70>
 				<R44_T80>7 7 0.000000 0.26</R44_T80>
 				<R45_IS-7>7.3 7.7 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>7.3 7.7 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>7.3 7.7 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>8.2 8.2 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>6.7 6.7 0.7 0.51</R47_ISU-152>
@@ -159821,6 +160664,7 @@
 				<R145_Object_705_A_7x7>4.6 4.6 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.2 1.2 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.2 1.2 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.5 5.5 5.1 4.9</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.5 5.5 5.1 4.9</R149_Object_268_4_7x7>
 				<R14_SU-5>4 4 0.24 0.000000</R14_SU-5>
@@ -159863,6 +160707,7 @@
 				<R43_T-70>1.5 1.5 0.000000 0.000000</R43_T-70>
 				<R44_T80>5.2 5.2 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4 3.9 0.57 0.2</R45_IS-7>
+				<R45_IS-7_7x7>4 3.9 0.57 0.2</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4 3.9 0.57 0.2</R45_IS-7_IGR>
 				<R46_KV-13>5.4 5.4 0.58 0.000000</R46_KV-13>
 				<R47_ISU-152>5.5 5.5 0.31 0.66</R47_ISU-152>
@@ -160039,6 +160884,7 @@
 				<R145_Object_705_A_7x7>4.7 4.7 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.5 5.5 0.000000 4.2</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.5 5.5 0.000000 4.2</R149_Object_268_4_7x7>
 				<R14_SU-5>4.5 4.5 0.24 0.000000</R14_SU-5>
@@ -160081,6 +160927,7 @@
 				<R43_T-70>2.7 2.7 0.000000 0.000000</R43_T-70>
 				<R44_T80>5 5 0.13 0.000000</R44_T80>
 				<R45_IS-7>5.8 5.7 0.37 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>5.8 5.7 0.37 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.8 5.7 0.37 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>7 7 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>5.5 5.5 0.000000 0.000000</R47_ISU-152>
@@ -160255,6 +161102,7 @@
 				<R145_Object_705_A_7x7>4.7 4.7 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.5 5.5 4.3 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.5 5.5 4.3 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>4.5 4.5 0.24 0.000000</R14_SU-5>
@@ -160297,6 +161145,7 @@
 				<R43_T-70>2.7 2.7 0.000000 0.000000</R43_T-70>
 				<R44_T80>5 5 0.2 0.000000</R44_T80>
 				<R45_IS-7>6.3 6.4 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>6.3 6.4 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.3 6.4 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>7 7 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>5.5 5.5 0.000000 0.000000</R47_ISU-152>
@@ -160472,6 +161321,7 @@
 				<R145_Object_705_A_7x7>4.8 4.8 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.5 5.5 4.3 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.5 5.5 4.3 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>4.5 4.5 0.24 0.000000</R14_SU-5>
@@ -160514,6 +161364,7 @@
 				<R43_T-70>2.7 2.7 0.000000 0.000000</R43_T-70>
 				<R44_T80>5 5 0.4 0.4</R44_T80>
 				<R45_IS-7>6.9 6.9 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>6.9 6.9 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.9 6.9 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>7 7 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>5.5 5.5 0.000000 0.000000</R47_ISU-152>
@@ -160687,6 +161538,7 @@
 				<R145_Object_705_A_7x7>4.8 4.8 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.5 1.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.5 1.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.5 5.5 4.3 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.5 5.5 4.3 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>4.5 4.5 0.24 0.000000</R14_SU-5>
@@ -160729,6 +161581,7 @@
 				<R43_T-70>2.7 2.7 0.000000 0.000000</R43_T-70>
 				<R44_T80>5 5 0.000000 0.000000</R44_T80>
 				<R45_IS-7>6.5 6.3 0.24 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>6.5 6.3 0.24 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.5 6.3 0.24 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>7 7 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>5.5 5.5 0.000000 0.000000</R47_ISU-152>
@@ -160902,6 +161755,7 @@
 				<R145_Object_705_A_7x7>4 4 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>6.5 6.5 0.000000 0.28</R149_Object_268_4>
 				<R149_Object_268_4_7x7>6.5 6.5 0.000000 0.28</R149_Object_268_4_7x7>
 				<R14_SU-5>5.3 5.3 0.000000 0.000000</R14_SU-5>
@@ -160944,6 +161798,7 @@
 				<R43_T-70>1.8 1.8 0.000000 0.16</R43_T-70>
 				<R44_T80>6.3 6.3 0.000000 0.000000</R44_T80>
 				<R45_IS-7>6.9 4.2 0.4 0.16</R45_IS-7>
+				<R45_IS-7_7x7>6.9 4.2 0.4 0.16</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.9 4.2 0.4 0.16</R45_IS-7_IGR>
 				<R46_KV-13>7.2 7.2 0.58 0.5</R46_KV-13>
 				<R47_ISU-152>5.3 5.3 0.000000 0.28</R47_ISU-152>
@@ -161120,6 +161975,7 @@
 				<R145_Object_705_A_7x7>4 4 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>1.6 1.6 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2.6 2.6 0.3 4</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2.6 2.6 0.3 4</R149_Object_268_4_7x7>
 				<R14_SU-5>2.9 2.9 0.000000 0.000000</R14_SU-5>
@@ -161161,6 +162017,7 @@
 				<R43_T-70>1.1 1.1 0.19 0.000000</R43_T-70>
 				<R44_T80>2.7 2.7 0.27 0.14</R44_T80>
 				<R45_IS-7>3.9 2.2 0.12 0.24</R45_IS-7>
+				<R45_IS-7_7x7>3.9 2.2 0.12 0.24</R45_IS-7_7x7>
 				<R45_IS-7_IGR>3.9 2.2 0.12 0.24</R45_IS-7_IGR>
 				<R46_KV-13>2.6 2.6 0.25 0.000000</R46_KV-13>
 				<R47_ISU-152>2.6 2.6 0.38 0.08</R47_ISU-152>
@@ -161336,6 +162193,7 @@
 				<R145_Object_705_A_7x7>3.48 3.48 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.7 3.7 0.17 2.5</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.7 3.7 0.17 2.5</R149_Object_268_4_7x7>
 				<R14_SU-5>3.62 3.62 0.000000 0.000000</R14_SU-5>
@@ -161378,6 +162236,7 @@
 				<R43_T-70>1.42 1.42 0.29 0.000000</R43_T-70>
 				<R44_T80>3.4 3.4 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4.28 4.28 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>4.28 4.28 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.1 1.9 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4 4 0.21 0.32</R46_KV-13>
 				<R47_ISU-152>3.8 3.8 0.17 0.53</R47_ISU-152>
@@ -161629,6 +162488,7 @@
 				<R145_Object_705_A_7x7>5.1 5.1 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.9 0.9 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.9 0.9 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3 3 0.74 5.6</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3 3 0.74 5.6</R149_Object_268_4_7x7>
 				<R14_SU-5>2.7 2.7 0.000000 0.000000</R14_SU-5>
@@ -161671,6 +162531,7 @@
 				<R43_T-70>1.3 1.3 0.000000 0.000000</R43_T-70>
 				<R44_T80>2.6 2.6 0.48 0.22</R44_T80>
 				<R45_IS-7>2.3 2.3 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>2.3 2.3 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>2.3 2.3 0.000000 0.000000</R45_IS-7_IGR>
 				<R45_IS-7_fallout>2.3 2.3 0.000000 0.000000</R45_IS-7_fallout>
 				<R46_KV-13>2.8 2.8 0.000000 0.000000</R46_KV-13>
@@ -161961,6 +162822,7 @@
 				<R145_Object_705_A>4.1 4.1 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>4.1 4.1 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2.8 2.8 0.000000 7.1</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2.8 2.8 0.000000 7.1</R149_Object_268_4_7x7>
 				<R14_SU-5>3.3 3.3 0.000000 0.000000</R14_SU-5>
@@ -162001,6 +162863,7 @@
 				<R43_T-70>1.3 1.3 0.000000 0.000000</R43_T-70>
 				<R44_T80>3.2 3.2 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4.2 3 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>4.2 3 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.2 3 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>3.6 3.6 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>3.7 2.8 0.000000 0.000000</R47_ISU-152>
@@ -162174,6 +163037,7 @@
 				<R144_K_91>2 2 0.000000 0.000000</R144_K_91>
 				<R144_K_91_7x7>2 2 0.000000 0.000000</R144_K_91_7x7>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.9 3.9 0.000000 4.8</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.9 3.9 0.000000 4.8</R149_Object_268_4_7x7>
 				<R14_SU-5>3.8 3.8 0.000000 0.000000</R14_SU-5>
@@ -162215,6 +163079,7 @@
 				<R43_T-70>1.7 1.7 0.000000 0.000000</R43_T-70>
 				<R44_T80>2.6 2.6 0.000000 0.000000</R44_T80>
 				<R45_IS-7>3.7 3 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>3.7 3 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>3.7 3 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4 4 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>4 3.9 0.000000 0.000000</R47_ISU-152>
@@ -162431,6 +163296,7 @@
 				<R43_T-70>1.8 1.8 0.000000 0.000000</R43_T-70>
 				<R44_T80>5.2 5.2 0.000000 0.000000</R44_T80>
 				<R45_IS-7>5.5 5 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>5.5 5 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>5.5 5 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>5.2 5.2 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>3.9 3.9 0.000000 0.000000</R47_ISU-152>
@@ -162608,6 +163474,7 @@
 				<R145_Object_705_A_7x7>4.8 4.8 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>1.4 1.4 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.6 0.6 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.6 0.6 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.6 4.6 0.45 4.2</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.6 4.6 0.45 4.2</R149_Object_268_4_7x7>
 				<R14_SU-5>2.8 2.8 0.000000 0.000000</R14_SU-5>
@@ -162650,6 +163517,7 @@
 				<R43_T-70>1.2 1.2 0.000000 0.000000</R43_T-70>
 				<R44_T80>5.8 5.8 0.000000 0.000000</R44_T80>
 				<R45_IS-7>3.8 2.4 0.3 0.25</R45_IS-7>
+				<R45_IS-7_7x7>3.8 2.4 0.3 0.25</R45_IS-7_7x7>
 				<R45_IS-7_IGR>3.8 2.4 0.3 0.25</R45_IS-7_IGR>
 				<R46_KV-13>4.1 4.1 0.000000 0.000000</R46_KV-13>
 				<R47_ISU-152>4.6 4.6 0.45 0.04</R47_ISU-152>
@@ -162822,6 +163690,7 @@
 				<R145_Object_705_A_7x7>5.9 5.9 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.1 1.1 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.1 1.1 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>4.6 4.6 8.9 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>4.6 4.6 8.9 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>3.9 3.9 0.000000 0.000000</R14_SU-5>
@@ -162864,6 +163733,7 @@
 				<R43_T-70>1.4 1.4 0.07 0.68</R43_T-70>
 				<R44_T80>3 3 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4.2 4.2 0.92 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>4.2 4.2 0.92 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.2 4.2 0.92 0.000000</R45_IS-7_IGR>
 				<R45_IS-7_fallout>4.1 4.1 0.000000 0.000000</R45_IS-7_fallout>
 				<R46_KV-13>4.2 4.2 1 0.96</R46_KV-13>
@@ -163039,6 +163909,7 @@
 				<R145_Object_705_A_7x7>3.48 3.48 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.7 3.7 0.17 2.5</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.7 3.7 0.17 2.5</R149_Object_268_4_7x7>
 				<R14_SU-5>3.62 3.62 0.000000 0.000000</R14_SU-5>
@@ -163081,6 +163952,7 @@
 				<R43_T-70>1.42 1.42 0.29 0.000000</R43_T-70>
 				<R44_T80>3.4 3.4 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4.28 4.28 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>4.28 4.28 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.1 1.9 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4 4 0.21 0.32</R46_KV-13>
 				<R47_ISU-152>3.8 3.8 0.17 0.53</R47_ISU-152>
@@ -163636,6 +164508,7 @@
 				<R145_Object_705_A_7x7>3.48 3.48 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>2 2 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>0.7 0.7 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.7 0.7 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.7 3.7 0.17 2.5</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.7 3.7 0.17 2.5</R149_Object_268_4_7x7>
 				<R14_SU-5>3.62 3.62 0.000000 0.000000</R14_SU-5>
@@ -163678,6 +164551,7 @@
 				<R43_T-70>1.42 1.42 0.29 0.000000</R43_T-70>
 				<R44_T80>3.4 3.4 0.000000 0.000000</R44_T80>
 				<R45_IS-7>4.28 4.28 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>4.28 4.28 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.1 4.1 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4 4 0.21 0.32</R46_KV-13>
 				<R47_ISU-152>3.8 3.8 0.17 0.53</R47_ISU-152>
@@ -163857,6 +164731,7 @@
 				<R145_Object_705_A_7x7>3.9 3.9 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.000000</R146_STG>
 				<R148_Object_430_U>1.3 1.3 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.3 1.3 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>8.2 8.2 0.000000 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>8.2 8.2 0.000000 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>6.3 6.3 0.34 0.000000</R14_SU-5>
@@ -163899,6 +164774,7 @@
 				<R43_T-70>2 2 0.74 0.76</R43_T-70>
 				<R44_T80>5.8 5.8 0.08 0.16</R44_T80>
 				<R45_IS-7>9.8 6.8 0.95 0.88</R45_IS-7>
+				<R45_IS-7_7x7>9.8 6.8 0.95 0.88</R45_IS-7_7x7>
 				<R45_IS-7_IGR>9.8 6.8 0.95 0.88</R45_IS-7_IGR>
 				<R45_IS-7_fallout>8.8 7 0.92 0.84</R45_IS-7_fallout>
 				<R46_KV-13>7.4 7.4 0.16 0.42</R46_KV-13>
@@ -164073,6 +164949,7 @@
 				<R145_Object_705_A>5.4 5.4 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>5.4 5.4 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>0.3 0.3 0.2 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.3 0.3 0.2 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2 2 2.3 4.1</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2 2 2.3 4.1</R149_Object_268_4_7x7>
 				<R14_SU-5>1.7 1.7 3.1 0.000000</R14_SU-5>
@@ -164112,6 +164989,7 @@
 				<R43_T-70>0.6 0.6 2.7 1.8</R43_T-70>
 				<R44_T80>1.9 1.9 5.2 4.1</R44_T80>
 				<R45_IS-7>1.2 1.2 3.7 5.1</R45_IS-7>
+				<R45_IS-7_7x7>1.2 1.2 3.7 5.1</R45_IS-7_7x7>
 				<R45_IS-7_IGR>1.2 1.2 3.7 5.1</R45_IS-7_IGR>
 				<R45_IS-7_fallout>1.2 1.2 3.7 5.1</R45_IS-7_fallout>
 				<R46_KV-13>1.5 1.5 4.9 3.6</R46_KV-13>
@@ -164283,6 +165161,7 @@
 				<R145_Object_705_A>4 4 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>4 4 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>0.5 0.5 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.5 0.5 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2 2 2.4 4.1</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2 2 2.4 4.1</R149_Object_268_4_7x7>
 				<R14_SU-5>1.7 1.7 3.1 0.000000</R14_SU-5>
@@ -164322,6 +165201,7 @@
 				<R43_T-70>0.6 0.6 2.7 1.8</R43_T-70>
 				<R44_T80>1.9 1.9 5.2 4.1</R44_T80>
 				<R45_IS-7>1.2 1.2 3.7 5.1</R45_IS-7>
+				<R45_IS-7_7x7>1.2 1.2 3.7 5.1</R45_IS-7_7x7>
 				<R45_IS-7_IGR>1.2 1.2 3.7 5.1</R45_IS-7_IGR>
 				<R45_IS-7_fallout>1.2 1.2 3.7 5.1</R45_IS-7_fallout>
 				<R46_KV-13>1.5 1.5 4.9 3.6</R46_KV-13>
@@ -164494,6 +165374,7 @@
 				<R145_Object_705_A>4.2 4.2 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>4.2 4.2 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>0.5 0.5 0.3 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.5 0.5 0.3 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2 2 2.6 4.1</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2 2 2.6 4.1</R149_Object_268_4_7x7>
 				<R14_SU-5>1.7 1.7 3.1 0.000000</R14_SU-5>
@@ -164534,6 +165415,7 @@
 				<R43_T-70>0.6 0.6 2.7 1.8</R43_T-70>
 				<R44_T80>1.9 1.9 5.2 4.1</R44_T80>
 				<R45_IS-7>1.2 1.2 3.7 5.1</R45_IS-7>
+				<R45_IS-7_7x7>1.2 1.2 3.7 5.1</R45_IS-7_7x7>
 				<R45_IS-7_IGR>1.2 1.2 3.7 5.1</R45_IS-7_IGR>
 				<R45_IS-7_fallout>1.2 1.2 3.7 5.1</R45_IS-7_fallout>
 				<R46_KV-13>1.5 1.5 4.9 3.6</R46_KV-13>
@@ -164887,6 +165769,7 @@
 				<ussr:R146_STG>0.85 0.85 0.000000 0.000000</ussr:R146_STG>
 				<ussr:R146_STG_Tday>0.94 0.94 0.000000 0.000000</ussr:R146_STG_Tday>
 				<ussr:R148_Object_430_U>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_7x7>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U_7x7>
 				<ussr:R149_Object_268_4>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4>
 				<ussr:R149_Object_268_4_7x7>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4_7x7>
 				<ussr:R14_SU-5>1.85 1.85 1.58 0.000000</ussr:R14_SU-5>
@@ -164939,6 +165822,7 @@
 				<ussr:R43_T-70>0.81 0.81 2.5 1.38</ussr:R43_T-70>
 				<ussr:R44_T80>1.58 1.58 1.69 0.000000</ussr:R44_T80>
 				<ussr:R45_IS-7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7>
+				<ussr:R45_IS-7_7x7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7_7x7>
 				<ussr:R46_KV-13>1.96 1.96 1.39 2.16</ussr:R46_KV-13>
 				<ussr:R47_ISU-152>2.17 2.17 2.42 2.57</ussr:R47_ISU-152>
 				<ussr:R49_SU100Y>1.99 1.99 1.54 0.000000</ussr:R49_SU100Y>
@@ -165091,6 +165975,7 @@
 				<ussr:R146_STG>0.85 0.85 0.000000 0.000000</ussr:R146_STG>
 				<ussr:R146_STG_Tday>0.94 0.94 0.000000 0.000000</ussr:R146_STG_Tday>
 				<ussr:R148_Object_430_U>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_7x7>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U_7x7>
 				<ussr:R149_Object_268_4>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4>
 				<ussr:R149_Object_268_4_7x7>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4_7x7>
 				<ussr:R14_SU-5>1.85 1.85 1.58 0.000000</ussr:R14_SU-5>
@@ -165144,6 +166029,7 @@
 				<ussr:R43_T-70>0.81 0.81 2.5 1.38</ussr:R43_T-70>
 				<ussr:R44_T80>1.58 1.58 1.69 0.000000</ussr:R44_T80>
 				<ussr:R45_IS-7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7>
+				<ussr:R45_IS-7_7x7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7_7x7>
 				<ussr:R46_KV-13>1.96 1.96 1.39 2.16</ussr:R46_KV-13>
 				<ussr:R47_ISU-152>2.17 2.17 2.42 2.57</ussr:R47_ISU-152>
 				<ussr:R49_SU100Y>1.99 1.99 1.54 0.000000</ussr:R49_SU100Y>
@@ -165296,6 +166182,7 @@
 				<ussr:R146_STG>0.85 0.85 0.000000 0.000000</ussr:R146_STG>
 				<ussr:R146_STG_Tday>0.94 0.94 0.000000 0.000000</ussr:R146_STG_Tday>
 				<ussr:R148_Object_430_U>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_7x7>0.33 0.33 0.000000 0.000000</ussr:R148_Object_430_U_7x7>
 				<ussr:R149_Object_268_4>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4>
 				<ussr:R149_Object_268_4_7x7>1.5 1.5 1.04 0.000000</ussr:R149_Object_268_4_7x7>
 				<ussr:R14_SU-5>1.85 1.85 1.58 0.000000</ussr:R14_SU-5>
@@ -165348,6 +166235,7 @@
 				<ussr:R43_T-70>0.81 0.81 2.5 1.38</ussr:R43_T-70>
 				<ussr:R44_T80>1.58 1.58 1.69 0.000000</ussr:R44_T80>
 				<ussr:R45_IS-7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7>
+				<ussr:R45_IS-7_7x7>1.69 1.69 1.19 0.000000</ussr:R45_IS-7_7x7>
 				<ussr:R46_KV-13>1.96 1.96 1.39 2.16</ussr:R46_KV-13>
 				<ussr:R47_ISU-152>2.17 2.17 2.42 2.57</ussr:R47_ISU-152>
 				<ussr:R49_SU100Y>1.99 1.99 1.54 0.000000</ussr:R49_SU100Y>
@@ -165506,6 +166394,7 @@
 				<ussr:R146_STG>1.26 1.26 2.28 2.77</ussr:R146_STG>
 				<ussr:R146_STG_Tday>1.26 1.26 2.28 2.77</ussr:R146_STG_Tday>
 				<ussr:R148_Object_430_U>0.46 0.46 6.68 6.36</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_7x7>0.46 0.46 6.68 6.36</ussr:R148_Object_430_U_7x7>
 				<ussr:R149_Object_268_4>2.28 2.28 5.68 1.81</ussr:R149_Object_268_4>
 				<ussr:R149_Object_268_4_7x7>2.28 2.28 5.68 1.81</ussr:R149_Object_268_4_7x7>
 				<ussr:R14_SU-5>2.35 2.35 2.91 4.45</ussr:R14_SU-5>
@@ -165562,6 +166451,7 @@
 				<ussr:R43_T-70>0.84 0.84 0.47 1.45</ussr:R43_T-70>
 				<ussr:R44_T80>2.09 2.09 5.56 5.96</ussr:R44_T80>
 				<ussr:R45_IS-7>1.95 1.95 11.11 7.02</ussr:R45_IS-7>
+				<ussr:R45_IS-7_7x7>1.95 1.95 11.11 7.02</ussr:R45_IS-7_7x7>
 				<ussr:R46_KV-13>2.68 2.68 1.73 5.06</ussr:R46_KV-13>
 				<ussr:R47_ISU-152>2.44 2.44 5.54 6.19</ussr:R47_ISU-152>
 				<ussr:R49_SU100Y>2.44 2.44 2.11 2.53</ussr:R49_SU100Y>
@@ -165702,6 +166592,7 @@
 				<R145_Object_705_A>4.07 4.07 0.000000 0.000000</R145_Object_705_A>
 				<R145_Object_705_A_7x7>4.07 4.07 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R148_Object_430_U>0.74 0.74 0.000000 0.000000</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.74 0.74 0.000000 0.000000</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.36 3.36 0.22 0.4</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.36 3.36 0.22 0.4</R149_Object_268_4_7x7>
 				<R14_SU-5>4.54 4.54 0.27 0.000000</R14_SU-5>
@@ -165743,6 +166634,7 @@
 				<R43_T-70>1.85 1.85 0.000000 0.000000</R43_T-70>
 				<R44_T80>5.75 5.75 0.4 0.2</R44_T80>
 				<R45_IS-7>3.91 3.91 0.000000 0.37</R45_IS-7>
+				<R45_IS-7_7x7>3.91 3.91 0.000000 0.37</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4.4 4.6 0.000000 0.37</R45_IS-7_IGR>
 				<R46_KV-13>4.53 4.53 0.21 0.38</R46_KV-13>
 				<R47_ISU-152>4 4 0.22 0.4</R47_ISU-152>
@@ -165938,6 +166830,7 @@
 				<R145_Object_705_A_7x7>6.37 6.37 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>3 3 0.000000 0.25</R146_STG>
 				<R148_Object_430_U>1.2 1.2 0.48 0.52</R148_Object_430_U>
+				<R148_Object_430_U_7x7>1.2 1.2 0.48 0.52</R148_Object_430_U_7x7>
 				<R149_Object_268_4>5.2 5.2 1.4 0.000000</R149_Object_268_4>
 				<R149_Object_268_4_7x7>5.2 5.2 1.4 0.000000</R149_Object_268_4_7x7>
 				<R14_SU-5>5 5 3.21 2.64</R14_SU-5>
@@ -165980,6 +166873,7 @@
 				<R43_T-70>1.6 1.6 1 0.76</R43_T-70>
 				<R44_T80>5 5 0.000000 0.25</R44_T80>
 				<R45_IS-7>6 6 0.25 0.07</R45_IS-7>
+				<R45_IS-7_7x7>6 6 0.25 0.07</R45_IS-7_7x7>
 				<R45_IS-7_IGR>8 6.2 0.52 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>7 7 2.93 0.53</R46_KV-13>
 				<R47_ISU-152>7.77 7.77 6.2 2.91</R47_ISU-152>
@@ -166158,6 +167052,7 @@
 				<R145_Object_705_A_7x7>3.79 3.79 0.000000 0.000000</R145_Object_705_A_7x7>
 				<R146_STG>1.75 1.75 2.37 2.49</R146_STG>
 				<R148_Object_430_U>0.71 0.71 2.32 1.83</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.71 0.71 2.32 1.83</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3.77 3.77 0.4 1.8</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3.77 3.77 0.4 1.8</R149_Object_268_4_7x7>
 				<R14_SU-5>4.3 4.3 0.2 0.72</R14_SU-5>
@@ -166200,6 +167095,7 @@
 				<R43_T-70>1.34 1.34 0.16 0.36</R43_T-70>
 				<R44_T80>3.59 3.59 0.28 0.000000</R44_T80>
 				<R45_IS-7>3.47 3.47 0.3 0.24</R45_IS-7>
+				<R45_IS-7_7x7>3.47 3.47 0.3 0.24</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.5 6.2 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4.8 4.8 0.17 0.76</R46_KV-13>
 				<R47_ISU-152>3.81 3.81 0.4 0.35</R47_ISU-152>
@@ -166377,6 +167273,7 @@
 				<R145_Object_705_A_7x7>3.24 3.24 0.52 0.93</R145_Object_705_A_7x7>
 				<R146_STG>1.76 1.76 0.54 0.55</R146_STG>
 				<R148_Object_430_U>0.83 0.83 0.1 0.27</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.83 0.83 0.1 0.27</R148_Object_430_U_7x7>
 				<R149_Object_268_4>2.92 2.92 0.8 0.21</R149_Object_268_4>
 				<R149_Object_268_4_7x7>2.92 2.92 0.8 0.21</R149_Object_268_4_7x7>
 				<R14_SU-5>4.07 4.07 0.17 0.56</R14_SU-5>
@@ -166419,6 +167316,7 @@
 				<R43_T-70>1.2 1.2 0.76 0.52</R43_T-70>
 				<R44_T80>3.06 3.06 0.54 1.17</R44_T80>
 				<R45_IS-7>3.1 3.1 1 0.54</R45_IS-7>
+				<R45_IS-7_7x7>3.1 3.1 1 0.54</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.5 6.2 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>3.66 3.66 0.31 0.49</R46_KV-13>
 				<R47_ISU-152>3.45 3.45 0.6 -0.17</R47_ISU-152>
@@ -166640,6 +167538,7 @@
 				<R43_T-70>1.3 1.3 0.12 0.24</R43_T-70>
 				<R44_T80>3.5 3.5 0.28 0.16</R44_T80>
 				<R45_IS-7>3 3 0.000000 0.000000</R45_IS-7>
+				<R45_IS-7_7x7>3 3 0.000000 0.000000</R45_IS-7_7x7>
 				<R45_IS-7_IGR>6.4 5.7 0.000000 0.000000</R45_IS-7_IGR>
 				<R46_KV-13>4 4 0.63 0.1</R46_KV-13>
 				<R47_ISU-152>4 4 0.07 0.000000</R47_ISU-152>
@@ -166696,6 +167595,7 @@
 				<ussr:R125_T_45>0.7 0.7 0.72 0.22</ussr:R125_T_45>
 				<ussr:R146_STG_Tday>1.7 1.7 0.68 0.31</ussr:R146_STG_Tday>
 				<ussr:R148_Object_430_U>0.6 0.6 0.94 0.97</ussr:R148_Object_430_U>
+				<ussr:R148_Object_430_U_7x7>0.6 0.6 0.94 0.97</ussr:R148_Object_430_U_7x7>
 				<ussr:R158_LT_432>1.5 1.5 0.29 0.24</ussr:R158_LT_432>
 				<ussr:R159_SU_130PM>0.5 0.5 0.21 0.12</ussr:R159_SU_130PM>
 				<ussr:R159_SU_130PM_DR>0.5 0.5 0.21 0.12</ussr:R159_SU_130PM_DR>
@@ -166821,6 +167721,7 @@
 				<R145_Object_705_A_7x7>3.3 3.3 0.3 0.43</R145_Object_705_A_7x7>
 				<R146_STG>1.2 1.2 0.12 1.74</R146_STG>
 				<R148_Object_430_U>0.5 0.5 0.92 0.28</R148_Object_430_U>
+				<R148_Object_430_U_7x7>0.5 0.5 0.92 0.28</R148_Object_430_U_7x7>
 				<R149_Object_268_4>3 3 5.1 5.17</R149_Object_268_4>
 				<R149_Object_268_4_7x7>3 3 5.1 5.17</R149_Object_268_4_7x7>
 				<R14_SU-5>3.5 3.5 0.31 0.42</R14_SU-5>
@@ -166863,6 +167764,7 @@
 				<R43_T-70>1.05 1.05 -0.13 0.000000</R43_T-70>
 				<R44_T80>3 3 0.54 1.24</R44_T80>
 				<R45_IS-7>2.8 2.8 0.57 0.2</R45_IS-7>
+				<R45_IS-7_7x7>2.8 2.8 0.57 0.2</R45_IS-7_7x7>
 				<R45_IS-7_IGR>4 3.9 0.57 0.2</R45_IS-7_IGR>
 				<R46_KV-13>4 4 1.09 0.51</R46_KV-13>
 				<R47_ISU-152>3.2 3.2 0.26 0.66</R47_ISU-152>

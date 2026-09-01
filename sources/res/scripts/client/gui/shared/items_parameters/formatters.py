@@ -18,13 +18,15 @@ from gui.shared.gui_items import KPI, kpiFormatValue, kpiFormatNoSignValue
 from gui.shared.items_parameters import RELATIVE_PARAMS
 from gui.shared.items_parameters.comparator import PARAM_STATE
 from gui.shared.items_parameters.params_helper import hasGroupPenalties, getCommonParam, isValidEmptyValue, PARAMS_GROUPS
-from gui.shared.utils import AUTO_RELOAD_PROP_NAME, MAX_STEERING_LOCK_ANGLE, WHEELED_SWITCH_ON_TIME, WHEELED_SWITCH_OFF_TIME, WHEELED_SWITCH_TIME, WHEELED_SPEED_MODE_SPEED, DUAL_GUN_CHARGE_TIME, DUAL_GUN_RATE_TIME, TURBOSHAFT_SPEED_MODE_SPEED, TURBOSHAFT_ENGINE_POWER, TURBOSHAFT_INVISIBILITY_STILL_FACTOR, TURBOSHAFT_INVISIBILITY_MOVING_FACTOR, TURBOSHAFT_SWITCH_TIME, CHASSIS_REPAIR_TIME, CHASSIS_REPAIR_TIME_YOH, ROCKET_ACCELERATION_ENGINE_POWER, ROCKET_ACCELERATION_SPEED_LIMITS, ROCKET_ACCELERATION_REUSE_AND_DURATION, DUAL_ACCURACY_COOLING_DELAY, SHOT_DISPERSION_ANGLE, DISPERSION_RADIUS, BURST_FIRE_RATE, BURST_TIME_INTERVAL, BURST_SIZE, BURST_COUNT, AVG_DAMAGE_PER_SECOND, AUTO_SHOOT_CLIP_FIRE_RATE, CONTINUOUS_SHOTS_PER_MINUTE, CONTINUOUS_DAMAGE_PER_SECOND, TWIN_GUN_SWITCH_FIRE_MODE_TIME, TWIN_GUN_TOP_SPEED, TWIN_GUN_RELOAD_ONE_GUN_TIME, TWIN_GUN_RELOAD_TWO_GUN_TIME, TWIN_GUN_RELOAD_TIME, SHELL_RELOADING_TIME_PROP_NAME, SHELL_LOADING_TIME_PROP_NAME, RELOAD_TIME_PROP_NAME, TEMPERATURE_RELOAD_TIME, TEMPERATURE_AVG_DAMAGE_PER_MINUTE
+from gui.shared.items_parameters.shell_params import CriticalHitChanceType
+from gui.shared.utils import AUTO_RELOAD_PROP_NAME, MAX_STEERING_LOCK_ANGLE, WHEELED_SWITCH_ON_TIME, WHEELED_SWITCH_OFF_TIME, WHEELED_SWITCH_TIME, WHEELED_SPEED_MODE_SPEED, DUAL_GUN_CHARGE_TIME, DUAL_GUN_RATE_TIME, TURBOSHAFT_SPEED_MODE_SPEED, TURBOSHAFT_ENGINE_POWER, TURBOSHAFT_INVISIBILITY_STILL_FACTOR, TURBOSHAFT_INVISIBILITY_MOVING_FACTOR, TURBOSHAFT_SWITCH_TIME, CHASSIS_REPAIR_TIME, CHASSIS_REPAIR_TIME_YOH, ROCKET_ACCELERATION_ENGINE_POWER, ROCKET_ACCELERATION_SPEED_LIMITS, ROCKET_ACCELERATION_REUSE_AND_DURATION, DUAL_ACCURACY_COOLING_DELAY, SHOT_DISPERSION_ANGLE, DISPERSION_RADIUS, BURST_FIRE_RATE, BURST_TIME_INTERVAL, BURST_SIZE, BURST_COUNT, AVG_DAMAGE_PER_SECOND, AUTO_SHOOT_CLIP_FIRE_RATE, CONTINUOUS_SHOTS_PER_MINUTE, CONTINUOUS_DAMAGE_PER_SECOND, TWIN_GUN_SWITCH_FIRE_MODE_TIME, TWIN_GUN_TOP_SPEED, TWIN_GUN_RELOAD_ONE_GUN_TIME, TWIN_GUN_RELOAD_TWO_GUN_TIME, TWIN_GUN_RELOAD_TIME, SHELL_RELOADING_TIME_PROP_NAME, SHELL_LOADING_TIME_PROP_NAME, RELOAD_TIME_PROP_NAME, TEMPERATURE_RELOAD_TIME, TEMPERATURE_AVG_DAMAGE_PER_MINUTE, NORMALIZATION_ANGLE, RICOCHET_ANGLE, PENETRATION_LOSS, CRITICAL_HIT_CHANCE
 from helpers.i18n import makeString, isValidKey
 from items import vehicles, artefacts, getTypeOfCompactDescr, ITEM_TYPES
 from math_common import decimal_round, round_py2_style
 from web_stubs import i18n
 if TYPE_CHECKING:
-    from typing import Optional
+    from typing import Optional, Tuple, Dict
+    from gui.shared.items_parameters.comparator import _ParameterInfo
 ChangeCondition = namedtuple(b'ChangeCondition', (b'predicate', b'alternativeParameter'))
 MEASURE_UNITS = {b'aimingTime': (MENU.TANK_PARAMS_S), 
    b'areaRadius': (MENU.TANK_PARAMS_M), 
@@ -203,10 +205,9 @@ MEASURE_UNITS = {b'aimingTime': (MENU.TANK_PARAMS_S),
    b'coolingTime': (MENU.TANK_PARAMS_S), 
    b'overheatDuration': (MENU.TANK_PARAMS_S), 
    b'timeToOverheat': (MENU.TANK_PARAMS_S), 
-   b'normalizationAngle': (MENU.TANK_PARAMS_GRADS), 
-   b'ricochetAngle': (MENU.TANK_PARAMS_GRADS), 
-   b'penetrationLoss': (MENU.TANK_PARAMS_PENETRATIONLOSS), 
-   b'screensArmorMultiplier': b'', 
+   NORMALIZATION_ANGLE: (MENU.TANK_PARAMS_GRADS), 
+   RICOCHET_ANGLE: (MENU.TANK_PARAMS_GRADS), 
+   PENETRATION_LOSS: (MENU.TANK_PARAMS_SHELLPENETRATIONLOSS), 
    b'propellantChargeLimit': (MENU.TANK_PARAMS_FACTOR), 
    b'propellantChargeSpendingAfterShot': (MENU.TANK_PARAMS_FACTOR), 
    b'propellantChargingPerSec': (MENU.TANK_PARAMS_PERCENT_PER_S), 
@@ -216,7 +217,21 @@ MEASURE_UNITS = {b'aimingTime': (MENU.TANK_PARAMS_S),
    b'propellantPostLimitDamageSpike': (MENU.TANK_PARAMS_VAL), 
    b'propellantPostLimitDamageBonus': (MENU.TANK_PARAMS_FACTOR), 
    b'propellantPostLimitDispersion': (MENU.TANK_PARAMS_M), 
-   b'propellantPostLimitAimingTime': (MENU.TANK_PARAMS_S)}
+   b'propellantPostLimitAimingTime': (MENU.TANK_PARAMS_S), 
+   b'shellParamsSwitchingTime': (MENU.TANK_PARAMS_S), 
+   b'autoreloaderSurgeChargeTimeSlow': (MENU.TANK_PARAMS_S), 
+   b'autoreloaderSurgeChargeTimeFast': (MENU.TANK_PARAMS_S), 
+   b'autoreloaderSurgeBoostedReloadTime': (MENU.TANK_PARAMS_S), 
+   b'sightPointerDeployTime': (MENU.TANK_PARAMS_S), 
+   b'sightPointerReloadTime': (MENU.TANK_PARAMS_S), 
+   b'sightPointerDuration': (MENU.TANK_PARAMS_S), 
+   b'sightPointerRotationSpeed': (MENU.TANK_PARAMS_GPS), 
+   b'sightPointerSectorAngleStart': (MENU.TANK_PARAMS_GRADS), 
+   b'sightPointerSectorAngleEnd': (MENU.TANK_PARAMS_GRADS), 
+   b'sightPointerSelfSpottingTime': (MENU.TANK_PARAMS_S), 
+   b'sightPointerViewRange': (MENU.TANK_PARAMS_M), 
+   b'sightPointerConsealmentFoliage': (MENU.TANK_PARAMS_FACTOR), 
+   b'sightPointerConsealmentMoving': (MENU.TANK_PARAMS_FACTOR)}
 MEASURE_UNITS_NO_BRACKETS = {b'weight': (MENU.TANK_PARAMS_NO_BRACKETS_KG), 
    b'cooldownSeconds': (MENU.TANK_PARAMS_NO_BRACKETS_S), 
    b'reloadCooldownSeconds': (MENU.TANK_PARAMS_NO_BRACKETS_S), 
@@ -232,23 +247,32 @@ BASE_SCHEME = (text_styles.error, text_styles.stats, text_styles.bonusAppliedTex
 EXTRACTED_BONUS_SCHEME = (text_styles.error, text_styles.bonusAppliedText, text_styles.bonusAppliedText)
 SITUATIONAL_SCHEME = (text_styles.critical, text_styles.warning, text_styles.bonusPreviewText)
 VEHICLE_PARAMS = tuple(chain(*[PARAMS_GROUPS[param] for param in RELATIVE_PARAMS]))
-ITEMS_PARAMS_LIST = {(ITEM_TYPES.vehicleRadio): (b'radioDistance', b'weight'), 
+ITEMS_PARAMS_LIST = {(ITEM_TYPES.vehicleRadio): (
+                             b'radioDistance', b'weight'), 
    (ITEM_TYPES.vehicleChassis): (
                                b'rotationSpeed', b'weight', MAX_STEERING_LOCK_ANGLE, CHASSIS_REPAIR_TIME), 
    (ITEM_TYPES.vehicleEngine): (
                               b'enginePower', TURBOSHAFT_ENGINE_POWER, ROCKET_ACCELERATION_ENGINE_POWER, b'fireStartingChance', b'weight'), 
-   (ITEM_TYPES.vehicleTurret): (b'armor', b'rotationSpeed', b'circularVisionRadius', b'weight'), 
+   (ITEM_TYPES.vehicleTurret): (
+                              b'armor', b'rotationSpeed', b'circularVisionRadius', b'weight'), 
    (ITEM_TYPES.vehicle): VEHICLE_PARAMS, 
-   (ITEM_TYPES.equipment): {(artefacts.RageArtillery): (b'damage', b'piercingPower', b'caliber', b'shotsNumberRange', b'areaRadius', b'artDelayRange'), 
-                            (artefacts.RageBomber): (b'bombDamage', b'piercingPower', b'bombsNumberRange', b'areaSquare', b'flyDelayRange'), 
-                            (artefacts.AttackArtilleryFortEquipment): (b'maxDamage', b'areaRadius', b'duration', b'commonDelay'), 
-                            (artefacts.FortConsumableInspire): (b'crewRolesFactor', b'commonAreaRadius', b'inactivationDelay', b'duration'), 
-                            (artefacts.ConsumableInspire): (b'crewRolesFactor', b'commonAreaRadius', b'inactivationDelay', b'duration')}, 
+   (ITEM_TYPES.equipment): {(artefacts.RageArtillery): (
+                                                      b'damage', b'piercingPower', b'caliber', b'shotsNumberRange',
+                                                      b'areaRadius', b'artDelayRange'), 
+                            (artefacts.RageBomber): (
+                                                   b'bombDamage', b'piercingPower', b'bombsNumberRange', b'areaSquare', b'flyDelayRange'), 
+                            (artefacts.AttackArtilleryFortEquipment): (
+                                                                     b'maxDamage', b'areaRadius', b'duration', b'commonDelay'), 
+                            (artefacts.FortConsumableInspire): (
+                                                              b'crewRolesFactor', b'commonAreaRadius', b'inactivationDelay', b'duration'), 
+                            (artefacts.ConsumableInspire): (
+                                                          b'crewRolesFactor', b'commonAreaRadius', b'inactivationDelay', b'duration')}, 
    (ITEM_TYPES.shell): (
                       b'caliber', b'avgDamage', b'avgMutableDamage', AVG_DAMAGE_PER_SECOND, b'avgPiercingPower', b'shotSpeed',
-                      b'explosionRadius', b'stunDurationList', b'normalizationAngle', b'ricochetAngle', b'penetrationLoss',
-                      b'screensArmorMultiplier'), 
-   (ITEM_TYPES.optionalDevice): (b'weight',), 
+                      b'explosionRadius', b'stunDurationList', NORMALIZATION_ANGLE, RICOCHET_ANGLE, CRITICAL_HIT_CHANCE,
+                      PENETRATION_LOSS, b'screensArmorMultiplier'), 
+   (ITEM_TYPES.optionalDevice): (
+                               b'weight',), 
    (ITEM_TYPES.vehicleGun): (
                            b'caliber', b'avgDamageList', b'maxAvgDamageList', b'minAvgDamageList', CONTINUOUS_DAMAGE_PER_SECOND,
                            b'avgPiercingPower', b'shellsCount', b'reloadTimeSecs', b'shellReloadingTime', b'reloadMagazineTime',
@@ -264,6 +288,14 @@ def needUseYohChassisRepairTime(vehicleDescr):
 
 
 MULTIPLE_MEASURE_UNITS_PARAMS = {CHASSIS_REPAIR_TIME: (ChangeCondition(needUseYohChassisRepairTime, CHASSIS_REPAIR_TIME_YOH))}
+CRITICAL_HIT_CHANCE_TYPE_DYN_PATH = {(CriticalHitChanceType.STANDARD): b'standard', 
+   (CriticalHitChanceType.DECREASED): b'decreased', 
+   (CriticalHitChanceType.INCREASED): b'increased'}
+
+def formatCriticalHitChance(value, _=None):
+    criticalHitChanceR = R.strings.ingame_gui.shells_kinds.params.criticalHitChance
+    return (backport.text(criticalHitChanceR.dyn(CRITICAL_HIT_CHANCE_TYPE_DYN_PATH[value])()), None, None)
+
 
 def getMeasureParamName(vehicleDescr, paramName):
     if paramName in MULTIPLE_MEASURE_UNITS_PARAMS:
@@ -292,7 +324,7 @@ def getTitleParamName(vDescr, paramName):
 
 
 def measureUnitsForParameter(paramName):
-    return i18n.makeString(MEASURE_UNITS[paramName])
+    return i18n.makeString(MEASURE_UNITS.get(paramName, b''))
 
 
 def isRelativeParameter(paramName):
@@ -353,14 +385,11 @@ def formatParamNameColonValueUnits(paramName, paramValue):
 def formatVehicleParamName(paramName, showMeasureUnit=True):
     if isRelativeParameter(paramName):
         return text_styles.middleTitle(MENU.tank_params(paramName))
-    else:
-        builder = text_styles.builder(delimiter=backport.text(_NBSP))
-        builder.addStyledText(text_styles.main, MENU.tank_params(paramName))
-        if showMeasureUnit:
-            builder.addStyledText(text_styles.standard, MEASURE_UNITS.get(paramName, b''))
-        return builder.render()
-
-    return
+    builder = text_styles.builder(delimiter=backport.text(_NBSP))
+    builder.addStyledText(text_styles.main, MENU.tank_params(paramName))
+    if showMeasureUnit:
+        builder.addStyledText(text_styles.standard, MEASURE_UNITS.get(paramName, b''))
+    return builder.render()
 
 
 def getRelativeDiffParams(comparator):
@@ -551,7 +580,8 @@ FORMAT_SETTINGS = {b'relativePower': _integralFormat,
    TWIN_GUN_RELOAD_TWO_GUN_TIME: _niceFormat, 
    b'piercingHEShellsDistributionUpperBound': _niceFormat, 
    b'suspensionDamageReduction': _percentFormat, 
-   b'hpRecover': _percentFormat}
+   b'hpRecover': _percentFormat, 
+   CRITICAL_HIT_CHANCE: {b'preprocessor': formatCriticalHitChance, b'rounder': (lambda v: v)}}
 
 def _deltaWrapper(fn):
 
@@ -579,10 +609,10 @@ def _getDeltaSettings():
 
 DELTA_PARAMS_SETTING = _getDeltaSettings()
 SMART_ROUND_PARAMS = {
- 81, 57, 40, 72, 187, 66, 
- RELOAD_TIME_PROP_NAME, DISPERSION_RADIUS, 30, 
- 77, DUAL_GUN_RATE_TIME, DUAL_GUN_CHARGE_TIME, 
- 102, CONTINUOUS_SHOTS_PER_MINUTE, 
+ 83, 59, 42, 74, 199, 68, 
+ RELOAD_TIME_PROP_NAME, DISPERSION_RADIUS, 32, 
+ 79, DUAL_GUN_RATE_TIME, DUAL_GUN_CHARGE_TIME, 
+ 104, CONTINUOUS_SHOTS_PER_MINUTE, 
  CONTINUOUS_DAMAGE_PER_SECOND}
 _STATES_INDEX_IN_COLOR_MAP = {(PARAM_STATE.WORSE): 0, 
    (PARAM_STATE.NORMAL): 1, 
@@ -679,8 +709,8 @@ def formatParameter(parameterName, paramValue, parameterState=None, colorScheme=
         return _applyFormat(values, parameterState, settings, doSmartRound, colorScheme)
 
 
-def formatParameterDelta(pInfo, deltaScheme=None, formatSettings=None, diffReady=None):
-    diff = diffReady if diffReady is not None else pInfo.getParamDiff()
+def formatParameterDelta(pInfo, deltaScheme=None, formatSettings=None):
+    diff = pInfo.getParamDiff()
     if diff is not None:
         return formatParameter(pInfo.name, diff, pInfo.state, deltaScheme or BASE_SCHEME, formatSettings or DELTA_PARAMS_SETTING, allowSmartRound=False, showZeroDiff=True)
     else:
@@ -755,7 +785,7 @@ def getGroupPenaltyIcon(parameter, comparator):
 
 def getAllParametersTitles(hiddenParams=()):
     result = []
-    for _, groupName in enumerate(RELATIVE_PARAMS):
+    for groupName in RELATIVE_PARAMS:
         data = getCommonParam(HANGAR_ALIASES.VEH_PARAM_RENDERER_STATE_SIMPLE_TOP, groupName)
         data[b'titleText'] = formatVehicleParamName(groupName)
         data[b'isEnabled'] = True

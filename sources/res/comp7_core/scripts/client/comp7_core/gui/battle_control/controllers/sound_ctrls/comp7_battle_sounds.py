@@ -4,6 +4,7 @@ from functools import partial
 import BigWorld, WWISE, typing
 from enum import Enum
 import SoundGroups
+from IlluminationFlareTargetController import IlluminationFlareTargetController
 from Vehicle import StunInfo
 from constants import EQUIPMENT_STAGES
 from gui.battle_control import avatar_getter
@@ -20,8 +21,10 @@ from vehicle_systems.tankStructure import TankSoundObjectsIndexes
 _logger = logging.getLogger(__name__)
 _EQUIPMENT_ACTIVATED_SOUNDS = {}
 _EQUIPMENT_DEACTIVATED_SOUNDS = {}
-_EQUIPMENT_PREPARING_START_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_aim'}
-_EQUIPMENT_PREPARING_CANCEL_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_cancel'}
+_EQUIPMENT_PREPARING_START_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_aim', 
+   b'poi_illumination_flare': b'comp_7_ability_flare_aim'}
+_EQUIPMENT_PREPARING_CANCEL_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_cancel', 
+   b'poi_illumination_flare': b'comp_7_ability_flare_cancel'}
 _EQUIPMENT_PRE_DEACTIVATION_SOUNDS = {}
 _EQUIPMENT_ARTILLERY_NAMES = [
  b'poi_artillery_aoe']
@@ -55,11 +58,12 @@ class SOUNDS(CONST_CONTAINER):
     GENERAL_STATE = b'STATE_gameplay_overlay'
     GENERAL_STATE_ON = b'STATE_gameplay_overlay_on'
     GENERAL_STATE_OFF = b'STATE_gameplay_overlay_off'
+    PROGRESSBAR_START = b'comp_7_bans_progressbar_start'
     PROGRESSBAR_STOP = b'comp_7_bans_progressbar_stop'
 
 
 BAN_VIEW_SOUND_SPACE = CommonSoundSpaceSettings(name=SOUNDS.GENERAL_STATE, entranceStates={(SOUNDS.GENERAL_STATE): (SOUNDS.GENERAL_STATE_ON)}, exitStates={(SOUNDS.GENERAL_STATE): (SOUNDS.GENERAL_STATE_OFF)}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=b'', exitEvent=b'')
-BAN_PROGRESSION_SOUND_SPACE = CommonSoundSpaceSettings(name=b'ban_progression', entranceStates={}, exitStates={}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=b'', exitEvent=SOUNDS.PROGRESSBAR_STOP)
+BAN_PROGRESSION_SOUND_SPACE = CommonSoundSpaceSettings(name=b'ban_progression', entranceStates={}, exitStates={}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=SOUNDS.PROGRESSBAR_START, exitEvent=SOUNDS.PROGRESSBAR_STOP)
 
 class _EquipmentStateSoundPlayer(VehicleStateSoundPlayer):
     __sessionProvider = dependency.descriptor(IBattleSessionProvider)
@@ -176,9 +180,12 @@ class _EquipmentStateSoundPlayer(VehicleStateSoundPlayer):
 class _EquipmentZoneSoundPlayer(VehicleStateSoundPlayer):
     __sessionProvider = dependency.descriptor(IBattleSessionProvider)
     __EQUIPMENT_ZONE_ENTER = {(VEHICLE_VIEW_STATE.AOE_HEAL): b'comp_7_ability_aoe_heal_enter', 
-       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_start'}
+       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_start', 
+       (VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): b'comp_7_ability_flare_zone_enter'}
     __EQUIPMENT_ZONE_EXIT = {(VEHICLE_VIEW_STATE.AOE_HEAL): b'comp_7_ability_aoe_heal_exit', 
-       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_end'}
+       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_end', 
+       (VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): b'comp_7_ability_flare_zone_exit'}
+    __EQUIPMENT_ZONE_STATE = {(VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): (b'STATE_ext_ability_zone', b'STATE_ext_ability_zone_enter', b'STATE_ext_ability_zone_exit')}
 
     def __init__(self):
         super(_EquipmentZoneSoundPlayer, self).__init__()
@@ -194,10 +201,13 @@ class _EquipmentZoneSoundPlayer(VehicleStateSoundPlayer):
         if state == VEHICLE_VIEW_STATE.DESTROYED:
             self.__clearActiveEquipment()
         if state in self.__EQUIPMENT_ZONE_ENTER and self.__stateIsActive(value) and self.__checkSource(value):
-            _play2d(self.__EQUIPMENT_ZONE_ENTER[state])
-            self.__vehicleStates.add(state)
+            if state not in self.__vehicleStates:
+                _play2d(self.__EQUIPMENT_ZONE_ENTER[state])
+                self.__setZoneState(state, True)
+                self.__vehicleStates.add(state)
         elif state in self.__EQUIPMENT_ZONE_EXIT and not self.__stateIsActive(value) and state in self.__vehicleStates:
             _play2d(self.__EQUIPMENT_ZONE_EXIT[state])
+            self.__setZoneState(state, False)
             self.__vehicleStates.discard(state)
         return
 
@@ -208,16 +218,30 @@ class _EquipmentZoneSoundPlayer(VehicleStateSoundPlayer):
     def __stateIsActive(self, value):
         if isinstance(value, StunInfo):
             return value.duration > 0.0
-        return not value.get(b'finishing')
+        else:
+            if isinstance(value, IlluminationFlareTargetController):
+                marker = value.spottedMarker
+                return marker is not None and marker.inZone
+            return not value.get(b'finishing')
 
     def __checkSource(self, value):
         if isinstance(value, StunInfo):
             return True
+        if isinstance(value, IlluminationFlareTargetController):
+            return True
         return not value.get(b'isSourceVehicle')
+
+    def __setZoneState(self, state, enter):
+        stateParams = self.__EQUIPMENT_ZONE_STATE.get(state)
+        if stateParams is not None:
+            group, enterValue, exitValue = stateParams
+            SoundGroups.g_instance.setState(group, enterValue if enter else exitValue)
+        return
 
     def __clearActiveEquipment(self):
         for state in self.__vehicleStates:
             _play2d(self.__EQUIPMENT_ZONE_EXIT[state])
+            self.__setZoneState(state, False)
 
         self.__vehicleStates.clear()
         return
@@ -341,16 +365,22 @@ class _PrebattleSoundPlayer(SoundPlayer):
         prebattleCtrl = self.__sessionProvider.dynamic.prebattleSetup
         if prebattleCtrl is not None:
             prebattleCtrl.onSelectionConfirmed += self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted += self._onBattleStarted
         return
 
     def _unsubscribe(self):
         prebattleCtrl = self.__sessionProvider.dynamic.prebattleSetup
         if prebattleCtrl is not None:
             prebattleCtrl.onSelectionConfirmed -= self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted -= self._onBattleStarted
         return
 
     def __onSelectionConfirmed(self):
         _play2d(self.__CONFIRM_VEHICLE_SELECTION)
+        return
+
+    def _onBattleStarted(self):
+        _play2d(SOUNDS.PROGRESSBAR_STOP)
         return
 
 

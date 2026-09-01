@@ -167,6 +167,9 @@ html[lang=th] input {
 .FormatText_db904f12 span {
   flex-wrap: wrap;
   white-space: normal;
+  overflow-wrap: normal;
+}
+html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
   overflow-wrap: anywhere;
 }
 
@@ -2936,6 +2939,10 @@ html[lang=th] input {
   width: 115rem;
   height: 84rem;
 }
+.VehiclePrestigeEmblem_base__mdLg_bb48be4b {
+  width: 143rem;
+  height: 104rem;
+}
 .VehiclePrestigeEmblem_base__lg_69373327 {
   width: 170rem;
   height: 124rem;
@@ -2971,6 +2978,10 @@ html[lang=th] input {
 .VehiclePrestigeEmblem_levelIcon__md_914fcef3 {
   width: 16rem;
   height: 33rem;
+}
+.VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370 {
+  width: 20rem;
+  height: 41rem;
 }
 .VehiclePrestigeEmblem_levelIcon__lg_2fd402cc {
   width: 23rem;

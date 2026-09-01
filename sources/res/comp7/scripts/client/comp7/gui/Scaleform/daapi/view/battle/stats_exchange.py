@@ -14,17 +14,27 @@ from gui.impl import backport
 from gui.impl.gen import R
 from helpers import dependency
 from skeletons.gui.battle_session import IBattleSessionProvider
+from skeletons.gui.game_control import IComp7Controller
+from skeletons.gui.shared import IItemsCache
 
 class Comp7VehicleInfoComponent(vehicle.VehicleInfoComponent):
     __slots__ = ()
     __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __comp7Controller = dependency.descriptor(IComp7Controller)
+    __itemsCache = dependency.descriptor(IItemsCache)
 
     def addVehicleInfo(self, vInfoVO, overrides):
         super(Comp7VehicleInfoComponent, self).addVehicleInfo(vInfoVO, overrides)
         rank, division = vInfoVO.gameModeSpecific.getValue(Comp7Keys.RANK, default=(0, 0))
         rankName = RANK_MAP[rank] if rank > 0 else b''
         divisionName = DIVISION_MAP[division] if division > 0 else b''
+        equipment = b''
+        if vInfoVO.vehicleType.compactDescr:
+            vehicleItem = self.__itemsCache.items.getItemByCD(vInfoVO.vehicleType.compactDescr)
+            roleEquipmentKey = self.__comp7Controller.getRoleEquipmentKey(vehicleItem.descriptor.type)
+            equipment = self.__comp7Controller.getRoleEquipment(roleEquipmentKey)
         return self._data.update({b'role': (ROLE_TYPE_TO_LABEL.get(vInfoVO.vehicleType.role, b'')), 
+           b'skillName': (equipment.name if equipment else b''), 
            b'roleSkillTooltipId': (TOOLTIPS_BATTLE_CONSTANTS.COMP7_ROLE_SKILL_BATTLE_TOOLTIP), 
            b'skillLevel': (vInfoVO.gameModeSpecific.getValue(Comp7CoreKeys.ROLE_SKILL_LEVEL, default=0)), 
            b'rank': rankName, 

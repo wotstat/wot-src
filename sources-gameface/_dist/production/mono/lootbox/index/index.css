@@ -946,11 +946,15 @@
 .BoxOpenPanel_1640485f .BoxOpenPanel_button_68661221 {
   min-width: 128rem;
 }
-.BoxOpenPanel_1640485f .BoxOpenPanel_button__withCheckboxes_7e0d1282 {
+
+.BoxOpenPanel_1640485f .BoxOpenPanel_control_7e0d1282 {
   margin-left: 8rem;
 }
-.mediaLarge .BoxOpenPanel_1640485f .BoxOpenPanel_button__withCheckboxes_7e0d1282 {
+.mediaLarge .BoxOpenPanel_1640485f .BoxOpenPanel_control_7e0d1282 {
   margin-left: 12rem;
+}
+.BoxOpenPanel_1640485f .BoxOpenPanel_control_7e0d1282:first-child {
+  margin-left: 0;
 }@keyframes App_fadeIn_0 {
   from {
     opacity: 0;

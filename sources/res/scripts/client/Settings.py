@@ -31,6 +31,7 @@ KEY_MAPS_TRAINING_PREFERENCES = b'mapsTraining'
 QUICK_TRANING_TIPS = b'quickTrainingTips'
 KEY_BUY_VEHICLE_VIEW_PREFERENCES = b'buyVehicleView'
 DROP_SKILLS = b'dropSkills'
+SHOW_PBH = b'showPBH'
 
 class Settings(object):
 

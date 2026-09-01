@@ -124,6 +124,11 @@ class IItemsRequester(requesters.IRequester):
         raise NotImplementedError
         return
 
+    @property
+    def festivity(self):
+        raise NotImplementedError
+        return
+
     def requestUserDossier(self, databaseID, callback):
         raise NotImplementedError
         return
@@ -402,7 +407,7 @@ class IHangarSpace(object):
         raise NotImplementedError
         return
 
-    def updatePreviewVehicle(self, vehicle, outfit=None):
+    def updatePreviewVehicle(self, vehicle, outfit=None, showWaitingBg=True):
         raise NotImplementedError
         return
 
@@ -443,6 +448,14 @@ class IHangarSpace(object):
         return
 
     def unlockVehicleSelectable(self, consumer):
+        raise NotImplementedError
+        return
+
+    def resetLastUpdatedVehicle(self):
+        raise NotImplementedError
+        return
+
+    def setSelectionEnabled(self, enabled):
         raise NotImplementedError
         return
 

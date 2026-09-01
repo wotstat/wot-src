@@ -97,13 +97,14 @@ class SquadRestrictionsProvider(object):
     def __getTagsWithoutSlot(vehicles, platoonTagRestrictions):
         tagsWithoutSlot = set()
         countByTagAndLevel = _countVehiclesByTagAndLevel(vehicles, viewkeys(platoonTagRestrictions))
-        for tag, restriction in platoonTagRestrictions.items():
+        for tag, restrictions in platoonTagRestrictions.items():
             if tag not in countByTagAndLevel:
                 continue
             countByLevel = countByTagAndLevel[tag]
-            totalVehicles = _totalVehNumberByLevels(countByLevel, restriction[b'levels'])
-            if totalVehicles > restriction[b'maxCount']:
-                tagsWithoutSlot.add(tag)
+            for restriction in restrictions:
+                totalVehicles = _totalVehNumberByLevels(countByLevel, restriction[b'levels'])
+                if totalVehicles > restriction[b'maxCount']:
+                    tagsWithoutSlot.add(tag)
 
         return tagsWithoutSlot
 

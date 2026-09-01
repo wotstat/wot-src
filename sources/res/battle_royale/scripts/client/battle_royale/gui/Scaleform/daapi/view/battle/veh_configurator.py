@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import logging, GUI
 from adisp import adisp_process
 from gui.Scaleform.daapi.view.common.battle_royale import br_helpers
@@ -154,9 +155,9 @@ class BattleVehicleConfigurator(BattleVehicleConfiguratorMeta, IProgressionListe
 
         return
 
-    def setVehicleChanged(self, vehicle, moduleIntCD, vehicleRecreated):
+    def setVehicleChanged(self, vehicle, newModuleIntCD, vehicleRecreated):
         for cmpnt in self.components.values():
-            cmpnt.setVehicleChanged(vehicle, moduleIntCD, vehicleRecreated)
+            cmpnt.setVehicleChanged(vehicle, newModuleIntCD, vehicleRecreated)
 
         return
 

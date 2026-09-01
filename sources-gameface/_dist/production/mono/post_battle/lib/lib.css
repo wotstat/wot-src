@@ -77,6 +77,9 @@
 .FormatText_db904f12 span {
   flex-wrap: wrap;
   white-space: normal;
+  overflow-wrap: normal;
+}
+html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
   overflow-wrap: anywhere;
 }
 

@@ -45,10 +45,6 @@ class Event(list):
 class SafeEvent(Event):
     __slots__ = ()
 
-    def __init__(self, manager=None):
-        super(SafeEvent, self).__init__(manager)
-        return
-
     def __call__(self, *args, **kwargs):
         for delegate in self[:]:
             try:

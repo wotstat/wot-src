@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 class BRmarkersSymbolsNames(object):
     BRANDER_BOT_SYMBOL = b'BRBranderVehicle2dMarkerUI'
     BOT_SYMBOL = b'BRBotVehicleMarkerUI'

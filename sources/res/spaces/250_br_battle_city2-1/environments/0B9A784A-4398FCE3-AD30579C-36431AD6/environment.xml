@@ -47,36 +47,32 @@
 		<enable>true</enable>
 		<adaptationSpeed>100</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
-			<threshold>0.100000001</threshold>
-			<amount>0.600000024</amount>
+			<pbsBloom>true</pbsBloom>
+			<amount>0.449999988</amount>
 			<tint>0.423528999 0.603922009 0.603922009</tint>
 			<dirtAmount>0.400000006</dirtAmount>
 		</bloom>
 		<environment>
 			<sunlightLumMultiplier>7</sunlightLumMultiplier>
-			<ambientLumMultiplier>1</ambientLumMultiplier>
 			<sunLumMultiplier>100</sunLumMultiplier>
 			<skyLumMultiplier>5</skyLumMultiplier>
+			<skyLumMultiplierDeferred>1</skyLumMultiplierDeferred>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 		</environment>
 		<tonemappings>
 			<tonemapping>
 				<name>RexpTM</name>
-				<middleGray>0.189999998</middleGray>
 				<whitePoint>-5</whitePoint>
 				<blackPoint>1</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
-				<middleGray>0.310000002</middleGray>
 				<whitePoint>12.79</whitePoint>
 				<blackPoint>3.5</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
-				<middleGray>0.487224013</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.30999994</blackPoint>
 			</tonemapping>
@@ -108,11 +104,11 @@
 		<sunBrightness>9.99999975e-05</sunBrightness>
 		<objectEnable>true</objectEnable>
 		<glareEnable>true</glareEnable>
-		<glareIntensity>0.74000001</glareIntensity>
-		<glareSize>0.00700000022</glareSize>
+		<glareIntensity>0.5</glareIntensity>
+		<glareSize>0.00999999978</glareSize>
 		<flareIntensity>0.300000012</flareIntensity>
-		<objectThreshold>2</objectThreshold>
-		<objectFlareIntensity>0.50999999</objectFlareIntensity>
+		<objectThreshold>3.58496308</objectThreshold>
+		<objectFlareIntensity>0.300000012</objectFlareIntensity>
 		<haloEnable>true</haloEnable>
 		<sunTexture1>system/maps/psf_rgbe.dds</sunTexture1>
 		<colorTexture>system/maps/lenscolorF.dds</colorTexture>
@@ -133,7 +129,7 @@
 		<terrainAOGammaCorrection>0.25</terrainAOGammaCorrection>
 		<influences>
 			<speedtree>0.600000024 0.899999976</speedtree>
-			<terrain>0.970000029 0</terrain>
+			<terrain>0.899999976 0</terrain>
 			<objects>0.949999988 0</objects>
 			<localLights>0.99000001</localLights>
 		</influences>
@@ -149,6 +145,10 @@
 		<amplify>0.699999988</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.689999998</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.689999998</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.689999998</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.689999998</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/250_br_battle_city2-1/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -297,4 +297,7 @@
 		<transmissionMult>0.600000024</transmissionMult>
 		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

@@ -160,5 +160,4 @@ class FortificationsSlotToolTipData(FortToolTipData):
                b'toolTipType': (TOOLTIPS_CONSTANTS.FORT_SORTIE_SLOT), 
                b'leftCount': (leftCount if leftCount > 0 else 0)}
         else:
-            super(FortificationsSlotToolTipData, self).getDisplayableData(index, unitMgrID)
-            return
+            return super(FortificationsSlotToolTipData, self).getDisplayableData(index, unitMgrID)

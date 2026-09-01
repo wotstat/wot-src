@@ -1252,10 +1252,10 @@
   visibility: hidden;
 }/* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.TechTreeNormalView_37f334c7 {
+.TechTreeNormalView_a90cea21 {
   --vehicleHeight: 92rem;
   --vehicleMinWidth: 160rem;
-  --tablePaddingRight: 15rem;
+  --tablePaddingRight: 25rem;
   --premiumRowsVisible: 1.35;
   --premiumRowsVisible: 0.85;
   --premiumTopPadding: 0rem;
@@ -1360,11 +1360,11 @@
   margin-right: -10rem;
 }
 
-.TechTreeNormalView_table_77c9a5bc {
+.TechTreeNormalView_table_4e34486e {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-width: calc(var(--columnCount) * var(--vehicleMinWidth));
+  min-width: calc(var(--columnCount) * var(--vehicleMinWidth) + var(--tablePaddingRight));
   min-height: var(--ScrollArea-containerHeight);
   padding-top: 20rem;
   position: relative;

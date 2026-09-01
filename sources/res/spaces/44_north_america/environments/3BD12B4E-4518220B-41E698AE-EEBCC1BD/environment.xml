@@ -20,6 +20,7 @@
 			<skyHigh>0.620000005</skyHigh>
 		</deferred>
 		<simplifiedDeferred>
+			<useEdgeFog>true</useEdgeFog>
 			<color>0.397799999 0.526322007 0.764999986 3</color>
 			<density>0.000899999985</density>
 			<height>0</height>
@@ -28,7 +29,6 @@
 			<scatterStart>971.01001</scatterStart>
 			<scatterExponent>6.36000013</scatterExponent>
 			<scatterColor>1 0.921094 0.75999999 3</scatterColor>
-			<useEdgeFog>true</useEdgeFog>
 			<skyLow>-0.0199999996</skyLow>
 			<skyHigh>0.209999993</skyHigh>
 		</simplifiedDeferred>
@@ -48,36 +48,33 @@
 		<enable>true</enable>
 		<adaptationSpeed>150</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
+			<pbsBloom>true</pbsBloom>
 			<threshold>0.400000006</threshold>
-			<amount>0.579999983</amount>
+			<amount>0.660000026</amount>
 			<tint>1 0.964706004 0.894118011</tint>
 			<dirtAmount>0.74000001</dirtAmount>
 		</bloom>
 		<environment>
 			<sunlightLumMultiplier>6</sunlightLumMultiplier>
-			<ambientLumMultiplier>1</ambientLumMultiplier>
 			<sunLumMultiplier>50</sunLumMultiplier>
 			<skyLumMultiplier>5</skyLumMultiplier>
+			<skyLumMultiplierDeferred>1</skyLumMultiplierDeferred>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 		</environment>
 		<tonemappings>
 			<tonemapping>
 				<name>RexpTM</name>
-				<middleGray>0.189999998</middleGray>
 				<whitePoint>1</whitePoint>
 				<blackPoint>3</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
-				<middleGray>0.310000002</middleGray>
 				<whitePoint>12.79</whitePoint>
 				<blackPoint>3.5</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
-				<middleGray>0.349999994</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1</blackPoint>
 			</tonemapping>
@@ -109,11 +106,11 @@
 		<sunBrightness>0.0199999996</sunBrightness>
 		<objectEnable>true</objectEnable>
 		<glareEnable>true</glareEnable>
-		<glareIntensity>0.720000029</glareIntensity>
+		<glareIntensity>0.5</glareIntensity>
 		<glareSize>0.00999999978</glareSize>
 		<flareIntensity>0.300000012</flareIntensity>
-		<objectThreshold>2.32192802</objectThreshold>
-		<objectFlareIntensity>0.469999999</objectFlareIntensity>
+		<objectThreshold>3.58496308</objectThreshold>
+		<objectFlareIntensity>0.300000012</objectFlareIntensity>
 		<haloEnable>false</haloEnable>
 		<sunTexture1>system/maps/psf_rgbe.dds</sunTexture1>
 		<colorTexture>system/maps/lenscolorF.dds</colorTexture>
@@ -150,6 +147,10 @@
 		<amplify>1</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.215000004</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.215000004</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.215000004</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.215000004</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/44_north_america/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -272,6 +273,7 @@
 	</DOF>
 	<VolumetricFog>
 		<enabled>false</enabled>
+		<enableGameplay>false</enableGameplay>
 		<sampleShadows>true</sampleShadows>
 		<temporalReprojection>true</temporalReprojection>
 		<fogDistance>500</fogDistance>
@@ -294,5 +296,9 @@
 		<bakedAOPower>1</bakedAOPower>
 		<vegetationMetallicMult>0.400000006</vegetationMetallicMult>
 		<transmissionMult>0.600000024</transmissionMult>
+		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

@@ -35,6 +35,7 @@ _comp7Season3BlockBuilder = StaticSizeBlockBuilder(b'comp7Season3', COMP7_BLOCK_
 _comp7ArchiveGriffinBlockBuilder = StaticSizeBlockBuilder(b'comp7ArchiveGriffin', COMP7_BLOCK_LAYOUT, {}, [])
 _comp7ArchivePegasusBlockBuilder = StaticSizeBlockBuilder(b'comp7ArchivePegasus', COMP7_BLOCK_LAYOUT, {}, [])
 _comp7ArchiveManticoreBlockBuilder = StaticSizeBlockBuilder(b'comp7ArchiveManticore', COMP7_BLOCK_LAYOUT, {}, [])
+_comp7ArchiveDragonBlockBuilder = StaticSizeBlockBuilder(b'comp7ArchiveDragon', COMP7_BLOCK_LAYOUT, {}, [])
 _maxPopUps = [
  b'maxXP', b'maxFrags', b'maxDamage']
 _maxFalloutPopUps = _maxPopUps + [b'maxWinPoints', b'maxCoins']
@@ -56,14 +57,13 @@ _maxComp7Season3BlockBuilder = StaticSizeBlockBuilder(b'maxComp7Season3', MAX_CO
 _maxComp7ArchiveGriffinBlockBuilder = StaticSizeBlockBuilder(b'maxComp7ArchiveGriffin', MAX_COMP7_BLOCK_LAYOUT, {}, [])
 _maxComp7ArchivePegasusBlockBuilder = StaticSizeBlockBuilder(b'maxComp7ArchivePegasus', MAX_COMP7_BLOCK_LAYOUT, {}, [])
 _maxComp7ArchiveManticoreBlockBuilder = StaticSizeBlockBuilder(b'maxComp7ArchiveManticore', MAX_COMP7_BLOCK_LAYOUT, {}, [])
+_maxComp7ArchiveDragonBlockBuilder = StaticSizeBlockBuilder(b'maxComp7ArchiveDragon', MAX_COMP7_BLOCK_LAYOUT, {}, [])
 _vehTypeFragsBlockBuilder = DictBlockBuilder(b'vehTypeFrags', b'I', b'H', VEH_TYPE_FRAGS_DEPENDENCIES)
 _rankedSeasonsBlockBuilder = DictBlockBuilder(b'rankedSeasons', b'II', b'BB', {})
 _maxRankedSeason1BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason1', MAX_BLOCK_LAYOUT, {}, _maxPopUps)
 _maxRankedSeason2BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason2', MAX_BLOCK_LAYOUT, {}, _maxPopUps)
 _maxRankedSeason3BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason3', MAX_BLOCK_LAYOUT, {}, _maxPopUps)
 _ACHIEVEMENTS15X15_BLOCK_LAYOUT = [
- 72, 
- 73, 
  74, 
  75, 
  76, 
@@ -151,10 +151,10 @@ _ACHIEVEMENTS15X15_BLOCK_LAYOUT = [
  158, 
  159, 
  160, 
- 161]
-_achievements15x15PopUps = [
+ 161, 
  162, 
- 163, 
+ 163]
+_achievements15x15PopUps = [
  164, 
  165, 
  166, 
@@ -169,45 +169,47 @@ _achievements15x15PopUps = [
  175, 
  176, 
  177, 
- 137, 
- 140, 
  178, 
- 151, 
- 152, 
+ 179, 
+ 139, 
+ 142, 
+ 180, 
  153, 
  154, 
  155, 
  156, 
- 157]
+ 157, 
+ 158, 
+ 159]
 _achievements15x15BlockBuilder = StaticSizeBlockBuilder(b'achievements', _ACHIEVEMENTS15X15_BLOCK_LAYOUT, ACHIEVEMENT15X15_DEPENDENCIES, _achievements15x15PopUps)
 ACHIEVEMENTS7X7_BLOCK_LAYOUT = [
- 180, 181, 182, 
- 183, 184, 185, 
- 186, 
- 187, 188, 189, 190, 
- 191, 
- 192, 193, 194, 
- 195, 196, 197, 198, 
- 199, 200, 201, 202, 203, 
- 204, 
- 205, 
- 206, 207, 208, 209, 210, 
- 211, 
- 212, 213, 214, 215, 
- 216, 
- 217]
+ 182, 183, 184, 
+ 185, 186, 187, 
+ 188, 
+ 189, 190, 191, 192, 
+ 193, 
+ 194, 195, 196, 
+ 197, 198, 199, 200, 
+ 201, 202, 203, 204, 205, 
+ 206, 
+ 207, 
+ 208, 209, 210, 211, 212, 
+ 213, 
+ 214, 215, 216, 217, 
+ 218, 
+ 219]
 _achievements7x7BlockBuilder = StaticSizeBlockBuilder(b'achievements7x7', ACHIEVEMENTS7X7_BLOCK_LAYOUT, ACHIEVEMENT7X7_DEPENDENCIES, [])
 UNIQUE_VEH_ACHIEVEMENT_VALUES = []
 _uniqueVehAchievementPopUps = []
 _uniqueVehAchievementBlockBuilder = BinarySetDossierBlockBuilder(b'uniqueAchievements', UNIQUE_VEH_ACHIEVEMENT_VALUES, {}, _uniqueVehAchievementPopUps)
 _SINGLE_ACHIEVEMENTS_VALUES = [
- 220, 221, 222, 223, 
- 224, 225, 226]
-_singleAchievementsPopUps = [220, 221, 222, 223, 
- 224, 225, 226]
+ 222, 223, 224, 225, 
+ 226, 227, 228]
+_singleAchievementsPopUps = [222, 223, 224, 225, 
+ 226, 227, 228]
 _singleAchievementsBlockBuilder = BinarySetDossierBlockBuilder(b'singleAchievements', _SINGLE_ACHIEVEMENTS_VALUES, {}, _singleAchievementsPopUps)
 FORT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 228, 229, 230, 231, 232, 233]
+ 230, 231, 232, 233, 234, 235]
 _fortPersonalAchievementsPopUps = [
  b'soldierOfFortune']
 _fortPersonalAchievementsBlockBuilder = StaticSizeBlockBuilder(b'fortAchievements', FORT_ACHIEVEMENTS_BLOCK_LAYOUT, FORT_ACHIEVEMENTS_DEPENDENCIES, _fortPersonalAchievementsPopUps)
@@ -215,16 +217,16 @@ CLAN_ACHIEVEMENTS_BLOCK_LAYOUT = [
  b'medalRotmistrov']
 _clanAchievementsBlockBuilder = StaticSizeBlockBuilder(b'clanAchievements', CLAN_ACHIEVEMENTS_BLOCK_LAYOUT, {}, [])
 FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 237, 238, 239, 240, 
- 241, 242, 243, 244, 245, 246, 
- 247, 248]
+ 239, 240, 241, 242, 
+ 243, 244, 245, 246, 247, 248, 
+ 249, 250]
 _falloutAchievementsPopUps = [b'falloutDieHard']
 _falloutAchievementsBlockBuilder = StaticSizeBlockBuilder(b'falloutAchievements', FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _falloutAchievementsPopUps)
 EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 250, 251, 252, 253, 
- 254]
-_epicBattleAchievementsPopUps = [250, 251, 252, 253, 
- 254]
+ 252, 253, 254, 255, 
+ 256]
+_epicBattleAchievementsPopUps = [252, 253, 254, 255, 
+ 256]
 _epicBattleAchievementsBlockBuilder = StaticSizeBlockBuilder(b'epicBattleAchievements', EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _epicBattleAchievementsPopUps)
 _playerInscriptionsBlockBuilder = ListBlockBuilder(b'inscriptions', b'H', {})
 _playerEmblemsBlockBuilder = ListBlockBuilder(b'emblems', b'H', {})
@@ -256,5 +258,6 @@ vehicleDossierLayout = (
  _comp7Season3BlockBuilder, _maxComp7Season3BlockBuilder,
  _comp7ArchiveGriffinBlockBuilder, _maxComp7ArchiveGriffinBlockBuilder,
  _comp7ArchivePegasusBlockBuilder, _maxComp7ArchivePegasusBlockBuilder,
- _comp7ArchiveManticoreBlockBuilder, _maxComp7ArchiveManticoreBlockBuilder)
+ _comp7ArchiveManticoreBlockBuilder, _maxComp7ArchiveManticoreBlockBuilder,
+ _comp7ArchiveDragonBlockBuilder, _maxComp7ArchiveDragonBlockBuilder)
 VEHICLE_DOSSIER_BLOCKS = {b.name: b for b in vehicleDossierLayout}

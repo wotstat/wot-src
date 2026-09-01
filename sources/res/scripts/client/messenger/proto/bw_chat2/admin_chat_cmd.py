@@ -11,7 +11,7 @@ from messenger_common_chat2 import MESSENGER_ACTION_IDS as _ACTIONS
 from messenger_common_chat2 import ADMIN_CHAT_COMMANDS_BY_NAMES as _COMMANDS_BY_NAMES
 from messenger_common_chat2 import messageArgs
 from messenger_common_chat2 import MESSENGER_ERRORS as _ERRORS
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, PlayerCtxStorage
 from soft_exception import SoftException
 
 @ReprInjector.simple(b'id', b'args', b'tail')
@@ -57,14 +57,11 @@ class _ParsingError(_ParsingResult):
 
 
 class _ArgsParser(object):
+    playerCtx = MessengerStorageDescriptor(PlayerCtxStorage)
 
     def __init__(self, nargs):
         super(_ArgsParser, self).__init__()
         self.nargs = nargs
-        return
-
-    @storage_getter(b'playerCtx')
-    def playerCtx(self):
         return
 
     def parse_args(self, argsLine):

@@ -633,6 +633,9 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
 .FormatText_db904f12 span {
   flex-wrap: wrap;
   white-space: normal;
+  overflow-wrap: normal;
+}
+html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
   overflow-wrap: anywhere;
 }
 
@@ -891,6 +894,86 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
 .Formattext_bb80854d {
   display: flex;
   flex-wrap: wrap;
+}@keyframes Currency_fadeIn_271064ec {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Currency_72d4be39 {
+  display: flex;
+  align-items: center;
+  color: var(--color-general-secondary);
+  text-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.3);
+}
+.Currency_base__reverse_f12e61b0 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.Currency_base__notEnough_9a7842f {
+  color: var(--color-status-error);
+}
+.Currency_base__credits_7b9ae721 {
+  color: var(--color-currency-credits);
+}
+.Currency_base__gold_d6e3cbc {
+  color: var(--color-currency-gold);
+}
+.Currency_base__freeXP_d29d5a57 {
+  color: var(--color-currency-free-experience);
+}
+.Currency_base__crystal_f830cb47 {
+  color: var(--color-currency-bond);
+}
+.Currency_base__tankXP_1707c68b {
+  color: var(--color-currency-combat-experience);
+}@keyframes WithDiscount_fadeIn_60ee455a {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.WithDiscount_b8b3aa7f {
+  display: flex;
+  position: relative;
+  z-index: 0;
+}
+
+.WithDiscount_discount_f7ce1b97 {
+  align-self: center;
+  width: 20rem;
+  height: 23rem;
+  position: relative;
+  z-index: -1;
+}
+
+.WithDiscount_icon_a6c57ca8 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.WithDiscount_icon__extraSmall_97673105 {
+  transform: translate(-46%, -52%);
+}
+.WithDiscount_icon__small_60ee455a, .WithDiscount_icon__medium_2877fd99 {
+  transform: translate(-43%, -50%);
+}
+.WithDiscount_icon__large_6c06eeb7 {
+  transform: translate(-44%, -50%);
+}
+.WithDiscount_icon__extraLarge_9d22aa45 {
+  transform: translate(-38%, -50%);
+}
+.WithDiscount_icon__xxl_4080bb18 {
+  transform: translate(-42%, -50%);
 }@keyframes fadeIn {
   from {
     opacity: 0;

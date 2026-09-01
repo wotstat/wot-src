@@ -61,7 +61,7 @@ package net.wg.gui.lobby.rankedBattles19.components.divisionProgress
       override protected function draw() : void
       {
          super.draw();
-         if(Boolean(this._data) && Boolean(isInvalid(InvalidationType.SIZE,InvalidationType.DATA)))
+         if(Boolean(this._data) && Boolean(isInvalidTypes(InvalidationType.SIZE,InvalidationType.DATA)))
          {
             if(this._blockParams == BlockViewParams.SMALL)
             {

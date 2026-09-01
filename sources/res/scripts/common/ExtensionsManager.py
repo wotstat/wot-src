@@ -19,7 +19,7 @@ def makeExtensionPath(extension, path):
     return _EXTENSION_PATH_TEMPLATE.format(root=_EXTENSIONS_RELATIVE_DIR, extension=extension, path=path)
 
 
-Extension = namedtuple(b'Extension', (b'path', b'name', b'isEnabled', b'dirName', b'personality', b'editorPersonality'))
+Extension = namedtuple(b'Extension', (b'path', b'name', b'isEnabled', b'dirName', b'personality', b'commonPersonality', b'editorPersonality'))
 
 class ExtensionsManager(object):
     __slots__ = (b'_extensions',)
@@ -70,7 +70,7 @@ class ExtensionsManager(object):
         if not section:
             return None
         else:
-            return Extension(root + b'/', section.readString(b'FeatureName'), section.readBool(b'IsEnabled'), root.split(b'/')[-1], section.readString(b'Personality'), section.readString(b'EditorPersonality'))
+            return Extension(root + b'/', section.readString(b'FeatureName'), section.readBool(b'IsEnabled'), root.split(b'/')[-1], section.readString(b'Personality'), section.readString(b'CommonPersonality'), section.readString(b'EditorPersonality'))
 
     @staticmethod
     def _getExtensionsDirList():

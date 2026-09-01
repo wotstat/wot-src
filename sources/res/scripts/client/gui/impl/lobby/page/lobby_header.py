@@ -35,9 +35,9 @@ class LobbyHeader(ViewComponent[DefaultModel]):
         return
 
     def _finalize(self):
+        super(LobbyHeader, self)._finalize()
         self._currentVehicleFilter.destroy()
         self._currentVehicleFilter = None
-        super(LobbyHeader, self)._finalize()
         return
 
     def _getChildComponents(self):

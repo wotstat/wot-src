@@ -1,9 +1,9 @@
 import weakref
 from collections import namedtuple
 from itertools import chain
-from account_helpers.settings_core import settings_constants, longToInt32
+from account_helpers.settings_core import longToInt32, settings_constants
 from account_helpers.settings_core.migrations import migrateToVersion
-from account_helpers.settings_core.settings_constants import VERSION, GuiSettingsBehavior, OnceOnlyHints, SPGAim, CONTOUR, ReferralProgram, PersonalMission3
+from account_helpers.settings_core.settings_constants import VERSION, GuiSettingsBehavior, OnceOnlyHints, SPGAim, CONTOUR, ReferralProgram, PersonalMission3, NewYearStorageKeys, PersonalMission4
 from adisp import adisp_process, adisp_async
 from debug_utils import LOG_ERROR, LOG_DEBUG
 from gui.battle_pass.battle_pass_helpers import updateBattlePassSettings
@@ -74,6 +74,7 @@ class SETTINGS_SECTIONS(CONST_CONTAINER):
     BATTLE_PASS_STORAGE = b'BATTLE_PASS_STORAGE'
     BATTLE_COMM = b'BATTLE_COMM'
     DOG_TAGS = b'DOG_TAGS'
+    HOLIDAY_OPS = b'HOLIDAY_OPS'
     UNIT_FILTER = b'UNIT_FILTER'
     BATTLE_HUD = b'BATTLE_HUD'
     SPG_AIM = b'SPG_AIM'
@@ -86,6 +87,7 @@ class SETTINGS_SECTIONS(CONST_CONTAINER):
     REFERRAL_PROGRAM = b'REFERRAL_PROGRAM'
     ADVANCED_ACHIEVEMENTS_STORAGE = b'ADVANCED_ACHIEVEMENTS_STORAGE'
     PERSONAL_MISSION_3 = b'PERSONAL_MISSION_3'
+    PERSONAL_MISSION_4 = b'PERSONAL_MISSION_4'
     ONCE_ONLY_HINTS_GROUP = (
      ONCE_ONLY_HINTS, ONCE_ONLY_HINTS_2, ONCE_ONLY_HINTS_3)
     CAROUSEL_FILTER_3_GROUP = (
@@ -333,9 +335,10 @@ class ServerSettingsManager(object):
                                                b'role_ATSPG_universal': 20, 
                                                b'role_ATSPG_sniper': 21, 
                                                b'role_ATSPG_support': 22, 
-                                               b'role_LT_universal': 23, 
-                                               b'role_LT_wheeled': 24, 
-                                               b'role_SPG': 25}, offsets={})), 
+                                               b'role_SPG': 25, 
+                                               b'role_LT_universal': 26, 
+                                               b'role_LT_scout': 27, 
+                                               b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_1): (Section(masks={b'ussr': 0, 
@@ -387,9 +390,10 @@ class ServerSettingsManager(object):
                                                       b'role_ATSPG_universal': 20, 
                                                       b'role_ATSPG_sniper': 21, 
                                                       b'role_ATSPG_support': 22, 
-                                                      b'role_LT_universal': 23, 
-                                                      b'role_LT_wheeled': 24, 
-                                                      b'role_SPG': 25}, offsets={})), 
+                                                      b'role_SPG': 25, 
+                                                      b'role_LT_universal': 26, 
+                                                      b'role_LT_scout': 27, 
+                                                      b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                       b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.EPICBATTLE_CAROUSEL_FILTER_1): (Section(masks={b'ussr': 0, 
@@ -440,9 +444,10 @@ class ServerSettingsManager(object):
                                                           b'role_ATSPG_universal': 20, 
                                                           b'role_ATSPG_sniper': 21, 
                                                           b'role_ATSPG_support': 22, 
-                                                          b'role_LT_universal': 23, 
-                                                          b'role_LT_wheeled': 24, 
-                                                          b'role_SPG': 25}, offsets={})), 
+                                                          b'role_SPG': 25, 
+                                                          b'role_LT_universal': 26, 
+                                                          b'role_LT_scout': 27, 
+                                                          b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.EPICBATTLE_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                           b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.BATTLEPASS_CAROUSEL_FILTER_1): (Section(masks={b'isCommonProgression': 0}, offsets={})), 
@@ -494,9 +499,10 @@ class ServerSettingsManager(object):
                                                      b'role_ATSPG_universal': 20, 
                                                      b'role_ATSPG_sniper': 21, 
                                                      b'role_ATSPG_support': 22, 
-                                                     b'role_LT_universal': 23, 
-                                                     b'role_LT_wheeled': 24, 
-                                                     b'role_SPG': 25}, offsets={})), 
+                                                     b'role_SPG': 25, 
+                                                     b'role_LT_universal': 26, 
+                                                     b'role_LT_scout': 27, 
+                                                     b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                      b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.COMP7_LIGHT_CAROUSEL_FILTER_1): (Section(masks={b'ussr': 0, 
@@ -547,9 +553,10 @@ class ServerSettingsManager(object):
                                                            b'role_ATSPG_universal': 20, 
                                                            b'role_ATSPG_sniper': 21, 
                                                            b'role_ATSPG_support': 22, 
-                                                           b'role_LT_universal': 23, 
-                                                           b'role_LT_wheeled': 24, 
-                                                           b'role_SPG': 25}, offsets={})), 
+                                                           b'role_SPG': 25, 
+                                                           b'role_LT_universal': 26, 
+                                                           b'role_LT_scout': 27, 
+                                                           b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.COMP7_LIGHT_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                            b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.GUI_START_BEHAVIOR): (Section(masks={(GuiSettingsBehavior.FREE_XP_INFO_DIALOG_SHOWED): 0, 
@@ -833,6 +840,7 @@ class ServerSettingsManager(object):
                                                       b'bonus': 6, 
                                                       b'event': 7, 
                                                       b'crystals': 8, 
+                                                      b'newYear': 10, 
                                                       b'role_HT_assault': 11, 
                                                       b'role_HT_break': 12, 
                                                       b'role_HT_support': 13, 
@@ -845,9 +853,10 @@ class ServerSettingsManager(object):
                                                       b'role_ATSPG_universal': 20, 
                                                       b'role_ATSPG_sniper': 21, 
                                                       b'role_ATSPG_support': 22, 
-                                                      b'role_LT_universal': 23, 
-                                                      b'role_LT_wheeled': 24, 
-                                                      b'role_SPG': 25}, offsets={})), 
+                                                      b'role_SPG': 25, 
+                                                      b'role_LT_universal': 26, 
+                                                      b'role_LT_scout': 27, 
+                                                      b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                       b'canInstallAttachments': 1}, offsets={})), 
        (SETTINGS_SECTIONS.UNIT_FILTER): (Section(masks={}, offsets={(GAME.UNIT_FILTER): (Offset(0, 4095))})), 
@@ -900,11 +909,13 @@ class ServerSettingsManager(object):
                                                           b'role_ATSPG_universal': 20, 
                                                           b'role_ATSPG_sniper': 21, 
                                                           b'role_ATSPG_support': 22, 
-                                                          b'role_LT_universal': 23, 
-                                                          b'role_LT_wheeled': 24, 
-                                                          b'role_SPG': 25}, offsets={})), 
+                                                          b'role_SPG': 25, 
+                                                          b'role_LT_universal': 26, 
+                                                          b'role_LT_scout': 27, 
+                                                          b'role_LT_support': 28}, offsets={})), 
        (SETTINGS_SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_3): (Section(masks={b'own3DStyle': 0, 
                                                           b'canInstallAttachments': 1}, offsets={})), 
+       (SETTINGS_SECTIONS.HOLIDAY_OPS): (Section(masks={(NewYearStorageKeys.NY_INTRO_SHOWN): 0}, offsets={})), 
        (SETTINGS_SECTIONS.LIMITED_UI_1): (Section(masks={}, offsets={LIMITED_UI_KEY: (Offset(0, 4294967295L))})), 
        (SETTINGS_SECTIONS.LIMITED_UI_2): (Section(masks={}, offsets={LIMITED_UI_KEY: (Offset(0, 4294967295L))})), 
        (SETTINGS_SECTIONS.LIMITED_UI_PERMANENT_1): (Section(masks={}, offsets={LIMITED_UI_KEY: (Offset(0, 4294967295L))})), 
@@ -914,10 +925,13 @@ class ServerSettingsManager(object):
        (SETTINGS_SECTIONS.PERSONAL_MISSION_3): (Section(masks={(PersonalMission3.INTRO): 0, 
                                                 (PersonalMission3.INTRO_OP_8): 1, 
                                                 (PersonalMission3.INTRO_OP_9): 2, 
-                                                (PersonalMission3.INTRO_OP_10): 3, 
-                                                (PersonalMission3.PM_BANNER_ANIMATION_KEY): 25}, offsets={(PersonalMission3.PART_NO): (Offset(4, 15 << 4)), 
+                                                (PersonalMission3.INTRO_OP_10): 3}, offsets={(PersonalMission3.PART_NO): (Offset(4, 15 << 4)), 
                                                 (PersonalMission3.CHECKED_PM3_POINTS): (Offset(8, 65535 << 8)), 
-                                                (PersonalMission3.LAST_FULL_COMPLETED_OP): (Offset(26, 31 << 26))}))}
+                                                (PersonalMission3.LAST_FULL_COMPLETED_OP): (Offset(26, 31 << 26))})), 
+       (SETTINGS_SECTIONS.PERSONAL_MISSION_4): (Section(masks={(PersonalMission4.INTRO_OP_11): 0, 
+                                                (PersonalMission4.PM_BANNER_ANIMATION_KEY): 1, 
+                                                (PersonalMission4.OPERATION_SHOWN): 2}, offsets={(PersonalMission4.PART_NO): (Offset(3, 15 << 3)), 
+                                                (PersonalMission4.CHECKED_PM4_POINTS): (Offset(7, 65535 << 7))}))}
     AIM_MAPPING = {b'net': 1, 
        b'netType': 1, 
        b'centralTag': 1, 
@@ -1041,6 +1055,14 @@ class ServerSettingsManager(object):
             self.setSectionSettings(SETTINGS_SECTIONS.BATTLE_PASS_STORAGE, settings)
         return
 
+    def getNewYearStorage(self, defaults=None):
+        if self.settingsCache.isSynced():
+            return self.getSection(SETTINGS_SECTIONS.HOLIDAY_OPS, defaults)
+        return {}
+
+    def saveInNewYearStorage(self, settings):
+        return self.setSectionSettings(SETTINGS_SECTIONS.HOLIDAY_OPS, settings)
+
     def checkAutoReloadHighlights(self, increase=False):
         return self.__checkUIHighlights(UI_STORAGE_KEYS.AUTO_RELOAD_HIGHLIGHTS_COUNTER, self._MAX_AUTO_RELOAD_HIGHLIGHTS_COUNT, increase)
 
@@ -1137,13 +1159,26 @@ class ServerSettingsManager(object):
     def getPM3InstalledVehDetails(self):
         return self.getSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_3, PersonalMission3.PART_NO, 0)
 
+    def getPM4InstalledVehDetails(self):
+        return self.getSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_4, PersonalMission4.PART_NO, 0)
+
     def getLastFullCompletedPM3OperationID(self):
         return self.getSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_3, PersonalMission3.LAST_FULL_COMPLETED_OP, 0)
 
     def setPM3VehDetailInstalled(self, vehDetailNumber=0):
         if not self.settingsCache.isSynced():
-            return False
+            return
         self.setSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_3, {(PersonalMission3.PART_NO): vehDetailNumber})
+        return
+
+    def setPM4OperationFirstEntrance(self):
+        self.setSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_4, {(PersonalMission4.OPERATION_SHOWN): True})
+        return
+
+    def setPM4VehDetailInstalled(self, vehDetailNumber=0):
+        if not self.settingsCache.isSynced():
+            return
+        self.setSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_4, {(PersonalMission4.PART_NO): vehDetailNumber})
         return
 
     def setViewedReferralProgramSeason(self, season):
@@ -1278,6 +1313,13 @@ class ServerSettingsManager(object):
         self.setSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_3, data)
         return
 
+    def getPersonalMission4Data(self, defaults=None):
+        return self.getSection(SETTINGS_SECTIONS.PERSONAL_MISSION_4, defaults=defaults)
+
+    def setPersonalMission4Data(self, data):
+        self.setSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_4, data)
+        return
+
     def getVersion(self):
         return self.settingsCache.getVersion()
 
@@ -1394,7 +1436,7 @@ class ServerSettingsManager(object):
     @adisp_process
     def _updateToVersion(self, callback=None):
         currentVersion = self.settingsCache.getVersion()
-        data = {b'gameData': {}, b'gameExtData': {}, GAME_EXTENDED_2: {}, b'gameplayData': {}, b'controlsData': {}, b'aimData': {}, b'markersData': {}, b'graphicsData': {}, b'marksOnGun': {}, b'fallout': {}, b'carousel_filter': {}, b'feedbackDamageIndicator': {}, b'feedbackDamageLog': {}, b'feedbackBattleEvents': {}, b'onceOnlyHints': {}, b'onceOnlyHints2': {}, b'uiStorage': {}, (SETTINGS_SECTIONS.UI_STORAGE_2): {}, b'epicCarouselFilter2': {}, b'rankedCarouselFilter1': {}, b'rankedCarouselFilter2': {}, b'comp7CarouselFilter1': {}, b'comp7CarouselFilter2': {}, b'sessionStats': {}, b'battleComm': {}, b'dogTags': {}, b'battleHud': {}, b'spgAim': {}, GUI_START_BEHAVIOR: {}, b'battlePassStorage': {}, (SETTINGS_SECTIONS.CONTOUR): {}, (SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_1): {}, (SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2): {}, (SETTINGS_SECTIONS.SENIORITY_AWARDS_STORAGE): {}, b'clear': {}, b'delete': [], (SETTINGS_SECTIONS.LIMITED_UI_1): {}, (SETTINGS_SECTIONS.LIMITED_UI_2): {}, (SETTINGS_SECTIONS.LIMITED_UI_PERMANENT_1): {}, (SETTINGS_SECTIONS.LIMITED_UI_PERMANENT_2): {}, (SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS): {}, (SETTINGS_SECTIONS.BATTLE_BORDER_MAP): {}, (SETTINGS_SECTIONS.ADVANCED_ACHIEVEMENTS_STORAGE): {}, (SETTINGS_SECTIONS.CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.EPICBATTLE_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.COMP7_LIGHT_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.PERSONAL_MISSION_3): {}, (SETTINGS_SECTIONS.SITUATIONAL_PERKS): {}}
+        data = {b'gameData': {}, b'gameExtData': {}, GAME_EXTENDED_2: {}, b'gameplayData': {}, b'controlsData': {}, b'aimData': {}, b'markersData': {}, b'graphicsData': {}, b'marksOnGun': {}, b'fallout': {}, b'carousel_filter': {}, b'feedbackDamageIndicator': {}, b'feedbackDamageLog': {}, b'feedbackBattleEvents': {}, b'onceOnlyHints': {}, b'onceOnlyHints2': {}, b'uiStorage': {}, (SETTINGS_SECTIONS.UI_STORAGE_2): {}, b'epicCarouselFilter2': {}, b'rankedCarouselFilter1': {}, b'rankedCarouselFilter2': {}, b'comp7CarouselFilter1': {}, b'comp7CarouselFilter2': {}, b'sessionStats': {}, b'battleComm': {}, b'dogTags': {}, b'battleHud': {}, b'spgAim': {}, GUI_START_BEHAVIOR: {}, b'battlePassStorage': {}, (SETTINGS_SECTIONS.CONTOUR): {}, (SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_1): {}, (SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2): {}, (SETTINGS_SECTIONS.SENIORITY_AWARDS_STORAGE): {}, (SETTINGS_SECTIONS.HOLIDAY_OPS): {}, b'clear': {}, b'delete': [], (SETTINGS_SECTIONS.LIMITED_UI_1): {}, (SETTINGS_SECTIONS.LIMITED_UI_2): {}, (SETTINGS_SECTIONS.LIMITED_UI_PERMANENT_1): {}, (SETTINGS_SECTIONS.LIMITED_UI_PERMANENT_2): {}, (SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS): {}, (SETTINGS_SECTIONS.BATTLE_BORDER_MAP): {}, (SETTINGS_SECTIONS.ADVANCED_ACHIEVEMENTS_STORAGE): {}, (SETTINGS_SECTIONS.CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.RANKED_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.EPICBATTLE_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.COMP7_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.COMP7_LIGHT_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.FUN_RANDOM_CAROUSEL_FILTER_3): {}, (SETTINGS_SECTIONS.PERSONAL_MISSION_3): {}, (SETTINGS_SECTIONS.SITUATIONAL_PERKS): {}, (SETTINGS_SECTIONS.PERSONAL_MISSION_4): {}}
         yield migrateToVersion(currentVersion, self._core, data)
         self._setSettingsSections(data)
         callback(self)
@@ -1563,6 +1605,10 @@ class ServerSettingsManager(object):
         clearRoyaleFilterCarousel2 = clear.get(SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2, 0)
         if royaleFilterCarousel2 or clearRoyaleFilterCarousel2:
             settings[SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2] = self._buildSectionSettings(SETTINGS_SECTIONS.ROYALE_CAROUSEL_FILTER_2, royaleFilterCarousel2) ^ clearRoyaleFilterCarousel2
+        holidayOpsSettings = data.get(SETTINGS_SECTIONS.HOLIDAY_OPS, {})
+        clearHolidayOpsSettings = clear.get(SETTINGS_SECTIONS.HOLIDAY_OPS, 0)
+        if holidayOpsSettings or clearHolidayOpsSettings:
+            settings[SETTINGS_SECTIONS.HOLIDAY_OPS] = self._buildSectionSettings(SETTINGS_SECTIONS.HOLIDAY_OPS, holidayOpsSettings) ^ clearHolidayOpsSettings
         battleMatters = data.get(SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS, {})
         clearBattleMatters = clear.get(SETTINGS_SECTIONS.BATTLE_MATTERS_QUESTS, 0)
         if battleMatters or clearBattleMatters:
@@ -1595,6 +1641,14 @@ class ServerSettingsManager(object):
         clearMapboxFilterCarousel1 = clear.get(SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_1, 0)
         if mapboxFilterCarousel1 or clearMapboxFilterCarousel1:
             settings[SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_1] = self._buildSectionSettings(SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_1, mapboxFilterCarousel1) ^ clearMapboxFilterCarousel1
+        mapboxFilterCarousel2 = data.get(SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_2, {})
+        clearMapboxFilterCarousel2 = clear.get(SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_2, 0)
+        if mapboxFilterCarousel2 or clearMapboxFilterCarousel2:
+            settings[SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_2] = self._buildSectionSettings(SETTINGS_SECTIONS.MAPBOX_CAROUSEL_FILTER_2, mapboxFilterCarousel2) ^ clearMapboxFilterCarousel2
+        personalMission4 = data.get(SETTINGS_SECTIONS.PERSONAL_MISSION_4, {})
+        clearPersonalMission4 = clear.get(SETTINGS_SECTIONS.PERSONAL_MISSION_4, 0)
+        if personalMission4 or clearPersonalMission4:
+            settings[SETTINGS_SECTIONS.PERSONAL_MISSION_4] = self._buildSectionSettings(SETTINGS_SECTIONS.PERSONAL_MISSION_4, personalMission4) ^ clearPersonalMission4
         version = data.get(VERSION)
         if version is not None:
             settings[VERSION] = version

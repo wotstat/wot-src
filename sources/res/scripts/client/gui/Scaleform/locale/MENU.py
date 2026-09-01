@@ -232,7 +232,7 @@ class MENU(object):
     CAROUSEL_TANK_FILTER_BREAK = b'#menu:carousel_tank_filter/break'
     CAROUSEL_TANK_FILTER_SNIPER = b'#menu:carousel_tank_filter/sniper'
     CAROUSEL_TANK_FILTER_SUPPORT = b'#menu:carousel_tank_filter/support'
-    CAROUSEL_TANK_FILTER_WHEELED = b'#menu:carousel_tank_filter/wheeled'
+    CAROUSEL_TANK_FILTER_SCOUT = b'#menu:carousel_tank_filter/scout'
     CAROUSEL_TANK_FILTER_READY = b'#menu:carousel_tank_filter/ready'
     CAROUSEL_TANK_FILTER_OWN3DSTYLE = b'#menu:carousel_tank_filter/own3DStyle'
     CAROUSEL_TANK_FILTER_CANINSTALLATTACHMENTS = b'#menu:carousel_tank_filter/canInstallAttachments'
@@ -553,6 +553,8 @@ class MENU(object):
     TANK_PARAMS_LOWCHARGESHOTDISPERTION = b'#menu:tank_params/lowChargeShotDispertion'
     TANK_PARAMS_LOWCHARGESHOTVELOCITY = b'#menu:tank_params/lowChargeShotVelocity'
     TANK_PARAMS_LOWCHARGESHOTBLOCKDURATION = b'#menu:tank_params/lowChargeShotBlockDuration'
+    TANK_PARAMS_SHELLCALIBRATIONAVGPENETRATION = b'#menu:tank_params/shellCalibrationAvgPenetration'
+    TANK_PARAMS_SHELLCALIBRATIONAVGDAMAGE = b'#menu:tank_params/shellCalibrationAvgDamage'
     TANK_PARAMS_MAXHEALTH = b'#menu:tank_params/maxHealth'
     TANK_PARAMS_VEHICLEWEIGHT = b'#menu:tank_params/vehicleWeight'
     TANK_PARAMS_ENGINEPOWER = b'#menu:tank_params/enginePower'
@@ -651,6 +653,8 @@ class MENU(object):
     TANK_PARAMS_STATIONARYRELOADSWITCHONTIME = b'#menu:tank_params/stationaryReloadSwitchOnTime'
     TANK_PARAMS_STATIONARYRELOADSWITCHOFFTIME = b'#menu:tank_params/stationaryReloadSwitchOffTime'
     TANK_PARAMS_EXTENDEDTITLE_DUALACCURACYCOOLINGDELAY = b'#menu:tank_params/extendedTitle/dualAccuracyCoolingDelay'
+    TANK_PARAMS_EXTENDEDTITLE_BUSTLEFEEDSWITCHINGTOBAF = b'#menu:tank_params/extendedTitle/bustleFeedSwitchingToBAF'
+    TANK_PARAMS_EXTENDEDTITLE_BUSTLEFEEDMAXSPEED = b'#menu:tank_params/extendedTitle/bustleFeedMaxSpeed'
     TANK_PARAMS_VALUES_PARAM12_VALUE0 = b'#menu:tank_params/values/param12/value0'
     TANK_PARAMS_VALUES_PARAM12_VALUE1 = b'#menu:tank_params/values/param12/value1'
     TANK_PARAMS_VALUES_PARAM12_VALUE2 = b'#menu:tank_params/values/param12/value2'
@@ -680,6 +684,7 @@ class MENU(object):
     TANK_PARAMS_PROPELLANTPOSTLIMITDISPERSION = b'#menu:tank_params/propellantPostLimitDispersion'
     TANK_PARAMS_PROPELLANTPOSTLIMITAIMINGTIME = b'#menu:tank_params/propellantPostLimitAimingTime'
     TANK_PARAMS_PROPELLANTOVERCHARGESWITCHCOOLDOWN = b'#menu:tank_params/propellantOverchargeSwitchCooldown'
+    TANK_PARAMS_SHELLPARAMSSWITCHINGTIME = b'#menu:tank_params/shellParamsSwitchingTime'
     TANK_PARAMS_T = b'#menu:tank_params/t'
     TANK_PARAMS_P = b'#menu:tank_params/p'
     TANK_PARAMS_PT = b'#menu:tank_params/pt'
@@ -712,7 +717,7 @@ class MENU(object):
     TANK_PARAMS_STUNMINDURATION = b'#menu:tank_params/stunMinDuration'
     TANK_PARAMS_STUNDURATIONLIST = b'#menu:tank_params/stunDurationList'
     TANK_PARAMS_CHARGETIME = b'#menu:tank_params/chargeTime'
-    TANK_PARAMS_PENETRATIONLOSS = b'#menu:tank_params/penetrationLoss'
+    TANK_PARAMS_SHELLPENETRATIONLOSS = b'#menu:tank_params/shellPenetrationLoss'
     TANK_PARAMS_NO_BRACKETS_KG = b'#menu:tank_params/no_brackets/kg'
     TANK_PARAMS_NO_BRACKETS_S = b'#menu:tank_params/no_brackets/s'
     TANK_PARAMS_NO_BRACKETS_MM = b'#menu:tank_params/no_brackets/mm'
@@ -730,6 +735,31 @@ class MENU(object):
     TANK_PARAMS_WHEELEDDASHABILITYRELOADTIMEBONUS = b'#menu:tank_params/wheeledDashAbilityReloadTimeBonus'
     TANK_PARAMS_WHEELEDDASHSPEEDLIMITS = b'#menu:tank_params/wheeledDashSpeedLimits'
     TANK_PARAMS_WHEELEDDASHREVERSESPEED = b'#menu:tank_params/wheeledDashReverseSpeed'
+    TANK_PARAMS_AUXILIARYROCKETLAUNCHERRELOADTIME = b'#menu:tank_params/auxiliaryRocketLauncherReloadTime'
+    TANK_PARAMS_AUXILIARYROCKETLAUNCHERAVGDAMAGE = b'#menu:tank_params/auxiliaryRocketLauncherAvgDamage'
+    TANK_PARAMS_AUXILIARYROCKETLAUNCHERPENETRATION = b'#menu:tank_params/auxiliaryRocketLauncherPenetration'
+    TANK_PARAMS_AUXILIARYROCKETLAUNCHERVELOCITY = b'#menu:tank_params/auxiliaryRocketLauncherVelocity'
+    TANK_PARAMS_AUXILIARYROCKETLAUNCHERDISPERSION = b'#menu:tank_params/auxiliaryRocketLauncherDispersion'
+    TANK_PARAMS_AUTORELOADERSURGEMAXCHARGES = b'#menu:tank_params/autoreloaderSurgeMaxCharges'
+    TANK_PARAMS_AUTORELOADERSURGEINITCHARGES = b'#menu:tank_params/autoreloaderSurgeInitCharges'
+    TANK_PARAMS_AUTORELOADERSURGECHARGETIMESLOW = b'#menu:tank_params/autoreloaderSurgeChargeTimeSlow'
+    TANK_PARAMS_AUTORELOADERSURGECHARGETIMEFAST = b'#menu:tank_params/autoreloaderSurgeChargeTimeFast'
+    TANK_PARAMS_AUTORELOADERSURGEBOOSTEDRELOADTIME = b'#menu:tank_params/autoreloaderSurgeBoostedReloadTime'
+    TANK_PARAMS_BUSTLEFEEDDAMAGEPERSHOT = b'#menu:tank_params/bustleFeedDamagePerShot'
+    TANK_PARAMS_BUSTLEFEEDRATEOFFIRE = b'#menu:tank_params/bustleFeedRateOfFire'
+    TANK_PARAMS_BUSTLEFEEDSWITCHINGTOEASMMODE = b'#menu:tank_params/bustleFeedSwitchingToEASMMode'
+    TANK_PARAMS_BUSTLEFEEDSWITCHINGTOSTANDARDMODE = b'#menu:tank_params/bustleFeedSwitchingToStandardMode'
+    TANK_PARAMS_BUSTLEFEEDMAXSPEED = b'#menu:tank_params/bustleFeedMaxSpeed'
+    TANK_PARAMS_SIGHTPOINTERDEPLOYTIME = b'#menu:tank_params/sightPointerDeployTime'
+    TANK_PARAMS_SIGHTPOINTERRELOADTIME = b'#menu:tank_params/sightPointerReloadTime'
+    TANK_PARAMS_SIGHTPOINTERDURATION = b'#menu:tank_params/sightPointerDuration'
+    TANK_PARAMS_SIGHTPOINTERROTATIONSPEED = b'#menu:tank_params/sightPointerRotationSpeed'
+    TANK_PARAMS_SIGHTPOINTERSECTORANGLESTART = b'#menu:tank_params/sightPointerSectorAngleStart'
+    TANK_PARAMS_SIGHTPOINTERSECTORANGLEEND = b'#menu:tank_params/sightPointerSectorAngleEnd'
+    TANK_PARAMS_SIGHTPOINTERSELFSPOTTINGTIME = b'#menu:tank_params/sightPointerSelfSpottingTime'
+    TANK_PARAMS_SIGHTPOINTERVIEWRANGE = b'#menu:tank_params/sightPointerViewRange'
+    TANK_PARAMS_SIGHTPOINTERCONSEALMENTFOLIAGE = b'#menu:tank_params/sightPointerConsealmentFoliage'
+    TANK_PARAMS_SIGHTPOINTERCONSEALMENTMOVING = b'#menu:tank_params/sightPointerConsealmentMoving'
     EXTRAPARAMS_HEADER = b'#menu:extraParams/header'
     EXTRAPARAMS_MULTIDESC = b'#menu:extraParams/multiDesc'
     EXTRAPARAMS_DESC = b'#menu:extraParams/desc'
@@ -1251,6 +1281,7 @@ class MENU(object):
     MODULEINFO_OVERHEATGUN = b'#menu:moduleInfo/overheatGun'
     MODULEINFO_PROPELLANTAFTERBURNERGUN = b'#menu:moduleInfo/propellantAfterburnerGun'
     MODULEINFO_ROCKETACCELERATION = b'#menu:moduleInfo/rocketAcceleration'
+    MODULEINFO_SHELLPARAMSSWITCHER = b'#menu:moduleInfo/shellParamsSwitcher'
     MODULEINFO_STAGEDJETBOOSTERS = b'#menu:moduleInfo/stagedJetBoosters'
     MODULEINFO_TRACKWITHINTRACK = b'#menu:moduleInfo/trackWithinTrack'
     MODULEINFO_TURBOSHAFTENGINE = b'#menu:moduleInfo/turboshaftEngine'
@@ -1258,6 +1289,7 @@ class MENU(object):
     MODULEINFO_NONPIERCINGDAMAGELABEL = b'#menu:moduleInfo/nonPiercingDamageLabel'
     MODULEINFO_LOWCHARGESHOT = b'#menu:moduleInfo/lowChargeShot'
     MODULEINFO_WHEELEDDASH = b'#menu:moduleInfo/wheeledDash'
+    MODULEINFO_AUXILIARYROCKETLAUNCHER = b'#menu:moduleInfo/auxiliaryRocketLauncher'
     MODULEINFO_PARAMS_SHOTSPEED = b'#menu:moduleInfo/params/shotSpeed'
     MODULEINFO_PARAMS_CHASSISREPAIRTIME = b'#menu:moduleInfo/params/chassisRepairTime'
     MODULEINFO_PARAMS_CHASSISREPAIRTIMEYOH = b'#menu:moduleInfo/params/chassisRepairTimeYoh'
@@ -1321,13 +1353,13 @@ class MENU(object):
     MODULEINFO_PARAMS_PIERCINGDISTANCEHEADER = b'#menu:moduleInfo/params/piercingDistanceHeader'
     MODULEINFO_PARAMS_PIERCINGDISTANCE = b'#menu:moduleInfo/params/piercingDistance'
     MODULEINFO_PARAMS_MAXSHOTDISTANCE = b'#menu:moduleInfo/params/maxShotDistance'
-    MODULEINFO_PARAMS_MAXSHOTDISTANCE_FOOTNOTE = b'#menu:moduleInfo/params/maxShotDistance/footnote'
-    MODULEINFO_PARAMS_NOPIERCINGDISTANCE_FOOTNOTE = b'#menu:moduleInfo/params/noPiercingDistance/footnote'
-    MODULEINFO_PARAMS_PIERCINGDISTANCE_FOOTNOTE = b'#menu:moduleInfo/params/piercingDistance/footnote'
-    MODULEINFO_PARAMS_NOPIERCINGDISTANCE_FOOTNOTE_MAXDISTANCE = b'#menu:moduleInfo/params/noPiercingDistance/footnote/maxDistance'
-    MODULEINFO_PARAMS_GUARANTEEDDAMAGE_FOOTNOTE = b'#menu:moduleInfo/params/guaranteedDamage/footnote'
-    MODULEINFO_PARAMS_PENETRATIONLOSS_FOOTNOTE = b'#menu:moduleInfo/params/penetrationLoss/footnote'
-    MODULEINFO_PARAMS_SCREENSARMORMULTIPLIER_FOOTNOTE = b'#menu:moduleInfo/params/screensArmorMultiplier/footnote'
+    MODULEINFO_PARAMS_FOOTNOTE_MAXSHOTDISTANCE = b'#menu:moduleInfo/params/footnote/maxShotDistance'
+    MODULEINFO_PARAMS_FOOTNOTE_NOPIERCINGDISTANCE = b'#menu:moduleInfo/params/footnote/noPiercingDistance'
+    MODULEINFO_PARAMS_FOOTNOTE_PIERCINGDISTANCE = b'#menu:moduleInfo/params/footnote/piercingDistance'
+    MODULEINFO_PARAMS_FOOTNOTE_NOPIERCINGDISTANCE_MAXDISTANCE = b'#menu:moduleInfo/params/footnote/noPiercingDistance/maxDistance'
+    MODULEINFO_PARAMS_FOOTNOTE_GUARANTEEDDAMAGE = b'#menu:moduleInfo/params/footnote/guaranteedDamage'
+    MODULEINFO_PARAMS_FOOTNOTE_PENETRATIONLOSS = b'#menu:moduleInfo/params/footnote/penetrationLoss'
+    MODULEINFO_PARAMS_FOOTNOTE_SCREENSARMORMULTIPLIER = b'#menu:moduleInfo/params/footnote/screensArmorMultiplier'
     MODULEINFO_PARAMS_STUNMAXDURATION = b'#menu:moduleInfo/params/stunMaxDuration'
     MODULEINFO_PARAMS_STUNMINDURATION = b'#menu:moduleInfo/params/stunMinDuration'
     MODULEINFO_PARAMS_STUNMAXDURATIONLIST = b'#menu:moduleInfo/params/stunMaxDurationList'
@@ -1352,6 +1384,7 @@ class MENU(object):
     MODULEINFO_PARAMS_PENETRATIONLOSS = b'#menu:moduleInfo/params/penetrationLoss'
     MODULEINFO_PARAMS_SCREENSARMORMULTIPLIER = b'#menu:moduleInfo/params/screensArmorMultiplier'
     MODULEINFO_PARAMS_SCREENSARMORMULTIPLIER_VALUE = b'#menu:moduleInfo/params/screensArmorMultiplier/value'
+    MODULEINFO_PARAMS_CRITICALHITCHANCE = b'#menu:moduleInfo/params/criticalHitChance'
     MODULEINFO_COMPATIBLE_TURRETS = b'#menu:moduleInfo/compatible/turrets'
     MODULEINFO_COMPATIBLE_SHELLS = b'#menu:moduleInfo/compatible/shells'
     MODULEINFO_COMPATIBLE_GUNS = b'#menu:moduleInfo/compatible/guns'
@@ -2363,8 +2396,10 @@ class MENU(object):
     ROLEEXP_ROLEGROUPNAME_ROLE_ATSPG_SUPPORT = b'#menu:roleExp/roleGroupName/role_ATSPG_support'
     ROLEEXP_ROLENAME_ROLE_LT_UNIVERSAL = b'#menu:roleExp/roleName/role_LT_universal'
     ROLEEXP_ROLEGROUPNAME_ROLE_LT_UNIVERSAL = b'#menu:roleExp/roleGroupName/role_LT_universal'
-    ROLEEXP_ROLENAME_ROLE_LT_WHEELED = b'#menu:roleExp/roleName/role_LT_wheeled'
-    ROLEEXP_ROLEGROUPNAME_ROLE_LT_WHEELED = b'#menu:roleExp/roleGroupName/role_LT_wheeled'
+    ROLEEXP_ROLENAME_ROLE_LT_SCOUT = b'#menu:roleExp/roleName/role_LT_scout'
+    ROLEEXP_ROLEGROUPNAME_ROLE_LT_SCOUT = b'#menu:roleExp/roleGroupName/role_LT_scout'
+    ROLEEXP_ROLENAME_ROLE_LT_SUPPORT = b'#menu:roleExp/roleName/role_LT_support'
+    ROLEEXP_ROLEGROUPNAME_ROLE_LT_SUPPORT = b'#menu:roleExp/roleGroupName/role_LT_support'
     ROLEEXP_ROLENAME_ROLE_SPG = b'#menu:roleExp/roleName/role_SPG'
     ROLEEXP_ROLEGROUPNAME_ROLE_SPG = b'#menu:roleExp/roleGroupName/role_SPG'
     ROLEEXP_ROLEDESCR_ROLE_HT_ASSAULT = b'#menu:roleExp/roleDescr/role_HT_assault'
@@ -2380,7 +2415,8 @@ class MENU(object):
     ROLEEXP_ROLEDESCR_ROLE_ATSPG_SNIPER = b'#menu:roleExp/roleDescr/role_ATSPG_sniper'
     ROLEEXP_ROLEDESCR_ROLE_ATSPG_SUPPORT = b'#menu:roleExp/roleDescr/role_ATSPG_support'
     ROLEEXP_ROLEDESCR_ROLE_LT_UNIVERSAL = b'#menu:roleExp/roleDescr/role_LT_universal'
-    ROLEEXP_ROLEDESCR_ROLE_LT_WHEELED = b'#menu:roleExp/roleDescr/role_LT_wheeled'
+    ROLEEXP_ROLEDESCR_ROLE_LT_SCOUT = b'#menu:roleExp/roleDescr/role_LT_scout'
+    ROLEEXP_ROLEDESCR_ROLE_LT_SUPPORT = b'#menu:roleExp/roleDescr/role_LT_support'
     ROLEEXP_ROLEDESCR_ROLE_SPG = b'#menu:roleExp/roleDescr/role_SPG'
     ROLEEXP_ROLELABEL = b'#menu:roleExp/roleLabel'
     ROLEEXP_ACTION_BLOCKANDTAKEDAMAGE = b'#menu:roleExp/action/blockAndTakeDamage'
@@ -2865,6 +2901,8 @@ class MENU(object):
      TANK_PARAMS_LOWCHARGESHOTDISPERTION,
      TANK_PARAMS_LOWCHARGESHOTVELOCITY,
      TANK_PARAMS_LOWCHARGESHOTBLOCKDURATION,
+     TANK_PARAMS_SHELLCALIBRATIONAVGPENETRATION,
+     TANK_PARAMS_SHELLCALIBRATIONAVGDAMAGE,
      TANK_PARAMS_MAXHEALTH,
      TANK_PARAMS_VEHICLEWEIGHT,
      TANK_PARAMS_ENGINEPOWER,
@@ -2963,6 +3001,8 @@ class MENU(object):
      TANK_PARAMS_STATIONARYRELOADSWITCHONTIME,
      TANK_PARAMS_STATIONARYRELOADSWITCHOFFTIME,
      TANK_PARAMS_EXTENDEDTITLE_DUALACCURACYCOOLINGDELAY,
+     TANK_PARAMS_EXTENDEDTITLE_BUSTLEFEEDSWITCHINGTOBAF,
+     TANK_PARAMS_EXTENDEDTITLE_BUSTLEFEEDMAXSPEED,
      TANK_PARAMS_VALUES_PARAM12_VALUE0,
      TANK_PARAMS_VALUES_PARAM12_VALUE1,
      TANK_PARAMS_VALUES_PARAM12_VALUE2,
@@ -2992,6 +3032,7 @@ class MENU(object):
      TANK_PARAMS_PROPELLANTPOSTLIMITDISPERSION,
      TANK_PARAMS_PROPELLANTPOSTLIMITAIMINGTIME,
      TANK_PARAMS_PROPELLANTOVERCHARGESWITCHCOOLDOWN,
+     TANK_PARAMS_SHELLPARAMSSWITCHINGTIME,
      TANK_PARAMS_T,
      TANK_PARAMS_P,
      TANK_PARAMS_PT,
@@ -3024,7 +3065,7 @@ class MENU(object):
      TANK_PARAMS_STUNMINDURATION,
      TANK_PARAMS_STUNDURATIONLIST,
      TANK_PARAMS_CHARGETIME,
-     TANK_PARAMS_PENETRATIONLOSS,
+     TANK_PARAMS_SHELLPENETRATIONLOSS,
      TANK_PARAMS_NO_BRACKETS_KG,
      TANK_PARAMS_NO_BRACKETS_S,
      TANK_PARAMS_NO_BRACKETS_MM,
@@ -3041,7 +3082,32 @@ class MENU(object):
      TANK_PARAMS_WHEELEDDASHABILITYRELOADTIME,
      TANK_PARAMS_WHEELEDDASHABILITYRELOADTIMEBONUS,
      TANK_PARAMS_WHEELEDDASHSPEEDLIMITS,
-     TANK_PARAMS_WHEELEDDASHREVERSESPEED)
+     TANK_PARAMS_WHEELEDDASHREVERSESPEED,
+     TANK_PARAMS_AUXILIARYROCKETLAUNCHERRELOADTIME,
+     TANK_PARAMS_AUXILIARYROCKETLAUNCHERAVGDAMAGE,
+     TANK_PARAMS_AUXILIARYROCKETLAUNCHERPENETRATION,
+     TANK_PARAMS_AUXILIARYROCKETLAUNCHERVELOCITY,
+     TANK_PARAMS_AUXILIARYROCKETLAUNCHERDISPERSION,
+     TANK_PARAMS_AUTORELOADERSURGEMAXCHARGES,
+     TANK_PARAMS_AUTORELOADERSURGEINITCHARGES,
+     TANK_PARAMS_AUTORELOADERSURGECHARGETIMESLOW,
+     TANK_PARAMS_AUTORELOADERSURGECHARGETIMEFAST,
+     TANK_PARAMS_AUTORELOADERSURGEBOOSTEDRELOADTIME,
+     TANK_PARAMS_BUSTLEFEEDDAMAGEPERSHOT,
+     TANK_PARAMS_BUSTLEFEEDRATEOFFIRE,
+     TANK_PARAMS_BUSTLEFEEDSWITCHINGTOEASMMODE,
+     TANK_PARAMS_BUSTLEFEEDSWITCHINGTOSTANDARDMODE,
+     TANK_PARAMS_BUSTLEFEEDMAXSPEED,
+     TANK_PARAMS_SIGHTPOINTERDEPLOYTIME,
+     TANK_PARAMS_SIGHTPOINTERRELOADTIME,
+     TANK_PARAMS_SIGHTPOINTERDURATION,
+     TANK_PARAMS_SIGHTPOINTERROTATIONSPEED,
+     TANK_PARAMS_SIGHTPOINTERSECTORANGLESTART,
+     TANK_PARAMS_SIGHTPOINTERSECTORANGLEEND,
+     TANK_PARAMS_SIGHTPOINTERSELFSPOTTINGTIME,
+     TANK_PARAMS_SIGHTPOINTERVIEWRANGE,
+     TANK_PARAMS_SIGHTPOINTERCONSEALMENTFOLIAGE,
+     TANK_PARAMS_SIGHTPOINTERCONSEALMENTMOVING)
     BROWSER_CUSTOMTITLE_ENUM = (
      BROWSER_CUSTOMTITLE_FORT_OFFENSIVERESULT,
      BROWSER_CUSTOMTITLE_FORT_CONGRATULATION)

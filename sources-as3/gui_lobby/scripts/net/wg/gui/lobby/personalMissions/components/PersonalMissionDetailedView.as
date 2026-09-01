@@ -551,7 +551,7 @@ package net.wg.gui.lobby.personalMissions.components
                }
                invalidate(INVALIDATE_CONDITIONS_LAYOUT);
             }
-            if(isInvalid(InvalidationType.DATA,VERTICAL_POINT_INV))
+            if(isInvalidTypes(InvalidationType.DATA,VERTICAL_POINT_INV))
             {
                dispatchEvent(new PersonalMissionDetailedViewEvent(PersonalMissionDetailedViewEvent.CONTROLS_VISIBLE_SET,this._vo.eventID));
             }

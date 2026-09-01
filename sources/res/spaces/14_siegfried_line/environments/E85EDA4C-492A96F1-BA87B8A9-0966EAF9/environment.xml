@@ -76,36 +76,31 @@
 		<enable>true</enable>
 		<adaptationSpeed>100</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
 			<threshold>0.200000003</threshold>
 			<amount>0.550000012</amount>
-			<tint>1 1 1</tint>
 			<dirtAmount>0.779999971</dirtAmount>
 		</bloom>
 		<environment>
 			<sunlightLumMultiplier>6</sunlightLumMultiplier>
-			<ambientLumMultiplier>1</ambientLumMultiplier>
 			<sunLumMultiplier>19</sunLumMultiplier>
 			<skyLumMultiplier>5</skyLumMultiplier>
+			<skyLumMultiplierDeferred>1</skyLumMultiplierDeferred>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 		</environment>
 		<tonemappings>
 			<tonemapping>
 				<name>RexpTM</name>
-				<middleGray>0.189999998</middleGray>
 				<whitePoint>1</whitePoint>
 				<blackPoint>3</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
-				<middleGray>0.194353998</middleGray>
 				<whitePoint>12.79</whitePoint>
 				<blackPoint>3.5</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
-				<middleGray>0.285636991</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.5</blackPoint>
 			</tonemapping>
@@ -178,6 +173,10 @@
 		<amplify>1</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.305000007</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.305000007</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.305000007</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.305000007</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/14_siegfried_line/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -282,4 +281,7 @@
 		<transmissionMult>0.449999988</transmissionMult>
 		<waterReflectionAttenuation>0.600000024</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

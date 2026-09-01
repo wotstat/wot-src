@@ -811,6 +811,8 @@ def wg_collideDynamic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: i
 
 def wg_collideDynamicStatic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: int = ..., arg4: int = ..., arg5: int = ..., arg6: int = ...) -> Any: ...
 
+def wg_collideDynamics(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: Any) -> Any: ...
+
 def wg_collideSegment(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: int, arg4: int = ...) -> Any: ...
 
 def wg_collideSphereDynamicStatic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: float, arg4: int, arg5: int, arg6: int) -> Any: ...
@@ -1130,6 +1132,7 @@ ArenaBorderHelper: Any
 ArtyAimingSystem: Any
 ArtyAimingSystemRemote: Any
 AssetException: Any
+AxisEvent: Any
 Base: Any
 CollisionComponent: Any
 CollisionUpdateSystem: Any
@@ -1156,6 +1159,7 @@ TwinGunAimingSystem: Any
 TwinGunAimingSystemRemote: Any
 UserDataObject: Any
 VOIP: Any
+WGPillboxFilter: Any
 WGPinger: Any
 WGWindowsNotifier: Any
 WindowModeBorderless: Any

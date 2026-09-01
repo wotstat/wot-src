@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division
 import logging, BigWorld, CGF, Math
 from GenericComponents import Sequence, StateSwitcherComponent
-from cgf_components_common.vehicle_mechanics import StationaryReloadSequenceParamsComponent
+from cgf_components_common.vehicle_components import VehicleSequenceParamsAttachedComponent
 from avatar_components.avatar_postmortem_component import SimulatedVehicleType
 from constants import KILL_CAM_STATUS_CODE, BATTLE_LOG_SHELL_TYPES
 from gun_rotation_shared import decodeGunAngles
@@ -54,26 +54,25 @@ class KillCamDataComponent(BigWorld.DynamicScriptComponent):
         playerData = self.__captureVehSimulationData(BigWorld.entity(playerID))
         if not playerData:
             return
-        else:
-            serverKillCamData = self.capturedKillCamData
-            attackerID = serverKillCamData[b'attacker'][b'attackerID']
-            playerServerData = serverKillCamData[b'victim']
-            playerData.update(playerServerData)
-            playerData[b'simulationType'] = SimulatedVehicleType.PLAYER
-            playerData[b'damageStickers'] = list(playerData.get(b'damageStickers', []))
-            projectileData = {}
-            projectileData.update(serverKillCamData[b'projectile'][b'unspottedData'])
-            shellData = self.__unpackShellData(projectileData[b'shellCompDescr'])
-            projectileData.update(shellData)
-            projectileDataSpotted = serverKillCamData[b'projectile'][b'spottedData']
-            if projectileDataSpotted:
-                projectileData.update(projectileDataSpotted)
-            self.processedData = {b'attacker': (self.__getAttackerData()), 
-               b'player': playerData, 
-               b'projectile': projectileData, 
-               b'others': (self.__collectOtherVehiclesForKillCam(vehicles, attackerID, playerID)), 
-               b'time': (BigWorld.time())}
-            return
+        serverKillCamData = self.capturedKillCamData
+        attackerID = serverKillCamData[b'attacker'][b'attackerID']
+        playerServerData = serverKillCamData[b'victim']
+        playerData.update(playerServerData)
+        playerData[b'simulationType'] = SimulatedVehicleType.PLAYER
+        playerData[b'damageStickers'] = list(playerData.get(b'damageStickers', []))
+        projectileData = {}
+        projectileData.update(serverKillCamData[b'projectile'][b'unspottedData'])
+        shellData = self.__unpackShellData(projectileData[b'shellCompDescr'])
+        projectileData.update(shellData)
+        projectileDataSpotted = serverKillCamData[b'projectile'][b'spottedData']
+        if projectileDataSpotted:
+            projectileData.update(projectileDataSpotted)
+        self.processedData = {b'attacker': (self.__getAttackerData()), 
+           b'player': playerData, 
+           b'projectile': projectileData, 
+           b'others': (self.__collectOtherVehiclesForKillCam(vehicles, attackerID, playerID)), 
+           b'time': (BigWorld.time())}
+        return
 
     def __getAttackerData(self):
         serverKillCamData = self.capturedKillCamData
@@ -164,12 +163,12 @@ class KillCamDataComponent(BigWorld.DynamicScriptComponent):
 
     def __getDynAttachmentsInfo(self, vehicle):
         parentGameObject = vehicle.entityGameObject
-        result = CGF.findInHierarchyWithComponent(parentGameObject, StationaryReloadSequenceParamsComponent)
+        result = CGF.findInHierarchyWithComponent(parentGameObject, VehicleSequenceParamsAttachedComponent)
         if not result:
             return
         else:
             if len(result) > 1:
-                _logger.warning(b'Multiple StationaryReloadSequenceParamsComponent is not supported in death cam')
+                _logger.warning(b'Multiple VehicleDynamicPartAttachedComponent is not supported in death cam')
                 return
             gameObject = first(result).object
             if not gameObject.valid:

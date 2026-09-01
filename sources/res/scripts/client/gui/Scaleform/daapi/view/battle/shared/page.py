@@ -122,6 +122,7 @@ class SharedPage(BattlePageMeta):
             external = (
              crosshair.CrosshairPanelContainer, markers2d.MarkersManager, markers2d.KillCamMarkersManager)
         self._external = [item() for item in external]
+        self.__toRestore = []
         if components is None:
             components = _SHARED_COMPONENTS_CONFIG
         else:
@@ -178,6 +179,8 @@ class SharedPage(BattlePageMeta):
         self.addListener(events.GameEvent.FULL_STATS_QUEST_PROGRESS, self._handleToggleFullStatsQuestProgress, scope=EVENT_BUS_SCOPE.BATTLE)
         self.addListener(events.GameEvent.FULL_STATS_PERSONAL_RESERVES, self._handleToggleFullStatsPersonalReserves, scope=EVENT_BUS_SCOPE.BATTLE)
         self.addListener(events.GameEvent.TOGGLE_GUI, self._handleGUIToggled, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.addListener(events.GameEvent.GO_TO_PREBATTLE_HIGHLIGHTS, self.hideEverythingButTimer, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.addListener(events.GameEvent.RETURN_FROM_PREBATTLE_HIGHLIGHTS, self.restoreFromPrebattleHighlights, scope=EVENT_BUS_SCOPE.BATTLE)
         self.addListener(events.GameEvent.SHOW_CURSOR, self.__handleShowCursor, scope=EVENT_BUS_SCOPE.GLOBAL)
         self.addListener(events.GameEvent.HIDE_CURSOR, self.__handleHideCursor, scope=EVENT_BUS_SCOPE.GLOBAL)
         self.addListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, EVENT_BUS_SCOPE.BATTLE)
@@ -206,6 +209,8 @@ class SharedPage(BattlePageMeta):
         self.removeListener(events.GameEvent.FULL_STATS_QUEST_PROGRESS, self._handleToggleFullStatsQuestProgress, scope=EVENT_BUS_SCOPE.BATTLE)
         self.removeListener(events.GameEvent.FULL_STATS_PERSONAL_RESERVES, self._handleToggleFullStatsPersonalReserves, scope=EVENT_BUS_SCOPE.BATTLE)
         self.removeListener(events.GameEvent.TOGGLE_GUI, self._handleGUIToggled, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.removeListener(events.GameEvent.GO_TO_PREBATTLE_HIGHLIGHTS, self.hideEverythingButTimer, scope=EVENT_BUS_SCOPE.BATTLE)
+        self.removeListener(events.GameEvent.RETURN_FROM_PREBATTLE_HIGHLIGHTS, self.restoreFromPrebattleHighlights, scope=EVENT_BUS_SCOPE.BATTLE)
         self.removeListener(events.GameEvent.SHOW_CURSOR, self.__handleShowCursor, scope=EVENT_BUS_SCOPE.GLOBAL)
         self.removeListener(events.GameEvent.HIDE_CURSOR, self.__handleHideCursor, scope=EVENT_BUS_SCOPE.GLOBAL)
         self.removeListener(events.GameEvent.SHOW_EXTERNAL_COMPONENTS, self.__handleShowExternals, scope=EVENT_BUS_SCOPE.GLOBAL)
@@ -377,6 +382,19 @@ class SharedPage(BattlePageMeta):
         self._setComponentsVisibility(visible=self._destroyTimerToggling)
         self._destroyTimerToggling.clear()
         self._isDestroyTimerShown = False
+        return
+
+    def hideEverythingButTimer(self, _):
+        toHide = self.as_getComponentsVisibilityS()
+        if _ALIASES.PREBATTLE_TIMER in toHide:
+            toHide.remove(_ALIASES.PREBATTLE_TIMER)
+        self._setComponentsVisibility(visible={_ALIASES.PREBATTLE_TIMER}, hidden=toHide)
+        self.__toRestore = list(toHide)
+        return
+
+    def restoreFromPrebattleHighlights(self, _):
+        self._setComponentsVisibility(visible=self.__toRestore)
+        self.__toRestore = []
         return
 
     def _changeCtrlMode(self, ctrlMode):

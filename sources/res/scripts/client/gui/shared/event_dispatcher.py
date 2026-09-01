@@ -1,12 +1,12 @@
 from __future__ import absolute_import
-import logging
+import logging, typing
 from operator import attrgetter
-import adisp, typing
+import adisp, Steam
 from BWUtil import AsyncReturn
 from account_helpers.settings_core.settings_constants import GuiSettingsBehavior
 from helpers.aop import pointcutable
+from personal_missions import PM_BRANCH
 from shared_utils import first
-import Steam
 from CurrentVehicle import HeroTankPreviewAppearance
 from advanced_achievements_client.constants import TROPHIES_ACHIEVEMENT_ID
 from constants import GameSeasonType, RentType
@@ -66,7 +66,7 @@ from items import ITEM_TYPES, parseIntCompactDescr
 from items import vehicles as vehicles_core
 from nations import NAMES
 from skeletons.gui.app_loader import IAppLoader
-from skeletons.gui.game_control import IBattlePassController, IBoostersController, IBrowserController, IClanNotificationController, ICollectionsSystemController, IHeroTankController, IMarathonEventsController, IReferralProgramController, ILimitedUIController
+from skeletons.gui.game_control import IBattlePassController, IBoostersController, IBrowserController, IClanNotificationController, ICollectionsSystemController, IHeroTankController, ILimitedUIController, IMarathonEventsController, IReferralProgramController
 from skeletons.gui.goodies import IGoodiesCache
 from skeletons.gui.impl import IGuiLoader, INotificationWindowController
 from skeletons.gui.lobby_context import ILobbyContext
@@ -955,6 +955,30 @@ def showBubbleTooltip(msg):
     return
 
 
+def showLootBoxEntry():
+    from skeletons.gui.game_control import ILootBoxSystemController
+    from gui.lootbox_system.base.common import Views, ViewID
+    lootBoxesCtrl = dependency.instance(ILootBoxSystemController)
+    Views.load(ViewID.MAIN, eventName=lootBoxesCtrl.mainEntryPoint)
+    return
+
+
+@dependency.replace_none_kwargs(lobbyCtx=ILobbyContext)
+def showLootBoxBuyWindow(eventName, lobbyCtx=None):
+    if not lobbyCtx.getServerSettings().isLootBoxesEnabled():
+        _logger.debug(b'LootBoxes are disabled on server. Nothing will be shown!')
+        return
+    from gui.lootbox_system.base.utils import getShopOverlayUrl
+    showBrowserOverlayView(getShopOverlayUrl(eventName), VIEW_ALIAS.OVERLAY_WEB_STORE)
+    return
+
+
+def showLootBox(lootBoxType):
+    from gui.lootbox_system.base.common import Views, ViewID
+    Views.load(ViewID.MAIN, eventName=lootBoxType)
+    return
+
+
 def showReferralProgramWindow(url=None):
     referralController = dependency.instance(IReferralProgramController)
     if url is None:
@@ -1297,7 +1321,7 @@ def showOptionalDeviceDemountFromSlot(deviceDescr, callback, forFitting=False, v
 def _killOldView(layoutID):
     uiLoader = dependency.instance(IGuiLoader)
     if not uiLoader or not uiLoader.windowsManager:
-        return
+        return False
     view = uiLoader.windowsManager.getViewByLayoutID(layoutID)
     if view:
         view.destroyWindow()
@@ -1999,12 +2023,13 @@ def showCollectionsIntro(guiLoader=None):
 
 @dependency.replace_none_kwargs(guiLoader=IGuiLoader)
 def showWinbackIntroView(guiLoader=None):
-    layoutID = R.views.lobby.winback.WinbackDailyQuestsIntroView()
+    from gui.impl.lobby.winback.winback_umg_intro_view import WinbackUmgIntroWindow
+    layoutID = R.views.mono.winback.winback_umg_intro_view()
     view = guiLoader.windowsManager.getViewByLayoutID(layoutID)
     if view:
         return
-    from gui.impl.lobby.winback.winback_daily_quests_intro_view import WinbackDailyQuestsIntroView
-    g_eventBus.handleEvent(events.LoadGuiImplViewEvent(GuiImplViewLoadParams(layoutID, WinbackDailyQuestsIntroView, ScopeTemplates.LOBBY_SUB_SCOPE)), scope=EVENT_BUS_SCOPE.LOBBY)
+    window = WinbackUmgIntroWindow()
+    window.load()
     return
 
 
@@ -2058,7 +2083,8 @@ def showPrebattleHintsWindow(hintModel, hintsViewClass=None):
     if not callable(needToShow) or needToShow():
         window = PrebattleHintsWindow(hintModel, hintsViewClass)
         window.load()
-    return
+        return True
+    return False
 
 
 @dependency.replace_none_kwargs(notificationsMgr=INotificationWindowController)
@@ -2287,22 +2313,25 @@ def showPersonalMissionChain(operationID, missionCategory, state=None):
 def showPM30IntroWindow(force=False):
     from gui.impl.lobby.personal_missions_30.intro_view import MainIntroViewWindow
     from gui.impl.lobby.personal_missions_30.views_helpers import isIntroShown, markIntroShown
-    introKey = IntroKeys.MAIN_INTRO_VIEW.value
-    if not isIntroShown(introKey) or force:
+    branchID = PM_BRANCH.PERSONAL_MISSION_3
+    introKey = IntroKeys.PM3_MAIN_INTRO_VIEW.value
+    if not isIntroShown(introKey, branchID) or force:
         if not force:
-            markIntroShown(introKey)
+            markIntroShown(introKey, branchID)
         pmCampaignIntroView = MainIntroViewWindow()
         pmCampaignIntroView.load()
     return
 
 
-def showPM30OperationIntroWindow(operationID, force=False):
+def showWithoutAwardListOperationIntroWindow(operationID, force=False):
+    from gui.server_events.finders import getBranchByOperationId
     from gui.impl.lobby.personal_missions_30.intro_view import OperationIntroViewWindow
     from gui.impl.lobby.personal_missions_30.views_helpers import isIntroShown, markIntroShown
+    branchID = getBranchByOperationId(operationID)
     introKey = IntroKeys.OPERATION_INTRO_VIEW.value % operationID
-    if not isIntroShown(introKey) or force:
+    if not isIntroShown(introKey, branchID) or force:
         if not force:
-            markIntroShown(introKey)
+            markIntroShown(introKey, branchID)
         pmCampaignIntroView = OperationIntroViewWindow(operationID)
         pmCampaignIntroView.load()
     return
@@ -2316,7 +2345,7 @@ def showPM30OperationAssemblingVideoWindow(operationID, stageNumber, closingCall
 
 
 @dependency.replace_none_kwargs(notificationMgr=INotificationWindowController)
-def showPM30RewardsWindow(ctx, notificationMgr=None):
+def showPMAdvancedRewardsWindow(ctx, notificationMgr=None):
     from gui.impl.lobby.personal_missions_30.rewards_view import RewardsViewWindow
     window = RewardsViewWindow(ctx)
     notificationMgr.append(WindowNotificationCommand(window))
@@ -2395,4 +2424,22 @@ def showAttachmentsSetPreview(setTokenID):
     from gui.impl.lobby.customization.attachments_preview.attachments_preview import AttachmentsPreviewWindow
     window = AttachmentsPreviewWindow(setTokenID)
     window.load()
+    return
+
+
+@wg_async
+def showRerollBoxDialog(eventName, price, currency):
+    from gui.impl.dialogs import dialogs
+    from gui.impl.lobby.dialogs.full_screen_dialog_view import FullScreenDialogWindowWrapper
+    from gui.impl.lobby.lootbox_system.base.box_reroll_dialog import BoxRerollView
+    layoutID = R.views.mono.lootbox.dialogs.reroll_dialog()
+    guiLoader = dependency.instance(IGuiLoader)
+    isConfirmed = False
+    if guiLoader.windowsManager.getViewByLayoutID(layoutID) is None:
+        wrapper = FullScreenDialogWindowWrapper(BoxRerollView(layoutID=layoutID, eventName=eventName, currency=currency, price=price), layer=WindowLayer.OVERLAY)
+        result = yield wg_await(dialogs.showSimpleWithResultData(wrapper))
+        accepted, data = result
+        isUserCancelAction = isinstance(data, dict) and data.get(b'isUserCancelAction')
+        isConfirmed = accepted or not isUserCancelAction
+    raise AsyncReturn(isConfirmed)
     return

@@ -6,31 +6,22 @@ from py2to3.utils import PY3
 def _joinseq(seq):
     if len(seq) == 1:
         return b'(' + seq[0] + b',)'
-    else:
-        return b'(' + (b', ').join(seq) + b')'
-
-    return
+    return b'(' + (b', ').join(seq) + b')'
 
 
 def _strseq(obj, convert, join=_joinseq):
     if isinstance(obj, (list, tuple)):
         return join(lmap((lambda o, c=convert, j=join: _strseq(o, c, j)), obj))
-    else:
-        return convert(obj)
-
-    return
+    return convert(obj)
 
 
 def getargspec(func):
     if PY3:
         return inspect.getfullargspec(func)
-    else:
-        return inspect.getargspec(func)
-
-    return
+    return inspect.getargspec(func)
 
 
-def formatargspec(args, varargs=None, varkw=None, defaults=None, kwonlyargs=(), kwonlydefaults={}, annotations={}, formatarg=str, formatvarargs=(lambda name: b'*' + name), formatvarkw=(lambda name: b'**' + name), formatvalue=(lambda value: b'=' + repr(value)), join=_joinseq):
+def formatargspec(args, varargs=None, varkw=None, defaults=None, kwonlyargs=None, kwonlydefaults=None, annotations=None, formatarg=str, formatvarargs=(lambda name: b'*' + name), formatvarkw=(lambda name: b'**' + name), formatvalue=(lambda value: b'=' + repr(value)), join=_joinseq):
     specs = []
     if defaults:
         firstdefault = len(args) - len(defaults)

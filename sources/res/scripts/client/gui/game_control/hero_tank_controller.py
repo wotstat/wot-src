@@ -16,8 +16,8 @@ from skeletons.gui.shared import IItemsCache
 _logger = logging.getLogger(__name__)
 _HERO_VEHICLES = b'hero_vehicles'
 _ADD_HERO_STEP_NAME = b'add_HeroVehicle'
-_HeroTankInfo = namedtuple(b'_HeroTankInfo', (b'url', b'styleID', b'crew', b'name', b'shopUrl'))
-_HeroTankInfo.__new__.__defaults__ = (b'', None, None, b'', b'')
+_HeroTankInfo = namedtuple(b'_HeroTankInfo', (b'url', b'styleID', b'crew', b'name', b'shopUrl', b'fromBoxes'))
+_HeroTankInfo.__new__.__defaults__ = (b'', None, None, b'', b'', False, False)
 
 class HeroTankController(IHeroTankController):
     itemsCache = dependency.descriptor(IItemsCache)
@@ -64,8 +64,8 @@ class HeroTankController(IHeroTankController):
     def isEnabled(self):
         return self.__isEnabled and bool(self.__data)
 
-    def setEnabled(self, enabled):
-        self.__isEnabled = enabled
+    def setEnabled(self, isEnabled):
+        self.__isEnabled = isEnabled
         self.onUpdated()
         return
 
@@ -105,6 +105,11 @@ class HeroTankController(IHeroTankController):
         if self.isEnabled() and self.__currentTankCD in self.__data:
             return self.__data[self.__currentTankCD].name
         return b''
+
+    def getCurrentFromBoxes(self):
+        if self.isEnabled() and self.__currentTankCD in self.__data:
+            return self.__data[self.__currentTankCD].fromBoxes
+        return False
 
     def setInteractive(self, interactive):
         self.onInteractive(interactive)
@@ -147,7 +152,7 @@ class HeroTankController(IHeroTankController):
             for vCompDescr, vData in viewitems(heroVehicles):
                 if vCompDescr in self.__invVehiclesIntCD:
                     continue
-                self.__data[vCompDescr] = _HeroTankInfo(name=vData.get(b'name'), url=vData.get(b'url'), shopUrl=vData.get(b'shopUrl'), styleID=vData.get(b'styleID'), crew=self.__createCrew(vData.get(b'crew'), vCompDescr))
+                self.__data[vCompDescr] = _HeroTankInfo(name=vData.get(b'name'), url=vData.get(b'url'), shopUrl=vData.get(b'shopUrl'), styleID=vData.get(b'styleID'), crew=self.__createCrew(vData.get(b'crew'), vCompDescr), fromBoxes=vData.get(b'fromBoxes'))
 
         self.__applyActions()
         self.onUpdated()
@@ -179,7 +184,7 @@ class HeroTankController(IHeroTankController):
                 return
             styleStr = params.get(b'styleID')
             styleId = int(styleStr) if styleStr else None
-            self.__data[vCompDescr] = _HeroTankInfo(name=vName, url=params.get(b'url'), shopUrl=params.get(b'shopUrl'), styleID=styleId, crew=self.__createCrew(params.get(b'crew'), vCompDescr))
+            self.__data[vCompDescr] = _HeroTankInfo(name=vName, url=params.get(b'url'), shopUrl=params.get(b'shopUrl'), styleID=styleId, crew=self.__createCrew(params.get(b'crew'), vCompDescr), fromBoxes=params.get(b'fromBoxes'))
             return
 
     def __createCrew(self, crewXml, vCompDescr):

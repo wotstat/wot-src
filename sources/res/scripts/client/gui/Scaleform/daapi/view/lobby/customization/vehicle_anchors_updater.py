@@ -386,7 +386,8 @@ class VehicleAnchorsUpdater(object):
         if slotId in self.__processedAnchors:
             anchor = self.__processedAnchors[slotId]
             return anchor.stateID
-        return
+        else:
+            return
 
     def __changeAnchorsStates(self):
         if self.__changedStates:

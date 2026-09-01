@@ -53,6 +53,11 @@ class CrewAccountController(IGameController):
             before = self.tankmanVeteranAnimanion.get(tankmaninvID)
             return before is not None and not before and concurrent
 
+    def setTankmanVeteranAnimanionPlayed(self, tankmaninvID):
+        if tankmaninvID in self.tankmanVeteranAnimanion:
+            self.tankmanVeteranAnimanion[tankmaninvID] = True
+        return
+
     def setLearnedSkillsAnimanion(self, tankmaninvID, learnedSkills):
         skills = self.tankmanLearnedSkillsAnimanion.setdefault(tankmaninvID, [])
         skills += learnedSkills

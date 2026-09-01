@@ -195,6 +195,8 @@ package net.wg.gui.lobby.training
          this.ownerLabel.text = MENU.TRAINING_INFO_OWNER;
          this.timeoutLabel.text = MENU.TRAINING_INFO_TIMEOUT_LABEL;
          this.maxPlayersLabel.text = MENU.TRAINING_INFO_MAXPLAYERS;
+         this.timeoutLabel.mouseEnabled = false;
+         this.maxPlayersLabel.mouseEnabled = false;
          this.timeout.buttonMode = false;
          this.timeout.autoSize = this.maxPlayers.autoSize = TextFieldAutoSize.LEFT;
          this.maxPlayers.buttonMode = false;
@@ -236,7 +238,6 @@ package net.wg.gui.lobby.training
       
       override protected function onPopulate() : void
       {
-         var _loc1_:Boolean = false;
          super.onPopulate();
          if(canAssignToTeamS(1) || canAssignToTeamS(2) || canChangePlayerTeamS())
          {
@@ -248,7 +249,7 @@ package net.wg.gui.lobby.training
          }
          registerFlashComponentS(this.minimap,Aliases.LOBBY_MINIMAP);
          this.setTeamsInfo();
-         _loc1_ = Boolean(this._voiceChatMgr.getYY());
+         var _loc1_:Boolean = Boolean(this._voiceChatMgr.getYY());
          var _loc2_:Boolean = Boolean(this._voiceChatMgr.isVOIPEnabledS());
          this.arenaVoipSettings.visible = _loc2_ || _loc1_;
          this.arenaVOIPLabel.text = _loc2_ || _loc1_ ? MENU.TRAINING_INFO_VOICECHAT : Values.EMPTY_STR;

@@ -1,0 +1,141 @@
+from __future__ import absolute_import
+import typing
+from gui.battle_control.battle_constants import BATTLE_CTRL_ID
+from gui.Scaleform.daapi.view.battle.shared import SharedPage
+from gui.Scaleform.daapi.view.battle.shared.indicators import createPredictionIndicator
+from gui.Scaleform.daapi.view.battle.shared.page import ComponentsConfig
+from gui.Scaleform.daapi.view.battle.shared.start_countdown_sound_player import StartCountdownSoundPlayer
+from gui.Scaleform.genConsts.BATTLE_VIEW_ALIASES import BATTLE_VIEW_ALIASES
+from shared_utils import CONST_CONTAINER
+from fall_tanks.gui.battle_control.mixins import FallTanksBattleMixin
+from fall_tanks.gui.Scaleform.daapi.view.battle import crosshair
+from fall_tanks.gui.Scaleform.daapi.view.battle import indicators
+from fall_tanks.gui.Scaleform.daapi.view.battle import markers2d
+from fall_tanks.gui.Scaleform.daapi.view.battle.page.manager import FallTanksComponentsManager
+if typing.TYPE_CHECKING:
+    from fall_tanks.gui.battle_control.arena_info.interfaces import IFallTanksVehicleInfo
+
+class DynamicAliases(CONST_CONTAINER):
+    PREBATTLE_TIMER_SOUND_PLAYER = b'prebattleTimerSoundPlayer'
+
+
+class _FallTanksComponentsConfig(ComponentsConfig):
+
+    def __init__(self):
+        super(_FallTanksComponentsConfig, self).__init__((
+         (
+          BATTLE_CTRL_ID.ARENA_PERIOD,
+          (
+           BATTLE_VIEW_ALIASES.BATTLE_TIMER,
+           BATTLE_VIEW_ALIASES.PREBATTLE_TIMER,
+           DynamicAliases.PREBATTLE_TIMER_SOUND_PLAYER,
+           BATTLE_VIEW_ALIASES.BATTLE_END_WARNING_PANEL,
+           BATTLE_VIEW_ALIASES.HINT_PANEL)),
+         (
+          BATTLE_CTRL_ID.PERKS, (BATTLE_VIEW_ALIASES.SITUATION_INDICATORS,)),
+         (
+          BATTLE_CTRL_ID.MAPS, (BATTLE_VIEW_ALIASES.MINIMAP,)),
+         (
+          BATTLE_CTRL_ID.DEBUG, (BATTLE_VIEW_ALIASES.DEBUG_PANEL,)),
+         (
+          BATTLE_CTRL_ID.PREBATTLE_SETUPS_CTRL, (BATTLE_VIEW_ALIASES.DAMAGE_PANEL,)),
+         (
+          BATTLE_CTRL_ID.AMMO, (BATTLE_VIEW_ALIASES.CONSUMABLES_PANEL,)),
+         (
+          BATTLE_CTRL_ID.HIT_DIRECTION,
+          (
+           BATTLE_VIEW_ALIASES.HIT_DIRECTION,
+           BATTLE_VIEW_ALIASES.PREDICTION_INDICATOR))), viewsConfig=(
+         (
+          BATTLE_VIEW_ALIASES.HIT_DIRECTION, indicators.createFallTanksDamageIndicator),
+         (
+          BATTLE_VIEW_ALIASES.PREDICTION_INDICATOR, createPredictionIndicator),
+         (
+          DynamicAliases.PREBATTLE_TIMER_SOUND_PLAYER, StartCountdownSoundPlayer)))
+        return
+
+
+_FALL_TANKS_COMPONENTS_CONFIG = _FallTanksComponentsConfig()
+
+class FallTanksPage(SharedPage, FallTanksBattleMixin):
+
+    def __init__(self):
+        super(FallTanksPage, self).__init__(components=_FALL_TANKS_COMPONENTS_CONFIG, external=(
+         crosshair.FallTanksCrosshairPanelContainer, markers2d.FallTanksMarkersManager))
+        self.__visibilityManager = FallTanksComponentsManager(self)
+        return
+
+    def setComponentsVisibility(self, visible=None, hidden=None):
+        self._setComponentsVisibility(visible=visible, hidden=hidden)
+        return
+
+    def _dispose(self):
+        self.__visibilityManager.destroy()
+        super(FallTanksPage, self)._dispose()
+        return
+
+    def _startBattleSession(self):
+        super(FallTanksPage, self)._startBattleSession()
+        self.startFallTanksAttachedListening(self.__onFallTanksAttachedInfoUpdate)
+        self.__onFallTanksAttachedInfoUpdate()
+        return
+
+    def _stopBattleSession(self):
+        self.__visibilityManager.clear()
+        self.stopFallTanksAttachedListening(self.__onFallTanksAttachedInfoUpdate)
+        super(FallTanksPage, self)._stopBattleSession()
+        return
+
+    def _onAvatarCtrlModeChanged(self, ctrlMode):
+        return
+
+    def _onBattleLoadingFinish(self):
+        super(FallTanksPage, self)._onBattleLoadingFinish()
+        self.__visibilityManager.onBattleLoaded()
+        return
+
+    def _onPostMortemReload(self):
+        self.__setIsInPostmortem(False)
+        return
+
+    def _onPostMortemSwitched(self, noRespawnPossible, respawnAvailable):
+        self.__setIsInPostmortem(True)
+        self.as_onPostmortemActiveS(True)
+        return
+
+    def _onRespawnBaseMoving(self):
+        self.as_onPostmortemActiveS(False)
+        self.__setIsInPostmortem(False)
+        return
+
+    def _handleGUIToggled(self, event):
+        self._toggleGuiVisible()
+        return
+
+    def _handleHelpEvent(self, event):
+        return
+
+    def _handleRadialMenuCmd(self, event):
+        return
+
+    def _handleToggleFullStats(self, event):
+        return
+
+    def _handleToggleFullStatsQuestProgress(self, event):
+        return
+
+    def _handleToggleFullStatsPersonalReserves(self, event):
+        return
+
+    def _processCallout(self, needShow):
+        return
+
+    def __setIsInPostmortem(self, isInPostmortem):
+        self._isInPostmortem = isInPostmortem
+        self.__visibilityManager.setIsInPostmortem(isInPostmortem)
+        return
+
+    def __onFallTanksAttachedInfoUpdate(self, attachedInfo=None):
+        attachedInfo = attachedInfo or self.getFallTanksAttachedVehicleInfo()
+        self.__visibilityManager.onFallTanksAttachedInfoUpdate(attachedInfo)
+        return

@@ -11,8 +11,8 @@ class Comp7LightRoleSkillBattleContext(ToolTipContext):
         super(Comp7LightRoleSkillBattleContext, self).__init__(TOOLTIP_COMPONENT.FULL_STATS)
         return
 
-    def buildItem(self, roleName):
-        return self.__comp7LightController.getRoleEquipment(roleName)
+    def buildItem(self, equipmentName):
+        return vehicles.getEquipmentByName(equipmentName)
 
     def getStartLevel(self, roleName):
         return self.__comp7LightController.getEquipmentStartLevel(roleName)

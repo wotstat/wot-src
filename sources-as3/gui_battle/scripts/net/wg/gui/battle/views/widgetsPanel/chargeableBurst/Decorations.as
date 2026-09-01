@@ -56,7 +56,7 @@ package net.wg.gui.battle.views.widgetsPanel.chargeableBurst
          this._disposed = true;
       }
       
-      public function hasBurstBullets(param1:Boolean) : void
+      public function setBurstBullets(param1:Boolean) : void
       {
          if(param1)
          {
@@ -79,6 +79,7 @@ package net.wg.gui.battle.views.widgetsPanel.chargeableBurst
       {
          this._openAngle = param1;
          this._closeAngle = param2 + ADDITIONAL_CLOSE_ANGLE_GAP;
+         this._isBurstReloading = false;
          this.anim(false,true);
       }
       
@@ -106,10 +107,9 @@ package net.wg.gui.battle.views.widgetsPanel.chargeableBurst
       
       private function anim(param1:Boolean, param2:Boolean) : void
       {
-         var _loc4_:Number = NaN;
          this.removeTweens();
          var _loc3_:Number = param1 ? this._closeAngle : this._openAngle;
-         _loc4_ = param1 ? Number(Values.DEFAULT_ALPHA) : Number(Values.ZERO);
+         var _loc4_:Number = param1 ? Number(Values.DEFAULT_ALPHA) : Number(Values.ZERO);
          var _loc5_:Function = param1 ? Cubic.easeOut : Exponential.easeOut;
          if(param2)
          {

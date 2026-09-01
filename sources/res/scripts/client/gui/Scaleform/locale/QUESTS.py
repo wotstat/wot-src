@@ -1345,6 +1345,9 @@ class QUESTS(object):
     BONUSNAME_ATTACHMENTS_SET_DEFAULT = b'#quests:bonusName/attachments_set/default'
     BONUSNAME_ATTACHMENTS_SET_OCEANICSENTINEL = b'#quests:bonusName/attachments_set/oceanicSentinel'
     BONUSNAME_ATTACHMENTS_SET_CHALLENGERSBOUNTY = b'#quests:bonusName/attachments_set/challengersBounty'
+    BONUSNAME_ATTACHMENTS_SET_SEARCHANDDESTROY = b'#quests:bonusName/attachments_set/searchAndDestroy'
+    BONUSNAME_ATTACHMENTS_SET_AERIALADVANCE = b'#quests:bonusName/attachments_set/aerialAdvance'
+    BONUSNAME_ATTACHMENTS_SET_AIRDEFENSESUITE = b'#quests:bonusName/attachments_set/airDefenseSuite'
     ACTION_AUTO_CALENDAR = b'#quests:action/auto/calendar'
     ACTION_FULL_CALENDAR = b'#quests:action/full/calendar'
     ACTION_HERO_FULL_CALENDAR = b'#quests:action/hero/full/calendar'
@@ -1711,6 +1714,8 @@ class QUESTS(object):
     DAILYQUESTS_CONDITION_BATTLE_SINGULAR = b'#quests:dailyQuests/condition/battle_singular'
     DETAILS_CONDITIONS_CUMULATIVE_DAMAGEDHP = b'#quests:details/conditions/cumulative/damagedHp'
     DETAILS_CONDITIONS_CUMULATIVE_COMP7PRESTIGEPOINTS = b'#quests:details/conditions/cumulative/comp7PrestigePoints'
+    LOCKEDFORREROLLTOOLTIP_HEADER = b'#quests:lockedForRerollTooltip/header'
+    LOCKEDFORREROLLTOOLTIP_BODY = b'#quests:lockedForRerollTooltip/body'
     TOKEN_DEFAULT_ENUM = (
      TOKEN_DEFAULT_USSR,
      TOKEN_DEFAULT_GERMANY,
@@ -1848,7 +1853,10 @@ class QUESTS(object):
      BONUSNAME_OPTIONAL_DEVICES_ASSISTANT,
      BONUSNAME_ATTACHMENTS_SET_DEFAULT,
      BONUSNAME_ATTACHMENTS_SET_OCEANICSENTINEL,
-     BONUSNAME_ATTACHMENTS_SET_CHALLENGERSBOUNTY)
+     BONUSNAME_ATTACHMENTS_SET_CHALLENGERSBOUNTY,
+     BONUSNAME_ATTACHMENTS_SET_SEARCHANDDESTROY,
+     BONUSNAME_ATTACHMENTS_SET_AERIALADVANCE,
+     BONUSNAME_ATTACHMENTS_SET_AIRDEFENSESUITE)
     ACTION_ENUM = (
      ACTION_AUTO_CALENDAR,
      ACTION_FULL_CALENDAR,

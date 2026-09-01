@@ -18,7 +18,7 @@ from gui.shared.view_helpers import UsersInfoHelper
 from gui.shared.utils.functions import makeTooltip
 from helpers import time_utils
 from helpers import dependency
-from messenger.storage import storage_getter
+from messenger.storage import UsersStorage, MessengerStorageDescriptor
 from skeletons.gui.app_loader import IAppLoader
 from skeletons.gui.game_control import IExternalLinksController
 from skeletons.gui.goodies import IGoodiesCache
@@ -135,6 +135,7 @@ class UtilWebApiMixin(object):
     goodiesCache = dependency.descriptor(IGoodiesCache)
     _webCtrl = dependency.descriptor(IWebController)
     _lnkCtrl = dependency.descriptor(IExternalLinksController)
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
 
     def __init__(self):
         super(UtilWebApiMixin, self).__init__()
@@ -186,7 +187,7 @@ class UtilWebApiMixin(object):
             achievement = dossier.getTotalStats().getAchievement((cmd.blockId, itemId))
             args = [dossier.getDossierType(), dossierCompDescr, achievement.getBlock(), cmd.itemId,
              isRareAchievement(achievement)]
-        self.__getTooltipMgr().onCreateTypedTooltip(tooltipType, args, b'INFO')
+        self._getTooltipMgr().onCreateTypedTooltip(tooltipType, args, b'INFO')
         return
 
     @w2c(_ShowItemTooltipSchema, b'show_item_tooltip')
@@ -200,32 +201,36 @@ class UtilWebApiMixin(object):
             itemId = getCDFromId(itemType=cmd.type, itemId=cmd.id)
         rawItem = ItemPackEntry(type=itemType, id=itemId, count=cmd.count or 1, extra=cmd.extra or {})
         item = lookupItem(rawItem, self.itemsCache, self.goodiesCache)
-        showItemTooltip(self.__getTooltipMgr(), rawItem, item)
+        showItemTooltip(self._getTooltipMgr(), rawItem, item)
         return
 
     @w2c(_ShowAwardsTooltipSchema, b'show_awards_tooltip')
     def showAwardsTooltip(self, cmd):
-        showAwardsTooltip(self.__getTooltipMgr(), cmd.type, cmd.data)
+        showAwardsTooltip(self._getTooltipMgr(), cmd.type, cmd.data)
         return
 
     @w2c(_ShowCustomTooltipSchema, b'show_custom_tooltip')
     def showCustomTooltip(self, cmd):
-        self.__getTooltipMgr().onCreateComplexTooltip(makeTooltip(header=cmd.header, body=cmd.body), b'INFO')
+        self._getTooltipMgr().onCreateComplexTooltip(makeTooltip(header=cmd.header, body=cmd.body), b'INFO')
         return
 
     @w2c(_ShowSimpleTooltipSchema, b'show_simple_tooltip')
     def showSimpleTooltip(self, cmd):
-        self.__getTooltipMgr().onCreateComplexTooltip(makeTooltip(body=cmd.body), b'INFO')
+        self._getTooltipMgr().onCreateComplexTooltip(makeTooltip(body=cmd.body), b'INFO')
         return
 
     @w2c(W2CSchema, b'hide_tooltip')
     def hideToolTip(self, _):
-        self.__getTooltipMgr().hide()
+        self._getTooltipMgr().hide()
         return
 
     @w2c(W2CSchema, b'hide_window_tooltip')
     def hideWulfToolTip(self, _):
-        self.__getTooltipMgr().onHideTooltip(b'')
+        self._hideWulfToolTip()
+        return
+
+    def _hideWulfToolTip(self):
+        self._getTooltipMgr().onHideTooltip(b'')
         return
 
     @w2c(_ShowAdditionalRewardsTooltipSchema, b'show_additional_rewards_tooltip')
@@ -234,12 +239,12 @@ class UtilWebApiMixin(object):
         for key, value in cmd.rewards.iteritems():
             bonuses.extend(getNonQuestBonuses(key, value))
 
-        self.__getTooltipMgr().onCreateWulfTooltip(TC.ADDITIONAL_REWARDS, [bonuses], cmd.x, cmd.y)
+        self._getTooltipMgr().onCreateWulfTooltip(TC.ADDITIONAL_REWARDS, [bonuses], cmd.x, cmd.y)
         return
 
     @w2c(_ShowCollectionItemTooltipSchema, b'show_collection_item_tooltip')
     def showCollectionItemTooltip(self, cmd):
-        self.__getTooltipMgr().onCreateWulfTooltip(TC.COLLECTION_ITEM, [cmd.cd, False], cmd.x, cmd.y)
+        self._getTooltipMgr().onCreateWulfTooltip(TC.COLLECTION_ITEM, [cmd.cd, False], cmd.x, cmd.y)
         return
 
     @w2c(W2CSchema, b'server_timestamp')
@@ -267,10 +272,6 @@ class UtilWebApiMixin(object):
             yield {b'error': (self.__getErrorResponse(response.data, b'Unable to obtain account attrs.'))}
         return
 
-    @storage_getter(b'users')
-    def usersStorage(self):
-        return
-
     @w2c(_ChatAvailabilitySchema, b'check_if_chat_available')
     def checkIfChatAvailable(self, cmd):
         receiverId = cmd.receiver_id
@@ -296,7 +297,7 @@ class UtilWebApiMixin(object):
         result = canInstallStyle(cmd.style_id)
         return {b'can_install': (result.canInstall)}
 
-    def __getTooltipMgr(self):
+    def _getTooltipMgr(self):
         appLoader = dependency.instance(IAppLoader)
         return appLoader.getApp().getToolTipMgr()
 

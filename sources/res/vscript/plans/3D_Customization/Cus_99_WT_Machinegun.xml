@@ -75,8 +75,6 @@
 			<block>
 				<class>If</class>
 				<id>If_15</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>SetVariable</class>
@@ -193,7 +191,6 @@
 						<type>IntT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -214,14 +211,10 @@
 			<block>
 				<class>GetVehicleGameObject</class>
 				<id>GetVehicleGameObject_1</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>GameObjectToVehicle</class>
 				<id>GameObjectToVehicle_2</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>GetVariable</class>
@@ -233,7 +226,6 @@
 						<type>TypeT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ContextGetSelf</class>
@@ -248,7 +240,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>Sequence</class>
@@ -259,7 +250,6 @@
 						<type>IntT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>Macro</class>
@@ -270,13 +260,10 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>If</class>
 				<id>If_13</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>SetVariable</class>
@@ -410,7 +397,6 @@
 						<type>IntT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -438,7 +424,36 @@
 						<type>TypeT</type>
 					</param>
 				</params>
-				<slots></slots>
+			</block>
+			<block>
+				<class>ComponentMethod</class>
+				<id>ComponentMethod_11</id>
+				<params>
+					<param>Animator.stop
+						<name>Component Type</name>
+						<type>StringT</type>
+					</param>
+				</params>
+			</block>
+			<block>
+				<class>ComponentMethod</class>
+				<id>ComponentMethod_12</id>
+				<params>
+					<param>Animator.startLayerByName
+						<name>Component Type</name>
+						<type>StringT</type>
+					</param>
+				</params>
+				<slots>
+					<slot>
+						<name>arg#0</name>
+						<const>\idle\</const>
+					</slot>
+					<slot>
+						<name>arg#1</name>
+						<const>\0.000000\</const>
+					</slot>
+				</slots>
 			</block>
 		</blocks>
 		<connections>
@@ -599,6 +614,12 @@
 				<output>o1</output>
 			</connection>
 			<connection>
+				<from>Macro_2</from>
+				<input>input</input>
+				<to>If_13</to>
+				<output>PrebattleHighlightStart</output>
+			</connection>
+			<connection>
 				<from>GetVariable_2</from>
 				<input>value</input>
 				<to>If_13</to>
@@ -692,6 +713,30 @@
 				<from>ContextGetSelf_1</from>
 				<input>gameObject</input>
 				<to>ComponentMethod_4</to>
+				<output>value</output>
+			</connection>
+			<connection>
+				<from>Macro_2</from>
+				<input>in</input>
+				<to>ComponentMethod_11</to>
+				<output>PrebattleHighlightEnd</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>ComponentMethod_11</to>
+				<output>value</output>
+			</connection>
+			<connection>
+				<from>ComponentMethod_11</from>
+				<input>in</input>
+				<to>ComponentMethod_12</to>
+				<output>out</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>ComponentMethod_12</to>
 				<output>value</output>
 			</connection>
 		</connections>

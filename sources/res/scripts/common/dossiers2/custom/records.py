@@ -3488,7 +3488,7 @@ RECORDS = (
  (
   b'singleAchievements', b'BattlePassCommonPr_20', b'p', b'B', 1),
  (
-  b'singleAchievements', b'BPReserveAchievement_1', b'p', b'B', 1),
+  b'singleAchievements', b'BattlePassCommonPr_21', b'p', b'B', 1),
  (
   b'singleAchievements', b'BPReserveAchievement_2', b'p', b'B', 1),
  (
@@ -3515,6 +3515,12 @@ RECORDS = (
   b'achievements', b'readyForBattleSniper', b'p', b'B', 4),
  (
   b'achievements', b'readyForBattleSupport', b'p', b'B', 4),
+ (
+  b'achievements', b'readyForBattleFossaAssault', b'p', b'B', 4),
+ (
+  b'achievements', b'readyForBattleFossaSniper', b'p', b'B', 4),
+ (
+  b'achievements', b'readyForBattleFossaSupport', b'p', b'B', 4),
  (
   b'comp7ArchiveManticore', b'xp', b'p', b'I', 4000000001L),
  (
@@ -3654,7 +3660,123 @@ RECORDS = (
  (
   b'singleAchievements', b'LunarNY2026CN', b'p', b'B', 1),
  (
-  b'singleAchievements', b'wot16thAnniversary', b'p', b'B', 1))
+  b'singleAchievements', b'wot16thAnniversary', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'wt2026progression', b'p', b'B', 1),
+ (
+  b'comp7ArchiveDragon', b'xp', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'battlesCount', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'wins', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'winAndSurvived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'losses', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'survivedBattles', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'frags', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'shots', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'directHits', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'spotted', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageDealt', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'capturePoints', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'droppedCapturePoints', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'originalXP', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageAssistedTrack', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageAssistedRadio', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'directHitsReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'noDamageDirectHitsReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'piercingsReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'explosionHitsReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'explosionHits', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'piercings', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'potentialDamageReceived', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageBlockedByArmor', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'battlesOnStunningVehicles', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'stunNum', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'damageAssistedStun', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'winSeries', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'squadWinSeries', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'comp7PrestigePoints', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'roleSkillUsed', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'healthRepair', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'poiCapturable', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'superSquadBattlesCount', b'p', b'I', 4000000001L),
+ (
+  b'comp7ArchiveDragon', b'superSquadWins', b'p', b'I', 4000000001L),
+ (
+  b'maxComp7ArchiveDragon', b'maxXP', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxXPVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxFrags', b'p', b'B', 201),
+ (
+  b'maxComp7ArchiveDragon', b'maxFragsVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxDamage', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxDamageVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxComp7PrestigePoints', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxComp7PrestigePointsVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxEquipmentDamageDealt', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxEquipmentDamageDealtVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxHealthRepair', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxHealthRepairVehicle', b'p', b'I', 4294967295L),
+ (
+  b'maxComp7ArchiveDragon', b'maxWinSeries', b'p', b'H', 60001),
+ (
+  b'maxComp7ArchiveDragon', b'maxSquadWinSeries', b'p', b'H', 60001),
+ (
+  b'singleAchievements', b'comp7_6_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_iron', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_bronze', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_silver', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_gold', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_champion', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_yearly_legend', b'p', b'B', 1))
 RECORD_INDICES = dict((rec[:2], idx) for idx, rec in enumerate(RECORDS))
 RECORD_DB_IDS = {(b'total', b'creationTime'): 68, 
    (b'total', b'lastBattleTime'): 7, 
@@ -5474,7 +5596,7 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'LunarNY2026CN'): 2101, 
    (b'singleAchievements', b'BattlePassCommonPr_19'): 2019, 
    (b'singleAchievements', b'BattlePassCommonPr_20'): 2020, 
-   (b'singleAchievements', b'BPReserveAchievement_1'): 2102, 
+   (b'singleAchievements', b'BattlePassCommonPr_21'): 2102, 
    (b'singleAchievements', b'BPReserveAchievement_2'): 2103, 
    (b'singleAchievements', b'BPReserveAchievement_3'): 2104, 
    (b'singleAchievements', b'BPReserveAchievement_4'): 2105, 
@@ -5482,7 +5604,68 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'BPReserveAchievement_6'): 2107, 
    (b'singleAchievements', b'BPReserveAchievement_7'): 2108, 
    (b'singleAchievements', b'BPReserveAchievement_9'): 2109, 
-   (b'singleAchievements', b'wot16thAnniversary'): 2110}
+   (b'singleAchievements', b'wot16thAnniversary'): 2110, 
+   (b'singleAchievements', b'wt2026progression'): 2111, 
+   (b'achievements', b'readyForBattleFossaAssault'): 2112, 
+   (b'achievements', b'readyForBattleFossaSniper'): 2113, 
+   (b'achievements', b'readyForBattleFossaSupport'): 2114, 
+   (b'comp7ArchiveDragon', b'xp'): 2115, 
+   (b'comp7ArchiveDragon', b'battlesCount'): 2116, 
+   (b'comp7ArchiveDragon', b'wins'): 2117, 
+   (b'comp7ArchiveDragon', b'winAndSurvived'): 2118, 
+   (b'comp7ArchiveDragon', b'losses'): 2119, 
+   (b'comp7ArchiveDragon', b'survivedBattles'): 2120, 
+   (b'comp7ArchiveDragon', b'frags'): 2121, 
+   (b'comp7ArchiveDragon', b'shots'): 2122, 
+   (b'comp7ArchiveDragon', b'directHits'): 2123, 
+   (b'comp7ArchiveDragon', b'spotted'): 2124, 
+   (b'comp7ArchiveDragon', b'damageDealt'): 2125, 
+   (b'comp7ArchiveDragon', b'damageReceived'): 2126, 
+   (b'comp7ArchiveDragon', b'capturePoints'): 2127, 
+   (b'comp7ArchiveDragon', b'droppedCapturePoints'): 2128, 
+   (b'comp7ArchiveDragon', b'originalXP'): 2129, 
+   (b'comp7ArchiveDragon', b'damageAssistedTrack'): 2130, 
+   (b'comp7ArchiveDragon', b'damageAssistedRadio'): 2131, 
+   (b'comp7ArchiveDragon', b'directHitsReceived'): 2132, 
+   (b'comp7ArchiveDragon', b'noDamageDirectHitsReceived'): 2133, 
+   (b'comp7ArchiveDragon', b'piercingsReceived'): 2134, 
+   (b'comp7ArchiveDragon', b'explosionHitsReceived'): 2135, 
+   (b'comp7ArchiveDragon', b'explosionHits'): 2136, 
+   (b'comp7ArchiveDragon', b'piercings'): 2137, 
+   (b'comp7ArchiveDragon', b'potentialDamageReceived'): 2138, 
+   (b'comp7ArchiveDragon', b'damageBlockedByArmor'): 2139, 
+   (b'comp7ArchiveDragon', b'battlesOnStunningVehicles'): 2140, 
+   (b'comp7ArchiveDragon', b'stunNum'): 2141, 
+   (b'comp7ArchiveDragon', b'damageAssistedStun'): 2142, 
+   (b'comp7ArchiveDragon', b'winSeries'): 2143, 
+   (b'comp7ArchiveDragon', b'squadWinSeries'): 2144, 
+   (b'comp7ArchiveDragon', b'comp7PrestigePoints'): 2145, 
+   (b'comp7ArchiveDragon', b'roleSkillUsed'): 2146, 
+   (b'comp7ArchiveDragon', b'healthRepair'): 2147, 
+   (b'comp7ArchiveDragon', b'poiCapturable'): 2148, 
+   (b'comp7ArchiveDragon', b'superSquadBattlesCount'): 2149, 
+   (b'comp7ArchiveDragon', b'superSquadWins'): 2150, 
+   (b'maxComp7ArchiveDragon', b'maxXP'): 2151, 
+   (b'maxComp7ArchiveDragon', b'maxXPVehicle'): 2152, 
+   (b'maxComp7ArchiveDragon', b'maxFrags'): 2153, 
+   (b'maxComp7ArchiveDragon', b'maxFragsVehicle'): 2154, 
+   (b'maxComp7ArchiveDragon', b'maxDamage'): 2155, 
+   (b'maxComp7ArchiveDragon', b'maxDamageVehicle'): 2156, 
+   (b'maxComp7ArchiveDragon', b'maxComp7PrestigePoints'): 2157, 
+   (b'maxComp7ArchiveDragon', b'maxComp7PrestigePointsVehicle'): 2158, 
+   (b'maxComp7ArchiveDragon', b'maxEquipmentDamageDealt'): 2159, 
+   (b'maxComp7ArchiveDragon', b'maxEquipmentDamageDealtVehicle'): 2160, 
+   (b'maxComp7ArchiveDragon', b'maxHealthRepair'): 2161, 
+   (b'maxComp7ArchiveDragon', b'maxHealthRepairVehicle'): 2162, 
+   (b'maxComp7ArchiveDragon', b'maxWinSeries'): 2163, 
+   (b'maxComp7ArchiveDragon', b'maxSquadWinSeries'): 2164, 
+   (b'singleAchievements', b'comp7_6_1'): 2166, 
+   (b'singleAchievements', b'comp7_6_yearly_iron'): 2167, 
+   (b'singleAchievements', b'comp7_6_yearly_bronze'): 2168, 
+   (b'singleAchievements', b'comp7_6_yearly_silver'): 2169, 
+   (b'singleAchievements', b'comp7_6_yearly_gold'): 2170, 
+   (b'singleAchievements', b'comp7_6_yearly_champion'): 2171, 
+   (b'singleAchievements', b'comp7_6_yearly_legend'): 2172}
 DB_ID_TO_RECORD = {value: key for key, value in viewitems(RECORD_DB_IDS)}
 RECORD_DB_IDS.update({(b'vehTypeFrags', b''): 863, 
    (b'a15x15Cut', b''): 864, 
@@ -5510,6 +5693,7 @@ RECORD_DB_IDS.update({(b'vehTypeFrags', b''): 863,
    (b'customizationAchievements', b''): 1937, 
    (b'comp7CutArchivePegasus', b''): 1999, 
    (b'comp7CutArchiveManticore', b''): 2078, 
+   (b'comp7CutArchiveDragon', b''): 2165, 
    (b'statTrackersVehStatsCut', b''): 2023})
 BATTLE_HERO_MEDAL_SET = {RECORD_DB_IDS[achievementDescriptor] for achievementDescriptor in [
  (

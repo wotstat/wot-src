@@ -1,26 +1,26 @@
 {
   "branch": "wot-cn",
   "client_type": "sd",
-  "commit_subject": "2.3.1.3 #929",
+  "commit_subject": "2.4.0.0 #931",
   "counts": {
     "locales": {
-      "ZH_CN": 277
+      "ZH_CN": 295
     },
-    "sources": 15435,
-    "sources_as3": 6386,
-    "sources_gameface": 1622,
-    "stubs": 94
+    "sources": 16306,
+    "sources_as3": 6568,
+    "sources_gameface": 1654,
+    "stubs": 97
   },
   "default_locale": "ZH_CN",
-  "descriptor_sha256": "a3248ff66acb64b2e917e667156c14fc3b6e9aa83a9eac40476f55ef8b7788c5",
+  "descriptor_sha256": "e3bb9274d7b43da81f9c2aaa5a985132ec283e2dc6cf9dcc481704ca4edf9902",
   "languages": [
     "ZH_CN"
   ],
   "publisher": "qihoo",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-08-30T01:29:11.698800Z",
-  "snapshot_id": "sha256:772a58218f72038545e713075a00122cdf1ee4c1b11ae639b91faf12be48144d",
+  "snapshot_created_at": "2026-09-01T21:42:01.577115Z",
+  "snapshot_id": "sha256:0f568f72a88840fb2a17abbbf95d245166b5d4d58dd686c9415c61cc71b00b63",
   "target": "wot-cn",
-  "version_name": "2.3.1.5418"
+  "version_name": "2.4.0.5426"
 }

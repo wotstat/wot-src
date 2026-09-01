@@ -557,33 +557,65 @@ class OnVehicleCollided(Block, VehicleMeta):
         return [ASPECT.CLIENT]
 
 
-class OnVehicleShaked(Block, VehicleMeta):
+class OnVehicleShot(TunableEventBlock, VehicleMeta):
+    _EVENT_SLOT_NAMES = [
+     b'onShot']
 
     def __init__(self, *args, **kwargs):
-        super(OnVehicleShaked, self).__init__(*args, **kwargs)
-        self._out = self._makeEventOutputSlot(b'out')
+        super(OnVehicleShot, self).__init__(*args, **kwargs)
         self._vehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, None)
-        self._shakeReason = self._makeDataOutputSlot(b'shakeReason', SLOT_TYPE.INT, None)
         return
 
     def onStartScript(self):
-        if isPlayerAvatar():
-            BigWorld.player().inputHandler.OnVehicleShaked += self._onVehicleShaked
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleShot += self.__onVehicleShot
         else:
             errorVScript(self, b'can not subscribe on event')
         return
 
     def onFinishScript(self):
-        if isPlayerAvatar():
-            BigWorld.player().inputHandler.OnVehicleShaked -= self._onVehicleShaked
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleShot -= self.__onVehicleShot
         return
 
-    def _onVehicleShaked(self, vehicleId, shakeReason):
-        vehicle = BigWorld.entity(vehicleId)
-        if vehicle:
-            self._vehicle.setValue(weakref.proxy(vehicle))
-            self._shakeReason.setValue(shakeReason)
-            self._out.call()
+    @TunableEventBlock.eventProcessor
+    def __onVehicleShot(self, vehicleId):
+        vehicle = BigWorld.entities.get(vehicleId)
+        self._vehicle.setValue(weakref.proxy(vehicle) if vehicle else None)
+        return
+
+    @classmethod
+    def blockAspects(cls):
+        return [ASPECT.CLIENT]
+
+
+class OnVehicleHit(TunableEventBlock, VehicleMeta):
+    _EVENT_SLOT_NAMES = [
+     b'onHit']
+
+    def __init__(self, *args, **kwargs):
+        super(OnVehicleHit, self).__init__(*args, **kwargs)
+        self._vehicle = self._makeDataOutputSlot(b'vehicle', SLOT_TYPE.VEHICLE, None)
+        self._withDamage = self._makeDataOutputSlot(b'withDamage', SLOT_TYPE.BOOL, None)
+        return
+
+    def onStartScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleHit += self.__onVehicleHit
+        else:
+            errorVScript(self, b'can not subscribe on event')
+        return
+
+    def onFinishScript(self):
+        if hasattr(BigWorld.player(), b'arena'):
+            BigWorld.player().arena.onVehicleHit -= self.__onVehicleHit
+        return
+
+    @TunableEventBlock.eventProcessor
+    def __onVehicleHit(self, vehicleId, damage):
+        self._withDamage.setValue(damage > 0)
+        vehicle = BigWorld.entities.get(vehicleId)
+        self._vehicle.setValue(weakref.proxy(vehicle) if vehicle else None)
         return
 
     @classmethod

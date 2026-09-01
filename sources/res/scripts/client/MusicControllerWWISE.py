@@ -52,6 +52,10 @@ _ARENA_PERIOD_STATE_NAME = b'STATE_arenastate'
 _ARENA_PERIOD_STATE = {(ARENA_PERIOD.WAITING): b'STATE_arenastate_waiting', 
    (ARENA_PERIOD.PREBATTLE): b'STATE_arenastate_counter', 
    (ARENA_PERIOD.BATTLE): b'STATE_arenastate_battle'}
+_ON_BECOME_PLAYER_STATES = (
+ (
+  _ARENA_PERIOD_STATE_NAME, _ARENA_PERIOD_STATE[ARENA_PERIOD.WAITING]),
+ (b'STATE_ext_pbh', b'STATE_ext_pbh_off'))
 g_musicController = None
 
 def create():
@@ -254,7 +258,9 @@ class MusicController(object):
         return
 
     def onBecomePlayer(self):
-        WWISE.WW_setState(_ARENA_PERIOD_STATE_NAME, _ARENA_PERIOD_STATE[ARENA_PERIOD.WAITING])
+        for group, state in _ON_BECOME_PLAYER_STATES:
+            WWISE.WW_setState(group, state)
+
         return
 
     def onEnterArena(self):

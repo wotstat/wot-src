@@ -23,6 +23,7 @@ from gun_rotation_shared import decodeGunAngles
 from helpers import dependency
 from helpers.EffectMaterialCalculation import calcSurfaceMaterialNearPoint
 from helpers.EffectsList import SoundStartParam
+from helpers.prefab_effects import resolveShotPrefabEffect
 from items import vehicles
 from items.components.component_constants import DEFAULT_TRACK_HIT_VECTOR, DEFAULT_GUN_BURST
 from material_kinds import EFFECT_MATERIAL_INDEXES_BY_NAMES, EFFECT_MATERIALS
@@ -495,6 +496,8 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
             self.appearance.receiveShotImpulse(firstHitDir, effectsDescr[b'targetImpulse'])
             player = BigWorld.player()
             player.inputHandler.onVehicleShaken(self, ShakeReason.HIT if hasDamageHit else ShakeReason.HIT_NO_DAMAGE, partTransform.translation, firstHitDir, effectsDescr[b'caliber'], effectsDescr[b'targetCameraSensitivity'])
+            if player.arena is not None:
+                player.arena.onVehicleHit(self.id, damage)
             sessionProvider = self.guiSessionProvider
             if not BattleReplay.g_replayCtrl.isTimeWarpInProgress:
                 showFriendlyFlashBang = False
@@ -505,7 +508,8 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
                     showFriendlyFlashBang = isFriendlyFireMode and hasCustomAllyDamageEffect
                 showFullscreenEffs = self.isPlayerVehicle and self.isAlive()
                 keyPoints, effects, _ = effectsDescr[maxPriorityHitPoint.hitEffectGroup]
-                self.appearance.boundEffects.addNewToNode(TankPartNames.getActualNodeNameByPartName(maxPriorityHitPoint.componentName, self.isAlive()), maxPriorityHitPoint.matrix, effects, keyPoints, isPlayerVehicle=self.isPlayerVehicle, showShockWave=showFullscreenEffs, showFlashBang=showFullscreenEffs and not showFriendlyFlashBang, showFriendlyFlashBang=showFullscreenEffs and showFriendlyFlashBang, entity_id=self.id, damageFactor=damageFactor, attackerID=attackerID, hitdir=firstHitDir, surfaceNormal=maxPriorityHitPoint.matrix.applyVector(Math.Vector3(0, 0, -1)), componentIdx=maxPriorityHitPoint.componentIdx, isDynCollision=maxPriorityHitPoint.isDynCollision)
+                prefabEffIndex, prefabHitEffectCode, excludeTags = resolveShotPrefabEffect(prefabEffIndex, maxHitEffectCode)
+                self.appearance.boundEffects.addNewToNode(TankPartNames.getActualNodeNameByPartName(maxPriorityHitPoint.componentName, self.isAlive()), maxPriorityHitPoint.matrix, effects, keyPoints, excludeTags=excludeTags, isPlayerVehicle=self.isPlayerVehicle, showShockWave=showFullscreenEffs, showFlashBang=showFullscreenEffs and not showFriendlyFlashBang, showFriendlyFlashBang=showFullscreenEffs and showFriendlyFlashBang, entity_id=self.id, damageFactor=damageFactor, attackerID=attackerID, hitdir=firstHitDir, surfaceNormal=maxPriorityHitPoint.matrix.applyVector(Math.Vector3(0, 0, -1)), componentIdx=maxPriorityHitPoint.componentIdx, isDynCollision=maxPriorityHitPoint.isDynCollision)
                 prefabHit = effectsDescr[b'hitPrefabs'].get(maxPriorityHitPoint.hitEffectGroup) if b'hitPrefabs' in effectsDescr else None
                 if prefabHit:
 
@@ -523,7 +527,7 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
                 if hitGo.valid:
                     isWheel = firstHitPoint.componentName in self.typeDescriptor.chassis.wheelsArmor
                     location = firstHitPoint.matrix.translation
-                    effGroup = maxPriorityHitPoint.hitEffectGroup
+                    effGroup = VEHICLE_HIT_EFFECT.getEffectGroup(prefabHitEffectCode)
                     armorHitPlacement = ArmorHitPlacement.WHEEL if isWheel else ArmorHitPlacement.REGULAR
                     if isWheel:
                         transformComponent = hitGo.findRead(TransformComponent)
@@ -532,7 +536,7 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
                             transform.translation = Math.Vector3(0, 0, 0)
                             transform.invert()
                             location = transform.applyVector(location)
-                    CGF.postEvent(self.spaceID, game_events.VehicleHitEvent(self.entityGameObject, hitGo, location, firstHitPoint.normal, game_events.GunShellInfo(firstHitPoint.caliber, firstHitPoint.shellType), shellVelocity, damage, firstHitDirLocal, prefabEffIndex, effGroup, maxHitEffectCode, armorHitPlacement))
+                    CGF.postEvent(self.spaceID, game_events.VehicleHitEvent(self.entityGameObject, hitGo, location, firstHitPoint.normal, game_events.GunShellInfo(firstHitPoint.caliber, firstHitPoint.shellType), shellVelocity, damage, firstHitDirLocal, prefabEffIndex, effGroup, prefabHitEffectCode, armorHitPlacement))
                 else:
                     self.__logVehicle(_logger.error, b'Unable to post VehicleHitEvent: hitGo was not found by name: %s', firstHitPoint.componentName)
             if not self.isAlive():
@@ -568,6 +572,8 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
                 return
             player = BigWorld.player()
             player.inputHandler.onVehicleShaken(self, ShakeReason.SPLASH, center, direction, effectsDescr[b'caliber'], effectsDescr[b'targetCameraSensitivity'])
+            if player.arena is not None:
+                player.arena.onVehicleHit(self.id, damage)
             if attackerID == player.playerVehicleID:
                 ctrl = self.guiSessionProvider.shared.feedback
                 if ctrl is not None:
@@ -691,8 +697,8 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
             if parsedHitPoint is None:
                 curr.discard(code)
             else:
-                stickerID, data = parsedHitPoint
-                self.appearance.addDamageSticker(code, stickerID, data, isActive)
+                stickerID, prefabEffIndex, data = parsedHitPoint
+                self.appearance.addDamageSticker(code, stickerID, prefabEffIndex, data, isActive)
 
         self.__prevDamageStickerCodes = frozenset(curr)
         return
@@ -718,14 +724,16 @@ class Vehicle(BigWorld.Entity, BWEntitiyComponentTracker, BattleAbilitiesCompone
         return
 
     def set_gunAnglesPacked(self, _=None):
-        if self.typeDescriptor is not None:
+        if self.typeDescriptor is None:
+            return
+        else:
             if self.typeDescriptor.gun.staticPitch is not None and self.siegeState in VEHICLE_SIEGE_STATE.SWITCHING:
                 return
-            syncGunAngles = getattr(self.filter, b'syncGunAngles', None)
-            if syncGunAngles:
-                yaw, pitch = decodeGunAngles(self.gunAnglesPacked, self.typeDescriptor.gun.pitchLimits[b'absolute'])
-                syncGunAngles(yaw, pitch)
-        return
+            if not isinstance(self.filter, (BigWorld.WGVehicleFilter, BigWorld.WGPillboxFilter)):
+                return
+            yaw, pitch = decodeGunAngles(self.gunAnglesPacked, self.typeDescriptor.gun.pitchLimits[b'absolute'])
+            self.filter.syncGunAngles(yaw, pitch)
+            return
 
     def set_health(self, _=None):
         return

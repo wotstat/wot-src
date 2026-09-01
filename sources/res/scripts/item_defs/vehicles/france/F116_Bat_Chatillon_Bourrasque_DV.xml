@@ -1210,6 +1210,7 @@
 						</customizableVehicleAreas>
 					</customization>
 					<edgeByVisualModel>false</edgeByVisualModel>
+					<muzzleBrake>HORIZONTAL</muzzleBrake>
 					<camouflage>
 						<density>149.999 148.327</density>
 						<aoTextureSize>512 512</aoTextureSize>
@@ -1290,9 +1291,7 @@
 					<position>-0.743308 1.54338 0.314163</position>
 					<rotation>1.10755 -0.965567 3.13476</rotation>
 					<scale>0.320037007 0.114312999 0.320035011</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
-					<clipAngle>0</clipAngle>
 					<anchorShift>0.0800020024</anchorShift>
 				</slot>
 				<slot>
@@ -1303,9 +1302,7 @@
 					<position>0.740035 1.54337 0.319001</position>
 					<rotation>1.10759 0.9655 3.13481</rotation>
 					<scale>0.320037007 0.114312999 0.320035011</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
-					<clipAngle>0</clipAngle>
 					<anchorShift>0.0800020024</anchorShift>
 				</slot>
 				<slot>
@@ -1316,7 +1313,6 @@
 					<position>-0.748985 1.70266 -1.38978</position>
 					<rotation>1.14663 -1.56918 3.14076</rotation>
 					<scale>0.33119 0.108525 0.33119</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
 					<clipAngle>1.01249</clipAngle>
 					<anchorShift>0.0721070021</anchorShift>
@@ -1329,7 +1325,6 @@
 					<position>0.749015 1.70263 -1.38979</position>
 					<rotation>1.14667 1.56923 3.14071</rotation>
 					<scale>0.33119 0.108524 0.33119</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
 					<clipAngle>1.01249</clipAngle>
 					<anchorShift>0.0721070021</anchorShift>
@@ -1340,9 +1335,8 @@
 					<tags>formfactor_square</tags>
 					<compatibleModels>F116_Bat_Chatillon_Bourrasque_DV_3DSt</compatibleModels>
 					<position>-0.358939 1.7901 0.576342</position>
-					<rotation>0.14089 0.000000 3.14157</rotation>
+					<rotation>0.14089 0 3.14157</rotation>
 					<scale>0.371383011 0.371394008 0.371394992</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
 					<clipAngle>1.3737</clipAngle>
 					<anchorShift>0.0606420003</anchorShift>
@@ -1355,9 +1349,7 @@
 					<position>0.00007 1.870679 -1.359028</position>
 					<rotation>3.13571 -0.00349 -0.006826</rotation>
 					<scale>0.38726 0.387258 0.387258</scale>
-					<doubleSided>false</doubleSided>
 					<showOn>256</showOn>
-					<clipAngle>0</clipAngle>
 					<anchorShift>0.02</anchorShift>
 				</slot>
 			</customizationSlots>

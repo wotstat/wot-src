@@ -18,7 +18,7 @@ class RankedServerPrimeTime(ToolTipBaseData):
     def getDisplayableData(self, peripheryID):
         hostsList = g_preDefinedHosts.getSimpleHostsList(g_preDefinedHosts.hostsWithRoaming(), withShortName=True)
         serverName = b''
-        for _, serverData in enumerate(hostsList):
+        for serverData in hostsList:
             _, serverName, _, _, pID = serverData
             if pID == peripheryID:
                 break

@@ -379,7 +379,7 @@ class BattleAbilityTooltipManager(object):
             if name.endswith(localised):
                 logger = logging.getLogger(__name__)
                 logger.error(b"[ERROR] BattleAbilityTooltipManager: %s: Localization for '%s' not found.", itemName, data.name)
-            if g_battleAbilityParamsRenderers.get(data.renderer, None) is None:
+            if g_battleAbilityParamsRenderers.get(data.renderer) is None:
                 raise SoftException((b"{}: '{}' No renderer with the name '{}' exists. Allowed are {}.").format(TOOLTIPS_PATH, itemName, data.renderer, list(g_battleAbilityParamsRenderers)))
 
         return
@@ -416,7 +416,7 @@ class BattleAbilityTooltipManager(object):
                 logger.error(b'[ERROR] createBattleAbilityTooltipRenderers: Failed to find tooltipInfo %(ttid)s for %(us)s (%(name)s).', {b'ttid': tooltipIdentifier, b'us': (curLvlEq.userString), 
                    b'name': (curLvlEq.name)})
                 continue
-            renderer = g_battleAbilityParamsRenderers.get(tooltipInfo.renderer, None)
+            renderer = g_battleAbilityParamsRenderers.get(tooltipInfo.renderer)
             if renderer:
                 renderer(staticBlock, dynamicBlock, curLvlEq, (equipments[lvl.eqID] for lvl in viewvalues(levels)), tooltipIdentifier, tooltipInfo.name)
 

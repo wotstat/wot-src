@@ -19,6 +19,7 @@ if TYPE_CHECKING:
     from items.components.shell_components import ShellType, HighExplosiveImpactParams
     from items.components.component_constants import TwinGun, AutoShoot, DualGun, DualAccuracy
     from items.vehicles import VehicleType, VehicleDescriptor
+    from typing import Optional, Sequence
 
 class AttrDict(dict):
 
@@ -57,7 +58,8 @@ class ItemWrapper(object):
 
     def __setattr__(self, attrName, value):
         if self.isSetter(attrName):
-            return super(ItemWrapper, self).__setattr__(attrName, value)
+            super(ItemWrapper, self).__setattr__(attrName, value)
+            return
         try:
             setattr(self.item, attrName, value)
         except AttributeError:
@@ -185,14 +187,16 @@ class XPhysics(object):
         if self.__xphysics:
             self.__xphysics[b'engines'] = copy(self.__xphysics[b'engines'])
             return self.__item(self.vehDescr.engine.name, self.__xphysics[b'engines'])
-        return
+        else:
+            return
 
     @property
     def chassis(self):
         if self.__xphysics:
             self.__xphysics[b'chassis'] = copy(self.__xphysics[b'chassis'])
             return self.__item(self.vehDescr.chassis.name, self.__xphysics[b'chassis'])
-        return
+        else:
+            return
 
     def __item(self, itemName, itemSection):
         itemSection[itemName] = AttrDict(self.vehDescrWrapper, itemSection[itemName])
@@ -303,6 +307,74 @@ class VehDescrWrapper(object):
     @cached_property_namedtuple
     def autoShoot(self):
         return self.gun.autoShoot
+
+    @cached_property
+    def secondaryGuns(self):
+        if not self.turret.secondaryGuns:
+            return None
+        else:
+            self.turret.secondaryGuns = list(self.turret.secondaryGuns)
+
+            def finalizer():
+                self.turret.secondaryGuns = tuple(self.turret.secondaryGuns)
+                return
+
+            self.finalizers.append(finalizer)
+            return self.turret.secondaryGuns
+
+    @cached_property
+    def secondaryGun0(self):
+        if not self.secondaryGuns:
+            return None
+        else:
+            self.secondaryGuns[0] = copy(self.secondaryGuns[0])
+            return GunWrapper(self.secondaryGuns[0])
+
+    @cached_property
+    def secondaryGunShots(self):
+        if not self.secondaryGun0:
+            return None
+        else:
+            self.secondaryGun0.shots = list(self.secondaryGun0.shots)
+
+            def finalizer():
+                self.secondaryGun0.shots = tuple(self.secondaryGun0.shots)
+                return
+
+            self.finalizers.append(finalizer)
+            return self.secondaryGun0.shots
+
+    @cached_property
+    def secondaryGunShot0(self):
+        if not self.secondaryGunShots:
+            return None
+        else:
+            self.secondaryGunShots[0] = copy(self.secondaryGunShots[0])
+            return self.secondaryGunShots[0]
+
+    @cached_property
+    def secondaryGunShell0(self):
+        if not self.secondaryGunShot0:
+            return None
+        else:
+            self.secondaryGunShot0.shell = copy(self.secondaryGunShot0.shell)
+            return self.secondaryGunShot0.shell
+
+    @cached_property
+    def secondaryGunShellType0(self):
+        if not self.secondaryGunShot0:
+            return None
+        else:
+            self.secondaryGunShot0.shell.type = copy(self.secondaryGunShot0.shell.type)
+            return self.secondaryGunShot0.shell.type
+
+    @cached_property
+    def secondaryGunShellTypeArmorSpalls0(self):
+        if not (self.secondaryGunShellType0 and hasattr(self.secondaryGunShellType0, b'armorSpalls')):
+            return None
+        else:
+            self.secondaryGunShellType0.armorSpalls = copy(self.secondaryGunShellType0.armorSpalls)
+            return self.secondaryGunShellType0.armorSpalls
 
     @cached_property
     def chassis(self):
@@ -568,14 +640,22 @@ def gunTurretYawLimitsDegrees(obj, valueName, index, operation, attrName, value,
 
 
 def armorSpallProcessor(spallValueName, obj, valueName, index, operation, attrName, value, vehDescrWrapper):
-    obj = getattr(vehDescrWrapper, spallValueName, None)
-    if not obj:
+    spallObj = getattr(vehDescrWrapper, spallValueName, None)
+    if not spallObj:
         return False
     else:
         attrName = (b'{}/{}').format(spallValueName, valueName)
         if operation in (b'add', b'set'):
-            value *= 0.5
-        processValue(obj, valueName, index, operation, attrName, value)
+            spallDamage = getattr(spallObj, valueName, None)
+            shellDamage = getattr(obj, valueName, None)
+            if spallDamage and shellDamage:
+                spallDamage = spallDamage[0] if isinstance(spallDamage, tuple) else spallDamage
+                shellDamage = shellDamage[0] if isinstance(shellDamage, tuple) else shellDamage
+                armorSpallCoefficient = spallDamage / shellDamage
+            else:
+                armorSpallCoefficient = 0.5
+            value *= armorSpallCoefficient
+        processValue(spallObj, valueName, index, operation, attrName, value)
         return False
 
 
@@ -658,7 +738,10 @@ customValueProcessors = {b'gunPitchLimits/maxPitchDegrees': gunPitchLimitsProces
    b'engine/power': enginePowerProcessor, 
    b'engine/maxSpeedForward': maxSpeedForwardProcesser, 
    b'engine/maxSpeedBack': maxSpeedBackProcesser, 
-   b'chassis/rotationSpeedDegrees': chassisRotationSpeedDegrees}
+   b'chassis/rotationSpeedDegrees': chassisRotationSpeedDegrees, 
+   b'secondaryGunShot0/speed': shotSpeedProcessor, 
+   b'secondaryGunShell0/armorDamage': (partial(armorSpallProcessor, b'secondaryGunShellTypeArmorSpalls0')), 
+   b'secondaryGunShell0/deviceDamage': (partial(armorSpallProcessor, b'secondaryGunShellTypeArmorSpalls0'))}
 
 def parseValue(attrName):
     attrs = attrName.split(b'/')

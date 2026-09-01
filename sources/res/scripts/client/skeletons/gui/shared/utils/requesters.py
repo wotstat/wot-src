@@ -936,6 +936,10 @@ class IShopRequester(IShopCommonStats, IRequester):
         raise NotImplementedError
         return
 
+    def getPetCostWithDiscount(self, petPrice):
+        raise NotImplementedError
+        return
+
 
 class IGoodiesRequester(IRequester):
 
@@ -1241,7 +1245,15 @@ class ITokensRequester(IRequester):
         raise NotImplementedError
         return
 
+    def getRerollState(self, boxID):
+        raise NotImplementedError
+        return
+
     def getLootBoxesStats(self):
+        raise NotImplementedError
+        return
+
+    def getLootBoxRerollHistory(self):
         raise NotImplementedError
         return
 
@@ -1258,10 +1270,6 @@ class ITokensRequester(IRequester):
         return
 
     def getFreeLootBoxes(self):
-        raise NotImplementedError
-        return
-
-    def getLootBoxesTotalCount(self):
         raise NotImplementedError
         return
 

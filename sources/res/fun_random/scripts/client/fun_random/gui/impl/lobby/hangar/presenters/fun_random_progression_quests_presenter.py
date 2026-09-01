@@ -56,6 +56,8 @@ class FunRandomProgressionQuestsPresenter(TooltipPositionerMixin, FunRandomOverl
 
     @hasActiveProgression()
     def __onMarkAsViewed(self):
+        if not self.readyForAnimations:
+            return
         progression = self.getActiveProgression()
         for trigger in progression.conditions.triggers:
             triggerId = trigger.getID()
@@ -76,6 +78,8 @@ class FunRandomProgressionQuestsPresenter(TooltipPositionerMixin, FunRandomOverl
             packFullProgressionConditions(modeName, progression, model.condition)
             if progression.hasUnlimitedProgression:
                 packFullInfiniteProgressionConditions(modeName, progression, model.infiniteCondition)
+            if progression.isInUnlimitedProgression:
+                model.condition.setPrevPoints(progression.conditions.maximumCounter)
         return
 
     @hasActiveProgression(abortAction=b'setDisabledProgression')

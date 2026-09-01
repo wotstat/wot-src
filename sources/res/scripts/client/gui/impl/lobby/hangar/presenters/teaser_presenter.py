@@ -26,7 +26,7 @@ class TeaserPresenter(ViewComponent[TeaserModel]):
         return
 
     def prepare(self):
-        self._promoController.onNewTeaserReceived += self.__onTeaserReceived
+        self._promoController.subscribePresenter(self.__onTeaserReceived)
         return
 
     @property
@@ -34,8 +34,8 @@ class TeaserPresenter(ViewComponent[TeaserModel]):
         return super(TeaserPresenter, self).getViewModel()
 
     def _finalize(self):
+        self._promoController.unsubscribePresenter(self.__onTeaserReceived)
         self.__clear()
-        self._promoController.onNewTeaserReceived -= self.__onTeaserReceived
         super(TeaserPresenter, self)._finalize()
         return
 
@@ -49,6 +49,9 @@ class TeaserPresenter(ViewComponent[TeaserModel]):
     def __clear(self):
         if self.__imageId:
             ImageHelper.removeTextureFromMemory(self.__imageId)
+        if self.__teaserData:
+            dependency.instance(IPromoLogger).logTeaserAction(self.__teaserData, action=PromoLogActions.KILLED_BY_SYSTEM)
+            self.__closeCallback(False)
         self.__teaserData = None
         self.__promoCount = 0
         self.__imageId = None

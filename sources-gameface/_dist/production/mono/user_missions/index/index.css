@@ -941,7 +941,7 @@
   margin-top: 33rem;
 }
 
-.BaseMissionCard_condition_24c5f381 {
+.BaseMissionCard_condition_acf099dc {
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -950,26 +950,29 @@
   margin-top: -1rem;
   color: rgba(var(--color-general-primary-rgb), 0.9);
   line-height: 1.2;
-  text-align: center;
 }
-.mediaSmall .BaseMissionCard_condition_24c5f381 {
+.mediaSmall .BaseMissionCard_condition_acf099dc {
   width: 157rem;
 }
-.mediaMedium .BaseMissionCard_condition_24c5f381 {
+.mediaMedium .BaseMissionCard_condition_acf099dc {
   width: 186rem;
   margin-top: -13rem;
 }
-.mediaLarge .BaseMissionCard_condition_24c5f381 {
+.mediaLarge .BaseMissionCard_condition_acf099dc {
   width: 200rem;
   height: 68rem;
   margin-top: -11rem;
   font-size: 18rem;
 }
-.mediaExtraLarge .BaseMissionCard_condition_24c5f381 {
+.mediaExtraLarge .BaseMissionCard_condition_acf099dc {
   width: 297rem;
   height: 75rem;
   margin-top: -3rem;
   font-size: 20rem;
+}
+
+.BaseMissionCard_formatText_5d15d383 {
+  justify-content: center;
 }
 
 .BaseMissionCard_progress_22036f7a {
@@ -1137,14 +1140,17 @@
   margin: 1rem 0 0 5rem;
 }
 
-.RerollButton_icon_5eb0ba49 {
+.RerollButton_icon_990a0f17 {
   width: 18rem;
   height: 18rem;
   background: url("R.images.gui.maps.icons.userMissions.hub.basic.reroll_icon") no-repeat center/contain;
   opacity: 0.7;
   transition: opacity 0.2s ease;
 }
-.RerollButton_base__active_c1f50ac9:hover .RerollButton_icon_5eb0ba49 {
+.RerollButton_base__locked_6d55354d .RerollButton_icon_990a0f17 {
+  opacity: 0.3;
+}
+.RerollButton_base__active_c1f50ac9:hover .RerollButton_icon_990a0f17 {
   opacity: 0.9;
 }
 

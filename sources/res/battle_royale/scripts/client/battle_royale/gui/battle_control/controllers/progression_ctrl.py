@@ -1,4 +1,7 @@
-import logging, BigWorld, Event
+from __future__ import absolute_import
+import logging
+from future.utils import viewitems
+import BigWorld, Event
 from adisp import adisp_process
 from battle_royale.gui.battle_control.controllers.notification_manager import INotificationManagerListener
 from constants import UpgradeProhibitionReason
@@ -199,7 +202,7 @@ class _BattleRoyaleArenaLevel(object):
         total = targetXP - baseXP
         percent = 0
         if total > 0:
-            percent = IProgressionListener.MAX_PERCENT_AMOUNT * (xp - baseXP) / total
+            percent = IProgressionListener.MAX_PERCENT_AMOUNT * (xp - baseXP) // total
         return percent
 
     def __getLevelByXp(self, xp):
@@ -319,7 +322,7 @@ class _ProgressionWindowCtrl(object):
         super(_ProgressionWindowCtrl, self).__init__()
         self.onTriggered = Event.Event()
         self.__progressionWindow = None
-        if self.app:
+        if self.app is not None:
             self.app.containerManager.onViewAddedToContainer += self.__onViewAddedToContainer
         return
 
@@ -336,7 +339,7 @@ class _ProgressionWindowCtrl(object):
         return self.__progressionWindow is not None
 
     def dispose(self):
-        if self.app:
+        if self.app is not None:
             self.app.containerManager.onViewAddedToContainer -= self.__onViewAddedToContainer
         self.__disposeProgressionWindow()
         return
@@ -383,7 +386,7 @@ class _VehicleHolder(object):
             self.__currentVehicleLevel = moduleLevel
             self.__vehicleChangeCallback(newModuleIntCD=module.intCD)
         else:
-            raise SoftException(b'Incorrect level! Current level=%s, module level=%s', str(self.__currentVehicleLevel), str(moduleLevel))
+            raise SoftException((b'Incorrect level! Current level={}, module level={}').format(self.__currentVehicleLevel, moduleLevel))
         return
 
     @adisp_process
@@ -540,17 +543,20 @@ class _ModuleChangeRequester(object):
         return isSuccessfull
 
     def __doRequest(self, intCD):
-        try:
-            vehicle = BigWorld.player().getVehicleAttached()
-            if vehicle is not None:
-                vehicle.inBattleUpgrades.upgradeVehicle(intCD)
-                self.__awaitingResponse.add(intCD)
-                return True
-        except AttributeError as e:
-            _logger.exception(b'Failed to send vehicle upgrade request. %s', str(e))
-            return False
+        if intCD in self.__awaitingResponse:
+            return True
+        else:
+            try:
+                vehicle = BigWorld.player().getVehicleAttached()
+                if vehicle is not None:
+                    vehicle.inBattleUpgrades.upgradeVehicle(intCD)
+                    self.__awaitingResponse.add(intCD)
+                    return True
+            except AttributeError as e:
+                _logger.exception(b'Failed to send vehicle upgrade request. %s', str(e))
+                return False
 
-        return False
+            return False
 
 
 class ProgressionController(IProgressionController, ViewComponentsController):
@@ -825,7 +831,7 @@ class ProgressionController(IProgressionController, ViewComponentsController):
 
     def __installInitialModules(self):
         cachedModules = {getTypeOfCompactDescr(module): module for module in self.__initialModulesRecord.getModules()}
-        for typeID, module in cachedModules.iteritems():
+        for typeID, module in viewitems(cachedModules):
             if typeID != GUI_ITEM_TYPE.TURRET:
                 self.__vehicleHolder.setInitialModule(module)
             else:

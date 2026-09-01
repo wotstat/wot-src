@@ -132,7 +132,7 @@ package net.wg.gui.components.controls
          var _loc2_:Number = NaN;
          var _loc3_:Number = NaN;
          super.draw();
-         if(isInvalid(InvalidationType.SIZE,INVALID_RANGE))
+         if(isInvalidTypes(InvalidationType.SIZE,INVALID_RANGE))
          {
             this._actualWidth = width;
             if(this._rangeMax - this._rangeMin > 0)
@@ -152,7 +152,7 @@ package net.wg.gui.components.controls
          {
             this.updateMode();
          }
-         if(isInvalid(INVALID_DIVISION_POINT_RENDERER,INVALID_DIVISION_SCALE,INVALID_RANGE))
+         if(isInvalidTypes(INVALID_DIVISION_POINT_RENDERER,INVALID_DIVISION_SCALE,INVALID_RANGE))
          {
             this.updateDivisionScale();
          }
