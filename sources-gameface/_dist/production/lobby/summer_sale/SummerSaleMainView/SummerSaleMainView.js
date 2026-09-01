@@ -1,1 +1,5603 @@
-(()=>{var __webpack_modules__={926:e=>{e.exports={SMALL_WIDTH:"mediaSmallWidth",MEDIUM_WIDTH:"mediaMediumWidth",LARGE_WIDTH:"mediaLargeWidth",EXTRA_LARGE_WIDTH:"mediaExtraLargeWidth",SMALL_HEIGHT:"mediaSmallHeight",MEDIUM_HEIGHT:"mediaMediumHeight",LARGE_HEIGHT:"mediaLargeHeight",EXTRA_LARGE_HEIGHT:"mediaExtraLargeHeight",SMALL:"mediaSmall",MEDIUM:"mediaMedium",LARGE:"mediaLarge",EXTRA_LARGE:"mediaExtraLarge"}},532:e=>{e.exports={BLACK_REAL:"#000000",WHITE_REAL:"#FFFFFF",WHITE:"#F2F2F7",WHITE_ORANGE:"#FEFEEC",WHITE_SPANISH:"#E9E2BF",PAR:"#8C8C7E",PAR_SECONDARY:"#595950",PAR_TERTIARY:"#37362E",INFO_RED:"#FF0000",RED:"#FF2717",RED_DARK:"#B70000",YELLOW:"#FEAB34",ORANGE:"#EE7000",CREAM:"#FFDD99",BROWN:"#CBAC77",GREEN_BRIGHT:"#80D43A",GREEN:"#7AB300",GREEN_DARK:"#497212",BLUE_BOOSTER:"#CCFFFF",BLUE_TEAMKILLER:"#09E2FF",CRED:"#CED9D9",GOLD:"#FFC363",BOND:"#C9C9B6",PROM:"#A29B70"}},887:e=>{e.exports={XS:"4rem",SM:"8rem",SMp:"10rem",MD:"16rem",MDp:"20rem",LG:"32rem",XL:"64rem"}},527:(e,u,t)=>{"use strict";t.r(u),t.d(u,{mouse:()=>i,onResize:()=>n});var r=t(472),a=t(176);const n=(0,r.E)("clientResized"),s={down:(0,r.E)("mousedown"),up:(0,r.E)("mouseup"),move:(0,r.E)("mousemove")};const i=function(){const e={listeners:0,enabled:!0,initialized:!1};function u(){e.enabled&&(0,a.R)(!1)}function t(){e.enabled&&(0,a.R)(!0)}function r(){e.enabled?e.listeners<1?(e.initialized=!1,document.body.removeEventListener("mouseenter",u),document.body.removeEventListener("mouseleave",t)):e.initialized||(e.initialized=!0,document.body.addEventListener("mouseenter",u),document.body.addEventListener("mouseleave",t)):(0,a.R)(!1)}const n=["down","up","move"].reduce(((u,t)=>(u[t]=function(u){return t=>{e.listeners+=1;let a=!0;const n=`mouse${u}`,i=s[u]((e=>t([e,"outside"])));function o(e){t([e,"inside"])}return window.addEventListener(n,o),r(),()=>{a&&(i(),window.removeEventListener(n,o),e.listeners-=1,r(),a=!1)}}}(t),u)),{});return Object.assign({},n,{disable(){e.enabled=!1,r()},enable(){e.enabled=!0,r()},enableOutside(){e.enabled&&(0,a.R)(!0)},disableOutside(){e.enabled&&(0,a.R)(!1)}})}()},959:(e,u,t)=>{"use strict";t.r(u),t.d(u,{events:()=>r,getMouseGlobalPosition:()=>n,getSize:()=>a,graphicsQuality:()=>s});var r=t(527);function a(e="px"){return"rem"===e?viewEnv.getClientSizeRem():viewEnv.getClientSizePx()}function n(e="px"){return"rem"===e?viewEnv.getMouseGlobalPositionRem():viewEnv.getMouseGlobalPositionPx()}const s={isLow:()=>1===viewEnv.getGraphicsQuality(),isHigh:()=>0===viewEnv.getGraphicsQuality(),get:()=>viewEnv.getGraphicsQuality()}},176:(e,u,t)=>{"use strict";function r(e){viewEnv.setTrackMouseOnStage(e)}t.d(u,{R:()=>r})},472:(e,u,t)=>{"use strict";function r(e){return u=>(engine.on(e,u),()=>{engine.off(e,u)})}t.d(u,{E:()=>r})},138:(e,u,t)=>{"use strict";t.d(u,{O:()=>a});var r=t(959);const a={view:t(641),client:r}},722:(e,u,t)=>{"use strict";function r(e,u,t=1){return viewEnv.getChildTexturePath(e,u.width,u.height,t)}function a(e,u,t){return`url(${r(e,u,t)})`}t.r(u),t.d(u,{getBgUrl:()=>a,getTextureUrl:()=>r})},112:(e,u,t)=>{"use strict";t.d(u,{W:()=>r});const r={showing:0,shown:1,hiding:2,hidden:3}},538:(e,u,t)=>{"use strict";t.d(u,{U:()=>a});var r=t(472);const a={onTextureFrozen:(0,r.E)("self.onTextureFrozen"),onTextureReady:(0,r.E)("self.onTextureReady"),onDomBuilt:(0,r.E)("self.onDomBuilt"),onLoaded:(0,r.E)("self.onLoaded"),onDisplayChanged:(0,r.E)("self.onShowingStatusChanged"),onFocusUpdated:(0,r.E)("self.onFocusChanged"),children:{onAdded:(0,r.E)("children.onAdded"),onLoaded:(0,r.E)("children.onLoaded"),onRemoved:(0,r.E)("children.onRemoved"),onAttached:(0,r.E)("children.onAttached"),onTextureReady:(0,r.E)("children.onTextureReady"),onRequestPosition:(0,r.E)("children.requestPosition")}}},641:(e,u,t)=>{"use strict";t.r(u),t.d(u,{addModelObserver:()=>c,addPreloadTexture:()=>i,children:()=>r,displayStatus:()=>a.W,displayStatusIs:()=>S,events:()=>n.U,extraSize:()=>y,forceTriggerMouseMove:()=>v,freezeTextureBeforeResize:()=>A,getBrowserTexturePath:()=>l,getDisplayStatus:()=>f,getScale:()=>p,getSize:()=>m,getViewGlobalPosition:()=>d,isClientAccessible:()=>B,isEventHandled:()=>b,isFocused:()=>g,pxToRem:()=>D,remToPx:()=>F,resize:()=>E,sendEvent:()=>s.qP,setAnimateWindow:()=>h,setEventHandled:()=>C,setInputPaddingsRem:()=>o,setSidePaddingsRem:()=>_,whenTutorialReady:()=>w});var r=t(722),a=t(112),n=t(538),s=t(566);function i(e){viewEnv.addPreloadTexture(e)}function o(e){viewEnv.setHitAreaPaddingsRem(e,e,e,e,15)}function l(e,u,t,r=1){return viewEnv.getWebBrowserTexturePath(e,u,t,r)}function c(e,u,t){return viewEnv.addDataChangedCallback(e,u,t)}function _(e){viewEnv.setHitAreaPaddingsRem(e.top,e.right,e.bottom,e.left,15)}function m(e="px"){return"rem"===e?viewEnv.getViewSizeRem():viewEnv.getViewSizePx()}function E(e,u,t="px"){return"rem"===t?viewEnv.resizeViewRem(e,u):viewEnv.resizeViewPx(e,u)}function d(e="rem"){const u=viewEnv.getViewGlobalPositionRem();return"rem"===e?u:{x:F(u.x),y:F(u.y)}}function A(){viewEnv.freezeTextureBeforeResize()}function p(){return viewEnv.getScale()}function D(e){return viewEnv.pxToRem(e)}function F(e){return viewEnv.remToPx(e)}function h(e,u){viewEnv.setAnimateWindow(e,u)}function g(){return viewEnv.isFocused()}function B(){return viewEnv.isClientAccessible()}function C(){return viewEnv.setEventHandled()}function b(){return viewEnv.isEventHandled()}function v(){viewEnv.forceTriggerMouseMove()}function f(){return viewEnv.getShowingStatus()}const S=Object.keys(a.W).reduce(((e,u)=>(e[u]=()=>viewEnv.getShowingStatus()===a.W[u],e)),{}),y={set:(e,u)=>{viewEnv.setExtraSizeRem(e,u)},get:(e,u)=>{viewEnv.getExtraSizeRem(e,u)}},w=Promise.all([new Promise((e=>{window.isDomBuilt?e():n.U.onDomBuilt(e)})),engine.whenReady])},566:(e,u,t)=>{"use strict";t.d(u,{qP:()=>l});const r=["args"];const a=2,n=16,s=32,i=64,o=(e,u)=>{const t="GFViewEventProxy";if(void 0!==u){const n=u.args,s=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(u,r);return void 0!==n?viewEnv.handleViewEvent(Object.assign({__Type:t,type:e},s,{arguments:(a=n,Object.entries(a).map((([e,u])=>{const t="GFValueProxy";switch(typeof u){case"number":return{__Type:t,name:e,number:u};case"boolean":return{__Type:t,name:e,bool:u};default:return{__Type:t,name:e,string:u.toString()}}})))})):viewEnv.handleViewEvent(Object.assign({__Type:t,type:e},s))}return viewEnv.handleViewEvent({__Type:t,type:e});var a},l={close(e){o("popover"===e?a:s)},minimize(){o(i)},move(e){o(n,{isMouseEvent:!0,on:e})}}},521:(e,u,t)=>{"use strict";let r,a;t.d(u,{n:()=>r}),function(e){e[e.NONE=-1]="NONE",e[e.ALT=165]="ALT",e[e.ENTER=13]="ENTER",e[e.ESCAPE=27]="ESCAPE",e[e.SPACE=32]="SPACE",e[e.END=35]="END",e[e.HOME=36]="HOME",e[e.ARROW_LEFT=37]="ARROW_LEFT",e[e.ARROW_UP=38]="ARROW_UP",e[e.ARROW_RIGHT=39]="ARROW_RIGHT",e[e.ARROW_DOWN=40]="ARROW_DOWN",e[e.NUM_PLUS=107]="NUM_PLUS",e[e.NUM_MINUS=109]="NUM_MINUS",e[e.PLUS=187]="PLUS",e[e.MINUS=189]="MINUS",e[e.PAGE_UP=33]="PAGE_UP",e[e.PAGE_DOWN=34]="PAGE_DOWN",e[e.BACKSPACE=8]="BACKSPACE",e[e.DELETE=46]="DELETE",e[e.TAB=9]="TAB",e[e.KEY_N=78]="KEY_N",e[e.KEY_0=48]="KEY_0",e[e.KEY_1=49]="KEY_1",e[e.KEY_2=50]="KEY_2",e[e.KEY_3=51]="KEY_3",e[e.KEY_4=52]="KEY_4",e[e.KEY_5=53]="KEY_5",e[e.KEY_6=54]="KEY_6",e[e.KEY_7=55]="KEY_7",e[e.KEY_8=56]="KEY_8",e[e.KEY_9=57]="KEY_9",e[e.CAPS_LOCK=20]="CAPS_LOCK",e[e.INSERT=45]="INSERT",e[e.F1=112]="F1",e[e.F2=113]="F2",e[e.F3=114]="F3",e[e.F4=115]="F4",e[e.F5=116]="F5",e[e.F6=117]="F6",e[e.F7=118]="F7",e[e.F8=119]="F8",e[e.F9=120]="F9",e[e.F10=121]="F10",e[e.F11=122]="F11",e[e.F12=123]="F12",e[e.SELECT=93]="SELECT",e[e.NUMPAD_0=96]="NUMPAD_0",e[e.NUMPAD_1=97]="NUMPAD_1",e[e.NUMPAD_2=98]="NUMPAD_2",e[e.NUMPAD_3=99]="NUMPAD_3",e[e.NUMPAD_4=100]="NUMPAD_4",e[e.NUMPAD_5=101]="NUMPAD_5",e[e.NUMPAD_6=102]="NUMPAD_6",e[e.NUMPAD_7=103]="NUMPAD_7",e[e.NUMPAD_8=104]="NUMPAD_8",e[e.NUMPAD_9=105]="NUMPAD_9",e[e.NUM_DECIMAL=110]="NUM_DECIMAL",e[e.STAR=106]="STAR",e[e.NUM_SLASH=111]="NUM_SLASH",e[e.FORWARD_SLASH=191]="FORWARD_SLASH",e[e.COMMA=188]="COMMA",e[e.DASH=189]="DASH",e[e.PERIOD=190]="PERIOD"}(r||(r={})),function(e){e.ALT="Alt",e.ALT_GRAPH="AltGraph",e.CAPS_LOCK="CapsLock",e.CONTROL="Control",e.FN="Fn",e.FN_LOCK="FnLock",e.META="Meta",e.NUM_LOCK="NumLock",e.SCROLL_LOCK="ScrollLock",e.SHIFT="Shift",e.SYMBOL="Symbol",e.SYMBOL_LOCK="SymbolLock"}(a||(a={}))},368:()=>{!function(){let e,u,t,r,a,n,s,i=-1;document.addEventListener("mousedown",(t=>{document.getSelection().empty(),t.target.select&&-1===i&&(e=t.target,u=e.getBoundingClientRect(),e.setSelectionRange(0,0))})),document.addEventListener("mousemove",(t=>{if(-1===i&&t.target.select&&t.target===e&&(i=e.selectionStart),i>-1){const r=Math.min(Math.max(t.x,u.left),u.right),a=Math.min(Math.max(t.y,u.top),u.bottom),n=document.createEvent("MouseEvent");n.initMouseEvent("mousedown",!0,!0,null,1,r,a,r,a,!1,!1,!1,!1,0,null),e.dispatchEvent(n);const s=e.selectionEnd;s>i?e.setSelectionRange(i,s,"forward"):e.setSelectionRange(s,i,"backward")}})),document.addEventListener("mouseup",(()=>{e=null,i=-1})),document.addEventListener("dblclick",(e=>{e.target.select&&(document.getSelection().empty(),t=e.target,r=e.target.value,a=t.selectionStart,n=-1!==r.lastIndexOf(" ",a)?r.lastIndexOf(" ",a)+1:0,s=-1!==r.indexOf(" ",a)?r.indexOf(" ",a):r.length,t.setSelectionRange(n,s,"forward"))}))}(),function(){let e=null;document.addEventListener("mousedown",(u=>{document.getSelection().empty(),0!==u.button||u.target.select||e||(e=document.caretPositionFromPoint(u.x,u.y))})),document.addEventListener("mousemove",(u=>{if(0===u.button&&!u.target.select&&e){const t=document.caretPositionFromPoint(u.x,u.y);if(!t.offsetNode||!e.offsetNode)return;document.getSelection().setBaseAndExtent(e.offsetNode,e.offset,t.offsetNode,t.offset)}})),document.addEventListener("mouseup",(()=>{e=null}))}()},358:(e,u,t)=>{"use strict";t.d(u,{Z:()=>n});var r=t(138);class a{constructor(){this._callbacks=void 0,this._updateHandler=void 0,this._views=void 0,this.clearViewCallbacks=e=>{this._views[e]&&(this._views[e].forEach((e=>{delete this._callbacks[e]})),delete this._views[e])},this._callbacks={},this._views={},this._updateHandler=void 0}static get instance(){return window.__dataTracker||(window.__dataTracker=new a),window.__dataTracker}clear(){void 0!==this._updateHandler&&(this._updateHandler.clear(),this._updateHandler=void 0),this._callbacks={}}addCallback(e,u,t=0,a=!0){void 0===this._updateHandler&&(this._updateHandler=engine.on("viewEnv.onDataChanged",this._emmitDataChanged,this));const n=r.O.view.addModelObserver(e,t,a);return n>0?(this._callbacks[n]=u,t>0&&(this._views[t]?this._views[t].push(n):this._views[t]=[n])):console.error("Can't add callback for model:",e),n}removeCallback(e,u=0){let t=!1;return void 0!==e&&void 0!==this._callbacks[e]&&(t=viewEnv.removeDataChangedCallback(e,u),delete this._callbacks[e]),t||console.error("Can't remove callback by id:",e),t}_emmitDataChanged(e,u,t){t.forEach((t=>{const r=this._callbacks[t];void 0!==r&&r(e,u)}))}}a.__instance=void 0;const n=a},572:(__unused_webpack_module,__webpack_exports__,__webpack_require__)=>{"use strict";__webpack_require__.d(__webpack_exports__,{Z:()=>__WEBPACK_DEFAULT_EXPORT__});var _DataTracker__WEBPACK_IMPORTED_MODULE_0__=__webpack_require__(358),_index__WEBPACK_IMPORTED_MODULE_1__=__webpack_require__(364);class ViewModel{constructor(path,watchingFields=[]){this.dataTracker=void 0,this.modelPath=void 0,this.callbacks=void 0,this.data=void 0,this._notifyObservers=()=>{this.data=eval(this.modelPath),this.callbacks.forEach((e=>{e(this.data)}))},this.dataTracker=new _DataTracker__WEBPACK_IMPORTED_MODULE_0__.Z,this.modelPath=path,this.callbacks=new Set,(0,_index__WEBPACK_IMPORTED_MODULE_1__.ry)().then((()=>{this._addCallback(path),watchingFields.forEach((e=>{this._addCallback(path+"."+e)})),this._notifyObservers()}))}subscribe(e){this.callbacks.add(e),null!==this.data&&void 0!==this.data&&e(this.data)}unsubscribe(e){this.callbacks.delete(e)}destroy(){this.dataTracker.clear(),this.callbacks.clear()}_addCallback(e){this.dataTracker.addCallback(e,this._notifyObservers)}}const __WEBPACK_DEFAULT_EXPORT__=ViewModel},364:(e,u,t)=>{"use strict";t.d(u,{kH:()=>m,B3:()=>l,Z5:()=>s,lf:()=>_,cy:()=>i,B0:()=>o,ry:()=>F});class r{constructor(){this.entries=[],this._listenMouse=!1,this.onMouseDown=e=>{this.entries.forEach((({container:u,callback:t})=>{let r=e.target;do{if(r===u)return;r=r.parentNode}while(r);t()}))}}static get instance(){return r.__instance||(r.__instance=new r),r.__instance}register(e,u){this.addMouseListener(),this.entries.push({container:e,callback:u})}unregister(e,u){const t=e,r=u;this.entries=this.entries.filter((({container:e,callback:u})=>e!==t||u!==r)),this.removeMouseListener()}addMouseListener(){this._listenMouse||(document.addEventListener("mousedown",this.onMouseDown),this._listenMouse=!0)}removeMouseListener(){this._listenMouse&&0===this.entries.length&&(document.removeEventListener("mousedown",this.onMouseDown),this._listenMouse=!1)}}r.__instance=void 0;const a=r;var n=t(358);const s={getNumberFormat:(e,u)=>systemLocale.getNumberFormat(e,u),getRealFormat:(e,u)=>systemLocale.getRealFormat(e,u),getTimeFormat:(e,u)=>systemLocale.getTimeFormat(e,u),getDateFormat:(e,u)=>systemLocale.getDateFormat(e,u),toUpperCase:e=>systemLocale.toUpperCase(e),toLowerCase:e=>systemLocale.toUpperCase(e)},i={getNumberFormat:e=>userLocale.getNumberFormat(e),getTimeFormat:(e,u,t)=>userLocale.getTimeFormat(e,u,void 0===t||t),getTimeString:(e,u,t)=>userLocale.getTimeString(e,u,void 0===t||t)};let o;!function(e){e[e.UNDEFINED=0]="UNDEFINED",e[e.TOOLTIP=1]="TOOLTIP",e[e.POP_OVER=2]="POP_OVER",e[e.CONTEXT_MENU=4]="CONTEXT_MENU",e[e.DROP_DOWN=8]="DROP_DOWN",e[e.MOVE=16]="MOVE",e[e.CLOSE=32]="CLOSE",e[e.MINIMIZE=64]="MINIMIZE"}(o||(o={}));const l=Object.freeze({INTEGRAL:0,GOLD:1}),c=Object.freeze({FRACTIONAL:0,WO_ZERO_DIGITS:1}),_=Object.freeze({SHORT_FORMAT:0,LONG_FORMAT:1}),m=Object.freeze({SHORT_FORMAT:0,LONG_FORMAT:1,YEAR_MONTH:2});var E=t(521),d=t(138);const A=["args"];function p(e,u,t,r,a,n,s){try{var i=e[n](s),o=i.value}catch(e){return void t(e)}i.done?u(o):Promise.resolve(o).then(r,a)}const D=e=>({__Type:"GFBoundingBox",x:e.x,y:e.y,width:e.width,height:e.height}),F=function(){var e,u=(e=function*(){return!(!engine._BindingsReady||!engine._WindowLoaded)||new Promise((e=>{engine.on("Ready",e)}))},function(){var u=this,t=arguments;return new Promise((function(r,a){var n=e.apply(u,t);function s(e){p(n,r,a,s,i,"next",e)}function i(e){p(n,r,a,s,i,"throw",e)}s(void 0)}))});return function(){return u.apply(this,arguments)}}(),h=(e,u)=>{const t="GFViewEventProxy";if(void 0!==u){const a=u.args,n=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(u,A);void 0!==a?viewEnv.handleViewEvent(Object.assign({__Type:t,type:e},n,{arguments:(r=a,Object.entries(r).map((([e,u])=>{const t={__Type:"GFValueProxy",name:e};switch(typeof u){case"number":t.number=u;break;case"boolean":t.bool=u;break;default:t.string=u.toString()}return t})))})):viewEnv.handleViewEvent(Object.assign({__Type:t,type:e},n))}else viewEnv.handleViewEvent({__Type:t,type:e});var r},g=()=>h(o.CLOSE),B=(e,u)=>{e.keyCode===E.n.ESCAPE&&u()};var C=t(572);const b=a.instance,v={DataTracker:n.Z,ViewModel:C.Z,ViewEventType:o,NumberFormatType:l,RealFormatType:c,TimeFormatType:_,DateFormatType:m,makeGlobalBoundingBox:D,sendMoveEvent:e=>h(o.MOVE,{isMouseEvent:!0,on:e}),sendCloseEvent:g,sendClosePopOverEvent:()=>h(o.POP_OVER,{on:!1}),sendShowContextMenuEvent:(e,u,t=0)=>{h(o.CONTEXT_MENU,{isMouseEvent:!0,contentID:e,on:!0,decoratorID:t,args:u})},sendShowPopOverEvent:(e,u,t,r,a=R.invalid("resId"),n)=>{const s=d.O.view.getViewGlobalPosition(),i=t.getBoundingClientRect(),l=i.x,c=i.y,_=i.width,m=i.height,E={x:d.O.view.pxToRem(l)+s.x,y:d.O.view.pxToRem(c)+s.y,width:d.O.view.pxToRem(_),height:d.O.view.pxToRem(m)};h(o.POP_OVER,{isMouseEvent:!0,contentID:e,decoratorID:r||R.invalid("resId"),targetID:a,direction:u,bbox:D(E),on:!0,args:n})},addEscapeListener:e=>{const u=u=>B(u,e);return window.addEventListener("keydown",u),()=>window.removeEventListener("keydown",u)},closeOnEsc:e=>{B(e,g)},handleViewEvent:h,onBindingsReady:F,onLayoutReady:()=>new Promise((e=>{requestAnimationFrame((()=>{requestAnimationFrame((()=>{e()}))}))})),isTooltipShown:()=>viewEnv.isWindowShownByViewEvent(o.TOOLTIP),isContextMenuShown:()=>viewEnv.isWindowShownByViewEvent(o.CONTEXT_MENU),isPopOverShown:()=>viewEnv.isWindowShownByViewEvent(o.POP_OVER),dumpViewModel:function e(u){const t={};if("object"!=typeof u)return u;for(const r in u)if(Object.prototype.hasOwnProperty.call(u,r)){const a=Object.prototype.toString.call(u[r]);if(a.startsWith("[object CoherentArrayProxy]")){const a=u[r];t[r]=[];for(let u=0;u<a.length;u++)t[r].push({value:e(a[u].value)})}else a.startsWith("[object class BW::WULF::ViewModel")?t[r]=e(u[r]):t[r]=u[r]}return t},ClickOutsideManager:b,SystemLocale:s,UserLocale:i};window.ViewEnvHelper=v},188:(e,u,t)=>{"use strict";var r=t(179),a=t.n(r);const n=(e,u,t)=>u.extraLargeHeight||u.largeHeight||u.mediumHeight||u.smallHeight||u.extraSmallHeight?u.extraLargeHeight&&t.extraLarge||u.largeHeight&&t.large||u.mediumHeight&&t.medium||u.smallHeight&&t.small||u.extraSmallHeight&&t.extraSmall?e:null:e;var s=t(138);const i={extraLarge:{weight:4,width:2560,height:1440},large:{weight:3,width:1920,height:1080},medium:{weight:2,width:1600,height:900},small:{weight:1,width:1366,height:768},extraSmall:{weight:0,width:1024,height:768}};var o;function l(e,u,t){const r=function(e,u){switch(!0){case e>=u.extraLarge.width:return u.extraLarge.weight;case e>=u.large.width&&e<u.extraLarge.width:return u.large.weight;case e>=u.medium.width&&e<u.large.width:return u.medium.weight;case e>=u.small.width&&e<u.medium.width:return u.small.weight;default:return u.extraSmall.weight}}(e,t),a=function(e,u){switch(!0){case e>=u.extraLarge.height:return u.extraLarge.weight;case e>=u.large.height&&e<u.extraLarge.height:return u.large.weight;case e>=u.medium.height&&e<u.large.height:return u.medium.weight;case e>=u.small.height&&e<u.medium.height:return u.small.weight;default:return u.extraSmall.weight}}(u,t),n=Math.min(r,a);return{extraLarge:n===t.extraLarge.weight,large:n===t.large.weight,medium:n===t.medium.weight,small:n===t.small.weight,extraSmall:n===t.extraSmall.weight,extraLargeWidth:r===t.extraLarge.weight,largeWidth:r===t.large.weight,mediumWidth:r===t.medium.weight,smallWidth:r===t.small.weight,extraSmallWidth:r===t.extraSmall.weight,extraLargeHeight:a===t.extraLarge.weight,largeHeight:a===t.large.weight,mediumHeight:a===t.medium.weight,smallHeight:a===t.small.weight,extraSmallHeight:a===t.extraSmall.weight}}!function(e){e.extraLarge="extraLarge",e.large="large",e.medium="medium",e.small="small",e.extraSmall="extraSmall",e.extraLargeWidth="extraLargeWidth",e.largeWidth="largeWidth",e.mediumWidth="mediumWidth",e.smallWidth="smallWidth",e.extraSmallWidth="extraSmallWidth",e.extraLargeHeight="extraLargeHeight",e.largeHeight="largeHeight",e.mediumHeight="mediumHeight",e.smallHeight="smallHeight",e.extraSmallHeight="extraSmallHeight"}(o||(o={}));const c=s.O.client.getSize("rem"),_=c.width,m=c.height,E=Object.assign({width:_,height:m},l(_,m,i)),d=(0,r.createContext)(E),A=["children"];const p=e=>{let u=e.children,t=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,A);const a=(0,r.useContext)(d),s=a.extraLarge,i=a.large,o=a.medium,l=a.small,c=a.extraSmall,_=a.extraLargeWidth,m=a.largeWidth,E=a.mediumWidth,p=a.smallWidth,D=a.extraSmallWidth,F=a.extraLargeHeight,h=a.largeHeight,g=a.mediumHeight,B=a.smallHeight,C=a.extraSmallHeight,b={extraLarge:F,large:h,medium:g,small:B,extraSmall:C};if(t.extraLarge||t.large||t.medium||t.small||t.extraSmall){if(t.extraLarge&&s)return u;if(t.large&&i)return u;if(t.medium&&o)return u;if(t.small&&l)return u;if(t.extraSmall&&c)return u}else{if(t.extraLargeWidth&&_)return n(u,t,b);if(t.largeWidth&&m)return n(u,t,b);if(t.mediumWidth&&E)return n(u,t,b);if(t.smallWidth&&p)return n(u,t,b);if(t.extraSmallWidth&&D)return n(u,t,b);if(!(t.extraLargeWidth||t.largeWidth||t.mediumWidth||t.smallWidth||t.extraSmallWidth)){if(t.extraLargeHeight&&F)return u;if(t.largeHeight&&h)return u;if(t.mediumHeight&&g)return u;if(t.smallHeight&&B)return u;if(t.extraSmallHeight&&C)return u}}return null};p.defaultProps={extraLarge:!1,large:!1,medium:!1,small:!1,extraSmall:!1,extraLargeWidth:!1,largeWidth:!1,mediumWidth:!1,smallWidth:!1,extraSmallWidth:!1,extraLargeHeight:!1,largeHeight:!1,mediumHeight:!1,smallHeight:!1,extraSmallHeight:!1};(0,r.memo)(p);const D=e=>{const u=(0,r.useRef)(!1);u.current||(e(),u.current=!0)},F=(0,r.memo)((({children:e})=>{const u=(0,r.useContext)(d),t=(0,r.useState)(u),n=t[0],o=t[1],c=(0,r.useCallback)(((e,u)=>{const t=s.O.view.pxToRem(e),r=s.O.view.pxToRem(u);o(Object.assign({width:t,height:r},l(t,r,i)))}),[]);D((()=>{engine.on("clientResized",c)})),(0,r.useEffect)((()=>()=>engine.off("clientResized",c)),[c]);const _=(0,r.useMemo)((()=>Object.assign({},n)),[n]);return a().createElement(d.Provider,{value:_},e)}));var h=t(483),g=t.n(h),B=t(926),C=t.n(B);let b,v,f;!function(e){e[e.ExtraSmall=i.extraSmall.width]="ExtraSmall",e[e.Small=i.small.width]="Small",e[e.Medium=i.medium.width]="Medium",e[e.Large=i.large.width]="Large",e[e.ExtraLarge=i.extraLarge.width]="ExtraLarge"}(b||(b={})),function(e){e[e.ExtraSmall=i.extraSmall.width]="ExtraSmall",e[e.Small=i.small.width]="Small",e[e.Medium=i.medium.width]="Medium",e[e.Large=i.large.width]="Large",e[e.ExtraLarge=i.extraLarge.width]="ExtraLarge"}(v||(v={})),function(e){e[e.ExtraSmall=i.extraSmall.height]="ExtraSmall",e[e.Small=i.small.height]="Small",e[e.Medium=i.medium.height]="Medium",e[e.Large=i.large.height]="Large",e[e.ExtraLarge=i.extraLarge.height]="ExtraLarge"}(f||(f={}));const S=()=>{const e=(0,r.useContext)(d),u=e.width,t=e.height,a=(e=>{switch(!0){case e.extraLarge:return b.ExtraLarge;case e.large:return b.Large;case e.medium:return b.Medium;case e.small:return b.Small;case e.extraSmall:return b.ExtraSmall;default:return console.error("Unreachable media context resolution"),b.ExtraSmall}})(e),n=(e=>{switch(!0){case e.extraLargeWidth:return v.ExtraLarge;case e.largeWidth:return v.Large;case e.mediumWidth:return v.Medium;case e.smallWidth:return v.Small;case e.extraSmallWidth:return v.ExtraSmall;default:return console.error("Unreachable media context resolution"),v.ExtraSmall}})(e),s=(e=>{switch(!0){case e.extraLargeHeight:return f.ExtraLarge;case e.largeHeight:return f.Large;case e.mediumHeight:return f.Medium;case e.smallHeight:return f.Small;case e.extraSmallHeight:return f.ExtraSmall;default:return console.error("Unreachable media context resolution"),f.ExtraSmall}})(e);return{mediaSize:a,mediaWidth:n,mediaHeight:s,remScreenWidth:u,remScreenHeight:t}},y=["children","className"];function w(){return w=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},w.apply(this,arguments)}const M={[v.ExtraSmall]:"",[v.Small]:C().SMALL_WIDTH,[v.Medium]:`${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH}`,[v.Large]:`${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH} ${C().LARGE_WIDTH}`,[v.ExtraLarge]:`${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH} ${C().LARGE_WIDTH} ${C().EXTRA_LARGE_WIDTH}`},N={[f.ExtraSmall]:"",[f.Small]:C().SMALL_HEIGHT,[f.Medium]:`${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT}`,[f.Large]:`${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT} ${C().LARGE_HEIGHT}`,[f.ExtraLarge]:`${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT} ${C().LARGE_HEIGHT} ${C().EXTRA_LARGE_HEIGHT}`},T={[b.ExtraSmall]:"",[b.Small]:C().SMALL,[b.Medium]:`${C().SMALL} ${C().MEDIUM}`,[b.Large]:`${C().SMALL} ${C().MEDIUM} ${C().LARGE}`,[b.ExtraLarge]:`${C().SMALL} ${C().MEDIUM} ${C().LARGE} ${C().EXTRA_LARGE}`},x=e=>{let u=e.children,t=e.className,r=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,y);const n=S(),s=n.mediaWidth,i=n.mediaHeight,o=n.mediaSize;return a().createElement("div",w({className:g()(t,M[s],N[i],T[o])},r),u)},P=["children"];const k=e=>{let u=e.children,t=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,P);return a().createElement(F,null,a().createElement(x,t,u))};var L=t(493),I=t.n(L);let O;function H(e){return e.replace(/-/g,"_")}!function(e){e[e.left=0]="left",e[e.right=1]="right"}(O||(O={}));const U=(e,u,t)=>{if(t%2){const t=e.pop();return[...e,t+u]}return[...e,u]},W=(e,u,t)=>{if(0===t)return[u];if(t%2)return[...e," "===u?" ":u];{const t=e.pop();return[...e,t+u]}},G=(e,u,t=O.left)=>e.split(u).reduce(t===O.left?U:W,[]),$=(()=>{const e=new RegExp(/[\(\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[ %\+\x2D-9A-Za-\{\}\xA0\xC0-\u0237\u2013\u2014\u2026]+[\)\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3002\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\uFF01\uFF0C\uFF1A\uFF1B\uFF1F\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu.source+"|"+/[\(\xAB\u201C\u275D][\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}][\0-\u2E7F\u2E9A\u2EF4-\u2EFF\u2FD6-\u3004\u3006\u3008-\u3020\u302A-\u3037\u303C-\u33FF\u4DC0-\u4DFF\uA000-\uF8FF\uFA6E\uFA6F\uFADA-\u{16FE1}\u{16FE4}-\u{16FEF}\u{16FF2}-\u{1FFFF}\u{2A6E0}-\u{2A6FF}\u{2B739}-\u{2B73F}\u{2B81E}\u{2B81F}\u{2CEA2}-\u{2CEAF}\u{2EBE1}-\u{2F7FF}\u{2FA1E}-\u{2FFFF}\u{3134B}-\u{10FFFF}]?|[\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}][\0-\u2E7F\u2E9A\u2EF4-\u2EFF\u2FD6-\u3004\u3006\u3008-\u3020\u302A-\u3037\u303C-\u33FF\u4DC0-\u4DFF\uA000-\uF8FF\uFA6E\uFA6F\uFADA-\u{16FE1}\u{16FE4}-\u{16FEF}\u{16FF2}-\u{1FFFF}\u{2A6E0}-\u{2A6FF}\u{2B739}-\u{2B73F}\u{2B81E}\u{2B81F}\u{2CEA2}-\u{2CEAF}\u{2EBE1}-\u{2F7FF}\u{2FA1E}-\u{2FFFF}\u{3134B}-\u{10FFFF}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[\)\xBB\u201D\u275E][\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu.source+"|"+/[A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0560-\u0588\u05D0-\u05EA\u05EF-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u0870-\u0887\u0889-\u088E\u08A0-\u08C9\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C5D\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D04-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E86-\u0E8A\u0E8C-\u0EA3\u0EA5\u0EA7-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u1711\u171F-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1878\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4C\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1C90-\u1CBA\u1CBD-\u1CBF\u1CE9-\u1CEC\u1CEE-\u1CF3\u1CF5\u1CF6\u1CFA\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312F\u3131-\u318E\u31A0-\u31BF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7CA\uA7D0\uA7D1\uA7D3\uA7D5-\uA7D9\uA7F2-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA8FE\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB69\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u{10000}-\u{1000B}\u{1000D}-\u{10026}\u{10028}-\u{1003A}\u{1003C}\u{1003D}\u{1003F}-\u{1004D}\u{10050}-\u{1005D}\u{10080}-\u{100FA}\u{10280}-\u{1029C}\u{102A0}-\u{102D0}\u{10300}-\u{1031F}\u{1032D}-\u{10340}\u{10342}-\u{10349}\u{10350}-\u{10375}\u{10380}-\u{1039D}\u{103A0}-\u{103C3}\u{103C8}-\u{103CF}\u{10400}-\u{1049D}\u{104B0}-\u{104D3}\u{104D8}-\u{104FB}\u{10500}-\u{10527}\u{10530}-\u{10563}\u{10570}-\u{1057A}\u{1057C}-\u{1058A}\u{1058C}-\u{10592}\u{10594}\u{10595}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10600}-\u{10736}\u{10740}-\u{10755}\u{10760}-\u{10767}\u{10780}-\u{10785}\u{10787}-\u{107B0}\u{107B2}-\u{107BA}\u{10800}-\u{10805}\u{10808}\u{1080A}-\u{10835}\u{10837}\u{10838}\u{1083C}\u{1083F}-\u{10855}\u{10860}-\u{10876}\u{10880}-\u{1089E}\u{108E0}-\u{108F2}\u{108F4}\u{108F5}\u{10900}-\u{10915}\u{10920}-\u{10939}\u{10980}-\u{109B7}\u{109BE}\u{109BF}\u{10A00}\u{10A10}-\u{10A13}\u{10A15}-\u{10A17}\u{10A19}-\u{10A35}\u{10A60}-\u{10A7C}\u{10A80}-\u{10A9C}\u{10AC0}-\u{10AC7}\u{10AC9}-\u{10AE4}\u{10B00}-\u{10B35}\u{10B40}-\u{10B55}\u{10B60}-\u{10B72}\u{10B80}-\u{10B91}\u{10C00}-\u{10C48}\u{10C80}-\u{10CB2}\u{10CC0}-\u{10CF2}\u{10D00}-\u{10D23}\u{10E80}-\u{10EA9}\u{10EB0}\u{10EB1}\u{10F00}-\u{10F1C}\u{10F27}\u{10F30}-\u{10F45}\u{10F70}-\u{10F81}\u{10FB0}-\u{10FC4}\u{10FE0}-\u{10FF6}\u{11003}-\u{11037}\u{11071}\u{11072}\u{11075}\u{11083}-\u{110AF}\u{110D0}-\u{110E8}\u{11103}-\u{11126}\u{11144}\u{11147}\u{11150}-\u{11172}\u{11176}\u{11183}-\u{111B2}\u{111C1}-\u{111C4}\u{111DA}\u{111DC}\u{11200}-\u{11211}\u{11213}-\u{1122B}\u{11280}-\u{11286}\u{11288}\u{1128A}-\u{1128D}\u{1128F}-\u{1129D}\u{1129F}-\u{112A8}\u{112B0}-\u{112DE}\u{11305}-\u{1130C}\u{1130F}\u{11310}\u{11313}-\u{11328}\u{1132A}-\u{11330}\u{11332}\u{11333}\u{11335}-\u{11339}\u{1133D}\u{11350}\u{1135D}-\u{11361}\u{11400}-\u{11434}\u{11447}-\u{1144A}\u{1145F}-\u{11461}\u{11480}-\u{114AF}\u{114C4}\u{114C5}\u{114C7}\u{11580}-\u{115AE}\u{115D8}-\u{115DB}\u{11600}-\u{1162F}\u{11644}\u{11680}-\u{116AA}\u{116B8}\u{11700}-\u{1171A}\u{11740}-\u{11746}\u{11800}-\u{1182B}\u{118A0}-\u{118DF}\u{118FF}-\u{11906}\u{11909}\u{1190C}-\u{11913}\u{11915}\u{11916}\u{11918}-\u{1192F}\u{1193F}\u{11941}\u{119A0}-\u{119A7}\u{119AA}-\u{119D0}\u{119E1}\u{119E3}\u{11A00}\u{11A0B}-\u{11A32}\u{11A3A}\u{11A50}\u{11A5C}-\u{11A89}\u{11A9D}\u{11AB0}-\u{11AF8}\u{11C00}-\u{11C08}\u{11C0A}-\u{11C2E}\u{11C40}\u{11C72}-\u{11C8F}\u{11D00}-\u{11D06}\u{11D08}\u{11D09}\u{11D0B}-\u{11D30}\u{11D46}\u{11D60}-\u{11D65}\u{11D67}\u{11D68}\u{11D6A}-\u{11D89}\u{11D98}\u{11EE0}-\u{11EF2}\u{11FB0}\u{12000}-\u{12399}\u{12480}-\u{12543}\u{12F90}-\u{12FF0}\u{13000}-\u{1342E}\u{14400}-\u{14646}\u{16800}-\u{16A38}\u{16A40}-\u{16A5E}\u{16A70}-\u{16ABE}\u{16AD0}-\u{16AED}\u{16B00}-\u{16B2F}\u{16B40}-\u{16B43}\u{16B63}-\u{16B77}\u{16B7D}-\u{16B8F}\u{16E40}-\u{16E7F}\u{16F00}-\u{16F4A}\u{16F50}\u{16F93}-\u{16F9F}\u{16FE0}\u{16FE1}\u{16FE3}\u{17000}-\u{187F7}\u{18800}-\u{18CD5}\u{18D00}-\u{18D08}\u{1AFF0}-\u{1AFF3}\u{1AFF5}-\u{1AFFB}\u{1AFFD}\u{1AFFE}\u{1B000}-\u{1B122}\u{1B150}-\u{1B152}\u{1B164}-\u{1B167}\u{1B170}-\u{1B2FB}\u{1BC00}-\u{1BC6A}\u{1BC70}-\u{1BC7C}\u{1BC80}-\u{1BC88}\u{1BC90}-\u{1BC99}\u{1D400}-\u{1D454}\u{1D456}-\u{1D49C}\u{1D49E}\u{1D49F}\u{1D4A2}\u{1D4A5}\u{1D4A6}\u{1D4A9}-\u{1D4AC}\u{1D4AE}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D505}\u{1D507}-\u{1D50A}\u{1D50D}-\u{1D514}\u{1D516}-\u{1D51C}\u{1D51E}-\u{1D539}\u{1D53B}-\u{1D53E}\u{1D540}-\u{1D544}\u{1D546}\u{1D54A}-\u{1D550}\u{1D552}-\u{1D6A5}\u{1D6A8}-\u{1D6C0}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6FA}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D734}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D76E}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D7A8}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7CB}\u{1DF00}-\u{1DF1E}\u{1E100}-\u{1E12C}\u{1E137}-\u{1E13D}\u{1E14E}\u{1E290}-\u{1E2AD}\u{1E2C0}-\u{1E2EB}\u{1E7E0}-\u{1E7E6}\u{1E7E8}-\u{1E7EB}\u{1E7ED}\u{1E7EE}\u{1E7F0}-\u{1E7FE}\u{1E800}-\u{1E8C4}\u{1E900}-\u{1E943}\u{1E94B}\u{1EE00}-\u{1EE03}\u{1EE05}-\u{1EE1F}\u{1EE21}\u{1EE22}\u{1EE24}\u{1EE27}\u{1EE29}-\u{1EE32}\u{1EE34}-\u{1EE37}\u{1EE39}\u{1EE3B}\u{1EE42}\u{1EE47}\u{1EE49}\u{1EE4B}\u{1EE4D}-\u{1EE4F}\u{1EE51}\u{1EE52}\u{1EE54}\u{1EE57}\u{1EE59}\u{1EE5B}\u{1EE5D}\u{1EE5F}\u{1EE61}\u{1EE62}\u{1EE64}\u{1EE67}-\u{1EE6A}\u{1EE6C}-\u{1EE72}\u{1EE74}-\u{1EE77}\u{1EE79}-\u{1EE7C}\u{1EE7E}\u{1EE80}-\u{1EE89}\u{1EE8B}-\u{1EE9B}\u{1EEA1}-\u{1EEA3}\u{1EEA5}-\u{1EEA9}\u{1EEAB}-\u{1EEBB}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[ \):;\u2022\u3001\u3002\u300A-\u300D\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]|[\(,1A-Za-\{\}\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0560-\u0588\u05D0-\u05EA\u05EF-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u0870-\u0887\u0889-\u088E\u08A0-\u08C9\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C5D\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D04-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E86-\u0E8A\u0E8C-\u0EA3\u0EA5\u0EA7-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u1711\u171F-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1878\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4C\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1C90-\u1CBA\u1CBD-\u1CBF\u1CE9-\u1CEC\u1CEE-\u1CF3\u1CF5\u1CF6\u1CFA\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312F\u3131-\u318E\u31A0-\u31BF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7CA\uA7D0\uA7D1\uA7D3\uA7D5-\uA7D9\uA7F2-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA8FE\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB69\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u{10000}-\u{1000B}\u{1000D}-\u{10026}\u{10028}-\u{1003A}\u{1003C}\u{1003D}\u{1003F}-\u{1004D}\u{10050}-\u{1005D}\u{10080}-\u{100FA}\u{10280}-\u{1029C}\u{102A0}-\u{102D0}\u{10300}-\u{1031F}\u{1032D}-\u{10340}\u{10342}-\u{10349}\u{10350}-\u{10375}\u{10380}-\u{1039D}\u{103A0}-\u{103C3}\u{103C8}-\u{103CF}\u{10400}-\u{1049D}\u{104B0}-\u{104D3}\u{104D8}-\u{104FB}\u{10500}-\u{10527}\u{10530}-\u{10563}\u{10570}-\u{1057A}\u{1057C}-\u{1058A}\u{1058C}-\u{10592}\u{10594}\u{10595}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10600}-\u{10736}\u{10740}-\u{10755}\u{10760}-\u{10767}\u{10780}-\u{10785}\u{10787}-\u{107B0}\u{107B2}-\u{107BA}\u{10800}-\u{10805}\u{10808}\u{1080A}-\u{10835}\u{10837}\u{10838}\u{1083C}\u{1083F}-\u{10855}\u{10860}-\u{10876}\u{10880}-\u{1089E}\u{108E0}-\u{108F2}\u{108F4}\u{108F5}\u{10900}-\u{10915}\u{10920}-\u{10939}\u{10980}-\u{109B7}\u{109BE}\u{109BF}\u{10A00}\u{10A10}-\u{10A13}\u{10A15}-\u{10A17}\u{10A19}-\u{10A35}\u{10A60}-\u{10A7C}\u{10A80}-\u{10A9C}\u{10AC0}-\u{10AC7}\u{10AC9}-\u{10AE4}\u{10B00}-\u{10B35}\u{10B40}-\u{10B55}\u{10B60}-\u{10B72}\u{10B80}-\u{10B91}\u{10C00}-\u{10C48}\u{10C80}-\u{10CB2}\u{10CC0}-\u{10CF2}\u{10D00}-\u{10D23}\u{10E80}-\u{10EA9}\u{10EB0}\u{10EB1}\u{10F00}-\u{10F1C}\u{10F27}\u{10F30}-\u{10F45}\u{10F70}-\u{10F81}\u{10FB0}-\u{10FC4}\u{10FE0}-\u{10FF6}\u{11003}-\u{11037}\u{11071}\u{11072}\u{11075}\u{11083}-\u{110AF}\u{110D0}-\u{110E8}\u{11103}-\u{11126}\u{11144}\u{11147}\u{11150}-\u{11172}\u{11176}\u{11183}-\u{111B2}\u{111C1}-\u{111C4}\u{111DA}\u{111DC}\u{11200}-\u{11211}\u{11213}-\u{1122B}\u{11280}-\u{11286}\u{11288}\u{1128A}-\u{1128D}\u{1128F}-\u{1129D}\u{1129F}-\u{112A8}\u{112B0}-\u{112DE}\u{11305}-\u{1130C}\u{1130F}\u{11310}\u{11313}-\u{11328}\u{1132A}-\u{11330}\u{11332}\u{11333}\u{11335}-\u{11339}\u{1133D}\u{11350}\u{1135D}-\u{11361}\u{11400}-\u{11434}\u{11447}-\u{1144A}\u{1145F}-\u{11461}\u{11480}-\u{114AF}\u{114C4}\u{114C5}\u{114C7}\u{11580}-\u{115AE}\u{115D8}-\u{115DB}\u{11600}-\u{1162F}\u{11644}\u{11680}-\u{116AA}\u{116B8}\u{11700}-\u{1171A}\u{11740}-\u{11746}\u{11800}-\u{1182B}\u{118A0}-\u{118DF}\u{118FF}-\u{11906}\u{11909}\u{1190C}-\u{11913}\u{11915}\u{11916}\u{11918}-\u{1192F}\u{1193F}\u{11941}\u{119A0}-\u{119A7}\u{119AA}-\u{119D0}\u{119E1}\u{119E3}\u{11A00}\u{11A0B}-\u{11A32}\u{11A3A}\u{11A50}\u{11A5C}-\u{11A89}\u{11A9D}\u{11AB0}-\u{11AF8}\u{11C00}-\u{11C08}\u{11C0A}-\u{11C2E}\u{11C40}\u{11C72}-\u{11C8F}\u{11D00}-\u{11D06}\u{11D08}\u{11D09}\u{11D0B}-\u{11D30}\u{11D46}\u{11D60}-\u{11D65}\u{11D67}\u{11D68}\u{11D6A}-\u{11D89}\u{11D98}\u{11EE0}-\u{11EF2}\u{11FB0}\u{12000}-\u{12399}\u{12480}-\u{12543}\u{12F90}-\u{12FF0}\u{13000}-\u{1342E}\u{14400}-\u{14646}\u{16800}-\u{16A38}\u{16A40}-\u{16A5E}\u{16A70}-\u{16ABE}\u{16AD0}-\u{16AED}\u{16B00}-\u{16B2F}\u{16B40}-\u{16B43}\u{16B63}-\u{16B77}\u{16B7D}-\u{16B8F}\u{16E40}-\u{16E7F}\u{16F00}-\u{16F4A}\u{16F50}\u{16F93}-\u{16F9F}\u{16FE0}\u{16FE1}\u{16FE3}\u{17000}-\u{187F7}\u{18800}-\u{18CD5}\u{18D00}-\u{18D08}\u{1AFF0}-\u{1AFF3}\u{1AFF5}-\u{1AFFB}\u{1AFFD}\u{1AFFE}\u{1B000}-\u{1B122}\u{1B150}-\u{1B152}\u{1B164}-\u{1B167}\u{1B170}-\u{1B2FB}\u{1BC00}-\u{1BC6A}\u{1BC70}-\u{1BC7C}\u{1BC80}-\u{1BC88}\u{1BC90}-\u{1BC99}\u{1D400}-\u{1D454}\u{1D456}-\u{1D49C}\u{1D49E}\u{1D49F}\u{1D4A2}\u{1D4A5}\u{1D4A6}\u{1D4A9}-\u{1D4AC}\u{1D4AE}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D505}\u{1D507}-\u{1D50A}\u{1D50D}-\u{1D514}\u{1D516}-\u{1D51C}\u{1D51E}-\u{1D539}\u{1D53B}-\u{1D53E}\u{1D540}-\u{1D544}\u{1D546}\u{1D54A}-\u{1D550}\u{1D552}-\u{1D6A5}\u{1D6A8}-\u{1D6C0}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6FA}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D734}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D76E}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D7A8}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7CB}\u{1DF00}-\u{1DF1E}\u{1E100}-\u{1E12C}\u{1E137}-\u{1E13D}\u{1E14E}\u{1E290}-\u{1E2AD}\u{1E2C0}-\u{1E2EB}\u{1E7E0}-\u{1E7E6}\u{1E7E8}-\u{1E7EB}\u{1E7ED}\u{1E7EE}\u{1E7F0}-\u{1E7FE}\u{1E800}-\u{1E8C4}\u{1E900}-\u{1E943}\u{1E94B}\u{1EE00}-\u{1EE03}\u{1EE05}-\u{1EE1F}\u{1EE21}\u{1EE22}\u{1EE24}\u{1EE27}\u{1EE29}-\u{1EE32}\u{1EE34}-\u{1EE37}\u{1EE39}\u{1EE3B}\u{1EE42}\u{1EE47}\u{1EE49}\u{1EE4B}\u{1EE4D}-\u{1EE4F}\u{1EE51}\u{1EE52}\u{1EE54}\u{1EE57}\u{1EE59}\u{1EE5B}\u{1EE5D}\u{1EE5F}\u{1EE61}\u{1EE62}\u{1EE64}\u{1EE67}-\u{1EE6A}\u{1EE6C}-\u{1EE72}\u{1EE74}-\u{1EE77}\u{1EE79}-\u{1EE7C}\u{1EE7E}\u{1EE80}-\u{1EE89}\u{1EE8B}-\u{1EE9B}\u{1EEA1}-\u{1EEA3}\u{1EEA5}-\u{1EEA9}\u{1EEAB}-\u{1EEBB}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]/gmu.source+"|"+/[\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]/gmu.source,"gum");return u=>u.replace(/&nbsp;/g," ").replace(/ /g," ").match(e)})(),V=["zh_cn","zh_sg","zh_tw"],X=(e,u=O.left)=>{const t=R.strings.settings.LANGUAGE_CODE().toLowerCase();return V.includes(t)?$(e):((e,u=O.left)=>{let t=[];const r=/(?<=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])(\x2D)(?=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])/gu,a=e.replace(/&nbsp;/g," ");return G(a,/( )/,u).forEach((e=>t=t.concat(G(e,r,O.left)))),t})(e,u)};let j;!function(e){e.SHORT_DATE="short-date",e.SHORT_TIME="short-time",e.SHORT_DATE_TIME="short-date-time",e.FULL_DATE="full-date",e.FULL_DATE_TIME="full-date-time",e.MONTH="month",e.MONTH_DATE="month-date",e.DATE_MONTH="date-month",e.MONTH_YEAR="month-year",e.WEEK_DAY="week-day",e.WEEK_DAY_TIME="week-day-time",e.YEAR="year",e.DATE_YEAR="date-year"}(j||(j={}));var z=t(364);Date.now();const Y=(e,u,t)=>{switch(u){case j.SHORT_DATE:return t?z.Z5.getDateFormat(e,z.kH.SHORT_FORMAT):z.cy.getTimeFormat("%d.%m.%y",e,!0);case j.SHORT_TIME:return t?z.Z5.getTimeFormat(e,z.lf.SHORT_FORMAT):z.cy.getTimeFormat("%I:%M %p",e,!0);case j.SHORT_DATE_TIME:if(t){return`${z.Z5.getDateFormat(e,z.kH.SHORT_FORMAT)}, ${z.Z5.getTimeFormat(e,z.lf.SHORT_FORMAT)}`}return z.cy.getTimeFormat("%d.%m.%y, %I:%M %p",e,!0);case j.FULL_DATE:return t?z.Z5.getDateFormat(e,z.kH.LONG_FORMAT):z.cy.getTimeFormat("%B %d, %Y",e,!0);case j.FULL_DATE_TIME:if(t){return`${z.Z5.getDateFormat(e,z.kH.LONG_FORMAT)}, ${z.Z5.getTimeFormat(e,z.lf.SHORT_FORMAT)}`}return z.cy.getTimeFormat("%B %d, %Y, %I:%M %p",e,!0);case j.MONTH:return z.cy.getTimeFormat("%B",e,!0);case j.MONTH_DATE:return z.cy.getTimeFormat("%B %e",e,!0);case j.DATE_MONTH:return z.cy.getTimeFormat("%e %B",e,!0);case j.MONTH_YEAR:return z.cy.getTimeFormat("%B %Y",e,!0);case j.WEEK_DAY:return z.cy.getTimeFormat("%A",e,!0);case j.WEEK_DAY_TIME:if(t){return`${z.cy.getTimeFormat("%A",e,!0)} ${z.Z5.getTimeFormat(e,z.lf.SHORT_FORMAT)}`}return z.cy.getTimeFormat("%A, %I:%M %p",e,!0);case j.YEAR:return z.cy.getTimeFormat("%Y",e,!0);case j.DATE_YEAR:return z.cy.getTimeFormat("%d, %Y",e,!0)}};(0,r.memo)((({datetime:e,format:u=j.SHORT_DATE,localize:t=!0})=>Y(e,u,t)));var q=t(887),K=t.n(q);const Z=["xl","lg","md","sm","xs"],Q=e=>e.includes("_")&&(e=>Z.includes(e))(e.split("_").at(-1)),J=[b.ExtraLarge,b.Large,b.Medium,b.Small,b.ExtraSmall],ee=(e,u)=>Object.keys(e).reduce(((t,r)=>{if(r in t)return t;if(Q(r)){const a=r.split("_").slice(0,-1).join("_");if(a in t)return t;const n=J.indexOf(u),s=(-1!==n?Z.slice(n):[]).map((e=>a+"_"+e)).find((u=>void 0!==e[u])),i=s?e[s]:void 0;return t[a]=void 0!==i?i:e[a],t}const a=e[r];return void 0===a||((e,u)=>Z.some((t=>void 0!==u[`${e}_${t}`])))(r,e)||(t[r]=a),t}),{}),ue=(e,u=ee)=>{const t=((e,u=ee)=>t=>{const n=S().mediaSize,s=(0,r.useMemo)((()=>u(t,n)),[t,n]);return a().createElement(e,s)})(e,u);return a().memo((u=>Object.keys(u).some((e=>Q(e)&&void 0!==u[e]))?a().createElement(t,u):a().createElement(e,u)))},te={mt__XS:"Box_mt__XS_0c",mt__SM:"Box_mt__SM_eb",mt__SMp:"Box_mt__SMp_cf",mt__MD:"Box_mt__MD_25",mt__MDp:"Box_mt__MDp_49",mt__LG:"Box_mt__LG_e8",mt__XL:"Box_mt__XL_83",mr__XS:"Box_mr__XS_7c",mr__SM:"Box_mr__SM_08",mr__SMp:"Box_mr__SMp_06",mr__MD:"Box_mr__MD_4a",mr__MDp:"Box_mr__MDp_b6",mr__LG:"Box_mr__LG_d0",mr__XL:"Box_mr__XL_db",mb__XS:"Box_mb__XS_bb",mb__SM:"Box_mb__SM_83",mb__SMp:"Box_mb__SMp_04",mb__MD:"Box_mb__MD_ed",mb__MDp:"Box_mb__MDp_65",mb__LG:"Box_mb__LG_c8",mb__XL:"Box_mb__XL_f8",ml__XS:"Box_ml__XS_8a",ml__SM:"Box_ml__SM_e6",ml__SMp:"Box_ml__SMp_fb",ml__MD:"Box_ml__MD_2b",ml__MDp:"Box_ml__MDp_c7",ml__LG:"Box_ml__LG_39",ml__XL:"Box_ml__XL_4a"},re=["className","width","height","m","mt","mr","mb","ml","column","row","flexDirection","flexStart","center","flexEnd","spaceBetween","spaceAround","justifyContent","alignItems","alignSelf","wrap","flexWrap","grow","shrink","flex","style","children"];function ae(){return ae=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},ae.apply(this,arguments)}Object.keys(K());const ne={XL:{mt:te.mt__XL,mr:te.mr__XL,mb:te.mb__XL,ml:te.ml__XL},LG:{mt:te.mt__LG,mr:te.mr__LG,mb:te.mb__LG,ml:te.ml__LG},MDp:{mt:te.mt__MDp,mr:te.mr__MDp,mb:te.mb__MDp,ml:te.ml__MDp},MD:{mt:te.mt__MD,mr:te.mr__MD,mb:te.mb__MD,ml:te.ml__MD},SMp:{mt:te.mt__SMp,mr:te.mr__SMp,mb:te.mb__SMp,ml:te.ml__SMp},SM:{mt:te.mt__SM,mr:te.mr__SM,mb:te.mb__SM,ml:te.ml__SM},XS:{mt:te.mt__XS,mr:te.mr__XS,mb:te.mb__XS,ml:te.ml__XS}},se=(Object.keys(ne),["mt","mr","mb","ml"]),ie={mt:"marginTop",mr:"marginRight",mb:"marginBottom",ml:"marginLeft"},oe=ue((e=>{let u=e.className,t=e.width,n=e.height,s=e.m,i=e.mt,o=void 0===i?s:i,l=e.mr,c=void 0===l?s:l,_=e.mb,m=void 0===_?s:_,E=e.ml,d=void 0===E?s:E,A=e.column,p=e.row,D=e.flexDirection,F=void 0===D?(A?"column":p&&"row")||void 0:D,h=e.flexStart,B=e.center,C=e.flexEnd,b=e.spaceBetween,v=e.spaceAround,f=e.justifyContent,S=void 0===f?(h?"flex-start":B&&"center")||C&&"flex-end"||b&&"space-between"||v&&"space-around"||void 0:f,y=e.alignItems,w=void 0===y?(h?"flex-start":B&&"center")||C&&"flex-end"||void 0:y,M=e.alignSelf,N=e.wrap,T=e.flexWrap,x=void 0===T?N?"wrap":void 0:T,R=e.grow,P=e.shrink,k=e.flex,L=void 0===k?R||P?`${R?1:0} ${P?1:0} auto`:void 0:k,I=e.style,O=e.children,H=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,re);const U=(0,r.useMemo)((()=>{const e={mt:o,mr:c,mb:m,ml:d},u=(e=>se.reduce(((u,t)=>{const r=e[t];return r&&"number"!=typeof r?u.concat(ne[!0===r?"MD":r][t]):u}),[]))(e),r=(e=>se.reduce(((u,t)=>{const r=e[t];return"number"==typeof r&&(u[ie[t]]=r+"rem"),u}),{}))(e);return{computedStyle:Object.assign({},I,r,{width:void 0!==t&&"number"==typeof t?t+"rem":t,height:void 0!==n&&"number"==typeof n?n+"rem":n,flex:L,alignSelf:M,display:F||w?"flex":void 0,flexDirection:F,flexWrap:x,justifyContent:S,alignItems:w}),computedClassNames:u}}),[t,n,o,c,m,d,I,L,M,F,x,S,w]),W=U.computedStyle,G=U.computedClassNames;return a().createElement("div",ae({className:g()(te.base,...G,u),style:W},H),O)})),le="FormatText_base_d0",ce=({binding:e,text:u="",classMix:t,alignment:n=O.left})=>null===u?(console.error("FormatText was supplied with 'null'"),null):a().createElement(r.Fragment,null,u.split("\n").map(((u,s)=>a().createElement("div",{className:g()(le,t),key:`${u}-${s}`},((e,u,t)=>e.split(/%\((.*?)\)(?:[sd])?/g).map((e=>t&&e in t?t[e]:X(e,u))))(u,n,e).map(((e,u)=>a().createElement(r.Fragment,{key:`${u}-${e}`},e)))))));var _e=t(532),me=t.n(_e);const Ee={"paragraph-P10":"Text_paragraph-P10_2c","paragraph-P12":"Text_paragraph-P12_22","paragraph-P14":"Text_paragraph-P14_a7","paragraph-P16":"Text_paragraph-P16_90","paragraph-P18":"Text_paragraph-P18_50","paragraph-P24":"Text_paragraph-P24_33","heading-H14":"Text_heading-H14_8b","heading-H15":"Text_heading-H15_9e","heading-H18":"Text_heading-H18_b7","heading-H20R":"Text_heading-H20R_f6","heading-H22":"Text_heading-H22_27","heading-H24R":"Text_heading-H24R_be","heading-H24":"Text_heading-H24_0c","heading-H28":"Text_heading-H28_78","heading-H36":"Text_heading-H36_32","heading-H56":"Text_heading-H56_c3","heading-H73":"Text_heading-H73_8f","heading-H144":"Text_heading-H144_a9",BLACK_REAL:"Text_BLACK_REAL_30",WHITE_REAL:"Text_WHITE_REAL_bc",WHITE:"Text_WHITE_62",WHITE_ORANGE:"Text_WHITE_ORANGE_54",WHITE_SPANISH:"Text_WHITE_SPANISH_df",PAR:"Text_PAR_15",PAR_SECONDARY:"Text_PAR_SECONDARY_5d",PAR_TERTIARY:"Text_PAR_TERTIARY_c9",INFO_RED:"Text_INFO_RED_30",RED:"Text_RED_66",RED_DARK:"Text_RED_DARK_d8",YELLOW:"Text_YELLOW_ed",ORANGE:"Text_ORANGE_be",CREAM:"Text_CREAM_57",BROWN:"Text_BROWN_18",GREEN_BRIGHT:"Text_GREEN_BRIGHT_3f",GREEN:"Text_GREEN_e3",GREEN_DARK:"Text_GREEN_DARK_f1",BLUE_BOOSTER:"Text_BLUE_BOOSTER_21",BLUE_TEAMKILLER:"Text_BLUE_TEAMKILLER_ab",CRED:"Text_CRED_f7",GOLD:"Text_GOLD_28",BOND:"Text_BOND_be",PROM:"Text_PROM_65"},de=["text","variant","className","color","m","mt","mr","mb","ml","style","format"];function Ae(){return Ae=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},Ae.apply(this,arguments)}Object.keys(K());const pe=Object.keys(me()),De={mt:"MD",mr:"SM",mb:"SM",ml:"SM"},Fe={mt:"SM",mr:"XS",mb:"XS",ml:"XS"},he={mt:"XS",mr:"XS",mb:"XS",ml:"XS"},ge={XL:{mt:"XL",mr:"XL",mb:"XL",ml:"XL"},LG:{mt:"LG",mr:"LG",mb:"LG",ml:"LG"},MDp:{mt:"MDp",mr:"MDp",mb:"MDp",ml:"MDp"},MD:{mt:"MD",mr:"MD",mb:"MD",ml:"MD"},SMp:{mt:"SMp",mr:"SMp",mb:"SMp",ml:"SMp"},SM:{mt:"SM",mr:"SM",mb:"SM",ml:"SM"},XS:{mt:"XS",mr:"XS",mb:"XS",ml:"XS"}},Be=(Object.keys(ge),{"heading-H144":{mt:"XL",mr:"LG",mb:"LG",ml:"LG"},"heading-H73":{mt:"LG",mr:"MD",mb:"MD",ml:"MD"},"heading-H56":De,"heading-H36":De,"heading-H28":Fe,"heading-H24":Fe,"heading-H24R":Fe,"heading-H22":Fe,"heading-H20R":Fe,"heading-H18":Fe,"heading-H15":he,"heading-H14":he,"paragraph-P24":Fe,"paragraph-P18":Fe,"paragraph-P16":Fe,"paragraph-P14":he,"paragraph-P12":he,"paragraph-P10":he}),Ce=(Object.keys(Be),e=>e?(e=>pe.includes(e))(e)?{colorClassName:Ee[e]}:{colorStyle:{color:e}}:{}),be=ue((e=>{let u=e.text,t=e.variant,n=e.className,s=e.color,i=e.m,o=e.mt,l=void 0===o?i:o,c=e.mr,_=void 0===c?i:c,m=e.mb,E=void 0===m?i:m,d=e.ml,A=void 0===d?i:d,p=e.style,D=e.format,F=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,de);const h=(0,r.useMemo)((()=>{const e=Ce(s),u=e.colorClassName,t=e.colorStyle,r=void 0===t?{}:t;return{computedStyle:Object.assign({},p,r),colorClassName:u}}),[p,s]),B=h.computedStyle,C=h.colorClassName;return a().createElement(oe,Ae({className:g()(Ee.base,t&&Ee[t],C,n),style:B,mt:!0===l?Be[t||"paragraph-P16"].mt:l,mr:!0===_?Be[t||"paragraph-P16"].mr:_,mb:!0===E?Be[t||"paragraph-P16"].mb:E,ml:!0===A?Be[t||"paragraph-P16"].ml:A},F),void 0!==D?a().createElement(ce,Ae({},D,{text:u})):u)}));function ve(e){engine.call("PlaySound",e)}const fe={playHighlight(){ve("highlight")},playClick(){ve("play")},playYes(){ve("yes1")}},Se={base:"TextButton_base_b6",base__right:"TextButton_base__right_39",icon:"TextButton_icon_17",icon__back:"TextButton_icon__back_43",icon__forward:"TextButton_icon__forward_59",icon__close:"TextButton_icon__close_53",icon__info:"TextButton_icon__info_33",glow:"TextButton_glow_a4",caption:"TextButton_caption_82",caption__back:"TextButton_caption__back_b9",caption__forward:"TextButton_caption__forward_4e",caption__close:"TextButton_caption__close_36",caption__info:"TextButton_caption__info_23",goto:"TextButton_goto_e7",base__left:"TextButton_base__left_ff",shine:"TextButton_shine_e2"},ye=["caption","onClick","goto","side","type","classNames","onMouseEnter","onMouseLeave","onMouseDown","onMouseUp","soundClick","soundHover"];function we(){return we=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},we.apply(this,arguments)}class Me extends a().PureComponent{constructor(...e){super(...e),this.state={hover:!1,click:!1},this._onMouseEnter=e=>u=>{e&&e(u),this.setState({hover:!0}),this.props.soundHover&&ve(this.props.soundHover)},this._onMouseLeave=e=>u=>{e&&e(u),this.setState({hover:!1,click:!1})},this._onMouseDown=e=>u=>{e&&e(u),this.setState({click:!0}),this.props.soundClick&&ve(this.props.soundClick)},this._onMouseUp=e=>u=>{e&&e(u),this.setState({click:!1})},this.handleFocus=()=>this.setState({focus:!0}),this.handleBlur=()=>this.setState({focus:!1})}render(){const e=this.props,u=e.caption,t=e.onClick,r=e.goto,n=e.side,s=e.type,i=e.classNames,o=e.onMouseEnter,l=e.onMouseLeave,c=e.onMouseDown,_=e.onMouseUp,m=(e.soundClick,e.soundHover,function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,ye)),E=g()(Se.base,Se[`base__${s}`],Se[`base__${n}`],null==i?void 0:i.base),d=g()(Se.icon,Se[`icon__${s}`],Se[`icon__${n}`],null==i?void 0:i.icon),A=g()(Se.glow,null==i?void 0:i.glow),p=g()(Se.caption,Se[`caption__${s}`],null==i?void 0:i.caption),D=g()(Se.goto,null==i?void 0:i.goto);return a().createElement("div",we({className:E,onMouseEnter:this._onMouseEnter(o),onMouseLeave:this._onMouseLeave(l),onMouseDown:this._onMouseDown(c),onMouseUp:this._onMouseUp(_),onFocus:this.handleFocus,onBlur:this.handleBlur,onClick:t},m),"info"!==s&&a().createElement("div",{className:Se.shine}),a().createElement("div",{className:d},a().createElement("div",{className:A})),a().createElement("div",{className:p},u),r&&a().createElement("div",{className:D},r))}}Me.defaultProps={side:"left",type:"back",soundHover:"highlight",soundClick:"play"};var Ne=t(521);const Te=e=>{console.error(e.type+": useKeydownListener hook :: Callback is not defined")};function xe(e=Ne.n.NONE,u=Te,t=!1){(0,r.useEffect)((()=>{if(e!==Ne.n.NONE)return window.addEventListener("keydown",r,t),()=>{window.removeEventListener("keydown",r,t)};function r(r){if(r.keyCode===e){if(s.O.view.isEventHandled())return;s.O.view.setEventHandled(),u(r),t&&r.stopPropagation()}}}),[u,e,t])}var Re=t(403);function Pe(e,u,t,r){let a,n=!1,s=0;function i(){a&&clearTimeout(a)}function o(...o){const l=this,c=Date.now()-s;function _(){s=Date.now(),t.apply(l,o)}n||(r&&!a&&_(),i(),void 0===r&&c>e?_():!0!==u&&(a=setTimeout(r?function(){a=void 0}:_,void 0===r?e-c:e)))}return"boolean"!=typeof u&&(r=t,t=u,u=void 0),o.cancel=function(){i(),n=!0},o}function ke(e,u,t){const a=(0,r.useMemo)((()=>function(e,u,t){return void 0===t?Pe(e,u,!1):Pe(e,t,!1!==u)}(t,e)),u);return(0,r.useEffect)((()=>a.cancel),[a]),a}const Le={base:"CButton_base_40",base__main:"CButton_base__main_42",base__primary:"CButton_base__primary_7f",base__primaryGreen:"CButton_base__primaryGreen_6f",base__primaryRed:"CButton_base__primaryRed_ec",base__secondary:"CButton_base__secondary_50",base__ghost:"CButton_base__ghost_ed",base__extraSmall:"CButton_base__extraSmall_27",base__small:"CButton_base__small_df",base__medium:"CButton_base__medium_74",base__disabled:"CButton_base__disabled_d9",back:"CButton_back_e5",texture:"CButton_texture_fe",state:"CButton_state_11",base__focus:"CButton_base__focus_83",stateHighlightHover:"CButton_stateHighlightHover_ff",stateHighlightActive:"CButton_stateHighlightActive_35",stateDisabled:"CButton_stateDisabled_54",base__firstHover:"CButton_base__firstHover_d5",base__highlightActive:"CButton_base__highlightActive_b2",content:"CButton_content_cc"};let Ie,Oe;!function(e){e.main="main",e.primary="primary",e.primaryGreen="primaryGreen",e.primaryRed="primaryRed",e.secondary="secondary",e.ghost="ghost"}(Ie||(Ie={})),function(e){e.extraSmall="extraSmall",e.small="small",e.medium="medium"}(Oe||(Oe={}));const He=({children:e,size:u,isFocused:t,type:n,disabled:s,mixClass:i,soundHover:o,soundClick:l,onMouseEnter:c,onMouseMove:_,onMouseDown:m,onMouseUp:E,onMouseLeave:d,onClick:A})=>{const p=(0,r.useRef)(null),D=(0,r.useState)(t),F=D[0],h=D[1],B=(0,r.useState)(!1),C=B[0],b=B[1],v=(0,r.useState)(!1),f=v[0],S=v[1],y=(0,r.useCallback)((()=>{s||p.current&&(p.current.focus(),h(!0))}),[s]),w=(0,r.useCallback)((e=>{F&&null!==p.current&&!p.current.contains(e.target)&&h(!1)}),[F]),M=(0,r.useCallback)((e=>{s||A&&A(e)}),[s,A]),N=(0,r.useCallback)((e=>{s||(null!==o&&ve(o),c&&c(e),S(!0))}),[s,o,c]),T=(0,r.useCallback)((e=>{_&&_(e)}),[_]),x=(0,r.useCallback)((e=>{s||(E&&E(e),b(!1))}),[s,E]),P=(0,r.useCallback)((e=>{s||(null!==l&&ve(l),m&&m(e),t&&y(),b(!0))}),[s,l,m,y,t]),k=(0,r.useCallback)((e=>{s||(d&&d(e),b(!1))}),[s,d]),L=g()(Le.base,Le[`base__${n}`],{[Le.base__disabled]:s,[Le[`base__${u}`]]:u,[Le.base__focus]:F,[Le.base__highlightActive]:C,[Le.base__firstHover]:f},i),I=g()(Le.state,Le.state__default);return(0,r.useEffect)((()=>(document.addEventListener("mousedown",w),()=>{document.removeEventListener("mousedown",w)})),[w]),(0,r.useEffect)((()=>{h(t)}),[t]),a().createElement("div",{ref:p,className:L,onMouseEnter:N,onMouseMove:T,onMouseUp:x,onMouseDown:P,onMouseLeave:k,onClick:M},n!==Ie.ghost&&a().createElement(a().Fragment,null,a().createElement("div",{className:Le.back}),a().createElement("span",{className:Le.texture})),a().createElement("span",{className:I},a().createElement("span",{className:Le.stateDisabled}),a().createElement("span",{className:Le.stateHighlightHover}),a().createElement("span",{className:Le.stateHighlightActive})),a().createElement("span",{className:Le.content,lang:R.strings.settings.LANGUAGE_CODE()},e))};He.defaultProps={type:Ie.primary,isFocused:!1,soundHover:"highlight",soundClick:"play"};const Ue=(0,r.memo)(He),We=["children","contentId","args","onMouseEnter","onMouseLeave","onMouseDown","onClick","ignoreShowDelay","ignoreMouseClick","decoratorId","isEnabled","targetId","onShow","onHide"];function Ge(e){return Object.entries(e||{}).map((([e,u])=>{const t={__Type:"GFValueProxy",name:e};switch(typeof u){case"number":t.number=u;break;case"boolean":t.bool=u;break;case"undefined":break;default:t.string=u.toString()}return t}))}const $e=(e,u,t={},r=0)=>{viewEnv.handleViewEvent(Object.assign({__Type:"GFViewEventProxy",type:z.B0.TOOLTIP,contentID:e,decoratorID:u,targetID:r},t))},Ve=e=>{let u=e.children,t=e.contentId,a=e.args,n=e.onMouseEnter,s=e.onMouseLeave,i=e.onMouseDown,o=e.onClick,l=e.ignoreShowDelay,c=void 0!==l&&l,_=e.ignoreMouseClick,m=void 0!==_&&_,E=e.decoratorId,d=void 0===E?0:E,A=e.isEnabled,p=void 0===A||A,D=e.targetId,F=void 0===D?0:D,h=e.onShow,g=e.onHide,B=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,We);const C=(0,r.useRef)({timeoutId:0,isVisible:!1,prevTarget:null,hideTimerId:null}),b=(0,r.useMemo)((()=>F||((e=1)=>{const u=(new Error).stack;let t,r=R.invalid("resId");return u&&(t=u.split("\n")[e].split(".js")[0].split("/").pop()||"",window.__feature&&window.__feature!==t&&window.subViews[t]&&(r=window.subViews[t].id)),{caller:t,stack:u,resId:r}})().resId),[F]),v=(0,r.useCallback)((()=>{C.current.isVisible&&C.current.timeoutId||($e(t,d,{isMouseEvent:!0,on:!0,arguments:Ge(a)},b),h&&h(),C.current.isVisible=!0)}),[t,d,a,b,h]),f=(0,r.useCallback)((()=>{if(C.current.isVisible||C.current.timeoutId){const e=C.current.timeoutId;e>0&&(clearTimeout(e),C.current.timeoutId=0),$e(t,d,{on:!1},b),C.current.isVisible&&g&&g(),C.current.isVisible=!1}}),[t,d,b,g]),S=(0,r.useCallback)((e=>{C.current.isVisible&&(C.current.prevTarget=document.elementFromPoint(e.clientX,e.clientY),C.current.hideTimerId=window.setTimeout((()=>{const u=document.elementFromPoint(e.clientX,e.clientY);u&&!u.isSameNode(C.current.prevTarget)&&f()}),200))}),[]);(0,r.useEffect)((()=>{const e=C.current.hideTimerId;return document.addEventListener("wheel",S,{capture:!0}),()=>{document.removeEventListener("wheel",S,{capture:!0}),e&&window.clearTimeout(e)}}),[]),(0,r.useEffect)((()=>{!1===p&&f()}),[p,f]),(0,r.useEffect)((()=>(window.addEventListener("mouseleave",f),()=>{window.removeEventListener("mouseleave",f),f()})),[f]);return p?(0,r.cloneElement)(u,Object.assign({onMouseEnter:(y=u.props.onMouseEnter,e=>{e.clientX===window.innerWidth&&e.clientY===window.innerHeight||(C.current.timeoutId=window.setTimeout(v,c?100:400),n&&n(e),y&&y(e))}),onMouseLeave:(e=>u=>{f(),null==s||s(u),null==e||e(u)})(u.props.onMouseLeave),onClick:(e=>u=>{!1===m&&f(),null==o||o(u),null==e||e(u)})(u.props.onClick),onMouseDown:(e=>u=>{!1===m&&f(),null==i||i(u),null==e||e(u)})(u.props.onMouseDown)},B)):u;var y},Xe=["children","body","header","note","alert","args"];function je(){return je=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},je.apply(this,arguments)}const ze=R.views.common.tooltip_window.simple_tooltip_content,Ye=e=>{let u=e.children,t=e.body,n=e.header,s=e.note,i=e.alert,o=e.args,l=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,Xe);const c=(0,r.useMemo)((()=>{const e=Object.assign({},o,{body:t,header:n,note:s,alert:i});for(const u in e)void 0===e[u]&&delete e[u];return e}),[i,t,n,s,o]);return a().createElement(Ve,je({contentId:(_=null==o?void 0:o.hasHtmlContent,_?ze.SimpleTooltipHtmlContent("resId"):ze.SimpleTooltipContent("resId")),decoratorId:R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),args:c},l),u);var _},qe={base:"TokenWidget_base_1e",widgetBg:"TokenWidget_widgetBg_c4",button:"TokenWidget_button_4b",title:"TokenWidget_title_fc",widgetIcon:"TokenWidget_widgetIcon_6c",widgetIcon__shop:"TokenWidget_widgetIcon__shop_ab",widgetIcon__quests:"TokenWidget_widgetIcon__quests_62"},Ke=R.strings.event.summerSales.mainView.widget,Ze=(0,r.memo)((({onClick:e,className:u,type:t})=>a().createElement(Ye,{header:Ke.tooltip.title.$dyn(t),body:Ke.tooltip.description.$dyn(t)},a().createElement("div",{className:g()(qe.base,u),onMouseEnter:()=>{ve(R.sounds.summer_sale_ui_hover())}},a().createElement("div",{className:qe.widgetBg}),a().createElement("div",{className:g()(qe.widgetIcon,qe[`widgetIcon__${t}`])}),a().createElement(be,{className:qe.title,text:Ke.text.$dyn(t)}),a().createElement(Ue,{size:Oe.small,mixClass:qe.button,onClick:()=>{e(t)}},a().createElement(be,{text:Ke.button.$dyn(t)}))))));class Qe extends a().PureComponent{render(){let e;if("gold"===this.props.format)e=z.B3.GOLD;else e=z.B3.INTEGRAL;const u=z.Z5.getNumberFormat(this.props.value,e);return void 0!==this.props.value&&void 0!==u?u:null}}let Je,eu,uu,tu,ru,au,nu,su,iu;Qe.defaultProps={format:"integral"},function(e){e.Items="items",e.Equipment="equipment",e.Xp="xp",e.XpFactor="xpFactor",e.Blueprints="blueprints",e.BlueprintsAny="blueprintsAny",e.Goodies="goodies",e.Berths="berths",e.Slots="slots",e.Tokens="tokens",e.CrewSkins="crewSkins",e.CrewBooks="crewBooks",e.Customizations="customizations",e.CreditsFactor="creditsFactor",e.Currency="currency",e.TankmenXp="tankmenXP",e.TankmenXpFactor="tankmenXPFactor",e.FreeXpFactor="freeXPFactor",e.BattleToken="battleToken",e.PremiumUniversal="premium_universal",e.Gold="gold",e.Credits="credits",e.Crystal="crystal",e.FreeXp="freeXP",e.Premium="premium",e.PremiumPlus="premium_plus",e.BattlePassPoints="battlePassPoints",e.BattlePassSelectToken="battlePassSelectToken",e.SelectableBonus="selectableBonus",e.StyleProgressToken="styleProgressToken",e.TmanToken="tmanToken",e.NaturalCover="naturalCover",e.BpCoin="bpcoin",e.BattlaPassFinalAchievement="dossier_achievement",e.BattleBadge="dossier_badge",e.NewYearAlbumsAccess="newYearAlbumsAccess",e.NewYearFillers="ny22Fillers",e.NewYearInvoice="newYearInvoice",e.NewYearToyFragments="ny22ToyFragments",e.NewYearSlot="newYearSlot",e.BonusX5="battle_bonus_x5",e.CrewBonusX3="crew_bonus_x3",e.Vehicles="vehicles",e.EpicSelectToken="epicSelectToken",e.CollectionItem="collectionItem",e.Comp7TokenWeeklyReward="comp7TokenWeeklyReward",e.Comp7TokenCouponReward="comp7TokenCouponReward",e.BattleBoosterGift="battleBooster_gift",e.CosmicLootboxSilver="lootBoxToken",e.CosmicLootboxCommon="cosmic_2024_2",e.Branch="branch",e.VehicleSelect="vehicleSelect",e.StyleProgress="styleProgress",e.ParagonsUnlocks="paragonsUnlocks",e.LootBoxToken="lootBoxToken",e.PostStamp="giftsystem_5_stamp",e.Quests="quests",e.ArmoryCoin="armory_coin",e.PremiumPlusUniversal="premium_plus_universal",e.DogTagType="dogTagComponents",e.GoldenTicket="goldenticket",e.LbStyleProgress="lbStyleProgress",e.RewardsSlots="rewardsSlots"}(Je||(Je={})),function(e){e.Gold="gold",e.Credits="credits",e.Crystal="crystal",e.Premium="premium",e.PremiumPlus="premium_plus",e.Vehicles="vehicles",e.Customizations="customizations",e.Blueprints="blueprints",e.BlueprintsAny="blueprintsAny",e.BlueprintsFinal="finalBlueprints",e.Goodies="goodies",e.CrewSkins="crewSkins",e.Xp="xp",e.XpFactor="xpFactor",e.FreeXp="freeXP",e.FreeXPFactor="freeXPFactor",e.TankmenXP="tankmenXP",e.TankmenXPFactor="tankmenXPFactor",e.DailyXPFactor="dailyXPFactor",e.CreditsFactor="creditsFactor",e.Items="items",e.StrBonus="strBonus",e.Groups="groups",e.Berths="berths",e.Slots="slots",e.Meta="meta",e.Tokens="tokens",e.Dossier="dossier",e.OneOf="oneof",e.PremiumUniversal="premium_universal",e.BadgesGroup="badgesGroup",e.Entitlements="entitlements",e.RankedDailyBattles="rankedDailyBattles",e.RankedBonusBattles="rankedBonusBattles",e.BattlePassPoints="battlePassPoints",e.BattleBadge="dossier_badge",e.BattleAchievement="dossier_achievement"}(eu||(eu={})),function(e){e.Big="big",e.Small="small",e.Mini="mini",e.S600x450="s600x450",e.S400x300="s400x300",e.S296x222="s296x222",e.S232x174="s232x174",e.S180x135="s180x135",e.S128x100="s128x100",e.S80x80="s80x80",e.S48x48="s48x48"}(uu||(uu={})),function(e){e.MULTI="multi",e.CURRENCY="currency",e.PREMIUM_PLUS="premium_plus",e.NUMBER="number",e.STRING="string"}(tu||(tu={})),function(e){e.BATTLE_BOOSTER="battleBooster",e.BATTLE_BOOSTER_REPLACE="battleBoosterReplace",e.BUILT_IN_EQUIPMENT="builtInEquipment",e.EQUIPMENT_PLUS="equipmentPlus",e.EQUIPMENT_TROPHY_BASIC="equipmentTrophyBasic",e.EQUIPMENT_TROPHY_UPGRADED="equipmentTrophyUpgraded",e.EQUIPMENT_MODERNIZED_UPGRADED_1="equipmentModernized_1",e.EQUIPMENT_MODERNIZED_UPGRADED_2="equipmentModernized_2",e.EQUIPMENT_MODERNIZED_UPGRADED_3="equipmentModernized_3",e.PROGRESSION_STYLE_UPGRADED_1="progressionStyleUpgraded_1",e.PROGRESSION_STYLE_UPGRADED_2="progressionStyleUpgraded_2",e.PROGRESSION_STYLE_UPGRADED_3="progressionStyleUpgraded_3",e.PROGRESSION_STYLE_UPGRADED_4="progressionStyleUpgraded_4"}(ru||(ru={})),function(e){e.BATTLE_BOOSTER="battleBooster"}(au||(au={})),function(e){e.BATTLE_BOOSTER="battleBooster",e.BATTLE_BOOSTER_REPLACE="battleBoosterReplace",e.BUILT_IN_EQUIPMENT="builtInEquipment",e.EQUIPMENT_PLUS="equipmentPlus",e.EQUIPMENT_TROPHY_BASIC="equipmentTrophyBasic",e.EQUIPMENT_TROPHY_UPGRADED="equipmentTrophyUpgraded",e.EQUIPMENT_MODERNIZED_UPGRADED_1="equipmentModernized_1",e.EQUIPMENT_MODERNIZED_UPGRADED_2="equipmentModernized_2",e.EQUIPMENT_MODERNIZED_UPGRADED_3="equipmentModernized_3",e.PROGRESSION_STYLE_UPGRADED_1="progressionStyleUpgraded_1",e.PROGRESSION_STYLE_UPGRADED_2="progressionStyleUpgraded_2",e.PROGRESSION_STYLE_UPGRADED_3="progressionStyleUpgraded_3",e.PROGRESSION_STYLE_UPGRADED_4="progressionStyleUpgraded_4"}(nu||(nu={})),function(e){e.Small="400x300",e.Big="600x450"}(su||(su={})),function(e){e.ProgressionStyle="progressionStyle"}(iu||(iu={}));const ou=[Je.Items,Je.Equipment,Je.Xp,Je.XpFactor,Je.Blueprints,Je.BlueprintsAny,Je.Goodies,Je.Berths,Je.Slots,Je.Tokens,Je.CrewSkins,Je.CrewBooks,Je.Customizations,Je.CreditsFactor,Je.TankmenXp,Je.TankmenXpFactor,Je.FreeXpFactor,Je.BattleToken,Je.PremiumUniversal,Je.NaturalCover,Je.BpCoin,Je.BattlePassSelectToken,Je.BattlaPassFinalAchievement,Je.BattleBadge,Je.BonusX5,Je.CrewBonusX3,Je.NewYearFillers,Je.NewYearInvoice,Je.EpicSelectToken,Je.Comp7TokenWeeklyReward,Je.Comp7TokenCouponReward,Je.BattleBoosterGift,Je.CosmicLootboxCommon,Je.CosmicLootboxSilver,Je.SelectableBonus,Je.PostStamp,Je.PremiumPlusUniversal,Je.GoldenTicket,Je.RewardsSlots],lu=[Je.Gold,Je.Credits,Je.Crystal,Je.FreeXp],cu=[Je.BattlePassPoints],_u=[Je.PremiumPlus,Je.Premium];let mu;!function(e){e.s16="16",e.s32="32",e.s48="48",e.s66="66",e.s80="80",e.s116="116",e.s296="296",e.s360="360",e.s400="400",e.s600="600"}(mu||(mu={}));const Eu=["engravings","backgrounds"],du=["engraving","background"],Au=(e,u=uu.Small)=>{const t=e.name,r=e.type,a=e.value,n=e.icon,s=e.item,i=e.dogTagType,o=(e=>{switch(e){case uu.S600x450:return"c_600x450";case uu.S400x300:return"c_400x300";case uu.S296x222:return"c_296x222";case uu.S232x174:return"c_232x174";case uu.Big:return"c_80x80";case uu.Small:return"c_48x48";default:return e}})(u);switch(t){case"basic":case"plus":return`R.images.gui.maps.icons.quests.bonuses.${u}.${r}_${a}`;case"premium":return`R.images.gui.maps.icons.quests.bonuses.${u}.${t}_plus_${a}`;case"premium_plus":return`R.images.gui.maps.icons.quests.bonuses.${u}.${t}_${a}`;case"items":return`R.images.gui.maps.icons.quests.bonuses.${u}.${s}`;case"blueprints":case"blueprintsAny":case"finalBlueprints":return`R.images.gui.maps.icons.blueprints.fragment.${u}.${n}`;case"tokens":case"battleToken":return((e,u)=>{switch(u){case uu.Big:return e.iconBig.replace("..","img://gui");case uu.Small:return e.iconSmall.replace("..","img://gui");default:return`R.images.gui.maps.icons.quests.bonuses.${u}.${e.icon}`}})(e,u);case"crewBooks":return`R.images.gui.maps.icons.crewBooks.books.${u}.${n}`;case"dogTagComponents":return((e,u,t)=>{const r=Eu[e];if(r){const a=R.images.gui.maps.icons.dogtags.$dyn(u).$dyn(r),n=a.$dyn(t);return n?`${n}`:`${a.$dyn(du[e])}`}return console.error("Unreachable branch: add dogTagType and icon folder for corresponding icon matching"),""})(i,u,n);case"dossier_badge":return`R.images.gui.maps.icons.quests.bonuses.badges.${o}.${n}`;case"dossier_achievement":return`R.images.gui.maps.icons.achievement.${(e=>{switch(e){case uu.S600x450:return"c_600x450";case uu.S400x300:return"c_400x300";case uu.S296x222:return"c_296x222";case uu.S232x174:return"c_232x174";case uu.S180x135:return"big";case uu.Big:case uu.S80x80:return"c_80x80";case uu.Small:case uu.S48x48:return"c_48x48";default:return e}})(u)}.${n}`;case"xp":case"xpFactor":return`R.images.gui.maps.icons.quests.bonuses.${u}.exp`;case"creditsFactor":return`R.images.gui.maps.icons.quests.bonuses.${u}.credits`;case"tankmenXPFactor":return`R.images.gui.maps.icons.quests.bonuses.${u}.tankmenXP`;case"dailyXPFactor":case"freeXPFactor":return`R.images.gui.maps.icons.quests.bonuses.${u}.freeXP`;case"tmanToken":case"battlePassSelectToken":case"selectableBonus":case"groups":case"lootBoxToken":case"customizations":case"crewSkins":case"goodies":return`R.images.gui.maps.icons.quests.bonuses.${u}.${n}`;case"premiumTank":return`R.images.gui.maps.icons.quests.bonuses.${u}.vehicles`;case"styleProgressToken":return`R.images.gui.maps.icons.quests.bonuses.${u}.style_3d`;case"collectionItem":return`R.images.gui.maps.icons.collectionItems.${o}.${n}`;case"premium_universal":return`R.images.gui.maps.icons.quests.bonuses.${u}.premium_plus_universal`;case"armory_coin":return`R.images.armory_yard.gui.maps.icons.token.sf${(e=>{switch(e){case uu.Mini:return mu.s32;case uu.Small:case uu.S48x48:return mu.s48;case uu.S80x80:case uu.Big:return mu.s80;case uu.S128x100:return mu.s116;case uu.S180x135:case uu.S232x174:case uu.S296x222:return mu.s296;case uu.S400x300:return mu.s400;case uu.S600x450:return mu.s600}})(u)}`;case Je.StyleProgress:case Je.LbStyleProgress:return Du(n,u,iu.ProgressionStyle);default:return`R.images.gui.maps.icons.quests.bonuses.${u}.${t}`}},pu=(e,u,t)=>{const r=u&&{contentId:u};return Object.assign({args:e,isEnabled:Boolean(e&&e.tooltipId||u),ignoreMouseClick:!0,ignoreShowDelay:!u},r,t)},Du=(e,u,t)=>{const r=R.images.gui.maps.icons.quests.bonuses.$dyn(u),a=r.$dyn(e);return String(null!=a?a:r.$dyn(t))};function Fu(){return!1}console.log;var hu=t(174);function gu(e,u){var t="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(t)return(t=t.call(e)).next.bind(t);if(Array.isArray(e)||(t=function(e,u){if(!e)return;if("string"==typeof e)return Bu(e,u);var t=Object.prototype.toString.call(e).slice(8,-1);"Object"===t&&e.constructor&&(t=e.constructor.name);if("Map"===t||"Set"===t)return Array.from(e);if("Arguments"===t||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))return Bu(e,u)}(e))||u&&e&&"number"==typeof e.length){t&&(e=t);var r=0;return function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function Bu(e,u){(null==u||u>e.length)&&(u=e.length);for(var t=0,r=new Array(u);t<u;t++)r[t]=e[t];return r}const Cu=e=>0===e?window:window.subViews.get(e);const bu=e=>{return null!==e&&"object"==typeof e?"CoherentArrayProxy"===e.constructor.name?(u=e,t=e=>"object"==typeof e?bu(e):e,Array.isArray(u)?u.map(t):u.map(((e,u,r)=>t(null==e?void 0:e.value,u,r)))):Array.isArray(e)?e.map((e=>"object"==typeof e?bu(e):e)):Object.fromEntries(Object.entries(e).map((([e,u])=>[e,"object"==typeof u?bu(u):u]))):e;var u,t},vu=e=>bu(e);var fu=t(946);const Su=((e,u)=>{const t=(0,r.createContext)({});return[function({mode:n="real",options:i,children:o,mocks:l}){const c=(0,r.useRef)([]),_=(t,r,a)=>{var n;const i=function({initializer:e=!0,rootId:u=0,getRoot:t=Cu,context:r="model"}={}){const a=new Map;function n(e,u=0){viewEnv.removeDataChangedCallback(e,u)?a.delete(e):console.error("Can't remove callback by id:",e)}engine.whenReady.then((()=>{engine.on("viewEnv.onDataChanged",((e,u,t)=>{t.forEach((u=>{const t=a.get(u);void 0!==t&&t(e)}))}))}));const i=e=>{const a=t(u),n=r.split(".").reduce(((e,u)=>e[u]),a);return"string"!=typeof e||0===e.length?n:e.split(".").reduce(((e,u)=>{const t=e[u];return"function"==typeof t?t.bind(e):t}),n)};return{subscribe:(t,n)=>{const o="string"==typeof n?`${r}.${n}`:r,l=s.O.view.addModelObserver(o,u,!0);return a.set(l,t),e&&t(i(n)),l},readByPath:i,createCallback:(e,u)=>{const t=i(u);return(...u)=>{t(e(...u))}},createCallbackNoArgs:e=>{const u=i(e);return()=>{u()}},dispose:function(){for(var e,t=gu(a.keys());!(e=t()).done;)n(e.value,u)},unsubscribe:n}}(r),o="real"===t?i:Object.assign({},i,{readByPath:null!=(n=null==a?void 0:a.getter)?n:()=>{}}),l=e=>"mocks"===t?null==a?void 0:a.getter(e):o.readByPath(e),_=e=>c.current.push(e),m=e({mode:t,readByPath:l,externalModel:o,observableModel:{array:(e,u)=>{const r=null!=u?u:l(e),a=hu.LO.box(r,{equals:Fu});return"real"===t&&o.subscribe((0,hu.aD)((e=>a.set(e))),e),a},object:(e,u)=>{const r=null!=u?u:l(e),a=hu.LO.box(r,{equals:Fu});return"real"===t&&o.subscribe((0,hu.aD)((e=>a.set(e))),e),a},primitives:(e,u)=>{const r=l(u);if(Array.isArray(e)){const a=e.reduce(((e,u)=>(e[u]=hu.LO.box(r[u],{}),e)),{});return"real"===t&&o.subscribe((0,hu.aD)((u=>{e.forEach((e=>{a[e].set(u[e])}))})),u),a}{const a=e,n=Object.entries(a),s=n.reduce(((e,[u,t])=>(e[t]=hu.LO.box(r[u],{}),e)),{});return"real"===t&&o.subscribe((0,hu.aD)((e=>{n.forEach((([u,t])=>{s[t].set(e[u])}))})),u),s}}},cleanup:_}),E={mode:t,model:m,externalModel:o,cleanup:_};return{model:m,controls:"mocks"===t&&a?a.controls(E):u(E),externalModel:o,mode:t}},m=(0,r.useRef)(!1),E=(0,r.useState)(n),d=E[0],A=E[1],p=(0,r.useState)((()=>_(n,i,l))),D=p[0],F=p[1];return(0,r.useEffect)((()=>{m.current?F(_(d,i,l)):m.current=!0}),[l,d,i]),(0,r.useEffect)((()=>{A(n)}),[n]),(0,r.useEffect)((()=>()=>{D.externalModel.dispose(),c.current.forEach((e=>e()))}),[D]),a().createElement(t.Provider,{value:D},o)},()=>(0,r.useContext)(t)]})((({observableModel:e})=>{const u={root:e.object(),stepper:e.object("stepper"),rewards:e.array("rewards"),products:e.array("products"),eventTimeRange:e.object("eventTimeRange"),honeyCoinsBalance:e.object("honeyCoinsBalance"),progressionLevel:e.object("progressionLevel")},t=e=>Object.assign({tooltipArgs:pu({tooltipId:e.tooltipId},Number(e.tooltipContentId))},e),r=(0,fu.Om)((()=>vu(u.rewards.get()).map((e=>Object.assign({},e,{rewards:vu(e.rewards).map((e=>t(e)))})))),{equals:Fu}),a=(0,fu.Om)((()=>vu(u.products.get()).map((e=>t(e)))),{equals:Fu});return Object.assign({},u,{computes:{getRewards:r,getProducts:a}})}),(({externalModel:e})=>({close:e.createCallbackNoArgs("onClose"),openShop:e.createCallbackNoArgs("onOpenShop"),infoClick:e.createCallbackNoArgs("onInfoClick"),buyCoinsClick:e.createCallbackNoArgs("onBuyCoinsClick"),openQuests:e.createCallbackNoArgs("onOpenQuests"),stepperChange:e.createCallback((e=>({selectedCount:e})),"onStepperCountChange"),buyProductClick:e.createCallback(((e,u)=>({productCode:e,count:u})),"onBuyProductClick"),previewVehicle:e.createCallback((e=>({vehicleCD:e})),"onPreviewVehicle")}))),yu=Su[0],wu=Su[1],Mu="App_base_ac",Nu="App_background_48",Tu="App_control_e1",xu="App_header_bd",Ru="App_headerShadow_cf",Pu="App_title_62",ku="App_subTitle_1d",Lu="App_calendar_85",Iu="App_info_a6",Ou="App_catalogWrapper_7f",Hu="App_base__open_5c",Uu="App_widgetsWrapper_61",Wu="App_widgetsWrapper__hover_55",Gu="App_marketScalesWrapper_fd",$u="App_widget_87";var Vu=t(30);const Xu={base:"Catalog_base_77",page:"Catalog_page_65",page__one:"Catalog_page__one_b7",page__two:"Catalog_page__two_d8",page__three:"Catalog_page__three_08",contentFix:"Catalog_contentFix_79",bendContainer:"Catalog_bendContainer_9c",coverBendContainer:"Catalog_coverBendContainer_3d",pageInner:"Catalog_pageInner_89",coverInner:"Catalog_coverInner_6d",gutterShadowRight:"Catalog_gutterShadowRight_dd",gutterShadowLeft:"Catalog_gutterShadowLeft_c1",content:"Catalog_content_94",content__three:"Catalog_content__three_34",item:"Catalog_item_1a",leftItem:"Catalog_leftItem_d3"};t(368);let ju;!function(e){e[e.ZERO=48]="ZERO",e[e.ONE=49]="ONE",e[e.TWO=50]="TWO",e[e.THREE=51]="THREE",e[e.FOUR=52]="FOUR",e[e.FIVE=53]="FIVE",e[e.SIX=54]="SIX",e[e.SEVEN=55]="SEVEN",e[e.EIGHT=56]="EIGHT",e[e.NINE=57]="NINE",e[e.NUMPAD_0=96]="NUMPAD_0",e[e.NUMPAD_1=97]="NUMPAD_1",e[e.NUMPAD_2=98]="NUMPAD_2",e[e.NUMPAD_3=99]="NUMPAD_3",e[e.NUMPAD_4=100]="NUMPAD_4",e[e.NUMPAD_5=101]="NUMPAD_5",e[e.NUMPAD_6=102]="NUMPAD_6",e[e.NUMPAD_7=103]="NUMPAD_7",e[e.NUMPAD_8=104]="NUMPAD_8",e[e.NUMPAD_9=105]="NUMPAD_9"}(ju||(ju={}));const zu={base:"NumericStepper_base_35",base__small:"NumericStepper_base__small_11",base__medium:"NumericStepper_base__medium_9d",base__large:"NumericStepper_base__large_dc",base__isFocus:"NumericStepper_base__isFocus_49",base__isDisabled:"NumericStepper_base__isDisabled_ac",inputContainer:"NumericStepper_inputContainer_e2",input:"NumericStepper_input_55","base__withCurrency-small":"NumericStepper_base__withCurrency-small_de","base__withCurrency-medium":"NumericStepper_base__withCurrency-medium_69","base__withCurrency-large":"NumericStepper_base__withCurrency-large_a1",input__disabled:"NumericStepper_input__disabled_d8",input__credits:"NumericStepper_input__credits_08","input__credits-disabled":"NumericStepper_input__credits-disabled_3f",input__gold:"NumericStepper_input__gold_14","input__gold-disabled":"NumericStepper_input__gold-disabled_c6",input__xp:"NumericStepper_input__xp_c4",input__freeXP:"NumericStepper_input__freeXP_06",input__crystal:"NumericStepper_input__crystal_2e","input__xp-disabled":"NumericStepper_input__xp-disabled_33","input__freeXP-disabled":"NumericStepper_input__freeXP-disabled_8b","input__crystal-disabled":"NumericStepper_input__crystal-disabled_f8",input__withCurrency:"NumericStepper_input__withCurrency_3b","input__xp-medium":"NumericStepper_input__xp-medium_db","input__xp-large":"NumericStepper_input__xp-large_73","input__freeXP-medium":"NumericStepper_input__freeXP-medium_2b","input__freeXP-large":"NumericStepper_input__freeXP-large_c9","input__crystal-medium":"NumericStepper_input__crystal-medium_56","input__crystal-large":"NumericStepper_input__crystal-large_4e",currency:"NumericStepper_currency_38","currency__xp-medium":"NumericStepper_currency__xp-medium_66","currency__xp-large":"NumericStepper_currency__xp-large_66","currency__freeXP-medium":"NumericStepper_currency__freeXP-medium_79","currency__freeXP-large":"NumericStepper_currency__freeXP-large_c7","currency__crystal-medium":"NumericStepper_currency__crystal-medium_55","currency__crystal-large":"NumericStepper_currency__crystal-large_a4",currencyIcon:"NumericStepper_currencyIcon_8e","currencyIcon__credits-small":"NumericStepper_currencyIcon__credits-small_99","currencyIcon__credits-medium":"NumericStepper_currencyIcon__credits-medium_1a","currencyIcon__credits-large":"NumericStepper_currencyIcon__credits-large_bc","currencyIcon__gold-small":"NumericStepper_currencyIcon__gold-small_2a","currencyIcon__gold-medium":"NumericStepper_currencyIcon__gold-medium_f6","currencyIcon__gold-large":"NumericStepper_currencyIcon__gold-large_d6","currencyIcon__crystal-small":"NumericStepper_currencyIcon__crystal-small_b5","currencyIcon__crystal-medium":"NumericStepper_currencyIcon__crystal-medium_ac","currencyIcon__crystal-large":"NumericStepper_currencyIcon__crystal-large_2b","currencyIcon__freeXP-small":"NumericStepper_currencyIcon__freeXP-small_4d","currencyIcon__freeXP-medium":"NumericStepper_currencyIcon__freeXP-medium_85","currencyIcon__freeXP-large":"NumericStepper_currencyIcon__freeXP-large_76","currencyIcon__xp-small":"NumericStepper_currencyIcon__xp-small_73","currencyIcon__xp-medium":"NumericStepper_currencyIcon__xp-medium_ef","currencyIcon__xp-large":"NumericStepper_currencyIcon__xp-large_3e",dummyValue:"NumericStepper_dummyValue_0c",control:"NumericStepper_control_ab",buttonIncrement:"NumericStepper_buttonIncrement_16",buttonDecrement:"NumericStepper_buttonDecrement_c8",buttonIncrement__small:"NumericStepper_buttonIncrement__small_f6",buttonDecrement__small:"NumericStepper_buttonDecrement__small_36",buttonIncrement__medium:"NumericStepper_buttonIncrement__medium_fd",buttonDecrement__medium:"NumericStepper_buttonDecrement__medium_d1",buttonIncrement__large:"NumericStepper_buttonIncrement__large_56",buttonDecrement__large:"NumericStepper_buttonDecrement__large_63",buttonIncrement__isDisabled:"NumericStepper_buttonIncrement__isDisabled_68",buttonDecrement__isDisabled:"NumericStepper_buttonDecrement__isDisabled_d9","buttonIncrement__isActive-small":"NumericStepper_buttonIncrement__isActive-small_2a","buttonIncrement__isActive-medium":"NumericStepper_buttonIncrement__isActive-medium_c2","buttonIncrement__isActive-large":"NumericStepper_buttonIncrement__isActive-large_91","buttonDecrement__isActive-small":"NumericStepper_buttonDecrement__isActive-small_21","buttonDecrement__isActive-medium":"NumericStepper_buttonDecrement__isActive-medium_a3","buttonDecrement__isActive-large":"NumericStepper_buttonDecrement__isActive-large_8b"};class Yu extends a().PureComponent{constructor(...e){super(...e),this.timer=null,this.validationTimer=null,this.numericalStepper=(0,r.createRef)(),this.input=(0,r.createRef)(),this.state={value:this.props.value,isFocused:this.props.isFocused,activeDecrement:!1,activeIncrement:!1},this.setFocusOnInput=()=>{this.props.isDisabled||this.input.current&&(this.input.current.focus(),this.setState({isFocused:!0}))},this.blurInput=()=>{this.input.current&&(this.input.current.blur(),this.setState({isFocused:!1}))},this.componentDidMount=()=>{this.state.isFocused&&(this.setFocusOnInput(),setTimeout((()=>{const e=this.formattedValue.length;this.input.current&&this.input.current.setSelectionRange(e,e)}),0)),document.addEventListener("click",this.handleClickOutside),document.addEventListener("mouseup",this.handleMouseUp)},this.componentWillUnmount=()=>{this.stop(),document.removeEventListener("click",this.handleClickOutside),document.removeEventListener("mouseup",this.handleMouseUp)},this.formatValue=e=>this.props.currencyType?z.Z5.getNumberFormat(e,z.B3.GOLD):e.toString(),this.getValidValue=e=>{const u=Math.min(this.props.maximum,Math.max(this.props.minimum,e)),t=this.props.stepSize;return Math.round(u/t)*t},this.changeValue=e=>{e!==this.state.value&&(this.setState({value:e}),this.props.onChange(e))},this.setCursorPosition=(e,u)=>{this.input.current&&this.input.current.setSelectionRange(e,u),setTimeout((()=>{this.input.current&&this.input.current.setSelectionRange(e,u)}))},this.handleChange=()=>{this.props.isDisabled||this.updateInput()},this.updateInput=(e=0)=>{const u=e===Ne.n.BACKSPACE,t=e===Ne.n.DELETE,r=this.input.current,a=r.selectionStart||0,n=r.selectionEnd||0;let s=r.value;const i=Math.max(a,n),o=i;t&&(s=s.substring(0,i)+s.substring(i+1,s.length)),u&&1===a&&1===s.length&&(s="0");const l=Number(s.trim().replace(/\D/g,"")),c=Number.isSafeInteger(l)?l:Number.MAX_SAFE_INTEGER,_=this.props.currencyType?z.Z5.getNumberFormat(c,z.B3.GOLD):c.toString(),m=!isNaN(Number(s.replace(" ","")));r.value=_;const E=new RegExp(/\d/g);let d=0;for(let e=0;e<o;e++){const u=s[e]||"",t=_[d]||"";if(u.match(E)||u===t){for(;u!==_[d]&&d<_.length;)d++;d++}}""===s?d=1:m||(d=s.length),this.input.current&&this.input.current.setSelectionRange(0,0),this.setCursorPosition(d,d),this.changeValue(c),this.validationTimer&&clearTimeout(this.validationTimer),this.validationTimer=setTimeout((()=>{this.getValidValue(c)!==c&&this.state.isFocused&&(this.changeValue(this.getValidValue(c)),this.setCursorPosition(0,this.formatValue(c).length))}),1e3)},this.handleDelete=e=>{const u=e.keyCode===Ne.n.BACKSPACE,t=e.keyCode===Ne.n.DELETE,r=e.target,a=r.selectionStart,n=r.selectionEnd,s=r.value,i=a!==n,o=new RegExp(/\D/),l=u&&a?a-1:a||0;if(i)return;let c=l;const _=o.test(s[l]);if(t&&_)for(;o.test(s[c])&&c<s.length;)c++;if(u&&_)for(;o.test(s[c])&&c>0;)c--;if(c!==l||u&&_)return e.preventDefault(),c=c<0?0:c,void this.setCursorPosition(c,c);(u&&1===a&&1===s.length||t)&&(e.preventDefault(),this.updateInput(e.keyCode))},this.handleClickOutside=e=>{const u=document.activeElement;this.state.isFocused&&u!==this.input.current&&null!==this.numericalStepper.current&&!this.numericalStepper.current.contains(e.target)&&this.setState({isFocused:!1})},this.handleBlur=()=>{if(this.props.isDisabled)return;const e=this.getValidValue(this.state.value);e!==this.state.value&&this.changeValue(e)},this.handleWheel=e=>{if(this.props.isDisabled||!this.state.isFocused)return;e.preventDefault();e.deltaY<0?this.decrement():this.increment()},this.handleMouseUp=()=>{this.stop(),this.setState({activeIncrement:!1,activeDecrement:!1})},this.handleMouseLeave=()=>{this.stop()},this.incrementHandleMouseEnter=e=>{this.state.activeIncrement&&this.incrementHandleMouseDown(e,!0),this.buttonIncrementIsDisabled||this.playHoverSound()},this.decrementHandleMouseEnter=e=>{this.state.activeDecrement&&this.decrementHandleMouseDown(e,!0),this.buttonDecrementIsDisabled||this.playHoverSound()},this.handleKeyDown=e=>{if(!this.props.isDisabled){switch(e.keyCode in Ne.n&&e.keyCode!==Ne.n.BACKSPACE&&e.keyCode!==Ne.n.DELETE&&e.preventDefault(),e.keyCode){case Ne.n.ARROW_UP:case Ne.n.NUM_PLUS:case Ne.n.PLUS:this.state.activeIncrement||this.setState({activeIncrement:!0}),this.increment();break;case Ne.n.ARROW_DOWN:case Ne.n.NUM_MINUS:case Ne.n.MINUS:this.state.activeDecrement||this.setState({activeDecrement:!0}),this.decrement();break;case Ne.n.HOME:this.changeValue(this.props.minimum);break;case Ne.n.END:this.changeValue(this.props.maximum);break;case Ne.n.ENTER:if(e.nativeEvent.stopImmediatePropagation(),this.state.value>=this.props.maximum){const e=this.formatValue(this.props.maximum).length;this.changeValue(this.props.maximum),this.setCursorPosition(0,e)}break;case Ne.n.PAGE_UP:this.changeValue(this.props.maximum);break;case Ne.n.PAGE_DOWN:this.changeValue(this.props.minimum);break;case Ne.n.BACKSPACE:case Ne.n.DELETE:this.handleDelete(e)}this.props.onKeyDown(e)}},this.handleKeyUp=e=>{if(!this.props.isDisabled)switch(e.keyCode){case Ne.n.ARROW_UP:case Ne.n.NUM_PLUS:case Ne.n.PLUS:this.setState({activeIncrement:!1});break;case Ne.n.ARROW_DOWN:case Ne.n.NUM_MINUS:case Ne.n.MINUS:this.setState({activeDecrement:!1})}},this.allowOnlyNumbers=e=>{e.which in ju||e.preventDefault()},this.increment=()=>{const e=Math.min(this.getValidValue(this.state.value)+this.props.stepSize,this.props.maximum);this.changeValue(e)},this.decrement=()=>{const e=Math.max(this.getValidValue(this.state.value)-this.props.stepSize,this.props.minimum);this.changeValue(e)},this.incrementHandleMouseDown=(e,u=!1)=>{this.buttonIncrementIsDisabled||(e.persist(),e.preventDefault(),this.stop(),this.setFocusOnInput(),this.state.value<this.props.maximum&&(!u&&this.playClickSound(),(0===e.button||u)&&(this.increment(),this.timer=setTimeout((()=>{this.incrementHandleMouseDown(e,!0)}),u?50:300),this.setState({activeIncrement:!0}))))},this.decrementHandleMouseDown=(e,u=!1)=>{this.buttonDecrementIsDisabled||(e.persist(),e.preventDefault(),this.stop(),this.setFocusOnInput(),this.state.value>this.props.minimum&&(!u&&this.playClickSound(),(0===e.button||u)&&(this.decrement(),this.timer=setTimeout((()=>{this.decrementHandleMouseDown(e,!0)}),u?50:300),this.setState({activeDecrement:!0}))))},this.playHoverSound=()=>{this.props.isDisabled||ve("highlight")},this.playClickSound=()=>{this.props.isDisabled||ve("play")},this.stop=()=>{this.timer&&clearTimeout(this.timer),this.timer=null}}componentDidUpdate(e,u){const t=this.state,r=t.value,a=t.isFocused;if(r!==u.value&&a){const e=this.formattedValue.length,u=this.input.current&&this.input.current.selectionStart,t=this.input.current&&this.input.current.selectionEnd,r=u===t?e:u||0;0===u&&t===e?this.input.current&&this.input.current.setSelectionRange(e,e):this.input.current&&this.input.current.setSelectionRange(r,e)}}componentWillReceiveProps({value:e,isFocused:u}){e!==this.props.value&&this.setState({value:e}),u!==this.props.isFocused&&(this.setState({isFocused:u}),u?(this.setFocusOnInput(),this.setCursorPosition(0,this.formattedValue.length)):this.blurInput())}get formattedValue(){return this.props.currencyType?z.Z5.getNumberFormat(this.state.value,z.B3.GOLD):this.state.value.toString()}get buttonIncrementIsDisabled(){return this.state.value>=this.props.maximum||this.props.isDisabled}get buttonDecrementIsDisabled(){return this.state.value<=this.props.minimum||this.props.isDisabled}render(){const e=this.props,u=e.isDisabled,t=e.size,r=e.currencyType,n=g()(zu.base,zu[`base__${t}`],r&&zu[`base__withCurrency-${t}`],u&&zu.base__isDisabled,this.state.isFocused&&zu.base__isFocus),s=g()(zu.buttonIncrement,zu[`buttonIncrement__${t}`],this.buttonIncrementIsDisabled&&zu.buttonIncrement__isDisabled,this.state.activeIncrement&&!this.buttonIncrementIsDisabled&&zu[`buttonIncrement__isActive-${this.props.size}`]),i=g()(zu.buttonDecrement,zu[`buttonDecrement__${t}`],this.buttonDecrementIsDisabled&&zu.buttonDecrement__isDisabled,this.state.activeDecrement&&!this.buttonDecrementIsDisabled&&zu[`buttonDecrement__isActive-${this.props.size}`]),o=g()(zu.input,u&&zu.input__disabled,r&&zu.input__withCurrency,r&&zu[`input__${r}-${t}`],r&&zu[`input__${r}`],r&&u&&zu[`input__${r}-disabled`]),l=g()(zu.currencyIcon,r&&zu[`currencyIcon__${r}-${t}`]),c=g()(zu.currency,r&&zu[`currency__${r}`],r&&zu[`currency__${r}-${t}`]);return a().createElement("div",{className:n,ref:this.numericalStepper,style:(_=this.props.width,_?{width:`${_}rem`}:{})},a().createElement("div",{className:zu.inputContainer},r&&a().createElement("div",{className:c},a().createElement("span",{className:zu.dummyValue},this.formattedValue),a().createElement("span",{className:l})),a().createElement("input",{ref:this.input,className:o,type:"text",value:this.formattedValue,disabled:u,onWheel:this.handleWheel,onChange:this.handleChange,onKeyPress:this.allowOnlyNumbers,onKeyDown:this.handleKeyDown,onKeyUp:this.handleKeyUp,onBlur:this.handleBlur,onFocus:this.setFocusOnInput})),a().createElement("div",{className:zu.control},a().createElement("div",{className:s,onClick:this.setFocusOnInput,onMouseUp:this.handleMouseUp,onMouseLeave:this.handleMouseLeave,onMouseEnter:this.incrementHandleMouseEnter,onMouseDown:this.incrementHandleMouseDown}),a().createElement("div",{className:i,onClick:this.setFocusOnInput,onMouseUp:this.handleMouseUp,onMouseLeave:this.handleMouseLeave,onMouseEnter:this.decrementHandleMouseEnter,onMouseDown:this.decrementHandleMouseDown})));var _}}Yu.defaultProps={value:1,stepSize:1,minimum:0,maximum:0,size:"medium",isFocused:!0,isDisabled:!1,onChange:()=>null,onKeyDown:()=>null};const qu=["children"];function Ku(){return Ku=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},Ku.apply(this,arguments)}const Zu=e=>{let u=e.children,t=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,qu);return a().createElement(Ve,Ku({contentId:R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),ignoreShowDelay:!0},t),u)};function Qu(){return Qu=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},Qu.apply(this,arguments)}const Ju=({children:e,tooltipArgs:u,className:t})=>{if(!u)return e;const r=a().createElement("div",{className:t},e);if(u.header||u.body)return a().createElement(Ye,u,r);const n=u.contentId,s=u.args,i=null==s?void 0:s.contentId;return n||i?a().createElement(Ve,Qu({},u,{contentId:n||i}),r):a().createElement(Zu,u,r)},et={base:"Reward_base_ea",base__s48x48:"Reward_base__s48x48_46",base__small:"Reward_base__small_c0",base__s80x80:"Reward_base__s80x80_ce",base__big:"Reward_base__big_e5",base__s128x100:"Reward_base__s128x100_c3",base__s180x135:"Reward_base__s180x135_7c",base__s232x174:"Reward_base__s232x174_67",base__s296x222:"Reward_base__s296x222_78",base__s400x300:"Reward_base__s400x300_07",base__s600x450:"Reward_base__s600x450_f8",tooltipWrapper:"Reward_tooltipWrapper_b5",icon:"Reward_icon_df",overlay:"Reward_overlay_68",highlight:"Reward_highlight_36",image:"Reward_image_89",info:"Reward_info_72",info__multi:"Reward_info__multi_63",info__credits:"Reward_info__credits_ef",info__gold:"Reward_info__gold_36",info__crystal:"Reward_info__crystal_36",info__premiumTank:"Reward_info__premiumTank_d3",timer:"Reward_timer_d3"},ut=({name:e,image:u,isPeriodic:t=!1,size:r=uu.Big,special:n,value:s,valueType:i,style:o,className:l,classNames:c,tooltipArgs:_,periodicIconTooltipArgs:m})=>{const E=(e=>{if(void 0===e)return null;switch(e){case ru.BATTLE_BOOSTER:case ru.BATTLE_BOOSTER_REPLACE:return au.BATTLE_BOOSTER}})(n),d=(e=>{if(void 0===e)return null;switch(e){case ru.BATTLE_BOOSTER:return nu.BATTLE_BOOSTER;case ru.BATTLE_BOOSTER_REPLACE:return nu.BATTLE_BOOSTER_REPLACE;case ru.BUILT_IN_EQUIPMENT:return nu.BUILT_IN_EQUIPMENT;case ru.EQUIPMENT_PLUS:return nu.EQUIPMENT_PLUS;case ru.EQUIPMENT_TROPHY_BASIC:return nu.EQUIPMENT_TROPHY_BASIC;case ru.EQUIPMENT_TROPHY_UPGRADED:return nu.EQUIPMENT_TROPHY_UPGRADED;case ru.EQUIPMENT_MODERNIZED_UPGRADED_1:return nu.EQUIPMENT_MODERNIZED_UPGRADED_1;case ru.EQUIPMENT_MODERNIZED_UPGRADED_2:return nu.EQUIPMENT_MODERNIZED_UPGRADED_2;case ru.EQUIPMENT_MODERNIZED_UPGRADED_3:return nu.EQUIPMENT_MODERNIZED_UPGRADED_3;case ru.PROGRESSION_STYLE_UPGRADED_1:return nu.PROGRESSION_STYLE_UPGRADED_1;case ru.PROGRESSION_STYLE_UPGRADED_2:return nu.PROGRESSION_STYLE_UPGRADED_2;case ru.PROGRESSION_STYLE_UPGRADED_3:return nu.PROGRESSION_STYLE_UPGRADED_3;case ru.PROGRESSION_STYLE_UPGRADED_4:return nu.PROGRESSION_STYLE_UPGRADED_4}})(n),A=((e,u)=>{if(void 0===e)return null;switch(u){case tu.MULTI:{const u=Number(e);return isFinite(u)&&u>1?`x${Math.floor(u)}`:null}case tu.CURRENCY:case tu.NUMBER:return a().createElement(Qe,{format:"integral",value:Number(e)});case tu.PREMIUM_PLUS:{const u=Number(e);return isNaN(u)?e:null}default:return e}})(s,i);return a().createElement("div",{className:g()(et.base,et[`base__${r}`],l),style:o},a().createElement(Ju,{tooltipArgs:_,className:et.tooltipWrapper},a().createElement(a().Fragment,null,a().createElement("div",{className:g()(et.image,null==c?void 0:c.image)},E&&a().createElement("div",{className:g()(et.highlight,null==c?void 0:c.highlight),style:{backgroundImage:`url(R.images.gui.maps.icons.quests.bonuses.${r}.${E}_highlight)`}}),u&&a().createElement("div",{className:g()(et.icon,null==c?void 0:c.rewardIcon),style:{backgroundImage:`url(${u})`}}),d&&a().createElement("div",{className:g()(et.overlay,null==c?void 0:c.overlay),style:{backgroundImage:`url(R.images.gui.maps.icons.quests.bonuses.${r}.${d}_overlay)`}})),A&&a().createElement("div",{className:g()(et.info,et[`info__${e}`],i===tu.MULTI&&et.info__multi,null==c?void 0:c.info)},A))),t&&a().createElement(Ju,{tooltipArgs:m},a().createElement("div",{className:g()(et.timer,null==c?void 0:c.periodicIcon)})))},tt={base:"Preview_base_1f",base__hovered:"Preview_base__hovered_ee",icon:"Preview_icon_f3",icon__small:"Preview_icon__small_a1",icon__normal:"Preview_icon__normal_5c",base__mouseDown:"Preview_base__mouseDown_d0",label:"Preview_label_2e",base__visibleLabel:"Preview_base__visibleLabel_92"},rt=["label","isVisibleLabel","autofocus","soundHover","soundClick","size","classNames","onClick","onMouseEnter","onMouseLeave","onMouseDown","onMouseUp","onFocus","onBlur"];function at(){return at=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},at.apply(this,arguments)}let nt;!function(e){e.SMALL="small",e.NORMAL="normal"}(nt||(nt={}));const st=(0,r.memo)((e=>{let u=e.label,t=e.isVisibleLabel,n=void 0!==t&&t,s=e.autofocus,i=void 0!==s&&s,o=e.soundHover,l=void 0===o?"highlight":o,c=e.soundClick,_=void 0===c?"play":c,m=e.size,E=void 0===m?nt.NORMAL:m,d=e.classNames,A=e.onClick,p=e.onMouseEnter,D=e.onMouseLeave,F=e.onMouseDown,h=e.onMouseUp,B=e.onFocus,C=e.onBlur,b=function(e,u){if(null==e)return{};var t,r,a={},n=Object.keys(e);for(r=0;r<n.length;r++)t=n[r],u.indexOf(t)>=0||(a[t]=e[t]);return a}(e,rt);const v=(0,r.useState)(!1),f=v[0],S=v[1],y=(0,r.useState)(!1),w=y[0],M=y[1],N=(0,r.useState)(i),T=N[0],x=N[1],R=(0,r.useRef)(null),P=(0,r.useCallback)((()=>{R.current&&(R.current.focus(),x(!0))}),[]),k=(0,r.useCallback)((e=>{T&&null!==R.current&&!R.current.contains(e.target)&&x(!1)}),[T]);(0,r.useEffect)((()=>(document.addEventListener("mousedown",k),()=>{document.removeEventListener("mousedown",k)})),[k]),(0,r.useEffect)((()=>{x(i)}),[i]);const L=(0,r.useCallback)((e=>{A&&A(e)}),[A]),I=(0,r.useCallback)((e=>{S(!0),F&&F(e),_&&ve(_),i&&P()}),[i,F,P,_]),O=(0,r.useCallback)((e=>{S(!1),h&&h(e)}),[h]),H=(0,r.useCallback)((e=>{p&&p(e),l&&ve(l),M(!0)}),[p,l]),U=(0,r.useCallback)((e=>{S(!1),M(!1),D&&D(e)}),[D]),W=(0,r.useCallback)((e=>{x(!0),B&&B(e)}),[B]),G=(0,r.useCallback)((e=>{x(!1),C&&C(e)}),[C]),$=g()(tt.base,n&&tt.base__visibleLabel,f&&tt.base__mouseDown,w&&tt.base__hovered,T&&tt.base__focused,null==d?void 0:d.base),V=g()(tt.icon,tt[`icon__${E}`],null==d?void 0:d.icon),X=g()(tt.label,null==d?void 0:d.label);return a().createElement("div",at({ref:R,className:$,onClick:L,onMouseEnter:H,onMouseLeave:U,onMouseDown:I,onMouseUp:O,onFocus:W,onBlur:G},b),a().createElement("div",{className:V}),a().createElement("div",{className:X},u))})),it=["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"],ot=[1,4,5,9,10,40,50,90,100,400,500,900,1e3];function lt(e){let u="";for(let t=ot.length-1;t>=0;t--)for(;e>=ot[t];)u+=it[t],e-=ot[t];return u}["ko","no"].includes(R.strings.settings.LANGUAGE_CODE());const ct="VehicleInfo_base_48",_t="VehicleInfo_type_2a",mt=({vehicleLvl:e,vehicleName:u,vehicleType:t,isElite:r,classNames:n})=>a().createElement("div",{className:g()(ct,null==n?void 0:n.base)},lt(e),a().createElement("div",{className:g()(_t,null==n?void 0:n.type),style:{backgroundImage:r?`url(${R.images.gui.maps.icons.vehicleTypes.elite.$dyn(`${H(t)}`)})`:`url(${R.images.gui.maps.icons.vehicleTypes.c_24x24.$dyn(`${H(t)}`)})`}}),u),Et="VehicleReward_base_1b",dt="VehicleReward_base__inInventory_3f",At="VehicleReward_iconWrapper_c6",pt="VehicleReward_icon_b6",Dt="VehicleReward_preview_ca",Ft="VehicleReward_preview__opacity_11",ht="VehicleReward_preview__label_06",gt="VehicleReward_label_8c",Bt="VehicleReward_checkIcon_56",Ct="VehicleReward_vehicleName_2c",bt=({vehicleName:e,shortVehicleLabel:u,inInventory:t,level:r,isRent:n,tooltipArgs:s,isElite:i,type:o,wasSold:l,intCD:c,size:_,onPreviewClick:m})=>{const E=H(e),d=_<b.Large&&R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_48x48.$dyn(`${E}`)||_>b.Medium&&_>b.ExtraLarge&&R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_80x80.$dyn(`${E}`)||_<b.ExtraLarge&&R.images.gui_lootboxes.gui.maps.rewards.vehicles.$dyn(`${E}`)||R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_180x135.$dyn(`${E}`)||R.images.gui.maps.shop.vehicles.c_180x135.$dyn(E)||R.images.gui.maps.icons.quests.bonuses.big.vehicles(),A=(t||l)&&!n,p=_<b.Large?nt.SMALL:nt.NORMAL,D=g()(Et,A&&dt);return a().createElement("div",{className:D},a().createElement(Ju,{tooltipArgs:s},a().createElement("div",{className:At,onMouseEnter:()=>{fe.playHighlight()}},a().createElement("div",{className:pt,style:{backgroundImage:`url(${d})`}}),!A&&a().createElement("div",{className:Dt},a().createElement(st,{classNames:{base:Ft,label:ht},size:p,onClick:()=>{null==m||m(c)}})))),a().createElement("div",{className:gt},A&&a().createElement("div",{className:Bt}),_<b.ExtraLarge?a().createElement("div",{className:Ct},u):a().createElement(mt,{vehicleLvl:r,vehicleName:u,vehicleType:o,isElite:i})))},vt="CoverPage_base_f5",ft="CoverPage_content_12",St="CoverPage_mainTitle_5c",yt="CoverPage_title_6f",wt="CoverPage_subTitle_2f",Mt="CoverPage_rewards_df",Nt="CoverPage_rewardBlock_b9",Tt="CoverPage_rewardWrapper_ab",xt="CoverPage_reward_df",Rt="CoverPage_rewards_second_6b",Pt="CoverPage_rewardInfo_d1",kt="CoverPage_plus_19",Lt="CoverPage_alertText_b8",It="CoverPage_price_82",Ot="CoverPage_dots_f0",Ht="CoverPage_totalPrice_e9",Ut="CoverPage_totalPrice__notEnough_8e",Wt="CoverPage_currencyCount_0c",Gt="CoverPage_count_00",$t="CoverPage_count__notEnough_f4",Vt="CoverPage_currency_a9",Xt="CoverPage_currency__count_ae",jt="CoverPage_alert_29",zt="CoverPage_alertIcon_4f",Yt="CoverPage_buyButtonWrapper_e5",qt="CoverPage_buyButton_3a",Kt="CoverPage_addMoreButton_6d",Zt="CoverPage_addMoreButtonContent_e6",Qt="CoverPage_plusIcon_85",Jt="CoverPage_blink_4e";function er(){return er=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},er.apply(this,arguments)}const ur=R.strings.event.summerSales.mainView.catalog,tr=(0,Re.Pi)((()=>{const e=wu(),u=e.model,t=e.controls,n=S().mediaSize,s=u.root.get(),i=s.bumblebeeCoinsBalance,o=s.summerSaleSetsTotalPrice,l=s.summerSaleSetProductCode,c=n<b.Large?uu.Small:uu.Big,_=n<b.Large?"small":"medium",m=n<b.Large?60:104,E=u.computes.getRewards(),d=u.stepper.get(),A=(0,r.useMemo)((()=>i>=o.amount),[i,o.amount]),p=e=>{t.previewVehicle(e)},D=()=>{fe.playHighlight()};return a().createElement("div",{className:vt},a().createElement("div",{className:Wt},a().createElement(Ye,{header:ur.tooltip.header.bumblebee(),body:ur.tooltip.body.bumblebee()},a().createElement("div",{className:g()(Gt,!A&&$t)},a().createElement(Qe,{format:"integral",value:i}),a().createElement("div",{className:g()(Vt,Xt)}))),a().createElement(Ue,{type:Ie.ghost,size:Oe.small,mixClass:Kt,disabled:!1,onClick:t.buyCoinsClick},a().createElement("div",{className:Zt},a().createElement("div",{className:Qt}),a().createElement(be,{text:ur.button.addMore()})),!A&&a().createElement("div",{className:Jt}))),a().createElement("div",{className:ft},E[0]&&a().createElement(a().Fragment,null,a().createElement(be,{text:ur.mainTitle(),className:St}),a().createElement(be,{text:ur.firstTitle(),className:yt}),a().createElement(be,{text:ur.firstSubTitle(),format:{binding:{probability:E[0].probability}},className:wt}),a().createElement("div",{className:Mt},E[0].rewards.map(((e,u)=>a().createElement("div",{className:Nt,key:e.name},a().createElement(Ju,{tooltipArgs:e.tooltipArgs},a().createElement("div",{className:Tt,onMouseEnter:D},a().createElement("div",{className:xt,style:{backgroundImage:`url(${Au(e,c)})`}}),a().createElement(be,{text:ur.rewardTitle(),format:{binding:{count:a().createElement(Qe,{format:"integral",value:Number(e.value)})}},className:Pt}))),u<E[0].rewards.length-1&&a().createElement("div",{className:kt})))))),E[1]&&a().createElement(a().Fragment,null,a().createElement(be,{text:ur.secontTitle(),className:yt}),a().createElement(be,{text:ur.secondSubTitle(),className:wt,format:{binding:{probability:E[1].probability}}}),a().createElement("div",{className:g()(Mt,Rt)},E[1].rewards.map((e=>{return e.name===eu.Vehicles&&"vehicleName"in e?a().createElement(bt,er({key:e.vehicleName,size:n},e,{onPreviewClick:p})):a().createElement("div",{key:e.name,onMouseEnter:D},a().createElement(ut,er({},e,{tooltipArgs:e.tooltipArgs,valueType:(u=e.name,ou.includes(u)?tu.MULTI:lu.includes(u)?tu.CURRENCY:cu.includes(u)?tu.NUMBER:_u.includes(u)?tu.PREMIUM_PLUS:tu.STRING),size:n<b.ExtraLarge?c:uu.S180x135,className:xt,image:Au(e,n<b.ExtraLarge?c:uu.S180x135)})));var u}))))),a().createElement("div",{className:It},a().createElement(be,{text:ur.priceBumblebee()}),a().createElement(be,{text:".............................................",className:Ot}),a().createElement(Ye,{header:ur.tooltip.header.bumblebee(),body:ur.tooltip.body.bumblebee()},a().createElement("div",{className:g()(Ht,!A&&Ut)},a().createElement(Qe,{format:"integral",value:o.amount}),a().createElement("div",{className:Vt}))),a().createElement(Yu,er({width:m,size:_,onChange:t.stepperChange,isFocused:!1},d)),a().createElement(Ye,{header:ur.button.tooltip.header.bumblebee(),body:ur.button.tooltip.body.bumblebee(),isEnabled:!A},a().createElement("div",{className:Yt},a().createElement(Ue,{type:Ie.main,size:Oe.small,mixClass:qt,disabled:!A,onClick:()=>{t.buyProductClick(l,d.value)}},a().createElement(be,{text:ur.button.buy()}))))),!A&&a().createElement("div",{className:jt},a().createElement("div",{className:zt}),a().createElement(be,{text:ur.alert(),className:Lt})))})),rr={base:"Item_base_19",base__left:"Item_base__left_e1",vehicleImage:"Item_vehicleImage_cf",infoBlock:"Item_infoBlock_b5",price:"Item_price_d2",base__3:"Item_base__3_dc",priceWrapper:"Item_priceWrapper_f0",dots:"Item_dots_3a",vehicleInfo:"Item_vehicleInfo_65",totalPrice:"Item_totalPrice_80",currency:"Item_currency_94",currency__honey_coin:"Item_currency__honey_coin_5a",changeButton:"Item_changeButton_3c",preview:"Item_preview_5d",preview__label:"Item_preview__label_b1",preview__base:"Item_preview__base_9c",label:"Item_label_25",checkIcon:"Item_checkIcon_c5",buttonWrapper:"Item_buttonWrapper_3d"},ar=R.strings.event.summerSales.mainView.catalog,nr=({label:e,index:u,intCD:t,level:r,isElite:n,inInventory:s,wasSold:i,isRent:o,type:l,price:c,tooltipArgs:_,honeyCoinsBalance:m,productCode:E,onPreviewClick:d,onBuyClick:A,isLeftPage:p=!1,classNames:D})=>{const F=S().mediaSize,h=(s||i)&&!o,B=!!c&&m<(null==c?void 0:c.amount);return a().createElement("div",{className:g()(rr.base,rr[`base__${u}`],p&&rr.base__left,D)},a().createElement(Ju,{tooltipArgs:_,className:rr.vehicleImage},a().createElement("div",{className:rr.preview},a().createElement(st,{classNames:{base:rr.preview__base,label:rr.preview__label},size:F<b.Large?nt.SMALL:nt.NORMAL,onClick:()=>{d&&d(t)},label:a().createElement(be,{text:s?ar.toHangar():ar.toPreview()})}))),a().createElement("div",{className:rr.infoBlock},a().createElement("div",{className:rr.priceWrapper},a().createElement(Ju,{tooltipArgs:_},a().createElement(mt,{classNames:{base:rr.vehicleInfo},vehicleLvl:r,vehicleName:e,vehicleType:l,isElite:n})),a().createElement(Ye,{header:ar.tooltip.header.honey(),body:ar.tooltip.body.honey()},a().createElement("div",{className:rr.price},a().createElement(be,{text:ar.priceHoney()}),a().createElement(be,{text:"......................................",className:rr.dots}),a().createElement("div",{className:rr.totalPrice},null==c?void 0:c.amount,a().createElement("div",{className:g()(rr.currency,rr[`currency__${null==c?void 0:c.currency}`])}))))),!h&&a().createElement(Ye,{isEnabled:B,header:ar.button.tooltip.header.disabled(),body:ar.button.tooltip.body.disabled()},a().createElement("div",{className:rr.buttonWrapper},a().createElement(Ue,{type:Ie.primary,size:F<b.Large?Oe.extraSmall:Oe.small,mixClass:rr.changeButton,disabled:B,onClick:()=>{E&&A(E,1)}},a().createElement(be,{text:ar.button.change()})))),h&&a().createElement("label",{className:rr.label},a().createElement("div",{className:rr.checkIcon}),a().createElement(be,{text:s?ar.vehicleStatus.inInventory():ar.vehicleStatus.wasSold()}))))},sr={base:"RandomVehicle_base_ac",base__left:"RandomVehicle_base__left_64",vehicleImage:"RandomVehicle_vehicleImage_88",infoBlock:"RandomVehicle_infoBlock_cd",price:"RandomVehicle_price_4d",base__3:"RandomVehicle_base__3_75",priceWrapper:"RandomVehicle_priceWrapper_3b",dots:"RandomVehicle_dots_a4",vehicleInfo:"RandomVehicle_vehicleInfo_7b",totalPrice:"RandomVehicle_totalPrice_4a",currency:"RandomVehicle_currency_c9",currency__honey_coin:"RandomVehicle_currency__honey_coin_a7",changeButton:"RandomVehicle_changeButton_fb",preview:"RandomVehicle_preview_d3",preview__opacity:"RandomVehicle_preview__opacity_8c",preview__label:"RandomVehicle_preview__label_69",preview__icon:"RandomVehicle_preview__icon_96",label:"RandomVehicle_label_0e",checkIcon:"RandomVehicle_checkIcon_60",buttonWrapper:"RandomVehicle_buttonWrapper_7e"},ir=R.strings.event.summerSales.mainView.catalog,or=({index:e,price:u,tooltipArgs:t,honeyCoinsBalance:r,isAnyRandomVehicleObtained:n,productCode:s,onBuyClick:i,isLeftPage:o=!1,classNames:l})=>{const c=S().mediaSize,_=!!u&&r<(null==u?void 0:u.amount);return a().createElement("div",{className:g()(sr.base,sr[`base__${e}`],o&&sr.base__left,l)},a().createElement(Ju,{tooltipArgs:t},a().createElement("div",{className:sr.vehicleImage})),a().createElement("div",{className:sr.infoBlock},a().createElement("div",{className:sr.priceWrapper},a().createElement(Ju,{tooltipArgs:t},a().createElement(be,{text:ir.randomVehicle.label(),className:sr.vehicleInfo})),a().createElement(Ye,{header:ir.tooltip.header.honey(),body:ir.tooltip.body.honey()},a().createElement("div",{className:sr.price},a().createElement(be,{text:ir.priceHoney()}),a().createElement(be,{text:"......................................",className:sr.dots}),a().createElement("div",{className:sr.totalPrice},null==u?void 0:u.amount,a().createElement("div",{className:g()(sr.currency,sr[`currency__${null==u?void 0:u.currency}`])}))))),!n&&a().createElement(Ye,{isEnabled:_,header:ir.button.tooltip.header.disabled(),body:ir.button.tooltip.body.disabled()},a().createElement("div",{className:sr.buttonWrapper},a().createElement(Ue,{type:Ie.primary,size:c<b.Large?Oe.extraSmall:Oe.small,mixClass:sr.changeButton,disabled:_||n,onClick:()=>{s&&i(s,1)}},a().createElement(be,{text:ir.button.change()})))),n&&a().createElement("label",{className:sr.label},a().createElement("div",{className:sr.checkIcon}),a().createElement(be,{text:ir.vehicleStatus.inInventory()}))))};function lr(){return lr=Object.assign||function(e){for(var u=1;u<arguments.length;u++){var t=arguments[u];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},lr.apply(this,arguments)}const cr=(0,Re.Pi)((({isOpen:e,onBuyClick:u})=>{const t=wu(),r=t.controls,n=t.model,s=n.root.get(),i=s.honeyCoinsBalance,o=s.isAnyRandomVehicleObtained,l=n.computes.getProducts(),c=(0,Vu.useSpring)({progress:e?1:0,config:{mass:1.5,friction:30,tension:120}}).progress,_=e=>4*e*(1-e),m=c.to((u=>{const t=e?_(u):0,r=e?0:_(u);return{page:{rotateX:25*t,z:140*t,scale:1+.12*t},cover:{rotateX:-25*r,z:140*r,scale:1+.12*r}}})),E=c.to([0,.5,1],[0,.3,.7]),d=(e,t)=>{r.buyProductClick(e,t),u()};return a().createElement(Vu.animated.div,{className:g()(Xu.base,e&&Xu.base__open),style:{transform:c.to((e=>`translateX(${100*e}%)`))}},a().createElement("div",{className:g()(Xu.page,Xu.page__three)},a().createElement(Vu.animated.div,{className:Xu.gutterShadowRight,style:{opacity:E}}),a().createElement("div",{className:g()(Xu.content,Xu.content__three)},l.slice(3,6).map(((e,u)=>"vehicleName"in e&&a().createElement(nr,lr({},e,{index:u,honeyCoinsBalance:i,onPreviewClick:r.previewVehicle,onBuyClick:d,key:`${e.vehicleName}_${u}`,classNames:Xu.item})))),l.slice(-1).map(((e,u)=>a().createElement(or,lr({},e,{index:u,isAnyRandomVehicleObtained:o,honeyCoinsBalance:i,onBuyClick:r.buyProductClick,classNames:Xu.item,key:`${u}`})))))),a().createElement(Vu.animated.div,{className:g()(Xu.page,Xu.page__two),style:{transform:c.to((e=>`rotateY(${180*-e}deg)`)),zIndex:c.to((e=>e>.5?10:1))}},a().createElement(Vu.animated.div,{className:Xu.bendContainer,style:{transform:m.to((e=>`rotateY(180deg) perspective(1200rem) translateZ(${e.page.z}rem) rotateX(${e.page.rotateX}deg) scale(${e.page.scale})`))}},a().createElement("div",{className:Xu.pageInner},a().createElement("div",{className:Xu.contentFix},a().createElement(Vu.animated.div,{className:Xu.gutterShadowLeft,style:{opacity:E}}),a().createElement("div",{className:Xu.content},l.slice(0,3).map(((e,u)=>"vehicleName"in e&&a().createElement(nr,lr({},e,{index:u,isLeftPage:!0,honeyCoinsBalance:i,onBuyClick:d,onPreviewClick:r.previewVehicle,key:`${e.vehicleName}_${u}`,classNames:Xu.leftItem}))))))))),a().createElement(Vu.animated.div,{className:g()(Xu.page,Xu.page__one),style:{transform:c.to((e=>`rotateY(${180*-e}deg)`)),zIndex:c.to((e=>e>.5?1:20))}},a().createElement(Vu.animated.div,{className:Xu.coverBendContainer,style:{transform:m.to((e=>`perspective(1200rem) translateZ(${e.cover.z}rem) rotateX(${e.cover.rotateX}deg) scale(${e.cover.scale})`))}},a().createElement(tr,null))))}));function _r(){const e=(0,r.useRef)(0);var u;return u=()=>{window.clearTimeout(e.current)},(0,r.useEffect)((()=>u),[]),(0,r.useMemo)((()=>({run:(u,t)=>{window.clearTimeout(e.current),e.current=window.setTimeout((()=>{u(),e.current=0}),t)},clear:()=>{window.clearTimeout(e.current),e.current=0},get isRunning(){return 0!==e.current}})),[])}const mr={base:"Bumblebee_base_ee",path:"Bumblebee_path_df",base__variant1:"Bumblebee_base__variant1_be",fly1:"Bumblebee_fly1_f5",base__variant2:"Bumblebee_base__variant2_21",fly2:"Bumblebee_fly2_3c",base__variant3:"Bumblebee_base__variant3_1f",fly3:"Bumblebee_fly3_6d",buzz:"Bumblebee_buzz_6c",bumblebee:"Bumblebee_bumblebee_19",flip1:"Bumblebee_flip1_28",flip2:"Bumblebee_flip2_88",flip3:"Bumblebee_flip3_f1",wing:"Bumblebee_wing_f6",flap:"Bumblebee_flap_e2",left:"Bumblebee_left_f2",right:"Bumblebee_right_33"},Er=({variant:e})=>a().createElement("div",{className:g()(mr.base,mr[`base__variant${e}`])},a().createElement("div",{className:mr.path},a().createElement("div",{className:mr.buzz},a().createElement("div",{className:mr.bumblebee},a().createElement("div",{className:g()(mr.wing,mr.left)}),a().createElement("div",{className:g()(mr.wing,mr.right)}))))),dr="Odometer_base_3d",Ar="Odometer_digit_c0",pr="Odometer_digitInner_78",Dr="Odometer_num_d0",Fr="Odometer_separator_26",hr=({value:e,isSoundOn:u,isAnimationEnabled:t,onStartAnimation:n,onEndAnimation:s})=>{const i=(0,r.useState)(0),o=i[0],l=i[1],c=(0,r.useRef)(0),_=(0,r.useRef)(null),m=(0,r.useRef)(!0),E=_r();(0,r.useEffect)((()=>{if(m.current)return c.current=e,l(e),void(m.current=!1);if(!t)return _.current&&cancelAnimationFrame(_.current),c.current=e,void l(e);_.current&&cancelAnimationFrame(_.current),n&&n();const r=()=>{c.current<e?(c.current+=1,l(c.current),_.current=requestAnimationFrame(r)):c.current>e?(c.current-=1,l(c.current),_.current=requestAnimationFrame(r)):(_.current=null,u&&E.run((()=>{ve(R.sounds.comp_7_progressbar_stop()),s&&s()}),200))};return _.current=requestAnimationFrame(r),u&&ve(R.sounds.comp_7_progressbar_start()),()=>{_.current&&cancelAnimationFrame(_.current)}}),[e]);const d=String(o).padStart(6,"0").split(""),A=0===o?d.length-1:Math.max(0,d.findIndex((e=>"0"!==e)));return a().createElement("div",{className:dr},d.map(((e,u)=>{const t=u<A&&"0"===e,r=2===u;return a().createElement(a().Fragment,{key:u},a().createElement("div",{className:Ar,style:{display:t?"none":"block"}},a().createElement("div",{className:pr,style:{transform:`translateY(-${10*Number(e)}%)`}},Array.from({length:10},((e,u)=>a().createElement("div",{key:u,className:Dr},u))))),r&&a().createElement("div",{className:Fr,style:{display:u<A?"none":"block"}}," "))})))},gr={base:"MarketScales_base_38",testButton:"MarketScales_testButton_67",animatedItems:"MarketScales_animatedItems_1a",scalesBody:"MarketScales_scalesBody_04",scalesPlatformWrapper:"MarketScales_scalesPlatformWrapper_c2",scalesPlatformWrapper__second:"MarketScales_scalesPlatformWrapper__second_fd",scalesPlatformHolder:"MarketScales_scalesPlatformHolder_4f",scalesPlatformHolder__step1:"MarketScales_scalesPlatformHolder__step1_2e",scalesPlatformHolder__step2:"MarketScales_scalesPlatformHolder__step2_7f",scalesPlatformHolder__step3:"MarketScales_scalesPlatformHolder__step3_50",scalesPlatformHolder__step4:"MarketScales_scalesPlatformHolder__step4_83",scalesPlatform:"MarketScales_scalesPlatform_dd",scalesPlatform__animated:"MarketScales_scalesPlatform__animated_6f",dropBounce:"MarketScales_dropBounce_0b",scalesPlatformBack:"MarketScales_scalesPlatformBack_eb",scalesPlatformFront:"MarketScales_scalesPlatformFront_20",scalesPlatformFront__animated:"MarketScales_scalesPlatformFront__animated_02",honeyWrapper:"MarketScales_honeyWrapper_3f",honeyWrapper__animated:"MarketScales_honeyWrapper__animated_61",floatPlatformHoney:"MarketScales_floatPlatformHoney_a7",honey:"MarketScales_honey_12",honey__1:"MarketScales_honey__1_0c",honey__2:"MarketScales_honey__2_ef",honey__3:"MarketScales_honey__3_44",honey__4:"MarketScales_honey__4_56",honey__visible:"MarketScales_honey__visible_3f",buttonWrapper:"MarketScales_buttonWrapper_33",buttonWrapper__shifted:"MarketScales_buttonWrapper__shifted_dd",scalesButton:"MarketScales_scalesButton_14",rewardWrapper:"MarketScales_rewardWrapper_1b",rewardWrapper__leaving:"MarketScales_rewardWrapper__leaving_fa",dropOut:"MarketScales_dropOut_61",dropOutLarge:"MarketScales_dropOutLarge_2d",rewardHolder:"MarketScales_rewardHolder_51",reward:"MarketScales_reward_f2",rewardWrapper__visible:"MarketScales_rewardWrapper__visible_03",floatHoney:"MarketScales_floatHoney_f4",glowWrapper:"MarketScales_glowWrapper_7e",glowHolder:"MarketScales_glowHolder_7f",glowSpin:"MarketScales_glowSpin_f9",glow:"MarketScales_glow_1e",odometerWrapper:"MarketScales_odometerWrapper_05",odometerIcon:"MarketScales_odometerIcon_2e",odometerIcon__top:"MarketScales_odometerIcon__top_97",odometerIcon__bottom:"MarketScales_odometerIcon__bottom_ac",countersWrapper:"MarketScales_countersWrapper_36",countersHolder:"MarketScales_countersHolder_88",counterTopWrapper:"MarketScales_counterTopWrapper_9c",counterBottomWrapper:"MarketScales_counterBottomWrapper_5c",bumblebeeWrapper:"MarketScales_bumblebeeWrapper_68",blink:"MarketScales_blink_3f",show:"MarketScales_show_d9"},Br=!1,Cr=R.strings.event.summerSales,br=(e,u)=>{let t=0;for(let r=0;r<u.length-1;r++)e>u[r]&&(t=r+1);return t},vr=(0,Re.Pi)((({isCatalogOpened:e,onClick:u,buyTriggerCount:t})=>{const n=S().mediaSize,s=wu().model,i=s.root.get(),o=i.honeyCoinsBalance,l=i.progressionLevel,c=(0,r.useRef)([]),_=(0,r.useRef)(!0),m=(0,r.useState)(!1),E=m[0],d=m[1],A=(0,r.useState)(!1),p=A[0],D=A[1],F=(0,r.useState)(0),h=F[0],B=F[1],C=(0,r.useState)(0),v=C[0],f=C[1],y=(0,r.useState)(!1),w=y[0],M=y[1],N=(0,r.useState)(!1),T=N[0],x=N[1],P=(0,r.useState)(0),k=P[0],L=P[1],I=(0,r.useState)(0),O=I[0],H=I[1],U=(0,r.useState)(Ie.secondary),W=U[0],G=U[1],$=(0,r.useState)(Cr.marketScales.button.justShowMe()),V=$[0],X=$[1],j=(0,r.useState)(0),z=j[0],Y=(j[1],(0,r.useState)(0)),q=(Y[0],Y[1],(0,r.useState)(!1)),K=(q[0],q[1]),Z=(0,r.useState)(!1),Q=Z[0],J=Z[1],ee=(0,r.useState)(!0),ue=ee[0],te=ee[1],re=_r(),ae=_r(),ne=_r(),se=_r(),ie=s.computes.getProducts(),oe=(0,r.useMemo)((()=>ie.filter((e=>!e.inInventory&&!e.wasSold)).reduce(((e,u)=>Math.min(e,u.price.amount)),1/0)),[ie]);(0,r.useEffect)((()=>{if(!ie)return;const e=(e=>{const u=e/4;return Array.from({length:5},((e,t)=>Math.round(t*u)))})(ie.reduce(((e,u)=>Math.max(e,u.price.amount)),0));c.current=e,B(br(o,e)),f(br(o,e))}),[ie]),(0,r.useEffect)((()=>{if(_.current)return void(_.current=!1);if(!ie)return;if(!o)return;if(_.current)return void(_.current=!1);let e=o;const u=c.current,t=br(e,u),r=l;if(e<k)return B(t),f(t),L(e),H(r),void te(!1);te(!0),d(!1),D(!1),M(!1),x(!1),M(!0),K(!0),ve(R.sounds.summer_sale_accrual_honey()),re.run((()=>{D(!0)}),1800),ae.run((()=>{B(t),x(!0),d(!0),f(t),L(e)}),2e3),ne.run((()=>{H(r)}),2900),se.run((()=>{D(!1),M(!1),x(!1),d(!1),K(!1)}),3800)}),[o,z]),(0,r.useEffect)((()=>{e?(G(Ie.secondary),X(Cr.marketScales.button.back())):(G(l?Ie.main:Ie.secondary),X(o>=oe?Cr.marketScales.button.default():Cr.marketScales.button.justShowMe()))}),[e,l,o]),(0,r.useEffect)((()=>{Q&&ve(R.sounds.comp_7_progressbar_stop())}),[t]);const le=(0,r.useCallback)((()=>{J(!0)}),[J]),ce=(0,r.useCallback)((()=>{J(!1)}),[J]);(0,r.useCallback)((()=>{}),[z]);return a().createElement("div",{className:gr.base},a().createElement("div",{className:gr.animatedItems},a().createElement("div",{className:gr.scalesPlatformWrapper},a().createElement("div",{className:g()(gr.scalesPlatformHolder,gr[`scalesPlatformHolder__step${v}`])},a().createElement("div",{className:g()(gr.scalesPlatform,E&&gr.scalesPlatform__animated)},a().createElement("div",{className:g()(gr.honeyWrapper,T&&gr.honeyWrapper__animated)},a().createElement("div",{className:g()(gr.honey,gr.honey__1,1===h&&gr.honey__visible)}),a().createElement("div",{className:g()(gr.honey,gr.honey__2,2===h&&gr.honey__visible)}),a().createElement("div",{className:g()(gr.honey,gr.honey__3,3===h&&gr.honey__visible)}),a().createElement("div",{className:g()(gr.honey,gr.honey__4,4===h&&gr.honey__visible)})),a().createElement("div",{className:gr.scalesPlatformBack})))),a().createElement("div",{className:g()(gr.scalesPlatformWrapper,gr.scalesPlatformWrapper__second)},a().createElement("div",{className:g()(gr.scalesPlatformHolder,gr[`scalesPlatformHolder__step${v}`])},a().createElement("div",{className:g()(gr.scalesPlatformFront,E&&gr.scalesPlatformFront__animated)}))),a().createElement("div",{className:g()(gr.rewardWrapper,w&&gr.rewardWrapper__visible,p&&gr.rewardWrapper__leaving)},a().createElement("div",{className:gr.glowWrapper},a().createElement("div",{className:gr.glowHolder},a().createElement("div",{className:gr.glow}))),a().createElement("div",{className:gr.rewardHolder},a().createElement("div",{className:gr.reward})))),a().createElement("div",{className:gr.scalesBody}),a().createElement("div",{className:gr.countersWrapper},a().createElement("div",{className:gr.countersHolder},a().createElement("div",{className:gr.counterTopWrapper},a().createElement(hr,{value:k||o,isSoundOn:!0,isAnimationEnabled:ue,onStartAnimation:le,onEndAnimation:ce}),a().createElement(Ye,{header:Cr.mainView.catalog.tooltip.header.honey(),body:Cr.mainView.catalog.tooltip.body.honey()},a().createElement("div",{className:g()(gr.odometerIcon,gr.odometerIcon__top)}))),a().createElement("div",{className:gr.counterBottomWrapper},a().createElement(hr,{value:O||l,isAnimationEnabled:ue}),a().createElement(Ye,{header:Cr.marketScales.tooltip.header.honey(),body:Cr.marketScales.tooltip.body.honey()},a().createElement("div",{className:g()(gr.odometerIcon,gr.odometerIcon__bottom)}))))),a().createElement("div",{className:g()(gr.buttonWrapper,e&&gr.buttonWrapper__shifted)},a().createElement(Ye,{header:Cr.marketScales.tooltip.header.honey(),body:Cr.marketScales.tooltip.body.honey(),isEnabled:!e},a().createElement(Ue,{mixClass:gr.scalesButton,size:n<b.Large?Oe.extraSmall:Oe.medium,type:W,onClick:u},a().createElement(be,{text:V}),!e&&o>=oe&&a().createElement("div",{className:gr.blink})))),a().createElement("div",{className:gr.bumblebeeWrapper},a().createElement(Er,{variant:1})),a().createElement("div",{className:gr.bumblebeeWrapper},a().createElement(Er,{variant:2})),a().createElement("div",{className:gr.bumblebeeWrapper},a().createElement(Er,{variant:3})),Br)})),fr=R.strings.event.summerSales.mainView;let Sr;!function(e){e.Shop="shop",e.Quests="quests"}(Sr||(Sr={}));const yr=(e,u)=>{const t=Y(e,j.DATE_MONTH,!0),r=Y(u,j.DATE_MONTH,!0);return{startDate:`${t} ${Y(e,j.YEAR,!0)}`,endDate:`${r} ${Y(u,j.YEAR,!0)} ${Y(u,j.SHORT_TIME,!0)}`}},wr=(0,Re.Pi)((()=>{const e=wu(),u=e.controls,t=e.model,n=S(),i=n.remScreenWidth,o=n.remScreenHeight,l=t.eventTimeRange.get(),c=(0,r.useState)(0),_=c[0],m=c[1],E=(0,r.useState)(!1),d=E[0],A=E[1],p=(0,r.useState)(0),D=p[0],F=p[1],h=(0,r.useState)(0),B=h[0],C=h[1],b=((e,u,t=150)=>{const a=(0,r.useState)(e),n=a[0],s=a[1],i=ke((e=>s(e)),u,t);return{isHovered:n,handleMouseEnter:(0,r.useCallback)((()=>i(!0)),[i]),handleMouseLeave:(0,r.useCallback)((()=>i(!1)),[i])}})(!1,[]),v=b.isHovered,f=b.handleMouseEnter,y=b.handleMouseLeave,w=()=>{A(!d),ve(d?R.sounds.summer_sale_shop_close():R.sounds.summer_sale_shop_open())},M=(()=>{const e=(0,r.useState)(s.O.view.getScale()),u=e[0],t=e[1];return(0,r.useEffect)((()=>{const e=()=>{t(s.O.view.getScale())};return window.addEventListener("resize",e),()=>{window.removeEventListener("resize",e)}}),[]),u})(),N=(0,r.useCallback)((e=>{switch(e){case Sr.Shop:return u.openShop();case Sr.Quests:return u.openQuests();default:return}}),[u]);!function({key:e=Ne.n.ESCAPE,callback:u=(()=>s.O.view.sendEvent.close()),preventPropagation:t=!0}={}){xe(e,u,t)}({callback:d?w:u.close}),(0,r.useEffect)((()=>{const e=()=>{const e=4e3*(o/1080);let u;if(d){u=i/2-.33*e}else{u=i/2-.68*e}const t=e-i;u=Math.max(-t,Math.min(0,u)),F(u),C(e*M)};return e(),window.addEventListener("resize",e),()=>window.removeEventListener("resize",e)}),[d,o,i,M,B]);const T=(0,r.useCallback)((()=>Object.values(Sr).map(((e,u)=>a().createElement(Ze,{key:u,onClick:N,type:e,className:$u})))),[N]);return a().createElement("div",{className:g()(Mu,d&&Hu)},a().createElement("div",{className:Nu,style:{transform:`translateX(${D}rem)`,width:B}}),d&&a().createElement("div",{className:Tu},a().createElement(Me,{caption:fr.backBtn(),goto:fr.backBtnLabel(),onClick:w})),a().createElement("div",{className:xu},a().createElement("div",{className:Ru}),a().createElement("div",{className:Pu},a().createElement(be,{text:fr.title()}),a().createElement("div",{className:Iu,onClick:u.infoClick})),a().createElement("div",{className:ku},a().createElement("div",{className:Lu}),a().createElement(be,{text:fr.range(),format:{binding:Object.assign({},yr(l.start,l.end))}}))),a().createElement("div",{className:Gu},a().createElement(vr,{isCatalogOpened:d,onClick:w,buyTriggerCount:_})),a().createElement("div",{className:Ou},a().createElement(cr,{isOpen:d,onBuyClick:()=>{m((e=>e+1))}})),a().createElement("div",{className:g()(Uu,v&&Wu),onMouseEnter:f,onMouseLeave:y},T()))}));engine.whenReady.then((()=>{I().render(a().createElement(yu,null,a().createElement(k,null,a().createElement(wr,null))),document.getElementById("root"))}))}},__webpack_module_cache__={},deferred;function __webpack_require__(e){var u=__webpack_module_cache__[e];if(void 0!==u)return u.exports;var t=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](t,t.exports,__webpack_require__),t.exports}__webpack_require__.m=__webpack_modules__,deferred=[],__webpack_require__.O=(e,u,t,r)=>{if(!u){var a=1/0;for(o=0;o<deferred.length;o++){for(var[u,t,r]=deferred[o],n=!0,s=0;s<u.length;s++)(!1&r||a>=r)&&Object.keys(__webpack_require__.O).every((e=>__webpack_require__.O[e](u[s])))?u.splice(s--,1):(n=!1,r<a&&(a=r));if(n){deferred.splice(o--,1);var i=t();void 0!==i&&(e=i)}}return e}r=r||0;for(var o=deferred.length;o>0&&deferred[o-1][2]>r;o--)deferred[o]=deferred[o-1];deferred[o]=[u,t,r]},__webpack_require__.n=e=>{var u=e&&e.__esModule?()=>e.default:()=>e;return __webpack_require__.d(u,{a:u}),u},__webpack_require__.d=(e,u)=>{for(var t in u)__webpack_require__.o(u,t)&&!__webpack_require__.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:u[t]})},__webpack_require__.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),__webpack_require__.o=(e,u)=>Object.prototype.hasOwnProperty.call(e,u),__webpack_require__.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.j=940,(()=>{var e={940:0};__webpack_require__.O.j=u=>0===e[u];var u=(u,t)=>{var r,a,[n,s,i]=t,o=0;if(n.some((u=>0!==e[u]))){for(r in s)__webpack_require__.o(s,r)&&(__webpack_require__.m[r]=s[r]);if(i)var l=i(__webpack_require__)}for(u&&u(t);o<n.length;o++)a=n[o],__webpack_require__.o(e,a)&&e[a]&&e[a][0](),e[a]=0;return __webpack_require__.O(l)},t=self.webpackChunkgameface=self.webpackChunkgameface||[];t.forEach(u.bind(null,0)),t.push=u.bind(null,t.push.bind(t))})();var __webpack_exports__=__webpack_require__.O(void 0,[228],(()=>__webpack_require__(188)));__webpack_exports__=__webpack_require__.O(__webpack_exports__)})();
+(() => {
+  var __webpack_modules__ = {
+      926: (e) => {
+        e.exports = {
+          SMALL_WIDTH: "mediaSmallWidth",
+          MEDIUM_WIDTH: "mediaMediumWidth",
+          LARGE_WIDTH: "mediaLargeWidth",
+          EXTRA_LARGE_WIDTH: "mediaExtraLargeWidth",
+          SMALL_HEIGHT: "mediaSmallHeight",
+          MEDIUM_HEIGHT: "mediaMediumHeight",
+          LARGE_HEIGHT: "mediaLargeHeight",
+          EXTRA_LARGE_HEIGHT: "mediaExtraLargeHeight",
+          SMALL: "mediaSmall",
+          MEDIUM: "mediaMedium",
+          LARGE: "mediaLarge",
+          EXTRA_LARGE: "mediaExtraLarge",
+        };
+      },
+      532: (e) => {
+        e.exports = {
+          BLACK_REAL: "#000000",
+          WHITE_REAL: "#FFFFFF",
+          WHITE: "#F2F2F7",
+          WHITE_ORANGE: "#FEFEEC",
+          WHITE_SPANISH: "#E9E2BF",
+          PAR: "#8C8C7E",
+          PAR_SECONDARY: "#595950",
+          PAR_TERTIARY: "#37362E",
+          INFO_RED: "#FF0000",
+          RED: "#FF2717",
+          RED_DARK: "#B70000",
+          YELLOW: "#FEAB34",
+          ORANGE: "#EE7000",
+          CREAM: "#FFDD99",
+          BROWN: "#CBAC77",
+          GREEN_BRIGHT: "#80D43A",
+          GREEN: "#7AB300",
+          GREEN_DARK: "#497212",
+          BLUE_BOOSTER: "#CCFFFF",
+          BLUE_TEAMKILLER: "#09E2FF",
+          CRED: "#CED9D9",
+          GOLD: "#FFC363",
+          BOND: "#C9C9B6",
+          PROM: "#A29B70",
+        };
+      },
+      887: (e) => {
+        e.exports = {
+          XS: "4rem",
+          SM: "8rem",
+          SMp: "10rem",
+          MD: "16rem",
+          MDp: "20rem",
+          LG: "32rem",
+          XL: "64rem",
+        };
+      },
+      527: (e, u, t) => {
+        "use strict";
+        (t.r(u), t.d(u, { mouse: () => i, onResize: () => n }));
+        var r = t(472),
+          a = t(176);
+        const n = (0, r.E)("clientResized"),
+          s = { down: (0, r.E)("mousedown"), up: (0, r.E)("mouseup"), move: (0, r.E)("mousemove") };
+        const i = (function () {
+          const e = { listeners: 0, enabled: !0, initialized: !1 };
+          function u() {
+            e.enabled && (0, a.R)(!1);
+          }
+          function t() {
+            e.enabled && (0, a.R)(!0);
+          }
+          function r() {
+            e.enabled
+              ? e.listeners < 1
+                ? ((e.initialized = !1),
+                  document.body.removeEventListener("mouseenter", u),
+                  document.body.removeEventListener("mouseleave", t))
+                : e.initialized ||
+                  ((e.initialized = !0),
+                  document.body.addEventListener("mouseenter", u),
+                  document.body.addEventListener("mouseleave", t))
+              : (0, a.R)(!1);
+          }
+          const n = ["down", "up", "move"].reduce(
+            (u, t) => (
+              (u[t] = (function (u) {
+                return (t) => {
+                  e.listeners += 1;
+                  let a = !0;
+                  const n = `mouse${u}`,
+                    i = s[u]((e) => t([e, "outside"]));
+                  function o(e) {
+                    t([e, "inside"]);
+                  }
+                  return (
+                    window.addEventListener(n, o),
+                    r(),
+                    () => {
+                      a &&
+                        (i(), window.removeEventListener(n, o), (e.listeners -= 1), r(), (a = !1));
+                    }
+                  );
+                };
+              })(t)),
+              u
+            ),
+            {},
+          );
+          return Object.assign({}, n, {
+            disable() {
+              ((e.enabled = !1), r());
+            },
+            enable() {
+              ((e.enabled = !0), r());
+            },
+            enableOutside() {
+              e.enabled && (0, a.R)(!0);
+            },
+            disableOutside() {
+              e.enabled && (0, a.R)(!1);
+            },
+          });
+        })();
+      },
+      959: (e, u, t) => {
+        "use strict";
+        (t.r(u),
+          t.d(u, {
+            events: () => r,
+            getMouseGlobalPosition: () => n,
+            getSize: () => a,
+            graphicsQuality: () => s,
+          }));
+        var r = t(527);
+        function a(e = "px") {
+          return "rem" === e ? viewEnv.getClientSizeRem() : viewEnv.getClientSizePx();
+        }
+        function n(e = "px") {
+          return "rem" === e
+            ? viewEnv.getMouseGlobalPositionRem()
+            : viewEnv.getMouseGlobalPositionPx();
+        }
+        const s = {
+          isLow: () => 1 === viewEnv.getGraphicsQuality(),
+          isHigh: () => 0 === viewEnv.getGraphicsQuality(),
+          get: () => viewEnv.getGraphicsQuality(),
+        };
+      },
+      176: (e, u, t) => {
+        "use strict";
+        function r(e) {
+          viewEnv.setTrackMouseOnStage(e);
+        }
+        t.d(u, { R: () => r });
+      },
+      472: (e, u, t) => {
+        "use strict";
+        function r(e) {
+          return (u) => (
+            engine.on(e, u),
+            () => {
+              engine.off(e, u);
+            }
+          );
+        }
+        t.d(u, { E: () => r });
+      },
+      138: (e, u, t) => {
+        "use strict";
+        t.d(u, { O: () => a });
+        var r = t(959);
+        const a = { view: t(641), client: r };
+      },
+      722: (e, u, t) => {
+        "use strict";
+        function r(e, u, t = 1) {
+          return viewEnv.getChildTexturePath(e, u.width, u.height, t);
+        }
+        function a(e, u, t) {
+          return `url(${r(e, u, t)})`;
+        }
+        (t.r(u), t.d(u, { getBgUrl: () => a, getTextureUrl: () => r }));
+      },
+      112: (e, u, t) => {
+        "use strict";
+        t.d(u, { W: () => r });
+        const r = { showing: 0, shown: 1, hiding: 2, hidden: 3 };
+      },
+      538: (e, u, t) => {
+        "use strict";
+        t.d(u, { U: () => a });
+        var r = t(472);
+        const a = {
+          onTextureFrozen: (0, r.E)("self.onTextureFrozen"),
+          onTextureReady: (0, r.E)("self.onTextureReady"),
+          onDomBuilt: (0, r.E)("self.onDomBuilt"),
+          onLoaded: (0, r.E)("self.onLoaded"),
+          onDisplayChanged: (0, r.E)("self.onShowingStatusChanged"),
+          onFocusUpdated: (0, r.E)("self.onFocusChanged"),
+          children: {
+            onAdded: (0, r.E)("children.onAdded"),
+            onLoaded: (0, r.E)("children.onLoaded"),
+            onRemoved: (0, r.E)("children.onRemoved"),
+            onAttached: (0, r.E)("children.onAttached"),
+            onTextureReady: (0, r.E)("children.onTextureReady"),
+            onRequestPosition: (0, r.E)("children.requestPosition"),
+          },
+        };
+      },
+      641: (e, u, t) => {
+        "use strict";
+        (t.r(u),
+          t.d(u, {
+            addModelObserver: () => c,
+            addPreloadTexture: () => i,
+            children: () => r,
+            displayStatus: () => a.W,
+            displayStatusIs: () => S,
+            events: () => n.U,
+            extraSize: () => y,
+            forceTriggerMouseMove: () => v,
+            freezeTextureBeforeResize: () => A,
+            getBrowserTexturePath: () => l,
+            getDisplayStatus: () => f,
+            getScale: () => p,
+            getSize: () => m,
+            getViewGlobalPosition: () => d,
+            isClientAccessible: () => B,
+            isEventHandled: () => b,
+            isFocused: () => g,
+            pxToRem: () => D,
+            remToPx: () => F,
+            resize: () => E,
+            sendEvent: () => s.qP,
+            setAnimateWindow: () => h,
+            setEventHandled: () => C,
+            setInputPaddingsRem: () => o,
+            setSidePaddingsRem: () => _,
+            whenTutorialReady: () => w,
+          }));
+        var r = t(722),
+          a = t(112),
+          n = t(538),
+          s = t(566);
+        function i(e) {
+          viewEnv.addPreloadTexture(e);
+        }
+        function o(e) {
+          viewEnv.setHitAreaPaddingsRem(e, e, e, e, 15);
+        }
+        function l(e, u, t, r = 1) {
+          return viewEnv.getWebBrowserTexturePath(e, u, t, r);
+        }
+        function c(e, u, t) {
+          return viewEnv.addDataChangedCallback(e, u, t);
+        }
+        function _(e) {
+          viewEnv.setHitAreaPaddingsRem(e.top, e.right, e.bottom, e.left, 15);
+        }
+        function m(e = "px") {
+          return "rem" === e ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
+        }
+        function E(e, u, t = "px") {
+          return "rem" === t ? viewEnv.resizeViewRem(e, u) : viewEnv.resizeViewPx(e, u);
+        }
+        function d(e = "rem") {
+          const u = viewEnv.getViewGlobalPositionRem();
+          return "rem" === e ? u : { x: F(u.x), y: F(u.y) };
+        }
+        function A() {
+          viewEnv.freezeTextureBeforeResize();
+        }
+        function p() {
+          return viewEnv.getScale();
+        }
+        function D(e) {
+          return viewEnv.pxToRem(e);
+        }
+        function F(e) {
+          return viewEnv.remToPx(e);
+        }
+        function h(e, u) {
+          viewEnv.setAnimateWindow(e, u);
+        }
+        function g() {
+          return viewEnv.isFocused();
+        }
+        function B() {
+          return viewEnv.isClientAccessible();
+        }
+        function C() {
+          return viewEnv.setEventHandled();
+        }
+        function b() {
+          return viewEnv.isEventHandled();
+        }
+        function v() {
+          viewEnv.forceTriggerMouseMove();
+        }
+        function f() {
+          return viewEnv.getShowingStatus();
+        }
+        const S = Object.keys(a.W).reduce(
+            (e, u) => ((e[u] = () => viewEnv.getShowingStatus() === a.W[u]), e),
+            {},
+          ),
+          y = {
+            set: (e, u) => {
+              viewEnv.setExtraSizeRem(e, u);
+            },
+            get: (e, u) => {
+              viewEnv.getExtraSizeRem(e, u);
+            },
+          },
+          w = Promise.all([
+            new Promise((e) => {
+              window.isDomBuilt ? e() : n.U.onDomBuilt(e);
+            }),
+            engine.whenReady,
+          ]);
+      },
+      566: (e, u, t) => {
+        "use strict";
+        t.d(u, { qP: () => l });
+        const r = ["args"];
+        const a = 2,
+          n = 16,
+          s = 32,
+          i = 64,
+          o = (e, u) => {
+            const t = "GFViewEventProxy";
+            if (void 0 !== u) {
+              const n = u.args,
+                s = (function (e, u) {
+                  if (null == e) return {};
+                  var t,
+                    r,
+                    a = {},
+                    n = Object.keys(e);
+                  for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                  return a;
+                })(u, r);
+              return void 0 !== n
+                ? viewEnv.handleViewEvent(
+                    Object.assign({ __Type: t, type: e }, s, {
+                      arguments:
+                        ((a = n),
+                        Object.entries(a).map(([e, u]) => {
+                          const t = "GFValueProxy";
+                          switch (typeof u) {
+                            case "number":
+                              return { __Type: t, name: e, number: u };
+                            case "boolean":
+                              return { __Type: t, name: e, bool: u };
+                            default:
+                              return { __Type: t, name: e, string: u.toString() };
+                          }
+                        })),
+                    }),
+                  )
+                : viewEnv.handleViewEvent(Object.assign({ __Type: t, type: e }, s));
+            }
+            return viewEnv.handleViewEvent({ __Type: t, type: e });
+            var a;
+          },
+          l = {
+            close(e) {
+              o("popover" === e ? a : s);
+            },
+            minimize() {
+              o(i);
+            },
+            move(e) {
+              o(n, { isMouseEvent: !0, on: e });
+            },
+          };
+      },
+      521: (e, u, t) => {
+        "use strict";
+        let r, a;
+        (t.d(u, { n: () => r }),
+          (function (e) {
+            ((e[(e.NONE = -1)] = "NONE"),
+              (e[(e.ALT = 165)] = "ALT"),
+              (e[(e.ENTER = 13)] = "ENTER"),
+              (e[(e.ESCAPE = 27)] = "ESCAPE"),
+              (e[(e.SPACE = 32)] = "SPACE"),
+              (e[(e.END = 35)] = "END"),
+              (e[(e.HOME = 36)] = "HOME"),
+              (e[(e.ARROW_LEFT = 37)] = "ARROW_LEFT"),
+              (e[(e.ARROW_UP = 38)] = "ARROW_UP"),
+              (e[(e.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
+              (e[(e.ARROW_DOWN = 40)] = "ARROW_DOWN"),
+              (e[(e.NUM_PLUS = 107)] = "NUM_PLUS"),
+              (e[(e.NUM_MINUS = 109)] = "NUM_MINUS"),
+              (e[(e.PLUS = 187)] = "PLUS"),
+              (e[(e.MINUS = 189)] = "MINUS"),
+              (e[(e.PAGE_UP = 33)] = "PAGE_UP"),
+              (e[(e.PAGE_DOWN = 34)] = "PAGE_DOWN"),
+              (e[(e.BACKSPACE = 8)] = "BACKSPACE"),
+              (e[(e.DELETE = 46)] = "DELETE"),
+              (e[(e.TAB = 9)] = "TAB"),
+              (e[(e.KEY_N = 78)] = "KEY_N"),
+              (e[(e.KEY_0 = 48)] = "KEY_0"),
+              (e[(e.KEY_1 = 49)] = "KEY_1"),
+              (e[(e.KEY_2 = 50)] = "KEY_2"),
+              (e[(e.KEY_3 = 51)] = "KEY_3"),
+              (e[(e.KEY_4 = 52)] = "KEY_4"),
+              (e[(e.KEY_5 = 53)] = "KEY_5"),
+              (e[(e.KEY_6 = 54)] = "KEY_6"),
+              (e[(e.KEY_7 = 55)] = "KEY_7"),
+              (e[(e.KEY_8 = 56)] = "KEY_8"),
+              (e[(e.KEY_9 = 57)] = "KEY_9"),
+              (e[(e.CAPS_LOCK = 20)] = "CAPS_LOCK"),
+              (e[(e.INSERT = 45)] = "INSERT"),
+              (e[(e.F1 = 112)] = "F1"),
+              (e[(e.F2 = 113)] = "F2"),
+              (e[(e.F3 = 114)] = "F3"),
+              (e[(e.F4 = 115)] = "F4"),
+              (e[(e.F5 = 116)] = "F5"),
+              (e[(e.F6 = 117)] = "F6"),
+              (e[(e.F7 = 118)] = "F7"),
+              (e[(e.F8 = 119)] = "F8"),
+              (e[(e.F9 = 120)] = "F9"),
+              (e[(e.F10 = 121)] = "F10"),
+              (e[(e.F11 = 122)] = "F11"),
+              (e[(e.F12 = 123)] = "F12"),
+              (e[(e.SELECT = 93)] = "SELECT"),
+              (e[(e.NUMPAD_0 = 96)] = "NUMPAD_0"),
+              (e[(e.NUMPAD_1 = 97)] = "NUMPAD_1"),
+              (e[(e.NUMPAD_2 = 98)] = "NUMPAD_2"),
+              (e[(e.NUMPAD_3 = 99)] = "NUMPAD_3"),
+              (e[(e.NUMPAD_4 = 100)] = "NUMPAD_4"),
+              (e[(e.NUMPAD_5 = 101)] = "NUMPAD_5"),
+              (e[(e.NUMPAD_6 = 102)] = "NUMPAD_6"),
+              (e[(e.NUMPAD_7 = 103)] = "NUMPAD_7"),
+              (e[(e.NUMPAD_8 = 104)] = "NUMPAD_8"),
+              (e[(e.NUMPAD_9 = 105)] = "NUMPAD_9"),
+              (e[(e.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
+              (e[(e.STAR = 106)] = "STAR"),
+              (e[(e.NUM_SLASH = 111)] = "NUM_SLASH"),
+              (e[(e.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
+              (e[(e.COMMA = 188)] = "COMMA"),
+              (e[(e.DASH = 189)] = "DASH"),
+              (e[(e.PERIOD = 190)] = "PERIOD"));
+          })(r || (r = {})),
+          (function (e) {
+            ((e.ALT = "Alt"),
+              (e.ALT_GRAPH = "AltGraph"),
+              (e.CAPS_LOCK = "CapsLock"),
+              (e.CONTROL = "Control"),
+              (e.FN = "Fn"),
+              (e.FN_LOCK = "FnLock"),
+              (e.META = "Meta"),
+              (e.NUM_LOCK = "NumLock"),
+              (e.SCROLL_LOCK = "ScrollLock"),
+              (e.SHIFT = "Shift"),
+              (e.SYMBOL = "Symbol"),
+              (e.SYMBOL_LOCK = "SymbolLock"));
+          })(a || (a = {})));
+      },
+      368: () => {
+        (!(function () {
+          let e,
+            u,
+            t,
+            r,
+            a,
+            n,
+            s,
+            i = -1;
+          (document.addEventListener("mousedown", (t) => {
+            (document.getSelection().empty(),
+              t.target.select &&
+                -1 === i &&
+                ((e = t.target), (u = e.getBoundingClientRect()), e.setSelectionRange(0, 0)));
+          }),
+            document.addEventListener("mousemove", (t) => {
+              if (
+                (-1 === i && t.target.select && t.target === e && (i = e.selectionStart), i > -1)
+              ) {
+                const r = Math.min(Math.max(t.x, u.left), u.right),
+                  a = Math.min(Math.max(t.y, u.top), u.bottom),
+                  n = document.createEvent("MouseEvent");
+                (n.initMouseEvent(
+                  "mousedown",
+                  !0,
+                  !0,
+                  null,
+                  1,
+                  r,
+                  a,
+                  r,
+                  a,
+                  !1,
+                  !1,
+                  !1,
+                  !1,
+                  0,
+                  null,
+                ),
+                  e.dispatchEvent(n));
+                const s = e.selectionEnd;
+                s > i
+                  ? e.setSelectionRange(i, s, "forward")
+                  : e.setSelectionRange(s, i, "backward");
+              }
+            }),
+            document.addEventListener("mouseup", () => {
+              ((e = null), (i = -1));
+            }),
+            document.addEventListener("dblclick", (e) => {
+              e.target.select &&
+                (document.getSelection().empty(),
+                (t = e.target),
+                (r = e.target.value),
+                (a = t.selectionStart),
+                (n = -1 !== r.lastIndexOf(" ", a) ? r.lastIndexOf(" ", a) + 1 : 0),
+                (s = -1 !== r.indexOf(" ", a) ? r.indexOf(" ", a) : r.length),
+                t.setSelectionRange(n, s, "forward"));
+            }));
+        })(),
+          (function () {
+            let e = null;
+            (document.addEventListener("mousedown", (u) => {
+              (document.getSelection().empty(),
+                0 !== u.button ||
+                  u.target.select ||
+                  e ||
+                  (e = document.caretPositionFromPoint(u.x, u.y)));
+            }),
+              document.addEventListener("mousemove", (u) => {
+                if (0 === u.button && !u.target.select && e) {
+                  const t = document.caretPositionFromPoint(u.x, u.y);
+                  if (!t.offsetNode || !e.offsetNode) return;
+                  document
+                    .getSelection()
+                    .setBaseAndExtent(e.offsetNode, e.offset, t.offsetNode, t.offset);
+                }
+              }),
+              document.addEventListener("mouseup", () => {
+                e = null;
+              }));
+          })());
+      },
+      358: (e, u, t) => {
+        "use strict";
+        t.d(u, { Z: () => n });
+        var r = t(138);
+        class a {
+          constructor() {
+            ((this._callbacks = void 0),
+              (this._updateHandler = void 0),
+              (this._views = void 0),
+              (this.clearViewCallbacks = (e) => {
+                this._views[e] &&
+                  (this._views[e].forEach((e) => {
+                    delete this._callbacks[e];
+                  }),
+                  delete this._views[e]);
+              }),
+              (this._callbacks = {}),
+              (this._views = {}),
+              (this._updateHandler = void 0));
+          }
+          static get instance() {
+            return (window.__dataTracker || (window.__dataTracker = new a()), window.__dataTracker);
+          }
+          clear() {
+            (void 0 !== this._updateHandler &&
+              (this._updateHandler.clear(), (this._updateHandler = void 0)),
+              (this._callbacks = {}));
+          }
+          addCallback(e, u, t = 0, a = !0) {
+            void 0 === this._updateHandler &&
+              (this._updateHandler = engine.on(
+                "viewEnv.onDataChanged",
+                this._emmitDataChanged,
+                this,
+              ));
+            const n = r.O.view.addModelObserver(e, t, a);
+            return (
+              n > 0
+                ? ((this._callbacks[n] = u),
+                  t > 0 && (this._views[t] ? this._views[t].push(n) : (this._views[t] = [n])))
+                : console.error("Can't add callback for model:", e),
+              n
+            );
+          }
+          removeCallback(e, u = 0) {
+            let t = !1;
+            return (
+              void 0 !== e &&
+                void 0 !== this._callbacks[e] &&
+                ((t = viewEnv.removeDataChangedCallback(e, u)), delete this._callbacks[e]),
+              t || console.error("Can't remove callback by id:", e),
+              t
+            );
+          }
+          _emmitDataChanged(e, u, t) {
+            t.forEach((t) => {
+              const r = this._callbacks[t];
+              void 0 !== r && r(e, u);
+            });
+          }
+        }
+        a.__instance = void 0;
+        const n = a;
+      },
+      572: (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+        "use strict";
+        __webpack_require__.d(__webpack_exports__, { Z: () => __WEBPACK_DEFAULT_EXPORT__ });
+        var _DataTracker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(358),
+          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(364);
+        class ViewModel {
+          constructor(path, watchingFields = []) {
+            ((this.dataTracker = void 0),
+              (this.modelPath = void 0),
+              (this.callbacks = void 0),
+              (this.data = void 0),
+              (this._notifyObservers = () => {
+                ((this.data = eval(this.modelPath)),
+                  this.callbacks.forEach((e) => {
+                    e(this.data);
+                  }));
+              }),
+              (this.dataTracker = new _DataTracker__WEBPACK_IMPORTED_MODULE_0__.Z()),
+              (this.modelPath = path),
+              (this.callbacks = new Set()),
+              (0, _index__WEBPACK_IMPORTED_MODULE_1__.ry)().then(() => {
+                (this._addCallback(path),
+                  watchingFields.forEach((e) => {
+                    this._addCallback(path + "." + e);
+                  }),
+                  this._notifyObservers());
+              }));
+          }
+          subscribe(e) {
+            (this.callbacks.add(e), null !== this.data && void 0 !== this.data && e(this.data));
+          }
+          unsubscribe(e) {
+            this.callbacks.delete(e);
+          }
+          destroy() {
+            (this.dataTracker.clear(), this.callbacks.clear());
+          }
+          _addCallback(e) {
+            this.dataTracker.addCallback(e, this._notifyObservers);
+          }
+        }
+        const __WEBPACK_DEFAULT_EXPORT__ = ViewModel;
+      },
+      364: (e, u, t) => {
+        "use strict";
+        t.d(u, {
+          kH: () => m,
+          B3: () => l,
+          Z5: () => s,
+          lf: () => _,
+          cy: () => i,
+          B0: () => o,
+          ry: () => F,
+        });
+        class r {
+          constructor() {
+            ((this.entries = []),
+              (this._listenMouse = !1),
+              (this.onMouseDown = (e) => {
+                this.entries.forEach(({ container: u, callback: t }) => {
+                  let r = e.target;
+                  do {
+                    if (r === u) return;
+                    r = r.parentNode;
+                  } while (r);
+                  t();
+                });
+              }));
+          }
+          static get instance() {
+            return (r.__instance || (r.__instance = new r()), r.__instance);
+          }
+          register(e, u) {
+            (this.addMouseListener(), this.entries.push({ container: e, callback: u }));
+          }
+          unregister(e, u) {
+            const t = e,
+              r = u;
+            ((this.entries = this.entries.filter(
+              ({ container: e, callback: u }) => e !== t || u !== r,
+            )),
+              this.removeMouseListener());
+          }
+          addMouseListener() {
+            this._listenMouse ||
+              (document.addEventListener("mousedown", this.onMouseDown), (this._listenMouse = !0));
+          }
+          removeMouseListener() {
+            this._listenMouse &&
+              0 === this.entries.length &&
+              (document.removeEventListener("mousedown", this.onMouseDown),
+              (this._listenMouse = !1));
+          }
+        }
+        r.__instance = void 0;
+        const a = r;
+        var n = t(358);
+        const s = {
+            getNumberFormat: (e, u) => systemLocale.getNumberFormat(e, u),
+            getRealFormat: (e, u) => systemLocale.getRealFormat(e, u),
+            getTimeFormat: (e, u) => systemLocale.getTimeFormat(e, u),
+            getDateFormat: (e, u) => systemLocale.getDateFormat(e, u),
+            toUpperCase: (e) => systemLocale.toUpperCase(e),
+            toLowerCase: (e) => systemLocale.toUpperCase(e),
+          },
+          i = {
+            getNumberFormat: (e) => userLocale.getNumberFormat(e),
+            getTimeFormat: (e, u, t) => userLocale.getTimeFormat(e, u, void 0 === t || t),
+            getTimeString: (e, u, t) => userLocale.getTimeString(e, u, void 0 === t || t),
+          };
+        let o;
+        !(function (e) {
+          ((e[(e.UNDEFINED = 0)] = "UNDEFINED"),
+            (e[(e.TOOLTIP = 1)] = "TOOLTIP"),
+            (e[(e.POP_OVER = 2)] = "POP_OVER"),
+            (e[(e.CONTEXT_MENU = 4)] = "CONTEXT_MENU"),
+            (e[(e.DROP_DOWN = 8)] = "DROP_DOWN"),
+            (e[(e.MOVE = 16)] = "MOVE"),
+            (e[(e.CLOSE = 32)] = "CLOSE"),
+            (e[(e.MINIMIZE = 64)] = "MINIMIZE"));
+        })(o || (o = {}));
+        const l = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
+          c = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
+          _ = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
+          m = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
+        var E = t(521),
+          d = t(138);
+        const A = ["args"];
+        function p(e, u, t, r, a, n, s) {
+          try {
+            var i = e[n](s),
+              o = i.value;
+          } catch (e) {
+            return void t(e);
+          }
+          i.done ? u(o) : Promise.resolve(o).then(r, a);
+        }
+        const D = (e) => ({
+            __Type: "GFBoundingBox",
+            x: e.x,
+            y: e.y,
+            width: e.width,
+            height: e.height,
+          }),
+          F = (function () {
+            var e,
+              u =
+                ((e = function* () {
+                  return (
+                    !(!engine._BindingsReady || !engine._WindowLoaded) ||
+                    new Promise((e) => {
+                      engine.on("Ready", e);
+                    })
+                  );
+                }),
+                function () {
+                  var u = this,
+                    t = arguments;
+                  return new Promise(function (r, a) {
+                    var n = e.apply(u, t);
+                    function s(e) {
+                      p(n, r, a, s, i, "next", e);
+                    }
+                    function i(e) {
+                      p(n, r, a, s, i, "throw", e);
+                    }
+                    s(void 0);
+                  });
+                });
+            return function () {
+              return u.apply(this, arguments);
+            };
+          })(),
+          h = (e, u) => {
+            const t = "GFViewEventProxy";
+            if (void 0 !== u) {
+              const a = u.args,
+                n = (function (e, u) {
+                  if (null == e) return {};
+                  var t,
+                    r,
+                    a = {},
+                    n = Object.keys(e);
+                  for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                  return a;
+                })(u, A);
+              void 0 !== a
+                ? viewEnv.handleViewEvent(
+                    Object.assign({ __Type: t, type: e }, n, {
+                      arguments:
+                        ((r = a),
+                        Object.entries(r).map(([e, u]) => {
+                          const t = { __Type: "GFValueProxy", name: e };
+                          switch (typeof u) {
+                            case "number":
+                              t.number = u;
+                              break;
+                            case "boolean":
+                              t.bool = u;
+                              break;
+                            default:
+                              t.string = u.toString();
+                          }
+                          return t;
+                        })),
+                    }),
+                  )
+                : viewEnv.handleViewEvent(Object.assign({ __Type: t, type: e }, n));
+            } else viewEnv.handleViewEvent({ __Type: t, type: e });
+            var r;
+          },
+          g = () => h(o.CLOSE),
+          B = (e, u) => {
+            e.keyCode === E.n.ESCAPE && u();
+          };
+        var C = t(572);
+        const b = a.instance,
+          v = {
+            DataTracker: n.Z,
+            ViewModel: C.Z,
+            ViewEventType: o,
+            NumberFormatType: l,
+            RealFormatType: c,
+            TimeFormatType: _,
+            DateFormatType: m,
+            makeGlobalBoundingBox: D,
+            sendMoveEvent: (e) => h(o.MOVE, { isMouseEvent: !0, on: e }),
+            sendCloseEvent: g,
+            sendClosePopOverEvent: () => h(o.POP_OVER, { on: !1 }),
+            sendShowContextMenuEvent: (e, u, t = 0) => {
+              h(o.CONTEXT_MENU, {
+                isMouseEvent: !0,
+                contentID: e,
+                on: !0,
+                decoratorID: t,
+                args: u,
+              });
+            },
+            sendShowPopOverEvent: (e, u, t, r, a = R.invalid("resId"), n) => {
+              const s = d.O.view.getViewGlobalPosition(),
+                i = t.getBoundingClientRect(),
+                l = i.x,
+                c = i.y,
+                _ = i.width,
+                m = i.height,
+                E = {
+                  x: d.O.view.pxToRem(l) + s.x,
+                  y: d.O.view.pxToRem(c) + s.y,
+                  width: d.O.view.pxToRem(_),
+                  height: d.O.view.pxToRem(m),
+                };
+              h(o.POP_OVER, {
+                isMouseEvent: !0,
+                contentID: e,
+                decoratorID: r || R.invalid("resId"),
+                targetID: a,
+                direction: u,
+                bbox: D(E),
+                on: !0,
+                args: n,
+              });
+            },
+            addEscapeListener: (e) => {
+              const u = (u) => B(u, e);
+              return (
+                window.addEventListener("keydown", u),
+                () => window.removeEventListener("keydown", u)
+              );
+            },
+            closeOnEsc: (e) => {
+              B(e, g);
+            },
+            handleViewEvent: h,
+            onBindingsReady: F,
+            onLayoutReady: () =>
+              new Promise((e) => {
+                requestAnimationFrame(() => {
+                  requestAnimationFrame(() => {
+                    e();
+                  });
+                });
+              }),
+            isTooltipShown: () => viewEnv.isWindowShownByViewEvent(o.TOOLTIP),
+            isContextMenuShown: () => viewEnv.isWindowShownByViewEvent(o.CONTEXT_MENU),
+            isPopOverShown: () => viewEnv.isWindowShownByViewEvent(o.POP_OVER),
+            dumpViewModel: function e(u) {
+              const t = {};
+              if ("object" != typeof u) return u;
+              for (const r in u)
+                if (Object.prototype.hasOwnProperty.call(u, r)) {
+                  const a = Object.prototype.toString.call(u[r]);
+                  if (a.startsWith("[object CoherentArrayProxy]")) {
+                    const a = u[r];
+                    t[r] = [];
+                    for (let u = 0; u < a.length; u++) t[r].push({ value: e(a[u].value) });
+                  } else
+                    a.startsWith("[object class BW::WULF::ViewModel")
+                      ? (t[r] = e(u[r]))
+                      : (t[r] = u[r]);
+                }
+              return t;
+            },
+            ClickOutsideManager: b,
+            SystemLocale: s,
+            UserLocale: i,
+          };
+        window.ViewEnvHelper = v;
+      },
+      188: (e, u, t) => {
+        "use strict";
+        var r = t(179),
+          a = t.n(r);
+        const n = (e, u, t) =>
+          u.extraLargeHeight ||
+          u.largeHeight ||
+          u.mediumHeight ||
+          u.smallHeight ||
+          u.extraSmallHeight
+            ? (u.extraLargeHeight && t.extraLarge) ||
+              (u.largeHeight && t.large) ||
+              (u.mediumHeight && t.medium) ||
+              (u.smallHeight && t.small) ||
+              (u.extraSmallHeight && t.extraSmall)
+              ? e
+              : null
+            : e;
+        var s = t(138);
+        const i = {
+          extraLarge: { weight: 4, width: 2560, height: 1440 },
+          large: { weight: 3, width: 1920, height: 1080 },
+          medium: { weight: 2, width: 1600, height: 900 },
+          small: { weight: 1, width: 1366, height: 768 },
+          extraSmall: { weight: 0, width: 1024, height: 768 },
+        };
+        var o;
+        function l(e, u, t) {
+          const r = (function (e, u) {
+              switch (!0) {
+                case e >= u.extraLarge.width:
+                  return u.extraLarge.weight;
+                case e >= u.large.width && e < u.extraLarge.width:
+                  return u.large.weight;
+                case e >= u.medium.width && e < u.large.width:
+                  return u.medium.weight;
+                case e >= u.small.width && e < u.medium.width:
+                  return u.small.weight;
+                default:
+                  return u.extraSmall.weight;
+              }
+            })(e, t),
+            a = (function (e, u) {
+              switch (!0) {
+                case e >= u.extraLarge.height:
+                  return u.extraLarge.weight;
+                case e >= u.large.height && e < u.extraLarge.height:
+                  return u.large.weight;
+                case e >= u.medium.height && e < u.large.height:
+                  return u.medium.weight;
+                case e >= u.small.height && e < u.medium.height:
+                  return u.small.weight;
+                default:
+                  return u.extraSmall.weight;
+              }
+            })(u, t),
+            n = Math.min(r, a);
+          return {
+            extraLarge: n === t.extraLarge.weight,
+            large: n === t.large.weight,
+            medium: n === t.medium.weight,
+            small: n === t.small.weight,
+            extraSmall: n === t.extraSmall.weight,
+            extraLargeWidth: r === t.extraLarge.weight,
+            largeWidth: r === t.large.weight,
+            mediumWidth: r === t.medium.weight,
+            smallWidth: r === t.small.weight,
+            extraSmallWidth: r === t.extraSmall.weight,
+            extraLargeHeight: a === t.extraLarge.weight,
+            largeHeight: a === t.large.weight,
+            mediumHeight: a === t.medium.weight,
+            smallHeight: a === t.small.weight,
+            extraSmallHeight: a === t.extraSmall.weight,
+          };
+        }
+        !(function (e) {
+          ((e.extraLarge = "extraLarge"),
+            (e.large = "large"),
+            (e.medium = "medium"),
+            (e.small = "small"),
+            (e.extraSmall = "extraSmall"),
+            (e.extraLargeWidth = "extraLargeWidth"),
+            (e.largeWidth = "largeWidth"),
+            (e.mediumWidth = "mediumWidth"),
+            (e.smallWidth = "smallWidth"),
+            (e.extraSmallWidth = "extraSmallWidth"),
+            (e.extraLargeHeight = "extraLargeHeight"),
+            (e.largeHeight = "largeHeight"),
+            (e.mediumHeight = "mediumHeight"),
+            (e.smallHeight = "smallHeight"),
+            (e.extraSmallHeight = "extraSmallHeight"));
+        })(o || (o = {}));
+        const c = s.O.client.getSize("rem"),
+          _ = c.width,
+          m = c.height,
+          E = Object.assign({ width: _, height: m }, l(_, m, i)),
+          d = (0, r.createContext)(E),
+          A = ["children"];
+        const p = (e) => {
+          let u = e.children,
+            t = (function (e, u) {
+              if (null == e) return {};
+              var t,
+                r,
+                a = {},
+                n = Object.keys(e);
+              for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+              return a;
+            })(e, A);
+          const a = (0, r.useContext)(d),
+            s = a.extraLarge,
+            i = a.large,
+            o = a.medium,
+            l = a.small,
+            c = a.extraSmall,
+            _ = a.extraLargeWidth,
+            m = a.largeWidth,
+            E = a.mediumWidth,
+            p = a.smallWidth,
+            D = a.extraSmallWidth,
+            F = a.extraLargeHeight,
+            h = a.largeHeight,
+            g = a.mediumHeight,
+            B = a.smallHeight,
+            C = a.extraSmallHeight,
+            b = { extraLarge: F, large: h, medium: g, small: B, extraSmall: C };
+          if (t.extraLarge || t.large || t.medium || t.small || t.extraSmall) {
+            if (t.extraLarge && s) return u;
+            if (t.large && i) return u;
+            if (t.medium && o) return u;
+            if (t.small && l) return u;
+            if (t.extraSmall && c) return u;
+          } else {
+            if (t.extraLargeWidth && _) return n(u, t, b);
+            if (t.largeWidth && m) return n(u, t, b);
+            if (t.mediumWidth && E) return n(u, t, b);
+            if (t.smallWidth && p) return n(u, t, b);
+            if (t.extraSmallWidth && D) return n(u, t, b);
+            if (!(
+              t.extraLargeWidth ||
+              t.largeWidth ||
+              t.mediumWidth ||
+              t.smallWidth ||
+              t.extraSmallWidth
+            )) {
+              if (t.extraLargeHeight && F) return u;
+              if (t.largeHeight && h) return u;
+              if (t.mediumHeight && g) return u;
+              if (t.smallHeight && B) return u;
+              if (t.extraSmallHeight && C) return u;
+            }
+          }
+          return null;
+        };
+        p.defaultProps = {
+          extraLarge: !1,
+          large: !1,
+          medium: !1,
+          small: !1,
+          extraSmall: !1,
+          extraLargeWidth: !1,
+          largeWidth: !1,
+          mediumWidth: !1,
+          smallWidth: !1,
+          extraSmallWidth: !1,
+          extraLargeHeight: !1,
+          largeHeight: !1,
+          mediumHeight: !1,
+          smallHeight: !1,
+          extraSmallHeight: !1,
+        };
+        (0, r.memo)(p);
+        const D = (e) => {
+            const u = (0, r.useRef)(!1);
+            u.current || (e(), (u.current = !0));
+          },
+          F = (0, r.memo)(({ children: e }) => {
+            const u = (0, r.useContext)(d),
+              t = (0, r.useState)(u),
+              n = t[0],
+              o = t[1],
+              c = (0, r.useCallback)((e, u) => {
+                const t = s.O.view.pxToRem(e),
+                  r = s.O.view.pxToRem(u);
+                o(Object.assign({ width: t, height: r }, l(t, r, i)));
+              }, []);
+            (D(() => {
+              engine.on("clientResized", c);
+            }),
+              (0, r.useEffect)(() => () => engine.off("clientResized", c), [c]));
+            const _ = (0, r.useMemo)(() => Object.assign({}, n), [n]);
+            return a().createElement(d.Provider, { value: _ }, e);
+          });
+        var h = t(483),
+          g = t.n(h),
+          B = t(926),
+          C = t.n(B);
+        let b, v, f;
+        (!(function (e) {
+          ((e[(e.ExtraSmall = i.extraSmall.width)] = "ExtraSmall"),
+            (e[(e.Small = i.small.width)] = "Small"),
+            (e[(e.Medium = i.medium.width)] = "Medium"),
+            (e[(e.Large = i.large.width)] = "Large"),
+            (e[(e.ExtraLarge = i.extraLarge.width)] = "ExtraLarge"));
+        })(b || (b = {})),
+          (function (e) {
+            ((e[(e.ExtraSmall = i.extraSmall.width)] = "ExtraSmall"),
+              (e[(e.Small = i.small.width)] = "Small"),
+              (e[(e.Medium = i.medium.width)] = "Medium"),
+              (e[(e.Large = i.large.width)] = "Large"),
+              (e[(e.ExtraLarge = i.extraLarge.width)] = "ExtraLarge"));
+          })(v || (v = {})),
+          (function (e) {
+            ((e[(e.ExtraSmall = i.extraSmall.height)] = "ExtraSmall"),
+              (e[(e.Small = i.small.height)] = "Small"),
+              (e[(e.Medium = i.medium.height)] = "Medium"),
+              (e[(e.Large = i.large.height)] = "Large"),
+              (e[(e.ExtraLarge = i.extraLarge.height)] = "ExtraLarge"));
+          })(f || (f = {})));
+        const S = () => {
+            const e = (0, r.useContext)(d),
+              u = e.width,
+              t = e.height,
+              a = ((e) => {
+                switch (!0) {
+                  case e.extraLarge:
+                    return b.ExtraLarge;
+                  case e.large:
+                    return b.Large;
+                  case e.medium:
+                    return b.Medium;
+                  case e.small:
+                    return b.Small;
+                  case e.extraSmall:
+                    return b.ExtraSmall;
+                  default:
+                    return (console.error("Unreachable media context resolution"), b.ExtraSmall);
+                }
+              })(e),
+              n = ((e) => {
+                switch (!0) {
+                  case e.extraLargeWidth:
+                    return v.ExtraLarge;
+                  case e.largeWidth:
+                    return v.Large;
+                  case e.mediumWidth:
+                    return v.Medium;
+                  case e.smallWidth:
+                    return v.Small;
+                  case e.extraSmallWidth:
+                    return v.ExtraSmall;
+                  default:
+                    return (console.error("Unreachable media context resolution"), v.ExtraSmall);
+                }
+              })(e),
+              s = ((e) => {
+                switch (!0) {
+                  case e.extraLargeHeight:
+                    return f.ExtraLarge;
+                  case e.largeHeight:
+                    return f.Large;
+                  case e.mediumHeight:
+                    return f.Medium;
+                  case e.smallHeight:
+                    return f.Small;
+                  case e.extraSmallHeight:
+                    return f.ExtraSmall;
+                  default:
+                    return (console.error("Unreachable media context resolution"), f.ExtraSmall);
+                }
+              })(e);
+            return {
+              mediaSize: a,
+              mediaWidth: n,
+              mediaHeight: s,
+              remScreenWidth: u,
+              remScreenHeight: t,
+            };
+          },
+          y = ["children", "className"];
+        function w() {
+          return (
+            (w =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            w.apply(this, arguments)
+          );
+        }
+        const M = {
+            [v.ExtraSmall]: "",
+            [v.Small]: C().SMALL_WIDTH,
+            [v.Medium]: `${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH}`,
+            [v.Large]: `${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH} ${C().LARGE_WIDTH}`,
+            [v.ExtraLarge]: `${C().SMALL_WIDTH} ${C().MEDIUM_WIDTH} ${C().LARGE_WIDTH} ${C().EXTRA_LARGE_WIDTH}`,
+          },
+          N = {
+            [f.ExtraSmall]: "",
+            [f.Small]: C().SMALL_HEIGHT,
+            [f.Medium]: `${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT}`,
+            [f.Large]: `${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT} ${C().LARGE_HEIGHT}`,
+            [f.ExtraLarge]: `${C().SMALL_HEIGHT} ${C().MEDIUM_HEIGHT} ${C().LARGE_HEIGHT} ${C().EXTRA_LARGE_HEIGHT}`,
+          },
+          T = {
+            [b.ExtraSmall]: "",
+            [b.Small]: C().SMALL,
+            [b.Medium]: `${C().SMALL} ${C().MEDIUM}`,
+            [b.Large]: `${C().SMALL} ${C().MEDIUM} ${C().LARGE}`,
+            [b.ExtraLarge]: `${C().SMALL} ${C().MEDIUM} ${C().LARGE} ${C().EXTRA_LARGE}`,
+          },
+          x = (e) => {
+            let u = e.children,
+              t = e.className,
+              r = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, y);
+            const n = S(),
+              s = n.mediaWidth,
+              i = n.mediaHeight,
+              o = n.mediaSize;
+            return a().createElement("div", w({ className: g()(t, M[s], N[i], T[o]) }, r), u);
+          },
+          P = ["children"];
+        const k = (e) => {
+          let u = e.children,
+            t = (function (e, u) {
+              if (null == e) return {};
+              var t,
+                r,
+                a = {},
+                n = Object.keys(e);
+              for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+              return a;
+            })(e, P);
+          return a().createElement(F, null, a().createElement(x, t, u));
+        };
+        var L = t(493),
+          I = t.n(L);
+        let O;
+        function H(e) {
+          return e.replace(/-/g, "_");
+        }
+        !(function (e) {
+          ((e[(e.left = 0)] = "left"), (e[(e.right = 1)] = "right"));
+        })(O || (O = {}));
+        const U = (e, u, t) => {
+            if (t % 2) {
+              const t = e.pop();
+              return [...e, t + u];
+            }
+            return [...e, u];
+          },
+          W = (e, u, t) => {
+            if (0 === t) return [u];
+            if (t % 2) return [...e, " " === u ? " " : u];
+            {
+              const t = e.pop();
+              return [...e, t + u];
+            }
+          },
+          G = (e, u, t = O.left) => e.split(u).reduce(t === O.left ? U : W, []),
+          $ = (() => {
+            const e = new RegExp(
+              /[\(\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[ %\+\x2D-9A-Za-\{\}\xA0\xC0-\u0237\u2013\u2014\u2026]+[\)\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3002\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\uFF01\uFF0C\uFF1A\uFF1B\uFF1F\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu
+                .source +
+                "|" +
+                /[\(\xAB\u201C\u275D][\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}][\0-\u2E7F\u2E9A\u2EF4-\u2EFF\u2FD6-\u3004\u3006\u3008-\u3020\u302A-\u3037\u303C-\u33FF\u4DC0-\u4DFF\uA000-\uF8FF\uFA6E\uFA6F\uFADA-\u{16FE1}\u{16FE4}-\u{16FEF}\u{16FF2}-\u{1FFFF}\u{2A6E0}-\u{2A6FF}\u{2B739}-\u{2B73F}\u{2B81E}\u{2B81F}\u{2CEA2}-\u{2CEAF}\u{2EBE1}-\u{2F7FF}\u{2FA1E}-\u{2FFFF}\u{3134B}-\u{10FFFF}]?|[\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}][\0-\u2E7F\u2E9A\u2EF4-\u2EFF\u2FD6-\u3004\u3006\u3008-\u3020\u302A-\u3037\u303C-\u33FF\u4DC0-\u4DFF\uA000-\uF8FF\uFA6E\uFA6F\uFADA-\u{16FE1}\u{16FE4}-\u{16FEF}\u{16FF2}-\u{1FFFF}\u{2A6E0}-\u{2A6FF}\u{2B739}-\u{2B73F}\u{2B81E}\u{2B81F}\u{2CEA2}-\u{2CEAF}\u{2EBE1}-\u{2F7FF}\u{2FA1E}-\u{2FFFF}\u{3134B}-\u{10FFFF}]?[\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?[\)\xBB\u201D\u275E][\u3002\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]?/gmu
+                  .source +
+                "|" +
+                /[A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0560-\u0588\u05D0-\u05EA\u05EF-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u0870-\u0887\u0889-\u088E\u08A0-\u08C9\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C5D\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D04-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E86-\u0E8A\u0E8C-\u0EA3\u0EA5\u0EA7-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u1711\u171F-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1878\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4C\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1C90-\u1CBA\u1CBD-\u1CBF\u1CE9-\u1CEC\u1CEE-\u1CF3\u1CF5\u1CF6\u1CFA\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312F\u3131-\u318E\u31A0-\u31BF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7CA\uA7D0\uA7D1\uA7D3\uA7D5-\uA7D9\uA7F2-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA8FE\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB69\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u{10000}-\u{1000B}\u{1000D}-\u{10026}\u{10028}-\u{1003A}\u{1003C}\u{1003D}\u{1003F}-\u{1004D}\u{10050}-\u{1005D}\u{10080}-\u{100FA}\u{10280}-\u{1029C}\u{102A0}-\u{102D0}\u{10300}-\u{1031F}\u{1032D}-\u{10340}\u{10342}-\u{10349}\u{10350}-\u{10375}\u{10380}-\u{1039D}\u{103A0}-\u{103C3}\u{103C8}-\u{103CF}\u{10400}-\u{1049D}\u{104B0}-\u{104D3}\u{104D8}-\u{104FB}\u{10500}-\u{10527}\u{10530}-\u{10563}\u{10570}-\u{1057A}\u{1057C}-\u{1058A}\u{1058C}-\u{10592}\u{10594}\u{10595}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10600}-\u{10736}\u{10740}-\u{10755}\u{10760}-\u{10767}\u{10780}-\u{10785}\u{10787}-\u{107B0}\u{107B2}-\u{107BA}\u{10800}-\u{10805}\u{10808}\u{1080A}-\u{10835}\u{10837}\u{10838}\u{1083C}\u{1083F}-\u{10855}\u{10860}-\u{10876}\u{10880}-\u{1089E}\u{108E0}-\u{108F2}\u{108F4}\u{108F5}\u{10900}-\u{10915}\u{10920}-\u{10939}\u{10980}-\u{109B7}\u{109BE}\u{109BF}\u{10A00}\u{10A10}-\u{10A13}\u{10A15}-\u{10A17}\u{10A19}-\u{10A35}\u{10A60}-\u{10A7C}\u{10A80}-\u{10A9C}\u{10AC0}-\u{10AC7}\u{10AC9}-\u{10AE4}\u{10B00}-\u{10B35}\u{10B40}-\u{10B55}\u{10B60}-\u{10B72}\u{10B80}-\u{10B91}\u{10C00}-\u{10C48}\u{10C80}-\u{10CB2}\u{10CC0}-\u{10CF2}\u{10D00}-\u{10D23}\u{10E80}-\u{10EA9}\u{10EB0}\u{10EB1}\u{10F00}-\u{10F1C}\u{10F27}\u{10F30}-\u{10F45}\u{10F70}-\u{10F81}\u{10FB0}-\u{10FC4}\u{10FE0}-\u{10FF6}\u{11003}-\u{11037}\u{11071}\u{11072}\u{11075}\u{11083}-\u{110AF}\u{110D0}-\u{110E8}\u{11103}-\u{11126}\u{11144}\u{11147}\u{11150}-\u{11172}\u{11176}\u{11183}-\u{111B2}\u{111C1}-\u{111C4}\u{111DA}\u{111DC}\u{11200}-\u{11211}\u{11213}-\u{1122B}\u{11280}-\u{11286}\u{11288}\u{1128A}-\u{1128D}\u{1128F}-\u{1129D}\u{1129F}-\u{112A8}\u{112B0}-\u{112DE}\u{11305}-\u{1130C}\u{1130F}\u{11310}\u{11313}-\u{11328}\u{1132A}-\u{11330}\u{11332}\u{11333}\u{11335}-\u{11339}\u{1133D}\u{11350}\u{1135D}-\u{11361}\u{11400}-\u{11434}\u{11447}-\u{1144A}\u{1145F}-\u{11461}\u{11480}-\u{114AF}\u{114C4}\u{114C5}\u{114C7}\u{11580}-\u{115AE}\u{115D8}-\u{115DB}\u{11600}-\u{1162F}\u{11644}\u{11680}-\u{116AA}\u{116B8}\u{11700}-\u{1171A}\u{11740}-\u{11746}\u{11800}-\u{1182B}\u{118A0}-\u{118DF}\u{118FF}-\u{11906}\u{11909}\u{1190C}-\u{11913}\u{11915}\u{11916}\u{11918}-\u{1192F}\u{1193F}\u{11941}\u{119A0}-\u{119A7}\u{119AA}-\u{119D0}\u{119E1}\u{119E3}\u{11A00}\u{11A0B}-\u{11A32}\u{11A3A}\u{11A50}\u{11A5C}-\u{11A89}\u{11A9D}\u{11AB0}-\u{11AF8}\u{11C00}-\u{11C08}\u{11C0A}-\u{11C2E}\u{11C40}\u{11C72}-\u{11C8F}\u{11D00}-\u{11D06}\u{11D08}\u{11D09}\u{11D0B}-\u{11D30}\u{11D46}\u{11D60}-\u{11D65}\u{11D67}\u{11D68}\u{11D6A}-\u{11D89}\u{11D98}\u{11EE0}-\u{11EF2}\u{11FB0}\u{12000}-\u{12399}\u{12480}-\u{12543}\u{12F90}-\u{12FF0}\u{13000}-\u{1342E}\u{14400}-\u{14646}\u{16800}-\u{16A38}\u{16A40}-\u{16A5E}\u{16A70}-\u{16ABE}\u{16AD0}-\u{16AED}\u{16B00}-\u{16B2F}\u{16B40}-\u{16B43}\u{16B63}-\u{16B77}\u{16B7D}-\u{16B8F}\u{16E40}-\u{16E7F}\u{16F00}-\u{16F4A}\u{16F50}\u{16F93}-\u{16F9F}\u{16FE0}\u{16FE1}\u{16FE3}\u{17000}-\u{187F7}\u{18800}-\u{18CD5}\u{18D00}-\u{18D08}\u{1AFF0}-\u{1AFF3}\u{1AFF5}-\u{1AFFB}\u{1AFFD}\u{1AFFE}\u{1B000}-\u{1B122}\u{1B150}-\u{1B152}\u{1B164}-\u{1B167}\u{1B170}-\u{1B2FB}\u{1BC00}-\u{1BC6A}\u{1BC70}-\u{1BC7C}\u{1BC80}-\u{1BC88}\u{1BC90}-\u{1BC99}\u{1D400}-\u{1D454}\u{1D456}-\u{1D49C}\u{1D49E}\u{1D49F}\u{1D4A2}\u{1D4A5}\u{1D4A6}\u{1D4A9}-\u{1D4AC}\u{1D4AE}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D505}\u{1D507}-\u{1D50A}\u{1D50D}-\u{1D514}\u{1D516}-\u{1D51C}\u{1D51E}-\u{1D539}\u{1D53B}-\u{1D53E}\u{1D540}-\u{1D544}\u{1D546}\u{1D54A}-\u{1D550}\u{1D552}-\u{1D6A5}\u{1D6A8}-\u{1D6C0}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6FA}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D734}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D76E}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D7A8}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7CB}\u{1DF00}-\u{1DF1E}\u{1E100}-\u{1E12C}\u{1E137}-\u{1E13D}\u{1E14E}\u{1E290}-\u{1E2AD}\u{1E2C0}-\u{1E2EB}\u{1E7E0}-\u{1E7E6}\u{1E7E8}-\u{1E7EB}\u{1E7ED}\u{1E7EE}\u{1E7F0}-\u{1E7FE}\u{1E800}-\u{1E8C4}\u{1E900}-\u{1E943}\u{1E94B}\u{1EE00}-\u{1EE03}\u{1EE05}-\u{1EE1F}\u{1EE21}\u{1EE22}\u{1EE24}\u{1EE27}\u{1EE29}-\u{1EE32}\u{1EE34}-\u{1EE37}\u{1EE39}\u{1EE3B}\u{1EE42}\u{1EE47}\u{1EE49}\u{1EE4B}\u{1EE4D}-\u{1EE4F}\u{1EE51}\u{1EE52}\u{1EE54}\u{1EE57}\u{1EE59}\u{1EE5B}\u{1EE5D}\u{1EE5F}\u{1EE61}\u{1EE62}\u{1EE64}\u{1EE67}-\u{1EE6A}\u{1EE6C}-\u{1EE72}\u{1EE74}-\u{1EE77}\u{1EE79}-\u{1EE7C}\u{1EE7E}\u{1EE80}-\u{1EE89}\u{1EE8B}-\u{1EE9B}\u{1EEA1}-\u{1EEA3}\u{1EEA5}-\u{1EEA9}\u{1EEAB}-\u{1EEBB}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]?[ \):;\u2022\u3001\u3002\u300A-\u300D\uFF01\uFF0C\uFF1A\uFF1B\uFF1F]|[\(,1A-Za-\{\}\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0560-\u0588\u05D0-\u05EA\u05EF-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u0870-\u0887\u0889-\u088E\u08A0-\u08C9\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C5D\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D04-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E86-\u0E8A\u0E8C-\u0EA3\u0EA5\u0EA7-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u1711\u171F-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1878\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4C\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1C90-\u1CBA\u1CBD-\u1CBF\u1CE9-\u1CEC\u1CEE-\u1CF3\u1CF5\u1CF6\u1CFA\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312F\u3131-\u318E\u31A0-\u31BF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7CA\uA7D0\uA7D1\uA7D3\uA7D5-\uA7D9\uA7F2-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA8FE\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB69\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u{10000}-\u{1000B}\u{1000D}-\u{10026}\u{10028}-\u{1003A}\u{1003C}\u{1003D}\u{1003F}-\u{1004D}\u{10050}-\u{1005D}\u{10080}-\u{100FA}\u{10280}-\u{1029C}\u{102A0}-\u{102D0}\u{10300}-\u{1031F}\u{1032D}-\u{10340}\u{10342}-\u{10349}\u{10350}-\u{10375}\u{10380}-\u{1039D}\u{103A0}-\u{103C3}\u{103C8}-\u{103CF}\u{10400}-\u{1049D}\u{104B0}-\u{104D3}\u{104D8}-\u{104FB}\u{10500}-\u{10527}\u{10530}-\u{10563}\u{10570}-\u{1057A}\u{1057C}-\u{1058A}\u{1058C}-\u{10592}\u{10594}\u{10595}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10600}-\u{10736}\u{10740}-\u{10755}\u{10760}-\u{10767}\u{10780}-\u{10785}\u{10787}-\u{107B0}\u{107B2}-\u{107BA}\u{10800}-\u{10805}\u{10808}\u{1080A}-\u{10835}\u{10837}\u{10838}\u{1083C}\u{1083F}-\u{10855}\u{10860}-\u{10876}\u{10880}-\u{1089E}\u{108E0}-\u{108F2}\u{108F4}\u{108F5}\u{10900}-\u{10915}\u{10920}-\u{10939}\u{10980}-\u{109B7}\u{109BE}\u{109BF}\u{10A00}\u{10A10}-\u{10A13}\u{10A15}-\u{10A17}\u{10A19}-\u{10A35}\u{10A60}-\u{10A7C}\u{10A80}-\u{10A9C}\u{10AC0}-\u{10AC7}\u{10AC9}-\u{10AE4}\u{10B00}-\u{10B35}\u{10B40}-\u{10B55}\u{10B60}-\u{10B72}\u{10B80}-\u{10B91}\u{10C00}-\u{10C48}\u{10C80}-\u{10CB2}\u{10CC0}-\u{10CF2}\u{10D00}-\u{10D23}\u{10E80}-\u{10EA9}\u{10EB0}\u{10EB1}\u{10F00}-\u{10F1C}\u{10F27}\u{10F30}-\u{10F45}\u{10F70}-\u{10F81}\u{10FB0}-\u{10FC4}\u{10FE0}-\u{10FF6}\u{11003}-\u{11037}\u{11071}\u{11072}\u{11075}\u{11083}-\u{110AF}\u{110D0}-\u{110E8}\u{11103}-\u{11126}\u{11144}\u{11147}\u{11150}-\u{11172}\u{11176}\u{11183}-\u{111B2}\u{111C1}-\u{111C4}\u{111DA}\u{111DC}\u{11200}-\u{11211}\u{11213}-\u{1122B}\u{11280}-\u{11286}\u{11288}\u{1128A}-\u{1128D}\u{1128F}-\u{1129D}\u{1129F}-\u{112A8}\u{112B0}-\u{112DE}\u{11305}-\u{1130C}\u{1130F}\u{11310}\u{11313}-\u{11328}\u{1132A}-\u{11330}\u{11332}\u{11333}\u{11335}-\u{11339}\u{1133D}\u{11350}\u{1135D}-\u{11361}\u{11400}-\u{11434}\u{11447}-\u{1144A}\u{1145F}-\u{11461}\u{11480}-\u{114AF}\u{114C4}\u{114C5}\u{114C7}\u{11580}-\u{115AE}\u{115D8}-\u{115DB}\u{11600}-\u{1162F}\u{11644}\u{11680}-\u{116AA}\u{116B8}\u{11700}-\u{1171A}\u{11740}-\u{11746}\u{11800}-\u{1182B}\u{118A0}-\u{118DF}\u{118FF}-\u{11906}\u{11909}\u{1190C}-\u{11913}\u{11915}\u{11916}\u{11918}-\u{1192F}\u{1193F}\u{11941}\u{119A0}-\u{119A7}\u{119AA}-\u{119D0}\u{119E1}\u{119E3}\u{11A00}\u{11A0B}-\u{11A32}\u{11A3A}\u{11A50}\u{11A5C}-\u{11A89}\u{11A9D}\u{11AB0}-\u{11AF8}\u{11C00}-\u{11C08}\u{11C0A}-\u{11C2E}\u{11C40}\u{11C72}-\u{11C8F}\u{11D00}-\u{11D06}\u{11D08}\u{11D09}\u{11D0B}-\u{11D30}\u{11D46}\u{11D60}-\u{11D65}\u{11D67}\u{11D68}\u{11D6A}-\u{11D89}\u{11D98}\u{11EE0}-\u{11EF2}\u{11FB0}\u{12000}-\u{12399}\u{12480}-\u{12543}\u{12F90}-\u{12FF0}\u{13000}-\u{1342E}\u{14400}-\u{14646}\u{16800}-\u{16A38}\u{16A40}-\u{16A5E}\u{16A70}-\u{16ABE}\u{16AD0}-\u{16AED}\u{16B00}-\u{16B2F}\u{16B40}-\u{16B43}\u{16B63}-\u{16B77}\u{16B7D}-\u{16B8F}\u{16E40}-\u{16E7F}\u{16F00}-\u{16F4A}\u{16F50}\u{16F93}-\u{16F9F}\u{16FE0}\u{16FE1}\u{16FE3}\u{17000}-\u{187F7}\u{18800}-\u{18CD5}\u{18D00}-\u{18D08}\u{1AFF0}-\u{1AFF3}\u{1AFF5}-\u{1AFFB}\u{1AFFD}\u{1AFFE}\u{1B000}-\u{1B122}\u{1B150}-\u{1B152}\u{1B164}-\u{1B167}\u{1B170}-\u{1B2FB}\u{1BC00}-\u{1BC6A}\u{1BC70}-\u{1BC7C}\u{1BC80}-\u{1BC88}\u{1BC90}-\u{1BC99}\u{1D400}-\u{1D454}\u{1D456}-\u{1D49C}\u{1D49E}\u{1D49F}\u{1D4A2}\u{1D4A5}\u{1D4A6}\u{1D4A9}-\u{1D4AC}\u{1D4AE}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D505}\u{1D507}-\u{1D50A}\u{1D50D}-\u{1D514}\u{1D516}-\u{1D51C}\u{1D51E}-\u{1D539}\u{1D53B}-\u{1D53E}\u{1D540}-\u{1D544}\u{1D546}\u{1D54A}-\u{1D550}\u{1D552}-\u{1D6A5}\u{1D6A8}-\u{1D6C0}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6FA}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D734}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D76E}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D7A8}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7CB}\u{1DF00}-\u{1DF1E}\u{1E100}-\u{1E12C}\u{1E137}-\u{1E13D}\u{1E14E}\u{1E290}-\u{1E2AD}\u{1E2C0}-\u{1E2EB}\u{1E7E0}-\u{1E7E6}\u{1E7E8}-\u{1E7EB}\u{1E7ED}\u{1E7EE}\u{1E7F0}-\u{1E7FE}\u{1E800}-\u{1E8C4}\u{1E900}-\u{1E943}\u{1E94B}\u{1EE00}-\u{1EE03}\u{1EE05}-\u{1EE1F}\u{1EE21}\u{1EE22}\u{1EE24}\u{1EE27}\u{1EE29}-\u{1EE32}\u{1EE34}-\u{1EE37}\u{1EE39}\u{1EE3B}\u{1EE42}\u{1EE47}\u{1EE49}\u{1EE4B}\u{1EE4D}-\u{1EE4F}\u{1EE51}\u{1EE52}\u{1EE54}\u{1EE57}\u{1EE59}\u{1EE5B}\u{1EE5D}\u{1EE5F}\u{1EE61}\u{1EE62}\u{1EE64}\u{1EE67}-\u{1EE6A}\u{1EE6C}-\u{1EE72}\u{1EE74}-\u{1EE77}\u{1EE79}-\u{1EE7C}\u{1EE7E}\u{1EE80}-\u{1EE89}\u{1EE8B}-\u{1EE9B}\u{1EEA1}-\u{1EEA3}\u{1EEA5}-\u{1EEA9}\u{1EEAB}-\u{1EEBB}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]/gmu
+                  .source +
+                "|" +
+                /[\u2E80-\u2E99\u2E9B-\u2EF3\u2F00-\u2FD5\u3005\u3007\u3021-\u3029\u3038-\u303B\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFA6D\uFA70-\uFAD9\u{16FE2}\u{16FE3}\u{16FF0}\u{16FF1}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B738}\u{2B740}-\u{2B81D}\u{2B820}-\u{2CEA1}\u{2CEB0}-\u{2EBE0}\u{2F800}-\u{2FA1D}\u{30000}-\u{3134A}]/gmu
+                  .source,
+              "gum",
+            );
+            return (u) =>
+              u
+                .replace(/&nbsp;/g, " ")
+                .replace(/ /g, " ")
+                .match(e);
+          })(),
+          V = ["zh_cn", "zh_sg", "zh_tw"],
+          X = (e, u = O.left) => {
+            const t = R.strings.settings.LANGUAGE_CODE().toLowerCase();
+            return V.includes(t)
+              ? $(e)
+              : ((e, u = O.left) => {
+                  let t = [];
+                  const r =
+                      /(?<=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])(\x2D)(?=[a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0560-\u0588\u10D0-\u10FA\u10FD-\u10FF\u13F8-\u13FD\u1C80-\u1C88\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5F\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7AF\uA7B5\uA7B7\uA7B9\uA7BB\uA7BD\uA7BF\uA7C1\uA7C3\uA7C8\uA7CA\uA7D1\uA7D3\uA7D5\uA7D7\uA7D9\uA7F6\uA7FA\uAB30-\uAB5A\uAB60-\uAB68\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A\u{10428}-\u{1044F}\u{104D8}-\u{104FB}\u{10597}-\u{105A1}\u{105A3}-\u{105B1}\u{105B3}-\u{105B9}\u{105BB}\u{105BC}\u{10CC0}-\u{10CF2}\u{118C0}-\u{118DF}\u{16E60}-\u{16E7F}\u{1D41A}-\u{1D433}\u{1D44E}-\u{1D454}\u{1D456}-\u{1D467}\u{1D482}-\u{1D49B}\u{1D4B6}-\u{1D4B9}\u{1D4BB}\u{1D4BD}-\u{1D4C3}\u{1D4C5}-\u{1D4CF}\u{1D4EA}-\u{1D503}\u{1D51E}-\u{1D537}\u{1D552}-\u{1D56B}\u{1D586}-\u{1D59F}\u{1D5BA}-\u{1D5D3}\u{1D5EE}-\u{1D607}\u{1D622}-\u{1D63B}\u{1D656}-\u{1D66F}\u{1D68A}-\u{1D6A5}\u{1D6C2}-\u{1D6DA}\u{1D6DC}-\u{1D6E1}\u{1D6FC}-\u{1D714}\u{1D716}-\u{1D71B}\u{1D736}-\u{1D74E}\u{1D750}-\u{1D755}\u{1D770}-\u{1D788}\u{1D78A}-\u{1D78F}\u{1D7AA}-\u{1D7C2}\u{1D7C4}-\u{1D7C9}\u{1D7CB}\u{1DF00}-\u{1DF09}\u{1DF0B}-\u{1DF1E}\u{1E922}-\u{1E943}])/gu,
+                    a = e.replace(/&nbsp;/g, " ");
+                  return (G(a, /( )/, u).forEach((e) => (t = t.concat(G(e, r, O.left)))), t);
+                })(e, u);
+          };
+        let j;
+        !(function (e) {
+          ((e.SHORT_DATE = "short-date"),
+            (e.SHORT_TIME = "short-time"),
+            (e.SHORT_DATE_TIME = "short-date-time"),
+            (e.FULL_DATE = "full-date"),
+            (e.FULL_DATE_TIME = "full-date-time"),
+            (e.MONTH = "month"),
+            (e.MONTH_DATE = "month-date"),
+            (e.DATE_MONTH = "date-month"),
+            (e.MONTH_YEAR = "month-year"),
+            (e.WEEK_DAY = "week-day"),
+            (e.WEEK_DAY_TIME = "week-day-time"),
+            (e.YEAR = "year"),
+            (e.DATE_YEAR = "date-year"));
+        })(j || (j = {}));
+        var z = t(364);
+        Date.now();
+        const Y = (e, u, t) => {
+          switch (u) {
+            case j.SHORT_DATE:
+              return t
+                ? z.Z5.getDateFormat(e, z.kH.SHORT_FORMAT)
+                : z.cy.getTimeFormat("%d.%m.%y", e, !0);
+            case j.SHORT_TIME:
+              return t
+                ? z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)
+                : z.cy.getTimeFormat("%I:%M %p", e, !0);
+            case j.SHORT_DATE_TIME:
+              if (t) {
+                return `${z.Z5.getDateFormat(e, z.kH.SHORT_FORMAT)}, ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+              }
+              return z.cy.getTimeFormat("%d.%m.%y, %I:%M %p", e, !0);
+            case j.FULL_DATE:
+              return t
+                ? z.Z5.getDateFormat(e, z.kH.LONG_FORMAT)
+                : z.cy.getTimeFormat("%B %d, %Y", e, !0);
+            case j.FULL_DATE_TIME:
+              if (t) {
+                return `${z.Z5.getDateFormat(e, z.kH.LONG_FORMAT)}, ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+              }
+              return z.cy.getTimeFormat("%B %d, %Y, %I:%M %p", e, !0);
+            case j.MONTH:
+              return z.cy.getTimeFormat("%B", e, !0);
+            case j.MONTH_DATE:
+              return z.cy.getTimeFormat("%B %e", e, !0);
+            case j.DATE_MONTH:
+              return z.cy.getTimeFormat("%e %B", e, !0);
+            case j.MONTH_YEAR:
+              return z.cy.getTimeFormat("%B %Y", e, !0);
+            case j.WEEK_DAY:
+              return z.cy.getTimeFormat("%A", e, !0);
+            case j.WEEK_DAY_TIME:
+              if (t) {
+                return `${z.cy.getTimeFormat("%A", e, !0)} ${z.Z5.getTimeFormat(e, z.lf.SHORT_FORMAT)}`;
+              }
+              return z.cy.getTimeFormat("%A, %I:%M %p", e, !0);
+            case j.YEAR:
+              return z.cy.getTimeFormat("%Y", e, !0);
+            case j.DATE_YEAR:
+              return z.cy.getTimeFormat("%d, %Y", e, !0);
+          }
+        };
+        (0, r.memo)(({ datetime: e, format: u = j.SHORT_DATE, localize: t = !0 }) => Y(e, u, t));
+        var q = t(887),
+          K = t.n(q);
+        const Z = ["xl", "lg", "md", "sm", "xs"],
+          Q = (e) => e.includes("_") && ((e) => Z.includes(e))(e.split("_").at(-1)),
+          J = [b.ExtraLarge, b.Large, b.Medium, b.Small, b.ExtraSmall],
+          ee = (e, u) =>
+            Object.keys(e).reduce((t, r) => {
+              if (r in t) return t;
+              if (Q(r)) {
+                const a = r.split("_").slice(0, -1).join("_");
+                if (a in t) return t;
+                const n = J.indexOf(u),
+                  s = (-1 !== n ? Z.slice(n) : [])
+                    .map((e) => a + "_" + e)
+                    .find((u) => void 0 !== e[u]),
+                  i = s ? e[s] : void 0;
+                return ((t[a] = void 0 !== i ? i : e[a]), t);
+              }
+              const a = e[r];
+              return (
+                void 0 === a ||
+                  ((e, u) => Z.some((t) => void 0 !== u[`${e}_${t}`]))(r, e) ||
+                  (t[r] = a),
+                t
+              );
+            }, {}),
+          ue = (e, u = ee) => {
+            const t = (
+              (e, u = ee) =>
+              (t) => {
+                const n = S().mediaSize,
+                  s = (0, r.useMemo)(() => u(t, n), [t, n]);
+                return a().createElement(e, s);
+              }
+            )(e, u);
+            return a().memo((u) =>
+              Object.keys(u).some((e) => Q(e) && void 0 !== u[e])
+                ? a().createElement(t, u)
+                : a().createElement(e, u),
+            );
+          },
+          te = {
+            mt__XS: "Box_mt__XS_0c",
+            mt__SM: "Box_mt__SM_eb",
+            mt__SMp: "Box_mt__SMp_cf",
+            mt__MD: "Box_mt__MD_25",
+            mt__MDp: "Box_mt__MDp_49",
+            mt__LG: "Box_mt__LG_e8",
+            mt__XL: "Box_mt__XL_83",
+            mr__XS: "Box_mr__XS_7c",
+            mr__SM: "Box_mr__SM_08",
+            mr__SMp: "Box_mr__SMp_06",
+            mr__MD: "Box_mr__MD_4a",
+            mr__MDp: "Box_mr__MDp_b6",
+            mr__LG: "Box_mr__LG_d0",
+            mr__XL: "Box_mr__XL_db",
+            mb__XS: "Box_mb__XS_bb",
+            mb__SM: "Box_mb__SM_83",
+            mb__SMp: "Box_mb__SMp_04",
+            mb__MD: "Box_mb__MD_ed",
+            mb__MDp: "Box_mb__MDp_65",
+            mb__LG: "Box_mb__LG_c8",
+            mb__XL: "Box_mb__XL_f8",
+            ml__XS: "Box_ml__XS_8a",
+            ml__SM: "Box_ml__SM_e6",
+            ml__SMp: "Box_ml__SMp_fb",
+            ml__MD: "Box_ml__MD_2b",
+            ml__MDp: "Box_ml__MDp_c7",
+            ml__LG: "Box_ml__LG_39",
+            ml__XL: "Box_ml__XL_4a",
+          },
+          re = [
+            "className",
+            "width",
+            "height",
+            "m",
+            "mt",
+            "mr",
+            "mb",
+            "ml",
+            "column",
+            "row",
+            "flexDirection",
+            "flexStart",
+            "center",
+            "flexEnd",
+            "spaceBetween",
+            "spaceAround",
+            "justifyContent",
+            "alignItems",
+            "alignSelf",
+            "wrap",
+            "flexWrap",
+            "grow",
+            "shrink",
+            "flex",
+            "style",
+            "children",
+          ];
+        function ae() {
+          return (
+            (ae =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            ae.apply(this, arguments)
+          );
+        }
+        Object.keys(K());
+        const ne = {
+            XL: { mt: te.mt__XL, mr: te.mr__XL, mb: te.mb__XL, ml: te.ml__XL },
+            LG: { mt: te.mt__LG, mr: te.mr__LG, mb: te.mb__LG, ml: te.ml__LG },
+            MDp: { mt: te.mt__MDp, mr: te.mr__MDp, mb: te.mb__MDp, ml: te.ml__MDp },
+            MD: { mt: te.mt__MD, mr: te.mr__MD, mb: te.mb__MD, ml: te.ml__MD },
+            SMp: { mt: te.mt__SMp, mr: te.mr__SMp, mb: te.mb__SMp, ml: te.ml__SMp },
+            SM: { mt: te.mt__SM, mr: te.mr__SM, mb: te.mb__SM, ml: te.ml__SM },
+            XS: { mt: te.mt__XS, mr: te.mr__XS, mb: te.mb__XS, ml: te.ml__XS },
+          },
+          se = (Object.keys(ne), ["mt", "mr", "mb", "ml"]),
+          ie = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
+          oe = ue((e) => {
+            let u = e.className,
+              t = e.width,
+              n = e.height,
+              s = e.m,
+              i = e.mt,
+              o = void 0 === i ? s : i,
+              l = e.mr,
+              c = void 0 === l ? s : l,
+              _ = e.mb,
+              m = void 0 === _ ? s : _,
+              E = e.ml,
+              d = void 0 === E ? s : E,
+              A = e.column,
+              p = e.row,
+              D = e.flexDirection,
+              F = void 0 === D ? (A ? "column" : p && "row") || void 0 : D,
+              h = e.flexStart,
+              B = e.center,
+              C = e.flexEnd,
+              b = e.spaceBetween,
+              v = e.spaceAround,
+              f = e.justifyContent,
+              S =
+                void 0 === f
+                  ? (h ? "flex-start" : B && "center") ||
+                    (C && "flex-end") ||
+                    (b && "space-between") ||
+                    (v && "space-around") ||
+                    void 0
+                  : f,
+              y = e.alignItems,
+              w =
+                void 0 === y
+                  ? (h ? "flex-start" : B && "center") || (C && "flex-end") || void 0
+                  : y,
+              M = e.alignSelf,
+              N = e.wrap,
+              T = e.flexWrap,
+              x = void 0 === T ? (N ? "wrap" : void 0) : T,
+              R = e.grow,
+              P = e.shrink,
+              k = e.flex,
+              L = void 0 === k ? (R || P ? `${R ? 1 : 0} ${P ? 1 : 0} auto` : void 0) : k,
+              I = e.style,
+              O = e.children,
+              H = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, re);
+            const U = (0, r.useMemo)(() => {
+                const e = { mt: o, mr: c, mb: m, ml: d },
+                  u = ((e) =>
+                    se.reduce((u, t) => {
+                      const r = e[t];
+                      return r && "number" != typeof r ? u.concat(ne[!0 === r ? "MD" : r][t]) : u;
+                    }, []))(e),
+                  r = ((e) =>
+                    se.reduce((u, t) => {
+                      const r = e[t];
+                      return ("number" == typeof r && (u[ie[t]] = r + "rem"), u);
+                    }, {}))(e);
+                return {
+                  computedStyle: Object.assign({}, I, r, {
+                    width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
+                    height: void 0 !== n && "number" == typeof n ? n + "rem" : n,
+                    flex: L,
+                    alignSelf: M,
+                    display: F || w ? "flex" : void 0,
+                    flexDirection: F,
+                    flexWrap: x,
+                    justifyContent: S,
+                    alignItems: w,
+                  }),
+                  computedClassNames: u,
+                };
+              }, [t, n, o, c, m, d, I, L, M, F, x, S, w]),
+              W = U.computedStyle,
+              G = U.computedClassNames;
+            return a().createElement(
+              "div",
+              ae({ className: g()(te.base, ...G, u), style: W }, H),
+              O,
+            );
+          }),
+          le = "FormatText_base_d0",
+          ce = ({ binding: e, text: u = "", classMix: t, alignment: n = O.left }) =>
+            null === u
+              ? (console.error("FormatText was supplied with 'null'"), null)
+              : a().createElement(
+                  r.Fragment,
+                  null,
+                  u.split("\n").map((u, s) =>
+                    a().createElement(
+                      "div",
+                      { className: g()(le, t), key: `${u}-${s}` },
+                      ((e, u, t) =>
+                        e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (t && e in t ? t[e] : X(e, u))))(
+                        u,
+                        n,
+                        e,
+                      ).map((e, u) => a().createElement(r.Fragment, { key: `${u}-${e}` }, e)),
+                    ),
+                  ),
+                );
+        var _e = t(532),
+          me = t.n(_e);
+        const Ee = {
+            "paragraph-P10": "Text_paragraph-P10_2c",
+            "paragraph-P12": "Text_paragraph-P12_22",
+            "paragraph-P14": "Text_paragraph-P14_a7",
+            "paragraph-P16": "Text_paragraph-P16_90",
+            "paragraph-P18": "Text_paragraph-P18_50",
+            "paragraph-P24": "Text_paragraph-P24_33",
+            "heading-H14": "Text_heading-H14_8b",
+            "heading-H15": "Text_heading-H15_9e",
+            "heading-H18": "Text_heading-H18_b7",
+            "heading-H20R": "Text_heading-H20R_f6",
+            "heading-H22": "Text_heading-H22_27",
+            "heading-H24R": "Text_heading-H24R_be",
+            "heading-H24": "Text_heading-H24_0c",
+            "heading-H28": "Text_heading-H28_78",
+            "heading-H36": "Text_heading-H36_32",
+            "heading-H56": "Text_heading-H56_c3",
+            "heading-H73": "Text_heading-H73_8f",
+            "heading-H144": "Text_heading-H144_a9",
+            BLACK_REAL: "Text_BLACK_REAL_30",
+            WHITE_REAL: "Text_WHITE_REAL_bc",
+            WHITE: "Text_WHITE_62",
+            WHITE_ORANGE: "Text_WHITE_ORANGE_54",
+            WHITE_SPANISH: "Text_WHITE_SPANISH_df",
+            PAR: "Text_PAR_15",
+            PAR_SECONDARY: "Text_PAR_SECONDARY_5d",
+            PAR_TERTIARY: "Text_PAR_TERTIARY_c9",
+            INFO_RED: "Text_INFO_RED_30",
+            RED: "Text_RED_66",
+            RED_DARK: "Text_RED_DARK_d8",
+            YELLOW: "Text_YELLOW_ed",
+            ORANGE: "Text_ORANGE_be",
+            CREAM: "Text_CREAM_57",
+            BROWN: "Text_BROWN_18",
+            GREEN_BRIGHT: "Text_GREEN_BRIGHT_3f",
+            GREEN: "Text_GREEN_e3",
+            GREEN_DARK: "Text_GREEN_DARK_f1",
+            BLUE_BOOSTER: "Text_BLUE_BOOSTER_21",
+            BLUE_TEAMKILLER: "Text_BLUE_TEAMKILLER_ab",
+            CRED: "Text_CRED_f7",
+            GOLD: "Text_GOLD_28",
+            BOND: "Text_BOND_be",
+            PROM: "Text_PROM_65",
+          },
+          de = [
+            "text",
+            "variant",
+            "className",
+            "color",
+            "m",
+            "mt",
+            "mr",
+            "mb",
+            "ml",
+            "style",
+            "format",
+          ];
+        function Ae() {
+          return (
+            (Ae =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            Ae.apply(this, arguments)
+          );
+        }
+        Object.keys(K());
+        const pe = Object.keys(me()),
+          De = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
+          Fe = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
+          he = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
+          ge = {
+            XL: { mt: "XL", mr: "XL", mb: "XL", ml: "XL" },
+            LG: { mt: "LG", mr: "LG", mb: "LG", ml: "LG" },
+            MDp: { mt: "MDp", mr: "MDp", mb: "MDp", ml: "MDp" },
+            MD: { mt: "MD", mr: "MD", mb: "MD", ml: "MD" },
+            SMp: { mt: "SMp", mr: "SMp", mb: "SMp", ml: "SMp" },
+            SM: { mt: "SM", mr: "SM", mb: "SM", ml: "SM" },
+            XS: { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
+          },
+          Be =
+            (Object.keys(ge),
+            {
+              "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
+              "heading-H73": { mt: "LG", mr: "MD", mb: "MD", ml: "MD" },
+              "heading-H56": De,
+              "heading-H36": De,
+              "heading-H28": Fe,
+              "heading-H24": Fe,
+              "heading-H24R": Fe,
+              "heading-H22": Fe,
+              "heading-H20R": Fe,
+              "heading-H18": Fe,
+              "heading-H15": he,
+              "heading-H14": he,
+              "paragraph-P24": Fe,
+              "paragraph-P18": Fe,
+              "paragraph-P16": Fe,
+              "paragraph-P14": he,
+              "paragraph-P12": he,
+              "paragraph-P10": he,
+            }),
+          Ce =
+            (Object.keys(Be),
+            (e) =>
+              e
+                ? ((e) => pe.includes(e))(e)
+                  ? { colorClassName: Ee[e] }
+                  : { colorStyle: { color: e } }
+                : {}),
+          be = ue((e) => {
+            let u = e.text,
+              t = e.variant,
+              n = e.className,
+              s = e.color,
+              i = e.m,
+              o = e.mt,
+              l = void 0 === o ? i : o,
+              c = e.mr,
+              _ = void 0 === c ? i : c,
+              m = e.mb,
+              E = void 0 === m ? i : m,
+              d = e.ml,
+              A = void 0 === d ? i : d,
+              p = e.style,
+              D = e.format,
+              F = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, de);
+            const h = (0, r.useMemo)(() => {
+                const e = Ce(s),
+                  u = e.colorClassName,
+                  t = e.colorStyle,
+                  r = void 0 === t ? {} : t;
+                return { computedStyle: Object.assign({}, p, r), colorClassName: u };
+              }, [p, s]),
+              B = h.computedStyle,
+              C = h.colorClassName;
+            return a().createElement(
+              oe,
+              Ae(
+                {
+                  className: g()(Ee.base, t && Ee[t], C, n),
+                  style: B,
+                  mt: !0 === l ? Be[t || "paragraph-P16"].mt : l,
+                  mr: !0 === _ ? Be[t || "paragraph-P16"].mr : _,
+                  mb: !0 === E ? Be[t || "paragraph-P16"].mb : E,
+                  ml: !0 === A ? Be[t || "paragraph-P16"].ml : A,
+                },
+                F,
+              ),
+              void 0 !== D ? a().createElement(ce, Ae({}, D, { text: u })) : u,
+            );
+          });
+        function ve(e) {
+          engine.call("PlaySound", e);
+        }
+        const fe = {
+            playHighlight() {
+              ve("highlight");
+            },
+            playClick() {
+              ve("play");
+            },
+            playYes() {
+              ve("yes1");
+            },
+          },
+          Se = {
+            base: "TextButton_base_b6",
+            base__right: "TextButton_base__right_39",
+            icon: "TextButton_icon_17",
+            icon__back: "TextButton_icon__back_43",
+            icon__forward: "TextButton_icon__forward_59",
+            icon__close: "TextButton_icon__close_53",
+            icon__info: "TextButton_icon__info_33",
+            glow: "TextButton_glow_a4",
+            caption: "TextButton_caption_82",
+            caption__back: "TextButton_caption__back_b9",
+            caption__forward: "TextButton_caption__forward_4e",
+            caption__close: "TextButton_caption__close_36",
+            caption__info: "TextButton_caption__info_23",
+            goto: "TextButton_goto_e7",
+            base__left: "TextButton_base__left_ff",
+            shine: "TextButton_shine_e2",
+          },
+          ye = [
+            "caption",
+            "onClick",
+            "goto",
+            "side",
+            "type",
+            "classNames",
+            "onMouseEnter",
+            "onMouseLeave",
+            "onMouseDown",
+            "onMouseUp",
+            "soundClick",
+            "soundHover",
+          ];
+        function we() {
+          return (
+            (we =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            we.apply(this, arguments)
+          );
+        }
+        class Me extends a().PureComponent {
+          constructor(...e) {
+            (super(...e),
+              (this.state = { hover: !1, click: !1 }),
+              (this._onMouseEnter = (e) => (u) => {
+                (e && e(u),
+                  this.setState({ hover: !0 }),
+                  this.props.soundHover && ve(this.props.soundHover));
+              }),
+              (this._onMouseLeave = (e) => (u) => {
+                (e && e(u), this.setState({ hover: !1, click: !1 }));
+              }),
+              (this._onMouseDown = (e) => (u) => {
+                (e && e(u),
+                  this.setState({ click: !0 }),
+                  this.props.soundClick && ve(this.props.soundClick));
+              }),
+              (this._onMouseUp = (e) => (u) => {
+                (e && e(u), this.setState({ click: !1 }));
+              }),
+              (this.handleFocus = () => this.setState({ focus: !0 })),
+              (this.handleBlur = () => this.setState({ focus: !1 })));
+          }
+          render() {
+            const e = this.props,
+              u = e.caption,
+              t = e.onClick,
+              r = e.goto,
+              n = e.side,
+              s = e.type,
+              i = e.classNames,
+              o = e.onMouseEnter,
+              l = e.onMouseLeave,
+              c = e.onMouseDown,
+              _ = e.onMouseUp,
+              m =
+                (e.soundClick,
+                e.soundHover,
+                (function (e, u) {
+                  if (null == e) return {};
+                  var t,
+                    r,
+                    a = {},
+                    n = Object.keys(e);
+                  for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                  return a;
+                })(e, ye)),
+              E = g()(Se.base, Se[`base__${s}`], Se[`base__${n}`], null == i ? void 0 : i.base),
+              d = g()(Se.icon, Se[`icon__${s}`], Se[`icon__${n}`], null == i ? void 0 : i.icon),
+              A = g()(Se.glow, null == i ? void 0 : i.glow),
+              p = g()(Se.caption, Se[`caption__${s}`], null == i ? void 0 : i.caption),
+              D = g()(Se.goto, null == i ? void 0 : i.goto);
+            return a().createElement(
+              "div",
+              we(
+                {
+                  className: E,
+                  onMouseEnter: this._onMouseEnter(o),
+                  onMouseLeave: this._onMouseLeave(l),
+                  onMouseDown: this._onMouseDown(c),
+                  onMouseUp: this._onMouseUp(_),
+                  onFocus: this.handleFocus,
+                  onBlur: this.handleBlur,
+                  onClick: t,
+                },
+                m,
+              ),
+              "info" !== s && a().createElement("div", { className: Se.shine }),
+              a().createElement(
+                "div",
+                { className: d },
+                a().createElement("div", { className: A }),
+              ),
+              a().createElement("div", { className: p }, u),
+              r && a().createElement("div", { className: D }, r),
+            );
+          }
+        }
+        Me.defaultProps = {
+          side: "left",
+          type: "back",
+          soundHover: "highlight",
+          soundClick: "play",
+        };
+        var Ne = t(521);
+        const Te = (e) => {
+          console.error(e.type + ": useKeydownListener hook :: Callback is not defined");
+        };
+        function xe(e = Ne.n.NONE, u = Te, t = !1) {
+          (0, r.useEffect)(() => {
+            if (e !== Ne.n.NONE)
+              return (
+                window.addEventListener("keydown", r, t),
+                () => {
+                  window.removeEventListener("keydown", r, t);
+                }
+              );
+            function r(r) {
+              if (r.keyCode === e) {
+                if (s.O.view.isEventHandled()) return;
+                (s.O.view.setEventHandled(), u(r), t && r.stopPropagation());
+              }
+            }
+          }, [u, e, t]);
+        }
+        var Re = t(403);
+        function Pe(e, u, t, r) {
+          let a,
+            n = !1,
+            s = 0;
+          function i() {
+            a && clearTimeout(a);
+          }
+          function o(...o) {
+            const l = this,
+              c = Date.now() - s;
+            function _() {
+              ((s = Date.now()), t.apply(l, o));
+            }
+            n ||
+              (r && !a && _(),
+              i(),
+              void 0 === r && c > e
+                ? _()
+                : !0 !== u &&
+                  (a = setTimeout(
+                    r
+                      ? function () {
+                          a = void 0;
+                        }
+                      : _,
+                    void 0 === r ? e - c : e,
+                  )));
+          }
+          return (
+            "boolean" != typeof u && ((r = t), (t = u), (u = void 0)),
+            (o.cancel = function () {
+              (i(), (n = !0));
+            }),
+            o
+          );
+        }
+        function ke(e, u, t) {
+          const a = (0, r.useMemo)(
+            () =>
+              (function (e, u, t) {
+                return void 0 === t ? Pe(e, u, !1) : Pe(e, t, !1 !== u);
+              })(t, e),
+            u,
+          );
+          return ((0, r.useEffect)(() => a.cancel, [a]), a);
+        }
+        const Le = {
+          base: "CButton_base_40",
+          base__main: "CButton_base__main_42",
+          base__primary: "CButton_base__primary_7f",
+          base__primaryGreen: "CButton_base__primaryGreen_6f",
+          base__primaryRed: "CButton_base__primaryRed_ec",
+          base__secondary: "CButton_base__secondary_50",
+          base__ghost: "CButton_base__ghost_ed",
+          base__extraSmall: "CButton_base__extraSmall_27",
+          base__small: "CButton_base__small_df",
+          base__medium: "CButton_base__medium_74",
+          base__disabled: "CButton_base__disabled_d9",
+          back: "CButton_back_e5",
+          texture: "CButton_texture_fe",
+          state: "CButton_state_11",
+          base__focus: "CButton_base__focus_83",
+          stateHighlightHover: "CButton_stateHighlightHover_ff",
+          stateHighlightActive: "CButton_stateHighlightActive_35",
+          stateDisabled: "CButton_stateDisabled_54",
+          base__firstHover: "CButton_base__firstHover_d5",
+          base__highlightActive: "CButton_base__highlightActive_b2",
+          content: "CButton_content_cc",
+        };
+        let Ie, Oe;
+        (!(function (e) {
+          ((e.main = "main"),
+            (e.primary = "primary"),
+            (e.primaryGreen = "primaryGreen"),
+            (e.primaryRed = "primaryRed"),
+            (e.secondary = "secondary"),
+            (e.ghost = "ghost"));
+        })(Ie || (Ie = {})),
+          (function (e) {
+            ((e.extraSmall = "extraSmall"), (e.small = "small"), (e.medium = "medium"));
+          })(Oe || (Oe = {})));
+        const He = ({
+          children: e,
+          size: u,
+          isFocused: t,
+          type: n,
+          disabled: s,
+          mixClass: i,
+          soundHover: o,
+          soundClick: l,
+          onMouseEnter: c,
+          onMouseMove: _,
+          onMouseDown: m,
+          onMouseUp: E,
+          onMouseLeave: d,
+          onClick: A,
+        }) => {
+          const p = (0, r.useRef)(null),
+            D = (0, r.useState)(t),
+            F = D[0],
+            h = D[1],
+            B = (0, r.useState)(!1),
+            C = B[0],
+            b = B[1],
+            v = (0, r.useState)(!1),
+            f = v[0],
+            S = v[1],
+            y = (0, r.useCallback)(() => {
+              s || (p.current && (p.current.focus(), h(!0)));
+            }, [s]),
+            w = (0, r.useCallback)(
+              (e) => {
+                F && null !== p.current && !p.current.contains(e.target) && h(!1);
+              },
+              [F],
+            ),
+            M = (0, r.useCallback)(
+              (e) => {
+                s || (A && A(e));
+              },
+              [s, A],
+            ),
+            N = (0, r.useCallback)(
+              (e) => {
+                s || (null !== o && ve(o), c && c(e), S(!0));
+              },
+              [s, o, c],
+            ),
+            T = (0, r.useCallback)(
+              (e) => {
+                _ && _(e);
+              },
+              [_],
+            ),
+            x = (0, r.useCallback)(
+              (e) => {
+                s || (E && E(e), b(!1));
+              },
+              [s, E],
+            ),
+            P = (0, r.useCallback)(
+              (e) => {
+                s || (null !== l && ve(l), m && m(e), t && y(), b(!0));
+              },
+              [s, l, m, y, t],
+            ),
+            k = (0, r.useCallback)(
+              (e) => {
+                s || (d && d(e), b(!1));
+              },
+              [s, d],
+            ),
+            L = g()(
+              Le.base,
+              Le[`base__${n}`],
+              {
+                [Le.base__disabled]: s,
+                [Le[`base__${u}`]]: u,
+                [Le.base__focus]: F,
+                [Le.base__highlightActive]: C,
+                [Le.base__firstHover]: f,
+              },
+              i,
+            ),
+            I = g()(Le.state, Le.state__default);
+          return (
+            (0, r.useEffect)(
+              () => (
+                document.addEventListener("mousedown", w),
+                () => {
+                  document.removeEventListener("mousedown", w);
+                }
+              ),
+              [w],
+            ),
+            (0, r.useEffect)(() => {
+              h(t);
+            }, [t]),
+            a().createElement(
+              "div",
+              {
+                ref: p,
+                className: L,
+                onMouseEnter: N,
+                onMouseMove: T,
+                onMouseUp: x,
+                onMouseDown: P,
+                onMouseLeave: k,
+                onClick: M,
+              },
+              n !== Ie.ghost &&
+                a().createElement(
+                  a().Fragment,
+                  null,
+                  a().createElement("div", { className: Le.back }),
+                  a().createElement("span", { className: Le.texture }),
+                ),
+              a().createElement(
+                "span",
+                { className: I },
+                a().createElement("span", { className: Le.stateDisabled }),
+                a().createElement("span", { className: Le.stateHighlightHover }),
+                a().createElement("span", { className: Le.stateHighlightActive }),
+              ),
+              a().createElement(
+                "span",
+                { className: Le.content, lang: R.strings.settings.LANGUAGE_CODE() },
+                e,
+              ),
+            )
+          );
+        };
+        He.defaultProps = {
+          type: Ie.primary,
+          isFocused: !1,
+          soundHover: "highlight",
+          soundClick: "play",
+        };
+        const Ue = (0, r.memo)(He),
+          We = [
+            "children",
+            "contentId",
+            "args",
+            "onMouseEnter",
+            "onMouseLeave",
+            "onMouseDown",
+            "onClick",
+            "ignoreShowDelay",
+            "ignoreMouseClick",
+            "decoratorId",
+            "isEnabled",
+            "targetId",
+            "onShow",
+            "onHide",
+          ];
+        function Ge(e) {
+          return Object.entries(e || {}).map(([e, u]) => {
+            const t = { __Type: "GFValueProxy", name: e };
+            switch (typeof u) {
+              case "number":
+                t.number = u;
+                break;
+              case "boolean":
+                t.bool = u;
+                break;
+              case "undefined":
+                break;
+              default:
+                t.string = u.toString();
+            }
+            return t;
+          });
+        }
+        const $e = (e, u, t = {}, r = 0) => {
+            viewEnv.handleViewEvent(
+              Object.assign(
+                {
+                  __Type: "GFViewEventProxy",
+                  type: z.B0.TOOLTIP,
+                  contentID: e,
+                  decoratorID: u,
+                  targetID: r,
+                },
+                t,
+              ),
+            );
+          },
+          Ve = (e) => {
+            let u = e.children,
+              t = e.contentId,
+              a = e.args,
+              n = e.onMouseEnter,
+              s = e.onMouseLeave,
+              i = e.onMouseDown,
+              o = e.onClick,
+              l = e.ignoreShowDelay,
+              c = void 0 !== l && l,
+              _ = e.ignoreMouseClick,
+              m = void 0 !== _ && _,
+              E = e.decoratorId,
+              d = void 0 === E ? 0 : E,
+              A = e.isEnabled,
+              p = void 0 === A || A,
+              D = e.targetId,
+              F = void 0 === D ? 0 : D,
+              h = e.onShow,
+              g = e.onHide,
+              B = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, We);
+            const C = (0, r.useRef)({
+                timeoutId: 0,
+                isVisible: !1,
+                prevTarget: null,
+                hideTimerId: null,
+              }),
+              b = (0, r.useMemo)(
+                () =>
+                  F ||
+                  ((e = 1) => {
+                    const u = new Error().stack;
+                    let t,
+                      r = R.invalid("resId");
+                    return (
+                      u &&
+                        ((t = u.split("\n")[e].split(".js")[0].split("/").pop() || ""),
+                        window.__feature &&
+                          window.__feature !== t &&
+                          window.subViews[t] &&
+                          (r = window.subViews[t].id)),
+                      { caller: t, stack: u, resId: r }
+                    );
+                  })().resId,
+                [F],
+              ),
+              v = (0, r.useCallback)(() => {
+                (C.current.isVisible && C.current.timeoutId) ||
+                  ($e(t, d, { isMouseEvent: !0, on: !0, arguments: Ge(a) }, b),
+                  h && h(),
+                  (C.current.isVisible = !0));
+              }, [t, d, a, b, h]),
+              f = (0, r.useCallback)(() => {
+                if (C.current.isVisible || C.current.timeoutId) {
+                  const e = C.current.timeoutId;
+                  (e > 0 && (clearTimeout(e), (C.current.timeoutId = 0)),
+                    $e(t, d, { on: !1 }, b),
+                    C.current.isVisible && g && g(),
+                    (C.current.isVisible = !1));
+                }
+              }, [t, d, b, g]),
+              S = (0, r.useCallback)((e) => {
+                C.current.isVisible &&
+                  ((C.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
+                  (C.current.hideTimerId = window.setTimeout(() => {
+                    const u = document.elementFromPoint(e.clientX, e.clientY);
+                    u && !u.isSameNode(C.current.prevTarget) && f();
+                  }, 200)));
+              }, []);
+            ((0, r.useEffect)(() => {
+              const e = C.current.hideTimerId;
+              return (
+                document.addEventListener("wheel", S, { capture: !0 }),
+                () => {
+                  (document.removeEventListener("wheel", S, { capture: !0 }),
+                    e && window.clearTimeout(e));
+                }
+              );
+            }, []),
+              (0, r.useEffect)(() => {
+                !1 === p && f();
+              }, [p, f]),
+              (0, r.useEffect)(
+                () => (
+                  window.addEventListener("mouseleave", f),
+                  () => {
+                    (window.removeEventListener("mouseleave", f), f());
+                  }
+                ),
+                [f],
+              ));
+            return p
+              ? (0, r.cloneElement)(
+                  u,
+                  Object.assign(
+                    {
+                      onMouseEnter:
+                        ((y = u.props.onMouseEnter),
+                        (e) => {
+                          (e.clientX === window.innerWidth && e.clientY === window.innerHeight) ||
+                            ((C.current.timeoutId = window.setTimeout(v, c ? 100 : 400)),
+                            n && n(e),
+                            y && y(e));
+                        }),
+                      onMouseLeave: ((e) => (u) => {
+                        (f(), null == s || s(u), null == e || e(u));
+                      })(u.props.onMouseLeave),
+                      onClick: ((e) => (u) => {
+                        (!1 === m && f(), null == o || o(u), null == e || e(u));
+                      })(u.props.onClick),
+                      onMouseDown: ((e) => (u) => {
+                        (!1 === m && f(), null == i || i(u), null == e || e(u));
+                      })(u.props.onMouseDown),
+                    },
+                    B,
+                  ),
+                )
+              : u;
+            var y;
+          },
+          Xe = ["children", "body", "header", "note", "alert", "args"];
+        function je() {
+          return (
+            (je =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            je.apply(this, arguments)
+          );
+        }
+        const ze = R.views.common.tooltip_window.simple_tooltip_content,
+          Ye = (e) => {
+            let u = e.children,
+              t = e.body,
+              n = e.header,
+              s = e.note,
+              i = e.alert,
+              o = e.args,
+              l = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, Xe);
+            const c = (0, r.useMemo)(() => {
+              const e = Object.assign({}, o, { body: t, header: n, note: s, alert: i });
+              for (const u in e) void 0 === e[u] && delete e[u];
+              return e;
+            }, [i, t, n, s, o]);
+            return a().createElement(
+              Ve,
+              je(
+                {
+                  contentId:
+                    ((_ = null == o ? void 0 : o.hasHtmlContent),
+                    _ ? ze.SimpleTooltipHtmlContent("resId") : ze.SimpleTooltipContent("resId")),
+                  decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
+                  args: c,
+                },
+                l,
+              ),
+              u,
+            );
+            var _;
+          },
+          qe = {
+            base: "TokenWidget_base_1e",
+            widgetBg: "TokenWidget_widgetBg_c4",
+            button: "TokenWidget_button_4b",
+            title: "TokenWidget_title_fc",
+            widgetIcon: "TokenWidget_widgetIcon_6c",
+            widgetIcon__shop: "TokenWidget_widgetIcon__shop_ab",
+            widgetIcon__quests: "TokenWidget_widgetIcon__quests_62",
+          },
+          Ke = R.strings.event.summerSales.mainView.widget,
+          Ze = (0, r.memo)(({ onClick: e, className: u, type: t }) =>
+            a().createElement(
+              Ye,
+              { header: Ke.tooltip.title.$dyn(t), body: Ke.tooltip.description.$dyn(t) },
+              a().createElement(
+                "div",
+                {
+                  className: g()(qe.base, u),
+                  onMouseEnter: () => {
+                    ve(R.sounds.summer_sale_ui_hover());
+                  },
+                },
+                a().createElement("div", { className: qe.widgetBg }),
+                a().createElement("div", { className: g()(qe.widgetIcon, qe[`widgetIcon__${t}`]) }),
+                a().createElement(be, { className: qe.title, text: Ke.text.$dyn(t) }),
+                a().createElement(
+                  Ue,
+                  {
+                    size: Oe.small,
+                    mixClass: qe.button,
+                    onClick: () => {
+                      e(t);
+                    },
+                  },
+                  a().createElement(be, { text: Ke.button.$dyn(t) }),
+                ),
+              ),
+            ),
+          );
+        class Qe extends a().PureComponent {
+          render() {
+            let e;
+            if ("gold" === this.props.format) e = z.B3.GOLD;
+            else e = z.B3.INTEGRAL;
+            const u = z.Z5.getNumberFormat(this.props.value, e);
+            return void 0 !== this.props.value && void 0 !== u ? u : null;
+          }
+        }
+        let Je, eu, uu, tu, ru, au, nu, su, iu;
+        ((Qe.defaultProps = { format: "integral" }),
+          (function (e) {
+            ((e.Items = "items"),
+              (e.Equipment = "equipment"),
+              (e.Xp = "xp"),
+              (e.XpFactor = "xpFactor"),
+              (e.Blueprints = "blueprints"),
+              (e.BlueprintsAny = "blueprintsAny"),
+              (e.Goodies = "goodies"),
+              (e.Berths = "berths"),
+              (e.Slots = "slots"),
+              (e.Tokens = "tokens"),
+              (e.CrewSkins = "crewSkins"),
+              (e.CrewBooks = "crewBooks"),
+              (e.Customizations = "customizations"),
+              (e.CreditsFactor = "creditsFactor"),
+              (e.Currency = "currency"),
+              (e.TankmenXp = "tankmenXP"),
+              (e.TankmenXpFactor = "tankmenXPFactor"),
+              (e.FreeXpFactor = "freeXPFactor"),
+              (e.BattleToken = "battleToken"),
+              (e.PremiumUniversal = "premium_universal"),
+              (e.Gold = "gold"),
+              (e.Credits = "credits"),
+              (e.Crystal = "crystal"),
+              (e.FreeXp = "freeXP"),
+              (e.Premium = "premium"),
+              (e.PremiumPlus = "premium_plus"),
+              (e.BattlePassPoints = "battlePassPoints"),
+              (e.BattlePassSelectToken = "battlePassSelectToken"),
+              (e.SelectableBonus = "selectableBonus"),
+              (e.StyleProgressToken = "styleProgressToken"),
+              (e.TmanToken = "tmanToken"),
+              (e.NaturalCover = "naturalCover"),
+              (e.BpCoin = "bpcoin"),
+              (e.BattlaPassFinalAchievement = "dossier_achievement"),
+              (e.BattleBadge = "dossier_badge"),
+              (e.NewYearAlbumsAccess = "newYearAlbumsAccess"),
+              (e.NewYearFillers = "ny22Fillers"),
+              (e.NewYearInvoice = "newYearInvoice"),
+              (e.NewYearToyFragments = "ny22ToyFragments"),
+              (e.NewYearSlot = "newYearSlot"),
+              (e.BonusX5 = "battle_bonus_x5"),
+              (e.CrewBonusX3 = "crew_bonus_x3"),
+              (e.Vehicles = "vehicles"),
+              (e.EpicSelectToken = "epicSelectToken"),
+              (e.CollectionItem = "collectionItem"),
+              (e.Comp7TokenWeeklyReward = "comp7TokenWeeklyReward"),
+              (e.Comp7TokenCouponReward = "comp7TokenCouponReward"),
+              (e.BattleBoosterGift = "battleBooster_gift"),
+              (e.CosmicLootboxSilver = "lootBoxToken"),
+              (e.CosmicLootboxCommon = "cosmic_2024_2"),
+              (e.Branch = "branch"),
+              (e.VehicleSelect = "vehicleSelect"),
+              (e.StyleProgress = "styleProgress"),
+              (e.ParagonsUnlocks = "paragonsUnlocks"),
+              (e.LootBoxToken = "lootBoxToken"),
+              (e.PostStamp = "giftsystem_5_stamp"),
+              (e.Quests = "quests"),
+              (e.ArmoryCoin = "armory_coin"),
+              (e.PremiumPlusUniversal = "premium_plus_universal"),
+              (e.DogTagType = "dogTagComponents"),
+              (e.GoldenTicket = "goldenticket"),
+              (e.LbStyleProgress = "lbStyleProgress"),
+              (e.RewardsSlots = "rewardsSlots"));
+          })(Je || (Je = {})),
+          (function (e) {
+            ((e.Gold = "gold"),
+              (e.Credits = "credits"),
+              (e.Crystal = "crystal"),
+              (e.Premium = "premium"),
+              (e.PremiumPlus = "premium_plus"),
+              (e.Vehicles = "vehicles"),
+              (e.Customizations = "customizations"),
+              (e.Blueprints = "blueprints"),
+              (e.BlueprintsAny = "blueprintsAny"),
+              (e.BlueprintsFinal = "finalBlueprints"),
+              (e.Goodies = "goodies"),
+              (e.CrewSkins = "crewSkins"),
+              (e.Xp = "xp"),
+              (e.XpFactor = "xpFactor"),
+              (e.FreeXp = "freeXP"),
+              (e.FreeXPFactor = "freeXPFactor"),
+              (e.TankmenXP = "tankmenXP"),
+              (e.TankmenXPFactor = "tankmenXPFactor"),
+              (e.DailyXPFactor = "dailyXPFactor"),
+              (e.CreditsFactor = "creditsFactor"),
+              (e.Items = "items"),
+              (e.StrBonus = "strBonus"),
+              (e.Groups = "groups"),
+              (e.Berths = "berths"),
+              (e.Slots = "slots"),
+              (e.Meta = "meta"),
+              (e.Tokens = "tokens"),
+              (e.Dossier = "dossier"),
+              (e.OneOf = "oneof"),
+              (e.PremiumUniversal = "premium_universal"),
+              (e.BadgesGroup = "badgesGroup"),
+              (e.Entitlements = "entitlements"),
+              (e.RankedDailyBattles = "rankedDailyBattles"),
+              (e.RankedBonusBattles = "rankedBonusBattles"),
+              (e.BattlePassPoints = "battlePassPoints"),
+              (e.BattleBadge = "dossier_badge"),
+              (e.BattleAchievement = "dossier_achievement"));
+          })(eu || (eu = {})),
+          (function (e) {
+            ((e.Big = "big"),
+              (e.Small = "small"),
+              (e.Mini = "mini"),
+              (e.S600x450 = "s600x450"),
+              (e.S400x300 = "s400x300"),
+              (e.S296x222 = "s296x222"),
+              (e.S232x174 = "s232x174"),
+              (e.S180x135 = "s180x135"),
+              (e.S128x100 = "s128x100"),
+              (e.S80x80 = "s80x80"),
+              (e.S48x48 = "s48x48"));
+          })(uu || (uu = {})),
+          (function (e) {
+            ((e.MULTI = "multi"),
+              (e.CURRENCY = "currency"),
+              (e.PREMIUM_PLUS = "premium_plus"),
+              (e.NUMBER = "number"),
+              (e.STRING = "string"));
+          })(tu || (tu = {})),
+          (function (e) {
+            ((e.BATTLE_BOOSTER = "battleBooster"),
+              (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
+              (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
+              (e.EQUIPMENT_PLUS = "equipmentPlus"),
+              (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
+              (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
+              (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
+              (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
+              (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
+              (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
+          })(ru || (ru = {})),
+          (function (e) {
+            e.BATTLE_BOOSTER = "battleBooster";
+          })(au || (au = {})),
+          (function (e) {
+            ((e.BATTLE_BOOSTER = "battleBooster"),
+              (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
+              (e.BUILT_IN_EQUIPMENT = "builtInEquipment"),
+              (e.EQUIPMENT_PLUS = "equipmentPlus"),
+              (e.EQUIPMENT_TROPHY_BASIC = "equipmentTrophyBasic"),
+              (e.EQUIPMENT_TROPHY_UPGRADED = "equipmentTrophyUpgraded"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_1 = "equipmentModernized_1"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_2 = "equipmentModernized_2"),
+              (e.EQUIPMENT_MODERNIZED_UPGRADED_3 = "equipmentModernized_3"),
+              (e.PROGRESSION_STYLE_UPGRADED_1 = "progressionStyleUpgraded_1"),
+              (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
+              (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
+              (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
+          })(nu || (nu = {})),
+          (function (e) {
+            ((e.Small = "400x300"), (e.Big = "600x450"));
+          })(su || (su = {})),
+          (function (e) {
+            e.ProgressionStyle = "progressionStyle";
+          })(iu || (iu = {})));
+        const ou = [
+            Je.Items,
+            Je.Equipment,
+            Je.Xp,
+            Je.XpFactor,
+            Je.Blueprints,
+            Je.BlueprintsAny,
+            Je.Goodies,
+            Je.Berths,
+            Je.Slots,
+            Je.Tokens,
+            Je.CrewSkins,
+            Je.CrewBooks,
+            Je.Customizations,
+            Je.CreditsFactor,
+            Je.TankmenXp,
+            Je.TankmenXpFactor,
+            Je.FreeXpFactor,
+            Je.BattleToken,
+            Je.PremiumUniversal,
+            Je.NaturalCover,
+            Je.BpCoin,
+            Je.BattlePassSelectToken,
+            Je.BattlaPassFinalAchievement,
+            Je.BattleBadge,
+            Je.BonusX5,
+            Je.CrewBonusX3,
+            Je.NewYearFillers,
+            Je.NewYearInvoice,
+            Je.EpicSelectToken,
+            Je.Comp7TokenWeeklyReward,
+            Je.Comp7TokenCouponReward,
+            Je.BattleBoosterGift,
+            Je.CosmicLootboxCommon,
+            Je.CosmicLootboxSilver,
+            Je.SelectableBonus,
+            Je.PostStamp,
+            Je.PremiumPlusUniversal,
+            Je.GoldenTicket,
+            Je.RewardsSlots,
+          ],
+          lu = [Je.Gold, Je.Credits, Je.Crystal, Je.FreeXp],
+          cu = [Je.BattlePassPoints],
+          _u = [Je.PremiumPlus, Je.Premium];
+        let mu;
+        !(function (e) {
+          ((e.s16 = "16"),
+            (e.s32 = "32"),
+            (e.s48 = "48"),
+            (e.s66 = "66"),
+            (e.s80 = "80"),
+            (e.s116 = "116"),
+            (e.s296 = "296"),
+            (e.s360 = "360"),
+            (e.s400 = "400"),
+            (e.s600 = "600"));
+        })(mu || (mu = {}));
+        const Eu = ["engravings", "backgrounds"],
+          du = ["engraving", "background"],
+          Au = (e, u = uu.Small) => {
+            const t = e.name,
+              r = e.type,
+              a = e.value,
+              n = e.icon,
+              s = e.item,
+              i = e.dogTagType,
+              o = ((e) => {
+                switch (e) {
+                  case uu.S600x450:
+                    return "c_600x450";
+                  case uu.S400x300:
+                    return "c_400x300";
+                  case uu.S296x222:
+                    return "c_296x222";
+                  case uu.S232x174:
+                    return "c_232x174";
+                  case uu.Big:
+                    return "c_80x80";
+                  case uu.Small:
+                    return "c_48x48";
+                  default:
+                    return e;
+                }
+              })(u);
+            switch (t) {
+              case "basic":
+              case "plus":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${r}_${a}`;
+              case "premium":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}_plus_${a}`;
+              case "premium_plus":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}_${a}`;
+              case "items":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${s}`;
+              case "blueprints":
+              case "blueprintsAny":
+              case "finalBlueprints":
+                return `R.images.gui.maps.icons.blueprints.fragment.${u}.${n}`;
+              case "tokens":
+              case "battleToken":
+                return ((e, u) => {
+                  switch (u) {
+                    case uu.Big:
+                      return e.iconBig.replace("..", "img://gui");
+                    case uu.Small:
+                      return e.iconSmall.replace("..", "img://gui");
+                    default:
+                      return `R.images.gui.maps.icons.quests.bonuses.${u}.${e.icon}`;
+                  }
+                })(e, u);
+              case "crewBooks":
+                return `R.images.gui.maps.icons.crewBooks.books.${u}.${n}`;
+              case "dogTagComponents":
+                return ((e, u, t) => {
+                  const r = Eu[e];
+                  if (r) {
+                    const a = R.images.gui.maps.icons.dogtags.$dyn(u).$dyn(r),
+                      n = a.$dyn(t);
+                    return n ? `${n}` : `${a.$dyn(du[e])}`;
+                  }
+                  return (
+                    console.error(
+                      "Unreachable branch: add dogTagType and icon folder for corresponding icon matching",
+                    ),
+                    ""
+                  );
+                })(i, u, n);
+              case "dossier_badge":
+                return `R.images.gui.maps.icons.quests.bonuses.badges.${o}.${n}`;
+              case "dossier_achievement":
+                return `R.images.gui.maps.icons.achievement.${((e) => {
+                  switch (e) {
+                    case uu.S600x450:
+                      return "c_600x450";
+                    case uu.S400x300:
+                      return "c_400x300";
+                    case uu.S296x222:
+                      return "c_296x222";
+                    case uu.S232x174:
+                      return "c_232x174";
+                    case uu.S180x135:
+                      return "big";
+                    case uu.Big:
+                    case uu.S80x80:
+                      return "c_80x80";
+                    case uu.Small:
+                    case uu.S48x48:
+                      return "c_48x48";
+                    default:
+                      return e;
+                  }
+                })(u)}.${n}`;
+              case "xp":
+              case "xpFactor":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.exp`;
+              case "creditsFactor":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.credits`;
+              case "tankmenXPFactor":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.tankmenXP`;
+              case "dailyXPFactor":
+              case "freeXPFactor":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.freeXP`;
+              case "tmanToken":
+              case "battlePassSelectToken":
+              case "selectableBonus":
+              case "groups":
+              case "lootBoxToken":
+              case "customizations":
+              case "crewSkins":
+              case "goodies":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${n}`;
+              case "premiumTank":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.vehicles`;
+              case "styleProgressToken":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.style_3d`;
+              case "collectionItem":
+                return `R.images.gui.maps.icons.collectionItems.${o}.${n}`;
+              case "premium_universal":
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.premium_plus_universal`;
+              case "armory_coin":
+                return `R.images.armory_yard.gui.maps.icons.token.sf${((e) => {
+                  switch (e) {
+                    case uu.Mini:
+                      return mu.s32;
+                    case uu.Small:
+                    case uu.S48x48:
+                      return mu.s48;
+                    case uu.S80x80:
+                    case uu.Big:
+                      return mu.s80;
+                    case uu.S128x100:
+                      return mu.s116;
+                    case uu.S180x135:
+                    case uu.S232x174:
+                    case uu.S296x222:
+                      return mu.s296;
+                    case uu.S400x300:
+                      return mu.s400;
+                    case uu.S600x450:
+                      return mu.s600;
+                  }
+                })(u)}`;
+              case Je.StyleProgress:
+              case Je.LbStyleProgress:
+                return Du(n, u, iu.ProgressionStyle);
+              default:
+                return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
+            }
+          },
+          pu = (e, u, t) => {
+            const r = u && { contentId: u };
+            return Object.assign(
+              {
+                args: e,
+                isEnabled: Boolean((e && e.tooltipId) || u),
+                ignoreMouseClick: !0,
+                ignoreShowDelay: !u,
+              },
+              r,
+              t,
+            );
+          },
+          Du = (e, u, t) => {
+            const r = R.images.gui.maps.icons.quests.bonuses.$dyn(u),
+              a = r.$dyn(e);
+            return String(null != a ? a : r.$dyn(t));
+          };
+        function Fu() {
+          return !1;
+        }
+        console.log;
+        var hu = t(174);
+        function gu(e, u) {
+          var t = ("undefined" != typeof Symbol && e[Symbol.iterator]) || e["@@iterator"];
+          if (t) return (t = t.call(e)).next.bind(t);
+          if (
+            Array.isArray(e) ||
+            (t = (function (e, u) {
+              if (!e) return;
+              if ("string" == typeof e) return Bu(e, u);
+              var t = Object.prototype.toString.call(e).slice(8, -1);
+              "Object" === t && e.constructor && (t = e.constructor.name);
+              if ("Map" === t || "Set" === t) return Array.from(e);
+              if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
+                return Bu(e, u);
+            })(e)) ||
+            (u && e && "number" == typeof e.length)
+          ) {
+            t && (e = t);
+            var r = 0;
+            return function () {
+              return r >= e.length ? { done: !0 } : { done: !1, value: e[r++] };
+            };
+          }
+          throw new TypeError(
+            "Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
+          );
+        }
+        function Bu(e, u) {
+          (null == u || u > e.length) && (u = e.length);
+          for (var t = 0, r = new Array(u); t < u; t++) r[t] = e[t];
+          return r;
+        }
+        const Cu = (e) => (0 === e ? window : window.subViews.get(e));
+        const bu = (e) => {
+            return null !== e && "object" == typeof e
+              ? "CoherentArrayProxy" === e.constructor.name
+                ? ((u = e),
+                  (t = (e) => ("object" == typeof e ? bu(e) : e)),
+                  Array.isArray(u)
+                    ? u.map(t)
+                    : u.map((e, u, r) => t(null == e ? void 0 : e.value, u, r)))
+                : Array.isArray(e)
+                  ? e.map((e) => ("object" == typeof e ? bu(e) : e))
+                  : Object.fromEntries(
+                      Object.entries(e).map(([e, u]) => [e, "object" == typeof u ? bu(u) : u]),
+                    )
+              : e;
+            var u, t;
+          },
+          vu = (e) => bu(e);
+        var fu = t(946);
+        const Su = ((e, u) => {
+            const t = (0, r.createContext)({});
+            return [
+              function ({ mode: n = "real", options: i, children: o, mocks: l }) {
+                const c = (0, r.useRef)([]),
+                  _ = (t, r, a) => {
+                    var n;
+                    const i = (function ({
+                        initializer: e = !0,
+                        rootId: u = 0,
+                        getRoot: t = Cu,
+                        context: r = "model",
+                      } = {}) {
+                        const a = new Map();
+                        function n(e, u = 0) {
+                          viewEnv.removeDataChangedCallback(e, u)
+                            ? a.delete(e)
+                            : console.error("Can't remove callback by id:", e);
+                        }
+                        engine.whenReady.then(() => {
+                          engine.on("viewEnv.onDataChanged", (e, u, t) => {
+                            t.forEach((u) => {
+                              const t = a.get(u);
+                              void 0 !== t && t(e);
+                            });
+                          });
+                        });
+                        const i = (e) => {
+                          const a = t(u),
+                            n = r.split(".").reduce((e, u) => e[u], a);
+                          return "string" != typeof e || 0 === e.length
+                            ? n
+                            : e.split(".").reduce((e, u) => {
+                                const t = e[u];
+                                return "function" == typeof t ? t.bind(e) : t;
+                              }, n);
+                        };
+                        return {
+                          subscribe: (t, n) => {
+                            const o = "string" == typeof n ? `${r}.${n}` : r,
+                              l = s.O.view.addModelObserver(o, u, !0);
+                            return (a.set(l, t), e && t(i(n)), l);
+                          },
+                          readByPath: i,
+                          createCallback: (e, u) => {
+                            const t = i(u);
+                            return (...u) => {
+                              t(e(...u));
+                            };
+                          },
+                          createCallbackNoArgs: (e) => {
+                            const u = i(e);
+                            return () => {
+                              u();
+                            };
+                          },
+                          dispose: function () {
+                            for (var e, t = gu(a.keys()); !(e = t()).done;) n(e.value, u);
+                          },
+                          unsubscribe: n,
+                        };
+                      })(r),
+                      o =
+                        "real" === t
+                          ? i
+                          : Object.assign({}, i, {
+                              readByPath:
+                                null != (n = null == a ? void 0 : a.getter) ? n : () => {},
+                            }),
+                      l = (e) =>
+                        "mocks" === t ? (null == a ? void 0 : a.getter(e)) : o.readByPath(e),
+                      _ = (e) => c.current.push(e),
+                      m = e({
+                        mode: t,
+                        readByPath: l,
+                        externalModel: o,
+                        observableModel: {
+                          array: (e, u) => {
+                            const r = null != u ? u : l(e),
+                              a = hu.LO.box(r, { equals: Fu });
+                            return (
+                              "real" === t &&
+                                o.subscribe(
+                                  (0, hu.aD)((e) => a.set(e)),
+                                  e,
+                                ),
+                              a
+                            );
+                          },
+                          object: (e, u) => {
+                            const r = null != u ? u : l(e),
+                              a = hu.LO.box(r, { equals: Fu });
+                            return (
+                              "real" === t &&
+                                o.subscribe(
+                                  (0, hu.aD)((e) => a.set(e)),
+                                  e,
+                                ),
+                              a
+                            );
+                          },
+                          primitives: (e, u) => {
+                            const r = l(u);
+                            if (Array.isArray(e)) {
+                              const a = e.reduce((e, u) => ((e[u] = hu.LO.box(r[u], {})), e), {});
+                              return (
+                                "real" === t &&
+                                  o.subscribe(
+                                    (0, hu.aD)((u) => {
+                                      e.forEach((e) => {
+                                        a[e].set(u[e]);
+                                      });
+                                    }),
+                                    u,
+                                  ),
+                                a
+                              );
+                            }
+                            {
+                              const a = e,
+                                n = Object.entries(a),
+                                s = n.reduce((e, [u, t]) => ((e[t] = hu.LO.box(r[u], {})), e), {});
+                              return (
+                                "real" === t &&
+                                  o.subscribe(
+                                    (0, hu.aD)((e) => {
+                                      n.forEach(([u, t]) => {
+                                        s[t].set(e[u]);
+                                      });
+                                    }),
+                                    u,
+                                  ),
+                                s
+                              );
+                            }
+                          },
+                        },
+                        cleanup: _,
+                      }),
+                      E = { mode: t, model: m, externalModel: o, cleanup: _ };
+                    return {
+                      model: m,
+                      controls: "mocks" === t && a ? a.controls(E) : u(E),
+                      externalModel: o,
+                      mode: t,
+                    };
+                  },
+                  m = (0, r.useRef)(!1),
+                  E = (0, r.useState)(n),
+                  d = E[0],
+                  A = E[1],
+                  p = (0, r.useState)(() => _(n, i, l)),
+                  D = p[0],
+                  F = p[1];
+                return (
+                  (0, r.useEffect)(() => {
+                    m.current ? F(_(d, i, l)) : (m.current = !0);
+                  }, [l, d, i]),
+                  (0, r.useEffect)(() => {
+                    A(n);
+                  }, [n]),
+                  (0, r.useEffect)(
+                    () => () => {
+                      (D.externalModel.dispose(), c.current.forEach((e) => e()));
+                    },
+                    [D],
+                  ),
+                  a().createElement(t.Provider, { value: D }, o)
+                );
+              },
+              () => (0, r.useContext)(t),
+            ];
+          })(
+            ({ observableModel: e }) => {
+              const u = {
+                  root: e.object(),
+                  stepper: e.object("stepper"),
+                  rewards: e.array("rewards"),
+                  products: e.array("products"),
+                  eventTimeRange: e.object("eventTimeRange"),
+                  honeyCoinsBalance: e.object("honeyCoinsBalance"),
+                  progressionLevel: e.object("progressionLevel"),
+                },
+                t = (e) =>
+                  Object.assign(
+                    { tooltipArgs: pu({ tooltipId: e.tooltipId }, Number(e.tooltipContentId)) },
+                    e,
+                  ),
+                r = (0, fu.Om)(
+                  () =>
+                    vu(u.rewards.get()).map((e) =>
+                      Object.assign({}, e, { rewards: vu(e.rewards).map((e) => t(e)) }),
+                    ),
+                  { equals: Fu },
+                ),
+                a = (0, fu.Om)(() => vu(u.products.get()).map((e) => t(e)), { equals: Fu });
+              return Object.assign({}, u, { computes: { getRewards: r, getProducts: a } });
+            },
+            ({ externalModel: e }) => ({
+              close: e.createCallbackNoArgs("onClose"),
+              openShop: e.createCallbackNoArgs("onOpenShop"),
+              infoClick: e.createCallbackNoArgs("onInfoClick"),
+              buyCoinsClick: e.createCallbackNoArgs("onBuyCoinsClick"),
+              openQuests: e.createCallbackNoArgs("onOpenQuests"),
+              stepperChange: e.createCallback(
+                (e) => ({ selectedCount: e }),
+                "onStepperCountChange",
+              ),
+              buyProductClick: e.createCallback(
+                (e, u) => ({ productCode: e, count: u }),
+                "onBuyProductClick",
+              ),
+              previewVehicle: e.createCallback((e) => ({ vehicleCD: e }), "onPreviewVehicle"),
+            }),
+          ),
+          yu = Su[0],
+          wu = Su[1],
+          Mu = "App_base_ac",
+          Nu = "App_background_48",
+          Tu = "App_control_e1",
+          xu = "App_header_bd",
+          Ru = "App_headerShadow_cf",
+          Pu = "App_title_62",
+          ku = "App_subTitle_1d",
+          Lu = "App_calendar_85",
+          Iu = "App_info_a6",
+          Ou = "App_catalogWrapper_7f",
+          Hu = "App_base__open_5c",
+          Uu = "App_widgetsWrapper_61",
+          Wu = "App_widgetsWrapper__hover_55",
+          Gu = "App_marketScalesWrapper_fd",
+          $u = "App_widget_87";
+        var Vu = t(30);
+        const Xu = {
+          base: "Catalog_base_77",
+          page: "Catalog_page_65",
+          page__one: "Catalog_page__one_b7",
+          page__two: "Catalog_page__two_d8",
+          page__three: "Catalog_page__three_08",
+          contentFix: "Catalog_contentFix_79",
+          bendContainer: "Catalog_bendContainer_9c",
+          coverBendContainer: "Catalog_coverBendContainer_3d",
+          pageInner: "Catalog_pageInner_89",
+          coverInner: "Catalog_coverInner_6d",
+          gutterShadowRight: "Catalog_gutterShadowRight_dd",
+          gutterShadowLeft: "Catalog_gutterShadowLeft_c1",
+          content: "Catalog_content_94",
+          content__three: "Catalog_content__three_34",
+          item: "Catalog_item_1a",
+          leftItem: "Catalog_leftItem_d3",
+        };
+        t(368);
+        let ju;
+        !(function (e) {
+          ((e[(e.ZERO = 48)] = "ZERO"),
+            (e[(e.ONE = 49)] = "ONE"),
+            (e[(e.TWO = 50)] = "TWO"),
+            (e[(e.THREE = 51)] = "THREE"),
+            (e[(e.FOUR = 52)] = "FOUR"),
+            (e[(e.FIVE = 53)] = "FIVE"),
+            (e[(e.SIX = 54)] = "SIX"),
+            (e[(e.SEVEN = 55)] = "SEVEN"),
+            (e[(e.EIGHT = 56)] = "EIGHT"),
+            (e[(e.NINE = 57)] = "NINE"),
+            (e[(e.NUMPAD_0 = 96)] = "NUMPAD_0"),
+            (e[(e.NUMPAD_1 = 97)] = "NUMPAD_1"),
+            (e[(e.NUMPAD_2 = 98)] = "NUMPAD_2"),
+            (e[(e.NUMPAD_3 = 99)] = "NUMPAD_3"),
+            (e[(e.NUMPAD_4 = 100)] = "NUMPAD_4"),
+            (e[(e.NUMPAD_5 = 101)] = "NUMPAD_5"),
+            (e[(e.NUMPAD_6 = 102)] = "NUMPAD_6"),
+            (e[(e.NUMPAD_7 = 103)] = "NUMPAD_7"),
+            (e[(e.NUMPAD_8 = 104)] = "NUMPAD_8"),
+            (e[(e.NUMPAD_9 = 105)] = "NUMPAD_9"));
+        })(ju || (ju = {}));
+        const zu = {
+          base: "NumericStepper_base_35",
+          base__small: "NumericStepper_base__small_11",
+          base__medium: "NumericStepper_base__medium_9d",
+          base__large: "NumericStepper_base__large_dc",
+          base__isFocus: "NumericStepper_base__isFocus_49",
+          base__isDisabled: "NumericStepper_base__isDisabled_ac",
+          inputContainer: "NumericStepper_inputContainer_e2",
+          input: "NumericStepper_input_55",
+          "base__withCurrency-small": "NumericStepper_base__withCurrency-small_de",
+          "base__withCurrency-medium": "NumericStepper_base__withCurrency-medium_69",
+          "base__withCurrency-large": "NumericStepper_base__withCurrency-large_a1",
+          input__disabled: "NumericStepper_input__disabled_d8",
+          input__credits: "NumericStepper_input__credits_08",
+          "input__credits-disabled": "NumericStepper_input__credits-disabled_3f",
+          input__gold: "NumericStepper_input__gold_14",
+          "input__gold-disabled": "NumericStepper_input__gold-disabled_c6",
+          input__xp: "NumericStepper_input__xp_c4",
+          input__freeXP: "NumericStepper_input__freeXP_06",
+          input__crystal: "NumericStepper_input__crystal_2e",
+          "input__xp-disabled": "NumericStepper_input__xp-disabled_33",
+          "input__freeXP-disabled": "NumericStepper_input__freeXP-disabled_8b",
+          "input__crystal-disabled": "NumericStepper_input__crystal-disabled_f8",
+          input__withCurrency: "NumericStepper_input__withCurrency_3b",
+          "input__xp-medium": "NumericStepper_input__xp-medium_db",
+          "input__xp-large": "NumericStepper_input__xp-large_73",
+          "input__freeXP-medium": "NumericStepper_input__freeXP-medium_2b",
+          "input__freeXP-large": "NumericStepper_input__freeXP-large_c9",
+          "input__crystal-medium": "NumericStepper_input__crystal-medium_56",
+          "input__crystal-large": "NumericStepper_input__crystal-large_4e",
+          currency: "NumericStepper_currency_38",
+          "currency__xp-medium": "NumericStepper_currency__xp-medium_66",
+          "currency__xp-large": "NumericStepper_currency__xp-large_66",
+          "currency__freeXP-medium": "NumericStepper_currency__freeXP-medium_79",
+          "currency__freeXP-large": "NumericStepper_currency__freeXP-large_c7",
+          "currency__crystal-medium": "NumericStepper_currency__crystal-medium_55",
+          "currency__crystal-large": "NumericStepper_currency__crystal-large_a4",
+          currencyIcon: "NumericStepper_currencyIcon_8e",
+          "currencyIcon__credits-small": "NumericStepper_currencyIcon__credits-small_99",
+          "currencyIcon__credits-medium": "NumericStepper_currencyIcon__credits-medium_1a",
+          "currencyIcon__credits-large": "NumericStepper_currencyIcon__credits-large_bc",
+          "currencyIcon__gold-small": "NumericStepper_currencyIcon__gold-small_2a",
+          "currencyIcon__gold-medium": "NumericStepper_currencyIcon__gold-medium_f6",
+          "currencyIcon__gold-large": "NumericStepper_currencyIcon__gold-large_d6",
+          "currencyIcon__crystal-small": "NumericStepper_currencyIcon__crystal-small_b5",
+          "currencyIcon__crystal-medium": "NumericStepper_currencyIcon__crystal-medium_ac",
+          "currencyIcon__crystal-large": "NumericStepper_currencyIcon__crystal-large_2b",
+          "currencyIcon__freeXP-small": "NumericStepper_currencyIcon__freeXP-small_4d",
+          "currencyIcon__freeXP-medium": "NumericStepper_currencyIcon__freeXP-medium_85",
+          "currencyIcon__freeXP-large": "NumericStepper_currencyIcon__freeXP-large_76",
+          "currencyIcon__xp-small": "NumericStepper_currencyIcon__xp-small_73",
+          "currencyIcon__xp-medium": "NumericStepper_currencyIcon__xp-medium_ef",
+          "currencyIcon__xp-large": "NumericStepper_currencyIcon__xp-large_3e",
+          dummyValue: "NumericStepper_dummyValue_0c",
+          control: "NumericStepper_control_ab",
+          buttonIncrement: "NumericStepper_buttonIncrement_16",
+          buttonDecrement: "NumericStepper_buttonDecrement_c8",
+          buttonIncrement__small: "NumericStepper_buttonIncrement__small_f6",
+          buttonDecrement__small: "NumericStepper_buttonDecrement__small_36",
+          buttonIncrement__medium: "NumericStepper_buttonIncrement__medium_fd",
+          buttonDecrement__medium: "NumericStepper_buttonDecrement__medium_d1",
+          buttonIncrement__large: "NumericStepper_buttonIncrement__large_56",
+          buttonDecrement__large: "NumericStepper_buttonDecrement__large_63",
+          buttonIncrement__isDisabled: "NumericStepper_buttonIncrement__isDisabled_68",
+          buttonDecrement__isDisabled: "NumericStepper_buttonDecrement__isDisabled_d9",
+          "buttonIncrement__isActive-small": "NumericStepper_buttonIncrement__isActive-small_2a",
+          "buttonIncrement__isActive-medium": "NumericStepper_buttonIncrement__isActive-medium_c2",
+          "buttonIncrement__isActive-large": "NumericStepper_buttonIncrement__isActive-large_91",
+          "buttonDecrement__isActive-small": "NumericStepper_buttonDecrement__isActive-small_21",
+          "buttonDecrement__isActive-medium": "NumericStepper_buttonDecrement__isActive-medium_a3",
+          "buttonDecrement__isActive-large": "NumericStepper_buttonDecrement__isActive-large_8b",
+        };
+        class Yu extends a().PureComponent {
+          constructor(...e) {
+            (super(...e),
+              (this.timer = null),
+              (this.validationTimer = null),
+              (this.numericalStepper = (0, r.createRef)()),
+              (this.input = (0, r.createRef)()),
+              (this.state = {
+                value: this.props.value,
+                isFocused: this.props.isFocused,
+                activeDecrement: !1,
+                activeIncrement: !1,
+              }),
+              (this.setFocusOnInput = () => {
+                this.props.isDisabled ||
+                  (this.input.current &&
+                    (this.input.current.focus(), this.setState({ isFocused: !0 })));
+              }),
+              (this.blurInput = () => {
+                this.input.current && (this.input.current.blur(), this.setState({ isFocused: !1 }));
+              }),
+              (this.componentDidMount = () => {
+                (this.state.isFocused &&
+                  (this.setFocusOnInput(),
+                  setTimeout(() => {
+                    const e = this.formattedValue.length;
+                    this.input.current && this.input.current.setSelectionRange(e, e);
+                  }, 0)),
+                  document.addEventListener("click", this.handleClickOutside),
+                  document.addEventListener("mouseup", this.handleMouseUp));
+              }),
+              (this.componentWillUnmount = () => {
+                (this.stop(),
+                  document.removeEventListener("click", this.handleClickOutside),
+                  document.removeEventListener("mouseup", this.handleMouseUp));
+              }),
+              (this.formatValue = (e) =>
+                this.props.currencyType ? z.Z5.getNumberFormat(e, z.B3.GOLD) : e.toString()),
+              (this.getValidValue = (e) => {
+                const u = Math.min(this.props.maximum, Math.max(this.props.minimum, e)),
+                  t = this.props.stepSize;
+                return Math.round(u / t) * t;
+              }),
+              (this.changeValue = (e) => {
+                e !== this.state.value && (this.setState({ value: e }), this.props.onChange(e));
+              }),
+              (this.setCursorPosition = (e, u) => {
+                (this.input.current && this.input.current.setSelectionRange(e, u),
+                  setTimeout(() => {
+                    this.input.current && this.input.current.setSelectionRange(e, u);
+                  }));
+              }),
+              (this.handleChange = () => {
+                this.props.isDisabled || this.updateInput();
+              }),
+              (this.updateInput = (e = 0) => {
+                const u = e === Ne.n.BACKSPACE,
+                  t = e === Ne.n.DELETE,
+                  r = this.input.current,
+                  a = r.selectionStart || 0,
+                  n = r.selectionEnd || 0;
+                let s = r.value;
+                const i = Math.max(a, n),
+                  o = i;
+                (t && (s = s.substring(0, i) + s.substring(i + 1, s.length)),
+                  u && 1 === a && 1 === s.length && (s = "0"));
+                const l = Number(s.trim().replace(/\D/g, "")),
+                  c = Number.isSafeInteger(l) ? l : Number.MAX_SAFE_INTEGER,
+                  _ = this.props.currencyType ? z.Z5.getNumberFormat(c, z.B3.GOLD) : c.toString(),
+                  m = !isNaN(Number(s.replace(" ", "")));
+                r.value = _;
+                const E = new RegExp(/\d/g);
+                let d = 0;
+                for (let e = 0; e < o; e++) {
+                  const u = s[e] || "",
+                    t = _[d] || "";
+                  if (u.match(E) || u === t) {
+                    for (; u !== _[d] && d < _.length;) d++;
+                    d++;
+                  }
+                }
+                ("" === s ? (d = 1) : m || (d = s.length),
+                  this.input.current && this.input.current.setSelectionRange(0, 0),
+                  this.setCursorPosition(d, d),
+                  this.changeValue(c),
+                  this.validationTimer && clearTimeout(this.validationTimer),
+                  (this.validationTimer = setTimeout(() => {
+                    this.getValidValue(c) !== c &&
+                      this.state.isFocused &&
+                      (this.changeValue(this.getValidValue(c)),
+                      this.setCursorPosition(0, this.formatValue(c).length));
+                  }, 1e3)));
+              }),
+              (this.handleDelete = (e) => {
+                const u = e.keyCode === Ne.n.BACKSPACE,
+                  t = e.keyCode === Ne.n.DELETE,
+                  r = e.target,
+                  a = r.selectionStart,
+                  n = r.selectionEnd,
+                  s = r.value,
+                  i = a !== n,
+                  o = new RegExp(/\D/),
+                  l = u && a ? a - 1 : a || 0;
+                if (i) return;
+                let c = l;
+                const _ = o.test(s[l]);
+                if (t && _) for (; o.test(s[c]) && c < s.length;) c++;
+                if (u && _) for (; o.test(s[c]) && c > 0;) c--;
+                if (c !== l || (u && _))
+                  return (
+                    e.preventDefault(),
+                    (c = c < 0 ? 0 : c),
+                    void this.setCursorPosition(c, c)
+                  );
+                ((u && 1 === a && 1 === s.length) || t) &&
+                  (e.preventDefault(), this.updateInput(e.keyCode));
+              }),
+              (this.handleClickOutside = (e) => {
+                const u = document.activeElement;
+                this.state.isFocused &&
+                  u !== this.input.current &&
+                  null !== this.numericalStepper.current &&
+                  !this.numericalStepper.current.contains(e.target) &&
+                  this.setState({ isFocused: !1 });
+              }),
+              (this.handleBlur = () => {
+                if (this.props.isDisabled) return;
+                const e = this.getValidValue(this.state.value);
+                e !== this.state.value && this.changeValue(e);
+              }),
+              (this.handleWheel = (e) => {
+                if (this.props.isDisabled || !this.state.isFocused) return;
+                e.preventDefault();
+                e.deltaY < 0 ? this.decrement() : this.increment();
+              }),
+              (this.handleMouseUp = () => {
+                (this.stop(), this.setState({ activeIncrement: !1, activeDecrement: !1 }));
+              }),
+              (this.handleMouseLeave = () => {
+                this.stop();
+              }),
+              (this.incrementHandleMouseEnter = (e) => {
+                (this.state.activeIncrement && this.incrementHandleMouseDown(e, !0),
+                  this.buttonIncrementIsDisabled || this.playHoverSound());
+              }),
+              (this.decrementHandleMouseEnter = (e) => {
+                (this.state.activeDecrement && this.decrementHandleMouseDown(e, !0),
+                  this.buttonDecrementIsDisabled || this.playHoverSound());
+              }),
+              (this.handleKeyDown = (e) => {
+                if (!this.props.isDisabled) {
+                  switch (
+                    (e.keyCode in Ne.n &&
+                      e.keyCode !== Ne.n.BACKSPACE &&
+                      e.keyCode !== Ne.n.DELETE &&
+                      e.preventDefault(),
+                    e.keyCode)
+                  ) {
+                    case Ne.n.ARROW_UP:
+                    case Ne.n.NUM_PLUS:
+                    case Ne.n.PLUS:
+                      (this.state.activeIncrement || this.setState({ activeIncrement: !0 }),
+                        this.increment());
+                      break;
+                    case Ne.n.ARROW_DOWN:
+                    case Ne.n.NUM_MINUS:
+                    case Ne.n.MINUS:
+                      (this.state.activeDecrement || this.setState({ activeDecrement: !0 }),
+                        this.decrement());
+                      break;
+                    case Ne.n.HOME:
+                      this.changeValue(this.props.minimum);
+                      break;
+                    case Ne.n.END:
+                      this.changeValue(this.props.maximum);
+                      break;
+                    case Ne.n.ENTER:
+                      if (
+                        (e.nativeEvent.stopImmediatePropagation(),
+                        this.state.value >= this.props.maximum)
+                      ) {
+                        const e = this.formatValue(this.props.maximum).length;
+                        (this.changeValue(this.props.maximum), this.setCursorPosition(0, e));
+                      }
+                      break;
+                    case Ne.n.PAGE_UP:
+                      this.changeValue(this.props.maximum);
+                      break;
+                    case Ne.n.PAGE_DOWN:
+                      this.changeValue(this.props.minimum);
+                      break;
+                    case Ne.n.BACKSPACE:
+                    case Ne.n.DELETE:
+                      this.handleDelete(e);
+                  }
+                  this.props.onKeyDown(e);
+                }
+              }),
+              (this.handleKeyUp = (e) => {
+                if (!this.props.isDisabled)
+                  switch (e.keyCode) {
+                    case Ne.n.ARROW_UP:
+                    case Ne.n.NUM_PLUS:
+                    case Ne.n.PLUS:
+                      this.setState({ activeIncrement: !1 });
+                      break;
+                    case Ne.n.ARROW_DOWN:
+                    case Ne.n.NUM_MINUS:
+                    case Ne.n.MINUS:
+                      this.setState({ activeDecrement: !1 });
+                  }
+              }),
+              (this.allowOnlyNumbers = (e) => {
+                e.which in ju || e.preventDefault();
+              }),
+              (this.increment = () => {
+                const e = Math.min(
+                  this.getValidValue(this.state.value) + this.props.stepSize,
+                  this.props.maximum,
+                );
+                this.changeValue(e);
+              }),
+              (this.decrement = () => {
+                const e = Math.max(
+                  this.getValidValue(this.state.value) - this.props.stepSize,
+                  this.props.minimum,
+                );
+                this.changeValue(e);
+              }),
+              (this.incrementHandleMouseDown = (e, u = !1) => {
+                this.buttonIncrementIsDisabled ||
+                  (e.persist(),
+                  e.preventDefault(),
+                  this.stop(),
+                  this.setFocusOnInput(),
+                  this.state.value < this.props.maximum &&
+                    (!u && this.playClickSound(),
+                    (0 === e.button || u) &&
+                      (this.increment(),
+                      (this.timer = setTimeout(
+                        () => {
+                          this.incrementHandleMouseDown(e, !0);
+                        },
+                        u ? 50 : 300,
+                      )),
+                      this.setState({ activeIncrement: !0 }))));
+              }),
+              (this.decrementHandleMouseDown = (e, u = !1) => {
+                this.buttonDecrementIsDisabled ||
+                  (e.persist(),
+                  e.preventDefault(),
+                  this.stop(),
+                  this.setFocusOnInput(),
+                  this.state.value > this.props.minimum &&
+                    (!u && this.playClickSound(),
+                    (0 === e.button || u) &&
+                      (this.decrement(),
+                      (this.timer = setTimeout(
+                        () => {
+                          this.decrementHandleMouseDown(e, !0);
+                        },
+                        u ? 50 : 300,
+                      )),
+                      this.setState({ activeDecrement: !0 }))));
+              }),
+              (this.playHoverSound = () => {
+                this.props.isDisabled || ve("highlight");
+              }),
+              (this.playClickSound = () => {
+                this.props.isDisabled || ve("play");
+              }),
+              (this.stop = () => {
+                (this.timer && clearTimeout(this.timer), (this.timer = null));
+              }));
+          }
+          componentDidUpdate(e, u) {
+            const t = this.state,
+              r = t.value,
+              a = t.isFocused;
+            if (r !== u.value && a) {
+              const e = this.formattedValue.length,
+                u = this.input.current && this.input.current.selectionStart,
+                t = this.input.current && this.input.current.selectionEnd,
+                r = u === t ? e : u || 0;
+              0 === u && t === e
+                ? this.input.current && this.input.current.setSelectionRange(e, e)
+                : this.input.current && this.input.current.setSelectionRange(r, e);
+            }
+          }
+          componentWillReceiveProps({ value: e, isFocused: u }) {
+            (e !== this.props.value && this.setState({ value: e }),
+              u !== this.props.isFocused &&
+                (this.setState({ isFocused: u }),
+                u
+                  ? (this.setFocusOnInput(), this.setCursorPosition(0, this.formattedValue.length))
+                  : this.blurInput()));
+          }
+          get formattedValue() {
+            return this.props.currencyType
+              ? z.Z5.getNumberFormat(this.state.value, z.B3.GOLD)
+              : this.state.value.toString();
+          }
+          get buttonIncrementIsDisabled() {
+            return this.state.value >= this.props.maximum || this.props.isDisabled;
+          }
+          get buttonDecrementIsDisabled() {
+            return this.state.value <= this.props.minimum || this.props.isDisabled;
+          }
+          render() {
+            const e = this.props,
+              u = e.isDisabled,
+              t = e.size,
+              r = e.currencyType,
+              n = g()(
+                zu.base,
+                zu[`base__${t}`],
+                r && zu[`base__withCurrency-${t}`],
+                u && zu.base__isDisabled,
+                this.state.isFocused && zu.base__isFocus,
+              ),
+              s = g()(
+                zu.buttonIncrement,
+                zu[`buttonIncrement__${t}`],
+                this.buttonIncrementIsDisabled && zu.buttonIncrement__isDisabled,
+                this.state.activeIncrement &&
+                  !this.buttonIncrementIsDisabled &&
+                  zu[`buttonIncrement__isActive-${this.props.size}`],
+              ),
+              i = g()(
+                zu.buttonDecrement,
+                zu[`buttonDecrement__${t}`],
+                this.buttonDecrementIsDisabled && zu.buttonDecrement__isDisabled,
+                this.state.activeDecrement &&
+                  !this.buttonDecrementIsDisabled &&
+                  zu[`buttonDecrement__isActive-${this.props.size}`],
+              ),
+              o = g()(
+                zu.input,
+                u && zu.input__disabled,
+                r && zu.input__withCurrency,
+                r && zu[`input__${r}-${t}`],
+                r && zu[`input__${r}`],
+                r && u && zu[`input__${r}-disabled`],
+              ),
+              l = g()(zu.currencyIcon, r && zu[`currencyIcon__${r}-${t}`]),
+              c = g()(zu.currency, r && zu[`currency__${r}`], r && zu[`currency__${r}-${t}`]);
+            return a().createElement(
+              "div",
+              {
+                className: n,
+                ref: this.numericalStepper,
+                style: ((_ = this.props.width), _ ? { width: `${_}rem` } : {}),
+              },
+              a().createElement(
+                "div",
+                { className: zu.inputContainer },
+                r &&
+                  a().createElement(
+                    "div",
+                    { className: c },
+                    a().createElement("span", { className: zu.dummyValue }, this.formattedValue),
+                    a().createElement("span", { className: l }),
+                  ),
+                a().createElement("input", {
+                  ref: this.input,
+                  className: o,
+                  type: "text",
+                  value: this.formattedValue,
+                  disabled: u,
+                  onWheel: this.handleWheel,
+                  onChange: this.handleChange,
+                  onKeyPress: this.allowOnlyNumbers,
+                  onKeyDown: this.handleKeyDown,
+                  onKeyUp: this.handleKeyUp,
+                  onBlur: this.handleBlur,
+                  onFocus: this.setFocusOnInput,
+                }),
+              ),
+              a().createElement(
+                "div",
+                { className: zu.control },
+                a().createElement("div", {
+                  className: s,
+                  onClick: this.setFocusOnInput,
+                  onMouseUp: this.handleMouseUp,
+                  onMouseLeave: this.handleMouseLeave,
+                  onMouseEnter: this.incrementHandleMouseEnter,
+                  onMouseDown: this.incrementHandleMouseDown,
+                }),
+                a().createElement("div", {
+                  className: i,
+                  onClick: this.setFocusOnInput,
+                  onMouseUp: this.handleMouseUp,
+                  onMouseLeave: this.handleMouseLeave,
+                  onMouseEnter: this.decrementHandleMouseEnter,
+                  onMouseDown: this.decrementHandleMouseDown,
+                }),
+              ),
+            );
+            var _;
+          }
+        }
+        Yu.defaultProps = {
+          value: 1,
+          stepSize: 1,
+          minimum: 0,
+          maximum: 0,
+          size: "medium",
+          isFocused: !0,
+          isDisabled: !1,
+          onChange: () => null,
+          onKeyDown: () => null,
+        };
+        const qu = ["children"];
+        function Ku() {
+          return (
+            (Ku =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            Ku.apply(this, arguments)
+          );
+        }
+        const Zu = (e) => {
+          let u = e.children,
+            t = (function (e, u) {
+              if (null == e) return {};
+              var t,
+                r,
+                a = {},
+                n = Object.keys(e);
+              for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+              return a;
+            })(e, qu);
+          return a().createElement(
+            Ve,
+            Ku(
+              {
+                contentId:
+                  R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
+                    "resId",
+                  ),
+                ignoreShowDelay: !0,
+              },
+              t,
+            ),
+            u,
+          );
+        };
+        function Qu() {
+          return (
+            (Qu =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            Qu.apply(this, arguments)
+          );
+        }
+        const Ju = ({ children: e, tooltipArgs: u, className: t }) => {
+            if (!u) return e;
+            const r = a().createElement("div", { className: t }, e);
+            if (u.header || u.body) return a().createElement(Ye, u, r);
+            const n = u.contentId,
+              s = u.args,
+              i = null == s ? void 0 : s.contentId;
+            return n || i
+              ? a().createElement(Ve, Qu({}, u, { contentId: n || i }), r)
+              : a().createElement(Zu, u, r);
+          },
+          et = {
+            base: "Reward_base_ea",
+            base__s48x48: "Reward_base__s48x48_46",
+            base__small: "Reward_base__small_c0",
+            base__s80x80: "Reward_base__s80x80_ce",
+            base__big: "Reward_base__big_e5",
+            base__s128x100: "Reward_base__s128x100_c3",
+            base__s180x135: "Reward_base__s180x135_7c",
+            base__s232x174: "Reward_base__s232x174_67",
+            base__s296x222: "Reward_base__s296x222_78",
+            base__s400x300: "Reward_base__s400x300_07",
+            base__s600x450: "Reward_base__s600x450_f8",
+            tooltipWrapper: "Reward_tooltipWrapper_b5",
+            icon: "Reward_icon_df",
+            overlay: "Reward_overlay_68",
+            highlight: "Reward_highlight_36",
+            image: "Reward_image_89",
+            info: "Reward_info_72",
+            info__multi: "Reward_info__multi_63",
+            info__credits: "Reward_info__credits_ef",
+            info__gold: "Reward_info__gold_36",
+            info__crystal: "Reward_info__crystal_36",
+            info__premiumTank: "Reward_info__premiumTank_d3",
+            timer: "Reward_timer_d3",
+          },
+          ut = ({
+            name: e,
+            image: u,
+            isPeriodic: t = !1,
+            size: r = uu.Big,
+            special: n,
+            value: s,
+            valueType: i,
+            style: o,
+            className: l,
+            classNames: c,
+            tooltipArgs: _,
+            periodicIconTooltipArgs: m,
+          }) => {
+            const E = ((e) => {
+                if (void 0 === e) return null;
+                switch (e) {
+                  case ru.BATTLE_BOOSTER:
+                  case ru.BATTLE_BOOSTER_REPLACE:
+                    return au.BATTLE_BOOSTER;
+                }
+              })(n),
+              d = ((e) => {
+                if (void 0 === e) return null;
+                switch (e) {
+                  case ru.BATTLE_BOOSTER:
+                    return nu.BATTLE_BOOSTER;
+                  case ru.BATTLE_BOOSTER_REPLACE:
+                    return nu.BATTLE_BOOSTER_REPLACE;
+                  case ru.BUILT_IN_EQUIPMENT:
+                    return nu.BUILT_IN_EQUIPMENT;
+                  case ru.EQUIPMENT_PLUS:
+                    return nu.EQUIPMENT_PLUS;
+                  case ru.EQUIPMENT_TROPHY_BASIC:
+                    return nu.EQUIPMENT_TROPHY_BASIC;
+                  case ru.EQUIPMENT_TROPHY_UPGRADED:
+                    return nu.EQUIPMENT_TROPHY_UPGRADED;
+                  case ru.EQUIPMENT_MODERNIZED_UPGRADED_1:
+                    return nu.EQUIPMENT_MODERNIZED_UPGRADED_1;
+                  case ru.EQUIPMENT_MODERNIZED_UPGRADED_2:
+                    return nu.EQUIPMENT_MODERNIZED_UPGRADED_2;
+                  case ru.EQUIPMENT_MODERNIZED_UPGRADED_3:
+                    return nu.EQUIPMENT_MODERNIZED_UPGRADED_3;
+                  case ru.PROGRESSION_STYLE_UPGRADED_1:
+                    return nu.PROGRESSION_STYLE_UPGRADED_1;
+                  case ru.PROGRESSION_STYLE_UPGRADED_2:
+                    return nu.PROGRESSION_STYLE_UPGRADED_2;
+                  case ru.PROGRESSION_STYLE_UPGRADED_3:
+                    return nu.PROGRESSION_STYLE_UPGRADED_3;
+                  case ru.PROGRESSION_STYLE_UPGRADED_4:
+                    return nu.PROGRESSION_STYLE_UPGRADED_4;
+                }
+              })(n),
+              A = ((e, u) => {
+                if (void 0 === e) return null;
+                switch (u) {
+                  case tu.MULTI: {
+                    const u = Number(e);
+                    return isFinite(u) && u > 1 ? `x${Math.floor(u)}` : null;
+                  }
+                  case tu.CURRENCY:
+                  case tu.NUMBER:
+                    return a().createElement(Qe, { format: "integral", value: Number(e) });
+                  case tu.PREMIUM_PLUS: {
+                    const u = Number(e);
+                    return isNaN(u) ? e : null;
+                  }
+                  default:
+                    return e;
+                }
+              })(s, i);
+            return a().createElement(
+              "div",
+              { className: g()(et.base, et[`base__${r}`], l), style: o },
+              a().createElement(
+                Ju,
+                { tooltipArgs: _, className: et.tooltipWrapper },
+                a().createElement(
+                  a().Fragment,
+                  null,
+                  a().createElement(
+                    "div",
+                    { className: g()(et.image, null == c ? void 0 : c.image) },
+                    E &&
+                      a().createElement("div", {
+                        className: g()(et.highlight, null == c ? void 0 : c.highlight),
+                        style: {
+                          backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${E}_highlight)`,
+                        },
+                      }),
+                    u &&
+                      a().createElement("div", {
+                        className: g()(et.icon, null == c ? void 0 : c.rewardIcon),
+                        style: { backgroundImage: `url(${u})` },
+                      }),
+                    d &&
+                      a().createElement("div", {
+                        className: g()(et.overlay, null == c ? void 0 : c.overlay),
+                        style: {
+                          backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${d}_overlay)`,
+                        },
+                      }),
+                  ),
+                  A &&
+                    a().createElement(
+                      "div",
+                      {
+                        className: g()(
+                          et.info,
+                          et[`info__${e}`],
+                          i === tu.MULTI && et.info__multi,
+                          null == c ? void 0 : c.info,
+                        ),
+                      },
+                      A,
+                    ),
+                ),
+              ),
+              t &&
+                a().createElement(
+                  Ju,
+                  { tooltipArgs: m },
+                  a().createElement("div", {
+                    className: g()(et.timer, null == c ? void 0 : c.periodicIcon),
+                  }),
+                ),
+            );
+          },
+          tt = {
+            base: "Preview_base_1f",
+            base__hovered: "Preview_base__hovered_ee",
+            icon: "Preview_icon_f3",
+            icon__small: "Preview_icon__small_a1",
+            icon__normal: "Preview_icon__normal_5c",
+            base__mouseDown: "Preview_base__mouseDown_d0",
+            label: "Preview_label_2e",
+            base__visibleLabel: "Preview_base__visibleLabel_92",
+          },
+          rt = [
+            "label",
+            "isVisibleLabel",
+            "autofocus",
+            "soundHover",
+            "soundClick",
+            "size",
+            "classNames",
+            "onClick",
+            "onMouseEnter",
+            "onMouseLeave",
+            "onMouseDown",
+            "onMouseUp",
+            "onFocus",
+            "onBlur",
+          ];
+        function at() {
+          return (
+            (at =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            at.apply(this, arguments)
+          );
+        }
+        let nt;
+        !(function (e) {
+          ((e.SMALL = "small"), (e.NORMAL = "normal"));
+        })(nt || (nt = {}));
+        const st = (0, r.memo)((e) => {
+            let u = e.label,
+              t = e.isVisibleLabel,
+              n = void 0 !== t && t,
+              s = e.autofocus,
+              i = void 0 !== s && s,
+              o = e.soundHover,
+              l = void 0 === o ? "highlight" : o,
+              c = e.soundClick,
+              _ = void 0 === c ? "play" : c,
+              m = e.size,
+              E = void 0 === m ? nt.NORMAL : m,
+              d = e.classNames,
+              A = e.onClick,
+              p = e.onMouseEnter,
+              D = e.onMouseLeave,
+              F = e.onMouseDown,
+              h = e.onMouseUp,
+              B = e.onFocus,
+              C = e.onBlur,
+              b = (function (e, u) {
+                if (null == e) return {};
+                var t,
+                  r,
+                  a = {},
+                  n = Object.keys(e);
+                for (r = 0; r < n.length; r++) ((t = n[r]), u.indexOf(t) >= 0 || (a[t] = e[t]));
+                return a;
+              })(e, rt);
+            const v = (0, r.useState)(!1),
+              f = v[0],
+              S = v[1],
+              y = (0, r.useState)(!1),
+              w = y[0],
+              M = y[1],
+              N = (0, r.useState)(i),
+              T = N[0],
+              x = N[1],
+              R = (0, r.useRef)(null),
+              P = (0, r.useCallback)(() => {
+                R.current && (R.current.focus(), x(!0));
+              }, []),
+              k = (0, r.useCallback)(
+                (e) => {
+                  T && null !== R.current && !R.current.contains(e.target) && x(!1);
+                },
+                [T],
+              );
+            ((0, r.useEffect)(
+              () => (
+                document.addEventListener("mousedown", k),
+                () => {
+                  document.removeEventListener("mousedown", k);
+                }
+              ),
+              [k],
+            ),
+              (0, r.useEffect)(() => {
+                x(i);
+              }, [i]));
+            const L = (0, r.useCallback)(
+                (e) => {
+                  A && A(e);
+                },
+                [A],
+              ),
+              I = (0, r.useCallback)(
+                (e) => {
+                  (S(!0), F && F(e), _ && ve(_), i && P());
+                },
+                [i, F, P, _],
+              ),
+              O = (0, r.useCallback)(
+                (e) => {
+                  (S(!1), h && h(e));
+                },
+                [h],
+              ),
+              H = (0, r.useCallback)(
+                (e) => {
+                  (p && p(e), l && ve(l), M(!0));
+                },
+                [p, l],
+              ),
+              U = (0, r.useCallback)(
+                (e) => {
+                  (S(!1), M(!1), D && D(e));
+                },
+                [D],
+              ),
+              W = (0, r.useCallback)(
+                (e) => {
+                  (x(!0), B && B(e));
+                },
+                [B],
+              ),
+              G = (0, r.useCallback)(
+                (e) => {
+                  (x(!1), C && C(e));
+                },
+                [C],
+              ),
+              $ = g()(
+                tt.base,
+                n && tt.base__visibleLabel,
+                f && tt.base__mouseDown,
+                w && tt.base__hovered,
+                T && tt.base__focused,
+                null == d ? void 0 : d.base,
+              ),
+              V = g()(tt.icon, tt[`icon__${E}`], null == d ? void 0 : d.icon),
+              X = g()(tt.label, null == d ? void 0 : d.label);
+            return a().createElement(
+              "div",
+              at(
+                {
+                  ref: R,
+                  className: $,
+                  onClick: L,
+                  onMouseEnter: H,
+                  onMouseLeave: U,
+                  onMouseDown: I,
+                  onMouseUp: O,
+                  onFocus: W,
+                  onBlur: G,
+                },
+                b,
+              ),
+              a().createElement("div", { className: V }),
+              a().createElement("div", { className: X }, u),
+            );
+          }),
+          it = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
+          ot = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
+        function lt(e) {
+          let u = "";
+          for (let t = ot.length - 1; t >= 0; t--) for (; e >= ot[t];) ((u += it[t]), (e -= ot[t]));
+          return u;
+        }
+        ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE());
+        const ct = "VehicleInfo_base_48",
+          _t = "VehicleInfo_type_2a",
+          mt = ({ vehicleLvl: e, vehicleName: u, vehicleType: t, isElite: r, classNames: n }) =>
+            a().createElement(
+              "div",
+              { className: g()(ct, null == n ? void 0 : n.base) },
+              lt(e),
+              a().createElement("div", {
+                className: g()(_t, null == n ? void 0 : n.type),
+                style: {
+                  backgroundImage: r
+                    ? `url(${R.images.gui.maps.icons.vehicleTypes.elite.$dyn(`${H(t)}`)})`
+                    : `url(${R.images.gui.maps.icons.vehicleTypes.c_24x24.$dyn(`${H(t)}`)})`,
+                },
+              }),
+              u,
+            ),
+          Et = "VehicleReward_base_1b",
+          dt = "VehicleReward_base__inInventory_3f",
+          At = "VehicleReward_iconWrapper_c6",
+          pt = "VehicleReward_icon_b6",
+          Dt = "VehicleReward_preview_ca",
+          Ft = "VehicleReward_preview__opacity_11",
+          ht = "VehicleReward_preview__label_06",
+          gt = "VehicleReward_label_8c",
+          Bt = "VehicleReward_checkIcon_56",
+          Ct = "VehicleReward_vehicleName_2c",
+          bt = ({
+            vehicleName: e,
+            shortVehicleLabel: u,
+            inInventory: t,
+            level: r,
+            isRent: n,
+            tooltipArgs: s,
+            isElite: i,
+            type: o,
+            wasSold: l,
+            intCD: c,
+            size: _,
+            onPreviewClick: m,
+          }) => {
+            const E = H(e),
+              d =
+                (_ < b.Large &&
+                  R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_48x48.$dyn(`${E}`)) ||
+                (_ > b.Medium &&
+                  _ > b.ExtraLarge &&
+                  R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_80x80.$dyn(`${E}`)) ||
+                (_ < b.ExtraLarge &&
+                  R.images.gui_lootboxes.gui.maps.rewards.vehicles.$dyn(`${E}`)) ||
+                R.images.gui.maps.icons.event.summerSale.reward.vechicles.c_180x135.$dyn(`${E}`) ||
+                R.images.gui.maps.shop.vehicles.c_180x135.$dyn(E) ||
+                R.images.gui.maps.icons.quests.bonuses.big.vehicles(),
+              A = (t || l) && !n,
+              p = _ < b.Large ? nt.SMALL : nt.NORMAL,
+              D = g()(Et, A && dt);
+            return a().createElement(
+              "div",
+              { className: D },
+              a().createElement(
+                Ju,
+                { tooltipArgs: s },
+                a().createElement(
+                  "div",
+                  {
+                    className: At,
+                    onMouseEnter: () => {
+                      fe.playHighlight();
+                    },
+                  },
+                  a().createElement("div", {
+                    className: pt,
+                    style: { backgroundImage: `url(${d})` },
+                  }),
+                  !A &&
+                    a().createElement(
+                      "div",
+                      { className: Dt },
+                      a().createElement(st, {
+                        classNames: { base: Ft, label: ht },
+                        size: p,
+                        onClick: () => {
+                          null == m || m(c);
+                        },
+                      }),
+                    ),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: gt },
+                A && a().createElement("div", { className: Bt }),
+                _ < b.ExtraLarge
+                  ? a().createElement("div", { className: Ct }, u)
+                  : a().createElement(mt, {
+                      vehicleLvl: r,
+                      vehicleName: u,
+                      vehicleType: o,
+                      isElite: i,
+                    }),
+              ),
+            );
+          },
+          vt = "CoverPage_base_f5",
+          ft = "CoverPage_content_12",
+          St = "CoverPage_mainTitle_5c",
+          yt = "CoverPage_title_6f",
+          wt = "CoverPage_subTitle_2f",
+          Mt = "CoverPage_rewards_df",
+          Nt = "CoverPage_rewardBlock_b9",
+          Tt = "CoverPage_rewardWrapper_ab",
+          xt = "CoverPage_reward_df",
+          Rt = "CoverPage_rewards_second_6b",
+          Pt = "CoverPage_rewardInfo_d1",
+          kt = "CoverPage_plus_19",
+          Lt = "CoverPage_alertText_b8",
+          It = "CoverPage_price_82",
+          Ot = "CoverPage_dots_f0",
+          Ht = "CoverPage_totalPrice_e9",
+          Ut = "CoverPage_totalPrice__notEnough_8e",
+          Wt = "CoverPage_currencyCount_0c",
+          Gt = "CoverPage_count_00",
+          $t = "CoverPage_count__notEnough_f4",
+          Vt = "CoverPage_currency_a9",
+          Xt = "CoverPage_currency__count_ae",
+          jt = "CoverPage_alert_29",
+          zt = "CoverPage_alertIcon_4f",
+          Yt = "CoverPage_buyButtonWrapper_e5",
+          qt = "CoverPage_buyButton_3a",
+          Kt = "CoverPage_addMoreButton_6d",
+          Zt = "CoverPage_addMoreButtonContent_e6",
+          Qt = "CoverPage_plusIcon_85",
+          Jt = "CoverPage_blink_4e";
+        function er() {
+          return (
+            (er =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            er.apply(this, arguments)
+          );
+        }
+        const ur = R.strings.event.summerSales.mainView.catalog,
+          tr = (0, Re.Pi)(() => {
+            const e = wu(),
+              u = e.model,
+              t = e.controls,
+              n = S().mediaSize,
+              s = u.root.get(),
+              i = s.bumblebeeCoinsBalance,
+              o = s.summerSaleSetsTotalPrice,
+              l = s.summerSaleSetProductCode,
+              c = n < b.Large ? uu.Small : uu.Big,
+              _ = n < b.Large ? "small" : "medium",
+              m = n < b.Large ? 60 : 104,
+              E = u.computes.getRewards(),
+              d = u.stepper.get(),
+              A = (0, r.useMemo)(() => i >= o.amount, [i, o.amount]),
+              p = (e) => {
+                t.previewVehicle(e);
+              },
+              D = () => {
+                fe.playHighlight();
+              };
+            return a().createElement(
+              "div",
+              { className: vt },
+              a().createElement(
+                "div",
+                { className: Wt },
+                a().createElement(
+                  Ye,
+                  { header: ur.tooltip.header.bumblebee(), body: ur.tooltip.body.bumblebee() },
+                  a().createElement(
+                    "div",
+                    { className: g()(Gt, !A && $t) },
+                    a().createElement(Qe, { format: "integral", value: i }),
+                    a().createElement("div", { className: g()(Vt, Xt) }),
+                  ),
+                ),
+                a().createElement(
+                  Ue,
+                  {
+                    type: Ie.ghost,
+                    size: Oe.small,
+                    mixClass: Kt,
+                    disabled: !1,
+                    onClick: t.buyCoinsClick,
+                  },
+                  a().createElement(
+                    "div",
+                    { className: Zt },
+                    a().createElement("div", { className: Qt }),
+                    a().createElement(be, { text: ur.button.addMore() }),
+                  ),
+                  !A && a().createElement("div", { className: Jt }),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: ft },
+                E[0] &&
+                  a().createElement(
+                    a().Fragment,
+                    null,
+                    a().createElement(be, { text: ur.mainTitle(), className: St }),
+                    a().createElement(be, { text: ur.firstTitle(), className: yt }),
+                    a().createElement(be, {
+                      text: ur.firstSubTitle(),
+                      format: { binding: { probability: E[0].probability } },
+                      className: wt,
+                    }),
+                    a().createElement(
+                      "div",
+                      { className: Mt },
+                      E[0].rewards.map((e, u) =>
+                        a().createElement(
+                          "div",
+                          { className: Nt, key: e.name },
+                          a().createElement(
+                            Ju,
+                            { tooltipArgs: e.tooltipArgs },
+                            a().createElement(
+                              "div",
+                              { className: Tt, onMouseEnter: D },
+                              a().createElement("div", {
+                                className: xt,
+                                style: { backgroundImage: `url(${Au(e, c)})` },
+                              }),
+                              a().createElement(be, {
+                                text: ur.rewardTitle(),
+                                format: {
+                                  binding: {
+                                    count: a().createElement(Qe, {
+                                      format: "integral",
+                                      value: Number(e.value),
+                                    }),
+                                  },
+                                },
+                                className: Pt,
+                              }),
+                            ),
+                          ),
+                          u < E[0].rewards.length - 1 &&
+                            a().createElement("div", { className: kt }),
+                        ),
+                      ),
+                    ),
+                  ),
+                E[1] &&
+                  a().createElement(
+                    a().Fragment,
+                    null,
+                    a().createElement(be, { text: ur.secontTitle(), className: yt }),
+                    a().createElement(be, {
+                      text: ur.secondSubTitle(),
+                      className: wt,
+                      format: { binding: { probability: E[1].probability } },
+                    }),
+                    a().createElement(
+                      "div",
+                      { className: g()(Mt, Rt) },
+                      E[1].rewards.map((e) => {
+                        return e.name === eu.Vehicles && "vehicleName" in e
+                          ? a().createElement(
+                              bt,
+                              er({ key: e.vehicleName, size: n }, e, { onPreviewClick: p }),
+                            )
+                          : a().createElement(
+                              "div",
+                              { key: e.name, onMouseEnter: D },
+                              a().createElement(
+                                ut,
+                                er({}, e, {
+                                  tooltipArgs: e.tooltipArgs,
+                                  valueType:
+                                    ((u = e.name),
+                                    ou.includes(u)
+                                      ? tu.MULTI
+                                      : lu.includes(u)
+                                        ? tu.CURRENCY
+                                        : cu.includes(u)
+                                          ? tu.NUMBER
+                                          : _u.includes(u)
+                                            ? tu.PREMIUM_PLUS
+                                            : tu.STRING),
+                                  size: n < b.ExtraLarge ? c : uu.S180x135,
+                                  className: xt,
+                                  image: Au(e, n < b.ExtraLarge ? c : uu.S180x135),
+                                }),
+                              ),
+                            );
+                        var u;
+                      }),
+                    ),
+                  ),
+              ),
+              a().createElement(
+                "div",
+                { className: It },
+                a().createElement(be, { text: ur.priceBumblebee() }),
+                a().createElement(be, {
+                  text: ".............................................",
+                  className: Ot,
+                }),
+                a().createElement(
+                  Ye,
+                  { header: ur.tooltip.header.bumblebee(), body: ur.tooltip.body.bumblebee() },
+                  a().createElement(
+                    "div",
+                    { className: g()(Ht, !A && Ut) },
+                    a().createElement(Qe, { format: "integral", value: o.amount }),
+                    a().createElement("div", { className: Vt }),
+                  ),
+                ),
+                a().createElement(
+                  Yu,
+                  er({ width: m, size: _, onChange: t.stepperChange, isFocused: !1 }, d),
+                ),
+                a().createElement(
+                  Ye,
+                  {
+                    header: ur.button.tooltip.header.bumblebee(),
+                    body: ur.button.tooltip.body.bumblebee(),
+                    isEnabled: !A,
+                  },
+                  a().createElement(
+                    "div",
+                    { className: Yt },
+                    a().createElement(
+                      Ue,
+                      {
+                        type: Ie.main,
+                        size: Oe.small,
+                        mixClass: qt,
+                        disabled: !A,
+                        onClick: () => {
+                          t.buyProductClick(l, d.value);
+                        },
+                      },
+                      a().createElement(be, { text: ur.button.buy() }),
+                    ),
+                  ),
+                ),
+              ),
+              !A &&
+                a().createElement(
+                  "div",
+                  { className: jt },
+                  a().createElement("div", { className: zt }),
+                  a().createElement(be, { text: ur.alert(), className: Lt }),
+                ),
+            );
+          }),
+          rr = {
+            base: "Item_base_19",
+            base__left: "Item_base__left_e1",
+            vehicleImage: "Item_vehicleImage_cf",
+            infoBlock: "Item_infoBlock_b5",
+            price: "Item_price_d2",
+            base__3: "Item_base__3_dc",
+            priceWrapper: "Item_priceWrapper_f0",
+            dots: "Item_dots_3a",
+            vehicleInfo: "Item_vehicleInfo_65",
+            totalPrice: "Item_totalPrice_80",
+            currency: "Item_currency_94",
+            currency__honey_coin: "Item_currency__honey_coin_5a",
+            changeButton: "Item_changeButton_3c",
+            preview: "Item_preview_5d",
+            preview__label: "Item_preview__label_b1",
+            preview__base: "Item_preview__base_9c",
+            label: "Item_label_25",
+            checkIcon: "Item_checkIcon_c5",
+            buttonWrapper: "Item_buttonWrapper_3d",
+          },
+          ar = R.strings.event.summerSales.mainView.catalog,
+          nr = ({
+            label: e,
+            index: u,
+            intCD: t,
+            level: r,
+            isElite: n,
+            inInventory: s,
+            wasSold: i,
+            isRent: o,
+            type: l,
+            price: c,
+            tooltipArgs: _,
+            honeyCoinsBalance: m,
+            productCode: E,
+            onPreviewClick: d,
+            onBuyClick: A,
+            isLeftPage: p = !1,
+            classNames: D,
+          }) => {
+            const F = S().mediaSize,
+              h = (s || i) && !o,
+              B = !!c && m < (null == c ? void 0 : c.amount);
+            return a().createElement(
+              "div",
+              { className: g()(rr.base, rr[`base__${u}`], p && rr.base__left, D) },
+              a().createElement(
+                Ju,
+                { tooltipArgs: _, className: rr.vehicleImage },
+                a().createElement(
+                  "div",
+                  { className: rr.preview },
+                  a().createElement(st, {
+                    classNames: { base: rr.preview__base, label: rr.preview__label },
+                    size: F < b.Large ? nt.SMALL : nt.NORMAL,
+                    onClick: () => {
+                      d && d(t);
+                    },
+                    label: a().createElement(be, { text: s ? ar.toHangar() : ar.toPreview() }),
+                  }),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: rr.infoBlock },
+                a().createElement(
+                  "div",
+                  { className: rr.priceWrapper },
+                  a().createElement(
+                    Ju,
+                    { tooltipArgs: _ },
+                    a().createElement(mt, {
+                      classNames: { base: rr.vehicleInfo },
+                      vehicleLvl: r,
+                      vehicleName: e,
+                      vehicleType: l,
+                      isElite: n,
+                    }),
+                  ),
+                  a().createElement(
+                    Ye,
+                    { header: ar.tooltip.header.honey(), body: ar.tooltip.body.honey() },
+                    a().createElement(
+                      "div",
+                      { className: rr.price },
+                      a().createElement(be, { text: ar.priceHoney() }),
+                      a().createElement(be, {
+                        text: "......................................",
+                        className: rr.dots,
+                      }),
+                      a().createElement(
+                        "div",
+                        { className: rr.totalPrice },
+                        null == c ? void 0 : c.amount,
+                        a().createElement("div", {
+                          className: g()(
+                            rr.currency,
+                            rr[`currency__${null == c ? void 0 : c.currency}`],
+                          ),
+                        }),
+                      ),
+                    ),
+                  ),
+                ),
+                !h &&
+                  a().createElement(
+                    Ye,
+                    {
+                      isEnabled: B,
+                      header: ar.button.tooltip.header.disabled(),
+                      body: ar.button.tooltip.body.disabled(),
+                    },
+                    a().createElement(
+                      "div",
+                      { className: rr.buttonWrapper },
+                      a().createElement(
+                        Ue,
+                        {
+                          type: Ie.primary,
+                          size: F < b.Large ? Oe.extraSmall : Oe.small,
+                          mixClass: rr.changeButton,
+                          disabled: B,
+                          onClick: () => {
+                            E && A(E, 1);
+                          },
+                        },
+                        a().createElement(be, { text: ar.button.change() }),
+                      ),
+                    ),
+                  ),
+                h &&
+                  a().createElement(
+                    "label",
+                    { className: rr.label },
+                    a().createElement("div", { className: rr.checkIcon }),
+                    a().createElement(be, {
+                      text: s ? ar.vehicleStatus.inInventory() : ar.vehicleStatus.wasSold(),
+                    }),
+                  ),
+              ),
+            );
+          },
+          sr = {
+            base: "RandomVehicle_base_ac",
+            base__left: "RandomVehicle_base__left_64",
+            vehicleImage: "RandomVehicle_vehicleImage_88",
+            infoBlock: "RandomVehicle_infoBlock_cd",
+            price: "RandomVehicle_price_4d",
+            base__3: "RandomVehicle_base__3_75",
+            priceWrapper: "RandomVehicle_priceWrapper_3b",
+            dots: "RandomVehicle_dots_a4",
+            vehicleInfo: "RandomVehicle_vehicleInfo_7b",
+            totalPrice: "RandomVehicle_totalPrice_4a",
+            currency: "RandomVehicle_currency_c9",
+            currency__honey_coin: "RandomVehicle_currency__honey_coin_a7",
+            changeButton: "RandomVehicle_changeButton_fb",
+            preview: "RandomVehicle_preview_d3",
+            preview__opacity: "RandomVehicle_preview__opacity_8c",
+            preview__label: "RandomVehicle_preview__label_69",
+            preview__icon: "RandomVehicle_preview__icon_96",
+            label: "RandomVehicle_label_0e",
+            checkIcon: "RandomVehicle_checkIcon_60",
+            buttonWrapper: "RandomVehicle_buttonWrapper_7e",
+          },
+          ir = R.strings.event.summerSales.mainView.catalog,
+          or = ({
+            index: e,
+            price: u,
+            tooltipArgs: t,
+            honeyCoinsBalance: r,
+            isAnyRandomVehicleObtained: n,
+            productCode: s,
+            onBuyClick: i,
+            isLeftPage: o = !1,
+            classNames: l,
+          }) => {
+            const c = S().mediaSize,
+              _ = !!u && r < (null == u ? void 0 : u.amount);
+            return a().createElement(
+              "div",
+              { className: g()(sr.base, sr[`base__${e}`], o && sr.base__left, l) },
+              a().createElement(
+                Ju,
+                { tooltipArgs: t },
+                a().createElement("div", { className: sr.vehicleImage }),
+              ),
+              a().createElement(
+                "div",
+                { className: sr.infoBlock },
+                a().createElement(
+                  "div",
+                  { className: sr.priceWrapper },
+                  a().createElement(
+                    Ju,
+                    { tooltipArgs: t },
+                    a().createElement(be, {
+                      text: ir.randomVehicle.label(),
+                      className: sr.vehicleInfo,
+                    }),
+                  ),
+                  a().createElement(
+                    Ye,
+                    { header: ir.tooltip.header.honey(), body: ir.tooltip.body.honey() },
+                    a().createElement(
+                      "div",
+                      { className: sr.price },
+                      a().createElement(be, { text: ir.priceHoney() }),
+                      a().createElement(be, {
+                        text: "......................................",
+                        className: sr.dots,
+                      }),
+                      a().createElement(
+                        "div",
+                        { className: sr.totalPrice },
+                        null == u ? void 0 : u.amount,
+                        a().createElement("div", {
+                          className: g()(
+                            sr.currency,
+                            sr[`currency__${null == u ? void 0 : u.currency}`],
+                          ),
+                        }),
+                      ),
+                    ),
+                  ),
+                ),
+                !n &&
+                  a().createElement(
+                    Ye,
+                    {
+                      isEnabled: _,
+                      header: ir.button.tooltip.header.disabled(),
+                      body: ir.button.tooltip.body.disabled(),
+                    },
+                    a().createElement(
+                      "div",
+                      { className: sr.buttonWrapper },
+                      a().createElement(
+                        Ue,
+                        {
+                          type: Ie.primary,
+                          size: c < b.Large ? Oe.extraSmall : Oe.small,
+                          mixClass: sr.changeButton,
+                          disabled: _ || n,
+                          onClick: () => {
+                            s && i(s, 1);
+                          },
+                        },
+                        a().createElement(be, { text: ir.button.change() }),
+                      ),
+                    ),
+                  ),
+                n &&
+                  a().createElement(
+                    "label",
+                    { className: sr.label },
+                    a().createElement("div", { className: sr.checkIcon }),
+                    a().createElement(be, { text: ir.vehicleStatus.inInventory() }),
+                  ),
+              ),
+            );
+          };
+        function lr() {
+          return (
+            (lr =
+              Object.assign ||
+              function (e) {
+                for (var u = 1; u < arguments.length; u++) {
+                  var t = arguments[u];
+                  for (var r in t) Object.prototype.hasOwnProperty.call(t, r) && (e[r] = t[r]);
+                }
+                return e;
+              }),
+            lr.apply(this, arguments)
+          );
+        }
+        const cr = (0, Re.Pi)(({ isOpen: e, onBuyClick: u }) => {
+          const t = wu(),
+            r = t.controls,
+            n = t.model,
+            s = n.root.get(),
+            i = s.honeyCoinsBalance,
+            o = s.isAnyRandomVehicleObtained,
+            l = n.computes.getProducts(),
+            c = (0, Vu.useSpring)({
+              progress: e ? 1 : 0,
+              config: { mass: 1.5, friction: 30, tension: 120 },
+            }).progress,
+            _ = (e) => 4 * e * (1 - e),
+            m = c.to((u) => {
+              const t = e ? _(u) : 0,
+                r = e ? 0 : _(u);
+              return {
+                page: { rotateX: 25 * t, z: 140 * t, scale: 1 + 0.12 * t },
+                cover: { rotateX: -25 * r, z: 140 * r, scale: 1 + 0.12 * r },
+              };
+            }),
+            E = c.to([0, 0.5, 1], [0, 0.3, 0.7]),
+            d = (e, t) => {
+              (r.buyProductClick(e, t), u());
+            };
+          return a().createElement(
+            Vu.animated.div,
+            {
+              className: g()(Xu.base, e && Xu.base__open),
+              style: { transform: c.to((e) => `translateX(${100 * e}%)`) },
+            },
+            a().createElement(
+              "div",
+              { className: g()(Xu.page, Xu.page__three) },
+              a().createElement(Vu.animated.div, {
+                className: Xu.gutterShadowRight,
+                style: { opacity: E },
+              }),
+              a().createElement(
+                "div",
+                { className: g()(Xu.content, Xu.content__three) },
+                l
+                  .slice(3, 6)
+                  .map(
+                    (e, u) =>
+                      "vehicleName" in e &&
+                      a().createElement(
+                        nr,
+                        lr({}, e, {
+                          index: u,
+                          honeyCoinsBalance: i,
+                          onPreviewClick: r.previewVehicle,
+                          onBuyClick: d,
+                          key: `${e.vehicleName}_${u}`,
+                          classNames: Xu.item,
+                        }),
+                      ),
+                  ),
+                l
+                  .slice(-1)
+                  .map((e, u) =>
+                    a().createElement(
+                      or,
+                      lr({}, e, {
+                        index: u,
+                        isAnyRandomVehicleObtained: o,
+                        honeyCoinsBalance: i,
+                        onBuyClick: r.buyProductClick,
+                        classNames: Xu.item,
+                        key: `${u}`,
+                      }),
+                    ),
+                  ),
+              ),
+            ),
+            a().createElement(
+              Vu.animated.div,
+              {
+                className: g()(Xu.page, Xu.page__two),
+                style: {
+                  transform: c.to((e) => `rotateY(${180 * -e}deg)`),
+                  zIndex: c.to((e) => (e > 0.5 ? 10 : 1)),
+                },
+              },
+              a().createElement(
+                Vu.animated.div,
+                {
+                  className: Xu.bendContainer,
+                  style: {
+                    transform: m.to(
+                      (e) =>
+                        `rotateY(180deg) perspective(1200rem) translateZ(${e.page.z}rem) rotateX(${e.page.rotateX}deg) scale(${e.page.scale})`,
+                    ),
+                  },
+                },
+                a().createElement(
+                  "div",
+                  { className: Xu.pageInner },
+                  a().createElement(
+                    "div",
+                    { className: Xu.contentFix },
+                    a().createElement(Vu.animated.div, {
+                      className: Xu.gutterShadowLeft,
+                      style: { opacity: E },
+                    }),
+                    a().createElement(
+                      "div",
+                      { className: Xu.content },
+                      l
+                        .slice(0, 3)
+                        .map(
+                          (e, u) =>
+                            "vehicleName" in e &&
+                            a().createElement(
+                              nr,
+                              lr({}, e, {
+                                index: u,
+                                isLeftPage: !0,
+                                honeyCoinsBalance: i,
+                                onBuyClick: d,
+                                onPreviewClick: r.previewVehicle,
+                                key: `${e.vehicleName}_${u}`,
+                                classNames: Xu.leftItem,
+                              }),
+                            ),
+                        ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            a().createElement(
+              Vu.animated.div,
+              {
+                className: g()(Xu.page, Xu.page__one),
+                style: {
+                  transform: c.to((e) => `rotateY(${180 * -e}deg)`),
+                  zIndex: c.to((e) => (e > 0.5 ? 1 : 20)),
+                },
+              },
+              a().createElement(
+                Vu.animated.div,
+                {
+                  className: Xu.coverBendContainer,
+                  style: {
+                    transform: m.to(
+                      (e) =>
+                        `perspective(1200rem) translateZ(${e.cover.z}rem) rotateX(${e.cover.rotateX}deg) scale(${e.cover.scale})`,
+                    ),
+                  },
+                },
+                a().createElement(tr, null),
+              ),
+            ),
+          );
+        });
+        function _r() {
+          const e = (0, r.useRef)(0);
+          var u;
+          return (
+            (u = () => {
+              window.clearTimeout(e.current);
+            }),
+            (0, r.useEffect)(() => u, []),
+            (0, r.useMemo)(
+              () => ({
+                run: (u, t) => {
+                  (window.clearTimeout(e.current),
+                    (e.current = window.setTimeout(() => {
+                      (u(), (e.current = 0));
+                    }, t)));
+                },
+                clear: () => {
+                  (window.clearTimeout(e.current), (e.current = 0));
+                },
+                get isRunning() {
+                  return 0 !== e.current;
+                },
+              }),
+              [],
+            )
+          );
+        }
+        const mr = {
+            base: "Bumblebee_base_ee",
+            path: "Bumblebee_path_df",
+            base__variant1: "Bumblebee_base__variant1_be",
+            fly1: "Bumblebee_fly1_f5",
+            base__variant2: "Bumblebee_base__variant2_21",
+            fly2: "Bumblebee_fly2_3c",
+            base__variant3: "Bumblebee_base__variant3_1f",
+            fly3: "Bumblebee_fly3_6d",
+            buzz: "Bumblebee_buzz_6c",
+            bumblebee: "Bumblebee_bumblebee_19",
+            flip1: "Bumblebee_flip1_28",
+            flip2: "Bumblebee_flip2_88",
+            flip3: "Bumblebee_flip3_f1",
+            wing: "Bumblebee_wing_f6",
+            flap: "Bumblebee_flap_e2",
+            left: "Bumblebee_left_f2",
+            right: "Bumblebee_right_33",
+          },
+          Er = ({ variant: e }) =>
+            a().createElement(
+              "div",
+              { className: g()(mr.base, mr[`base__variant${e}`]) },
+              a().createElement(
+                "div",
+                { className: mr.path },
+                a().createElement(
+                  "div",
+                  { className: mr.buzz },
+                  a().createElement(
+                    "div",
+                    { className: mr.bumblebee },
+                    a().createElement("div", { className: g()(mr.wing, mr.left) }),
+                    a().createElement("div", { className: g()(mr.wing, mr.right) }),
+                  ),
+                ),
+              ),
+            ),
+          dr = "Odometer_base_3d",
+          Ar = "Odometer_digit_c0",
+          pr = "Odometer_digitInner_78",
+          Dr = "Odometer_num_d0",
+          Fr = "Odometer_separator_26",
+          hr = ({
+            value: e,
+            isSoundOn: u,
+            isAnimationEnabled: t,
+            onStartAnimation: n,
+            onEndAnimation: s,
+          }) => {
+            const i = (0, r.useState)(0),
+              o = i[0],
+              l = i[1],
+              c = (0, r.useRef)(0),
+              _ = (0, r.useRef)(null),
+              m = (0, r.useRef)(!0),
+              E = _r();
+            (0, r.useEffect)(() => {
+              if (m.current) return ((c.current = e), l(e), void (m.current = !1));
+              if (!t)
+                return (_.current && cancelAnimationFrame(_.current), (c.current = e), void l(e));
+              (_.current && cancelAnimationFrame(_.current), n && n());
+              const r = () => {
+                c.current < e
+                  ? ((c.current += 1), l(c.current), (_.current = requestAnimationFrame(r)))
+                  : c.current > e
+                    ? ((c.current -= 1), l(c.current), (_.current = requestAnimationFrame(r)))
+                    : ((_.current = null),
+                      u &&
+                        E.run(() => {
+                          (ve(R.sounds.comp_7_progressbar_stop()), s && s());
+                        }, 200));
+              };
+              return (
+                (_.current = requestAnimationFrame(r)),
+                u && ve(R.sounds.comp_7_progressbar_start()),
+                () => {
+                  _.current && cancelAnimationFrame(_.current);
+                }
+              );
+            }, [e]);
+            const d = String(o).padStart(6, "0").split(""),
+              A =
+                0 === o
+                  ? d.length - 1
+                  : Math.max(
+                      0,
+                      d.findIndex((e) => "0" !== e),
+                    );
+            return a().createElement(
+              "div",
+              { className: dr },
+              d.map((e, u) => {
+                const t = u < A && "0" === e,
+                  r = 2 === u;
+                return a().createElement(
+                  a().Fragment,
+                  { key: u },
+                  a().createElement(
+                    "div",
+                    { className: Ar, style: { display: t ? "none" : "block" } },
+                    a().createElement(
+                      "div",
+                      { className: pr, style: { transform: `translateY(-${10 * Number(e)}%)` } },
+                      Array.from({ length: 10 }, (e, u) =>
+                        a().createElement("div", { key: u, className: Dr }, u),
+                      ),
+                    ),
+                  ),
+                  r &&
+                    a().createElement(
+                      "div",
+                      { className: Fr, style: { display: u < A ? "none" : "block" } },
+                      " ",
+                    ),
+                );
+              }),
+            );
+          },
+          gr = {
+            base: "MarketScales_base_38",
+            testButton: "MarketScales_testButton_67",
+            animatedItems: "MarketScales_animatedItems_1a",
+            scalesBody: "MarketScales_scalesBody_04",
+            scalesPlatformWrapper: "MarketScales_scalesPlatformWrapper_c2",
+            scalesPlatformWrapper__second: "MarketScales_scalesPlatformWrapper__second_fd",
+            scalesPlatformHolder: "MarketScales_scalesPlatformHolder_4f",
+            scalesPlatformHolder__step1: "MarketScales_scalesPlatformHolder__step1_2e",
+            scalesPlatformHolder__step2: "MarketScales_scalesPlatformHolder__step2_7f",
+            scalesPlatformHolder__step3: "MarketScales_scalesPlatformHolder__step3_50",
+            scalesPlatformHolder__step4: "MarketScales_scalesPlatformHolder__step4_83",
+            scalesPlatform: "MarketScales_scalesPlatform_dd",
+            scalesPlatform__animated: "MarketScales_scalesPlatform__animated_6f",
+            dropBounce: "MarketScales_dropBounce_0b",
+            scalesPlatformBack: "MarketScales_scalesPlatformBack_eb",
+            scalesPlatformFront: "MarketScales_scalesPlatformFront_20",
+            scalesPlatformFront__animated: "MarketScales_scalesPlatformFront__animated_02",
+            honeyWrapper: "MarketScales_honeyWrapper_3f",
+            honeyWrapper__animated: "MarketScales_honeyWrapper__animated_61",
+            floatPlatformHoney: "MarketScales_floatPlatformHoney_a7",
+            honey: "MarketScales_honey_12",
+            honey__1: "MarketScales_honey__1_0c",
+            honey__2: "MarketScales_honey__2_ef",
+            honey__3: "MarketScales_honey__3_44",
+            honey__4: "MarketScales_honey__4_56",
+            honey__visible: "MarketScales_honey__visible_3f",
+            buttonWrapper: "MarketScales_buttonWrapper_33",
+            buttonWrapper__shifted: "MarketScales_buttonWrapper__shifted_dd",
+            scalesButton: "MarketScales_scalesButton_14",
+            rewardWrapper: "MarketScales_rewardWrapper_1b",
+            rewardWrapper__leaving: "MarketScales_rewardWrapper__leaving_fa",
+            dropOut: "MarketScales_dropOut_61",
+            dropOutLarge: "MarketScales_dropOutLarge_2d",
+            rewardHolder: "MarketScales_rewardHolder_51",
+            reward: "MarketScales_reward_f2",
+            rewardWrapper__visible: "MarketScales_rewardWrapper__visible_03",
+            floatHoney: "MarketScales_floatHoney_f4",
+            glowWrapper: "MarketScales_glowWrapper_7e",
+            glowHolder: "MarketScales_glowHolder_7f",
+            glowSpin: "MarketScales_glowSpin_f9",
+            glow: "MarketScales_glow_1e",
+            odometerWrapper: "MarketScales_odometerWrapper_05",
+            odometerIcon: "MarketScales_odometerIcon_2e",
+            odometerIcon__top: "MarketScales_odometerIcon__top_97",
+            odometerIcon__bottom: "MarketScales_odometerIcon__bottom_ac",
+            countersWrapper: "MarketScales_countersWrapper_36",
+            countersHolder: "MarketScales_countersHolder_88",
+            counterTopWrapper: "MarketScales_counterTopWrapper_9c",
+            counterBottomWrapper: "MarketScales_counterBottomWrapper_5c",
+            bumblebeeWrapper: "MarketScales_bumblebeeWrapper_68",
+            blink: "MarketScales_blink_3f",
+            show: "MarketScales_show_d9",
+          },
+          Br = !1,
+          Cr = R.strings.event.summerSales,
+          br = (e, u) => {
+            let t = 0;
+            for (let r = 0; r < u.length - 1; r++) e > u[r] && (t = r + 1);
+            return t;
+          },
+          vr = (0, Re.Pi)(({ isCatalogOpened: e, onClick: u, buyTriggerCount: t }) => {
+            const n = S().mediaSize,
+              s = wu().model,
+              i = s.root.get(),
+              o = i.honeyCoinsBalance,
+              l = i.progressionLevel,
+              c = (0, r.useRef)([]),
+              _ = (0, r.useRef)(!0),
+              m = (0, r.useState)(!1),
+              E = m[0],
+              d = m[1],
+              A = (0, r.useState)(!1),
+              p = A[0],
+              D = A[1],
+              F = (0, r.useState)(0),
+              h = F[0],
+              B = F[1],
+              C = (0, r.useState)(0),
+              v = C[0],
+              f = C[1],
+              y = (0, r.useState)(!1),
+              w = y[0],
+              M = y[1],
+              N = (0, r.useState)(!1),
+              T = N[0],
+              x = N[1],
+              P = (0, r.useState)(0),
+              k = P[0],
+              L = P[1],
+              I = (0, r.useState)(0),
+              O = I[0],
+              H = I[1],
+              U = (0, r.useState)(Ie.secondary),
+              W = U[0],
+              G = U[1],
+              $ = (0, r.useState)(Cr.marketScales.button.justShowMe()),
+              V = $[0],
+              X = $[1],
+              j = (0, r.useState)(0),
+              z = j[0],
+              Y = (j[1], (0, r.useState)(0)),
+              q = (Y[0], Y[1], (0, r.useState)(!1)),
+              K = (q[0], q[1]),
+              Z = (0, r.useState)(!1),
+              Q = Z[0],
+              J = Z[1],
+              ee = (0, r.useState)(!0),
+              ue = ee[0],
+              te = ee[1],
+              re = _r(),
+              ae = _r(),
+              ne = _r(),
+              se = _r(),
+              ie = s.computes.getProducts(),
+              oe = (0, r.useMemo)(
+                () =>
+                  ie
+                    .filter((e) => !e.inInventory && !e.wasSold)
+                    .reduce((e, u) => Math.min(e, u.price.amount), 1 / 0),
+                [ie],
+              );
+            ((0, r.useEffect)(() => {
+              if (!ie) return;
+              const e = ((e) => {
+                const u = e / 4;
+                return Array.from({ length: 5 }, (e, t) => Math.round(t * u));
+              })(ie.reduce((e, u) => Math.max(e, u.price.amount), 0));
+              ((c.current = e), B(br(o, e)), f(br(o, e)));
+            }, [ie]),
+              (0, r.useEffect)(() => {
+                if (_.current) return void (_.current = !1);
+                if (!ie) return;
+                if (!o) return;
+                if (_.current) return void (_.current = !1);
+                let e = o;
+                const u = c.current,
+                  t = br(e, u),
+                  r = l;
+                if (e < k) return (B(t), f(t), L(e), H(r), void te(!1));
+                (te(!0),
+                  d(!1),
+                  D(!1),
+                  M(!1),
+                  x(!1),
+                  M(!0),
+                  K(!0),
+                  ve(R.sounds.summer_sale_accrual_honey()),
+                  re.run(() => {
+                    D(!0);
+                  }, 1800),
+                  ae.run(() => {
+                    (B(t), x(!0), d(!0), f(t), L(e));
+                  }, 2e3),
+                  ne.run(() => {
+                    H(r);
+                  }, 2900),
+                  se.run(() => {
+                    (D(!1), M(!1), x(!1), d(!1), K(!1));
+                  }, 3800));
+              }, [o, z]),
+              (0, r.useEffect)(() => {
+                e
+                  ? (G(Ie.secondary), X(Cr.marketScales.button.back()))
+                  : (G(l ? Ie.main : Ie.secondary),
+                    X(
+                      o >= oe
+                        ? Cr.marketScales.button.default()
+                        : Cr.marketScales.button.justShowMe(),
+                    ));
+              }, [e, l, o]),
+              (0, r.useEffect)(() => {
+                Q && ve(R.sounds.comp_7_progressbar_stop());
+              }, [t]));
+            const le = (0, r.useCallback)(() => {
+                J(!0);
+              }, [J]),
+              ce = (0, r.useCallback)(() => {
+                J(!1);
+              }, [J]);
+            (0, r.useCallback)(() => {}, [z]);
+            return a().createElement(
+              "div",
+              { className: gr.base },
+              a().createElement(
+                "div",
+                { className: gr.animatedItems },
+                a().createElement(
+                  "div",
+                  { className: gr.scalesPlatformWrapper },
+                  a().createElement(
+                    "div",
+                    {
+                      className: g()(gr.scalesPlatformHolder, gr[`scalesPlatformHolder__step${v}`]),
+                    },
+                    a().createElement(
+                      "div",
+                      { className: g()(gr.scalesPlatform, E && gr.scalesPlatform__animated) },
+                      a().createElement(
+                        "div",
+                        { className: g()(gr.honeyWrapper, T && gr.honeyWrapper__animated) },
+                        a().createElement("div", {
+                          className: g()(gr.honey, gr.honey__1, 1 === h && gr.honey__visible),
+                        }),
+                        a().createElement("div", {
+                          className: g()(gr.honey, gr.honey__2, 2 === h && gr.honey__visible),
+                        }),
+                        a().createElement("div", {
+                          className: g()(gr.honey, gr.honey__3, 3 === h && gr.honey__visible),
+                        }),
+                        a().createElement("div", {
+                          className: g()(gr.honey, gr.honey__4, 4 === h && gr.honey__visible),
+                        }),
+                      ),
+                      a().createElement("div", { className: gr.scalesPlatformBack }),
+                    ),
+                  ),
+                ),
+                a().createElement(
+                  "div",
+                  { className: g()(gr.scalesPlatformWrapper, gr.scalesPlatformWrapper__second) },
+                  a().createElement(
+                    "div",
+                    {
+                      className: g()(gr.scalesPlatformHolder, gr[`scalesPlatformHolder__step${v}`]),
+                    },
+                    a().createElement("div", {
+                      className: g()(gr.scalesPlatformFront, E && gr.scalesPlatformFront__animated),
+                    }),
+                  ),
+                ),
+                a().createElement(
+                  "div",
+                  {
+                    className: g()(
+                      gr.rewardWrapper,
+                      w && gr.rewardWrapper__visible,
+                      p && gr.rewardWrapper__leaving,
+                    ),
+                  },
+                  a().createElement(
+                    "div",
+                    { className: gr.glowWrapper },
+                    a().createElement(
+                      "div",
+                      { className: gr.glowHolder },
+                      a().createElement("div", { className: gr.glow }),
+                    ),
+                  ),
+                  a().createElement(
+                    "div",
+                    { className: gr.rewardHolder },
+                    a().createElement("div", { className: gr.reward }),
+                  ),
+                ),
+              ),
+              a().createElement("div", { className: gr.scalesBody }),
+              a().createElement(
+                "div",
+                { className: gr.countersWrapper },
+                a().createElement(
+                  "div",
+                  { className: gr.countersHolder },
+                  a().createElement(
+                    "div",
+                    { className: gr.counterTopWrapper },
+                    a().createElement(hr, {
+                      value: k || o,
+                      isSoundOn: !0,
+                      isAnimationEnabled: ue,
+                      onStartAnimation: le,
+                      onEndAnimation: ce,
+                    }),
+                    a().createElement(
+                      Ye,
+                      {
+                        header: Cr.mainView.catalog.tooltip.header.honey(),
+                        body: Cr.mainView.catalog.tooltip.body.honey(),
+                      },
+                      a().createElement("div", {
+                        className: g()(gr.odometerIcon, gr.odometerIcon__top),
+                      }),
+                    ),
+                  ),
+                  a().createElement(
+                    "div",
+                    { className: gr.counterBottomWrapper },
+                    a().createElement(hr, { value: O || l, isAnimationEnabled: ue }),
+                    a().createElement(
+                      Ye,
+                      {
+                        header: Cr.marketScales.tooltip.header.honey(),
+                        body: Cr.marketScales.tooltip.body.honey(),
+                      },
+                      a().createElement("div", {
+                        className: g()(gr.odometerIcon, gr.odometerIcon__bottom),
+                      }),
+                    ),
+                  ),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: g()(gr.buttonWrapper, e && gr.buttonWrapper__shifted) },
+                a().createElement(
+                  Ye,
+                  {
+                    header: Cr.marketScales.tooltip.header.honey(),
+                    body: Cr.marketScales.tooltip.body.honey(),
+                    isEnabled: !e,
+                  },
+                  a().createElement(
+                    Ue,
+                    {
+                      mixClass: gr.scalesButton,
+                      size: n < b.Large ? Oe.extraSmall : Oe.medium,
+                      type: W,
+                      onClick: u,
+                    },
+                    a().createElement(be, { text: V }),
+                    !e && o >= oe && a().createElement("div", { className: gr.blink }),
+                  ),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: gr.bumblebeeWrapper },
+                a().createElement(Er, { variant: 1 }),
+              ),
+              a().createElement(
+                "div",
+                { className: gr.bumblebeeWrapper },
+                a().createElement(Er, { variant: 2 }),
+              ),
+              a().createElement(
+                "div",
+                { className: gr.bumblebeeWrapper },
+                a().createElement(Er, { variant: 3 }),
+              ),
+              Br,
+            );
+          }),
+          fr = R.strings.event.summerSales.mainView;
+        let Sr;
+        !(function (e) {
+          ((e.Shop = "shop"), (e.Quests = "quests"));
+        })(Sr || (Sr = {}));
+        const yr = (e, u) => {
+            const t = Y(e, j.DATE_MONTH, !0),
+              r = Y(u, j.DATE_MONTH, !0);
+            return {
+              startDate: `${t} ${Y(e, j.YEAR, !0)}`,
+              endDate: `${r} ${Y(u, j.YEAR, !0)} ${Y(u, j.SHORT_TIME, !0)}`,
+            };
+          },
+          wr = (0, Re.Pi)(() => {
+            const e = wu(),
+              u = e.controls,
+              t = e.model,
+              n = S(),
+              i = n.remScreenWidth,
+              o = n.remScreenHeight,
+              l = t.eventTimeRange.get(),
+              c = (0, r.useState)(0),
+              _ = c[0],
+              m = c[1],
+              E = (0, r.useState)(!1),
+              d = E[0],
+              A = E[1],
+              p = (0, r.useState)(0),
+              D = p[0],
+              F = p[1],
+              h = (0, r.useState)(0),
+              B = h[0],
+              C = h[1],
+              b = ((e, u, t = 150) => {
+                const a = (0, r.useState)(e),
+                  n = a[0],
+                  s = a[1],
+                  i = ke((e) => s(e), u, t);
+                return {
+                  isHovered: n,
+                  handleMouseEnter: (0, r.useCallback)(() => i(!0), [i]),
+                  handleMouseLeave: (0, r.useCallback)(() => i(!1), [i]),
+                };
+              })(!1, []),
+              v = b.isHovered,
+              f = b.handleMouseEnter,
+              y = b.handleMouseLeave,
+              w = () => {
+                (A(!d),
+                  ve(d ? R.sounds.summer_sale_shop_close() : R.sounds.summer_sale_shop_open()));
+              },
+              M = (() => {
+                const e = (0, r.useState)(s.O.view.getScale()),
+                  u = e[0],
+                  t = e[1];
+                return (
+                  (0, r.useEffect)(() => {
+                    const e = () => {
+                      t(s.O.view.getScale());
+                    };
+                    return (
+                      window.addEventListener("resize", e),
+                      () => {
+                        window.removeEventListener("resize", e);
+                      }
+                    );
+                  }, []),
+                  u
+                );
+              })(),
+              N = (0, r.useCallback)(
+                (e) => {
+                  switch (e) {
+                    case Sr.Shop:
+                      return u.openShop();
+                    case Sr.Quests:
+                      return u.openQuests();
+                    default:
+                      return;
+                  }
+                },
+                [u],
+              );
+            (!(function ({
+              key: e = Ne.n.ESCAPE,
+              callback: u = () => s.O.view.sendEvent.close(),
+              preventPropagation: t = !0,
+            } = {}) {
+              xe(e, u, t);
+            })({ callback: d ? w : u.close }),
+              (0, r.useEffect)(() => {
+                const e = () => {
+                  const e = 4e3 * (o / 1080);
+                  let u;
+                  if (d) {
+                    u = i / 2 - 0.33 * e;
+                  } else {
+                    u = i / 2 - 0.68 * e;
+                  }
+                  const t = e - i;
+                  ((u = Math.max(-t, Math.min(0, u))), F(u), C(e * M));
+                };
+                return (
+                  e(),
+                  window.addEventListener("resize", e),
+                  () => window.removeEventListener("resize", e)
+                );
+              }, [d, o, i, M, B]));
+            const T = (0, r.useCallback)(
+              () =>
+                Object.values(Sr).map((e, u) =>
+                  a().createElement(Ze, { key: u, onClick: N, type: e, className: $u }),
+                ),
+              [N],
+            );
+            return a().createElement(
+              "div",
+              { className: g()(Mu, d && Hu) },
+              a().createElement("div", {
+                className: Nu,
+                style: { transform: `translateX(${D}rem)`, width: B },
+              }),
+              d &&
+                a().createElement(
+                  "div",
+                  { className: Tu },
+                  a().createElement(Me, {
+                    caption: fr.backBtn(),
+                    goto: fr.backBtnLabel(),
+                    onClick: w,
+                  }),
+                ),
+              a().createElement(
+                "div",
+                { className: xu },
+                a().createElement("div", { className: Ru }),
+                a().createElement(
+                  "div",
+                  { className: Pu },
+                  a().createElement(be, { text: fr.title() }),
+                  a().createElement("div", { className: Iu, onClick: u.infoClick }),
+                ),
+                a().createElement(
+                  "div",
+                  { className: ku },
+                  a().createElement("div", { className: Lu }),
+                  a().createElement(be, {
+                    text: fr.range(),
+                    format: { binding: Object.assign({}, yr(l.start, l.end)) },
+                  }),
+                ),
+              ),
+              a().createElement(
+                "div",
+                { className: Gu },
+                a().createElement(vr, { isCatalogOpened: d, onClick: w, buyTriggerCount: _ }),
+              ),
+              a().createElement(
+                "div",
+                { className: Ou },
+                a().createElement(cr, {
+                  isOpen: d,
+                  onBuyClick: () => {
+                    m((e) => e + 1);
+                  },
+                }),
+              ),
+              a().createElement(
+                "div",
+                { className: g()(Uu, v && Wu), onMouseEnter: f, onMouseLeave: y },
+                T(),
+              ),
+            );
+          });
+        engine.whenReady.then(() => {
+          I().render(
+            a().createElement(yu, null, a().createElement(k, null, a().createElement(wr, null))),
+            document.getElementById("root"),
+          );
+        });
+      },
+    },
+    __webpack_module_cache__ = {},
+    deferred;
+  function __webpack_require__(e) {
+    var u = __webpack_module_cache__[e];
+    if (void 0 !== u) return u.exports;
+    var t = (__webpack_module_cache__[e] = { exports: {} });
+    return (__webpack_modules__[e](t, t.exports, __webpack_require__), t.exports);
+  }
+  ((__webpack_require__.m = __webpack_modules__),
+    (deferred = []),
+    (__webpack_require__.O = (e, u, t, r) => {
+      if (!u) {
+        var a = 1 / 0;
+        for (o = 0; o < deferred.length; o++) {
+          for (var [u, t, r] = deferred[o], n = !0, s = 0; s < u.length; s++)
+            (!1 & r || a >= r) &&
+            Object.keys(__webpack_require__.O).every((e) => __webpack_require__.O[e](u[s]))
+              ? u.splice(s--, 1)
+              : ((n = !1), r < a && (a = r));
+          if (n) {
+            deferred.splice(o--, 1);
+            var i = t();
+            void 0 !== i && (e = i);
+          }
+        }
+        return e;
+      }
+      r = r || 0;
+      for (var o = deferred.length; o > 0 && deferred[o - 1][2] > r; o--)
+        deferred[o] = deferred[o - 1];
+      deferred[o] = [u, t, r];
+    }),
+    (__webpack_require__.n = (e) => {
+      var u = e && e.__esModule ? () => e.default : () => e;
+      return (__webpack_require__.d(u, { a: u }), u);
+    }),
+    (__webpack_require__.d = (e, u) => {
+      for (var t in u)
+        __webpack_require__.o(u, t) &&
+          !__webpack_require__.o(e, t) &&
+          Object.defineProperty(e, t, { enumerable: !0, get: u[t] });
+    }),
+    (__webpack_require__.g = (function () {
+      if ("object" == typeof globalThis) return globalThis;
+      try {
+        return this || new Function("return this")();
+      } catch (e) {
+        if ("object" == typeof window) return window;
+      }
+    })()),
+    (__webpack_require__.o = (e, u) => Object.prototype.hasOwnProperty.call(e, u)),
+    (__webpack_require__.r = (e) => {
+      ("undefined" != typeof Symbol &&
+        Symbol.toStringTag &&
+        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+        Object.defineProperty(e, "__esModule", { value: !0 }));
+    }),
+    (__webpack_require__.j = 940),
+    (() => {
+      var e = { 940: 0 };
+      __webpack_require__.O.j = (u) => 0 === e[u];
+      var u = (u, t) => {
+          var r,
+            a,
+            [n, s, i] = t,
+            o = 0;
+          if (n.some((u) => 0 !== e[u])) {
+            for (r in s) __webpack_require__.o(s, r) && (__webpack_require__.m[r] = s[r]);
+            if (i) var l = i(__webpack_require__);
+          }
+          for (u && u(t); o < n.length; o++)
+            ((a = n[o]), __webpack_require__.o(e, a) && e[a] && e[a][0](), (e[a] = 0));
+          return __webpack_require__.O(l);
+        },
+        t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
+      (t.forEach(u.bind(null, 0)), (t.push = u.bind(null, t.push.bind(t))));
+    })());
+  var __webpack_exports__ = __webpack_require__.O(void 0, [228], () => __webpack_require__(188));
+  __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+})();

@@ -1,109 +1,109 @@
 .BattleConditions_base_3c {
-    width: 100%;
-    font-size: 14rem;
+  width: 100%;
+  font-size: 14rem;
 }
 
-    .BattleConditions_base__big_fd .BattleConditions_description_97 {
-            font-size: 18rem;
-        }
+.BattleConditions_base__big_fd .BattleConditions_description_97 {
+  font-size: 18rem;
+}
 
-    .BattleConditions_base__big_fd .BattleConditions_operator_43 {
-            font-size: 18rem;
-        }
+.BattleConditions_base__big_fd .BattleConditions_operator_43 {
+  font-size: 18rem;
+}
 
-    .BattleConditions_base__huge_92 .BattleConditions_description_97 {
-            font-size: 24rem;
-        }
+.BattleConditions_base__huge_92 .BattleConditions_description_97 {
+  font-size: 24rem;
+}
 
-    .BattleConditions_base__huge_92 .BattleConditions_operator_43 {
-            font-size: 24rem;
-        }
+.BattleConditions_base__huge_92 .BattleConditions_operator_43 {
+  font-size: 24rem;
+}
 
-    .BattleConditions_base__reverse_1a .BattleConditions_condition_e2 {
-            flex-direction: column-reverse;
-        }
+.BattleConditions_base__reverse_1a .BattleConditions_condition_e2 {
+  flex-direction: column-reverse;
+}
 
-    .BattleConditions_base__bolded_92 .BattleConditions_description_97 {
-            font-weight: 700;
-        }
+.BattleConditions_base__bolded_92 .BattleConditions_description_97 {
+  font-weight: 700;
+}
 
-    .BattleConditions_base__bolded_92 .BattleConditions_operator_43 {
-            font-weight: 700;
-        }
+.BattleConditions_base__bolded_92 .BattleConditions_operator_43 {
+  font-weight: 700;
+}
 
 .BattleConditions_conditionBlockColumn_c7 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .BattleConditions_conditionBlockRow_a8 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .BattleConditions_condition_e2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .BattleConditions_operator_43 {
-    margin: 0 10rem;
-    color: #ffbd30;
+  margin: 0 10rem;
+  color: #ffbd30;
 }
 
 .BattleConditions_title_8b {
-    text-align: center;
+  text-align: center;
 }
 
 .BattleConditions_description_97 {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size: 16rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 16rem;
 }
 
 .BattleConditions_description_inlineOperator_34 {
-        margin: 0 5rem;
-    }
+  margin: 0 5rem;
+}
 
 .BattleConditions_progress_c0 {
-    display: flex;
-    justify-content: center;
-    font-size: 24rem;
-    font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-size: 24rem;
+  font-weight: 700;
 }
 
 .BattleConditions_progress__completed_1b .BattleConditions_progress_current_fa,
-        .BattleConditions_progress__completed_1b .BattleConditions_progress_separator_d0,
-        .BattleConditions_progress__completed_1b .BattleConditions_progress_total_62 {
-            color: #7ab300;
-        }
+.BattleConditions_progress__completed_1b .BattleConditions_progress_separator_d0,
+.BattleConditions_progress__completed_1b .BattleConditions_progress_total_62 {
+  color: #7ab300;
+}
 
 .BattleConditions_progress_current_fa {
-        display: inline;
-        color: #ffbd30;
-    }
+  display: inline;
+  color: #ffbd30;
+}
 
 .BattleConditions_progress_separator_d0 {
-        display: inline;
-        margin: 0 3rem;
-    }
+  display: inline;
+  margin: 0 3rem;
+}
 
 .BattleConditions_progress_total_62 {
-        display: inline;
-    }
+  display: inline;
+}
 
 .BattleConditions_progressBarWrapper_85 {
-    margin: 14rem 0;
+  margin: 14rem 0;
 }
 
 .BattleConditions_timingFunction_8f {
-    transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 /*
@@ -112,63 +112,62 @@
 */
 /* stylelint-disable-line */
 .ProgressBar_base_45 {
-    width: 100%;
-    height: 12rem;
-    position: relative;
+  width: 100%;
+  height: 12rem;
+  position: relative;
 }
 .ProgressBar_base__medium_62 {
-        height: 6rem;
-    }
+  height: 6rem;
+}
 .ProgressBar_base__small_df {
-        height: 2rem;
-    }
+  height: 2rem;
+}
 .ProgressBar_background_51 {
-    width: 100%;
-    max-width: 8001px;
-    height: 100%;
-    background-image: var(--progress-base);
-    background-repeat: repeat;
-    background-position: 0 50%;
-    background-size: 3rem 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  max-width: 8001px;
+  height: 100%;
+  background-image: var(--progress-base);
+  background-repeat: repeat;
+  background-position: 0 50%;
+  background-size: 3rem 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .ProgressBar_background__medium_6e {
-        height: 6rem;
-    }
-.ProgressBar_background__small_46 {
-        height: 2rem;
-    }
-.ProgressBar_lineWrapper_6a {
-    display: flex;
-    flex: 1;
+  height: 6rem;
 }
-
+.ProgressBar_background__small_46 {
+  height: 2rem;
+}
+.ProgressBar_lineWrapper_6a {
+  display: flex;
+  flex: 1;
+}
 
 .ProgressBarBlink_base_24 {
-    width: 60rem;
-    height: 100rem;
-    background-image: var(--progress-glow);
-    background-size: contain;
-    mix-blend-mode: lighten;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(50%, -50%);
-    pointer-events: none;
+  width: 60rem;
+  height: 100rem;
+  background-image: var(--progress-glow);
+  background-size: contain;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  pointer-events: none;
 }
 
-    .ProgressBarBlink_base__medium_ec {
-        width: 42rem;
-        height: 70rem;
-    }
+.ProgressBarBlink_base__medium_ec {
+  width: 42rem;
+  height: 70rem;
+}
 
-    .ProgressBarBlink_base__small_0f {
-        width: 44rem;
-        height: 43rem;
-        background-image: var(--progress-glow-small);
-    }
+.ProgressBarBlink_base__small_0f {
+  width: 44rem;
+  height: 43rem;
+  background-image: var(--progress-glow-small);
+}
 
 /*
     Gameface can't calculate gradient biggest than 8128px
@@ -176,90 +175,95 @@
 */
 /* stylelint-disable-line */
 .ProgressLineImpose_base_80 {
-    max-width: 8001px;
-    height: 100%;
-    background-color: var(--progress-line-base);
-    position: relative;
-    transition-timing-function: cubic-bezier(1, 0, .92, 1);
-    transition-property: width;
+  max-width: 8001px;
+  height: 100%;
+  background-color: var(--progress-line-base);
+  position: relative;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
 }
 .ProgressLineImpose_base__disabled_cc {
-        background-color: var(--progress-line-disabled);
-    }
+  background-color: var(--progress-line-disabled);
+}
 .ProgressLineImpose_base__finished_d4 {
-        background-color: var(--progress-line-finished);
-    }
+  background-color: var(--progress-line-finished);
+}
 .ProgressLineImpose_base__withoutBounce_56 {
-        transition-timing-function: cubic-bezier(1, 0, .75, .75);
-    }
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
+}
 .ProgressLineImpose_pattern_1c {
-    max-width: 8001px;
-    background-image: var(--progress-pattern-base);
-    background-repeat: repeat;
-    background-position: 0 50%;
-    background-size: 3rem 10rem;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem;
+  max-width: 8001px;
+  background-image: var(--progress-pattern-base);
+  background-repeat: repeat;
+  background-position: 0 50%;
+  background-size: 3rem 10rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
 }
 .ProgressLineImpose_base__small_55 .ProgressLineImpose_pattern_1c {
-        top: 0;
-        bottom: 0;
-    }
+  top: 0;
+  bottom: 0;
+}
 .ProgressLineImpose_base__disabled_cc .ProgressLineImpose_pattern_1c {
-        background-image: var(--progress-pattern-disabled);
-        left: 0;
-    }
+  background-image: var(--progress-pattern-disabled);
+  left: 0;
+}
 .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_pattern_1c {
-        background-image: var(--progress-pattern-finished);
-    }
+  background-image: var(--progress-pattern-finished);
+}
 .ProgressLineImpose_gradient_35 {
-    max-width: 8001px;
-    background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75));
-    mix-blend-mode: overlay;
-    position: absolute;
-    top: 1rem;
-    right: 0;
-    bottom: 1rem;
-    left: 0;
+  max-width: 8001px;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.75));
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
 }
 .ProgressLineImpose_base__small_55 .ProgressLineImpose_gradient_35 {
-        top: 0;
-        bottom: 0;
-    }
+  top: 0;
+  bottom: 0;
+}
 .ProgressLineImpose_base__disabled_cc .ProgressLineImpose_gradient_35 {
-        display: none;
-    }
+  display: none;
+}
 .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_gradient_35 {
-        background-image: linear-gradient(90deg, rgba(0,0,0, .5), rgba(255,255,255, .75), rgba(0,0,0, .5));
-    }
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0.75),
+    rgba(0, 0, 0, 0.5)
+  );
+}
 .ProgressLineImpose_glow_a5 {
-    width: 60rem;
-    max-width: 8001px;
-    height: 100rem;
-    background-image: var(--progress-glow);
-    background-size: contain;
-    mix-blend-mode: lighten;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
+  width: 60rem;
+  max-width: 8001px;
+  height: 100rem;
+  background-image: var(--progress-glow);
+  background-size: contain;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 .ProgressLineImpose_glow__left_d8 {
-        left: 1rem;
-    }
+  left: 1rem;
+}
 .ProgressLineImpose_base__disabled_cc .ProgressLineImpose_glow_a5,
-    .ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
-        display: none;
-    }
+.ProgressLineImpose_base__finished_d4 .ProgressLineImpose_glow_a5 {
+  display: none;
+}
 .ProgressLineImpose_base__small_55 .ProgressLineImpose_glow_a5 {
-        width: 44rem;
-        height: 43rem;
-        background-image: var(--progress-glow-small);
-    }
+  width: 44rem;
+  height: 43rem;
+  background-image: var(--progress-glow-small);
+}
 
 /*
     Gameface can't calculate gradient biggest than 8128px
@@ -267,22 +271,22 @@
 */
 /* stylelint-disable-line */
 .ProgressBarDeltaSimple_base_6c {
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .ProgressBarDeltaSimple_delta_99 {
-    width: 0;
-    max-width: 8001px;
-    height: 100%;
-    box-shadow: var(--progress-delta-shadow);
-    background-color: var(--progress-delta-color);
-    position: absolute;
-    bottom: 0;
-    transform-origin: right center;
-    transition-timing-function: cubic-bezier(1, 0, .92, 1), cubic-bezier(.21, .61, .35, 1);
-    transition-property: width, transform;
+  width: 0;
+  max-width: 8001px;
+  height: 100%;
+  box-shadow: var(--progress-delta-shadow);
+  background-color: var(--progress-delta-color);
+  position: absolute;
+  bottom: 0;
+  transform-origin: right center;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1), cubic-bezier(0.21, 0.61, 0.35, 1);
+  transition-property: width, transform;
 }
 
 /*
@@ -291,29 +295,28 @@
 */
 /* stylelint-disable-line */
 .ProgressBarDeltaGrow_base_7e {
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    transition-timing-function: cubic-bezier(1, 0, .92, 1);
-    transition-property: width;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
 }
 .ProgressBarDeltaGrow_base__withoutBounce_b5 {
-        transition-timing-function: cubic-bezier(1, 0, .75, .75);
-    }
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
+}
 .ProgressBarDeltaGrow_glow_68 {
-    width: 0;
-    max-width: 8001px;
-    height: 100%;
-    box-shadow: var(--progress-delta-shadow);
-    background-color: var(--progress-delta-color);
-    position: absolute;
-    bottom: 0;
-    transform-origin: right center;
-    transition-timing-function: cubic-bezier(1, 0, .92, 1);
-    transition-property: width;
+  width: 0;
+  max-width: 8001px;
+  height: 100%;
+  box-shadow: var(--progress-delta-shadow);
+  background-color: var(--progress-delta-color);
+  position: absolute;
+  bottom: 0;
+  transform-origin: right center;
+  transition-timing-function: cubic-bezier(1, 0, 0.92, 1);
+  transition-property: width;
 }
 .ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
-        transition-timing-function: cubic-bezier(1, 0, .75, .75);
-    }
-
+  transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
+}

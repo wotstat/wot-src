@@ -1,39 +1,38 @@
-
 @keyframes DailyQuestsTab_fadeIn_6b {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes DailyQuestsTab_fadeOut_80 {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }
 
 .DailyQuestsTab_base_fd {
-    width: 340rem;
-    height: 90rem;
-    margin-bottom: 8rem;
-    position: relative;
-    cursor: pointer;
+  width: 340rem;
+  height: 90rem;
+  margin-bottom: 8rem;
+  position: relative;
+  cursor: pointer;
 }
 
 .DailyQuestsTab_base__selected_83 {
-        cursor: default;
-    }
+  cursor: default;
+}
 
 .mediaLarge .DailyQuestsTab_base_fd {
-        width: 480rem;
-        height: 100rem;
+  width: 480rem;
+  height: 100rem;
 }
 
 .DailyQuestsTab_bg_ed,
@@ -41,589 +40,596 @@
 .DailyQuestsTab_selectedBg_25,
 .DailyQuestsTab_disabledBg_6c,
 .DailyQuestsTab_premBg_16 {
-    width: 340rem;
-    height: 90rem;
-    background: no-repeat center / cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 340rem;
+  height: 90rem;
+  background: no-repeat center / cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.mediaLarge .DailyQuestsTab_bg_ed, .mediaLarge .DailyQuestsTab_hoverBg_a8, .mediaLarge .DailyQuestsTab_selectedBg_25, .mediaLarge .DailyQuestsTab_disabledBg_6c, .mediaLarge .DailyQuestsTab_premBg_16 {
-        width: 480rem;
-        height: 100rem;
+.mediaLarge .DailyQuestsTab_bg_ed,
+.mediaLarge .DailyQuestsTab_hoverBg_a8,
+.mediaLarge .DailyQuestsTab_selectedBg_25,
+.mediaLarge .DailyQuestsTab_disabledBg_6c,
+.mediaLarge .DailyQuestsTab_premBg_16 {
+  width: 480rem;
+  height: 100rem;
 }
 
 .DailyQuestsTab_bg_ed {
-    background-image: url('R.images.gui.maps.icons.daily.quests.tabs.default');
-    opacity: 1;
-    z-index: 0;
-    transition: opacity .5s;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default");
+  opacity: 1;
+  z-index: 0;
+  transition: opacity 0.5s;
 }
 
 .mediaLarge .DailyQuestsTab_bg_ed {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.default_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default_big");
 }
 
 .DailyQuestsTab_base__hover_d3 .DailyQuestsTab_bg_ed,
-    .DailyQuestsTab_base__selected_83 .DailyQuestsTab_bg_ed {
-        opacity: 0;
-        transition: opacity .5s;
-    }
+.DailyQuestsTab_base__selected_83 .DailyQuestsTab_bg_ed {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
 
 .DailyQuestsTab_base__completed_3f .DailyQuestsTab_bg_ed {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_default');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default");
+}
 
 .mediaLarge .DailyQuestsTab_base__completed_3f .DailyQuestsTab_bg_ed {
-            background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_default_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default_big");
 }
 
 .DailyQuestsTab_hoverBg_a8 {
-    background-image: url('R.images.gui.maps.icons.daily.quests.tabs.hover');
-    opacity: 0;
-    z-index: 1;
-    transition: opacity .5s;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.hover");
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.5s;
 }
 
 .mediaLarge .DailyQuestsTab_hoverBg_a8 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.hover_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.hover_big");
 }
 
 .DailyQuestsTab_base__hover_d3 .DailyQuestsTab_hoverBg_a8 {
-        opacity: 1;
-        transition: opacity .5s;
-    }
+  opacity: 1;
+  transition: opacity 0.5s;
+}
 
 .DailyQuestsTab_base__completed_3f .DailyQuestsTab_hoverBg_a8 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_hover');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_hover");
+}
 
 .mediaLarge .DailyQuestsTab_base__completed_3f .DailyQuestsTab_hoverBg_a8 {
-            background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_hover_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_hover_big");
 }
 
 .DailyQuestsTab_selectedBg_25 {
-    width: 372rem;
-    height: 122rem;
-    background-image: url('R.images.gui.maps.icons.daily.quests.tabs.selected');
-    opacity: 0;
-    top: -13rem;
-    left: -16rem;
-    z-index: 2;
-    transition: opacity .5s;
+  width: 372rem;
+  height: 122rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected");
+  opacity: 0;
+  top: -13rem;
+  left: -16rem;
+  z-index: 2;
+  transition: opacity 0.5s;
 }
 
 .mediaLarge .DailyQuestsTab_selectedBg_25 {
-        width: 512rem;
-        height: 132rem;
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.selected_big');
+  width: 512rem;
+  height: 132rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected_big");
 }
 
 .DailyQuestsTab_base__selected_83 .DailyQuestsTab_selectedBg_25 {
-        opacity: 1;
-        transition: opacity .5s;
-    }
+  opacity: 1;
+  transition: opacity 0.5s;
+}
 
 .DailyQuestsTab_base__completed_3f .DailyQuestsTab_selectedBg_25 {
-        width: 381rem;
-        height: 130rem;
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_selected');
-        top: -15rem;
-        left: -20rem;
-    }
+  width: 381rem;
+  height: 130rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected");
+  top: -15rem;
+  left: -20rem;
+}
 
 .mediaLarge .DailyQuestsTab_base__completed_3f .DailyQuestsTab_selectedBg_25 {
-            width: 521rem;
-            height: 140rem;
-            background-image: url('R.images.gui.maps.icons.daily.quests.tabs.completed_selected_big');
+  width: 521rem;
+  height: 140rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected_big");
 }
 
 .DailyQuestsTab_base__notEnabled_eb .DailyQuestsTab_selectedBg_25 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.selected');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected");
+}
 
 .mediaLarge .DailyQuestsTab_base__notEnabled_eb .DailyQuestsTab_selectedBg_25 {
-            background-image: url('R.images.gui.maps.icons.daily.quests.tabs.selected_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected_big");
 }
 
 .DailyQuestsTab_disabledBg_6c {
-    background-image: url('R.images.gui.maps.icons.daily.quests.tabs.disabled');
-    z-index: 3;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.disabled");
+  z-index: 3;
 }
 
 .mediaLarge .DailyQuestsTab_disabledBg_6c {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.disabled_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.disabled_big");
 }
 
 .DailyQuestsTab_premBg_16 {
-    background-image: url('R.images.gui.maps.icons.daily.quests.tabs.prem');
-    z-index: 4;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.prem");
+  z-index: 4;
 }
 
 .mediaLarge .DailyQuestsTab_premBg_16 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.prem_big');
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.prem_big");
 }
 
 .DailyQuestsTab_contentWrapper_5b {
-    opacity: 0;
-    animation: DailyQuestsTab_fadeIn_6b .4s cubic-bezier(.47, 0, .75, .72) 0s forwards;
-    pointer-events: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
+  opacity: 0;
+  animation: DailyQuestsTab_fadeIn_6b 0.4s cubic-bezier(0.47, 0, 0.75, 0.72) 0s forwards;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .DailyQuestsTab_base__unlock_34 .DailyQuestsTab_contentWrapper_5b {
-    opacity: 0;
-    animation: DailyQuestsTab_fadeOut_80 .4s cubic-bezier(.47, 0, .75, .72) 0s forwards;
-    pointer-events: auto;
-    }
+  opacity: 0;
+  animation: DailyQuestsTab_fadeOut_80 0.4s cubic-bezier(0.47, 0, 0.75, 0.72) 0s forwards;
+  pointer-events: auto;
+}
 
 .DailyQuestsTab_iconWrapper_da {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90rem;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90rem;
+  height: 100%;
 }
 
 .mediaLarge .DailyQuestsTab_iconWrapper_da {
-        width: 116rem;
+  width: 116rem;
 }
 
 .DailyQuestsTab_icon_40 {
-    width: 32rem;
-    height: 32rem;
-    background: no-repeat center / contain;
+  width: 32rem;
+  height: 32rem;
+  background: no-repeat center / contain;
 }
 
 .mediaLarge .DailyQuestsTab_icon_40 {
-        width: 48rem;
-        height: 48rem;
+  width: 48rem;
+  height: 48rem;
 }
 
 .DailyQuestsTab_status_fe {
-    width: 32rem;
-    height: 32rem;
-    background: no-repeat center / contain;
+  width: 32rem;
+  height: 32rem;
+  background: no-repeat center / contain;
 }
 
 .DailyQuestsTab_status__lock_ae {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.lock');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.lock");
+}
 
-.mediaLarge .DailyQuestsTab_status__lock_ae, .mediaLarge .DailyQuestsTab_status__alert_43 {
-            width: 44rem;
-            height: 44rem;
+.mediaLarge .DailyQuestsTab_status__lock_ae,
+.mediaLarge .DailyQuestsTab_status__alert_43 {
+  width: 44rem;
+  height: 44rem;
 }
 
 .DailyQuestsTab_status__check_15 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.check');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.check");
+}
 
 .mediaLarge .DailyQuestsTab_status__check_15 {
-            width: 32rem;
-            height: 32rem;
+  width: 32rem;
+  height: 32rem;
 }
 
 .DailyQuestsTab_status__alert_43 {
-        background-image: url('R.images.gui.maps.icons.daily.quests.tabs.alert');
-    }
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.alert");
+}
 
 .DailyQuestsTab_progress_2c {
-    color: #FFFFFF;
-    font-size: 15rem;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-left: 8rem;
-    opacity: .7;
+  color: #ffffff;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-left: 8rem;
+  opacity: 0.7;
 }
 
 .mediaLarge .DailyQuestsTab_progress_2c {
-        font-size: 18rem;
+  font-size: 18rem;
 }
 
 .DailyQuestsTab_base__completed_3f .DailyQuestsTab_progress_2c {
-        color: rgb(122, 179, 0);
-    }
+  color: rgb(122, 179, 0);
+}
 
 .DailyQuestsTab_current_8e {
-    color: #ffa500;
+  color: #ffa500;
 }
 
 .DailyQuestsTab_base__completed_3f .DailyQuestsTab_current_8e {
-        color: rgb(122, 179, 0);
-    }
+  color: rgb(122, 179, 0);
+}
 
 .DailyQuestsTab_separator_79 {
-    width: 3rem;
-    height: 60rem;
-    background: url('R.images.gui.maps.icons.daily.quests.tabs.separator') no-repeat center / cover;
+  width: 3rem;
+  height: 60rem;
+  background: url("R.images.gui.maps.icons.daily.quests.tabs.separator") no-repeat center / cover;
 }
 
 .mediaLarge .DailyQuestsTab_separator_79 {
-        height: 80rem;
+  height: 80rem;
 }
 
 .DailyQuestsTab_rightBlockWrapper_22 {
-    display: flex;
-    flex-direction: column;
-    width: 250rem;
-    height: 100%;
-    padding: 13rem 14rem;
+  display: flex;
+  flex-direction: column;
+  width: 250rem;
+  height: 100%;
+  padding: 13rem 14rem;
 }
 
 .mediaLarge .DailyQuestsTab_rightBlockWrapper_22 {
-        width: 364rem;
-        padding-left: 28rem;
+  width: 364rem;
+  padding-left: 28rem;
 }
 
 .DailyQuestsTab_bubble_5f {
-    color: #FFFFFF;
-    font-size: 12rem;
-    font-weight: 400;
-    line-height: 1.3;
-    width: 14rem;
-    height: 14rem;
-    border-radius: 50%;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .6), 0 0 8rem rgba(254, 103, 0, .5), 0 0 13rem rgba(249, 0, 0, .8);
-    background-color: #dd3b03;
-    line-height: 13rem;
-    text-align: center;
-    position: absolute;
-    top: 9rem;
-    right: 9rem;
+  color: #ffffff;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  box-shadow:
+    0 0 1rem rgba(0, 0, 0, 0.6),
+    0 0 8rem rgba(254, 103, 0, 0.5),
+    0 0 13rem rgba(249, 0, 0, 0.8);
+  background-color: #dd3b03;
+  line-height: 13rem;
+  text-align: center;
+  position: absolute;
+  top: 9rem;
+  right: 9rem;
 }
 
 .DailyQuestsTab_title_3d {
-    color: #FFFFFF;
-    font-size: 15rem;
-    font-weight: 700;
-    line-height: 1.15;
-    display: flex;
-    margin-bottom: 9rem;
-    opacity: .6;
-    transition: opacity .5s;
+  color: #ffffff;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  display: flex;
+  margin-bottom: 9rem;
+  opacity: 0.6;
+  transition: opacity 0.5s;
 }
 
 .mediaLarge .DailyQuestsTab_title_3d {
-        font-size: 18rem;
+  font-size: 18rem;
 }
 
 .DailyQuestsTab_base__hover_d3 .DailyQuestsTab_title_3d,
-    .DailyQuestsTab_base__selected_83 .DailyQuestsTab_title_3d,
-    .DailyQuestsTab_base__completed_3f .DailyQuestsTab_title_3d {
-        opacity: 1;
-        transition: opacity .5s;
-    }
+.DailyQuestsTab_base__selected_83 .DailyQuestsTab_title_3d,
+.DailyQuestsTab_base__completed_3f .DailyQuestsTab_title_3d {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
 
 .DailyQuestsTab_description_78 {
-    color: #FFFFFF;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    display: flex;
-    margin-right: 20rem;
-    line-height: 18rem;
-    opacity: .5;
+  color: #ffffff;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  display: flex;
+  margin-right: 20rem;
+  line-height: 18rem;
+  opacity: 0.5;
 }
 
 .mediaLarge .DailyQuestsTab_description_78 {
-        font-size: 16rem;
+  font-size: 16rem;
 }
 
 .DailyQuestsTab_base__hover_d3 .DailyQuestsTab_description_78,
-    .DailyQuestsTab_base__selected_83 .DailyQuestsTab_description_78,
-    .DailyQuestsTab_base__completed_3f .DailyQuestsTab_description_78 {
-        opacity: .7;
-        transition: opacity .5s;
-    }
+.DailyQuestsTab_base__selected_83 .DailyQuestsTab_description_78,
+.DailyQuestsTab_base__completed_3f .DailyQuestsTab_description_78 {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
 
 .DailyQuestsTab_bull_be {
-    margin: 0 6rem 0 4rem;
+  margin: 0 6rem 0 4rem;
 }
 
 .Box_mt__XS_0c {
-            margin-top: 4rem;
-        }
-        .Box_mt__SM_eb {
-            margin-top: 8rem;
-        }
-        .Box_mt__SMp_cf {
-            margin-top: 10rem;
-        }
-        .Box_mt__MD_25 {
-            margin-top: 16rem;
-        }
-        .Box_mt__MDp_49 {
-            margin-top: 20rem;
-        }
-        .Box_mt__LG_e8 {
-            margin-top: 32rem;
-        }
-        .Box_mt__XL_83 {
-            margin-top: 64rem;
-        }
+  margin-top: 4rem;
+}
+.Box_mt__SM_eb {
+  margin-top: 8rem;
+}
+.Box_mt__SMp_cf {
+  margin-top: 10rem;
+}
+.Box_mt__MD_25 {
+  margin-top: 16rem;
+}
+.Box_mt__MDp_49 {
+  margin-top: 20rem;
+}
+.Box_mt__LG_e8 {
+  margin-top: 32rem;
+}
+.Box_mt__XL_83 {
+  margin-top: 64rem;
+}
 
 .Box_mr__XS_7c {
-            margin-right: 4rem;
-        }
+  margin-right: 4rem;
+}
 
 .Box_mr__SM_08 {
-            margin-right: 8rem;
-        }
+  margin-right: 8rem;
+}
 
 .Box_mr__SMp_06 {
-            margin-right: 10rem;
-        }
+  margin-right: 10rem;
+}
 
 .Box_mr__MD_4a {
-            margin-right: 16rem;
-        }
+  margin-right: 16rem;
+}
 
 .Box_mr__MDp_b6 {
-            margin-right: 20rem;
-        }
+  margin-right: 20rem;
+}
 
 .Box_mr__LG_d0 {
-            margin-right: 32rem;
-        }
+  margin-right: 32rem;
+}
 
 .Box_mr__XL_db {
-            margin-right: 64rem;
-        }
+  margin-right: 64rem;
+}
 
 .Box_mb__XS_bb {
-            margin-bottom: 4rem;
-        }
+  margin-bottom: 4rem;
+}
 
 .Box_mb__SM_83 {
-            margin-bottom: 8rem;
-        }
+  margin-bottom: 8rem;
+}
 
 .Box_mb__SMp_04 {
-            margin-bottom: 10rem;
-        }
+  margin-bottom: 10rem;
+}
 
 .Box_mb__MD_ed {
-            margin-bottom: 16rem;
-        }
+  margin-bottom: 16rem;
+}
 
 .Box_mb__MDp_65 {
-            margin-bottom: 20rem;
-        }
+  margin-bottom: 20rem;
+}
 
 .Box_mb__LG_c8 {
-            margin-bottom: 32rem;
-        }
+  margin-bottom: 32rem;
+}
 
 .Box_mb__XL_f8 {
-            margin-bottom: 64rem;
-        }
+  margin-bottom: 64rem;
+}
 
 .Box_ml__XS_8a {
-            margin-left: 4rem;
-        }
+  margin-left: 4rem;
+}
 
 .Box_ml__SM_e6 {
-            margin-left: 8rem;
-        }
+  margin-left: 8rem;
+}
 
 .Box_ml__SMp_fb {
-            margin-left: 10rem;
-        }
+  margin-left: 10rem;
+}
 
 .Box_ml__MD_2b {
-            margin-left: 16rem;
-        }
+  margin-left: 16rem;
+}
 
 .Box_ml__MDp_c7 {
-            margin-left: 20rem;
-        }
+  margin-left: 20rem;
+}
 
 .Box_ml__LG_39 {
-            margin-left: 32rem;
-        }
+  margin-left: 32rem;
+}
 
 .Box_ml__XL_4a {
-            margin-left: 64rem;
-        }
+  margin-left: 64rem;
+}
 
 .FormatText_base_d0 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* eslint-disable-next-line expectedscss*/
 .Text_paragraph-P10_2c {
-        font-size: 10rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_paragraph-P12_22 {
-        font-size: 12rem;
-        font-weight: 400;
-        line-height: 1.3;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 .Text_paragraph-P14_a7 {
-        font-size: 14rem;
-        font-weight: 400;
-        line-height: 1.3;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 .Text_paragraph-P16_90 {
-        font-size: 16rem;
-        font-weight: 400;
-        line-height: 1.25;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 .Text_paragraph-P18_50 {
-        font-size: 18rem;
-        font-weight: 400;
-        line-height: 1.25;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 .Text_paragraph-P24_33 {
-        font-size: 24rem;
-        font-weight: 400;
-        line-height: 32rem;
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 32rem;
 }
 .Text_heading-H14_8b {
-        font-size: 14rem;
-        font-weight: 700;
-        line-height: 1.15;
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
 .Text_heading-H15_9e {
-        font-size: 15rem;
-        font-weight: 700;
-        line-height: 1.15;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
 .Text_heading-H18_b7 {
-        font-size: 18rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H20R_f6 {
-        font-size: 20rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_heading-H22_27 {
-        font-size: 22rem;
-        font-weight: 700;
-        line-height: 1.2;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .Text_heading-H24R_be {
-        font-size: 24rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_heading-H24_0c {
-        font-size: 24rem;
-        font-weight: 700;
-        line-height: 1.2;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .Text_heading-H28_78 {
-        font-size: 28rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H36_32 {
-        font-size: 36rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 36rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H56_c3 {
-        font-size: 56rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 56rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H73_8f {
-        font-size: 73rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 73rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H144_a9 {
-        font-size: 144rem;
-        font-weight: 700;
-        line-height: 1;
+  font-size: 144rem;
+  font-weight: 700;
+  line-height: 1;
 }
 .Text_BLACK_REAL_30 {
-        color: #000000;
-    }
+  color: #000000;
+}
 .Text_WHITE_REAL_bc {
-        color: #FFFFFF;
-    }
+  color: #ffffff;
+}
 .Text_WHITE_62 {
-        color: #F2F2F7;
-    }
+  color: #f2f2f7;
+}
 .Text_WHITE_ORANGE_54 {
-        color: #FEFEEC;
-    }
+  color: #fefeec;
+}
 .Text_WHITE_SPANISH_df {
-        color: #E9E2BF;
-    }
+  color: #e9e2bf;
+}
 .Text_PAR_15 {
-        color: #8C8C7E;
-    }
+  color: #8c8c7e;
+}
 .Text_PAR_SECONDARY_5d {
-        color: #595950;
-    }
+  color: #595950;
+}
 .Text_PAR_TERTIARY_c9 {
-        color: #37362E;
-    }
+  color: #37362e;
+}
 .Text_INFO_RED_30 {
-        color: #FF0000;
-    }
+  color: #ff0000;
+}
 .Text_RED_66 {
-        color: #FF2717;
-    }
+  color: #ff2717;
+}
 .Text_RED_DARK_d8 {
-        color: #B70000;
-    }
+  color: #b70000;
+}
 .Text_YELLOW_ed {
-        color: #FEAB34;
-    }
+  color: #feab34;
+}
 .Text_ORANGE_be {
-        color: #EE7000;
-    }
+  color: #ee7000;
+}
 .Text_CREAM_57 {
-        color: #FFDD99;
-    }
+  color: #ffdd99;
+}
 .Text_BROWN_18 {
-        color: #CBAC77;
-    }
+  color: #cbac77;
+}
 .Text_GREEN_BRIGHT_3f {
-        color: #80D43A;
-    }
+  color: #80d43a;
+}
 .Text_GREEN_e3 {
-        color: #7AB300;
-    }
+  color: #7ab300;
+}
 .Text_GREEN_DARK_f1 {
-        color: #497212;
-    }
+  color: #497212;
+}
 .Text_BLUE_BOOSTER_21 {
-        color: #CCFFFF;
-    }
+  color: #ccffff;
+}
 .Text_BLUE_TEAMKILLER_ab {
-        color: #09E2FF;
-    }
+  color: #09e2ff;
+}
 .Text_CRED_f7 {
-        color: #CED9D9;
-    }
+  color: #ced9d9;
+}
 .Text_GOLD_28 {
-        color: #FFC363;
-    }
+  color: #ffc363;
+}
 .Text_BOND_be {
-        color: #C9C9B6;
-    }
+  color: #c9c9b6;
+}
 .Text_PROM_65 {
-        color: #A29B70;
-    }
-
+  color: #a29b70;
+}

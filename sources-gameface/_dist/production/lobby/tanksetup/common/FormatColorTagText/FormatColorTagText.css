@@ -1,36 +1,35 @@
 .ShortenedText_base_fe {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 18rem;
-    opacity: 0;
-    overflow: hidden;
-    transition: opacity ease .2s;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: 18rem;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity ease 0.2s;
 }
 
-    .ShortenedText_base__shown_af {
-        opacity: 1;
-    }
+.ShortenedText_base__shown_af {
+  opacity: 1;
+}
 
 .FormatColorTagText_base_10 {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .FormatColorTagText_text_85 {
-    flex: 1;
+  flex: 1;
 }
 
 .FormatColorTagText_effect_0f {
-    color: #FFC363;
+  color: #ffc363;
 }
 
 .FormatColorTagText_icon_36 {
-    width: 10rem;
-    height: 16rem;
-    background: url('R.images.gui.maps.icons.tanksetup.cards.effect') no-repeat center / contain;
-    position: relative;
-    top: 2rem;
-    left: -2rem;
+  width: 10rem;
+  height: 16rem;
+  background: url("R.images.gui.maps.icons.tanksetup.cards.effect") no-repeat center / contain;
+  position: relative;
+  top: 2rem;
+  left: -2rem;
 }
-

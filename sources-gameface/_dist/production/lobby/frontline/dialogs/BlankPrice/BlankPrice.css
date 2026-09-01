@@ -1,35 +1,34 @@
 .BlankPriceApp_base_f0 {
-    display: flex;
-    align-items: flex-end;
-    align-self: center;
+  display: flex;
+  align-items: flex-end;
+  align-self: center;
 }
 
 .BlankPriceApp_text_9f {
-    margin-top: -8rem;
-    padding-right: 10rem;
+  margin-top: -8rem;
+  padding-right: 10rem;
 }
 
 .BlankPriceApp_blank_e9 {
-    color: #E9E2BF;
-    font-size: 22rem;
-    font-weight: 700;
-    line-height: 1.2;
-    display: flex;
-    margin-top: -8rem;
-    margin-right: -30rem;
-    padding-right: 30rem;
+  color: #e9e2bf;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  margin-top: -8rem;
+  margin-right: -30rem;
+  padding-right: 30rem;
 }
 
 .BlankPriceApp_blank__big_88 {
-        margin-bottom: -2rem;
-    }
-
-.BlankPriceApp_icon_0c {
-    width: 24rem;
-    height: 24rem;
-    background: url('R.images.gui.maps.icons.recertification.common_24x24') no-repeat 50% / contain;
-    position: relative;
-    bottom: -4rem;
-    left: 4rem;
+  margin-bottom: -2rem;
 }
 
+.BlankPriceApp_icon_0c {
+  width: 24rem;
+  height: 24rem;
+  background: url("R.images.gui.maps.icons.recertification.common_24x24") no-repeat 50% / contain;
+  position: relative;
+  bottom: -4rem;
+  left: 4rem;
+}
