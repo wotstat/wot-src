@@ -379,6 +379,18 @@ UNIQUE_BONUSES_CACHE_UPDATERS = {b'vehicles': __vehiclesCacheUpdater,
    b'tokens': __tokensCacheUpdater, 
    b'customizations': __customizationsCacheUpdater}
 
+def getProbableBonuses(bonusType, value):
+    if bonusType == b'allof':
+        bonusData = value[0]
+        probability, bonuses = bonusData[0], bonusData[3]
+        return (probability, [bonuses] if bonuses is not None else [])
+    if bonusType == b'oneof':
+        return (
+         None, [bonus for _, _, _, bonus in value[1]])
+    return (
+     None, [])
+
+
 class BonusItemsCache(object):
 
     def __init__(self, account, cache=None):
@@ -393,25 +405,39 @@ class BonusItemsCache(object):
         cache = self.__cache.setdefault(itemName, {})
         state = cache.setdefault(itemKey, {}).get(isRent, None)
         if state is not None:
-            wasInInventory, wasAccepted = state
+            wasInInventory, wasAccepted, acceptedCount = state
         else:
             wasInInventory = (RENT_ITEM_INVENTORY_CHECKERS if isRent else ITEM_INVENTORY_CHECKERS)[itemName](self.__account, itemKey)
-        cache[itemKey][isRent] = (wasInInventory, True)
+            acceptedCount = 0
+        cache[itemKey][isRent] = (wasInInventory, True, acceptedCount + 1)
         return
 
     def isItemExists(self, itemName, itemKey, isRent=False):
         cache = self.__cache.setdefault(itemName, {})
         state = cache.setdefault(itemKey, {}).get(isRent, None)
         if state is not None:
-            wasInInventory, wasAccepted = state
+            wasInInventory, wasAccepted, _ = state
         else:
             wasInInventory = (RENT_ITEM_INVENTORY_CHECKERS if isRent else ITEM_INVENTORY_CHECKERS)[itemName](self.__account, itemKey)
             wasAccepted = False
-            cache[itemKey][isRent] = (wasInInventory, wasAccepted)
+            acceptedCount = 0
+            cache[itemKey][isRent] = (wasInInventory, wasAccepted, acceptedCount)
         if isRent and itemName in ITEM_INVENTORY_CHECKERS and cache[itemKey].get(False, None) is None:
             cache[itemKey][False] = (
-             ITEM_INVENTORY_CHECKERS[itemName](self.__account, itemKey), False)
+             ITEM_INVENTORY_CHECKERS[itemName](self.__account, itemKey), False, 0)
         return wasInInventory or wasAccepted or isRent and any(state for state in cache[itemKey].get(False, ()))
+
+    def getAcceptedCount(self, itemName, itemKey, isRent=False):
+        cache = self.__cache.setdefault(itemName, {})
+        state = cache.setdefault(itemKey, {}).get(isRent, None)
+        if state is not None:
+            _, _, acceptedCount = state
+        else:
+            wasInInventory = (RENT_ITEM_INVENTORY_CHECKERS if isRent else ITEM_INVENTORY_CHECKERS)[itemName](self.__account, itemKey)
+            wasAccepted = False
+            acceptedCount = 0
+            cache[itemKey][isRent] = (wasInInventory, wasAccepted, acceptedCount)
+        return acceptedCount
 
     def getFinalizedCache(self):
         result = {}
@@ -419,9 +445,9 @@ class BonusItemsCache(object):
             bonusResult = result.setdefault(bonus, {})
             for key, keyData in checks.iteritems():
                 keyResult = bonusResult.setdefault(key, {})
-                for flag, (wasInInventory, wasAccepted) in keyData.iteritems():
+                for flag, (wasInInventory, wasAccepted, acceptedCount) in keyData.iteritems():
                     keyResult[flag] = (
-                     wasInInventory or wasAccepted, False)
+                     wasInInventory or wasAccepted, False, acceptedCount)
 
         return result
 
@@ -442,7 +468,7 @@ DEEP_CHECKERS = {b'groups': (lambda nodeAcceptor, bonusNode, checkInventory, dep
 
 class BonusNodeAcceptor(object):
 
-    def __init__(self, account, bonusConfig=None, counters=None, bonusCache=None, probabilityStage=0, rotationLevel=0, logTracker=None, shouldResetUsedLimits=True):
+    def __init__(self, account, bonusConfig=None, counters=None, bonusCache=None, probabilityStage=0, rotationLevel=0, logTracker=None, shouldResetUsedLimits=True, ignoredLimits=None):
         self.__account = account
         self.__limitsConfig = bonusConfig.get(b'limits', None) if bonusConfig else None
         self.__maxStage = bonusConfig.get(b'probabilityStageCount', 1) - 1 if bonusConfig else 0
@@ -466,6 +492,7 @@ class BonusNodeAcceptor(object):
         self.__rotationsLevel = [
          rotationLevel, rotationLevel]
         self.currentLimitsID = set()
+        self.__ignoredLimits = ignoredLimits or set()
         self.__initCounters(counters or {})
         self._bonusTrack = []
         return
@@ -526,6 +553,8 @@ class BonusNodeAcceptor(object):
             limitID = bonusNode.get(b'properties', {}).get(b'limitID', None)
             if not limitID:
                 return False
+            if limitID in self.__ignoredLimits:
+                return False
             if self.__locals.get(limitID, 1) <= 0:
                 return True
             if self.__cooldowns.get(limitID, 0) > 0:
@@ -538,6 +567,10 @@ class BonusNodeAcceptor(object):
             if itemType in bonusNode:
                 updater(bonusNode[itemType], cache)
 
+        return
+
+    def updateIgnoredLimits(self, ignoredLimits):
+        self.__ignoredLimits = ignoredLimits
         return
 
     def isBonusExists(self, bonusNode):
@@ -603,7 +636,7 @@ class BonusNodeAcceptor(object):
         if bonusNode.get(b'properties', {}).get(b'probabilityStageDependence', False):
             self.__increaseProbabilityStage()
         limitID = bonusNode.get(b'properties', {}).get(b'limitID', None)
-        if limitID:
+        if limitID and limitID not in self.__ignoredLimits:
             limitConfig = self.__limitsConfig[limitID]
             if not limitConfig.get(b'countDuplicates', True) and self.isBonusExists(bonusNode):
                 return
@@ -633,6 +666,8 @@ class BonusNodeAcceptor(object):
             if self.__shouldResetUsedLimits:
                 self.__usedLimits = set()
             for limitID, limitConfig in self.__limitsConfig.iteritems():
+                if limitID in self.__ignoredLimits:
+                    continue
                 bonusLimit = limitConfig.get(b'bonusLimit', None)
                 if bonusLimit is not None:
                     locals[limitID] = bonusLimit
@@ -886,12 +921,25 @@ class ProbabilityVisitor(NodeVisitor):
             availableBonusNodes = []
             sumOfAvailableProbabilities = 0
             sumOfPreviousProbabilities = 0
+            previousOwnProbability = 0.0
+            canUsePrevInsteadOfZeroProbability = False
             for index, (probabilities, bonusProbability, _, bonusValue) in enumerate(bonusNodes):
                 ownProbability = bonusProbability if useBonusProbability else probabilities[probablitiesStage]
-                ownProbability, sumOfPreviousProbabilities = ownProbability - sumOfPreviousProbabilities, ownProbability
+                if ownProbability != 0.0:
+                    ownProbability, sumOfPreviousProbabilities = ownProbability - sumOfPreviousProbabilities, ownProbability
+                if ownProbability != 0.0:
+                    canUsePrevInsteadOfZeroProbability = True
+                    previousOwnProbability = ownProbability
+                    probability = ownProbability
+                else:
+                    if canUsePrevInsteadOfZeroProbability and previousOwnProbability != 0.0:
+                        probability = previousOwnProbability
+                    else:
+                        continue
                 if index != selectedIdx and bonusValue.get(b'properties', {}).get(b'compensation', False) and isAcceptable(bonusValue):
-                    sumOfAvailableProbabilities += ownProbability
-                    availableBonusNodes.append((index, ownProbability, bonusValue))
+                    sumOfAvailableProbabilities += probability
+                    availableBonusNodes.append((index, probability, bonusValue))
+                    canUsePrevInsteadOfZeroProbability = False
 
             if not availableBonusNodes:
                 shouldCompensated = selectedValue.get(b'properties', {}).get(b'shouldCompensated', False)

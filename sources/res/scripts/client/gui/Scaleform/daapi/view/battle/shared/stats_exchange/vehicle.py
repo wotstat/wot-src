@@ -2,6 +2,7 @@ from gui.shared.badges import buildBadge
 from gui.Scaleform.daapi.view.battle.shared.stats_exchange import broker
 from gui.Scaleform.settings import ICONS_SIZES
 from gui.battle_control.arena_info import vos_collections
+from gui.battle_control.arena_info.settings import PLAYER_STATUS
 from helpers import dependency
 from skeletons.gui.battle_session import IBattleSessionProvider
 
@@ -15,6 +16,7 @@ class ISortedIDsComposer(object):
 
 class VehiclesSortedIDsComposer(broker.SingleSideComposer, ISortedIDsComposer):
     __slots__ = (b'_items', b'_collectionClass')
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
 
     def __init__(self, voField=b'vehiclesIDs', sortKey=vos_collections.VehicleInfoSortKey):
         super(VehiclesSortedIDsComposer, self).__init__(voField=voField, sortKey=sortKey)
@@ -26,13 +28,18 @@ class VehiclesSortedIDsComposer(broker.SingleSideComposer, ISortedIDsComposer):
         self.filterIDs(arenaDP)
         return
 
-    def removeObserverIDs(self, arenaDP):
-        self._items = [vID for vID in self._items if not arenaDP.getVehicleInfo(vID).vehicleType.isObserver]
+    def filterIDs(self, arenaDP):
+        self._items = [vID for vID in self._items if self._isEligiblePlayer(vID, arenaDP)]
         return
 
-    def filterIDs(self, arenaDP):
-        self.removeObserverIDs(arenaDP)
-        return
+    def _isEligiblePlayer(self, vID, arenaDP):
+        vehicleInfo = arenaDP.getVehicleInfo(vID)
+        if vehicleInfo.vehicleType.isObserver:
+            return False
+        isWhiteTigerBattle = self.__sessionProvider.arenaVisitor.gui.isWhiteTigerBattle()
+        if isWhiteTigerBattle and vehicleInfo.playerStatus == PLAYER_STATUS.IS_ACTION_DISABLED:
+            return False
+        return True
 
 
 class AllySortedIDsComposer(VehiclesSortedIDsComposer):

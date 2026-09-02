@@ -7,23 +7,23 @@ class RankRewardsModel(ProgressionBaseModel):
     __slots__ = (b'onPreviewOpen', b'onComp7ShopOpen')
     DEFAULT_ITEM_INDEX = -1
 
-    def __init__(self, properties=5, commands=2):
+    def __init__(self, properties=4, commands=2):
         super(RankRewardsModel, self).__init__(properties=properties, commands=commands)
         return
 
     @property
     def qualificationModel(self):
-        return self._getViewModel(2)
+        return self._getViewModel(1)
 
     @staticmethod
     def getQualificationModelType():
         return QualificationModel
 
     def getItems(self):
-        return self._getArray(3)
+        return self._getArray(2)
 
     def setItems(self, value):
-        self._setArray(3, value)
+        self._setArray(2, value)
         return
 
     @staticmethod
@@ -31,10 +31,10 @@ class RankRewardsModel(ProgressionBaseModel):
         return RankRewardsItemModel
 
     def getInitialItemIndex(self):
-        return self._getNumber(4)
+        return self._getNumber(3)
 
     def setInitialItemIndex(self, value):
-        self._setNumber(4, value)
+        self._setNumber(3, value)
         return
 
     def _initialize(self):

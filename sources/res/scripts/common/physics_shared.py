@@ -302,6 +302,7 @@ def getDefaultVehicleXPhysicsCfg():
        b'gimletGoalWOnSpot': 0.0, 
        b'gimletGoalWOnMove': 0.0, 
        b'rotationFactor': 1.0, 
+       b'isPitchHullAimingAvailable': False, 
        b'hullAiming': {b'pitch': {b'correctionCenterZ': 0.0, 
                                   b'correctionSpeed': 0.3, 
                                   b'pitchMin': (-0.2), 
@@ -636,6 +637,7 @@ def configurePhysicsMode(cfg, typeDesc, gravityFactor):
     cfg[b'engine'][b'smplEngJoinRatio'] = 0.020000000000000004 / cfg[b'chassis'][b'wheelRadius']
     applyRotationAndPowerFactors(cfg)
     cfg[b'siegeModeAvailable'] = typeDesc.hasSiegeMode
+    cfg[b'isPitchHullAimingAvailable'] = typeDesc.isPitchHullAimingAvailable
     cfg[b'isWheeledVehicle'] = typeDesc.isWheeledVehicle
     hullAimingParams = typeDesc.type.hullAimingParams
     hullAimingParamsPitch = hullAimingParams[b'pitch']
@@ -755,7 +757,6 @@ def initVehiclePhysicsClient(physics, typeDesc):
     else:
         carrierSpringPairs = NUM_SPRINGS_LONG
     length = carringSpringLength
-    hullAimingLength = carringSpringLength
     trackLen = _computeTrackLength(clearance, blen)
     indent = boxHeight / 2
     hardRatio = _computeHardRatio(clearance, blen)
@@ -767,16 +768,18 @@ def initVehiclePhysicsClient(physics, typeDesc):
         backSpringLength = blen * math.sin(abs(hullAngleMax)) * springExtendMultiplier
         frontSpringLength = blen * math.sin(abs(hullAngleMin)) * springExtendMultiplier
         hullAimingLength = max(backSpringLength, frontSpringLength)
-    if (IS_CLIENT or IS_EDITOR) and typeDesc.hasSiegeMode and typeDesc.isPitchHullAimingAvailable:
-        springsLengthList = tuple(length for _ in xrange(0, carrierSpringPairs))
-        hullAimingSpringsLengthList = tuple(hullAimingLength for _ in xrange(0, carrierSpringPairs))
-        for descriptor in [typeDesc.defaultVehicleDescr, typeDesc.siegeVehicleDescr]:
-            if descriptor.chassis.suspensionSpringsLength is not None:
-                break
-            hullAimingEnabled = descriptor.type.hullAimingParams[b'pitch'][b'isEnabled']
-            descriptor.chassis.suspensionSpringsLength = {b'left': (hullAimingSpringsLengthList if hullAimingEnabled else springsLengthList), 
-               b'right': (hullAimingSpringsLengthList if hullAimingEnabled else springsLengthList)}
+        if typeDesc.changesPitchHullAimingOnSiege:
+            springsLengthList = tuple(length for _ in xrange(0, carrierSpringPairs))
+            hullAimingSpringsLengthList = tuple(hullAimingLength for _ in xrange(0, carrierSpringPairs))
+            for descriptor in [typeDesc.defaultVehicleDescr, typeDesc.siegeVehicleDescr]:
+                if descriptor.chassis.suspensionSpringsLength is not None:
+                    break
+                hullAimingEnabled = descriptor.isPitchHullAimingEnabled
+                descriptor.chassis.suspensionSpringsLength = {b'left': (hullAimingSpringsLengthList if hullAimingEnabled else springsLengthList), 
+                   b'right': (hullAimingSpringsLengthList if hullAimingEnabled else springsLengthList)}
 
+        if typeDesc.isPitchHullAimingEnabled:
+            length = hullAimingLength
     stepZ = trackLen / (carrierSpringPairs - 1)
     begZ = -trackLen * 0.5
     leftX = -width * 0.45

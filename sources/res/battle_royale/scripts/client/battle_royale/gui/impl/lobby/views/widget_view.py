@@ -38,7 +38,6 @@ class WidgetView(ViewImpl):
             model.setCurrentProgression(currentStage)
             model.setBattleStatus(BattleStatus.INPROGRESS if isInProgress else BattleStatus.COMPLETED)
             model.setIsAlertMode(isAlertMode)
-            model.setIconPostfix(self.brProgression.getBirthdayIconPostfix())
         return
 
     def _onLoading(self, *args, **kwargs):

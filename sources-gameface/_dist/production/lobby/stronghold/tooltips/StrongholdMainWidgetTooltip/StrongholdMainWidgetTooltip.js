@@ -323,6 +323,90 @@
           ]),
           z = { view: a, client: E };
       },
+      521: (u, e, t) => {
+        "use strict";
+        let r, E;
+        (t.d(e, { n: () => r }),
+          (function (u) {
+            ((u[(u.NONE = -1)] = "NONE"),
+              (u[(u.ALT = 165)] = "ALT"),
+              (u[(u.ENTER = 13)] = "ENTER"),
+              (u[(u.ESCAPE = 27)] = "ESCAPE"),
+              (u[(u.SPACE = 32)] = "SPACE"),
+              (u[(u.END = 35)] = "END"),
+              (u[(u.HOME = 36)] = "HOME"),
+              (u[(u.ARROW_LEFT = 37)] = "ARROW_LEFT"),
+              (u[(u.ARROW_UP = 38)] = "ARROW_UP"),
+              (u[(u.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
+              (u[(u.ARROW_DOWN = 40)] = "ARROW_DOWN"),
+              (u[(u.NUM_PLUS = 107)] = "NUM_PLUS"),
+              (u[(u.NUM_MINUS = 109)] = "NUM_MINUS"),
+              (u[(u.PLUS = 187)] = "PLUS"),
+              (u[(u.MINUS = 189)] = "MINUS"),
+              (u[(u.PAGE_UP = 33)] = "PAGE_UP"),
+              (u[(u.PAGE_DOWN = 34)] = "PAGE_DOWN"),
+              (u[(u.BACKSPACE = 8)] = "BACKSPACE"),
+              (u[(u.DELETE = 46)] = "DELETE"),
+              (u[(u.TAB = 9)] = "TAB"),
+              (u[(u.KEY_N = 78)] = "KEY_N"),
+              (u[(u.KEY_0 = 48)] = "KEY_0"),
+              (u[(u.KEY_1 = 49)] = "KEY_1"),
+              (u[(u.KEY_2 = 50)] = "KEY_2"),
+              (u[(u.KEY_3 = 51)] = "KEY_3"),
+              (u[(u.KEY_4 = 52)] = "KEY_4"),
+              (u[(u.KEY_5 = 53)] = "KEY_5"),
+              (u[(u.KEY_6 = 54)] = "KEY_6"),
+              (u[(u.KEY_7 = 55)] = "KEY_7"),
+              (u[(u.KEY_8 = 56)] = "KEY_8"),
+              (u[(u.KEY_9 = 57)] = "KEY_9"),
+              (u[(u.CAPS_LOCK = 20)] = "CAPS_LOCK"),
+              (u[(u.INSERT = 45)] = "INSERT"),
+              (u[(u.F1 = 112)] = "F1"),
+              (u[(u.F2 = 113)] = "F2"),
+              (u[(u.F3 = 114)] = "F3"),
+              (u[(u.F4 = 115)] = "F4"),
+              (u[(u.F5 = 116)] = "F5"),
+              (u[(u.F6 = 117)] = "F6"),
+              (u[(u.F7 = 118)] = "F7"),
+              (u[(u.F8 = 119)] = "F8"),
+              (u[(u.F9 = 120)] = "F9"),
+              (u[(u.F10 = 121)] = "F10"),
+              (u[(u.F11 = 122)] = "F11"),
+              (u[(u.F12 = 123)] = "F12"),
+              (u[(u.SELECT = 93)] = "SELECT"),
+              (u[(u.NUMPAD_0 = 96)] = "NUMPAD_0"),
+              (u[(u.NUMPAD_1 = 97)] = "NUMPAD_1"),
+              (u[(u.NUMPAD_2 = 98)] = "NUMPAD_2"),
+              (u[(u.NUMPAD_3 = 99)] = "NUMPAD_3"),
+              (u[(u.NUMPAD_4 = 100)] = "NUMPAD_4"),
+              (u[(u.NUMPAD_5 = 101)] = "NUMPAD_5"),
+              (u[(u.NUMPAD_6 = 102)] = "NUMPAD_6"),
+              (u[(u.NUMPAD_7 = 103)] = "NUMPAD_7"),
+              (u[(u.NUMPAD_8 = 104)] = "NUMPAD_8"),
+              (u[(u.NUMPAD_9 = 105)] = "NUMPAD_9"),
+              (u[(u.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
+              (u[(u.STAR = 106)] = "STAR"),
+              (u[(u.NUM_SLASH = 111)] = "NUM_SLASH"),
+              (u[(u.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
+              (u[(u.COMMA = 188)] = "COMMA"),
+              (u[(u.DASH = 189)] = "DASH"),
+              (u[(u.PERIOD = 190)] = "PERIOD"));
+          })(r || (r = {})),
+          (function (u) {
+            ((u.ALT = "Alt"),
+              (u.ALT_GRAPH = "AltGraph"),
+              (u.CAPS_LOCK = "CapsLock"),
+              (u.CONTROL = "Control"),
+              (u.FN = "Fn"),
+              (u.FN_LOCK = "FnLock"),
+              (u.META = "Meta"),
+              (u.NUM_LOCK = "NumLock"),
+              (u.SCROLL_LOCK = "ScrollLock"),
+              (u.SHIFT = "Shift"),
+              (u.SYMBOL = "Symbol"),
+              (u.SYMBOL_LOCK = "SymbolLock"));
+          })(E || (E = {})));
+      },
       358: (u, e, t) => {
         "use strict";
         t.d(e, { Z: () => A });
@@ -391,7 +475,7 @@
         "use strict";
         __webpack_require__.d(__webpack_exports__, { Z: () => __WEBPACK_DEFAULT_EXPORT__ });
         var _DataTracker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(358),
-          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(596);
+          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(364);
         class ViewModel {
           constructor(path, watchingFields = []) {
             ((this.dataTracker = void 0),
@@ -430,9 +514,9 @@
         }
         const __WEBPACK_DEFAULT_EXPORT__ = ViewModel;
       },
-      596: (u, e, t) => {
+      364: (u, e, t) => {
         "use strict";
-        t.d(e, { kH: () => l, Z5: () => a, lf: () => o, cy: () => F, ry: () => d });
+        t.d(e, { kH: () => l, Z5: () => a, lf: () => o, cy: () => F, ry: () => c });
         class r {
           constructor() {
             ((this.entries = []),
@@ -504,89 +588,10 @@
           D = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
           o = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
           l = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
-        let s, B;
-        (!(function (u) {
-          ((u[(u.NONE = -1)] = "NONE"),
-            (u[(u.ALT = 165)] = "ALT"),
-            (u[(u.ENTER = 13)] = "ENTER"),
-            (u[(u.ESCAPE = 27)] = "ESCAPE"),
-            (u[(u.SPACE = 32)] = "SPACE"),
-            (u[(u.END = 35)] = "END"),
-            (u[(u.HOME = 36)] = "HOME"),
-            (u[(u.ARROW_LEFT = 37)] = "ARROW_LEFT"),
-            (u[(u.ARROW_UP = 38)] = "ARROW_UP"),
-            (u[(u.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
-            (u[(u.ARROW_DOWN = 40)] = "ARROW_DOWN"),
-            (u[(u.NUM_PLUS = 107)] = "NUM_PLUS"),
-            (u[(u.NUM_MINUS = 109)] = "NUM_MINUS"),
-            (u[(u.PLUS = 187)] = "PLUS"),
-            (u[(u.MINUS = 189)] = "MINUS"),
-            (u[(u.PAGE_UP = 33)] = "PAGE_UP"),
-            (u[(u.PAGE_DOWN = 34)] = "PAGE_DOWN"),
-            (u[(u.BACKSPACE = 8)] = "BACKSPACE"),
-            (u[(u.DELETE = 46)] = "DELETE"),
-            (u[(u.TAB = 9)] = "TAB"),
-            (u[(u.KEY_N = 78)] = "KEY_N"),
-            (u[(u.KEY_0 = 48)] = "KEY_0"),
-            (u[(u.KEY_1 = 49)] = "KEY_1"),
-            (u[(u.KEY_2 = 50)] = "KEY_2"),
-            (u[(u.KEY_3 = 51)] = "KEY_3"),
-            (u[(u.KEY_4 = 52)] = "KEY_4"),
-            (u[(u.KEY_5 = 53)] = "KEY_5"),
-            (u[(u.KEY_6 = 54)] = "KEY_6"),
-            (u[(u.KEY_7 = 55)] = "KEY_7"),
-            (u[(u.KEY_8 = 56)] = "KEY_8"),
-            (u[(u.KEY_9 = 57)] = "KEY_9"),
-            (u[(u.CAPS_LOCK = 20)] = "CAPS_LOCK"),
-            (u[(u.INSERT = 45)] = "INSERT"),
-            (u[(u.F1 = 112)] = "F1"),
-            (u[(u.F2 = 113)] = "F2"),
-            (u[(u.F3 = 114)] = "F3"),
-            (u[(u.F4 = 115)] = "F4"),
-            (u[(u.F5 = 116)] = "F5"),
-            (u[(u.F6 = 117)] = "F6"),
-            (u[(u.F7 = 118)] = "F7"),
-            (u[(u.F8 = 119)] = "F8"),
-            (u[(u.F9 = 120)] = "F9"),
-            (u[(u.F10 = 121)] = "F10"),
-            (u[(u.F11 = 122)] = "F11"),
-            (u[(u.F12 = 123)] = "F12"),
-            (u[(u.SELECT = 93)] = "SELECT"),
-            (u[(u.NUMPAD_0 = 96)] = "NUMPAD_0"),
-            (u[(u.NUMPAD_1 = 97)] = "NUMPAD_1"),
-            (u[(u.NUMPAD_2 = 98)] = "NUMPAD_2"),
-            (u[(u.NUMPAD_3 = 99)] = "NUMPAD_3"),
-            (u[(u.NUMPAD_4 = 100)] = "NUMPAD_4"),
-            (u[(u.NUMPAD_5 = 101)] = "NUMPAD_5"),
-            (u[(u.NUMPAD_6 = 102)] = "NUMPAD_6"),
-            (u[(u.NUMPAD_7 = 103)] = "NUMPAD_7"),
-            (u[(u.NUMPAD_8 = 104)] = "NUMPAD_8"),
-            (u[(u.NUMPAD_9 = 105)] = "NUMPAD_9"),
-            (u[(u.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
-            (u[(u.STAR = 106)] = "STAR"),
-            (u[(u.NUM_SLASH = 111)] = "NUM_SLASH"),
-            (u[(u.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
-            (u[(u.COMMA = 188)] = "COMMA"),
-            (u[(u.DASH = 189)] = "DASH"),
-            (u[(u.PERIOD = 190)] = "PERIOD"));
-        })(s || (s = {})),
-          (function (u) {
-            ((u.ALT = "Alt"),
-              (u.ALT_GRAPH = "AltGraph"),
-              (u.CAPS_LOCK = "CapsLock"),
-              (u.CONTROL = "Control"),
-              (u.FN = "Fn"),
-              (u.FN_LOCK = "FnLock"),
-              (u.META = "Meta"),
-              (u.NUM_LOCK = "NumLock"),
-              (u.SCROLL_LOCK = "ScrollLock"),
-              (u.SHIFT = "Shift"),
-              (u.SYMBOL = "Symbol"),
-              (u.SYMBOL_LOCK = "SymbolLock"));
-          })(B || (B = {})));
-        var _ = t(67);
-        const C = ["args"];
-        function m(u, e, t, r, E, A, a) {
+        var s = t(521),
+          B = t(67);
+        const _ = ["args"];
+        function C(u, e, t, r, E, A, a) {
           try {
             var F = u[A](a),
               n = F.value;
@@ -595,14 +600,14 @@
           }
           F.done ? e(n) : Promise.resolve(n).then(r, E);
         }
-        const c = (u) => ({
+        const m = (u) => ({
             __Type: "GFBoundingBox",
             x: u.x,
             y: u.y,
             width: u.width,
             height: u.height,
           }),
-          d = (function () {
+          c = (function () {
             var u,
               e =
                 ((u = function* () {
@@ -619,10 +624,10 @@
                   return new Promise(function (r, E) {
                     var A = u.apply(e, t);
                     function a(u) {
-                      m(A, r, E, a, F, "next", u);
+                      C(A, r, E, a, F, "next", u);
                     }
                     function F(u) {
-                      m(A, r, E, a, F, "throw", u);
+                      C(A, r, E, a, F, "throw", u);
                     }
                     a(void 0);
                   });
@@ -631,7 +636,7 @@
               return e.apply(this, arguments);
             };
           })(),
-          g = (u, e) => {
+          d = (u, e) => {
             const t = "GFViewEventProxy";
             if (void 0 !== e) {
               const E = e.args,
@@ -643,7 +648,7 @@
                     A = Object.keys(u);
                   for (r = 0; r < A.length; r++) ((t = A[r]), e.indexOf(t) >= 0 || (E[t] = u[t]));
                   return E;
-                })(e, C);
+                })(e, _);
               void 0 !== E
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: u }, A, {
@@ -669,26 +674,26 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: u });
             var r;
           },
-          h = () => g(n.CLOSE),
-          p = (u, e) => {
-            u.keyCode === s.ESCAPE && e();
+          g = () => d(n.CLOSE),
+          h = (u, e) => {
+            u.keyCode === s.n.ESCAPE && e();
           };
-        var v = t(572);
-        const f = E.instance,
-          x = {
+        var p = t(572);
+        const v = E.instance,
+          f = {
             DataTracker: A.Z,
-            ViewModel: v.Z,
+            ViewModel: p.Z,
             ViewEventType: n,
             NumberFormatType: i,
             RealFormatType: D,
             TimeFormatType: o,
             DateFormatType: l,
-            makeGlobalBoundingBox: c,
-            sendMoveEvent: (u) => g(n.MOVE, { isMouseEvent: !0, on: u }),
-            sendCloseEvent: h,
-            sendClosePopOverEvent: () => g(n.POP_OVER, { on: !1 }),
+            makeGlobalBoundingBox: m,
+            sendMoveEvent: (u) => d(n.MOVE, { isMouseEvent: !0, on: u }),
+            sendCloseEvent: g,
+            sendClosePopOverEvent: () => d(n.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (u, e, t = 0) => {
-              g(n.CONTEXT_MENU, {
+              d(n.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: u,
                 on: !0,
@@ -697,41 +702,41 @@
               });
             },
             sendShowPopOverEvent: (u, e, t, r, E = R.invalid("resId"), A) => {
-              const a = _.O.view.getViewGlobalPosition(),
+              const a = B.O.view.getViewGlobalPosition(),
                 F = t.getBoundingClientRect(),
                 i = F.x,
                 D = F.y,
                 o = F.width,
                 l = F.height,
                 s = {
-                  x: _.O.view.pxToRem(i) + a.x,
-                  y: _.O.view.pxToRem(D) + a.y,
-                  width: _.O.view.pxToRem(o),
-                  height: _.O.view.pxToRem(l),
+                  x: B.O.view.pxToRem(i) + a.x,
+                  y: B.O.view.pxToRem(D) + a.y,
+                  width: B.O.view.pxToRem(o),
+                  height: B.O.view.pxToRem(l),
                 };
-              g(n.POP_OVER, {
+              d(n.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: u,
                 decoratorID: r || R.invalid("resId"),
                 targetID: E,
                 direction: e,
-                bbox: c(s),
+                bbox: m(s),
                 on: !0,
                 args: A,
               });
             },
             addEscapeListener: (u) => {
-              const e = (e) => p(e, u);
+              const e = (e) => h(e, u);
               return (
                 window.addEventListener("keydown", e),
                 () => window.removeEventListener("keydown", e)
               );
             },
             closeOnEsc: (u) => {
-              p(u, h);
+              h(u, g);
             },
-            handleViewEvent: g,
-            onBindingsReady: d,
+            handleViewEvent: d,
+            onBindingsReady: c,
             onLayoutReady: () =>
               new Promise((u) => {
                 requestAnimationFrame(() => {
@@ -760,11 +765,11 @@
                 }
               return t;
             },
-            ClickOutsideManager: f,
+            ClickOutsideManager: v,
             SystemLocale: a,
             UserLocale: F,
           };
-        window.ViewEnvHelper = x;
+        window.ViewEnvHelper = f;
       },
       291: (u, e, t) => {
         "use strict";
@@ -1609,7 +1614,7 @@
             (u.YEAR = "year"),
             (u.DATE_YEAR = "date-year"));
         })(Bu || (Bu = {}));
-        var _u = t(596);
+        var _u = t(364);
         Date.now();
         const Cu = (u, e, t) => {
           switch (e) {
@@ -1888,90 +1893,93 @@
           },
           bu = R.strings.stronghold,
           Su = R.images.gui.maps.icons.stronghold,
-          Tu = (0, mu.Pi)(() => {
-            const u = xu().model.root.get(),
-              e = u.isDataAvailable,
-              t = u.sprintStartDate,
-              A = u.sprintEndDate,
-              a = u.isEventActive,
-              F = u.sprintNumber,
-              i = u.sprintType,
-              D = u.progressionLevel,
-              o = u.isInClan,
-              l = (0, r.useMemo)(
-                () => `${Cu(Number(t), Bu.SHORT_DATE, !0)} – ${Cu(Number(A), Bu.SHORT_DATE, !0)}`,
-                [t, A],
-              ),
-              s = n()(wu.base, { [wu.inactive]: !a }),
-              B = (0, r.useMemo)(() => {
-                const u = bu.season.$dyn(`stage_${F}`) || "";
-                return `${"MANEUVERS" === i ? bu.season.stage.sprint() : bu.season.stage.gm()} ${u}`;
-              }, [F, i]);
-            return E().createElement(
-              su,
-              null,
-              E().createElement(
-                "div",
-                { className: s },
-                e
-                  ? E().createElement(
-                      "div",
-                      { className: wu.seasonInfo },
-                      E().createElement("img", { src: Su.$dyn("season_icon"), alt: "" }),
-                      E().createElement(
-                        "div",
-                        null,
-                        E().createElement(nu, { className: wu.title, text: bu.season.name() }),
-                        a
-                          ? E().createElement(
-                              E().Fragment,
-                              null,
-                              E().createElement(nu, {
-                                className: wu.description,
-                                text: bu.season.stage.text() + B,
-                                format: { binding: { stage: F } },
-                              }),
-                              E().createElement("span", { className: wu.date }, l),
-                            )
-                          : E().createElement(nu, { className: wu.date, text: bu.season.over() }),
-                      ),
-                    )
-                  : E().createElement(
-                      "div",
-                      { className: wu.loading },
-                      E().createElement(nu, {
-                        className: wu.title,
-                        text: bu.season.loading.title(),
-                      }),
-                      E().createElement(nu, {
-                        className: wu.description,
-                        text: bu.season.loading.text(),
-                      }),
-                    ),
-                E().createElement(
-                  "div",
-                  { className: wu.progressionInfo },
-                  E().createElement("div", { className: wu.separator }),
-                  E().createElement(nu, {
-                    text: bu.personalProgress.level(),
-                    format: { binding: { level: D } },
-                  }),
-                  e &&
-                    a &&
-                    !o &&
+          Tu =
+            ((Mu = bu.season.title()),
+            (Ou = { seasonName: bu.season.name() }),
+            Mu.replace(/(\{|%\()\w+(\}|\)s)/g, (u) => {
+              const e = 0 === u.indexOf("%") ? 2 : 1;
+              return String(Ou[u.slice(e, -e)]);
+            }));
+        var Mu, Ou;
+        const Lu = (0, mu.Pi)(() => {
+          const u = xu().model.root.get(),
+            e = u.isDataAvailable,
+            t = u.sprintStartDate,
+            A = u.sprintEndDate,
+            a = u.isEventActive,
+            F = u.sprintNumber,
+            i = u.sprintType,
+            D = u.progressionLevel,
+            o = u.isInClan,
+            l = (0, r.useMemo)(
+              () => `${Cu(Number(t), Bu.SHORT_DATE, !0)} – ${Cu(Number(A), Bu.SHORT_DATE, !0)}`,
+              [t, A],
+            ),
+            s = n()(wu.base, { [wu.inactive]: !a }),
+            B = bu.season.$dyn(`stage_${F}`) || "",
+            _ = "MANEUVERS" === i ? bu.season.stage.sprint() : bu.season.stage.gm();
+          return E().createElement(
+            su,
+            null,
+            E().createElement(
+              "div",
+              { className: s },
+              e
+                ? E().createElement(
+                    "div",
+                    { className: wu.seasonInfo },
+                    E().createElement("img", { src: Su.$dyn("season_icon"), alt: "" }),
                     E().createElement(
                       "div",
-                      { className: wu.clanAlert },
-                      E().createElement("img", { src: Su.alert(), alt: "" }),
-                      E().createElement(nu, { text: bu.personalProgress.need_clan() }),
+                      null,
+                      E().createElement(nu, { className: wu.title, text: Tu }),
+                      a
+                        ? E().createElement(
+                            E().Fragment,
+                            null,
+                            E().createElement(nu, {
+                              className: wu.description,
+                              text: bu.season.info_text(),
+                              format: { binding: { stage: F, stageType: _, stageName: B } },
+                            }),
+                            E().createElement("span", { className: wu.date }, l),
+                          )
+                        : E().createElement(nu, { className: wu.date, text: bu.season.over() }),
                     ),
-                ),
+                  )
+                : E().createElement(
+                    "div",
+                    { className: wu.loading },
+                    E().createElement(nu, { className: wu.title, text: bu.season.loading.title() }),
+                    E().createElement(nu, {
+                      className: wu.description,
+                      text: bu.season.loading.text(),
+                    }),
+                  ),
+              E().createElement(
+                "div",
+                { className: wu.progressionInfo },
+                E().createElement("div", { className: wu.separator }),
+                E().createElement(nu, {
+                  text: bu.personalProgress.level(),
+                  format: { binding: { level: D } },
+                }),
+                e &&
+                  a &&
+                  !o &&
+                  E().createElement(
+                    "div",
+                    { className: wu.clanAlert },
+                    E().createElement("img", { src: Su.alert(), alt: "" }),
+                    E().createElement(nu, { text: bu.personalProgress.need_clan() }),
+                  ),
               ),
-            );
-          });
+            ),
+          );
+        });
         engine.whenReady.then(() => {
           a().render(
-            E().createElement(fu, null, E().createElement(Tu, null)),
+            E().createElement(fu, null, E().createElement(Lu, null)),
             document.getElementById("root"),
           );
         });

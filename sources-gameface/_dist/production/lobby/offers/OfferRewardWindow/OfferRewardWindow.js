@@ -33,13 +33,13 @@
             addPreloadTexture: () => f,
             children: () => r,
             displayStatus: () => B,
-            displayStatusIs: () => j,
+            displayStatusIs: () => q,
             events: () => C,
-            extraSize: () => W,
-            forceTriggerMouseMove: () => V,
+            extraSize: () => j,
+            forceTriggerMouseMove: () => W,
             freezeTextureBeforeResize: () => M,
             getBrowserTexturePath: () => P,
-            getDisplayStatus: () => q,
+            getDisplayStatus: () => V,
             getScale: () => N,
             getSize: () => O,
             getViewGlobalPosition: () => k,
@@ -258,17 +258,17 @@
         function Y() {
           return viewEnv.isEventHandled();
         }
-        function V() {
+        function W() {
           viewEnv.forceTriggerMouseMove();
         }
-        function q() {
+        function V() {
           return viewEnv.getShowingStatus();
         }
-        const j = Object.keys(B).reduce(
+        const q = Object.keys(B).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === B[e]), u),
             {},
           ),
-          W = {
+          j = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -1378,10 +1378,10 @@
           soundClick: "play",
         };
         const Y = (0, n.memo)(H),
-          V = ["children"];
-        function q() {
+          W = ["children"];
+        function V() {
           return (
-            (q =
+            (V =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1390,10 +1390,10 @@
                 }
                 return u;
               }),
-            q.apply(this, arguments)
+            V.apply(this, arguments)
           );
         }
-        const j = (u) => {
+        const q = (u) => {
           let e = u.children,
             t = (function (u, e) {
               if (null == u) return {};
@@ -1403,10 +1403,10 @@
                 r = Object.keys(u);
               for (n = 0; n < r.length; n++) ((t = r[n]), e.indexOf(t) >= 0 || (o[t] = u[t]));
               return o;
-            })(u, V);
+            })(u, W);
           return o().createElement(
             w,
-            q(
+            V(
               {
                 contentId:
                   R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -1419,9 +1419,9 @@
             e,
           );
         };
-        function W() {
+        function j() {
           return (
-            (W =
+            (j =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1430,7 +1430,7 @@
                 }
                 return u;
               }),
-            W.apply(this, arguments)
+            j.apply(this, arguments)
           );
         }
         const z = ({ children: u, tooltipArgs: e, className: t }) => {
@@ -1441,8 +1441,8 @@
             s = e.args,
             i = null == s ? void 0 : s.contentId;
           return r || i
-            ? o().createElement(w, W({}, e, { contentId: r || i }), n)
-            : o().createElement(j, e, n);
+            ? o().createElement(w, j({}, e, { contentId: r || i }), n)
+            : o().createElement(q, e, n);
         };
         let X, $, K, Q, Z, J, uu, eu, tu;
         (!(function (u) {
@@ -1508,7 +1508,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(X || (X = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1658,6 +1665,11 @@
             X.PremiumPlusUniversal,
             X.GoldenTicket,
             X.RewardsSlots,
+            X.WtStamp,
+            X.WtTicket,
+            X.WtMainPrizeDiscount,
+            X.WtHunter,
+            X.WtHunterCollection,
           ],
           ru = [X.Gold, X.Credits, X.Crystal, X.FreeXp],
           su = [X.BattlePassPoints],

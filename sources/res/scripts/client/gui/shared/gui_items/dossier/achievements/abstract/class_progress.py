@@ -75,5 +75,5 @@ class ClassProgressAchievement(SimpleProgressAchievement):
     def _readCurrentProgressValue(self, dossier):
         return 0
 
-    def _getIconName(self):
-        return b'%s%d' % (self._name, self._value or self.MIN_LVL)
+    def getIconName(self):
+        return (b'{}{}').format(self._name, self._value or self.MIN_LVL)

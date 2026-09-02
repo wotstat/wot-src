@@ -31,6 +31,7 @@ CLAN_MEMBERS = {(CLAN_MEMBER_FLAGS.LEADER): b'leader',
    (CLAN_MEMBER_FLAGS.JUNIOR): b'junior', 
    (CLAN_MEMBER_FLAGS.RESERVIST): b'reservist'}
 _RE_SEARCH_CLANS = re.compile(b'^(\\[|\\])*[\\S]{2,}', re.IGNORECASE)
+CLANS_SELECTABLE_REWARD_PREFIX = b'offer:clans:'
 
 def isValidPattern(pattern):
     return pattern and _RE_SEARCH_CLANS.match(pattern)

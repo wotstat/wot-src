@@ -300,6 +300,90 @@
           ]),
           q = { view: o, client: i };
       },
+      521: (e, t, r) => {
+        "use strict";
+        let n, i;
+        (r.d(t, { n: () => n }),
+          (function (e) {
+            ((e[(e.NONE = -1)] = "NONE"),
+              (e[(e.ALT = 165)] = "ALT"),
+              (e[(e.ENTER = 13)] = "ENTER"),
+              (e[(e.ESCAPE = 27)] = "ESCAPE"),
+              (e[(e.SPACE = 32)] = "SPACE"),
+              (e[(e.END = 35)] = "END"),
+              (e[(e.HOME = 36)] = "HOME"),
+              (e[(e.ARROW_LEFT = 37)] = "ARROW_LEFT"),
+              (e[(e.ARROW_UP = 38)] = "ARROW_UP"),
+              (e[(e.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
+              (e[(e.ARROW_DOWN = 40)] = "ARROW_DOWN"),
+              (e[(e.NUM_PLUS = 107)] = "NUM_PLUS"),
+              (e[(e.NUM_MINUS = 109)] = "NUM_MINUS"),
+              (e[(e.PLUS = 187)] = "PLUS"),
+              (e[(e.MINUS = 189)] = "MINUS"),
+              (e[(e.PAGE_UP = 33)] = "PAGE_UP"),
+              (e[(e.PAGE_DOWN = 34)] = "PAGE_DOWN"),
+              (e[(e.BACKSPACE = 8)] = "BACKSPACE"),
+              (e[(e.DELETE = 46)] = "DELETE"),
+              (e[(e.TAB = 9)] = "TAB"),
+              (e[(e.KEY_N = 78)] = "KEY_N"),
+              (e[(e.KEY_0 = 48)] = "KEY_0"),
+              (e[(e.KEY_1 = 49)] = "KEY_1"),
+              (e[(e.KEY_2 = 50)] = "KEY_2"),
+              (e[(e.KEY_3 = 51)] = "KEY_3"),
+              (e[(e.KEY_4 = 52)] = "KEY_4"),
+              (e[(e.KEY_5 = 53)] = "KEY_5"),
+              (e[(e.KEY_6 = 54)] = "KEY_6"),
+              (e[(e.KEY_7 = 55)] = "KEY_7"),
+              (e[(e.KEY_8 = 56)] = "KEY_8"),
+              (e[(e.KEY_9 = 57)] = "KEY_9"),
+              (e[(e.CAPS_LOCK = 20)] = "CAPS_LOCK"),
+              (e[(e.INSERT = 45)] = "INSERT"),
+              (e[(e.F1 = 112)] = "F1"),
+              (e[(e.F2 = 113)] = "F2"),
+              (e[(e.F3 = 114)] = "F3"),
+              (e[(e.F4 = 115)] = "F4"),
+              (e[(e.F5 = 116)] = "F5"),
+              (e[(e.F6 = 117)] = "F6"),
+              (e[(e.F7 = 118)] = "F7"),
+              (e[(e.F8 = 119)] = "F8"),
+              (e[(e.F9 = 120)] = "F9"),
+              (e[(e.F10 = 121)] = "F10"),
+              (e[(e.F11 = 122)] = "F11"),
+              (e[(e.F12 = 123)] = "F12"),
+              (e[(e.SELECT = 93)] = "SELECT"),
+              (e[(e.NUMPAD_0 = 96)] = "NUMPAD_0"),
+              (e[(e.NUMPAD_1 = 97)] = "NUMPAD_1"),
+              (e[(e.NUMPAD_2 = 98)] = "NUMPAD_2"),
+              (e[(e.NUMPAD_3 = 99)] = "NUMPAD_3"),
+              (e[(e.NUMPAD_4 = 100)] = "NUMPAD_4"),
+              (e[(e.NUMPAD_5 = 101)] = "NUMPAD_5"),
+              (e[(e.NUMPAD_6 = 102)] = "NUMPAD_6"),
+              (e[(e.NUMPAD_7 = 103)] = "NUMPAD_7"),
+              (e[(e.NUMPAD_8 = 104)] = "NUMPAD_8"),
+              (e[(e.NUMPAD_9 = 105)] = "NUMPAD_9"),
+              (e[(e.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
+              (e[(e.STAR = 106)] = "STAR"),
+              (e[(e.NUM_SLASH = 111)] = "NUM_SLASH"),
+              (e[(e.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
+              (e[(e.COMMA = 188)] = "COMMA"),
+              (e[(e.DASH = 189)] = "DASH"),
+              (e[(e.PERIOD = 190)] = "PERIOD"));
+          })(n || (n = {})),
+          (function (e) {
+            ((e.ALT = "Alt"),
+              (e.ALT_GRAPH = "AltGraph"),
+              (e.CAPS_LOCK = "CapsLock"),
+              (e.CONTROL = "Control"),
+              (e.FN = "Fn"),
+              (e.FN_LOCK = "FnLock"),
+              (e.META = "Meta"),
+              (e.NUM_LOCK = "NumLock"),
+              (e.SCROLL_LOCK = "ScrollLock"),
+              (e.SHIFT = "Shift"),
+              (e.SYMBOL = "Symbol"),
+              (e.SYMBOL_LOCK = "SymbolLock"));
+          })(i || (i = {})));
+      },
       358: (e, t, r) => {
         "use strict";
         r.d(t, { Z: () => a });
@@ -368,7 +452,7 @@
         "use strict";
         __webpack_require__.d(__webpack_exports__, { Z: () => __WEBPACK_DEFAULT_EXPORT__ });
         var _DataTracker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(358),
-          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(596);
+          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(364);
         class ViewModel {
           constructor(path, watchingFields = []) {
             ((this.dataTracker = void 0),
@@ -407,9 +491,9 @@
         }
         const __WEBPACK_DEFAULT_EXPORT__ = ViewModel;
       },
-      596: (e, t, r) => {
+      364: (e, t, r) => {
         "use strict";
-        r.d(t, { B0: () => s, ry: () => b });
+        r.d(t, { B0: () => s, ry: () => v });
         class n {
           constructor() {
             ((this.entries = []),
@@ -481,89 +565,10 @@
           c = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
           u = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
           m = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
-        let _, h;
-        (!(function (e) {
-          ((e[(e.NONE = -1)] = "NONE"),
-            (e[(e.ALT = 165)] = "ALT"),
-            (e[(e.ENTER = 13)] = "ENTER"),
-            (e[(e.ESCAPE = 27)] = "ESCAPE"),
-            (e[(e.SPACE = 32)] = "SPACE"),
-            (e[(e.END = 35)] = "END"),
-            (e[(e.HOME = 36)] = "HOME"),
-            (e[(e.ARROW_LEFT = 37)] = "ARROW_LEFT"),
-            (e[(e.ARROW_UP = 38)] = "ARROW_UP"),
-            (e[(e.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
-            (e[(e.ARROW_DOWN = 40)] = "ARROW_DOWN"),
-            (e[(e.NUM_PLUS = 107)] = "NUM_PLUS"),
-            (e[(e.NUM_MINUS = 109)] = "NUM_MINUS"),
-            (e[(e.PLUS = 187)] = "PLUS"),
-            (e[(e.MINUS = 189)] = "MINUS"),
-            (e[(e.PAGE_UP = 33)] = "PAGE_UP"),
-            (e[(e.PAGE_DOWN = 34)] = "PAGE_DOWN"),
-            (e[(e.BACKSPACE = 8)] = "BACKSPACE"),
-            (e[(e.DELETE = 46)] = "DELETE"),
-            (e[(e.TAB = 9)] = "TAB"),
-            (e[(e.KEY_N = 78)] = "KEY_N"),
-            (e[(e.KEY_0 = 48)] = "KEY_0"),
-            (e[(e.KEY_1 = 49)] = "KEY_1"),
-            (e[(e.KEY_2 = 50)] = "KEY_2"),
-            (e[(e.KEY_3 = 51)] = "KEY_3"),
-            (e[(e.KEY_4 = 52)] = "KEY_4"),
-            (e[(e.KEY_5 = 53)] = "KEY_5"),
-            (e[(e.KEY_6 = 54)] = "KEY_6"),
-            (e[(e.KEY_7 = 55)] = "KEY_7"),
-            (e[(e.KEY_8 = 56)] = "KEY_8"),
-            (e[(e.KEY_9 = 57)] = "KEY_9"),
-            (e[(e.CAPS_LOCK = 20)] = "CAPS_LOCK"),
-            (e[(e.INSERT = 45)] = "INSERT"),
-            (e[(e.F1 = 112)] = "F1"),
-            (e[(e.F2 = 113)] = "F2"),
-            (e[(e.F3 = 114)] = "F3"),
-            (e[(e.F4 = 115)] = "F4"),
-            (e[(e.F5 = 116)] = "F5"),
-            (e[(e.F6 = 117)] = "F6"),
-            (e[(e.F7 = 118)] = "F7"),
-            (e[(e.F8 = 119)] = "F8"),
-            (e[(e.F9 = 120)] = "F9"),
-            (e[(e.F10 = 121)] = "F10"),
-            (e[(e.F11 = 122)] = "F11"),
-            (e[(e.F12 = 123)] = "F12"),
-            (e[(e.SELECT = 93)] = "SELECT"),
-            (e[(e.NUMPAD_0 = 96)] = "NUMPAD_0"),
-            (e[(e.NUMPAD_1 = 97)] = "NUMPAD_1"),
-            (e[(e.NUMPAD_2 = 98)] = "NUMPAD_2"),
-            (e[(e.NUMPAD_3 = 99)] = "NUMPAD_3"),
-            (e[(e.NUMPAD_4 = 100)] = "NUMPAD_4"),
-            (e[(e.NUMPAD_5 = 101)] = "NUMPAD_5"),
-            (e[(e.NUMPAD_6 = 102)] = "NUMPAD_6"),
-            (e[(e.NUMPAD_7 = 103)] = "NUMPAD_7"),
-            (e[(e.NUMPAD_8 = 104)] = "NUMPAD_8"),
-            (e[(e.NUMPAD_9 = 105)] = "NUMPAD_9"),
-            (e[(e.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
-            (e[(e.STAR = 106)] = "STAR"),
-            (e[(e.NUM_SLASH = 111)] = "NUM_SLASH"),
-            (e[(e.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
-            (e[(e.COMMA = 188)] = "COMMA"),
-            (e[(e.DASH = 189)] = "DASH"),
-            (e[(e.PERIOD = 190)] = "PERIOD"));
-        })(_ || (_ = {})),
-          (function (e) {
-            ((e.ALT = "Alt"),
-              (e.ALT_GRAPH = "AltGraph"),
-              (e.CAPS_LOCK = "CapsLock"),
-              (e.CONTROL = "Control"),
-              (e.FN = "Fn"),
-              (e.FN_LOCK = "FnLock"),
-              (e.META = "Meta"),
-              (e.NUM_LOCK = "NumLock"),
-              (e.SCROLL_LOCK = "ScrollLock"),
-              (e.SHIFT = "Shift"),
-              (e.SYMBOL = "Symbol"),
-              (e.SYMBOL_LOCK = "SymbolLock"));
-          })(h || (h = {})));
-        var g = r(67);
-        const E = ["args"];
-        function w(e, t, r, n, i, a, o) {
+        var _ = r(521),
+          h = r(67);
+        const g = ["args"];
+        function E(e, t, r, n, i, a, o) {
           try {
             var l = e[a](o),
               s = l.value;
@@ -572,14 +577,14 @@
           }
           l.done ? t(s) : Promise.resolve(s).then(n, i);
         }
-        const v = (e) => ({
+        const w = (e) => ({
             __Type: "GFBoundingBox",
             x: e.x,
             y: e.y,
             width: e.width,
             height: e.height,
           }),
-          b = (function () {
+          v = (function () {
             var e,
               t =
                 ((e = function* () {
@@ -596,10 +601,10 @@
                   return new Promise(function (n, i) {
                     var a = e.apply(t, r);
                     function o(e) {
-                      w(a, n, i, o, l, "next", e);
+                      E(a, n, i, o, l, "next", e);
                     }
                     function l(e) {
-                      w(a, n, i, o, l, "throw", e);
+                      E(a, n, i, o, l, "throw", e);
                     }
                     o(void 0);
                   });
@@ -608,7 +613,7 @@
               return t.apply(this, arguments);
             };
           })(),
-          f = (e, t) => {
+          b = (e, t) => {
             const r = "GFViewEventProxy";
             if (void 0 !== t) {
               const i = t.args,
@@ -620,7 +625,7 @@
                     a = Object.keys(e);
                   for (n = 0; n < a.length; n++) ((r = a[n]), t.indexOf(r) >= 0 || (i[r] = e[r]));
                   return i;
-                })(t, E);
+                })(t, g);
               void 0 !== i
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: r, type: e }, a, {
@@ -646,26 +651,26 @@
             } else viewEnv.handleViewEvent({ __Type: r, type: e });
             var n;
           },
-          p = () => f(s.CLOSE),
-          L = (e, t) => {
-            e.keyCode === _.ESCAPE && t();
+          f = () => b(s.CLOSE),
+          p = (e, t) => {
+            e.keyCode === _.n.ESCAPE && t();
           };
-        var x = r(572);
-        const S = i.instance,
-          M = {
+        var L = r(572);
+        const x = i.instance,
+          S = {
             DataTracker: a.Z,
-            ViewModel: x.Z,
+            ViewModel: L.Z,
             ViewEventType: s,
             NumberFormatType: d,
             RealFormatType: c,
             TimeFormatType: u,
             DateFormatType: m,
-            makeGlobalBoundingBox: v,
-            sendMoveEvent: (e) => f(s.MOVE, { isMouseEvent: !0, on: e }),
-            sendCloseEvent: p,
-            sendClosePopOverEvent: () => f(s.POP_OVER, { on: !1 }),
+            makeGlobalBoundingBox: w,
+            sendMoveEvent: (e) => b(s.MOVE, { isMouseEvent: !0, on: e }),
+            sendCloseEvent: f,
+            sendClosePopOverEvent: () => b(s.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (e, t, r = 0) => {
-              f(s.CONTEXT_MENU, {
+              b(s.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: e,
                 on: !0,
@@ -674,41 +679,41 @@
               });
             },
             sendShowPopOverEvent: (e, t, r, n, i = R.invalid("resId"), a) => {
-              const o = g.O.view.getViewGlobalPosition(),
+              const o = h.O.view.getViewGlobalPosition(),
                 l = r.getBoundingClientRect(),
                 d = l.x,
                 c = l.y,
                 u = l.width,
                 m = l.height,
                 _ = {
-                  x: g.O.view.pxToRem(d) + o.x,
-                  y: g.O.view.pxToRem(c) + o.y,
-                  width: g.O.view.pxToRem(u),
-                  height: g.O.view.pxToRem(m),
+                  x: h.O.view.pxToRem(d) + o.x,
+                  y: h.O.view.pxToRem(c) + o.y,
+                  width: h.O.view.pxToRem(u),
+                  height: h.O.view.pxToRem(m),
                 };
-              f(s.POP_OVER, {
+              b(s.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: e,
                 decoratorID: n || R.invalid("resId"),
                 targetID: i,
                 direction: t,
-                bbox: v(_),
+                bbox: w(_),
                 on: !0,
                 args: a,
               });
             },
             addEscapeListener: (e) => {
-              const t = (t) => L(t, e);
+              const t = (t) => p(t, e);
               return (
                 window.addEventListener("keydown", t),
                 () => window.removeEventListener("keydown", t)
               );
             },
             closeOnEsc: (e) => {
-              L(e, p);
+              p(e, f);
             },
-            handleViewEvent: f,
-            onBindingsReady: b,
+            handleViewEvent: b,
+            onBindingsReady: v,
             onLayoutReady: () =>
               new Promise((e) => {
                 requestAnimationFrame(() => {
@@ -737,11 +742,11 @@
                 }
               return r;
             },
-            ClickOutsideManager: S,
+            ClickOutsideManager: x,
             SystemLocale: o,
             UserLocale: l,
           };
-        window.ViewEnvHelper = M;
+        window.ViewEnvHelper = S;
       },
       533: (e, t, r) => {
         "use strict";
@@ -1094,7 +1099,7 @@
           W = r.n(C),
           N = r(515);
         const F = "App_base_dd";
-        var U = r(596);
+        var U = r(364);
         const G = [
           "children",
           "contentId",

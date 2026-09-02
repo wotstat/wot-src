@@ -6,15 +6,20 @@ from soft_exception import SoftException
 from comp7_common import COMP7_MASKOT_ID, COMP7_CURRENT_SEASON
 COMP7_RATING_ENTITLEMENT_TMPL = b'comp7_rating_points'
 COMP7_RATING_ENTITLEMENT = (b'comp7_rating_points:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
-COMP7_ELITE_ENTITLEMENT = (b'comp7_elite_rank:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
 COMP7_ACTIVITY_ENTITLEMENT = (b'comp7_activity_points:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON)
 COMP7_ENTITLEMENT_EXPIRES = None
 EXTRA_RANK_TAG = b'extra'
 COMP7_UNDEFINED_RANK_ID = 0
 COMP7_UNDEFINED_DIVISION_ID = 0
+COMP7_ELITE_DIVISION_TAG_PREFIX = b'dynamic:'
+COMP7_ELITE_ENTITLEMENTS = (
+ (b'comp7_elite_rank_a:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON),
+ (b'comp7_elite_rank_b:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON),
+ (b'comp7_elite_rank_c:{}:{}').format(COMP7_MASKOT_ID, COMP7_CURRENT_SEASON))
+COMP7_ELITE_ENT_TO_DIV_IDX = {ent: idx for idx, ent in enumerate(sorted(COMP7_ELITE_ENTITLEMENTS), 1)}
 
 class Comp7Division(object):
-    __slots__ = (b'range', b'tags', b'rank', b'dvsnID', b'index', b'activityPointsPerBattle', b'hasRankInactivity')
+    __slots__ = (b'range', b'tags', b'rank', b'dvsnID', b'index', b'activityPointsPerBattle', b'hasRankInactivity', b'type', b'elitePercent')
 
     def __init__(self, dvsnDict):
         pointsRange = dvsnDict[b'range']
@@ -25,6 +30,8 @@ class Comp7Division(object):
         self.tags = frozenset(dvsnDict.get(b'tags', ()))
         self.activityPointsPerBattle = dvsnDict[b'rankInactivity'][b'activityPointsPerBattle'] if b'rankInactivity' in dvsnDict else 0
         self.hasRankInactivity = dvsnDict.get(b'hasRankInactivity', False)
+        self.type = dvsnDict[b'type']
+        self.elitePercent = int(dvsnDict.get(b'elitePercent', 0))
         return
 
     def __cmp__(self, other):
@@ -70,10 +77,9 @@ class Comp7RanksConfig(object):
         ranksOrder = self._config.get(b'ranksOrder', ())
         return tuple(Comp7Rank(ranks[rankID]) for rankID in ranksOrder)
 
-    def getDivisionByRating(self, points, hasEliteEntitlement):
-        eliteDiv = self.eliteDivision
-        if hasEliteEntitlement and points in eliteDiv.range:
-            return eliteDiv
+    def getDivisionByRatingOrEntName(self, points, entName=b''):
+        if entName:
+            return self.getEliteDivision(entName)
         for division in self.divisions:
             if points in division.range:
                 return division
@@ -87,9 +93,9 @@ class Comp7RanksConfig(object):
         division = self.divisions[divisionSerialIdx]
         return division.range.begin
 
-    @cached_property
-    def eliteDivision(self):
-        return self.divisions[-1]
+    def getEliteDivision(self, entName):
+        divisionIndex = COMP7_ELITE_ENT_TO_DIV_IDX.get(entName, 0)
+        return self.divisions[-divisionIndex]
 
     def getActivityPointsForBattle(self, rank, divisionIdx):
         for division in self.divisions:
@@ -112,10 +118,18 @@ def parseRatingEnt(entCode):
 
 
 class Comp7EntitlementCodes(enum.Enum):
-    LEGEND_RANK = b'legendRank'
+    LEGEND_RANK_A = b'legendRank_a'
+    LEGEND_RANK_B = b'legendRank_b'
+    LEGEND_RANK_C = b'legendRank_c'
     RATING_POINTS = b'ratingPoints'
     ACTIVITY_POINTS = b'activityPoints'
 
     @classmethod
     def all(cls):
         return [element.value for element in cls]
+
+
+class DIVISION_TYPE(enum.IntEnum):
+    BASIC = 0
+    TRANSFER = 1
+    ELITE = 2

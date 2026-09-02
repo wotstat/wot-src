@@ -36,8 +36,6 @@ package net.wg.infrastructure.base.meta
       function isVehicleRestoreEnabledS() : Boolean;
       
       function isTradeInEnabledS() : Boolean;
-      
-      function isBirthdayS() : Boolean;
    }
 }
 

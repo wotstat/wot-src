@@ -33,6 +33,10 @@ class _execute_after_hangar_space_inited(object):
     hangarSpace = dependency.descriptor(IHangarSpace)
     __slots__ = (b'__queue',)
 
+    @property
+    def condition(self):
+        return self.__hangarsSpace.spaceInited and self.__hangarsSpace.space.getVehicleEntity()
+
     def __init__(self):
         self.__queue = Queue()
         return
@@ -281,6 +285,8 @@ class HangarSpace(IHangarSpace):
 
     @uniprof.regionDecorator(label=b'hangar.space.loading', scope=b'enter')
     def init(self, isPremium):
+        if Waiting.getWaiting(b'loadHangarSpaceVehicle') is not None:
+            Waiting.hide(b'loadHangarSpaceVehicle')
         if self.__space is None:
             self.__space = ClientHangarSpace(BoundMethodWeakref(self._changeDone))
         self.statsCollector.noteHangarLoadingState(HANGAR_LOADING_STATE.START_LOADING_SPACE)
@@ -446,6 +452,8 @@ class HangarSpace(IHangarSpace):
         return self.armoryYardCtrl.isSceneLoaded()
 
     def onPremiumChanged(self, isPremium, attrs, premiumExpiryTime):
+        if self.__isSpacePremium == isPremium:
+            return
         self.__isSpacePremium = isPremium
         if not self.isSceneBlocked():
             self.hangarSwitchController.processPossibleSceneChange()

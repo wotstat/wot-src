@@ -1,0 +1,16 @@
+.Hero_base_4b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600rem;
+  height: 600rem;
+  background: url("R.images.gui.maps.icons.telecom.shared.hero.bg") no-repeat center / cover;
+  position: relative;
+}
+
+.Hero_sign_ec {
+  width: 400rem;
+  height: 300rem;
+  background: url("R.images.gui.maps.icons.telecom.shared.hero.sign") no-repeat center / cover;
+}

@@ -49,7 +49,7 @@ def timeDataToUTC(timeData, default=None):
         else:
             return default
     except:
-        raise SoftException(b'Invalid format (%s). Format must be like %s, for example 23.01.2011 00:00.' % (
+        raise SoftException(b'Invalid format (%s). Format must be like %s , for example 23.01.2011 00:00.' % (
          timeData, b"'%d.%m.%Y %H:%M'"))
 
     return timeData
@@ -61,6 +61,16 @@ def readUTC(section, field, default=None):
         return timeDataToUTC(timeData, default)
     except Exception as e:
         raise SoftException(b'Invalid field %s: %s' % (field, e))
+
+    return
+
+
+def isFloat(string):
+    try:
+        float(string)
+        return True
+    except ValueError:
+        return False
 
     return
 
@@ -944,6 +954,16 @@ def __readBonus_optionalData(config, bonusReaders, section, eventType):
         properties[b'mainRotationBranch'] = section[b'mainRotationBranch'].asBool
     if section.has_key(b'surprise'):
         properties[b'surprise'] = section[b'surprise'].asBool
+    if section.has_key(b'userProbability'):
+        userProbability = section[b'userProbability'].asString.split()
+        if len(userProbability) != len(probabilitiesList):
+            raise SoftException(b'User probabilities must be the same length as probabilities')
+        for userProb in userProbability:
+            if userProb not in USER_PROBABILITIES:
+                if not isFloat(userProb) or not 0.0 <= float(userProb) <= 100.0:
+                    raise SoftException((b'Invalid userProbability value: {}').format(userProb))
+
+        properties[b'userProbability'] = userProbability
     if IS_DEVELOPMENT:
         if section.has_key(b'name'):
             properties[b'name'] = section[b'name'].asString
@@ -1201,13 +1221,14 @@ __BONUS_READERS = {b'meta': __readMetaSection,
 __PROBABILITY_READERS = {b'optional': __readBonus_optional, 
    b'oneof': __readBonus_oneof, 
    b'group': __readBonus_group}
-_RESERVED_NAMES = frozenset([138, 139, 140, 141, 142, 143, 144, 
- 145, 146, 147, 
- 148, 149])
+_RESERVED_NAMES = frozenset([139, 140, 141, 142, 143, 144, 145, 
+ 146, 147, 148, 
+ 149, 150, 151])
 SUPPORTED_BONUSES = set(__BONUS_READERS.iterkeys())
 __SORTED_BONUSES = sorted(SUPPORTED_BONUSES)
 SUPPORTED_BONUSES_IDS = dict((n, i) for i, n in enumerate(__SORTED_BONUSES))
 SUPPORTED_BONUSES_NAMES = {i: n for i, n in enumerate(__SORTED_BONUSES)}
+USER_PROBABILITIES = frozenset([b'high', b'medium', b'low'])
 
 def __readBonusLimit(section):
     properties = {}

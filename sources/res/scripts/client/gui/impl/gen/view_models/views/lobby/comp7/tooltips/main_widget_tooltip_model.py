@@ -12,10 +12,17 @@ class Rank(IntEnum):
     SIXTH = 1
 
 
+class State(IntEnum):
+    INITIAL = 0
+    SUCCESS = 1
+    LOADING = 2
+    ERROR = 3
+
+
 class MainWidgetTooltipModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=5, commands=0):
+    def __init__(self, properties=7, commands=0):
         super(MainWidgetTooltipModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -42,18 +49,32 @@ class MainWidgetTooltipModel(ViewModel):
         self._setNumber(2, value.value)
         return
 
-    def getCurrentScore(self):
-        return self._getNumber(3)
+    def getExternalDataState(self):
+        return State(self._getNumber(3))
 
-    def setCurrentScore(self, value):
-        self._setNumber(3, value)
+    def setExternalDataState(self, value):
+        self._setNumber(3, value.value)
         return
 
-    def getTopPercentage(self):
+    def getCurrentScore(self):
         return self._getNumber(4)
 
-    def setTopPercentage(self, value):
+    def setCurrentScore(self, value):
         self._setNumber(4, value)
+        return
+
+    def getMyPosition(self):
+        return self._getNumber(5)
+
+    def setMyPosition(self, value):
+        self._setNumber(5, value)
+        return
+
+    def getLeaderboardUpdateTimestamp(self):
+        return self._getNumber(6)
+
+    def setLeaderboardUpdateTimestamp(self, value):
+        self._setNumber(6, value)
         return
 
     def _initialize(self):
@@ -61,6 +82,8 @@ class MainWidgetTooltipModel(ViewModel):
         self._addViewModelProperty(b'divisionInfo', DivisionInfoModel())
         self._addViewModelProperty(b'qualificationModel', QualificationModel())
         self._addNumberProperty(b'rank')
+        self._addNumberProperty(b'externalDataState', State.INITIAL.value)
         self._addNumberProperty(b'currentScore', 0)
-        self._addNumberProperty(b'topPercentage', 0)
+        self._addNumberProperty(b'myPosition', -1)
+        self._addNumberProperty(b'leaderboardUpdateTimestamp', 0)
         return

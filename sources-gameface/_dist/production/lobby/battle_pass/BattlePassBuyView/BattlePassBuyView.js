@@ -597,7 +597,14 @@
               (e.DogTagType = "dogTagComponents"),
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
-              (e.RewardsSlots = "rewardsSlots"));
+              (e.RewardsSlots = "rewardsSlots"),
+              (e.WtStamp = "stamp"),
+              (e.WtHunter = "wt_hunter"),
+              (e.WtBoss = "wt_boss"),
+              (e.WtHunterCollection = "hunter_collection"),
+              (e.WtTicket = "wtevent_ticket"),
+              (e.WtMainPrizeDiscount = "main_prize_discount"),
+              (e.WtTicket25 = "wtevent_ticket25"));
           })(r || (r = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -745,6 +752,11 @@
             s.E4.PremiumPlusUniversal,
             s.E4.GoldenTicket,
             s.E4.RewardsSlots,
+            s.E4.WtStamp,
+            s.E4.WtTicket,
+            s.E4.WtMainPrizeDiscount,
+            s.E4.WtHunter,
+            s.E4.WtHunterCollection,
           ],
           o = [s.E4.Gold, s.E4.Credits, s.E4.Crystal, s.E4.FreeXp],
           l = [s.E4.BattlePassPoints],
@@ -3080,28 +3092,28 @@
         } = {}) {
           return (te(e, u, t), u);
         }
-        var ae = t(4420);
-        const ne = "BattlePassBuyViewContent_base_85",
-          se = "BattlePassBuyViewContent_background_15",
-          ie = "BattlePassBuyViewContent_blackout_3d",
-          oe = "BattlePassBuyViewContent_back_d2",
-          le = "BattlePassBuyViewContent_header_50",
-          ce = "BattlePassBuyViewContent_title_8a",
-          _e = "BattlePassBuyViewContent_subtitle_72";
-        var Ee = t(903);
-        const me = {
-          base: "Illustration_base_d3",
-          imgWrapper: "Illustration_imgWrapper_61",
-          img: "Illustration_img_44",
-          base__hover: "Illustration_base__hover_70",
-          base__disabled: "Illustration_base__disabled_a8",
-          vignette: "Illustration_vignette_e0",
-          asset: "Illustration_asset_e2",
-          highlight: "Illustration_highlight_36",
-          highlight__default: "Illustration_highlight__default_2b",
-          highlight__active: "Illustration_highlight__active_f1",
-          highlight__shine: "Illustration_highlight__shine_b0",
-        };
+        var ae = t(903),
+          ne = t(4420);
+        const se = "BattlePassBuyViewContent_base_85",
+          ie = "BattlePassBuyViewContent_background_15",
+          oe = "BattlePassBuyViewContent_blackout_3d",
+          le = "BattlePassBuyViewContent_back_d2",
+          ce = "BattlePassBuyViewContent_header_50",
+          _e = "BattlePassBuyViewContent_title_8a",
+          Ee = "BattlePassBuyViewContent_subtitle_72",
+          me = {
+            base: "Illustration_base_d3",
+            imgWrapper: "Illustration_imgWrapper_61",
+            img: "Illustration_img_44",
+            base__hover: "Illustration_base__hover_70",
+            base__disabled: "Illustration_base__disabled_a8",
+            vignette: "Illustration_vignette_e0",
+            asset: "Illustration_asset_e2",
+            highlight: "Illustration_highlight_36",
+            highlight__default: "Illustration_highlight__default_2b",
+            highlight__active: "Illustration_highlight__active_f1",
+            highlight__shine: "Illustration_highlight__shine_b0",
+          };
         let de;
         !(function (e) {
           ((e.Hover = "hover"), (e.Disabled = "disabled"));
@@ -3116,7 +3128,7 @@
                 n().createElement("div", {
                   className: me.img,
                   style: {
-                    backgroundImage: `url('${(0, Ee.wD)(R.images.gui.maps.icons.battlePass.buy.illustrations.commander, r)}')`,
+                    backgroundImage: `url('${(0, ae.wD)(R.images.gui.maps.icons.battlePass.buy.illustrations.commander, r)}')`,
                   },
                 }),
               ),
@@ -3309,7 +3321,7 @@
           nu = (e, u) => {
             const t = R.images.gui.maps.icons.battlePass.buy.logo,
               r = u <= c.cJ.Small ? "small" : "";
-            return (0, Ee.wD)(t, e, r);
+            return (0, ae.wD)(t, e, r);
           },
           su = ({
             chapterID: e,
@@ -4083,39 +4095,39 @@
           pt = R.strings.battle_pass.battlePassBuyView,
           Bt = (0, f.Pi)(({ onClose: e }) => {
             const u = X().model.computes.firstChapter(),
-              t = () => {
+              t = (0, c.GS)().mediaSize,
+              r = (0, ae.jz)(t),
+              a = () => {
                 e(!1);
               };
             return (
-              re({ callback: t, preventPropagation: !1 }),
+              re({ callback: a, preventPropagation: !1 }),
               n().createElement(
                 "div",
-                { className: ne },
+                { className: se },
                 n().createElement(
                   "div",
-                  { className: se },
-                  n().createElement(ae.N, {
+                  { className: ie },
+                  n().createElement(ne.N, {
                     key: null == u ? void 0 : u.packageID,
                     isCurrent: !0,
-                    customBackgroundStyle: {
-                      backgroundImage: "url(R.images.gui.maps.icons.battlePass.backgrounds.common)",
-                    },
+                    customBackgroundStyle: { backgroundImage: `url(${(0, ae.Sc)(r)})` },
                   }),
-                  n().createElement("div", { className: ie }),
-                ),
-                n().createElement(
-                  "div",
-                  { className: oe },
-                  n().createElement(Q, {
-                    caption: R.strings.menu.viewHeader.backBtn.label(),
-                    onClick: t,
-                  }),
+                  n().createElement("div", { className: oe }),
                 ),
                 n().createElement(
                   "div",
                   { className: le },
-                  n().createElement("div", { className: ce }, pt.title()),
-                  n().createElement("div", { className: _e }, pt.descr()),
+                  n().createElement(Q, {
+                    caption: R.strings.menu.viewHeader.backBtn.label(),
+                    onClick: a,
+                  }),
+                ),
+                n().createElement(
+                  "div",
+                  { className: ce },
+                  n().createElement("div", { className: _e }, pt.title()),
+                  n().createElement("div", { className: Ee }, pt.descr()),
                 ),
                 n().createElement(Ct, null),
               )
@@ -4611,16 +4623,15 @@
               p = (0, wt.useSpring)(cr(_.length)),
               B = A.get(),
               h = D.get(),
-              f = {
-                backgroundImage: `url(${(0, Ee.wD)(R.images.gui.maps.icons.battlePass.backgrounds.confirm, o.get())})`,
-              },
-              v = (0, a.useCallback)(() => ({ [J.n.ENTER]: r.buy, [J.n.SPACE]: r.buy }), [r.buy]),
-              b = (0, a.useCallback)(() => {
+              f = (0, ae.jz)(C),
+              v = (0, ae.sM)(o.get(), f),
+              b = (0, a.useCallback)(() => ({ [J.n.ENTER]: r.buy, [J.n.SPACE]: r.buy }), [r.buy]),
+              w = (0, a.useCallback)(() => {
                 e(h);
               }, [h, e]);
-            (re({ callback: b, preventPropagation: !1 }), bt(B ? v() : void 0));
-            const w = C < c.cJ.Medium ? ht.h2.Small : ht.h2.Big,
-              y = !t.computes.isTypedChapter(o.get(), $._U.Marathon) && d.get();
+            (re({ callback: w, preventPropagation: !1 }), bt(B ? b() : void 0));
+            const y = C < c.cJ.Medium ? ht.h2.Small : ht.h2.Big,
+              S = !t.computes.isTypedChapter(o.get(), $._U.Marathon) && d.get();
             return n().createElement(
               "div",
               { className: or.base },
@@ -4629,17 +4640,17 @@
                 { className: or.control },
                 n().createElement(Q, {
                   caption: R.strings.menu.viewHeader.backBtn.label(),
-                  onClick: b,
+                  onClick: w,
                   goto: h ? "" : _r.confirm.backBtnText(),
                 }),
               ),
-              n().createElement("div", { className: or.background, style: f }),
+              n().createElement("div", { className: or.background, style: v }),
               n().createElement(
                 "div",
                 {
                   className: i()(
                     or.content,
-                    y && or.content__warning,
+                    S && or.content__warning,
                     !l && or.content__activeChapterWarning,
                   ),
                 },
@@ -4652,7 +4663,7 @@
                       g >= 1200 && g < 1440 && or.backgroundCommander__large,
                     ),
                     style: {
-                      backgroundImage: `url(${(0, Ee.wD)(R.images.gui.maps.icons.battlePass.buy.confirm.commander, o.get())})`,
+                      backgroundImage: `url(${(0, ae.wD)(R.images.gui.maps.icons.battlePass.buy.confirm.commander, o.get())})`,
                     },
                   }),
                 ),
@@ -4672,7 +4683,7 @@
                       n().createElement(
                         yt.d,
                         { animationConfig: cr(u), key: `${e.item}_${u}` },
-                        n().createElement(ft.Q, lr({}, (0, Be.$n)(e, w), { className: or.reward })),
+                        n().createElement(ft.Q, lr({}, (0, Be.$n)(e, y), { className: or.reward })),
                       ),
                     ),
                   ),
@@ -4696,7 +4707,7 @@
                       )
                     : n().createElement("div", { className: or.indentBlock }),
                 ),
-                n().createElement(ir, { onBackClick: b }),
+                n().createElement(ir, { onBackClick: w }),
               ),
             );
           }),
@@ -4760,7 +4771,7 @@
               s = t.chapterID;
             re({ callback: e, preventPropagation: !1 });
             const i = {
-              backgroundImage: `url(${(0, Ee.wD)(R.images.gui.maps.icons.battlePass.backgrounds.rewards, s.get())})`,
+              backgroundImage: `url(${(0, ae.wD)(R.images.gui.maps.icons.battlePass.backgrounds.rewards, s.get())})`,
             };
             return n().createElement(
               "div",
@@ -4768,7 +4779,7 @@
               n().createElement(
                 "div",
                 { className: vr },
-                n().createElement(ae.N, {
+                n().createElement(ne.N, {
                   chapter: s.get(),
                   isCurrent: !0,
                   customBackgroundStyle: i,
@@ -4852,17 +4863,50 @@
       },
       903: (e, u, t) => {
         "use strict";
-        t.d(u, { W4: () => a, wD: () => r });
-        (t(5415), t(8546));
-        const r = (e, u, t = "") => {
+        t.d(u, { Sc: () => s, W4: () => c, jz: () => o, sM: () => l, wD: () => i });
+        var r = t(5415),
+          a = t(8546);
+        const n = (e) => {
+            switch (e) {
+              case a.$u.Micro:
+                return "s";
+              case a.$u.Small:
+                return "m";
+              default:
+                return "l";
+            }
+          },
+          s = (e = a.$u.Medium) => {
+            const u = R.images.gui.maps.icons.battlePass.backgrounds,
+              t = n(e);
+            return u.$dyn(`common_${t}`);
+          },
+          i = (e, u, t = "") => {
             const r = t.length > 0 ? `_${t}` : t,
               a = e.$dyn(`c_${u}${r}`),
               n = e.$dyn(`common${r}`);
             return a || n;
           },
-          a = (e) => {
-            const u = R.images.gui.maps.icons.battlePass.backgrounds;
-            return { backgroundImage: `url(${r(u.chapter, e)})` };
+          o = (e) => {
+            switch (e) {
+              case r.cJ.ExtraSmall:
+              case r.cJ.Small:
+                return a.$u.Micro;
+              case r.cJ.Medium:
+                return a.$u.Small;
+              default:
+                return a.$u.Medium;
+            }
+          },
+          l = (e, u) => {
+            const t = R.images.gui.maps.icons.battlePass.backgrounds.confirm,
+              r = n(u);
+            return { backgroundImage: `url(${i(t, e, r)})` };
+          },
+          c = (e, u = a.$u.Medium) => {
+            const t = R.images.gui.maps.icons.battlePass.backgrounds,
+              r = n(u);
+            return { backgroundImage: `url(${i(t.chapter, e, r)})` };
           };
       },
       930: (e, u, t) => {
@@ -4963,26 +5007,31 @@
       },
       4420: (e, u, t) => {
         "use strict";
-        t.d(u, { N: () => c });
+        t.d(u, { N: () => _ });
         var r = t(6483),
           a = t.n(r),
-          n = t(6179),
-          s = t.n(n),
-          i = t(903);
-        const o = "ChapterBackground_base_fa",
-          l = "ChapterBackground_base__current_7a",
-          c = ({ chapter: e, isCurrent: u, customBackgroundStyle: t }) =>
-            s().createElement("div", {
-              className: a()(o, u && l),
-              style: t || (0, i.W4)(null != e ? e : 0),
+          n = t(5415),
+          s = t(6179),
+          i = t.n(s),
+          o = t(903);
+        const l = "ChapterBackground_base_fa",
+          c = "ChapterBackground_base__current_7a",
+          _ = ({ chapter: e, isCurrent: u, customBackgroundStyle: t }) => {
+            const r = (0, n.GS)().mediaSize,
+              s = (0, o.jz)(r);
+            return i().createElement("div", {
+              className: a()(l, u && c),
+              style: t || (0, o.W4)(null != e ? e : 0, s),
             });
+          };
       },
       8546: (e, u, t) => {
         "use strict";
         let r, a, n, s;
-        (!(function (e) {
-          ((e.Micro = "micro"), (e.Small = "small"), (e.Medium = "medium"));
-        })(r || (r = {})),
+        (t.d(u, { $u: () => r }),
+          (function (e) {
+            ((e.Micro = "micro"), (e.Small = "small"), (e.Medium = "medium"));
+          })(r || (r = {})),
           (function (e) {
             ((e.ACTIVE = "active"), (e.COMPLETED = "completed"), (e.NOT_CHOSEN = "notChosen"));
           })(a || (a = {})),

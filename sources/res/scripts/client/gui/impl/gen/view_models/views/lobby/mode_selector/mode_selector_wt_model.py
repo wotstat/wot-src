@@ -1,0 +1,37 @@
+from enum import Enum
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_normal_card_model import ModeSelectorNormalCardModel
+from gui.impl.gen.view_models.views.lobby.mode_selector.mode_selector_wt_widget_model import ModeSelectorWtWidgetModel
+
+class PerformanceRisk(Enum):
+    HIGH = b'high'
+    MEDIUM = b'medium'
+    LOW = b'low'
+
+
+class ModeSelectorWtModel(ModeSelectorNormalCardModel):
+    __slots__ = ()
+
+    def __init__(self, properties=23, commands=0):
+        super(ModeSelectorWtModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def widget(self):
+        return self._getViewModel(21)
+
+    @staticmethod
+    def getWidgetType():
+        return ModeSelectorWtWidgetModel
+
+    def getPerformanceRisk(self):
+        return PerformanceRisk(self._getString(22))
+
+    def setPerformanceRisk(self, value):
+        self._setString(22, value.value)
+        return
+
+    def _initialize(self):
+        super(ModeSelectorWtModel, self)._initialize()
+        self._addViewModelProperty(b'widget', ModeSelectorWtWidgetModel())
+        self._addStringProperty(b'performanceRisk')
+        return

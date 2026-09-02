@@ -14,9 +14,9 @@ from VersionUpdater import VersionUpdaterBase
 from serialization import ComponentBinSerializer
 from wotdecorators import singleton
 from debug_utils import LOG_DEBUG_DEV
-ACCOUNT_DOSSIER_VERSION = 160
+ACCOUNT_DOSSIER_VERSION = 161
 ACCOUNT_DOSSIER_UPDATE_FUNCTION_TEMPLATE = b'__updateFromAccountDossier%d'
-VEHICLE_DOSSIER_VERSION = 116
+VEHICLE_DOSSIER_VERSION = 117
 VEHICLE_DOSSIER_UPDATE_FUNCTION_TEMPLATE = b'__updateFromVehicleDossier%d'
 TANKMAN_DOSSIER_VERSION = 67
 TANKMAN_DOSSIER_UPDATE_FUNCTION_TEMPLATE = b'__updateFromTankmanDossier%d'
@@ -3638,6 +3638,70 @@ def __updateFromAccountDossier159(compDescr):
     return (160, updateCtx[b'dossierCompDescr'])
 
 
+def __updateFromAccountDossier160(compDescr):
+    blocksLayout = [
+     1, 2, 3, 4, 5, 6, 7, 8, 9, 
+     10, 11, 12, 13, 
+     14, 15, 16, 17, 
+     18, 19, 20, 21, 22, 
+     23, 
+     24, 25, 26, 27, 28, 
+     29, 30, 31, 32, 33, 
+     34, 
+     35, 36, 37, 38, 39, 
+     40, 41, 42, 43, 44, 
+     45, 
+     46, 47, 48, 49, 50, 51, 
+     52, 53, 54, 55, 56, 57, 
+     58, 
+     59, 60, 61, 62, 63, 64, 
+     65, 66, 67, 
+     68, 69, 
+     70, 71, 72, 73, 74, 
+     75, 76, 77, 
+     78, 
+     79, 80, 
+     81, 82, 83, 
+     84, 85, 86, 
+     87, 
+     88, 89, 90, 
+     91, 92, 93, 94, 
+     95, 96, 97, 
+     98, 99]
+    updateCtx = {b'dossierCompDescr': compDescr, 
+       b'blockSizeFormat': b'H', 
+       b'versionFormat': b'H', 
+       b'blocksLayout': blocksLayout}
+    getHeader(updateCtx)
+    comp7SeasonsNewPacking = {b'spotted': (32, b'I'), b'losses': (12, b'I'), b'roleSkillUsed': (132, b'I'), b'damageAssistedTrack': (56, b'I'), 
+       b'damageReceived': (40, b'I'), b'battlesOnStunningVehicles': (100, b'I'), 
+       b'piercingsReceived': (72, b'I'), b'originalXP': (52, b'I'), 
+       b'damageAssistedRadio': (60, b'I'), b'battlesCount': (4, b'I'), b'survivedBattles': (16, b'I'), 
+       b'winSeries': (112, b'I'), b'piercings': (84, b'I'), b'damageBlockedByArmor': (96, b'I'), 
+       b'noDamageDirectHitsReceived': (68, b'I'), b'xp': (0, b'I'), 
+       b'droppedCapturePoints': (48, b'I'), b'healthRepair': (136, b'I'), b'comp7PrestigePoints': (128, b'I'), 
+       b'directHitsReceived': (64, b'I'), b'superSquadWins': (124, b'I'), 
+       b'explosionHitsReceived': (76, b'I'), b'winAndSurvived': (88, b'I'), 
+       b'capturePoints': (44, b'I'), b'potentialDamageReceived': (92, b'I'), 
+       b'damageDealt': (36, b'I'), b'superSquadBattlesCount': (120, b'I'), 
+       b'damageAssistedStun': (108, b'I'), b'squadWinSeries': (116, b'I'), 
+       b'explosionHits': (80, b'I'), b'wins': (8, b'I'), b'poiCapturable': (140, b'I'), 
+       b'frags': (20, b'I'), b'stunNum': (104, b'I'), b'shots': (24, b'I'), 
+       b'directHits': (28, b'I')}
+    seasonsNumber = 4
+    archiveSeasonsWolf(seasonsNumber, updateCtx, comp7SeasonsNewPacking)
+    maxComp7SeasonsPacking = {b'maxDamage': (3, b'H'), b'maxXPVehicle': (5, b'I'), b'maxDamageVehicle': (13, b'I'), b'maxFrags': (2, b'B'), 
+       b'maxXP': (0, b'H'), b'maxHealthRepair': (29, b'H'), b'maxComp7PrestigePointsVehicle': (19, b'I'), 
+       b'maxEquipmentDamageDealt': (23, b'H'), b'maxFragsVehicle': (9, b'I'), 
+       b'maxSquadWinSeries': (37, b'H'), b'maxComp7PrestigePoints': (17, b'H'), 
+       b'maxWinSeries': (35, b'H'), b'maxEquipmentDamageDealtVehicle': (25, b'I'), 
+       b'maxHealthRepairVehicle': (31, b'I')}
+    archiveMaxSeasonsWolf(seasonsNumber, updateCtx, maxComp7SeasonsPacking)
+    archiveCutSeasonsWolf(seasonsNumber, updateCtx)
+    setVersion(updateCtx, 161)
+    return (161, updateCtx[b'dossierCompDescr'])
+
+
 def __updateFromVehicleDossier64(compDescr):
     blocksLayout = [
      1, 2, 3, 4, 5, 6, 7, 
@@ -5697,6 +5761,56 @@ def __updateFromVehicleDossier115(compDescr):
     addRecords(updateCtx, b'achievements', formats, {})
     setVersion(updateCtx, 116)
     return (116, updateCtx[b'dossierCompDescr'])
+
+
+def __updateFromVehicleDossier116(compDescr):
+    blocksLayout = [
+     1, 2, 3, 4, 5, 6, 7, 8, 9, 
+     10, 11, 12, 13, 
+     14, 15, 16, 17, 
+     18, 19, 20, 21, 22, 23, 
+     24, 
+     25, 26, 27, 28, 
+     29, 30, 31, 32, 33, 34, 
+     35, 
+     36, 37, 38, 39, 40, 41, 
+     42, 43, 44, 45, 46, 
+     47, 
+     48, 49, 50, 51, 52, 
+     53, 54, 55, 56, 57, 
+     58, 
+     59]
+    updateCtx = {b'dossierCompDescr': compDescr, 
+       b'blockSizeFormat': b'H', 
+       b'versionFormat': b'H', 
+       b'blocksLayout': blocksLayout}
+    getHeader(updateCtx)
+    comp7SeasonsNewPacking = {b'spotted': (32, b'I'), b'losses': (12, b'I'), b'roleSkillUsed': (132, b'I'), b'damageAssistedTrack': (56, b'I'), 
+       b'damageReceived': (40, b'I'), b'battlesOnStunningVehicles': (100, b'I'), 
+       b'piercingsReceived': (72, b'I'), b'originalXP': (52, b'I'), 
+       b'damageAssistedRadio': (60, b'I'), b'battlesCount': (4, b'I'), b'survivedBattles': (16, b'I'), 
+       b'winSeries': (112, b'I'), b'piercings': (84, b'I'), b'damageBlockedByArmor': (96, b'I'), 
+       b'noDamageDirectHitsReceived': (68, b'I'), b'xp': (0, b'I'), 
+       b'droppedCapturePoints': (48, b'I'), b'healthRepair': (136, b'I'), b'comp7PrestigePoints': (128, b'I'), 
+       b'directHitsReceived': (64, b'I'), b'superSquadWins': (124, b'I'), 
+       b'explosionHitsReceived': (76, b'I'), b'winAndSurvived': (88, b'I'), 
+       b'capturePoints': (44, b'I'), b'potentialDamageReceived': (92, b'I'), 
+       b'damageDealt': (36, b'I'), b'superSquadBattlesCount': (120, b'I'), 
+       b'damageAssistedStun': (108, b'I'), b'squadWinSeries': (116, b'I'), 
+       b'explosionHits': (80, b'I'), b'wins': (8, b'I'), b'poiCapturable': (140, b'I'), 
+       b'frags': (20, b'I'), b'stunNum': (104, b'I'), b'shots': (24, b'I'), 
+       b'directHits': (28, b'I')}
+    seasonsNumber = 4
+    archiveSeasonsWolf(seasonsNumber, updateCtx, comp7SeasonsNewPacking)
+    maxComp7SeasonsPacking = {b'maxDamage': (3, b'H'), b'maxXPVehicle': (5, b'I'), b'maxDamageVehicle': (13, b'I'), b'maxFrags': (2, b'B'), 
+       b'maxXP': (0, b'H'), b'maxHealthRepair': (29, b'H'), b'maxComp7PrestigePointsVehicle': (19, b'I'), 
+       b'maxEquipmentDamageDealt': (23, b'H'), b'maxFragsVehicle': (9, b'I'), 
+       b'maxSquadWinSeries': (37, b'H'), b'maxComp7PrestigePoints': (17, b'H'), 
+       b'maxWinSeries': (35, b'H'), b'maxEquipmentDamageDealtVehicle': (25, b'I'), 
+       b'maxHealthRepairVehicle': (31, b'I')}
+    archiveMaxSeasonsWolf(seasonsNumber, updateCtx, maxComp7SeasonsPacking)
+    setVersion(updateCtx, 117)
+    return (117, updateCtx[b'dossierCompDescr'])
 
 
 def __bootstrapTankmanDossierFrom(ver, compDescr):

@@ -30,7 +30,7 @@ SIMPLE_ITEM_TYPE_NAMES = (b'vehicleChassis', b'vehicleTurret', b'vehicleGun', b'
 SIMPLE_ITEM_TYPE_INDICES = tuple(ITEM_TYPE_INDICES[x] for x in SIMPLE_ITEM_TYPE_NAMES)
 VEHICLE_COMPONENT_TYPE_NAMES = (b'vehicleChassis', b'vehicleTurret', b'vehicleGun', b'vehicleEngine', b'vehicleFuelTank', b'vehicleRadio')
 VEHICLE_COMPONENT_TYPE_INDICES = tuple(ITEM_TYPE_INDICES[x] for x in VEHICLE_COMPONENT_TYPE_NAMES)
-EQUIPMENT_TYPE_NAMES = (b'regular', b'battleBoosters', b'battleAbilities')
+EQUIPMENT_TYPE_NAMES = (b'regular', b'battleBoosters', b'battleAbilities', b'abilities', b'aux', b'passives')
 
 class EQUIPMENT_TYPES(dict):
 

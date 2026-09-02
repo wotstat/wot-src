@@ -20,7 +20,7 @@ class HonoredRankAchievement(RegularAchievement):
         return
 
     def getIcons(self):
-        iconName = self._getIconName()
+        iconName = self.getIconName()
         return {(self.ICON_TYPE.IT_180X180): (b'%s/%s.png' % (self.ICON_PATH_180X180, iconName)), 
            (self.ICON_TYPE.IT_67X71): (b'%s/%s.png' % (self.ICON_PATH_67X71, iconName))}
 

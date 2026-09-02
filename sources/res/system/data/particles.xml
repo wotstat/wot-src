@@ -74,6 +74,14 @@
 		<fn_effect_bin>particles/tank/shots/shot_autoshoot_lm_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_auto_lm_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/customization/gb142_fv249_castle/gb142_fv249_castle_steam.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_snow_turret.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_snow_hull.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_turret.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_idle.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_end.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_hull.eff</fn_effect_bin>
 		<preloadTextures>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_sparks.dds
 				<type>primary</type>
@@ -186,6 +194,9 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_2.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/flare_1.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_5.dds
 				<type>primary</type>
 			</path>
@@ -216,13 +227,22 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_6.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_long.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_h25_portal.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/lightning_02.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_7.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/ramp/ramp_common.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_split_smoke_1.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_5.dds
@@ -234,10 +254,10 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_2.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_long.dds
+			<path>particles/content_forward/pfx_textures/flamethrower_shot.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/flamethrower_shot.dds
+			<path>particles/content_forward/pfx_textures/eff_tex_snow_250_br_battle.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_fire_3.dds
@@ -261,6 +281,12 @@
 			<path>particles/content_forward/pfx_textures/eff_tex_split_misc_6.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_wt_spaces.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/wt_ring.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_splash_3.dds
 				<type>primary</type>
 			</path>
@@ -282,6 +308,9 @@
 			<path>particles/content_forward/pfx_textures/lm_textures/smoke_8x4_ea.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_water_splash.dds
 				<type>primary</type>
 			</path>
@@ -300,7 +329,40 @@
 			<path>particles/content_forward/pfx_textures/lm_textures/groundhit_trail_v01_lm.dds
 				<type>lightmaps</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/sparks_3.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_dirt.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/flare_round.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/hexo_sphere.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/burst_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/gt_eff_tex.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/flare_round_4.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_electricity_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/electric_engine.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_smoke_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_explosion.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_fire.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/burst.dds
@@ -315,16 +377,10 @@
 			<path>particles/content_forward/pfx_textures/burst_flare.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_explosion.dds
+			<path>particles/content_forward/pfx_textures/280_cosmic_plasma.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_forward/pfx_textures/eff_tex_fire.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_forward/pfx_textures/eff_electricity_1.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_forward/pfx_textures/electric_engine.dds
+			<path>particles/content_forward/pfx_textures/105_contrail.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_forward/pfx_textures/ramp/ramp_missile_nurs.dds
@@ -342,6 +398,9 @@
 			<path>particles/content_forward/pfx_textures/glitch.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/trail.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_h07_new_year_2015.dds
 				<type>primary</type>
 			</path>
@@ -354,6 +413,9 @@
 			<path>particles/content_forward/pfx_textures/eff_rocket_accelerator.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/eff_tex_h08_mt_hangar.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/smoke_1.dds
 				<type>primary</type>
 			</path>
@@ -363,14 +425,19 @@
 			<path>particles/content_forward/pfx_textures/fire_3.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_forward/pfx_textures/250_br_battle_snow_dust_2_2.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_forward/pfx_textures/eff_tex_split_splash_1.dds
 				<type>primary</type>
 			</path>
 		</preloadTextures>
 		<preloadVisual>content/environment/env_null_model/null_model.visual</preloadVisual>
+		<preloadVisual>objects/fake_model.visual</preloadVisual>
 		<fn_effect_bin>particles/content_forward/pfx/environment/battle_royal/corrodedhit/corrodedhit.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/battle_royal/corrodedhit/corrodedhit_fail.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/battle_royal/corrodedhit/corrodedhit_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/environment/event_white_tiger/player_tank/unity/wt_unity_armorhit.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/scenarios/br_nitro_gearup.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/scenarios/br_nitro_idle.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/environment/scenarios/br_nitro_load.vfx</fn_effect_bin>
@@ -490,6 +557,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dirthit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dirthit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dirthit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dirthit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_lrg_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_lrg_1_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_lrg_1_slave2.vfx</fn_effect_bin>
@@ -508,6 +576,10 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_sml_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_sml_2_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/dust_stone_sml_2_slave2.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/explosive_shot_armorhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/explosive_shot_groundhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/explosive_shot_snowhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/explosive_shot_waterhit_wt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/feuerbunker_flame.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/flying_parts_smoke.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/ground_dust_3_slave.vfx</fn_effect_bin>
@@ -539,6 +611,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/groundhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/groundhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/groundhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/groundhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/hit_bright_flash_he_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/hit_bright_flash_he_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/hit_bright_flash_he_4.vfx</fn_effect_bin>
@@ -586,6 +659,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/oilhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/oilhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/oilhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/oilhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/quality_set_0_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/quality_set_0_ap_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/quality_set_0_ap_3.vfx</fn_effect_bin>
@@ -666,6 +740,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/sandhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/sandhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/sandhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/sandhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/sc_trace_explose_st.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_ap_2.vfx</fn_effect_bin>
@@ -685,6 +760,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/shellfall_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snow_dust_1_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snow_dust_2_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snow_dust_3_slave.vfx</fn_effect_bin>
@@ -717,6 +793,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snowhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snowhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snowhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/snowhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_ap_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_ap_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_fall_trace.vfx</fn_effect_bin>
@@ -724,6 +801,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_he_smoke_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_he_splash_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_he_splash_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_he_splash_trace_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/spg_he_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_ap_1_lm.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_ap_2_lm.vfx</fn_effect_bin>
@@ -753,6 +831,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/stonehit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_3.vfx</fn_effect_bin>
@@ -786,6 +865,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_he_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_he_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_rw_he.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_sa_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/trace_sa_4.vfx</fn_effect_bin>
@@ -831,6 +911,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/waterhit_shallow_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/waterhit_shallow_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/waterhit_shallow_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/waterhit_shallow_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_ap_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_ap_3.vfx</fn_effect_bin>
@@ -854,6 +935,25 @@
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/woodhit_sh_4_katyusha.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_arrow_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_arrow_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_arrow_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_suction_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_suction_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_suction_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_web_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_web_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_ability_web_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_explosive_shot_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_regular_trace_ap_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_armorhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_groundhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_sandhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_shellfall_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_snowhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_stonehit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/shells_eff/wt_stun_woodhit_he_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/sparks/sparks_lrg_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/sparks/sparks_lrg_1_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/sparks/sparks_lrg_2.vfx</fn_effect_bin>
@@ -903,6 +1003,13 @@
 		<fn_effect_bin>particles/content_forward/pfx/tank/armor_parts_smoke_white.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/cosmic_tank_collision_sand.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/customization/gb142_fv249_castle/gb142_fv249_castle_steam.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_end.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_hull.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_idle.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_turret.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_snow_hull.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/customization/r253_object_277_s_3dst_01/r253_snow_turret.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/burnup_domination_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/burnup_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/burnup_medium.vfx</fn_effect_bin>
@@ -1004,6 +1111,8 @@
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/turret_touchdown_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/turret_touchdown_medium.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/destruction/turret_touchdown_small.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/exhaust/forsage_electric/forsage_idle.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/exhaust/forsage_electric/forsage_work_load.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/exhaust/large_diesel/rpm01_load02.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/exhaust/large_diesel/rpm01_load03.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/exhaust/large_diesel/rpm01_load04.vfx</fn_effect_bin>
@@ -1494,6 +1603,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/tank/parts_smoke_white_small.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/rocket_accelerator/cosmic_boost_trail_01.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/cosm_shot_null.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/shots/explosive_shot_wt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/flamethrowershot.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/groundwave_dualgun_large_dirt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/groundwave_dualgun_large_dirt_mb.vfx</fn_effect_bin>
@@ -1617,6 +1727,7 @@
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/shot_small_lm.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/shot_superhuge_rw.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/shots/shotpneumatic_flame_small.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_forward/pfx/tank/shots/wt_shot_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/spark_big.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/spark_big_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_forward/pfx/tank/strv_change_hull_dirt.vfx</fn_effect_bin>
@@ -1650,6 +1761,7 @@
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit_fail.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/event_white_tiger/player_tank/unity/wt_unity_armorhit.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_gearup.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_idle.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_load.eff</fn_effect_bin>
@@ -1686,6 +1798,9 @@
 		<preloadVisual>particles/mesh_particles/wood_board_03.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_broken_02.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_plank_02.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcspawn_b.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcstraight_a.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcstraight_f.visual</preloadVisual>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_3.eff</fn_effect_bin>
@@ -1774,6 +1889,11 @@
 		<fn_effect_bin>particles/shells_eff/dirthit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/dirthit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/dirthit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/dirthit_sh_4_katyusha.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_armorhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_groundhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_snowhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_waterhit_wt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/feuerbunker_flame.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_ap_1_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_ap_1_3_lm.eff</fn_effect_bin>
@@ -1809,6 +1929,7 @@
 		<fn_effect_bin>particles/shells_eff/groundhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/groundhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/hit_flame_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/hit_flame_tank_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/metalhit_apfsds_4.eff</fn_effect_bin>
@@ -1846,6 +1967,7 @@
 		<fn_effect_bin>particles/shells_eff/oilhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/oilhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/oilhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/oilhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_3.eff</fn_effect_bin>
@@ -1903,6 +2025,7 @@
 		<fn_effect_bin>particles/shells_eff/sandhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/sandhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/sandhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/sandhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_3.eff</fn_effect_bin>
@@ -1928,6 +2051,7 @@
 		<fn_effect_bin>particles/shells_eff/shellfall_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/shellfall_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_1_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_3_lm.eff</fn_effect_bin>
@@ -1959,6 +2083,7 @@
 		<fn_effect_bin>particles/shells_eff/snowhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/snowhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_1_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_3_lm.eff</fn_effect_bin>
@@ -1990,6 +2115,7 @@
 		<fn_effect_bin>particles/shells_eff/stonehit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/stonehit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_3.eff</fn_effect_bin>
@@ -2011,6 +2137,7 @@
 		<fn_effect_bin>particles/shells_eff/trace_he_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_he_3.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/trace_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_mortal.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_rw_he.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_sa_3.eff</fn_effect_bin>
@@ -2066,6 +2193,7 @@
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_3.eff</fn_effect_bin>
@@ -2095,6 +2223,25 @@
 		<fn_effect_bin>particles/shells_eff/woodhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/woodhit_sh_4_katyusha.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_explosive_shot_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_regular_trace_ap_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_armorhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_groundhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_sandhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_shellfall_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_snowhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_stonehit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_woodhit_he_4.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/cosmic_tank_collision_sand.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/destruction/burnup_domination_large.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/destruction/burnup_large.eff</fn_effect_bin>
@@ -2189,6 +2336,8 @@
 		<fn_effect_bin>particles/tank/exhaust/distortion/rpm03_load03.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/distortion/rpm03_load04.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/distortion/start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/exhaust/forsage_electric/forsage_idle.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/exhaust/forsage_electric/forsage_work_load.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load01.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load02.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load03.eff</fn_effect_bin>
@@ -2806,6 +2955,7 @@
 		<fn_effect_bin>particles/tank/movement/water/wheeltrail_underwater_medium_spd1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/movement/water/wheeltrail_water_medium_spd1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/cosm_shot_null.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/explosive_shot_wt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/flamethrowershot.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/groundwave_dualgun_large_dirt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/groundwave_dualgun_large_dirt_mb.eff</fn_effect_bin>
@@ -2902,6 +3052,7 @@
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_01_r.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_02_l.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_02_r.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/shot_empty.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_flame_exhaust_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_flame_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_huge_apfsds.eff</fn_effect_bin>
@@ -2925,6 +3076,7 @@
 		<fn_effect_bin>particles/tank/shots/shot_small_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_superhuge_rw.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shotpneumatic_flame_small.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/wt_shot_large.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_dirt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_ground.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_oil.eff</fn_effect_bin>
@@ -3043,6 +3195,15 @@
 		<fn_effect_bin>particles/tank/exhaust/cosmic_exhaust/280_cosm_pepelac_boost_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/cosmic_exhaust/280_cosm_pepelac_boost_3.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/customization/gb142_fv249_castle/gb142_fv249_castle_steam.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/gb142_fv249_castle/gb142_fv249_castle_steam.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_snow_turret.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_snow_hull.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_turret.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_idle.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_end.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/customization/r253_object_277_s_3dst_01/r253_boost_hull.eff</fn_effect_bin>
 		<preloadTextures>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_1.dds
 				<type>primary</type>
@@ -3107,6 +3268,9 @@
 			<path>particles/content_deferred/pfx_textures/eff_dirt_split_dirt_1.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_deferred/pfx_textures/hexo_sphere.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_splash_2.dds
 				<type>primary</type>
 			</path>
@@ -3120,6 +3284,9 @@
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/lm_textures/smoke_ground_6x6_ea.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_h08_mt_hangar.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/lm_textures/smoke_ground_6x6_lm.dds
@@ -3138,6 +3305,9 @@
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_fire_3.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/burst_1.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_dirt_split_flame_2.dds
@@ -3191,6 +3361,27 @@
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_smoke_3.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_deferred/pfx_textures/500_stalingrad_explosion.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/flare_round.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_rocket_accelerator.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_long.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/sparks_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_h25_portal.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/lightning_02.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_deferred/pfx_textures/503_kaliningrad_efftex.dds
 				<type>primary</type>
 			</path>
@@ -3207,12 +3398,6 @@
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_misc_2.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_deferred/pfx_textures/eff_rocket_accelerator.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_long.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/flamethrower_shot.dds
@@ -3239,6 +3424,12 @@
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_fire_4.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_wt_spaces.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/wt_ring.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_split_splash_3.dds
 				<type>primary</type>
 			</path>
@@ -3263,10 +3454,13 @@
 			<path>particles/content_deferred/pfx_textures/lm_textures/smoke_8x4_lm.dds
 				<type>lightmaps</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/sparks.dds
+			<path>particles/content_deferred/pfx_textures/eff_tex.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/105_germany_smoke.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/sparks.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/280_cosmic.dds
@@ -3287,7 +3481,37 @@
 			<path>particles/content_deferred/pfx_textures/lm_textures/groundhit_trail_v01_lm.dds
 				<type>lightmaps</type>
 			</path>
+			<path>particles/content_deferred/pfx_textures/sparks_3.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/flare_round_4.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/glow_bloom.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/250_br_battle_snow_dust_2_2.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/burst_flare_2.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/gt_eff_tex.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_electricity_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_explosion_1.dds
+				<type>primary</type>
+			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_smoke_1.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_explosion.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_fire.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/burst.dds
@@ -3302,22 +3526,22 @@
 			<path>particles/content_deferred/pfx_textures/flare.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_explosion_1.dds
+			<path>particles/content_deferred/pfx_textures/280_cosmic_plasma.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_explosion.dds
+			<path>particles/content_deferred/pfx_textures/eff_tex_force_field.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_tex_fire.dds
+			<path>particles/content_deferred/pfx_textures/105_contrail.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/eff_electricity_1.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_deferred/pfx_textures/500_stalingrad_explosion.dds
+			<path>particles/content_deferred/pfx_textures/eff_dirt.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/ramp/ramp_missile_nurs.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_water.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/eff_tex_trail.dds
@@ -3332,16 +3556,19 @@
 			<path>particles/content_deferred/pfx_textures/bricks.dds
 				<type>primary</type>
 			</path>
+			<path>particles/content_deferred/pfx_textures/light_trail.dds
+				<type>primary</type>
+			</path>
 			<path>particles/tank/customization/r77_kv2_3dst_02/r77_kv2_3dst_02_bees.dds
 				<type>primary</type>
 			</path>
-			<path>particles/content_deferred/pfx_textures/sparks_1.dds
+			<path>particles/content_deferred/pfx_textures/trail.dds
+				<type>primary</type>
+			</path>
+			<path>particles/content_deferred/pfx_textures/eff_tex_snow_250_br_battle.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/smoke_1.dds
-				<type>primary</type>
-			</path>
-			<path>particles/content_deferred/pfx_textures/trail.dds
 				<type>primary</type>
 			</path>
 			<path>particles/content_deferred/pfx_textures/trail_2.dds
@@ -3367,9 +3594,11 @@
 			</path>
 		</preloadTextures>
 		<preloadVisual>content/environment/env_null_model/null_model.visual</preloadVisual>
+		<preloadVisual>objects/fake_model.visual</preloadVisual>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/battle_royal/corrodedhit/corrodedhit.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/battle_royal/corrodedhit/corrodedhit_fail.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/battle_royal/corrodedhit/corrodedhit_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/environment/event_white_tiger/player_tank/unity/wt_unity_armorhit.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/scenarios/br_nitro_gearup.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/scenarios/br_nitro_idle.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/environment/scenarios/br_nitro_load.vfx</fn_effect_bin>
@@ -3490,6 +3719,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dirthit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dirthit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dirthit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dirthit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/distortionhit_ap_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/distortionhit_ap_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/distortionhit_ap_4.vfx</fn_effect_bin>
@@ -3512,6 +3742,10 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dust_stone_sml_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dust_stone_sml_2_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/dust_stone_sml_2_slave2.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/explosive_shot_armorhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/explosive_shot_groundhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/explosive_shot_snowhit_wt.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/explosive_shot_waterhit_wt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/feuerbunker_flame.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/flying_parts_smoke.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/forcefieldhit_1.vfx</fn_effect_bin>
@@ -3548,6 +3782,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/groundhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/groundhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/groundhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/groundhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/hit_bright_flash_he_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/hit_bright_flash_he_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/hit_bright_flash_he_4.vfx</fn_effect_bin>
@@ -3597,6 +3832,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/oilhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/oilhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/oilhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/oilhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/quality_set_0_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/quality_set_0_ap_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/quality_set_0_ap_3.vfx</fn_effect_bin>
@@ -3681,6 +3917,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/sandhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/sandhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/sandhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/sandhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/sc_trace_explose_st.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_ap_2.vfx</fn_effect_bin>
@@ -3700,6 +3937,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/shellfall_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snow_dust_1_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snow_dust_2_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snow_dust_3_slave.vfx</fn_effect_bin>
@@ -3734,6 +3972,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snowhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snowhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snowhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/snowhit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_ap_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_ap_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_fall_trace.vfx</fn_effect_bin>
@@ -3741,6 +3980,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_he_smoke_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_he_splash_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_he_splash_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_he_splash_trace_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/spg_he_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_ap_1_lm.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_ap_2_lm.vfx</fn_effect_bin>
@@ -3773,6 +4013,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/stonehit_trace.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_2.vfx</fn_effect_bin>
@@ -3809,6 +4050,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_he_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_he_3.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_mortal.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_red_hot_smoke.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/trace_rw_he.vfx</fn_effect_bin>
@@ -3858,6 +4100,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/waterhit_shallow_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/waterhit_shallow_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/waterhit_shallow_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/waterhit_shallow_sh_4_katyusha.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_ap_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_ap_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_ap_3.vfx</fn_effect_bin>
@@ -3881,6 +4124,25 @@
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_sca_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_sfa.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_sfa_1.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/woodhit_sh_4_katyusha.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_arrow_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_arrow_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_arrow_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_suction_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_suction_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_suction_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_web_armorhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_web_groundhit.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_ability_web_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_explosive_shot_trace.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_regular_trace_ap_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_armorhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_groundhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_sandhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_shellfall_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_snowhit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_stonehit_he_4.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/shells_eff/wt_stun_woodhit_he_4.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/sparks/sparks_lrg_1.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/sparks/sparks_lrg_1_slave.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/sparks/sparks_lrg_2.vfx</fn_effect_bin>
@@ -3959,6 +4221,13 @@
 		<fn_effect_bin>particles/content_deferred/pfx/tank/armor_parts_smoke_white.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/cosmic_tank_collision_sand.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/gb142_fv249_castle/gb142_fv249_castle_steam.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_end.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_hull.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_idle.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_start.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_boost_turret.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_snow_hull.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/customization/r253_object_277_s_3dst_01/r253_snow_turret.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/destruction/burnup_domination_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/destruction/burnup_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/destruction/burnup_medium.vfx</fn_effect_bin>
@@ -4078,6 +4347,8 @@
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/cosmic_exhaust/rpm03_load04.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/cosmic_exhaust/start.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/distortion.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/forsage_electric/forsage_idle.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/forsage_electric/forsage_work_load.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/large_diesel/rpm01_load01.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/large_diesel/rpm01_load02.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/exhaust/large_diesel/rpm01_load03.vfx</fn_effect_bin>
@@ -4647,6 +4918,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/tank/parts_smoke_white_small.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/rocket_accelerator/cosmic_boost_trail_01.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/cosm_shot_null.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/explosive_shot_wt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/flamethrowershot.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/groundwave_dualgun_large_dirt.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/groundwave_dualgun_large_dirt_mb.vfx</fn_effect_bin>
@@ -4784,6 +5056,7 @@
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/shot_small_lm_forcefield.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/shot_superhuge_rw.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/shotpneumatic_flame_small.vfx</fn_effect_bin>
+		<fn_effect_bin>particles/content_deferred/pfx/tank/shots/wt_shot_large.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/spark_big.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/spark_big_2.vfx</fn_effect_bin>
 		<fn_effect_bin>particles/content_deferred/pfx/tank/strv_change_hull_dirt.vfx</fn_effect_bin>
@@ -4816,6 +5089,7 @@
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit_fail.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/battle_royal/corrodedhit/corrodedhit_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/environment/event_white_tiger/player_tank/unity/wt_unity_armorhit.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_gearup.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_idle.eff</fn_effect_bin>
 		<fn_effect_bin>particles/environment/scenarios/br_nitro_load.eff</fn_effect_bin>
@@ -4853,6 +5127,9 @@
 		<preloadVisual>particles/mesh_particles/wood_broken_02.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_plank_02.visual</preloadVisual>
 		<preloadVisual>particles/mesh_particles/wood_stick_02.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcspawn_b.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcstraight_a.visual</preloadVisual>
+		<preloadVisual>particles/mesh_particles/wt_arcstraight_f.visual</preloadVisual>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/armorhit_ap_3.eff</fn_effect_bin>
@@ -4941,6 +5218,11 @@
 		<fn_effect_bin>particles/shells_eff/dirthit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/dirthit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/dirthit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/dirthit_sh_4_katyusha.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_armorhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_groundhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_snowhit_wt.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/explosive_shot_waterhit_wt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/feuerbunker_flame.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_ap_1_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_ap_1_3_lm.eff</fn_effect_bin>
@@ -4976,6 +5258,7 @@
 		<fn_effect_bin>particles/shells_eff/groundhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/groundhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/groundhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/hit_flame_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/hit_flame_tank_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/metalhit_apfsds_4.eff</fn_effect_bin>
@@ -5013,6 +5296,7 @@
 		<fn_effect_bin>particles/shells_eff/oilhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/oilhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/oilhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/oilhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/ricochet_ap_3.eff</fn_effect_bin>
@@ -5070,6 +5354,7 @@
 		<fn_effect_bin>particles/shells_eff/sandhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/sandhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/sandhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/sandhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_ap_3.eff</fn_effect_bin>
@@ -5095,6 +5380,7 @@
 		<fn_effect_bin>particles/shells_eff/shellfall_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/shellfall_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/shellfall_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_1_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_ap_3_lm.eff</fn_effect_bin>
@@ -5126,6 +5412,7 @@
 		<fn_effect_bin>particles/shells_eff/snowhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/snowhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/snowhit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_1_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_2_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_ap_3_lm.eff</fn_effect_bin>
@@ -5157,6 +5444,7 @@
 		<fn_effect_bin>particles/shells_eff/stonehit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/stonehit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/stonehit_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_3.eff</fn_effect_bin>
@@ -5178,6 +5466,7 @@
 		<fn_effect_bin>particles/shells_eff/trace_he_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_he_3.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/trace_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_mortal.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_rw_he.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/trace_sa_3.eff</fn_effect_bin>
@@ -5233,6 +5522,7 @@
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/waterhit_shallow_sh_4_katyusha.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_2.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_ap_3.eff</fn_effect_bin>
@@ -5262,6 +5552,25 @@
 		<fn_effect_bin>particles/shells_eff/woodhit_sfa.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_sfa_1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/shells_eff/woodhit_sh_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/woodhit_sh_4_katyusha.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_arrow_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_suction_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_armorhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_groundhit.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_ability_web_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_explosive_shot_trace.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_regular_trace_ap_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_armorhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_groundhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_sandhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_shellfall_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_snowhit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_stonehit_he_4.eff</fn_effect_bin>
+		<fn_effect_bin>particles/shells_eff/wt_stun_woodhit_he_4.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/cosmic_tank_collision_sand.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/destruction/burnup_domination_large.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/destruction/burnup_large.eff</fn_effect_bin>
@@ -5356,6 +5665,8 @@
 		<fn_effect_bin>particles/tank/exhaust/distortion/rpm03_load03.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/distortion/rpm03_load04.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/distortion/start.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/exhaust/forsage_electric/forsage_idle.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/exhaust/forsage_electric/forsage_work_load.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load01.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load02.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/exhaust/large_diesel/rpm01_load03.eff</fn_effect_bin>
@@ -5973,6 +6284,7 @@
 		<fn_effect_bin>particles/tank/movement/water/wheeltrail_underwater_medium_spd1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/movement/water/wheeltrail_water_medium_spd1.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/cosm_shot_null.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/explosive_shot_wt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/flamethrowershot.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/groundwave_dualgun_large_dirt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/groundwave_dualgun_large_dirt_mb.eff</fn_effect_bin>
@@ -6069,6 +6381,7 @@
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_01_r.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_02_l.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_dualgun_main_02_r.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/shot_empty.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_flame_exhaust_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_flame_small.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_huge_apfsds.eff</fn_effect_bin>
@@ -6092,6 +6405,7 @@
 		<fn_effect_bin>particles/tank/shots/shot_small_lm.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shot_superhuge_rw.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/shots/shotpneumatic_flame_small.eff</fn_effect_bin>
+		<fn_effect_bin>particles/tank/shots/wt_shot_large.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_dirt.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_ground.eff</fn_effect_bin>
 		<fn_effect_bin>particles/tank/strv_change_hull_oil.eff</fn_effect_bin>

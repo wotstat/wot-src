@@ -273,6 +273,23 @@
   color: #a29b70;
 }
 
+.DateTimer_base_55 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.DateTimer_timeBg_2d {
+  width: 308rem;
+  height: 143rem;
+  background: url("R.images.gui.maps.icons.paragons.seasons.shine_timer") top center / contain
+    no-repeat;
+  position: absolute;
+  top: -78rem;
+}
+
 .App_base_b1 {
   display: flex;
   flex-direction: column;
@@ -374,6 +391,13 @@
   justify-content: center;
   align-items: center;
 }
+.App_titleContainer__hasTimer_ae {
+  transform: translateY(-5rem);
+}
+.App_base__thinExtraSmall_55 .App_titleContainer__hasTimer_ae,
+.App_base__thinSmall_be .App_titleContainer__hasTimer_ae {
+  transform: translateY(-2rem);
+}
 .App_title_61 {
   color: #ffffff;
   font-size: 24rem;
@@ -412,12 +436,18 @@
   justify-content: center;
   align-items: center;
 }
+.App_subtitleContainer__hasTimer_5a {
+  transform: translateY(-5rem);
+}
+.App_base__thinExtraSmall_55 .App_subtitleContainer__hasTimer_5a,
+.App_base__thinSmall_be .App_subtitleContainer__hasTimer_5a {
+  transform: translateY(-2rem);
+}
 .App_subtitle_73 {
   color: #ffdd99;
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.25;
-  margin-top: 2rem;
   text-shadow:
     0 0 4rem rgba(255, 127, 0, 0.25),
     0 0 8rem #ff2a00,
@@ -449,6 +479,57 @@
   font-size: 12rem;
   font-weight: 400;
   line-height: 1.3;
+}
+.App_timeInfo_35 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  bottom: 6rem;
+}
+.App_base__big_28 .App_timeInfo_35 {
+  color: #ffdd99;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  bottom: 10rem;
+}
+.App_base__thinExtraSmall_55 .App_timeInfo_35 {
+  bottom: 1rem;
+}
+.App_base__wideSmall_b4 .App_timeInfo_35 {
+  bottom: 2rem;
+}
+.App_base__thinSmall_be .App_timeInfo_35 {
+  bottom: 3rem;
+}
+.App_timerBase_33 {
+  width: auto;
+}
+.App_timeText_82 {
+  color: #fd9;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 15rem #e52;
+  z-index: 2;
+}
+.App_base__thinExtraSmall_55 .App_timeText_82 {
+  color: #fd9;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.App_timerIcon_49 {
+  width: 30rem;
+  height: 30rem;
+  background: url("R.images.gui.maps.icons.paragons.seasons.timer_small") center / contain no-repeat;
+  transform: translateY(3rem);
 }
 
 .BannerSequence_base_11 {

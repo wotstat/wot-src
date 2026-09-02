@@ -2604,12 +2604,12 @@
                 if (!u) return;
                 d ? u.play() : u.pause();
                 const e = (e) => {
-                  (!e && u && u.pause(), C(e));
+                  (e && u && u.pause(), C(!e));
                 };
                 return (
-                  engine.on("clientAccessible", e),
+                  engine.on("clientMinimized", e),
                   () => {
-                    engine.off("clientAccessible", e);
+                    engine.off("clientMinimized", e);
                   }
                 );
               }, [E, h, d]),

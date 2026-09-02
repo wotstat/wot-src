@@ -174,10 +174,10 @@
             events: () => E,
             extraSize: () => I,
             forceTriggerMouseMove: () => P,
-            freezeTextureBeforeResize: () => S,
+            freezeTextureBeforeResize: () => w,
             getBrowserTexturePath: () => g,
             getDisplayStatus: () => O,
-            getScale: () => w,
+            getScale: () => S,
             getSize: () => p,
             getViewGlobalPosition: () => f,
             isClientAccessible: () => M,
@@ -295,10 +295,10 @@
           const e = viewEnv.getViewGlobalPositionRem();
           return "rem" === u ? e : { x: k(e.x), y: k(e.y) };
         }
-        function S() {
+        function w() {
           viewEnv.freezeTextureBeforeResize();
         }
-        function w() {
+        function S() {
           return viewEnv.getScale();
         }
         function x(u) {
@@ -1015,7 +1015,7 @@
               (u[(u.Large = s.large.height)] = "Large"),
               (u[(u.ExtraLarge = s.extraLarge.height)] = "ExtraLarge"));
           })(f || (f = {})));
-        const S = () => {
+        const w = () => {
             const u = (0, a.useContext)(A),
               e = u.width,
               t = u.height,
@@ -1075,7 +1075,7 @@
               remScreenHeight: t,
             };
           },
-          w = ["children", "className"];
+          S = ["children", "className"];
         function x() {
           return (
             (x =
@@ -1122,8 +1122,8 @@
                   r = Object.keys(u);
                 for (a = 0; a < r.length; a++) ((t = r[a]), e.indexOf(t) >= 0 || (n[t] = u[t]));
                 return n;
-              })(u, w);
-            const r = S(),
+              })(u, S);
+            const r = w(),
               i = r.mediaWidth,
               s = r.mediaHeight,
               o = r.mediaSize;
@@ -1252,8 +1252,8 @@
             p = u.onClick,
             v = u.onChange,
             f = u.onFocus,
-            S = u.onBlur,
-            w = u.text,
+            w = u.onBlur,
+            S = u.text,
             x = u.contentStyles,
             k = u.children,
             R = u.alignment,
@@ -1310,9 +1310,9 @@
             ),
             Q = (0, a.useCallback)(
               (u) => {
-                s || (O(!1), S && S(u));
+                s || (O(!1), w && w(u));
               },
-              [s, S],
+              [s, w],
             ),
             Z = n().createElement(
               "div",
@@ -1320,7 +1320,7 @@
               n().createElement(
                 "div",
                 { className: g()(U.labelContent, "s-labelContent"), style: x },
-                w || k,
+                S || k,
               ),
             );
           return n().createElement(
@@ -1354,7 +1354,7 @@
               n().createElement("div", { className: U.highlight }),
             ),
             n().createElement("div", { className: U.checkmark }),
-            ((w || k) && Z) || null,
+            ((S || k) && Z) || null,
           );
         };
         var Y = t(521),
@@ -1835,8 +1835,8 @@
             p = h[1],
             v = (0, a.useState)(!1),
             f = v[0],
-            S = v[1],
-            w = (0, a.useCallback)(() => {
+            w = v[1],
+            S = (0, a.useCallback)(() => {
               i || (F.current && (F.current.focus(), C(!0)));
             }, [i]),
             x = (0, a.useCallback)(
@@ -1853,7 +1853,7 @@
             ),
             T = (0, a.useCallback)(
               (u) => {
-                i || (null !== o && H(o), E && E(u), S(!0));
+                i || (null !== o && H(o), E && E(u), w(!0));
               },
               [i, o, E],
             ),
@@ -1871,9 +1871,9 @@
             ),
             L = (0, a.useCallback)(
               (u) => {
-                i || (null !== l && H(l), _ && _(u), t && w(), p(!0));
+                i || (null !== l && H(l), _ && _(u), t && S(), p(!0));
               },
-              [i, l, _, w, t],
+              [i, l, _, S, t],
             ),
             P = (0, a.useCallback)(
               (u) => {
@@ -1985,11 +1985,11 @@
                 t
               );
             }, {}),
-          Su = (u, e = fu) => {
+          wu = (u, e = fu) => {
             const t = (
               (u, e = fu) =>
               (t) => {
-                const r = S().mediaSize,
+                const r = w().mediaSize,
                   i = (0, a.useMemo)(() => e(t, r), [t, r]);
                 return n().createElement(u, i);
               }
@@ -2000,7 +2000,7 @@
                 : n().createElement(u, e),
             );
           },
-          wu = {
+          Su = {
             mt__XS: "Box_mt__XS_0c",
             mt__SM: "Box_mt__SM_eb",
             mt__SMp: "Box_mt__SMp_cf",
@@ -2074,17 +2074,17 @@
         }
         Object.keys(hu());
         const Ru = {
-            XL: { mt: wu.mt__XL, mr: wu.mr__XL, mb: wu.mb__XL, ml: wu.ml__XL },
-            LG: { mt: wu.mt__LG, mr: wu.mr__LG, mb: wu.mb__LG, ml: wu.ml__LG },
-            MDp: { mt: wu.mt__MDp, mr: wu.mr__MDp, mb: wu.mb__MDp, ml: wu.ml__MDp },
-            MD: { mt: wu.mt__MD, mr: wu.mr__MD, mb: wu.mb__MD, ml: wu.ml__MD },
-            SMp: { mt: wu.mt__SMp, mr: wu.mr__SMp, mb: wu.mb__SMp, ml: wu.ml__SMp },
-            SM: { mt: wu.mt__SM, mr: wu.mr__SM, mb: wu.mb__SM, ml: wu.ml__SM },
-            XS: { mt: wu.mt__XS, mr: wu.mr__XS, mb: wu.mb__XS, ml: wu.ml__XS },
+            XL: { mt: Su.mt__XL, mr: Su.mr__XL, mb: Su.mb__XL, ml: Su.ml__XL },
+            LG: { mt: Su.mt__LG, mr: Su.mr__LG, mb: Su.mb__LG, ml: Su.ml__LG },
+            MDp: { mt: Su.mt__MDp, mr: Su.mr__MDp, mb: Su.mb__MDp, ml: Su.ml__MDp },
+            MD: { mt: Su.mt__MD, mr: Su.mr__MD, mb: Su.mb__MD, ml: Su.ml__MD },
+            SMp: { mt: Su.mt__SMp, mr: Su.mr__SMp, mb: Su.mb__SMp, ml: Su.ml__SMp },
+            SM: { mt: Su.mt__SM, mr: Su.mr__SM, mb: Su.mb__SM, ml: Su.ml__SM },
+            XS: { mt: Su.mt__XS, mr: Su.mr__XS, mb: Su.mb__XS, ml: Su.ml__XS },
           },
           Tu = (Object.keys(Ru), ["mt", "mr", "mb", "ml"]),
           Mu = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
-          yu = Su((u) => {
+          yu = wu((u) => {
             let e = u.className,
               t = u.width,
               r = u.height,
@@ -2107,7 +2107,7 @@
               p = u.spaceBetween,
               v = u.spaceAround,
               f = u.justifyContent,
-              S =
+              w =
                 void 0 === f
                   ? (C ? "flex-start" : h && "center") ||
                     (b && "flex-end") ||
@@ -2115,11 +2115,11 @@
                     (v && "space-around") ||
                     void 0
                   : f,
-              w = u.alignItems,
+              S = u.alignItems,
               x =
-                void 0 === w
+                void 0 === S
                   ? (C ? "flex-start" : h && "center") || (b && "flex-end") || void 0
-                  : w,
+                  : S,
               k = u.alignSelf,
               R = u.wrap,
               T = u.flexWrap,
@@ -2160,17 +2160,17 @@
                     display: B || x ? "flex" : void 0,
                     flexDirection: B,
                     flexWrap: M,
-                    justifyContent: S,
+                    justifyContent: w,
                     alignItems: x,
                   }),
                   computedClassNames: e,
                 };
-              }, [t, r, o, E, _, A, N, O, k, B, M, S, x]),
+              }, [t, r, o, E, _, A, N, O, k, B, M, w, x]),
               G = U.computedStyle,
               W = U.computedClassNames;
             return n().createElement(
               "div",
-              ku({ className: g()(wu.base, ...W, e), style: G }, H),
+              ku({ className: g()(Su.base, ...W, e), style: G }, H),
               I,
             );
           });
@@ -2365,7 +2365,7 @@
                   ? { colorClassName: ju[u] }
                   : { colorStyle: { color: u } }
                 : {}),
-          ee = Su((u) => {
+          ee = wu((u) => {
             let e = u.text,
               t = u.variant,
               r = u.className,
@@ -2496,8 +2496,8 @@
           ((u[(u.Small = 10)] = "Small"), (u[(u.Medium = 14)] = "Medium"));
         })(ve || (ve = {}));
         const fe = "Stage_base_93",
-          Se = "Stage_stageWrapper_e8",
-          we = "Stage_mask_f4",
+          we = "Stage_stageWrapper_e8",
+          Se = "Stage_mask_f4",
           xe = "Stage_mask__won_a7",
           ke = "Stage_shadow_5b",
           Re = "Stage_stage_84",
@@ -2527,7 +2527,7 @@
                     : {
                         "--itemWidth": 1.5 * ve.Medium * e + "rem",
                         marginRight: `calc(40rem+${(ve.Medium * e) / 2}rem)`,
-                      })(S().mediaSize, e),
+                      })(w().mediaSize, e),
                 l = g()(u, fe, { [Oe]: s });
               return n().createElement(
                 "div",
@@ -2543,11 +2543,11 @@
                     o = e ? Ne + 0.5 * a - 0.2 * a : r + Ne;
                   return n().createElement(
                     "div",
-                    { key: u, className: Se },
+                    { key: u, className: we },
                     n().createElement(
                       "div",
                       {
-                        className: g()(we, {
+                        className: g()(Se, {
                           [Te]: u < t - a,
                           [xe]: e,
                           [Me]: i,
@@ -2593,7 +2593,7 @@
                 d = c.rank - c.divisionStart + 1,
                 F = 0 === c.rank || (1 !== c.rank && c.divisionFinish % c.rank == 0),
                 D = (0, a.useMemo)(() => o < d + 1, [o, d]),
-                B = S().mediaSize <= p.Small,
+                B = w().mediaSize <= p.Small,
                 C = (0, a.useMemo)(() => (B ? He.x114 : He.x190), [B]),
                 h = (0, a.useMemo)(() => `url('${je}.c_${C}.rank${A}_${d}')`, [C, d, A]),
                 b = (0, a.useMemo)(
@@ -2602,10 +2602,10 @@
                 ),
                 v = _.indexOf(c.rank) >= 0,
                 f = _.indexOf(c.rank + 1) >= 0,
-                w = g()(t, Ge, { [We]: m });
+                S = g()(t, Ge, { [We]: m });
               return n().createElement(
                 "div",
-                { className: w },
+                { className: S },
                 !F &&
                   n().createElement(he, {
                     isUnburnable: v,
@@ -2879,7 +2879,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(At || (At = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -3027,7 +3034,7 @@
               ),
             );
           },
-          St = (u) => {
+          wt = (u) => {
             let e = u.children,
               t = u.contentId,
               n = u.args,
@@ -3096,7 +3103,7 @@
                     (b.current.isVisible = !1));
                 }
               }, [t, A, p, g]),
-              S = (0, a.useCallback)((u) => {
+              w = (0, a.useCallback)((u) => {
                 b.current.isVisible &&
                   ((b.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
                   (b.current.hideTimerId = window.setTimeout(() => {
@@ -3107,9 +3114,9 @@
             ((0, a.useEffect)(() => {
               const u = b.current.hideTimerId;
               return (
-                document.addEventListener("wheel", S, { capture: !0 }),
+                document.addEventListener("wheel", w, { capture: !0 }),
                 () => {
-                  (document.removeEventListener("wheel", S, { capture: !0 }),
+                  (document.removeEventListener("wheel", w, { capture: !0 }),
                     u && window.clearTimeout(u));
                 }
               );
@@ -3132,12 +3139,12 @@
                   Object.assign(
                     {
                       onMouseEnter:
-                        ((w = e.props.onMouseEnter),
+                        ((S = e.props.onMouseEnter),
                         (u) => {
                           (u.clientX === window.innerWidth && u.clientY === window.innerHeight) ||
                             ((b.current.timeoutId = window.setTimeout(v, E ? 100 : 400)),
                             r && r(u),
-                            w && w(u));
+                            S && S(u));
                         }),
                       onMouseLeave: ((u) => (e) => {
                         (f(), null == i || i(e), null == u || u(e));
@@ -3153,9 +3160,9 @@
                   ),
                 )
               : e;
-            var w;
+            var S;
           },
-          wt = ["children"];
+          St = ["children"];
         function xt() {
           return (
             (xt =
@@ -3180,9 +3187,9 @@
                   r = Object.keys(u);
                 for (a = 0; a < r.length; a++) ((t = r[a]), e.indexOf(t) >= 0 || (n[t] = u[t]));
                 return n;
-              })(u, wt);
+              })(u, St);
             return n().createElement(
-              St,
+              wt,
               xt(
                 {
                   contentId:
@@ -3234,7 +3241,7 @@
               return u;
             }, [s, t, r, i, o]);
             return n().createElement(
-              St,
+              wt,
               Tt(
                 {
                   contentId:
@@ -3271,7 +3278,7 @@
             i = e.args,
             s = null == i ? void 0 : i.contentId;
           return r || s
-            ? n().createElement(St, Lt({}, e, { contentId: r || s }), a)
+            ? n().createElement(wt, Lt({}, e, { contentId: r || s }), a)
             : n().createElement(kt, e, a);
         };
         class Ot extends n().PureComponent {
@@ -3324,6 +3331,11 @@
             At.PremiumPlusUniversal,
             At.GoldenTicket,
             At.RewardsSlots,
+            At.WtStamp,
+            At.WtTicket,
+            At.WtMainPrizeDiscount,
+            At.WtHunter,
+            At.WtHunterCollection,
           ],
           It = [At.Gold, At.Credits, At.Crystal, At.FreeXp],
           Ht = [At.BattlePassPoints],
@@ -3696,7 +3708,7 @@
               t = e.root.get().showAnimation,
               a = Cu(t),
               r = e.computes.getRewards(),
-              i = S().mediaSize <= p.Small,
+              i = w().mediaSize <= p.Small,
               s = ((u) =>
                 u.map(({ value: u }) => {
                   const e = u.item,
@@ -3818,7 +3830,7 @@
               l = !s && !o,
               E = r.division + Number(l),
               c = t.division + Number(o || (1 !== t.rank && s)),
-              _ = S().mediaSize <= p.Small,
+              _ = w().mediaSize <= p.Small,
               m = (0, a.useMemo)(() => (_ ? He.x114 : He.x190), [_]),
               A = (0, a.useMemo)(() => `url(${ma}.c_${m}.c_${l ? c : E})`, [m, l, c, E]),
               d = (0, a.useMemo)(() => `url(${ma}.c_${m}.c_${l ? E : c})`, [m, l, c, E]),
@@ -3849,7 +3861,7 @@
             const u = mu().model,
               e = u.computes.getRewardsLength(),
               t = u.root.get().showAnimation,
-              r = S().mediaSize <= p.Small,
+              r = w().mediaSize <= p.Small,
               i = (0, a.useMemo)(() => (r ? Ue.x200 : Ue.x300), [r]),
               s = Cu(t),
               o = (0, a.useMemo)(() => Boolean(e), [e]),
@@ -3869,7 +3881,7 @@
           }),
           va = (0, a.memo)(pa),
           fa = "R.images.gui.maps.icons.rankedBattles.ranks",
-          Sa = (0, Q.Pi)(({ diff: u }) => {
+          wa = (0, Q.Pi)(({ diff: u }) => {
             var e, t;
             const r = mu().model,
               i = r.root.get().maxRank,
@@ -3883,7 +3895,7 @@
               A = (0, a.useMemo)(() => u > 0, [u]),
               d = (0, a.useMemo)(() => 0 === u, [u]),
               F = !A && !d,
-              D = S().mediaSize <= p.Small,
+              D = w().mediaSize <= p.Small,
               B = E.indexOf(s.rank) >= 0,
               C = E.indexOf(o.rank) >= 0,
               g = !A || (Boolean(o.rank) && o.rank % o.divisionFinish != 0),
@@ -3900,11 +3912,11 @@
                 () => (A ? le.getEmblem : d ? le.saveEmblem : le.wasteEmblem),
                 [A, d],
               ),
-              w = (0, a.useMemo)(() => Boolean(l), [l]),
+              S = (0, a.useMemo)(() => Boolean(l), [l]),
               x = (0, a.useMemo)(() => A && i < m, [i, A, m]);
             return n().createElement(_a, {
               isLockedNextEmblem: x,
-              isReward: w,
+              isReward: S,
               nextEmblemIcon: v,
               currentEmblemIcon: b,
               status: f(),
@@ -3914,7 +3926,7 @@
               isOldStateUnburnable: C,
             });
           }),
-          wa = (0, a.memo)(Sa),
+          Sa = (0, a.memo)(wa),
           xa = "RankedPostbattleStatusViewContent_background_1d",
           ka = "RankedPostbattleStatusViewContent_background__shadows_7f",
           Ra = "RankedPostbattleStatusViewContent_base_40",
@@ -4031,8 +4043,8 @@
               p = g()(Ra, { [Na]: m }),
               v = g()(ya, { [La]: h, [Na]: m }),
               f = g()(Ma, { [Na]: m }),
-              S = { "--controlAnimationDelay": `${C.controlsDelay}s` },
-              w = (0, a.useCallback)(() => {
+              w = { "--controlAnimationDelay": `${C.controlsDelay}s` },
+              S = (0, a.useCallback)(() => {
                 if (o) return n().createElement(va, null);
                 switch (D) {
                   case oe.SaveDivision:
@@ -4046,7 +4058,7 @@
                   case oe.GetRank:
                   case oe.SaveRank:
                   case oe.WasteRank:
-                    return n().createElement(wa, { diff: F });
+                    return n().createElement(Sa, { diff: F });
                   default:
                     return null;
                 }
@@ -4070,10 +4082,10 @@
                   isAnimated: m,
                   animationDelay: C.controlsDelay,
                 }),
-                n().createElement("div", { className: Ta }, w()),
+                n().createElement("div", { className: Ta }, S()),
                 n().createElement(
                   "div",
-                  { className: Pa, style: S },
+                  { className: Pa, style: w },
                   s &&
                     n().createElement(
                       Bu,

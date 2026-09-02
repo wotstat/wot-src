@@ -1839,6 +1839,11 @@ class QUESTS(object):
     SWITCH_ISWEEKLYENABLED = b'#quests:switch/isWeeklyEnabled'
     SWITCH_ISWEEKLYENABLEDTITLE = b'#quests:switch/isWeeklyEnabledTitle'
     BONUSNAME_GOLDENTICKET = b'#quests:bonusName/goldenticket'
+    DETAILS_CONDITIONS_CUMULATIVE_WTBOSSVULNERABLEDAMAGE = b'#quests:details/conditions/cumulative/wtBossVulnerableDamage'
+    DETAILS_CONDITIONS_CUMULATIVE_MAXWTPLASMABONUS = b'#quests:details/conditions/cumulative/maxWtPlasmaBonus'
+    DETAILS_CONDITIONS_CUMULATIVE_WTGENERATORSCAPTURED = b'#quests:details/conditions/cumulative/wtGeneratorsCaptured'
+    DETAILS_CONDITIONS_CUMULATIVE_WTTOTALGENERATORSCAPTURED = b'#quests:details/conditions/cumulative/wtTotalGeneratorsCaptured'
+    DETAILS_CONDITIONS_CUMULATIVE_WTDEATHCOUNT = b'#quests:details/conditions/cumulative/wtDeathCount'
     TOKEN_DEFAULT_ENUM = (
      TOKEN_DEFAULT_USSR,
      TOKEN_DEFAULT_GERMANY,

@@ -1405,14 +1405,8 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .NumericStepper_buttonIncrement_16,
 .NumericStepper_buttonDecrement_c8 {
-  background-repeat: no-repeat;
+  background-size: 200% 400%;
   cursor: pointer;
-}
-@media (min-width: 1920px) {
-  .NumericStepper_buttonIncrement_16,
-  .NumericStepper_buttonDecrement_c8 {
-    background-size: 200% 400%;
-  }
 }
 .NumericStepper_buttonIncrement__small_f6,
 .NumericStepper_buttonDecrement__small_36 {

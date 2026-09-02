@@ -22,8 +22,6 @@ package net.wg.infrastructure.base.meta
       function as_setArmoryYardEntryPoint(param1:Boolean) : void;
       
       function as_setEarlyAccessEntryPoint(param1:Boolean) : void;
-      
-      function as_updateEconomyWidget(param1:Object) : void;
    }
 }
 

@@ -67,20 +67,6 @@ package net.wg.gui.battle.views.consumablesPanel
          App.toolTipMgr.showSpecial(_tooltipStr,null,this._intCD,state);
       }
       
-      public function flushColorTransform() : void
-      {
-         this._lockColorTransform = this._isEmpty;
-         if(this._lockColorTransform)
-         {
-            this.clearColorTransform();
-         }
-         else
-         {
-            this.setColorTransform(this._delayColorTransform);
-            this._delayColorTransform = null;
-         }
-      }
-      
       public function clearColorTransform() : void
       {
          if(this._lockColorTransform)
@@ -95,24 +81,28 @@ package net.wg.gui.battle.views.consumablesPanel
          state = InteractiveStates.UP;
       }
       
+      public function flushColorTransform() : void
+      {
+         this._lockColorTransform = this._isEmpty;
+         if(this._lockColorTransform)
+         {
+            this.clearColorTransform();
+         }
+         else
+         {
+            this.setColorTransform(this._delayColorTransform);
+            this._delayColorTransform = null;
+         }
+      }
+      
       public function hideGlow() : void
       {
          this.glow.removeEventListener(ConsumablesButtonEvent.GLOW_ON_IDLE_STATE,this.onGlowOnIdleStateHandler);
          this.glow.hideGlow(false);
       }
       
-      public function set activated(param1:Boolean) : void
+      public function setBindKeyTextVisibility(param1:Boolean) : void
       {
-      }
-      
-      public function setUsed(param1:Boolean, param2:Boolean = false) : void
-      {
-         this._isUsed = param1;
-         if(param2 && this._isUsed)
-         {
-            this._lockColorTransform = true;
-            this.setDarkColorTransform();
-         }
       }
       
       public function setColorTransform(param1:ColorTransform) : void
@@ -157,20 +147,46 @@ package net.wg.gui.battle.views.consumablesPanel
       {
       }
       
+      public function setUsed(param1:Boolean, param2:Boolean = false) : void
+      {
+         this._isUsed = param1;
+         if(param2 && this._isUsed)
+         {
+            this._lockColorTransform = true;
+            this.setDarkColorTransform();
+         }
+      }
+      
       public function showGlow(param1:int) : void
       {
          this.glow.addEventListener(ConsumablesButtonEvent.GLOW_ON_IDLE_STATE,this.onGlowOnIdleStateHandler);
          this.glow.showGlow(param1,false);
       }
       
+      public function showGlowWithHotkey(param1:int, param2:Boolean = true) : void
+      {
+      }
+      
+      public function updateLevelInformation(param1:int) : void
+      {
+      }
+      
+      public function updateLockedInformation(param1:int, param2:String) : void
+      {
+      }
+      
+      private function setDarkColorTransform() : void
+      {
+         this.setColorTransform(COLOR_STATES.DARK_COLOR_TRANSFORM);
+      }
+      
+      public function set activated(param1:Boolean) : void
+      {
+      }
+      
       public function get consumablesVO() : ConsumablesVO
       {
          return this._consumablesVO;
-      }
-      
-      public function set icon(param1:String) : void
-      {
-         this.iconLoader.source = param1;
       }
       
       public function set key(param1:Number) : void
@@ -235,12 +251,14 @@ package net.wg.gui.battle.views.consumablesPanel
          return this.iconLoader.source;
       }
       
-      public function updateLockedInformation(param1:int, param2:String) : void
+      public function set icon(param1:String) : void
       {
+         this.iconLoader.source = param1;
       }
       
-      public function updateLevelInformation(param1:int) : void
+      public function get bindSfKeyCode() : Number
       {
+         return 0;
       }
       
       private function onGlowOnIdleStateHandler(param1:Event) : void
@@ -255,11 +273,6 @@ package net.wg.gui.battle.views.consumablesPanel
             this.setDarkColorTransform();
             this._lockColorTransform = true;
          }
-      }
-      
-      private function setDarkColorTransform() : void
-      {
-         this.setColorTransform(COLOR_STATES.DARK_COLOR_TRANSFORM);
       }
    }
 }

@@ -389,15 +389,20 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 0 40rem;
+  padding: 0 28rem;
   position: absolute;
-  bottom: 20rem;
+  bottom: 8rem;
   z-index: 100;
 }
 
+.mediaMedium .VideoWithControls_buttonsWrapper_a8 {
+  padding: 0 40rem;
+  bottom: 20rem;
+}
+
 .VideoWithControls_baseButton_76 {
-  width: 48rem;
-  height: 48rem;
+  width: 32rem;
+  height: 32rem;
   border: none;
   color: #f2f2f7;
   font-size: 20rem;
@@ -408,6 +413,11 @@
   letter-spacing: 0.1em;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+
+.mediaMedium .VideoWithControls_baseButton_76 {
+  width: 48rem;
+  height: 48rem;
 }
 
 .VideoWithControls_iconWrapper_cf {
@@ -590,9 +600,14 @@
 
 .App_close_ac {
   position: absolute;
+  top: 22rem;
+  right: 19rem;
+  z-index: 2;
+}
+
+.mediaMedium .App_close_ac {
   top: 50rem;
   right: 50rem;
-  z-index: 2;
 }
 
 .App_video_03 {

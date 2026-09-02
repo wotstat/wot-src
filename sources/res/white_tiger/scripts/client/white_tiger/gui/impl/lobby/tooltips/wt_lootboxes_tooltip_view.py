@@ -1,0 +1,17 @@
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from white_tiger.gui.impl.gen.view_models.views.lobby.tooltips.wt_lootboxes_tooltip_view_model import WtLootboxesTooltipViewModel
+from gui.impl.pub import ViewImpl
+
+class WtLootBoxesTooltipView(ViewImpl):
+    __slots__ = ()
+
+    def __init__(self):
+        settings = ViewSettings(R.views.white_tiger.lobby.tooltips.LootBoxesTooltipView())
+        settings.model = WtLootboxesTooltipViewModel()
+        super(WtLootBoxesTooltipView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()

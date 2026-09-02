@@ -11,7 +11,10 @@ from items import _xml, makeIntCompactDescrByID, parseIntCompactDescr, ITEM_TYPE
 from items import common_extras, decodeEnum
 from items import vehicle_items
 from items._xml import cachedFloat
-from items.attributes_helpers import onCollectAttributes, STATIC_ATTR_PREFIX, readModifiers, MODIFIER_TYPE
+from items.attributes_helpers import readModifiers
+from items.attributes_static import attributes_static_factory
+from items.attributes_dynamic import attributes_dynamic_factory
+from items.attributes_autoshoot import attributes_autoshoot_factory
 from items.artefacts_helpers import readKpi
 from items.components import component_constants, shell_components, chassis_components, skills_constants
 from items.components import shared_components, gun_components
@@ -73,7 +76,7 @@ VEHICLE_CLASS_TAGS = frozenset((b'lightTank', b'mediumTank', b'heavyTank', b'SPG
 VEHICLE_CLASS_TAGS_INDICES = {classTag: index for index, classTag in enumerate(VEHICLE_CLASS_TAGS)}
 VEHICLE_LEVEL_EARN_CRYSTAL = 10
 MODES_WITHOUT_CRYSTAL_EARNINGS = {
- 68, 69, 70, 71, 72}
+ 71, 72, 73, 74, 75}
 EXTENDED_VEHICLE_TYPE_ID_FLAG = 2
 MAX_SUPPORTED_THERMAL_HYSTERESIS = 5
 MIN_SUPPORTED_STATE_TEMPERATURE_DIFF = 10
@@ -84,8 +87,9 @@ class VEHICLE_PHYSICS_TYPE():
 
 
 class VEHICLE_TAGS():
-    FLAMETHROWER = b'flamethrower'
     ASSAULT_SPG = b'assaultSPG'
+    FLAMETHROWER = b'flamethrower'
+    MEDIUM_TANK = b'mediumTank'
 
 
 VEHICLE_DEVICE_TYPE_NAMES = (
@@ -137,15 +141,15 @@ _CUSTOMIZATION_EPOCH = 1306886400
 _CUSTOMIZATION_XML_PATH = ITEM_DEFS_PATH + b'customization/'
 _readTags = shared_readers.readAllowedTags
 EmblemSlot = namedtuple(b'EmblemSlot', [
- 113, 
- 114, 
- 115, 
  116, 
  117, 
  118, 
  119, 
  120, 
- 121])
+ 121, 
+ 122, 
+ 123, 
+ 124])
 VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES = (
  b'fuelTankHealthFactor',
  b'repairSpeedFactor',
@@ -188,7 +192,9 @@ VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES = (
  b'chassisHealthAfterHysteresisFactor',
  b'centerRotationFwdSpeedFactor',
  b'moduleDamageFactor',
- b'engineAndFuelTanksDamageFactor')
+ b'engineAndFuelTanksDamageFactor',
+ b'receivedDamageFactor',
+ b'proofHealth')
 VEHICLE_MISC_ATTRIBUTE_FACTOR_INDICES = dict((value, index) for index, value in enumerate(VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES))
 
 class EnhancementItem(object):
@@ -322,6 +328,7 @@ def vehicleAttributeFactors():
        b'repeatedStunDurationFactor': 1.0, 
        b'healthFactor': 1.0, 
        b'damageFactor': 1.0, 
+       b'receivedDamageFactor': 1.0, 
        b'enginePowerFactor': 1.0, 
        b'deathZones/sensitivityFactor': 1.0, 
        b'xRayFactor': 1.0, 
@@ -346,12 +353,14 @@ def vehicleAttributeFactors():
        b'gun/chargeTimeBonus': 0.0, 
        b'gun/reloadLockTimeBonus': 0.0, 
        b'gun/loadShellIntoDualGunBonus': 0.0, 
+       b'proofHealth': 0, 
        b'ammoBayHealthFactor': 1.0, 
        b'fuelTankHealthFactor': 1.0, 
        b'engineHealthFactor': 1.0, 
        b'chassisHealthFactor': 1.0, 
        b'trackRammingDamageFactor': 1.0, 
-       b'penaltyReloadTime': 0.0}
+       b'penaltyReloadTime': 0.0, 
+       b'vehicle/canBeDamaged': True}
     for ten in TANKMAN_EXTRA_NAMES:
         factors[ten + CHANCE_TO_HIT_SUFFIX_FACTOR] = 0.0
 
@@ -520,6 +529,7 @@ class VehicleDescriptor(object):
     role = property((lambda self: self.type.role))
     isPitchHullAimingAvailable = property((lambda self: self.type.hullAimingParams[b'pitch'][b'isAvailable']))
     isYawHullAimingAvailable = property((lambda self: self.type.hullAimingParams[b'yaw'][b'isAvailable']))
+    isPitchHullAimingEnabled = property((lambda self: self.type.hullAimingParams[b'pitch'][b'isEnabled']))
     isClipGun = property((lambda self: b'clip' in self.gun.tags))
     isAutoReloadGun = property((lambda self: b'autoreload' in self.gun.tags))
     isPreferential = property((lambda self: self.type.preferential))
@@ -527,8 +537,6 @@ class VehicleDescriptor(object):
 
     @property
     def circularVisionRadius(self):
-        if IS_CLIENT:
-            return self.battleModifiers(BattleParams.VISION_RADIUS, self.turret.circularVisionRadius)
         return self.turret.circularVisionRadius
 
     @property
@@ -538,6 +546,10 @@ class VehicleDescriptor(object):
         else:
             chassisCfg = self.type.xphysics[b'detailed'][b'chassis'][self.chassis.name]
         return self.isWheeledVehicle and chassisCfg[b'burnout'] is not None
+
+    @property
+    def changesPitchHullAimingOnSiege(self):
+        return False
 
     @property
     def isWheeledOnSpotRotation(self):
@@ -1533,12 +1545,12 @@ class VehicleDescriptor(object):
     def applyModificationsAttrs(self):
         vppCache = g_cache.postProgression()
         modifications = vppCache.modifications
-        modifiers = iter(modifications[modificationID].modifiers for modificationID in self._modifications)
-        self._applyModifiers(modifiers, True)
+        modifiers = (modifications[modificationID].modifiers for modificationID in self._modifications)
+        self._applyModifiers(itertools.chain.from_iterable(modifiers))
         return
 
-    def _applyModifiers(self, modifiers, asAggregated):
-        onCollectAttributes(self.miscAttrs, modifiers, STATIC_ATTR_PREFIX, asAggregated)
+    def _applyModifiers(self, modifiers):
+        attributes_static_factory.collect(self.miscAttrs, modifiers)
         return
 
     @property
@@ -1581,6 +1593,7 @@ class VehicleDescriptor(object):
            b'radioDistanceFactor': 0.0, 
            b'healthFactor': 1.0, 
            b'damageFactor': 1.0, 
+           b'receivedDamageFactor': 1.0, 
            b'enginePowerFactor': 1.0, 
            b'armorSpallsDamageDevicesFactor': 1.0, 
            b'increaseEnemySpottingTime': 0.0, 
@@ -1628,7 +1641,8 @@ class VehicleDescriptor(object):
            b'deviceDamageFactor': 1.0, 
            b'armorDamageFactor': 1.0, 
            b'gun/temperature/heatingFactor': 1.0, 
-           b'trackRammingDamageFactor': 1.0}
+           b'trackRammingDamageFactor': 1.0, 
+           b'proofHealth': 0}
         if IS_CELLAPP or IS_CLIENT or IS_UE_EDITOR or IS_WEB or IS_BOT or onAnyApp:
             trackCenterOffset = chassis.topRightCarryingPoint[0]
             self.physics = {b'weight': weight, 
@@ -1740,6 +1754,10 @@ class CompositeVehicleDescriptor(object):
         setattr(self.__siegeDescr, key, value)
         setattr(self.__vehicleDescr, key, value)
         return
+
+    @property
+    def changesPitchHullAimingOnSiege(self):
+        return self.__siegeDescr.isPitchHullAimingEnabled != self.__vehicleDescr.isPitchHullAimingEnabled
 
     def onSiegeStateChanged(self, siegeState):
         self.__dict__[b'_CompositeVehicleDescriptor__vehicleMode'] = VEHICLE_SIEGE_STATE.getMode(siegeState)
@@ -1908,7 +1926,8 @@ class VehicleType(object):
      b'nationChangeGroupId', b'isCollectorVehicle', b'isPremium', b'hasTurboshaftEngine', b'hasHydraulicChassis',
      b'hasSpeedometer', b'supplySlots', b'optDevsOverrides', b'postProgressionTree', b'postProgressionPricesOverrides',
      b'customRoleSlotOptions', b'hasRocketAcceleration', b'rocketAccelerationParams', b'classTag', b'armorMaxHealth',
-     b'prefabAttachments', b'ability', b'preferential', b'__weakref__')
+     b'prefabAttachments', b'ability', b'preferential', b'camCapsuleScaleOverride', b'camGunCapsuleScaleOverride',
+     b'__weakref__')
 
     def __init__(self, nationID, basicInfo, xmlPath, vehMode=VEHICLE_MODE.DEFAULT):
         self.name = basicInfo.name
@@ -2012,6 +2031,7 @@ class VehicleType(object):
             self.extrasDict = copyMethod(commonConfig[b'extrasDict'])
             self.devices = copyMethod(commonConfig[b'_devices'])
             self.tankmen = _selectCrewExtras(self.crewRoles, self.extrasDict)
+            self.armorMaxHealth = _xml.readIntOrNone(xmlCtx, section, b'armorMaxHealth')
         if IS_CLIENT or IS_WEB or IS_BOT:
             self.i18nInfo = basicInfo.i18n
         if IS_CLIENT or IS_UE_EDITOR:
@@ -2029,6 +2049,8 @@ class VehicleType(object):
             self.camouflage = shared_readers.readCamouflage(xmlCtx, section, b'camouflage', default=shared_components.DEFAULT_CAMOUFLAGE)
             self.emblemsLodDist = shared_readers.readLodDist(xmlCtx, section, b'emblems/lodDist', g_cache)
             self.emblemsAlpha = _xml.readFraction(xmlCtx, section, b'emblems/alpha')
+            self.camCapsuleScaleOverride = _xml.readVector3OrNone(xmlCtx, section, b'camCapsuleScaleOverride')
+            self.camGunCapsuleScaleOverride = _xml.readVector3OrNone(xmlCtx, section, b'camGunCapsuleScaleOverride')
             self._prereqs = None
         if IS_CLIENT or IS_WEB or IS_UE_EDITOR:
             self.clientAdjustmentFactors = _readClientAdjustmentFactors(xmlCtx, section)
@@ -2934,6 +2956,7 @@ class VehicleList(object):
             if item.level == VEHICLE_LEVEL_EARN_CRYSTAL and b'earn_crystals' not in tags and len(set(tags) & MODES_WITHOUT_CRYSTAL_EARNINGS) == 0:
                 _xml.raiseWrongXml(ctx, b'tags', b'vehicle %s with level %s does not have tag earn_crystals' % (vname, item.level))
             item.tags = tags
+            item.rawTags = _xml.readString(ctx, vsection, b'tags').split()
             res[innationID] = item
             if IS_CLIENT or IS_WEB or IS_BOT:
                 item.i18n = shared_readers.readUserText(vsection)
@@ -3063,6 +3086,16 @@ def isVehicleTypeCompactDescr(vehDescr):
     if cdType is int or cdType is long:
         return True
     return False
+
+
+def getEquipmentByName(name):
+    eqID = g_cache.equipmentIDs()[name]
+    return g_cache.equipments()[eqID]
+
+
+def getOptionalDeviceByName(name):
+    optDevID = g_cache.optionalDeviceIDs()[name]
+    return g_cache.optionalDevices()[optDevID]
 
 
 def getVehicleType(compactDescr):
@@ -3533,6 +3566,9 @@ def _readHull(xmlCtx, section):
         item.AODecals = _readAODecals(xmlCtx, section, b'AODecals')
         if section.has_key(b'camouflage'):
             item.camouflage = shared_readers.readCamouflage(xmlCtx, section, b'camouflage', default=shared_components.DEFAULT_CAMOUFLAGE)
+        item.drivenJoints = {}
+        if section.has_key(b'drivenJoints'):
+            item.drivenJoints = _readDrivenJoints(xmlCtx, section, b'drivenJoints')
         if section.has_key(b'hangarShadowTexture'):
             item.hangarShadowTexture = _xml.readString(xmlCtx, section, b'hangarShadowTexture')
         else:
@@ -3562,6 +3598,7 @@ def _writeHulls(hulls, section, materialData):
     slots = item.emblemSlots + item.slotsAnchors
     shared_writers.writeCustomizationSlots(slots, section, b'customizationSlots')
     _writeCustomizableAreas(item.customizableVehicleAreas, section)
+    _writeDrivenJoints(item.drivenJoints, section, b'drivenJoints')
     _writeHullVariants(hulls, section, materialData)
     return
 
@@ -3669,6 +3706,7 @@ def _readHullVariants(xmlCtx, section, defHull, chassis, turrets):
         variant.variantName = variantName
         variantMatch = variant.variantMatch = [None] * (1 + numTurrets)
         res.append(variant)
+        variant.drivenJoints = {}
         isNonEmptyMatch = False
         for name in section.keys():
             if name == b'base':
@@ -3707,6 +3745,8 @@ def _readHullVariants(xmlCtx, section, defHull, chassis, turrets):
             if name == b'ammoBayHealth':
                 variant.ammoBayHealth = shared_readers.readDeviceHealthParams(ctx, section, b'ammoBayHealth', False)
                 continue
+            if name == b'drivenJoints':
+                variant.drivenJoints = _readDrivenJoints(ctx, section, b'drivenJoints')
             if name == b'turretPositions':
                 v = []
                 for s in _xml.getSubsection(ctx, section, b'turretPositions').values():
@@ -3804,6 +3844,7 @@ def _writeHullVariants(hulls, section, materialData):
         defSlots = defHull.emblemSlots + defHull.slotsAnchors
         shared_writers.writeCustomizationSlots(slots if slots != defSlots else None, subsection, b'customizationSlots')
         _xml.rewriteFloat(subsection, b'weight', hull.weight, defHull.weight)
+        _writeDrivenJoints(hull.drivenJoints, subsection, b'drivenJoints')
 
     return
 
@@ -4457,6 +4498,9 @@ def _readTurret(xmlCtx, section, item, unlocksDescrs=None, _=None):
         item.models = item.modelsSets[b'default']
         if section.has_key(b'camouflage'):
             item.camouflage = shared_readers.readCamouflage(xmlCtx, section, b'camouflage', default=shared_components.DEFAULT_CAMOUFLAGE)
+        item.drivenJoints = {}
+        if section.has_key(b'drivenJoints'):
+            item.drivenJoints = _readDrivenJoints(xmlCtx, section, b'drivenJoints')
         item.turretRotatorSoundManual = _xml.readString(xmlCtx, section, b'wwturretRotatorSoundManual')
         item.AODecals = _readAODecals(xmlCtx, section, b'AODecals')
         commonConfig = g_cache.commonConfig
@@ -4488,6 +4532,7 @@ def _writeTurret(item, section, useSharedSections, materialData, *args, **kwargs
     shared_writers.writeCustomizationSlots(slots, section, b'customizationSlots')
     _writeCustomizableAreas(item.customizableVehicleAreas, section)
     shared_writers.writeModelsSets(item.modelsSets, section[b'models'])
+    _writeDrivenJoints(item.drivenJoints, section, b'drivenJoints')
     _xml.rewriteTupleOfFloats(section, b'physicsShape', item.physicsShape, [])
     nationID = parseIntCompactDescr(item.compactDescr)[1]
     _writeInstallableComponents(item.guns, section, b'guns', _writeGun, g_cache.gunIDs(nationID), useSharedSections, materialData=materialData.get(b'gun', None), parentName=item.name)
@@ -4522,6 +4567,7 @@ def _readTurretLocals(xmlCtx, section, sharedItem, unlocksDescrs, _=None):
         descr.unlocks = unlocks
         if IS_CLIENT or IS_UE_EDITOR:
             descr.camouflage = cam
+            descr.drivenJoints = drivenJoints
         return descr
 
 
@@ -5009,10 +5055,9 @@ def _readGunLocals(xmlCtx, section, sharedItem, unlocksDescrs, turretCompactDesc
         else:
             hasOverride = True
             edgeByVisualModel = section.readBool(b'edgeByVisualModel', True)
+        drivenJoints = {}
         if section.has_key(b'drivenJoints'):
             drivenJoints = _readDrivenJoints(xmlCtx, section, b'drivenJoints')
-        else:
-            drivenJoints = {}
     slotsAnchors = tuple([])
     if IS_CLIENT or IS_UE_EDITOR or IS_BOT or IS_BASEAPP:
         if not section.has_key(b'emblemSlots') and not section.has_key(b'customizationSlots'):
@@ -5388,8 +5433,9 @@ def _readShell(xmlCtx, section, name, nationID, shellTypeID, icons):
     shell.isTracer = section.readBool(b'isTracer', False)
     if shell.isTracer:
         shell.isForceTracer = section.readBool(b'isForceTracer', False)
+    shell.skipSelfDamage = section.readBool(b'skipSelfDamage', False)
     if IS_CLIENT or IS_WEB:
-        shell.i18n = shared_components.I18nComponent(section.readString(b'userString'), section.readString(b'description'))
+        shell.i18n = shared_components.I18nComponent(userStringKey=section.readString(b'userString'), descriptionKey=section.readString(b'description'), shortDescriptionSpecialKey=section.readString(b'shortDescriptionSpecial'), longDescriptionSpecialKey=section.readString(b'longDescriptionSpecial'))
         v = _xml.readNonEmptyString(xmlCtx, section, b'icon')
         if icons.get(v) is None:
             _xml.raiseWrongXml(xmlCtx, b'icon', b"unknown icon '%s'" % v)
@@ -5443,7 +5489,7 @@ def _readShell(xmlCtx, section, name, nationID, shellTypeID, icons):
             shellType.explosionRadius = cachedFloat(section.readFloat(b'explosionRadius'))
             if shellType.explosionRadius <= 0.0:
                 shellType.explosionRadius = cachedFloat(shell.caliber * shell.caliber / 5555.0)
-            explosionSettings = (b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor')
+            explosionSettings = (b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor', b'explosionDisableDamageFalloff')
             for f in explosionSettings:
                 factor = section.readFloat(f)
                 if factor <= 0:
@@ -6014,18 +6060,40 @@ def _readDrivenJoints(xmlCtx, section, subsectionName):
             fulltable = []
             masterTable = [
              masterNode]
-            for rowName, rowValue in subsection[b'table'].items():
-                masterTable.append(radians(rowValue.asFloat))
+            masterRows = {b'pitch': [], b'yaw': []}
+            if subsection.has_key(b'yaw'):
+                for rowName, rowValue in subsection[b'yaw'].items():
+                    masterRows[b'yaw'].append(radians(rowValue.asFloat))
 
+            if subsection.has_key(b'pitch'):
+                for rowName, rowValue in subsection[b'pitch'].items():
+                    masterRows[b'pitch'].append(radians(rowValue.asFloat))
+
+            if subsection.has_key(b'table'):
+                for rowName, rowValue in subsection[b'table'].items():
+                    masterRows[b'pitch'].append(radians(rowValue.asFloat))
+
+            masterTable.append(masterRows)
             fulltable.append(masterTable)
-            for subsection in subsection[b'slaves'].values():
-                slaveNode = _xml.readString(ctx, subsection, b'node')
-                table = [
+            for slaveSection in subsection[b'slaves'].values():
+                slaveNode = _xml.readString(ctx, slaveSection, b'node')
+                slaveTable = [
                  slaveNode]
-                for rowValue in subsection[b'table'].values():
-                    table.append(radians(rowValue.asFloat))
+                slaveRows = {b'pitch': [], b'yaw': []}
+                if slaveSection.has_key(b'yaw'):
+                    for rowName, rowValue in slaveSection[b'yaw'].items():
+                        slaveRows[b'yaw'].append(radians(rowValue.asFloat))
 
-                fulltable.append(table)
+                if slaveSection.has_key(b'pitch'):
+                    for rowName, rowValue in slaveSection[b'pitch'].items():
+                        slaveRows[b'pitch'].append(radians(rowValue.asFloat))
+
+                if slaveSection.has_key(b'table'):
+                    for rowName, rowValue in slaveSection[b'table'].items():
+                        slaveRows[b'pitch'].append(radians(rowValue.asFloat))
+
+                slaveTable.append(slaveRows)
+                fulltable.append(slaveTable)
 
             result.append(fulltable)
 
@@ -6057,6 +6125,8 @@ def _writeDrivenJoints(items, section, subsectionName):
         for i in xrange(len(section)):
             record = section[i]
             recordSection = createOrTake(subsection, i, b'master')
+            if recordSection.has_key(b'slaves'):
+                recordSection.deleteSection(b'slaves')
             slavesSection = None
             for j in xrange(len(record)):
                 table = record[j]
@@ -6066,15 +6136,27 @@ def _writeDrivenJoints(items, section, subsectionName):
                     slavesSection = createOrTake(recordSection, 0, b'slaves')
                     tableSection = createOrTake(slavesSection, j - 1, b'slave')
                 _xml.rewriteString(tableSection, b'node', table[0])
-                rowsSection = createOrTake(tableSection, 0, b'table')
-                for k in xrange(1, len(table)):
-                    row = degrees(table[k])
-                    rowSection = createOrTake(rowsSection, k - 1, b'row')
+                pitchRowsSection = createOrTake(tableSection, 0, b'pitch')
+                yawRowsSection = createOrTake(tableSection, 0, b'yaw')
+                if tableSection.has_key(b'table'):
+                    tableSection.deleteSection(b'table')
+                for k in xrange(0, len(table[1][b'pitch'])):
+                    row = degrees(table[1][b'pitch'][k])
+                    rowSection = createOrTake(pitchRowsSection, k, b'row')
                     rowSection.asFloat = row
 
-                rows = rowsSection.values()
-                for k in xrange(len(table) - 1, len(rows)):
-                    rowsSection.deleteSection(rows[k])
+                for k in xrange(0, len(table[1][b'yaw'])):
+                    row = degrees(table[1][b'yaw'][k])
+                    rowSection = createOrTake(yawRowsSection, k, b'row')
+                    rowSection.asFloat = row
+
+                pitchRows = pitchRowsSection.values()
+                for k in xrange(len(table[1][b'pitch']), len(pitchRows)):
+                    pitchRowsSection.deleteSection(pitchRows[k])
+
+                yawRows = yawRowsSection.values()
+                for k in xrange(len(table[1][b'yaw']), len(yawRows)):
+                    yawRowsSection.deleteSection(yawRows[k])
 
             if slavesSection:
                 children = slavesSection.values()
@@ -6550,6 +6632,7 @@ def _readCommonConfig(xmlCtx, section):
        b'explosionDamageFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDamageFactor')), 
        b'explosionDamageAbsorptionFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDamageAbsorptionFactor')), 
        b'explosionEdgeDamageFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionEdgeDamageFactor')), 
+       b'explosionDisableDamageFalloff': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDisableDamageFalloff')), 
        b'shellFragmentsDamageAbsorptionFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/shellFragmentsDamageAbsorptionFactor')), 
        b'allowMortarShooting': (_xml.readBool(xmlCtx, section, b'miscParams/allowMortarShooting')), 
        b'radarDefaults': {b'radarRadius': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/radarDefaults/radarRadius')), 
@@ -7216,7 +7299,7 @@ def _readTurretDetachmentEffects(xmlCtx, section, subsectionName, defaultEffects
 
 if IS_CLIENT or IS_UE_EDITOR:
     _vehicleEffectKindNames = tuple([
-     429, 430, 431, 432, 433, 434, 435, 436] + [b'%sCollisionLight' % name for name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % name for name in EFFECT_MATERIALS] + [b'explosionCandle%d' % i for i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
+     436, 437, 438, 439, 440, 441, 442, 443] + [b'%sCollisionLight' % name for name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % name for name in EFFECT_MATERIALS] + [b'explosionCandle%d' % i for i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
     _damagedStateGroupEffectKindNames = (
      b'ammoBayExplosion',
      b'ammoBayBurnOff',
@@ -7272,7 +7355,8 @@ def _readRocketAccelerationParams(xmlCtx, section):
     rocketCtx, rocketSection = _xml.getSubSectionWithContext(xmlCtx, section, b'rocketAcceleration')
     impulseCtx, impulseSection = _xml.getSubSectionWithContext(rocketCtx, rocketSection, b'impulse')
     impulse = shared_components.RocketAccelerationParams.ImpulseData(magnitude=_xml.readNonNegativeFloat(impulseCtx, impulseSection, b'magnitude'), applyPoint=_xml.readVector3(impulseCtx, impulseSection, b'applyPoint', component_constants.ZERO_VECTOR3), duration=_xml.readNonNegativeFloat(impulseCtx, impulseSection, b'duration'))
-    modifiers = readModifiers(rocketCtx, _xml.getSubsection(rocketCtx, rocketSection, b'modifiers'))
+    modifiers = _xml.getSubsection(rocketCtx, rocketSection, b'modifiers')
+    modifiers = readModifiers(rocketCtx, modifiers, (attributes_dynamic_factory,))
     if IS_CLIENT:
         kpiCtx, kpiSection = _xml.getSubSectionWithContext(rocketCtx, rocketSection, b'kpi')
         kpi = readKpi(kpiCtx, kpiSection)
@@ -7457,8 +7541,8 @@ def _readTemperatureMechanics(xmlCtx, section, paramName):
             if tag == b'state':
                 maxTemperature = _xml.readNonNegativeInt(subXmlCtx, subsection, b'maxTemperature')
                 isOverheated = _xml.readBool(subXmlCtx, subsection, b'isOverheated', False)
-                modifiers = readModifiers(subXmlCtx, _xml.getSubsection(subXmlCtx, subsection, b'modifiers'))
-                __validateTemperatureModifiers(subXmlCtx, modifiers)
+                modifiers = _xml.getSubsection(subXmlCtx, subsection, b'modifiers')
+                modifiers = readModifiers(subXmlCtx, modifiers, (attributes_dynamic_factory, attributes_autoshoot_factory))
                 stateHeatingPerShot, stateHeatingPerSec, stateCoolingPerSec, stateCoolingDelay, stateCoolingOverheatPerSec = defaultValues
                 if subsection.has_key(b'heatingPerShot'):
                     stateHeatingPerShot = _xml.readPositiveInt(subXmlCtx, subsection, b'heatingPerShot')
@@ -7488,14 +7572,6 @@ def _readTemperatureMechanics(xmlCtx, section, paramName):
             temperatureThresholds.append((minThreshold - thermalStateHysteresis, maxThreshold + thermalStateHysteresis))
 
         return gun_components.TemperatureGunParams(states=states, temperatureThresholds=temperatureThresholds)
-
-
-def __validateTemperatureModifiers(xmlCtx, modifiers):
-    for modifier in modifiers:
-        if modifier[2] == b'damageFactor' and modifier[0] == MODIFIER_TYPE.ADD:
-            return _xml.raiseWrongXml(xmlCtx, b'', b'Modifiers with dynAttrs/damageFactor and add operation type are not supported in TTC')
-
-    return
 
 
 def _readBrokenTrackLosses(xmlCtx, section):

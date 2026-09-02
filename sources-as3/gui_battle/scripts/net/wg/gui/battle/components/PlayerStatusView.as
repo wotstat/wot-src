@@ -16,14 +16,17 @@ package net.wg.gui.battle.components
       public function PlayerStatusView()
       {
          super();
-         this.inBattle.visible = false;
-         this.offline.visible = false;
-         this.killed.visible = false;
-         this.dogTag.visible = false;
-         this.inBattle.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_IN_BATTLE;
-         this.offline.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_OFFLINE;
-         this.killed.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_KILLED;
-         this.dogTag.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_DOG_TAG;
+         if(Boolean(this.inBattle) && Boolean(this.offline) && Boolean(this.killed) && Boolean(this.dogTag))
+         {
+            this.inBattle.visible = false;
+            this.offline.visible = false;
+            this.killed.visible = false;
+            this.dogTag.visible = false;
+            this.inBattle.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_IN_BATTLE;
+            this.offline.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_OFFLINE;
+            this.killed.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_KILLED;
+            this.dogTag.imageName = BATTLEATLAS.FULL_STATS_PLAYER_STATUS_DOG_TAG;
+         }
       }
       
       override protected function onDispose() : void
@@ -37,22 +40,34 @@ package net.wg.gui.battle.components
       
       public function showInBattle() : void
       {
-         showItem(this.inBattle);
+         if(Boolean(this.inBattle))
+         {
+            showItem(this.inBattle);
+         }
       }
       
       public function showKilled() : void
       {
-         showItem(this.killed);
+         if(Boolean(this.killed))
+         {
+            showItem(this.killed);
+         }
       }
       
       public function showOffline() : void
       {
-         showItem(this.offline);
+         if(Boolean(this.offline))
+         {
+            showItem(this.offline);
+         }
       }
       
       public function showDogTag() : void
       {
-         showItem(this.dogTag);
+         if(Boolean(this.dogTag))
+         {
+            showItem(this.dogTag);
+         }
       }
    }
 }

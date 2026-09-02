@@ -231,12 +231,12 @@ class DailyQuestUIDataPacker(BattleQuestUIDataPacker):
         else:
             model = model if model is not None else DailyQuestModel()
             self._packModel(model)
-            self.__resolveQuestIcon(model)
             return model
 
     def _packModel(self, model):
         super(DailyQuestUIDataPacker, self)._packModel(model)
         model.setHasPremium(isPremiumPlusAccount())
+        self.__resolveQuestIcon(model)
         return
 
     def __resolveQuestIcon(self, model):

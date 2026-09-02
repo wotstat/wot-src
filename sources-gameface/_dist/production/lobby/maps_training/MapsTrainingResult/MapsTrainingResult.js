@@ -1140,7 +1140,7 @@
           base__highlightActive: "CButton_base__highlightActive_b2",
           content: "CButton_content_cc",
         };
-        let G, W;
+        let W, G;
         (!(function (u) {
           ((u.main = "main"),
             (u.primary = "primary"),
@@ -1148,10 +1148,10 @@
             (u.primaryRed = "primaryRed"),
             (u.secondary = "secondary"),
             (u.ghost = "ghost"));
-        })(G || (G = {})),
+        })(W || (W = {})),
           (function (u) {
             ((u.extraSmall = "extraSmall"), (u.small = "small"), (u.medium = "medium"));
-          })(W || (W = {})));
+          })(G || (G = {})));
         const $ = ({
           children: u,
           size: e,
@@ -1261,7 +1261,7 @@
                 onMouseLeave: O,
                 onClick: S,
               },
-              s !== G.ghost &&
+              s !== W.ghost &&
                 a().createElement(
                   a().Fragment,
                   null,
@@ -1284,7 +1284,7 @@
           );
         };
         $.defaultProps = {
-          type: G.primary,
+          type: W.primary,
           isFocused: !1,
           soundHover: "highlight",
           soundClick: "play",
@@ -1650,7 +1650,14 @@
               (u.DogTagType = "dogTagComponents"),
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
-              (u.RewardsSlots = "rewardsSlots"));
+              (u.RewardsSlots = "rewardsSlots"),
+              (u.WtStamp = "stamp"),
+              (u.WtHunter = "wt_hunter"),
+              (u.WtBoss = "wt_boss"),
+              (u.WtHunterCollection = "hunter_collection"),
+              (u.WtTicket = "wtevent_ticket"),
+              (u.WtMainPrizeDiscount = "main_prize_discount"),
+              (u.WtTicket25 = "wtevent_ticket25"));
           })(lu || (lu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1789,6 +1796,11 @@
           lu.PremiumPlusUniversal,
           lu.GoldenTicket,
           lu.RewardsSlots,
+          lu.WtStamp,
+          lu.WtTicket,
+          lu.WtMainPrizeDiscount,
+          lu.WtHunter,
+          lu.WtHunterCollection,
           lu.Gold,
           lu.Credits,
           lu.Crystal,
@@ -2382,7 +2394,7 @@
               ),
               a().createElement(
                 q,
-                { type: G.primary, size: W.small, mixClass: Ou.button, onClick: D },
+                { type: W.primary, size: G.small, mixClass: Ou.button, onClick: D },
                 R.strings.maps_training.result.submit(),
               ),
             );

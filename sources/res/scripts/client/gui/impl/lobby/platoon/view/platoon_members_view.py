@@ -344,7 +344,7 @@ class SquadMembersView(ViewImpl, CallbackDelayer):
         if playerStatus == PLAYER_GUI_STATUS.BATTLE:
             slotModel.setInfoText(backport.text(R.strings.platoon.members.card.inBattle()))
         elif playerStatus != PLAYER_GUI_STATUS.READY:
-            slotModel.setInfoText(backport.text(R.strings.platoon.members.card.notReady()))
+            slotModel.setInfoText(backport.text(self._getNotReadyStatus()))
         isAdditionalMsgVisible = slotData.get(b'isVisibleAdtMsg', False)
         if isAdditionalMsgVisible:
             additionalMsg = slotData.get(b'additionalMsg', b'')
@@ -377,6 +377,9 @@ class SquadMembersView(ViewImpl, CallbackDelayer):
         tooltipHeader = backport.text(R.strings.platoon.members.header.tooltip.standard.header())
         tooltipBody = backport.text(R.strings.platoon.members.header.tooltip.standard.body())
         return (tooltipHeader, tooltipBody)
+
+    def _getNotReadyStatus(self):
+        return R.strings.platoon.members.card.notReady()
 
     def _getBonusState(self):
         if self.__isPremiumBonusEnabled():

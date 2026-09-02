@@ -106,6 +106,7 @@ class GAME(CONST_CONTAINER):
     ENABLE_SPEEDOMETER = b'enableSpeedometer'
     ENABLE_REPAIR_TIMER = b'enableRepairTimer'
     ENABLE_BATTLE_NOTIFIER = b'enableBattleNotifier'
+    ENABLE_BATTLE_CONTEXT_HINTS = b'enableBattleContextHints'
     ENABLE_THERMAL_VISION_EFFECT = b'disableThermalVisionEffect'
     ENABLE_THERMAL_VISION_SECTOR_EFFECT = b'disableThermalVisionSectorEffect'
     HANGAR_CAM_PERIOD = b'hangarCamPeriod'
@@ -290,6 +291,7 @@ class BATTLE_EVENTS(CONST_CONTAINER):
     RECEIVED_CRITS = b'battleEventsReceivedCrits'
     ENEMY_ASSIST_STUN = b'battleEventsEnemyAssistStun'
     ENEMIES_STUN = b'battleEventsEnemyStun'
+    HEALTH_ADDED = b'battleEventsHealthAdded'
 
 
 class BATTLE_BORDER_MAP(CONST_CONTAINER):
@@ -542,3 +544,8 @@ class NewYearStorageKeys(CONST_CONTAINER):
     DECORATIONS_POPOVER_BROKEN = b'decorationsPopoverBroken'
     BOOL_FLAGS = (
      HAS_TOYS_HINT_SHOWN, DECORATIONS_POPOVER_VIEWED, DECORATIONS_POPOVER_BROKEN)
+
+
+class WTLootBoxesViewedKeys(CONST_CONTAINER):
+    HUNTER_LAST_VIEWED = b'hunterLastViewed'
+    BOSS_LAST_VIEWED = b'bossLastViewed'

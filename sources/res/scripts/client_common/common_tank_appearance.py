@@ -121,7 +121,7 @@ class CommonTankAppearance(ScriptGameObject):
     flyingInfoProvider = ComponentDescriptor()
     frictionAudition = ComponentDescriptor()
     gearbox = ComponentDescriptor()
-    gunLinkedNodesAnimator = ComponentDescriptor()
+    linkedNodesAnimator = ComponentDescriptor()
     gunRecoil = ComponentDescriptor()
     gunRotatorAudition = ComponentDescriptor()
     hullAimingController = ComponentDescriptor()
@@ -430,6 +430,9 @@ class CommonTankAppearance(ScriptGameObject):
         self.gunMatrix = target.gunMatrix
         return
 
+    def getGunMatrix(self):
+        return (self.turretMatrix, self.gunMatrix)
+
     def receiveShotImpulse(self, direction, impulse):
         if not VehicleDamageState.isDamagedModel(self.damageState.modelState):
             self.swingingAnimator.receiveShotImpulse(direction, impulse)
@@ -644,6 +647,10 @@ class CommonTankAppearance(ScriptGameObject):
             self.__periodicTimerID = None
         self.__modelAnimators = []
         self.filter.enableLagDetection(False)
+        self.clearUndamagedStateChildren()
+        return
+
+    def clearUndamagedStateChildren(self):
         for go in self.undamagedStateChildren:
             CGF.removeGameObject(go)
 
@@ -674,7 +681,7 @@ class CommonTankAppearance(ScriptGameObject):
         model_assembler.assembleTerrainMatKindSensor(self, lodStateLink, self.spaceID)
         model_assembler.assembleRecoil(self, lodLink)
         model_assembler.assembleMultiGunRecoil(self, lodLink)
-        model_assembler.assembleGunLinkedNodesAnimator(self)
+        model_assembler.assembleLinkedNodesAnimator(self)
         model_assembler.assembleCollisionObstaclesCollector(self, lodStateLink, self.typeDescriptor)
         model_assembler.assembleTessellationCollisionSensor(self, lodStateLink)
         wheelsScroll = None
@@ -833,7 +840,7 @@ class CommonTankAppearance(ScriptGameObject):
         if self.hullAimingController is not None:
             self.hullAimingController.onSiegeStateChanged(newState)
         if self.suspensionSound is not None:
-            self.suspensionSound.vehicleState = newState
+            self.suspensionSound.setState(self.typeDescriptor.isPitchHullAimingEnabled)
         if self.siegeEffects is not None:
             self.siegeEffects.onSiegeStateChanged(newState, timeToNextMode)
         enabled = newState == VEHICLE_SIEGE_STATE.ENABLED or newState == VEHICLE_SIEGE_STATE.SWITCHING_ON

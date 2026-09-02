@@ -17,7 +17,7 @@
         n.defaultProps = { format: "integral" };
       },
       2862: (u, e, t) => {
-        let E, A, F, n, o, i, r, s, D;
+        let E, A, F, n, o, i, r, s, a;
         (t.d(e, { E4: () => E }),
           (function (u) {
             ((u.Items = "items"),
@@ -82,7 +82,14 @@
               (u.DogTagType = "dogTagComponents"),
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
-              (u.RewardsSlots = "rewardsSlots"));
+              (u.RewardsSlots = "rewardsSlots"),
+              (u.WtStamp = "stamp"),
+              (u.WtHunter = "wt_hunter"),
+              (u.WtBoss = "wt_boss"),
+              (u.WtHunterCollection = "hunter_collection"),
+              (u.WtTicket = "wtevent_ticket"),
+              (u.WtMainPrizeDiscount = "main_prize_discount"),
+              (u.WtTicket25 = "wtevent_ticket25"));
           })(E || (E = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -181,7 +188,7 @@
           })(s || (s = {})),
           (function (u) {
             u.ProgressionStyle = "progressionStyle";
-          })(D || (D = {})));
+          })(a || (a = {})));
       },
       729: (u, e, t) => {
         (t(2372), t(6179));
@@ -225,6 +232,11 @@
           E.E4.PremiumPlusUniversal,
           E.E4.GoldenTicket,
           E.E4.RewardsSlots,
+          E.E4.WtStamp,
+          E.E4.WtTicket,
+          E.E4.WtMainPrizeDiscount,
+          E.E4.WtHunter,
+          E.E4.WtHunterCollection,
           E.E4.Gold,
           E.E4.Credits,
           E.E4.Crystal,
@@ -406,7 +418,7 @@
             getBrowserTexturePath: () => r,
             getDisplayStatus: () => T,
             getScale: () => l,
-            getSize: () => a,
+            getSize: () => D,
             getViewGlobalPosition: () => C,
             isClientAccessible: () => v,
             isEventHandled: () => h,
@@ -418,7 +430,7 @@
             setAnimateWindow: () => m,
             setEventHandled: () => w,
             setInputPaddingsRem: () => i,
-            setSidePaddingsRem: () => D,
+            setSidePaddingsRem: () => a,
             whenTutorialReady: () => S,
           }));
         var E = t(3722),
@@ -437,10 +449,10 @@
         function s(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
-        function D(u) {
+        function a(u) {
           viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, 15);
         }
-        function a(u = "px") {
+        function D(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
         }
         function B(u, e, t = "px") {
@@ -838,8 +850,8 @@
         })(i || (i = {}));
         const r = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
           s = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
-          D = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
-          a = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
+          a = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
+          D = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
         var B = t(5521),
           C = t(3138);
         const _ = ["args"];
@@ -938,8 +950,8 @@
             ViewEventType: i,
             NumberFormatType: r,
             RealFormatType: s,
-            TimeFormatType: D,
-            DateFormatType: a,
+            TimeFormatType: a,
+            DateFormatType: D,
             makeGlobalBoundingBox: c,
             sendMoveEvent: (u) => m(i.MOVE, { isMouseEvent: !0, on: u }),
             sendCloseEvent: p,
@@ -958,13 +970,13 @@
                 o = t.getBoundingClientRect(),
                 r = o.x,
                 s = o.y,
-                D = o.width,
-                a = o.height,
+                a = o.width,
+                D = o.height,
                 B = {
                   x: C.O.view.pxToRem(r) + n.x,
                   y: C.O.view.pxToRem(s) + n.y,
-                  width: C.O.view.pxToRem(D),
-                  height: C.O.view.pxToRem(a),
+                  width: C.O.view.pxToRem(a),
+                  height: C.O.view.pxToRem(D),
                 };
               m(i.POP_OVER, {
                 isMouseEvent: !0,

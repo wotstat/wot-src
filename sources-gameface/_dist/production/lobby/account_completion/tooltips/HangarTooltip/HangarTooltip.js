@@ -29,29 +29,29 @@
         }
         (t.r(i),
           t.d(i, {
-            addModelObserver: () => P,
+            addModelObserver: () => R,
             addPreloadTexture: () => f,
             children: () => a,
             displayStatus: () => d,
             displayStatusIs: () => Y,
             events: () => _,
             extraSize: () => V,
-            forceTriggerMouseMove: () => W,
+            forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => k,
-            getBrowserTexturePath: () => R,
+            getBrowserTexturePath: () => P,
             getDisplayStatus: () => q,
-            getScale: () => L,
+            getScale: () => M,
             getSize: () => x,
             getViewGlobalPosition: () => y,
-            isClientAccessible: () => G,
-            isEventHandled: () => $,
+            isClientAccessible: () => H,
+            isEventHandled: () => W,
             isFocused: () => U,
-            pxToRem: () => M,
+            pxToRem: () => L,
             remToPx: () => N,
             resize: () => O,
             sendEvent: () => b,
             setAnimateWindow: () => I,
-            setEventHandled: () => H,
+            setEventHandled: () => G,
             setInputPaddingsRem: () => T,
             setSidePaddingsRem: () => S,
             whenTutorialReady: () => z,
@@ -212,10 +212,10 @@
         function T(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
-        function R(u, e, t, r = 1) {
+        function P(u, e, t, r = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, r);
         }
-        function P(u, e, t) {
+        function R(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
         function S(u) {
@@ -234,10 +234,10 @@
         function k() {
           viewEnv.freezeTextureBeforeResize();
         }
-        function L() {
+        function M() {
           return viewEnv.getScale();
         }
-        function M(u) {
+        function L(u) {
           return viewEnv.pxToRem(u);
         }
         function N(u) {
@@ -249,16 +249,16 @@
         function U() {
           return viewEnv.isFocused();
         }
-        function G() {
+        function H() {
           return viewEnv.isClientAccessible();
         }
-        function H() {
+        function G() {
           return viewEnv.setEventHandled();
         }
-        function $() {
+        function W() {
           return viewEnv.isEventHandled();
         }
-        function W() {
+        function $() {
           viewEnv.forceTriggerMouseMove();
         }
         function q() {
@@ -991,7 +991,7 @@
                 })(u, e);
           },
           k = "FormatText_base_d0",
-          L = ({ binding: u, text: e = "", classMix: t, alignment: a = f.left }) =>
+          M = ({ binding: u, text: e = "", classMix: t, alignment: a = f.left }) =>
             null === e
               ? (console.error("FormatText was supplied with 'null'"), null)
               : n().createElement(
@@ -1010,7 +1010,7 @@
                     ),
                   ),
                 ),
-          M = (u, e, t) =>
+          L = (u, e, t) =>
             e.extraLargeHeight ||
             e.largeHeight ||
             e.mediumHeight ||
@@ -1097,11 +1097,11 @@
             (u.smallHeight = "smallHeight"),
             (u.extraSmallHeight = "extraSmallHeight"));
         })(I || (I = {}));
-        const G = g.O.client.getSize("rem"),
-          H = G.width,
-          $ = G.height,
-          W = Object.assign({ width: H, height: $ }, U(H, $, N)),
-          q = (0, r.createContext)(W),
+        const H = g.O.client.getSize("rem"),
+          G = H.width,
+          W = H.height,
+          $ = Object.assign({ width: G, height: W }, U(G, W, N)),
+          q = (0, r.createContext)($),
           Y = ["children"];
         const V = (u) => {
           let e = u.children,
@@ -1138,11 +1138,11 @@
             if (t.small && E) return e;
             if (t.extraSmall && o) return e;
           } else {
-            if (t.extraLargeWidth && A) return M(e, t, g);
-            if (t.largeWidth && F) return M(e, t, g);
-            if (t.mediumWidth && D) return M(e, t, g);
-            if (t.smallWidth && l) return M(e, t, g);
-            if (t.extraSmallWidth && c) return M(e, t, g);
+            if (t.extraLargeWidth && A) return L(e, t, g);
+            if (t.largeWidth && F) return L(e, t, g);
+            if (t.mediumWidth && D) return L(e, t, g);
+            if (t.smallWidth && l) return L(e, t, g);
+            if (t.extraSmallWidth && c) return L(e, t, g);
             if (!(
               t.extraLargeWidth ||
               t.largeWidth ||
@@ -1268,7 +1268,14 @@
               (u.DogTagType = "dogTagComponents"),
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
-              (u.RewardsSlots = "rewardsSlots"));
+              (u.RewardsSlots = "rewardsSlots"),
+              (u.WtStamp = "stamp"),
+              (u.WtHunter = "wt_hunter"),
+              (u.WtBoss = "wt_boss"),
+              (u.WtHunterCollection = "hunter_collection"),
+              (u.WtTicket = "wtevent_ticket"),
+              (u.WtMainPrizeDiscount = "main_prize_discount"),
+              (u.WtTicket25 = "wtevent_ticket25"));
           })(j || (j = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1408,6 +1415,11 @@
             j.PremiumPlusUniversal,
             j.GoldenTicket,
             j.RewardsSlots,
+            j.WtStamp,
+            j.WtTicket,
+            j.WtMainPrizeDiscount,
+            j.WtHunter,
+            j.WtHunterCollection,
           ],
           nu = [j.Gold, j.Credits, j.Crystal, j.FreeXp],
           au = [j.BattlePassPoints],
@@ -1730,12 +1742,12 @@
                   Object.assign(
                     {
                       onMouseEnter:
-                        ((R = e.props.onMouseEnter),
+                        ((P = e.props.onMouseEnter),
                         (u) => {
                           (u.clientX === window.innerWidth && u.clientY === window.innerHeight) ||
                             ((w.current.timeoutId = window.setTimeout(b, F ? 100 : 400)),
                             a && a(u),
-                            R && R(u));
+                            P && P(u));
                         }),
                       onMouseLeave: ((u) => (e) => {
                         (f(), null == i || i(e), null == u || u(e));
@@ -1751,7 +1763,7 @@
                   ),
                 )
               : e;
-            var R;
+            var P;
           },
           du = ["children"];
         function _u() {
@@ -2025,7 +2037,7 @@
                 ),
             );
           },
-          Ru = {
+          Pu = {
             base: "RewardList_base_79",
             base__divider: "RewardList_base__divider_32",
             title: "RewardList_title_2a",
@@ -2040,7 +2052,7 @@
             fadeOut: "RewardList_fadeOut_27",
             windowIn: "RewardList_windowIn_3f",
           },
-          Pu = ({
+          Ru = ({
             data: u,
             questID: e,
             isShowDivider: t,
@@ -2068,8 +2080,8 @@
                     return ((u[t] = E()(e[t], ...r)), u);
                   }, {})
                 );
-              })(["base"], Ru),
-              A = E()(o.base, t && Ru.base__divider, a),
+              })(["base"], Pu),
+              A = E()(o.base, t && Pu.base__divider, a),
               F = (0, r.useMemo)(() => {
                 const t =
                   R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -2110,16 +2122,16 @@
                 n().createElement(
                   n().Fragment,
                   null,
-                  n().createElement("div", { className: Ru.title }, s),
-                  n().createElement("div", { className: Ru.divider }),
+                  n().createElement("div", { className: Pu.title }, s),
+                  n().createElement("div", { className: Pu.divider }),
                 ),
               n().createElement(
                 "div",
-                { className: Ru.content },
+                { className: Pu.content },
                 F.map((u, e) =>
                   n().createElement(
                     "div",
-                    { key: `reward_${e}`, className: i || Ru.reward },
+                    { key: `reward_${e}`, className: i || Pu.reward },
                     n().createElement(Tu, u),
                   ),
                 ),
@@ -2138,15 +2150,15 @@
           Ou = "HangarApp_base_3b",
           yu = "HangarApp_base__large_db",
           ku = "HangarApp_title_75",
-          Lu = "HangarApp_title__large_24",
-          Mu = "HangarApp_separator_70",
+          Mu = "HangarApp_title__large_24",
+          Lu = "HangarApp_separator_70",
           Nu = "HangarApp_text_e0",
           Iu = "HangarApp_textName_8f",
           Uu = "HangarApp_textInner_59",
-          Gu = "HangarApp_rewards_91",
-          Hu = "HangarApp_rewards__indent_d5",
-          $u = "HangarApp_rewardsItem_d5",
-          Wu = () => {
+          Hu = "HangarApp_rewards_91",
+          Gu = "HangarApp_rewards__indent_d5",
+          Wu = "HangarApp_rewardsItem_d5",
+          $u = () => {
             const u = m("model"),
               e = u.title,
               t = u.text,
@@ -2163,8 +2175,8 @@
                 [i, s],
               ),
               D = E()(Ou, o && yu),
-              l = E()(ku, A && Lu),
-              c = E()(Gu, Boolean(s) && Hu);
+              l = E()(ku, A && Mu),
+              c = E()(Hu, Boolean(s) && Gu);
             return n().createElement(
               b,
               null,
@@ -2172,24 +2184,24 @@
                 "div",
                 { className: D },
                 n().createElement("div", { className: l }, e),
-                Boolean(t) && n().createElement(L, { classMix: Nu, text: t || "", binding: F }),
+                Boolean(t) && n().createElement(M, { classMix: Nu, text: t || "", binding: F }),
                 A &&
                   n().createElement(
                     n().Fragment,
                     null,
-                    n().createElement("div", { className: Mu }),
+                    n().createElement("div", { className: Lu }),
                     n().createElement(
                       "div",
                       { className: ku },
                       R.strings.tooltips.accountCompletionHangar.email.prizeTitle(),
                     ),
                   ),
-                o && n().createElement(Pu, { classMix: c, rewardClassMix: $u, data: a }),
+                o && n().createElement(Ru, { classMix: c, rewardClassMix: Wu, data: a }),
               ),
             );
           };
         engine.whenReady.then(() => {
-          i().render(n().createElement(Wu, null), document.getElementById("root"));
+          i().render(n().createElement($u, null), document.getElementById("root"));
         });
       },
     },

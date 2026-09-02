@@ -12,6 +12,14 @@ class TeamInfoLivesComponent(DynamicScriptComponent):
         self.onTeamLivesUpdated()
         return
 
+    def set_respawnInfo(self, prev):
+        teleport = self.entity.sessionProvider.dynamic.teleport
+        if teleport is None:
+            return
+        else:
+            teleport.onTeamRespawnInfoUpdated(self.__getRespawnInfoIDs())
+            return
+
     def getLives(self, vehicleID):
         return self.getVehicleLives(vehicleID).get(b'lives', 0)
 
@@ -27,3 +35,18 @@ class TeamInfoLivesComponent(DynamicScriptComponent):
                 return dict(vl)
 
         return {}
+
+    def getRespawnInfo(self, vehicleID):
+        for entry in self.respawnInfo:
+            if entry[b'vehicleID'] != vehicleID:
+                continue
+            return (
+             entry.spawnTime, entry.delay)
+
+        return (0.0, 0.0)
+
+    def __getRespawnInfoIDs(self):
+        if self.respawnInfo is None:
+            return []
+        else:
+            return [entry[b'vehicleID'] for entry in self.respawnInfo]

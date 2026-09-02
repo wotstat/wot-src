@@ -16,6 +16,7 @@ class BaseVehiclesWatcher(object):
 
     def __init__(self):
         self._isWatching = False
+        self._vehicleCdsWithChangedState = set()
         return
 
     def start(self):
@@ -49,27 +50,29 @@ class BaseVehiclesWatcher(object):
 
     def _clearCustomsStates(self):
         vehicles = [v for vehicles in self._getVehiclesCustomStates(True).itervalues() for v in vehicles]
-        intCDs = set()
         for vehicle in vehicles:
             vehicle.clearCustomState()
-            intCDs.add(vehicle.intCD)
+            self._vehicleCdsWithChangedState.add(vehicle.intCD)
 
-        if intCDs:
-            g_prbCtrlEvents.onVehicleClientStateChanged(intCDs)
+        self._sendVehiclesStateChangeEvent()
         return
 
     def __setCustomStates(self):
         states = self._getVehiclesCustomStates()
-        intCDs = set()
         for state, vehicles in states.iteritems():
             for vehicle in vehicles:
-                if vehicle.intCD in intCDs and self.__compareVehStateByPriority(vehicle.getCustomState(), state):
+                if vehicle.intCD in self._vehicleCdsWithChangedState and self.__compareVehStateByPriority(vehicle.getCustomState(), state):
                     continue
                 vehicle.setCustomState(state)
-                intCDs.add(vehicle.intCD)
+                self._vehicleCdsWithChangedState.add(vehicle.intCD)
 
-        if intCDs:
-            g_prbCtrlEvents.onVehicleClientStateChanged(intCDs)
+        self._sendVehiclesStateChangeEvent()
+        return
+
+    def _sendVehiclesStateChangeEvent(self):
+        if self._vehicleCdsWithChangedState:
+            g_prbCtrlEvents.onVehicleClientStateChanged(self._vehicleCdsWithChangedState)
+        self._vehicleCdsWithChangedState.clear()
         return
 
     def __compareVehStateByPriority(self, oldState, newState):

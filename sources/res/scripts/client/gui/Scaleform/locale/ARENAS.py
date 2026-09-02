@@ -204,8 +204,8 @@ class ARENAS(object):
     MODIFIED = b'#arenas:modified'
     C_280_COSMIC_2026_NAME = b'#arenas:280_cosmic_2026/name'
     C_280_COSMIC_2026_DESCRIPTION = b'#arenas:280_cosmic_2026/description'
-    H17_MT_BDAY_2026_NAME = b'#arenas:h17_mt_bday_2026/name'
-    H17_MT_BDAY_2026_DESCRIPTION = b'#arenas:h17_mt_bday_2026/description'
+    H08_MT_HANGAR_WT_NAME = b'#arenas:h08_mt_hangar_wt/name'
+    H08_MT_HANGAR_WT_DESCRIPTION = b'#arenas:h08_mt_hangar_wt/description'
     ALL_ENUM = (
      TYPE_CTF_NAME,
      TYPE_CTF_DESCRIPTION,
@@ -410,8 +410,8 @@ class ARENAS(object):
      MODIFIED,
      C_280_COSMIC_2026_NAME,
      C_280_COSMIC_2026_DESCRIPTION,
-     H17_MT_BDAY_2026_NAME,
-     H17_MT_BDAY_2026_DESCRIPTION)
+     H08_MT_HANGAR_WT_NAME,
+     H08_MT_HANGAR_WT_DESCRIPTION)
 
     @classmethod
     def all(cls, key0):

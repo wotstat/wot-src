@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 import BigWorld
 from CurrentVehicle import g_currentVehicle
 from adisp import adisp_process
-from gui.Scaleform.daapi.view.lobby.comp7.comp7_profile_helper import COMP7_SEASON_NUMBERS
+from comp7_common import COMP7_SEASON_NUMBERS
 from gui.Scaleform.daapi.view.lobby.store.browser.shop_helpers import getTradeInVehiclesUrl
 from gui.Scaleform.framework.entities.EventSystemEntity import EventSystemEntity
 from gui.Scaleform.framework.managers.context_menu import AbstractContextMenuHandler, CM_BUY_COLOR
@@ -12,7 +12,7 @@ from gui.impl.lobby.buy_vehicle_view import VehicleBuyActionTypes
 from gui.prb_control import prbDispatcherProperty
 from gui.shared import event_dispatcher as shared_events
 from gui.shared import events, EVENT_BUS_SCOPE
-from gui.shared.event_dispatcher import showShop, showTelecomRentalPage
+from gui.shared.event_dispatcher import showShop, showTelecomRentalPage, showTelecomAboutPage
 from gui.shared.gui_items.items_actions import factory as ItemsActionsFactory
 from gui.shared.gui_items.processors.vehicle import VehicleFavoriteProcessor
 from helpers import dependency
@@ -57,6 +57,7 @@ class VEHICLE(object):
     NATION_CHANGE = b'nationChange'
     GO_TO_COLLECTION = b'goToCollection'
     TELECOM_RENT = b'telecomRent'
+    TELECOM_ABOUT = b'telecomAbout'
 
 
 class TechnicalMaintenanceCMHandler(AbstractContextMenuHandler, EventSystemEntity):
@@ -152,7 +153,8 @@ class VehicleContextMenuHandler(SimpleVehicleCMHandler):
            (VEHICLE.COMPARE): b'compareVehicle', 
            (VEHICLE.NATION_CHANGE): b'changeVehicleNation', 
            (VEHICLE.GO_TO_COLLECTION): b'goToCollection', 
-           (VEHICLE.TELECOM_RENT): b'showTelecomRent'})
+           (VEHICLE.TELECOM_RENT): b'showTelecomRent', 
+           (VEHICLE.TELECOM_ABOUT): b'showTelecomAbout'})
         return
 
     @prbDispatcherProperty
@@ -211,6 +213,10 @@ class VehicleContextMenuHandler(SimpleVehicleCMHandler):
         showTelecomRentalPage()
         return
 
+    def showTelecomAbout(self):
+        showTelecomAboutPage()
+        return
+
     def _initFlashValues(self, ctx):
         self.vehInvID = int(ctx.inventoryId)
         vehicle = self.itemsCache.items.getVehicle(self.vehInvID)
@@ -256,6 +262,8 @@ class VehicleContextMenuHandler(SimpleVehicleCMHandler):
                     options.append(self._makeItem(VEHICLE.RESEARCH, MENU.contextmenu(VEHICLE.RESEARCH), {b'enabled': isNavigationEnabled}))
                 if vehicle.isPostProgressionExists:
                     options.append(self._makeItem(VEHICLE.POST_PROGRESSION, MENU.contextmenu(VEHICLE.POST_PROGRESSION), {b'enabled': isNavigationEnabled}))
+                if vehicle.isTelecom:
+                    options.append(self._makeItem(VEHICLE.TELECOM_ABOUT, MENU.contextmenu(VEHICLE.TELECOM_ABOUT), {b'enabled': True}))
                 if vehicle.isCollectible:
                     options.append(self._makeItem(VEHICLE.GO_TO_COLLECTION, MENU.contextmenu(VEHICLE.GO_TO_COLLECTION), {b'enabled': (self._lobbyContext.getServerSettings().isCollectorVehicleEnabled())}))
                 if vehicle.hasNationGroup:

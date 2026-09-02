@@ -811,6 +811,9 @@ msgstr "Заявок от игроков: %(count)s"
 msgid "clans/notifications/requests/watchRequests"
 msgstr "Просмотреть заявки"
 
+msgid "clans/notifications/style_gift"
+msgstr "Добавлен 2D- или 3D-стиль на выбор"
+
 msgid "clans/request/errors/Account already invited"
 msgstr "%(userName)s уже приглашён в ваш клан."
 
@@ -3338,7 +3341,7 @@ msgid "techtree/action/text/closest"
 msgstr "До конца ближайшей акции: "
 
 msgid "telecom/notifications/vehicleBlocked/comment/default"
-msgstr "%(vehicles)s"
+msgstr "%(vehicles)s недоступен по подписке от Ростелекома."
 
 msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
 msgstr "Причина: не выполнены условия соответствующей акции."
@@ -3347,43 +3350,43 @@ msgid "telecom/notifications/vehicleBlocked/subcomment/default"
 msgstr "Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете вашего провайдера."
 
 msgid "telecom/notifications/vehicleBlocked/title/default"
-msgstr "Машина недоступна"
+msgstr "Техника по подписке от Ростелекома недоступна"
 
 msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
 msgstr "Дата: %(datetime)s\nДобавлена техника: %(vehicles)s\nДобавлены: слот в Ангаре,%(crew)s 3D-стиль."
 
 msgid "telecom/notifications/vehicleReceived/comment/default"
-msgstr "Дата: %(datetime)s\nДобавлена техника: %(vehicles)s\nДобавлены: слот в Ангаре,%(crew)s эксклюзивный камуфляж."
+msgstr "Дата: %(datetime)s\nДобавлена техника: %(vehicles)s"
 
 msgid "telecom/notifications/vehicleReceived/crew/default"
 msgstr " 100%%-й экипаж%(skills)s,"
 
 msgid "telecom/notifications/vehicleReceived/subcomment/default"
-msgstr " "
+msgstr "?empty?"
 
 msgid "telecom/notifications/vehicleReceived/title/default"
-msgstr "Начислена техника"
+msgstr "Начислена техника по подписке от Ростелекома."
 
 msgid "telecom/notifications/vehicleRemoved/comment/default"
-msgstr "Дата: %(datetime)s\nСписано: %(vehicles)s, слот в Ангаре."
+msgstr "Дата: %(datetime)s\nСписано: %(vehicles)s."
 
 msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
 msgstr "Причина: не выполнены условия соответствующей акции."
 
 msgid "telecom/notifications/vehicleRemoved/subcomment/default"
-msgstr "Причина: обновление списка бонусов тарифа «Игровой»."
+msgstr "Причина: отключение услуги. Проверьте статус услуги в личном кабинете вашего провайдера."
 
 msgid "telecom/notifications/vehicleRemoved/title/default"
-msgstr "Списана машина"
+msgstr "Техника по подписке от Ростелекома списана."
 
 msgid "telecom/notifications/vehicleUnblocked/comment/default"
-msgstr "%(vehicles)s"
+msgstr "%(vehicles)s вновь доступен по подписке от Ростелекома."
 
 msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
-msgstr " "
+msgstr "?empty?"
 
 msgid "telecom/notifications/vehicleUnblocked/title/default"
-msgstr "Машина снова доступна"
+msgstr "Техника по подписке от Ростелекома снова доступна"
 
 msgid "telecomMergeResults/body/accrualMsg"
 msgstr "Начислен танк Т-44-100 Игровой, списано: %(tanks)s."

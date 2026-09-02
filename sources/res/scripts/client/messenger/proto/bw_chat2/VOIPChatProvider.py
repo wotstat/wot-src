@@ -25,6 +25,16 @@ class VOIPChatProvider(bw2_provider.ResponseDictHandler, IVOIPChatProvider):
     def getChannelParams(self):
         return self.__channelParams
 
+    def requestEchoChannel(self):
+        provider = self.provider()
+        actionID = _ACTIONS.REQUEST_ECHO_CHANNEL
+        success, reqID = provider.doAction(actionID, messageArgs(), True)
+        if reqID:
+            self.pushRq(reqID, actionID)
+        if success:
+            provider.setActionCoolDown(actionID, _LIMITS.VOIP_CHANNEL_REQUEST_COOLDOWN_SEC)
+        return
+
     def requestCredentials(self, reset=0):
         provider = self.provider()
         actionID = _ACTIONS.GET_VOIP_CREDENTIALS
@@ -80,11 +90,12 @@ class VOIPChatProvider(bw2_provider.ResponseDictHandler, IVOIPChatProvider):
         url = args[b'strArg1']
         pwd = args[b'strArg2']
         isRejoin = args[b'int32Arg1']
-        if not url or not pwd or self.__channelParams[0] == url:
+        isEchoChannnel = args[b'int64Arg1']
+        if not url or self.__channelParams[0] == url:
             return
         self.__channelParams = (
          url, pwd)
-        g_messengerEvents.voip.onChannelAvailable(url, pwd, isRejoin)
+        g_messengerEvents.voip.onChannelAvailable(url, pwd, isRejoin, isEchoChannnel)
         return
 
     def __onChannelLost(self, ids, args):

@@ -663,6 +663,8 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 		<rankedBonusBattlesAccruedInvoiceReceived>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued): &lt;font color='#8C8C7E'&gt;%(bonusBattles)s&lt;/font&gt;</rankedBonusBattlesAccruedInvoiceReceived>
 		<rankedBonusBattlesDebitedInvoiceReceived>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited): &lt;font color='#8C8C7E'&gt;%(bonusBattles)s&lt;/font&gt;</rankedBonusBattlesDebitedInvoiceReceived>
 		<questTokenInvoiceReceived>&lt;font color='#8C8C7E'&gt;%(text)s&lt;/font&gt;</questTokenInvoiceReceived>
+		<lootboxesReceived>&lt;br/&gt;&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/event/lootboxes) &lt;font color='#8C8C7E'&gt;%(amount)s&lt;/font&gt;</lootboxesReceived>
+		<ticketsReceived>&lt;br/&gt;&lt;font color='#8C8C7E'&gt;_(#white_tiger.messenger.extend:serviceChannelMessages/event/tickets) &lt;font color='#8C8C7E'&gt;%(amount)s&lt;/font&gt;</ticketsReceived>
 		<offersAccruedInvoiceReceived>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/offersAccrued): &lt;font color='#8C8C7E'&gt;%(offer)s&lt;/font&gt;</offersAccruedInvoiceReceived>
 		<offersDebitedInvoiceReceived>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/offersDebited): &lt;font color='#8C8C7E'&gt;%(offer)s&lt;/font&gt;</offersDebitedInvoiceReceived>
 		<lbKeysAccruedInvoiceReceived>&lt;font color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/lbKeysAccrued): &lt;font color='#8C8C7E'&gt;%(lootbox_key)s(x%(amount)s)&lt;/font&gt;</lbKeysAccruedInvoiceReceived>
@@ -1884,8 +1886,8 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 		<telecomVehicleReceived>
 			<priority>medium</priority>
 			<type>grey</type>
-			<icon>MessageIcon</icon>
-			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;
+			<icon>InformationIcon</icon>
+			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;&lt;br/&gt;
 &lt;font color="#8C8C7C" face="$FieldFont" size="14"&gt;%(comment)s&lt;/font&gt;
 &lt;font color="#595950" face="$FieldFont" size="14"&gt;%(subcomment)s&lt;/font&gt;</message>
 		</telecomVehicleReceived>
@@ -1893,7 +1895,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 			<priority>medium</priority>
 			<type>grey</type>
 			<icon>WarningIcon</icon>
-			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;
+			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;&lt;br/&gt;
 &lt;font color="#8C8C7C" face="$FieldFont" size="14"&gt;%(comment)s&lt;/font&gt;
 &lt;font color="#595950" face="$FieldFont" size="14"&gt;%(subcomment)s&lt;/font&gt;</message>
 		</telecomVehicleStatus>
@@ -1901,7 +1903,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 			<priority>medium</priority>
 			<type>grey</type>
 			<icon>WarningIcon</icon>
-			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;
+			<message>&lt;font color="#e9e2bf" face="$TitleFont" size="15"&gt;%(title)s&lt;/font&gt;&lt;br/&gt;
 &lt;font color="#8C8C7C" face="$FieldFont" size="14"&gt;%(comment)s&lt;/font&gt;
 &lt;font color="#595950" face="$FieldFont" size="14"&gt;%(subcomment)s&lt;/font&gt;</message>
 		</telecomVehicleRemoved>
@@ -2200,12 +2202,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 			<icon>InformationIcon</icon>
 			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;_(#lootboxes:notification/header)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;%(text)s</message>
 		</LootBoxRewardsSysMessage>
-		<WtEventLootBoxesAutoOpenMessage>
-			<priority>high</priority>
-			<type>yellow</type>
-			<icon>WarningIcon</icon>
-			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/header)&lt;/font&gt;&lt;br/&gt;&lt;font face="$FieldFont" size="14" color='#8C8C7E'&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/text)&lt;/font&gt;&lt;br/&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/boxes)&lt;br/&gt;%(rewards)s</message>
-		</WtEventLootBoxesAutoOpenMessage>
 		<LunarBoxesAutoOpenMessage>
 			<priority>high</priority>
 			<type>yellow</type>

@@ -108,8 +108,8 @@
               H = e.grow,
               Q = e.shrink,
               U = e.flex,
-              G = void 0 === U ? (H || Q ? `${H ? 1 : 0} ${Q ? 1 : 0} auto` : void 0) : U,
-              W = e.style,
+              W = void 0 === U ? (H || Q ? `${H ? 1 : 0} ${Q ? 1 : 0} auto` : void 0) : U,
+              G = e.style,
               $ = e.children,
               q = (function (e, u) {
                 if (null == e) return {};
@@ -133,10 +133,10 @@
                       return ("number" == typeof r && (u[A[t]] = r + "rem"), u);
                     }, {}))(e);
                 return {
-                  computedStyle: Object.assign({}, W, n, {
+                  computedStyle: Object.assign({}, G, n, {
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== r && "number" == typeof r ? r + "rem" : r,
-                    flex: G,
+                    flex: W,
                     alignSelf: N,
                     display: v || M ? "flex" : void 0,
                     flexDirection: v,
@@ -146,7 +146,7 @@
                   }),
                   computedClassNames: u,
                 };
-              }, [t, r, i, D, p, C, W, G, N, v, I, T, M]),
+              }, [t, r, i, D, p, C, G, W, N, v, I, T, M]),
               z = j.computedStyle,
               Z = j.computedClassNames;
             return l().createElement(
@@ -502,7 +502,14 @@
               (e.DogTagType = "dogTagComponents"),
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
-              (e.RewardsSlots = "rewardsSlots"));
+              (e.RewardsSlots = "rewardsSlots"),
+              (e.WtStamp = "stamp"),
+              (e.WtHunter = "wt_hunter"),
+              (e.WtBoss = "wt_boss"),
+              (e.WtHunterCollection = "hunter_collection"),
+              (e.WtTicket = "wtevent_ticket"),
+              (e.WtMainPrizeDiscount = "main_prize_discount"),
+              (e.WtTicket25 = "wtevent_ticket25"));
           })(r || (r = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -650,6 +657,11 @@
             a.E4.PremiumPlusUniversal,
             a.E4.GoldenTicket,
             a.E4.RewardsSlots,
+            a.E4.WtStamp,
+            a.E4.WtTicket,
+            a.E4.WtMainPrizeDiscount,
+            a.E4.WtHunter,
+            a.E4.WtHunterCollection,
           ],
           o = [a.E4.Gold, a.E4.Credits, a.E4.Crystal, a.E4.FreeXp],
           l = [a.E4.BattlePassPoints],
@@ -3605,13 +3617,13 @@
             },
           ),
           U = "DailyCountdown_base_75",
-          G = "DailyCountdown_icon_2d",
-          W = "DailyCountdown_countdownText_65",
+          W = "DailyCountdown_icon_2d",
+          G = "DailyCountdown_countdownText_65",
           $ = ({ timeToUpdate: e }) =>
             a().createElement(
               "div",
               { className: U },
-              a().createElement(Q, { duration: e, className: W, classNames: { icon: G } }),
+              a().createElement(Q, { duration: e, className: G, classNames: { icon: W } }),
             );
         var q = t(9922);
         const j = { type: "idle" };
@@ -4245,8 +4257,8 @@
           He = 500,
           Qe = 500;
         var Ue = t(2862),
-          Ge = t(3099),
-          We = t(3215),
+          We = t(3099),
+          Ge = t(3215),
           $e = t(4598),
           qe = t(9480),
           je = t(5175),
@@ -4255,7 +4267,7 @@
           Xe = t(9153),
           Ye = t(3017),
           Ve = t(3509);
-        const Ke = [Ge.N.Locked, Ge.N.Active],
+        const Ke = [We.N.Locked, We.N.Active],
           Je = (e, u, t, r) => {
             const n = u ? Re[t].premiumBannerHeight : 0;
             let s = Re[t].questListMarginBottom + n;
@@ -4263,24 +4275,24 @@
               i = Re[t].questDividerHeight - Re[t].questCard.dailyMarginBottom;
             return e.map((u, n) => {
               if (!n) return s;
-              if (u === Ge.N.Active) return (s += a);
-              if (u === Ge.N.Locked) return (s += r ? a : a - Re[t].questCard.dailyMarginBottom);
-              const o = e.find((e) => e === Ge.N.Locked),
+              if (u === We.N.Active) return (s += a);
+              if (u === We.N.Locked) return (s += r ? a : a - Re[t].questCard.dailyMarginBottom);
+              const o = e.find((e) => e === We.N.Locked),
                 l = ((e, u) => {
                   const t = e[u - 1],
                     r = e[u - 2];
                   return (
-                    (t === Ge.N.Done || t === Ge.N.UndoneSubscription) &&
-                    r !== Ge.N.Done &&
-                    r !== Ge.N.UndoneSubscription
+                    (t === We.N.Done || t === We.N.UndoneSubscription) &&
+                    r !== We.N.Done &&
+                    r !== We.N.UndoneSubscription
                   );
                 })(e, n);
               return (s += o || l ? (l ? a + i + Re[t].questCard.dailyMarginBottom : a + i) : a);
             });
           },
           eu = [...Array(Ve.vW + 1)],
-          uu = (e, u) => (u <= 1 ? e : 2 === u ? Ge.N.Active : 3 === u ? Ge.N.Locked : void 0),
-          tu = (0, We.q)()(
+          uu = (e, u) => (u <= 1 ? e : 2 === u ? We.N.Active : 3 === u ? We.N.Locked : void 0),
+          tu = (0, Ge.q)()(
             ({ observableModel: e }) => {
               const u = {
                   root: e.object(),
@@ -4296,7 +4308,7 @@
                 },
                 t = (0, Ze.Om)(() => u.primitives.currentTabIdx.get()),
                 r = (0, Ze.Om)((e = Ue.h2.Big) => c(e) === m(e)),
-                n = (0, Ze.Om)(() => qe.find(a(), (e) => e.status !== Ge.N.Done)),
+                n = (0, Ze.Om)(() => qe.find(a(), (e) => e.status !== We.N.Done)),
                 s = (0, Ze.Om)((e) => {
                   var u, t, r, n, s;
                   let a;
@@ -4377,7 +4389,7 @@
                 m = (0, Ze.Om)(
                   (e = Ue.h2.Big) =>
                     a(e).filter(
-                      (e) => e.status === Ge.N.Done || e.status === Ge.N.UndoneSubscription,
+                      (e) => e.status === We.N.Done || e.status === We.N.UndoneSubscription,
                     ).length,
                 ),
                 d = (0, Ze.Om)(() => {
@@ -4988,8 +5000,8 @@
         Hu.Default = Iu;
         const Qu = { Vertical: n, Horizontal: r };
         var Uu = t(3415),
-          Gu = t(729);
-        const Wu = {
+          Wu = t(729);
+        const Gu = {
             base: "Reward_base_ea",
             base__s48x48: "Reward_base__s48x48_46",
             base__small: "Reward_base__small_c0",
@@ -5028,36 +5040,36 @@
             tooltipArgs: d,
             periodicIconTooltipArgs: E,
           }) => {
-            const _ = (0, Gu.L_)(n),
-              A = (0, Gu.i2)(n),
-              g = (0, Gu.m9)(s, i);
+            const _ = (0, Wu.L_)(n),
+              A = (0, Wu.i2)(n),
+              g = (0, Wu.m9)(s, i);
             return a().createElement(
               "div",
-              { className: o()(Wu.base, Wu[`base__${r}`], c), style: l },
+              { className: o()(Gu.base, Gu[`base__${r}`], c), style: l },
               a().createElement(
                 Uu.l,
-                { tooltipArgs: d, className: Wu.tooltipWrapper },
+                { tooltipArgs: d, className: Gu.tooltipWrapper },
                 a().createElement(
                   a().Fragment,
                   null,
                   a().createElement(
                     "div",
-                    { className: o()(Wu.image, null == m ? void 0 : m.image) },
+                    { className: o()(Gu.image, null == m ? void 0 : m.image) },
                     _ &&
                       a().createElement("div", {
-                        className: o()(Wu.highlight, null == m ? void 0 : m.highlight),
+                        className: o()(Gu.highlight, null == m ? void 0 : m.highlight),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${_}_highlight)`,
                         },
                       }),
                     u &&
                       a().createElement("div", {
-                        className: o()(Wu.icon, null == m ? void 0 : m.rewardIcon),
+                        className: o()(Gu.icon, null == m ? void 0 : m.rewardIcon),
                         style: { backgroundImage: `url(${u})` },
                       }),
                     A &&
                       a().createElement("div", {
-                        className: o()(Wu.overlay, null == m ? void 0 : m.overlay),
+                        className: o()(Gu.overlay, null == m ? void 0 : m.overlay),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${A}_overlay)`,
                         },
@@ -5068,9 +5080,9 @@
                       "div",
                       {
                         className: o()(
-                          Wu.info,
-                          Wu[`info__${e}`],
-                          i === Ue.$h.MULTI && Wu.info__multi,
+                          Gu.info,
+                          Gu[`info__${e}`],
+                          i === Ue.$h.MULTI && Gu.info__multi,
                           null == m ? void 0 : m.info,
                         ),
                       },
@@ -5083,7 +5095,7 @@
                   Uu.l,
                   { tooltipArgs: E },
                   a().createElement("div", {
-                    className: o()(Wu.timer, null == m ? void 0 : m.periodicIcon),
+                    className: o()(Gu.timer, null == m ? void 0 : m.periodicIcon),
                   }),
                 ),
             );
@@ -5170,8 +5182,8 @@
           );
         }
         const Ut = R.strings.quests,
-          Gt = ["battlePassPoints"],
-          Wt = "idle",
+          Wt = ["battlePassPoints"],
+          Gt = "idle",
           $t = "wait",
           qt = "flash",
           jt = (0, s.memo)(
@@ -5205,30 +5217,30 @@
                 M = x.current,
                 N = x.descrData,
                 k = P ? L : M,
-                O = e.status === Ge.N.UndoneSubscription,
-                I = e.status === Ge.N.Done,
+                O = e.status === We.N.UndoneSubscription,
+                I = e.status === We.N.Done,
                 H = (e) => !I && e.withSubscription && (!B || O),
                 Q = (0, s.useState)(!1),
                 U = Q[0],
-                G = Q[1],
-                W = (0, s.useState)(!1),
-                q = W[0],
-                j = W[1],
-                z = (0, s.useState)(Wt),
+                W = Q[1],
+                G = (0, s.useState)(!1),
+                q = G[0],
+                j = G[1],
+                z = (0, s.useState)(Gt),
                 X = z[0],
                 Y = z[1],
                 V = (0, Pe.GS)().mediaSize >= Pe.cJ.Medium ? "c_80" : "c_48",
-                K = ((C === Ge.N.Done || C === Ge.N.UndoneSubscription) && !U) || P,
-                J = Boolean(n || X !== Wt || (c && c !== zr.COMPLETED && c !== zr.IDLE)),
+                K = ((C === We.N.Done || C === We.N.UndoneSubscription) && !U) || P,
+                J = Boolean(n || X !== Gt || (c && c !== zr.COMPLETED && c !== zr.IDLE)),
                 ee = i && !J && !K,
                 ue = (0, s.useMemo)(() => 0.2 * m, [m]);
               return (
                 (0, s.useEffect)(() => {
-                  ((e.status !== Ge.N.Done && e.status !== Ge.N.UndoneSubscription) ||
+                  ((e.status !== We.N.Done && e.status !== We.N.UndoneSubscription) ||
                     !E ||
-                    (null == E ? void 0 : E.status) === Ge.N.Done ||
-                    (null == E ? void 0 : E.status) === Ge.N.UndoneSubscription ||
-                    (G(!0), (0, y.G)(R.sounds.dq_widget_slide_in())),
+                    (null == E ? void 0 : E.status) === We.N.Done ||
+                    (null == E ? void 0 : E.status) === We.N.UndoneSubscription ||
+                    (W(!0), (0, y.G)(R.sounds.dq_widget_slide_in())),
                     (null != E && E.isActiveSubscription) ||
                       !e.isActiveSubscription ||
                       (j(!0), (0, y.G)(R.sounds.dq_subscription_reward_unlock())));
@@ -5242,7 +5254,7 @@
                 (0, s.useEffect)(() => {
                   if (U)
                     return (0, f.F)(() => {
-                      G(!1);
+                      W(!1);
                     }, xe);
                 }, [U]),
                 (0, s.useEffect)(() => {
@@ -5256,7 +5268,7 @@
                         }, Ve.ji.unlockBonusQuestDelay)
                       : X === qt
                         ? (0, f.F)(() => {
-                            Y(Wt);
+                            Y(Gt);
                           }, Ve.ji.unlockBonusQuestDuration)
                         : void 0,
                   [X],
@@ -5376,7 +5388,7 @@
                             { className: wt },
                             F.map((e, u) => {
                               const t = e.withSubscription && !B,
-                                r = Gt.includes(e.name) && D,
+                                r = Wt.includes(e.name) && D,
                                 n = q && e.withSubscription;
                               return a().createElement(
                                 "div",
@@ -5736,19 +5748,19 @@
                 B = null != (m = (0, v.D9)(e)) ? m : e,
                 C = A === yr.IDLE,
                 b = A === yr.BLINK,
-                y = e.status === Ge.N.Locked,
-                w = y && u !== Ge.N.Locked && !c,
+                y = e.status === We.N.Locked,
+                w = y && u !== We.N.Locked && !c,
                 S =
-                  (e.status === Ge.N.Done || e.status === Ge.N.UndoneSubscription) &&
-                  u !== Ge.N.Done &&
-                  u !== Ge.N.UndoneSubscription,
+                  (e.status === We.N.Done || e.status === We.N.UndoneSubscription) &&
+                  u !== We.N.Done &&
+                  u !== We.N.UndoneSubscription,
                 P = null != (d = (0, v.D9)(w)) ? d : w,
                 x = F && t === Ve.vW,
                 T =
-                  (e.status === Ge.N.Done || e.status === Ge.N.UndoneSubscription) &&
+                  (e.status === We.N.Done || e.status === We.N.UndoneSubscription) &&
                   B &&
-                  (null == B ? void 0 : B.status) !== Ge.N.Done &&
-                  (null == B ? void 0 : B.status) !== Ge.N.UndoneSubscription,
+                  (null == B ? void 0 : B.status) !== We.N.Done &&
+                  (null == B ? void 0 : B.status) !== We.N.UndoneSubscription,
                 L = ((w || P || S) && C) || F,
                 M = F && t === Ve.vW,
                 N = w || P || F,
@@ -5868,8 +5880,8 @@
           Hr = "QuestCardList_scrollContent_3d",
           Qr = "QuestCardList_questCardBlock_c2",
           Ur = "QuestCardList_bannerWrapper_72",
-          Gr = "QuestCardList_divider_3c",
-          Wr = "QuestCardList_divider__hide_be",
+          Wr = "QuestCardList_divider_3c",
+          Gr = "QuestCardList_divider__hide_be",
           $r = "QuestCardList_scrollBar_d4",
           qr = "QuestCardList_barThumb_7d",
           jr = "QuestCardList_barRail_3c";
@@ -5911,9 +5923,9 @@
                 H = g ? I : m.computes.isPremiumTab(),
                 Q = m.regular.get().isEnabled,
                 U = m.premium.get().isEnabled,
-                G = H ? U : Q,
-                W = (0, v.tp)(m.computes.isPremiumBannerVisible(), ke),
-                $ = g ? W : m.computes.isPremiumBannerVisible(),
+                W = H ? U : Q,
+                G = (0, v.tp)(m.computes.isPremiumBannerVisible(), ke),
+                $ = g ? G : m.computes.isPremiumBannerVisible(),
                 q = (0, v.tp)(m.computes.getQuests(_), ke),
                 j = g ? q : m.computes.getQuests(_),
                 z = m.computes.getEpicQuests(_),
@@ -6002,9 +6014,9 @@
                 a().createElement(
                   "div",
                   { className: Sr },
-                  G &&
+                  W &&
                     a().createElement(jt, { quest: z, conditions: z, isEpic: !0, isDisabled: !1 }),
-                  G
+                  W
                     ? a().createElement(
                         "div",
                         { className: o()(Pr, O && Rr, g && xr) },
@@ -6023,7 +6035,7 @@
                                 hideBanner: L,
                                 onBuyPremium: d.onBuyPremium,
                               }),
-                              a().createElement("div", { className: o()(Gr, L && Wr) }),
+                              a().createElement("div", { className: o()(Wr, L && Gr) }),
                             ),
                           ne((e, u) => {
                             var t;
@@ -6397,8 +6409,8 @@
           H = t(2603),
           Q = t(648),
           U = t(7613),
-          G = t(3415),
-          W = t(6373),
+          W = t(3415),
+          G = t(6373),
           $ = t(7727);
         const q = "TabCathegory_base_76",
           j = "TabCathegory_info_bd",
@@ -6412,7 +6424,7 @@
               { className: q },
               s().createElement("div", null, e),
               s().createElement(
-                W.i,
+                G.i,
                 u,
                 s().createElement("div", {
                   className: j,
@@ -6423,7 +6435,7 @@
                 }),
               ),
               s().createElement(
-                G.l,
+                W.l,
                 {
                   tooltipArgs: {
                     contentId: R.views.lobby.daily.tooltips.ModeSelectorTooltip("resId"),
@@ -6707,8 +6719,8 @@
           isPremium: H,
           hasPremium: Q,
           icon: U = "win",
-          current: G,
-          total: W,
+          current: W,
+          total: G,
           bubbleCounter: $,
           title: q,
           description: j,
@@ -6793,10 +6805,10 @@
                       format: {
                         binding: {
                           current: a().createElement(N.ZP, {
-                            text: G.toString(),
-                            className: n()(G > 0 && y),
+                            text: W.toString(),
+                            className: n()(W > 0 && y),
                           }),
-                          total: a().createElement(N.ZP, { text: W.toString() }),
+                          total: a().createElement(N.ZP, { text: G.toString() }),
                         },
                       },
                       className: v,

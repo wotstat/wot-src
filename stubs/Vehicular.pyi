@@ -29,7 +29,7 @@ GeneralWheelsAnimator: Any
 GunRecoilAnimator: Any
 GunRotatorAudition: Any
 LeveredSuspension: Final[int] = 8
-LinkedNodesPitchAnimator: Any
+LinkedNodesAnimator: Any
 LodCalculator: Any
 PhysicalTrack: Any
 PhysicalTrackBuilder: Any

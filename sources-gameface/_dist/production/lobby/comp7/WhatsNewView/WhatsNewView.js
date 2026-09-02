@@ -1525,10 +1525,10 @@
               T = u.wrap,
               L = u.flexWrap,
               y = void 0 === L ? (T ? "wrap" : void 0) : L,
-              O = u.grow,
-              R = u.shrink,
+              R = u.grow,
+              O = u.shrink,
               N = u.flex,
-              H = void 0 === N ? (O || R ? `${O ? 1 : 0} ${R ? 1 : 0} auto` : void 0) : N,
+              H = void 0 === N ? (R || O ? `${R ? 1 : 0} ${O ? 1 : 0} auto` : void 0) : N,
               k = u.style,
               P = u.children,
               I = (function (u, e) {
@@ -1950,14 +1950,14 @@
           soundHover: "highlight",
           soundClick: "play",
         };
-        var Ou = t(5521),
-          Ru = t(4179);
+        var Ru = t(5521),
+          Ou = t(4179);
         const Nu = (u) => {
           console.error(u.type + ": useKeydownListener hook :: Callback is not defined");
         };
-        function Hu(u = Ou.n.NONE, e = Nu, t = !1) {
+        function Hu(u = Ru.n.NONE, e = Nu, t = !1) {
           (0, a.useEffect)(() => {
-            if (u !== Ou.n.NONE)
+            if (u !== Ru.n.NONE)
               return (
                 window.addEventListener("keydown", a, t),
                 () => {
@@ -1978,7 +1978,7 @@
             var t;
             return (
               (t = u),
-              Hu(Ou.n.ESCAPE, t),
+              Hu(Ru.n.ESCAPE, t),
               r().createElement(
                 "div",
                 { className: h()(Pu, e) },
@@ -2256,42 +2256,42 @@
               switch (e) {
                 case Ju.SHORT_DATE:
                   return t
-                    ? Ru.Z5.getDateFormat(u, Ru.kH.SHORT_FORMAT)
-                    : Ru.cy.getTimeFormat("%d.%m.%y", u, !0);
+                    ? Ou.Z5.getDateFormat(u, Ou.kH.SHORT_FORMAT)
+                    : Ou.cy.getTimeFormat("%d.%m.%y", u, !0);
                 case Ju.SHORT_TIME:
                   return t
-                    ? Ru.Z5.getTimeFormat(u, Ru.lf.SHORT_FORMAT)
-                    : Ru.cy.getTimeFormat("%I:%M %p", u, !0);
+                    ? Ou.Z5.getTimeFormat(u, Ou.lf.SHORT_FORMAT)
+                    : Ou.cy.getTimeFormat("%I:%M %p", u, !0);
                 case Ju.SHORT_DATE_TIME:
                   return t
-                    ? `${Ru.Z5.getDateFormat(u, Ru.kH.SHORT_FORMAT)}, ${Ru.Z5.getTimeFormat(u, Ru.lf.SHORT_FORMAT)}`
-                    : Ru.cy.getTimeFormat("%d.%m.%y, %I:%M %p", u, !0);
+                    ? `${Ou.Z5.getDateFormat(u, Ou.kH.SHORT_FORMAT)}, ${Ou.Z5.getTimeFormat(u, Ou.lf.SHORT_FORMAT)}`
+                    : Ou.cy.getTimeFormat("%d.%m.%y, %I:%M %p", u, !0);
                 case Ju.FULL_DATE:
                   return t
-                    ? Ru.Z5.getDateFormat(u, Ru.kH.LONG_FORMAT)
-                    : Ru.cy.getTimeFormat("%B %d, %Y", u, !0);
+                    ? Ou.Z5.getDateFormat(u, Ou.kH.LONG_FORMAT)
+                    : Ou.cy.getTimeFormat("%B %d, %Y", u, !0);
                 case Ju.FULL_DATE_TIME:
                   return t
-                    ? `${Ru.Z5.getDateFormat(u, Ru.kH.LONG_FORMAT)}, ${Ru.Z5.getTimeFormat(u, Ru.lf.SHORT_FORMAT)}`
-                    : Ru.cy.getTimeFormat("%B %d, %Y, %I:%M %p", u, !0);
+                    ? `${Ou.Z5.getDateFormat(u, Ou.kH.LONG_FORMAT)}, ${Ou.Z5.getTimeFormat(u, Ou.lf.SHORT_FORMAT)}`
+                    : Ou.cy.getTimeFormat("%B %d, %Y, %I:%M %p", u, !0);
                 case Ju.MONTH:
-                  return Ru.cy.getTimeFormat("%B", u, !0);
+                  return Ou.cy.getTimeFormat("%B", u, !0);
                 case Ju.MONTH_DATE:
-                  return Ru.cy.getTimeFormat("%B %e", u, !0);
+                  return Ou.cy.getTimeFormat("%B %e", u, !0);
                 case Ju.DATE_MONTH:
-                  return Ru.cy.getTimeFormat("%e %B", u, !0);
+                  return Ou.cy.getTimeFormat("%e %B", u, !0);
                 case Ju.MONTH_YEAR:
-                  return Ru.cy.getTimeFormat("%B %Y", u, !0);
+                  return Ou.cy.getTimeFormat("%B %Y", u, !0);
                 case Ju.WEEK_DAY:
-                  return Ru.cy.getTimeFormat("%A", u, !0);
+                  return Ou.cy.getTimeFormat("%A", u, !0);
                 case Ju.WEEK_DAY_TIME:
                   return t
-                    ? `${Ru.cy.getTimeFormat("%A", u, !0)} ${Ru.Z5.getTimeFormat(u, Ru.lf.SHORT_FORMAT)}`
-                    : Ru.cy.getTimeFormat("%A, %I:%M %p", u, !0);
+                    ? `${Ou.cy.getTimeFormat("%A", u, !0)} ${Ou.Z5.getTimeFormat(u, Ou.lf.SHORT_FORMAT)}`
+                    : Ou.cy.getTimeFormat("%A, %I:%M %p", u, !0);
                 case Ju.YEAR:
-                  return Ru.cy.getTimeFormat("%Y", u, !0);
+                  return Ou.cy.getTimeFormat("%Y", u, !0);
                 case Ju.DATE_YEAR:
-                  return Ru.cy.getTimeFormat("%d, %Y", u, !0);
+                  return Ou.cy.getTimeFormat("%d, %Y", u, !0);
               }
             })(u, e, t),
           ),
@@ -2334,7 +2334,7 @@
               Object.assign(
                 {
                   __Type: "GFViewEventProxy",
-                  type: Ru.B0.TOOLTIP,
+                  type: Ou.B0.TOOLTIP,
                   contentID: u,
                   decoratorID: e,
                   targetID: a,
@@ -2714,8 +2714,8 @@
             const _ = Le(E, () => n(t - 1)),
               F = Le(A, () => n(t + 1));
             return (
-              Hu(Ou.n.ARROW_LEFT, _),
-              Hu(Ou.n.ARROW_RIGHT, F),
+              Hu(Ru.n.ARROW_LEFT, _),
+              Hu(Ru.n.ARROW_RIGHT, F),
               r().createElement(
                 "div",
                 { className: Te.base },
@@ -2761,27 +2761,32 @@
               )
             );
           };
-        let Oe, Re;
-        function Ne(u, e) {
+        let Re, Oe, Ne;
+        function He(u, e) {
           var t;
           if (!(e >= u.length))
             return Array.isArray(u) ? u[e] : null == (t = u[e]) ? void 0 : t.value;
         }
         (!(function (u) {
           ((u.Previous = "previous"), (u.Current = "current"), (u.Future = "future"));
-        })(Oe || (Oe = {})),
+        })(Re || (Re = {})),
           (function (u) {
             ((u[(u.Page = 0)] = "Page"),
               (u[(u.Maps = 1)] = "Maps"),
               (u[(u.SeasonVehicles = 2)] = "SeasonVehicles"));
-          })(Re || (Re = {})));
-        function He(u, e) {
+          })(Oe || (Oe = {})),
+          (function (u) {
+            ((u[(u.BASIC = 0)] = "BASIC"),
+              (u[(u.TRANSFER = 1)] = "TRANSFER"),
+              (u[(u.ELITE = 2)] = "ELITE"));
+          })(Ne || (Ne = {})));
+        function ke(u, e) {
           return Array.isArray(u)
             ? u.map(e)
             : u.map((u, t, a) => e(null == u ? void 0 : u.value, t, a));
         }
-        var ke = t(3946);
-        const Pe = zu()(
+        var Pe = t(3946);
+        const Ie = zu()(
             ({ observableModel: u }) => {
               const e = {
                   root: u.object(),
@@ -2790,37 +2795,37 @@
                   deprecatedMaps: u.array("depricatedMaps"),
                   vehicles: u.array("vehicles"),
                 },
-                t = (0, ke.Om)(() => e.vehicles.get().length),
-                a = (0, ke.Om)(() => e.deprecatedMaps.get().items.length),
-                r = (0, ke.Om)(() => e.newMaps.get().items.length),
-                n = (0, ke.Om)(
+                t = (0, Pe.Om)(() => e.vehicles.get().length),
+                a = (0, Pe.Om)(() => e.deprecatedMaps.get().items.length),
+                r = (0, Pe.Om)(() => e.newMaps.get().items.length),
+                n = (0, Pe.Om)(
                   (u) => {
-                    const e = Ne(i(), u);
+                    const e = He(i(), u);
                     if (!e) throw new Error(`vehicle item with index ${u} was not found`);
                     return Object.assign({}, e);
                   },
                   { equals: $u },
                 ),
-                i = (0, ke.Om)(() => He(e.vehicles.get(), Vu), { equals: $u }),
-                s = (0, ke.Om)(() => He(e.pages.get().items, Vu), { equals: $u }),
-                o = (0, ke.Om)(
+                i = (0, Pe.Om)(() => ke(e.vehicles.get(), Vu), { equals: $u }),
+                s = (0, Pe.Om)(() => ke(e.pages.get().items, Vu), { equals: $u }),
+                o = (0, Pe.Om)(
                   (u) => {
-                    const e = Ne(l(), u);
+                    const e = He(l(), u);
                     if (!e) throw new Error(`newMap item with index ${u} was not found`);
                     return e.name;
                   },
                   { equals: $u },
                 ),
-                l = (0, ke.Om)(() => He(e.newMaps.get().items, Vu), { equals: $u }),
-                E = (0, ke.Om)(
+                l = (0, Pe.Om)(() => ke(e.newMaps.get().items, Vu), { equals: $u }),
+                E = (0, Pe.Om)(
                   (u) => {
-                    const e = Ne(A(), u);
+                    const e = He(A(), u);
                     if (!e) throw new Error(`deprecatedMap item with index ${u} was not found`);
                     return e.name;
                   },
                   { equals: $u },
                 ),
-                A = (0, ke.Om)(() => He(e.deprecatedMaps.get().items, Vu), { equals: $u });
+                A = (0, Pe.Om)(() => ke(e.deprecatedMaps.get().items, Vu), { equals: $u });
               return Object.assign({}, e, {
                 computes: {
                   getVehicleItems: i,
@@ -2841,84 +2846,84 @@
               openVideo: u.createCallbackNoArgs("onVideoOpen"),
             }),
           ),
-          Ie = Pe[0],
-          We = Pe[1],
-          Ge = "App_base_96",
-          Ue = "App_content_65",
-          Ve = "App_buttonWrapper_90",
-          $e = "App_button_e8",
-          je = "CustomSlide_base_35",
-          Xe = "CustomSlide_title_91",
-          Ke = "CustomSlide_content_98",
-          Ye = "CustomSlide_description_09",
-          ze = "CustomSlide_descriptionText_a7",
-          qe = R.strings.comp7.whatsNewView.slides,
-          Ze = ({ id: u, children: e, isHideDescription: t }) =>
+          We = Ie[0],
+          Ge = Ie[1],
+          Ue = "App_base_96",
+          Ve = "App_content_65",
+          $e = "App_buttonWrapper_90",
+          je = "App_button_e8",
+          Xe = "CustomSlide_base_35",
+          Ke = "CustomSlide_title_91",
+          Ye = "CustomSlide_content_98",
+          ze = "CustomSlide_description_09",
+          qe = "CustomSlide_descriptionText_a7",
+          Ze = R.strings.comp7.whatsNewView.slides,
+          Qe = ({ id: u, children: e, isHideDescription: t }) =>
             r().createElement(
               "div",
-              { className: je },
+              { className: Xe },
               r().createElement(xu, {
-                text: String(qe.title.$dyn(u)),
-                className: Xe,
+                text: String(Ze.title.$dyn(u)),
+                className: Ke,
                 variant: "heading-H22",
                 variant_lg: "heading-H28",
               }),
-              r().createElement("div", { className: Ke }, e),
+              r().createElement("div", { className: Ye }, e),
               !t &&
                 r().createElement(xu, {
-                  text: `${qe.description.$dyn(u)}`,
-                  className: Ye,
+                  text: `${Ze.description.$dyn(u)}`,
+                  className: ze,
                   variant: "paragraph-P14",
-                  format: { classMix: ze },
+                  format: { classMix: qe },
                 }),
             ),
-          Qe = "grid_row_3d",
-          Je = "grid_cell_62",
-          ut = "Map_base_67",
-          et = "Map_base__removed_9a",
-          tt = "Map_image_bd",
-          at = "Map_mapName_6e",
-          rt = "Map_details_84",
-          nt = "Map_background_a4",
-          it = R.images.gui.maps.icons.map.stats,
-          st = R.strings.arenas,
-          ot = ({ name: u, classNames: e, isRemoved: t }) => {
-            const a = it.$dyn(`c_${u}`),
-              n = st.$dyn(`c_${u}`),
-              i = h()(ut, null == e ? void 0 : e.mapContainer, t && et);
+          Je = "grid_row_3d",
+          ut = "grid_cell_62",
+          et = "Map_base_67",
+          tt = "Map_base__removed_9a",
+          at = "Map_image_bd",
+          rt = "Map_mapName_6e",
+          nt = "Map_details_84",
+          it = "Map_background_a4",
+          st = R.images.gui.maps.icons.map.stats,
+          ot = R.strings.arenas,
+          lt = ({ name: u, classNames: e, isRemoved: t }) => {
+            const a = st.$dyn(`c_${u}`),
+              n = ot.$dyn(`c_${u}`),
+              i = h()(et, null == e ? void 0 : e.mapContainer, t && tt);
             return r().createElement(
               "div",
               { className: i },
               r().createElement("div", {
-                className: h()(tt, null == e ? void 0 : e.image),
+                className: h()(at, null == e ? void 0 : e.image),
                 style: { backgroundImage: `url(${a})` },
               }),
               r().createElement(
                 "div",
-                { className: rt },
-                r().createElement("div", { className: h()(nt, null == e ? void 0 : e.background) }),
+                { className: nt },
+                r().createElement("div", { className: h()(it, null == e ? void 0 : e.background) }),
                 r().createElement(xu, {
                   text: String(n.$dyn("name")),
                   variant: "heading-H14",
-                  className: at,
+                  className: rt,
                 }),
               ),
             );
           },
-          lt = "Separator_base_d8",
-          Et = "Separator_line_5d",
-          At = "Separator_line__toRight_ad",
-          ct = "Separator_line__toLeft_e9",
-          _t = "Separator_text_77",
-          Ft = ({ text: u }) =>
+          Et = "Separator_base_d8",
+          At = "Separator_line_5d",
+          ct = "Separator_line__toRight_ad",
+          _t = "Separator_line__toLeft_e9",
+          Ft = "Separator_text_77",
+          mt = ({ text: u }) =>
             r().createElement(
               "div",
-              { className: lt },
-              r().createElement("div", { className: h()(Et, At) }),
-              r().createElement(xu, { text: u, variant: "paragraph-P14", className: _t }),
-              r().createElement("div", { className: h()(Et, ct) }),
+              { className: Et },
+              r().createElement("div", { className: h()(At, ct) }),
+              r().createElement(xu, { text: u, variant: "paragraph-P14", className: Ft }),
+              r().createElement("div", { className: h()(At, _t) }),
             ),
-          mt = {
+          Dt = {
             base: "MapsSlide_base_ce",
             base__center: "MapsSlide_base__center_55",
             row: "MapsSlide_row_21",
@@ -2929,9 +2934,9 @@
             smallMapImage: "MapsSlide_smallMapImage_03",
             smallMapBackground: "MapsSlide_smallMapBackground_6c",
           },
-          Dt = R.strings.comp7.whatsNewView,
-          dt = (0, Mu.Pi)(() => {
-            const u = We().model.computes,
+          dt = R.strings.comp7.whatsNewView,
+          Bt = (0, Mu.Pi)(() => {
+            const u = Ge().model.computes,
               e = w().mediaSize,
               t = u.getNewMaps(),
               a = u.getDeprecatedMaps(),
@@ -2942,12 +2947,12 @@
               l = !s || !o,
               E = e <= v.Medium && s && o,
               A = n + i,
-              c = h()(mt.base, l && mt.base__center),
-              _ = h()(Qe, mt.row, l && mt.row__center, A <= 4 && mt.row__withPadding),
+              c = h()(Dt.base, l && Dt.base__center),
+              _ = h()(Je, Dt.row, l && Dt.row__center, A <= 4 && Dt.row__withPadding),
               F = {
-                mapContainer: E ? mt.smallMap : "",
-                image: E ? mt.smallMapImage : "",
-                background: E ? mt.smallMapBackground : "",
+                mapContainer: E ? Dt.smallMap : "",
+                image: E ? Dt.smallMapImage : "",
+                background: E ? Dt.smallMapBackground : "",
               };
             return r().createElement(
               "div",
@@ -2956,15 +2961,15 @@
                 r().createElement(
                   "div",
                   { className: _ },
-                  r().createElement(Ft, { text: Dt.newMaps() }),
+                  r().createElement(mt, { text: dt.newMaps() }),
                   r().createElement(
                     "div",
-                    { className: mt.mapsContainer },
+                    { className: Dt.mapsContainer },
                     t.map((e, t) =>
                       r().createElement(
                         "div",
-                        { className: mt.map, key: t },
-                        r().createElement(ot, { name: u.getNewMapName(t), classNames: F }),
+                        { className: Dt.map, key: t },
+                        r().createElement(lt, { name: u.getNewMapName(t), classNames: F }),
                       ),
                     ),
                   ),
@@ -2973,15 +2978,15 @@
                 r().createElement(
                   "div",
                   { className: _ },
-                  r().createElement(Ft, { text: Dt.deprecatedMaps() }),
+                  r().createElement(mt, { text: dt.deprecatedMaps() }),
                   r().createElement(
                     "div",
-                    { className: mt.mapsContainer },
+                    { className: Dt.mapsContainer },
                     a.map((e, t) =>
                       r().createElement(
                         "div",
-                        { className: mt.map, key: t },
-                        r().createElement(ot, {
+                        { className: Dt.map, key: t },
+                        r().createElement(lt, {
                           name: u.getDeprecatedMapName(t),
                           isRemoved: !0,
                           classNames: F,
@@ -2992,23 +2997,23 @@
                 ),
             );
           });
-        let Bt;
+        let Ct;
         !(function (u) {
           ((u.Normal = "normal"), (u.Small = "small"));
-        })(Bt || (Bt = {}));
-        const Ct = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
-          ht = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
-        const gt = ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE()),
-          pt = (u) =>
-            gt
+        })(Ct || (Ct = {}));
+        const ht = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
+          gt = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
+        const pt = ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE()),
+          vt = (u) =>
+            pt
               ? `${u}`
               : (function (u) {
                   let e = "";
-                  for (let t = ht.length - 1; t >= 0; t--)
-                    for (; u >= ht[t];) ((e += Ct[t]), (u -= ht[t]));
+                  for (let t = gt.length - 1; t >= 0; t--)
+                    for (; u >= gt[t];) ((e += ht[t]), (u -= gt[t]));
                   return e;
                 })(u),
-          vt = {
+          bt = {
             base: "VehicleName_base_3b",
             base__24x24: "VehicleName_base__24x24_a7",
             base__24x24_metal: "VehicleName_base__24x24_metal_92",
@@ -3019,7 +3024,7 @@
             base__60x54: "VehicleName_base__60x54_08",
             vehicleType: "VehicleName_vehicleType_c3",
           };
-        let bt;
+        let ft;
         !(function (u) {
           ((u.x24 = "24x24"),
             (u.x24Metal = "24x24_metal"),
@@ -3029,27 +3034,27 @@
             (u.x80 = "80x80"),
             (u.x83 = "83x74"),
             (u.x180 = "180x135"));
-        })(bt || (bt = {}));
-        const ft = R.images.gui.maps.icons.vehicleTypes,
-          wt = (u) => {
+        })(ft || (ft = {}));
+        const wt = R.images.gui.maps.icons.vehicleTypes,
+          xt = (u) => {
             switch (u) {
-              case bt.x80:
-                return ft.large;
-              case bt.x83:
-                return ft.big;
-              case bt.x180:
-                return ft.huge;
+              case ft.x80:
+                return wt.large;
+              case ft.x83:
+                return wt.big;
+              case ft.x180:
+                return wt.huge;
               default:
-                return ft.$dyn(`c_${u}`);
+                return wt.$dyn(`c_${u}`);
             }
           },
-          xt = (0, a.memo)(
+          Mt = (0, a.memo)(
             ({
               name: u,
               level: e,
               type: t,
-              size: a = bt.x24Metal,
-              typeIconFolderPath: n = wt(a),
+              size: a = ft.x24Metal,
+              typeIconFolderPath: n = xt(a),
               isPremium: i = !1,
               nation: s,
               className: o,
@@ -3058,135 +3063,135 @@
               const E = `${iu(t)}${i ? "_elite" : ""}`;
               return r().createElement(
                 "div",
-                { className: h()(vt.base, vt[`base__${a}`], o) },
+                { className: h()(bt.base, bt[`base__${a}`], o) },
                 s,
-                r().createElement("div", { className: null == l ? void 0 : l.level }, pt(e)),
+                r().createElement("div", { className: null == l ? void 0 : l.level }, vt(e)),
                 r().createElement(
                   "div",
                   {
                     className: h()(
-                      vt.vehicleTypeContainer,
+                      bt.vehicleTypeContainer,
                       null == l ? void 0 : l.vehicleTypeContainer,
                     ),
                   },
                   r().createElement("div", {
-                    className: h()(vt.vehicleType, null == l ? void 0 : l.type),
+                    className: h()(bt.vehicleType, null == l ? void 0 : l.type),
                     style: { backgroundImage: `url(${null == n ? void 0 : n.$dyn(E)})` },
                   }),
                 ),
                 r().createElement(
                   "div",
-                  { className: h()(vt.shortName, null == l ? void 0 : l.shortName) },
+                  { className: h()(bt.shortName, null == l ? void 0 : l.shortName) },
                   u,
                 ),
               );
             },
           ),
-          Mt = {
+          St = {
             base: "VehicleRole_base_04",
             base__22x22: "VehicleRole_base__22x22_d4",
             iconContainer: "VehicleRole_iconContainer_0e",
             icon: "VehicleRole_icon_61",
           };
-        let St;
+        let Tt;
         !(function (u) {
           u.x22 = "22x22";
-        })(St || (St = {}));
-        const Tt = R.images.gui.maps.icons.roleExp.roles,
-          Lt = R.strings.menu.roleExp,
-          yt = (0, a.memo)(
+        })(Tt || (Tt = {}));
+        const Lt = R.images.gui.maps.icons.roleExp.roles,
+          yt = R.strings.menu.roleExp,
+          Rt = (0, a.memo)(
             ({
               role: u,
-              size: e = St.x22,
-              roleIconFolderPath: t = Tt.$dyn(`c_${e}`),
+              size: e = Tt.x22,
+              roleIconFolderPath: t = Lt.$dyn(`c_${e}`),
               className: a,
               classNames: n,
             }) => {
               const i = iu(u);
               return r().createElement(
                 "div",
-                { className: h()(Mt.base, Mt[`base__${e}`], a) },
+                { className: h()(St.base, St[`base__${e}`], a) },
                 r().createElement(
                   "div",
-                  { className: h()(Mt.iconContainer, null == n ? void 0 : n.iconContainer) },
+                  { className: h()(St.iconContainer, null == n ? void 0 : n.iconContainer) },
                   r().createElement("div", {
-                    className: h()(Mt.icon, null == n ? void 0 : n.icon),
+                    className: h()(St.icon, null == n ? void 0 : n.icon),
                     style: { backgroundImage: `url(${null == t ? void 0 : t.$dyn(i)})` },
                   }),
                 ),
                 r().createElement(
                   "div",
-                  { className: h()(Mt.label, null == n ? void 0 : n.label) },
+                  { className: h()(St.label, null == n ? void 0 : n.label) },
                   r().createElement(Fu, {
-                    text: `${Lt.roleName.$dyn(i)}`,
-                    binding: { groupName: Lt.roleGroupName.$dyn(i) },
+                    text: `${yt.roleName.$dyn(i)}`,
+                    binding: { groupName: yt.roleGroupName.$dyn(i) },
                   }),
                 ),
               );
             },
           ),
           Ot = "Vehicle_base_1a",
-          Rt = "Vehicle_base__small_ad",
-          Nt = "Vehicle_image_34",
-          Ht = "Vehicle_image__small_76",
-          kt = "Vehicle_details_7d",
-          Pt = "Vehicle_shortName_dd",
-          It = "Vehicle_level_12",
-          Wt = "Vehicle_vehicleName_21",
-          Gt = "Vehicle_typeIcon_1a",
-          Ut = "Vehicle_type_4f",
-          Vt = "Vehicle_type__small_f9",
-          $t = { icon: "Vehicle_vehicleRoleIcon_2a", label: "Vehicle_vehicleRoleLabel_a5" },
-          jt = R.images.comp7.gui.maps.icons.comp7.whatsNewView,
-          Xt = ({ vehicle: u, type: e }) => {
-            const t = h()(Ot, e === Bt.Small && Rt),
-              a = h()(Nt, e === Bt.Small && Ht),
+          Nt = "Vehicle_base__small_ad",
+          Ht = "Vehicle_image_34",
+          kt = "Vehicle_image__small_76",
+          Pt = "Vehicle_details_7d",
+          It = "Vehicle_shortName_dd",
+          Wt = "Vehicle_level_12",
+          Gt = "Vehicle_vehicleName_21",
+          Ut = "Vehicle_typeIcon_1a",
+          Vt = "Vehicle_type_4f",
+          $t = "Vehicle_type__small_f9",
+          jt = { icon: "Vehicle_vehicleRoleIcon_2a", label: "Vehicle_vehicleRoleLabel_a5" },
+          Xt = R.images.comp7.gui.maps.icons.comp7.whatsNewView,
+          Kt = ({ vehicle: u, type: e }) => {
+            const t = h()(Ot, e === Ct.Small && Nt),
+              a = h()(Ht, e === Ct.Small && kt),
               n = {
-                type: h()(Gt, Ut, e === Bt.Small && Vt),
-                vehicleTypeContainer: h()(Gt, Ut),
-                shortName: Pt,
-                level: It,
+                type: h()(Ut, Vt, e === Ct.Small && $t),
+                vehicleTypeContainer: h()(Ut, Vt),
+                shortName: It,
+                level: Wt,
               };
             return r().createElement(
               "div",
               { className: t },
               r().createElement("div", {
                 className: a,
-                style: { backgroundImage: `url(${jt.vehiclesForRent.$dyn(u.techName)})` },
+                style: { backgroundImage: `url(${Xt.vehiclesForRent.$dyn(u.techName)})` },
               }),
               r().createElement(
                 "div",
-                { className: kt },
-                r().createElement(xt, {
+                { className: Pt },
+                r().createElement(Mt, {
                   name: u.name,
                   level: u.tier,
                   type: u.type,
                   isPremium: u.isPremium,
-                  size: bt.x48,
-                  className: Wt,
+                  size: ft.x48,
+                  className: Gt,
                   classNames: n,
-                  typeIconFolderPath: jt.vehicleTypes,
+                  typeIconFolderPath: Xt.vehicleTypes,
                 }),
-                r().createElement(yt, { role: u.roleKey, classNames: $t }),
+                r().createElement(Rt, { role: u.roleKey, classNames: jt }),
               ),
             );
           },
-          Kt = "VehiclesForRentSlide_base_d0",
-          Yt = "VehiclesForRentSlide_base__bigContainer_8d",
-          zt = "VehiclesForRentSlide_row_08",
-          qt = "VehiclesForRentSlide_row__smallCards_86",
-          Zt = "VehiclesForRentSlide_vehicle_cd",
-          Qt = "VehiclesForRentSlide_vehicle__small_53",
-          Jt = (0, Mu.Pi)(() => {
-            const u = We().model.computes,
+          Yt = "VehiclesForRentSlide_base_d0",
+          zt = "VehiclesForRentSlide_base__bigContainer_8d",
+          qt = "VehiclesForRentSlide_row_08",
+          Zt = "VehiclesForRentSlide_row__smallCards_86",
+          Qt = "VehiclesForRentSlide_vehicle_cd",
+          Jt = "VehiclesForRentSlide_vehicle__small_53",
+          ua = (0, Mu.Pi)(() => {
+            const u = Ge().model.computes,
               e = u.getVehicleItems(),
               t = u.vehicleItemsLength(),
               a = t > 3,
               n = t > 4,
-              i = a ? Bt.Small : Bt.Normal,
-              s = h()(Kt, n && Yt),
-              o = h()(Qe, zt, a && qt),
-              l = h()(Je, Zt, a && Qt);
+              i = a ? Ct.Small : Ct.Normal,
+              s = h()(Yt, n && zt),
+              o = h()(Je, qt, a && Zt),
+              l = h()(ut, Qt, a && Jt);
             return r().createElement(
               "div",
               { className: s },
@@ -3197,38 +3202,38 @@
                   r().createElement(
                     "div",
                     { className: l, key: t },
-                    r().createElement(Xt, { vehicle: u.getVehicleByIndex(t), type: i }),
+                    r().createElement(Kt, { vehicle: u.getVehicleByIndex(t), type: i }),
                   ),
                 ),
               ),
             );
           }),
-          ua = { context: "model.scheduleInfo" },
-          ea = R.strings.comp7.whatsNewView,
-          ta = (0, Mu.Pi)(() => {
-            const u = We(),
+          ea = { context: "model.scheduleInfo" },
+          ta = R.strings.comp7.whatsNewView,
+          aa = (0, Mu.Pi)(() => {
+            const u = Ge(),
               e = u.controls,
               t = u.model.computes.getPages();
             return r().createElement(
               "div",
-              { className: Ge },
-              r().createElement(Gu, { className: ku }, r().createElement(xu, { text: ea.title() })),
-              r().createElement(Zu, { options: ua }, r().createElement(he, null)),
+              { className: Ue },
+              r().createElement(Gu, { className: ku }, r().createElement(xu, { text: ta.title() })),
+              r().createElement(Zu, { options: ea }, r().createElement(he, null)),
               r().createElement(
                 "div",
-                { className: Ue },
+                { className: Ve },
                 r().createElement(ye, {
                   slides: t.map((u) =>
                     ((u) => {
                       switch (u.pageType) {
-                        case Re.Maps:
+                        case Oe.Maps:
                           return r().createElement(
-                            Ze,
+                            Qe,
                             { id: u.name, isHideDescription: !0 },
-                            r().createElement(dt, null),
+                            r().createElement(Bt, null),
                           );
-                        case Re.SeasonVehicles:
-                          return r().createElement(Ze, { id: u.name }, r().createElement(Jt, null));
+                        case Oe.SeasonVehicles:
+                          return r().createElement(Qe, { id: u.name }, r().createElement(ua, null));
                         default:
                           return r().createElement(Se, {
                             id: u.name,
@@ -3241,11 +3246,11 @@
               ),
               r().createElement(
                 "div",
-                { className: Ve },
+                { className: $e },
                 r().createElement(
                   $,
-                  { type: G.primary, size: U.medium, mixClass: $e, onClick: e.close },
-                  ea.confirmButton(),
+                  { type: G.primary, size: U.medium, mixClass: je, onClick: e.close },
+                  ta.confirmButton(),
                 ),
               ),
               r().createElement(Iu, { onClose: e.close }),
@@ -3253,7 +3258,7 @@
           });
         engine.whenReady.then(() => {
           k().render(
-            r().createElement(Ie, null, r().createElement(N, null, r().createElement(ta, null))),
+            r().createElement(We, null, r().createElement(N, null, r().createElement(aa, null))),
             document.getElementById("root"),
           );
         });

@@ -3616,7 +3616,29 @@ RECORDS = (
  (
   b'singleAchievements', b'comp7_5_4_legend', b'p', b'B', 1),
  (
-  b'singleAchievements', b'BirthdayPr_2026', b'p', b'B', 1))
+  b'singleAchievements', b'BirthdayPr_2026', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'wt2026', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'BattlePassCommonPr_21', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'clan_season_26_first', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'clan_season_26_last', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_champion_0', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_champion_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_champion_2', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_legend_0', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_legend_1', b'p', b'B', 1),
+ (
+  b'singleAchievements', b'comp7_6_1_legend_2', b'p', b'B', 1))
 RECORD_INDICES = dict((rec[:2], idx) for idx, rec in enumerate(RECORDS))
 RECORD_DB_IDS = {(b'total', b'creationTime'): 68, 
    (b'total', b'lastBattleTime'): 7, 
@@ -5426,7 +5448,18 @@ RECORD_DB_IDS = {(b'total', b'creationTime'): 68,
    (b'singleAchievements', b'comp7_5_4'): 31168, 
    (b'singleAchievements', b'comp7_5_4_champion'): 31169, 
    (b'singleAchievements', b'comp7_5_4_legend'): 31170, 
-   (b'singleAchievements', b'BirthdayPr_2026'): 31171}
+   (b'singleAchievements', b'BirthdayPr_2026'): 31171, 
+   (b'singleAchievements', b'wt2026'): 31172, 
+   (b'singleAchievements', b'BattlePassCommonPr_21'): 31173, 
+   (b'singleAchievements', b'clan_season_26_first'): 31174, 
+   (b'singleAchievements', b'clan_season_26_last'): 31175, 
+   (b'singleAchievements', b'comp7_6_1'): 31176, 
+   (b'singleAchievements', b'comp7_6_1_champion_0'): 31177, 
+   (b'singleAchievements', b'comp7_6_1_champion_1'): 31178, 
+   (b'singleAchievements', b'comp7_6_1_champion_2'): 31179, 
+   (b'singleAchievements', b'comp7_6_1_legend_0'): 31180, 
+   (b'singleAchievements', b'comp7_6_1_legend_1'): 31181, 
+   (b'singleAchievements', b'comp7_6_1_legend_2'): 31182}
 DB_ID_TO_RECORD = dict([(value, key) for key, value in RECORD_DB_IDS.iteritems()])
 RECORD_DB_IDS.update({(b'vehTypeFrags', b''): 863, 
    (b'a15x15Cut', b''): 864, 

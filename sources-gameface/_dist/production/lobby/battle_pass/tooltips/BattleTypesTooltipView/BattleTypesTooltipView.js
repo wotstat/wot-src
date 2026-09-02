@@ -1431,9 +1431,7 @@
                       },
                     }),
                     J().createElement(Fe, {
-                      text:
-                        ((e = Se.$num(291 === u ? 29 : u)),
-                        e.replaceAll("«", "").replaceAll("»", "")),
+                      text: ((e = Se.$num(u)), e.replaceAll("«", "").replaceAll("»", "")),
                       className: pe,
                     }),
                   );

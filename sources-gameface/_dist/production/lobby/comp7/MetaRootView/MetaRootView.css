@@ -454,6 +454,51 @@ body {
   line-height: 1.1;
 }
 
+.FormatText_base_d0 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ActiveSeasonState_base_55 {
+  display: flex;
+  align-items: center;
+}
+
+.ActiveSeasonState_calendarIcon_df {
+  width: 21rem;
+  height: 21rem;
+  margin-right: 8rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.icons.calendar") no-repeat center / cover;
+  transform: translateY(2rem);
+}
+
+.mediaLarge .ActiveSeasonState_calendarIcon_df {
+  width: 14rem;
+  height: 16rem;
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.icons.calendar_14x16");
+}
+
+.ActiveSeasonState_divider_5b {
+  width: 2rem;
+  height: 17rem;
+  margin: 2rem 12rem 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ScheduleSubheading_base_f7 {
+  color: #ffffff;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+}
+.mediaLarge .ScheduleSubheading_base_f7 {
+  color: #ffffff;
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
 .CButton_base_40 {
   display: flex;
   justify-content: center;
@@ -713,6 +758,443 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   min-height: 32rem;
 }
 
+.Box_mt__XS_0c {
+  margin-top: 4rem;
+}
+.Box_mt__SM_eb {
+  margin-top: 8rem;
+}
+.Box_mt__SMp_cf {
+  margin-top: 10rem;
+}
+.Box_mt__MD_25 {
+  margin-top: 16rem;
+}
+.Box_mt__MDp_49 {
+  margin-top: 20rem;
+}
+.Box_mt__LG_e8 {
+  margin-top: 32rem;
+}
+.Box_mt__XL_83 {
+  margin-top: 64rem;
+}
+
+.Box_mr__XS_7c {
+  margin-right: 4rem;
+}
+
+.Box_mr__SM_08 {
+  margin-right: 8rem;
+}
+
+.Box_mr__SMp_06 {
+  margin-right: 10rem;
+}
+
+.Box_mr__MD_4a {
+  margin-right: 16rem;
+}
+
+.Box_mr__MDp_b6 {
+  margin-right: 20rem;
+}
+
+.Box_mr__LG_d0 {
+  margin-right: 32rem;
+}
+
+.Box_mr__XL_db {
+  margin-right: 64rem;
+}
+
+.Box_mb__XS_bb {
+  margin-bottom: 4rem;
+}
+
+.Box_mb__SM_83 {
+  margin-bottom: 8rem;
+}
+
+.Box_mb__SMp_04 {
+  margin-bottom: 10rem;
+}
+
+.Box_mb__MD_ed {
+  margin-bottom: 16rem;
+}
+
+.Box_mb__MDp_65 {
+  margin-bottom: 20rem;
+}
+
+.Box_mb__LG_c8 {
+  margin-bottom: 32rem;
+}
+
+.Box_mb__XL_f8 {
+  margin-bottom: 64rem;
+}
+
+.Box_ml__XS_8a {
+  margin-left: 4rem;
+}
+
+.Box_ml__SM_e6 {
+  margin-left: 8rem;
+}
+
+.Box_ml__SMp_fb {
+  margin-left: 10rem;
+}
+
+.Box_ml__MD_2b {
+  margin-left: 16rem;
+}
+
+.Box_ml__MDp_c7 {
+  margin-left: 20rem;
+}
+
+.Box_ml__LG_39 {
+  margin-left: 32rem;
+}
+
+.Box_ml__XL_4a {
+  margin-left: 64rem;
+}
+
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.Text_paragraph-P12_22 {
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.Text_paragraph-P14_a7 {
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.Text_paragraph-P16_90 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.Text_paragraph-P18_50 {
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.Text_paragraph-P24_33 {
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 32rem;
+}
+.Text_heading-H14_8b {
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+.Text_heading-H15_9e {
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+.Text_heading-H18_b7 {
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.Text_heading-H22_27 {
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.Text_heading-H24R_be {
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.Text_heading-H24_0c {
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.Text_heading-H28_78 {
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H36_32 {
+  font-size: 36rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H56_c3 {
+  font-size: 56rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H73_8f {
+  font-size: 73rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+  font-size: 144rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+  color: #000000;
+}
+.Text_WHITE_REAL_bc {
+  color: #ffffff;
+}
+.Text_WHITE_62 {
+  color: #f2f2f7;
+}
+.Text_WHITE_ORANGE_54 {
+  color: #fefeec;
+}
+.Text_WHITE_SPANISH_df {
+  color: #e9e2bf;
+}
+.Text_PAR_15 {
+  color: #8c8c7e;
+}
+.Text_PAR_SECONDARY_5d {
+  color: #595950;
+}
+.Text_PAR_TERTIARY_c9 {
+  color: #37362e;
+}
+.Text_INFO_RED_30 {
+  color: #ff0000;
+}
+.Text_RED_66 {
+  color: #ff2717;
+}
+.Text_RED_DARK_d8 {
+  color: #b70000;
+}
+.Text_YELLOW_ed {
+  color: #feab34;
+}
+.Text_ORANGE_be {
+  color: #ee7000;
+}
+.Text_CREAM_57 {
+  color: #ffdd99;
+}
+.Text_BROWN_18 {
+  color: #cbac77;
+}
+.Text_GREEN_BRIGHT_3f {
+  color: #80d43a;
+}
+.Text_GREEN_e3 {
+  color: #7ab300;
+}
+.Text_GREEN_DARK_f1 {
+  color: #497212;
+}
+.Text_BLUE_BOOSTER_21 {
+  color: #ccffff;
+}
+.Text_BLUE_TEAMKILLER_ab {
+  color: #09e2ff;
+}
+.Text_CRED_f7 {
+  color: #ced9d9;
+}
+.Text_GOLD_28 {
+  color: #ffc363;
+}
+.Text_BOND_be {
+  color: #c9c9b6;
+}
+.Text_PROM_65 {
+  color: #a29b70;
+}
+
+.LastUpdateNote_base_7f {
+  display: flex;
+  align-items: center;
+}
+
+.LastUpdateNote_infoIcon_5c {
+  width: 24rem;
+  height: 24rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.icons.infoIcon") no-repeat center / cover;
+}
+
+.LastUpdateNote_lineDivider_2c {
+  width: 1rem;
+  height: 14rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  background-color: #595950;
+  opacity: 0.5;
+}
+
+.FormatTextWithColorTags_blackReal_3c {
+  color: #000000;
+}
+
+.FormatTextWithColorTags_whiteReal_8a {
+  color: #ffffff;
+}
+
+.FormatTextWithColorTags_white_16 {
+  color: #f2f2f7;
+}
+
+.FormatTextWithColorTags_whiteOrange_18 {
+  color: #fefeec;
+}
+
+.FormatTextWithColorTags_whiteSpanish_10 {
+  color: #e9e2bf;
+}
+
+.FormatTextWithColorTags_par_ca {
+  color: #8c8c7e;
+}
+
+.FormatTextWithColorTags_parSecondary_8d {
+  color: #595950;
+}
+
+.FormatTextWithColorTags_parTertiary_a3 {
+  color: #37362e;
+}
+
+.FormatTextWithColorTags_red_60 {
+  color: #ff2717;
+}
+
+.FormatTextWithColorTags_redDark_03 {
+  color: #b70000;
+}
+
+.FormatTextWithColorTags_yellow_ad {
+  color: #feab34;
+}
+
+.FormatTextWithColorTags_orange_e4 {
+  color: #ee7000;
+}
+
+.FormatTextWithColorTags_cream_cd {
+  color: #ffdd99;
+}
+
+.FormatTextWithColorTags_brown_c8 {
+  color: #cbac77;
+}
+
+.FormatTextWithColorTags_greenBright_f0 {
+  color: #80d43a;
+}
+
+.FormatTextWithColorTags_green_c5 {
+  color: #7ab300;
+}
+
+.FormatTextWithColorTags_greenDark_af {
+  color: #497212;
+}
+
+.FormatTextWithColorTags_blueBooster_ac {
+  color: #ccffff;
+}
+
+.FormatTextWithColorTags_blueTeamkiller_6f {
+  color: #09e2ff;
+}
+
+.FormatTextWithColorTags_cred_4e {
+  color: #ced9d9;
+}
+
+.FormatTextWithColorTags_gold_90 {
+  color: #ffc363;
+}
+
+.FormatTextWithColorTags_bond_71 {
+  color: #c9c9b6;
+}
+
+.FormatTextWithColorTags_prom_dd {
+  color: #a29b70;
+}
+
+.NoRecordsState_base_9b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.NoRecordsState_imageContainer_13 {
+  width: 420rem;
+  height: 260rem;
+  margin-bottom: 20rem;
+  position: relative;
+}
+
+.NoRecordsState_image_fe {
+  width: 540rem;
+  height: 380rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.icons.leaderboardRanks") no-repeat center /
+    cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.NoRecordsState_title_f4 {
+  color: #ffffff;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mediaMedium .NoRecordsState_title_f4 {
+  color: #ffffff;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.NoRecordsState_subtitle_5b {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  justify-content: center;
+  max-width: 550rem;
+  margin-top: 10rem;
+}
+
+.mediaMedium .NoRecordsState_subtitle_5b {
+  margin-top: 12rem;
+}
+
 /* delay should be set always separately only for appearance effect, not hiding */
 /* should be percentage of screen width */
 .CurrentPositionPanel_base_92 {
@@ -914,16 +1396,28 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-bottom: 1rem solid rgba(255, 255, 255, 0.07);
-  background: url("R.images.comp7.gui.maps.icons.comp7.icons.rowsDivider") no-repeat bottom center /
-    840rem 70rem;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background:
+    url("R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerCenter") no-repeat bottom center /
+      840rem 100%,
+    url("R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerLeft") no-repeat bottom left / 264rem
+      100%,
+    url("R.images.comp7.gui.maps.icons.comp7.icons.rowsDividerRight") no-repeat bottom right /
+      264rem 100%,
+    rgba(255, 255, 255, 0.04);
 }
 .RowsDivider_rankText_96 {
-  color: #f2f2f7;
+  color: #ffffff;
   font-size: 15rem;
   font-weight: 700;
   line-height: 1.15;
   margin-left: 14rem;
+  line-height: 1.3;
+}
+.RowsDivider_divisionText_7d {
+  color: #f2f2f7;
+  font-size: 14rem;
+  font-weight: 400;
   line-height: 1.3;
 }
 
@@ -1240,7 +1734,8 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .Leaderboard_rowsDivider_2c {
   height: var(--rowsDividerHeight);
-  border-bottom: 1rem solid rgba(255, 255, 255, 0.07);
+  margin-top: var(--rowsDividerMargin);
+  margin-bottom: var(--rowsDividerMargin);
 }
 
 .Pagination_base_49 {
@@ -1339,467 +1834,201 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   padding-bottom: var(--offset);
 }
 
-/* delay should be set always separately only for appearance effect, not hiding */
-/* should be percentage of screen width */
-@keyframes RankTabs_fadeIn_42 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+.DivisionTab_base_52 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36rem;
+  height: 24rem;
+  margin: 0 4rem;
+  padding: 0 6rem;
+  border: 1rem solid rgba(255, 255, 255, 0.15);
+  border-radius: 2rem;
+  box-shadow: 0 0 24rem 0 rgba(255, 255, 255, 0.1) inset;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.icons.cornersTab");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: all ease-in 0.15s;
+  cursor: pointer;
 }
-@keyframes RankTabs_fadeInThreeQuarters_0c {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 0.75;
-  }
+.mediaMedium .DivisionTab_base_52 {
+  width: 48rem;
 }
-@keyframes RankTabs_fadeInHalf_ca {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 0.5;
-  }
+.DivisionTab_base_52 .DivisionTab_border_1c {
+  border: 1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  bottom: -2rem;
+  left: -2rem;
 }
-@keyframes RankTabs_fadeOut_3e {
-  0% {
-    opacity: 1;
-  }
 
-  100% {
-    opacity: 0;
-  }
+.DivisionTab_base_52.DivisionTab_disabled_57 {
+  opacity: 0.6;
+  cursor: default;
 }
-@keyframes RankTabs_fadeInWithScale_d0 {
-  0% {
-    opacity: 0;
-    transform: scale(1.2);
-  }
 
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+.DivisionTab_base_52.DivisionTab_disabled_57:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.6);
 }
-@keyframes RankTabs_slideUp_d1 {
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.DivisionTab_base_52:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(13, 13, 13, 0.6);
 }
-@keyframes RankTabs_scale_a5 {
-  0% {
-    transform: scale(0);
-  }
 
-  100% {
-    transform: scale(1);
-  }
+.DivisionTab_base_52 .DivisionTab_text_9b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  color: #fefeec;
+  font-size: 16rem;
+  font-weight: 900;
+  text-shadow:
+    1rem 1rem 0 #000000,
+    -1rem -1rem 0 #000000,
+    1rem -1rem 0 #000000,
+    -1rem 1rem 0 #000000;
+  vertical-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
-@keyframes RankTabs_raysAppearance_39 {
-  0% {
-    opacity: 0;
-    transform: translateY(20rem);
-  }
 
-  100% {
-    opacity: 0.2;
-    transform: translateY(0);
-  }
+.DivisionTab_base_52 .DivisionTab_glow_8c {
+  border: 1rem solid #994c00;
+  border-radius: 2rem;
+  box-shadow:
+    0 0 32rem 0 rgba(255, 43, 0, 0.6),
+    0 0 64rem 0 rgba(255, 0, 0, 0.6);
+  background: url("R.images.comp7.gui.maps.icons.comp7.icons.glowTab") no-repeat center;
+  opacity: 0;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+  left: -1rem;
+  transition: opacity ease-in 0.15s;
 }
-@keyframes RankTabs_rotate_b0 {
-  from {
-    transform: rotate(0deg);
-  }
 
-  to {
-    transform: rotate(360deg);
-  }
+.DivisionTab_base_52.DivisionTab_selected_0e {
+  background-color: rgba(255, 43, 0, 0.2);
 }
-@keyframes RankTabs_reverse-rotate_85 {
-  from {
-    transform: rotate(360deg);
-  }
 
-  to {
-    transform: rotate(0deg);
-  }
+.DivisionTab_base_52.DivisionTab_selected_0e:hover {
+  background-color: rgba(255, 43, 0, 0.2);
 }
-@keyframes RankTabs_glowAppearance_c7 {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 1;
-  }
+.DivisionTab_base_52.DivisionTab_selected_0e .DivisionTab_glow_8c {
+  opacity: 1;
 }
-@keyframes RankTabs_highlightAppearance_67 {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 0.8;
-  }
+.DivisionTab_base_52.DivisionTab_selected_0e .DivisionTab_text_9b {
+  background-color: rgba(255, 43, 0, 0.2);
 }
-@keyframes RankTabs_blink_8a {
-  0% {
-    opacity: 1;
-  }
 
-  50% {
-    opacity: 0.2;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes RankTabs_slideUpIn_c8 {
-  from {
-    opacity: 0;
-    transform: translateY(50rem);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .RankTabs_base_c4 {
   display: flex;
   align-items: center;
-  width: 100%;
+  padding: 0 18rem;
   position: relative;
 }
-.RankTabs_line_0e {
-  flex: 1 1;
-  height: 2rem;
-  border-radius: 4rem;
-  opacity: 0.15;
-}
-.RankTabs_line__toRight_43 {
-  background: linear-gradient(270deg, #f2f2f7, transparent);
-}
-.RankTabs_line__toLeft_cd {
-  background: linear-gradient(90deg, #f2f2f7, transparent);
-}
-.RankTabs_ranksContainer_86 {
+
+.RankTabs_base_c4 > div {
   display: flex;
   align-items: center;
-  padding: 0 76rem;
+  margin: 0 6rem;
 }
-.RankTabs_dividersDot_b9 {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: #f2f2f7;
-  opacity: 0.2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.RankTabs_rank_6f {
+
+.RankTabs_divisions_a2 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  position: relative;
 }
-.RankTabs_rank_6f + .RankTabs_rank_6f {
-  margin-left: 70rem;
-}
+
 .RankTabs_rankEmblem_d6 {
-  filter: brightness(1);
-  cursor: pointer;
-}
-.RankTabs_rankEmblem_d6:hover {
-  filter: brightness(1.15);
-
-  /* transition must be here for avoiding of rankEmblem blink on 1st render */
-  transition: filter 0.5s cubic-bezier(0.07, 0.82, 0.17, 1);
-}
-.RankTabs_rank__disabled_55 .RankTabs_rankEmblem_d6 {
-  opacity: 0.3;
-  cursor: default;
-}
-.RankTabs_rank__disabled_55 .RankTabs_rankEmblem_d6:hover {
-  filter: brightness(1);
-}
-.RankTabs_label_cc {
-  color: #f2f2f7;
-  font-size: 14rem;
-  font-weight: 400;
-  line-height: 1.3;
-  white-space: nowrap;
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-}
-.RankTabs_rank__active_38 .RankTabs_label_cc {
-  opacity: 1;
-
-  /* transition must be here for avoiding of blink of label on 1st render */
-  transition: opacity 0.5s linear;
-}
-.RankTabs_rankTabHighlight_c1 {
-  width: 223rem;
-  height: 164rem;
-  background: url("R.images.comp7.gui.maps.icons.comp7.icons.rankTabHighlight") no-repeat center /
-    cover;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-.RankTabs_rank__active_38 .RankTabs_rankTabHighlight_c1 {
-  opacity: 1;
-  transition: opacity 0.5s linear;
+  margin: 0 6rem;
 }
 
-.HasRecordsStateContainer_base_ee {
+.StateContainer_base_4e {
   height: 100%;
+  padding-top: 16rem;
+}
+.mediaLarge .StateContainer_base_4e {
+  padding-top: 40rem;
 }
 
-.HasRecordsStateContainer_content_b4 {
+.StateContainer_content_62 {
   display: flex;
   flex-direction: column;
   flex: 1 1;
   padding-top: 20rem;
 }
 
-.FormatText_base_d0 {
-  display: flex;
-  flex-wrap: wrap;
+.StateContainer_line_30 {
+  height: 1rem;
+  margin: 0 8rem;
+  background-color: #ffffff;
+  opacity: 0.1;
 }
 
-.FormatTextWithColorTags_blackReal_3c {
-  color: #000000;
-}
-
-.FormatTextWithColorTags_whiteReal_8a {
-  color: #ffffff;
-}
-
-.FormatTextWithColorTags_white_16 {
-  color: #f2f2f7;
-}
-
-.FormatTextWithColorTags_whiteOrange_18 {
-  color: #fefeec;
-}
-
-.FormatTextWithColorTags_whiteSpanish_10 {
-  color: #e9e2bf;
-}
-
-.FormatTextWithColorTags_par_ca {
-  color: #8c8c7e;
-}
-
-.FormatTextWithColorTags_parSecondary_8d {
-  color: #595950;
-}
-
-.FormatTextWithColorTags_parTertiary_a3 {
-  color: #37362e;
-}
-
-.FormatTextWithColorTags_red_60 {
-  color: #ff2717;
-}
-
-.FormatTextWithColorTags_redDark_03 {
-  color: #b70000;
-}
-
-.FormatTextWithColorTags_yellow_ad {
-  color: #feab34;
-}
-
-.FormatTextWithColorTags_orange_e4 {
-  color: #ee7000;
-}
-
-.FormatTextWithColorTags_cream_cd {
-  color: #ffdd99;
-}
-
-.FormatTextWithColorTags_brown_c8 {
-  color: #cbac77;
-}
-
-.FormatTextWithColorTags_greenBright_f0 {
-  color: #80d43a;
-}
-
-.FormatTextWithColorTags_green_c5 {
-  color: #7ab300;
-}
-
-.FormatTextWithColorTags_greenDark_af {
-  color: #497212;
-}
-
-.FormatTextWithColorTags_blueBooster_ac {
-  color: #ccffff;
-}
-
-.FormatTextWithColorTags_blueTeamkiller_6f {
-  color: #09e2ff;
-}
-
-.FormatTextWithColorTags_cred_4e {
-  color: #ced9d9;
-}
-
-.FormatTextWithColorTags_gold_90 {
-  color: #ffc363;
-}
-
-.FormatTextWithColorTags_bond_71 {
-  color: #c9c9b6;
-}
-
-.FormatTextWithColorTags_prom_dd {
-  color: #a29b70;
-}
-
-.NoRecordsState_base_9b {
+.StateContainer_noRecords_49 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex: 1;
+  padding-bottom: 5%;
+}
+
+.mediaMedium .StateContainer_noRecords_49 {
+  padding-bottom: 10%;
+}
+
+.StateContainer_controls_11 {
+  display: flex;
   align-items: center;
+  width: 100%;
+  padding-top: 8rem;
 }
 
-.NoRecordsState_imageContainer_13 {
-  width: 420rem;
-  height: 260rem;
-  margin-bottom: 20rem;
-  position: relative;
+.StateContainer_controls_11 > div:first-child,
+.StateContainer_controls_11 > div:last-child {
+  flex: 1 1 0;
 }
 
-.NoRecordsState_image_fe {
-  width: 540rem;
-  height: 380rem;
-  background: url("R.images.comp7.gui.maps.icons.comp7.icons.leaderboardRanks") no-repeat center /
-    cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
+.mediaMedium .StateContainer_controls_11 {
+  padding-top: 24rem;
 }
 
-.NoRecordsState_title_f4 {
-  color: #ffffff;
-  font-size: 18rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.mediaMedium .NoRecordsState_title_f4 {
-  color: #ffffff;
-  font-size: 22rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.NoRecordsState_subtitle_5b {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.25;
-  justify-content: center;
-  max-width: 550rem;
-  margin-top: 10rem;
-}
-
-.mediaMedium .NoRecordsState_subtitle_5b {
-  margin-top: 12rem;
-}
-
-.LastUpdateNote_base_7f {
+.StateContainer_updateInfo_12 {
   display: flex;
   align-items: center;
 }
 
-.LastUpdateNote_infoIcon_5c {
-  width: 24rem;
-  height: 24rem;
-  background: url("R.images.comp7.gui.maps.icons.comp7.icons.infoIcon") no-repeat center / cover;
+.StateContainer_updateInfo_12 .StateContainer_line_30 {
+  flex: 1;
+  opacity: 0;
 }
 
-.ActiveSeasonState_base_55 {
-  display: flex;
-  align-items: center;
+.mediaSmall .StateContainer_updateInfo_12 .StateContainer_line_30 {
+  opacity: 0.1;
 }
 
-.ActiveSeasonState_calendarIcon_df {
-  width: 21rem;
-  height: 21rem;
-  margin-right: 8rem;
-  background: url("R.images.comp7.gui.maps.icons.comp7.icons.calendar") no-repeat center / cover;
-  transform: translateY(2rem);
+.StateContainer_updateInfo_12 .StateContainer_noRecordsLine_71 {
+  opacity: 0.1;
 }
 
-.mediaLarge .ActiveSeasonState_calendarIcon_df {
-  width: 14rem;
-  height: 16rem;
-  background-image: url("R.images.comp7.gui.maps.icons.comp7.icons.calendar_14x16");
-}
-
-.ActiveSeasonState_divider_5b {
-  width: 2rem;
-  height: 17rem;
-  margin: 2rem 12rem 0;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.ScheduleSubheading_base_f7 {
-  color: #ffffff;
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.25;
-  text-align: center;
-}
-.mediaLarge .ScheduleSubheading_base_f7 {
-  color: #ffffff;
-  font-size: 20rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.SubheadingContainer_base_a6 {
-  position: relative;
-}
-
-.SubheadingContainer_updateInfo_9a {
-  position: absolute;
-  right: -38rem; /* visual fix for matching with scroll */
-  bottom: 0;
-}
-
-.SubheadingContainer_updateInfoText_40 {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14rem;
-  font-weight: 400;
-  line-height: 1.3;
+.mediaMedium .StateContainer_updateInfo_12 .StateContainer_noRecordsLine_71 {
+  opacity: 0.1;
 }
 
 /* delay should be set always separately only for appearance effect, not hiding */
@@ -1948,7 +2177,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   align-items: center;
   width: 100%;
   height: 100%;
-  color: #fff;
+  color: #ffffff;
 }
 .LeaderboardPage_animationContainer_94 {
   flex: 1 1;
@@ -1983,76 +2212,302 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   opacity: 0.3;
   pointer-events: none;
 }
-.LeaderboardPage_hasRecords_9f {
-  padding-top: 16rem;
-}
-.mediaLarge .LeaderboardPage_hasRecords_9f {
-  padding-top: 40rem;
-}
-.LeaderboardPage_error_7d,
-.LeaderboardPage_noRecords_6b {
+.LeaderboardPage_error_7d {
   display: flex;
   justify-content: center;
   flex: 1;
-}
-.LeaderboardPage_noRecords_6b {
-  padding-bottom: 5%;
-}
-.mediaMedium .LeaderboardPage_noRecords_6b {
-  padding-bottom: 10%;
-}
-.LeaderboardPage_error_7d {
   padding-bottom: 8%;
 }
 .LeaderboardPage_spinner_67 {
   transform: translate(-50%, -70%);
 }
 
-/* delay should be set always separately only for appearance effect, not hiding */
-/* should be percentage of screen width */
-.RatingScore_base_bd {
+.FailedFetchPointsText_base_be {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.FailedFetchPointsText_icon_76 {
+  width: 18rem;
+  height: 18rem;
+  background: url("R.images.gui.maps.icons.library.alertBigIcon") no-repeat center / cover;
+}
+
+.FailedFetchPointsText_text_ea {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  color: #ee7000;
+  font-size: 16rem;
+}
+
+.HonorsPlace_base_57 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+.mediaLarge .HonorsPlace_base_57 {
+  margin-top: 31rem;
+}
+.HonorsPlace_base__error_c4 {
+  height: 100%;
+  margin-top: 0;
+}
+.HonorsPlace_base__tooltip_b9 {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+.HonorsPlace_base__tooltipError_3c {
+  margin-top: 30rem;
+}
+
+.HonorsPlace_transferPlace_46 {
+  display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 2;
 }
-.RatingScore_rating_c9 {
-  position: relative;
+
+.HonorsPlace_elitePlace_eb {
+  width: 102rem;
+  height: 48rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 2;
+  pointer-events: none;
 }
-.RatingScore_score_33 {
-  color: #ffffff;
+
+.mediaLarge .HonorsPlace_elitePlace_eb {
+  width: 102rem;
+  height: 80rem;
+}
+
+.HonorsPlace_elitePlace__bronze_5b {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendBronzePlace");
+}
+
+.HonorsPlace_elitePlace__silver_cd {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendSilverPlace");
+}
+
+.HonorsPlace_elitePlace__gold_87 {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.legend_place.legendGoldPlace");
+}
+
+.HonorsPlace_elitePlace__tooltip_0a {
+  height: 62rem;
+}
+
+.HonorsPlace_elitePlace__modeSelector_dc {
+  height: 24rem;
+}
+
+.mediaMedium .HonorsPlace_elitePlace__modeSelector_dc {
+  height: 40rem;
+}
+
+.HonorsPlace_garland_ab {
+  width: 45rem;
+  height: 48rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.mediaLarge .HonorsPlace_garland_ab {
+  width: 45rem;
+  height: 80rem;
+}
+
+.HonorsPlace_garland__transferPlaceLeft_e7 {
+  margin-right: -18rem;
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_garland.championGarlandLeft");
+}
+
+.HonorsPlace_garland__transferPlaceLeft__tooltip_23 {
+  margin-right: -11rem;
+}
+
+.HonorsPlace_garland__transferPlaceLeft__modeSelector_5a {
+  margin-right: -2rem;
+}
+
+.HonorsPlace_garland__transferPlaceRight_d4 {
+  margin-left: -18rem;
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_garland.championGarlandRight");
+}
+
+.HonorsPlace_garland__transferPlaceRight__tooltip_20 {
+  margin-left: -11rem;
+}
+
+.HonorsPlace_garland__transferPlaceRight__modeSelector_9f {
+  margin-left: -2rem;
+}
+
+.HonorsPlace_garland__tooltip_3f {
+  width: 34rem;
+  height: 62rem;
+}
+
+.mediaLarge .HonorsPlace_garland__tooltip_3f {
+  width: 34rem;
+  height: 62rem;
+}
+
+.HonorsPlace_garland__modeSelector_e0 {
+  width: 13rem;
+  height: 24rem;
+}
+
+.mediaMedium .HonorsPlace_garland__modeSelector_e0 {
+  width: 23rem;
+  height: 42rem;
+}
+
+.mediaLarge .HonorsPlace_garland__modeSelector_e0 {
+  width: 23rem;
+  height: 42rem;
+}
+
+.HonorsPlace_placeText_23 {
+  margin-top: -5rem;
   font-size: 44rem;
   font-weight: 700;
-  line-height: 110%;
+  line-height: 44rem;
 }
-.mediaLarge .RatingScore_score_33 {
-  color: #ffffff;
+
+.mediaLarge .HonorsPlace_placeText_23 {
   font-size: 73rem;
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 6rem;
+  line-height: 73rem;
 }
-.RatingScore_rankInactivity_17 {
+
+.HonorsPlace_placeText__transfer_d3 {
+  color: transparent;
+  top: 3rem;
+}
+
+.HonorsPlace_placeText__transfer__copied_0f {
+  color: #988c84;
+  position: absolute;
+  mask-image: linear-gradient(to top, transparent -30%, #988c84);
+}
+
+.HonorsPlace_placeText__tooltip_98 {
+  font-size: 56rem;
+  line-height: 56rem;
+}
+
+.mediaLarge .HonorsPlace_placeText__tooltip_98 {
+  font-size: 56rem;
+  line-height: 56rem;
+}
+
+.HonorsPlace_placeText__notInLeaderboard_81 {
+  top: 0;
+}
+
+.HonorsPlace_placeText__modeSelector_57 {
+  margin-top: -7rem;
+  font-size: 23rem;
+  line-height: 23rem;
+  top: 6rem;
+}
+
+.mediaMedium .HonorsPlace_placeText__modeSelector_57 {
+  font-size: 36rem;
+  line-height: 36rem;
+}
+
+.mediaLarge .HonorsPlace_placeText__modeSelector_57 {
+  font-size: 36rem;
+  line-height: 36rem;
+}
+
+.HonorsPlace_positionTitle_c9 {
+  color: #fefeec;
+  font-size: 14rem;
+}
+
+.HonorsPlace_positionTitle__tooltip_8a {
+  color: #8c8c7e;
+}
+
+.HonorsPlace_positionTitle__modeSelector_c7 {
+  margin-top: 6rem;
+  color: #8c8c7e;
+  font-size: 12rem;
+}
+
+.mediaMedium .HonorsPlace_positionTitle__modeSelector_c7 {
+  font-size: 14rem;
+}
+
+.HonorsPlace_titleDescriptionContainer_15 {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 20%;
-  right: -5rem;
-  transform: translateX(100%);
+  z-index: 2;
 }
-.RatingScore_rankInactivityCount_31 {
+
+.HonorsPlace_descriptionText_b8 {
+  margin-right: 6rem;
+  margin-bottom: 0;
+  color: #8c8c7e;
+  font-size: 12rem;
+}
+
+.HonorsPlace_descriptionText__tooltip_70 {
+  margin-right: 8rem;
+  font-size: 14rem;
+}
+
+.HonorsPlace_descriptionText__withoutMargin_a9 {
+  margin-right: 0;
+}
+
+.HonorsPlace_descriptionText__blackout_3a {
+  color: #595950;
+}
+
+.HonorsPlace_infoIcon_75 {
+  width: 24rem;
+  height: 24rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.icons.infoIcon") no-repeat center / cover;
+}
+
+.HonorsPlace_rankInactivityCount_34 {
+  margin-left: 4rem;
+}
+
+.HonorsPlace_failedFetchPointsText_e2 {
+  margin-bottom: 30rem;
+}
+
+.RankInactivityCount_base_c2 {
+  display: flex;
+  align-items: center;
+}
+
+.RankInactivityCount_count_28 {
   color: #e9e2bf;
   font-size: 12rem;
   font-weight: 400;
   line-height: 1.3;
   margin-right: 2rem;
 }
-.RatingScore_rankInactivityIconContainer_32 {
+
+.RankInactivityCount_iconContainer_85 {
   width: 16rem;
   height: 16rem;
   position: relative;
 }
-.RatingScore_rankInactivityIcon_05 {
+
+.RankInactivityCount_icon_52 {
   width: 42rem;
   height: 43rem;
   background: url("R.images.comp7.gui.maps.icons.comp7.icons.timer") no-repeat center / contain;
@@ -2062,6 +2517,46 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
+
+.RatingScore_base_bd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.RatingScore_rating_c9 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.RatingScore_content_62 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RatingScore_score_33 {
+  color: #ffffff;
+  font-size: 44rem;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.mediaLarge .RatingScore_score_33 {
+  color: #ffffff;
+  font-size: 73rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 6rem;
+}
+
+.RatingScore_counter_1a {
+  position: absolute;
+  left: 105%;
+}
+
 .RatingScore_title_e4 {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14rem;
@@ -2617,30 +3112,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   position: relative;
 }
 
-.RankInfo_base_21 {
-  position: relative;
-}
-
-.RankInfo_highlight_1f {
-  width: 276rem;
-  height: 50rem;
-  filter: brightness(150%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.RankInfo_formattedText_26 {
-  flex-wrap: nowrap;
-  color: #ffffff;
-  font-size: 15rem;
-  font-weight: 700;
-  line-height: 20rem;
-}
-
 .RankItemDivider_base_c4 {
   width: 152rem;
   height: 2rem;
@@ -2867,23 +3338,19 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
 }
 
-.RankProgressDivisions_base_54 {
-  display: flex;
-  align-items: flex-end;
-}
-
-.RankProgressDivisions_divisionItem_77 {
+.ProgressionDivision_base_6e {
   display: flex;
   justify-content: center;
   flex: 1 1 0;
   margin-bottom: -1rem;
-}
-
-.RankProgressDivisions_divisionItem__current_84 {
   position: relative;
 }
 
-.RankProgressDivisions_highlightContainer_53 {
+.ProgressionDivision_base__current_67 {
+  position: relative;
+}
+
+.ProgressionDivision_highlightContainer_3d {
   width: 100%;
   height: 150rem;
   position: absolute;
@@ -2894,7 +3361,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   pointer-events: none;
 }
 
-.RankProgressDivisions_radialBack_cc {
+.ProgressionDivision_radialBack_d2 {
   width: 150%;
   height: 100%;
   background-image: radial-gradient(59% 59% at 50% 0%, rgba(255, 42, 0, 0.12), transparent);
@@ -2906,7 +3373,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   transform: translateX(-50%) scale(1, -1);
 }
 
-.RankProgressDivisions_mainBack_38 {
+.ProgressionDivision_mainBack_d2 {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(0deg, rgba(243, 104, 60, 0.16), transparent);
@@ -2915,36 +3382,36 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   left: 0;
 }
 
-.RankProgressDivisions_bottomLine_67 {
+.ProgressionDivision_bottomLine_f5 {
   width: 100%;
   height: 1rem;
   position: absolute;
   left: 0;
 }
 
-.RankProgressDivisions_bottomLine__first_bd {
+.ProgressionDivision_bottomLine__first_d9 {
   background-image: linear-gradient(90deg, transparent, #bf684d, transparent);
   bottom: 0;
 }
 
-.RankProgressDivisions_bottomLine__second_60 {
+.ProgressionDivision_bottomLine__second_8d {
   background-image: linear-gradient(90deg, transparent, rgba(191, 104, 77, 0.3), transparent);
   bottom: 1rem;
 }
 
-.RankProgressDivisions_bottomLine__third_08 {
+.ProgressionDivision_bottomLine__third_91 {
   background-image: linear-gradient(90deg, transparent, rgba(191, 104, 77, 0.1), transparent);
   bottom: 2rem;
 }
 
-.RankProgressDivisions_divisionText_ea {
+.ProgressionDivision_divisionText_c7 {
   margin-bottom: 6rem;
   font-size: 18rem;
   opacity: 0.4;
   position: relative;
 }
 
-.RankProgressDivisions_divisionItem__current_84 .RankProgressDivisions_divisionText_ea {
+.ProgressionDivision_divisionText__current_74 {
   display: flex;
   color: #ffdd99;
   text-shadow:
@@ -2954,7 +3421,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   opacity: 1;
 }
 
-.RankProgressDivisions_note_e1 {
+.ProgressionDivision_note_53 {
   font-size: 14rem;
   position: absolute;
   top: 0;
@@ -2962,50 +3429,57 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   transform: translate(-50%, -100%);
 }
 
-.RankProgressPoints_base_86 {
-  color: rgba(255, 255, 255, 0.2);
-  font-size: 12rem;
-  position: relative;
+.RankProgressDivisions_base_54 {
+  display: flex;
+  align-items: flex-end;
 }
-.RankProgressPoints_point_f9 {
+
+.RankProgressPoint_point_b1 {
   display: flex;
   position: absolute;
 }
-.RankProgressPoints_base__top_78 .RankProgressPoints_point_f9 {
+
+.RankProgressPoint_point__top_d2 {
   bottom: 0;
 }
-.RankProgressPoints_base__bottom_fc .RankProgressPoints_point_f9 {
+
+.RankProgressPoint_point__bottom_d9 {
   top: 0;
 }
-.RankProgressPoints_pointLine_b3 {
+.RankProgressPoint_pointLine_56 {
   width: 1rem;
   height: 10rem;
 }
-.RankProgressPoints_pointLine__extended_6b {
+.RankProgressPoint_pointLine__extended_05 {
   height: 20rem;
 }
-.RankProgressPoints_base__top_78 .RankProgressPoints_pointLine_b3 {
+.RankProgressPoint_pointLine__top_0e {
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), transparent);
 }
-.RankProgressPoints_base__bottom_fc .RankProgressPoints_pointLine_b3 {
+.RankProgressPoint_pointLine__bottom_ee {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
 }
-.RankProgressPoints_pointValue_af {
+.RankProgressPoint_pointValue_22 {
+  max-width: 76rem;
+  text-align: center;
   position: absolute;
   left: 0;
   transform: translateX(-50%);
 }
-.RankProgressPoints_pointValue__next_c5 {
+.RankProgressPoint_pointValue__highlight_65 {
   color: rgba(255, 255, 255, 0.7);
-  text-shadow:
-    0 4rem 4rem rgba(0, 0, 0, 0.25),
-    0 0 2rem rgba(233, 241, 255, 0.6);
 }
-.RankProgressPoints_base__top_78 .RankProgressPoints_pointValue_af {
+.RankProgressPoint_pointValue__top_a7 {
   bottom: 10rem;
 }
-.RankProgressPoints_base__bottom_fc .RankProgressPoints_pointValue_af {
+.RankProgressPoint_pointValue__bottom_7a {
   top: 10rem;
+}
+
+.RankProgressPoints_base_86 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12rem;
+  position: relative;
 }
 
 /* delay should be set always separately only for appearance effect, not hiding */
@@ -3013,12 +3487,8 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 .RankProgress_base_97 {
   display: flex;
   flex-direction: column;
-  width: 380rem;
   color: #ffffff;
   transition: opacity 0.3s linear;
-}
-.mediaMedium .RankProgress_base_97 {
-  width: 430rem;
 }
 .RankProgress_base__hidden_b9 {
   opacity: 0;
@@ -3036,6 +3506,340 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   border-bottom: 1rem solid rgba(255, 255, 255, 0.2);
 }
 
+.HighlightedRectangles_base_4c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 4rem;
+  left: 1rem;
+}
+
+.HighlightedRectangles_triangle_ae {
+  width: 5rem;
+  height: 6rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.triangle")
+    no-repeat center / cover;
+  filter: drop-shadow(0 0 15px #e52) drop-shadow(0 0 8px #ff2a00)
+    drop-shadow(0 0 4px rgba(255, 127, 0, 0.25));
+  opacity: 0;
+  will-change: opacity;
+}
+
+.HighlightedRectangles_triangle_ae.HighlightedRectangles_running_cc {
+  opacity: 1;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc .HighlightedRectangles_triangle_ae {
+  animation: HighlightedRectangles_pulse_3e 10.4s ease-out infinite;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc
+  .HighlightedRectangles_triangle_ae:nth-child(1) {
+  margin-right: 3rem;
+  animation-delay: 0s;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc
+  .HighlightedRectangles_triangle_ae:nth-child(2) {
+  margin-right: 3rem;
+  animation-delay: 0.4s;
+}
+
+.HighlightedRectangles_base_4c.HighlightedRectangles_running_cc
+  .HighlightedRectangles_triangle_ae:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+@keyframes HighlightedRectangles_pulse_3e {
+  0% {
+    opacity: 0;
+  }
+
+  4.9% {
+    opacity: 1;
+  }
+
+  16.35% {
+    opacity: 1;
+  }
+
+  17.98% {
+    opacity: 0;
+  }
+
+  32.69% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* delay should be set always separately only for appearance effect, not hiding */
+/* should be percentage of screen width */
+@keyframes RankTransferProgression_fadeIn_17 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes RankTransferProgression_fadeInThreeQuarters_31 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.75;
+  }
+}
+@keyframes RankTransferProgression_fadeInHalf_ee {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes RankTransferProgression_fadeOut_9d {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes RankTransferProgression_fadeInWithScale_f9 {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes RankTransferProgression_slideUp_2b {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes RankTransferProgression_scale_28 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes RankTransferProgression_raysAppearance_59 {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
+}
+@keyframes RankTransferProgression_rotate_3d {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes RankTransferProgression_reverse-rotate_19 {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes RankTransferProgression_glowAppearance_5c {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes RankTransferProgression_highlightAppearance_12 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+@keyframes RankTransferProgression_blink_12 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes RankTransferProgression_slideUpIn_f3 {
+  from {
+    opacity: 0;
+    transform: translateY(50rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.RankTransferProgression_base_28 {
+  display: flex;
+  padding-bottom: 48rem;
+}
+.RankTransferProgression_transferProgression_8c {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+}
+.RankTransferProgression_transferProgression__inactive_87 {
+  opacity: 0.7;
+}
+.RankTransferProgression_progressWrapper_f9 {
+  display: flex;
+  align-items: center;
+  width: 105rem;
+  padding: 4rem 0;
+  border-top: 1rem solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1rem solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.RankTransferProgression_default_35 {
+  width: 100%;
+  height: 10rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.background")
+    no-repeat center / cover;
+  z-index: 1;
+}
+.RankTransferProgression_complete_e7 {
+  width: 100%;
+  height: 12rem;
+  background: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.champion_progressbar.background_completed")
+    no-repeat center / cover;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  transition: opacity 0.2s ease-out;
+}
+.RankTransferProgression_visible_c9 {
+  opacity: 1;
+}
+
+.AchievedRankStatus_base_70 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.LinkButton_base_fa {
+  color: #ffdd99;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-shadow: 0 0 14px #f00;
+  will-change: text-shadow;
+  transition: text-shadow 0.3s ease-in;
+}
+
+.LinkButton_base_fa:hover {
+  text-shadow:
+    0 0 4px rgba(255, 127, 0, 0.25),
+    0 0 8px #ff2a00,
+    0 0 15px #e52;
+  cursor: pointer;
+}
+
+.HonorRankDescription_base_fd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 134%;
+  max-width: 600rem;
+}
+
+.HonorRankDescription_text_38 {
+  color: #8c8c7e;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  justify-content: center;
+}
+
+.HonorRankDescription_button_88 {
+  margin-left: 4rem;
+}
+
+.RankEliteProgression_base_4d {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.RankEliteProgression_elite_00 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 8rem;
+  border-top: 1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.RankEliteProgression_elitePercent_61 {
+  margin-bottom: 44rem;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12rem;
+  opacity: 0.4;
+}
+
+.RankEliteProgression_elitePercent__current_d1 {
+  opacity: 0.7;
+}
+
+.CurrentRankStatus_base_d4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .RankStatusDescription_base_07 {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14rem;
@@ -3047,46 +3851,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   text-align: center;
 }
 .mediaLarge .RankStatusDescription_base_07 {
-  width: 100%;
-}
-
-.AchievedRankStatus_base_70 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.LastUpdate_base_f7 {
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 14rem;
-  font-weight: 400;
-  line-height: 1.3;
-  padding-top: 10rem;
-}
-
-.LastUpdate_dataUpdate_90 {
-  animation: LastUpdate_blink_eb 2s infinite;
-}
-
-@keyframes LastUpdate_blink_eb {
-  0% {
-    opacity: 0.4;
-  }
-
-  50% {
-    opacity: 0.3;
-  }
-
-  100% {
-    opacity: 0.4;
-  }
-}
-
-.CurrentRankStatus_base_d4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
 }
 
@@ -4214,13 +4978,39 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   }
 }
 .ProgressionPage_base_fa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   position: relative;
-  z-index: 0;
+}
+.ProgressionPage_bgLayer_41 {
+  width: 100%;
+  height: 100%;
+  background: #000 no-repeat center / cover;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(0);
+  pointer-events: none;
+  inset: 0;
+  backface-visibility: hidden;
+}
+.ProgressionPage_bgLayer__iron_79 {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.iron");
+}
+.ProgressionPage_bgLayer__bronze_46 {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.bronze");
+}
+.ProgressionPage_bgLayer__silver_53 {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.silver");
+}
+.ProgressionPage_bgLayer__gold_ef {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.gold");
+}
+.ProgressionPage_bgLayer__champion_73 {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.champion");
+}
+.ProgressionPage_bgLayer__legend_8f {
+  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.ranks.legend");
 }
 .ProgressionPage_parallaxContainer_c4 {
   width: 100%;
@@ -4250,276 +5040,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .ProgressionPage_footer_d1 {
   width: 78vw;
-}
-
-.Box_mt__XS_0c {
-  margin-top: 4rem;
-}
-.Box_mt__SM_eb {
-  margin-top: 8rem;
-}
-.Box_mt__SMp_cf {
-  margin-top: 10rem;
-}
-.Box_mt__MD_25 {
-  margin-top: 16rem;
-}
-.Box_mt__MDp_49 {
-  margin-top: 20rem;
-}
-.Box_mt__LG_e8 {
-  margin-top: 32rem;
-}
-.Box_mt__XL_83 {
-  margin-top: 64rem;
-}
-
-.Box_mr__XS_7c {
-  margin-right: 4rem;
-}
-
-.Box_mr__SM_08 {
-  margin-right: 8rem;
-}
-
-.Box_mr__SMp_06 {
-  margin-right: 10rem;
-}
-
-.Box_mr__MD_4a {
-  margin-right: 16rem;
-}
-
-.Box_mr__MDp_b6 {
-  margin-right: 20rem;
-}
-
-.Box_mr__LG_d0 {
-  margin-right: 32rem;
-}
-
-.Box_mr__XL_db {
-  margin-right: 64rem;
-}
-
-.Box_mb__XS_bb {
-  margin-bottom: 4rem;
-}
-
-.Box_mb__SM_83 {
-  margin-bottom: 8rem;
-}
-
-.Box_mb__SMp_04 {
-  margin-bottom: 10rem;
-}
-
-.Box_mb__MD_ed {
-  margin-bottom: 16rem;
-}
-
-.Box_mb__MDp_65 {
-  margin-bottom: 20rem;
-}
-
-.Box_mb__LG_c8 {
-  margin-bottom: 32rem;
-}
-
-.Box_mb__XL_f8 {
-  margin-bottom: 64rem;
-}
-
-.Box_ml__XS_8a {
-  margin-left: 4rem;
-}
-
-.Box_ml__SM_e6 {
-  margin-left: 8rem;
-}
-
-.Box_ml__SMp_fb {
-  margin-left: 10rem;
-}
-
-.Box_ml__MD_2b {
-  margin-left: 16rem;
-}
-
-.Box_ml__MDp_c7 {
-  margin-left: 20rem;
-}
-
-.Box_ml__LG_39 {
-  margin-left: 32rem;
-}
-
-.Box_ml__XL_4a {
-  margin-left: 64rem;
-}
-
-/* eslint-disable-next-line expectedscss*/
-.Text_paragraph-P10_2c {
-  font-size: 10rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_paragraph-P12_22 {
-  font-size: 12rem;
-  font-weight: 400;
-  line-height: 1.3;
-}
-.Text_paragraph-P14_a7 {
-  font-size: 14rem;
-  font-weight: 400;
-  line-height: 1.3;
-}
-.Text_paragraph-P16_90 {
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.25;
-}
-.Text_paragraph-P18_50 {
-  font-size: 18rem;
-  font-weight: 400;
-  line-height: 1.25;
-}
-.Text_paragraph-P24_33 {
-  font-size: 24rem;
-  font-weight: 400;
-  line-height: 32rem;
-}
-.Text_heading-H14_8b {
-  font-size: 14rem;
-  font-weight: 700;
-  line-height: 1.15;
-}
-.Text_heading-H15_9e {
-  font-size: 15rem;
-  font-weight: 700;
-  line-height: 1.15;
-}
-.Text_heading-H18_b7 {
-  font-size: 18rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H20R_f6 {
-  font-size: 20rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_heading-H22_27 {
-  font-size: 22rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.Text_heading-H24R_be {
-  font-size: 24rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_heading-H24_0c {
-  font-size: 24rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.Text_heading-H28_78 {
-  font-size: 28rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H36_32 {
-  font-size: 36rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H56_c3 {
-  font-size: 56rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H73_8f {
-  font-size: 73rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H144_a9 {
-  font-size: 144rem;
-  font-weight: 700;
-  line-height: 1;
-}
-.Text_BLACK_REAL_30 {
-  color: #000000;
-}
-.Text_WHITE_REAL_bc {
-  color: #ffffff;
-}
-.Text_WHITE_62 {
-  color: #f2f2f7;
-}
-.Text_WHITE_ORANGE_54 {
-  color: #fefeec;
-}
-.Text_WHITE_SPANISH_df {
-  color: #e9e2bf;
-}
-.Text_PAR_15 {
-  color: #8c8c7e;
-}
-.Text_PAR_SECONDARY_5d {
-  color: #595950;
-}
-.Text_PAR_TERTIARY_c9 {
-  color: #37362e;
-}
-.Text_INFO_RED_30 {
-  color: #ff0000;
-}
-.Text_RED_66 {
-  color: #ff2717;
-}
-.Text_RED_DARK_d8 {
-  color: #b70000;
-}
-.Text_YELLOW_ed {
-  color: #feab34;
-}
-.Text_ORANGE_be {
-  color: #ee7000;
-}
-.Text_CREAM_57 {
-  color: #ffdd99;
-}
-.Text_BROWN_18 {
-  color: #cbac77;
-}
-.Text_GREEN_BRIGHT_3f {
-  color: #80d43a;
-}
-.Text_GREEN_e3 {
-  color: #7ab300;
-}
-.Text_GREEN_DARK_f1 {
-  color: #497212;
-}
-.Text_BLUE_BOOSTER_21 {
-  color: #ccffff;
-}
-.Text_BLUE_TEAMKILLER_ab {
-  color: #09e2ff;
-}
-.Text_CRED_f7 {
-  color: #ced9d9;
-}
-.Text_GOLD_28 {
-  color: #ffc363;
-}
-.Text_BOND_be {
-  color: #c9c9b6;
-}
-.Text_PROM_65 {
-  color: #a29b70;
 }
 
 .Reward_base_ea {
@@ -7220,9 +7740,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .App_base__qualification_73 {
   background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.qualification");
-}
-.App_base__progression_3b {
-  background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.comp7_bg_progression");
 }
 .App_base__leaderboard_da {
   background-image: url("R.images.comp7.gui.maps.icons.comp7.backgrounds.leaderboard_bg");

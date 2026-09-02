@@ -73,7 +73,13 @@ PARAMS_WITH_BATTLE_MODIFIERS = {b'maxHealth': {
    b'avgDamagePerMinute': {
                          b'reloadTime', b'autoReloadTime'}, 
    b'clipFireRate': {
-                   b'reloadTime', b'autoReloadTime'}}
+                   b'reloadTime', b'autoReloadTime'}, 
+   b'enginePower': {
+                  b'enginePower'}, 
+   b'enginePowerPerTon': {
+                        b'enginePower'}, 
+   b'speedLimits': {
+                  b'fwMaxSpeed', b'bkMaxSpeed'}}
 NEGATIVE_PARAMS = [
  b'switchOnTime', b'switchOffTime', CHASSIS_REPAIR_TIME]
 NOT_COMPARABLE_PARAMS = [

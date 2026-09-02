@@ -84,6 +84,7 @@
 			<private></private>
 			<disabledInRoaming></disabledInRoaming>
 			<event_battles></event_battles>
+			<wt_bot></wt_bot>
 			<fallout></fallout>
 			<epic_battles></epic_battles>
 			<bob></bob>
@@ -298,6 +299,7 @@
 			<mobility></mobility>
 			<premium_equipment></premium_equipment>
 			<builtin></builtin>
+			<hideBuiltinInfo></hideBuiltinInfo>
 			<trophyUpgraded></trophyUpgraded>
 			<turbocharger></turbocharger>
 			<healthReserve></healthReserve>
@@ -316,6 +318,8 @@
 			<abilityEquipment></abilityEquipment>
 			<public></public>
 			<stopOutsideBattle></stopOutsideBattle>
+			<eventItem></eventItem>
+			<hidden></hidden>
 		</tags>
 	</equipment>
 	<customizationItem>

@@ -26,7 +26,7 @@ msgid "battle/receivers/common"
 msgstr "УСІМ"
 
 msgid "battle/receivers/squad"
-msgstr "ЗВЯЗУ"
+msgstr "ВЗВОДУ"
 
 msgid "battle/receivers/team"
 msgstr "КАМАНДЗЕ"
@@ -103,6 +103,9 @@ msgstr "Пошук гульцоў"
 msgid "chat_action/GET_VOIP_CREDENTIALS"
 msgstr "Налады галасавой сувязі"
 
+msgid "chat_action/REQUEST_ECHO_CHANNEL"
+msgstr "Проверка голосовой связи"
+
 msgid "chat_error/CANNOT_BAN_ONESELF"
 msgstr "нельга забаніць самога сябе."
 
@@ -128,10 +131,10 @@ msgid "client/COMP7/disableVOIP"
 msgstr "Галасавая сувязь адключаная. Каб гаварыць з хаўруснікамі, уключыце галасавы чат (%(keyName)s)."
 
 msgid "client/dynSquad/created/allies"
-msgstr "Хаўруснікі сфарміравалі звяз %(squadNum)s."
+msgstr "Cоюзники сформировали взвод %(squadNum)s."
 
 msgid "client/dynSquad/created/enemies"
-msgstr "Супраціўнік сфарміраваў звяз %(squadNum)s."
+msgstr "Противник сформировал взвод %(squadNum)s."
 
 msgid "client/dynSquad/created/owner/disableVOIP"
 msgstr "Звяз %(squadNum)s сфарміраваны. Даступныя чат звязу і галасавая сувязь (каб адключыць галасавую сувязь, націсніце %(keyName)s)."
@@ -143,7 +146,7 @@ msgid "client/dynSquad/created/owner/specifyVOIP"
 msgstr "Звяз %(squadNum)s сфарміраваны. Даступныя чат звязу і галасавая сувязь. Трэба прызначыць клавішу для ўключэння/выключэння галасавой сувязі."
 
 msgid "client/dynSquad/created/owner/withoutVOIP"
-msgstr "Звяз %(squadNum)s сфарміраваны. Даступны чат звязу."
+msgstr "Взвод %(squadNum)s сформирован. Доступен взводный чат."
 
 msgid "client/dynSquad/created/recruit/disableVOIP"
 msgstr "Вы далучыліся да звязу %(squadNum)s. Даступныя чат звязу і галасавая сувязь (каб адключыць галасавую сувязь, націсніце %(keyName)s)."
@@ -155,7 +158,7 @@ msgid "client/dynSquad/created/recruit/specifyVOIP"
 msgstr "Вы далучыліся да звязу %(squadNum)s. Даступныя чат звязу і галасавая сувязь. Трэба прызначыць клавішу для ўключэння/выключэння галасавой сувязі."
 
 msgid "client/dynSquad/created/recruit/withoutVOIP"
-msgstr "Вы далучыліся да звязу %(squadNum)s. Даступны чат звязу."
+msgstr "Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат."
 
 msgid "client/dynSquad/disableVOIP"
 msgstr "Галасавая сувязь выключана. Каб гаварыць удзельнікам звязу і чуць іх, уключыце галасавую сувязь (націсніце %(keyName)s)."
@@ -173,19 +176,19 @@ msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
 msgstr "Вы далучыліся да звязу %(squadNum)s. Даступныя чат звязу і галасавая сувязь. Трэба прызначыць клавішу для ўключэння/выключэння галасавой сувязі."
 
 msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
-msgstr "Вы далучыліся да звязу %(squadNum)s. Даступны чат звязу."
+msgstr "Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат."
 
 msgid "client/dynSquad/inviteAccepted/user"
-msgstr "%(receiver)s уступіў у звяз %(squadNum)s."
+msgstr "%(receiver)s присоединился ко взводу %(squadNum)s."
 
 msgid "client/dynSquad/inviteReceived"
-msgstr "%(creator)s пригласил вас во взвод."
+msgstr "%(creator)s пригласил вас во взвод."
 
 msgid "client/dynSquad/inviteReceived/anonymized"
-msgstr "%(creator)s запрасіў вас у звяз.\nУвага! Гульцы з вашага звязу будуць бачыць ваша сапраўднае гульнявое імя і тэг клана."
+msgstr "%(creator)s пригласил вас во взвод.\nВнимание! Совзводные будут видеть ваше настоящее игровое имя и тег клана."
 
 msgid "client/dynSquad/inviteSent"
-msgstr "%(receiver)s приглашён во взвод."
+msgstr "%(receiver)s приглашён во взвод."
 
 msgid "client/error/broadcastInCooldown"
 msgstr "Адпраўка паведамленняў часова прыпынена на %s с."
@@ -3756,6 +3759,12 @@ msgstr "Па-за сеткай"
 
 msgid "status/online"
 msgstr "У сетцы"
+
+msgid "voip/initInProgress"
+msgstr "Инициализация голосовой связи..."
+
+msgid "voip/ready"
+msgstr "Голосовая связь активна."
 
 msgid "xmpp_error/action"
 msgstr "Нельга выканаць «%(actionName)s». Паспрабуйце пазней."

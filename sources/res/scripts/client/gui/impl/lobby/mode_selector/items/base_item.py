@@ -102,11 +102,16 @@ class ModeSelectorItem(object):
         return
 
     def initialize(self):
+        if self.viewModel is None:
+            from debug_utils import LOG_ERROR
+            import traceback
+            LOG_ERROR(b'viewModel is None.', traceback.print_stack(limit=5))
         if self._initialized:
             return
-        self._onInitializing()
-        self._initialized = True
-        return
+        else:
+            self._onInitializing()
+            self._initialized = True
+            return
 
     def dispose(self):
         if not self._initialized:

@@ -1888,8 +1888,8 @@
                 };
               }, [t, r, s, l, F, c, X, W, T, C, R, f, x]),
               V = Y.computedStyle,
-              q = Y.computedClassNames;
-            return n().createElement("div", k({ className: o()(y.base, ...q, e), style: V }, $), j);
+              z = Y.computedClassNames;
+            return n().createElement("div", k({ className: o()(y.base, ...z, e), style: V }, $), j);
           });
         var W = t(280),
           X = t(3532),
@@ -1966,8 +1966,8 @@
           );
         }
         Object.keys(x());
-        const q = Object.keys(j()),
-          z = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
+        const z = Object.keys(j()),
+          q = { mt: "MD", mr: "SM", mb: "SM", ml: "SM" },
           K = { mt: "SM", mr: "XS", mb: "XS", ml: "XS" },
           Z = { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           Q = {
@@ -1984,8 +1984,8 @@
             {
               "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
               "heading-H73": { mt: "LG", mr: "MD", mb: "MD", ml: "MD" },
-              "heading-H56": z,
-              "heading-H36": z,
+              "heading-H56": q,
+              "heading-H36": q,
               "heading-H28": K,
               "heading-H24": K,
               "heading-H24R": K,
@@ -2005,7 +2005,7 @@
             (Object.keys(J),
             (u) =>
               u
-                ? ((u) => q.includes(u))(u)
+                ? ((u) => z.includes(u))(u)
                   ? { colorClassName: $[u] }
                   : { colorStyle: { color: u } }
                 : {}),
@@ -2666,7 +2666,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(i || (i = {})),
           (function (u) {
             ((u.Gold = "gold"),

@@ -89,7 +89,7 @@ class IGuiItemsFactory(object):
         raise NotImplementedError
         return
 
-    def createOutfit(self, strCompactDescr=None, component=None, vehicleCD=b''):
+    def createOutfit(self, strCompactDescr=None, component=None, vehicleCD=b'', isClanHidden=False, isMarksOnGunHidden=False):
         raise NotImplementedError
         return
 

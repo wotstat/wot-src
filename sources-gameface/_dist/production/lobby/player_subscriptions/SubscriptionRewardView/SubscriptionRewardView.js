@@ -52,7 +52,7 @@
             displayStatusIs: () => q,
             events: () => B,
             extraSize: () => Y,
-            forceTriggerMouseMove: () => W,
+            forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => L,
             getBrowserTexturePath: () => T,
             getDisplayStatus: () => V,
@@ -60,7 +60,7 @@
             getSize: () => P,
             getViewGlobalPosition: () => y,
             isClientAccessible: () => H,
-            isEventHandled: () => $,
+            isEventHandled: () => W,
             isFocused: () => U,
             pxToRem: () => k,
             remToPx: () => I,
@@ -271,10 +271,10 @@
         function G() {
           return viewEnv.setEventHandled();
         }
-        function $() {
+        function W() {
           return viewEnv.isEventHandled();
         }
-        function W() {
+        function $() {
           viewEnv.forceTriggerMouseMove();
         }
         function V() {
@@ -1135,7 +1135,7 @@
           (function (e) {
             ((e.extraSmall = "extraSmall"), (e.small = "small"), (e.medium = "medium"));
           })(G || (G = {})));
-        const $ = ({
+        const W = ({
           children: e,
           size: u,
           isFocused: t,
@@ -1266,13 +1266,13 @@
             )
           );
         };
-        $.defaultProps = {
+        W.defaultProps = {
           type: H.primary,
           isFocused: !1,
           soundHover: "highlight",
           soundClick: "play",
         };
-        const W = (0, r.memo)($);
+        const $ = (0, r.memo)(W);
         let V, q, Y, j, z, X, K, Q, Z;
         (!(function (e) {
           ((e.Items = "items"),
@@ -1337,7 +1337,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(V || (V = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1488,6 +1495,11 @@
             V.PremiumPlusUniversal,
             V.GoldenTicket,
             V.RewardsSlots,
+            V.WtStamp,
+            V.WtTicket,
+            V.WtMainPrizeDiscount,
+            V.WtHunter,
+            V.WtHunterCollection,
           ],
           te = [V.Gold, V.Credits, V.Crystal, V.FreeXp],
           re = [V.BattlePassPoints],
@@ -2372,13 +2384,13 @@
         const Ue = (e, u) => e.split(".").reduce((e, u) => e && e[u], u),
           He = (e) => e && "ArrayItem" === e.__proto__.constructor.name,
           Ge = (e, u) => (e.length > 0 ? `${e}.${u}` : u),
-          $e = (e) =>
+          We = (e) =>
             ((e, u) =>
               e.split(".").reduce((e, t) => {
                 const r = Ue(`${e}.${t}`, window);
                 return He(r) ? u(e, t, r) : `${e}.${t}`;
               }))(e, (e, u) => `${e}.${u}.value`),
-          We = (e) => {
+          $e = (e) => {
             const u = ((e) => {
                 const u = _e(),
                   t = u.caller,
@@ -2420,7 +2432,7 @@
                   const u = Ue(e, window);
                   for (const e in u) "function" == typeof u[e] && (u[e] = u[e].bind(u));
                   return He(u) ? u.value : u;
-                })($e(o)),
+                })(We(o)),
               ),
               c = l[0],
               E = l[1],
@@ -2441,7 +2453,7 @@
                         ? (e === c && n((e) => e + 1), E(e))
                         : E(Object.assign([], e));
                     },
-                    r = We(e);
+                    r = $e(e);
                   _.current = Ve.addCallback(r, t, s, u === qe.Deep);
                 }
               }),
@@ -2660,7 +2672,7 @@
                   ),
                 ),
                 n().createElement(
-                  W,
+                  $,
                   { mixClass: Ze.chooseButton, onClick: () => o() },
                   i ? eu.selectRewards : eu.affirmative,
                 ),

@@ -305,7 +305,14 @@
               (u.DogTagType = "dogTagComponents"),
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
-              (u.RewardsSlots = "rewardsSlots"));
+              (u.RewardsSlots = "rewardsSlots"),
+              (u.WtStamp = "stamp"),
+              (u.WtHunter = "wt_hunter"),
+              (u.WtBoss = "wt_boss"),
+              (u.WtHunterCollection = "hunter_collection"),
+              (u.WtTicket = "wtevent_ticket"),
+              (u.WtMainPrizeDiscount = "main_prize_discount"),
+              (u.WtTicket25 = "wtevent_ticket25"));
           })(i || (i = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -448,6 +455,11 @@
           i.E4.PremiumPlusUniversal,
           i.E4.GoldenTicket,
           i.E4.RewardsSlots,
+          i.E4.WtStamp,
+          i.E4.WtTicket,
+          i.E4.WtMainPrizeDiscount,
+          i.E4.WtHunter,
+          i.E4.WtHunterCollection,
           i.E4.Gold,
           i.E4.Credits,
           i.E4.Crystal,

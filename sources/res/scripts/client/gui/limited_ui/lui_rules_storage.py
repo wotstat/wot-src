@@ -56,6 +56,7 @@ class LuiRules(enum.Enum):
     PARAGONS_NOTIFICATION = b'ParagonsNotification'
     PARAGONS_BUTTONS = b'ParagonsButtons'
     NEW_CAMPAIGN_HINT = b'NewCampaignHint'
+    GUI_WHITE_TIGER_ENTRY_POINT = b'WhiteTigerEntryPoint'
     TEASER = b'Teaser'
     C7N_BUBBLE = b'CustomizationBubble'
     COMMON_CHAT = b'CommonChat'

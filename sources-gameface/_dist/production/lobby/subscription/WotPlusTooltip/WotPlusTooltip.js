@@ -4,13 +4,13 @@
     e = {
       790: (u, e, A) => {
         var F = {};
-        (A.r(F), A.d(F, { mouse: () => a, onResize: () => o }));
+        (A.r(F), A.d(F, { mouse: () => i, onResize: () => o }));
         var E = {};
         (A.r(E),
           A.d(E, {
             events: () => F,
             getMouseGlobalPosition: () => l,
-            getSize: () => i,
+            getSize: () => a,
             graphicsQuality: () => c,
           }));
         var D = {};
@@ -19,18 +19,18 @@
         (A.r(t),
           A.d(t, {
             addModelObserver: () => S,
-            addPreloadTexture: () => P,
+            addPreloadTexture: () => T,
             children: () => D,
             displayStatus: () => p,
-            displayStatusIs: () => $,
+            displayStatusIs: () => H,
             events: () => g,
-            extraSize: () => H,
+            extraSize: () => $,
             forceTriggerMouseMove: () => Q,
             freezeTextureBeforeResize: () => U,
             getBrowserTexturePath: () => x,
             getDisplayStatus: () => V,
             getScale: () => M,
-            getSize: () => k,
+            getSize: () => O,
             getViewGlobalPosition: () => N,
             isClientAccessible: () => q,
             isEventHandled: () => Y,
@@ -41,9 +41,9 @@
             sendEvent: () => w,
             setAnimateWindow: () => L,
             setEventHandled: () => X,
-            setInputPaddingsRem: () => T,
-            setSidePaddingsRem: () => O,
-            whenTutorialReady: () => Z,
+            setInputPaddingsRem: () => P,
+            setSidePaddingsRem: () => k,
+            whenTutorialReady: () => W,
           }));
         var B = A(483),
           n = A.n(B);
@@ -60,7 +60,7 @@
         }
         const o = r("clientResized"),
           s = { down: r("mousedown"), up: r("mouseup"), move: r("mousemove") };
-        const a = (function () {
+        const i = (function () {
           const u = { listeners: 0, enabled: !0, initialized: !1 };
           function e() {
             u.enabled && C(!1);
@@ -120,7 +120,7 @@
             },
           });
         })();
-        function i(u = "px") {
+        function a(u = "px") {
           return "rem" === u ? viewEnv.getClientSizeRem() : viewEnv.getClientSizePx();
         }
         function l(u = "px") {
@@ -208,10 +208,10 @@
               y(f, { isMouseEvent: !0, on: u });
             },
           };
-        function P(u) {
+        function T(u) {
           viewEnv.addPreloadTexture(u);
         }
-        function T(u) {
+        function P(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
         function x(u, e, A, F = 1) {
@@ -220,10 +220,10 @@
         function S(u, e, A) {
           return viewEnv.addDataChangedCallback(u, e, A);
         }
-        function O(u) {
+        function k(u) {
           viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, 15);
         }
-        function k(u = "px") {
+        function O(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
         }
         function I(u, e, A = "px") {
@@ -266,11 +266,11 @@
         function V() {
           return viewEnv.getShowingStatus();
         }
-        const $ = Object.keys(p).reduce(
+        const H = Object.keys(p).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === p[e]), u),
             {},
           ),
-          H = {
+          $ = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -278,13 +278,13 @@
               viewEnv.getExtraSizeRem(u, e);
             },
           },
-          Z = Promise.all([
+          W = Promise.all([
             new Promise((u) => {
               window.isDomBuilt ? u() : g.onDomBuilt(u);
             }),
             engine.whenReady,
           ]),
-          W = { view: t, client: E };
+          Z = { view: t, client: E };
         var J = A(179),
           K = A.n(J);
         function uu() {
@@ -360,9 +360,9 @@
                 if (!u) return;
                 const e = u.scrollWidth,
                   A = u.scrollHeight;
-                W.view.resize(e, A);
+                Z.view.resize(e, A);
                 const F = window.getComputedStyle(u);
-                W.view.setSidePaddingsRem({
+                Z.view.setSidePaddingsRem({
                   left: parseInt(F.getPropertyValue("padding-left"), 10),
                   top: parseInt(F.getPropertyValue("padding-top"), 10),
                   right: parseInt(F.getPropertyValue("padding-right"), 10),
@@ -427,7 +427,7 @@
                 .match(u);
           })(),
           su = ["zh_cn", "zh_sg", "zh_tw"],
-          au = (u, e = Bu.left) => {
+          iu = (u, e = Bu.left) => {
             const A = R.strings.settings.LANGUAGE_CODE().toLowerCase();
             return su.includes(A)
               ? ou(u)
@@ -439,7 +439,7 @@
                   return (Cu(E, /( )/, e).forEach((u) => (A = A.concat(Cu(u, F, Bu.left)))), A);
                 })(u, e);
           },
-          iu = "FormatText_base_d0",
+          au = "FormatText_base_d0",
           lu = ({ binding: u, text: e = "", classMix: A, alignment: F = Bu.left }) =>
             null === e
               ? (console.error("FormatText was supplied with 'null'"), null)
@@ -449,11 +449,11 @@
                   e.split("\n").map((e, E) =>
                     K().createElement(
                       "div",
-                      { className: n()(iu, A), key: `${e}-${E}` },
+                      { className: n()(au, A), key: `${e}-${E}` },
                       ((u, e, A) =>
                         u
                           .split(/%\((.*?)\)(?:[sd])?/g)
-                          .map((u) => (A && u in A ? A[u] : au(u, e))))(e, F, u).map((u, e) =>
+                          .map((u) => (A && u in A ? A[u] : iu(u, e))))(e, F, u).map((u, e) =>
                         K().createElement(J.Fragment, { key: `${e}-${u}` }, u),
                       ),
                     ),
@@ -523,7 +523,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(cu || (cu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -634,11 +641,11 @@
         function wu(u) {
           return u;
         }
-        function Pu() {
+        function Tu() {
           return !1;
         }
         console.log;
-        var Tu = A(174);
+        var Pu = A(174);
         function xu(u, e) {
           var A = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (A) return (A = A.call(u)).next.bind(A);
@@ -671,8 +678,8 @@
           return F;
         }
         const Ru = (u) => (0 === u ? window : window.subViews.get(u));
-        var Ou = A(946);
-        const ku = ((u, e) => {
+        var ku = A(946);
+        const Ou = ((u, e) => {
             const A = (0, J.createContext)({});
             return [
               function ({ mode: F = "real", options: E, children: D, mocks: t }) {
@@ -712,7 +719,7 @@
                         return {
                           subscribe: (A, D) => {
                             const B = "string" == typeof D ? `${F}.${D}` : F,
-                              n = W.view.addModelObserver(B, e, !0);
+                              n = Z.view.addModelObserver(B, e, !0);
                             return (E.set(n, A), u && A(t(D)), n);
                           },
                           readByPath: t,
@@ -751,11 +758,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const F = null != e ? e : r(u),
-                              E = Tu.LO.box(F, { equals: Pu });
+                              E = Pu.LO.box(F, { equals: Tu });
                             return (
                               "real" === A &&
                                 n.subscribe(
-                                  (0, Tu.aD)((u) => E.set(u)),
+                                  (0, Pu.aD)((u) => E.set(u)),
                                   u,
                                 ),
                               E
@@ -763,11 +770,11 @@
                           },
                           object: (u, e) => {
                             const F = null != e ? e : r(u),
-                              E = Tu.LO.box(F, { equals: Pu });
+                              E = Pu.LO.box(F, { equals: Tu });
                             return (
                               "real" === A &&
                                 n.subscribe(
-                                  (0, Tu.aD)((u) => E.set(u)),
+                                  (0, Pu.aD)((u) => E.set(u)),
                                   u,
                                 ),
                               E
@@ -776,11 +783,11 @@
                           primitives: (u, e) => {
                             const F = r(e);
                             if (Array.isArray(u)) {
-                              const E = u.reduce((u, e) => ((u[e] = Tu.LO.box(F[e], {})), u), {});
+                              const E = u.reduce((u, e) => ((u[e] = Pu.LO.box(F[e], {})), u), {});
                               return (
                                 "real" === A &&
                                   n.subscribe(
-                                    (0, Tu.aD)((e) => {
+                                    (0, Pu.aD)((e) => {
                                       u.forEach((u) => {
                                         E[u].set(e[u]);
                                       });
@@ -793,11 +800,11 @@
                             {
                               const E = u,
                                 D = Object.entries(E),
-                                t = D.reduce((u, [e, A]) => ((u[A] = Tu.LO.box(F[e], {})), u), {});
+                                t = D.reduce((u, [e, A]) => ((u[A] = Pu.LO.box(F[e], {})), u), {});
                               return (
                                 "real" === A &&
                                   n.subscribe(
-                                    (0, Tu.aD)((u) => {
+                                    (0, Pu.aD)((u) => {
                                       D.forEach(([e, A]) => {
                                         t[A].set(u[e]);
                                       });
@@ -823,9 +830,9 @@
                   C = (0, J.useState)(F),
                   o = C[0],
                   s = C[1],
-                  a = (0, J.useState)(() => n(F, E, t)),
-                  i = a[0],
-                  l = a[1];
+                  i = (0, J.useState)(() => n(F, E, t)),
+                  a = i[0],
+                  l = i[1];
                 return (
                   (0, J.useEffect)(() => {
                     r.current ? l(n(o, E, t)) : (r.current = !0);
@@ -835,11 +842,11 @@
                   }, [F]),
                   (0, J.useEffect)(
                     () => () => {
-                      (i.externalModel.dispose(), B.current.forEach((u) => u()));
+                      (a.externalModel.dispose(), B.current.forEach((u) => u()));
                     },
-                    [i],
+                    [a],
                   ),
-                  K().createElement(A.Provider, { value: i }, D)
+                  K().createElement(A.Provider, { value: a }, D)
                 );
               },
               () => (0, J.useContext)(A),
@@ -851,7 +858,7 @@
                   bonuses: u.array("bonuses", []),
                   nextCharge: u.primitives({ nextCharge: "nextCharge" }),
                 },
-                A = (0, Ou.Om)(
+                A = (0, ku.Om)(
                   () => {
                     return (
                       (u = e.bonuses.get()),
@@ -862,14 +869,14 @@
                     );
                     var u, A;
                   },
-                  { equals: Pu },
+                  { equals: Tu },
                 );
               return Object.assign({ computes: { getBonuses: A } }, e);
             },
             () => {},
           ),
-          Iu = ku[0],
-          Nu = ku[1],
+          Iu = Ou[0],
+          Nu = Ou[1],
           Uu = {
             base: "App_base_40",
             headerBlock: "App_headerBlock_25",

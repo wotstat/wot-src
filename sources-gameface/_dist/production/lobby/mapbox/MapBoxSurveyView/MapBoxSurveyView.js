@@ -2896,11 +2896,8 @@
               ),
             );
           }),
-          zu = "Header_base_40",
-          ju = "Header_title_49",
-          Ku = "Header_subTitle_8d",
-          Yu = "FormatText_base_d0",
-          Qu = ({ binding: e, text: u = "", classMix: t, alignment: r = Nu.left }) =>
+          zu = "FormatText_base_d0",
+          ju = ({ binding: e, text: u = "", classMix: t, alignment: r = Nu.left }) =>
             null === u
               ? (console.error("FormatText was supplied with 'null'"), null)
               : a().createElement(
@@ -2909,7 +2906,7 @@
                   u.split("\n").map((u, o) =>
                     a().createElement(
                       "div",
-                      { className: g()(Yu, t), key: `${u}-${o}` },
+                      { className: g()(zu, t), key: `${u}-${o}` },
                       ((e, u, t) =>
                         e
                           .split(/%\((.*?)\)(?:[sd])?/g)
@@ -2919,6 +2916,9 @@
                     ),
                   ),
                 ),
+          Ku = "Header_base_40",
+          Yu = "Header_title_49",
+          Qu = "Header_subTitle_8d",
           Xu = R.strings.mapbox.survey,
           Zu = (0, K.Pi)(() => {
             var e;
@@ -2929,9 +2929,9 @@
               o = r ? { text: Xu.title.map(), binding: { map: r } } : { text: Xu.title.common() };
             return a().createElement(
               "div",
-              { className: zu },
-              t && a().createElement("div", { className: ju }, a().createElement(Qu, o)),
-              n && a().createElement("div", { className: Ku }, Xu.subTitle()),
+              { className: Ku },
+              t && a().createElement("div", { className: Yu }, a().createElement(ju, o)),
+              n && a().createElement("div", { className: Qu }, Xu.subTitle()),
             );
           }),
           Ju = {
@@ -3352,7 +3352,7 @@
               b = h[1];
             (0, n.useEffect)(() => {
               const u = Zt(e);
-              (u !== Kt && p(!0), b(u || i));
+              (p(u !== Kt), b(u || i));
             }, [e, i, t]);
             const f = () => {
               v !== i || B || b(Kt);
@@ -3875,13 +3875,13 @@
           In = (0, n.memo)(Pn),
           On = {
             base: "OpenedQuestionContent_base_85",
-            base__small: "OpenedQuestionContent_base__small_0b",
-            mapWrapper: "OpenedQuestionContent_mapWrapper_34",
-            textWrapper: "OpenedQuestionContent_textWrapper_76",
-            textAreaSize: "OpenedQuestionContent_textAreaSize_96",
-            textAreaFont: "OpenedQuestionContent_textAreaFont_8a",
-            imageBorder: "OpenedQuestionContent_imageBorder_41",
             image: "OpenedQuestionContent_image_7d",
+            delimiter: "OpenedQuestionContent_delimiter_be",
+            content: "OpenedQuestionContent_content_f9",
+            title: "OpenedQuestionContent_title_da",
+            subtitle: "OpenedQuestionContent_subtitle_36",
+            text: "OpenedQuestionContent_text_1c",
+            textAreaSize: "OpenedQuestionContent_textAreaSize_96",
           },
           Tn = { styleName: "full", rows: 24, symbols: 670, height: 418 },
           Nn = { styleName: "small", rows: 15, symbols: 420, height: 270 },

@@ -6,7 +6,7 @@ if typing.TYPE_CHECKING:
     from gui.prb_control.entities.base.unit.listener import IStrongholdListener
 _logger = logging.getLogger(__name__)
 STYLE_PROGRESS_PREFIX = b'style_progress_'
-CLAN_SEASON_PROGRESS_PREFIX = b'clan_season_progress'
+CLAN_SEASON_PROGRESS_PREFIX = b'clan_season_progress_26_2'
 CLAN_SEASON_PROGRESS_POSTFIX = b''
 CLAN_SEASON_QUEST_PREFIX = b'clan_season_quest'
 

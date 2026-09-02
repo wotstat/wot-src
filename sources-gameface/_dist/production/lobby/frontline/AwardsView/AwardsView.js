@@ -84,7 +84,7 @@
         }
         (t.r(i),
           t.d(i, {
-            addModelObserver: () => T,
+            addModelObserver: () => R,
             addPreloadTexture: () => S,
             children: () => n,
             displayStatus: () => m,
@@ -93,7 +93,7 @@
             extraSize: () => j,
             forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => O,
-            getBrowserTexturePath: () => R,
+            getBrowserTexturePath: () => T,
             getDisplayStatus: () => X,
             getScale: () => y,
             getSize: () => M,
@@ -267,10 +267,10 @@
         function f(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
-        function R(u, e, t, r = 1) {
+        function T(u, e, t, r = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, r);
         }
-        function T(u, e, t) {
+        function R(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
         function x(u) {
@@ -1583,7 +1583,7 @@
           (function (u) {
             ((u.extraSmall = "extraSmall"), (u.small = "small"), (u.medium = "medium"));
           })(fu || (fu = {})));
-        const Ru = ({
+        const Tu = ({
           children: u,
           size: e,
           isFocused: t,
@@ -1714,13 +1714,13 @@
             )
           );
         };
-        Ru.defaultProps = {
+        Tu.defaultProps = {
           type: Su.primary,
           isFocused: !1,
           soundHover: "highlight",
           soundClick: "play",
         };
-        const Tu = (0, r.memo)(Ru);
+        const Ru = (0, r.memo)(Tu);
         let xu, Mu, Lu, Pu, Ou, yu, ku, Nu, Iu;
         (!(function (u) {
           ((u.Items = "items"),
@@ -1785,7 +1785,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(xu || (xu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1935,6 +1942,11 @@
             xu.PremiumPlusUniversal,
             xu.GoldenTicket,
             xu.RewardsSlots,
+            xu.WtStamp,
+            xu.WtTicket,
+            xu.WtMainPrizeDiscount,
+            xu.WtHunter,
+            xu.WtHunterCollection,
           ],
           Gu = [xu.Gold, xu.Credits, xu.Crystal, xu.FreeXp],
           Wu = [xu.BattlePassPoints],
@@ -2652,7 +2664,7 @@
                 "div",
                 { className: Ae.buttonWrapper },
                 a().createElement(
-                  Tu,
+                  Ru,
                   { type: Su.primary, size: i ? fu.small : fu.medium, onClick: Z.Sy },
                   R.strings.epic_battle.awards.acceptButton(),
                 ),
@@ -2731,7 +2743,7 @@
                   "div",
                   { className: Ce },
                   a().createElement(
-                    Tu,
+                    Ru,
                     { type: Su.primary, size: n ? fu.medium : fu.small, onClick: t },
                     R.strings.epic_battle.awards.acceptButton(),
                   ),
@@ -2780,7 +2792,7 @@
                 : a().createElement(u, e),
             );
           },
-          Re = {
+          Te = {
             mt__XS: "Box_mt__XS_0c",
             mt__SM: "Box_mt__SM_eb",
             mt__SMp: "Box_mt__SMp_cf",
@@ -2810,7 +2822,7 @@
             ml__LG: "Box_ml__LG_39",
             ml__XL: "Box_ml__XL_4a",
           },
-          Te = [
+          Re = [
             "className",
             "width",
             "height",
@@ -2854,13 +2866,13 @@
         }
         Object.keys(he());
         const Me = {
-            XL: { mt: Re.mt__XL, mr: Re.mr__XL, mb: Re.mb__XL, ml: Re.ml__XL },
-            LG: { mt: Re.mt__LG, mr: Re.mr__LG, mb: Re.mb__LG, ml: Re.ml__LG },
-            MDp: { mt: Re.mt__MDp, mr: Re.mr__MDp, mb: Re.mb__MDp, ml: Re.ml__MDp },
-            MD: { mt: Re.mt__MD, mr: Re.mr__MD, mb: Re.mb__MD, ml: Re.ml__MD },
-            SMp: { mt: Re.mt__SMp, mr: Re.mr__SMp, mb: Re.mb__SMp, ml: Re.ml__SMp },
-            SM: { mt: Re.mt__SM, mr: Re.mr__SM, mb: Re.mb__SM, ml: Re.ml__SM },
-            XS: { mt: Re.mt__XS, mr: Re.mr__XS, mb: Re.mb__XS, ml: Re.ml__XS },
+            XL: { mt: Te.mt__XL, mr: Te.mr__XL, mb: Te.mb__XL, ml: Te.ml__XL },
+            LG: { mt: Te.mt__LG, mr: Te.mr__LG, mb: Te.mb__LG, ml: Te.ml__LG },
+            MDp: { mt: Te.mt__MDp, mr: Te.mr__MDp, mb: Te.mb__MDp, ml: Te.ml__MDp },
+            MD: { mt: Te.mt__MD, mr: Te.mr__MD, mb: Te.mb__MD, ml: Te.ml__MD },
+            SMp: { mt: Te.mt__SMp, mr: Te.mr__SMp, mb: Te.mb__SMp, ml: Te.ml__SMp },
+            SM: { mt: Te.mt__SM, mr: Te.mr__SM, mb: Te.mb__SM, ml: Te.ml__SM },
+            XS: { mt: Te.mt__XS, mr: Te.mr__XS, mb: Te.mb__XS, ml: Te.ml__XS },
           },
           Le = (Object.keys(Me), ["mt", "mr", "mb", "ml"]),
           Pe = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
@@ -2896,11 +2908,11 @@
                     void 0
                   : v,
               f = u.alignItems,
-              R =
+              T =
                 void 0 === f
                   ? (C ? "flex-start" : g && "center") || (p && "flex-end") || void 0
                   : f,
-              T = u.alignSelf,
+              R = u.alignSelf,
               x = u.wrap,
               M = u.flexWrap,
               L = void 0 === M ? (x ? "wrap" : void 0) : M,
@@ -2918,7 +2930,7 @@
                   n = Object.keys(u);
                 for (r = 0; r < n.length; r++) ((t = n[r]), e.indexOf(t) >= 0 || (a[t] = u[t]));
                 return a;
-              })(u, Te);
+              })(u, Re);
             const U = (0, r.useMemo)(() => {
                 const u = { mt: o, mr: l, mb: A, ml: F },
                   e = ((u) =>
@@ -2936,21 +2948,21 @@
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== n && "number" == typeof n ? n + "rem" : n,
                     flex: k,
-                    alignSelf: T,
-                    display: B || R ? "flex" : void 0,
+                    alignSelf: R,
+                    display: B || T ? "flex" : void 0,
                     flexDirection: B,
                     flexWrap: L,
                     justifyContent: S,
-                    alignItems: R,
+                    alignItems: T,
                   }),
                   computedClassNames: e,
                 };
-              }, [t, n, o, l, A, F, N, k, T, B, L, S, R]),
+              }, [t, n, o, l, A, F, N, k, R, B, L, S, T]),
               G = U.computedStyle,
               W = U.computedClassNames;
             return a().createElement(
               "div",
-              xe({ className: h()(Re.base, ...W, e), style: G }, H),
+              xe({ className: h()(Te.base, ...W, e), style: G }, H),
               I,
             );
           }),

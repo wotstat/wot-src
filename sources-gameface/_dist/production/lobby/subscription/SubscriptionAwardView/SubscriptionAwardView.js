@@ -1146,11 +1146,11 @@
         function N(u) {
           return u;
         }
-        function U() {
+        function H() {
           return !1;
         }
         console.log;
-        var H = t(174);
+        var U = t(174);
         function G(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
@@ -1263,11 +1263,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const r = null != e ? e : E(u),
-                              n = H.LO.box(r, { equals: U });
+                              n = U.LO.box(r, { equals: H });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, H.aD)((u) => n.set(u)),
+                                  (0, U.aD)((u) => n.set(u)),
                                   u,
                                 ),
                               n
@@ -1275,11 +1275,11 @@
                           },
                           object: (u, e) => {
                             const r = null != e ? e : E(u),
-                              n = H.LO.box(r, { equals: U });
+                              n = U.LO.box(r, { equals: H });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, H.aD)((u) => n.set(u)),
+                                  (0, U.aD)((u) => n.set(u)),
                                   u,
                                 ),
                               n
@@ -1288,11 +1288,11 @@
                           primitives: (u, e) => {
                             const r = E(e);
                             if (Array.isArray(u)) {
-                              const n = u.reduce((u, e) => ((u[e] = H.LO.box(r[e], {})), u), {});
+                              const n = u.reduce((u, e) => ((u[e] = U.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, H.aD)((e) => {
+                                    (0, U.aD)((e) => {
                                       u.forEach((u) => {
                                         n[u].set(e[u]);
                                       });
@@ -1305,11 +1305,11 @@
                             {
                               const n = u,
                                 a = Object.entries(n),
-                                i = a.reduce((u, [e, t]) => ((u[t] = H.LO.box(r[e], {})), u), {});
+                                i = a.reduce((u, [e, t]) => ((u[t] = U.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, H.aD)((u) => {
+                                    (0, U.aD)((u) => {
                                       a.forEach(([e, t]) => {
                                         i[t].set(u[e]);
                                       });
@@ -1374,7 +1374,7 @@
                     );
                     var u, t;
                   },
-                  { equals: U },
+                  { equals: H },
                 );
               return Object.assign({ computes: { getRewards: t } }, e);
             },
@@ -1761,7 +1761,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(cu || (cu = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1910,6 +1917,11 @@
           cu.PremiumPlusUniversal,
           cu.GoldenTicket,
           cu.RewardsSlots,
+          cu.WtStamp,
+          cu.WtTicket,
+          cu.WtMainPrizeDiscount,
+          cu.WtHunter,
+          cu.WtHunterCollection,
           cu.Gold,
           cu.Credits,
           cu.Crystal,
@@ -2370,9 +2382,9 @@
             );
             var A;
           };
-        function Uu() {
+        function Hu() {
           return (
-            (Uu =
+            (Hu =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -2381,10 +2393,10 @@
                 }
                 return u;
               }),
-            Uu.apply(this, arguments)
+            Hu.apply(this, arguments)
           );
         }
-        const Hu = ({ children: u, tooltipArgs: e, className: t }) => {
+        const Uu = ({ children: u, tooltipArgs: e, className: t }) => {
             if (!e) return u;
             const r = n().createElement("div", { className: t }, u);
             if (e.header || e.body) return n().createElement(Nu, e, r);
@@ -2392,7 +2404,7 @@
               i = e.args,
               s = null == i ? void 0 : i.contentId;
             return a || s
-              ? n().createElement(yu, Uu({}, e, { contentId: a || s }), r)
+              ? n().createElement(yu, Hu({}, e, { contentId: a || s }), r)
               : n().createElement(Pu, e, r);
           },
           Gu = {
@@ -2495,7 +2507,7 @@
               "div",
               { className: g()(Gu.base, Gu[`base__${r}`], E), style: o },
               n().createElement(
-                Hu,
+                Uu,
                 { tooltipArgs: A, className: Gu.tooltipWrapper },
                 n().createElement(
                   n().Fragment,
@@ -2540,7 +2552,7 @@
               ),
               t &&
                 n().createElement(
-                  Hu,
+                  Uu,
                   { tooltipArgs: c },
                   n().createElement("div", {
                     className: g()(Gu.timer, null == l ? void 0 : l.periodicIcon),

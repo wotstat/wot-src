@@ -1,5 +1,6 @@
 import typing
 from ab_feature_test_token_based_shared import getGroupByFeature
+from account_helpers.AccountSettings import AccountSettings, TankAcademy
 from collections import OrderedDict
 from constants import ARENA_BONUS_TYPE
 from Event import EventManager, Event
@@ -37,7 +38,7 @@ class TankAcademyController(ITankAcademyController):
     __tankAcademySelectableRewardMgr = TankAcademySelectableRewardManager
     __bootcampController = dependency.descriptor(IBootcampController)
     __settingsCore = dependency.descriptor(ISettingsCore)
-    __slots__ = (b'_em', b'onStateChanged', b'onFinish', b'_isEnabled', b'_isAvailable', b'__isWaitingToken', b'__savedRewards', b'__hasDelayedRewards', b'__isFinished', b'__abTestGroup', b'__hangarWidgetAlias', b'__suppressedPostBattleArenaUniqueIDs', b'__hintsHelper')
+    __slots__ = (b'_em', b'onStateChanged', b'onFinish', b'_isEnabled', b'_isAvailable', b'__isWaitingToken', b'__savedRewards', b'__hasDelayedRewards', b'__isFinished', b'__abTestGroup', b'__hangarWidgetAlias', b'__suppressedPostBattleArenaUniqueIDs', b'__hintsHelper', b'__currentQuestOrder')
 
     def __init__(self):
         super(TankAcademyController, self).__init__()
@@ -54,6 +55,7 @@ class TankAcademyController(ITankAcademyController):
         self.__hangarWidgetAlias = None
         self.__suppressedPostBattleArenaUniqueIDs = set()
         self.__hintsHelper = None
+        self.__currentQuestOrder = None
         return
 
     def init(self):
@@ -246,6 +248,13 @@ class TankAcademyController(ITankAcademyController):
         else:
             return
 
+    def getCurrentQuestOrder(self):
+        if self.__currentQuestOrder is not None:
+            return self.__currentQuestOrder
+        else:
+            storedOrder = AccountSettings.getTankAcademySetting(TankAcademy.CURRENT_QUEST_ORDER)
+            return storedOrder or None
+
     def getQuestProgress(self, quest):
         currentProgress = 0
         maxProgress = 0
@@ -335,6 +344,7 @@ class TankAcademyController(ITankAcademyController):
             eventSent = self._checkIsTankAcademyStateChanged()
             self.__checkDelayedReward(not eventSent)
             self.__updateFinishState()
+            self.__updateCurrentQuestOrder()
             if not self._isAvailable:
                 self.__isWaitingToken = True
                 self.__eventsCache.onSyncCompleted -= self._onSyncCompleted
@@ -361,6 +371,15 @@ class TankAcademyController(ITankAcademyController):
                 self.onFinish()
         return
 
+    def __updateCurrentQuestOrder(self):
+        if not self.isActive():
+            return
+        else:
+            currentQuest = self.getCurrentQuest()
+            self.__currentQuestOrder = currentQuest.getOrder() if currentQuest else None
+            AccountSettings.setTankAcademySetting(TankAcademy.CURRENT_QUEST_ORDER, self.__currentQuestOrder or 0)
+            return
+
     def __onConnected(self):
         self._isAvailable = False
         self.__savedRewards = OrderedDict()
@@ -368,6 +387,7 @@ class TankAcademyController(ITankAcademyController):
         self.__isFinished = False
         self.__isWaitingToken = False
         self.__suppressedPostBattleArenaUniqueIDs.clear()
+        self.__currentQuestOrder = None
         self.__subscribe()
         if self.__cachesAreReady():
             self._checkIsTankAcademyStateChanged()

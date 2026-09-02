@@ -240,9 +240,9 @@ class AlertData(object):
      PeriodType.NOT_SET, PeriodType.ALL_NOT_SET, PeriodType.STANDALONE_NOT_SET,
      PeriodType.NOT_AVAILABLE, PeriodType.ALL_NOT_AVAILABLE, PeriodType.STANDALONE_NOT_AVAILABLE)
     _RES_REASON_ROOT = None
-    __slots__ = (b'alertIcon', b'buttonIcon', b'buttonLabel', b'buttonVisible', b'buttonTooltip', b'statusText', b'popoverAlias', b'bgVisible', b'shadowFilterVisible', b'tooltip', b'isSimpleTooltip')
+    __slots__ = (b'alertIcon', b'buttonIcon', b'buttonLabel', b'buttonVisible', b'buttonTooltip', b'statusText', b'popoverAlias', b'bgVisible', b'shadowFilterVisible', b'tooltip', b'isSimpleTooltip', b'isWulfTooltip')
 
-    def __init__(self, alertIcon=None, buttonIcon=b'', buttonLabel=b'', buttonVisible=False, buttonTooltip=None, statusText=b'', popoverAlias=None, bgVisible=True, shadowFilterVisible=False, tooltip=None, isSimpleTooltip=False):
+    def __init__(self, alertIcon=None, buttonIcon=b'', buttonLabel=b'', buttonVisible=False, buttonTooltip=None, statusText=b'', popoverAlias=None, bgVisible=True, shadowFilterVisible=False, tooltip=None, isSimpleTooltip=False, isWulfTooltip=False):
         self.alertIcon = alertIcon
         self.buttonIcon = buttonIcon
         self.buttonLabel = buttonLabel
@@ -254,6 +254,7 @@ class AlertData(object):
         self.shadowFilterVisible = shadowFilterVisible
         self.tooltip = tooltip
         self.isSimpleTooltip = isSimpleTooltip
+        self.isWulfTooltip = isWulfTooltip
         return
 
     @classmethod
@@ -271,7 +272,7 @@ class AlertData(object):
         elif vehicleIsAvailableForRestore:
             reason = cls._RES_REASON_ROOT.vehicleAvailableForRestore()
         tooltipValue = tooltip if tooltip is not None else makeTooltip(body=backport.text(reason, levels=levelsStr))
-        return cls(alertIcon=backport.image(R.images.gui.maps.icons.library.alertBigIcon()), buttonLabel=backport.text(cls._RES_ROOT.button.moreInfo()), buttonVisible=True, statusText=text_styles.vehicleStatusCriticalText(backport.text(cls._RES_ROOT.unsuitableVehicles(), levels=levelsStr)), shadowFilterVisible=True, tooltip=tooltipValue, isSimpleTooltip=tooltip is None)
+        return cls(alertIcon=backport.image(R.images.gui.maps.icons.library.alertBigIcon()), buttonLabel=backport.text(cls._RES_ROOT.button.moreInfo()), buttonVisible=True, statusText=text_styles.vehicleStatusCriticalText(backport.text(cls._RES_ROOT.unsuitableVehicles(), levels=levelsStr)), shadowFilterVisible=True, tooltip=tooltipValue, isSimpleTooltip=tooltip is None, isWulfTooltip=False)
 
     def asDict(self):
         return {b'alertIcon': (self.alertIcon), 
@@ -284,7 +285,8 @@ class AlertData(object):
            b'bgVisible': (self.bgVisible), 
            b'shadowFilterVisible': (self.shadowFilterVisible), 
            b'tooltip': (self.tooltip), 
-           b'isSimpleTooltip': (self.isSimpleTooltip)}
+           b'isSimpleTooltip': (self.isSimpleTooltip), 
+           b'isWulfTooltip': (self.isWulfTooltip)}
 
     @classmethod
     def _getAlertLabel(cls, periodInfo, serverShortName):

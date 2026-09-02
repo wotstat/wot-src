@@ -1399,9 +1399,7 @@
                         },
                         className: he,
                       }),
-                      J().createElement(Ee, {
-                        text: R.strings.menu.bonusType.$dyn(`c_${291 === u ? 29 : u}`),
-                      }),
+                      J().createElement(Ee, { text: R.strings.menu.bonusType.$dyn(`c_${u}`) }),
                     ),
                   ),
                 ),

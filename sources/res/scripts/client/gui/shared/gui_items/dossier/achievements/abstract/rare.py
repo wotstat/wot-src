@@ -97,7 +97,7 @@ class RareAchievement(RegularAchievement):
             icons[self.ICON_TYPE.IT_180X180] = b'img://%s' % str(memBigImgID)
         return icons
 
-    def _getIconName(self):
+    def getIconName(self):
         return b'actionUnknown'
 
     def __repr__(self):

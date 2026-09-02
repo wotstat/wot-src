@@ -199,10 +199,10 @@ class FullScreenDialogWindowWrapper(LobbyWindow):
         return
 
     @classmethod
-    def createIfNotExist(cls, layoutID, wrappedViewClass, parent=None, *args, **kwargs):
+    def createIfNotExist(cls, layoutID, wrappedViewClass, parent=None, layer=WindowLayer.UNDEFINED, *args, **kwargs):
         currentView = cls.__gui.windowsManager.getViewByLayoutID(layoutID)
         if currentView is None:
-            return FullScreenDialogWindowWrapper(wrappedViewClass(*args, **kwargs), parent)
+            return FullScreenDialogWindowWrapper(wrappedViewClass(*args, **kwargs), parent, layer=layer)
         else:
             return
 

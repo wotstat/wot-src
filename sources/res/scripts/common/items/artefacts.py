@@ -550,7 +550,7 @@ class ImprovedConfiguration(StaticOptionalDevice):
 
 
 class Equipment(Artefact):
-    __slots__ = (b'equipmentType', b'reuseCount', b'cooldownSeconds', b'soundNotification', b'stunResistanceEffect', b'stunResistanceDuration', b'repeatedStunDurationFactor', b'clientSelector', b'ownerPrefab', b'usagePrefab', b'playerMessagesKey', b'code', b'activationSound', b'deactivationSound', b'refillSound')
+    __slots__ = (b'equipmentType', b'reuseCount', b'cooldownSeconds', b'soundNotification', b'stunResistanceEffect', b'stunResistanceDuration', b'repeatedStunDurationFactor', b'clientSelector', b'ownerPrefab', b'usagePrefab', b'playerMessagesKey', b'code', b'activationSound', b'deactivationSound', b'refillSound', b'consumeSeconds', b'deploySeconds', b'rechargeSeconds', b'soundPressedReady', b'soundPressedNotReady', b'soundPressedCancel')
 
     def __init__(self):
         super(Equipment, self).__init__(items.ITEM_TYPES.equipment, 0, b'', 0)
@@ -560,6 +560,9 @@ class Equipment(Artefact):
         self.repeatedStunDurationFactor = 1.0
         self.reuseCount = component_constants.ZERO_INT
         self.cooldownSeconds = component_constants.ZERO_INT
+        self.consumeSeconds = component_constants.ZERO_INT
+        self.rechargeSeconds = component_constants.ZERO_INT
+        self.deploySeconds = component_constants.ZERO_INT
         self.soundNotification = None
         self.clientSelector = None
         self.playerMessagesKey = None
@@ -568,6 +571,9 @@ class Equipment(Artefact):
         self.activationSound = None
         self.deactivationSound = None
         self.refillSound = None
+        self.soundPressedReady = None
+        self.soundPressedNotReady = None
+        self.soundPressedCancel = None
         return
 
     def _readBasicConfig(self, xmlCtx, section):
@@ -578,9 +584,13 @@ class Equipment(Artefact):
         self.deactivationSound = _xml.readStringOrNone(xmlCtx, section, b'deactivationSound')
         self.refillSound = _xml.readStringOrNone(xmlCtx, section, b'refillSound')
         self.playerMessagesKey = _xml.readStringOrNone(xmlCtx, section, b'playerMessagesKey')
+        self.soundPressedReady = _xml.readStringOrNone(xmlCtx, section, b'soundPressedReady')
+        self.soundPressedNotReady = _xml.readStringOrNone(xmlCtx, section, b'soundPressedNotReady')
+        self.soundPressedCancel = _xml.readStringOrNone(xmlCtx, section, b'soundPressedCancel')
         scriptSection = section[b'script']
         self.stunResistanceEffect, self.stunResistanceDuration, self.repeatedStunDurationFactor = _readStun(xmlCtx, scriptSection)
-        self.reuseCount, self.cooldownSeconds = _readReuseParams(xmlCtx, scriptSection)
+        params = _readReuseParams(xmlCtx, scriptSection)
+        self.reuseCount, self.cooldownSeconds, self.consumeSeconds, self.deploySeconds, self.rechargeSeconds = params
         self.clientSelector = _xml.readStringOrNone(xmlCtx, scriptSection, b'clientSelector')
         self.ownerPrefab = _xml.readStringOrNone(xmlCtx, section, b'ownerPrefab')
         self.usagePrefab = _xml.readStringOrNone(xmlCtx, section, b'usagePrefab')
@@ -3074,7 +3084,10 @@ def _readStun(xmlCtx, scriptSection):
 def _readReuseParams(xmlCtx, scriptSection):
     return (
      _xml.readInt(xmlCtx, scriptSection, b'reuseCount', minVal=-1) if scriptSection.has_key(b'reuseCount') else 0,
-     _xml.readInt(xmlCtx, scriptSection, b'cooldownSeconds', minVal=0) if scriptSection.has_key(b'cooldownSeconds') else 0)
+     _xml.readInt(xmlCtx, scriptSection, b'cooldownSeconds', minVal=0) if scriptSection.has_key(b'cooldownSeconds') else 0,
+     _xml.readInt(xmlCtx, scriptSection, b'consumeSeconds', minVal=0) if scriptSection.has_key(b'consumeSeconds') else 0,
+     _xml.readInt(xmlCtx, scriptSection, b'deploySeconds', minVal=0) if scriptSection.has_key(b'deploySeconds') else 0,
+     _xml.readInt(xmlCtx, scriptSection, b'rechargeSeconds', minVal=0) if scriptSection.has_key(b'rechargeSeconds') else 0)
 
 
 class OPT_DEV_TYPE_TAG(object):

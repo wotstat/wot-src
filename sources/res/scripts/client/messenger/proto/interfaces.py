@@ -180,6 +180,10 @@ class IVOIPChatController(object):
         raise NotImplementedError
         return
 
+    def isWebRTC(self):
+        raise NotImplementedError
+        return
+
     def invalidateInitialization(self):
         raise NotImplementedError
         return

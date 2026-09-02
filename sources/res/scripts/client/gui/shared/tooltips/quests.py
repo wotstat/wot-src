@@ -116,6 +116,8 @@ class QuestsPreviewTooltipData(BlocksTooltipData):
         for bonus in quest.getBonuses():
             if bonus.getName() == b'battleToken':
                 bonusNames.extend(StringTokenBonusFormatter().format(bonus))
+            elif bonus.getName() == b'ticket':
+                bonusNames.extend(StringTokenBonusFormatter().format(bonus))
             else:
                 bonusFormat = bonus.format()
                 if bonusFormat:

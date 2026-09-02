@@ -5,7 +5,7 @@ from gui.impl.gen.view_models.views.battle_royale.commander_cmp_perk_model impor
 class CommanderCmpViewModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=3, commands=0):
+    def __init__(self, properties=2, commands=0):
         super(CommanderCmpViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -16,18 +16,11 @@ class CommanderCmpViewModel(ViewModel):
         self._setString(0, value)
         return
 
-    def getIconPostfix(self):
-        return self._getString(1)
-
-    def setIconPostfix(self, value):
-        self._setString(1, value)
-        return
-
     def getPerkList(self):
-        return self._getArray(2)
+        return self._getArray(1)
 
     def setPerkList(self, value):
-        self._setArray(2, value)
+        self._setArray(1, value)
         return
 
     @staticmethod
@@ -37,6 +30,5 @@ class CommanderCmpViewModel(ViewModel):
     def _initialize(self):
         super(CommanderCmpViewModel, self)._initialize()
         self._addStringProperty(b'nation', b'')
-        self._addStringProperty(b'iconPostfix', b'')
         self._addArrayProperty(b'perkList', Array())
         return

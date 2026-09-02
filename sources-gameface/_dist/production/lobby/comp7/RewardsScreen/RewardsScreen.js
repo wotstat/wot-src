@@ -785,7 +785,7 @@
           };
         window.ViewEnvHelper = w;
       },
-      288: (e, u, t) => {
+      6068: (e, u, t) => {
         "use strict";
         var a = t(6179),
           n = t.n(a);
@@ -1959,7 +1959,7 @@
             [Ue.Sixth]: "sixth",
           },
           We = (e) => He[e],
-          Ge = [Ue.First, Ue.Second, Ue.Third, Ue.Fourth],
+          Ge = [Ue.First, Ue.Second, Ue.Third, Ue.Fourth, Ue.Fifth, Ue.Sixth],
           $e = (e) => Ge.includes(e),
           qe = "RankEmblem_base_ec";
         let Qe;
@@ -3068,7 +3068,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(bt || (bt = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3218,6 +3225,11 @@
             bt.PremiumPlusUniversal,
             bt.GoldenTicket,
             bt.RewardsSlots,
+            bt.WtStamp,
+            bt.WtTicket,
+            bt.WtMainPrizeDiscount,
+            bt.WtHunter,
+            bt.WtHunterCollection,
           ],
           Mt = [bt.Gold, bt.Credits, bt.Crystal, bt.FreeXp],
           Nt = [bt.BattlePassPoints],
@@ -4329,6 +4341,6 @@
         t = (self.webpackChunkgameface = self.webpackChunkgameface || []);
       (t.forEach(u.bind(null, 0)), (t.push = u.bind(null, t.push.bind(t))));
     })());
-  var __webpack_exports__ = __webpack_require__.O(void 0, [926], () => __webpack_require__(288));
+  var __webpack_exports__ = __webpack_require__.O(void 0, [926], () => __webpack_require__(6068));
   __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })();

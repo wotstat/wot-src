@@ -58,6 +58,28 @@ class SafeEvent(Event):
         return
 
 
+class HoldBackEvent(Event):
+    __slots__ = (b'__isHoldBack',)
+
+    def __init__(self, manager=None):
+        super(HoldBackEvent, self).__init__(manager)
+        self.__isHoldBack = False
+        return
+
+    def halt(self):
+        self.__isHoldBack = True
+        return
+
+    def proceed(self):
+        self.__isHoldBack = False
+        return
+
+    def __call__(self, *args, **kwargs):
+        if not self.__isHoldBack:
+            super(HoldBackEvent, self).__call__(*args, **kwargs)
+        return
+
+
 class Handler(object):
     __slots__ = (b'__delegate',)
 

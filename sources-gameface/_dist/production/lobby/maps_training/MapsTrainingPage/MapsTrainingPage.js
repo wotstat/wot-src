@@ -868,9 +868,9 @@
         var a = {};
         (t.r(a),
           t.d(a, {
-            Area: () => ze,
+            Area: () => Ge,
             Bar: () => $e,
-            Default: () => Ge,
+            Default: () => ze,
             useVerticalScrollApi: () => Se,
           }));
         var r = t(179),
@@ -1226,7 +1226,7 @@
           extraSmallHeight: !1,
         };
         (0, r.memo)(W);
-        const G = (0, r.memo)(({ children: e }) => {
+        const z = (0, r.memo)(({ children: e }) => {
           const u = (0, r.useContext)(H),
             t = (0, r.useState)(u),
             n = t[0],
@@ -1244,8 +1244,8 @@
           return s().createElement(H.Provider, { value: i }, e);
         });
         t(368);
-        var z = t(483),
-          V = t.n(z);
+        var G = t(483),
+          V = t.n(G);
         function Y(e, u, t) {
           const n = (0, r.useContext)(H);
           let a = Object.entries(n).filter(([e, u]) => !0 === u && e in P);
@@ -2090,7 +2090,7 @@
             bar: "VerticalScroll_bar_1e",
             area: "VerticalScroll_area_af",
           },
-          Ge = ({
+          ze = ({
             children: e,
             api: u,
             className: t,
@@ -2112,12 +2112,12 @@
               s().createElement(
                 "div",
                 { className: V()(We.area, a) },
-                s().createElement(ze, { className: o, classNames: i, api: _ }, e),
+                s().createElement(Ge, { className: o, classNames: i, api: _ }, e),
               ),
               s().createElement($e, { getStepByRailClick: l, api: u, onDrag: c, classNames: E }),
             );
           },
-          ze = ({ className: e, classNames: u, children: t, api: n }) => (
+          Ge = ({ className: e, classNames: u, children: t, api: n }) => (
             (0, r.useEffect)(() => Q(n.recalculateContent)),
             s().createElement(
               "div",
@@ -2129,7 +2129,7 @@
               ),
             )
           );
-        ze.Default = Ge;
+        Ge.Default = ze;
         const Ve = { Vertical: a, Horizontal: n },
           Ye = {
             base: "TextButton_base_b6",
@@ -2833,8 +2833,8 @@
                 ),
                 $ = (0, r.useMemo)(() => (_ ? { backgroundImage: `url(${_})` } : null), [_]),
                 W = V()(Ru.input, Ru[`input__${t}`]),
-                G = V()(Ru.icon, Ru[`icon__${t}`]),
-                z = V()(Ru.placeholder, Ru[`placeholder__${t}`]);
+                z = V()(Ru.icon, Ru[`icon__${t}`]),
+                G = V()(Ru.placeholder, Ru[`placeholder__${t}`]);
               return s().createElement(
                 "div",
                 {
@@ -2847,7 +2847,7 @@
                   onClick: L,
                 },
                 !M && s().createElement("div", { className: Ru.disabled }),
-                $ && s().createElement("div", { style: $, className: G }),
+                $ && s().createElement("div", { style: $, className: z }),
                 s().createElement("input", {
                   id: R,
                   ref: w,
@@ -2860,7 +2860,7 @@
                   onBlur: T,
                   maxLength: i,
                 }),
-                I && !u && !b && s().createElement("div", { className: z }, I),
+                I && !u && !b && s().createElement("div", { className: G }, I),
                 c && s().createElement("div", { className: Ru.clear, onClick: B }),
               );
             },
@@ -3007,7 +3007,7 @@
               }, []),
               W = (0, r.useCallback)(() => U(""), [U]);
             (0, r.useEffect)(() => () => $(), [$]);
-            const G = (0, r.useCallback)(
+            const z = (0, r.useCallback)(
               (e) => {
                 ($(),
                   L.debounceTime
@@ -3021,8 +3021,8 @@
             ((0, r.useEffect)(() => {
               I.current.isChangeHandled ||
                 I.current.value !== R ||
-                (G(I.current.value), (I.current.isChangeHandled = !0));
-            }, [R, G]),
+                (z(I.current.value), (I.current.isChangeHandled = !0));
+            }, [R, z]),
               (0, r.useEffect)(() => {
                 (I.current.isChangeHandled &&
                   c !== I.current.value &&
@@ -3032,7 +3032,7 @@
               (0, r.useEffect)(() => {
                 O(F);
               }, [F, o]));
-            const z = (0, r.useCallback)((e) => h && h(e), [h]),
+            const G = (0, r.useCallback)((e) => h && h(e), [h]),
               Y = (0, r.useCallback)(
                 (e) => {
                   (L.disableHighlightOnFocus && N && O(!1), g && g(e));
@@ -3065,7 +3065,7 @@
               {
                 id: u,
                 className: te,
-                onMouseEnter: z,
+                onMouseEnter: G,
                 onMouseDown: j,
                 onMouseUp: q,
                 onMouseLeave: X,
@@ -3114,7 +3114,7 @@
         !(function (e) {
           ((e.Button = "button"), (e.Slot = "slot"));
         })(Wu || (Wu = {}));
-        const Gu = {
+        const zu = {
             base: "ToggleButton_base_4d",
             base__slot: "ToggleButton_base__slot_4e",
             base__active: "ToggleButton_base__active_8d",
@@ -3125,7 +3125,7 @@
             base__button: "ToggleButton_base__button_f5",
             indicator: "ToggleButton_indicator_c3",
           },
-          zu = () => {},
+          Gu = () => {},
           Vu = s().memo(
             ({
               active: e = !1,
@@ -3136,10 +3136,10 @@
               disabled: o,
               soundClick: i = "play",
               soundHover: l = "highlight",
-              onMouseEnter: c = zu,
-              onMouseDown: E = zu,
-              onMouseUp: _ = zu,
-              onMouseLeave: m = zu,
+              onMouseEnter: c = Gu,
+              onMouseDown: E = Gu,
+              onMouseUp: _ = Gu,
+              onMouseLeave: m = Gu,
             }) => {
               const d = (0, r.useCallback)(
                   (u) => {
@@ -3159,21 +3159,21 @@
                   },
                   [E, o, i],
                 ),
-                D = V()(Gu.base, u, Gu[`base__${n}`], e && Gu.base__active, o && Gu.base__disabled);
+                D = V()(zu.base, u, zu[`base__${n}`], e && zu.base__active, o && zu.base__disabled);
               return s().createElement(
                 "div",
                 {
                   className: D,
                   onClick: d,
                   onMouseEnter: A,
-                  onMouseUp: o ? zu : _,
+                  onMouseUp: o ? Gu : _,
                   onMouseDown: F,
-                  onMouseLeave: o ? zu : m,
+                  onMouseLeave: o ? Gu : m,
                 },
-                s().createElement("div", { className: Gu.content }, t),
-                n === Wu.Button && s().createElement("div", { className: Gu.background }),
-                s().createElement("div", { className: Gu.overlay }),
-                s().createElement("div", { className: Gu.indicator }),
+                s().createElement("div", { className: zu.content }, t),
+                n === Wu.Button && s().createElement("div", { className: zu.background }),
+                s().createElement("div", { className: zu.overlay }),
+                s().createElement("div", { className: zu.indicator }),
               );
             },
           ),
@@ -3749,7 +3749,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(ct || (ct = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3899,6 +3906,11 @@
             ct.PremiumPlusUniversal,
             ct.GoldenTicket,
             ct.RewardsSlots,
+            ct.WtStamp,
+            ct.WtTicket,
+            ct.WtMainPrizeDiscount,
+            ct.WtHunter,
+            ct.WtHunterCollection,
           ],
           gt = [ct.Gold, ct.Credits, ct.Crystal, ct.FreeXp],
           ht = [ct.BattlePassPoints],
@@ -4336,8 +4348,8 @@
           Ht = "ScenarioCard_base__selected_31",
           $t = "ScenarioCard_card_7d",
           Wt = "ScenarioCard_base__completed_05",
-          Gt = "ScenarioCard_base__hover_5d",
-          zt = "ScenarioCard_borderShine_5a",
+          zt = "ScenarioCard_base__hover_5d",
+          Gt = "ScenarioCard_borderShine_5a",
           Vt = "ScenarioCard_borderShine__bottom_42",
           Yt = "ScenarioCard_selectedOverlay_9b",
           qt = "ScenarioCard_shine_00",
@@ -4391,7 +4403,7 @@
               return s().createElement(
                 "div",
                 {
-                  className: V()(Ut, o && Wt, t && Ht, _ && !t && Gt, o && i && Kt),
+                  className: V()(Ut, o && Wt, t && Ht, _ && !t && zt, o && i && Kt),
                   onClick: F,
                   onMouseEnter: d,
                   onMouseLeave: A,
@@ -4414,8 +4426,8 @@
                         s().createElement("div", { className: Yt }),
                         s().createElement("div", { className: qt }),
                       ),
-                    s().createElement("div", { className: zt }),
-                    s().createElement("div", { className: V()(zt, Vt) }),
+                    s().createElement("div", { className: Gt }),
+                    s().createElement("div", { className: V()(Gt, Vt) }),
                     s().createElement("div", { className: jt }, p),
                     s().createElement(
                       "div",
@@ -4881,7 +4893,7 @@
           wn = () => {
             const e = T("model", y.Shallow).isMapSelected;
             return s().createElement(
-              G,
+              z,
               null,
               s().createElement(
                 "div",

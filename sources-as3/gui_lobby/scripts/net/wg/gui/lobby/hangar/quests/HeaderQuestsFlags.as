@@ -281,6 +281,10 @@ package net.wg.gui.lobby.hangar.quests
          }
       }
       
+      public function updateStage(param1:Number, param2:Number) : void
+      {
+      }
+      
       public function setData(param1:Vector.<HeaderQuestGroupVO>) : void
       {
          if(param1 != null)
@@ -415,7 +419,7 @@ package net.wg.gui.lobby.hangar.quests
          var _loc3_:int = 0;
          if(Boolean(this._secondaryEntryPointRight))
          {
-            _loc3_ = this._isSmall ? SECONDARY_OFFSET_RIGHT_X_SMALL : SECONDARY_OFFSET_RIGHT_X;
+            _loc3_ = this._offsetRightSideX + (this._isSmall ? SECONDARY_OFFSET_RIGHT_X_SMALL : SECONDARY_OFFSET_RIGHT_X);
             _loc1_ = (this.entryPointWidth >> 1) + this.entryPointMarginRight + _loc3_;
             _loc2_ = this.entryPointMarginTop;
             this._secondaryEntryPointRight.position = new Point(_loc1_,_loc2_);

@@ -1,6 +1,7 @@
 from debug_utils import LOG_WARNING
 
 class SETTINGS(object):
+    EVENTSETTINGDISABLED = b'#settings:eventSettingDisabled'
     LANGUAGE_CODE = b'#settings:LANGUAGE_CODE'
     WINDOWTITLE = b'#settings:windowTitle'
     TITLE = b'#settings:title'
@@ -282,6 +283,7 @@ class SETTINGS(object):
     SOUND_VIVOX_FADE_VOLUME = b'#settings:sound/vivox/fade_volume'
     SOUND_VIVOX_VIVOX_TEST = b'#settings:sound/vivox/vivox_test'
     SOUND_VIVOX_BUTTONS_TEST_START = b'#settings:sound/vivox/buttons/test_start'
+    SOUND_VIVOX_BUTTONS_TEST_INIT = b'#settings:sound/vivox/buttons/test_init'
     SOUND_VIVOX_BUTTONS_CAPTURE_DEVICES_REFRESH = b'#settings:sound/vivox/buttons/capture_devices_refresh'
     SOUND_VIVOX_BUTTONS_TEST_FINISH = b'#settings:sound/vivox/buttons/test_finish'
     SOUND_FIELDSET_HEADER = b'#settings:sound/fieldset/header'
@@ -778,6 +780,9 @@ class SETTINGS(object):
     GAME_SHOWVEHICLEHPINMINIMAP_NEVER = b'#settings:game/showVehicleHPinMinimap/never'
     GAME_SHOWVEHICLEHPINMINIMAP_ALT = b'#settings:game/showVehicleHPinMinimap/alt'
     GAME_SHOWVEHICLEHPINMINIMAP_ALWAYS = b'#settings:game/showVehicleHPinMinimap/always'
+    GAME_ENABLEBATTLECONTEXTHINTS_LABEL = b'#settings:game/enableBattleContextHints/label'
+    GAME_ENABLEBATTLECONTEXTHINTS_CHECKBOX = b'#settings:game/enableBattleContextHints/checkbox'
+    GAME_RESETBATTLECONTEXTHINTS_BUTTON = b'#settings:game/resetBattleContextHints/button'
     SOUNDS_ACOUSTICTYPE_ENUM = (
      SOUNDS_ACOUSTICTYPE_ACOUSTICS20,
      SOUNDS_ACOUSTICTYPE_ACOUSTICS51,

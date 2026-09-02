@@ -2989,7 +2989,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(Ve || (Ve = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -3129,6 +3136,11 @@
             Ve.PremiumPlusUniversal,
             Ve.GoldenTicket,
             Ve.RewardsSlots,
+            Ve.WtStamp,
+            Ve.WtTicket,
+            Ve.WtMainPrizeDiscount,
+            Ve.WtHunter,
+            Ve.WtHunterCollection,
           ],
           Je = [Ve.Gold, Ve.Credits, Ve.Crystal, Ve.FreeXp],
           ut = [Ve.BattlePassPoints],

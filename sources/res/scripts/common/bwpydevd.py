@@ -42,7 +42,7 @@ def BWConfigWrapper(fn):
         if os.name == b'posix':
             return fn(*args, **kwargs)
         else:
-            prefsConfig = ResMgr.openSection(b'../../bin/client/preferences.xml')
+            prefsConfig = ResMgr.openSection(ResMgr.mainAppDirectory() + b'preferences.xml')
             if prefsConfig and prefsConfig.has_key(b'scriptsPreferences/development/pydevd'):
                 BWConfig.debugConfig = prefsConfig[b'scriptsPreferences/development']
             else:

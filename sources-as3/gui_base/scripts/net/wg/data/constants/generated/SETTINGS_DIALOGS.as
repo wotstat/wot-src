@@ -11,6 +11,8 @@ package net.wg.data.constants.generated
       
       public static const LIMITED_UI_OFF_NOTIFICATION:String = "limitedUIOffNotification";
       
+      public static const RESET_BATTLE_CONTEXT_HINTS_NOTIFICATION:String = "resetBattleContextHintsNotification";
+      
       public function SETTINGS_DIALOGS()
       {
          super();

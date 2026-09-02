@@ -41,19 +41,19 @@
             getBrowserTexturePath: () => S,
             getDisplayStatus: () => V,
             getScale: () => M,
-            getSize: () => y,
+            getSize: () => x,
             getViewGlobalPosition: () => R,
             isClientAccessible: () => H,
             isEventHandled: () => G,
             isFocused: () => I,
             pxToRem: () => N,
             remToPx: () => L,
-            resize: () => k,
+            resize: () => y,
             sendEvent: () => b,
             setAnimateWindow: () => U,
             setEventHandled: () => W,
             setInputPaddingsRem: () => T,
-            setSidePaddingsRem: () => x,
+            setSidePaddingsRem: () => k,
             whenTutorialReady: () => j,
           }));
         const l = o("clientResized"),
@@ -218,13 +218,13 @@
         function P(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
-        function x(u) {
+        function k(u) {
           viewEnv.setHitAreaPaddingsRem(u.top, u.right, u.bottom, u.left, 15);
         }
-        function y(u = "px") {
+        function x(u = "px") {
           return "rem" === u ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
         }
-        function k(u, e, t = "px") {
+        function y(u, e, t = "px") {
           return "rem" === t ? viewEnv.resizeViewRem(u, e) : viewEnv.resizeViewPx(u, e);
         }
         function R(u = "rem") {
@@ -988,16 +988,16 @@
             T = (0, n.useState)(!1),
             S = T[0],
             P = T[1],
-            x = (0, n.useCallback)(() => {
+            k = (0, n.useCallback)(() => {
               i || (D.current && (D.current.focus(), C(!0)));
             }, [i]),
-            y = (0, n.useCallback)(
+            x = (0, n.useCallback)(
               (u) => {
                 m && null !== D.current && !D.current.contains(u.target) && C(!1);
               },
               [m],
             ),
-            k = (0, n.useCallback)(
+            y = (0, n.useCallback)(
               (u) => {
                 i || (d && d(u));
               },
@@ -1023,9 +1023,9 @@
             ),
             L = (0, n.useCallback)(
               (u) => {
-                i || (null !== l && w(l), F && F(u), t && x(), f(!0));
+                i || (null !== l && w(l), F && F(u), t && k(), f(!0));
               },
-              [i, l, F, x, t],
+              [i, l, F, k, t],
             ),
             U = (0, n.useCallback)(
               (u) => {
@@ -1049,12 +1049,12 @@
           return (
             (0, n.useEffect)(
               () => (
-                document.addEventListener("mousedown", y),
+                document.addEventListener("mousedown", x),
                 () => {
-                  document.removeEventListener("mousedown", y);
+                  document.removeEventListener("mousedown", x);
                 }
               ),
-              [y],
+              [x],
             ),
             (0, n.useEffect)(() => {
               C(t);
@@ -1069,7 +1069,7 @@
                 onMouseUp: N,
                 onMouseDown: L,
                 onMouseLeave: U,
-                onClick: k,
+                onClick: y,
               },
               a !== b.ghost &&
                 r().createElement(
@@ -1118,7 +1118,7 @@
             base__left: "TextButton_base__left_ff",
             shine: "TextButton_shine_e2",
           },
-          x = [
+          k = [
             "caption",
             "onClick",
             "goto",
@@ -1132,9 +1132,9 @@
             "soundClick",
             "soundHover",
           ];
-        function y() {
+        function x() {
           return (
-            (y =
+            (x =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1143,10 +1143,10 @@
                 }
                 return u;
               }),
-            y.apply(this, arguments)
+            x.apply(this, arguments)
           );
         }
-        class k extends r().PureComponent {
+        class y extends r().PureComponent {
           constructor(...u) {
             (super(...u),
               (this.state = { hover: !1, click: !1 }),
@@ -1192,7 +1192,7 @@
                     a = Object.keys(u);
                   for (n = 0; n < a.length; n++) ((t = a[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                   return r;
-                })(u, x)),
+                })(u, k)),
               _ = g()(P.base, P[`base__${i}`], P[`base__${a}`], null == o ? void 0 : o.base),
               c = g()(P.icon, P[`icon__${i}`], P[`icon__${a}`], null == o ? void 0 : o.icon),
               d = g()(P.glow, null == o ? void 0 : o.glow),
@@ -1200,7 +1200,7 @@
               B = g()(P.goto, null == o ? void 0 : o.goto);
             return r().createElement(
               "div",
-              y(
+              x(
                 {
                   className: _,
                   onMouseEnter: this._onMouseEnter(s),
@@ -1224,7 +1224,7 @@
             );
           }
         }
-        k.defaultProps = {
+        y.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
@@ -1479,7 +1479,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(Z || (Z = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1629,6 +1636,11 @@
             Z.PremiumPlusUniversal,
             Z.GoldenTicket,
             Z.RewardsSlots,
+            Z.WtStamp,
+            Z.WtTicket,
+            Z.WtMainPrizeDiscount,
+            Z.WtHunter,
+            Z.WtHunterCollection,
           ],
           su = [Z.Gold, Z.Credits, Z.Crystal, Z.FreeXp],
           lu = [Z.BattlePassPoints],
@@ -2028,7 +2040,7 @@
                 r().createElement(
                   "div",
                   { className: vu.close },
-                  r().createElement(k, {
+                  r().createElement(y, {
                     caption: R.strings.menu.viewHeader.closeBtn.label(),
                     type: "close",
                     side: "right",

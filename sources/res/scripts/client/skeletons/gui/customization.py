@@ -105,7 +105,7 @@ class ICustomizationService(object):
         raise NotImplementedError
         return
 
-    def getEmptyOutfitWithNationalEmblems(self, vehicleCD):
+    def getEmptyOutfitWithNationalEmblems(self, vehicleCD, isClanHidden=False, isMarksOnGunHidden=False):
         raise NotImplementedError
         return
 

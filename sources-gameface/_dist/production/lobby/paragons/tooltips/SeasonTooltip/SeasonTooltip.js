@@ -491,7 +491,14 @@
               (u.DogTagType = "dogTagComponents"),
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
-              (u.RewardsSlots = "rewardsSlots"));
+              (u.RewardsSlots = "rewardsSlots"),
+              (u.WtStamp = "stamp"),
+              (u.WtHunter = "wt_hunter"),
+              (u.WtBoss = "wt_boss"),
+              (u.WtHunterCollection = "hunter_collection"),
+              (u.WtTicket = "wtevent_ticket"),
+              (u.WtMainPrizeDiscount = "main_prize_discount"),
+              (u.WtTicket25 = "wtevent_ticket25"));
           })(r || (r = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -635,6 +642,11 @@
           r.E4.PremiumPlusUniversal,
           r.E4.GoldenTicket,
           r.E4.RewardsSlots,
+          r.E4.WtStamp,
+          r.E4.WtTicket,
+          r.E4.WtMainPrizeDiscount,
+          r.E4.WtHunter,
+          r.E4.WtHunterCollection,
           r.E4.Gold,
           r.E4.Credits,
           r.E4.Crystal,
@@ -1836,37 +1848,41 @@
       },
       7104: (u, e, t) => {
         "use strict";
-        t.d(e, { N: () => o });
-        var r = t(7613),
-          a = t(6179),
-          n = t.n(a),
-          E = t(8998);
-        const i = "DateTimer_base_55",
-          A = "DateTimer_timeBg_2d",
-          o = (0, a.memo)(({ text: u, timeStamp: e, showBg: t = !1, mixClass: a }) => {
-            const o = (0, E._3)(e),
-              s = o.day,
-              F = o.month,
-              l = o.hours,
-              D = o.min;
-            return n().createElement(
-              "div",
-              { className: i },
-              t && n().createElement("div", { className: A }),
-              n().createElement(r.ZP, {
-                text: u,
-                className: a,
-                format: {
-                  binding: {
-                    day: s,
-                    month: R.strings.menu.dateTime.months.$num(F + 1),
-                    hours: l,
-                    minutes: D,
+        t.d(e, { N: () => F });
+        var r = t(6483),
+          a = t.n(r),
+          n = t(7613),
+          E = t(6179),
+          i = t.n(E),
+          A = t(8998);
+        const o = "DateTimer_base_55",
+          s = "DateTimer_timeBg_2d",
+          F = (0, E.memo)(
+            ({ text: u, timeStamp: e, showBg: t = !1, mixClass: r, classNames: E }) => {
+              const F = (0, A._3)(e),
+                l = F.day,
+                D = F.month,
+                B = F.hours,
+                c = F.min;
+              return i().createElement(
+                "div",
+                { className: a()(o, null == E ? void 0 : E.base) },
+                t && i().createElement("div", { className: s }),
+                i().createElement(n.ZP, {
+                  text: u,
+                  className: r,
+                  format: {
+                    binding: {
+                      day: l,
+                      month: R.strings.menu.dateTime.months.$num(D + 1),
+                      hours: B,
+                      minutes: c,
+                    },
                   },
-                },
-              }),
-            );
-          });
+                }),
+              );
+            },
+          );
       },
       8998: (u, e, t) => {
         "use strict";

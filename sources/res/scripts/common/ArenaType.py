@@ -480,6 +480,10 @@ def __readCommonCfg(section, defaultXml, raiseIfMissing, geometryCfg):
         cfg[b'teamLowLevelSpawnPoints'] = __readTeamSpawnPoints(section, maxTeamsInArena, nodeNameTemplate=b'team%d_low', required=False)
         cfg[b'botPoints'] = __readBotPoints(section)
         cfg[b'pointsOfInterest'] = __readPointsOfInterest(section)
+        if raiseIfMissing or __hasKey(b'soundNotificationsPlan', section, defaultXml):
+            cfg[b'soundNotificationsPlan'] = _readString(b'soundNotificationsPlan', section, defaultXml)
+        if raiseIfMissing or __hasKey(b'soundNotificationsContext', section, defaultXml):
+            cfg[b'soundNotificationsContext'] = _readString(b'soundNotificationsContext', section, defaultXml)
     return cfg
 
 

@@ -761,14 +761,13 @@ class VehicleParams(_ParameterBase):
 
     @property
     def circularVisionRadius(self):
-        baseCircularVisionRadius = items_utils.getCircularVisionRadius(self._itemDescr, self.__factors)
-        result = round(baseCircularVisionRadius)
+        baseCircularVisionRadius = round(items_utils.getModifiedCircularVisionRadius(self._itemDescr, self.__factors))
         if self.__hasUnsupportedSwitchMode():
             visRadiusSiegeVal = items_utils.getCircularVisionRadius(self._itemDescr.siegeVehicleDescr, self.__factors)
             return (
-             result, round(visRadiusSiegeVal))
+             baseCircularVisionRadius, round(visRadiusSiegeVal))
         return (
-         result,)
+         baseCircularVisionRadius,)
 
     @property
     def radioDistance(self):
@@ -1336,6 +1335,7 @@ class VehicleParams(_ParameterBase):
             if len(miscAttrs) > len(limits):
                 raise SoftException(b'correction can not be less than speed limits')
             correction = map(self._itemDescr.miscAttrs.get, miscAttrs)
+        limits = [self._itemDescr.battleModifiers(battleParam, speed) for speed, battleParam in zip(limits, (BattleParams.FW_MAX_SPEED, BattleParams.BK_MAX_SPEED))]
         return [round(speed * METERS_PER_SECOND_TO_KILOMETERS_PER_HOUR + correct, 2) for speed, correct in izip_longest(limits, correction, fillvalue=0)]
 
     def __adjustmentCoefficient(self, paramName):
@@ -1401,7 +1401,9 @@ class VehicleParams(_ParameterBase):
             return self._itemDescr.gun.pitchLimits[b'absolute']
 
     def __getEnginePower(self, power):
-        return round(power * self.__factors[b'engine/power'] * self._itemDescr.miscAttrs[b'enginePowerFactor'] / component_constants.HP_TO_WATTS)
+        value = power * self.__factors[b'engine/power'] * self._itemDescr.miscAttrs[b'enginePowerFactor'] / component_constants.HP_TO_WATTS
+        value = self._itemDescr.battleModifiers(BattleParams.ENGINE_POWER, value)
+        return round(value)
 
     def __getSwitchOffTime(self):
         siegeMode = self._itemDescr.type.siegeModeParams

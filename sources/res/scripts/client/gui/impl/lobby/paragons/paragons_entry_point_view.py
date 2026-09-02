@@ -30,12 +30,19 @@ class ParagonsEntryPoint(object):
 
     def init(self):
         self.viewModel.onEntryPointClick += self.__onClick
+        self.__paragonsController.onSettingsChanged += self.__updateCloseoutTimer
+        self.__paragonsController.onParagonsStateChanged += self.__updateCloseoutTimer
+        self.__paragonsController.onFeatureStateChanged += self.__updateCloseoutTimer
         if self.__techTreeEventsListener.isParagonsEntryPointEnabled():
             self.update()
+            self.__updateCloseoutTimer()
         return
 
     def fini(self):
         self.viewModel.onEntryPointClick -= self.__onClick
+        self.__paragonsController.onSettingsChanged -= self.__updateCloseoutTimer
+        self.__paragonsController.onParagonsStateChanged -= self.__updateCloseoutTimer
+        self.__paragonsController.onFeatureStateChanged -= self.__updateCloseoutTimer
         return
 
     def update(self, isNeedUpdateLevels=True):
@@ -51,6 +58,10 @@ class ParagonsEntryPoint(object):
                 tx.setFreePoints(self.__paragonsController.progress if chosenChapterID is None else 0)
                 self.__fillChapterModel(tx.currentChapter, paragonsState, isNeedUpdateLevels)
             return
+
+    def __updateCloseoutTimer(self, *args, **kwargs):
+        self.viewModel.setCloseoutTimeStamp(self.__paragonsController.getClosestChapterCloseoutTimeStamp())
+        return
 
     def __getParagonsState(self):
         ctrl = self.__paragonsController

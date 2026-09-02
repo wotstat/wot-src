@@ -230,7 +230,7 @@ class _AreaStrikeSelector(_DefaultStrikeSelector):
 
     def __init__(self, position, equipment, direction=_DEFAULT_STRIKE_DIRECTION):
         _DefaultStrikeSelector.__init__(self, position, equipment)
-        self.area = BigWorld.player().createEquipmentSelectedArea(position, direction, equipment, self._getAreaSize())
+        self.area = self._createArea(equipment, position, direction)
         self.area.setOverTerrainOffset(10.0)
         self.maxHeightShift = None
         self.minHeightShift = None
@@ -282,6 +282,9 @@ class _AreaStrikeSelector(_DefaultStrikeSelector):
         _, _, hitPosition, direction = replayCtrl.getGunMarkerParams(self.area.position, self.direction)
         self.area.setNextPosition(hitPosition, direction)
         return
+
+    def _createArea(self, equipment, position, direction):
+        return BigWorld.player().createEquipmentSelectedArea(position, direction, equipment, self._getAreaSize())
 
     def _getAreaSize(self):
         return Vector2(self.equipment.areaWidth, self.equipment.areaLength)

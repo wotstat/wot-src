@@ -40,7 +40,7 @@ def getPyShootingTest(spaceID, vehicleDescr):
     shootingTest.turretPositionLocal = turPos
     shootingTest.gunPositionLocal = vehicleDescr.turret.gunPosition
     staticPitch = gunDescr.staticPitch
-    isPitchHullAimingEnabled = vehicleDescr.type.hullAimingParams[b'pitch'][b'isEnabled']
+    isPitchHullAimingEnabled = vehicleDescr.isPitchHullAimingEnabled
     pitchLimitsDesc = None
     if staticPitch is not None:
         if not isPitchHullAimingEnabled:

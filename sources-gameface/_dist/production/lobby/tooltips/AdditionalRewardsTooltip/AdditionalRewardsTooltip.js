@@ -153,9 +153,9 @@
             addPreloadTexture: () => a,
             children: () => n,
             displayStatus: () => r.W,
-            displayStatusIs: () => f,
+            displayStatusIs: () => T,
             events: () => E.U,
-            extraSize: () => T,
+            extraSize: () => f,
             forceTriggerMouseMove: () => b,
             freezeTextureBeforeResize: () => B,
             getBrowserTexturePath: () => i,
@@ -238,11 +238,11 @@
         function h() {
           return viewEnv.getShowingStatus();
         }
-        const f = Object.keys(r.W).reduce(
+        const T = Object.keys(r.W).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === r.W[e]), u),
             {},
           ),
-          T = {
+          f = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -948,7 +948,7 @@
         })(b || (b = {}));
         var h = t(596);
         Date.now();
-        const f = (u = 1) => {
+        const T = (u = 1) => {
             const e = new Error().stack;
             let t,
               n = R.invalid("resId");
@@ -962,7 +962,7 @@
               { caller: t, stack: e, resId: n }
             );
           },
-          T = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
+          f = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
           P = (u) => {
             const e = (0, n.useRef)(!1);
             e.current || (u(), (e.current = !0));
@@ -972,12 +972,12 @@
           O = (u) =>
             ((u, e) =>
               u.split(".").reduce((u, t) => {
-                const n = T(`${u}.${t}`, window);
+                const n = f(`${u}.${t}`, window);
                 return S(n) ? e(u, t, n) : `${u}.${t}`;
               }))(u, (u, e) => `${u}.${e}.value`),
           k = (u) => {
             const e = ((u) => {
-                const e = f(),
+                const e = T(),
                   t = e.caller,
                   n = e.resId,
                   r = window.__feature && window.__feature !== t && t ? `subViews.${t}` : "";
@@ -989,7 +989,7 @@
               const u = [n[0]];
               return (
                 n.reduce((e, n) => {
-                  const r = T(y(t, `${e}.${n}`), window);
+                  const r = f(y(t, `${e}.${n}`), window);
                   return S(r) ? (u.push(r.id), `${e}.${n}.value`) : (u.push(n), `${e}.${n}`);
                 }),
                 u.reduce((u, e) => u + "." + e)
@@ -1005,7 +1005,7 @@
         const x = (u = "model", e = M.Deep) => {
             const t = (0, n.useState)(0),
               r = (t[0], t[1]),
-              E = (0, n.useMemo)(() => f(), []),
+              E = (0, n.useMemo)(() => T(), []),
               s = E.caller,
               a = E.resId,
               o = (0, n.useMemo)(
@@ -1014,7 +1014,7 @@
               ),
               i = (0, n.useState)(() =>
                 ((u) => {
-                  const e = T(u, window);
+                  const e = f(u, window);
                   for (const u in e) "function" == typeof e[u] && (e[u] = e[u].bind(e));
                   return S(e) ? e.value : e;
                 })(O(o)),
@@ -1068,7 +1068,7 @@
               }
               return n;
             });
-        let L, U, G, $, q, Y, V, H, z;
+        let L, U, G, $, q, Y, W, H, V;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -1132,7 +1132,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(L || (L = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1225,14 +1232,14 @@
               (u.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (u.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (u.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(V || (V = {})),
+          })(W || (W = {})),
           (function (u) {
             ((u.Small = "400x300"), (u.Big = "600x450"));
           })(H || (H = {})),
           (function (u) {
             u.ProgressionStyle = "progressionStyle";
-          })(z || (z = {})));
-        class j extends r().PureComponent {
+          })(V || (V = {})));
+        class z extends r().PureComponent {
           render() {
             let u;
             if ("gold" === this.props.format) u = h.B3.GOLD;
@@ -1241,8 +1248,8 @@
             return void 0 !== this.props.value && void 0 !== e ? e : null;
           }
         }
-        j.defaultProps = { format: "integral" };
-        const W = [
+        z.defaultProps = { format: "integral" };
+        const j = [
             L.Items,
             L.Equipment,
             L.Xp,
@@ -1282,6 +1289,11 @@
             L.PremiumPlusUniversal,
             L.GoldenTicket,
             L.RewardsSlots,
+            L.WtStamp,
+            L.WtTicket,
+            L.WtMainPrizeDiscount,
+            L.WtHunter,
+            L.WtHunterCollection,
           ],
           X = [L.Gold, L.Credits, L.Crystal, L.FreeXp],
           K = [L.BattlePassPoints],
@@ -1446,7 +1458,7 @@
                 })(e)}`;
               case L.StyleProgress:
               case L.LbStyleProgress:
-                return tu(E, e, z.ProgressionStyle);
+                return tu(E, e, V.ProgressionStyle);
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -1539,7 +1551,7 @@
                 prevTarget: null,
                 hideTimerId: null,
               }),
-              w = (0, n.useMemo)(() => d || f().resId, [d]),
+              w = (0, n.useMemo)(() => d || T().resId, [d]),
               b = (0, n.useCallback)(() => {
                 (v.current.isVisible && v.current.timeoutId) ||
                   (Eu(t, c, { isMouseEvent: !0, on: !0, arguments: ru(r) }, w),
@@ -1555,7 +1567,7 @@
                     (v.current.isVisible = !1));
                 }
               }, [t, c, w, p]),
-              T = (0, n.useCallback)((u) => {
+              f = (0, n.useCallback)((u) => {
                 v.current.isVisible &&
                   ((v.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
                   (v.current.hideTimerId = window.setTimeout(() => {
@@ -1566,9 +1578,9 @@
             ((0, n.useEffect)(() => {
               const u = v.current.hideTimerId;
               return (
-                document.addEventListener("wheel", T, { capture: !0 }),
+                document.addEventListener("wheel", f, { capture: !0 }),
                 () => {
-                  (document.removeEventListener("wheel", T, { capture: !0 }),
+                  (document.removeEventListener("wheel", f, { capture: !0 }),
                     u && window.clearTimeout(u));
                 }
               );
@@ -1784,31 +1796,31 @@
                 if (void 0 === u) return null;
                 switch (u) {
                   case q.BATTLE_BOOSTER:
-                    return V.BATTLE_BOOSTER;
+                    return W.BATTLE_BOOSTER;
                   case q.BATTLE_BOOSTER_REPLACE:
-                    return V.BATTLE_BOOSTER_REPLACE;
+                    return W.BATTLE_BOOSTER_REPLACE;
                   case q.BUILT_IN_EQUIPMENT:
-                    return V.BUILT_IN_EQUIPMENT;
+                    return W.BUILT_IN_EQUIPMENT;
                   case q.EQUIPMENT_PLUS:
-                    return V.EQUIPMENT_PLUS;
+                    return W.EQUIPMENT_PLUS;
                   case q.EQUIPMENT_TROPHY_BASIC:
-                    return V.EQUIPMENT_TROPHY_BASIC;
+                    return W.EQUIPMENT_TROPHY_BASIC;
                   case q.EQUIPMENT_TROPHY_UPGRADED:
-                    return V.EQUIPMENT_TROPHY_UPGRADED;
+                    return W.EQUIPMENT_TROPHY_UPGRADED;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_1:
-                    return V.EQUIPMENT_MODERNIZED_UPGRADED_1;
+                    return W.EQUIPMENT_MODERNIZED_UPGRADED_1;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_2:
-                    return V.EQUIPMENT_MODERNIZED_UPGRADED_2;
+                    return W.EQUIPMENT_MODERNIZED_UPGRADED_2;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_3:
-                    return V.EQUIPMENT_MODERNIZED_UPGRADED_3;
+                    return W.EQUIPMENT_MODERNIZED_UPGRADED_3;
                   case q.PROGRESSION_STYLE_UPGRADED_1:
-                    return V.PROGRESSION_STYLE_UPGRADED_1;
+                    return W.PROGRESSION_STYLE_UPGRADED_1;
                   case q.PROGRESSION_STYLE_UPGRADED_2:
-                    return V.PROGRESSION_STYLE_UPGRADED_2;
+                    return W.PROGRESSION_STYLE_UPGRADED_2;
                   case q.PROGRESSION_STYLE_UPGRADED_3:
-                    return V.PROGRESSION_STYLE_UPGRADED_3;
+                    return W.PROGRESSION_STYLE_UPGRADED_3;
                   case q.PROGRESSION_STYLE_UPGRADED_4:
-                    return V.PROGRESSION_STYLE_UPGRADED_4;
+                    return W.PROGRESSION_STYLE_UPGRADED_4;
                 }
               })(E),
               C = ((u, e) => {
@@ -1820,7 +1832,7 @@
                   }
                   case $.CURRENCY:
                   case $.NUMBER:
-                    return r().createElement(j, { format: "integral", value: Number(u) });
+                    return r().createElement(z, { format: "integral", value: Number(u) });
                   case $.PREMIUM_PLUS: {
                     const e = Number(u);
                     return isNaN(e) ? u : null;
@@ -1916,7 +1928,7 @@
             value__crystal: "RewardLabelResolver_value__crystal_9c",
             value__premiumTank: "RewardLabelResolver_value__premiumTank_ab",
           };
-        let hu, fu, Tu, Ru, Pu;
+        let hu, Tu, fu, Ru, Pu;
         (!(function (u) {
           ((u[(u.Engraving = 0)] = "Engraving"), (u[(u.Background = 1)] = "Background"));
         })(hu || (hu = {})),
@@ -1924,10 +1936,10 @@
             ((u[(u.Equipped = 0)] = "Equipped"),
               (u[(u.Locked = 1)] = "Locked"),
               (u[(u.Open = 2)] = "Open"));
-          })(fu || (fu = {})),
+          })(Tu || (Tu = {})),
           (function (u) {
             ((u.Engraving = "engraving"), (u.Background = "background"));
-          })(Tu || (Tu = {})),
+          })(fu || (fu = {})),
           (function (u) {
             ((u.Dedication = "dedication"),
               (u.Skill = "skill"),
@@ -2084,7 +2096,7 @@
                   E = eu(u, G.Small),
                   s =
                     ((a = u.name),
-                    W.includes(a)
+                    j.includes(a)
                       ? $.MULTI
                       : X.includes(a)
                         ? $.CURRENCY
@@ -2110,9 +2122,9 @@
           $u = "App_background_79",
           qu = "App_remaining_f8",
           Yu = "RewardsTooltipHeader_header_f4",
-          Vu = "RewardsTooltipHeader_description_fe",
+          Wu = "RewardsTooltipHeader_description_fe",
           Hu = "RewardsTooltipHeader_count_d1",
-          zu = () => {
+          Vu = () => {
             const u = x(),
               e = u.headerText,
               t = u.headerCount,
@@ -2134,12 +2146,12 @@
               n &&
                 r().createElement(
                   "div",
-                  { className: Vu },
+                  { className: Wu },
                   r().createElement(_, { text: n, binding: a }),
                 ),
             );
           },
-          ju = () => {
+          zu = () => {
             const u = x("model.bonus"),
               e = (0, n.useRef)(null),
               t = (0, n.useRef)(null),
@@ -2173,7 +2185,7 @@
                   r().createElement(
                     "div",
                     { className: $u },
-                    r().createElement(zu, null),
+                    r().createElement(Vu, null),
                     r().createElement(
                       "div",
                       { ref: t },
@@ -2194,7 +2206,7 @@
             );
           };
         engine.whenReady.then(() => {
-          s().render(r().createElement(ju, null), document.getElementById("root"));
+          s().render(r().createElement(zu, null), document.getElementById("root"));
         });
       },
     },

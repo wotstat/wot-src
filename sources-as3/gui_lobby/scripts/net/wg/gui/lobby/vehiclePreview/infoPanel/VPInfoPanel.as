@@ -94,8 +94,6 @@ package net.wg.gui.lobby.vehiclePreview.infoPanel
       
       private static const POST_PROGRESSION_BTN_Y_OFFSET:int = 20;
       
-      private static const POST_PROGRESSION_BTN_MAX_Y:int = 578;
-      
       public var vehicleTypeIcon:Image = null;
       
       public var nationFlagIcon:Image = null;
@@ -267,7 +265,7 @@ package net.wg.gui.lobby.vehiclePreview.infoPanel
                {
                   _loc7_ = this.viewStack.y + this.viewStack.currentView.height + (this._isSmallHeight ? 0 : POST_PROGRESSION_BTN_Y_OFFSET);
                   this.vehPostProgressionBtn.isSmall = this._isSmallWidth;
-                  this.vehPostProgressionBtn.y = this._isSmallWidth ? Math.min(POST_PROGRESSION_BTN_MAX_Y,_loc7_) : _loc7_;
+                  this.vehPostProgressionBtn.y = _loc7_;
                }
             }
          }

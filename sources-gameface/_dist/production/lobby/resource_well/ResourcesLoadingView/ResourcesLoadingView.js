@@ -69,13 +69,13 @@
               },
               [c, F],
             ),
-            O = (0, s.useCallback)(
+            k = (0, s.useCallback)(
               (e) => {
                 c || (null !== d && (0, a.G)(d), D && D(e), t && M(), S(!0));
               },
               [c, d, D, M, t],
             ),
-            k = (0, s.useCallback)(
+            O = (0, s.useCallback)(
               (e) => {
                 c || (p && p(e), S(!1));
               },
@@ -115,8 +115,8 @@
                 onMouseEnter: L,
                 onMouseMove: P,
                 onMouseUp: I,
-                onMouseDown: O,
-                onMouseLeave: k,
+                onMouseDown: k,
+                onMouseLeave: O,
                 onClick: N,
               },
               r !== l.L.ghost &&
@@ -1706,7 +1706,7 @@
             return s().createElement("div", M({ className: B()(t, T[a], N[i], L[o]) }, r), u);
           },
           I = ["children"];
-        const O = (e) => {
+        const k = (e) => {
           let u = e.children,
             t = (function (e, u) {
               if (null == e) return {};
@@ -1719,8 +1719,8 @@
             })(e, I);
           return s().createElement(C, null, s().createElement(P, t, u));
         };
-        var k = t(493),
-          H = t.n(k),
+        var O = t(493),
+          H = t.n(O),
           U = t(7727);
         const W = {
             base: "TextButton_base_b6",
@@ -2473,8 +2473,8 @@
         const Le = "VerticalBar_base_f3",
           Pe = "VerticalBar_base__nonActive_42",
           Ie = "VerticalBar_topButton_d7",
-          Oe = "VerticalBar_bottomButton_06",
-          ke = "VerticalBar_track_df",
+          ke = "VerticalBar_bottomButton_06",
+          Oe = "VerticalBar_track_df",
           He = "VerticalBar_thumb_32",
           Ue = "VerticalBar_rail_43",
           We = "disable",
@@ -2640,7 +2640,7 @@
                 s().createElement(
                   "div",
                   {
-                    className: B()(ke, u.track),
+                    className: B()(Oe, u.track),
                     onMouseDown: (u) => {
                       const r = c.current;
                       if (r && 0 === u.button)
@@ -2666,7 +2666,7 @@
                   s().createElement("div", { className: B()(Ue, u.rail) }),
                 ),
                 s().createElement("div", {
-                  className: B()(Oe, u.bottomButton),
+                  className: B()(ke, u.bottomButton),
                   onMouseDown: (e) => {
                     e.target.classList.contains(We) ||
                       0 !== e.button ||
@@ -2853,7 +2853,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(ru || (ru = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -3122,8 +3129,8 @@
               L = e.shrink,
               P = e.flex,
               I = void 0 === P ? (N || L ? `${N ? 1 : 0} ${L ? 1 : 0} auto` : void 0) : P,
-              O = e.style,
-              k = e.children,
+              k = e.style,
+              O = e.children,
               H = (function (e, u) {
                 if (null == e) return {};
                 var t,
@@ -3146,7 +3153,7 @@
                       return ("number" == typeof r && (u[fu[t]] = r + "rem"), u);
                     }, {}))(e);
                 return {
-                  computedStyle: Object.assign({}, O, n, {
+                  computedStyle: Object.assign({}, k, n, {
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== r && "number" == typeof r ? r + "rem" : r,
                     flex: I,
@@ -3159,13 +3166,13 @@
                   }),
                   computedClassNames: u,
                 };
-              }, [t, r, o, c, m, E, O, I, y, p, T, S, x]),
+              }, [t, r, o, c, m, E, k, I, y, p, T, S, x]),
               W = U.computedStyle,
               G = U.computedClassNames;
             return s().createElement(
               "div",
               hu({ className: B()(gu.base, ...G, u), style: W }, H),
-              k,
+              O,
             );
           });
         var Su = t(3532),
@@ -3277,7 +3284,7 @@
               "paragraph-P12": Lu,
               "paragraph-P10": Lu,
             }),
-          Ou =
+          ku =
             (Object.keys(Iu),
             (e) =>
               e
@@ -3285,7 +3292,7 @@
                   ? { colorClassName: xu[e] }
                   : { colorStyle: { color: e } }
                 : {}),
-          ku = pu((e) => {
+          Ou = pu((e) => {
             let u = e.text,
               t = e.variant,
               r = e.className,
@@ -3311,7 +3318,7 @@
                 return n;
               })(e, yu);
             const g = (0, a.useMemo)(() => {
-                const e = Ou(n),
+                const e = ku(n),
                   u = e.colorClassName,
                   t = e.colorStyle,
                   r = void 0 === t ? {} : t;
@@ -4247,7 +4254,7 @@
                 "div",
                 { className: B()(rt.count, 0 === i && rt.count__zero) },
                 n === ru.PremiumPlus
-                  ? s().createElement(ku, {
+                  ? s().createElement(Ou, {
                       text: nt.resourcesLoadingView.premium(),
                       format: { binding: { days: T } },
                       color: 0 === i ? Yu.RED : Yu.GOLD,
@@ -4705,7 +4712,7 @@
               );
             },
           ),
-          Ot = ({ size: e, value: u, lineRef: t, disabled: r, onComplete: n }) => {
+          kt = ({ size: e, value: u, lineRef: t, disabled: r, onComplete: n }) => {
             const i = (0, a.useMemo)(() => ({ width: `${u}%`, transitionProperty: "none" }), [u]),
               o = 100 === u;
             return (
@@ -4721,7 +4728,7 @@
               })
             );
           },
-          kt = (e, u) => {
+          Ot = (e, u) => {
             let t;
             const r = setTimeout(() => {
               t = e();
@@ -4765,14 +4772,14 @@
                 );
               ((0, a.useEffect)(() => {
                 if (D && !t) {
-                  return kt(() => {
+                  return Ot(() => {
                     F(Ut.In);
                   }, u);
                 }
               }, [F, t, D, u]),
                 (0, a.useEffect)(() => {
                   if (E) {
-                    return kt(() => {
+                    return Ot(() => {
                       (o && o(), F(Ut.End));
                     }, e + u);
                   }
@@ -4890,7 +4897,7 @@
                 ),
                 C = (0, a.useCallback)(
                   (e, u) =>
-                    kt(() => {
+                    Ot(() => {
                       g(e);
                     }, u),
                   [g],
@@ -5090,7 +5097,7 @@
               onComplete: l,
             }) => {
               if (n === u)
-                return s().createElement(Ot, {
+                return s().createElement(kt, {
                   key: `${n}-${u}`,
                   size: e,
                   value: u,
@@ -5415,7 +5422,7 @@
                 R.strings.resource_well.resourcesLoadingView.subtitle(),
               ),
             ),
-          Or = () => {
+          kr = () => {
             const e = (0, X.tT)("model", X.DA.Shallow),
               u = e.loadResources,
               t = e.progressionState,
@@ -5494,7 +5501,7 @@
           };
         engine.whenReady.then(() => {
           H().render(
-            s().createElement(Je, null, s().createElement(O, null, s().createElement(Or, null))),
+            s().createElement(Je, null, s().createElement(k, null, s().createElement(kr, null))),
             document.getElementById("root"),
           );
         });

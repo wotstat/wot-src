@@ -107,8 +107,8 @@
               I = void 0 === O ? (k ? "wrap" : void 0) : O,
               H = e.grow,
               U = e.shrink,
-              Q = e.flex,
-              W = void 0 === Q ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : Q,
+              W = e.flex,
+              Q = void 0 === W ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : W,
               G = e.style,
               j = e.children,
               $ = (function (e, u) {
@@ -136,7 +136,7 @@
                   computedStyle: Object.assign({}, G, n, {
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== r && "number" == typeof r ? r + "rem" : r,
-                    flex: W,
+                    flex: Q,
                     alignSelf: M,
                     display: v || L ? "flex" : void 0,
                     flexDirection: v,
@@ -146,7 +146,7 @@
                   }),
                   computedClassNames: u,
                 };
-              }, [t, r, i, F, B, p, G, W, M, v, I, T, L]),
+              }, [t, r, i, F, B, p, G, Q, M, v, I, T, L]),
               q = z.computedStyle,
               X = z.computedClassNames;
             return l().createElement(
@@ -500,7 +500,14 @@
               (e.DogTagType = "dogTagComponents"),
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
-              (e.RewardsSlots = "rewardsSlots"));
+              (e.RewardsSlots = "rewardsSlots"),
+              (e.WtStamp = "stamp"),
+              (e.WtHunter = "wt_hunter"),
+              (e.WtBoss = "wt_boss"),
+              (e.WtHunterCollection = "hunter_collection"),
+              (e.WtTicket = "wtevent_ticket"),
+              (e.WtMainPrizeDiscount = "main_prize_discount"),
+              (e.WtTicket25 = "wtevent_ticket25"));
           })(r || (r = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -648,6 +655,11 @@
             a.E4.PremiumPlusUniversal,
             a.E4.GoldenTicket,
             a.E4.RewardsSlots,
+            a.E4.WtStamp,
+            a.E4.WtTicket,
+            a.E4.WtMainPrizeDiscount,
+            a.E4.WtHunter,
+            a.E4.WtHunterCollection,
           ],
           o = [a.E4.Gold, a.E4.Credits, a.E4.Crystal, a.E4.FreeXp],
           l = [a.E4.BattlePassPoints],
@@ -3392,14 +3404,14 @@
               );
             },
           ),
-          Q = "DailyCountdown_base_75",
-          W = "DailyCountdown_icon_2d",
+          W = "DailyCountdown_base_75",
+          Q = "DailyCountdown_icon_2d",
           G = "DailyCountdown_countdownText_65",
           j = ({ timeToUpdate: e }) =>
             a().createElement(
               "div",
-              { className: Q },
-              a().createElement(U, { duration: e, className: G, classNames: { icon: W } }),
+              { className: W },
+              a().createElement(U, { duration: e, className: G, classNames: { icon: Q } }),
             );
         var $ = t(9922);
         const z = { type: "idle" };
@@ -4032,8 +4044,8 @@
           Ie = 500,
           He = 500,
           Ue = 500;
-        var Qe = t(2862),
-          We = t(3099),
+        var We = t(2862),
+          Qe = t(3099),
           Ge = t(3215),
           je = t(4598),
           $e = t(9480),
@@ -4043,7 +4055,7 @@
           Ye = t(9153),
           Ze = t(3017),
           Ke = t(3509);
-        const Ve = [We.N.Locked, We.N.Active],
+        const Ve = [Qe.N.Locked, Qe.N.Active],
           Je = (e, u, t, r) => {
             const n = u ? Re[t].premiumBannerHeight : 0;
             let s = Re[t].questListMarginBottom + n;
@@ -4051,23 +4063,23 @@
               i = Re[t].questDividerHeight - Re[t].questCard.dailyMarginBottom;
             return e.map((u, n) => {
               if (!n) return s;
-              if (u === We.N.Active) return (s += a);
-              if (u === We.N.Locked) return (s += r ? a : a - Re[t].questCard.dailyMarginBottom);
-              const o = e.find((e) => e === We.N.Locked),
+              if (u === Qe.N.Active) return (s += a);
+              if (u === Qe.N.Locked) return (s += r ? a : a - Re[t].questCard.dailyMarginBottom);
+              const o = e.find((e) => e === Qe.N.Locked),
                 l = ((e, u) => {
                   const t = e[u - 1],
                     r = e[u - 2];
                   return (
-                    (t === We.N.Done || t === We.N.UndoneSubscription) &&
-                    r !== We.N.Done &&
-                    r !== We.N.UndoneSubscription
+                    (t === Qe.N.Done || t === Qe.N.UndoneSubscription) &&
+                    r !== Qe.N.Done &&
+                    r !== Qe.N.UndoneSubscription
                   );
                 })(e, n);
               return (s += o || l ? (l ? a + i + Re[t].questCard.dailyMarginBottom : a + i) : a);
             });
           },
           eu = [...Array(Ke.vW + 1)],
-          uu = (e, u) => (u <= 1 ? e : 2 === u ? We.N.Active : 3 === u ? We.N.Locked : void 0),
+          uu = (e, u) => (u <= 1 ? e : 2 === u ? Qe.N.Active : 3 === u ? Qe.N.Locked : void 0),
           tu = (0, Ge.q)()(
             ({ observableModel: e }) => {
               const u = {
@@ -4083,8 +4095,8 @@
                   isPremiumWindowLoaded: qe.LO.box(!1),
                 },
                 t = (0, Xe.Om)(() => u.primitives.currentTabIdx.get()),
-                r = (0, Xe.Om)((e = Qe.h2.Big) => c(e) === m(e)),
-                n = (0, Xe.Om)(() => $e.find(a(), (e) => e.status !== We.N.Done)),
+                r = (0, Xe.Om)((e = We.h2.Big) => c(e) === m(e)),
+                n = (0, Xe.Om)(() => $e.find(a(), (e) => e.status !== Qe.N.Done)),
                 s = (0, Xe.Om)((e) => {
                   var u, t, r, n, s;
                   let a;
@@ -4102,7 +4114,7 @@
                   return (a && (null == (s = a) ? void 0 : s.length)) > 0 ? a[0] : a;
                 }),
                 a = (0, Xe.Om)(
-                  (e = Qe.h2.Big) => {
+                  (e = We.h2.Big) => {
                     const t = u.isRegularWindowLoaded.get(),
                       r = u.regular.get().firstSeenNewBonusMissions && !t;
                     return (0, ze.c)(i()).map((t, n) =>
@@ -4145,7 +4157,7 @@
                   { equals: je.jv },
                 ),
                 l = (0, Xe.Om)(
-                  (e = Qe.h2.Big) => {
+                  (e = We.h2.Big) => {
                     var t;
                     return Object.assign({}, u.epicQuest.get(), {
                       allRewards: [
@@ -4161,11 +4173,11 @@
                   },
                   { equals: je.jv },
                 ),
-                c = (0, Xe.Om)((e = Qe.h2.Big) => a(e).length),
+                c = (0, Xe.Om)((e = We.h2.Big) => a(e).length),
                 m = (0, Xe.Om)(
-                  (e = Qe.h2.Big) =>
+                  (e = We.h2.Big) =>
                     a(e).filter(
-                      (e) => e.status === We.N.Done || e.status === We.N.UndoneSubscription,
+                      (e) => e.status === Qe.N.Done || e.status === Qe.N.UndoneSubscription,
                     ).length,
                 ),
                 d = (0, Xe.Om)(() => {
@@ -4775,8 +4787,8 @@
           );
         Hu.Default = Iu;
         const Uu = { Vertical: n, Horizontal: r };
-        var Qu = t(3415),
-          Wu = t(729);
+        var Wu = t(3415),
+          Qu = t(729);
         const Gu = {
             base: "Reward_base_ea",
             base__s48x48: "Reward_base__s48x48_46",
@@ -4806,7 +4818,7 @@
             name: e,
             image: u,
             isPeriodic: t = !1,
-            size: r = Qe.h2.Big,
+            size: r = We.h2.Big,
             special: n,
             value: s,
             valueType: i,
@@ -4816,14 +4828,14 @@
             tooltipArgs: d,
             periodicIconTooltipArgs: E,
           }) => {
-            const _ = (0, Wu.L_)(n),
-              A = (0, Wu.i2)(n),
-              D = (0, Wu.m9)(s, i);
+            const _ = (0, Qu.L_)(n),
+              A = (0, Qu.i2)(n),
+              D = (0, Qu.m9)(s, i);
             return a().createElement(
               "div",
               { className: o()(Gu.base, Gu[`base__${r}`], c), style: l },
               a().createElement(
-                Qu.l,
+                Wu.l,
                 { tooltipArgs: d, className: Gu.tooltipWrapper },
                 a().createElement(
                   a().Fragment,
@@ -4858,7 +4870,7 @@
                         className: o()(
                           Gu.info,
                           Gu[`info__${e}`],
-                          i === Qe.$h.MULTI && Gu.info__multi,
+                          i === We.$h.MULTI && Gu.info__multi,
                           null == m ? void 0 : m.info,
                         ),
                       },
@@ -4868,7 +4880,7 @@
               ),
               t &&
                 a().createElement(
-                  Qu.l,
+                  Wu.l,
                   { tooltipArgs: E },
                   a().createElement("div", {
                     className: o()(Gu.timer, null == m ? void 0 : m.periodicIcon),
@@ -4957,8 +4969,8 @@
             Ut.apply(this, arguments)
           );
         }
-        const Qt = R.strings.quests,
-          Wt = ["battlePassPoints"],
+        const Wt = R.strings.quests,
+          Qt = ["battlePassPoints"],
           Gt = "idle",
           jt = "wait",
           $t = "flash",
@@ -4993,12 +5005,12 @@
                 L = x.current,
                 M = x.descrData,
                 k = P ? N : L,
-                O = e.status === We.N.UndoneSubscription,
-                I = e.status === We.N.Done,
+                O = e.status === Qe.N.UndoneSubscription,
+                I = e.status === Qe.N.Done,
                 H = (e) => !I && e.withSubscription && (!C || O),
                 U = (0, s.useState)(!1),
-                Q = U[0],
-                W = U[1],
+                W = U[0],
+                Q = U[1],
                 G = (0, s.useState)(!1),
                 $ = G[0],
                 z = G[1],
@@ -5006,17 +5018,17 @@
                 Y = q[0],
                 Z = q[1],
                 K = (0, Pe.GS)().mediaSize >= Pe.cJ.Medium ? "c_80" : "c_48",
-                V = ((p === We.N.Done || p === We.N.UndoneSubscription) && !Q) || P,
+                V = ((p === Qe.N.Done || p === Qe.N.UndoneSubscription) && !W) || P,
                 J = Boolean(n || Y !== Gt || (c && c !== qr.COMPLETED && c !== qr.IDLE)),
                 ee = i && !J && !V,
                 ue = (0, s.useMemo)(() => 0.2 * m, [m]);
               return (
                 (0, s.useEffect)(() => {
-                  ((e.status !== We.N.Done && e.status !== We.N.UndoneSubscription) ||
+                  ((e.status !== Qe.N.Done && e.status !== Qe.N.UndoneSubscription) ||
                     !E ||
-                    (null == E ? void 0 : E.status) === We.N.Done ||
-                    (null == E ? void 0 : E.status) === We.N.UndoneSubscription ||
-                    (W(!0), (0, w.G)(R.sounds.dq_widget_slide_in())),
+                    (null == E ? void 0 : E.status) === Qe.N.Done ||
+                    (null == E ? void 0 : E.status) === Qe.N.UndoneSubscription ||
+                    (Q(!0), (0, w.G)(R.sounds.dq_widget_slide_in())),
                     (null != E && E.isActiveSubscription) ||
                       !e.isActiveSubscription ||
                       (z(!0), (0, w.G)(R.sounds.dq_subscription_reward_unlock())));
@@ -5028,11 +5040,11 @@
                     }, Ke.ji.unlockSubscriptionBonusDuration);
                 }, [$]),
                 (0, s.useEffect)(() => {
-                  if (Q)
+                  if (W)
                     return (0, b.F)(() => {
-                      W(!1);
+                      Q(!1);
                     }, xe);
-                }, [Q]),
+                }, [W]),
                 (0, s.useEffect)(() => {
                   l && Z(jt);
                 }, [l]),
@@ -5053,8 +5065,8 @@
                   ? a().createElement(
                       f.i,
                       {
-                        header: Qt.switch.isWeeklyEnabled(),
-                        body: Qt.switch.isWeeklyEnabledTitle(),
+                        header: Wt.switch.isWeeklyEnabled(),
+                        body: Wt.switch.isWeeklyEnabledTitle(),
                       },
                       a().createElement(
                         "div",
@@ -5062,7 +5074,7 @@
                         a().createElement("div", { className: ut }),
                         a().createElement("div", { className: rt }),
                         a().createElement(h.ZP, {
-                          text: Qt.switch.isWeeklyEnabled(),
+                          text: Wt.switch.isWeeklyEnabled(),
                           className: st,
                         }),
                       ),
@@ -5085,20 +5097,20 @@
                             "div",
                             { className: lt },
                             a().createElement(h.ZP, {
-                              text: Qt.weeklyQuest.header.default(),
+                              text: Wt.weeklyQuest.header.default(),
                               className: _t,
                             }),
                             a().createElement(
                               f.i,
                               {
-                                header: Qt.weeklyQuest.countDown.tooltip.header(),
-                                body: Qt.weeklyQuest.countDown.tooltip.body(),
+                                header: Wt.weeklyQuest.countDown.tooltip.header(),
+                                body: Wt.weeklyQuest.countDown.tooltip.body(),
                               },
                               a().createElement(
                                 "div",
                                 { className: ct },
                                 a().createElement(h.ZP, {
-                                  text: Qt.epicQuest.countDown.remainingText(),
+                                  text: Wt.epicQuest.countDown.remainingText(),
                                   className: mt,
                                 }),
                                 a().createElement(
@@ -5129,7 +5141,7 @@
                                 { className: pt },
                                 r
                                   ? a().createElement(h.ZP, {
-                                      text: Qt.weeklyQuest.description.default(),
+                                      text: Wt.weeklyQuest.description.default(),
                                       className: Bt,
                                     })
                                   : a().createElement("div", {
@@ -5164,7 +5176,7 @@
                             { className: St },
                             g.map((e, u) => {
                               const t = e.withSubscription && !C,
-                                r = Wt.includes(e.name) && F,
+                                r = Qt.includes(e.name) && F,
                                 n = $ && e.withSubscription;
                               return a().createElement(
                                 "div",
@@ -5184,11 +5196,11 @@
                                           a().Fragment,
                                           null,
                                           a().createElement(
-                                            Qu.l,
+                                            Wu.l,
                                             {
                                               tooltipArgs: {
-                                                header: Qt.reward.tooltip.noAdditionReward(),
-                                                body: Qt.reward.tooltip.simpleBody(),
+                                                header: Wt.reward.tooltip.noAdditionReward(),
+                                                body: Wt.reward.tooltip.simpleBody(),
                                               },
                                             },
                                             a().createElement(
@@ -5213,7 +5225,7 @@
                                           a().Fragment,
                                           null,
                                           a().createElement(
-                                            Qu.l,
+                                            Wu.l,
                                             {
                                               tooltipArgs: !I &&
                                                 u.withSubscription &&
@@ -5237,7 +5249,7 @@
                                           ),
                                           u.withSubscription &&
                                             a().createElement(
-                                              Qu.l,
+                                              Wu.l,
                                               {
                                                 tooltipArgs: {
                                                   contentId:
@@ -5524,19 +5536,19 @@
                 C = null != (m = (0, v.D9)(e)) ? m : e,
                 p = A === wr.IDLE,
                 f = A === wr.BLINK,
-                w = e.status === We.N.Locked,
-                S = w && u !== We.N.Locked && !c,
+                w = e.status === Qe.N.Locked,
+                S = w && u !== Qe.N.Locked && !c,
                 y =
-                  (e.status === We.N.Done || e.status === We.N.UndoneSubscription) &&
-                  u !== We.N.Done &&
-                  u !== We.N.UndoneSubscription,
+                  (e.status === Qe.N.Done || e.status === Qe.N.UndoneSubscription) &&
+                  u !== Qe.N.Done &&
+                  u !== Qe.N.UndoneSubscription,
                 P = null != (d = (0, v.D9)(S)) ? d : S,
                 x = g && t === Ke.vW,
                 T =
-                  (e.status === We.N.Done || e.status === We.N.UndoneSubscription) &&
+                  (e.status === Qe.N.Done || e.status === Qe.N.UndoneSubscription) &&
                   C &&
-                  (null == C ? void 0 : C.status) !== We.N.Done &&
-                  (null == C ? void 0 : C.status) !== We.N.UndoneSubscription,
+                  (null == C ? void 0 : C.status) !== Qe.N.Done &&
+                  (null == C ? void 0 : C.status) !== Qe.N.UndoneSubscription,
                 N = ((S || P || y) && p) || g,
                 L = g && t === Ke.vW,
                 M = S || P || g,
@@ -5655,8 +5667,8 @@
           Ir = "QuestCardList_scroll__maskBoth_d0",
           Hr = "QuestCardList_scrollContent_3d",
           Ur = "QuestCardList_questCardBlock_c2",
-          Qr = "QuestCardList_bannerWrapper_72",
-          Wr = "QuestCardList_divider_3c",
+          Wr = "QuestCardList_bannerWrapper_72",
+          Qr = "QuestCardList_divider_3c",
           Gr = "QuestCardList_divider__hide_be",
           jr = "QuestCardList_scrollBar_d4",
           $r = "QuestCardList_barThumb_7d",
@@ -5677,7 +5689,7 @@
                 m = c.model,
                 d = c.controls,
                 E = (0, Pe.GS)().mediaSize,
-                _ = E >= Pe.cJ.Medium ? Qe.h2.Big : Qe.h2.Small,
+                _ = E >= Pe.cJ.Medium ? We.h2.Big : We.h2.Small,
                 A = (0, s.useState)(!1),
                 D = A[0],
                 g = A[1],
@@ -5698,8 +5710,8 @@
                 I = (0, v.tp)(m.computes.isPremiumTab(), ke),
                 H = D ? I : m.computes.isPremiumTab(),
                 U = m.regular.get().isEnabled,
-                Q = m.premium.get().isEnabled,
-                W = H ? Q : U,
+                W = m.premium.get().isEnabled,
+                Q = H ? W : U,
                 G = (0, v.tp)(m.computes.isPremiumBannerVisible(), ke),
                 j = D ? G : m.computes.isPremiumBannerVisible(),
                 $ = (0, v.tp)(m.computes.getQuests(_), ke),
@@ -5790,9 +5802,9 @@
                 a().createElement(
                   "div",
                   { className: yr },
-                  W &&
+                  Q &&
                     a().createElement(zt, { quest: q, conditions: q, isEpic: !0, isDisabled: !1 }),
-                  W
+                  Q
                     ? a().createElement(
                         "div",
                         { className: o()(Pr, O && Rr, D && xr) },
@@ -5806,12 +5818,12 @@
                           K &&
                             a().createElement(
                               "div",
-                              { className: o()(N && Qr) },
+                              { className: o()(N && Wr) },
                               a().createElement(ir, {
                                 hideBanner: N,
                                 onBuyPremium: d.onBuyPremium,
                               }),
-                              a().createElement("div", { className: o()(Wr, N && Gr) }),
+                              a().createElement("div", { className: o()(Qr, N && Gr) }),
                             ),
                           ne((e, u) => {
                             var t;

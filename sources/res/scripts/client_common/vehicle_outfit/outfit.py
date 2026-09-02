@@ -82,12 +82,14 @@ def scaffold():
 REGIONS_BY_SLOT_TYPE = {container.getAreaID(): {slotType: slot.getRegions() for slotType in container.slots()} for container in scaffold()}
 
 class Outfit(HasStrCD):
-    __slots__ = (b'_id', b'_styleDescr', b'_containers', b'_vehicleCD', b'__itemsCounter', b'__styleProgressionLevel', b'__styleSerialNumber')
+    __slots__ = (b'_id', b'_styleDescr', b'_containers', b'_vehicleCD', b'__itemsCounter', b'__styleProgressionLevel', b'__styleSerialNumber', b'__isClanHidden', b'__isMarksOnGunHidden')
 
-    def __init__(self, strCompactDescr=None, component=None, vehicleCD=b'', vehicleType=None):
+    def __init__(self, strCompactDescr=None, component=None, vehicleCD=b'', vehicleType=None, isClanHidden=False, isMarksOnGunHidden=False):
         super(Outfit, self).__init__(strCompactDescr)
         self._containers = {}
         self._vehicleCD = vehicleCD
+        self.__isClanHidden = isClanHidden
+        self.__isMarksOnGunHidden = isMarksOnGunHidden
         if strCompactDescr is not None and component is not None:
             raise SoftException(b"'strCompactDescr' and 'component' arguments are mutually exclusive!")
         if strCompactDescr:
@@ -215,6 +217,14 @@ class Outfit(HasStrCD):
     @property
     def vehicleCD(self):
         return self._vehicleCD
+
+    @property
+    def isClanHidden(self):
+        return self.__isClanHidden
+
+    @property
+    def isMarksOnGunHidden(self):
+        return self.__isMarksOnGunHidden
 
     @property
     def id(self):

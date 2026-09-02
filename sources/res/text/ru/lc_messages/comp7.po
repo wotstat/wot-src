@@ -5,19 +5,19 @@ msgid "#PluralForms"
 msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 
 msgid "alertMessage/afterSeason"
-msgstr "Специальный выпуск завершён."
+msgstr "Событие «Огненный сокол» завершено."
 
 msgid "alertMessage/allNotAvailable"
 msgstr "Бои на серверах начнутся через %(primeDelta)s"
 
 msgid "alertMessage/allNotAvailableEnd"
-msgstr "Специальный выпуск завершён."
+msgstr "Событие «Огненный сокол» завершено."
 
 msgid "alertMessage/allNotSet"
 msgstr "Режим недоступен на всех серверах"
 
 msgid "alertMessage/betweenSeasons"
-msgstr "Специальный выпуск завершён."
+msgstr "Событие «Огненный сокол» завершено."
 
 msgid "alertMessage/button/changeServer"
 msgstr "Сменить сервер"
@@ -41,7 +41,7 @@ msgid "alertMessage/standaloneNotAvailable"
 msgstr "Бои на сервере начнутся через %(primeDelta)s"
 
 msgid "alertMessage/standaloneNotAvailableEnd"
-msgstr "Специальный выпуск завершён."
+msgstr "Событие «Огненный сокол» завершено."
 
 msgid "alertMessage/standaloneNotSet"
 msgstr "Режим недоступен на сервере %(serverName)s"
@@ -83,7 +83,7 @@ msgid "banner/infoSmall/disabled"
 msgstr "Ожидайте прайм-тайма"
 
 msgid "banner/season"
-msgstr "Специальный выпуск"
+msgstr "Событие «Огненный сокол»"
 
 msgid "banner/seasonDate/seasonLasts"
 msgstr "До %(day)s %(month)s"
@@ -270,9 +270,9 @@ msgstr "%(start)s – %(end)s"
 
 msgid "calendarDay/timeLeft"
 msgid_plural "plural/calendarDay/timeLeft"
-msgstr[0] "Специальный выпуск продлится %(days)d день."
-msgstr[1] "Специальный выпуск продлится %(days)d дня."
-msgstr[2] "Специальный выпуск продлится %(days)d дней."
+msgstr[0] "Событие «Огненный сокол» продлится %(days)d день."
+msgstr[1] "Событие «Огненный сокол» продлится %(days)d дня."
+msgstr[2] "Событие «Огненный сокол» продлится %(days)d дней."
 
 msgid "calendarDay/title"
 msgstr "Расписание"
@@ -292,6 +292,12 @@ msgstr "Захват Минного склада открывает навык �
 msgid "detailsHelp/poi/title"
 msgstr "Ключевые позиции"
 
+msgid "detailsHelp/ranks"
+msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях, а в Легенде — от попадания в число лучших таблицы лидеров события, откуда другие игроки могут вас вытеснить."
+
+msgid "detailsHelp/ranks/title"
+msgstr "Система рангов"
+
 msgid "detailsHelp/rework"
 msgstr "Кроме ролевого навыка, перед началом боя вы можете также заменить выбранную машину или её комплектацию. К участию в боях допускаются лёгкие, средние и тяжёлые танки, а также ПТ-САУ X уровня."
 
@@ -299,16 +305,16 @@ msgid "detailsHelp/rework/title"
 msgstr "Предбоевая подготовка и типы техники"
 
 msgid "detailsHelp/roleSkills"
-msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Каждые две недели один из навыков для каждой роли меняется."
+msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Нажмите Tab в бою, чтобы увидеть ролевые навыки союзников и обнаруженных машин противника."
 
 msgid "detailsHelp/roleSkills/title"
 msgstr "Выбор ролевых навыков"
 
 msgid "detailsHelp/rules"
-msgstr "Встречайте специальный запуск Натиска с ролевыми навыками на выбор! Бои проходят в режиме «Атака/Оборона», а к характеристикам всей техники применён модификатор события."
+msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с изменённым особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
 
 msgid "detailsHelp/rules/title"
-msgstr "Натиск: Специальный выпуск"
+msgstr "Натиск: Огненный сокол"
 
 msgid "detailsHelp/seasonModifiers"
 msgstr "В боях Натиска действует особый модификатор, который изменяет некоторые характеристики всей техники: повышает прочность, сокращает время подготовки снаряжения, а также снижает стандартный обзор и бронепробитие на дистанции 100 метров."
@@ -343,14 +349,23 @@ msgstr "D"
 msgid "division/E"
 msgstr "E"
 
+msgid "division/elite"
+msgstr "Топ-%(elitePercent)%"
+
 msgid "division/note"
 msgstr "Дивизион"
 
 msgid "division/text"
 msgstr "Дивизион %(division)s"
 
-msgid "divisionTooltip/description"
-msgstr "В этом дивизионе находятся игроки, набравшие {whiteSpanish_Open}от&nbsp;%(fromScore)&nbsp;до&nbsp;%(toScore){whiteSpanish_Close} очков рейтинга."
+msgid "divisionTooltip/description/basic"
+msgstr "В этом дивизионе находятся игроки, набравшие от {whiteSpanish_Open}%(fromScore){whiteSpanish_Close}&nbsp;до&nbsp;{whiteSpanish_Open}%(toScore){whiteSpanish_Close} очков рейтинга."
+
+msgid "divisionTooltip/description/elite"
+msgstr "В этом дивизионе находятся игроки, набравшие минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга и попавшие в {whiteSpanish_Open}топ-%(elitePercent)%{whiteSpanish_Close} таблицы лидеров."
+
+msgid "divisionTooltip/description/transfer"
+msgstr "В этом дивизионе находятся игроки, набравшие минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга."
 
 msgid "divisionTooltip/heading"
 msgstr "Дивизион %(divisionName)s"
@@ -361,7 +376,7 @@ msgstr "НАТИСК"
 msgid "featureNameCapitalized"
 msgstr "НАТИСК"
 
-msgid "fifthRankTooltip/description"
+msgid "generalRankTooltip/body/fifth"
 msgstr "Ранг {whiteSpanish_Open}«Чемпион»{whiteSpanish_Close} присваивается игрокам, набравшим минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга."
 
 msgid "generalRankTooltip/body/first"
@@ -373,11 +388,38 @@ msgstr "Ранг {whiteSpanish_Open}«Золото»{whiteSpanish_Close} при�
 msgid "generalRankTooltip/body/second"
 msgstr "Ранг {whiteSpanish_Open}«Бронза»{whiteSpanish_Close} присваивается игрокам, набравшим {whiteSpanish_Open}от %(fromScore) до %(toScore){whiteSpanish_Close} очков рейтинга."
 
+msgid "generalRankTooltip/body/sixth"
+msgstr "Ранг {whiteSpanish_Open}«Легенда»{whiteSpanish_Close} присваивается игрокам, набравшим минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга и входящим в {whiteSpanish_Open}топ-%(elitePercent)%{whiteSpanish_Close} таблицы лидеров."
+
 msgid "generalRankTooltip/body/third"
 msgstr "Ранг {whiteSpanish_Open}«Серебро»{whiteSpanish_Close} присваивается игрокам, набравшим {whiteSpanish_Open}от %(fromScore) до %(toScore){whiteSpanish_Close} очков рейтинга."
 
 msgid "generalRankTooltip/subheading"
 msgstr "Включает дивизионы: %(divisions)s"
+
+msgid "honorRankDescription/button"
+msgstr "таблицы лидеров"
+
+msgid "honorRankDescription/dot"
+msgstr "."
+
+msgid "honorRankDescription/text"
+msgstr "Для достижения ранга «Легенда» и его удержания необходимо набрать минимум {whiteOrange_Open}%(pointCount){whiteOrange_Close} очков рейтинга и входить в {whiteOrange_Open}топ-%(percent)%{whiteOrange_Close}%(button)"
+
+msgid "honorsPlace/description/ratingCount"
+msgstr "{whiteOrange_Open}%(count){whiteOrange_Close} очков рейтинга"
+
+msgid "honorsPlace/description/title"
+msgstr "Ваша позиция"
+
+msgid "honorsPlace/description/tooltip"
+msgstr "Обновляется каждые 15 минут."
+
+msgid "honorsPlace/failedFetchPointsText"
+msgstr "Данные о вашей позиции не получены"
+
+msgid "honorsPlace/tooltip"
+msgstr "Данные о вашей позиции не получены"
 
 msgid "infoPageButtonLabel"
 msgstr "О СОБЫТИИ"
@@ -395,7 +437,7 @@ msgid "lastUpdateNote/ratingPositions/description"
 msgstr "Таблица лидеров\nобновляется каждые %(count)s минут."
 
 msgid "lastUpdateNote/tooltip/info"
-msgstr "Последнее обновление: %(date)s"
+msgstr "Обновляется каждые 15 минут."
 
 msgid "leaderboard/currentPosition/body"
 msgstr "Моя позиция"
@@ -497,7 +539,13 @@ msgid "mainWidgetTooltip/division"
 msgstr "Дивизион: %(divisionName)s"
 
 msgid "mainWidgetTooltip/divisionDescription"
-msgstr "В этом дивизионе находятся игроки, набравшие {whiteSpanish_Open}от %(fromScore) до %(toScore){whiteSpanish_Close} очков рейтинга."
+msgstr "В этом дивизионе находятся игроки, набравшие от {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} до {whiteSpanish_Open}%(toScore){whiteSpanish_Close} очков рейтинга."
+
+msgid "mainWidgetTooltip/honorsPlaceDivisionDescription"
+msgstr "В этом дивизионе находятся игроки, набравшие минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга."
+
+msgid "mainWidgetTooltip/honorsPlaceLegendDivisionDescription"
+msgstr "В этом дивизионе находятся игроки, попавшие в {whiteSpanish_Open}топ-%(percent)%{whiteSpanish_Close} игроков по количеству очков рейтинга и набравшие минимум {whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков."
 
 msgid "mainWidgetTooltip/info/fifth"
 msgstr "Для получения ранга «Легенда» войдите в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров."
@@ -644,7 +692,7 @@ msgid "primeTimeView/status/primeWillBeAvailable"
 msgstr "Начало боёв на сервере %(server)s через %(time)s"
 
 msgid "primeTimeView/status/seasonDisabled"
-msgstr "Специальный выпуск на сервере %(server)s завершился."
+msgstr "Событие «Огненный сокол» на сервере %(server)s завершилось."
 
 msgid "primeTimeView/status/untill"
 msgstr "Бои недоступны до %(startTime)s на сервере %(server)s"
@@ -733,18 +781,6 @@ msgstr "Ранг «Чемпион» присваивается игрокам, �
 msgid "rankInfo/current/sixth"
 msgstr "Ранг «Легенда» присваивается {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров"
 
-msgid "rankItemStatus/current/description/fifth"
-msgstr "Для получения ранга «Легенда» попадите в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга."
-
-msgid "rankItemStatus/current/description/sixth"
-msgstr "Для защиты ранга «Легенда» оставайтесь в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга."
-
-msgid "rankItemStatus/current/extendedDescription/fifth"
-msgstr "Для получения ранга «Легенда» попадите в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга. Количество очков рейтинга у последнего игрока в ранге «Легенда»&nbsp;—&nbsp;{whiteSpanish_Open}%(pointsCount){whiteSpanish_Close}"
-
-msgid "rankItemStatus/current/extendedDescription/sixth"
-msgstr "Для защиты ранга «Легенда» оставайтесь в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга. Количество очков рейтинга у последнего игрока в ранге «Легенда»&nbsp;—&nbsp;{whiteSpanish_Open}%(pointsCount){whiteSpanish_Close}"
-
 msgid "rankItemStatus/future/description/fifth"
 msgstr "Ранг «Чемпион» присваивается игрокам, набравшим минимум&nbsp;{whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга."
 
@@ -757,17 +793,11 @@ msgstr "Ранг «Золото» присваивается игрокам, н�
 msgid "rankItemStatus/future/description/second"
 msgstr "Ранг «Бронза» присваивается игрокам, набравшим {whiteSpanish_Open}от&nbsp;%(fromScore)&nbsp;до&nbsp;%(toScore){whiteSpanish_Close} очков рейтинга."
 
-msgid "rankItemStatus/future/description/sixth"
-msgstr "Для получения ранга «Легенда» попадите в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга."
-
 msgid "rankItemStatus/future/description/third"
 msgstr "Ранг «Серебро» присваивается игрокам, набравшим {whiteSpanish_Open}от&nbsp;%(fromScore)&nbsp;до&nbsp;%(toScore){whiteSpanish_Close} очков рейтинга."
 
-msgid "rankItemStatus/future/extendedDescription/sixth"
-msgstr "Для получения ранга «Легенда» попадите в {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга. Количество очков рейтинга у последнего игрока в ранге «Легенда»&nbsp;—&nbsp;{whiteSpanish_Open}%(pointsCount){whiteSpanish_Close}"
-
-msgid "rankItemStatus/previous/description/fifth"
-msgstr "Ранг «Чемпион» присваивается игрокам, набравшим минимум&nbsp;{whiteSpanish_Open}%(fromScore){whiteSpanish_Close} очков рейтинга."
+msgid "rankTransferProgression/transferPoint"
+msgstr "Переход в ранг «Легенда»"
 
 msgid "rankUpper/fifth"
 msgstr "ЧЕМПИОН"
@@ -812,7 +842,7 @@ msgid "rewards/subtitle/customizations"
 msgstr "{whiteSpanish_Open}Для %(vehicleLevel)s уровня техники{whiteSpanish_Close}"
 
 msgid "rewards/subtitle/styleProgress"
-msgstr "{whiteSpanish_Open}Для стиля «Небесный зверь»{whiteSpanish_Close}"
+msgstr "{whiteSpanish_Open}Для стиля «Огненный сокол»{whiteSpanish_Close}"
 
 msgid "rewards/subtitle/vehicles_rent"
 msgstr "%(vehicleLevel)s уровень"
@@ -830,7 +860,7 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "НАТИСК. КВАЛИФИКАЦИЯ ЗАВЕРШЕНА"
 
 msgid "rewardsScreen/description/season"
-msgstr "НАТИСК. СПЕЦИАЛЬНЫЙ ВЫПУСК."
+msgstr "НАТИСК. СОБЫТИЕ «ОГНЕННЫЙ СОКОЛ»."
 
 msgid "rewardsScreen/notice/subTitle"
 msgstr "На этом ранге вы можете потерять часть очков рейтинга, если перестанете сражаться в режиме «Натиск»."
@@ -890,10 +920,10 @@ msgid "season/minutesLeft"
 msgstr "До завершения: %(minutes)s мин."
 
 msgid "season/name"
-msgstr "Натиск: Специальный выпуск"
+msgstr "Натиск: Огненный сокол"
 
 msgid "season/over"
-msgstr "Специальный выпуск завершён."
+msgstr "Событие «Огненный сокол» завершено."
 
 msgid "season/range"
 msgstr "%(startDate)s – %(endDate)s"
@@ -902,7 +932,7 @@ msgid "season/secondsLeft"
 msgstr "До завершения: %(seconds)s с"
 
 msgid "season/shortName"
-msgstr "Специальный выпуск"
+msgstr "Огненный сокол"
 
 msgid "seasonModifier/title"
 msgstr "Модификатор Натиска"
@@ -996,9 +1026,6 @@ msgstr "Годовые награды"
 
 msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
 msgstr "Годовая статистика"
-
-msgid "sixthRankTooltip/description"
-msgstr "Ранг {whiteSpanish_Open}«Легенда»{whiteSpanish_Close} присваивается {whiteSpanish_Open}топ-%(topPercentage)%{whiteSpanish_Close} игроков таблицы лидеров по количеству очков рейтинга."
 
 msgid "skillCharge/condition/activation"
 msgstr "После использования навыка заряд обнуляется."
@@ -1151,7 +1178,7 @@ msgid "weeklyQuests/tokenProgress/description/normal"
 msgstr "Зарабатывайте монеты Натиска для получения наград"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "Специальный выпуск"
+msgstr "Событие «Огненный сокол»"
 
 msgid "whatsNewView/button/ok"
 msgstr "Я в деле!"
@@ -1196,7 +1223,7 @@ msgid "whatsNewView/slides/description/modifiers"
 msgstr "Увеличена прочность модулей техники, сокращено время обнаружения машин и время перезарядки их орудий, а также уменьшен радиус минимальной видимости."
 
 msgid "whatsNewView/slides/description/newSeason"
-msgstr "Встречайте специальный запуск Натиска с ролевыми навыками на выбор! Бои проходят в режиме «Атака/Оборона», а к характеристикам всей техники применён модификатор события."
+msgstr "Встречайте новое событие в Натиске! Бои проходят в режиме «Атака/Оборона» с изменённым особым модификатором, влияющим на параметры всей техники, а заработанные купоны могут заметно снизить стоимость эксклюзивных товаров в магазине Натиска."
 
 msgid "whatsNewView/slides/description/newTypes"
 msgstr "В боях могут участвовать только лёгкие, средние и тяжёлые танки и ПТ-САУ X уровня.\nСАУ к участию в боях не допускаются."
@@ -1205,16 +1232,19 @@ msgid "whatsNewView/slides/description/pointsOfInterest"
 msgstr "Захват Минного склада открывает навык «Минное поле». При подрыве на минах техника противника получает урон, а экипаж — оглушение и контузию. Дымовой центр даёт «Дымовую завесу». Этот навык маскирует союзников и снижает обзор и эффективность техники противника."
 
 msgid "whatsNewView/slides/description/ranks"
-msgstr "В зависимости от результатов боёв ваше мастерство оценивается рангом от Железа до Легенды. В начале события каждый игрок проходит 7 квалификационных боёв для определения начального ранга. Бегство с поля боя или ничья в квалификации засчитываются как поражение."
+msgstr "Ранги «Чемпион» и «Легенда» теперь разделены на три дивизиона (C, B и A). В ранге «Легенда» продвижение игрока зависит от его позиции в таблице лидеров Натиска: другие претенденты могут вытеснить его из любого дивизиона, поднявшись выше в рейтинге."
+
+msgid "whatsNewView/slides/description/ranksIntro"
+msgstr "В начале события проведите 7 квалификационных боёв, чтобы определить свой начальный ранг (от Железа до Золота) и дивизион. Дальнейший прогресс зависит от ваших результатов в боях, а в Легенде — от попадания в число лучших таблицы лидеров события, откуда другие игроки могут вас вытеснить."
 
 msgid "whatsNewView/slides/description/rework"
-msgstr "Значительно переработаны объекты и положение ключевых позиций на четырёх игровых картах, а также многие ролевые навыки."
+msgstr "Обновлён список карт, пересмотрены настройки некоторых ролевых навыков и параметры модификатора."
 
 msgid "whatsNewView/slides/description/roleSkills"
 msgstr "Теперь для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такового для их роли. Каждые две недели один из навыков для каждой роли меняется."
 
 msgid "whatsNewView/slides/description/roleSkillsNewbie"
-msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Каждые две недели один из навыков для каждой роли меняется."
+msgstr "Для каждой роли техники доступно несколько навыков на выбор. При этом некоторые машины имеют свой уникальный набор навыков, отличный от такого набора для их роли. Нажмите Tab в бою, чтобы увидеть ролевые навыки союзников и обнаруженных машин противника."
 
 msgid "whatsNewView/slides/description/seasonVehicles"
 msgstr "Для участия в Натиске вы можете арендовать технику X уровня. Для этого необходимо выполнить соответствующую боевую задачу на технике VIII, IX и X уровней."
@@ -1241,7 +1271,7 @@ msgid "whatsNewView/slides/title/modifiers"
 msgstr "Изменения модификатора"
 
 msgid "whatsNewView/slides/title/newSeason"
-msgstr "Натиск: Специальный выпуск"
+msgstr "Натиск: Огненный сокол"
 
 msgid "whatsNewView/slides/title/newTypes"
 msgstr "Теперь без САУ"
@@ -1250,6 +1280,9 @@ msgid "whatsNewView/slides/title/pointsOfInterest"
 msgstr "Ключевые позиции"
 
 msgid "whatsNewView/slides/title/ranks"
+msgstr "Обновлённая система рангов"
+
+msgid "whatsNewView/slides/title/ranksIntro"
 msgstr "Система рангов"
 
 msgid "whatsNewView/slides/title/rework"
@@ -1277,7 +1310,7 @@ msgid "whatsNewView/title"
 msgstr "НАТИСК"
 
 msgid "whatsNewView/vehicleLimitations/description"
-msgstr "К участию в специальном выпуске не допускаются машины роли САУ (включая штурм-САУ)."
+msgstr "К участию в событии «Огненный сокол» не допускаются машины роли САУ (включая штурм-САУ)."
 
 msgid "whatsNewView/vehicleLimitations/heading"
 msgstr "Ограничения по технике"

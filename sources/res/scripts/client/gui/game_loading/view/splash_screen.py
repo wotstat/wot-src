@@ -1,6 +1,5 @@
-import logging
+import logging, typing, BigWorld, ScaleformFileLoader, Settings, version_utils, game_loading_bindings, gui
 from collections import namedtuple
-import typing, BigWorld, ScaleformFileLoader, Settings, version_utils, game_loading_bindings, gui
 from SoundGroups import MASTER_VOLUME_DEFAULT
 from gui.Scaleform import SCALEFORM_SWF_PATH_V3
 from gui.Scaleform.daapi.view.external_components import ExternalFlashComponent
@@ -44,7 +43,7 @@ def mustShowSplashScreen(userPrefs):
 
 
 class SplashScreen(ExternalFlashComponent, SplashScreenMeta):
-    __slots__ = (b'_movieFiles', b'_writeSetting', b'_bufferTime', b'_soundValue', b'_canSkip', b'_width', b'_height', b'_currentMovie')
+    __slots__ = (b'_movieFiles', b'_writeSetting', b'_bufferTime', b'_soundValue', b'_canSkip', b'_width', b'_height', b'_currentMovie', b'_videoStarted')
 
     def __init__(self, preferences):
         super(SplashScreen, self).__init__(ExternalFlashSettings(b'splashScreen', b'splashScreenApp.swf', b'root.main', SPLASHSCREENCONSTANTS.ON_SPLASH_SCREEN_LOADED_CALLBACK))
@@ -53,7 +52,8 @@ class SplashScreen(ExternalFlashComponent, SplashScreenMeta):
         self._movieFiles = GuiDirReader.getAvailableIntroVideoFiles()
         self._writeSetting = False
         self._bufferTime = self._userPrefs.readFloat(Settings.VIDEO_BUFFERING_TIME, DEFAULT_VIDEO_BUFFERING_TIME)
-        self._soundValue = self._getVideoVolume() if BigWorld.isWindowVisible() else 0
+        self._soundValue = self._getVideoVolume()
+        self._videoStarted = False
         self._canSkip = True
         self._currentMovie = None
         self._width = 0
@@ -102,7 +102,10 @@ class SplashScreen(ExternalFlashComponent, SplashScreenMeta):
         return
 
     def applicationVisibilityChanged(self):
-        self._soundValue = self._getVideoVolume()
+        if self._videoStarted and not BigWorld.isWindowVisible():
+            self._soundValue = 0.0
+        else:
+            self._soundValue = self._getVideoVolume()
         self._sendDataToFlash()
         return
 
@@ -148,6 +151,7 @@ class SplashScreen(ExternalFlashComponent, SplashScreenMeta):
         self.as_playVideoS({b'source': (self._currentMovie), 
            b'bufferTime': (self._bufferTime), 
            b'volume': (self._soundValue)})
+        self._videoStarted = True
         return
 
     def _allVideosComplete(self):

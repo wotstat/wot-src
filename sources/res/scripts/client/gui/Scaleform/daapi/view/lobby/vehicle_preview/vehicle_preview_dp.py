@@ -111,6 +111,8 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
             uniqueVehicleTitle = b''
             if item.isWotPlus:
                 uniqueVehicleTitle = text_styles.tutorial(backport.text(R.strings.vehicle_preview.buyingPanel.availableForWotPlus()))
+            elif item.isTelecom:
+                uniqueVehicleTitle = text_styles.tutorial(backport.text(R.strings.vehicle_preview.buyingPanel.availableForTelecom()))
             elif not (isBuyingAvailable or isHeroTank):
                 uniqueVehicleTitle = text_styles.tutorial(backport.text(R.strings.vehicle_preview.buyingPanel.uniqueVehicleLabel()))
         compensationData = self.__getCompensationData(itemsPack)

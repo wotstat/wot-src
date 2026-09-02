@@ -802,7 +802,7 @@
         (u.r(r),
           u.d(r, {
             Area: () => jt,
-            Bar: () => zt,
+            Bar: () => Gt,
             Default: () => qt,
             useVerticalScrollApi: () => Lt,
           }));
@@ -1174,7 +1174,7 @@
             base__left: "TextButton_base__left_ff",
             shine: "TextButton_shine_e2",
           },
-          G = [
+          z = [
             "caption",
             "onClick",
             "goto",
@@ -1188,9 +1188,9 @@
             "soundClick",
             "soundHover",
           ];
-        function z() {
+        function G() {
           return (
-            (z =
+            (G =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -1199,7 +1199,7 @@
                 }
                 return e;
               }),
-            z.apply(this, arguments)
+            G.apply(this, arguments)
           );
         }
         class $ extends o().PureComponent {
@@ -1248,7 +1248,7 @@
                     a = Object.keys(e);
                   for (i = 0; i < a.length; i++) ((u = a[i]), t.indexOf(u) >= 0 || (r[u] = e[u]));
                   return r;
-                })(e, G)),
+                })(e, z)),
               g = B()(W.base, W[`base__${a}`], W[`base__${r}`], null == n ? void 0 : n.base),
               E = B()(W.icon, W[`icon__${a}`], W[`icon__${r}`], null == n ? void 0 : n.icon),
               A = B()(W.glow, null == n ? void 0 : n.glow),
@@ -1256,7 +1256,7 @@
               F = B()(W.goto, null == n ? void 0 : n.goto);
             return o().createElement(
               "div",
-              z(
+              G(
                 {
                   className: g,
                   onMouseEnter: this._onMouseEnter(s),
@@ -1373,7 +1373,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(K || (K = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1847,6 +1854,11 @@
             K.PremiumPlusUniversal,
             K.GoldenTicket,
             K.RewardsSlots,
+            K.WtStamp,
+            K.WtTicket,
+            K.WtMainPrizeDiscount,
+            K.WtHunter,
+            K.WtHunterCollection,
           ],
           Te = [K.Gold, K.Credits, K.Crystal, K.FreeXp],
           Re = [K.BattlePassPoints],
@@ -2034,7 +2046,7 @@
               r = i.$dyn(e);
             return String(null != r ? r : i.$dyn(u));
           };
-        let We, Ge;
+        let We, ze;
         (!(function (e) {
           ((e.New = "new"), (e.Received = "received"), (e.Unreceived = "unreceived"));
         })(We || (We = {})),
@@ -2042,8 +2054,8 @@
             ((e.JustReceived = "justReceived"),
               (e.Received = "received"),
               (e.Unreceived = "unreceived"));
-          })(Ge || (Ge = {})));
-        const ze = (e, t, u) => (u < e ? e : u > t ? t : u),
+          })(ze || (ze = {})));
+        const Ge = (e, t, u) => (u < e ? e : u > t ? t : u),
           $e = {
             defaultConfig: {
               generalBackgroundColor: "#0D1525",
@@ -3167,10 +3179,10 @@
                   () => {
                     let e = !1;
                     const u = (u) =>
-                      u === Ge.JustReceived
+                      u === ze.JustReceived
                         ? e || !t.isReadyForProgressAnimation.get()
-                          ? Ge.Unreceived
-                          : ((e = !0), Ge.JustReceived)
+                          ? ze.Unreceived
+                          : ((e = !0), ze.JustReceived)
                         : u;
                     return fe(t.rewardsInfo.get(), ({ state: e, requiredItemsCount: t }) => ({
                       state: u(e),
@@ -3271,7 +3283,7 @@
                 }),
                 r = t.createCallbackNoArgs("onFinishTutorial"),
                 a = (t) => {
-                  const u = ze(0, e.computes.getPageCount() - 1, t);
+                  const u = Ge(0, e.computes.getPageCount() - 1, t);
                   u === t && (e.pageNumber.set(u), i(), e.root.get().isTutorial && r());
                 },
                 o = (0, le.aD)((t) => {
@@ -3521,7 +3533,7 @@
               const i = t(e),
                 r = i[0],
                 a = i[1];
-              return ze(r, a, u);
+              return Ge(r, a, u);
             };
             return (l = {}) => {
               const h = l.settings,
@@ -3734,7 +3746,7 @@
                   if (!(i && t && u && r)) return;
                   const a = e.animationScroll.scrollPosition.get(),
                     o = Math.min(1, i / r),
-                    c = ze(0, 1, a / (r - i)),
+                    c = Ge(0, 1, a / (r - i)),
                     d = (t.offsetWidth - _t(t, o)) * c;
                   ((u.style.transform = `translateX(${0 | d}px)`),
                     ((e) => {
@@ -3983,8 +3995,8 @@
           Wt = (e, t) => {
             e.contentRef.current && t(e.contentRef.current);
           },
-          Gt = (e, t) => Math.max(20, e.offsetHeight * t),
-          zt = (0, a.memo)(
+          zt = (e, t) => Math.max(20, e.offsetHeight * t),
+          Gt = (0, a.memo)(
             ({ api: e, classNames: t = {}, getStepByRailClick: u = Ht, onDrag: i = Nt }) => {
               const r = (0, a.useRef)(null),
                 n = (0, a.useRef)(null),
@@ -4011,7 +4023,7 @@
                   if (!(i && a && t && u)) return;
                   const o = Math.min(1, i / a);
                   return (
-                    (t.style.height = `${Gt(u, o)}px`),
+                    (t.style.height = `${zt(u, o)}px`),
                     t.classList.add(kt),
                     r.current &&
                       (1 === o ? r.current.classList.add(Pt) : r.current.classList.remove(Pt)),
@@ -4026,8 +4038,8 @@
                   if (!(i && t && u && r)) return;
                   const a = e.animationScroll.scrollPosition.get(),
                     o = Math.min(1, i / r),
-                    c = ze(0, 1, a / (r - i)),
-                    d = (t.offsetHeight - Gt(t, o)) * c;
+                    c = Ge(0, 1, a / (r - i)),
+                    d = (t.offsetHeight - zt(t, o)) * c;
                   ((u.style.transform = `translateY(${0 | d}px)`),
                     ((e) => {
                       if (n.current && s.current && l.current && h.current) {
@@ -4201,7 +4213,7 @@
                 { className: B()($t.area, r) },
                 o().createElement(jt, { className: n, classNames: s, api: d }, e),
               ),
-              o().createElement(zt, { getStepByRailClick: l, api: t, onDrag: h, classNames: c }),
+              o().createElement(Gt, { getStepByRailClick: l, api: t, onDrag: h, classNames: c }),
             );
           },
           jt = ({ className: e, classNames: t, children: u, api: i }) => (

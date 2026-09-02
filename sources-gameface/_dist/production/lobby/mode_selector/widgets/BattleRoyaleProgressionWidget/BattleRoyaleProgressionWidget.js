@@ -71,8 +71,8 @@
             h = D.largeHeight,
             c = D.mediumHeight,
             v = D.smallHeight,
-            x = D.extraSmallHeight,
-            w = { extraLarge: m, large: h, medium: c, small: v, extraSmall: x };
+            w = D.extraSmallHeight,
+            x = { extraLarge: m, large: h, medium: c, small: v, extraSmall: w };
           if (F.extraLarge || F.large || F.medium || F.small || F.extraSmall) {
             if (F.extraLarge && i) return e;
             if (F.large && C) return e;
@@ -80,11 +80,11 @@
             if (F.small && n) return e;
             if (F.extraSmall && a) return e;
           } else {
-            if (F.extraLargeWidth && l) return (0, E.H)(e, F, w);
-            if (F.largeWidth && g) return (0, E.H)(e, F, w);
-            if (F.mediumWidth && d) return (0, E.H)(e, F, w);
-            if (F.smallWidth && o) return (0, E.H)(e, F, w);
-            if (F.extraSmallWidth && s) return (0, E.H)(e, F, w);
+            if (F.extraLargeWidth && l) return (0, E.H)(e, F, x);
+            if (F.largeWidth && g) return (0, E.H)(e, F, x);
+            if (F.mediumWidth && d) return (0, E.H)(e, F, x);
+            if (F.smallWidth && o) return (0, E.H)(e, F, x);
+            if (F.extraSmallWidth && s) return (0, E.H)(e, F, x);
             if (!(
               F.extraLargeWidth ||
               F.largeWidth ||
@@ -96,7 +96,7 @@
               if (F.largeHeight && h) return e;
               if (F.mediumHeight && c) return e;
               if (F.smallHeight && v) return e;
-              if (F.extraSmallHeight && x) return e;
+              if (F.extraSmallHeight && w) return e;
             }
           }
           return null;
@@ -382,14 +382,14 @@
             getSize: () => a,
             getViewGlobalPosition: () => g,
             isClientAccessible: () => v,
-            isEventHandled: () => w,
+            isEventHandled: () => x,
             isFocused: () => c,
             pxToRem: () => s,
             remToPx: () => m,
             resize: () => l,
             sendEvent: () => t.qP,
             setAnimateWindow: () => h,
-            setEventHandled: () => x,
+            setEventHandled: () => w,
             setInputPaddingsRem: () => i,
             setSidePaddingsRem: () => n,
             whenTutorialReady: () => p,
@@ -444,10 +444,10 @@
         function v() {
           return viewEnv.isClientAccessible();
         }
-        function x() {
+        function w() {
           return viewEnv.setEventHandled();
         }
-        function w() {
+        function x() {
           return viewEnv.isEventHandled();
         }
         function f() {
@@ -649,7 +649,7 @@
         (F(6483), F(9924), F(6179));
         var A = F(8668);
         (F(9930), F(3486));
-        (A.Jh.Huge, A.Jh.Big, A.Jh.Medium, A.Jh.Small);
+        (A.Jh.Huge, A.Jh.Big, A.Jh.Medium, A.Jh.Small, R.images.gui.maps.icons.battleRoyale.widget);
       },
     },
     F = {};

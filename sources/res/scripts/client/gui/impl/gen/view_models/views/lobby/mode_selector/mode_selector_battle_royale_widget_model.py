@@ -9,7 +9,7 @@ class BattleRoyaleProgressionStatus(Enum):
 class ModeSelectorBattleRoyaleWidgetModel(ModeSelectorBaseWidgetModel):
     __slots__ = ()
 
-    def __init__(self, properties=6, commands=0):
+    def __init__(self, properties=5, commands=0):
         super(ModeSelectorBattleRoyaleWidgetModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -41,18 +41,10 @@ class ModeSelectorBattleRoyaleWidgetModel(ModeSelectorBaseWidgetModel):
         self._setNumber(4, value)
         return
 
-    def getIconPostfix(self):
-        return self._getString(5)
-
-    def setIconPostfix(self, value):
-        self._setString(5, value)
-        return
-
     def _initialize(self):
         super(ModeSelectorBattleRoyaleWidgetModel, self)._initialize()
         self._addStringProperty(b'status')
         self._addNumberProperty(b'currentStage', -1)
         self._addNumberProperty(b'stageCurrentPoints', -1)
         self._addNumberProperty(b'stageMaximumPoints', -1)
-        self._addStringProperty(b'iconPostfix', b'')
         return

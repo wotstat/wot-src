@@ -33,6 +33,9 @@ class MarkOnGunAchievement(RegularAchievement):
     def getDamageRating(self):
         return self.__damageRating
 
+    def getIconName(self):
+        return self.__getActualIconName()
+
     def getIcons(self):
         return {(self.ICON_TYPE.IT_180X180): (self.__getIconPath(self.ICON_TYPE.IT_180X180)), 
            (self.ICON_TYPE.IT_67X71): (self.__getIconPath(self.ICON_TYPE.IT_67X71)), 
@@ -61,11 +64,13 @@ class MarkOnGunAchievement(RegularAchievement):
         else:
             return 0
 
-    def __getIconPath(self, dir_):
+    def __getActualIconName(self):
         currentValue = 3 if self._value == 0 else self._value
         markCtx = b'mark' if currentValue < 2 else b'marks'
-        return b'../maps/icons/marksOnGun/%s/%s_%s_%s.png' % (dir_, NATION_NAMES[self.__nationId],
-         currentValue, markCtx)
+        return (b'{}_{}_{}').format(NATION_NAMES[self.__nationId], currentValue, markCtx)
+
+    def __getIconPath(self, dir_):
+        return (b'').join(((b'../maps/icons/marksOnGun/{}/').format(dir_), self.__getActualIconName(), b'.png'))
 
     def __repr__(self):
         return b'MarkOnGunAchievement<value=%s; damageRating=%.2f>' % (

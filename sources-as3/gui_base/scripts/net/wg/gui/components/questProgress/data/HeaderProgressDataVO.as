@@ -1,6 +1,5 @@
 package net.wg.gui.components.questProgress.data
 {
-   import net.wg.data.constants.generated.QUEST_PROGRESS_BASE;
    import net.wg.data.daapi.base.DAAPIDataClass;
    import net.wg.gui.components.questProgress.interfaces.data.IHeaderProgressData;
    
@@ -27,7 +26,7 @@ package net.wg.gui.components.questProgress.data
       
       private var _conditionIcon:String = "";
       
-      private var _groupID:int = QUEST_PROGRESS_BASE.DEFAULT_GROUP_ID;
+      private var _groupID:int = 1;
       
       public function HeaderProgressDataVO(param1:Object)
       {

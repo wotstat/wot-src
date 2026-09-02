@@ -2,6 +2,7 @@
 from typing import Any, ClassVar, Final, overload
 
 FireComponent: Any
+HealthComponent: Any
 OverheatComponent: Any
 StunComponent: Any
 UnderWaterComponent: Any

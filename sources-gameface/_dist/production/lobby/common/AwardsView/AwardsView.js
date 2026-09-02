@@ -18,7 +18,7 @@
       },
       67: (e, u, t) => {
         "use strict";
-        t.d(u, { O: () => z });
+        t.d(u, { O: () => j });
         var r = {};
         (t.r(r), t.d(r, { mouse: () => c, onResize: () => l }));
         var a = {};
@@ -51,7 +51,7 @@
             displayStatus: () => D,
             displayStatusIs: () => q,
             events: () => B,
-            extraSize: () => V,
+            extraSize: () => z,
             forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => y,
             getBrowserTexturePath: () => T,
@@ -70,7 +70,7 @@
             setEventHandled: () => G,
             setInputPaddingsRem: () => f,
             setSidePaddingsRem: () => x,
-            whenTutorialReady: () => j,
+            whenTutorialReady: () => V,
           }));
         const l = s("clientResized"),
           E = { down: s("mousedown"), up: s("mouseup"), move: s("mousemove") };
@@ -284,7 +284,7 @@
             (e, u) => ((e[u] = () => viewEnv.getShowingStatus() === D[u]), e),
             {},
           ),
-          V = {
+          z = {
             set: (e, u) => {
               viewEnv.setExtraSizeRem(e, u);
             },
@@ -292,13 +292,13 @@
               viewEnv.getExtraSizeRem(e, u);
             },
           },
-          j = Promise.all([
+          V = Promise.all([
             new Promise((e) => {
               window.isDomBuilt ? e() : B.onDomBuilt(e);
             }),
             engine.whenReady,
           ]),
-          z = { view: i, client: a };
+          j = { view: i, client: a };
       },
       521: (e, u, t) => {
         "use strict";
@@ -1305,9 +1305,9 @@
             "soundClick",
             "soundHover",
           ];
-        function V() {
+        function z() {
           return (
-            (V =
+            (z =
               Object.assign ||
               function (e) {
                 for (var u = 1; u < arguments.length; u++) {
@@ -1316,10 +1316,10 @@
                 }
                 return e;
               }),
-            V.apply(this, arguments)
+            z.apply(this, arguments)
           );
         }
-        class j extends a().PureComponent {
+        class V extends a().PureComponent {
           constructor(...e) {
             (super(...e),
               (this.state = { hover: !1, click: !1 }),
@@ -1373,7 +1373,7 @@
               D = C()(Y.goto, null == s ? void 0 : s.goto);
             return a().createElement(
               "div",
-              V(
+              z(
                 {
                   className: d,
                   onMouseEnter: this._onMouseEnter(o),
@@ -1397,16 +1397,16 @@
             );
           }
         }
-        j.defaultProps = {
+        V.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
           soundClick: "play",
         };
-        let z;
+        let j;
         !(function (e) {
           ((e[(e.left = 0)] = "left"), (e[(e.right = 1)] = "right"));
-        })(z || (z = {}));
+        })(j || (j = {}));
         const X = (e) => e.replace(/&nbsp;/g, " ");
         (() => {
           const e = new RegExp(
@@ -1679,7 +1679,14 @@
             (e.DogTagType = "dogTagComponents"),
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
-            (e.RewardsSlots = "rewardsSlots"));
+            (e.RewardsSlots = "rewardsSlots"),
+            (e.WtStamp = "stamp"),
+            (e.WtHunter = "wt_hunter"),
+            (e.WtBoss = "wt_boss"),
+            (e.WtHunterCollection = "hunter_collection"),
+            (e.WtTicket = "wtevent_ticket"),
+            (e.WtMainPrizeDiscount = "main_prize_discount"),
+            (e.WtTicket25 = "wtevent_ticket25"));
         })(de || (de = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1829,6 +1836,11 @@
             de.PremiumPlusUniversal,
             de.GoldenTicket,
             de.RewardsSlots,
+            de.WtStamp,
+            de.WtTicket,
+            de.WtMainPrizeDiscount,
+            de.WtHunter,
+            de.WtHunterCollection,
           ],
           ve = [de.Gold, de.Credits, de.Crystal, de.FreeXp],
           be = [de.BattlePassPoints],
@@ -2293,7 +2305,7 @@
               ? a().createElement(ke, Ye({}, u, { contentId: n || s }), r)
               : a().createElement(Ue, u, r);
           },
-          Ve = {
+          ze = {
             base: "Reward_base_ea",
             base__s48x48: "Reward_base__s48x48_46",
             base__small: "Reward_base__small_c0",
@@ -2318,7 +2330,7 @@
             info__premiumTank: "Reward_info__premiumTank_d3",
             timer: "Reward_timer_d3",
           },
-          je = ({
+          Ve = ({
             name: e,
             image: u,
             isPeriodic: t = !1,
@@ -2391,31 +2403,31 @@
               })(i, s);
             return a().createElement(
               "div",
-              { className: C()(Ve.base, Ve[`base__${r}`], l), style: o },
+              { className: C()(ze.base, ze[`base__${r}`], l), style: o },
               a().createElement(
                 qe,
-                { tooltipArgs: c, className: Ve.tooltipWrapper },
+                { tooltipArgs: c, className: ze.tooltipWrapper },
                 a().createElement(
                   a().Fragment,
                   null,
                   a().createElement(
                     "div",
-                    { className: C()(Ve.image, null == E ? void 0 : E.image) },
+                    { className: C()(ze.image, null == E ? void 0 : E.image) },
                     d &&
                       a().createElement("div", {
-                        className: C()(Ve.highlight, null == E ? void 0 : E.highlight),
+                        className: C()(ze.highlight, null == E ? void 0 : E.highlight),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${d}_highlight)`,
                         },
                       }),
                     u &&
                       a().createElement("div", {
-                        className: C()(Ve.icon, null == E ? void 0 : E.rewardIcon),
+                        className: C()(ze.icon, null == E ? void 0 : E.rewardIcon),
                         style: { backgroundImage: `url(${u})` },
                       }),
                     A &&
                       a().createElement("div", {
-                        className: C()(Ve.overlay, null == E ? void 0 : E.overlay),
+                        className: C()(ze.overlay, null == E ? void 0 : E.overlay),
                         style: {
                           backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${r}.${A}_overlay)`,
                         },
@@ -2426,9 +2438,9 @@
                       "div",
                       {
                         className: C()(
-                          Ve.info,
-                          Ve[`info__${e}`],
-                          s === me.MULTI && Ve.info__multi,
+                          ze.info,
+                          ze[`info__${e}`],
+                          s === me.MULTI && ze.info__multi,
                           null == E ? void 0 : E.info,
                         ),
                       },
@@ -2441,12 +2453,12 @@
                   qe,
                   { tooltipArgs: _ },
                   a().createElement("div", {
-                    className: C()(Ve.timer, null == E ? void 0 : E.periodicIcon),
+                    className: C()(ze.timer, null == E ? void 0 : E.periodicIcon),
                   }),
                 ),
             );
           };
-        var ze = t(272);
+        var je = t(272);
         const Xe = {
             base: "AdditionalRewards_base_be",
             content: "AdditionalRewards_content_46",
@@ -2517,7 +2529,7 @@
                     { className: Xe.rewardsList },
                     c.map((e, u) =>
                       a().createElement(
-                        ze.ZP,
+                        je.ZP,
                         { key: `reward${u}`, in: !0, appear: !0, timeout: _(u) },
                         (t) => {
                           const r = C()(d, Xe[t]);
@@ -2527,7 +2539,7 @@
                             a().createElement(
                               "div",
                               { className: r },
-                              a().createElement(je, {
+                              a().createElement(Ve, {
                                 name: e.name,
                                 image: e.image,
                                 special: e.special,
@@ -2657,7 +2669,7 @@
               a().createElement(
                 "div",
                 { className: du },
-                a().createElement(j, {
+                a().createElement(V, {
                   caption: R.strings.menu.viewHeader.closeBtn.label(),
                   type: "close",
                   side: "right",

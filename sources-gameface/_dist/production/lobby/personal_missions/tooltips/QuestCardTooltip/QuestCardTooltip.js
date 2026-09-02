@@ -880,7 +880,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(E || (E = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1326,6 +1333,11 @@
             E.PremiumPlusUniversal,
             E.GoldenTicket,
             E.RewardsSlots,
+            E.WtStamp,
+            E.WtTicket,
+            E.WtMainPrizeDiscount,
+            E.WtHunter,
+            E.WtHunterCollection,
           ],
           y = [E.Gold, E.Credits, E.Crystal, E.FreeXp],
           N = [E.BattlePassPoints],
@@ -1490,12 +1502,12 @@
                 })(e)}`;
               case E.StyleProgress:
               case E.LbStyleProgress:
-                return W(a, e, m.ProgressionStyle);
+                return q(a, e, m.ProgressionStyle);
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
           },
-          q = (u, e, t) => {
+          W = (u, e, t) => {
             const r = e && { contentId: e };
             return Object.assign(
               {
@@ -1508,7 +1520,7 @@
               t,
             );
           },
-          W = (u, e, t) => {
+          q = (u, e, t) => {
             const r = R.images.gui.maps.icons.quests.bonuses.$dyn(e),
               n = r.$dyn(u);
             return String(null != n ? n : r.$dyn(t));
@@ -2145,10 +2157,10 @@
                 };
               }, [t, a, E, A, _, D, I, N, R, C, O, S, x]),
               G = H.computedStyle,
-              q = H.computedClassNames;
+              W = H.computedClassNames;
             return n().createElement(
               "div",
-              Bu({ className: o()(du.base, ...q, e), style: G }, U),
+              Bu({ className: o()(du.base, ...W, e), style: G }, U),
               k,
             );
           });
@@ -2313,7 +2325,7 @@
             SM: { mt: "SM", mr: "SM", mb: "SM", ml: "SM" },
             XS: { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           },
-          qu =
+          Wu =
             (Object.keys(Gu),
             {
               "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
@@ -2335,8 +2347,8 @@
               "paragraph-P12": Hu,
               "paragraph-P10": Hu,
             }),
-          Wu =
-            (Object.keys(qu),
+          qu =
+            (Object.keys(Wu),
             (u) =>
               u
                 ? ((u) => Iu.includes(u))(u)
@@ -2369,7 +2381,7 @@
                 return n;
               })(u, yu);
             const p = (0, r.useMemo)(() => {
-                const u = Wu(s),
+                const u = qu(s),
                   e = u.colorClassName,
                   t = u.colorStyle,
                   r = void 0 === t ? {} : t;
@@ -2383,10 +2395,10 @@
                 {
                   className: o()(Lu.base, t && Lu[t], h, a),
                   style: g,
-                  mt: !0 === l ? qu[t || "paragraph-P16"].mt : l,
-                  mr: !0 === F ? qu[t || "paragraph-P16"].mr : F,
-                  mb: !0 === c ? qu[t || "paragraph-P16"].mb : c,
-                  ml: !0 === d ? qu[t || "paragraph-P16"].ml : d,
+                  mt: !0 === l ? Wu[t || "paragraph-P16"].mt : l,
+                  mr: !0 === F ? Wu[t || "paragraph-P16"].mr : F,
+                  mb: !0 === c ? Wu[t || "paragraph-P16"].mb : c,
+                  ml: !0 === d ? Wu[t || "paragraph-P16"].ml : d,
                 },
                 C,
               ),
@@ -2567,7 +2579,7 @@
                           : I.includes(t)
                             ? F.PREMIUM_PLUS
                             : F.STRING),
-                  tooltipArgs: q({ tooltipId: e.tooltipId, tooltipContentId: e.tooltipContentId }),
+                  tooltipArgs: W({ tooltipId: e.tooltipId, tooltipContentId: e.tooltipContentId }),
                 });
                 var t;
               }),

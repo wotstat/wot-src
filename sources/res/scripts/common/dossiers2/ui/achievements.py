@@ -75,9 +75,11 @@ def makeAchievesStorageName(block):
      block, b'')
 
 
+MARK_OF_MASTERY = b'markOfMastery'
+MARK_ON_GUN = b'marksOnGun'
 RARE_STORAGE_RECORD = makeAchievesStorageName(_AB.RARE)
-MARK_OF_MASTERY_RECORD = (_AB.TOTAL, b'markOfMastery')
-MARK_ON_GUN_RECORD = (_AB.TOTAL, b'marksOnGun')
+MARK_OF_MASTERY_RECORD = (_AB.TOTAL, MARK_OF_MASTERY)
+MARK_ON_GUN_RECORD = (_AB.TOTAL, MARK_ON_GUN)
 HONORED_RANK_RECORD = (_AB.CLIENT, b'honoredRank')
 _MODE_CONVERTER = {b'random': (ACHIEVEMENT_MODE.RANDOM), 
    b'ranked': (ACHIEVEMENT_MODE.RANKED), 

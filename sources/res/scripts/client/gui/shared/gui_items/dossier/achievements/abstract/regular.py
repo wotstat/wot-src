@@ -59,10 +59,10 @@ class RegularAchievement(GUIItem):
         return self._value
 
     def isApproachable(self):
-        return self._getIconName() in achievements.BATTLE_APPROACHABLE_ACHIEVES
+        return self.getIconName() in achievements.BATTLE_APPROACHABLE_ACHIEVES
 
     def hasRibbon(self):
-        return self._getIconName() in achievements.BATTLE_ACHIEVES_WITH_RIBBON
+        return self.getIconName() in achievements.BATTLE_ACHIEVES_WITH_RIBBON
 
     def getI18nValue(self):
         maxValue = RECORD_MAX_VALUES.get(self.getRecordName())
@@ -136,8 +136,11 @@ class RegularAchievement(GUIItem):
             return backport.image(accessor())
         return self.ICON_DEFAULT
 
+    def getIconName(self):
+        return self._getActualName()
+
     def getIcons(self):
-        iconName = self._getIconName()
+        iconName = self.getIconName()
         iconBig = iconMedium = iconSmall = b''
         if iconName:
             iconBig = self.tryGetBigIcon(iconName)
@@ -148,7 +151,7 @@ class RegularAchievement(GUIItem):
            (self.ICON_TYPE.IT_32X32): iconSmall}
 
     def canDisplayAchievement(self):
-        iconName = self._getIconName()
+        iconName = self.getIconName()
         resource = dyn_or_num(R.images.gui.maps.icons.achievement, iconName)
         return resource.isValid()
 
@@ -156,7 +159,7 @@ class RegularAchievement(GUIItem):
         return self.getIcons()[self.ICON_TYPE.IT_180X180]
 
     def getBigIcon(self):
-        iconName = self._getIconName()
+        iconName = self._getActualName()
         iconRes = dyn_or_num(R.images.gui.maps.icons.achievement.c_80x80, iconName)
         if iconRes.exists():
             return backport.image(iconRes())
@@ -227,9 +230,6 @@ class RegularAchievement(GUIItem):
 
     def _readLevelUpTotalValue(self, dossier):
         return
-
-    def _getIconName(self):
-        return self._getActualName()
 
     def _getActualName(self):
         return self._name

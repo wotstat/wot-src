@@ -24,7 +24,7 @@ class GetUDOByNameBase(Block, ArenaMeta):
 
     def __init__(self, *args, **kwargs):
         super(GetUDOByNameBase, self).__init__(*args, **kwargs)
-        self._nameType, self._type = self._getInitParams()
+        self._nameType, self._type, self._exclude = self._getInitParams()
         if self._nameType == b'single name':
             self._name = self._makeDataInputSlot(b'name', SLOT_TYPE.STR)
         elif self._nameType == b'multiple names':
@@ -41,7 +41,8 @@ class GetUDOByNameBase(Block, ArenaMeta):
     def initParams(cls):
         return [
          InitParam(b'UDO names', SLOT_TYPE.STR, buildStrKeysValue(b'single name', b'multiple names', b'any names'), EDITOR_TYPE.STR_KEY_SELECTOR),
-         InitParam(b'UDO type', SLOT_TYPE.STR, buildStrKeysValue(*cls._UDOTypes), EDITOR_TYPE.STR_KEY_SELECTOR)]
+         InitParam(b'UDO type', SLOT_TYPE.STR, buildStrKeysValue(*cls._UDOTypes), EDITOR_TYPE.STR_KEY_SELECTOR),
+         InitParam(b'Exclude Names', SLOT_TYPE.BOOL, False)]
 
     @classmethod
     def blockIcon(cls):
@@ -51,6 +52,8 @@ class GetUDOByNameBase(Block, ArenaMeta):
         if self._nameType == b'any names':
             return b'Get UDO'
         else:
+            if self._exclude:
+                return b'Get UDO Excluding Name'
             return b'Get UDO By Name'
 
         return
@@ -84,6 +87,8 @@ class GetUDOByNameBase(Block, ArenaMeta):
             else:
                 return []
 
+        if self._exclude:
+            return [udo for udo in allUDOs if udo.name not in names]
         return [udo for udo in allUDOs if udo.name in names]
 
 

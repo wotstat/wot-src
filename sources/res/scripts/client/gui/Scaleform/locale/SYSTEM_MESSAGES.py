@@ -795,6 +795,7 @@ class SYSTEM_MESSAGES(object):
     CLANS_NOTIFICATIONS_PERSONAL_APPDECLINED = b'#system_messages:clans/notifications/personal/appDeclined'
     CLANS_NOTIFICATIONS_INVITEACCEPTED = b'#system_messages:clans/notifications/inviteAccepted'
     CLANS_NOTIFICATIONS_INVITEDECLINED = b'#system_messages:clans/notifications/inviteDeclined'
+    CLANS_NOTIFICATIONS_STYLE_GIFT = b'#system_messages:clans/notifications/style_gift'
     EXCHANGE_SUCCESS = b'#system_messages:exchange/success'
     EXCHANGE_NOT_ENOUGH_GOLD = b'#system_messages:exchange/not_enough_gold'
     EXCHANGE_WALLET_NOT_AVAILABLE = b'#system_messages:exchange/wallet_not_available'
@@ -2335,6 +2336,7 @@ class SYSTEM_MESSAGES(object):
      CLANS_NOTIFICATIONS_PERSONAL_APPDECLINED,
      CLANS_NOTIFICATIONS_INVITEACCEPTED,
      CLANS_NOTIFICATIONS_INVITEDECLINED,
+     CLANS_NOTIFICATIONS_STYLE_GIFT,
      EXCHANGE_SUCCESS,
      EXCHANGE_NOT_ENOUGH_GOLD,
      EXCHANGE_WALLET_NOT_AVAILABLE,

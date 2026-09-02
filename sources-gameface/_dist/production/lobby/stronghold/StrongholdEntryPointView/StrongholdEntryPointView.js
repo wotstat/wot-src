@@ -300,6 +300,90 @@
           ]),
           V = { view: A, client: a };
       },
+      521: (u, e, t) => {
+        "use strict";
+        let r, a;
+        (t.d(e, { n: () => r }),
+          (function (u) {
+            ((u[(u.NONE = -1)] = "NONE"),
+              (u[(u.ALT = 165)] = "ALT"),
+              (u[(u.ENTER = 13)] = "ENTER"),
+              (u[(u.ESCAPE = 27)] = "ESCAPE"),
+              (u[(u.SPACE = 32)] = "SPACE"),
+              (u[(u.END = 35)] = "END"),
+              (u[(u.HOME = 36)] = "HOME"),
+              (u[(u.ARROW_LEFT = 37)] = "ARROW_LEFT"),
+              (u[(u.ARROW_UP = 38)] = "ARROW_UP"),
+              (u[(u.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
+              (u[(u.ARROW_DOWN = 40)] = "ARROW_DOWN"),
+              (u[(u.NUM_PLUS = 107)] = "NUM_PLUS"),
+              (u[(u.NUM_MINUS = 109)] = "NUM_MINUS"),
+              (u[(u.PLUS = 187)] = "PLUS"),
+              (u[(u.MINUS = 189)] = "MINUS"),
+              (u[(u.PAGE_UP = 33)] = "PAGE_UP"),
+              (u[(u.PAGE_DOWN = 34)] = "PAGE_DOWN"),
+              (u[(u.BACKSPACE = 8)] = "BACKSPACE"),
+              (u[(u.DELETE = 46)] = "DELETE"),
+              (u[(u.TAB = 9)] = "TAB"),
+              (u[(u.KEY_N = 78)] = "KEY_N"),
+              (u[(u.KEY_0 = 48)] = "KEY_0"),
+              (u[(u.KEY_1 = 49)] = "KEY_1"),
+              (u[(u.KEY_2 = 50)] = "KEY_2"),
+              (u[(u.KEY_3 = 51)] = "KEY_3"),
+              (u[(u.KEY_4 = 52)] = "KEY_4"),
+              (u[(u.KEY_5 = 53)] = "KEY_5"),
+              (u[(u.KEY_6 = 54)] = "KEY_6"),
+              (u[(u.KEY_7 = 55)] = "KEY_7"),
+              (u[(u.KEY_8 = 56)] = "KEY_8"),
+              (u[(u.KEY_9 = 57)] = "KEY_9"),
+              (u[(u.CAPS_LOCK = 20)] = "CAPS_LOCK"),
+              (u[(u.INSERT = 45)] = "INSERT"),
+              (u[(u.F1 = 112)] = "F1"),
+              (u[(u.F2 = 113)] = "F2"),
+              (u[(u.F3 = 114)] = "F3"),
+              (u[(u.F4 = 115)] = "F4"),
+              (u[(u.F5 = 116)] = "F5"),
+              (u[(u.F6 = 117)] = "F6"),
+              (u[(u.F7 = 118)] = "F7"),
+              (u[(u.F8 = 119)] = "F8"),
+              (u[(u.F9 = 120)] = "F9"),
+              (u[(u.F10 = 121)] = "F10"),
+              (u[(u.F11 = 122)] = "F11"),
+              (u[(u.F12 = 123)] = "F12"),
+              (u[(u.SELECT = 93)] = "SELECT"),
+              (u[(u.NUMPAD_0 = 96)] = "NUMPAD_0"),
+              (u[(u.NUMPAD_1 = 97)] = "NUMPAD_1"),
+              (u[(u.NUMPAD_2 = 98)] = "NUMPAD_2"),
+              (u[(u.NUMPAD_3 = 99)] = "NUMPAD_3"),
+              (u[(u.NUMPAD_4 = 100)] = "NUMPAD_4"),
+              (u[(u.NUMPAD_5 = 101)] = "NUMPAD_5"),
+              (u[(u.NUMPAD_6 = 102)] = "NUMPAD_6"),
+              (u[(u.NUMPAD_7 = 103)] = "NUMPAD_7"),
+              (u[(u.NUMPAD_8 = 104)] = "NUMPAD_8"),
+              (u[(u.NUMPAD_9 = 105)] = "NUMPAD_9"),
+              (u[(u.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
+              (u[(u.STAR = 106)] = "STAR"),
+              (u[(u.NUM_SLASH = 111)] = "NUM_SLASH"),
+              (u[(u.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
+              (u[(u.COMMA = 188)] = "COMMA"),
+              (u[(u.DASH = 189)] = "DASH"),
+              (u[(u.PERIOD = 190)] = "PERIOD"));
+          })(r || (r = {})),
+          (function (u) {
+            ((u.ALT = "Alt"),
+              (u.ALT_GRAPH = "AltGraph"),
+              (u.CAPS_LOCK = "CapsLock"),
+              (u.CONTROL = "Control"),
+              (u.FN = "Fn"),
+              (u.FN_LOCK = "FnLock"),
+              (u.META = "Meta"),
+              (u.NUM_LOCK = "NumLock"),
+              (u.SCROLL_LOCK = "ScrollLock"),
+              (u.SHIFT = "Shift"),
+              (u.SYMBOL = "Symbol"),
+              (u.SYMBOL_LOCK = "SymbolLock"));
+          })(a || (a = {})));
+      },
       358: (u, e, t) => {
         "use strict";
         t.d(e, { Z: () => E });
@@ -368,7 +452,7 @@
         "use strict";
         __webpack_require__.d(__webpack_exports__, { Z: () => __WEBPACK_DEFAULT_EXPORT__ });
         var _DataTracker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(358),
-          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(596);
+          _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(364);
         class ViewModel {
           constructor(path, watchingFields = []) {
             ((this.dataTracker = void 0),
@@ -407,9 +491,9 @@
         }
         const __WEBPACK_DEFAULT_EXPORT__ = ViewModel;
       },
-      596: (u, e, t) => {
+      364: (u, e, t) => {
         "use strict";
-        t.d(e, { kH: () => s, Z5: () => A, lf: () => o, cy: () => n, ry: () => _ });
+        t.d(e, { kH: () => s, Z5: () => A, lf: () => o, cy: () => n, ry: () => m });
         class r {
           constructor() {
             ((this.entries = []),
@@ -481,89 +565,10 @@
           D = Object.freeze({ FRACTIONAL: 0, WO_ZERO_DIGITS: 1 }),
           o = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1 }),
           s = Object.freeze({ SHORT_FORMAT: 0, LONG_FORMAT: 1, YEAR_MONTH: 2 });
-        let l, B;
-        (!(function (u) {
-          ((u[(u.NONE = -1)] = "NONE"),
-            (u[(u.ALT = 165)] = "ALT"),
-            (u[(u.ENTER = 13)] = "ENTER"),
-            (u[(u.ESCAPE = 27)] = "ESCAPE"),
-            (u[(u.SPACE = 32)] = "SPACE"),
-            (u[(u.END = 35)] = "END"),
-            (u[(u.HOME = 36)] = "HOME"),
-            (u[(u.ARROW_LEFT = 37)] = "ARROW_LEFT"),
-            (u[(u.ARROW_UP = 38)] = "ARROW_UP"),
-            (u[(u.ARROW_RIGHT = 39)] = "ARROW_RIGHT"),
-            (u[(u.ARROW_DOWN = 40)] = "ARROW_DOWN"),
-            (u[(u.NUM_PLUS = 107)] = "NUM_PLUS"),
-            (u[(u.NUM_MINUS = 109)] = "NUM_MINUS"),
-            (u[(u.PLUS = 187)] = "PLUS"),
-            (u[(u.MINUS = 189)] = "MINUS"),
-            (u[(u.PAGE_UP = 33)] = "PAGE_UP"),
-            (u[(u.PAGE_DOWN = 34)] = "PAGE_DOWN"),
-            (u[(u.BACKSPACE = 8)] = "BACKSPACE"),
-            (u[(u.DELETE = 46)] = "DELETE"),
-            (u[(u.TAB = 9)] = "TAB"),
-            (u[(u.KEY_N = 78)] = "KEY_N"),
-            (u[(u.KEY_0 = 48)] = "KEY_0"),
-            (u[(u.KEY_1 = 49)] = "KEY_1"),
-            (u[(u.KEY_2 = 50)] = "KEY_2"),
-            (u[(u.KEY_3 = 51)] = "KEY_3"),
-            (u[(u.KEY_4 = 52)] = "KEY_4"),
-            (u[(u.KEY_5 = 53)] = "KEY_5"),
-            (u[(u.KEY_6 = 54)] = "KEY_6"),
-            (u[(u.KEY_7 = 55)] = "KEY_7"),
-            (u[(u.KEY_8 = 56)] = "KEY_8"),
-            (u[(u.KEY_9 = 57)] = "KEY_9"),
-            (u[(u.CAPS_LOCK = 20)] = "CAPS_LOCK"),
-            (u[(u.INSERT = 45)] = "INSERT"),
-            (u[(u.F1 = 112)] = "F1"),
-            (u[(u.F2 = 113)] = "F2"),
-            (u[(u.F3 = 114)] = "F3"),
-            (u[(u.F4 = 115)] = "F4"),
-            (u[(u.F5 = 116)] = "F5"),
-            (u[(u.F6 = 117)] = "F6"),
-            (u[(u.F7 = 118)] = "F7"),
-            (u[(u.F8 = 119)] = "F8"),
-            (u[(u.F9 = 120)] = "F9"),
-            (u[(u.F10 = 121)] = "F10"),
-            (u[(u.F11 = 122)] = "F11"),
-            (u[(u.F12 = 123)] = "F12"),
-            (u[(u.SELECT = 93)] = "SELECT"),
-            (u[(u.NUMPAD_0 = 96)] = "NUMPAD_0"),
-            (u[(u.NUMPAD_1 = 97)] = "NUMPAD_1"),
-            (u[(u.NUMPAD_2 = 98)] = "NUMPAD_2"),
-            (u[(u.NUMPAD_3 = 99)] = "NUMPAD_3"),
-            (u[(u.NUMPAD_4 = 100)] = "NUMPAD_4"),
-            (u[(u.NUMPAD_5 = 101)] = "NUMPAD_5"),
-            (u[(u.NUMPAD_6 = 102)] = "NUMPAD_6"),
-            (u[(u.NUMPAD_7 = 103)] = "NUMPAD_7"),
-            (u[(u.NUMPAD_8 = 104)] = "NUMPAD_8"),
-            (u[(u.NUMPAD_9 = 105)] = "NUMPAD_9"),
-            (u[(u.NUM_DECIMAL = 110)] = "NUM_DECIMAL"),
-            (u[(u.STAR = 106)] = "STAR"),
-            (u[(u.NUM_SLASH = 111)] = "NUM_SLASH"),
-            (u[(u.FORWARD_SLASH = 191)] = "FORWARD_SLASH"),
-            (u[(u.COMMA = 188)] = "COMMA"),
-            (u[(u.DASH = 189)] = "DASH"),
-            (u[(u.PERIOD = 190)] = "PERIOD"));
-        })(l || (l = {})),
-          (function (u) {
-            ((u.ALT = "Alt"),
-              (u.ALT_GRAPH = "AltGraph"),
-              (u.CAPS_LOCK = "CapsLock"),
-              (u.CONTROL = "Control"),
-              (u.FN = "Fn"),
-              (u.FN_LOCK = "FnLock"),
-              (u.META = "Meta"),
-              (u.NUM_LOCK = "NumLock"),
-              (u.SCROLL_LOCK = "ScrollLock"),
-              (u.SHIFT = "Shift"),
-              (u.SYMBOL = "Symbol"),
-              (u.SYMBOL_LOCK = "SymbolLock"));
-          })(B || (B = {})));
-        var C = t(67);
-        const c = ["args"];
-        function d(u, e, t, r, a, E, A) {
+        var l = t(521),
+          B = t(67);
+        const C = ["args"];
+        function c(u, e, t, r, a, E, A) {
           try {
             var n = u[E](A),
               F = n.value;
@@ -572,14 +577,14 @@
           }
           n.done ? e(F) : Promise.resolve(F).then(r, a);
         }
-        const m = (u) => ({
+        const d = (u) => ({
             __Type: "GFBoundingBox",
             x: u.x,
             y: u.y,
             width: u.width,
             height: u.height,
           }),
-          _ = (function () {
+          m = (function () {
             var u,
               e =
                 ((u = function* () {
@@ -596,10 +601,10 @@
                   return new Promise(function (r, a) {
                     var E = u.apply(e, t);
                     function A(u) {
-                      d(E, r, a, A, n, "next", u);
+                      c(E, r, a, A, n, "next", u);
                     }
                     function n(u) {
-                      d(E, r, a, A, n, "throw", u);
+                      c(E, r, a, A, n, "throw", u);
                     }
                     A(void 0);
                   });
@@ -608,7 +613,7 @@
               return e.apply(this, arguments);
             };
           })(),
-          h = (u, e) => {
+          _ = (u, e) => {
             const t = "GFViewEventProxy";
             if (void 0 !== e) {
               const a = e.args,
@@ -620,7 +625,7 @@
                     E = Object.keys(u);
                   for (r = 0; r < E.length; r++) ((t = E[r]), e.indexOf(t) >= 0 || (a[t] = u[t]));
                   return a;
-                })(e, c);
+                })(e, C);
               void 0 !== a
                 ? viewEnv.handleViewEvent(
                     Object.assign({ __Type: t, type: u }, E, {
@@ -646,26 +651,26 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: u });
             var r;
           },
-          g = () => h(F.CLOSE),
-          w = (u, e) => {
-            u.keyCode === l.ESCAPE && e();
+          h = () => _(F.CLOSE),
+          g = (u, e) => {
+            u.keyCode === l.n.ESCAPE && e();
           };
-        var p = t(572);
-        const v = a.instance,
-          f = {
+        var w = t(572);
+        const p = a.instance,
+          v = {
             DataTracker: E.Z,
-            ViewModel: p.Z,
+            ViewModel: w.Z,
             ViewEventType: F,
             NumberFormatType: i,
             RealFormatType: D,
             TimeFormatType: o,
             DateFormatType: s,
-            makeGlobalBoundingBox: m,
-            sendMoveEvent: (u) => h(F.MOVE, { isMouseEvent: !0, on: u }),
-            sendCloseEvent: g,
-            sendClosePopOverEvent: () => h(F.POP_OVER, { on: !1 }),
+            makeGlobalBoundingBox: d,
+            sendMoveEvent: (u) => _(F.MOVE, { isMouseEvent: !0, on: u }),
+            sendCloseEvent: h,
+            sendClosePopOverEvent: () => _(F.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (u, e, t = 0) => {
-              h(F.CONTEXT_MENU, {
+              _(F.CONTEXT_MENU, {
                 isMouseEvent: !0,
                 contentID: u,
                 on: !0,
@@ -674,41 +679,41 @@
               });
             },
             sendShowPopOverEvent: (u, e, t, r, a = R.invalid("resId"), E) => {
-              const A = C.O.view.getViewGlobalPosition(),
+              const A = B.O.view.getViewGlobalPosition(),
                 n = t.getBoundingClientRect(),
                 i = n.x,
                 D = n.y,
                 o = n.width,
                 s = n.height,
                 l = {
-                  x: C.O.view.pxToRem(i) + A.x,
-                  y: C.O.view.pxToRem(D) + A.y,
-                  width: C.O.view.pxToRem(o),
-                  height: C.O.view.pxToRem(s),
+                  x: B.O.view.pxToRem(i) + A.x,
+                  y: B.O.view.pxToRem(D) + A.y,
+                  width: B.O.view.pxToRem(o),
+                  height: B.O.view.pxToRem(s),
                 };
-              h(F.POP_OVER, {
+              _(F.POP_OVER, {
                 isMouseEvent: !0,
                 contentID: u,
                 decoratorID: r || R.invalid("resId"),
                 targetID: a,
                 direction: e,
-                bbox: m(l),
+                bbox: d(l),
                 on: !0,
                 args: E,
               });
             },
             addEscapeListener: (u) => {
-              const e = (e) => w(e, u);
+              const e = (e) => g(e, u);
               return (
                 window.addEventListener("keydown", e),
                 () => window.removeEventListener("keydown", e)
               );
             },
             closeOnEsc: (u) => {
-              w(u, g);
+              g(u, h);
             },
-            handleViewEvent: h,
-            onBindingsReady: _,
+            handleViewEvent: _,
+            onBindingsReady: m,
             onLayoutReady: () =>
               new Promise((u) => {
                 requestAnimationFrame(() => {
@@ -737,11 +742,11 @@
                 }
               return t;
             },
-            ClickOutsideManager: v,
+            ClickOutsideManager: p,
             SystemLocale: A,
             UserLocale: n,
           };
-        window.ViewEnvHelper = f;
+        window.ViewEnvHelper = v;
       },
       696: (u, e, t) => {
         "use strict";
@@ -1488,7 +1493,7 @@
             (u.YEAR = "year"),
             (u.DATE_YEAR = "date-year"));
         })(iu || (iu = {}));
-        var Du = t(596);
+        var Du = t(364);
         Date.now();
         const ou = (u, e, t) => {
             switch (e) {

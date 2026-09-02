@@ -149,10 +149,13 @@ class ClickManager(CGF.ComponentManager):
         return
 
     def _onMouseUp(self):
-        clickQuery = CGF.Query(self.spaceID, (CGF.GameObject, IsHoveredComponent, SelectionComponent, CGF.No(IsExternalHoveredComponent)))
-        for go, _, selectionComponent in clickQuery:
-            if self._selectedGO == go:
-                _logger.info(b'ClickManager::Clicked')
-                selectionComponent.onClickAction()
+        if self._hangarSpace.space is None:
+            return
+        else:
+            clickQuery = CGF.Query(self.spaceID, (CGF.GameObject, IsHoveredComponent, SelectionComponent, CGF.No(IsExternalHoveredComponent)))
+            for go, _, selectionComponent in clickQuery:
+                if self._selectedGO == go:
+                    _logger.info(b'ClickManager::Clicked')
+                    selectionComponent.onClickAction()
 
-        return
+            return

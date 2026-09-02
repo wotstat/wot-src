@@ -4,7 +4,6 @@ from gui.shared.gui_items import GUI_ITEM_TYPE
 from items.components.c11n_constants import CustomizationType
 from items.customizations import PaintComponent, CamouflageComponent, DecalComponent, ProjectionDecalComponent, InsigniaComponent, PersonalNumberComponent, SequenceComponent, AttachmentComponent
 from items.vehicles import makeIntCompactDescrByID, getItemByCompactDescr
-from soft_exception import SoftException
 from constants import IS_EDITOR
 
 def pickPacker(itemTypeID):
@@ -247,7 +246,7 @@ class ProjectionDecalPacker(CustomizationPacker):
                 slotIdx = regions.index(subcomp.slotId)
                 slot.set(intCD, slotIdx, component=subcomp)
             else:
-                raise SoftException((b'Wrong slotId for current outfit (slotID: {}, intCD: {})').format(subcomp.slotId, intCD))
+                LOG_WARNING(b'Skipping projection decal with invalid slotId', (b'slotID={}').format(subcomp.slotId), (b'decalID={}').format(subcomp.id), (b'intCD={}').format(intCD), (b'availableRegions={}').format(regions))
 
         return
 

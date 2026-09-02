@@ -921,8 +921,8 @@
 		</customization>
 		<hangarShadowTexture>vehicles/french/F142_Projet_Louis_FL10_90/F142_Projet_Louis_FL10_90_HangarShadowMap.dds</hangarShadowTexture>
 		<camouflage>
-			<density>99.1096878 98.4203339</density>
-			<aoTextureSize>1024 512</aoTextureSize>
+			<density>113.063942 112.656525</density>
+			<aoTextureSize>1024 1024</aoTextureSize>
 		</camouflage>
 	</hull>
 	<chassis>
@@ -2787,7 +2787,7 @@
 					<edgeByVisualModel>false</edgeByVisualModel>
 					<effects>shot_main_mb</effects>
 					<camouflage>
-						<density>117.295067 120.377045</density>
+						<density>117.857643 121.18248</density>
 						<aoTextureSize>1024 512</aoTextureSize>
 					</camouflage>
 				</_90mm_F3_F142>
@@ -2965,7 +2965,7 @@
 			<wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
 			<physicsShape>1.404 -0.334 1.044 0 0.753 0.567 0.688 0.762 0.193 0.647 0.114 0.251 0.366 0 0</physicsShape>
 			<camouflage>
-				<density>99.1096878 98.4203339</density>
+				<density>99.2051849 98.5858536</density>
 				<aoTextureSize>1024 512</aoTextureSize>
 			</camouflage>
 		</Turret_1_F142_Projet_Louis_FL10_90>

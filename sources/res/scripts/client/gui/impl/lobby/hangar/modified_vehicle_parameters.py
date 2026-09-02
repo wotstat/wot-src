@@ -1,4 +1,4 @@
-import copy
+import collections, copy
 from battle_modifiers_common import ModifiersContext
 from constants import BonusTypes, PenaltyTypes
 from gui.impl.lobby.hangar.modified_vehicle import g_modifiedVehicle
@@ -18,24 +18,43 @@ def _simpleValueDiff(value, originalValue):
     return value - originalValue
 
 
+def _simpleArrayDiff(value, originalValue):
+    return [left - right for left, right in zip(value, originalValue)]
+
+
 def _visionRadiusCalcDiff(value, originalValue):
     if isinstance(value, tuple):
         return tuple([val - original for val, original in zip(value, originalValue)])
     return value - originalValue
 
 
-_SUPPORTED_MODIFIERS = {b'visionRadius': (
-                   b'circularVisionRadius', _visionRadiusCalcDiff), 
-   b'radioDistance': (
-                    b'radioDistance', _simpleValueDiff), 
-   b'vehicleHealth': (
-                    b'maxHealth', _simpleValueDiff), 
-   b'thermalVisionDistance': (
-                            b'thermalVisionDistance', _simpleValueDiff), 
-   b'reloadTime': (
-                 b'reloadTime', _simpleValueDiff), 
-   b'autoreloadTime': (
-                     b'autoreloadTime', _simpleValueDiff)}
+_SUPPORTED_MODIFIERS = {b'visionRadius': [
+                   (
+                    b'circularVisionRadius', _visionRadiusCalcDiff)], 
+   b'radioDistance': [
+                    (
+                     b'radioDistance', _simpleValueDiff)], 
+   b'vehicleHealth': [
+                    (
+                     b'maxHealth', _simpleValueDiff)], 
+   b'thermalVisionDistance': [
+                            (
+                             b'thermalVisionDistance', _simpleValueDiff)], 
+   b'reloadTime': [
+                 (
+                  b'reloadTime', _simpleValueDiff)], 
+   b'autoreloadTime': [
+                     (
+                      b'autoreloadTime', _simpleValueDiff)], 
+   b'enginePower': [
+                  (
+                   b'enginePower', _simpleValueDiff), (b'enginePowerPerTon', _simpleArrayDiff)], 
+   b'fwMaxSpeed': [
+                 (
+                  b'speedLimits', _simpleArrayDiff)], 
+   b'bkMaxSpeed': [
+                 (
+                  b'speedLimits', _simpleArrayDiff)]}
 
 @dependency.replace_none_kwargs(battleModifiersController=IBattleModifiersController)
 def appendBattleModifiersPenalties(penalties, modifiedParams, originalParams, battleModifiersController=None):
@@ -43,15 +62,17 @@ def appendBattleModifiersPenalties(penalties, modifiedParams, originalParams, ba
     if modifiers is not None:
         for _, modifier in modifiers:
             if modifier.gameplayImpact == 2 and modifier.param.name in _SUPPORTED_MODIFIERS:
-                paramName, calcDiff = _SUPPORTED_MODIFIERS.get(modifier.param.name)
-                if paramName not in modifiedParams or paramName not in originalParams:
-                    continue
-                section = penalties.get(paramName, [])
-                value = modifiedParams[paramName]
-                originalValue = originalParams[paramName]
-                diff = calcDiff(value, originalValue)
-                section.append(_PenaltyInfo(battleModifiersController.getCurrentDomain(), diff, False, PenaltyTypes.BATTLE_MODIFIERS))
-                penalties[paramName] = section
+                for paramName, calcDiff in _SUPPORTED_MODIFIERS[modifier.param.name]:
+                    if paramName not in modifiedParams or paramName not in originalParams:
+                        continue
+                    section = penalties.get(paramName, [])
+                    value = modifiedParams[paramName]
+                    originalValue = originalParams[paramName]
+                    diff = calcDiff(value, originalValue)
+                    if isinstance(diff, collections.Iterable) and not any(diff) or diff == 0:
+                        continue
+                    section.append(_PenaltyInfo(battleModifiersController.getCurrentDomain(), diff, False, PenaltyTypes.BATTLE_MODIFIERS))
+                    penalties[paramName] = section
 
     return
 

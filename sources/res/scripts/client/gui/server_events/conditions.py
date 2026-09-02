@@ -16,7 +16,7 @@ from gui.shared.utils.requesters.ItemsRequester import RESEARCH_CRITERIA
 from helpers import i18n, dependency, getLocalizedData
 from items import vehicles
 from shared_utils import CONST_CONTAINER
-from skeletons.gui.game_control import IIGRController, IWotPlusController, IWinbackController
+from skeletons.gui.game_control import IIGRController, IWotPlusController, IWinbackController, IWhiteTigerController
 from skeletons.gui.server_events import IEventsCache
 from skeletons.gui.shared import IItemsCache
 from soft_exception import SoftException
@@ -74,6 +74,8 @@ def _handleRelation(relation, source, toCompare):
         return source < toCompare
     if relation == _RELATIONS.LSQ:
         return source <= toCompare
+    if relation == _RELATIONS.NEQ:
+        return source != toCompare
     LOG_WARNING(b'Unknown kind of values relation', relation, source, toCompare)
     return False
 
@@ -851,6 +853,29 @@ class XPMultipliedVehicle(_VehicleRequirement):
         return (vehicle.dailyXPFactor == -1) == self._needValue
 
 
+class WtTicketRequired(_VehicleRequirement):
+    __wtController = dependency.descriptor(IWhiteTigerController)
+
+    def __init__(self, path, data):
+        super(WtTicketRequired, self).__init__(b'wtTicketRequired', dict(data), path)
+        self._needValue = True
+        return
+
+    def __repr__(self):
+        return b'%s<value=%r>' % (self.__class__.__name__, self._needValue)
+
+    def negate(self):
+        self._needValue = not self._needValue
+        return
+
+    def isAvailableReason(self, vehicle):
+        return (
+         self._isAvailable(vehicle), b'ticketsShortage')
+
+    def getValue(self):
+        return self._needValue
+
+
 class InstalledItemCondition(_VehicleRequirement):
 
     def __init__(self, path, itemType, data, customData):
@@ -1588,7 +1613,7 @@ class CumulativeResult(Cumulativable):
         return self._key
 
     def __getLabelString(self):
-        param = i18n.makeString(b'#quests:details/conditions/cumulative/%s' % self._key)
+        param = backport.text(R.strings.quests.details.conditions.cumulative.dyn(self._key)())
         if self._isUnit:
             label = b'#quests:details/conditions/cumulative/%s' % self._unitName
         else:

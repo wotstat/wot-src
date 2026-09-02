@@ -14,7 +14,7 @@ class ChapterType(Enum):
 class BattlePassInProgressTooltipViewModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=15, commands=0):
+    def __init__(self, properties=14, commands=0):
         super(BattlePassInProgressTooltipViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -120,13 +120,6 @@ class BattlePassInProgressTooltipViewModel(ViewModel):
         self._setNumber(13, value)
         return
 
-    def getIconPostfix(self):
-        return self._getString(14)
-
-    def setIconPostfix(self, value):
-        self._setString(14, value)
-        return
-
     def _initialize(self):
         super(BattlePassInProgressTooltipViewModel, self)._initialize()
         self._addViewModelProperty(b'rewardPoints', UserListModel())
@@ -143,5 +136,4 @@ class BattlePassInProgressTooltipViewModel(ViewModel):
         self._addNumberProperty(b'notChosenRewardCount', 0)
         self._addStringProperty(b'chapterType')
         self._addNumberProperty(b'expireTime', 0)
-        self._addStringProperty(b'iconPostfix', b'')
         return

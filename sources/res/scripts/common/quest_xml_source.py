@@ -499,7 +499,12 @@ class Source(object):
                b'isNotLeaver': (self.__readCondition_true), 
                b'isFirstBlood': (self.__readConditionComplex_true), 
                b'winAloneAgainstVehicleCount': (self.__readCondition_int), 
-               b'enemyClans': (self.__readBattleResultsConditionList)})
+               b'enemyClans': (self.__readBattleResultsConditionList), 
+               b'maxWtPlasmaBonus': (self.__readCondition_int), 
+               b'wtBossVulnerableDamage': (self.__readCondition_int), 
+               b'wtGeneratorsCaptured': (self.__readCondition_int), 
+               b'wtTotalGeneratorsCaptured': (self.__readCondition_int), 
+               b'wtDeathCount': (self.__readCondition_int)})
         if eventType in (EVENT_TYPE.BATTLE_QUEST, EVENT_TYPE.PERSONAL_QUEST):
             condition_readers.update({b'red': (self.__readListOfInts), 
                b'silver': (self.__readListOfInts), 

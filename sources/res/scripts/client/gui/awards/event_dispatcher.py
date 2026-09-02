@@ -12,11 +12,6 @@ def showClanJoinAward(clanAbbrev, clanName, clanDbID):
     return
 
 
-def showTelecomAward(vehicleDesrs, bundleID, hasCrew, hasBrotherhood):
-    showAwardWindow(specialAwards.TelecomAward(vehicleDesrs, bundleID, hasCrew, hasBrotherhood))
-    return
-
-
 def showRecruiterAward():
     showAwardWindow(specialAwards.RecruiterAward())
     return

@@ -1755,6 +1755,7 @@ class MENU(object):
     CONTEXTMENU_REMOVECONTACTNOTE = b'#menu:contextMenu/removeContactNote'
     CONTEXTMENU_BOTNOACTIONS = b'#menu:contextMenu/botNoActions'
     CONTEXTMENU_VEHICLEPOSTPROGRESSION = b'#menu:contextMenu/vehiclePostProgression'
+    CONTEXTMENU_TELECOMABOUT = b'#menu:contextMenu/telecomAbout'
     CONTEXTMENU_COMPARE = b'#menu:contextMenu/compare'
     CONTEXTMENU_USERVEHICLECOMPARE = b'#menu:contextMenu/userVehicleCompare'
     CONTEXTMENU_PROFILEVEHICLECOMPARE = b'#menu:contextMenu/profileVehicleCompare'
@@ -1853,6 +1854,8 @@ class MENU(object):
     BONUSTYPE_43 = b'#menu:bonusType/43'
     BONUSTYPE_44 = b'#menu:bonusType/44'
     BONUSTYPE_50 = b'#menu:bonusType/50'
+    BONUSTYPE_52 = b'#menu:bonusType/52'
+    BONUSTYPE_53 = b'#menu:bonusType/53'
     FORTIFICATIONCTX_ASSIGNEDPLAYERS = b'#menu:fortificationCtx/assignedPlayers'
     FORTIFICATIONCTX_PREPAREORDER = b'#menu:fortificationCtx/prepareOrder'
     FORTIFICATIONCTX_CLANDESCRIPTION_OPENCLANCARD = b'#menu:fortificationCtx/clanDescription/openClanCard'
@@ -2384,6 +2387,7 @@ class MENU(object):
     CONTEXTMENU_CREWWIDGETCHANGESPECIALIZATION = b'#menu:contextMenu/crewWidgetChangeSpecialization'
     LOADING_BATTLETYPES_300 = b'#menu:loading/battleTypes/300'
     LOADING_BATTLETYPES_DESC_300 = b'#menu:loading/battleTypes/desc/300'
+    HEADERBUTTON_MUSEUM = b'#menu:headerButton/museum'
     CONTEXTMENU_ENUM = (
      CONTEXTMENU_EXCHANGE,
      CONTEXTMENU_VEHICLEINFO,
@@ -2474,6 +2478,7 @@ class MENU(object):
      CONTEXTMENU_REMOVECONTACTNOTE,
      CONTEXTMENU_BOTNOACTIONS,
      CONTEXTMENU_VEHICLEPOSTPROGRESSION,
+     CONTEXTMENU_TELECOMABOUT,
      CONTEXTMENU_COMPARE,
      CONTEXTMENU_USERVEHICLECOMPARE,
      CONTEXTMENU_PROFILEVEHICLECOMPARE,

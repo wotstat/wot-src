@@ -107,8 +107,8 @@
               I = void 0 === O ? (k ? "wrap" : void 0) : O,
               H = e.grow,
               U = e.shrink,
-              $ = e.flex,
-              W = void 0 === $ ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : $,
+              W = e.flex,
+              $ = void 0 === W ? (H || U ? `${H ? 1 : 0} ${U ? 1 : 0} auto` : void 0) : W,
               G = e.style,
               V = e.children,
               z = (function (e, t) {
@@ -136,7 +136,7 @@
                   computedStyle: Object.assign({}, G, n, {
                     width: void 0 !== u && "number" == typeof u ? u + "rem" : u,
                     height: void 0 !== a && "number" == typeof a ? a + "rem" : a,
-                    flex: W,
+                    flex: $,
                     alignSelf: M,
                     display: f || N ? "flex" : void 0,
                     flexDirection: f,
@@ -146,7 +146,7 @@
                   }),
                   computedClassNames: t,
                 };
-              }, [u, a, o, p, h, C, G, W, M, f, I, y, N]),
+              }, [u, a, o, p, h, C, G, $, M, f, I, y, N]),
               X = j.computedStyle,
               q = j.computedClassNames;
             return l().createElement(
@@ -502,7 +502,14 @@
               (e.DogTagType = "dogTagComponents"),
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
-              (e.RewardsSlots = "rewardsSlots"));
+              (e.RewardsSlots = "rewardsSlots"),
+              (e.WtStamp = "stamp"),
+              (e.WtHunter = "wt_hunter"),
+              (e.WtBoss = "wt_boss"),
+              (e.WtHunterCollection = "hunter_collection"),
+              (e.WtTicket = "wtevent_ticket"),
+              (e.WtMainPrizeDiscount = "main_prize_discount"),
+              (e.WtTicket25 = "wtevent_ticket25"));
           })(a || (a = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -650,6 +657,11 @@
             s.E4.PremiumPlusUniversal,
             s.E4.GoldenTicket,
             s.E4.RewardsSlots,
+            s.E4.WtStamp,
+            s.E4.WtTicket,
+            s.E4.WtMainPrizeDiscount,
+            s.E4.WtHunter,
+            s.E4.WtHunterCollection,
           ],
           i = [s.E4.Gold, s.E4.Credits, s.E4.Crystal, s.E4.FreeXp],
           l = [s.E4.BattlePassPoints],
@@ -2135,7 +2147,7 @@
         var n = {};
         (u.r(n),
           u.d(n, {
-            Area: () => $n,
+            Area: () => Wn,
             Bar: () => In,
             Default: () => Un,
             useVerticalScrollApi: () => bn,
@@ -2494,8 +2506,8 @@
               createWebView: e.createCallbackNoArgs("createWebView"),
             }),
           ),
-          $ = U[0],
-          W = U[1],
+          W = U[0],
+          $ = U[1],
           G = (e) => {
             (0, s.useEffect)(e, []);
           };
@@ -3073,7 +3085,7 @@
               _ = e.onMouseWheel,
               g = e.onMouseDown,
               A = e.onMouseUp,
-              p = W(),
+              p = $(),
               D = p.model,
               h = p.controls,
               F = D.root.get(),
@@ -3172,7 +3184,7 @@
                 return n;
               })(e, Oe);
             return o().createElement(
-              $,
+              W,
               { options: t, mocks: u, mode: a },
               o().createElement(ke, n),
             );
@@ -3209,9 +3221,9 @@
             "soundClick",
             "soundHover",
           ];
-        function $e() {
+        function We() {
           return (
-            ($e =
+            (We =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -3220,10 +3232,10 @@
                 }
                 return e;
               }),
-            $e.apply(this, arguments)
+            We.apply(this, arguments)
           );
         }
-        class We extends o().PureComponent {
+        class $e extends o().PureComponent {
           constructor(...e) {
             (super(...e),
               (this.state = { hover: !1, click: !1 }),
@@ -3277,7 +3289,7 @@
               D = l()(He.goto, null == s ? void 0 : s.goto);
             return o().createElement(
               "div",
-              $e(
+              We(
                 {
                   className: _,
                   onMouseEnter: this._onMouseEnter(i),
@@ -3302,7 +3314,7 @@
           }
         }
         let Ge, Ve;
-        ((We.defaultProps = {
+        (($e.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
@@ -3789,9 +3801,9 @@
           "onBlur",
           "type",
         ];
-        function $t() {
+        function Wt() {
           return (
-            ($t =
+            (Wt =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -3800,10 +3812,10 @@
                 }
                 return e;
               }),
-            $t.apply(this, arguments)
+            Wt.apply(this, arguments)
           );
         }
-        const Wt = {
+        const $t = {
             [It.PREVIEW]: "R.images.gui.maps.icons.library.previewVehicle",
             [It.COMPARE]: "R.images.gui.maps.icons.library.compareVehicle",
           },
@@ -3892,13 +3904,13 @@
                 },
                 [A, c],
               ),
-              $ = (0, s.useCallback)(
+              W = (0, s.useCallback)(
                 (e) => {
                   (S(!1), P(!1), p && p(e));
                 },
                 [p],
               ),
-              W = (0, s.useCallback)(
+              $ = (0, s.useCallback)(
                 (e) => {
                   (T(!0), F && F(e));
                 },
@@ -3920,23 +3932,23 @@
               z = l()(Ot.icon, Ot[`icon__${_}`]);
             return o().createElement(
               "div",
-              $t(
+              Wt(
                 {
                   ref: N,
                   className: V,
                   onClick: O,
                   onMouseEnter: U,
-                  onMouseLeave: $,
+                  onMouseLeave: W,
                   onMouseDown: I,
                   onMouseUp: H,
-                  onFocus: W,
+                  onFocus: $,
                   onBlur: G,
                 },
                 b,
               ),
               o().createElement("div", {
                 className: z,
-                style: { backgroundImage: `url(${Wt[v]})` },
+                style: { backgroundImage: `url(${$t[v]})` },
               }),
               o().createElement("div", { className: Ot.label }, t),
             );
@@ -4606,8 +4618,8 @@
           Iu = "LevelsRewards_header_46",
           Hu = "LevelsRewards_base__disabled_87",
           Uu = "LevelsRewards_rewards_c6",
-          $u = "LevelsRewards_scrollArea_22",
-          Wu = "LevelsRewards_column_4f",
+          Wu = "LevelsRewards_scrollArea_22",
+          $u = "LevelsRewards_column_4f",
           Gu = "LevelsRewards_column__completed_88",
           Vu = "LevelsRewards_column__active_9b",
           zu = "LevelsRewards_progressBarContainer_b4",
@@ -5009,8 +5021,8 @@
           Ia = "RewardsHeader_level__current_a3",
           Ha = "RewardsHeader_numeral_3a",
           Ua = "RewardsHeader_numeral__disabled_1b",
-          $a = "RewardsHeader_particlesLine_36",
-          Wa = "RewardsHeader_particlesLine__left_b1",
+          Wa = "RewardsHeader_particlesLine_36",
+          $a = "RewardsHeader_particlesLine__left_b1",
           Ga = "RewardsHeader_particlesLine__active_45",
           Va = (0, s.memo)(
             ({
@@ -5035,8 +5047,8 @@
                 o().createElement(
                   "div",
                   { className: Ma },
-                  o().createElement("div", { className: l()($a, Wa, n && Ga) }),
-                  a && o().createElement("div", { className: l()($a, r && Ga) }),
+                  o().createElement("div", { className: l()(Wa, $a, n && Ga) }),
+                  a && o().createElement("div", { className: l()(Wa, r && Ga) }),
                   o().createElement(
                     "div",
                     { className: d },
@@ -5067,7 +5079,7 @@
                 { className: l()(Ou, (n || !c) && Hu) },
                 o().createElement(
                   "div",
-                  { className: $u },
+                  { className: Wu },
                   o().createElement(
                     "div",
                     { className: zu },
@@ -5100,7 +5112,7 @@
                         C = e === _ && !a.isCompleted && g;
                       return o().createElement(
                         "div",
-                        { key: `level_${r}`, className: l()(Wu, a.isCompleted && Gu, E && Vu) },
+                        { key: `level_${r}`, className: l()($u, a.isCompleted && Gu, E && Vu) },
                         o().createElement(
                           "div",
                           { className: Iu },
@@ -6073,12 +6085,12 @@
               o().createElement(
                 "div",
                 { className: l()(Hn.area, n) },
-                o().createElement($n, { className: r, classNames: i, api: E }, e),
+                o().createElement(Wn, { className: r, classNames: i, api: E }, e),
               ),
               o().createElement(In, { getStepByRailClick: c, api: t, onDrag: m, classNames: d }),
             );
           },
-          $n = ({ className: e, classNames: t, children: u, api: a }) => (
+          Wn = ({ className: e, classNames: t, children: u, api: a }) => (
             (0, s.useEffect)(() => xe(a.recalculateContent)),
             o().createElement(
               "div",
@@ -6090,8 +6102,8 @@
               ),
             )
           );
-        $n.Default = Un;
-        const Wn = { Vertical: n, Horizontal: a },
+        Wn.Default = Un;
+        const $n = { Vertical: n, Horizontal: a },
           Gn = { type: "idle" };
         const Vn = "AnnouncementChapter_base_fd",
           zn = "AnnouncementChapter_base__hover_2c",
@@ -6604,7 +6616,7 @@
                   "div",
                   { className: Tr },
                   o().createElement(
-                    Wn.Horizontal.Area.Default,
+                    $n.Horizontal.Area.Default,
                     {
                       api: a,
                       className: Nr,
@@ -6629,9 +6641,9 @@
             );
           }),
           Ur = "SeasonsView_base_89",
-          $r = "SeasonsView_headerWrapper_b2",
-          Wr = R.strings.paragons,
-          Gr = Wr.seasonsProgression,
+          Wr = "SeasonsView_headerWrapper_b2",
+          $r = R.strings.paragons,
+          Gr = $r.seasonsProgression,
           Vr = (0, V.Pi)(() => {
             const e = tt(),
               t = e.model,
@@ -6646,9 +6658,9 @@
               { className: Ur },
               o().createElement(
                 "div",
-                { className: $r },
+                { className: Wr },
                 o().createElement(Ze.h, {
-                  topTitle: Wr.project.name(),
+                  topTitle: $r.project.name(),
                   mainTitle: Gr.title.projectStages(),
                   subtitle: i,
                 }),
@@ -6758,7 +6770,7 @@
                 o().createElement(
                   "div",
                   { className: l()(rt, st) },
-                  o().createElement(We, {
+                  o().createElement($e, {
                     caption: jr.button.back(),
                     side: "left",
                     type: "back",
@@ -6770,7 +6782,7 @@
                   o().createElement(
                     "div",
                     { className: l()(rt, ot) },
-                    o().createElement(We, {
+                    o().createElement($e, {
                       caption: jr.button.close(),
                       side: "right",
                       type: "close",
@@ -7089,37 +7101,41 @@
       },
       7104: (e, t, u) => {
         "use strict";
-        u.d(t, { N: () => l });
-        var a = u(7613),
-          n = u(6179),
-          r = u.n(n),
-          s = u(8998);
-        const o = "DateTimer_base_55",
-          i = "DateTimer_timeBg_2d",
-          l = (0, n.memo)(({ text: e, timeStamp: t, showBg: u = !1, mixClass: n }) => {
-            const l = (0, s._3)(t),
-              c = l.day,
-              m = l.month,
-              d = l.hours,
-              E = l.min;
-            return r().createElement(
-              "div",
-              { className: o },
-              u && r().createElement("div", { className: i }),
-              r().createElement(a.ZP, {
-                text: e,
-                className: n,
-                format: {
-                  binding: {
-                    day: c,
-                    month: R.strings.menu.dateTime.months.$num(m + 1),
-                    hours: d,
-                    minutes: E,
+        u.d(t, { N: () => m });
+        var a = u(6483),
+          n = u.n(a),
+          r = u(7613),
+          s = u(6179),
+          o = u.n(s),
+          i = u(8998);
+        const l = "DateTimer_base_55",
+          c = "DateTimer_timeBg_2d",
+          m = (0, s.memo)(
+            ({ text: e, timeStamp: t, showBg: u = !1, mixClass: a, classNames: s }) => {
+              const m = (0, i._3)(t),
+                d = m.day,
+                E = m.month,
+                _ = m.hours,
+                g = m.min;
+              return o().createElement(
+                "div",
+                { className: n()(l, null == s ? void 0 : s.base) },
+                u && o().createElement("div", { className: c }),
+                o().createElement(r.ZP, {
+                  text: e,
+                  className: a,
+                  format: {
+                    binding: {
+                      day: d,
+                      month: R.strings.menu.dateTime.months.$num(E + 1),
+                      hours: _,
+                      minutes: g,
+                    },
                   },
-                },
-              }),
-            );
-          });
+                }),
+              );
+            },
+          );
       },
       1685: (e, t, u) => {
         "use strict";

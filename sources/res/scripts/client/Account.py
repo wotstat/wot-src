@@ -53,7 +53,8 @@ from skeletons.gui.shared.utils import IHangarSpace
 from soft_exception import SoftException
 from streamIDs import RangeStreamIDCallbacks, STREAM_ID_CHAT_MAX, STREAM_ID_CHAT_MIN
 from shared_utils.account_helpers.diff_utils import synchronizeDicts
-StreamData = namedtuple(b'StreamData', [56, 57, 58, 59, 60, 61])
+from account_helpers.white_tiger import WhiteTiger
+StreamData = namedtuple(b'StreamData', [57, 58, 59, 60, 61, 62])
 StreamData.__new__.__defaults__ = (
  None,) * len(StreamData._fields)
 _logger = logging.getLogger(__name__)
@@ -197,6 +198,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
         self.paragons = g_accountRepository.paragons
         self.comp7Storage = g_accountRepository.comp7Storage
         self.stall = g_accountRepository.stall
+        self.whiteTiger = g_accountRepository.whiteTiger
         self.customFilesCache = g_accountRepository.customFilesCache
         self.commandProxy = g_accountRepository.commandProxy
         self.syncData.setAccount(self)
@@ -1375,6 +1377,7 @@ class PlayerAccount(BigWorld.Entity, ClientChat):
             self.referralProgram.synchronize(isFullSync, diff)
             self.comp7Storage.synchronize(isFullSync, diff)
             self.paragons.synchronize(isFullSync, diff)
+            self.whiteTiger.synchronize(isFullSync, diff)
             self._synchronizeServerSettings(diff)
             self._synchronizeDisabledPersonalMissions(diff)
             self._synchronizeEventNotifications(diff)
@@ -1642,6 +1645,7 @@ class _AccountRepository(object):
         self.freePremiumCrew = {}
         self.referralProgram = ReferralProgram(self.syncData)
         self.comp7Storage = Comp7Storage(self.syncData)
+        self.whiteTiger = WhiteTiger()
         self.gMap = ClientGlobalMap()
         self.onTokenReceived = Event.Event()
         self.requestID = AccountCommands.REQUEST_ID_UNRESERVED_MIN
@@ -1663,6 +1667,7 @@ def delAccountRepository():
         g_accountRepository.prebattleInvitations.clear()
         g_accountRepository.paragons.clear()
         g_accountRepository.comp7Storage.clear()
+        g_accountRepository.whiteTiger.clear()
         g_accountRepository = None
         return
 

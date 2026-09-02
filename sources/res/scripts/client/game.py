@@ -301,7 +301,6 @@ def onStreamComplete(streamID, desc, data):
 
 def onConnected():
     gui_personality.onConnected()
-    VOIP.getVOIPManager().onConnected()
     gameLoading.getLoader().onConnected()
     return
 
@@ -323,7 +322,6 @@ def onDisconnected():
     BigWorld.loginEntered()
     gui_personality.onDisconnected()
     VOIP.getVOIPManager().logout()
-    VOIP.getVOIPManager().onDisconnected()
     gameLoading.getLoader().onDisconnected()
     return
 

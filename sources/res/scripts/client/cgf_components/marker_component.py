@@ -1,4 +1,4 @@
-import logging
+import logging, typing
 from collections import defaultdict
 import CGF, GUI, GenericComponents, Math
 from GenericComponents import TransformComponent
@@ -11,6 +11,7 @@ from constants import IS_CLIENT
 from frameworks.wulf import ViewStatus
 from gui.impl.gen import R
 from helpers import dependency
+from helpers.i18n import makeString
 from gui.shared import events, EVENT_BUS_SCOPE, g_eventBus
 from skeletons.gui.impl import IGuiLoader
 if IS_CLIENT:
@@ -24,7 +25,21 @@ else:
         pass
 
 
+if typing.TYPE_CHECKING:
+    from gui.Scaleform.framework.entities import BaseDAAPIComponent
+    from gui.Scaleform.daapi.view.lobby.lobby_vehicle_marker_view import LobbyVehicleMarkerView
 _logger = logging.getLogger(__name__)
+
+class MarkerType(object):
+    CUSTOM = b'custom'
+    MUSEUM_OF_GLORY = b'MuseumOfGlory'
+
+
+def _createCustomMarker(lobbyView, markerId, component):
+    return lobbyView.as_createCustomMarkerS(markerId, component.icon.replace(b'gui', b'..'), makeString(component.textKey), component.iconPosition)
+
+
+MARKER_CREATORS = {(MarkerType.CUSTOM): _createCustomMarker}
 
 @registerComponent
 class LobbyFlashMarker(object):
@@ -32,6 +47,8 @@ class LobbyFlashMarker(object):
     icon = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'marker icon', value=b'gui/maps/icons/marathon/marker/video.png', annotations={b'path': b'*.png'})
     textKey = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'marker text key', value=b'#marathon:3dObject/showVideo')
     iconPosition = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'icon position', value=b'')
+    createType = ComponentProperty(type=CGFMetaTypes.STRING, editorName=b'creation method type', value=MarkerType.CUSTOM, annotations={b'comboBox': {(MarkerType.CUSTOM): (MarkerType.CUSTOM), 
+                     (MarkerType.MUSEUM_OF_GLORY): (MarkerType.MUSEUM_OF_GLORY)}})
 
     def __init__(self, icon=None, textKey=None, iconPosition=None):
         super(LobbyFlashMarker, self).__init__()
@@ -42,6 +59,9 @@ class LobbyFlashMarker(object):
         if iconPosition is not None:
             self.iconPosition = iconPosition
         return
+
+    def __call__(self, *args, **kwargs):
+        return MARKER_CREATORS[self.createType](*args, **kwargs)
 
 
 @registerComponent
@@ -87,7 +107,7 @@ class LobbyMarkersManager(CGF.ComponentManager):
         g_eventBus.removeListener(events.LobbyMarkersManagerEvent.ON_MARKER_REQUEST, self.__onMarkerRequested, EVENT_BUS_SCOPE.LOBBY)
         return
 
-    @onAddedQuery(CGF.GameObject, LobbyFlashMarker, TransformComponent)
+    @onAddedQuery(CGF.GameObject, LobbyFlashMarker, TransformComponent, tickGroup=b'postHierarchyUpdate')
     def handleMarkerAdded(self, gameObject, flashMarkerComponent, transformComponent):
         matrix = transformComponent.worldTransform
         g_eventBus.handleEvent(events.LobbyMarkersManagerEvent(events.LobbyMarkersManagerEvent.ON_MARKER_ADDED, ctx=_getMarkerData(gameObject.id, flashMarkerComponent, matrix)), scope=EVENT_BUS_SCOPE.LOBBY)

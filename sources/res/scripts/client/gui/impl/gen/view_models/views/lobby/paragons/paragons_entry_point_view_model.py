@@ -13,7 +13,7 @@ class ProgressState(Enum):
 class ParagonsEntryPointViewModel(ViewModel):
     __slots__ = (b'onEntryPointClick',)
 
-    def __init__(self, properties=5, commands=1):
+    def __init__(self, properties=6, commands=1):
         super(ParagonsEntryPointViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -53,6 +53,13 @@ class ParagonsEntryPointViewModel(ViewModel):
         self._setNumber(4, value)
         return
 
+    def getCloseoutTimeStamp(self):
+        return self._getNumber(5)
+
+    def setCloseoutTimeStamp(self, value):
+        self._setNumber(5, value)
+        return
+
     def _initialize(self):
         super(ParagonsEntryPointViewModel, self)._initialize()
         self._addViewModelProperty(b'currentChapter', ChapterModel())
@@ -60,5 +67,6 @@ class ParagonsEntryPointViewModel(ViewModel):
         self._addBoolProperty(b'isAnySelectableRewardInInventory', False)
         self._addStringProperty(b'progressState', ProgressState.ACTIVE.value)
         self._addNumberProperty(b'freePoints', 0)
+        self._addNumberProperty(b'closeoutTimeStamp', 0)
         self.onEntryPointClick = self._addCommand(b'onEntryPointClick')
         return

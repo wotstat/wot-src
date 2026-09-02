@@ -1,6 +1,12 @@
 msgid ""
 msgstr "Project-Id-Version: Mir tankov\nPO-Revision-Date: \nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
+msgid "decorator/style2D"
+msgstr "2D-стиль «%(value)s»"
+
+msgid "decorator/style3D"
+msgstr "3D-стиль «%(value)s»"
+
 msgid "error/button"
 msgstr "Так точно!"
 
@@ -69,6 +75,9 @@ msgstr "Оборудование: Мобильность и Разведка"
 
 msgid "tabs/items/new_device_pm3"
 msgstr "Штатное\nоборудование"
+
+msgid "tabs/items/style"
+msgstr "Кастомизация"
 
 msgid "tabs/items/trophy"
 msgstr "Трофейное оборудование"

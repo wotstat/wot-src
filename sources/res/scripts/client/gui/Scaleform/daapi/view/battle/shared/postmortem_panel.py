@@ -29,7 +29,6 @@ if typing.TYPE_CHECKING:
     from typing import Iterable, Optional
 _logger = logging.getLogger(__name__)
 _POSTMORTEM_PANEL_SETTINGS_PATH = b'gui/postmortem_panel.xml'
-_VEHICLE_SMALL_ICON_RES_PATH = b'../maps/icons/vehicle/small/{0}.png'
 _BR_VEHICLE_SMALL_ICON_RES_PATH = b'../maps/icons/battleRoyale/vehicles/{0}.png'
 _ATTACK_REASON_CODE_TO_MSG = {(ATTACK_REASON_INDICES[b'shot']): b'DEATH_FROM_SHOT', 
    (ATTACK_REASON_INDICES[b'fire']): b'DEATH_FROM_FIRE', 
@@ -50,11 +49,11 @@ _ATTACK_REASON_CODE_TO_MSG = {(ATTACK_REASON_INDICES[b'shot']): b'DEATH_FROM_SHO
    (ATTACK_REASON_INDICES[ATTACK_REASON.CORRODING_SHOT]): b'DEATH_FROM_CORRODING_SHOT', 
    (ATTACK_REASON_INDICES[ATTACK_REASON.CLING_BRANDER]): b'DEATH_FROM_CLING_BRANDER'}
 _ALLOWED_EQUIPMENT_DEATH_CODES = [
+ 54, 
  55, 
  56, 
  57, 
- 58, 
- 59]
+ 58]
 
 class _ENTITIES_POSTFIX(object):
     UNKNOWN = b'_UNKNOWN'
@@ -311,6 +310,8 @@ class PostmortemPanel(_SummaryPostmortemPanel):
 
     def __onPostMortemSwitched(self, noRespawnPossible, respawnAvailable):
         self.__isInPostmortem = True
+        if respawnAvailable and self._hasBonusCap(ARENA_BONUS_TYPE_CAPS.WHITE_TIGER):
+            self.as_hideComponentsS()
         self._updateVehicleInfo()
         return
 
@@ -368,7 +369,7 @@ class PostmortemPanel(_SummaryPostmortemPanel):
         if vTypeInfoVO.isOnlyForBattleRoyaleBattles:
             vehImg = _BR_VEHICLE_SMALL_ICON_RES_PATH.format(iconName)
         else:
-            vehImg = _VEHICLE_SMALL_ICON_RES_PATH.format(iconName)
+            vehImg = backport.image(R.images.gui.maps.icons.vehicle.small.dyn(Vehicle.getIconResourceName(iconName))())
         if vehLvl is None:
             vehLvl = None if vTypeInfoVO.isOnlyForBattleRoyaleBattles else int2roman(vTypeInfoVO.level)
         vehName = vehName or vTypeInfoVO.shortNameWithPrefix

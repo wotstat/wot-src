@@ -1157,8 +1157,8 @@
               o = n.mediaSize;
             return a().createElement("div", f({ className: g()(t, T[s], M[i], y[o]) }, r), e);
           },
-          O = ["children"];
-        const P = (u) => {
+          P = ["children"];
+        const O = (u) => {
           let e = u.children,
             t = (function (u, e) {
               if (null == u) return {};
@@ -1168,7 +1168,7 @@
                 n = Object.keys(u);
               for (r = 0; r < n.length; r++) ((t = n[r]), e.indexOf(t) >= 0 || (a[t] = u[t]));
               return a;
-            })(u, O);
+            })(u, P);
           return a().createElement(B, null, a().createElement(L, t, e));
         };
         var k = t(493),
@@ -1222,7 +1222,7 @@
             G.apply(this, arguments)
           );
         }
-        class $ extends a().PureComponent {
+        class W extends a().PureComponent {
           constructor(...u) {
             (super(...u),
               (this.state = { hover: !1, click: !1 }),
@@ -1300,20 +1300,20 @@
             );
           }
         }
-        $.defaultProps = {
+        W.defaultProps = {
           side: "left",
           type: "back",
           soundHover: "highlight",
           soundClick: "play",
         };
-        var W = t(521),
+        var $ = t(521),
           X = t(364);
         const q = (u) => {
           console.error(u.type + ": useKeydownListener hook :: Callback is not defined");
         };
-        function j(u = W.n.NONE, e = q, t = !1) {
+        function j(u = $.n.NONE, e = q, t = !1) {
           (0, r.useEffect)(() => {
-            if (u !== W.n.NONE)
+            if (u !== $.n.NONE)
               return (
                 window.addEventListener("keydown", r, t),
                 () => {
@@ -1396,7 +1396,14 @@
             (u.DogTagType = "dogTagComponents"),
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
-            (u.RewardsSlots = "rewardsSlots"));
+            (u.RewardsSlots = "rewardsSlots"),
+            (u.WtStamp = "stamp"),
+            (u.WtHunter = "wt_hunter"),
+            (u.WtBoss = "wt_boss"),
+            (u.WtHunterCollection = "hunter_collection"),
+            (u.WtTicket = "wtevent_ticket"),
+            (u.WtMainPrizeDiscount = "main_prize_discount"),
+            (u.WtTicket25 = "wtevent_ticket25"));
         })(Q || (Q = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1589,6 +1596,11 @@
             Q.PremiumPlusUniversal,
             Q.GoldenTicket,
             Q.RewardsSlots,
+            Q.WtStamp,
+            Q.WtTicket,
+            Q.WtMainPrizeDiscount,
+            Q.WtHunter,
+            Q.WtHunterCollection,
           ],
           Fu = [Q.Gold, Q.Credits, Q.Crystal, Q.FreeXp],
           Du = [Q.BattlePassPoints],
@@ -1946,7 +1958,7 @@
             });
             var t;
           },
-          Ou = ((u, e) => {
+          Pu = ((u, e) => {
             const t = (0, r.createContext)({});
             return [
               function ({ mode: n = "real", options: i, children: o, mocks: l }) {
@@ -2165,15 +2177,15 @@
               showVehicleInHangar: u.createCallbackNoArgs("onShowVehicleInHangar"),
             }),
           ),
-          Pu = Ou[0],
-          ku = Ou[1],
+          Ou = Pu[0],
+          ku = Pu[1],
           Nu = "Content_base_a1",
           Iu = "Content_ribbon_e7",
           Hu = "Content_ribbon__onlyRegular_c7",
           Uu = "Content_ribbon__elite_ee",
           Gu = "Content_mainRewards_5d",
-          $u = "Content_glow_70",
-          Wu = "Content_glow2_3b",
+          Wu = "Content_glow_70",
+          $u = "Content_glow2_3b",
           Xu = "Content_regularRewards_6d",
           qu = "Content_regularRewards__onlyRegular_c1",
           ju = [
@@ -2790,9 +2802,9 @@
               M = u.flexWrap,
               y = void 0 === M ? (T ? "wrap" : void 0) : M,
               L = u.grow,
-              O = u.shrink,
-              P = u.flex,
-              k = void 0 === P ? (L || O ? `${L ? 1 : 0} ${O ? 1 : 0} auto` : void 0) : P,
+              P = u.shrink,
+              O = u.flex,
+              k = void 0 === O ? (L || P ? `${L ? 1 : 0} ${P ? 1 : 0} auto` : void 0) : O,
               N = u.style,
               I = u.children,
               H = (function (u, e) {
@@ -2832,10 +2844,10 @@
                 };
               }, [t, n, o, E, A, m, N, k, R, B, y, S, f]),
               G = U.computedStyle,
-              $ = U.computedClassNames;
+              W = U.computedClassNames;
             return a().createElement(
               "div",
-              De({ className: g()(me.base, ...$, e), style: G }, H),
+              De({ className: g()(me.base, ...W, e), style: G }, H),
               I,
             );
           }),
@@ -2968,7 +2980,7 @@
               "paragraph-P12": Me,
               "paragraph-P10": Me,
             }),
-          Oe =
+          Pe =
             (Object.keys(Le),
             (u) =>
               u
@@ -2976,7 +2988,7 @@
                   ? { colorClassName: xe[u] }
                   : { colorStyle: { color: u } }
                 : {}),
-          Pe = _e((u) => {
+          Oe = _e((u) => {
             let e = u.text,
               t = u.variant,
               n = u.className,
@@ -3002,7 +3014,7 @@
                 return a;
               })(u, Se);
             const C = (0, r.useMemo)(() => {
-                const u = Oe(s),
+                const u = Pe(s),
                   e = u.colorClassName,
                   t = u.colorStyle,
                   r = void 0 === t ? {} : t;
@@ -3064,11 +3076,11 @@
                 se,
                 Ue({}, u, { image: r, size: t, className: Ne, classNames: { info: Ie } }),
               ),
-              a().createElement(Pe, { className: He, text: u.label }),
+              a().createElement(Oe, { className: He, text: u.label }),
             );
           }),
-          $e = "RewardList_base_46",
-          We = "RewardList_reward_e4";
+          We = "RewardList_base_46",
+          $e = "RewardList_reward_e4";
         function Xe() {
           return (
             (Xe =
@@ -3099,12 +3111,12 @@
             const c = pu({}, R.views.lobby.tooltips.AdditionalRewardsTooltip("resId"));
             return a().createElement(
               "div",
-              { className: $e },
+              { className: We },
               s.map((u, e) =>
                 a().createElement(
                   ke,
                   { key: e, index: e, delay: t },
-                  a().createElement(se, Xe({}, u, { image: u.image(r), size: r, className: We })),
+                  a().createElement(se, Xe({}, u, { image: u.image(r), size: r, className: $e })),
                 ),
               ),
               n &&
@@ -3117,7 +3129,7 @@
                     size: r,
                     value: o,
                     tooltipArgs: c,
-                    className: We,
+                    className: $e,
                   }),
                 ),
             );
@@ -3175,14 +3187,14 @@
                       a().createElement(
                         "div",
                         { className: Ze },
-                        a().createElement(Pe, { className: Je, text: Ye(e) }),
+                        a().createElement(Oe, { className: Je, text: Ye(e) }),
                         a().createElement("div", {
                           style: {
                             backgroundImage: `url(R.images.gui.maps.icons.vehicleTypes.c_60x54.${xu(t)}${r && "_elite"})`,
                           },
                           className: g()(ut, r && et),
                         }),
-                        a().createElement(Pe, { className: Je, text: u }),
+                        a().createElement(Oe, { className: Je, text: u }),
                       ),
                     ),
                   ),
@@ -3249,8 +3261,8 @@
                 a().createElement(
                   a().Fragment,
                   null,
-                  a().createElement("div", { className: $u }),
                   a().createElement("div", { className: Wu }),
+                  a().createElement("div", { className: $u }),
                 ),
               r &&
                 a().createElement(
@@ -3369,13 +3381,13 @@
               },
               [s, _],
             ),
-            O = (0, r.useCallback)(
+            P = (0, r.useCallback)(
               (u) => {
                 s || (null !== l && I(l), A && A(u), t && w(), b(!0));
               },
               [s, l, A, w, t],
             ),
-            P = (0, r.useCallback)(
+            O = (0, r.useCallback)(
               (u) => {
                 s || (m && m(u), b(!1));
               },
@@ -3415,8 +3427,8 @@
                 onMouseEnter: M,
                 onMouseMove: y,
                 onMouseUp: L,
-                onMouseDown: O,
-                onMouseLeave: P,
+                onMouseDown: P,
+                onMouseLeave: O,
                 onClick: T,
               },
               n !== ot.ghost &&
@@ -3459,13 +3471,13 @@
               a().createElement(
                 ct,
                 { mixClass: g()(_t, u && mt), type: ot.primary, size: lt.medium, onClick: e },
-                a().createElement(Pe, { text: Ft.buttonText() }),
+                a().createElement(Oe, { text: Ft.buttonText() }),
               ),
               u &&
                 a().createElement(
                   ct,
                   { mixClass: _t, type: ot.secondary, size: lt.medium, onClick: t },
-                  a().createElement(Pe, { text: Ft.previewButtonText() }),
+                  a().createElement(Oe, { text: Ft.previewButtonText() }),
                 ),
             ),
           ),
@@ -3476,7 +3488,7 @@
             a().createElement(
               "div",
               { className: dt },
-              a().createElement(Pe, {
+              a().createElement(Oe, {
                 className: Bt,
                 text: u ? Ct.titleHoney() : Ct.titleGeneral(),
               }),
@@ -3496,7 +3508,7 @@
               i = e.computes.getIsVehicleInRewards(),
               o = e.computes.getIsOnlyVehicleReward();
             !(function ({
-              key: u = W.n.ESCAPE,
+              key: u = $.n.ESCAPE,
               callback: e = () => s.O.view.sendEvent.close(),
               preventPropagation: t = !0,
             } = {}) {
@@ -3522,7 +3534,7 @@
                   a().createElement(gt, { isVehicle: o }),
                 ),
                 a().createElement("div", { className: vt }, a().createElement(st, null)),
-                a().createElement($, {
+                a().createElement(W, {
                   caption: R.strings.event.summerSales.reward.header.closeButtonText(),
                   type: "close",
                   side: "right",
@@ -3543,7 +3555,7 @@
           });
         engine.whenReady.then(() => {
           N().render(
-            a().createElement(Pu, null, a().createElement(P, null, a().createElement(wt, null))),
+            a().createElement(Ou, null, a().createElement(O, null, a().createElement(wt, null))),
             document.getElementById("root"),
           );
         });

@@ -1,0 +1,11 @@
+class WHITE_TIGER_BATTLE_NOTIFICATIONS_TIMER_LINKAGES(object):
+    WT_COUNTER_TIMER_UI = b'WTCounterTimerUI'
+    WT_HYPERION_WARNING_ICON = b'destroyTimerWtHyperionUI'
+    WT_HYPERION_WARNING_2025_ICON = b'destroyTimerWtHyperion2025UI'
+    WT_ANOMALY_ICON = b'destroyTimerWtAnomalyUI'
+    WT_STUN_AREA_ICON = b'secondaryWTStunAreaIconUI'
+    WT_STUN_ICON = b'secondaryWTStunIconUI'
+    WT_ENERGY_SHIELD_ICON = b'secondaryWTEnergyShieldIconUI'
+    WT_ENEMY_SMOKE_ICON = b'secondaryWTEnemySmokeIconUI'
+    WT_SCOUT_ICON = b'secondaryWTScoutIconUI'
+    WT_STATIC_SHIELD_ICON = b'secondaryWTStaticShieldIconUI'

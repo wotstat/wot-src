@@ -263,6 +263,12 @@ class BaseParagonsStorage(object):
     def addSelectedReward(self, chapterID, levelID, entCode, bonusCD):
         return
 
+    def dropSelectedRewardByBonusCD(self, bonusCD):
+        return
+
+    def selectedRewardsCount(self):
+        return 0
+
     @staticmethod
     def makeDefaultStorage():
         return {b'resetVehicles': {}, b'resetBranches': {}, b'paragonsUnlocks': (set()), 

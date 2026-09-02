@@ -11,7 +11,7 @@ class BattleStatus(Enum):
 class BattleQuestAwardsModel(ViewModel):
     __slots__ = (b'onApprove', b'onClose')
 
-    def __init__(self, properties=4, commands=2):
+    def __init__(self, properties=3, commands=2):
         super(BattleQuestAwardsModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -22,25 +22,18 @@ class BattleQuestAwardsModel(ViewModel):
         self._setString(0, value.value)
         return
 
-    def getIconPostfix(self):
-        return self._getString(1)
-
-    def setIconPostfix(self, value):
-        self._setString(1, value)
-        return
-
     def getLevel(self):
-        return self._getNumber(2)
+        return self._getNumber(1)
 
     def setLevel(self, value):
-        self._setNumber(2, value)
+        self._setNumber(1, value)
         return
 
     def getRewards(self):
-        return self._getArray(3)
+        return self._getArray(2)
 
     def setRewards(self, value):
-        self._setArray(3, value)
+        self._setArray(2, value)
         return
 
     @staticmethod
@@ -50,7 +43,6 @@ class BattleQuestAwardsModel(ViewModel):
     def _initialize(self):
         super(BattleQuestAwardsModel, self)._initialize()
         self._addStringProperty(b'battleStatus')
-        self._addStringProperty(b'iconPostfix', b'')
         self._addNumberProperty(b'level', 0)
         self._addArrayProperty(b'rewards', Array())
         self.onApprove = self._addCommand(b'onApprove')

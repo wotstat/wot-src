@@ -537,6 +537,7 @@ class ItemsRequester(IItemsRequester):
         self.__brokenSyncAlreadyLoggedTypes = set()
         self.__fittingItemRequesters = {
          self.__inventory, self.__stats, self.__shop, self.__vehicleRotation, self.__recycleBin}
+        self.__ignoreFittingItemsSync = False
         self.__vehCustomStateCache = defaultdict(dict)
         return
 
@@ -755,6 +756,7 @@ class ItemsRequester(IItemsRequester):
         self.__anonymizer.clear()
         self.__giftSystem.clear()
         self.__gameRestrictions.clear()
+        self.__ignoreFittingItemsSync = True
         return
 
     def onDisconnected(self):
@@ -767,6 +769,7 @@ class ItemsRequester(IItemsRequester):
 
     def invalidateCache(self, diff=None):
         invalidate = defaultdict(set)
+        self.__ignoreFittingItemsSync = False
         if diff is None:
             LOG_DEBUG(b'Gui items cache full invalidation')
             for itemTypeID, cache in self.__itemsCache.iteritems():
@@ -1367,6 +1370,8 @@ class ItemsRequester(IItemsRequester):
             return set()
 
     def __checkFittingItemsSync(self, itemTypeID):
+        if self.__ignoreFittingItemsSync:
+            return
         unsyncedList = [r.__class__.__name__ for r in self.__fittingItemRequesters if not r.isSynced()]
         if not unsyncedList or itemTypeID in self.__brokenSyncAlreadyLoggedTypes:
             return

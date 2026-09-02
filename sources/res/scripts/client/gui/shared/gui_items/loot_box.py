@@ -41,7 +41,7 @@ class EventCategories(CONST_CONTAINER):
 class WTLootBoxes(CONST_CONTAINER):
     WT_HUNTER = b'wt_hunter'
     WT_BOSS = b'wt_boss'
-    WT_SPECIAL = b'wt_special'
+    WT_TANK = b'wt_tank'
 
 
 class LunarNYLootBoxTypes(Enum):
@@ -113,13 +113,14 @@ def addBonusesToGroup(bonusGroup, bonuses):
 
 
 class LootBox(GUIItem):
-    __slots__ = (b'__id', b'__invCount', b'__type', b'__category', b'__historyName', b'__guaranteedFrequency', b'__slotBonuses', b'__guaranteedFrequencyName', b'__tier', b'__isEnabled', b'__userNameKey', b'__iconName', b'__description', b'__videoKey', b'__weight', b'__bonusGroups', b'__autoOpenTime', b'__rotationLists', b'__config', b'__rotationStage', b'__tags', b'__unlockKeys', b'__manualMaxOpenCount', b'__lootBoxInfoPageURL', b'__lootBoxShopURL', b'__isStatCollected', b'__immediatelyOpen')
+    __slots__ = (b'__id', b'__invCount', b'__type', b'__category', b'__historyName', b'__guaranteedFrequency', b'__slotBonuses', b'__guaranteedFrequencyName', b'__tier', b'__isEnabled', b'__userNameKey', b'__iconName', b'__description', b'__videoKey', b'__weight', b'__bonusGroups', b'__autoOpenTime', b'__rotationLists', b'__config', b'__rotationStage', b'__tags', b'__unlockKeys', b'__manualMaxOpenCount', b'__lootBoxInfoPageURL', b'__lootBoxShopURL', b'__isStatCollected', b'__immediatelyOpen', b'__customBonusData')
 
     def __init__(self, lootBoxID, lootBoxConfig, invCount):
         super(LootBox, self).__init__()
         self.__id = lootBoxID
         self.__invCount = invCount
         self.__rotationStage = 0
+        self.__customBonusData = {}
         self.__updateByConfig(lootBoxConfig)
         return
 
@@ -327,6 +328,9 @@ class LootBox(GUIItem):
     def _getRotationStage(self):
         return self.__rotationStage
 
+    def getCustomBonusData(self):
+        return self.__customBonusData
+
     def isMultipleStage(self):
         return len(self.__rotationLists) > 1
 
@@ -352,6 +356,7 @@ class LootBox(GUIItem):
         self.__tier = LootBoxTiers(lootBoxConfig.get(b'tier', 1))
         self.__historyName = lootBoxConfig.get(b'historyName', b'')
         self.__config = lootBoxConfig.get(b'config', {})
+        self.__customBonusData = lootBoxConfig.get(b'customBonusData', {})
         self.__rotationLists = []
         if self.hasLootLists():
             self.__rotationLists, self.__slotBonuses = parseBonusSection(lootBoxConfig[b'bonus'], self.__config[b'rotationLevelCount'])

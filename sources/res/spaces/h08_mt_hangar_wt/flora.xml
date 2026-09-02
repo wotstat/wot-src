@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<speedgrass>
+		<slopeMin>0.00</slopeMin>
+		<slopeMax>30.00</slopeMax>
+		<sizeLimit>0.00</sizeLimit>
+		<oscillationFreqMin>1.0</oscillationFreqMin>
+		<oscillationFreqMax>6.0</oscillationFreqMax>
+		<fadeFloraHeight>true</fadeFloraHeight>
+		<population>
+			<name>Outland_trees_spruce</name>
+			<slopeMin>0.00</slopeMin>
+			<slopeMax>30.00</slopeMax>
+			<enableSlopeMin>true</enableSlopeMin>
+			<sizeLimit>0.00</sizeLimit>
+			<enableSizeLimit>true</enableSizeLimit>
+			<tileType>maps/landscape/00_All_Outland_Tiles/Grass_Lawn_Green_21_02.dds</tileType>
+			<grassType>
+				<name>bb_tree_conifers_spruce_claster_C</name>
+				<tintWeight>0.00 0.00</tintWeight>
+				<waving>0.00 0.00 0.00 0.00</waving>
+				<slopeMin>0.00</slopeMin>
+				<slopeMax>30.00</slopeMax>
+				<enableSlopeMin>true</enableSlopeMin>
+				<sniperModeBhvr>3</sniperModeBhvr>
+				<scaleFromMap>0 1.00 1.00</scaleFromMap>
+				<sizeLimit>0.00</sizeLimit>
+				<enableSizeLimit>true</enableSizeLimit>
+				<oscillation>0.5 0.5</oscillation>
+				<unique_random_seed>true</unique_random_seed>
+				<layer>
+					<name>bb_tree_conifers_spruce_claster_C_lod0</name>
+					<comment>comment</comment>
+					<model>vegetation/Outland/bb_tree_conifers/bb_tree_conifers_spruce_claster_C_lod0.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0010</densityMin>
+					<density>0.0000</density>
+					<scale>1.50</scale>
+					<scaleDeviation>0.10</scaleDeviation>
+					<fadeout>0.00</fadeout>
+					<range>1100.00</range>
+					<startat>0.00</startat>
+					<seed>0</seed>
+					<alignToSurface>false</alignToSurface>
+					<tintWeight>0.00 0.00</tintWeight>
+					<waving>0.00 0.00 0.00 0.00</waving>
+					<scaleFromMap>0 1.00 1.00</scaleFromMap>
+					<sizeLimit>0.00</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+			</grassType>
+		</population>
+		<population>
+			<name>Outland_buildings_Big</name>
+			<slopeMin>0.00</slopeMin>
+			<slopeMax>30.00</slopeMax>
+			<enableSlopeMin>true</enableSlopeMin>
+			<sizeLimit>0.00</sizeLimit>
+			<enableSizeLimit>true</enableSizeLimit>
+			<tileType>maps/landscape/00_All_Outland_Tiles/AsphaltNew_01_AM.dds</tileType>
+			<grassType>
+				<name>hd_out_SU_004_01</name>
+				<tintWeight>0.00 0.00</tintWeight>
+				<waving>0.00 0.00 0.00 0.00</waving>
+				<slopeMin>0.00</slopeMin>
+				<slopeMax>30.00</slopeMax>
+				<enableSlopeMin>true</enableSlopeMin>
+				<sniperModeBhvr>0</sniperModeBhvr>
+				<scaleFromMap>1 0.90 0.90</scaleFromMap>
+				<sizeLimit>0.00</sizeLimit>
+				<enableSizeLimit>true</enableSizeLimit>
+				<oscillation>0.5 0.5</oscillation>
+				<unique_random_seed>true</unique_random_seed>
+				<layer>
+					<name>hd_out_SU_004_01.srt</name>
+					<comment>comment</comment>
+					<model>vegetation/Outland/hd_out_SU_004/hd_out_SU_004_01.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0003</densityMin>
+					<density>0.0000</density>
+					<scale>1.20</scale>
+					<scaleDeviation>0.50</scaleDeviation>
+					<fadeout>0.00</fadeout>
+					<range>900.00</range>
+					<startat>0.00</startat>
+					<seed>1</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.00 0.00</tintWeight>
+					<waving>0.00 0.00 0.00 0.00</waving>
+					<rotation>0.00 0.00</rotation>
+					<scaleFromMap>1 0.90 0.90</scaleFromMap>
+					<sizeLimit>0.07</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+			</grassType>
+			<grassType>
+				<name>hd_out_SU_004_02</name>
+				<tintWeight>0.00 0.00</tintWeight>
+				<waving>0.00 0.00 0.00 0.00</waving>
+				<slopeMin>0.00</slopeMin>
+				<slopeMax>30.00</slopeMax>
+				<enableSlopeMin>true</enableSlopeMin>
+				<sniperModeBhvr>0</sniperModeBhvr>
+				<scaleFromMap>1 1.40 1.70</scaleFromMap>
+				<sizeLimit>0.00</sizeLimit>
+				<enableSizeLimit>true</enableSizeLimit>
+				<oscillation>0.5 0.5</oscillation>
+				<unique_random_seed>true</unique_random_seed>
+				<layer>
+					<name>hd_out_SU_004_02</name>
+					<comment>comment</comment>
+					<model>vegetation/Outland/hd_out_SU_004/hd_out_SU_004_02.srt</model>
+					<castShadow>false</castShadow>
+					<densityMin>0.0002</densityMin>
+					<density>0.0003</density>
+					<scale>0.50</scale>
+					<scaleDeviation>0.17</scaleDeviation>
+					<fadeout>0.00</fadeout>
+					<range>900.00</range>
+					<startat>0.00</startat>
+					<seed>2</seed>
+					<alignToSurface>true</alignToSurface>
+					<tintWeight>0.00 0.00</tintWeight>
+					<waving>0.00 0.00 0.00 0.00</waving>
+					<rotation>0.50 0.50</rotation>
+					<scaleFromMap>1 1.40 1.70</scaleFromMap>
+					<sizeLimit>0.00</sizeLimit>
+					<enableSizeLimit>true</enableSizeLimit>
+				</layer>
+			</grassType>
+		</population>
+	</speedgrass>
+	<tintMap>trees_tint_map.dds</tintMap>
+	<scaleMap>flora_scale_map.dds</scaleMap>
+</root>

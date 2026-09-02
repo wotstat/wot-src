@@ -12,9 +12,7 @@ class HintPriority(object):
     HELP = 3
     MAPBOX = 4
     DEV_MAPS = 4
-    BATTLE_COMMUNICATION = 5
     QUESTS = 6
-    RESERVES = 7
     RADAR = 8
     SIEGE = 9
 
@@ -26,7 +24,6 @@ class HelpHintContext(object):
     MAPBOX = b'mapbox'
     DEV_MAPS = b'devMaps'
     BATTLE_ROYALE = b'battleRoyale'
-    COMMANDER_CAMERA = b'commanderCamera'
 
 
 HintData = namedtuple(b'HintData', (b'vKey', b'key', b'messageLeft', b'messageRight', b'offsetX', b'offsetY', b'priority', b'reducedPanning', b'hintCtx', b'centeredMessage'))

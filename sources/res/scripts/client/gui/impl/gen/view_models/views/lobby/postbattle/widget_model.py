@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.common.missions.bonuses.bonus_model import BonusModel
+
+class WidgetModel(BonusModel):
+    __slots__ = ()
+
+    def __init__(self, properties=8, commands=0):
+        super(WidgetModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsActionDisabled(self):
+        return self._getBool(7)
+
+    def setIsActionDisabled(self, value):
+        self._setBool(7, value)
+        return
+
+    def _initialize(self):
+        super(WidgetModel, self)._initialize()
+        self._addBoolProperty(b'isActionDisabled', False)
+        return
