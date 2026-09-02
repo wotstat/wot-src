@@ -40,6 +40,9 @@ msgstr "Cercetare"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Recuperează"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Spre Cutiile mari"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Nu s-a cercetat un vehicul din linia %(nation)s de generația %(level)s."
 
@@ -54,6 +57,15 @@ msgstr "Reducere la achiziție:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Reducere la cercetare:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Acest vehicul poate apărea din {{@ style (color $color)}}Cutii mari!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Cutii mari!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Acest vehicul poate apărea din"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Aplică un cupon de reduceri: %(value)s"

@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "på kjøretøyets helsepoeng"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "bedre dreiningshastighet på tårn eller kanon for kjøretøy med stasjonære kabiner"
+msgstr "på kanonens dreiningshastighet"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "på tårnets dreiningshastighet"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "på kjøretøyets helsepoeng"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "bedre dreiningshastighet på tårn eller kanon for kjøretøy med stasjonære kabiner"
+msgstr "på kanonens dreiningshastighet"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "på tårnets dreiningshastighet"
@@ -2100,6 +2100,51 @@ msgstr " og "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Kjøretøyets modus for ekstern ammunisjonstilførsel tillater bruk av granater med større skadepotensiale."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Basisverdier i standardmodus."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Modifiserte verdier i modusen for ekstern ammunisjonstilførsel."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Basisparametere for skudd med full ladning"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametere for skudd med enkeltladning"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Basisparametere for skudd med full ladning"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Basis"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametere for skudd med enkeltladning"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "I kalibrert modus er denne typen granat effektiv mot skrånet pansring."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Kjøretøyets kanon har spesielle innretninger som gjør det mulig å endre visse granatparametere før avfyring."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "I standardmodus er denne typen granat effektiv mot pansring uten skjermer."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standardmodus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrert modus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "I kalibrert modus kan denne typen granater penetrere skjermer."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "I standardmodus er denne typen granat effektiv mot vertikal pansring."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardutstyr fra %(spec)s kategorien blir mer effektiv hvis den monteres i denne plassholderen. Utstyr fra andre kategorier gir kun standard bonus."

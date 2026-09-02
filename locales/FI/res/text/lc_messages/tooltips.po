@@ -6052,6 +6052,18 @@ msgstr "Direktiivi ei toimi, koska olet ylittänyt kuuden pätevyyden per päät
 msgid "moduleFits/wrong_slot/body"
 msgstr "Moduuli on jo asennettu toiseen paikkaan."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Todennäköisyys kriittisen vahingon aiheuttamisesta vihollisen moduuleille ja/tai miehistölle."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Määrä, jonka ammuksen osumakulma pienenee osuessaan vihollisen panssariin."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Määrä läpäisytehoa, jonka ammus menettää jokaista 100 mm kohti osuessaan vihollisen lisäsuojaan."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Kulma, jossa ammus automaattisesti kimpoaa vihollisen panssarista."
+
 msgid "multiselection/alert/body"
 msgstr "Valitse vaunut: voit liittyä taisteluun vain täydellä ryhmällä."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Taistelupassi: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin tunsi nykyisen tehtävänsä autiot suola-aavikot kuin omat yhtä lailla sään pieksämät kätensä. Epävakaa ympäristö ei ollut hänelle mitään uutta; hän oli ansainnut kannuksensa erikoistumalla kemiallisen sodankäynnin torjuntaan kauan ennen kuin oli koskaan noussut panssarivaunun kyytiin. Kaksikymmentä vuotta myöhemmin hän huomasi olevansa enää vain muutaman päivän vaelluksen päässä laboratoriokompleksista, jossa hän oli aloittanut sotilasuransa nuorempana teknikkona. Aika ja koettelemukset eivät väistä ketään, mutta kuten Vadim miehistölleen vitsaili, hänen kotiuttamisestaan ei ollut koskaan tehty tarvittavia paperitöitä. Niinpä hän oli täällä jäädäkseen, kunnes joku tekisi ne asianmukaisesti."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bryn Powellin lapsuuden vehreät laaksot olivat kaukana niistä armottomista oloista, joihin hän sittemmin tutustui. Hänen viimeisin käskynjakonsa oli huomattavan niukkasanainen ja ilmaukset kuten ”tunnistamaton kemiallinen aine” ja ”kuoleman vaara: äärimmäinen” saisivat monet komentajat rukoilemaan siirtoa muihin tehtäviin. Mutta Bryn piti itsesuojeluvaistoa aina ihailtavana ominaisuutena vain muissa. Luonnostaan rämäpäisenä hänellä olisi voinut olla loistava ura stunt-miehenä, jos hän olisi koskaan tuntenut siihen vetoa. Tosin eroa hommien välillä oli vaikea tehdä, kun hänet laittoi panssarivaunun ohjaksiin."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora oli järkähtämätön komentaja. Epävakaiden seutujen rauhanturvaoperaatioiden veteraanina hän oli oppinut pitämään hermonsa kurissa paineen kasvaessa. Olipa hän sitten uupumuksen äärirajoilla pitkän yöpartion jälkeen tai tulkitsi yhä huolestuttavampia tiedustelutietoja tuntemattomasta aineesta, jota hänen miehistönsä oli lähetetty paljastamaan, hänen malttinsa ei koskaan pettänyt. Hän piti moraalia yllä vitseillä, jotka tasapainoilivat kepeyden ja mustan huumorin rajalla, eikä hän suostunut luopumaan pilkkeestä silmäkulmassaan tai askeltensa keveydestä."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Mikään ei jäänyt Sandrine Oussetilta huomaamatta. Ennen värväytymistään salakähmäiseen panssaritiedustelutehtävään hän oli ansioitunut tarkka-ampuja ja hänen haukankatseensa kantoi kiväärin tähtäintä pidemmälle. Näytä hänelle sekava katkelma tiedustelutietoa ja hän kykeni tekemään päätelmiä niin johdonmukaisen tarkasti, että jopa hänen oma miehistönsä luuli häntä aluksi selvännäkijäksi. Hänen komennossaan salaisuudet harvoin pysyivät haudattuina pitkään. Hänen ryhmänsä onneksi hän kohdisti armottoman huomionsa tuntemattoman aineen alkuperään, jota heidät oli lähetetty tutkimaan."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Ihmiset kyselevät jatkuvasti tunnenko Jack Reedin. Vastatessani vedän yleensä syvään henkeä ja suljen silmäni hetkeksi. Hänen komentajanaan oleminen ei ole ruusuilla tanssimista. Reed on kapinallinen, joka ihmeen kaupalla onnistuu seuraamaan käskyjä ja pysyttelemään sotilaselämän asettamien rajojen sisällä. Juuri nyt hän on loukussa tulikuumassa vaunussa. Mutta omissa ajatuksissaan hän painaa kaasua kiitäessään pitkin Route 66:tta tuulen tuivertaessa hänen hiuksissaan."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "\"Sektori 3\" kampanja"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Berniläisten kelloseppien perheessä kasvanut Stefan peri ammatin, joka vaati hiljaisuutta, kärsivällisyyttä ja täydellistä kontrollia. Mutta hänen kohdallaan nuo ominaisuudet määrittelisivät hyvin toisenlaista uraa. Vuonna 1940 Britannian tiedustelu antoi hänelle valinnan: puolueeton Sveitsi rajan toisella puolella, hän toisella. Alppien solissa hänestä kasvoi vakoiluvälineiden mekaanikosta tarkka-ampujaksi. Sodan jälkeen hän jatkoi tätä työtä ja eliminoi heitä, jotka olivat paenneet oikeutta väärien nimien suojiin. Stefan työskenteli aina yksin ja jälkiä jättämättä ja tekee niin yhä: kukaan Sektori 3:ssa ei ole koskaan nähnyt hänen kasvojaan."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "\"Sektori 3\" kampanja"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s - oletusammus valitulle tykille. Käytetään laskettaessa tyki
 msgid "shell/basic/description/bold"
 msgstr "Oletusammus"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Vaunun ulkoisen ammussyötön tila mahdollistaa enemmän vahinkoa tekevien ammusten käytön."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Tavallinen"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Muokattu:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Erikoismekaniikka vaunun tykille mahdollistaa ennenaikaisen ampumisen ammusten muuttuneilla parametreilla."
 
@@ -10866,6 +10932,21 @@ msgstr "Perus:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Muuttuneet:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Edistynyt sytyttimen asetin kasvattaa keskimääräistä vahinkoa tai läpäisyä."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Säädettävä:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Vaunun tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin ominaisuuksien muokkaamisen ennen ampumista."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Tavallinen"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibroitu"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Näytä/piilota pienoiskartalta alue, jolle vihollisen telatykit ampuvat."
@@ -11028,6 +11109,12 @@ msgstr "Äänenlaadun laskeminen voi parantaa yleistä pelin suorituskykyä heik
 
 msgid "soundQualityOn/header"
 msgstr "Matalalaatuinen ääni"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Keskimääräinen vahinko{{/}} kasvaa vihollisvaunun läpäisseen osuman jälkeen."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Keskimääräinen läpäisy{{/}} kasvaa vihollisvaunuun osuneen läpäisemättömän osuman jälkeen."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Premium-vaunuissa miehistön jäseniä koulutetaan 50% nopeammin:"
@@ -11386,6 +11473,36 @@ msgstr "Paranneltu automaattinen latausjärjestelmä lyhentää tavanomaista aut
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Aika rummun viimeisen ammuksen laukaisemisen ja uuden rummun (tai molempien tykkien) lataamisen välillä. / Tykkien tai lippaan ammusten määrä."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Aika, joka korvaa jäljellä olevan latausajan, kun mekanismia käytetään."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Aika, joka yhden latauksen kerryttäminen vie, jos lipas on täysi."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Aika, joka yhden latauksen kerryttäminen vie, jos lipas ei ole täysi."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Saatavilla olevien latausten määrä taistelun alkaessa."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Kerralla hallussa olevien ammusten lataamista nopeuttavien latausten maksimimäärä."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Raketinheittimen ammuksen keskimäärin aiheuttama vahinko panssarin läpäisseen osuman jälkeen. Vahingon potentiaalinen hajonta on +/- 25% keskimääräisestä arvosta."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Hajonta, joka kuvaa ammuksen maksimaalisen poikkeaman tähtäyspisteestä 100 m päässä vaunusta."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Raketin keskimäärin läpäisemän panssarin paksuus. Hajonta on +/- 25% keskimääräisestä arvosta."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Raketinheittimen lataamiseen kuluva aika"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Määrittää raketin lentonopeuden."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Tavallisen ammuksen keskimäärin aiheuttama vahinko panssarin läpäisseen osuman jälkeen. Vahingon potentiaalinen hajonta on +/- 25% keskimääräisestä arvosta."
 
@@ -11406,6 +11523,21 @@ msgstr "Tehostimen vaikutuksen maksimipituus aktivoinnin jälkeen."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Latausaika kasetin ammusten välillä. / Kasettien määrä lippaassa. / Ammusten määrä kasetissa."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Yksittäin yliviritetyn ammuksen keskimäärin aiheuttama vahinko panssarin läpäisseen osuman jälkeen. Vahingon potentiaalinen hajonta on ±25% keskimääräisestä arvosta."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Heikennys vaunun nimelliseen nopeuteen eteenpäin ulkoisen ammussyötön tilassa. Peruutusnopeus ei muutu."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Heikennys minuutissa ammuttavien laukausten määrään ulkoisen ammussyötön tilassa."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimiaika, joka vaaditaan tykin valmistelemiseen ampumiskuntoon ulkoisen ammussyötön tilan aktivoinnin jälkeen. Tänä aikana et voi vaihtaa tiloja."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimiaika, joka vaaditaan tykin valmistelemiseen ampumiskuntoon tavalliseen tilaan palaamisen jälkeen. Tänä aikana et voi vaihtaa tiloja."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Aika kahden tykin yhtä aikaa ampumiseen valmisteluun. / Tykkien latauseston kesto yhteislaukauksen yhteydessä."
@@ -11737,8 +11869,17 @@ msgstr "Aika apuaseen lataamisen sillä ampumisen jälkeen."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Apuaseelle saatavilla olevien ammusten määrä kunkin aktivaation aikana."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bonus vahinkoon, jonka saa vihollisvaunuun saadun läpäisevän osuman jälkeen."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonus läpäisyyn, jonka saa osuttuaan vihollisvaunuun läpäisemättömän osuman."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Aika, joka menee ammusten lataamiseen taistelun alkaessa ja eri ammustyyppien välillä vaihtamiseen."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Aika, joka kuluu vaihdettaessa kalibroidun ja tavallisen ampumistilan välillä."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Tykin hajonta, joka kuvaa ammuksen maksimaalisen poikkeaman tähtäyspisteestä 100 metrin päässä vaunusta."
@@ -11748,6 +11889,36 @@ msgstr "Tykin hajonta, joka kuvaa ammuksen maksimaalisen poikkeaman tähtäyspis
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Näyttää, kuinka paljon ammus voi poiketa tähtäyspisteestä metreissä per 100 metriä kohteeseen. Tavallinen arvo (ensimmäinen) on lämmenneelle tykille, parempi arvo (toinen) on jäähtyneelle tykille."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Progressiivinen heikennys kasvuston takana olevien vihollisvaunujen naamioitumiskykyyn IPHJ:n skannussektorilla."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Progressiivinen heikennys liikkuvien vihollisvaunujen naamioitumiskykyyn IPHJ:n skannussektorilla."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Aika, jonka pitää kulua taistelun alusta ennen kuin IPHJ:ta voidaan käyttää ensimmäisen kerran."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "IPHJ:n skannauksen kesto."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Käytön jälkeen vaadittu aika ennen kuin IPHJ voidaan aktivoida uudelleen."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Heikennys tornin kääntönopeuteen, kun IPHJ on aktiivinen."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "IPHJ:n skannaussektorin leveys sen keston lopussa."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "IPHJ:n skannaussektorin leveys sen keston alussa."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Aika, jonka vaunusi pysyy havaittuna havaittuasi näkymättömissä olleen vihollisen IPHJ:lla."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Progressiivinen parannus näköetäisyyteen IPHJ:n skannaussektorilla."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Vaunun nopeus siten kuin se määritellään sen teknisissä ominaisuuksissa."

@@ -139,15 +139,6 @@ msgstr "Uděluje se hráčům za jejich neocenitelný přínos ve vývoji World 
 msgid "15YearsOfService_descr"
 msgstr "Ve hře jste od %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Záložní úspěch BP 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Uděluje se za dokončení postupu."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Udělovaný za vaše úspěchy během hry"
-
 msgid "BPReserveAchievement_2"
 msgstr "Záložní úspěch BP 2"
 
@@ -429,6 +420,15 @@ msgstr "• Uděluje se za dokončení všech tří kapitol."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Uděluje se za vaše úspěchy během XX. sezóny Battle Passu."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Potyčka v nížině"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Uděluje se za dokončení všech tří kapitol."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Uděluje se za vaše úspěchy během XXI. sezóny Battle Passu."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Hlavní postup sestává ze 45 fází."
@@ -1828,6 +1828,48 @@ msgstr "Stříbrný Drak"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Udělována za nasbírání alespoň 9 praporů Náporu v Roce Draka v režimu „Nápor“."
 
+msgid "comp7_6_1"
+msgstr "Azurová jiskra"
+
+msgid "comp7_6_1_descr"
+msgstr "Udělovaná za dokončení série misí v Sezóně azurového Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzový Fénix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Udělována za nasbírání alespoň 6 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Šampion Roku Fénixe"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Udělována za nasbírání alespoň 15 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Zlatý Fénix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Udělována za nasbírání alespoň 12 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Železný Fénix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Udělována za nasbírání alespoň 3 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legenda Roku Fénixe"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Udělována za nasbírání alespoň 18 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Stříbrný Fénix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Udělována za nasbírání alespoň 9 praporů Náporu v Roce Fénixe v režimu „Nápor“."
+
 msgid "conqueror"
 msgstr "Dobyvatel %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Dostupné pouze v náhodných bitvách."
 
 msgid "huntsman_descr"
-msgstr "Zničte během jedné bitvy všechny nepřátelské lehké tanky (minimálně 3)."
+msgstr "Zničte během jedné bitvy všechny nepřátelské lehké tanky (minimálně 2)."
 
 msgid "huntsman_heroInfo"
 msgstr "Seržant Grigorij Naydin byl velitelem tanku BT-7. Dne 25. června 1941 zničil nedaleko litevského města Rudiškiai obrněnou kolonu Wehrmachtu, včetně 15 vozidel a 10 děl 19. mechanizovaného sboru. Naydin dokázal zadržet německý postup na dva dny a umožnil tím zorganizování obrany kolem Vilniusu. Za tuto akci byl Naydin vyznamenán oceněním Hrdina Sovětského svazu."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Dokončete s vyznamenáním 15 osobních misí za Unii. Odměna: medaile „Příkladný výkon: Unie“, III. třídy."
 
 msgid "readyForBattleAssault"
-msgstr "Příkladný výkon: Předvoj"
+msgstr "Příkladný výkon: Předvoj Sektoru 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Za splnění všech misí Předvoje v kampani „Sektor 3“."
+msgstr "Za splnění všech misí Předvoje v hlavních operacích kampaně „Sektor 3“."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Příkladný výkon: Předvoj Fossy"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Za splnění všech misí Předvoje v operaci „Fossa“ kampaně „Sektor 3“."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Příkladný výkon: Léčka Fossy"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Za splnění všech misí Léčky v operaci „Fossa“ kampaně „Sektor 3“."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Příkladný výkon: Pomoc Fossy"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Za splnění všech misí Pomoci v operaci „Fossa“ kampaně „Sektor 3“."
 
 msgid "readyForBattleHT"
 msgstr "Příkladný výkon: těžké tanky"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Dokončete s vyznamenáním 15 osobních misí pro dělostřelectvo. Odměna: medaile „Příkladný výkon: dělostřelectvo“ IV. třídy."
 
 msgid "readyForBattleSniper"
-msgstr "Příkladný výkon: Léčka"
+msgstr "Příkladný výkon: Léčka Sektoru 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Za splnění všech misí Léčky v kampani „Sektor 3“."
+msgstr "Za splnění všech misí Léčky v hlavních operací kampaně „Sektor 3“."
 
 msgid "readyForBattleSupport"
-msgstr "Příkladný výkon: Pomoc"
+msgstr "Příkladný výkon: Pomoc Sektoru 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Za splnění všech misí Pomoci v kampani „Sektor 3“."
+msgstr "Za splnění všech misí Pomoci v hlavních operací kampaně „Sektor 3“."
 
 msgid "reliableComrade"
 msgstr "Kamarád v bitvě"
@@ -4692,6 +4761,15 @@ msgstr "Uděluje se za dokončení postupu v režimu „Waffenträger: Paradox�
 
 msgid "wt2025progression_descr"
 msgstr "Dokončete postup režimu „Waffenträger“."
+
+msgid "wt2026progression"
+msgstr "Bouřlivý jezdec"
+
+msgid "wt2026progression_condition"
+msgstr "Uděluje se za dokončení postupu v režimu „Waffenträger: Zrození 2026“. Tato pocta je udělována těm, kteří se postavili proti von Kriegerově prvnímu myslícímu stroji pod názvem Elektrická inteligence a přerušili všechny obvody, jimiž zasahovala do našeho světa."
+
+msgid "wt2026progression_descr"
+msgstr "Dokončete postup v režimu „Waffenträger: Zrození 2026“."
 
 msgid "wtBossWins"
 msgstr "Vládce blesku"

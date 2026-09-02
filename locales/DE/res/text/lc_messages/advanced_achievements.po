@@ -172,9 +172,6 @@ msgstr "Besitzen Sie den&nbsp;T-44-122 (Stufe&nbsp;%(level)s)"
 msgid "description/branch_china_Ch19_121"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer mittlerer Panzer, der zum&nbsp;121 (Stufe&nbsp;%(level)s) führt."
 
-msgid "description/branch_china_Ch29_Type_62C_prot"
-msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer leichter Panzer, der zum&nbsp;WZ-132-1 (Stufe&nbsp;%(level)s) führt."
-
 msgid "description/branch_china_Ch38_WZ113G_FT"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer Jagdpanzer, der zum&nbsp;WZ-113G&nbsp;FT (Stufe&nbsp;%(level)s) führt."
 
@@ -190,14 +187,17 @@ msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer schwerer Panzer, der
 msgid "description/branch_china_Ch70_PTZ_78"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer Jagdpanzer, der zum&nbsp;PTZ-78 (Stufe&nbsp;%(level)s) führt."
 
+msgid "description/branch_china_Ch71_WZ_219"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig chinesischer leichter Panzer, der zum WZ-219&nbsp;(Stufe&nbsp;%(level)s) führt."
+
 msgid "description/branch_czech_Cz04_T50_51"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig tschechoslowakischer mittlerer Panzer, der zum&nbsp;TVP&nbsp;T&nbsp;50/51 (Stufe&nbsp;%(level)s) führt."
 
-msgid "description/branch_czech_Cz17_Vz_55"
-msgstr "Erforschen Sie alle Fahrzeuge im Zweig tschechoslowakischer schwerer Panzer, der zum&nbsp;Vz.&nbsp;55 (Stufe&nbsp;%(level)s) führt."
-
 msgid "description/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig tschechoslowakischer leichter Panzer, der zum&nbsp;Vz.&nbsp;71&nbsp;Tesák (Stufe&nbsp;%(level)s) führt."
+
+msgid "description/branch_czech_Cz46_Vz_63P"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig tschechoslowakischer schwerer Panzer, der zum Vz.&nbsp;63P&nbsp;(Stufe&nbsp;%(level)s) führt."
 
 msgid "description/branch_france_F108_Panhard_EBR_105"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig französischer leichter Panzer, der zum Panhard EBR&nbsp;105 (Stufe&nbsp;%(level)s) führt."
@@ -247,6 +247,9 @@ msgstr "Erforschen Sie alle Fahrzeuge im Zweig deutscher leichter Panzer, der zu
 msgid "description/branch_germany_G189_Hirschkafer"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig deutscher Jagdpanzer, der zum&nbsp;Hirschkäfer (Stufe&nbsp;%(level)s) führt."
 
+msgid "description/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig deutscher schwerer Panzer, der zum Pz.Kpfw.&nbsp;Neu&nbsp;(Stufe&nbsp;%(level)s) führt."
+
 msgid "description/branch_germany_G42_Maus"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig deutscher schwerer Panzer, der zur&nbsp;Maus (Stufe&nbsp;%(level)s) führt."
 
@@ -274,20 +277,23 @@ msgstr "Erforschen Sie alle Fahrzeuge im Zweig italienischer schwerer Panzer, de
 msgid "description/branch_italy_It23_CC_3"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig italienischer Jagdpanzer, der zum Controcarro&nbsp;3 Minotauro (Stufe&nbsp;%(level)s) führt."
 
+msgid "description/branch_italy_It43_CAV_mod_71"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig italienischer mittlerer Panzer, der zum CAV&nbsp;71 (Stufe&nbsp;%(level)s) führt."
+
 msgid "description/branch_japan_J16_ST_B1"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer mittlerer Panzer, der zum&nbsp;STB-1 (Stufe&nbsp;%(level)s) führt."
 
 msgid "description/branch_japan_J20_Type_2605"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer schwerer Panzer, der zum Type 5 Schwer (Stufe&nbsp;%(level)s) führt."
 
-msgid "description/branch_japan_J35_Ho_Ri_3"
-msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer Jagdpanzer, der zum&nbsp;Ho-Ri&nbsp;3 (Stufe&nbsp;%(level)s) führt."
-
 msgid "description/branch_japan_J40_Type_71"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer schwerer Panzer, der zum Type&nbsp;71 (Stufe&nbsp;%(level)s) führt."
 
 msgid "description/branch_japan_J52_STK_2"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer schwerer Panzer, der zum&nbsp;STK-2 (Stufe&nbsp;%(level)s) führt."
+
+msgid "description/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig japanischer Jagdpanzer, der zum Shugo (Stufe&nbsp;%(level)s) führt."
 
 msgid "description/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig polnischer schwerer Panzer, der zum&nbsp;60TP Lewandowskiego (Stufe&nbsp;%(level)s) führt."
@@ -307,11 +313,11 @@ msgstr "Erforschen Sie alle Fahrzeuge im Zweig schwedischer Jagdpanzer, der zum 
 msgid "description/branch_sweden_S16_Kranvagn"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig schwedischer schwerer Panzer, der zum Kranvagn (Stufe&nbsp;%(level)s) führt."
 
-msgid "description/branch_sweden_S28_UDES_15_16"
-msgstr "Erforschen Sie alle Fahrzeuge im Zweig schwedischer mittlerer Panzer, der zum UDES&nbsp;15/16 (Stufe&nbsp;%(level)s) führt."
-
 msgid "description/branch_sweden_S36_Strv_107_12"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig schwedischer Jagdpanzer, der zum&nbsp;Strv&nbsp;107-12 (Stufe&nbsp;%(level)s) führt."
+
+msgid "description/branch_sweden_S41_BV_111"
+msgstr "Erforschen Sie alle Fahrzeuge im Zweig schwedischer mittlerer Panzer, der zum BV-111&nbsp;(Stufe&nbsp;%(level)s) führt."
 
 msgid "description/branch_uk_GB100_Manticore"
 msgstr "Erforschen Sie alle Fahrzeuge im Zweig britischer leichter Panzer, der zum Manticore (Stufe&nbsp;%(level)s) führt."
@@ -510,6 +516,9 @@ msgstr "Besitzen Sie alle Fahrzeuge aus der Kampagne „Sektor 3“."
 
 msgid "description/third_campaign_first_operation"
 msgstr "Schließen Sie die erste Operation ab und besitzen Sie den&nbsp;Windhund (Stufe&nbsp;%(level)s)"
+
+msgid "description/third_campaign_fourth_operation"
+msgstr "Schließen Sie das vierte Unternehmen ab und besitzen Sie den Fossa&nbsp;(Stufe&nbsp;%(level)s)"
 
 msgid "description/third_campaign_second_operation"
 msgstr "Schließen Sie die zweite Operation ab und besitzen Sie den&nbsp;Dravec (Stufe&nbsp;%(level)s)"
@@ -850,6 +859,9 @@ msgstr "BZ-79"
 msgid "name/Ch70_PTZ_78"
 msgstr "PTZ-78"
 
+msgid "name/Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "name/Cz02_TVP_T50"
 msgstr "Škoda T&nbsp;50"
 
@@ -894,6 +906,9 @@ msgstr "Vz.&nbsp;71&nbsp;Tesák"
 
 msgid "name/Cz40_DBV_152"
 msgstr "DBV-152"
+
+msgid "name/Cz46_Vz_63P"
+msgstr "Vz.&nbsp;63P"
 
 msgid "name/F06_ARL_44"
 msgstr "ARL&nbsp;44"
@@ -1074,6 +1089,18 @@ msgstr "Hirschkäfer"
 
 msgid "name/G18_JagdPanther"
 msgstr "Jagdpanther"
+
+msgid "name/G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw.&nbsp;55"
+
+msgid "name/G196_Versuchspanzer_57"
+msgstr "Versuchspanzer&nbsp;57"
+
+msgid "name/G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw.&nbsp;Neu"
+
+msgid "name/G198_Kampfpanzer_67"
+msgstr "Kampfpanzer&nbsp;67"
 
 msgid "name/G200_Chi_Go"
 msgstr "Chi-Go"
@@ -1378,6 +1405,9 @@ msgstr "Semovente&nbsp;M43 Bassotto"
 msgid "name/It31_CC_67_B"
 msgstr "SMV&nbsp;CC-67"
 
+msgid "name/It43_CAV_mod_71"
+msgstr "CAV 71"
+
 msgid "name/J10_Chi_To"
 msgstr "Type&nbsp;4 Chi-To"
 
@@ -1443,6 +1473,9 @@ msgstr "Ashigaru"
 
 msgid "name/J52_STK_2"
 msgstr "STK-2"
+
+msgid "name/J53_Ho_Ri_Shugo"
+msgstr "Shugo"
 
 msgid "name/Pl05_50TP_Tyszkiewicza"
 msgstr "50TP Tyszkiewicza"
@@ -1735,11 +1768,11 @@ msgstr "UDES&nbsp;14 Alt&nbsp;5"
 msgid "name/S36_Strv_107_12"
 msgstr "Strv&nbsp;107-12"
 
+msgid "name/S41_BV_111"
+msgstr "BV-111"
+
 msgid "name/branch_china_Ch19_121"
 msgstr "China:&nbsp;121"
-
-msgid "name/branch_china_Ch29_Type_62C_prot"
-msgstr "China: WZ-132-1"
 
 msgid "name/branch_china_Ch38_WZ113G_FT"
 msgstr "China: WZ-113G&nbsp;FT"
@@ -1756,14 +1789,17 @@ msgstr "China: BZ-79"
 msgid "name/branch_china_Ch70_PTZ_78"
 msgstr "China: PTZ-78"
 
+msgid "name/branch_china_Ch71_WZ_219"
+msgstr "China: WZ-219"
+
 msgid "name/branch_czech_Cz04_T50_51"
 msgstr "Tschechoslowakei: TVP&nbsp;T&nbsp;50/51"
 
-msgid "name/branch_czech_Cz17_Vz_55"
-msgstr "Tschechoslowakei: Vz.&nbsp;55"
-
 msgid "name/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "Tschechoslowakei: Vz.&nbsp;71&nbsp;Tesák"
+
+msgid "name/branch_czech_Cz46_Vz_63P"
+msgstr "Tschechoslowakei: Vz.&nbsp;63P"
 
 msgid "name/branch_france_F108_Panhard_EBR_105"
 msgstr "Frankreich: Panhard EBR&nbsp;105"
@@ -1813,6 +1849,9 @@ msgstr "Deutschland: leKpz&nbsp;Borkenkäfer"
 msgid "name/branch_germany_G189_Hirschkafer"
 msgstr "Deutschland: Hirschkäfer"
 
+msgid "name/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "Deutschland: Pz.Kpfw.&nbsp;Neu"
+
 msgid "name/branch_germany_G42_Maus"
 msgstr "Deutschland: Maus"
 
@@ -1840,20 +1879,23 @@ msgstr "Italien: Rinoceronte"
 msgid "name/branch_italy_It23_CC_3"
 msgstr "Italien: Controcarro&nbsp;3 Minotauro"
 
+msgid "name/branch_italy_It43_CAV_mod_71"
+msgstr "Italien: CAV 71"
+
 msgid "name/branch_japan_J16_ST_B1"
 msgstr "Japan: STB-1"
 
 msgid "name/branch_japan_J20_Type_2605"
 msgstr "Japan: Type&nbsp;5 Schwer"
 
-msgid "name/branch_japan_J35_Ho_Ri_3"
-msgstr "Japan: Ho-Ri&nbsp;3"
-
 msgid "name/branch_japan_J40_Type_71"
 msgstr "Japan: Type&nbsp;71"
 
 msgid "name/branch_japan_J52_STK_2"
 msgstr "Japan: STK-2"
+
+msgid "name/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "Japan: Ho-Ri&nbsp;4"
 
 msgid "name/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "Polen: 60TP Lewandowskiego"
@@ -1873,11 +1915,11 @@ msgstr "Schweden: Strv&nbsp;103B"
 msgid "name/branch_sweden_S16_Kranvagn"
 msgstr "Schweden: Kranvagn"
 
-msgid "name/branch_sweden_S28_UDES_15_16"
-msgstr "Schweden: UDES&nbsp;15/16"
-
 msgid "name/branch_sweden_S36_Strv_107_12"
 msgstr "Schweden: Strv&nbsp;107-12"
+
+msgid "name/branch_sweden_S41_BV_111"
+msgstr "Schweden: BV-111"
 
 msgid "name/branch_uk_GB100_Manticore"
 msgstr "GB: Manticore"
@@ -2076,6 +2118,9 @@ msgstr "Sektor 3"
 
 msgid "name/third_campaign_first_operation"
 msgstr "Operation: Windhund"
+
+msgid "name/third_campaign_fourth_operation"
+msgstr "Operation: Fossa"
 
 msgid "name/third_campaign_second_operation"
 msgstr "Operation: Dravec"

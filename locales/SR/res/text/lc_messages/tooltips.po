@@ -6052,6 +6052,18 @@ msgstr "Direktiva neće raditi jer si prešao limit od 6 veština po glavnoj kva
 msgid "moduleFits/wrong_slot/body"
 msgstr "Modul je već namontiran u drugom slotu"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Šansa nanošenja kritične štete neprijateljskim modulima i/ili posadi."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Vrednost za koju je smanjen ugao udara granate kada pogodi neprijateljski oklop."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Količina probojne snage koju granata gubi na svakih 100 mm nakon pogotka u neprijateljski panel."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Ugao pod kojim granata automatski rikošetira od neprijateljskog oklopa."
+
 msgid "multiselection/alert/body"
 msgstr "Izaberi vozila: možeš se priključiti borbi samo sa kompletnom grupom."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Borbena propusnica: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vladimir Kuprin je znao golu slanu dolinu svoje trenutne misije kao dlan svojih podjednako ispucalih ruku. Nisu mu bila strana nestabilna okruženja, zaradio je svoj čin specijalizacijom u odbrani od hemijskog ratovanja daleko pre nego što je ikada ušao u tenk. Dvadeset godina kasnije, našao se tek nekoliko dana hoda od laboratorijskog kompleksa gde je započeo svoju vojnu službu kao mlađi tehničar. Vreme i nevolja ne ostavljanju čoveka bez ožiljka, ali, Vladimir se šalio sa svojom posadom, nije napisan papir sa njegovim otkazom - zato dok ga neko ne popuni pravilno, on je tu da ostane."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bujna dolina detinjstva Brina Pauela je bila ceo svet dalje od surove klime koju je upoznao. Njegovo poslednje informisanje je bilo značajno kratko sa detaljima, a fraze \"neidentifikovani hemijski agens\" i \"rizik od smrtne opasnosti: ekstreman\" bi naterale mnoge komandire da mole za premeštaj. Ali Brin je uvek smatrao samoodržanje kao sjajan kvalitet na drugim ljudima. Hazarder po prirodi, mogao je da ima brilijantnu karijeru kao kaskader da je nekada osetio potrebu. Stavi ga iza kontrola tenka i razlika je bila zanemarljiva."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora je bio nepokolebljiv komandir. Veteran mirovnih misija u nestabilnim regionima, naučio je kako da sačuva nerve dok se pritisak približava. Bez obzira da li radi na ivici umora nakon duge noćne patrole ili razlaže sve više uznemirujuće obaveštajne podatke o nepoznatoj supstanci koju je njegova posada poslata da sakupi, njegov stav nikada se nije pokolebao. Održavao je moral šalama koje su gazile linijom između lakomislenog i vešala, odbijajući da preda varnicu u svojim očima ili živahnost u svom koraku."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Ništa ne promiče Sandrin Ouset. Nagrađivani strelac pre regrutacije za tajnu oklopnu izviđačku misiju, njeno orlovsko oko je dosezalo iza nišana njene puške. Pokaži joj iskrzan fragment informacija o neprijatelju i mogla je da izvuče zaključke tako konzistentno tačne da je čak i njena sopstvena posada u početku pogrešno zamenila njene neverovatne veštine posmatranja za vidovidost. Pod njenom komandom, tajne su retko kada ostajale sakrivene dugo. Srećom po njen tim, sačuvala je veliki deo svoje neumorne sumnjičavosti za izvor o nepoznatom reagensu koji su poslati da istraže."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Ljudi me uvek pitaju da li znam Jack Reed-a. Pre odgovora, udahnem duboko i zatvorim oči na momenat. Biti njegov komandant nije krevet posut laticama.Reed je pobunjenik koji je nekako uspeo da proprati naredjenja i ostane unutar pravila da ostane u vojsci. Ali duboko u sebi on gazi put kako bi mogao da vozi svoj motor jednoga dana putem 66 i oseti vetar u kosi."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Kampanja sektor 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Podignut u porodici bernskih časovničara, Stefan je nasledio zanat koji zahteva tišinu, strpljenje i apsolutnu kontrolu. Ali za njega ovi kvaliteti će definisati veoma drugačiju karijeru. Britanska obaveštajna služba mu je 1940. ponudila izbor: neutralna Švajcarska sa jedne strane granice, on sa druge. U alpskim prolazima, izrastao je od mehaničara za šijunske uređaje do strelca. Nakon rata nastavio je taj posao, eliminišući one koji su pobegli pravdi pod lažnim imenima. Stefan je uvek radio sam, ne ostavljajući trag, a radi to i dalje: niko u Sektoru 3 nikada nije video njegovo lice."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Kampanja sektor 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—standardna granata za izabrani top. Koristi se za računanje 
 msgid "shell/basic/description/bold"
 msgstr "Standardna granata"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Režim dovoda spoljne municije vozila dozvoljava upotrebu granata sa povećanom štetom."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Osnovna"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modifikovana:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Specijalna mehanika za top vozila dozvoljava ranije pucanje sa izmenjenim parametrima granate."
 
@@ -10866,6 +10932,21 @@ msgstr "Osnovni:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Izmenjeni:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Tempirač podesivog upaljača povećava prosečnu štetu ili probojnost."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Podesivo:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Top vozila ima specijalan uređaj koji dozvoljava da neki parametri granate budu promenjeni pre pucanja."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standardna"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibrisana"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Prikaži/sakrij oblast pod paljbom neprijateljske artiljerije na mini mapi."
@@ -11028,6 +11109,12 @@ msgstr "Smanjenje kvaliteta zvuka može poboljšati opšte performanse igre na s
 
 msgid "soundQualityOn/header"
 msgstr "Zvuk niskog kvaliteta (LQ)"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Prosečna šteta{{/}} je povećana nakon probijajućeg pogotka u neprijateljsko vozilo."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Prosečna šteta{{/}} je povećana nakon neprobijajućeg pogotka u neprijateljsko vozilo."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Članovi posade u premijum vozilima se treniraju 50% brže:"
@@ -11386,6 +11473,36 @@ msgstr "Poboljšani sistem automatskog punjenja smanjuje standardno vreme automa
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Vreme između ispaljivanja poslednje granate u šaržeru (ili oba topa) i punjenja novog šaržera. / Broj topova ili granata u šaržeru."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Vreme koje zamenjuje preostalo vreme punjenja kada je mehanizam u upotrebi."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Vreme potrebno za zamenu jednog punjenja ako je šaržer pun."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Vreme potrebno za zamenu jednog punjenja ako je šaržer nije pun."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Količina punjenja dostupna na početku borbe."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Maksimalan broj punjenja za ubrzano punjenje granata koje možeš imati u jednom momentu."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Prosečna šteta naneta raketnim lanserom nakon pogotka koji je probio oklop. Potencijalno rasipanje štete je +/- 25% od prosečne vrednosti."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Rasipanje okarakterisano maksimalnom devijacijom granate od nišanske tačke na distanci od 100m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Prosečna debljina oklopa probijenog raketnom granatom. Rasipanje je +/- 25% od prosečne vrednosti."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Vreme potrebno za punjenje raketnog lansera"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Određuje brzinu putovanja nevođene rakete."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Prosečna šteta naneta standardnim granatama nakon pogodka koji je probio oklop. Potencijalno rasipanje štete je +/- 25% od prosečne vrednosti."
 
@@ -11406,6 +11523,21 @@ msgstr "Maksimalno trajanje bustera nakon aktiviranja."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Vreme punjenja između granata u kontejneru. / Broj kontejnera u šaržeru. / Broj granata u kontejneru."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Prosečna šteta naneta jedinstvenom granatom visokog punjenja nakon pogotka koji je probio oklop. Potencijalno rasipanje štete je +/- 25% od prosečne vrednosti."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Smanjenje normalne brzine kretanja vozila unapred u režimu dovoda spoljne municije."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Smanjenje u granati po minuti u režimu dovoda spoljne municije."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimalno vreme potrebno za pripremu topa za pucanje nakon aktiviranja režima dovoda spoljne municije. Tokom ovog vremena, ne možeš da promeniš režime."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimalno vreme potrebno za pripremu topa nakon povratka u standardni režim. Tokom ovog vremena, ne možeš da promeniš režime."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Vreme za pripremu za pucanje sa oba topa istovremeno. / Trajanje blokade punjenja topova nakon ispaljivanja salve."
@@ -11737,8 +11869,17 @@ msgstr "Vreme za ponovno punjenje pomoćnog oružja nakon pucanja."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Broj dostupnih granata u pomoćnom oružju tokom svake aktivacije."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bonus na štetu dodeljen nakon probijajućeg hica u neprijateljsko vozilo."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonus na probojnost dodeljen nakon neprobijajućeg hica u neprijateljsko vozilo."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Vreme potrebno da se napune granate na početku borbe i za promenu između različitih tipova granata."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Vreme potrebno za promenu između kalibrisanog i standardnog režima vatre."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Rasipanje hitaca topa je okarakterisana maksimalnom devijacijom granate od nišanske tačke na distanci od 100 metara."
@@ -11748,6 +11889,36 @@ msgstr "Rasipanje topa okarakterisano maksimalnom devijacijom granate od tačke 
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Pokazuje koliko granata može da odstupi od tačke nišanjenja u metrima na 100 metara do mete. Standardna vrednost (prva) je za zagrejan top. poboljšana vrednost (druga) je za ohlađen top."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Progresivno smanjenje prikrivenosti neprijateljskog vozila iza rastinja u sektoru pretrage ICPP."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Progresivno smanjenje prikrivenosti pokretnog neprijateljskog vozila u sektoru pretrage ICPP."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Vreme potrebno nakon početka borbe pre nego što ICPP može biti upotrebljen po prvi put."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Dužina trajanja ICPP pretrage."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Vreme potrebno pre nego što ICPP može biti upotrebljeno ponovo nakon aktiviranja."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Smanjenje u brzini rotiranja kupole dok je ICPP aktivno."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Širina sektora koji ICPP pretražuje na kraju svog trajanja."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Širina sektora koji ICPP pretražuje na početku svog trajanja."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Vreme koliko je tvoje vozilo uočeno nakon što otkriješ neuočenog neprijatelja uz pomoć ICPP."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Progresivno povećavanje dometa vidokruga u ICPP sektoru pretrage."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Brzina vozila kao što je definisana u tehničkim karakteristikama."

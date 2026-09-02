@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Sezonul Dragonului de Azur începe: %(date)s"
+msgstr "Sezonul Phoenixului de Azur începe: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Sezonul Dragonului Purpuriu începe: %(date)s"
+msgstr "Sezonul Phoenixului Purpuriu începe: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Sezonul Dragonului de Jad ăncepe: %(date)s"
+msgstr "Sezonul Phoenixului de Jad începe: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Se așteaptă rezultatele Calificărilor pentru a primi gradul"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Sezonul Dragonului de Azur s-a încheiat"
+msgstr "Sezonul Phoenixului de Azur s-a încheiat"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Sezonul Dragonului Purpuriu s-a încheiat"
+msgstr "Sezonul Phoenixului Purpuriu s-a încheiat"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Sezonul Dragonului de Jad s-a încheiat"
+msgstr "Sezonul Phoenixului de Jad s-a încheiat"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Luptele pe acest server vor fi disponibile în %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Caracteristicile vehiculului s-au îmbunătățit"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Se restaurează punctele de integritate"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Daunele suferite sunt crescute"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Caracteristicile vehiculului s-au îmbunătățit"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Sezonul Dragonului de Azur va dura timp de %(days)d zi"
-msgstr[1] "Sezonul Dragonului de Azur va dura timp de %(days)d zile"
-msgstr[2] "Sezonul Dragonului de Azur va dura timp de %(days)d zile"
+msgstr[0] "Sezonul Phoenixului de Azur va dura timp de %(days)d zi"
+msgstr[1] "Sezonul Phoenixului de Azur va dura timp de %(days)d zile"
+msgstr[2] "Sezonul Phoenixului de Azur va dura timp de %(days)d zile"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Sezonul Dragonului Purpuriu va dura timp de %(days)d zi"
-msgstr[1] "Sezonul Dragonului Purpuriu va dura timp de %(days)d zile"
-msgstr[2] "Sezonul Dragonului Purpuriu va dura timp de %(days)d zile"
+msgstr[0] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zi"
+msgstr[1] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zile"
+msgstr[2] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zile"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Sezonul Dragonului de Jad va dura timp de %(days)d zi"
-msgstr[1] "Sezonul Dragonului de Jad va dura timp de %(days)d zile"
-msgstr[2] "Sezonul Dragonului de Jad va dura timp de %(days)d zile"
+msgstr[0] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zi"
+msgstr[1] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zile"
+msgstr[2] "Sezonul Phoenixului Purpuriu va dura timp de %(days)d zile"
 
 msgid "calendarDay/title"
 msgstr "Calendarul"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Talentele"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Violență. Anul Dragonului"
+msgstr "Violență: Anul Phoenixului"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Talente zero"
@@ -574,11 +577,17 @@ msgstr "Recepționat!"
 msgid "intro/description/banPhase"
 msgstr "Fiecare echipă poate interzice complet un vehicul dintr-o luptă. Coordonează-ți voturile cu aliații pentru a exclude cel mai temut tanc sau a pregăti o selecție neașteptată pentru adversari. Dacă vehiculul tău este interzis, poți alege între câteva vehicule de închiriat predefinite."
 
+msgid "intro/description/draw"
+msgstr "Când timpul a expirat fără ca vreo echipă să obțină o victorie clară, rezultatul luptei este decis prin criterii de departajare în această ordine: vehiculele supraviețuitoare, daunele provocate și primul vehicul învins. Dacă nici o echipă nu provoacă daune, lupta se încheie prin egalitate."
+
+msgid "intro/description/nightMaps"
+msgstr "Hărțile de noapte reîmprospătează câmpurile de luptă familiare cu condiții de noapte, noi posturi de observație, puncte de interes actualizate și mecanici de observare modificate. Selecția actuală include Glacier, Sand River, Outpost și Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Modul are modificatori care schimbă anumiți parametri ai vehiculelor, precum punctele de integritate, perioada de refacere a consumabilelor, perioada de vizibilitate și multe altele."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "După capturarea anumitor zone de pe hartă, vei putea utiliza Abilități tactice. Există două tipuri de Puncte de interes: Centrul de Comandă al Artileriei îți va permite să trimiți o lovitură de artilerie asupra unei anumite poziții, iar Centrul de Comunicații va descoperi toate vehiculele inamice. Locul și prezența acestor Puncte de interes se pot schimba în funcție de hartă."
+msgstr "Odată ce capturezi anumite zone ale hărții, vei avea acces la Abilități tactice. Există două tipuri de Puncte de interes: Centrul de Comandă al Artileriei, care îți permite să chemi un atac țintit, și Centrele de Comunicații, care dezvăluie toate vehicule inamice. Numărul și locația acestor amplasamente variază de la o hartă la alta."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Participă la %(count)s lupte în Calificări pentru a-ți determina 
 msgstr[2] "Participă la %(count)s lupte în Calificări pentru a-ți determina abilitățile și gradul. După finalizare, vei primi recompense pentru gradul atins și toate gradele anterioare.\n\nDezertarea sau egalitatea în Calificări vor fi considerate drept înfrângere."
 
 msgid "intro/description/ranks"
-msgstr "Sistem care reflectă abilitățile jucătorului. Avansează în grade, de la Fier la Legendă și obține recompense valoroase. Luptă de-a lungul Anului Dragonului pentru a primi recompense anuale unice."
+msgstr "Avansează în grade, de la Fier la Legendă și obține recompense valoroase. Luptă de-a lungul Anului Phoenixului pentru a primi recompense anuale unice."
 
 msgid "intro/description/roleSkills"
 msgstr "În funcție de rolul său, fiecare vehicul are o abilitate specială cu trei niveluri de încărcare. Cu cât mai mare este nivelul de încărcare la activarea abilității, cu atât mai puternic va fi efectul acesteia. Nivelul de încărcare depinde de numărul de Puncte de prestigiu care pot fi obținute pentru performanță impresionantă în luptă, capturarea de Puncte de interes, utilizarea de Abilități tactice, etc.\n\nCitește regulile modului pentru a afla mai multe despre metodele diferite de obținere a Punctelor de prestigiu."
@@ -597,6 +606,12 @@ msgstr "Poți participa la lupte cu vehicule cercetabile și de colecție de gen
 
 msgid "intro/title/banPhase"
 msgstr "INTERZICEREA VEHICULELOR"
+
+msgid "intro/title/draw"
+msgstr "REGULILE EGALITĂȚII"
+
+msgid "intro/title/nightMaps"
+msgstr "HĂRȚILE DE NOAPTE"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICATORII VIOLENȚĂ"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VICTORIE, ÎNSĂ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promovat la %(rank)s"
+msgstr "Promovat la {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Grad: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Retrogradat în %(rank)s, %(division)s"
+msgstr "Retrogradat la {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promovat la %(rank)s, %(division)s"
+msgstr "Promovat la {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Lupte purtate"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Recordul punctelor de prestigiu per sezon: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Sezonul Dragonului de Azur s-a încheiat pe serverul %(server)s."
+msgstr "Sezonul Phoenixului de Azur s-a încheiat pe serverul %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Sezonul Dragonului Purpuriu s-a încheiat pe serverul %(server)s."
+msgstr "Sezonul Phoenixului Purpuriu s-a încheiat pe serverul %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Sezonul Dragonului de Jad s-a încheiat pe serverul %(server)s."
+msgstr "Sezonul Phoenixului de Jad s-a încheiat pe serverul %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Cumpără"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "VIOLENȚĂ: CALIFICĂRI ÎNCHEIATE"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "VIOLENȚĂ. SEZONUL DRAGONULUI DE AZUR"
+msgstr "VIOLENȚĂ. SEZONUL PHOENIXULUI DE AZUR"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "VIOLENȚĂ. SEZONUL DRAGONULUI PURPURIU"
+msgstr "VIOLENȚĂ. SEZONUL PHOENIXULUI PURPURIU"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "VIOLENȚĂ. SEZONUL DRAGONULUI DE JAD"
+msgstr "VIOLENȚĂ. SEZONUL PHOENIXULUI DE JAD"
 
 msgid "rewardsScreen/description/year"
-msgstr "VIOLENȚĂ. ANUL DRAGONULUI"
+msgstr "VIOLENȚĂ: ANUL PHOENIXULUI"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Unde e Ashbringer-ul meu?"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Se încheie în %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Sezonul Dragonului de Azur"
+msgstr "Sezonul Phoenixului de Azur"
 
 msgid "seasonName/second"
-msgstr "Sezonul Dragonului Purpuriu"
+msgstr "Sezonul Phoenixului Purpuriu"
 
 msgid "seasonName/third"
-msgstr "Sezonul Dragonului de Jad"
+msgstr "Sezonul Phoenixului de Jad"
 
 msgid "seasonPointTooltip/header"
 msgstr "Culorile Violență"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Poziție în clasament: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "VIOLENȚĂ. %(seasonNameUpper)s"
+msgstr "VIOLENȚĂ %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "S-au obținut %(points)s Culori Violență"
 msgstr[2] "S-au obținut %(points)s Culori Violență"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SEZONUL I: DRAGONUL DE AZUR"
+msgstr "SEZONUL I: PHOENIXUL DE AZUR"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SEZONUL I: DRAGONUL PURPURIU"
+msgstr "SEZONUL II: PHOENIXUL PURPURIU"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SEZONUL I: DRAGONUL DE JAD"
+msgstr "SEZONUL III: PHOENIXUL DE JAD"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Victorii: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Acest mod va deveni disponibil la %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Dragonul de Azur"
+msgstr "Phoenixul de Azur"
 
 msgid "shortSeasonName/second"
-msgstr "Dragonul Purpuriu"
+msgstr "Phoenixul Purpuriu"
 
 msgid "shortSeasonName/third"
-msgstr "Dragonul de Jad"
+msgstr "Phoenixul de Jad"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Această secțiune conține informații despre cei mai buni jucători din sezonul actual al modului Violență."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Afișează tot"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Susține Seria Legendelor Violență crescând cantitatea de premii cu ajutorul pachetelor de turneu!"
+msgstr "Dacă echipa aleasă învinge, vei primi o insignă unică OLS 2026. Ține cu preferații tăi!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Dovedește-ți spiritul e-sports cu elemente de personalizare tematice exclusive și tancuri unice!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "O încleștare epică se pregătește la World of Tanks Championship International în Suzhou, China, unde echipele cele mai puternice din întreaga lume se vor lupta cu regulile modului Violență, concurând pentru prestigiosul titlul de Campion Mondial. Simte emoțiile legendelor născute pe câmpul de luptă."
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "Sezonul 6 OLS"
+msgstr "Sezonul 7 OLS"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Acest sezon reprezintă ultima ta șansă de a revendica recompense valoroase, inclusiv tancul greu de generația X Ashbringer, împreună cu toate stilurile 3D unice pe care le-ai obținut pentru acesta și un echipaj neînfricat cu Frați de arme ca talent zero, plus echipament îmbunătățit și recompensă selectabile, un stil 2D frumos și multe altele. Nu le rata: victoria te așteaptă pe câmpul de luptă!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Prinde ultimele momente ale Anului Dragonului!"
+msgstr "Prinde ultimele momente ale Anului Phoenixului!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEZONUL DRAGONULUI DE JAD"
+msgstr "SEZONUL PHOENIXULUI DE AZUR"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "VIOLENȚĂ. CARE SUNT NOUTĂȚILE?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tastic!"
+msgstr "Dezlănțuie flăcările!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Ecranul îmbunătățit al rezultatelor de după luptă, cu designul său nou din versiunea 2.0 îți va oferi acum mai multe informații legate de nod după fiecare luptă."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Când timpul a expirat fără ca vreo echipă să obțină o victorie clară, rezultatul luptei este decis prin criterii de departajare în această ordine: vehiculele supraviețuitoare, daunele provocate și primul vehicul învins. Dacă nici o echipă nu provoacă daune, lupta se încheie prin egalitate."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Rezultatele detaliate ale luptei"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Nu-ți fă griji dacă vehiculul tău preferat a fost exclus. Vehiculele de închiriat au acum echipament, proiectile și consumabile preconfigurate."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Închirieri gata de folosit %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "În acest sezon, fiecare echipă poate interzice complet un vehicul dintr-o luptă. Coordonează-ți votul cu aliații pentru a exclude tancul de care vă temeți cel mai mult sau a pregăti o selecție neașteptată pentru adversari."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Interzicerea vehiculelor %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Condițiile egalității au fost actualizate {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Hărţile"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Vehicule noi disponibile în Violență"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Versiunea 2.4 introduce roluri noi pentru tancurile ușoare și o reechilibrare a caracteristicilor vehiculelor. Încearcă-le în lupte!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Roluri noi pentru tancurile ușoare {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Stiluri de joc proaspete pe hărți familiare. Modificările includ condiții de noapte, noi posturi de observație, noi locații de interes și mecanici de observare modificate. Toate acestea remodelează cursul luptelor, făcând ca atenția, sincronizarea și deplasările tactice să conteze mai mult ca niciodată."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Hărțile de noapte au sosit! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Din cauza numărului mic de jucători în lupte, super plutoanele au fost dezactivate. Lucrăm la moduri alternative pentru echipe în Violență. Între timp, turneele 7v7 sunt disponibile regulat."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Super plutoanele au dispărut {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Vehicule de închiriat"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Recent lansatul tanc mediu din generația X Ares 90 este acum disponibil în mod, cu o abilitate de rol ajustată."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Hărți: Erlenberg a fost eliminată. Punctele de interes de pe Airfield au fost repoziționate. Ajustări minore la Pilsen.\n • Vehicule: Vz. 60S Dravec a fost eliminat. Noul tanc greu german Kampfpanzer 67 a fost adăugat."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Actualizarea abilității de rol %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 e acum disponibil pentru achiziție din Magazinul Violență de la gradul Argint."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Actualizările Magazinului %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Modificări de echilibrare în sezon {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EXCLUSE"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "SEZONUL I: DRAGONUL DE AZUR"
+msgstr "SEZONUL I: PHOENIXUL DE AZUR"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "SEZONUL I: DRAGONUL PURPURIU"
+msgstr "SEZONUL II: PHOENIXUL PURPURIU"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "SEZONUL I: DRAGONUL DE JAD"
+msgstr "SEZONUL III: PHOENIXUL DE JAD"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Actual"

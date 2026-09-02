@@ -130,6 +130,9 @@ msgstr "Jūs negalite sukurti ar prisijungti į būrį, nes garaže neturite tin
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Užbaigę kvalifikaciją galėsite burti į 2 ir 7 žaidėjų būrius."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Kai užbaigsite kvalifikaciją, galėsite žaisti dviejų žmonių būriuose."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Negalima sukurti būrio."
 
@@ -141,6 +144,9 @@ msgstr "Sukurkite savo būrį, arba prisijunkite prie kito. Prasiveržime būria
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Būrys"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Sukurkite savo būrį, arba prisijunkite prie kito. Prasiveržime būriai gali būti tik dviejų žaidėjų."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Sukurkite taktinę formuotę iš 2 ar 3 žaidėjų bendram žaidimui.\n• Mūšių rėžimai: Siautėjimas.\n• Mūšių tipai: Plieninė medžioklė, Dominavimas."
@@ -264,12 +270,6 @@ msgstr "Būryje pasiektas maksimalus sunkiųjų tankų kiekis"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Būryje pasiektas maksimalus vidutinių tankų kiekis"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Būryje yra maksimalus lengvųjų tankų kiekis"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Būryje pasiektas maksimalus ratuotų mašinų kiekis"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Būryje yra maksimalus lengvųjų tankų kiekis"

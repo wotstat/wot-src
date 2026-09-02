@@ -101,9 +101,12 @@ class IMarkersManager(object):
 
 
 class MarkerPlugin(IPlugin):
-    __slots__ = ()
     sessionProvider = dependency.descriptor(IBattleSessionProvider)
     settingsCore = dependency.descriptor(ISettingsCore)
+
+    def setVisibility(self, value):
+        self._parentObj.setVisible(value)
+        return
 
     def getTargetIDFromMarkerID(self, markerID):
         return INVALID_TARGET_ID
@@ -195,7 +198,7 @@ class ControlModePlugin(MarkerPlugin):
         handler = avatar_getter.getInputHandler()
         if handler is not None and isinstance(handler, AvatarInputHandler):
             handler.onCameraChanged -= self.__onCameraChanged
-        self._parentObj.setVisible(True)
+        self.setVisibility(True)
         super(ControlModePlugin, self).stop()
         return
 
@@ -215,7 +218,7 @@ class ControlModePlugin(MarkerPlugin):
     def __onKillCamModeStateChanged(self, state, _):
         if state is DeathCamEvent.State.NONE:
             return
-        self._parentObj.setVisible(state in (DeathCamEvent.State.INACTIVE, DeathCamEvent.State.FINISHED))
+        self.setVisibility(state in (DeathCamEvent.State.INACTIVE, DeathCamEvent.State.FINISHED))
         return
 
 
@@ -292,6 +295,18 @@ class SettingsPlugin(MarkerPlugin):
 
 
 class EventBusPlugin(MarkerPlugin):
+    __slots__ = (b'__state',)
+
+    class InvisibleFlags(object):
+        EMPTY = 0
+        GUI_VISIBILITY = 1
+        PREBATTLE_HIGHLIGHTS = 2
+        MARKERS_2D = 4
+
+    def __init__(self, parentObj):
+        super(EventBusPlugin, self).__init__(parentObj)
+        self.__state = self.InvisibleFlags.EMPTY
+        return
 
     def start(self, *args):
         super(EventBusPlugin, self).init(*args)
@@ -299,6 +314,8 @@ class EventBusPlugin(MarkerPlugin):
         add(GameEvent.SHOW_EXTENDED_INFO, self.__handleShowExtendedInfo, scope=settings.SCOPE)
         add(GameEvent.GUI_VISIBILITY, self.__handleGUIVisibility, scope=settings.SCOPE)
         add(GameEvent.MARKERS_2D_VISIBILITY, self.__handleMarkerVisibility, scope=settings.SCOPE)
+        add(GameEvent.GO_TO_PREBATTLE_HIGHLIGHTS, self.__handlePbhActive, scope=settings.SCOPE)
+        add(GameEvent.RETURN_FROM_PREBATTLE_HIGHLIGHTS, self.__handlePbhInactive, scope=settings.SCOPE)
         return
 
     def stop(self):
@@ -306,7 +323,20 @@ class EventBusPlugin(MarkerPlugin):
         remove(GameEvent.SHOW_EXTENDED_INFO, self.__handleShowExtendedInfo, scope=settings.SCOPE)
         remove(GameEvent.GUI_VISIBILITY, self.__handleGUIVisibility, scope=settings.SCOPE)
         remove(GameEvent.MARKERS_2D_VISIBILITY, self.__handleMarkerVisibility, scope=settings.SCOPE)
+        remove(GameEvent.GO_TO_PREBATTLE_HIGHLIGHTS, self.__handlePbhActive, scope=settings.SCOPE)
+        remove(GameEvent.RETURN_FROM_PREBATTLE_HIGHLIGHTS, self.__handlePbhInactive, scope=settings.SCOPE)
         super(EventBusPlugin, self).fini()
+        return
+
+    def __setInvisibleFlag(self, value, flag):
+        if value:
+            self.__state |= flag
+        else:
+            self.__state &= ~flag
+        return
+
+    def __updateVisibility(self):
+        self.setVisibility(self.__state == self.InvisibleFlags.EMPTY)
         return
 
     def __handleShowExtendedInfo(self, event):
@@ -314,11 +344,23 @@ class EventBusPlugin(MarkerPlugin):
         return
 
     def __handleGUIVisibility(self, event):
-        self._parentObj.setVisible(event.ctx[b'visible'])
+        self.__setInvisibleFlag(not event.ctx[b'visible'], self.InvisibleFlags.GUI_VISIBILITY)
+        self.__updateVisibility()
+        return
+
+    def __handlePbhActive(self, _):
+        self.__setInvisibleFlag(True, self.InvisibleFlags.PREBATTLE_HIGHLIGHTS)
+        self.__updateVisibility()
+        return
+
+    def __handlePbhInactive(self, _):
+        self.__setInvisibleFlag(False, self.InvisibleFlags.PREBATTLE_HIGHLIGHTS)
+        self.__updateVisibility()
         return
 
     def __handleMarkerVisibility(self, _):
-        self._parentObj.setVisible(not self._parentObj.isVisible())
+        self.__setInvisibleFlag(self._parentObj.isVisible(), self.InvisibleFlags.MARKERS_2D)
+        self.__updateVisibility()
         return
 
 

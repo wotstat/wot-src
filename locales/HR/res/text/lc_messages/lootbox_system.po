@@ -28,6 +28,30 @@ msgstr "PRIMLJENE NAGRADE"
 msgid "awardViews/footer/backButton/"
 msgstr "Razumijem!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} preostalo"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Nema ponovnog otvaranja"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Vrijedna nagrada"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Ponovno otvori besplatno"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nedovoljno obveznica"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Ponovno otvori za {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Otvori ponovno"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Dobivene vrijedne nagrade ne ispunjavaju uvjete za ponovno otvaranje."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Smjernica"
 
@@ -118,6 +142,18 @@ msgstr "Otvoreno kutija: %(count)"
 msgid "common/statsButton"
 msgstr "Statistika"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Odustani"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Kutija će biti ponovno otvorena za priliku primitka drugačije vrijedne nagrade."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Otvori ponovno"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Ponovno otvoriti za {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Odustani"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Akcija će završiti za %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Ako ne otvorite sve kutije prije kraja akcije, one će biti automatski otvorene kasnije."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Ako ne otvorite kutije prije kraja akcije, one će biti automatski otvorene."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Ako već imate sva vozila sa spiska mogućeg sadržaja kutije, sva slijedeća vozila koja dobijete iz kutija će biti kompenzirana zlatom jednakom njihovoj vrijednosti."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Svaka %(guaranteed0)s kutija jamačno sadrži vozilo razine VIII-X. Ako ih otvorite bez primitka takvog vozila, tada će vozilo razine VIII-X koje još nemate biti primljeno kada otvorite %(guaranteed0)s&zwnbsp;. kutiju (ovisno o tipu kutije). Kada primite, brojač se poništava."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Svaka %(guaranteed)s kutija jamačno sadrži vozilo razine VIII-X. Ako ih otvorite bez primitka takvog vozila, tada će vozilo razine VIII-X koje još nemate biti primljeno kada otvorite %(guaranteed)s&zwnbsp;. kutiju (ovisno o tipu kutije). Kada primite, brojač se poništava."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Ako niste zadovoljni s nagradama iz kutije, možete je ponovno otvoriti za primitak različitih predmeta sa istog spiska. Svaka kutija se može ponovno otvoriti ograničeni broj puta:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automatsko otvaranje"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Nadoknada"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Zajamčena nagrada"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Ponovno otvaranje"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Pogledajte spisak predmeta na portalu igre"
@@ -273,6 +315,30 @@ msgstr "za %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D stila %(style)"
+
+msgid "reroll/free"
+msgstr "Besplatno"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Financijska transakcija"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Oduzeto kredita: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Oduzeto obveznica: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Oduzeto zlata: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Akcija %(eventName)s je završila"
@@ -480,3 +546,15 @@ msgstr "Kompenzirana vozila: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Nadoknada za vozilo koje je već u vašoj Garaži."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Ponovno otvaranje"
+
+msgid "tooltip/reroll/price"
+msgstr "Trošak"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Ponovno otvaranje kutije vam daje priliku primitka drugačije nagrade sa istog spiska."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Ponovno otvaranje"

@@ -229,23 +229,14 @@ msgstr "all'acquisto:"
 msgid "battlePassBuyView/descr"
 msgstr "Acquistando una Fase della progressione, sbloccherai immediatamente e otterrai tutte le ricompense incluse in quella Fase."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Queste ricompense ti saranno assegnate al completamento delle Fasi successive."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Le seguenti ricompense ti saranno assegnate per le Fasi %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Riceverai immediatamente le seguenti ricompense"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Le seguenti ricompense ti saranno assegnate per la Fase %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "SARANNO SBLOCCATE"
+msgstr "Sbloccato nelle Fasi non completate"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "SARANNO RICEVUTE IMMEDIATAMENTE"
+msgstr "Ricevuto immediatamente"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Attiva il Capitolo di Pass di battaglia"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Circuito Elite"
 
-msgid "chapter/fullName/201"
-msgstr "Tempo sepolto"
+msgid "chapter/fullName/211"
+msgstr "Specialista"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntman"
 
-msgid "chapter/fullName/203"
-msgstr "Comando del deserto"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoico"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "TEMPO SEPOLTO"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALISTA"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNTMAN"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "COMANDO DEL DESERTO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOICO"
 
 msgid "chapter/title"
 msgstr "CAPITOLO %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Missione Exp dell'equipaggio ×3"
 
 msgid "equipCoinBonus"
 msgstr "Componenti: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Set di accessori 3D"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Capocarro"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Disponibile dopo il completamento di tutti i Capitoli. Capitoli completati: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Ottieni un veicolo Premium ed esclusivi elementi di personalizzazione."
+msgstr "Affrontalo per ricompense esclusive ed elementi di personalizzazione unici."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "É arrivato il Pass di battaglia: Far Cry!"
+msgstr "È arrivato il Capitolo speciale!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Ricevi più ricompense con il Pass migliorato!"
@@ -1114,11 +1102,8 @@ msgstr "Fase %(level)d del Circuito Elite"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "esperienza a ogni membro dell'equipaggio del veicolo %(nation)s selezionato"
 
-msgid "rewardChoice/subTitle"
-msgstr "SELEZIONA LA TUA RICOMPENSA"
-
 msgid "rewardChoice/title"
-msgstr "PASS DI BATTAGLIA"
+msgstr "Seleziona le tue ricompense"
 
 msgid "rewardChoice/titleChapter"
 msgstr "PASS DI BATTAGLIA: CAPITOLO %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "PASS DI BATTAGLIA: CAPITOLO %(chapter)s, FASE %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Alla ricerca tra le sabbie"
+msgid "season/fullName/21"
+msgstr "Esonerati"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "ALLA RICERCA TRA LE SABBIE"
+msgid "season/fullNameUppercased/21"
+msgstr "ESONERATI"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Direttive a scelta"

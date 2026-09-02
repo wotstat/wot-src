@@ -46,6 +46,15 @@ msgstr "Pozwala na bardziej realistyczne modelowanie zniszczenia obiektów na ma
 msgid "HAVOK_ENABLED/warning"
 msgstr "To ustawienie zostanie zastosowane w następnej bitwie, jeśli jest wyłączone w aktualnej bitwie."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Ulepszone efekty wizualne"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Włącza ulepszone efekty wizualne. Wyłączenie tej opcji przywraca standardowe efekty, co może poprawić wydajność gry."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "To ustawienie zostanie zastosowane w następnej bitwie, jeśli jest wyłączone w aktualnej bitwie."
+
 msgid "LANGUAGE_CODE"
 msgstr "pl"
 
@@ -175,11 +184,11 @@ msgstr "Włącz ślady gąsienic i kół"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Pokazuje ślady gąsienic i kół na ziemi.\n\nNiedostępne przy uproszczonej grafice i niskiej jakości naklejek."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Ukryj dodatki 3D w trybie snajperskim"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Widoczność efektów i dodatków 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Tymczasowo ukrywa dodatki 3D pojazdów przed celownikiem działa w trybie snajperskim.\n\nZmniejsza natłok elementów wizualnych i poprawia precyzję celowania."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Dostosowuje widoczność efektów i dodatków 3D w pobliżu środka ekranu, aby zmniejszyć natłok elementów wizualnych podczas celowania. Widoczność dodatków 3D jest dostosowywana tylko w trybie snajperskim.\n\nNiższe wartości sprawiają, że efekty i dodatki 3D są bardziej przezroczyste, co zwiększa przejrzystość podczas celowania."
 
 msgid "WATER_QUALITY"
 msgstr "Jakość wody"
@@ -1995,6 +2004,15 @@ msgstr "Tryb:"
 
 msgid "screenMode/windowed"
 msgstr "Okienkowy"
+
+msgid "showPrebattleHighlights"
+msgstr "Włącz reflektor"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Wyświetla wybór efektownie wyglądających czołgów podczas odliczania przed bitwą.\n\nWyłączenie tego parametru może poprawić wydajność gry."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Jeśli ustawienie jest wyłączone w bieżącej bitwie, zostanie włączone w następnej."
 
 msgid "smoothing/description"
 msgstr "Określa stopień dodatkowego processingu dla cienkich linii i obrysów obiektów w grze. Zmniejsza efekt aliasingu. Krawędzie obiektów wyglądają bardziej naturalnie."

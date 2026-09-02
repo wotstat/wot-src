@@ -1,4 +1,12 @@
-# wot-src • wot-eu • 2.3.1.3 #926
+# wot-src • wot-eu • 2.4.0.0 #930
+
+[![wot-eu status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-eu.json)](https://github.com/wotstat/wot-src/tree/wot-eu)
+[![wot-na status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-na.json)](https://github.com/wotstat/wot-src/tree/wot-na)
+[![wot-asia status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-asia.json)](https://github.com/wotstat/wot-src/tree/wot-asia)
+[![wot-cn status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-cn.json)](https://github.com/wotstat/wot-src/tree/wot-cn)
+[![wot-common-test status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-common-test.json)](https://github.com/wotstat/wot-src/tree/wot-common-test)
+[![mt-ru status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fmt-ru.json)](https://github.com/wotstat/wot-src/tree/mt-ru)
+[![mt-public-test status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fmt-public-test.json)](https://github.com/wotstat/wot-src/tree/mt-public-test)
 
 Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной региональной ветке.
@@ -50,8 +58,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `wot-eu`
 - Ветка: `wot-eu`
-- Версия: `2.3.1.5412`
+- Версия: `2.4.0.5424`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:218dcc83d09b52174da37ab61bb0cb9c33daa92e6bc4bab01c617987df2cdd2a`
+- GameSnapshot: `sha256:528eb88a87a25aa3fd764528c29032ddd788484713502ceb2c679c68491a3e4c`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

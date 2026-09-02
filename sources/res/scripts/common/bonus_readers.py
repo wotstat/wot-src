@@ -24,7 +24,7 @@ from py2to3.compat import base64compat
 if TYPE_CHECKING:
     from ResMgr import DataSection
 __all__ = [
- b'readBonusSection', b'readUTC', b'SUPPORTED_BONUSES']
+ 23, 24, 25, 26, 27]
 
 def bonusReaderLimitDecorator(invoiceLimit, readFunction):
 
@@ -39,7 +39,7 @@ def bonusReaderLimitDecorator(invoiceLimit, readFunction):
 
 
 def getBonusReaders(bonusTypes):
-    return dict((k, __BONUS_READERS[k]) for k in bonusTypes)
+    return dict((k, _BONUS_READERS[k]) for k in bonusTypes)
 
 
 def timeDataToUTC(timeData, default=None):
@@ -1132,7 +1132,7 @@ def __readBonus_group(config, bonusReaders, bonus, section, eventType):
     return limitIDs
 
 
-__BONUS_READERS = {b'meta': __readMetaSection, 
+_BONUS_READERS = {b'meta': __readMetaSection, 
    b'buyAllVehicles': __readBonus_bool, 
    b'buySecretVehicles': __readBonus_bool, 
    b'buySpecialVehicles': __readBonus_bool, 
@@ -1194,13 +1194,23 @@ __BONUS_READERS = {b'meta': __readMetaSection,
 __PROBABILITY_READERS = {b'optional': __readBonus_optional, 
    b'oneof': __readBonus_oneof, 
    b'group': __readBonus_group}
-_RESERVED_NAMES = frozenset([139, 140, 141, 142, 143, 144, 
- 145, 146, 147, 148, 
- 149, 150])
-SUPPORTED_BONUSES = frozenset(__BONUS_READERS)
-__SORTED_BONUSES = sorted(SUPPORTED_BONUSES)
-SUPPORTED_BONUSES_IDS = dict((n, i) for i, n in enumerate(__SORTED_BONUSES))
-SUPPORTED_BONUSES_NAMES = dict(enumerate(__SORTED_BONUSES))
+_RESERVED_NAMES = frozenset([141, 142, 143, 144, 145, 146, 
+ 147, 148, 149, 150, 
+ 151, 152])
+_SUPPORTED_BONUSES = frozenset(_BONUS_READERS)
+
+def getSupportedBonuses():
+    return _SUPPORTED_BONUSES
+
+
+__SORTED_BONUSES = sorted(_SUPPORTED_BONUSES)
+_SUPPORTED_BONUSES_IDS = {n: i for i, n in enumerate(__SORTED_BONUSES)}
+_SUPPORTED_BONUSES_NAMES = dict(enumerate(__SORTED_BONUSES))
+
+def getSupportedBonusesIdsNames():
+    return (
+     _SUPPORTED_BONUSES_IDS, _SUPPORTED_BONUSES_NAMES)
+
 
 def __readBonusLimit(section):
     properties = {}

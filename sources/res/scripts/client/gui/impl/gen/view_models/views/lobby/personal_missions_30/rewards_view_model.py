@@ -1,7 +1,7 @@
 from enum import Enum
 from frameworks.wulf import Array, ViewModel
-from gui.impl.gen.view_models.common.missions.bonuses.icon_bonus_model import IconBonusModel
 from gui.impl.gen.view_models.common.vehicle_info_model import VehicleInfoModel
+from gui.impl.gen.view_models.views.lobby.personal_missions_30.style_bonus_model import StyleBonusModel
 
 class RewardsViewType(Enum):
     VEHICLE_PART = b'vehiclePart'
@@ -14,7 +14,7 @@ class RewardsViewModel(ViewModel):
     __slots__ = (b'close', b'goToOperation', b'goToVehicle', b'disableVideoOverlaySound')
     ARG_REWARD_INDEX = b'tooltipId'
 
-    def __init__(self, properties=8, commands=4):
+    def __init__(self, properties=10, commands=4):
         super(RewardsViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -42,7 +42,7 @@ class RewardsViewModel(ViewModel):
 
     @staticmethod
     def getRewardsType():
-        return IconBonusModel
+        return StyleBonusModel
 
     def getVehicleDetailName(self):
         return self._getString(3)
@@ -79,6 +79,20 @@ class RewardsViewModel(ViewModel):
         self._setNumber(7, value)
         return
 
+    def getButtonDisabled(self):
+        return self._getBool(8)
+
+    def setButtonDisabled(self, value):
+        self._setBool(8, value)
+        return
+
+    def getButtonVisible(self):
+        return self._getBool(9)
+
+    def setButtonVisible(self, value):
+        self._setBool(9, value)
+        return
+
     def _initialize(self):
         super(RewardsViewModel, self)._initialize()
         self._addViewModelProperty(b'vehicle', VehicleInfoModel())
@@ -89,6 +103,8 @@ class RewardsViewModel(ViewModel):
         self._addStringProperty(b'operationName', b'')
         self._addStringProperty(b'nextOperationName', b'')
         self._addNumberProperty(b'operationId', 0)
+        self._addBoolProperty(b'buttonDisabled', False)
+        self._addBoolProperty(b'buttonVisible', False)
         self.close = self._addCommand(b'close')
         self.goToOperation = self._addCommand(b'goToOperation')
         self.goToVehicle = self._addCommand(b'goToVehicle')

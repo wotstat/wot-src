@@ -700,6 +700,9 @@ msgstr "Zone capturée"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Dégâts de la zone d'incendie"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Dégâts infligés"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Véhicule réparé"
 
@@ -741,6 +744,9 @@ msgstr "Dégâts par tir"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Dégâts par Boule de feu"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Dégâts par tir"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Dégâts par collision"
@@ -907,6 +913,9 @@ msgstr "Chenille non pénétrée"
 msgid "hitMarker/wheelBlocked"
 msgstr "Roue non pénétrée"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "RANG MAXIMAL DU VÉHICULE"
 
@@ -1020,6 +1029,21 @@ msgstr "Réparation non nécessaire : tous les éléments sont intacts."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] est opérationnel, aucune réparation nécessaire."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Indisponible : le chargeur est plein."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Indisponible : plus d'obus."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Indisponible : plus de charges."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Indisponible : rechargement presque terminé."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Lancement de roquette indisponible"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Impossible d'activer l'armement coaxial."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm explosif %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm explosif à charge creuse %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Probabilité de coup critique : %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Réduite"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Augmentée"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Dégâts moyens : %(value)s PS"
 
@@ -2710,17 +2746,41 @@ msgstr "Dégâts par seconde : %(value)s PS/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Rayon des dégâts : %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Charge complète / unique"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "De base / Modifié :"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Charge complète / unique :"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standard / Ajusté :"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standard / Calibré :"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Angle de normalisation : %(value)s°"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Perte de pénétration : %(value)s par 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Pénétration moyenne : %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Angle de ricochet : %(value)s°"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Vélocité de l'obus : %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Durée d'étourdissement : %(minValue)s à %(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "pour activer le mode AME"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "pour passer en mode tir"
@@ -2745,6 +2805,9 @@ msgstr "pour activer les Propulseurs à carburant liquide"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "pour activer les propulseurs"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "pour changer les modes de tir"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "pour activer les Réacteurs séquentiels"

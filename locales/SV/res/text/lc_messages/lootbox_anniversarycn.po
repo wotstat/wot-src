@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Lådorna kan innehålla vagnar, spelvaluta eller annat värdefullt spelinnehåll."
+msgstr "Lådorna kan innehålla Premiumvagnar klass VIII, spelvaluta eller annat värdefullt spelinnehåll."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Lådorna kan innehålla vagnar, spelvaluta, utseendeelement, eller annat värdefullt spelinnehåll."
+msgstr "Lådorna kan innehålla Premiumvagnar klass X, spelvaluta eller annat värdefullt spelinnehåll."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Lådorna kan innehålla vagnar, spelvaluta, utseendeelement, eller annat värdefullt spelinnehåll."
+msgstr "Lådorna kan innehålla Premiumvagnar klass IX, spelvaluta eller annat värdefullt spelinnehåll."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Kan erhållas från affären i spelet eller från andra sorters lådor."
+msgstr "Kan erhållas som bonus vid köp i Premiumaffären eller från andra sorters lådor."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Kan erhållas från andra sorters lådor."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Kan erhållas från andra sorters lådor."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Bytesprislåda"
+msgstr "Himmelsk prislåda"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Förmånsprislåda"
+msgstr "Utvald prislåda"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Föräringsprislåda"
+msgstr "Välsignad prislåda"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "BYTESPRISLÅDA"
+msgstr "HIMMELSK PRISLÅDA"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "FÖRMÅNSPRISLÅDA"
+msgstr "UTVALD PRISLÅDA"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "FÖRÄRINGSPRISLÅDA"
+msgstr "VÄLSIGNAD PRISLÅDA"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Det här är speciallådor med nytt och unikt innehåll. De kan erhållas i affären i spelet."
+msgstr "Detta är speciella lådor som innehåller nya och unika vagnar klass VIII–X och andra belöningar.\nDu kan erhålla lådorna som bonus vid köp i Premiumaffären samt från andra sorters lådor."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Evenemanget avslutas om"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Lådor kan inte öppnas eller köpas för tillfället på grund av tekniska problem. Vi ber om ursäkt för besväret."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Gudomligt välsignade lådor tillfälligt ej tillgängliga"
 
 msgid "eventName/lowerCase"
-msgstr "Viskningarnas valv"
+msgstr "Gudomlig välsignelse"
 
 msgid "eventName/upperCase"
-msgstr "VISKNINGARNAS VALV"
+msgstr "GUDOMLIG VÄLSIGNELSE"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Om du redan äger alla vagnar får du en Förmånsprislåda istället."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Om du inte öppnar alla lådor innan evenemanget avslutas kommer de öppnas automatiskt."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Om du redan äger alla vagnar i lådan får du en Förmånsprislåda som belöning istället för en vagn."
+msgstr "Om du redan äger alla vagnar i lådan får du en Utvald prislåda som garanterad belöning istället för en vagn."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Du är garanterad en vagn för varje %(guaranteed0)s Bytes-, %(guaranteed1)s Förärings- och %(guaranteed2)s Förmånsprislådor du öppnar. Om du öppnar så många lådor utan att få en vagn så kommer den %(guaranteed0)s:e/%(guaranteed1)s:e/%(guaranteed2)s:e lådan (beroende på typ av låda) innehålla en vagn du inte redan äger. Därefter nollställs räkningen."
+msgstr "Du är garanterad en Premiumvagn klass VIII–IX för varje %(guaranteed0)s Himmelska-, %(guaranteed1)s Välsignade och %(guaranteed2)s Utvalda prislådor du öppnar. Om du öppnar så många lådor utan att få en vagn så kommer den %(guaranteed0)s:e/%(guaranteed1)s:e/%(guaranteed2)s:e lådan (beroende på typ av låda) innehålla en Premiumvagn klass VIII–IX du inte redan äger. Därefter nollställs räkningen."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompensation"
+msgstr "När alla vagnar mottagits"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garanterad belöning"
+msgid "infoPage/header/description"
+msgstr "Öppna lådor för en chans att få värdefullt spelinnehåll!\nSe vinsttablån nedan."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Kan inte ge mer än en belöning från varje grupp"
+msgid "noBoxesView/description/"
+msgstr "Du har inga lådor.\nDu kan skaffa dem i Premiumaffären."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Utvald prislåda"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Om du redan äger alla vagnar i lådan får du en Utvald prislåda som garanterad belöning istället för en vagn."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Himmelsk prislåda"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Utvald prislåda"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Välsignad prislåda"

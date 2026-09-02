@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n > 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules, des devises du jeu et d'autres récompenses précieuses."
+msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules premium de rang VIII, des devises du jeu et d'autres récompenses précieuses."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules, des devises du jeu, des éléments de personnalisation et d'autres récompenses précieuses."
+msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules rares de rang X, des devises du jeu et d'autres récompenses précieuses."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules, des devises du jeu, des éléments de personnalisation et d'autres récompenses précieuses."
+msgstr "À leur ouverture, ces boîtes peuvent vous rapporter des véhicules premium de rang IX, des devises du jeu et d'autres récompenses précieuses."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Peut être obtenue dans le Magasin en jeu ou en ouvrant des boîtes de tout autre type."
+msgstr "Peut être reçue en cadeau pour l'achat d'objets dans la Boutique premium ainsi qu'en ouvrant des boîtes de n'importe quel autre type."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Peut être reçue en ouvrant des boîtes de n'importe quel autre type."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Peut être reçue en ouvrant des boîtes de n'importe quel autre type."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Boîte du butin"
+msgstr "Boîte céleste"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Boîte de la faveur"
+msgstr "Boîte de l'élu"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Boîte de l'offrande"
+msgstr "Boîte de l'aide divine"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "BOÎTE DU BUTIN"
+msgstr "BOÎTE CÉLESTE"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "BOÎTE DE LA FAVEUR"
+msgstr "BOÎTE DE L'ÉLU"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "BOÎTE DE L'OFFRANDE"
+msgstr "BOÎTE DE L'AIDE DIVINE"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Il s'agit de boîtes spéciales contenant des objets nouveaux et uniques. Elles peuvent être obtenues dans le Magasin en jeu."
+msgstr "Il s'agit de boîtes spéciales contenant des véhicules de rangs VIII à X nouveaux et uniques, ainsi que d'autres récompenses.\nVous pouvez recevoir des boîtes en cadeau pour l'achat d'objets dans la Boutique premium ainsi qu'en ouvrant des boîtes de n'importe quel autre type."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "L'évènement se terminera dans"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Ces boîtes ne peuvent pas être ouvertes ni achetées actuellement pour des raisons techniques. Nous nous excusons pour cette gêne temporaire."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Boîtes de bénédiction divine temporairement indisponibles"
 
 msgid "eventName/lowerCase"
-msgstr "Trésor des Murmures"
+msgstr "Bénédiction divine"
 
 msgid "eventName/upperCase"
-msgstr "TRÉSOR DES MURMURES"
+msgstr "BÉNÉDICTION DIVINE"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Si vous possédez déjà tous les véhicules, vous recevrez une Boîte de la faveur à la place."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si vous n'ouvrez pas toutes les boîtes avant la fin de l'évènement, elles s'ouvriront automatiquement par la suite."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Si vous possédez déjà tous les véhicules disponibles dans ces boîtes, vous recevrez une Boîte de la faveur en récompense à la place d'un véhicule."
+msgstr "Si vous possédez déjà tous les véhicules de la boîte, vous recevrez une Boîte de l'élu en Récompense garantie ou à la place d'un véhicule obtenu."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Chaque %(guaranteed0)s Boîte du butin, %(guaranteed1)s Boîte de la faveur et %(guaranteed2)s Boîte de l'offrande contient assurément un véhicule. Si vous en ouvrez une qui ne contient pas un tel véhicule, alors un véhicule que vous ne possédez pas encore sera obtenu en ouvrant la %(guaranteed0)se/%(guaranteed1)se/%(guaranteed2)se boîte (en fonction du type de boîte). Lorsque cela se produit, le compteur est réinitialisé."
+msgstr "Chaque %(guaranteed0)s Boîte céleste, %(guaranteed1)s Boîte de l'aide divine et %(guaranteed2)s Boîte de l'élu contient assurément un véhicule de rangs VIII à X. Si vous en ouvrez une qui ne contient pas un tel véhicule, alors un véhicule de rangs VIII à X que vous ne possédez pas encore sera obtenu en ouvrant la %(guaranteed0)se/%(guaranteed1)se/%(guaranteed2)se boîte (en fonction du type de boîte). Lorsque cela se produit, le compteur est réinitialisé."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Compensation"
+msgstr "Si tous les véhicules sont reçus"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Récompense garantie"
+msgid "infoPage/header/description"
+msgstr "Ouvrez des boîtes pour tenter de recevoir de précieux objets du jeu !\nRetrouvez la liste des récompenses possibles ci-dessous."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Il n'est pas possible d'obtenir plus d'une récompense par groupe"
+msgid "noBoxesView/description/"
+msgstr "Vous ne possédez aucune boîte.\nVous pouvez en obtenir dans la Boutique premium."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Boîte de l'élu"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si vous possédez déjà tous les véhicules de la boîte, vous recevrez une Boîte de l'élu en Récompense garantie à la place d'un véhicule."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Boîte céleste"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Boîte de l'élu"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Boîte de l'aide divine"

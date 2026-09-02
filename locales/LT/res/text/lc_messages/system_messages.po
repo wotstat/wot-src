@@ -1009,6 +1009,9 @@ msgstr "Įgulos nario(-ių) treniravimas nepavyko dėl serverio klaidos. Pabandy
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Nepavyko gauti dovanos: serverio klaida."
+msgstr "Klaida atidarant dėžę: serverio klaida."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Klaida gaunant dovaną. Prašome palaukti, kol baigsis ankstesnė operacija."
+msgstr "Klaida atidarant dėžę: prašome palaukti kol baigsis ankstesnė operacija."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
@@ -2383,30 +2386,6 @@ msgstr "Gautas unikalus kamufliažas, skirtas %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unikalus kamufliažas, skirtas %(vehicleName)s pasiekiamas visos mašinoms, priklausančioms nacijai: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Visi operacijos pasiekimai išsaugoti. Kampanijas pratęsti galite bet kada."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampanijos %(campaignName1)s ir %(campaignName2)s pristabdytos"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Pristabdytos operacijos ir jų misijos pratęstos."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampanijos %(campaignName1)s ir %(campaignName2)s pratęstos"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Visi operacijos pasiekimai išsaugoti. Kampaniją pratęsti galite bet kada."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampanija %(campaignName)s sustabdyta"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Pristabdytos operacijos pratęstos."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampanija %(campaignName)s pratęsta"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Sėkmingai sumontuota detalė %(detailName)s."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Nepavyko gauti apdovanojimų. Pabandykite vėliau."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Sėkmingai sumontuota detalė %(detail_name)s."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Nepavyko gauti apdovanojimų. Pabandykite vėliau."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Sėkmingai sumontuota detalė %(detail_name)s."
 
 msgid "personalMissions/reward/regular/server_error"

@@ -58,7 +58,7 @@ package net.wg.gui.lobby.settings.components
             createScrollBar();
             invalidate(SCROLL_POSITION_INV);
          }
-         if(isInvalid(InvalidationType.SIZE,SCROLL_POSITION_INV))
+         if(isInvalidTypes(InvalidationType.SIZE,SCROLL_POSITION_INV))
          {
             drawScrollBar();
             _loc1_ = maskObject.graphics;
@@ -74,7 +74,7 @@ package net.wg.gui.lobby.settings.components
                _newFrame = null;
             }
          }
-         if(!_usingExternalRenderers && Boolean(isInvalid(InvalidationType.RENDERERS,InvalidationType.DATA)))
+         if(!_usingExternalRenderers && Boolean(isInvalidTypes(InvalidationType.RENDERERS,InvalidationType.DATA)))
          {
             if(_renderers == null)
             {

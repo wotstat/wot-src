@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neonsprint is een uniek, tijdelijk evenement dat iets compleet anders biedt! Race en vecht op gevaarlijke banen, voltooi missies en verdien beloningen."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+msgstr "De prestatie van jouw computer is voor deze modus onvoldoende. Je zult problemen ervaren met de graphics en voertuigbeweging. Het is ook waarschijnlijk dat de spelclient crasht."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Mogelijk verminderde prestatie"
+msgstr "Lage prestatie"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} alle niveaus"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+msgstr "De prestatie van jouw computer is voor deze modus onvoldoende. Je zult problemen ervaren met de graphics en voertuigbeweging. Het is ook waarschijnlijk dat de spelclient crasht."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Hoogste grafische instellingen aanbevolen"
+msgstr "Lage prestatie"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+msgstr "%(icon) Lage prestatie"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Bij lage grafische instellingen kunnen er problemen en visuele artefacten ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Hoogste grafische instellingen aanbevolen"
+msgstr "Mogelijk verminderde prestatie"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+msgstr "%(icon) Mogelijk verminderde prestatie"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Een nieuwe Neonsprint-missie komt beschikbaar over:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Gefeliciteerd!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Oneindige post-progressie"
+msgstr "Herhaalbaar stadium"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Je hebt de hoofdprogressie voltooid"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Voltooi dit stadium zo vaak als je kan."
+msgstr "Pak zoveel beloningen als je kan:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Punten verdiend: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Herhaalbaar"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Voor voltooiing:"
+msgstr "Voor voltooiing"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Bij nederlaag:"
+msgstr "Bij nederlaag"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Bij winst:"
+msgstr "Bij winst"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Punten:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Je hebt voor nu alle beschikbare missies voltooid. In de volgende ronde komen er meer beschikbaar."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Beschikbaar voor {{timeLeft}}"
+msgstr "Vervalt over {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Beschikbaar voor {{timeLeft}}"
+msgstr "Evenement eindigt over {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nieuwe missies komen beschikbaar over {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Ontwijk de lasers en time je sprongen om naar de finish te snellen!"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Let op: lasers en sprongen"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Als je voertuig vastzit, kun je 'Terug naar checkpoint' gebruiken om terug te teleporteren naar het laatst bereikte checkpoint."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Terug naar checkpoint"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "Leer meer over deze modus"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Vecht je een weg\nnaar de finishlijn"
+msgstr "Vecht je een weg naar de finishlijn"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} alle niveaus"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Bij lage grafische instellingen kunnen er visuele artefacten en andere problemen ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. Deze modus vergt een hoge prestatie. De hoeveelheid FPS kan op intensieve momenten afnemen."
+msgstr "De prestatie van jouw computer is voor deze modus onvoldoende. Je zult problemen ervaren met de graphics en voertuigbeweging. Het is ook waarschijnlijk dat de spelclient crasht."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Hoogste grafische instellingen aanbevolen"
+msgstr "Lage prestatie"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+msgstr "%(icon) Lage prestatie"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Bij lage grafische instellingen kunnen er visuele artefacten en andere problemen ontstaan. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. Deze modus vergt een hoge computerprestatie. De hoeveelheid FPS kan op intensieve momenten afnemen."
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Hoogste grafische instellingen aanbevolen"
+msgstr "Mogelijk verminderde prestatie"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+msgstr "%(icon) Mogelijk verminderde prestatie"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neonsprint"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Race en vecht op gevaarlijke banen, voltooi missies en verdien beloningen."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neonsprint"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neonsprint"

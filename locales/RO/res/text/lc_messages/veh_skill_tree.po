@@ -298,8 +298,26 @@ msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul de putere confe
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Crește cu {colorTagOpen}{value}{colorTagClose} cantitatea maximă de utilizări într-o luptă a acceleratoarelor."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de pregătire inițial până la utilizarea IRST."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea IRST."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} perioada de timp în care vehiculul tău rămâne descoperit pentru inamici, după ce i-ai descoperit cu IRST."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Extinde cu {colorTagOpen}{value0} s{colorTagClose} durata scanării IRST și îngustează suplimentar sectorul de scanare cu {colorTagOpen}{value1} deg{colorTagClose}, crește raza de vizualizare cu {colorTagOpen}{value2}%{colorTagClose} și reduce camuflajul vehiculelor în mișcare cu {colorTagOpen}{value3}%{colorTagClose} și al vehiculelor ascunse de vegetație cu {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Reduce riscul de rănire a echipajului la avarierea vehiculului."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} puterea de penetrare după o lovitură non-penetrantă."
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele după o lovitură penetrantă"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Reduce dispersia tunului atunci când acesta este avariat."
@@ -460,6 +478,18 @@ msgstr "Reduce timpul de încărcare dintre proiectile din caseta tunului."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Reduce riscul de a fi descoperit de vehiculele inamice în timpul focului."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Reduce {colorTagOpen}cu {value} s{colorTagClose} timpul de pregătire al încărcăturii când caseta nu este plină."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Reduce {colorTagOpen}cu {value} s{colorTagClose} timpul de pregătire al încărcăturii când caseta este plină."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Reduce {colorTagOpen}cu încă {value} s{colorTagClose} perioada accelerată de încărcare a proiectilului."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Crește {colorTagOpen}cu {value}{colorTagClose} numărul de încărcături disponibile la începutul luptei."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} perioada până la începerea răcirii tunului."
 
@@ -468,6 +498,18 @@ msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} cantitatea de căldură 
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de răcire a tunului."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de încărcare al lansatorului de rachete coaxial."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de încărcare al lansatorului de rachete coaxial."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de încărcare al lansatorului de rachete coaxial."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value} HP{colorTagClose} daunele rachetei."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Crește daunele provocate de proiectilele non-HE."
@@ -547,6 +589,18 @@ msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} dispersia tunului în mo
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de reîncărcare a tunului în modul Buncăr."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza maximă de înaintare în modul EAF."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value} HP{colorTagClose} daunele provocate de proiectilele speciale în modul EAF."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value} HP{colorTagClose} daunele provocate de proiectilele standard în modul EAF."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de reîncărcare în modul EAF (exceptând HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Crește punctele de integritate ale modulelor motorului și rezervorului de combustibil."
 
@@ -555,6 +609,9 @@ msgstr "Reduce penalizarea compartimentului muniției și motorului după avarie
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Crește daunele provocate de proiectilele tale asupra modulelor vehiculelor inamice."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru a schimba modurile de foc."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Permite crearea unei configurații alternative a muniției și consumabilelor."
@@ -742,6 +799,18 @@ msgstr "Optimizarea formei miezului"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Stocare extinsă a acceleratorului"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Arzător modificat"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Răcire cu lichid performantă"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optică non-divergentă"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Răcire cu lichid paralelă"
+
 msgid "tooltips/title/chassisHP"
 msgstr "HP-ul suspensiei"
 
@@ -750,6 +819,12 @@ msgstr "Viteza de reparare a suspensiei"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Protecția echipajului"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Reglare ajustabilă a focosului: Penetrare"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Reglare ajustabilă a focosului: Daune"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Dispersia situațională a tunului"
@@ -928,6 +1003,18 @@ msgstr "Timpul de reîncărcare în interiorul casetei"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Camuflajul după foc"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Bobinare de înaltă puritate a motorului"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Răcire activă a rotorului"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Cămașă a statorului de înaltă conductivitate"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Bobinare ortociclică"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Fluid de răcire de temperatură scăzută"
 
@@ -936,6 +1023,18 @@ msgstr "Element de răcire de înaltă conductivitate"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimizarea conductelor de răcire"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimizarea ciclului de încărcare"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimizarea ciclului de încărcare"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimizarea ciclului de încărcare"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Aranjament îmbunătățit al explozibilului"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Daunele proiectilelor non-HE"
@@ -1018,6 +1117,18 @@ msgstr "Rotor de înaltă precizie"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Încărcător de tun hidraulic"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Suspensii îmbunătățite"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Proiectile unitare speciale modificate"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Proiectile unitare standard modificate"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Ciclu optimizat de încărcare EAF"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Accelerator selectiv de HP al modulelor"
 
@@ -1026,6 +1137,9 @@ msgstr "Protecție selectivă a modulelor"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Daunele proiectilelor asupra modulelor"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Recalibrare optimizată"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Configurația muniției și consumabilelor"

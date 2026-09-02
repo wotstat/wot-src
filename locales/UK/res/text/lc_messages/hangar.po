@@ -136,6 +136,24 @@ msgstr[0] "{{count}} перемога"
 msgstr[1] "{{count}} перемоги"
 msgstr[2] "{{count}} перемог"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Доступно протягом {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Бойовий досвід"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Щоб відзначити ваше повернення, ми підготували для вас дещо особливе: {{@ style (color #ede6d9e6)}}щоденний бонус за передислокацію{{/}} збільшує заробіток бойового досвіду за першу перемогу на день на кожній машині."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Раді знову бачити вас у строю, бійцю!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Бонус скидається щодня о {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Бонус за передислокацію: доступно"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Натисніть, щоб перейти до списку вибраної техніки"
 

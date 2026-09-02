@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Verstanden!"
 
 msgid "error/description"
-msgstr "Die Information ist vorübergehend nicht verfügbar. Wir bitten für die Unannehmlichkeiten um Entschuldigung. Versuchen Sie es später noch einmal."
+msgstr "Wir bitten für die Unannehmlichkeiten um Entschuldigung. Versuchen Sie es später noch einmal."
 
 msgid "error/title"
-msgstr "Belohnungsabschnitt konnte nicht geöffnet werden"
+msgstr "Diese Seite ist vorübergehend nicht verfügbar."
 
 msgid "footer/closeBtn/label"
 msgstr "Später auswählen"
@@ -23,7 +23,7 @@ msgstr[1] "Wählen Sie Belohnungen aus den verfügbaren Kategorien."
 msgstr[2] "Wählen Sie Belohnungen aus den verfügbaren Kategorien."
 
 msgid "footer/okBtn/label"
-msgstr "Abholen"
+msgstr "Belohnungen abholen"
 
 msgid "footer/rewardsSelected"
 msgstr "Ausgewählte Belohnungen:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Bereits erhalten"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Das Limit für auswählbare Gegenstände dieser Kategorie wurde erreicht. Sie können eine Auswahl rückgängig machen, um stattdessen einen anderen Gegenstand hinzuzufügen."
+msgstr "Sie haben die Maximalzahl Gegenstände für diese Kategorie erreicht. Wählen Sie einen Gegenstand ab, um einen anderen wählen zu können."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limit erreicht"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direktiven\nfür Zubehör"
@@ -93,6 +93,9 @@ msgstr "Standardzubehör"
 
 msgid "tabs/items/trophy"
 msgstr "Erbeutetes Zubehör"
+
+msgid "tooltips/footer/body"
+msgstr "Wählen Sie Belohnungen, um sie abzuholen."
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Klicken Sie auf „Abholen“, um die ausgewählten Belohnungen zu erhalten."

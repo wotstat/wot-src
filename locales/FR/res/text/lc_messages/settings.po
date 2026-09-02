@@ -46,6 +46,15 @@ msgstr "Active un traitement des destructions d'objets plus détaillé et réali
 msgid "HAVOK_ENABLED/warning"
 msgstr "Ce paramètre sera appliqué pour la prochaine bataille s'il est désactivé pour la bataille actuelle."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Effets visuels améliorés"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Active les effets visuels améliorés. Désactiver cette option permet de revenir aux effets standards, ce qui peut améliorer les performances du jeu."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Ce paramètre sera appliqué pour la prochaine bataille s'il est désactivé pour la bataille actuelle."
+
 msgid "LANGUAGE_CODE"
 msgstr "fr"
 
@@ -175,11 +184,11 @@ msgstr "Activer les empreintes des chenilles et des roues"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Affiche les traces de chenilles et de roues sur le sol.\n\nIndisponible avec le préréglage Simplifié des graphismes et une faible qualité des pochoirs."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Cacher les accessoires 3D en mode tireur de précision"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Visibilité des effets et des Accessoires 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Cache temporairement les accessoires 3D dans le réticule du canon en mode tireur de précision.\n\nRéduit l'encombrement visuel et améliore la précision de visée."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ajuste la visibilité des effets et des Accessoires 3D près du centre de l'écran pour réduire l'obstruction visuelle pendant la visée. La visibilité des Accessoires 3D n'est ajustée qu'en mode Tireur de précision.\n\nLes valeurs plus basses rendent les effets et les accessoires 3D plus transparents pour une meilleure clarté de visée."
 
 msgid "WATER_QUALITY"
 msgstr "Qualité de l'eau"
@@ -1995,6 +2004,15 @@ msgstr "Mode :"
 
 msgid "screenMode/windowed"
 msgstr "Fenêtré"
+
+msgid "showPrebattleHighlights"
+msgstr "Activer le projecteur"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Affiche une sélection de chars visuellement impressionnants pendant le compte à rebours d'avant-bataille.\n\nDésactiver ce paramètre peut améliorer les performances du jeu."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Si le paramètre est désactivé pour la bataille actuelle, il sera activé pour la prochaine."
 
 msgid "smoothing/description"
 msgstr "Détermine le degré de traitement supplémentaire de la finesse des lignes et des contours des objets du jeu sur la scène du jeu. Minimise l'effet de crénelage. Les contours des objets ont un aspect plus naturel."

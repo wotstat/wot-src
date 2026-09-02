@@ -79,7 +79,7 @@
 					<plan>comp7Abilities/hunter_client</plan>
 				</client>
 			</visualScript>
-			<cooldownSeconds>30
+			<cooldownSeconds>20
 				<exports>vse</exports>
 			</cooldownSeconds>
 			<duration>5
@@ -88,7 +88,7 @@
 			<heal>10 16 22
 				<exports>vse tooltip</exports>
 			</heal>
-			<gunReloadTimeBuff>5.5
+			<gunReloadTimeBuff>6.5
 				<exports>vse tooltip</exports>
 			</gunReloadTimeBuff>
 			<tickInterval>1.0
@@ -111,19 +111,19 @@
 					<plan>comp7Abilities/concentration_server</plan>
 				</server>
 			</visualScript>
-			<cooldownSeconds>18
+			<cooldownSeconds>15
 				<exports>vse</exports>
 			</cooldownSeconds>
 			<duration>12
 				<exports>vse tooltip</exports>
 			</duration>
-			<aimingTimeBuff>0.55 0.475 0.3
+			<aimingTimeBuff>0.55 0.475 0.4
 				<exports>vse</exports>
 			</aimingTimeBuff>
-			<shotDispersionFactors>0.55 0.475 0.3
+			<shotDispersionFactors>0.55 0.475 0.4
 				<exports>vse tooltip</exports>
 			</shotDispersionFactors>
-			<clipReloadTimeBoost>0.6 0.75 0.9
+			<clipReloadTimeBoost>0.6 0.7 0.85
 				<exports>vse tooltip</exports>
 			</clipReloadTimeBoost>
 		</script>
@@ -149,7 +149,7 @@
 			<duration>12
 				<exports>vse tooltip</exports>
 			</duration>
-			<gunReloadTimeBuff>0.75 0.725 0.7
+			<gunReloadTimeBuff>0.8 0.75 0.7
 				<exports>vse tooltip</exports>
 			</gunReloadTimeBuff>
 			<damageDistance>150
@@ -175,7 +175,7 @@
 					<plan>comp7Abilities/aoeInspire_server</plan>
 				</server>
 			</visualScript>
-			<cooldownSeconds>7
+			<cooldownSeconds>12
 				<exports>vse</exports>
 			</cooldownSeconds>
 			<duration>20
@@ -208,7 +208,7 @@
 			<delay>3
 				<exports>vse tooltip</exports>
 			</delay>
-			<radius>10 12.5 15
+			<radius>12.5 12.5 15
 				<exports>vse tooltip</exports>
 			</radius>
 			<damage>100 150 250
@@ -261,7 +261,7 @@
 			<gunReloadTimeBuff>0.7 0.6 0.50
 				<exports>vse tooltip</exports>
 			</gunReloadTimeBuff>
-			<gunTemperatureBuff>-15 -30 -50
+			<gunTemperatureBuff>-35 -47.5 -60
 				<exports>vse tooltip</exports>
 			</gunTemperatureBuff>
 		</script>
@@ -296,7 +296,7 @@
 			<fwMaxSpeedBonus>10
 				<exports>vse tooltip</exports>
 			</fwMaxSpeedBonus>
-			<bkMaxSpeedBonus>7
+			<bkMaxSpeedBonus>2
 				<exports>vse tooltip</exports>
 			</bkMaxSpeedBonus>
 			<rammingDamageBonus>1.30
@@ -328,7 +328,7 @@
 			<duration>20
 				<exports>vse tooltip</exports>
 			</duration>
-			<shotDispersionFactors>0.8 0.7 0.6
+			<shotDispersionFactors>0.6 0.5 0.4
 				<exports>vse tooltip</exports>
 			</shotDispersionFactors>
 			<slvl>1.0 1.2 1.45
@@ -427,7 +427,7 @@
 					<plan>comp7Abilities/recon_server</plan>
 				</server>
 			</visualScript>
-			<cooldownSeconds>10
+			<cooldownSeconds>12
 				<exports>vse</exports>
 			</cooldownSeconds>
 			<duration>7 10 15
@@ -466,7 +466,7 @@
 			<duration>15
 				<exports>vse tooltip</exports>
 			</duration>
-			<visionFactor>1.15 1.2 1.25
+			<visionFactor>1.20 1.275 1.35
 				<exports>vse tooltip</exports>
 			</visionFactor>
 		</script>

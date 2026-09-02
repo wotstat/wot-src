@@ -139,15 +139,6 @@ msgstr "Se acordă pentru contribuția neprețuită a jucătorilor la evoluția 
 msgid "15YearsOfService_descr"
 msgstr "Joci jocul din %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP Reserve Achievement 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Se acordă pentru finalizarea progresului."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Se acordă pentru realizările tale în joc"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP Reserve Achievement 2"
 
@@ -429,6 +420,15 @@ msgstr "• Se acordă pentru finalizarea tuturor celor trei capitole."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Se acordă pentru realizările tale pe perioada Certificatului de luptă, Sezonul XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Încleștare în mlaștini"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Se acordă pentru finalizarea tuturor celor trei capitole."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Se acordă pentru realizările tale pe perioada Certificatului de luptă, Sezonul XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Progresul principal are 45 de episoade."
@@ -1828,6 +1828,48 @@ msgstr "Dragonul de Argint"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Se acordă pentru strângerea a minim 9 Culori Violență în Anul Dragonului din modul Violență."
 
+msgid "comp7_6_1"
+msgstr "Scânteia de Azur"
+
+msgid "comp7_6_1_descr"
+msgstr "Se acordă pentru finalizarea unei serii de misiuni în Sezonul Phoenixului de Azur din modul Violență."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Phoenixul de Bronz"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Se acordă pentru strângerea a minim 6 Culori Violență în Anul Phoenixului din modul Violență."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Campion: Anul Phoenixului"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Se acordă pentru strângerea a minim 15 Culori Violență în Anul Phoenixului din modul Violență."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Phoenixul de Aur"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Se acordă pentru strângerea a minim 12 Culori Violență în Anul Phoenixului din modul Violență."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Phoenixul de Fier"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Se acordă pentru strângerea a minim 3 Culori Violență în Anul Phoenixului din modul Violență."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legendă: Anul Phoenixului"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Se acordă pentru strângerea a minim 18 Culori Violență în Anul Phoenixului din modul Violență."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Phoenixul de Argint"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Se acordă pentru strângerea a minim 9 Culori Violență în Anul Phoenixului din modul Violență."
+
 msgid "conqueror"
 msgstr "Cuceritor %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "Poate fi obţinut doar in Lupte standard."
 
 msgid "huntsman_descr"
-msgstr "Distruge toate tancurile uşoare inamice (cel puţin trei), într-o singură luptă."
+msgstr "Distruge toate tancurile uşoare inamice (cel puţin 2), într-o singură luptă."
 
 msgid "huntsman_heroInfo"
 msgstr "Sergentul Grigori Nikolaevici Naidin a fost comandant de BT-7. Pe 25 iunie 1941, lângă oraşul lituanian Rudiškiai, a distrus o coloană blindată germană, ce includea 15 vehicule şi 10 tunuri ale Corpului 19 mecanizat. Naidin a reuşit să împiedice înaintarea germanilor timp de două zile, făcând posibilă organizarea apărării în zona capitalei Vilnius. Pentru acţiunile sale, Naidin a fost declarat erou al URSS."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Finalizează cu onoruri 15 misiuni personale pentru Uniune. Recompensă: medalia Performanță exemplară: Uniune, Clasa III."
 
 msgid "readyForBattleAssault"
-msgstr "Performanță exemplară: Avangardă"
+msgstr "Performanță exemplară: Avangardă, Sectorul 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Pentru finalizarea tuturor misiunilor Avangardă în campania Sectorul 3."
+msgstr "Pentru finalizarea tuturor misiunilor Avangardă în operațiunile principale din campania Sectorul 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Performanță exemplară: Avangardă Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Pentru finalizarea tuturor misiunilor Avangardă în operațiunea Fossa din campania Sectorul 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Performanță exemplară: Ambuscadă Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Pentru finalizarea tuturor misiunilor Ambuscadă în operațiunea Fossa din campania Sectorul 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Performanță exemplară: Asistență Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Pentru finalizarea tuturor misiunilor Asistență în operațiunea Fossa din campania Sectorul 3."
 
 msgid "readyForBattleHT"
 msgstr "Performanţă Exemplară: Tancuri grele"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Finalizează cu onoruri 15 misiuni personale pentru antitancuri. Distincție: medalia \"Performanţă Exemplară: Artilerie\" clasa IV."
 
 msgid "readyForBattleSniper"
-msgstr "Performanță exemplară: Ambuscadă"
+msgstr "Performanță exemplară: Ambuscadă, Sectorul 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Pentru finalizarea tuturor misiunilor Ambuscadă în campania Sectorul 3."
+msgstr "Pentru finalizarea tuturor misiunilor Ambuscadă în operațiunile principale din campania Sectorul 3."
 
 msgid "readyForBattleSupport"
-msgstr "Performanță exemplară: Asistență"
+msgstr "Performanță exemplară: Asistență, Sectorul 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Pentru finalizarea tuturor misiunilor Asistență în campania Sectorul 3."
+msgstr "Pentru finalizarea tuturor misiunilor Asistență în operațiunile principale din campania Sectorul 3."
 
 msgid "reliableComrade"
 msgstr "Camarad de încredere"
@@ -4692,6 +4761,15 @@ msgstr "Se acordă pentru finalizarea progresului în Waffenträger: Paradox. Ac
 
 msgid "wt2025progression_descr"
 msgstr "Finalizează progresul modului Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Călărețul furtunii"
+
+msgid "wt2026progression_condition"
+msgstr "Se acordă pentru finalizarea Progresiei în Waffenträger: Genesis 2026. Această onoare le este acordată celor care s-au opus primei mașinării gânditoare a lui von Krieger, Inteligența Electrică, și au întrerupt fiecare circuit prin care aceasta ajungea în lumea noastră."
+
+msgid "wt2026progression_descr"
+msgstr "Finalizează progresul în Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Maestrul Fulgerelor"

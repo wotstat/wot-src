@@ -1,15 +1,15 @@
 from __future__ import absolute_import
-import logging, weakref, GUI, Math, SoundGroups
-from AvatarInputHandler import AvatarInputHandler
+import logging, typing, weakref, GUI, Math, SoundGroups
+from gui.battle_control import minimap_utils
 from gui.Scaleform.daapi.view.battle.shared.map_zones.minimap import MapZonesEntriesPlugin
-from gui.Scaleform.daapi.view.battle.shared.minimap import settings, plugins
+from gui.Scaleform.daapi.view.battle.shared.minimap import plugins, settings
+from gui.Scaleform.daapi.view.battle.shared.minimap.common import MinimapPluginsCollection
 from gui.Scaleform.daapi.view.meta.MinimapMeta import MinimapMeta
 from gui.Scaleform.flash_wrapper import InputKeyMode
-from gui.battle_control import minimap_utils, avatar_getter
-from gui.shared.utils.plugins import PluginsCollection
 from helpers import dependency
-from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.gui.battle_session import IBattleSessionProvider
+if typing.TYPE_CHECKING:
+    from gui.Scaleform.daapi.view.battle.shared.minimap.interfaces import IMinimapPlugin
 _IMAGE_PATH_FORMATTER = b'img://{}'
 _logger = logging.getLogger(__name__)
 _DEFUALT_MINIMAP_DIMENSION = 10
@@ -163,14 +163,14 @@ class MinimapComponent(MinimapMeta, IMinimapComponent):
         return
 
     def _setupPlugins(self, arenaVisitor):
-        setup = {b'equipments': (plugins.EquipmentsPlugin), 
+        return {b'equipments': (plugins.EquipmentsPlugin), 
            b'vehicles': (plugins.ArenaVehiclesPlugin), 
            b'personal': (plugins.PersonalEntriesPlugin), 
            b'area': (plugins.AreaStaticMarkerPlugin), 
            b'area_markers': (plugins.AreaMarkerEntriesPlugin), 
            b'spgShot': (plugins.EnemySPGShotPlugin), 
-           b'map_zones': MapZonesEntriesPlugin}
-        return setup
+           b'map_zones': MapZonesEntriesPlugin, 
+           b'vehicleMechanics': (plugins.VehicleMechanicsCollectionMinimapPlugin)}
 
     def _createFlashComponent(self):
         return GUI.WGMinimapFlashAS3(self.app.movie, settings.MINIMAP_COMPONENT_PATH)
@@ -223,43 +223,3 @@ class MinimapComponent(MinimapMeta, IMinimapComponent):
 
     def getCellName(self, cellId):
         return b''
-
-
-class MinimapPluginsCollection(PluginsCollection):
-    settingsCore = dependency.descriptor(ISettingsCore)
-
-    def start(self):
-        super(MinimapPluginsCollection, self).start()
-        handler = avatar_getter.getInputHandler()
-        if handler is not None:
-            if isinstance(handler, AvatarInputHandler):
-                handler.onCameraChanged += self.__onCameraChanged
-            self._invoke(b'initControlMode', handler.ctrlModeName, handler.ctrls.keys())
-        self.settingsCore.onSettingsChanged += self.__onSettingsChanged
-        self._invoke(b'setSettings')
-        return
-
-    def stop(self):
-        handler = avatar_getter.getInputHandler()
-        if handler is not None:
-            if isinstance(handler, AvatarInputHandler):
-                handler.onCameraChanged -= self.__onCameraChanged
-        self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
-        super(MinimapPluginsCollection, self).stop()
-        return
-
-    def onMinimapClicked(self, x, y, buttonIdx, minimapScaleIndex):
-        self._invoke(b'onMinimapClicked', x, y, buttonIdx, minimapScaleIndex)
-        return
-
-    def applyNewSize(self, sizeIndex):
-        self._invoke(b'applyNewSize', sizeIndex)
-        return
-
-    def __onSettingsChanged(self, diff):
-        self._invoke(b'updateSettings', diff)
-        return
-
-    def __onCameraChanged(self, mode, vehicleID=0):
-        self._invoke(b'updateControlMode', mode, vehicleID)
-        return

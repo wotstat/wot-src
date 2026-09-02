@@ -46,6 +46,15 @@ msgstr "Ermöglicht die detailliertere und realistische Objektzerstörung auf Ka
 msgid "HAVOK_ENABLED/warning"
 msgstr "Die Einstellung wird im nächsten Gefecht angewandt, wenn sie im aktuellen Gefecht deaktiviert ist."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Verbesserte Grafikeffekte"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Aktiviert verbesserte Grafikeffekte. Das Deaktivieren dieser Option führt wieder zu den Standardeffekten und kann die Leistung des Spiels verbessern."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Die Einstellung wird im nächsten Gefecht angewandt, wenn sie im aktuellen Gefecht deaktiviert ist."
+
 msgid "LANGUAGE_CODE"
 msgstr "de"
 
@@ -175,11 +184,11 @@ msgstr "Ketten- und Radspuren einschalten"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Zeigt Ketten- und Radspuren auf dem Boden an.\n\nNicht verfügbar in der vereinfachten Grafikeinstellung und bei geringer Qualität der Dekore."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "3D-Aufsätze in Zielfernrohransicht verbergen"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Sichtbarkeit von Effekten und 3D-Aufsätzen"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Verbirgt die 3D-Aufsätze in der Zielfernrohransicht vorübergehend.\n\nReduziert visuelle Störfaktoren und kann die Präzision im Zielvorgang verbessern."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Passt die Sichtbarkeit von Effekten und 3D-Aufsätzen nahe der Mitte des Bildschirms an, um visuelle Behinderungen beim Zielen zu reduzieren. Die Sichtbarkeit von 3D-Aufsätzen wird nur in der Zielfernrohransicht angepasst.\n\nNiedrigere Werte machen die Effekte und 3D-Aufsätze transparenter, um besser zielen zu können."
 
 msgid "WATER_QUALITY"
 msgstr "Wasserqualität"
@@ -1995,6 +2004,15 @@ msgstr "Modus:"
 
 msgid "screenMode/windowed"
 msgstr "Fenster"
+
+msgid "showPrebattleHighlights"
+msgstr "Rampenlicht aktivieren"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Zeigt eine Auswahl visuell auffälliger Panzer während des Countdowns der Gefechtsvorbereitung.\n\nDas Deaktivieren dieser Option kann die Leistung des Spiels verbessern."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Wenn die Einstellung für das aktuelle Gefecht deaktiviert ist, wird sie im nächsten Gefecht aktiviert sein."
 
 msgid "smoothing/description"
 msgstr "Legt den zusätzlichen Bearbeitungsgrad von dünnen Linien und Spielobjektkonturen auf der Spielszenerie fest. Verringert den Kantenglättungseffekt. Objektkonturen wirken natürlicher."

@@ -1009,6 +1009,9 @@ msgstr "Αδύνατη η εκπαίδευση μελών του πληρώμα�
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε σύνδεση στο World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Σφάλμα στην παραλαβή του δώρου: σφάλμα του server."
+msgstr "Σφάλμα στο άνοιγμα του κοντέινερ: Σφάλμα του server."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Σφάλμα στην παραλαβή του δώρου. Περιμένετε να ολοκληρωθεί η προηγούμενη λειτουργία."
+msgstr "Σφάλμα στο άνοιγμα του κοντέινερ: Περιμένετε να ολοκληρωθεί η προηγούμενη λειτουργία."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
@@ -2383,30 +2386,6 @@ msgstr "Απονεμήθηκε Μοναδικό Καμουφλάζ για το %
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Το Μοναδικό Καμουφλάζ για το %(vehicleName)s είναι διαθέσιμο για όλα τα οχήματα του έθνους: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Όλη η πρόοδός σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε την ολοκλήρωση των αποστολών εκστρατείας ανά πάσα στιγμή."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Οι εκστρατείες %(campaignName1)s και %(campaignName2)s σταμάτησαν"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Οι επιχειρήσεις που είχατε σταματήσει συνεχίζονται."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Οι εκστρατείες %(campaignName1)s και %(campaignName2)s συνεχίζονται"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Όλη η πρόοδός σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε την ολοκλήρωση των αποστολών εκστρατείας ανά πάσα στιγμή."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Η εκστρατεία %(campaignName)s σταμάτησε"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Οι επιχειρήσεις που είχατε σταματήσει συνεχίζονται."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Η εκστρατεία %(campaignName)s συνεχίζεται"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Το εξάρτημα %(detailName)s τοποθετήθηκε επιτυχώς."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Σφάλμα στην παραλαβή των επάθλων. Προσπαθήστε ξανά αργότερα."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Το εξάρτημα %(detail_name)s τοποθετήθηκε επιτυχώς."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Σφάλμα στην παραλαβή των επάθλων. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Το εξάρτημα %(detail_name)s τοποθετήθηκε επιτυχώς."
 
 msgid "personalMissions/reward/regular/server_error"

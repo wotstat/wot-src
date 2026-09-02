@@ -40,7 +40,8 @@
 }
 .Background_c9c07c32 .Background_video__hide_d60dcdcb {
   display: none;
-}@keyframes BackgroundSwitcher_fadeIn_e3a89c70 {
+}
+@keyframes BackgroundSwitcher_fadeIn_e3a89c70 {
   from {
     opacity: 0;
   }
@@ -71,7 +72,8 @@
   opacity: 0;
   z-index: -2;
   transition-delay: 0.6s;
-}@keyframes Content_fadeIn_da09528a {
+}
+@keyframes Content_fadeIn_da09528a {
   from {
     opacity: 0;
   }
@@ -87,7 +89,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
-}@keyframes Waiting_fadeIn_b299f9ac {
+}
+@keyframes Waiting_fadeIn_b299f9ac {
   from {
     opacity: 0;
   }
@@ -112,7 +115,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
-}@keyframes Page_fadeIn_fefb19c8 {
+}
+@keyframes Page_fadeIn_fefb19c8 {
   from {
     opacity: 0;
   }
@@ -138,7 +142,8 @@
   100% {
     opacity: 1;
   }
-}@keyframes Body_fadeIn_26aeb497 {
+}
+@keyframes Body_fadeIn_26aeb497 {
   from {
     opacity: 0;
   }
@@ -154,7 +159,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-}@keyframes Footer_fadeIn_4308958a {
+}
+@keyframes Footer_fadeIn_4308958a {
   from {
     opacity: 0;
   }
@@ -181,7 +187,8 @@
   align-items: center;
   width: 100%;
   position: relative;
-}@keyframes Overlay_fadeIn_3c7155a {
+}
+@keyframes Overlay_fadeIn_3c7155a {
   from {
     opacity: 0;
   }
@@ -202,7 +209,8 @@
   position: absolute;
   top: 0;
   left: 0;
-}@keyframes Content_fadeIn_da09528a {
+}
+@keyframes Content_fadeIn_da09528a {
   from {
     opacity: 0;
   }
@@ -270,7 +278,8 @@
 }
 .Content_closeButton_8b152291 {
   z-index: 1;
-}@keyframes Fade_fadeIn_a3d79be9 {
+}
+@keyframes Fade_fadeIn_a3d79be9 {
   from {
     opacity: 0;
   }
@@ -292,7 +301,37 @@
 .Fade_fade__instant_138f4be0 {
   opacity: 1;
   visibility: visible;
-}@keyframes Content_fadeIn_da09528a {
+}
+@keyframes Primary_fadeIn_de486f54 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Primary_button_83787639 {
+  min-width: 184rem;
+}
+.mediaLarge .Primary_button_83787639 {
+  min-width: 218rem;
+}
+@keyframes Secondary_fadeIn_e7e2e829 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Secondary_count_9f35fa12 {
+  color: rgba(var(--color-general-primary-rgb), 0.9);
+}
+@keyframes Content_fadeIn_da09528a {
   from {
     opacity: 0;
   }
@@ -316,7 +355,8 @@
 }
 .mediaLarge .Content_ea4d5755 {
   padding-bottom: 80rem;
-}@keyframes Description_fadeIn_49efcb55 {
+}
+@keyframes Description_fadeIn_49efcb55 {
   from {
     opacity: 0;
   }
@@ -350,7 +390,8 @@
 }
 .Description_vehicleType__elite_20e2cd35 {
   margin: 0 6rem;
-}@keyframes Media_fadeIn_40807d1 {
+}
+@keyframes Media_fadeIn_40807d1 {
   from {
     opacity: 0;
   }
@@ -387,7 +428,8 @@
 }
 .Media_base__showImage_40807d1 .Media_video_c82b1173 {
   visibility: hidden;
-}@keyframes Title_fadeIn_2e63cf3 {
+}
+@keyframes Title_fadeIn_2e63cf3 {
   from {
     opacity: 0;
   }
@@ -406,7 +448,8 @@
 }
 .mediaLarge .Title_26a7859d {
   font-size: 64rem;
-}@keyframes Page_fadeIn_fefb19c8 {
+}
+@keyframes Page_fadeIn_fefb19c8 {
   from {
     opacity: 0;
   }
@@ -453,7 +496,8 @@
 .mediaLarge .Page_vehicleType__elite_6f268e3f {
   margin-left: 10rem;
   margin-right: 10rem;
-}@keyframes RewardOverlay_fadeIn_fbbf0c4d {
+}
+@keyframes RewardOverlay_fadeIn_fbbf0c4d {
   from {
     opacity: 0;
   }
@@ -532,7 +576,8 @@
     opacity: 1;
     transform: translateY(0rem);
   }
-}@keyframes RewardVideo_fadeIn_6b6af3b9 {
+}
+@keyframes RewardVideo_fadeIn_6b6af3b9 {
   from {
     opacity: 0;
   }
@@ -554,7 +599,8 @@
 }
 .RewardVideo_video__show_7ae3a7e8 {
   visibility: visible;
-}@keyframes Count_fadeIn_d63373f8 {
+}
+@keyframes Count_fadeIn_d63373f8 {
   from {
     opacity: 0;
   }
@@ -569,7 +615,8 @@
   font-weight: 400;
   line-height: 1.3em;
   color: rgba(var(--color-general-primary-rgb), 0.9);
-}@keyframes Overlay_fadeIn_3c7155a {
+}
+@keyframes Overlay_fadeIn_3c7155a {
   from {
     opacity: 0;
   }
@@ -593,7 +640,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}@keyframes Badge_fadeIn_686da836 {
+}
+@keyframes Badge_fadeIn_686da836 {
   from {
     opacity: 0;
   }
@@ -608,7 +656,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-}@keyframes Icon_fadeIn_55a8ab20 {
+}
+@keyframes Icon_fadeIn_55a8ab20 {
   from {
     opacity: 0;
   }
@@ -620,7 +669,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 .Icon_2beee90a {
   background: no-repeat center/contain;
-}@keyframes Reward_fadeIn_21f091ec {
+}
+@keyframes Reward_fadeIn_21f091ec {
   from {
     opacity: 0;
   }
@@ -630,10 +680,6 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Reward_2df31201 {
-  margin: 16rem 6rem 0;
-}
-
-.Reward_2df31201 .Reward_count_298a4419 {
+.Reward_21f091ec .Reward_count_298a4419 {
   position: absolute;
 }

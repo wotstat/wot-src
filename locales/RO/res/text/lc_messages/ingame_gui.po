@@ -700,6 +700,9 @@ msgstr "Zonă capturată"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Daune de la zona de foc"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Daune provocate"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Vehicul reparat"
 
@@ -741,6 +744,9 @@ msgstr "Daune cu proiectile"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Daune cu mingea de foc"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Daune cu proiectile"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Daune prin lovire"
@@ -907,6 +913,9 @@ msgstr "Nu s-a penetrat șenila"
 msgid "hitMarker/wheelBlocked"
 msgstr "Nu s-a penetrat roata"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "VEHICUL DE GENERAȚIA MAXIMĂ"
 
@@ -1020,6 +1029,21 @@ msgstr "Reparaţiile nu sunt necesare, nu există componente avariate."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] nu necesită reparaţii."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Indisponibil: Caseta e plină."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Indisponibil: Nu mai sunt proiectile."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Indisponibil: Nu mai sunt încărcături."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Indisponibil: Reîncărcarea aproape finalizată."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Lansarea de rachete e indisponibilă"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nu pot activa armamentul coaxial."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm exploziv (HE) %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm exploziv antitanc (HEAT) %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Șansa de lovituri critice: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Redusă"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Crescută"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Daune medii: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Daune pe secundă: %(value)s HP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Raza daunelor: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Încărcare parțială / întreagă"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Standard / Modificată:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Încărcare parțială / întreagă:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standard / Ajustată:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standard / Calibrată:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Unghiul de normalizare: %(value)s grade"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Pierderea penetrării: %(value)s per 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Penetrare medie: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Unghiul de ricoșeu: %(value)s grade"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Viteză a obuzului: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Durată șoc: %(minValue)s-%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "pentru a activa modul EAF"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "pentru a trece în modul de asediu"
@@ -2745,6 +2805,9 @@ msgstr "pentru a activa Acceleratoarele cu combustibil lichid"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "pentru a activa racheto-accelerarea"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "pentru a schimba modurile de foc"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "pentru a activa Acceleratoarele secvențiale"

@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Scatto al neon è un evento unico a tempo limitato che offre qualcosa di diverso! Gareggia e lotta lungo tracciati pericolosi, completa le missioni e ottieni ricompense."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova ad abbassare la qualità grafica dalle Impostazioni."
+msgstr "Le prestazioni del tuo computer non sono sufficienti per questa modalità. Potresti riscontrare problemi grafici e con il movimento del veicolo. Sono probabili anche crash del client."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Possibili prestazioni ridotte"
+msgstr "Basse prestazioni"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova ad abbassare la qualità grafica dalle Impostazioni."
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Tutti i livelli"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Con basse impostazioni grafiche, si potrebbero verificare artefatti grafici e problemi. Per la migliore esperienza possibile, consigliamo di selezionare l'impostazione grafica più alta, fintanto che le specifiche del computer soddisfano i requisiti. La modalità richiede elevate prestazioni del computer. Gli FPS potrebbero calare durante i combattimenti più intensi."
+msgstr "Le prestazioni del tuo computer non sono sufficienti per questa modalità. Potresti riscontrare problemi grafici e con il movimento del veicolo. Sono probabili anche crash del client."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Si consigliano le impostazioni grafiche più elevate"
+msgstr "Basse prestazioni"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Si consigliano le impostazioni grafiche più elevate"
+msgstr "%(icon) Basse prestazioni"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Con basse impostazioni grafiche, si potrebbero verificare artefatti grafici e problemi. Per la migliore esperienza possibile, consigliamo di selezionare l'impostazione grafica più alta, fintanto che le specifiche del computer soddisfano i requisiti. La modalità richiede elevate prestazioni del computer. Gli FPS potrebbero calare durante i combattimenti più intensi."
+msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova ad abbassare la qualità grafica dalle Impostazioni."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Si consigliano le impostazioni grafiche più elevate"
+msgstr "Possibili prestazioni ridotte"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Si consigliano le impostazioni grafiche più elevate"
+msgstr "%(icon) Possibili prestazioni ridotte"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Una nuova missione di Scatto al neon sarà disponibile tra:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Congratulazioni!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Post-progressione infinita"
+msgstr "Fase ripetibile"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Hai completato la progressione principale"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Completa questa Fase tutte le volte che riesci."
+msgstr "Ottieni quante più ricompense possibili:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Punti ottenuti: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Ripetibile"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Per il completamento:"
+msgstr "Per il completamento"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Per sconfitta:"
+msgstr "Per sconfitta"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Per vittoria:"
+msgstr "Per vittoria"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Punti:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Per ora hai completato tutte le missioni disponibili. Altre appariranno con la prossima rotazione."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Disponibile per {{timeLeft}}"
+msgstr "Scade tra {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Disponibile per {{timeLeft}}"
+msgstr "L'evento termina tra {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nuove missioni disponibili tra {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Schiva i laser e calcola attentamente il momento giusto per saltare per 
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Attenzione: laser e salti"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Se il tuo veicolo rimane bloccato, usa l'abilità \"Ritorna al checkpoint\" per teletrasportarti all'ultimo checkpoint che hai raggiunto."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Ritorna al checkpoint"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "per scoprire di più su questa modalità"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Apriti la strada\nverso la linea del traguardo"
+msgstr "Apriti la strada verso la linea del traguardo"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Tutti i livelli"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Con basse impostazioni grafiche, si potrebbero verificare artefatti grafici e altri problemi. Per la migliore esperienza possibile, consigliamo di selezionare l'impostazione grafica più alta, fintanto che le specifiche del computer soddisfano i requisiti. Questa modalità richiede elevate prestazioni e gli FPS potrebbero calare durante i momenti più intensi."
+msgstr "Le prestazioni del tuo computer non sono sufficienti per questa modalità. Potresti riscontrare problemi grafici e con il movimento del veicolo. Sono probabili anche crash del client."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Si consigliano le impostazioni grafiche più elevate"
+msgstr "Basse prestazioni"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Si consigliano le impostazioni grafiche più elevate"
+msgstr "%(icon) Basse prestazioni"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Con basse impostazioni grafiche, si potrebbero verificare artefatti grafici e altri problemi. Per la migliore esperienza possibile, consigliamo di selezionare l'impostazione grafica più alta, fintanto che le specifiche del computer soddisfano i requisiti. Questa modalità richiede elevate prestazioni del computer. I tuoi FPS potrebbero calare durante i momenti più intensi."
+msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova ad abbassare la qualità grafica dalle Impostazioni."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Si consigliano le impostazioni grafiche più elevate"
+msgstr "Possibili prestazioni ridotte"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Si consigliano le impostazioni grafiche più elevate"
+msgstr "%(icon) Possibili prestazioni ridotte"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "SCATTO AL NEON"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Gareggia e lotta lungo tracciati pericolosi, completa le missioni e ottieni ricompense."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Scatto al neon"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "SCATTO AL NEON"

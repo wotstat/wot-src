@@ -232,11 +232,35 @@ msgstr "Tämä tykki voi ampua jatkuvasti ilman tarvetta ladata välissä. Jokai
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Ylikuumenemista hallinnoiva konetykki"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mekanismi lyhentää välittömästi ammuksen latausaikaa kiinteään lyhyeen aikaan. Kukin käyttö kuluttaa yhden latauksen per ammus ja lataukset palautuvat ajan kanssa – nopeammin, kun lipas on täynnä. Taistelun alkaessa on tarjolla tietty määrä latauksia."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Pakottava latausmekanismi"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Tämä vaunu on varustettu tykin kilpeen asennetulla raketinheittimellä. Vaihtaaksesi raketin tähtäimeen paina:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaksiaalinen raketinheitin"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Paina rakettitähtäintä käyttäessäsi ampumanappia laukaistaksesi raketin:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaksiaalinen raketinheitin"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Joka kerta osuessasi viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta.\nVihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Puoliautomaattinen ammusteline"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Tämän vaunun ulkoinen ammustäydennysmoduuli antaa mahdollisuuden ampua tehokkaita, viritettyjä ammuksia, jotka tekevät enemmän vahinkoa. Aktiivisena ollessaan tämä moduuli myös heikentää liikkuvuutta ja tulinopeutta."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Ulkoisen ammussyötön tila"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Jos tykkisi on ladattu, voit ryhtyä lämmittämään seuraavaa laukaustasi. Mitä korkeamman lämmitystason saavutat, sitä suuremman bonuksen saat keskimääräiseen vahinkoon.\nAloittaaksesi lämmitysprosessi paina:"
@@ -345,6 +369,30 @@ msgstr "Aktivoitaessa suihkumoottorit lisäävät moottoritehoa ja huippunopeutt
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Hyödyt ja haitat"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Osuessasi näkyvään vihollisvaunuun ammuksella säädetään seuraavan ammuksen sytyttimen asetusta. Mikäli ensimmäinen ammus läpäisi vihollispanssarin, kasvatetaan seuraavan ammuksen vahinkoa. Mikäli se ei läpäissyt, kasvatetaan seuraavan ammuksen läpäisyä."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Säädettävä sytyttimen asetin"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Vaunun tykillä on erikoismekanismeja, jotka mahdollistavat joidenkin ammusten parametrien säätöä ennen ampumista. Eri ammusten ominaisuudet vaihtelevat valitun tilan mukaan ja kukin tila antaa sinun sopeutua nopeasti erilaisiin taistelutilanteisiin."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Ammusten kalibrointijärjestelmä"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Kehittynyt optinen laite, joka kasvattaa näkökykyäsi ja helpottaa liikkuvien ja kasvillisuuden kätkemien vaunujen havaitsemista. Aktivoitaessa se skannaa kapean sektorin vaunusi edestä paljastaen kätketyt kohteet ennen jäähtymisaikaa."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrapuna haku ja jäljitys (IPHJ)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Jos se paljastaa havaitsemattoman vihollisen, myös sinä tulet havaituksi tietyksi ajaksi ja sekä sinua että havaitsemiasi vihollisia tiedotetaan asiasta välittömästi. Voit pysäyttää skannauksen manuaalisesti ja aloittaa laitteen jäähtymisajan lyhyellä viiveellä."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrapuna haku ja jäljitys (IPHJ)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Kiinteällä polttoaineella toimivat suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ohjattavuutta muutaman sekunnin ajan. Vasen ja oikea moottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen. Ne eivät myöskään rajoita vaunun ohjattavuutta."

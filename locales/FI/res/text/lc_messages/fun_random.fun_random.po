@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neon-syöksy on ainutlaatuinen, rajoitetun ajan saatavilla oleva tapahtuma, joka tarjoaa jotain erilaista! Kisaa ja kamppaile läpi vaarallisten ratojen, suorita tehtäviä ja ansaitse palkintoja."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta valita heikompi grafiikan laatu asetuksista."
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelimuotoon. Kohtaat ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Mahdollisesti heikentynyt suorituskyky"
+msgstr "Heikko suorituskyky"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta valita heikompi grafiikan laatu asetuksista."
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Mahdollisesti heikentynyt suorituskyky"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Kaikki tasot"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelimuotoon. Kohtaat ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Parasta grafiikan tasoa suositellaan"
+msgstr "Heikko suorituskyky"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+msgstr "%(icon) Heikko suorituskyky"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Parasta grafiikan tasoa suositellaan"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+msgstr "%(icon) Mahdollisesti heikentynyt suorituskyky"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Uuden Neon-syöksyn tehtävän saataville tuloon:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Onneksi olkoon!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Loputon jälkiedistyminen"
+msgstr "Toistettava vaihe"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Suoritit ensisijaisen edistymisen"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Suorita tämä vaihe niin monta kertaa kuin voit."
+msgstr "Hanki niin monta palkintoa kuin pystyt:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Pisteitä ansaittu: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Toistettava"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Suorittamisesta:"
+msgstr "Suorittamisesta"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Tappiosta:"
+msgstr "Tappiosta"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Voitosta:"
+msgstr "Voitosta"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Pisteitä:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Olet suorittanut kaikki nyt saatavilla olevat tehtävät. Seuraava rotaatio tuo lisää tehtäviä."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Saatavilla: {{timeLeft}}"
+msgstr "Vanhenemiseen: {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Saatavilla: {{timeLeft}}"
+msgstr "Tapahtuman päättymiseen {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Uusien tehtävien saataville tulemiseen {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Väistä lasereita ja ajoita hyppysi huolella vauhdittaaksesi maaliin p�
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Varoitus: lasereita ja hyppyjä"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Jos vaunusi jää jumiin, käytä \"Palaa tarkistuspisteeseen\" -kykyä teleportataksesi takaisin viimeisimpään saavuttamaasi tarkistuspisteeseen."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Palaa tarkistuspisteeseen"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "saadaksesi lisätietoa tästä pelimuodosta"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Taistele tiesi\nmaaliviivalle"
+msgstr "Taistele tiesi maaliviivalle"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Kaikki tasot"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla muita ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Tämä pelimuoto vaatii paljon suorituskykyä ja ruudunpäivitysnopeus voi heikentyä intensiivisinä hetkinä."
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelimuotoon. Kohtaat ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Parasta grafiikan tasoa suositellaan"
+msgstr "Heikko suorituskyky"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+msgstr "%(icon) Heikko suorituskyky"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla muita ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Tämä pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeutesi voi heikentyä intensiivisinä hetkinä."
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Parasta grafiikan tasoa suositellaan"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+msgstr "%(icon) Mahdollisesti heikentynyt suorituskyky"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "NEON-SYÖKSY"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Kisaa ja kamppaile läpi vaarallisten ratojen, suorita tehtäviä ja ansaitse palkintoja."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon-syöksy"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "NEON-SYÖKSY"

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Po otevření vám z těchto beden mohou padnout prémiová vozidla, herní měny a další hodnotné odměny."
+msgstr "Po otevření vám z těchto beden mohou padnout prémiová vozidla VIII. úrovně, herní měny a dalších hodnotné odměny."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Po otevření vám z těchto beden mohou padnout vozidla, herní měny, prvky na úpravu vzhledu a další hodnotné odměny."
+msgstr "Po otevření vám z těchto beden mohou padnout vzácná vozidla X. úrovně, herní měny a dalších hodnotné odměny."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Po otevření vám z těchto beden mohou padnout vozidla, herní měny, prvky na úpravu vzhledu a další hodnotné odměny."
+msgstr "Po otevření vám z těchto beden mohou padnout prémiová vozidla IX. úrovně, herní měny a dalších hodnotné odměny."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Lze získat z herního obchodu a po otevření beden jakéhokoliv typu."
+msgstr "Lze získat jako dárek za nákup předmětů v prémiovém obchodě a také při otevírání beden jakéhokoliv jiného typu."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Lze získat při otevírání beden jakéhokoliv jiného typu."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Lze získat při otevírání beden jakéhokoliv jiného typu."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Plná bedna"
+msgstr "Nebeská bedna zásob"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Kvalitní bedna"
+msgstr "Vyvolená bedna zásob"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Svatá bedna"
+msgstr "Bedna zásob s nebeskou pomocí"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "PLNÁ BEDNA"
+msgstr "NEBESKÁ BEDNA ZÁSOB"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "KVALITNÍ BEDNA"
+msgstr "VYVOLENÁ BEDNA ZÁSOB"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "SVATÁ BEDNA"
+msgstr "BEDNA ZÁSOB S NEBESKOU POMOCÍ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Jedná se o speciální bedny obsahující nové a jedinečné předměty. Lze je získat v herním obchodě."
+msgstr "Toto jsou speciální bedny, které obsahují nová a jedinečná vozidla VIII.–X. úrovně a další odměny.\nBedny můžete získat jako dárek za nákup předmětů v prémiovém obchodě a také je lze získat při otevírání beden jakéhokoliv jiného typu."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Akce skončí za"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Bedny nelze v současné době z technických důvodů otevřít ani zakoupit. Omlouváme se za dočasné potíže."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Bedny zásob božího požehnání jsou dočasně nedostupné"
 
 msgid "eventName/lowerCase"
-msgstr "Tichá pokladnice"
+msgstr "Boží požehnání"
 
 msgid "eventName/upperCase"
-msgstr "TICHÁ POKLADNICE"
+msgstr "BOŽÍ POŽEHNÁNÍ"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Pokud již vlastníte všechna vozidla, obdržíte místo toho kvalitní bednu."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Pokud neotevřete všechny bedny před koncem akce, budou později otevřeny automaticky."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Pokud již všechna vozidla z bedny vlastníte, obdržíte jako zaručenou odměnu namísto vozidla kvalitní bednu."
+msgstr "Pokud již všechna vozidla z bedny vlastníte, obdržíte jako zaručenou odměnu nebo namísto vypadnuvšího vozidla vyvolenou bednu zásob."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Každá %(guaranteed0)s. plná bedna, %(guaranteed1)s. kvalitní bedna a %(guaranteed2)s. svatá bedna zásob zaručeně obsahuje vozidlo. Pokud daný počet beden otevřete aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. bedny padne v závislosti na typu bedny vozidlo, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+msgstr "Každá %(guaranteed0)s. nebeská bedna zásob, %(guaranteed1)s. bedna zásob s nebeskou pomocí a %(guaranteed2)s. vyvolená bedna zásob zaručeně obsahuje vozidlo VIII.–X. úrovně. Pokud daný počet beden otevřete aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. bedny padne v závislosti na typu bedny vozidlo VIII.–X. úrovně, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompenzace"
+msgstr "Když jsou získána všechna vozidla"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Zaručená odměna"
+msgid "infoPage/header/description"
+msgstr "Otevírejte bedny pro šanci získat cenné herní předměty!\nNíže najdete seznam možných odměn."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Z každé skupiny může padnout nanejvýš jedna odměna"
+msgid "noBoxesView/description/"
+msgstr "Nemáte žádné bedny.\nMůžete je pořídit v prémiovém obchodě."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Vyvolená bedna zásob"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Pokud již všechna vozidla z bedny vlastníte, obdržíte jako zaručenou odměnu namísto vozidla vyvolenou bednu zásob."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Nebeská bedna zásob"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Vyvolená bedna zásob"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Bedna zásob s nebeskou pomocí"

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import typing
 from constants import OFFERS_ENABLED_KEY, DAILY_QUESTS_CONFIG
 from gui.impl.gen import R
@@ -46,12 +47,12 @@ class RewardProgressBlockPresenter(BaseBlockPresenter[RewardProgressBlockModel])
         return getRewardProgressType(self._winbackData)
 
     def createToolTipContent(self, event, contentID):
-        if contentID == R.views.lobby.winback.tooltips.SelectableRewardTooltip():
+        if contentID == R.views.mono.winback.tooltips.selectable_reward_tooltip():
             tooltipId = event.getArgument(b'tooltipId')
             tooltipData = self._tooltipData.get(tooltipId)
             if tooltipData:
                 return SelectableRewardTooltip(**tooltipData)
-        if contentID == R.views.lobby.winback.tooltips.MainRewardTooltip():
+        if contentID == R.views.mono.winback.tooltips.main_reward_tooltip():
             return MainRewardTooltip(self._winbackData.get(b'lastQuest', {}).get(b'bonuses', []))
         return super(RewardProgressBlockPresenter, self).createToolTipContent(event, contentID)
 

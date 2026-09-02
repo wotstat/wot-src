@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Отримано золота"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Ви отримали медаль «%(nameMedal)s» за участь у кампанії «%(campaignName)s»."
+msgstr "За успішне виконання завдання кампанії «%(campaignName)s» ви отримали медаль «%(nameMedal)s»."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Вітаємо!"
@@ -1929,6 +1929,21 @@ msgstr "За успішне виконання 30 завдань із сері�
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "За успішне виконання 15 завдань із серії «%(categoryName)s» кампанії «%(campaignName)s» ви отримали медаль «%(nameMedal)s»."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "За успішне виконання завдання кампанії «%(campaignName)s» ви отримали медаль «%(nameMedal)s»."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Вітаємо!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "За успішне виконання 21 завдання із серії «%(categoryName)s» операції «%(operationName)s» ви отримали медаль «%(nameMedal)s»."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "За успішне виконання 14 завдань із серії «%(categoryName)s» операції «%(operationName)s» ви отримали медаль «%(nameMedal)s»."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "За успішне виконання 7 завдань із серії «%(categoryName)s» операції «%(operationName)s» ви отримали медаль «%(nameMedal)s»."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "штраф за шкоду завдану союзникам: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Натисніть на кнопку, щоб побачити вміст."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Вам посилка:"
+msgstr "Посилку отримано"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "«%(name)s» %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Дивитися"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "×%(count)s"
+msgstr "До нагород"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Відкрито порталів: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Ми відкрили за вас портали та додали їх�
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Отримано нагороди"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Ми відчинили за вас коробки та додали нагороди за Новорічний наступ"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "Ми відкрили за вас конверти Місячного нового року."
@@ -3399,6 +3408,18 @@ msgstr "Універсальні фрагменти"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "Національні фрагменти %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Змінено комплектацію такої техніки: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Увага!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'> та ще %(vehiclesCount)s </font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr "•"
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Після оновлення всі деколі знято з техніки й переміщено на Склад у розділ «Зовнішній вигляд»."

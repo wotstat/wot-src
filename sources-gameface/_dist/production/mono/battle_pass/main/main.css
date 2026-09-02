@@ -87,7 +87,8 @@
 }
 .BuyButtons_button_8a617f11 + .BuyButtons_button_8a617f11 {
   margin-left: 12rem;
-}@keyframes Title_fadeInWithScale_2e63cf3 {
+}
+@keyframes Title_fadeInWithScale_2e63cf3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -198,7 +199,8 @@
 }
 .mediaExtraLarge .Title_subTitle_2bbdc239 {
   transform: translateY(6rem);
-}@keyframes Delta_fadeInWithScale_468d0ae6 {
+}
+@keyframes Delta_fadeInWithScale_468d0ae6 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -275,7 +277,9 @@
 /* stylelint-disable selector-no-qualifying-type */
 .Delta_7e5549 {
   height: 100%;
-  filter: drop-shadow(0 0 16rem rgba(255, 154, 82, 0.5)) drop-shadow(0 0 8rem rgba(255, 196, 108, 0.24)) drop-shadow(0 0 4rem rgba(var(--color-status-link-rgb), 0.16));
+  filter: drop-shadow(0 0 16rem rgba(255, 154, 82, 0.5))
+    drop-shadow(0 0 8rem rgba(255, 196, 108, 0.24))
+    drop-shadow(0 0 4rem rgba(var(--color-status-link-rgb), 0.16));
   position: absolute;
   top: 0;
   left: 0;
@@ -307,7 +311,8 @@
 .Delta_inside__increase_fcd871c4 {
   right: auto;
   left: 0;
-}@keyframes Pointer_fadeInWithScale_ee848147 {
+}
+@keyframes Pointer_fadeInWithScale_ee848147 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -430,7 +435,8 @@
 }
 .Pointer_pointer__down_925b0a0d:hover::after {
   background-image: url(R.images.gui.maps.icons.ui.progressbar.pointer_down_hover);
-}@keyframes LevelSlider_fadeInWithScale_aecacc79 {
+}
+@keyframes LevelSlider_fadeInWithScale_aecacc79 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -519,13 +525,18 @@
   opacity: 1;
 }
 
-[lang=th] .LevelSlider_label_aecacc79, [lang=ko] .LevelSlider_label_aecacc79, [lang=ja] .LevelSlider_label_aecacc79, [lang=zh_tw] .LevelSlider_label_aecacc79, [lang=zh_sg] .LevelSlider_label_aecacc79, [lang=zh_cn] .LevelSlider_label_aecacc79,
-[lang=th] .LevelSlider_labelDynamic_a0abcf78,
-[lang=ko] .LevelSlider_labelDynamic_a0abcf78,
-[lang=ja] .LevelSlider_labelDynamic_a0abcf78,
-[lang=zh_tw] .LevelSlider_labelDynamic_a0abcf78,
-[lang=zh_sg] .LevelSlider_labelDynamic_a0abcf78,
-[lang=zh_cn] .LevelSlider_labelDynamic_a0abcf78 {
+[lang="th"] .LevelSlider_label_aecacc79,
+[lang="ko"] .LevelSlider_label_aecacc79,
+[lang="ja"] .LevelSlider_label_aecacc79,
+[lang="zh_tw"] .LevelSlider_label_aecacc79,
+[lang="zh_sg"] .LevelSlider_label_aecacc79,
+[lang="zh_cn"] .LevelSlider_label_aecacc79,
+[lang="th"] .LevelSlider_labelDynamic_a0abcf78,
+[lang="ko"] .LevelSlider_labelDynamic_a0abcf78,
+[lang="ja"] .LevelSlider_labelDynamic_a0abcf78,
+[lang="zh_tw"] .LevelSlider_labelDynamic_a0abcf78,
+[lang="zh_sg"] .LevelSlider_labelDynamic_a0abcf78,
+[lang="zh_cn"] .LevelSlider_labelDynamic_a0abcf78 {
   min-width: 16rem;
   text-align: center;
 }
@@ -536,7 +547,8 @@
 
 .LevelSlider_hidden_2d711256 {
   visibility: hidden;
-}@keyframes RewardsList_fadeInWithScale_bed41ebf {
+}
+@keyframes RewardsList_fadeInWithScale_bed41ebf {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -638,7 +650,8 @@
   font-weight: 400;
   line-height: 1.14;
   opacity: 0.9;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -778,7 +791,8 @@
 .mediaExtraLarge .Content_scrollBar_c1dabd5f {
   max-height: 85%;
   transform: translate(13rem, 35rem);
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -881,7 +895,8 @@
 
 .Footer_currencyIcon_cfcb6dcf {
   margin-left: 5rem;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1040,97 +1055,8 @@
 }
 .mediaExtraLarge .App_title_536f5f20 {
   transform: translateY(-39rem);
-}@keyframes ChapterBackground_fadeInWithScale_bc0126d9 {
-  0% {
-    opacity: 0;
-    transform: scale(1.2);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
-@keyframes ChapterBackground_slideUp_bc0126d9 {
-  0% {
-    opacity: 0;
-    transform: translateY(20rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes ChapterBackground_blink_bc0126d9 {
-  0% {
-    filter: brightness(1);
-  }
-  16% {
-    filter: brightness(3);
-  }
-  100% {
-    filter: brightness(1);
-  }
-}
-@keyframes ChapterBackground_scale_bc0126d9 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes ChapterBackground_rotate_bc0126d9 {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes ChapterBackground_windowIn_bc0126d9 {
-  from {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes ChapterBackground_fadeOut_bc0126d9 {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes ChapterBackground_fadeIn_bc0126d9 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.ChapterBackground_69fd488d {
-  background: no-repeat center/cover;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  transition: opacity 0.2s step-end;
-}
-.ChapterBackground_base__current_fdadf34 {
-  opacity: 1;
-  z-index: 1;
-  transition: opacity 0.2s cubic-bezier(0.37, 0, 0.63, 1);
-}@keyframes GroupTitle_fadeInWithScale_bdc8a0f5 {
+@keyframes GroupTitle_fadeInWithScale_bdc8a0f5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1205,65 +1131,45 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.GroupTitle_10694817 {
+.GroupTitle_eaeb27ea {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 32rem;
+  align-items: center;
+  color: #ede6d9;
+  font-size: 34rem;
+  font-weight: 500;
+  line-height: 1.1;
   overflow: hidden;
   position: relative;
 }
-
-.GroupTitle_title_30d20078 {
-  display: flex;
-  margin-bottom: 10rem;
+.mediaMedium .GroupTitle_eaeb27ea {
+  font-size: 46rem;
 }
 
-.GroupTitle_iconShadow_15df5427 {
-  width: 100rem;
-  height: 60rem;
+.GroupTitle_iconContainer_53d16b22 {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 10rem;
+  position: relative;
+}
+.mediaMedium .GroupTitle_iconContainer_53d16b22 {
+  width: 32rem;
+  height: 32rem;
+}
+
+.GroupTitle_icon_fd08ab04 {
+  width: 32rem;
+  height: 32rem;
   background: no-repeat center/cover;
   position: absolute;
-  top: -12rem;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.GroupTitle_base__now_bdc8a0f5 .GroupTitle_iconShadow_15df5427 {
-  background-image: url("R.images.gui.maps.icons.battlePass.buy.rewards.checkedShadow");
+.mediaMedium .GroupTitle_icon_fd08ab04 {
+  width: 48rem;
+  height: 48rem;
 }
-.GroupTitle_base__future_bdc8a0f5 .GroupTitle_iconShadow_15df5427 {
-  background-image: url("R.images.gui.maps.icons.battlePass.buy.rewards.blockedShadow");
-}
-
-.GroupTitle_icon_8cd628dc {
-  width: 36rem;
-  height: 36rem;
-  margin-top: 6rem;
-  background: no-repeat center/cover;
-}
-.GroupTitle_base__now_bdc8a0f5 .GroupTitle_icon_8cd628dc {
-  background-image: url("R.images.gui.maps.icons.battlePass.buy.rewards.checked");
-}
-.GroupTitle_base__future_bdc8a0f5 .GroupTitle_icon_8cd628dc {
-  background-image: url("R.images.gui.maps.icons.battlePass.buy.rewards.blocked");
-}
-
-.GroupTitle_titleText_a92b7265 {
-  color: #f2f2f7;
-  font-size: 36rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.GroupTitle_descriptionText_bfc23e31 {
-  margin: -2rem 0 0 5rem;
-  color: #c9c9b6;
-  font-size: 16rem;
-}
-
-.GroupTitle_steps_fb03b880 {
-  margin-left: 4rem;
-  color: #e9e2bf;
-}@keyframes GroupRewards_fadeInWithScale_fa8808d2 {
+@keyframes GroupRewards_fadeInWithScale_fa8808d2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1344,10 +1250,19 @@
   justify-content: flex-start;
 }
 
-.GroupRewards_item_662b83cb {
+.GroupRewards_item_17e76f62 {
   margin: -10rem 0;
+  padding: 20rem 10rem;
+}
+.mediaMedium .GroupRewards_item_17e76f62 {
   padding: 25rem 20rem;
-}@keyframes RewardsBlock_fadeInWithScale_5feff608 {
+}
+
+.GroupRewards_title_a5115b64 {
+  margin-left: 0;
+  margin-right: 0;
+}
+@keyframes RewardsBlock_fadeInWithScale_5feff608 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1430,153 +1345,25 @@
 .RewardsBlock_479e00eb:nth-child(2) {
   margin-top: 50rem;
 }
-.mediaMedium .RewardsBlock_479e00eb:nth-child(2) {
+.mediaLarge .RewardsBlock_479e00eb:nth-child(2) {
   margin-top: 70rem;
 }
 
-.RewardsBlock_groupTitle_f9f5fbdd {
+.RewardsBlock_title_677ec3f0 {
   width: 100%;
-  margin-top: 20rem;
   margin-bottom: 10rem;
 }
-.mediaMedium .RewardsBlock_groupTitle_f9f5fbdd {
+.mediaLarge .RewardsBlock_title_677ec3f0 {
+  margin-bottom: 24rem;
+}
+
+.RewardsBlock_rewards_e9af771e {
+  margin-bottom: 10rem;
+}
+.mediaMedium .RewardsBlock_rewards_e9af771e {
   margin-bottom: 15rem;
 }
-
-.RewardsBlock_groupRewards_2893db92 {
-  margin: 0 0 10rem -20rem;
-  padding-left: 32rem;
-}
-.mediaMedium .RewardsBlock_groupRewards_2893db92 {
-  margin-bottom: 15rem;
-}
-.RewardsBlock_groupRewards__future_d962e74b {
-  opacity: 0.5;
-}@keyframes ScrollWithLips_fadeInWithScale_846161e6 {
-  0% {
-    opacity: 0;
-    transform: scale(1.2);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes ScrollWithLips_slideUp_846161e6 {
-  0% {
-    opacity: 0;
-    transform: translateY(20rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes ScrollWithLips_blink_846161e6 {
-  0% {
-    filter: brightness(1);
-  }
-  16% {
-    filter: brightness(3);
-  }
-  100% {
-    filter: brightness(1);
-  }
-}
-@keyframes ScrollWithLips_scale_846161e6 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes ScrollWithLips_rotate_846161e6 {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes ScrollWithLips_windowIn_846161e6 {
-  from {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes ScrollWithLips_fadeOut_846161e6 {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes ScrollWithLips_fadeIn_846161e6 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.ScrollWithLips_b466eb6f {
-  position: relative;
-}
-
-.ScrollWithLips_lip_b541dfde {
-  height: 96rem;
-  background: url("R.images.gui.maps.icons.battlePass.buy.lip") no-repeat center center/cover;
-  position: absolute;
-  right: 50rem;
-  left: 50rem;
-  z-index: 2;
-  pointer-events: none;
-}
-.mediaMedium .ScrollWithLips_lip_b541dfde {
-  height: 112rem;
-  right: 20rem;
-  left: 20rem;
-}
-.mediaLarge .ScrollWithLips_lip_b541dfde {
-  height: 144rem;
-  right: 45rem;
-  left: 45rem;
-}
-.ScrollWithLips_lip__top_4610f987 {
-  top: -1rem;
-  transform: translate(0, -50%);
-}
-.ScrollWithLips_lip__bottom_1755a6e5 {
-  bottom: 0;
-  transform: translate(0, 50%) rotate(180deg);
-}
-
-.ScrollWithLips_scroll_35d7ef3c {
-  visibility: hidden;
-}
-.ScrollWithLips_scroll__loaded_76bcfcc5 {
-  visibility: visible;
-}
-
-.ScrollWithLips_topButton_9c4da3a2 {
-  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.arrow_top") no-repeat center/7rem 5rem;
-}
-
-.ScrollWithLips_bottomButton_810d617c {
-  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.arrow_down") no-repeat center/7rem 5rem;
-}
-
-.ScrollWithLips_track_a8bacc80 {
-  margin: 0 0 1rem;
-}@keyframes Content_fadeInWithScale_da09528a {
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1651,30 +1438,64 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Content_d0e2f711 {
+.Content_690d4e59 {
   display: flex;
-  justify-content: center;
-  width: 940rem;
-  margin: 90rem 0 70rem;
+  margin: 60rem 0;
 }
-.mediaMedium .Content_d0e2f711 {
-  width: 1260rem;
-}
-.mediaLarge .Content_d0e2f711 {
-  width: 1280rem;
+.Content_base__hasScroll_d4326fda {
+  margin: 0;
 }
 
-.Content_mainContent_3c1770a6 {
+.Content_mask_3c273268 {
+  display: flex;
+  mask-image: none;
+  mask-repeat: no-repeat;
+  transition: mask 0.1s ease-in;
+}
+.Content_mask__top_49c2b256 {
+  mask-image: linear-gradient(to top, #000 85%, rgba(0, 0, 0, 0.1));
+}
+.Content_mask__bottom_73ebbe0b {
+  mask-image: linear-gradient(to bottom, #000 85%, rgba(0, 0, 0, 0.1));
+}
+.Content_mask__both_5a3cae0c {
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    #000 15%,
+    #000 85%,
+    rgba(0, 0, 0, 0.1)
+  );
+}
+
+.Content_4089e099 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1;
-  padding: 0 20rem;
+  align-items: center;
+  max-width: 1000rem;
+  position: relative;
 }
-.Content_base__noScroll_da09528a .Content_mainContent_3c1770a6 {
-  justify-content: center;
-  height: 100%;
-}@keyframes MoreRewards_fadeInWithScale_f9116c45 {
+.mediaMedium .Content_4089e099 {
+  max-width: 1200rem;
+}
+.Content_base__hasScroll_d4326fda .Content_4089e099 {
+  justify-content: flex-start;
+  margin-right: 10rem;
+}
+.mediaMedium .Content_base__hasScroll_d4326fda .Content_4089e099 {
+  margin-right: 40rem;
+}
+.mediaLarge .Content_base__hasScroll_d4326fda .Content_4089e099 {
+  margin-right: 60rem;
+}
+
+.Content_base__hasScroll_d4326fda .Content_rewardsBlock_da09528a,
+.Content_base__hasScroll_d4326fda .Content_scrollBar_1436f72c {
+  height: auto;
+  margin: 100rem 0;
+}
+@keyframes MoreRewards_fadeInWithScale_f9116c45 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1749,14 +1570,14 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.MoreRewards_c02e454c {
+.MoreRewards_3800bba1 {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
-.MoreRewards_content_16a0f9d5 {
+.MoreRewards_content_797d0c7d {
   opacity: 0;
   animation-name: MoreRewards_fadeIn_f9116c45;
   animation-duration: 0.5s;
@@ -1764,24 +1585,23 @@
   animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1);
   animation-delay: 0.2s;
   animation-iteration-count: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
   position: relative;
 }
 
-.MoreRewards_background_c0223b52 {
+.MoreRewards_background_485149b6 {
+  opacity: 0;
+  animation-name: MoreRewards_fadeIn_f9116c45;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1);
+  animation-delay: 0.2s;
+  animation-iteration-count: 1;
+  background: no-repeat center center/cover;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 0;
-  pointer-events: none;
 }
 
 .MoreRewards_shadow_8f93a270 {
@@ -1792,7 +1612,8 @@
   position: absolute;
   top: 0;
   left: 0;
-}@keyframes Emblem_fadeInWithScale_9b4d607c {
+}
+@keyframes Emblem_fadeInWithScale_9b4d607c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1973,7 +1794,8 @@
   width: 160rem;
   height: 160rem;
   background-size: 160rem;
-}@keyframes PurchaseBlock_fadeInWithScale_1e77a9b2 {
+}
+@keyframes PurchaseBlock_fadeInWithScale_1e77a9b2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2099,7 +1921,8 @@
   background-image: url(R.images.gui.maps.icons.battlePass.buy.price_lip);
   top: -28rem;
   left: -52rem;
-}@keyframes DiscountIcon_fadeInWithScale_217d872d {
+}
+@keyframes DiscountIcon_fadeInWithScale_217d872d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2213,7 +2036,8 @@
 .mediaMedium .DiscountIcon_highlight_75d6adf {
   width: 560rem;
   height: 337rem;
-}@keyframes Logos_fadeInWithScale_a6e21e34 {
+}
+@keyframes Logos_fadeInWithScale_a6e21e34 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2347,13 +2171,15 @@
 .Logos_starterPack_f4dabb81::before {
   width: 32rem;
   height: 32rem;
-  background: url(R.images.gui.maps.icons.battlePass.icons.starter_pack.x36x36) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.battlePass.icons.starter_pack.x36x36) no-repeat
+    center/contain;
   content: "";
   position: absolute;
   bottom: 6rem;
   left: -8rem;
   transform: rotate(15deg);
-}@keyframes ShopOfferBlock_fadeInWithScale_d7452f2d {
+}
+@keyframes ShopOfferBlock_fadeInWithScale_d7452f2d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2532,7 +2358,8 @@
 }
 .mediaMedium .ShopOfferBlock_button_4790b6d6 {
   margin-top: 36rem;
-}@keyframes AnimatedReward_fadeInWithScale_acd88dcf {
+}
+@keyframes AnimatedReward_fadeInWithScale_acd88dcf {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2610,7 +2437,8 @@
 .AnimatedReward_1789d927 {
   display: flex;
   position: relative;
-}@keyframes Rewards_fadeInWithScale_405577a5 {
+}
+@keyframes Rewards_fadeInWithScale_405577a5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2766,7 +2594,8 @@
 }
 .mediaMedium .Rewards_e0c7ea28 .Rewards_buttonContent_5599209b {
   padding: 10rem 15rem;
-}@keyframes StarterPack_fadeInWithScale_e09c33a3 {
+}
+@keyframes StarterPack_fadeInWithScale_e09c33a3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2878,7 +2707,8 @@
 
 .StarterPack_rewards_231839be {
   display: flex;
-}@keyframes StarterPack_fadeInWithScale_e09c33a3 {
+}
+@keyframes StarterPack_fadeInWithScale_e09c33a3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -2989,7 +2819,8 @@
 }
 .mediaMedium .StarterPack_equalLogo_4d2bea9f {
   font-size: 56rem;
-}@keyframes PassContent_fadeInWithScale_f51cf613 {
+}
+@keyframes PassContent_fadeInWithScale_f51cf613 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3196,7 +3027,8 @@
 .PassContent_offerBack_a71885da {
   width: 460rem;
   height: 1150rem;
-  background: url(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general.shop_offer) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general.shop_offer)
+    no-repeat center/cover;
   position: absolute;
   top: 50%;
   right: 0;
@@ -3247,7 +3079,8 @@
 }
 .mediaExtraLarge .PassContent_offer_d09e2495 {
   width: 700rem;
-}@keyframes LoopVideo_fadeInWithScale_ed35a023 {
+}
+@keyframes LoopVideo_fadeInWithScale_ed35a023 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3326,7 +3159,8 @@
   width: 100%;
   height: 100%;
   position: relative;
-}@keyframes Background_fadeInWithScale_26effab7 {
+}
+@keyframes Background_fadeInWithScale_26effab7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3417,7 +3251,8 @@
   height: 100%;
   position: absolute;
   z-index: 3;
-}@keyframes Buttons_fadeInWithScale_32d3fada {
+}
+@keyframes Buttons_fadeInWithScale_32d3fada {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3518,7 +3353,8 @@
 .Buttons_icon_378ba619 {
   width: 24rem;
   height: 24rem;
-}@keyframes Item_fadeInWithScale_5f6fcc69 {
+}
+@keyframes Item_fadeInWithScale_5f6fcc69 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3640,9 +3476,11 @@
   transform: translateY(0);
   transition: color 0.2s;
 }
-.Item_item__checked_5f6fcc69 .Item_checkboxLabel_885d0061, .Item_c5163bf:hover .Item_checkboxLabel_885d0061 {
+.Item_item__checked_5f6fcc69 .Item_checkboxLabel_885d0061,
+.Item_c5163bf:hover .Item_checkboxLabel_885d0061 {
   color: var(--color-general-secondary);
-}@keyframes List_fadeInWithScale_5974b0a7 {
+}
+@keyframes List_fadeInWithScale_5974b0a7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3738,7 +3576,8 @@
   position: absolute;
   top: -2rem;
   right: -14rem;
-}@keyframes Vehicle_fadeInWithScale_c03ad304 {
+}
+@keyframes Vehicle_fadeInWithScale_c03ad304 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3828,7 +3667,8 @@
 .Vehicle_level_c03ad304,
 .Vehicle_type_9905a21f {
   margin-right: 1rem;
-}@keyframes Styles_fadeInWithScale_8a923a08 {
+}
+@keyframes Styles_fadeInWithScale_8a923a08 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3924,7 +3764,8 @@
   line-height: 1.3em;
   font-weight: 400;
   line-height: 1.15;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -3999,7 +3840,9 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Content_7ccb81a0, .Content_7ccb81a0::after, .Content_disabledOverlay_a8908196 {
+.Content_7ccb81a0,
+.Content_7ccb81a0::after,
+.Content_disabledOverlay_a8908196 {
   position: absolute;
   top: 0;
   right: 0;
@@ -4027,7 +3870,8 @@
 .Content_7ccb81a0:hover .Content_7ccb81a0::after {
   opacity: 0.4;
 }
-.Content_base__selected_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after, .Content_base__selected_da09528a .Content_7ccb81a0::after {
+.Content_base__selected_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after,
+.Content_base__selected_da09528a .Content_7ccb81a0::after {
   opacity: 0.7;
 }
 .Content_base__empty_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after {
@@ -4037,7 +3881,8 @@
 .Content_disabledOverlay_a8908196 {
   background: url(R.images.gui.maps.icons.ui_kit.card.disabled_pattern) 0 0/8rem 8rem repeat;
   z-index: 1;
-}@keyframes Slot_fadeInWithScale_71f19f5c {
+}
+@keyframes Slot_fadeInWithScale_71f19f5c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -4168,7 +4013,8 @@
 .Slot_977dd8f1:hover .Slot_selected_6e9f21df {
   border: 1rem solid rgba(255, 255, 255, 0.18);
 }
-.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected_6e9f21df, .Slot_base__selected_71f19f5c .Slot_selected_6e9f21df {
+.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected_6e9f21df,
+.Slot_base__selected_71f19f5c .Slot_selected_6e9f21df {
   border: 1rem solid rgba(255, 255, 255, 0.4);
 }
 .Slot_base__empty_d386066c.Slot_977dd8f1:hover .Slot_selected_6e9f21df {
@@ -4177,9 +4023,11 @@
 .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0);
 }
-.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected__border_e2a17304, .Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
+.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected__border_e2a17304,
+.Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0.4);
-}@keyframes ActionCards_fadeInWithScale_70640c01 {
+}
+@keyframes ActionCards_fadeInWithScale_70640c01 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -4342,7 +4190,8 @@
 
 .ActionCards_discount_967a7825 {
   transform: translate(-50%, -50%);
-}@keyframes ProBoost_fadeInWithScale_7b71aa2e {
+}
+@keyframes ProBoost_fadeInWithScale_7b71aa2e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -4417,7 +4266,9 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.ProBoost_7490b440, .ProBoost_arrow_346b5e61, .ProBoost_glow_280ac9aa {
+.ProBoost_7490b440,
+.ProBoost_arrow_346b5e61,
+.ProBoost_glow_280ac9aa {
   position: absolute;
   top: 0;
   right: 0;
@@ -4505,13 +4356,21 @@
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_arrow_346b5e61 {
   opacity: 1;
-  animation: 650ms 500ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_arrow-brightness-activating_7b71aa2e, 1000ms 0ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_arrow-translation-activating_7b71aa2e;
+  animation:
+    650ms 500ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_arrow-brightness-activating_7b71aa2e,
+    1000ms 0ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_arrow-translation-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_glow_280ac9aa {
   animation: 900ms 350ms linear both ProBoost_glow-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_triangle_ae0f2fba {
-  animation: 1050ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_triangle-opacity-activating_7b71aa2e, 1400ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_triangle-translation-activating_7b71aa2e;
+  animation:
+    1050ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_triangle-opacity-activating_7b71aa2e,
+    1400ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_triangle-translation-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_triangle__1_1cb04326 {
   animation-delay: 600ms, 600ms;
@@ -4527,7 +4386,8 @@
   transition: opacity 1000ms 0ms linear;
 }
 .ProBoost_base__deactivating_7b71aa2e .ProBoost_arrow_346b5e61 {
-  animation: 1000ms 0ms cubic-bezier(0.09, 0.585, 1, 0.895) both ProBoost_arrow-deactivating_7b71aa2e;
+  animation: 1000ms 0ms cubic-bezier(0.09, 0.585, 1, 0.895) both
+    ProBoost_arrow-deactivating_7b71aa2e;
 }
 .ProBoost_base__deactivating_7b71aa2e .ProBoost_glow_280ac9aa {
   opacity: 0;
@@ -4541,7 +4401,8 @@
 .ProBoost_corner_9f13801e {
   width: 164rem;
   height: 86rem;
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.corner") right bottom/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.corner") right
+    bottom/contain no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -4550,7 +4411,8 @@
 }
 
 .ProBoost_arrow_346b5e61 {
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.arrow") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.arrow") right
+    center/contain no-repeat;
   filter: brightness(1);
   opacity: 0;
   position: absolute;
@@ -4558,7 +4420,12 @@
 }
 
 .ProBoost_glow_280ac9aa {
-  background: radial-gradient(100% 65% at 100% 100%, rgba(218, 172, 68, 0.5) 0%, rgba(218, 172, 68, 0) 90%) right bottom/cover no-repeat;
+  background: radial-gradient(
+      100% 65% at 100% 100%,
+      rgba(218, 172, 68, 0.5) 0%,
+      rgba(218, 172, 68, 0) 90%
+    )
+    right bottom/cover no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -4568,7 +4435,8 @@
 .ProBoost_triangle_ae0f2fba {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.triangle") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.triangle") right
+    center/contain no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -4583,7 +4451,8 @@
 }
 .ProBoost_triangle__3_e738f7f2 {
   bottom: 30%;
-}@keyframes Background_fadeInWithScale_26effab7 {
+}
+@keyframes Background_fadeInWithScale_26effab7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -4658,7 +4527,11 @@
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_86685469 {
+.Background_1089bc1c,
+.Background_wotPlus_3cf6035a,
+.Background_crystal_6112fa42,
+.Background_bpBonus_cf76872,
+.Background_multiplier_284cda6c {
   position: absolute;
   top: 0;
   right: 0;
@@ -4704,7 +4577,8 @@
   width: 208rem;
   height: 156rem;
 }
-.vehicle-card:hover .Background_flag_beb58b8, .Background_flag__active_de322c1b {
+.vehicle-card:hover .Background_flag_beb58b8,
+.Background_flag__active_de322c1b {
   opacity: 0.9;
 }
 
@@ -4742,24 +4616,33 @@
 }
 
 .Background_wotPlus_3cf6035a {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.wot_plus) no-repeat right bottom/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.wot_plus) no-repeat right
+    bottom/contain;
 }
 
 .Background_crystal_6112fa42 {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal) no-repeat right bottom/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal) no-repeat right
+    bottom/contain;
 }
 .Background_crystal__limit_61072361 {
   background-image: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal_limit);
 }
 
-.Background_bpBonus_86685469 {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat right top/contain;
+.Background_bpBonus_cf76872 {
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat
+    right top/contain;
+}
+
+.Background_multiplier_284cda6c {
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.multiplier) no-repeat left
+    top/contain;
 }
 
 .Background_favorite_d98f92cc {
   width: 22rem;
   height: 27rem;
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.favorite_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.favorite_small) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -4776,7 +4659,8 @@
 }
 .Background_favorite__active_7f14a6c7 {
   opacity: 1;
-}@keyframes Bonuses_fadeInWithScale_ca1cd57b {
+}
+@keyframes Bonuses_fadeInWithScale_ca1cd57b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -4858,9 +4742,10 @@
   left: 0;
 }
 
-.Bonuses_bonus_af8ebe7c {
+.Bonuses_bonus_91f120c3 {
   display: flex;
   align-items: center;
+  padding: 0 6rem 2rem 0;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -4893,6 +4778,14 @@
 .mediaExtraLarge .Bonuses_bonusValue_322db074 {
   margin-left: 2rem;
 }
+.Bonuses_bonusValue__highlighted_4bcc07c6 {
+  color: #ffd4d0;
+  text-shadow:
+    0 2rem 1.42rem #c13629,
+    0 0 4.25rem rgba(255, 108, 64, 0.6),
+    0 0 9.92rem rgba(255, 58, 40, 0.8),
+    0 0 28.33rem #ff1702;
+}
 
 .Bonuses_rent_ea11a7e4 {
   position: absolute;
@@ -4906,7 +4799,13 @@
   bottom: 1rem;
   left: -4rem;
 }
-html[lang=ja] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=ko] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=zh_tw] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=zh_sg] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=zh_cn] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=vi] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=th] .mediaExtraLarge .Bonuses_rent_ea11a7e4 {
+html[lang="ja"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="ko"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="zh_tw"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="zh_sg"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="zh_cn"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="vi"] .mediaExtraLarge .Bonuses_rent_ea11a7e4,
+html[lang="th"] .mediaExtraLarge .Bonuses_rent_ea11a7e4 {
   bottom: 0;
 }
 .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4 {
@@ -4918,7 +4817,13 @@ html[lang=ja] .mediaExtraLarge .Bonuses_rent_ea11a7e4, html[lang=ko] .mediaExtra
 .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4 {
   bottom: 0;
 }
-html[lang=ja] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=ko] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=zh_tw] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=zh_sg] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=zh_cn] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=vi] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4, html[lang=th] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4 {
+html[lang="ja"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="ko"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="zh_tw"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="zh_sg"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="zh_cn"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="vi"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4,
+html[lang="th"] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11a7e4 {
   bottom: -1rem;
 }
 
@@ -4940,12 +4845,19 @@ html[lang=ja] .mediaExtraLarge .Bonuses_base__double_ca1cd57b .Bonuses_rent_ea11
 .mediaExtraLarge .Bonuses_text_a556857c {
   display: flex;
 }
-html[lang=ja] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=ko] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=zh_tw] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=zh_sg] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=zh_cn] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=vi] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=th] .mediaExtraLarge .Bonuses_text_a556857c {
+html[lang="ja"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="ko"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="zh_tw"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="zh_sg"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="zh_cn"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="vi"] .mediaExtraLarge .Bonuses_text_a556857c,
+html[lang="th"] .mediaExtraLarge .Bonuses_text_a556857c {
   display: none;
 }
 .Bonuses_base__double_ca1cd57b .Bonuses_text_a556857c {
   font-size: 18rem;
-}@keyframes Information_fadeInWithScale_6e8d4f26 {
+}
+@keyframes Information_fadeInWithScale_6e8d4f26 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5060,12 +4972,20 @@ html[lang=ja] .mediaExtraLarge .Bonuses_text_a556857c, html[lang=ko] .mediaExtra
   font-size: 18rem;
   font-weight: 500;
   line-height: 1;
-  text-shadow: 0 1rem 15rem rgba(23, 23, 23, 0.4), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 1rem 15rem rgba(23, 23, 23, 0.4),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
   letter-spacing: 0.03em;
   opacity: 0.9;
   pointer-events: none;
 }
-html[lang=ja] .Information_text_a2b2c19b, html[lang=ko] .Information_text_a2b2c19b, html[lang=zh_tw] .Information_text_a2b2c19b, html[lang=zh_sg] .Information_text_a2b2c19b, html[lang=zh_cn] .Information_text_a2b2c19b, html[lang=vi] .Information_text_a2b2c19b, html[lang=th] .Information_text_a2b2c19b {
+html[lang="ja"] .Information_text_a2b2c19b,
+html[lang="ko"] .Information_text_a2b2c19b,
+html[lang="zh_tw"] .Information_text_a2b2c19b,
+html[lang="zh_sg"] .Information_text_a2b2c19b,
+html[lang="zh_cn"] .Information_text_a2b2c19b,
+html[lang="vi"] .Information_text_a2b2c19b,
+html[lang="th"] .Information_text_a2b2c19b {
   font-size: 16rem;
 }
 .mediaMedium .Information_text_a2b2c19b {
@@ -5073,13 +4993,25 @@ html[lang=ja] .Information_text_a2b2c19b, html[lang=ko] .Information_text_a2b2c1
   font-size: 20rem;
   line-height: 1.2;
 }
-html[lang=ja] .mediaMedium .Information_text_a2b2c19b, html[lang=ko] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_tw] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_sg] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_cn] .mediaMedium .Information_text_a2b2c19b, html[lang=vi] .mediaMedium .Information_text_a2b2c19b, html[lang=th] .mediaMedium .Information_text_a2b2c19b {
+html[lang="ja"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="ko"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="vi"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="th"] .mediaMedium .Information_text_a2b2c19b {
   font-size: 18rem;
 }
 .mediaExtraLarge .Information_text_a2b2c19b {
   font-size: 24rem;
 }
-html[lang=ja] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=ko] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_tw] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_sg] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_cn] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=vi] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=th] .mediaExtraLarge .Information_text_a2b2c19b {
+html[lang="ja"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="ko"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="vi"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="th"] .mediaExtraLarge .Information_text_a2b2c19b {
   font-size: 22rem;
 }
 .Information_text__level_e5a9014e {
@@ -5093,13 +5025,22 @@ html[lang=ja] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=ko] .mediaE
 }
 .Information_text__premium_741ebb2f {
   color: #ffe4c0;
-  text-shadow: 0 0 24rem rgba(255, 61, 0, 0.35), 0 0 20rem rgba(255, 177, 86, 0.35), 0 0 7rem rgba(255, 228, 159, 0.2);
+  text-shadow:
+    0 0 24rem rgba(255, 61, 0, 0.35),
+    0 0 20rem rgba(255, 177, 86, 0.35),
+    0 0 7rem rgba(255, 228, 159, 0.2);
   opacity: 1;
 }
 .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 16rem;
 }
-html[lang=ja] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 14rem;
 }
 .mediaMedium .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
@@ -5108,14 +5049,26 @@ html[lang=ja] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, htm
 .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 18rem;
 }
-html[lang=ja] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 16rem;
 }
 .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 20rem;
   line-height: 1.2;
 }
-html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 18rem;
 }
 
@@ -5141,7 +5094,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaExtraLarge .Information_battlePass_63749625 {
   right: -1rem;
 }
-.Information_battlePass__bonus_6e8d4f26, .Information_battlePass__active_960b5eed {
+.Information_battlePass__bonus_6e8d4f26,
+.Information_battlePass__active_960b5eed {
   opacity: 1;
 }
 .Information_base__double_6e8d4f26 .Information_battlePass_63749625 {
@@ -5169,7 +5123,9 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
   color: rgba(238, 237, 233, 0.9);
   font-size: 16rem;
   font-weight: 500;
-  text-shadow: 0 1rem 15rem rgba(23, 23, 23, 0.4), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 1rem 15rem rgba(23, 23, 23, 0.4),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
   letter-spacing: 0.02em;
   opacity: 0.9;
   z-index: 1;
@@ -5211,7 +5167,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.vehicle-card:hover .Information_prestige_95cc4ef2, .Information_prestige__active_960b5eed {
+.vehicle-card:hover .Information_prestige_95cc4ef2,
+.Information_prestige__active_960b5eed {
   opacity: 1;
 }
 
@@ -5226,7 +5183,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaMedium .Information_identifier__changeNation_665b13a2 {
   padding-right: 22rem;
 }
-.Information_identifier__alpha_6e8d4f26, .Information_identifier__super_46b1ed0d {
+.Information_identifier__alpha_6e8d4f26,
+.Information_identifier__super_46b1ed0d {
   padding-right: 24rem;
 }
 .Information_identifier__rent_1fba5dce {
@@ -5262,17 +5220,21 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .Information_identifierIcon__super_34b8f5c2 {
   background: url(R.images.gui.maps.icons.hangar.carousel.cards.super_test) no-repeat center/contain;
 }
-.Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   right: -1rem;
   bottom: -4rem;
 }
-.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   right: 1rem;
 }
-.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   bottom: -3rem;
 }
-.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   bottom: 0;
 }
 .Information_identifierIcon__changeNation_dfee83c8 {
@@ -5304,9 +5266,12 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__changeNation_dfee83c8 {
   bottom: -1rem;
 }
-.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__changeNation_dfee83c8 {
+.mediaExtraLarge
+  .Information_base__double_6e8d4f26
+  .Information_identifierIcon__changeNation_dfee83c8 {
   bottom: 2rem;
-}@keyframes Overlay_fadeInWithScale_3c7155a {
+}
+@keyframes Overlay_fadeInWithScale_3c7155a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5381,7 +5346,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Overlay_ef16c91, .Overlay_alert_db4a0e15 {
+.Overlay_ef16c91,
+.Overlay_alert_db4a0e15 {
   position: absolute;
   top: 0;
   right: 0;
@@ -5390,7 +5356,9 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 }
 
 .Overlay_ef16c91 {
-  background-image: radial-gradient(50% 50% at 50% 50%, rgba(52, 52, 52, 0.2), rgba(0, 0, 0, 0.2)), url(R.images.gui.maps.icons.hangar.carousel.cards.disable);
+  background-image:
+    radial-gradient(50% 50% at 50% 50%, rgba(52, 52, 52, 0.2), rgba(0, 0, 0, 0.2)),
+    url(R.images.gui.maps.icons.hangar.carousel.cards.disable);
   pointer-events: none;
 }
 
@@ -5425,7 +5393,13 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
   text-shadow: 0 0 14rem rgba(255, 0, 0, 0.9);
   letter-spacing: 0.02em;
 }
-html[lang=ja] .Overlay_alertText_ca764641, html[lang=ko] .Overlay_alertText_ca764641, html[lang=zh_tw] .Overlay_alertText_ca764641, html[lang=zh_sg] .Overlay_alertText_ca764641, html[lang=zh_cn] .Overlay_alertText_ca764641, html[lang=vi] .Overlay_alertText_ca764641, html[lang=th] .Overlay_alertText_ca764641 {
+html[lang="ja"] .Overlay_alertText_ca764641,
+html[lang="ko"] .Overlay_alertText_ca764641,
+html[lang="zh_tw"] .Overlay_alertText_ca764641,
+html[lang="zh_sg"] .Overlay_alertText_ca764641,
+html[lang="zh_cn"] .Overlay_alertText_ca764641,
+html[lang="vi"] .Overlay_alertText_ca764641,
+html[lang="th"] .Overlay_alertText_ca764641 {
   margin-top: -4rem;
   font-size: 15rem;
 }
@@ -5433,11 +5407,23 @@ html[lang=ja] .Overlay_alertText_ca764641, html[lang=ko] .Overlay_alertText_ca76
   font-size: 20rem;
   line-height: 1.2;
 }
-html[lang=ja] .mediaMedium .Overlay_alertText_ca764641, html[lang=ko] .mediaMedium .Overlay_alertText_ca764641, html[lang=zh_tw] .mediaMedium .Overlay_alertText_ca764641, html[lang=zh_sg] .mediaMedium .Overlay_alertText_ca764641, html[lang=zh_cn] .mediaMedium .Overlay_alertText_ca764641, html[lang=vi] .mediaMedium .Overlay_alertText_ca764641, html[lang=th] .mediaMedium .Overlay_alertText_ca764641 {
+html[lang="ja"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="ko"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="zh_tw"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="zh_sg"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="zh_cn"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="vi"] .mediaMedium .Overlay_alertText_ca764641,
+html[lang="th"] .mediaMedium .Overlay_alertText_ca764641 {
   margin-top: 0;
   font-size: 18rem;
 }
-html[lang=ja] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=ko] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=zh_tw] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=zh_sg] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=zh_cn] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=vi] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=th] .mediaExtraLarge .Overlay_alertText_ca764641 {
+html[lang="ja"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="ko"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="zh_tw"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="zh_sg"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="zh_cn"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="vi"] .mediaExtraLarge .Overlay_alertText_ca764641,
+html[lang="th"] .mediaExtraLarge .Overlay_alertText_ca764641 {
   font-size: 20rem;
 }
 .Overlay_alertText__light_bece984e {
@@ -5448,14 +5434,27 @@ html[lang=ja] .mediaExtraLarge .Overlay_alertText_ca764641, html[lang=ko] .media
 .Overlay_base__double_3c7155a .Overlay_alertText_ca764641 {
   font-size: 18rem;
 }
-html[lang=ja] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=ko] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_tw] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_sg] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_cn] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=vi] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=th] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641 {
+html[lang="ja"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="ko"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_tw"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_sg"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_cn"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="vi"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="th"] .Overlay_base__double_3c7155a .Overlay_alertText_ca764641 {
   margin-top: -4rem;
   font-size: 15rem;
 }
-html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=ko] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_tw] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_sg] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=zh_cn] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=vi] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641, html[lang=th] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641 {
+html[lang="ja"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="ko"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_tw"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_sg"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="zh_cn"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="vi"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641,
+html[lang="th"] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764641 {
   margin-top: 0;
   font-size: 18rem;
-}@keyframes Card_fadeInWithScale_f4c22d1c {
+}
+@keyframes Card_fadeInWithScale_f4c22d1c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5584,7 +5583,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   right: -3rem;
   bottom: -3rem;
   left: -3rem;
-}@keyframes ActiveSlots_fadeInWithScale_54b124fa {
+}
+@keyframes ActiveSlots_fadeInWithScale_54b124fa {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5680,7 +5680,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .ActiveSlots_slot__double_e321ab18 {
   height: 109rem;
-}@keyframes ArrowButton_fadeInWithScale_5327085d {
+}
+@keyframes ArrowButton_fadeInWithScale_5327085d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5790,7 +5791,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .ArrowButton_button__right_5327085d .ArrowButton_content_4666fd05 {
   margin-right: 1rem;
-}@keyframes CarouselNavButtons_fadeInWithScale_3f67251c {
+}
+@keyframes CarouselNavButtons_fadeInWithScale_3f67251c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5907,7 +5909,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .CarouselNavButtons_mask__right_6be519f7 {
   mask: linear-gradient(to left, transparent, #000 4%);
-}@keyframes CarouselScroll_fadeInWithScale_57c79593 {
+}
+@keyframes CarouselScroll_fadeInWithScale_57c79593 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -5990,7 +5993,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CarouselScroll_areaContent_f5dd7772 {
   display: flex;
   align-content: center;
-}@keyframes CarouselSkeleton_fadeInWithScale_29b526f7 {
+}
+@keyframes CarouselSkeleton_fadeInWithScale_29b526f7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6078,7 +6082,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 
 .CarouselSkeleton_scroll_badf82c7 {
   max-width: 100%;
-}@keyframes Carousel_fadeInWithScale_bca51e20 {
+}
+@keyframes Carousel_fadeInWithScale_bca51e20 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6179,7 +6184,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Carousel_draggingOverlay_2ac699b0 {
   z-index: 1000;
   cursor: move;
-}@keyframes ActiveCardHeader_fadeInWithScale_af79bb82 {
+}
+@keyframes ActiveCardHeader_fadeInWithScale_af79bb82 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6288,7 +6294,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6363,7 +6370,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Content_8ce13fac, .Content_8ce13fac::after {
+.Content_8ce13fac,
+.Content_8ce13fac::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -6390,9 +6398,11 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Content_8ce13fac:hover .Content_8ce13fac::after {
   opacity: 0.4;
 }
-.Content_base__selected_da09528a.Content_8ce13fac:hover .Content_8ce13fac::after, .Content_base__selected_da09528a .Content_8ce13fac::after {
+.Content_base__selected_da09528a.Content_8ce13fac:hover .Content_8ce13fac::after,
+.Content_base__selected_da09528a .Content_8ce13fac::after {
   opacity: 0.7;
-}@keyframes Slot_fadeInWithScale_71f19f5c {
+}
+@keyframes Slot_fadeInWithScale_71f19f5c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6515,15 +6525,18 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Slot_750e4447:hover .Slot_selected_302eadc9 {
   border: 1rem solid rgba(255, 255, 255, 0.18);
 }
-.Slot_base__selected_71f19f5c.Slot_750e4447:hover .Slot_selected_302eadc9, .Slot_base__selected_71f19f5c .Slot_selected_302eadc9 {
+.Slot_base__selected_71f19f5c.Slot_750e4447:hover .Slot_selected_302eadc9,
+.Slot_base__selected_71f19f5c .Slot_selected_302eadc9 {
   border: 1rem solid rgba(255, 255, 255, 0.4);
 }
 .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0);
 }
-.Slot_base__selected_71f19f5c.Slot_750e4447:hover .Slot_selected__border_e2a17304, .Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
+.Slot_base__selected_71f19f5c.Slot_750e4447:hover .Slot_selected__border_e2a17304,
+.Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0.4);
-}@keyframes Status_fadeInWithScale_35b9a31c {
+}
+@keyframes Status_fadeInWithScale_35b9a31c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6628,10 +6641,12 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   background: url(R.images.gui.maps.icons.ui_kit.card.status_done) no-repeat center/contain;
 }
 .Status_base__locked_35b9a31c .Status_icon_1af01ceb {
-  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock_small) no-repeat
+    center/contain;
 }
 .mediaMedium .Status_base__locked_35b9a31c .Status_icon_1af01ceb {
-  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock) no-repeat
+    center/contain;
 }
 
 .Status_line_324edf86 {
@@ -6642,17 +6657,46 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   left: 0;
 }
 .Status_base__done_35b9a31c .Status_line_324edf86 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.02) 100%), linear-gradient(90deg, rgba(100, 186, 33, 0) 25%, rgba(100, 186, 33, 0.5) 50%, rgba(100, 186, 33, 0) 75%);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.02) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(100, 186, 33, 0) 25%,
+      rgba(100, 186, 33, 0.5) 50%,
+      rgba(100, 186, 33, 0) 75%
+    );
 }
 .Status_base__locked_35b9a31c .Status_line_324edf86 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.02) 100%), linear-gradient(90deg, rgba(201, 189, 169, 0) 25%, rgba(201, 189, 169, 0.5) 50%, rgba(201, 189, 169, 0) 75%);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.02) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(201, 189, 169, 0) 25%,
+      rgba(201, 189, 169, 0.5) 50%,
+      rgba(201, 189, 169, 0) 75%
+    );
 }
 
 .Status_shadow_75136b3b {
   flex-shrink: 0;
   width: 16rem;
   height: 1rem;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
   opacity: 0.8;
   position: absolute;
   bottom: -6rem;
@@ -6673,7 +6717,11 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   left: 0;
 }
 .Status_base__done_35b9a31c .Status_glowInner_3e65d7dc {
-  background: radial-gradient(82% 111% at 50% 145%, rgba(100, 186, 33, 0.05) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(69% 95% at 50% 145%, rgba(100, 186, 33, 0.2) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(86% 117% at 50% 198%, rgba(100, 186, 33, 0.6) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(47% 65% at 50% 156%, #64ba21 0%, rgba(100, 186, 33, 0) 100%);
+  background:
+    radial-gradient(82% 111% at 50% 145%, rgba(100, 186, 33, 0.05) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(69% 95% at 50% 145%, rgba(100, 186, 33, 0.2) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(86% 117% at 50% 198%, rgba(100, 186, 33, 0.6) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(47% 65% at 50% 156%, #64ba21 0%, rgba(100, 186, 33, 0) 100%);
 }
 .Status_base__locked_35b9a31c .Status_glowInner_3e65d7dc {
   background: linear-gradient(180deg, rgba(201, 189, 169, 0) 0, rgba(201, 189, 169, 0.06) 100%);
@@ -6706,7 +6754,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Status_base__locked_35b9a31c .Status_glowBig_156fcd01 {
   background: linear-gradient(180deg, rgba(201, 189, 169, 0) 0, rgba(201, 189, 169, 0.06) 100%);
-}@keyframes UnlockedState_fadeInWithScale_8f9d328e {
+}
+@keyframes UnlockedState_fadeInWithScale_8f9d328e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6831,7 +6880,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .UnlockedState_cycleText_5b49e844 {
   font-size: 24rem;
-}@keyframes PostprogressionInfo_fadeInWithScale_7d63b432 {
+}
+@keyframes PostprogressionInfo_fadeInWithScale_7d63b432 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -6926,7 +6976,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .PostprogressionInfo_lockedText_c823728d {
   font-size: 24rem;
-}@keyframes CompletedState_fadeInWithScale_1069e22b {
+}
+@keyframes CompletedState_fadeInWithScale_1069e22b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7022,7 +7073,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CompletedState_completeText__bought_4533734f {
   color: rgba(238, 237, 233, 0.5);
   opacity: 1;
-}@keyframes UncompletedState_fadeInWithScale_98b4848f {
+}
+@keyframes UncompletedState_fadeInWithScale_98b4848f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7123,7 +7175,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .UncompletedState_additionalStage_ef80ee9c {
   transform: translateX(-4rem);
-}@keyframes RegularInfo_fadeInWithScale_51c2a462 {
+}
+@keyframes RegularInfo_fadeInWithScale_51c2a462 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7209,7 +7262,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .RegularInfo_uncomplete_854e3542 {
   transform: translateY(1rem);
-}@keyframes CardInfo_fadeInWithScale_8e8a9c2 {
+}
+@keyframes CardInfo_fadeInWithScale_8e8a9c2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7367,7 +7421,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .CardInfo_chapterName__bought_a3ef657b {
   color: rgb(255, 228, 192);
-}@keyframes CardTemplate_fadeInWithScale_5ee959db {
+}
+@keyframes CardTemplate_fadeInWithScale_5ee959db {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7454,7 +7509,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   filter: brightness(90%);
   transition: filter 150ms linear;
 }
-.CardTemplate_base__paused_5ee959db .CardTemplate_bg_e653648c, .CardTemplate_base__notStarted_5ee959db .CardTemplate_bg_e653648c,
+.CardTemplate_base__paused_5ee959db .CardTemplate_bg_e653648c,
+.CardTemplate_base__notStarted_5ee959db .CardTemplate_bg_e653648c,
 .CardTemplate_base__paused_5ee959db .CardTemplate_reward_4b474b06,
 .CardTemplate_base__notStarted_5ee959db .CardTemplate_reward_4b474b06 {
   filter: brightness(100%);
@@ -7471,7 +7527,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CardTemplate_base__completed_5ee959db:hover .CardTemplate_reward_4b474b06 {
   filter: brightness(80%);
 }
-.CardTemplate_base__selected_5ee959db .CardTemplate_bg_e653648c, .CardTemplate_base__selected_5ee959db:hover .CardTemplate_bg_e653648c,
+.CardTemplate_base__selected_5ee959db .CardTemplate_bg_e653648c,
+.CardTemplate_base__selected_5ee959db:hover .CardTemplate_bg_e653648c,
 .CardTemplate_base__selected_5ee959db .CardTemplate_reward_4b474b06,
 .CardTemplate_base__selected_5ee959db:hover .CardTemplate_reward_4b474b06 {
   filter: brightness(100%);
@@ -7529,7 +7586,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: 3rem;
   left: 0;
   z-index: 2;
-}@keyframes Card_fadeInWithScale_f4c22d1c {
+}
+@keyframes Card_fadeInWithScale_f4c22d1c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7654,11 +7712,13 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   left: 9rem;
 }
 
-.Card_idleVideo__regular_f4c22d1c, .Card_idleVideo__extra_4cdfaaf7 {
+.Card_idleVideo__regular_f4c22d1c,
+.Card_idleVideo__extra_4cdfaaf7 {
   width: 300rem;
   height: 300rem;
 }
-.mediaLarge .Card_idleVideo__regular_f4c22d1c, .mediaLarge .Card_idleVideo__extra_4cdfaaf7 {
+.mediaLarge .Card_idleVideo__regular_f4c22d1c,
+.mediaLarge .Card_idleVideo__extra_4cdfaaf7 {
   width: 360rem;
   height: 360rem;
 }
@@ -7669,7 +7729,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaLarge .Card_idleVideo__postprogression_b28e5b27 {
   width: 300rem;
   height: 300rem;
-}@keyframes CardsContent_fadeInWithScale_ef18ba3c {
+}
+@keyframes CardsContent_fadeInWithScale_ef18ba3c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7800,7 +7861,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .CardsContent_scrollBar_9c08690c {
   margin-top: 18rem;
-}@keyframes ButtonsGroup_fadeInWithScale_17bae557 {
+}
+@keyframes ButtonsGroup_fadeInWithScale_17bae557 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7888,7 +7950,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .ButtonsGroup_button_17bae557:first-child {
   margin-right: 12rem;
-}@keyframes Deadline_fadeInWithScale_bb20daee {
+}
+@keyframes Deadline_fadeInWithScale_bb20daee {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -7999,7 +8062,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaLarge .Deadline_timerLabel_218217e0 {
   font-size: 32rem;
-}@keyframes PreviewButton_fadeInWithScale_22577403 {
+}
+@keyframes PreviewButton_fadeInWithScale_22577403 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8097,7 +8161,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .PreviewButton_base__hovered_6f70d99a {
   opacity: 1;
-}@keyframes InGarage_fadeInWithScale_2e055df1 {
+}
+@keyframes InGarage_fadeInWithScale_2e055df1 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8194,7 +8259,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 80rem;
   height: 80rem;
   background-size: 80rem;
-}@keyframes SubTitle_fadeInWithScale_c315a83c {
+}
+@keyframes SubTitle_fadeInWithScale_c315a83c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8274,54 +8340,69 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   display: flex;
   align-items: center;
 }
-[lang=th] .SubTitle_vehicleWrapper_c315a83c, [lang=th_bp] .SubTitle_vehicleWrapper_c315a83c, [lang=ko] .SubTitle_vehicleWrapper_c315a83c, [lang=ja] .SubTitle_vehicleWrapper_c315a83c, [lang=zh_tw] .SubTitle_vehicleWrapper_c315a83c, [lang=zh_sg] .SubTitle_vehicleWrapper_c315a83c, [lang=zh_cn] .SubTitle_vehicleWrapper_c315a83c,
-[lang=th] .SubTitle_styleWrapper_59988398,
-[lang=th_bp] .SubTitle_styleWrapper_59988398,
-[lang=ko] .SubTitle_styleWrapper_59988398,
-[lang=ja] .SubTitle_styleWrapper_59988398,
-[lang=zh_tw] .SubTitle_styleWrapper_59988398,
-[lang=zh_sg] .SubTitle_styleWrapper_59988398,
-[lang=zh_cn] .SubTitle_styleWrapper_59988398 {
+[lang="th"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="th_bp"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="ko"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="ja"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="zh_tw"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="zh_sg"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="zh_cn"] .SubTitle_vehicleWrapper_c315a83c,
+[lang="th"] .SubTitle_styleWrapper_59988398,
+[lang="th_bp"] .SubTitle_styleWrapper_59988398,
+[lang="ko"] .SubTitle_styleWrapper_59988398,
+[lang="ja"] .SubTitle_styleWrapper_59988398,
+[lang="zh_tw"] .SubTitle_styleWrapper_59988398,
+[lang="zh_sg"] .SubTitle_styleWrapper_59988398,
+[lang="zh_cn"] .SubTitle_styleWrapper_59988398 {
   transform: translateY(5rem);
 }
-.mediaMedium [lang=th] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=th_bp] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=ko] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=ja] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=zh_tw] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=zh_sg] .SubTitle_vehicleWrapper_c315a83c, .mediaMedium [lang=zh_cn] .SubTitle_vehicleWrapper_c315a83c,
-.mediaMedium [lang=th] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=th_bp] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=ko] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=ja] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=zh_tw] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=zh_sg] .SubTitle_styleWrapper_59988398,
-.mediaMedium [lang=zh_cn] .SubTitle_styleWrapper_59988398 {
+.mediaMedium [lang="th"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="th_bp"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="ko"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="ja"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="zh_tw"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="zh_sg"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="zh_cn"] .SubTitle_vehicleWrapper_c315a83c,
+.mediaMedium [lang="th"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="th_bp"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="ko"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="ja"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="zh_tw"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="zh_sg"] .SubTitle_styleWrapper_59988398,
+.mediaMedium [lang="zh_cn"] .SubTitle_styleWrapper_59988398 {
   transform: none;
 }
 
-.SubTitle_style_911a25b1,
+.SubTitle_style_c315a83c,
 .SubTitle_vehicleStyle_1b9867d2,
 .SubTitle_postProgression_c315a83c,
 .SubTitle_crew_f25c78a4,
 .SubTitle_styleLevel_c315a83c,
-.SubTitle_styleName_aa5a3fa2 {
+.SubTitle_styleName_cab7080b,
+.SubTitle_attachmentsSet_c3439b6f {
   color: rgba(238, 237, 233, 0.5);
   font-size: 18rem;
   font-weight: 400;
   line-height: 20rem;
   transform: translateY(-7rem);
 }
-.mediaMedium .SubTitle_style_911a25b1,
+.mediaMedium .SubTitle_style_c315a83c,
 .mediaMedium .SubTitle_vehicleStyle_1b9867d2,
 .mediaMedium .SubTitle_postProgression_c315a83c,
 .mediaMedium .SubTitle_crew_f25c78a4,
 .mediaMedium .SubTitle_styleLevel_c315a83c,
-.mediaMedium .SubTitle_styleName_aa5a3fa2 {
+.mediaMedium .SubTitle_styleName_cab7080b,
+.mediaMedium .SubTitle_attachmentsSet_c3439b6f {
   font-size: 24rem;
   line-height: 18rem;
 }
-.mediaLarge .SubTitle_style_911a25b1,
+.mediaLarge .SubTitle_style_c315a83c,
 .mediaLarge .SubTitle_vehicleStyle_1b9867d2,
 .mediaLarge .SubTitle_postProgression_c315a83c,
 .mediaLarge .SubTitle_crew_f25c78a4,
 .mediaLarge .SubTitle_styleLevel_c315a83c,
-.mediaLarge .SubTitle_styleName_aa5a3fa2 {
+.mediaLarge .SubTitle_styleName_cab7080b,
+.mediaLarge .SubTitle_attachmentsSet_c3439b6f {
   font-size: 32rem;
   line-height: 24rem;
 }
@@ -8339,15 +8420,18 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   transform: translateY(-8rem);
 }
 
-.SubTitle_style_911a25b1 {
+.SubTitle_style_c315a83c,
+.SubTitle_attachmentsSet_c3439b6f {
   display: flex;
   align-items: center;
   transform: translateY(0);
 }
-.mediaMedium .SubTitle_style_911a25b1 {
+.mediaMedium .SubTitle_style_c315a83c,
+.mediaMedium .SubTitle_attachmentsSet_c3439b6f {
   transform: translateY(7rem);
 }
-.mediaLarge .SubTitle_style_911a25b1 {
+.mediaLarge .SubTitle_style_c315a83c,
+.mediaLarge .SubTitle_attachmentsSet_c3439b6f {
   font-size: 32rem;
   transform: translateY(-10rem);
 }
@@ -8371,18 +8455,36 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaExtraLarge .SubTitle_vehicleStyle_1b9867d2 {
   transform: translateY(-22rem);
 }
-[lang=th] .SubTitle_vehicleStyle_1b9867d2, [lang=th_bp] .SubTitle_vehicleStyle_1b9867d2, [lang=ko] .SubTitle_vehicleStyle_1b9867d2, [lang=ja] .SubTitle_vehicleStyle_1b9867d2, [lang=zh_tw] .SubTitle_vehicleStyle_1b9867d2, [lang=zh_sg] .SubTitle_vehicleStyle_1b9867d2, [lang=zh_cn] .SubTitle_vehicleStyle_1b9867d2 {
+[lang="th"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="th_bp"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="ko"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="ja"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="zh_tw"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="zh_sg"] .SubTitle_vehicleStyle_1b9867d2,
+[lang="zh_cn"] .SubTitle_vehicleStyle_1b9867d2 {
   transform: translateY(-3rem);
 }
-.mediaLarge [lang=th] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=th_bp] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=ko] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=ja] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=zh_tw] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=zh_sg] .SubTitle_vehicleStyle_1b9867d2, .mediaLarge [lang=zh_cn] .SubTitle_vehicleStyle_1b9867d2 {
+.mediaLarge [lang="th"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="th_bp"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="ko"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="ja"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="zh_tw"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="zh_sg"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaLarge [lang="zh_cn"] .SubTitle_vehicleStyle_1b9867d2 {
   transform: translateY(-25rem);
 }
-.mediaExtraLarge [lang=th] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=th_bp] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=ko] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=ja] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=zh_tw] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=zh_sg] .SubTitle_vehicleStyle_1b9867d2, .mediaExtraLarge [lang=zh_cn] .SubTitle_vehicleStyle_1b9867d2 {
+.mediaExtraLarge [lang="th"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="th_bp"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="ko"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="ja"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="zh_tw"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="zh_sg"] .SubTitle_vehicleStyle_1b9867d2,
+.mediaExtraLarge [lang="zh_cn"] .SubTitle_vehicleStyle_1b9867d2 {
   transform: translateY(-22rem);
 }
 
 .SubTitle_styleLevel_c315a83c,
-.SubTitle_styleName_aa5a3fa2 {
+.SubTitle_styleName_cab7080b {
   color: rgba(238, 237, 233, 0.9);
   transform: translateY(0);
 }
@@ -8425,7 +8527,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .SubTitle_inGarage__vehicle_1cb9fdfb {
   transform: translateY(5rem);
-}@keyframes Title_fadeInWithScale_2e63cf3 {
+}
+@keyframes Title_fadeInWithScale_2e63cf3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8561,8 +8664,19 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   transform: translateY(-9rem);
 }
 
+.Title_attachmentsSet_7b3dafcc {
+  transform: translateY(-2rem);
+}
+.mediaMedium .Title_attachmentsSet_7b3dafcc {
+  transform: translateY(-3rem);
+}
+.mediaLarge .Title_attachmentsSet_7b3dafcc {
+  transform: translateY(-12rem);
+}
+
 .Title_style_2e63cf3,
 .Title_vehicleStyle_e7d39a46,
+.Title_attachmentsSet_7b3dafcc,
 .Title_level_2e63cf3,
 .Title_name_93838a06 {
   color: rgba(238, 237, 233, 0.9);
@@ -8573,12 +8687,14 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaMedium .Title_style_2e63cf3,
 .mediaMedium .Title_vehicleStyle_e7d39a46,
+.mediaMedium .Title_attachmentsSet_7b3dafcc,
 .mediaMedium .Title_level_2e63cf3,
 .mediaMedium .Title_name_93838a06 {
   font-size: 40rem;
 }
 .mediaLarge .Title_style_2e63cf3,
 .mediaLarge .Title_vehicleStyle_e7d39a46,
+.mediaLarge .Title_attachmentsSet_7b3dafcc,
 .mediaLarge .Title_level_2e63cf3,
 .mediaLarge .Title_name_93838a06 {
   font-size: 56rem;
@@ -8587,7 +8703,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 
 .Title_inGarage_1c4370bb {
   transform: translateY(2rem);
-}@keyframes FinalReward_fadeInWithScale_72c54821 {
+}
+@keyframes FinalReward_fadeInWithScale_72c54821 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8680,7 +8797,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaLarge .FinalReward_preview_68854b55 {
   margin: -5rem -15rem 0 -40rem;
-}@keyframes ChapterInfo_fadeInWithScale_939c7d1e {
+}
+@keyframes ChapterInfo_fadeInWithScale_939c7d1e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -8780,7 +8898,12 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaLarge .ChapterInfo_deadline_df593065 {
   transform: translateY(-11rem);
 }
-[lang=th] .ChapterInfo_deadline_df593065, [lang=ko] .ChapterInfo_deadline_df593065, [lang=ja] .ChapterInfo_deadline_df593065, [lang=zh_tw] .ChapterInfo_deadline_df593065, [lang=zh_sg] .ChapterInfo_deadline_df593065, [lang=zh_cn] .ChapterInfo_deadline_df593065 {
+[lang="th"] .ChapterInfo_deadline_df593065,
+[lang="ko"] .ChapterInfo_deadline_df593065,
+[lang="ja"] .ChapterInfo_deadline_df593065,
+[lang="zh_tw"] .ChapterInfo_deadline_df593065,
+[lang="zh_sg"] .ChapterInfo_deadline_df593065,
+[lang="zh_cn"] .ChapterInfo_deadline_df593065 {
   transform: translateY(-11rem);
 }
 
@@ -8806,7 +8929,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-weight: 600;
   transform: translateY(-20rem);
 }
-[lang=ja] .ChapterInfo_chapterName_2e84101e, [lang=zh_tw] .ChapterInfo_chapterName_2e84101e, [lang=zh_sg] .ChapterInfo_chapterName_2e84101e, [lang=zh_cn] .ChapterInfo_chapterName_2e84101e {
+[lang="ja"] .ChapterInfo_chapterName_2e84101e,
+[lang="zh_tw"] .ChapterInfo_chapterName_2e84101e,
+[lang="zh_sg"] .ChapterInfo_chapterName_2e84101e,
+[lang="zh_cn"] .ChapterInfo_chapterName_2e84101e {
   margin-bottom: 20rem;
   transform: translateY(-5rem);
 }
@@ -8817,7 +8943,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-size: 76rem;
   transform: translateY(-25rem);
 }
-[lang=ja] .mediaMedium .ChapterInfo_chapterName_2e84101e, [lang=zh_tw] .mediaMedium .ChapterInfo_chapterName_2e84101e, [lang=zh_sg] .mediaMedium .ChapterInfo_chapterName_2e84101e, [lang=zh_cn] .mediaMedium .ChapterInfo_chapterName_2e84101e {
+[lang="ja"] .mediaMedium .ChapterInfo_chapterName_2e84101e,
+[lang="zh_tw"] .mediaMedium .ChapterInfo_chapterName_2e84101e,
+[lang="zh_sg"] .mediaMedium .ChapterInfo_chapterName_2e84101e,
+[lang="zh_cn"] .mediaMedium .ChapterInfo_chapterName_2e84101e {
   margin-bottom: 25rem;
   transform: translateY(-10rem);
 }
@@ -8825,7 +8954,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-size: 110rem;
   transform: translateY(-33rem);
 }
-[lang=ja] .mediaLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_tw] .mediaLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_sg] .mediaLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_cn] .mediaLarge .ChapterInfo_chapterName_2e84101e {
+[lang="ja"] .mediaLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_tw"] .mediaLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_sg"] .mediaLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_cn"] .mediaLarge .ChapterInfo_chapterName_2e84101e {
   margin-bottom: 20rem;
   transform: translateY(-15rem);
 }
@@ -8833,7 +8965,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-size: 130rem;
   transform: translateY(-35rem);
 }
-[lang=ja] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_tw] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_sg] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e, [lang=zh_cn] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e {
+[lang="ja"] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_tw"] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_sg"] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e,
+[lang="zh_cn"] .mediaExtraLarge .ChapterInfo_chapterName_2e84101e {
   margin-bottom: 20rem;
   transform: translateY(-15rem);
 }
@@ -8856,22 +8991,28 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaLarge .ChapterInfo_finalReward__vehicle_8f1be3b9 {
   transform: translateY(-60rem);
 }
-.ChapterInfo_finalReward__style_71da8196 {
+.ChapterInfo_finalReward__style_939c7d1e,
+.ChapterInfo_finalReward__attachmentsSet_71da8196 {
   transform: translateY(-44rem);
 }
-.mediaMedium .ChapterInfo_finalReward__style_71da8196 {
+.mediaMedium .ChapterInfo_finalReward__style_939c7d1e,
+.mediaMedium .ChapterInfo_finalReward__attachmentsSet_71da8196 {
   transform: translateY(-57rem);
 }
-.mediaMedium .ChapterInfo_finalReward__style_71da8196 {
+.mediaMedium .ChapterInfo_finalReward__style_939c7d1e,
+.mediaMedium .ChapterInfo_finalReward__attachmentsSet_71da8196 {
   transform: translateY(-54rem);
 }
-.ChapterInfo_finalReward__tankman_939c7d1e, .ChapterInfo_finalReward__postProgression_42299b8a {
+.ChapterInfo_finalReward__tankman_939c7d1e,
+.ChapterInfo_finalReward__postProgression_42299b8a {
   transform: translateY(-15rem);
 }
-.mediaLarge .ChapterInfo_finalReward__tankman_939c7d1e, .mediaLarge .ChapterInfo_finalReward__postProgression_42299b8a {
+.mediaLarge .ChapterInfo_finalReward__tankman_939c7d1e,
+.mediaLarge .ChapterInfo_finalReward__postProgression_42299b8a {
   transform: translateY(-30rem);
 }
-.mediaExtraLarge .ChapterInfo_finalReward__tankman_939c7d1e, .mediaExtraLarge .ChapterInfo_finalReward__postProgression_42299b8a {
+.mediaExtraLarge .ChapterInfo_finalReward__tankman_939c7d1e,
+.mediaExtraLarge .ChapterInfo_finalReward__postProgression_42299b8a {
   transform: translateY(-28rem);
 }
 
@@ -8899,25 +9040,32 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaExtraLarge .ChapterInfo_buttonsGroup__vehicle_19a07e37 {
   transform: translateY(-40rem);
 }
-.ChapterInfo_buttonsGroup__style_99acb72a {
+.ChapterInfo_buttonsGroup__style_939c7d1e,
+.ChapterInfo_buttonsGroup__attachmentsSet_99acb72a {
   transform: translateY(-46rem);
 }
-.mediaMedium .ChapterInfo_buttonsGroup__style_99acb72a {
+.mediaMedium .ChapterInfo_buttonsGroup__style_939c7d1e,
+.mediaMedium .ChapterInfo_buttonsGroup__attachmentsSet_99acb72a {
   transform: translateY(-56rem);
 }
-.mediaExtraLarge .ChapterInfo_buttonsGroup__style_99acb72a {
+.mediaExtraLarge .ChapterInfo_buttonsGroup__style_939c7d1e,
+.mediaExtraLarge .ChapterInfo_buttonsGroup__attachmentsSet_99acb72a {
   transform: translateY(-41rem);
 }
-.ChapterInfo_buttonsGroup__tankman_939c7d1e, .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
+.ChapterInfo_buttonsGroup__tankman_939c7d1e,
+.ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
   transform: translateY(-2rem);
 }
-.mediaMedium .ChapterInfo_buttonsGroup__tankman_939c7d1e, .mediaMedium .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
+.mediaMedium .ChapterInfo_buttonsGroup__tankman_939c7d1e,
+.mediaMedium .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
   transform: translateY(9rem);
 }
-.mediaLarge .ChapterInfo_buttonsGroup__tankman_939c7d1e, .mediaLarge .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
+.mediaLarge .ChapterInfo_buttonsGroup__tankman_939c7d1e,
+.mediaLarge .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
   transform: translateY(-5rem);
 }
-.mediaExtraLarge .ChapterInfo_buttonsGroup__tankman_939c7d1e, .mediaExtraLarge .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
+.mediaExtraLarge .ChapterInfo_buttonsGroup__tankman_939c7d1e,
+.mediaExtraLarge .ChapterInfo_buttonsGroup__postProgression_d83fdc7a {
   transform: translateY(10rem);
 }
 
@@ -8927,7 +9075,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .ChapterInfo_emblem_b1fd21e1 {
   left: 10rem;
-}@keyframes FreeBpPoints_fadeInWithScale_2b218581 {
+}
+@keyframes FreeBpPoints_fadeInWithScale_2b218581 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9061,7 +9210,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   line-height: 1.3em;
   font-weight: 400;
   transform: translateY(-20rem);
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9170,7 +9320,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .App_shadow_d2a46054 {
   width: 100%;
   height: 100%;
-  background: url(R.images.gui.maps.icons.battlePass.backgrounds.chapter_choice.shadow) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.battlePass.backgrounds.chapter_choice.shadow) no-repeat
+    center/cover;
   opacity: 0.3;
   position: absolute;
   z-index: 4;
@@ -9228,7 +9379,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .App_cards_a8851e46 {
   bottom: 80rem;
-}@keyframes Background_fadeInWithScale_26effab7 {
+}
+@keyframes Background_fadeInWithScale_26effab7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9361,7 +9513,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Background_base__hovered_26effab7 .Background_bgHover_32967f75 {
   opacity: 1;
-}@keyframes Border_fadeInWithScale_b559a98b {
+}
+@keyframes Border_fadeInWithScale_b559a98b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9483,7 +9636,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaMedium .Border_borderDisabled__big_80fa355b {
   width: 160rem;
   height: 280rem;
-}@keyframes CountValue_fadeInWithScale_108ab14 {
+}
+@keyframes CountValue_fadeInWithScale_108ab14 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9561,7 +9715,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CountValue_897d3748 {
   width: 33rem;
   height: 29rem;
-  background: url("R.images.gui.maps.icons.battlePass.awards_widget.collectionCompleted_small") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.awards_widget.collectionCompleted_small")
+    no-repeat center/contain;
   position: absolute;
   z-index: 4;
 }
@@ -9575,7 +9730,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 46rem;
   height: 40rem;
   top: 10rem;
-}@keyframes Count_fadeInWithScale_d63373f8 {
+}
+@keyframes Count_fadeInWithScale_d63373f8 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9657,7 +9813,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   line-height: 1.2;
   width: 100%;
   text-align: center;
-  text-shadow: 0 0 10rem #9d4b00, 0 0 6rem #9d4b00;
+  text-shadow:
+    0 0 10rem #9d4b00,
+    0 0 6rem #9d4b00;
   position: absolute;
   top: 44rem;
   left: 0;
@@ -9670,7 +9828,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-size: 30rem;
   font-weight: 700;
   line-height: 36rem;
-  text-shadow: 0 0 20rem #9d4b00, 0 0 12rem #9d4b00;
+  text-shadow:
+    0 0 20rem #9d4b00,
+    0 0 12rem #9d4b00;
   top: 61rem;
 }
 .mediaMedium .Count_base__big_4b990a50 {
@@ -9684,7 +9844,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Count_base__disabled_67818843 {
   text-shadow: none;
   opacity: 0.5;
-}@keyframes Icon_fadeInWithScale_55a8ab20 {
+}
+@keyframes Icon_fadeInWithScale_55a8ab20 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9787,7 +9948,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Icon_base__disabled_92482313 {
   filter: grayscale(100%);
-}@keyframes Label_fadeInWithScale_e3f8b3ce {
+}
+@keyframes Label_fadeInWithScale_e3f8b3ce {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -9907,7 +10069,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Label_base__gold_6ef0fe9 {
   color: #ffc363;
-  text-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 15rem rgba(238, 85, 34, 0.7);
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 15rem rgba(238, 85, 34, 0.7);
   opacity: 1;
 }
 .Label_base__hover_b5605ac8 {
@@ -9925,7 +10089,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaMedium .Label_base__disabled_4a0c758c {
   color: #8c8c7e;
-}@keyframes ChoiceAward_fadeInWithScale_3f034cd8 {
+}
+@keyframes ChoiceAward_fadeInWithScale_3f034cd8 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10034,7 +10199,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ChoiceAward_shine_2a2a93bd {
   width: 27rem;
   height: 48rem;
-  background: url("R.images.gui.maps.icons.battlePass.awards_widget.award_borderShine_small_s") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.awards_widget.award_borderShine_small_s")
+    no-repeat center/contain;
   position: absolute;
   top: 0;
   animation: ChoiceAward_shine_small_s_3f034cd8 2s linear infinite alternate;
@@ -10088,7 +10254,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ChoiceAward_arrow_e556b329 {
   width: 68rem;
   height: 90rem;
-  background: url("R.images.gui.maps.icons.battlePass.awards_widget.award_arrow_small_s") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.awards_widget.award_arrow_small_s") no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -10245,7 +10412,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translateY(150%);
   }
-}@keyframes CoinAward_fadeInWithScale_a9001336 {
+}
+@keyframes CoinAward_fadeInWithScale_a9001336 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10341,7 +10509,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaMedium .CoinAward_base__big_df55371 {
   width: 160rem;
   height: 280rem;
-}@keyframes CollectionAward_fadeInWithScale_4cd724f9 {
+}
+@keyframes CollectionAward_fadeInWithScale_4cd724f9 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10444,7 +10613,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   top: -5rem;
   right: -5rem;
   z-index: 5;
-}@keyframes CommanderAward_fadeInWithScale_9c46950e {
+}
+@keyframes CommanderAward_fadeInWithScale_9c46950e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10547,7 +10717,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .CommanderAward_base__hover_9c46950e .CommanderAward_icon_f54191ae {
   filter: brightness(1.2);
-}@keyframes TalerAward_fadeInWithScale_7a3c6bdb {
+}
+@keyframes TalerAward_fadeInWithScale_7a3c6bdb {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10643,7 +10814,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaMedium .TalerAward_base__big_75f7f954 {
   width: 160rem;
   height: 280rem;
-}@keyframes TicketAward_fadeInWithScale_5b80ab82 {
+}
+@keyframes TicketAward_fadeInWithScale_5b80ab82 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -10749,7 +10921,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .TicketAward_shine_7589460e {
   width: 27rem;
   height: 48rem;
-  background: url("R.images.gui.maps.icons.battlePass.awards_widget.ticket_borderShine_small_s") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.awards_widget.ticket_borderShine_small_s")
+    no-repeat center/contain;
   position: absolute;
   top: 0;
   animation: TicketAward_shine_small_s_5b80ab82 2s linear infinite alternate;
@@ -10803,7 +10976,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .TicketAward_arrow_ae4102b5 {
   width: 68rem;
   height: 90rem;
-  background: url("R.images.gui.maps.icons.battlePass.awards_widget.ticket_arrow_small_s") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.awards_widget.ticket_arrow_small_s") no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -10960,7 +11134,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translateY(150%);
   }
-}@keyframes AwardsWrapper_fadeInWithScale_b50d5668 {
+}
+@keyframes AwardsWrapper_fadeInWithScale_b50d5668 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11052,7 +11227,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .AwardsWrapper_f2595641 .AwardsWrapper_award_cc628048:first-child {
   margin-left: 0;
-}@keyframes FinalStateLabel_fadeInWithScale_fbe3e54b {
+}
+@keyframes FinalStateLabel_fadeInWithScale_fbe3e54b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11130,14 +11306,16 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .FinalStateLabel_icon_2cf5ceb5 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.check") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.check") no-repeat
+    center/cover;
   transform: translateY(2rem);
 }
 
 .FinalStateLabel_greenLight_7967eb2f {
   width: 244rem;
   height: 40rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.green_light") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.green_light") no-repeat
+    center/cover;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11153,7 +11331,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaMedium .FinalStateLabel_text_f6f99450 {
   font-size: 20rem;
-}@keyframes Final_fadeInWithScale_a3c6efa6 {
+}
+@keyframes Final_fadeInWithScale_a3c6efa6 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11290,14 +11469,16 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Final_icon_2e669607 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.check") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.check") no-repeat
+    center/cover;
   transform: translateY(2rem);
 }
 
 .Final_greenLight_e3a16077 {
   width: 244rem;
   height: 40rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.green_light") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.green_light") no-repeat
+    center/cover;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11336,7 +11517,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Final_base__finalState_a3c6efa6 .Final_button_dee53b83 {
   padding: 0 20rem;
-}@keyframes Divider_fadeInWithScale_76b1f722 {
+}
+@keyframes Divider_fadeInWithScale_76b1f722 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11415,7 +11597,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 200rem;
   height: 2rem;
   margin-top: 9rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.headline") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.headline") no-repeat
+    center/cover;
   opacity: 0.5;
 }
 .mediaMedium .Divider_3683d6e2 {
@@ -11423,7 +11606,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Divider_divider__right_24d5147b {
   transform: rotate(-180deg);
-}@keyframes Title_fadeInWithScale_2e63cf3 {
+}
+@keyframes Title_fadeInWithScale_2e63cf3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11510,7 +11694,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 200rem;
   height: 2rem;
   margin-top: 9rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.headline") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.headline") no-repeat
+    center/cover;
   opacity: 0.5;
 }
 .mediaMedium .Title_divider_fb97532e {
@@ -11529,7 +11714,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaMedium .Title_text_65e6762b {
   font-size: 28rem;
-}@keyframes Purchase_fadeInWithScale_6cb4414a {
+}
+@keyframes Purchase_fadeInWithScale_6cb4414a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11664,7 +11850,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Purchase_shadow_87ba71b {
   width: 888rem;
   height: 222rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.shadow") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.shadow") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11753,7 +11940,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .Purchase_rewardButton_bc4b54c4 {
   margin-top: 30rem;
-}@keyframes Rewards_fadeInWithScale_405577a5 {
+}
+@keyframes Rewards_fadeInWithScale_405577a5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11847,7 +12035,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   100% {
     opacity: 1;
   }
-}@keyframes Tankmen_fadeInWithScale_ca952550 {
+}
+@keyframes Tankmen_fadeInWithScale_ca952550 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -11936,7 +12125,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 962rem;
   height: 330rem;
   margin-top: 130rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.tankmen") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.tankmen") no-repeat
+    center/contain;
 }
 .mediaMedium .Tankmen_image_208678b {
   width: 1096rem;
@@ -12030,7 +12220,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0.8;
     left: 310rem;
   }
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12125,7 +12316,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   display: flex;
   width: 1200rem;
   height: 768rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.light_done") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.light_done") no-repeat
+    center/contain;
   mix-blend-mode: additive;
   position: absolute;
   bottom: 30rem;
@@ -12182,7 +12374,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0.8;
     left: 310rem;
   }
-}@keyframes Header_fadeInWithScale_65f475ba {
+}
+@keyframes Header_fadeInWithScale_65f475ba {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12303,7 +12496,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaExtraLarge .Header_description_e959461d {
   margin-top: 13rem;
   font-size: 100rem;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12396,7 +12590,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .App_background_a2d1b7ea {
   width: 1766rem;
   height: 922rem;
-  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.bg_reward") no-repeat center center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.holiday_final_screen.bg_reward") no-repeat
+    center center/cover;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12486,7 +12681,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .App_base__buyState_0 .App_footer_e521ba53 {
   bottom: 60rem;
-}@keyframes Highlight_fadeInWithScale_bef8f9aa {
+}
+@keyframes Highlight_fadeInWithScale_bef8f9aa {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12576,7 +12772,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("R.images.gui.maps.icons.battlePass.progression.bg_current_small") no-repeat center bottom/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.bg_current_small") no-repeat
+    center bottom/contain;
 }
 .mediaMedium .Highlight_inner_fc05a4f9 {
   background-image: url("R.images.gui.maps.icons.battlePass.progression.bg_current_medium");
@@ -12599,7 +12796,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Highlight_side__right_7a86ef2a {
   background-image: url("R.images.gui.maps.icons.battlePass.progression.bg_light_current_right");
   right: 0;
-}@keyframes Background_fadeInWithScale_26effab7 {
+}
+@keyframes Background_fadeInWithScale_26effab7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12715,7 +12913,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Background_base__last_26effab7 .Background_disabled_aebb7525 {
   mask-image: linear-gradient(to left bottom, transparent 50%, #000 70%, #000);
-}@keyframes CardRewards_fadeInWithScale_35611a2f {
+}
+@keyframes CardRewards_fadeInWithScale_35611a2f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12845,10 +13044,15 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 180rem;
   height: 135rem;
 }
-.CardRewards_base__inProgress_35611a2f .CardRewards_rewards__2_32a806d4 .CardRewards_reward_8562c98f {
+.CardRewards_base__inProgress_35611a2f
+  .CardRewards_rewards__2_32a806d4
+  .CardRewards_reward_8562c98f {
   margin: 10rem;
 }
-.mediaLarge .CardRewards_base__inProgress_35611a2f .CardRewards_rewards__2_32a806d4 .CardRewards_reward_8562c98f {
+.mediaLarge
+  .CardRewards_base__inProgress_35611a2f
+  .CardRewards_rewards__2_32a806d4
+  .CardRewards_reward_8562c98f {
   margin: 15rem;
 }
 .CardRewards_rewards__3_6ac4c499 .CardRewards_reward_8562c98f {
@@ -12863,10 +13067,13 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   left: 50%;
   transform: translateX(-50%);
 }
-.CardRewards_base__inProgress_35611a2f .CardRewards_rewards__3_6ac4c499 .CardRewards_reward_8562c98f:nth-child(even) {
+.CardRewards_base__inProgress_35611a2f
+  .CardRewards_rewards__3_6ac4c499
+  .CardRewards_reward_8562c98f:nth-child(even) {
   align-self: center;
   top: initial;
-}@keyframes Divider_fadeInWithScale_76b1f722 {
+}
+@keyframes Divider_fadeInWithScale_76b1f722 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -12958,11 +13165,18 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Divider_inner_5e9c8eab {
   width: 1rem;
   height: 12rem;
-  background-image: linear-gradient(to top, #fff, #fff 1rem, rgba(255, 255, 255, 0.4) 1rem, transparent);
+  background-image: linear-gradient(
+    to top,
+    #fff,
+    #fff 1rem,
+    rgba(255, 255, 255, 0.4) 1rem,
+    transparent
+  );
   position: absolute;
   bottom: 0;
   left: 0;
-}@keyframes Stage_fadeInWithScale_68142ff2 {
+}
+@keyframes Stage_fadeInWithScale_68142ff2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13120,7 +13334,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaLarge .Stage_animatedGlow_a126942e {
   margin-top: 14rem;
-}@keyframes CompletedStatus_fadeInWithScale_bdf18196 {
+}
+@keyframes CompletedStatus_fadeInWithScale_bdf18196 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13219,7 +13434,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CompletedStatus_icon_6277c5c1 {
   width: 24rem;
   height: 100%;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_check") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_check") no-repeat
+    center/contain;
   position: relative;
   z-index: 1;
 }
@@ -13245,7 +13461,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CompletedStatus_iconGlow_2dfae495 {
   width: 80rem;
   height: 100%;
-  background: url("R.images.gui.maps.icons.battlePass.progression.glow_check_green") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.glow_check_green") no-repeat
+    center/contain;
   opacity: 0.5;
   position: absolute;
   top: 50%;
@@ -13270,7 +13487,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   100% {
     transform: translateY(10%);
   }
-}@keyframes CurrentPoints_fadeInWithScale_3970c66e {
+}
+@keyframes CurrentPoints_fadeInWithScale_3970c66e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13391,8 +13609,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CurrentPoints_icon_6b371e14 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_points_current") no-repeat center/contain;
-}@keyframes Status_fadeInWithScale_35b9a31c {
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_points_current") no-repeat
+    center/contain;
+}
+@keyframes Status_fadeInWithScale_35b9a31c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13485,7 +13705,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaLarge .Status_pointsWrapper_6042cf48 {
   bottom: 10rem;
-}@keyframes Card_fadeInWithScale_f4c22d1c {
+}
+@keyframes Card_fadeInWithScale_f4c22d1c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13643,7 +13864,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: -16rem;
   left: 0;
   pointer-events: none;
-}@keyframes Cards_fadeInWithScale_1fb43427 {
+}
+@keyframes Cards_fadeInWithScale_1fb43427 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13729,7 +13951,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaLarge .Cards_afe60a85 {
   height: 325rem;
-}@keyframes ExtraChapter_fadeInWithScale_d6a2f84c {
+}
+@keyframes ExtraChapter_fadeInWithScale_d6a2f84c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -13843,7 +14066,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ExtraChapter_border_1fc38ae {
   width: 720rem;
   height: 114rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.border_small") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.border_small")
+    no-repeat center/contain;
   opacity: 0;
   position: absolute;
   z-index: 1;
@@ -13872,7 +14096,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ExtraChapter_bg_6bfbbfc5 {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.bg") no-repeat center/100%;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.bg")
+    no-repeat center/100%;
   position: absolute;
   transition: background-size 0.3s ease-in-out;
 }
@@ -13883,7 +14108,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ExtraChapter_widget_ba8b2337 {
   width: 140rem;
   height: 105rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.widget") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.extraChapter.widget")
+    no-repeat center/cover;
   position: absolute;
   left: 176rem;
   z-index: 2;
@@ -13947,7 +14173,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .ExtraChapter_content_7e770f3c {
   margin-left: 568rem;
-}@keyframes NotAvailable_fadeInWithScale_da04c136 {
+}
+@keyframes NotAvailable_fadeInWithScale_da04c136 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14043,7 +14270,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   align-self: center;
   width: 900rem;
   height: 230rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.notAvailable.lockBg") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.notAvailable.lockBg")
+    no-repeat center/contain;
   position: absolute;
 }
 .mediaMedium .NotAvailable_background_a3edbc06 {
@@ -14114,7 +14342,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaLarge .NotAvailable_completedCount_8450f150 {
   font-size: 24rem;
   line-height: 26rem;
-}@keyframes PurchasingIp_fadeInWithScale_e6cc332b {
+}
+@keyframes PurchasingIp_fadeInWithScale_e6cc332b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14316,7 +14545,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .PurchasingIp_border_78bb5b9b {
   width: 640rem;
   height: 118rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.purchaseIP.border_small") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.purchaseIP.border_small")
+    no-repeat center/contain;
   opacity: 0;
   position: absolute;
   z-index: 1;
@@ -14344,7 +14574,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .PurchasingIp_bg_345ee932 {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.purchaseIP.bg") no-repeat center/100%;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.footer.purchaseIP.bg")
+    no-repeat center/100%;
   position: absolute;
   transition: background-size 0.3s ease-in-out;
 }
@@ -14358,7 +14589,13 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   animation-iteration-count: infinite;
   width: 100rem;
   height: 100%;
-  background: linear-gradient(180deg, rgba(217, 217, 217, 0.1) 0%, rgba(217, 217, 217, 0.5) 30%, rgba(217, 217, 217, 0.5) 70%, rgba(217, 217, 217, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.1) 0%,
+    rgba(217, 217, 217, 0.5) 30%,
+    rgba(217, 217, 217, 0.5) 70%,
+    rgba(217, 217, 217, 0.1) 100%
+  );
   filter: blur(6px);
   position: absolute;
   top: 0;
@@ -14418,7 +14655,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .PurchasingIp_content_b09e9d85 {
   transform: translateX(25%);
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14497,7 +14735,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   display: flex;
   justify-content: center;
   width: 100%;
-}@keyframes Header_fadeInWithScale_65f475ba {
+}
+@keyframes Header_fadeInWithScale_65f475ba {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14585,7 +14824,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Header_background_ca26eac9 {
   width: 900rem;
   height: 180rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.header_wings") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.header_wings") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14685,7 +14925,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 90rem;
   height: 90rem;
   margin: -36rem -30rem -34rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.pause_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.pause_icon") no-repeat
+    center/contain;
 }
 
 .Header_label_f1c2cd27 {
@@ -14694,7 +14935,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   font-weight: 700;
   line-height: 1.1;
   margin-right: 5rem;
-}@keyframes Counter_fadeInWithScale_6b744519 {
+}
+@keyframes Counter_fadeInWithScale_6b744519 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14784,7 +15026,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Counter_infinityIcon_d060ec47 {
   width: 40rem;
   height: 40rem;
-  background: url("R.images.gui.maps.icons.battlePass.post_progression.infinity") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.post_progression.infinity") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14825,7 +15068,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Counter_cyclesNumber__hidden_4c746c1c {
   opacity: 0;
-}@keyframes Cycle_fadeInWithScale_8af1a177 {
+}
+@keyframes Cycle_fadeInWithScale_8af1a177 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -14915,7 +15159,20 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Cycle_contour_24ba23fd {
   width: 100%;
   height: 100%;
-  clip-path: polygon(0% 0%, 2% 0%, 2% 50%, 98% 50%, 98% 0%, 100% 0%, 100% 100%, calc(100% - var(--label-offset)) 100%, calc(100% - var(--label-offset)) 50%, var(--label-offset) 50%, var(--label-offset) 100%, 0% 100%);
+  clip-path: polygon(
+    0% 0%,
+    2% 0%,
+    2% 50%,
+    98% 50%,
+    98% 0%,
+    100% 0%,
+    100% 100%,
+    calc(100% - var(--label-offset)) 100%,
+    calc(100% - var(--label-offset)) 50%,
+    var(--label-offset) 50%,
+    var(--label-offset) 100%,
+    0% 100%
+  );
   overflow: hidden;
 }
 
@@ -14927,7 +15184,14 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Cycle_border__horizontal_c4a77614 {
   --dash-slices: 250;
-  border-image: repeating-linear-gradient(90deg, transparent 0%, rgba(254, 254, 236, 0.3) 0%, rgba(254, 254, 236, 0.3) 50%, transparent 50%, transparent 100%);
+  border-image: repeating-linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(254, 254, 236, 0.3) 0%,
+    rgba(254, 254, 236, 0.3) 50%,
+    transparent 50%,
+    transparent 100%
+  );
   border-image-slice: var(--dash-slices);
   border-image-repeat: repeat;
 }
@@ -14946,7 +15210,14 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Cycle_border__vertical_218efe03 {
   border-top-style: none;
   border-bottom-style: none;
-  border-image: repeating-linear-gradient(0deg, transparent 0%, rgba(254, 254, 236, 0.3) 0%, rgba(254, 254, 236, 0.3) 50%, transparent 50%, transparent 100%);
+  border-image: repeating-linear-gradient(
+    0deg,
+    transparent 0%,
+    rgba(254, 254, 236, 0.3) 0%,
+    rgba(254, 254, 236, 0.3) 50%,
+    transparent 50%,
+    transparent 100%
+  );
   border-image-slice: 0 5;
   border-image-repeat: repeat;
 }
@@ -15073,7 +15344,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     right: 80%;
     transform: translateX(60rem);
   }
-}@keyframes ProgressBar_fadeInWithScale_13ab2776 {
+}
+@keyframes ProgressBar_fadeInWithScale_13ab2776 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15194,7 +15466,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaExtraLarge .ProgressBar_cycle_7886c8 {
   height: 50rem;
   --cycle-side-width: 52rem;
-}@keyframes Toolbar_fadeInWithScale_648bdb8d {
+}
+@keyframes Toolbar_fadeInWithScale_648bdb8d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15272,7 +15545,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Toolbar_infoButtons_dd878d8c {
   display: flex;
   flex-direction: row;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15441,7 +15715,108 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .App_footer_e6643cae {
   margin-bottom: 50rem;
-}@keyframes AdditionalRewardInfo_fadeInWithScale_9c25fba3 {
+}
+@keyframes AttachmentsSetDescription_fadeInWithScale_d2963b67 {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes AttachmentsSetDescription_slideUp_d2963b67 {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes AttachmentsSetDescription_blink_d2963b67 {
+  0% {
+    filter: brightness(1);
+  }
+  16% {
+    filter: brightness(3);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+@keyframes AttachmentsSetDescription_scale_d2963b67 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes AttachmentsSetDescription_rotate_d2963b67 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes AttachmentsSetDescription_windowIn_d2963b67 {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes AttachmentsSetDescription_fadeOut_d2963b67 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes AttachmentsSetDescription_fadeIn_d2963b67 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.AttachmentsSetDescription_title_be2f4c09 {
+  color: #ffc363;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 3rem;
+}
+.mediaMedium .AttachmentsSetDescription_title_be2f4c09 {
+  margin-bottom: 4rem;
+}
+.mediaLarge .AttachmentsSetDescription_title_be2f4c09 {
+  margin-top: 5rem;
+  font-size: 15rem;
+}
+
+.AttachmentsSetDescription_name_30b7f496 {
+  color: #fefeec;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 7rem;
+}
+.mediaMedium .AttachmentsSetDescription_name_30b7f496 {
+  margin-bottom: 10rem;
+}
+@keyframes AdditionalRewardInfo_fadeInWithScale_9c25fba3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15559,7 +15934,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   height: 26rem;
   margin: -4rem -2rem -5rem;
   background: url("R.images.gui.maps.icons.battlePass.progression.info") no-repeat center/contain;
-}@keyframes StyleDescription_fadeInWithScale_9ce7517f {
+}
+@keyframes StyleDescription_fadeInWithScale_9ce7517f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15706,7 +16082,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 30rem;
   height: 26rem;
   margin: -5rem -3rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.hasVehicle") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.hasVehicle") no-repeat
+    center/contain;
   pointer-events: auto;
 }
 .mediaMedium .StyleDescription_vehicleInHangar_f82728b9 {
@@ -15733,7 +16110,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 46rem;
   height: 46rem;
   margin: -14rem -11rem -16rem -17rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") no-repeat
+    center/contain;
 }
 
 .StyleDescription_baseClass_cf456a8f {
@@ -15754,7 +16132,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 
 .mediaLarge .StyleDescription_type_8cffe3f7 {
   transform: translateY(-1rem);
-}@keyframes Skills_fadeInWithScale_2c9d324a {
+}
+@keyframes Skills_fadeInWithScale_2c9d324a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -15856,7 +16235,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Skills_glow_b87093c6 {
   width: 52rem;
   height: 52rem;
-  background: url("R.images.gui.maps.icons.battlePass.icons.zero_perk_glow") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.icons.zero_perk_glow") no-repeat
+    center/contain;
   position: absolute;
   top: -56%;
   left: -36%;
@@ -15920,7 +16300,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   z-index: -1;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes Voice_fadeInWithScale_d1a20ef1 {
+}
+@keyframes Voice_fadeInWithScale_d1a20ef1 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16035,7 +16416,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   animation-timing-function: ease-in;
   animation-iteration-count: var(--animation-iteration-count);
 }
-.Voice_c37942b8:hover .Voice_icon_341b24d6, .Voice_base__animate_d1a20ef1 .Voice_icon_341b24d6 {
+.Voice_c37942b8:hover .Voice_icon_341b24d6,
+.Voice_base__animate_d1a20ef1 .Voice_icon_341b24d6 {
   opacity: 1;
 }
 
@@ -16083,7 +16465,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   100% {
     opacity: 1;
   }
-}@keyframes TankmanDescription_fadeInWithScale_af561975 {
+}
+@keyframes TankmanDescription_fadeInWithScale_af561975 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16222,7 +16605,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 46rem;
   height: 46rem;
   margin: -13rem 0 -10rem 6rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") center/contain
+    no-repeat;
   transform: translate(-50%, 0);
 }
 .mediaMedium .TankmanDescription_lockIcon_7b9909c0 {
@@ -16266,7 +16650,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 
 .TankmanDescription_close_b105aa08 {
   min-height: 24rem;
-}@keyframes Timer_fadeInWithScale_6ee5dd6c {
+}
+@keyframes Timer_fadeInWithScale_6ee5dd6c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16352,7 +16737,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Timer_light_b54b0e12 {
   width: 309rem;
   height: 232rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.extra.timerLight") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.extra.timerLight") no-repeat
+    center/contain;
   opacity: 0.7;
   position: absolute;
   top: 50%;
@@ -16366,7 +16752,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 24rem;
   height: 24rem;
   margin: -3rem 0 0 -8rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.widget_rewards.time_icon") center/cover no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.widget_rewards.time_icon")
+    center/cover no-repeat;
   z-index: 1;
 }
 
@@ -16377,7 +16764,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   line-height: 1.2;
   margin-top: -5rem;
   z-index: 1;
-}@keyframes VehicleInfo_fadeInWithScale_9c9aeed {
+}
+@keyframes VehicleInfo_fadeInWithScale_9c9aeed {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16474,7 +16862,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   height: 74rem;
   margin-top: -19rem;
   margin-bottom: -13rem;
-}@keyframes VehicleDescription_fadeInWithScale_ae4f1424 {
+}
+@keyframes VehicleDescription_fadeInWithScale_ae4f1424 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16636,7 +17025,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 46rem;
   height: 46rem;
   margin: -13rem 0 0 6rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") center/contain
+    no-repeat;
   transform: translate(-50%, 0);
 }
 .mediaMedium .VehicleDescription_rewardLockIcon_bf4a508e {
@@ -16658,7 +17048,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .VehicleDescription_rewardLockText_1ae0fc44 {
   font-size: 18rem;
-}@keyframes Separator_fadeInWithScale_68dca4b0 {
+}
+@keyframes Separator_fadeInWithScale_68dca4b0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16742,7 +17133,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Separator_separatorBg_79e9a0f1 {
   width: 200rem;
   height: 200rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.widget_rewards.separator") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.widget_rewards.separator")
+    no-repeat center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16768,7 +17160,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaMedium .Separator_preview_59acd6d6 {
   top: -30rem;
-}@keyframes ExtraChapterWidget_fadeInWithScale_3f5dd2c5 {
+}
+@keyframes ExtraChapterWidget_fadeInWithScale_3f5dd2c5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -16854,12 +17247,12 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   position: relative;
   z-index: 1;
 }
-.mediaMedium .ExtraChapterWidget_base__styleReward_3f5dd2c5,
-.mediaMedium .ExtraChapterWidget_widgetWrapper__styleReward_58c59f97 {
+.mediaMedium .ExtraChapterWidget_base__freeSingleReward_3f5dd2c5,
+.mediaMedium .ExtraChapterWidget_widgetWrapper__freeSingleReward_58c59f97 {
   padding: 3rem 0;
 }
-.mediaLarge .ExtraChapterWidget_base__styleReward_3f5dd2c5,
-.mediaLarge .ExtraChapterWidget_widgetWrapper__styleReward_58c59f97 {
+.mediaLarge .ExtraChapterWidget_base__freeSingleReward_3f5dd2c5,
+.mediaLarge .ExtraChapterWidget_widgetWrapper__freeSingleReward_58c59f97 {
   padding: 20rem 0;
 }
 
@@ -16867,7 +17260,7 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   flex-direction: row;
 }
 
-.ExtraChapterWidget_glow_4388d699 {
+.ExtraChapterWidget_glow_ea30fd08 {
   width: 418rem;
   height: 166rem;
   background: radial-gradient(50% 50% at 50% 50%, rgba(13, 13, 13, 0.5) 54%, transparent 100%);
@@ -16878,7 +17271,7 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
-.ExtraChapterWidget_glow__styleReward_8dcf5d5f {
+.ExtraChapterWidget_base__freeSingleReward_3f5dd2c5 .ExtraChapterWidget_glow_ea30fd08 {
   width: 200%;
   top: 60%;
 }
@@ -16925,7 +17318,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .mediaExtraLarge .ExtraChapterWidget_timer_92648812 {
   margin-top: 70rem;
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17142,7 +17536,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0.8;
     left: 310rem;
   }
-}@keyframes Header_fadeInWithScale_65f475ba {
+}
+@keyframes Header_fadeInWithScale_65f475ba {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17365,7 +17760,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .Header_emblem__isChapterNotChosen_8aa33950 {
   filter: brightness(0.6) saturate(0.7);
-}@keyframes ArrowButton_fadeInWithScale_5327085d {
+}
+@keyframes ArrowButton_fadeInWithScale_5327085d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17446,7 +17842,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   box-shadow: 0 0 0 1px rgba(247, 211, 145, 0.2);
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
-  transition: box-shadow linear 0.2s, filter linear 0.2s;
+  transition:
+    box-shadow linear 0.2s,
+    filter linear 0.2s;
   cursor: pointer;
 }
 .ArrowButton_bae005da:hover {
@@ -17479,7 +17877,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .ArrowButton_bae005da:hover .ArrowButton_icon_78679b8c {
   opacity: 1;
-}@keyframes Bookmark_fadeInWithScale_67865c94 {
+}
+@keyframes Bookmark_fadeInWithScale_67865c94 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17682,13 +18081,26 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 
 .Bookmark_leftTextLine_efb7ffd5 {
   border-right: 1rem solid #fff;
-  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0.6) 100%);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.2) 80%,
+    rgba(255, 255, 255, 0.4) 90%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
 }
 
 .Bookmark_rightTextLine_c747efe3 {
   border-left: 1rem solid #fff;
-  background-image: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0.6) 100%);
-}@keyframes LoupeButton_fadeInWithScale_6d2d6b9f {
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    rgba(255, 255, 255, 0.2) 80%,
+    rgba(255, 255, 255, 0.4) 90%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+}
+@keyframes LoupeButton_fadeInWithScale_6d2d6b9f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17805,7 +18217,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .LoupeButton_hoverArea_fa5a9428 {
   position: absolute;
   cursor: pointer;
-}@keyframes VehicleInfo_fadeInWithScale_9c9aeed {
+}
+@keyframes VehicleInfo_fadeInWithScale_9c9aeed {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -17902,7 +18315,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   height: 45rem;
   margin: -6rem -8rem;
   background: center/contain no-repeat;
-}@keyframes Widget3dStyle_fadeInWithScale_9577883c {
+}
+@keyframes Widget3dStyle_fadeInWithScale_9577883c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -18032,7 +18446,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Widget3dStyle_light_afd0e007 {
   width: 320rem;
   height: 320rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.widget_3d_style.glow") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.widget_3d_style.glow") no-repeat
+    center/contain;
   mix-blend-mode: additive;
   position: absolute;
   top: 50%;
@@ -18108,7 +18523,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
-}@keyframes Progression_fadeInWithScale_61efd8f5 {
+}
+@keyframes Progression_fadeInWithScale_61efd8f5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -18305,7 +18721,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   height: 248rem;
   margin-left: -2rem;
   margin-top: 60rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.medal_bg_small") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.medal_bg_small") right
+    center/contain no-repeat;
 }
 .mediaMedium .Progression_decorBackground_da5971de {
   width: 90rem;
@@ -18392,7 +18809,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: 189rem;
   z-index: 3;
   transform: translateY(50%);
-  transition: opacity linear 0.3s, visibility linear 0.3s;
+  transition:
+    opacity linear 0.3s,
+    visibility linear 0.3s;
   transition-delay: 0.2s;
 }
 .mediaMedium .Progression_scrollToButton_b51d1a4f {
@@ -18427,7 +18846,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: 189rem;
   z-index: 3;
   transform: translateY(50%);
-  transition: opacity linear 0.3s, visibility linear 0.3s;
+  transition:
+    opacity linear 0.3s,
+    visibility linear 0.3s;
   pointer-events: none;
 }
 .mediaMedium .Progression_progressionToButton_277ce88b {
@@ -18450,7 +18871,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Progression_shadow_aeeafbe {
   width: 162rem;
   height: 460rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.shadow_main_small") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.shadow_main_small") right
+    center/contain no-repeat;
   position: absolute;
   bottom: 0;
   z-index: 1;
@@ -18494,7 +18916,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Progression_additionalShadow_19983a68 {
   width: 103rem;
   height: 440rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.shadow_additional_small") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.shadow_additional_small") right
+    center/contain no-repeat;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -18522,7 +18945,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Progression_scrollBarPosition_31bb147f {
   margin-top: -18rem;
   padding: 0 10rem;
-}@keyframes Background_fadeInWithScale_26effab7 {
+}
+@keyframes Background_fadeInWithScale_26effab7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -18698,7 +19122,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("R.images.gui.maps.icons.battlePass.progression.bg_current_small") no-repeat center bottom/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.bg_current_small") no-repeat
+    center bottom/contain;
 }
 .mediaMedium .Background_inProgressInner_eca44a42 {
   background-image: url("R.images.gui.maps.icons.battlePass.progression.bg_current_medium");
@@ -18721,7 +19146,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Background_inProgressPart__right_cb03c83d {
   background-image: url("R.images.gui.maps.icons.battlePass.progression.bg_light_current_right");
   right: 0;
-}@keyframes Stage_fadeInWithScale_68142ff2 {
+}
+@keyframes Stage_fadeInWithScale_68142ff2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -18893,7 +19319,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 150rem;
   height: 100rem;
   margin-top: 10rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.bg_final_stage") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.bg_final_stage") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18913,7 +19340,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   margin-top: 7rem;
   background-image: url("R.images.gui.maps.icons.battlePass.progression.bg_final_stage_current");
   background-size: contain;
-}@keyframes ClosedStatus_fadeInWithScale_16aec471 {
+}
+@keyframes ClosedStatus_fadeInWithScale_16aec471 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -18998,7 +19426,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ClosedStatus_icon_26722519 {
   width: 46rem;
   height: 46rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock") no-repeat
+    center/contain;
   opacity: 0.6;
 }
 .ClosedStatus_icon__current_d82fe3b3 {
@@ -19014,7 +19443,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .ClosedStatus_icon__exit_70d0e6c0 {
   opacity: 0.6;
 }
-.ClosedStatus_icon__exitActive_6e4d1395, .ClosedStatus_icon__exitCurrentActive_add31c82 {
+.ClosedStatus_icon__exitActive_6e4d1395,
+.ClosedStatus_icon__exitCurrentActive_add31c82 {
   animation-duration: 0.75s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
@@ -19049,7 +19479,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   opacity: 1;
 }
 .ClosedStatus_title__exitActive_3d936f93 {
-  animation: ClosedStatus_fadeDown_16aec471 0.5s forwards cubic-bezier(0.6, 0.04, 0.98, 0.33) 0.65s 1;
+  animation: ClosedStatus_fadeDown_16aec471 0.5s forwards cubic-bezier(0.6, 0.04, 0.98, 0.33) 0.65s
+    1;
 }
 .ClosedStatus_title__exitDone_694aab32 {
   opacity: 0;
@@ -19082,7 +19513,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translateY(20rem);
   }
-}@keyframes CompletedStatus_fadeInWithScale_bdf18196 {
+}
+@keyframes CompletedStatus_fadeInWithScale_bdf18196 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19178,7 +19610,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CompletedStatus_icon_a8f57fb0 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_check") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_check") no-repeat
+    center/contain;
   position: relative;
   top: 0;
   left: 50%;
@@ -19195,7 +19628,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 1;
     transform: translateY(0);
   }
-}@keyframes CurrentPoints_fadeInWithScale_3970c66e {
+}
+@keyframes CurrentPoints_fadeInWithScale_3970c66e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19298,8 +19732,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CurrentPoints_icon_6b371e14 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_points_current") no-repeat center/contain;
-}@keyframes Effects_fadeInWithScale_b2e4e57c {
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_points_current") no-repeat
+    center/contain;
+}
+@keyframes Effects_fadeInWithScale_b2e4e57c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19436,7 +19872,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translate(-50%, -50%) scale(2.5);
   }
-}@keyframes Status_fadeInWithScale_35b9a31c {
+}
+@keyframes Status_fadeInWithScale_35b9a31c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19599,7 +20036,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translate(-50%, -50%) scale(2.5);
   }
-}@keyframes Rewards_fadeInWithScale_405577a5 {
+}
+@keyframes Rewards_fadeInWithScale_405577a5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19695,22 +20133,33 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 80rem;
   height: 80rem;
 }
-.Rewards_base__tripleDefault_405577a5 .Rewards_reward__0_405577a5, .Rewards_base__tripleDefault_405577a5 .Rewards_reward__2_ab1f8587 {
+.Rewards_base__tripleDefault_405577a5 .Rewards_reward__0_405577a5,
+.Rewards_base__tripleDefault_405577a5 .Rewards_reward__2_ab1f8587 {
   margin-top: 58rem;
 }
-.mediaMedium .Rewards_base__tripleDefault_405577a5 .Rewards_reward__0_405577a5, .mediaMedium .Rewards_base__tripleDefault_405577a5 .Rewards_reward__2_ab1f8587 {
+.mediaMedium .Rewards_base__tripleDefault_405577a5 .Rewards_reward__0_405577a5,
+.mediaMedium .Rewards_base__tripleDefault_405577a5 .Rewards_reward__2_ab1f8587 {
   margin-top: 86rem;
 }
-.Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__0_405577a5, .Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__2_ab1f8587 {
+.Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__0_405577a5,
+.Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__2_ab1f8587 {
   margin-top: 0;
 }
-.mediaLarge .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__0_405577a5, .mediaLarge .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__2_ab1f8587 {
+.mediaLarge .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__0_405577a5,
+.mediaLarge .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__2_ab1f8587 {
   margin-top: 18rem;
 }
-.Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__0_405577a5, .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__2_ab1f8587 {
+.Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__0_405577a5,
+.Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__2_ab1f8587 {
   margin-top: -10rem;
 }
-.mediaMedium .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__0_405577a5, .mediaMedium .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__2_ab1f8587 {
+.mediaMedium
+  .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__0_405577a5,
+.mediaMedium
+  .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__2_ab1f8587 {
   margin-top: -30rem;
 }
 .Rewards_base__tripleDefault_405577a5 .Rewards_reward__1_804d2a62 {
@@ -19722,7 +20171,9 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__1_804d2a62 {
   margin-top: 58rem;
 }
-.mediaMedium .Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__1_804d2a62 {
+.mediaMedium
+  .Rewards_base__tripleDefault_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__1_804d2a62 {
   margin-top: 86rem;
 }
 .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__1_804d2a62 {
@@ -19734,10 +20185,13 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .mediaLarge .Rewards_base__tripleInProgress_405577a5 .Rewards_reward__1_804d2a62 {
   margin-top: -11rem;
 }
-.Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__1_804d2a62 {
+.Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__1_804d2a62 {
   margin-top: 10rem;
 }
-.mediaMedium .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5 .Rewards_reward__1_804d2a62 {
+.mediaMedium
+  .Rewards_base__tripleInProgress_405577a5.Rewards_base__reverse_405577a5
+  .Rewards_reward__1_804d2a62 {
   margin-top: 0;
 }
 .Rewards_base__column_a9c4b33d .Rewards_reward_3ab9772c {
@@ -19785,7 +20239,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   transform: translate(-50%, -50%);
   width: 140rem;
   height: 140rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.shineTakenReward") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.shineTakenReward") no-repeat
+    center/contain;
   mix-blend-mode: additive;
   animation: Rewards_staticShine_6885b0f2 1.8s ease-out forwards;
   pointer-events: none;
@@ -19868,7 +20323,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0;
     transform: translate(-50%, -50%) scale(1);
   }
-}@keyframes CardRewards_fadeInWithScale_35611a2f {
+}
+@keyframes CardRewards_fadeInWithScale_35611a2f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -19961,7 +20417,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 .CardRewards_base__completed_434ea7b1 {
   opacity: 0.5;
-}@keyframes CardContent_fadeInWithScale_d7ebe82e {
+}
+@keyframes CardContent_fadeInWithScale_d7ebe82e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -20067,7 +20524,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .CardContent_buttonLight_c4e99653 {
   width: 176rem;
   height: 113rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.button_light_small") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.progression.button_light_small") no-repeat
+    center/contain;
   opacity: 0.6;
   mix-blend-mode: additive;
   position: absolute;
@@ -20082,7 +20540,10 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 
 .CardContent_buttonInner_331e7784 {
-  box-shadow: 0 0 12rem 1rem rgba(255, 0, 0, 0.25), inset 0 0 12rem 0 rgba(255, 0, 0, 0.3), 0 2rem 4rem rgba(107, 52, 0, 0.2);
+  box-shadow:
+    0 0 12rem 1rem rgba(255, 0, 0, 0.25),
+    inset 0 0 12rem 0 rgba(255, 0, 0, 0.3),
+    0 2rem 4rem rgba(107, 52, 0, 0.2);
   overflow: hidden;
   position: relative;
 }
@@ -20096,13 +20557,16 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   border-radius: 2rem;
   box-shadow: none;
   background: rgba(0, 0, 0, 0.2);
-  transition: background-color 0.16s ease-in-out, border-color 0.16s ease-in-out;
+  transition:
+    background-color 0.16s ease-in-out,
+    border-color 0.16s ease-in-out;
 }
 .CardContent_button_3b7b5ae4:hover {
   border-color: #ffe49d;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.CardContent_button__disabled_d7ebe82e, .CardContent_button__disabled_d7ebe82e:hover {
+.CardContent_button__disabled_d7ebe82e,
+.CardContent_button__disabled_d7ebe82e:hover {
   border-color: rgba(255, 255, 255, 0.25);
   background-color: transparent;
 }
@@ -20129,7 +20593,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 }
 
 @keyframes CardContent_move_d7ebe82e {
-  0%, 40% {
+  0%,
+  40% {
     opacity: 0.3;
     transform: translateX(-200%);
   }
@@ -20141,7 +20606,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
     opacity: 0.8;
     transform: translateX(300%);
   }
-}@keyframes Divider_fadeInWithScale_76b1f722 {
+}
+@keyframes Divider_fadeInWithScale_76b1f722 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -20242,11 +20708,18 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
 .Divider_inner_5e9c8eab {
   width: 1rem;
   height: 12rem;
-  background-image: linear-gradient(to top, #fff, #fff 1rem, rgba(255, 255, 255, 0.4) 1rem, transparent);
+  background-image: linear-gradient(
+    to top,
+    #fff,
+    #fff 1rem,
+    rgba(255, 255, 255, 0.4) 1rem,
+    transparent
+  );
   position: absolute;
   bottom: 0;
   left: 0;
-}@keyframes Card_fadeInWithScale_f4c22d1c {
+}
+@keyframes Card_fadeInWithScale_f4c22d1c {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -20366,7 +20839,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   bottom: -16rem;
   left: 0;
   pointer-events: none;
-}@keyframes ProgressionContent_fadeInWithScale_db164ca7 {
+}
+@keyframes ProgressionContent_fadeInWithScale_db164ca7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -20450,26 +20924,26 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   background: no-repeat center/cover;
   position: relative;
 }
-.ProgressionContent_base__extra_58f1f12d {
+.ProgressionContent_base__extra_108a8890 {
   --widget-size: 506rem;
-  background-color: #201e24;
+  background-color: #161a1e;
   background-position: 100% 50%;
   background-size: 1940rem 970rem;
 }
-.mediaMedium .ProgressionContent_base__extra_58f1f12d {
+.mediaMedium .ProgressionContent_base__extra_108a8890 {
   --widget-size: 580rem;
   background-size: 2336rem 1168rem;
 }
-.mediaLarge .ProgressionContent_base__extra_58f1f12d {
+.mediaLarge .ProgressionContent_base__extra_108a8890 {
   --widget-size: 689rem;
   background-size: 2800rem 1440rem;
 }
-.mediaExtraLarge .ProgressionContent_base__extra_58f1f12d {
+.mediaExtraLarge .ProgressionContent_base__extra_108a8890 {
   --widget-size: 931rem;
   background-size: 3800rem 1900rem;
 }
-.ProgressionContent_base__extraChapter_9b00a080 {
-  background-color: #151a27;
+.ProgressionContent_base__extraChapter_efc5bb01 {
+  background-color: #0a1316;
 }
 
 .ProgressionContent_header_3c9de2e1 {
@@ -20521,7 +20995,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   z-index: 1;
   transform: translateX(-50%);
   cursor: default;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -20600,7 +21075,8 @@ html[lang=ja] .mediaLarge .Overlay_base__double_3c7155a .Overlay_alertText_ca764
   width: 100%;
   height: 100%;
   position: relative;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);

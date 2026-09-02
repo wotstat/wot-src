@@ -34,6 +34,9 @@ msgstr "Top može pucati stalno bez potrebe za punjenjem. Svaki hitac stvara top
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Povećava snagu motora i najveću brzinu za brzo kretanje po bojištu. Kada je aktiviran, mlazni potisnici umanjuju pokretljivost i ne mogu se ručno isključiti."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Top vozila ima posebne uređaje koji omogućuju izmjenu nekih parametara granata prije paljbe. Parametri za različite granate razlikuju se ovisno o odabranom režimu, a svaki režim omogućuje vam brzu prilagodbu različitim borbenim situacijama."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Kada je aktiviran, ovaj posebni režim povećava i/ili mijenja određene parametre bitke. Najbolje ga je aktivirati kada ste na položaju i spremni za sukob s neprijateljem."
 
@@ -82,6 +85,9 @@ msgstr "Automatski top s toplinskom kontrolom pregrijavanja"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Mlazni potiskivači"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Sustav kalibriranja granate"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Režim opsade"
 
@@ -100,8 +106,17 @@ msgstr "Režim paljbe salve"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Ostajući nepomični ili se krećući polako, gradite razine preciznosti za poboljšanje točnosti vašeg slijedećeg hica.\nNa najvišoj razini preciznosti dobivate pristojno upravljanje topom s umanjenim rasipanjem, čak i tijekom kretanja ili zakretanja trupa/kupole."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mehanizam trenutno smanjuje ponovno punjenje granata na kratko fiksno vrijeme. Svaka upotreba troši jedno punjenje po granati, a naboji se s vremenom nadopunjuju - brže kada je spremnik pun. Određeni broj naboja dostupan je na početku bitke."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ovo vozilo je opremljeno lanserom raketa montiranim na blendu topa. Aktivirajte sposobnost prebacivanja na ciljnig sekundarnog naoružanja i potom lansirajte nevođenu HE raketu s tipkom paljbe."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Svaki puta kada pogodite neprijatelja granatom stječete razinu učinkovitosti punjenja koja privremeno ubrzava punjenje vašeg topa. Razine se akumuliraju svakim pogotkom. \nUništenje neprijateljskog vozila granatom daje dodatne razine učinkovitosti punjenja."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Vanjski modul za opskrbu streljivom ovog vozila omogućuje mu ispaljivanje snažnih unitarnih projektila visokog naboja koji uzrokuju povećanu štetu. Dok je aktivan, modul također smanjuje mobilnost i brzinu paljbe."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Ako je vaš top napunjen, možete poći ugrijavati vaš slijedeći hitac za povećanu štetu-što je veća razina topline, to je veći učinak.\nNa najvećem zagrijavanju imate nekoliko sekundi za paljbu. Ako ne pucate, paljba će vam privremeno biti onemogućena."
@@ -142,6 +157,15 @@ msgstr "Sustav s vremenom akumulira naboj, pri čemu veći naboj daje više bonu
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktivirajte Potisnike na tekuće gorivo u bilo koje doba za naglo ubrzanje kada vam najviše treba. Potisnici se griju i moraju se hladiti prije nove uporabe dok će ih prekoračenje kritične razine pregrijavanja privremeno potpuno isključiti."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Kada pogodite vidljivo neprijateljsko vozilo granatom, podešava se upaljač na sljedećoj granati. Ako je početni hitac probio neprijateljski oklop, šteta sljedećeg hica se povećava. Ako nije, probojnost sljedećeg hica se povećava."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Top vozila ima posebne uređaje koji omogućuju izmjenu nekih parametara granata prije paljbe. Parametri za različite granate razlikuju se ovisno o odabranom režimu, a svaki režim omogućuje vam brzu prilagodbu različitim borbenim situacijama."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Kada se aktivira, uređaj skenira sektor ispred vašeg vozila, otkrivajući skrivene ciljeve prije isteka vremena hlađenja. Ako otkrije neotkrivenog neprijatelja i vi odmah postajete uočeni. Skeniranje možete ručno zaustaviti nakon kratke pauze."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Potisnici na čvrsto gorivo koji pojačavaju ubrzanje, pokretljivost i upravljivost na nekoliko sekundi. Lijevi i desni potisnici mogu raditi neovisno jedan od drugog za brže zakretanje kupole i ne ograničavaju sposobnost vožnje unatrag."
 
@@ -166,8 +190,17 @@ msgstr "Ova mehanička modifikacija značajno povećava ubrzanje vozila, snagu m
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analogni balistički računalni uređaj"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Mehanizam prisilnog punjenja"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaksijalni raketni lanser"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Poluautomatsko spremište streljiva"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Režim Vanjske opskrbe streljivom"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termobalističko prepunjavanje"
@@ -208,6 +241,15 @@ msgstr "Indukcijski pogonski sustav naknadnog izgaranja"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Potisnici na tekuće gorivo"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Podesivi upaljač"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Sustav kalibriranja granate"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infracrvena pretraga i praćenje (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sekvencijalni raketni potisnici"
 
@@ -232,8 +274,17 @@ msgstr "Pomoć pri radu visokotlačnog turbopunjača"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Povećava preciznost vašeg slijedećeg hica s pristojnom stabilizacijom na punoj kalibraciji."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Trenutačno smanjuje ponovno punjenje granate na kratko fiksno vrijeme."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Ispaljuje nevođenu HE raketu iz koaksijalnog lansera neovisno od glavnog topa."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Svaki pogodak na neprijateljsko vozilo povećava brzinu punjenja topa na neograničeno vrijeme."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Ispaljuje granate velike štete na uštrb pokretljivosti i hlađenja."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Pojačajte razine ugrijavanja za nanošenje više štete neprijateljskim vozilima slijedećim hicem."
@@ -274,6 +325,15 @@ msgstr "Sustav se puni da bi pojačao štetu. Što je veći naboj, to je veća �
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Potisnici koji se mogu aktivirati bilo kada za naglo povećanje brzine."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Pogađanje vidljivog neprijatelja povećava štetu ili probojnost slijedeće granate."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Top ima posebne uređaje koji omogućuju promjenu nekih parametara granate prije paljbe."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Produljuje vidokrug i otkriva vozila u pokretu i skrivena u raslinju u uskom sektoru."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Potisnici na čvrsto gorivo koji pojačavaju ubrzanje, pokretljivost i upravljivost."
 
@@ -298,8 +358,14 @@ msgstr "Posebna mehanika koja pojačava snagu motora, ubrzanje i najveću brzinu
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Ostanak na mjestu ili kretanje ispod određene brzine omogućuje vašem vozilu kalibraciju svog analognog balističkog računalnog uređaja i izgradnju razina točnosti, povećavajući točnost vašeg sljedećeg hica. Ako prekoračite ograničenje brzine, vaš napredak u izgradnji razina preciznosti bit će pauziran dok ne usporite. Na najvišoj razini preciznosti vaše vozilo dobiva pristojnu stabilizaciju topa, sa smanjenim rasipanjem od kretanja ili rotacije kupole/trupa. Učinak se uklanja nakon paljbe."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ovo vozilo je opremljeno lanserom raketa montiranim na blendu topa. Aktivirajte sposobnost prebacivanja na ciljnig sekundarnog naoružanja i potom lansirajte nevođenu HE raketu s tipkom paljbe."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Svaki puta kada pogodite vidljivog neprijatelja granatom stječete razinu učinkovitosti punjenja koja privremeno ubrzava punjenje vašeg topa. Razine se akumuliraju svakim pogotkom, a uništenje neprijateljskog vozila granatom daje dodatne razine učinkovitosti punjenja."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Vanjski modul za opskrbu streljivom ovog vozila omogućuje mu ispaljivanje snažnih unitarnih projektila visokog naboja koji uzrokuju povećanu štetu. Dok je aktivan, modul također smanjuje mobilnost i brzinu paljbe."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Ako je vaš top napunjen, možete početi zagrijavati sljedeći hitac. Što je veća razina zagrijavanja, to će biti veći bonus na prosječnu štetu. Tijekom procesa zagrijavanja ne možete mijenjati granate. Kada dostignete maksimalnu razinu zagrijavanja, počinje odbrojavanje. Ako ne pucate prije nego što završi, nećete moći pucati nekoliko sekundi."
@@ -340,6 +406,15 @@ msgstr "Tijekom vremena, sustav automatski akumulira naboj koji se djelomično t
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Potisnici na tekuće gorivo daju nagli porast snage motora što omogućuje pozicijsku prednost na bojištu, ali ograničavaju brzinu unatrag i brzinu zakretanja vozila. Mogu se u bilo koje doba isključiti ili uključiti, osim nakon dosizanja granice reaktivacije. Potisnici se zagrijavaju kada su aktivni i postaju nedostupni dok se ne ohlade što znači da se ne mogu neprestano koristiti, a prekoračenje kritične razine pregrijavanja će ih privremeno potpuno isključiti. Pažljivo planirajte svoje poteze kako bi izbjegli hvatanje na krivoj nozi."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Kada pogodite vidljivo neprijateljsko vozilo granatom, podešava se upaljač na sljedećoj granati. Ako je početni hitac probio neprijateljski oklop, šteta sljedećeg hica se povećava. Ako nije, probojnost sljedećeg hica se povećava."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Top vozila ima posebne uređaje koji omogućuju izmjenu nekih parametara granata prije paljbe. Raspored oružja pokazuje na koje će parametre utjecati prebacivanje između načina paljbe."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Napredni optički uređaj povećava vaš vidokrug i poboljšava detekciju vozila u pokretu i vozila skrivenih u raslinju. Kada se aktivira, skenira uski sektor ispred vašeg vozila, otkrivajući skrivene ciljeve prije razdoblja hlađenja. Ako otkrije neprimijećenog neprijatelja i vi odmah postajete uočeni. Skeniranje možete ručno zaustaviti nakon kratke odgode."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Potisnici na kruto gorivo koji poboljšavaju ubrzanje, pokretljivost i upravljivost vozila na nekoliko sekundi. Za razliku od običnih mlaznih potisnika, lijevi i desni potisnici mogu raditi neovisno jedan od drugoga za brže zakretanje trupa i ne ograničavaju mogućnost kretanja unatrag. Mogu se koristiti više puta po bitci, ali zahtijevaju hlađenje prije ponovnog uključenja."
 
@@ -363,6 +438,18 @@ msgstr "Ova mehanička modifikacija značajno povećava ubrzanje vozila, snagu m
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Sve prikazane vrijednosti su najveće moguće za vozilo. Oprema, smjernice i potrošni materijal mogu promjeniti ove vrijednosti, ali te promjene ovdje nisu prikazane."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibrabilna AP granata"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibrabilna APCR granata"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibrabilna HE granata"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibrabilna HEAT granata"
 
 msgid "characteristics/templates/upTo"
 msgstr "Do %(value)%s"

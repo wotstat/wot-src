@@ -34,6 +34,9 @@ msgstr "Kanonen kan blive ved med at skyde uden at lade. Hvert skud genererer va
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Forøger motorkraft og tophastighed til hurtige bevægelser over slagmarken. Ved aktivering reducerer raket-boosterne manøvredygtighed og kan ikke manuelt deaktiveres."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Køretøjets kanon har særligt udstyr, der gør det muligt at justere nogle parametre på granaterne, før de affyres. Parametre for forskellige granater varierer alt efter den valgte tilstand, og hver tilstand lader dig hurtigt tilpasse dig forskellige kampsituationer."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Ved aktivering vil denne særlige tilstand forøge og/eller ændre visse kampparametre. Bedst at aktivere, når køretøjet er i position og klar til kamp."
 
@@ -82,6 +85,9 @@ msgstr "Termisk varmestyret maskinkanon"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Raket-boostere"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Kalibreringssystem til granater"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Belejringstilstand"
 
@@ -100,8 +106,17 @@ msgstr "Salveskydning"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Ved at forblive stationær eller langsomt i bevægelse, vil du opbygge præcisionsniveauer, så dit næste skud bliver mere nøjagtigt.\nPå det højeste præcisionsniveau har du udmærkede kanonegenskaber, med reduceret spredning, selv ved bevægelse eller rotation af tårn/skrog."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mekanismen reducerer straks ladetiden på en granat til en kort fastsat tid. Hver gang den benyttes, anvendes én ladning per granat, og ladninger gendannes over tid — hurtigere, når magasinet er fyldt. Et bestemt antal ladninger er tilgængelige ved kampens start."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Dette køretøj er udstyret med et raketstyr monteret på kanonskjoldet. Aktiver evnen til at skifte til det sekundære våbensigte, og affyr en ustyret HE-raket med skyd-knappen."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Hver gang du rammer en fjende med et skud, opnår du et lade-effektivitetsniveau, der midlertidigt booster din kanons ladetid. Niveauerne akkumulerer med hver træffer. \nHvis du får ødelagt et fjendtligt køretøj med en granat gives yderligere lade-effektivitetsniveauer."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Dette køretøjs eksterne ammunitionsforsyningsmodul gør det muligt at afskyde en enkelt kraftfuld granat, der kan uddele forøget skade. Mens det er aktivt reducerer modulet også mobilitet og skudkadence."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Hvis kanonen er ladt, kan du starte med at forvarme dit næste skud for forøget skade — jo højere varme-niveau, jo større effekt.\nVed maksimalt varme-niveau har du flere sekunder til at afgive ild — hvis du ikke gør det, vil du midlertidigt ikke kunne skyde."
@@ -142,6 +157,15 @@ msgstr "Systemet akkumulerer en ladning over tid, hvor en højere ladning vil gi
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktiver flydende brændstofboostere på ethvert tidspunkt for en hastighedsforøgelse, når du har mest brug for den. Boosterne varmes op og skal køle ned, før de kan bruges igen, mens overskridelse af det kritiske varme-niveau midlertidigt vil inaktivere dem fuldstændigt."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Når du træffer et synligt fjendtligt køretøj med en granat, justeres tændrøret på den næste granat. Hvis det første skud gennembrød fjendens panser, vil skaden fra det næste skud forøges. Hvis det ikke gjorde, vil gennembrydningen fra det næste skud forøges."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Køretøjets kanon har særligt udstyr, der gør det muligt at justere nogle parametre på granaterne, før de affyres. Parametre for forskellige granater varierer alt efter den valgte tilstand, og hver tilstand lader dig hurtigt tilpasse dig forskellige kampsituationer."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Ved aktivering scanner enheden en sektor foran dit køretøj, og afslører skjulte mål før en cooldown. Hvis den afslører en uopdaget fjende, vil du også straks blive opdaget. Du kan manuelt stoppe scanningen efter en kort forsinkelse."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Raket-boostere med fast brændstof, der øger acceleration, mobilitet og manøvredygtighed i flere sekunder. Venstre og højre booster kan fungere uafhængigt af hinanden for endnu hurtigere drejning af skroget, og forringer ikke bakhastigheden."
 
@@ -166,8 +190,17 @@ msgstr "Denne mekaniske modifikation booster markant køretøjets acceleration, 
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analogt ballistisk målsøgningsudstyr"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Tvunget lademekanisme"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaksialt raketstyr"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Semi-automatisk ammunitionsstativ"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Ekstern ammunitionstilførsel"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termo-ballistisk overopladning"
@@ -208,6 +241,15 @@ msgstr "Induktionsefterbrænder på drivladning"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Flydende brændstofboostere"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Justerbart tændrør"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Kalibreringssystem til granater"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrarød søg- og sporing (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sekventielle raket-boostere"
 
@@ -232,8 +274,17 @@ msgstr "Højtryks turbolader-assist"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Forbedrer stabiliseringen af dit næste skud, med udmærket stabilisering ved fuld kalibrering."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Reducerer straks ladetid på granater til en kort, fastsat tid."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Affyr en ustyret HE-raket fra et koaksialt raketstyr uafhængigt af den primære kanon."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Hver træffer mod et fjendtligt køretøj booster kanonens ladetid i en begrænset periode."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Affyr granater med høj skade til gengæld for reduceret mobilitet og en cooldown."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Opbyg varme-niveauer for at uddele mere skade til fjendtlige køretøjer med dit næste skud."
@@ -274,6 +325,15 @@ msgstr "Systemet lader for at booste skaden. Jo højere ladning, jo højere skad
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Boostere, der kan aktiveres på ethvert tidspunkt for at give et stort boost i hastighed."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "En træffer på et synligt fjendtligt køretøj forøger den næste granats skade eller gennembrydning."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Kanonen har særligt udstyr, der gør det muligt at justere nogle parametre på granaterne, før de affyres."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Forlænger synsrækkevidde og opdager køretøjer i bevægelse og skjult i buskads i en snæver sektor."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Raket-boostere med fast brændstof, der øger acceleration, mobilitet og manøvredygtighed."
 
@@ -298,8 +358,14 @@ msgstr "En særlig mekanisme, der booster motorkraft, acceleration og tophastigh
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Hvis du forbliver stationær, eller bevæger dig med under en bestemt hastighed, kan dit køretøj kalibrere analogt ballistisk målsøgningsudstyr og opbygge præcisionsniveauer, der forbedrer præcisionen på dit næste skud. Hvis du overtræder hastighedsgrænsen, vil dit fremskridt i at opbygge præcisionsniveauer gå i stå, indtil du sætter farten ned. På højeste præcisionsniveau har dit køretøj nærmest perfekt stabilisering, med minimal spredning fra rotation af tårn/skrog. Effekten fjernes efter skydning."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Dette køretøj er udstyret med et raketstyr monteret på kanonskjoldet. Aktiver evnen til at skifte til det sekundære våbensigte, og affyr en ustyret HE-raket med skyd-knappen."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Hver gang du rammer en synlig fjende med et skud, opnår du et lade-effektivitetsniveau, der midlertidigt booster din kanons ladetid. Niveauerne akkumulerer med hver træffer, og hvis du får ødelagt et fjendtligt køretøj med en granat gives yderligere lade-effektivitetsniveauer."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Dette køretøjs eksterne ammunitionsforsyningsmodul gør det muligt at afskyde en enkelt kraftfuld granat, der kan uddele forøget skade. Mens det er aktivt reducerer modulet også mobilitet og skudkadence."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Hvis din kanon er ladt, vil den begynde at opvarme dit næste skud. Jo højere varme-niveauer du når, jo større vil bonussen til gennemsnitsskaden være. I løbet af opvarmningsprocessen kan du ikke skifte granat. Når du når det maksimale varme-niveau, starter en nedtælling. Hvis du ikke afgiver skuddet, inden den er udløbet, vil du slet ikke kunne skyde i adskillige sekunder."
@@ -340,6 +406,15 @@ msgstr "Over tid vil systemet automatisk akkumulere en ladning, som delvist brug
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Flydende brændstofboostere giver et boost til motorkraft, så du nemmere kan nå fordelagtige positioner på slagmarken — men det begrænser dit køretøjs bak- og rotationshastighed. De kan tændes og slukkes på ethvert tidspunkt, undtagen efter de har nået genaktiveringsgrænsen. Boosterne varmes op, mens de er aktive, og kan blive utilgængelige, indtil de er kølet ned igen, så de kan ikke bruges uafbrudt. Hvis det kritiske varme-niveau overtrædes, vil de være midlertidigt inaktive. Planlæg dine bevægelser nøje, så du ikke bliver overrasket."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Når du træffer et synligt fjendtligt køretøj med en granat, justeres tændrøret på den næste granat. Hvis det første skud gennembrød fjendens panser, vil skaden fra det næste skud forøges. Hvis det ikke gjorde, vil gennembrydningen fra det næste skud forøges."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Køretøjets kanon har særligt udstyr, der gør det muligt at modificere visse parametre på granaterne før de affyres. Udstyrssættet viser hvilke parametre, der vil blive påvirket af at skifte mellem skudtilstande."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Avanceret optik, der forøger din synsrækkevidde og styrker opdagelse af køretøjer i bevægelse og skjult i buskads. Ved aktivering scanner enheden en sektor foran dit køretøj, og afslører skjulte mål før en cooldown. Hvis den afslører en uopdaget fjende, vil du også straks blive opdaget. Du kan manuelt stoppe scanningen efter en kort forsinkelse."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Raket-boostere med fast brændstof, der forbedrer køretøjets acceleration, mobilitet og manøvredygtighed. I modsætning til almindelige raket-boostere kan venstre og højre booster arbejde uafhængigt af hinanden for hurtigere drejning af skroget, og påvirker ikke bakhastigheden. De kan bruges flere gange per kamp, men kræver cooldown før de kan aktiveres igen."
 
@@ -363,6 +438,18 @@ msgstr "Denne mekaniske modifikation booster markant køretøjets acceleration, 
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Alle viste værdier er de maksimalt mulige for køretøjet. Udstyr, direktiver og forbrugsvarer kan ændre disse værdier, men de ændringer er ikke vist her."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "AP-granat, der kan kalibreres"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "APCR-granat, der kan kalibreres"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "HE-granat, der kan kalibreres"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "HEAT-granat, der kan kalibreres"
 
 msgid "characteristics/templates/upTo"
 msgstr "Op til %(value)%s"

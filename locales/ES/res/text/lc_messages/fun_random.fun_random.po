@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "¡Carrera de neón es un evento temporal y único que ofrece algo completamente distinto! Compite y lucha en pistas repletas de peligros, completa misiones y gana recompensas."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Este modo exige un alto rendimiento del ordenador. Puedes tener problemas gráficos, al cargar los mapas y con los movimientos de los vehículos. Si el rendimiento es insuficiente, reduce los ajustes de calidad gráfica."
+msgstr "El rendimiento de tu ordenador es insuficiente para este modo. Tendrás problemas gráficos y con el movimiento de los vehículos. También es probable que el juego se cuelgue."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Posibilidad de rendimiento reducido"
+msgstr "Bajo rendimiento"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "Este modo exige un alto rendimiento del ordenador. Puedes tener problemas gráficos, al cargar los mapas y con los movimientos de los vehículos. Si el rendimiento es insuficiente, reduce los ajustes de calidad gráfica."
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Todos los niveles"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Con ajustes gráficos bajos, pueden aparecer artefactos visuales y otros problemas. Te recomendamos que selecciones los ajustes gráficos más altos para disfrutar de la mejor experiencia posible siempre que las características de tu ordenador cumplan los requisitos. El modo exige un alto rendimiento del ordenador. Puede producirse una reducción de FPS durante los combates más intensos."
+msgstr "El rendimiento de tu ordenador es insuficiente para este modo. Tendrás problemas gráficos y con el movimiento de los vehículos. También es probable que el juego se cuelgue."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Mejores ajustes gráficos recomendados"
+msgstr "Bajo rendimiento"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Mejores ajustes gráficos recomendados"
+msgstr "%(icon) Bajo rendimiento"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Con ajustes gráficos bajos, pueden aparecer artefactos visuales y otros problemas. Te recomendamos que selecciones los ajustes gráficos más altos para disfrutar de la mejor experiencia posible siempre que las características de tu ordenador cumplan los requisitos. El modo exige un alto rendimiento del ordenador. Puede producirse una reducción de FPS durante los combates más intensos."
+msgstr "Este modo exige un alto rendimiento del ordenador. Puedes tener problemas gráficos, al cargar los mapas y con los movimientos de los vehículos. Si el rendimiento es insuficiente, reduce los ajustes de calidad gráfica."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Mejores ajustes gráficos recomendados"
+msgstr "Posibilidad de rendimiento reducido"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Mejores ajustes gráficos recomendados"
+msgstr "%(icon) Posibilidad de rendimiento reducido"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Nueva misión de Carrera de neón disponible en:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "¡Enhorabuena!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Posprogresión infinita"
+msgstr "Etapa repetible"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Has completado la progresión principal"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Completa esta etapa tantas veces como puedas."
+msgstr "Consigue tantas recompensas como puedas:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Puntos obtenidos: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Se puede repetir"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Por completar:"
+msgstr "Por completar"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Por la derrota:"
+msgstr "Por perder"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Por la victoria:"
+msgstr "Por ganar"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Puntos:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Has completado todas las misiones disponibles en este momento. Aparecerán más en la próxima rotación."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Disponible durante {{timeLeft}}"
+msgstr "Expira en {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Disponible durante {{timeLeft}}"
+msgstr "El evento finaliza en {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nuevas misiones disponibles en {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "¡Esquiva los láseres y calcula los saltos con cuidado para alcanzar la
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Atención: láseres y saltos"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Si tu vehículo se atasca, usa la habilidad «Volver al punto de control» para teletransportarte al último punto de control alcanzado."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Volver al punto de control"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "para saber más sobre este modo"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15-30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Lucha para llegar\na la meta"
+msgstr "Lucha para llegar a la meta"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Todos los niveles"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Con ajustes gráficos bajos, pueden aparecer artefactos visuales y otros problemas. Te recomendamos que selecciones los ajustes gráficos más altos para disfrutar de la mejor experiencia posible siempre que las características de tu ordenador cumplan los requisitos. Este modo exige un alto rendimiento y puede producirse una reducción de FPS en los momentos más intensos."
+msgstr "El rendimiento de tu ordenador es insuficiente para este modo. Tendrás problemas gráficos y con el movimiento de los vehículos. También es probable que el juego se cuelgue."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Mejores ajustes gráficos recomendados"
+msgstr "Bajo rendimiento"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Mejores ajustes gráficos recomendados"
+msgstr "%(icon) Bajo rendimiento"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Con ajustes gráficos bajos, pueden aparecer artefactos visuales y otros problemas. Te recomendamos que selecciones los ajustes gráficos más altos para disfrutar de la mejor experiencia posible siempre que las características de tu ordenador cumplan los requisitos. Este modo exige un alto rendimiento y puede producirse una reducción de FPS en los momentos más intensos."
+msgstr "Este modo exige un alto rendimiento del ordenador. Puedes tener problemas gráficos, al cargar los mapas y con los movimientos de los vehículos. Si el rendimiento es insuficiente, reduce los ajustes de calidad gráfica."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Mejores ajustes gráficos recomendados"
+msgstr "Posibilidad de rendimiento reducido"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Mejores ajustes gráficos recomendados"
+msgstr "%(icon) Posibilidad de rendimiento reducido"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Carrera de neón"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Compite y lucha en pistas repletas de peligros, completa misiones y gana recompensas."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Carrera de neón"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Carrera de neón"

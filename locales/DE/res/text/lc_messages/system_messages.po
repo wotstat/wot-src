@@ -1009,6 +1009,9 @@ msgstr "Besatzungsausbildung ist aufgrund eines Serverfehlers fehlgeschlagen. Ve
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)sx)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "aktuelle Spielsitzung wurde unterbrochen. Ihre Wargaming.net&nbsp;ID wurde in World&nbsp;of&nbsp;Warships zur Anmeldung verwendet"
 
 msgid "lootboxes/open/server_error"
-msgstr "Fehler beim Erhalt des Geschenks: Serverfehler."
+msgstr "Fehler beim Öffnen der Kiste: Serverfehler"
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Fehler beim Erhalt des Geschenks: Warten Sie, bis der vorangehende Vorgang abgeschlossen ist."
+msgstr "Fehler beim Öffnen der Kiste: Warten Sie bitte, bis der letzte Vorgang abgeschlossen ist."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Aktion vorübergehend nicht verfügbar, versuchen Sie es später erneut"
@@ -2383,30 +2386,6 @@ msgstr "Einzigartige Tarnung für %(vehicleName)s erhalten."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Die einzigartige Tarnung für %(vehicleName)s ist für alle Fahrzeuge der Nation: %(nation)s verfügbar."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Jeglicher Fortschritt in der Operation wurde gespeichert. Sie können die Kampagnen jederzeit fortsetzen."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampagnen „%(campaignName1)s“ und „%(campaignName2)s“ angehalten"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Die angehaltenen Operationen und ihre Aufträge wurden fortgesetzt."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampagnen „%(campaignName1)s“ und „%(campaignName2)s“ fortgesetzt"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Jeglicher Fortschritt in der Operation wurde gespeichert. Sie können die Kampagne jederzeit fortsetzen."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampagne „%(campaignName)s“ angehalten"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Die unterbrochenen Operationen wurden fortgesetzt."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampagne „%(campaignName)s“ fortgesetzt"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Erfolgreich angebracht: %(detailName)s"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Fehler beim Erhalt der Belohnungen. Versuchen Sie es später noch einmal."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Erfolgreich angebracht: %(detail_name)s"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Fehler beim Erhalt der Belohnungen. Versuchen Sie es später noch einmal."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Erfolgreich angebracht: %(detail_name)s"
 
 msgid "personalMissions/reward/regular/server_error"

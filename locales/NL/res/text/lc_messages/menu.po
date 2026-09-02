@@ -826,6 +826,9 @@ msgstr "3D-stijlen"
 msgid "carousel_tank_filter/ready"
 msgstr "Alleen primair"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Verkenner"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Scherpschutter"
 
@@ -834,9 +837,6 @@ msgstr "Ondersteuning"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Veelzijdig"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Met wielen"
 
 msgid "centerIsAvailable"
 msgstr "Alle servers zijn weer beschikbaar."
@@ -4159,6 +4159,9 @@ msgstr "Verbeterd autoherlaadsysteem:\nVermindert de standaard tijd voor het aut
 msgid "moduleInfo/autoShootGun"
 msgstr "Kanon met continu vuursysteem"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Dit voertuig is uitgerust met een raketwerper in de kanonmantel. Activeer de bekwaamheid om te switchen naar het richten van het secundaire wapen, en lanceer vervolgens een ongeleide HE-raket met de 'vuur' knop."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Sluiten"
 
@@ -4312,6 +4315,9 @@ msgstr "Cooldown"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "bij hoofdkwalificatie en bemanningsspecialisaties"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kans op kritische treffer"
+
 msgid "moduleInfo/params/damage"
 msgstr "Schade"
 
@@ -4342,11 +4348,29 @@ msgstr "Kans op brand bij treffer"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Vliegtijd"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Veroorzaakt altijd schade als het hoofdpantser wordt geraakt"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maximale schietafstand van de granaat voor dit kanon"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " voor dit type granaat niet afhankelijk van de afstand"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maximale schietafstand – 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " dit granaattype verliest steeds meer penetratiekracht nadat het eerste scherm is doorboord"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " afhankelijk van de afstand: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " dit granaattype doorboort schermen zoals normaal, maar verliest daarna penetratiekracht gelijk aan driemaal de dikte van het pantserscherm"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Topsnelheid"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Veroorzaakt altijd schade als het hoofdpantser wordt geraakt"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Gewicht"
@@ -4378,20 +4402,11 @@ msgstr "Levenspunten"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Schootsbereik"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maximale schietafstand van de granaat voor dit kanon"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maximale draaihoek wielen"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Gemiddelde schade op %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " voor dit type granaat niet afhankelijk van de afstand"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maximale schietafstand—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normaliseringshoek"
@@ -4399,14 +4414,8 @@ msgstr "Normaliseringshoek"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Penetratieverlies"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " dit granaattype verliest steeds meer penetratiekracht nadat het eerste scherm is doorboord"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " afhankelijk van de afstand: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Gemiddelde penetratie (mm)—Afstand"
@@ -4456,9 +4465,6 @@ msgstr "Draaisnelheid"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Spaced pantser vermenigvuldiger"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " dit granaattype doorboort schermen zoals normaal, maar verliest daarna penetratiekracht gelijk aan driemaal de dikte van het pantserscherm"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Inductie-stuwstofnabrander die de gemiddelde schade verhoogt"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Jetboosters verhogen de voertuigmobiliteit"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Raketmotoren die acceleratie, mobiliteit en wendbaarheid verhogen"
@@ -5284,11 +5293,14 @@ msgstr "Voertuigen met perfecte kanonnen, die indien juist gespeeld zeer effecti
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Multifunctionele tanks die zich gemakkelijk aan iedere gevechtssituatie kunnen aanpassen."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Snelle en wendbare voertuigen die tijdens manoeuvres over de flanken goed kunnen verkennen en schade kunnen veroorzaken."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Lichte verkenningstanks zijn kleine, wendbare voertuigen die gebouwd zijn om vijanden te verkennen. Hun lage silhouetten, goede verborgenheid, uitstekende wendbaarheid en hoge topsnelheid maken hen bekwaam in het passief en actief verkennen. Door hun slechte duurzaamheid en lage vuurkracht kunnen ze echter niet goed vuursteun bieden aan teamgenoten."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Voertuigen met buitengewone beweeglijkheid, en waarvan de effectieve inzet van de kaart en tactische situatie afhangt."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Lichte ondersteuningstanks gebruiken hun hoge mobiliteit, uitstekende wendbaarheid en krachtige kanonnen om snel van flank te wisselen en veel schade te veroorzaken, om zich vervolgens terug te trekken naar een veilige plek. In sommige situaties kunnen ze ook verkennen, maar door hun grote omvang en matige verborgenheid zijn ze daar niet zo goed in als andere lichte tanks."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Veelzijdige lichte tanks zijn multifunctionele voertuigen die zowel kunnen verkennen als vuursteun kunnen bieden. Hoewel ze minder goed kunnen verkennen dan scouts en over minder vuurkracht beschikken dan lichte ondersteuningstanks, kunnen deze veelzijdige tanks met hun gebalanceerde eigenschappen beide rollen vervullen en zich aan veel gevechtssituaties aanpassen."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Voertuigen met vrij goed pantser, wat ze het best geschikt maakt voor de strijd van dichtbij, waar ze hun positie tegen vijandelijke zware tanks verdedigen."
@@ -5329,11 +5341,14 @@ msgstr "Zware ondersteuningstank"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Veelzijdige zware tank"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Lichte verkenningstank"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Lichte ondersteuningstank"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Veelzijdige lichte tank"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Lichte tank met wielen"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Medium aanvalstank"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Herladen"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magazijn/aantal)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Versneld granaten herladen"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Cooldown lading bij vol magazijn"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Standaard cooldown lading"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Ladingen aan het begin van het gevecht"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Ladingen"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Gemiddelde schade (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Spreiding op 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Gemiddelde penetratie (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Cooldown (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Raketsnelheid (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Gemiddelde schade"
 
@@ -6057,6 +6105,21 @@ msgstr "Granaatcontainer"
 
 msgid "tank_params/burstSec"
 msgstr "(s/aantal/aantal)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Gemiddelde schade (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Topsnelheid (EMT-modus) (km/u)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Vuursnelheid (granaten/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "EMT-modus activatie (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "EMT-modus deactivatie (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Salvovoorbereiding"
@@ -6150,6 +6213,12 @@ msgstr "Motorvermogen (pk) (turbomodus)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Schadestraal"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Topsnelheid (EMT-modus) (km/u)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "EMT-modus activatie (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Afkoeltijd na afvuren kanon"
@@ -6325,9 +6394,6 @@ msgstr "Terreindoorkruiscapaciteit"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Samenvallend elektromechanisch vizier lading (% per s) (aanvalsmodus, passief)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(per activatie)"
 
@@ -6484,8 +6550,20 @@ msgstr "Hulpwapen laden"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Hulpwapen granaten"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Aangepaste gemiddelde granaatschade (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Aangepaste gemiddelde granaatpenetratie (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Munitieband laden"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Tijd voor switchen modus"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetratie:"
@@ -6495,6 +6573,36 @@ msgstr "Spreiding op 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Granaatsnelheid"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Verborgenheid vijand achter begroeiing (stilstaand en bewegend)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Verborgenheid bewegende vijand"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Initiële cooldown"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Duur"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Cooldown"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Koepeldraaisnelheid"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Uiteindelijke scanbreedte"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Initiële scanbreedte"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Zelfverkenningsduur"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Zichtbereik"
 
 msgid "tank_params/speedLimits"
 msgstr "Topsnelheid vooruit/achteruit"

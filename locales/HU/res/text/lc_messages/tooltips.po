@@ -6052,6 +6052,18 @@ msgstr "A direktíva nem fog működni, mert túllépted a fő képzettségenké
 msgid "moduleFits/wrong_slot/body"
 msgstr "A modul már fel van helyezve egy másik helyre"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Súlyos sebzés okozásának esélye az ellenséges jármű moduljainak, illetve legénységének."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Az érték, amellyel a lövedék becsapódási szöge csökken, amikor az ellenség páncélzatát eltalálja."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Az átütési erő, amelyet a lövedék az ellenség előtétpáncélzatának eltalálását követően 100 mm-enként veszít."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "A szög, amelynél a lövedék automatikusan lepattan az ellenség páncélzatáról."
+
 msgid "multiselection/alert/body"
 msgstr "Kijelölt járművek: csak teljes csapattal csatlakozhattok."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Battle Pass: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin úgy ismerte jelenlegi küldetésének kopár sós síkságait, mint a saját, szintén viharvert tenyerét. A változékony környezet számára nem volt idegen, hiszen már jóval azelőtt, hogy harckocsizásra adta a fejét, megmutatta tudását a vegyi hadviselés elleni védelem területén is. Húsz évvel később alig néhány napnyi gyalogútra találta magát attól a laboratóriumtól, ahol fiatal technikusként kezdte meg katonai szolgálatát. Az idő és a megpróbáltatások mindenkin nyomot hagynak, de – ahogy Vadim viccelődve megjegyezte legénységének – a leszerelésére még senki nem nyújtott be kérvényt, így amíg valaki el nem intézi a dolgot, addig itt kell maradnia."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bryn Powell gyermekkorának virágzó völgyei világnyi távolságra voltak azoktól a zord viszonyoktól, amelyekkel később megismerkedett. Legutóbbi eligazítása rendkívül kevés részletet tartalmazott, és az „azonosítatlan vegyi anyag” és a „halálos veszély kockázata: rendkívüli” kifejezések hallatán sok parancsnok imádkozott volna az áthelyezésért. Bryn azonban mindig is csodálatos tulajdonságnak tartotta az önfenntartási ösztönt. Természeténél fogva vakmerő volt, és ha valaha is arra érzett volna késztetést, ragyogó karriert futhatott volna be kaszkadőrként. Ha egy tank kezelőszervei mögé ültették, a különbség igazán elhanyagolható volt."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora rendíthetetlen parancsnok volt. Békefenntartó missziók veteránjaként megtanulta, hogyan kell megőrizni a hidegvérét, amikor a nyomás egyre fokozódik. Akár egy hosszú éjszakai őrjárat után a kimerültség határán járt, akár az egyre nyugtalanítóbb hírszerzési információkat elemezte az ismeretlen anyagról, amelynek felderítésére küldték, hidegvérét soha nem veszítette el. A könnyedség és a fekete humor határán egyensúlyozó viccekkel tartotta fenn a morált, és a szeme csillogása vagy a lépteinek ruganyossága sosem tűnt el."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Ousset figyelmét semmi sem kerülte el. Mielőtt beválogatták volna egy titkos páncélos felderítő küldetésbe, kitüntetett mesterlövész volt, és sasszemét nem csak a puskája távcsövén keresztül kamatoztatta. Ha hiányos hírszerzési adatot mutattak neki, olyan pontos következtetéseket tudott levonni belőle, hogy még a saját emberei is eleinte látnoki képességnek vélték rendkívüli megfigyelőképességét. Parancsnoksága alatt a titkok ritkán maradtak sokáig rejtve. Csapatának szerencséjére a legkönyörtelenebb alaposságú vizsgálódását az ismeretlen reagens forrására tartogatta, amelynek kivizsgálására küldték őket."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Az emberek folyton azt kérdezik, ismerem-e Jack Reedet. Mielőtt válaszolok, általában egy pillanatra lehunyom a szemem és veszek egy mély levegőt. Nem a legegyszerűbb a parancsnokának lenni. Reed egy lázadó, akinek valahogy sikerül betartania a parancsokat és a katonaság által előírt szabályokat. Most be van zárva egy pokolian forró harckocsiba. De mélyen legbelül azt képzeli, hogy egy motoron ül, megy lefelé a 66-os úton és érezi, ahogy a hajába kap a szél."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "3. szektor kampány"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefan egy berni óráscsaládban nőtt fel, így olyan mesterséget örökölt, amely csendet, türelmet és abszolút önuralmat igényelt. Számára azonban ezek a tulajdonságok egészen más pályát jelöltek ki. 1940-ben a brit titkosszolgálat választás elé állította: a határ egyik oldalán a semleges Svájc, a másikon ő maga. Az alpesi hágókon a kémberendezések szakértőjéből mesterlövésszé vált. A háború után is folytatta ezt a munkát, és kiiktatta azokat, akik álnéven próbálták elkerülni az igazságszolgáltatást. Stefan mindig egyedül dolgozott, nyom nélkül, és ma is így tesz: a 3. szektorban senki sem látta még az arcát."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "3. szektor kampány"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—az alapértelmezett lőszer a kiválasztott löveghez. A löv
 msgid "shell/basic/description/bold"
 msgstr "Alaplőszer"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "A jármű Külső lőszeradagolás módja lehetővé teszi a nagyobb sebzést okozó lőszerek használatát."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Alap"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Módosított"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "A jármű lövegének különleges mechanikája, amely korai tüzelést tesz lehetővé módosított lőszertulajdonságokkal."
 
@@ -10866,6 +10932,21 @@ msgstr "Alap:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Módosított:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Az Állítható gyújtószerkezet-beállító növeli az átlagsebzést, illetve az átütést."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Állítható:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "A jármű fegyvere speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszertulajdonságok módosítását a lövés előtt."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Normál"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibrált"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Ellenséges önjáró lövegek által tűz alá vett terület megjelenítése/elrejtése a kistérképen."
@@ -11028,6 +11109,12 @@ msgstr "A hangminőség csökkentése javíthatja az általános játék teljes�
 
 msgid "soundQualityOn/header"
 msgstr "LQ Hang"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Az {{@ style (color #E9E2BF)}}átlagsebzés{{/}} nő, ha páncélt átütő találatot viszel be ellenséges járműnek."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "Az {{@ style (color #E9E2BF)}}átlagos páncélátütés{{/}} nő, ha páncélt nem átütő találatot viszel be ellenséges járműnek."
 
 msgid "specializationWotPlus/content/header"
 msgstr "A harckocsizók képzése 50%-kal gyorsabb prémium járművekben:"
@@ -11386,6 +11473,36 @@ msgstr "A fejlesztett tártöltő rendszer csökkenti a lövedékek automata új
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "A tárban (vagy a két lövegben) lévő utolsó lőszer kilövése és az új tár betöltése közötti idő. / A lövegek vagy a tárban lévő lőszerek száma."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "A mechanizmus használatakor az újratöltési idő helyébe lépő idő."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Egy töltet feltöltődéséhez szükséges idő, amikor a tár tele van."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Egy töltet feltöltődéséhez szükséges idő, amikor a tár nincs tele."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "A töltetek mennyisége a csata kezdetén."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Az egyidejűleg tárolható, lőszer betöltését felgyorsító töltetek maximális száma."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "A rakétavető lövedék által okozott átlagos sebzés átütő találat esetén. A potenciális sebzés szórása az átlagérték +/- 25%-a."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "A szórás, vagyis a lövedék maximális eltérése a becélzott ponttól 100 m-es távolságban."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "A rakétalövedék által átütött átlagos páncélvastagság. A szórás az átlagérték +/- 25%-a."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "A rakétavető újratöltéséhez szükséges idő"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Meghatározza az irányítatlan rakéta repülési sebességét."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Egy normál lövedék által okozott átlagos sebzés átütő találat esetén. A potenciális sebzés szórása az átlagérték +/- 25%-a."
 
@@ -11406,6 +11523,21 @@ msgstr "A hajtómű hatásának maximális időtartama az aktiválás után."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "A tárolóban lévő lőszerek közötti töltési idő. / A tárban lévő tárolók száma. / A tárolóban lévő lőszerek száma."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "A páncélzatot átütő nagy töltésű egyrészes lövedék által okozott átlagos sebzés. A potenciális sebzés szórása az átlagérték ±25%-a."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "A jármű névleges végsebességének csökkenése Külső lőszeradagolás módban. A tolatási sebességet nem befolyásolja."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "A percenkénti lövésszám csökkenése Külső lőszeradagolás módban."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "A Külső lőszeradagolás mód aktiválását követően a löveg lövésre való előkészítéshez szükséges minimális idő. Ez idő alatt nem tudsz módot váltani."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "A löveg lövésre való előkészítéséhez szükséges minimális idő Normál módba való visszatérés után. Ez idő alatt nem tudsz módot váltani."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Felkészülési idő a két lövegcsőből történő egyidejű tüzeléshez. / Sortűz leadása esetén az újratöltés blokkolási időtartama."
@@ -11737,8 +11869,17 @@ msgstr "A kiegészítő fegyverzet újratöltési ideje tüzelés után."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "A kiegészítő fegyverzethez elérhető lőszerek száma minden egyes aktiválás alatt."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Az ellenséges jármű páncélját átütő találat után kapott sebzésbónusz."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Az ellenséges jármű páncélját át nem ütő találat után a páncélátütésre kapott bónusz."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "A lőszerek betöltéséhez szükséges idő a csata kezdetén és a különböző lőszertípusok közötti váltáskor."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "A Kalibrált és a Normál tüzelési módok közötti váltáshoz szükséges idő."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "A löveg szórását meghatározza a lövedék maximális eltérése a célzó ponttól 100 m-en."
@@ -11748,6 +11889,36 @@ msgstr "A löveg szórása, vagyis a lövedék maximális eltérése a becélzot
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Megmutatja, hogy a lövedék 100 méteren mennyire térhet el a célponttól méterben kifejezve. A normál érték (az első) a felhevült lövegre, a javított érték (a második) a lehűlt lövegre vonatkozik."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Az IRST szkennelési tartományában, a növényzet mögött rejtőző ellenséges járművek álcázási értékének fokozatos csökkenése."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Az IRST szkennelési tartományában mozgó ellenséges járművek álcázási értékének fokozatos csökkenése."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "A csata kezdetét követően az IRST első használatáig szükséges idő."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Az IRST szkennelésének időtartama."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Az aktiválást követően az IRST újbóli használata előtt szükséges idő."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "A torony forgási sebességének csökkenése aktív IRST esetén."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Az IRST szkennelési szektorának szélessége a szkennelés végén."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Az IRST szkennelési szektorának szélessége a szkennelés kezdetén."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Az idő, ameddig a járműved látható marad, miután az IRST segítségével észleltél egy felderítetlen ellenséget."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "A látótávolság fokozatos növekedése az IRST szkennelési szektorában."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "A jármű sebessége a technikai jellemzőkben meghatározottak szerint."

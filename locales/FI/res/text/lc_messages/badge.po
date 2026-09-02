@@ -644,7 +644,7 @@ msgid "badge_190"
 msgstr "Sektori 3:n superagentti"
 
 msgid "badge_190_descr"
-msgstr "Voidaan saada kaikkien \"Sektori 3\" kampanjan henkilökohtaisten tehtävien suorittamisesta."
+msgstr "Voidaan saada kaikkien \"Sektori 3\" kampanjan pääoperaatioiden henkilökohtaisten tehtävien suorittamisesta."
 
 msgid "badge_191"
 msgstr "OLS Autumn'25 -tukija"
@@ -842,19 +842,19 @@ msgid "badge_225"
 msgstr "Polttava vala"
 
 msgid "badge_225_descr"
-msgstr "Mestarin arvosta Rynnistyksen Verenpunaisen lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään mestarin luokituksesta \"Rynnistys\" -pelimuodon Verenpunaisen lohikäärmeen kaudella."
 
 msgid "badge_226"
 msgstr "Liekkikruunu"
 
 msgid "badge_226_descr"
-msgstr "Legendan arvosta Rynnistyksen Verenpunaisen lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään legendan luokituksesta \"Rynnistys\" -pelimuodon Verenpunaisen lohikäärmeen kaudella."
 
 msgid "badge_227"
 msgstr "Supernova"
 
 msgid "badge_227_descr"
-msgstr "Legendan arvosta Rynnistyksen Verenpunaisen lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään legendan luokituksesta \"Rynnistys\" -pelimuodon Verenpunaisen lohikäärmeen kaudella."
 
 msgid "badge_228"
 msgstr "ATLAKSEN puolustaja"
@@ -878,19 +878,19 @@ msgid "badge_231"
 msgstr "Myrkyllinen kulkutauti"
 
 msgid "badge_231_descr"
-msgstr "Mestarin arvosta Rynnistyksen Jadenvihreän lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään mestarin luokituksesta \"Rynnistys\" -pelimuodon Jadenvihreän lohikäärmeen kaudella."
 
 msgid "badge_232"
 msgstr "Myrkkylehto"
 
 msgid "badge_232_descr"
-msgstr "Legendan arvosta Rynnistyksen Jadenvihreän lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään legendan luokituksesta \"Rynnistys\" -pelimuodon Jadenvihreän lohikäärmeen kaudella."
 
 msgid "badge_233"
 msgstr "Biovaara"
 
 msgid "badge_233_descr"
-msgstr "Legendan arvosta Rynnistyksen Jadenvihreän lohikäärmeen kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+msgstr "Myönnetään legendan luokituksesta \"Rynnistys\" -pelimuodon Jadenvihreän lohikäärmeen kaudella."
 
 msgid "badge_234"
 msgstr "OLS Autumn'26 -tukija"
@@ -904,11 +904,65 @@ msgstr "OLS Autumn'26 -oraakkeli"
 msgid "badge_235_descr"
 msgstr "Myönnetään faneille, jotka ennustivat oikein OLS Autumn'26:n voittaneen joukkueen. Ennustajan lahjanne ovat legendaarisia!"
 
+msgid "badge_236"
+msgstr "Vartijan hävittäjä"
+
+msgid "badge_236_descr"
+msgstr "Myönnetään 200 von Kriegerin vartijan eliminoinnista."
+
+msgid "badge_237"
+msgstr "Fossa VM 68 -arvomerkki II luokka"
+
+msgid "badge_237_descr"
+msgstr "Voidaan saada keskiraskaan Fossa VM 68 vaunun kokoamisesta."
+
+msgid "badge_238"
+msgstr "Fossa VM 68 -arvomerkki I luokka"
+
+msgid "badge_238_descr"
+msgstr "Voidaan saada kaikkien tehtävien suorittamisesta Fossa -operaatiossa."
+
+msgid "badge_239"
+msgstr "Feeniks-mestari"
+
+msgid "badge_239_descr"
+msgstr "Mestarin arvosta Rynnistyksen Taivaansinisen feeniksin kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+
 msgid "badge_23_descr"
 msgstr "Sijoitu 1 000 parhaan joukkoon tason VII vaunuilla Kansakuntien marssi -tapahtumassa."
 
 msgid "badge_24"
 msgstr "Vaunuekspertti: taso VIII"
+
+msgid "badge_240"
+msgstr "Feeniks-legenda"
+
+msgid "badge_240_descr"
+msgstr "Legendan arvosta Rynnistyksen Taivaansinisen feeniksin kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+
+msgid "badge_241"
+msgstr "Legendaarinen feeniks"
+
+msgid "badge_241_descr"
+msgstr "Legendan arvosta Rynnistyksen Taivaansinisen feeniksin kaudella. Palkinto poistetaan seuraavan kauden alkaessa."
+
+msgid "badge_242"
+msgstr "Rynnistys 2026–2027: Mestari"
+
+msgid "badge_242_descr"
+msgstr "Muistoksi saatava arvomerkki 15 Rynnistys-lipun keräämisestä."
+
+msgid "badge_243"
+msgstr "Rynnistys 2026–2027: Legenda"
+
+msgid "badge_243_descr"
+msgstr "Muistoksi saatava arvomerkki 18 Rynnistys-lipun keräämisestä."
+
+msgid "badge_244"
+msgstr "Feeniksin legenda"
+
+msgid "badge_244_descr"
+msgstr "Erityinen nimiraita, joka myönnetään Rynnistyksen feeniksin vuoden parhaille pelaajille."
 
 msgid "badge_24_descr"
 msgstr "Sijoitu 1 000 parhaan joukkoon tason VIII vaunuilla Kansakuntien marssi -tapahtumassa."
@@ -1512,6 +1566,12 @@ msgstr "Supernova"
 
 msgid "suffix/badge_233"
 msgstr "Biovaara"
+
+msgid "suffix/badge_241"
+msgstr "Legendaarinen feeniks"
+
+msgid "suffix/badge_244"
+msgstr "Feeniksin legenda"
 
 msgid "suffix/badge_56"
 msgstr "Alfa-testaaja"

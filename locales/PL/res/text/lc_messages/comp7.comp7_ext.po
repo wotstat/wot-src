@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Ten tryb nie jest dostępny na serwerze %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Sezon Lazurowego Smoka zaczyna się: %(date)s"
+msgstr "Sezon Lazurowego Feniksa zaczyna się: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Sezon Karmazynowego Smoka zaczyna się: %(date)s"
+msgstr "Sezon Karmazynowego Feniksa zaczyna się: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Sezon Jadeitowego Smoka zaczyna się: %(date)s"
+msgstr "Sezon Jadeitowego Feniksa zaczyna się: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Oczekiwanie na wyniki kwalifikacji, aby otrzymać stopień"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Sezon Lazurowego Smoka zakończył się"
+msgstr "Sezon Lazurowego Feniksa zakończył się"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Sezon Karmazynowego Smoka zakończył się"
+msgstr "Sezon Karmazynowego Feniksa zakończył się"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Sezon Jadeitowego Smoka zakończył się"
+msgstr "Sezon Jadeitowego Feniksa zakończył się"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Bitwy na tym serwerze będą dostępne za %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Charakterystyka pojazdu wzrosła"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Odnawianie punktów wytrzymałości"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Zwiększone otrzymywane uszkodzenia"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Charakterystyka pojazdu wzrosła"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s – %(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Sezon Lazurowego Smoka potrwa %(days)d dzień"
-msgstr[1] "Sezon Lazurowego Smoka potrwa %(days)d dni"
-msgstr[2] "Sezon Lazurowego Smoka potrwa %(days)d dni"
+msgstr[0] "Sezon Lazurowego Feniksa potrwa %(days)d dzień"
+msgstr[1] "Sezon Lazurowego Feniksa potrwa %(days)d dni"
+msgstr[2] "Sezon Lazurowego Feniksa potrwa %(days)d dni"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Sezon Karmazynowego Smoka potrwa %(days)d dzień"
-msgstr[1] "Sezon Karmazynowego Smoka potrwa %(days)d dni"
-msgstr[2] "Sezon Karmazynowego Smoka potrwa %(days)d dni"
+msgstr[0] "Sezon Karmazynowego Feniksa potrwa %(days)d dzień"
+msgstr[1] "Sezon Karmazynowego Feniksa potrwa %(days)d dni"
+msgstr[2] "Sezon Karmazynowego Feniksa potrwa %(days)d dni"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Sezon Jadeitowego Smoka potrwa %(days)d dzień"
-msgstr[1] "Sezon Jadeitowego Smoka potrwa %(days)d dni"
-msgstr[2] "Sezon Jadeitowego Smoka potrwa %(days)d dni"
+msgstr[0] "Sezon Jadeitowego Feniksa potrwa %(days)d dzień"
+msgstr[1] "Sezon Jadeitowego Feniksa potrwa %(days)d dni"
+msgstr[2] "Sezon Jadeitowego Feniksa potrwa %(days)d dni"
 
 msgid "calendarDay/title"
 msgstr "Harmonogram"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Atuty"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Natarcie. Rok Smoka"
+msgstr "Natarcie: Rok Feniksa"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Atuty zerowe"
@@ -574,11 +577,17 @@ msgstr "Tak jest!"
 msgid "intro/description/banPhase"
 msgstr "Każda drużyna może całkowicie wykluczyć jeden pojazd z bitwy. Uzgodnijcie głosy z sojusznikami, aby wykluczyć pojazd, którego najbardziej się obawiacie, lub przygotować skład, który zaskoczy przeciwnika. Jeśli Twój pojazd został wykluczony, możesz zamiast niego wybrać jeden z kilku wstępnie skonfigurowanych pojazdów do wypożyczenia."
 
+msgid "intro/description/draw"
+msgstr "Gdy upływa czas i żadna drużyna nie odniosła wyraźnego zwycięstwa, o wyniku bitwy decydują kryteria rozstrzygające w następującej kolejności: przetrwałe pojazdy, zadane uszkodzenia i pierwszy zniszczony pojazd. Jeśli żadna z drużyn nie zadała uszkodzeń, bitwa zostaje uznana za remis."
+
+msgid "intro/description/nightMaps"
+msgstr "Mapy nocne to świeże spojrzenie na znane pola bitew, wprowadzające warunki nocne, nowe punkty obserwacyjne, zaktualizowane punkty docelowe i zmodyfikowaną mechanikę wykrywania. Obecna lista obejmuje mapy Lodowiec, Piaszczysta rzeka, Posterunek i Step."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Tryb ma modyfikatory, które zmieniają określone parametry pojazdu, takie jak: jego wytrzymałość, czas przygotowania materiałów eksploatacyjnych, czas pozostawania widocznym i inne."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Po zajęciu określonych obszarów mapy będziesz miał możliwość wykorzystania umiejętności taktycznych. Istnieją dwa rodzaje punktów docelowych: Sztab artylerii pozwala kierować uderzenie artyleryjskie na określoną pozycję, a Centrum komunikacji wykrywa wszystkie pojazdy przeciwnika. Obecność i rozmieszczenie tych punktów docelowych zmienia się w zależności od mapy."
+msgstr "Po zajęciu określonych obszarów mapy zyskasz dostęp do umiejętności taktycznych. Istnieją dwa rodzaje punktów docelowych: Sztaby artylerii, które pozwalają wezwać uderzenie w wybrany punkt, oraz Centra komunikacji, które ujawniają wszystkie pojazdy przeciwnika. Liczba i położenie tych miejsc różnią się w zależności od mapy."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Rozegraj %(count)s bitwy kwalifikacji, aby określić swój poziom um
 msgstr[2] "Rozegraj %(count)s bitew kwalifikacji, aby określić swój poziom umiejętności i stopień. Po ukończeniu otrzymasz nagrody za osiągnięty i wszystkie poprzednie stopnie.\n\nDezercja lub remis w kwalifikacjach będą uważane za porażkę."
 
 msgid "intro/description/ranks"
-msgstr "System odzwierciedlający umiejętności gracza. Awansuj przez stopnie od żelaznego do legendarnego i zdobywaj cenne nagrody. Walcz przez cały Rok Smoka, aby otrzymać unikalne nagrody roczne."
+msgstr "Awansuj przez stopnie od żelaznego do legendarnego i zdobywaj cenne nagrody. Walcz przez cały Rok Feniksa, aby otrzymać unikalne nagrody roczne."
 
 msgid "intro/description/roleSkills"
 msgstr "W zależności od roli każdy pojazd ma specjalną umiejętność z trzema poziomami naładowania. Im wyższy poziom, przy którym umiejętność zostaje aktywowana, tym mocniejszy jej efekt. Poziom naładowania zależy od liczby punktów prestiżu, które można zdobyć za imponującą skuteczność w bitwie, zdobywanie punktów docelowych, wykorzystanie umiejętności taktycznych itd.\n\nWięcej informacji o różnych sposobach zdobywania punktów prestiżu znajduje się w przepisach trybu."
@@ -597,6 +606,12 @@ msgstr "Możesz wejść do bitwy w pojazdach %(levels)s poziomu możliwych do 
 
 msgid "intro/title/banPhase"
 msgstr "WYKLUCZENIA POJAZDÓW"
+
+msgid "intro/title/draw"
+msgstr "ZASADY REMISU"
+
+msgid "intro/title/nightMaps"
+msgstr "MAPY NOCNE"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODYFIKATORY NATARCIA"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "ZWYCIĘSTWO, ALE"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Awans na %(rank)s"
+msgstr "Awans do {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Klasyfikacja: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Spadek na %(rank)s, %(division)s"
+msgstr "Spadek do {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Awans na %(rank)s, %(division)s"
+msgstr "Awans do {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Stoczone bitwy"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Sezonowy rekord punktów prestiżu: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Sezon Lazurowego Smoka zakończył się na serwerze %(server)s."
+msgstr "Sezon Lazurowego Feniksa zakończył się na serwerze %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Sezon Karmazynowego Smoka zakończył się na serwerze %(server)s."
+msgstr "Sezon Karmazynowego Feniksa zakończył się na serwerze %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Sezon Jadeitowego Smoka zakończył się na serwerze %(server)s."
+msgstr "Sezon Jadeitowego Feniksa zakończył się na serwerze %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Kup"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "NATARCIE. UKOŃCZONO KWALIFIKACJE"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "NATARCIE. SEZON LAZUROWEGO SMOKA"
+msgstr "NATARCIE: SEZON LAZUROWEGO FENIKSA"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "NATARCIE. SEZON KARMAZYNOWEGO SMOKA"
+msgstr "NATARCIE: SEZON KARMAZYNOWEGO FENIKSA"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "NATARCIE. SEZON JADEITOWEGO SMOKA"
+msgstr "NATARCIE: SEZON JADEITOWEGO FENIKSA"
 
 msgid "rewardsScreen/description/year"
-msgstr "NATARCIE. ROK SMOKA"
+msgstr "NATARCIE. ROK FENIKSA"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Gdzie jest mój Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Koniec za %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Sezon Lazurowego Smoka"
+msgstr "Sezon Lazurowego Feniksa"
 
 msgid "seasonName/second"
-msgstr "Sezon Karmazynowego Smoka"
+msgstr "Sezon Karmazynowego Feniksa"
 
 msgid "seasonName/third"
-msgstr "Sezon Jadeitowego Smoka"
+msgstr "Sezon Jadeitowego Feniksa"
 
 msgid "seasonPointTooltip/header"
 msgstr "Sztandary Natarcia"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Miejsce w klasyfikacji: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "NATARCIE. %(seasonNameUpper)s"
+msgstr "NATARCIE %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Otrzymano %(points)s Sztandary Natarcia"
 msgstr[2] "Otrzymano %(points)s Sztandarów Natarcia"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SEZON I: LAZUROWY SMOK"
+msgstr "SEZON I: LAZUROWY FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SEZON II: KARMAZYNOWY SMOK"
+msgstr "SEZON II: KARMAZYNOWY FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SEZON III: JADEITOWY SMOK"
+msgstr "SEZON III: JADEITOWY FENIKS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Zwycięstwa: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Tryb będzie dostępny %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Lazurowy Smok"
+msgstr "Lazurowy Feniks"
 
 msgid "shortSeasonName/second"
-msgstr "Karmazynowy Smok"
+msgstr "Karmazynowy Feniks"
 
 msgid "shortSeasonName/third"
-msgstr "Jadeitowy Smok"
+msgstr "Jadeitowy Feniks"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Ten dział zawiera informacje o najlepszych graczach bieżącego sezonu trybu Natarcie."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Wszystkie"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Wspieraj Serię Legend Natarcia, podbijając pulę nagród zestawami turniejowymi!"
+msgstr "Jeśli wygra drużyna, którą wybierzesz, otrzymasz unikalną złotą odznakę OLS 2026. Kibicuj swoim ulubieńcom!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Pokaż swojego ducha e-sportowego dzięki ekskluzywnym, tematycznym elementom personalizacji i unikalnym czołgom!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Na Międzynarodowych Mistrzostwach World of Tanks w Suzhou w Chinach czekają nas epickie starcia, w których najgroźniejsze drużyny z całego świata staną naprzeciw siebie w pojedynkach toczonych na zasadach trybu Natarcie, walcząc o prestiżowy tytuł mistrza świata. Poczuj dreszczyk emocji, gdy na polu bitwy rodzą się legendy!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "SLN, sezon 6"
+msgstr "OLS, sezon 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Ten sezon to ostatnia szansa, aby odebrać cenne nagrody, w tym ekskluzywny czołg ciężki X poziomu Ashbringer ze wszystkimi unikalnymi stylami 3D, które dla niego zdobyłeś, i nieustraszoną załogą z Braterstwem broni jako atutem zerowym, a także ulepszone i eksperymentalne wyposażenie do wyboru, przyciągający wzrok styl 2D i nie tylko. Nie przegap – zwycięstwo czeka na Ciebie na polu bitwy!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Wykorzystaj ostatnie chwile Roku Smoka!"
+msgstr "Wykorzystaj ostatnie chwile Roku Feniksa!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEZON JADEITOWEGO SMOKA"
+msgstr "SEZON LAZUROWEGO FENIKSA"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "NATARCIE. CO NOWEGO?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Wyklucz-ajnie!"
+msgstr "Rozpalcie płomienie!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Ulepszony ekran wyników po bitwie w nowym wyglądzie z aktualizacji 2.0 będzie teraz po każdej bitwie wyświetlał dodatkowe informacje związane z trybem gry."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Gdy upływa czas i żadna drużyna nie odniosła wyraźnego zwycięstwa, o wyniku bitwy decydują kryteria rozstrzygające w następującej kolejności: przetrwałe pojazdy, zadane uszkodzenia i pierwszy zniszczony pojazd. Jeśli żadna z drużyn nie zadała uszkodzeń, bitwa zostaje uznana za remis."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Szczegółowe wyniki bitwy"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Nie martw się, jeśli Twój ulubiony pojazd został wykluczony. Pojazdy do wypożyczenia mają teraz wstępnie skonfigurowane załogę, wyposażenie, pociski i materiały eksploatacyjne."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Gotowe pojazdy do wypożyczenia %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "W tym sezonie każda drużyna może całkowicie wykluczyć pojazd z bitwy. Uzgodnijcie głosy z sojusznikami, aby wykluczyć pojazd, którego najbardziej się obawiacie, lub przygotować skład, który zaskoczy przeciwnika."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Wykluczenia pojazdów %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Zaktualizowano warunki remisu {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mapy"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nowe pojazdy dostępne w Natarciu"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Wersja 2.4 wprowadza nowe role dla czołgów lekkich i zmiany w równoważeniu charakterystyk pojazdów. Sprawdźcie je w bitwie!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nowe role dla czołgów lekkich {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nowa rozgrywka na znanych mapach. Do zmian należą nocne warunki, nowe posterunki obserwacyjne, nowe lokalizacje punktów kluczowych i zmodyfikowana mechanika wykrywania. Wszystko to zmienia przebieg bitwy i sprawia, że świadomość sytuacyjna, wyczucie czasu i ruchy taktyczne liczą się bardziej niż kiedykolwiek."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Mapy nocne już tu są! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Z powodu małej liczby graczy w bitwach Superplutony zostały wyłączone. Pracujemy nad alternatywnymi, drużynowymi sposobami gry w trybie Natarcie. W międzyczasie regularnie dostępne są turnieje 7v7."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Koniec superplutonów {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Wypożyczone pojazdy"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Niedawno wprowadzony amerykański czołg średni X poziomu Ares 90 jest teraz dostępny w tym trybie z dostosowaną umiejętnością roli."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mapy: Usunięto Erlenberg. Zmieniono pozycję punktów kluczowych na Lotnisku. Drobne poprawki na Pilźnie.\n• Pojazdy: Usunięto VZ. 60S Dravec. Dodano nowy niemiecki czołg ciężki Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Aktualizacja umiejętności roli %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 jest teraz dostępny do kupienia przy stopniu srebrnym w Sklepie Natarcia."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Aktualizacje Sklepu %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sezonowe zmiany w równoważeniu {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "WYKLUCZONO"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s – %(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Sezon I: Lazurowy Smok"
+msgstr "SEZON I: LAZUROWY FENIKS"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Sezon II: Karmazynowy Smok"
+msgstr "SEZON II: KARMAZYNOWY FENIKS"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Sezon III: Jadeitowy Smok"
+msgstr "SEZON III: JADEITOWY FENIKS"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Aktualny"

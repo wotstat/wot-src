@@ -81,7 +81,8 @@ package net.wg.gui.battle.mapsTraining.views.goals
       
       public function updateStage(param1:Number, param2:Number) : void
       {
-         var _loc3_:Boolean = param2 <= StageSizeBoundaries.HEIGHT_800;
+         var _loc3_:Boolean = false;
+         _loc3_ = param2 <= StageSizeBoundaries.HEIGHT_800;
          this.background.scaleX = this.background.scaleY = _loc3_ ? SMALL_SCALE : 1;
          this.goals.scale = _loc3_ ? SMALL_SCALE : 1;
          this.goals.y = _loc3_ ? GOALS_Y_SMALL : GOALS_Y;

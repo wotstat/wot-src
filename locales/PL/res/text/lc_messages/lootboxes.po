@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Otworzyliśmy wszystkie Twoje pudełka operacji świątecznych."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Gratulacje!"
 
@@ -58,34 +55,10 @@ msgstr "×{count}"
 msgid "entryDesc/buySlot"
 msgstr "Możesz kupić duże pudełka w sklepie premium."
 
-msgid "entryDesc/newYear_premium"
-msgstr "Duże pudełka"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Małe pudełka"
-
-msgid "entryDesc/questSlot"
-msgstr "Za ukończenie misji otrzymujesz małe pudełka."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Funkcjonalność jest tymczasowo niedostępna. Spróbuj ponownie później."
 
 msgid "entryPoint/header"
-msgstr "Pudełka"
-
-msgid "entryTooltip/body/h1"
-msgstr "Kup duże pudełka:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Zdobądź małe pudełka:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Kup w sklepie premium pudełka z noworocznymi dekoracjami dla siebie i przyjaciół."
-
-msgid "entryTooltip/body/p2"
-msgstr "Przyznawane za ukończenie misji operacji świątecznych."
-
-msgid "entryTooltip/header"
 msgstr "Pudełka"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "jeszcze {count} pudełek"
 msgid "entryView/buyLabel"
 msgstr "KUP PUDEŁKA"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Nie masz w magazynie dużych pudełek.\nKup ich więcej w sklepie premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Nie masz małych pudełek.\nZdobądź je w bitwach."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Operacje świąteczne {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Tak jest!"
@@ -178,9 +139,6 @@ msgstr "Otwieranie skrzynek z zaopatrzeniem"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Dodano"
 
-msgid "notification/ny19man"
-msgstr "Unikalny członek załogi: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Otrzymujesz następujące nagrody:"
 
@@ -244,36 +202,6 @@ msgstr "Unikalny styl dla"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Zobacz w garażu"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Bożonarodzeniowe pudełka"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magiczne pudełka"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Noworoczne pudełka"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Księżycowe pudełka"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Kolekcja bożonarodzeniowa"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Kolekcja magiczna"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Kolekcja noworoczna"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Kolekcja księżycowa"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Pudełka zawierają dekoracje z kolekcji {category} i inne cenne nagrody."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Odznaczenia:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Kup dodatkowe pudełka w Sklepie premium."
 
@@ -285,12 +213,6 @@ msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
 
 msgid "type/event_premium"
 msgstr "Skrzynka z zaopatrzeniem „Świt”"
-
-msgid "type/newYear_premium"
-msgstr "DUŻE PUDEŁKA"
-
-msgid "type/newYear_usual"
-msgstr "MAŁE PUDEŁKA"
 
 msgid "type/wt_boss"
 msgstr "Rozrusznik Inżyniera"

@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Kazanılan altın"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "%(campaignName)s kadrosuna katılma karşılığında %(nameMedal)s madalyası ödülü aldınız."
+msgstr "%(campaignName)s harekâtında bir görevi başarıyla tamamlamanız karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Tebrikler!"
@@ -1929,6 +1929,21 @@ msgstr "%(campaignName)s harekâtında %(categoryName)s serisinden 30 görevi ba
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "%(campaignName)s harekâtında %(categoryName)s serisinden 15 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "%(campaignName)s harekâtında bir görevi başarıyla tamamlamanız karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "%(operationName)s operasyonunda %(categoryName)s serisinden 21 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "%(operationName)s operasyonunda %(categoryName)s serisinden 14 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "%(operationName)s operasyonunda %(categoryName)s serisinden 7 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "müttefiklere verdiğiniz hasar için ceza: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "İçeriği görmek için tuşa tıklayın."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Bir paket aldınız:"
+msgstr "Koli Alındı"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Bakın"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Ödüllere Gidin"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktive edilen Geçitler: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Tüm Geçitlerinizi aktive ettik ve içeriklerini hesabınıza ekledik:"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Alınan Ödüller"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Tüm kutularınızı açtık ve Şenlik Operasyonu ödüllerini ekledik"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Genel kesitler"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s ulusal kesitler"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Şu araçların yapılandırması değişti: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Dikkat!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>and %(vehiclesCount)s daha</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Güncellemeden sonra tüm çıkartmalar araçlardan kaldırıldı ve Depo'ya Dış Görünüm bölümüne gönderildi."

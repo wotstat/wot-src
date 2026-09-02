@@ -6052,6 +6052,18 @@ msgstr "Dyrektywa nie będzie działać, bo przekroczyłeś limit 6 atutów na 
 msgid "moduleFits/wrong_slot/body"
 msgstr "Moduł już jest zamontowany w innym miejscu."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Szansa na zadanie uszkodzeń krytycznych modułom przeciwnika lub zranienie jego załogi."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Wartość, o jaką zmniejsza się kąt uderzenia pocisku przy trafieniu w pancerz przeciwnika."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Wartość penetracji, jaką pocisk traci co 100 mm po trafieniu w osłonę przeciwnika."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Kąt, przy którym pocisk automatycznie rykoszetuje od pancerza przeciwnika."
+
 msgid "multiselection/alert/body"
 msgstr "Wybierz pojazdy: możesz dołączyć do bitwy tylko z pełną grupą."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Przepustka bitewna: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Wadim Kuprin znał jałowe solniska swojej obecnej misji jak własną, równie steraną dłoń. Niestraszne mu były niestabilne warunki – zdobył szlify, specjalizując się w obronie przed bronią chemiczną, na długo przed tym, jak wsiadł do czołgu. Dwadzieścia lat później znalazł się zaledwie kilka dni marszu od kompleksu laboratoryjnego, w którym zaczynał służbę wojskową jako młodszy technik. Czas i przeciwności losu nikogo nie oszczędzają, ale – jak żartował Wadim swojej załodze – nikt nie złożył papierów o jego zwolnienie ze służby, więc dopóki ktoś tego nie zrobi, on nigdzie się nie wybiera."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Zielone doliny z czasów chłopięcych Bryna Powella były zupełnie innym światem niż surowe warunki, które przyszło mu poznać. Jego ostatnia odprawa była wyjątkowo skąpa w szczegóły, a zwroty „niezidentyfikowany środek chemiczny” i „ryzyko śmiertelnego niebezpieczeństwa: ekstremalne” sprawiłyby, że wielu dowódców modliłoby się o przeniesienie. Ale Bryn zawsze uważał instynkt samozachowawczy za godną podziwu cechę u innych. Z natury był ryzykantem i mógłby zrobić błyskotliwą karierę jako kaskader, gdyby tylko poczuł taką potrzebę. Gdy zasiadał za sterami czołgu, różnica była znikoma."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora był niewzruszonym dowódcą. Jako weteran misji pokojowych w niestabilnych regionach nauczył się panować nad nerwami w obliczu narastającej presji. Czy to na skraju wyczerpania po długim nocnym patrolu, czy podczas analizowania coraz bardziej niepokojących danych wywiadowczych na temat nieznanej substancji, którą miała odkryć jego załoga, nigdy nie tracił zimnej krwi. Podtrzymywał morale żartami balansującymi na granicy lekkości i wisielczego humoru, zachowując błysk w oku i sprężysty krok."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Nic nie umykało uwadze Sandrine Ousset. Zanim została zwerbowana do tajnej misji zwiadu pancernego, była utytułowaną snajperką, której orli wzrok sięgał dalej niż luneta karabinu. Wystarczyło pokazać jej zniekształcony fragment danych wywiadowczych wroga, a potrafiła wyciągać tak trafne wnioski, że nawet jej własna załoga początkowo myliła jej niesamowite zdolności obserwacyjne z jasnowidztwem. Pod jej dowództwem sekrety rzadko pozostawały długo w ukryciu. Na szczęście dla jej zespołu najbardziej nieustępliwie analizuje źródła nieznanego odczynnika, którego zbadanie im zlecono."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Ludzie zawsze mnie pytają, czy znam Jacka Reeda. Zanim im odpowiem, zazwyczaj robię głęboki wdech i na chwilę zamykam oczy. Bycie jego dowódcą to nie jest żywot usłany różami. Reed to buntownik, któremu jakimś cudem udaje się wykonywać rozkazy bez naruszania zasad wojskowych. Teraz siedzi w gorącym jak samo piekło czołgu. Ale gdzieś tam w duszy pędzi drogą na swoim motocyklu w kierunku Route 66 i czuje wiatr we włosach."
 
@@ -8901,6 +8949,15 @@ msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
 msgstr "Kampania „3. Sektor”"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Wychowany w rodzinie berneńskich zegarmistrzów Stefan odziedziczył rzemiosło, które wymagało ciszy, cierpliwości i absolutnej kontroli. Ale w jego przypadku te cechy miały zdefiniować zupełnie inną karierę. W 1940 roku brytyjski wywiad dał mu wybór: neutralna Szwajcaria po jednej stronie granicy, on po drugiej. Na alpejskich przełęczach z mechanika urządzeń szpiegowskich stał się strzelcem wyborowym. Po wojnie kontynuował pracę, eliminując tych, którzy pod fałszywymi nazwiskami uniknęli sprawiedliwości. Stefan zawsze pracował sam, nie pozostawiając śladów, i tak jest do dziś: nikt w 3. Sektorze nie widział jego twarzy."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
+msgstr "Kampania 3. Sektor"
 
 msgid "notrecruitedtankman/tankwoman/desc"
 msgstr "Przyznawane w niektórych wydarzeniach w grze. Członkinie załóg mają atut Braterstwo broni wyszkolony w 100% oraz otrzymują jeden dodatkowo wybrany atut wyszkolony w 100%."
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s – podstawowy pocisk dla wybranego działa. Używany do wylicz
 msgid "shell/basic/description/bold"
 msgstr "Pocisk podstawowy"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Tryb zewnętrznego zasilania amunicją pojazdu pozwala na użycie pocisków o zwiększonych uszkodzeniach."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Podstawowy"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Zmodyfikowany"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Specjalna mechanika dla działa pojazdu pozwala na wcześniejszy strzał ze zmienionymi parametrami pocisku."
 
@@ -10866,6 +10932,21 @@ msgstr "Podstawowe:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Zmienione:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Regulowany nastawnik zapalnika zwiększa średnie uszkodzenia lub penetrację."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Regulowany"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikację niektórych parametrów pocisku przed wystrzałem."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standardowy"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Skalibrowany"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Pokaż/ukryj na minimapie obszar pod ostrzałem dział samobieżnych przeciwnika."
@@ -11028,6 +11109,12 @@ msgstr "Obniżenie jakości dźwięku może polepszyć ogólną wydajność gry 
 
 msgid "soundQualityOn/header"
 msgstr "Dźwięk niskiej jakości"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Średnie uszkodzenia{{/}} są zwiększane po trafieniu z przebiciem pojazdu przeciwnika."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Średnia penetracja{{/}} jest zwiększana po trafieniu bez przebicia pojazdu przeciwnika."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Członkowie załogi w pojazdach premium są szkoleni o 50% szybciej:"
@@ -11386,6 +11473,36 @@ msgstr "Ulepszony system automatycznego przeładowania skraca standardowy czas p
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Czas pomiędzy wystrzeleniem ostatniego pocisku w magazynku (lub obu działach) a załadowaniem nowego magazynka. / Liczba pocisków w magazynku lub dział."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Czas zastępujący pozostały czas przeładowania po użyciu mechanizmu."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Czas potrzebny na uzupełnienie jednego ładunku, jeśli magazynek jest pełny."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Czas potrzebny na uzupełnienie jednego ładunku, jeśli magazynek nie jest pełny."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Liczba ładunków dostępnych na początku bitwy."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Maksymalna liczba ładunków przyspieszających ładowanie pocisku, które można mieć jednocześnie."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Średnie uszkodzenia zadawane pociskiem z wyrzutni rakiet po trafieniu z przebiciem pancerza. Potencjalny zakres uszkodzeń to ±25% średniej wartości."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Rozrzut określony przez maksymalny odchylenie pocisku od punktu celowania z odległości 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Średnia grubość pancerza przebijana przez pocisk rakietowy. Zakres to ±25% średniej wartości."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Czas przeładowania wyrzutni rakiet"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Określa prędkość lotu niekierowanego pocisku rakietowego."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Średnie uszkodzenia zadawane standardowym pociskiem po trafieniu z przebiciem pancerza. Potencjalny zakres uszkodzeń to +/- 25% średniej wartości."
 
@@ -11406,6 +11523,21 @@ msgstr "Maksymalny czas trwania efektu dopalaczy po aktywacji."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Czas ładowania pomiędzy pociskami w zasobniku./Liczba zasobników w magazynku./Liczba pocisków w zasobniku."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Średnie uszkodzenia zadawane pociskiem unitarnym o dużym ładunku po trafieniu z przebiciem pancerza. Potencjalny zakres uszkodzeń to ±25% średniej wartości."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Zmniejszenie nominalnej prędkości jazdy do przodu pojazdu w trybie zewnętrznego zasilania amunicją. Prędkość jazdy wstecz nie ulega zmianie."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Zmniejszenie liczby pocisków na minutę w trybie zewnętrznego zasilania amunicją."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimalny czas wymagany do przygotowania działa do strzału po aktywacji trybu zewnętrznego zasilania amunicją. W tym czasie nie można przełączać trybów."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimalny czas wymagany do przygotowania działa do strzału po powrocie do trybu standardowego. W tym czasie nie można przełączać trybów."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Czas przygotowania do wystrzelenia z dwóch dział jednocześnie. / Czas zablokowania przeładowania działa po wystrzeleniu salwy."
@@ -11737,8 +11869,17 @@ msgstr "Czas przeładowania uzbrojenia pomocniczego po strzale."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Liczba pocisków dostępnych dla uzbrojenia pomocniczego podczas każdej aktywacji."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Premia do uszkodzeń przyznawana po trafieniu z przebiciem pojazdu przeciwnika."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Premia do penetracji przyznawana po trafieniu bez przebicia pojazdu przeciwnika."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Czas potrzebny do załadowania pocisków na początku bitwy i przełączenia się między różnymi ich rodzajami."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Czas przełączania między trybem skalibrowanym a standardowym."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Rozrzut działa określony przez maksymalny odchył pocisku od punktu celowania z odległości 100 metrów."
@@ -11748,6 +11889,36 @@ msgstr "Rozrzut działa określony przez maksymalne odchylenie pocisku od punktu
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Pokazuje, jak bardzo pocisk może odchylić się od punktu celowania w metrach na 100 metrów od celu. Wartość standardowa (pierwsza) dotyczy rozgrzanego działa, a wartość ulepszona (druga) – schłodzonego działa."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Progresywne zmniejszenie maskowania pojazdów przeciwnika za roślinnością w sektorze skanowania IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Progresywne zmniejszenie maskowania poruszających się pojazdów przeciwnika w sektorze skanowania IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Czas wymagany po rozpoczęciu bitwy, aby można było pierwszy raz użyć IRST."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Czas trwania skanowania IRST."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Czas wymagany przed ponownym użyciem IRST po aktywacji."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Zmniejszenie prędkości obrotu wieży, gdy IRST jest aktywny."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Szerokość sektora skanowania IRST na koniec czasu jego trwania."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Szerokość sektora skanowania IRST na początku czasu jego trwania."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Czas, przez który Twój pojazd jest wykryty po wykryciu niewykrytego przeciwnika za pomocą IRST."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Progresywny wzrost zasięgu widzenia w sektorze skanowania IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Prędkość pojazdu w formie zdefiniowanej w jego charakterystykach technicznych."

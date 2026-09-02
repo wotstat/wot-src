@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Questa modalità non è disponibile sul server %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "La Stagione del Drago azzurro inizierà il: %(date)s"
+msgstr "La Stagione della Fenice azzurra inizierà il: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "La Stagione del Drago cremisi inizierà il: %(date)s"
+msgstr "La Stagione della Fenice cremisi inizierà il: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "La Stagione del Drago di giada inizierà il: %(date)s"
+msgstr "La Stagione della Fenice di giada inizierà il: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Attendi i risultati della Qualificazione per ricevere il tuo rango"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Stagione del Drago azzurro terminata"
+msgstr "Stagione della Fenice azzurra terminata"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Stagione del Drago cremisi terminata"
+msgstr "Stagione della Fenice cremisi terminata"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Stagione del Drago di giada terminata"
+msgstr "Stagione della Fenice di giada terminata"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Battaglie su questo server disponibili tra %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Caratteristiche del veicolo migliorate"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Ripristino integrità"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Danno subito aumentato"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Caratteristiche del veicolo migliorate"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "La Stagione del Drago azzurro durerà ancora %(days)d giorno"
-msgstr[1] "La Stagione del Drago azzurro durerà ancora %(days)d giorni"
-msgstr[2] "La Stagione del Drago azzurro durerà ancora %(days)d giorni"
+msgstr[0] "La Stagione della Fenice azzurra durerà ancora %(days)d giorno"
+msgstr[1] "La Stagione della Fenice azzurra durerà ancora %(days)d giorni"
+msgstr[2] "La Stagione della Fenice azzurra durerà ancora %(days)d giorni"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "La Stagione del Drago cremisi durerà ancora %(days)d giorno"
-msgstr[1] "La Stagione del Drago cremisi durerà ancora %(days)d giorni"
-msgstr[2] "La Stagione del Drago cremisi durerà ancora %(days)d giorni"
+msgstr[0] "La Stagione della Fenice cremisi durerà ancora %(days)d giorno"
+msgstr[1] "La Stagione della Fenice cremisi durerà ancora %(days)d giorni"
+msgstr[2] "La Stagione della Fenice cremisi durerà ancora %(days)d giorni"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "La Stagione del Drago di giada durerà ancora %(days)d giorno"
-msgstr[1] "La Stagione del Drago di giada durerà ancora %(days)d giorni"
-msgstr[2] "La Stagione del Drago di giada durerà ancora %(days)d giorni"
+msgstr[0] "La Stagione della Fenice di giada durerà ancora %(days)d giorno"
+msgstr[1] "La Stagione della Fenice di giada durerà ancora %(days)d giorni"
+msgstr[2] "La Stagione della Fenice di giada durerà ancora %(days)d giorni"
 
 msgid "calendarDay/title"
 msgstr "Programma"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Talenti"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Aggressione. Anno del Drago"
+msgstr "Aggressione: Anno della Fenice"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Talenti zero"
@@ -574,11 +577,17 @@ msgstr "Affermativo!"
 msgid "intro/description/banPhase"
 msgstr "Ogni squadra può escludere completamente un veicolo da una battaglia. Coordina i voti con i tuoi alleati per escludere i mezzi più temibili o per preparare uno schieramento inaspettato per i nemici. Se il tuo veicolo viene escluso, puoi scegliere tra diversi noleggi preconfigurati."
 
+msgid "intro/description/draw"
+msgstr "Allo scadere del tempo, se nessuna delle due squadre ha ottenuto una vittoria netta, l'esito della battaglia viene determinato in base ai criteri di spareggio in quest'ordine: veicoli sopravvissuti, danni causati e primo veicolo eliminato. Se nessuna delle due squadre ha causato danni, la battaglia viene dichiarata in stallo."
+
+msgid "intro/description/nightMaps"
+msgstr "Le mappe notturne rinnovano i campi di battaglia più conosciuti immergendole in condizioni di combattimento notturno, aggiungendo nuovi punti d'osservazione, aggiornando i punti di interesse e modificando le meccaniche di avvistamento. La selezione attuale include Ghiacciaio, Dune di Sabbia, Avamposto e Steppe."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "La modalità presenta modificatori che cambiano alcuni parametri del veicolo, come integrità (HP), tempo di ricarica dei consumabili, tempo rimanente di visibilità e altro ancora."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Una volta catturate certe aree della mappa, potrai usare delle Abilità tattiche. Ci sono due tipi di punti di interesse: il Quartier generale dell'artiglieria ti permetterà di lanciare un attacco d'artiglieria su una determinata posizione, mentre il Centro comunicazioni avvisterà tutti i veicoli nemici. A seconda della mappa, la presenza e la posizione dei punti di interesse può variare."
+msgstr "Una volta catturate certe aree della mappa, avrai accesso alle Abilità tattiche. Ci sono due tipi di punti di interesse: il Quartier generale dell'artiglieria, che ti permetterà di lanciare un attacco mirato, e il Centro comunicazioni, che rivelerà tutti i veicoli nemici. Il numero e la posizione di questi siti varia da mappa a mappa."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Combatti %(count)s battaglie di Qualificazione per determinare il tuo
 msgstr[2] "Combatti %(count)s battaglie di Qualificazione per determinare il tuo livello di abilità e rango. Al termine, riceverai le ricompense del rango raggiunto e di tutti i ranghi precedenti.\n\nIn fase di Qualificazione, diserzioni e stalli saranno considerati al pari di una sconfitta."
 
 msgid "intro/description/ranks"
-msgstr "Un sistema che rispecchia l'abilità dei giocatori. Avanza tra i ranghi, da Ferro a Leggenda, e ottieni preziose ricompense. Combatti durante l'Anno del Drago per ricevere Ricompense annuali uniche."
+msgstr "Avanza tra i ranghi, da Ferro a Leggenda, e ottieni preziose ricompense. Combatti durante l'Anno della Fenice per ricevere Ricompense annuali uniche."
 
 msgid "intro/description/roleSkills"
 msgstr "A seconda del ruolo, ogni veicolo dispone di un'abilità speciale con tre livelli di carica. Maggiore è il livello di carica al momento dell'attivazione dell'abilità, più questa sarà potente. Il livello di carica dipende dal numero di Punti Prestigio ottenuti grazie a buone prestazioni in battaglia, catturando punti di interesse, usando Abilità tattiche, etc.\n\nLeggi il regolamento della modalità per scoprire di più sui diversi modi per ottenere Punti Prestigio."
@@ -597,6 +606,12 @@ msgstr "Puoi entrare in battaglia con veicoli ricercabili di livello %(levels)s 
 
 msgid "intro/title/banPhase"
 msgstr "ESCLUSIONE VEICOLI"
+
+msgid "intro/title/draw"
+msgstr "REGOLE DI STALLO"
+
+msgid "intro/title/nightMaps"
+msgstr "MAPPE NOTTURNE"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICATORI DI AGGRESSIONE"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VITTORIA, MA TU"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promosso a %(rank)s"
+msgstr "Promosso a {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Punteggio: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degradato a %(rank)s, %(division)s"
+msgstr "Degradato a {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promosso a %(rank)s, %(division)s"
+msgstr "Promosso a {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Battaglie combattute"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Record di Punti Prestigio stagionali: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "La Stagione del Drago azzurro è terminata sul server %(server)s."
+msgstr "La Stagione della Fenice azzurra è terminata sul server %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "La Stagione del Drago cremisi è terminata sul server %(server)s."
+msgstr "La Stagione della Fenice cremisi è terminata sul server %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "La Stagione del Drago di giada è terminata sul server %(server)s."
+msgstr "La Stagione della Fenice di giada è terminata sul server %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Acquista"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "AGGRESSIONE. QUALIFICAZIONE COMPLETATA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "AGGRESSIONE. STAGIONE DEL DRAGO AZZURRO"
+msgstr "AGGRESSIONE: STAGIONE DELLA FENICE AZZURRA"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "AGGRESSIONE: STAGIONE DEL DRAGO CREMISI"
+msgstr "AGGRESSIONE: STAGIONE DELLA FENICE CREMISI"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "AGGRESSIONE. STAGIONE DEL DRAGO DI GIADA"
+msgstr "AGGRESSIONE: STAGIONE DELLA FENICE DI GIADA"
 
 msgid "rewardsScreen/description/year"
-msgstr "AGGRESSIONE. ANNO DEL DRAGO"
+msgstr "AGGRESSIONE. ANNO DELLA FENICE"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Dov'è il mio Ashbringer?"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Termina tra %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Stagione del Drago azzurro"
+msgstr "Stagione della Fenice azzurra"
 
 msgid "seasonName/second"
-msgstr "Stagione del Drago cremisi"
+msgstr "Stagione della Fenice cremisi"
 
 msgid "seasonName/third"
-msgstr "Stagione del Drago di giada"
+msgstr "Stagione della Fenice di giada"
 
 msgid "seasonPointTooltip/header"
 msgstr "Stendardi di Aggressione"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Posizione in classifica: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "AGGRESSIONE. %(seasonNameUpper)s"
+msgstr "AGGRESSIONE %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Hai ricevuto %(points)s Stendardi di Aggressione"
 msgstr[2] "Hai ricevuto %(points)s Stendardi di Aggressione"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "STAGIONE I. DRAGO AZZURRO"
+msgstr "STAGIONE I: FENICE AZZURRA"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "STAGIONE II. DRAGO CREMISI"
+msgstr "STAGIONE II: FENICE CREMISI"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "STAGIONE III. DRAGO DI GIADA"
+msgstr "STAGIONE III: FENICE DI GIADA"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Vittorie: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Questa modalità diventerà disponibile alle %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Drago azzurro"
+msgstr "Fenice azzurra"
 
 msgid "shortSeasonName/second"
-msgstr "Drago cremisi"
+msgstr "Fenice cremisi"
 
 msgid "shortSeasonName/third"
-msgstr "Drago di giada"
+msgstr "Fenice di giada"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Questa sezione contiene informazioni sui migliori giocatori nella Stagione attuale della modalità Aggressione."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Vedi tutto"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Supporta Leggende di Aggressione facendo salire il montepremi con i pacchetti del torneo!"
+msgstr "Se la squadra che hai scelto vince, riceverai un esclusivo distintivo dorato di OLS 2026. Tifa per i tuoi preferiti!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Mostra il tuo spirito esport con elementi di personalizzazione a tema e carri unici!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Un epico scontro è in procinto di svolgersi in occasione del World of Tanks Championship International a Suzhou, in Cina. Qui, le squadre più agguerrite di tutto il mondo si affronteranno secondo le regole della modalità Aggressione, tutte in competizione per il prestigioso titolo di campione del mondo. Ammira la nascita di nuove leggende sul campo di battaglia!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "Stagione 6 di LdA"
+msgstr "Stagione 7 di OLS"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Questa Stagione rappresenta l'ultima occasione per reclamare preziose ricompense, incluso l'esclusivo carro pesante di livello X Ashbringer con tutti i suoi stili 3D unici che hai ottenuto e un intrepido equipaggio con Spirito di squadra come talento zero, più equipaggiamenti migliorati e sperimentali a scelta, un appariscente stile 2D e altro. Non perderti questa occasione: la vittoria ti aspetta sul campo di battaglia!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Cogli gli ultimi momenti dell'Anno del Drago!"
+msgstr "Cogli gli ultimi momenti dell'Anno della Fenice!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "STAGIONE DEL DRAGO DI GIADA"
+msgstr "STAGIONE DELLA FENICE AZZURRA"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "AGGRESSIONE. CHE NOVITÀ MI ASPETTANO?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tastico!"
+msgstr "Scatena le tue fiamme!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "La schermata dei risultati post-battaglia migliorata con il nuovo design dell'aggiornamento 2.0 ora fornirà più informazioni legate alla modalità dopo ogni battaglia."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Allo scadere del tempo, se nessuna delle due squadre ha ottenuto una vittoria netta, l'esito della battaglia viene determinato in base ai criteri di spareggio in quest'ordine: veicoli sopravvissuti, danni causati e primo veicolo eliminato. Se nessuna delle due squadre ha causato danni, la battaglia viene dichiarata in stallo."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Risultati di battaglia dettagliati"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Non temere se il tuo veicolo preferito è stato escluso. I noleggi ora sono accompagnati da equipaggi preconfigurati, equipaggiamento, proiettili e consumabili."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Noleggi pronti all'uso %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Questa Stagione ogni squadra può escludere completamente un veicolo da una battaglia. Coordina i voti con i tuoi alleati per escludere i mezzi più temibili o per preparare uno schieramento inaspettato per i nemici."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Esclusione veicoli %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Condizioni di stallo aggiornate {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mappe"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nuovi veicoli disponibili in Aggressione"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "La versione 2.4 introduce nuovi ruoli per i carri leggeri e un ribilanciamento delle caratteristiche dei veicoli. Provali in battaglia!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nuovi ruoli per i carri leggeri {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Un'esperienza di gioco rinnovata su mappe conosciute. I cambiamenti comprendono condizioni notturne, nuovi punti d'osservazione, nuove posizioni per i punti di interesse e meccaniche di avvistamento modificate. Tutto questo ridefinisce l'andamento della battaglia, rendendo la consapevolezza, il tempismo e i movimenti tattici più importanti che mai."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Sono arrivate le mappe notturne! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "A causa del numero ridotto di giocatori nelle battaglie, i Super Plotoni sono stati disattivati. Stiamo lavorando a modi alternativi per supportare il gioco di squadra in Aggressione. Nel frattempo, sono disponibili tornei 7 contro 7 a cadenza regolare."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Niente più Super Plotoni {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Veicoli a noleggio"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Il carro medio americano di livello X Ares 90 rilasciato recentemente è ora disponibile nella modalità con un'Abilità di ruolo modificata."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mappe: Erlenberg è stata rimossa. I punti di interesse su Campo di volo sono stati riposizionati. Piccoli aggiustamenti a Pilsen.\n• Veicoli: il Vz. 60S Dravec è stato rimosso. Il nuovo carro pesante tedesco Kampfpanzer 67 è stato aggiunto."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Aggiornamento Abilità di ruolo %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Il 114 SP2 è ora disponibile per l'acquisto al rango Argento nel Negozio di Aggressione."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Aggiornamenti Negozio %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Cambiamenti di bilanciamento della stagione {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "ESCLUSA"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s – %(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Stagione I. Drago azzurro"
+msgstr "Stagione I: Fenice azzurra"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Stagione II. Drago cremisi"
+msgstr "Stagione II: Fenice cremisi"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Stagione III. Drago di giada"
+msgstr "Stagione III: Fenice di giada"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Attuale"

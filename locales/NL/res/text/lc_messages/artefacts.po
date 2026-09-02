@@ -880,6 +880,12 @@ msgstr "Extra brede rupsbanden klasse 3"
 msgid "gun_balancing_1/name"
 msgstr "Kanonstabilisering (type 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Kanonstabilisering (type 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Kanonsloopmodificatie (type 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Verbeterde ophanging (type 1)"
 msgid "improved_suspension_2/name"
 msgstr "Verbeterde ophanging (type 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Verbeterde koepelaandrijving (type 1)"
+
 msgid "inspire/longDescr"
 msgstr "Voegt een % bonus toe aan de hoofdkwalificatie van elk bemanningslid van het eigen voertuig en van geallieerden binnen een bepaalde straal. De speler die het activeert, zal een groter effect ontvangen."
 
@@ -1294,6 +1303,9 @@ msgstr "Mobiliteitsverbetering Systeem T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Mobiliteitsverbetering Systeem T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Mondingsflitsdemper (type 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Verhoogt %(consumeSeconds)s s lang het motorvermogen van je voertuig met %(enginePowerFactor)s en zijn topsnelheid met een factor %(maxSpeedFactor)s."
 
@@ -1347,6 +1359,12 @@ msgstr "Het geselecteerde gebied zal binnen {colorTagOpen}%(delay)d s{colorTagC
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artillerieaanval"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Na een korte vertraging verlicht een lichtfakkel het geselecteerde gebied. Vijandelijke voertuigen binnen zijn straal blijven verkend en ontvangen meer schade.\nDe Observatiepost kan na een paar minuten worden heroverd."
+
+msgid "poi_illumination_flare/name"
+msgstr "Lichtfakkel"
 
 msgid "poi_radar/descr"
 msgstr "Bij activatie zullen alle vijandelijke voertuigen {colorTagOpen}%(duration)d s{colorTagClose} lang verkend blijven."
@@ -1879,29 +1897,77 @@ msgstr "Lichtgewicht romp"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Lichtgewicht\nromp"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflecterende optiek"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflecterende koplampcoating"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflecterende\noptiek"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antireflecterende\nkoplampcoating"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Extern zichtsysteem"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrische periscoop"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Extern\nzichtsysteem"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrische\nperiscoop"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramisch triplex"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramisch\ntriplex"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramisch triplex"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Observatiesysteem met kleine zichthoek"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Observatiesysteem\nmet kleine zichthoek"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nieuwe richttandwielen"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nieuwe richttandwielen"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrische periscoop"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrische\nperiscoop"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Algemene duurzaamheidstoename"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Algemene\nduurzaamheidstoename"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflecterende koplampcoating"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antireflecterende\nkoplampcoating"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Mondingsaanpassing"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Mondingsaanpassing"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Voeding opnieuw bedraden"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Voeding opnieuw\nbedraden"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Verbeterde projectielschroefdraad"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Verbeterde\nprojectielschroefdraad"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Gevoelige optiek"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Gevoelige optiek"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Versterkte primaire structuur"
@@ -2424,6 +2490,9 @@ msgstr "Elektrische ontlading"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Creëert een zone waarbinnen zeer regelmatig een reeks van %(thunderCount)s elektrische ontladingen plaatsvindt. Elke ontlading veroorzaakt {whiteSpanish_Open}%(damage)s HP schade{whiteSpanish_Close} en vermindert tijdelijk de mobiliteit van alle vijandelijke voertuigen binnen het gebied van effect.\n\n*Er zit %(delay)s s tussen de activatie van de bekwaamheid en de eerste ontlading. Het negatieve effect kan met een reparatieset worden verwijderd."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Torsie-as-vervanging (type 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Creëert %(duration)s s lang een gebied waarbinnen voor alle vijandelijke voertuigen de mobiliteitsparameters met %(vehicleMaxSpeed)s afnemen en de herlaad- en richttijd van het kanon met %(gunReloadTime)s toenemen."

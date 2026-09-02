@@ -382,11 +382,56 @@ msgstr "Misiunile săptămânale sunt un set de sarcini disponibile în fiecare 
 msgid "info_page/main/weekly/title"
 msgstr "Misiunile săptămânale"
 
+msgid "pm/missionState/active"
+msgstr "Activă"
+
+msgid "pm/missionState/complete"
+msgstr "Misiuni finalizate"
+
+msgid "pm/missionState/improve"
+msgstr "Îmbunătățire rezultat"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Schimbă vehiculul"
+
+msgid "pm/no_missions"
+msgstr "Nu există misiuni active pentru vehiculul selectat"
+
+msgid "pm/tier"
+msgstr "Generație nepotrivită"
+
+msgid "pm/unavailable"
+msgstr "Misiune momentan indisponibilă"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Nu există misiuni active pentru vehiculul selectat. Alege alt vehicul."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Această misiune e momentan indisponibilă din motive tehnice. Prezentăm scuze pentru problemă."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Vehiculul selectat nu îndeplinește cerințele de generație pentru operațiunile active. Alege un alt vehicul."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Nu există misiuni active"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Temporar indisponibil"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Generație nepotrivită"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Toate misiunile standard de azi au fost finalizate"
 
 msgid "quests/daily_quests/completed"
 msgstr "Toate misiunile zilnice au fost finalizate"
+
+msgid "slider/title/missions"
+msgstr "Misiunile standard"
+
+msgid "slider/title/personalMissions"
+msgstr "Misiunile Personale"
 
 msgid "tooltip/common/timer"
 msgstr "Disponibile în {{timeLeft}}"

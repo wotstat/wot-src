@@ -205,7 +205,8 @@ class EquipmentParams(Block, EquipmentMeta):
         self._writeLog((b'_execute {}').format(self._params.getValue()))
         errString = self._processParams()
         if errString:
-            return errorVScript(self, errString)
+            errorVScript(self, errString)
+            return
         else:
             if constants.IS_CELLAPP:
                 from items.vehicles import g_cache

@@ -34,6 +34,9 @@ msgstr "Ieroču sistēma var šaut nepārtraukti bez pārlādēšanas. Katrs š�
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Palielina dzinēja jaudu un maksimālo ātrumu ātrai kustībai pa kaujas lauku. Aktivizējot, strūklas pastiprinātāji samazina manevrētspēju un nevar tikt deaktivēti manuāli."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus lādiņa parametrus. Dažādu lādiņu parametri atšķiras atkarībā no izvēlētā režīma, un katrs režīms ļauj ātri pielāgoties dažādām kaujas situācijām."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Aktivējot šo īpašo režīmu, tiek uzlaboti un/vai mainīti noteikti kaujas parametri. Vislabāk izmantot, kad ieņemta pozīcija un gatavs uzbrukumam."
 
@@ -82,6 +85,9 @@ msgstr "Termiskās Pārkaršanas Kontroles Automātiskais Lielgabals"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Reaktīvo Dzinēju Pastiprinātāji"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Lādiņu kalibrēšanas sistēma"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Cietokšņa Režīms"
 
@@ -100,8 +106,17 @@ msgstr "Zālves Uguns Režīms"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stāvot uz vietas vai pārvietojoties lēni, uzkrājas precizitātes līmeņi, kas uzlabo nākamā šāviena precizitāti.\nMaksimālā līmenī tiek uzlabota lielgabala vadāmība, un pat kustībā vai grozot tornīti/korpusu izkliede samazinās."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mehānisms uzreiz samazina šāviņa pārlādēšanas laiku līdz īsam fiksētam laikam. Katra izmantošana patērē vienu uzlādi uz katru šāviņu, un uzlādes laika gaitā atjaunojas—ātrāk, kad magazīna ir pilna. Kaujas sākumā ir pieejams noteikts uzlaužu skaits."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Šis tanks ir aprīkots ar raķešu palaišanas iekārtu, kas uzstādīta lielgabala maskā. Aktivizējiet spēju pārslēgties uz sekundārā ieroča tēmēkli un pēc tam ar šāviena pogu izšaujiet nevadāmu HE raķeti."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Katru reizi, kad trāpi ienaidniekam ar čaulu, tu iegūsti pārlādēšanas efektivitātes līmeni, kas uz laiku palielina tava lielgabala pārlādēšanas ātrumu. Līmeņi uzkrājas ar katru trāpījumu.\nIenaidnieka tanks iznīcināšana ar čaulu piešķir papildu pārlādēšanas efektivitātes līmeņus."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Šī tanka Ārējais munīcijas padeves modulis ļauj tam izšaut jaudīgus viengabala šāviņus ar pastiprinātu lādiņu, kas nodara lielākus bojājumus. Kamēr modulis ir aktīvs, tas arī samazina mobilitāti un šaušanas ātrumu."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Ja ierocis ir pielādēts, vari sākt uzsildīt nākamo šāvienu, lai palielinātu tā bojājumu. Jo augstāks siltuma līmenis, jo spēcīgāks efekts.\nSasniedzot maksimālo karstumu, tev būs daži mirkļi, lai izšautu — pretējā gadījumā īslaicīgi zaudēsi iespēju šaut."
@@ -142,6 +157,15 @@ msgstr "Sistēma laika gaitā uzkrāj uzlādi, un lielāka uzlāde piešķir lie
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktivizējiet Šķidro degvielas paātrinātājus jebkurā laikā, lai iegūtu ātruma pieaugumu, kad tas ir visvairāk nepieciešams. Pastiprinātāji uzkarst un tiem ir jāatdziest, pirms tos var izmantot atkārtoti, savukārt kritiskā siltuma līmeņa pārsniegšana tos uz laiku pilnībā atspējos."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Kad ar lādiņu trāpāt redzamam ienaidnieka tankam, nākamā lādiņa degļa iestatījums tiek pielāgots. Ja pirmais šāviens izsita cauri ienaidnieka bruņām, nākamā šāviena bojājumi tiek palielināti. Ja ne, tiek palielināta nākamā šāviena cauršaušanas spēja."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus lādiņa parametrus. Dažādu lādiņu parametri atšķiras atkarībā no izvēlētā režīma, un katrs režīms ļauj ātri pielāgoties dažādām kaujas situācijām."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Kad ierīce tiek aktivizēta, tā skenē sektoru jūsu tanka priekšā, atklājot paslēptus mērķus pirms atdzišanas laika sākuma. Ja tā atklāj iepriekš nepamanītu pretinieku, arī jūs nekavējoties kļūstat pamanāms. Pēc īsas aizkaves skenēšanu varat manuāli apturēt."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Cietā kurināmā paātrinātāji paaugstina paātrinājumu, mobilitāti un manevrētspēju uz vairākām sekundēm. Kreisais un labais paātrinātāji darbojas neatkarīgi viens no otra, nodrošinot ātrāku korpusa apgriešanos un neierobežo atpakaļgaitu."
 
@@ -166,8 +190,17 @@ msgstr "Šī mehāniskā modifikācija būtiski palielina tanka paātrinājumu, 
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analogais ballistiskais dators"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Piespiedu ielādes mehānisms"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaksiālais raķešu palaidējs"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Daļēji automātiska munīcijas glabātuve"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Ārējās munīcijas padeves režīms"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termo-ballistiskā pārslodze"
@@ -208,6 +241,15 @@ msgstr "Indukcijas propelenta pēcdedzinātājs"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Šķidrā kurināmā paātrinātāji"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Regulējams detonatora iestatītājs"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Lādiņu kalibrēšanas sistēma"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrasarkanā meklēšanas un izsekošanas sistēma (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Secīgi Raķešu paātrinātāji"
 
@@ -232,8 +274,17 @@ msgstr "Augstspiediena turbokompresora palīgsistēma"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Uzlabo nākamā šāviena precizitāti ar labu stabilizāciju pēc pilnas kalibrācijas."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Uzreiz samazina lādiņa pārlādēšanas laiku līdz īsam, fiksētam laikam."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Izšaujiet nevadāmu HE-raķeti no koaksiālās palaišanas iekārtas neatkarīgi no galvenā lielgabala."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Katrs trāpījums ienaidnieka tankam uz laiku palielina ieroča pārlādēšanas ātrumu."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Izšauj lielu kaitējumu nodarošus šāvienus, upurējot mobilitāti un atdzišanas laiku."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Uzkarsē stobru, lai nākamais šāviens nodarītu vairāk bojājumu"
@@ -274,6 +325,15 @@ msgstr "Sistēma uzkrāj uzlādi, lai palielinātu bojājumus. Jo lielāka uzlā
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Aktivējami pastiprinātāji, kas uzreiz piešķir īslaicīgu ātruma pieaugumu"
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Trāpot redzamam ienaidnieka tankam, palielinās nākamā šāviņa bojājumi vai cauršaušanas spēju."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus šāviņa parametrus."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Palielina redzamības diapazonu un šaurā sektorā atklāj kustīgus un lapotnē paslēptus tankus."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Cietā kurināmā dzinēji, kas palielina paātrinājumu, mobilitāti un manevrētspēju."
 
@@ -298,8 +358,14 @@ msgstr "Īpaša mehānika, kas uz īsu laiku palielina dzinēja jaudu, paātrin�
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Paliekot nekustīgam vai pārvietojoties zem noteikta ātruma, tavs tanks var kalibrēt savu analogo ballistisko skaitļošanas ierīci un uzkrāt precizitātes līmeņus, palielinot nākamā šāviena precizitāti. Ja pārsniedz ātruma robežu, precizitātes līmeņu uzkrāšana tiek apturēta, līdz samazini ātrumu. Pie maksimālā precizitātes līmeņa tanks iegūst ievērojamu lielgabala stabilizāciju, samazinot izkliedi kustībā vai torņa/korpusa pagrieziena laikā. Efekts tiek noņemts pēc šāviena."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Šis tanks ir aprīkots ar raķešu palaišanas iekārtu, kas uzstādīta lielgabala maskā. Aktivizējiet spēju pārslēgties uz sekundārā ieroča tēmēkli un pēc tam ar šāviena pogu izšaujiet nevadāmu HE raķeti."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Katru reizi, kad trāpi redzamam ienaidniekam ar lādiņu, tu iegūsti pārlādes efektivitātes līmeni, īslaicīgi palielinot lielgabala pārlādes ātrumu. Līmeņi uzkrājas ar katru trāpījumu, un ienaidnieka tanka iznīcināšana ar lādiņu piešķir papildu pārlādes efektivitātes līmeņus."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Šī tanka Ārējais munīcijas padeves modulis ļauj tam izšaut jaudīgus viengabala šāviņus ar pastiprinātu lādiņu, kas nodara lielākus bojājumus. Kamēr modulis ir aktīvs, tas arī samazina mobilitāti un šaušanas ātrumu."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Ja lielgabals ir ielādēts, vari sākt uzkarsēt nākamo šāvienu. Jo augstāks uzkarsēšanas līmenis, jo lielāks bonuss vidējiem bojājumiem. Uzkarsēšanas laikā nevar mainīt lādiņus. Sasniedzot maksimālo uzkarsēšanas līmeni, sākas atskaite. Ja neizšausi līdz tās beigām, vairākas sekundes nevarēsi šaut."
@@ -340,6 +406,15 @@ msgstr "Laika gaitā sistēma automātiski uzkrāj uzlādi, kas tiek daļēji pa
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Šķidrās degvielas pastiprinātāji nodrošina dzinēja jaudas pieaugumu, ļaujot iegūt pozicionālu priekšrocību kaujas laukā, bet ierobežo tanka atpakaļgaitas un pagriešanās ātrumu. Tos var ieslēgt vai izslēgt jebkurā laikā, izņemot pēc atkārtotas aktivizācijas robežas sasniegšanas. Pastiprinātāji darbības laikā uzkarst un kļūst nepieejami, līdz atdziest, kas nozīmē, ka tos nevar izmantot nepārtraukti—pārsniedzot kritisko uzkarsēšanas līmeni, tie uz laiku pilnībā izslēdzas. Plāno savas darbības, lai netiktu pārsteigts nesagatavots."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Trāpot redzamam pretinieka tankam ar šāviņu, tiek noregulēts nākamā šāviņa degļa iestatījums. Ja pirmais šāviens caursita pretinieka bruņas, nākamā šāviena bojājumi tiek palielināti. Ja ne, tiek palielināta nākamā šāviena cauršaušanas spēja."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus lādiņa parametrus. Komplektācija parāda, kurus parametrus ietekmēs pārslēgšanās starp šaušanas režīmiem."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Uzlabota optiskā ierīce palielina jūsu redzamības rādiusu un uzlabo kustībā esošu un aiz lapotnes paslēptu tanku atklāšanu. Aktivizējot to, tā skenē šauru sektoru jūsu tanka priekšā, atklājot noslēptus mērķus, pirms sākas atdzišanas periods. Ja tā atklāj iepriekš neatklātu pretinieku, jūs arī nekavējoties kļūstat pamanīts. Skenēšanu varat manuāli apturēt pēc īsas aizkaves."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Cietā kurināmā paātrinātāji, kas uz dažām sekundēm uzlabo tanka paātrinājumu, mobilitāti un manevrētspēju. Atšķirībā no parastajiem reaktīvajiem pastiprinātājiem kreisais un labais paātrinātājs var darboties neatkarīgi viens no otra, nodrošinot ātrāku korpusa pagriešanu un neierobežojot atpakaļgaitu. Tos var izmantot vairākas reizes kaujā, taču pirms atkārtotas aktivizēšanas nepieciešama atdzišana."
 
@@ -363,6 +438,18 @@ msgstr "Šī mehāniskā modifikācija būtiski palielina tanka paātrinājumu, 
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Visas norādītās vērtības ir maksimāli iespējamās šim tankam. Aprīkojums, direktīvas un patēriņa priekšmeti var mainīt šīs vērtības, taču šeit šīs izmaiņas nav atspoguļotas."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibrējama AP lādiņš"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibrējams APCR lādiņš"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibrējams HE lādiņš"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibrējams HEAT lādiņš"
 
 msgid "characteristics/templates/upTo"
 msgstr "Līdz %(value)%s"

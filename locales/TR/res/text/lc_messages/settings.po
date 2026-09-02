@@ -46,6 +46,15 @@ msgstr "Haritalarda cisim tahribatının daha detaylı ve gerçekçi işlenmesin
 msgid "HAVOK_ENABLED/warning"
 msgstr "Ayar eğer mevcut savaşta kapalıysa bir sonraki savaşta uygulanacaktır."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Geliştirilmiş Görsel Efektler"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Geliştirilmiş görsel efektleri etkinleştirir. Bu seçeneği kapatmak standart efektlere döndürür, bu da oyun performansını iyileştirebilir."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Ayar eğer mevcut savaşta kapalıysa bir sonraki savaşta uygulanacaktır."
+
 msgid "LANGUAGE_CODE"
 msgstr "tr"
 
@@ -175,11 +184,11 @@ msgstr "Palet ve tekerlek izlerini aç"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Yerde palet ve tekerlek izlerini gösterir.\n\nBasitleştirilmiş Grafikler ve Düşük Çıkartma Kalitesinde geçerli değildi."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Keskin Nişancı modunda 3B eklentileri sakla"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efekt ve 3B Eklenti Görünürlüğü"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Keskin Nişancı modunda top nişangâhında araçların 3B eklentileri geçici olarak gizler.\n\nGörsel kalabalığı azaltır, nişan alma hassasiyetini iyileştirir."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Nişan alırken görsel engellemeleri azaltmak için ekranın ortasına yakın efektlerin ve 3B eklentilerin görünürlüğünü ayarlar. 3B eklenti görünürlüğü sadece Keskin Nişancı modunda ayarlanır.\n\nDüşük değerler daha yüksek nişan alma netliği amacıyla efektleri ve 3B eklentileri saydamlaştırır."
 
 msgid "WATER_QUALITY"
 msgstr "Su Kalitesi"
@@ -1995,6 +2004,15 @@ msgstr "Kip:"
 
 msgid "screenMode/windowed"
 msgstr "Pencereli"
+
+msgid "showPrebattleHighlights"
+msgstr "Işıldağı Etkinleştir"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Savaş öncesi geri sayım sırasında görsel olarak çarpıcı tank seçenekleri gösterir.\n\nBu parametreyi kapatmak oyun performansını iyileştirebilir."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Ayar mevcut savaş için kapalıysa bir sonrakinde açılacaktır."
 
 msgid "smoothing/description"
 msgstr "İnce çizgilerin ve oyun alanındaki oyun cisimlerinin kenarlarının ek işlenme derecesini belirler. Örtüşme etkisini en aza indirir. Cisimlerin kenarları daha doğal görünür."

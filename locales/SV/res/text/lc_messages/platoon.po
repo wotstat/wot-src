@@ -130,6 +130,9 @@ msgstr "Du kan inte skapa eller gå med i plutoner eftersom du inte har en gilti
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "När kvalet är över blir plutoner med 2 eller 7 spelare tillgängliga."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "När kvalet är över blir tvåspelarplutoner tillgängliga."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Kan inte skapa en pluton."
 
@@ -141,6 +144,9 @@ msgstr "Skapa en pluton eller gå med i en existerande. Plutoner i Pansarstorm k
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Skapa en pluton eller gå med i en existerande. Plutoner i Pansarstorm kan bara bestå av 2."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Skapa en taktiskt enhet med 2 eller 3 spelare för samarbetsspel.\n• Spellägen: Härjning\n• Stridstyper: Pansarjakt, Kontrollstrid."
@@ -264,12 +270,6 @@ msgstr "Plutonen innehåller maximalt antal tunga stridsvagnar"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Plutonen innehåller maximalt antal medeltunga stridsvagnar"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Plutonen innehåller maximalt antal lätta stridsvagnar"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Plutonen innehåller maximalt antal pansarbilar"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Plutonen innehåller maximalt antal lätta stridsvagnar"

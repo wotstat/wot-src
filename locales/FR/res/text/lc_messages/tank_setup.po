@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "aux points de structure du véhicule"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "à la vitesse de rotation de la tourelle ou à la vitesse de pivot du canon pour les véhicules à casemate immobile"
+msgstr "à la vitesse de pivot du canon"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "à la vitesse de rotation de la tourelle"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "aux points de structure du véhicule"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "à la vitesse de rotation de la tourelle ou la vitesse de pivot du canon pour les véhicules à casemate immobile"
+msgstr "à la vitesse de pivot du canon"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "à la vitesse de rotation de la tourelle"
@@ -2100,6 +2100,51 @@ msgstr " et "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Le mode Alimentation en munitions externe du véhicule permet d'utiliser des obus aux dégâts accrus."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Valeurs de base en mode Standard."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Valeurs modifiées en mode Alimentation en munitions externe."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Paramètres de base pour les tirs de charge complète"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Paramètres pour les tirs de charge unique"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Paramètres de base pour les tirs de charge complète"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Normal"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Paramètres pour les tirs de charge unique"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "En mode Calibré, ce type d'obus est efficace contre le blindage incliné."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant le tir."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "En mode Standard, ce type d'obus est efficace contre le blindage sans protections."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Mode standard"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Mode Calibré"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "En mode Calibré, ce type d'obus peut pénétrer les protections."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "En mode Standard, ce type d'obus est efficace contre le blindage vertical."
 
 msgid "tooltips/specializationDesc"
 msgstr "L'équipement standard de la catégorie %(spec)s sera plus efficace s'il est installé dans cet emplacement. L'équipement des autres catégories n'apporteront qu'un bonus standard."

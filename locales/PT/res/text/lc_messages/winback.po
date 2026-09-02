@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "FECHAR"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Afirmativo!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "O Aquecimento vai lembrá-lo dos fundamentos do jogo. As batalhas são disputadas contra veículos controlados por IA e os resultados não contam para as suas estatísticas. Pode sair do Aquecimento a qualquer momento para prosseguir para as Batalhas Aleatórias."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Aquecimento"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Conclua missões, termine as Fases de Progressão do De Volta À Acção e receba recompensas valiosas no jogo. Cada Missão Padrão, Premium ou Bónus concluída conta para a recompensa. As missões podem ser concluídas no Aquecimento e em Baralhas Aleatórias."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Conclua missões, termine as Fases de Progressão do De Volta À Acção e receba recompensas valiosas. Durante o Passe de Batalha, os pontos do Passe de Batalha serão adicionados à lista de recompensas. As missões podem ser concluídas no Aquecimento e em Baralhas Aleatórias."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "De Volta â Acção"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Pode ganhar veículos de aluguer Premium de Nível VIII, veículos pesquisáveis de Nível VI e descontos na pesquisa e compra de veículos como recompensa. Após concluir a Progressão, irá receber a recompensa principal."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Recompensas"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "DE VOLTA À ACÇÃO"
-
 msgid "mainRewardTooltip/description"
 msgstr "Após concluir a Progressão do De Volta À Acção, irá receber:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Recompensa Principal"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Desconto na pesquisa e aquisição um veículo de Nível %(level)s"
+msgstr "Desconto na pesquisa e aquisição de um veículo de Nível {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Batalhas contra veículos controlados por IA que não contam para as suas estatísticas. Para vencer, tem de capturar a base inimiga ou destruir todos os veículos inimigos. As batalhas são travadas no formato 15v15 nos Níveis VI–XI e no formato 10v10 nos Níveis I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Aquecimento"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Qualquer veículo pesquisável de Nível %(level)s pode ser selecionado. O veículo vem com módulos pesquisados, uma tripulação e um lugar de Garagem."
+msgstr "Qualquer veículo pesquisável de Nível {{level}} pode ser selecionado. O veículo vem com módulos pesquisados, uma tripulação e um lugar de Garagem."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Veículo de Nível %(level)s"
+msgstr "Veículo Nível {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Um desconto de %(researchDiscount)s na pesquisa e um desconto de %(purchaseDiscount)s na aquisição de um veículo de Nível %(level)s. Qualquer veículo pesquisável pode ser seleccionado."
+msgstr "Um desconto de {{researchDiscount}} na pesquisa e um desconto de {{purchaseDiscount}} na aquisição de um veículo de Nível {{level}}. Qualquer veículo pesquisável pode ser selecionado."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "O desconto na {whiteSpanish_Open} pesquisa{whiteSpanish_Close} é adicionado ao desconto dos fragmentos de diagramas do veículo. O desconto mais alto disponível da {whiteSpanish_Open}pesquisa{whiteSpanish_Close} é aplicado."
+msgstr "O desconto na {{@ style (color $color)}}pesquisa{{/}} é adicionado ao desconto dos fragmentos de diagramas do veículo. O desconto mais alto disponível na {{@ style (color $color)}}aquisição{{/}} é aplicado."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Desconto num veículo de Nível %(level)s"
+msgstr "Desconto em Veículo de Nível {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Afirmativo!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "O Aquecimento vai lembrá-lo dos fundamentos do jogo. As batalhas são disputadas contra veículos controlados por IA e os resultados não contam para as suas estatísticas. Pode sair do Aquecimento a qualquer momento para prosseguir para as Batalhas Aleatórias."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Aquecimento"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Conclua missões, termine as Fases de Progressão do De Volta à Ação e receba recompensas valiosas. Durante o Passe de Batalha, os Pontos do Passe de Batalha serão adicionados à lista de recompensas. As missões podem ser concluídas no Aquecimento e em Baralhas Aleatórias."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Conclua missões, termine as Fases de Progressão do De Volta à Ação e receba recompensas valiosas no jogo. Cada Missão Padrão, Premium ou Bónus concluída conta para a recompensa. As missões podem ser concluídas no Aquecimento e em Baralhas Aleatórias."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "De Volta â Ação"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Pode ganhar veículos de aluguer Premium de Nível VIII, veículos pesquisáveis de Nível VI e descontos na pesquisa e compra de veículos como recompensa. Após concluir a Progressão, irá receber a recompensa principal."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Recompensas"
+
+msgid "umgIntroView/title"
+msgstr "DE VOLTA Â AÇÃO"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "O desconto na %(research)s é adicionado ao desconto dos fragmentos de diagramas do veículo. O desconto mais alto disponível da %(purchase)s é aplicado."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Sair do Aquecimento?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Batalhas restantes: %(battlesCount)s"
+msgstr "Batalhas restantes: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Batalhas contra veículos controlados por IA que não contam para as suas estatísticas."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Também recebeu:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "Um desconto de %(expDiscount)s na pesquisa e um desconto de %(priceDiscount)s na aquisição de um veículo de Nível %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Um desconto de {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} na pesquisa e um desconto de {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} na aquisição de um veículo de Nível {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Veículo de Nível %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Veículo Nível {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Desconto num veículo de Nível %(level)s"
+msgstr "Desconto num veículo de Nível {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Por concluir uma série de Missões Diárias"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "PROGRESSÃO CONCLUÍDA"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "Um desconto de %(expDiscount)s na pesquisa\ne um deconto de %(priceDiscount)s na aquisição"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Um desconto de {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} na pesquisa e um desconto de {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} na aquisição"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Na Garagem"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Dias de aluguer: %(days)s"
+msgstr "Dias de aluguer: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Desconto por pesquisar e adquirir"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Seleccionar Mais Tarde"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Limpar filtro"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Desconto do Veículo"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Veículo de Nível %(vehicleLevel)s"
+msgstr "Veículo de Nível {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Afirmativo!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Incapaz de Abrir a Selecção de Recompensa"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Pesquisou todos os veículos de Nível %(vehicleLevel)s. Pode agora receber fragmentos de diagramas nacionais como recompensa."
+msgstr "Pesquisou todos os veículos de Nível {{vehicleLevel}}. Pode agora receber fragmentos de diagramas nacionais como recompensa."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Pesquisa por nome"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Mostrados:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Definido Por Defeito"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Recompensas seleccionadas: %(amountRewards)s %(infoIcon)s"
+msgstr "Recompensas selecionadas: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Seleccione recompensas das categorias fornecidas"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nada encontrado. Altere as configurações do filtro ou reinicia-as para o padrão."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s Fragmento de diagrama nacional{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} fragmento de diagrama Nacional{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% desconto na pesquisa e %(priceDiscount)s% desconto na aquisição)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% de desconto na pesquisa e {{priceDiscount}}% de desconto na aquisição)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Desconto num veículo de Nível %(level)s"
+msgstr "Desconto em Veículo de Nível {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Todos os módulos pesquisados, tripulação e um lugar de Garagem)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Todos os módulos pesquisados, tripulação e um espaço na garagem)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Veículo de Nível %(level)s"
+msgstr "Veículo Nível {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Clique no botão \"Reclamar\" para receber as recompensas seleccionadas."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Recompensa seleccionadas: %(amountRewards)s"
+msgstr "Recompensas selecionadas: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Adquirir"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "SELECCIONE A SUA RECOMPENSA"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "%(type)s{cream_Open}%(level)s{cream_Close} %(name)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "antitanque"

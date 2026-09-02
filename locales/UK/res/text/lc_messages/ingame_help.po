@@ -232,11 +232,35 @@ msgstr "Ця гармата може стріляти безперервно б�
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Автоматична гармата із системою контролю нагріву"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Механізм миттєво скорочує час перезаряджання снаряда до короткого фіксованого значення. Кожне використання споживає один заряд на снаряд, а заряди з часом відновлюються — швидше, коли магазин повний. На початку бою доступна визначена кількість зарядів."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Механізм форсованого заряджання"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Цю машину оснащено ракетною установкою, вмонтованою в маску гармати. Щоб перемкнутися на ракетний приціл, натисніть:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Спарена ракетна установка"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Щоб запустити ракету, натисніть кнопку пострілу в режимі ракетного прицілу:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Спарена ракетна установка"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Кожне влучення по машині суперника дає рівень ефективності перезаряджання, тимчасово пришвидшуючи заряджання гармати. Рівні накопичуються з кожним влученням.\nЗнищення машини дає додаткові рівні ефективності перезаряджання."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Напівавтоматична боєукладка"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Модуль зовнішньої подачі боєприпасів цієї машини дозволяє здійснювати одиночні постріли підвищеної потужності, що завдають збільшеної шкоди. Активація модуля зменшує рухливість і швидкострільність."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Режим зовнішньої подачі боєприпасів"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Якщо гармата заряджена, можна починати нагрів наступного пострілу. Що вищий рівень нагріву, то більшим буде бонус до середньої шкоди.\nЩоб розпочати процес нагріву, натисніть на:"
@@ -345,6 +369,30 @@ msgstr "Разом з активацією реактивних прискорю
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Переваги та недоліки"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "У разі влучення снарядом у видиму машину супротивника коригується підривач наступного снаряда. Якщо перший постріл пробив броню, шкода від наступного зростає. Якщо ж пробиття не було, збільшується його бронепробиття."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Налаштовуваний підривач"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Гармата машини оснащена спеціальними пристроями, що дозволяють змінювати деякі параметри снарядів перед пострілом. Параметри для різних снарядів відрізняються залежно від вибраного режиму, і кожен режим дозволяє швидко адаптуватися до різних бойових ситуацій."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Система калібрування снарядів"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Удосконалений оптичний прилад збільшує ваш огляд і поліпшує виявлення рухомої та прихованої за рослинністю техніки. Після активації сканує вузький сектор перед вашою машиною, виявляючи приховані цілі, після чого починається перезаряджання."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Інфрачервона система пошуку та супроводу (ІСПС)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "У разі виявлення супротивника приладом ви також негайно стаєте виявленими на певний час. Ви та виявлені вами супротивники миттєво отримуєте сповіщення. Ви можете зупинити сканування вручну, і після короткої затримки почнеться перезаряджання приладу."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Інфрачервона система пошуку та супроводу (ІСПС)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість на кілька секунд. Лівий і правий прискорювачі можуть працювати окремо для швидшого повороту корпусу й не обмежують швидкість заднього ходу."

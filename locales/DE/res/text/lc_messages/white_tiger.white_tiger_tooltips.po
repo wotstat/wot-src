@@ -1,0 +1,170 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Alle Abschnitte sind abgeschlossen!"
+
+msgid "bannerTooltip/description"
+msgstr "Der Blitzträger gegen die Windhunde: asymmetrische 1v6-Gefechte in angepassten Fahrzeugen. Verdienen Sie sich einzigartige Anpassungselemente und andere wertvolle Belohnungen."
+
+msgid "bannerTooltip/expiryDate/frozen"
+msgstr "Waffenruhe"
+
+msgid "bannerTooltip/expiryDate/inAnnouncement"
+msgstr "Aktivitätszeitraum des Waffenträgers:"
+
+msgid "bannerTooltip/expiryDate/technicalPause"
+msgstr "Der Modus ist derzeit nicht verfügbar."
+
+msgid "bannerTooltip/header"
+msgstr "Waffenträger: Genesis"
+
+msgid "bannerTooltip/mode"
+msgstr "MODUS"
+
+msgid "bannerTooltip/modeHint"
+msgstr "– Umschalten auf anderen Spielmodus"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Die Leistung Ihres Computers reicht für diesen Modus nicht aus. Es können Probleme bei Grafik und Fahrzeugbewegung auftreten. Clientabstürze sind ebenfalls wahrscheinlich."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "Versuchen Sie bei unzureichender Leistung die Grafikeinstellungen zu reduzieren."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Dieser Modus verlangt eine hohe Computerleistung. Es können Probleme beim Laden von Karten, der Grafik und der Fahrzeugbewegung auftreten. Reicht die Leistung nicht aus, sollten Sie die Grafikqualität in den Einstellungen heruntersetzen."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Geringe Leistung"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Der Modus verlangt eine hohe Computerleistung."
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Verringerte Leistung"
+
+msgid "bannerTooltip/year"
+msgstr "2026"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Sie sind bereits befreundet."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Warte auf Bestätigung der Freundschaftsanfrage."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Spieler von der Ignorierenliste nehmen."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Zur Freundesliste hinzufügen"
+
+msgid "battleResult/interaction/menu"
+msgstr "Klicken, um das Interaktionsmenü für diesen Spieler zu öffnen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Zum Zug hinzufügen"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spieler ist bereits im Zug."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Einladung wurde bereits versendet."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Nur der Zugkommandant kann Spieler in einen Zug einladen."
+
+msgid "dailyQuests/badgeStatus"
+msgstr "%(icon) Verfügbar bis zum %(date)s"
+
+msgid "dailyQuests/rewards"
+msgstr "Belohnungen:"
+
+msgid "dailyQuests/status"
+msgstr "Neuer Tagesauftrag in %(icon) %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Wählen Sie ein verfügbares Fahrzeug aus, um das Gefecht zu betreten."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Gefechte im ausgewählten Schwierigkeitsgrad/Modus sind aus technischen Gründen vorübergehend nicht verfügbar."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Warten Sie, bis der Zug aus dem vorherigen Gefecht zurückkehrt, um ein neues Gefecht zu betreten."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Schwierigkeitsgrad für den Zug nicht kompatibel."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nicht verfügbar"
+
+msgid "metaWidget/body"
+msgstr "Klicken Sie, um alle Ziele und Belohnungen des Events zu sehen."
+
+msgid "metaWidget/header"
+msgstr "Belohnungspfad"
+
+msgid "shopWidget/body"
+msgstr "Klicken Sie, um einen besonderen Bereich des Nachschubs mit exklusiven Paketen für das Event zu öffnen."
+
+msgid "shopWidget/header"
+msgstr "Schlüssel für den Waffenträger und mehr"
+
+msgid "teamList/actions/body"
+msgstr "Schnellaktionen zum Erstellen eines Zugs und hinzufügen/entfernen von Freunden."
+
+msgid "teamList/actions/header"
+msgstr "Schnellaktionen"
+
+msgid "teamList/damage/body"
+msgstr "Nach verursachtem Schaden sortieren"
+
+msgid "teamList/damage/header"
+msgstr "Verursachter Schaden"
+
+msgid "teamList/keys/body"
+msgstr "Nach verdienten Schlüsseln sortieren (Der angezeigte Wert zählt keine Bonus-Schlüssel, die für den Abschluss des entsprechenden Tagesauftrags erhalten wurden.)"
+
+msgid "teamList/keys/header"
+msgstr "Verdiente Schlüssel"
+
+msgid "teamList/kills/body"
+msgstr "Nach Anzahl zerstörter gegnerischer Fahrzeuge sortieren"
+
+msgid "teamList/kills/header"
+msgstr "Zerstörte gegnerische Fahrzeuge"
+
+msgid "teamList/name/header"
+msgstr "Spielername"
+
+msgid "teamList/place/body"
+msgstr "Nach Position im Team sortieren"
+
+msgid "teamList/place/header"
+msgstr "Position im Team"
+
+msgid "teamList/squad/header"
+msgstr "Ein Zug ist eine taktische Einheit, mit der Spieler im Gefecht kooperieren können."
+
+msgid "teamList/vehicle/body"
+msgstr "Nach Fahrzeugtyp und -namen sortieren"
+
+msgid "teamList/vehicle/header"
+msgstr "Fahrzeuge"
+
+msgid "vehicle/eventBonus"
+msgstr "Bonus-Schlüssel können durch Abschluss eines Tagesauftrags in diesem Fahrzeug erhalten werden."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Geringe Besatzungseffizienz"
+
+msgid "vehicle/rentState"
+msgstr "Gesperrt"

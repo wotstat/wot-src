@@ -1,0 +1,60 @@
+import { x as s, j as e } from "../../../../chunks/vendor.js";
+import {
+  i as a,
+  a3 as o,
+  a4 as t,
+  F as i,
+  e as n,
+  C as c,
+  b as l,
+  U as d,
+} from "../../../../chunks/lib.js";
+/* empty css                       */ const [p, r] = a("WinbackLeaveModePopoverViewModel")(
+    ({ observableModel: s }) => ({ ...s.primitives(["battlesCount"]) }),
+    ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClick") }),
+  ),
+  b = "App_5ad914ec",
+  m = "App_header_1d0278d1",
+  j = "App_title_7858e66b",
+  x = "App_info_84a9d944",
+  _ = "App_description_bd5cc206",
+  h = "App_battlesLeft_43359d1b",
+  k = "App_battlesCount_edd27fd7",
+  u = "App_button_db861d1e",
+  v = s(function () {
+    const { model: s, controls: a } = r();
+    return (
+      o(),
+      e.jsx(t, {
+        children: e.jsxs("div", {
+          className: b,
+          children: [
+            e.jsxs("div", {
+              className: m,
+              children: [
+                e.jsx(i, { className: j, path: "winback.winbackPopover.title" }),
+                e.jsx(n, {
+                  contentId: R.views.mono.winback.tooltips.mode_info_tooltip("resId"),
+                  children: e.jsx("div", { className: x }),
+                }),
+              ],
+            }),
+            e.jsx(i, { className: _, path: "winback.winbackPopover.description" }),
+            e.jsx(i, {
+              className: h,
+              path: "winback.winbackPopover.battlesCount",
+              params: {
+                battlesCount: e.jsx("span", { className: k, children: s.battlesCount.get() }),
+              },
+            }),
+            e.jsx(c, {
+              mixClass: u,
+              onClick: a.close,
+              children: e.jsx(i, { path: "winback.winbackPopover.turnOff" }),
+            }),
+          ],
+        }),
+      })
+    );
+  });
+l(e.jsx(p, { children: e.jsx(d, { children: e.jsx(v, {}) }) }), { immediateLayout: !1 });

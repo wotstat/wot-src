@@ -880,6 +880,12 @@ msgstr "Papildiniai gruntui užkabinti 3 klasė"
 msgid "gun_balancing_1/name"
 msgstr "Ginklo balansavimas (1 tipas)"
 
+msgid "gun_balancing_2/name"
+msgstr "Ginklo balansavimas (2 tipas)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Pabūklo vamzdžio modifikacija (1 tipas)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Pagerinta važiuoklė (1 tipas)"
 msgid "improved_suspension_2/name"
 msgstr "Pagerinta važiuoklė (2 tipas)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Pagerinta bokštelio pavara (1 tipas)"
+
 msgid "inspire/longDescr"
 msgstr "Pagerina mašinos ir visų aplink tam tikru atstumu esančių sąjungininkų mašinų efektyvumą, pridedant % bonusą pagrindinei kiekvieno įgulos nario specializacijai. Žaidėjas, kuris panaudoja, gauna didesnį efektą."
 
@@ -1294,6 +1303,9 @@ msgstr "Mobilumo padidinimo sistema T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Mobilumo padidinimo sistema T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Antgalio blyksnio slopintuvas (1 tipas)"
+
 msgid "nitro/battleDescr"
 msgstr "Padidina jūsų mašinos variklio galią %(enginePowerFactor)s ir maksimalų greitį %(maxSpeedFactor)s kartus %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Per {colorTagOpen}%(delay)d sekundes{colorTagClose} pasirinkta teritori
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artilerijos smūgis"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Po kelių sekundžių Apšviečiantis blyksnis apšviečia pasirinktą vietą. Joje esančios mašinos visada aptiktos ir gauna daugiau žalos.\nApžvalgos postą galima vėl užgrobti po kelių minučių."
+
+msgid "poi_illumination_flare/name"
+msgstr "Apšviečiantis blyksnis"
 
 msgid "poi_radar/descr"
 msgstr "Aktyvavus, visos mašinos liks matomos {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Išlengvintas korpusas"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Išlengvintas\nkorpusas"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antirefleksinė optikos danga"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Atspindžius sugerianti priekinių žibintų danga"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antirefleksinė\noptikos danga"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Atspindžius sugerianti\npriekinių žibintų danga"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Išorinė stebėjimo sistema"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrinė periskopo pavara"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Išorinė stebėjimo\nsistema"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrinė\nperiskopo pavara"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoraminis tripleksas"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoraminis\ntripleksas"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoraminis tripleksas"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Siaurų kampų stebėjimo įrenginys"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Siaurų kampų\nstebėjimo įrenginys"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Naujos taikymosi pavaros"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Naujos taikymosi pavaros"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrinė periskopo pavara"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrinė\nperiskopo pavara"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Bendras patvarumo padidinimas"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Bendras patvarumo\npadidinimas"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Atspindžius sugerianti priekinių žibintų danga"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Atspindžius sugerianti\npriekinių žibintų danga"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Išmetimo sureguliavimas"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Išmetimo sureguliavimas"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Naujai suvesta elektronika"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Naujai suvesta\nelektronika"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Pagerinti ginklo graižtvai"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Pagerinti\nginklo graižtvai"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Jautri optika"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Jautri optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Sustiprintas pagrindinis karkasas"
@@ -2424,6 +2490,9 @@ msgstr "Elektros iškrova"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Sukuria teritoriją, kurioje dažnai smogia %(thunderCount)s elektros iškrovos. Kiekviena iškrova padaro {whiteSpanish_Open}%(damage)s žalos{whiteSpanish_Close} mašinai ir laikinai sumažina priešo mašinos mobilumą gebėjimo veikimo lauke.\n\n*Pirmoji iškrova įvyksta praėjus %(delay)s s nuo gebėjimo aktyvavimo. Jo neigiamą efektą galima sumažinti su remonto komplektu."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Pakeistos važiuoklės detalės (1 tipas)"
 
 msgid "trappoint/battleDescr"
 msgstr "%(duration)s s sukuria zoną, kuri visoms viduje esančioms priešų mašinoms %(vehicleMaxSpeed)s sumažina mobilumą ir %(gunReloadTime)s padidina ginklo užsitaisymo ir taikymosi laiką."

@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "SLUITEN"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Begrepen!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Warming-up neemt je mee terug naar de beginselen van het spel. Je neemt het op tegen AI-bestuurde voertuigen en de resultaten tellen niet mee voor je statistieken. Je kunt op ieder moment Warming-up verlaten om Willekeurige gevechten te gaan spelen."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Warming-up"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Voltooi missies, rond de \"Weer strijdvaardig\" progressiestadia af, en ontvang waardevolle in-game beloningen. Alle voltooide standaard, Premium en bonusmissies tellen mee. De missies kunnen in Warming-up en Willekeurige gevechten worden voltooid."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Voltooi missies, rond de \"Weer strijdvaardig\" progressiestadia af, en ontvang waardevolle beloningen. Tijdens Vechtpas zijn er ook Vechtpaspunten te verdienen. De missies kunnen in Warming-up en Willekeurige gevechten worden voltooid."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Weer strijdvaardig"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Je kunt als beloning niveau VIII Premium huurvoertuigen, niveau VI onderzoekbare voertuigen, en kortingen op het onderzoeken en kopen van voertuigen verdienen. Na het voltooien van de progressie ontvang je de hoofdbeloning."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Beloningen"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "WEER STRIJDVAARDIG"
-
 msgid "mainRewardTooltip/description"
 msgstr "Na voltooiing van de \"Weer strijdvaardig\" progressie ontvang je:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Hoofdbeloning"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Korting op het onderzoeken en kopen van een niveau %(level)s voertuig"
+msgstr "Korting op het onderzoeken en kopen van een niveau {{level}} voertuig"
 
 msgid "modeInfoTooltip/description"
 msgstr "Gevechten tegen AI-bestuurde voertuigen die niet meetellen voor je statistieken. Om te winnen, moet je de vijandelijke basis veroveren of alle vijandelijke voertuigen vernietigen. De gevechten zijn 15-tegen-15 voor niveau VI–XI, en 10-tegen-10 voor niveau I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Warming-up"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Er kan een willekeurig onderzoekbaar niveau %(level)s voertuig worden geselecteerd. Het voertuig komt samen met onderzochte modules, een bemanning en een garageplek."
+msgstr "Er kan een willekeurig onderzoekbaar niveau {{level}} voertuig worden geselecteerd. Het voertuig komt samen met onderzochte modules, een bemanning en een garageplek."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Niveau %(level)s voertuig"
+msgstr "Niveau {{level}} voertuig"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Een korting van %(researchDiscount)s op het onderzoeken en een korting van %(purchaseDiscount)s op het kopen van een niveau %(level)s voertuig. Elk onderzoekbaar voertuig kan worden geselecteerd."
+msgstr "Een korting van {{researchDiscount}} op het onderzoeken en een korting van {{purchaseDiscount}} op het kopen van een niveau {{level}} voertuig. Elk onderzoekbaar voertuig kan worden geselecteerd."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "De korting op het {whiteSpanish_Open}onderzoeken{whiteSpanish_Close} wordt toegevoegd aan de korting van blauwdrukfragmenten. De hoogst beschikbare {whiteSpanish_Open}aanschafkorting{whiteSpanish_Close} wordt toegepast."
+msgstr "De korting op het {{@ style (color $color)}}onderzoeken{{/}} wordt toegevoegd aan de korting van blauwdrukfragmenten. De hoogst beschikbare {{@ style (color $color)}}aanschafkorting{{/}} wordt toegepast."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Korting op een niveau %(level)s voertuig"
+msgstr "Korting op een niveau {{level}} voertuig"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Begrepen!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Warming-up neemt je mee terug naar de beginselen van het spel. Je neemt het op tegen AI-bestuurde voertuigen en de resultaten tellen niet mee voor je statistieken. Je kunt op ieder moment Warming-up verlaten om Willekeurige gevechten te gaan spelen."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Warming-up"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Voltooi missies, rond de \"Weer strijdvaardig\" progressiestadia af, en ontvang waardevolle beloningen. Tijdens Vechtpas zijn er ook Vechtpaspunten te verdienen. De missies kunnen in Warming-up en Willekeurige gevechten worden voltooid."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Voltooi missies, rond de \"Weer strijdvaardig\" progressiestadia af, en ontvang waardevolle in-game beloningen. Alle voltooide standaard, Premium en bonusmissies tellen mee. De missies kunnen in Warming-up en Willekeurige gevechten worden voltooid."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Weer strijdvaardig"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Je kunt als beloning niveau VIII Premium huurvoertuigen, niveau VI onderzoekbare voertuigen, en kortingen op het onderzoeken en kopen van voertuigen verdienen. Na het voltooien van de progressie ontvang je de hoofdbeloning."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Beloningen"
+
+msgid "umgIntroView/title"
+msgstr "WEER STRIJDVAARDIG"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "De korting op het %(research)s wordt toegevoegd aan de korting van blauwdrukfragmenten. De hoogst beschikbare %(purchase)s wordt toegepast."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Warming-up verlaten?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Resterende gevechten: %(battlesCount)s"
+msgstr "Resterende gevechten: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Gevechten tegen AI-bestuurde voertuigen die niet meetellen voor je statistieken."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Je hebt ook ontvangen:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "Een korting van %(expDiscount)s op het onderzoeken en een korting van %(priceDiscount)s op het kopen van een niveau %(level)s voertuig"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} korting op het onderzoeken en {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} korting op het kopen van een niveau {{level}} voertuig"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Niveau %(level)s voertuig"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Niveau {{level}} voertuig"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Korting op een niveau %(level)s voertuig"
+msgstr "Korting op een niveau {{level}} voertuig"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Voor het voltooien van een reeks dagelijkse missies"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "PROGRESSIE VOLTOOID"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "Een korting van %(expDiscount)s op het onderzoeken\nen een korting van %(priceDiscount)s op het kopen"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} korting op het onderzoeken en {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} korting op het kopen"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "In de garage"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Dagen huur: %(days)s"
+msgstr "Huurdagen: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Korting op het onderzoeken en kopen"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Later selecteren"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Reset filter"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Voertuigkorting"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Niveau %(vehicleLevel)s voertuig"
+msgstr "Niveau {{vehicleLevel}} voertuig"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Begrepen!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Beloningselectie kan niet worden geopend"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Je hebt alle niveau %(vehicleLevel)s voertuigen al onderzocht. Je kunt als beloning nationale blauwdrukfragmenten ontvangen."
+msgstr "Je hebt alle niveau {{vehicleLevel}} voertuigen al onderzocht. Je kunt als beloning nationale blauwdrukfragmenten ontvangen."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Zoeken op naam"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Getoond:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Als standaard instellen"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Beloningen geselecteerd: %(amountRewards)s %(infoIcon)s"
+msgstr "Geselecteerde beloningen: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Selecteer beloningen uit de beschikbare categorieën"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Niets gevonden. Verander je filterinstellingen of reset ze naar standaard."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}Nationaal blauwdrukfragment x%(bluePrintsAmount)s{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nationaal blauwdrukfragment{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% korting op het onderzoeken en %(priceDiscount)s% korting op het kopen)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% korting op het onderzoeken en {{priceDiscount}}% korting op het kopen)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Korting op een niveau %(level)s voertuig"
+msgstr "Korting op een niveau {{level}} voertuig"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Alle onderzochte modules, een bemanning en een garageplek)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Alle onderzochte modules, bemanning en garageplek)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Niveau %(level)s voertuig"
+msgstr "Niveau {{level}} voertuig"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Klik op \"Ophalen\" om de geselecteerde beloningen te ontvangen."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Beloningen geselecteerd: %(amountRewards)s"
+msgstr "Geselecteerde beloningen: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Kopen"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "SELECTEER JE BELONING"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "tankjager"

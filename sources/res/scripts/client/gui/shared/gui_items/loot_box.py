@@ -11,20 +11,10 @@ from helpers import dependency
 from shared_utils import CONST_CONTAINER
 from skeletons.gui.game_control import ILootBoxSystemController
 if TYPE_CHECKING:
-    from typing import Dict, Optional
+    from typing import Dict, Optional, Tuple
 
 class NewYearLootBoxes(CONST_CONTAINER):
     PREMIUM = b'newYear_premium'
-    SPECIAL = b'newYear_special'
-    SPECIAL_AUTO = b'newYear_special_auto'
-    COMMON = b'newYear_usual'
-
-
-class NewYearCategories(CONST_CONTAINER):
-    NEWYEAR = b'NewYear'
-    CHRISTMAS = b'Christmas'
-    ORIENTAL = b'Oriental'
-    FAIRYTALE = b'Fairytale'
 
 
 class WTLootBoxes(CONST_CONTAINER):
@@ -42,17 +32,9 @@ class LunarNYLootBoxTypes(Enum):
 ALL_LUNAR_NY_LOOT_BOX_TYPES = (b'lunar_base', b'lunar_simple', b'lunar_special')
 LUNAR_NY_LOOT_BOXES_CATEGORIES = b'LunarNY'
 SENIORITY_AWARDS_LOOT_BOXES_TYPE = b'seniorityAwards'
-GUI_ORDER_NY = (
- NewYearLootBoxes.COMMON,
- NewYearLootBoxes.PREMIUM)
-CATEGORIES_GUI_ORDER_NY = (
- NewYearCategories.NEWYEAR,
- NewYearCategories.CHRISTMAS,
- NewYearCategories.ORIENTAL,
- NewYearCategories.FAIRYTALE)
 
 class LootBox(GUIItem):
-    __slots__ = (b'__id', b'__invCount', b'__isEnabled', b'__type', b'__category', b'__bonus', b'__historyName', b'__statsName', b'__guaranteedFrequency', b'__guaranteedFrequencyName', b'__probabilityBonusName', b'__probabilityBonusLimit')
+    __slots__ = (b'__id', b'__invCount', b'__isEnabled', b'__type', b'__category', b'__bonus', b'__historyName', b'__statsName', b'__guaranteedFrequency', b'__guaranteedFrequencyName', b'__probabilityBonusName', b'__probabilityBonusLimit', b'__rerollCurrency', b'__rerollPrices', b'__rerollMaxAttempts', b'__bonuses')
     __lootBoxSystem = dependency.descriptor(ILootBoxSystemController)
 
     def __init__(self, lootBoxID, lootBoxConfig, invCount):
@@ -96,7 +78,7 @@ class LootBox(GUIItem):
         return self.__category
 
     def isFree(self):
-        return self.__type == NewYearLootBoxes.COMMON
+        return self.__type != NewYearLootBoxes.PREMIUM
 
     def getBonusInfo(self):
         return self.__bonus
@@ -122,8 +104,23 @@ class LootBox(GUIItem):
     def getUseStats(self):
         return bool(self.__statsName)
 
+    def getRerollCurrency(self):
+        return self.__rerollCurrency
+
+    def getRerollPrices(self):
+        return self.__rerollPrices
+
+    def getRerollMaxAttempts(self):
+        return self.__rerollMaxAttempts
+
+    def isRerollable(self):
+        return self.__rerollMaxAttempts is not None
+
     def _compare(self, other):
         return cmp(self.getID(), other.getID())
+
+    def getBonuses(self):
+        return self.__bonuses
 
     def __updateByConfig(self, lootBoxConfig):
         self.__isEnabled = lootBoxConfig.get(b'enabled')
@@ -135,6 +132,8 @@ class LootBox(GUIItem):
         limitsConfig = lootBoxConfig.get(b'limits', {})
         self.__guaranteedFrequencyName, self.__guaranteedFrequency = self.__readFrequencyLimit(limitsConfig)
         self.__probabilityBonusName, self.__probabilityBonusLimit = self.__readProbabilityBonusLimit(limitsConfig)
+        self.__rerollCurrency, self.__rerollPrices, self.__rerollMaxAttempts = self.__readRerolls(lootBoxConfig.get(b'reroll'))
+        self.__bonuses = lootBoxConfig.get(b'bonus', {})
         return
 
     @staticmethod
@@ -142,6 +141,8 @@ class LootBox(GUIItem):
         for probabilityBonusName, limit in iteritems(limitsCfg):
             if b'useBonusProbabilityAfter' in limit:
                 return (probabilityBonusName, limit[b'useBonusProbabilityAfter'] + 1)
+            if b'guaranteedFrequency' in limit:
+                return (probabilityBonusName, limit[b'guaranteedFrequency'])
 
         return (None, 0)
 
@@ -152,3 +153,13 @@ class LootBox(GUIItem):
                 return (limitName, limit[b'guaranteedFrequency'])
 
         return (None, 0)
+
+    @staticmethod
+    def __readRerolls(rerollCfg):
+        if rerollCfg is None:
+            return (None, None, None)
+        else:
+            return (
+             rerollCfg[b'currency'],
+             tuple(rerollCfg[b'prices']),
+             rerollCfg[b'maxAttempts'])

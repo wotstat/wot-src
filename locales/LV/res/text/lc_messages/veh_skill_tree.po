@@ -298,8 +298,26 @@ msgstr "Palielina dzinēja jaudas pieaugumu, ko piešķir paātrinātāji, par {
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Palielina maksimālo reižu skaitu, cik reizes paātrinātāji var tikt izmantoti vienā cīņā, par {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Samazina sākotnējo atdzišanas laiku, pirms IRST var tikt izmantots, par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Samazina atdzišanas laiku, pēc kura IRST var atkal izmantot, par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Samazina laiku, cik ilgi jūsu tanks ir atklāts ienaidniekiem pēc to pamanīšanas ar IRST, par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Pagarina IRST skenēšanas ilgumu par {colorTagOpen}{value0} s{colorTagClose} un papildus sašaurina skenēšanas sektoru par {colorTagOpen}{value1} gr.{colorTagClose}, palielina tā redzamības diapazonu par {colorTagOpen}{value2}%{colorTagClose} un samazina kustīgu tanku maskēšanos par {colorTagOpen}{value3}%{colorTagClose} un lapotnē paslēptu tanku maskēšanos par {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Samazina apkalpes ievainojuma iespējamību, kad tanks tiek bojāts."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Palielina cauršaušanas spēju pēc necaursitoša trāpījuma par {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Palielina bojājumus pēc caursitoša trāpījuma par {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Samazina izkliedi, kad tavs lielgabals ir bojāts."
@@ -460,6 +478,18 @@ msgstr "Samazina pārlādes laiku starp čauliem lielgabala magazīnā."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Samazina iespēju, ka ienaidnieka tanki jūs pamanīs šāviena laikā."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Samazina uzlādes atdzišanas laiku, kad aptvere nav pilna, {colorTagOpen}par {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Samazina uzlādes atjaunošanās laiku, kad aptvere ir pilna, {colorTagOpen}par {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Samazina paātrināto čaulas ielādes laiku {colorTagOpen}vēl par {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Palielina kaujas sākumā pieejamo uzlāžu skaitu {colorTagOpen}par {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Samazina ieroča dzesēšanas aizkaves laiku par {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Samazina ieroča radīto siltuma daudzumu par {colorTagOpen}{value}%{col
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Palielina uzkarsētā ieroča dzesēšanas ātrumu par {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Samazina Koaksiālās nevadāmās raķetes pārlādēšanas laiku par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Samazina Koaksiālās nevadāmās raķetes pārlādēšanas laiku par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Samazina Koaksiālās nevadāmās raķetes pārlādēšanas laiku par {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Palielina raķešu radītos bojājumus par {colorTagOpen}{value} HP{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Palielina bojājumus, ko rada ne-HE čauli."
@@ -547,6 +589,18 @@ msgstr "Samazina lielgabala izkliedi par {colorTagOpen}{value}%{colorTagClose} I
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Samazina ieroča pārlādēšanas laiku par {colorTagOpen}{value}%{colorTagClose} Ilglaicīgā ugunspunkta režīmā."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Palielina maksimālo braukšanas ātrumu uz priekšu AMP režīmā par {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Palielina īpašo lādiņu nodarīto bojājumu AMP režīmā par {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Palielina standarta lādiņu nodarīto bojājumu AMP režīmā par {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Samazina lielgabala pārlādēšanas laiku AMP režīmā par {colorTagOpen}{value}%{colorTagClose} (izņemot HE lādiņus)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Palielina jūsu tanka degvielas tvertnes un dzinēja moduļu dzīvības punktus."
 
@@ -555,6 +609,9 @@ msgstr "Samazina sodu par bojātu munīcijas plauktu un dzinēju."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Palielina kaitējumu, ko jūsu čauli nodara ienaidnieka tanka moduļiem."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Samazina laiku, kas nepieciešams, lai pārslēgtos starp šaušanas režīmiem, par {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Ļauj konfigurēt alternatīvu munīcijas un aprīkojums komplektu."
@@ -742,6 +799,18 @@ msgstr "Kodola formas optimizācija"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Paplašināta pastiprinātāja uzglabāšana"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modificēts Simmera aizdedzinātājs"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Augstas veiktspējas šķidruma dzesēšana"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optika ar mazu izkliedi"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Vienlaicīga šķidruma dzesēšana"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Piekare HP"
 
@@ -750,6 +819,12 @@ msgstr "Piekares remonta ātrums"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Apkalpes aizsardzība"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Regulējams detonatora iestatītājs: cauršaušanas spēja"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Regulējams detonatora iestatītājs: bojājumi"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situatīvā lielgabala izkliede"
@@ -928,6 +1003,18 @@ msgstr "Iekšējā klipa pārlādes laiks"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Maskēšanās pēc uguns atklāšanas"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Augstas tīrības pakāpes rotora tinums"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktīvā rotora dzesēšana"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Augstas vadītspējas statora korpuss"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortocīkliskais tinums"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Zemas temperatūras siltuma pārneses šķidrums"
 
@@ -936,6 +1023,18 @@ msgstr "Augstas vadītspējas termiskais korpuss"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Siltuma caurules optimizācija"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Iekraušanas cikla optimizācija"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Iekraušanas cikla optimizācija"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Iekraušanas cikla optimizācija"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Uzlabots kaujas galviņas izvietojums"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Ne-HE čaulas bojājumi"
@@ -1018,6 +1117,18 @@ msgstr "Precīzi līdzsvarots rotors"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hidropiedziņas lādiņu ievietotājs"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Uzlaboti piekares amortizatori"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modificētas speciālās unitārās patronas"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modificēti standarta vienotie lādiņi"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimizēts AMP ielādes cikls"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Izvēlētā moduļa HP paaugstinājums"
 
@@ -1026,6 +1137,9 @@ msgstr "Izvēlētā moduļa aizsardzība"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Čaulas nodarītie moduļa bojājumi"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimizēta pārkalibrēšana"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Munīcijas un aprīkojuma komplekts"

@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "Padaryti %(goal)s žalos to paties arba aukštesnio lygio priešų mašinoms iš mažesnio, nei %(distanceShortOrEqual)s metrų atstumo"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "Sunaikinti %(goal)s to paties arba aukštesnio lygio priešų mašinas iš mažesnio, nei %(distanceShortOrEqual)s metrų atstumo"
+msgstr "Sunaikinti %(goal)s to pačio ar aukštesnio lygio priešo mašinas iš %(distanceShortOrEqual)s m ar mažiau"
 
 msgid "pm3_10_1_7_short"
 msgstr "Avangardas-7"
@@ -5856,6 +5856,978 @@ msgstr "Žala"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Sunaikinti"
+
+msgid "pm4_11_1_1"
+msgstr "Avangardas-1"
+
+msgid "pm4_11_1_10"
+msgstr "Avangardas-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, kurios šūviu pataikė į jūsų mašiną"
+
+msgid "pm4_11_1_10_short"
+msgstr "Avangardas-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Žala"
+
+msgid "pm4_11_1_11"
+msgstr "Avangardas-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distanceShortOrEqual)s m ar mažesniu atstumu"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Sunaikinti priešų mašiną taranu ir išgyventi smūgį"
+
+msgid "pm4_11_1_11_short"
+msgstr "Avangardas-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_12"
+msgstr "Avangardas-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas, esančias %(distanceShortOrEqual)s m ar mažesniu atstumu"
+
+msgid "pm4_11_1_12_short"
+msgstr "Avangardas-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_13"
+msgstr "Avangardas-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Uždirbti apdovanojimą Stambus kalibras"
+
+msgid "pm4_11_1_13_short"
+msgstr "Avangardas-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Mūšio herojai"
+
+msgid "pm4_11_1_14"
+msgstr "Avangardas-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Padaryti, patirti ir užblokuoti iš viso %(goal)s žalos"
+
+msgid "pm4_11_1_14_short"
+msgstr "Avangardas-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_1_15"
+msgstr "Avangardas-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Sunaikinti %(goal)s priešo mašinas, esančias jūsų aptikimo lauke"
+
+msgid "pm4_11_1_15_short"
+msgstr "Avangardas-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_16"
+msgstr "Avangardas-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Uždirbti apdovanojimą Plieno siena"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Užimti pirmą vietą komandoje pagal padarytą žalą"
+
+msgid "pm4_11_1_16_short"
+msgstr "Avangardas-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Mūšio herojai"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_1_17"
+msgstr "Avangardas-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Užblokuoti šarvais arba padaryti %(vehicleHealthFactor)s kartus daugiau žalos, nei jūsų mašina turi patvarumo taškų"
+
+msgid "pm4_11_1_17_short"
+msgstr "Avangardas-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Smogti ir blokuoti"
+
+msgid "pm4_11_1_18"
+msgstr "Avangardas-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Padaryti %(goal)s žalos sustabdytoms priešų mašinoms"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "pm4_11_1_18_short"
+msgstr "Avangardas-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Žala"
+
+msgid "pm4_11_1_19"
+msgstr "Avangardas-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Padaryti %(goal)s žalos to paties arba aukštesnio lygio priešų mašinoms iš mažesnio, nei %(distanceShortOrEqual)s metrų atstumo"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Sunaikinti %(goal)s to pačio ar aukštesnio lygio priešo mašinas iš %(distanceShortOrEqual)s m ar mažiau"
+
+msgid "pm4_11_1_19_short"
+msgstr "Avangardas-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų sunkiesiems tankams"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Padaryti žalos priešų sunkiesiems tankams aptinkant %(goal)s kartus"
+
+msgid "pm4_11_1_1_short"
+msgstr "Avangardas-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Žala"
+
+msgid "pm4_11_1_2"
+msgstr "Avangardas-2"
+
+msgid "pm4_11_1_20"
+msgstr "Avangardas-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Sunaikinti %(goal)s priešų mašinas %(uniqueGoal)s skirtingų tipų"
+
+msgid "pm4_11_1_20_short"
+msgstr "Avangardas-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_21"
+msgstr "Avangardas-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Padaryti, patirti ir užblokuoti iš viso %(goal)s žalos"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Padaryti 25%% visos žalos padarytos jūsų komandos"
+
+msgid "pm4_11_1_21_short"
+msgstr "Avangardas-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Žala"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Sunaikinti %(goal)s priešų mašinas %(uniqueGoal)s skirtingų tipų"
+
+msgid "pm4_11_1_2_short"
+msgstr "Avangardas-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_1_3"
+msgstr "Avangardas-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Užimti pirmą vietą komandoje pagal padarytą žalą"
+
+msgid "pm4_11_1_3_short"
+msgstr "Avangardas-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_1_4"
+msgstr "Avangardas-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Užblokuoti %(goal)s žalos, kol jūsų mašina stovi vietoje"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "pm4_11_1_4_short"
+msgstr "Avangardas-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Blokuoti"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_5"
+msgstr "Avangardas-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms patenkančioms į jūsų apžvalgos atstumą"
+
+msgid "pm4_11_1_5_short"
+msgstr "Avangardas-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_6"
+msgstr "Avangardas-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Užblokuoti šarvais arba padaryti %(vehicleHealthFactor)s kartus daugiau žalos, nei jūsų mašina turi patvarumo taškų"
+
+msgid "pm4_11_1_6_short"
+msgstr "Avangardas-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Smogti ir blokuoti"
+
+msgid "pm4_11_1_7"
+msgstr "Avangardas-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distanceShortOrEqual)s m ar mažesniu atstumu"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distanceGreatOrEqual)s m ar didesniu atstumu"
+
+msgid "pm4_11_1_7_short"
+msgstr "Avangardas-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Žala"
+
+msgid "pm4_11_1_8"
+msgstr "Avangardas-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų sunkiesiems tankams"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Užimti pirmą vietą komandoje pagal padarytą žalą"
+
+msgid "pm4_11_1_8_short"
+msgstr "Avangardas-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_1_9"
+msgstr "Avangardas-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Padaryti %(goal)s žalos sustabdytoms priešų mašinoms"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "pm4_11_1_9_short"
+msgstr "Avangardas-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Žala"
+
+msgid "pm4_11_2_1"
+msgstr "Pasala-1"
+
+msgid "pm4_11_2_10"
+msgstr "Pasala-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Užimti pirmą vietą komandoje pagal uždirbtą patirtį"
+
+msgid "pm4_11_2_10_short"
+msgstr "Pasala-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_2_11"
+msgstr "Pasala-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Šūviais padaryti %(goal)s žalos judančioms priešų mašinoms"
+
+msgid "pm4_11_2_11_short"
+msgstr "Pasala-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_12"
+msgstr "Pasala-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas"
+
+msgid "pm4_11_2_12_short"
+msgstr "Pasala-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_13"
+msgstr "Pasala-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Padaryti 25%% visos žalos padarytos jūsų komandos"
+
+msgid "pm4_11_2_13_short"
+msgstr "Pasala-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Žala"
+
+msgid "pm4_11_2_14"
+msgstr "Pasala-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Uždirbti apdovanojimą Stambus kalibras"
+
+msgid "pm4_11_2_14_short"
+msgstr "Pasala-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Mūšio herojai"
+
+msgid "pm4_11_2_15"
+msgstr "Pasala-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Padaryti %(vehicleHealthFactor)s kartų daugiau žalos negu jūsų mašina turi patvarumo taškų"
+
+msgid "pm4_11_2_15_short"
+msgstr "Pasala-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_16"
+msgstr "Pasala-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Sunaikinti %(goal)s priešų mašinas kiekvienai jų padarius bent po %(damageDealt)s žalos"
+
+msgid "pm4_11_2_16_short"
+msgstr "Pasala-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_17"
+msgstr "Pasala-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas"
+
+msgid "pm4_11_2_17_short"
+msgstr "Pasala-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_18"
+msgstr "Pasala-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distanceGreatOrEqual)s m ar didesniu atstumu"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Užimti pirmą vietą komandoje pagal uždirbtą patirtį"
+
+msgid "pm4_11_2_18_short"
+msgstr "Pasala-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_2_19"
+msgstr "Pasala-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas negaunant žalos"
+
+msgid "pm4_11_2_19_short"
+msgstr "Pasala-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Pramušti priešų šarvus %(goal)s kartų"
+
+msgid "pm4_11_2_1_short"
+msgstr "Pasala-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Pramušimas"
+
+msgid "pm4_11_2_2"
+msgstr "Pasala-2"
+
+msgid "pm4_11_2_20"
+msgstr "Pasala-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Padaryti 30%% visos žalos padarytos jūsų komandos"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Sunaikinti visas priešų mašinas / užimti arba apginti bazę"
+
+msgid "pm4_11_2_20_short"
+msgstr "Pasala-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Žala"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Laimėti"
+
+msgid "pm4_11_2_21"
+msgstr "Pasala-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "pm4_11_2_21_short"
+msgstr "Pasala-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Padaryti %(goal)s žalos per pirmas %(timeLimit)s mūšio minutes"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Sunaikinti %(goal)s priešų mašinas %(uniqueGoal)s skirtingų tipų"
+
+msgid "pm4_11_2_2_short"
+msgstr "Pasala-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_3"
+msgstr "Pasala-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Užimti pirmą vietą komandoje pagal uždirbtą patirtį"
+
+msgid "pm4_11_2_3_short"
+msgstr "Pasala-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_2_4"
+msgstr "Pasala-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Padaryti %(goal)s žalos priešų vidutiniams tankams"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Sunaikinti %(goal)s priešo mašinas, nesančias jūsų aptikimo lauke"
+
+msgid "pm4_11_2_4_short"
+msgstr "Pasala-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_5"
+msgstr "Pasala-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Padaryti %(goal)s žalos ir padarius žalą likti neaptiktam dėl to šūvio, kurį iššovėte"
+
+msgid "pm4_11_2_5_short"
+msgstr "Pasala-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_6"
+msgstr "Pasala-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Padaryti ir padėti padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_6_short"
+msgstr "Pasala-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_2_7"
+msgstr "Pasala-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Uždirbti apdovanojimą Tankistas-snaiperis"
+
+msgid "pm4_11_2_7_short"
+msgstr "Pasala-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Mūšio herojai"
+
+msgid "pm4_11_2_8"
+msgstr "Pasala-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Sunaikinti %(goal)s vnt. priešo technikos iš %(distanceGreatOrEqual)s m nuotolio ar iš toliau"
+
+msgid "pm4_11_2_8_short"
+msgstr "Pasala-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_2_9"
+msgstr "Pasala-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Padaryti %(goal)s žalos sustabdytoms priešų mašinoms"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Padaryti %(goal)s žalos"
+
+msgid "pm4_11_2_9_short"
+msgstr "Pasala-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Žala"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Žala"
+
+msgid "pm4_11_3_1"
+msgstr "Pagalba-1"
+
+msgid "pm4_11_3_10"
+msgstr "Pagalba-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Padėti komandai padaryti %(goal)s žalos aptinkant ar sustabdant priešus išliekant nepastebėtiems"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Apkurtinti vidutinį ir prieštankinį tanką iš viso %(goal)s sekundžių. Skaičiuojama ir potenciali apkurtinimo trukmė."
+
+msgid "pm4_11_3_10_short"
+msgstr "Pagalba-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Apkurtinimas"
+
+msgid "pm4_11_3_11"
+msgstr "Pagalba-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Padėti savo komandai padaryti %(goal)s žalos priešų mašinoms jas aptinkant, sustabdant ar apkurtinant"
+
+msgid "pm4_11_3_11_short"
+msgstr "Pagalba-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_12"
+msgstr "Pagalba-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Padėti savo komandai sunaikinti %(goal)s priešų mašinas jas aptinkant, sustabdant ar apkurtinant"
+
+msgid "pm4_11_3_12_short"
+msgstr "Pagalba-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_13"
+msgstr "Pagalba-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Gauti I klasės ar aukštesnio lygio meistriškumo ženklelį"
+
+msgid "pm4_11_3_13_short"
+msgstr "Pagalba-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Meistriškumo ženklelis"
+
+msgid "pm4_11_3_14"
+msgstr "Pagalba-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Išgyventi kovą"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Užimti pirmą vietą abiejose komandose pagal uždirbtą patirtį"
+
+msgid "pm4_11_3_14_short"
+msgstr "Pagalba-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Išgyventi"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Geriausias žaidėjas"
+
+msgid "pm4_11_3_15"
+msgstr "Pagalba-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Padėti savo komandai sunaikinti %(goal)s priešų mašinas jas aptinkant, sustabdant ar apkurtinant"
+
+msgid "pm4_11_3_15_short"
+msgstr "Pagalba-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_16"
+msgstr "Pagalba-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms judant bent %(attackerMovingSpeedGreaterOrEqual)s km/h greičiu"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Sunaikinti %(goal)s judančias priešų mašinas šūviais"
+
+msgid "pm4_11_3_16_short"
+msgstr "Pagalba-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Žala"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_17"
+msgstr "Pagalba-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Išgyventi kovą"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Padėti saviškiams padaryti %(goal)s žalos sustabdant arba apkurtinant priešų mašinas ir išgyventi mūšį"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Jūsų padarytos žalos ir sąjungininkų žalos, padarytos su jūsų pagalba, suma turi būti %(goal)s ir turite išgyventi mūšį"
+
+msgid "pm4_11_3_17_short"
+msgstr "Pagalba-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Išgyventi"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_3_18"
+msgstr "Pagalba-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas, esančias %(distanceShortOrEqual)s m ar mažesniu atstumu"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Sunaikinti %(goal)s vnt. priešo technikos iš %(distanceGreatOrEqual)s m nuotolio ar iš toliau"
+
+msgid "pm4_11_3_18_short"
+msgstr "Pagalba-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_19"
+msgstr "Pagalba-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Gauti meistriškumo ženklelį Meistras"
+
+msgid "pm4_11_3_19_short"
+msgstr "Pagalba-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Meistriškumo ženklelis"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Išgyventi kovą"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Sunaikinti priešo artileriją ir išgyventi mūšį"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Apkurtinti priešo mašiną %(goal)s kartų ir išgyventi mūšį"
+
+msgid "pm4_11_3_1_short"
+msgstr "Pagalba-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Išgyventi"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Apkurtinimas"
+
+msgid "pm4_11_3_2"
+msgstr "Pagalba-2"
+
+msgid "pm4_11_3_20"
+msgstr "Pagalba-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Padėti saviškiams padaryti %(goal)s žalos sustabdant arba apkurtinant priešų mašinas ir laimėti mūšį"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Apkurtinti priešo sunkiuosius tankus %(goal)s kartus ir laimėti mūšį"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Sunaikinti visas priešų mašinas / užimti arba apginti bazę"
+
+msgid "pm4_11_3_20_short"
+msgstr "Pagalba-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Apkurtinimas"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Laimėti"
+
+msgid "pm4_11_3_21"
+msgstr "Pagalba-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Išgyventi kovą"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Jūsų padarytos žalos ir sąjungininkų žalos, padarytos su jūsų pagalba, suma turi būti %(goal)s"
+
+msgid "pm4_11_3_21_short"
+msgstr "Pagalba-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Išgyventi"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Sunaikinti priešo lengvąjį tanką"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Apkurtinti priešo techniką iš viso %(goal)s sek. Skaičiuojama potenciali trukmė"
+
+msgid "pm4_11_3_2_short"
+msgstr "Pagalba-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Apkurtinimas"
+
+msgid "pm4_11_3_3"
+msgstr "Pagalba-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Padėti savo komandai daryti žalą priešams %(goal)s kartų juos aptinkant, sustabdant ar apkurtinant"
+
+msgid "pm4_11_3_3_short"
+msgstr "Pagalba-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_4"
+msgstr "Pagalba-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Išgyventi kovą"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Aptikti %(goal)s priešų mašinas ir išgyventi kovą"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Apkurtinti %(stunSeveralTargets)s priešų mašinas vienu šūviu %(goal)s kartus ir išgyventi mūšį"
+
+msgid "pm4_11_3_4_short"
+msgstr "Pagalba-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Išgyventi"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Aptikti"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Apkurtinimas"
+
+msgid "pm4_11_3_5"
+msgstr "Pagalba-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Gauti II ar aukštesnės klasės meistriškumo ženklelį"
+
+msgid "pm4_11_3_5_short"
+msgstr "Pagalba-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Meistriškumo ženklelis"
+
+msgid "pm4_11_3_6"
+msgstr "Pagalba-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Jūsų padarytos žalos ir sąjungininkų žalos, padarytos su jūsų pagalba, suma turi būti %(goal)s"
+
+msgid "pm4_11_3_6_short"
+msgstr "Pagalba-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Sudėtinga sąlyga"
+
+msgid "pm4_11_3_7"
+msgstr "Pagalba-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Padėti saviškiams padaryti %(goal)s žalos sustabdant, apkurtinant arba aptinkant priešų mašinas"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Sunaikinti priešo artileriją"
+
+msgid "pm4_11_3_7_short"
+msgstr "Pagalba-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Pagalba"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_8"
+msgstr "Pagalba-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas"
+
+msgid "pm4_11_3_8_short"
+msgstr "Pagalba-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_9"
+msgstr "Pagalba-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas, esančias %(distanceShortOrEqual)s m ar mažesniu atstumu"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Apkurtinti priešo vidutinius ar prieštankinius %(goal)s kartus"
+
+msgid "pm4_11_3_9_short"
+msgstr "Pagalba-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Sunaikinti"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Apkurtinimas"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Kiekviena šio tipo misija turi ribotą bandymų skaičių nurodytų sąlygų įvykdymui."
@@ -10345,6 +11317,9 @@ msgstr "Antrasis frontas"
 msgid "season_3"
 msgstr "3 sektorius"
 
+msgid "season_4"
+msgstr "3 sektorius"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Misijų rinkinys visiems technikos tipams norint gauti amerikiečių sunkųjį tanką Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Misijų serija visų tipų mašinoms, kurią įvykdę gausite vokiečių vidutinį tanką Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Misijų rinkinys visiems technikos tipams norint gauti vokišką savaeigį prieštankinį pabūklą StuG IV."

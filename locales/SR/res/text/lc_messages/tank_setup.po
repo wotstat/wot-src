@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "na poene izdržljivosti vozila"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+msgstr "na brzinu okretanja topa"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "na brzinu okretanja kupole"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "na poene zdravlja vozila"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+msgstr "na brzinu okretanja topa"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "na brzinu okretanja kupole"
@@ -2100,6 +2100,51 @@ msgstr " i "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Režim dovoda spoljne municije vozila dozvoljava upotrebu granata sa povećanom štetom."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Osnovne vrednosti u standardnom režimu."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Modifikovane vrednosti u režimu dovoda spoljne municije."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Osnovni parametri potpuno napunjenih hitaca"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametri hitaca sa jednim punjenjem"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Osnovni parametri potpuno napunjenih hitaca"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Osnovna"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametri hitaca sa jednim punjenjem"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "U kalibrisanom režimu, ovaj tip granate je efikasan protiv iskošenog oklopa."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Top vozila ima specijalan uređaj koji dozvoljava da neki parametri granate budu promenjeni pre pucanja."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "U standardnom režimu ovaj tip granata je efikasan protiv oklopa bez panela."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standardni režim"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrisan režim"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "U kalibrisanom režimu, ovaj tip granata može da probije panele."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "U standardnom režimu ovaj tip granata je efikasan protiv vertikalnog oklopa."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardna oprema iz %(spec)s kategorije će biti efektivnija ako se postavi u ovaj slot. Opreme iz drugih kategorija će samo pružiti standardni bonus."

@@ -1,4 +1,7 @@
-import typing, BigWorld
+from __future__ import absolute_import
+import typing
+from future.utils import viewvalues
+import BigWorld
 from constants import DAILY_QUESTS_CONFIG, PremiumConfigs
 from gui import SystemMessages
 from gui.impl.gen import R
@@ -223,11 +226,7 @@ class DailyMissionsBlockPresenter(BaseMissionsBlockPresenter[DailyMissionsBlockM
     def _arePremiumDailyMissionsCompleted(self):
         if not self._hasPremiumMissions:
             return True
-        for quest in self.eventsCache.getPremiumQuests().itervalues():
-            if not quest.isCompleted():
-                return False
-
-        return True
+        return all(quest.isCompleted() for quest in viewvalues(self.eventsCache.getPremiumQuests()))
 
     def _onPremiumTypeChanged(self, *_):
         with self.viewModel.transaction() as tx:

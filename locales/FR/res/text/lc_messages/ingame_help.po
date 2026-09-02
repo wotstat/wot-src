@@ -232,11 +232,35 @@ msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque ti
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Canon automatique avec gestion de la surchauffe"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Le mécanisme réduit instantanément le rechargement de l'obus à un temps fixe court. Chaque utilisation consomme une charge par obus, et les charges se reconstituent au fil du temps, plus rapidement lorsque le chargeur est plein. Un certain nombre de charges est disponible au début de la bataille."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mécanisme de chargement forcé"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Ce véhicule est équipé d'un lance-roquettes monté sur le mantelet du canon. Pour passer au viseur de roquettes, appuyez sur :"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Lance-roquettes coaxial"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "En visant avec le viseur de roquettes, appuyez sur le bouton de tir pour lancer une roquette :"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Lance-roquettes coaxial"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Chaque fois que vous touchez un ennemi avec un obus, vous gagnez un niveau d'efficacité du rechargement qui accélère temporairement la vitesse de rechargement de votre canon. Les niveaux se cumulent à chaque tir.\nLa destruction d'un véhicule ennemi avec un obus octroie des niveaux d'efficacité du rechargement supplémentaires."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Râtelier de munitions semi-automatique"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Le Module d'alimentation externe en munitions de ce véhicule lui permet de tirer de puissants obus unitaires à charge élevée qui infligent des dégâts accrus. Lorsqu'il est actif, cet élément réduit également la mobilité et la cadence de tir."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Mode Alimentation en munitions externe"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Si votre canon est chargé, vous pouvez commencer à chauffer votre prochain tir. Plus le niveau de chaleur atteint est élevé, plus le bonus aux dégâts moyens sera important.\nPour commencer le processus de chauffe, appuyez sur :"
@@ -345,6 +369,30 @@ msgstr "À leur activation, les propulseurs augmentent la puissance du moteur et
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Avantages et inconvénients"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Lorsque vous touchez un véhicule ennemi visible avec un obus, le régleur de fusée du prochain obus est ajusté. Si le tir initial a pénétré le blindage ennemi, les dégâts du tir suivant sont augmentés. Dans le cas contraire, la pénétration du tir suivant est augmentée."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Régleur de fusée ajustable"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant de tirer. Les paramètres des différents obus varient en fonction du mode sélectionné, et chaque mode vous permet de vous adapter rapidement à différentes situations de combat."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Système de calibrage des obus"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Un dispositif optique avancé augmente votre portée de vue et améliore la détection des véhicules en mouvement et dissimulés derrière la végétation. Lorsqu'il est activé, il scanne un secteur étroit devant votre véhicule, révélant les cibles dissimulées avant une période de rechargement."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Recherche et poursuite infrarouge (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Cependant, s'il révèle un ennemi non repéré, vous devenez également immédiatement repéré pendant une durée déterminée, et vous et les ennemis que vous repérez êtes instantanément avertis. Vous pouvez arrêter manuellement le scan et lancer le rechargement de l'appareil après un court délai."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Recherche et poursuite infrarouge (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Des réacteurs à carburant solide renforçant l'accélération, la mobilité et la maniabilité pour plusieurs secondes. Les réacteurs gauche et droit peuvent fonctionner indépendamment l'un de l'autre pour faire pivoter la caisse plus rapidement, et sans l'empêcher d'utiliser la marche arrière."

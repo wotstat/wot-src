@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Έναρξη Περιόδου Κυανού Δράκου: %(date)s"
+msgstr "Έναρξη Περιόδου Κυανού Φοίνικα: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Έναρξη Περιόδου Βυσσινή Δράκου: %(date)s"
+msgstr "Έναρξη Περιόδου Βυσσινή Φοίνικα: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Έναρξη Περιόδου Πράσινου Δράκου: %(date)s"
+msgstr "Έναρξη Περιόδου Πράσινου Φοίνικα: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Αναμονή για τα αποτελέσματα των Προκριματικών, έτσι ώστε να καθοριστεί η κατάταξή σας"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Η Περίοδος του Κυανού Δράκου τελείωσε"
+msgstr "Η Περίοδος του Κυανού Φοίνικα τελείωσε"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Η Περίοδος του Βυσσινή Δράκου τελείωσε"
+msgstr "Η Περίοδος του Βυσσινή Φοίνικα τελείωσε"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Η Περίοδος του Πράσινου Δράκου τελείωσε"
+msgstr "Η Περίοδος του Πράσινου Φοίνικα τελείωσε"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Οι μάχες σε αυτόν τον server θα γίνουν διαθέσιμες σε %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Αποκατάσταση hit points"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Αυξημένη προσλαμβανόμενη φθορά"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος βελτιώθηκαν"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρα"
-msgstr[1] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρες"
-msgstr[2] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[0] "Η Περίοδος του Κυανού Φοίνικα θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Κυανού Φοίνικα θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Κυανού Φοίνικα θα διαρκέσει %(days)d ημέρες"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρα"
-msgstr[1] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρες"
-msgstr[2] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[0] "Η Περίοδος του Βυσσινή Φοίνικα θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Βυσσινή Φοίνικα θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Βυσσινή Φοίνικα θα διαρκέσει %(days)d ημέρες"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρα"
-msgstr[1] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρες"
-msgstr[2] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[0] "Η Περίοδος του Πράσινου Φοίνικα θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Πράσινου Φοίνικα θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Πράσινου Φοίνικα θα διαρκέσει %(days)d ημέρες"
 
 msgid "calendarDay/title"
 msgstr "Πρόγραμμα"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Ικανότητες"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Μάχες Επέλασης: Η Χρονιά Του Δράκου"
+msgstr "Μάχες Επέλασης: Η Χρονιά Του Φοίνικα"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Προκαθορισμένες Ικανότητες"
@@ -574,11 +577,17 @@ msgstr "Θετικό!"
 msgid "intro/description/banPhase"
 msgstr "Κάθε ομάδα μπορεί να αποκλείσει πλήρως ένα όχημα από τη μάχη. Συντονίστε τις ψήφους σας με τους συμπαίκτες σας για να αποκλείσετε το πιο επικίνδυνο όχημα για σας ή για να προετοιμάσετε μια απρόβλεπτη σύνθεση για τους αντιπάλους. Αν το όχημά σας αποκλειστεί, μπορείτε να επιλέξετε κάποιο από τα αρκετά προδιαμορφωμένα μισθωμένα οχήματα."
 
+msgid "intro/description/draw"
+msgstr "Όταν λήξει ο διαθέσιμος χρόνος και καμία ομάδα δεν έχει πετύχει ξεκάθαρη νίκη, το αποτέλεσμα της μάχης κρίνεται με βάση τα ακόλουθα κριτήρια ισοβαθμίας, με αυτή τη σειρά βαρύτητας: το πλήθος των οχημάτων που έχουν επιβιώσει, η φθορά που έχει προκληθεί, το όχημα που καταστράφηκε πρώτο. Αν καμία από τις δύο ομάδες δεν έχει προκαλέσει φθορά, η μάχη λήγει ισόπαλη."
+
+msgid "intro/description/nightMaps"
+msgstr "Οι Νυχτερινοί Χάρτες ανανεώνουν τα γνώριμα πεδία μάχης με συνθήκες νύχτας, νέα Παρατηρητήρια, ανανεωμένα Σημεία-Κλειδιά και τροποποιημένους μηχανισμούς εντοπισμού αντιπάλων. Η τρέχουσα λίστα περιλαμβάνει τους χάρτες: Glacier, Sand River, Outpost και Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Σε αυτό το είδος μάχης έχουν αλλάξει παράμετροι των οχημάτων, όπως η αντοχή, ο χρόνος επαναφοράς των αναλώσιμων, ο χρόνος που ένα όχημα παραμένει εντοπισμένο, κλπ."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Μόλις καταλάβετε συγκεκριμένες περιοχές του χάρτη, μπορείτε να χρησιμοποιήσετε τις Στρατηγικές Ικανότητες. Σημεία-Κλειδιά υπάρχουν 2 τύπων: το Αρχηγείο Πυροβολικού με την κατάληψη του οποίου μπορείτε να διατάξετε μπαράζ πυροβολικού σε κάποια συγκεκριμένη περιοχή του χάρτη και το Κέντρο Διαβιβάσεων με την κατάληψη του οποίου μπορείτε να δείτε όλα τα εχθρικά οχήματα στον χάρτη. Η ύπαρξη και η τοποθεσία των Σημείων-Κλειδιών αλλάζουν σε κάθε χάρτη."
+msgstr "Καταλαμβάνοντας συγκεκριμένες περιοχές του χάρτη, αποκτάτε πρόσβαση σε Στρατηγικές Ικανότητες. Σημεία-Κλειδιά υπάρχουν 2 τύπων: το Αρχηγείο Πυροβολικού με την κατάληψη του οποίου μπορείτε να διατάξετε μπαράζ πυροβολικού σε κάποια συγκεκριμένη περιοχή του χάρτη και το Κέντρο Διαβιβάσεων με την κατάληψη του οποίου μπορείτε να δείτε όλα τα εχθρικά οχήματα στον χάρτη. Η ύπαρξη και η τοποθεσία των Σημείων-Κλειδιών αλλάζουν σε κάθε χάρτη."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Λάβετε μέρος σε %(count)s μάχες Προκριματ�
 msgstr[2] "Λάβετε μέρος σε %(count)s μάχες Προκριματικών για να καθοριστεί η κατάταξή σας. Μετά την ολοκλήρωση των Προκριματικών, θα σας απονεμηθούν τα έπαθλα όλων των βαθμών που κερδίσατε.\n\nΗ Λιποταξία ή η ισοπαλία σε μάχη Προκριματικών θεωρείται ως ήττα."
 
 msgid "intro/description/ranks"
-msgstr "Ένα σύστημα αξιολόγησης με βάση την επιδεξιότητα των παικτών. Από τον βαθμό του Σιδερένιου έως τον βαθμό του Θρύλου, κερδίζετε πολύτιμα έπαθλα. Λάβετε μέρος στις Μάχες Επέλασης καθ' όλη τη διάρκεια της Χρονιάς Του Δράκου για να κερδίσετε τα Ετήσια Έπαθλα."
+msgstr "Από τον βαθμό του Σιδερένιου έως τον βαθμό του Θρύλου, κερδίζετε πολύτιμα έπαθλα. Λάβετε μέρος στις Μάχες Επέλασης καθ' όλη τη διάρκεια της Χρονιάς Του Φοίνικα για να κερδίσετε τα Ετήσια Έπαθλα."
 
 msgid "intro/description/roleSkills"
 msgstr "Ανάλογα με τον ρόλο του στη μάχη, το κάθε όχημα διαθέτει ειδικές ικανότητες, με 3 επίπεδα η κάθε μία από αυτές. Όσο μεγαλύτερο το επίπεδο της ικανότητας, τόσο μεγαλύτερη η επίδρασή της όταν ενεργοποιηθεί. Το επίπεδο της κάθε ικανότητας εξαρτάται από τους Πόντους Αίγλης που κερδίζετε με βάση τις επιδόσεις σας στη μάχη, από την κατάληψη Σημείων-Κλειδιών, από τη χρήση Στρατηγικών Ικανοτήτων, κλπ.\n\nΔιαβάστε τους κανονισμούς της διοργάνωσης για να μάθετε περισσότερα για τους Πόντους Αίγλης."
@@ -597,6 +606,12 @@ msgstr "Μπείτε στη μάχη με τα αγαπημένα σας Καν�
 
 msgid "intro/title/banPhase"
 msgstr "ΑΠΟΚΛΕΙΣΜΟΙ ΟΧΗΜΑΤΩΝ"
+
+msgid "intro/title/draw"
+msgstr "ΚΑΝΟΝΕΣ ΙΣΟΠΑΛΙΑΣ"
+
+msgid "intro/title/nightMaps"
+msgstr "ΝΥΧΤΕΡΙΝΟΙ ΧΑΡΤΕΣ"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΜΑΧΗΣ"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "ΝΙΚΗ, ΑΛΛΑ ΕΣΕΙΣ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Προαγωγή στον βαθμό %(rank)s"
+msgstr "Προαγωγή στον βαθμό {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Κατάταξη: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Υποβιβασμός στον βαθμό %(rank)s, %(division)s"
+msgstr "Υποβιβασμός σε {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Προαγωγή στον βαθμό %(rank)s, %(division)s"
+msgstr "Προαγωγή σε {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Συμμετοχές σε μάχες"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Ρεκόρ κερδισμένων Πόντων Αίγλης περιόδου: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Η Περίοδος του Κυανού Δράκου τελείωσε στον server %(server)s."
+msgstr "Η Περίοδος του Κυανού Φοίνικα τελείωσε στον server %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Η Περίοδος του Βυσσινή Δράκου τελείωσε στον server %(server)s."
+msgstr "Η Περίοδος του Βυσσινή Φοίνικα τελείωσε στον server %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Η Περίοδος του Πράσινου Δράκου τελείωσε στον server %(server)s."
+msgstr "Η Περίοδος του Πράσινου Φοίνικα τελείωσε στον server %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Αγορά"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΤΑ ΠΡΟΚΡΙΜΑΤΙΚΑ ΟΛΟΚΛΗΡΩΘΗΚΑΝ"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΠΕΡΙΟΔΟΣ ΤΟΥ ΚΥΑΝΟΥ ΔΡΑΚΟΥ"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ: ΠΕΡΙΟΔΟΣ ΤΟΥ ΚΥΑΝΟΥ ΦΟΙΝΙΚΑ"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ: ΠΕΡΙΟΔΟΣ ΤΟΥ ΒΥΣΣΙΝΗ ΔΡΑΚΟΥ"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ: ΠΕΡΙΟΔΟΣ ΤΟΥ ΒΥΣΣΙΝΗ ΦΟΙΝΙΚΑ"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΠΕΡΙΟΔΟΣ ΤΟΥ ΠΡΑΣΙΝΟΥ ΔΡΑΚΟΥ"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΠΕΡΙΟΔΟΣ ΤΟΥ ΠΡΑΣΙΝΟΥ ΦΟΙΝΙΚΑ"
 
 msgid "rewardsScreen/description/year"
-msgstr "Μάχες Επέλασης: Η Χρονιά Του Δράκου"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. Η ΧΡΟΝΙΑ ΤΟΥ ΦΟΙΝΙΚΑ"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Που είναι το Ashbringer μου?"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Λήξη σε %(seconds)s sec"
 
 msgid "seasonName/first"
-msgstr "Περίοδος του Κυανού Δράκου"
+msgstr "Περίοδος του Κυανού Φοίνικα"
 
 msgid "seasonName/second"
-msgstr "Περίοδος του Βυσσινή Δράκου"
+msgstr "Περίοδος του Βυσσινή Φοίνικα"
 
 msgid "seasonName/third"
-msgstr "Περίοδος του Πράσινου Δράκου"
+msgstr "Περίοδος του Πράσινου Φοίνικα"
 
 msgid "seasonPointTooltip/header"
 msgstr "Onslaught Colors"
@@ -1532,13 +1550,13 @@ msgstr[1] "Λάβατε %(points)s Onslaught Colors"
 msgstr[2] "Λάβατε %(points)s Onslaught Colors"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "ΠΕΡΙΟΔΟΣ I: ΚΥΑΝΟΣ ΔΡΑΚΟΣ"
+msgstr "ΠΕΡΙΟΔΟΣ I: ΚΥΑΝΟΣ ΦΟΙΝΙΚΑΣ"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "ΠΕΡΙΟΔΟΣ II: ΒΥΣΣΙΝΗ ΔΡΑΚΟΣ"
+msgstr "ΠΕΡΙΟΔΟΣ II: ΒΥΣΣΙΝΗ ΦΟΙΝΙΚΑΣ"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "ΠΕΡΙΟΔΟΣ III: ΠΡΑΣΙΝΟΣ ΔΡΑΚΟΣ"
+msgstr "ΠΕΡΙΟΔΟΣ III: ΠΡΑΣΙΝΟΣ ΦΟΙΝΙΚΑΣ"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Νίκες: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Οι μάχες αυτές θα είναι διαθέσιμες στις %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Κυανός Δράκος"
+msgstr "Κυανός Φοίνικας"
 
 msgid "shortSeasonName/second"
-msgstr "Βυσσινή Δράκος"
+msgstr "Βυσσινή Φοίνικας"
 
 msgid "shortSeasonName/third"
-msgstr "Πράσινος Δράκος"
+msgstr "Πράσινος Φοίνικας"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Το τομέας αυτός περιέχει πληροφορίες για τους καλύτερους παίκτες της τρέχουσας Περιόδου των μαχών Επέλασης."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Προβολή Όλων"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Υποστηρίξτε το τουρνουά OLS αναβαθμίζοντας τα έπαθλα του τουρνουά με κάθε αγορά κάποιου πακέτου προσφοράς!"
+msgstr "Εάν η ομάδα που υποστηρίζετε βγει τελικά πρωταθλήτρια, θα κερδίσετε το χρυσό παράσημο OLS 2026!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Δείξτε την στήριξή σας στα esports αποκτώντας αποκλειστικά στοιχεία προσαρμογής και μοναδικά τανκς!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Η επική διοργάνωση World of Tanks Championship International διεξάγεται στο Suzhou της Κίνας, κατά τη διάρκεια της οποίας οι καλύτερες ομάδες του κόσμου αναμετρώνται σε μάχες που διεξάγονται με τους κανόνες των μαχών Επέλασης και διεκδικούν τον τίτλο του παγκόσμιου πρωταθλητή. Παρακολουθήστε ζωντανά τους θρύλους του παιχνιδιού!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS Περίοδος 6"
+msgstr "OLS Περίοδος 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Η περίοδος αυτή είναι η τελευταία ευκαιρία για να διεκδικήσετε τα πολύτιμα έπαθλα της διοργάνωσης, τα οποία περιλαμβάνουν το αποκλειστικό βαρύ άρμα Ashbringer της Βαθμίδας X μαζί με όλες τις μοναδικές τεχνοτροπίες 3D που έχετε κερδίσει γι αυτό και το ατρόμητο πλήρωμά του που έχει την προκαθορισμένη ικανότητα «Αδέρφια στη Μάχη», Βελτιωμένο και Πειραματικό Εξοπλισμό της επιλογής σας, μία προοδευτική τεχνοτροπία 2D, κλπ. Μην χάσετε την ευκαιρία — μπείτε στη μάχη!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Εκμεταλλευτείτε το τέλος της Χρονιάς Της Δράκου!"
+msgstr "Εκμεταλλευτείτε το τέλος της Χρονιάς Της Φοίνικα!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "ΠΕΡΙΟΔΟΣ ΤΟΥ ΠΡΑΣΙΝΟΥ ΔΡΑΚΟΥ"
+msgstr "ΠΕΡΙΟΔΟΣ ΤΟΥ ΚΥΑΝΟΥ ΦΟΙΝΙΚΑ"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΤΙ ΝΕΟ ΥΠΑΡΧΕΙ"
 
 msgid "whatsNewView/button/ok"
-msgstr "Θετικόν!"
+msgstr "Μπείτε Στη Μάχη!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Η βελτιωμένη οθόνη αποτελεσμάτων μετά τη μάχη, με τη νέα σχεδίαση της Έκδοσης 2.0, θα σας παρέχει πλέον επιπλέον πληροφορίες σχετικές με το είδος της μάχης."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Όταν λήξει ο διαθέσιμος χρόνος και καμία ομάδα δεν έχει πετύχει ξεκάθαρη νίκη, το αποτέλεσμα της μάχης κρίνεται με βάση τα ακόλουθα κριτήρια ισοβαθμίας, με αυτή τη σειρά βαρύτητας: το πλήθος των οχημάτων που έχουν επιβιώσει, η φθορά που έχει προκληθεί, το όχημα που καταστράφηκε πρώτο. Αν καμία από τις δύο ομάδες δεν έχει προκαλέσει φθορά, η μάχη λήγει ισόπαλη."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Αναλυτικά Αποτελέσματα Μάχης"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Μην ανησυχείτε αν το αγαπημένο σας όχημα αποκλείστηκε. Τα μισθωμένα οχήματα συνοδεύονται πλέον από ετοιμοπόλεμο πλήρωμα, εξοπλισμό, πυρομαχικά και αναλώσιμα."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Ετοιμοπόλεμα Μισθωμένα Οχήματα %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Κάθε ομάδα μπορεί να αποκλείσει πλήρως ένα όχημα από τη μάχη. Συντονίστε τις ψήφους σας με τους συμπαίκτες σας για να αποκλείσετε το πιο επικίνδυνο όχημα για σας ή για να προετοιμάσετε μια απρόβλεπτη σύνθεση για τους αντιπάλους."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Αποκλεισμοί Οχημάτων %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Νέες προϋποθέσεις ισοπαλίας {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Χάρτες"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Νέα Οχήματα Για Τις Μάχες Επέλασης"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Η Έκδοση 2.4 περιλαμβάνει νέους ρόλους για τα ελαφρά άρματα και αλλαγές εξισορρόπησης στα χαρακτηριστικά των οχημάτων. Δοκιμάστε τα στη μάχη!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Νέοι ρόλους για τα ελαφρά άρματα {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Οι Νυχτερινοί Χάρτες ανανεώνουν τα γνώριμα πεδία μάχης με συνθήκες νύχτας, νέα Παρατηρητήρια, ανανεωμένα Σημεία-Κλειδιά και τροποποιημένους μηχανισμούς εντοπισμού αντιπάλων. Όλα αυτά αναδιαμορφώνουν τη ροή της μάχης, καθιστώντας την επίγνωση της κατάστασης, τον σωστό συγχρονισμό και τις τακτικές μετακινήσεις σημαντικότερα από ποτέ."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Νυχτερινοί Χάρτες! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Εξαιτίας χαμηλής συμμετοχής των παικτών, οι Μεγάλοι Ουλαμοί δεν είναι πλέον διαθέσιμοι. Δημιουργούμε εναλλακτικούς τρόπους παιχνιδιού για τις Μάχες Επέλασης. Εν τω μεταξύ, υπάρχουν τα τακτικά τουρνουά 7v7 στα οποία μπορείτε να λάβετε μέρος."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Όχι Μεγάλοι Ουλαμοί {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Οχήματα Μίσθωσης"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Το καινούριο Αμερικανικό μέσο άρμα Ares 90 της Βαθμίδας X είναι πλέον διαθέσιμο για τις μάχες αυτές με νέα Ικανότητα Ρόλου."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Χάρτες: Αφαίρεση του χάρτη Erlenberg. Νέα Σημεία-Κλειδιά στον χάρτη Airfield. Μικρές αλλαγές στον χάρτη Pilsen.\n• Οχήματα: Αφαίρεση του VZ. 60S Dravec. Προσθήκη του νέου Γερμανικού βαρέος άρματος Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Αλλαγή Ικανότητας Ρόλου %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Το 114 SP2 είναι πλέον διαθέσιμο για αγορά στον βαθμό του Αργυρού από τον αντίστοιχο τομέα του Εφοδιασμού των Μαχών Επέλασης!"
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Ενημέρωση Εφοδιασμού %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Αλλαγές περιόδου {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "ΕΞΑΙΡΟΥΝΤΑΙ"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "ΠΕΡΙΟΔΟΣ I: ΚΥΑΝΟΣ ΔΡΑΚΟΣ"
+msgstr "Περίοδος I: Κυανός Φοίνικας"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "ΠΕΡΙΟΔΟΣ II: ΒΥΣΣΙΝΗ ΔΡΑΚΟΣ"
+msgstr "Περίοδος II: Βυσσινή Φοίνικας"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "ΠΕΡΙΟΔΟΣ III: ΠΡΑΣΙΝΟΣ ΔΡΑΚΟΣ"
+msgstr "Περίοδος III: Πράσινος Φοίνικας"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Τρέχουσα"

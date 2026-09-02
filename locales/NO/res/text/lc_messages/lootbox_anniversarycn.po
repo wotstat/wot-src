@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Når de åpnes kan disse eskene gi deg kjøretøy, valuta til bruk i spillet og andre verdifulle belønninger."
+msgstr "Når de blir åpnet kan disse eskene gi deg premiumkjøretøy på nivå 8, valuta til bruk i spillet og andre verdifulle belønninger."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Når de åpnes kan disse eskene gi deg kjøretøy, valuta til bruk i spillet, tilpasningselementer og andre verdifulle belønninger."
+msgstr "Når de blir åpnet kan disse eskene gi deg sjeldne kjøretøy på nivå 10, valuta til bruk i spillet og andre verdifulle belønninger."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Når de åpnes kan disse eskene gi deg kjøretøy, valuta til bruk i spillet, tilpasningselementer og andre verdifulle belønninger."
+msgstr "Når de blir åpnet kan disse eskene gi deg premiumkjøretøy på nivå 9, valuta til bruk i spillet og andre verdifulle belønninger."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Kan fås i butikken i spillet og når man åpner esker av en hvilken som helst type."
+msgstr "Kan får som gave for kjøpe av enheter i Premium Shop i tillegg til at de kan fås når man åpner esker av en hvilkens om helst annen type."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Kan fås mens man åpner esker av en hvilken som helst annen type."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Kan fås mens man åpner esker av en hvilken som helst annen type."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Dusøreske"
+msgstr "ESKE MED HIMMELSK UTBYTTE"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Velsignelseseske"
+msgstr "VALGT UTBYTTEESKE"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "TILDELINGSESKE"
+msgstr "Hjelp fra oven utbytteeske"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "DUSØRESKE"
+msgstr "ESKE MED HIMMELSK UTBYTTE"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "Velsignelseseske"
+msgstr "VALGT UTBYTTEESKE"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "TILDELINGSESKE"
+msgstr "Hjelp fra oven utbytteeske"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Dette er spesialesker som inneholder nye og unike enheter. De kan fås fra butikken i spillet."
+msgstr "Dette er spesielle esker som inneholder nye og unike kjøretøy på nivåene 8–10 samt flere belønninger.\nDu kan få esker som gave for kjøp av enheter i Premium Shop i tillegg til at du kan få dem mens du åpner en hvilkens om helst annen type eske."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Eventet avsluttes om"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Esker kan ikke åpnes eller kjøpes akkurat nå av tekniske årsaker. Vi beklager den midlertidige ulempen."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Guds velsignelsessesker er midlertidig utilgjengelig"
 
 msgid "eventName/lowerCase"
-msgstr "VAULT OF WHISPERS"
+msgstr "Guds velsignelse"
 
 msgid "eventName/upperCase"
-msgstr "VAULT OF WHISPERS"
+msgstr "Guds velsignelse"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Dersom alle kjøretøy allerede eies, får du en velsignelseseske i stedet."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dersom du ikke åpner alle eskene før eventet er ferdig, blir de automatisk åpnet senere."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Dersom du allerede eier alle kjøretøyene fra eskene får du en valgt velsignelseseske i belønning i stedet for et kjøretøy."
+msgstr "Dersom du allerede eier alle kjøretøyene i esken, får du en valgt utbytteeske som garantert belønning eller i stedet for et sluppet kjøretøy."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Hvert %(guaranteed0)s. utbytte, %(guaranteed1)s. tildeling, og %(guaranteed2)s. valgte velsignelseseske garanteres å inneholde et kjøretøy. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy som du ikke har fra før bli sluppet når du åpner den %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. esken (avhengig av type eske). Når den så slipper et kjøretøy, nullstilles telleren."
+msgstr "Hver %(guaranteed0)s. Celestial, %(guaranteed1)s. Heaven Help, og %(guaranteed2)s. valgte utbytteesker garanteres å inneholde et kjøretøy på nivå 8–10. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy på nivå 8–10 som du ikke har fra før bli sluppet når du åpner den %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. esken (avhengig av type eske). Når den så slipper et kjøretøy, nullstilles telleren."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompensasjon"
+msgstr "Dersom alle kjøretøy er mottatt"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantert belønning"
+msgid "infoPage/header/description"
+msgstr "Åpne esker for sjansen til å få verdifulle eneheter til bruk i spillet!\nSe under for en liste over mulige belønninger."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Ikke mer en én belønning per gruppe kan bli sluppet"
+msgid "noBoxesView/description/"
+msgstr "Du har ingen esker.\nDu kan få dem i Premium Shop."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "VALGT UTBYTTEESKE"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Dersom du allerede eier alle kjøretøyene i esken, får du en valgt utbytteeske som garantert belønning eller garantert belønning i stedet for et sluppet kjøretøy."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Eske med himmelsk utbytte"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "VALGT UTBYTTEESKE"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "HJELP FRA OVEN UTBYTTEESKE"

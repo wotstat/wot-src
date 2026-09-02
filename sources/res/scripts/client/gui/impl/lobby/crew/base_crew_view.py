@@ -28,7 +28,6 @@ class BaseCrewSubView(BaseCrewSoundView):
 
 
 class BaseCrewWidgetView(BaseCrewSoundView, IGlobalListener):
-    __slots__ = (b'_isHangar', b'_crewWidget', b'_currentViewID', b'_previousViewID')
 
     def __init__(self, settings, **kwargs):
         lsm = getLobbyStateMachine()
@@ -111,7 +110,7 @@ class BaseCrewWidgetView(BaseCrewSoundView, IGlobalListener):
         return
 
     def _isCrewWidgetButtonBarVisible(self):
-        return self._isHangar
+        return self._previousViewID != R.views.lobby.crew.BarracksView()
 
     def _setCrewWidget(self, **kwargs):
         crewWidgetClass, crewWidgetLayoutDynAccessor = self._getCrewWidgetBaseData()

@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "levenspunten van het voertuig"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "koepeldraaisnelheid of kanondraaisnelheid voor voertuigen met stationaire cabines"
+msgstr "kanondraaisnelheid"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "koepeldraaisnelheid"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "levenspunten van het voertuig"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "koepeldraaisnelheid of kanondraaisnelheid (laatstgenoemde voor voertuigen met stationaire cabines)"
+msgstr "kanondraaisnelheid"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "koepeldraaisnelheid"
@@ -2100,6 +2100,51 @@ msgstr " en "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "De Externe munitietoevoer modus van het voertuig maakt het gebruik van granaten met hogere schade mogelijk."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Basiswaardes in de standaard modus."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Aangepaste waardes in de Externe munitietoevoer modus."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Standaard parameters voor schoten met volledige lading"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parameters voor schoten met enkelvoudige lading"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Standaard parameters voor schoten met volledige lading"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Standaard"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parameters voor schoten met enkelvoudige lading"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "In de Gekalibreerde modus is dit granaattype effectief tegen schuin pantser."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "In de Standaard modus is dit granaattype effectief tegen pantser zonder schermen."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standaard modus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Gekalibreerde modus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "In de Gekalibreerde modus kan dit granaattype schermen doorboren."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "In de Standaard modus is dit granaattype effectief tegen verticaal pantser."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standaard uitrusting van de %(spec)s-categorie zal op deze plek effectiever zijn. Uitrusting van andere categorieën zal slechts een standaard bonus leveren."

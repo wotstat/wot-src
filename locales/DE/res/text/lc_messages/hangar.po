@@ -136,6 +136,24 @@ msgstr[0] "{{count}} Sieg"
 msgstr[1] "{{count}} Siege"
 msgstr[2] "{{count}} Siege"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Verfügbar für: {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Gefechtserfahrung"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Anlässlich Ihrer erneuten Einsatzbereitschaft haben wir etwas für Sie vorbereitet: Nutzen Sie den {{@ style (color #ede6d9e6)}}täglichen Bonus für Wiedereinstieg{{/}}, um sich gesteigerte Gefechts-EP für den ersten Sieg des Tages in jedem Fahrzeug zu sichern."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Willkommen zurück, Kommandant!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Der Bonus wird jeden Tag um {{@ style (color #ede6d9e6)}}{{value}}{{/}} zurückgesetzt."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonus für Wiedereinstieg: Verfügbar"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klicken Sie hier, um zu Ihrer Fahrzeugauswahl zu gehen."
 

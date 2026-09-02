@@ -139,15 +139,6 @@ msgstr "Apdovanojami žaidėjai už jų neįkainojamą indėlį į World of Tank
 msgid "15YearsOfService_descr"
 msgstr "Jūs žaidime nuo %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "KL rezervų pasiekimas 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Suteikiamas užbaigus seką."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Suteikiamas už pasiekimus žaidime"
-
 msgid "BPReserveAchievement_2"
 msgstr "KL rezervų pasiekimas 2"
 
@@ -429,6 +420,15 @@ msgstr "• Suteikiama užbaigus visus tris skyrius."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Suteikiamas už pasiekimus Kovinio leidimo XX sezone."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Išpuolis žemumose"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Suteikiama užbaigus visus tris skyrius."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Suteikiamas už pasiekimus Kovinio leidimo XXI sezone."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Pagrindinė seka sudaryta iš 45 etapų."
@@ -1828,6 +1828,48 @@ msgstr "Sidabrinis Drakonas"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Suteikiamas už bent 9 surinktas Prasiveržimo spalvas režime Prasiveržimas Drakono metai."
 
+msgid "comp7_6_1"
+msgstr "Žydra kibirkštis"
+
+msgid "comp7_6_1_descr"
+msgstr "Suteikiamas įvykdžius misijų seriją Prasiveržime, žydrojo Fenikso sezone."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzinis Feniksas"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Suteikiamas surinkus bent 6 Prasiveržimo spalvas Prasiveržime Fenikso metais."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Fenikso metų čempionas"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Suteikiamas surinkus bent 15 Prasiveržimo spalvų Prasiveržime Fenikso metais."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Auksinis Feniksas"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Suteikiamas surinkus bent 12 Prasiveržimo spalvų Prasiveržime Fenikso metais."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Geležinis Feniksas"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Suteikiamas surinkus bent 3 Prasiveržimo spalvas Prasiveržime Fenikso metais."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Fenikso metų legenda"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Suteikiamas surinkus bent 18 Prasiveržimo spalvų Prasiveržime Fenikso metais."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Sidabrinis Feniksas"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Suteikiamas surinkus bent 9 Prasiveržimo spalvas Prasiveržime Fenikso metais."
+
 msgid "conqueror"
 msgstr "Užgrobėjas %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Suteikiamas tik Atsitiktiniuose mūšiuose."
 
 msgid "huntsman_descr"
-msgstr "Sunaikinkite visus priešų lengvuosius tankus (bent 3) viename mūšyje."
+msgstr "Sunaikinkite visus priešų lengvuosius tankus (bent 2) viename mūšyje."
 
 msgid "huntsman_heroInfo"
 msgstr "Seržantas Grigorij Naydin buvo BT-7 vadas. 1941 metų Gegužės 25d. netoli Rūdiškių miestelio Lietuvoje jis sunaikino Wehrmacht šarvuočių koloną sudarytą iš 15 tankų ir 10 patrankų priklausiusių Devynioliktajai mechanizuotai divizijai. Naydin sulaikė vokiečių puolimą dvi dienas suteikdamas laiko suorganizuoti gynybines pozicijas prie Vilniaus. Už šį žygdarbį Naydin paskelbtas Sovietų Sąjungos didvyriu."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Su pagyrimu įvykdyti 15 asmeninių „Sąjungos“ užduočių. Apdovanojimas: III klasės medalis „Pavyzdingai Atlikta: Sąjunga“."
 
 msgid "readyForBattleAssault"
-msgstr "Pavyzdinis pasirodymas: Avangardas"
+msgstr "Pavyzdinis pasirodymas: 3 sektoriaus avangardas"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Įvykdžiusiems visas Avangardo misijas kampanijoje 3 sektorius."
+msgstr "Įvykdžiusiems visas pagrindinės operacijos Avangardo misijas kampanijoje 3 sektorius."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Pavyzdinis pasirodymas: Fossa avangardas"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Įvykdžiusiems visas Fossa operacijos Avangardo misijas kampanijoje 3 sektorius."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Pavyzdinis pasirodymas: Fossa pasala"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Įvykdžiusiems visas Fossa operacijos pasalos misijas kampanijoje 3 sektorius."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Pavyzdinis pasirodymas: Fossa pagalba"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Įvykdžiusiems visas Fossa operacijos pagalbos misijas kampanijoje 3 sektorius."
 
 msgid "readyForBattleHT"
 msgstr "Pavyzdinis pasirodymas: sunkieji tankai"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Įvykdykite su pagyrimu 15 asmeninių misijų skirtų SAP. Apdovanojimas: Pavyzdinis pasirodymas: SAP, IV klasės medalis."
 
 msgid "readyForBattleSniper"
-msgstr "Pavyzdinis pasirodymas: Pasala"
+msgstr "Pavyzdinis pasirodymas: 3 sektoriaus pasala"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Įvykdžiusiems visas Pasalos misijas kampanijoje 3 sektorius."
+msgstr "Įvykdžiusiems visas pagrindinės operacijos pasalos misijas kampanijoje 3 sektorius."
 
 msgid "readyForBattleSupport"
-msgstr "Pavyzdinis pasirodymas: Pagalba"
+msgstr "Pavyzdinis pasirodymas: 3 sektoriaus pagalba"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Įvykdžiusiems visas Pagalbos misijas kampanijoje 3 sektorius."
+msgstr "Įvykdžiusiems visas pagrindinės operacijos pagalbos misijas kampanijoje 3 sektorius."
 
 msgid "reliableComrade"
 msgstr "Kovos draugas"
@@ -4692,6 +4761,15 @@ msgstr "Suteikiamas žaidėjams, įvykdžiusiems Waffenträger: Paradoksas seką
 
 msgid "wt2025progression_descr"
 msgstr "Įvykdyti Waffenträger režimo seką."
+
+msgid "wt2026progression"
+msgstr "Audros raitelis"
+
+msgid "wt2026progression_condition"
+msgstr "Suteikiamas įvykdžiusiems Waffenträger: Gimimas 2026 seką. Šis garbės ženkliukas skirtas tiems, kurie stojo į kovą prieš pirmąją mąstančią von Krieger mašiną, elektrinį intelektą, ir sunaikino kiekvieną mikroschemą, per kurią jis bandė patekti į mūsų pasaulį."
+
+msgid "wt2026progression_descr"
+msgstr "Įvykdykite Waffenträger: Gimimas 2026 seką."
 
 msgid "wtBossWins"
 msgstr "Žaibų valdovas"

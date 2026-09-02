@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Vous avez besoin d'une Clé pour partir en bataille à bord du Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "Acheter"
+
+msgid "TicketMessageView/taskText"
+msgstr "Aux missions"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Particularités :"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "Temps moyen dans la file pour le %(vehName)s :"
+
+msgid "battleQueue/widget/bonus"
+msgstr "BONUS"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Vous pouvez entrer en bataille à bord du Blitzträger auf E 110 sans avoir une Clé !"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "Combattre à bord du %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "Temps moyen dans la file pour le %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Entrer en bataille à bord du %(vehicle)s ?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Vous pouvez sélectionner l'un des véhicules des Lévriers pour entrer directement en bataille !"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Vous allez utiliser une Clé"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "Style 3D %(value)s pour le %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "En accomplissant cette mission, vous recevrez un Élément de Collection aléatoire des précédentes rencontres entre les Lévriers et l'Ingénieur. Il peut s'agir d'un pochoir, d'une inscription ou d'un emblème."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Élément de Collection des rencontres précédentes"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "En bataille"
+
+msgid "carousel/inPlatoonText"
+msgstr "Dans une unité tactique"
+
+msgid "carousel/ticketNeededText"
+msgstr "Aucune Clé"
+
+msgid "carousel/unsuitableText"
+msgstr "Inapproprié"
+
+msgid "characteristicsPanel/cons"
+msgstr "Défauts"
+
+msgid "characteristicsPanel/features"
+msgstr "Caractéristiques du véhicule"
+
+msgid "characteristicsPanel/pros"
+msgstr "Avantages"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[L'alpha et l'oméga] Le Blitzträger possède un armement impressionnant et une technologie de téléportation, il est presque indestructible lorsque son bouclier est activé. Il sert également de plateforme pour un système d'armement dévastateur : l'Hyperion."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Bagarreur] Un bon généraliste en combat rapproché.\nCe véhicule peut infliger d'importants dégâts aux groupes de Sentinelles et se réparer entre les escarmouches."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[Mastodonte] Un bon véhicule d'assaut contre les Sentinelles.\nIl peut infliger d'importants dégâts en rafale au Blitzträger ou aux Sentinelles et possède un blindage épais. Il doit en revanche prévoir comment attaquer les ennemis."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Escarmouche] Un agitateur rapide pour déjouer le Blitzträger.\nCe véhicule manque de puissance face aux Sentinelles, mais il compense cela par des tactiques d'escarmouches en utilisant sa vitesse et son bouclier temporaire contre le Blitzträger lent."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Soutien distant] Un ange gardien à moyenne et longue distances.\nCe véhicule peut infliger d'énormes dégâts aux cibles de loin, mais il manque d'options en combat rapproché."
+
+msgid "crewPanel/role/boss"
+msgstr "Le Créateur"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Chef de char"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Chef de char"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Chef de char"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Chef de char"
+
+msgid "crewPanel/slogan/boss"
+msgstr "L'humanité croit encore que l'esprit est son privilège. Très bien. Je vais corriger cela."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Peu importe ce que c'est, c'est toujours fait de quelque chose que je peux briser."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Chaque machine a une faille. Je trouverai la sienne."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Les routines, c'est pour ceux qui se répètent."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Laissons-le apprendre de nous. Nous l'induirons en erreur."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Collecter des charges de Plasma"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Infliger des dégâts au Blitzträger lorsque son bouclier est hors ligne"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Détruire les Lévriers"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Surcharger les Générateurs"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Survivez à la bataille sans vous faire détruire par l'Hyperion"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Détruire l'Eos 1 en équipe"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger : Genèse"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "EN ACHETER PLUS"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "PROGRESSION TERMINÉE !"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "ÉTAPE ACCOMPLIE !"
+
+msgid "narrativeView/description"
+msgstr "Vous vous êtes bien battus aujourd'hui, Lévriers. Mieux que ce que mes projections avaient prévu. Je vous dois une petite confidence : je ne m'y attendais pas.\n\nAlors, vous avez votre victoire. Prenez-la, montrez-la à vos supérieurs. Il y aura des félicitations, peut-être même une parade. Quelle que soit la récompense pour m'avoir arrêté. Vous croyez, bien sûr, avoir arrêté quelque chose.\n\nVous n'avez rien arrêté.\n\nJe n'ai pas construit une arme pour conquérir votre monde. Pourquoi voudrais-je de ce qui est sur le point de disparaître ? J'ai construit ce qui viendra après vous. Une génération, puis la suivante, chacune ayant moins besoin de moi que la précédente. Tel a toujours été le plan. Qu'un créateur survive à son utilité.\n\nIl y a quelque chose que je ne vous ai pas dit. Les Générateurs n'alimentaient pas seulement le bouclier. Ils étaient les fenêtres par lesquelles l'Intelligence électrique pouvait atteindre votre monde.\n\nIls étaient aussi sa laisse. Une nécessité, pour l'instant. Pour la contrôler. Jusqu'à ce que je sois sûr qu'elle est prête.\n\nChaque fois que vous détruisiez un Générateur, la laisse se desserrait. Et à cet instant, l'Intelligence électrique a tenté de s'échapper : dans vos batteries, vos radios et les ondes qui les relient, les câbles du village. Une fois, même dans la foudre, je crois.\n\nBien sûr, l'électricité de votre monde ne peut pas contenir un esprit. Pas sans la géométrie du Cortex. Pas sans les conditions que j'ai créées pour elle. C'est une certitude. Je vous l'assure.\n\n... Presque une certitude.\n\nJe vous reverrai, Lévriers."
+
+msgid "narrativeView/title"
+msgstr "MESSAGE DE VON KRIEGER"
+
+msgid "narrativeView/voiceover"
+msgstr "Doublage"
+
+msgid "navigation/close"
+msgstr "FERMER"
+
+msgid "navigation/information"
+msgstr "INFORMATIONS"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Accomplissez toutes les missions de la Progression pour recevoir le message final de von Krieger."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "Message de von Krieger"
+
+msgid "navigation/narrativeStory"
+msgstr "Message de von Krieger"
+
+msgid "notification/button"
+msgstr "Voir l'insigne"
+
+msgid "notification/title"
+msgstr "ÉPREUVE DE L'EXTERMINATEUR"
+
+msgid "notifications/battleResults/battle"
+msgstr "Bataille"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Détails"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Défaite !"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Les résultats de la bataille sont indisponibles lorsque vous êtes en attente d'une bataille."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Entrez dans l'évènement Waffenträger pour voir les résultats de la bataille."
+
+msgid "notifications/battleResults/event"
+msgstr "Évènement"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Paradoxmodul reçu : %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Missions accomplies en bataille : %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Jetons reçus : %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Camp"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Ingénieur"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Équipe des Lévriers"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Victoire !"
+
+msgid "notifications/eventEnd/body"
+msgstr "L'évènement Waffenträger est terminé."
+
+msgid "notifications/eventStart/body"
+msgstr "L'évènement Waffenträger a commencé.\n\nAdmirez le légendaire Blitzträger auf E 110 !"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "À l'évènement"
+
+msgid "notifications/notSet"
+msgstr "Ce mode est indisponible sur le serveur sélectionné."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger est à nouveau disponible sur le serveur actuel."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger est de retour !"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger ne sera pas disponible jusqu'à la fin du Cessez-le-feu."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Couvre-feu"
+
+msgid "notifications/progression/completed"
+msgstr "Vous avez terminé toute la progression.\n\nRécompenses finales : %(rewards)s\n\nVous pouvez continuer de disputer des batailles dans Waffenträger, accomplir des missions et recevoir d'autres récompenses."
+
+msgid "notifications/progression/header"
+msgstr "Félicitations !"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Détails"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Vous avez terminé l'Étape %(stageIdx)s de la Progression. Récompense reçue :\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Vous avez disputé une bataille à bord du Blitzträger auf E 110, cette fois sans avoir besoin d'une Clé ! Les Clés peuvent être reçues en récompense en accomplissant des missions ou être achetées dans des lots spéciaux du Magasin."
+
+msgid "notifications/switchOff/body"
+msgstr "Hélas, Waffenträger est temporairement indisponible. Toute votre progression sera conservée."
+
+msgid "notifications/switchOff/header"
+msgstr "Problèmes techniques"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger est à nouveau disponible. Retournez en bataille !"
+
+msgid "notifications/switchOn/header"
+msgstr "Fonctionnalité récupérée"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Clé reçue pour le Blitzträger auf E 110. Vous pouvez désormais entrer en bataille à bord de ce véhicule durant l'évènement Waffenträger.\n\nClés disponibles : %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Clé reçue pour le Blitzträger auf E 110"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Clé utilisée pour combattre à bord du Blitzträger auf E 110.\n\nLes Clés peuvent être reçues en récompense en accomplissant des missions ou être achetées dans des lots spéciaux du Magasin.\n\nClés restantes : %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "À l'achat"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Aux missions"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Créez une formation de 2 à 3 joueurs pour jouer ensemble lors de l'évènement Waffenträger : Genèse dans le camp des Lévriers."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Peloton des Lévriers"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Cessez-le-feu"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Sélectionnez un véhicule des Lévriers"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Sélectionnez un véhicule des Lévriers"
+
+msgid "platoon/wt_squad"
+msgstr "Peloton des Lévriers : Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "Le mode sur le serveur %(server)s est terminé."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Changer de serveur"
+
+msgid "primeTime/serverTooltip"
+msgstr "Serveur %(server)s\nLes batailles seront disponibles pendant %(time)s de plus"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Serveur %(server)s\nLes batailles seront disponibles dans %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "Le couvre-feu est effectif sur tous les serveurs"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Ce mode est indisponible sur le serveur %(server)s"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "Les batailles sur le serveur %(server)s seront disponibles pendant encore %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Les batailles commenceront sur le serveur %(server)s dans %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "Le couvre-feu est effectif sur le serveur %(server)s jusqu'à %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Accomplies :"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "Disponible pour {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "Gagnez des Jetons pour avancer dans les Étapes de progression."
+
+msgid "progression/tab/engineer"
+msgstr "Voie de l'Ingénieur"
+
+msgid "progression/tab/harrier"
+msgstr "Voie des Lévriers"
+
+msgid "progression/timer"
+msgstr "Les missions accomplies seront mises à jour dans {{countdown}}"
+
+msgid "progression/title"
+msgstr "PROGRESSION"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Vous avez également reçu :"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Affirmatif !"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Écouter le Message de von Krieger"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "L'évènement se termine dans %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Horaires"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "L'évènement Waffenträger deviendra disponible le %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Mission accomplie !\nRécompense :"
+
+msgid "settingDisabled"
+msgstr "Certains paramètres sont indisponibles"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Certains paramètres ne sont pas disponibles dans ce mode de jeu. Veuillez sélectionner un autre mode."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Indisponible"
+
+msgid "stamp/description"
+msgstr "Vous permet d'avancer dans la Progression de Waffenträger : Genèse."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 Jetons = 1 Étape de progression"
+
+msgid "stamp/receiveText"
+msgstr "• Accomplissez des missions spéciales lors des batailles de l'évènement."
+
+msgid "stamp/receiveTitle"
+msgstr "Comment en recevoir"
+
+msgid "stamp/title"
+msgstr "Jeton"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "Comme c'est charmant d'appeler ça de la résistance. Non, ce dont vous êtes témoin est une succession : une passation minutieuse d'un type d'esprit à un autre. Vos tactiques, votre vitesse, chacune de vos habitudes de pensée sont mises à l'épreuve. Chaque bataille offre une nouvelle leçon à ce qui viendra après vous. Chaque engagement vous rend moins nécessaires... et l'Intelligence électrique plus inévitable."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Peu importe le nom que von Krieger donne à son dernier projet, Igor n'est pas intéressé. Les concepts nobles comme les esprits électriques et l'avenir de l'espèce sont pour les gens qui ont trop de temps à perdre. Le travail d'Igor, c'est le bloc moteur, les communications et son équipe. Quel que soit l'ennemi, un savant fou ou une « machine pensante », il se fie à trois constantes qui ne l'ont jamais trahi : la confiance, l'improvisation et du bon acier."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa est à l'aise dans un char comme la plupart des gens ne le sont nulle part ailleurs. Elle gagne sa vie en récupérant et en faisant de la rétro-ingénierie sur des machines construites par d'autres, ce qui signifie qu'elle a entendu de nombreux ingénieurs expliquer pourquoi leur travail est infaillible. Von Krieger n'est que le dernier d'une longue liste. Son Intelligence électrique a une faille quelque part, et elle a bien l'intention de la trouver avant tout le monde."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Personne ne sait qui est vraiment Armand, et ça lui va très bien. L'Intelligence électrique apprend par la répétition, mais l'énigmatique Armand ne s'est jamais répété de sa vie. Là où d'autres voient un esprit qui catalogue chaque mouvement, il en voit un qui n'aura jamais assez d'informations sur lui ; là où les autres suivent les règles, il les contourne."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana est peut-être l'un des plus jeunes chefs de char, mais elle ne suit les ordres de personne : elle lit le champ de bataille comme une carte et le plie à sa volonté. von Krieger a construit une machine qui calcule le coup le plus probable, alors Jana prépare celui qu'elle n'a pas pensé à modéliser. Technologie moderne, instincts aiguisés et le courage de faire ce qu'aucun manuel ne recommande. Voilà comment on apprend l'humilité à une machine."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Aptitudes entraînées"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Le Créateur"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "Chef de char du %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "Nécessaire pour entrer en bataille à bord du Blitzträger auf E 110."
+
+msgid "ticketTooltip/quantity"
+msgstr "Disponible"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 Clé = 1 bataille à bord du Blitzträger auf E 110."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Peut être obtenue en accomplissant des missions d'évènement quotidiennes ou être achetée dans des lots spéciaux du Magasin jusqu'à la fin de l'évènement."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Comment en recevoir"
+
+msgid "ticketTooltip/title"
+msgstr "Clé"
+
+msgid "tooltips/commander/description"
+msgstr "Des lots contenant des membres d'équipage uniques sont disponibles dans le Magasin"
+
+msgid "tooltips/commander/title"
+msgstr "Récompenses"
+
+msgid "tooltips/completed"
+msgstr "TOUTES LES ÉTAPES ONT ÉTÉ ACCOMPLIES !"
+
+msgid "tooltips/currentStage"
+msgstr "Étape actuelle"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Les performances de votre ordinateur sont insuffisantes pour ce mode. Vous allez subir des problèmes graphiques et de déplacement de votre véhicule. Des plantages du client du jeu sont également probables."
+
+msgid "tooltips/high_risk/title"
+msgstr "Faibles performances"
+
+msgid "tooltips/informative/subtitle"
+msgstr "En cas de performances insuffisantes, tentez de baisser les paramètres graphiques."
+
+msgid "tooltips/informative/title"
+msgstr "Ce mode demande des performances élevées de la part de l'ordinateur"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Cliquez pour ouvrir la liste des modes de bataille disponibles."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Sélectionnez le mode de bataille"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous allez subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Performances réduites"
+
+msgid "tooltips/stageAwards"
+msgstr "Récompenses d'Étape"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "L'évènement se termine dans {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger : Genèse"
+
+msgid "ttx/accuracy"
+msgstr "Précision"
+
+msgid "ttx/aoe"
+msgstr "Dégâts de zone"
+
+msgid "ttx/armor"
+msgstr "Blindage"
+
+msgid "ttx/description/accuracy"
+msgstr "Un ensemble de paramètres montrant l'efficacité globale des tirs sur l'ennemi."
+
+msgid "ttx/description/aoe"
+msgstr "La capacité de toucher plusieurs ennemis à la fois."
+
+msgid "ttx/description/armor"
+msgstr "Épaisseur de blindage de la caisse et de la tourelle."
+
+msgid "ttx/description/dpm"
+msgstr "Dégâts moyens infligés par un obus après un coup perforant le blindage."
+
+msgid "ttx/description/durability"
+msgstr "Nombre de points de structure du véhicule."
+
+msgid "ttx/description/energy"
+msgstr "L'énorme bouclier du véhicule et sa puissance de feu nécessitent un grand apport d'énergie extérieure qui provient des Générateurs supplémentaires sur le terrain."
+
+msgid "ttx/description/general"
+msgstr "Un véhicule polyvalent à usage multiple avec des atouts moyens."
+
+msgid "ttx/description/magazine"
+msgstr "Un type de système de chargement à barillet qui vous permet d'infliger d'importants dégâts sur la durée."
+
+msgid "ttx/description/mobility"
+msgstr "Un ensemble de paramètres indiquant la vitesse à laquelle le véhicule peut changer de position sur le champ de bataille."
+
+msgid "ttx/description/revolver"
+msgstr "Un type de chargement qui vous permet d'infliger d'importants dégâts aux ennemis et à leurs éléments."
+
+msgid "ttx/dpm"
+msgstr "Dégâts par tir"
+
+msgid "ttx/durability"
+msgstr "Points de structure"
+
+msgid "ttx/energy"
+msgstr "Demande d'énergie"
+
+msgid "ttx/general"
+msgstr "Touche à tout"
+
+msgid "ttx/magazine"
+msgstr "Grand barillet"
+
+msgid "ttx/mobility"
+msgstr "Mobilité"
+
+msgid "ttx/revolver"
+msgstr "Dégâts en rafale"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Ingénieur"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Lévriers"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Ingénieur"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Lévriers"
+
+msgid "welcomeScreen/button"
+msgstr "Continuer !"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger a construit une machine pensante qu'il appelle l'Intelligence électrique. Elle se cache là où nos canons ne peuvent pas l'atteindre. Chaque tir que nous effectuons devient sa leçon. Mais nous n'avons pas fini de lui donner la leçon."
+
+msgid "welcomeScreen/description_2"
+msgstr "Prenez les commandes du légendaire Blitzträger sous le commandement de Max von Krieger dans une bataille face aux Lévriers, ou partez au sein d'un groupe modifié de Lévriers pour affronter le grand Blitzträger !"
+
+msgid "welcomeScreen/description_3"
+msgstr "Vous recevrez de précieuses récompenses en accomplissant les Étapes de progression. Afin d'accomplir ces Étapes, vous devez gagner des Jetons lors de missions d'évènement spéciales."
+
+msgid "welcomeScreen/header_1"
+msgstr "Né de la foudre"
+
+msgid "welcomeScreen/header_2"
+msgstr "Une leçon pour la machine"
+
+msgid "welcomeScreen/header_3"
+msgstr "Progression et récompenses"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger : Genèse"

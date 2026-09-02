@@ -161,7 +161,7 @@ msgid "modifier/name/invisibilityOnMove"
 msgstr "Ocultación en movimiento"
 
 msgid "modifier/name/invisibilityOnStill"
-msgstr "Ocultación de un vehículo parado"
+msgstr "Ocultación (sin movimiento)"
 
 msgid "modifier/name/normalizationAngle"
 msgstr "Normalización de proyectil"
@@ -222,6 +222,9 @@ msgstr "Daño por presión"
 
 msgid "modifier/name/vehicleRammingDamage"
 msgstr "Daño por embestidas"
+
+msgid "modifier/name/visionMaxRadius"
+msgstr "Alcance de detección máximo"
 
 msgid "modifier/name/visionMinRadius"
 msgstr "Radio de detección por proximidad"

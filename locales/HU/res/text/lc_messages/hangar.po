@@ -136,6 +136,24 @@ msgstr[0] "{{count}} győzelem"
 msgstr[1] "{{count}} győzelem"
 msgstr[2] "{{count}} győzelem"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Elérhető eddig: {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Harci tapasztalat"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Hogy megünnepeljük a visszatérésedet a csatatérre, egy különleges meglepetéssel készültünk számodra: {{@ style (color #ede6d9e6)}}a napi újrabevetési bónusz{{/}} megnöveli a nap első győzelméért szerzett harci XP-t minden járműben."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Üdv újra itt, parancsnok!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "A bónusz mindennap ekkor áll vissza: {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Újrabevetési bónusz: Elérhető"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Kattints a járműlistád megtekintéséhez"
 

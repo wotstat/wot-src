@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "BEZÁRÁS"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Értettem!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "A Bemelegítés emlékeztet a játék alapjaira. A csatákat mesterséges intelligencia által irányított járművek ellen játszod, és az eredmények nem számítanak bele a statisztikáidba. A Bemelegítésből bármikor kiléphetsz, és folytathatod a Normál csatákat."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Bemelegítés"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Teljesítsd a küldetéseket, fejezd be az „Újra akcióban” előrehaladási szakaszait, és szerezz értékes játékbeli jutalmakat. Minden teljesített általános, prémium vagy bónuszküldetés beleszámít a jutalomba. A küldetéseket Bemelegítésben és Normál csatákban lehet teljesíteni."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Teljesítsd a küldetéseket, fejezd be az „Újra akcióban” előrehaladási szakaszait, és szerezz értékes játékbeli jutalmakat. A Battle Pass alatt a jutalmak között Battle Pass-pontokat is találhatsz. A küldetéseket Bemelegítésben és Normál csatákban lehet teljesíteni."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Újra akcióban"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Jutalomként VIII-as szintű bérelhető prémium járműveket, VI-os szintű kifejleszthető járműveket, valamint kedvezményeket kaphatsz a járművek kifejlesztésére és megvásárlására. Az előrehaladás teljesítése után megkapod a fő jutalmat."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Jutalmak"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ÚJRA AKCIÓBAN"
-
 msgid "mainRewardTooltip/description"
 msgstr "Az „Újra akcióban” előrehaladás teljesítése után a következőket kapod:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Fő jutalom"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Kedvezmény egy %(level)s. szintű jármű kifejlesztésére és megvásárlására"
+msgstr "Kedvezmény egy {{level}}. szintű jármű kifejlesztésére és megvásárlására"
 
 msgid "modeInfoTooltip/description"
 msgstr "Mesterséges intelligencia által irányított járművek elleni csaták, amelyek nem számítanak bele a statisztikáidba. A győzelemhez el kell foglalnod az ellenséges bázist, vagy meg kell semmisítened az összes ellenséges járművet. A csaták VI-XI-es szinten 15v15 formátumban, I-V-ös szinten pedig 10v10 formátumban zajlanak."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Bemelegítés"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Bármelyik %(level)s. szintű kifejleszthető járművet választhatod. A jármű kifejlesztett modulokkal, legénységgel és egy garázsférőhellyel érkezik."
+msgstr "Bármelyik {{level}}. szintű kifejleszthető járművet választhatod. A jármű kifejlesztett modulokkal, legénységgel és egy garázsférőhellyel érkezik."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "%(level)s. szintű jármű"
+msgstr "{{level}}. szintű jármű"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Egy %(researchDiscount)s-os kedvezmény egy %(level)s. szintű jármű kifejlesztésére, és egy %(purchaseDiscount)s-os kedvezmény a megvásárlására. Bármelyik kifejleszthető járművet választhatod."
+msgstr "{{researchDiscount}}-os kedvezmény egy {{level}}. szintű jármű kifejlesztésére, és egy {{purchaseDiscount}}-os kedvezmény a megvásárlására. Bármelyik kifejleszthető járművet választhatod."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "A {whiteSpanish_Open}kifejlesztésre{whiteSpanish_Close} vonatkozó kedvezmény hozzáadódik a jármű tervrajztöredékeiért kapott kedvezményhez. A lehetséges legnagyobb {whiteSpanish_Open}vásárlási{whiteSpanish_Close} kedvezményt alkalmazzuk."
+msgstr "A {{@ style (color $color)}}kifejlesztésre{{/}} vonatkozó kedvezmény hozzáadódik a jármű tervrajztöredékeiért kapott kedvezményhez. A lehetséges legnagyobb {{@ style (color $color)}}vásárlási{{/}} kedvezményt alkalmazzuk."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Kedvezmény egy %(level)s. szintű járműre"
+msgstr "Kedvezmény egy {{level}}. szintű járműre"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Értettem!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "A Bemelegítés emlékeztet a játék alapjaira. A csatákat mesterséges intelligencia által irányított járművek ellen játszod, és az eredmények nem számítanak bele a statisztikáidba. A Bemelegítésből bármikor kiléphetsz, és folytathatod a Normál csatákat."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Bemelegítés"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Teljesítsd a küldetéseket, fejezd be az Újra akcióban előrehaladási szakaszait, és szerezz értékes játékbeli jutalmakat. A Battle Pass alatt a jutalmak között Battle Pass-pontokat is találhatsz. A küldetéseket Bemelegítésben és Normál csatákban lehet teljesíteni."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Teljesítsd a küldetéseket, fejezd be az Újra akcióban előrehaladási szakaszait, és szerezz értékes játékbeli jutalmakat. Minden teljesített általános, prémium vagy bónuszküldetés beleszámít a jutalomba. A küldetéseket Bemelegítésben és Normál csatákban lehet teljesíteni."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Újra akcióban"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Jutalomként VIII-as szintű bérelhető prémium járműveket, VI-os szintű kifejleszthető járműveket, valamint kedvezményeket kaphatsz a járművek kifejlesztésére és megvásárlására. Az előrehaladás teljesítése után megkapod a fő jutalmat."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Jutalmak"
+
+msgid "umgIntroView/title"
+msgstr "ÚJRA AKCIÓBAN"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "A %(research)s vonatkozó kedvezmény hozzáadódik a jármű tervrajztöredékeiért kapott kedvezményhez. A lehetséges legnagyobb %(purchase)s kedvezményt alkalmazzuk."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Kilépsz a Bemelegítésből?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Hátralévő csaták: %(battlesCount)s"
+msgstr "Hátralévő csaták: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Mesterséges intelligencia által irányított járművek elleni csaták, amelyek nem számítanak bele a statisztikáidba."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Emellett még kaptál:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "Egy %(expDiscount)s-os kedvezmény egy %(level)s. szintű jármű kifejlesztésére és egy %(priceDiscount)s-os kedvezmény a megvásárlására"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} kedvezmény egy {{level}}. szintű jármű kifejlesztésére, valamint {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} kedvezmény a megvásárlására"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "%(level)s. szintű jármű"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "{{level}}. szintű jármű"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Kedvezmény egy %(level)s. szintű járműre"
+msgstr "Kedvezmény egy {{level}}. szintű járműre"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "A napi küldetések egy sorozatának teljesítéséért"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "ELŐREHALADÁS TELJESÍTVE"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "Egy %(expDiscount)s-os kedvezmény fejlesztésre\nés egy %(priceDiscount)s-os kedvezmény vásárlásra"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} kedvezmény a kifejlesztésre, valamint {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} kedvezmény a megvásárlásra"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Garázsban"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "A bérlésből hátralévő napok: %(days)s"
+msgstr "Bérleti napok: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Kedvezmény a fejlesztésre és a vásárlásra"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "%(value)sx"
+msgstr "{{value}}x"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Később választok"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Szűrő visszaállítása"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Járműkedvezmény"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "%(vehicleLevel)s. szintű jármű"
+msgstr "{{vehicleLevel}}. szintű jármű"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Értettem!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "A jutalomválasztó nem nyitható meg"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Kifejlesztetted az összes %(vehicleLevel)s. szintű járművet. Mostantól kaphatsz nemzeti tervrajztöredékeket jutalomként."
+msgstr "Kifejlesztetted az összes {{vehicleLevel}}. szintű járművet. Mostantól kaphatsz nemzeti tervrajztöredékeket jutalomként."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Keresés név alapján"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsAvailable)s{par_Open}/%(itemsShown)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Megjelenített:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Alapértelmezésként beállítva"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Kiválasztott jutalmak: %(amountRewards)s %(infoIcon)s"
+msgstr "Kiválasztott jutalmak: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Válassz jutalmakat a megadott kategóriákból"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nincs találat. Változtasd meg a szűrési beállításaidat, vagy állítsd vissza őket alapállapotba."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}%(bluePrintsAmount)sx nemzeti tervrajztöredék{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nemzeti tervrajztöredék{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% kedvezmény a fejlesztésre és %(priceDiscount)s% kedvezmény a vásárlásra)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% kedvezmény a kifejlesztésére és {{priceDiscount}}% kedvezmény a megvásárlására)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Kedvezmény egy %(level)s. szintű járműre"
+msgstr "Kedvezmény egy {{level}}. szintű járműre"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Az összes modul kifejlesztve, legénység és egy garázsférőhely)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (minden kifejlesztett modul, legénység és garázsférőhely)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "%(level)s. szintű jármű"
+msgstr "{{level}}. szintű jármű"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Kattints az „Igényel” gombra a kiválasztott jutalmak átvételéhez."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Kiválasztott jutalmak: %(amountRewards)s"
+msgstr "Kiválasztott jutalmak: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Vásárlás"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "VÁLASZD KI A JUTALMADAT"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "páncélvadász"

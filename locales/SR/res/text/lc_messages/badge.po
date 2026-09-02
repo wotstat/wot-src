@@ -644,7 +644,7 @@ msgid "badge_190"
 msgstr "Sektor 3 super agent"
 
 msgid "badge_190_descr"
-msgstr "Može da se dobije za završavanje svih ličnih misija u kampanji Sektor 3."
+msgstr "Može da se dobije za završavanje svih ličnih misija u glavnoj operaciji kampanje Sektor 3."
 
 msgid "badge_191"
 msgstr "Podrška SLJ jesen '25"
@@ -842,19 +842,19 @@ msgid "badge_225"
 msgstr "Goreća zakletva"
 
 msgid "badge_225_descr"
-msgstr "Dodeljuje se za dostizanje ranga Šampion u sezoni Grimiznog zmaja u režimu Juriša. Nagrada se uklanja na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje šampionskog ranga u sezoni Grimiznog zmaja u režimu Juriša."
 
 msgid "badge_226"
 msgstr "Kruna od plamena"
 
 msgid "badge_226_descr"
-msgstr "Dodeljuje se za dostizanje ranga Legenda u sezoni Grimiznog zmaja u režimu Juriša. Nagrada se uklanja na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Grimiznog zmaja u režimu Juriša."
 
 msgid "badge_227"
 msgstr "Supernova"
 
 msgid "badge_227_descr"
-msgstr "Dodeljuje se za dostizanje ranga Legenda u sezoni Grimiznog zmaja u režimu Juriša. Nagrada se uklanja na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Grimiznog zmaja u režimu Juriša."
 
 msgid "badge_228"
 msgstr "ATLAS branitelj"
@@ -878,25 +878,25 @@ msgid "badge_231"
 msgstr "Štetna kuga"
 
 msgid "badge_231_descr"
-msgstr "Dodeljuje se za dostizanje šampionskog ranka u sezoni Zmaja od žada u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje šampionskog ranga u sezoni Žad zmaja u režimu Juriša."
 
 msgid "badge_232"
 msgstr "Otrovni raj"
 
 msgid "badge_232_descr"
-msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Zmaja od žada u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Žad zmaja u režimu Juriša"
 
 msgid "badge_233"
 msgstr "Biološka opasnost"
 
 msgid "badge_233_descr"
-msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Zmaja od žada u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+msgstr "Dodeljuje se za dostizanje legendarnog ranga u sezoni Žad zmaja u režimu Juriša"
 
 msgid "badge_234"
 msgstr "Podrška OLS jesen '26"
 
 msgid "badge_234_descr"
-msgstr "Dodeljuje se najposvećenijim fanovima SLJ jesen '26. Cenimo tvoju podršku!"
+msgstr "Dodeljuje se najposvećenijim fanovima OLS jesen '26. Cenimo tvoju podršku!"
 
 msgid "badge_235"
 msgstr "OLS jesen '26 prorok"
@@ -904,11 +904,65 @@ msgstr "OLS jesen '26 prorok"
 msgid "badge_235_descr"
 msgstr "Dodeljuje se fanovima koji predvide pobednički tim OLS jesen '26. Tvoje predviđanje je legendarno!"
 
+msgid "badge_236"
+msgstr "Sentinelle istrebljivač"
+
+msgid "badge_236_descr"
+msgstr "Dodeljuje se za eliminisanje 200 fon Kriegerovih sentinela."
+
+msgid "badge_237"
+msgstr "Fossa VM 68 značka II klase"
+
+msgid "badge_237_descr"
+msgstr "Može da se dobije za sastavljanje Fossa VM 68 srednjeg tenka."
+
+msgid "badge_238"
+msgstr "Fossa VM 68 značka I klase"
+
+msgid "badge_238_descr"
+msgstr "Može da se dobije za završavanje svih misija u Fossa operaciji."
+
+msgid "badge_239"
+msgstr "Feniks šampion"
+
+msgid "badge_239_descr"
+msgstr "Dodeljuje se za dostizanje šampionskog ranka u sezoni Azurnog feniksa u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+
 msgid "badge_23_descr"
 msgstr "Budi među 1000 najboljih učesnika događaja \"Marš nacija\" u vozilima VII nivoa."
 
 msgid "badge_24"
 msgstr "Tenkovski ekspert: VIII nivo"
+
+msgid "badge_240"
+msgstr "Feniks legenda"
+
+msgid "badge_240_descr"
+msgstr "Dodeljuje se za dostizanje legendarnog ranka u sezoni Azurnog feniksa u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+
+msgid "badge_241"
+msgstr "Legendarni feniks"
+
+msgid "badge_241_descr"
+msgstr "Dodeljuje se za dostizanje legendarnog ranka u sezoni Azurnog feniksa u režimu Juriša. Ova nagrada će biti uklonjena na početku sledeće sezone."
+
+msgid "badge_242"
+msgstr "Juriš 2026-2027: šampion"
+
+msgid "badge_242_descr"
+msgstr "Komemorativna značka dodeljena za sakupljanje 15 boja Juriša"
+
+msgid "badge_243"
+msgstr "Juriš 2026-2027: legenda"
+
+msgid "badge_243_descr"
+msgstr "Komemorativna značka dodeljena za sakupljanje 18 boja Juriša"
+
+msgid "badge_244"
+msgstr "Legenda feniksa"
+
+msgid "badge_244_descr"
+msgstr "Specijalna traka nadimka dodeljena najboljim igračima tokom godine feniksa u režimu Juriša."
 
 msgid "badge_24_descr"
 msgstr "Budi među 1000 najboljih učesnika događaja \"Marš nacija\" u vozilima VIII nivoa."
@@ -1512,6 +1566,12 @@ msgstr "Supernova"
 
 msgid "suffix/badge_233"
 msgstr "Biološka opasnost"
+
+msgid "suffix/badge_241"
+msgstr "Legendarni feniks"
+
+msgid "suffix/badge_244"
+msgstr "Legenda feniksa"
 
 msgid "suffix/badge_56"
 msgstr "Alfa tester"

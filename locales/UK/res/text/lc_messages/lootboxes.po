@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Ми відчинили всі ваші новорічні коробки"
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Вітаємо!"
 
@@ -58,34 +55,10 @@ msgstr "×{count}"
 msgid "entryDesc/buySlot"
 msgstr "Великі коробки можна купити лише у Преміум магазині"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Великі коробки"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Малі коробки"
-
-msgid "entryDesc/questSlot"
-msgstr "Малі коробки можна здобути, виконуючи завдання"
-
 msgid "entryDesc/restrictedMode"
 msgstr "Функціональність тимчасово недоступна. Спробуйте пізніше."
 
 msgid "entryPoint/header"
-msgstr "Коробки"
-
-msgid "entryTooltip/body/h1"
-msgstr "Де купити великі коробки:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Як отримати малі коробки:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Купуйте коробки з новорічними прикрасами для себе та своїх друзів у преміум Магазині."
-
-msgid "entryTooltip/body/p2"
-msgstr "Видають за виконані новорічні бойові завдання."
-
-msgid "entryTooltip/header"
 msgstr "Коробки"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "ще контейнерів: {count}"
 msgid "entryView/buyLabel"
 msgstr "ДОКУПИТИ КОРОБКИ"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Великих коробок на Складі більше нема,\nможете купити їх у преміум Магазині"
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Малих коробок більше нема,\nможете здобути їх у бою"
-
 msgid "entryView/lootboxesCount"
 msgstr "×{count}"
-
-msgid "entryView/title"
-msgstr "Новорічний наступ {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Так!"
@@ -178,9 +139,6 @@ msgstr "Відкриття ящиків"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Додано"
 
-msgid "notification/ny19man"
-msgstr "Унікальний член екіпажу: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Вам присвоєно такі нагороди:"
 
@@ -244,36 +202,6 @@ msgstr "Унікальний (справді!) стиль для"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Подивитися в Гаражі"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Різдвяні коробки"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Чарівні коробки"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Новорічні коробки"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Східні коробки"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Різдвяної колекції"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Чарівної колекції"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Новорічної колекції"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Східної колекції"
-
-msgid "tooltip/category/rewards/description"
-msgstr "У коробках містяться прикраси з {category} й інші цінні нагороди."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Нагороди:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Купити додаткові коробки в Преміум магазині."
 
@@ -285,12 +213,6 @@ msgstr "Операція тимчасово недоступна. Спробуй
 
 msgid "type/event_premium"
 msgstr "Світанковий ящик"
-
-msgid "type/newYear_premium"
-msgstr "ВЕЛИКІ КОРОБКИ"
-
-msgid "type/newYear_usual"
-msgstr "МАЛІ КОРОБКИ"
 
 msgid "type/wt_boss"
 msgstr "Стартер Інженера"

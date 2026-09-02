@@ -229,23 +229,14 @@ msgstr "perkant:"
 msgid "battlePassBuyView/descr"
 msgstr "Nusipirkę sekos etapą iš karto atrakinsite ir gausite to etapo apdovanojimus."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Šiuos apdovanojimus gausite įvykdę ateinančius etapus."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Šie apdovanojimai jums atiteks už %(steps)s etapus"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Iš karto gausite šiuos apdovanojimus"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Šie apdovanojimai jums atiteks už %(steps)s etapą"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "BUS ATRAKINTI"
+msgstr "Neįvykdytų etapų atrakinimas"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "BUS GAUTI IŠ KARTO"
+msgstr "Gauti dabar"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktyvuoti Kovinio leidimo skyrių"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitinė grandinė"
 
-msgid "chapter/fullName/201"
-msgstr "Užpustytas laikas"
+msgid "chapter/fullName/211"
+msgstr "Specialistas"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Kaskadininkas"
 
-msgid "chapter/fullName/203"
-msgstr "Dykumos vadas"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoikas"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "UŽPUSTYTAS LAIKAS"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALISTAS"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADININKAS"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "DYKUMOS VADAS"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIKAS"
 
 msgid "chapter/title"
 msgstr "%(chapter)s SKYRIUS"
@@ -471,6 +456,9 @@ msgstr "×3 įgulos patirties misija"
 
 msgid "equipCoinBonus"
 msgstr "Komponentai: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D elementų rinkinys"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "vadas"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Pasiekiama, jei užbaigiami visi skyriai. Užbaigti skyriai: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Pasiimkite Premium mašiną ir pritaikomųjų elementų."
+msgstr "Vykdydami jį galite gauti ypatingų apdovanojimų ir unikalių papuošimų."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Kovinis leidimas: Far Cry jau čia!"
+msgstr "Specialus skyrius jau čia!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Su Pagerintu leidimu gaukite daugiau!"
@@ -1114,11 +1102,8 @@ msgstr "Elitinės grandinės %(level)d etapas"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "patirties kiekvienam pasirinktos %(nation)s mašinos įgulos nariui"
 
-msgid "rewardChoice/subTitle"
-msgstr "PASIRINKITE SAVO APDOVANOJIMĄ"
-
 msgid "rewardChoice/title"
-msgstr "KOVINIS LEIDIMAS"
+msgstr "Pasirinkite savo apdovanojimus"
 
 msgid "rewardChoice/titleChapter"
 msgstr "KOVINIS LEIDIMAS: SKYRIUS %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "KOVINIS LEIDIMAS: SKYRIUS %(chapter)s, %(level)s ETAPAS"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Paieškos smėlynuose"
+msgid "season/fullName/21"
+msgstr "Arčiau žemės"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "PAIEŠKOS SMĖLYNUOSE"
+msgid "season/fullNameUppercased/21"
+msgstr "ARČIAU ŽEMĖS"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Pasirenkamos instrukcijos"

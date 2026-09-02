@@ -136,6 +136,24 @@ msgstr[0] "{{count}} vittoria"
 msgstr[1] "{{count}} vittorie"
 msgstr[2] "{{count}} vittorie"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponibile per {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Esperienza di combattimento"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Per celebrare il tuo ritorno in azione, ti abbiamo preparato qualcosa di speciale: {{@ style (color #ede6d9e6)}}il Bonus di rischieramento quotidiano{{/}} aumenta l'Exp di combattimento che ottieni in occasione della tua prima vittoria del giorno con ogni veicolo."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Bentornato, comandante!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Il bonus si azzera ogni giorno alle {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonus di rischieramento: disponibile"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Clicca per andare alla tua playlist di veicoli"
 

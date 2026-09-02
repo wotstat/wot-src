@@ -130,6 +130,9 @@ msgstr "Sie können keinen Zug erstellen und keinem Zug beitreten, weil Sie kein
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Nach Abschluss der Qualifikation werden Züge mit 2 oder 7 Spielern verfügbar."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Nach Abschluss der Qualifikation werden Züge mit zwei Spielern verfügbar."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Zugerstellung nicht möglich."
 
@@ -141,6 +144,9 @@ msgstr "Sie können einen Zug erstellen oder einem bestehenden Zug beitreten. Im
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Zug"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Sie können einen Zug erstellen oder einem bestehenden Zug beitreten. Im Modus „Ansturm“ können Züge nur aus zwei Spielern bestehen."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Erstellen Sie eine taktische Einheit aus 2 oder 3 Spielern zum gemeinsamen Spiel.\n• Gefechtsmodi: Verwüstung.\n• Gefechtstypen: Stählerne Jagd, Herrschaft."
@@ -264,12 +270,6 @@ msgstr "Der Zug hat die Höchstzahl an schweren Panzern erreicht"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Der Zug hat die Höchstzahl an mittleren Panzern erreicht"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Der Zug hat die Höchstzahl an leichten Panzern erreicht"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Der Zug hat die Höchstzahl an Radfahrzeugen erreicht"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Der Zug hat die Höchstzahl an leichten Panzern erreicht"

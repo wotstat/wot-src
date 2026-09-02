@@ -130,6 +130,9 @@ msgstr "Nemůžete zakládat čety nebo se k nim připojovat, protože nemáte 
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Po dokončení kvalifikace budou dostupné čety pro 2 a 7 hráčů."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Po dokončení kvalifikační fáze bude k dispozici četa pro dva hráče."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Nelze založit četu."
 
@@ -141,6 +144,9 @@ msgstr "Založte četu, nebo se přidejte do již existující. V Náporu se mo
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Četa"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Založte četu, nebo se přidejte do již existující. V Náporu se mohou čety skládat pouze ze 2 hráčů."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Založte taktickou jednotku 2 či 3 hráčů, abyste mohli hrát kooperativně.\n• Režimy bitvy: „Běsnění“.\n• Typy bitev: „Drcení oceli“, „Nadvláda“."
@@ -264,12 +270,6 @@ msgstr "Četa dosáhla maximálního počtu těžkých tanků"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Četa dosáhla maximálního počtu středních tanků"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Četa dosáhla maximálního počtu lehkých tanků"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Četa dosáhla maximálního počtu kolových vozidel"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Četa dosáhla maximálního počtu lehkých tanků"

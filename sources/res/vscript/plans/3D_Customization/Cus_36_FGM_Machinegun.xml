@@ -53,7 +53,6 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>Macro</class>
@@ -64,13 +63,10 @@
 						<type>StringT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>If</class>
 				<id>If_13</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>SetVariable</class>
@@ -109,8 +105,6 @@
 			<block>
 				<class>GameObjectToVehicle</class>
 				<id>GameObjectToVehicle_2</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -153,7 +147,6 @@
 						<type>IntT</type>
 					</param>
 				</params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>ComponentMethod</class>
@@ -178,8 +171,6 @@
 			<block>
 				<class>GetVehicleGameObject</class>
 				<id>GetVehicleGameObject_1</id>
-				<params></params>
-				<slots></slots>
 			</block>
 			<block>
 				<class>GetVariable</class>
@@ -191,7 +182,16 @@
 						<type>TypeT</type>
 					</param>
 				</params>
-				<slots></slots>
+			</block>
+			<block>
+				<class>ComponentMethod</class>
+				<id>ComponentMethod_21</id>
+				<params>
+					<param>Animator.stop
+						<name>Component Type</name>
+						<type>StringT</type>
+					</param>
+				</params>
 			</block>
 		</blocks>
 		<connections>
@@ -212,6 +212,12 @@
 				<input>input</input>
 				<to>If_13</to>
 				<output>onKillStreak</output>
+			</connection>
+			<connection>
+				<from>Macro_2</from>
+				<input>input</input>
+				<to>If_13</to>
+				<output>PrebattleHighlightStart</output>
 			</connection>
 			<connection>
 				<from>GetVariable_2</from>
@@ -289,6 +295,18 @@
 				<from>ContextGetSelf_1</from>
 				<input>gameObject</input>
 				<to>GetVehicleGameObject_1</to>
+				<output>value</output>
+			</connection>
+			<connection>
+				<from>Macro_2</from>
+				<input>in</input>
+				<to>ComponentMethod_21</to>
+				<output>PrebattleHighlightEnd</output>
+			</connection>
+			<connection>
+				<from>ContextGetSelf_1</from>
+				<input>gameObject</input>
+				<to>ComponentMethod_21</to>
 				<output>value</output>
 			</connection>
 		</connections>

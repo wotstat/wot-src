@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Отворихме всички ваши новогодишни кутии"
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Поздравления!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Можете да купите големи кутии от Премиум магазина"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Големи кутии"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Малки кутии"
-
-msgid "entryDesc/questSlot"
-msgstr "Получавате малки кутии за изпълнение на мисии"
-
 msgid "entryDesc/restrictedMode"
 msgstr "Тази функционалност е временно недостъпна. Моля опитайте пак по-късно."
 
 msgid "entryPoint/header"
-msgstr "Кутии"
-
-msgid "entryTooltip/body/h1"
-msgstr "Купете големи кутии:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Печелете малки кутии:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Купувайте кутии с новогодишна украса за себе си и приятелите ви в Премиум магазина."
-
-msgid "entryTooltip/body/p2"
-msgstr "Дава се за изпълнение на мисии от Новогодишното настъпление."
-
-msgid "entryTooltip/header"
 msgstr "Кутии"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "още кутии: {count}"
 msgid "entryView/buyLabel"
 msgstr "КУПИ КУТИИ"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Нямате големи кутии в Склада.\nКупете още в Премиум магазина."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Нямате малки кутии.\nСпечелете още в битки."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Новогодишно настъпление {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Тъй вярно!"
@@ -178,9 +139,6 @@ msgstr "Отваряне на кутии с припаси"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Добавени"
 
-msgid "notification/ny19man"
-msgstr "Уникален член на екипажа: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Получавате следните награди:"
 
@@ -244,36 +202,6 @@ msgstr "Уникален стил за"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Виж в Парка"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Коледни кутии"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Вълшебни кутии"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Новогодишни кутии"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Лунни кутии"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Коледна колекция"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Вълшебна колекция"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Новогодишна колекция"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Лунна колекция"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Кутиите съдържат украса от {category} и други ценни награди."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Награди:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Купете допълнителни кутии в Премиум магазина."
 
@@ -285,12 +213,6 @@ msgstr "Действието е временно недостъпно. Опит�
 
 msgid "type/event_premium"
 msgstr "Сутрешна кутия с припаси"
-
-msgid "type/newYear_premium"
-msgstr "ГОЛЕМИ КУТИИ"
-
-msgid "type/newYear_usual"
-msgstr "МАЛКИ КУТИИ"
 
 msgid "type/wt_boss"
 msgstr "Стартер на Инженера"

@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Otvorili smo sve tvoje kutije Prazničnih operacija."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Čestitamo!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Možeš da kupiš velike kutije u premijum prodavnici"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Velike kutije"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Male kutije"
-
-msgid "entryDesc/questSlot"
-msgstr "Dobio si male kutije za završetak misija."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Opcija je trenutno nedostupna. Molim pokušaj kasnije."
 
 msgid "entryPoint/header"
-msgstr "Kutije"
-
-msgid "entryTooltip/body/h1"
-msgstr "Kupi velike kutije:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Zaradi male kutije:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Kupi kutije sa novogodišnjim ukrasima za sebe i svoje prijatelje u Premium prodavnici."
-
-msgid "entryTooltip/body/p2"
-msgstr "Nagrada za završavanje misija Prazničnih operacija."
-
-msgid "entryTooltip/header"
 msgstr "Kutije"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "još {count} kutija"
 msgid "entryView/buyLabel"
 msgstr "KUPI KUTIJE"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Nemaš više velikih kutija u depou.\nKupi ih još u premijum prodavnici."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Nemaš više malih kutija.\nZaradi ih još u borbama."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Praznične operacije {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Razumem!"
@@ -178,9 +139,6 @@ msgstr "Otvaranje kutija za snabdevanje"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Dodato"
 
-msgid "notification/ny19man"
-msgstr "Jedinstveni član posade: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Dobio si sledeće nagrade:"
 
@@ -244,36 +202,6 @@ msgstr "Jedinstveni stil za"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Pogledaj u garaži"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Božićne kutije"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magične kutije"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Novogodišnje kutije"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Lunarne kutije"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Božićna kolekcija"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magična kolekcija"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Novogodišnja kolekcija"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Lunarna kolekcija"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Kutije sadrže ukrase iz kategorije {category} i druge vredne nagrade."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Nagrade:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Kupi dodatne kutije u premijum prodavnici."
 
@@ -285,12 +213,6 @@ msgstr "Akcija je trenutno nedostupna. Pokušaj ponovo kasnije."
 
 msgid "type/event_premium"
 msgstr "Zora kutija za snabdevanje"
-
-msgid "type/newYear_premium"
-msgstr "VELIKE KUTIJE"
-
-msgid "type/newYear_usual"
-msgstr "MALE KUTIJE"
 
 msgid "type/wt_boss"
 msgstr "Inženjerski starter"

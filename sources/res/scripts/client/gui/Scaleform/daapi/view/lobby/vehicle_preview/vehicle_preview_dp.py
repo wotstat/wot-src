@@ -6,6 +6,7 @@ from gui.Scaleform.daapi.view.lobby.vehicle_preview.items_kit_helper import coll
 from gui.Scaleform.genConsts.STORE_CONSTANTS import STORE_CONSTANTS
 from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
 from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui import makeHtmlString
 from gui.impl import backport
 from gui.impl.gen import R
 from gui.shared.formatters import text_styles, moneyWithIcon, icons
@@ -111,6 +112,7 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
             uniqueVehicleTitle = text_styles.tutorial(backport.text(R.strings.vehicle_preview.buyingPanel.availableForWotPlus()))
         elif not (isBuyingAvailable or isHeroTank):
             uniqueVehicleTitle = text_styles.tutorial(backport.text(R.strings.vehicle_preview.buyingPanel.uniqueVehicleLabel()))
+        fromBoxesText = makeHtmlString(b'html_templates:lobby/vehicle_preview', b'fromBoxes')
         compensationData = self.__getCompensationData(itemsPack)
         resultVO = {b'setTitle': (data.title), 
            b'uniqueVehicleTitle': uniqueVehicleTitle, 
@@ -123,13 +125,15 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
            b'buyButtonIconAlign': (data.iconAlign), 
            b'buyButtonTooltip': (data.tooltip), 
            b'isShowSpecialTooltip': (data.isShowSpecial), 
+           b'isHeroTankFromBoxes': (data.isHeroTankFromBoxes), 
            b'itemPrice': (data.itemPrice), 
            b'isUnlock': (data.isUnlock), 
            b'couponDiscount': 0, 
            b'showAction': (data.isAction), 
            b'hasCompensation': (compensationData is not None), 
            b'compensation': (compensationData if compensationData is not None else {}), 
-           b'warning': (self.__getWarningInfo(data, item))}
+           b'warning': (self.__getWarningInfo(data, item)), 
+           b'fromBoxesText': fromBoxesText}
         customOffer = self.__getCustomOfferData(data)
         if customOffer is not None:
             resultVO.update({b'customOffer': customOffer})
@@ -137,6 +141,7 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
 
     def getItemPackBuyingPanelData(self, data, itemsPack, couponSelected, price):
         compensationData = self.__getCompensationData(itemsPack)
+        fromBoxesText = makeHtmlString(b'html_templates:lobby/vehicle_preview', b'fromBoxes')
         resultVO = {b'setTitle': (data.title), 
            b'uniqueVehicleTitle': b'', 
            b'vehicleId': 0, 
@@ -149,17 +154,20 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
            b'buyButtonIconAlign': (data.iconAlign), 
            b'buyButtonTooltip': (data.tooltip), 
            b'isShowSpecialTooltip': (data.isShowSpecial), 
+           b'isHeroTankFromBoxes': (data.isHeroTankFromBoxes), 
            b'itemPrice': (data.itemPrice), 
            b'isUnlock': False, 
            b'showAction': (data.isAction), 
            b'hasCompensation': (compensationData is not None), 
            b'compensation': (compensationData if compensationData is not None else {}), 
-           b'warning': b''}
+           b'warning': b'', 
+           b'fromBoxesText': fromBoxesText}
         if data.customOffer is not None:
             resultVO.update({b'customOffer': (data.customOffer)})
         return resultVO
 
     def getOffersBuyingPanelData(self, data):
+        fromBoxesText = makeHtmlString(b'html_templates:lobby/vehicle_preview', b'fromBoxes')
         return {b'setTitle': (data.title), 
            b'uniqueVehicleTitle': b'', 
            b'vehicleId': 0, 
@@ -172,11 +180,13 @@ class DefaultVehPreviewDataProvider(IVehPreviewDataProvider):
            b'buyButtonIconAlign': (data.iconAlign), 
            b'buyButtonTooltip': (data.tooltip), 
            b'isShowSpecialTooltip': (data.isShowSpecial), 
+           b'isHeroTankFromBoxes': (data.isHeroTankFromBoxes), 
            b'itemPrice': (data.itemPrice), 
            b'showAction': (data.isAction), 
            b'actionTooltip': (data.actionTooltip), 
            b'hasCompensation': False, 
-           b'compensation': {}, b'warning': b''}
+           b'compensation': {}, b'warning': b'', 
+           b'fromBoxesText': fromBoxesText}
 
     def getOffersData(self, offers, activeID):
         return [_createOfferVO(offer, offer.id == activeID) for offer in offers]

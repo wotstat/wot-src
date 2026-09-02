@@ -49,7 +49,9 @@
   display: flex;
   align-items: center;
   color: var(--color-general-secondary);
-  text-shadow: 0 2rem 30rem rgba(23, 23, 23, 0.4), 0 2rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 2rem 30rem rgba(23, 23, 23, 0.4),
+    0 2rem 0 rgba(0, 0, 0, 0.3);
   transform: translateY(4rem);
   transition: color 0.25s ease-in-out;
 }

@@ -6,7 +6,7 @@ from visual_script.slot_types import SLOT_TYPE
 from visual_script import ASPECT
 from visual_script.block import Block, Meta
 from visual_script.dependency import dependencyImporter
-Event, dependency, game_control, event_dispatcher, lobby_entry, ps_states, state_machine, GenericComponents, guiShared = dependencyImporter(b'Event', b'helpers.dependency', b'skeletons.gui.game_control', b'gui.shared.event_dispatcher', b'gui.Scaleform.lobby_entry', b'gui.impl.lobby.pet_system.states', b'frameworks.state_machine', b'GenericComponents', b'gui.shared')
+Event, dependency, game_control, shared, events, event_dispatcher, lobby_entry, ps_states, state_machine, GenericComponents, guiShared = dependencyImporter(b'Event', b'helpers.dependency', b'skeletons.gui.game_control', b'gui.shared', b'gui.shared.events', b'gui.shared.event_dispatcher', b'gui.Scaleform.lobby_entry', b'gui.impl.lobby.pet_system.states', b'frameworks_common.state_machine', b'GenericComponents', b'gui.shared')
 
 class PetSystemMeta(Meta):
 
@@ -24,7 +24,7 @@ class PetSystemMeta(Meta):
 
     @classmethod
     def blockAspects(cls):
-        return [ASPECT.HANGAR]
+        return [ASPECT.HANGAR, ASPECT.CLIENT]
 
 
 class OnEventShow(Block, PetSystemMeta):
@@ -99,7 +99,7 @@ class IsInPetFullscreenEventView(Block, PetSystemMeta):
         return
 
     def _execute(self):
-        self._state.setValue(self.__petController.isInEventFulscreen)
+        self._state.setValue(self.__petController.isInEventFullscreen)
         return
 
 
@@ -127,7 +127,7 @@ class PetTriggerEnum(VScriptEnum):
 
     @classmethod
     def vs_aspects(cls):
-        return [ASPECT.HANGAR]
+        return [ASPECT.HANGAR, ASPECT.CLIENT]
 
 
 class StorageStaticTriggerEnum(VScriptEnum):
@@ -233,16 +233,31 @@ class OnPetAnimationTriggered(Block, PetSystemMeta):
         return
 
     def onStartScript(self):
-        self.__petController.petProxy.onTrigger += self._onTrigger
+        self.__subscribe()
         return
 
     def onFinishScript(self):
-        self.__petController.petProxy.onTrigger -= self._onTrigger
+        self.__unsubscribe()
         return
 
     def _onTrigger(self, trigger):
         self._trigger.setValue(PetTriggerEnum.nameToIndex(trigger))
         self._out.call()
+        return
+
+    def __subscribe(self):
+        self.__petController.petProxy.onTrigger += self._onTrigger
+        shared.g_eventBus.addListener(events.PetSystemEvent.PET_SEQUENCE, self.__onPetSequence, scope=shared.EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def __unsubscribe(self):
+        self.__petController.petProxy.onTrigger -= self._onTrigger
+        shared.g_eventBus.removeListener(events.PetSystemEvent.PET_SEQUENCE, self.__onPetSequence, scope=shared.EVENT_BUS_SCOPE.BATTLE)
+        return
+
+    def __onPetSequence(self, event):
+        trigger = event.ctx[b'trigger']
+        self._onTrigger(trigger)
         return
 
 

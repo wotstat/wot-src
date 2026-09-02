@@ -86,7 +86,7 @@ msgid "hub/basic_missions/daily/reroll_button"
 msgstr "Zamień"
 
 msgid "hub/basic_missions/daily/title"
-msgstr "DZIENNA"
+msgstr "DZIENNE"
 
 msgid "hub/basic_missions/personal/button/to_campaign"
 msgstr "Do kampanii"
@@ -382,11 +382,56 @@ msgstr "Misje tygodniowe to zbiór zadań dostępnych co tydzień. Postępy są 
 msgid "info_page/main/weekly/title"
 msgstr "Misje tygodniowe"
 
+msgid "pm/missionState/active"
+msgstr "Aktywne"
+
+msgid "pm/missionState/complete"
+msgstr "Misje ukończone"
+
+msgid "pm/missionState/improve"
+msgstr "Poprawa wyniku"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Zmień pojazd"
+
+msgid "pm/no_missions"
+msgstr "Brak aktywnych misji dla wybranego pojazdu"
+
+msgid "pm/tier"
+msgstr "Nieodpowiedni poziom"
+
+msgid "pm/unavailable"
+msgstr "Misja czasowo niedostępna"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Brak aktywnych misji dla wybranego pojazdu. Wybierz inny pojazd."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Ta misja jest tymczasowo niedostępna z powodów technicznych. Przepraszamy za niedogodności."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Wybrany pojazd nie spełnia wymagań poziomu aktywnych operacji. Wybierz inny pojazd."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Brak aktywnych misji"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Tymczasowo niedostępne"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Nieodpowiedni poziom"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Ukończono wszystkie misje standardowe na dzisiaj"
 
 msgid "quests/daily_quests/completed"
 msgstr "Ukończono wszystkie misje dzienne"
+
+msgid "slider/title/missions"
+msgstr "Zwykłe misje"
+
+msgid "slider/title/personalMissions"
+msgstr "Misje osobiste"
 
 msgid "tooltip/common/timer"
 msgstr "Dostępne za {{timeLeft}}"
@@ -416,7 +461,7 @@ msgid "tooltip/daily_quests/rewards"
 msgstr "Nagrody:"
 
 msgid "tooltip/daily_reroll/description"
-msgstr "Możesz zamienić niechcianą misję\nna nową co {time} godzin."
+msgstr "Możesz zamienić niechcianą misję\nna nową co {time} godz."
 
 msgid "tooltip/daily_reroll/header"
 msgstr "Zamiana misji"

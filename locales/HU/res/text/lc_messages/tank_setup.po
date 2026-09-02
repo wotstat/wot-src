@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "a jármű életerejéhez"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+msgstr "a löveg forgási sebességéhez"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "a toronyforgatási sebességhez"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "a jármű életerejéhez"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+msgstr "a löveg forgási sebességéhez"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "a toronyforgatási sebességhez"
@@ -2100,6 +2100,51 @@ msgstr " és "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "A jármű Külső lőszeradagolás módja lehetővé teszi a nagyobb sebzést okozó lőszerek használatát."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Alapértékek normál módban."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Módosított értékek Külső lőszeradagolás módban."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Teljes töltésű lövés alapparaméterei"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Egyszeri töltésű lövések alapparaméterei"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Teljes töltésű lövés alapparaméterei"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Alap"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Egyszeri töltésű lövések alapparaméterei"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Kalibrált módban ez a lőszertípus hatékony a döntött páncél ellen."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "A jármű fegyvere speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszertulajdonságok módosítását a lövés előtt."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Normál módban ez a lőszertípus az előtétpáncél nélküli járművek ellen hatékony."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Normál mód"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrált mód"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Kalibrált módban ez a lőszertípus át tudja ütni az előtétpáncélzatot."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Normál módban ez a lőszertípus hatékony a függőleges páncél ellen."
 
 msgid "tooltips/specializationDesc"
 msgstr "%(spec)s kategória normál felszerelései sokkal hatékonyabbak lesznek, ha ezen férőhelyre vannak felszerelve. A többi kategória felszerelései csak normál bónuszt fognak adni."

@@ -1223,7 +1223,7 @@ msgid "A194_AHT_7_descr"
 msgstr "Un concept pentru un tanc de asalt din anii 1960. Amplasarea motorului în partea din spate a turelei a făcut posibilă scurtarea semnificativă a carenei, ceea ce a redus greutatea și a permis îmbunătățirea blindajului. Tancul trebuia să fie înarmat cu un tun britanic de 165 mm L9A1. O licență ar fi trebuit cumpărată și producția ar fi fost organizată în SUA în acest scop. Totuși, din cauza dificultăților de unificare a proiectului cu M48 și M60, care erau deja în folosință, armata americană a decis să întrerupă lucrul la vehicul."
 
 msgid "A194_AHT_7_long_special"
-msgstr "AHT-7 este un antitanc american din generația X. Tunul său de 165,1 mm provoacă daune masive, îmbunătățite și mai mult de proiectilele sale speciale HE cu penetrare excepțională. Declinația bună a tunului îi permite să te profite de terenul accidentat și să utilizeze linii de foc neașteptate. Mecanismul de șenilă de rezervă împiedică imobilizarea completă a vehiculului."
+msgstr "AHT-7 este un antitanc american din generația X. Tunul său de 165,1 mm provoacă daune masive, îmbunătățite și mai mult de proiectilele sale speciale HE cu penetrare excepțională. Declinația bună a tunului îi permite să profite de terenul accidentat și să utilizeze linii de foc neașteptate. Mecanismul de șenilă de rezervă împiedică imobilizarea completă a vehiculului."
 
 msgid "A194_AHT_7_short"
 msgstr "AHT-7"
@@ -1250,7 +1250,7 @@ msgid "A197_Jezevec_descr"
 msgstr "La începutul anilor 1960, Cehoslovacia a început să dezvolte un tanc mediu cu armament puternic, profil redus și mobilitate bună. Designul se remarca prin aranjamentul său neconvențional: compartimentul de luptă era în spate, iar echipajul era aproape în întregime amplasat în carenă, cu tunul și turela oscilantă controlate de la distanță. Proiectul a fost abandonat din cauza complexității și costurilor ridicate. Un prototip a fost vândut Egiptului pentru teste; cu toate acestea, s-a dovedit a fi diferit de așteptările inițiale și a fost trimis în S.U.A. la mijlocul anilor 1970 pentru ca tehnologia sa să fie studiată."
 
 msgid "A197_Jezevec_long_special"
-msgstr "Jezevec este un tanc mediu american de asistență din generația IX. Echipat cu un tun unic cu autoreîncărcător, acest vehicul are daune scăzute per lovitură, dar compensează cu un încărcător mare și un timp scurt între lovituri, permițându-i daune ridicate în rafală. Fiecare proiectil se reîncarcă în aceeași periuadă de timp, oferind flexibilitate fără penalizări. De asemenea, are mobilitate excelentă."
+msgstr "Jezevec este un tanc mediu american de asistență din generația IX. Echipat cu un tun unic cu autoreîncărcător, acest vehicul are daune scăzute per lovitură, dar compensează cu un încărcător mare și un timp scurt între lovituri, permițându-i daune ridicate în rafală. Fiecare proiectil se reîncarcă în aceeași perioadă de timp, oferind flexibilitate fără penalizări. De asemenea, are mobilitate excelentă."
 
 msgid "A197_Jezevec_short"
 msgstr "Jezevec"
@@ -1534,6 +1534,15 @@ msgstr "T110E4"
 msgid "A85_T110E3"
 msgstr "T110E3"
 
+msgid "A85_T110E3_7x7"
+msgstr "T110E3 7x7"
+
+msgid "A85_T110E3_7x7_descr"
+msgstr "În 1954, la Detroit, a avut loc o conferinţă referitoare la viitoarele tancuri grele. Împreună cu alte proiecte avansate, corporația Chrysler a propus un tanc nou, bazat pe proiectul TS-31. Condiţia de bază a fost ca tancul să încapă în tunelul Berna. S-au luat în considerare mai multe variante constructive dar proiectul a fost abandonat."
+
+msgid "A85_T110E3_7x7_short"
+msgstr "T110E3 7x7"
+
 msgid "A85_T110E3_descr"
 msgstr "În 1954, la Detroit, a avut loc o conferinţă referitoare la viitoarele tancuri grele. Împreună cu alte proiecte avansate, corporația Chrysler a propus un tanc nou, bazat pe proiectul TS-31. Condiţia de bază a fost ca tancul să încapă în tunelul Berna. S-au luat în considerare mai multe variante constructive dar proiectul a fost abandonat."
 
@@ -1688,6 +1697,9 @@ msgid "AN_VRC-24"
 msgstr "AN/VRC-24"
 
 msgid "AN_VRC-3"
+msgstr "AN/VRC-3"
+
+msgid "AN_VRC-3_7x7_0"
 msgstr "AN/VRC-3"
 
 msgid "AN_VRC-3_Rush_Ep1"
@@ -2281,6 +2293,9 @@ msgstr "T110E4"
 msgid "Chassis_A85_T110E3"
 msgstr "T110E3"
 
+msgid "Chassis_A85_T110E3_7x7"
+msgstr "T110E3"
+
 msgid "Chassis_A87_M44"
 msgstr "T99E1"
 
@@ -2447,6 +2462,9 @@ msgid "Continental_AOI-628-2_short"
 msgstr "Continental\nAOI-628-2"
 
 msgid "Continental_AOI_1490E3"
+msgstr "Continental AOI-1490E3"
+
+msgid "Continental_AOI_1490E3_7x7"
 msgstr "Continental AOI-1490E3"
 
 msgid "Continental_AOI_1490E3_short"
@@ -4048,6 +4066,9 @@ msgstr "T110E4"
 msgid "Turret_1_A85_T110E3"
 msgstr "T110E3"
 
+msgid "Turret_1_A85_T110E3_7x7"
+msgstr "T110E3"
+
 msgid "Turret_1_A87_M44"
 msgstr "M44"
 
@@ -5224,14 +5245,14 @@ msgstr "152 mm Gun-Launcher XM81 (conventional T49)"
 msgid "_152mm_HEAT_XM409"
 msgstr "HEAT XM409"
 
-msgid "_152mm_HEAT_XM409E1"
-msgstr "HEAT XM409E1"
-
-msgid "_152mm_HEAT_XM409E1_T49"
-msgstr "HEAT XM409E1 (T49)"
-
 msgid "_152mm_HEAT_XM409_T49"
 msgstr "HEAT XM409 (T49)"
+
+msgid "_152mm_HESH_XM657E3"
+msgstr "HESH XM657E3"
+
+msgid "_152mm_HESH_XM657E3_T49"
+msgstr "HESH XM657E3 (T49)"
 
 msgid "_152mm_HE_XM657E2"
 msgstr "HE XM657E2"
@@ -5243,6 +5264,9 @@ msgid "_152mm_HE_XM657E3"
 msgstr "HE XM657E3"
 
 msgid "_155mm_APCR_M112E3"
+msgstr "APCR M112E3"
+
+msgid "_155mm_APCR_M112E3_7x7"
 msgstr "APCR M112E3"
 
 msgid "_155mm_APCR_M112_T95"
@@ -5258,6 +5282,9 @@ msgid "_155mm_AP_M111E1"
 msgstr "AP M111E1"
 
 msgid "_155mm_AP_M111E3"
+msgstr "AP M111E3"
+
+msgid "_155mm_AP_M111E3_7x7"
 msgstr "AP M111E3"
 
 msgid "_155mm_AP_M111E4"
@@ -5317,6 +5344,9 @@ msgstr "155 mm AT Gun T7E2"
 msgid "_155mm_AT_Gun_T7E3"
 msgstr "155 mm AT Gun T7E3"
 
+msgid "_155mm_AT_Gun_T7E3_7x7"
+msgstr "155 mm AT Gun T7E3"
+
 msgid "_155mm_AT_Gun_T7E4"
 msgstr "155 mm AT Gun T7E4"
 
@@ -5363,6 +5393,9 @@ msgid "_155mm_HE_M101E1"
 msgstr "HE M101E1"
 
 msgid "_155mm_HE_M101E3"
+msgstr "HE M101E3"
+
+msgid "_155mm_HE_M101E3_7x7"
 msgstr "HE M101E3"
 
 msgid "_155mm_HE_M101E4"

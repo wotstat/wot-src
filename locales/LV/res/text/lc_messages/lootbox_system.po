@@ -28,6 +28,30 @@ msgstr "SAŅEMTĀS ATLĪDZĪBAS"
 msgid "awardViews/footer/backButton/"
 msgstr "Sapratu!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Atlikuši {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Bez atkārtotas atvēršanas"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Vērtīga atlīdzība"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Atkārtoti atvērt bez maksas"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nepietiekami bonu"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Atvērt no jauna {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Atvērt par jaunu"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Nomestās vērtīgās balvas nav iespējams atjaunot."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direktīva"
 
@@ -118,6 +142,18 @@ msgstr "Atvērtas kastes: %(count)"
 msgid "common/statsButton"
 msgstr "Statistika"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Atcelt"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Kaste tiks atvērta vēlreiz, lai būtu iespēja saņemt citas balvas."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Atvērt par jaunu"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Atvērt par jaunu par {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Atcelt"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Pasākums beigsies pēc %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Ja neatveriet visas kastes pirms pasākuma beigām, tās tiks vēlāk atvērtas automātiski."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Ja neatveriet kastes pirms pasākuma beigām, tās tiks atvērtas automātiski."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Ja jums jau pieder visi tanki no iespējamā kastes satura saraksta, tad visi turpmāk saņemtie tanki no kastēm tiks kompensēti ar zeltu, kas vienāds ar to pilno vērtību."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Katras %(guaranteed0)s kastes garantē VIII–X līmeņa tanku. Ja neiegūsti tanku atvēršanas laikā, VIII–X līmeņa tanks, kurš tev vēl nepieder, izkritīs, atverot %(guaranteed0)s&zwnbsp;. kasti (atkarībā no kastes veida). Pēc tam skaitītājs tiek atiestatīts."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Katrās %(guaranteed)s kastēs ir garantēts vismaz viens VIII–X līmeņa tanks. Ja, atverot tās, neizkrīt neviens šāds tanks, tad, atverot %(guaranteed)s&zwnbsp;. kasti, jūs saņemsiet VIII–X līmeņa tanku, kura jums vēl nav (atkarībā no kastes veida). Kad tas notiek, skaitītājs tiek atiestatīts."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Ja neesat apmierināts ar balvām, ko saņēmāt no kastes, varat to atvērt atkārtoti, lai iegūtu iespēju saņemt citus priekšmetus no tā paša saraksta. Katru kasti var atvērt atkārtoti tikai ierobežotu reižu skaitu:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automātiskā Atvēršana"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompensācija"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantēta Balva"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Atkārtota atvēršana"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Skatiet pilno priekšmetu sarakstu spēles portālā"
@@ -273,6 +315,30 @@ msgstr "par %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "%(style) 3D stils"
+
+msgid "reroll/free"
+msgstr "Bezmaksas"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finanšu operācija"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Atskaitīti kredīti: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Atskaitītās bonas: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datums: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Atskaitīts zelts: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "\"%(eventName)s\" pasākums ir beidzies"
@@ -480,3 +546,15 @@ msgstr "Kompensēti tanki: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompensācija par tanku, kas ir jau jūsu Garāžā."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Atkārtota atvēršana"
+
+msgid "tooltip/reroll/price"
+msgstr "Cena"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Atkārtoti atverot kasti, jums ir iespēja saņemt citas balvas no tā paša saraksta."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Atkārtota atvēršana"

@@ -232,11 +232,35 @@ msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy str
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Działko automatyczne z kontrolą przegrzania"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mechanizm natychmiast skraca przeładowanie pocisku do krótkiego, ustalonego czasu. Każde użycie zużywa jeden ładunek na pocisk, a ładunki odnawiają się z czasem – szybciej, gdy magazynek jest pełny. Na początku bitwy dostępna jest określona liczba ładunków."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Wymuszony mechanizm ładujący"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Ten pojazd jest wyposażony w wyrzutnię rakiet zamontowaną w osłonie działa. Aby przełączyć na celownik rakietowy, naciśnij:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Współosiowa wyrzutnia rakiet"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Gdy celujesz za pomocą celownika rakietowego, naciśnij przycisk strzału, aby wystrzelić rakietę:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Współosiowa wyrzutnia rakiet"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Za każdym razem, kiedy trafisz przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem.\nZniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Półautomatyczny magazyn amunicji"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Moduł zewnętrznego zasilania amunicją tego pojazdu pozwala strzelać potężnymi, jednolitymi pociskami o dużym ładunku, które zadają zwiększone uszkodzenia. Gdy jest aktywny, moduł zmniejsza również mobilność i szybkostrzelność."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Tryb zewnętrznego zasilania amunicją"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Jeśli Twoje działo jest załadowane, możesz zacząć rozgrzewać swój kolejny strzał. Im wyższy poziom rozgrzania osiągniesz, tym większy będzie bonus do średnich uszkodzeń.\nAby zacząć proces rozgrzewania, naciśnij:"
@@ -345,6 +369,30 @@ msgstr "Przy aktywacji dopalacze odrzutowe podnoszą moc silnika i prędkość m
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Wady i zalety"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Gdy trafisz pociskiem widoczny pojazd przeciwnika, zapalnik następnego pocisku jest regulowany. Jeśli pierwszy strzał przebił pancerz przeciwnika, zwiększają się uszkodzenia następnego pocisku. W przeciwnym wypadku zwiększa się jego penetracja."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Regulowany nastawnik zapalnika"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Działo pojazdu posiada specjalne urządzenia, które umożliwiają modyfikację niektórych parametrów pocisków przed wystrzałem. Parametry dla określonych pocisków różnią się w zależności od wybranego trybu, a każdy tryb pozwala szybko dostosować się do odmiennych sytuacji bojowych."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "System kalibracji pocisków"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Zaawansowane urządzenie optyczne zwiększa zasięg widzenia i poprawia wykrywanie pojazdów poruszających się i ukrytych za roślinnością. Po aktywacji skanuje wąski sektor przed pojazdem, odsłaniając ukryte cele, po czym następuje okres przygotowania."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Poszukiwanie i śledzenie w podczerwieni (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Jeśli jednak ujawnia niewykrytego przeciwnika, Ty również natychmiast zostajesz wykryty na określony czas. Zarówno Ty, jak i wykryci przez Ciebie przeciwnicy jesteście o tym natychmiast powiadamiani. Możesz ręcznie zatrzymać skanowanie i po krótkim opóźnieniu rozpocząć okres przygotowania urządzenia."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Poszukiwanie i śledzenie w podczerwieni (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. Prawy i lewy dopalacz mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył."

@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Deze modus is op de %(serverName)s-server niet beschikbaar"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Seizoen van de Azuurblauwe Draak begint: %(date)s"
+msgstr "Seizoen van de Azuurblauwe Feniks begint: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Seizoen van de Karmozijnrode Draak begint: %(date)s"
+msgstr "Seizoen van de Karmozijnrode Feniks begint: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Seizoen van de Jaden Draak begint: %(date)s"
+msgstr "Seizoen van de Jaden Feniks begint: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Wachtend op kwalificatieresultaten om je rang te ontvangen"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Seizoen van de Azuurblauwe Draak is afgelopen"
+msgstr "Seizoen van de Azuurblauwe Feniks is afgelopen"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Seizoen van de Karmozijnrode Draak is afgelopen"
+msgstr "Seizoen van de Karmozijnrode Feniks is afgelopen"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Seizoen van de Jaden Draak is afgelopen"
+msgstr "Seizoen van de Jaden Feniks is afgelopen"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Op deze server komen gevechten beschikbaar over %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Voertuigeigenschappen verbeterd"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Levenspunten worden hersteld"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Inkomende schade verhoogd"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Voertuigeigenschappen verbeterd"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dag"
-msgstr[1] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dagen"
-msgstr[2] "Seizoen van de Azuurblauwe Draak duurt nog %(days)d dagen"
+msgstr[0] "Seizoen van de Azuurblauwe Feniks duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Azuurblauwe Feniks duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Azuurblauwe Feniks duurt nog %(days)d dagen"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dag"
-msgstr[1] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dagen"
-msgstr[2] "Seizoen van de Karmozijnrode Draak duurt nog %(days)d dagen"
+msgstr[0] "Seizoen van de Karmozijnrode Feniks duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Karmozijnrode Feniks duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Karmozijnrode Feniks duurt nog %(days)d dagen"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Seizoen van de Jaden Draak duurt nog %(days)d dag"
-msgstr[1] "Seizoen van de Jaden Draak duurt nog %(days)d dagen"
-msgstr[2] "Seizoen van de Jaden Draak duurt nog %(days)d dagen"
+msgstr[0] "Seizoen van de Jaden Feniks duurt nog %(days)d dag"
+msgstr[1] "Seizoen van de Jaden Feniks duurt nog %(days)d dagen"
+msgstr[2] "Seizoen van de Jaden Feniks duurt nog %(days)d dagen"
 
 msgid "calendarDay/title"
 msgstr "Schema"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Specialisaties"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Bestorming. Jaar van de Draak"
+msgstr "Bestorming: Jaar van de Feniks"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nul-specialisaties"
@@ -574,11 +577,17 @@ msgstr "Begrepen!"
 msgid "intro/description/banPhase"
 msgstr "Elk team kan een voertuig uit een gevecht verbannen. Spreek met teamgenoten af waarop je stemt om een gevreesde machine uit te sluiten of om een onverwachte samenstelling voor te bereiden. Als je voertuig is verbannen, kun je een vooraf geconfigureerd huurvoertuig selecteren."
 
+msgid "intro/description/draw"
+msgstr "Wanneer de tijd verstrijkt en geen van beide teams een duidelijke overwinning heeft behaald, wordt de uitslag van het gevecht bepaald door tiebreakers in deze volgorde: overlevende voertuigen, toegebrachte schade en het eerste uitgeschakelde voertuig. Als geen van beide teams schade heeft toegebracht, eindigt het gevecht in een gelijkspel."
+
+msgid "intro/description/nightMaps"
+msgstr "Nachtkaarten geven bekende slagvelden een frisse uitstraling met nachtelijke omstandigheden, nieuwe Observatieposten, bijgewerkte belangrijke locaties en aangepaste verkenningsmechanismes. Op dit moment gaat het om de kaarten Gletsjer, Zandrivier, Steppe en Buitenpost."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "De modus heeft aanpassers die bepaalde parameters van het voertuig veranderen, zoals het aantal levenspunten, de herlaadtijd van verbruiksartikelen, tijd dat je gespot blijft, en meer."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Nadat je bepaalde gebieden van de kaart hebt veroverd, kun je tactische vaardigheden gebruiken. Er zijn twee belangrijke locaties: het Artilleriehoofdkwartier, dat je in staat stelt om een artillerieaanval op een bepaalde positie uit te voeren, en het Communicatiecentrum, dat alle vijandelijke voertuigen verkent. Afhankelijk van de kaart, kunnen de aanwezigheid en plek van deze belangrijke locaties veranderen."
+msgstr "Wanneer je bepaalde gebieden van de kaart verovert, krijg je toegang tot tactische vaardigheden. Er zijn twee soorten belangrijke locaties: Artilleriehoofdkwartier, dat je in staat stelt om een gerichte artillerieaanval uit te voeren, en Communicatiecentrum, dat alle vijandelijke voertuigen verkent. Het aantal en de plek van deze locaties verschilt per kaart."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Speel %(count)s kwalificatiegevechten om je behendigheidsniveau en ra
 msgstr[2] "Speel %(count)s kwalificatiegevechten om je behendigheidsniveau en rang te bepalen. Bij voltooiing zul je beloningen ontvangen voor de door jou bereikte rang en alle vorige rangen.\n\nDesertie of een gelijkspel in de kwalificatie geldt als een nederlaag."
 
 msgid "intro/description/ranks"
-msgstr "Een systeem dat de behendigheid van spelers aangeeft. Beklim de rangen, van IJzer tot Legende, om waardevolle prijzen te verdienen. Speel het hele Jaar van de Draak om unieke jaarlijkse beloningen te ontvangen."
+msgstr "Beklim de rangen, van IJzer tot Legende, om waardevolle prijzen te verdienen. Speel het hele Jaar van de Feniks om unieke jaarlijkse beloningen te ontvangen."
 
 msgid "intro/description/roleSkills"
 msgstr "Afhankelijk van de rol, beschikt elk voertuig over een speciale vaardigheid met drie ladingslevels. Hoe hoger het ladingslevel wanneer de vaardigheid wordt geactiveerd, hoe sterker het effect ervan zal zijn. Het ladingslevel hangt af van het aantal prestigepunten dat wordt verdiend door indrukwekkende gevechtsprestaties, verovering van belangrijke locaties, gebruik van tactische vaardigheden, etc.\n\nLees de regels van de modus om meer te weten te komen over de verschillende manieren waarop je prestigepunten kunt verdienen."
@@ -597,6 +606,12 @@ msgstr "Je kunt gevechten betreden met niveau %(levels)s onderzoekbare voertuige
 
 msgid "intro/title/banPhase"
 msgstr "VOERTUIG VERBANNEN"
+
+msgid "intro/title/draw"
+msgstr "REGELS VOOR EEN GELIJKSPEL"
+
+msgid "intro/title/nightMaps"
+msgstr "NACHTKAARTEN"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "BESTORMING-AANPASSERS"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "OVERWINNING, MAAR JE HEBT"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Bevorderd naar %(rank)s"
+msgstr "Gepromoveerd naar {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Beoordeling: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Gedegradeerd naar %(rank)s, %(division)s"
+msgstr "Gedegradeerd naar {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Bevorderd naar %(rank)s, %(division)s"
+msgstr "Gepromoveerd naar {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Gespeelde gevechten"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Prestigepuntenrecord (seizoen): %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Seizoen van de Azuurblauwe Draak is op de %(server)s-server afgelopen."
+msgstr "Seizoen van de Azuurblauwe Feniks is op de %(server)s-server afgelopen."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Seizoen van de Karmozijnrode Draak is op de %(server)s-server afgelopen."
+msgstr "Seizoen van de Karmozijnrode Feniks is op de %(server)s-server afgelopen."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Seizoen van de Jaden Draak is op de %(server)s-server afgelopen."
+msgstr "Seizoen van de Jaden Feniks is op de %(server)s-server afgelopen."
 
 msgid "products/actions/buy"
 msgstr "Kopen"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "BESTORMING. KWALIFICATIE VOLTOOID"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "BESTORMING. SEIZOEN VAN DE AZUURBLAUWE DRAAK"
+msgstr "BESTORMING: SEIZOEN VAN DE AZUURBLAUWE FENIKS"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "BESTORMING: SEIZOEN VAN DE KARMOZIJNRODE DRAAK"
+msgstr "BESTORMING: SEIZOEN VAN DE KARMOZIJNRODE FENIKS"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "BESTORMING: SEIZOEN VAN DE JADEN DRAAK"
+msgstr "BESTORMING: SEIZOEN VAN DE JADEN FENIKS"
 
 msgid "rewardsScreen/description/year"
-msgstr "BESTORMING. JAAR VAN DE DRAAK"
+msgstr "BESTORMING. JAAR VAN DE FENIKS"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Waar is mijn Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Eindigt over %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Seizoen van de Azuurblauwe Draak"
+msgstr "Seizoen van de Azuurblauwe Feniks"
 
 msgid "seasonName/second"
-msgstr "Seizoen van de Karmozijnrode Draak"
+msgstr "Seizoen van de Karmozijnrode Feniks"
 
 msgid "seasonName/third"
-msgstr "Seizoen van de Jaden Draak"
+msgstr "Seizoen van de Jaden Feniks"
 
 msgid "seasonPointTooltip/header"
 msgstr "Bestormingkleuren"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Positie in het klassement: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "BESTORMING. %(seasonNameUpper)s"
+msgstr "BESTORMING %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "%(points)s Bestormingkleuren ontvangen"
 msgstr[2] "%(points)s Bestormingkleuren ontvangen"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SEIZOEN I. AZUURBLAUWE DRAAK"
+msgstr "SEIZOEN I: AZUURBLAUWE FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SEIZOEN II. KARMOZIJNRODE DRAAK"
+msgstr "SEIZOEN II: KARMOZIJNRODE FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SEIZOEN III. JADEN DRAAK"
+msgstr "SEIZOEN III: JADEN FENIKS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Overwinningen: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Deze modus komt beschikbaar op %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azuurblauwe draak"
+msgstr "Azuurblauw Feniks"
 
 msgid "shortSeasonName/second"
-msgstr "Karmozijnrode draak"
+msgstr "Karmozijnrode Feniks"
 
 msgid "shortSeasonName/third"
-msgstr "Jaden draak"
+msgstr "Jaden Feniks"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Deze sectie bevat informatie over de beste spelers in het huidige seizoen van de Bestorming-modus."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Bekijk alles"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Ondersteun de Onslaught Legends Series door de prijzenpot te spekken met toernooibundels!"
+msgstr "Als het door jou gekozen team wint, ontvang je een unieke gouden OLS 2026 badge. Moedig je favorieten aan!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Toon je liefde voor e-sports met exclusieve thema-aanpassingselementen en unieke tanks!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Er zal een epische strijd losbarsten op het World of Tanks Championship International in Suzhou, China, waar 's werelds beste teams het tegen elkaar opnemen onder de regels van Bestorming, om te bepalen wie zich wereldkampioen mag noemen. Ervaar de spanning en kijk hoe legendes geboren worden op het slagveld!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS seizoen 6"
+msgstr "OLS seizoen 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Dit seizoen is je laatste kans om waardevolle beloningen te verdienen, waaronder de exclusieve Ashbringer niveau X zware tank met alle unieke 3D-stijlen die je ervoor hebt verdiend en een dappere bemanning met wapenbroeders als nul-specialisatie, plus de keuze uit verbeterde en experimentele uitrusting, en ook nog een prachtige 2D-stijl. Mis het niet – je overwinningen liggen in het verschiet!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Profiteer van de laatste momenten van het Jaar van de Draak!"
+msgstr "Profiteer van de laatste momenten van het Jaar van de Feniks!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEIZOEN VAN DE JADEN DRAAK"
+msgstr "SEIZOEN VAN DE AZUURBLAUWE FENIKS"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "BESTORMING. WAT IS NIEUW?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tastisch!"
+msgstr "Ontketen je vlammen!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Het in update 2.0 verbeterde venster met gevechtsresultaten geeft je na elk gevecht meer informatie die aan de modus is gerelateerd."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Wanneer de tijd verstrijkt en geen van beide teams een duidelijke overwinning heeft behaald, wordt de uitslag van het gevecht bepaald door tiebreakers in deze volgorde: overlevende voertuigen, toegebrachte schade en het eerste uitgeschakelde voertuig. Als geen van beide teams schade heeft toegebracht, eindigt het gevecht in een gelijkspel."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Gedetailleerde gevechtsresultaten"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Vrees niet als je favoriete voertuig is verbannen. Huurvoertuigen hebben een vooraf geconfigureerde bemanning, plus uitrusting, granaten en verbruiksartikelen."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Gevechtsklare huurvoertuigen %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Dit seizoen kan elk team een voertuig uit een gevecht verbannen. Spreek met teamgenoten af waarop je stemt om een gevreesde machine uit te sluiten of om een onverwachte samenstelling voor te bereiden."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Voertuig verbannen %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Gelijkspel voorwaarden geüpdatet {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kaarten"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nieuwe voertuigen beschikbaar in Bestorming"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Versie 2.4 introduceert nieuwe rollen voor lichte tanks en een herbalancering van voertuigeigenschappen. Probeer ze uit in het gevecht!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nieuwe rollen voor lichte tanks {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Frisse gameplay op bekende kaarten: nachtelijke omstandigheden, nieuwe Observatieposten, nieuwe belangrijke locaties en aangepaste verkenningsmechanismes. Dit alles verandert het verloop van het gevecht, waardoor bewustheid, timing en tactische verplaatsing belangrijker zijn dan ooit."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Er zijn nu nachtkaarten! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Vanwege een lage spelerspopulatie in gevechten zijn superpelotons uitgeschakeld. We werken aan alternatieve teamgebaseerde manieren om Bestorming spelen. In de tussentijd vinden er regelmatig 7v7-toernooien plaats."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Geen superpelotons meer {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Huurvoertuigen"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "De onlangs geïntroduceerde Ares 90 niveau X Amerikaanse medium tank is nu beschikbaar in de modus met een aangepaste rolvaardigheid."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Kaarten: Erlenberg is verwijderd. Belangrijke locaties op Vliegveld zijn verplaatst. Kleine wijzigingen aan Pilsen.\n• Voertuigen: de VZ. 60S Dravec is verwijderd. De nieuwe Duitse zware tank Kampfpanzer 67 is toegevoegd."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Rolvaardigheidupdate %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "De 114 SP2 kan met de Zilver-rang worden gekocht in de Bestormingwinkel."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Winkelupdates %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Seizoensgebonden balansveranderingen {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "UITGESLOTEN"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Seizoen I. Azuurblauwe draak"
+msgstr "Seizoen I: Azuurblauwe Feniks"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Seizoen II. Karmozijnrode draak"
+msgstr "Seizoen II: Karmozijnrode Feniks"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Seizoen III. Jaden draak"
+msgstr "Seizoen III: Jaden Feniks"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Huidig"

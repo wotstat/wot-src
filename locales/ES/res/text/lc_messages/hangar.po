@@ -136,6 +136,24 @@ msgstr[0] "{{count}} victoria"
 msgstr[1] "{{count}} victorias"
 msgstr[2] "{{count}} victorias"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponible durante {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Experiencia de combate"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Para celebrar que tu retorno a la acción, tenemos algo especial para ti: {{@ style (color #ede6d9e6)}}la bonificación de redespliegue diaria{{/}} potencia la EXP de combate obtenida por la primera victoria del día con cada vehículo."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "¡Hola de nuevo, comandante!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "La bonificación se reinicia cada día a las {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonificación de redespliegue: disponible"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Haz clic para ver tus listas de vehículos"
 

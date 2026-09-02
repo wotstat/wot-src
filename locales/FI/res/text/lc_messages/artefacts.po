@@ -880,6 +880,12 @@ msgstr "Telojen lisäharjat, luokka 3"
 msgid "gun_balancing_1/name"
 msgstr "Tykin tasapainotus (tyyppi 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Tykin tasapainotus (tyyppi 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Tykin piipun modifikaatio (tyyppi 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Paranneltu telakoneisto (tyyppi 1)"
 msgid "improved_suspension_2/name"
 msgstr "Paranneltu telakoneisto (tyyppi 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Paranneltu tornin moottori (tyyppi 1)"
+
 msgid "inspire/longDescr"
 msgstr "Parantaa oman ja tietyllä säteellä olevien liittolaisvaunujen miehistöjen suoriutumista lisäten %-bonuksen jokaisen miehistönjäsenen päätaitoon. Tämän käyttänyt pelaaja saa vahvemman vaikutuksen."
 
@@ -1294,6 +1303,9 @@ msgstr "Liikkuvuuden parannusjärjestelmä T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Liikkuvuuden parannusjärjestelmä T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Suuliekin vaimennin (tyyppi 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Lisää väliaikaisesti vaunusi moottoritehoa %(enginePowerFactor)s ja sen huippunopeutta %(maxSpeedFactor)s-kertaiseksi %(consumeSeconds)s s ajaksi."
 
@@ -1347,6 +1359,12 @@ msgstr "{colorTagOpen}%(delay)d s{colorTagClose} kuluttua valitulle alueelle is
 
 msgid "poi_artillery_aoe/name"
 msgstr "Tykistöisku"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Lyhyen viiveen jälkeen valoraketti valaisee valitun alueen. Sen säteelle jääneet vihollisvaunut pysyvät havaittuina ja ottavat enemmän vahinkoa.\nTarkkailupisteen voi vallata uudelleen muutaman minuutin jälkeen."
+
+msgid "poi_illumination_flare/name"
+msgstr "Valoraketti"
 
 msgid "poi_radar/descr"
 msgstr "Aktivoitaessa kaikki vihollisvaunut pysyvät havaittuina {colorTagOpen}%(duration)d s{colorTagClose} ajan."
@@ -1879,29 +1897,77 @@ msgstr "Keveä runko"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Keveä\nrunko"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Heijastamaton optiikoiden pinnoitus"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Heijastamaton ajovalojen pinnoitus"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Heijastamaton\noptiikoiden pinnoitus"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Heijastamaton\najovalojen pinnoitus"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Ulkoinen näköjärjestelmä"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Periskoopin sähkömoottori"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Ulkoinen\nnäköjärjestelmä"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Periskoopin\nsähkömoottori"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoraamaperiskooppi"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoraama\nperiskooppi"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoraamaperiskooppi"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Kapeakulmainen tarkkailulaite"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Kapeakulmainen\ntarkkailulaite"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Uusi tähtäimen ratasto"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Uusi tähtäimen ratasto"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Periskoopin sähkömoottori"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Periskoopin\nsähkömoottori"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Yleinen kestävyyden parannus"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Yleinen kestävyyden\nparannus"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Heijastamaton ajovalojen pinnoitus"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Heijastamaton\najovalojen pinnoitus"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Hylsynpoistajan viritys"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Hylsynpoistajan viritys"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Voimanlähteen uusi kaapelointi"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Voimanlähteen\nuusi kaapelointi"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Paranneltu rihlaus"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Paranneltu\nrihlaus"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Herkät optiikat"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Herkät optiikat"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Vahvistettu rakenne"
@@ -2424,6 +2490,9 @@ msgstr "Sähköpurkaus"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Luo alueen, jolla iskee tiuhaan %(thunderCount)s sähköpurkauksen sarja. Jokainen purkaus aiheuttaa {whiteSpanish_Open}%(damage)s pistettä vahinkoa{whiteSpanish_Close} ja väliaikaisesti heikentää jokaisen kyvyn vaikutusalueella olevan vihollisvaunun liikkuvuutta.\n\n*Kyvyn aktivoinnin ja ensimmäisen purkauksen välillä on %(delay)s s viive. Sen negatiivisen vaikutuksen voi poistaa korjaussarjalla."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Vääntösauvojen korvaaja (tyyppi 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Luo %(duration)s s ajaksi alueen, joka heikentää kaikkien sen sisällä olevien vihollisvaunujen liikeominaisuuksia %(vehicleMaxSpeed)s sekä pidentää tykin lataus- ja tähtäysaikaa %(gunReloadTime)s."

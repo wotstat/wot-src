@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Так!"
 
 msgid "error/description"
-msgstr "Інформація тимчасово недоступна. Вибачте за незручності, спробуйте повторити пізніше."
+msgstr "Вибачте за тимчасові незручності. Спробуйте пізніше."
 
 msgid "error/title"
-msgstr "Не вдалося відкрити вікно вибору нагороди"
+msgstr "Ця сторінка тимчасово недоступна"
 
 msgid "footer/closeBtn/label"
 msgstr "Вибрати пізніше"
@@ -23,7 +23,7 @@ msgstr[1] "Виберіть нагороди з представлених ка�
 msgstr[2] "Виберіть нагороди з представлених категорій."
 
 msgid "footer/okBtn/label"
-msgstr "Забрати"
+msgstr "Забрати нагороди"
 
 msgid "footer/rewardsSelected"
 msgstr "Вибрано нагород:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Уже отримано"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Ліміт вибраних предметів у цій категорії досягнуто. Ви можете скасувати вибір однієї з одиниць, щоб додати іншу."
+msgstr "Ви досягли максимальної кількості предметів у цій категорії. Скасуйте вибір одного предмета, щоб вибрати інший."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Досягнуто максимум"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Настанови\nдо обладнання"
@@ -93,6 +93,9 @@ msgstr "Загальне обладнання"
 
 msgid "tabs/items/trophy"
 msgstr "Трофейне обладнання"
+
+msgid "tooltips/footer/body"
+msgstr "Виберіть нагороди, щоб забрати їх"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Натисніть «Забрати», щоб отримати вибрані нагороди."

@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neon Depar, farklı bir şey sunan, özgün, sınırlı süreli bir etkinliktir! Tehlikeli parkurlarda yarışın ve dövüşün, görevleri tamamlayın ve ödüller kazanın."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi seçerek deneyin."
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayacaksınız. Oyun istemcisinin çökmesi de olasıdır."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Düşük Performans Olasılığı"
+msgstr "Düşük Performans"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi seçerek deneyin."
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Olası Düşürülmüş Performans"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Tüm Seviyeler"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayacaksınız. Oyun istemcisinin çökmesi de olasıdır."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "En yüksek grafik ayarı önerilir"
+msgstr "Düşük Performans"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) En yüksek grafik ayarı önerilir"
+msgstr "%(icon) Düşük Performans"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "En yüksek grafik ayarı önerilir"
+msgstr "Düşük Performans Olasılığı"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) En yüksek grafik ayarı önerilir"
+msgstr "%(icon) Düşük Performans Olasılığı"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Yeni bir Neon Depar görevi şu zamanda açılacak:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Tebrikler!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Sonsu Gelişim Sonrası Evre"
+msgstr "Tekrarlanabilir Aşama"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "Ana gelişimi tamamladınız"
+msgstr "Ana Gelişimi tamamladınız"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Bu aşamayi istediğiniz kadar çok kere tamamlayabilirsiniz."
+msgstr "Mümkün olduğunca çok ödül alın:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Kazanılan puan: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Tekrarlanabilir"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Tamamlama karşılığında:"
+msgstr "Tamamlama karşılığında"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Yenilgi karşılığında:"
+msgstr "Yenilgi için"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Zafer karşılığında:"
+msgstr "Zafer için"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Puan:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Şimdilik geçerli tüm görevleri tamamladınız. Başka görevler bir sonraki döngüde belirecek."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "{{timeLeft}} için geçerli"
+msgstr "{{timeLeft}} içinde tükenecek"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "{{timeLeft}} için geçerli"
+msgstr "Etkinlik {{timeLeft}} içinde sona erecek"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Yeni görevler {{timeLeft}} içinde geçerli olacak"
@@ -1195,6 +1195,12 @@ msgstr "Lazerlerden kaçın, zıplamalarınızın zamanını doğru ayarların v
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Dikkat: Lazerler ve Zıplamalar"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Aracınız takılıp kalırsa \"Kontrol Noktasına Dön\" yeteneğini kullanarak ulaştığınız en son kontrol noktasına ışınlanın."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Kontrol Noktasına Dön"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "bu kip hakkında daha fazla bilgi alın"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15-30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Bitiş çizgisine kadar\nsavaşarak yolunuzu açın"
+msgstr "Bitiş çizgisine kadar savaşarak yolunuzu açın"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Tüm Seviyeler"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Düşük grafik ayarlarında görsel kalıntılar ve başka sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Bu kip, yüksek performans gerektirir ve FPS hızı çetin anlarda sırasında düşebilir."
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayacaksınız. Oyun istemcisinin çökmesi de olasıdır."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "En Yüksek Grafik Ayarı Önerilir"
+msgstr "Düşük Performans"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) En yüksek grafik ayarı önerilir"
+msgstr "%(icon) Düşük Performans"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Düşük grafik ayarlarında görsel kalıntılar ve başka sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Bu kip, yüksek performans gerektirir. FPS hızınız çetin anlarda sırasında düşebilir."
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "En Yüksek Grafik Ayarı Önerilir"
+msgstr "Düşük Performans Olasılığı"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) En yüksek grafik ayarı önerilir"
+msgstr "%(icon) Düşük Performans Olasılığı"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neon Depar"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Tehlikeli pistlerde yarışın ve mücadele edin, görevleri tamamlayın ve ödüller kazanın."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon Depar"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neon Depar"

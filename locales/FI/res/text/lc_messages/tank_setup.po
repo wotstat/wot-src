@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "vaunun kestopisteisiin"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+msgstr "tykin kääntönopeuteen"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "tornin kääntönopeuteen"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "vaunun kestopisteisiin"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+msgstr "tykin kääntönopeuteen"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "tornin kääntönopeuteen"
@@ -2100,6 +2100,51 @@ msgstr " ja "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Vaunun ulkoisen ammussyötön tila mahdollistaa enemmän vahinkoa tekevien ammusten käytön."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Tavalliset arvot tavallisessa tilassa."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Muokatut arvot ulkoisen ammussyötön tilassa."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Täysin viritettyjen laukausten perusarvot"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Kerran viritettyjen laukausten perusarvot"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Täysin viritettyjen laukausten perusarvot"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Tavallinen"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Kerran viritettyjen laukausten perusarvot"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Kalibroidussa tilassa tämä ammustyyppi on tehokas viistettyä panssaria vastaan."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Vaunun tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin ominaisuuksien muokkaamisen ennen ampumista."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Perustilassa tämä ammustyyppi on tehokas panssaria vastaan, jossa ei ole lisäsuojaa."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Perustila"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibroitu tila"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Kalibroidussa tilassa tämä ammustyyppi voi läpäistä lisäsuojia."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Perustilassa tämä ammustyyppi on tehokas kohtisuoraa panssaria vastaan."
 
 msgid "tooltips/specializationDesc"
 msgstr "Tavallisen varusteet %(spec)s-kategoriasta ovat tehokkaampia, jos se asennetaan tähän paikkaan. Muiden kategorioiden varusteet tarjoavat vain tavallisen bonuksen."

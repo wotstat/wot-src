@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Sapratu!"
 
 msgid "error/description"
-msgstr "Informācija īslaicīgi nav pieejama. Mēs atvainojamies par neērtībām. Lūdzu mēģiniet vēlreiz vēlāk."
+msgstr "Mēs atvainojamies par neērtībām. Lūdzu mēģiniet vēlreiz vēlāk."
 
 msgid "error/title"
-msgstr "Nevar Atvērt Balvu Izvēli"
+msgstr "Šī lapa pašlaik nav pieejama."
 
 msgid "footer/closeBtn/label"
 msgstr "Izvēlieties Vēlāk"
@@ -23,7 +23,7 @@ msgstr[1] "Izvēlieties balvas no sniegtajām kategorijām."
 msgstr[2] "Izvēlieties balvas no sniegtajām kategorijām."
 
 msgid "footer/okBtn/label"
-msgstr "Iegūt"
+msgstr "Iegūstiet Balvas"
 
 msgid "footer/rewardsSelected"
 msgstr "Balvas izvēlētas:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Jau saņemts"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Ir sasniegts izvēlēto priekšmetu ierobežojums šajā kategorijā. Variet atcelt viena priekšmeta atlasi, lai pievienotu citu."
+msgstr "Jūs esat sasniedzis maksimālo atļauto vienumu skaitu šajā kategorijā. Noņemiet vienu vienumu, lai izvēlētos citu."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Ierobežojums Sasniegts"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direktīvas\npar iekārtām"
@@ -93,6 +93,9 @@ msgstr "Standarta Iekārtas"
 
 msgid "tabs/items/trophy"
 msgstr "Balvas Iekārtas"
+
+msgid "tooltips/footer/body"
+msgstr "Izvēlieties atlīdzības, lai tās pieprasītu."
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Noklikšķiniet uz Iegūt pogas, lai saņemtu izvēlētās balvas."

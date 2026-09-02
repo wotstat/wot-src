@@ -880,6 +880,12 @@ msgstr "Допълнителни ребра на веригите (клас 3)"
 msgid "gun_balancing_1/name"
 msgstr "Балансиране на оръдието (тип 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Балансиране на оръдието (тип 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Модификация на дулото на оръдието (тип 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Подобрено окачване (тип 1)"
 msgid "improved_suspension_2/name"
 msgstr "Подобрено окачване (тип 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Усъвършенствано задвижване на купола (Тип 1)"
+
 msgid "inspire/longDescr"
 msgstr "Повишава ефективността на екипажа на машината и на всички съюзници в определен радиус, добавяйки % бонус към основната квалификация на всеки член на екипажа. Играчът, който го прилага, получава подобрено действие."
 
@@ -1294,6 +1303,9 @@ msgstr "Подобрена система за мобилност Т3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Подобрена система за мобилност Т3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Потискател на дулния пламък (тип 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Временно увеличава мощността на двигателя на машината ви с %(enginePowerFactor)s и максималната й скорост с %(maxSpeedFactor)s пъти за %(consumeSeconds)s сек."
 
@@ -1347,6 +1359,12 @@ msgstr "В рамките на {colorTagOpen}%(delay)d s{colorTagClose}, изб
 
 msgid "poi_artillery_aoe/name"
 msgstr "Артилерийски залп"
+
+msgid "poi_illumination_flare/descr"
+msgstr "След кратко забавяне сигнална ракета осветява избраната зона. Вражеските машини, попаднали в радиуса ѝ, остават открити и понасят по-големи поражения.\nНаблюдателният пост може да бъде превзет отново след няколко минути."
+
+msgid "poi_illumination_flare/name"
+msgstr "Сигнална ракета"
 
 msgid "poi_radar/descr"
 msgstr "Когато се активира, всички вражески машини ще останат открити за {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Олекотен корпус"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Олекотен\nкорпус"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Антиотражателно покритие на оптиката"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Антиотражателно покритие на фаровете"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Антиотражателно покритие\nна оптиката"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Антиотражателно покритие\nна фаровете"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Външни обзорни прибори"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Електрозадвижване на перископа"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Външни обзорни\nприбори"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Електрозадвижване\nна перископа"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Панорамни триплекси"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Панорамни\nтриплекси"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Панорамни триплекси"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Наблюдателен прибор под малък ъгъл"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Наблюдателен прибор\nпод малък ъгъл"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Нови зъбчати колела на прицела"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Нови зъбчати колела на прицела"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Електрозадвижване на перископа"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Електрозадвижване\nна перископа"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Общо повишаване на издръжливостта"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Общо повишаване\nна издръжливостта"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Антиотражателно покритие на фаровете"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Антиотражателно покритие\nна фаровете"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Настройка на ежектора"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Настройка на ежектора"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Преокабеляване на захранването"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Преокабеляване\nна захранването"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Подобрена нарезка на снаряда"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Подобрена\nнарезка на снаряда"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Чувствителна оптика"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Чувствителна оптика"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Усилена основна конструкция"
@@ -2424,6 +2490,9 @@ msgstr "Електрически разряд"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Създава зона, където серия от %(thunderCount)s електрически разряди удрят с висока честота. Всеки разряд причинява {whiteSpanish_Open}%(damage)s поражения{whiteSpanish_Close} и временно намалява мобилността на всяка вражеска машина в зоната на действие на способността.\n\n*Има забавяне %(delay)s сек. между активирането на способността и първия разряд. Негативният му ефект може да бъде премахнат с Ремонтен комплект."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Смяна на торсионните греди (тип 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "За %(duration)s сек. създава зона, която намалява параметрите на мобилност с %(vehicleMaxSpeed)s и времето за презареждане и прицелване на оръдието с %(gunReloadTime)s за всички вражески машини в нея."

@@ -46,6 +46,15 @@ msgstr "Aktiverar en mer realistisk modell av förstörelse av föremål i spele
 msgid "HAVOK_ENABLED/warning"
 msgstr "Inställningen ändras i nästa strid om den avaktiveras i nuvarande strid."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Förbättrade visuella effekter"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Aktiverar förbättrade visuella effekter. Avaktivera inställningen för att återgå till standardeffekter, vilket kan förbättra spelets prestanda."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Inställningen ändras i nästa strid om den avaktiveras i nuvarande strid."
+
 msgid "LANGUAGE_CODE"
 msgstr "sv"
 
@@ -175,11 +184,11 @@ msgstr "Aktivera band- och hjulspår"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Visar band- och hjulspår på marken.\n\nInte tillgänglig med förenklad grafik och låg dekalkvalitet."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Göm 3D-tillbehör i prickskytteläge"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Visning av effekter och 3D-tillbehör"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Gömmer tillfälligt 3D-tillbehör på vagnar i prickskytteläget.\n\nMinskar visuella störningsmoment och ökar precisionen."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ställer in visningen av effekter och 3D-tillbehör nära skärmens mitt för att minska störande objekt i siktet. Visningen av 3D-tillbehör påverkas bara i prickskytteläget.\n\nLägre värde gör effekter i 3D-tillbehör mer genomskinliga för friare sikte."
 
 msgid "WATER_QUALITY"
 msgstr "Vattendragskvalitet"
@@ -1995,6 +2004,15 @@ msgstr "Läge:"
 
 msgid "screenMode/windowed"
 msgstr "Fönster"
+
+msgid "showPrebattleHighlights"
+msgstr "Visa höjdpunkter"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Visar ett urval av stridsvagnar under nedräkningen före striden.\n\nStäng av inställningen för att förbättra spelprestandan."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Om inställningen är avstängd under den nuvarande striden kommer den aktiveras till nästa strid."
 
 msgid "smoothing/description"
 msgstr "Bestämmer till vilken grad ytterligare efterbehandling av linjer och konturer i spelet används: Minimerar anti-alias-effekter. Konturer ser mer naturliga ut."

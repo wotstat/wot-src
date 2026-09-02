@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "LUKK"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Bekreftet!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Warm-Up vil minne deg på spillets basisregler. Kamper spilles mot KI-kontrollerte kjøretøy og resultatene teller ikke med i din statistikk. Du kan forlate Warm-Up når som helst for å fortsette å spille i tilfeldige kamper."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Warm-Up"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Fullfør oppdrag, avslutt fremgangstrinnene i Back in Action og få verdifulle belønninger til bruk i spillet. Hvert fullførte standard-, premium- eller bonusoppdrag teller med i forhold til belønningen. Oppdrag kan fullføres i Warm-Up og tilfeldige kamper."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Fullfør oppdrag, avslutt fremgangstrinnene i Back in Action og få verdifulle belønninger. I løpet av Battle Pass vil poeng til Battle Pass legges til i belønningene dine. Oppdrag kan fullføres i Warm-Up og tilfeldige kamper."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Back in Action"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Du kan få premium leiekjøretøy på nivå 8, utviklingsbare kjøretøy på nivå 6 og rabatter på utvikling og kjøp av kjøretøy i belønning. Etter fullførelse av fremgangen, får du hovedbelønningen."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Belønninger"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "BACK IN ACTION"
-
 msgid "mainRewardTooltip/description"
 msgstr "Etter fullførelse av Back in Action fremgangen, får du:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Hovedbelønning"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Rabatt på utvikling og kjøp av et kjøretøy på nivå %(level)s"
+msgstr "Rabatt på utvikling og kjøp av et kjøretøy på nivå {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Kamper mot KI-kontrollerte kjøretøy som ikke teller i forhold til din statistikk. For å vinne må du erobre den fiendtlige basen eller bekjempe alle fiendtlige kjøretøy. Kamper kjempes i 15 mot 15 formatet på nivå 6–11 og i 10 mot 10 formatet på nivå 1–5."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Warm-Up"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Et hvilket som helst utviklingsbart kjøretøy på nivå %(level)s kan velges. Kjøretøyet kommer med utviklede moduler, en besetning og en garasjeplass."
+msgstr "Et hvilket som helst utviklingsbart kjøretøy på nivå {{level}} kan velges. Kjøretøyet kommer med utviklede moduler, en besetning og en garasjeplass."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Kjøretøy på nivå %(level)s"
+msgstr "Kjøretøy på nivå {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "En rabatt på %(researchDiscount)s for utvikling og en rabatt på %(purchaseDiscount)s ved kjøp av et kjøretøy på nivå %(level)s. Et hvilket som helst utviklingsbart kjøretøy kan velges."
+msgstr "En rabatt på {{researchDiscount}} for utvikling og en rabatt på {{purchaseDiscount}} ved kjøp av et kjøretøy på nivå {{level}}. Et hvilket som helst utviklingsbart kjøretøy kan velges."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Rabatten på {whiteSpanish_Open} utvikling{whiteSpanish_Close} legges til på rabatten du har fra tegningsdeler. Den største tilgjengelige {whiteSpanish_Open}kjøpsrabatten{whiteSpanish_Close} gjelder."
+msgstr "Rabatten på {{@ style (color $color)}}utvikling{{/}} legges til på rabatten du har fra tegningsdeler. Den største tilgjengelige {{@ style (color $color)}}kjøpsrabatten{{/}} gjelder."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Rabatt på nivå %(level)s kjøretøy"
+msgstr "Rabatt for kjøretøy på nivå {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "BEKREFTET!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Warm-Up vil minne deg på spillets basisregler. Kamper spilles mot KI-kontrollerte kjøretøy og resultatene teller ikke med i din statistikk. Du kan forlate Warm-Up når som helst for å fortsette å spille i tilfeldige kamper."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Oppvarming"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Fullfør oppdrag, avslutt fremgangstrinnene i Back in Action og få verdifulle belønninger. I løpet av Battle Pass vil poeng til Battle Pass legges til i belønningene dine. Oppdrag kan fullføres i Warm-Up og tilfeldige kamper."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Fullfør oppdrag, avslutt fremgangstrinnene i Back in Action og få verdifulle belønninger til bruk i spillet. Hvert fullførte standard-, premium- eller bonusoppdrag teller med i forhold til belønningen. Oppdrag kan fullføres i Warm-Up og tilfeldige kamper."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "TILBAKE I ACTION"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Du kan få premium leiekjøretøy på nivå 8, utviklingsbare kjøretøy på nivå 6 og rabatter på utvikling og kjøp av kjøretøy i belønning. Etter fullførelse av fremgangen, får du hovedbelønningen."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Belønninger"
+
+msgid "umgIntroView/title"
+msgstr "TILBAKE I ACTION"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Rabatten på %(research)s legges til på rabatten du har fra tegningsdeler. Den største tilgjengelige %(purchase)s gjelder."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Gå ut av Warm-Up?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Gjenværende kamper: %(battlesCount)s"
+msgstr "Gjenværende kamper: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Kamper mot KI-kontrollerte kjøretøy teller ikke med i statistikken din."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Du fikk også:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "En %(expDiscount)s rabatt på utvikling og en %(priceDiscount)s rabatt på kjøp av et kjøretøy på nivå %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}} %{{/}} rabatt på utvikling og {{@ style (bold) (color $color2)}}{{priceDiscount}} %{{/}} rabatt på kjøp avkjøretøy på nivå {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Kjøretøy på nivå %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Kjøretøy på nivå {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Rabatt på et kjøretøy på nivå %(level)s"
+msgstr "Rabatt på et kjøretøy på nivå {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "For fullførelse av en serie med daglige oppdrag"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "FREMGANG FULLFØRT"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s rabatt på utvikling\nog %(priceDiscount)s rabatt på kjøp"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}} %{{/}} rabatt på utvikling og {{@ style (bold) (color $color2)}}{{priceDiscount}} %{{/}} rabatt på kjøp"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "I garasjen"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Dager med leie: %(days)s"
+msgstr "Dager med leie: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Rabatt på utvikling og kjøp"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Velg senere"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Nullstill filter"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Rabtt på kjøretøy"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Kjøretøy på nivå %(vehicleLevel)s"
+msgstr "Kjøretøy på nivå {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Bekreftet!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Kan ikke åpne avdelingen for valg av belønninger"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Du utviklet alle kjøretøyene på nivå %(vehicleLevel)s. Nå kan du få nasjonale tegningsdeler i belønning."
+msgstr "Du utviklet alle kjøretøyene på nivå {{vehicleLevel}}. Nå kan du få nasjonale tegningsdeler i belønning."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Søk på navn"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}}{{@ style (color $color)}}/{{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Vist:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Sett til standard"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Valgte belønninger: %(amountRewards)s %(infoIcon)s"
+msgstr "Valgte belønninger: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Velg belønninger fra de viste kategoriene"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Ingenting ble funnet. Endre filterinnstillingene eller nullstill dem."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s nasjonal tegningsdel{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nasjonale tegningsdeler{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% rabatt på utvikling og %(priceDiscount)s% rabatt på kjøp)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}} % rabatt på utvikling og {{priceDiscount}} % rabatt på kjøp)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Rabatt på nivå %(level)s kjøretøy"
+msgstr "Rabatt for kjøretøy på nivå {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Alle utviklede moduler, besetning og en garasjeplass)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Alle utviklede moduler, besetning og en garasjeplass)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Kjøretøy på nivå %(level)s"
+msgstr "Kjøretøy på nivå {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Klikk på \"Hent\" knappen for å få de utvalgte belønningene."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Valgte belønninger: %(amountRewards)s"
+msgstr "Valgte belønninger: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Kjøp"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "VELG DIN BELØNNING"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "panserjager"

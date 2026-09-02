@@ -1,1 +1,1642 @@
-import{r as e,E as t,j as a,f as s,m as r,D as n,l as o,s as i}from"../../../chunks/vendor.js";import{i as l,c,n as d,G as u,u as _,r as m,V as b,m as p,H as v,I as f,K as g,B as h,M as y,N as x,e as N,O as B,P as j,Q as E,R as I,S as C,T as A,W as k,X as P,o as T,Y as S,Z as M,_ as W,l as O,z as w,$ as D,a0 as H,a1 as V,a2 as L,w as z,a3 as $,U,a4 as F,f as G,a5 as Q,a6 as q,a7 as Y,a8 as J,a9 as K,aa as X,ab as Z,ac as ee,C as te,ad as ae,ae as se,J as re,E as ne,af as oe,F as ie}from"../../../chunks/lib.js";import{a as le,D as ce}from"../../../chunks/divider.js";import{u as de,U as ue,W as _e,a as me}from"../../../chunks/user_account_model.js";/* empty css                    */var be=(e=>(e.Hangar="hangar",e.Default="default",e))(be||{});const[pe]=l("HeaderStateModel")(e=>({features:e.observableModel.dict("features")})),[ve,fe]=l()(({observableModel:e})=>({...e.primitives(["pageTitle","backNavigationDescription","backNavigationAllowed"]),infoButtons:e.arrayClone("infoButtons")}),({externalModel:e})=>({navigateTo:e.createCallback(e=>({name:e}),"onNavigate"),doInfoAction:e.createCallback(e=>({index:e}),"onInfoAction")})),[ge,he]=l("CurrentVehicleInfoProvider")(({observableModel:e})=>{const t={vehicles:e.dictRef("vehicles")};return{vehicle:c.shallow(()=>{try{const e=t.vehicles.entries()[0];if(e){const[,t]=e;return JSON.parse(t.get())}}catch(e){console.error("Error parsing JSON for current vehicle:",e)}})}},d),[ye,xe]=l("HeaderProvider")(({observableModel:e})=>e.primitives(["oldStyle"]),d),Ne="playerReady",Be="battleStartAction",je="searchingBattle",Ee="battleReady",Ie="BATTLE_ROYALE_TOURNAMENT",[Ce,Ae]=l("PrebattleProvider")(({observableModel:e})=>{const t={...e.primitives(["currentMode","currentModeId","battleStatus","queueType","battleButtonAlwaysOn"]),states:e.dict("states"),battleVehicle:e.transform(e=>{if(u(e.type))return{...e,type:e.type}},"battleVehicle")},a=c.primitive(()=>t.battleStatus.get()===je),s=c.primitive(()=>t.battleStatus.get()===Ee);return{...t,computes:{isSearchingBattle:a,isBattleReady:s}}},({externalModel:e})=>({actionPrebattle:e.createCallback(e=>({action:e}),"onAction")})),[ke,Pe]=l("PremiumShopProvider")(({observableModel:e})=>({...e.primitives({isPremiumShop:"premiumShopEnabled"})}),({externalModel:e})=>({openPremiumShop:e.createCallbackNoArgs("onOpenExternalPremiumShop")})),[Te,Se]=l("TutorialProvider")(({observableModel:e})=>{const t={triggers:e.arrayClone("triggers.items")},a=c.primitive(()=>t.triggers.get().length);return{...t,computes:{triggersCount:a}}},({externalModel:e})=>({onTriggerActivated:e.createCallback((e,t,a)=>({componentId:e,triggerType:t,state:a}),"onTriggerActivated")})),[Me,We]=l("BattleStartProvider")(({observableModel:e})=>({...e.primitives(["tooltip"])}),d);const Oe="active",we="ready",Re="notReady",De="disabled";const He={backgroundEffect:"BackgroundEffects_backgroundEffect_7bb0c1b5",base:"BackgroundEffects_47bdcaf9",backgroundEffect__rays:"BackgroundEffects_backgroundEffect__rays_4ebbd8d0"},Ve="rays";const Le=e.memo(function({buttonState:e,className:n}){const o=e===Oe?[Ve]:[];const i=m.resolve("videos"),l=t(o,{from:{opacity:0},enter:{opacity:1},leave:{opacity:0},config:{duration:100},trail:500});return a.jsx("div",{className:s(He.base,n),children:l((e,t)=>a.jsx(r.div,{style:e,children:a.jsx(b,{loop:!0,autoplay:!0,src:i.readOrEmpty(`header_footer.battle_button.${t}`),className:s(He.backgroundEffect,He[`backgroundEffect__${t}`])},t)}))})}),ze="ButtonEffects_merged_86ab891d",$e="ButtonEffects_bdb5411e",Ue=e.memo(function({className:e,onAnimationStarted:t}){const r=m.resolve("videos"),n=p({value:"small"},{large:{value:"large"}});return a.jsx("div",{className:s($e,e),children:a.jsx(b,{autoplay:!0,loop:!0,onPlay:t,src:r.readOrEmpty(`header_footer.battle_button.foreground_${n.value}`),className:ze},`glitterEffect-${n.value}`)})}),Fe={textGlow:"ButtonText_textGlow_89301672",base:"ButtonText_841a3b01",base__ready:"ButtonText_base__ready_5e741ba3",breath:"ButtonText_breath_5e741ba3",textWrapper:"ButtonText_textWrapper_535d5dc6",base__disabled:"ButtonText_base__disabled_5e741ba3",text:"ButtonText_text_b56e6fa7",base__active:"ButtonText_base__active_5e741ba3",base__notReady:"ButtonText_base__notReady_5e741ba3",textOverlay:"ButtonText_textOverlay_1bcba7de"};function Ge({buttonState:e,buttonText:t,animationActive:s,onAnimationEnded:n}){const i=o({opacity:s?.9:0,config:{duration:s?3600:1e3,easing:s?g.easeInCirc:g.easeOutCirc},onRest:()=>{s&&n()}});return e===Oe?a.jsx(r.div,{className:Fe.textGlow,style:i,children:t}):e===we?a.jsx("div",{className:Fe.textGlow,children:t}):null}const Qe=n(function({actionType:e,buttonState:t,animationActive:r,onAnimationEnded:n,className:o}){const i=Ae(),l=m.resolve("strings"),c=v.toUpperCase(l.readOrEmpty(function(e,t){return e===Be?"menu.headerButtons.battle.button.battle":t?"menu.headerButtons.notReady":"menu.headerButtons.ready"}(e,i.model.states.get(Ne))));return a.jsxs("div",{className:s(Fe.base,Fe[`base__${t}`],o),children:[a.jsx(f,{classNames:{base:Fe.textWrapper,text:Fe.text,textOverlay:Fe.textOverlay},children:c}),a.jsx(Ge,{buttonState:t,buttonText:c,animationActive:r,onAnimationEnded:n})]})}),qe={background:"ButtonWrapper_background_5f66b44f",border:"ButtonWrapper_border_4e5ba0c2",button:"ButtonWrapper_button_ac00a3ae",button__disabled:"ButtonWrapper_button__disabled_5b8e9d9",background__disabled:"ButtonWrapper_background__disabled_4ab5c051",background__notReady:"ButtonWrapper_background__notReady_d27296f9",background__ready:"ButtonWrapper_background__ready_2853577d",background__appear:"ButtonWrapper_background__appear_22cf4f98",fadeIn:"ButtonWrapper_fadeIn_d27296f9",background__dissapear:"ButtonWrapper_background__dissapear_6a20b5f2",flicker:"ButtonWrapper_flicker_d27296f9",content:"ButtonWrapper_content_a523ce6e",button__ready:"ButtonWrapper_button__ready_d27296f9",button__notReady:"ButtonWrapper_button__notReady_d27296f9",overlay:"ButtonWrapper_overlay_ccea80e8"},Ye=[we,Re],Je=n(function({buttonState:e,transitionActive:t,transitionFromState:r,actionType:n,children:o,className:i}){const l=We(),c=Ae(),d=l.model.tooltip.get(),u=function(e){const t=e.match(/{HEADER}(.*?){\/HEADER}/)?.[1],a=e.match(/{BODY}(.*?){\/BODY}/)?.[1],s=e.match(/{NOTE}(.*?){\/NOTE}/)?.[1],r=e.match(/{ATTENTION}(.*?){\/ATTENTION}/)?.[1];return _({header:t,body:a,alert:r,note:s,hasHtmlContent:!0,disabled:0===e.length})}(d),m=e===De;const b=r&&Ye.includes(r)&&Ye.includes(e);return a.jsx("div",{...m&&d&&u,className:i,children:a.jsxs(h,{theme:h.themes.custom,disabled:m,autoAlignContent:!1,onClick:function(){m||c.controls.actionPrebattle(n)},className:s(qe.button,qe[`button__${e}`]),classNames:{background:s(qe.background,qe[`background__${e}`],t&&!b&&qe.background__appear),content:qe.content,border:qe.border,overlay:qe.overlay},"data-test-id":"battleButton",soundTarget:"battleButton",children:[t&&!b&&a.jsx("div",{className:s(qe.background,qe.background__dissapear,qe[`background__${r}`])}),o]})})}),Ke={hoverOverlay:"BattleButton_hoverOverlay_5196983d",buttonEffects:"BattleButton_buttonEffects_53b5d8e2",reflector:"BattleButton_reflector_47e1d14b",backgroundEffects:"BattleButton_backgroundEffects_815ae971",base:"BattleButton_40c20cf8",fadeIn:"BattleButton_fadeIn_ea4cde73",reflector__ready:"BattleButton_reflector__ready_ea4cde73",reflector__notReady:"BattleButton_reflector__notReady_a8ef3bf5",desaturation:"BattleButton_desaturation_fb74a8a1",desaturation__hidden:"BattleButton_desaturation__hidden_6167cc9c",buttonText:"BattleButton_buttonText_8108fe79"},Xe="FightButton",Ze="enabled_change",et=y("BattleButton",Ke.base),tt=n(function({classNames:t}){const r=Ae(),[n,o]=e.useState(!1),[l,c]=e.useState(!1),[d,u]=e.useState(),{model:_,controls:m}=Se(),b=_.computes.triggersCount(),p=x(),v=r.model.queueType.get()===Ie,f="TRAINING"===r.model.currentMode.get(),g=!r.model.states.get("playerCreator")&&!f&&r.model.states.get("readinessAvailable")||v?"readyAction":Be,h=function(e,t,a){return t?De:e===Be?Oe:a?Re:we}(g,!r.model.states.get("actionEnabled"),r.model.states.get(Ne)),y=N(h),j=h===De;return e.useEffect(()=>i(()=>{const e=B(_.triggers.get(),e=>e.componentId===Xe);(b>0&&e||y&&h!==y)&&m.onTriggerActivated(Xe,Ze,!0)}),[h,m,_.triggers,y,b]),e.useEffect(()=>{y&&h!==y&&(c(!0),u(y),p.run(()=>{c(!1)},600))},[p,h,y]),e.useLayoutEffect(()=>()=>{m.onTriggerActivated(Xe,Ze,!1)},[]),a.jsxs(et,{className:t?.base,id:"fight-button",children:[a.jsx(Le,{buttonState:h,className:s(Ke.backgroundEffects,t?.effect)}),a.jsxs(Je,{actionType:g,buttonState:h,transitionActive:l,transitionFromState:d,className:t?.content,children:[!j&&a.jsx("div",{className:s(Ke.reflector,Ke[`reflector__${h}`])}),h===Oe&&a.jsx(Ue,{className:Ke.buttonEffects,onAnimationStarted:()=>o(!0)}),a.jsx("div",{className:Ke.hoverOverlay}),a.jsx("div",{className:s(Ke.desaturation,!j&&Ke.desaturation__hidden)}),a.jsx(Qe,{actionType:g,buttonState:h,animationActive:n,onAnimationEnded:()=>o(!1),className:Ke.buttonText})]})]})}),at=e.memo(({options:e,...t})=>a.jsx(Me,{options:e,children:a.jsx(tt,{...t})}));function st(){const e=j().paramsStruct.routeType;return"string"==typeof e?e:be.Default}var rt=(e=>(e.Personal="personal",e.Clan="clan",e.Event="event",e))(rt||{}),nt=(e=>(e[e.Inactive=0]="Inactive",e[e.Active=1]="Active",e[e.Used=2]="Used",e))(nt||{});const ot="alert",it="x24x24",lt="x32x32",ct="x96x96",dt={[rt.Personal]:0,[rt.Clan]:1,[rt.Event]:2};function ut(e){return dt[e]??0}function _t(e){return Math.max(0,Math.floor(e-Date.now()/E))}const[mt,bt]=l()(({observableModel:e})=>{const t={reserves:e.arrayClone("reserves"),disabledCategories:e.arrayClone("disabledCategories"),...e.primitives({totalReserves:"allReserves",totalLimitedReserves:"limitedReserves",expiringReserveWillExpireSoon:"reserveExpire"})},a=c.primitive(()=>B(t.reserves.get(),e=>e.inactivationTime>0)),s=c.shallow(()=>{const e=t.reserves.get();return P(e,(e,t)=>ut(e.reserveType)-ut(t.reserveType))}),r=c.shallow(()=>t.disabledCategories.get().every(e=>e.isDisabled));return{...t,computes:{visible:a,sortedBoosters:s,disabled:r}}},({externalModel:e})=>({openBooster:e.createCallbackNoArgs("openBoosterNavigation")})),pt="Activate_d05a6105",vt="Activate_base__disabled_77f76d6c",ft="Activate_wrapper_ea72f87a",gt="Activate_iconWrapper_b884eeb8",ht="Activate_icon_bfced9a9",yt="Activate_icon__glow_6978c825",xt="Activate_amount_262c55ed",Nt="Activate_text_6ca62bb4",Bt="Activate_text__limited_cd94941e",jt="Activate_textOverlay_a5c8a675",Et="Activate_textOverlay__limited_6c5cb381",It="Activate_hint_68b56ff6",Ct="Activate_hint__glow_24eef452",At="Activate_glow_d01917a6",kt="Activate_glow__limited_5e88d41",Pt="Activate_glow__alert_8001ed30",Tt="Activate_sparks_718002e7",St="Activate_sparks__visible_842edf80",Mt=n(function(){const{model:e}=bt(),t=m.resolve("strings"),r=m.resolve("intl"),n=e.computes.visible(),o=e.allReserves.get(),i=e.limitedReserves.get(),l=e.reserveExpire.get(),c=e.computes.disabled();return n?null:a.jsxs("div",{className:s(pt,c&&vt),children:[a.jsxs("div",{className:ft,children:[a.jsx("div",{className:s(Tt,l&&St)}),a.jsx("div",{className:s(At,i&&kt,l&&Pt)}),a.jsx("div",{className:gt,children:a.jsx("div",{className:s(ht,i&&yt)})}),a.jsx(f,{classNames:{base:xt,text:s(Nt,i&&Bt),textOverlay:s(jt,i&&Et)},children:r.formatNumber("integral",o)})]}),!c&&a.jsx("div",{className:s(It,i&&Ct),children:r.toUpperCase(t.readOrEmpty("menu.boostersWindow.boostersTableRenderer.activateBtnLabel"))})]})}),Wt={background:"Card_background_d014d7d",fill:"Card_fill_68e6b048",fillPattern:"Card_fillPattern_496f8980",base:"Card_71731d1d",base__disabled:"Card_base__disabled_530f6e06",background__personal:"Card_background__personal_57d23cf4",background__clan:"Card_background__clan_46c6fc44",background__alert:"Card_background__alert_9b1dc5e1",alert:"Card_alert_402bb5af",alert__visible:"Card_alert__visible_bf4a84a5",icon:"Card_icon_1eb606a6",premium:"Card_premium_44855832",premium__visible:"Card_premium__visible_bd677cbc",timer:"Card_timer_27a2857b",timer__visible:"Card_timer__visible_bd677cbc",timerGlow:"Card_timerGlow_e2954b70",fillPattern__personal:"Card_fillPattern__personal_487b5eeb",fillPattern__clan:"Card_fillPattern__clan_d7903601",fillPattern__alert:"Card_fillPattern__alert_fba99a76",fillBorderTop:"Card_fillBorderTop_4308f9d9",fillBorderTop__alert:"Card_fillBorderTop__alert_b2944931",fillBorderBottom:"Card_fillBorderBottom_96ba37d9",fillBorderBottom__visible:"Card_fillBorderBottom__visible_594e8c6a"},Ot=n(function({type:t,timeLeft:r,timeTotal:n,icon:o,className:i}){const{model:l}=bt(),{minutesLeft:c,percentLeft:d}=function(t,a){const[s,r]=e.useState(_t(t));e.useEffect(()=>{r(_t(t))},[t]),e.useEffect(()=>{if(0===s)return;const e=setTimeout(()=>{r(_t(t))},E);return()=>clearTimeout(e)},[s,t]);const n=k(s),o=Math.ceil(C(n));return{minutesLeft:o,percentLeft:Math.max(0,Math.min(100,o/(a/I)*100))}}(r,n),u=l.computes.disabled(),_=c<=9,m=c<=2,b=p({size:it},{large:{size:lt}}),v=T(b.size,ct),f=o.includes("premium");return r<=0?null:a.jsxs("div",{className:s(Wt.base,u&&Wt.base__disabled,i),style:{"--fill_percentage":`${d}%`},children:[a.jsx("div",{className:s(Wt.background,Wt[`background__${_?ot:t}`])}),a.jsx(S,{className:Wt.icon,path:`personal_reserves.common.cards.${v}.${o}`}),a.jsx(S,{className:s(Wt.premium,f&&Wt.premium__visible),path:`personal_reserves.common.cards.${b.size}.premium_booster_glow`}),a.jsxs("div",{className:s(Wt.timer,_&&Wt.timer__visible),children:[a.jsx("div",{className:Wt.timerGlow}),a.jsx(M,{upgradeLegacy:!0,path:"personal_reserves.hangarEntry.minute",params:{minutesLeft:c}})]}),a.jsx("div",{className:s(Wt.alert,m&&Wt.alert__visible)}),a.jsxs("div",{className:Wt.fill,children:[a.jsx("div",{className:s(Wt.fillPattern,Wt[`fillPattern__${_?ot:t}`])}),a.jsx("div",{className:s(Wt.fillBorderTop,m&&Wt.fillBorderTop__alert)}),a.jsx("div",{className:s(Wt.fillBorderBottom,_&&Wt.fillBorderBottom__visible)})]})]})}),wt="List_background_dc475fe4",Rt="List_border_59b5e8fe",Dt="List_borderShadow_776a55b9",Ht="List_e706f6ab",Vt="List_base__disabled_8303c2c1",Lt="List_cards_efba95c2",zt="List_card_d0063856",$t=n(function(){const{model:e}=bt(),t=e.computes.sortedBoosters(),r=e.computes.visible(),n=e.computes.disabled();return r?a.jsxs("div",{className:s(Ht,n&&Vt),children:[a.jsx("div",{className:wt}),a.jsx("div",{className:Rt}),a.jsx("div",{className:Dt}),a.jsx("div",{className:Lt,children:W(t,e=>e.state===nt.Active,e=>a.jsx(Ot,{type:e.reserveType,timeLeft:e.inactivationTime,timeTotal:e.totalDuration,icon:e.iconId,className:zt},e.boosterID))})]}):null}),Ut="Reserves_43f2a7a7",Ft="Reserves_base__disabled_58e2c36d",Gt=n(function(){const{model:e,controls:t}=bt(),r=function(){const e=m.resolve("views"),t=m.resolve("aliases");return A({resId:t.read(e=>e.lobby_header.default.ReservesEntryPoint("resId")),contentId:e.read(e=>e.lobby.personal_reserves.PersonalReservesTooltip("resId"))})}(),n=O(),o=e.computes.disabled();return a.jsxs("div",{...r,className:s(Ut,o&&Ft),onClick:function(e){r.onClick(),o||(n.play("click",{target:"reserves",original:e}),t.openBooster())},onMouseEnter:function(e){r.onMouseEnter(e),o||n.play("mouse-enter",{target:"reserves",original:e})},"data-test-id":"reservesButton",children:[a.jsx($t,{}),a.jsx(Mt,{})]})}),Qt=e.memo(({options:e,...t})=>a.jsx(mt,{options:e,children:a.jsx(Gt,{...t})})),[qt,Yt]=l("WalletModel")(({observableModel:e})=>{const t={currencies:e.dict("currencies")};return{...t,list:c.shallow(e=>Array.from(t.currencies.keys.values()).sort((t,a)=>{const s=e.indexOf(t),r=e.indexOf(a),n=e.length;return(-1===s?n:s)-(-1===r?n:r)}))}},({externalModel:e})=>({currencyAction:e.createCallback(e=>({type:e}),"onCurrencyAction")})),Jt="Hint_e53dd99e",Kt="Hint_discountBackground_d56ce0a3",Xt="Hint_discount_94b7b9ff",Zt="Hint_onlyDiscount_8b648a0a",ea="Hint_discountWithHintText_381cf018",ta="Hint_onlyHintText_751386e1",aa="Hint_discountValue_b1f389fc",sa="Hint_discountHintTitle_939c55ad",ra="Hint_hintText_6f3fa83f",na="Hint_hintTitle_135a3ed",oa="Hint_discountValue__withHint_e7bbe38f";function ia({classNames:e}){const t=m.resolve("strings");return a.jsxs("div",{className:s(Zt,e?.onlyDiscount),children:[a.jsx("div",{className:s(Kt,e?.discountBackground)}),a.jsx(w.Root,{children:a.jsx(w.Value,{value:t.readOrEmpty("common.common.percent"),classNames:{valueContainer:s(Xt,e?.discount),value:s(aa,e?.discountValue)}})})]})}function la({type:e,classNames:t}){const r=m.resolve("intl"),n=m.resolve("strings");return a.jsx("div",{className:s(ra,ta,t?.hintText,t?.onlyHintText),children:a.jsx(f,{classNames:t?.textGradient,children:a.jsx("div",{className:s(na,t?.hintTitle),children:r.toUpperCase(n.readOrEmpty(`menu.headerButtons.btnLabel.${e}`))})})})}function ca({classNames:e,type:t}){const r=m.resolve("intl"),n=m.resolve("strings");return a.jsxs("div",{className:s(ea,e?.discountWithHintText),children:[a.jsx("div",{className:s(Kt,e?.discountBackground)}),a.jsx("div",{className:s(sa,e?.discountHintTitle),children:r.toUpperCase(n.readOrEmpty(`menu.headerButtons.btnLabel.${t}`))}),a.jsx(w.Root,{children:a.jsx(w.Value,{value:n.readOrEmpty("common.common.percent"),classNames:{valueContainer:s(Xt,e?.discount),value:s(aa,oa,e?.discountValue)}})})]})}function da({classNames:e,type:t}){return a.jsxs("div",{className:s(Jt,e?.base),children:[a.jsx(ia,{classNames:{onlyDiscount:e?.onlyDiscount,discountBackground:e?.discountBackground,discount:e?.discount,discountValue:e?.discountValue}}),a.jsx(la,{type:t,classNames:{hintText:e?.hintText,textGradient:e?.textGradient,onlyHintText:e?.onlyHintText}}),a.jsx(ca,{classNames:e,type:t})]})}const ua={base:"Currency_92022680",hintWrapper:"Currency_hintWrapper_530465b9",base__interactive:"Currency_base__interactive_52396ddd",currencyWrapper:"Currency_currencyWrapper_b13579ba",currencyIcon:"Currency_currencyIcon_346f8c78",value:"Currency_value_b1cf6531",value__unavailable:"Currency_value__unavailable_3a328d4",dash:"Currency_dash_2806b61e",formattedValue:"Currency_formattedValue_b7cad7e0",hint:"Currency_hint_f9d16bb2",text:"Currency_text_f4484816",text__overlay:"Currency_text__overlay_64b93131",discountWithHintText:"Currency_discountWithHintText_95e3324b",base__discount:"Currency_base__discount_271064ec",onlyHintText:"Currency_onlyHintText_61ecd7b0",onlyDiscount:"Currency_onlyDiscount_61ecd7b0"},_a=1e6,ma=1e5;function ba({wgMoneyAvailable:t,value:r,type:n,classNames:o}){const i=e.useRef(null),l=m.resolve("intl"),c=m.resolve("strings"),d=p({displayValue:()=>r>=_a?{abbreviated:!0,value:D(r,ma)/_a}:{abbreviated:!1,value:r}},{medium:{displayValue:()=>r>=1e7?{abbreviated:!0,value:D(r,ma)/_a}:{abbreviated:!1,value:r}},large:{displayValue:()=>r>=1e8?{abbreviated:!0,value:D(r,ma)/_a}:{value:r,abbreviated:!1}}});if(!1===t)return a.jsxs("div",{className:s(ua.value,ua.value__unavailable,o?.value),children:[a.jsx("div",{className:ua.dash,children:c.readOrEmpty("common.common.semi_dash")}),a.jsx("div",{className:ua.dash,children:c.readOrEmpty("common.common.semi_dash")})]});const u=d.displayValue();return a.jsx("div",{ref:i,className:s(ua.value,o?.base),children:u.abbreviated?a.jsx(M,{path:"menu.hangar_header.million",params:{value:u.value},brackets:{start:"%(",end:")s"},className:s(ua.formattedValue,o?.formattedValue)}):l.formatNumber(n===H.gold?"gold":"integral",u.value)})}const pa=n(function({currency:t,type:r,className:n,classNames:o}){const{controls:i}=Yt(),l=O(),c="AVAILABLE"===t.status,d=function(t,a,s,r){const n=m.resolve("strings"),o=_({header:n.readOrEmpty(`tooltips.header.buttons.${t}.header`),body:n.readOrEmpty(`tooltips.header.buttons.${t}.body`)}),i=e.useMemo(()=>({disabled:"string"!=typeof s||""===s}),[s]),l=z(s,e.useMemo(()=>[r],[r]),i);return!1===a?o:l}(r,c,t.tooltipType,t.value),u=p({size:V.extraSmall},{large:{size:V.small},extraLarge:{size:V.medium}}),b=T(u.size,V.small);return a.jsxs("div",{...d,className:s(ua.base,c?ua.base__interactive:ua.base__nonInteractive,t.discount>0&&ua.base__discount,n),onMouseEnter:function(e){l.play("mouse-enter",{target:"WalletCurrency",original:e}),d.onMouseEnter(e)},onClick:function(e){d?.onClick(),c&&(l.play("click",{target:"WalletCurrency",original:e}),i.currencyAction(r))},children:[a.jsx("div",{className:s(ua.currencyWrapper,o?.currencyWrapper),children:a.jsx(L,{reverse:!0,classNames:{...o?.currency,icon:s(ua.currencyIcon,o?.currency?.icon)},type:r,size:b,"data-test-id":r,children:a.jsx(ba,{wgMoneyAvailable:c,value:t.value,type:r,classNames:o?.currencyValue})})}),c&&a.jsx("div",{className:s(ua.hintWrapper,o?.hintWrapper),children:a.jsx(da,{type:r,classNames:{...o?.hint,discountWithHintText:s(ua.discountWithHintText,o?.hint?.discountWithHintText),onlyDiscount:s(ua.onlyDiscount,o?.hint?.onlyDiscount),onlyHintText:s(ua.onlyHintText,o?.hint?.onlyHintText),base:s(ua.hint,o?.hint?.base),textGradient:{text:ua.text,textOverlay:s(ua.text,ua.text__overlay)}}})})]})}),va=n(function(e){const t=Yt().model.currencies.get(e.type);return t?a.jsx(pa,{...e,currency:t}):(console.error(`Currency with type ${e.type} is not defined`),null)}),fa="Wallet_fc600169",ga=[H.crystal,H.gold,H.credits],ha=n(function({className:e,classNames:t,currenciesOrder:r=ga}){const{model:n}=Yt(),o=n.list(r);return a.jsx("div",{"data-name":"Wallet",className:s(fa,e),children:o.map(e=>a.jsx(va,{type:e,classNames:t},e))})}),ya=e.memo(({className:e,classNames:t,currenciesOrder:s,...r})=>a.jsx(qt,{...r,children:a.jsx(ha,{className:e,classNames:t,currenciesOrder:s})})),xa="RightSide_3c6c89c0",Na="RightSide_separator_fea82003",Ba=m.resolve("aliases"),ja=Ba.read(e=>e.lobby_header.default.ReservesEntryPoint("resId")),Ea=Ba.read(e=>e.lobby_header.default.Wallet("resId")),Ia=function(){const e=$(ja),t=$(Ea);return a.jsx("div",{className:xa,children:a.jsxs(le,{className:Na,children:[e&&a.jsx(Qt,{options:{rootId:ja}}),t&&a.jsx(ya,{options:{rootId:Ea}})]})})},Ca={border:"InfoButton_border_f3a2eae1",base:"InfoButton_74c97479",base__smallSize:"InfoButton_base__smallSize_c40e1b5c",base__mediumSize:"InfoButton_base__mediumSize_f347ecd3",content:"InfoButton_content_1cc251f9",label:"InfoButton_label_7fc8e38b",icon:"InfoButton_icon_c58f1a93"},Aa={small:"small",medium:"medium"},ka={[Aa.small]:16,[Aa.medium]:24},Pa=e.forwardRef(function({size:e,infoType:t,label:r,tooltipHeader:n,tooltipBody:o,classNames:i={},...l},c){const d=n||o,u=_({header:n,body:o}),m=T(e,U);return a.jsxs(h,{...l,onClick:function(e){d&&u.onClick(),l.onClick?.(e)},onMouseEnter:function(e){d&&u.onMouseEnter(e),l.onMouseEnter?.(e)},onMouseLeave:function(e){u.onMouseLeave(),l.onMouseLeave?.(e)},ref:c,size:h.sizes.small,theme:h.themes.secondary,autoAlignContent:!1,className:s(Ca.base,Ca[`base__${e}Size`],l.className),classNames:{...i,content:s(Ca.content,i?.content)},children:[a.jsx("div",{className:Ca.border}),a.jsx(S,{className:Ca.icon,path:`header_footer.info_icon_${t}_${m}`,height:ka[e],width:ka[e]}),r&&a.jsx("div",{className:Ca.label,children:r})]})});Pa.sizes=Aa;const Ta="NavigationBar_425ae997",Sa="NavigationBar_button_c5ece62",Ma="NavigationBar_button__backNavigation_7dc54008",Wa="NavigationBar_label_4840a20f",Oa="NavigationBar_icon_95c9bdbb",wa="NavigationBar_iconImage_e695cd8e",Ra="NavigationBar_iconImage__default_dfd5b7a7",Da="NavigationBar_iconImage__hover_c132ba6f",Ha="NavigationBar_iconImage__active_fbf5db52",Va="NavigationBar_button__garageNavigation_69a10af0",La="NavigationBar_divider_7592acb0",za="NavigationBar_pageTitle_5847696c",$a="NavigationBar_hiddenLabel_1fa48c6e",Ua="NavigationBar_base__ready_69a10af0",Fa="NavigationBar_base__animating_69a10af0",Ga="NavigationBar_hiddenLabelInner_8490d7c",Qa="NavigationBar_infoButton_8aaee3f9",qa="NavigationBar_infoButton__last_efa963fb";function Ya({classNames:e={}}){return a.jsxs("div",{className:s(Oa,e.icon),children:[a.jsx("div",{className:s(wa,Ra,e.iconImage,e.iconImage__default)}),a.jsx("div",{className:s(wa,Da,e.iconImage,e.iconImage__hover)}),a.jsx("div",{className:s(wa,Ha,e.iconImage,e.iconImage__active)})]})}const Ja=n(function({classNames:t={},className:r,garageNavigationAllowed:n,battleButtonVisible:o}){const{model:i,controls:l}=fe(),c=O(),d=m.resolve("strings"),u=i.pageTitle.get(),_=i.backNavigationAllowed.get(),b=i.backNavigationDescription.get(),v=i.infoButtons.get();function f(e){c.play("mouse-enter",{target:"NavigationButton",original:e})}function g(e){return function(){l.doInfoAction(e)}}const h=F(),y=m.resolve("intl"),x=e.useRef(null),[N,B]=e.useState(0),[j,E]=e.useState(!1),[I,C]=e.useState(!1);G(()=>{E(!0),B(x.current?.offsetWidth?x.current?.offsetWidth+1:0);const e=Q(()=>C(!0));return()=>{E(!1),B(0),C(!1),e()}},[h.screenWidthRem,h.breakpoint.name,n,o,_,b,u]);const A=p({value:Pa.sizes.small},{extraLarge:{value:Pa.sizes.medium}});return a.jsxs("div",{className:s(Ta,j&&Ua,I&&Fa,r,t.base),children:[a.jsxs(le,{className:s(La,t.divider),children:[n&&a.jsxs("div",{className:s(Sa,Va,t.button,t.button__garageNavigation),"data-test-id":"garageButton",onClick:function(e){c.play("click",{target:"NavigationButton",original:e}),l.navigateTo("garage")},onMouseEnter:f,children:[a.jsx(Ya,{classNames:t}),a.jsx("div",{className:s(Wa,t.label),children:y.toUpperCase(d.readOrEmpty("menu.headerButtons.hangar"))})]}),_&&a.jsx(a.Fragment,{children:a.jsxs("div",{className:s(Sa,Ma,t.button,t.button__backNavigation),onClick:function(e){c.play("click",{target:"NavigationButton",original:e}),l.navigateTo("back")},onMouseEnter:f,children:[a.jsx(Ya,{classNames:t}),a.jsx("div",{className:s(Wa,t.label),children:y.toUpperCase(d.readOrEmpty("menu.headerButtons.navigation.back"))}),b&&a.jsx("div",{ref:x,className:s($a,t.hiddenLabel),style:{"--width":`${N}px`},children:a.jsx(Y,{className:Ga,text:y.toUpperCase(b)})})]})}),u&&a.jsx(a.Fragment,{children:a.jsx("div",{className:s(za,t.title),children:a.jsx(Y,{text:y.toUpperCase(u)})})})]}),v.length>0&&q(v,(e,r)=>a.jsx("div",{className:s(Qa,r===v.length-1&&qa,t?.infoButton),children:a.jsx(Pa,{size:A.value,onClick:g(r),infoType:e.type,label:e.label,tooltipHeader:e.tooltipHeader,tooltipBody:e.tooltipBody})},r))]})});var Ka=(e=>(e[e.UNDEFINED=0]="UNDEFINED",e[e.ADD_NEEDED=1]="ADD_NEEDED",e[e.ADDED=2]="ADDED",e[e.CONFIRMATION_SENT=3]="CONFIRMATION_SENT",e[e.CONFIRMED=4]="CONFIRMED",e[e.PROCESSING=5]="PROCESSING",e))(Ka||{});const Xa="PlayersProfile_b15b3eb3",Za="PlayersProfile_playerInfo_89f70778",es="PlayersProfile_playerInfoWrapper_2ed6c121",ts="PlayersProfile_badgeWrapper_910cac78",as="PlayersProfile_suffixBadgeWrapper_a4096e4e",ss="PlayersProfile_badge_4050c3e9",rs="PlayersProfile_text_99417432",ns="PlayersProfile_text__name_2ed6c121",os="PlayersProfile_text__teamKiller_8bf5e412",is="PlayersProfile_base__alertVisible_9b40d452",ls="PlayersProfile_anonymizerIcon_8632eb46",cs="PlayersProfile_alertIcon_b8de5d15",ds=m.resolve("strings"),us=y("PlayersProfile",Xa,{variants:{alertVisible:{true:is}}}),_s=new Set([Ka.ADD_NEEDED,Ka.ADDED]),ms={width:"48rem",height:"48rem",marginLeft:"-35rem"},bs=n(function(){const t=O(),r=_({header:ds.readOrEmpty("tooltips.header.account.header"),body:ds.readOrEmpty("tooltips.header.account.body")}),{model:n,controls:o}=de(),{userName:i,badgeID:l,isInClan:c,clanAbbrev:d,suffixBadgeID:u,teamKiller:m,hasSteamAccount:b,steamEmailStatus:p,anonymized:v,email:f}=n.userInfo.get(),g=J("AccountCompletion",e.useMemo(()=>[f],[f])),h=b&&_s.has(p);const y=T(K.Badge.sizes.x48x48,K.Badge.sizes.x80x80),x=T(K.Stripe.sizes.medium,K.Stripe.sizes.big);return a.jsxs(us,{alertVisible:h,children:[a.jsxs(K,{...r,className:Za,onClick:function(e){t.play("click",{target:"player-info",original:e}),r.onClick(),o.openAccountDashboard()},onMouseEnter:function(e){t.play("mouse-enter",{target:"player-info",original:e}),r.onMouseEnter(e)},children:[l>0&&a.jsx("div",{className:ts,children:a.jsx(K.Badge,{badgeId:String(l),width:48,height:48,size:y,className:ss})}),a.jsxs(K.Wrapper,{className:es,children:[a.jsx(K.Name,{className:s(rs,ns,m&&os),children:a.jsx(Y,{text:i})}),c&&a.jsx(K.ClanTag,{className:rs,children:a.jsx(M,{upgradeLegacy:!0,path:"common.clanTag",params:{abbrev:d}})})]}),u>0&&a.jsx("div",{className:as,children:a.jsx(K.Stripe,{badgeId:String(u),size:x,stripeIcon:K.Stripe.icons.stripe.medium,stipeBadgeIcon:K.Stripe.icons.badge.medium,style:ms})}),v&&a.jsx("div",{className:ls})]}),h&&a.jsx("div",{...g,className:cs})]})}),ps=e.memo(({options:e,...t})=>a.jsx(ue,{options:e,children:a.jsx(bs,{...t})})),vs="Premiums_e458a55f",fs="Premiums_subscription_5299180c",gs="Premiums_subscription__unavailable_86efdd6c",hs="Premiums_text_82711911",ys="Premiums_text__premShop_a067f33c",xs="Premiums_divider_268fb4cd",Ns="Premiums_wotPlusImg_195105fb",Bs="Premiums_wotPlusImg__disabled_8e8e6ceb",js="Premiums_wotPlusImg__pro_798bc63",Es="Premiums_alertIcon_da4f2f9b",Is="Premiums_premiumImg_d5d73467",Cs="Premiums_premiumImg__disabled_12a94c05",As="Premiums_premiumShopImg_99a91f62",ks=y("PremiumShop",s(vs,"Premiums_base__clickable_dd8e69b8")),Ps=m.resolve("strings");function Ts(){const{model:e,controls:t}=Pe(),r=O(),n=_({header:Ps.readOrEmpty("tooltips.header.premShop.header"),body:Ps.readOrEmpty("tooltips.header.premShop.body")});if(e.premiumShopEnabled.get())return a.jsxs(ks,{...n,onClick:function(e){n.onClick(),r.play("click",{target:"premium-shop",original:e}),t.openPremiumShop()},onMouseEnter:function(e){n.onMouseEnter(e),r.play("mouse-enter",{target:"premium-shop",original:e})},children:[a.jsx("div",{className:As}),a.jsx("div",{className:s(hs,ys),children:Ps.readOrEmpty("menu.headerButtons.btnLabel.premShop")})]})}var Ss=(e=>(e.Inactive="Inactive",e.Active="Active",e.Cancelled="Cancelled",e))(Ss||{});const Ms=y("Premiums",vs),Ws=m.resolve("strings"),Os=m.resolve("aliases"),ws=m.resolve("views");const Rs=n(function({className:t}){const r=O(),n=A({resId:Os.read(e=>e.lobby_header.default.UserAccount("resId")),contentId:Os.read(e=>e.common.tooltip.Backport("resId")),decoratorId:R.invalid("resId"),args:{tooltipId:"ammunitionEmptySlot",tooltipArgs:'["#tooltips:header/premium_buy"]'}}),{model:o,controls:i}=de(),l=o.wotPlus.get(),c=o.benefits.get(),d=o.proBenefits.get(),u=o.subscriptionPrimitives.isSteamPlatform.get(),m=o.subscriptionPrimitives.isCnRealm.get(),b=o.getTooltipVariant(),p=function(e){if(void 0===e)return null;const{unit:t,value:a}=e;return"days"===t?{unit:"day",value:a}:"hours"===t?{unit:"hour",value:a}:{unit:"hour",value:1}}(o.premiums.basic.get()),{type:v,state:f,isWotPlusEnabled:g}=l,{state:h}=o.premiumAccount.get(),y=e.useRef(!1),x=X("wot_plus_header_widget",e.useMemo(()=>({...l,bonuses:c,proBonuses:d,isSteamPlatform:u,isCnRegion:m,tooltipVariant:b,resId:ws.read(e=>e.mono.hangar.tooltips("resId"))}),[l,c,d,u,m,b]),{showDelay:50}),N=_({body:Ws.readOrEmpty("subscription.headerButton.tooltip.unavailable")});const B=f&&f===_e.Active;return a.jsxs(Ms,{className:t,children:[a.jsxs("div",{...g?x:N,className:s(fs,!g&&gs),"data-test-id":"wotPlus",onClick:g?function(e){y.current=!0,x.onClick(),r.play("click",{target:"premiums:wot-plus",original:e}),requestAnimationFrame(()=>{i.openWotPlusSubscriptionPage()})}:void 0,onMouseEnter:function(e){y.current||(g?x?.onMouseEnter(e):N?.onMouseEnter(e),r.play("mouse-enter",{target:"premiums:wot-plus",original:e}))},children:[a.jsx("div",{className:s(Ns,!B&&Bs,v===me.Pro&&B&&js)}),a.jsx("div",{className:hs,children:Ws.readOrEmpty(f===_e.Active||f===_e.Cancelled?"subscription.headerButton.state.active":"subscription.headerButton.state.available")}),f===_e.Cancelled&&a.jsx(S,{path:"subscription.alert_icon",className:Es})]}),a.jsx(ce,{className:xs}),a.jsxs("div",{...n,className:fs,"data-test-id":"premium",onClick:function(e){n.onClick(),r.play("click",{target:"premiums:premium",original:e}),i.openPremiumSubscriptionPage()},onMouseEnter:function(e){n.onMouseEnter(e),r.play("mouse-enter",{target:"premiums:premium",original:e})},children:[a.jsx("div",{className:s(Is,h===Ss.Inactive&&Cs)}),a.jsx("div",{className:hs,children:h===Ss.Active&&p?a.jsx("span",{children:a.jsx(M,{path:`menu.timeLeft.short.${p.unit}`,params:{[p.unit]:Math.ceil(p.value)},upgradeLegacy:!0})}):a.jsx("span",{children:Ws.readOrEmpty("menu.common.premiumBuy")})})]})]})}),Ds=e.memo(({options:e,...t})=>a.jsx(ue,{options:e,children:a.jsx(Rs,{...t})})),Hs="UserProfile_2146e52",Vs="UserProfile_divider_4a395a41",Ls=m.resolve("aliases"),zs=Ls.read(e=>e.lobby_header.default.UserAccount("resId")),$s=Ls.read(e=>e.lobby_header.default.PremShop("resId"));function Us({className:e}){const t=$(zs);return a.jsx("div",{className:s(Hs,e),children:a.jsxs(le,{className:Vs,children:[t&&a.jsx(ps,{options:{rootId:zs}}),t&&a.jsx(Ds,{options:{rootId:zs}}),$s&&a.jsx(Ts,{})]})})}const Fs=n(function({garageNavigationAllowed:e,battleButtonVisible:t,classNames:s}){return st()===be.Hangar?a.jsx(Us,{className:s?.userProfile}):a.jsx(Ja,{classNames:s?.navigationBar,garageNavigationAllowed:e,battleButtonVisible:t})}),Gs="battleRoyaleQueue",Qs=new Set(["random","trainingsList","tournament","epicQueue","comp7","comp7Light","winback","strongholdsBattlesList","specBattlesList",Gs]);function qs(e){return e!==Gs}const Ys={base:"VehicleInfo_4b77df3f",base__battleRoyaleQueue:"VehicleInfo_base__battleRoyaleQueue_b5a06cbf",details:"VehicleInfo_details_3cde71e7",vehicleType:"VehicleInfo_vehicleType_5f8aaab4"},Js=n(function({className:e}){const t=Ae(),r=t.model.currentMode.get(),n=he(),o=t.model.currentModeId.get(),i=(l=o,t.model.queueType.get()!==Ie&&Qs.has(l));var l;const c=n.model.vehicle();if(void 0!==c)return i?a.jsx(M,{className:s(Ys.base,Ys[`base__${o}`],e),path:"menu.headerButtons.battle.vehicleInfo",params:{mode:r,level:qs(o)?a.jsx(ee,{value:c.level,className:Ys.details}):"",type:a.jsx(Z,{className:Ys.vehicleType,type:c.type,size:Z.sizes.x24x24}),name:a.jsx("div",{className:Ys.details,children:c.shortName})}}):a.jsx(M,{className:s(Ys.base,e),path:"menu.headerButtons.battle.modeInfo",params:{mode:r}})}),Ks={base:"App_fe4b7101",base__oldStyle:"App_base__oldStyle_ed955e9f",leftSide:"App_leftSide_6c377b80",userProfile:"App_userProfile_7aef8044",navigationBar:"App_navigationBar_a5705175",navigationBar_button:"App_navigationBar_button_0",navigationBar_title:"App_navigationBar_title_e132fcfa",navigationBar_infoButton:"App_navigationBar_infoButton_760d7047",navigationBar_button__garageNavigation:"App_navigationBar_button__garageNavigation_e132fcfa",navigationBar_button__backNavigation:"App_navigationBar_button__backNavigation_0",rightSide:"App_rightSide_f929369b",base__battleButtonVisible:"App_base__battleButtonVisible_0",battleButton:"App_battleButton_d35d5318",battleButton__fadein:"App_battleButton__fadein_18e051ce",battleButton__withoutFadein:"App_battleButton__withoutFadein_4337493d",battleButtonEffects:"App_battleButtonEffects_1da8cd9d",vehicleInfoWrapper:"App_vehicleInfoWrapper_9f2ec684"},Xs=y("Header",Ks.base,{variants:{oldStyle:{true:Ks.base__oldStyle},battleButtonVisible:{true:Ks.base__battleButtonVisible}}}),Zs=m.resolve("aliases").read(e=>e.lobby_header.default.FightStart("resId")),er=new Set([je,Ee]),tr=new Set(["mapsTraining"]);const ar=n(function(){const t=te(0,250),r=j(),n=xe(),o=Ae(),[i,l]=e.useState(!1),c=o.model.battleStatus.get(),d=o.model.battleButtonAlwaysOn.get(),u=!o.model.computes.isSearchingBattle()&&!o.model.computes.isBattleReady(),_=st(),m=Boolean(ae(r.location,{paths:["/:hangar/allVehicles","/:eventName/:hangar/allVehicles"]})),b=r.location.includes("/postBattleResults"),p=$(Zs),v=o.model.currentModeId.get();return e.useEffect(()=>{p?b&&tr.has(v)?l(!1):d?l(!0):er.has(c)?l(!1):l(_===be.Hangar||m||b):l(!1)},[d,c,_,m,b,p,v]),a.jsxs(Xs,{ref:t,oldStyle:n.model.oldStyle.get(),battleButtonVisible:i,children:[a.jsx("div",{className:Ks.leftSide,children:a.jsx(Fs,{garageNavigationAllowed:u,battleButtonVisible:i,classNames:{userProfile:Ks.userProfile,navigationBar:{base:Ks.navigationBar,button:Ks.navigationBar_button,button__garageNavigation:Ks.navigationBar_button__garageNavigation,title:Ks.navigationBar_title,infoButton:Ks.navigationBar_infoButton,button__backNavigation:Ks.navigationBar_button__backNavigation}}})}),i&&a.jsxs(a.Fragment,{children:[a.jsx(at,{options:{rootId:Zs},classNames:{base:s(Ks.battleButton,_===be.Hangar||m?Ks.battleButton__withoutFadein:Ks.battleButton__fadein),effect:Ks.battleButtonEffects}}),b&&a.jsx("div",{className:Ks.vehicleInfoWrapper,children:a.jsx(Js,{})})]}),a.jsx("div",{className:s(Ks.rightSide,i&&Ks.rightSide__battleButtonVisible),children:!o.model.computes.isSearchingBattle()&&!o.model.computes.isBattleReady()&&a.jsx(Ia,{})})]})}),sr=m.resolve("aliases"),rr=se({click:{battleButton:"gui_battle"}});ie((new re).addWithProps(ne,{soundsOverrides:rr}).add(ye).addWithProps(oe,{context:"model.router",rootId:sr.read(e=>e.lobby_header.default.HeaderState("resId"))}).addWithProps(Te,{options:{context:"tutorialModel"}}).addWithProps(ke,{options:{rootId:sr.read(e=>e.lobby_header.default.PremShop("resId"))}}).addWithProps(Ce,{options:{rootId:sr.read(e=>e.lobby_header.default.Prebattle("resId"))}}).addWithProps(ge,{options:{rootId:sr.read(e=>e.lobby_header.default.CurrentVehicle("resId"))}}).addWithProps(pe,{options:{rootId:sr.read(e=>e.lobby_header.default.HeaderState("resId"))}}).addWithProps(ve,{options:{rootId:sr.read(e=>e.lobby_header.default.NavigationBar("resId"))}}).render(a.jsx(ar,{})));
+import {
+  r as e,
+  M as t,
+  j as a,
+  m as s,
+  f as r,
+  L as n,
+  l as o,
+  s as i,
+} from "../../../chunks/vendor.js";
+import {
+  i as l,
+  c,
+  n as d,
+  a9 as u,
+  u as _,
+  r as m,
+  bY as b,
+  m as p,
+  b9 as v,
+  dd as f,
+  aQ as g,
+  B as h,
+  ax as x,
+  af as y,
+  e as N,
+  aE as B,
+  o as j,
+  U as E,
+  av as I,
+  l as C,
+  aV as A,
+  f as k,
+  br as P,
+  a2 as T,
+  a6 as S,
+  ay as M,
+  cO as W,
+  de as O,
+  au as w,
+  aw as D,
+  cc as H,
+  aA as V,
+  cv as L,
+  df as z,
+  cj as $,
+  dg as F,
+  Y as U,
+  aN as G,
+  z as Q,
+  dh as Y,
+  aK as q,
+  aI as J,
+  aJ as K,
+  w as X,
+  bx as Z,
+  bz as ee,
+  C as te,
+  bF as ae,
+  di as se,
+  J as re,
+  E as ne,
+  d8 as oe,
+  F as ie,
+} from "../../../chunks/lib.js";
+import { a as le, D as ce } from "../../../chunks/divider.js";
+import { u as de, U as ue, W as _e, a as me } from "../../../chunks/user_account_model.js";
+/* empty css                    */ var be = ((e) => (
+  (e.Hangar = "hangar"),
+  (e.Default = "default"),
+  e
+))(be || {});
+const [pe] = l("HeaderStateModel")((e) => ({ features: e.observableModel.dict("features") })),
+  [ve, fe] = l()(
+    ({ observableModel: e }) => ({
+      ...e.primitives(["pageTitle", "backNavigationDescription", "backNavigationAllowed"]),
+      infoButtons: e.arrayClone("infoButtons"),
+    }),
+    ({ externalModel: e }) => ({
+      navigateTo: e.createCallback((e) => ({ name: e }), "onNavigate"),
+      doInfoAction: e.createCallback((e) => ({ index: e }), "onInfoAction"),
+    }),
+  ),
+  [ge, he] = l("CurrentVehicleInfoProvider")(({ observableModel: e }) => {
+    const t = { vehicles: e.dictRef("vehicles") };
+    return {
+      vehicle: c.shallow(() => {
+        try {
+          const e = t.vehicles.entries()[0];
+          if (e) {
+            const [, t] = e;
+            return JSON.parse(t.get());
+          }
+        } catch (e) {
+          console.error("Error parsing JSON for current vehicle:", e);
+        }
+      }),
+    };
+  }, d),
+  [xe, ye] = l("HeaderProvider")(({ observableModel: e }) => e.primitives(["oldStyle"]), d),
+  Ne = "playerReady",
+  Be = "battleStartAction",
+  je = "searchingBattle",
+  Ee = "battleReady",
+  Ie = "BATTLE_ROYALE_TOURNAMENT",
+  [Ce, Ae] = l("PrebattleProvider")(
+    ({ observableModel: e }) => {
+      const t = {
+          ...e.primitives([
+            "currentMode",
+            "currentModeId",
+            "battleStatus",
+            "queueType",
+            "battleButtonAlwaysOn",
+          ]),
+          states: e.dict("states"),
+          battleVehicle: e.transform((e) => {
+            if (u(e.type)) return { ...e, type: e.type };
+          }, "battleVehicle"),
+        },
+        a = c.primitive(() => t.battleStatus.get() === je),
+        s = c.primitive(() => t.battleStatus.get() === Ee);
+      return { ...t, computes: { isSearchingBattle: a, isBattleReady: s } };
+    },
+    ({ externalModel: e }) => ({
+      actionPrebattle: e.createCallback((e) => ({ action: e }), "onAction"),
+    }),
+  ),
+  [ke, Pe] = l("PremiumShopProvider")(
+    ({ observableModel: e }) => ({ ...e.primitives({ isPremiumShop: "premiumShopEnabled" }) }),
+    ({ externalModel: e }) => ({
+      openPremiumShop: e.createCallbackNoArgs("onOpenExternalPremiumShop"),
+    }),
+  ),
+  [Te, Se] = l("TutorialProvider")(
+    ({ observableModel: e }) => {
+      const t = { triggers: e.arrayClone("triggers.items") },
+        a = c.primitive(() => t.triggers.get().length);
+      return { ...t, computes: { triggersCount: a } };
+    },
+    ({ externalModel: e }) => ({
+      onTriggerActivated: e.createCallback(
+        (e, t, a) => ({ componentId: e, triggerType: t, state: a }),
+        "onTriggerActivated",
+      ),
+    }),
+  ),
+  [Me, We] = l("BattleStartProvider")(
+    ({ observableModel: e }) => ({ ...e.primitives(["tooltip"]) }),
+    d,
+  );
+const Oe = "active",
+  we = "ready",
+  Re = "notReady",
+  De = "disabled";
+const He = {
+    backgroundEffect: "BackgroundEffects_backgroundEffect_7bb0c1b5",
+    base: "BackgroundEffects_47bdcaf9",
+    backgroundEffect__rays: "BackgroundEffects_backgroundEffect__rays_4ebbd8d0",
+  },
+  Ve = "rays";
+const Le = e.memo(function ({ buttonState: e, className: n }) {
+    const o = e === Oe ? [Ve] : [];
+    const i = m.resolve("videos"),
+      l = t(o, {
+        from: { opacity: 0 },
+        enter: { opacity: 1 },
+        leave: { opacity: 0 },
+        config: { duration: 100 },
+        trail: 500,
+      });
+    return a.jsx("div", {
+      className: r(He.base, n),
+      children: l((e, t) =>
+        a.jsx(s.div, {
+          style: e,
+          children: a.jsx(
+            b,
+            {
+              loop: !0,
+              autoplay: !0,
+              src: i.readOrEmpty(`header_footer.battle_button.${t}`),
+              className: r(He.backgroundEffect, He[`backgroundEffect__${t}`]),
+            },
+            t,
+          ),
+        }),
+      ),
+    });
+  }),
+  ze = "ButtonEffects_merged_86ab891d",
+  $e = "ButtonEffects_bdb5411e",
+  Fe = e.memo(function ({ className: e, onAnimationStarted: t }) {
+    const s = m.resolve("videos"),
+      n = p({ value: "small" }, { large: { value: "large" } });
+    return a.jsx("div", {
+      className: r($e, e),
+      children: a.jsx(
+        b,
+        {
+          autoplay: !0,
+          loop: !0,
+          onPlay: t,
+          src: s.readOrEmpty(`header_footer.battle_button.foreground_${n.value}`),
+          className: ze,
+        },
+        `glitterEffect-${n.value}`,
+      ),
+    });
+  }),
+  Ue = {
+    textGlow: "ButtonText_textGlow_89301672",
+    base: "ButtonText_841a3b01",
+    base__ready: "ButtonText_base__ready_5e741ba3",
+    breath: "ButtonText_breath_5e741ba3",
+    textWrapper: "ButtonText_textWrapper_535d5dc6",
+    base__disabled: "ButtonText_base__disabled_5e741ba3",
+    text: "ButtonText_text_b56e6fa7",
+    base__active: "ButtonText_base__active_5e741ba3",
+    base__notReady: "ButtonText_base__notReady_5e741ba3",
+    textOverlay: "ButtonText_textOverlay_1bcba7de",
+  };
+function Ge({ buttonState: e, buttonText: t, animationActive: r, onAnimationEnded: n }) {
+  const i = o({
+    opacity: r ? 0.9 : 0,
+    config: { duration: r ? 3600 : 1e3, easing: r ? g.easeInCirc : g.easeOutCirc },
+    onRest: () => {
+      r && n();
+    },
+  });
+  return e === Oe
+    ? a.jsx(s.div, { className: Ue.textGlow, style: i, children: t })
+    : e === we
+      ? a.jsx("div", { className: Ue.textGlow, children: t })
+      : null;
+}
+const Qe = n(function ({
+    actionType: e,
+    buttonState: t,
+    animationActive: s,
+    onAnimationEnded: n,
+    className: o,
+  }) {
+    const i = Ae(),
+      l = m.resolve("strings"),
+      c = v.toUpperCase(
+        l.readOrEmpty(
+          (function (e, t) {
+            return e === Be
+              ? "menu.headerButtons.battle.button.battle"
+              : t
+                ? "menu.headerButtons.notReady"
+                : "menu.headerButtons.ready";
+          })(e, i.model.states.get(Ne)),
+        ),
+      );
+    return a.jsxs("div", {
+      className: r(Ue.base, Ue[`base__${t}`], o),
+      children: [
+        a.jsx(f, {
+          classNames: { base: Ue.textWrapper, text: Ue.text, textOverlay: Ue.textOverlay },
+          children: c,
+        }),
+        a.jsx(Ge, { buttonState: t, buttonText: c, animationActive: s, onAnimationEnded: n }),
+      ],
+    });
+  }),
+  Ye = {
+    background: "ButtonWrapper_background_5f66b44f",
+    border: "ButtonWrapper_border_4e5ba0c2",
+    button: "ButtonWrapper_button_ac00a3ae",
+    button__disabled: "ButtonWrapper_button__disabled_5b8e9d9",
+    background__disabled: "ButtonWrapper_background__disabled_4ab5c051",
+    background__notReady: "ButtonWrapper_background__notReady_d27296f9",
+    background__ready: "ButtonWrapper_background__ready_2853577d",
+    background__appear: "ButtonWrapper_background__appear_22cf4f98",
+    fadeIn: "ButtonWrapper_fadeIn_d27296f9",
+    background__dissapear: "ButtonWrapper_background__dissapear_6a20b5f2",
+    flicker: "ButtonWrapper_flicker_d27296f9",
+    content: "ButtonWrapper_content_a523ce6e",
+    button__ready: "ButtonWrapper_button__ready_d27296f9",
+    button__notReady: "ButtonWrapper_button__notReady_d27296f9",
+    overlay: "ButtonWrapper_overlay_ccea80e8",
+  },
+  qe = [we, Re],
+  Je = n(function ({
+    buttonState: e,
+    transitionActive: t,
+    transitionFromState: s,
+    actionType: n,
+    children: o,
+    className: i,
+  }) {
+    const l = We(),
+      c = Ae(),
+      d = l.model.tooltip.get(),
+      u = (function (e) {
+        const t = e.match(/{HEADER}(.*?){\/HEADER}/)?.[1],
+          a = e.match(/{BODY}(.*?){\/BODY}/)?.[1],
+          s = e.match(/{NOTE}(.*?){\/NOTE}/)?.[1],
+          r = e.match(/{ATTENTION}(.*?){\/ATTENTION}/)?.[1];
+        return _({
+          header: t,
+          body: a,
+          alert: r,
+          note: s,
+          hasHtmlContent: !0,
+          disabled: 0 === e.length,
+        });
+      })(d),
+      m = e === De;
+    const b = s && qe.includes(s) && qe.includes(e);
+    return a.jsx("div", {
+      ...(m && d && u),
+      className: i,
+      children: a.jsxs(h, {
+        theme: h.themes.custom,
+        disabled: m,
+        autoAlignContent: !1,
+        onClick: function () {
+          m || c.controls.actionPrebattle(n);
+        },
+        className: r(Ye.button, Ye[`button__${e}`]),
+        classNames: {
+          background: r(Ye.background, Ye[`background__${e}`], t && !b && Ye.background__appear),
+          content: Ye.content,
+          border: Ye.border,
+          overlay: Ye.overlay,
+        },
+        "data-test-id": "battleButton",
+        soundTarget: "battleButton",
+        children: [
+          t &&
+            !b &&
+            a.jsx("div", {
+              className: r(Ye.background, Ye.background__dissapear, Ye[`background__${s}`]),
+            }),
+          o,
+        ],
+      }),
+    });
+  }),
+  Ke = {
+    hoverOverlay: "BattleButton_hoverOverlay_5196983d",
+    buttonEffects: "BattleButton_buttonEffects_53b5d8e2",
+    reflector: "BattleButton_reflector_47e1d14b",
+    backgroundEffects: "BattleButton_backgroundEffects_815ae971",
+    base: "BattleButton_40c20cf8",
+    fadeIn: "BattleButton_fadeIn_ea4cde73",
+    reflector__ready: "BattleButton_reflector__ready_ea4cde73",
+    reflector__notReady: "BattleButton_reflector__notReady_a8ef3bf5",
+    desaturation: "BattleButton_desaturation_fb74a8a1",
+    desaturation__hidden: "BattleButton_desaturation__hidden_6167cc9c",
+    buttonText: "BattleButton_buttonText_8108fe79",
+  },
+  Xe = "FightButton",
+  Ze = "enabled_change",
+  et = x("BattleButton", Ke.base),
+  tt = n(function ({ classNames: t }) {
+    const s = Ae(),
+      [n, o] = e.useState(!1),
+      [l, c] = e.useState(!1),
+      [d, u] = e.useState(),
+      { model: _, controls: m } = Se(),
+      b = _.computes.triggersCount(),
+      p = y(),
+      v = s.model.queueType.get() === Ie,
+      f = "TRAINING" === s.model.currentMode.get(),
+      g =
+        (!s.model.states.get("playerCreator") && !f && s.model.states.get("readinessAvailable")) ||
+        v
+          ? "readyAction"
+          : Be,
+      h = (function (e, t, a) {
+        return t ? De : e === Be ? Oe : a ? Re : we;
+      })(g, !s.model.states.get("actionEnabled"), s.model.states.get(Ne)),
+      x = N(h),
+      j = h === De;
+    return (
+      e.useEffect(
+        () =>
+          i(() => {
+            const e = B(_.triggers.get(), (e) => e.componentId === Xe);
+            ((b > 0 && e) || (x && h !== x)) && m.onTriggerActivated(Xe, Ze, !0);
+          }),
+        [h, m, _.triggers, x, b],
+      ),
+      e.useEffect(() => {
+        x &&
+          h !== x &&
+          (c(!0),
+          u(x),
+          p.run(() => {
+            c(!1);
+          }, 600));
+      }, [p, h, x]),
+      e.useLayoutEffect(
+        () => () => {
+          m.onTriggerActivated(Xe, Ze, !1);
+        },
+        [],
+      ),
+      a.jsxs(et, {
+        className: t?.base,
+        id: "fight-button",
+        children: [
+          a.jsx(Le, { buttonState: h, className: r(Ke.backgroundEffects, t?.effect) }),
+          a.jsxs(Je, {
+            actionType: g,
+            buttonState: h,
+            transitionActive: l,
+            transitionFromState: d,
+            className: t?.content,
+            children: [
+              !j && a.jsx("div", { className: r(Ke.reflector, Ke[`reflector__${h}`]) }),
+              h === Oe &&
+                a.jsx(Fe, { className: Ke.buttonEffects, onAnimationStarted: () => o(!0) }),
+              a.jsx("div", { className: Ke.hoverOverlay }),
+              a.jsx("div", { className: r(Ke.desaturation, !j && Ke.desaturation__hidden) }),
+              a.jsx(Qe, {
+                actionType: g,
+                buttonState: h,
+                animationActive: n,
+                onAnimationEnded: () => o(!1),
+                className: Ke.buttonText,
+              }),
+            ],
+          }),
+        ],
+      })
+    );
+  }),
+  at = e.memo(({ options: e, ...t }) => a.jsx(Me, { options: e, children: a.jsx(tt, { ...t }) })),
+  st = {
+    border: "InfoButton_border_f3a2eae1",
+    base: "InfoButton_74c97479",
+    base__smallSize: "InfoButton_base__smallSize_c40e1b5c",
+    base__mediumSize: "InfoButton_base__mediumSize_f347ecd3",
+    content: "InfoButton_content_1cc251f9",
+    content__label: "InfoButton_content__label_a89c101d",
+    label: "InfoButton_label_94741ae8",
+    icon: "InfoButton_icon_c58f1a93",
+  },
+  rt = { small: "small", medium: "medium" },
+  nt = { [rt.small]: 16, [rt.medium]: 24 },
+  ot = e.forwardRef(function (
+    { size: e, infoType: t, label: s, tooltipHeader: n, tooltipBody: o, classNames: i = {}, ...l },
+    c,
+  ) {
+    const d = n || o,
+      u = _({ header: n, body: o }),
+      m = j(e, E);
+    return a.jsxs(h, {
+      ...l,
+      onClick: function (e) {
+        (d && u.onClick(), l.onClick?.(e));
+      },
+      onMouseEnter: function (e) {
+        (d && u.onMouseEnter(e), l.onMouseEnter?.(e));
+      },
+      onMouseLeave: function (e) {
+        (u.onMouseLeave(), l.onMouseLeave?.(e));
+      },
+      ref: c,
+      size: h.sizes.small,
+      theme: h.themes.secondary,
+      autoAlignContent: !1,
+      className: r(st.base, st[`base__${e}Size`], l.className),
+      classNames: { ...i, content: r(st.content, s && st.content__label, i?.content) },
+      children: [
+        a.jsx("div", { className: st.border }),
+        a.jsx(I, {
+          className: st.icon,
+          path: `header_footer.info_icon_${t}_${m}`,
+          height: nt[e],
+          width: nt[e],
+        }),
+        s && a.jsx("div", { className: st.label, children: s }),
+      ],
+    });
+  });
+ot.sizes = rt;
+const it = "NavigationBar_425ae997",
+  lt = "NavigationBar_button_c5ece62",
+  ct = "NavigationBar_button__backNavigation_7dc54008",
+  dt = "NavigationBar_label_4840a20f",
+  ut = "NavigationBar_icon_95c9bdbb",
+  _t = "NavigationBar_iconImage_e695cd8e",
+  mt = "NavigationBar_iconImage__default_dfd5b7a7",
+  bt = "NavigationBar_iconImage__hover_c132ba6f",
+  pt = "NavigationBar_iconImage__active_fbf5db52",
+  vt = "NavigationBar_button__garageNavigation_69a10af0",
+  ft = "NavigationBar_divider_7592acb0",
+  gt = "NavigationBar_pageTitle_5847696c",
+  ht = "NavigationBar_hiddenLabel_1fa48c6e",
+  xt = "NavigationBar_base__ready_69a10af0",
+  yt = "NavigationBar_base__animating_69a10af0",
+  Nt = "NavigationBar_hiddenLabelInner_8490d7c",
+  Bt = "NavigationBar_infoButton_8aaee3f9",
+  jt = "NavigationBar_infoButton__last_efa963fb";
+function Et({ classNames: e = {} }) {
+  return a.jsxs("div", {
+    className: r(ut, e.icon),
+    children: [
+      a.jsx("div", { className: r(_t, mt, e.iconImage, e.iconImage__default) }),
+      a.jsx("div", { className: r(_t, bt, e.iconImage, e.iconImage__hover) }),
+      a.jsx("div", { className: r(_t, pt, e.iconImage, e.iconImage__active) }),
+    ],
+  });
+}
+const It = n(function ({
+  classNames: t = {},
+  className: s,
+  garageNavigationAllowed: n,
+  battleButtonVisible: o,
+}) {
+  const { model: i, controls: l } = fe(),
+    c = C(),
+    d = m.resolve("strings"),
+    u = i.pageTitle.get(),
+    _ = i.backNavigationAllowed.get(),
+    b = i.backNavigationDescription.get(),
+    v = i.infoButtons.get();
+  function f(e) {
+    c.play("mouse-enter", { target: "NavigationButton", original: e });
+  }
+  function g(e) {
+    return function () {
+      l.doInfoAction(e);
+    };
+  }
+  const h = A(),
+    x = m.resolve("intl"),
+    y = e.useRef(null),
+    [N, B] = e.useState(0),
+    [j, E] = e.useState(!1),
+    [I, M] = e.useState(!1);
+  k(() => {
+    (E(!0), B(y.current?.offsetWidth ? y.current?.offsetWidth + 1 : 0));
+    const e = P(() => M(!0));
+    return () => {
+      (E(!1), B(0), M(!1), e());
+    };
+  }, [h.screenWidthRem, h.breakpoint.name, n, o, _, b, u]);
+  const W = p({ value: ot.sizes.small }, { extraLarge: { value: ot.sizes.medium } });
+  return a.jsxs("div", {
+    className: r(it, j && xt, I && yt, s, t.base),
+    children: [
+      a.jsxs(le, {
+        className: r(ft, t.divider),
+        children: [
+          n &&
+            a.jsxs("div", {
+              className: r(lt, vt, t.button, t.button__garageNavigation),
+              "data-test-id": "garageButton",
+              onClick: function (e) {
+                (c.play("click", { target: "NavigationButton", original: e }),
+                  l.navigateTo("garage"));
+              },
+              onMouseEnter: f,
+              children: [
+                a.jsx(Et, { classNames: t }),
+                a.jsx("div", {
+                  className: r(dt, t.label),
+                  children: x.toUpperCase(d.readOrEmpty("menu.headerButtons.hangar")),
+                }),
+              ],
+            }),
+          _ &&
+            a.jsx(a.Fragment, {
+              children: a.jsxs("div", {
+                className: r(lt, ct, t.button, t.button__backNavigation),
+                onClick: function (e) {
+                  (c.play("click", { target: "NavigationButton", original: e }),
+                    l.navigateTo("back"));
+                },
+                onMouseEnter: f,
+                children: [
+                  a.jsx(Et, { classNames: t }),
+                  a.jsx("div", {
+                    className: r(dt, t.label),
+                    children: x.toUpperCase(d.readOrEmpty("menu.headerButtons.navigation.back")),
+                  }),
+                  b &&
+                    a.jsx("div", {
+                      ref: y,
+                      className: r(ht, t.hiddenLabel),
+                      style: { "--width": `${N}px` },
+                      children: a.jsx(T, { className: Nt, text: x.toUpperCase(b) }),
+                    }),
+                ],
+              }),
+            }),
+          u &&
+            a.jsx(a.Fragment, {
+              children: a.jsx("div", {
+                className: r(gt, t.title),
+                children: a.jsx(T, { text: x.toUpperCase(u) }),
+              }),
+            }),
+        ],
+      }),
+      v.length > 0 &&
+        S(v, (e, s) =>
+          a.jsx(
+            "div",
+            {
+              className: r(Bt, s === v.length - 1 && jt, t?.infoButton),
+              children: a.jsx(ot, {
+                size: W.value,
+                onClick: g(s),
+                infoType: e.type,
+                label: e.label,
+                tooltipHeader: e.tooltipHeader,
+                tooltipBody: e.tooltipBody,
+              }),
+            },
+            s,
+          ),
+        ),
+    ],
+  });
+});
+function Ct() {
+  const e = M().paramsStruct.routeType;
+  return "string" == typeof e ? e : be.Default;
+}
+var At = ((e) => (
+  (e[(e.UNDEFINED = 0)] = "UNDEFINED"),
+  (e[(e.ADD_NEEDED = 1)] = "ADD_NEEDED"),
+  (e[(e.ADDED = 2)] = "ADDED"),
+  (e[(e.CONFIRMATION_SENT = 3)] = "CONFIRMATION_SENT"),
+  (e[(e.CONFIRMED = 4)] = "CONFIRMED"),
+  (e[(e.PROCESSING = 5)] = "PROCESSING"),
+  e
+))(At || {});
+const kt = "PlayersProfile_b15b3eb3",
+  Pt = "PlayersProfile_playerInfo_89f70778",
+  Tt = "PlayersProfile_playerInfoWrapper_2ed6c121",
+  St = "PlayersProfile_badgeWrapper_910cac78",
+  Mt = "PlayersProfile_suffixBadgeWrapper_a4096e4e",
+  Wt = "PlayersProfile_badge_4050c3e9",
+  Ot = "PlayersProfile_text_99417432",
+  wt = "PlayersProfile_text__name_2ed6c121",
+  Rt = "PlayersProfile_text__teamKiller_8bf5e412",
+  Dt = "PlayersProfile_base__alertVisible_9b40d452",
+  Ht = "PlayersProfile_anonymizerIcon_8632eb46",
+  Vt = "PlayersProfile_alertIcon_b8de5d15",
+  Lt = m.resolve("strings"),
+  zt = x("PlayersProfile", kt, { variants: { alertVisible: { true: Dt } } }),
+  $t = new Set([At.ADD_NEEDED, At.ADDED]),
+  Ft = { width: "48rem", height: "48rem", marginLeft: "-35rem" },
+  Ut = n(function () {
+    const t = C(),
+      s = _({
+        header: Lt.readOrEmpty("tooltips.header.account.header"),
+        body: Lt.readOrEmpty("tooltips.header.account.body"),
+      }),
+      { model: n, controls: o } = de(),
+      {
+        userName: i,
+        badgeID: l,
+        isInClan: c,
+        clanAbbrev: d,
+        suffixBadgeID: u,
+        teamKiller: m,
+        hasSteamAccount: b,
+        steamEmailStatus: p,
+        anonymized: v,
+        email: f,
+      } = n.userInfo.get(),
+      g = W(
+        "AccountCompletion",
+        e.useMemo(() => [f], [f]),
+      ),
+      h = b && $t.has(p);
+    const x = j(O.Badge.sizes.x48x48, O.Badge.sizes.x80x80),
+      y = j(O.Stripe.sizes.medium, O.Stripe.sizes.big);
+    return a.jsxs(zt, {
+      alertVisible: h,
+      children: [
+        a.jsxs(O, {
+          ...s,
+          className: Pt,
+          onClick: function (e) {
+            (t.play("click", { target: "player-info", original: e }),
+              s.onClick(),
+              o.openAccountDashboard());
+          },
+          onMouseEnter: function (e) {
+            (t.play("mouse-enter", { target: "player-info", original: e }), s.onMouseEnter(e));
+          },
+          children: [
+            l > 0 &&
+              a.jsx("div", {
+                className: St,
+                children: a.jsx(O.Badge, {
+                  badgeId: String(l),
+                  width: 48,
+                  height: 48,
+                  size: x,
+                  className: Wt,
+                }),
+              }),
+            a.jsxs(O.Wrapper, {
+              className: Tt,
+              children: [
+                a.jsx(O.Name, { className: r(Ot, wt, m && Rt), children: a.jsx(T, { text: i }) }),
+                c &&
+                  a.jsx(O.ClanTag, {
+                    className: Ot,
+                    children: a.jsx(w, {
+                      upgradeLegacy: !0,
+                      path: "common.clanTag",
+                      params: { abbrev: d },
+                    }),
+                  }),
+              ],
+            }),
+            u > 0 &&
+              a.jsx("div", {
+                className: Mt,
+                children: a.jsx(O.Stripe, {
+                  badgeId: String(u),
+                  size: y,
+                  stripeIcon: O.Stripe.icons.stripe.medium,
+                  stipeBadgeIcon: O.Stripe.icons.badge.medium,
+                  style: Ft,
+                }),
+              }),
+            v && a.jsx("div", { className: Ht }),
+          ],
+        }),
+        h && a.jsx("div", { ...g, className: Vt }),
+      ],
+    });
+  }),
+  Gt = e.memo(({ options: e, ...t }) => a.jsx(ue, { options: e, children: a.jsx(Ut, { ...t }) })),
+  Qt = "Premiums_e458a55f",
+  Yt = "Premiums_subscription_5299180c",
+  qt = "Premiums_subscription__unavailable_86efdd6c",
+  Jt = "Premiums_text_82711911",
+  Kt = "Premiums_text__premShop_a067f33c",
+  Xt = "Premiums_divider_268fb4cd",
+  Zt = "Premiums_wotPlusImg_195105fb",
+  ea = "Premiums_wotPlusImg__disabled_8e8e6ceb",
+  ta = "Premiums_wotPlusImg__pro_798bc63",
+  aa = "Premiums_alertIcon_da4f2f9b",
+  sa = "Premiums_premiumImg_d5d73467",
+  ra = "Premiums_premiumImg__disabled_12a94c05",
+  na = "Premiums_premiumShopImg_99a91f62",
+  oa = x("PremiumShop", r(Qt, "Premiums_base__clickable_dd8e69b8")),
+  ia = m.resolve("strings");
+function la() {
+  const { model: e, controls: t } = Pe(),
+    s = C(),
+    n = _({
+      header: ia.readOrEmpty("tooltips.header.premShop.header"),
+      body: ia.readOrEmpty("tooltips.header.premShop.body"),
+    });
+  if (e.premiumShopEnabled.get())
+    return a.jsxs(oa, {
+      ...n,
+      onClick: function (e) {
+        (n.onClick(),
+          s.play("click", { target: "premium-shop", original: e }),
+          t.openPremiumShop());
+      },
+      onMouseEnter: function (e) {
+        (n.onMouseEnter(e), s.play("mouse-enter", { target: "premium-shop", original: e }));
+      },
+      children: [
+        a.jsx("div", { className: na }),
+        a.jsx("div", {
+          className: r(Jt, Kt),
+          children: ia.readOrEmpty("menu.headerButtons.btnLabel.premShop"),
+        }),
+      ],
+    });
+}
+var ca = ((e) => (
+  (e.Inactive = "Inactive"),
+  (e.Active = "Active"),
+  (e.Cancelled = "Cancelled"),
+  e
+))(ca || {});
+const da = x("Premiums", Qt),
+  ua = m.resolve("strings"),
+  _a = m.resolve("aliases"),
+  ma = m.resolve("views");
+const ba = n(function ({ className: t }) {
+    const s = C(),
+      n = D({
+        resId: _a.read((e) => e.lobby_header.default.UserAccount("resId")),
+        contentId: _a.read((e) => e.common.tooltip.Backport("resId")),
+        decoratorId: R.invalid("resId"),
+        args: { tooltipId: "ammunitionEmptySlot", tooltipArgs: '["#tooltips:header/premium_buy"]' },
+      }),
+      { model: o, controls: i } = de(),
+      l = o.wotPlus.get(),
+      c = o.benefits.get(),
+      d = o.proBenefits.get(),
+      u = o.subscriptionPrimitives.isSteamPlatform.get(),
+      m = o.subscriptionPrimitives.isCnRealm.get(),
+      b = o.getTooltipVariant(),
+      p = (function (e) {
+        if (void 0 === e) return null;
+        const { unit: t, value: a } = e;
+        return "days" === t
+          ? { unit: "day", value: a }
+          : "hours" === t
+            ? { unit: "hour", value: a }
+            : { unit: "hour", value: 1 };
+      })(o.premiums.basic.get()),
+      { type: v, state: f, isWotPlusEnabled: g } = l,
+      { state: h } = o.premiumAccount.get(),
+      x = e.useRef(!1),
+      y = H(
+        "wot_plus_header_widget",
+        e.useMemo(
+          () => ({
+            ...l,
+            bonuses: c,
+            proBonuses: d,
+            isSteamPlatform: u,
+            isCnRegion: m,
+            tooltipVariant: b,
+            resId: ma.read((e) => e.mono.hangar.tooltips("resId")),
+          }),
+          [l, c, d, u, m, b],
+        ),
+        { showDelay: 50 },
+      ),
+      N = _({ body: ua.readOrEmpty("subscription.headerButton.tooltip.unavailable") });
+    const B = f && f === _e.Active;
+    return a.jsxs(da, {
+      className: t,
+      children: [
+        a.jsxs("div", {
+          ...(g ? y : N),
+          className: r(Yt, !g && qt),
+          "data-test-id": "wotPlus",
+          onClick: g
+            ? function (e) {
+                ((x.current = !0),
+                  y.onClick(),
+                  s.play("click", { target: "premiums:wot-plus", original: e }),
+                  requestAnimationFrame(() => {
+                    i.openWotPlusSubscriptionPage();
+                  }));
+              }
+            : void 0,
+          onMouseEnter: function (e) {
+            x.current ||
+              (g ? y?.onMouseEnter(e) : N?.onMouseEnter(e),
+              s.play("mouse-enter", { target: "premiums:wot-plus", original: e }));
+          },
+          children: [
+            a.jsx("div", { className: r(Zt, !B && ea, v === me.Pro && B && ta) }),
+            a.jsx("div", {
+              className: Jt,
+              children: ua.readOrEmpty(
+                f === _e.Active || f === _e.Cancelled
+                  ? "subscription.headerButton.state.active"
+                  : "subscription.headerButton.state.available",
+              ),
+            }),
+            f === _e.Cancelled && a.jsx(I, { path: "subscription.alert_icon", className: aa }),
+          ],
+        }),
+        a.jsx(ce, { className: Xt }),
+        a.jsxs("div", {
+          ...n,
+          className: Yt,
+          "data-test-id": "premium",
+          onClick: function (e) {
+            (n.onClick(),
+              s.play("click", { target: "premiums:premium", original: e }),
+              i.openPremiumSubscriptionPage());
+          },
+          onMouseEnter: function (e) {
+            (n.onMouseEnter(e), s.play("mouse-enter", { target: "premiums:premium", original: e }));
+          },
+          children: [
+            a.jsx("div", { className: r(sa, h === ca.Inactive && ra) }),
+            a.jsx("div", {
+              className: Jt,
+              children:
+                h === ca.Active && p
+                  ? a.jsx("span", {
+                      children: a.jsx(w, {
+                        path: `menu.timeLeft.short.${p.unit}`,
+                        params: { [p.unit]: Math.ceil(p.value) },
+                        upgradeLegacy: !0,
+                      }),
+                    })
+                  : a.jsx("span", { children: ua.readOrEmpty("menu.common.premiumBuy") }),
+            }),
+          ],
+        }),
+      ],
+    });
+  }),
+  pa = e.memo(({ options: e, ...t }) => a.jsx(ue, { options: e, children: a.jsx(ba, { ...t }) })),
+  va = "UserProfile_2146e52",
+  fa = "UserProfile_divider_4a395a41",
+  ga = m.resolve("aliases"),
+  ha = ga.read((e) => e.lobby_header.default.UserAccount("resId")),
+  xa = ga.read((e) => e.lobby_header.default.PremShop("resId"));
+function ya({ className: e }) {
+  const t = V(ha);
+  return a.jsx("div", {
+    className: r(va, e),
+    children: a.jsxs(le, {
+      className: fa,
+      children: [
+        t && a.jsx(Gt, { options: { rootId: ha } }),
+        t && a.jsx(pa, { options: { rootId: ha } }),
+        xa && a.jsx(la, {}),
+      ],
+    }),
+  });
+}
+const Na = n(function ({ garageNavigationAllowed: e, battleButtonVisible: t, classNames: s }) {
+  return Ct() === be.Hangar
+    ? a.jsx(ya, { className: s?.userProfile })
+    : a.jsx(It, {
+        classNames: s?.navigationBar,
+        garageNavigationAllowed: e,
+        battleButtonVisible: t,
+      });
+});
+var Ba = ((e) => ((e.Personal = "personal"), (e.Clan = "clan"), (e.Event = "event"), e))(Ba || {}),
+  ja = ((e) => (
+    (e[(e.Inactive = 0)] = "Inactive"),
+    (e[(e.Active = 1)] = "Active"),
+    (e[(e.Used = 2)] = "Used"),
+    e
+  ))(ja || {});
+const Ea = "alert",
+  Ia = "x24x24",
+  Ca = "x32x32",
+  Aa = "x96x96",
+  ka = { [Ba.Personal]: 0, [Ba.Clan]: 1, [Ba.Event]: 2 };
+function Pa(e) {
+  return ka[e] ?? 0;
+}
+function Ta(e) {
+  return Math.max(0, Math.floor(e - Date.now() / L));
+}
+const [Sa, Ma] = l()(
+    ({ observableModel: e }) => {
+      const t = {
+          reserves: e.arrayClone("reserves"),
+          disabledCategories: e.arrayClone("disabledCategories"),
+          ...e.primitives({
+            totalReserves: "allReserves",
+            totalLimitedReserves: "limitedReserves",
+            expiringReserveWillExpireSoon: "reserveExpire",
+          }),
+        },
+        a = c.primitive(() => B(t.reserves.get(), (e) => e.inactivationTime > 0)),
+        s = c.shallow(() => {
+          const e = t.reserves.get();
+          return U(e, (e, t) => Pa(e.reserveType) - Pa(t.reserveType));
+        }),
+        r = c.shallow(() => t.disabledCategories.get().every((e) => e.isDisabled));
+      return { ...t, computes: { visible: a, sortedBoosters: s, disabled: r } };
+    },
+    ({ externalModel: e }) => ({ openBooster: e.createCallbackNoArgs("openBoosterNavigation") }),
+  ),
+  Wa = "Activate_d05a6105",
+  Oa = "Activate_base__disabled_77f76d6c",
+  wa = "Activate_wrapper_ea72f87a",
+  Ra = "Activate_iconWrapper_b884eeb8",
+  Da = "Activate_icon_bfced9a9",
+  Ha = "Activate_icon__glow_6978c825",
+  Va = "Activate_amount_262c55ed",
+  La = "Activate_text_6ca62bb4",
+  za = "Activate_text__limited_cd94941e",
+  $a = "Activate_textOverlay_a5c8a675",
+  Fa = "Activate_textOverlay__limited_6c5cb381",
+  Ua = "Activate_hint_68b56ff6",
+  Ga = "Activate_hint__glow_24eef452",
+  Qa = "Activate_glow_d01917a6",
+  Ya = "Activate_glow__limited_5e88d41",
+  qa = "Activate_glow__alert_8001ed30",
+  Ja = "Activate_sparks_718002e7",
+  Ka = "Activate_sparks__visible_842edf80",
+  Xa = n(function () {
+    const { model: e } = Ma(),
+      t = m.resolve("strings"),
+      s = m.resolve("intl"),
+      n = e.computes.visible(),
+      o = e.allReserves.get(),
+      i = e.limitedReserves.get(),
+      l = e.reserveExpire.get(),
+      c = e.computes.disabled();
+    return n
+      ? null
+      : a.jsxs("div", {
+          className: r(Wa, c && Oa),
+          children: [
+            a.jsxs("div", {
+              className: wa,
+              children: [
+                a.jsx("div", { className: r(Ja, l && Ka) }),
+                a.jsx("div", { className: r(Qa, i && Ya, l && qa) }),
+                a.jsx("div", {
+                  className: Ra,
+                  children: a.jsx("div", { className: r(Da, i && Ha) }),
+                }),
+                a.jsx(f, {
+                  classNames: { base: Va, text: r(La, i && za), textOverlay: r($a, i && Fa) },
+                  children: s.formatNumber("integral", o),
+                }),
+              ],
+            }),
+            !c &&
+              a.jsx("div", {
+                className: r(Ua, i && Ga),
+                children: s.toUpperCase(
+                  t.readOrEmpty("menu.boostersWindow.boostersTableRenderer.activateBtnLabel"),
+                ),
+              }),
+          ],
+        });
+  }),
+  Za = {
+    background: "Card_background_d014d7d",
+    fill: "Card_fill_68e6b048",
+    fillPattern: "Card_fillPattern_496f8980",
+    base: "Card_71731d1d",
+    base__disabled: "Card_base__disabled_530f6e06",
+    background__personal: "Card_background__personal_57d23cf4",
+    background__clan: "Card_background__clan_46c6fc44",
+    background__alert: "Card_background__alert_9b1dc5e1",
+    alert: "Card_alert_402bb5af",
+    alert__visible: "Card_alert__visible_bf4a84a5",
+    icon: "Card_icon_1eb606a6",
+    premium: "Card_premium_44855832",
+    premium__visible: "Card_premium__visible_bd677cbc",
+    timer: "Card_timer_27a2857b",
+    timer__visible: "Card_timer__visible_bd677cbc",
+    timerGlow: "Card_timerGlow_e2954b70",
+    fillPattern__personal: "Card_fillPattern__personal_487b5eeb",
+    fillPattern__clan: "Card_fillPattern__clan_d7903601",
+    fillPattern__alert: "Card_fillPattern__alert_fba99a76",
+    fillBorderTop: "Card_fillBorderTop_4308f9d9",
+    fillBorderTop__alert: "Card_fillBorderTop__alert_b2944931",
+    fillBorderBottom: "Card_fillBorderBottom_96ba37d9",
+    fillBorderBottom__visible: "Card_fillBorderBottom__visible_594e8c6a",
+  },
+  es = n(function ({ type: t, timeLeft: s, timeTotal: n, icon: o, className: i }) {
+    const { model: l } = Ma(),
+      { minutesLeft: c, percentLeft: d } = (function (t, a) {
+        const [s, r] = e.useState(Ta(t));
+        (e.useEffect(() => {
+          r(Ta(t));
+        }, [t]),
+          e.useEffect(() => {
+            if (0 === s) return;
+            const e = setTimeout(() => {
+              r(Ta(t));
+            }, L);
+            return () => clearTimeout(e);
+          }, [s, t]));
+        const n = $(s),
+          o = Math.ceil(z(n));
+        return { minutesLeft: o, percentLeft: Math.max(0, Math.min(100, (o / (a / F)) * 100)) };
+      })(s, n),
+      u = l.computes.disabled(),
+      _ = c <= 9,
+      m = c <= 2,
+      b = p({ size: Ia }, { large: { size: Ca } }),
+      v = j(b.size, Aa),
+      f = o.includes("premium");
+    return s <= 0
+      ? null
+      : a.jsxs("div", {
+          className: r(Za.base, u && Za.base__disabled, i),
+          style: { "--fill_percentage": `${d}%` },
+          children: [
+            a.jsx("div", { className: r(Za.background, Za[`background__${_ ? Ea : t}`]) }),
+            a.jsx(I, { className: Za.icon, path: `personal_reserves.common.cards.${v}.${o}` }),
+            a.jsx(I, {
+              className: r(Za.premium, f && Za.premium__visible),
+              path: `personal_reserves.common.cards.${b.size}.premium_booster_glow`,
+            }),
+            a.jsxs("div", {
+              className: r(Za.timer, _ && Za.timer__visible),
+              children: [
+                a.jsx("div", { className: Za.timerGlow }),
+                a.jsx(w, {
+                  upgradeLegacy: !0,
+                  path: "personal_reserves.hangarEntry.minute",
+                  params: { minutesLeft: c },
+                }),
+              ],
+            }),
+            a.jsx("div", { className: r(Za.alert, m && Za.alert__visible) }),
+            a.jsxs("div", {
+              className: Za.fill,
+              children: [
+                a.jsx("div", { className: r(Za.fillPattern, Za[`fillPattern__${_ ? Ea : t}`]) }),
+                a.jsx("div", { className: r(Za.fillBorderTop, m && Za.fillBorderTop__alert) }),
+                a.jsx("div", {
+                  className: r(Za.fillBorderBottom, _ && Za.fillBorderBottom__visible),
+                }),
+              ],
+            }),
+          ],
+        });
+  }),
+  ts = "List_background_dc475fe4",
+  as = "List_border_59b5e8fe",
+  ss = "List_borderShadow_776a55b9",
+  rs = "List_e706f6ab",
+  ns = "List_base__disabled_8303c2c1",
+  os = "List_cards_efba95c2",
+  is = "List_card_d0063856",
+  ls = n(function () {
+    const { model: e } = Ma(),
+      t = e.computes.sortedBoosters(),
+      s = e.computes.visible(),
+      n = e.computes.disabled();
+    return s
+      ? a.jsxs("div", {
+          className: r(rs, n && ns),
+          children: [
+            a.jsx("div", { className: ts }),
+            a.jsx("div", { className: as }),
+            a.jsx("div", { className: ss }),
+            a.jsx("div", {
+              className: os,
+              children: G(
+                t,
+                (e) => e.state === ja.Active,
+                (e) =>
+                  a.jsx(
+                    es,
+                    {
+                      type: e.reserveType,
+                      timeLeft: e.inactivationTime,
+                      timeTotal: e.totalDuration,
+                      icon: e.iconId,
+                      className: is,
+                    },
+                    e.boosterID,
+                  ),
+              ),
+            }),
+          ],
+        })
+      : null;
+  }),
+  cs = "Reserves_43f2a7a7",
+  ds = "Reserves_base__disabled_58e2c36d",
+  us = n(function () {
+    const { model: e, controls: t } = Ma(),
+      s = (function () {
+        const e = m.resolve("views"),
+          t = m.resolve("aliases");
+        return D({
+          resId: t.read((e) => e.lobby_header.default.ReservesEntryPoint("resId")),
+          contentId: e.read((e) => e.lobby.personal_reserves.PersonalReservesTooltip("resId")),
+        });
+      })(),
+      n = C(),
+      o = e.computes.disabled();
+    return a.jsxs("div", {
+      ...s,
+      className: r(cs, o && ds),
+      onClick: function (e) {
+        (s.onClick(), o || (n.play("click", { target: "reserves", original: e }), t.openBooster()));
+      },
+      onMouseEnter: function (e) {
+        (s.onMouseEnter(e), o || n.play("mouse-enter", { target: "reserves", original: e }));
+      },
+      "data-test-id": "reservesButton",
+      children: [a.jsx(ls, {}), a.jsx(Xa, {})],
+    });
+  }),
+  _s = e.memo(({ options: e, ...t }) => a.jsx(Sa, { options: e, children: a.jsx(us, { ...t }) })),
+  [ms, bs] = l("WalletModel")(
+    ({ observableModel: e }) => {
+      const t = { currencies: e.dict("currencies") };
+      return {
+        ...t,
+        list: c.shallow((e) =>
+          Array.from(t.currencies.keys.values()).sort((t, a) => {
+            const s = e.indexOf(t),
+              r = e.indexOf(a),
+              n = e.length;
+            return (-1 === s ? n : s) - (-1 === r ? n : r);
+          }),
+        ),
+      };
+    },
+    ({ externalModel: e }) => ({
+      currencyAction: e.createCallback((e) => ({ type: e }), "onCurrencyAction"),
+    }),
+  ),
+  ps = "Hint_e53dd99e",
+  vs = "Hint_discountBackground_d56ce0a3",
+  fs = "Hint_discount_94b7b9ff",
+  gs = "Hint_onlyDiscount_8b648a0a",
+  hs = "Hint_discountWithHintText_381cf018",
+  xs = "Hint_onlyHintText_751386e1",
+  ys = "Hint_discountValue_b1f389fc",
+  Ns = "Hint_discountHintTitle_939c55ad",
+  Bs = "Hint_hintText_6f3fa83f",
+  js = "Hint_hintTitle_135a3ed",
+  Es = "Hint_discountValue__withHint_e7bbe38f";
+function Is({ classNames: e }) {
+  const t = m.resolve("strings");
+  return a.jsxs("div", {
+    className: r(gs, e?.onlyDiscount),
+    children: [
+      a.jsx("div", { className: r(vs, e?.discountBackground) }),
+      a.jsx(Q.Root, {
+        children: a.jsx(Q.Value, {
+          value: t.readOrEmpty("common.common.percent"),
+          classNames: { valueContainer: r(fs, e?.discount), value: r(ys, e?.discountValue) },
+        }),
+      }),
+    ],
+  });
+}
+function Cs({ type: e, classNames: t }) {
+  const s = m.resolve("intl"),
+    n = m.resolve("strings");
+  return a.jsx("div", {
+    className: r(Bs, xs, t?.hintText, t?.onlyHintText),
+    children: a.jsx(f, {
+      classNames: t?.textGradient,
+      children: a.jsx("div", {
+        className: r(js, t?.hintTitle),
+        children: s.toUpperCase(n.readOrEmpty(`menu.headerButtons.btnLabel.${e}`)),
+      }),
+    }),
+  });
+}
+function As({ classNames: e, type: t }) {
+  const s = m.resolve("intl"),
+    n = m.resolve("strings");
+  return a.jsxs("div", {
+    className: r(hs, e?.discountWithHintText),
+    children: [
+      a.jsx("div", { className: r(vs, e?.discountBackground) }),
+      a.jsx("div", {
+        className: r(Ns, e?.discountHintTitle),
+        children: s.toUpperCase(n.readOrEmpty(`menu.headerButtons.btnLabel.${t}`)),
+      }),
+      a.jsx(Q.Root, {
+        children: a.jsx(Q.Value, {
+          value: n.readOrEmpty("common.common.percent"),
+          classNames: { valueContainer: r(fs, e?.discount), value: r(ys, Es, e?.discountValue) },
+        }),
+      }),
+    ],
+  });
+}
+function ks({ classNames: e, type: t }) {
+  return a.jsxs("div", {
+    className: r(ps, e?.base),
+    children: [
+      a.jsx(Is, {
+        classNames: {
+          onlyDiscount: e?.onlyDiscount,
+          discountBackground: e?.discountBackground,
+          discount: e?.discount,
+          discountValue: e?.discountValue,
+        },
+      }),
+      a.jsx(Cs, {
+        type: t,
+        classNames: {
+          hintText: e?.hintText,
+          textGradient: e?.textGradient,
+          onlyHintText: e?.onlyHintText,
+        },
+      }),
+      a.jsx(As, { classNames: e, type: t }),
+    ],
+  });
+}
+const Ps = {
+    base: "Currency_92022680",
+    hintWrapper: "Currency_hintWrapper_530465b9",
+    base__interactive: "Currency_base__interactive_52396ddd",
+    currencyWrapper: "Currency_currencyWrapper_b13579ba",
+    currencyIcon: "Currency_currencyIcon_346f8c78",
+    value: "Currency_value_b1cf6531",
+    value__unavailable: "Currency_value__unavailable_3a328d4",
+    dash: "Currency_dash_2806b61e",
+    formattedValue: "Currency_formattedValue_b7cad7e0",
+    hint: "Currency_hint_f9d16bb2",
+    text: "Currency_text_f4484816",
+    text__overlay: "Currency_text__overlay_64b93131",
+    discountWithHintText: "Currency_discountWithHintText_95e3324b",
+    base__discount: "Currency_base__discount_271064ec",
+    onlyHintText: "Currency_onlyHintText_61ecd7b0",
+    onlyDiscount: "Currency_onlyDiscount_61ecd7b0",
+  },
+  Ts = 1e6,
+  Ss = 1e5;
+function Ms({ wgMoneyAvailable: t, value: s, type: n, classNames: o }) {
+  const i = e.useRef(null),
+    l = m.resolve("intl"),
+    c = m.resolve("strings"),
+    d = p(
+      {
+        displayValue: () =>
+          s >= Ts ? { abbreviated: !0, value: Y(s, Ss) / Ts } : { abbreviated: !1, value: s },
+      },
+      {
+        medium: {
+          displayValue: () =>
+            s >= 1e7 ? { abbreviated: !0, value: Y(s, Ss) / Ts } : { abbreviated: !1, value: s },
+        },
+        large: {
+          displayValue: () =>
+            s >= 1e8 ? { abbreviated: !0, value: Y(s, Ss) / Ts } : { value: s, abbreviated: !1 },
+        },
+      },
+    );
+  if (!1 === t)
+    return a.jsxs("div", {
+      className: r(Ps.value, Ps.value__unavailable, o?.value),
+      children: [
+        a.jsx("div", { className: Ps.dash, children: c.readOrEmpty("common.common.semi_dash") }),
+        a.jsx("div", { className: Ps.dash, children: c.readOrEmpty("common.common.semi_dash") }),
+      ],
+    });
+  const u = d.displayValue();
+  return a.jsx("div", {
+    ref: i,
+    className: r(Ps.value, o?.base),
+    children: u.abbreviated
+      ? a.jsx(w, {
+          path: "menu.hangar_header.million",
+          params: { value: u.value },
+          brackets: { start: "%(", end: ")s" },
+          className: r(Ps.formattedValue, o?.formattedValue),
+        })
+      : l.formatNumber(n === q.gold ? "gold" : "integral", u.value),
+  });
+}
+const Ws = n(function ({ currency: t, type: s, className: n, classNames: o }) {
+    const { controls: i } = bs(),
+      l = C(),
+      c = "AVAILABLE" === t.status,
+      d = (function (t, a, s, r) {
+        const n = m.resolve("strings"),
+          o = _({
+            header: n.readOrEmpty(`tooltips.header.buttons.${t}.header`),
+            body: n.readOrEmpty(`tooltips.header.buttons.${t}.body`),
+          }),
+          i = e.useMemo(() => ({ disabled: "string" != typeof s || "" === s }), [s]),
+          l = X(
+            s,
+            e.useMemo(() => [r], [r]),
+            i,
+          );
+        return !1 === a ? o : l;
+      })(s, c, t.tooltipType, t.value),
+      u = p({ size: J.extraSmall }, { large: { size: J.small }, extraLarge: { size: J.medium } }),
+      b = j(u.size, J.small);
+    return a.jsxs("div", {
+      ...d,
+      className: r(
+        Ps.base,
+        c ? Ps.base__interactive : Ps.base__nonInteractive,
+        t.discount > 0 && Ps.base__discount,
+        n,
+      ),
+      onMouseEnter: function (e) {
+        (l.play("mouse-enter", { target: "WalletCurrency", original: e }), d.onMouseEnter(e));
+      },
+      onClick: function (e) {
+        (d?.onClick(),
+          c && (l.play("click", { target: "WalletCurrency", original: e }), i.currencyAction(s)));
+      },
+      children: [
+        a.jsx("div", {
+          className: r(Ps.currencyWrapper, o?.currencyWrapper),
+          children: a.jsx(K, {
+            reverse: !0,
+            classNames: { ...o?.currency, icon: r(Ps.currencyIcon, o?.currency?.icon) },
+            type: s,
+            size: b,
+            "data-test-id": s,
+            children: a.jsx(Ms, {
+              wgMoneyAvailable: c,
+              value: t.value,
+              type: s,
+              classNames: o?.currencyValue,
+            }),
+          }),
+        }),
+        c &&
+          a.jsx("div", {
+            className: r(Ps.hintWrapper, o?.hintWrapper),
+            children: a.jsx(ks, {
+              type: s,
+              classNames: {
+                ...o?.hint,
+                discountWithHintText: r(Ps.discountWithHintText, o?.hint?.discountWithHintText),
+                onlyDiscount: r(Ps.onlyDiscount, o?.hint?.onlyDiscount),
+                onlyHintText: r(Ps.onlyHintText, o?.hint?.onlyHintText),
+                base: r(Ps.hint, o?.hint?.base),
+                textGradient: { text: Ps.text, textOverlay: r(Ps.text, Ps.text__overlay) },
+              },
+            }),
+          }),
+      ],
+    });
+  }),
+  Os = n(function (e) {
+    const t = bs().model.currencies.get(e.type);
+    return t
+      ? a.jsx(Ws, { ...e, currency: t })
+      : (console.error(`Currency with type ${e.type} is not defined`), null);
+  }),
+  ws = "Wallet_fc600169",
+  Rs = [q.crystal, q.gold, q.credits],
+  Ds = n(function ({ className: e, classNames: t, currenciesOrder: s = Rs }) {
+    const { model: n } = bs(),
+      o = n.list(s);
+    return a.jsx("div", {
+      "data-name": "Wallet",
+      className: r(ws, e),
+      children: o.map((e) => a.jsx(Os, { type: e, classNames: t }, e)),
+    });
+  }),
+  Hs = e.memo(({ className: e, classNames: t, currenciesOrder: s, ...r }) =>
+    a.jsx(ms, { ...r, children: a.jsx(Ds, { className: e, classNames: t, currenciesOrder: s }) }),
+  ),
+  Vs = "RightSide_6958a8ae",
+  Ls = "RightSide_separator_fea82003",
+  zs = m.resolve("aliases"),
+  $s = zs.read((e) => e.lobby_header.default.ReservesEntryPoint("resId")),
+  Fs = zs.read((e) => e.lobby_header.default.Wallet("resId")),
+  Us = function () {
+    const e = V($s),
+      t = V(Fs);
+    return a.jsx("div", {
+      className: Vs,
+      children: a.jsxs(le, {
+        className: Ls,
+        children: [
+          e && a.jsx(_s, { options: { rootId: $s } }),
+          t && a.jsx(Hs, { options: { rootId: Fs } }),
+        ],
+      }),
+    });
+  },
+  Gs = "battleRoyaleQueue",
+  Qs = new Set([
+    "random",
+    "trainingsList",
+    "tournament",
+    "epicQueue",
+    "comp7",
+    "comp7Light",
+    "winback",
+    "strongholdsBattlesList",
+    "specBattlesList",
+    Gs,
+  ]);
+function Ys(e) {
+  return e !== Gs;
+}
+const qs = {
+    base: "VehicleInfo_4b77df3f",
+    base__battleRoyaleQueue: "VehicleInfo_base__battleRoyaleQueue_b5a06cbf",
+    details: "VehicleInfo_details_3cde71e7",
+    vehicleType: "VehicleInfo_vehicleType_5f8aaab4",
+  },
+  Js = n(function ({ className: e }) {
+    const t = Ae(),
+      s = t.model.currentMode.get(),
+      n = he(),
+      o = t.model.currentModeId.get(),
+      i = ((l = o), t.model.queueType.get() !== Ie && Qs.has(l));
+    var l;
+    const c = n.model.vehicle();
+    if (void 0 !== c)
+      return i
+        ? a.jsx(w, {
+            className: r(qs.base, qs[`base__${o}`], e),
+            path: "menu.headerButtons.battle.vehicleInfo",
+            params: {
+              mode: s,
+              level: Ys(o) ? a.jsx(ee, { value: c.level, className: qs.details }) : "",
+              type: a.jsx(Z, { className: qs.vehicleType, type: c.type, size: Z.sizes.x24x24 }),
+              name: a.jsx("div", { className: qs.details, children: c.shortName }),
+            },
+          })
+        : a.jsx(w, {
+            className: r(qs.base, e),
+            path: "menu.headerButtons.battle.modeInfo",
+            params: { mode: s },
+          });
+  }),
+  Ks = {
+    base: "App_fe4b7101",
+    base__oldStyle: "App_base__oldStyle_ed955e9f",
+    leftSide: "App_leftSide_6c377b80",
+    userProfile: "App_userProfile_7aef8044",
+    navigationBar: "App_navigationBar_a5705175",
+    navigationBar_button: "App_navigationBar_button_0",
+    navigationBar_title: "App_navigationBar_title_e132fcfa",
+    navigationBar_infoButton: "App_navigationBar_infoButton_760d7047",
+    navigationBar_button__garageNavigation: "App_navigationBar_button__garageNavigation_e132fcfa",
+    navigationBar_button__backNavigation: "App_navigationBar_button__backNavigation_0",
+    rightSide: "App_rightSide_f929369b",
+    base__battleButtonVisible: "App_base__battleButtonVisible_0",
+    battleButton: "App_battleButton_d35d5318",
+    battleButton__fadein: "App_battleButton__fadein_18e051ce",
+    battleButton__withoutFadein: "App_battleButton__withoutFadein_4337493d",
+    battleButtonEffects: "App_battleButtonEffects_1da8cd9d",
+    vehicleInfoWrapper: "App_vehicleInfoWrapper_9f2ec684",
+  },
+  Xs = x("Header", Ks.base, {
+    variants: {
+      oldStyle: { true: Ks.base__oldStyle },
+      battleButtonVisible: { true: Ks.base__battleButtonVisible },
+    },
+  }),
+  Zs = m.resolve("aliases").read((e) => e.lobby_header.default.FightStart("resId")),
+  er = new Set([je, Ee]),
+  tr = new Set(["mapsTraining"]);
+const ar = n(function () {
+    const t = te(0, 250),
+      s = M(),
+      n = ye(),
+      o = Ae(),
+      [i, l] = e.useState(!1),
+      c = o.model.battleStatus.get(),
+      d = o.model.battleButtonAlwaysOn.get(),
+      u = !o.model.computes.isSearchingBattle() && !o.model.computes.isBattleReady(),
+      _ = Ct(),
+      m = Boolean(
+        ae(s.location, { paths: ["/:hangar/allVehicles", "/:eventName/:hangar/allVehicles"] }),
+      ),
+      b = s.location.includes("/postBattleResults"),
+      p = V(Zs),
+      v = o.model.currentModeId.get();
+    return (
+      e.useEffect(() => {
+        p
+          ? b && tr.has(v)
+            ? l(!1)
+            : d
+              ? l(!0)
+              : er.has(c)
+                ? l(!1)
+                : l(_ === be.Hangar || m || b)
+          : l(!1);
+      }, [d, c, _, m, b, p, v]),
+      a.jsxs(Xs, {
+        ref: t,
+        oldStyle: n.model.oldStyle.get(),
+        battleButtonVisible: i,
+        children: [
+          a.jsx("div", {
+            className: Ks.leftSide,
+            children: a.jsx(Na, {
+              garageNavigationAllowed: u,
+              battleButtonVisible: i,
+              classNames: {
+                userProfile: Ks.userProfile,
+                navigationBar: {
+                  base: Ks.navigationBar,
+                  button: Ks.navigationBar_button,
+                  button__garageNavigation: Ks.navigationBar_button__garageNavigation,
+                  title: Ks.navigationBar_title,
+                  infoButton: Ks.navigationBar_infoButton,
+                  button__backNavigation: Ks.navigationBar_button__backNavigation,
+                },
+              },
+            }),
+          }),
+          i &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx(at, {
+                  options: { rootId: Zs },
+                  classNames: {
+                    base: r(
+                      Ks.battleButton,
+                      _ === be.Hangar || m
+                        ? Ks.battleButton__withoutFadein
+                        : Ks.battleButton__fadein,
+                    ),
+                    effect: Ks.battleButtonEffects,
+                  },
+                }),
+                b && a.jsx("div", { className: Ks.vehicleInfoWrapper, children: a.jsx(Js, {}) }),
+              ],
+            }),
+          a.jsx("div", {
+            className: r(Ks.rightSide, i && Ks.rightSide__battleButtonVisible),
+            children:
+              !o.model.computes.isSearchingBattle() &&
+              !o.model.computes.isBattleReady() &&
+              a.jsx(Us, {}),
+          }),
+        ],
+      })
+    );
+  }),
+  sr = m.resolve("aliases"),
+  rr = se({ click: { battleButton: "gui_battle" } });
+ie(
+  new re()
+    .addWithProps(ne, { soundsOverrides: rr })
+    .add(xe)
+    .addWithProps(oe, {
+      context: "model.router",
+      rootId: sr.read((e) => e.lobby_header.default.HeaderState("resId")),
+    })
+    .addWithProps(Te, { options: { context: "tutorialModel" } })
+    .addWithProps(ke, {
+      options: { rootId: sr.read((e) => e.lobby_header.default.PremShop("resId")) },
+    })
+    .addWithProps(Ce, {
+      options: { rootId: sr.read((e) => e.lobby_header.default.Prebattle("resId")) },
+    })
+    .addWithProps(ge, {
+      options: { rootId: sr.read((e) => e.lobby_header.default.CurrentVehicle("resId")) },
+    })
+    .addWithProps(pe, {
+      options: { rootId: sr.read((e) => e.lobby_header.default.HeaderState("resId")) },
+    })
+    .addWithProps(ve, {
+      options: { rootId: sr.read((e) => e.lobby_header.default.NavigationBar("resId")) },
+    })
+    .render(a.jsx(ar, {})),
+);

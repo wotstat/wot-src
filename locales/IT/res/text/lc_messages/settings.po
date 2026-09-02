@@ -46,6 +46,15 @@ msgstr "Consente un'elaborazione della distruzione degli oggetti sulla mappa pi�
 msgid "HAVOK_ENABLED/warning"
 msgstr "Le impostazioni verranno applicate alla prossima battaglia, se disabilitato durante quella attuale."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Effetti visivi migliorati"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Abilita effetti visivi avanzati. Disabilitando questa opzione, si ripristinano gli effetti standard, questo potrebbe migliorare le prestazioni del gioco."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Le impostazioni verranno applicate alla prossima battaglia, se disabilitato durante quella attuale."
+
 msgid "LANGUAGE_CODE"
 msgstr "it"
 
@@ -175,11 +184,11 @@ msgstr "Attiva le tracce di cingoli e ruote"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Visualizza i solchi di cingoli e ruote sul terreno.\n\nIndisponibile con grafica Semplificata e qualità delle decalcomanie Bassa."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Nascondi gli accessori 3D in modalità Cecchino"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Effetto e visibilità dell'accessorio 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Nasconde temporaneamente gli accessori 3D del veicolo dal reticolo del cannone in modalità Cecchino.\n\nRiduce l'ingombro visivo e aumenta la precisione di puntamento."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Regola la visibilità degli effetti e degli accessori 3D vicino al centro dello schermo per ridurre l'ostruzione visiva durante il puntamento. La visibilità degli accessori 3D viene regolata solo in modalità Cecchino.\n\nValori inferiori rendono gli effetti e gli accessori 3D più trasparenti per una maggiore chiarezza del puntamento."
 
 msgid "WATER_QUALITY"
 msgstr "Qualità dell'acqua"
@@ -1995,6 +2004,15 @@ msgstr "Modalità:"
 
 msgid "screenMode/windowed"
 msgstr "In finestra"
+
+msgid "showPrebattleHighlights"
+msgstr "Attiva Sotto i riflettori"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Durante il conto alla rovescia pre-battaglia, vengono visualizzati alcuni carri di grande impatto visivo.\n\nDisabilitando questo parametro è possibile migliorare le prestazioni del gioco."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Se l'impostazione viene disabilitata durante la battaglia in corso, verrà abilitata per la successiva."
 
 msgid "smoothing/description"
 msgstr "Determina il grado di elaborazione aggiuntiva di linee sottili e contorni degli oggetti di gioco sulla scena di gioco. Minimizza l'effetto aliasing. I contorni degli oggetti appaiono più naturali."

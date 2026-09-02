@@ -488,22 +488,22 @@ msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
 msgstr ", "
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
-msgstr "Bonus permanents : %(bonuses)"
+msgstr "%(roleImage)Bonus permanent : %(bonuses)"
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
-msgstr "Bonus permanent : %(bonus)"
+msgstr "%(roleImage)Bonus permanent : %(bonus)"
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
-msgstr "Bonus permanents : %(bonus1) et %(bonus2)"
+msgstr "%(roleImage)Bonus permanents : %(bonus1) et %(bonus2)"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
-msgstr "Augmenter le niveau pour recevoir des bonus permanents : %(bonuses)"
+msgstr "%(roleImage)Augmenter le niveau pour recevoir des bonus permanents %(bonuses)"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
-msgstr "Augmenter le niveau pour recevoir un bonus permanent : %(bonus)"
+msgstr "%(roleImage)Augmenter le niveau pour recevoir un bonus permanent : %(bonus)"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
-msgstr "Augmenter le niveau pour recevoir les bonus permanents %(bonus1) et %(bonus2)"
+msgstr "%(roleImage)Augmenter le niveau pour recevoir les bonus permanents %(bonus1) et %(bonus2)"
 
 msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
 msgstr "Augmenter le niveau"

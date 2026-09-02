@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Gull tjent"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "For å ha blitt med i %(campaignName)s, har du fått %(nameMedal)s medaljen."
+msgstr "For å ha fullført et oppdrag i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Gratulerer!"
@@ -1929,6 +1929,21 @@ msgstr "For å ha fullført 30 oppdrag i %(categoryName)s gruppen i %(campaignNa
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "For å ha fullført 15 oppdrag i %(categoryName)s gruppen i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "For å ha fullført et oppdrag i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "For å ha fullført 21 oppdrag i %(categoryName)s gruppen i %(operationName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "For å ha fullført 14 oppdrag i %(categoryName)s gruppen i %(operationName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "For å ha fullført 7 oppdrag i %(categoryName)s gruppen i %(operationName)s kampanjen, har du fått %(nameMedal)s medaljen."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "bot for skade påført dine allierte: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Klikk knappen for å se innholdet."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Du fikk en pakke:"
+msgstr "Pakke mottatt"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Se"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Til belønninger"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Porter aktivert: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Vi aktiverte alle portene dine og la til inneholdet i dem til kontoen di
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Belønninger mottatt"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Vi åpnet alle eskene dine og la til belønningene for Høytidsoperasjonene"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Universale tegningsdeler"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s nasjonale tegningsdeler"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Konfigurasjonen på følgende kjøretøy har blitt endret: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Obs!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>og %(vehiclesCount)s flere</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Etter oppdateringen har alle dekalene blitt fjernet fra kjøretøyet og sendt til depotet, i seksjonen for eksteriør."

@@ -10,6 +10,7 @@ package net.wg.gui.components.crosshairPanel
    import net.wg.gui.components.crosshairPanel.components.gunMarker.DualGunMarker;
    import net.wg.gui.components.crosshairPanel.components.gunMarker.IGunMarker;
    import net.wg.gui.components.crosshairPanel.components.gunMarker.TwinGunMarker;
+   import net.wg.gui.components.crosshairPanel.components.gunMarker.auxiliaryRocketLauncher.IAuxiliaryRocketLauncherGunMarker;
    import net.wg.gui.components.crosshairPanel.components.gunMarker.lowChargeShot.LowChargeShotGunMarker;
    import net.wg.infrastructure.interfaces.entity.IDisposable;
    
@@ -30,7 +31,13 @@ package net.wg.gui.components.crosshairPanel
       
       private var _lowChargeShotGunMarkers:Vector.<LowChargeShotGunMarker>;
       
+      private var _auxiliaryRocketLauncherGunMarkers:Vector.<IAuxiliaryRocketLauncherGunMarker>;
+      
       private var _scale:Number = 1;
+      
+      private var _zoomFactor:Number = 1;
+      
+      private var _auxiliaryRocketLauncherActive:Boolean = false;
       
       private var _markerSettings:CrosshairSettingsVO;
       
@@ -57,6 +64,7 @@ package net.wg.gui.components.crosshairPanel
          this._accuracyGunMarkers = new Vector.<AccuracyGunMarker>(0);
          this._chargeGunMarkers = new Vector.<ChargeGunMarker>(0);
          this._lowChargeShotGunMarkers = new Vector.<LowChargeShotGunMarker>(0);
+         this._auxiliaryRocketLauncherGunMarkers = new Vector.<IAuxiliaryRocketLauncherGunMarker>(0);
          this._container = param1;
       }
       
@@ -107,6 +115,11 @@ package net.wg.gui.components.crosshairPanel
          {
             this._lowChargeShotGunMarkers.push(param1);
          }
+         else if(param1 is IAuxiliaryRocketLauncherGunMarker)
+         {
+            this._auxiliaryRocketLauncherGunMarkers.push(param1);
+            (param1 as IAuxiliaryRocketLauncherGunMarker).setAuxiliaryRocketLauncherActive(this._auxiliaryRocketLauncherActive);
+         }
          if(DUAL_ACC_NAMES.indexOf(param2) >= 0)
          {
             param1.setIsSecondary(true);
@@ -116,6 +129,7 @@ package net.wg.gui.components.crosshairPanel
             param1.setSettings(this._markerSettings.gunTagType,this._markerSettings.mixingType,this._markerSettings.gunTagAlpha,this._markerSettings.mixingAlpha);
             param1.setIsColorBlind(this._markerSettings.isColorBlind);
          }
+         param1.setZoomFactor(this._zoomFactor);
          param1.setReloadingParams(this._currReloadingPercent,this._currReloadingState);
          param1.setDispersionCircleThickness(this._isDispersionCircleBold);
          this.setAccuracyStacks(this._accuracyStacks);
@@ -137,6 +151,7 @@ package net.wg.gui.components.crosshairPanel
          var _loc4_:int = 0;
          var _loc5_:int = 0;
          var _loc6_:int = 0;
+         var _loc7_:int = 0;
          var _loc2_:IGunMarker = this._gunMarkers[param1];
          var _loc3_:int = int(Values.DEFAULT_INT);
          if(Boolean(_loc2_))
@@ -166,6 +181,11 @@ package net.wg.gui.components.crosshairPanel
             {
                this._lowChargeShotGunMarkers.splice(_loc6_,1);
             }
+            _loc7_ = this._auxiliaryRocketLauncherGunMarkers.indexOf(_loc2_);
+            if(_loc7_ != -1)
+            {
+               this._auxiliaryRocketLauncherGunMarkers.splice(_loc7_,1);
+            }
             _loc2_.dispose();
             this._container.removeChild(DisplayObject(_loc2_));
             delete this._gunMarkers[param1];
@@ -193,6 +213,8 @@ package net.wg.gui.components.crosshairPanel
          this._chargeGunMarkers = null;
          this._lowChargeShotGunMarkers.length = 0;
          this._lowChargeShotGunMarkers = null;
+         this._auxiliaryRocketLauncherGunMarkers.length = 0;
+         this._auxiliaryRocketLauncherGunMarkers = null;
          this._markerSettings = null;
          this._container = null;
       }
@@ -295,6 +317,16 @@ package net.wg.gui.components.crosshairPanel
          }
       }
       
+      public function setAuxiliaryRocketLauncherActive(param1:Boolean) : void
+      {
+         var _loc2_:IAuxiliaryRocketLauncherGunMarker = null;
+         for each(_loc2_ in this._auxiliaryRocketLauncherGunMarkers)
+         {
+            _loc2_.setAuxiliaryRocketLauncherActive(param1);
+            this._auxiliaryRocketLauncherActive = param1;
+         }
+      }
+      
       public function setTwinGunActive(param1:Boolean) : void
       {
          var _loc2_:TwinGunMarker = null;
@@ -316,6 +348,7 @@ package net.wg.gui.components.crosshairPanel
       public function setZoomFactor(param1:Number) : void
       {
          var _loc2_:IGunMarker = null;
+         this._zoomFactor = param1;
          for each(_loc2_ in this._gunMarkers)
          {
             _loc2_.setZoomFactor(param1);

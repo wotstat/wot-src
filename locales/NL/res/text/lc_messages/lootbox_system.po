@@ -28,6 +28,30 @@ msgstr "ONTVANGEN BELONINGEN"
 msgid "awardViews/footer/backButton/"
 msgstr "Begrepen!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} resterend"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Geen heropeningen"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Waardevolle beloning"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Gratis heropenen"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Onvoldoende obligaties"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Heropenen voor {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Heropenen"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Ontvangen waardevolle beloningen komen niet in aanmerking voor heropening."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Gevechtsbevel"
 
@@ -118,6 +142,18 @@ msgstr "Kisten geopend: %(count)"
 msgid "common/statsButton"
 msgstr "Statistieken"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Annuleren"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "De kist wordt heropend om kans te maken op andere beloningen."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Heropenen"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Heropenen voor {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Annuleren"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Het evenement eindigt over %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Wanneer het evenement is afgelopen en je niet alle kisten hebt geopend, zullen ze later automatisch worden geopend."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Als je de kisten niet voor het einde van het evenement opent, zullen ze automatisch worden geopend."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de kist al hebt, dan zul je in plaats van alle voertuigen die daarna in kisten zitten, hun volledige waarde in goud ontvangen."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Elke %(guaranteed0)s kisten bevatten gegarandeerd een niveau VIII–X voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed0)s&zwnbsp;e kist (afhankelijk van het type kist) een niveau VIII–X voertuig. Wanneer dat gebeurt, wordt de teller gereset."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Elke %(guaranteed)s kisten bevatten gegarandeerd een niveau VIII–X voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed)s&zwnbsp;e kist (afhankelijk van het type kist) een niveau VIII–X voertuig. Wanneer dat gebeurt, wordt de teller gereset."
 
-msgid "infoPage/footer/title/autoOpen"
-msgstr "Autom. openen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Als je niet blij bent met de beloningen uit een kist, kun je die heropenen om kans te maken op andere items uit dezelfde lijst. Elke kist kan een beperkt aantal keer worden heropend:"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/autoOpen/default"
+msgstr "Automatisch openen"
+
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Compensatie"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Gegarandeerde beloning"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Heropening"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Bekijk de lijst met items op de spelwebsite"
@@ -273,6 +315,30 @@ msgstr "voor %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "%(style) 3D-stijl"
+
+msgid "reroll/free"
+msgstr "Gratis"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Financiële transactie"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Credits verminderd: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Obligaties verminderd: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Goud verminderd: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Het \"%(eventName)s\" evenement is afgelopen"
@@ -480,3 +546,15 @@ msgstr "Gecompenseerde voertuigen: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Compensatie voor een voertuig dat al in je garage staat."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Heropening"
+
+msgid "tooltip/reroll/price"
+msgstr "Kosten"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Bij het heropenen van een kist kun je andere beloningen uit dezelfde lijst ontvangen."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Heropening"

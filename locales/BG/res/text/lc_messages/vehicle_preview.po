@@ -40,6 +40,9 @@ msgstr "Изследвай"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Възстанови"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Към големите кутии"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Машина ниво %(level)s %(nation)s не е изследвана"
 
@@ -54,6 +57,15 @@ msgstr "Отстъпка при покупка:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Отстъпка при изследване:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Тази машина може да падне от {{@ style (color $color)}}големи кутии!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Големи кутии!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Тази машина може да се падне от"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Приложи купон за отстъпка: %(value)s"

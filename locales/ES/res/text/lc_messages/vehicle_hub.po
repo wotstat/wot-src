@@ -34,6 +34,9 @@ msgstr "Este cañón puede disparar continuamente sin necesidad de recargar. Cad
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Aumenta la potencia del motor y la velocidad punta, características que permiten moverse rápidamente por el campo de batalla. Cuando se activan, los propulsores reducen la maniobrabilidad y no se pueden desactivar manualmente."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "El cañón del vehículo tiene dispositivos especiales que permiten modificar algunos parámetros de los proyectiles antes de disparar. Los parámetros de los distintos proyectiles varían según el modo seleccionado y cada modo te permite adaptarte rápidamente a diferentes situaciones de combate."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Cuando se activa, este modo especial aumenta o modifica algunos parámetros de batalla. Se recomienda activarlo cuando el vehículo esté en posición y listo para atacar."
 
@@ -82,6 +85,9 @@ msgstr "Cañón automático con control de sobrecalentamiento térmico"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Propulsores a reacción"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Sistema de calibración de proyectiles"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Modo disparo"
 
@@ -100,8 +106,17 @@ msgstr "Modo salva"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Cuando permaneces inmóvil o avanzas lentamente, obtienes niveles de precisión para mejorar la certeza de tu próximo disparo.\nCon el nivel máximo de precisión, tendrás un control del cañón decente con dispersión reducida, incluso mientras te mueves o al girar el casco/la torreta."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "El mecanismo reduce la recarga del proyectil a un tiempo fijo breve al instante. Cada uso consume una carga por proyectil, y las cargas se reponen con el tiempo (más rápido si el cargador está lleno). Hay un número determinado de cargas disponibles al principio de la batalla."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Este vehículo está equipado con un lanzacohetes montado en el mantelete del cañón. Activa la habilidad para cambiar a la mira del arma secundaria y luego lanza un cohete AE no guiado con el botón de disparo."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Cuando impactas en un enemigo detectado con un proyectil, obtienes un nivel de eficacia de recarga que mejora temporalmente la velocidad de recarga del cañón. Los niveles se acumulan con cada impacto.\nAl destruir a un enemigo con un proyectil, obtienes niveles adicionales de eficacia de recarga."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "El Módulo externo de abastecimiento de munición de este vehículo le permite disparar proyectiles unitarios de alta carga que infligen más daño. Mientras está activo, el módulo también reduce la movilidad y la cadencia de tiro."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Si tienes el cañón cargado, puedes empezar a calentar el siguiente disparo para causar más daño (a mayor nivel de calor, mayor efecto).\nCon el nivel máximo de calor, tienes varios segundos para disparar; si no lo haces, no podrás disparar temporalmente."
@@ -142,6 +157,15 @@ msgstr "El sistema acumula una carga con el tiempo; cuanto mayor sea la carga, m
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Activa los Propulsores de combustible líquido para aumentar tu velocidad cuando más lo necesites. Los propulsores se calientan y deben enfriarse antes de usarse de nuevo, pero, si superas el nivel máximo de calor, quedarán deshabilitados temporalmente."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Cuando aciertas a un vehículo enemigo visible con un proyectil, se ajusta el regulador de la espoleta del siguiente proyectil. Si el disparo inicial penetra el blindaje enemigo, el daño del siguiente disparo aumenta. Si no lo logra, la penetración del siguiente disparo aumenta."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "El cañón del vehículo tiene dispositivos especiales que permiten modificar algunos parámetros de los proyectiles antes de disparar. Los parámetros de los distintos proyectiles varían según el modo seleccionado y cada modo te permite adaptarte rápidamente a diferentes situaciones de combate."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Cuando se activa, el dispositivo escanea un sector frente a tu vehículo y revela objetivos ocultos antes de un periodo de enfriamiento. Si revela a un enemigo no detectado, también detectan tu vehículo de inmediato. Puedes detener el escaneo manualmente tras un breve retraso."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Impulsores de combustible sólido que potencian la aceleración, la movilidad y la maniobrabilidad durante algunos segundos. Los impulsores derecho e izquierdo pueden activarse por separado para girar el casco con más rapidez y no restringen la capacidad de moverse marcha atrás."
 
@@ -166,8 +190,17 @@ msgstr "Durante un breve periodo de tiempo, esta modificación mecánica aumenta
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Dispositivo análogo de cálculo balístico"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Mecanismo de carga forzada"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Lanzacohetes coaxial"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Compartimento de munición semiautomático"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Modo de alimentación de munición externa"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Sobrecarga termobalística"
@@ -208,6 +241,15 @@ msgstr "Posquemador con propulsor por inducción"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Propulsores de combustible líquido"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Regulador de espoleta ajustable"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Sistema de calibración de proyectiles"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Búsqueda y seguimiento infrarrojo (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Impulsores cohete secuenciales"
 
@@ -232,8 +274,17 @@ msgstr "Asistencia de turbocargador de alta presión"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Aumenta la precisión del siguiente disparo, con una estabilización decente cuando se calibra al máximo."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Reduce instantáneamente la recarga del proyectil a un tiempo fijo y breve."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Dispara un cohete AE no guiado desde un lanzador coaxial, independientemente del cañón principal."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Cuando impactas en un vehículo enemigo, la velocidad de recarga aumenta durante un periodo de tiempo limitado."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Dispara proyectiles de daño elevado a costa de movilidad y enfriamiento."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Acumula niveles de calor para causar más daño a los vehículos enemigos con tu siguiente disparo."
@@ -274,6 +325,15 @@ msgstr "El sistema se carga para aumentar el daño. Cuanto mayor sea la carga, m
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Propulsores que se pueden activar en cualquier momento para generar un estallido de velocidad."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Al impactar en un vehículo enemigo visible, aumenta el daño o la penetración del siguiente proyectil."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "El cañón tiene dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Amplía el alcance de visión y detecta vehículos en movimiento y ocultos tras la vegetación en un sector estrecho."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Impulsores de combustible sólido que aumentan la aceleración, la movilidad y la maniobrabilidad."
 
@@ -298,8 +358,14 @@ msgstr "Una mecánica especial que aumenta la potencia del motor, la aceleració
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Al permanecer inmóvil o moverse por debajo de cierta velocidad, tu vehículo calibra el Dispositivo análogo de cálculo de trayectorias balísticas y acumular niveles de precisión, lo que aumenta la precisión del siguiente disparo. Si superas el límite de velocidad, tu progreso en la acumulación de niveles de precisión se interrumpirá hasta que reduzcas la velocidad. Con el nivel más alto de precisión, tu vehículo obtiene una estabilización del cañón casi perfecta y una dispersión mínima debido al movimiento o al giro de la torreta/el casco. El efecto se elimina al disparar."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Este vehículo está equipado con un lanzacohetes montado en el mantelete del cañón. Activa la habilidad para cambiar a la mira del arma secundaria y luego lanza un cohete AE no guiado con el botón de disparo."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Cuando impactas en un enemigo visible con un proyectil, obtienes un nivel de eficacia de recarga que mejora temporalmente la velocidad de recarga del cañón. Los niveles se acumulan con cada impacto. Al destruir a un enemigo con un proyectil, obtienes niveles adicionales de eficacia de recarga."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "El Módulo externo de abastecimiento de munición de este vehículo le permite disparar proyectiles unitarios de alta carga que infligen más daño. Mientras está activo, el módulo también reduce la movilidad y la cadencia de tiro."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Si el cañón está cargado, puedes empezar a calentar tu siguiente disparo. Cuanto mayor sea el nivel de calor alcanzado, mayor será la bonificación al daño medio. Durante el proceso de calentamiento, no puedes cambiar de proyectil. Cuando alcanzas el nivel máximo de calor, empieza la cuenta atrás. Si no disparas antes de que termine, no podrás disparar durante varios segundos."
@@ -340,6 +406,15 @@ msgstr "Con el tiempo, el sistema acumula automáticamente una carga, que se con
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Los Propulsores de combustible líquido aportan una explosión de potencia al motor que otorga una ventaja posicional en el campo de batalla, pero limita la velocidad marcha atrás y de giro del vehículo. Se pueden activar y desactivar en cualquier momento, excepto si alcanzan el límite de reactivación. Los propulsores se calientan cuando están activos y no vuelven a estar disponibles hasta que se enfrían, de modo que no se pueden usar de forma ininterrumpida. Además, si se supera el nivel máximo de calor, quedarán deshabilitados temporalmente. Planifica bien tu estrategia para que no te pillen por sorpresa."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Al alcanzar a un vehículo enemigo visible con un proyectil, se ajusta la espoleta del siguiente proyectil. Si el primer disparo penetra el blindaje enemigo, el daño del siguiente disparo aumenta. Si no lo logra, la penetración del siguiente disparo aumenta."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "El cañón del vehículo tiene dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar. La configuración muestra qué parámetros se verán afectados al cambiar de modo de disparo."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Un dispositivo óptico avanzado que aumenta tu alcance de visión y mejora la detección de vehículos en movimiento y ocultos tras la vegetación. Al activarse, escanea un sector estrecho frente a tu vehículo y revela los objetivos ocultos antes de un periodo de enfriamiento. Si revela a un enemigo no detectado, también detectan tu vehículo de inmediato. Puedes detener el escaneo manualmente tras un breve retraso."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Impulsores de combustible sólido que aumentan la aceleración, la movilidad y la maniobrabilidad del vehículo durante algunos segundos. A diferencia de los propulsores normales, los impulsores derecho e izquierdo pueden activarse por separado para girar el casco con más rapidez y no restringen la capacidad de moverse marcha atrás. Se pueden utilizar varias veces por batalla, pero requieren un enfriamiento antes de volver a activarse."
 
@@ -363,6 +438,18 @@ msgstr "Durante un breve periodo de tiempo, esta modificación mecánica aumenta
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Los valores mostrados son los máximos posibles para el vehículo. Las mejoras, el equipamiento y los consumibles pueden modificar estos valores, pero los cambios no figuran aquí."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "proyectil AP calibrable"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "proyectil APCR calibrable"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "proyectil AE calibrable"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "proyectil AEAC calibrable"
 
 msgid "characteristics/templates/upTo"
 msgstr "Hasta un %(value)%s"

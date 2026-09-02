@@ -136,6 +136,24 @@ msgstr[0] "{{count}} zafer"
 msgstr[1] "{{count}} zafer"
 msgstr[2] "{{count}} zafer"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "{{value}} için geçerli"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Savaş Deneyimi"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Oyuna geri dönüşünüzü kutlamak için sizin için özel bir sürprizimiz var: {{@ style (color #ede6d9e6)}}Günlük Yeniden Görevlendirme Bonusu{{/}} her araçta günün ilk zaferinizden kazandığınız Savaş DP’sini artırır."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Tekrar hoş geldiniz, Komutan!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonus her gün {{@ style (color #ede6d9e6)}}{{value}}{{/}} itibarıyla sıfırlanır."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Yeniden Görevlendirme Bonusu: Geçerli"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Araç oyun listenize gitmek için tıklayın"
 

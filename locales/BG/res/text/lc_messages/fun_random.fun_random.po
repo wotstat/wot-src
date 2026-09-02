@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "\"Неонов устрем\" е уникално, ограничено във времето събитие, което предлага нещо различно! Състезавайте се и се бийте през опасни трасета, изпълнявайте мисии и печелете награди."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте да изберете по-ниски настройки на графиката."
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е да има и блокиране на клиента на играта."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Възможно е понижаване на производителността"
+msgstr "Ниска производителност"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте да изберете по-ниски настройки на графиката."
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Възможно е понижаване на производителността"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Всички нива"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "При ниски графични настройки може да възникнат визуални недоразумения и проблеми. Препоръчваме да изберете най-високата графична настройка за възможно най-добро изживяване, при условие че спецификациите на вашия компютър отговарят на изискванията. Режимът изисква висока производителност на компютъра. Скоростта на FPS може да намалее по време на интензивни битки."
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е да има и блокиране на клиента на играта."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Препоръчват се най-високите графични настройки"
+msgstr "Ниска производителност"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Препоръчват се най-високите графични настройки"
+msgstr "%(icon) Ниска производителност"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "При ниски графични настройки може да възникнат визуални недоразумения и проблеми. Препоръчваме да изберете най-високата графична настройка за възможно най-добро изживяване, при условие че спецификациите на вашия компютър отговарят на изискванията. Режимът изисква висока производителност на компютъра. Скоростта на FPS може да намалее по време на интензивни битки."
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Препоръчват се най-високите графични настройки"
+msgstr "Възможно е понижаване на производителността"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Препоръчват се най-високите графични настройки"
+msgstr "%(icon) Възможна намалена производителност"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Нова мисия за \"Неонов устрем\" ще е достъпна след:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Поздравления!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Безкраен пост-напредък"
+msgstr "Повтаряем етап"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Завършихте основния напредък"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Завършете този етап колкото пъти можете."
+msgstr "Вземете колкото се може повече награди:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Спечелени точки: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Повтаряем"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "За изпълняване:"
+msgstr "За изпълняване"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "За загуба:"
+msgstr "За загуба"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "За победа:"
+msgstr "За победа"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Точки:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Засега сте изпълнили всички налични мисии. Още ще се появят в следващата ротация."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Достъпно за {{timeLeft}}"
+msgstr "Изтича след {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Достъпно за {{timeLeft}}"
+msgstr "Събитието завършва след {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Нови мисии са налични след {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Избягвайте лазерите и внимателно преце
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Внимание: Лазери и скокове"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Ако машината ви заседне, използвайте способността \"Върни се на контролен пункт\", за да се телепортирате обратно на последния достигнат от вас контролен пункт."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Върни се на контролен пункт"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr ", за да научите повече за този режим"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Преборете се\nдо финалната линия"
+msgstr "Преборете се до финалната линия"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Всички нива"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "При ниски графични настройки може да възникнат визуални недостатъци и други проблеми. Препоръчваме да изберете най-високата графична настройка за възможно най-добро изживяване, при условие че спецификациите на вашия компютър отговарят на изискванията. Този режим изисква висока производителност и FPS може да намалее в интензивни моменти."
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е да има и блокиране на клиента на играта."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Препоръчват се най-високите графични настройки"
+msgstr "Ниска производителност"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Препоръчват се най-високите графични настройки"
+msgstr "%(icon) Ниска производителност"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "При ниски графични настройки може да възникнат визуални недостатъци и други проблеми. Препоръчваме да изберете най-високата графична настройка за възможно най-добро изживяване, при условие че спецификациите на вашия компютър отговарят на изискванията. Този режим изисква висока компютърна производителност и вашият FPS процент може да намалее в интензивни моменти."
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Препоръчват се най-високите графични настройки"
+msgstr "Възможно е понижаване на производителността"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Препоръчват се най-високите графични настройки"
+msgstr "%(icon) Възможна намалена производителност"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Неонов устрем"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Състезавайте се и се борете през опасни трасета, изпълнявайте мисии и печелете награди."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Неонов устрем"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Неонов устрем"

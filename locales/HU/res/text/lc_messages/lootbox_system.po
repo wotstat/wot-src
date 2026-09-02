@@ -28,6 +28,30 @@ msgstr "MEGSZERZETT JUTALMAK"
 msgid "awardViews/footer/backButton/"
 msgstr "Értettem!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} maradt"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Nincs újranyitás"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Értékes jutalom"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Ingyenes újranyitás"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nincs elég kötvényed"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Újranyitás {{count}} áron"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Újranyitás"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "A kapott értékes jutalmakat nem lehet újranyitni."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direktíva"
 
@@ -118,6 +142,18 @@ msgstr "Kinyitott dobozok: %(count)"
 msgid "common/statsButton"
 msgstr "Statisztika"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Mégse"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "A dobozt újra kinyithatod, így esélyed van más jutalmakat szerezni."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Újranyitás"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Újranyitás {{cost}} áron?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Mégse"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Az esemény ekkor ér véget: %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/default"
 msgstr "Ha nem nyitod ki a dobozokat az esemény végéig, automatikusan kinyitjuk őket."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Ha már rendelkezel a dobozok lehetséges tartalmának listáján szereplő összes járművel, akkor a dobozokból kapott minden további jármű teljes értékét aranyban kompenzáljuk."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Minden %(guaranteed0)s. doboz garantáltan tartalmaz egy VIII–X-es szintű járművet. Ha a dobozok kinyitásakor nem kapsz egy ilyen járművet sem, akkor %(guaranteed0)s&zwnbsp;. dobozod kinyitásakor (a doboz típusától függően) kapsz egy olyan VIII–X-es szintű járművet, amilyennel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Minden %(guaranteed)s. doboz garantáltan tartalmaz egy VIII–X-es szintű járművet. Ha a dobozok kinyitásakor nem kapsz egy ilyen járművet sem, akkor %(guaranteed)s&zwnbsp;. dobozod kinyitásakor (a doboz típusától függően) kapsz egy olyan VIII–X-es szintű járművet, amilyennel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Ha nem vagy elégedett a dobozban található jutalmakkal, újra kinyithatod azt. Így esélyed lesz más tárgyakat kapni ugyanarról a listáról. Minden dobozt csak korlátozott számú alkalommal nyithatsz ki újra:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automatikus kinyitás"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompenzáció"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantált jutalom"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Újranyitás"
 
 msgid "infoPage/header/lootListLink"
 msgstr "A tárgyak listájának megtekintése a játék portálján"
@@ -273,6 +315,30 @@ msgstr "a következőhöz: %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "%(style) 3D-stílusod"
+
+msgid "reroll/free"
+msgstr "Ingyenes"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Pénzügyi tranzakció"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Levont kredit: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Levont kötvények: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Dátum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Levont arany: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "A(z) «%(eventName)s» esemény véget ért"
@@ -480,3 +546,15 @@ msgstr "Kompenzált járművek: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompenzáció a Garázsodban már megtalálható járműért."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Újranyitás"
+
+msgid "tooltip/reroll/price"
+msgstr "Ár"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Ha újból kinyitod a dobozt, esélyed nyílik arra, hogy más jutalmakat kapj ugyanarról a listáról."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Újranyitás"

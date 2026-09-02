@@ -298,8 +298,26 @@ msgstr "Увеличава усилването на мощността на д�
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Увеличава максималния брой пъти, в които ускорителите могат да бъдат използвани в една битка, с {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Намалява първоначалното време за подготовка, преди ИФТП да може да бъде използвано с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Намалява времето за подготовка, преди ИФТП да може да бъде използвано отново с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Намалява времето, през което машината ви е разкрита на врагове след като ги е открила с ИФТП, с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Удължава сканирането на ИФТП с {colorTagOpen}{value0} сек{colorTagClose} и допълнително стеснява сектора на сканиране с {colorTagOpen}{value1} град.{colorTagClose}, повишава неговия обзор с {colorTagOpen}{value2}%{colorTagClose} и намалява маскировката на движещи се машини с {colorTagOpen}{value3}%{colorTagClose} и машини скрити в растителност с {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Намалява вероятността от раняване на членове на екипажа, когато машината е повредена."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Повишава бронебойността след непробило попадение с {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Повишава пораженията след пробило попадение с {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Намалява разсейката на оръдието, когато е повредено."
@@ -460,6 +478,18 @@ msgstr "Намалява времето за презареждане между
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Намалява вероятността да бъдете открити от вражески машини по време на стрелба."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Намалява времето за зареждане на заряд, когато касетата не е пълна, {colorTagOpen}с {value} сек.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Намалява времето за зареждане на заряд, когато касетата е пълна {colorTagOpen}с {value} сек.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Намалява ускореното време за зареждане на снаряд {colorTagOpen}с още {value} сек.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Повишава броя налични заряди в началото на битката {colorTagOpen}с {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Намалява времето за забавяне на охлаждането на оръдието с {colorTagOpen}{value} сек{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Намалява количеството топлина, генерир
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Увеличава скоростта на охлаждане на загрялото оръдие с {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Намалява времето за презареждане на коаксиалната неуправляема ракета с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Намалява времето за презареждане на коаксиалната неуправляема ракета с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Намалява времето за презареждане на коаксиалната неуправляема ракета с {colorTagOpen}{value} сек{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Повишава пораженията на ракетата с {colorTagOpen}{value} т.{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Увеличава пораженията, причинени от снаряди, които не са ОФ."
@@ -547,6 +589,18 @@ msgstr "Намалява разсейката на оръдието с {colorTag
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Намалява времето за презареждане на оръдието с {colorTagOpen}{value}%{colorTagClose} в режим Бункер."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Повишава максималната скорост напред в режим ВПБ с {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Повишава пораженията, нанасяни от специални снаряди в режим ВПБ с {colorTagOpen}{value} т.{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Повишава пораженията, нанасяни от стандартни снаряди в режим ВПБ с {colorTagOpen}{value} т.{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Намалява времето за презареждане на оръдието в режим ВПБ с {colorTagOpen}{value}%{colorTagClose} (освен ОФ)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Увеличава точките живот на резервоара за гориво и модулите на двигателя на машината ви."
 
@@ -555,6 +609,9 @@ msgstr "Намалява наказанието за повреден боеко
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Увеличава пораженията, които снарядите ви нанасят на модулите на вражеските машини."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Намалява времето, необходимо за превключване между режимите на стрелба, с {colorTagOpen}{value} сек{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Позволява ви да конфигурирате алтернативно зареждане с боеприпаси и снаряжение."
@@ -742,6 +799,18 @@ msgstr "Оптимизация на формата на ядрото"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Разширено място за съхранение на бустери"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Модифициран модул за бавно палене"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Високоефективно течно охлаждане"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Оптика с ниска дивергенция"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Паралелно течно охлаждане"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Устойчивост на окачването"
 
@@ -750,6 +819,12 @@ msgstr "Скорост на ремонт на окачването"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Защита на екипажа"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Регулируема настройка на взривателя: бронебойност"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Регулируема настройка на взривателя: поражения"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Ситуационна разсейка на оръдието"
@@ -928,6 +1003,18 @@ msgstr "Време за презареждане на вътрешната ка�
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Маскировка след изстрел"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Намотка на ротор с висока чистота"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Активно охлаждане на ротора"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Корпус на статора с висока проводимост"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ортоциклично навиване"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Нискотемпературен топлоносител"
 
@@ -936,6 +1023,18 @@ msgstr "Високопроводим термокорпус"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Оптимизация на топлинните тръби"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Оптимизация на цикъла на зареждане"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Оптимизация на цикъла на зареждане"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Оптимизация на цикъла на зареждане"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Подобрено разположение на бойните глави"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Поражения на не-ОФ снаряди"
@@ -1018,6 +1117,18 @@ msgstr "Прецизно балансиран ротор"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Хидравлично задвижван дотиквач"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Подобрени амортисьори на окачването"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Модифицирани специални единични снаряди"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Модифицирани стандартни единични снаряди"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Оптимизиран цикъл на зареждане във ВПБ"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Ускорена устойчивост на селективен модул"
 
@@ -1026,6 +1137,9 @@ msgstr "Селективна защита на модулите"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Повреда на модула на снаряда"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Оптимизирана калибрация"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Окомплектовка на боеприпаси и снаряжение"

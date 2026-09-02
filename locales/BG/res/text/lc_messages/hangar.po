@@ -136,6 +136,24 @@ msgstr[0] "{{count}} победа"
 msgstr[1] "{{count}} победи"
 msgstr[2] "{{count}} победи"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Достъпно за {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Боен опит"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "За да отбележим връщането ви в действие, имаме нещо специално за вас: {{@ style (color #ede6d9e6)}}дневният бонус за връщане в редиците{{/}} повишава бойния опит, печелен за първата ви победа за деня с всяка машина."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Добре дошли обратно, командире!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Бонусът се нулира ежедневно в {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Бонус за връщане в редиците: достъпен"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Щракнете, за да отидете на плейлистите с машините ви"
 

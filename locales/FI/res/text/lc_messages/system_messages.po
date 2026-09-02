@@ -1009,6 +1009,9 @@ msgstr "Miehistön jäsen(t)en koulutus epäonnistui palvelinvirheen vuoksi. Yri
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Virhe lahjaa vastaanotettaessa: palvelinvirhe."
+msgstr "Virhe lahjaa avatessa: palvelinvirhe."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Virhe lahjaa vastaanotettaessa. Ole hyvä ja odota, kunnes edellinen toiminto valmistuu."
+msgstr "Virhe lahjaa avattaessa: ole hyvä ja odota, kunnes edellinen toiminto valmistuu."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
@@ -2383,30 +2386,6 @@ msgstr "Ainutlaatuinen maastokuvio saatu vaunulle %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Ainutlaatuinen maastokuvio vaunulle %(vehicleName)s on saatavilla kaikille seuraavan kansakunnan vaunuille: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Kaikki operaation edistyminen on tallennettu. Voit palata kampanjoihin koska hyvänsä."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "\"%(campaignName1)s\" ja \"%(campaignName2)s\" kampanjat tauotettu"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Tauotettuihin operaatioihin ja niiden tehtäviin on palattu."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "\"%(campaignName1)s\" ja \"%(campaignName2)s\" kampanjoihin palattu"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Kaikki operaation edistyminen on tallennettu. Voit palata kampanjaan koska hyvänsä."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "\"%(campaignName)s\" kampanja tauotettu"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Tauotettuihin operaatioihin on palattu."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "\"%(campaignName)s\" kampanjaan palattu"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s on otettu käyttöön onnistuneesti."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Virhe palkintoja saadessa. Ole hyvä ja yritä myöhemmin uudelleen."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s on otettu käyttöön onnistuneesti."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Virhe palkintoja saadessa. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s on otettu käyttöön onnistuneesti."
 
 msgid "personalMissions/reward/regular/server_error"

@@ -139,15 +139,6 @@ msgstr "Conferita ai giocatori per il loro inestimabile contributo all'evoluzion
 msgid "15YearsOfService_descr"
 msgstr "Sei in gioco dal %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Onorificenza Riserva di PB 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Conferita per il completamento della progressione."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Conferita per i tuoi traguardi nel gioco"
-
 msgid "BPReserveAchievement_2"
 msgstr "Onorificenza Riserva di PB 2"
 
@@ -429,6 +420,15 @@ msgstr "• Conferita per il completamento di tutti e tre i Capitoli."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Conferita per i tuoi traguardi durante la Stagione XX di Pass di battaglia."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Schermaglia in pianura"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Conferita per il completamento di tutti e tre i Capitoli."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Conferita per i tuoi traguardi durante la Stagione XXI di Pass di battaglia."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• La progressione principale è suddivisa in 45 Fasi."
@@ -1828,6 +1828,48 @@ msgstr "Drago d'argento"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Conferita per aver ottenuto almeno 9 Stendardi di Aggressione nell'Anno del Drago in modalità Aggressione."
 
+msgid "comp7_6_1"
+msgstr "Scintilla azzurra"
+
+msgid "comp7_6_1_descr"
+msgstr "Conferita per il completamento di una serie di missioni nella Stagione della Fenice azzurra in modalità Aggressione."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzo della Fenice"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Conferita per aver ottenuto almeno 6 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Campione dell'Anno della Fenice"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Conferita per aver ottenuto almeno 15 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Oro della Fenice"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Conferita per aver ottenuto almeno 12 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Ferro della Fenice"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Conferita per aver ottenuto almeno 3 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Leggenda dell'Anno della Fenice"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Conferita per aver ottenuto almeno 18 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Argento della Fenice"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Conferita per aver ottenuto almeno 9 Stendardi di Aggressione nell'Anno della Fenice in modalità Aggressione."
+
 msgid "conqueror"
 msgstr "Conquistatore %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Disponibile solo in Battaglie Casuali."
 
 msgid "huntsman_descr"
-msgstr "Distruggi tutti i carri leggeri nemici (almeno 3) nel corso di una battaglia."
+msgstr "Distruggi tutti i carri leggeri nemici (almeno 2) nel corso di una battaglia."
 
 msgid "huntsman_heroInfo"
 msgstr "Il Sergente Grigoriy Naydin fu un capocarro di BT-7. Il 25 giugno 1941, nei pressi della città lituana di Rudishkyay, distrusse una colonna corazzata della Wehrmacht, inclusi 15 veicoli e 10 cannoni del 19° Corpo Meccanizzato. Naydin riuscì a bloccare l'avanzata tedesca per due giorni, rendendo possibile l'organizzazione delle difese attorno Vilnius. Per questa impresa, Naydin fu proclamato Eroe dell'Unione Sovietica."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Completa con onore 15 missioni personali per l'Unione. Ricompensa: Performance esemplare: medaglia Unione, III classe."
 
 msgid "readyForBattleAssault"
-msgstr "Performance esemplare: Avanguardia"
+msgstr "Performance Esemplare: Avanguardia del Settore 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Per aver completato tutte le missioni Avanguardia della campagna Settore 3."
+msgstr "Per aver completato tutte le missioni Avanguardia delle operazioni principali della campagna Settore 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Performance esemplare: Avanguardia del Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Per aver completato tutte le missioni Avanguardia dell'operazione del Fossa della campagna Settore 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Performance esemplare: Imboscata del Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Per aver completato tutte le missioni Imboscata dell'operazione del Fossa della campagna Settore 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Performance esemplare: Assistenza del Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Per aver completato tutte le missioni Assistenza dell'operazione del Fossa della campagna Settore 3."
 
 msgid "readyForBattleHT"
 msgstr "Performance Esemplare: Carri Pesanti"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Completa con tutti gli onori 15 missioni personali per A-SMV. Onorificenza: medaglia Performance Esemplare: A-SMV, Classe IV."
 
 msgid "readyForBattleSniper"
-msgstr "Performance esemplare: Imboscata"
+msgstr "Performance esemplare: Imboscata del Settore 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Per aver completato tutte le missioni Imboscata della campagna Settore 3."
+msgstr "Per aver completato tutte le missioni Imboscata delle operazioni principali della campagna Settore 3."
 
 msgid "readyForBattleSupport"
-msgstr "Performance esemplare: Assistenza"
+msgstr "Performance esemplare: Assistenza del Settore 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Per aver completato tutte le missioni Assistenza della campagna Settore 3."
+msgstr "Per aver completato tutte le missioni Assistenza delle operazioni principali della campagna Settore 3."
 
 msgid "reliableComrade"
 msgstr "Compagno di Battaglia"
@@ -4692,6 +4761,15 @@ msgstr "Conferita per aver completato la progressione di Waffenträger: Paradoss
 
 msgid "wt2025progression_descr"
 msgstr "Completa la progressione della modalità Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Cavalcatempesta"
+
+msgid "wt2026progression_condition"
+msgstr "Conferito per aver completato la progressione in Waffenträger: Genesi 2026. Questo onore viene conferito a coloro che hanno affrontato la prima macchina pensante di von Krieger, l'Intelligenza Elettrica, e hanno reciso ogni circuito che le permetteva di raggiungere il nostro mondo."
+
+msgid "wt2026progression_descr"
+msgstr "Completa la progressione in Waffenträger: Genesi 2026."
 
 msgid "wtBossWins"
 msgstr "Padrone del fulmine"

@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Striderna ej tillgängliga på servern %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Säsong Drake Blå börjar: %(date)s"
+msgstr "Säsong Fenix Blå börjar: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Säsong Drake Röd börjar: %(date)s"
+msgstr "Säsong Fenix Röd börjar: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Säsong Drake Grön börjar: %(date)s"
+msgstr "Säsong Fenix Grön börjar: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Väntar på kvalresultat för att avgöra din grad"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Säsong Drake Blå har avslutats"
+msgstr "Säsong Fenix Blå har avslutats"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Säsong Drake Röd har avslutats"
+msgstr "Säsong Fenix Röd har avslutats"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Säsong Drake Grön har avslutats"
+msgstr "Säsong Fenix Grön har avslutats"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Strider tillgängliga på servern om %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Vagnens egenskaper förbättrade"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Återställer träffpoäng"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Inkommande skada ökad"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Vagnens egenskaper förbättrade"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Säsong Drake Blå pågår i %(days)d dag"
-msgstr[1] "Säsong Drake Blå pågår i %(days)d dagar"
-msgstr[2] "Säsong Drake Blå pågår i %(days)d dagar"
+msgstr[0] "Säsong Fenix Blå pågår i %(days)d dag"
+msgstr[1] "Säsong Fenix Blå pågår i %(days)d dagar"
+msgstr[2] "Säsong Fenix Blå pågår i %(days)d dagar"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Säsong Drake Röd pågår i %(days)d dag"
-msgstr[1] "Säsong Drake Röd pågår i %(days)d dagar"
-msgstr[2] "Säsong Drake Röd pågår i %(days)d dagar"
+msgstr[0] "Säsong Fenix Röd pågår i %(days)d dag"
+msgstr[1] "Säsong Fenix Röd pågår i %(days)d dagar"
+msgstr[2] "Säsong Fenix Röd pågår i %(days)d dagar"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Säsong Drake Grön pågår i %(days)d dag"
-msgstr[1] "Säsong Drake Grön pågår i %(days)d dagar"
-msgstr[2] "Säsong Drake Grön pågår i %(days)d dagar"
+msgstr[0] "Säsong Fenix Grön pågår i %(days)d dag"
+msgstr[1] "Säsong Fenix Grön pågår i %(days)d dagar"
+msgstr[2] "Säsong Fenix Grön pågår i %(days)d dagar"
 
 msgid "calendarDay/title"
 msgstr "Schema"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Förmågor"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Pansarstorm. Drakens år"
+msgstr "Pansarstorm: Fenixens år"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nollförmågor"
@@ -574,11 +577,17 @@ msgstr "Uppfattat!"
 msgid "intro/description/banPhase"
 msgstr "Varje lag kan utesluta en vagn helt från en strid. Samarbeta med laget för att utesluta det största hotet, eller för att överraska fienden med en oväntad laguppställning. Om din vagn blir utesluten kan du välja en hyrvagn från ett förutbestämt urval istället."
 
+msgid "intro/description/draw"
+msgstr "När tiden löper ut och inget lag har uppnått en tydlig seger avgörs stridens utgång av utslagskriterier i följande ordning: överlevande vagnar, åsamkad skada och den första utslagna vagnen. Om inget av lagen åsamkat någon skada förklaras striden oavgjord."
+
+msgid "intro/description/nightMaps"
+msgstr "Nattkartor ger en ny upplevelse på välbekanta slagfält med nattliga förhållanden, nya observationsplatser, uppdaterade nyckelpunkter och ändrad spaningsmekanik. För närvarande finns Glaciär, Sand River, Utpost och Stäpp som nattkartor."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Striderna har förändrade regler som påverkar vissa av vagnarnas egenskapsvärden, t.ex träffpoäng, nedkylningstid för förnödenheter, synlighetstid osv."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "När du lyckats erövra vissa områden på kartan kommer du kunna använda taktiska färdigheter. Det finns två sorters nyckelpunkter: Eldledningsplatsen som låter dig leda in artillerield mot en viss position och Sambandsplatsen som låter dig upptäcka fiendevagnar. Förekomst och placering av nyckelpunkterna varierar beroende på kartan."
+msgstr "När du erövrar vissa punkter på kartan får du tillgång till taktiska färdigheter. Det finns två typer av nyckelpunkter: Eldledningsplatser, som låter dig kalla in en riktad attack, och Sambandsplatser, som avslöjar alla fiendens vagnar. Antalet och placeringen av dessa platser varierar från karta till karta."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Utkämpa %(count)s kvalstrider för att avgöra din färdighetsnivå 
 msgstr[2] "Utkämpa %(count)s kvalstrider för att avgöra din färdighetsnivå och grad. När du slutfört dem får du belöningar för din grad och alla tidigare grader.\n\nI kvalet räknas både oavgjort och desertering som förlust."
 
 msgid "intro/description/ranks"
-msgstr "Ett system som representerar en spelares färdighet. Gå upp i grad från Järn till Legend och förtjäna massor av belöningar. Kämpa under hela Drakens år för att få en unik årsbelöning."
+msgstr "Gå upp i grad från Järn till Legend och förtjäna massor av belöningar. Kämpa under hela Fenixens år för att få en unik årsbelöning."
 
 msgid "intro/description/roleSkills"
 msgstr "Alla vagnar har en specialfärdighet med tre laddningsgrader baserat på deras roll. Ju högre laddningsgrad färdigheten har när den aktiveras, desto större verkan har den. Laddningsgraden beror på antalet Prestigepoäng som kan tjänas genom imponerande prestationer i strid, erövrande av nyckelpunkter, användande av taktiska färdigheter osv.\n\nSe stridsreglerna för mer information om olika sätt du kan tjäna Prestigepoäng."
@@ -597,6 +606,12 @@ msgstr "Du kan delta i strider i vagnar klass %(levels)s från teknologiträdet
 
 msgid "intro/title/banPhase"
 msgstr "UTESLUTNA VAGNAR"
+
+msgid "intro/title/draw"
+msgstr "REGLER FÖR OAVGJORT"
+
+msgid "intro/title/nightMaps"
+msgstr "NATTKARTOR"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "FÖRÄNDRINGAR I PANSARSTORM"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "SEGER, TROTS ATT DU"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Befordrad till %(rank)s"
+msgstr "Befordrad till {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Placering: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Nedgraderad till %(rank)s, %(division)s"
+msgstr "Degraderad till {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "befordrad till %(rank)s, %(division)s"
+msgstr "Befordrad till {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Utkämpade strider"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Prestigepoängrekord för säsongen: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Säsong Drake Blå har avslutats på servern %(server)s."
+msgstr "Säsong Fenix Blå har avslutats på servern %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Säsong Drake Röd har avslutats på servern %(server)s."
+msgstr "Säsong Fenix Röd har avslutats på servern %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Säsong Drake Grön har avslutats på servern %(server)s."
+msgstr "Säsong Fenix Grön har avslutats på servern %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Köp"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "KVAL FÖR PANSARSTORM SLUTFÖRT"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "PANSARSTORM, SÄSONG DRAKE BLÅ"
+msgstr "PANSARSTORM, SÄSONG FENIX BLÅ"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "PANSARSTORM, SÄSONG DRAKE RÖD"
+msgstr "PANSARSTORM, SÄSONG FENIX RÖD"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "PANSARSTORM, SÄSONG DRAKE GRÖN"
+msgstr "PANSARSTORM, SÄSONG FENIX GRÖN"
 
 msgid "rewardsScreen/description/year"
-msgstr "PANSARSTORM. DRAKENS ÅR"
+msgstr "PANSARSTORM. FENIXENS ÅR"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Var är min Askbringare?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Avslutas om %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Säsong Drake Blå"
+msgstr "Säsong Fenix Blå"
 
 msgid "seasonName/second"
-msgstr "Säsong Drake Röd"
+msgstr "Säsong Fenix Röd"
 
 msgid "seasonName/third"
-msgstr "Säsong Drake Jade"
+msgstr "Säsong Fenix Grön"
 
 msgid "seasonPointTooltip/header"
 msgstr "Pansarstormfanor"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Placering i tabellen: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "PANSARSTORM. %(seasonNameUpper)s"
+msgstr "PANSARSTORM %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Mottagit %(points)s Pansarstormfanor"
 msgstr[2] "Mottagit %(points)s Pansarstormfanor"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SÄSONG I. DRAKE BLÅ"
+msgstr "SÄSONG I: FENIX BLÅ"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SÄSONG II. DRAKE RÖD"
+msgstr "SÄSONG II: FENIX RÖD"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SÄSONG III. DRAKE GRÖN"
+msgstr "SÄSONG III: FENIX GRÖN"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Segrar: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Striderna blir tillgängliga igen den %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Drake Blå"
+msgstr "Fenix Blå"
 
 msgid "shortSeasonName/second"
-msgstr "Drake Röd"
+msgstr "Fenix Röd"
 
 msgid "shortSeasonName/third"
-msgstr "Drake Grön"
+msgstr "Fenix Grön"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Den här sektionen innehåller information om de bästa spelarna i den pågående säsongen av Pansarstorm."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Visa alla"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Heja på Pansarstorm Legendarserien och fyll prispotten när du köper turneringspaket!"
+msgstr "Om laget du väljer vinner får du ett unikt gyllene PLS 2026-förtjänsttecken. Heja fram ditt favoritlag!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Visa din esportanda med exklusiva temautseenden och unika vagnar!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "En episk uppgörelse väntar då världsmästerskapen i World of Tanks avgöras i Suzhou i Kina och de bästa lagen från hela världen möts i Pansarstorm-strider för att ta hem segern. Känn spänningen när legender föds på slagfältet!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "PLS Säsong 6"
+msgstr "OLS säsong 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Den här säsongen är sista chansen att ta emot värdefulla belöningar, bland annat den exklusiva tunga stridsvagnen Ashbringer, klass X, med alla unika 3D-stilar du låst upp för den, samt en tapper besättning med Vapenbröder som nollförmåga, en häftig 2D-stil och mycket mer. Missa inte chansen, segern väntar på slagfältet!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Ta sista chansen i Drakens år!"
+msgstr "Ta sista chansen i Fenixens år!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SÄSONG DRAKE GRÖN"
+msgstr "SÄSONG FENIX BLÅ"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "NYHETER I PANSARSTORM"
 
 msgid "whatsNewView/button/ok"
-msgstr "Uteslutande bra!"
+msgstr "Släpp lös flammorna!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Den nya stridsresultatsidan har förbättrats med 2.0-design som ger dig mer relevant information för stridstypen du valt."
+msgid "whatsNewView/drawConditions/description"
+msgstr "När tiden löper ut och inget lag har uppnått en tydlig seger avgörs stridens utgång av utslagskriterier i följande ordning: överlevande vagnar, åsamkad skada och den första utslagna vagnen. Om inget av lagen åsamkat någon skada förklaras striden oavgjord."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detaljerat stridsresultat"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Oroa dig inte om din favoritvagn blir utesluten. Hyrvagnar kommer nu komplett med besättning, utrustning, granater och förnödenheter."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Stridsklara hyrvagnar %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Under den här säsongen kan varje lag utesluta en vagn helt från striden. Samarbeta med laget för att utesluta det största hotet, eller för att överraska fienden med en oväntad laguppställning."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Uteslut vagnar %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Villkor för oavgjort uppdaterade {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kartor"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nya vagnar tillgängliga i Pansarstorm"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Version 2.4 introducerar nya roller för lätta stridsvagnar och ombalanserade vagnsegenskaper. Rulla ut och prova själv!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nya roller för lätta stridsvagnar {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nya spelmöjligheter på välbekanta kartor. Nattkartorna har, förutom nattliga förhållanden, nya observationsplatser, nya nyckelpositioner och ändrad spaningsmekanik. Allt detta ändrar stridsflödet och gör uppmärksamhet, tajming och taktiska manövrer viktigare än någonsin."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Nattkartor är här! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "På grund av lågt spelardeltagande har superplutoner stängts av. Vi arbetar på att ta fram alternativa sätt att spela Pansarstorm som lag. Under tiden kommer vi hålla regelbundna 7v7-turneringar."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Inga fler superplutoner {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Hyrvagnar"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Den nya amerikanska medeltunga vagnen Ares 90, klass X, är nu tillgänglig i Pansarstorm med en anpassad rollfärdighet."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Kartor: Erlenberg har tagits bort. Nyckelpunkter på Flygfält har flyttats. Mindre förändringar på Pilsen.\n• Vagnar: Vz. 60S Dravec har tagits bort. Den nya tyska tunga vagnen Kampfpanzer 67 har lagts till."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Uppdaterad rollfärdighet %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 är nu tillgänglig för köp vid grad Silver i Pansarstormaffären."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Uppdatering i affären %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Balansförändringar för säsongen {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EJ TILLGÄNGLIG"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Säsong I. Drake Blå"
+msgstr "Säsong I: Fenix Blå"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Säsong II. Drake Röd"
+msgstr "Säsong II: Fenix Röd"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Säsong III. Drake Grön"
+msgstr "Säsong III: Fenix Grön"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Nuvarande"

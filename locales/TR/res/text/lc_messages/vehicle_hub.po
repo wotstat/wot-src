@@ -34,6 +34,9 @@ msgstr "Top, yükleme ihtiyacı duymadan sürekli ateş edebilir. Her atış ıs
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Savaş alanında hızlı hareket edebilmek için motor gücünü ve azami hızı artırır. Jet takviyeleri, etkinleştirildiğinde manevra kabiliyetini düşürür ve elle kapatılamaz."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır. Farklı mermiler için parametreler, seçilen moda göre değişiklik gösterir ve her mod, farklı savaş durumlarına hızla uyum sağlamanıza olanak tanır."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Bu özel mod etkinleştirildiğinde belirli savaş parametrelerini artırır ve/veya değiştirir. Etkinleştirmek için en iyi zaman, uygun mevzideyken ve düşmana saldırmaya hazırkendir."
 
@@ -82,6 +85,9 @@ msgstr "Termal Aşırı Isınma Kontrollü Otomatik Top"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Jet Takviyeler"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Mermi Kalibrasyon Sistemi"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Kuşatma Modu"
 
@@ -100,8 +106,17 @@ msgstr "Salvo Atış Modu"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Sabit kalarak veya yavaş hareket ederek isabetlilik seviyeleri kazanıp bir sonraki atışınızın hassasiyetini artırırsınız.\nEn yüksek isabetlilik seviyesinde iyi top kullanımına ulaşırsınız, hareket veya kule/gövde dönüşünde dağılım azalır."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mekanizma mermi yüklemeyi anında kısa sabit bir süreye indirir. Her kullanım mermi başına bir şarj yer, şarjlar zamanla yenilenir, şarjör tamken daha hızlı yenilenir. Savaşın başında belirli miktarda şarj vardır."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Bu araç, top kalkanına yerleştirilmiş bir roketatar ile donatılmıştır. Kabiliyeti etkinleştirerek ikincil silah nişangâhına geçin, artından ateş tuşunu kullanarak güdümsüz bir HE roket fırlatın."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Düşmanı mermiyle her vuruşunuzda yükleme verimliliği seviyesi kazanır, topunuzun yükleme hızını geçici olarak takviye edersiniz. Seviyeler her isabet ile birikir. \nBir düşmanını bir mermiyle yok ettiğiniz ek yükleme verimlilik seviyeleri kazanırsınız."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Bu aracın Harici Mühimmat Besleme Modülü, daha fazla hasar veren güçlü, yüksek şarjı olan üniter mermi atışları yapmasını sağlar. Modül aktifken, hareket kabiliyeti ve atış hızı da azalır."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Topunuz yüklüyse, daha yüksek hasar için bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Isı seviyesi ne kadar yüksekse etkisi o kadar büyük olur.\nMaksimum seviyede ateş etmek için birkaç saniyeniz olacak. Ateş etmezseniz geçici olarak ateş edemez hale geleceksiniz."
@@ -142,6 +157,15 @@ msgstr "Sistem zamanla şarj biriktirir; şarj seviyesi ne kadar yüksekse, o ka
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "İstediğiniz anda Sıvı Yakıt Takviyelerini etkinleştirerek en ihtiyaç duyduğunuz anda ani hız kazanın. Takviye ısınır ve tekrar kullanılabilir hale gelmek için soğuması gerekir. Kritik ısı limitini aşarsanız geçici olarak tamamen devreden çıkar."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Görünür bir düşman aracına mermiyle isabet kaydettiğinizde, bir sonraki merminin fünye ayarı değiştirilir. İlk atış düşman zırhını deldiyse, bir sonraki atışın verdiği hasar artar. Delmediyse, bir sonraki atışın delme gücü artar."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır. Farklı mermiler için parametreler, seçilen moda göre değişiklik gösterir ve her mod, farklı savaş durumlarına hızla uyum sağlamanıza olanak tanır."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Cihaz etkinleştirildiğinde, aracınızın önündeki bir sektörü tarıyarak gizlenmiş hedefleri ortaya çıkarıp soğumaya geçer. Tespit edilmemiş bir düşman ortaya çıkarırsa siz de anında tespit edilirsiniz. Kısa bir gecikmeden sonra taramayı elle durdurabilirsiniz."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Birkaç saniye boyunca ivmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileri. Sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz."
 
@@ -166,8 +190,17 @@ msgstr "Bu mekanik modifikasyon, kısa bir süreliğine aracın ivmelenmesini, m
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analog Balistik Hesaplama Cihazı"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Cebri Yükleme Mekanizması"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Eş Eksenli Roketatar"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Yarı Otomatik Cephanelik"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Harici Mühimmat Besleme modu"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termobalistik Aşırı Şarj"
@@ -208,6 +241,15 @@ msgstr "İndüklemeli Sevk Barutu Son Yakıcı"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Sıvı Yakıt Takviyeleri"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Ayarlanabilir Fünye Belirleyici"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Mermi Kalibrasyon Sistemi"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Kızılötesi Arama ve Takip (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Ardışık İtici Roketler"
 
@@ -232,8 +274,17 @@ msgstr "Yüksek Basınçlı Turboşarj Takviyesi"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Bir sonraki atışınızın isabetliliğini artırır, tam kalibrasyonda iyi stabilizasyon sağlar."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Mermi yüklemesini anında kısa, sabit bir süreye indirir."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Ana toptan bağımsız olarak eş eksenli lanerden güdümsüz bir HE roket atar."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Düşman aracına her isabet, sınırlı süre ile top yükleme süresini takviye eder."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Hareket kabiliyetinden feragat ve soğuma süresi karşılığında yüksek hasarlı mermiler atar."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Isı seviyeleri biriktirerek bir sonraki atışınızda düşman araçlarına daha fazla hasar verin."
@@ -274,6 +325,15 @@ msgstr "Sistem, hasarı artırmak için şarj olur. Şarj ne kadar yüksekse, ha
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Takviyeler istenildiği an etkinleştirilerek ani hız artışı sağlanabilir."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Görünür bir düşman aracına isabet kaydetmek bir sonraki merminin hasarını veya delme gücünü artırır."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Topta, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Görüş mesafesini artırır ve dar bir sektörde hareket halindeki ve yeşillik arkasına gizlenmiş araçları tespit eder."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "İvmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileris.s"
 
@@ -298,8 +358,14 @@ msgstr "Motor gücünü, ivmelenmeyi ve azami hızı kısa bir süreliğine art�
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Hareketsiz kalmak veya belirli bir hızın altında hareket etmek, aracınızın Analog Balistik Hesaplama Cihazı kalibre etmesine ve isabet seviyelerini yükseltmesine olanak tanır; bu da bir sonraki atışınızın isabetini artırır. Hız sınırını aşarsanız, hızınızı düşürene kadar isabet seviyelerini yükseltme süreciniz duraklatılır. En yüksek isabet seviyesinde, aracınızın makul top stabilizasyonuna sahiptir, hareket veya kule/gövde dönüşünden kaynaklanan dağılım azalır. Bu etki, ateş edildiğinde ortadan kalkar."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Bu araç, top kalkanına yerleştirilmiş bir roketatar ile donatılmıştır. Kabiliyeti etkinleştirerek ikincil silah nişangâhına geçin, artından ateş tuşunu kullanarak güdümsüz bir HE roket fırlatın."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Görünür bir düşmana mermiyle her isabet kaydettiğinizde yükleme etkinliği seviyesi kazanırsınız ve bu da topunuzun yükleme hızını geçici olarak artırır. Seviyeler her isabetle birikir; bir düşman aracını mermiyle imha ettiğinizde ise ek yükleme etkinliği seviyeleri kazanırsınız."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Bu aracın Harici Mühimmat Besleme Modülü, daha fazla hasar veren güçlü, yüksek şarjı olan üniter mermi atışları yapmasını sağlar. Modül aktifken, hareket kabiliyeti ve atış hızı da azalır."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Topunuz yüklüyse bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Ulaştığınız ısı seviyesi ne kadar yüksek olursa ortalama hasara eklenecek bonus da o kadar fazla olur. Isıtma süreci sırasında mermi değiştiremezsiniz. Maksimum ısı seviyesine ulaştığınızda bir geri sayım başlar. Geri sayım bitmeden ateş etmezseniz birkaç saniye boyunca ateş edemezsiniz."
@@ -340,6 +406,15 @@ msgstr "Sistem zamanla otomatik olarak şarj biriktirir, ateş ederken hasarı y
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Sıvı Yakıt Takviyeleri ani motor gücü sağlayarak savaş alanında konumsal avantaj kazanmanızın yolunu açar ancak aracınızın geri ve dönüş hızlarını büyük ölçüde sınırlar. Yeniden aktivasyon sınırı hariç istediğiniz zaman açıp kapatabilirsiniz. Takviyeler aktifken ısınır ve soğuyana kadar kullanılamaz hale gelir, yani durmaksızın kullanılamaz. Kritik ısı seviyesini aşmak takviyelerin geçici olarak tamamen devre dışı kalmasına yol açar. Hazırlıksız yakalanmamak için hareketlerinizi dikkatle planlayın."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Görünür bir düşman aracına mermiyle isabet kaydedildiğinde, bir sonraki merminin fünye ayarı değiştirilir. İlk atış düşman zırhını deldiyse, bir sonraki atışın verdiği hasar artar. Delmediyse, bir sonraki atışın delme gücü artar."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır. Savaş yükü, atış modları arasında geçiş yapıldığında hangi parametrelerin etkileneceğini gösterir."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Gelişmiş optik cihaz, görüş mesafenizi artırır ve hareket halindeki ya da yeşillik arkasına gizlenmiş araçların tespit edilmesini kolaylaştırır. Etkinleştirildiğinde, aracınızın önündeki dar bir sektörü tarayarak gizli hedefleri ortaya çıkarır, sonra soğumaya geçer. Eğer tespit edilmemiş bir düşmanı ortaya çıkarırsa, siz de anında tespit edilirsiniz. Kısa bir gecikmeden sonra taramayı elle durdurabilirsiniz."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Birkaç saniye boyunca aracın ivmelenmesini, hareket ve manevra kabiliyetini iyileştiren katı yakıt iticileri. Normal jet takviyelerden farklı olarak sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz. Savaş başına çok defa kullanılabilir ancak tekrar etkinleştirmeden önce soğuması gerekir."
 
@@ -363,6 +438,18 @@ msgstr "Bu mekanik modifikasyon, kısa bir süreliğine aracın ivmelenmesini, m
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Gösterilen tüm değerler araç için olabilecek en yüksek değerlerdir. Donanım, yönergeler ve sarf malzemeleri bu değerleri değiştirebilir ancak bu değişiklikler burada yansıtılmamıştır."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibre edilebilir AP mermi"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibre edilebilir APCR mermi"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibre edilebilir HE mermi"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibre edilebilir HEAT mermi"
 
 msgid "characteristics/templates/upTo"
 msgstr "En fazla %(value)%s"

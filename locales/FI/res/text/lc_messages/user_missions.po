@@ -382,11 +382,56 @@ msgstr "Viikoittaiset tehtävät ovat lajitelma tehtäviä, jotka ovat saatavill
 msgid "info_page/main/weekly/title"
 msgstr "Viikoittaiset tehtävät"
 
+msgid "pm/missionState/active"
+msgstr "Aktiivinen"
+
+msgid "pm/missionState/complete"
+msgstr "Tehtäviä suoritettu"
+
+msgid "pm/missionState/improve"
+msgstr "Tuloksen parannus"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Vaihda vaunu"
+
+msgid "pm/no_missions"
+msgstr "Ei aktiivisia tehtäviä valitsemallesi vaunulle"
+
+msgid "pm/tier"
+msgstr "Soveltumaton taso"
+
+msgid "pm/unavailable"
+msgstr "Tehtävä ei ole väliaikaisesti saatavilla"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Valitsemallesi vaunulle ei ole aktiivisia tehtäviä. Ole hyvä ja valitse toinen vaunu."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Tämä tehtävä ei ole saatavilla teknisistä syistä. Pahoittelemme häiriötä."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Valitsemasi vaunu ei täytä aktiivisten operaatioiden tasovaatimuksia. Ole hyvä ja valitse toinen vaunu."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Ei aktiivisia tehtäviä"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Väliaikaisesti pois käytöstä"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Soveltumaton taso"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Kaikki tämän päivän tavalliset tehtävät suoritettu"
 
 msgid "quests/daily_quests/completed"
 msgstr "Kaikki päivittäiset tehtävät suoritettu"
+
+msgid "slider/title/missions"
+msgstr "Tavalliset tehtävät"
+
+msgid "slider/title/personalMissions"
+msgstr "Henkilökohtaiset tehtävät"
 
 msgid "tooltip/common/timer"
 msgstr "Saataville tuloon {{timeLeft}}"

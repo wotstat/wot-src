@@ -4,7 +4,7 @@ from comp7_light.gui.comp7_light_constants import FUNCTIONAL_FLAG
 from comp7_light.helpers.comp7_light_server_settings import Comp7LightServerSettings
 from comp7_light.skeletons.gui.game_control import IComp7LightProgressionController
 from comp7_light_constants import Configs
-from constants import COMP7_LIGHT_SCENE
+from constants import COMP7_LIGHT_SCENE, ROLE_TYPE_TO_LABEL
 from gui.game_control.season_provider import SeasonProvider
 from gui.prb_control.entities.listener import IGlobalListener
 from gui.prb_control.items import ValidationResult
@@ -19,6 +19,7 @@ if typing.TYPE_CHECKING:
     from typing import Optional
     from comp7_light.helpers.comp7_light_server_settings import _Comp7LightConfig
     from gui.shared.gui_items.Vehicle import Vehicle
+    from items.vehicles import VehicleType
     from items.artefacts import Equipment
 
 class Comp7LightController(Notifiable, SeasonProvider, IComp7LightController, IGlobalListener):
@@ -123,10 +124,7 @@ class Comp7LightController(Notifiable, SeasonProvider, IComp7LightController, IG
         if vehicle.level not in config.levels:
             restriction = PRE_QUEUE_RESTRICTION.LIMIT_LEVEL
             ctx = {b'levels': (config.levels)}
-        elif vehicle.type in config.forbiddenClassTags:
-            restriction = PRE_QUEUE_RESTRICTION.LIMIT_VEHICLE_CLASS
-            ctx = {b'forbiddenClass': (vehicle.type)}
-        elif vehicle.compactDescr in config.forbiddenVehTypes:
+        elif vehicle.compactDescr not in config.allowedVehTypes:
             restriction = PRE_QUEUE_RESTRICTION.LIMIT_VEHICLE_TYPE
             ctx = {b'forbiddenType': (vehicle.shortUserName)}
         else:
@@ -160,6 +158,13 @@ class Comp7LightController(Notifiable, SeasonProvider, IComp7LightController, IG
 
     def getPreannouncedSeason(self):
         return
+
+    def getRoleEquipmentKey(self, vehType):
+        roleEquipmentsByVehicle = self.getModeSettings().roleEquipmentsByVehicle
+        vehName = vehType.name.split(b':')[-1]
+        if vehName in roleEquipmentsByVehicle:
+            return vehName
+        return ROLE_TYPE_TO_LABEL[vehType.role]
 
     def getRoleEquipment(self, roleName):
         return self.__roleEquipments.get(roleName, {}).get(b'item')
@@ -238,7 +243,7 @@ class Comp7LightController(Notifiable, SeasonProvider, IComp7LightController, IG
         if not self.__roleEquipmentsCache:
             self.__roleEquipmentsCache = {}
             equipmentsCache = vehicles.g_cache.equipments()
-            roleEquipmentsConfig = self.getModeSettings().roleEquipments
+            roleEquipmentsConfig = dict(self.getModeSettings().roleEquipments, **self.getModeSettings().roleEquipmentsByVehicle)
             for role, equipmentConfig in roleEquipmentsConfig.iteritems():
                 if equipmentConfig[b'equipmentID'] is not None:
                     startCharge = equipmentConfig[b'startCharge']

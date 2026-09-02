@@ -229,23 +229,14 @@ msgstr "pērkot:"
 msgid "battlePassBuyView/descr"
 msgstr "Iegādājoties progresijas posmu, tas uzreiz atbloķē un piešķir jums visas šajā posmā iekļautās balvas."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Šīs balvas tiks sniegtas jums pēc nākošo Stadiju izpildes."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Sekojošās balvas tiks sniegtas jums par %(steps)s Stadijām"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Jūs saņemsiet sekojošās balvas nekavējoties"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Sekojošās balvas tiks sniegta jums par %(steps)s Stadiju"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "TIKS ATSLĒGTAS"
+msgstr "Atbloķēšana nepabeigtos posmos"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "TIKS SAŅEMTAS NEKAVĒJOTIES"
+msgstr "Tūlītēja saņemšana"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktivizēt Kaujas Caurlaides nodaļu."
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "ELITES ĶĒDE"
 
-msgid "chapter/fullName/201"
-msgstr "Apraktais laiks"
+msgid "chapter/fullName/211"
+msgstr "Speciālists"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Kaskadieris"
 
-msgid "chapter/fullName/203"
-msgstr "Tuksneša pavēle"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoiķis"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "APRAKTAIS LAIKS"
+msgid "chapter/fullNameUppercased/211"
+msgstr "Speciālists"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADIERIS"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "TUKSNEŠA PAVĒLE"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIĶIS"
 
 msgid "chapter/title"
 msgstr "NODAĻA %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Misija par ×3 Apkalpes Pieredzi"
 
 msgid "equipCoinBonus"
 msgstr "Komponentes: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D piederumu komplekts"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Komandieris"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Pieejams, kad visas Nodaļas ir pabeigtas. Nodaļas pabeigtas: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Iegūstiet Premium tehniku un ekskluzīvus pielāgošanas elementus."
+msgstr "Dodieties iekšā priekš ekskluzīvām balvām un unikāliem pielāgošanas elementiem."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Kaujas Caurlaide: Far Cry ir klāt!"
+msgstr "Īpašā Nodaļa ir klāt!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Pērc Uzlaboto Caurlaidi priekš vairāk balvām!"
@@ -1114,11 +1102,8 @@ msgstr "Elites Ķēdes %(level)d Stadija"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "pieredze katram izvēlētajam %(nation)s tanka apkalpes loceklim"
 
-msgid "rewardChoice/subTitle"
-msgstr "IZVĒLIETIES JŪSU BALVU"
-
 msgid "rewardChoice/title"
-msgstr "KAUJAS CAURLAIDE"
+msgstr "Izvēlieties savas balvas"
 
 msgid "rewardChoice/titleChapter"
 msgstr "KAUJAS CAURLAIDE: %(chapter)s NODAĻA"
@@ -1129,14 +1114,14 @@ msgstr "KAUJAS CAURLAIDE: %(chapter)s NODAĻA, STADIJA %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Meklējot smiltis"
+msgid "season/fullName/21"
+msgstr "Piezemēts"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "MEKLĒJOT SMILTIS"
+msgid "season/fullNameUppercased/21"
+msgstr "PIEZEMĒTS"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Direktīvas Izvēlei"

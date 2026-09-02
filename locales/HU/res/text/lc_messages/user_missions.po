@@ -382,11 +382,56 @@ msgstr "A heti küldetések egy sor feladatot jelentenek minden héten. Az előr
 msgid "info_page/main/weekly/title"
 msgstr "Heti küldetések"
 
+msgid "pm/missionState/active"
+msgstr "Aktív"
+
+msgid "pm/missionState/complete"
+msgstr "Teljesített küldetések"
+
+msgid "pm/missionState/improve"
+msgstr "Eredmény javítása"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Jármű váltása"
+
+msgid "pm/no_missions"
+msgstr "Nincs aktív küldetés a kiválasztott járművedhez"
+
+msgid "pm/tier"
+msgstr "Nem megfelelő szint"
+
+msgid "pm/unavailable"
+msgstr "A küldetés átmenetileg nem érhető el"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Nincs aktív küldetés a kiválasztott járművedhez. Kérjük, válassz másik járművet."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Ez a küldetés technikai okok miatt átmenetileg nem elérhető. Elnézést kérünk a kellemetlenségért."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "A kiválasztott járműved nem felel meg az aktív műveletekre vonatkozó szintkövetelménynek. Kérjük, válassz egy másik járművet."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Nincs aktív küldetés"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Átmenetileg nem érhető el"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Nem megfelelő szint"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Az összes normál küldetést teljesítetted a mai napra"
 
 msgid "quests/daily_quests/completed"
 msgstr "Az összes napi küldetést teljesítetted"
+
+msgid "slider/title/missions"
+msgstr "Normál küldetések"
+
+msgid "slider/title/personalMissions"
+msgstr "Személyes küldetések"
 
 msgid "tooltip/common/timer"
 msgstr "Elérhető {{timeLeft}} múlva"

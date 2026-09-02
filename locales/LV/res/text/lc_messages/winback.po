@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "AIZVĒRT"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Sapratu!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Iesildīšanās atgādinās jums par spēles pamatiem. Kaujas tiek spēlētas pret datora kontrolētiem tankiem un rezultāti neskaitās klāt jūsu statistikai. Jūs variet iziet no Iesildīšanās jebkurā laikā, lai turpinātu uz Nejaušajām Kaujām."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Iesildīšanās"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Izpildiet misijas, pabeidziet Atpakaļ Cīņā Progresijas Stadijas un saņemiet vērtības spēles balvas. Katra izpildīta Standarta, Premium vai Bonusa Misija skaitās pretī balvai. Misijas var izpildīt Iesildīšanā un Nejaušajās Kaujās."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Izpildiet misijas, pabeidziet Atpakaļ Cīņā Progresijas Stadijas un saņemiet vērtības spēles balvas. Kaujas Caurlaides laikā, Kaujas Caurlaides Punkti tiks pievienoti balvu sarakstam. Misijas var izpildīt Iesildīšanā un Nejaušajās Kaujās."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Atpakaļ Cīņā"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Jūs variet nopelnīt nomas VIII Līmeņa Premium tankus, VI Līmeņa izpētāmus tankus un atlaides tanku izpētei un pirkšanai kā balvu. Pēc Progresijas pabeigšanas jūs saņemsiet galveno balvu."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Balvas"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ATPAKAĻ CĪŅĀ"
-
 msgid "mainRewardTooltip/description"
 msgstr "Pēc Atpakaļ Cīņa Progresijas pabeigšanas jūs saņemsiet:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Galvenā Balva"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Atlaide %(level)s Līmeņa tanka izpētei un pirkšanai"
+msgstr "Atlaide {{level}} līmeņa tanka izpētei un iegādei"
 
 msgid "modeInfoTooltip/description"
 msgstr "Cīņas pret mākslīgā intelekta vadītiem tankiem, kas neietekmē tavu statistiku. Lai uzvarētu, nepieciešams ieņemt ienaidnieka bāzi vai iznīcināt visus pretinieku tankus. Cīņas notiek 15 pret 15 formātā VI–XI līmeņos un 10 pret 10 formātā I–V līmeņos. "
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Iesildīšanās"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Var tikt izvēlēts jebkurš %(level)s Līmeņa izpētāms tanks. Tanks nāk ar izpētītiem moduļiem, apkalpi un Garāžas vietu."
+msgstr "Var izvēlēties jebkuru izpētāmu {{level}} līmeņa tanku. Tanks tiek piegādāts ar izpētītiem moduļiem, ekipāžu un vietu Garāžā."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "%(level)s Līmeņa tanks"
+msgstr "{{level}} līmeņa tanks"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "%(researchDiscount)s atlaide izpētei un %(purchaseDiscount)s atlaide %(level)s Līmeņa tanka pirkšanai. Var tikt izvēlēts jebkurš izpētāms tanks."
+msgstr "{{researchDiscount}} atlaide izpētei un {{purchaseDiscount}} atlaide {{level}} līmeņa tanks iegādei. Var izvēlēties jebkuru izpētāmu tanks."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Atlaide {whiteSpanish_Open} izpētei{whiteSpanish_Close} ir pievienota atlaide no tanka rasējuma fragmentiem. Lielākā pieejamā {whiteSpanish_Open}pirkšanas{whiteSpanish_Close} atlaide tiek piemērota."
+msgstr "Atlaide par {{@ style (color $color)}}izpēti{{/}} tiek pieskaitīta atlaidei no tanks rasējuma fragmentiem. Tiek piemērota lielākā pieejamā {{@ style (color $color)}}iegādes{{/}} atlaide."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Atlaide %(level)s Līmeņa Tankam"
+msgstr "Atlaide {{level}} līmeņa tankam"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Sapratu!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Iesildīšanās atgādinās jums par spēles pamatiem. Kaujas tiek spēlētas pret datora kontrolētiem tankiem un rezultāti neskaitās klāt jūsu statistikai. Jūs variet iziet no Iesildīšanās jebkurā laikā, lai turpinātu uz Nejaušajām Kaujām."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Iesildīšanās"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Izpildiet misijas, pabeidziet Atpakaļ Cīņā Progresijas Stadijas un saņemiet vērtības spēles balvas. Kaujas Caurlaides laikā, Kaujas Caurlaides Punkti tiks pievienoti balvu sarakstam. Misijas var izpildīt Iesildīšanā un Nejaušajās Kaujās."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Izpildiet misijas, pabeidziet Atpakaļ Cīņā Progresijas Stadijas un saņemiet vērtības spēles balvas. Katra izpildīta Standarta, Premium vai Bonusa Misija skaitās pretī balvai. Misijas var izpildīt Iesildīšanā un Nejaušajās Kaujās."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Atpakaļ Cīņā"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Jūs variet nopelnīt nomas VIII Līmeņa Premium tankus, VI Līmeņa izpētāmus tankus un atlaides tanku izpētei un pirkšanai kā balvu. Pēc Progresijas pabeigšanas jūs saņemsiet galveno balvu."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Balvas"
+
+msgid "umgIntroView/title"
+msgstr "ATPAKAĻ CĪŅĀ"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Atlaide %(research)s ir pievienota atlaidei no tanka rasējuma fragmentiem. Lielākā pieejamā %(purchase)s atlaide tiek piemērota."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Iziet no Iesildīšanās?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Atlikušās kaujas: %(battlesCount)s"
+msgstr "Atlikušas kaujas: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Kaujas pret datoru vadītiem tankiem, kas neskaitās klāt jūsu statistikai."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Jūs arī saņēmāt:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s atlaide izpētei un %(priceDiscount)s atlaide pērkot %(level)s Līmeņa tanku"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} atlaide izpētei un {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} atlaide {{level}} līmeņa tanka iegādei"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "%(level)s Līmeņa tanks"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "{{level}} līmeņa tanks"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Atlaide %(level)s Līmeņa tankam"
+msgstr "Atlaide {{level}} līmeņa tankam"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Par Ikdienas Misiju sēriju izpildi"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "PROGRESIJA PABEIGTA"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s atlaide izpētei\nun %(priceDiscount)s atlaide pirkšanai"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} atlaide izpētei un {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} atlaide iegādei"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Garāžā"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Nomāšanas dienas: %(days)s"
+msgstr "Nomas dienu skaits: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Atlaide izpētei un pirkšanai"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Izvēlēties Vēlāk"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Atiestatīt filtru"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Tanka Atlaide"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "%(vehicleLevel)s Līmeņa Tanks"
+msgstr "{{vehicleLevel}} līmeņa tanks"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Sapratu!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Nevar Atvērt Balvu Izvēli"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Jūs izpētījāt visus %(vehicleLevel)s Līmeņa tankus. Jūs tagad variet saņemt nacionālos fragmentus kā balvu."
+msgstr "Jūs esat izpētījis visus {{vehicleLevel}} līmeņa tankus. Tagad kā atlīdzību varat saņemt nacionālo rasējumu fragmentus."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Meklēt pēc nosaukuma"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Parādīts:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Iestatīt pēc Noklusējuma"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Izvēlētās balvas: %(amountRewards)s %(infoIcon)s"
+msgstr "Atlasītās atlīdzības: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Izvēlieties balvas no sniegtajām kategorijām"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nekas nav atrasts. Nomainiet filtru iestatījumus vai atiestatiet tos uz noklusējumu."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s Nacionālais rasējuma fragments{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nacionālā rasējuma fragments{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% atlaide izpētei un %(priceDiscount)s% atlaide pirkšanai)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% atlaide izpētei un {{priceDiscount}}% atlaide iegādei)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Atlaide %(level)s Līmeņa Tankam"
+msgstr "Atlaide {{level}} līmeņa tankam"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Visi izpētītie moduļi, apkalpe un Garāžas vieta)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Visi izpētītie moduļi, apkalpe un vieta garāžā)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "%(level)s Līmeņa tanks"
+msgstr "{{level}} līmeņa tanks"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Noklikšķiniet uz Iegūt pogas, lai saņemtu izvēlētās balvas."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Izvēlētās balvas: %(amountRewards)s"
+msgstr "Atlasītās atlīdzības: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Pirkt"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "IZVĒLIETIES JŪSU BALVU"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "tanku iznīcinātājs"

@@ -880,6 +880,12 @@ msgstr "Додаткові ґрунтозачепи (Клас 3)"
 msgid "gun_balancing_1/name"
 msgstr "Балансування гармати (Тип 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Балансування гармати (Тип 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Модифікація ствола гармати (Тип 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Поліпшена підвіска (Тип 1)"
 msgid "improved_suspension_2/name"
 msgstr "Поліпшена підвіска (Тип 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Поліпшений привод башти (Тип 1)"
+
 msgid "inspire/longDescr"
 msgstr "Додає наснаги екіпажу машини гравця та найближчих союзників у певному радіусі, надаючи бонус у % до основної спеціальності кожного члена екіпажу. Гравець, який застосував уміння, отримає посилений ефект."
 
@@ -1294,6 +1303,9 @@ msgstr "Система підвищення рухливості Т3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Система підвищення рухливості Т3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Полум'ягасник (Тип 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Тимчасово збільшує потужність двигуна вашої техніки на %(enginePowerFactor)s і максимальну швидкість у %(maxSpeedFactor)s рази на %(consumeSeconds)s с."
 
@@ -1347,6 +1359,12 @@ msgstr "За {colorTagOpen}%(delay)d с{colorTagClose} по вибраній в
 
 msgid "poi_artillery_aoe/name"
 msgstr "Артилерійський удар"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Після невеликої затримки освітлювальний сигнальний спалах осяває вибрану область. Техніка супротивника в радіусі його дії залишається виявленою та зазнає підвищеної шкоди.\nСпостережний пункт можна захопити повторно за кілька хвилин."
+
+msgid "poi_illumination_flare/name"
+msgstr "Освітлювальний сигнальний спалах"
 
 msgid "poi_radar/descr"
 msgstr "Під час активації вся техніка супротивника залишатиметься виявленою протягом {colorTagOpen}%(duration)d с{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Полегшений корпус"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Полегшений\nкорпус"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Антиблікове маскування оптики"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Антиблікове маскування фар"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Антиблікове\nмаскування оптики"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Антиблікове\nмаскування фар"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Виносні оглядові прилади"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Електропривод перископа"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Виносні\nоглядові прилади"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Електропривод\nперископа"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Панорамні триплекси"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Панорамні\nтриплекси"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Панорамні триплекси"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Вузькокутовий оглядовий прилад"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Вузькокутовий\nоглядовий прилад"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Нові шестерні наведення"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Нові шестерні наведення"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Електропривод перископа"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Електропривод\nперископа"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Загальне збільшення міцності"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Загальне збільшення\nміцності"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Антиблікове маскування фар"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Антиблікове\nмаскування фар"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Налаштування ежектора"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Налаштування ежектора"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Перерозподіл енергоживлення"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Перерозподіл\nенергоживлення"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Поліпшений наріз гармати"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Поліпшений\nнаріз гармати"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Чутлива оптика"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Чутлива оптика"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Укріплення силового каркаса"
@@ -2424,6 +2490,9 @@ msgstr "Електричний розряд"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Створює зону, в яку б'є низка з %(thunderCount)s електричних розрядів із короткими інтервалами між ними. Кожен завдає {whiteSpanish_Open}%(damage)s од. шкоди{whiteSpanish_Close} й тимчасово зменшує рухливість техніки супротивника в межах зони ураження.\n\n*Перший розряд вдарить за %(delay)s с після активації вміння. Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Заміна торсіонів (Тип 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "На %(duration)s с створює область, у якій показники рухливості усієї техніки супротивників зменшуються на %(vehicleMaxSpeed)s, а час перезаряджання й зведення гармат збільшується на %(gunReloadTime)s."

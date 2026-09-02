@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "STÄNG"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Uppfattat!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Uppvärmningen låter dig fräscha upp dina grundkunskaper i spelet. Striderna utkämpas mot AI-kontrollerade vagnar och resultatet räknas inte till din statistik. Du kan lämna uppvärmningen när som helst och fortsätta med slumpvis matchade strider."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Uppvärmning"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Slutför uppdrag, gå igenom alla delmoment i Tillbaka i strid och få värdefulla belöningar. Varje slutfört standard-, premium- eller bonusuppdrag räknas för belöningen. Uppdrag kan slutföras i uppvärmning eller slumpvis matchade strider."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Slutför uppdrag, gå igenom alla delmoment i Tillbaka i strid och få värdefulla belöningar. Under Stridspass kommer Stridspasspoäng läggas till som belöning. Uppdrag kan slutföras i uppvärmning eller slumpvis matchade strider."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Tillbaka i strid"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Som belöning kan du få hyra av Premiumvagnar klass VIII, forskningsbara vagnar klass VI och rabatt på forskning och köp av vagnar. När alla delmoment slutförts får du huvudbelöningen."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Belöningar"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "TILLBAKA I STRID"
-
 msgid "mainRewardTooltip/description"
 msgstr "När du slutfört alla delmoment i Tillbaka i strid får du:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Huvudbelöning"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Rabatt på forskning och köp av en vagn klass %(level)s"
+msgstr "Rabatt på forskning och köp av en vagn klass {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Strider mot AI-kontrollerade fiender som inte räknas till din statistik. För att vinna behöver du erövra fiendebasen eller förstöra alla fiendevagnar. Striderna utkämpas i formatet 15v15 i klasserna VI–XI eller 10v10 i klasserna I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Uppvärmning"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Vilken forskningsbar vagn klass %(level)s som helst kan väljas. Vagnen kommer med framforskade moduler, en besättning och en garageplats."
+msgstr "Vilken forskningsbar vagn klass {{level}} som helst kan väljas. Vagnen kommer med framforskade moduler, en besättning och en garageplats."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Vagn klass %(level)s"
+msgstr "Vagn klass {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "%(researchDiscount)s rabatt på forskning och %(purchaseDiscount)s rabatt på köp av en vagn klass %(level)s. Vilken forskningsbar vagn som helst kan väljas."
+msgstr "{{researchDiscount}} rabatt på forskning och {{purchaseDiscount}} rabatt på köp av en vagn klass {{level}}. Vilken forskningsbar vagn som helst kan väljas."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Rabatten på {whiteSpanish_Open}forskning{whiteSpanish_Close} räknas samman med rabatten från ritningsfragment för vagnen. För {whiteSpanish_Open}köpet{whiteSpanish_Close} av vagnen räknas den största tillgängliga rabatten."
+msgstr "Rabatten på {{@ style (color $color)}}forskning{{/}} räknas samman med rabatten från ritningsfragment för vagnen. Den största tillgängliga rabatten räknas när du {{@ style (color $color)}}köper{{/}} vagnen."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Rabatt på en vagn klass %(level)s"
+msgstr "Rabatt på en vagn klass {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Uppfattat!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Uppvärmningen låter dig fräscha upp dina grundkunskaper i spelet. Striderna utkämpas mot AI-kontrollerade vagnar och resultatet räknas inte till din statistik. Du kan lämna uppvärmningen när som helst och fortsätta med slumpvis matchade strider."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Uppvärmning"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Slutför uppdrag, gå igenom alla delmoment i Tillbaka i strid och få värdefulla belöningar. Under Stridspass kommer Stridspasspoäng läggas till som belöning. Uppdrag kan slutföras i uppvärmning eller slumpvis matchade strider."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Slutför uppdrag, gå igenom alla delmoment i Tillbaka i strid och få värdefulla belöningar. Varje slutfört standard-, premium- eller bonusuppdrag räknas för belöningen. Uppdrag kan slutföras i uppvärmning eller slumpvis matchade strider."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Tillbaka i strid"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Som belöning kan du få hyra av Premiumvagnar klass VIII, forskningsbara vagnar klass VI och rabatt på forskning och köp av vagnar. När alla delmoment slutförts får du huvudbelöningen."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Belöningar"
+
+msgid "umgIntroView/title"
+msgstr "TILLBAKA I STRID"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Rabatten på %(research)s räknas samman med rabatten från ritningsfragment för vagnen. För %(purchase)s av vagnen räknas den största tillgängliga rabatten."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Lämna uppvärmningen?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Strider som återstår: %(battlesCount)s"
+msgstr "Strider som återstår: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Strider mot AI-kontrollerade motståndare som inte räknas till din statistik."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Du har även fått:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s rabatt på forskning och %(priceDiscount)s rabatt på köp av en vagn klass %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} rabatt på forskning och {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} rabatt på köp av en vagn klass {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Vagn klass %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Vagn klass {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Rabatt på en vagn klass %(level)s"
+msgstr "Rabatt på en vagn klass {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "För slutförandet av en serie dagliga uppdrag"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "ALLA DELMOMENT SLUTFÖRDA"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s rabatt på forskning\n och %(priceDiscount)s rabatt på köp"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} rabatt på forskning och {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} rabatt på köp"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "I garaget"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Hyrtid: %(days)s"
+msgstr "Hyrtid: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Rabatt på forskning och köp"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "{{value}} st"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Välj senare"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Återställ filter"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Vagnsrabatt"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Vagn klass %(vehicleLevel)s"
+msgstr "Vagn klass {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Uppfattat!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Kan inte öppna belöningsval"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Du har forskat fram alla vagnar klass %(vehicleLevel)s. Du kan nu få nationella ritningsfragment som belöning."
+msgstr "Du har forskat fram alla vagnar klass {{vehicleLevel}}. Du kan nu få nationella ritningsfragment som belöning."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Sök efter namn"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Visas:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Grundinställning"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Valda belöningar: %(amountRewards)s %(infoIcon)s"
+msgstr "Valda belöningar: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Välj belöningar från de tillgängliga kategorierna"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Inga sökresultat. Ändra sökfiltret eller återställ standardinställningarna."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s Nationella ritningsfragment{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} nationella ritningsfragment{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% rabatt på forskning och %(priceDiscount)s% rabatt på köp)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% rabatt på forskning och {{priceDiscount}}% rabatt på köp)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Rabatt på en vagn klass %(level)s"
+msgstr "Rabatt på en vagn klass {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Alla moduler framforskade, besättning och garageplats)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Alla moduler framforskade, besättning och garageplats)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Vagn klass %(level)s"
+msgstr "Vagn klass {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Klicka på knappen \"Ta emot\" för att ta emot belöningarna du valt."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Valda belöningar: %(amountRewards)s"
+msgstr "Valda belöningar: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Köp"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "VÄLJ BELÖNING"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "pvkv"

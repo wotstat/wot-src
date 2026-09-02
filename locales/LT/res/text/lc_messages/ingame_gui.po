@@ -700,6 +700,9 @@ msgstr "Zona užimta"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Ugnies zonos žala"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Padaryta žala"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Mašina suremontuota"
 
@@ -741,6 +744,9 @@ msgstr "Žala šūviu"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Ugnies kamuolio žala"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Žala šūviu"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Žala taranu"
@@ -907,6 +913,9 @@ msgstr "Vikšras nepramuštas"
 msgid "hitMarker/wheelBlocked"
 msgstr "Ratukas nepramuštas"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSIMALUS MAŠINOS LYGIS"
 
@@ -1020,6 +1029,21 @@ msgstr "Nėra ką remontuoti, nes prietaisai ir įranga nesugadinti."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] veikia gerai - taisyti nereikia."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Negalima: kasetė pilna."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Negalima: nebeturite sviedinių."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Negalima: neturite užkrovų."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Negalima: užtaisymas beveik baigtas."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Negalite paleisti raketos"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nepavyksta aktyvuoti pagalbinio šautuvo."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Skeveldrinis-fugasinis sviedinys %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Kumuliatyvinis sviedinys %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kritinio pataikymo tikimybė: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "sumažinta"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "padidinta"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "standartinė"
+
 msgid "shells_kinds/params/damage"
 msgstr "Vidutinė žala: %(value)s vnt."
 
@@ -2710,17 +2746,41 @@ msgstr "Žala per sekundę: %(value)s taškai/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Žalos spindulys: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Pilnas / vienos užkrovos"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Įprasta / modifikuota"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Pilna / vienos užkrovos:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standartinė / pakoreguota:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standartinė / kalibruota:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalizavimo kampas: %(value)s laipsn."
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Pramušimo praradimas: %(value)s kas 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Vidutinis pramušimas: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Rikošeto kampas: %(value)s laipsn."
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Sviedinio greitis: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Apkurtinimo trukmė: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "aktyvuosite ISM režimą"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "persijungti į apgulties režimą"
@@ -2745,6 +2805,9 @@ msgstr "aktyvuosite skystojo kuro greitintuvus"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "norėdami aktyvuoti reaktyvinius stiprintuvus"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "pakeisite šaudymo režimą"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "aktyvuosite nuoseklius raketinius greitintuvus"

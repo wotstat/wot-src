@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Tikrai taip!"
 
 msgid "error/description"
-msgstr "Informacija laikinai nepasiekiama. Atsiprašome už nesklandumus. Pabandykite vėliau."
+msgstr "Atsiprašome už nesklandumus. Pabandykite vėliau."
 
 msgid "error/title"
-msgstr "Negalima atidaryti prizų pasirinkimo"
+msgstr "Šis puslapis laikinai nepasiekiamas"
 
 msgid "footer/closeBtn/label"
 msgstr "Pasirinkti vėliau"
@@ -23,7 +23,7 @@ msgstr[1] "Pasirinkite apdovanojimus ir pateiktų kategorijų."
 msgstr[2] "Pasirinkite apdovanojimus ir pateiktų kategorijų."
 
 msgid "footer/okBtn/label"
-msgstr "Pasiimti"
+msgstr "Gauti apdovanojimus"
 
 msgid "footer/rewardsSelected"
 msgstr "Pasirinkti apdovanojimai:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Jau gautas"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Pasiektas limitas daiktų pasirinkimui iš šios kategorijos. Jūs galite tik pakeisti pasirinktus daiktus į kitus."
+msgstr "Jūs pasiekėte maksimalų šio kategorijos daiktų skaičių. Išimkite vieną daiktą, jei norite pasirinkti kitą."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Pasiektas limitas"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Instrukcijos\nįrangai"
@@ -93,6 +93,9 @@ msgstr "Standartinė įranga"
 
 msgid "tabs/items/trophy"
 msgstr "Trofėjinė įranga"
+
+msgid "tooltips/footer/body"
+msgstr "Pasirinkite ir pasiimkite apdovanojimus"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Paspauskite mygtuką Pasiimti, norėdami gauti pasirinktus prizus."

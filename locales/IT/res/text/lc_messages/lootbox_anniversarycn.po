@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Una volta aperte, queste casse potrebbero farti ottenere veicoli, valute di gioco e altre preziose ricompense."
+msgstr "Una volta aperte, queste casse potrebbero farti ottenere veicoli Premium di livello VIII, valute di gioco e altre preziose ricompense."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Una volta aperte, queste casse potrebbero farti ottenere veicoli, valute di gioco, elementi di personalizzazione e altre preziose ricompense."
+msgstr "Una volta aperte, queste casse potrebbero farti ottenere rari veicoli di livello X, valute di gioco e altre preziose ricompense."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Una volta aperte, queste casse potrebbero farti ottenere veicoli, valute di gioco, elementi di personalizzazione e altre preziose ricompense."
+msgstr "Una volta aperte, queste casse potrebbero farti ottenere veicoli Premium di livello IX, valute di gioco e altre preziose ricompense."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Si possono ottenere nella Fabbrica e si possono ricevere aprendo Casse di qualsiasi altro tipo."
+msgstr "Può essere ottenuta come regalo per l'acquisto di articoli nel Negozio Premium, nonché ricevuta quando si aprono casse di qualsiasi altro tipo."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Si può ricevere aprendo casse di qualsiasi altro tipo."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Si può ricevere aprendo casse di qualsiasi altro tipo."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Cassa del bottino"
+msgstr "Cassa celestiale"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Cassa del favore"
+msgstr "Cassa eccelsa"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Cassa del dono"
+msgstr "Cassa aiuto dal cielo"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "CASSA DEL BOTTINO"
+msgstr "CASSA CELESTIALE"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "CASSA DEL FAVORE"
+msgstr "CASSA ECCELSA"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "CASSA DEL DONO"
+msgstr "CASSA AIUTO DAL CIELO"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Si tratta di casse speciali contenenti articoli nuovi ed esclusivi. Possono essere acquistate nella Fabbrica."
+msgstr "Si tratta di casse speciali contenenti veicoli nuovi e unici di livello VIII–X e altre ricompense.\nPuoi ricevere casse come regalo per l'acquisto di articoli nel Negozio Premium, oltre che aprendo casse di qualsiasi altro tipo."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "L'evento terminerà tra"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Al momento, non è possibile aprire o acquistare casse per motivi tecnici. Ci scusiamo per il temporaneo disagio."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Casse benedizione divina temporaneamente non disponibili"
 
 msgid "eventName/lowerCase"
-msgstr "VOLTA DEI SUSSURRI"
+msgstr "Benedizione divina"
 
 msgid "eventName/upperCase"
-msgstr "VOLTA DEI SUSSURRI"
+msgstr "BENEDIZIONE DIVINA"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Se possiedi già tutti i veicoli, riceverai invece una Cassa del favore."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Se non apri tutte le casse prima della fine dell'evento, queste saranno successivamente aperte automaticamente."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Se possiedi già tutti i veicoli delle casse, riceverai una Cassa del favore come ricompensa al posto di un veicolo."
+msgstr "Se possiedi già tutti i veicoli della cassa, riceverai una Cassa eccelsa come ricompensa garantita o al posto di un veicolo trovato."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Ogni %(guaranteed0)s Casse del bottino, %(guaranteed1)s Casse del dono e %(guaranteed2)s Casse del favore contengono un veicolo garantito. Se aprendole non dovessi trovare questo veicolo, allora troverai un veicolo che ancora non possiedi in occasione dell'apertura della %(guaranteed0)sª/%(guaranteed1)sª/%(guaranteed2)sª cassa (a seconda del tipo di cassa). Quando ciò avviene, il contatore si azzera."
+msgstr "Le %(guaranteed0)s Casse celestiali, le %(guaranteed1)s Casse aiuto dal cielo e le %(guaranteed2)s Casse eccelse contengono un veicolo di livello VIII–X garantito. Se aprendole non dovessi trovare questo veicolo, allora troverai un veicolo di livello VIII–X che ancora non possiedi in occasione dell'apertura della %(guaranteed0)sª/%(guaranteed1)sª/%(guaranteed2)sª cassa (a seconda del tipo di cassa). Quando ciò avviene, il contatore si azzera."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Compensazione"
+msgstr "Se vengono ricevuti tutti i veicoli"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Ricompensa garantita"
+msgid "infoPage/header/description"
+msgstr "Apri casse per avere la possibilità di ricevere preziosi articoli di gioco!\nVedi sotto per una lista di possibili ricompense."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Non può essere trovata non più di una ricompensa per gruppo"
+msgid "noBoxesView/description/"
+msgstr "Non possiedi alcuna cassa.\nLe puoi ottenere nel Negozio Premium."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Cassa eccelsa"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Se possiedi già tutti i veicoli della cassa, riceverai una Cassa eccelsa come ricompensa garantita o al posto di un veicolo."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Cassa celestiale"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Cassa eccelsa"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Cassa aiuto dal cielo"

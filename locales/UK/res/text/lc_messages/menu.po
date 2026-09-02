@@ -826,6 +826,9 @@ msgstr "3D-стилі"
 msgid "carousel_tank_filter/ready"
 msgstr "Лише основні"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Розвідка"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Снайпер"
 
@@ -834,9 +837,6 @@ msgstr "Підтримка"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Універсальний"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Колісний"
 
 msgid "centerIsAvailable"
 msgstr "Всі сервіси знову працюють у загальному режимі."
@@ -4159,6 +4159,9 @@ msgstr "Допрацьована система дозаряджання:\nДа�
 msgid "moduleInfo/autoShootGun"
 msgstr "Гармата із системою безперервного вогню"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ця машина оснащена ракетною установкою, вмонтованою в маску гармати. Активуйте вміння, щоб перемкнутися на приціл додаткового озброєння, а потім натисніть кнопку пострілу, щоб запустити некеровану фугасну ракету."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Закрити"
 
@@ -4312,6 +4315,9 @@ msgstr "Час приготування"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "до основної спеціальності та навичок екіпажу"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Імовірність критичного влучення"
+
 msgid "moduleInfo/params/damage"
 msgstr "Шкода"
 
@@ -4342,11 +4348,29 @@ msgstr "Імовірність пожежі після влучення"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Час польоту"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Завжди завдає шкоди в разі влучення в основну броню"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* максимальна дальність польоту снарядів для цієї гармати"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " не залежить від відстані для цього типу снарядів"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", максимальна дальність польоту — 400 м"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " цей тип снарядів починає втрачати пробивну здатність із відстанню після проходження першого екрана"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " залежить від відстані: %(minDist)s–%(maxDist)s метрів"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " цей тип снарядів пробиває екрани як зазвичай, але потім втрачає пробивну здатність у кількості, що дорівнює потрійній товщині екрана"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Максимальна швидкість"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Завжди завдає шкоди в разі влучання в основну броню"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Маса"
@@ -4378,20 +4402,11 @@ msgstr "Міцність"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Дальність стрільби"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* максимальна дальність польоту снарядів для цієї гармати"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Максимальний кут повороту коліс"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Середня шкода з %(dist)s м"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " для цього типу снарядів не залежить від відстані"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", максимальна дальність польоту — 400 м"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Кут нормалізації"
@@ -4399,14 +4414,8 @@ msgstr "Кут нормалізації"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Зниження пробиття"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " цей тип снарядів починає втрачати пробивну здатність із відстанню після проходження першого екрана"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s м"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " залежить від відстані: %(minDist)s–%(maxDist)s метрів"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Середнє пробивання броні (мм) — Відстань"
@@ -4456,9 +4465,6 @@ msgstr "Швидкість повороту"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Множник рознесеної броні"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " цей тип снарядів пробиває екрани як зазвичай, але потім втрачає пробиття у кількості, що дорівнює потрійній товщині екрана"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "×%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Індукційний допалювач снаряда, що підв�
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Реактивні прискорювачі, що підвищують мобільність"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Гармата машини оснащена спеціальними пристроями, що дозволяють змінювати деякі параметри снаряда перед пострілом."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість"
@@ -5284,11 +5293,14 @@ msgstr "Машини з чудовим озброєнням, ефективна 
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Багатофункціональні танки, здатні підлаштовуватися під поточну ситуацію в бою."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Швидкі та маневрені машини, здатні як вести розвідку, так і завдавати шкоди під час стрімких флангових обходів."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Легкі танки-розвідники — це невеликі рухливі машини, створені для виявлення супротивників. Їхні низькі силуети, високе маскування, а також чудова маневреність і висока максимальна швидкість роблять їх майстрами як пасивної, так і активної розвідки, але низька міцність і мала вогнева міць не дозволяють їм надавати значну вогневу підтримку союзникам."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Машини з надзвичайними динамічними характеристиками, повна реалізація яких часто залежить від мапи чи тактичної ситуації."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Легкі танки підтримки використовують свою високу рухливість, чудову маневреність і потужні гармати, щоб швидко змінювати фланги й завдавати значної шкоди, перш ніж відступити в безпечне місце. Хоча в певних ситуаціях вони можуть вести розвідку, їхні великі габарити та погане маскування роблять їх менш ефективними розвідниками, ніж інші легкі танки."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Універсальні легкі танки — це збалансована техніка, здатна як вести розвідку, так і надавати вогневу підтримку союзникам. Хоча вони менш ефективні в розвідці, ніж розвідники, і мають меншу вогневу міць, ніж легкі танки підтримки, збалансовані характеристики універсалів дозволяють їм вправно виконувати обидві ролі та легко пристосовуватися до широкого спектра бойових ситуацій."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Машини з гідним бронюванням, здатні ефективно грати на передовій і протистояти важким танкам супротивника."
@@ -5329,11 +5341,14 @@ msgstr "підтримки"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "універсальний"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Легкий танк розвідки"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Легкий танк підтримки"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "універсальний"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "колісний"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "штурмовий"
@@ -5377,10 +5392,13 @@ msgstr "Важкий танк %(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "Важкий танк %(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
-msgstr "Легкий танк %(groupName)s"
+msgid "roleExp/roleName/role_LT_scout"
+msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "Легкий танк %(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Перезаряджання"
 msgid "tank_params/autoShootClipSec"
 msgstr "(магазин/к-ть)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Прискорене заряджання снарядів"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Час перезаряджання заряду за повного магазина"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Базовий час перезаряджання заряду"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Заряди на початку бою"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Заряди"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Середня шкода (од.)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Розкид на 100 м (м)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Середнє пробивання броні (мм)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Відновлення (с)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Швидкість польоту ракети (м/с)"
+
 msgid "tank_params/avgDamage"
 msgstr "Середня шкода"
 
@@ -6057,6 +6105,21 @@ msgstr "Касета"
 
 msgid "tank_params/burstSec"
 msgstr "(c/шт./шт.)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Середня шкода (од.)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Максимальна швидкість (режим ЗПБ) (км/год)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Скорострільність гармати (постр./хв)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Активація режиму ЗПБ (с)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Деактивація режиму ЗПБ (с)"
 
 msgid "tank_params/chargeTime"
 msgstr "Час залпу"
@@ -6150,6 +6213,12 @@ msgstr "Потужність двигуна (к. с.) (турбо-режим)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Радіус ураження"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Максимальна швидкість (режим ЗПБ) (км/год)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Активація режиму ЗПБ (с)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Час охолодження гармати після пострілу"
@@ -6325,9 +6394,6 @@ msgstr "Прохідність"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Заряд електромеханічного далекоміра (% на сек.) (режим бою, пасивний)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 мм)"
-
 msgid "tank_params/perActivation"
 msgstr "(за активацію)"
 
@@ -6484,8 +6550,20 @@ msgstr "Перезаряджання допоміжного озброєння"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Снаряди допоміжного озброєння"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Скоригована середня шкода снаряда (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Скориговане середнє пробиття снаряда (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Час підготовки стрічки боєприпасів"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Час зміни режиму"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 мм)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Пробиває:"
@@ -6495,6 +6573,36 @@ msgstr "Розкид на 100 м"
 
 msgid "tank_params/shotSpeed"
 msgstr "Швидкість польоту"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Маскування супротивника за рослинністю (нерухомого й рухомого)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Маскування рухомого супротивника"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Початковий час перезаряджання"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Тривалість дії"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Тривалість перезаряджання"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Швидкість повороту башти"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Кінцева ширина сканування"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Початкова ширина сканування"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Тривалість самовиявлення"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Радіус огляду"
 
 msgid "tank_params/speedLimits"
 msgstr "Макс. швидкість / задній хід"

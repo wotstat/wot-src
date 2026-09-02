@@ -46,6 +46,15 @@ msgstr "Permite un procesado más detallado y realista de la destrucción de obj
 msgid "HAVOK_ENABLED/warning"
 msgstr "El ajuste se aplicará en la siguiente batalla, si está desactivado en la actual."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Efectos visuales mejorados"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Activa los efectos visuales mejorados. Desactivar esta opción revierte a los efectos estándar, lo que puede mejorar el rendimiento del juego."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "El ajuste se aplicará en la siguiente batalla, si está desactivado en la actual."
+
 msgid "LANGUAGE_CODE"
 msgstr "es"
 
@@ -175,11 +184,11 @@ msgstr "Habilitar marcas de cadenas y ruedas"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Muestra las marcas de las orugas y las ruedas en el terreno.\n\nNo está disponible con la configuración de gráficos simplificados ni con calidad baja de los calcos."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Ocultar accesorios 3D en modo francotirador"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Visibilidad de efectos y accesorios 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Oculta temporalmente los accesorios 3D del vehículo de la retícula del cañón en el modo francotirador.\n\nReduce la saturación visual y mejora la precisión al apuntar."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ajusta la visibilidad de los efectos y los accesorios 3D cerca del centro de la pantalla para reducir la obstrucción visual al apuntar. La visibilidad de los accesorios 3D solo se ajusta en el modo francotirador.\n\nLos valores más bajos hacen que los efectos y los accesorios 3D sean más transparentes para aumentar la claridad al apuntar."
 
 msgid "WATER_QUALITY"
 msgstr "Calidad del agua"
@@ -1995,6 +2004,15 @@ msgstr "Modo:"
 
 msgid "screenMode/windowed"
 msgstr "En ventana"
+
+msgid "showPrebattleHighlights"
+msgstr "Activar foco"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Muestra una selección de carros visualmente impactantes durante la cuenta atrás previa a la batalla.\n\nSi desactivas, este parámetro, el rendimiento del juego podría mejorar."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Si el ajuste está desactivado en la batalla actual, se activará en la siguiente."
 
 msgid "smoothing/description"
 msgstr "Determina el grado de procesamiento adicional de las líneas delgadas y el contorno de los objetos del juego en la escena del juego. Minimiza el efecto antialising. El contorno de los objetos aparece más neutral."

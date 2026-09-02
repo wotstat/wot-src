@@ -298,8 +298,26 @@ msgstr "Augmente le boost de la puissance du moteur octroyé par les réacteurs 
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Augmente le nombre d'utilisations maximales des réacteurs dans une même bataille de {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Réduit le temps de rechargement initial avant de pouvoir utiliser l'IRST de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Réduit le temps de rechargement avant que l'IRST puisse à nouveau être utilisé de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Réduit la durée pendant laquelle votre véhicule est visible pour les ennemis après les avoir repérés avec l'IRST de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Augmente la durée du scan IRST de {colorTagOpen}{value0} s{colorTagClose} et réduit également le secteur de scan de {colorTagOpen}{value1}°{colorTagClose}, augmente sa portée de vue de {colorTagOpen}{value2}%{colorTagClose}, et réduit la dissimulation des véhicules en mouvement de {colorTagOpen}{value3}%{colorTagClose} et des véhicules derrière la végétation de {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Réduit la probabilité qu'un membre d'équipage soit blessé lorsque le véhicule est endommagé."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Augmente la puissance de pénétration après une non-pénétration de {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Augmente les dégâts après un tir pénétrant de {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Réduit la dispersion du canon lorsque votre canon est endommagé."
@@ -460,6 +478,18 @@ msgstr "Réduit le temps de rechargement entre les obus du chargeur de votre can
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Réduit la probabilité d'être repéré par des véhicules ennemis après avoir tiré."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Réduit le temps de rechargement de la charge quand le chargeur n'est pas plein {colorTagOpen}de {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Réduit le temps de rechargement de la charge quand le chargeur est plein {colorTagOpen}de {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Réduit le temps de chargement accéléré de l'obus {colorTagOpen}de {value} s supplémentaires.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Augmente le nombre de charges disponibles au début de la bataille de {colorTagOpen} {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Réduit la durée du délai de refroidissement du canon de {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Réduit la quantité de chauffe du canon générée par tir de {colorTag
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Augmente la vitesse de refroidissement du canon brûlant de {colorTagOpen}{value} %{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Réduit le temps de rechargement de Lance-roquettes coaxial de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Réduit le temps de rechargement de Lance-roquettes coaxial de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Réduit le temps de rechargement de Lance-roquettes coaxial de {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Augmente les dégâts des roquettes de {colorTagOpen}{value} PS{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Augmente les dégâts infligés par les obus non explosifs."
@@ -547,6 +589,18 @@ msgstr "Réduit la dispersion du canon de {colorTagOpen}{value} %{colorTagClose
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Réduit le temps de rechargement du canon en mode {colorTagOpen}{value} %{colorTagClose} casemate."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Augmente la vitesse maximale en marche avant en mode AME de {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Augmente les dégâts infligés par les obus spéciaux en mode AME de {colorTagOpen}{value} PS{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Augmente les dégâts infligés par les obus standards en mode AME de {colorTagOpen}{value} PS{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Réduit le temps de rechargement du canon en mode AME de {colorTagOpen}{value}%{colorTagClose} (sauf explosifs)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Augmente les points de structure des éléments réservoir et moteur de votre véhicule."
 
@@ -555,6 +609,9 @@ msgstr "Réduit la pénalité d'un râtelier de munitions et d'un moteur endomma
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Augmente les dégâts que vos obus infligent aux éléments des véhicules ennemis."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Réduit le temps mis pour changer de mode de tir de {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Vous permet de configurer un matériel alternatif de munitions et de consommables."
@@ -742,6 +799,18 @@ msgstr "Optimisation de la géométrie du noyau"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Stockage de propulseurs étendu"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Allumeur de maintien modifié"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Refroidissement liquide à hautes performances"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optiques à faible divergence"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Refroidissement liquide simultané"
+
 msgid "tooltips/title/chassisHP"
 msgstr "PS de la suspension"
 
@@ -750,6 +819,12 @@ msgstr "Vitesse de réparation de la suspension"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Protection de l'équipage"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Régleur de fusée ajustable : pénétration"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Régleur de fusée ajustable : dégâts"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Dispersion du canon situationnelle"
@@ -928,6 +1003,18 @@ msgstr "Temps de rechargement entre les tirs"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Dissimulation après avoir tiré"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Bobinage de rotor de haute pureté"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Refroidissement actif du rotor"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Boîtier de stator à haute conductivité"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Bobinage orthocyclique"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Fluide de transfert thermique à basse température"
 
@@ -936,6 +1023,18 @@ msgstr "Boîtier thermique à haute conductivité"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimisation des caloducs"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimisation du cycle de chargement"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimisation du cycle de chargement"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimisation du cycle de chargement"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Disposition améliorée de l'ogive"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Dégâts des obus non explosifs"
@@ -1018,6 +1117,18 @@ msgstr "Rotor équilibré de précision"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Fouloir hydraulique"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Amortisseurs de suspension améliorés"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Obus unitaires spéciaux modifiés"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Obus unitaires standards modifiés"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Cycle de chargement AME optimisé"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Boost de PS des éléments sélectif"
 
@@ -1026,6 +1137,9 @@ msgstr "Protection des éléments sélective"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Dégâts des obus aux éléments"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Recalibrage optimisé"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Matériel de munitions et de consommables"

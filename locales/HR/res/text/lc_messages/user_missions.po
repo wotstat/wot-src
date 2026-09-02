@@ -382,11 +382,56 @@ msgstr "Tjedni zadaci su skup zadaća dostupnih svaki tjedan. Napredak se ažuri
 msgid "info_page/main/weekly/title"
 msgstr "Tjedni zadaci"
 
+msgid "pm/missionState/active"
+msgstr "Aktivno"
+
+msgid "pm/missionState/complete"
+msgstr "Zdaci izvršeni"
+
+msgid "pm/missionState/improve"
+msgstr "Poboljšanje rezultata"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Promjeni vozilo"
+
+msgid "pm/no_missions"
+msgstr "Nema aktivnih zadataka za vaše odabrano vozilo"
+
+msgid "pm/tier"
+msgstr "Neprikladna razina"
+
+msgid "pm/unavailable"
+msgstr "Zadatak privremeno nedostupan"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Nema aktivnih zadataka za vaše odabrano vozilo. Molim, odaberite drugo vozilo."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Ovaj zadatak je privremeno nedostupan iz tehničkih razloga. Ispričavamo se zbog neugodnosti."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Vaše odabrano vozilo ne ispunjava zahtjeve razine za aktivne operacije. Molim, odaberite drugo vozilo."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Nema aktivnih zadataka"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Privremeno nedostupna"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Neprikladna razina"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Svi redovni zadaci za danas izvršeni"
 
 msgid "quests/daily_quests/completed"
 msgstr "Svi dnevni zadaci izvršeni"
+
+msgid "slider/title/missions"
+msgstr "Regularni zadaci"
+
+msgid "slider/title/personalMissions"
+msgstr "Osobni zadaci"
 
 msgid "tooltip/common/timer"
 msgstr "Dostupno za {{timeLeft}}"

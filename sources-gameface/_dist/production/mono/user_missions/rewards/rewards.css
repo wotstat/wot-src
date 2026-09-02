@@ -95,12 +95,13 @@
 .RewardItem_compensation_8d198fdb {
   width: 16rem;
   height: 16rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.compensation") no-repeat center center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.compensation") no-repeat
+    center center/contain;
   position: absolute;
   top: -5%;
   right: -6%;
   z-index: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Rewards_ff779b97 {
   display: flex;

@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "färre träffpoäng"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "långsammare tornrotation, eller kanonrörelser för vagnar med kasemattkonstruktion"
+msgstr "kanonrörelser"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "långsammare tornrotation"
@@ -1325,7 +1325,7 @@ msgid "kpi/bonus/positive/vehicleGunShotDispersion"
 msgstr "ökad siktesspridning under förflyttning och rotation"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
-msgstr "större siktesring efter eldgivning"
+msgstr "siktesring efter eldgivning"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
 msgstr "ökad siktesspridning vid förflyttning"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "extra träffpoäng"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "snabbare tornrotation, eller kanonrotation för vagnar med kasemattkonstruktion"
+msgstr "kanonrörelser"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "snabbare tornrotation"
@@ -2100,6 +2100,51 @@ msgstr " och "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Vagnens externa ammunitionskassett låter dig använda granater med ökad skadeverkan."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Grundvärden i standardläge."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Ändrade värden med extern kassett."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Grundläggande värden för granater med full laddning"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Värden för enkelladdade granater"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Grundläggande värden för granater med full laddning"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Grund"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Värden för enkelladdade granater"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Granattypen är effektiv mot sluttande pansar i kalibrerat läge."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Granattypen är effektiv mot oskiktat pansar i standardläge."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standardläge"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrerat läge"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "I kalibrerat läge kan den här granattypen slå igenom skiktat pansar."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Granattypen är effektiv mot vertikalt pansar i standardläge."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardutrustning i kategorin %(spec)s är mer effektiv på denna plats. Utrustning från andra kategorier ger bara standardeffekt."

@@ -298,8 +298,26 @@ msgstr "Øker motorkraft fra boosterne med {colorTagOpen}{value}%{colorTagClose}
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Øker det maksimale antallet ganger boosterne kan benyttes i en enkeltkamp med {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Reduserer nedkjølingstiden før IRST kan benyttes med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Reduserer nedkjølingstiden før IRST kan benyttes igjen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Reduserer tiden ditt kjøretøy er synlig for fiender etter å ha oppdaget ved hjelp av med IRST med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Forlenger varigheten på IRST skanning med {colorTagOpen}{value0} s{colorTagClose} og gjør skannesektoren smalere med {colorTagOpen}{value1} grader{colorTagClose}, øker dets synsrekkevidde med {colorTagOpen}{value2}%{colorTagClose} og reduserer skjuleevnen på kjøretøy i bevegelse med {colorTagOpen}{value3}%{colorTagClose} samt kjøretøy skjult bak vegetasjon med {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Reduserer sjansen for skade på besetningsmedlemmer når kjøretøyet tar skade."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Øker penetrasjonskraften etter et ikke-penetrerende treff med {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Øker skade etter et penetrerende treff med {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Reduserer skuddspredning når din kanon har skade."
@@ -460,6 +478,18 @@ msgstr "Reduserer ladetiden mellom granater i din kanons magasin."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Reduserer sjansen for å bli oppdaget av fiendtlige kjøretøy ved ildgivning."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Reduserer nedkjølingstiden for ny ladning når klipset ikke er fullt {colorTagOpen}med {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Reduserer nedkjølingstiden for ny ladning når klipset er fullt {colorTagOpen}med {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Reduserer granatladetid {colorTagOpen}med ytterligere {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Øker antall tilgjengelige ladninger som er tilgjengelige ved starten av kampen {colorTagOpen}med {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Reduserer utsettelsen av nedkjølingen med {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Reduserer mengden varme som blir generert per skudd med {colorTagOpen}{v
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Øker nedkjølingshastigheten for kanonen med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Reduserer ladetiden for koaksialt ikke-styrte raketter med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Reduserer ladetiden for koaksialt ikke-styrte raketter med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Reduserer ladetiden for koaksialt ikke-styrte raketter med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Øker mengde skade fra raketter med {colorTagOpen}{value} helsepoeng{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Øker mengde forårsaket skade fra granater som ikke er HE."
@@ -547,6 +589,18 @@ msgstr "Reduserer skuddspredning med {colorTagOpen}{value}%{colorTagClose} i mas
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Reduserer ladetiden med {colorTagOpen}{value}%{colorTagClose} i maskingeværredemodus."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Øker toppfart forover i EAF modus med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Øker mengde skade forårsaket av spesialgranater i EAF modus med {colorTagOpen}{value} helsepoeng{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Øker mengde skade forårsaket av standardgranater i EAF modus med {colorTagOpen}{value} helsepoeng{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Reduserer ladetid i EAF modus med {colorTagOpen}{value}%{colorTagClose} (bortsett fra HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Øker antall helsepoeng for ditt kjøretøys drivstofftank og motormoduler."
 
@@ -555,6 +609,9 @@ msgstr "Reduserer ulempen med skade på ammunisjonsstativ og motor."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Øker mengden skade dine granater forårsaker på fiendtlige kjøretøy sine moduler."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Reduserer tiden det tar å bytte ildmodi med {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Gjør at du kan konfigurere en alternativ oppakning for ammunisjon og forbruksmateriell."
@@ -742,6 +799,18 @@ msgstr "Optimalisering av form på boosterkjernen"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Utvidet kapasitet for boostere"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifisert svak tennsats"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Effektiv væskekjøling"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optikk med lav vinkelspredning"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Parallell væskekjøling"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Helsepoeng for oppheng"
 
@@ -750,6 +819,12 @@ msgstr "Reparasjonshastighet for oppheng"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Besetningsbeskyttelse"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Justerbar tennsats: Penetrasjon"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Justerbar tennsats: Skade"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Skuddspredning avhengig av status"
@@ -928,6 +1003,18 @@ msgstr "Ladetid for indre magasin"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Skjuleevne etter avfyrt skudd"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Rotorvikling med høy renhetsgrad"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktiv rotorkjøling"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Statorkapsling med høy konduktivitet"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortosyklisk vikling"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Lavtemperatur varmeoverføringsvæske"
 
@@ -936,6 +1023,18 @@ msgstr "Høykonduktiv varmeutveksler"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimalisering av varmeutveksling"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimalisering av ladesyklus"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimalisering av ladesyklus"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimalisering av ladesyklus"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Forbedret stridshodedesign"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Skade fra granater som ikke er HE"
@@ -1018,6 +1117,18 @@ msgstr "Presisjonsbalansert rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulisk lademekanisme"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Forbedrede støtdempere"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modifisert spesialammunisjon"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modifisert standardammunisjon"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimalisert EAF ladesyklus"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Boost i helsepoeng for valgt modul"
 
@@ -1026,6 +1137,9 @@ msgstr "Valgbar modulbeskyttelse"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Skade på granatmodul"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimalisert rekalibrering"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Oppakning av ammunisjon og forbruksmateriell"

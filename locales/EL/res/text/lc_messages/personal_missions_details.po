@@ -4028,7 +4028,7 @@ msgid "pm3_10_2_14_title_totalDamagePercent"
 msgstr "Φθορά"
 
 msgid "pm3_10_2_14_title_win"
-msgstr "Νικήστε σε Μάχη"
+msgstr "Νικήστε στη μάχη"
 
 msgid "pm3_10_2_15"
 msgstr "Ενέδρα-15"
@@ -5856,6 +5856,978 @@ msgstr "Φθορά"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Καταστροφές"
+
+msgid "pm4_11_1_1"
+msgstr "Εμπροσθοφυλακή-1"
+
+msgid "pm4_11_1_10"
+msgstr "Εμπροσθοφυλακή-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα που έπληξαν το όχημά σας με βολές"
+
+msgid "pm4_11_1_10_short"
+msgstr "Εμπροσθοφυλακή-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_11"
+msgstr "Εμπροσθοφυλακή-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Καταστρέψτε ένα εχθρικό όχημα με εμβολισμό και επιβιώστε της σύγκρουσης"
+
+msgid "pm4_11_1_11_short"
+msgstr "Εμπροσθοφυλακή-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_12"
+msgstr "Εμπροσθοφυλακή-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_1_12_short"
+msgstr "Εμπροσθοφυλακή-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_13"
+msgstr "Εμπροσθοφυλακή-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Κερδίστε το βραβείο High Caliber"
+
+msgid "pm4_11_1_13_short"
+msgstr "Εμπροσθοφυλακή-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "pm4_11_1_14"
+msgstr "Εμπροσθοφυλακή-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Το άθροισμα της φθοράς που προκαλέσατε, της προσλαμβανόμενης φθοράς και της φθοράς που αποσόβησε η θωράκιση θα πρέπει να είναι %(goal)s HP"
+
+msgid "pm4_11_1_14_short"
+msgstr "Εμπροσθοφυλακή-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_1_15"
+msgstr "Εμπροσθοφυλακή-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα που βρίσκονται εντός του εύρους ορατότητας του οχήματός σας"
+
+msgid "pm4_11_1_15_short"
+msgstr "Εμπροσθοφυλακή-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_16"
+msgstr "Εμπροσθοφυλακή-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Κερδίστε το βραβείο Steel Wall"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_16_short"
+msgstr "Εμπροσθοφυλακή-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_1_17"
+msgstr "Εμπροσθοφυλακή-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Το άθροισμα της φθοράς σε εχθρικά οχήματα και αυτής που αποσόβησε η θωράκιση σε μία μάχη να είναι τουλάχιστον %(vehicleHealthFactor)s φορές μεγαλύτερο από τα hit points του οχήματός σας"
+
+msgid "pm4_11_1_17_short"
+msgstr "Εμπροσθοφυλακή-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Φθορά & Απόκρουση"
+
+msgid "pm4_11_1_18"
+msgstr "Εμπροσθοφυλακή-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε ακινητοποιημένα εχθρικά οχήματα"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_18_short"
+msgstr "Εμπροσθοφυλακή-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_19"
+msgstr "Εμπροσθοφυλακή-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Προκαλέστε με βολές %(goal)s HP φθοράς σε εχθρικά οχήματα της ίδιας ή υψηλότερης βαθμίδας από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα της ίδιας ή υψηλότερης βαθμίδας από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_1_19_short"
+msgstr "Εμπροσθοφυλακή-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά βαρέα άρματα μάχης"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Επιτύχετε %(goal)s βολές που θα προκαλέσουν φθορά σε εχθρικά βαρέα άρματα"
+
+msgid "pm4_11_1_1_short"
+msgstr "Εμπροσθοφυλακή-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_2"
+msgstr "Εμπροσθοφυλακή-2"
+
+msgid "pm4_11_1_20"
+msgstr "Εμπροσθοφυλακή-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(uniqueGoal)s διαφορετικών τύπων"
+
+msgid "pm4_11_1_20_short"
+msgstr "Εμπροσθοφυλακή-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_21"
+msgstr "Εμπροσθοφυλακή-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Το άθροισμα της φθοράς που προκαλέσατε, της προσλαμβανόμενης φθοράς και της φθοράς που αποσόβησε η θωράκιση θα πρέπει να είναι %(goal)s HP"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Προκαλέστε τουλάχιστον το 25%% της συνολικής φθοράς που προκάλεσε η ομάδα σας"
+
+msgid "pm4_11_1_21_short"
+msgstr "Εμπροσθοφυλακή-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(uniqueGoal)s διαφορετικών τύπων"
+
+msgid "pm4_11_1_2_short"
+msgstr "Εμπροσθοφυλακή-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_1_3"
+msgstr "Εμπροσθοφυλακή-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_3_short"
+msgstr "Εμπροσθοφυλακή-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_1_4"
+msgstr "Εμπροσθοφυλακή-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Να αποσοβήσει η θωράκισή σας %(goal)s HP φθοράς όταν το όχημά σας δεν κινείται"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_4_short"
+msgstr "Εμπροσθοφυλακή-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Αποσόβηση Φθοράς"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_5"
+msgstr "Εμπροσθοφυλακή-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Προκαλέστε %(goal)s ΗΡ φθοράς σε εχθρικά οχήματα που βρίσκονται εντός του εύρους ορατότητας του οχήματός σας"
+
+msgid "pm4_11_1_5_short"
+msgstr "Εμπροσθοφυλακή-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_6"
+msgstr "Εμπροσθοφυλακή-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Το άθροισμα της φθοράς σε εχθρικά οχήματα και αυτής που αποσόβησε η θωράκιση σε μία μάχη να είναι τουλάχιστον %(vehicleHealthFactor)s φορές μεγαλύτερο από τα hit points του οχήματός σας"
+
+msgid "pm4_11_1_6_short"
+msgstr "Εμπροσθοφυλακή-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Φθορά & Απόκρουση"
+
+msgid "pm4_11_1_7"
+msgstr "Εμπροσθοφυλακή-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση μεγαλύτερη των %(distanceGreatOrEqual)s μέτρων"
+
+msgid "pm4_11_1_7_short"
+msgstr "Εμπροσθοφυλακή-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_8"
+msgstr "Εμπροσθοφυλακή-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά βαρέα άρματα μάχης"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση τη φθορά σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_8_short"
+msgstr "Εμπροσθοφυλακή-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_1_9"
+msgstr "Εμπροσθοφυλακή-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε ακινητοποιημένα εχθρικά οχήματα"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "pm4_11_1_9_short"
+msgstr "Εμπροσθοφυλακή-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_1"
+msgstr "Ενέδρα-1"
+
+msgid "pm4_11_2_10"
+msgstr "Ενέδρα-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience"
+
+msgid "pm4_11_2_10_short"
+msgstr "Ενέδρα-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_2_11"
+msgstr "Ενέδρα-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Προκαλέστε με βολές %(goal)s HP φθοράς σε κινούμενα εχθρικά οχήματα"
+
+msgid "pm4_11_2_11_short"
+msgstr "Ενέδρα-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_12"
+msgstr "Ενέδρα-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα"
+
+msgid "pm4_11_2_12_short"
+msgstr "Ενέδρα-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_13"
+msgstr "Ενέδρα-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Προκαλέστε τουλάχιστον το 25%% της συνολικής φθοράς που προκάλεσε η ομάδα σας"
+
+msgid "pm4_11_2_13_short"
+msgstr "Ενέδρα-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_14"
+msgstr "Ενέδρα-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Κερδίστε το βραβείο High Caliber"
+
+msgid "pm4_11_2_14_short"
+msgstr "Ενέδρα-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "pm4_11_2_15"
+msgstr "Ενέδρα-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Προκαλέστε %(vehicleHealthFactor)s φορές περισσότερη φθορά από τα hit points του οχήματός σας"
+
+msgid "pm4_11_2_15_short"
+msgstr "Ενέδρα-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_16"
+msgstr "Ενέδρα-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα, προκαλώντας τουλάχιστον %(damageDealt)s HP φθοράς σε αυτά"
+
+msgid "pm4_11_2_16_short"
+msgstr "Ενέδρα-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_17"
+msgstr "Ενέδρα-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα"
+
+msgid "pm4_11_2_17_short"
+msgstr "Ενέδρα-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_18"
+msgstr "Ενέδρα-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα από απόσταση μεγαλύτερη των %(distanceGreatOrEqual)s μέτρων"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience"
+
+msgid "pm4_11_2_18_short"
+msgstr "Ενέδρα-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_2_19"
+msgstr "Ενέδρα-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα, χωρίς προηγουμένως να έχει προκληθεί φθορά στο όχημά σας"
+
+msgid "pm4_11_2_19_short"
+msgstr "Ενέδρα-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Επιτύχετε %(goal)s εύστοχες βολές που θα πετύχουν διάτρηση της θωράκισης"
+
+msgid "pm4_11_2_1_short"
+msgstr "Ενέδρα-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Διατρητικότητα"
+
+msgid "pm4_11_2_2"
+msgstr "Ενέδρα-2"
+
+msgid "pm4_11_2_20"
+msgstr "Ενέδρα-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Προκαλέστε τουλάχιστον το 30%% της συνολικής φθοράς που προκάλεσε η ομάδα σας"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Καταστρέψτε όλα τα εχθρικά οχήματα / καταλάβετε ή υπερασπιστείτε τη βάση"
+
+msgid "pm4_11_2_20_short"
+msgstr "Ενέδρα-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Νικήστε σε μία μάχη"
+
+msgid "pm4_11_2_21"
+msgstr "Ενέδρα-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα"
+
+msgid "pm4_11_2_21_short"
+msgstr "Ενέδρα-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς μέσα στα πρώτα %(timeLimit)s λεπτά της μάχης"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα %(uniqueGoal)s διαφορετικών τύπων"
+
+msgid "pm4_11_2_2_short"
+msgstr "Ενέδρα-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_3"
+msgstr "Ενέδρα-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Καταλάβετε την κορυφαία θέση της ομάδας σας με βάση το κερδισμένο experience"
+
+msgid "pm4_11_2_3_short"
+msgstr "Ενέδρα-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_2_4"
+msgstr "Ενέδρα-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά μέσα άρματα μάχης"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα που βρίσκονται εκτός του εύρους ορατότητας του οχήματός σας"
+
+msgid "pm4_11_2_4_short"
+msgstr "Ενέδρα-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_5"
+msgstr "Ενέδρα-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς, χωρίς να εντοπιστείτε την στιγμή που προκαλείτε τη φθορά"
+
+msgid "pm4_11_2_5_short"
+msgstr "Ενέδρα-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_6"
+msgstr "Ενέδρα-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Το άθροισμα της φθοράς που προκαλέσατε και της φθοράς από δική σας συνεισφορά θα πρέπει να είναι %(goal)s HP"
+
+msgid "pm4_11_2_6_short"
+msgstr "Ενέδρα-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_2_7"
+msgstr "Ενέδρα-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Κερδίστε το βραβείο Tank Sniper"
+
+msgid "pm4_11_2_7_short"
+msgstr "Ενέδρα-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "pm4_11_2_8"
+msgstr "Ενέδρα-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα από απόσταση μεγαλύτερη των %(distanceGreatOrEqual)s μέτρων"
+
+msgid "pm4_11_2_8_short"
+msgstr "Ενέδρα-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_2_9"
+msgstr "Ενέδρα-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε ακινητοποιημένα εχθρικά οχήματα"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Προκαλέστε %(goal)s HP φθοράς"
+
+msgid "pm4_11_2_9_short"
+msgstr "Ενέδρα-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Φθορά"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Φθορά"
+
+msgid "pm4_11_3_1"
+msgstr "Αρωγή-1"
+
+msgid "pm4_11_3_10"
+msgstr "Αρωγή-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Οι συμπαίκτες σας θα πρέπει να προκαλέσουν %(goal)s HP φθοράς σε εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό ή από ακινητοποίησή τους, χωρίς να εντοπιστεί το δικό σας όχημα"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Προκαλέστε σοκ σε εχθρικά μέσα άρματα και αντιαρματικά συνολικής διάρκειας %(goal)s sec. Υπολογίζεται και η δυνητική διάρκεια του σοκ"
+
+msgid "pm4_11_3_10_short"
+msgstr "Αρωγή-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Σοκ"
+
+msgid "pm4_11_3_11"
+msgstr "Αρωγή-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Οι συμπαίκτες σας θα πρέπει να προκαλέσουν %(goal)s HP φθοράς σε εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό, από ακινητοποίησή τους ή από πρόκληση σοκ σε αυτά"
+
+msgid "pm4_11_3_11_short"
+msgstr "Αρωγή-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_12"
+msgstr "Αρωγή-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Οι συμπαίκτες σας θα πρέπει να καταστρέψουν %(goal)s εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό, από ακινητοποίησή τους ή από πρόκληση σοκ σε αυτά"
+
+msgid "pm4_11_3_12_short"
+msgstr "Αρωγή-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_13"
+msgstr "Αρωγή-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Κερδίστε το Παράσημο Μαεστρίας Κλάσης I ή μεγαλύτερο"
+
+msgid "pm4_11_3_13_short"
+msgstr "Αρωγή-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Παράσημο Μαεστρίας"
+
+msgid "pm4_11_3_14"
+msgstr "Αρωγή-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Επιβιώστε στη μάχη"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Καταλάβετε την κορυφαία θέση ανάμεσα στους παίκτες και των 2 ομάδων με βάση το κερδισμένο experience"
+
+msgid "pm4_11_3_14_short"
+msgstr "Αρωγή-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Επιβίωση"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Κορυφαίος Παίκτης"
+
+msgid "pm4_11_3_15"
+msgstr "Αρωγή-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Οι συμπαίκτες σας θα πρέπει να καταστρέψουν %(goal)s εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό, από ακινητοποίησή τους ή από πρόκληση σοκ σε αυτά"
+
+msgid "pm4_11_3_15_short"
+msgstr "Αρωγή-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_16"
+msgstr "Αρωγή-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Προκαλέστε %(goal)s HP φθοράς σε εχθρικά οχήματα ενώ κινείστε με ταχύτητα τουλάχιστον %(attackerMovingSpeedGreaterOrEqual)s km/h"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Καταστρέψτε με βολές %(goal)s κινούμενα εχθρικά οχήματα"
+
+msgid "pm4_11_3_16_short"
+msgstr "Αρωγή-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Φθορά"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_17"
+msgstr "Αρωγή-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Επιβιώστε στη μάχη"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Οι συμπαίκτες σας θα πρέπει να προκαλέσουν %(goal)s HP φθοράς σε εχθρικά οχήματα που είναι σε σοκ ή ακινητοποιημένα από εσάς και επιβιώστε της μάχης"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Η φθορά σε αντιπάλους και η φθορά με συνεισφορά σας θα πρέπει να είναι συνολικά %(goal)s ΗΡ και να επιβιώσετε της μάχης"
+
+msgid "pm4_11_3_17_short"
+msgstr "Αρωγή-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Επιβίωση"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_3_18"
+msgstr "Αρωγή-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα από απόσταση μεγαλύτερη των %(distanceGreatOrEqual)s μέτρων"
+
+msgid "pm4_11_3_18_short"
+msgstr "Αρωγή-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_19"
+msgstr "Αρωγή-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Κερδίστε το Παράσημο Μαεστρίας «Άσσος»"
+
+msgid "pm4_11_3_19_short"
+msgstr "Αρωγή-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Παράσημο Μαεστρίας"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Επιβιώστε στη μάχη"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Καταστρέψτε ένα εχθρικό Α/Κ Πυροβόλο και επιβιώστε της μάχης"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Προκαλέστε σοκ σε εχθρικά οχήματα %(goal)s φορές και επιβιώστε της μάχης"
+
+msgid "pm4_11_3_1_short"
+msgstr "Αρωγή-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Επιβίωση"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Σοκ"
+
+msgid "pm4_11_3_2"
+msgstr "Αρωγή-2"
+
+msgid "pm4_11_3_20"
+msgstr "Αρωγή-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Οι συμπαίκτες σας να προκαλέσουν %(goal)s HP φθοράς με δική σας συνεισφορά από εντοπισμό αντιπάλων, χωρίς οι αντίπαλοι να εντοπίσουν το όχημά σας, σε μία νικηφόρα μάχη"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Προκαλέστε σοκ σε εχθρικά βαρέα άρματα %(goal)s φορές σε μία νικηφόρα μάχη"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Καταστρέψτε όλα τα εχθρικά οχήματα / καταλάβετε ή υπερασπιστείτε τη βάση"
+
+msgid "pm4_11_3_20_short"
+msgstr "Αρωγή-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Σοκ"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Νικήστε σε μία μάχη"
+
+msgid "pm4_11_3_21"
+msgstr "Αρωγή-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Επιβιώστε στη μάχη"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Η φθορά σε αντιπάλους και η φθορά με συνεισφορά σας θα πρέπει να είναι συνολικά %(goal)s ΗΡ"
+
+msgid "pm4_11_3_21_short"
+msgstr "Αρωγή-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Επιβίωση"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Καταστρέψτε 1 εχθρικό ελαφρύ άρμα μάχης"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Προκαλέστε σοκ σε εχθρικά οχήματα συνολικής διάρκειας %(goal)s δευτερολέπτων. Υπολογίζεται και η δυνητική διάρκεια του σοκ"
+
+msgid "pm4_11_3_2_short"
+msgstr "Αρωγή-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Σοκ"
+
+msgid "pm4_11_3_3"
+msgstr "Αρωγή-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Οι συμπαίκτες σας θα πρέπει να προκαλέσουν φθορά σε %(goal)s εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό, από ακινητοποίησή τους ή από πρόκληση σοκ σε αυτά"
+
+msgid "pm4_11_3_3_short"
+msgstr "Αρωγή-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_4"
+msgstr "Αρωγή-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Επιβιώστε στη μάχη"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Εντοπίστε %(goal)s εχθρικά οχήματα και επιβιώστε της μάχης"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Προκαλέσετε σοκ σε %(stunSeveralTargets)s εχθρικά οχήματα με μία και μόνη βολή για %(goal)s φορές και επιβιώστε της μάχης"
+
+msgid "pm4_11_3_4_short"
+msgstr "Αρωγή-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Επιβίωση"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Εντοπισμός"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Σοκ"
+
+msgid "pm4_11_3_5"
+msgstr "Αρωγή-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Κερδίστε το Παράσημο Μαεστρίας Κλάσης II ή μεγαλύτερο"
+
+msgid "pm4_11_3_5_short"
+msgstr "Αρωγή-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Παράσημο Μαεστρίας"
+
+msgid "pm4_11_3_6"
+msgstr "Αρωγή-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Η φθορά σε αντιπάλους και η φθορά με συνεισφορά σας θα πρέπει να είναι συνολικά %(goal)s ΗΡ"
+
+msgid "pm4_11_3_6_short"
+msgstr "Αρωγή-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Σύνθετη Προϋπόθεση"
+
+msgid "pm4_11_3_7"
+msgstr "Αρωγή-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Οι συμπαίκτες σας θα πρέπει να προκαλέσουν %(goal)s HP φθοράς σε εχθρικά οχήματα με δική σας συνεισφορά από εντοπισμό, από ακινητοποίησή τους ή από πρόκληση σοκ σε αυτά"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Καταστρέψτε 1 εχθρικό Α/Κ Πυροβόλο"
+
+msgid "pm4_11_3_7_short"
+msgstr "Αρωγή-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Αρωγή"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_8"
+msgstr "Αρωγή-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα"
+
+msgid "pm4_11_3_8_short"
+msgstr "Αρωγή-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_9"
+msgstr "Αρωγή-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Καταστρέψτε %(goal)s εχθρικά οχήματα από απόσταση όχι μεγαλύτερη των %(distanceShortOrEqual)s μέτρων"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Προκαλέστε σοκ σε εχθρικά μέσα άρματα ή αντιαρματικά %(goal)s φορές"
+
+msgid "pm4_11_3_9_short"
+msgstr "Αρωγή-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Καταστροφή"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Σοκ"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Κάθε αποστολή αυτού του τύπου έχει περιορισμό στον αριθμό των διαθέσιμων προσπαθειών για την εκπλήρωση συγκεκριμένων προϋποθέσεων."
@@ -10345,6 +11317,9 @@ msgstr "Second Front"
 msgid "season_3"
 msgstr "Sector 3"
 
+msgid "season_4"
+msgstr "Sector 3"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Ένα σετ αποστολών για κάθε τύπο οχήματος με κύριο έπαθλο το Αμερικανικό βαρύ άρμα Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Ένα σετ αποστολών για κάθε τύπο οχήματος με τελικό έπαθλο το Γερμανικό μέσο άρμα Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Ένα σετ αποστολών για κάθε τύπο οχήματος με έπαθλο την απόκτηση του Γερμανικού αντιαρματικού StuG IV."

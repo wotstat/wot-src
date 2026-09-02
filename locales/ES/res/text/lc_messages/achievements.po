@@ -139,15 +139,6 @@ msgstr "Se otorga a los jugadores por su valiosa contribución a la evolución d
 msgid "15YearsOfService_descr"
 msgstr "Llevas en el juego desde el %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Logro 1 de la reserva del PB"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Se otorga por completar la progresión."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Se otorga por tus logros en el juego."
-
 msgid "BPReserveAchievement_2"
 msgstr "Logro 2 de la reserva del PB"
 
@@ -429,6 +420,15 @@ msgstr "• Se otorga por completar los tres capítulos."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Se otorga por tus logros durante la temporada XX del Pase de batalla."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Escaramuza en tierras bajas"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Se otorga por completar los tres capítulos."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Se otorga por tus logros durante la temporada XXI del Pase de batalla."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• La progresión principal está compuesta por 45 etapas."
@@ -1828,6 +1828,48 @@ msgstr "Dragón de plata"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Se otorga por conseguir al menos 9 colores de Asedio en el Año del Dragón del modo Asedio."
 
+msgid "comp7_6_1"
+msgstr "Chispa celeste"
+
+msgid "comp7_6_1_descr"
+msgstr "Se otorga por completar una serie de misiones en la Temporada del Fénix celeste del modo Asedio."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Fénix de bronce"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Se otorga por conseguir al menos 6 colores de Asedio en el Año del Fénix del modo Asedio."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Campeón del Año del Fénix"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Se otorga por conseguir al menos 15 colores de Asedio en el Año del Fénix del modo Asedio."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Fénix de oro"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Se otorga por conseguir al menos 12 colores de Asedio en el Año del Fénix del modo Asedio."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Fénix de hierro"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Se otorga por conseguir al menos 3 colores de Asedio en el Año del Fénix del modo Asedio."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Leyenda del Año del Fénix"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Se otorga por conseguir al menos 18 colores de Asedio en el Año del Fénix del modo Asedio."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Fénix de plata"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Se otorga por conseguir al menos 9 colores de Asedio en el Año del Fénix del modo Asedio."
+
 msgid "conqueror"
 msgstr "Capturador %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Solo se puede obtener en batallas aleatorias."
 
 msgid "huntsman_descr"
-msgstr "Destruir todos los carros ligeros enemigos (al menos 3) en el curso de una batalla."
+msgstr "Destruir todos los carros ligeros enemigos (al menos 2) en el curso de una batalla."
 
 msgid "huntsman_heroInfo"
 msgstr "El sargento Grigoriy Naydin fue un comandante de BT-7. El 25 de junio de 1941, cerca de la localidad lituana de Rudishkyay, destruyó una columna acorazada de la Wehrmacht, incluyendo 15 vehículos y 10 cañones del 19.º Cuerpo Mecanizado. Naydin consiguió detener el avance alemán durante 2 días, haciendo posible la organización de las defensas alrededor de Vilnius. Por esta acción, se hizo a Naydin Héroe de la Unión Soviética."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Completar con honores 15 misiones personales para la Unión. Recompensa: Rendimiento ejemplar: Medalla de la Unión, clase III."
 
 msgid "readyForBattleAssault"
-msgstr "Rendimiento ejemplar: Vanguardia"
+msgstr "Rendimiento ejemplar: Vanguardia del Sector 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Por completar todas las misiones de Vanguardia de la campaña «Sector 3»."
+msgstr "Por completar todas las misiones de Vanguardia en las operaciones principales de la campaña «Sector 3»."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Rendimiento ejemplar: Vanguardia de Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Por completar todas las misiones de Vanguardia en la operación Fossa de la campaña «Sector 3»."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Rendimiento ejemplar: Emboscada de Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Por completar todas las misiones de Emboscada de la operación Fossa de la campaña «Sector 3»."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Rendimiento ejemplar: Asistencia de Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Por completar todas las misiones de Asistencia de la operación Fossa de la campaña «Sector 3»."
 
 msgid "readyForBattleHT"
 msgstr "Rendimiento ejemplar: Carros pesados"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Completar con honores 15 misiones personales para AAP Recompensa: Rendimiento ejemplar: Medalla para AAP, clase IV."
 
 msgid "readyForBattleSniper"
-msgstr "Rendimiento ejemplar: Emboscada"
+msgstr "Rendimiento ejemplar: Emboscada del Sector 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Por completar todas las misiones de Emboscada de la campaña «Sector 3»."
+msgstr "Por completar todas las misiones de Emboscada en las operaciones principales de la campaña «Sector 3»."
 
 msgid "readyForBattleSupport"
-msgstr "Rendimiento ejemplar: Asistencia"
+msgstr "Rendimiento ejemplar: Asistencia del Sector 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Por completar todas las misiones de Asistencia de la campaña «Sector 3»."
+msgstr "Por completar todas las misiones de Asistencia en las operaciones principales de la campaña «Sector 3»."
 
 msgid "reliableComrade"
 msgstr "Colega de batalla"
@@ -4692,6 +4761,15 @@ msgstr "Se otorga por completar la progresión de Waffenträger: Paradoja. Este 
 
 msgid "wt2025progression_descr"
 msgstr "Completa la progresión del modo Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Montatormentas"
+
+msgid "wt2026progression_condition"
+msgstr "Se otorga por completar la progresión de «Waffenträger: Génesis 2026». Este honor se concede a quienes se enfrentaron a la primera máquina pensante de von Krieger, la Inteligencia Eléctrica, y cortaron todos los circuitos a través de los cuales llegaba a nuestro mundo."
+
+msgid "wt2026progression_descr"
+msgstr "Completa la progresión en «Waffenträger: Génesis 2026»."
 
 msgid "wtBossWins"
 msgstr "Maestro del relámpago"

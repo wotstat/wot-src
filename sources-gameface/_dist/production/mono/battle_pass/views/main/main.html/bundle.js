@@ -1,1 +1,10089 @@
-import{r as e,j as a,f as t,g as s,n as r,p as n,w as i,o,e as l,x as c,v as d,y as _,z as u,A as m,B as p,C as h,D as b,E as f,F as g,G as v,t as x,H as w,R as C,s as y,I as j,J as N,K as S}from"../../../chunks/vendor.js";import{r as k,d as I,e as P,B,h as A,A as E,k as T,D as L,i as D,c as W,m as O,E as M,G as V,H as z,K as F,L as H,N as $,O as U,P as G,Q as q,R as X,S as Z,V as K,q as Y,W as Q,X as J,Y as ee,Z as ae,_ as te,$ as se,a0 as re,a1 as ne,a2 as ie,a3 as oe,a4 as le,a5 as ce,a6 as de,F as _e,a7 as ue,a8 as me,a9 as pe,z as he,aa as be,ab as fe,u as ge,b as ve,ac as xe,ad as we,ae as Ce,af as ye,ag as je,ah as Ne,ai as Se,aj as ke,f as Ie,y as Pe,ak as Re,al as Be,am as Ae,an as Ee,g as Te,ao as Le,ap as De,aq as We,ar as Oe,as as Me,at as Ve,au as ze,w as Fe,av as He,aw as $e,ax as Ue,ay as Ge,az as qe,aA as Xe,aB as Ze,aC as Ke,aD as Ye,aE as Qe,aF as Je,aG as ea,aH as aa,aI as ta,aJ as sa,aK as ra,aL as na,aM as ia,aN as oa,aO as la,aP as ca,aQ as da,T as _a,aR as ua,aS as ma,aT as pa,aU as ha,aV as ba,aW as fa,aX as ga,aY as va,aZ as xa,a_ as wa,a$ as Ca,b0 as ya,b1 as ja,b2 as Na,b3 as Sa,b4 as ka,b5 as Ia,b6 as Pa,b7 as Ra,b8 as Ba,I as Aa,b9 as Ea,ba as Ta,bb as La,bc as Da,bd as Wa,be as Oa,bf as Ma,bg as Va,bh as za,bi as Fa,bj as Ha,bk as $a,bl as Ua,bm as Ga,l as qa,bn as Xa,bo as Za,bp as Ka,bq as Ya,br as Qa,bs as Ja,bt as et,bu as at,bv as tt,bw as st,s as rt,bx as nt,by as it,bz as ot,bA as lt,bB as ct,bC as dt,bD as _t,bE as ut,bF as mt,bG as pt,bH as ht,bI as bt,bJ as ft,bK as gt,bL as vt,bM as xt,bN as wt,bO as Ct,bP as yt,bQ as jt,bR as Nt,bS as St,bT as kt,bU as It,bV as Pt,bW as Rt,bX as Bt,bY as At,bZ as Et,b_ as Tt,b$ as Lt,c0 as Dt,c1 as Wt,c2 as Ot,J as Mt,U as Vt,c3 as zt,c4 as Ft,v as Ht,c5 as $t,c6 as Ut}from"../../../chunks/lib.js";import{g as Gt,a as qt}from"../../../chunks/filename.js";import{g as Xt,o as Zt,v as Kt,e as Yt,m as Qt,R as Jt,a as es,b as as}from"../../../chunks/utils.js";import{r as ts,T as ss}from"../../../chunks/tankmen_screen.js";import{T as rs}from"../../../chunks/tank_name.js";import{N as ns,T as is}from"../../../chunks/constants.js";/* empty css                    */const os=e.createContext({currentValue:0,prevValue:0,setCurrentValue:e=>{},setPrevValue:e=>{},delta:0,setDelta:e=>{},levelsCount:0,hasMoved:!1,setHasMoved:e=>{},levelPrice:0,levelsToBuy:0,setLevelsToBuy:e=>{},levelsPassed:0,maxValueAchieved:!1,setMaxValueAchieved:e=>{}});function ls(){const a=e.useContext(os);if(!a)throw new Error("use useBPProgressBar must be used within a ProgressBar");return a}function cs({children:t,levelsCount:s,levelPrice:r,levelsPassed:n}){const[i,o]=e.useState(0),[l,c]=e.useState(0),[d,_]=e.useState(0),[u,m]=e.useState(0),[p,h]=e.useState(!1),[b,f]=e.useState(!1),g=e.useMemo(()=>({currentValue:i,prevValue:l,setCurrentValue:o,setPrevValue:c,delta:d,setDelta:_,levelsCount:s,hasMoved:p,setHasMoved:h,levelPrice:r,levelsToBuy:u,setLevelsToBuy:m,levelsPassed:n,maxValueAchieved:b,setMaxValueAchieved:f}),[i,l,o,c,d,_,s,p,h,r,u,m,n,b,f]);return a.jsx(os.Provider,{value:g,children:t})}const ds="BuyButtons_ce6c20b6",_s="BuyButtons_button_8a617f11",us=k.resolve("strings"),ms=({isWalletAvailable:e,onAccept:s,onCancel:r,className:n})=>{const i=I({buttonSize:P.medium},{large:{buttonSize:P.large}}),{maxValueAchieved:o,setMaxValueAchieved:l,levelsToBuy:c}=ls();return a.jsxs("div",{className:t(ds,n),children:[a.jsx(B,{theme:A.primary,size:i.buttonSize,className:_s,onClick:function(){if(!o){l(!0);const e=setTimeout(s,20*c);return()=>clearTimeout(e)}},disabled:!e,children:us.readOrEmpty("battle_pass.battlePassBuyView.confirm.btnBuy")}),a.jsx(B,{theme:A.secondary,size:i.buttonSize,className:_s,onClick:r,children:us.readOrEmpty("battle_pass.battlePassBuyView.btnCancel")})]})},ps={base:"Title_df1cd9e2",chapter:"Title_chapter_4c7a1992",base__transparentChapterName:"Title_base__transparentChapterName_2e63cf3",subTitle:"Title_subTitle_2bbdc239",fadeInWithScale:"Title_fadeInWithScale_2e63cf3",slideUp:"Title_slideUp_2e63cf3",blink:"Title_blink_2e63cf3",scale:"Title_scale_2e63cf3",rotate:"Title_rotate_2e63cf3",windowIn:"Title_windowIn_2e63cf3",fadeOut:"Title_fadeOut_2e63cf3",fadeIn:"Title_fadeIn_2e63cf3"},hs=k.resolve("strings"),bs=({chapter:e,subTitle:s,className:r,type:n="default"})=>a.jsxs("div",{className:t(ps.base,ps[`base__${n}`],r),children:[a.jsx("span",{className:ps.chapter,children:a.jsx(E,{text:hs.readOrEmpty("battle_pass.battlePassBuyLevels.chapter"),binding:{name:hs.readOrEmpty(`battle_pass.chapter.fullName.c_${e}`)}})}),a.jsx("span",{className:ps.subTitle,children:s})]}),[fs,gs]=D()(({observableModel:e})=>{const a={root:e.object(),rewards:e.arrayClone("rewards.items")},t=s(()=>O(a.rewards.get(),M),{equals:W});return{...a,computes:{getRewards:t}}},({externalModel:e})=>({changeSelectedLevels:e.createCallback(e=>({count:e}),"onChangeSelectedLevels"),buy:e.createCallbackNoArgs("onPurchase")}));const vs="Delta_7e5549",xs="Delta_outside_b28c01e5",ws="Delta_outside__increase_91391b24",Cs="Delta_inside_b1b3a5c5",ys="Delta_inside__increase_fcd871c4",js=e.memo(e.forwardRef(function({from:s,step:i,growAnimationConfig:o,shrinkAnimationConfig:l,classNames:c,className:d,steps:_,onState:u,...m},p){const h=e.useRef(null),b=z(),[f,g]=r(()=>({width:0})),[v,x]=r(()=>({width:0})),[w,C]=r(()=>({x:0,width:0})),[y,...j]=_,[N,S]=e.useState(j),[k,I]=e.useState(y??"done"),P=(b.value-s)/b.maxValue,R=F(P);H("delta");const B=$(u??U);e.useEffect(()=>B(k),[k,B]);const A=$(()=>{const[e,...a]=N;e?(I(e),S(a)):I("done")}),E=$(()=>{var e;const a=null==(e=h.current)?void 0:e.parentElement;if(!a)return;const t=a.offsetWidth,r=Math.max(b.value,s),n=s/b.maxValue,i=(r-s)/b.maxValue,o=Math.round(t*n),l=Math.round(t*i);C.start({x:o,width:l,immediate:!0})});return e.useEffect(()=>{if(E(),0===P)return g.set({width:100}),x.set({width:100}),I("done"),void S([])},[P,E,g,x]),e.useEffect(()=>{"growing"===k&&(x.set({width:100}),g.start({from:{width:0},to:{width:100},config:o??G,onRest:A,onStart:()=>R({step:k})})),"shrinking"===k&&(g.set({width:100}),x.start({from:{width:100},to:{width:0},config:l??G,onRest:A,onStart:()=>R({step:k})}))},[k,g,x,o,l,A,R]),a.jsxs(n.div,{...m,ref:q([p,h]),className:t(d,vs),style:{transform:w.x.to(e=>`translateX(${e}px)`),width:w.width.to(e=>`${e}px`)},children:[a.jsxs(n.div,{style:{width:v.width.to(e=>`${e}%`)},className:t(null==c?void 0:c.outside,xs,P>0&&ws),children:[a.jsx(n.div,{style:{width:f.width.to(e=>`${e}%`)},className:t(null==c?void 0:c.inside,Cs,P>0&&ys)}),m.children]}),m.children]})}));const Ns="Pointer_45abb891",Ss="Pointer_9fe9949c",ks="Pointer_pointer__down_925b0a0d",Is={top:"top",down:"down"},Ps=function({position:s=Is.down,maxValueAchieved:r,silent:n=!1,setMaxValueAchieved:i,soundTarget:o,className:l,classNames:c}){const d=e.useRef(!1),_=e.useRef(null),[u,m]=e.useState(!1),p=e.useRef(null),h=e.useRef(null),b=e.useRef(null),f=e.useRef(null),{percentage:g,maxValue:v,setValue:x,value:w,status:C}=z(),{setCurrentValue:y,setPrevValue:j,setHasMoved:N,levelsCount:S,levelsToBuy:k,setLevelsToBuy:I,levelsPassed:P}=ls(),{controls:R}=gs(),B=function(e,a){const t=X(),s=a??"controlled-progress-bar:pointer";return $(({event:a,diff:r=0})=>{if(!e)return"grab"===a?t.play("pointerGrab",{target:s}):"drag"===a?t.play("pointerDrag",{target:s}):"hover"===a?t.play("mouse-enter",{target:s}):"delta"===a&&r>0?t.play("increaseDelta",{target:s}):void 0})}(n,o),A=e.useRef(P),E=Math.round(v/S*1e3)/1e3,L=P/S*v,D=L+E,W=100*g,O=$(()=>m(!1));e.useEffect(()=>{const e=A.current,a=Math.max(0,P-e);let t;if(null===b.current)t=L+E;else{const e=b.current-a*E,s=Math.max(e,E);b.current=s,t=L+s}return t=Math.min(t,v),x(L),y(L),_.current&&cancelAnimationFrame(_.current),_.current=requestAnimationFrame(()=>{x(t),y(t)}),j(L),A.current=P,()=>{_.current&&cancelAnimationFrame(_.current)}},[P,S,v,x,L,y,j,E]);const M=$(e=>{if(!p.current)return;N(!0);const a=p.current.getBoundingClientRect(),t=e.clientX-a.left,s=Math.max(0,Math.min(1,t/a.width))*v,r=Math.round(s/E)*E,n=Math.max(r,D);f.current!==n&&(n!==L&&B({event:"drag"}),f.current=n),x(n),y(n),b.current=n-L});function V(){N(!1),i(!1),m(!0),f.current=w}e.useEffect(()=>{h.current&&(h.current.style.left=`${W}%`)},[W]),e.useEffect(()=>{if(u)return(new Z).add(K(window,"mousemove",e=>M(e))).add(K(window,"mouseup",e=>{M(e),O()})).dispose},[u,M,O]);const F=e=>Math.min(Math.max(e,D),v);return T(Y.ARROW_LEFT,()=>{if(d.current||u||r)return;d.current=!0;const e=F(w-E);x(e),y(e),b.current=e-L,I(Math.round((e-L)*S/100))}),T(Y.ARROW_RIGHT,()=>{if(d.current||u||r)return;d.current=!0;const e=F(w+E);x(e),y(e),b.current=e-L,I(Math.round((e-L)*S/100))}),e.useEffect(()=>{const e=e=>{e.code!==Y.ARROW_LEFT&&e.code!==Y.ARROW_RIGHT||(d.current=!1)};return window.addEventListener("keyup",e),()=>window.removeEventListener("keyup",e)},[]),e.useEffect(()=>{R.changeSelectedLevels(k)},[k,R]),"disabled"===C?null:a.jsxs("div",{ref:p,className:t(Ns,l),onMouseDown:V,onClick:M,children:[a.jsx("div",{ref:h,className:t(Ss,s===Is.down&&ks,null==c?void 0:c.pointer),onMouseDown:e=>{e.stopPropagation(),B({event:"grab"}),V()},onMouseEnter:function(){u||B({event:"hover"})}}),!r&&a.jsx(js,{from:L,steps:["growing"],step:E})]})};Ps.positions=Is;const Rs="LevelSlider_dbac30ca",Bs="LevelSlider_step_fb995ce2",As="LevelSlider_completed_5226098c",Es="LevelSlider_label_aecacc79",Ts="LevelSlider_labelDynamic_a0abcf78",Ls="LevelSlider_hidden_2d711256",Ds=100,Ws=()=>{const s=e.useRef([]),{prevValue:r,currentValue:n,levelsCount:i,hasMoved:o,maxValueAchieved:l,setMaxValueAchieved:c,levelsPassed:d}=ls(),_=i+1,u=Math.round(r*i/Ds),m=Math.round(n*i/Ds);return a.jsx("div",{className:Rs,style:{width:22*i+"rem"},children:a.jsxs(Q,{size:J.large,value:(p=d,h=i,Math.round(p/h*100)),maxValue:Ds,maxValueAchieved:l,children:[a.jsx(Q.Fill,{}),a.jsx(Ps,{maxValueAchieved:l,setMaxValueAchieved:c}),a.jsx(Q.DynamicIndicator,{className:t(n===Ds&&Ls,Ts),staticIndicatorsRefs:s,position:ee.above,transformCurrentValue:e=>function(e,a){const t=V(0,100,e);return Math.floor(t/100*a)}(e,_)}),a.jsx(Q.NumberIndicators,{position:ee.above,count:_,classNames:{step:Bs,completed:As,stepClassNames:{label:Es}},children:e=>e%5==0||e===u&&!l||u===m&&e===m+1?e:void 0})]})});var p,h};var Os=(e=>(e.Active="active",e.Paused="paused",e.Completed="completed",e.NotStarted="notStarted",e))(Os||{}),Ms=(e=>(e.Vehicle="vehicle",e.VehicleStyle="vehicleStyle",e.Style="style",e.Tankman="tankman",e.PostProgression="postProgression",e))(Ms||{});const Vs="RewardsList_61e5d0fd",zs="RewardsList_reward_110a9a1e",Fs="RewardsList_rewardInfo_b223a75b",Hs=i(()=>{const{model:t}=gs(),s=t.computes.getRewards(),{levelsToBuy:r}=ls();return e.useEffect(()=>{ae(re,0)},[r]),a.jsx("div",{className:Vs,children:O(s,(e,t)=>a.jsx("div",{className:zs,"data-id":`${e.id}_${e.bigIcon}_${t}`,children:a.jsx(te,{...Xt(e,se.S180x135),classNames:{info:Fs}})},`${e.id}_${e.bigIcon}_${t}`))})}),$s={base:"Content_c7f39005",buttonWrapper:"Content_buttonWrapper_3596c383",buttonWrapper__active:"Content_buttonWrapper__active_97efd5f3",rewards:"Content_rewards_6623df59",mask:"Content_mask_52164205",mask__top:"Content_mask__top_650e84e9",mask__bottom:"Content_mask__bottom_528835af",mask__both:"Content_mask__both_98f564af",scrollBar:"Content_scrollBar_c1dabd5f",fadeInWithScale:"Content_fadeInWithScale_da09528a",slideUp:"Content_slideUp_da09528a",blink:"Content_blink_da09528a",scale:"Content_scale_da09528a",rotate:"Content_rotate_da09528a",windowIn:"Content_windowIn_da09528a",fadeOut:"Content_fadeOut_da09528a",fadeIn:"Content_fadeIn_da09528a"},Us=i(()=>{const{model:s}=gs(),r=s.computes.getRewards().length,{api:n}=ne(),[i,o]=ie(n);return e.useEffect(()=>{n.recalculateContent()},[r,n]),a.jsxs("div",{className:$s.base,children:[a.jsx(Ws,{}),a.jsxs("div",{className:$s.rewards,children:[a.jsx("div",{className:t($s.mask,$s[`mask__${le(i,o)}`]),children:a.jsx(oe,{children:a.jsx(Hs,{})})}),a.jsx(ce,{classNames:{base:$s.scrollBar}})]})]})}),Gs="Footer_9d3d3a12",qs="Footer_currency_9b510c1c",Xs="Footer_footerLabel_e28c9ab3",Zs="Footer_currencyIcon_cfcb6dcf",Ks=k.resolve("strings"),Ys=()=>{const{currentValue:t,prevValue:s,levelPrice:r,levelsCount:n,setLevelsToBuy:i,levelsToBuy:o,levelsPassed:l}=ls(),c=I({currencySize:de.medium},{large:{currencySize:de.large}});return e.useEffect(()=>{const e=Math.round(s*n/100),a=Math.round(t*n/100);i(a===e?1:a-l)},[s,t,n,i,l]),a.jsxs("div",{className:Gs,children:[a.jsx(_e,{text:Ks.pluralOrEmpty("battle_pass.battlePassBuyLevels.levelsSelected",o),upgradeLegacy:!0,params:{count:o},className:Xs}),a.jsx(ue,{classNames:{base:qs,icon:Zs},type:me.gold,size:c.currencySize,reverse:!0,children:o*r})]})},Qs="App_848b5de0",Js="App_background_d5285348",er="App_shadow_b96f6299",ar="App_content_3a6c6ebb",tr="App_contentContainer_dc3584c8",sr="App_footer_7b1985",rr="App_bottomLip_64987100",nr="App_title_536f5f20",ir=k.resolve("strings"),or=i(()=>{const{model:t,controls:s}=gs(),{isWalletAvailable:r,levelsPassed:n,levelsTotal:i,chapterID:o,levelPrice:l}=t.root.get(),c=pe();(a=>{const t=e.useCallback(e=>{e.altKey||a()},[a]);T(L.ENTER,t)})(s.buy),he(c.goBack),be(Y.SPACE,c.goBack);const d={backgroundImage:`url(${Gt(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general,o)})`};return a.jsx(cs,{levelsCount:i,levelPrice:l,levelsPassed:n,children:a.jsxs("div",{className:Qs,children:[a.jsx("div",{style:d,className:Js}),a.jsx("div",{className:er}),a.jsxs("div",{className:ar,children:[a.jsx(bs,{chapter:o,subTitle:ir.readOrEmpty("battle_pass.battlePassBuyView.descr"),className:nr}),a.jsx("div",{className:tr,children:a.jsx(fe,{children:a.jsx(Us,{})})}),a.jsxs("div",{className:sr,children:[a.jsx("div",{className:rr}),a.jsx(Ys,{}),a.jsx(ms,{onAccept:s.buy,onCancel:c.goBack,isWalletAvailable:r})]})]})]})})}),lr=()=>a.jsx(fs,{options:{rootId:R.aliases.battle_pass.BuyLevels("resId")},children:a.jsx(or,{})}),[cr,dr]=D()(({observableModel:e})=>{const a={levels:e.object(),nowRewards:e.array("nowRewards.items"),futureRewards:e.array("futureRewards.items")},t=s(()=>a.nowRewards.get(),{equals:W}),r=s(()=>a.futureRewards.get(),{equals:W});return{...a,computes:{nowRewards:t,futureRewards:r}}},U),_r="ChapterBackground_69fd488d",ur="ChapterBackground_base__current_fdadf34",mr=({chapter:e,isCurrent:s,customBackgroundStyle:r})=>a.jsx("div",{className:t(_r,s&&ur),style:r||qt(e)}),pr={base:"GroupTitle_10694817",title:"GroupTitle_title_30d20078",iconShadow:"GroupTitle_iconShadow_15df5427",base__now:"GroupTitle_base__now_bdc8a0f5",base__future:"GroupTitle_base__future_bdc8a0f5",icon:"GroupTitle_icon_8cd628dc",titleText:"GroupTitle_titleText_a92b7265",descriptionText:"GroupTitle_descriptionText_bfc23e31",steps:"GroupTitle_steps_fb03b880",fadeInWithScale:"GroupTitle_fadeInWithScale_bdc8a0f5",slideUp:"GroupTitle_slideUp_bdc8a0f5",blink:"GroupTitle_blink_bdc8a0f5",scale:"GroupTitle_scale_bdc8a0f5",rotate:"GroupTitle_rotate_bdc8a0f5",windowIn:"GroupTitle_windowIn_bdc8a0f5",fadeOut:"GroupTitle_fadeOut_bdc8a0f5",fadeIn:"GroupTitle_fadeIn_bdc8a0f5"};var hr=(e=>(e.now="now",e.future="future",e))(hr||{});const br=({description:e,type:s,steps:r="",className:n="",title:i=""})=>a.jsxs("div",{className:t(pr.base,pr[`base__${s}`],n),children:[a.jsx("div",{className:pr.iconShadow}),a.jsxs("div",{className:pr.title,children:[a.jsx("div",{className:pr.icon}),a.jsx("div",{className:pr.titleText,children:i})]}),a.jsx(E,{classMix:pr.descriptionText,text:e,binding:{steps:a.jsx("span",{className:pr.steps,children:r},r)}})]}),fr="GroupRewards_46776305",gr="GroupRewards_item_662b83cb",vr=({rewards:e,className:s})=>{const{breakpoint:r}=ge(),n=r.weight<ve.medium.weight?xe.Small:xe.Big;return a.jsx("div",{className:t(fr,s),children:O(e,(e,t)=>a.jsx("div",{className:gr,children:a.jsx(we,{...Xt(e,n,!0)})},`reward_${t}_${e.name}`))})},xr="RewardsBlock_479e00eb",wr="RewardsBlock_groupTitle_f9f5fbdd",Cr="RewardsBlock_groupRewards_2893db92",yr="RewardsBlock_groupRewards__future_d962e74b",jr=({description:e,iconType:s,steps:r="",rewards:n,className:i="",title:o=""})=>a.jsxs("div",{className:t(xr,i),children:[a.jsx(br,{description:e,type:s,steps:r,className:wr,title:o}),a.jsx(vr,{rewards:n,className:t(Cr,s===hr.future&&yr)})]});var Nr=(e=>(e[e.Idle=0]="Idle",e[e.Start=1]="Start",e[e.Between=2]="Between",e[e.End=3]="End",e))(Nr||{});const Sr={type:"idle"};const kr="ScrollWithLips_b466eb6f",Ir="ScrollWithLips_lip_b541dfde",Pr="ScrollWithLips_lip__top_4610f987",Rr="ScrollWithLips_lip__bottom_1755a6e5",Br="ScrollWithLips_scroll_35d7ef3c",Ar="ScrollWithLips_scroll__loaded_76bcfcc5",Er="ScrollWithLips_topButton_9c4da3a2",Tr="ScrollWithLips_bottomButton_810d617c",Lr="ScrollWithLips_track_a8bacc80",Dr=({className:s,children:r,setVisibleScroll:n})=>{const i=ye();!function(a,t){const{contentRef:s,wrapperRef:r,scrollPosition:n,clampPosition:i,animationScroll:o,events:l,getContainerSize:c,getWrapperSize:d}=a,[_,u]=e.useState(Sr),[m,p]=e.useState(!1);e.useEffect(()=>{const e=s.current;e&&(e.style.cursor=m?"dragging"===_.type?"grabbing":"grab":"default")},[s,m,_.type]),e.useEffect(()=>{if("dragging"!==_.type)return;const e=e=>{const a=s.current,l=r.current;if(!a||!l)return;const c=_.positionFrom-e.screenY,d=_.previousScrollPosition+c;n.start({scrollPosition:i(a,d),from:{scrollPosition:o.scrollPosition.get()},...t})},a=()=>{window.removeEventListener("mousemove",e),u({type:"scrollingToEnd"})};return window.addEventListener("mousemove",e),window.addEventListener("mouseup",a),()=>{window.removeEventListener("mousemove",e),window.removeEventListener("mouseup",a)}},[o.scrollPosition,i,s,_,n,r,t]),e.useEffect(()=>{if("scrollingToEnd"!==_.type)return;const e=()=>{u(Sr)};return o.scrollPosition.idle&&e(),l.on("rest",e),()=>l.off("rest",e)},[o.scrollPosition,_.type,l]),e.useEffect(()=>{const e=s.current;if(!e)return;const a=e=>{0===e.button&&u({type:"dragging",positionFrom:e.screenY,previousScrollPosition:o.scrollPosition.get()})};return e.addEventListener("mousedown",a),()=>e.removeEventListener("mousedown",a)},[o.scrollPosition,s]),e.useEffect(()=>{const e=()=>{const e=c()??0,a=d()??0;p(e>a)};return l.on("resizeHandled",e),l.on("recalculateContent",e),()=>{l.off("resizeHandled",e),l.off("recalculateContent",e)}},[l,c,d])}(i);const o=(a=>{const[t,s]=e.useState(0),{animationScroll:r,getContainerSize:n,getWrapperSize:i,events:o}=a,l=e.useCallback(()=>{const e=r.scrollPosition.get(),a=n()-i();switch(!0){case!a:return s(0);case e<=0:return s(1);case e>=a:return s(3);default:s(2)}},[r.scrollPosition,n,i]);return e.useEffect(()=>((async()=>{await Ce(l)})(),o.on("change",l),()=>o.off("change",l)),[o,l]),e.useEffect(()=>{const e=async()=>{await Zt(),l()};return engine.on("clientResized",e),()=>{engine.off("clientResized",e)}},[l]),t})(i),l=o!==Nr.Idle;return e.useEffect(()=>{n&&n(o!==Nr.Idle)},[n,o]),a.jsxs("div",{className:t(kr,s),children:[o!==Nr.Start&&o!==Nr.Idle&&a.jsx("div",{className:t(Ir,Pr)}),o!==Nr.End&&o!==Nr.Idle&&a.jsx("div",{className:t(Ir,Rr)}),a.jsx(je.Vertical.Default,{api:i,barClassNames:{base:t(Br,l&&Ar),topButton:Er,bottomButton:Tr,track:Lr},children:r})]})},Wr="Content_d0e2f711",Or="Content_mainContent_3c1770a6",Mr="Content_base__noScroll_da09528a",Vr=R.strings.battle_pass.battlePassBuyView.reward,zr=i(()=>{const{model:s}=dr(),{fromLevel:r,toLevel:n,isPurchaseWithLevels:i}=s.levels.get(),o=s.computes.nowRewards(),l=s.computes.futureRewards(),{description:c,completedSteps:d}=((e,a,t)=>t?{description:Vr.descriptionNowRewardsCheckbox()}:e<a?{description:Vr.descriptionNowRewards(),completedSteps:`${e} - ${a}`}:{description:Vr.descriptionNowRewardsSingle(),completedSteps:`${a}`})(r,n,i),[_,u]=e.useState(!1);return a.jsx(Dr,{className:t(Wr,!_&&Mr),setVisibleScroll:u,children:a.jsxs("div",{className:Or,children:[o.length>0&&a.jsx(jr,{description:c,iconType:hr.now,rewards:o,steps:d,title:Vr.titleNowRewards()}),l.length>0&&a.jsx(jr,{description:Vr.descriptionFutureRewards(),iconType:hr.future,rewards:l,title:Vr.titleFutureRewards()})]})})}),Fr="MoreRewards_c02e454c",Hr="MoreRewards_content_16a0f9d5",$r="MoreRewards_background_c0223b52",Ur="MoreRewards_shadow_8f93a270",Gr=i(()=>{const{model:t}=dr(),{chapterID:s}=t.levels.get(),[r,n]=e.useState(!1),i=pe();be(L.ESCAPE,()=>i.goBack()),e.useEffect(()=>{(async()=>{await Zt(),n(!0)})()},[]);const o={backgroundImage:`url(${Gt(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general,s)})`};return a.jsxs("div",{className:Fr,children:[a.jsx("div",{className:$r,children:a.jsx(mr,{chapter:s,isCurrent:!0,customBackgroundStyle:o})}),a.jsx("div",{className:Ur}),r&&a.jsx("div",{className:Hr,children:a.jsx(zr,{})})]})}),qr={base__x60x60:"Emblem_base__x60x60_d8756e36",base__x100x100:"Emblem_base__x100x100_547cf3ad",base__x160x160:"Emblem_base__x160x160_c9c06954",base__x200x200:"Emblem_base__x200x200_2ddeb5ee",base__x240x240:"Emblem_base__x240x240_308c1aa9",base__x360x360:"Emblem_base__x360x360_98f20cf9",shield:"Emblem_shield_451cf2c9",icon:"Emblem_icon_73d84087",shield__x74x74:"Emblem_shield__x74x74_a298d905",shield__x120x120:"Emblem_shield__x120x120_c8aa5234",shield__x200x200:"Emblem_shield__x200x200_f1ed9db0",shield__x260x260:"Emblem_shield__x260x260_ef1c262b",shield__x300x300:"Emblem_shield__x300x300_7c6d6f97",shield__x456x456:"Emblem_shield__x456x456_c818292e",icon__x28x28:"Emblem_icon__x28x28_6ea3e635",icon__x48x48:"Emblem_icon__x48x48_f2526f88",icon__x60x60:"Emblem_icon__x60x60_628dbf9a",icon__x80x80:"Emblem_icon__x80x80_34079478",icon__x100x100:"Emblem_icon__x100x100_e8181a63",icon__x120x120:"Emblem_icon__x120x120_c8aa5234",icon__x160x160:"Emblem_icon__x160x160_aec06e5c",fadeInWithScale:"Emblem_fadeInWithScale_9b4d607c",slideUp:"Emblem_slideUp_9b4d607c",blink:"Emblem_blink_9b4d607c",scale:"Emblem_scale_9b4d607c",rotate:"Emblem_rotate_9b4d607c",windowIn:"Emblem_windowIn_9b4d607c",fadeOut:"Emblem_fadeOut_9b4d607c",fadeIn:"Emblem_fadeIn_9b4d607c"},Xr="x100x100",Zr="x160x160",Kr="x200x200",Yr="x240x240",Qr="x360x360",Jr="x74x74",en="x120x120",an="x200x200",tn="x260x260",sn="x300x300",rn="x456x456",nn="x600x600",on="x912x912",ln="x28x28",cn="x48x48",dn="x60x60",_n="x80x80",un="x100x100",mn="x120x120",pn="x160x160",hn="x240x240",bn="x320x320",fn=k.resolve("images"),gn=function({iconSize:e,shieldSize:s,containerSize:r,chapterID:n,bpPurchased:i,className:o=""}){const l=i?"purchased":"basic",c=String(n).slice(-1),d=s===Jr?en:s===en?tn:s===an?rn:s===tn||s===sn?nn:on,_=e===ln?dn:e===cn?un:e===dn?mn:e===_n?pn:e===un||e===mn?hn:bn,u=fn.readOrEmpty(`battlePass.emblem.shield.c_${n}.${l}.${Ne(s,d)}`,"silent")||fn.readOrEmpty(`battlePass.emblem.shield.default.${l}.${s}`),m=fn.readOrEmpty(`battlePass.emblem.icon.c_${n}.${l}.${Ne(e,_)}`,"silent")||fn.readOrEmpty(`battlePass.emblem.icon.default_${c}.${l}.${e}`);return a.jsxs("div",{className:t(qr.base,qr[`base__${r}`],o),children:[a.jsx("div",{className:t(qr.shield,qr[`shield__${s}`]),style:{backgroundImage:`url(${u})`}}),a.jsx("div",{className:t(qr.icon,qr[`icon__${e}`]),style:{backgroundImage:`url(${n>0?m:fn.readOrEmpty(`battlePass.emblem.icon.not_chosen.${Ne(e,dn)}`)})`}})]})},[vn,xn]=D()(({observableModel:e})=>{const a={root:e.object(),main:e.primitives(["state","shopOfferDiscount","isShopOfferAvailable","isWalletAvailable"]),rewards:e.array("rewards"),chapters:e.array("chapters"),package:e.array("package")},t=s(()=>a.rewards.get().topPriorityRewards.items,{equals:W}),r=s(()=>a.rewards.get().prevTopPriorityRewards.items,{equals:W}),n=s(()=>a.rewards.get().nowRewards.items,{equals:W}),i=s(()=>a.rewards.get().futureRewards.items,{equals:W}),o=s(()=>a.package.get().starterPackRewards.items,{equals:W}),l=s(()=>{const{chapterID:e}=a.package.get(),t=a.chapters.get();return{chapterIDs:[e,...ke(t,({chapterID:a})=>a!==e,({chapterID:e})=>e)],amount:Se(t,({hasStarterPack:e})=>e).length}}),c=s(e=>{var t;return null==(t=Ie(a.chapters.get(),({hasStarterPack:a,chapterID:t})=>a&&t===e))?void 0:t.hasStarterPack}),d=s(()=>Se(a.chapters.get(),({isExtra:e})=>!e));return{...a,computes:{topPriorityRewards:t,prevTopPriorityRewards:r,nowRewards:n,futureRewards:i,starterPackInfo:l,starterPackRewards:o,hasStarterPackInChapter:c,regularChapters:d}}},({model:e,externalModel:a})=>({shopOffer:a.createCallbackNoArgs("onShopOfferClick"),buy:a.createCallbackNoArgs("onBuyClick"),togglePurchaseWithLevels:a.createCallbackNoArgs("onChangePurchaseWithLevels"),closeClick:a.createCallbackNoArgs("onShopOfferClick"),showRewardsClick:a.createCallbackNoArgs("onShowRewardsClick")})),wn="PurchaseBlock_fa4dd8be",Cn="PurchaseBlock_button_3b8b9877",yn="PurchaseBlock_previousPrice_1e77a9b2",jn="PurchaseBlock_currentPrice_c4a7499d",Nn="PurchaseBlock_currency_a51b98a4",Sn="PurchaseBlock_actionLip_63994768",kn=k.resolve("strings"),In=i(function({isPriceUpdateAnimation:e}){const{model:t,controls:s}=xn(),{isWalletAvailable:r}=t.root.get(),{price:n,prevPrice:i}=t.package.get(),o=I({currencySize:de.medium,buttonSize:P.small},{medium:{currencySize:de.extraLarge,buttonSize:P.large}});return a.jsxs("div",{className:wn,children:[a.jsx("div",{className:Sn}),e?a.jsx("div",{className:yn,children:a.jsx(ue,{classNames:{base:Nn},type:me.gold,size:o.currencySize,children:i})}):a.jsx("div",{className:jn,children:a.jsx(ue,{classNames:{base:Nn},type:me.gold,size:o.currencySize,children:n})}),a.jsx(B,{theme:A.primary,size:o.buttonSize,className:Cn,onClick:s.buy,disabled:!r,"data-test-id":"buyButton",children:kn.readOrEmpty("battle_pass.battlePassBuyView.confirm.btnBuy")})]})}),Pn="DiscountIcon_932f671c",Rn="DiscountIcon_icon_655d7c11",Bn="DiscountIcon_highlight_75d6adf";function An({className:e=""}){return a.jsxs("div",{className:t(Pn,e),children:[a.jsx("div",{className:Rn}),a.jsx("div",{className:Bn})]})}const En="Logos_1ed97e35",Tn="Logos_logoWrapper_826e9a4f",Ln="Logos_logo_ada5f291",Dn="Logos_starterPack_f4dabb81",Wn=k.resolve("images"),On=e=>{const a=String(e).slice(-1);return Wn.readOrEmpty(`battlePass.emblem.icon.c_${e}.purchased.${pn}`,"silent")||Wn.readOrEmpty(`battlePass.emblem.icon.default_${a}.purchased.${pn}`)},Mn=R.strings.battle_pass.battlePassBuyView.confirm.shopOfferBlock;const Vn=i(function({className:e=""}){const{model:{computes:s}}=xn(),{chapterIDs:r,amount:n}=s.starterPackInfo();return a.jsxs("div",{className:t(En,e),children:[r.map((e,t)=>a.jsx("div",{className:Tn,style:{zIndex:r.length-t},children:a.jsx("div",{className:Ln,style:{backgroundImage:`url(${On(e)})`}})},e)),Boolean(n)&&a.jsx(E,{classMix:Dn,text:Mn.packsAmount(),binding:{amount:n}})]})}),zn="ShopOfferBlock_5d538f0f",Fn="ShopOfferBlock_logos_c4a5c492",Hn="ShopOfferBlock_headline_333a5398",$n="ShopOfferBlock_text_83d7e7fc",Un="ShopOfferBlock_discount_c7eeef37",Gn="ShopOfferBlock_title_7245add2",qn="ShopOfferBlock_description_ef059d17",Xn="ShopOfferBlock_button_4790b6d6",Zn=R.strings.battle_pass.battlePassBuyView.confirm.shopOfferBlock;const Kn=i(function({className:e=""}){const{model:s,controls:r}=xn(),n=s.computes.regularChapters(),i=$(()=>{r.shopOffer()}),o=I({buttonSize:P.small},{medium:{buttonSize:P.large}});return a.jsxs("div",{className:t(zn,e),children:[Boolean(n.length)&&a.jsx(Vn,{className:Fn}),a.jsxs("div",{className:Hn,children:[a.jsx(_e,{upgradeLegacy:!0,className:$n,text:Zn.headline(),params:{count:n.length}}),a.jsx(An,{className:Un})]}),a.jsx(_e,{upgradeLegacy:!0,className:Gn,text:Zn.title()}),a.jsx(_e,{upgradeLegacy:!0,className:qn,text:Zn.description()}),a.jsx(B,{size:o.buttonSize,onClick:i,className:Xn,children:Zn.buy()})]})}),Yn="AnimatedReward_1789d927",Qn=({children:e,animationConfig:s,className:i})=>{const o=r(s);return a.jsx(n.div,{style:o,className:t(Yn,i),children:e})},Jn={base:"Rewards_e0c7ea28",descriptionText:"Rewards_descriptionText_70d3a019",priorityRewards:"Rewards_priorityRewards_8561c5b0",priorityRewards__rewardsButtonVisible:"Rewards_priorityRewards__rewardsButtonVisible_e006900",rewardsWrapper:"Rewards_rewardsWrapper_e727c56d",buttonWrapper:"Rewards_buttonWrapper_fd4269bd",rewardBtn:"Rewards_rewardBtn_c25bebb2",rewardBtn__currentRewardsAnimation:"Rewards_rewardBtn__currentRewardsAnimation_4dddd688",buttonContent:"Rewards_buttonContent_5599209b"},ei=(e,a,t)=>({from:{opacity:0},to:{opacity:1},delay:100*e,config:{duration:100},onStart:()=>{a()},reset:t}),ai=k.resolve("strings"),ti=i(({isCheckboxAnimationActive:s,isPrevious:i=!1,className:o})=>{const{model:l}=xn(),{chapterID:c,isPurchaseWithLevels:d}=l.package.get(),_=l.computes.nowRewards().length+l.computes.futureRewards().length-l.computes.topPriorityRewards().length,u=l.computes.topPriorityRewards(),m=l.computes.prevTopPriorityRewards(),p=i?m:u,h=_>0,b=()=>{Pe.sound(R.sounds.bp_reward())},{breakpoint:f}=ge(),g=f.weight<ve.medium.weight?xe.Small:xe.Big,v=r(ei(6,b)),x=pe();return a.jsxs("div",{className:t(Jn.base,o),children:[a.jsx("div",{className:Jn.descriptionText,children:i!==d?ai.readOrEmpty("battle_pass.battlePassBuyView.confirm.descriptionCheckboxChecked"):ai.readOrEmpty("battle_pass.battlePassBuyView.confirm.description")}),a.jsxs("div",{className:Jn.rewardsWrapper,children:[a.jsx("div",{className:t(Jn.priorityRewards,h&&Jn.priorityRewards__rewardsButtonVisible),children:O(p,(t,s)=>i?e.createElement(we,{...Xt(t,g),key:`${t.name}_${s}`}):a.jsx(Qn,{animationConfig:ei(s,b),children:a.jsx(we,{...Xt(t,g)})},`${t.name}_${s}`))}),h&&a.jsx(n.div,{style:v,children:a.jsx("div",{className:Jn.buttonWrapper,children:a.jsx(B,{theme:A.secondary,size:P.large,className:t(Jn.rewardBtn,s&&Jn.rewardBtn__currentRewardsAnimation),classNames:{content:Jn.buttonContent},onClick:()=>x.push(ts.battlePass.buyPassRewards,{packageID:c}),children:a.jsx(E,{text:ai.readOrEmpty("battle_pass.battlePassBuyView.btnRewards"),binding:{count:_},classMix:Jn.text})})})})]})]})}),si={base:"StarterPack_231839be",presentLogo:"StarterPack_presentLogo_cb1c6f84",presentLogo__x36x36:"StarterPack_presentLogo__x36x36_15fc148b",presentLogo__x52x52:"StarterPack_presentLogo__x52x52_f480a652",equalLogo:"StarterPack_equalLogo_407c8a9c",rewardsWrapper:"StarterPack_rewardsWrapper_bf86c609",rewards:"StarterPack_rewards_231839be",fadeInWithScale:"StarterPack_fadeInWithScale_e09c33a3",slideUp:"StarterPack_slideUp_e09c33a3",blink:"StarterPack_blink_e09c33a3",scale:"StarterPack_scale_e09c33a3",rotate:"StarterPack_rotate_e09c33a3",windowIn:"StarterPack_windowIn_e09c33a3",fadeOut:"StarterPack_fadeOut_e09c33a3",fadeIn:"StarterPack_fadeIn_e09c33a3"},ri=k.resolve("strings"),ni="x36x36",ii="x52x52",oi=i(function({starterPackRewards:e,presentSize:s,rewardSize:r,classNames:n}){return a.jsxs("div",{className:si.base,children:[a.jsx("div",{className:t(si.presentLogo,si[`presentLogo__${s}`],null==n?void 0:n.presentLogo)}),a.jsx("div",{className:t(si.equalLogo,null==n?void 0:n.equalLogo),children:ri.readOrEmpty("battle_pass.progression.footer.starter_pack.equal")}),a.jsx("div",{className:si.rewardsWrapper,children:a.jsx("div",{className:si.rewards,children:O(e,(e,t)=>a.jsx(we,{...Xt(e,r),className:null==n?void 0:n.reward},`reward_${e.name}_${t}`))})})]})}),li="StarterPack_packDescription_e09c33a3",ci="StarterPack_purchaseText_67051b2",di="StarterPack_presentLogo_f1509f42",_i="StarterPack_equalLogo_4d2bea9f",ui=k.resolve("strings"),mi=i(function(){const{model:e}=xn(),t=e.computes.starterPackRewards(),{breakpoint:s}=ge(),r=s.weight<ve.medium.weight?xe.Small:xe.Big;return a.jsxs(a.Fragment,{children:[a.jsx(_e,{text:ui.readOrEmpty("battle_pass.battlePassBuyView.confirm.starterPack.description"),upgradeLegacy:!0,params:{purchaseText:a.jsx("span",{className:ci,children:ui.readOrEmpty("battle_pass.battlePassBuyView.confirm.starterPack.purchaseText")})},className:li}),a.jsx(oi,{starterPackRewards:t,presentSize:ii,rewardSize:r,classNames:{presentLogo:di,equalLogo:_i}})]})}),pi={base:"PassContent_1cb8450b",contentWrapper:"PassContent_contentWrapper_6bd43d6a",contentWrapper__noShopOffer:"PassContent_contentWrapper__noShopOffer_3c8d5049",content:"PassContent_content_c067e9cf",emblem:"PassContent_emblem_bf66736c",chapterInfo:"PassContent_chapterInfo_3efcc8f4",chapterName:"PassContent_chapterName_b21f7a0e",check:"PassContent_check_a557a239",checkIcon:"PassContent_checkIcon_2ddd3576",checkboxLabel:"PassContent_checkboxLabel_968825b",previousRewards:"PassContent_previousRewards_3344ac4c",currentRewards:"PassContent_currentRewards_cc1995e8",checkbox:"PassContent_checkbox_a0d760a8",starterPack:"PassContent_starterPack_bcf3e072",offerBack:"PassContent_offerBack_a71885da",offerWrapper:"PassContent_offerWrapper_e8393a4",offer:"PassContent_offer_d09e2495"},hi=k.resolve("strings"),bi=k.resolve("images"),fi=i(()=>{const[s,r]=e.useState(!1),n=e.useRef(!1),{model:i,controls:o}=xn(),{chapterID:l,remainingLevelsCount:c,isPurchaseWithLevels:d}=i.package.get(),_=i.computes.hasStarterPackInChapter(l),u=i.main.isShopOfferAvailable.get(),m=pe();be(L.ESCAPE,()=>m.goBack());const p=(()=>{const e=String(l).slice(-1),a=`battlePass.backgrounds.chapter_general.c_${l}`,t=`battlePass.backgrounds.chapter_general.default_${e}`;return bi.readOrEmpty(a,"silent")||bi.readOrEmpty(t)})();e.useEffect(()=>{if(n.current)return r(!0),ae(()=>{r(!1)},300);n.current=!0},[d,n]);const h=I({iconSize:un,shieldSize:tn,containerSize:Kr},{medium:{iconSize:mn,shieldSize:sn,containerSize:Yr},large:{iconSize:pn,shieldSize:rn,containerSize:Qr}});return a.jsxs("div",{className:pi.base,style:{backgroundImage:`url(${p})`},children:[a.jsx("div",{className:t(pi.contentWrapper,!u&&pi.contentWrapper__noShopOffer,s&&pi.contentWrapper__rewardsUpdateAnimation),children:a.jsxs("div",{className:pi.content,children:[a.jsx("div",{className:pi.emblem,children:a.jsx(gn,{iconSize:h.iconSize,shieldSize:h.shieldSize,containerSize:h.containerSize,bpPurchased:!0,chapterID:l})}),a.jsxs("div",{className:pi.chapterInfo,children:[a.jsx("div",{className:pi.chapterName,children:hi.readOrEmpty(`battle_pass.chapter.fullName.c_${l}`)}),c>0&&a.jsx("div",{className:pi.checkbox,children:a.jsx(Re,{checked:d,onCheckedChange:o.togglePurchaseWithLevels,classNames:{checkIcon:pi.checkIcon,check:pi.check},"data-test-id":"buyLevelsCheckbox",children:a.jsx(_e,{text:hi.pluralOrEmpty("battle_pass.battlePassBuyView.confirm.checkbox.stage",c),upgradeLegacy:!0,params:{stagesNumber:c},className:pi.checkboxLabel})})}),s?a.jsx(ti,{isCheckboxAnimationActive:s,className:pi.previousRewards,isPrevious:!0}):a.jsx(ti,{isCheckboxAnimationActive:s,className:pi.currentRewards}),a.jsx("div",{className:pi.starterPack,children:_&&a.jsx(mi,{})}),a.jsx(In,{isPriceUpdateAnimation:s})]})]})}),u&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:pi.offerBack}),a.jsx("div",{className:pi.offerWrapper,children:a.jsx("div",{className:pi.offer,children:a.jsx(Kn,{})})})]})]})}),gi={context:"model.rewards",rootId:R.aliases.battle_pass.BuyPass("resId")},vi=i(()=>{const{model:e}=xn();switch(e.main.state.get()){case"buyState":default:return a.jsx(fi,{});case"rewardsState":return a.jsx(cr,{options:gi,children:a.jsx(Gr,{})})}}),xi=()=>a.jsx(vn,{options:{rootId:R.aliases.battle_pass.BuyPass("resId")},children:a.jsx(vi,{})}),wi=[{emblem:{delay:0,diff:60,duration:350}},{deadline:{delay:30}},{chapterName:{delay:60}},{finalReward:{delay:90}},{buttonsGroup:{delay:120}}],Ci=(e=0,a=30,t=200)=>({from:{opacity:0,transform:`translateY(${a}rem)`},to:{opacity:1,transform:"translateY(0rem)"},config:{duration:t,easing:Be.easeInOutCubic},delay:e}),yi=k.resolve("images"),ji=k.resolve("videos"),[Ni,Si]=D()(({observableModel:e})=>{const a=e.array("chapters"),t={root:e.object(),selectedChapterID:o.box(0),prevChapterIndex:o.box(0),chapters:a},r=s(()=>Ae(a.get(),({isExtra:e})=>e)),n=s(()=>Ae(a.get(),({chapterState:e})=>e===Os.Active)),i=s(()=>Ee(a.get(),({chapterState:e})=>e===Os.Completed)),l=s(e=>Ie(a.get(),a=>a.chapterID===e),{equals:W}),c=s(e=>{const t=Ie(a.get(),a=>a.chapterID===e);return{levelProgression:(null==t?void 0:t.levelProgression)||0,currentLevel:(null==t?void 0:t.currentLevel)||0}}),d=s(()=>Se(t.chapters.get(),e=>!e.isExtra),{equals:W}),_=s(()=>Se(t.chapters.get(),e=>!e.isExtra&&!e.isPostProgression),{equals:W}),u=s(()=>Se(d(),e=>e.chapterState===Os.Completed).length,{equals:W}),m=s(()=>Se(t.chapters.get(),e=>e.isExtra)),p=s(()=>Se(t.chapters.get(),e=>e.isPostProgression)),h=[2],b=s(()=>{const e=Ie(t.chapters.get(),({chapterID:e})=>e===t.selectedChapterID.get());return e||Te(t.chapters.get(),t.prevChapterIndex.get())},{equals:W}),f=s(()=>{const{timeLeft:e,isExtra:a}=b();return a?Le(e).days<3:Le(e).days<20},{equals:W}),g=s(()=>[...r()?m():[],..._(),...p()]),v=s(()=>{const e=[];return O(g(),a=>{const t=String(a.chapterID).slice(-1),s=`battlePass.backgrounds.chapter_choice.c_${a.chapterID}`,r=`battlePass.backgrounds.chapter_choice.default_${t}`,n=`battle_pass.chapter_choice.c_${a.chapterID}.idle`;e.push({chapter:a.chapterID,mainBg:yi.readOrEmpty(s,"silent")||yi.readOrEmpty(r),idleBg:ji.readOrEmpty(n,"silent")||""})}),e},{equals:W});return{...t,computes:{getChapterById:l,getProgressionInfoByChapterId:c,hasExtra:r,hasActive:n,detailedTimer:f,isCompleted:i,regularChapters:d,extraChapters:m,regularChaptersCompleteCount:u,chaptersLineInfo:()=>De(d(),(e,{chapterID:a,chapterState:t},s)=>(h.includes(s+1)||e.push({chapterID:a,chapterState:t}),e),[]),sortedChapters:g,selectedChapter:b,backgrounds:v}}},({externalModel:e,model:a,cleanup:t})=>{const s=l(e=>{a.selectedChapterID.set(e)}),r=l(e=>{a.prevChapterIndex.set(e)}),n=c(()=>a.root.get().selectedChapter,e=>{s(e),r(e)},{fireImmediately:!0});return t(()=>{n()}),{openPreview:e.createCallback(e=>({chapterID:e}),"onPreviewClick"),openAbout:e.createCallbackNoArgs("onAboutClick"),openPointsInfo:e.createCallbackNoArgs("onPointsInfoClick"),onViewLoaded:e.createCallbackNoArgs("onViewLoaded"),showTankmen:e.createCallback(e=>({chapterID:e}),"showTankmen"),onChapterSelect:e.createCallback(e=>({chapterID:e}),"onChapterSelect"),setSelectedChapterID:s,setPrevChapterIndex:r}}),ki="LoopVideo_cfc6c5cb";function Ii({src:t,style:s}){const r=e.useRef(null),[n,i]=We(()=>{const e=r.current;if(!e)return!0;const a=e.getCachedKeyframes();return!(null==a?void 0:a.length)||(e.goToAndPlay(0),!1)});return e.useEffect(()=>(n(),i),[]),e.useEffect(()=>{const e=r.current;return()=>{e&&(e.domRef.src="")}},[r]),a.jsx(Oe,{src:t,style:s,className:ki,ref:r,autoplay:!0,loop:!0})}const Pi="Background_d1f724bf",Ri="Background_mainBg_b8b64d56",Bi="Background_idleBg_30e8ffa",Ai=i(function({style:e,i:s,index:r,classNames:i={}}){const{model:o}=Si(),l=o.prevChapterIndex.get(),c=o.computes.backgrounds(),{mainBg:d,idleBg:_}=c[s],{width:u,height:m}=Me(),p=Ve(),h=Kt(u,m,p,_);return a.jsxs("div",{className:Pi,children:[a.jsx(n.div,{className:t(Ri,null==i?void 0:i.main),style:{...e,backgroundImage:`url(${d})`,zIndex:s===r?3:s===l?2:1,transform:e.x.to(e=>`translateX(${e}rem)`)}}),s===r&&_&&a.jsx("div",{className:t(Bi,null==i?void 0:i.idle),children:a.jsx(Ii,{src:_,style:h})})]})});ze.lightTank,ze.mediumTank,ze.heavyTank,ze["AT-SPG"],ze.SPG,Fe(1,12,M);const Ei="vehicle_types",Ti="nations",Li="levels",Di={heavy_tank:Ge,medium_tank:Ue,light_tank:$e,at_spg:He};function Wi(e,a){return"isCommonProgression"===e&&(a.status!==Ze.UNSUITABLE_TO_QUEUE&&a.bpProgress<a.maxBpScore)}function Oi(e,a,t,s){switch(a){case"elite":return e.includes("premium")||s&&s.elite&&!t.premium;case"premium":return t.premium||e.includes("elite")&&s&&s.elite;case"bonus":return s&&s.bonusMultiplier>=2;case"favorite":return t.favorite;case"crystals":return t.crystalEarning;case"rented":return!0;case"canInstallAttachments":return t.canInstallAttachments;case"own3DStyle":return s&&s.own3DStyle;case"event":case"funRandom":return t.isSuitableVehicle;default:return!1}}const Mi={[Li]:(e,a)=>!e.levels||e.levels.includes(`level_${a.level}`),[Ti]:(e,a)=>!e.nations||e.nations.includes(Xe(a.nationId)),[Ei]:(e,a)=>!e.vehicle_types||e.vehicle_types.includes(a.type)};function Vi(e,a,t){let s=!1;const r=e.specials??[];for(const n of r)if("rented"!==n){if(!Oi(r,n,a,t))return!1}else s=!0;if(!s&&qe(a)&&!(null==t?void 0:t.fromWotPlus))return!1;if(t&&e.battle_pass&&e.battle_pass.length>0)for(const n of e.battle_pass)if(!Wi(n,t))return!1;for(const n of Object.keys(e))if(n in Mi&&!Mi[n](e,a))return!1;return((e,a)=>{const t=Ke(a.role);let s=!1;for(const r of Object.keys(Di))if(r in e&&(s=!0,e[r].some(e=>e.includes(t))))return!0;return!s})(e,a)}function zi(e,{shortName:a,fullName:t}){const s=e.toLowerCase();return!(s.length>0&&!a.toLowerCase().includes(s)&&!t.toLowerCase().includes(s))}function Fi(e,a,t){const s=e[a]??[],r={...e};return r[a]=s.includes(t)?s.filter(e=>e!==t):[...s,t],r[a].length>0||delete r[a],r}function Hi(e,a){return"regular"===a.type?Fi(e,a.field,a.value):Object.keys(Di).reduce((e,t)=>{const s=Di[t].find(e=>e.includes(a.role));return s?Fi(e,t,(n=s,"at_spg"===(r=t)?`role_ATSPG_${n}`:`role_${r[0].toUpperCase()}T_${n}`)):e;var r,n},e)}function $i(e,a,t,s){if(t.favorite!==s.favorite)return t.favorite?-1:1;const r=e[Xe(t.nationId)]??0,n=e[Xe(s.nationId)]??0;if(r!==n)return r-n;const i=a[t.type]??0,o=a[s.type]??0;return i!==o?i-o:t.level!==s.level?t.level-s.level:t.premium!==s.premium?t.premium?1:-1:t.shortName.localeCompare(s.shortName)}const[Ui,Gi]=D("FilterVehiclesProvider")(({observableModel:e,readByPath:a})=>{function t(e){try{return JSON.parse(e)}catch(a){return console.error(a),{}}}const{text_search:s,...r}=t(a("filters")),n={...e.primitives(["defaultFilters"])},i=Ye.structural(()=>t(n.defaultFilters.get())),l={...e.primitives(["carouselRowCount"]),filters:o.box(r,{deep:!1}),searchName:o.box((null==s?void 0:s[0])??""),nations:e.arrayClone("nationsOrder")};return{...l,computes:{hasFilters:Ye.primitive(()=>!Qe.structural(i(),l.filters.get())||l.searchName.get().length>0),nations:()=>l.nations.get(),nationToIndex:Ye.shallow(()=>l.nations.get().reduce((e,a,t)=>(e[a]=t,e),{})),default:i}}},({cleanup:e,model:a,externalModel:t})=>{const s=t.createCallback(e=>e,"onSaveFilter");return e(d(()=>{var e,t;e=a.filters.get(),t=a.searchName.get(),s({filters:JSON.stringify({...e,text_search:t.length>0?[t]:void 0})})})),{reset:l(()=>{a.filters.set(a.computes.default()),a.searchName.set("")}),search:l(e=>{a.searchName.set(e)}),change:l(e=>{a.filters.set(Hi(a.filters.get(),e))}),carouselTypeChange:t.createCallback(e=>({rowCount:e}),"onCarouselTypeChange")}}),qi="disabled",Xi=[ze.lightTank,ze.mediumTank,ze.heavyTank,ze["AT-SPG"],ze.SPG].reduce((e,a,t)=>(e[a]=t,e),{}),[Zi,Ki]=D("VehicleStatisticsProvider")(({observableModel:e})=>{const a=e.dict("statistics"),t=Ye.structural(e=>a.get(e));return{ids:Ye.primitive(()=>a.keys),get:t}}),[Yi,Qi]=D("VehiclesProvider")(({observableModel:e})=>{const a={vehicles:e.dictRef("vehicles")};return{get:Ye.structural(e=>{if(-1===e)return;const t=a.vehicles.get(e);if(!t)return void console.error(`Error getting vehicle with id: ${e}`);const s=function(e){try{const a=JSON.parse(e);return a.shortName=a.shortName.replace(/<img.+\/>/,""),a}catch(a){throw console.error(`Error parsing JSON for element ${e}:`,a),a}}(t);return{...s,imageKey:Je(s.name)}}),has:Ye.primitive(e=>Boolean(a.vehicles.get(e))),ids:Ye.shallow(()=>[...a.vehicles.keys.values()]),amount:Ye.primitive(()=>a.vehicles.length),list:Ye.shallow(()=>{let e=[];for(const[s,r]of a.vehicles.entries())try{e.push(JSON.parse(r.get()))}catch(t){console.error(`Error parsing JSON for element ${s}:`,t)}return e})}},U,{useRequires:()=>({statistics:Ki()})}),[Ji,eo]=D("MyVehiclesProvider")(e=>{const a=e.requires.statistic.model.ids,t=Ye.structural(t=>{if(a().has(t))return e.requires.vehicles.model.get(t)}),s=Ye.shallow(()=>{const t=[];for(const s of a().values()){const a=e.requires.vehicles.model.get(s);a?t.push(a):console.warn(`No vehicle with id: ${s}`)}return t});return{get:t,getAll:s,amount:Ye.primitive(()=>s().length),ids:a}},U,{useRequires:()=>({vehicles:Qi(),statistic:Ki()})}),ao=k.resolve("strings"),to=ea(ta+sa),so=()=>`${Date.now().toString(16)}_${to(3)}`;function ro(e,a,t=1){const s=aa(a,{count:t});return e.has(s)?ro(e,a,t+1):s}function no(e="",a=[]){return{title:""!==e?e:ao.readOrEmpty("playlists.defaultName"),createdAt:Date.now(),modifiedAt:Date.now(),list:a}}const io=e=>({type:"ok",value:e});function oo(e){if("ok"===e.type)return e.value}const lo="delete",co="import",_o=_({title:p(),createdAt:u(f(),b(),h(0)),modifiedAt:u(f(),b(),h(0)),list:m(u(f(),b()))}),uo=u(p(),g(e=>e.length>0?e:void 0)),[mo,po,{Context:ho}]=D("PlaylistsProvider")(({requires:e,observableModel:a})=>{const t=a.dict("storage"),s=a.primitives(["selectedID","enabled","dirtyEdit"]),r=e.filters.model.computes.default,n={vehicles:e.vehicles.model,myVehicles:e.myVehicles.model,enabled:s.enabled,nationsOrder:e.filters.model.nations,filters:o.box(r(),{deep:!1}),searchName:o.box("",{deep:!1}),edit:{initial:o.box(void 0,{deep:!1}),dirty:s.dirtyEdit}},i=Ye.shallow(()=>t.keys),l=Ye.primitive(()=>v(uo,s.selectedID.get())),c=Ye.structural(e=>{try{const a=t.get(e);if(!a)return io(void 0);const s=v(_o,JSON.parse(a)),r=new Set;for(const e of s.list)if(ra[e]){const a=ra[e].find(e=>Boolean(n.myVehicles.get(e.toString())));r.add(a??e)}else r.add(e);return io({...s,list:[...r.values()]})}catch(r){return console.error(`Error getting playlist with ${e} id`,r),a="PARSE_ERROR",s=String(r),{type:"error",error:{tag:a,msg:s}}}var a,s}),d=Ye.shallow(()=>na(i().values()).map(e=>c(e)).filter(e=>"ok"===e.type&&void 0!==e.value).map(e=>e.value.title).reduce((e,a)=>e.add(a),new Set)),_=Ye.primitive(e=>{const a=c(e);if("ok"!==a.type||void 0===a.value)throw new Error(`Can't get playlist by id ${e}`);return a.value}),u=Ye.structural(e=>{const a=c(e);if("ok"===a.type&&void 0!==a.value)return{id:e,...a.value}}),m=Ye.shallow(()=>na(i().values()).map(e=>u(e)).filter(e=>void 0!==e).toArray().sort((e,a)=>e.title.localeCompare(a.title)).map(e=>e.id)),p=Ye.primitive(()=>{const e=l();if(e)return u(e)}),h=Ye.shallow(()=>{const a=e.filters.model.computes.nationToIndex();return ia(e.myVehicles.model.getAll(),(e,t)=>$i(a,Xi,e,t))}),b=Ye.primitive(e=>{var a;const t=u(e),s=g();if(void 0===t||0===t.list.length)return;const r=new Set(t.list);for(let n=0;n<s.length;n+=1){const e=Number(null==(a=s[n])?void 0:a.id);if(oa(e)&&r.has(e))return n}}),f=Ye.primitive(()=>!1===Qe.structural(r(),n.filters.get())||n.searchName.get().length>0),g=Ye.shallow(()=>{const a=n.filters.get(),t=h(),s=n.searchName.get();return t.filter(t=>{if(!zi(s,t))return!1;const r=e.statistic.model.get(t.id);return Vi(a,t,r)})}),x=Ye.primitive(a=>{var t;return Boolean(null==(t=e.statistic.model.get(a))?void 0:t.elite)}),w=Ye.shallow(a=>{const t=e.vehicles.model.get(a);return null==t?void 0:t.imageKey}),C=Ye.primitive(()=>g().length),y=Ye.shallow(()=>{var e;return null==(e=p())?void 0:e.list.map(n.vehicles.get)});return{...n,current:p,titles:d,currentId:l,byIdUnsafe:_,byId:c,byIdFull:u,filtered:g,filteredAmount:C,defaultFilters:r,hasFilters:f,vehicleImage:w,currentVehicles:y,ids:i,sortedIds:m,isElite:x,firstAddedVehicleIndexByPlaylistId:b}},({model:e,externalModel:a})=>{const t=a.createCallback(e=>({id:e.id,data:JSON.stringify(e.initial),skipRedirect:e.skipRedirect}),"onCreate");return{filters:la({update:a=>{e.filters.set(Hi(e.filters.get(),a))},reset:()=>{e.filters.set(e.defaultFilters()),e.searchName.set("")},search:a=>e.searchName.set(a),change:a=>{e.filters.set(Hi(e.filters.get(),a))}}),create:l(a=>{const{id:s=so(),vehicleIds:r=[],skipRedirect:n=!1}=a??{};t({id:s,initial:no(ro(e.titles(),"playlists.defaultName"),r),skipRedirect:n})}),edit:{sendModify:a.createCallback((e,a)=>({id:e,data:JSON.stringify(a)}),"onModify"),setDirty:a.createCallback(e=>({value:e}),"onSetDirtyEdit")},select:a.createCallback((e="")=>({id:e}),"onSelect"),save:a.createCallback(e=>({id:e}),"onSave"),exit:a.createCallback(e=>({id:e}),"onDiscard"),goToAboutVehicle:a.createCallback(e=>({intCD:e}),"onGoToAboutVehicle"),openImport:a.createCallback(l(()=>({type:co,params:JSON.stringify({titles:Array.from(e.titles().values())})})),"openImportConfirm"),openDeleteConfirm:a.createCallback((e,a)=>({id:e,type:lo,params:JSON.stringify({title:a})}),"openDeleteConfirm")}},{useRequires:()=>({vehicles:Qi(),myVehicles:eo(),filters:Gi(),statistic:Ki()})}),bo="pending",fo="readyToSelect",go=qi,[vo,xo]=D("VehiclesInventoryProvider")(e=>{const a=e.observableModel.primitives(["freeSlotsCount","defaultSlotPrice","slotPrice","slotPriceCurrency","recoverableVehicleCount","currentVehicleIntCD","currentVehicleInventoryId","hasDiscont","bpEntityValid","bpStatus","telecomRentStatus"]),t=o.box([],{deep:!1}),s={intCD:a.currentVehicleIntCD,inventoryId:a.currentVehicleInventoryId},r=Ye.shallow(()=>{const a=s.intCD.get();return e.requires.vehicles.model.get(a)}),n=Ye.shallow(a=>{if(void 0===a)return;const t=s.intCD.get();return-1===t?e.requires.vehicles.model.get(a):e.requires.vehicles.model.get(t)}),i=Ye.shallow(()=>{const a=s.intCD.get();return e.requires.statistic.model.get(a)}),l=Ye.primitive(()=>-1!==s.intCD.get()),c=Ye.shallow(e=>ca(e,e=>_.get(String(e)))),_=e.requires.myVehicles.model,u=Ye.structural(()=>e.requires.vehicles.model.list().filter(e=>e.rent.isRented)),m=Ye.primitive(()=>e.requires.vehicles.model.list().some(a=>{const t=e.requires.statistic.model.get(a.vehicleId);if(t)return"inPrebattle"===t.status})),p=Ye.primitive(()=>{const a=[..._.getAll()],t=e.requires.filters.model.computes.nationToIndex();return a.sort((e,a)=>$i(t,Xi,e,a)),a});return e.cleanup(d(()=>{var a;const s=e.requires.filters.model.filters.get(),r=e.requires.filters.model.searchName.get(),n=null==(a=e.requires.playlists)?void 0:a.model.current(),i=_.ids(),o=(n?c(n.list):p()).filter(a=>!1!==i.has(a.id)&&(!!Vi(s,a,e.requires.statistic.model.get(a.id))&&zi(r,a)));x(()=>t.set(o))})),{vehicles:e.requires.myVehicles.model,vehicle:n,selectedVehicle:r,isVehicleSelected:l,selectedVehicleStatistics:i,accumulateByIds:c,rentVehiclesList:u,prebattleModeActive:m,current:{intCD:a.currentVehicleIntCD,inventoryId:a.currentVehicleInventoryId,amount:Ye.primitive(()=>t.get().length),list:()=>t.get(),ids:Ye.shallow(()=>t.get().map(e=>e.id)),playlist:e.requires.playlists?e.requires.playlists.model.current:()=>{}},slots:{free:a.freeSlotsCount,price:{defaultValue:a.defaultSlotPrice,value:a.slotPrice,currency:a.slotPriceCurrency},recover:a.recoverableVehicleCount,discount:a.hasDiscont},bpState:{active:a.bpEntityValid,status:a.bpStatus},telecomRentStatus:a.telecomRentStatus}},e=>({select:e.externalModel.createCallback(e=>({id:e}),"onSelect"),buySlot:e.externalModel.createCallbackNoArgs("onBuySlot"),goBuyVehicle:e.externalModel.createCallbackNoArgs("onGoBuyVehicle"),goRecoverVehicle:e.externalModel.createCallbackNoArgs("onGoRecoverVehicle"),selectTelecomRentalVehicle:e.externalModel.createCallbackNoArgs("onSelectTelecomRentalVehicle")}),{useRequires:()=>({myVehicles:eo(),vehicles:Qi(),statistic:Ki(),filters:Gi(),playlists:e.useContext(ho)})}),wo=-1,[Co,yo,{Context:jo}]=D("ManageableVehiclePlaylistsModel")(e=>{const a={...e.observableModel.primitives({intCD:"vehicleId"}),displayedVehicleId:o.box(wo),changesInPlaylistSelection:o.set(new Set)},t=Ye.shallow(()=>e.requires.playlists.model.sortedIds().reduce((a,t)=>{const s=e.requires.playlists.model.byIdFull(t);return s?a.push(s):console.warn(`Missing playlist data for id = ${t}`),a},[])),s=Ye.structural(()=>t().map(({id:e,title:t,list:s})=>{const r=s.includes(a.displayedVehicleId.get());return{id:e,title:t,selected:a.changesInPlaylistSelection.has(e)?!r:r}},[])),r=Ye.primitive(()=>0===s().length);return e.cleanup(d(()=>{a.displayedVehicleId.get(),t(),x(()=>a.changesInPlaylistSelection.clear())})),{...a,computeds:{playlistItems:s,isVehiclePlaylistsEmpty:r,vehicle:Ye.shallow(()=>{const t=a.displayedVehicleId.get(),s=e.requires.vehicles.model.get(t),r=e.requires.vehicleStatistics.model.get(t);if(void 0!==s&&void 0!==r)return{...s,elite:r.elite}}),empty:Ye.primitive(()=>a.vehicleId.get()===wo),sortedPlaylists:t,hasChanges:Ye.primitive(()=>a.changesInPlaylistSelection.size>0),enabled:Ye.primitive(()=>e.requires.playlists.model.enabled.get())}}},e=>({setDisplayedVehicleId:l(a=>{e.model.displayedVehicleId.set(a)}),reset:e.externalModel.createCallbackNoArgs("onReset"),selectVehicle:e.externalModel.createCallback(e=>({id:e}),"onSelectVehicle"),goToCreatePlaylist:a=>{e.requires.playlists.controls.create({vehicleIds:a})},togglePlaylist:l(a=>{e.model.changesInPlaylistSelection.has(a)?e.model.changesInPlaylistSelection.delete(a):e.model.changesInPlaylistSelection.add(a)}),save:l(()=>{const a=e.model.displayedVehicleId.get(),t=e.requires.playlists.model.currentId();for(const s of e.model.changesInPlaylistSelection){const t=oo(e.requires.playlists.model.byId(s));if(!t)return void console.warn(`Missing playlist data for id = ${s}`);e.requires.playlists.controls.edit.sendModify(s,{...t,modifiedAt:Date.now(),list:t.list.includes(a)?t.list.filter(e=>e!==a):[...t.list,a]}),e.requires.playlists.controls.save(s)}e.requires.playlists.controls.select(t)}),cancel:l(()=>{e.model.changesInPlaylistSelection.clear()})}),{useRequires:()=>({vehicles:Qi(),playlists:po(),vehicleStatistics:Ki()})}),No=()=>e.useContext(jo),So=a=>e.createElement("svg",{width:24,height:24,viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",xmlnsXlink:"http://www.w3.org/1999/xlink",...a},e.createElement("path",{opacity:.8,d:"M19 16H22V18H19V21H17V18H14V16H17V13H19V16Z",fill:"#0D0E10"}),e.createElement("path",{d:"M19 15H22V17H19V20H17V17H14V15H17V12H19V15Z",fill:"url(#paint0_radial_111851_505980)"}),e.createElement("path",{d:"M19 15H22V17H19V20H17V17H14V15H17V12H19V15Z",fill:"url(#pattern0_111851_505980)",fillOpacity:.8}),e.createElement("g",{opacity:.8},e.createElement("path",{d:"M12 16H5V15H12V16ZM15 13H5V12H15V13ZM19 10H5V9H19V10ZM19 7H5V6H19V7Z",fill:"url(#paint1_radial_111851_505980)"}),e.createElement("path",{d:"M12 16H5V15H12V16ZM15 13H5V12H15V13ZM19 10H5V9H19V10ZM19 7H5V6H19V7Z",fill:"url(#pattern1_111851_505980)",fillOpacity:.8})),e.createElement("path",{opacity:.8,d:"M12 17H5V16H12V17ZM15 14H5V13H15V14ZM19 11H5V10H19V11ZM19 8H5V7H19V8Z",fill:"#0D0E10"}),e.createElement("defs",null,e.createElement("pattern",{id:"pattern0_111851_505980",patternContentUnits:"objectBoundingBox",width:1,height:1},e.createElement("use",{xlinkHref:"#image0_111851_505980",transform:"scale(0.0208333)"})),e.createElement("pattern",{id:"pattern1_111851_505980",patternContentUnits:"objectBoundingBox",width:1,height:1},e.createElement("use",{xlinkHref:"#image0_111851_505980",transform:"matrix(0.0208333 0 0 0.0291667 0 -0.2)"})),e.createElement("radialGradient",{id:"paint0_radial_111851_505980",cx:0,cy:0,r:1,gradientUnits:"userSpaceOnUse",gradientTransform:"translate(15.7778 13.6) rotate(90) scale(5.6 4.97778)"},e.createElement("stop",{offset:6.20882e-10,stopColor:"#EDE6D9"}),e.createElement("stop",{offset:1,stopColor:"#C2C7CE"})),e.createElement("radialGradient",{id:"paint1_radial_111851_505980",cx:0,cy:0,r:1,gradientUnits:"userSpaceOnUse",gradientTransform:"translate(12 14.0904) rotate(180) scale(8.90909 2.42616)"},e.createElement("stop",{offset:6.20882e-10,stopColor:"#EDE6D9"}),e.createElement("stop",{offset:1,stopColor:"#C2C7CE"})),e.createElement("image",{id:"image0_111851_505980",width:48,height:48,preserveAspectRatio:"none",xlinkHref:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAnBSURBVHgBbdrnbhzHEobhpTSiguWcYRswYMD3fwn+68swYFuAcg6kwuHb5DMuEaeBBXd6uqsrflVdy6M//vjjw/v37w8fPnw4bNu2Pqenp4eTk5PDrVu3Drdv317fe//27dv1vfXXr18/XL169fDq1atD48qVK2vN0dHRmu+59e/evTscHx+vuZcvX65n57S2dY0XL16s9a0z35qeG70zend05eiwXd0OVyK+Js42xUDMtQnDCdOhhPQXoZs3b+7PHdj7hGpf89G3r/fzjN7duHFjp0MoQji37ymzddeuXTucnJ4c3p6eK2frZQPhniMUwRa8efNmvYto763JEq2LIE11QOt715qYi0bfCT4t1ByrZtHeTUW2t+/9bbDe2ar1PiVtLWhzD03GEKEcShO0GgME6F17aC3B+8t9uEX7nz17ttb2iRZhllbP6PW9T3t6N63Xp+d3789dMtpLoNevX3/kd42INf/555/v/k8jfVr3ySef7G7R8+PHjxeN5r/88svd/XoX45TEVTDpvNY9f/788Omnn34UH7yAm3s+PTlX5paZI0bbmO9AwSOQxEUBR/MxF/H20Gx/uUTxEGOdk2DR+ueffw5Pnjw5fPfdd4cvvvhit3b7nIHR5hOqfQm2hD26cji+dnwOBjPy2yz6oUjIETMx0KdDIhzDrYnBtCrwBRqrFXwxzo97H732NMSc4Pee0uzr2fdciEdsbZgoZGAmDZFeAGMkRiNmvXV9RyslJHAjxppPo9FtvzHdkUJTWN+zqjPP3fw/K23cpgkEImbwR2NiNPThcpRAUzO/tIewzXsmLBfqr4CekCoPdM779+d7Ts/gdIM+Du2wNAYFaAQSYar59no30QNMYq5kCInEG2g1bx9rQjyCQS0KBDjbZRicDExf5uNTg6D0/0HuhGKa59MEI3AWhDS5DUFpnYIngp3zchY/Ee/DTC2OSKaKYIgj0JQO4LThYIFGo9ONJuYDB0x2VgKEZsWGZDcTa0PCZCFK3DDG1xfGXkDhTGqYkTlpdfonK8UQbCcQWEbPORNZGu0T/JgU/GJVXC2LiHQo0ifc5v/igv/LnB0cA61jVpZhMetm9oUm9rU2Bq29f//+4enTpwt+Q6pZYJYk7927t4Tv+45CMTzroJ9++umj2qcNhIjRGOgARVvvaUmAU0DWYNE7d+4sl+TLmCrX9Nzazvj555/X3uZnELPWZ599tsfnRnLBxm2YDwFDsMdw61mrv7Qv0SRs8/2Nxtdff3345ptv1jolTIyliATpGXNgHdSi1XcV8IUrbXtWhBL8TIDPbMgqXKP9MQDelMh8WjXbHBRTHnvf91nCqKNmcmuudVw4GqsanYEleJQJop4LEAAKdHiCKDf6AAUW4N/KDvtntRpjrNyccnyCyPUb11f9M9Fpgc+8oNg0y2qwJjElDFhULXInIGB+wqccIYYwy01ZFB+S2sw1KUDxud/s4CpJ2ziDrMHcMztOC4XfE/p2rV2U0FlUknRe5/B7Vat4pIjpzidvTnawEOxLCJnRARgwjxhtgj/+LxgJxkLNdRgXE1OgltW4JgDgXuD21s1bew7iHZLnUuJMDhKPAadngSZrzzUsR4hoEiTrcdGJPtN1+tu8IRmugL19bVcc6MyNor2QKlxuMd/ky5m0REJTrAKP50VcLhBPoNFVcb/+XSDW9PPmOyda7ibOoLhZWM57xQXN7fD333+vw3755ZfdHzN7GTHiVZNTY9NdVKUTZl05035XTZB49+7dte6rr75a54Xr1UBptPUpIYWqiF2IEqwMXI5oXedDwJXIvv322928Xjx48GCHRPUJOJzXTKggucws7FICzylABdpwpVQ0TjRsTXwkREDR3n///fcj1940npSvTWI0zUskWSVBYkjJQRAXfJaYLkfwvsfIzCMKNVUv91WC5AVlbi6Dr9aw0OYQuB4TmV0wQokYF2BubCpEbkfT4NSISZckCU5jC33M6d5Bu85QakM/sbMXcy1uI/hyh4XR030wYQ7icJ+ZoefNqTNYCK1G51Kesh4Ec9fOUJ5TkCp1A4Wiel5eMvnMBzTQkCElldk2pJ3ZWZi3MofPukrccD888QpxqCvYulW6eMHHEFMep80CdGqNdRRdfJcCGtOdBuR9dKWMZs0ziU+im/duQuo1Edh1dMuE7rcuLCrCadLGvLQruuac+onr2ZsCOmfeuliVwCzo5kYpXMg60M11t5pOIYDBf10V0xAovOxi4XjYPPuXsznWAUprmhdn81Kv2mWZ2eZ0PYVaButszAMRYurPP/9cgvz+++8LIkMlPgqd0tSPP/64GCtBaVhhpPVa4jEUJIuXy4Udd9WRm2ARDfEyW/a9v7jJ/Vd1Mt1vv/22BKh3mQAQQU0ziz+BFoMCnKYms83VD3U7Uzv13YXG/su9ongRn9HQPF4uPhu7zP/999/vks6LBs1MxiMCo6GU925hUGQWZNwMqsz8MtuLrVGuN5e7yyULqXIPl2dmoyFSOmxeMiJUrSTDOgz8TbQypuYBhqxriA3VrDK+kSdoFO8WILHDaUeRNV1CmZvAEyqZerYUlRLTUoAA0s3kNmusCbV8nxvbY9/m5g/nMattrtRQfzeveNPDn9fIaf7L3TXud7nLxu1mq18+UGRSpo4IWptExFfdBWhSpxgeN7Qe+TaIm+15TE/kUVabn3XYvOzLP+4Fs8kGsfZqVK2vf9OLStiaS2nGRVq7hBV0IqbvGizB5bjlo0ePFmMq2qw3G2WzubaXLCn4IvDRpsglmNaiOIjIX3/9tQ52rXMTi/E+NNB6rXOBhbCY4rOzWTBvdoFBHTt5AFxKYG/P1s1CU0kCDLZQaJqmxb/++uvSSChTHpC+Z6AKvHqZDx8+XN9/+OGH3Z9n2yUYjNFoRl/cEFCmp5TO1YG4eevmDhgpb9ZLq6Dkg4InLfk9LJPP1qMgZ4HmKiV0Hgg3f2pyGQISs+Onoo0GJqPTuToXdSW437xKcttt/qbVITPLlYln8mK2WdfHSAxgOvj1bwq01Fy0DDT94qmX2idGVcAzn7RmtnAofpvlLkFIOf+NwC/wDaUvf47Zies0GTCwQK5Kk73PrXp2efJjRy4rM09lyTnzp64Fx5dbd3o0MR8azcSCMMEklNkP5WbtmddQbjSLuPbNOmheZOQCWfrVmUJunJ1bfMxqYZs/berDwOOCs/cFap0LkKuJS3vS/SzDZ3XZ2izSobVUuCNGU5SzleDoQZ+FSGfPCXAO64HO4fwXGoRor08LlQkJkqbqEMz1kpgKU+aU8tOejoVSXBKcbczmipMUpPT+UPyMJlrap9A84Pj43GL/Ay7gs62Y7foXAAAAAElFTkSuQmCC"}))),ko="Buttons_937965ba",Io="Buttons_right_268130b5",Po="Buttons_button_aeef4019",Ro="Buttons_button__create_61690fd8",Bo="Buttons_icon_378ba619",Ao=k.resolve("strings"),Eo=w(function(){const{model:e,controls:s}=yo();return a.jsxs("div",{className:t(ko),children:[a.jsx(da,{body:Ao.readOrEmpty("playlists.managaeble_playlists.buttons.create.tooltipBody"),children:a.jsx(B,{className:t(Po,Ro),theme:B.themes.secondary,size:B.sizes.extraSmall,autoAlignContent:!1,onClick:()=>{s.goToCreatePlaylist([e.displayedVehicleId.get()]),s.reset()},children:a.jsx(So,{className:Bo})})}),a.jsxs("div",{className:Io,children:[a.jsx(B,{className:Po,theme:B.themes.secondary,size:B.sizes.extraSmall,onClick:()=>{s.cancel(),s.reset()},children:a.jsx(_a,{text:Ao.readOrEmpty("playlists.managaeble_playlists.buttons.cancel.title")})}),a.jsx(B,{className:Po,theme:B.themes.primary,size:B.sizes.extraSmall,disabled:!e.computeds.hasChanges(),onClick:()=>{s.save(),s.reset()},children:a.jsx(_a,{text:Ao.readOrEmpty("playlists.managaeble_playlists.buttons.save.title")})})]})]})}),To="Item_itemBackground_f5007fc6",Lo="Item_c5163bf",Do="Item_checkbox_cfffba80",Wo="Item_item__checked_5f6fcc69",Oo="Item_check_a68580c8",Mo="Item_checkboxLabel_885d0061",Vo=w(function({id:e,title:s,checked:r}){const{controls:n}=yo();return a.jsxs("div",{className:t(Lo,r&&Wo),children:[a.jsx("div",{className:To}),a.jsx(Re,{checked:r,onCheckedChange:()=>n.togglePlaylist(e),size:ua.small,className:Do,classNames:{label:Mo,check:Oo},children:a.jsx(_a,{text:s})})]})}),zo="List_152fbdf4",Fo="List_scrollWrapper_e69e8089",Ho="List_scrollContent_30662217",$o="List_scrollbar_611defd3",Uo=w(function(){const{model:e}=yo(),t=e.computeds.playlistItems();return a.jsxs("div",{className:zo,children:[a.jsx(ma,{classNames:{wrapper:Fo,content:Ho},children:O(t,({id:e,title:t,selected:s})=>a.jsx(Vo,{id:e,title:t,checked:s},e))}),a.jsx(ce,{classNames:{base:$o}})]})}),Go="Vehicle_name_f5f779f6",qo="Vehicle_level_c03ad304",Xo="Vehicle_type_9905a21f",Zo=w(function(){const{model:e}=yo(),t=e.computeds.vehicle();if(void 0===t)return null;const s=Ke(t.role);return a.jsxs(pa,{children:[a.jsx(pa.Level,{value:t.level,className:qo}),ha(t.type)&&a.jsx(pa.Type,{size:pa.Type.sizes.x24x24,className:Xo,type:t.type,premium:t.elite}),a.jsx(_a,{text:t.fullName,className:Go}),s!==ba&&a.jsx(pa.Role,{size:pa.Role.sizes.x16x16,roleKey:s})]})}),Ko="Styles_display_f2930fa3",Yo="Styles_header_dcb2494f",Qo="Styles_body_504cd01f",Jo="Styles_title_ece3f15e",el=k.resolve("strings");function al({className:e}){return a.jsxs(fa.Header,{className:t(Yo,e),children:[a.jsx(fa.Title,{className:Jo,children:a.jsx(_a,{text:el.readOrEmpty("playlists.managaeble_playlists.header.title")})}),a.jsx(Zo,{})]})}function tl({className:e}){return a.jsxs(fa.Body,{className:t(Qo,e),children:[a.jsx(fa.Divider,{}),a.jsx(fe,{children:a.jsx(Uo,{})}),a.jsx(fa.Divider,{}),a.jsx(Eo,{})]})}const sl=e.memo(function({vehicleId:e,tipSize:s,className:r,children:n,...i}){return a.jsxs(fa.Display,{...i,className:t(Ko,r),children:[a.jsx(fa.Tip,{size:s}),a.jsx(fa.Close,{}),n]})}),rl=w(({children:a})=>{const t=ga(),s=va(),r=xa(),n=wa(),{model:i,controls:o}=yo(),l=i.vehicleId.get(),c=i.displayedVehicleId.get(),[d,_]=e.useState(!1),[u,m]=e.useState(!1),p=$(()=>{m(!0),t.open(),r.run(()=>m(!1),Ca)}),h=$(()=>{m(!0),t.close(),r.run(()=>{_(!0),o.setDisplayedVehicleId(wo),n.run(()=>{m(!1),_(!1)})},Ca)}),b=$(()=>{_(!0),o.setDisplayedVehicleId(l),n.run(()=>_(!1))});e.useEffect(()=>{s||i.computeds.empty()||t.opened||(o.reset(),h())},[t.opened]);const f=$(()=>{n.isRunning||(t.opened||r.isRunning||l===c?t.opened||l===wo||c===wo?t.opened&&l===wo&&c!==wo&&h():r.isRunning||p():b())});return e.useEffect(f,[f,l,c,t.opened,u,d]),ya(()=>{i.computeds.empty()||o.reset()}),a}),nl=e=>`manageable-vehicle-playlists-model-${e}`,il=w(function({children:t,position:s,freeSpaceRem:r,tipSize:n}){const{model:i,controls:o}=yo(),l=i.displayedVehicleId.get(),c=ja("rem"),d=$((e,{callerBounding:a})=>{const t=e.trigger.bounding.get();if(t&&!Na(t,a))return e.close(),!1}),_=i.vehicleId.get(),u=i.computeds.isVehiclePlaylistsEmpty(),m=Sa(_);return e.useEffect(()=>{u&&m===wo&&_!==wo&&(o.goToCreatePlaylist([_]),o.reset())},[m,_,u,o]),u?null:a.jsx(fa,{id:nl(l),children:a.jsxs(rl,{children:[a.jsx(fa.Portal,{paddingsRem:c,position:s,freeSpaceRem:r,onBeforePositionChange:d,children:l!==wo&&a.jsxs(sl,{vehicleId:l,tipSize:n,children:[a.jsx(al,{}),a.jsx(tl,{})]},l)}),t]})})});const ol="emptySlot",ll="left",cl="right",dl="both",_l="none",ul=189,ml=245,pl={default:{single:ul,double:ul},breakpoints:{medium:{single:224},large:{single:ml,double:ml},extraLarge:{single:302}}},hl=(e,a)=>e||a?e?a?_l:cl:ll:dl,bl="Content_7ccb81a0",fl="Content_disabledOverlay_a8908196",gl="Content_base__disabled_da09528a",vl="Content_base__selected_da09528a",xl="Content_base__empty_da09528a";function wl({children:e,selected:s,disabled:r,empty:n}){return a.jsxs("div",{"data-name":"Content",className:t(bl,n&&xl,s&&vl,r&&gl),children:[e,r&&a.jsx("div",{className:fl})]})}const Cl="Slot_977dd8f1",yl="Slot_base__wrapper_ae3081b5",jl="Slot_base__disabled_334cc10f",Nl="Slot_base__empty_d386066c",Sl="Slot_content_1a27c8cf",kl="Slot_base__active_71f19f5c",Il="Slot_base__selected_71f19f5c",Pl="Slot_selected_6e9f21df",Rl="Slot_selected__border_e2a17304",Bl=e.memo(function({children:e,selected:s=!1,disabled:r=!1,active:n,className:i,...o}){const l=r||void 0===o.onClick;return a.jsx("div",{...o,"data-name":"Slot",className:t(Cl,n&&kl,s&&Il,r&&jl,l&&Nl,yl,i),children:a.jsxs("div",{className:Sl,children:[a.jsx(wl,{selected:s,disabled:r,empty:l,children:e}),s&&a.jsx("div",{className:t(Pl,Rl)}),a.jsx("div",{className:Pl})]})})}),Al={buySlot:"buySlot",buyTank:"buyTank",restoreTank:"restoreTank",rentTank:"rentTank"},El={[Al.buySlot]:"buy_slot",[Al.buyTank]:"buy_vehicle_new",[Al.restoreTank]:"restore_vehicle",[Al.rentTank]:"wot_plus_slot"},Tl="ActionCards_wrapper_690d669a",Ll="ActionCards_text_cdbc926",Dl="ActionCards_wrapper__double_70640c01",Wl="ActionCards_content_a46de8cf",Ol="ActionCards_content__buySlot_a70e9708",Ml="ActionCards_icon_f8219d70",Vl="ActionCards_contentIcon_166df330",zl="ActionCards_currency_ac7c654f",Fl="ActionCards_discount_967a7825",Hl={[bo]:"menu.tankCarousel.wotPlusSelectionPending",[fo]:"menu.tankCarousel.wotPlusSelectionAvailable"},$l=w(function({type:e}){const s=xo(),r=s.model.slots.price.currency.get(),n=s.model.slots.price.value.get(),i=s.model.slots.free.get(),o=s.model.slots.recover.get(),l=s.model.slots.discount.get(),c=s.model.telecomRentStatus.get();if(e===Al.buySlot)return a.jsx("div",{className:zl,children:a.jsx(ka,{type:Ia.currency,size:de.extraSmall,enabled:l,classNames:{icon:Fl},children:a.jsx(ue,{type:r,size:de.extraSmall,reverse:!0,classNames:{base:t(Wl,Ol),icon:Vl},children:n})})});if(e===Al.rentTank){const e=Hl[c];return e?a.jsx(Pa,{className:Ll,upgradeLegacy:!0,path:e}):null}return a.jsxs("div",{className:Wl,children:[e===Al.buyTank&&a.jsx(Pa,{upgradeLegacy:!0,path:"menu.tankCarousel.vehicleStates.buyTankEmptyCount",params:{count:i}}),e===Al.restoreTank&&a.jsx(Pa,{upgradeLegacy:!0,path:"menu.tankCarousel.vehicleStates.restoreTankCount",params:{count:o}})]})});function Ul({type:s,width:r,height:n,doubleRow:i,className:o}){const l=xo(),c=X(),d=l.model.slots.price.value.get(),_=l.model.slots.price.defaultValue.get(),u=l.model.slots.discount.get();l.model.telecomRentStatus.get();const m=k.resolve("strings"),p=Ne(`hangar.carousel.actionCards.x48x48.${s}`,`hangar.carousel.actionCards.x96x96.${s}`),h=Ra({header:m.readOrEmpty(`tooltips.tanks_carousel.${El[s]}.header`),body:m.readOrEmpty(`tooltips.tanks_carousel.${El[s]}.body`)}),b=Ba("actionSlotPrice",e.useMemo(()=>[[d],[_]],[d,_]),e.useMemo(()=>({disabled:!u}),[u])),f=u&&El[s]===El.buySlot?b:h;return a.jsx(Bl,{...f,className:o,style:{width:void 0!==r?`${r}px`:void 0,height:void 0!==n?`${n}px`:void 0},"data-test-id":s,onClick:function(e){f.onClick(),c.play("click",{target:"vehicle:action-cards",original:e});const a={[Al.buySlot]:l.controls.buySlot,[Al.buyTank]:l.controls.goBuyVehicle,[Al.restoreTank]:l.controls.goRecoverVehicle,[Al.rentTank]:l.controls.selectTelecomRentalVehicle}[s];if("function"!=typeof a)return console.error(`Unknown action type ${s} in ${Ul.name} handleClick`);a()},onMouseEnter:function(e){f.onMouseEnter(e),c.play("mouse-enter",{target:"vehicle:action-cards",original:e})},children:a.jsxs("div",{className:t(Tl,i&&Dl),children:[a.jsx(Aa,{className:Ml,path:`hangar.carousel.actionCards.x32x32.${s}`,adaptive:{medium:{path:p}}}),a.jsx("div",{className:Ll,children:a.jsx(Pa,{path:`menu.tankCarousel.vehicleStates.${s}`})}),a.jsx($l,{type:s})]})})}const Gl="undamaged",ql="54033",Xl="50705",Zl="56833",Kl="51201",Yl={[ql]:"alpha",[Xl]:"alpha",[Kl]:"super",[Zl]:"super"},Ql="ammoNotFull",Jl="crewNotFull",ec="exploded",ac="destroyed",tc="damaged",sc="rentable",rc="rentableAgain",nc="rentalIsOver",ic="tooHeavy",oc="unsuitableToQueue",lc="unsuitableToUnit",cc="inPrebattle",dc="battle",_c="wot_plus_exclusive_vehicle_disabled",uc={[Ql]:"ammo",[Jl]:"crew",[ec]:"repair",[ac]:"repair",[tc]:"repair",[sc]:"rental",[rc]:"rental",[nc]:"rental",[ic]:"notSuitable",[oc]:"notSuitable",[lc]:"notSuitable",[cc]:"inPlatoon",[dc]:"inBattle",[_c]:"notSuitable"};function mc(e,a,t){return!(!e||a===qi||!t)&&(t.status!==oc&&t.maxBpScore>0)}const[pc,hc,bc]=D()(({observableModel:e})=>({...e.primitives(["isCrystalEarnEnabled","isDailyMultipliedXpEnabled","isInfiniteAmmo"])})),fc=()=>e.useContext(bc.Context),gc={base:"ProBoost_7490b440",arrow:"ProBoost_arrow_346b5e61",glow:"ProBoost_glow_280ac9aa",base__double:"ProBoost_base__double_b53eea3f",base__active:"ProBoost_base__active_7b71aa2e",corner:"ProBoost_corner_9f13801e",base__activating:"ProBoost_base__activating_7b71aa2e",triangle:"ProBoost_triangle_ae0f2fba",triangle__1:"ProBoost_triangle__1_1cb04326",triangle__2:"ProBoost_triangle__2_39aff7fd",triangle__3:"ProBoost_triangle__3_e738f7f2",base__deactivating:"ProBoost_base__deactivating_7b71aa2e"},vc={inactive:gc.base__inactive,activating:gc.base__activating,active:gc.base__active,deactivating:gc.base__deactivating};function xc({className:e,doubleRow:s,state:r="inactive",isCornerHidden:n=!1}){return"inactive"===r?null:a.jsxs("div",{className:t(gc.base,r&&vc[r],s&&gc.base__double,e),children:[a.jsx("div",{className:gc.glow}),!n&&a.jsx("div",{className:gc.corner}),a.jsx("div",{className:gc.arrow}),[gc.triangle__1,gc.triangle__2,gc.triangle__3].map(e=>a.jsx("div",{className:t(gc.triangle,e)},e))]})}const wc="Background_1089bc1c",Cc="Background_wotPlus_3cf6035a",yc="Background_crystal_6112fa42",jc="Background_bpBonus_86685469",Nc="Background_flag_beb58b8",Sc="Background_base__double_26effab7",kc="Background_flag__active_de322c1b",Ic="Background_vehicle_23ef6e2b",Pc="Background_vehicle__dimmed_7f14a6c7",Rc="Background_crystal__limit_61072361",Bc=Ea("Favorite","Background_favorite_d98f92cc",{variants:{active:{true:"Background_favorite__active_7f14a6c7"}}});function Ac({nationId:e,selected:s,active:r,className:n}){return a.jsx(Aa,{className:t(Nc,s||r&&kc,n),path:`hangar.carousel.cards.flags.x400x300.${Xe(e)}`,position:"top left"})}const Ec=w(function({vehicle:s,statistic:r,validBP:n,doubleRow:i,classNames:o}){var l;const c=(null==(l=fc())?void 0:l.model.isCrystalEarnEnabled.get())??!0,d=(Te((null==r?void 0:r.numberOfCrystalEarned)??[],1)??0)<=(Te((null==r?void 0:r.numberOfCrystalEarned)??[],0)??0),_=null==r?void 0:r.proBoostActive,u=null==r?void 0:r.fromWotPlus,m=c&&s.crystalEarning&&!u,p=Sa(_),h=e.useMemo(()=>_?!1===p?"activating":"active":p?"deactivating":"inactive",[_,p]);return a.jsxs(a.Fragment,{children:[u&&a.jsx("div",{className:t(Cc,null==o?void 0:o.wotPlus)}),a.jsx(xc,{state:h,className:null==o?void 0:o.proBoostIcon,doubleRow:i,isCornerHidden:m}),m&&a.jsx("div",{className:t(yc,d&&Rc,null==o?void 0:o.crystal)}),(null==r?void 0:r.bpSpecial)&&n&&a.jsx("div",{className:t(jc,null==o?void 0:o.bpBonus)})]})});function Tc({vehicle:e,validBP:s,dimmed:r,active:n,statistic:i,selected:o,doubleRow:l,...c}){return a.jsxs("div",{...c,className:t(wc,l&&Sc,c.className),children:[a.jsx(Ac,{nationId:e.nationId,active:n,selected:o}),a.jsx(Ta,{className:t(Ic,((null==i?void 0:i.status)&&i.status!==Gl||r)&&Pc),name:e.name}),a.jsx(Ec,{vehicle:e,statistic:i,validBP:s,doubleRow:l}),a.jsx(Bc,{active:e.favorite})]})}const Lc="Bonuses_8169b4b3",Dc="Bonuses_bonus_af8ebe7c",Wc="Bonuses_bonus__active_2364401e",Oc="Bonuses_bonusIcon_b65fb47f",Mc="Bonuses_bonusValue_322db074",Vc="Bonuses_rent_ea11a7e4",zc="Bonuses_base__double_ca1cd57b",Fc="Bonuses_icon_3991db74",Hc="Bonuses_text_a556857c",$c=k.resolve("strings");function Uc({bonusMultiplier:e,className:s,classNames:r}){return a.jsxs("div",{className:t(Dc,-1!==e&&Wc,s),children:[a.jsx("div",{className:t(Oc,null==r?void 0:r.icon)}),a.jsx("div",{className:t(Mc,null==r?void 0:r.value),children:`${$c.readOrEmpty("common.multiplierSmall")}${e}`})]})}const Gc=w(function({vehicle:e,statistic:s,doubleRow:r,...n}){var i;const o=(null==(i=fc())?void 0:i.model.isDailyMultipliedXpEnabled.get())??!0;return a.jsxs("div",{...n,className:t(Lc,r&&zc,n.className),children:[o&&s&&a.jsx(Uc,{bonusMultiplier:s.bonusMultiplier}),a.jsx(La.ShortCounter,{time:e.rent.leftTime,wins:e.rent.leftWins,battles:e.rent.leftBattles,classNames:{base:Vc,icon:Fc,text:Hc}})]})}),qc={base:"Information_dd628d50",info:"Information_info_b2948982",details:"Information_details_e5340a0c",base__double:"Information_base__double_6e8d4f26",text:"Information_text_a2b2c19b",text__level:"Information_text__level_e5a9014e",text__premium:"Information_text__premium_741ebb2f",truncatedText:"Information_truncatedText_ede7ae03",battlePass:"Information_battlePass_63749625",battlePass__bonus:"Information_battlePass__bonus_6e8d4f26",battlePass__active:"Information_battlePass__active_960b5eed",bpPoints:"Information_bpPoints_21ee2e63",points:"Information_points_b67585b1",points__slash:"Information_points__slash_b8c7004e",bpShadow:"Information_bpShadow_4248ba9f",bpIcon:"Information_bpIcon_a622154",prestige:"Information_prestige_95cc4ef2",prestige__active:"Information_prestige__active_960b5eed",identifier:"Information_identifier_1bcd619a",identifier__changeNation:"Information_identifier__changeNation_665b13a2",identifier__alpha:"Information_identifier__alpha_6e8d4f26",identifier__super:"Information_identifier__super_46b1ed0d",identifier__rent:"Information_identifier__rent_1fba5dce",identifierIcon:"Information_identifierIcon_3636b34b",identifierIcon__alpha:"Information_identifierIcon__alpha_ddf4d235",identifierIcon__super:"Information_identifierIcon__super_34b8f5c2",identifierIcon__changeNation:"Information_identifierIcon__changeNation_dfee83c8",fadeInWithScale:"Information_fadeInWithScale_6e8d4f26",slideUp:"Information_slideUp_6e8d4f26",blink:"Information_blink_6e8d4f26",scale:"Information_scale_6e8d4f26",rotate:"Information_rotate_6e8d4f26",windowIn:"Information_windowIn_6e8d4f26",fadeOut:"Information_fadeOut_6e8d4f26",fadeIn:"Information_fadeIn_6e8d4f26"},Xc=Ea("VehicleName",{element:e=>a.jsx(pa.Name,{...e}),className:qc.text,cva:{variants:{premium:{true:qc.text__premium}}}});function Zc({statistic:e,vehicle:s,className:r,status:n}){const i=k.resolve("views"),o=k.resolve("aliases"),l=k.resolve("strings"),c=Da({resId:o.read(e=>e.hangar.shared.VehiclesStatistics("resId")),contentId:i.read(e=>"paused"!==n?e.mono.battle_pass.tooltips.vehicle_bp_points("resId"):e.mono.battle_pass.tooltips.on_pause("resId")),args:{intCD:null==s?void 0:s.vehicleId}});return a.jsxs("div",{className:t(qc.battlePass,e.maxBpScore>0&&qc.battlePass__active,e.bpSpecial&&qc.battlePass__bonus,r),onMouseEnter:function(e){null==c||c.onMouseEnter(e)},onMouseLeave:function(e){null==c||c.onMouseLeave()},children:[a.jsxs("div",{className:qc.bpPoints,children:[a.jsx("div",{className:qc.points,children:Wa.formatNumber("integral",e.bpProgress)}),a.jsx("div",{className:t(qc.points,qc.points__slash),children:l.readOrEmpty("common.common.slash")}),a.jsx("div",{className:qc.points,children:Wa.formatNumber("integral",e.maxBpScore)}),a.jsx("div",{className:qc.bpShadow})]}),a.jsx("div",{className:qc.bpIcon})]})}function Kc({statistic:e,elite:s,vehicle:r,selected:n,classNames:i,className:o}){return a.jsxs("div",{className:t(qc.details,o),children:[e&&a.jsx(pa.Prestige,{level:e.prestigeLevel,grade:e.prestigeGrade,type:e.prestigeType,direction:Oa.left,className:t(qc.prestige,n&&qc.prestige__active,null==i?void 0:i.prestige)}),a.jsx(pa.Level,{className:t(qc.text,qc.text__level,null==i?void 0:i.level),value:r.level}),ha(r.type)&&a.jsx(pa.Type,{type:r.type,premium:s||(null==e?void 0:e.elite),size:pa.Type.sizes.x24x24,className:null==i?void 0:i.type})]})}function Yc({vehicle:e,className:s,classNames:r}){const n=Yl[e.id],i=e.nationChangeAvailable,o=e.rent.leftTime>0||e.rent.leftWins>0||e.rent.leftBattles>0;return a.jsxs("div",{className:t(qc.identifier,qc[`identifier__${n}`],i&&qc.identifier__changeNation,o&&qc.identifier__rent,s),children:[a.jsx(Xc,{className:null==r?void 0:r.name,premium:e.premium,children:a.jsx(_a,{className:qc.truncatedText,text:e.shortName})}),(n||i)&&a.jsx("div",{className:t(qc.identifierIcon,qc[`identifierIcon__${n}`],i&&qc.identifierIcon__changeNation,null==r?void 0:r.icon)})]})}const Qc=w(function({vehicle:e,statistic:s,selected:r,doubleRow:n,...i}){const o=xo(),l=o.model.bpState.active.get(),c=o.model.bpState.status.get();return a.jsxs("div",{...i,className:t(qc.base,n&&qc.base__double,i.className),children:[s&&mc(l,c,s)&&a.jsx(Zc,{vehicle:e,statistic:s,status:c}),a.jsxs(pa,{className:qc.info,children:[a.jsx(Kc,{vehicle:e,statistic:s,selected:r}),a.jsx(Yc,{vehicle:e})]})]})}),Jc={base:"Overlay_ef16c91",alert:"Overlay_alert_db4a0e15",alertIcon:"Overlay_alertIcon_3d7c077a",base__double:"Overlay_base__double_3c7155a",alertText:"Overlay_alertText_ca764641",alertText__light:"Overlay_alertText__light_bece984e"};function ed({status:e,classNames:s,className:r}){const n=k.resolve("images"),i=Ne(`hangar.carousel.cards.alerts.${uc[e]}`,`hangar.carousel.cards.alerts.${uc[e]}_upscale`),o=Ne("hangar.carousel.cards.alerts.notSuitable","hangar.carousel.cards.alerts.notSuitable_upscale"),l=e===dc||e===cc;return a.jsxs("div",{className:t(Jc.alert,r),children:[a.jsx(Aa,{className:t(Jc.alertIcon,null==s?void 0:s.icon),path:n.has(i)?i:o}),a.jsx(Pa,{upgradeLegacy:!0,className:t(Jc.alertText,l&&Jc.alertText__light,null==s?void 0:s.text),path:`menu.tankCarousel.vehicleStates.${e}`,params:{icon:a.jsx(Aa,{path:"library.premium_small",width:34,height:16})}})]})}function ad({statistic:e,doubleRow:s,...r}){return e.status===Gl?null:a.jsx("div",{...r,className:t(Jc.base,s&&Jc.base__double,r.className),children:a.jsx(ed,{status:e.status})})}Ea("Disable",Jc.disable);const td="Card_e79008fd",sd="Card_base__double_f8b7f334",rd="Card_content_a6141b08",nd="Card_border_e9cb9a85",id=k.resolve("views"),od=k.resolve("aliases"),ld=w(function({vehicleId:e,selected:s=!1,doubleRow:r,children:n,concurrent:i,...o}){const l=xo(),c=Qi().model.get(e),d=Ki().model.get(e),_=X(),u=l.model.current.inventoryId.get(),m=l.model.prebattleModeActive(),p=l.model.bpState.active.get(),h=l.model.bpState.status.get();if(!c||!d)return a.jsx(Bl,{...o});const b=i?cd:Tc;return a.jsxs(Bl,{...o,className:t("vehicle-card",o.className),selected:s,"data-test-id":`vehicleCard-${e}`,onMouseEnter:function(e){var a;_.play("mouse-enter",{target:"vehicle-card",original:e}),null==(a=o.onMouseEnter)||a.call(o,e)},onMouseLeave:function(e){var a;null==(a=o.onMouseLeave)||a.call(o,e)},onClick:function(e){var a;m||c&&c.inventoryId===u||(_.play("click",{target:"vehicle-card",original:e}),l.controls.select(c.inventoryId),null==(a=o.onClick)||a.call(o,e))},children:[a.jsx(b,{vehicle:c,validBP:mc(p,h,d),dimmed:m,statistic:d,selected:s,doubleRow:r}),a.jsx(dd,{concurrent:i,statistic:d,vehicle:c,selected:s,disableContextMenu:m,doubleRow:r})]})});function cd(t){const[s,r]=e.useState(!0),[,n]=e.useTransition();return e.useEffect(()=>{s&&n(()=>r(!1))},[s]),s?null:a.jsx(Tc,{...t})}function dd({vehicle:s,statistic:r,selected:n,doubleRow:i,concurrent:o,disableContextMenu:l}){const[c,d]=e.useState(o),[,_]=e.useTransition(),u=Ma("vehicle",e.useMemo(()=>({inventoryId:null==s?void 0:s.inventoryId}),[null==s?void 0:s.inventoryId])),m=Da({resId:od.read(e=>e.hangar.shared.VehiclesInventory("resId")),contentId:id.read(e=>e.mono.hangar.vehicle_tooltip("resId")),args:C.useMemo(()=>({inventoryId:null==s?void 0:s.inventoryId}),[null==s?void 0:s.inventoryId])});return e.useEffect(()=>{c&&_(()=>d(!1))},[c]),c?null:a.jsxs("div",{...m,...!l&&u,className:t(td,i&&sd),children:[a.jsxs("div",{className:rd,children:[a.jsx(Gc,{vehicle:s,statistic:r,doubleRow:i}),a.jsx(Qc,{vehicle:s,selected:n,statistic:r,doubleRow:i})]}),a.jsx(ad,{statistic:r,doubleRow:i})]})}const _d={empty:"ActiveSlots_empty_9aab1ce1",doubleSlots:"ActiveSlots_doubleSlots_2ce42013",slot__double:"ActiveSlots_slot__double_e321ab18"};function ud({width:e,className:t}){return a.jsx("div",{className:_d.empty,children:a.jsx(Bl,{className:t,style:{width:`${e}px`},children:a.jsx("div",{className:_d.vehicleSlot})})})}function md({slotId:s,width:r,currentVehicleId:n,double:i,className:o}){const l=function(a){const t=No(),s=Boolean(t&&t.model.computeds.enabled()),r=!t||t.model.computeds.isVehiclePlaylistsEmpty(),n=$(()=>{s&&!r&&t.model.vehicleId.get()===a&&t.controls.reset()});return e.useMemo(()=>{if(s&&!r)return{"data-popover-trigger-id":nl(a),onMouseDown:n}},[r,s,n,a])}(Number(s));return void 0===s?null:s in Al?a.jsx(Ul,{className:t(nd,o),type:s,width:r,doubleRow:i}):"emptySlot"===s?a.jsx(ud,{className:t(nd,o),width:r}):a.jsx(ld,{...l,vehicleId:s,selected:s===n,doubleRow:i,className:t(nd,o),style:{width:r}})}function pd({chunkedSlots:e,classNames:s,...r}){return void 0===e?null:a.jsx("div",{className:_d.doubleSlots,children:e.map((e,n)=>a.jsx(md,{...r,slotId:e,className:t(_d.slot__double,null==s?void 0:s.slot)},n))})}const hd={button:"ArrowButton_button_7654af94",icon:"ArrowButton_icon_35e5294f",button__left:"ArrowButton_button__left_5327085d",background:"ArrowButton_background_5327085d",border:"ArrowButton_border_5327085d",overlay:"ArrowButton_overlay_c36cbc33",content:"ArrowButton_content_4666fd05",button__right:"ArrowButton_button__right_5327085d",fadeInWithScale:"ArrowButton_fadeInWithScale_5327085d",slideUp:"ArrowButton_slideUp_5327085d",blink:"ArrowButton_blink_5327085d",scale:"ArrowButton_scale_5327085d",rotate:"ArrowButton_rotate_5327085d",windowIn:"ArrowButton_windowIn_5327085d",fadeOut:"ArrowButton_fadeOut_5327085d",fadeIn:"ArrowButton_fadeIn_5327085d"};function bd({direction:e,className:s,...r}){return a.jsx(B,{...r,classNames:{base:t(hd.button,hd[`button__${e}`],s),background:hd.background,border:hd.border,overlay:hd.overlay,content:hd.content},theme:B.themes.secondary,size:B.sizes.small,autoAlignContent:!1,soundTarget:"carousel:arrow_button",children:a.jsx(Aa,{path:"hangar.carousel.buttonArrow",className:hd.icon})})}bd.direction={right:"right",left:"left"};const fd={navButtonWrapper:"CarouselNavButtons_navButtonWrapper_a13c2a68",navButton:"CarouselNavButtons_navButton_adcc2e9b",navButton__left:"CarouselNavButtons_navButton__left_5f6dc3a0",navButton__right:"CarouselNavButtons_navButton__right_66b4f03f",navButton__hidden:"CarouselNavButtons_navButton__hidden_69011a0b",mask:"CarouselNavButtons_mask_17bb1a0e",mask__both:"CarouselNavButtons_mask__both_7294632e",mask__left:"CarouselNavButtons_mask__left_e8bc4c90",mask__right:"CarouselNavButtons_mask__right_6be519f7",fadeInWithScale:"CarouselNavButtons_fadeInWithScale_3f67251c",slideUp:"CarouselNavButtons_slideUp_3f67251c",blink:"CarouselNavButtons_blink_3f67251c",scale:"CarouselNavButtons_scale_3f67251c",rotate:"CarouselNavButtons_rotate_3f67251c",windowIn:"CarouselNavButtons_windowIn_3f67251c",fadeOut:"CarouselNavButtons_fadeOut_3f67251c",fadeIn:"CarouselNavButtons_fadeIn_3f67251c"};function gd(e){return({button:a})=>{0===a&&e()}}function vd({itemWidth:s,api:r,children:n}){const i=e.useRef(null),[o,l]=e.useState(!1),{applyScroll:c,animationScroll:d,disabled:_}=r,[u,m]=ie(r),p=u||_,h=m||_;function b(e){function a(){const a=d.scrollPosition.get();c(a+e*s)}o||(a(),i.current=window.setInterval(a,100),l(!0))}function f(){null!==i.current&&(clearInterval(i.current),i.current=null),l(!1)}return a.jsxs("div",{className:fd.navButtonWrapper,children:[a.jsx(bd,{direction:bd.direction.left,onMouseDown:gd(()=>b(-1)),onMouseUp:f,onMouseLeave:f,className:t(fd.navButton,fd.navButton__left,p&&fd.navButton__hidden)}),a.jsx("div",{className:t(fd.mask,fd[`mask__${hl(u,m)}`]),children:n}),a.jsx(bd,{direction:bd.direction.right,onMouseDown:gd(()=>b(1)),onMouseUp:f,onMouseLeave:f,className:t(fd.navButton,fd.navButton__right,h&&fd.navButton__hidden)})]})}const xd={base:"CarouselScroll_3690a837",areaContent:"CarouselScroll_areaContent_f5dd7772"},wd="dragging",Cd="idle";function yd({api:s,children:r,className:n,areaClassNames:i,staticContent:o,disabled:l,onDraggingState:c}){const{animationScroll:d,applyScroll:_,setDisabled:u}=s,m=za(s,Ha.horizontal,void 0,{gapBeforeStart:5});return e.useEffect(()=>{null==c||c(m.type===wd)},[m.type,c]),e.useEffect(()=>{u(l)},[l,u]),e.useEffect(()=>Ce(()=>{m.type===Cd&&d.scrollPosition.idle&&_(d.scrollPosition.get())}),[d.scrollPosition,m,_]),a.jsx("div",{className:t(xd.base,n),children:a.jsxs(Fa,{className:null==i?void 0:i.base,classNames:{wrapper:t(xd.areaWrapper,null==i?void 0:i.wrapper),content:t(xd.areaContent,null==i?void 0:i.content)},children:[r,o]})})}const jd="CarouselSkeleton_1ac002e3",Nd="CarouselSkeleton_content_b18f8dd7",Sd="CarouselSkeleton_scroll_badf82c7";function kd(e){return a.jsx("div",{...e,className:t(Nd,e.className)})}function Id({api:e,widthElement:s,totalElements:r,disabled:n,onDraggingState:i,renderElement:o,classNames:l}){return a.jsx("div",{className:t(jd,null==l?void 0:l.base),children:a.jsx(vd,{api:e,itemWidth:s,children:a.jsx($a,{api:e,elementWidth:s-Va(1),direction:"horizontal",totalElements:r,wrappers:{Content:kd},className:t(Sd,null==l?void 0:l.scroll),renderScroll:t=>a.jsx(yd,{...t,api:e,disabled:n,onDraggingState:i,children:t.children}),renderElement:e=>o?o(e):a.jsx(ud,{className:null==l?void 0:l.element,width:s})})})})}function Pd(a,t,s,r){return e.useMemo(()=>{if(!t)return{activeSlotsAmount:0,activeSlotsIds:[]};const e=((e,a)=>({left:[...a!=go?[Al.rentTank]:[]],right:[Al.buyTank,...e>0?[Al.restoreTank]:[],Al.buySlot]}))(s,r),n=a.length+e.right.length+e.left.length,i=Math.max(0,t-n);return{activeSlotsAmount:n,activeSlotsIds:[...e.left,...a,...e.right,...Array(i).fill(ol)]}},[s,a,t,r])}function Rd({api:a,carouselRows:t}){const s=function(e){const a=I(pl.default,pl.breakpoints);return Va(2===e?a.double:a.single)}(t),[r,n]=e.useState({carouselRows:0,cardWidth:0,visibleSlots:0});return e.useLayoutEffect(()=>{function e(){const e=a.getWrapperSize();e&&n(2!==t?{visibleSlots:Math.ceil(e/s),cardWidth:s,carouselRows:t}:{visibleSlots:Math.ceil(e/s*t),cardWidth:s,carouselRows:t})}e();return(new Z).add(a.events.on("resizeHandled",e)).add(a.events.on("recalculateContent",e)).dispose},[a,s,t]),r}const Bd="Carousel_draggingOverlay_2ac699b0",Ad="Carousel_9b3e04da",Ed="Carousel_base__visible_24d53d12",Td="Carousel_card_5449ec9a",Ld="Carousel_card__inactive_c59331d9";w(function(){const s=No(),[r,n]=e.useState(!1),{api:i}=Ua(),o=xo(),l=Gi().model.carouselRowCount.get(),c=o.model.prebattleModeActive(),d=o.model.telecomRentStatus.get(),_=o.model.current.ids(),u=o.model.current.list(),m=o.model.selectedVehicle(),p=null==m?void 0:m.id,{currentIndex:h}=function(a,t){return e.useMemo(()=>{if(!t)return{currentIndex:-1,currentPosition:-1};const e=a.indexOf(t);return{currentIndex:e,currentPosition:e>=0?e+1:-1}},[a,t])}(_,p),b=Sa(p),f=o.model.slots.recover.get(),{carouselRows:g,cardWidth:v,visibleSlots:x}=Rd({api:i,carouselRows:l}),{activeSlotsAmount:w,activeSlotsIds:C}=Pd(_,x,f,d),j=(N=C,e.useMemo(()=>{var e,a;const t=[];for(let s=0;s<N.length;s+=2)t.push(N.slice(s,s+2));return 1===(null==(e=t.at(-1))?void 0:e.length)&&(null==(a=t.at(-1))||a.push(ol)),t},[N]));var N;e.useEffect(()=>{const e=Ga(500,!0,()=>qa.contextMenu.hide(0,k.resolve("aliases").read(e=>e.common.contextMenu.Backport("resId"))));return i.events.on("change",e),()=>{e.cancel(),i.events.off("change",e)}},[i]),function(a,t,s,r,n,i){const o=e.useRef(null);e.useLayoutEffect(()=>{function e(){const e=a.getWrapperSize(),l=a.animationScroll.scrollPosition.get();if(!e)return;i&&a.applyScroll(0,{immediate:!0});const c=s-Va(1),d=l,_=l+e,u=c*Math.floor(t/r),m=u+c,p=u-Math.floor(e/c)/2*c;u>d&&m<_?(o.current&&n&&0!==o.current-n&&a.applyScroll(p,{immediate:!0}),o.current=n):(o.current=n,a.applyScroll(p,{immediate:!0}))}return e(),(new Z).add(a.events.on("resizeHandled",e)).add(a.events.on("recalculateContent",e)).dispose},[t,a,s,r,i,n])}(i,h,v,g,_.length,x>w),function(e,a,t,s,r){const n=2===s;function i(s){t(-1!==e?a[e+s].inventoryId:a[0].inventoryId)}const o=[{key:L.ARROW_DOWN,blockKey:!n||e%s===s-1||e===a.length-1,action:()=>i(1)},{key:L.ARROW_UP,blockKey:!n||e%s===0,action:()=>i(-1)},{key:L.ARROW_LEFT,blockKey:n?e<s:0===e,action:()=>i(-s)},{key:L.ARROW_RIGHT,blockKey:n?e>a.length-(s+1):e===a.length-1,action:()=>i(s)},{key:L.HOME,blockKey:0===a.length,action:()=>t(a[0].inventoryId)},{key:L.END,blockKey:0===a.length,action:()=>t(a[a.length-1].inventoryId)}];for(const{key:l,blockKey:c,action:d}of o){const e=r||c?L.NONE:l;be(e,d)}}(h,u,o.controls.select,g,0===_.length||c);const S=function(a,t){const[s,r]=e.useState(0===t),n=wa();return e.useEffect(()=>{if(s||0===t)return r(!0);function e(){r(!0),i.dispose(),n.clear()}n.run(e);const i=(new Z).add(n.clear).add(a.events.on("resizeHandled",()=>n.run(e))).add(a.events.on("recalculateContent",()=>n.run(e)));return i.dispose},[a,t,s,n]),s}(i,_.length);return e.useEffect(()=>{s&&s.model.computeds.enabled()&&p!==b&&s.controls.reset()},[p,b,s]),a.jsxs(a.Fragment,{children:[a.jsx(Id,{api:i,widthElement:v,totalElements:2===g?j.length:C.length,disabled:x>w,onDraggingState:n,classNames:{base:t(Ad,S&&Ed),element:t(Td,r&&Ld)},renderElement:e=>{const s=t(Td,r&&Ld);return 2===g?a.jsx(Xa,{failure:()=>a.jsx(ud,{className:s,width:v}),children:a.jsx(pd,{chunkedSlots:j[e],currentVehicleId:p,width:v,classNames:{slot:s},double:!0},e)}):a.jsx(Xa,{failure:()=>a.jsx(ud,{className:s,width:v}),children:a.jsx(md,{slotId:C[e],currentVehicleId:p,width:v,className:s,double:!1},C[e]??e)})}}),s&&s.model.computeds.enabled()&&a.jsx(il,{freeSpaceRem:0,tipSize:"32rem"}),y.createPortal(r&&a.jsx("div",{className:Bd}),document.body)]})});const Dd="ActiveCardHeader_235d362d",Wd="ActiveCardHeader_activeText_530ba0e9",Od="ActiveCardHeader_idleVideo_b2e26623",Md=function({text:e,videoSrc:s,className:r="",classNames:n}){return a.jsxs("div",{className:t(Dd,r),children:[a.jsx("div",{className:t(Wd,null==n?void 0:n.activeText),children:e}),a.jsx(Oe,{className:t(Od,null==n?void 0:n.idleVideo),src:s,autoplay:!0,loop:!0})]})},Vd="Content_8ce13fac",zd="Content_base__disabled_da09528a",Fd="Content_base__selected_da09528a";function Hd({children:e,selected:s,disabled:r}){return a.jsx("div",{className:t(Vd,s&&Fd,r&&zd),children:e})}const $d="Slot_750e4447",Ud="Slot_base__disabled_440d6866",Gd="Slot_content_27d2b58",qd="Slot_base__active_71f19f5c",Xd="Slot_base__selected_71f19f5c",Zd="Slot_selected_302eadc9",Kd="Slot_selected__border_e2a17304";function Yd({children:e,selected:s=!1,disabled:r=!1,active:n=!1,className:i,...o}){return a.jsx("div",{...o,className:t($d,n&&qd,s&&Xd,r&&Ud,i),children:a.jsxs("div",{className:Gd,children:[a.jsx(Hd,{selected:s,disabled:r,children:e}),s&&a.jsx("div",{className:t(Zd,Kd)}),a.jsx("div",{className:Zd})]})})}const Qd="regular",Jd="postprogression",e_="extra",a_=(e,a)=>e?e_:a?Jd:Qd,t_={regular:{extraSmall:{cardWidth:"262rem",cardHeight:"166rem",rewardWidth:"288rem",rewardHeight:"192rem"},small:{cardWidth:"262rem",cardHeight:"166rem",rewardWidth:"288rem",rewardHeight:"192rem"},medium:{cardWidth:"326rem",cardHeight:"206rem",rewardWidth:"360rem",rewardHeight:"240rem"},large:{cardWidth:"406rem",cardHeight:"256rem",rewardWidth:"450rem",rewardHeight:"300rem"},extraLarge:{cardWidth:"486rem",cardHeight:"306rem",rewardWidth:"540rem",rewardHeight:"360rem"}},postprogression:{extraSmall:{cardWidth:"198rem",cardHeight:"166rem",rewardWidth:"192rem",rewardHeight:"192rem"},small:{cardWidth:"198rem",cardHeight:"166rem",rewardWidth:"192rem",rewardHeight:"192rem"},medium:{cardWidth:"246rem",cardHeight:"206rem",rewardWidth:"240rem",rewardHeight:"240rem"},large:{cardWidth:"306rem",cardHeight:"256rem",rewardWidth:"300rem",rewardHeight:"300rem"},extraLarge:{cardWidth:"366rem",cardHeight:"306rem",rewardWidth:"360rem",rewardHeight:"360rem"}},extra:{extraSmall:{cardWidth:"262rem",cardHeight:"230rem",rewardWidth:"288rem",rewardHeight:"256rem"},small:{cardWidth:"262rem",cardHeight:"230rem",rewardWidth:"288rem",rewardHeight:"256rem"},medium:{cardWidth:"326rem",cardHeight:"286rem",rewardWidth:"360rem",rewardHeight:"320rem"},large:{cardWidth:"406rem",cardHeight:"356rem",rewardWidth:"450rem",rewardHeight:"400rem"},extraLarge:{cardWidth:"486rem",cardHeight:"426rem",rewardWidth:"540rem",rewardHeight:"480rem"}}},s_={base:"Status_d06498e2",icon:"Status_icon_1af01ceb",base__done:"Status_base__done_35b9a31c",base__locked:"Status_base__locked_35b9a31c",line:"Status_line_324edf86",shadow:"Status_shadow_75136b3b",glowInner:"Status_glowInner_3e65d7dc",blur:"Status_blur_fe6f30fc",glowBig:"Status_glowBig_156fcd01",fadeInWithScale:"Status_fadeInWithScale_35b9a31c",slideUp:"Status_slideUp_35b9a31c",blink:"Status_blink_35b9a31c",scale:"Status_scale_35b9a31c",rotate:"Status_rotate_35b9a31c",windowIn:"Status_windowIn_35b9a31c",fadeOut:"Status_fadeOut_35b9a31c",fadeIn:"Status_fadeIn_35b9a31c"},r_=({type:e,className:s})=>a.jsxs("div",{className:t(s_.base,s_[`base__${e}`],s),children:[a.jsx("div",{className:s_.glowBig}),a.jsx("div",{className:s_.line}),a.jsx("div",{className:s_.shadow}),a.jsx("div",{className:s_.glowInner}),a.jsx("svg",{width:"42",height:"42",viewBox:"0 0 42 42",className:s_.blur,children:a.jsx("g",{children:a.jsx("circle",{cx:"21",cy:"21",r:"3"})})}),a.jsx("div",{className:t(s_.icon)})]}),n_="UnlockedState_d8033d83",i_="UnlockedState_stages_ef0d6acd",o_="UnlockedState_mainStage_286ea378",l_="UnlockedState_additionalStage_83045438",c_="UnlockedState_cycleText_5b49e844",d_=R.strings.battle_pass.chapterChoice,__=function({currentLevel:e,cyclesCompletedCount:t,maxLevel:s}){const r=(e-1)%s;return a.jsxs("div",{className:n_,children:[a.jsx(E,{classMix:c_,text:d_.postprogression.unlocked.cycle(),binding:{cycle:t+1}}),a.jsxs("div",{className:i_,children:[a.jsx("span",{className:o_,children:`${r}`}),a.jsx(E,{classMix:l_,text:d_.stages.additional(),binding:{level:s}})]})]})},u_="PostprogressionInfo_f8fcfc44",m_="PostprogressionInfo_lockedText_c823728d",p_=R.strings.battle_pass.chapterChoice,h_=i(function({chapterID:e}){const{model:t}=Si(),s=t.computes.getChapterById(e);if(!s)return;const{currentLevel:r,cyclesCompletedCount:n,maxLevel:i}=s,o=t.computes.regularChapters().length-1!==t.computes.regularChaptersCompleteCount();return a.jsx("div",{className:u_,children:o?a.jsx(_e,{className:m_,text:p_.postprogression.locked(),params:{count:t.computes.regularChapters().length-1}}):a.jsx(__,{currentLevel:r,cyclesCompletedCount:n,maxLevel:i})})}),b_="CompletedState_completeText_f209b72f",f_="CompletedState_completeText__bought_4533734f",g_=R.strings.battle_pass.chapterChoice,v_=function({isBought:e,chapterRewardsCount:s}){return a.jsx(a.Fragment,{children:e?a.jsx("div",{className:t(b_,f_),children:g_.stages.complete.improved()}):a.jsx(E,{classMix:b_,text:g_.stages.complete.unimproved(),binding:{count:s}})})},x_="UncompletedState_9e8c0393",w_="UncompletedState_mainStage_5808557f",C_="UncompletedState_additionalStage_ef80ee9c",y_=R.strings.battle_pass.chapterChoice,j_=function({currentLevel:e,maxStages:t}){return a.jsxs("div",{className:x_,children:[a.jsx("span",{className:w_,children:""+(e-1)}),a.jsx(E,{classMix:C_,text:y_.stages.additional(),binding:{level:t}})]})},N_="RegularInfo_46f7818d",S_="RegularInfo_uncomplete_854e3542";R.strings.battle_pass.chapterChoice;const k_=i(function({chapterID:e}){const{model:t}=Si(),s=t.computes.getChapterById(e);if(!s)return;const{currentLevel:r,chapterState:n,isBought:i,chapterRewardsCount:o,maxLevel:l}=s;return a.jsx("div",{className:N_,children:n===Os.Completed?a.jsx(v_,{isBought:i,chapterRewardsCount:o}):a.jsx("div",{className:S_,children:a.jsx(j_,{currentLevel:r,maxStages:l})})})}),I_={base:"CardInfo_7298ebd2",base__postprogression:"CardInfo_base__postprogression_f10eeba",infoIcon:"CardInfo_infoIcon_fe2dde8d",infoIcon__x60x60:"CardInfo_infoIcon__x60x60_69dd0923",infoIcon__x80x80:"CardInfo_infoIcon__x80x80_39f83cbc",infoIcon__x120x120:"CardInfo_infoIcon__x120x120_a47141e5",infoDescription:"CardInfo_infoDescription_af2ed432",chapterName:"CardInfo_chapterName_91c4f3ea",chapterName__bought:"CardInfo_chapterName__bought_a3ef657b",fadeInWithScale:"CardInfo_fadeInWithScale_8e8a9c2",slideUp:"CardInfo_slideUp_8e8a9c2",blink:"CardInfo_blink_8e8a9c2",scale:"CardInfo_scale_8e8a9c2",rotate:"CardInfo_rotate_8e8a9c2",windowIn:"CardInfo_windowIn_8e8a9c2",fadeOut:"CardInfo_fadeOut_8e8a9c2",fadeIn:"CardInfo_fadeIn_8e8a9c2"},P_=k.resolve("images"),R_=k.resolve("strings"),B_=R.strings.battle_pass.chapterChoice,A_=i(function({chapterID:e,className:s=""}){const{model:r}=Si(),{breakpoint:n}=ge(),i=r.computes.getChapterById(e),o=I({iconSize:dn},{large:{iconSize:_n},extraLarge:{iconSize:mn}}),l=Ne(o.iconSize,pn);if(!i)return;const{isBought:c,isPostProgression:d,isExtra:_}=i,u=a_(_,d),m=(()=>{const a=String(e).slice(-1);return P_.readOrEmpty(`battlePass.emblem.icon.c_${e}.${c?"purchased":"basic"}.${l}`,"silent")||P_.readOrEmpty(`battlePass.emblem.icon.default_${a}.${c?"purchased":"basic"}.${l}`)})();return a.jsxs("div",{className:t(I_.base,d&&I_.base__postprogression),children:[a.jsx("div",{className:t(I_.infoIcon,I_[`infoIcon__${o.iconSize}`]),style:{backgroundImage:`url(${m})`}}),a.jsxs("div",{className:I_.infoDescription,style:{"--card-width":t_[u][n.name].cardWidth},children:[a.jsx("div",{className:t(I_.chapterName,c&&I_.chapterName__bought),children:d?B_.postprogression.name():R_.readOrEmpty(`battle_pass.chapter.fullName.c_${e}`)}),d?a.jsx(h_,{chapterID:e}):a.jsx(k_,{chapterID:e})]})]})}),E_={base:"CardTemplate_664f5f0d",bg:"CardTemplate_bg_e653648c",reward:"CardTemplate_reward_4b474b06",base__paused:"CardTemplate_base__paused_5ee959db",base__notStarted:"CardTemplate_base__notStarted_5ee959db",base__completed:"CardTemplate_base__completed_5ee959db",base__selected:"CardTemplate_base__selected_5ee959db",progressBar:"CardTemplate_progressBar_9b805b48",progressBar__active:"CardTemplate_progressBar__active_5ddba882",progressBarBg:"CardTemplate_progressBarBg_5ee959db",info:"CardTemplate_info_b6b5a8af",status:"CardTemplate_status_4dbaa00d",fadeInWithScale:"CardTemplate_fadeInWithScale_5ee959db",slideUp:"CardTemplate_slideUp_5ee959db",blink:"CardTemplate_blink_5ee959db",scale:"CardTemplate_scale_5ee959db",rotate:"CardTemplate_rotate_5ee959db",windowIn:"CardTemplate_windowIn_5ee959db",fadeOut:"CardTemplate_fadeOut_5ee959db",fadeIn:"CardTemplate_fadeIn_5ee959db"},T_=k.resolve("images"),L_=(e,a=!1)=>e===Os.Completed?Ka.done:a?Ka.locked:void 0,D_=i(function({chapterID:e,classNames:s={}}){const{model:r}=Si(),{breakpoint:n}=ge(),i=r.computes.getChapterById(e);if(!i)return;const{chapterState:o,isExtra:l,isPostProgression:c,currentLevel:d,maxLevel:_}=i,u=a_(l,c),m=e===r.selectedChapterID.get(),p=r.computes.regularChapters().length-1!==r.computes.regularChaptersCompleteCount()&&c,h=String(e).slice(-1),b=T_.readOrEmpty(`battlePass.chapter_choice.card_bg.c_${e}`,"silent")||T_.readOrEmpty(`battlePass.chapter_choice.card_bg.default_${h}`),f=T_.readOrEmpty(`battlePass.chapter_choice.tanks.c_${e}`,"silent")||T_.readOrEmpty(`battlePass.chapter_choice.tanks.default_${h}`);return a.jsxs("div",{className:t(E_.base,E_[`base__${o}`],m&&E_.base__selected),children:[a.jsx("div",{className:E_.bg,style:{backgroundImage:`url(${b})`}}),a.jsx("div",{className:t(E_.reward,s.reward),style:{backgroundImage:`url(${f})`,width:t_[u][n.name].rewardWidth,height:t_[u][n.name].rewardHeight}}),o!==Os.Completed&&!c&&a.jsx(Za,{value:d,maxValue:_,size:"small",className:t(E_.progressBar,o===Os.Active&&E_.progressBar__active),classNames:{background:E_.progressBarBg}}),a.jsx("div",{className:E_.info,children:a.jsx(A_,{chapterID:e})}),L_(o,p)&&a.jsx("div",{className:E_.status,children:a.jsx(r_,{type:L_(o,p)})})]})}),W_={base:"Card_3be28e6f",base__extra:"Card_base__extra_5e0e439b",slot:"Card_slot_356826af",active:"Card_active_741bc02a",info:"Card_info_9eddf15f",idleVideo__regular:"Card_idleVideo__regular_f4c22d1c",idleVideo__extra:"Card_idleVideo__extra_4cdfaaf7",idleVideo__postprogression:"Card_idleVideo__postprogression_b28e5b27",fadeInWithScale:"Card_fadeInWithScale_f4c22d1c",slideUp:"Card_slideUp_f4c22d1c",blink:"Card_blink_f4c22d1c",scale:"Card_scale_f4c22d1c",rotate:"Card_rotate_f4c22d1c",windowIn:"Card_windowIn_f4c22d1c",fadeOut:"Card_fadeOut_f4c22d1c",fadeIn:"Card_fadeIn_f4c22d1c"},O_=R.strings.battle_pass.chapterChoice,M_=i(function({chapterID:e}){const{model:s,controls:r}=Si(),{breakpoint:n}=ge(),i=s.computes.getChapterById(e);if(!i)return;const{chapterState:o,isPostProgression:l,isExtra:c}=i,d=s.selectedChapterID.get(),_=s.computes.selectedChapter(),u=s.computes.sortedChapters().indexOf(_),m=a_(c,l);return a.jsxs("div",{className:t(W_.base,c&&W_.base__extra),children:[o===Os.Active&&a.jsx(Md,{text:l?O_.activeChapter.postprogression.text():O_.activeChapter.text(),videoSrc:R.videos.battle_pass.chapter_choice.activeAnimation(),className:W_.active,classNames:{idleVideo:W_[`idleVideo__${l?Jd:Qd}`]}}),a.jsx(Yd,{selected:d===e,active:o===Os.Active,onClick:()=>{e!==d&&(r.setPrevChapterIndex(u),r.setSelectedChapterID(e),r.onChapterSelect(e),Pe.sound(R.sounds.bp_select_chapter()))},onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02())},className:W_.slot,style:{width:t_[m][n.name].cardWidth,height:t_[m][n.name].cardHeight},"data-test-id":`chapterID-${e}`,children:a.jsx(D_,{chapterID:e})})]})}),V_={base:"CardsContent_f347026f",mask:"CardsContent_mask_b9df56c2",mask__both:"CardsContent_mask__both_a3217d34",mask__left:"CardsContent_mask__left_96e6e67c",mask__right:"CardsContent_mask__right_50882304",cardsWrapper:"CardsContent_cardsWrapper_7a6da9dd",cardsWrapper__inactive:"CardsContent_cardsWrapper__inactive_92450b8d",scrollWrapper:"CardsContent_scrollWrapper_e65fe5a6",scrollBar:"CardsContent_scrollBar_9c08690c",fadeInWithScale:"CardsContent_fadeInWithScale_ef18ba3c",slideUp:"CardsContent_slideUp_ef18ba3c",blink:"CardsContent_blink_ef18ba3c",scale:"CardsContent_scale_ef18ba3c",rotate:"CardsContent_rotate_ef18ba3c",windowIn:"CardsContent_windowIn_ef18ba3c",fadeOut:"CardsContent_fadeOut_ef18ba3c",fadeIn:"CardsContent_fadeIn_ef18ba3c"},z_=i(function(){const{model:s,controls:r}=Si(),[n,i]=e.useState(!1),{api:o}=Ua(),{animationScroll:l,applyScroll:c,getBounds:d}=o,_=s.computes.selectedChapter(),u=s.computes.sortedChapters(),m=u.indexOf(_),p=za(o,Ha.horizontal,void 0,{gapBeforeStart:5}),[h,b]=ie(o);e.useEffect(()=>{_&&r.setSelectedChapterID(_.chapterID)},[r,_]),e.useEffect(()=>Ce(()=>{"idle"===p.type&&l.scrollPosition.idle&&c(l.scrollPosition.get())}),[l.scrollPosition,c,p.type]),e.useEffect(()=>{const e=u.indexOf(_),[a,t]=d();c(e>=Math.floor(u.length/2)?t:a)},[c,d,_,u]),e.useEffect(()=>{i("dragging"===p.type)},[p.type]),e.useEffect(()=>{const e=(e,a,t)=>{!1===(Qa(a.get(),t)&&Qa(a.goal,t))&&e.stopPropagation()};return o.events.on("mouseWheel",e),()=>{o.events.off("mouseWheel",e)}},[o]);const f=(e,a)=>{Ja(void 0!==u[e]),r.setSelectedChapterID(u[e].chapterID),r.onChapterSelect(u[e].chapterID),e!==a&&r.setPrevChapterIndex(a)};return be(L.ARROW_RIGHT,()=>{const e=m<u.length-1?m+1:m;f(e,m)}),be(L.ARROW_LEFT,()=>{f(m>0?m-1:m,m)}),a.jsxs("div",{className:V_.base,children:[a.jsx("div",{className:t(V_.mask,V_[`mask__${hl(h,b)}`]),children:a.jsx(Fa,{classNames:{wrapper:V_.scrollWrapper},children:a.jsx("div",{className:t(V_.cardsWrapper,n&&V_.cardsWrapper__inactive),children:O(u,(e,t)=>a.jsx(M_,{chapterID:e.chapterID},`${e.chapterID}_${t}`))})})}),a.jsx(Ya,{classNames:{base:V_.scrollBar}})]})}),F_="ButtonsGroup_6fd5782",H_="ButtonsGroup_button_17bae557",$_=k.resolve("strings"),U_=i(function(){const e=pe(),{model:t,controls:s}=Si(),r=t.computes.selectedChapter(),{breakpoint:n}=ge(),i=n.weight>=ve.large.weight?P.large:P.medium;return be(L.SPACE,()=>{(null==r?void 0:r.isPostProgression)?e.push(ts.battlePass.postProgression,{}):e.push(ts.battlePass.progression,{chapterID:null==r?void 0:r.chapterID})}),a.jsxs("div",{className:F_,children:[(null==r?void 0:r.isPostProgression)?a.jsx(B,{onClick:()=>e.push(ts.battlePass.postProgression,{}),className:H_,size:i,"data-test-id":"toPostProgression",children:$_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.buttons.toPostProgression")}):a.jsx(B,{onClick:()=>e.push(ts.battlePass.progression,{chapterID:null==r?void 0:r.chapterID}),className:H_,size:i,"data-test-id":"toChapter",children:$_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.buttons.toChapter")}),0!==(null==r?void 0:r.tankmenScreenID)&&a.jsx(B,{onClick:()=>{void 0!==(null==r?void 0:r.chapterID)&&s.showTankmen(null==r?void 0:r.chapterID)},className:H_,theme:A.secondary,size:i,"data-test-id":"toCrewMembers",children:$_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.buttons.toCrewMembers")})]})}),G_="Deadline_d8216f12",q_="Deadline_timerIcon_cda81cf2",X_="Deadline_timerLabel_218217e0",Z_=k.resolve("strings"),K_=tt,Y_=i(function(){const{model:e}=Si(),{expireTime:t,timeLeft:s}=e.computes.selectedChapter(),r=e.computes.detailedTimer();return a.jsx("div",{className:G_,children:r?a.jsx(E,{text:Z_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.deadline.time"),binding:{endTime:a.jsx(et,{start:s,size:at.x48x48,classNames:{icon:q_,label:X_}},s)}}):a.jsx(E,{text:Z_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.deadline.date"),binding:{endDate:K_(t,st.DayMonthFull)}})})}),Q_={base:"PreviewButton_8d85fd92",base__x100x100:"PreviewButton_base__x100x100_40f65925",base__x120x120:"PreviewButton_base__x120x120_eabae7e5",base__x140x140:"PreviewButton_base__x140x140_592ecabc",base__hovered:"PreviewButton_base__hovered_6f70d99a",fadeInWithScale:"PreviewButton_fadeInWithScale_22577403",slideUp:"PreviewButton_slideUp_22577403",blink:"PreviewButton_blink_22577403",scale:"PreviewButton_scale_22577403",rotate:"PreviewButton_rotate_22577403",windowIn:"PreviewButton_windowIn_22577403",fadeOut:"PreviewButton_fadeOut_22577403",fadeIn:"PreviewButton_fadeIn_22577403"},J_="x100x100",eu="x120x120",au="x140x140",tu=k.resolve("images"),su=function({iconSize:s,onClick:r,onMouseEnter:n,onMouseLeave:i,soundHover:o="",soundClick:l="",className:c=""}){const[d,_]=e.useState(!1),u=tu.readOrEmpty(`battlePass.icons.previewButton.${Ne(s,au)}`);return a.jsx("div",{className:t(Q_.base,d&&Q_.base__hovered,Q_[`base__${s}`],c),onClick:e=>{null==r||r(e),l&&Pe.sound(l)},onMouseEnter:()=>{_(!0),null==n||n(),o&&Pe.sound(o)},onMouseLeave:()=>{_(!1),null==i||i()},style:{backgroundImage:`url(${u})`}})},ru={base:"InGarage_66bdf5dd",base__x24x24:"InGarage_base__x24x24_79818dbf",base__x32x32:"InGarage_base__x32x32_839c6a2c",base__x48x48:"InGarage_base__x48x48_19be1254",base__x80x80:"InGarage_base__x80x80_c3a1d174",fadeInWithScale:"InGarage_fadeInWithScale_2e055df1",slideUp:"InGarage_slideUp_2e055df1",blink:"InGarage_blink_2e055df1",scale:"InGarage_scale_2e055df1",rotate:"InGarage_rotate_2e055df1",windowIn:"InGarage_windowIn_2e055df1",fadeOut:"InGarage_fadeOut_2e055df1",fadeIn:"InGarage_fadeIn_2e055df1"},nu="x24x24",iu="x32x32",ou="x48x48",lu="x80x80",cu=k.resolve("images"),du=function({iconSize:e,className:s=""}){const r=cu.readOrEmpty(`battlePass.icons.inGarage.${e}`);return a.jsx("div",{className:t(ru.base,ru[`base__${e}`],s),style:{backgroundImage:`url(${r})`}})},_u={vehicleWrapper:"SubTitle_vehicleWrapper_c315a83c",styleWrapper:"SubTitle_styleWrapper_59988398",style:"SubTitle_style_911a25b1",vehicleStyle:"SubTitle_vehicleStyle_1b9867d2",postProgression:"SubTitle_postProgression_c315a83c",crew:"SubTitle_crew_f25c78a4",styleLevel:"SubTitle_styleLevel_c315a83c",styleName:"SubTitle_styleName_aa5a3fa2",vehicle:"SubTitle_vehicle_947ca1b3",vehicleLevel:"SubTitle_vehicleLevel_c315a83c",vehicleName:"SubTitle_vehicleName_c315a83c",inGarage__style:"SubTitle_inGarage__style_b8f6084a",inGarage__vehicle:"SubTitle_inGarage__vehicle_1cb9fdfb"},uu=k.resolve("strings"),mu="vehicle",pu="style",hu=i(function(){const{model:e}=Si(),s=e.computes.selectedChapter(),{breakpoint:{weight:r}}=ge(),n=e=>e===mu?r<ve.large.weight?rt.x64x64:rt.x96x96:e===pu?r<ve.large.weight?rt.x24x24:rt.x48x48:void 0,i=e=>e===mu?r>=ve.large.weight?lu:r>=ve.medium.weight?ou:iu:e===pu?r>=ve.large.weight?iu:nu:iu,o={level:_u.vehicleLevel,name:_u.vehicleName},l={level:_u.styleLevel,name:_u.styleName};if(!s)return;const{styleName:c,vehicleInfo:d,finalRewardType:_,isVehicleInHangar:u}=s;return(()=>{switch(_){case Ms.Vehicle:return a.jsxs("div",{className:_u.vehicleWrapper,children:[a.jsx(E,{classMix:_u.vehicle,text:uu.readOrEmpty("battle_pass.chapterChoice.vehicle.reward.subTitle"),binding:{vehicleName:a.jsx(rs,{...d,vehicleTypeIconSize:n(mu),classNames:o})}}),u&&a.jsx(du,{iconSize:i(mu),className:t(_u.inGarage,_u.inGarage__vehicle)})]});case Ms.VehicleStyle:return a.jsx(E,{classMix:_u.vehicleStyle,text:uu.readOrEmpty("battle_pass.chapterChoice.vehicleStyle.reward.subTitle"),binding:{styleName:c}});case Ms.Style:return a.jsxs("div",{className:_u.styleWrapper,children:[a.jsx(E,{classMix:_u.style,text:uu.readOrEmpty("battle_pass.chapterChoice.stylePreview.reward.subTitle"),binding:{vehicleName:a.jsx(rs,{...d,vehicleTypeIconSize:n(pu),classNames:l})}}),u&&a.jsx(du,{iconSize:i(pu),className:t(_u.inGarage,_u.inGarage__style)})]});case Ms.Tankman:return a.jsx(E,{classMix:_u.crew,text:uu.readOrEmpty("battle_pass.chapterChoice.crewMember.reward.subTitle")});case Ms.PostProgression:return a.jsx(E,{classMix:_u.postProgression,text:uu.readOrEmpty("battle_pass.chapterChoice.eliteCircuit.reward.subTitle")});default:return""}})()}),bu="Title_vehicleStyleWrapper_5727057f",fu="Title_postProgression_2e63cf3",gu="Title_crew_ace25966",vu="Title_vehicle_c974ddd5",xu="Title_vehicleStyle_e7d39a46",wu="Title_style_2e63cf3",Cu="Title_level_2e63cf3",yu="Title_name_93838a06",ju="Title_inGarage_1c4370bb",Nu=k.resolve("strings"),Su=i(function(){const{model:e}=Si(),t=e.computes.selectedChapter(),{breakpoint:{weight:s}}=ge(),r=s<ve.large.weight?rt.x64x64:rt.x96x96,n=s>=ve.large.weight?lu:s>=ve.medium.weight?ou:iu,i={level:Cu,name:yu};if(!t)return;const{styleName:o,vehicleInfo:l,finalRewardType:c,isVehicleInHangar:d,tankmanNames:_}=t;return function(){switch(c){case Ms.Vehicle:return a.jsx(E,{classMix:vu,text:Nu.readOrEmpty("battle_pass.chapterChoice.vehicle.reward.title")});case Ms.VehicleStyle:return a.jsxs("div",{className:bu,children:[a.jsx(E,{classMix:xu,text:Nu.readOrEmpty("battle_pass.chapterChoice.vehicleStyle.reward.title"),binding:{vehicleName:a.jsx(rs,{...l,vehicleTypeIconSize:r,classNames:i})}}),d&&a.jsx(du,{iconSize:n,className:ju})]});case Ms.Style:return a.jsx(E,{classMix:wu,text:Nu.readOrEmpty("battle_pass.chapterChoice.stylePreview.reward.title"),binding:{styleName:o}});case Ms.Tankman:return a.jsx(E,{classMix:gu,text:nt(_,Nu.readOrEmpty("battle_pass.common.comma"))});case Ms.PostProgression:return a.jsx(E,{classMix:fu,text:Nu.readOrEmpty("battle_pass.chapterChoice.eliteCircuit.reward.title")});default:return""}}()}),ku="FinalReward_96b2b9a7",Iu="FinalReward_rewardInfo_e61fb0c8",Pu="FinalReward_preview_68854b55",Ru=i(function(){const{model:t,controls:s}=Si(),r=I({previewButton:J_},{medium:{previewButton:eu},large:{previewButton:au}}),n=t.computes.selectedChapter();Ja(void 0!==n);const i=e.useCallback(e=>{s.openPreview(n.chapterID),e.stopPropagation()},[s,n.chapterID]),o=n.finalRewardType===Ms.Style||n.finalRewardType===Ms.Vehicle||n.finalRewardType===Ms.VehicleStyle;return a.jsxs("div",{className:ku,children:[o&&a.jsx("div",{className:Pu,children:a.jsx(su,{iconSize:r.previewButton,onClick:i,soundHover:R.sounds.bp_highlight_02(),soundClick:R.sounds.play()})}),a.jsxs("div",{className:Iu,children:[a.jsx(Su,{}),a.jsx(hu,{})]})]})}),Bu={base:"ChapterInfo_583787",deadline:"ChapterInfo_deadline_df593065",info:"ChapterInfo_info_50f38f5c",chapterName:"ChapterInfo_chapterName_2e84101e",chapterName__bougth:"ChapterInfo_chapterName__bougth_4015ed41",finalReward__vehicleStyle:"ChapterInfo_finalReward__vehicleStyle_9092be9e",finalReward__vehicle:"ChapterInfo_finalReward__vehicle_8f1be3b9",finalReward__style:"ChapterInfo_finalReward__style_71da8196",finalReward__tankman:"ChapterInfo_finalReward__tankman_939c7d1e",finalReward__postProgression:"ChapterInfo_finalReward__postProgression_42299b8a",buttonsGroup__vehicleStyle:"ChapterInfo_buttonsGroup__vehicleStyle_32e73b60",buttonsGroup__vehicle:"ChapterInfo_buttonsGroup__vehicle_19a07e37",buttonsGroup__style:"ChapterInfo_buttonsGroup__style_99acb72a",buttonsGroup__tankman:"ChapterInfo_buttonsGroup__tankman_939c7d1e",buttonsGroup__postProgression:"ChapterInfo_buttonsGroup__postProgression_d83fdc7a",emblem:"ChapterInfo_emblem_b1fd21e1",fadeInWithScale:"ChapterInfo_fadeInWithScale_939c7d1e",slideUp:"ChapterInfo_slideUp_939c7d1e",blink:"ChapterInfo_blink_939c7d1e",scale:"ChapterInfo_scale_939c7d1e",rotate:"ChapterInfo_rotate_939c7d1e",windowIn:"ChapterInfo_windowIn_939c7d1e",fadeOut:"ChapterInfo_fadeOut_939c7d1e",fadeIn:"ChapterInfo_fadeIn_939c7d1e"},Au=k.resolve("strings"),Eu=i(function(){const{model:e}=Si(),s=e.computes.selectedChapter(),r=I({iconSize:_n,shieldSize:an,containerSize:Zr},{medium:{iconSize:un,shieldSize:tn,containerSize:Kr},large:{iconSize:mn,shieldSize:sn,containerSize:Yr},extraLarge:{iconSize:pn,shieldSize:rn,containerSize:Qr}}),i=j(wi.length,wi.map(e=>{const{delay:a,diff:t,duration:s}=Object.values(e)[0];return Ci(a,t,s)})),o=wi.reduce((e,a,t)=>{const s=Object.keys(a)[0];return i[t]?(e[s]=i[t],e):e},{});if(!s)return;const{chapterID:l,isBought:c,finalRewardType:d}=s;return a.jsxs("div",{className:Bu.base,children:[a.jsx(n.div,{style:o.emblem,children:a.jsx(gn,{iconSize:r.iconSize,shieldSize:r.shieldSize,containerSize:r.containerSize,bpPurchased:c,chapterID:l,className:Bu.emblem})}),a.jsxs("div",{className:Bu.info,children:[a.jsx(n.div,{style:o.deadline,children:a.jsx("div",{className:Bu.deadline,children:a.jsx(Y_,{})})}),a.jsx(n.div,{style:o.chapterName,children:a.jsx(_a,{className:t(Bu.chapterName,c&&Bu.chapterName__bougth),text:Au.readOrEmpty(`battle_pass.chapter.fullName.c_${l}`)})}),a.jsx(n.div,{style:o.finalReward,children:a.jsx("div",{className:t(Bu.finalReward,Bu[`finalReward__${d}`]),children:a.jsx(Ru,{})})}),a.jsx(n.div,{style:o.buttonsGroup,children:a.jsx("div",{className:t(Bu.buttonsGroup,Bu[`buttonsGroup__${d}`]),children:a.jsx(U_,{})})})]})]})}),Tu="FreeBpPoints_13635b90",Lu="FreeBpPoints_pointsBlock_de8d94dc",Du="FreeBpPoints_points_cd1a8292",Wu="FreeBpPoints_icon_e6968e4a",Ou="FreeBpPoints_text_74f25e3",Mu=k.resolve("strings"),Vu=i(function(){const{model:e}=Si(),{freePoints:t}=e.root.get(),s=Ra({header:Mu.readOrEmpty("battle_pass.chapterChoice.freePoints.tooltip.header"),body:Mu.readOrEmpty("battle_pass.chapterChoice.freePoints.tooltip.body")}),r=I({iconSize:""},{medium:{iconSize:"_medium"},large:{iconSize:"_large"}});return a.jsxs("div",{className:Tu,...s,children:[a.jsxs("div",{className:Lu,children:[a.jsx("div",{className:Du,children:a.jsx(it,{value:t})}),a.jsx(Aa,{className:Wu,path:`battlePass.chapter_choice.freePoints${r.iconSize}`})]}),a.jsx("div",{className:Ou,children:Mu.readOrEmpty("battle_pass.chapterChoice.freePoints.text")})]})}),zu="App_772aceb",Fu="App_background_f46709aa",Hu="App_main_879c8615",$u="App_idle_e06fed7f",Uu="App_shadow_d2a46054",Gu="App_freeBpPoints_c3ec6dd0",qu="App_chapterInfo_ae823c83",Xu="App_cards_a8851e46",Zu=i(function(){const{model:t,controls:s}=Si(),{onViewLoaded:i}=s,o=t.computes.selectedChapter(),l=t.prevChapterIndex.get(),c=t.computes.sortedChapters().indexOf(o),[d,_]=e.useState(c),[u,m]=e.useState(!1),p=pe();be(L.ESCAPE,()=>{p.goBack()}),e.useEffect(()=>Ce(()=>{u||(i(),m(!0))}),[u,i]);const[h,b]=j(t.computes.backgrounds().length,e=>({x:0,opacity:e===c?1:0,config:{duration:400,easing:Be.easeOutQuint}})),f=.1*viewEnv.getViewSizeRem().width,g=e.useCallback((e,a)=>{b.start(t=>t===e?{from:{x:a*f,opacity:0,zIndex:3},to:{x:0,opacity:1,zIndex:3},reset:!0}:{}),_(e)},[b,f]);e.useEffect(()=>{g(c,l<c?1:-1)},[l,c,g]);const[v]=r(()=>Ci(200,60)),[x]=r(()=>Ci(300,60)),[w]=r(()=>((e=0)=>({from:{opacity:0,transform:"scale(1.1)"},to:{opacity:1,transform:"scale(1)"},config:{duration:500,easing:Be.easeInOutCubic},delay:e}))());return a.jsx(a.Fragment,{children:u&&a.jsxs("div",{className:zu,children:[a.jsx(n.div,{className:Fu,style:w,children:a.jsxs(a.Fragment,{children:[h.map((e,t)=>a.jsx(Ai,{style:e,i:t,index:d,classNames:{idle:$u,main:Hu}},t)),a.jsx("div",{className:Uu})]})}),t.root.get().freePoints>0&&a.jsx(n.div,{className:Gu,style:x,children:a.jsx(Vu,{})}),a.jsx("div",{className:qu,children:a.jsx(Eu,{})},null==o?void 0:o.chapterID),a.jsx(n.div,{className:Xu,style:v,children:a.jsx(ot,{children:a.jsx(z_,{})})})]})})}),Ku=()=>a.jsx(Ni,{options:{rootId:R.aliases.battle_pass.ChapterChoice("resId")},children:a.jsx(Zu,{})}),Yu=(e,a,t,s,r)=>{const n=R.images.gui.maps.icons.battlePass.awards_widget;return r?`url(${n.$dyn(`${e.toLowerCase()}_${a}${t}_${s}_${r}`)})`:`url(${n.$dyn(`${e.toLowerCase()}_${a}${t}_${s}`)})`};var Qu=(e=>(e.Award="Award",e.Ticket="Ticket",e.Coin="Coin",e.Taler="Taler",e.Collection="Collection",e.Commander="Commander",e))(Qu||{}),Ju=(e=>(e.Small="small",e.Big="big",e))(Ju||{}),em=(e=>(e.None="",e.Small="s",e.Medium="m",e))(em||{}),am=(e=>(e.Border="border",e.Background="bg",e.Icon="icon",e.None="",e))(am||{}),tm=(e=>(e.Hover="Hover",e.Disabled="Disabled",e.Triggered="Triggered",e.None="",e))(tm||{});const sm={base:"Background_8e48022f",bg:"Background_bg_fcef4881",bgDisabled:"Background_bgDisabled_26effab7",bgHover:"Background_bgHover_32967f75",base__big:"Background_base__big_26effab7",base__hovered:"Background_base__hovered_26effab7",fadeInWithScale:"Background_fadeInWithScale_26effab7",slideUp:"Background_slideUp_26effab7",blink:"Background_blink_26effab7",scale:"Background_scale_26effab7",rotate:"Background_rotate_26effab7",windowIn:"Background_windowIn_26effab7",fadeOut:"Background_fadeOut_26effab7",fadeIn:"Background_fadeIn_26effab7"},rm=({size:e,isHover:s,disabled:r=!1,type:n=Qu.Coin})=>{const{breakpoint:i}=ge(),o=i.weight>=ve.medium.weight?em.Medium:em.Small;return a.jsx("div",{className:t(sm.base,sm[`base__${e}`],sm[`base__${e}${n}`],s&&sm.base__hovered),children:r?a.jsx("div",{className:sm.bgDisabled,style:{backgroundImage:Yu(n,am.Background,tm.Disabled,e,o)}}):a.jsxs(a.Fragment,{children:[a.jsx("div",{className:sm.bg,style:{backgroundImage:Yu(n,am.Background,tm.None,e,o)}}),a.jsx("div",{className:sm.bgHover,style:{backgroundImage:Yu(n,am.Background,tm.Hover,e,o)}})]})})},nm={base:"Border_3359fba1",border:"Border_b559a98b",borderHover:"Border_borderHover_6143f6b7",base__hovered:"Border_base__hovered_b559a98b",borderDisabled:"Border_borderDisabled_6282d18a",borderDisabled__big:"Border_borderDisabled__big_80fa355b",fadeInWithScale:"Border_fadeInWithScale_b559a98b",slideUp:"Border_slideUp_b559a98b",blink:"Border_blink_b559a98b",scale:"Border_scale_b559a98b",rotate:"Border_rotate_b559a98b",windowIn:"Border_windowIn_b559a98b",fadeOut:"Border_fadeOut_b559a98b",fadeIn:"Border_fadeIn_b559a98b"},im=({size:e,isHover:s,highlighted:r=!1,disabled:n=!1,type:i=Qu.Coin})=>{const{breakpoint:o}=ge(),l=o.weight>=ve.medium.weight?em.Medium:em.Small;return a.jsx("div",{className:t(nm.base,nm[`base__${e}`],s&&nm.base__hovered),children:n?a.jsx("div",{className:t(nm.borderDisabled,nm[`borderDisabled__${e}`]),style:{backgroundImage:Yu(i,am.Border,tm.Disabled,e,l)}}):a.jsxs(a.Fragment,{children:[a.jsx("div",{className:nm.border,style:{backgroundImage:Yu(r?Qu.Collection:i,am.Border,tm.None,e,l)}}),a.jsx("div",{className:nm.borderHover,style:{backgroundImage:Yu(i,am.Border,tm.Hover,e,l)}})]})})},om={base:"CountValue_897d3748",base__big:"CountValue_base__big_94594a84",fadeInWithScale:"CountValue_fadeInWithScale_108ab14",slideUp:"CountValue_slideUp_108ab14",blink:"CountValue_blink_108ab14",scale:"CountValue_scale_108ab14",rotate:"CountValue_rotate_108ab14",windowIn:"CountValue_windowIn_108ab14",fadeOut:"CountValue_fadeOut_108ab14",fadeIn:"CountValue_fadeIn_108ab14"},lm=({state:e,count:s,size:r,maxCount:n=0})=>{switch(e){case dm.InProgress:return a.jsx(E,{text:`${s||0} / ${n}`});case dm.Completed:return a.jsx("div",{className:t(om.base,om[`base__${r}`])});default:return a.jsx(it,{format:"integral",value:s})}},cm={base:"Count_1153e9f8",base__big:"Count_base__big_4b990a50",base__locked:"Count_base__locked_c07f63fe",base__disabled:"Count_base__disabled_67818843",fadeInWithScale:"Count_fadeInWithScale_d63373f8",slideUp:"Count_slideUp_d63373f8",blink:"Count_blink_d63373f8",scale:"Count_scale_d63373f8",rotate:"Count_rotate_d63373f8",windowIn:"Count_windowIn_d63373f8",fadeOut:"Count_fadeOut_d63373f8",fadeIn:"Count_fadeIn_d63373f8"};var dm=(e=>(e.Default="",e.InProgress="InProgress",e.Completed="Completed",e))(dm||{});const _m=({size:e,count:s,maxCount:r,state:n="",isLocked:i=!1,disabled:o=!1})=>a.jsx("div",{className:t(cm.base,cm[`base__${e}`],i&&cm.base__locked,o&&cm.base__disabled),children:a.jsx(lm,{state:n,size:e,count:s,maxCount:r})}),um={base:"Icon_891882bd",base__big:"Icon_base__big_e04b5410",base__darkened:"Icon_base__darkened_211e4f9f",base__hover:"Icon_base__hover_ab1977b2",base__disabled:"Icon_base__disabled_92482313",fadeInWithScale:"Icon_fadeInWithScale_55a8ab20",slideUp:"Icon_slideUp_55a8ab20",blink:"Icon_blink_55a8ab20",scale:"Icon_scale_55a8ab20",rotate:"Icon_rotate_55a8ab20",windowIn:"Icon_windowIn_55a8ab20",fadeOut:"Icon_fadeOut_55a8ab20",fadeIn:"Icon_fadeIn_55a8ab20"},mm=(e,a,t)=>{switch(!0){case t:return"disabled";case e:return"hover";case a:return"darkened";default:return""}},pm=({size:e,isHover:s,isDark:r=!0,disabled:n=!1,type:i})=>{const{breakpoint:o}=ge(),l=o.weight>=ve.medium.weight?em.Medium:em.Small;return a.jsx("div",{className:t(um.base,um[`base__${e}`],um[`base__${mm(s,r,n)}`]),style:{backgroundImage:Yu(i,am.Icon,tm.None,e,i===Qu.Collection?em.None:l)}})},hm={base:"Label_e1274655",base__big:"Label_base__big_a8cc16a4",base__gold:"Label_base__gold_6ef0fe9",base__hover:"Label_base__hover_b5605ac8",base__disabled:"Label_base__disabled_4a0c758c",fadeInWithScale:"Label_fadeInWithScale_e3f8b3ce",slideUp:"Label_slideUp_e3f8b3ce",blink:"Label_blink_e3f8b3ce",scale:"Label_scale_e3f8b3ce",rotate:"Label_rotate_e3f8b3ce",windowIn:"Label_windowIn_e3f8b3ce",fadeOut:"Label_fadeOut_e3f8b3ce",fadeIn:"Label_fadeIn_e3f8b3ce"},bm=(e,a)=>{switch(!0){case e:return"disabled";case a:return"hover";default:return""}},fm=({size:e,title:s,isHover:r,disabled:n=!1,isGold:i=!1})=>a.jsx("div",{className:t(hm.base,hm[`base__${e}`],hm[`base__${bm(n,r)}`],i&&hm.base__gold),children:s}),gm={base:"ChoiceAward_edd74108",base__big:"ChoiceAward_base__big_ca77c409",base__disabled:"ChoiceAward_base__disabled_991de9d",base__hasAppearAnimation:"ChoiceAward_base__hasAppearAnimation_aeaea71d",baseAppear:"ChoiceAward_baseAppear_3f034cd8",shine:"ChoiceAward_shine_2a2a93bd",shine_small_s:"ChoiceAward_shine_small_s_3f034cd8",shine_small_m:"ChoiceAward_shine_small_m_3f034cd8",shine_big_s:"ChoiceAward_shine_big_s_3f034cd8",shine_big_m:"ChoiceAward_shine_big_m_3f034cd8",shine__left:"ChoiceAward_shine__left_9adf4b0f",shine__right:"ChoiceAward_shine__right_872a6406",arrow:"ChoiceAward_arrow_e556b329",blinkShape:"ChoiceAward_blinkShape_4cbfbe8c",blink:"ChoiceAward_blink_d3e21e1f",blinker:"ChoiceAward_blinker_3f034cd8",fadeInWithScale:"ChoiceAward_fadeInWithScale_3f034cd8",slideUp:"ChoiceAward_slideUp_3f034cd8",scale:"ChoiceAward_scale_3f034cd8",rotate:"ChoiceAward_rotate_3f034cd8",windowIn:"ChoiceAward_windowIn_3f034cd8",fadeOut:"ChoiceAward_fadeOut_3f034cd8",fadeIn:"ChoiceAward_fadeIn_3f034cd8"},vm=R.strings.battle_pass.awardsWidget,xm=({count:s,disabled:r=!1,onClick:n,size:i})=>{const[o,l]=e.useState(!1),c=1===s?vm.title.awardSingle():vm.title.awardMultiple(),d=r?vm.description.awardDisabled():vm.description.award(),_=e.useCallback(()=>{r||(Pe.click(),n())},[r,n]);return a.jsx(da,{body:d,isEnabled:Boolean(d),children:a.jsxs("div",{className:t(gm.base,gm[`base__${i}`],r?gm.base__disabled:gm.base__hasAppearAnimation),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),l(!0)},onMouseLeave:()=>{l(!1)},onClick:_,children:[a.jsx(im,{size:i,isHover:o,type:Qu.Award,disabled:r}),a.jsx(rm,{size:i,isHover:o,type:Qu.Award,disabled:r}),a.jsx(pm,{size:i,isHover:o,type:Qu.Award,disabled:r,isDark:!1}),a.jsx(_m,{size:i,count:s,disabled:r}),a.jsx(fm,{size:i,isHover:o,title:c,disabled:r,isGold:!0}),!r&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(gm.shine,gm.shine__left)}),a.jsx("div",{className:t(gm.shine,gm.shine__right)}),a.jsx("div",{className:gm.arrow}),a.jsx("div",{className:gm.blinkShape,children:a.jsx("div",{className:gm.blink})})]})]})})},wm={base:"CoinAward_f5a8f424",base__big:"CoinAward_base__big_df55371",fadeInWithScale:"CoinAward_fadeInWithScale_a9001336",slideUp:"CoinAward_slideUp_a9001336",blink:"CoinAward_blink_a9001336",scale:"CoinAward_scale_a9001336",rotate:"CoinAward_rotate_a9001336",windowIn:"CoinAward_windowIn_a9001336",fadeOut:"CoinAward_fadeOut_a9001336",fadeIn:"CoinAward_fadeIn_a9001336"},Cm=R.strings.battle_pass.awardsWidget,ym=({count:s,onClick:r,size:n})=>{const[i,o]=e.useState(!1);return a.jsx(da,{body:Cm.description.coin(),isEnabled:Boolean(Cm.description.coin()),children:a.jsxs("div",{className:t(wm.base,wm[`base__${n}`]),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),o(!0)},onMouseLeave:()=>{o(!1)},onClick:()=>{Pe.click(),r()},children:[a.jsx(im,{size:n,isHover:i}),a.jsx(rm,{size:n,isHover:i}),a.jsx(pm,{size:n,isHover:i,type:Qu.Coin}),a.jsx(_m,{size:n,count:s}),a.jsx(fm,{size:n,isHover:i,title:Cm.title.coin()})]})})},jm={base:"CollectionAward_7e81ced4",base__big:"CollectionAward_base__big_e54e4774",bubble:"CollectionAward_bubble_6b106ffd",fadeInWithScale:"CollectionAward_fadeInWithScale_4cd724f9",slideUp:"CollectionAward_slideUp_4cd724f9",blink:"CollectionAward_blink_4cd724f9",scale:"CollectionAward_scale_4cd724f9",rotate:"CollectionAward_rotate_4cd724f9",windowIn:"CollectionAward_windowIn_4cd724f9",fadeOut:"CollectionAward_fadeOut_4cd724f9",fadeIn:"CollectionAward_fadeIn_4cd724f9"},Nm=R.strings.battle_pass.awardsWidget,Sm=({count:s,maxCount:r,newItemsCount:n,hasTrigger:i,size:o,onClick:l})=>{const[c,d]=e.useState(!1),_=r===s,u=o===Ju.Small&&i,m=_?Nm.description.collectionCompleted():Nm.description.collection(),p=$(()=>{Pe.click(),l()});return a.jsx(da,{body:m,isEnabled:Boolean(m),children:a.jsxs("div",{className:t(jm.base,jm[`base__${o}`]),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),d(!0)},onMouseLeave:()=>{d(!1)},onClick:p,children:[a.jsx(im,{size:o,isHover:c,type:Qu.Coin,highlighted:u}),a.jsx(rm,{size:o,isHover:c}),a.jsx(pm,{size:o,isHover:c,type:Qu.Collection}),a.jsx(_m,{size:o,count:s,maxCount:r,state:_?dm.Completed:dm.InProgress}),a.jsx(fm,{size:o,isHover:c,title:Nm.title.collection()}),n>0&&a.jsx("div",{className:jm.bubble,children:a.jsx(lt,{size:"small"})})]})})},km={base:"CommanderAward_d7dc7d83",icon:"CommanderAward_icon_f54191ae",base__hover:"CommanderAward_base__hover_9c46950e",fadeInWithScale:"CommanderAward_fadeInWithScale_9c46950e",slideUp:"CommanderAward_slideUp_9c46950e",blink:"CommanderAward_blink_9c46950e",scale:"CommanderAward_scale_9c46950e",rotate:"CommanderAward_rotate_9c46950e",windowIn:"CommanderAward_windowIn_9c46950e",fadeOut:"CommanderAward_fadeOut_9c46950e",fadeIn:"CommanderAward_fadeIn_9c46950e"},Im=R.strings.battle_pass.awardsWidget,Pm=({onClick:s,size:r,tankmenScreenID:n})=>{const[i,o]=e.useState(!1),l=Im.description.commander(),c=R.images.gui.maps.icons.battlePass.awards_widget.$dyn(`commander_icon_small_${n}`)||R.images.gui.maps.icons.battlePass.awards_widget.commander_icon_small();return a.jsx(da,{body:l,isEnabled:Boolean(l),children:a.jsxs("div",{className:t(km.base,km[`base__${r}`],i&&km.base__hover),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),o(!0)},onMouseLeave:()=>o(!1),onClick:()=>{Pe.click(),s()},children:[a.jsx(im,{size:r,isHover:i}),a.jsx(rm,{size:r,isHover:i}),a.jsx(fm,{size:r,isHover:i,title:Im.title.commander()}),a.jsx("div",{className:km.icon,style:{backgroundImage:`url(${c})`}})]})})},Rm={base:"TalerAward_c1966527",base__big:"TalerAward_base__big_75f7f954",fadeInWithScale:"TalerAward_fadeInWithScale_7a3c6bdb",slideUp:"TalerAward_slideUp_7a3c6bdb",blink:"TalerAward_blink_7a3c6bdb",scale:"TalerAward_scale_7a3c6bdb",rotate:"TalerAward_rotate_7a3c6bdb",windowIn:"TalerAward_windowIn_7a3c6bdb",fadeOut:"TalerAward_fadeOut_7a3c6bdb",fadeIn:"TalerAward_fadeIn_7a3c6bdb"},Bm=R.strings.battle_pass.awardsWidget,Am=({count:s,onClick:r,size:n})=>{const[i,o]=e.useState(!1);return a.jsx(da,{body:Bm.description.taler(),children:a.jsxs("div",{className:t(Rm.base,Rm[`base__${n}`],i&&Rm.base__hover),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),o(!0)},onMouseLeave:()=>{o(!1)},onClick:()=>{Pe.click(),r()},children:[a.jsx(im,{size:n,isHover:i}),a.jsx(rm,{size:n,isHover:i}),a.jsx(pm,{size:n,isHover:i,type:Qu.Taler}),a.jsx(_m,{size:n,count:s}),a.jsx(fm,{size:n,isHover:i,title:Bm.title.taler()})]})})},Em={base:"TicketAward_af869a5b",base__big:"TicketAward_base__big_6ea086b3",base__hasAppearAnimation:"TicketAward_base__hasAppearAnimation_94749694",baseAppear:"TicketAward_baseAppear_5b80ab82",shine:"TicketAward_shine_7589460e",shine_small_s:"TicketAward_shine_small_s_5b80ab82",shine_small_m:"TicketAward_shine_small_m_5b80ab82",shine_big_s:"TicketAward_shine_big_s_5b80ab82",shine_big_m:"TicketAward_shine_big_m_5b80ab82",shine__left:"TicketAward_shine__left_176547fa",shine__right:"TicketAward_shine__right_d221ffc5",arrow:"TicketAward_arrow_ae4102b5",blinkShape:"TicketAward_blinkShape_b3a9e256",blink:"TicketAward_blink_fde51f1e",blinker:"TicketAward_blinker_5b80ab82",fadeInWithScale:"TicketAward_fadeInWithScale_5b80ab82",slideUp:"TicketAward_slideUp_5b80ab82",scale:"TicketAward_scale_5b80ab82",rotate:"TicketAward_rotate_5b80ab82",windowIn:"TicketAward_windowIn_5b80ab82",fadeOut:"TicketAward_fadeOut_5b80ab82",fadeIn:"TicketAward_fadeIn_5b80ab82"},Tm=R.strings.battle_pass.awardsWidget,Lm=({count:s,onClick:r,size:n})=>{const[i,o]=e.useState(!1),l=Boolean(s),c=l?Qu.Ticket:void 0;return a.jsx(da,{body:Tm.description.ticket(),isEnabled:Boolean(Tm.description.ticket()),children:a.jsxs("div",{className:t(Em.base,Em[`base__${n}`],l&&Em.base__hasAppearAnimation),onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight_02()),o(!0)},onMouseLeave:()=>{o(!1)},onClick:()=>{Pe.click(),r()},children:[a.jsx(im,{size:n,isHover:i,type:c}),a.jsx(rm,{size:n,isHover:i,type:c}),a.jsx(pm,{size:n,isHover:i,type:Qu.Ticket,isDark:!l}),a.jsx(_m,{size:n,count:s}),a.jsx(fm,{size:n,isHover:i,title:Tm.title.ticket(),isGold:l}),l&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(Em.shine,Em.shine__left)}),a.jsx("div",{className:t(Em.shine,Em.shine__right)}),a.jsx("div",{className:Em.arrow}),a.jsx("div",{className:Em.blinkShape,children:a.jsx("div",{className:Em.blink})})]})]})})},[Dm,Wm]=D()(({observableModel:e,externalModel:a})=>{const t={root:e.object(),collectionEntryPoint:e.object("collectionEntryPoint")},r=s(e=>{const{talerCount:s,notChosenRewardCount:r,bpcoinCount:n,ticketsCount:i,isChooseRewardsEnabled:o,tankmenScreenID:l,isTalerEnabled:c,isBpCoinEnabled:d,isTicketsEnabled:_}=t.root.get(),{collectionItemCount:u,newCollectionItemCount:m,maxCollectionItemCount:p,isFirstEnter:h,isCollectionsEnabled:b}=t.collectionEntryPoint.get();return[{type:Qu.Award,props:{size:e,count:r,disabled:!o,onClick:a.createCallbackNoArgs("onTakeRewardsClick")},condition:r>0},{type:Qu.Ticket,props:{size:e,count:i,onClick:a.createCallbackNoArgs("showTickets")},condition:_},{type:Qu.Coin,props:{size:e,count:n,onClick:a.createCallbackNoArgs("onBpcoinClick")},condition:d},{type:Qu.Taler,props:{size:e,count:s,onClick:a.createCallbackNoArgs("showTalers")},condition:c},{type:Qu.Collection,props:{size:e,count:u,maxCount:p,newItemsCount:m,hasTrigger:h,onClick:a.createCallbackNoArgs("collectionEntryPoint.openCollection")},condition:b},{type:Qu.Commander,props:{size:e,count:0,tankmenScreenID:l,onClick:a.createCallbackNoArgs("showTankmen")},condition:0!==l}]});return{...t,computes:{awardsList:r}}},({externalModel:e})=>({takeRewards:e.createCallbackNoArgs("onTakeRewardsClick"),openGoodsForBpCoins:e.createCallbackNoArgs("onBpcoinClick"),openGoodsForBpTalers:e.createCallbackNoArgs("showTalers"),openCollection:e.createCallbackNoArgs("collectionEntryPoint.openCollection")})),Om={base:"AwardsWrapper_f2595641",award:"AwardsWrapper_award_cc628048",base__big:"AwardsWrapper_base__big_b50d5668",fadeInWithScale:"AwardsWrapper_fadeInWithScale_b50d5668",slideUp:"AwardsWrapper_slideUp_b50d5668",blink:"AwardsWrapper_blink_b50d5668",scale:"AwardsWrapper_scale_b50d5668",rotate:"AwardsWrapper_rotate_b50d5668",windowIn:"AwardsWrapper_windowIn_b50d5668",fadeOut:"AwardsWrapper_fadeOut_b50d5668",fadeIn:"AwardsWrapper_fadeIn_b50d5668"},Mm=(e,t)=>{switch(e){case Qu.Award:return a.jsx(xm,{...t});case Qu.Ticket:return a.jsx(Lm,{...t});case Qu.Coin:return a.jsx(ym,{...t});case Qu.Taler:return a.jsx(Am,{...t});case Qu.Collection:return a.jsx(Sm,{...t});case Qu.Commander:return a.jsx(Pm,{...t});default:return console.warn("Unknown award type: ",e),null}},Vm=i(({size:e,classNames:s})=>{const{model:r}=Wm();return a.jsx("div",{className:t(Om.base,Om[`base__${e}`],null==s?void 0:s.base),children:O(r.computes.awardsList(e),e=>e.condition&&a.jsx("div",{className:t(Om.award,null==s?void 0:s.award),children:Mm(e.type,e.props)},e.type))})}),zm=({rootId:e,size:t=Ju.Small,context:s="model",classNames:r})=>a.jsx(Dm,{options:{context:s,rootId:e},children:a.jsx(Vm,{size:t,classNames:r})}),[Fm,Hm]=D()(({observableModel:e})=>{const a={root:e.object(),nowRewards:e.array("rewards.nowRewards.items")},t=s(()=>a.nowRewards.get(),{equals:W});return{...a,computes:{rewardList:t}}},({externalModel:e})=>({close:e.createCallbackNoArgs("onClose"),takeRewards:e.createCallbackNoArgs("onTakeRewardsClick"),showPreviewVehicle:e.createCallbackNoArgs("onPreviewVehicle"),showTankmen:e.createCallbackNoArgs("showTankmen"),showHangar:e.createCallbackNoArgs("showHangar")})),$m="selectableRewardsState",Um="finalState",Gm="FinalStateLabel_icon_2cf5ceb5",qm="FinalStateLabel_greenLight_7967eb2f",Xm="FinalStateLabel_text_f6f99450",Zm=()=>a.jsxs(a.Fragment,{children:[a.jsx("div",{className:Gm}),a.jsx("div",{className:qm}),a.jsx("div",{className:Xm,children:R.strings.battle_pass.holidayFinalScreen.finalState.label()})]}),Km={base:"Final_fe33f216",controls:"Final_controls_ff63bbde",label:"Final_label_d1e455c6",base__finalState:"Final_base__finalState_a3c6efa6",text:"Final_text_78e61012",icon:"Final_icon_2e669607",greenLight:"Final_greenLight_e3a16077",finalStateText:"Final_finalStateText_d9b1929a",buttonWrapper:"Final_buttonWrapper_a582995e",button:"Final_button_dee53b83",fadeInWithScale:"Final_fadeInWithScale_a3c6efa6",slideUp:"Final_slideUp_a3c6efa6",blink:"Final_blink_a3c6efa6",scale:"Final_scale_a3c6efa6",rotate:"Final_rotate_a3c6efa6",windowIn:"Final_windowIn_a3c6efa6",fadeOut:"Final_fadeOut_a3c6efa6",fadeIn:"Final_fadeIn_a3c6efa6"},Ym=R.strings.battle_pass.holidayFinalScreen,Qm=i(()=>{const{model:e,controls:s}=Hm(),{takeRewards:r,showHangar:n}=s,{state:i,finalRewardType:o}=e.root.get(),l=i===$m;return a.jsx("div",{className:t(Km.base,Km[`base__${i}`]),children:a.jsxs("div",{className:Km.controls,children:[a.jsx("div",{className:Km.label,children:l?a.jsx("div",{className:Km.text,children:Ym.selectableRewardsState.label()}):a.jsx(Zm,{})}),a.jsx("div",{className:Km.buttonWrapper,children:a.jsx(ct,{size:dt.medium,mixClass:Km.button,onClick:()=>{l?r():n()},children:(()=>{switch(i){case $m:return Ym.selectableRewardsState.button();case Um:return o===Ms.Vehicle?Ym.finalState.button.showVehicle():Ym.finalState.button.showHangar();default:return""}})()})})]})})}),Jm="Divider_3683d6e2",ep="Divider_divider__right_24d5147b",ap=({isRight:e=!1})=>a.jsx("div",{className:t(Jm,e&&ep)}),tp="Title_ec301c01",sp="Title_text_65e6762b",rp=({text:e})=>a.jsxs("div",{className:tp,children:[a.jsx(ap,{}),a.jsx("div",{className:sp,children:e}),a.jsx(ap,{isRight:!0})]}),np={base:"Purchase_78d7de59",content:"Purchase_content_1a1b801",preview:"Purchase_preview_a16bc569",shadow:"Purchase_shadow_87ba71b",visibleRewards:"Purchase_visibleRewards_8b26a786",title:"Purchase_title_8d5affdf",description:"Purchase_description_34691989",rewardButton:"Purchase_rewardButton_bc4b54c4"},ip=R.strings.battle_pass.holidayFinalScreen.buyState,op=e=>({from:{opacity:0},to:{opacity:1},delay:400+100*e,config:{duration:400},onStart:()=>{Pe.sound(R.sounds.bp_reward())}}),lp=i(()=>{const{model:e,controls:t}=Hm(),{chapterID:s,finalRewardType:i}=e.root.get(),{showPreviewVehicle:o}=t,l=pe(),c=e.computes.rewardList(),d=i===Ms.Vehicle,{breakpoint:{weight:_}}=ge(),u=_<=ve.small.weight?xe.Small:xe.Big,m=c.length>9?[..._t(c,0,9)]:c,p=r(op(m.length)),h=c.length-m.length;return a.jsxs("div",{className:np.base,children:[d&&a.jsx("div",{className:np.preview,children:a.jsx(ut,{type:"preview",onClick:o})}),a.jsxs("div",{className:np.content,children:[a.jsx("div",{className:np.shadow}),a.jsx("div",{className:np.title,children:a.jsx(rp,{text:ip.title()})}),a.jsx("div",{className:np.description,children:ip.description()}),a.jsx("div",{className:np.visibleRewards,children:O(m,(e,t)=>a.jsx(Qn,{animationConfig:op(t),children:a.jsx(we,{...Xt(e,u),className:np.reward})},`${e.item}_${t}`))}),h>0&&a.jsx(n.div,{style:p,children:a.jsx(ct,{type:mt.ghost,size:dt.medium,mixClass:np.rewardButton,onClick:()=>{l.push(ts.battlePass.buyPassRewards,{chapterID:s})},children:a.jsx(E,{text:ip.moreRewards(),binding:{count:h}})})})]})]})}),cp="Rewards_full_eea97d7",dp={context:"model.rewards"},_p=i(()=>a.jsx(cr,{options:dp,children:a.jsx("div",{className:cp,children:a.jsx(Gr,{})})})),up="Tankmen_9641cad5",mp="Tankmen_image_208678b",pp="Tankmen_title_ebf30d50",hp="Tankmen_description_e7d7080c",bp="Tankmen_tankmenBtn_96878805",fp="Tankmen_button_e7e9840c",gp="Tankmen_blink_22bb5961",vp=R.strings.battle_pass.holidayFinalScreen.tankmenState,xp=i(()=>{const{controls:e}=Hm(),{showTankmen:t}=e;return a.jsxs("div",{className:up,children:[a.jsx("div",{className:mp}),a.jsx("div",{className:pp,children:a.jsx(rp,{text:vp.title()})}),a.jsx("div",{className:hp,children:vp.description()}),a.jsx("div",{className:bp,children:a.jsxs(ct,{type:mt.main,size:dt.medium,mixClass:fp,onClick:t,children:[a.jsx("div",{className:gp}),vp.tankmenButton()]})})]})}),wp=i(()=>{const{model:e}=Hm(),{state:t}=e.root.get();switch(t){case"buyState":return a.jsx(lp,{});case"rewardsState":return a.jsx(_p,{});case"tankmenState":return a.jsx(xp,{});case $m:case Um:return a.jsx(Qm,{});default:return console.warn("Unknown state ",t),null}}),Cp="Footer_5f98e398",yp="Footer_light_2fc739c7",jp="Footer_buttonWrapper_fbd12995",Np="Footer_button_9e4f9bc",Sp="Footer_blink_106ec98e",kp=R.strings.battle_pass.holidayFinalScreen.buyState,Ip=i(()=>{const{model:e}=Hm(),{isSeasonEndingSoon:t,chapterID:s}=e.root.get(),r=pe();return a.jsxs("div",{className:Cp,children:[a.jsx("div",{className:yp}),a.jsx("div",{className:jp,children:a.jsxs(ct,{type:mt.main,size:dt.medium,mixClass:Np,onClick:()=>{r.push(ts.battlePass.buyPass,{chapterID:s})},children:[t&&a.jsx("div",{className:Sp}),kp.buyButton()]})})]})}),Pp="Header_add5cf9d",Rp="Header_title_1435c6ee",Bp="Header_description_e959461d",Ap=({title:e,description:t})=>a.jsxs("div",{className:Pp,children:[a.jsx("div",{className:Rp,children:e}),a.jsx("div",{className:Bp,children:t})]}),Ep={base:"App_ef84fef",base__rewardsState:"App_base__rewardsState_a9a568ab",background:"App_background_a2d1b7ea",base__tankmenState:"App_base__tankmenState_0",additionalAnimation:"App_additionalAnimation_eb290d79",fadeIn:"App_fadeIn_0",header:"App_header_4716088",awards:"App_awards_2541e2b5",footer:"App_footer_e521ba53",base__buyState:"App_base__buyState_0",fadeInWithScale:"App_fadeInWithScale_0",slideUp:"App_slideUp_0",blink:"App_blink_0",scale:"App_scale_0",rotate:"App_rotate_0",windowIn:"App_windowIn_0",fadeOut:"App_fadeOut_0"},Tp=R.strings.battle_pass,Lp=i(()=>{const[s,r]=e.useState(!1),{model:n}=Hm(),{state:i,chapterID:o}=n.root.get(),l=pe();return e.useEffect(()=>{(async()=>{await Zt(),r(!0)})()},[]),be(L.ESCAPE,()=>l.goBack()),a.jsxs("div",{className:t(Ep.base,Ep[`base__${i}`]),children:[a.jsx("div",{className:Ep.background}),s&&a.jsxs("div",{className:Ep.additionalAnimation,children:[a.jsxs("div",{className:Ep.header,children:[a.jsx(Ap,{title:a.jsx(E,{text:Tp.holidayFinalScreen.chapter(),binding:{chapterName:Tp.chapter.fullNameUppercased.$num(o)}}),description:Tp.holidayFinalScreen.completed()}),a.jsx("div",{className:Ep.awards,children:a.jsx(zm,{rootId:R.aliases.battle_pass.HolidayFinal("resId"),context:"model.awardsWidget"})})]}),a.jsx(wp,{}),a.jsx("div",{className:Ep.footer,children:a.jsx(Ip,{})})]})]})}),Dp=()=>a.jsx(Fm,{options:{rootId:R.aliases.battle_pass.HolidayFinal("resId")},children:a.jsx(Lp,{})}),Wp=1e3,Op={...ht,withStack:!0,type:pt.Simple,delta:{duration:500,delay:300},line:{duration:500,delay:300}},Mp={...bt,line:{...bt.line,bgColorFinished:"#000000"},pattern:{...bt.pattern,bgImageFinished:bt.bgImageBase}};var Vp=(e=>(e.FillProgressMax="fillProgressMax",e.RunCycle="runCycle",e.ResetProgress="resetProgress",e.RefillProgress="refillProgress",e.Idle="idle",e))(Vp||{});const zp={fillProgressMax:{nextStep:"runCycle",delay:Wp},runCycle:{nextStep:"resetProgress",delay:2200},resetProgress:{nextStep:"refillProgress",delay:Wp},refillProgress:{nextStep:"idle",delay:Wp}};var Fp=(e=>(e.COMPLETED="completed",e.IN_PROGRESS="inProgress",e.NOT_STARTED="notStarted",e))(Fp||{}),Hp=(e=>(e.NotAvailable="notAvailable",e.PurchasingIP="purchasingIP",e.ExtraChapter="extraChapter",e))(Hp||{}),$p=(e=>(e.left="left",e.right="right",e))($p||{}),Up=(e=>(e[e.Active=0]="Active",e[e.Paused=1]="Paused",e[e.Completed=2]="Completed",e[e.NotStarted=3]="NotStarted",e))(Up||{}),Gp=(e=>(e[e.Locked=0]="Locked",e[e.Unlocked=1]="Unlocked",e[e.Paused=2]="Paused",e))(Gp||{});const qp={"--small-card-width":"140rem","--small-current-card-width":"224rem","--medium-card-width":"220rem","--medium-current-card-width":"340rem","--extra-large-card-width":"276rem"},Xp=(e,a=!1)=>a?e<ve.medium.weight?224:340:e<ve.medium.weight?140:e<ve.extraLarge.weight?220:276,[Zp,Kp]=D()(({observableModel:e})=>{const a={root:e.object(),levels:e.array("levels"),chapters:e.array("chapters"),animationStep:o.box(Vp.Idle)},t=s(e=>{const t=a.levels.get(),s=ft(t,e-1);s||console.warn(`level info not found for number: ${e}`);const r=t.length;return{...s,maxLevel:r,isFirstLevel:1===e,isLastLevel:e===r}}),r=s(e=>{const a=t(e);return O(a.rewards,e=>({...e}))}),n=s(e=>{const{currentLevel:s,currentLevelPoints:r,previousLevel:n,postProgressionStatus:i}=a.root.get(),o=a.animationStep.get();if([Vp.FillProgressMax,Vp.RunCycle].includes(o))return e===n?Fp.IN_PROGRESS:Fp.COMPLETED;const{levelPoints:l,maxLevel:c}=t(e);return e<s||s===c&&r===l*c?Fp.COMPLETED:e===s&&(i!==Gp.Locked||r>0)?Fp.IN_PROGRESS:Fp.NOT_STARTED}),i=s(e=>{const{postProgressionStatus:t}=a.root.get(),s=n(e);return{cardStatus:s,isDisabled:t!==Gp.Unlocked&&s===Fp.NOT_STARTED}}),l=s(()=>_()?m().length&&p()&&h()?Hp.ExtraChapter:u()?Hp.PurchasingIP:void 0:Hp.NotAvailable,{equals:W}),c=s(()=>Se(a.chapters.get(),e=>e.isRegular),{equals:W}),d=s(()=>Se(a.chapters.get(),e=>e.isRegular&&e.chapterStatus===Up.Completed).length,{equals:W}),_=s(()=>d()===c().length),u=s(()=>Ae(a.chapters.get(),e=>!e.isBattlePassPurchased)),m=s(()=>Se(a.chapters.get(),e=>!e.isRegular)),p=s(()=>Ae(m(),e=>e.chapterStatus!==Up.Active)),h=s(()=>Ae(m(),e=>e.chapterStatus!==Up.Completed)),b=s(()=>{const{currentLevel:e,currentLevelPoints:t}=a.root.get(),s=e-1;return De(a.levels.get(),(e,{levelPoints:a},r)=>r<s?e+a:r===s?e+t:e,0)}),f=s(()=>De(a.levels.get(),(e,{levelPoints:a})=>e+a,0)),g=s(()=>{const{currentLevel:e,currentLevelPoints:t,previousLevel:s,previousLevelPoints:r}=a.root.get();return e!==s||t!==r}),v=s(()=>{const{cyclesCompletedCount:e,previousCyclesCompletedCount:t}=a.root.get();return e>t}),x=s(e=>{const{currentLevel:s,currentLevelPoints:r,previousLevel:n,previousLevelPoints:i,postProgressionStatus:o}=a.root.get(),l=a.animationStep.get(),{levelPoints:c,maxLevel:d}=t(s),{levelPoints:_}=t(n),u=v(),m=o!==Gp.Locked,[p=0,h=0]=((e,a)=>{const t=Xp(e),s=Xp(e,a);return[t,a?s:t]})(e,m),b=p*(d-1)+h,f=((e,a)=>(t,s,r,n=!1)=>e*(t-1)+(n?e:a)/r*s)(p,h),g=!u&&n<s;return{progressValue:[Vp.FillProgressMax,Vp.RunCycle].includes(l)?b:f(s,r,c),previousProgressValue:l===Vp.ResetProgress?0:f(n,i,_,g),maxProgressValue:b}}),w=s(()=>{const e=Se(m(),e=>(e.chapterStatus===Up.Active||e.chapterStatus===Up.Completed)&&!e.isBattlePassPurchased);return e.length>0?e:Se(a.chapters.get(),e=>!e.isBattlePassPurchased)});return{...a,computes:{footerState:l,regularChapters:c,completedRegularChaptersCount:d,extraChapters:m,cardStates:i,levelInfo:t,levelRewards:r,currentPointsInChapter:b,totalPointsInChapter:f,progressChanged:g,cycleChanged:v,getProgressValues:x,chaptersForPurchase:w}}},({model:e,externalModel:a})=>({openPointsInfo:a.createCallbackNoArgs("onOpenPointsInfo"),openInfoPage:a.createCallbackNoArgs("onOpenInfoPage"),setAnimationStep:l(a=>e.animationStep.set(a)),handleProgressAchieved:a.createCallbackNoArgs("onProgressAchieved"),handleCycleCompleted:a.createCallbackNoArgs("onCycleCompleted")})),Yp="Highlight_ec6e9d0b",Qp="Highlight_inner_fc05a4f9",Jp="Highlight_side_ffdc7ad0",eh="Highlight_side__left_48f019cc",ah="Highlight_side__right_7a86ef2a",th=e.memo(()=>a.jsxs("div",{className:Yp,children:[a.jsx("div",{className:t(Jp,eh)}),a.jsx("div",{className:Qp}),a.jsx("div",{className:t(Jp,ah)})]})),sh="Background_3985f66b",rh="Background_default_7c7472e5",nh="Background_base__first_26effab7",ih="Background_base__last_26effab7",oh="Background_disabled_aebb7525",lh=i(({level:e})=>{const{model:s}=Kp(),{isFirstLevel:r,isLastLevel:n}=s.computes.levelInfo(e),{cardStatus:i,isDisabled:o}=s.computes.cardStates(e);return a.jsxs("div",{className:t(sh,r&&nh,n&&ih),children:[a.jsx("div",{className:rh}),o&&a.jsx("div",{className:oh}),i===Fp.IN_PROGRESS&&a.jsx(th,{})]})}),ch={base:"CardRewards_178a6e14",base__completed:"CardRewards_base__completed_434ea7b1",rewards:"CardRewards_rewards_db8e5858",rewards__2:"CardRewards_rewards__2_32a806d4",base__inProgress:"CardRewards_base__inProgress_35611a2f",rewards__3:"CardRewards_rewards__3_6ac4c499",reward:"CardRewards_reward_8562c98f",rewards__1:"CardRewards_rewards__1_35611a2f",fadeInWithScale:"CardRewards_fadeInWithScale_35611a2f",slideUp:"CardRewards_slideUp_35611a2f",blink:"CardRewards_blink_35611a2f",scale:"CardRewards_scale_35611a2f",rotate:"CardRewards_rotate_35611a2f",windowIn:"CardRewards_windowIn_35611a2f",fadeOut:"CardRewards_fadeOut_35611a2f",fadeIn:"CardRewards_fadeIn_35611a2f"},dh=s(e=>{const{item:a,name:t,value:s,overlayType:r,tooltipId:n,tooltipContentId:i}=e;return{name:a||t,smallImage:xt(e,xe.Big),bigImage:xt(e,xe.S180x135),special:r,value:s,valueType:vt(t),tooltipArgs:gt({tooltipId:n},Number(i),{ignoreShowDelay:!0})}}),_h=i(({level:e,className:s})=>{const{model:r}=Kp(),n=r.computes.levelRewards(e),{cardStatus:i}=r.computes.cardStates(e),{breakpoint:{weight:o}}=ge(),l=o<ve.medium.weight,c=1===n.length,d=((e,a)=>a?e?xe.Big:xe.S180x135:e?xe.Small:xe.Big)(l,c),_=e=>l||!c?e.smallImage:e.bigImage;return a.jsx("div",{className:t(ch.base,ch[`base__${i}`],s),children:a.jsx("div",{className:t(ch.rewards,ch[`rewards__${n.length}`]),children:O(n,(e,s)=>{const r=dh(e);return a.jsx("div",{className:t(ch.reward),children:a.jsx(we,{size:d,image:_(r),...r})},`reward__${r.name}${s}`)})})})}),uh={base:"Divider_e7aefb14",base__left:"Divider_base__left_c4dc4b02",base__right:"Divider_base__right_5c287de9",inner:"Divider_inner_5e9c8eab",fadeInWithScale:"Divider_fadeInWithScale_76b1f722",slideUp:"Divider_slideUp_76b1f722",blink:"Divider_blink_76b1f722",scale:"Divider_scale_76b1f722",rotate:"Divider_rotate_76b1f722",windowIn:"Divider_windowIn_76b1f722",fadeOut:"Divider_fadeOut_76b1f722",fadeIn:"Divider_fadeIn_76b1f722"},mh=({position:e})=>a.jsx("div",{className:t(uh.base,uh[`base__${e}`]),children:a.jsx("div",{className:uh.inner})}),ph={base:"Stage_2019a8bb",number:"Stage_number_1d4a1a4c",animatedNumber:"Stage_animatedNumber_3b1e34e9",numberInProgress:"Stage_numberInProgress_9fdc0826",title:"Stage_title_29b5b4ba",glow:"Stage_glow_cc25be2a",base__inProgress:"Stage_base__inProgress_68142ff2",animatedGlow:"Stage_animatedGlow_a126942e",fadeInWithScale:"Stage_fadeInWithScale_68142ff2",slideUp:"Stage_slideUp_68142ff2",blink:"Stage_blink_68142ff2",scale:"Stage_scale_68142ff2",rotate:"Stage_rotate_68142ff2",windowIn:"Stage_windowIn_68142ff2",fadeOut:"Stage_fadeOut_68142ff2",fadeIn:"Stage_fadeIn_68142ff2"},hh=i(({level:s,className:i})=>{const{model:o}=Kp(),{postProgressionStatus:l}=o.root.get(),{cardStatus:c}=o.computes.cardStates(s),[d,_]=e.useState(!1),u=c===Fp.IN_PROGRESS,m=l===Gp.Unlocked,{stageOpacity:p}=r({from:{stageOpacity:d?1:0},to:{stageOpacity:0},delay:0,onStart:()=>Pe.sound(R.sounds.bp_current_phase()),config:{duration:750,easing:Yt}}),{sparkOpacity:h}=r({from:{sparkOpacity:d?.7:0},to:{sparkOpacity:0},delay:1100,onRest:()=>_(!1),config:{duration:300,easing:Yt}});return e.useEffect(()=>{if(u)return ae(()=>{_(!0)},100)},[u]),a.jsx("div",{className:t(ph.base,ph[`base__${c}`],i),children:u?a.jsxs(a.Fragment,{children:[m&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:ph.glow}),a.jsx(n.div,{style:{opacity:h},className:ph.animatedGlow})]}),a.jsxs("div",{className:ph.numberInProgress,children:[s,a.jsx(n.div,{style:{opacity:p,transform:p.to([0,1],[2.5,1]).to(e=>`translate(-50%, -50%) scale(${e})`)},className:ph.animatedNumber,children:s})]}),a.jsx("div",{className:ph.title,children:R.strings.battle_pass.postProgressionView.progression.currentStep()})]}):a.jsx("div",{className:ph.number,children:s})})}),bh={base__showAnimation:"CompletedStatus_base__showAnimation_8334d234",base__hideAnimation:"CompletedStatus_base__hideAnimation_5e0caacf",icon:"CompletedStatus_icon_6277c5c1",iconGlow:"CompletedStatus_iconGlow_2dfae495"},fh=({shouldAppear:e})=>a.jsxs("div",{className:t(bh.base,e?bh.base__showAnimation:bh.base__hideAnimation),children:[a.jsx("div",{className:bh.iconGlow}),a.jsx(da,{body:R.strings.battle_pass.tooltips.completed.got(),children:a.jsx("div",{className:bh.icon})})]}),gh={base:"CurrentPoints_4c27ce16",base__appear:"CurrentPoints_base__appear_2cb3686f",base__disappear:"CurrentPoints_base__disappear_e11174fb",value__current:"CurrentPoints_value__current_9c51dee4",value__total:"CurrentPoints_value__total_99fac246",divider:"CurrentPoints_divider_83c77e4c",icon:"CurrentPoints_icon_6b371e14"},vh=i(({totalLevelPoints:e,shouldAppear:s,shouldDisappear:r,className:n})=>{const{model:i}=Kp(),{currentLevelPoints:o,previousLevelPoints:l}=i.root.get();return a.jsx(wt,{ignoreShowDelay:!0,contentId:R.views.mono.battle_pass.tooltips.bp_points("resId"),children:a.jsxs("div",{className:t(gh.base,s&&gh.base__appear,r&&gh.base__disappear,n),children:[a.jsx("div",{className:t(gh.value,gh.value__current),children:r?l:o}),a.jsx("div",{className:gh.divider,children:"/"}),a.jsx("div",{className:t(gh.value,gh.value__total),children:e}),a.jsx("div",{className:gh.icon})]})})}),xh="Status_41b476d1",wh="Status_pointsWrapper_6042cf48",Ch=i(({level:s,className:r})=>{const{model:n}=Kp(),{cardStatus:i,isDisabled:o}=n.computes.cardStates(s),{levelPoints:l}=n.computes.levelInfo(s),c=n.animationStep.get(),d=[Vp.FillProgressMax,Vp.RunCycle].includes(c),_=c===Vp.ResetProgress,u=i===Fp.COMPLETED&&!o,m=i===Fp.IN_PROGRESS,[p,h]=e.useState(u);return e.useEffect(()=>{if(c===Vp.RunCycle)return void h(!1);const e=c===Vp.FillProgressMax,a=c===Vp.ResetProgress;return p?void 0:ae(()=>{h(!!e||u)},(a?500:0)+100*s)},[c,p,u,s]),a.jsxs("div",{className:t(xh,r),children:[u&&p&&a.jsx(fh,{shouldAppear:p}),m&&a.jsx(vh,{className:wh,totalLevelPoints:l,shouldAppear:_,shouldDisappear:d})]})}),yh={base:"Card_1d966e2a",base__inProgress:"Card_base__inProgress_b07d56b3",stage:"Card_stage_1d11f254",rewards:"Card_rewards_aba92251",status:"Card_status_f3176857",points:"Card_points_a0ccfd85",points__initial:"Card_points__initial_86462962",progressShadow:"Card_progressShadow_e0bd1d",fadeInWithScale:"Card_fadeInWithScale_f4c22d1c",slideUp:"Card_slideUp_f4c22d1c",blink:"Card_blink_f4c22d1c",scale:"Card_scale_f4c22d1c",rotate:"Card_rotate_f4c22d1c",windowIn:"Card_windowIn_f4c22d1c",fadeOut:"Card_fadeOut_f4c22d1c",fadeIn:"Card_fadeIn_f4c22d1c"},jh=i(({level:e})=>{const{model:s}=Kp(),{levelPoints:r,isFirstLevel:n,isLastLevel:i}=s.computes.levelInfo(e),{cardStatus:o}=s.computes.cardStates(e),l=!n&&o===Fp.IN_PROGRESS,c=!i&&s.computes.cardStates(e+1).cardStatus!==Fp.IN_PROGRESS;return a.jsxs("div",{className:t(yh.base,yh[`base__${o}`]),style:qp,children:[a.jsx(lh,{level:e}),a.jsx(hh,{className:yh.stage,level:e}),a.jsx(_h,{className:yh.rewards,level:e}),a.jsx(Ch,{className:yh.status,level:e}),a.jsx("div",{className:yh.points,children:e*r}),n&&a.jsx("div",{className:t(yh.points,yh.points__initial),children:0}),l&&a.jsx(mh,{position:$p.left}),c&&a.jsx(mh,{position:$p.right})]})}),Nh="Cards_afe60a85",Sh=i(()=>{const{model:e}=Kp(),t=e.levels.get(),{chapterID:s}=e.root.get();return a.jsx("div",{className:Nh,children:O(t,({level:e},t)=>a.jsx(jh,{level:e},`${s}_${t}`))})}),kh="ExtraChapter_51af81b2",Ih="ExtraChapter_wrapper_1111764a",Ph="ExtraChapter_border_1fc38ae",Rh="ExtraChapter_base__hover_d6a2f84c",Bh="ExtraChapter_bg_6bfbbfc5",Ah="ExtraChapter_widget_ba8b2337",Eh="ExtraChapter_title_4965d60",Th="ExtraChapter_description_1a9020c",Lh="ExtraChapter_content_7e770f3c",Dh=R.strings.battle_pass.postProgressionView.footer.extraChapter,Wh=i(()=>{var s;const{model:r}=Kp(),n=null==(s=r.computes.extraChapters()[0])?void 0:s.chapterID,[i,o]=e.useState(!1),l=pe();return n?a.jsxs("div",{className:t(kh,i&&Rh),onMouseOver:e=>{e.stopPropagation(),o(!0),Pe.sound(R.sounds.highlight())},onMouseOut:()=>{o(!1)},onClick:()=>{l.push(ts.battlePass.progression,{chapterID:n}),Pe.sound(R.sounds.play())},children:[a.jsxs("div",{className:Ih,children:[a.jsx("div",{className:Bh}),a.jsxs("div",{className:Lh,children:[a.jsx("div",{className:Eh,children:Dh.title.text()}),a.jsx("div",{className:Th,children:Dh.description.text()})]})]}),a.jsx("div",{className:Ah}),a.jsx("div",{className:Ph})]}):null}),Oh="NotAvailable_e1e3731d",Mh="NotAvailable_background_a3edbc06",Vh="NotAvailable_content_94110074",zh="NotAvailable_button_149fb125",Fh="NotAvailable_description_6cafdd55",Hh="NotAvailable_completedCount_8450f150",$h=R.strings.battle_pass.postProgressionView.footer,Uh=i(()=>{const{model:e}=Kp(),t=pe(),s=e.computes.completedRegularChaptersCount(),r=e.computes.regularChapters().length;return a.jsxs("div",{className:Oh,children:[a.jsx("div",{className:Mh}),a.jsxs("div",{className:Vh,children:[a.jsx(E,{classMix:Fh,text:$h.description.text(),binding:{completedChapters:a.jsx("span",{className:Hh,children:s}),chaptersAmount:r}}),a.jsx(ct,{type:mt.ghost,size:dt.medium,mixClass:zh,onClick:()=>t.push(ts.battlePass.chapterChoice),children:$h.button.text()})]})]})}),Gh="PurchasingIp_349aa5c4",qh="PurchasingIp_wrapper_2ff2079e",Xh="PurchasingIp_border_78bb5b9b",Zh="PurchasingIp_base__hover_e6cc332b",Kh="PurchasingIp_bg_345ee932",Yh="PurchasingIp_blink_990fb4a0",Qh="PurchasingIp_text_4355bb8a",Jh="PurchasingIp_button_b213818",eb="PurchasingIp_content_b09e9d85",ab=R.strings.battle_pass.postProgressionView.footer.purchaseIP,tb=i(()=>{const{model:s}=Kp(),r=pe(),[n,i]=e.useState(!1);return a.jsxs("div",{className:t(Gh,n&&Zh),onMouseOver:e=>{e.stopPropagation(),i(!0),Pe.sound(R.sounds.highlight())},onMouseOut:()=>{i(!1)},onClick:()=>{var e;const a=s.computes.chaptersForPurchase();Pe.sound(R.sounds.play()),r.push(ts.battlePass.buyPass,{chapterID:null==(e=a[0])?void 0:e.chapterID})},children:[a.jsxs("div",{className:qh,children:[a.jsx("div",{className:Kh}),a.jsx("div",{className:Yh}),a.jsxs("div",{className:eb,children:[a.jsx("div",{className:Qh,children:R.strings.battle_pass.postProgressionView.footer.purchaseIP.banner.text()}),a.jsx(ct,{type:mt.main,size:dt.medium,mixClass:Jh,children:ab.button.text()})]})]}),a.jsx("div",{className:Xh})]})}),sb="Footer_447447a9",rb=i(({className:e=""})=>{const{model:s}=Kp(),r=s.computes.footerState();return a.jsx("div",{className:t(sb,e),children:(()=>{switch(r){case Hp.NotAvailable:return a.jsx(Uh,{});case Hp.PurchasingIP:return a.jsx(tb,{});case Hp.ExtraChapter:return a.jsx(Wh,{});default:return null}})()})}),nb="Header_8161ac6c",ib="Header_background_ca26eac9",ob="Header_headlineContainer_83fb95ed",lb="Header_headline_49f93202",cb="Header_divider_d589871a",db="Header_title_87287815",_b="Header_descriptionContainer_5475d6de",ub="Header_descriptionPaused_65f475ba",mb="Header_description_1d21a2e3",pb="Header_icon_c2a24f90",hb="Header_label_f1c2cd27",bb=R.strings.battle_pass.postProgressionView.header,fb=i(({className:e})=>{const{postProgressionStatus:s,endDate:r}=Kp().model.root.get(),n=s===Gp.Locked,i=s===Gp.Paused,o=tt(r,st.DayMonthFull);return a.jsxs("div",{className:t(nb,e),children:[a.jsx("div",{className:ib}),a.jsxs("div",{className:ob,children:[!n&&a.jsxs(a.Fragment,{children:[a.jsx("span",{className:lb,children:bb.headline.unlocked()}),a.jsx("div",{className:cb})]}),a.jsx(E,{classMix:lb,text:bb.headline.deadline(),binding:{endDate:o}})]}),a.jsx("span",{className:db,children:bb.title()}),a.jsx("div",{className:_b,children:i?a.jsxs(a.Fragment,{children:[a.jsx("div",{className:pb}),a.jsx("span",{className:hb,children:bb.description.onPause.highlight()}),a.jsx("span",{className:ub,children:bb.description.onPause.regular()})]}):a.jsx("span",{className:mb,children:bb.description.active()})})]})}),gb="Counter_530269bb",vb="Counter_infinityIconContainer_1ffbc2e2",xb="Counter_infinityIcon_d060ec47",wb="Counter_label_3f062fe0",Cb="Counter_cyclesCompleted_98e1bb2c",yb="Counter_cyclesNumber_623ae487",jb="Counter_cyclesNumber__animated_78a25366",Nb="Counter_cyclesNumber__hidden_4c746c1c",Sb=R.strings.battle_pass.postProgressionView.progression,kb=i(({className:e,labelRef:s,shouldRun:r})=>{const{model:n}=Kp(),{cyclesCompletedCount:i,previousCyclesCompletedCount:o}=n.root.get(),l=n.animationStep.get(),c=i!==o&&[Vp.Idle,Vp.FillProgressMax].includes(l);return a.jsxs("div",{className:t(gb,e),ref:s,children:[a.jsx("div",{className:vb,children:a.jsx("div",{className:xb})}),a.jsx("div",{className:wb,children:i?a.jsxs("div",{className:Cb,children:[a.jsx("span",{children:Sb.cyclesCompleted()}),a.jsx("span",{className:t(yb,r&&jb,c&&Nb),children:i},`cyclesCompletedCount-${r}`)]}):Sb.cyclicalProgression()})]})}),Ib={base:"Cycle_74f0e867",labelContainer:"Cycle_labelContainer_3604ca19",contour:"Cycle_contour_24ba23fd",border:"Cycle_border_c131c31f",border__horizontal:"Cycle_border__horizontal_c4a77614",contour__2x:"Cycle_contour__2x_8af1a177",border__vertical:"Cycle_border__vertical_218efe03",arrow:"Cycle_arrow_9ac4ac6",bar:"Cycle_bar_ed90b853",bar__state1:"Cycle_bar__state1_cdb101bd",state1:"Cycle_state1_8af1a177",bar__state2:"Cycle_bar__state2_19af5de",state2:"Cycle_state2_8af1a177",bar__state3:"Cycle_bar__state3_297a53d6",state3:"Cycle_state3_8af1a177",bar__state4:"Cycle_bar__state4_a23fc208",state4:"Cycle_state4_8af1a177",bar__state5:"Cycle_bar__state5_e607ac47",state5:"Cycle_state5_8af1a177",fadeInWithScale:"Cycle_fadeInWithScale_8af1a177",slideUp:"Cycle_slideUp_8af1a177",blink:"Cycle_blink_8af1a177",scale:"Cycle_scale_8af1a177",rotate:"Cycle_rotate_8af1a177",windowIn:"Cycle_windowIn_8af1a177",fadeOut:"Cycle_fadeOut_8af1a177",fadeIn:"Cycle_fadeIn_8af1a177"},Pb="--label-offset",Rb={left:0,width:0},Bb=i(({className:s,shouldRun:r})=>{const{model:n}=Kp(),{cyclesCompletedCount:i}=n.root.get(),o=e.useRef(null),l=e.useRef(null),{breakpoint:{weight:c}}=ge(),d=Ve(),[_,u]=e.useState({[Pb]:"0%"});return Ct(()=>{var e,a;const t=(null==(e=o.current)?void 0:e.getBoundingClientRect())??Rb,s=(null==(a=l.current)?void 0:a.getBoundingClientRect().left)??0,r=15*d,n=100*(s-t.left-r)/t.width;u({[Pb]:`${n}%`})},[o.current,l.current,c,d,i]),a.jsxs("div",{className:t(Ib.base,s),style:_,children:[a.jsx("div",{className:Ib.arrow}),a.jsxs("div",{className:t(Ib.contour,Ib[`contour__${d}x`]),ref:o,children:[a.jsx("div",{className:t(Ib.border,Ib.border__vertical)}),a.jsx("div",{className:t(Ib.border,Ib.border__horizontal)}),r&&Array(5).fill(void 0).map((e,s)=>a.jsx("div",{className:t(Ib.bar,Ib[`bar__state${s+1}`])},`bar-${s}`))]}),a.jsx(kb,{className:Ib.labelContainer,labelRef:l,shouldRun:r})]})}),Ab="ProgressBar_7a10c6f0",Eb="ProgressBar_progressBackground_ce66ede4",Tb="ProgressBar_progressBar_61381794",Lb="ProgressBar_progressBar__disabled_f37621b4",Db="ProgressBar_optimizedProgressBar_87a4af2b",Wb="ProgressBar_cycle_7886c8",Ob=i(()=>{const{model:s,controls:r}=Kp(),{postProgressionStatus:n}=s.root.get(),i=s.animationStep.get(),o=i===Vp.RunCycle,l=n===Gp.Locked,c=n===Gp.Paused,d=l||c,{breakpoint:{weight:_}}=ge(),{progressValue:u,previousProgressValue:m,maxProgressValue:p}=s.computes.getProgressValues(_),h=s.computes.progressChanged();e.useEffect(()=>{switch(i){case Vp.FillProgressMax:case Vp.RefillProgress:return void r.handleProgressAchieved();case Vp.RunCycle:return void r.handleCycleCompleted()}},[i,r]),e.useEffect(()=>{if(h&&i===Vp.Idle)return ae(()=>{r.handleProgressAchieved()},Wp)},[i,r,h]);const b=e.useRef(yt());return a.jsxs("div",{className:Ab,style:{"--progress-line-width":`${p}rem`},children:[a.jsx("div",{className:Eb}),a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.bp_points("resId"),children:a.jsx("div",{className:t(Tb,d&&Lb),children:a.jsx(jt,{api:b,value:u,deltaFrom:m,maxValue:p,disabled:d,animationSettings:Op,theme:Mp,className:Db})})}),a.jsx(Bb,{className:Wb,shouldRun:o})]})}),Mb="Toolbar_infoButtons_dd878d8c",Vb=R.strings.battle_pass.postProgressionView.toolbar,zb=i(({className:e})=>{const{openInfoPage:t,openPointsInfo:s}=Kp().controls;return a.jsx("div",{className:e,children:a.jsxs("div",{className:Mb,children:[a.jsx(Nt,{caption:Vb.aboutBattlePass(),type:"info",onClick:t}),a.jsx(Nt,{caption:Vb.howToEarnPoints(),type:"info",onClick:s})]})})}),Fb="App_ad9a5024",Hb="App_toolbar_d16ffb0a",$b="App_awardsWidget_1186a317",Ub="App_award_70e8698f",Gb="App_content_b9a70459",qb="App_header_77cc1fba",Xb="App_progression_992167b9",Zb="App_footer_e6643cae",Kb=R.images.gui.maps.icons.battlePass.backgrounds.progression,Yb=i(()=>{const{model:t,controls:s}=Kp(),{chapterID:r}=t.root.get(),n=t.animationStep.get(),i=t.computes.cycleChanged(),o=pe();e.useEffect(()=>{if(n!==Vp.Idle){const{nextStep:e,delay:a}=zp[n];return ae(()=>{s.setAnimationStep(e)},a)}i&&s.setAnimationStep(Vp.FillProgressMax)},[n,s,i]),be(L.ESCAPE,()=>o.goBack());const l=`url(${Gt(Kb,r)})`;return a.jsxs("div",{className:Fb,style:{backgroundImage:l},children:[a.jsx(zb,{className:Hb}),a.jsx(zm,{rootId:R.aliases.battle_pass.PostProgression("resId"),context:"model.awardsWidget",classNames:{base:$b,award:Ub}}),a.jsxs("div",{className:Gb,children:[a.jsx(fb,{className:qb}),a.jsxs("div",{className:Xb,children:[a.jsx(Sh,{}),a.jsx(Ob,{})]})]}),a.jsx(rb,{className:Zb})]})}),Qb=()=>a.jsx(Zp,{options:{rootId:R.aliases.battle_pass.PostProgression("resId")},children:a.jsx(Yb,{})});var Jb=(e=>(e.Active="active",e.Paused="paused",e.Completed="completed",e.NotStarted="notStarted",e))(Jb||{}),ef=(e=>(e.NoAction="noAction",e.Buy="buy",e.BuyLevel="buyLevel",e.ActivateChapter="activateChapter",e))(ef||{}),af=(e=>(e.COMMON="common",e.EXTRA="extra",e.HOLIDAY="holiday",e))(af||{}),tf=(e=>(e.left="left",e.right="right",e))(tf||{}),sf=(e=>(e.COMPLETED="completed",e.IN_PROGRESS="inProgress",e.NOT_STARTED="notStarted",e))(sf||{}),rf=(e=>(e.UNLOCK_BIG="bp_unlock_big",e.UNLOCK_SMALL="bp_unlock_small",e.IMPROVED_REWARD="bp_improved_reward",e))(rf||{}),nf=(e=>(e.back="back",e.forward="forward",e))(nf||{}),of=(e=>(e.Default="default",e.Gray="gray",e))(of||{});const lf=[Jb.Active,Jb.Completed],[cf,df]=D()(({observableModel:e})=>{const a={root:e.object(),levels:e.array("levels.items"),widget3dStyle:e.object("widget3dStyle"),widget3dStyleVehicleInfo:e.object("widget3dStyle.vehicleInfo"),widgetFinalRewards:e.object("widgetFinalRewards"),vehicleInfo:e.object("widgetFinalRewards.vehicleInfo"),freeTankmanInfo:e.array("widgetFinalRewards.tankmanInfo.free"),paidTankmanInfo:e.array("widgetFinalRewards.tankmanInfo.paid"),styleInfo:e.object("widgetFinalRewards.styleInfo"),vehicleInfoFromStyle:e.object("widgetFinalRewards.styleInfo.vehicleInfo"),freeFinalRewards:e.array("freeFinalRewards"),paidFinalRewards:e.array("paidFinalRewards"),starterPackRewards:e.array("starterPackRewards.items")},t=s(()=>O(a.freeFinalRewards.get(),M),{equals:W}),r=s(()=>O(a.paidFinalRewards.get(),M),{equals:W}),n=s(()=>O(a.starterPackRewards.get(),M),{equals:W}),i=s(()=>a.root.get().chapterType===af.HOLIDAY),o=s(()=>({freeFinalRewards:Qt(t()),...r().length&&{paidFinalRewards:Qt(r())}})),l=s(()=>{const{freeFinalRewards:e,paidFinalRewards:a}=o();return!(!a&&e.mainReward===Jt.progressiveStyle)}),c=s(()=>a.root.get().chapterType===af.EXTRA),d=s(()=>!(i()||c()),{equals:W}),_=s(e=>e?a.paidTankmanInfo.get():a.freeTankmanInfo.get()),u=s(e=>{const t=a.levels.get(),s=ft(t,e-1);return s||console.warn(`level info not found for number: ${e}`),{...s,maxLevel:t.length}}),m=s((e,a)=>{const t=u(e);return O(a?t.freeRewardItems.items:t.paidRewardItems.items,e=>({...e}))}),p=s(()=>{const{freePointsInLevel:e,currentPointsInLevel:t,chapterState:s,hasExtra:r}=a.root.get(),n=lf.includes(s)||r?t:e,i=u(1);return{current:n,total:null==i?void 0:i.levelPoints}}),h=s((e,t)=>{const{chapterState:s,currentLevel:r,potentialLevel:n,currentPointsInChapter:i,freePointsInChapter:o}=a.root.get(),{levelPoints:l,maxLevel:c}=u(e),d=t?o:i,_=t?n:r;return e<_||_===c&&d===l*c?sf.COMPLETED:e===_&&(s!==Jb.NotStarted||d>0)?sf.IN_PROGRESS:sf.NOT_STARTED}),b=s((e,t,s,r)=>{const{currentLevel:n,currentPointsInLevel:i}=a.root.get();return((n-1)*e+i/r*t)/s}),f=s(()=>{var e;return null==(e=St(a.levels.get(),e=>"number"==typeof e.levelPoints))?void 0:e.levelPoints}),g=s((e,a)=>{const{needTakeFree:t,needTakePaid:s}=u(e);return a?s:t}),v=s((e,t)=>{const{isBattlePassPurchased:s,chapterState:r}=a.root.get(),n=u(e),i=h(e,!1);return{cardStatus:{current:i,potential:h(e,!0)},isRare:n.isRare&&i!==sf.IN_PROGRESS,isDisabled:t&&!s||r!==Jb.Active&&i===sf.NOT_STARTED}});return{...a,computes:{getFreeFinalRewards:t,getPaidFinalRewards:r,regularBattlePass:d,getFinalRewardTankmanInfo:_,currentLevelPoints:p,levelInfo:u,levelRewardItems:m,getCurrentWidth:b,getTotalLevelPoints:f,isRewardNeedTake:g,cardStates:v,isLayoutWithExtraWidget:l,getFinalRewardsDescription:o,getStarterPackRewards:n}}},({externalModel:e})=>({chapterActivate:e.createCallbackNoArgs("onChapterActivate"),openAbout:e.createCallbackNoArgs("onAboutClick"),openPreview:e.createCallbackNoArgs("widgetFinalRewards.onRewardPreviewClick"),open3dStylePreview:e.createCallback(e=>({level:e}),"widget3dStyle.onPreviewClick"),onStyleBonusPreview:e.createCallback(e=>({bonusId:e}),"onStyleBonusPreview"),showTankmen:e.createCallbackNoArgs("widgetFinalRewards.showTankmen"),openInfo:e.createCallbackNoArgs("onPointsInfoClick"),viewLoad:e.createCallbackNoArgs("onViewLoaded"),finishLevelsAnimation:e.createCallbackNoArgs("onLevelsAnimationFinished"),takeReward:e.createCallback(({level:e})=>({level:e}),"onTakeClick"),finishAnimation:e.createCallbackNoArgs("onFinishedAnimation")})),_f="AdditionalRewardInfo_rewardText_31efb669",uf="AdditionalRewardInfo_subTitle_251693c1",mf="AdditionalRewardInfo_subTitleTextWrapper_19819b2b",pf="AdditionalRewardInfo_subTitleText_b6b02718",hf="AdditionalRewardInfo_subTitleText__truncated_539e6fd4",bf="AdditionalRewardInfo_infoIcon_a4fa826d",ff=R.strings.battle_pass.progression.extraChapterWidget,gf=i(({additionalReward:s})=>{const{model:{widgetFinalRewards:r,styleInfo:n,vehicleInfo:i}}=df(),{vehicleName:o}=i.get(),{battleQuest:l}=r.get(),[c,d]=e.useState(!1),_=e.useRef(null),u=e.useCallback(async()=>{await Zt();const e=_.current;e&&d(e.scrollWidth>e.offsetWidth)},[]);return kt(()=>(u(),engine.on("clientResized",u),()=>{engine.off("clientResized",u)})),a.jsxs(a.Fragment,{children:[s===Jt.style&&a.jsx(E,{classMix:_f,text:ff.vehicleSubTitle(),binding:{styleName:n.get().styleName}}),s===Jt.battleQuest&&a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.random_quest("resId"),args:{tokenID:l},children:a.jsxs("div",{className:uf,children:[a.jsx("div",{className:mf,children:a.jsx("div",{className:t(pf,c&&hf),ref:_,children:a.jsx(E,{text:ff.styleSubTitle(),binding:{vehicleName:o}})})}),a.jsx("div",{className:bf})]})})]})}),vf="StyleDescription_rewardTitle_a38f5a35",xf="StyleDescription_rewardTitle__singleReward_844cd016",wf="StyleDescription_title_10aa0199",Cf="StyleDescription_title__singleReward_4f032bf8",yf="StyleDescription_vehicleTitle_d97e976a",jf="StyleDescription_vehicleLabel_d39e5139",Nf="StyleDescription_vehicleInHangar_f82728b9",Sf="StyleDescription_remark_bf754841",kf="StyleDescription_lockIcon_6a873423",If="StyleDescription_baseClass_cf456a8f",Pf="StyleDescription_name_9ce7517f",Rf="StyleDescription_level_7a97d385",Bf="StyleDescription_type_8cffe3f7",Af=R.strings.battle_pass.progression.extraChapterWidget,Ef=i(({additionalReward:e,isPaidReward:s})=>{const{model:{styleInfo:r,vehicleInfoFromStyle:n,root:i,computes:o},controls:l}=df(),{isBattlePassPurchased:c}=i.get(),{styleName:d,isVehicleInHangar:_}=r.get(),u=o.getPaidFinalRewards().length,m={base:If,level:Rf,name:Pf,typeIcon:Bf};return a.jsxs(a.Fragment,{children:[a.jsx(ut,{type:"preview",size:"normal",onClick:l.openPreview}),a.jsx("div",{className:t(vf,!u&&xf),children:u?Af.style3DTitle():Af.styleTitle()}),a.jsx(E,{classMix:t(wf,!u&&Cf),text:Af.styleName(),binding:{styleName:d}}),!u&&a.jsxs("div",{className:yf,children:[a.jsx(E,{classMix:jf,text:Af.forLabel(),binding:{vehicleName:a.jsx(rs,{...n.get(),classNames:m,vehicleTypeIconSize:rt.x24x24})}}),_&&a.jsx(da,{body:Af.inHangarTooltip(),children:a.jsx("div",{className:Nf})})]}),e&&a.jsx(gf,{additionalReward:e}),s&&!c&&a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.lock_icon("resId"),children:a.jsxs("div",{className:Sf,children:[a.jsx("div",{className:kf}),a.jsx("div",{children:Af.styleRemark()})]})})]})}),Tf="Skills_12e25c21",Lf="Skills_skill_d5e5036d",Df="Skills_zeroSkill_8baec091",Wf="Skills_glow_b87093c6",Of="Skills_zeroSkillIcon_f9fb247",Mf="Skills_skillIcon_2a4ffd3a",Vf="Skills_skillIcon__specificPerk_9fedba",zf="Skills_divider_5189f326",Ff="Skills_light_dc85d289",Hf=({skills:e,className:s=""})=>{const r=It(e,e=>e.isZero);return a.jsxs("div",{className:t(Tf,s),children:[O(e,(e,s)=>a.jsxs("div",{className:Lf,children:[a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.crew_member_skill("resId"),args:{name:e.name,isZero:e.isZero,hasZeroPerk:void 0!==r},children:a.jsxs("div",{children:[e.isZero&&e.name===ns&&a.jsxs("div",{className:Df,children:[a.jsx("div",{className:Wf}),a.jsx("div",{className:Of})]}),a.jsx("div",{className:t(Mf,e.name!==ns&&Vf),style:{backgroundImage:`url('R.images.gui.maps.icons.battlePass.tankman.perks.icon_perk_${e.name}')`}})]})}),r===s&&a.jsx("div",{className:zf})]},`${e.name}_${s}`)),a.jsx("div",{className:Ff})]})},$f={base:"Voice_c37942b8",icon:"Voice_icon_341b24d6",icon__speaker:"Voice_icon__speaker_172c2c35",icon__wave0:"Voice_icon__wave0_77617b3a",base__animate:"Voice_base__animate_d1a20ef1",icon__wave1:"Voice_icon__wave1_1096fc2"},Uf=R.strings.battle_pass.progression.extraChapterWidget,Gf=(()=>{const e=Math.ceil(is/800);return{duration:800,iterationCount:e,totalDuration:800*e}})(),qf=({groupName:s})=>{const[r,n]=e.useState(!1),i=e.useCallback(()=>{r||(Pe.sound(R.sounds.play()),Pe.sound(s),n(!0))},[r,s]);return e.useEffect(()=>{r&&ae(()=>{n(!1)},Gf.totalDuration)},[r]),a.jsx(da,{body:Uf.voiceoverTooltip(),children:a.jsxs("div",{className:t($f.base,r&&$f.base__animate),onClick:i,onMouseEnter:()=>{Pe.sound(R.sounds.bp_highlight())},style:{"--animation-duration":`${Gf.duration}ms`,"--animation-iteration-count":Gf.iterationCount},children:[a.jsx("div",{className:t($f.icon,$f.icon__speaker)}),a.jsx("div",{className:t($f.icon,$f.icon__wave0)}),a.jsx("div",{className:t($f.icon,$f.icon__wave1)}),a.jsx("div",{className:t($f.icon,$f.icon__wave2)})]})})},Xf="TankmanDescription_title_6b604eaf",Zf="TankmanDescription_title__noVoice_132efc49",Kf="TankmanDescription_name_9f802b92",Yf="TankmanDescription_skills_8507fe1b",Qf="TankmanDescription_skill_2e650973",Jf="TankmanDescription_skill__paidReward_f372df77",eg="TankmanDescription_description_4c6b2a1b",ag="TankmanDescription_lockIcon_7b9909c0",tg="TankmanDescription_lockText_e8d2d84c",sg="TankmanDescription_showCommander_392de842",rg="TankmanDescription_close_b105aa08",ng=R.strings.battle_pass.progression.extraChapterWidget,ig=R.strings.battle_pass.awardsWidget.description.commander(),og=i(({isPaidReward:e})=>{const{model:s,controls:r}=df(),{tankmenScreenID:n,isBattlePassPurchased:i}=s.root.get(),{tankman:o,hasVoice:l,skills:c,groupName:d}=s.computes.getFinalRewardTankmanInfo(e),{freeFinalRewards:_,paidFinalRewards:u}=s.computes.getFinalRewardsDescription(),m=_.mainReward===Jt.tankman&&(null==u?void 0:u.mainReward)===Jt.tankman;return a.jsxs(a.Fragment,{children:[l&&a.jsx(qf,{groupName:d}),a.jsx("div",{className:t(Xf,!l&&Zf),children:ng.tankman()}),a.jsx("div",{className:Kf,children:o}),c.length>0&&a.jsx("div",{className:Yf,children:a.jsx(Hf,{skills:c,className:t(Qf,e&&Jf)})}),e&&!i&&a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.lock_icon("resId"),children:a.jsxs("div",{className:eg,children:[a.jsx("div",{className:ag}),a.jsx("div",{className:tg,children:ng.labelWithBP()})]})}),Boolean(n)&&!m&&a.jsx(da,{body:ig,isEnabled:Boolean(ig),children:a.jsx("div",{className:sg,children:a.jsx(ct,{type:mt.ghost,size:dt.small,mixClass:rg,onClick:r.showTankmen,children:ng.commanderVoices()})})})]})}),lg="Timer_992312dc",cg="Timer_light_b54b0e12",dg="Timer_icon_daefbc5f",_g="Timer_value_ef2605c8",ug=({expireTime:e=0})=>{const t=Pt(e,1),s=(e=>{const a=e=>e.toString().padStart(2,"0");return`${e.days?Rt(R.strings.common.duration.days(),{days:e.days}):""} ${a(e.hours)} : ${a(e.minutes)} : ${a(e.seconds)}`})(Le(t));return a.jsx(da,{body:R.strings.battle_pass.progression.extraChapterWidget.timer(),children:a.jsxs("div",{className:lg,children:[a.jsx("div",{className:dg}),a.jsx("div",{className:_g,children:s}),a.jsx("div",{className:cg}),a.jsx("div",{className:cg})]})})},mg="VehicleInfo_f8a1a53e",pg="VehicleInfo_type_f9fe252e",hg=({vehicleLvl:e,vehicleName:s,vehicleType:r,isElite:n,classNames:i})=>a.jsxs("div",{className:t(mg,null==i?void 0:i.base),children:[es(e),a.jsx("div",{className:t(pg,null==i?void 0:i.type),style:{backgroundImage:`url(${R.images.gui.maps.icons.vehicleTypes.big.$dyn(`${Bt(r)}${n?"_elite":""}`)})`}}),s]}),bg={vehicleBg:"VehicleDescription_vehicleBg_a5f58731",vehicleBg__description:"VehicleDescription_vehicleBg__description_449188e7",vehicleCaption:"VehicleDescription_vehicleCaption_ff05b2b9",description:"VehicleDescription_description_ac70d89a",rewardLabel:"VehicleDescription_rewardLabel_e69780e1",rewardDescription:"VehicleDescription_rewardDescription_ac995cfe",rewardLockIcon:"VehicleDescription_rewardLockIcon_bf4a508e",rewardLockText:"VehicleDescription_rewardLockText_1ae0fc44"},fg=R.strings.battle_pass.progression.extraChapterWidget,gg=i(({additionalReward:e,isPaidReward:s})=>{const{model:{vehicleInfo:r,root:n,computes:i},controls:o}=df(),{vehicleType:l,isElite:c,vehicleName:d,vehicleShortName:_,vehicleLvl:u,vehicleNation:m}=r.get(),{breakpoint:{weight:p}}=ge(),{isBattlePassPurchased:h,seasonNum:b}=n.get(),f=i.getPaidFinalRewards().length,g={backgroundImage:`url(R.images.gui.maps.icons.flags.c_600x450.${m})`},v=p>ve.medium.weight?14:12,x=d.length>v?_:d,w=fg.tank.description.$num(b);return a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(bg.vehicleBg,!f&&bg.vehicleBg__description),style:g}),a.jsx(ut,{type:"preview",size:"normal",onClick:o.openPreview}),a.jsx("div",{className:bg.vehicleCaption,children:fg.vehicleCaption()}),a.jsx(hg,{classNames:{base:bg.vehicleInfo},vehicleLvl:u,vehicleName:x,vehicleType:l,isElite:c}),!f&&w&&a.jsx("div",{className:bg.description,children:a.jsx(E,{text:w})}),e&&a.jsx("div",{className:bg.rewardLabel,children:a.jsx(gf,{additionalReward:e})}),s&&!h&&a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.lock_icon("resId"),children:a.jsxs("div",{className:bg.rewardDescription,children:[a.jsx("div",{className:bg.rewardLockIcon}),a.jsx("div",{className:bg.rewardLockText,children:fg.labelWithBP()})]})})]})}),vg="Separator_da94a3ab",xg="Separator_separatorBg_79e9a0f1",wg=({classNames:e})=>a.jsx("div",{className:t(vg,null==e?void 0:e.base),children:a.jsx("div",{className:t(xg,null==e?void 0:e.separatorBg)})}),Cg="ExtraChapterWidget_3f5dd2c5",yg="ExtraChapterWidget_widgetWrapper_df1761bd",jg="ExtraChapterWidget_base__styleReward_3f5dd2c5",Ng="ExtraChapterWidget_glow_4388d699",Sg="ExtraChapterWidget_glow__styleReward_8dcf5d5f",kg="ExtraChapterWidget_content_7571cec7",Ig="ExtraChapterWidget_content__left_2a162beb",Pg="ExtraChapterWidget_content__singleReward_d0c77a05",Rg="ExtraChapterWidget_separatorBg_58fe9583",Bg="ExtraChapterWidget_timer_92648812",Ag={[Jt.tankman]:og,[Jt.vehicle]:gg,[Jt.style]:Ef},Eg=({mainReward:e,additionalReward:t},s)=>{if(!e)return null;const r=Ag[e];return r?a.jsx(r,{additionalReward:t,...s}):(console.warn("Unknown final reward type:",e),null)},Tg=i(()=>{const{model:{root:e,computes:s}}=df(),{timeLeft:r}=e.get(),{freeFinalRewards:n,paidFinalRewards:i}=s.getFinalRewardsDescription(),o=s.regularBattlePass(),l=!i&&n.mainReward===Jt.style;return a.jsxs("div",{className:t(Cg,l&&jg),children:[a.jsxs("div",{className:yg,children:[a.jsx("div",{className:t(Ng,l&&Sg)}),a.jsx("div",{className:t(kg,!i&&Pg),children:Eg(n,{isPaidReward:!1})}),i&&a.jsxs(a.Fragment,{children:[a.jsx(wg,{classNames:{separatorBg:Rg}}),a.jsx("div",{className:t(kg,Ig),children:Eg(i,{isPaidReward:!0})})]})]}),!o&&a.jsx("div",{className:Bg,children:a.jsx(ug,{expireTime:r})})]})}),Lg={base:"Footer_ab6b29ea",light:"Footer_light_3b6e1ce3",light__red:"Footer_light__red_944d6c45",light__green:"Footer_light__green_9e6310c0",buttonWrapper:"Footer_buttonWrapper_bdb4b046",starterAndButton:"Footer_starterAndButton_2f4854e4",button:"Footer_button_9e575f35",labelContainer:"Footer_labelContainer_ae5572d4",label:"Footer_label_e76dc882",label__buy:"Footer_label__buy_8b13ea86",days:"Footer_days_9ed2f711",points:"Footer_points_58964618",status:"Footer_status_9143122e",info:"Footer_info_5836cdb1",infoHover:"Footer_infoHover_63796a67",blink:"Footer_blink_106ec98e",move:"Footer_move_4308958a",fadeInWithScale:"Footer_fadeInWithScale_4308958a",slideUp:"Footer_slideUp_4308958a",scale:"Footer_scale_4308958a",rotate:"Footer_rotate_4308958a",windowIn:"Footer_windowIn_4308958a",fadeOut:"Footer_fadeOut_4308958a",fadeIn:"Footer_fadeIn_4308958a"},Dg=k.resolve("strings"),Wg=(e,a)=>e?a?Dg.readOrEmpty("battle_pass.progression.activatePausedExtraChapterDescr"):Dg.readOrEmpty("battle_pass.progression.activateExtraChapterDescr"):Dg.readOrEmpty("battle_pass.progression.activateChapterDescr"),Og=i(()=>{const{model:e,controls:s}=df(),r=pe(),{actionType:n,chapterType:i,hasExtra:o,isSeasonEndingSoon:l,freePointsInChapter:c,currentPointsInChapter:d,chapterState:_,timeLeft:u,chapterID:m,isStarterPack:p}=e.root.get(),h=i===af.EXTRA,b=i===af.HOLIDAY,f=_===Jb.Paused,g=c-d,v=n===ef.ActivateChapter&&g>0,x=n!==ef.ActivateChapter&&l,w=p?Dg.readOrEmpty("battle_pass.progression.battlePassBuyDescrStarterPack"):b?Dg.readOrEmpty("battle_pass.progression.battlePassBuyHolidayDescr"):Dg.readOrEmpty("battle_pass.progression.battlePassBuyDescr"),{buyBtnLabel:C,tooltip:y,label:j,warning:N,buttonType:S,lightColor:k,route:I,params:P}=(e=>{switch(e){case ef.Buy:return{buyBtnLabel:Dg.readOrEmpty("battle_pass.progression.battlePassBuyBtn"),tooltip:Dg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.battlePass.descr"),label:w,warning:Dg.readOrEmpty("battle_pass.progression.seasonEndingDescr"),buttonType:mt.main,lightColor:"red",route:ts.battlePass.buyPass,params:{chapterID:m}};case ef.BuyLevel:return{buyBtnLabel:Dg.readOrEmpty("battle_pass.progression.episodeBuyBtn"),tooltip:b?Dg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.episode.holidayDescr"):Dg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.episode.descr"),label:Dg.readOrEmpty("battle_pass.progression.episodeBuyDescr"),warning:Dg.readOrEmpty("battle_pass.progression.seasonEndingDescr"),buttonType:mt.main,lightColor:"",route:ts.battlePass.buyLevels,params:{chapterID:m}};case ef.ActivateChapter:return{buyBtnLabel:Dg.readOrEmpty("battle_pass.progression.activateChapter"),tooltip:Dg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.activateChapter.descr"),label:Wg(h,f),warning:Dg.readOrEmpty("battle_pass.progression.freePointsDescr"),buttonType:mt.primary,lightColor:"green",route:"",params:{}};default:return{buyBtnLabel:"",tooltip:"",label:"",warning:"",buttonType:mt.ghost,lightColor:"green",route:"",params:{}}}})(n),R=v||x?N:j,B=(e=>{const t=Le(e);switch(!0){case t.days>=1:return a.jsx(E,{text:Dg.readOrEmpty("battle_pass.status.timeLeft.days"),binding:{day:t.days}});case t.hours>=1:return a.jsx(E,{text:Dg.readOrEmpty("battle_pass.status.timeLeft.hours"),binding:{hour:t.hours}});case t.minutes>=1:return a.jsx(E,{text:Dg.readOrEmpty("battle_pass.status.timeLeft.min"),binding:{min:t.minutes}});default:return Dg.readOrEmpty("battle_pass.status.timeLeft.lessMin")}})(u),A=e.computes.getStarterPackRewards(),T=()=>{n===ef.ActivateChapter?s.chapterActivate():I&&r.push(I,{chapterID:P.chapterID||void 0,reset:P.reset})};return a.jsxs("div",{className:Lg.base,children:[!p&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(Lg.light,Lg[`light__${k}`])}),a.jsxs("div",{className:Lg.labelContainer,children:[f&&a.jsx("div",{className:Lg.status,children:Dg.readOrEmpty("battle_pass.progression.footer.status.paused")}),a.jsx("div",{className:Lg.label,children:R}),x&&a.jsx("div",{className:Lg.days,children:B}),v&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:Lg.points,children:g}),a.jsx("div",{className:Lg.info,children:a.jsx(da,{header:Dg.readOrEmpty("battle_pass.tooltips.progression.freePoints.header"),body:o?Dg.readOrEmpty("battle_pass.tooltips.progression.freePoints.bodyExceptExtra"):Dg.readOrEmpty("battle_pass.tooltips.progression.freePoints.body"),children:a.jsx("div",{className:Lg.infoHover})})})]})]})]}),a.jsx("div",{className:Lg.buttonWrapper,children:p?a.jsxs("div",{className:Lg.starterAndButton,"data-test-id":`${n}ButtonWithSeasonData`,children:[a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(Lg.label,Lg.label__buy),children:a.jsx(E,{text:R})}),x&&a.jsx("div",{className:Lg.days,children:B})]}),a.jsx(da,{body:y,children:a.jsxs(ct,{type:S,size:dt.medium,mixClass:Lg.button,onClick:T,children:[x&&a.jsx("div",{className:Lg.blink}),C]})}),a.jsx(oi,{starterPackRewards:A,presentSize:ni,rewardSize:xe.Small})]}):a.jsx(da,{body:y,children:a.jsxs(ct,{type:S,size:dt.medium,mixClass:Lg.button,onClick:T,children:[x&&a.jsx("div",{className:Lg.blink}),C]})})})]})}),Mg="Header_d6c7a62a",Vg="Header_labels_73a63da7",zg="Header_title_46bb5059",Fg="Header_chapterWrapper_ec40e5cf",Hg="Header_chapterText_b2d85aee",$g="Header_titleText_593dd9b2",Ug="Header_chapterStatus_9c15353a",Gg="Header_date_dc70e297",qg="Header_titleButtons_7521b3e5",Xg="Header_titleButton_d86731f6",Zg="Header_logo_46c0cb85",Kg="Header_awards_f810fc3a",Yg="Header_emblem_c890a2dc",Qg="Header_emblem__isChapterNotChosen_8aa33950",Jg=R.strings.battle_pass,ev=i(()=>{const{controls:e,model:s}=df(),{chapterID:r,chapterState:n,seasonNum:i,expireTime:o,isBattlePassPurchased:l,timeLeft:c,chapterType:d}=s.root.get(),_=[Jb.NotStarted,Jb.Paused],u=(m=n)===Jb.Paused?Jg.progression.header.paused():m===Jb.NotStarted?Jg.progression.header.inactive():void 0;var m;const p=d===af.EXTRA,h=d===af.HOLIDAY,b=Math.trunc(c/86400),f=String(Jg.chapter.fullName.$num(r)),g=At(Jg.progression.seasonEndingTooltip(),{day:b}),v=At(Jg.progression.header.chapter.status(),{chapterName:f}),x=I({iconSize:cn,shieldSize:en,containerSize:Xr},{medium:{iconSize:_n,shieldSize:an,containerSize:Zr}}),w=_a;return a.jsxs("div",{className:Mg,children:[a.jsx("div",{className:Zg,children:a.jsx("div",{className:t(Yg,_.includes(n)&&Qg),children:a.jsx(gn,{iconSize:x.iconSize,shieldSize:x.shieldSize,containerSize:x.containerSize,bpPurchased:l,chapterID:r,className:Yg})})}),a.jsx("div",{className:Vg,children:a.jsxs("div",{className:zg,children:[a.jsx(da,{body:g,isEnabled:Boolean(c),children:a.jsx("div",{className:Gg,children:p?a.jsx(E,{text:Jg.progression.season.end.special(),binding:{endTime:tt(o,st.DayMonthFull)}}):h?a.jsx(E,{text:Jg.progression.season.end.special(),binding:{endTime:tt(o,st.DayMonthFullTime)}}):a.jsx(E,{text:Jg.progression.season.end.normal(),binding:{seasonNum:es(i),seasonName:String(Jg.season.fullName.$num(i)),endDate:tt(o,st.DayMonthFull)}})})}),a.jsxs("div",{className:Fg,children:[a.jsx("div",{className:$g,children:a.jsx(w,{className:Hg,text:f,tooltipParams:{body:v}})}),u&&a.jsx("div",{className:Ug,children:u})]}),a.jsxs("div",{className:qg,children:[a.jsx("div",{className:Xg,children:a.jsx(Nt,{caption:p||h?Jg.progression.aboutExtra():Jg.progression.about(),type:"info",onClick:e.openAbout})}),a.jsx("div",{className:Xg,children:a.jsx(Nt,{caption:Jg.progression.howToEarnPoints.title(),type:"info",onClick:e.openInfo})})]})]})}),a.jsx("div",{className:Kg,children:a.jsx(zm,{rootId:R.aliases.battle_pass.Progression("resId"),context:"model.awardsWidget"})})]})});var av=(e=>(e.Dragging="dragging",e.End="scrollingToEnd",e.Idle="idle",e))(av||{});const tv={type:"idle"};var sv=(e=>(e[e.MainButton=0]="MainButton",e[e.AuxiliaryButton=1]="AuxiliaryButton",e[e.SecondaryButton=2]="SecondaryButton",e[e.FourthButton=3]="FourthButton",e[e.FifthButton=4]="FifthButton",e))(sv||{});const rv={base:"ArrowButton_bae005da",base__gray:"ArrowButton_base__gray_2872d83c",icon:"ArrowButton_icon_78679b8c",icon__4k:"ArrowButton_icon__4k_2f0ad49a",icon__back:"ArrowButton_icon__back_20344757",icon__forward:"ArrowButton_icon__forward_3467f80",fadeInWithScale:"ArrowButton_fadeInWithScale_5327085d",slideUp:"ArrowButton_slideUp_5327085d",blink:"ArrowButton_blink_5327085d",scale:"ArrowButton_scale_5327085d",rotate:"ArrowButton_rotate_5327085d",windowIn:"ArrowButton_windowIn_5327085d",fadeOut:"ArrowButton_fadeOut_5327085d",fadeIn:"ArrowButton_fadeIn_5327085d"},nv=({onClick:s,direction:r,type:n=of.Default,className:i,tooltipBody:o})=>{const l=e.useCallback(()=>{Pe.sound(R.sounds.highlight())},[]),c=e.useCallback(()=>{Pe.sound(R.sounds.bp_slide()),s()},[s]);return a.jsx(da,{body:o,children:a.jsx("div",{className:t(rv.base,rv[`base__${n}`],i),onClick:c,onMouseEnter:l,children:a.jsx("div",{className:t(rv.icon,rv[`icon__${r}`],2===Et()&&rv.icon__4k)})})})},iv="Bookmark_1a260409",ov="Bookmark_container_5cba29f3",lv="Bookmark_container__start_f008a523",cv="Bookmark_container__wide_16a4de6e",dv="Bookmark_textWrapper_985290f6",_v="Bookmark_withTooltip_ef0470d4",uv="Bookmark_text_7877afbc",mv="Bookmark_text__basic_9271b9b6",pv="Bookmark_text__premium_49218d9e",hv="Bookmark_text__single_8125f23e",bv="Bookmark_text__wide_3f764b56",fv="Bookmark_text__disappeared_68a02d91",gv="Bookmark_textInner_8a053178",vv="Bookmark_leftTextLine_efb7ffd5",xv="Bookmark_rightTextLine_c747efe3",wv=({isWide:e,isDecorated:s})=>a.jsxs("div",{className:t(uv,hv,e&&bv),children:[s&&a.jsx("div",{className:vv}),a.jsx("div",{className:gv,children:R.strings.battle_pass.progression.postProgressionDescr()}),s&&a.jsx("div",{className:xv})]}),Cv=e.forwardRef(({isWide:s=!1,isDisappeared:r=!1,tooltipBody:n,tooltipTitle:i,chapterStep:o,mixClass:l},c)=>{const d=e.useRef(null);e.useImperativeHandle(c,()=>({width:()=>{const e=d.current;if(e){const a=window.getComputedStyle(e,null).getPropertyValue("width");return Number(a.split("rem")[0])}return 0}}));const _=a.jsx(E,{text:R.strings.battle_pass.tooltips.postProgress.body(),binding:{chapterStep:o}});return a.jsx("div",{className:t(iv,l),ref:d,children:a.jsx("div",{className:t(ov,s&&cv,!s&&lv),children:s?a.jsx(da,{body:n,header:i,isEnabled:"string"==typeof n,children:a.jsx("div",{className:_v,children:a.jsx(wv,{isWide:s,isDecorated:!0})})}):a.jsxs(a.Fragment,{children:[a.jsx("div",{className:dv,children:a.jsx(da,{header:R.strings.battle_pass.tooltips.postProgress.header(),body:_,children:a.jsx(wv,{isWide:s})})}),a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.lock_icon("resId"),children:a.jsx("div",{className:t(uv,pv),children:R.strings.battle_pass.progression.premiumProgressionDescr()})}),a.jsx("div",{className:t(uv,mv,r&&fv),children:R.strings.battle_pass.progression.baseProgressionDescr()})]})})})}),yv="LoupeButton_d966f396",jv="LoupeButton_icon_bfb9d784",Nv="LoupeButton_iconHover_22ab079c",Sv="LoupeButton_hoverArea_fa5a9428",kv=({onClick:s,hoverAreaClasses:r})=>{const n=e.useCallback(()=>Pe.sound(R.sounds.highlight()),[]),i=e.useCallback(()=>{Pe.sound(R.sounds.play()),s()},[s]),o=t(Sv,r);return a.jsxs("div",{className:yv,onClick:i,onMouseEnter:n,children:[a.jsx("div",{className:jv}),a.jsx("div",{className:Nv}),r&&a.jsx("div",{className:o})]})},Iv="VehicleInfo_c9c556fb",Pv="VehicleInfo_prefix_da97ceb4",Rv="VehicleInfo_type_514b50be",Bv=R.strings.battle_pass.progression.widget3dStyle,Av=e.memo(({vehicleLvl:t,vehicleName:s,vehicleType:r,isElite:n})=>{const i=e.useMemo(()=>{const e=Bt(r);return{backgroundImage:`url(${R.images.gui.maps.icons.vehicleTypes.big.$dyn(`${e}${n?"_elite":""}`)})`}},[r,n]);return a.jsxs("div",{className:Iv,children:[a.jsx("div",{className:Pv,children:Bv.forVehicle()}),es(t),a.jsx("div",{className:Rv,style:i}),s]})}),Ev="Widget3dStyle_a34c3929",Tv="Widget3dStyle_title_d5bd52fc",Lv="Widget3dStyle_base__closedChapter_9577883c",Dv="Widget3dStyle_box_7d47e858",Wv="Widget3dStyle_light_afd0e007",Ov="Widget3dStyle_image_37b4439c",Mv="Widget3dStyle_previewButton_42e4e473",Vv="Widget3dStyle_box__hovered_9577883c",zv="Widget3dStyle_footer_ff3bf09e",Fv="Widget3dStyle_caption_cc553073",Hv=R.strings.battle_pass.progression.widget3dStyle,$v=i(({widget3dStyleRef:s,level:r,isShowTitle:n})=>{const[i,o]=e.useState(!1),{controls:l,model:c}=df(),{chapterState:d,isStyleTaken:_}=c.root.get(),{styleName:u,styleId:m}=c.widget3dStyle.get(),{breakpoint:{weight:p}}=ge(),h=((e,a)=>2!==a?e<=ve.small.weight?"_small":"_medium":"")(p,viewEnv.getScale()),b=as(r,m,h),f=a.jsx(E,{text:Hv.currentStyle(),binding:{name:u}}),g=e.useCallback(()=>{l.open3dStylePreview(r)},[l,r]);return a.jsxs("div",{className:t(Ev,d===Jb.Completed&&Lv),ref:s,children:[!_&&n&&a.jsx("div",{className:Tv,children:Hv.titleNoChapterSelected()}),a.jsxs("div",{className:t(Dv,i&&Vv),onMouseEnter:()=>o(!0),onMouseLeave:()=>o(!1),children:[!_&&r===Pw&&a.jsx("div",{className:Wv}),a.jsx("div",{className:Ov,style:b}),a.jsx("div",{className:Mv,children:a.jsx(kv,{onClick:g})})]}),a.jsxs("div",{className:zv,children:[a.jsx("div",{className:Fv,children:f}),a.jsx(Av,{...c.widget3dStyleVehicleInfo.get()})]})]})}),Uv=({level:e,levelWidth:a,currentLevelWidth:t,pointsInLevel:s,totalPointsInLevel:r,currentLevel:n})=>e>n?t+a*(e-2)+a*(s/r):(e-1)*a+t*(s/r),Gv=e=>e+1,qv=i(({api:t,progressChange:s,levelWidth:r,currentLevelWidth:n,level:i,previousLevel:o,currentPointsInLevel:l,previousPointsInLevel:c,currentPointsInChapter:d,previousPointsInChapter:_,theme:u})=>{const{model:m}=df(),{isPaused:p,showLevelsAnimations:h,currentLevel:b}=m.root.get(),f=m.levels.get(),[g,v]=e.useState(0),x=e.useRef(-1),[{previousBaseEarnedPoints:w,maxBasePoints:C,baseProgressionSize:y},j]=e.useState({previousBaseEarnedPoints:0,maxBasePoints:0,baseProgressionSize:0});e.useEffect(()=>{var e;if(p)return;const a=x.current!==_,t=a?o:i,s=n+(f.length-1)*r,u=Te(f,t-1),m=i<=f.length?i-1:f.length-1,h=null==(e=Te(f,m))?void 0:e.levelPoints;if(!h)return;const g=Uv({level:i,levelWidth:r,currentLevelWidth:n,pointsInLevel:l,totalPointsInLevel:h,currentLevel:b}),v=u?u.levelPoints:0,w=Uv({level:t>i?i:t,levelWidth:r,currentLevelWidth:t<b?r:n,pointsInLevel:c,totalPointsInLevel:v,currentLevel:b}),C=a&&t<=i?w:g;_!==d&&r&&(x.current=_),j({maxBasePoints:s,previousBaseEarnedPoints:C,baseProgressionSize:g})},[p,r,n,i,o,d,c,l,_,b,f]);const N=e.useMemo(()=>({...ht,withStack:!0,type:pt.Simple,delta:{duration:400,delay:300},line:{duration:400,delay:300}}),[]);return e.useEffect(()=>{const e=b!==o||l!==c;if(!h&&(e||d===_))return e&&-1===x.current?ae(()=>{v(Gv)},700):void 0;v(Gv)},[d,_,h]),e.useEffect(()=>{if(h)return Ce(()=>{s&&s()})},[s,h]),a.jsx(jt,{animationSettings:N,deltaFrom:w,value:y,maxValue:C||void 0,api:t,theme:u},g)}),Xv={base:"Progression_1b76c395",base__isLayoutWithExtraWidget:"Progression_base__isLayoutWithExtraWidget_61efd8f5",scrollWrapper:"Progression_scrollWrapper_5d6c50f7",wrapper:"Progression_wrapper_2d700f2",progressContainer:"Progression_progressContainer_bf13204b",progress:"Progression_progress_f2c8d04a",progress__inactive:"Progression_progress__inactive_884002f1",progressBackground:"Progression_progressBackground_58b1a303",progressBackground__finished:"Progression_progressBackground__finished_335b0244",decor:"Progression_decor_158cf9e5",decorBackground:"Progression_decorBackground_da5971de",decor__left:"Progression_decor__left_61efd8f5",row:"Progression_row_2b2744bc",row__basic:"Progression_row__basic_db90f79e",bookmark:"Progression_bookmark_adda18c9",bookmark__start:"Progression_bookmark__start_e45cdc98",bookmarkLeftFixed:"Progression_bookmarkLeftFixed_87985cd2",bookmarkLeftFixed__active:"Progression_bookmarkLeftFixed__active_3d829e66",bookmarkLeftResponsive:"Progression_bookmarkLeftResponsive_f380dd1b",bookmarkBackground:"Progression_bookmarkBackground_3695986",scrollToButton:"Progression_scrollToButton_b51d1a4f",scrollToButton__visible:"Progression_scrollToButton__visible_750807fe",scrollToButton__forward:"Progression_scrollToButton__forward_f3d60cf3",scrollToButton__backward:"Progression_scrollToButton__backward_d30703b1",arrowButton:"Progression_arrowButton_fe2d3e38",shadow:"Progression_shadow_aeeafbe",shadow__left:"Progression_shadow__left_7a5e7f90",shadow__right:"Progression_shadow__right_b09b06b4",additionalShadow:"Progression_additionalShadow_19983a68",additionalShadow__active:"Progression_additionalShadow__active_3d829e66",scrollBarPosition:"Progression_scrollBarPosition_31bb147f"},Zv=R.strings.battle_pass.tooltips.progression.freePoints,Kv=i(({progressApi:e,freePointsApi:s,levelWidth:r,currentLevelWidth:n,progressChange:i})=>{const{model:o}=df(),{chapterState:l,currentLevel:c,previousLevel:d,currentPointsInLevel:_,previousPointsInLevel:u,currentPointsInChapter:m,previousPointsInChapter:p,freePointsInLevel:h,freePointsInChapter:b,previousFreePointsInChapter:f,previousFreePointsInLevel:g,potentialLevel:v,previousPotentialLevel:x}=o.root.get(),w=o.levels.get(),C=Ve(),y=(l===Jb.NotStarted||l===Jb.Paused)&&b-m>0,j=o.computes.getTotalLevelPoints();if(!j)return;const N=o.computes.getCurrentWidth(r,n,C,j),S=m>=w.length*j,k={"--progress-line-base":bt.line.bgColorBase,"--progress-line-disabled":bt.line.bgColorDisabled,"--progress-line-finished":bt.line.bgColorFinished};return a.jsxs("div",{className:Xv.progressContainer,children:[y&&a.jsx(da,{header:Zv.header(),body:Zv.body(),children:a.jsx("div",{className:Xv.progress,children:a.jsx(qv,{api:s,progressChange:i,levelWidth:r,currentLevelWidth:n,level:v,previousLevel:x,currentPointsInLevel:h,previousPointsInLevel:g,currentPointsInChapter:b,previousPointsInChapter:f,theme:Tt})})}),a.jsx("div",{className:t(Xv.progressBackground,S&&Xv.progressBackground__finished),style:{width:`${N}rem`,...k}}),a.jsx(wt,{contentId:R.views.mono.battle_pass.tooltips.bp_points("resId"),children:a.jsx("div",{className:t(Xv.progress,y&&Xv.progress__inactive),children:a.jsx(qv,{api:e,levelWidth:r,currentLevelWidth:n,level:c,previousLevel:d,currentPointsInLevel:_,previousPointsInLevel:u,currentPointsInChapter:m,previousPointsInChapter:p,progressChange:i})})})]})}),Yv="Background_3985f66b",Qv="Background_default_6d3ad0aa",Jv="Background_base__premium_26effab7",ex="Background_rare_927afb2",ax="Background_rareBg_af0bac1",tx="Background_pattern_f3c44da",sx="Background_pattern__left_910cb7b6",rx="Background_pattern__right_9077c0df",nx="Background_pattern__leftIndent_508a3857",ix="Background_pattern__rightIndent_db46b63f",ox="Background_pattern__completed_51752ce4",lx="Background_disabled_12f45c1c",cx="Background_inProgress_f241145e",dx="Background_inProgressInner_eca44a42",_x="Background_inProgressPart_886e2046",ux="Background_inProgressPart__left_6b695373",mx="Background_inProgressPart__right_cb03c83d",px=e=>`url(R.images.gui.maps.icons.battlePass.progression.pattern_rare_${e})`,hx=i(({level:e,isPremium:s=!1})=>{const{model:r}=df(),{cardStatus:n,isRare:i,isDisabled:o}=r.computes.cardStates(e,s),l=n.current!==sf.IN_PROGRESS&&((e,a)=>{switch(e){case sf.NOT_STARTED:return a;case sf.COMPLETED:return!a;default:return console.warn(`Unsupported status for isIndent: ${e}`),!1}})(n.current,s);return a.jsxs("div",{className:t(Yv,s&&Jv),children:[a.jsx("div",{className:Qv}),o&&a.jsx("div",{className:lx}),n.current===sf.IN_PROGRESS&&a.jsxs("div",{className:cx,children:[a.jsx("div",{className:t(_x,ux)}),!s&&a.jsx("div",{className:dx}),a.jsx("div",{className:t(_x,mx)})]}),i&&a.jsxs("div",{className:ex,children:[a.jsx("div",{className:t(tx,sx,l&&nx,n.current===sf.COMPLETED&&ox),style:{backgroundImage:px("left")}}),a.jsx("div",{className:t(tx,rx,!l&&ix,n.current===sf.COMPLETED&&ox),style:{backgroundImage:px("right")}}),n.current===sf.NOT_STARTED&&a.jsx("div",{className:ax})]})]})}),bx={base:"Stage_7c79af8a",base__rewardTaken:"Stage_base__rewardTaken_a669b795",number:"Stage_number_1d4a1a4c",animatedNumber:"Stage_animatedNumber_3b1e34e9",numberInProgress:"Stage_numberInProgress_d91be11d",title:"Stage_title_a5ffe511",glow:"Stage_glow_cc400fdf",base__inProgress:"Stage_base__inProgress_68142ff2",animatedGlow:"Stage_animatedGlow_4243426d",iconFinal:"Stage_iconFinal_b5e7d2e",fadeInWithScale:"Stage_fadeInWithScale_68142ff2",slideUp:"Stage_slideUp_68142ff2",blink:"Stage_blink_68142ff2",scale:"Stage_scale_68142ff2",rotate:"Stage_rotate_68142ff2",windowIn:"Stage_windowIn_68142ff2",fadeOut:"Stage_fadeOut_68142ff2",fadeIn:"Stage_fadeIn_68142ff2"},fx=R.strings.battle_pass.progression,gx=i(({stepNumber:s,stageAnimationDelay:i,isRewardAnimationActive:o})=>{const{model:l,controls:c}=df(),{chapterState:d,showLevelsAnimations:_}=l.root.get(),[u,m]=e.useState(!1),{cardStatus:p}=l.computes.cardStates(s,!1),h=l.computes.isRewardNeedTake(s,!1)||l.computes.isRewardNeedTake(s,!0),b=l.computes.levelInfo(s).maxLevel===s,f=p.current===sf.IN_PROGRESS,g=d===Jb.NotStarted||d===Jb.Paused,v=p.current===sf.COMPLETED&&!h&&!o,{stageOpacity:x}=r({from:{stageOpacity:u?1:0},to:{stageOpacity:0},delay:0,onStart:()=>Pe.sound(R.sounds.bp_current_phase()),config:{duration:750,easing:Yt}}),{sparkOpacity:w}=r({from:{sparkOpacity:u?1:0},to:{sparkOpacity:0},delay:1100,onRest:()=>m(!1),config:{duration:1500,easing:Yt}});return e.useEffect(()=>{if(_&&f)return ae(()=>{m(!0),c.finishLevelsAnimation()},i+100)},[_,f,i]),a.jsxs("div",{className:t(bx.base,bx[`base__${p.current}`],v&&bx.base__rewardTaken),children:[f&&!g&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:bx.glow}),a.jsx(n.div,{style:{opacity:w},className:bx.animatedGlow})]}),b&&a.jsx("div",{className:bx.iconFinal}),f?a.jsxs(a.Fragment,{children:[a.jsxs("div",{className:bx.numberInProgress,children:[s,a.jsx(n.div,{style:{opacity:x,transform:x.to([0,1],[2.5,1]).to(e=>`translate(-50%, -50%) scale(${e})`)},className:bx.animatedNumber,children:s})]}),a.jsx("div",{className:bx.title,children:g?fx.pausedStep():fx.currentStep()})]}):a.jsx("div",{className:bx.number,children:s})]})}),vx="ClosedStatus_659358dc",xx="ClosedStatus_icon_26722519",wx="ClosedStatus_icon__current_d82fe3b3",Cx="ClosedStatus_icon__exit_70d0e6c0",yx="ClosedStatus_icon__exitActive_6e4d1395",jx="ClosedStatus_icon__exitCurrentActive_add31c82",Nx="ClosedStatus_icon__exitDone_694aab32",Sx="ClosedStatus_title_9c1acbb0",kx="ClosedStatus_title__exit_29b67eb8",Ix="ClosedStatus_title__exitActive_3d936f93",Px="ClosedStatus_title__exitDone_694aab32",Rx=i(({level:s,playUnlockAnimation:r=!1,handleUnlockAnimationExited:n,baseUnlockProps:i})=>{const o=e.useRef(null),l=e.useRef(null),{model:c}=df(),{isBattlePassPurchased:d}=c.root.get(),{cardStatus:_}=c.computes.cardStates(s,!0),u=_.current===sf.IN_PROGRESS,m={exit:Cx,exitActive:u?jx:yx,exitDone:Nx},p={exit:kx,exitActive:Ix,exitDone:Px},h=!d||r,b=u&&h;return a.jsxs("div",{className:vx,children:[h&&a.jsx(N,{...i,nodeRef:o,classNames:m,onExited:n,children:a.jsx("div",{ref:o,className:t(xx,u&&wx)})}),b&&a.jsx(N,{...i,nodeRef:l,classNames:h?p:{},children:a.jsx("div",{ref:l,className:Sx,children:R.strings.battle_pass.progression.currentStepLocked()})})]})}),Bx="CompletedStatus_cd7b3965",Ax="CompletedStatus_base__showAnimation_b386bcdc",Ex="CompletedStatus_iconGlow__completedEnter_8876529f",Tx="CompletedStatus_iconGlow__completedEnterActive_81bf80a4",Lx="CompletedStatus_iconGlow__completedEnterDone_36f61f63",Dx="CompletedStatus_icon_a8f57fb0",Wx=({completedIn:s,handleCompleteGlowAnimationExited:r,children:n})=>{const i=e.useRef(null),o={exit:Ex,exitActive:Tx,exitDone:Lx};return a.jsxs("div",{className:t(Bx,s&&Ax),children:[a.jsx(N,{in:!s,nodeRef:i,timeout:ew,classNames:o,onExited:r,children:a.jsx("div",{ref:i,children:n})}),a.jsx(da,{body:aw.tooltips.completed.got(),children:a.jsx("div",{className:Dx})})]})},Ox={base:"CurrentPoints_4c27ce16",value__current:"CurrentPoints_value__current_9c51dee4",value__total:"CurrentPoints_value__total_99fac246",divider:"CurrentPoints_divider_83c77e4c",icon:"CurrentPoints_icon_6b371e14"},Mx=i(()=>{const{model:{computes:e}}=df(),{current:s,total:r}=e.currentLevelPoints();return a.jsx(wt,{ignoreShowDelay:!0,contentId:R.views.mono.battle_pass.tooltips.bp_points("resId"),children:a.jsxs("div",{className:Ox.base,children:[a.jsx("div",{className:t(Ox.value,Ox.value__current),children:s}),a.jsx("div",{className:Ox.divider,children:"/"}),a.jsx("div",{className:t(Ox.value,Ox.value__total),children:r}),a.jsx("div",{className:Ox.icon})]})})}),Vx="Effects_glowWrapper_efa5ae0d",zx="Effects_glow_75ba9df8",Fx="Effects_glow__active_b9e151",Hx="Effects_dust_f4cf542",$x="Effects_dust__active_ece15182",Ux=({baseUnlockProps:t})=>{const s=e.useRef(null),r=e.useRef(null),n={exit:zx,exitActive:Fx,exitDone:zx},i={exit:Hx,exitActive:$x,exitDone:Hx};return a.jsxs("div",{children:[a.jsx(N,{...t,nodeRef:s,classNames:n,children:a.jsx("div",{ref:s,className:Vx,children:a.jsx("div",{className:zx})})}),a.jsx(N,{...t,nodeRef:r,classNames:i,children:a.jsx("div",{ref:r,className:Vx,children:a.jsx("div",{className:Hx})})})]})},Gx="Status_5c99d05d",qx="Status_base__inProgress_21b2f358",Xx="Status_iconContainer_7da53d2b",Zx="Status_iconInner_9a38fa07",Kx="Status_iconGlow_e61b8bfb",Yx="Status_iconGlow__completed_1ceaf83f",Qx="Status_iconGlow__hidden_5ce2d06a",Jx="Status_pointsWrapper_6042cf48",ew=1500,aw=R.strings.battle_pass,tw=R.views.mono.battle_pass,sw=i(({isPremium:s,playCompleteAnimation:r,playUnlockAnimation:n,completeAnimationDelay:i=0,unlockAnimationDelay:o=0,baseTimeout:l=0,playUnlockAnimationSound:c=!0,playCompleteAnimationSound:d=!0,onAnimationDone:_,initialAnimationDelay:u,completedDuration:m,level:p})=>{const{model:h}=df(),{cardStatus:b,isDisabled:f}=h.computes.cardStates(p,s),g=h.computes.isRewardNeedTake(p,s),[v,x]=e.useState(!1),[w,C]=e.useState(!1),[y,j]=e.useState(!0),[N,S]=e.useState(!1),k=b.current===sf.COMPLETED&&!g&&!f,I=f&&s||k||n,P=!s&&b.current===sf.IN_PROGRESS&&b.potential!==sf.COMPLETED,R=()=>{d&&Pe.sound(rf.IMPROVED_REWARD),x(!0)};e.useEffect(()=>n?ae(()=>{j(!1),c&&!N&&(b.current===sf.IN_PROGRESS?Pe.sound(rf.UNLOCK_BIG):Pe.sound(rf.UNLOCK_SMALL))},u+o):r?(C(!0),ae(()=>{C(!1),R()},u+i)):void(w&&C(!1)),[n,r,w]),e.useEffect(()=>{if(r&&N)return ae(()=>{R()},i)},[r,N]);const B=()=>{!r&&_&&_(),S(!0)},A={in:y,timeout:ew+l};return a.jsxs("div",{className:t(Gx,b.current===sf.IN_PROGRESS&&qx),style:{"--animation-duration":`${m}ms`},children:[I&&a.jsxs("div",{className:Xx,children:[(!r&&k||v&&!g)&&a.jsx(Wx,{completedIn:v,handleCompleteGlowAnimationExited:()=>{w&&C(!1)},children:a.jsx("div",{className:t(Kx,Yx,w&&Qx)})}),!r&&!n&&f&&s&&a.jsx(wt,{isEnabled:s,contentId:tw.tooltips.lock_icon("resId"),children:a.jsx("div",{children:a.jsx(Rx,{level:p,baseUnlockProps:A,playUnlockAnimation:n,handleUnlockAnimationExited:B})})}),n&&!N&&a.jsx(wt,{contentId:tw.tooltips.lock_icon("resId"),children:a.jsxs("div",{className:Zx,children:[a.jsx(Rx,{level:p,baseUnlockProps:A,playUnlockAnimation:n,handleUnlockAnimationExited:B}),b.current===sf.IN_PROGRESS&&a.jsx(Ux,{baseUnlockProps:A})]})})]}),P&&a.jsx("div",{className:Jx,children:a.jsx(Mx,{})})]})}),rw={base:"Rewards_70f08a68",base__column:"Rewards_base__column_a9c4b33d",base__inProgress:"Rewards_base__inProgress_d0a3b9e5",reward:"Rewards_reward_3ab9772c",base__tripleDefault:"Rewards_base__tripleDefault_405577a5",reward__0:"Rewards_reward__0_405577a5",reward__2:"Rewards_reward__2_ab1f8587",base__reverse:"Rewards_base__reverse_405577a5",base__tripleInProgress:"Rewards_base__tripleInProgress_405577a5",reward__1:"Rewards_reward__1_804d2a62",base__single:"Rewards_base__single_405577a5",shine:"Rewards_shine_353df8a9",base__animated:"Rewards_base__animated_405577a5",fadeIn:"Rewards_fadeIn_405577a5",rewardInner:"Rewards_rewardInner_cdaabcb1",changeReward:"Rewards_changeReward_405577a5",staticShine:"Rewards_staticShine_6885b0f2",explosion:"Rewards_explosion_20cd9d55",preview:"Rewards_preview_4455ca2",iconButton:"Rewards_iconButton_1f79ae3",fadeInWithScale:"Rewards_fadeInWithScale_405577a5",slideUp:"Rewards_slideUp_405577a5",blink:"Rewards_blink_405577a5",scale:"Rewards_scale_405577a5",rotate:"Rewards_rotate_405577a5",windowIn:"Rewards_windowIn_405577a5",fadeOut:"Rewards_fadeOut_405577a5"},nw=s(e=>{const{item:a,name:t,value:s,overlayType:r,tooltipId:n,tooltipContentId:i,id:o,icon:l}=e;return{id:o,icon:l,name:a||t,smallImage:xt(e,xe.Big),bigImage:xt(e,xe.S180x135),special:r,value:s,valueType:vt(t),tooltipArgs:gt({tooltipId:n},Number(i),{ignoreShowDelay:!0})}}),iw=i(({isPremium:s,levelNum:r,hasAnimation:n})=>{const{breakpoint:{weight:i}}=ge(),{model:o,controls:l}=df(),{cardStatus:c}=o.computes.cardStates(r,s),d=o.computes.isRewardNeedTake(r,s),_=o.computes.levelRewardItems(r,!0),u=o.computes.levelRewardItems(r,!1),m=s?u:_,[p,h]=e.useState(m),b=c.current===sf.IN_PROGRESS,f=e.useRef(!1);e.useEffect(()=>{if(f.current)return ae(()=>h(m),1e3);f.current=!0},[m,f]);return a.jsx("div",{className:t(rw.base,b&&rw.base__inProgress,s&&rw.base__reverse,n&&rw.base__animated,1===m.length&&rw.base__single,2===m.length&&rw.base__column,3===m.length&&(b?rw.base__tripleInProgress:rw.base__tripleDefault)),children:O(p,(e,s)=>{const r=nw(e),o=r.name.includes(Lt.StyleProgressToken)||r.name.includes(Lt.BattlePassSelectToken),c=d&&o||n,{size:_,image:u}=(e=>{const a=i<ve.medium.weight;return m.length>1?a?{size:xe.Small,image:e.smallImage}:{size:xe.Big,image:e.smallImage}:a?{size:xe.Big,image:e.smallImage}:{size:xe.S180x135,image:e.bigImage}})(r);return a.jsxs("div",{className:t(rw.reward,rw[`reward__${s}`]),children:[c&&a.jsx("div",{className:rw.shine}),n&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:rw.staticShine}),a.jsx("div",{className:rw.explosion})]}),a.jsx(we,{size:_,image:u,className:rw.rewardInner,...r}),r.icon===Jt.style&&a.jsx("div",{className:rw.preview,children:a.jsx(ut,{type:"preview",size:"normal",className:rw.iconButton,onClick:()=>l.onStyleBonusPreview(r.id)})})]},`reward__${r.name}${s}`)})})}),ow="CardRewards_50fb1177",lw="CardRewards_base__completed_434ea7b1",cw=i(({levelNum:e,isRewardAnimationActive:s,isPremium:r=!1})=>{const{model:n}=df(),{cardStatus:i,isDisabled:o}=n.computes.cardStates(e,r),l=n.computes.isRewardNeedTake(e,r),c=i.current===sf.COMPLETED&&!l&&!o&&!s;return a.jsx("div",{className:t(ow,c&&lw),children:a.jsx(iw,{levelNum:e,isPremium:r,hasAnimation:s})})}),dw="CardContent_f26d7969",_w="CardContent_status_b4751d54",uw="CardContent_buttonHolder_5af6834d",mw="CardContent_buttonLight_c4e99653",pw="CardContent_buttonInner_331e7784",hw="CardContent_buttonInner__disabled_df771be2",bw="CardContent_button_3b7b5ae4",fw="CardContent_button__disabled_d7ebe82e",gw="CardContent_buttonBlink_4f39579b",vw="CardContent_buttonText_25c40fc",xw=100,ww=1800,Cw=R.strings.battle_pass.progression,yw=i(({isPremium:s,stepNumber:r,onFinalAnimationDone:n,maxVisibleCards:i,showLevelsAnimations:o,showBuyAnimations:l})=>{const{model:c,controls:{finishAnimation:d,takeReward:_}}=df(),{isBattlePassPurchased:u,currentLevel:m,previousLevel:p}=c.root.get(),{needTakePaid:h,needTakeFree:b,isFreeRewardChoiceEnabled:f,isPaidRewardChoiceEnabled:g}=c.computes.levelInfo(r),{cardStatus:v}=c.computes.cardStates(r,s),x=c.computes.isRewardNeedTake(r,s),w=v.current===sf.IN_PROGRESS,C=v.current===sf.COMPLETED,[y,j]=e.useState(!1),[N,S]=e.useState(!1),{breakpoint:{weight:k}}=ge(),I=k<=ve.small.weight?dt.extraSmall:dt.small,P=e.useRef(x),R=P.current;e.useEffect(()=>{P.current=x}),e.useEffect(()=>{if(R&&!x){const e=ae(()=>{j(!1),d()},ww),a=ae(()=>{S(!1)},2300);return j(!0),S(!0),()=>{e(),a()}}},[x]);const B=(()=>{let e,a=0,t=0,c=0,d=0,_=!1,h=!1,b=!1,f=300*Math.ceil(m/25);if(i&&l&&u){const e=Math.floor(.5*i);let s=m-e,n=m+e,o=0;s<=0&&(o=1-s,n+=o,s=1);const l=r<m&&r>=s,c=r>m&&r<=n,u=r===s;l?a=(r-s+1)*xw:c&&(a=(r-s)*xw),_=Boolean(w||l||c||u),h=Boolean(w||u),b=Boolean(C&&_),t=(i-o-1)*xw,w&&(d=(r-s+1)*xw*2.5)}if(i&&o){const a=Math.min(m-p,Math.floor(.5*i));let l=m-a;l<=0&&(l=1);const d=r<m&&r>=l;d&&(t=(r-l+1)*xw,s&&(t+=xw)),b=Boolean(C&&d),c=a*xw+xw*Math.trunc(a/2)+f,o&&(e=n)}return N&&(f=0,t=ww,b=Boolean(C)),r===m-1&&(e=n),{baseTimeout:d,playCompleteAnimation:b,playCompleteAnimationSound:b,playUnlockAnimation:_,playUnlockAnimationSound:h,unlockAnimationDelay:a,onAnimationDone:e,completeAnimationDelay:t,stageAnimationDelay:c,initialAnimationDelay:f}})(),A=$(()=>{_({level:r})}),E=b||h,T=E&&!(f||g);return a.jsxs("div",{className:dw,children:[!s&&a.jsxs(a.Fragment,{children:[a.jsx(gx,{stepNumber:r,stageAnimationDelay:B.stageAnimationDelay,isRewardAnimationActive:y}),E&&a.jsx(da,{isEnabled:T,body:Cw.btnRewardsUnavailable(),children:a.jsxs("div",{className:uw,children:[!T&&a.jsx("div",{className:mw}),a.jsx("div",{className:t(pw,T&&hw),children:a.jsxs(ct,{type:mt.ghost,size:I,disabled:T,onClick:A,mixClass:t(bw,T&&fw),children:[!T&&a.jsx("div",{className:gw}),a.jsx("div",{className:vw,children:Cw.takeReward()})]})})]})})]}),a.jsx(cw,{levelNum:r,isPremium:s,isRewardAnimationActive:y}),a.jsx("div",{className:_w,children:a.jsx(sw,{isPremium:Boolean(s),completedDuration:500,level:r,...B})})]})}),jw={base:"Divider_e7aefb14",base__left:"Divider_base__left_c4dc4b02",base__right:"Divider_base__right_5c287de9",base__rare:"Divider_base__rare_e403ffc2",base__completed:"Divider_base__completed_e15d1358",base__premium:"Divider_base__premium_edc64468",inner:"Divider_inner_5e9c8eab",fadeInWithScale:"Divider_fadeInWithScale_76b1f722",slideUp:"Divider_slideUp_76b1f722",blink:"Divider_blink_76b1f722",scale:"Divider_scale_76b1f722",rotate:"Divider_rotate_76b1f722",windowIn:"Divider_windowIn_76b1f722",fadeOut:"Divider_fadeOut_76b1f722",fadeIn:"Divider_fadeIn_76b1f722"},Nw=({position:e,isPremium:s=!1,isRare:r=!1,status:n})=>a.jsx("div",{className:t(jw.base,jw[`base__${n}`],jw[`base__${e}`],r&&jw.base__rare,s&&jw.base__premium),children:a.jsx("div",{className:jw.inner})}),Sw={base:"Card_83a2cdb2",base__inProgress:"Card_base__inProgress_cc79557f",base__nonPremium:"Card_base__nonPremium_43e4be2f",totalPoints:"Card_totalPoints_c960ba66",totalPoints__default:"Card_totalPoints__default_86462962",totalPoints__final:"Card_totalPoints__final_b0d756a8",progressShadow:"Card_progressShadow_e0bd1d",fadeInWithScale:"Card_fadeInWithScale_f4c22d1c",slideUp:"Card_slideUp_f4c22d1c",blink:"Card_blink_f4c22d1c",scale:"Card_scale_f4c22d1c",rotate:"Card_rotate_f4c22d1c",windowIn:"Card_windowIn_f4c22d1c",fadeOut:"Card_fadeOut_f4c22d1c",fadeIn:"Card_fadeIn_f4c22d1c"},kw=i(({isPremium:s,stepNumber:r,maxLevels:n,maxVisibleCards:i,showBuyAnimations:o,showLevelsAnimations:l,onAnimationDone:c,levelRef:d})=>{const{model:_}=df(),{currentPointsInLevel:u,chapterState:m}=_.root.get(),{cardStatus:p,isRare:h}=_.computes.cardStates(r,s),{levelPoints:b}=_.computes.levelInfo(r),f=!s&&(p.current===sf.COMPLETED||p.current===sf.IN_PROGRESS),g=1===r,v=r===n,x=g?void 0:_.computes.cardStates(r-1,s),w=v?void 0:_.computes.cardStates(r+1,s),C=e.useRef(null),y=s?(r-1)*b:b;e.useImperativeHandle(d,()=>({width:()=>{const e=C.current;return e?e.offsetWidth:0},offsetLeft:()=>{const e=C.current;return e?e.offsetLeft:0},getOffsetLeftInArea:()=>{const e=C.current;if(!e)return 0;const a=e.parentNode,t=a?a.offsetLeft:0;return e.offsetLeft+t},getHTMLElement:()=>C.current}));const j=!g&&(p.current===sf.NOT_STARTED&&!h||(null==x?void 0:x.isRare)&&p.current!==sf.IN_PROGRESS||(null==x?void 0:x.cardStatus.current)===sf.IN_PROGRESS),N=!v&&(p.current===sf.COMPLETED&&!h||(null==w?void 0:w.isRare)&&p.current!==sf.IN_PROGRESS||(null==w?void 0:w.cardStatus.current)===sf.IN_PROGRESS),S=((e,a,t,s)=>e===sf.COMPLETED?100:e!==sf.IN_PROGRESS||a!==Jb.NotStarted&&a!==Jb.Paused?0:100*t/s)(p.current,m,u,y),k={width:`${S}%`},I={"--small-card-width":"140rem","--small-current-card-width":"224rem","--big-card-width":"220rem","--big-current-card-width":"340rem"};return a.jsxs("div",{className:t(Sw.base,Sw[`base__${p.current}`],!s&&Sw.base__nonPremium),ref:C,style:I,children:[a.jsx(hx,{level:r,isPremium:s}),a.jsx(yw,{isPremium:s,stepNumber:r,maxVisibleCards:i,showLevelsAnimations:l,showBuyAnimations:o,onFinalAnimationDone:c}),s&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(Sw.totalPoints,Sw.totalPoints__default),children:y}),v&&a.jsx("div",{className:t(Sw.totalPoints,Sw.totalPoints__final),children:n*b})]}),f&&a.jsx("div",{className:Sw.progressShadow,style:k}),!j&&a.jsx(Nw,{position:tf.left,isPremium:s,isRare:h,status:p.current}),!N&&a.jsx(Nw,{position:tf.right,isPremium:s,isRare:h,status:p.current})]})}),Iw=i(({currentCardRef:s,freeProgressionCutCardRef:r,potentialLevelCardRef:n,isPremium:i,sectionKey:o,maxVisibleCards:l})=>{const{model:c}=df(),{chapterID:d,currentLevel:_,potentialLevel:u,showBuyAnimations:m,showLevelsAnimations:p}=c.root.get(),h=c.levels.get(),[b,f]=e.useState(!1),g=()=>{f(!0)},v=Boolean(l&&i&&m),x=Boolean(l&&p);return a.jsx("div",{className:t(Xv.row,!i&&Xv.row__basic),children:O(h,(e,t)=>{return a.jsx(kw,{showBuyAnimations:v&&!b,showLevelsAnimations:x,levelRef:(c=e.level,m=_,p=u,c===m?s:c===p?n:r),stepNumber:e.level,isPremium:i,maxLevels:h.length,maxVisibleCards:l,onAnimationDone:g},`${d}_${o}_${t}`);var c,m,p})})}),Pw=1,Rw=i(({currentCardRef:s,freeProgressionCutCardRef:r,potentialLevelCardRef:n,onProgressChanged:i,widget3dStyleLeftRef:o,shadowLipRef:l,api:c})=>{const{model:d}=df(),{currentLevel:_,currentPointsInLevel:u,showLevelsAnimations:m}=d.root.get(),p=d.computes.isLayoutWithExtraWidget(),h=d.levels.get(),b=e.useRef(yt()),f=e.useRef(yt());c.current.moveProgressBars=e=>{b.current.update(e),f.current.update(e)};const[g,v]=e.useState({levelWidth:0,currentLevelWidth:0,maxCardsShown:0}),x=e.useCallback(()=>{if(s.current){const e=s.current,a=r.current,t=e?e.width():0,n=a?a.width():0;return!n&&t?{currentLevelWidth:t,levelWidth:224===t?140:220}:{currentLevelWidth:t,levelWidth:n}}},[s,r]),{breakpoint:{weight:w}}=ge();return e.useEffect(()=>{Zt().then(()=>{const e=x();if(e){const a=Math.floor((viewEnv.getClientSizeRem().width-e.currentLevelWidth)/e.levelWidth)+1;v({levelWidth:e.levelWidth,currentLevelWidth:e.currentLevelWidth,maxCardsShown:a})}})},[w,x,h.length,_,u]),e.useEffect(()=>{m&&Pe.sound(R.sounds.bp_progress_bar_start())},[m]),e.useEffect(()=>{i&&i()},[_,u,i]),a.jsxs("div",{className:Xv.wrapper,children:[!p&&a.jsxs(a.Fragment,{children:[a.jsx($v,{widget3dStyleRef:o,level:Pw,isShowTitle:!0}),a.jsx("div",{className:t(Xv.decor,Xv.decor__left),children:a.jsx("div",{className:Xv.decorBackground})}),a.jsx("div",{className:Xv.bookmarkBackground,ref:l,children:a.jsx(Cv,{isDisappeared:!0,mixClass:Xv.bookmarkLeftResponsive})})]}),a.jsxs("div",{className:Xv.section,children:[a.jsx(Iw,{sectionKey:"baseCard",currentCardRef:s,freeProgressionCutCardRef:r,potentialLevelCardRef:n,maxVisibleCards:m?g.maxCardsShown:0,currentLevel:_}),a.jsx(Kv,{progressApi:b,freePointsApi:f,progressChange:i,...g}),a.jsx(Iw,{sectionKey:"basePremiumCard",isPremium:!0,currentCardRef:s,freeProgressionCutCardRef:r,potentialLevelCardRef:n,maxVisibleCards:g.maxCardsShown,currentLevel:_})]}),!p&&a.jsxs(a.Fragment,{children:[a.jsx("div",{className:Xv.decor,children:a.jsx("div",{className:Xv.decorBackground})}),a.jsx($v,{level:4})]})]})}),Bw={allowedButtons:[sv.MainButton]},Aw=R.strings.battle_pass.progression,Ew=["dragStart","dragEnd","dragging"],Tw=i(({onHorizontalScroll:s})=>{const{model:r}=df(),n=r.levels.get(),{currentLevel:i,isBattlePassPurchased:o,showBuyAnimations:l}=r.root.get(),c=e.useRef({moveProgressBars:()=>{}}),d=e.useRef(null),_=e.useRef(null),u=e.useRef(null),m=e.useRef(null),p=e.useRef(null),h=e.useRef(null),b=e.useRef(null),f=e.useRef(0),g=r.computes.isLayoutWithExtraWidget(),[v,x]=e.useState("hidden"),[w,C]=e.useState("hidden"),[y,j]=e.useState(!1),[N,S]=e.useState(void 0),k=Dt(),{animationScroll:{scrollPosition:I},applyScroll:P,events:R,handleMouseWheel:B,getContainerSize:A,getWrapperSize:E}=k,[T,L]=function(a,t,s){const{contentRef:r,wrapperRef:n,scrollPosition:i,clampPosition:o,animationScroll:l,events:c}=a,[d,_]=e.useState(tv);return e.useEffect(()=>{const e=r.current;e&&(e.style.cursor="dragging"===d.type?"move":"grab")},[r,d.type]),e.useEffect(()=>{if("dragging"!==d.type)return;const e=e=>{const a=r.current,s=n.current;if(!a||!s)return;const c=d.positionFrom-e.screenX,_=d.previousScrollPosition+c;i.start({scrollPosition:o(a,_),from:{scrollPosition:l.scrollPosition.get()},...t})};function a(){window.removeEventListener("mousemove",e),document.body.removeEventListener("mouseleave",a),_({type:"scrollingToEnd"})}return window.addEventListener("mousemove",e),window.addEventListener("mouseup",a),document.body.addEventListener("mouseleave",a),()=>{window.removeEventListener("mousemove",e),window.removeEventListener("mouseup",a),document.body.removeEventListener("mouseleave",a)}},[l.scrollPosition,o,r,d,i,n,t,s]),e.useEffect(()=>{if("scrollingToEnd"!==d.type)return;const e=()=>{_(tv)};return l.scrollPosition.idle&&e(),c.on("rest",e),()=>c.off("rest",e)},[l.scrollPosition,d.type,c]),e.useEffect(()=>{const e=r.current;if(!e)return;const a=e=>{s&&s.allowedButtons&&-1===s.allowedButtons.findIndex(a=>e.button===a)||_({type:"dragging",positionFrom:e.screenX,previousScrollPosition:l.scrollPosition.get()})};return e.addEventListener("mousedown",a),()=>e.removeEventListener("mousedown",a)},[l.scrollPosition,r,s]),[d,_]}(k,void 0,Bw),D=e=>{T.type===av.Dragging&&L({type:av.End}),B(e)},W=e.useMemo(()=>({...k,handleMouseWheel:D}),[]),O=e.useCallback(e=>{const a=m.current?m.current.offsetWidth:0,t=p.current?p.current.offsetWidth:0;if(d.current){const s=E();c.current.moveProgressBars({viewPort:d.current,horizontalScrollPosition:s?e-s:e,leftOffset:a+t}),j(g||e>a+.5*t)}},[E,g]),M=e.useCallback((e=!1)=>{const a=_.current;let t=0,s=0;const r=m.current?m.current.offsetWidth:0,n=p.current?p.current.offsetWidth:0;a&&(t=a.width(),s=a.offsetLeft()+r+n);const i=d.current;let o=0;if(t&&i){const a=.5*i.offsetWidth;e&&f.current?o=s+t-.5*f.current-a:(o=s+.5*t-a,f.current=t)}return o=Math.round(o<0?0:o),o},[]),V=()=>{const e=d.current,a=_&&_.current,t=u.current,s=m.current?m.current.offsetWidth:0,r=p.current?p.current.offsetWidth:0;if(a&&t){const n=a.offsetLeft()+s+r,i=t.offsetLeft()+s+r,o=I.goal<n-e.offsetWidth?"navToCurrentLevel":t&&I.goal<i-e.offsetWidth?"navToPotentialLevel":"hidden",l=(()=>{switch(!0){case t&&I.goal>i+t.width():return"navToPotentialLevel";case I.goal>n+a.width():return"navToCurrentLevel";default:return"hidden"}})();x(o),C(l)}},z=e=>{const a=(e=>{let a=0;if(e&&e.current&&d&&d.current){const t=e.current,s=m.current?m.current.offsetWidth:0,r=p.current?p.current.offsetWidth:0;let n=0,i=0;t&&(n=t.width(),i=t.offsetLeft()+s+r);const o=d.current;n&&o&&(a=i+.5*n-.5*o.offsetWidth),a=Math.round(a<0?0:a)}return a})(e);O(I.goal),P(a),V()},F=e=>{switch(e){case"navToCurrentLevel":return z(_);case"navToPotentialLevel":return z(u)}},H=e=>{switch(e){case"navToCurrentLevel":return{type:of.Default,tooltipBody:Aw.backToCurrentStageArrow.descr()};case"navToPotentialLevel":return{type:of.Gray,tooltipBody:Aw.backToPotentialStageArrow.descr()}}},$=e=>{O(I.goal),V(),S(null==e?void 0:e.type)};return e.useEffect(()=>Ce(()=>{o&&l&&P(M())}),[P,M,o,l]),e.useEffect(()=>{const e=async()=>{const e=A(),a=I.goal;await Zt();const t=A(),s=d.current,[,r]=k.getBounds(),n=.25*s.offsetWidth,i=t&&e&&t!==e?a*t/e:a;O(i),P(i>r-n?r:i)};return engine.on("clientResized",e),()=>{engine.off("clientResized",e)}},[]),e.useEffect(()=>ae(()=>z(_),700),[i]),e.useEffect(()=>{if(((e="")=>Ew.includes(e))(N))return void s("dragStart"===N);const e=()=>{N||O(I.goal)},a=()=>{s(!1),O(I.goal)},t=()=>{s(!0),O(I.goal)};return R.on("change",e),R.on("rest",a),R.on("start",t),()=>{R.off("change",e),R.off("rest",a),R.off("start",t)}},[R,O,s,I.goal,N]),a.jsxs(a.Fragment,{children:[a.jsx("div",{className:t(Xv.bookmark,Xv.bookmark__start),children:a.jsx(Cv,{chapterStep:n.length,mixClass:t(Xv.bookmarkLeftFixed,y&&Xv.bookmarkLeftFixed__active)})}),a.jsx("div",{className:Xv.scrollWrapper,ref:d,onClick:$,onMouseLeave:V,onWheel:$,children:a.jsx(je.Horizontal.Area.Default,{api:W,barClassNames:{base:Xv.scrollBarPosition},onDrag:$,children:a.jsx(Rw,{api:c,currentCardRef:_,freeProgressionCutCardRef:h,potentialLevelCardRef:u,separatorRef:b,widget3dStyleLeftRef:m,shadowLipRef:p,onProgressChanged:$})})}),a.jsx("div",{className:t(Xv.scrollToButton,Xv.scrollToButton__backward,"hidden"!==w&&Xv.scrollToButton__visible),children:a.jsx(nv,{onClick:()=>F(w),direction:nf.back,className:Xv.arrowButton,...H(w)})}),a.jsx("div",{className:t(Xv.scrollToButton,Xv.scrollToButton__forward,"hidden"!==v&&Xv.scrollToButton__visible),children:a.jsx(nv,{onClick:()=>F(v),direction:nf.forward,className:Xv.arrowButton,...H(v)})})]})}),Lw=i(()=>{const{model:s}=df(),r=s.computes.isLayoutWithExtraWidget(),[n,i]=e.useState(!1),o=t(Xv.additionalShadow,n&&Xv.additionalShadow__active);return a.jsxs("div",{className:t(Xv.base,r&&Xv.base__isLayoutWithExtraWidget),children:[a.jsx("div",{className:t(Xv.shadow,Xv.shadow__left),children:a.jsx("div",{className:o})}),a.jsx("div",{className:t(Xv.shadow,Xv.shadow__right),children:a.jsx("div",{className:o})}),a.jsx(Tw,{onHorizontalScroll:e=>{i(e)}})]})}),Dw="ProgressionContent_23d7382d",Ww="ProgressionContent_base__extra_58f1f12d",Ow="ProgressionContent_base__extraChapter_9b00a080",Mw="ProgressionContent_header_3c9de2e1",Vw="ProgressionContent_progression_ee26929",zw="ProgressionContent_progression__extraChapter_ed356b04",Fw="ProgressionContent_extraChapterWidget_6d130b1f",Hw="ProgressionContent_footer_b7b80223",$w=i(()=>{const{model:{root:e,computes:s}}=df(),{chapterType:r,chapterID:n,actionType:i,isPaused:o}=e.get(),l=s.isLayoutWithExtraWidget(),c=r===af.EXTRA,d=i!==ef.NoAction,_=t(Vw,l&&zw);return a.jsxs("div",{className:t(Dw,l&&Ww,c&&Ow),style:qt(n),children:[!o&&a.jsx("div",{className:_,children:a.jsx(Lw,{})}),a.jsx("div",{className:Mw,children:a.jsx(ev,{})}),a.jsx("div",{className:Hw,children:d&&a.jsx(Og,{})}),l&&a.jsx("div",{className:Fw,children:a.jsx(Tg,{})})]})}),Uw="App_7cf6cd46",Gw=i(()=>{const{model:t,controls:s}=df(),{showReplaceRewardsAnimations:r}=t.root.get(),n=pe();return be(L.ESCAPE,()=>n.goBack()),e.useEffect(()=>{const e=()=>{document.body.style.height=window.innerHeight-innerHeight%2+"px"};return window.addEventListener("resize",e),e(),()=>{window.removeEventListener("resize",e),document.body.style.height="auto"}},[]),e.useEffect(()=>Ce(()=>{s.viewLoad()}),[]),e.useEffect(()=>{r&&Pe.sound(R.sounds.bp_pick_up_award())},[r]),a.jsx("div",{className:Uw,children:a.jsx($w,{})})}),qw=()=>a.jsx(cf,{options:{rootId:R.aliases.battle_pass.Progression("resId")},children:a.jsx(Gw,{})}),Xw="App_811b056b",Zw="App_mainView_54c70e4",Kw=i(()=>{const{location:t}=pe(),s=S(t,{from:{opacity:0},enter:{opacity:1,config:{duration:150,easing:Be.easeInQuad},delay:150}});return a.jsx(e.Suspense,{fallback:a.jsx("div",{}),children:a.jsx("div",{className:Xw,children:s((e,t)=>a.jsx(n.div,{className:Zw,style:e,children:a.jsxs(Wt,{children:[a.jsx(Ot,{path:ts.battlePass.progression,component:qw}),a.jsx(Ot,{path:ts.battlePass.chapterChoice,component:Ku}),a.jsx(Ot,{path:ts.battlePass.postProgression,component:Qb}),a.jsx(Ot,{path:ts.battlePass.buyPass,component:xi}),a.jsx(Ot,{path:ts.battlePass.buyPassRewards,component:xi}),a.jsx(Ot,{path:ts.battlePass.buyLevels,component:lr}),a.jsx(Ot,{path:ts.battlePass.buyLevelsRewards,component:lr}),a.jsx(Ot,{path:ts.battlePass.holidayFinal,component:Dp}),a.jsx(Ot,{path:ts.battlePass.tankmenScreen,component:ss})]})}))})})});Ht((new Mt).add(Vt).add(zt).addWithProps(Ft,{context:"model.router"}).render(a.jsx(Kw,{}))).then(()=>$t(document.getElementById("root"))).then(()=>Ut());
+import {
+  r as e,
+  j as a,
+  f as t,
+  g as s,
+  n as r,
+  p as n,
+  w as i,
+  o,
+  e as l,
+  x as c,
+  v as d,
+  y as _,
+  z as u,
+  A as m,
+  B as p,
+  C as h,
+  D as b,
+  E as f,
+  F as g,
+  G as v,
+  t as x,
+  R as w,
+  s as C,
+  H as y,
+  I as j,
+  J as N,
+} from "../../../chunks/vendor.js";
+import {
+  r as S,
+  k,
+  n as I,
+  B as P,
+  o as B,
+  G as A,
+  v as E,
+  H as T,
+  i as L,
+  e as D,
+  m as O,
+  K as W,
+  L as M,
+  N as V,
+  O as z,
+  P as F,
+  Q as H,
+  R as $,
+  S as U,
+  W as G,
+  X as q,
+  Y as X,
+  Z,
+  A as K,
+  _ as Y,
+  $ as Q,
+  a0 as J,
+  c as ee,
+  a1 as ae,
+  a2 as te,
+  a3 as se,
+  a4 as re,
+  a5 as ne,
+  a6 as ie,
+  a7 as oe,
+  a8 as le,
+  a9 as ce,
+  F as de,
+  aa as _e,
+  ab as ue,
+  ac as me,
+  b as pe,
+  ad as he,
+  ae as be,
+  af as fe,
+  ag as ge,
+  ah as ve,
+  ai as xe,
+  aj as we,
+  ak as Ce,
+  f as ye,
+  h as je,
+  j as Ne,
+  p as Se,
+  al as ke,
+  am as Ie,
+  an as Pe,
+  ao as Re,
+  l as Be,
+  ap as Ae,
+  aq as Ee,
+  ar as Te,
+  as as Le,
+  u as De,
+  a as Oe,
+  at as We,
+  D as Me,
+  au as Ve,
+  av as ze,
+  aw as Fe,
+  ax as He,
+  ay as $e,
+  az as Ue,
+  aA as Ge,
+  aB as qe,
+  aC as Xe,
+  aD as Ze,
+  aE as Ke,
+  aF as Ye,
+  aG as Qe,
+  aH as Je,
+  aI as ea,
+  aJ as aa,
+  aK as ta,
+  aL as sa,
+  aM as ra,
+  aN as na,
+  aO as ia,
+  aP as oa,
+  T as la,
+  aQ as ca,
+  aR as da,
+  aS as _a,
+  aT as ua,
+  aU as ma,
+  aV as pa,
+  aW as ha,
+  aX as ba,
+  aY as fa,
+  aZ as ga,
+  a_ as va,
+  a$ as xa,
+  b0 as wa,
+  b1 as Ca,
+  b2 as ya,
+  b3 as ja,
+  b4 as Na,
+  b5 as Sa,
+  b6 as ka,
+  b7 as Ia,
+  I as Pa,
+  b8 as Ra,
+  b9 as Ba,
+  ba as Aa,
+  bb as Ea,
+  bc as Ta,
+  bd as La,
+  be as Da,
+  bf as Oa,
+  bg as Wa,
+  bh as Ma,
+  bi as Va,
+  bj as za,
+  bk as Fa,
+  bl as Ha,
+  bm as $a,
+  w as Ua,
+  bn as Ga,
+  bo as qa,
+  bp as Xa,
+  bq as Za,
+  br as Ka,
+  bs as Ya,
+  bt as Qa,
+  bu as Ja,
+  bv as et,
+  bw as at,
+  s as tt,
+  bx as st,
+  by as rt,
+  bz as nt,
+  bA as it,
+  bB as ot,
+  bC as lt,
+  bD as ct,
+  bE as dt,
+  bF as _t,
+  bG as ut,
+  bH as mt,
+  bI as pt,
+  bJ as ht,
+  bK as bt,
+  bL as ft,
+  bM as gt,
+  bN as vt,
+  bO as xt,
+  bP as wt,
+  bQ as Ct,
+  bR as yt,
+  bS as jt,
+  bT as Nt,
+  bU as St,
+  bV as kt,
+  bW as It,
+  bX as Pt,
+  bY as Rt,
+  bZ as Bt,
+  b_ as At,
+  b$ as Et,
+  c0 as Tt,
+  c1 as Lt,
+  c2 as Dt,
+  c3 as Ot,
+  J as Wt,
+  U as Mt,
+  c4 as Vt,
+  c5 as zt,
+  d as Ft,
+  c6 as Ht,
+  c7 as $t,
+} from "../../../chunks/lib.js";
+import { g as Ut, a as Gt } from "../../../chunks/filename.js";
+import {
+  g as qt,
+  o as Xt,
+  v as Zt,
+  e as Kt,
+  m as Yt,
+  R as Qt,
+  a as Jt,
+  b as es,
+} from "../../../chunks/utils.js";
+import { r as as, T as ts } from "../../../chunks/tankmen_screen.js";
+import { T as ss } from "../../../chunks/tank_name.js";
+import { N as rs, T as ns } from "../../../chunks/constants.js";
+/* empty css                    */ var is = ((e) => (
+    (e.Active = "active"),
+    (e.Paused = "paused"),
+    (e.Completed = "completed"),
+    (e.NotStarted = "notStarted"),
+    e
+  ))(is || {}),
+  os = ((e) => (
+    (e.Vehicle = "vehicle"),
+    (e.VehicleStyle = "vehicleStyle"),
+    (e.Style = "style"),
+    (e.Tankman = "tankman"),
+    (e.AttachmentsSet = "attachmentsSet"),
+    (e.PostProgression = "postProgression"),
+    e
+  ))(os || {});
+const ls = e.createContext({
+  currentValue: 0,
+  prevValue: 0,
+  setCurrentValue: (e) => {},
+  setPrevValue: (e) => {},
+  delta: 0,
+  setDelta: (e) => {},
+  levelsCount: 0,
+  hasMoved: !1,
+  setHasMoved: (e) => {},
+  levelPrice: 0,
+  levelsToBuy: 0,
+  setLevelsToBuy: (e) => {},
+  levelsPassed: 0,
+  maxValueAchieved: !1,
+  setMaxValueAchieved: (e) => {},
+});
+function cs() {
+  const a = e.useContext(ls);
+  if (!a) throw new Error("use useBPProgressBar must be used within a ProgressBar");
+  return a;
+}
+function ds({ children: t, levelsCount: s, levelPrice: r, levelsPassed: n }) {
+  const [i, o] = e.useState(0),
+    [l, c] = e.useState(0),
+    [d, _] = e.useState(0),
+    [u, m] = e.useState(0),
+    [p, h] = e.useState(!1),
+    [b, f] = e.useState(!1),
+    g = e.useMemo(
+      () => ({
+        currentValue: i,
+        prevValue: l,
+        setCurrentValue: o,
+        setPrevValue: c,
+        delta: d,
+        setDelta: _,
+        levelsCount: s,
+        hasMoved: p,
+        setHasMoved: h,
+        levelPrice: r,
+        levelsToBuy: u,
+        setLevelsToBuy: m,
+        levelsPassed: n,
+        maxValueAchieved: b,
+        setMaxValueAchieved: f,
+      }),
+      [i, l, o, c, d, _, s, p, h, r, u, m, n, b, f],
+    );
+  return a.jsx(ls.Provider, { value: g, children: t });
+}
+const _s = "BuyButtons_ce6c20b6",
+  us = "BuyButtons_button_8a617f11",
+  ms = S.resolve("strings"),
+  ps = ({ isWalletAvailable: e, onAccept: s, onCancel: r, className: n }) => {
+    const i = k({ buttonSize: I.medium }, { large: { buttonSize: I.large } }),
+      { maxValueAchieved: o, setMaxValueAchieved: l, levelsToBuy: c } = cs();
+    return a.jsxs("div", {
+      className: t(_s, n),
+      children: [
+        a.jsx(P, {
+          theme: B.primary,
+          size: i.buttonSize,
+          className: us,
+          onClick: function () {
+            if (!o) {
+              l(!0);
+              const e = setTimeout(s, 20 * c);
+              return () => clearTimeout(e);
+            }
+          },
+          disabled: !e,
+          children: ms.readOrEmpty("battle_pass.battlePassBuyView.confirm.btnBuy"),
+        }),
+        a.jsx(P, {
+          theme: B.secondary,
+          size: i.buttonSize,
+          className: us,
+          onClick: r,
+          children: ms.readOrEmpty("battle_pass.battlePassBuyView.btnCancel"),
+        }),
+      ],
+    });
+  },
+  hs = {
+    base: "Title_df1cd9e2",
+    chapter: "Title_chapter_4c7a1992",
+    base__transparentChapterName: "Title_base__transparentChapterName_2e63cf3",
+    subTitle: "Title_subTitle_2bbdc239",
+    fadeInWithScale: "Title_fadeInWithScale_2e63cf3",
+    slideUp: "Title_slideUp_2e63cf3",
+    blink: "Title_blink_2e63cf3",
+    scale: "Title_scale_2e63cf3",
+    rotate: "Title_rotate_2e63cf3",
+    windowIn: "Title_windowIn_2e63cf3",
+    fadeOut: "Title_fadeOut_2e63cf3",
+    fadeIn: "Title_fadeIn_2e63cf3",
+  },
+  bs = S.resolve("strings"),
+  fs = ({ chapter: e, subTitle: s, className: r, type: n = "default" }) =>
+    a.jsxs("div", {
+      className: t(hs.base, hs[`base__${n}`], r),
+      children: [
+        a.jsx("span", {
+          className: hs.chapter,
+          children: a.jsx(A, {
+            text: bs.readOrEmpty("battle_pass.battlePassBuyLevels.chapter"),
+            binding: { name: bs.readOrEmpty(`battle_pass.chapter.fullName.c_${e}`) },
+          }),
+        }),
+        a.jsx("span", { className: hs.subTitle, children: s }),
+      ],
+    }),
+  [gs, vs] = L()(
+    ({ observableModel: e }) => {
+      const a = { root: e.object(), rewards: e.arrayClone("rewards.items") },
+        t = s(() => O(a.rewards.get(), W), { equals: D });
+      return { ...a, computes: { getRewards: t } };
+    },
+    ({ externalModel: e }) => ({
+      changeSelectedLevels: e.createCallback((e) => ({ count: e }), "onChangeSelectedLevels"),
+      buy: e.createCallbackNoArgs("onPurchase"),
+    }),
+  );
+const xs = "Delta_7e5549",
+  ws = "Delta_outside_b28c01e5",
+  Cs = "Delta_outside__increase_91391b24",
+  ys = "Delta_inside_b1b3a5c5",
+  js = "Delta_inside__increase_fcd871c4",
+  Ns = e.memo(
+    e.forwardRef(function (
+      {
+        from: s,
+        step: i,
+        growAnimationConfig: o,
+        shrinkAnimationConfig: l,
+        classNames: c,
+        className: d,
+        steps: _,
+        onState: u,
+        ...m
+      },
+      p,
+    ) {
+      const h = e.useRef(null),
+        b = V(),
+        [f, g] = r(() => ({ width: 0 })),
+        [v, x] = r(() => ({ width: 0 })),
+        [w, C] = r(() => ({ x: 0, width: 0 })),
+        [y, ...j] = _,
+        [N, S] = e.useState(j),
+        [k, I] = e.useState(y ?? "done"),
+        P = (b.value - s) / b.maxValue,
+        R = z(P);
+      F("delta");
+      const B = H(u ?? $);
+      e.useEffect(() => B(k), [k, B]);
+      const A = H(() => {
+          const [e, ...a] = N;
+          e ? (I(e), S(a)) : I("done");
+        }),
+        E = H(() => {
+          var e;
+          const a = null == (e = h.current) ? void 0 : e.parentElement;
+          if (!a) return;
+          const t = a.offsetWidth,
+            r = Math.max(b.value, s),
+            n = s / b.maxValue,
+            i = (r - s) / b.maxValue,
+            o = Math.round(t * n),
+            l = Math.round(t * i);
+          C.start({ x: o, width: l, immediate: !0 });
+        });
+      return (
+        e.useEffect(() => {
+          if ((E(), 0 === P))
+            return (g.set({ width: 100 }), x.set({ width: 100 }), I("done"), void S([]));
+        }, [P, E, g, x]),
+        e.useEffect(() => {
+          ("growing" === k &&
+            (x.set({ width: 100 }),
+            g.start({
+              from: { width: 0 },
+              to: { width: 100 },
+              config: o ?? U,
+              onRest: A,
+              onStart: () => R({ step: k }),
+            })),
+            "shrinking" === k &&
+              (g.set({ width: 100 }),
+              x.start({
+                from: { width: 100 },
+                to: { width: 0 },
+                config: l ?? U,
+                onRest: A,
+                onStart: () => R({ step: k }),
+              })));
+        }, [k, g, x, o, l, A, R]),
+        a.jsxs(n.div, {
+          ...m,
+          ref: G([p, h]),
+          className: t(d, xs),
+          style: {
+            transform: w.x.to((e) => `translateX(${e}px)`),
+            width: w.width.to((e) => `${e}px`),
+          },
+          children: [
+            a.jsxs(n.div, {
+              style: { width: v.width.to((e) => `${e}%`) },
+              className: t(null == c ? void 0 : c.outside, ws, P > 0 && Cs),
+              children: [
+                a.jsx(n.div, {
+                  style: { width: f.width.to((e) => `${e}%`) },
+                  className: t(null == c ? void 0 : c.inside, ys, P > 0 && js),
+                }),
+                m.children,
+              ],
+            }),
+            m.children,
+          ],
+        })
+      );
+    }),
+  );
+const Ss = "Pointer_45abb891",
+  ks = "Pointer_9fe9949c",
+  Is = "Pointer_pointer__down_925b0a0d",
+  Ps = { top: "top", down: "down" },
+  Rs = function ({
+    position: s = Ps.down,
+    maxValueAchieved: r,
+    silent: n = !1,
+    setMaxValueAchieved: i,
+    soundTarget: o,
+    className: l,
+    classNames: c,
+  }) {
+    const d = e.useRef(!1),
+      _ = e.useRef(null),
+      [u, m] = e.useState(!1),
+      p = e.useRef(null),
+      h = e.useRef(null),
+      b = e.useRef(null),
+      f = e.useRef(null),
+      { percentage: g, maxValue: v, setValue: x, value: w, status: C } = V(),
+      {
+        setCurrentValue: y,
+        setPrevValue: j,
+        setHasMoved: N,
+        levelsCount: S,
+        levelsToBuy: k,
+        setLevelsToBuy: I,
+        levelsPassed: P,
+      } = cs(),
+      { controls: R } = vs(),
+      B = (function (e, a) {
+        const t = q(),
+          s = a ?? "controlled-progress-bar:pointer";
+        return H(({ event: a, diff: r = 0 }) => {
+          if (!e)
+            return "grab" === a
+              ? t.play("pointerGrab", { target: s })
+              : "drag" === a
+                ? t.play("pointerDrag", { target: s })
+                : "hover" === a
+                  ? t.play("mouse-enter", { target: s })
+                  : "delta" === a && r > 0
+                    ? t.play("increaseDelta", { target: s })
+                    : void 0;
+        });
+      })(n, o),
+      A = e.useRef(P),
+      T = Math.round((v / S) * 1e3) / 1e3,
+      L = (P / S) * v,
+      D = L + T,
+      O = 100 * g,
+      W = H(() => m(!1));
+    e.useEffect(() => {
+      const e = A.current,
+        a = Math.max(0, P - e);
+      let t;
+      if (null === b.current) t = L + T;
+      else {
+        const e = b.current - a * T,
+          s = Math.max(e, T);
+        ((b.current = s), (t = L + s));
+      }
+      return (
+        (t = Math.min(t, v)),
+        x(L),
+        y(L),
+        _.current && cancelAnimationFrame(_.current),
+        (_.current = requestAnimationFrame(() => {
+          (x(t), y(t));
+        })),
+        j(L),
+        (A.current = P),
+        () => {
+          _.current && cancelAnimationFrame(_.current);
+        }
+      );
+    }, [P, S, v, x, L, y, j, T]);
+    const M = H((e) => {
+      if (!p.current) return;
+      N(!0);
+      const a = p.current.getBoundingClientRect(),
+        t = e.clientX - a.left,
+        s = Math.max(0, Math.min(1, t / a.width)) * v,
+        r = Math.round(s / T) * T,
+        n = Math.max(r, D);
+      (f.current !== n && (n !== L && B({ event: "drag" }), (f.current = n)),
+        x(n),
+        y(n),
+        (b.current = n - L));
+    });
+    function z() {
+      (N(!1), i(!1), m(!0), (f.current = w));
+    }
+    (e.useEffect(() => {
+      h.current && (h.current.style.left = `${O}%`);
+    }, [O]),
+      e.useEffect(() => {
+        if (u)
+          return new X().add(Z(window, "mousemove", (e) => M(e))).add(
+            Z(window, "mouseup", (e) => {
+              (M(e), W());
+            }),
+          ).dispose;
+      }, [u, M, W]));
+    const F = (e) => Math.min(Math.max(e, D), v);
+    return (
+      E(K.ARROW_LEFT, () => {
+        if (d.current || u || r) return;
+        d.current = !0;
+        const e = F(w - T);
+        (x(e), y(e), (b.current = e - L), I(Math.round(((e - L) * S) / 100)));
+      }),
+      E(K.ARROW_RIGHT, () => {
+        if (d.current || u || r) return;
+        d.current = !0;
+        const e = F(w + T);
+        (x(e), y(e), (b.current = e - L), I(Math.round(((e - L) * S) / 100)));
+      }),
+      e.useEffect(() => {
+        const e = (e) => {
+          (e.code !== K.ARROW_LEFT && e.code !== K.ARROW_RIGHT) || (d.current = !1);
+        };
+        return (window.addEventListener("keyup", e), () => window.removeEventListener("keyup", e));
+      }, []),
+      e.useEffect(() => {
+        R.changeSelectedLevels(k);
+      }, [k, R]),
+      "disabled" === C
+        ? null
+        : a.jsxs("div", {
+            ref: p,
+            className: t(Ss, l),
+            onMouseDown: z,
+            onClick: M,
+            children: [
+              a.jsx("div", {
+                ref: h,
+                className: t(ks, s === Ps.down && Is, null == c ? void 0 : c.pointer),
+                onMouseDown: (e) => {
+                  (e.stopPropagation(), B({ event: "grab" }), z());
+                },
+                onMouseEnter: function () {
+                  u || B({ event: "hover" });
+                },
+              }),
+              !r && a.jsx(Ns, { from: L, steps: ["growing"], step: T }),
+            ],
+          })
+    );
+  };
+Rs.positions = Ps;
+const Bs = "LevelSlider_dbac30ca",
+  As = "LevelSlider_step_fb995ce2",
+  Es = "LevelSlider_completed_5226098c",
+  Ts = "LevelSlider_label_aecacc79",
+  Ls = "LevelSlider_labelDynamic_a0abcf78",
+  Ds = "LevelSlider_hidden_2d711256",
+  Os = 100,
+  Ws = () => {
+    const s = e.useRef([]),
+      {
+        prevValue: r,
+        currentValue: n,
+        levelsCount: i,
+        hasMoved: o,
+        maxValueAchieved: l,
+        setMaxValueAchieved: c,
+        levelsPassed: d,
+      } = cs(),
+      _ = i + 1,
+      u = Math.round((r * i) / Os),
+      m = Math.round((n * i) / Os);
+    return a.jsx("div", {
+      className: Bs,
+      style: { width: 22 * i + "rem" },
+      children: a.jsxs(Y, {
+        size: Q.large,
+        value: ((p = d), (h = i), Math.round((p / h) * 100)),
+        maxValue: Os,
+        maxValueAchieved: l,
+        children: [
+          a.jsx(Y.Fill, {}),
+          a.jsx(Rs, { maxValueAchieved: l, setMaxValueAchieved: c }),
+          a.jsx(Y.DynamicIndicator, {
+            className: t(n === Os && Ds, Ls),
+            staticIndicatorsRefs: s,
+            position: J.above,
+            transformCurrentValue: (e) =>
+              (function (e, a) {
+                const t = M(0, 100, e);
+                return Math.floor((t / 100) * a);
+              })(e, _),
+          }),
+          a.jsx(Y.NumberIndicators, {
+            position: J.above,
+            count: _,
+            classNames: { step: As, completed: Es, stepClassNames: { label: Ts } },
+            children: (e) =>
+              e % 5 == 0 || (e === u && !l) || (u === m && e === m + 1) ? e : void 0,
+          }),
+        ],
+      }),
+    });
+    var p, h;
+  },
+  Ms = "RewardsList_61e5d0fd",
+  Vs = "RewardsList_reward_110a9a1e",
+  zs = "RewardsList_rewardInfo_b223a75b",
+  Fs = i(() => {
+    const { model: t } = vs(),
+      s = t.computes.getRewards(),
+      { levelsToBuy: r } = cs();
+    return (
+      e.useEffect(() => {
+        ee(ae, 0);
+      }, [r]),
+      a.jsx("div", {
+        className: Ms,
+        children: O(s, (e, t) =>
+          a.jsx(
+            "div",
+            {
+              className: Vs,
+              "data-id": `${e.id}_${e.bigIcon}_${t}`,
+              children: a.jsx(te, { ...qt(e, se.S180x135), classNames: { info: zs } }),
+            },
+            `${e.id}_${e.bigIcon}_${t}`,
+          ),
+        ),
+      })
+    );
+  }),
+  Hs = {
+    base: "Content_c7f39005",
+    buttonWrapper: "Content_buttonWrapper_3596c383",
+    buttonWrapper__active: "Content_buttonWrapper__active_97efd5f3",
+    rewards: "Content_rewards_6623df59",
+    mask: "Content_mask_52164205",
+    mask__top: "Content_mask__top_650e84e9",
+    mask__bottom: "Content_mask__bottom_528835af",
+    mask__both: "Content_mask__both_98f564af",
+    scrollBar: "Content_scrollBar_c1dabd5f",
+    fadeInWithScale: "Content_fadeInWithScale_da09528a",
+    slideUp: "Content_slideUp_da09528a",
+    blink: "Content_blink_da09528a",
+    scale: "Content_scale_da09528a",
+    rotate: "Content_rotate_da09528a",
+    windowIn: "Content_windowIn_da09528a",
+    fadeOut: "Content_fadeOut_da09528a",
+    fadeIn: "Content_fadeIn_da09528a",
+  },
+  $s = i(() => {
+    const { model: s } = vs(),
+      r = s.computes.getRewards().length,
+      { api: n } = re(),
+      [i, o] = ne(n);
+    return (
+      e.useEffect(() => {
+        n.recalculateContent();
+      }, [r, n]),
+      a.jsxs("div", {
+        className: Hs.base,
+        children: [
+          a.jsx(Ws, {}),
+          a.jsxs("div", {
+            className: Hs.rewards,
+            children: [
+              a.jsx("div", {
+                className: t(Hs.mask, Hs[`mask__${oe(i, o)}`]),
+                children: a.jsx(ie, { children: a.jsx(Fs, {}) }),
+              }),
+              a.jsx(le, { classNames: { base: Hs.scrollBar } }),
+            ],
+          }),
+        ],
+      })
+    );
+  }),
+  Us = "Footer_9d3d3a12",
+  Gs = "Footer_currency_9b510c1c",
+  qs = "Footer_footerLabel_e28c9ab3",
+  Xs = "Footer_currencyIcon_cfcb6dcf",
+  Zs = S.resolve("strings"),
+  Ks = () => {
+    const {
+        currentValue: t,
+        prevValue: s,
+        levelPrice: r,
+        levelsCount: n,
+        setLevelsToBuy: i,
+        levelsToBuy: o,
+        levelsPassed: l,
+      } = cs(),
+      c = k({ currencySize: ce.medium }, { large: { currencySize: ce.large } });
+    return (
+      e.useEffect(() => {
+        const e = Math.round((s * n) / 100),
+          a = Math.round((t * n) / 100);
+        i(a === e ? 1 : a - l);
+      }, [s, t, n, i, l]),
+      a.jsxs("div", {
+        className: Us,
+        children: [
+          a.jsx(de, {
+            text: Zs.pluralOrEmpty("battle_pass.battlePassBuyLevels.levelsSelected", o),
+            upgradeLegacy: !0,
+            params: { count: o },
+            className: qs,
+          }),
+          a.jsx(_e, {
+            classNames: { base: Gs, icon: Xs },
+            type: ue.gold,
+            size: c.currencySize,
+            reverse: !0,
+            children: o * r,
+          }),
+        ],
+      })
+    );
+  },
+  Ys = "App_848b5de0",
+  Qs = "App_background_d5285348",
+  Js = "App_shadow_b96f6299",
+  er = "App_content_3a6c6ebb",
+  ar = "App_contentContainer_dc3584c8",
+  tr = "App_footer_7b1985",
+  sr = "App_bottomLip_64987100",
+  rr = "App_title_536f5f20",
+  nr = S.resolve("strings"),
+  ir = i(() => {
+    const { model: t, controls: s } = vs(),
+      {
+        isWalletAvailable: r,
+        levelsPassed: n,
+        levelsTotal: i,
+        chapterID: o,
+        levelPrice: l,
+      } = t.root.get(),
+      c = me();
+    (((a) => {
+      const t = e.useCallback(
+        (e) => {
+          e.altKey || a();
+        },
+        [a],
+      );
+      E(T.ENTER, t);
+    })(s.buy),
+      pe(c.goBack),
+      he(K.SPACE, c.goBack));
+    const d = {
+      backgroundImage: `url(${Ut(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, o)})`,
+    };
+    return a.jsx(ds, {
+      levelsCount: i,
+      levelPrice: l,
+      levelsPassed: n,
+      children: a.jsxs("div", {
+        className: Ys,
+        children: [
+          a.jsx("div", { style: d, className: Qs }),
+          a.jsx("div", { className: Js }),
+          a.jsxs("div", {
+            className: er,
+            children: [
+              a.jsx(fs, {
+                chapter: o,
+                subTitle: nr.readOrEmpty("battle_pass.battlePassBuyView.descr"),
+                className: rr,
+              }),
+              a.jsx("div", { className: ar, children: a.jsx(be, { children: a.jsx($s, {}) }) }),
+              a.jsxs("div", {
+                className: tr,
+                children: [
+                  a.jsx("div", { className: sr }),
+                  a.jsx(Ks, {}),
+                  a.jsx(ps, { onAccept: s.buy, onCancel: c.goBack, isWalletAvailable: r }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    });
+  }),
+  or = () =>
+    a.jsx(gs, {
+      options: { rootId: R.aliases.battle_pass.BuyLevels("resId") },
+      children: a.jsx(ir, {}),
+    }),
+  [lr, cr] = L()(({ observableModel: e }) => {
+    const a = {
+        levels: e.object(),
+        nowRewards: e.array("nowRewards.items"),
+        futureRewards: e.array("futureRewards.items"),
+      },
+      t = s(() => a.nowRewards.get(), { equals: D }),
+      r = s(() => a.futureRewards.get(), { equals: D });
+    return { ...a, computes: { nowRewards: t, futureRewards: r } };
+  }, $),
+  dr = {
+    base: "GroupTitle_eaeb27ea",
+    iconContainer: "GroupTitle_iconContainer_53d16b22",
+    icon: "GroupTitle_icon_fd08ab04",
+    fadeInWithScale: "GroupTitle_fadeInWithScale_bdc8a0f5",
+    slideUp: "GroupTitle_slideUp_bdc8a0f5",
+    blink: "GroupTitle_blink_bdc8a0f5",
+    scale: "GroupTitle_scale_bdc8a0f5",
+    rotate: "GroupTitle_rotate_bdc8a0f5",
+    windowIn: "GroupTitle_windowIn_bdc8a0f5",
+    fadeOut: "GroupTitle_fadeOut_bdc8a0f5",
+    fadeIn: "GroupTitle_fadeIn_bdc8a0f5",
+  },
+  _r = S.resolve("images"),
+  ur = "checked",
+  mr = "locked",
+  pr = "x32",
+  hr = "x48",
+  br = "x96",
+  fr = ({ type: e, className: s = "", title: r = "" }) => {
+    const n = k({ iconSize: pr }, { medium: { iconSize: hr } }),
+      i = fe(n.iconSize, br),
+      o = _r.readOrEmpty(`battlePass.buy.rewards.${e}_${i}`);
+    return a.jsxs("div", {
+      className: t(dr.base, dr[`base__${e}`], s),
+      children: [
+        a.jsx("div", {
+          className: dr.iconContainer,
+          children: a.jsx("div", { className: dr.icon, style: { backgroundImage: `url(${o})` } }),
+        }),
+        a.jsx("span", { children: r }),
+      ],
+    });
+  },
+  gr = "GroupRewards_46776305",
+  vr = "GroupRewards_item_17e76f62",
+  xr = "GroupRewards_title_a5115b64",
+  wr = ({ rewards: e, className: s }) =>
+    a.jsx("div", {
+      className: t(gr, s),
+      children: O(e, (e, t) =>
+        a.jsx(
+          "div",
+          {
+            className: vr,
+            children: a.jsx(ge, { ...qt(e, ve.Big, !0), classNames: { title: xr } }),
+          },
+          `reward_${t}_${e.name}`,
+        ),
+      ),
+    }),
+  Cr = "RewardsBlock_479e00eb",
+  yr = "RewardsBlock_title_677ec3f0",
+  jr = "RewardsBlock_rewards_e9af771e",
+  Nr = ({ type: e, rewards: s, className: r = "", title: n = "" }) =>
+    a.jsxs("div", {
+      className: t(Cr, r),
+      children: [
+        a.jsx(fr, { type: e, className: yr, title: n }),
+        a.jsx(wr, { rewards: s, className: jr }),
+      ],
+    }),
+  Sr = {
+    base: "Content_690d4e59",
+    base__hasScroll: "Content_base__hasScroll_d4326fda",
+    mask: "Content_mask_3c273268",
+    mask__top: "Content_mask__top_49c2b256",
+    mask__bottom: "Content_mask__bottom_73ebbe0b",
+    mask__both: "Content_mask__both_5a3cae0c",
+    content: "Content_4089e099",
+    rewardsBlock: "Content_rewardsBlock_da09528a",
+    scrollBar: "Content_scrollBar_1436f72c",
+    fadeInWithScale: "Content_fadeInWithScale_da09528a",
+    slideUp: "Content_slideUp_da09528a",
+    blink: "Content_blink_da09528a",
+    scale: "Content_scale_da09528a",
+    rotate: "Content_rotate_da09528a",
+    windowIn: "Content_windowIn_da09528a",
+    fadeOut: "Content_fadeOut_da09528a",
+    fadeIn: "Content_fadeIn_da09528a",
+  },
+  kr = S.resolve("strings"),
+  Ir = i(({ className: s }) => {
+    const { model: r } = cr(),
+      n = r.computes.nowRewards(),
+      i = r.computes.futureRewards(),
+      { api: o } = re();
+    xe(o);
+    const [l, c] = e.useState(!1),
+      [d, _] = ne(o),
+      u = e.useCallback(() => {
+        const [e, a] = o.getBounds();
+        c(e !== a);
+      }, [o]);
+    return (
+      e.useEffect(
+        () => (
+          o.events.on("resizeHandled", u),
+          () => {
+            o.events.off("resizeHandled", u);
+          }
+        ),
+        [o.events, u],
+      ),
+      a.jsxs("div", {
+        className: t(Sr.base, l && Sr.base__hasScroll, s),
+        children: [
+          a.jsx(ie, {
+            classNames: { content: Sr.content, wrapper: t(Sr.mask, Sr[`mask__${oe(d, _)}`]) },
+            children: a.jsxs("div", {
+              className: Sr.rewardsBlock,
+              children: [
+                n.length > 0 &&
+                  a.jsx(Nr, {
+                    type: ur,
+                    rewards: n,
+                    title: kr.readOrEmpty("battle_pass.battlePassBuyView.reward.titleNowRewards"),
+                  }),
+                i.length > 0 &&
+                  a.jsx(Nr, {
+                    type: mr,
+                    rewards: i,
+                    title: kr.readOrEmpty(
+                      "battle_pass.battlePassBuyView.reward.titleFutureRewards",
+                    ),
+                  }),
+              ],
+            }),
+          }),
+          a.jsx(le, { classNames: { base: Sr.scrollBar } }),
+        ],
+      })
+    );
+  }),
+  Pr = "MoreRewards_3800bba1",
+  Rr = "MoreRewards_content_797d0c7d",
+  Br = "MoreRewards_background_485149b6",
+  Ar = i(() => {
+    const { model: t } = cr(),
+      { chapterID: s } = t.levels.get(),
+      [r, n] = e.useState(!1),
+      i = me();
+    (pe(i.goBack),
+      e.useEffect(() => {
+        (async () => {
+          (await Xt(), n(!0));
+        })();
+      }, []));
+    const o = Ut(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, s);
+    return a.jsxs("div", {
+      className: Pr,
+      children: [
+        a.jsx("div", { className: Br, style: { backgroundImage: `url(${o})` } }),
+        r && a.jsx(be, { children: a.jsx(Ir, { className: Rr }) }),
+      ],
+    });
+  }),
+  Er = {
+    base__x60x60: "Emblem_base__x60x60_d8756e36",
+    base__x100x100: "Emblem_base__x100x100_547cf3ad",
+    base__x160x160: "Emblem_base__x160x160_c9c06954",
+    base__x200x200: "Emblem_base__x200x200_2ddeb5ee",
+    base__x240x240: "Emblem_base__x240x240_308c1aa9",
+    base__x360x360: "Emblem_base__x360x360_98f20cf9",
+    shield: "Emblem_shield_451cf2c9",
+    icon: "Emblem_icon_73d84087",
+    shield__x74x74: "Emblem_shield__x74x74_a298d905",
+    shield__x120x120: "Emblem_shield__x120x120_c8aa5234",
+    shield__x200x200: "Emblem_shield__x200x200_f1ed9db0",
+    shield__x260x260: "Emblem_shield__x260x260_ef1c262b",
+    shield__x300x300: "Emblem_shield__x300x300_7c6d6f97",
+    shield__x456x456: "Emblem_shield__x456x456_c818292e",
+    icon__x28x28: "Emblem_icon__x28x28_6ea3e635",
+    icon__x48x48: "Emblem_icon__x48x48_f2526f88",
+    icon__x60x60: "Emblem_icon__x60x60_628dbf9a",
+    icon__x80x80: "Emblem_icon__x80x80_34079478",
+    icon__x100x100: "Emblem_icon__x100x100_e8181a63",
+    icon__x120x120: "Emblem_icon__x120x120_c8aa5234",
+    icon__x160x160: "Emblem_icon__x160x160_aec06e5c",
+    fadeInWithScale: "Emblem_fadeInWithScale_9b4d607c",
+    slideUp: "Emblem_slideUp_9b4d607c",
+    blink: "Emblem_blink_9b4d607c",
+    scale: "Emblem_scale_9b4d607c",
+    rotate: "Emblem_rotate_9b4d607c",
+    windowIn: "Emblem_windowIn_9b4d607c",
+    fadeOut: "Emblem_fadeOut_9b4d607c",
+    fadeIn: "Emblem_fadeIn_9b4d607c",
+  },
+  Tr = "x100x100",
+  Lr = "x160x160",
+  Dr = "x200x200",
+  Or = "x240x240",
+  Wr = "x360x360",
+  Mr = "x74x74",
+  Vr = "x120x120",
+  zr = "x200x200",
+  Fr = "x260x260",
+  Hr = "x300x300",
+  $r = "x456x456",
+  Ur = "x600x600",
+  Gr = "x912x912",
+  qr = "x28x28",
+  Xr = "x48x48",
+  Zr = "x60x60",
+  Kr = "x80x80",
+  Yr = "x100x100",
+  Qr = "x120x120",
+  Jr = "x160x160",
+  en = "x240x240",
+  an = "x320x320",
+  tn = S.resolve("images"),
+  sn = function ({
+    iconSize: e,
+    shieldSize: s,
+    containerSize: r,
+    chapterID: n,
+    bpPurchased: i,
+    className: o = "",
+  }) {
+    const l = i ? "purchased" : "basic",
+      c = String(n).slice(-1),
+      d = s === Mr ? Vr : s === Vr ? Fr : s === zr ? $r : s === Fr || s === Hr ? Ur : Gr,
+      _ =
+        e === qr
+          ? Zr
+          : e === Xr
+            ? Yr
+            : e === Zr
+              ? Qr
+              : e === Kr
+                ? Jr
+                : e === Yr || e === Qr
+                  ? en
+                  : an,
+      u =
+        tn.readOrEmpty(`battlePass.emblem.shield.c_${n}.${l}.${fe(s, d)}`, "silent") ||
+        tn.readOrEmpty(`battlePass.emblem.shield.default.${l}.${s}`),
+      m =
+        tn.readOrEmpty(`battlePass.emblem.icon.c_${n}.${l}.${fe(e, _)}`, "silent") ||
+        tn.readOrEmpty(`battlePass.emblem.icon.default_${c}.${l}.${e}`);
+    return a.jsxs("div", {
+      className: t(Er.base, Er[`base__${r}`], o),
+      children: [
+        a.jsx("div", {
+          className: t(Er.shield, Er[`shield__${s}`]),
+          style: { backgroundImage: `url(${u})` },
+        }),
+        a.jsx("div", {
+          className: t(Er.icon, Er[`icon__${e}`]),
+          style: {
+            backgroundImage: `url(${n > 0 ? m : tn.readOrEmpty(`battlePass.emblem.icon.not_chosen.${fe(e, Zr)}`)})`,
+          },
+        }),
+      ],
+    });
+  },
+  [rn, nn] = L()(
+    ({ observableModel: e }) => {
+      const a = {
+          root: e.object(),
+          main: e.primitives([
+            "state",
+            "shopOfferDiscount",
+            "isShopOfferAvailable",
+            "isWalletAvailable",
+          ]),
+          rewards: e.array("rewards"),
+          chapters: e.array("chapters"),
+          package: e.array("package"),
+        },
+        t = s(() => a.rewards.get().topPriorityRewards.items, { equals: D }),
+        r = s(() => a.rewards.get().prevTopPriorityRewards.items, { equals: D }),
+        n = s(() => a.rewards.get().nowRewards.items, { equals: D }),
+        i = s(() => a.rewards.get().futureRewards.items, { equals: D }),
+        o = s(() => a.package.get().starterPackRewards.items, { equals: D }),
+        l = s(() => {
+          const { chapterID: e } = a.package.get(),
+            t = a.chapters.get();
+          return {
+            chapterIDs: [
+              e,
+              ...Ce(
+                t,
+                ({ chapterID: a }) => a !== e,
+                ({ chapterID: e }) => e,
+              ),
+            ],
+            amount: we(t, ({ hasStarterPack: e }) => e).length,
+          };
+        }),
+        c = s((e) => {
+          var t;
+          return null ==
+            (t = ye(a.chapters.get(), ({ hasStarterPack: a, chapterID: t }) => a && t === e))
+            ? void 0
+            : t.hasStarterPack;
+        }),
+        d = s(() => we(a.chapters.get(), ({ isExtra: e }) => !e));
+      return {
+        ...a,
+        computes: {
+          topPriorityRewards: t,
+          prevTopPriorityRewards: r,
+          nowRewards: n,
+          futureRewards: i,
+          starterPackInfo: l,
+          starterPackRewards: o,
+          hasStarterPackInChapter: c,
+          regularChapters: d,
+        },
+      };
+    },
+    ({ model: e, externalModel: a }) => ({
+      shopOffer: a.createCallbackNoArgs("onShopOfferClick"),
+      buy: a.createCallbackNoArgs("onBuyClick"),
+      togglePurchaseWithLevels: a.createCallbackNoArgs("onChangePurchaseWithLevels"),
+      closeClick: a.createCallbackNoArgs("onShopOfferClick"),
+      showRewardsClick: a.createCallbackNoArgs("onShowRewardsClick"),
+    }),
+  ),
+  on = "PurchaseBlock_fa4dd8be",
+  ln = "PurchaseBlock_button_3b8b9877",
+  cn = "PurchaseBlock_previousPrice_1e77a9b2",
+  dn = "PurchaseBlock_currentPrice_c4a7499d",
+  _n = "PurchaseBlock_currency_a51b98a4",
+  un = "PurchaseBlock_actionLip_63994768",
+  mn = S.resolve("strings"),
+  pn = i(function ({ isPriceUpdateAnimation: e }) {
+    const { model: t, controls: s } = nn(),
+      { isWalletAvailable: r } = t.root.get(),
+      { price: n, prevPrice: i } = t.package.get(),
+      o = k(
+        { currencySize: ce.medium, buttonSize: I.small },
+        { medium: { currencySize: ce.extraLarge, buttonSize: I.large } },
+      );
+    return a.jsxs("div", {
+      className: on,
+      children: [
+        a.jsx("div", { className: un }),
+        e
+          ? a.jsx("div", {
+              className: cn,
+              children: a.jsx(_e, {
+                classNames: { base: _n },
+                type: ue.gold,
+                size: o.currencySize,
+                children: i,
+              }),
+            })
+          : a.jsx("div", {
+              className: dn,
+              children: a.jsx(_e, {
+                classNames: { base: _n },
+                type: ue.gold,
+                size: o.currencySize,
+                children: n,
+              }),
+            }),
+        a.jsx(P, {
+          theme: B.primary,
+          size: o.buttonSize,
+          className: ln,
+          onClick: s.buy,
+          disabled: !r,
+          "data-test-id": "buyButton",
+          children: mn.readOrEmpty("battle_pass.battlePassBuyView.confirm.btnBuy"),
+        }),
+      ],
+    });
+  }),
+  hn = "DiscountIcon_932f671c",
+  bn = "DiscountIcon_icon_655d7c11",
+  fn = "DiscountIcon_highlight_75d6adf";
+function gn({ className: e = "" }) {
+  return a.jsxs("div", {
+    className: t(hn, e),
+    children: [a.jsx("div", { className: bn }), a.jsx("div", { className: fn })],
+  });
+}
+const vn = "Logos_1ed97e35",
+  xn = "Logos_logoWrapper_826e9a4f",
+  wn = "Logos_logo_ada5f291",
+  Cn = "Logos_starterPack_f4dabb81",
+  yn = S.resolve("images"),
+  jn = (e) => {
+    const a = String(e).slice(-1);
+    return (
+      yn.readOrEmpty(`battlePass.emblem.icon.c_${e}.purchased.${Jr}`, "silent") ||
+      yn.readOrEmpty(`battlePass.emblem.icon.default_${a}.purchased.${Jr}`)
+    );
+  },
+  Nn = R.strings.battle_pass.battlePassBuyView.confirm.shopOfferBlock;
+const Sn = i(function ({ className: e = "" }) {
+    const {
+        model: { computes: s },
+      } = nn(),
+      { chapterIDs: r, amount: n } = s.starterPackInfo();
+    return a.jsxs("div", {
+      className: t(vn, e),
+      children: [
+        r.map((e, t) =>
+          a.jsx(
+            "div",
+            {
+              className: xn,
+              style: { zIndex: r.length - t },
+              children: a.jsx("div", {
+                className: wn,
+                style: { backgroundImage: `url(${jn(e)})` },
+              }),
+            },
+            e,
+          ),
+        ),
+        Boolean(n) && a.jsx(A, { classMix: Cn, text: Nn.packsAmount(), binding: { amount: n } }),
+      ],
+    });
+  }),
+  kn = "ShopOfferBlock_5d538f0f",
+  In = "ShopOfferBlock_logos_c4a5c492",
+  Pn = "ShopOfferBlock_headline_333a5398",
+  Rn = "ShopOfferBlock_text_83d7e7fc",
+  Bn = "ShopOfferBlock_discount_c7eeef37",
+  An = "ShopOfferBlock_title_7245add2",
+  En = "ShopOfferBlock_description_ef059d17",
+  Tn = "ShopOfferBlock_button_4790b6d6",
+  Ln = R.strings.battle_pass.battlePassBuyView.confirm.shopOfferBlock;
+const Dn = i(function ({ className: e = "" }) {
+    const { model: s, controls: r } = nn(),
+      n = s.computes.regularChapters(),
+      i = H(() => {
+        r.shopOffer();
+      }),
+      o = k({ buttonSize: I.small }, { medium: { buttonSize: I.large } });
+    return a.jsxs("div", {
+      className: t(kn, e),
+      children: [
+        Boolean(n.length) && a.jsx(Sn, { className: In }),
+        a.jsxs("div", {
+          className: Pn,
+          children: [
+            a.jsx(de, {
+              upgradeLegacy: !0,
+              className: Rn,
+              text: Ln.headline(),
+              params: { count: n.length },
+            }),
+            a.jsx(gn, { className: Bn }),
+          ],
+        }),
+        a.jsx(de, { upgradeLegacy: !0, className: An, text: Ln.title() }),
+        a.jsx(de, { upgradeLegacy: !0, className: En, text: Ln.description() }),
+        a.jsx(P, { size: o.buttonSize, onClick: i, className: Tn, children: Ln.buy() }),
+      ],
+    });
+  }),
+  On = "AnimatedReward_1789d927",
+  Wn = ({ children: e, animationConfig: s, className: i }) => {
+    const o = r(s);
+    return a.jsx(n.div, { style: o, className: t(On, i), children: e });
+  },
+  Mn = {
+    base: "Rewards_e0c7ea28",
+    descriptionText: "Rewards_descriptionText_70d3a019",
+    priorityRewards: "Rewards_priorityRewards_8561c5b0",
+    priorityRewards__rewardsButtonVisible: "Rewards_priorityRewards__rewardsButtonVisible_e006900",
+    rewardsWrapper: "Rewards_rewardsWrapper_e727c56d",
+    buttonWrapper: "Rewards_buttonWrapper_fd4269bd",
+    rewardBtn: "Rewards_rewardBtn_c25bebb2",
+    rewardBtn__currentRewardsAnimation: "Rewards_rewardBtn__currentRewardsAnimation_4dddd688",
+    buttonContent: "Rewards_buttonContent_5599209b",
+  },
+  Vn = (e, a, t) => ({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 100 * e,
+    config: { duration: 100 },
+    onStart: () => {
+      a();
+    },
+    reset: t,
+  }),
+  zn = S.resolve("strings"),
+  Fn = i(({ isCheckboxAnimationActive: s, isPrevious: i = !1, className: o }) => {
+    const { model: l } = nn(),
+      { chapterID: c, isPurchaseWithLevels: d } = l.package.get(),
+      _ =
+        l.computes.nowRewards().length +
+        l.computes.futureRewards().length -
+        l.computes.topPriorityRewards().length,
+      u = l.computes.topPriorityRewards(),
+      m = l.computes.prevTopPriorityRewards(),
+      p = i ? m : u,
+      h = _ > 0,
+      b = () => {
+        Se.sound(R.sounds.bp_reward());
+      },
+      { breakpoint: f } = je(),
+      g = f.weight < Ne.medium.weight ? ve.Small : ve.Big,
+      v = r(Vn(6, b)),
+      x = me();
+    return a.jsxs("div", {
+      className: t(Mn.base, o),
+      children: [
+        a.jsx("div", {
+          className: Mn.descriptionText,
+          children:
+            i !== d
+              ? zn.readOrEmpty("battle_pass.battlePassBuyView.confirm.descriptionCheckboxChecked")
+              : zn.readOrEmpty("battle_pass.battlePassBuyView.confirm.description"),
+        }),
+        a.jsxs("div", {
+          className: Mn.rewardsWrapper,
+          children: [
+            a.jsx("div", {
+              className: t(Mn.priorityRewards, h && Mn.priorityRewards__rewardsButtonVisible),
+              children: O(p, (t, s) =>
+                i
+                  ? e.createElement(ge, { ...qt(t, g), key: `${t.name}_${s}` })
+                  : a.jsx(
+                      Wn,
+                      { animationConfig: Vn(s, b), children: a.jsx(ge, { ...qt(t, g) }) },
+                      `${t.name}_${s}`,
+                    ),
+              ),
+            }),
+            h &&
+              a.jsx(n.div, {
+                style: v,
+                children: a.jsx("div", {
+                  className: Mn.buttonWrapper,
+                  children: a.jsx(P, {
+                    theme: B.secondary,
+                    size: I.large,
+                    className: t(Mn.rewardBtn, s && Mn.rewardBtn__currentRewardsAnimation),
+                    classNames: { content: Mn.buttonContent },
+                    onClick: () => x.push(as.battlePass.buyPassRewards, { packageID: c }),
+                    children: a.jsx(A, {
+                      text: zn.readOrEmpty("battle_pass.battlePassBuyView.btnRewards"),
+                      binding: { count: _ },
+                      classMix: Mn.text,
+                    }),
+                  }),
+                }),
+              }),
+          ],
+        }),
+      ],
+    });
+  }),
+  Hn = {
+    base: "StarterPack_231839be",
+    presentLogo: "StarterPack_presentLogo_cb1c6f84",
+    presentLogo__x36x36: "StarterPack_presentLogo__x36x36_15fc148b",
+    presentLogo__x52x52: "StarterPack_presentLogo__x52x52_f480a652",
+    equalLogo: "StarterPack_equalLogo_407c8a9c",
+    rewardsWrapper: "StarterPack_rewardsWrapper_bf86c609",
+    rewards: "StarterPack_rewards_231839be",
+    fadeInWithScale: "StarterPack_fadeInWithScale_e09c33a3",
+    slideUp: "StarterPack_slideUp_e09c33a3",
+    blink: "StarterPack_blink_e09c33a3",
+    scale: "StarterPack_scale_e09c33a3",
+    rotate: "StarterPack_rotate_e09c33a3",
+    windowIn: "StarterPack_windowIn_e09c33a3",
+    fadeOut: "StarterPack_fadeOut_e09c33a3",
+    fadeIn: "StarterPack_fadeIn_e09c33a3",
+  },
+  $n = S.resolve("strings"),
+  Un = "x36x36",
+  Gn = "x52x52",
+  qn = i(function ({ starterPackRewards: e, presentSize: s, rewardSize: r, classNames: n }) {
+    return a.jsxs("div", {
+      className: Hn.base,
+      children: [
+        a.jsx("div", {
+          className: t(Hn.presentLogo, Hn[`presentLogo__${s}`], null == n ? void 0 : n.presentLogo),
+        }),
+        a.jsx("div", {
+          className: t(Hn.equalLogo, null == n ? void 0 : n.equalLogo),
+          children: $n.readOrEmpty("battle_pass.progression.footer.starter_pack.equal"),
+        }),
+        a.jsx("div", {
+          className: Hn.rewardsWrapper,
+          children: a.jsx("div", {
+            className: Hn.rewards,
+            children: O(e, (e, t) =>
+              a.jsx(
+                ge,
+                { ...qt(e, r), className: null == n ? void 0 : n.reward },
+                `reward_${e.name}_${t}`,
+              ),
+            ),
+          }),
+        }),
+      ],
+    });
+  }),
+  Xn = "StarterPack_packDescription_e09c33a3",
+  Zn = "StarterPack_purchaseText_67051b2",
+  Kn = "StarterPack_presentLogo_f1509f42",
+  Yn = "StarterPack_equalLogo_4d2bea9f",
+  Qn = S.resolve("strings"),
+  Jn = i(function () {
+    const { model: e } = nn(),
+      t = e.computes.starterPackRewards(),
+      { breakpoint: s } = je(),
+      r = s.weight < Ne.medium.weight ? ve.Small : ve.Big;
+    return a.jsxs(a.Fragment, {
+      children: [
+        a.jsx(de, {
+          text: Qn.readOrEmpty("battle_pass.battlePassBuyView.confirm.starterPack.description"),
+          upgradeLegacy: !0,
+          params: {
+            purchaseText: a.jsx("span", {
+              className: Zn,
+              children: Qn.readOrEmpty(
+                "battle_pass.battlePassBuyView.confirm.starterPack.purchaseText",
+              ),
+            }),
+          },
+          className: Xn,
+        }),
+        a.jsx(qn, {
+          starterPackRewards: t,
+          presentSize: Gn,
+          rewardSize: r,
+          classNames: { presentLogo: Kn, equalLogo: Yn },
+        }),
+      ],
+    });
+  }),
+  ei = {
+    base: "PassContent_1cb8450b",
+    contentWrapper: "PassContent_contentWrapper_6bd43d6a",
+    contentWrapper__noShopOffer: "PassContent_contentWrapper__noShopOffer_3c8d5049",
+    content: "PassContent_content_c067e9cf",
+    emblem: "PassContent_emblem_bf66736c",
+    chapterInfo: "PassContent_chapterInfo_3efcc8f4",
+    chapterName: "PassContent_chapterName_b21f7a0e",
+    check: "PassContent_check_a557a239",
+    checkIcon: "PassContent_checkIcon_2ddd3576",
+    checkboxLabel: "PassContent_checkboxLabel_968825b",
+    previousRewards: "PassContent_previousRewards_3344ac4c",
+    currentRewards: "PassContent_currentRewards_cc1995e8",
+    checkbox: "PassContent_checkbox_a0d760a8",
+    starterPack: "PassContent_starterPack_bcf3e072",
+    offerBack: "PassContent_offerBack_a71885da",
+    offerWrapper: "PassContent_offerWrapper_e8393a4",
+    offer: "PassContent_offer_d09e2495",
+  },
+  ai = S.resolve("strings"),
+  ti = S.resolve("images"),
+  si = i(() => {
+    const [s, r] = e.useState(!1),
+      n = e.useRef(!1),
+      { model: i, controls: o } = nn(),
+      { chapterID: l, remainingLevelsCount: c, isPurchaseWithLevels: d } = i.package.get(),
+      _ = i.computes.hasStarterPackInChapter(l),
+      u = i.main.isShopOfferAvailable.get(),
+      m = me();
+    he(T.ESCAPE, () => m.goBack());
+    const p = (() => {
+      const e = String(l).slice(-1),
+        a = `battlePass.backgrounds.chapter_general.c_${l}`,
+        t = `battlePass.backgrounds.chapter_general.default_${e}`;
+      return ti.readOrEmpty(a, "silent") || ti.readOrEmpty(t);
+    })();
+    e.useEffect(() => {
+      if (n.current)
+        return (
+          r(!0),
+          ee(() => {
+            r(!1);
+          }, 300)
+        );
+      n.current = !0;
+    }, [d, n]);
+    const h = k(
+      { iconSize: Yr, shieldSize: Fr, containerSize: Dr },
+      {
+        medium: { iconSize: Qr, shieldSize: Hr, containerSize: Or },
+        large: { iconSize: Jr, shieldSize: $r, containerSize: Wr },
+      },
+    );
+    return a.jsxs("div", {
+      className: ei.base,
+      style: { backgroundImage: `url(${p})` },
+      children: [
+        a.jsx("div", {
+          className: t(
+            ei.contentWrapper,
+            !u && ei.contentWrapper__noShopOffer,
+            s && ei.contentWrapper__rewardsUpdateAnimation,
+          ),
+          children: a.jsxs("div", {
+            className: ei.content,
+            children: [
+              a.jsx("div", {
+                className: ei.emblem,
+                children: a.jsx(sn, {
+                  iconSize: h.iconSize,
+                  shieldSize: h.shieldSize,
+                  containerSize: h.containerSize,
+                  bpPurchased: !0,
+                  chapterID: l,
+                }),
+              }),
+              a.jsxs("div", {
+                className: ei.chapterInfo,
+                children: [
+                  a.jsx("div", {
+                    className: ei.chapterName,
+                    children: ai.readOrEmpty(`battle_pass.chapter.fullName.c_${l}`),
+                  }),
+                  c > 0 &&
+                    a.jsx("div", {
+                      className: ei.checkbox,
+                      children: a.jsx(ke, {
+                        checked: d,
+                        onCheckedChange: o.togglePurchaseWithLevels,
+                        classNames: { checkIcon: ei.checkIcon, check: ei.check },
+                        "data-test-id": "buyLevelsCheckbox",
+                        children: a.jsx(de, {
+                          text: ai.pluralOrEmpty(
+                            "battle_pass.battlePassBuyView.confirm.checkbox.stage",
+                            c,
+                          ),
+                          upgradeLegacy: !0,
+                          params: { stagesNumber: c },
+                          className: ei.checkboxLabel,
+                        }),
+                      }),
+                    }),
+                  s
+                    ? a.jsx(Fn, {
+                        isCheckboxAnimationActive: s,
+                        className: ei.previousRewards,
+                        isPrevious: !0,
+                      })
+                    : a.jsx(Fn, { isCheckboxAnimationActive: s, className: ei.currentRewards }),
+                  a.jsx("div", { className: ei.starterPack, children: _ && a.jsx(Jn, {}) }),
+                  a.jsx(pn, { isPriceUpdateAnimation: s }),
+                ],
+              }),
+            ],
+          }),
+        }),
+        u &&
+          a.jsxs(a.Fragment, {
+            children: [
+              a.jsx("div", { className: ei.offerBack }),
+              a.jsx("div", {
+                className: ei.offerWrapper,
+                children: a.jsx("div", { className: ei.offer, children: a.jsx(Dn, {}) }),
+              }),
+            ],
+          }),
+      ],
+    });
+  }),
+  ri = { context: "model.rewards", rootId: R.aliases.battle_pass.BuyPass("resId") },
+  ni = i(() => {
+    const { model: e } = nn();
+    switch (e.main.state.get()) {
+      case "buyState":
+      default:
+        return a.jsx(si, {});
+      case "rewardsState":
+        return a.jsx(lr, { options: ri, children: a.jsx(Ar, {}) });
+    }
+  }),
+  ii = () =>
+    a.jsx(rn, {
+      options: { rootId: R.aliases.battle_pass.BuyPass("resId") },
+      children: a.jsx(ni, {}),
+    }),
+  oi = [
+    { emblem: { delay: 0, diff: 60, duration: 350 } },
+    { deadline: { delay: 30 } },
+    { chapterName: { delay: 60 } },
+    { finalReward: { delay: 90 } },
+    { buttonsGroup: { delay: 120 } },
+  ],
+  li = (e = 0, a = 30, t = 200) => ({
+    from: { opacity: 0, transform: `translateY(${a}rem)` },
+    to: { opacity: 1, transform: "translateY(0rem)" },
+    config: { duration: t, easing: Ie.easeInOutCubic },
+    delay: e,
+  }),
+  ci = S.resolve("images"),
+  di = S.resolve("videos"),
+  [_i, ui] = L()(
+    ({ observableModel: e }) => {
+      const a = e.array("chapters"),
+        t = {
+          root: e.object(),
+          selectedChapterID: o.box(0),
+          prevChapterIndex: o.box(0),
+          chapters: a,
+        },
+        r = s(() => Pe(a.get(), ({ isExtra: e }) => e)),
+        n = s(() => Pe(a.get(), ({ chapterState: e }) => e === is.Active)),
+        i = s(() => Re(a.get(), ({ chapterState: e }) => e === is.Completed)),
+        l = s((e) => ye(a.get(), (a) => a.chapterID === e), { equals: D }),
+        c = s((e) => {
+          const t = ye(a.get(), (a) => a.chapterID === e);
+          return {
+            levelProgression: (null == t ? void 0 : t.levelProgression) || 0,
+            currentLevel: (null == t ? void 0 : t.currentLevel) || 0,
+          };
+        }),
+        d = s(() => we(t.chapters.get(), (e) => !e.isExtra), { equals: D }),
+        _ = s(() => we(t.chapters.get(), (e) => !e.isExtra && !e.isPostProgression), { equals: D }),
+        u = s(() => we(d(), (e) => e.chapterState === is.Completed).length, { equals: D }),
+        m = s(() => we(t.chapters.get(), (e) => e.isExtra)),
+        p = s(() => we(t.chapters.get(), (e) => e.isPostProgression)),
+        h = [2],
+        b = s(
+          () => {
+            const e = ye(t.chapters.get(), ({ chapterID: e }) => e === t.selectedChapterID.get());
+            return e || Be(t.chapters.get(), t.prevChapterIndex.get());
+          },
+          { equals: D },
+        ),
+        f = s(
+          () => {
+            const { timeLeft: e, isExtra: a } = b();
+            return a ? Ae(e).days < 3 : Ae(e).days < 20;
+          },
+          { equals: D },
+        ),
+        g = s(() => [...(r() ? m() : []), ..._(), ...p()]),
+        v = s(
+          () => {
+            const e = [];
+            return (
+              O(g(), (a) => {
+                const t = String(a.chapterID).slice(-1),
+                  s = `battlePass.backgrounds.chapter_choice.c_${a.chapterID}`,
+                  r = `battlePass.backgrounds.chapter_choice.default_${t}`,
+                  n = `battle_pass.chapter_choice.c_${a.chapterID}.idle`;
+                e.push({
+                  chapter: a.chapterID,
+                  mainBg: ci.readOrEmpty(s, "silent") || ci.readOrEmpty(r),
+                  idleBg: di.readOrEmpty(n, "silent") || "",
+                });
+              }),
+              e
+            );
+          },
+          { equals: D },
+        );
+      return {
+        ...t,
+        computes: {
+          getChapterById: l,
+          getProgressionInfoByChapterId: c,
+          hasExtra: r,
+          hasActive: n,
+          detailedTimer: f,
+          isCompleted: i,
+          regularChapters: d,
+          extraChapters: m,
+          regularChaptersCompleteCount: u,
+          chaptersLineInfo: () =>
+            Ee(
+              d(),
+              (e, { chapterID: a, chapterState: t }, s) => (
+                h.includes(s + 1) || e.push({ chapterID: a, chapterState: t }),
+                e
+              ),
+              [],
+            ),
+          sortedChapters: g,
+          selectedChapter: b,
+          backgrounds: v,
+        },
+      };
+    },
+    ({ externalModel: e, model: a, cleanup: t }) => {
+      const s = l((e) => {
+          a.selectedChapterID.set(e);
+        }),
+        r = l((e) => {
+          a.prevChapterIndex.set(e);
+        }),
+        n = c(
+          () => a.root.get().selectedChapter,
+          (e) => {
+            (s(e), r(e));
+          },
+          { fireImmediately: !0 },
+        );
+      return (
+        t(() => {
+          n();
+        }),
+        {
+          openPreview: e.createCallback((e) => ({ chapterID: e }), "onPreviewClick"),
+          openAbout: e.createCallbackNoArgs("onAboutClick"),
+          openPointsInfo: e.createCallbackNoArgs("onPointsInfoClick"),
+          onViewLoaded: e.createCallbackNoArgs("onViewLoaded"),
+          showTankmen: e.createCallback((e) => ({ chapterID: e }), "showTankmen"),
+          onChapterSelect: e.createCallback((e) => ({ chapterID: e }), "onChapterSelect"),
+          setSelectedChapterID: s,
+          setPrevChapterIndex: r,
+        }
+      );
+    },
+  ),
+  mi = "LoopVideo_cfc6c5cb";
+function pi({ src: t, style: s }) {
+  const r = e.useRef(null),
+    [n, i] = Te(() => {
+      const e = r.current;
+      if (!e) return !0;
+      const a = e.getCachedKeyframes();
+      return !(null == a ? void 0 : a.length) || (e.goToAndPlay(0), !1);
+    });
+  return (
+    e.useEffect(() => (n(), i), []),
+    e.useEffect(() => {
+      const e = r.current;
+      return () => {
+        e && (e.domRef.src = "");
+      };
+    }, [r]),
+    a.jsx(Le, { src: t, style: s, className: mi, ref: r, autoplay: !0, loop: !0 })
+  );
+}
+const hi = "Background_d1f724bf",
+  bi = "Background_mainBg_b8b64d56",
+  fi = "Background_idleBg_30e8ffa",
+  gi = i(function ({ style: e, i: s, index: r, classNames: i = {} }) {
+    const { model: o } = ui(),
+      l = o.prevChapterIndex.get(),
+      c = o.computes.backgrounds(),
+      { mainBg: d, idleBg: _ } = c[s],
+      { width: u, height: m } = De(),
+      p = Oe(),
+      h = Zt(u, m, p, _);
+    return a.jsxs("div", {
+      className: hi,
+      children: [
+        a.jsx(n.div, {
+          className: t(bi, null == i ? void 0 : i.main),
+          style: {
+            ...e,
+            backgroundImage: `url(${d})`,
+            zIndex: s === r ? 3 : s === l ? 2 : 1,
+            transform: e.x.to((e) => `translateX(${e}rem)`),
+          },
+        }),
+        s === r &&
+          _ &&
+          a.jsx("div", {
+            className: t(fi, null == i ? void 0 : i.idle),
+            children: a.jsx(pi, { src: _, style: h }),
+          }),
+      ],
+    });
+  });
+(We.lightTank, We.mediumTank, We.heavyTank, We["AT-SPG"], We.SPG, Me(1, 12, W));
+const vi = "vehicle_types",
+  xi = "nations",
+  wi = "levels",
+  Ci = { heavy_tank: He, medium_tank: Fe, light_tank: ze, at_spg: Ve };
+function yi(e, a) {
+  return (
+    "isCommonProgression" === e &&
+    a.status !== Ge.UNSUITABLE_TO_QUEUE &&
+    a.bpProgress < a.maxBpScore
+  );
+}
+function ji(e, a, t, s) {
+  switch (a) {
+    case "elite":
+      return e.includes("premium") || (s && s.elite && !t.premium);
+    case "premium":
+      return t.premium || (e.includes("elite") && s && s.elite);
+    case "bonus":
+      return s && s.bonusMultiplier >= 2;
+    case "favorite":
+      return t.favorite;
+    case "crystals":
+      return t.crystalEarning;
+    case "rented":
+      return !0;
+    case "canInstallAttachments":
+      return t.canInstallAttachments;
+    case "own3DStyle":
+      return s && s.own3DStyle;
+    case "event":
+    case "funRandom":
+      return t.isSuitableVehicle;
+    default:
+      return !1;
+  }
+}
+const Ni = {
+  [wi]: (e, a) => !e.levels || e.levels.includes(`level_${a.level}`),
+  [xi]: (e, a) => !e.nations || e.nations.includes(Ue(a.nationId)),
+  [vi]: (e, a) => !e.vehicle_types || e.vehicle_types.includes(a.type),
+};
+function Si(e, a, t) {
+  let s = !1;
+  const r = e.specials ?? [];
+  for (const n of r)
+    if ("rented" !== n) {
+      if (!ji(r, n, a, t)) return !1;
+    } else s = !0;
+  if (!s && $e(a) && !(null == t ? void 0 : t.fromWotPlus)) return !1;
+  if (t && e.battle_pass && e.battle_pass.length > 0)
+    for (const n of e.battle_pass) if (!yi(n, t)) return !1;
+  for (const n of Object.keys(e)) if (n in Ni && !Ni[n](e, a)) return !1;
+  return ((e, a) => {
+    const t = qe(a.role);
+    let s = !1;
+    for (const r of Object.keys(Ci))
+      if (r in e && ((s = !0), e[r].some((e) => e.includes(t)))) return !0;
+    return !s;
+  })(e, a);
+}
+function ki(e, { shortName: a, fullName: t }) {
+  const s = e.toLowerCase();
+  return !(s.length > 0 && !a.toLowerCase().includes(s) && !t.toLowerCase().includes(s));
+}
+function Ii(e, a, t) {
+  const s = e[a] ?? [],
+    r = { ...e };
+  return (
+    (r[a] = s.includes(t) ? s.filter((e) => e !== t) : [...s, t]),
+    r[a].length > 0 || delete r[a],
+    r
+  );
+}
+function Pi(e, a) {
+  return "regular" === a.type
+    ? Ii(e, a.field, a.value)
+    : Object.keys(Ci).reduce((e, t) => {
+        const s = Ci[t].find((e) => e.includes(a.role));
+        return s
+          ? Ii(
+              e,
+              t,
+              ((n = s),
+              "at_spg" === (r = t) ? `role_ATSPG_${n}` : `role_${r[0].toUpperCase()}T_${n}`),
+            )
+          : e;
+        var r, n;
+      }, e);
+}
+function Ri(e, a, t, s) {
+  if (t.favorite !== s.favorite) return t.favorite ? -1 : 1;
+  const r = e[Ue(t.nationId)] ?? 0,
+    n = e[Ue(s.nationId)] ?? 0;
+  if (r !== n) return r - n;
+  const i = a[t.type] ?? 0,
+    o = a[s.type] ?? 0;
+  return i !== o
+    ? i - o
+    : t.level !== s.level
+      ? t.level - s.level
+      : t.premium !== s.premium
+        ? t.premium
+          ? 1
+          : -1
+        : t.shortName.localeCompare(s.shortName);
+}
+const [Bi, Ai] = L("FilterVehiclesProvider")(
+    ({ observableModel: e, readByPath: a }) => {
+      function t(e) {
+        try {
+          return JSON.parse(e);
+        } catch (a) {
+          return (console.error(a), {});
+        }
+      }
+      const { text_search: s, ...r } = t(a("filters")),
+        n = { ...e.primitives(["defaultFilters"]) },
+        i = Xe.structural(() => t(n.defaultFilters.get())),
+        l = {
+          ...e.primitives(["carouselRowCount"]),
+          filters: o.box(r, { deep: !1 }),
+          searchName: o.box((null == s ? void 0 : s[0]) ?? ""),
+          nations: e.arrayClone("nationsOrder"),
+        };
+      return {
+        ...l,
+        computes: {
+          hasFilters: Xe.primitive(
+            () => !Ze.structural(i(), l.filters.get()) || l.searchName.get().length > 0,
+          ),
+          nations: () => l.nations.get(),
+          nationToIndex: Xe.shallow(() => l.nations.get().reduce((e, a, t) => ((e[a] = t), e), {})),
+          default: i,
+        },
+      };
+    },
+    ({ cleanup: e, model: a, externalModel: t }) => {
+      const s = t.createCallback((e) => e, "onSaveFilter");
+      return (
+        e(
+          d(() => {
+            var e, t;
+            ((e = a.filters.get()),
+              (t = a.searchName.get()),
+              s({ filters: JSON.stringify({ ...e, text_search: t.length > 0 ? [t] : void 0 }) }));
+          }),
+        ),
+        {
+          reset: l(() => {
+            (a.filters.set(a.computes.default()), a.searchName.set(""));
+          }),
+          search: l((e) => {
+            a.searchName.set(e);
+          }),
+          change: l((e) => {
+            a.filters.set(Pi(a.filters.get(), e));
+          }),
+          carouselTypeChange: t.createCallback((e) => ({ rowCount: e }), "onCarouselTypeChange"),
+        }
+      );
+    },
+  ),
+  Ei = "disabled",
+  Ti = [We.lightTank, We.mediumTank, We.heavyTank, We["AT-SPG"], We.SPG].reduce(
+    (e, a, t) => ((e[a] = t), e),
+    {},
+  ),
+  [Li, Di] = L("VehicleStatisticsProvider")(({ observableModel: e }) => {
+    const a = e.dict("statistics"),
+      t = Xe.structural((e) => a.get(e));
+    return { ids: Xe.primitive(() => a.keys), get: t };
+  }),
+  [Oi, Wi] = L("VehiclesProvider")(
+    ({ observableModel: e }) => {
+      const a = { vehicles: e.dictRef("vehicles") };
+      return {
+        get: Xe.structural((e) => {
+          if (-1 === e) return;
+          const t = a.vehicles.get(e);
+          if (!t) return void console.error(`Error getting vehicle with id: ${e}`);
+          const s = (function (e) {
+            try {
+              const a = JSON.parse(e);
+              return ((a.shortName = a.shortName.replace(/<img.+\/>/, "")), a);
+            } catch (a) {
+              throw (console.error(`Error parsing JSON for element ${e}:`, a), a);
+            }
+          })(t);
+          return { ...s, imageKey: Ke(s.name) };
+        }),
+        has: Xe.primitive((e) => Boolean(a.vehicles.get(e))),
+        ids: Xe.shallow(() => [...a.vehicles.keys.values()]),
+        amount: Xe.primitive(() => a.vehicles.length),
+        list: Xe.shallow(() => {
+          let e = [];
+          for (const [s, r] of a.vehicles.entries())
+            try {
+              e.push(JSON.parse(r.get()));
+            } catch (t) {
+              console.error(`Error parsing JSON for element ${s}:`, t);
+            }
+          return e;
+        }),
+      };
+    },
+    $,
+    { useRequires: () => ({ statistics: Di() }) },
+  ),
+  [Mi, Vi] = L("MyVehiclesProvider")(
+    (e) => {
+      const a = e.requires.statistic.model.ids,
+        t = Xe.structural((t) => {
+          if (a().has(t)) return e.requires.vehicles.model.get(t);
+        }),
+        s = Xe.shallow(() => {
+          const t = [];
+          for (const s of a().values()) {
+            const a = e.requires.vehicles.model.get(s);
+            a ? t.push(a) : console.warn(`No vehicle with id: ${s}`);
+          }
+          return t;
+        });
+      return { get: t, getAll: s, amount: Xe.primitive(() => s().length), ids: a };
+    },
+    $,
+    { useRequires: () => ({ vehicles: Wi(), statistic: Di() }) },
+  ),
+  zi = S.resolve("strings"),
+  Fi = Ye(Je + ea),
+  Hi = () => `${Date.now().toString(16)}_${Fi(3)}`;
+function $i(e, a, t = 1) {
+  const s = Qe(a, { count: t });
+  return e.has(s) ? $i(e, a, t + 1) : s;
+}
+function Ui(e = "", a = []) {
+  return {
+    title: "" !== e ? e : zi.readOrEmpty("playlists.defaultName"),
+    createdAt: Date.now(),
+    modifiedAt: Date.now(),
+    list: a,
+  };
+}
+const Gi = (e) => ({ type: "ok", value: e });
+function qi(e) {
+  if ("ok" === e.type) return e.value;
+}
+const Xi = "delete",
+  Zi = "import",
+  Ki = _({
+    title: p(),
+    createdAt: u(f(), b(), h(0)),
+    modifiedAt: u(f(), b(), h(0)),
+    list: m(u(f(), b())),
+  }),
+  Yi = u(
+    p(),
+    g((e) => (e.length > 0 ? e : void 0)),
+  ),
+  [Qi, Ji, { Context: eo }] = L("PlaylistsProvider")(
+    ({ requires: e, observableModel: a }) => {
+      const t = a.dict("storage"),
+        s = a.primitives(["selectedID", "enabled", "dirtyEdit"]),
+        r = e.filters.model.computes.default,
+        n = {
+          vehicles: e.vehicles.model,
+          myVehicles: e.myVehicles.model,
+          enabled: s.enabled,
+          nationsOrder: e.filters.model.nations,
+          filters: o.box(r(), { deep: !1 }),
+          searchName: o.box("", { deep: !1 }),
+          edit: { initial: o.box(void 0, { deep: !1 }), dirty: s.dirtyEdit },
+        },
+        i = Xe.shallow(() => t.keys),
+        l = Xe.primitive(() => v(Yi, s.selectedID.get())),
+        c = Xe.structural((e) => {
+          try {
+            const a = t.get(e);
+            if (!a) return Gi(void 0);
+            const s = v(Ki, JSON.parse(a)),
+              r = new Set();
+            for (const e of s.list)
+              if (aa[e]) {
+                const a = aa[e].find((e) => Boolean(n.myVehicles.get(e.toString())));
+                r.add(a ?? e);
+              } else r.add(e);
+            return Gi({ ...s, list: [...r.values()] });
+          } catch (r) {
+            return (
+              console.error(`Error getting playlist with ${e} id`, r),
+              (a = "PARSE_ERROR"),
+              (s = String(r)),
+              { type: "error", error: { tag: a, msg: s } }
+            );
+          }
+          var a, s;
+        }),
+        d = Xe.shallow(() =>
+          ta(i().values())
+            .map((e) => c(e))
+            .filter((e) => "ok" === e.type && void 0 !== e.value)
+            .map((e) => e.value.title)
+            .reduce((e, a) => e.add(a), new Set()),
+        ),
+        _ = Xe.primitive((e) => {
+          const a = c(e);
+          if ("ok" !== a.type || void 0 === a.value)
+            throw new Error(`Can't get playlist by id ${e}`);
+          return a.value;
+        }),
+        u = Xe.structural((e) => {
+          const a = c(e);
+          if ("ok" === a.type && void 0 !== a.value) return { id: e, ...a.value };
+        }),
+        m = Xe.shallow(() =>
+          ta(i().values())
+            .map((e) => u(e))
+            .filter((e) => void 0 !== e)
+            .toArray()
+            .sort((e, a) => e.title.localeCompare(a.title))
+            .map((e) => e.id),
+        ),
+        p = Xe.primitive(() => {
+          const e = l();
+          if (e) return u(e);
+        }),
+        h = Xe.shallow(() => {
+          const a = e.filters.model.computes.nationToIndex();
+          return sa(e.myVehicles.model.getAll(), (e, t) => Ri(a, Ti, e, t));
+        }),
+        b = Xe.primitive((e) => {
+          var a;
+          const t = u(e),
+            s = g();
+          if (void 0 === t || 0 === t.list.length) return;
+          const r = new Set(t.list);
+          for (let n = 0; n < s.length; n += 1) {
+            const e = Number(null == (a = s[n]) ? void 0 : a.id);
+            if (ra(e) && r.has(e)) return n;
+          }
+        }),
+        f = Xe.primitive(
+          () => !1 === Ze.structural(r(), n.filters.get()) || n.searchName.get().length > 0,
+        ),
+        g = Xe.shallow(() => {
+          const a = n.filters.get(),
+            t = h(),
+            s = n.searchName.get();
+          return t.filter((t) => {
+            if (!ki(s, t)) return !1;
+            const r = e.statistic.model.get(t.id);
+            return Si(a, t, r);
+          });
+        }),
+        x = Xe.primitive((a) => {
+          var t;
+          return Boolean(null == (t = e.statistic.model.get(a)) ? void 0 : t.elite);
+        }),
+        w = Xe.shallow((a) => {
+          const t = e.vehicles.model.get(a);
+          return null == t ? void 0 : t.imageKey;
+        }),
+        C = Xe.primitive(() => g().length),
+        y = Xe.shallow(() => {
+          var e;
+          return null == (e = p()) ? void 0 : e.list.map(n.vehicles.get);
+        });
+      return {
+        ...n,
+        current: p,
+        titles: d,
+        currentId: l,
+        byIdUnsafe: _,
+        byId: c,
+        byIdFull: u,
+        filtered: g,
+        filteredAmount: C,
+        defaultFilters: r,
+        hasFilters: f,
+        vehicleImage: w,
+        currentVehicles: y,
+        ids: i,
+        sortedIds: m,
+        isElite: x,
+        firstAddedVehicleIndexByPlaylistId: b,
+      };
+    },
+    ({ model: e, externalModel: a }) => {
+      const t = a.createCallback(
+        (e) => ({ id: e.id, data: JSON.stringify(e.initial), skipRedirect: e.skipRedirect }),
+        "onCreate",
+      );
+      return {
+        filters: na({
+          update: (a) => {
+            e.filters.set(Pi(e.filters.get(), a));
+          },
+          reset: () => {
+            (e.filters.set(e.defaultFilters()), e.searchName.set(""));
+          },
+          search: (a) => e.searchName.set(a),
+          change: (a) => {
+            e.filters.set(Pi(e.filters.get(), a));
+          },
+        }),
+        create: l((a) => {
+          const { id: s = Hi(), vehicleIds: r = [], skipRedirect: n = !1 } = a ?? {};
+          t({ id: s, initial: Ui($i(e.titles(), "playlists.defaultName"), r), skipRedirect: n });
+        }),
+        edit: {
+          sendModify: a.createCallback((e, a) => ({ id: e, data: JSON.stringify(a) }), "onModify"),
+          setDirty: a.createCallback((e) => ({ value: e }), "onSetDirtyEdit"),
+        },
+        select: a.createCallback((e = "") => ({ id: e }), "onSelect"),
+        save: a.createCallback((e) => ({ id: e }), "onSave"),
+        exit: a.createCallback((e) => ({ id: e }), "onDiscard"),
+        goToAboutVehicle: a.createCallback((e) => ({ intCD: e }), "onGoToAboutVehicle"),
+        openImport: a.createCallback(
+          l(() => ({
+            type: Zi,
+            params: JSON.stringify({ titles: Array.from(e.titles().values()) }),
+          })),
+          "openImportConfirm",
+        ),
+        openDeleteConfirm: a.createCallback(
+          (e, a) => ({ id: e, type: Xi, params: JSON.stringify({ title: a }) }),
+          "openDeleteConfirm",
+        ),
+      };
+    },
+    { useRequires: () => ({ vehicles: Wi(), myVehicles: Vi(), filters: Ai(), statistic: Di() }) },
+  ),
+  ao = "pending",
+  to = "readyToSelect",
+  so = Ei,
+  [ro, no] = L("VehiclesInventoryProvider")(
+    (e) => {
+      const a = e.observableModel.primitives([
+          "freeSlotsCount",
+          "defaultSlotPrice",
+          "slotPrice",
+          "slotPriceCurrency",
+          "recoverableVehicleCount",
+          "currentVehicleIntCD",
+          "currentVehicleInventoryId",
+          "hasDiscont",
+          "bpEntityValid",
+          "bpStatus",
+          "telecomRentStatus",
+        ]),
+        t = o.box([], { deep: !1 }),
+        s = { intCD: a.currentVehicleIntCD, inventoryId: a.currentVehicleInventoryId },
+        r = Xe.shallow(() => {
+          const a = s.intCD.get();
+          return e.requires.vehicles.model.get(a);
+        }),
+        n = Xe.shallow((a) => {
+          if (void 0 === a) return;
+          const t = s.intCD.get();
+          return -1 === t ? e.requires.vehicles.model.get(a) : e.requires.vehicles.model.get(t);
+        }),
+        i = Xe.shallow(() => {
+          const a = s.intCD.get();
+          return e.requires.statistic.model.get(a);
+        }),
+        l = Xe.primitive(() => -1 !== s.intCD.get()),
+        c = Xe.shallow((e) => ia(e, (e) => _.get(String(e)))),
+        _ = e.requires.myVehicles.model,
+        u = Xe.structural(() => e.requires.vehicles.model.list().filter((e) => e.rent.isRented)),
+        m = Xe.primitive(() =>
+          e.requires.vehicles.model.list().some((a) => {
+            const t = e.requires.statistic.model.get(a.vehicleId);
+            if (t) return "inPrebattle" === t.status;
+          }),
+        ),
+        p = Xe.primitive(() => {
+          const a = [..._.getAll()],
+            t = e.requires.filters.model.computes.nationToIndex();
+          return (a.sort((e, a) => Ri(t, Ti, e, a)), a);
+        });
+      return (
+        e.cleanup(
+          d(() => {
+            var a;
+            const s = e.requires.filters.model.filters.get(),
+              r = e.requires.filters.model.searchName.get(),
+              n = null == (a = e.requires.playlists) ? void 0 : a.model.current(),
+              i = _.ids(),
+              o = (n ? c(n.list) : p()).filter(
+                (a) =>
+                  !1 !== i.has(a.id) &&
+                  !!Si(s, a, e.requires.statistic.model.get(a.id)) &&
+                  ki(r, a),
+              );
+            x(() => t.set(o));
+          }),
+        ),
+        {
+          vehicles: e.requires.myVehicles.model,
+          vehicle: n,
+          selectedVehicle: r,
+          isVehicleSelected: l,
+          selectedVehicleStatistics: i,
+          accumulateByIds: c,
+          rentVehiclesList: u,
+          prebattleModeActive: m,
+          current: {
+            intCD: a.currentVehicleIntCD,
+            inventoryId: a.currentVehicleInventoryId,
+            amount: Xe.primitive(() => t.get().length),
+            list: () => t.get(),
+            ids: Xe.shallow(() => t.get().map((e) => e.id)),
+            playlist: e.requires.playlists ? e.requires.playlists.model.current : () => {},
+          },
+          slots: {
+            free: a.freeSlotsCount,
+            price: {
+              defaultValue: a.defaultSlotPrice,
+              value: a.slotPrice,
+              currency: a.slotPriceCurrency,
+            },
+            recover: a.recoverableVehicleCount,
+            discount: a.hasDiscont,
+          },
+          bpState: { active: a.bpEntityValid, status: a.bpStatus },
+          telecomRentStatus: a.telecomRentStatus,
+        }
+      );
+    },
+    (e) => ({
+      select: e.externalModel.createCallback((e) => ({ id: e }), "onSelect"),
+      buySlot: e.externalModel.createCallbackNoArgs("onBuySlot"),
+      goBuyVehicle: e.externalModel.createCallbackNoArgs("onGoBuyVehicle"),
+      goRecoverVehicle: e.externalModel.createCallbackNoArgs("onGoRecoverVehicle"),
+      selectTelecomRentalVehicle: e.externalModel.createCallbackNoArgs(
+        "onSelectTelecomRentalVehicle",
+      ),
+    }),
+    {
+      useRequires: () => ({
+        myVehicles: Vi(),
+        vehicles: Wi(),
+        statistic: Di(),
+        filters: Ai(),
+        playlists: e.useContext(eo),
+      }),
+    },
+  ),
+  io = -1,
+  [oo, lo, { Context: co }] = L("ManageableVehiclePlaylistsModel")(
+    (e) => {
+      const a = {
+          ...e.observableModel.primitives({ intCD: "vehicleId" }),
+          displayedVehicleId: o.box(io),
+          changesInPlaylistSelection: o.set(new Set()),
+        },
+        t = Xe.shallow(() =>
+          e.requires.playlists.model.sortedIds().reduce((a, t) => {
+            const s = e.requires.playlists.model.byIdFull(t);
+            return (s ? a.push(s) : console.warn(`Missing playlist data for id = ${t}`), a);
+          }, []),
+        ),
+        s = Xe.structural(() =>
+          t().map(({ id: e, title: t, list: s }) => {
+            const r = s.includes(a.displayedVehicleId.get());
+            return { id: e, title: t, selected: a.changesInPlaylistSelection.has(e) ? !r : r };
+          }, []),
+        ),
+        r = Xe.primitive(() => 0 === s().length);
+      return (
+        e.cleanup(
+          d(() => {
+            (a.displayedVehicleId.get(), t(), x(() => a.changesInPlaylistSelection.clear()));
+          }),
+        ),
+        {
+          ...a,
+          computeds: {
+            playlistItems: s,
+            isVehiclePlaylistsEmpty: r,
+            vehicle: Xe.shallow(() => {
+              const t = a.displayedVehicleId.get(),
+                s = e.requires.vehicles.model.get(t),
+                r = e.requires.vehicleStatistics.model.get(t);
+              if (void 0 !== s && void 0 !== r) return { ...s, elite: r.elite };
+            }),
+            empty: Xe.primitive(() => a.vehicleId.get() === io),
+            sortedPlaylists: t,
+            hasChanges: Xe.primitive(() => a.changesInPlaylistSelection.size > 0),
+            enabled: Xe.primitive(() => e.requires.playlists.model.enabled.get()),
+          },
+        }
+      );
+    },
+    (e) => ({
+      setDisplayedVehicleId: l((a) => {
+        e.model.displayedVehicleId.set(a);
+      }),
+      reset: e.externalModel.createCallbackNoArgs("onReset"),
+      selectVehicle: e.externalModel.createCallback((e) => ({ id: e }), "onSelectVehicle"),
+      goToCreatePlaylist: (a) => {
+        e.requires.playlists.controls.create({ vehicleIds: a });
+      },
+      togglePlaylist: l((a) => {
+        e.model.changesInPlaylistSelection.has(a)
+          ? e.model.changesInPlaylistSelection.delete(a)
+          : e.model.changesInPlaylistSelection.add(a);
+      }),
+      save: l(() => {
+        const a = e.model.displayedVehicleId.get(),
+          t = e.requires.playlists.model.currentId();
+        for (const s of e.model.changesInPlaylistSelection) {
+          const t = qi(e.requires.playlists.model.byId(s));
+          if (!t) return void console.warn(`Missing playlist data for id = ${s}`);
+          (e.requires.playlists.controls.edit.sendModify(s, {
+            ...t,
+            modifiedAt: Date.now(),
+            list: t.list.includes(a) ? t.list.filter((e) => e !== a) : [...t.list, a],
+          }),
+            e.requires.playlists.controls.save(s));
+        }
+        e.requires.playlists.controls.select(t);
+      }),
+      cancel: l(() => {
+        e.model.changesInPlaylistSelection.clear();
+      }),
+    }),
+    { useRequires: () => ({ vehicles: Wi(), playlists: Ji(), vehicleStatistics: Di() }) },
+  ),
+  _o = () => e.useContext(co),
+  uo = (a) =>
+    e.createElement(
+      "svg",
+      {
+        width: 24,
+        height: 24,
+        viewBox: "0 0 24 24",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg",
+        xmlnsXlink: "http://www.w3.org/1999/xlink",
+        ...a,
+      },
+      e.createElement("path", {
+        opacity: 0.8,
+        d: "M19 16H22V18H19V21H17V18H14V16H17V13H19V16Z",
+        fill: "#0D0E10",
+      }),
+      e.createElement("path", {
+        d: "M19 15H22V17H19V20H17V17H14V15H17V12H19V15Z",
+        fill: "url(#paint0_radial_111851_505980)",
+      }),
+      e.createElement("path", {
+        d: "M19 15H22V17H19V20H17V17H14V15H17V12H19V15Z",
+        fill: "url(#pattern0_111851_505980)",
+        fillOpacity: 0.8,
+      }),
+      e.createElement(
+        "g",
+        { opacity: 0.8 },
+        e.createElement("path", {
+          d: "M12 16H5V15H12V16ZM15 13H5V12H15V13ZM19 10H5V9H19V10ZM19 7H5V6H19V7Z",
+          fill: "url(#paint1_radial_111851_505980)",
+        }),
+        e.createElement("path", {
+          d: "M12 16H5V15H12V16ZM15 13H5V12H15V13ZM19 10H5V9H19V10ZM19 7H5V6H19V7Z",
+          fill: "url(#pattern1_111851_505980)",
+          fillOpacity: 0.8,
+        }),
+      ),
+      e.createElement("path", {
+        opacity: 0.8,
+        d: "M12 17H5V16H12V17ZM15 14H5V13H15V14ZM19 11H5V10H19V11ZM19 8H5V7H19V8Z",
+        fill: "#0D0E10",
+      }),
+      e.createElement(
+        "defs",
+        null,
+        e.createElement(
+          "pattern",
+          {
+            id: "pattern0_111851_505980",
+            patternContentUnits: "objectBoundingBox",
+            width: 1,
+            height: 1,
+          },
+          e.createElement("use", {
+            xlinkHref: "#image0_111851_505980",
+            transform: "scale(0.0208333)",
+          }),
+        ),
+        e.createElement(
+          "pattern",
+          {
+            id: "pattern1_111851_505980",
+            patternContentUnits: "objectBoundingBox",
+            width: 1,
+            height: 1,
+          },
+          e.createElement("use", {
+            xlinkHref: "#image0_111851_505980",
+            transform: "matrix(0.0208333 0 0 0.0291667 0 -0.2)",
+          }),
+        ),
+        e.createElement(
+          "radialGradient",
+          {
+            id: "paint0_radial_111851_505980",
+            cx: 0,
+            cy: 0,
+            r: 1,
+            gradientUnits: "userSpaceOnUse",
+            gradientTransform: "translate(15.7778 13.6) rotate(90) scale(5.6 4.97778)",
+          },
+          e.createElement("stop", { offset: 6.20882e-10, stopColor: "#EDE6D9" }),
+          e.createElement("stop", { offset: 1, stopColor: "#C2C7CE" }),
+        ),
+        e.createElement(
+          "radialGradient",
+          {
+            id: "paint1_radial_111851_505980",
+            cx: 0,
+            cy: 0,
+            r: 1,
+            gradientUnits: "userSpaceOnUse",
+            gradientTransform: "translate(12 14.0904) rotate(180) scale(8.90909 2.42616)",
+          },
+          e.createElement("stop", { offset: 6.20882e-10, stopColor: "#EDE6D9" }),
+          e.createElement("stop", { offset: 1, stopColor: "#C2C7CE" }),
+        ),
+        e.createElement("image", {
+          id: "image0_111851_505980",
+          width: 48,
+          height: 48,
+          preserveAspectRatio: "none",
+          xlinkHref:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAnBSURBVHgBbdrnbhzHEobhpTSiguWcYRswYMD3fwn+68swYFuAcg6kwuHb5DMuEaeBBXd6uqsrflVdy6M//vjjw/v37w8fPnw4bNu2Pqenp4eTk5PDrVu3Drdv317fe//27dv1vfXXr18/XL169fDq1atD48qVK2vN0dHRmu+59e/evTscHx+vuZcvX65n57S2dY0XL16s9a0z35qeG70zend05eiwXd0OVyK+Js42xUDMtQnDCdOhhPQXoZs3b+7PHdj7hGpf89G3r/fzjN7duHFjp0MoQji37ymzddeuXTucnJ4c3p6eK2frZQPhniMUwRa8efNmvYto763JEq2LIE11QOt715qYi0bfCT4t1ByrZtHeTUW2t+/9bbDe2ar1PiVtLWhzD03GEKEcShO0GgME6F17aC3B+8t9uEX7nz17ttb2iRZhllbP6PW9T3t6N63Xp+d3789dMtpLoNevX3/kd42INf/555/v/k8jfVr3ySef7G7R8+PHjxeN5r/88svd/XoX45TEVTDpvNY9f/788Omnn34UH7yAm3s+PTlX5paZI0bbmO9AwSOQxEUBR/MxF/H20Gx/uUTxEGOdk2DR+ueffw5Pnjw5fPfdd4cvvvhit3b7nIHR5hOqfQm2hD26cji+dnwOBjPy2yz6oUjIETMx0KdDIhzDrYnBtCrwBRqrFXwxzo97H732NMSc4Pee0uzr2fdciEdsbZgoZGAmDZFeAGMkRiNmvXV9RyslJHAjxppPo9FtvzHdkUJTWN+zqjPP3fw/K23cpgkEImbwR2NiNPThcpRAUzO/tIewzXsmLBfqr4CekCoPdM779+d7Ts/gdIM+Du2wNAYFaAQSYar59no30QNMYq5kCInEG2g1bx9rQjyCQS0KBDjbZRicDExf5uNTg6D0/0HuhGKa59MEI3AWhDS5DUFpnYIngp3zchY/Ee/DTC2OSKaKYIgj0JQO4LThYIFGo9ONJuYDB0x2VgKEZsWGZDcTa0PCZCFK3DDG1xfGXkDhTGqYkTlpdfonK8UQbCcQWEbPORNZGu0T/JgU/GJVXC2LiHQo0ifc5v/igv/LnB0cA61jVpZhMetm9oUm9rU2Bq29f//+4enTpwt+Q6pZYJYk7927t4Tv+45CMTzroJ9++umj2qcNhIjRGOgARVvvaUmAU0DWYNE7d+4sl+TLmCrX9Nzazvj555/X3uZnELPWZ599tsfnRnLBxm2YDwFDsMdw61mrv7Qv0SRs8/2Nxtdff3345ptv1jolTIyliATpGXNgHdSi1XcV8IUrbXtWhBL8TIDPbMgqXKP9MQDelMh8WjXbHBRTHnvf91nCqKNmcmuudVw4GqsanYEleJQJop4LEAAKdHiCKDf6AAUW4N/KDvtntRpjrNyccnyCyPUb11f9M9Fpgc+8oNg0y2qwJjElDFhULXInIGB+wqccIYYwy01ZFB+S2sw1KUDxud/s4CpJ2ziDrMHcMztOC4XfE/p2rV2U0FlUknRe5/B7Vat4pIjpzidvTnawEOxLCJnRARgwjxhtgj/+LxgJxkLNdRgXE1OgltW4JgDgXuD21s1bew7iHZLnUuJMDhKPAadngSZrzzUsR4hoEiTrcdGJPtN1+tu8IRmugL19bVcc6MyNor2QKlxuMd/ky5m0REJTrAKP50VcLhBPoNFVcb/+XSDW9PPmOyda7ibOoLhZWM57xQXN7fD333+vw3755ZfdHzN7GTHiVZNTY9NdVKUTZl05035XTZB49+7dte6rr75a54Xr1UBptPUpIYWqiF2IEqwMXI5oXedDwJXIvv322928Xjx48GCHRPUJOJzXTKggucws7FICzylABdpwpVQ0TjRsTXwkREDR3n///fcj1940npSvTWI0zUskWSVBYkjJQRAXfJaYLkfwvsfIzCMKNVUv91WC5AVlbi6Dr9aw0OYQuB4TmV0wQokYF2BubCpEbkfT4NSISZckCU5jC33M6d5Bu85QakM/sbMXcy1uI/hyh4XR030wYQ7icJ+ZoefNqTNYCK1G51Kesh4Ec9fOUJ5TkCp1A4Wiel5eMvnMBzTQkCElldk2pJ3ZWZi3MofPukrccD888QpxqCvYulW6eMHHEFMep80CdGqNdRRdfJcCGtOdBuR9dKWMZs0ziU+im/duQuo1Edh1dMuE7rcuLCrCadLGvLQruuac+onr2ZsCOmfeuliVwCzo5kYpXMg60M11t5pOIYDBf10V0xAovOxi4XjYPPuXsznWAUprmhdn81Kv2mWZ2eZ0PYVaButszAMRYurPP/9cgvz+++8LIkMlPgqd0tSPP/64GCtBaVhhpPVa4jEUJIuXy4Udd9WRm2ARDfEyW/a9v7jJ/Vd1Mt1vv/22BKh3mQAQQU0ziz+BFoMCnKYms83VD3U7Uzv13YXG/su9ongRn9HQPF4uPhu7zP/999/vks6LBs1MxiMCo6GU925hUGQWZNwMqsz8MtuLrVGuN5e7yyULqXIPl2dmoyFSOmxeMiJUrSTDOgz8TbQypuYBhqxriA3VrDK+kSdoFO8WILHDaUeRNV1CmZvAEyqZerYUlRLTUoAA0s3kNmusCbV8nxvbY9/m5g/nMattrtRQfzeveNPDn9fIaf7L3TXud7nLxu1mq18+UGRSpo4IWptExFfdBWhSpxgeN7Qe+TaIm+15TE/kUVabn3XYvOzLP+4Fs8kGsfZqVK2vf9OLStiaS2nGRVq7hBV0IqbvGizB5bjlo0ePFmMq2qw3G2WzubaXLCn4IvDRpsglmNaiOIjIX3/9tQ52rXMTi/E+NNB6rXOBhbCY4rOzWTBvdoFBHTt5AFxKYG/P1s1CU0kCDLZQaJqmxb/++uvSSChTHpC+Z6AKvHqZDx8+XN9/+OGH3Z9n2yUYjNFoRl/cEFCmp5TO1YG4eevmDhgpb9ZLq6Dkg4InLfk9LJPP1qMgZ4HmKiV0Hgg3f2pyGQISs+Onoo0GJqPTuToXdSW437xKcttt/qbVITPLlYln8mK2WdfHSAxgOvj1bwq01Fy0DDT94qmX2idGVcAzn7RmtnAofpvlLkFIOf+NwC/wDaUvf47Zies0GTCwQK5Kk73PrXp2efJjRy4rM09lyTnzp64Fx5dbd3o0MR8azcSCMMEklNkP5WbtmddQbjSLuPbNOmheZOQCWfrVmUJunJ1bfMxqYZs/berDwOOCs/cFap0LkKuJS3vS/SzDZ3XZ2izSobVUuCNGU5SzleDoQZ+FSGfPCXAO64HO4fwXGoRor08LlQkJkqbqEMz1kpgKU+aU8tOejoVSXBKcbczmipMUpPT+UPyMJlrap9A84Pj43GL/Ay7gs62Y7foXAAAAAElFTkSuQmCC",
+        }),
+      ),
+    ),
+  mo = "Buttons_937965ba",
+  po = "Buttons_right_268130b5",
+  ho = "Buttons_button_aeef4019",
+  bo = "Buttons_button__create_61690fd8",
+  fo = "Buttons_icon_378ba619",
+  go = S.resolve("strings"),
+  vo = i(function () {
+    const { model: e, controls: s } = lo();
+    return a.jsxs("div", {
+      className: t(mo),
+      children: [
+        a.jsx(oa, {
+          body: go.readOrEmpty("playlists.managaeble_playlists.buttons.create.tooltipBody"),
+          children: a.jsx(P, {
+            className: t(ho, bo),
+            theme: P.themes.secondary,
+            size: P.sizes.extraSmall,
+            autoAlignContent: !1,
+            onClick: () => {
+              (s.goToCreatePlaylist([e.displayedVehicleId.get()]), s.reset());
+            },
+            children: a.jsx(uo, { className: fo }),
+          }),
+        }),
+        a.jsxs("div", {
+          className: po,
+          children: [
+            a.jsx(P, {
+              className: ho,
+              theme: P.themes.secondary,
+              size: P.sizes.extraSmall,
+              onClick: () => {
+                (s.cancel(), s.reset());
+              },
+              children: a.jsx(la, {
+                text: go.readOrEmpty("playlists.managaeble_playlists.buttons.cancel.title"),
+              }),
+            }),
+            a.jsx(P, {
+              className: ho,
+              theme: P.themes.primary,
+              size: P.sizes.extraSmall,
+              disabled: !e.computeds.hasChanges(),
+              onClick: () => {
+                (s.save(), s.reset());
+              },
+              children: a.jsx(la, {
+                text: go.readOrEmpty("playlists.managaeble_playlists.buttons.save.title"),
+              }),
+            }),
+          ],
+        }),
+      ],
+    });
+  }),
+  xo = "Item_itemBackground_f5007fc6",
+  wo = "Item_c5163bf",
+  Co = "Item_checkbox_cfffba80",
+  yo = "Item_item__checked_5f6fcc69",
+  jo = "Item_check_a68580c8",
+  No = "Item_checkboxLabel_885d0061",
+  So = i(function ({ id: e, title: s, checked: r }) {
+    const { controls: n } = lo();
+    return a.jsxs("div", {
+      className: t(wo, r && yo),
+      children: [
+        a.jsx("div", { className: xo }),
+        a.jsx(ke, {
+          checked: r,
+          onCheckedChange: () => n.togglePlaylist(e),
+          size: ca.small,
+          className: Co,
+          classNames: { label: No, check: jo },
+          children: a.jsx(la, { text: s }),
+        }),
+      ],
+    });
+  }),
+  ko = "List_152fbdf4",
+  Io = "List_scrollWrapper_e69e8089",
+  Po = "List_scrollContent_30662217",
+  Ro = "List_scrollbar_611defd3",
+  Bo = i(function () {
+    const { model: e } = lo(),
+      t = e.computeds.playlistItems();
+    return a.jsxs("div", {
+      className: ko,
+      children: [
+        a.jsx(da, {
+          classNames: { wrapper: Io, content: Po },
+          children: O(t, ({ id: e, title: t, selected: s }) =>
+            a.jsx(So, { id: e, title: t, checked: s }, e),
+          ),
+        }),
+        a.jsx(le, { classNames: { base: Ro } }),
+      ],
+    });
+  }),
+  Ao = "Vehicle_name_f5f779f6",
+  Eo = "Vehicle_level_c03ad304",
+  To = "Vehicle_type_9905a21f",
+  Lo = i(function () {
+    const { model: e } = lo(),
+      t = e.computeds.vehicle();
+    if (void 0 === t) return null;
+    const s = qe(t.role);
+    return a.jsxs(_a, {
+      children: [
+        a.jsx(_a.Level, { value: t.level, className: Eo }),
+        ua(t.type) &&
+          a.jsx(_a.Type, {
+            size: _a.Type.sizes.x24x24,
+            className: To,
+            type: t.type,
+            premium: t.elite,
+          }),
+        a.jsx(la, { text: t.fullName, className: Ao }),
+        s !== ma && a.jsx(_a.Role, { size: _a.Role.sizes.x16x16, roleKey: s }),
+      ],
+    });
+  }),
+  Do = "Styles_display_f2930fa3",
+  Oo = "Styles_header_dcb2494f",
+  Wo = "Styles_body_504cd01f",
+  Mo = "Styles_title_ece3f15e",
+  Vo = S.resolve("strings");
+function zo({ className: e }) {
+  return a.jsxs(pa.Header, {
+    className: t(Oo, e),
+    children: [
+      a.jsx(pa.Title, {
+        className: Mo,
+        children: a.jsx(la, {
+          text: Vo.readOrEmpty("playlists.managaeble_playlists.header.title"),
+        }),
+      }),
+      a.jsx(Lo, {}),
+    ],
+  });
+}
+function Fo({ className: e }) {
+  return a.jsxs(pa.Body, {
+    className: t(Wo, e),
+    children: [
+      a.jsx(pa.Divider, {}),
+      a.jsx(be, { children: a.jsx(Bo, {}) }),
+      a.jsx(pa.Divider, {}),
+      a.jsx(vo, {}),
+    ],
+  });
+}
+const Ho = e.memo(function ({ vehicleId: e, tipSize: s, className: r, children: n, ...i }) {
+    return a.jsxs(pa.Display, {
+      ...i,
+      className: t(Do, r),
+      children: [a.jsx(pa.Tip, { size: s }), a.jsx(pa.Close, {}), n],
+    });
+  }),
+  $o = i(({ children: a }) => {
+    const t = ha(),
+      s = ba(),
+      r = fa(),
+      n = ga(),
+      { model: i, controls: o } = lo(),
+      l = i.vehicleId.get(),
+      c = i.displayedVehicleId.get(),
+      [d, _] = e.useState(!1),
+      [u, m] = e.useState(!1),
+      p = H(() => {
+        (m(!0), t.open(), r.run(() => m(!1), va));
+      }),
+      h = H(() => {
+        (m(!0),
+          t.close(),
+          r.run(() => {
+            (_(!0),
+              o.setDisplayedVehicleId(io),
+              n.run(() => {
+                (m(!1), _(!1));
+              }));
+          }, va));
+      }),
+      b = H(() => {
+        (_(!0), o.setDisplayedVehicleId(l), n.run(() => _(!1)));
+      });
+    e.useEffect(() => {
+      s || i.computeds.empty() || t.opened || (o.reset(), h());
+    }, [t.opened]);
+    const f = H(() => {
+      n.isRunning ||
+        (t.opened || r.isRunning || l === c
+          ? t.opened || l === io || c === io
+            ? t.opened && l === io && c !== io && h()
+            : r.isRunning || p()
+          : b());
+    });
+    return (
+      e.useEffect(f, [f, l, c, t.opened, u, d]),
+      xa(() => {
+        i.computeds.empty() || o.reset();
+      }),
+      a
+    );
+  }),
+  Uo = (e) => `manageable-vehicle-playlists-model-${e}`,
+  Go = i(function ({ children: t, position: s, freeSpaceRem: r, tipSize: n }) {
+    const { model: i, controls: o } = lo(),
+      l = i.displayedVehicleId.get(),
+      c = wa("rem"),
+      d = H((e, { callerBounding: a }) => {
+        const t = e.trigger.bounding.get();
+        if (t && !Ca(t, a)) return (e.close(), !1);
+      }),
+      _ = i.vehicleId.get(),
+      u = i.computeds.isVehiclePlaylistsEmpty(),
+      m = ya(_);
+    return (
+      e.useEffect(() => {
+        u && m === io && _ !== io && (o.goToCreatePlaylist([_]), o.reset());
+      }, [m, _, u, o]),
+      u
+        ? null
+        : a.jsx(pa, {
+            id: Uo(l),
+            children: a.jsxs($o, {
+              children: [
+                a.jsx(pa.Portal, {
+                  paddingsRem: c,
+                  position: s,
+                  freeSpaceRem: r,
+                  onBeforePositionChange: d,
+                  children:
+                    l !== io &&
+                    a.jsxs(
+                      Ho,
+                      { vehicleId: l, tipSize: n, children: [a.jsx(zo, {}), a.jsx(Fo, {})] },
+                      l,
+                    ),
+                }),
+                t,
+              ],
+            }),
+          })
+    );
+  });
+const qo = "emptySlot",
+  Xo = "left",
+  Zo = "right",
+  Ko = "both",
+  Yo = "none",
+  Qo = 189,
+  Jo = 245,
+  el = {
+    default: { single: Qo, double: Qo },
+    breakpoints: {
+      medium: { single: 224 },
+      large: { single: Jo, double: Jo },
+      extraLarge: { single: 302 },
+    },
+  },
+  al = (e, a) => (e || a ? (e ? (a ? Yo : Zo) : Xo) : Ko),
+  tl = "Content_7ccb81a0",
+  sl = "Content_disabledOverlay_a8908196",
+  rl = "Content_base__disabled_da09528a",
+  nl = "Content_base__selected_da09528a",
+  il = "Content_base__empty_da09528a";
+function ol({ children: e, selected: s, disabled: r, empty: n }) {
+  return a.jsxs("div", {
+    "data-name": "Content",
+    className: t(tl, n && il, s && nl, r && rl),
+    children: [e, r && a.jsx("div", { className: sl })],
+  });
+}
+const ll = "Slot_977dd8f1",
+  cl = "Slot_base__wrapper_ae3081b5",
+  dl = "Slot_base__disabled_334cc10f",
+  _l = "Slot_base__empty_d386066c",
+  ul = "Slot_content_1a27c8cf",
+  ml = "Slot_base__active_71f19f5c",
+  pl = "Slot_base__selected_71f19f5c",
+  hl = "Slot_selected_6e9f21df",
+  bl = "Slot_selected__border_e2a17304",
+  fl = e.memo(function ({
+    children: e,
+    selected: s = !1,
+    disabled: r = !1,
+    active: n,
+    className: i,
+    ...o
+  }) {
+    const l = r || void 0 === o.onClick;
+    return a.jsx("div", {
+      ...o,
+      "data-name": "Slot",
+      className: t(ll, n && ml, s && pl, r && dl, l && _l, cl, i),
+      children: a.jsxs("div", {
+        className: ul,
+        children: [
+          a.jsx(ol, { selected: s, disabled: r, empty: l, children: e }),
+          s && a.jsx("div", { className: t(hl, bl) }),
+          a.jsx("div", { className: hl }),
+        ],
+      }),
+    });
+  }),
+  gl = { buySlot: "buySlot", buyTank: "buyTank", restoreTank: "restoreTank", rentTank: "rentTank" },
+  vl = {
+    [gl.buySlot]: "buy_slot",
+    [gl.buyTank]: "buy_vehicle_new",
+    [gl.restoreTank]: "restore_vehicle",
+    [gl.rentTank]: "wot_plus_slot",
+  },
+  xl = "ActionCards_wrapper_690d669a",
+  wl = "ActionCards_text_cdbc926",
+  Cl = "ActionCards_wrapper__double_70640c01",
+  yl = "ActionCards_content_a46de8cf",
+  jl = "ActionCards_content__buySlot_a70e9708",
+  Nl = "ActionCards_icon_f8219d70",
+  Sl = "ActionCards_contentIcon_166df330",
+  kl = "ActionCards_currency_ac7c654f",
+  Il = "ActionCards_discount_967a7825",
+  Pl = {
+    [ao]: "menu.tankCarousel.wotPlusSelectionPending",
+    [to]: "menu.tankCarousel.wotPlusSelectionAvailable",
+  },
+  Rl = i(function ({ type: e }) {
+    const s = no(),
+      r = s.model.slots.price.currency.get(),
+      n = s.model.slots.price.value.get(),
+      i = s.model.slots.free.get(),
+      o = s.model.slots.recover.get(),
+      l = s.model.slots.discount.get(),
+      c = s.model.telecomRentStatus.get();
+    if (e === gl.buySlot)
+      return a.jsx("div", {
+        className: kl,
+        children: a.jsx(ja, {
+          type: Na.currency,
+          size: ce.extraSmall,
+          enabled: l,
+          classNames: { icon: Il },
+          children: a.jsx(_e, {
+            type: r,
+            size: ce.extraSmall,
+            reverse: !0,
+            classNames: { base: t(yl, jl), icon: Sl },
+            children: n,
+          }),
+        }),
+      });
+    if (e === gl.rentTank) {
+      const e = Pl[c];
+      return e ? a.jsx(Sa, { className: wl, upgradeLegacy: !0, path: e }) : null;
+    }
+    return a.jsxs("div", {
+      className: yl,
+      children: [
+        e === gl.buyTank &&
+          a.jsx(Sa, {
+            upgradeLegacy: !0,
+            path: "menu.tankCarousel.vehicleStates.buyTankEmptyCount",
+            params: { count: i },
+          }),
+        e === gl.restoreTank &&
+          a.jsx(Sa, {
+            upgradeLegacy: !0,
+            path: "menu.tankCarousel.vehicleStates.restoreTankCount",
+            params: { count: o },
+          }),
+      ],
+    });
+  });
+function Bl({ type: s, width: r, height: n, doubleRow: i, className: o }) {
+  const l = no(),
+    c = q(),
+    d = l.model.slots.price.value.get(),
+    _ = l.model.slots.price.defaultValue.get(),
+    u = l.model.slots.discount.get();
+  l.model.telecomRentStatus.get();
+  const m = S.resolve("strings"),
+    p = fe(`hangar.carousel.actionCards.x48x48.${s}`, `hangar.carousel.actionCards.x96x96.${s}`),
+    h = ka({
+      header: m.readOrEmpty(`tooltips.tanks_carousel.${vl[s]}.header`),
+      body: m.readOrEmpty(`tooltips.tanks_carousel.${vl[s]}.body`),
+    }),
+    b = Ia(
+      "actionSlotPrice",
+      e.useMemo(() => [[d], [_]], [d, _]),
+      e.useMemo(() => ({ disabled: !u }), [u]),
+    ),
+    f = u && vl[s] === vl.buySlot ? b : h;
+  return a.jsx(fl, {
+    ...f,
+    className: o,
+    style: { width: void 0 !== r ? `${r}px` : void 0, height: void 0 !== n ? `${n}px` : void 0 },
+    "data-test-id": s,
+    onClick: function (e) {
+      (f.onClick(), c.play("click", { target: "vehicle:action-cards", original: e }));
+      const a = {
+        [gl.buySlot]: l.controls.buySlot,
+        [gl.buyTank]: l.controls.goBuyVehicle,
+        [gl.restoreTank]: l.controls.goRecoverVehicle,
+        [gl.rentTank]: l.controls.selectTelecomRentalVehicle,
+      }[s];
+      if ("function" != typeof a)
+        return console.error(`Unknown action type ${s} in ${Bl.name} handleClick`);
+      a();
+    },
+    onMouseEnter: function (e) {
+      (f.onMouseEnter(e), c.play("mouse-enter", { target: "vehicle:action-cards", original: e }));
+    },
+    children: a.jsxs("div", {
+      className: t(xl, i && Cl),
+      children: [
+        a.jsx(Pa, {
+          className: Nl,
+          path: `hangar.carousel.actionCards.x32x32.${s}`,
+          adaptive: { medium: { path: p } },
+        }),
+        a.jsx("div", {
+          className: wl,
+          children: a.jsx(Sa, { path: `menu.tankCarousel.vehicleStates.${s}` }),
+        }),
+        a.jsx(Rl, { type: s }),
+      ],
+    }),
+  });
+}
+const Al = "undamaged",
+  El = "54033",
+  Tl = "50705",
+  Ll = "56833",
+  Dl = "51201",
+  Ol = { [El]: "alpha", [Tl]: "alpha", [Dl]: "super", [Ll]: "super" },
+  Wl = "ammoNotFull",
+  Ml = "crewNotFull",
+  Vl = "exploded",
+  zl = "destroyed",
+  Fl = "damaged",
+  Hl = "rentable",
+  $l = "rentableAgain",
+  Ul = "rentalIsOver",
+  Gl = "tooHeavy",
+  ql = "unsuitableToQueue",
+  Xl = "unsuitableToUnit",
+  Zl = "inPrebattle",
+  Kl = "battle",
+  Yl = "wot_plus_exclusive_vehicle_disabled",
+  Ql = {
+    [Wl]: "ammo",
+    [Ml]: "crew",
+    [Vl]: "repair",
+    [zl]: "repair",
+    [Fl]: "repair",
+    [Hl]: "rental",
+    [$l]: "rental",
+    [Ul]: "rental",
+    [Gl]: "notSuitable",
+    [ql]: "notSuitable",
+    [Xl]: "notSuitable",
+    [Zl]: "inPlatoon",
+    [Kl]: "inBattle",
+    [Yl]: "notSuitable",
+  };
+function Jl(e, a, t) {
+  return !(!e || a === Ei || !t) && t.status !== ql && t.maxBpScore > 0;
+}
+function ec(e) {
+  return e > 2;
+}
+const [ac, tc, sc] = L()(({ observableModel: e }) => ({
+    ...e.primitives(["isCrystalEarnEnabled", "isDailyMultipliedXpEnabled", "isInfiniteAmmo"]),
+  })),
+  rc = () => e.useContext(sc.Context),
+  nc = {
+    base: "ProBoost_7490b440",
+    arrow: "ProBoost_arrow_346b5e61",
+    glow: "ProBoost_glow_280ac9aa",
+    base__double: "ProBoost_base__double_b53eea3f",
+    base__active: "ProBoost_base__active_7b71aa2e",
+    corner: "ProBoost_corner_9f13801e",
+    base__activating: "ProBoost_base__activating_7b71aa2e",
+    triangle: "ProBoost_triangle_ae0f2fba",
+    triangle__1: "ProBoost_triangle__1_1cb04326",
+    triangle__2: "ProBoost_triangle__2_39aff7fd",
+    triangle__3: "ProBoost_triangle__3_e738f7f2",
+    base__deactivating: "ProBoost_base__deactivating_7b71aa2e",
+  },
+  ic = {
+    inactive: nc.base__inactive,
+    activating: nc.base__activating,
+    active: nc.base__active,
+    deactivating: nc.base__deactivating,
+  };
+function oc({ className: e, doubleRow: s, state: r = "inactive", isCornerHidden: n = !1 }) {
+  return "inactive" === r
+    ? null
+    : a.jsxs("div", {
+        className: t(nc.base, r && ic[r], s && nc.base__double, e),
+        children: [
+          a.jsx("div", { className: nc.glow }),
+          !n && a.jsx("div", { className: nc.corner }),
+          a.jsx("div", { className: nc.arrow }),
+          [nc.triangle__1, nc.triangle__2, nc.triangle__3].map((e) =>
+            a.jsx("div", { className: t(nc.triangle, e) }, e),
+          ),
+        ],
+      });
+}
+const lc = "Background_1089bc1c",
+  cc = "Background_wotPlus_3cf6035a",
+  dc = "Background_crystal_6112fa42",
+  _c = "Background_bpBonus_cf76872",
+  uc = "Background_multiplier_284cda6c",
+  mc = "Background_flag_beb58b8",
+  pc = "Background_base__double_26effab7",
+  hc = "Background_flag__active_de322c1b",
+  bc = "Background_vehicle_23ef6e2b",
+  fc = "Background_vehicle__dimmed_7f14a6c7",
+  gc = "Background_crystal__limit_61072361",
+  vc = Ra("Favorite", "Background_favorite_d98f92cc", {
+    variants: { active: { true: "Background_favorite__active_7f14a6c7" } },
+  });
+function xc({ nationId: e, selected: s, active: r, className: n }) {
+  return a.jsx(Pa, {
+    className: t(mc, s || (r && hc), n),
+    path: `hangar.carousel.cards.flags.x400x300.${Ue(e)}`,
+    position: "top left",
+  });
+}
+const wc = i(function ({ vehicle: s, statistic: r, validBP: n, doubleRow: i, classNames: o }) {
+  var l;
+  const c = null == (l = rc()) ? void 0 : l.model,
+    d = (null == c ? void 0 : c.isCrystalEarnEnabled.get()) ?? !0,
+    _ =
+      (Be((null == r ? void 0 : r.numberOfCrystalEarned) ?? [], 1) ?? 0) <=
+      (Be((null == r ? void 0 : r.numberOfCrystalEarned) ?? [], 0) ?? 0),
+    u = null == r ? void 0 : r.proBoostActive,
+    m = null == r ? void 0 : r.fromWotPlus,
+    p = d && s.crystalEarning && !m,
+    h = ya(u),
+    b =
+      ((null == c ? void 0 : c.isDailyMultipliedXpEnabled.get()) ?? !0) &&
+      ec(Number(null == r ? void 0 : r.bonusMultiplier)),
+    f = e.useMemo(
+      () => (u ? (!1 === h ? "activating" : "active") : h ? "deactivating" : "inactive"),
+      [u, h],
+    );
+  return a.jsxs(a.Fragment, {
+    children: [
+      m && a.jsx("div", { className: t(cc, null == o ? void 0 : o.wotPlus) }),
+      a.jsx(oc, {
+        state: f,
+        className: null == o ? void 0 : o.proBoostIcon,
+        doubleRow: i,
+        isCornerHidden: p,
+      }),
+      p && a.jsx("div", { className: t(dc, _ && gc, null == o ? void 0 : o.crystal) }),
+      (null == r ? void 0 : r.bpSpecial) &&
+        n &&
+        a.jsx("div", { className: t(_c, null == o ? void 0 : o.bpBonus) }),
+      b && a.jsx("div", { className: uc }),
+    ],
+  });
+});
+function Cc({
+  vehicle: e,
+  validBP: s,
+  dimmed: r,
+  active: n,
+  statistic: i,
+  selected: o,
+  doubleRow: l,
+  ...c
+}) {
+  return a.jsxs("div", {
+    ...c,
+    className: t(lc, l && pc, c.className),
+    children: [
+      a.jsx(xc, { nationId: e.nationId, active: n, selected: o }),
+      a.jsx(Ba, {
+        className: t(bc, (((null == i ? void 0 : i.status) && i.status !== Al) || r) && fc),
+        name: e.name,
+      }),
+      a.jsx(wc, { vehicle: e, statistic: i, validBP: s, doubleRow: l }),
+      a.jsx(vc, { active: e.favorite }),
+    ],
+  });
+}
+const yc = "Bonuses_8169b4b3",
+  jc = "Bonuses_bonus_91f120c3",
+  Nc = "Bonuses_bonus__active_2364401e",
+  Sc = "Bonuses_bonusIcon_b65fb47f",
+  kc = "Bonuses_bonusValue_322db074",
+  Ic = "Bonuses_bonusValue__highlighted_4bcc07c6",
+  Pc = "Bonuses_rent_ea11a7e4",
+  Rc = "Bonuses_base__double_ca1cd57b",
+  Bc = "Bonuses_icon_3991db74",
+  Ac = "Bonuses_text_a556857c",
+  Ec = S.resolve("strings");
+function Tc({
+  bonusMultiplier: e,
+  vehicleId: s,
+  restBonusEnabled: r,
+  className: n,
+  classNames: i,
+}) {
+  const o = ec(e),
+    l = Ea({
+      resId: R.aliases.hangar.shared.VehiclesStatistics("resId"),
+      contentId: R.views.mono.rest_bonus.tooltips.rest_bonus_tooltip("resId"),
+      args: { intCD: s },
+      disabled: !r,
+    });
+  return a.jsxs("div", {
+    className: t(jc, -1 !== e && Nc, n),
+    ...l,
+    children: [
+      a.jsx("div", { className: t(Sc, null == i ? void 0 : i.icon) }),
+      a.jsx("div", {
+        className: t(kc, null == i ? void 0 : i.value, o && Ic),
+        children: `${Ec.readOrEmpty("common.multiplierSmall")}${e}`,
+      }),
+    ],
+  });
+}
+const Lc = i(function ({ vehicle: e, statistic: s, doubleRow: r, ...n }) {
+    var i;
+    const o = (null == (i = rc()) ? void 0 : i.model.isDailyMultipliedXpEnabled.get()) ?? !0;
+    return a.jsxs("div", {
+      ...n,
+      className: t(yc, r && Rc, n.className),
+      children: [
+        o &&
+          s &&
+          a.jsx(Tc, {
+            bonusMultiplier: s.bonusMultiplier,
+            vehicleId: e.vehicleId,
+            restBonusEnabled: s.restBonusEnabled,
+          }),
+        a.jsx(Aa.ShortCounter, {
+          time: e.rent.leftTime,
+          wins: e.rent.leftWins,
+          battles: e.rent.leftBattles,
+          classNames: { base: Pc, icon: Bc, text: Ac },
+        }),
+      ],
+    });
+  }),
+  Dc = {
+    base: "Information_dd628d50",
+    info: "Information_info_b2948982",
+    details: "Information_details_e5340a0c",
+    base__double: "Information_base__double_6e8d4f26",
+    text: "Information_text_a2b2c19b",
+    text__level: "Information_text__level_e5a9014e",
+    text__premium: "Information_text__premium_741ebb2f",
+    truncatedText: "Information_truncatedText_ede7ae03",
+    battlePass: "Information_battlePass_63749625",
+    battlePass__bonus: "Information_battlePass__bonus_6e8d4f26",
+    battlePass__active: "Information_battlePass__active_960b5eed",
+    bpPoints: "Information_bpPoints_21ee2e63",
+    points: "Information_points_b67585b1",
+    points__slash: "Information_points__slash_b8c7004e",
+    bpShadow: "Information_bpShadow_4248ba9f",
+    bpIcon: "Information_bpIcon_a622154",
+    prestige: "Information_prestige_95cc4ef2",
+    prestige__active: "Information_prestige__active_960b5eed",
+    identifier: "Information_identifier_1bcd619a",
+    identifier__changeNation: "Information_identifier__changeNation_665b13a2",
+    identifier__alpha: "Information_identifier__alpha_6e8d4f26",
+    identifier__super: "Information_identifier__super_46b1ed0d",
+    identifier__rent: "Information_identifier__rent_1fba5dce",
+    identifierIcon: "Information_identifierIcon_3636b34b",
+    identifierIcon__alpha: "Information_identifierIcon__alpha_ddf4d235",
+    identifierIcon__super: "Information_identifierIcon__super_34b8f5c2",
+    identifierIcon__changeNation: "Information_identifierIcon__changeNation_dfee83c8",
+    fadeInWithScale: "Information_fadeInWithScale_6e8d4f26",
+    slideUp: "Information_slideUp_6e8d4f26",
+    blink: "Information_blink_6e8d4f26",
+    scale: "Information_scale_6e8d4f26",
+    rotate: "Information_rotate_6e8d4f26",
+    windowIn: "Information_windowIn_6e8d4f26",
+    fadeOut: "Information_fadeOut_6e8d4f26",
+    fadeIn: "Information_fadeIn_6e8d4f26",
+  },
+  Oc = Ra("VehicleName", {
+    element: (e) => a.jsx(_a.Name, { ...e }),
+    className: Dc.text,
+    cva: { variants: { premium: { true: Dc.text__premium } } },
+  });
+function Wc({ statistic: e, vehicle: s, className: r, status: n }) {
+  const i = S.resolve("views"),
+    o = S.resolve("aliases"),
+    l = S.resolve("strings"),
+    c = Ea({
+      resId: o.read((e) => e.hangar.shared.VehiclesStatistics("resId")),
+      contentId: i.read((e) =>
+        "paused" !== n
+          ? e.mono.battle_pass.tooltips.vehicle_bp_points("resId")
+          : e.mono.battle_pass.tooltips.on_pause("resId"),
+      ),
+      args: { intCD: null == s ? void 0 : s.vehicleId },
+    });
+  return a.jsxs("div", {
+    className: t(
+      Dc.battlePass,
+      e.maxBpScore > 0 && Dc.battlePass__active,
+      e.bpSpecial && Dc.battlePass__bonus,
+      r,
+    ),
+    onMouseEnter: function (e) {
+      null == c || c.onMouseEnter(e);
+    },
+    onMouseLeave: function (e) {
+      null == c || c.onMouseLeave();
+    },
+    children: [
+      a.jsxs("div", {
+        className: Dc.bpPoints,
+        children: [
+          a.jsx("div", {
+            className: Dc.points,
+            children: Ta.formatNumber("integral", e.bpProgress),
+          }),
+          a.jsx("div", {
+            className: t(Dc.points, Dc.points__slash),
+            children: l.readOrEmpty("common.common.slash"),
+          }),
+          a.jsx("div", {
+            className: Dc.points,
+            children: Ta.formatNumber("integral", e.maxBpScore),
+          }),
+          a.jsx("div", { className: Dc.bpShadow }),
+        ],
+      }),
+      a.jsx("div", { className: Dc.bpIcon }),
+    ],
+  });
+}
+function Mc({ statistic: e, elite: s, vehicle: r, selected: n, classNames: i, className: o }) {
+  return a.jsxs("div", {
+    className: t(Dc.details, o),
+    children: [
+      e &&
+        a.jsx(_a.Prestige, {
+          level: e.prestigeLevel,
+          grade: e.prestigeGrade,
+          type: e.prestigeType,
+          direction: La.left,
+          className: t(Dc.prestige, n && Dc.prestige__active, null == i ? void 0 : i.prestige),
+        }),
+      a.jsx(_a.Level, {
+        className: t(Dc.text, Dc.text__level, null == i ? void 0 : i.level),
+        value: r.level,
+      }),
+      ua(r.type) &&
+        a.jsx(_a.Type, {
+          type: r.type,
+          premium: s || (null == e ? void 0 : e.elite),
+          size: _a.Type.sizes.x24x24,
+          className: null == i ? void 0 : i.type,
+        }),
+    ],
+  });
+}
+function Vc({ vehicle: e, className: s, classNames: r }) {
+  const n = Ol[e.id],
+    i = e.nationChangeAvailable,
+    o = e.rent.leftTime > 0 || e.rent.leftWins > 0 || e.rent.leftBattles > 0;
+  return a.jsxs("div", {
+    className: t(
+      Dc.identifier,
+      Dc[`identifier__${n}`],
+      i && Dc.identifier__changeNation,
+      o && Dc.identifier__rent,
+      s,
+    ),
+    children: [
+      a.jsx(Oc, {
+        className: null == r ? void 0 : r.name,
+        premium: e.premium,
+        children: a.jsx(la, { className: Dc.truncatedText, text: e.shortName }),
+      }),
+      (n || i) &&
+        a.jsx("div", {
+          className: t(
+            Dc.identifierIcon,
+            Dc[`identifierIcon__${n}`],
+            i && Dc.identifierIcon__changeNation,
+            null == r ? void 0 : r.icon,
+          ),
+        }),
+    ],
+  });
+}
+const zc = i(function ({ vehicle: e, statistic: s, selected: r, doubleRow: n, ...i }) {
+    const o = no(),
+      l = o.model.bpState.active.get(),
+      c = o.model.bpState.status.get();
+    return a.jsxs("div", {
+      ...i,
+      className: t(Dc.base, n && Dc.base__double, i.className),
+      children: [
+        s && Jl(l, c, s) && a.jsx(Wc, { vehicle: e, statistic: s, status: c }),
+        a.jsxs(_a, {
+          className: Dc.info,
+          children: [
+            a.jsx(Mc, { vehicle: e, statistic: s, selected: r }),
+            a.jsx(Vc, { vehicle: e }),
+          ],
+        }),
+      ],
+    });
+  }),
+  Fc = {
+    base: "Overlay_ef16c91",
+    alert: "Overlay_alert_db4a0e15",
+    alertIcon: "Overlay_alertIcon_3d7c077a",
+    base__double: "Overlay_base__double_3c7155a",
+    alertText: "Overlay_alertText_ca764641",
+    alertText__light: "Overlay_alertText__light_bece984e",
+  };
+function Hc({ status: e, classNames: s, className: r }) {
+  const n = S.resolve("images"),
+    i = fe(
+      `hangar.carousel.cards.alerts.${Ql[e]}`,
+      `hangar.carousel.cards.alerts.${Ql[e]}_upscale`,
+    ),
+    o = fe(
+      "hangar.carousel.cards.alerts.notSuitable",
+      "hangar.carousel.cards.alerts.notSuitable_upscale",
+    ),
+    l = e === Kl || e === Zl;
+  return a.jsxs("div", {
+    className: t(Fc.alert, r),
+    children: [
+      a.jsx(Pa, {
+        className: t(Fc.alertIcon, null == s ? void 0 : s.icon),
+        path: n.has(i) ? i : o,
+      }),
+      a.jsx(Sa, {
+        upgradeLegacy: !0,
+        className: t(Fc.alertText, l && Fc.alertText__light, null == s ? void 0 : s.text),
+        path: `menu.tankCarousel.vehicleStates.${e}`,
+        params: { icon: a.jsx(Pa, { path: "library.premium_small", width: 34, height: 16 }) },
+      }),
+    ],
+  });
+}
+function $c({ statistic: e, doubleRow: s, ...r }) {
+  return e.status === Al
+    ? null
+    : a.jsx("div", {
+        ...r,
+        className: t(Fc.base, s && Fc.base__double, r.className),
+        children: a.jsx(Hc, { status: e.status }),
+      });
+}
+Ra("Disable", Fc.disable);
+const Uc = "Card_e79008fd",
+  Gc = "Card_base__double_f8b7f334",
+  qc = "Card_content_a6141b08",
+  Xc = "Card_border_e9cb9a85",
+  Zc = S.resolve("views"),
+  Kc = S.resolve("aliases"),
+  Yc = i(function ({
+    vehicleId: e,
+    selected: s = !1,
+    doubleRow: r,
+    children: n,
+    concurrent: i,
+    ...o
+  }) {
+    const l = no(),
+      c = Wi().model.get(e),
+      d = Di().model.get(e),
+      _ = q(),
+      u = l.model.current.inventoryId.get(),
+      m = l.model.prebattleModeActive(),
+      p = l.model.bpState.active.get(),
+      h = l.model.bpState.status.get();
+    if (!c || !d) return a.jsx(fl, { ...o });
+    const b = i ? Qc : Cc;
+    return a.jsxs(fl, {
+      ...o,
+      className: t("vehicle-card", o.className),
+      selected: s,
+      "data-test-id": `vehicleCard-${e}`,
+      onMouseEnter: function (e) {
+        var a;
+        (_.play("mouse-enter", { target: "vehicle-card", original: e }),
+          null == (a = o.onMouseEnter) || a.call(o, e));
+      },
+      onMouseLeave: function (e) {
+        var a;
+        null == (a = o.onMouseLeave) || a.call(o, e);
+      },
+      onClick: function (e) {
+        var a;
+        m ||
+          (c && c.inventoryId === u) ||
+          (_.play("click", { target: "vehicle-card", original: e }),
+          l.controls.select(c.inventoryId),
+          null == (a = o.onClick) || a.call(o, e));
+      },
+      children: [
+        a.jsx(b, {
+          vehicle: c,
+          validBP: Jl(p, h, d),
+          dimmed: m,
+          statistic: d,
+          selected: s,
+          doubleRow: r,
+        }),
+        a.jsx(Jc, {
+          concurrent: i,
+          statistic: d,
+          vehicle: c,
+          selected: s,
+          disableContextMenu: m,
+          doubleRow: r,
+        }),
+      ],
+    });
+  });
+function Qc(t) {
+  const [s, r] = e.useState(!0),
+    [, n] = e.useTransition();
+  return (
+    e.useEffect(() => {
+      s && n(() => r(!1));
+    }, [s]),
+    s ? null : a.jsx(Cc, { ...t })
+  );
+}
+function Jc({
+  vehicle: s,
+  statistic: r,
+  selected: n,
+  doubleRow: i,
+  concurrent: o,
+  disableContextMenu: l,
+}) {
+  const [c, d] = e.useState(o),
+    [, _] = e.useTransition(),
+    u = Da(
+      "vehicle",
+      e.useMemo(
+        () => ({ inventoryId: null == s ? void 0 : s.inventoryId }),
+        [null == s ? void 0 : s.inventoryId],
+      ),
+    ),
+    m = Ea({
+      resId: Kc.read((e) => e.hangar.shared.VehiclesInventory("resId")),
+      contentId: Zc.read((e) => e.mono.hangar.vehicle_tooltip("resId")),
+      args: w.useMemo(
+        () => ({ inventoryId: null == s ? void 0 : s.inventoryId }),
+        [null == s ? void 0 : s.inventoryId],
+      ),
+    });
+  return (
+    e.useEffect(() => {
+      c && _(() => d(!1));
+    }, [c]),
+    c
+      ? null
+      : a.jsxs("div", {
+          ...m,
+          ...(!l && u),
+          className: t(Uc, i && Gc),
+          children: [
+            a.jsxs("div", {
+              className: qc,
+              children: [
+                a.jsx(zc, { vehicle: s, selected: n, statistic: r, doubleRow: i }),
+                a.jsx(Lc, { vehicle: s, statistic: r, doubleRow: i }),
+              ],
+            }),
+            a.jsx($c, { statistic: r, doubleRow: i }),
+          ],
+        })
+  );
+}
+const ed = {
+  empty: "ActiveSlots_empty_9aab1ce1",
+  doubleSlots: "ActiveSlots_doubleSlots_2ce42013",
+  slot__double: "ActiveSlots_slot__double_e321ab18",
+};
+function ad({ width: e, className: t }) {
+  return a.jsx("div", {
+    className: ed.empty,
+    children: a.jsx(fl, {
+      className: t,
+      style: { width: `${e}px` },
+      children: a.jsx("div", { className: ed.vehicleSlot }),
+    }),
+  });
+}
+function td({ slotId: s, width: r, currentVehicleId: n, double: i, className: o }) {
+  const l = (function (a) {
+    const t = _o(),
+      s = Boolean(t && t.model.computeds.enabled()),
+      r = !t || t.model.computeds.isVehiclePlaylistsEmpty(),
+      n = H(() => {
+        s && !r && t.model.vehicleId.get() === a && t.controls.reset();
+      });
+    return e.useMemo(() => {
+      if (s && !r) return { "data-popover-trigger-id": Uo(a), onMouseDown: n };
+    }, [r, s, n, a]);
+  })(Number(s));
+  return void 0 === s
+    ? null
+    : s in gl
+      ? a.jsx(Bl, { className: t(Xc, o), type: s, width: r, doubleRow: i })
+      : "emptySlot" === s
+        ? a.jsx(ad, { className: t(Xc, o), width: r })
+        : a.jsx(Yc, {
+            ...l,
+            vehicleId: s,
+            selected: s === n,
+            doubleRow: i,
+            className: t(Xc, o),
+            style: { width: r },
+          });
+}
+function sd({ chunkedSlots: e, classNames: s, ...r }) {
+  return void 0 === e
+    ? null
+    : a.jsx("div", {
+        className: ed.doubleSlots,
+        children: e.map((e, n) =>
+          a.jsx(
+            td,
+            { ...r, slotId: e, className: t(ed.slot__double, null == s ? void 0 : s.slot) },
+            n,
+          ),
+        ),
+      });
+}
+const rd = {
+  button: "ArrowButton_button_7654af94",
+  icon: "ArrowButton_icon_35e5294f",
+  button__left: "ArrowButton_button__left_5327085d",
+  background: "ArrowButton_background_5327085d",
+  border: "ArrowButton_border_5327085d",
+  overlay: "ArrowButton_overlay_c36cbc33",
+  content: "ArrowButton_content_4666fd05",
+  button__right: "ArrowButton_button__right_5327085d",
+  fadeInWithScale: "ArrowButton_fadeInWithScale_5327085d",
+  slideUp: "ArrowButton_slideUp_5327085d",
+  blink: "ArrowButton_blink_5327085d",
+  scale: "ArrowButton_scale_5327085d",
+  rotate: "ArrowButton_rotate_5327085d",
+  windowIn: "ArrowButton_windowIn_5327085d",
+  fadeOut: "ArrowButton_fadeOut_5327085d",
+  fadeIn: "ArrowButton_fadeIn_5327085d",
+};
+function nd({ direction: e, className: s, ...r }) {
+  return a.jsx(P, {
+    ...r,
+    classNames: {
+      base: t(rd.button, rd[`button__${e}`], s),
+      background: rd.background,
+      border: rd.border,
+      overlay: rd.overlay,
+      content: rd.content,
+    },
+    theme: P.themes.secondary,
+    size: P.sizes.small,
+    autoAlignContent: !1,
+    soundTarget: "carousel:arrow_button",
+    children: a.jsx(Pa, { path: "hangar.carousel.buttonArrow", className: rd.icon }),
+  });
+}
+nd.direction = { right: "right", left: "left" };
+const id = {
+  navButtonWrapper: "CarouselNavButtons_navButtonWrapper_a13c2a68",
+  navButton: "CarouselNavButtons_navButton_adcc2e9b",
+  navButton__left: "CarouselNavButtons_navButton__left_5f6dc3a0",
+  navButton__right: "CarouselNavButtons_navButton__right_66b4f03f",
+  navButton__hidden: "CarouselNavButtons_navButton__hidden_69011a0b",
+  mask: "CarouselNavButtons_mask_17bb1a0e",
+  mask__both: "CarouselNavButtons_mask__both_7294632e",
+  mask__left: "CarouselNavButtons_mask__left_e8bc4c90",
+  mask__right: "CarouselNavButtons_mask__right_6be519f7",
+  fadeInWithScale: "CarouselNavButtons_fadeInWithScale_3f67251c",
+  slideUp: "CarouselNavButtons_slideUp_3f67251c",
+  blink: "CarouselNavButtons_blink_3f67251c",
+  scale: "CarouselNavButtons_scale_3f67251c",
+  rotate: "CarouselNavButtons_rotate_3f67251c",
+  windowIn: "CarouselNavButtons_windowIn_3f67251c",
+  fadeOut: "CarouselNavButtons_fadeOut_3f67251c",
+  fadeIn: "CarouselNavButtons_fadeIn_3f67251c",
+};
+function od(e) {
+  return ({ button: a }) => {
+    0 === a && e();
+  };
+}
+function ld({ itemWidth: s, api: r, children: n }) {
+  const i = e.useRef(null),
+    [o, l] = e.useState(!1),
+    { applyScroll: c, animationScroll: d, disabled: _ } = r,
+    [u, m] = ne(r),
+    p = u || _,
+    h = m || _;
+  function b(e) {
+    function a() {
+      const a = d.scrollPosition.get();
+      c(a + e * s);
+    }
+    o || (a(), (i.current = window.setInterval(a, 100)), l(!0));
+  }
+  function f() {
+    (null !== i.current && (clearInterval(i.current), (i.current = null)), l(!1));
+  }
+  return a.jsxs("div", {
+    className: id.navButtonWrapper,
+    children: [
+      a.jsx(nd, {
+        direction: nd.direction.left,
+        onMouseDown: od(() => b(-1)),
+        onMouseUp: f,
+        onMouseLeave: f,
+        className: t(id.navButton, id.navButton__left, p && id.navButton__hidden),
+      }),
+      a.jsx("div", { className: t(id.mask, id[`mask__${al(u, m)}`]), children: n }),
+      a.jsx(nd, {
+        direction: nd.direction.right,
+        onMouseDown: od(() => b(1)),
+        onMouseUp: f,
+        onMouseLeave: f,
+        className: t(id.navButton, id.navButton__right, h && id.navButton__hidden),
+      }),
+    ],
+  });
+}
+const cd = { base: "CarouselScroll_3690a837", areaContent: "CarouselScroll_areaContent_f5dd7772" },
+  dd = "dragging",
+  _d = "idle";
+function ud({
+  api: s,
+  children: r,
+  className: n,
+  areaClassNames: i,
+  staticContent: o,
+  disabled: l,
+  onDraggingState: c,
+}) {
+  const { animationScroll: d, applyScroll: _, setDisabled: u } = s,
+    m = Wa(s, Ma.horizontal, void 0, { gapBeforeStart: 5 });
+  return (
+    e.useEffect(() => {
+      null == c || c(m.type === dd);
+    }, [m.type, c]),
+    e.useEffect(() => {
+      u(l);
+    }, [l, u]),
+    e.useEffect(
+      () =>
+        Va(() => {
+          m.type === _d && d.scrollPosition.idle && _(d.scrollPosition.get());
+        }),
+      [d.scrollPosition, m, _],
+    ),
+    a.jsx("div", {
+      className: t(cd.base, n),
+      children: a.jsxs(za, {
+        className: null == i ? void 0 : i.base,
+        classNames: {
+          wrapper: t(cd.areaWrapper, null == i ? void 0 : i.wrapper),
+          content: t(cd.areaContent, null == i ? void 0 : i.content),
+        },
+        children: [r, o],
+      }),
+    })
+  );
+}
+const md = "CarouselSkeleton_1ac002e3",
+  pd = "CarouselSkeleton_content_b18f8dd7",
+  hd = "CarouselSkeleton_scroll_badf82c7";
+function bd(e) {
+  return a.jsx("div", { ...e, className: t(pd, e.className) });
+}
+function fd({
+  api: e,
+  widthElement: s,
+  totalElements: r,
+  disabled: n,
+  onDraggingState: i,
+  renderElement: o,
+  classNames: l,
+}) {
+  return a.jsx("div", {
+    className: t(md, null == l ? void 0 : l.base),
+    children: a.jsx(ld, {
+      api: e,
+      itemWidth: s,
+      children: a.jsx(Fa, {
+        api: e,
+        elementWidth: s - Oa(1),
+        direction: "horizontal",
+        totalElements: r,
+        wrappers: { Content: bd },
+        className: t(hd, null == l ? void 0 : l.scroll),
+        renderScroll: (t) =>
+          a.jsx(ud, { ...t, api: e, disabled: n, onDraggingState: i, children: t.children }),
+        renderElement: (e) =>
+          o ? o(e) : a.jsx(ad, { className: null == l ? void 0 : l.element, width: s }),
+      }),
+    }),
+  });
+}
+function gd(a, t, s, r) {
+  return e.useMemo(() => {
+    if (!t) return { activeSlotsAmount: 0, activeSlotsIds: [] };
+    const e = ((e, a) => ({
+        left: [...(a != so ? [gl.rentTank] : [])],
+        right: [gl.buyTank, ...(e > 0 ? [gl.restoreTank] : []), gl.buySlot],
+      }))(s, r),
+      n = a.length + e.right.length + e.left.length,
+      i = Math.max(0, t - n);
+    return {
+      activeSlotsAmount: n,
+      activeSlotsIds: [...e.left, ...a, ...e.right, ...Array(i).fill(qo)],
+    };
+  }, [s, a, t, r]);
+}
+function vd({ api: a, carouselRows: t }) {
+  const s = (function (e) {
+      const a = k(el.default, el.breakpoints);
+      return Oa(2 === e ? a.double : a.single);
+    })(t),
+    [r, n] = e.useState({ carouselRows: 0, cardWidth: 0, visibleSlots: 0 });
+  return (
+    e.useLayoutEffect(() => {
+      function e() {
+        const e = a.getWrapperSize();
+        e &&
+          n(
+            2 !== t
+              ? { visibleSlots: Math.ceil(e / s), cardWidth: s, carouselRows: t }
+              : { visibleSlots: Math.ceil((e / s) * t), cardWidth: s, carouselRows: t },
+          );
+      }
+      e();
+      return new X().add(a.events.on("resizeHandled", e)).add(a.events.on("recalculateContent", e))
+        .dispose;
+    }, [a, s, t]),
+    r
+  );
+}
+const xd = "Carousel_draggingOverlay_2ac699b0",
+  wd = "Carousel_9b3e04da",
+  Cd = "Carousel_base__visible_24d53d12",
+  yd = "Carousel_card_5449ec9a",
+  jd = "Carousel_card__inactive_c59331d9";
+i(function () {
+  const s = _o(),
+    [r, n] = e.useState(!1),
+    { api: i } = Ha(),
+    o = no(),
+    l = Ai().model.carouselRowCount.get(),
+    c = o.model.prebattleModeActive(),
+    d = o.model.telecomRentStatus.get(),
+    _ = o.model.current.ids(),
+    u = o.model.current.list(),
+    m = o.model.selectedVehicle(),
+    p = null == m ? void 0 : m.id,
+    { currentIndex: h } = (function (a, t) {
+      return e.useMemo(() => {
+        if (!t) return { currentIndex: -1, currentPosition: -1 };
+        const e = a.indexOf(t);
+        return { currentIndex: e, currentPosition: e >= 0 ? e + 1 : -1 };
+      }, [a, t]);
+    })(_, p),
+    b = ya(p),
+    f = o.model.slots.recover.get(),
+    { carouselRows: g, cardWidth: v, visibleSlots: x } = vd({ api: i, carouselRows: l }),
+    { activeSlotsAmount: w, activeSlotsIds: y } = gd(_, x, f, d),
+    j =
+      ((N = y),
+      e.useMemo(() => {
+        var e, a;
+        const t = [];
+        for (let s = 0; s < N.length; s += 2) t.push(N.slice(s, s + 2));
+        return (
+          1 === (null == (e = t.at(-1)) ? void 0 : e.length) &&
+            (null == (a = t.at(-1)) || a.push(qo)),
+          t
+        );
+      }, [N]));
+  var N;
+  (e.useEffect(() => {
+    const e = $a(500, !0, () =>
+      Ua.contextMenu.hide(
+        0,
+        S.resolve("aliases").read((e) => e.common.contextMenu.Backport("resId")),
+      ),
+    );
+    return (
+      i.events.on("change", e),
+      () => {
+        (e.cancel(), i.events.off("change", e));
+      }
+    );
+  }, [i]),
+    (function (a, t, s, r, n, i) {
+      const o = e.useRef(null);
+      e.useLayoutEffect(() => {
+        function e() {
+          const e = a.getWrapperSize(),
+            l = a.animationScroll.scrollPosition.get();
+          if (!e) return;
+          i && a.applyScroll(0, { immediate: !0 });
+          const c = s - Oa(1),
+            d = l,
+            _ = l + e,
+            u = c * Math.floor(t / r),
+            m = u + c,
+            p = u - (Math.floor(e / c) / 2) * c;
+          u > d && m < _
+            ? (o.current && n && 0 !== o.current - n && a.applyScroll(p, { immediate: !0 }),
+              (o.current = n))
+            : ((o.current = n), a.applyScroll(p, { immediate: !0 }));
+        }
+        return (
+          e(),
+          new X().add(a.events.on("resizeHandled", e)).add(a.events.on("recalculateContent", e))
+            .dispose
+        );
+      }, [t, a, s, r, i, n]);
+    })(i, h, v, g, _.length, x > w),
+    (function (e, a, t, s, r) {
+      const n = 2 === s;
+      function i(s) {
+        t(-1 !== e ? a[e + s].inventoryId : a[0].inventoryId);
+      }
+      const o = [
+        {
+          key: T.ARROW_DOWN,
+          blockKey: !n || e % s === s - 1 || e === a.length - 1,
+          action: () => i(1),
+        },
+        { key: T.ARROW_UP, blockKey: !n || e % s === 0, action: () => i(-1) },
+        { key: T.ARROW_LEFT, blockKey: n ? e < s : 0 === e, action: () => i(-s) },
+        {
+          key: T.ARROW_RIGHT,
+          blockKey: n ? e > a.length - (s + 1) : e === a.length - 1,
+          action: () => i(s),
+        },
+        { key: T.HOME, blockKey: 0 === a.length, action: () => t(a[0].inventoryId) },
+        { key: T.END, blockKey: 0 === a.length, action: () => t(a[a.length - 1].inventoryId) },
+      ];
+      for (const { key: l, blockKey: c, action: d } of o) {
+        const e = r || c ? T.NONE : l;
+        he(e, d);
+      }
+    })(h, u, o.controls.select, g, 0 === _.length || c));
+  const k = (function (a, t) {
+    const [s, r] = e.useState(0 === t),
+      n = ga();
+    return (
+      e.useEffect(() => {
+        if (s || 0 === t) return r(!0);
+        function e() {
+          (r(!0), i.dispose(), n.clear());
+        }
+        n.run(e);
+        const i = new X()
+          .add(n.clear)
+          .add(a.events.on("resizeHandled", () => n.run(e)))
+          .add(a.events.on("recalculateContent", () => n.run(e)));
+        return i.dispose;
+      }, [a, t, s, n]),
+      s
+    );
+  })(i, _.length);
+  return (
+    e.useEffect(() => {
+      s && s.model.computeds.enabled() && p !== b && s.controls.reset();
+    }, [p, b, s]),
+    a.jsxs(a.Fragment, {
+      children: [
+        a.jsx(fd, {
+          api: i,
+          widthElement: v,
+          totalElements: 2 === g ? j.length : y.length,
+          disabled: x > w,
+          onDraggingState: n,
+          classNames: { base: t(wd, k && Cd), element: t(yd, r && jd) },
+          renderElement: (e) => {
+            const s = t(yd, r && jd);
+            return 2 === g
+              ? a.jsx(Ga, {
+                  failure: () => a.jsx(ad, { className: s, width: v }),
+                  children: a.jsx(
+                    sd,
+                    {
+                      chunkedSlots: j[e],
+                      currentVehicleId: p,
+                      width: v,
+                      classNames: { slot: s },
+                      double: !0,
+                    },
+                    e,
+                  ),
+                })
+              : a.jsx(Ga, {
+                  failure: () => a.jsx(ad, { className: s, width: v }),
+                  children: a.jsx(
+                    td,
+                    { slotId: y[e], currentVehicleId: p, width: v, className: s, double: !1 },
+                    y[e] ?? e,
+                  ),
+                });
+          },
+        }),
+        s && s.model.computeds.enabled() && a.jsx(Go, { freeSpaceRem: 0, tipSize: "32rem" }),
+        C.createPortal(r && a.jsx("div", { className: xd }), document.body),
+      ],
+    })
+  );
+});
+const Nd = "ActiveCardHeader_235d362d",
+  Sd = "ActiveCardHeader_activeText_530ba0e9",
+  kd = "ActiveCardHeader_idleVideo_b2e26623",
+  Id = function ({ text: e, videoSrc: s, className: r = "", classNames: n }) {
+    return a.jsxs("div", {
+      className: t(Nd, r),
+      children: [
+        a.jsx("div", { className: t(Sd, null == n ? void 0 : n.activeText), children: e }),
+        a.jsx(Le, {
+          className: t(kd, null == n ? void 0 : n.idleVideo),
+          src: s,
+          autoplay: !0,
+          loop: !0,
+        }),
+      ],
+    });
+  },
+  Pd = "Content_8ce13fac",
+  Rd = "Content_base__disabled_da09528a",
+  Bd = "Content_base__selected_da09528a";
+function Ad({ children: e, selected: s, disabled: r }) {
+  return a.jsx("div", { className: t(Pd, s && Bd, r && Rd), children: e });
+}
+const Ed = "Slot_750e4447",
+  Td = "Slot_base__disabled_440d6866",
+  Ld = "Slot_content_27d2b58",
+  Dd = "Slot_base__active_71f19f5c",
+  Od = "Slot_base__selected_71f19f5c",
+  Wd = "Slot_selected_302eadc9",
+  Md = "Slot_selected__border_e2a17304";
+function Vd({
+  children: e,
+  selected: s = !1,
+  disabled: r = !1,
+  active: n = !1,
+  className: i,
+  ...o
+}) {
+  return a.jsx("div", {
+    ...o,
+    className: t(Ed, n && Dd, s && Od, r && Td, i),
+    children: a.jsxs("div", {
+      className: Ld,
+      children: [
+        a.jsx(Ad, { selected: s, disabled: r, children: e }),
+        s && a.jsx("div", { className: t(Wd, Md) }),
+        a.jsx("div", { className: Wd }),
+      ],
+    }),
+  });
+}
+const zd = "regular",
+  Fd = "postprogression",
+  Hd = "extra",
+  $d = (e, a) => (e ? Hd : a ? Fd : zd),
+  Ud = {
+    regular: {
+      extraSmall: {
+        cardWidth: "262rem",
+        cardHeight: "166rem",
+        rewardWidth: "288rem",
+        rewardHeight: "192rem",
+      },
+      small: {
+        cardWidth: "262rem",
+        cardHeight: "166rem",
+        rewardWidth: "288rem",
+        rewardHeight: "192rem",
+      },
+      medium: {
+        cardWidth: "326rem",
+        cardHeight: "206rem",
+        rewardWidth: "360rem",
+        rewardHeight: "240rem",
+      },
+      large: {
+        cardWidth: "406rem",
+        cardHeight: "256rem",
+        rewardWidth: "450rem",
+        rewardHeight: "300rem",
+      },
+      extraLarge: {
+        cardWidth: "486rem",
+        cardHeight: "306rem",
+        rewardWidth: "540rem",
+        rewardHeight: "360rem",
+      },
+    },
+    postprogression: {
+      extraSmall: {
+        cardWidth: "198rem",
+        cardHeight: "166rem",
+        rewardWidth: "192rem",
+        rewardHeight: "192rem",
+      },
+      small: {
+        cardWidth: "198rem",
+        cardHeight: "166rem",
+        rewardWidth: "192rem",
+        rewardHeight: "192rem",
+      },
+      medium: {
+        cardWidth: "246rem",
+        cardHeight: "206rem",
+        rewardWidth: "240rem",
+        rewardHeight: "240rem",
+      },
+      large: {
+        cardWidth: "306rem",
+        cardHeight: "256rem",
+        rewardWidth: "300rem",
+        rewardHeight: "300rem",
+      },
+      extraLarge: {
+        cardWidth: "366rem",
+        cardHeight: "306rem",
+        rewardWidth: "360rem",
+        rewardHeight: "360rem",
+      },
+    },
+    extra: {
+      extraSmall: {
+        cardWidth: "262rem",
+        cardHeight: "230rem",
+        rewardWidth: "288rem",
+        rewardHeight: "256rem",
+      },
+      small: {
+        cardWidth: "262rem",
+        cardHeight: "230rem",
+        rewardWidth: "288rem",
+        rewardHeight: "256rem",
+      },
+      medium: {
+        cardWidth: "326rem",
+        cardHeight: "286rem",
+        rewardWidth: "360rem",
+        rewardHeight: "320rem",
+      },
+      large: {
+        cardWidth: "406rem",
+        cardHeight: "356rem",
+        rewardWidth: "450rem",
+        rewardHeight: "400rem",
+      },
+      extraLarge: {
+        cardWidth: "486rem",
+        cardHeight: "426rem",
+        rewardWidth: "540rem",
+        rewardHeight: "480rem",
+      },
+    },
+  },
+  Gd = {
+    base: "Status_d06498e2",
+    icon: "Status_icon_1af01ceb",
+    base__done: "Status_base__done_35b9a31c",
+    base__locked: "Status_base__locked_35b9a31c",
+    line: "Status_line_324edf86",
+    shadow: "Status_shadow_75136b3b",
+    glowInner: "Status_glowInner_3e65d7dc",
+    blur: "Status_blur_fe6f30fc",
+    glowBig: "Status_glowBig_156fcd01",
+    fadeInWithScale: "Status_fadeInWithScale_35b9a31c",
+    slideUp: "Status_slideUp_35b9a31c",
+    blink: "Status_blink_35b9a31c",
+    scale: "Status_scale_35b9a31c",
+    rotate: "Status_rotate_35b9a31c",
+    windowIn: "Status_windowIn_35b9a31c",
+    fadeOut: "Status_fadeOut_35b9a31c",
+    fadeIn: "Status_fadeIn_35b9a31c",
+  },
+  qd = ({ type: e, className: s }) =>
+    a.jsxs("div", {
+      className: t(Gd.base, Gd[`base__${e}`], s),
+      children: [
+        a.jsx("div", { className: Gd.glowBig }),
+        a.jsx("div", { className: Gd.line }),
+        a.jsx("div", { className: Gd.shadow }),
+        a.jsx("div", { className: Gd.glowInner }),
+        a.jsx("svg", {
+          width: "42",
+          height: "42",
+          viewBox: "0 0 42 42",
+          className: Gd.blur,
+          children: a.jsx("g", { children: a.jsx("circle", { cx: "21", cy: "21", r: "3" }) }),
+        }),
+        a.jsx("div", { className: t(Gd.icon) }),
+      ],
+    }),
+  Xd = "UnlockedState_d8033d83",
+  Zd = "UnlockedState_stages_ef0d6acd",
+  Kd = "UnlockedState_mainStage_286ea378",
+  Yd = "UnlockedState_additionalStage_83045438",
+  Qd = "UnlockedState_cycleText_5b49e844",
+  Jd = R.strings.battle_pass.chapterChoice,
+  e_ = function ({ currentLevel: e, cyclesCompletedCount: t, maxLevel: s }) {
+    const r = (e - 1) % s;
+    return a.jsxs("div", {
+      className: Xd,
+      children: [
+        a.jsx(A, {
+          classMix: Qd,
+          text: Jd.postprogression.unlocked.cycle(),
+          binding: { cycle: t + 1 },
+        }),
+        a.jsxs("div", {
+          className: Zd,
+          children: [
+            a.jsx("span", { className: Kd, children: `${r}` }),
+            a.jsx(A, { classMix: Yd, text: Jd.stages.additional(), binding: { level: s } }),
+          ],
+        }),
+      ],
+    });
+  },
+  a_ = "PostprogressionInfo_f8fcfc44",
+  t_ = "PostprogressionInfo_lockedText_c823728d",
+  s_ = R.strings.battle_pass.chapterChoice,
+  r_ = i(function ({ chapterID: e }) {
+    const { model: t } = ui(),
+      s = t.computes.getChapterById(e);
+    if (!s) return;
+    const { currentLevel: r, cyclesCompletedCount: n, maxLevel: i } = s,
+      o = t.computes.regularChapters().length - 1 !== t.computes.regularChaptersCompleteCount();
+    return a.jsx("div", {
+      className: a_,
+      children: o
+        ? a.jsx(de, {
+            className: t_,
+            text: s_.postprogression.locked(),
+            params: { count: t.computes.regularChapters().length - 1 },
+          })
+        : a.jsx(e_, { currentLevel: r, cyclesCompletedCount: n, maxLevel: i }),
+    });
+  }),
+  n_ = "CompletedState_completeText_f209b72f",
+  i_ = "CompletedState_completeText__bought_4533734f",
+  o_ = R.strings.battle_pass.chapterChoice,
+  l_ = function ({ isBought: e, chapterRewardsCount: s }) {
+    return a.jsx(a.Fragment, {
+      children: e
+        ? a.jsx("div", { className: t(n_, i_), children: o_.stages.complete.improved() })
+        : a.jsx(A, { classMix: n_, text: o_.stages.complete.unimproved(), binding: { count: s } }),
+    });
+  },
+  c_ = "UncompletedState_9e8c0393",
+  d_ = "UncompletedState_mainStage_5808557f",
+  __ = "UncompletedState_additionalStage_ef80ee9c",
+  u_ = R.strings.battle_pass.chapterChoice,
+  m_ = function ({ currentLevel: e, maxStages: t }) {
+    return a.jsxs("div", {
+      className: c_,
+      children: [
+        a.jsx("span", { className: d_, children: "" + (e - 1) }),
+        a.jsx(A, { classMix: __, text: u_.stages.additional(), binding: { level: t } }),
+      ],
+    });
+  },
+  p_ = "RegularInfo_46f7818d",
+  h_ = "RegularInfo_uncomplete_854e3542";
+R.strings.battle_pass.chapterChoice;
+const b_ = i(function ({ chapterID: e }) {
+    const { model: t } = ui(),
+      s = t.computes.getChapterById(e);
+    if (!s) return;
+    const {
+      currentLevel: r,
+      chapterState: n,
+      isBought: i,
+      chapterRewardsCount: o,
+      maxLevel: l,
+    } = s;
+    return a.jsx("div", {
+      className: p_,
+      children:
+        n === is.Completed
+          ? a.jsx(l_, { isBought: i, chapterRewardsCount: o })
+          : a.jsx("div", { className: h_, children: a.jsx(m_, { currentLevel: r, maxStages: l }) }),
+    });
+  }),
+  f_ = {
+    base: "CardInfo_7298ebd2",
+    base__postprogression: "CardInfo_base__postprogression_f10eeba",
+    infoIcon: "CardInfo_infoIcon_fe2dde8d",
+    infoIcon__x60x60: "CardInfo_infoIcon__x60x60_69dd0923",
+    infoIcon__x80x80: "CardInfo_infoIcon__x80x80_39f83cbc",
+    infoIcon__x120x120: "CardInfo_infoIcon__x120x120_a47141e5",
+    infoDescription: "CardInfo_infoDescription_af2ed432",
+    chapterName: "CardInfo_chapterName_91c4f3ea",
+    chapterName__bought: "CardInfo_chapterName__bought_a3ef657b",
+    fadeInWithScale: "CardInfo_fadeInWithScale_8e8a9c2",
+    slideUp: "CardInfo_slideUp_8e8a9c2",
+    blink: "CardInfo_blink_8e8a9c2",
+    scale: "CardInfo_scale_8e8a9c2",
+    rotate: "CardInfo_rotate_8e8a9c2",
+    windowIn: "CardInfo_windowIn_8e8a9c2",
+    fadeOut: "CardInfo_fadeOut_8e8a9c2",
+    fadeIn: "CardInfo_fadeIn_8e8a9c2",
+  },
+  g_ = S.resolve("images"),
+  v_ = S.resolve("strings"),
+  x_ = R.strings.battle_pass.chapterChoice,
+  w_ = i(function ({ chapterID: e, className: s = "" }) {
+    const { model: r } = ui(),
+      { breakpoint: n } = je(),
+      i = r.computes.getChapterById(e),
+      o = k({ iconSize: Zr }, { large: { iconSize: Kr }, extraLarge: { iconSize: Qr } }),
+      l = fe(o.iconSize, Jr);
+    if (!i) return;
+    const { isBought: c, isPostProgression: d, isExtra: _ } = i,
+      u = $d(_, d),
+      m = (() => {
+        const a = String(e).slice(-1);
+        return (
+          g_.readOrEmpty(
+            `battlePass.emblem.icon.c_${e}.${c ? "purchased" : "basic"}.${l}`,
+            "silent",
+          ) ||
+          g_.readOrEmpty(`battlePass.emblem.icon.default_${a}.${c ? "purchased" : "basic"}.${l}`)
+        );
+      })();
+    return a.jsxs("div", {
+      className: t(f_.base, d && f_.base__postprogression),
+      children: [
+        a.jsx("div", {
+          className: t(f_.infoIcon, f_[`infoIcon__${o.iconSize}`]),
+          style: { backgroundImage: `url(${m})` },
+        }),
+        a.jsxs("div", {
+          className: f_.infoDescription,
+          style: { "--card-width": Ud[u][n.name].cardWidth },
+          children: [
+            a.jsx("div", {
+              className: t(f_.chapterName, c && f_.chapterName__bought),
+              children: d
+                ? x_.postprogression.name()
+                : v_.readOrEmpty(`battle_pass.chapter.fullName.c_${e}`),
+            }),
+            d ? a.jsx(r_, { chapterID: e }) : a.jsx(b_, { chapterID: e }),
+          ],
+        }),
+      ],
+    });
+  }),
+  C_ = {
+    base: "CardTemplate_664f5f0d",
+    bg: "CardTemplate_bg_e653648c",
+    reward: "CardTemplate_reward_4b474b06",
+    base__paused: "CardTemplate_base__paused_5ee959db",
+    base__notStarted: "CardTemplate_base__notStarted_5ee959db",
+    base__completed: "CardTemplate_base__completed_5ee959db",
+    base__selected: "CardTemplate_base__selected_5ee959db",
+    progressBar: "CardTemplate_progressBar_9b805b48",
+    progressBar__active: "CardTemplate_progressBar__active_5ddba882",
+    progressBarBg: "CardTemplate_progressBarBg_5ee959db",
+    info: "CardTemplate_info_b6b5a8af",
+    status: "CardTemplate_status_4dbaa00d",
+    fadeInWithScale: "CardTemplate_fadeInWithScale_5ee959db",
+    slideUp: "CardTemplate_slideUp_5ee959db",
+    blink: "CardTemplate_blink_5ee959db",
+    scale: "CardTemplate_scale_5ee959db",
+    rotate: "CardTemplate_rotate_5ee959db",
+    windowIn: "CardTemplate_windowIn_5ee959db",
+    fadeOut: "CardTemplate_fadeOut_5ee959db",
+    fadeIn: "CardTemplate_fadeIn_5ee959db",
+  },
+  y_ = S.resolve("images"),
+  j_ = (e, a = !1) => (e === is.Completed ? Xa.done : a ? Xa.locked : void 0),
+  N_ = i(function ({ chapterID: e, classNames: s = {} }) {
+    const { model: r } = ui(),
+      { breakpoint: n } = je(),
+      i = r.computes.getChapterById(e);
+    if (!i) return;
+    const { chapterState: o, isExtra: l, isPostProgression: c, currentLevel: d, maxLevel: _ } = i,
+      u = $d(l, c),
+      m = e === r.selectedChapterID.get(),
+      p =
+        r.computes.regularChapters().length - 1 !== r.computes.regularChaptersCompleteCount() && c,
+      h = String(e).slice(-1),
+      b =
+        y_.readOrEmpty(`battlePass.chapter_choice.card_bg.c_${e}`, "silent") ||
+        y_.readOrEmpty(`battlePass.chapter_choice.card_bg.default_${h}`),
+      f =
+        y_.readOrEmpty(`battlePass.chapter_choice.tanks.c_${e}`, "silent") ||
+        y_.readOrEmpty(`battlePass.chapter_choice.tanks.default_${h}`);
+    return a.jsxs("div", {
+      className: t(C_.base, C_[`base__${o}`], m && C_.base__selected),
+      children: [
+        a.jsx("div", { className: C_.bg, style: { backgroundImage: `url(${b})` } }),
+        a.jsx("div", {
+          className: t(C_.reward, s.reward),
+          style: {
+            backgroundImage: `url(${f})`,
+            width: Ud[u][n.name].rewardWidth,
+            height: Ud[u][n.name].rewardHeight,
+          },
+        }),
+        o !== is.Completed &&
+          !c &&
+          a.jsx(qa, {
+            value: d,
+            maxValue: _,
+            size: "small",
+            className: t(C_.progressBar, o === is.Active && C_.progressBar__active),
+            classNames: { background: C_.progressBarBg },
+          }),
+        a.jsx("div", { className: C_.info, children: a.jsx(w_, { chapterID: e }) }),
+        j_(o, p) && a.jsx("div", { className: C_.status, children: a.jsx(qd, { type: j_(o, p) }) }),
+      ],
+    });
+  }),
+  S_ = {
+    base: "Card_3be28e6f",
+    base__extra: "Card_base__extra_5e0e439b",
+    slot: "Card_slot_356826af",
+    active: "Card_active_741bc02a",
+    info: "Card_info_9eddf15f",
+    idleVideo__regular: "Card_idleVideo__regular_f4c22d1c",
+    idleVideo__extra: "Card_idleVideo__extra_4cdfaaf7",
+    idleVideo__postprogression: "Card_idleVideo__postprogression_b28e5b27",
+    fadeInWithScale: "Card_fadeInWithScale_f4c22d1c",
+    slideUp: "Card_slideUp_f4c22d1c",
+    blink: "Card_blink_f4c22d1c",
+    scale: "Card_scale_f4c22d1c",
+    rotate: "Card_rotate_f4c22d1c",
+    windowIn: "Card_windowIn_f4c22d1c",
+    fadeOut: "Card_fadeOut_f4c22d1c",
+    fadeIn: "Card_fadeIn_f4c22d1c",
+  },
+  k_ = R.strings.battle_pass.chapterChoice,
+  I_ = i(function ({ chapterID: e }) {
+    const { model: s, controls: r } = ui(),
+      { breakpoint: n } = je(),
+      i = s.computes.getChapterById(e);
+    if (!i) return;
+    const { chapterState: o, isPostProgression: l, isExtra: c } = i,
+      d = s.selectedChapterID.get(),
+      _ = s.computes.selectedChapter(),
+      u = s.computes.sortedChapters().indexOf(_),
+      m = $d(c, l);
+    return a.jsxs("div", {
+      className: t(S_.base, c && S_.base__extra),
+      children: [
+        o === is.Active &&
+          a.jsx(Id, {
+            text: l ? k_.activeChapter.postprogression.text() : k_.activeChapter.text(),
+            videoSrc: R.videos.battle_pass.chapter_choice.activeAnimation(),
+            className: S_.active,
+            classNames: { idleVideo: S_[`idleVideo__${l ? Fd : zd}`] },
+          }),
+        a.jsx(Vd, {
+          selected: d === e,
+          active: o === is.Active,
+          onClick: () => {
+            e !== d &&
+              (r.setPrevChapterIndex(u),
+              r.setSelectedChapterID(e),
+              r.onChapterSelect(e),
+              Se.sound(R.sounds.bp_select_chapter()));
+          },
+          onMouseEnter: () => {
+            Se.sound(R.sounds.bp_highlight_02());
+          },
+          className: S_.slot,
+          style: { width: Ud[m][n.name].cardWidth, height: Ud[m][n.name].cardHeight },
+          "data-test-id": `chapterID-${e}`,
+          children: a.jsx(N_, { chapterID: e }),
+        }),
+      ],
+    });
+  }),
+  P_ = {
+    base: "CardsContent_f347026f",
+    mask: "CardsContent_mask_b9df56c2",
+    mask__both: "CardsContent_mask__both_a3217d34",
+    mask__left: "CardsContent_mask__left_96e6e67c",
+    mask__right: "CardsContent_mask__right_50882304",
+    cardsWrapper: "CardsContent_cardsWrapper_7a6da9dd",
+    cardsWrapper__inactive: "CardsContent_cardsWrapper__inactive_92450b8d",
+    scrollWrapper: "CardsContent_scrollWrapper_e65fe5a6",
+    scrollBar: "CardsContent_scrollBar_9c08690c",
+    fadeInWithScale: "CardsContent_fadeInWithScale_ef18ba3c",
+    slideUp: "CardsContent_slideUp_ef18ba3c",
+    blink: "CardsContent_blink_ef18ba3c",
+    scale: "CardsContent_scale_ef18ba3c",
+    rotate: "CardsContent_rotate_ef18ba3c",
+    windowIn: "CardsContent_windowIn_ef18ba3c",
+    fadeOut: "CardsContent_fadeOut_ef18ba3c",
+    fadeIn: "CardsContent_fadeIn_ef18ba3c",
+  },
+  R_ = i(function () {
+    const { model: s, controls: r } = ui(),
+      [n, i] = e.useState(!1),
+      { api: o } = Ha(),
+      { animationScroll: l, applyScroll: c, getBounds: d } = o,
+      _ = s.computes.selectedChapter(),
+      u = s.computes.sortedChapters(),
+      m = u.indexOf(_),
+      p = Wa(o, Ma.horizontal, void 0, { gapBeforeStart: 5 }),
+      [h, b] = ne(o);
+    (e.useEffect(() => {
+      _ && r.setSelectedChapterID(_.chapterID);
+    }, [r, _]),
+      e.useEffect(
+        () =>
+          Va(() => {
+            "idle" === p.type && l.scrollPosition.idle && c(l.scrollPosition.get());
+          }),
+        [l.scrollPosition, c, p.type],
+      ),
+      e.useEffect(() => {
+        const e = u.indexOf(_),
+          [a, t] = d();
+        c(e >= Math.floor(u.length / 2) ? t : a);
+      }, [c, d, _, u]),
+      e.useEffect(() => {
+        i("dragging" === p.type);
+      }, [p.type]),
+      e.useEffect(() => {
+        const e = (e, a, t) => {
+          !1 === (Ka(a.get(), t) && Ka(a.goal, t)) && e.stopPropagation();
+        };
+        return (
+          o.events.on("mouseWheel", e),
+          () => {
+            o.events.off("mouseWheel", e);
+          }
+        );
+      }, [o]));
+    const f = (e, a) => {
+      (Ya(void 0 !== u[e]),
+        r.setSelectedChapterID(u[e].chapterID),
+        r.onChapterSelect(u[e].chapterID),
+        e !== a && r.setPrevChapterIndex(a));
+    };
+    return (
+      he(T.ARROW_RIGHT, () => {
+        const e = m < u.length - 1 ? m + 1 : m;
+        f(e, m);
+      }),
+      he(T.ARROW_LEFT, () => {
+        f(m > 0 ? m - 1 : m, m);
+      }),
+      a.jsxs("div", {
+        className: P_.base,
+        children: [
+          a.jsx("div", {
+            className: t(P_.mask, P_[`mask__${al(h, b)}`]),
+            children: a.jsx(za, {
+              classNames: { wrapper: P_.scrollWrapper },
+              children: a.jsx("div", {
+                className: t(P_.cardsWrapper, n && P_.cardsWrapper__inactive),
+                children: O(u, (e, t) =>
+                  a.jsx(I_, { chapterID: e.chapterID }, `${e.chapterID}_${t}`),
+                ),
+              }),
+            }),
+          }),
+          a.jsx(Za, { classNames: { base: P_.scrollBar } }),
+        ],
+      })
+    );
+  }),
+  B_ = "ButtonsGroup_6fd5782",
+  A_ = "ButtonsGroup_button_17bae557",
+  E_ = S.resolve("strings"),
+  T_ = i(function () {
+    const e = me(),
+      { model: t, controls: s } = ui(),
+      r = t.computes.selectedChapter(),
+      { breakpoint: n } = je(),
+      i = n.weight >= Ne.large.weight ? I.large : I.medium;
+    return (
+      he(T.SPACE, () => {
+        (null == r ? void 0 : r.isPostProgression)
+          ? e.push(as.battlePass.postProgression, {})
+          : e.push(as.battlePass.progression, { chapterID: null == r ? void 0 : r.chapterID });
+      }),
+      a.jsxs("div", {
+        className: B_,
+        children: [
+          (null == r ? void 0 : r.isPostProgression)
+            ? a.jsx(P, {
+                onClick: () => e.push(as.battlePass.postProgression, {}),
+                className: A_,
+                size: i,
+                "data-test-id": "toPostProgression",
+                children: E_.readOrEmpty(
+                  "battle_pass.chapterChoice.chapterInfo.buttons.toPostProgression",
+                ),
+              })
+            : a.jsx(P, {
+                onClick: () =>
+                  e.push(as.battlePass.progression, {
+                    chapterID: null == r ? void 0 : r.chapterID,
+                  }),
+                className: A_,
+                size: i,
+                "data-test-id": "toChapter",
+                children: E_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.buttons.toChapter"),
+              }),
+          0 !== (null == r ? void 0 : r.tankmenScreenID) &&
+            a.jsx(P, {
+              onClick: () => {
+                void 0 !== (null == r ? void 0 : r.chapterID) &&
+                  s.showTankmen(null == r ? void 0 : r.chapterID);
+              },
+              className: A_,
+              theme: B.secondary,
+              size: i,
+              "data-test-id": "toCrewMembers",
+              children: E_.readOrEmpty(
+                "battle_pass.chapterChoice.chapterInfo.buttons.toCrewMembers",
+              ),
+            }),
+        ],
+      })
+    );
+  }),
+  L_ = "Deadline_d8216f12",
+  D_ = "Deadline_timerIcon_cda81cf2",
+  O_ = "Deadline_timerLabel_218217e0",
+  W_ = S.resolve("strings"),
+  M_ = et,
+  V_ = i(function () {
+    const { model: e } = ui(),
+      { expireTime: t, timeLeft: s } = e.computes.selectedChapter(),
+      r = e.computes.detailedTimer();
+    return a.jsx("div", {
+      className: L_,
+      children: r
+        ? a.jsx(A, {
+            text: W_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.deadline.time"),
+            binding: {
+              endTime: a.jsx(
+                Qa,
+                { start: s, size: Ja.x48x48, classNames: { icon: D_, label: O_ } },
+                s,
+              ),
+            },
+          })
+        : a.jsx(A, {
+            text: W_.readOrEmpty("battle_pass.chapterChoice.chapterInfo.deadline.date"),
+            binding: { endDate: M_(t, at.DayMonthFull) },
+          }),
+    });
+  }),
+  z_ = {
+    base: "PreviewButton_8d85fd92",
+    base__x100x100: "PreviewButton_base__x100x100_40f65925",
+    base__x120x120: "PreviewButton_base__x120x120_eabae7e5",
+    base__x140x140: "PreviewButton_base__x140x140_592ecabc",
+    base__hovered: "PreviewButton_base__hovered_6f70d99a",
+    fadeInWithScale: "PreviewButton_fadeInWithScale_22577403",
+    slideUp: "PreviewButton_slideUp_22577403",
+    blink: "PreviewButton_blink_22577403",
+    scale: "PreviewButton_scale_22577403",
+    rotate: "PreviewButton_rotate_22577403",
+    windowIn: "PreviewButton_windowIn_22577403",
+    fadeOut: "PreviewButton_fadeOut_22577403",
+    fadeIn: "PreviewButton_fadeIn_22577403",
+  },
+  F_ = "x100x100",
+  H_ = "x120x120",
+  $_ = "x140x140",
+  U_ = S.resolve("images"),
+  G_ = function ({
+    iconSize: s,
+    onClick: r,
+    onMouseEnter: n,
+    onMouseLeave: i,
+    soundHover: o = "",
+    soundClick: l = "",
+    className: c = "",
+  }) {
+    const [d, _] = e.useState(!1),
+      u = U_.readOrEmpty(`battlePass.icons.previewButton.${fe(s, $_)}`);
+    return a.jsx("div", {
+      className: t(z_.base, d && z_.base__hovered, z_[`base__${s}`], c),
+      onClick: (e) => {
+        (null == r || r(e), l && Se.sound(l));
+      },
+      onMouseEnter: () => {
+        (_(!0), null == n || n(), o && Se.sound(o));
+      },
+      onMouseLeave: () => {
+        (_(!1), null == i || i());
+      },
+      style: { backgroundImage: `url(${u})` },
+    });
+  },
+  q_ = {
+    base: "InGarage_66bdf5dd",
+    base__x24x24: "InGarage_base__x24x24_79818dbf",
+    base__x32x32: "InGarage_base__x32x32_839c6a2c",
+    base__x48x48: "InGarage_base__x48x48_19be1254",
+    base__x80x80: "InGarage_base__x80x80_c3a1d174",
+    fadeInWithScale: "InGarage_fadeInWithScale_2e055df1",
+    slideUp: "InGarage_slideUp_2e055df1",
+    blink: "InGarage_blink_2e055df1",
+    scale: "InGarage_scale_2e055df1",
+    rotate: "InGarage_rotate_2e055df1",
+    windowIn: "InGarage_windowIn_2e055df1",
+    fadeOut: "InGarage_fadeOut_2e055df1",
+    fadeIn: "InGarage_fadeIn_2e055df1",
+  },
+  X_ = "x24x24",
+  Z_ = "x32x32",
+  K_ = "x48x48",
+  Y_ = "x80x80",
+  Q_ = S.resolve("images"),
+  J_ = function ({ iconSize: e, className: s = "" }) {
+    const r = Q_.readOrEmpty(`battlePass.icons.inGarage.${e}`);
+    return a.jsx("div", {
+      className: t(q_.base, q_[`base__${e}`], s),
+      style: { backgroundImage: `url(${r})` },
+    });
+  },
+  eu = {
+    vehicleWrapper: "SubTitle_vehicleWrapper_c315a83c",
+    styleWrapper: "SubTitle_styleWrapper_59988398",
+    style: "SubTitle_style_c315a83c",
+    vehicleStyle: "SubTitle_vehicleStyle_1b9867d2",
+    postProgression: "SubTitle_postProgression_c315a83c",
+    crew: "SubTitle_crew_f25c78a4",
+    styleLevel: "SubTitle_styleLevel_c315a83c",
+    styleName: "SubTitle_styleName_cab7080b",
+    attachmentsSet: "SubTitle_attachmentsSet_c3439b6f",
+    vehicle: "SubTitle_vehicle_947ca1b3",
+    vehicleLevel: "SubTitle_vehicleLevel_c315a83c",
+    vehicleName: "SubTitle_vehicleName_c315a83c",
+    inGarage__style: "SubTitle_inGarage__style_b8f6084a",
+    inGarage__vehicle: "SubTitle_inGarage__vehicle_1cb9fdfb",
+  },
+  au = S.resolve("strings"),
+  tu = "vehicle",
+  su = "style",
+  ru = i(function () {
+    const { model: e } = ui(),
+      s = e.computes.selectedChapter(),
+      {
+        breakpoint: { weight: r },
+      } = je(),
+      n = (e) =>
+        e === tu
+          ? r < Ne.large.weight
+            ? tt.x64x64
+            : tt.x96x96
+          : e === su
+            ? r < Ne.large.weight
+              ? tt.x24x24
+              : tt.x48x48
+            : void 0,
+      i = (e) =>
+        e === tu
+          ? r >= Ne.large.weight
+            ? Y_
+            : r >= Ne.medium.weight
+              ? K_
+              : Z_
+          : e === su
+            ? r >= Ne.large.weight
+              ? Z_
+              : X_
+            : Z_,
+      o = { level: eu.vehicleLevel, name: eu.vehicleName },
+      l = { level: eu.styleLevel, name: eu.styleName };
+    if (!s) return;
+    const {
+      styleName: c,
+      vehicleInfo: d,
+      finalRewardType: _,
+      isVehicleInHangar: u,
+      attachmentsSetName: m,
+    } = s;
+    return (() => {
+      switch (_) {
+        case os.Vehicle:
+          return a.jsxs("div", {
+            className: eu.vehicleWrapper,
+            children: [
+              a.jsx(A, {
+                classMix: eu.vehicle,
+                text: au.readOrEmpty("battle_pass.chapterChoice.vehicle.reward.subTitle"),
+                binding: {
+                  vehicleName: a.jsx(ss, { ...d, vehicleTypeIconSize: n(tu), classNames: o }),
+                },
+              }),
+              u && a.jsx(J_, { iconSize: i(tu), className: t(eu.inGarage, eu.inGarage__vehicle) }),
+            ],
+          });
+        case os.VehicleStyle:
+          return a.jsx(A, {
+            classMix: eu.vehicleStyle,
+            text: au.readOrEmpty("battle_pass.chapterChoice.vehicleStyle.reward.subTitle"),
+            binding: { styleName: c },
+          });
+        case os.Style:
+          return a.jsxs("div", {
+            className: eu.styleWrapper,
+            children: [
+              a.jsx(A, {
+                classMix: eu.style,
+                text: au.readOrEmpty("battle_pass.chapterChoice.stylePreview.reward.subTitle"),
+                binding: {
+                  vehicleName: a.jsx(ss, { ...d, vehicleTypeIconSize: n(su), classNames: l }),
+                },
+              }),
+              u && a.jsx(J_, { iconSize: i(su), className: t(eu.inGarage, eu.inGarage__style) }),
+            ],
+          });
+        case os.Tankman:
+          return a.jsx(A, {
+            classMix: eu.crew,
+            text: au.readOrEmpty("battle_pass.chapterChoice.crewMember.reward.subTitle"),
+          });
+        case os.AttachmentsSet:
+          return a.jsx("span", {
+            className: eu.attachmentsSet,
+            children: au.readOrEmpty(`quests.bonusName.attachments_set.${m}`),
+          });
+        case os.PostProgression:
+          return a.jsx(A, {
+            classMix: eu.postProgression,
+            text: au.readOrEmpty("battle_pass.chapterChoice.eliteCircuit.reward.subTitle"),
+          });
+        default:
+          return "";
+      }
+    })();
+  }),
+  nu = "Title_vehicleStyleWrapper_5727057f",
+  iu = "Title_postProgression_2e63cf3",
+  ou = "Title_crew_ace25966",
+  lu = "Title_vehicle_c974ddd5",
+  cu = "Title_vehicleStyle_e7d39a46",
+  du = "Title_attachmentsSet_7b3dafcc",
+  _u = "Title_style_2e63cf3",
+  uu = "Title_level_2e63cf3",
+  mu = "Title_name_93838a06",
+  pu = "Title_inGarage_1c4370bb",
+  hu = S.resolve("strings"),
+  bu = i(function () {
+    const { model: e } = ui(),
+      t = e.computes.selectedChapter(),
+      {
+        breakpoint: { weight: s },
+      } = je(),
+      r = s < Ne.large.weight ? tt.x64x64 : tt.x96x96,
+      n = s >= Ne.large.weight ? Y_ : s >= Ne.medium.weight ? K_ : Z_,
+      i = { level: uu, name: mu };
+    if (!t) return;
+    const {
+      styleName: o,
+      vehicleInfo: l,
+      finalRewardType: c,
+      isVehicleInHangar: d,
+      tankmanNames: _,
+    } = t;
+    return (function () {
+      switch (c) {
+        case os.Vehicle:
+          return a.jsx(A, {
+            classMix: lu,
+            text: hu.readOrEmpty("battle_pass.chapterChoice.vehicle.reward.title"),
+          });
+        case os.VehicleStyle:
+          return a.jsxs("div", {
+            className: nu,
+            children: [
+              a.jsx(A, {
+                classMix: cu,
+                text: hu.readOrEmpty("battle_pass.chapterChoice.vehicleStyle.reward.title"),
+                binding: {
+                  vehicleName: a.jsx(ss, { ...l, vehicleTypeIconSize: r, classNames: i }),
+                },
+              }),
+              d && a.jsx(J_, { iconSize: n, className: pu }),
+            ],
+          });
+        case os.Style:
+          return a.jsx(A, {
+            classMix: _u,
+            text: hu.readOrEmpty("battle_pass.chapterChoice.stylePreview.reward.title"),
+            binding: { styleName: o },
+          });
+        case os.Tankman:
+          return a.jsx(A, {
+            classMix: ou,
+            text: st(_, hu.readOrEmpty("battle_pass.common.comma")),
+          });
+        case os.AttachmentsSet:
+          return a.jsx("span", {
+            className: du,
+            children: hu.readOrEmpty("battle_pass.finalReward.attachmentsSet.title"),
+          });
+        case os.PostProgression:
+          return a.jsx(A, {
+            classMix: iu,
+            text: hu.readOrEmpty("battle_pass.chapterChoice.eliteCircuit.reward.title"),
+          });
+        default:
+          return "";
+      }
+    })();
+  }),
+  fu = "FinalReward_96b2b9a7",
+  gu = "FinalReward_rewardInfo_e61fb0c8",
+  vu = "FinalReward_preview_68854b55",
+  xu = i(function () {
+    const { model: t, controls: s } = ui(),
+      r = k({ previewButton: F_ }, { medium: { previewButton: H_ }, large: { previewButton: $_ } }),
+      n = t.computes.selectedChapter();
+    Ya(void 0 !== n);
+    const { chapterID: i, finalRewardType: o } = n,
+      l = e.useCallback(
+        (e) => {
+          (s.openPreview(i), e.stopPropagation());
+        },
+        [s, i],
+      ),
+      c = [os.Style, os.Vehicle, os.VehicleStyle, os.AttachmentsSet].includes(o);
+    return a.jsxs("div", {
+      className: fu,
+      children: [
+        c &&
+          a.jsx("div", {
+            className: vu,
+            children: a.jsx(G_, {
+              iconSize: r.previewButton,
+              onClick: l,
+              soundHover: R.sounds.bp_highlight_02(),
+              soundClick: R.sounds.play(),
+            }),
+          }),
+        a.jsxs("div", { className: gu, children: [a.jsx(bu, {}), a.jsx(ru, {})] }),
+      ],
+    });
+  }),
+  wu = {
+    base: "ChapterInfo_583787",
+    deadline: "ChapterInfo_deadline_df593065",
+    info: "ChapterInfo_info_50f38f5c",
+    chapterName: "ChapterInfo_chapterName_2e84101e",
+    chapterName__bougth: "ChapterInfo_chapterName__bougth_4015ed41",
+    finalReward__vehicleStyle: "ChapterInfo_finalReward__vehicleStyle_9092be9e",
+    finalReward__vehicle: "ChapterInfo_finalReward__vehicle_8f1be3b9",
+    finalReward__style: "ChapterInfo_finalReward__style_939c7d1e",
+    finalReward__attachmentsSet: "ChapterInfo_finalReward__attachmentsSet_71da8196",
+    finalReward__tankman: "ChapterInfo_finalReward__tankman_939c7d1e",
+    finalReward__postProgression: "ChapterInfo_finalReward__postProgression_42299b8a",
+    buttonsGroup__vehicleStyle: "ChapterInfo_buttonsGroup__vehicleStyle_32e73b60",
+    buttonsGroup__vehicle: "ChapterInfo_buttonsGroup__vehicle_19a07e37",
+    buttonsGroup__style: "ChapterInfo_buttonsGroup__style_939c7d1e",
+    buttonsGroup__attachmentsSet: "ChapterInfo_buttonsGroup__attachmentsSet_99acb72a",
+    buttonsGroup__tankman: "ChapterInfo_buttonsGroup__tankman_939c7d1e",
+    buttonsGroup__postProgression: "ChapterInfo_buttonsGroup__postProgression_d83fdc7a",
+    emblem: "ChapterInfo_emblem_b1fd21e1",
+    fadeInWithScale: "ChapterInfo_fadeInWithScale_939c7d1e",
+    slideUp: "ChapterInfo_slideUp_939c7d1e",
+    blink: "ChapterInfo_blink_939c7d1e",
+    scale: "ChapterInfo_scale_939c7d1e",
+    rotate: "ChapterInfo_rotate_939c7d1e",
+    windowIn: "ChapterInfo_windowIn_939c7d1e",
+    fadeOut: "ChapterInfo_fadeOut_939c7d1e",
+    fadeIn: "ChapterInfo_fadeIn_939c7d1e",
+  },
+  Cu = S.resolve("strings"),
+  yu = i(function () {
+    const { model: e } = ui(),
+      s = e.computes.selectedChapter(),
+      r = k(
+        { iconSize: Kr, shieldSize: zr, containerSize: Lr },
+        {
+          medium: { iconSize: Yr, shieldSize: Fr, containerSize: Dr },
+          large: { iconSize: Qr, shieldSize: Hr, containerSize: Or },
+          extraLarge: { iconSize: Jr, shieldSize: $r, containerSize: Wr },
+        },
+      ),
+      i = y(
+        oi.length,
+        oi.map((e) => {
+          const { delay: a, diff: t, duration: s } = Object.values(e)[0];
+          return li(a, t, s);
+        }),
+      ),
+      o = oi.reduce((e, a, t) => {
+        const s = Object.keys(a)[0];
+        return i[t] ? ((e[s] = i[t]), e) : e;
+      }, {});
+    if (!s) return;
+    const { chapterID: l, isBought: c, finalRewardType: d } = s;
+    return a.jsxs("div", {
+      className: wu.base,
+      children: [
+        a.jsx(n.div, {
+          style: o.emblem,
+          children: a.jsx(sn, {
+            iconSize: r.iconSize,
+            shieldSize: r.shieldSize,
+            containerSize: r.containerSize,
+            bpPurchased: c,
+            chapterID: l,
+            className: wu.emblem,
+          }),
+        }),
+        a.jsxs("div", {
+          className: wu.info,
+          children: [
+            a.jsx(n.div, {
+              style: o.deadline,
+              children: a.jsx("div", { className: wu.deadline, children: a.jsx(V_, {}) }),
+            }),
+            a.jsx(n.div, {
+              style: o.chapterName,
+              children: a.jsx(la, {
+                className: t(wu.chapterName, c && wu.chapterName__bougth),
+                text: Cu.readOrEmpty(`battle_pass.chapter.fullName.c_${l}`),
+              }),
+            }),
+            a.jsx(n.div, {
+              style: o.finalReward,
+              children: a.jsx("div", {
+                className: t(wu.finalReward, wu[`finalReward__${d}`]),
+                children: a.jsx(xu, {}),
+              }),
+            }),
+            a.jsx(n.div, {
+              style: o.buttonsGroup,
+              children: a.jsx("div", {
+                className: t(wu.buttonsGroup, wu[`buttonsGroup__${d}`]),
+                children: a.jsx(T_, {}),
+              }),
+            }),
+          ],
+        }),
+      ],
+    });
+  }),
+  ju = "FreeBpPoints_13635b90",
+  Nu = "FreeBpPoints_pointsBlock_de8d94dc",
+  Su = "FreeBpPoints_points_cd1a8292",
+  ku = "FreeBpPoints_icon_e6968e4a",
+  Iu = "FreeBpPoints_text_74f25e3",
+  Pu = S.resolve("strings"),
+  Ru = i(function () {
+    const { model: e } = ui(),
+      { freePoints: t } = e.root.get(),
+      s = ka({
+        header: Pu.readOrEmpty("battle_pass.chapterChoice.freePoints.tooltip.header"),
+        body: Pu.readOrEmpty("battle_pass.chapterChoice.freePoints.tooltip.body"),
+      }),
+      r = k({ iconSize: "" }, { medium: { iconSize: "_medium" }, large: { iconSize: "_large" } });
+    return a.jsxs("div", {
+      className: ju,
+      ...s,
+      children: [
+        a.jsxs("div", {
+          className: Nu,
+          children: [
+            a.jsx("div", { className: Su, children: a.jsx(rt, { value: t }) }),
+            a.jsx(Pa, { className: ku, path: `battlePass.chapter_choice.freePoints${r.iconSize}` }),
+          ],
+        }),
+        a.jsx("div", {
+          className: Iu,
+          children: Pu.readOrEmpty("battle_pass.chapterChoice.freePoints.text"),
+        }),
+      ],
+    });
+  }),
+  Bu = "App_772aceb",
+  Au = "App_background_f46709aa",
+  Eu = "App_main_879c8615",
+  Tu = "App_idle_e06fed7f",
+  Lu = "App_shadow_d2a46054",
+  Du = "App_freeBpPoints_c3ec6dd0",
+  Ou = "App_chapterInfo_ae823c83",
+  Wu = "App_cards_a8851e46",
+  Mu = i(function () {
+    const { model: t, controls: s } = ui(),
+      { onViewLoaded: i } = s,
+      o = t.computes.selectedChapter(),
+      l = t.prevChapterIndex.get(),
+      c = t.computes.sortedChapters().indexOf(o),
+      [d, _] = e.useState(c),
+      [u, m] = e.useState(!1),
+      p = me();
+    (he(T.ESCAPE, () => {
+      p.goBack();
+    }),
+      e.useEffect(
+        () =>
+          Va(() => {
+            u || (i(), m(!0));
+          }),
+        [u, i],
+      ));
+    const [h, b] = y(t.computes.backgrounds().length, (e) => ({
+        x: 0,
+        opacity: e === c ? 1 : 0,
+        config: { duration: 400, easing: Ie.easeOutQuint },
+      })),
+      f = 0.1 * viewEnv.getViewSizeRem().width,
+      g = e.useCallback(
+        (e, a) => {
+          (b.start((t) =>
+            t === e
+              ? {
+                  from: { x: a * f, opacity: 0, zIndex: 3 },
+                  to: { x: 0, opacity: 1, zIndex: 3 },
+                  reset: !0,
+                }
+              : {},
+          ),
+            _(e));
+        },
+        [b, f],
+      );
+    e.useEffect(() => {
+      g(c, l < c ? 1 : -1);
+    }, [l, c, g]);
+    const [v] = r(() => li(200, 60)),
+      [x] = r(() => li(300, 60)),
+      [w] = r(() =>
+        ((e = 0) => ({
+          from: { opacity: 0, transform: "scale(1.1)" },
+          to: { opacity: 1, transform: "scale(1)" },
+          config: { duration: 500, easing: Ie.easeInOutCubic },
+          delay: e,
+        }))(),
+      );
+    return a.jsx(a.Fragment, {
+      children:
+        u &&
+        a.jsxs("div", {
+          className: Bu,
+          children: [
+            a.jsx(n.div, {
+              className: Au,
+              style: w,
+              children: a.jsxs(a.Fragment, {
+                children: [
+                  h.map((e, t) =>
+                    a.jsx(gi, { style: e, i: t, index: d, classNames: { idle: Tu, main: Eu } }, t),
+                  ),
+                  a.jsx("div", { className: Lu }),
+                ],
+              }),
+            }),
+            t.root.get().freePoints > 0 &&
+              a.jsx(n.div, { className: Du, style: x, children: a.jsx(Ru, {}) }),
+            a.jsx(
+              "div",
+              { className: Ou, children: a.jsx(yu, {}) },
+              null == o ? void 0 : o.chapterID,
+            ),
+            a.jsx(n.div, {
+              className: Wu,
+              style: v,
+              children: a.jsx(nt, { children: a.jsx(R_, {}) }),
+            }),
+          ],
+        }),
+    });
+  }),
+  Vu = () =>
+    a.jsx(_i, {
+      options: { rootId: R.aliases.battle_pass.ChapterChoice("resId") },
+      children: a.jsx(Mu, {}),
+    }),
+  zu = (e, a, t, s, r) => {
+    const n = R.images.gui.maps.icons.battlePass.awards_widget;
+    return r
+      ? `url(${n.$dyn(`${e.toLowerCase()}_${a}${t}_${s}_${r}`)})`
+      : `url(${n.$dyn(`${e.toLowerCase()}_${a}${t}_${s}`)})`;
+  };
+var Fu = ((e) => (
+    (e.Award = "Award"),
+    (e.Ticket = "Ticket"),
+    (e.Coin = "Coin"),
+    (e.Taler = "Taler"),
+    (e.Collection = "Collection"),
+    (e.Commander = "Commander"),
+    e
+  ))(Fu || {}),
+  Hu = ((e) => ((e.Small = "small"), (e.Big = "big"), e))(Hu || {}),
+  $u = ((e) => ((e.None = ""), (e.Small = "s"), (e.Medium = "m"), e))($u || {}),
+  Uu = ((e) => ((e.Border = "border"), (e.Background = "bg"), (e.Icon = "icon"), (e.None = ""), e))(
+    Uu || {},
+  ),
+  Gu = ((e) => (
+    (e.Hover = "Hover"),
+    (e.Disabled = "Disabled"),
+    (e.Triggered = "Triggered"),
+    (e.None = ""),
+    e
+  ))(Gu || {});
+const qu = {
+    base: "Background_8e48022f",
+    bg: "Background_bg_fcef4881",
+    bgDisabled: "Background_bgDisabled_26effab7",
+    bgHover: "Background_bgHover_32967f75",
+    base__big: "Background_base__big_26effab7",
+    base__hovered: "Background_base__hovered_26effab7",
+    fadeInWithScale: "Background_fadeInWithScale_26effab7",
+    slideUp: "Background_slideUp_26effab7",
+    blink: "Background_blink_26effab7",
+    scale: "Background_scale_26effab7",
+    rotate: "Background_rotate_26effab7",
+    windowIn: "Background_windowIn_26effab7",
+    fadeOut: "Background_fadeOut_26effab7",
+    fadeIn: "Background_fadeIn_26effab7",
+  },
+  Xu = ({ size: e, isHover: s, disabled: r = !1, type: n = Fu.Coin }) => {
+    const { breakpoint: i } = je(),
+      o = i.weight >= Ne.medium.weight ? $u.Medium : $u.Small;
+    return a.jsx("div", {
+      className: t(qu.base, qu[`base__${e}`], qu[`base__${e}${n}`], s && qu.base__hovered),
+      children: r
+        ? a.jsx("div", {
+            className: qu.bgDisabled,
+            style: { backgroundImage: zu(n, Uu.Background, Gu.Disabled, e, o) },
+          })
+        : a.jsxs(a.Fragment, {
+            children: [
+              a.jsx("div", {
+                className: qu.bg,
+                style: { backgroundImage: zu(n, Uu.Background, Gu.None, e, o) },
+              }),
+              a.jsx("div", {
+                className: qu.bgHover,
+                style: { backgroundImage: zu(n, Uu.Background, Gu.Hover, e, o) },
+              }),
+            ],
+          }),
+    });
+  },
+  Zu = {
+    base: "Border_3359fba1",
+    border: "Border_b559a98b",
+    borderHover: "Border_borderHover_6143f6b7",
+    base__hovered: "Border_base__hovered_b559a98b",
+    borderDisabled: "Border_borderDisabled_6282d18a",
+    borderDisabled__big: "Border_borderDisabled__big_80fa355b",
+    fadeInWithScale: "Border_fadeInWithScale_b559a98b",
+    slideUp: "Border_slideUp_b559a98b",
+    blink: "Border_blink_b559a98b",
+    scale: "Border_scale_b559a98b",
+    rotate: "Border_rotate_b559a98b",
+    windowIn: "Border_windowIn_b559a98b",
+    fadeOut: "Border_fadeOut_b559a98b",
+    fadeIn: "Border_fadeIn_b559a98b",
+  },
+  Ku = ({ size: e, isHover: s, highlighted: r = !1, disabled: n = !1, type: i = Fu.Coin }) => {
+    const { breakpoint: o } = je(),
+      l = o.weight >= Ne.medium.weight ? $u.Medium : $u.Small;
+    return a.jsx("div", {
+      className: t(Zu.base, Zu[`base__${e}`], s && Zu.base__hovered),
+      children: n
+        ? a.jsx("div", {
+            className: t(Zu.borderDisabled, Zu[`borderDisabled__${e}`]),
+            style: { backgroundImage: zu(i, Uu.Border, Gu.Disabled, e, l) },
+          })
+        : a.jsxs(a.Fragment, {
+            children: [
+              a.jsx("div", {
+                className: Zu.border,
+                style: { backgroundImage: zu(r ? Fu.Collection : i, Uu.Border, Gu.None, e, l) },
+              }),
+              a.jsx("div", {
+                className: Zu.borderHover,
+                style: { backgroundImage: zu(i, Uu.Border, Gu.Hover, e, l) },
+              }),
+            ],
+          }),
+    });
+  },
+  Yu = {
+    base: "CountValue_897d3748",
+    base__big: "CountValue_base__big_94594a84",
+    fadeInWithScale: "CountValue_fadeInWithScale_108ab14",
+    slideUp: "CountValue_slideUp_108ab14",
+    blink: "CountValue_blink_108ab14",
+    scale: "CountValue_scale_108ab14",
+    rotate: "CountValue_rotate_108ab14",
+    windowIn: "CountValue_windowIn_108ab14",
+    fadeOut: "CountValue_fadeOut_108ab14",
+    fadeIn: "CountValue_fadeIn_108ab14",
+  },
+  Qu = ({ state: e, count: s, size: r, maxCount: n = 0 }) => {
+    switch (e) {
+      case em.InProgress:
+        return a.jsx(A, { text: `${s || 0} / ${n}` });
+      case em.Completed:
+        return a.jsx("div", { className: t(Yu.base, Yu[`base__${r}`]) });
+      default:
+        return a.jsx(rt, { format: "integral", value: s });
+    }
+  },
+  Ju = {
+    base: "Count_1153e9f8",
+    base__big: "Count_base__big_4b990a50",
+    base__locked: "Count_base__locked_c07f63fe",
+    base__disabled: "Count_base__disabled_67818843",
+    fadeInWithScale: "Count_fadeInWithScale_d63373f8",
+    slideUp: "Count_slideUp_d63373f8",
+    blink: "Count_blink_d63373f8",
+    scale: "Count_scale_d63373f8",
+    rotate: "Count_rotate_d63373f8",
+    windowIn: "Count_windowIn_d63373f8",
+    fadeOut: "Count_fadeOut_d63373f8",
+    fadeIn: "Count_fadeIn_d63373f8",
+  };
+var em = ((e) => ((e.Default = ""), (e.InProgress = "InProgress"), (e.Completed = "Completed"), e))(
+  em || {},
+);
+const am = ({
+    size: e,
+    count: s,
+    maxCount: r,
+    state: n = "",
+    isLocked: i = !1,
+    disabled: o = !1,
+  }) =>
+    a.jsx("div", {
+      className: t(Ju.base, Ju[`base__${e}`], i && Ju.base__locked, o && Ju.base__disabled),
+      children: a.jsx(Qu, { state: n, size: e, count: s, maxCount: r }),
+    }),
+  tm = {
+    base: "Icon_891882bd",
+    base__big: "Icon_base__big_e04b5410",
+    base__darkened: "Icon_base__darkened_211e4f9f",
+    base__hover: "Icon_base__hover_ab1977b2",
+    base__disabled: "Icon_base__disabled_92482313",
+    fadeInWithScale: "Icon_fadeInWithScale_55a8ab20",
+    slideUp: "Icon_slideUp_55a8ab20",
+    blink: "Icon_blink_55a8ab20",
+    scale: "Icon_scale_55a8ab20",
+    rotate: "Icon_rotate_55a8ab20",
+    windowIn: "Icon_windowIn_55a8ab20",
+    fadeOut: "Icon_fadeOut_55a8ab20",
+    fadeIn: "Icon_fadeIn_55a8ab20",
+  },
+  sm = (e, a, t) => {
+    switch (!0) {
+      case t:
+        return "disabled";
+      case e:
+        return "hover";
+      case a:
+        return "darkened";
+      default:
+        return "";
+    }
+  },
+  rm = ({ size: e, isHover: s, isDark: r = !0, disabled: n = !1, type: i }) => {
+    const { breakpoint: o } = je(),
+      l = o.weight >= Ne.medium.weight ? $u.Medium : $u.Small;
+    return a.jsx("div", {
+      className: t(tm.base, tm[`base__${e}`], tm[`base__${sm(s, r, n)}`]),
+      style: { backgroundImage: zu(i, Uu.Icon, Gu.None, e, i === Fu.Collection ? $u.None : l) },
+    });
+  },
+  nm = {
+    base: "Label_e1274655",
+    base__big: "Label_base__big_a8cc16a4",
+    base__gold: "Label_base__gold_6ef0fe9",
+    base__hover: "Label_base__hover_b5605ac8",
+    base__disabled: "Label_base__disabled_4a0c758c",
+    fadeInWithScale: "Label_fadeInWithScale_e3f8b3ce",
+    slideUp: "Label_slideUp_e3f8b3ce",
+    blink: "Label_blink_e3f8b3ce",
+    scale: "Label_scale_e3f8b3ce",
+    rotate: "Label_rotate_e3f8b3ce",
+    windowIn: "Label_windowIn_e3f8b3ce",
+    fadeOut: "Label_fadeOut_e3f8b3ce",
+    fadeIn: "Label_fadeIn_e3f8b3ce",
+  },
+  im = (e, a) => {
+    switch (!0) {
+      case e:
+        return "disabled";
+      case a:
+        return "hover";
+      default:
+        return "";
+    }
+  },
+  om = ({ size: e, title: s, isHover: r, disabled: n = !1, isGold: i = !1 }) =>
+    a.jsx("div", {
+      className: t(nm.base, nm[`base__${e}`], nm[`base__${im(n, r)}`], i && nm.base__gold),
+      children: s,
+    }),
+  lm = {
+    base: "ChoiceAward_edd74108",
+    base__big: "ChoiceAward_base__big_ca77c409",
+    base__disabled: "ChoiceAward_base__disabled_991de9d",
+    base__hasAppearAnimation: "ChoiceAward_base__hasAppearAnimation_aeaea71d",
+    baseAppear: "ChoiceAward_baseAppear_3f034cd8",
+    shine: "ChoiceAward_shine_2a2a93bd",
+    shine_small_s: "ChoiceAward_shine_small_s_3f034cd8",
+    shine_small_m: "ChoiceAward_shine_small_m_3f034cd8",
+    shine_big_s: "ChoiceAward_shine_big_s_3f034cd8",
+    shine_big_m: "ChoiceAward_shine_big_m_3f034cd8",
+    shine__left: "ChoiceAward_shine__left_9adf4b0f",
+    shine__right: "ChoiceAward_shine__right_872a6406",
+    arrow: "ChoiceAward_arrow_e556b329",
+    blinkShape: "ChoiceAward_blinkShape_4cbfbe8c",
+    blink: "ChoiceAward_blink_d3e21e1f",
+    blinker: "ChoiceAward_blinker_3f034cd8",
+    fadeInWithScale: "ChoiceAward_fadeInWithScale_3f034cd8",
+    slideUp: "ChoiceAward_slideUp_3f034cd8",
+    scale: "ChoiceAward_scale_3f034cd8",
+    rotate: "ChoiceAward_rotate_3f034cd8",
+    windowIn: "ChoiceAward_windowIn_3f034cd8",
+    fadeOut: "ChoiceAward_fadeOut_3f034cd8",
+    fadeIn: "ChoiceAward_fadeIn_3f034cd8",
+  },
+  cm = R.strings.battle_pass.awardsWidget,
+  dm = ({ count: s, disabled: r = !1, onClick: n, size: i }) => {
+    const [o, l] = e.useState(!1),
+      c = 1 === s ? cm.title.awardSingle() : cm.title.awardMultiple(),
+      d = r ? cm.description.awardDisabled() : cm.description.award(),
+      _ = e.useCallback(() => {
+        r || (Se.click(), n());
+      }, [r, n]);
+    return a.jsx(oa, {
+      body: d,
+      isEnabled: Boolean(d),
+      children: a.jsxs("div", {
+        className: t(
+          lm.base,
+          lm[`base__${i}`],
+          r ? lm.base__disabled : lm.base__hasAppearAnimation,
+        ),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), l(!0));
+        },
+        onMouseLeave: () => {
+          l(!1);
+        },
+        onClick: _,
+        children: [
+          a.jsx(Ku, { size: i, isHover: o, type: Fu.Award, disabled: r }),
+          a.jsx(Xu, { size: i, isHover: o, type: Fu.Award, disabled: r }),
+          a.jsx(rm, { size: i, isHover: o, type: Fu.Award, disabled: r, isDark: !1 }),
+          a.jsx(am, { size: i, count: s, disabled: r }),
+          a.jsx(om, { size: i, isHover: o, title: c, disabled: r, isGold: !0 }),
+          !r &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx("div", { className: t(lm.shine, lm.shine__left) }),
+                a.jsx("div", { className: t(lm.shine, lm.shine__right) }),
+                a.jsx("div", { className: lm.arrow }),
+                a.jsx("div", {
+                  className: lm.blinkShape,
+                  children: a.jsx("div", { className: lm.blink }),
+                }),
+              ],
+            }),
+        ],
+      }),
+    });
+  },
+  _m = {
+    base: "CoinAward_f5a8f424",
+    base__big: "CoinAward_base__big_df55371",
+    fadeInWithScale: "CoinAward_fadeInWithScale_a9001336",
+    slideUp: "CoinAward_slideUp_a9001336",
+    blink: "CoinAward_blink_a9001336",
+    scale: "CoinAward_scale_a9001336",
+    rotate: "CoinAward_rotate_a9001336",
+    windowIn: "CoinAward_windowIn_a9001336",
+    fadeOut: "CoinAward_fadeOut_a9001336",
+    fadeIn: "CoinAward_fadeIn_a9001336",
+  },
+  um = R.strings.battle_pass.awardsWidget,
+  mm = ({ count: s, onClick: r, size: n }) => {
+    const [i, o] = e.useState(!1);
+    return a.jsx(oa, {
+      body: um.description.coin(),
+      isEnabled: Boolean(um.description.coin()),
+      children: a.jsxs("div", {
+        className: t(_m.base, _m[`base__${n}`]),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), o(!0));
+        },
+        onMouseLeave: () => {
+          o(!1);
+        },
+        onClick: () => {
+          (Se.click(), r());
+        },
+        children: [
+          a.jsx(Ku, { size: n, isHover: i }),
+          a.jsx(Xu, { size: n, isHover: i }),
+          a.jsx(rm, { size: n, isHover: i, type: Fu.Coin }),
+          a.jsx(am, { size: n, count: s }),
+          a.jsx(om, { size: n, isHover: i, title: um.title.coin() }),
+        ],
+      }),
+    });
+  },
+  pm = {
+    base: "CollectionAward_7e81ced4",
+    base__big: "CollectionAward_base__big_e54e4774",
+    bubble: "CollectionAward_bubble_6b106ffd",
+    fadeInWithScale: "CollectionAward_fadeInWithScale_4cd724f9",
+    slideUp: "CollectionAward_slideUp_4cd724f9",
+    blink: "CollectionAward_blink_4cd724f9",
+    scale: "CollectionAward_scale_4cd724f9",
+    rotate: "CollectionAward_rotate_4cd724f9",
+    windowIn: "CollectionAward_windowIn_4cd724f9",
+    fadeOut: "CollectionAward_fadeOut_4cd724f9",
+    fadeIn: "CollectionAward_fadeIn_4cd724f9",
+  },
+  hm = R.strings.battle_pass.awardsWidget,
+  bm = ({ count: s, maxCount: r, newItemsCount: n, hasTrigger: i, size: o, onClick: l }) => {
+    const [c, d] = e.useState(!1),
+      _ = r === s,
+      u = o === Hu.Small && i,
+      m = _ ? hm.description.collectionCompleted() : hm.description.collection(),
+      p = H(() => {
+        (Se.click(), l());
+      });
+    return a.jsx(oa, {
+      body: m,
+      isEnabled: Boolean(m),
+      children: a.jsxs("div", {
+        className: t(pm.base, pm[`base__${o}`]),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), d(!0));
+        },
+        onMouseLeave: () => {
+          d(!1);
+        },
+        onClick: p,
+        children: [
+          a.jsx(Ku, { size: o, isHover: c, type: Fu.Coin, highlighted: u }),
+          a.jsx(Xu, { size: o, isHover: c }),
+          a.jsx(rm, { size: o, isHover: c, type: Fu.Collection }),
+          a.jsx(am, { size: o, count: s, maxCount: r, state: _ ? em.Completed : em.InProgress }),
+          a.jsx(om, { size: o, isHover: c, title: hm.title.collection() }),
+          n > 0 && a.jsx("div", { className: pm.bubble, children: a.jsx(it, { size: "small" }) }),
+        ],
+      }),
+    });
+  },
+  fm = {
+    base: "CommanderAward_d7dc7d83",
+    icon: "CommanderAward_icon_f54191ae",
+    base__hover: "CommanderAward_base__hover_9c46950e",
+    fadeInWithScale: "CommanderAward_fadeInWithScale_9c46950e",
+    slideUp: "CommanderAward_slideUp_9c46950e",
+    blink: "CommanderAward_blink_9c46950e",
+    scale: "CommanderAward_scale_9c46950e",
+    rotate: "CommanderAward_rotate_9c46950e",
+    windowIn: "CommanderAward_windowIn_9c46950e",
+    fadeOut: "CommanderAward_fadeOut_9c46950e",
+    fadeIn: "CommanderAward_fadeIn_9c46950e",
+  },
+  gm = R.strings.battle_pass.awardsWidget,
+  vm = ({ onClick: s, size: r, tankmenScreenID: n }) => {
+    const [i, o] = e.useState(!1),
+      l = gm.description.commander(),
+      c =
+        R.images.gui.maps.icons.battlePass.awards_widget.$dyn(`commander_icon_small_${n}`) ||
+        R.images.gui.maps.icons.battlePass.awards_widget.commander_icon_small();
+    return a.jsx(oa, {
+      body: l,
+      isEnabled: Boolean(l),
+      children: a.jsxs("div", {
+        className: t(fm.base, fm[`base__${r}`], i && fm.base__hover),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), o(!0));
+        },
+        onMouseLeave: () => o(!1),
+        onClick: () => {
+          (Se.click(), s());
+        },
+        children: [
+          a.jsx(Ku, { size: r, isHover: i }),
+          a.jsx(Xu, { size: r, isHover: i }),
+          a.jsx(om, { size: r, isHover: i, title: gm.title.commander() }),
+          a.jsx("div", { className: fm.icon, style: { backgroundImage: `url(${c})` } }),
+        ],
+      }),
+    });
+  },
+  xm = {
+    base: "TalerAward_c1966527",
+    base__big: "TalerAward_base__big_75f7f954",
+    fadeInWithScale: "TalerAward_fadeInWithScale_7a3c6bdb",
+    slideUp: "TalerAward_slideUp_7a3c6bdb",
+    blink: "TalerAward_blink_7a3c6bdb",
+    scale: "TalerAward_scale_7a3c6bdb",
+    rotate: "TalerAward_rotate_7a3c6bdb",
+    windowIn: "TalerAward_windowIn_7a3c6bdb",
+    fadeOut: "TalerAward_fadeOut_7a3c6bdb",
+    fadeIn: "TalerAward_fadeIn_7a3c6bdb",
+  },
+  wm = R.strings.battle_pass.awardsWidget,
+  Cm = ({ count: s, onClick: r, size: n }) => {
+    const [i, o] = e.useState(!1);
+    return a.jsx(oa, {
+      body: wm.description.taler(),
+      children: a.jsxs("div", {
+        className: t(xm.base, xm[`base__${n}`], i && xm.base__hover),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), o(!0));
+        },
+        onMouseLeave: () => {
+          o(!1);
+        },
+        onClick: () => {
+          (Se.click(), r());
+        },
+        children: [
+          a.jsx(Ku, { size: n, isHover: i }),
+          a.jsx(Xu, { size: n, isHover: i }),
+          a.jsx(rm, { size: n, isHover: i, type: Fu.Taler }),
+          a.jsx(am, { size: n, count: s }),
+          a.jsx(om, { size: n, isHover: i, title: wm.title.taler() }),
+        ],
+      }),
+    });
+  },
+  ym = {
+    base: "TicketAward_af869a5b",
+    base__big: "TicketAward_base__big_6ea086b3",
+    base__hasAppearAnimation: "TicketAward_base__hasAppearAnimation_94749694",
+    baseAppear: "TicketAward_baseAppear_5b80ab82",
+    shine: "TicketAward_shine_7589460e",
+    shine_small_s: "TicketAward_shine_small_s_5b80ab82",
+    shine_small_m: "TicketAward_shine_small_m_5b80ab82",
+    shine_big_s: "TicketAward_shine_big_s_5b80ab82",
+    shine_big_m: "TicketAward_shine_big_m_5b80ab82",
+    shine__left: "TicketAward_shine__left_176547fa",
+    shine__right: "TicketAward_shine__right_d221ffc5",
+    arrow: "TicketAward_arrow_ae4102b5",
+    blinkShape: "TicketAward_blinkShape_b3a9e256",
+    blink: "TicketAward_blink_fde51f1e",
+    blinker: "TicketAward_blinker_5b80ab82",
+    fadeInWithScale: "TicketAward_fadeInWithScale_5b80ab82",
+    slideUp: "TicketAward_slideUp_5b80ab82",
+    scale: "TicketAward_scale_5b80ab82",
+    rotate: "TicketAward_rotate_5b80ab82",
+    windowIn: "TicketAward_windowIn_5b80ab82",
+    fadeOut: "TicketAward_fadeOut_5b80ab82",
+    fadeIn: "TicketAward_fadeIn_5b80ab82",
+  },
+  jm = R.strings.battle_pass.awardsWidget,
+  Nm = ({ count: s, onClick: r, size: n }) => {
+    const [i, o] = e.useState(!1),
+      l = Boolean(s),
+      c = l ? Fu.Ticket : void 0;
+    return a.jsx(oa, {
+      body: jm.description.ticket(),
+      isEnabled: Boolean(jm.description.ticket()),
+      children: a.jsxs("div", {
+        className: t(ym.base, ym[`base__${n}`], l && ym.base__hasAppearAnimation),
+        onMouseEnter: () => {
+          (Se.sound(R.sounds.bp_highlight_02()), o(!0));
+        },
+        onMouseLeave: () => {
+          o(!1);
+        },
+        onClick: () => {
+          (Se.click(), r());
+        },
+        children: [
+          a.jsx(Ku, { size: n, isHover: i, type: c }),
+          a.jsx(Xu, { size: n, isHover: i, type: c }),
+          a.jsx(rm, { size: n, isHover: i, type: Fu.Ticket, isDark: !l }),
+          a.jsx(am, { size: n, count: s }),
+          a.jsx(om, { size: n, isHover: i, title: jm.title.ticket(), isGold: l }),
+          l &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx("div", { className: t(ym.shine, ym.shine__left) }),
+                a.jsx("div", { className: t(ym.shine, ym.shine__right) }),
+                a.jsx("div", { className: ym.arrow }),
+                a.jsx("div", {
+                  className: ym.blinkShape,
+                  children: a.jsx("div", { className: ym.blink }),
+                }),
+              ],
+            }),
+        ],
+      }),
+    });
+  },
+  [Sm, km] = L()(
+    ({ observableModel: e, externalModel: a }) => {
+      const t = { root: e.object(), collectionEntryPoint: e.object("collectionEntryPoint") },
+        r = s((e) => {
+          const {
+              talerCount: s,
+              notChosenRewardCount: r,
+              bpcoinCount: n,
+              ticketsCount: i,
+              isChooseRewardsEnabled: o,
+              tankmenScreenID: l,
+              isTalerEnabled: c,
+              isBpCoinEnabled: d,
+              isTicketsEnabled: _,
+            } = t.root.get(),
+            {
+              collectionItemCount: u,
+              newCollectionItemCount: m,
+              maxCollectionItemCount: p,
+              isFirstEnter: h,
+              isCollectionsEnabled: b,
+            } = t.collectionEntryPoint.get();
+          return [
+            {
+              type: Fu.Award,
+              props: {
+                size: e,
+                count: r,
+                disabled: !o,
+                onClick: a.createCallbackNoArgs("onTakeRewardsClick"),
+              },
+              condition: r > 0,
+            },
+            {
+              type: Fu.Ticket,
+              props: { size: e, count: i, onClick: a.createCallbackNoArgs("showTickets") },
+              condition: _,
+            },
+            {
+              type: Fu.Coin,
+              props: { size: e, count: n, onClick: a.createCallbackNoArgs("onBpcoinClick") },
+              condition: d,
+            },
+            {
+              type: Fu.Taler,
+              props: { size: e, count: s, onClick: a.createCallbackNoArgs("showTalers") },
+              condition: c,
+            },
+            {
+              type: Fu.Collection,
+              props: {
+                size: e,
+                count: u,
+                maxCount: p,
+                newItemsCount: m,
+                hasTrigger: h,
+                onClick: a.createCallbackNoArgs("collectionEntryPoint.openCollection"),
+              },
+              condition: b,
+            },
+            {
+              type: Fu.Commander,
+              props: {
+                size: e,
+                count: 0,
+                tankmenScreenID: l,
+                onClick: a.createCallbackNoArgs("showTankmen"),
+              },
+              condition: 0 !== l,
+            },
+          ];
+        });
+      return { ...t, computes: { awardsList: r } };
+    },
+    ({ externalModel: e }) => ({
+      takeRewards: e.createCallbackNoArgs("onTakeRewardsClick"),
+      openGoodsForBpCoins: e.createCallbackNoArgs("onBpcoinClick"),
+      openGoodsForBpTalers: e.createCallbackNoArgs("showTalers"),
+      openCollection: e.createCallbackNoArgs("collectionEntryPoint.openCollection"),
+    }),
+  ),
+  Im = {
+    base: "AwardsWrapper_f2595641",
+    award: "AwardsWrapper_award_cc628048",
+    base__big: "AwardsWrapper_base__big_b50d5668",
+    fadeInWithScale: "AwardsWrapper_fadeInWithScale_b50d5668",
+    slideUp: "AwardsWrapper_slideUp_b50d5668",
+    blink: "AwardsWrapper_blink_b50d5668",
+    scale: "AwardsWrapper_scale_b50d5668",
+    rotate: "AwardsWrapper_rotate_b50d5668",
+    windowIn: "AwardsWrapper_windowIn_b50d5668",
+    fadeOut: "AwardsWrapper_fadeOut_b50d5668",
+    fadeIn: "AwardsWrapper_fadeIn_b50d5668",
+  },
+  Pm = (e, t) => {
+    switch (e) {
+      case Fu.Award:
+        return a.jsx(dm, { ...t });
+      case Fu.Ticket:
+        return a.jsx(Nm, { ...t });
+      case Fu.Coin:
+        return a.jsx(mm, { ...t });
+      case Fu.Taler:
+        return a.jsx(Cm, { ...t });
+      case Fu.Collection:
+        return a.jsx(bm, { ...t });
+      case Fu.Commander:
+        return a.jsx(vm, { ...t });
+      default:
+        return (console.warn("Unknown award type: ", e), null);
+    }
+  },
+  Rm = i(({ size: e, classNames: s }) => {
+    const { model: r } = km();
+    return a.jsx("div", {
+      className: t(Im.base, Im[`base__${e}`], null == s ? void 0 : s.base),
+      children: O(
+        r.computes.awardsList(e),
+        (e) =>
+          e.condition &&
+          a.jsx(
+            "div",
+            { className: t(Im.award, null == s ? void 0 : s.award), children: Pm(e.type, e.props) },
+            e.type,
+          ),
+      ),
+    });
+  }),
+  Bm = ({ rootId: e, size: t = Hu.Small, context: s = "model", classNames: r }) =>
+    a.jsx(Sm, {
+      options: { context: s, rootId: e },
+      children: a.jsx(Rm, { size: t, classNames: r }),
+    }),
+  [Am, Em] = L()(
+    ({ observableModel: e }) => {
+      const a = { root: e.object(), nowRewards: e.array("rewards.nowRewards.items") },
+        t = s(() => a.nowRewards.get(), { equals: D });
+      return { ...a, computes: { rewardList: t } };
+    },
+    ({ externalModel: e }) => ({
+      close: e.createCallbackNoArgs("onClose"),
+      takeRewards: e.createCallbackNoArgs("onTakeRewardsClick"),
+      showPreviewVehicle: e.createCallbackNoArgs("onPreviewVehicle"),
+      showTankmen: e.createCallbackNoArgs("showTankmen"),
+      showHangar: e.createCallbackNoArgs("showHangar"),
+    }),
+  ),
+  Tm = "selectableRewardsState",
+  Lm = "finalState",
+  Dm = "FinalStateLabel_icon_2cf5ceb5",
+  Om = "FinalStateLabel_greenLight_7967eb2f",
+  Wm = "FinalStateLabel_text_f6f99450",
+  Mm = () =>
+    a.jsxs(a.Fragment, {
+      children: [
+        a.jsx("div", { className: Dm }),
+        a.jsx("div", { className: Om }),
+        a.jsx("div", {
+          className: Wm,
+          children: R.strings.battle_pass.holidayFinalScreen.finalState.label(),
+        }),
+      ],
+    }),
+  Vm = {
+    base: "Final_fe33f216",
+    controls: "Final_controls_ff63bbde",
+    label: "Final_label_d1e455c6",
+    base__finalState: "Final_base__finalState_a3c6efa6",
+    text: "Final_text_78e61012",
+    icon: "Final_icon_2e669607",
+    greenLight: "Final_greenLight_e3a16077",
+    finalStateText: "Final_finalStateText_d9b1929a",
+    buttonWrapper: "Final_buttonWrapper_a582995e",
+    button: "Final_button_dee53b83",
+    fadeInWithScale: "Final_fadeInWithScale_a3c6efa6",
+    slideUp: "Final_slideUp_a3c6efa6",
+    blink: "Final_blink_a3c6efa6",
+    scale: "Final_scale_a3c6efa6",
+    rotate: "Final_rotate_a3c6efa6",
+    windowIn: "Final_windowIn_a3c6efa6",
+    fadeOut: "Final_fadeOut_a3c6efa6",
+    fadeIn: "Final_fadeIn_a3c6efa6",
+  },
+  zm = R.strings.battle_pass.holidayFinalScreen,
+  Fm = i(() => {
+    const { model: e, controls: s } = Em(),
+      { takeRewards: r, showHangar: n } = s,
+      { state: i, finalRewardType: o } = e.root.get(),
+      l = i === Tm;
+    return a.jsx("div", {
+      className: t(Vm.base, Vm[`base__${i}`]),
+      children: a.jsxs("div", {
+        className: Vm.controls,
+        children: [
+          a.jsx("div", {
+            className: Vm.label,
+            children: l
+              ? a.jsx("div", { className: Vm.text, children: zm.selectableRewardsState.label() })
+              : a.jsx(Mm, {}),
+          }),
+          a.jsx("div", {
+            className: Vm.buttonWrapper,
+            children: a.jsx(ot, {
+              size: lt.medium,
+              mixClass: Vm.button,
+              onClick: () => {
+                l ? r() : n();
+              },
+              children: (() => {
+                switch (i) {
+                  case Tm:
+                    return zm.selectableRewardsState.button();
+                  case Lm:
+                    return o === os.Vehicle
+                      ? zm.finalState.button.showVehicle()
+                      : zm.finalState.button.showHangar();
+                  default:
+                    return "";
+                }
+              })(),
+            }),
+          }),
+        ],
+      }),
+    });
+  }),
+  Hm = "Divider_3683d6e2",
+  $m = "Divider_divider__right_24d5147b",
+  Um = ({ isRight: e = !1 }) => a.jsx("div", { className: t(Hm, e && $m) }),
+  Gm = "Title_ec301c01",
+  qm = "Title_text_65e6762b",
+  Xm = ({ text: e }) =>
+    a.jsxs("div", {
+      className: Gm,
+      children: [
+        a.jsx(Um, {}),
+        a.jsx("div", { className: qm, children: e }),
+        a.jsx(Um, { isRight: !0 }),
+      ],
+    }),
+  Zm = {
+    base: "Purchase_78d7de59",
+    content: "Purchase_content_1a1b801",
+    preview: "Purchase_preview_a16bc569",
+    shadow: "Purchase_shadow_87ba71b",
+    visibleRewards: "Purchase_visibleRewards_8b26a786",
+    title: "Purchase_title_8d5affdf",
+    description: "Purchase_description_34691989",
+    rewardButton: "Purchase_rewardButton_bc4b54c4",
+  },
+  Km = R.strings.battle_pass.holidayFinalScreen.buyState,
+  Ym = (e) => ({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 400 + 100 * e,
+    config: { duration: 400 },
+    onStart: () => {
+      Se.sound(R.sounds.bp_reward());
+    },
+  }),
+  Qm = i(() => {
+    const { model: e, controls: t } = Em(),
+      { chapterID: s, finalRewardType: i } = e.root.get(),
+      { showPreviewVehicle: o } = t,
+      l = me(),
+      c = e.computes.rewardList(),
+      d = i === os.Vehicle,
+      {
+        breakpoint: { weight: _ },
+      } = je(),
+      u = _ <= Ne.small.weight ? ve.Small : ve.Big,
+      m = c.length > 9 ? [...ct(c, 0, 9)] : c,
+      p = r(Ym(m.length)),
+      h = c.length - m.length;
+    return a.jsxs("div", {
+      className: Zm.base,
+      children: [
+        d &&
+          a.jsx("div", {
+            className: Zm.preview,
+            children: a.jsx(dt, { type: "preview", onClick: o }),
+          }),
+        a.jsxs("div", {
+          className: Zm.content,
+          children: [
+            a.jsx("div", { className: Zm.shadow }),
+            a.jsx("div", { className: Zm.title, children: a.jsx(Xm, { text: Km.title() }) }),
+            a.jsx("div", { className: Zm.description, children: Km.description() }),
+            a.jsx("div", {
+              className: Zm.visibleRewards,
+              children: O(m, (e, t) =>
+                a.jsx(
+                  Wn,
+                  {
+                    animationConfig: Ym(t),
+                    children: a.jsx(ge, { ...qt(e, u), className: Zm.reward }),
+                  },
+                  `${e.item}_${t}`,
+                ),
+              ),
+            }),
+            h > 0 &&
+              a.jsx(n.div, {
+                style: p,
+                children: a.jsx(ot, {
+                  type: _t.ghost,
+                  size: lt.medium,
+                  mixClass: Zm.rewardButton,
+                  onClick: () => {
+                    l.push(as.battlePass.buyPassRewards, { chapterID: s });
+                  },
+                  children: a.jsx(A, { text: Km.moreRewards(), binding: { count: h } }),
+                }),
+              }),
+          ],
+        }),
+      ],
+    });
+  }),
+  Jm = "Rewards_full_eea97d7",
+  ep = { context: "model.rewards" },
+  ap = i(() =>
+    a.jsx(lr, { options: ep, children: a.jsx("div", { className: Jm, children: a.jsx(Ar, {}) }) }),
+  ),
+  tp = "Tankmen_9641cad5",
+  sp = "Tankmen_image_208678b",
+  rp = "Tankmen_title_ebf30d50",
+  np = "Tankmen_description_e7d7080c",
+  ip = "Tankmen_tankmenBtn_96878805",
+  op = "Tankmen_button_e7e9840c",
+  lp = "Tankmen_blink_22bb5961",
+  cp = R.strings.battle_pass.holidayFinalScreen.tankmenState,
+  dp = i(() => {
+    const { controls: e } = Em(),
+      { showTankmen: t } = e;
+    return a.jsxs("div", {
+      className: tp,
+      children: [
+        a.jsx("div", { className: sp }),
+        a.jsx("div", { className: rp, children: a.jsx(Xm, { text: cp.title() }) }),
+        a.jsx("div", { className: np, children: cp.description() }),
+        a.jsx("div", {
+          className: ip,
+          children: a.jsxs(ot, {
+            type: _t.main,
+            size: lt.medium,
+            mixClass: op,
+            onClick: t,
+            children: [a.jsx("div", { className: lp }), cp.tankmenButton()],
+          }),
+        }),
+      ],
+    });
+  }),
+  _p = i(() => {
+    const { model: e } = Em(),
+      { state: t } = e.root.get();
+    switch (t) {
+      case "buyState":
+        return a.jsx(Qm, {});
+      case "rewardsState":
+        return a.jsx(ap, {});
+      case "tankmenState":
+        return a.jsx(dp, {});
+      case Tm:
+      case Lm:
+        return a.jsx(Fm, {});
+      default:
+        return (console.warn("Unknown state ", t), null);
+    }
+  }),
+  up = "Footer_5f98e398",
+  mp = "Footer_light_2fc739c7",
+  pp = "Footer_buttonWrapper_fbd12995",
+  hp = "Footer_button_9e4f9bc",
+  bp = "Footer_blink_106ec98e",
+  fp = R.strings.battle_pass.holidayFinalScreen.buyState,
+  gp = i(() => {
+    const { model: e } = Em(),
+      { isSeasonEndingSoon: t, chapterID: s } = e.root.get(),
+      r = me();
+    return a.jsxs("div", {
+      className: up,
+      children: [
+        a.jsx("div", { className: mp }),
+        a.jsx("div", {
+          className: pp,
+          children: a.jsxs(ot, {
+            type: _t.main,
+            size: lt.medium,
+            mixClass: hp,
+            onClick: () => {
+              r.push(as.battlePass.buyPass, { chapterID: s });
+            },
+            children: [t && a.jsx("div", { className: bp }), fp.buyButton()],
+          }),
+        }),
+      ],
+    });
+  }),
+  vp = "Header_add5cf9d",
+  xp = "Header_title_1435c6ee",
+  wp = "Header_description_e959461d",
+  Cp = ({ title: e, description: t }) =>
+    a.jsxs("div", {
+      className: vp,
+      children: [
+        a.jsx("div", { className: xp, children: e }),
+        a.jsx("div", { className: wp, children: t }),
+      ],
+    }),
+  yp = {
+    base: "App_ef84fef",
+    base__rewardsState: "App_base__rewardsState_a9a568ab",
+    background: "App_background_a2d1b7ea",
+    base__tankmenState: "App_base__tankmenState_0",
+    additionalAnimation: "App_additionalAnimation_eb290d79",
+    fadeIn: "App_fadeIn_0",
+    header: "App_header_4716088",
+    awards: "App_awards_2541e2b5",
+    footer: "App_footer_e521ba53",
+    base__buyState: "App_base__buyState_0",
+    fadeInWithScale: "App_fadeInWithScale_0",
+    slideUp: "App_slideUp_0",
+    blink: "App_blink_0",
+    scale: "App_scale_0",
+    rotate: "App_rotate_0",
+    windowIn: "App_windowIn_0",
+    fadeOut: "App_fadeOut_0",
+  },
+  jp = R.strings.battle_pass,
+  Np = i(() => {
+    const [s, r] = e.useState(!1),
+      { model: n } = Em(),
+      { state: i, chapterID: o } = n.root.get(),
+      l = me();
+    return (
+      e.useEffect(() => {
+        (async () => {
+          (await Xt(), r(!0));
+        })();
+      }, []),
+      he(T.ESCAPE, () => l.goBack()),
+      a.jsxs("div", {
+        className: t(yp.base, yp[`base__${i}`]),
+        children: [
+          a.jsx("div", { className: yp.background }),
+          s &&
+            a.jsxs("div", {
+              className: yp.additionalAnimation,
+              children: [
+                a.jsxs("div", {
+                  className: yp.header,
+                  children: [
+                    a.jsx(Cp, {
+                      title: a.jsx(A, {
+                        text: jp.holidayFinalScreen.chapter(),
+                        binding: { chapterName: jp.chapter.fullNameUppercased.$num(o) },
+                      }),
+                      description: jp.holidayFinalScreen.completed(),
+                    }),
+                    a.jsx("div", {
+                      className: yp.awards,
+                      children: a.jsx(Bm, {
+                        rootId: R.aliases.battle_pass.HolidayFinal("resId"),
+                        context: "model.awardsWidget",
+                      }),
+                    }),
+                  ],
+                }),
+                a.jsx(_p, {}),
+                a.jsx("div", { className: yp.footer, children: a.jsx(gp, {}) }),
+              ],
+            }),
+        ],
+      })
+    );
+  }),
+  Sp = () =>
+    a.jsx(Am, {
+      options: { rootId: R.aliases.battle_pass.HolidayFinal("resId") },
+      children: a.jsx(Np, {}),
+    }),
+  kp = 1e3,
+  Ip = {
+    ...mt,
+    withStack: !0,
+    type: ut.Simple,
+    delta: { duration: 500, delay: 300 },
+    line: { duration: 500, delay: 300 },
+  },
+  Pp = {
+    ...pt,
+    line: { ...pt.line, bgColorFinished: "#000000" },
+    pattern: { ...pt.pattern, bgImageFinished: pt.bgImageBase },
+  };
+var Rp = ((e) => (
+  (e.FillProgressMax = "fillProgressMax"),
+  (e.RunCycle = "runCycle"),
+  (e.ResetProgress = "resetProgress"),
+  (e.RefillProgress = "refillProgress"),
+  (e.Idle = "idle"),
+  e
+))(Rp || {});
+const Bp = {
+  fillProgressMax: { nextStep: "runCycle", delay: kp },
+  runCycle: { nextStep: "resetProgress", delay: 2200 },
+  resetProgress: { nextStep: "refillProgress", delay: kp },
+  refillProgress: { nextStep: "idle", delay: kp },
+};
+var Ap = ((e) => (
+    (e.COMPLETED = "completed"),
+    (e.IN_PROGRESS = "inProgress"),
+    (e.NOT_STARTED = "notStarted"),
+    e
+  ))(Ap || {}),
+  Ep = ((e) => (
+    (e.NotAvailable = "notAvailable"),
+    (e.PurchasingIP = "purchasingIP"),
+    (e.ExtraChapter = "extraChapter"),
+    e
+  ))(Ep || {}),
+  Tp = ((e) => ((e.left = "left"), (e.right = "right"), e))(Tp || {}),
+  Lp = ((e) => (
+    (e[(e.Active = 0)] = "Active"),
+    (e[(e.Paused = 1)] = "Paused"),
+    (e[(e.Completed = 2)] = "Completed"),
+    (e[(e.NotStarted = 3)] = "NotStarted"),
+    e
+  ))(Lp || {}),
+  Dp = ((e) => (
+    (e[(e.Locked = 0)] = "Locked"),
+    (e[(e.Unlocked = 1)] = "Unlocked"),
+    (e[(e.Paused = 2)] = "Paused"),
+    e
+  ))(Dp || {});
+const Op = {
+    "--small-card-width": "140rem",
+    "--small-current-card-width": "224rem",
+    "--medium-card-width": "220rem",
+    "--medium-current-card-width": "340rem",
+    "--extra-large-card-width": "276rem",
+  },
+  Wp = (e, a = !1) =>
+    a
+      ? e < Ne.medium.weight
+        ? 224
+        : 340
+      : e < Ne.medium.weight
+        ? 140
+        : e < Ne.extraLarge.weight
+          ? 220
+          : 276,
+  [Mp, Vp] = L()(
+    ({ observableModel: e }) => {
+      const a = {
+          root: e.object(),
+          levels: e.array("levels"),
+          chapters: e.array("chapters"),
+          animationStep: o.box(Rp.Idle),
+        },
+        t = s((e) => {
+          const t = a.levels.get(),
+            s = ht(t, e - 1);
+          s || console.warn(`level info not found for number: ${e}`);
+          const r = t.length;
+          return { ...s, maxLevel: r, isFirstLevel: 1 === e, isLastLevel: e === r };
+        }),
+        r = s((e) => {
+          const a = t(e);
+          return O(a.rewards, (e) => ({ ...e }));
+        }),
+        n = s((e) => {
+          const {
+              currentLevel: s,
+              currentLevelPoints: r,
+              previousLevel: n,
+              postProgressionStatus: i,
+            } = a.root.get(),
+            o = a.animationStep.get();
+          if ([Rp.FillProgressMax, Rp.RunCycle].includes(o))
+            return e === n ? Ap.IN_PROGRESS : Ap.COMPLETED;
+          const { levelPoints: l, maxLevel: c } = t(e);
+          return e < s || (s === c && r === l * c)
+            ? Ap.COMPLETED
+            : e === s && (i !== Dp.Locked || r > 0)
+              ? Ap.IN_PROGRESS
+              : Ap.NOT_STARTED;
+        }),
+        i = s((e) => {
+          const { postProgressionStatus: t } = a.root.get(),
+            s = n(e);
+          return { cardStatus: s, isDisabled: t !== Dp.Unlocked && s === Ap.NOT_STARTED };
+        }),
+        l = s(
+          () =>
+            _()
+              ? m().length && p() && h()
+                ? Ep.ExtraChapter
+                : u()
+                  ? Ep.PurchasingIP
+                  : void 0
+              : Ep.NotAvailable,
+          { equals: D },
+        ),
+        c = s(() => we(a.chapters.get(), (e) => e.isRegular), { equals: D }),
+        d = s(
+          () => we(a.chapters.get(), (e) => e.isRegular && e.chapterStatus === Lp.Completed).length,
+          { equals: D },
+        ),
+        _ = s(() => d() === c().length),
+        u = s(() => Pe(a.chapters.get(), (e) => !e.isBattlePassPurchased)),
+        m = s(() => we(a.chapters.get(), (e) => !e.isRegular)),
+        p = s(() => Pe(m(), (e) => e.chapterStatus !== Lp.Active)),
+        h = s(() => Pe(m(), (e) => e.chapterStatus !== Lp.Completed)),
+        b = s(() => {
+          const { currentLevel: e, currentLevelPoints: t } = a.root.get(),
+            s = e - 1;
+          return Ee(
+            a.levels.get(),
+            (e, { levelPoints: a }, r) => (r < s ? e + a : r === s ? e + t : e),
+            0,
+          );
+        }),
+        f = s(() => Ee(a.levels.get(), (e, { levelPoints: a }) => e + a, 0)),
+        g = s(() => {
+          const {
+            currentLevel: e,
+            currentLevelPoints: t,
+            previousLevel: s,
+            previousLevelPoints: r,
+          } = a.root.get();
+          return e !== s || t !== r;
+        }),
+        v = s(() => {
+          const { cyclesCompletedCount: e, previousCyclesCompletedCount: t } = a.root.get();
+          return e > t;
+        }),
+        x = s((e) => {
+          const {
+              currentLevel: s,
+              currentLevelPoints: r,
+              previousLevel: n,
+              previousLevelPoints: i,
+              postProgressionStatus: o,
+            } = a.root.get(),
+            l = a.animationStep.get(),
+            { levelPoints: c, maxLevel: d } = t(s),
+            { levelPoints: _ } = t(n),
+            u = v(),
+            m = o !== Dp.Locked,
+            [p = 0, h = 0] = ((e, a) => {
+              const t = Wp(e),
+                s = Wp(e, a);
+              return [t, a ? s : t];
+            })(e, m),
+            b = p * (d - 1) + h,
+            f = (
+              (e, a) =>
+              (t, s, r, n = !1) =>
+                e * (t - 1) + ((n ? e : a) / r) * s
+            )(p, h),
+            g = !u && n < s;
+          return {
+            progressValue: [Rp.FillProgressMax, Rp.RunCycle].includes(l) ? b : f(s, r, c),
+            previousProgressValue: l === Rp.ResetProgress ? 0 : f(n, i, _, g),
+            maxProgressValue: b,
+          };
+        }),
+        w = s(() => {
+          const e = we(
+            m(),
+            (e) =>
+              (e.chapterStatus === Lp.Active || e.chapterStatus === Lp.Completed) &&
+              !e.isBattlePassPurchased,
+          );
+          return e.length > 0 ? e : we(a.chapters.get(), (e) => !e.isBattlePassPurchased);
+        });
+      return {
+        ...a,
+        computes: {
+          footerState: l,
+          regularChapters: c,
+          completedRegularChaptersCount: d,
+          extraChapters: m,
+          cardStates: i,
+          levelInfo: t,
+          levelRewards: r,
+          currentPointsInChapter: b,
+          totalPointsInChapter: f,
+          progressChanged: g,
+          cycleChanged: v,
+          getProgressValues: x,
+          chaptersForPurchase: w,
+        },
+      };
+    },
+    ({ model: e, externalModel: a }) => ({
+      openPointsInfo: a.createCallbackNoArgs("onOpenPointsInfo"),
+      openInfoPage: a.createCallbackNoArgs("onOpenInfoPage"),
+      setAnimationStep: l((a) => e.animationStep.set(a)),
+      handleProgressAchieved: a.createCallbackNoArgs("onProgressAchieved"),
+      handleCycleCompleted: a.createCallbackNoArgs("onCycleCompleted"),
+    }),
+  ),
+  zp = "Highlight_ec6e9d0b",
+  Fp = "Highlight_inner_fc05a4f9",
+  Hp = "Highlight_side_ffdc7ad0",
+  $p = "Highlight_side__left_48f019cc",
+  Up = "Highlight_side__right_7a86ef2a",
+  Gp = e.memo(() =>
+    a.jsxs("div", {
+      className: zp,
+      children: [
+        a.jsx("div", { className: t(Hp, $p) }),
+        a.jsx("div", { className: Fp }),
+        a.jsx("div", { className: t(Hp, Up) }),
+      ],
+    }),
+  ),
+  qp = "Background_3985f66b",
+  Xp = "Background_default_7c7472e5",
+  Zp = "Background_base__first_26effab7",
+  Kp = "Background_base__last_26effab7",
+  Yp = "Background_disabled_aebb7525",
+  Qp = i(({ level: e }) => {
+    const { model: s } = Vp(),
+      { isFirstLevel: r, isLastLevel: n } = s.computes.levelInfo(e),
+      { cardStatus: i, isDisabled: o } = s.computes.cardStates(e);
+    return a.jsxs("div", {
+      className: t(qp, r && Zp, n && Kp),
+      children: [
+        a.jsx("div", { className: Xp }),
+        o && a.jsx("div", { className: Yp }),
+        i === Ap.IN_PROGRESS && a.jsx(Gp, {}),
+      ],
+    });
+  }),
+  Jp = {
+    base: "CardRewards_178a6e14",
+    base__completed: "CardRewards_base__completed_434ea7b1",
+    rewards: "CardRewards_rewards_db8e5858",
+    rewards__2: "CardRewards_rewards__2_32a806d4",
+    base__inProgress: "CardRewards_base__inProgress_35611a2f",
+    rewards__3: "CardRewards_rewards__3_6ac4c499",
+    reward: "CardRewards_reward_8562c98f",
+    rewards__1: "CardRewards_rewards__1_35611a2f",
+    fadeInWithScale: "CardRewards_fadeInWithScale_35611a2f",
+    slideUp: "CardRewards_slideUp_35611a2f",
+    blink: "CardRewards_blink_35611a2f",
+    scale: "CardRewards_scale_35611a2f",
+    rotate: "CardRewards_rotate_35611a2f",
+    windowIn: "CardRewards_windowIn_35611a2f",
+    fadeOut: "CardRewards_fadeOut_35611a2f",
+    fadeIn: "CardRewards_fadeIn_35611a2f",
+  },
+  eh = s((e) => {
+    const { item: a, name: t, value: s, overlayType: r, tooltipId: n, tooltipContentId: i } = e;
+    return {
+      name: a || t,
+      smallImage: gt(e, ve.Big),
+      bigImage: gt(e, ve.S180x135),
+      special: r,
+      value: s,
+      valueType: ft(t),
+      tooltipArgs: bt({ tooltipId: n }, Number(i), { ignoreShowDelay: !0 }),
+    };
+  }),
+  ah = i(({ level: e, className: s }) => {
+    const { model: r } = Vp(),
+      n = r.computes.levelRewards(e),
+      { cardStatus: i } = r.computes.cardStates(e),
+      {
+        breakpoint: { weight: o },
+      } = je(),
+      l = o < Ne.medium.weight,
+      c = 1 === n.length,
+      d = ((e, a) => (a ? (e ? ve.Big : ve.S180x135) : e ? ve.Small : ve.Big))(l, c),
+      _ = (e) => (l || !c ? e.smallImage : e.bigImage);
+    return a.jsx("div", {
+      className: t(Jp.base, Jp[`base__${i}`], s),
+      children: a.jsx("div", {
+        className: t(Jp.rewards, Jp[`rewards__${n.length}`]),
+        children: O(n, (e, s) => {
+          const r = eh(e);
+          return a.jsx(
+            "div",
+            { className: t(Jp.reward), children: a.jsx(ge, { size: d, image: _(r), ...r }) },
+            `reward__${r.name}${s}`,
+          );
+        }),
+      }),
+    });
+  }),
+  th = {
+    base: "Divider_e7aefb14",
+    base__left: "Divider_base__left_c4dc4b02",
+    base__right: "Divider_base__right_5c287de9",
+    inner: "Divider_inner_5e9c8eab",
+    fadeInWithScale: "Divider_fadeInWithScale_76b1f722",
+    slideUp: "Divider_slideUp_76b1f722",
+    blink: "Divider_blink_76b1f722",
+    scale: "Divider_scale_76b1f722",
+    rotate: "Divider_rotate_76b1f722",
+    windowIn: "Divider_windowIn_76b1f722",
+    fadeOut: "Divider_fadeOut_76b1f722",
+    fadeIn: "Divider_fadeIn_76b1f722",
+  },
+  sh = ({ position: e }) =>
+    a.jsx("div", {
+      className: t(th.base, th[`base__${e}`]),
+      children: a.jsx("div", { className: th.inner }),
+    }),
+  rh = {
+    base: "Stage_2019a8bb",
+    number: "Stage_number_1d4a1a4c",
+    animatedNumber: "Stage_animatedNumber_3b1e34e9",
+    numberInProgress: "Stage_numberInProgress_9fdc0826",
+    title: "Stage_title_29b5b4ba",
+    glow: "Stage_glow_cc25be2a",
+    base__inProgress: "Stage_base__inProgress_68142ff2",
+    animatedGlow: "Stage_animatedGlow_a126942e",
+    fadeInWithScale: "Stage_fadeInWithScale_68142ff2",
+    slideUp: "Stage_slideUp_68142ff2",
+    blink: "Stage_blink_68142ff2",
+    scale: "Stage_scale_68142ff2",
+    rotate: "Stage_rotate_68142ff2",
+    windowIn: "Stage_windowIn_68142ff2",
+    fadeOut: "Stage_fadeOut_68142ff2",
+    fadeIn: "Stage_fadeIn_68142ff2",
+  },
+  nh = i(({ level: s, className: i }) => {
+    const { model: o } = Vp(),
+      { postProgressionStatus: l } = o.root.get(),
+      { cardStatus: c } = o.computes.cardStates(s),
+      [d, _] = e.useState(!1),
+      u = c === Ap.IN_PROGRESS,
+      m = l === Dp.Unlocked,
+      { stageOpacity: p } = r({
+        from: { stageOpacity: d ? 1 : 0 },
+        to: { stageOpacity: 0 },
+        delay: 0,
+        onStart: () => Se.sound(R.sounds.bp_current_phase()),
+        config: { duration: 750, easing: Kt },
+      }),
+      { sparkOpacity: h } = r({
+        from: { sparkOpacity: d ? 0.7 : 0 },
+        to: { sparkOpacity: 0 },
+        delay: 1100,
+        onRest: () => _(!1),
+        config: { duration: 300, easing: Kt },
+      });
+    return (
+      e.useEffect(() => {
+        if (u)
+          return ee(() => {
+            _(!0);
+          }, 100);
+      }, [u]),
+      a.jsx("div", {
+        className: t(rh.base, rh[`base__${c}`], i),
+        children: u
+          ? a.jsxs(a.Fragment, {
+              children: [
+                m &&
+                  a.jsxs(a.Fragment, {
+                    children: [
+                      a.jsx("div", { className: rh.glow }),
+                      a.jsx(n.div, { style: { opacity: h }, className: rh.animatedGlow }),
+                    ],
+                  }),
+                a.jsxs("div", {
+                  className: rh.numberInProgress,
+                  children: [
+                    s,
+                    a.jsx(n.div, {
+                      style: {
+                        opacity: p,
+                        transform: p
+                          .to([0, 1], [2.5, 1])
+                          .to((e) => `translate(-50%, -50%) scale(${e})`),
+                      },
+                      className: rh.animatedNumber,
+                      children: s,
+                    }),
+                  ],
+                }),
+                a.jsx("div", {
+                  className: rh.title,
+                  children: R.strings.battle_pass.postProgressionView.progression.currentStep(),
+                }),
+              ],
+            })
+          : a.jsx("div", { className: rh.number, children: s }),
+      })
+    );
+  }),
+  ih = {
+    base__showAnimation: "CompletedStatus_base__showAnimation_8334d234",
+    base__hideAnimation: "CompletedStatus_base__hideAnimation_5e0caacf",
+    icon: "CompletedStatus_icon_6277c5c1",
+    iconGlow: "CompletedStatus_iconGlow_2dfae495",
+  },
+  oh = ({ shouldAppear: e }) =>
+    a.jsxs("div", {
+      className: t(ih.base, e ? ih.base__showAnimation : ih.base__hideAnimation),
+      children: [
+        a.jsx("div", { className: ih.iconGlow }),
+        a.jsx(oa, {
+          body: R.strings.battle_pass.tooltips.completed.got(),
+          children: a.jsx("div", { className: ih.icon }),
+        }),
+      ],
+    }),
+  lh = {
+    base: "CurrentPoints_4c27ce16",
+    base__appear: "CurrentPoints_base__appear_2cb3686f",
+    base__disappear: "CurrentPoints_base__disappear_e11174fb",
+    value__current: "CurrentPoints_value__current_9c51dee4",
+    value__total: "CurrentPoints_value__total_99fac246",
+    divider: "CurrentPoints_divider_83c77e4c",
+    icon: "CurrentPoints_icon_6b371e14",
+  },
+  ch = i(({ totalLevelPoints: e, shouldAppear: s, shouldDisappear: r, className: n }) => {
+    const { model: i } = Vp(),
+      { currentLevelPoints: o, previousLevelPoints: l } = i.root.get();
+    return a.jsx(vt, {
+      ignoreShowDelay: !0,
+      contentId: R.views.mono.battle_pass.tooltips.bp_points("resId"),
+      children: a.jsxs("div", {
+        className: t(lh.base, s && lh.base__appear, r && lh.base__disappear, n),
+        children: [
+          a.jsx("div", { className: t(lh.value, lh.value__current), children: r ? l : o }),
+          a.jsx("div", { className: lh.divider, children: "/" }),
+          a.jsx("div", { className: t(lh.value, lh.value__total), children: e }),
+          a.jsx("div", { className: lh.icon }),
+        ],
+      }),
+    });
+  }),
+  dh = "Status_41b476d1",
+  _h = "Status_pointsWrapper_6042cf48",
+  uh = i(({ level: s, className: r }) => {
+    const { model: n } = Vp(),
+      { cardStatus: i, isDisabled: o } = n.computes.cardStates(s),
+      { levelPoints: l } = n.computes.levelInfo(s),
+      c = n.animationStep.get(),
+      d = [Rp.FillProgressMax, Rp.RunCycle].includes(c),
+      _ = c === Rp.ResetProgress,
+      u = i === Ap.COMPLETED && !o,
+      m = i === Ap.IN_PROGRESS,
+      [p, h] = e.useState(u);
+    return (
+      e.useEffect(() => {
+        if (c === Rp.RunCycle) return void h(!1);
+        const e = c === Rp.FillProgressMax,
+          a = c === Rp.ResetProgress;
+        return p
+          ? void 0
+          : ee(
+              () => {
+                h(!!e || u);
+              },
+              (a ? 500 : 0) + 100 * s,
+            );
+      }, [c, p, u, s]),
+      a.jsxs("div", {
+        className: t(dh, r),
+        children: [
+          u && p && a.jsx(oh, { shouldAppear: p }),
+          m &&
+            a.jsx(ch, { className: _h, totalLevelPoints: l, shouldAppear: _, shouldDisappear: d }),
+        ],
+      })
+    );
+  }),
+  mh = {
+    base: "Card_1d966e2a",
+    base__inProgress: "Card_base__inProgress_b07d56b3",
+    stage: "Card_stage_1d11f254",
+    rewards: "Card_rewards_aba92251",
+    status: "Card_status_f3176857",
+    points: "Card_points_a0ccfd85",
+    points__initial: "Card_points__initial_86462962",
+    progressShadow: "Card_progressShadow_e0bd1d",
+    fadeInWithScale: "Card_fadeInWithScale_f4c22d1c",
+    slideUp: "Card_slideUp_f4c22d1c",
+    blink: "Card_blink_f4c22d1c",
+    scale: "Card_scale_f4c22d1c",
+    rotate: "Card_rotate_f4c22d1c",
+    windowIn: "Card_windowIn_f4c22d1c",
+    fadeOut: "Card_fadeOut_f4c22d1c",
+    fadeIn: "Card_fadeIn_f4c22d1c",
+  },
+  ph = i(({ level: e }) => {
+    const { model: s } = Vp(),
+      { levelPoints: r, isFirstLevel: n, isLastLevel: i } = s.computes.levelInfo(e),
+      { cardStatus: o } = s.computes.cardStates(e),
+      l = !n && o === Ap.IN_PROGRESS,
+      c = !i && s.computes.cardStates(e + 1).cardStatus !== Ap.IN_PROGRESS;
+    return a.jsxs("div", {
+      className: t(mh.base, mh[`base__${o}`]),
+      style: Op,
+      children: [
+        a.jsx(Qp, { level: e }),
+        a.jsx(nh, { className: mh.stage, level: e }),
+        a.jsx(ah, { className: mh.rewards, level: e }),
+        a.jsx(uh, { className: mh.status, level: e }),
+        a.jsx("div", { className: mh.points, children: e * r }),
+        n && a.jsx("div", { className: t(mh.points, mh.points__initial), children: 0 }),
+        l && a.jsx(sh, { position: Tp.left }),
+        c && a.jsx(sh, { position: Tp.right }),
+      ],
+    });
+  }),
+  hh = "Cards_afe60a85",
+  bh = i(() => {
+    const { model: e } = Vp(),
+      t = e.levels.get(),
+      { chapterID: s } = e.root.get();
+    return a.jsx("div", {
+      className: hh,
+      children: O(t, ({ level: e }, t) => a.jsx(ph, { level: e }, `${s}_${t}`)),
+    });
+  }),
+  fh = "ExtraChapter_51af81b2",
+  gh = "ExtraChapter_wrapper_1111764a",
+  vh = "ExtraChapter_border_1fc38ae",
+  xh = "ExtraChapter_base__hover_d6a2f84c",
+  wh = "ExtraChapter_bg_6bfbbfc5",
+  Ch = "ExtraChapter_widget_ba8b2337",
+  yh = "ExtraChapter_title_4965d60",
+  jh = "ExtraChapter_description_1a9020c",
+  Nh = "ExtraChapter_content_7e770f3c",
+  Sh = R.strings.battle_pass.postProgressionView.footer.extraChapter,
+  kh = i(() => {
+    var s;
+    const { model: r } = Vp(),
+      n = null == (s = r.computes.extraChapters()[0]) ? void 0 : s.chapterID,
+      [i, o] = e.useState(!1),
+      l = me();
+    return n
+      ? a.jsxs("div", {
+          className: t(fh, i && xh),
+          onMouseOver: (e) => {
+            (e.stopPropagation(), o(!0), Se.sound(R.sounds.highlight()));
+          },
+          onMouseOut: () => {
+            o(!1);
+          },
+          onClick: () => {
+            (l.push(as.battlePass.progression, { chapterID: n }), Se.sound(R.sounds.play()));
+          },
+          children: [
+            a.jsxs("div", {
+              className: gh,
+              children: [
+                a.jsx("div", { className: wh }),
+                a.jsxs("div", {
+                  className: Nh,
+                  children: [
+                    a.jsx("div", { className: yh, children: Sh.title.text() }),
+                    a.jsx("div", { className: jh, children: Sh.description.text() }),
+                  ],
+                }),
+              ],
+            }),
+            a.jsx("div", { className: Ch }),
+            a.jsx("div", { className: vh }),
+          ],
+        })
+      : null;
+  }),
+  Ih = "NotAvailable_e1e3731d",
+  Ph = "NotAvailable_background_a3edbc06",
+  Rh = "NotAvailable_content_94110074",
+  Bh = "NotAvailable_button_149fb125",
+  Ah = "NotAvailable_description_6cafdd55",
+  Eh = "NotAvailable_completedCount_8450f150",
+  Th = R.strings.battle_pass.postProgressionView.footer,
+  Lh = i(() => {
+    const { model: e } = Vp(),
+      t = me(),
+      s = e.computes.completedRegularChaptersCount(),
+      r = e.computes.regularChapters().length;
+    return a.jsxs("div", {
+      className: Ih,
+      children: [
+        a.jsx("div", { className: Ph }),
+        a.jsxs("div", {
+          className: Rh,
+          children: [
+            a.jsx(A, {
+              classMix: Ah,
+              text: Th.description.text(),
+              binding: {
+                completedChapters: a.jsx("span", { className: Eh, children: s }),
+                chaptersAmount: r,
+              },
+            }),
+            a.jsx(ot, {
+              type: _t.ghost,
+              size: lt.medium,
+              mixClass: Bh,
+              onClick: () => t.push(as.battlePass.chapterChoice),
+              children: Th.button.text(),
+            }),
+          ],
+        }),
+      ],
+    });
+  }),
+  Dh = "PurchasingIp_349aa5c4",
+  Oh = "PurchasingIp_wrapper_2ff2079e",
+  Wh = "PurchasingIp_border_78bb5b9b",
+  Mh = "PurchasingIp_base__hover_e6cc332b",
+  Vh = "PurchasingIp_bg_345ee932",
+  zh = "PurchasingIp_blink_990fb4a0",
+  Fh = "PurchasingIp_text_4355bb8a",
+  Hh = "PurchasingIp_button_b213818",
+  $h = "PurchasingIp_content_b09e9d85",
+  Uh = R.strings.battle_pass.postProgressionView.footer.purchaseIP,
+  Gh = i(() => {
+    const { model: s } = Vp(),
+      r = me(),
+      [n, i] = e.useState(!1);
+    return a.jsxs("div", {
+      className: t(Dh, n && Mh),
+      onMouseOver: (e) => {
+        (e.stopPropagation(), i(!0), Se.sound(R.sounds.highlight()));
+      },
+      onMouseOut: () => {
+        i(!1);
+      },
+      onClick: () => {
+        var e;
+        const a = s.computes.chaptersForPurchase();
+        (Se.sound(R.sounds.play()),
+          r.push(as.battlePass.buyPass, { chapterID: null == (e = a[0]) ? void 0 : e.chapterID }));
+      },
+      children: [
+        a.jsxs("div", {
+          className: Oh,
+          children: [
+            a.jsx("div", { className: Vh }),
+            a.jsx("div", { className: zh }),
+            a.jsxs("div", {
+              className: $h,
+              children: [
+                a.jsx("div", {
+                  className: Fh,
+                  children:
+                    R.strings.battle_pass.postProgressionView.footer.purchaseIP.banner.text(),
+                }),
+                a.jsx(ot, {
+                  type: _t.main,
+                  size: lt.medium,
+                  mixClass: Hh,
+                  children: Uh.button.text(),
+                }),
+              ],
+            }),
+          ],
+        }),
+        a.jsx("div", { className: Wh }),
+      ],
+    });
+  }),
+  qh = "Footer_447447a9",
+  Xh = i(({ className: e = "" }) => {
+    const { model: s } = Vp(),
+      r = s.computes.footerState();
+    return a.jsx("div", {
+      className: t(qh, e),
+      children: (() => {
+        switch (r) {
+          case Ep.NotAvailable:
+            return a.jsx(Lh, {});
+          case Ep.PurchasingIP:
+            return a.jsx(Gh, {});
+          case Ep.ExtraChapter:
+            return a.jsx(kh, {});
+          default:
+            return null;
+        }
+      })(),
+    });
+  }),
+  Zh = "Header_8161ac6c",
+  Kh = "Header_background_ca26eac9",
+  Yh = "Header_headlineContainer_83fb95ed",
+  Qh = "Header_headline_49f93202",
+  Jh = "Header_divider_d589871a",
+  eb = "Header_title_87287815",
+  ab = "Header_descriptionContainer_5475d6de",
+  tb = "Header_descriptionPaused_65f475ba",
+  sb = "Header_description_1d21a2e3",
+  rb = "Header_icon_c2a24f90",
+  nb = "Header_label_f1c2cd27",
+  ib = R.strings.battle_pass.postProgressionView.header,
+  ob = i(({ className: e }) => {
+    const { postProgressionStatus: s, endDate: r } = Vp().model.root.get(),
+      n = s === Dp.Locked,
+      i = s === Dp.Paused,
+      o = et(r, at.DayMonthFull);
+    return a.jsxs("div", {
+      className: t(Zh, e),
+      children: [
+        a.jsx("div", { className: Kh }),
+        a.jsxs("div", {
+          className: Yh,
+          children: [
+            !n &&
+              a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx("span", { className: Qh, children: ib.headline.unlocked() }),
+                  a.jsx("div", { className: Jh }),
+                ],
+              }),
+            a.jsx(A, { classMix: Qh, text: ib.headline.deadline(), binding: { endDate: o } }),
+          ],
+        }),
+        a.jsx("span", { className: eb, children: ib.title() }),
+        a.jsx("div", {
+          className: ab,
+          children: i
+            ? a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx("div", { className: rb }),
+                  a.jsx("span", { className: nb, children: ib.description.onPause.highlight() }),
+                  a.jsx("span", { className: tb, children: ib.description.onPause.regular() }),
+                ],
+              })
+            : a.jsx("span", { className: sb, children: ib.description.active() }),
+        }),
+      ],
+    });
+  }),
+  lb = "Counter_530269bb",
+  cb = "Counter_infinityIconContainer_1ffbc2e2",
+  db = "Counter_infinityIcon_d060ec47",
+  _b = "Counter_label_3f062fe0",
+  ub = "Counter_cyclesCompleted_98e1bb2c",
+  mb = "Counter_cyclesNumber_623ae487",
+  pb = "Counter_cyclesNumber__animated_78a25366",
+  hb = "Counter_cyclesNumber__hidden_4c746c1c",
+  bb = R.strings.battle_pass.postProgressionView.progression,
+  fb = i(({ className: e, labelRef: s, shouldRun: r }) => {
+    const { model: n } = Vp(),
+      { cyclesCompletedCount: i, previousCyclesCompletedCount: o } = n.root.get(),
+      l = n.animationStep.get(),
+      c = i !== o && [Rp.Idle, Rp.FillProgressMax].includes(l);
+    return a.jsxs("div", {
+      className: t(lb, e),
+      ref: s,
+      children: [
+        a.jsx("div", { className: cb, children: a.jsx("div", { className: db }) }),
+        a.jsx("div", {
+          className: _b,
+          children: i
+            ? a.jsxs("div", {
+                className: ub,
+                children: [
+                  a.jsx("span", { children: bb.cyclesCompleted() }),
+                  a.jsx(
+                    "span",
+                    { className: t(mb, r && pb, c && hb), children: i },
+                    `cyclesCompletedCount-${r}`,
+                  ),
+                ],
+              })
+            : bb.cyclicalProgression(),
+        }),
+      ],
+    });
+  }),
+  gb = {
+    base: "Cycle_74f0e867",
+    labelContainer: "Cycle_labelContainer_3604ca19",
+    contour: "Cycle_contour_24ba23fd",
+    border: "Cycle_border_c131c31f",
+    border__horizontal: "Cycle_border__horizontal_c4a77614",
+    contour__2x: "Cycle_contour__2x_8af1a177",
+    border__vertical: "Cycle_border__vertical_218efe03",
+    arrow: "Cycle_arrow_9ac4ac6",
+    bar: "Cycle_bar_ed90b853",
+    bar__state1: "Cycle_bar__state1_cdb101bd",
+    state1: "Cycle_state1_8af1a177",
+    bar__state2: "Cycle_bar__state2_19af5de",
+    state2: "Cycle_state2_8af1a177",
+    bar__state3: "Cycle_bar__state3_297a53d6",
+    state3: "Cycle_state3_8af1a177",
+    bar__state4: "Cycle_bar__state4_a23fc208",
+    state4: "Cycle_state4_8af1a177",
+    bar__state5: "Cycle_bar__state5_e607ac47",
+    state5: "Cycle_state5_8af1a177",
+    fadeInWithScale: "Cycle_fadeInWithScale_8af1a177",
+    slideUp: "Cycle_slideUp_8af1a177",
+    blink: "Cycle_blink_8af1a177",
+    scale: "Cycle_scale_8af1a177",
+    rotate: "Cycle_rotate_8af1a177",
+    windowIn: "Cycle_windowIn_8af1a177",
+    fadeOut: "Cycle_fadeOut_8af1a177",
+    fadeIn: "Cycle_fadeIn_8af1a177",
+  },
+  vb = "--label-offset",
+  xb = { left: 0, width: 0 },
+  wb = i(({ className: s, shouldRun: r }) => {
+    const { model: n } = Vp(),
+      { cyclesCompletedCount: i } = n.root.get(),
+      o = e.useRef(null),
+      l = e.useRef(null),
+      {
+        breakpoint: { weight: c },
+      } = je(),
+      d = Oe(),
+      [_, u] = e.useState({ [vb]: "0%" });
+    return (
+      xt(() => {
+        var e, a;
+        const t = (null == (e = o.current) ? void 0 : e.getBoundingClientRect()) ?? xb,
+          s = (null == (a = l.current) ? void 0 : a.getBoundingClientRect().left) ?? 0,
+          r = 15 * d,
+          n = (100 * (s - t.left - r)) / t.width;
+        u({ [vb]: `${n}%` });
+      }, [o.current, l.current, c, d, i]),
+      a.jsxs("div", {
+        className: t(gb.base, s),
+        style: _,
+        children: [
+          a.jsx("div", { className: gb.arrow }),
+          a.jsxs("div", {
+            className: t(gb.contour, gb[`contour__${d}x`]),
+            ref: o,
+            children: [
+              a.jsx("div", { className: t(gb.border, gb.border__vertical) }),
+              a.jsx("div", { className: t(gb.border, gb.border__horizontal) }),
+              r &&
+                Array(5)
+                  .fill(void 0)
+                  .map((e, s) =>
+                    a.jsx("div", { className: t(gb.bar, gb[`bar__state${s + 1}`]) }, `bar-${s}`),
+                  ),
+            ],
+          }),
+          a.jsx(fb, { className: gb.labelContainer, labelRef: l, shouldRun: r }),
+        ],
+      })
+    );
+  }),
+  Cb = "ProgressBar_7a10c6f0",
+  yb = "ProgressBar_progressBackground_ce66ede4",
+  jb = "ProgressBar_progressBar_61381794",
+  Nb = "ProgressBar_progressBar__disabled_f37621b4",
+  Sb = "ProgressBar_optimizedProgressBar_87a4af2b",
+  kb = "ProgressBar_cycle_7886c8",
+  Ib = i(() => {
+    const { model: s, controls: r } = Vp(),
+      { postProgressionStatus: n } = s.root.get(),
+      i = s.animationStep.get(),
+      o = i === Rp.RunCycle,
+      l = n === Dp.Locked,
+      c = n === Dp.Paused,
+      d = l || c,
+      {
+        breakpoint: { weight: _ },
+      } = je(),
+      {
+        progressValue: u,
+        previousProgressValue: m,
+        maxProgressValue: p,
+      } = s.computes.getProgressValues(_),
+      h = s.computes.progressChanged();
+    (e.useEffect(() => {
+      switch (i) {
+        case Rp.FillProgressMax:
+        case Rp.RefillProgress:
+          return void r.handleProgressAchieved();
+        case Rp.RunCycle:
+          return void r.handleCycleCompleted();
+      }
+    }, [i, r]),
+      e.useEffect(() => {
+        if (h && i === Rp.Idle)
+          return ee(() => {
+            r.handleProgressAchieved();
+          }, kp);
+      }, [i, r, h]));
+    const b = e.useRef(wt());
+    return a.jsxs("div", {
+      className: Cb,
+      style: { "--progress-line-width": `${p}rem` },
+      children: [
+        a.jsx("div", { className: yb }),
+        a.jsx(vt, {
+          contentId: R.views.mono.battle_pass.tooltips.bp_points("resId"),
+          children: a.jsx("div", {
+            className: t(jb, d && Nb),
+            children: a.jsx(Ct, {
+              api: b,
+              value: u,
+              deltaFrom: m,
+              maxValue: p,
+              disabled: d,
+              animationSettings: Ip,
+              theme: Pp,
+              className: Sb,
+            }),
+          }),
+        }),
+        a.jsx(wb, { className: kb, shouldRun: o }),
+      ],
+    });
+  }),
+  Pb = "Toolbar_infoButtons_dd878d8c",
+  Rb = R.strings.battle_pass.postProgressionView.toolbar,
+  Bb = i(({ className: e }) => {
+    const { openInfoPage: t, openPointsInfo: s } = Vp().controls;
+    return a.jsx("div", {
+      className: e,
+      children: a.jsxs("div", {
+        className: Pb,
+        children: [
+          a.jsx(yt, { caption: Rb.aboutBattlePass(), type: "info", onClick: t }),
+          a.jsx(yt, { caption: Rb.howToEarnPoints(), type: "info", onClick: s }),
+        ],
+      }),
+    });
+  }),
+  Ab = "App_ad9a5024",
+  Eb = "App_toolbar_d16ffb0a",
+  Tb = "App_awardsWidget_1186a317",
+  Lb = "App_award_70e8698f",
+  Db = "App_content_b9a70459",
+  Ob = "App_header_77cc1fba",
+  Wb = "App_progression_992167b9",
+  Mb = "App_footer_e6643cae",
+  Vb = R.images.gui.maps.icons.battlePass.backgrounds.progression,
+  zb = i(() => {
+    const { model: t, controls: s } = Vp(),
+      { chapterID: r } = t.root.get(),
+      n = t.animationStep.get(),
+      i = t.computes.cycleChanged(),
+      o = me();
+    (e.useEffect(() => {
+      if (n !== Rp.Idle) {
+        const { nextStep: e, delay: a } = Bp[n];
+        return ee(() => {
+          s.setAnimationStep(e);
+        }, a);
+      }
+      i && s.setAnimationStep(Rp.FillProgressMax);
+    }, [n, s, i]),
+      he(T.ESCAPE, () => o.goBack()));
+    const l = `url(${Ut(Vb, r)})`;
+    return a.jsxs("div", {
+      className: Ab,
+      style: { backgroundImage: l },
+      children: [
+        a.jsx(Bb, { className: Eb }),
+        a.jsx(Bm, {
+          rootId: R.aliases.battle_pass.PostProgression("resId"),
+          context: "model.awardsWidget",
+          classNames: { base: Tb, award: Lb },
+        }),
+        a.jsxs("div", {
+          className: Db,
+          children: [
+            a.jsx(ob, { className: Ob }),
+            a.jsxs("div", { className: Wb, children: [a.jsx(bh, {}), a.jsx(Ib, {})] }),
+          ],
+        }),
+        a.jsx(Xh, { className: Mb }),
+      ],
+    });
+  }),
+  Fb = () =>
+    a.jsx(Mp, {
+      options: { rootId: R.aliases.battle_pass.PostProgression("resId") },
+      children: a.jsx(zb, {}),
+    });
+var Hb = ((e) => (
+    (e.Active = "active"),
+    (e.Paused = "paused"),
+    (e.Completed = "completed"),
+    (e.NotStarted = "notStarted"),
+    e
+  ))(Hb || {}),
+  $b = ((e) => (
+    (e.NoAction = "noAction"),
+    (e.Buy = "buy"),
+    (e.BuyLevel = "buyLevel"),
+    (e.ActivateChapter = "activateChapter"),
+    e
+  ))($b || {}),
+  Ub = ((e) => ((e.COMMON = "common"), (e.EXTRA = "extra"), (e.HOLIDAY = "holiday"), e))(Ub || {}),
+  Gb = ((e) => ((e.left = "left"), (e.right = "right"), e))(Gb || {}),
+  qb = ((e) => (
+    (e.COMPLETED = "completed"),
+    (e.IN_PROGRESS = "inProgress"),
+    (e.NOT_STARTED = "notStarted"),
+    e
+  ))(qb || {}),
+  Xb = ((e) => (
+    (e.UNLOCK_BIG = "bp_unlock_big"),
+    (e.UNLOCK_SMALL = "bp_unlock_small"),
+    (e.IMPROVED_REWARD = "bp_improved_reward"),
+    e
+  ))(Xb || {}),
+  Zb = ((e) => ((e.back = "back"), (e.forward = "forward"), e))(Zb || {}),
+  Kb = ((e) => ((e.Default = "default"), (e.Gray = "gray"), e))(Kb || {});
+const Yb = [Hb.Active, Hb.Completed],
+  [Qb, Jb] = L()(
+    ({ observableModel: e }) => {
+      const a = {
+          root: e.object(),
+          levels: e.array("levels.items"),
+          widget3dStyle: e.object("widget3dStyle"),
+          widget3dStyleVehicleInfo: e.object("widget3dStyle.vehicleInfo"),
+          widgetFinalRewards: e.object("widgetFinalRewards"),
+          vehicleInfo: e.object("widgetFinalRewards.vehicleInfo"),
+          freeTankmanInfo: e.array("widgetFinalRewards.tankmanInfo.free"),
+          paidTankmanInfo: e.array("widgetFinalRewards.tankmanInfo.paid"),
+          styleInfo: e.object("widgetFinalRewards.styleInfo"),
+          vehicleInfoFromStyle: e.object("widgetFinalRewards.styleInfo.vehicleInfo"),
+          attachmentsSetInfo: e.object("widgetFinalRewards.attachmentsSetInfo"),
+          freeFinalRewards: e.array("freeFinalRewards"),
+          paidFinalRewards: e.array("paidFinalRewards"),
+          starterPackRewards: e.array("starterPackRewards.items"),
+        },
+        t = s(() => O(a.freeFinalRewards.get(), W), { equals: D }),
+        r = s(() => O(a.paidFinalRewards.get(), W), { equals: D }),
+        n = s(() => O(a.starterPackRewards.get(), W), { equals: D }),
+        i = s(() => a.root.get().chapterType === Ub.HOLIDAY),
+        o = s(() => ({
+          freeFinalRewards: Yt(t()),
+          ...(r().length && { paidFinalRewards: Yt(r()) }),
+        })),
+        l = s(() => {
+          const { freeFinalRewards: e, paidFinalRewards: a } = o();
+          return !(!a && e.mainReward === Qt.progressiveStyle);
+        }),
+        c = s(() => a.root.get().chapterType === Ub.EXTRA),
+        d = s(() => !(i() || c()), { equals: D }),
+        _ = s((e) => (e ? a.paidTankmanInfo.get() : a.freeTankmanInfo.get())),
+        u = s((e) => {
+          const t = a.levels.get(),
+            s = ht(t, e - 1);
+          return (
+            s || console.warn(`level info not found for number: ${e}`),
+            { ...s, maxLevel: t.length }
+          );
+        }),
+        m = s((e, a) => {
+          const t = u(e);
+          return O(a ? t.freeRewardItems.items : t.paidRewardItems.items, (e) => ({ ...e }));
+        }),
+        p = s(() => {
+          const {
+              freePointsInLevel: e,
+              currentPointsInLevel: t,
+              chapterState: s,
+              hasExtra: r,
+            } = a.root.get(),
+            n = Yb.includes(s) || r ? t : e,
+            i = u(1);
+          return { current: n, total: null == i ? void 0 : i.levelPoints };
+        }),
+        h = s((e, t) => {
+          const {
+              chapterState: s,
+              currentLevel: r,
+              potentialLevel: n,
+              currentPointsInChapter: i,
+              freePointsInChapter: o,
+            } = a.root.get(),
+            { levelPoints: l, maxLevel: c } = u(e),
+            d = t ? o : i,
+            _ = t ? n : r;
+          return e < _ || (_ === c && d === l * c)
+            ? qb.COMPLETED
+            : e === _ && (s !== Hb.NotStarted || d > 0)
+              ? qb.IN_PROGRESS
+              : qb.NOT_STARTED;
+        }),
+        b = s((e, t, s, r) => {
+          const { currentLevel: n, currentPointsInLevel: i } = a.root.get();
+          return ((n - 1) * e + (i / r) * t) / s;
+        }),
+        f = s(() => {
+          var e;
+          return null == (e = jt(a.levels.get(), (e) => "number" == typeof e.levelPoints))
+            ? void 0
+            : e.levelPoints;
+        }),
+        g = s((e, a) => {
+          const { needTakeFree: t, needTakePaid: s } = u(e);
+          return a ? s : t;
+        }),
+        v = s((e, t) => {
+          const { isBattlePassPurchased: s, chapterState: r } = a.root.get(),
+            n = u(e),
+            i = h(e, !1);
+          return {
+            cardStatus: { current: i, potential: h(e, !0) },
+            isRare: n.isRare && i !== qb.IN_PROGRESS,
+            isDisabled: (t && !s) || (r !== Hb.Active && i === qb.NOT_STARTED),
+          };
+        });
+      return {
+        ...a,
+        computes: {
+          getFreeFinalRewards: t,
+          getPaidFinalRewards: r,
+          regularBattlePass: d,
+          getFinalRewardTankmanInfo: _,
+          currentLevelPoints: p,
+          levelInfo: u,
+          levelRewardItems: m,
+          getCurrentWidth: b,
+          getTotalLevelPoints: f,
+          isRewardNeedTake: g,
+          cardStates: v,
+          isLayoutWithExtraWidget: l,
+          getFinalRewardsDescription: o,
+          getStarterPackRewards: n,
+        },
+      };
+    },
+    ({ externalModel: e }) => ({
+      chapterActivate: e.createCallbackNoArgs("onChapterActivate"),
+      openAbout: e.createCallbackNoArgs("onAboutClick"),
+      openPreview: e.createCallbackNoArgs("widgetFinalRewards.onRewardPreviewClick"),
+      open3dStylePreview: e.createCallback((e) => ({ level: e }), "widget3dStyle.onPreviewClick"),
+      onStyleBonusPreview: e.createCallback((e) => ({ bonusId: e }), "onStyleBonusPreview"),
+      showTankmen: e.createCallbackNoArgs("widgetFinalRewards.showTankmen"),
+      openInfo: e.createCallbackNoArgs("onPointsInfoClick"),
+      viewLoad: e.createCallbackNoArgs("onViewLoaded"),
+      finishLevelsAnimation: e.createCallbackNoArgs("onLevelsAnimationFinished"),
+      takeReward: e.createCallback(({ level: e }) => ({ level: e }), "onTakeClick"),
+      finishAnimation: e.createCallbackNoArgs("onFinishedAnimation"),
+    }),
+  ),
+  ef = "AttachmentsSetDescription_title_be2f4c09",
+  af = "AttachmentsSetDescription_name_30b7f496",
+  tf = S.resolve("strings"),
+  sf = i(() => {
+    const { model: e, controls: t } = Jb(),
+      { attachmentsSetName: s } = e.attachmentsSetInfo.get();
+    return a.jsxs(a.Fragment, {
+      children: [
+        a.jsx(dt, { type: "preview", size: "normal", onClick: t.openPreview }),
+        a.jsx("span", {
+          className: ef,
+          children: tf.readOrEmpty("battle_pass.finalReward.attachmentsSet.title"),
+        }),
+        a.jsx("span", {
+          className: af,
+          children: tf.readOrEmpty(`quests.bonusName.attachments_set.${s}`),
+        }),
+      ],
+    });
+  }),
+  rf = "AdditionalRewardInfo_rewardText_31efb669",
+  nf = "AdditionalRewardInfo_subTitle_251693c1",
+  of = "AdditionalRewardInfo_subTitleTextWrapper_19819b2b",
+  lf = "AdditionalRewardInfo_subTitleText_b6b02718",
+  cf = "AdditionalRewardInfo_subTitleText__truncated_539e6fd4",
+  df = "AdditionalRewardInfo_infoIcon_a4fa826d",
+  _f = R.strings.battle_pass.progression.extraChapterWidget,
+  uf = i(({ additionalReward: s }) => {
+    const {
+        model: { widgetFinalRewards: r, styleInfo: n, vehicleInfo: i },
+      } = Jb(),
+      { vehicleName: o } = i.get(),
+      { battleQuest: l } = r.get(),
+      [c, d] = e.useState(!1),
+      _ = e.useRef(null),
+      u = e.useCallback(async () => {
+        await Xt();
+        const e = _.current;
+        e && d(e.scrollWidth > e.offsetWidth);
+      }, []);
+    return (
+      Nt(
+        () => (
+          u(),
+          engine.on("clientResized", u),
+          () => {
+            engine.off("clientResized", u);
+          }
+        ),
+      ),
+      a.jsxs(a.Fragment, {
+        children: [
+          s === Qt.style &&
+            a.jsx(A, {
+              classMix: rf,
+              text: _f.vehicleSubTitle(),
+              binding: { styleName: n.get().styleName },
+            }),
+          s === Qt.battleQuest &&
+            a.jsx(vt, {
+              contentId: R.views.mono.battle_pass.tooltips.random_quest("resId"),
+              args: { tokenID: l },
+              children: a.jsxs("div", {
+                className: nf,
+                children: [
+                  a.jsx("div", {
+                    className: of,
+                    children: a.jsx("div", {
+                      className: t(lf, c && cf),
+                      ref: _,
+                      children: a.jsx(A, { text: _f.styleSubTitle(), binding: { vehicleName: o } }),
+                    }),
+                  }),
+                  a.jsx("div", { className: df }),
+                ],
+              }),
+            }),
+        ],
+      })
+    );
+  }),
+  mf = "StyleDescription_rewardTitle_a38f5a35",
+  pf = "StyleDescription_rewardTitle__singleReward_844cd016",
+  hf = "StyleDescription_title_10aa0199",
+  bf = "StyleDescription_title__singleReward_4f032bf8",
+  ff = "StyleDescription_vehicleTitle_d97e976a",
+  gf = "StyleDescription_vehicleLabel_d39e5139",
+  vf = "StyleDescription_vehicleInHangar_f82728b9",
+  xf = "StyleDescription_remark_bf754841",
+  wf = "StyleDescription_lockIcon_6a873423",
+  Cf = "StyleDescription_baseClass_cf456a8f",
+  yf = "StyleDescription_name_9ce7517f",
+  jf = "StyleDescription_level_7a97d385",
+  Nf = "StyleDescription_type_8cffe3f7",
+  Sf = R.strings.battle_pass.progression.extraChapterWidget,
+  kf = i(({ additionalReward: e, isPaidReward: s }) => {
+    const {
+        model: { styleInfo: r, vehicleInfoFromStyle: n, root: i, computes: o },
+        controls: l,
+      } = Jb(),
+      { isBattlePassPurchased: c } = i.get(),
+      { styleName: d, isVehicleInHangar: _ } = r.get(),
+      u = o.getPaidFinalRewards().length,
+      m = { base: Cf, level: jf, name: yf, typeIcon: Nf };
+    return a.jsxs(a.Fragment, {
+      children: [
+        a.jsx(dt, { type: "preview", size: "normal", onClick: l.openPreview }),
+        a.jsx("div", {
+          className: t(mf, !u && pf),
+          children: u ? Sf.style3DTitle() : Sf.styleTitle(),
+        }),
+        a.jsx(A, { classMix: t(hf, !u && bf), text: Sf.styleName(), binding: { styleName: d } }),
+        !u &&
+          a.jsxs("div", {
+            className: ff,
+            children: [
+              a.jsx(A, {
+                classMix: gf,
+                text: Sf.forLabel(),
+                binding: {
+                  vehicleName: a.jsx(ss, {
+                    ...n.get(),
+                    classNames: m,
+                    vehicleTypeIconSize: tt.x24x24,
+                  }),
+                },
+              }),
+              _ &&
+                a.jsx(oa, {
+                  body: Sf.inHangarTooltip(),
+                  children: a.jsx("div", { className: vf }),
+                }),
+            ],
+          }),
+        e && a.jsx(uf, { additionalReward: e }),
+        s &&
+          !c &&
+          a.jsx(vt, {
+            contentId: R.views.mono.battle_pass.tooltips.lock_icon("resId"),
+            children: a.jsxs("div", {
+              className: xf,
+              children: [
+                a.jsx("div", { className: wf }),
+                a.jsx("div", { children: Sf.styleRemark() }),
+              ],
+            }),
+          }),
+      ],
+    });
+  }),
+  If = "Skills_12e25c21",
+  Pf = "Skills_skill_d5e5036d",
+  Rf = "Skills_zeroSkill_8baec091",
+  Bf = "Skills_glow_b87093c6",
+  Af = "Skills_zeroSkillIcon_f9fb247",
+  Ef = "Skills_skillIcon_2a4ffd3a",
+  Tf = "Skills_skillIcon__specificPerk_9fedba",
+  Lf = "Skills_divider_5189f326",
+  Df = "Skills_light_dc85d289",
+  Of = ({ skills: e, className: s = "" }) => {
+    const r = St(e, (e) => e.isZero);
+    return a.jsxs("div", {
+      className: t(If, s),
+      children: [
+        O(e, (e, s) =>
+          a.jsxs(
+            "div",
+            {
+              className: Pf,
+              children: [
+                a.jsx(vt, {
+                  contentId: R.views.mono.battle_pass.tooltips.crew_member_skill("resId"),
+                  args: { name: e.name, isZero: e.isZero, hasZeroPerk: void 0 !== r },
+                  children: a.jsxs("div", {
+                    children: [
+                      e.isZero &&
+                        e.name === rs &&
+                        a.jsxs("div", {
+                          className: Rf,
+                          children: [
+                            a.jsx("div", { className: Bf }),
+                            a.jsx("div", { className: Af }),
+                          ],
+                        }),
+                      a.jsx("div", {
+                        className: t(Ef, e.name !== rs && Tf),
+                        style: {
+                          backgroundImage: `url('R.images.gui.maps.icons.battlePass.tankman.perks.icon_perk_${e.name}')`,
+                        },
+                      }),
+                    ],
+                  }),
+                }),
+                r === s && a.jsx("div", { className: Lf }),
+              ],
+            },
+            `${e.name}_${s}`,
+          ),
+        ),
+        a.jsx("div", { className: Df }),
+      ],
+    });
+  },
+  Wf = {
+    base: "Voice_c37942b8",
+    icon: "Voice_icon_341b24d6",
+    icon__speaker: "Voice_icon__speaker_172c2c35",
+    icon__wave0: "Voice_icon__wave0_77617b3a",
+    base__animate: "Voice_base__animate_d1a20ef1",
+    icon__wave1: "Voice_icon__wave1_1096fc2",
+  },
+  Mf = R.strings.battle_pass.progression.extraChapterWidget,
+  Vf = (() => {
+    const e = Math.ceil(ns / 800);
+    return { duration: 800, iterationCount: e, totalDuration: 800 * e };
+  })(),
+  zf = ({ groupName: s }) => {
+    const [r, n] = e.useState(!1),
+      i = e.useCallback(() => {
+        r || (Se.sound(R.sounds.play()), Se.sound(s), n(!0));
+      }, [r, s]);
+    return (
+      e.useEffect(() => {
+        r &&
+          ee(() => {
+            n(!1);
+          }, Vf.totalDuration);
+      }, [r]),
+      a.jsx(oa, {
+        body: Mf.voiceoverTooltip(),
+        children: a.jsxs("div", {
+          className: t(Wf.base, r && Wf.base__animate),
+          onClick: i,
+          onMouseEnter: () => {
+            Se.sound(R.sounds.bp_highlight());
+          },
+          style: {
+            "--animation-duration": `${Vf.duration}ms`,
+            "--animation-iteration-count": Vf.iterationCount,
+          },
+          children: [
+            a.jsx("div", { className: t(Wf.icon, Wf.icon__speaker) }),
+            a.jsx("div", { className: t(Wf.icon, Wf.icon__wave0) }),
+            a.jsx("div", { className: t(Wf.icon, Wf.icon__wave1) }),
+            a.jsx("div", { className: t(Wf.icon, Wf.icon__wave2) }),
+          ],
+        }),
+      })
+    );
+  },
+  Ff = "TankmanDescription_title_6b604eaf",
+  Hf = "TankmanDescription_title__noVoice_132efc49",
+  $f = "TankmanDescription_name_9f802b92",
+  Uf = "TankmanDescription_skills_8507fe1b",
+  Gf = "TankmanDescription_skill_2e650973",
+  qf = "TankmanDescription_skill__paidReward_f372df77",
+  Xf = "TankmanDescription_description_4c6b2a1b",
+  Zf = "TankmanDescription_lockIcon_7b9909c0",
+  Kf = "TankmanDescription_lockText_e8d2d84c",
+  Yf = "TankmanDescription_showCommander_392de842",
+  Qf = "TankmanDescription_close_b105aa08",
+  Jf = R.strings.battle_pass.progression.extraChapterWidget,
+  eg = R.strings.battle_pass.awardsWidget.description.commander(),
+  ag = i(({ isPaidReward: e }) => {
+    const { model: s, controls: r } = Jb(),
+      { tankmenScreenID: n, isBattlePassPurchased: i } = s.root.get(),
+      {
+        tankman: o,
+        hasVoice: l,
+        skills: c,
+        groupName: d,
+      } = s.computes.getFinalRewardTankmanInfo(e),
+      { freeFinalRewards: _, paidFinalRewards: u } = s.computes.getFinalRewardsDescription(),
+      m = _.mainReward === Qt.tankman && (null == u ? void 0 : u.mainReward) === Qt.tankman;
+    return a.jsxs(a.Fragment, {
+      children: [
+        l && a.jsx(zf, { groupName: d }),
+        a.jsx("div", { className: t(Ff, !l && Hf), children: Jf.tankman() }),
+        a.jsx("div", { className: $f, children: o }),
+        c.length > 0 &&
+          a.jsx("div", {
+            className: Uf,
+            children: a.jsx(Of, { skills: c, className: t(Gf, e && qf) }),
+          }),
+        e &&
+          !i &&
+          a.jsx(vt, {
+            contentId: R.views.mono.battle_pass.tooltips.lock_icon("resId"),
+            children: a.jsxs("div", {
+              className: Xf,
+              children: [
+                a.jsx("div", { className: Zf }),
+                a.jsx("div", { className: Kf, children: Jf.labelWithBP() }),
+              ],
+            }),
+          }),
+        Boolean(n) &&
+          !m &&
+          a.jsx(oa, {
+            body: eg,
+            isEnabled: Boolean(eg),
+            children: a.jsx("div", {
+              className: Yf,
+              children: a.jsx(ot, {
+                type: _t.ghost,
+                size: lt.small,
+                mixClass: Qf,
+                onClick: r.showTankmen,
+                children: Jf.commanderVoices(),
+              }),
+            }),
+          }),
+      ],
+    });
+  }),
+  tg = "Timer_992312dc",
+  sg = "Timer_light_b54b0e12",
+  rg = "Timer_icon_daefbc5f",
+  ng = "Timer_value_ef2605c8",
+  ig = ({ expireTime: e = 0 }) => {
+    const t = kt(e, 1),
+      s = ((e) => {
+        const a = (e) => e.toString().padStart(2, "0");
+        return `${e.days ? It(R.strings.common.duration.days(), { days: e.days }) : ""} ${a(e.hours)} : ${a(e.minutes)} : ${a(e.seconds)}`;
+      })(Ae(t));
+    return a.jsx(oa, {
+      body: R.strings.battle_pass.progression.extraChapterWidget.timer(),
+      children: a.jsxs("div", {
+        className: tg,
+        children: [
+          a.jsx("div", { className: rg }),
+          a.jsx("div", { className: ng, children: s }),
+          a.jsx("div", { className: sg }),
+          a.jsx("div", { className: sg }),
+        ],
+      }),
+    });
+  },
+  og = "VehicleInfo_f8a1a53e",
+  lg = "VehicleInfo_type_f9fe252e",
+  cg = ({ vehicleLvl: e, vehicleName: s, vehicleType: r, isElite: n, classNames: i }) =>
+    a.jsxs("div", {
+      className: t(og, null == i ? void 0 : i.base),
+      children: [
+        Jt(e),
+        a.jsx("div", {
+          className: t(lg, null == i ? void 0 : i.type),
+          style: {
+            backgroundImage: `url(${R.images.gui.maps.icons.vehicleTypes.big.$dyn(`${Pt(r)}${n ? "_elite" : ""}`)})`,
+          },
+        }),
+        s,
+      ],
+    }),
+  dg = {
+    vehicleBg: "VehicleDescription_vehicleBg_a5f58731",
+    vehicleBg__description: "VehicleDescription_vehicleBg__description_449188e7",
+    vehicleCaption: "VehicleDescription_vehicleCaption_ff05b2b9",
+    description: "VehicleDescription_description_ac70d89a",
+    rewardLabel: "VehicleDescription_rewardLabel_e69780e1",
+    rewardDescription: "VehicleDescription_rewardDescription_ac995cfe",
+    rewardLockIcon: "VehicleDescription_rewardLockIcon_bf4a508e",
+    rewardLockText: "VehicleDescription_rewardLockText_1ae0fc44",
+  },
+  _g = R.strings.battle_pass.progression.extraChapterWidget,
+  ug = i(({ additionalReward: e, isPaidReward: s }) => {
+    const {
+        model: { vehicleInfo: r, root: n, computes: i },
+        controls: o,
+      } = Jb(),
+      {
+        vehicleType: l,
+        isElite: c,
+        vehicleName: d,
+        vehicleShortName: _,
+        vehicleLvl: u,
+        vehicleNation: m,
+      } = r.get(),
+      {
+        breakpoint: { weight: p },
+      } = je(),
+      { isBattlePassPurchased: h, seasonNum: b } = n.get(),
+      f = i.getPaidFinalRewards().length,
+      g = { backgroundImage: `url(R.images.gui.maps.icons.flags.c_600x450.${m})` },
+      v = p > Ne.medium.weight ? 14 : 12,
+      x = d.length > v ? _ : d,
+      w = _g.tank.description.$num(b);
+    return a.jsxs(a.Fragment, {
+      children: [
+        a.jsx("div", { className: t(dg.vehicleBg, !f && dg.vehicleBg__description), style: g }),
+        a.jsx(dt, { type: "preview", size: "normal", onClick: o.openPreview }),
+        a.jsx("div", { className: dg.vehicleCaption, children: _g.vehicleCaption() }),
+        a.jsx(cg, {
+          classNames: { base: dg.vehicleInfo },
+          vehicleLvl: u,
+          vehicleName: x,
+          vehicleType: l,
+          isElite: c,
+        }),
+        !f && w && a.jsx("div", { className: dg.description, children: a.jsx(A, { text: w }) }),
+        e &&
+          a.jsx("div", { className: dg.rewardLabel, children: a.jsx(uf, { additionalReward: e }) }),
+        s &&
+          !h &&
+          a.jsx(vt, {
+            contentId: R.views.mono.battle_pass.tooltips.lock_icon("resId"),
+            children: a.jsxs("div", {
+              className: dg.rewardDescription,
+              children: [
+                a.jsx("div", { className: dg.rewardLockIcon }),
+                a.jsx("div", { className: dg.rewardLockText, children: _g.labelWithBP() }),
+              ],
+            }),
+          }),
+      ],
+    });
+  }),
+  mg = "Separator_da94a3ab",
+  pg = "Separator_separatorBg_79e9a0f1",
+  hg = ({ classNames: e }) =>
+    a.jsx("div", {
+      className: t(mg, null == e ? void 0 : e.base),
+      children: a.jsx("div", { className: t(pg, null == e ? void 0 : e.separatorBg) }),
+    }),
+  bg = "ExtraChapterWidget_3f5dd2c5",
+  fg = "ExtraChapterWidget_widgetWrapper_df1761bd",
+  gg = "ExtraChapterWidget_base__freeSingleReward_3f5dd2c5",
+  vg = "ExtraChapterWidget_glow_ea30fd08",
+  xg = "ExtraChapterWidget_content_7571cec7",
+  wg = "ExtraChapterWidget_content__left_2a162beb",
+  Cg = "ExtraChapterWidget_content__singleReward_d0c77a05",
+  yg = "ExtraChapterWidget_separatorBg_58fe9583",
+  jg = "ExtraChapterWidget_timer_92648812",
+  Ng = [Qt.style, Qt.attachmentsSet],
+  Sg = { [Qt.tankman]: ag, [Qt.vehicle]: ug, [Qt.style]: kf, [Qt.attachmentsSet]: sf },
+  kg = ({ mainReward: e, additionalReward: t }, s) => {
+    if (!e) return null;
+    const r = Sg[e];
+    return r
+      ? a.jsx(r, { additionalReward: t, ...s })
+      : (console.warn("Unknown final reward type:", e), null);
+  },
+  Ig = i(() => {
+    const {
+        model: { root: e, computes: s },
+      } = Jb(),
+      { timeLeft: r } = e.get(),
+      { freeFinalRewards: n, paidFinalRewards: i } = s.getFinalRewardsDescription(),
+      o = s.regularBattlePass(),
+      l = !i && Ng.includes(n.mainReward ?? "");
+    return a.jsxs("div", {
+      className: t(bg, l && gg),
+      children: [
+        a.jsxs("div", {
+          className: fg,
+          children: [
+            a.jsx("div", { className: vg }),
+            a.jsx("div", { className: t(xg, !i && Cg), children: kg(n, { isPaidReward: !1 }) }),
+            i &&
+              a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx(hg, { classNames: { separatorBg: yg } }),
+                  a.jsx("div", { className: t(xg, wg), children: kg(i, { isPaidReward: !0 }) }),
+                ],
+              }),
+          ],
+        }),
+        !o && a.jsx("div", { className: jg, children: a.jsx(ig, { expireTime: r }) }),
+      ],
+    });
+  }),
+  Pg = {
+    base: "Footer_ab6b29ea",
+    light: "Footer_light_3b6e1ce3",
+    light__red: "Footer_light__red_944d6c45",
+    light__green: "Footer_light__green_9e6310c0",
+    buttonWrapper: "Footer_buttonWrapper_bdb4b046",
+    starterAndButton: "Footer_starterAndButton_2f4854e4",
+    button: "Footer_button_9e575f35",
+    labelContainer: "Footer_labelContainer_ae5572d4",
+    label: "Footer_label_e76dc882",
+    label__buy: "Footer_label__buy_8b13ea86",
+    days: "Footer_days_9ed2f711",
+    points: "Footer_points_58964618",
+    status: "Footer_status_9143122e",
+    info: "Footer_info_5836cdb1",
+    infoHover: "Footer_infoHover_63796a67",
+    blink: "Footer_blink_106ec98e",
+    move: "Footer_move_4308958a",
+    fadeInWithScale: "Footer_fadeInWithScale_4308958a",
+    slideUp: "Footer_slideUp_4308958a",
+    scale: "Footer_scale_4308958a",
+    rotate: "Footer_rotate_4308958a",
+    windowIn: "Footer_windowIn_4308958a",
+    fadeOut: "Footer_fadeOut_4308958a",
+    fadeIn: "Footer_fadeIn_4308958a",
+  },
+  Rg = S.resolve("strings"),
+  Bg = (e, a) =>
+    e
+      ? a
+        ? Rg.readOrEmpty("battle_pass.progression.activatePausedExtraChapterDescr")
+        : Rg.readOrEmpty("battle_pass.progression.activateExtraChapterDescr")
+      : Rg.readOrEmpty("battle_pass.progression.activateChapterDescr"),
+  Ag = i(() => {
+    const { model: e, controls: s } = Jb(),
+      r = me(),
+      {
+        actionType: n,
+        chapterType: i,
+        hasExtra: o,
+        isSeasonEndingSoon: l,
+        freePointsInChapter: c,
+        currentPointsInChapter: d,
+        chapterState: _,
+        timeLeft: u,
+        chapterID: m,
+        isStarterPack: p,
+      } = e.root.get(),
+      h = i === Ub.EXTRA,
+      b = i === Ub.HOLIDAY,
+      f = _ === Hb.Paused,
+      g = c - d,
+      v = n === $b.ActivateChapter && g > 0,
+      x = n !== $b.ActivateChapter && l,
+      w = p
+        ? Rg.readOrEmpty("battle_pass.progression.battlePassBuyDescrStarterPack")
+        : b
+          ? Rg.readOrEmpty("battle_pass.progression.battlePassBuyHolidayDescr")
+          : Rg.readOrEmpty("battle_pass.progression.battlePassBuyDescr"),
+      {
+        buyBtnLabel: C,
+        tooltip: y,
+        label: j,
+        warning: N,
+        buttonType: S,
+        lightColor: k,
+        route: I,
+        params: P,
+      } = ((e) => {
+        switch (e) {
+          case $b.Buy:
+            return {
+              buyBtnLabel: Rg.readOrEmpty("battle_pass.progression.battlePassBuyBtn"),
+              tooltip: Rg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.battlePass.descr"),
+              label: w,
+              warning: Rg.readOrEmpty("battle_pass.progression.seasonEndingDescr"),
+              buttonType: _t.main,
+              lightColor: "red",
+              route: as.battlePass.buyPass,
+              params: { chapterID: m },
+            };
+          case $b.BuyLevel:
+            return {
+              buyBtnLabel: Rg.readOrEmpty("battle_pass.progression.episodeBuyBtn"),
+              tooltip: b
+                ? Rg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.episode.holidayDescr")
+                : Rg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.episode.descr"),
+              label: Rg.readOrEmpty("battle_pass.progression.episodeBuyDescr"),
+              warning: Rg.readOrEmpty("battle_pass.progression.seasonEndingDescr"),
+              buttonType: _t.main,
+              lightColor: "",
+              route: as.battlePass.buyLevels,
+              params: { chapterID: m },
+            };
+          case $b.ActivateChapter:
+            return {
+              buyBtnLabel: Rg.readOrEmpty("battle_pass.progression.activateChapter"),
+              tooltip: Rg.readOrEmpty("battle_pass.tooltips.footerBuyBtn.activateChapter.descr"),
+              label: Bg(h, f),
+              warning: Rg.readOrEmpty("battle_pass.progression.freePointsDescr"),
+              buttonType: _t.primary,
+              lightColor: "green",
+              route: "",
+              params: {},
+            };
+          default:
+            return {
+              buyBtnLabel: "",
+              tooltip: "",
+              label: "",
+              warning: "",
+              buttonType: _t.ghost,
+              lightColor: "green",
+              route: "",
+              params: {},
+            };
+        }
+      })(n),
+      R = v || x ? N : j,
+      B = ((e) => {
+        const t = Ae(e);
+        switch (!0) {
+          case t.days >= 1:
+            return a.jsx(A, {
+              text: Rg.readOrEmpty("battle_pass.status.timeLeft.days"),
+              binding: { day: t.days },
+            });
+          case t.hours >= 1:
+            return a.jsx(A, {
+              text: Rg.readOrEmpty("battle_pass.status.timeLeft.hours"),
+              binding: { hour: t.hours },
+            });
+          case t.minutes >= 1:
+            return a.jsx(A, {
+              text: Rg.readOrEmpty("battle_pass.status.timeLeft.min"),
+              binding: { min: t.minutes },
+            });
+          default:
+            return Rg.readOrEmpty("battle_pass.status.timeLeft.lessMin");
+        }
+      })(u),
+      E = e.computes.getStarterPackRewards(),
+      T = () => {
+        n === $b.ActivateChapter
+          ? s.chapterActivate()
+          : I && r.push(I, { chapterID: P.chapterID || void 0, reset: P.reset });
+      };
+    return a.jsxs("div", {
+      className: Pg.base,
+      children: [
+        !p &&
+          a.jsxs(a.Fragment, {
+            children: [
+              a.jsx("div", { className: t(Pg.light, Pg[`light__${k}`]) }),
+              a.jsxs("div", {
+                className: Pg.labelContainer,
+                children: [
+                  f &&
+                    a.jsx("div", {
+                      className: Pg.status,
+                      children: Rg.readOrEmpty("battle_pass.progression.footer.status.paused"),
+                    }),
+                  a.jsx("div", { className: Pg.label, children: R }),
+                  x && a.jsx("div", { className: Pg.days, children: B }),
+                  v &&
+                    a.jsxs(a.Fragment, {
+                      children: [
+                        a.jsx("div", { className: Pg.points, children: g }),
+                        a.jsx("div", {
+                          className: Pg.info,
+                          children: a.jsx(oa, {
+                            header: Rg.readOrEmpty(
+                              "battle_pass.tooltips.progression.freePoints.header",
+                            ),
+                            body: o
+                              ? Rg.readOrEmpty(
+                                  "battle_pass.tooltips.progression.freePoints.bodyExceptExtra",
+                                )
+                              : Rg.readOrEmpty("battle_pass.tooltips.progression.freePoints.body"),
+                            children: a.jsx("div", { className: Pg.infoHover }),
+                          }),
+                        }),
+                      ],
+                    }),
+                ],
+              }),
+            ],
+          }),
+        a.jsx("div", {
+          className: Pg.buttonWrapper,
+          children: p
+            ? a.jsxs("div", {
+                className: Pg.starterAndButton,
+                "data-test-id": `${n}ButtonWithSeasonData`,
+                children: [
+                  a.jsxs(a.Fragment, {
+                    children: [
+                      a.jsx("div", {
+                        className: t(Pg.label, Pg.label__buy),
+                        children: a.jsx(A, { text: R }),
+                      }),
+                      x && a.jsx("div", { className: Pg.days, children: B }),
+                    ],
+                  }),
+                  a.jsx(oa, {
+                    body: y,
+                    children: a.jsxs(ot, {
+                      type: S,
+                      size: lt.medium,
+                      mixClass: Pg.button,
+                      onClick: T,
+                      children: [x && a.jsx("div", { className: Pg.blink }), C],
+                    }),
+                  }),
+                  a.jsx(qn, { starterPackRewards: E, presentSize: Un, rewardSize: ve.Small }),
+                ],
+              })
+            : a.jsx(oa, {
+                body: y,
+                children: a.jsxs(ot, {
+                  type: S,
+                  size: lt.medium,
+                  mixClass: Pg.button,
+                  onClick: T,
+                  children: [x && a.jsx("div", { className: Pg.blink }), C],
+                }),
+              }),
+        }),
+      ],
+    });
+  }),
+  Eg = "Header_d6c7a62a",
+  Tg = "Header_labels_73a63da7",
+  Lg = "Header_title_46bb5059",
+  Dg = "Header_chapterWrapper_ec40e5cf",
+  Og = "Header_chapterText_b2d85aee",
+  Wg = "Header_titleText_593dd9b2",
+  Mg = "Header_chapterStatus_9c15353a",
+  Vg = "Header_date_dc70e297",
+  zg = "Header_titleButtons_7521b3e5",
+  Fg = "Header_titleButton_d86731f6",
+  Hg = "Header_logo_46c0cb85",
+  $g = "Header_awards_f810fc3a",
+  Ug = "Header_emblem_c890a2dc",
+  Gg = "Header_emblem__isChapterNotChosen_8aa33950",
+  qg = R.strings.battle_pass,
+  Xg = i(() => {
+    const { controls: e, model: s } = Jb(),
+      {
+        chapterID: r,
+        chapterState: n,
+        seasonNum: i,
+        expireTime: o,
+        isBattlePassPurchased: l,
+        timeLeft: c,
+        chapterType: d,
+      } = s.root.get(),
+      _ = [Hb.NotStarted, Hb.Paused],
+      u =
+        (m = n) === Hb.Paused
+          ? qg.progression.header.paused()
+          : m === Hb.NotStarted
+            ? qg.progression.header.inactive()
+            : void 0;
+    var m;
+    const p = d === Ub.EXTRA,
+      h = d === Ub.HOLIDAY,
+      b = Math.trunc(c / 86400),
+      f = String(qg.chapter.fullName.$num(r)),
+      g = Rt(qg.progression.seasonEndingTooltip(), { day: b }),
+      v = Rt(qg.progression.header.chapter.status(), { chapterName: f }),
+      x = k(
+        { iconSize: Xr, shieldSize: Vr, containerSize: Tr },
+        { medium: { iconSize: Kr, shieldSize: zr, containerSize: Lr } },
+      ),
+      w = la;
+    return a.jsxs("div", {
+      className: Eg,
+      children: [
+        a.jsx("div", {
+          className: Hg,
+          children: a.jsx("div", {
+            className: t(Ug, _.includes(n) && Gg),
+            children: a.jsx(sn, {
+              iconSize: x.iconSize,
+              shieldSize: x.shieldSize,
+              containerSize: x.containerSize,
+              bpPurchased: l,
+              chapterID: r,
+              className: Ug,
+            }),
+          }),
+        }),
+        a.jsx("div", {
+          className: Tg,
+          children: a.jsxs("div", {
+            className: Lg,
+            children: [
+              a.jsx(oa, {
+                body: g,
+                isEnabled: Boolean(c),
+                children: a.jsx("div", {
+                  className: Vg,
+                  children: p
+                    ? a.jsx(A, {
+                        text: qg.progression.season.end.special(),
+                        binding: { endTime: et(o, at.DayMonthFull) },
+                      })
+                    : h
+                      ? a.jsx(A, {
+                          text: qg.progression.season.end.special(),
+                          binding: { endTime: et(o, at.DayMonthFullTime) },
+                        })
+                      : a.jsx(A, {
+                          text: qg.progression.season.end.normal(),
+                          binding: {
+                            seasonNum: Jt(i),
+                            seasonName: String(qg.season.fullName.$num(i)),
+                            endDate: et(o, at.DayMonthFull),
+                          },
+                        }),
+                }),
+              }),
+              a.jsxs("div", {
+                className: Dg,
+                children: [
+                  a.jsx("div", {
+                    className: Wg,
+                    children: a.jsx(w, { className: Og, text: f, tooltipParams: { body: v } }),
+                  }),
+                  u && a.jsx("div", { className: Mg, children: u }),
+                ],
+              }),
+              a.jsxs("div", {
+                className: zg,
+                children: [
+                  a.jsx("div", {
+                    className: Fg,
+                    children: a.jsx(yt, {
+                      caption: p || h ? qg.progression.aboutExtra() : qg.progression.about(),
+                      type: "info",
+                      onClick: e.openAbout,
+                    }),
+                  }),
+                  a.jsx("div", {
+                    className: Fg,
+                    children: a.jsx(yt, {
+                      caption: qg.progression.howToEarnPoints.title(),
+                      type: "info",
+                      onClick: e.openInfo,
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          }),
+        }),
+        a.jsx("div", {
+          className: $g,
+          children: a.jsx(Bm, {
+            rootId: R.aliases.battle_pass.Progression("resId"),
+            context: "model.awardsWidget",
+          }),
+        }),
+      ],
+    });
+  });
+var Zg = ((e) => ((e.Dragging = "dragging"), (e.End = "scrollingToEnd"), (e.Idle = "idle"), e))(
+  Zg || {},
+);
+const Kg = { type: "idle" };
+var Yg = ((e) => (
+  (e[(e.MainButton = 0)] = "MainButton"),
+  (e[(e.AuxiliaryButton = 1)] = "AuxiliaryButton"),
+  (e[(e.SecondaryButton = 2)] = "SecondaryButton"),
+  (e[(e.FourthButton = 3)] = "FourthButton"),
+  (e[(e.FifthButton = 4)] = "FifthButton"),
+  e
+))(Yg || {});
+const Qg = {
+    base: "ArrowButton_bae005da",
+    base__gray: "ArrowButton_base__gray_2872d83c",
+    icon: "ArrowButton_icon_78679b8c",
+    icon__4k: "ArrowButton_icon__4k_2f0ad49a",
+    icon__back: "ArrowButton_icon__back_20344757",
+    icon__forward: "ArrowButton_icon__forward_3467f80",
+    fadeInWithScale: "ArrowButton_fadeInWithScale_5327085d",
+    slideUp: "ArrowButton_slideUp_5327085d",
+    blink: "ArrowButton_blink_5327085d",
+    scale: "ArrowButton_scale_5327085d",
+    rotate: "ArrowButton_rotate_5327085d",
+    windowIn: "ArrowButton_windowIn_5327085d",
+    fadeOut: "ArrowButton_fadeOut_5327085d",
+    fadeIn: "ArrowButton_fadeIn_5327085d",
+  },
+  Jg = ({ onClick: s, direction: r, type: n = Kb.Default, className: i, tooltipBody: o }) => {
+    const l = e.useCallback(() => {
+        Se.sound(R.sounds.highlight());
+      }, []),
+      c = e.useCallback(() => {
+        (Se.sound(R.sounds.bp_slide()), s());
+      }, [s]);
+    return a.jsx(oa, {
+      body: o,
+      children: a.jsx("div", {
+        className: t(Qg.base, Qg[`base__${n}`], i),
+        onClick: c,
+        onMouseEnter: l,
+        children: a.jsx("div", {
+          className: t(Qg.icon, Qg[`icon__${r}`], 2 === Bt() && Qg.icon__4k),
+        }),
+      }),
+    });
+  },
+  ev = "Bookmark_1a260409",
+  av = "Bookmark_container_5cba29f3",
+  tv = "Bookmark_container__start_f008a523",
+  sv = "Bookmark_container__wide_16a4de6e",
+  rv = "Bookmark_textWrapper_985290f6",
+  nv = "Bookmark_withTooltip_ef0470d4",
+  iv = "Bookmark_text_7877afbc",
+  ov = "Bookmark_text__basic_9271b9b6",
+  lv = "Bookmark_text__premium_49218d9e",
+  cv = "Bookmark_text__single_8125f23e",
+  dv = "Bookmark_text__wide_3f764b56",
+  _v = "Bookmark_text__disappeared_68a02d91",
+  uv = "Bookmark_textInner_8a053178",
+  mv = "Bookmark_leftTextLine_efb7ffd5",
+  pv = "Bookmark_rightTextLine_c747efe3",
+  hv = ({ isWide: e, isDecorated: s }) =>
+    a.jsxs("div", {
+      className: t(iv, cv, e && dv),
+      children: [
+        s && a.jsx("div", { className: mv }),
+        a.jsx("div", {
+          className: uv,
+          children: R.strings.battle_pass.progression.postProgressionDescr(),
+        }),
+        s && a.jsx("div", { className: pv }),
+      ],
+    }),
+  bv = e.forwardRef(
+    (
+      {
+        isWide: s = !1,
+        isDisappeared: r = !1,
+        tooltipBody: n,
+        tooltipTitle: i,
+        chapterStep: o,
+        mixClass: l,
+      },
+      c,
+    ) => {
+      const d = e.useRef(null);
+      e.useImperativeHandle(c, () => ({
+        width: () => {
+          const e = d.current;
+          if (e) {
+            const a = window.getComputedStyle(e, null).getPropertyValue("width");
+            return Number(a.split("rem")[0]);
+          }
+          return 0;
+        },
+      }));
+      const _ = a.jsx(A, {
+        text: R.strings.battle_pass.tooltips.postProgress.body(),
+        binding: { chapterStep: o },
+      });
+      return a.jsx("div", {
+        className: t(ev, l),
+        ref: d,
+        children: a.jsx("div", {
+          className: t(av, s && sv, !s && tv),
+          children: s
+            ? a.jsx(oa, {
+                body: n,
+                header: i,
+                isEnabled: "string" == typeof n,
+                children: a.jsx("div", {
+                  className: nv,
+                  children: a.jsx(hv, { isWide: s, isDecorated: !0 }),
+                }),
+              })
+            : a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx("div", {
+                    className: rv,
+                    children: a.jsx(oa, {
+                      header: R.strings.battle_pass.tooltips.postProgress.header(),
+                      body: _,
+                      children: a.jsx(hv, { isWide: s }),
+                    }),
+                  }),
+                  a.jsx(vt, {
+                    contentId: R.views.mono.battle_pass.tooltips.lock_icon("resId"),
+                    children: a.jsx("div", {
+                      className: t(iv, lv),
+                      children: R.strings.battle_pass.progression.premiumProgressionDescr(),
+                    }),
+                  }),
+                  a.jsx("div", {
+                    className: t(iv, ov, r && _v),
+                    children: R.strings.battle_pass.progression.baseProgressionDescr(),
+                  }),
+                ],
+              }),
+        }),
+      });
+    },
+  ),
+  fv = "LoupeButton_d966f396",
+  gv = "LoupeButton_icon_bfb9d784",
+  vv = "LoupeButton_iconHover_22ab079c",
+  xv = "LoupeButton_hoverArea_fa5a9428",
+  wv = ({ onClick: s, hoverAreaClasses: r }) => {
+    const n = e.useCallback(() => Se.sound(R.sounds.highlight()), []),
+      i = e.useCallback(() => {
+        (Se.sound(R.sounds.play()), s());
+      }, [s]),
+      o = t(xv, r);
+    return a.jsxs("div", {
+      className: fv,
+      onClick: i,
+      onMouseEnter: n,
+      children: [
+        a.jsx("div", { className: gv }),
+        a.jsx("div", { className: vv }),
+        r && a.jsx("div", { className: o }),
+      ],
+    });
+  },
+  Cv = "VehicleInfo_c9c556fb",
+  yv = "VehicleInfo_prefix_da97ceb4",
+  jv = "VehicleInfo_type_514b50be",
+  Nv = R.strings.battle_pass.progression.widget3dStyle,
+  Sv = e.memo(({ vehicleLvl: t, vehicleName: s, vehicleType: r, isElite: n }) => {
+    const i = e.useMemo(() => {
+      const e = Pt(r);
+      return {
+        backgroundImage: `url(${R.images.gui.maps.icons.vehicleTypes.big.$dyn(`${e}${n ? "_elite" : ""}`)})`,
+      };
+    }, [r, n]);
+    return a.jsxs("div", {
+      className: Cv,
+      children: [
+        a.jsx("div", { className: yv, children: Nv.forVehicle() }),
+        Jt(t),
+        a.jsx("div", { className: jv, style: i }),
+        s,
+      ],
+    });
+  }),
+  kv = "Widget3dStyle_a34c3929",
+  Iv = "Widget3dStyle_title_d5bd52fc",
+  Pv = "Widget3dStyle_base__closedChapter_9577883c",
+  Rv = "Widget3dStyle_box_7d47e858",
+  Bv = "Widget3dStyle_light_afd0e007",
+  Av = "Widget3dStyle_image_37b4439c",
+  Ev = "Widget3dStyle_previewButton_42e4e473",
+  Tv = "Widget3dStyle_box__hovered_9577883c",
+  Lv = "Widget3dStyle_footer_ff3bf09e",
+  Dv = "Widget3dStyle_caption_cc553073",
+  Ov = R.strings.battle_pass.progression.widget3dStyle,
+  Wv = i(({ widget3dStyleRef: s, level: r, isShowTitle: n }) => {
+    const [i, o] = e.useState(!1),
+      { controls: l, model: c } = Jb(),
+      { chapterState: d, isStyleTaken: _ } = c.root.get(),
+      { styleName: u, styleId: m } = c.widget3dStyle.get(),
+      {
+        breakpoint: { weight: p },
+      } = je(),
+      h = ((e, a) => (2 !== a ? (e <= Ne.small.weight ? "_small" : "_medium") : ""))(
+        p,
+        viewEnv.getScale(),
+      ),
+      b = es(r, m, h),
+      f = a.jsx(A, { text: Ov.currentStyle(), binding: { name: u } }),
+      g = e.useCallback(() => {
+        l.open3dStylePreview(r);
+      }, [l, r]);
+    return a.jsxs("div", {
+      className: t(kv, d === Hb.Completed && Pv),
+      ref: s,
+      children: [
+        !_ && n && a.jsx("div", { className: Iv, children: Ov.titleNoChapterSelected() }),
+        a.jsxs("div", {
+          className: t(Rv, i && Tv),
+          onMouseEnter: () => o(!0),
+          onMouseLeave: () => o(!1),
+          children: [
+            !_ && r === yw && a.jsx("div", { className: Bv }),
+            a.jsx("div", { className: Av, style: b }),
+            a.jsx("div", { className: Ev, children: a.jsx(wv, { onClick: g }) }),
+          ],
+        }),
+        a.jsxs("div", {
+          className: Lv,
+          children: [
+            a.jsx("div", { className: Dv, children: f }),
+            a.jsx(Sv, { ...c.widget3dStyleVehicleInfo.get() }),
+          ],
+        }),
+      ],
+    });
+  }),
+  Mv = ({
+    level: e,
+    levelWidth: a,
+    currentLevelWidth: t,
+    pointsInLevel: s,
+    totalPointsInLevel: r,
+    currentLevel: n,
+  }) => (e > n ? t + a * (e - 2) + a * (s / r) : (e - 1) * a + t * (s / r)),
+  Vv = (e) => e + 1,
+  zv = i(
+    ({
+      api: t,
+      progressChange: s,
+      levelWidth: r,
+      currentLevelWidth: n,
+      level: i,
+      previousLevel: o,
+      currentPointsInLevel: l,
+      previousPointsInLevel: c,
+      currentPointsInChapter: d,
+      previousPointsInChapter: _,
+      theme: u,
+    }) => {
+      const { model: m } = Jb(),
+        { isPaused: p, showLevelsAnimations: h, currentLevel: b } = m.root.get(),
+        f = m.levels.get(),
+        [g, v] = e.useState(0),
+        x = e.useRef(-1),
+        [{ previousBaseEarnedPoints: w, maxBasePoints: C, baseProgressionSize: y }, j] = e.useState(
+          { previousBaseEarnedPoints: 0, maxBasePoints: 0, baseProgressionSize: 0 },
+        );
+      e.useEffect(() => {
+        var e;
+        if (p) return;
+        const a = x.current !== _,
+          t = a ? o : i,
+          s = n + (f.length - 1) * r,
+          u = Be(f, t - 1),
+          m = i <= f.length ? i - 1 : f.length - 1,
+          h = null == (e = Be(f, m)) ? void 0 : e.levelPoints;
+        if (!h) return;
+        const g = Mv({
+            level: i,
+            levelWidth: r,
+            currentLevelWidth: n,
+            pointsInLevel: l,
+            totalPointsInLevel: h,
+            currentLevel: b,
+          }),
+          v = u ? u.levelPoints : 0,
+          w = Mv({
+            level: t > i ? i : t,
+            levelWidth: r,
+            currentLevelWidth: t < b ? r : n,
+            pointsInLevel: c,
+            totalPointsInLevel: v,
+            currentLevel: b,
+          }),
+          C = a && t <= i ? w : g;
+        (_ !== d && r && (x.current = _),
+          j({ maxBasePoints: s, previousBaseEarnedPoints: C, baseProgressionSize: g }));
+      }, [p, r, n, i, o, d, c, l, _, b, f]);
+      const N = e.useMemo(
+        () => ({
+          ...mt,
+          withStack: !0,
+          type: ut.Simple,
+          delta: { duration: 400, delay: 300 },
+          line: { duration: 400, delay: 300 },
+        }),
+        [],
+      );
+      return (
+        e.useEffect(() => {
+          const e = b !== o || l !== c;
+          if (!h && (e || d === _))
+            return e && -1 === x.current
+              ? ee(() => {
+                  v(Vv);
+                }, 700)
+              : void 0;
+          v(Vv);
+        }, [d, _, h]),
+        e.useEffect(() => {
+          if (h)
+            return Va(() => {
+              s && s();
+            });
+        }, [s, h]),
+        a.jsx(
+          Ct,
+          { animationSettings: N, deltaFrom: w, value: y, maxValue: C || void 0, api: t, theme: u },
+          g,
+        )
+      );
+    },
+  ),
+  Fv = {
+    base: "Progression_1b76c395",
+    base__isLayoutWithExtraWidget: "Progression_base__isLayoutWithExtraWidget_61efd8f5",
+    scrollWrapper: "Progression_scrollWrapper_5d6c50f7",
+    wrapper: "Progression_wrapper_2d700f2",
+    progressContainer: "Progression_progressContainer_bf13204b",
+    progress: "Progression_progress_f2c8d04a",
+    progress__inactive: "Progression_progress__inactive_884002f1",
+    progressBackground: "Progression_progressBackground_58b1a303",
+    progressBackground__finished: "Progression_progressBackground__finished_335b0244",
+    decor: "Progression_decor_158cf9e5",
+    decorBackground: "Progression_decorBackground_da5971de",
+    decor__left: "Progression_decor__left_61efd8f5",
+    row: "Progression_row_2b2744bc",
+    row__basic: "Progression_row__basic_db90f79e",
+    bookmark: "Progression_bookmark_adda18c9",
+    bookmark__start: "Progression_bookmark__start_e45cdc98",
+    bookmarkLeftFixed: "Progression_bookmarkLeftFixed_87985cd2",
+    bookmarkLeftFixed__active: "Progression_bookmarkLeftFixed__active_3d829e66",
+    bookmarkLeftResponsive: "Progression_bookmarkLeftResponsive_f380dd1b",
+    bookmarkBackground: "Progression_bookmarkBackground_3695986",
+    scrollToButton: "Progression_scrollToButton_b51d1a4f",
+    scrollToButton__visible: "Progression_scrollToButton__visible_750807fe",
+    scrollToButton__forward: "Progression_scrollToButton__forward_f3d60cf3",
+    scrollToButton__backward: "Progression_scrollToButton__backward_d30703b1",
+    arrowButton: "Progression_arrowButton_fe2d3e38",
+    shadow: "Progression_shadow_aeeafbe",
+    shadow__left: "Progression_shadow__left_7a5e7f90",
+    shadow__right: "Progression_shadow__right_b09b06b4",
+    additionalShadow: "Progression_additionalShadow_19983a68",
+    additionalShadow__active: "Progression_additionalShadow__active_3d829e66",
+    scrollBarPosition: "Progression_scrollBarPosition_31bb147f",
+  },
+  Hv = R.strings.battle_pass.tooltips.progression.freePoints,
+  $v = i(
+    ({
+      progressApi: e,
+      freePointsApi: s,
+      levelWidth: r,
+      currentLevelWidth: n,
+      progressChange: i,
+    }) => {
+      const { model: o } = Jb(),
+        {
+          chapterState: l,
+          currentLevel: c,
+          previousLevel: d,
+          currentPointsInLevel: _,
+          previousPointsInLevel: u,
+          currentPointsInChapter: m,
+          previousPointsInChapter: p,
+          freePointsInLevel: h,
+          freePointsInChapter: b,
+          previousFreePointsInChapter: f,
+          previousFreePointsInLevel: g,
+          potentialLevel: v,
+          previousPotentialLevel: x,
+        } = o.root.get(),
+        w = o.levels.get(),
+        C = Oe(),
+        y = (l === Hb.NotStarted || l === Hb.Paused) && b - m > 0,
+        j = o.computes.getTotalLevelPoints();
+      if (!j) return;
+      const N = o.computes.getCurrentWidth(r, n, C, j),
+        S = m >= w.length * j,
+        k = {
+          "--progress-line-base": pt.line.bgColorBase,
+          "--progress-line-disabled": pt.line.bgColorDisabled,
+          "--progress-line-finished": pt.line.bgColorFinished,
+        };
+      return a.jsxs("div", {
+        className: Fv.progressContainer,
+        children: [
+          y &&
+            a.jsx(oa, {
+              header: Hv.header(),
+              body: Hv.body(),
+              children: a.jsx("div", {
+                className: Fv.progress,
+                children: a.jsx(zv, {
+                  api: s,
+                  progressChange: i,
+                  levelWidth: r,
+                  currentLevelWidth: n,
+                  level: v,
+                  previousLevel: x,
+                  currentPointsInLevel: h,
+                  previousPointsInLevel: g,
+                  currentPointsInChapter: b,
+                  previousPointsInChapter: f,
+                  theme: At,
+                }),
+              }),
+            }),
+          a.jsx("div", {
+            className: t(Fv.progressBackground, S && Fv.progressBackground__finished),
+            style: { width: `${N}rem`, ...k },
+          }),
+          a.jsx(vt, {
+            contentId: R.views.mono.battle_pass.tooltips.bp_points("resId"),
+            children: a.jsx("div", {
+              className: t(Fv.progress, y && Fv.progress__inactive),
+              children: a.jsx(zv, {
+                api: e,
+                levelWidth: r,
+                currentLevelWidth: n,
+                level: c,
+                previousLevel: d,
+                currentPointsInLevel: _,
+                previousPointsInLevel: u,
+                currentPointsInChapter: m,
+                previousPointsInChapter: p,
+                progressChange: i,
+              }),
+            }),
+          }),
+        ],
+      });
+    },
+  ),
+  Uv = "Background_3985f66b",
+  Gv = "Background_default_6d3ad0aa",
+  qv = "Background_base__premium_26effab7",
+  Xv = "Background_rare_927afb2",
+  Zv = "Background_rareBg_af0bac1",
+  Kv = "Background_pattern_f3c44da",
+  Yv = "Background_pattern__left_910cb7b6",
+  Qv = "Background_pattern__right_9077c0df",
+  Jv = "Background_pattern__leftIndent_508a3857",
+  ex = "Background_pattern__rightIndent_db46b63f",
+  ax = "Background_pattern__completed_51752ce4",
+  tx = "Background_disabled_12f45c1c",
+  sx = "Background_inProgress_f241145e",
+  rx = "Background_inProgressInner_eca44a42",
+  nx = "Background_inProgressPart_886e2046",
+  ix = "Background_inProgressPart__left_6b695373",
+  ox = "Background_inProgressPart__right_cb03c83d",
+  lx = (e) => `url(R.images.gui.maps.icons.battlePass.progression.pattern_rare_${e})`,
+  cx = i(({ level: e, isPremium: s = !1 }) => {
+    const { model: r } = Jb(),
+      { cardStatus: n, isRare: i, isDisabled: o } = r.computes.cardStates(e, s),
+      l =
+        n.current !== qb.IN_PROGRESS &&
+        ((e, a) => {
+          switch (e) {
+            case qb.NOT_STARTED:
+              return a;
+            case qb.COMPLETED:
+              return !a;
+            default:
+              return (console.warn(`Unsupported status for isIndent: ${e}`), !1);
+          }
+        })(n.current, s);
+    return a.jsxs("div", {
+      className: t(Uv, s && qv),
+      children: [
+        a.jsx("div", { className: Gv }),
+        o && a.jsx("div", { className: tx }),
+        n.current === qb.IN_PROGRESS &&
+          a.jsxs("div", {
+            className: sx,
+            children: [
+              a.jsx("div", { className: t(nx, ix) }),
+              !s && a.jsx("div", { className: rx }),
+              a.jsx("div", { className: t(nx, ox) }),
+            ],
+          }),
+        i &&
+          a.jsxs("div", {
+            className: Xv,
+            children: [
+              a.jsx("div", {
+                className: t(Kv, Yv, l && Jv, n.current === qb.COMPLETED && ax),
+                style: { backgroundImage: lx("left") },
+              }),
+              a.jsx("div", {
+                className: t(Kv, Qv, !l && ex, n.current === qb.COMPLETED && ax),
+                style: { backgroundImage: lx("right") },
+              }),
+              n.current === qb.NOT_STARTED && a.jsx("div", { className: Zv }),
+            ],
+          }),
+      ],
+    });
+  }),
+  dx = {
+    base: "Stage_7c79af8a",
+    base__rewardTaken: "Stage_base__rewardTaken_a669b795",
+    number: "Stage_number_1d4a1a4c",
+    animatedNumber: "Stage_animatedNumber_3b1e34e9",
+    numberInProgress: "Stage_numberInProgress_d91be11d",
+    title: "Stage_title_a5ffe511",
+    glow: "Stage_glow_cc400fdf",
+    base__inProgress: "Stage_base__inProgress_68142ff2",
+    animatedGlow: "Stage_animatedGlow_4243426d",
+    iconFinal: "Stage_iconFinal_b5e7d2e",
+    fadeInWithScale: "Stage_fadeInWithScale_68142ff2",
+    slideUp: "Stage_slideUp_68142ff2",
+    blink: "Stage_blink_68142ff2",
+    scale: "Stage_scale_68142ff2",
+    rotate: "Stage_rotate_68142ff2",
+    windowIn: "Stage_windowIn_68142ff2",
+    fadeOut: "Stage_fadeOut_68142ff2",
+    fadeIn: "Stage_fadeIn_68142ff2",
+  },
+  _x = R.strings.battle_pass.progression,
+  ux = i(({ stepNumber: s, stageAnimationDelay: i, isRewardAnimationActive: o }) => {
+    const { model: l, controls: c } = Jb(),
+      { chapterState: d, showLevelsAnimations: _ } = l.root.get(),
+      [u, m] = e.useState(!1),
+      { cardStatus: p } = l.computes.cardStates(s, !1),
+      h = l.computes.isRewardNeedTake(s, !1) || l.computes.isRewardNeedTake(s, !0),
+      b = l.computes.levelInfo(s).maxLevel === s,
+      f = p.current === qb.IN_PROGRESS,
+      g = d === Hb.NotStarted || d === Hb.Paused,
+      v = p.current === qb.COMPLETED && !h && !o,
+      { stageOpacity: x } = r({
+        from: { stageOpacity: u ? 1 : 0 },
+        to: { stageOpacity: 0 },
+        delay: 0,
+        onStart: () => Se.sound(R.sounds.bp_current_phase()),
+        config: { duration: 750, easing: Kt },
+      }),
+      { sparkOpacity: w } = r({
+        from: { sparkOpacity: u ? 1 : 0 },
+        to: { sparkOpacity: 0 },
+        delay: 1100,
+        onRest: () => m(!1),
+        config: { duration: 1500, easing: Kt },
+      });
+    return (
+      e.useEffect(() => {
+        if (_ && f)
+          return ee(() => {
+            (m(!0), c.finishLevelsAnimation());
+          }, i + 100);
+      }, [_, f, i]),
+      a.jsxs("div", {
+        className: t(dx.base, dx[`base__${p.current}`], v && dx.base__rewardTaken),
+        children: [
+          f &&
+            !g &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx("div", { className: dx.glow }),
+                a.jsx(n.div, { style: { opacity: w }, className: dx.animatedGlow }),
+              ],
+            }),
+          b && a.jsx("div", { className: dx.iconFinal }),
+          f
+            ? a.jsxs(a.Fragment, {
+                children: [
+                  a.jsxs("div", {
+                    className: dx.numberInProgress,
+                    children: [
+                      s,
+                      a.jsx(n.div, {
+                        style: {
+                          opacity: x,
+                          transform: x
+                            .to([0, 1], [2.5, 1])
+                            .to((e) => `translate(-50%, -50%) scale(${e})`),
+                        },
+                        className: dx.animatedNumber,
+                        children: s,
+                      }),
+                    ],
+                  }),
+                  a.jsx("div", {
+                    className: dx.title,
+                    children: g ? _x.pausedStep() : _x.currentStep(),
+                  }),
+                ],
+              })
+            : a.jsx("div", { className: dx.number, children: s }),
+        ],
+      })
+    );
+  }),
+  mx = "ClosedStatus_659358dc",
+  px = "ClosedStatus_icon_26722519",
+  hx = "ClosedStatus_icon__current_d82fe3b3",
+  bx = "ClosedStatus_icon__exit_70d0e6c0",
+  fx = "ClosedStatus_icon__exitActive_6e4d1395",
+  gx = "ClosedStatus_icon__exitCurrentActive_add31c82",
+  vx = "ClosedStatus_icon__exitDone_694aab32",
+  xx = "ClosedStatus_title_9c1acbb0",
+  wx = "ClosedStatus_title__exit_29b67eb8",
+  Cx = "ClosedStatus_title__exitActive_3d936f93",
+  yx = "ClosedStatus_title__exitDone_694aab32",
+  jx = i(
+    ({
+      level: s,
+      playUnlockAnimation: r = !1,
+      handleUnlockAnimationExited: n,
+      baseUnlockProps: i,
+    }) => {
+      const o = e.useRef(null),
+        l = e.useRef(null),
+        { model: c } = Jb(),
+        { isBattlePassPurchased: d } = c.root.get(),
+        { cardStatus: _ } = c.computes.cardStates(s, !0),
+        u = _.current === qb.IN_PROGRESS,
+        m = { exit: bx, exitActive: u ? gx : fx, exitDone: vx },
+        p = { exit: wx, exitActive: Cx, exitDone: yx },
+        h = !d || r,
+        b = u && h;
+      return a.jsxs("div", {
+        className: mx,
+        children: [
+          h &&
+            a.jsx(j, {
+              ...i,
+              nodeRef: o,
+              classNames: m,
+              onExited: n,
+              children: a.jsx("div", { ref: o, className: t(px, u && hx) }),
+            }),
+          b &&
+            a.jsx(j, {
+              ...i,
+              nodeRef: l,
+              classNames: h ? p : {},
+              children: a.jsx("div", {
+                ref: l,
+                className: xx,
+                children: R.strings.battle_pass.progression.currentStepLocked(),
+              }),
+            }),
+        ],
+      });
+    },
+  ),
+  Nx = "CompletedStatus_cd7b3965",
+  Sx = "CompletedStatus_base__showAnimation_b386bcdc",
+  kx = "CompletedStatus_iconGlow__completedEnter_8876529f",
+  Ix = "CompletedStatus_iconGlow__completedEnterActive_81bf80a4",
+  Px = "CompletedStatus_iconGlow__completedEnterDone_36f61f63",
+  Rx = "CompletedStatus_icon_a8f57fb0",
+  Bx = ({ completedIn: s, handleCompleteGlowAnimationExited: r, children: n }) => {
+    const i = e.useRef(null),
+      o = { exit: kx, exitActive: Ix, exitDone: Px };
+    return a.jsxs("div", {
+      className: t(Nx, s && Sx),
+      children: [
+        a.jsx(j, {
+          in: !s,
+          nodeRef: i,
+          timeout: Xx,
+          classNames: o,
+          onExited: r,
+          children: a.jsx("div", { ref: i, children: n }),
+        }),
+        a.jsx(oa, { body: Zx.tooltips.completed.got(), children: a.jsx("div", { className: Rx }) }),
+      ],
+    });
+  },
+  Ax = {
+    base: "CurrentPoints_4c27ce16",
+    value__current: "CurrentPoints_value__current_9c51dee4",
+    value__total: "CurrentPoints_value__total_99fac246",
+    divider: "CurrentPoints_divider_83c77e4c",
+    icon: "CurrentPoints_icon_6b371e14",
+  },
+  Ex = i(() => {
+    const {
+        model: { computes: e },
+      } = Jb(),
+      { current: s, total: r } = e.currentLevelPoints();
+    return a.jsx(vt, {
+      ignoreShowDelay: !0,
+      contentId: R.views.mono.battle_pass.tooltips.bp_points("resId"),
+      children: a.jsxs("div", {
+        className: Ax.base,
+        children: [
+          a.jsx("div", { className: t(Ax.value, Ax.value__current), children: s }),
+          a.jsx("div", { className: Ax.divider, children: "/" }),
+          a.jsx("div", { className: t(Ax.value, Ax.value__total), children: r }),
+          a.jsx("div", { className: Ax.icon }),
+        ],
+      }),
+    });
+  }),
+  Tx = "Effects_glowWrapper_efa5ae0d",
+  Lx = "Effects_glow_75ba9df8",
+  Dx = "Effects_glow__active_b9e151",
+  Ox = "Effects_dust_f4cf542",
+  Wx = "Effects_dust__active_ece15182",
+  Mx = ({ baseUnlockProps: t }) => {
+    const s = e.useRef(null),
+      r = e.useRef(null),
+      n = { exit: Lx, exitActive: Dx, exitDone: Lx },
+      i = { exit: Ox, exitActive: Wx, exitDone: Ox };
+    return a.jsxs("div", {
+      children: [
+        a.jsx(j, {
+          ...t,
+          nodeRef: s,
+          classNames: n,
+          children: a.jsx("div", {
+            ref: s,
+            className: Tx,
+            children: a.jsx("div", { className: Lx }),
+          }),
+        }),
+        a.jsx(j, {
+          ...t,
+          nodeRef: r,
+          classNames: i,
+          children: a.jsx("div", {
+            ref: r,
+            className: Tx,
+            children: a.jsx("div", { className: Ox }),
+          }),
+        }),
+      ],
+    });
+  },
+  Vx = "Status_5c99d05d",
+  zx = "Status_base__inProgress_21b2f358",
+  Fx = "Status_iconContainer_7da53d2b",
+  Hx = "Status_iconInner_9a38fa07",
+  $x = "Status_iconGlow_e61b8bfb",
+  Ux = "Status_iconGlow__completed_1ceaf83f",
+  Gx = "Status_iconGlow__hidden_5ce2d06a",
+  qx = "Status_pointsWrapper_6042cf48",
+  Xx = 1500,
+  Zx = R.strings.battle_pass,
+  Kx = R.views.mono.battle_pass,
+  Yx = i(
+    ({
+      isPremium: s,
+      playCompleteAnimation: r,
+      playUnlockAnimation: n,
+      completeAnimationDelay: i = 0,
+      unlockAnimationDelay: o = 0,
+      baseTimeout: l = 0,
+      playUnlockAnimationSound: c = !0,
+      playCompleteAnimationSound: d = !0,
+      onAnimationDone: _,
+      initialAnimationDelay: u,
+      completedDuration: m,
+      level: p,
+    }) => {
+      const { model: h } = Jb(),
+        { cardStatus: b, isDisabled: f } = h.computes.cardStates(p, s),
+        g = h.computes.isRewardNeedTake(p, s),
+        [v, x] = e.useState(!1),
+        [w, C] = e.useState(!1),
+        [y, j] = e.useState(!0),
+        [N, S] = e.useState(!1),
+        k = b.current === qb.COMPLETED && !g && !f,
+        I = (f && s) || k || n,
+        P = !s && b.current === qb.IN_PROGRESS && b.potential !== qb.COMPLETED,
+        R = () => {
+          (d && Se.sound(Xb.IMPROVED_REWARD), x(!0));
+        };
+      (e.useEffect(
+        () =>
+          n
+            ? ee(() => {
+                (j(!1),
+                  c &&
+                    !N &&
+                    (b.current === qb.IN_PROGRESS
+                      ? Se.sound(Xb.UNLOCK_BIG)
+                      : Se.sound(Xb.UNLOCK_SMALL)));
+              }, u + o)
+            : r
+              ? (C(!0),
+                ee(() => {
+                  (C(!1), R());
+                }, u + i))
+              : void (w && C(!1)),
+        [n, r, w],
+      ),
+        e.useEffect(() => {
+          if (r && N)
+            return ee(() => {
+              R();
+            }, i);
+        }, [r, N]));
+      const B = () => {
+          (!r && _ && _(), S(!0));
+        },
+        A = { in: y, timeout: Xx + l };
+      return a.jsxs("div", {
+        className: t(Vx, b.current === qb.IN_PROGRESS && zx),
+        style: { "--animation-duration": `${m}ms` },
+        children: [
+          I &&
+            a.jsxs("div", {
+              className: Fx,
+              children: [
+                ((!r && k) || (v && !g)) &&
+                  a.jsx(Bx, {
+                    completedIn: v,
+                    handleCompleteGlowAnimationExited: () => {
+                      w && C(!1);
+                    },
+                    children: a.jsx("div", { className: t($x, Ux, w && Gx) }),
+                  }),
+                !r &&
+                  !n &&
+                  f &&
+                  s &&
+                  a.jsx(vt, {
+                    isEnabled: s,
+                    contentId: Kx.tooltips.lock_icon("resId"),
+                    children: a.jsx("div", {
+                      children: a.jsx(jx, {
+                        level: p,
+                        baseUnlockProps: A,
+                        playUnlockAnimation: n,
+                        handleUnlockAnimationExited: B,
+                      }),
+                    }),
+                  }),
+                n &&
+                  !N &&
+                  a.jsx(vt, {
+                    contentId: Kx.tooltips.lock_icon("resId"),
+                    children: a.jsxs("div", {
+                      className: Hx,
+                      children: [
+                        a.jsx(jx, {
+                          level: p,
+                          baseUnlockProps: A,
+                          playUnlockAnimation: n,
+                          handleUnlockAnimationExited: B,
+                        }),
+                        b.current === qb.IN_PROGRESS && a.jsx(Mx, { baseUnlockProps: A }),
+                      ],
+                    }),
+                  }),
+              ],
+            }),
+          P && a.jsx("div", { className: qx, children: a.jsx(Ex, {}) }),
+        ],
+      });
+    },
+  ),
+  Qx = {
+    base: "Rewards_70f08a68",
+    base__column: "Rewards_base__column_a9c4b33d",
+    base__inProgress: "Rewards_base__inProgress_d0a3b9e5",
+    reward: "Rewards_reward_3ab9772c",
+    base__tripleDefault: "Rewards_base__tripleDefault_405577a5",
+    reward__0: "Rewards_reward__0_405577a5",
+    reward__2: "Rewards_reward__2_ab1f8587",
+    base__reverse: "Rewards_base__reverse_405577a5",
+    base__tripleInProgress: "Rewards_base__tripleInProgress_405577a5",
+    reward__1: "Rewards_reward__1_804d2a62",
+    base__single: "Rewards_base__single_405577a5",
+    shine: "Rewards_shine_353df8a9",
+    base__animated: "Rewards_base__animated_405577a5",
+    fadeIn: "Rewards_fadeIn_405577a5",
+    rewardInner: "Rewards_rewardInner_cdaabcb1",
+    changeReward: "Rewards_changeReward_405577a5",
+    staticShine: "Rewards_staticShine_6885b0f2",
+    explosion: "Rewards_explosion_20cd9d55",
+    preview: "Rewards_preview_4455ca2",
+    iconButton: "Rewards_iconButton_1f79ae3",
+    fadeInWithScale: "Rewards_fadeInWithScale_405577a5",
+    slideUp: "Rewards_slideUp_405577a5",
+    blink: "Rewards_blink_405577a5",
+    scale: "Rewards_scale_405577a5",
+    rotate: "Rewards_rotate_405577a5",
+    windowIn: "Rewards_windowIn_405577a5",
+    fadeOut: "Rewards_fadeOut_405577a5",
+  },
+  Jx = s((e) => {
+    const {
+      item: a,
+      name: t,
+      value: s,
+      overlayType: r,
+      tooltipId: n,
+      tooltipContentId: i,
+      id: o,
+      icon: l,
+    } = e;
+    return {
+      id: o,
+      icon: l,
+      name: a || t,
+      smallImage: gt(e, ve.Big),
+      bigImage: gt(e, ve.S180x135),
+      special: r,
+      value: s,
+      valueType: ft(t),
+      tooltipArgs: bt({ tooltipId: n }, Number(i), { ignoreShowDelay: !0 }),
+    };
+  }),
+  ew = i(({ isPremium: s, levelNum: r, hasAnimation: n }) => {
+    const {
+        breakpoint: { weight: i },
+      } = je(),
+      { model: o, controls: l } = Jb(),
+      { cardStatus: c } = o.computes.cardStates(r, s),
+      d = o.computes.isRewardNeedTake(r, s),
+      _ = o.computes.levelRewardItems(r, !0),
+      u = o.computes.levelRewardItems(r, !1),
+      m = s ? u : _,
+      [p, h] = e.useState(m),
+      b = c.current === qb.IN_PROGRESS,
+      f = e.useRef(!1);
+    e.useEffect(() => {
+      if (f.current) return ee(() => h(m), 1e3);
+      f.current = !0;
+    }, [m, f]);
+    return a.jsx("div", {
+      className: t(
+        Qx.base,
+        b && Qx.base__inProgress,
+        s && Qx.base__reverse,
+        n && Qx.base__animated,
+        1 === m.length && Qx.base__single,
+        2 === m.length && Qx.base__column,
+        3 === m.length && (b ? Qx.base__tripleInProgress : Qx.base__tripleDefault),
+      ),
+      children: O(p, (e, s) => {
+        const r = Jx(e),
+          o = r.name.includes(Et.StyleProgressToken) || r.name.includes(Et.BattlePassSelectToken),
+          c = (d && o) || n,
+          { size: _, image: u } = ((e) => {
+            const a = i < Ne.medium.weight;
+            return m.length > 1
+              ? a
+                ? { size: ve.Small, image: e.smallImage }
+                : { size: ve.Big, image: e.smallImage }
+              : a
+                ? { size: ve.Big, image: e.smallImage }
+                : { size: ve.S180x135, image: e.bigImage };
+          })(r);
+        return a.jsxs(
+          "div",
+          {
+            className: t(Qx.reward, Qx[`reward__${s}`]),
+            children: [
+              c && a.jsx("div", { className: Qx.shine }),
+              n &&
+                a.jsxs(a.Fragment, {
+                  children: [
+                    a.jsx("div", { className: Qx.staticShine }),
+                    a.jsx("div", { className: Qx.explosion }),
+                  ],
+                }),
+              a.jsx(ge, { size: _, image: u, className: Qx.rewardInner, ...r }),
+              r.icon === Qt.style &&
+                a.jsx("div", {
+                  className: Qx.preview,
+                  children: a.jsx(dt, {
+                    type: "preview",
+                    size: "normal",
+                    className: Qx.iconButton,
+                    onClick: () => l.onStyleBonusPreview(r.id),
+                  }),
+                }),
+            ],
+          },
+          `reward__${r.name}${s}`,
+        );
+      }),
+    });
+  }),
+  aw = "CardRewards_50fb1177",
+  tw = "CardRewards_base__completed_434ea7b1",
+  sw = i(({ levelNum: e, isRewardAnimationActive: s, isPremium: r = !1 }) => {
+    const { model: n } = Jb(),
+      { cardStatus: i, isDisabled: o } = n.computes.cardStates(e, r),
+      l = n.computes.isRewardNeedTake(e, r),
+      c = i.current === qb.COMPLETED && !l && !o && !s;
+    return a.jsx("div", {
+      className: t(aw, c && tw),
+      children: a.jsx(ew, { levelNum: e, isPremium: r, hasAnimation: s }),
+    });
+  }),
+  rw = "CardContent_f26d7969",
+  nw = "CardContent_status_b4751d54",
+  iw = "CardContent_buttonHolder_5af6834d",
+  ow = "CardContent_buttonLight_c4e99653",
+  lw = "CardContent_buttonInner_331e7784",
+  cw = "CardContent_buttonInner__disabled_df771be2",
+  dw = "CardContent_button_3b7b5ae4",
+  _w = "CardContent_button__disabled_d7ebe82e",
+  uw = "CardContent_buttonBlink_4f39579b",
+  mw = "CardContent_buttonText_25c40fc",
+  pw = 100,
+  hw = 1800,
+  bw = R.strings.battle_pass.progression,
+  fw = i(
+    ({
+      isPremium: s,
+      stepNumber: r,
+      onFinalAnimationDone: n,
+      maxVisibleCards: i,
+      showLevelsAnimations: o,
+      showBuyAnimations: l,
+    }) => {
+      const {
+          model: c,
+          controls: { finishAnimation: d, takeReward: _ },
+        } = Jb(),
+        { isBattlePassPurchased: u, currentLevel: m, previousLevel: p } = c.root.get(),
+        {
+          needTakePaid: h,
+          needTakeFree: b,
+          isFreeRewardChoiceEnabled: f,
+          isPaidRewardChoiceEnabled: g,
+        } = c.computes.levelInfo(r),
+        { cardStatus: v } = c.computes.cardStates(r, s),
+        x = c.computes.isRewardNeedTake(r, s),
+        w = v.current === qb.IN_PROGRESS,
+        C = v.current === qb.COMPLETED,
+        [y, j] = e.useState(!1),
+        [N, S] = e.useState(!1),
+        {
+          breakpoint: { weight: k },
+        } = je(),
+        I = k <= Ne.small.weight ? lt.extraSmall : lt.small,
+        P = e.useRef(x),
+        R = P.current;
+      (e.useEffect(() => {
+        P.current = x;
+      }),
+        e.useEffect(() => {
+          if (R && !x) {
+            const e = ee(() => {
+                (j(!1), d());
+              }, hw),
+              a = ee(() => {
+                S(!1);
+              }, 2300);
+            return (
+              j(!0),
+              S(!0),
+              () => {
+                (e(), a());
+              }
+            );
+          }
+        }, [x]));
+      const B = (() => {
+          let e,
+            a = 0,
+            t = 0,
+            c = 0,
+            d = 0,
+            _ = !1,
+            h = !1,
+            b = !1,
+            f = 300 * Math.ceil(m / 25);
+          if (i && l && u) {
+            const e = Math.floor(0.5 * i);
+            let s = m - e,
+              n = m + e,
+              o = 0;
+            s <= 0 && ((o = 1 - s), (n += o), (s = 1));
+            const l = r < m && r >= s,
+              c = r > m && r <= n,
+              u = r === s;
+            (l ? (a = (r - s + 1) * pw) : c && (a = (r - s) * pw),
+              (_ = Boolean(w || l || c || u)),
+              (h = Boolean(w || u)),
+              (b = Boolean(C && _)),
+              (t = (i - o - 1) * pw),
+              w && (d = (r - s + 1) * pw * 2.5));
+          }
+          if (i && o) {
+            const a = Math.min(m - p, Math.floor(0.5 * i));
+            let l = m - a;
+            l <= 0 && (l = 1);
+            const d = r < m && r >= l;
+            (d && ((t = (r - l + 1) * pw), s && (t += pw)),
+              (b = Boolean(C && d)),
+              (c = a * pw + pw * Math.trunc(a / 2) + f),
+              o && (e = n));
+          }
+          return (
+            N && ((f = 0), (t = hw), (b = Boolean(C))),
+            r === m - 1 && (e = n),
+            {
+              baseTimeout: d,
+              playCompleteAnimation: b,
+              playCompleteAnimationSound: b,
+              playUnlockAnimation: _,
+              playUnlockAnimationSound: h,
+              unlockAnimationDelay: a,
+              onAnimationDone: e,
+              completeAnimationDelay: t,
+              stageAnimationDelay: c,
+              initialAnimationDelay: f,
+            }
+          );
+        })(),
+        A = H(() => {
+          _({ level: r });
+        }),
+        E = b || h,
+        T = E && !(f || g);
+      return a.jsxs("div", {
+        className: rw,
+        children: [
+          !s &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx(ux, {
+                  stepNumber: r,
+                  stageAnimationDelay: B.stageAnimationDelay,
+                  isRewardAnimationActive: y,
+                }),
+                E &&
+                  a.jsx(oa, {
+                    isEnabled: T,
+                    body: bw.btnRewardsUnavailable(),
+                    children: a.jsxs("div", {
+                      className: iw,
+                      children: [
+                        !T && a.jsx("div", { className: ow }),
+                        a.jsx("div", {
+                          className: t(lw, T && cw),
+                          children: a.jsxs(ot, {
+                            type: _t.ghost,
+                            size: I,
+                            disabled: T,
+                            onClick: A,
+                            mixClass: t(dw, T && _w),
+                            children: [
+                              !T && a.jsx("div", { className: uw }),
+                              a.jsx("div", { className: mw, children: bw.takeReward() }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                  }),
+              ],
+            }),
+          a.jsx(sw, { levelNum: r, isPremium: s, isRewardAnimationActive: y }),
+          a.jsx("div", {
+            className: nw,
+            children: a.jsx(Yx, { isPremium: Boolean(s), completedDuration: 500, level: r, ...B }),
+          }),
+        ],
+      });
+    },
+  ),
+  gw = {
+    base: "Divider_e7aefb14",
+    base__left: "Divider_base__left_c4dc4b02",
+    base__right: "Divider_base__right_5c287de9",
+    base__rare: "Divider_base__rare_e403ffc2",
+    base__completed: "Divider_base__completed_e15d1358",
+    base__premium: "Divider_base__premium_edc64468",
+    inner: "Divider_inner_5e9c8eab",
+    fadeInWithScale: "Divider_fadeInWithScale_76b1f722",
+    slideUp: "Divider_slideUp_76b1f722",
+    blink: "Divider_blink_76b1f722",
+    scale: "Divider_scale_76b1f722",
+    rotate: "Divider_rotate_76b1f722",
+    windowIn: "Divider_windowIn_76b1f722",
+    fadeOut: "Divider_fadeOut_76b1f722",
+    fadeIn: "Divider_fadeIn_76b1f722",
+  },
+  vw = ({ position: e, isPremium: s = !1, isRare: r = !1, status: n }) =>
+    a.jsx("div", {
+      className: t(
+        gw.base,
+        gw[`base__${n}`],
+        gw[`base__${e}`],
+        r && gw.base__rare,
+        s && gw.base__premium,
+      ),
+      children: a.jsx("div", { className: gw.inner }),
+    }),
+  xw = {
+    base: "Card_83a2cdb2",
+    base__inProgress: "Card_base__inProgress_cc79557f",
+    base__nonPremium: "Card_base__nonPremium_43e4be2f",
+    totalPoints: "Card_totalPoints_c960ba66",
+    totalPoints__default: "Card_totalPoints__default_86462962",
+    totalPoints__final: "Card_totalPoints__final_b0d756a8",
+    progressShadow: "Card_progressShadow_e0bd1d",
+    fadeInWithScale: "Card_fadeInWithScale_f4c22d1c",
+    slideUp: "Card_slideUp_f4c22d1c",
+    blink: "Card_blink_f4c22d1c",
+    scale: "Card_scale_f4c22d1c",
+    rotate: "Card_rotate_f4c22d1c",
+    windowIn: "Card_windowIn_f4c22d1c",
+    fadeOut: "Card_fadeOut_f4c22d1c",
+    fadeIn: "Card_fadeIn_f4c22d1c",
+  },
+  ww = i(
+    ({
+      isPremium: s,
+      stepNumber: r,
+      maxLevels: n,
+      maxVisibleCards: i,
+      showBuyAnimations: o,
+      showLevelsAnimations: l,
+      onAnimationDone: c,
+      levelRef: d,
+    }) => {
+      const { model: _ } = Jb(),
+        { currentPointsInLevel: u, chapterState: m } = _.root.get(),
+        { cardStatus: p, isRare: h } = _.computes.cardStates(r, s),
+        { levelPoints: b } = _.computes.levelInfo(r),
+        f = !s && (p.current === qb.COMPLETED || p.current === qb.IN_PROGRESS),
+        g = 1 === r,
+        v = r === n,
+        x = g ? void 0 : _.computes.cardStates(r - 1, s),
+        w = v ? void 0 : _.computes.cardStates(r + 1, s),
+        C = e.useRef(null),
+        y = s ? (r - 1) * b : b;
+      e.useImperativeHandle(d, () => ({
+        width: () => {
+          const e = C.current;
+          return e ? e.offsetWidth : 0;
+        },
+        offsetLeft: () => {
+          const e = C.current;
+          return e ? e.offsetLeft : 0;
+        },
+        getOffsetLeftInArea: () => {
+          const e = C.current;
+          if (!e) return 0;
+          const a = e.parentNode,
+            t = a ? a.offsetLeft : 0;
+          return e.offsetLeft + t;
+        },
+        getHTMLElement: () => C.current,
+      }));
+      const j =
+          !g &&
+          ((p.current === qb.NOT_STARTED && !h) ||
+            ((null == x ? void 0 : x.isRare) && p.current !== qb.IN_PROGRESS) ||
+            (null == x ? void 0 : x.cardStatus.current) === qb.IN_PROGRESS),
+        N =
+          !v &&
+          ((p.current === qb.COMPLETED && !h) ||
+            ((null == w ? void 0 : w.isRare) && p.current !== qb.IN_PROGRESS) ||
+            (null == w ? void 0 : w.cardStatus.current) === qb.IN_PROGRESS),
+        S = ((e, a, t, s) =>
+          e === qb.COMPLETED
+            ? 100
+            : e !== qb.IN_PROGRESS || (a !== Hb.NotStarted && a !== Hb.Paused)
+              ? 0
+              : (100 * t) / s)(p.current, m, u, y),
+        k = { width: `${S}%` },
+        I = {
+          "--small-card-width": "140rem",
+          "--small-current-card-width": "224rem",
+          "--big-card-width": "220rem",
+          "--big-current-card-width": "340rem",
+        };
+      return a.jsxs("div", {
+        className: t(xw.base, xw[`base__${p.current}`], !s && xw.base__nonPremium),
+        ref: C,
+        style: I,
+        children: [
+          a.jsx(cx, { level: r, isPremium: s }),
+          a.jsx(fw, {
+            isPremium: s,
+            stepNumber: r,
+            maxVisibleCards: i,
+            showLevelsAnimations: l,
+            showBuyAnimations: o,
+            onFinalAnimationDone: c,
+          }),
+          s &&
+            a.jsxs(a.Fragment, {
+              children: [
+                a.jsx("div", {
+                  className: t(xw.totalPoints, xw.totalPoints__default),
+                  children: y,
+                }),
+                v &&
+                  a.jsx("div", {
+                    className: t(xw.totalPoints, xw.totalPoints__final),
+                    children: n * b,
+                  }),
+              ],
+            }),
+          f && a.jsx("div", { className: xw.progressShadow, style: k }),
+          !j && a.jsx(vw, { position: Gb.left, isPremium: s, isRare: h, status: p.current }),
+          !N && a.jsx(vw, { position: Gb.right, isPremium: s, isRare: h, status: p.current }),
+        ],
+      });
+    },
+  ),
+  Cw = i(
+    ({
+      currentCardRef: s,
+      freeProgressionCutCardRef: r,
+      potentialLevelCardRef: n,
+      isPremium: i,
+      sectionKey: o,
+      maxVisibleCards: l,
+    }) => {
+      const { model: c } = Jb(),
+        {
+          chapterID: d,
+          currentLevel: _,
+          potentialLevel: u,
+          showBuyAnimations: m,
+          showLevelsAnimations: p,
+        } = c.root.get(),
+        h = c.levels.get(),
+        [b, f] = e.useState(!1),
+        g = () => {
+          f(!0);
+        },
+        v = Boolean(l && i && m),
+        x = Boolean(l && p);
+      return a.jsx("div", {
+        className: t(Fv.row, !i && Fv.row__basic),
+        children: O(h, (e, t) => {
+          return a.jsx(
+            ww,
+            {
+              showBuyAnimations: v && !b,
+              showLevelsAnimations: x,
+              levelRef: ((c = e.level), (m = _), (p = u), c === m ? s : c === p ? n : r),
+              stepNumber: e.level,
+              isPremium: i,
+              maxLevels: h.length,
+              maxVisibleCards: l,
+              onAnimationDone: g,
+            },
+            `${d}_${o}_${t}`,
+          );
+          var c, m, p;
+        }),
+      });
+    },
+  ),
+  yw = 1,
+  jw = i(
+    ({
+      currentCardRef: s,
+      freeProgressionCutCardRef: r,
+      potentialLevelCardRef: n,
+      onProgressChanged: i,
+      widget3dStyleLeftRef: o,
+      shadowLipRef: l,
+      api: c,
+    }) => {
+      const { model: d } = Jb(),
+        { currentLevel: _, currentPointsInLevel: u, showLevelsAnimations: m } = d.root.get(),
+        p = d.computes.isLayoutWithExtraWidget(),
+        h = d.levels.get(),
+        b = e.useRef(wt()),
+        f = e.useRef(wt());
+      c.current.moveProgressBars = (e) => {
+        (b.current.update(e), f.current.update(e));
+      };
+      const [g, v] = e.useState({ levelWidth: 0, currentLevelWidth: 0, maxCardsShown: 0 }),
+        x = e.useCallback(() => {
+          if (s.current) {
+            const e = s.current,
+              a = r.current,
+              t = e ? e.width() : 0,
+              n = a ? a.width() : 0;
+            return !n && t
+              ? { currentLevelWidth: t, levelWidth: 224 === t ? 140 : 220 }
+              : { currentLevelWidth: t, levelWidth: n };
+          }
+        }, [s, r]),
+        {
+          breakpoint: { weight: w },
+        } = je();
+      return (
+        e.useEffect(() => {
+          Xt().then(() => {
+            const e = x();
+            if (e) {
+              const a =
+                Math.floor(
+                  (viewEnv.getClientSizeRem().width - e.currentLevelWidth) / e.levelWidth,
+                ) + 1;
+              v({
+                levelWidth: e.levelWidth,
+                currentLevelWidth: e.currentLevelWidth,
+                maxCardsShown: a,
+              });
+            }
+          });
+        }, [w, x, h.length, _, u]),
+        e.useEffect(() => {
+          m && Se.sound(R.sounds.bp_progress_bar_start());
+        }, [m]),
+        e.useEffect(() => {
+          i && i();
+        }, [_, u, i]),
+        a.jsxs("div", {
+          className: Fv.wrapper,
+          children: [
+            !p &&
+              a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx(Wv, { widget3dStyleRef: o, level: yw, isShowTitle: !0 }),
+                  a.jsx("div", {
+                    className: t(Fv.decor, Fv.decor__left),
+                    children: a.jsx("div", { className: Fv.decorBackground }),
+                  }),
+                  a.jsx("div", {
+                    className: Fv.bookmarkBackground,
+                    ref: l,
+                    children: a.jsx(bv, { isDisappeared: !0, mixClass: Fv.bookmarkLeftResponsive }),
+                  }),
+                ],
+              }),
+            a.jsxs("div", {
+              className: Fv.section,
+              children: [
+                a.jsx(Cw, {
+                  sectionKey: "baseCard",
+                  currentCardRef: s,
+                  freeProgressionCutCardRef: r,
+                  potentialLevelCardRef: n,
+                  maxVisibleCards: m ? g.maxCardsShown : 0,
+                  currentLevel: _,
+                }),
+                a.jsx($v, { progressApi: b, freePointsApi: f, progressChange: i, ...g }),
+                a.jsx(Cw, {
+                  sectionKey: "basePremiumCard",
+                  isPremium: !0,
+                  currentCardRef: s,
+                  freeProgressionCutCardRef: r,
+                  potentialLevelCardRef: n,
+                  maxVisibleCards: g.maxCardsShown,
+                  currentLevel: _,
+                }),
+              ],
+            }),
+            !p &&
+              a.jsxs(a.Fragment, {
+                children: [
+                  a.jsx("div", {
+                    className: Fv.decor,
+                    children: a.jsx("div", { className: Fv.decorBackground }),
+                  }),
+                  a.jsx(Wv, { level: 4 }),
+                ],
+              }),
+          ],
+        })
+      );
+    },
+  ),
+  Nw = { allowedButtons: [Yg.MainButton] },
+  Sw = R.strings.battle_pass.progression,
+  kw = ["dragStart", "dragEnd", "dragging"],
+  Iw = i(({ onHorizontalScroll: s }) => {
+    const { model: r } = Jb(),
+      n = r.levels.get(),
+      { currentLevel: i, isBattlePassPurchased: o, showBuyAnimations: l } = r.root.get(),
+      c = e.useRef({ moveProgressBars: () => {} }),
+      d = e.useRef(null),
+      _ = e.useRef(null),
+      u = e.useRef(null),
+      m = e.useRef(null),
+      p = e.useRef(null),
+      h = e.useRef(null),
+      b = e.useRef(null),
+      f = e.useRef(0),
+      g = r.computes.isLayoutWithExtraWidget(),
+      [v, x] = e.useState("hidden"),
+      [w, C] = e.useState("hidden"),
+      [y, j] = e.useState(!1),
+      [N, S] = e.useState(void 0),
+      k = Tt(),
+      {
+        animationScroll: { scrollPosition: I },
+        applyScroll: P,
+        events: R,
+        handleMouseWheel: B,
+        getContainerSize: A,
+        getWrapperSize: E,
+      } = k,
+      [T, L] = (function (a, t, s) {
+        const {
+            contentRef: r,
+            wrapperRef: n,
+            scrollPosition: i,
+            clampPosition: o,
+            animationScroll: l,
+            events: c,
+          } = a,
+          [d, _] = e.useState(Kg);
+        return (
+          e.useEffect(() => {
+            const e = r.current;
+            e && (e.style.cursor = "dragging" === d.type ? "move" : "grab");
+          }, [r, d.type]),
+          e.useEffect(() => {
+            if ("dragging" !== d.type) return;
+            const e = (e) => {
+              const a = r.current,
+                s = n.current;
+              if (!a || !s) return;
+              const c = d.positionFrom - e.screenX,
+                _ = d.previousScrollPosition + c;
+              i.start({
+                scrollPosition: o(a, _),
+                from: { scrollPosition: l.scrollPosition.get() },
+                ...t,
+              });
+            };
+            function a() {
+              (window.removeEventListener("mousemove", e),
+                document.body.removeEventListener("mouseleave", a),
+                _({ type: "scrollingToEnd" }));
+            }
+            return (
+              window.addEventListener("mousemove", e),
+              window.addEventListener("mouseup", a),
+              document.body.addEventListener("mouseleave", a),
+              () => {
+                (window.removeEventListener("mousemove", e),
+                  window.removeEventListener("mouseup", a),
+                  document.body.removeEventListener("mouseleave", a));
+              }
+            );
+          }, [l.scrollPosition, o, r, d, i, n, t, s]),
+          e.useEffect(() => {
+            if ("scrollingToEnd" !== d.type) return;
+            const e = () => {
+              _(Kg);
+            };
+            return (l.scrollPosition.idle && e(), c.on("rest", e), () => c.off("rest", e));
+          }, [l.scrollPosition, d.type, c]),
+          e.useEffect(() => {
+            const e = r.current;
+            if (!e) return;
+            const a = (e) => {
+              (s && s.allowedButtons && -1 === s.allowedButtons.findIndex((a) => e.button === a)) ||
+                _({
+                  type: "dragging",
+                  positionFrom: e.screenX,
+                  previousScrollPosition: l.scrollPosition.get(),
+                });
+            };
+            return (
+              e.addEventListener("mousedown", a),
+              () => e.removeEventListener("mousedown", a)
+            );
+          }, [l.scrollPosition, r, s]),
+          [d, _]
+        );
+      })(k, void 0, Nw),
+      D = (e) => {
+        (T.type === Zg.Dragging && L({ type: Zg.End }), B(e));
+      },
+      O = e.useMemo(() => ({ ...k, handleMouseWheel: D }), []),
+      W = e.useCallback(
+        (e) => {
+          const a = m.current ? m.current.offsetWidth : 0,
+            t = p.current ? p.current.offsetWidth : 0;
+          if (d.current) {
+            const s = E();
+            (c.current.moveProgressBars({
+              viewPort: d.current,
+              horizontalScrollPosition: s ? e - s : e,
+              leftOffset: a + t,
+            }),
+              j(g || e > a + 0.5 * t));
+          }
+        },
+        [E, g],
+      ),
+      M = e.useCallback((e = !1) => {
+        const a = _.current;
+        let t = 0,
+          s = 0;
+        const r = m.current ? m.current.offsetWidth : 0,
+          n = p.current ? p.current.offsetWidth : 0;
+        a && ((t = a.width()), (s = a.offsetLeft() + r + n));
+        const i = d.current;
+        let o = 0;
+        if (t && i) {
+          const a = 0.5 * i.offsetWidth;
+          e && f.current
+            ? (o = s + t - 0.5 * f.current - a)
+            : ((o = s + 0.5 * t - a), (f.current = t));
+        }
+        return ((o = Math.round(o < 0 ? 0 : o)), o);
+      }, []),
+      V = () => {
+        const e = d.current,
+          a = _ && _.current,
+          t = u.current,
+          s = m.current ? m.current.offsetWidth : 0,
+          r = p.current ? p.current.offsetWidth : 0;
+        if (a && t) {
+          const n = a.offsetLeft() + s + r,
+            i = t.offsetLeft() + s + r,
+            o =
+              I.goal < n - e.offsetWidth
+                ? "navToCurrentLevel"
+                : t && I.goal < i - e.offsetWidth
+                  ? "navToPotentialLevel"
+                  : "hidden",
+            l = (() => {
+              switch (!0) {
+                case t && I.goal > i + t.width():
+                  return "navToPotentialLevel";
+                case I.goal > n + a.width():
+                  return "navToCurrentLevel";
+                default:
+                  return "hidden";
+              }
+            })();
+          (x(o), C(l));
+        }
+      },
+      z = (e) => {
+        const a = ((e) => {
+          let a = 0;
+          if (e && e.current && d && d.current) {
+            const t = e.current,
+              s = m.current ? m.current.offsetWidth : 0,
+              r = p.current ? p.current.offsetWidth : 0;
+            let n = 0,
+              i = 0;
+            t && ((n = t.width()), (i = t.offsetLeft() + s + r));
+            const o = d.current;
+            (n && o && (a = i + 0.5 * n - 0.5 * o.offsetWidth), (a = Math.round(a < 0 ? 0 : a)));
+          }
+          return a;
+        })(e);
+        (W(I.goal), P(a), V());
+      },
+      F = (e) => {
+        switch (e) {
+          case "navToCurrentLevel":
+            return z(_);
+          case "navToPotentialLevel":
+            return z(u);
+        }
+      },
+      H = (e) => {
+        switch (e) {
+          case "navToCurrentLevel":
+            return { type: Kb.Default, tooltipBody: Sw.backToCurrentStageArrow.descr() };
+          case "navToPotentialLevel":
+            return { type: Kb.Gray, tooltipBody: Sw.backToPotentialStageArrow.descr() };
+        }
+      },
+      $ = (e) => {
+        (W(I.goal), V(), S(null == e ? void 0 : e.type));
+      };
+    return (
+      e.useEffect(
+        () =>
+          Va(() => {
+            o && l && P(M());
+          }),
+        [P, M, o, l],
+      ),
+      e.useEffect(() => {
+        const e = async () => {
+          const e = A(),
+            a = I.goal;
+          await Xt();
+          const t = A(),
+            s = d.current,
+            [, r] = k.getBounds(),
+            n = 0.25 * s.offsetWidth,
+            i = t && e && t !== e ? (a * t) / e : a;
+          (W(i), P(i > r - n ? r : i));
+        };
+        return (
+          engine.on("clientResized", e),
+          () => {
+            engine.off("clientResized", e);
+          }
+        );
+      }, []),
+      e.useEffect(() => ee(() => z(_), 700), [i]),
+      e.useEffect(() => {
+        if (((e = "") => kw.includes(e))(N)) return void s("dragStart" === N);
+        const e = () => {
+            N || W(I.goal);
+          },
+          a = () => {
+            (s(!1), W(I.goal));
+          },
+          t = () => {
+            (s(!0), W(I.goal));
+          };
+        return (
+          R.on("change", e),
+          R.on("rest", a),
+          R.on("start", t),
+          () => {
+            (R.off("change", e), R.off("rest", a), R.off("start", t));
+          }
+        );
+      }, [R, W, s, I.goal, N]),
+      a.jsxs(a.Fragment, {
+        children: [
+          a.jsx("div", {
+            className: t(Fv.bookmark, Fv.bookmark__start),
+            children: a.jsx(bv, {
+              chapterStep: n.length,
+              mixClass: t(Fv.bookmarkLeftFixed, y && Fv.bookmarkLeftFixed__active),
+            }),
+          }),
+          a.jsx("div", {
+            className: Fv.scrollWrapper,
+            ref: d,
+            onClick: $,
+            onMouseLeave: V,
+            onWheel: $,
+            children: a.jsx(Lt.Horizontal.Area.Default, {
+              api: O,
+              barClassNames: { base: Fv.scrollBarPosition },
+              onDrag: $,
+              children: a.jsx(jw, {
+                api: c,
+                currentCardRef: _,
+                freeProgressionCutCardRef: h,
+                potentialLevelCardRef: u,
+                separatorRef: b,
+                widget3dStyleLeftRef: m,
+                shadowLipRef: p,
+                onProgressChanged: $,
+              }),
+            }),
+          }),
+          a.jsx("div", {
+            className: t(
+              Fv.scrollToButton,
+              Fv.scrollToButton__backward,
+              "hidden" !== w && Fv.scrollToButton__visible,
+            ),
+            children: a.jsx(Jg, {
+              onClick: () => F(w),
+              direction: Zb.back,
+              className: Fv.arrowButton,
+              ...H(w),
+            }),
+          }),
+          a.jsx("div", {
+            className: t(
+              Fv.scrollToButton,
+              Fv.scrollToButton__forward,
+              "hidden" !== v && Fv.scrollToButton__visible,
+            ),
+            children: a.jsx(Jg, {
+              onClick: () => F(v),
+              direction: Zb.forward,
+              className: Fv.arrowButton,
+              ...H(v),
+            }),
+          }),
+        ],
+      })
+    );
+  }),
+  Pw = i(() => {
+    const { model: s } = Jb(),
+      r = s.computes.isLayoutWithExtraWidget(),
+      [n, i] = e.useState(!1),
+      o = t(Fv.additionalShadow, n && Fv.additionalShadow__active);
+    return a.jsxs("div", {
+      className: t(Fv.base, r && Fv.base__isLayoutWithExtraWidget),
+      children: [
+        a.jsx("div", {
+          className: t(Fv.shadow, Fv.shadow__left),
+          children: a.jsx("div", { className: o }),
+        }),
+        a.jsx("div", {
+          className: t(Fv.shadow, Fv.shadow__right),
+          children: a.jsx("div", { className: o }),
+        }),
+        a.jsx(Iw, {
+          onHorizontalScroll: (e) => {
+            i(e);
+          },
+        }),
+      ],
+    });
+  }),
+  Rw = "ProgressionContent_23d7382d",
+  Bw = "ProgressionContent_base__extra_108a8890",
+  Aw = "ProgressionContent_base__extraChapter_efc5bb01",
+  Ew = "ProgressionContent_header_3c9de2e1",
+  Tw = "ProgressionContent_progression_ee26929",
+  Lw = "ProgressionContent_progression__extraChapter_ed356b04",
+  Dw = "ProgressionContent_extraChapterWidget_6d130b1f",
+  Ow = "ProgressionContent_footer_b7b80223",
+  Ww = i(() => {
+    const {
+        model: { root: e, computes: s },
+      } = Jb(),
+      { chapterType: r, chapterID: n, actionType: i, isPaused: o } = e.get(),
+      l = s.isLayoutWithExtraWidget(),
+      c = r === Ub.EXTRA,
+      d = i !== $b.NoAction,
+      _ = t(Tw, l && Lw);
+    return a.jsxs("div", {
+      className: t(Rw, l && Bw, c && Aw),
+      style: Gt(n),
+      children: [
+        !o && a.jsx("div", { className: _, children: a.jsx(Pw, {}) }),
+        a.jsx("div", { className: Ew, children: a.jsx(Xg, {}) }),
+        a.jsx("div", { className: Ow, children: d && a.jsx(Ag, {}) }),
+        l && a.jsx("div", { className: Dw, children: a.jsx(Ig, {}) }),
+      ],
+    });
+  }),
+  Mw = "App_7cf6cd46",
+  Vw = i(() => {
+    const { model: t, controls: s } = Jb(),
+      { showReplaceRewardsAnimations: r } = t.root.get(),
+      n = me();
+    return (
+      he(T.ESCAPE, () => n.goBack()),
+      e.useEffect(() => {
+        const e = () => {
+          document.body.style.height = window.innerHeight - (innerHeight % 2) + "px";
+        };
+        return (
+          window.addEventListener("resize", e),
+          e(),
+          () => {
+            (window.removeEventListener("resize", e), (document.body.style.height = "auto"));
+          }
+        );
+      }, []),
+      e.useEffect(
+        () =>
+          Va(() => {
+            s.viewLoad();
+          }),
+        [],
+      ),
+      e.useEffect(() => {
+        r && Se.sound(R.sounds.bp_pick_up_award());
+      }, [r]),
+      a.jsx("div", { className: Mw, children: a.jsx(Ww, {}) })
+    );
+  }),
+  zw = () =>
+    a.jsx(Qb, {
+      options: { rootId: R.aliases.battle_pass.Progression("resId") },
+      children: a.jsx(Vw, {}),
+    }),
+  Fw = "App_811b056b",
+  Hw = "App_mainView_54c70e4",
+  $w = i(() => {
+    const { location: t } = me(),
+      s = N(t, {
+        from: { opacity: 0 },
+        enter: { opacity: 1, config: { duration: 150, easing: Ie.easeInQuad }, delay: 150 },
+      });
+    return a.jsx(e.Suspense, {
+      fallback: a.jsx("div", {}),
+      children: a.jsx("div", {
+        className: Fw,
+        children: s((e, t) =>
+          a.jsx(n.div, {
+            className: Hw,
+            style: e,
+            children: a.jsxs(Dt, {
+              children: [
+                a.jsx(Ot, { path: as.battlePass.progression, component: zw }),
+                a.jsx(Ot, { path: as.battlePass.chapterChoice, component: Vu }),
+                a.jsx(Ot, { path: as.battlePass.postProgression, component: Fb }),
+                a.jsx(Ot, { path: as.battlePass.buyPass, component: ii }),
+                a.jsx(Ot, { path: as.battlePass.buyPassRewards, component: ii }),
+                a.jsx(Ot, { path: as.battlePass.buyLevels, component: or }),
+                a.jsx(Ot, { path: as.battlePass.buyLevelsRewards, component: or }),
+                a.jsx(Ot, { path: as.battlePass.holidayFinal, component: Sp }),
+                a.jsx(Ot, { path: as.battlePass.tankmenScreen, component: ts }),
+              ],
+            }),
+          }),
+        ),
+      }),
+    });
+  });
+Ft(new Wt().add(Mt).add(Vt).addWithProps(zt, { context: "model.router" }).render(a.jsx($w, {})))
+  .then(() => Ht(document.getElementById("root")))
+  .then(() => $t());

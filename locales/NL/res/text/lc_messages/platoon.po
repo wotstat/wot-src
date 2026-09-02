@@ -130,6 +130,9 @@ msgstr "Je kunt geen pelotons creëren of betreden omdat er geen geschikt niveau
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Nadat de kwalificatie is voltooid, komen pelotons van 2 en 7 spelers beschikbaar."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Nadat de kwalificatie is voltooid, komt een tweekoppig peloton beschikbaar."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Er kan geen peloton worden gecreëerd."
 
@@ -141,6 +144,9 @@ msgstr "Creëer een peloton of sluit je aan bij een bestaand peloton. In Bestorm
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Peloton"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Creëer een peloton of sluit je aan bij een bestaand peloton. In Bestorming kunnen pelotons alleen uit twee spelers bestaan."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Creëer een tactische eenheid van 2 of 3 spelers om in het gevecht nauw samen te werken.\n• Gevechtsmodus: Razernij.\n• Gevechtstypes: Staaljacht, Dominatie."
@@ -264,12 +270,6 @@ msgstr "Het peloton heeft het maximum aantal zware tanks bereikt"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Het peloton heeft het maximum aantal medium tanks bereikt"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Het peloton heeft het maximale aantal lichte tanks bereikt"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Het peloton heeft het maximum aantal wielvoertuigen bereikt"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Het peloton heeft het maximale aantal lichte tanks bereikt"

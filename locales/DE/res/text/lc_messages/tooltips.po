@@ -6052,6 +6052,18 @@ msgstr "Diese Direktive wird keinen Effekt haben, weil Sie das Limit von 6 Vort
 msgid "moduleFits/wrong_slot/body"
 msgstr "Das Modul ist bereits in einem anderen Platz verbaut."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Die Wahrscheinlichkeit, kritischen Schaden an gegnerischen Modulen und/oder Verletzungen der Besatzung zu verursachen."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Der Wert, um den der Einschlagwinkel der Granate reduziert wird, wenn sie die gegnerische Panzerung trifft."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Der Wert der Durchschlagskraft, die die Granate alle 100 mm verliert, nachdem sie eine gegnerische Schürze durchschlagen hat."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Der Wert, bei dem eine Granate automatisch von der gegnerischen Panzerung abprallt."
+
 msgid "multiselection/alert/body"
 msgstr "Wählen Sie Fahrzeuge: Sie können nur mit einer vollen Gruppe ins Gefecht."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Battle Pass: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin kennt die dürren Salzebenen, in die sein Auftrag ihn führt, wie seine ebenso wettergegerbte Westentasche. Ohnehin sind ihm unbeständige Umgebungen nicht fremd, schließlich hatte er sich schon lange bevor er überhaupt in einen Panzer wechselte einen Namen als Spezialist für chemische Kriegsmittel gemacht. Jetzt, zwanzig Jahre später, steht er nur wenige Tagesreisen von dem Labor entfernt, in dem einst seine militärische Laufbahn als technischer Assistent ihren Anfang nahm. Man sieht ihm deutlich an, wie diese Zeit ihre Spuren hinterlassen hat, aber, wie Vadim gerne mit seiner Besatzung scherzt, wurden seine Entlassungspapiere noch nicht ausgestellt. Und solange diese nicht eingereicht und gestempelt sind, wird er hier weitermachen."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Der harsche Kontrast des unwirtlichen Klimas, in dem sich Bryn Powell jetzt befindet, zu den üppigen Tälern seiner Jugend könnte kaum größer sein. Die meisten anderen Kommandanten hätten den Auftrag wohl schon abgelehnt, als in der bemerkenswert vagen Einsatzbesprechung die Begriffe „fremdartige chemische Wirkstoffe“ und „höchste Lebensgefahr“ fielen. Aber für Bryn ist das Konzept eines Selbsterhaltungstriebs schon immer bloß eine Art faszinierender Aspekt der Persönlichkeit anderer Menschen gewesen. Er selbst ist von Natur aus wagemutig und hätte bestimmt eine glänzende Karriere als Stuntman verfolgen können, wenn ihn sein Weg nicht in einen Panzer geführt hätte. Wobei der diese Aufgabe aber auf ähnliche Weise angeht."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora ist als Kommandant unerschütterlich. Diverse Friedensmissionen in instabilen Regionen haben ihn schnell gelehrt, wie er seine Nerven unter Druck bewahrt. Ob er nun nach einer langen Nachtpatrouille am Rande der Erschöpfung wandelt oder immer verstörendere Geheimdienstinformationen über die fremdartige Substanz studiert, die er mit seiner Mannschaft auffinden soll, stets bewahrt er die Haltung. Mit seiner lockeren Art hält er die Moral der Truppe hoch, indem er den feinen Grat zwischen Gelassenheit und Galgenhumor wandelt und sich dabei immer dieses gewisse Funkeln in den Augen und den für ihn typischen entspannt federnden Schritt bewahrt."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Ousset entgeht nichts. Das ist vermutlich der Grund, warum sie für diese geheime Aufklärungsmission ausgewählt wurde, ihre Erfahrung als Scharfschützin von Weltruf hat ihren Blick fürs Detail geschärft, nicht nur, wenn sie durch das Zielfernrohr blickt. Aus der kleinsten Spur zieht sie so akkurate Schlüsse, dass ihre Mannschaft sie schon gelegentlich für eine Hellseherin hält. Es ist nahezu unmöglich, in ihrer Nähe Geheimnisse zu bewahren. Zum Glück für ihre Besatzung ist sie aber voll und ganz auf die unbekannte Substanz konzentriert, die sie aufzuspüren geschickt wurde."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Die Leute fragen mich ständig, ob ich Jack Reed kenne. Bevor ich antworte, atme ich meist tief durch und schließe meine Augen für einen kurzen Moment. Sein Kommandant zu sein ist kein Zuckerschlecken. Reed ist ein Rebell, dem es irgendwie gelingt, Befehle auszuführen und sich an die vom Militär auferlegten Regeln zu halten. Im Moment sitzt er in einem brandheißen Panzer fest. Aber tief iim Geiste ist er auf der Straße, fährt mit seinem Motorrad die Route 66 hinunter und spürt den Wind in den Haaren."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Kampagne Sektor 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefan stammt aus einer alten Familie Berner Uhrmacher. Die Handwerkstradition seiner Familie hat ihm ein Talent für Stille, Geduld und absolute Selbstkontrolle verliehen, Qualitäten, die ihm auch bei seiner eigenen Laufbahn sehr gelegen kamen. Im Jahr 1940 gab ihm der britische Geheimdienst die Wahl: er hätte in seiner Heimat und wie diese neutral bleiben können, doch er entschloss sich, auf die andere Seite zu kommen. In den Pässen der Alpen entwickelt er sich von einem Techniker für Spionagegeräte zu einem zielsicheren Scharfschützen. Auch nach dem Krieg blieb er bei dieser Profession und verfolgte jene, die unter falschem Namen der Justiz zu entkommen versuchten. Stefan geht dabei stets allein vor und hinterlässt keine Spuren. Bis heute setzt er auf die Anonymität und niemand in Sektor 3 hat je auch nur sein Gesicht gesehen."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Kampagne Sektor 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s – die Standardgranate für das gewählte Geschütz. Wird zur 
 msgid "shell/basic/description/bold"
 msgstr "Standardgranate"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Die externe Munitionszufuhr des Fahrzeugs erlaubt es, Granaten mit höherem Schaden zu nutzen."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Normal"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modifiziert"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Eine besondere Mechanik für das Geschütz des Fahrzeugs ermöglicht vorzeitiges Schießen mit geänderten Granatenwerten."
 
@@ -10866,6 +10932,21 @@ msgstr "Standard:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Modifiziert:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Die anpassbare Zünderprogrammierung erhöht den mittleren Schaden oder die Durchschlagskraft."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Anpassbar:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibriert"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Von gegnerischer SFL beschossenen Bereich auf Minikarte anzeigen/ausblenden"
@@ -11028,6 +11109,12 @@ msgstr "Durch Verringern der Tonqualität könnte sich die Leistung des Spieles 
 
 msgid "soundQualityOn/header"
 msgstr "LQ-Toneffekte"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Mittlerer Schaden{{/}} wird erhöht, wenn ein durchschlagender Treffer bei einem gegnerischen Fahrzeug gelingt."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Mittlere Durchschlagskraft{{/}} wird erhöht, wenn ein Treffer bei einem gegnerischen Fahrzeug keinen Durchschlag schafft."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Besatzungsmitglieder in Premiumfahrzeugen werden 50 % schneller ausgebildet:"
@@ -11386,6 +11473,36 @@ msgstr "Der verbesserte Ladeautomat reduziert die normale Zeit für das automati
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Zeit zwischen dem Abfeuern der letzten Granate im Magazin (oder beiden Geschützen) und dem Laden des neuen Magazins. / Anzahl Geschütze oder Granaten im Magazin."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Die Zeit, auf welche die Nachladezeit bei Einsatz des Mechanismus gesetzt wird."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Die Zeit, in der eine Ladung aufgefüllt wird, wenn das Magazin voll ist."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Die Zeit, in der eine Ladung aufgefüllt wird, wenn das Magazin nicht voll ist."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Die Anzahl Ladungen, die zu Beginn des Gefechts verfügbar ist."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Die Anzahl der Ladungen zum Beschleunigen der Nachladezeit, die maximal verfügbar sein können."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Mittlerer Schaden von Geschossen des Raketenwerfers nach Durchschlag. Die potenzielle Abweichung des Schadens beträgt ±25 % des mittleren Wertes."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Streuung, angegeben durch die maximale Abweichung der Granate vom Zielpunkt auf eine Entfernung von 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Mittlere Panzerungsstärke, die von Geschossen des Raketenwerfers durchschlagen wird. Die Streuung beträgt ±25 % des mittleren Wertes."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Erforderliche Zeit zum Nachladen des Raketenwerfers."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Angabe der Fluggeschwindigkeit der ungelenkten Rakete."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Mittlerer Schaden von Standardgranaten nach Durchschlag. Die potenzielle Abweichung des Schadens beträgt +/- 25 % des mittleren Wertes."
 
@@ -11406,6 +11523,21 @@ msgstr "Maximale Dauer des Effekts des Boosters nach Aktivierung."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Ladezeit der Granaten im Behälter / Anzahl der Behälter im Magazin / Anzahl der Granaten im Behälter"
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Mittlerer Schaden von Schüssen mit Hochladungs-Einheitsmunition nach Durchschlag. Die potenzielle Abweichung des Schadens beträgt ±25 % des mittleren Wertes."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Im Modus der externen Munitionszufuhr ist die nominelle Vorwärtsgeschwindigkeit reduziert. Die Rückwärtsgeschwindigkeit ist nicht betroffen."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Im Modus der externen Munitionszufuhr ist die Anzahl der Granaten pro Minute reduziert."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Mindestdauer zur Vorbereitung des Geschützes nach dem Aktivieren der externen Munitionszufuhr. Während dieser Zeit kann der Modus nicht gewechselt werden."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Mindestdauer zur Vorbereitung des Geschützes nach dem Zurückstellen auf den Standardmodus. Während dieser Zeit kann der Modus nicht gewechselt werden."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Vorbereitungszeit für gleichzeitiges Abfeuern beider Geschütze. / Dauer der Nachladesperre nach dem Abfeuern einer Salve."
@@ -11737,8 +11869,17 @@ msgstr "Zeit zum Laden der Sekundärwaffe nach dem Schuss."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Anzahl der für die Sekundärwaffe pro Aktivierung verfügbaren Granaten."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Der Bonus auf den Schaden wird nach einem durchschlagenden Treffer bei einem gegnerischen Fahrzeug verliehen."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Der Bonus auf die Durchschlagskraft wird verliehen, wenn ein Treffer bei einem gegnerischen Fahrzeug keinen Durchschlag geschafft hat."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Zeit zum Laden von Granaten zu Beginn des Gefechts und beim Wechseln zwischen Granatentypen."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Die Zeit, die erforderlich ist, um zwischen kalibrierten Schüssen und dem Standardfeuermodus zu wechseln."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Die Streuung eines Geschützes wird durch die maximale Abweichung der Granate vom Zielpunkt auf einer Entfernung von 100 m angegeben."
@@ -11748,6 +11889,36 @@ msgstr "Geschützstreuung, angegeben durch die maximale Abweichung der Granate v
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Zeigt, wie viel die Granate vom Zielpunkt abweichen kann, in Metern pro 100 Meter zum Ziel. Der Standardwert (der erste Wert) steht für das erhitzte Geschütz, der verbesserte Wert (der zweite Wert) für das abgekühlte Geschütz."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Progressive Reduzierung der Tarnung von gegnerischen Fahrzeugen hinter Laubwerk im Suchbereich des Infrarotzielsystems."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Progressive Reduzierung der Tarnung von gegnerischen Fahrzeugen in Bewegung im Suchbereich des Infrarotzielsystems."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Die nach Beginn des Gefechts erforderliche Zeit, bis das Infrarotzielsystem zum ersten Mal genutzt werden kann."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Dauer des Suchvorgangs des Infrarotzielsystems."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Die erforderliche Zeit, bis das Infrarotzielsystem nach der Aktivierung erneut genutzt werden kann."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Reduzierung der Turmdrehgeschwindigkeit, während das Infrarotzielsystem aktiv ist."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Breite des Suchbereichs des Infrarotzielsystems zum Ende des Suchvorgangs."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Breite des Suchbereichs des Infrarotzielsystems zu Beginn des Suchvorgangs."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Zeit, die das eigene Fahrzeug aufgedeckt bleibt, nachdem ein bisher nicht aufgeklärtes Fahrzeug durch das Infrarotzielsystem entdeckt wurde."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Progressive Steigerung der Sichtweite im Suchbereich des Infrarotzielsystems."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Die Fahrzeuggeschwindigkeit, wie sie in den technischen Daten festgelegt ist."

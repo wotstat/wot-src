@@ -382,11 +382,56 @@ msgstr "Wekelijkse missies bestaan uit een set taken die elke week beschikbaar z
 msgid "info_page/main/weekly/title"
 msgstr "Wekelijkse missies"
 
+msgid "pm/missionState/active"
+msgstr "Actief"
+
+msgid "pm/missionState/complete"
+msgstr "Missies voltooid"
+
+msgid "pm/missionState/improve"
+msgstr "Resultaatverbetering"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Verander voertuig"
+
+msgid "pm/no_missions"
+msgstr "Geen actieve missies voor het door jou geselecteerde voertuig"
+
+msgid "pm/tier"
+msgstr "Ongeschikt niveau"
+
+msgid "pm/unavailable"
+msgstr "Missie tijdelijk onbeschikbaar"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Er zijn geen actieve missies voor het door jou geselecteerde voertuig. Kies alsjeblieft een ander voertuig."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Deze missie is wegens technische redenen tijdelijk onbeschikbaar. Onze excuses voor het ongemak."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Het door jou geselecteerde voertuig voldoet niet aan de niveau-eisen van de actieve operaties. Kies alsjeblieft een ander voertuig."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Geen actieve missies"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Tijdelijk onbeschikbaar"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Ongeschikt niveau"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Alle reguliere missies van vandaag zijn voltooid"
 
 msgid "quests/daily_quests/completed"
 msgstr "Alle dagelijkse missies zijn voltooid"
+
+msgid "slider/title/missions"
+msgstr "Reguliere missies"
+
+msgid "slider/title/personalMissions"
+msgstr "Persoonlijke missies"
 
 msgid "tooltip/common/timer"
 msgstr "Beschikbaar over {{timeLeft}}"

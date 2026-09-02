@@ -139,15 +139,6 @@ msgstr "Tilldelas spelare för ovärderliga insatser i utvecklingen av World of 
 msgid "15YearsOfService_descr"
 msgstr "Du har spelat spelet sen %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "SP-reservprestation 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Tilldelas spelare som slutfört alla delmoment."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Tilldelad dig för dina prestationer i spelet"
-
 msgid "BPReserveAchievement_2"
 msgstr "SP-reservprestation 2"
 
@@ -429,6 +420,15 @@ msgstr "• Tilldelas spelare som slutfört alla tre kapitel."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Utdelad för dina prestationer under Stridspass säsong XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Låglandsskärmytsling"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Tilldelas spelare som slutfört alla tre kapitel."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Utdelad för dina prestationer under Stridspass säsong XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Huvudspåret består av 45 delmoment."
@@ -1828,6 +1828,48 @@ msgstr "Silverdrake"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Tilldelas spelare som samlat minst 9 Pansarstormfanor under Drakens år i Pansarstorm."
 
+msgid "comp7_6_1"
+msgstr "Blå gnista"
+
+msgid "comp7_6_1_descr"
+msgstr "Tilldelas spelare som slutfört en serie uppdrag i Pansarstorm under Säsong Fenix Blå."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronsfenix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Tilldelas spelare som samlat minst 6 Pansarstormfanor under Fenixens år i Pansarstorm."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Mästare under Fenixens år"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Tilldelas spelare som samlat minst 15 Pansarstormfanor under Fenixens år i Pansarstorm."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Guldfenix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Tilldelas spelare som samlat minst 12 Pansarstormfanor under Fenixens år i Pansarstorm."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Järnfenix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Tilldelas spelare som samlat minst 3 Pansarstormfanor under Fenixens år i Pansarstorm."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legend under Fenixens år"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Tilldelas spelare som samlat minst 18 Pansarstormfanor under Fenixens år i Pansarstorm."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silverfenix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Tilldelas spelare som samlat minst 9 Pansarstormfanor under Fenixens år i Pansarstorm."
+
 msgid "conqueror"
 msgstr "Erövrare %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Delas endast ut i slumpvis matchade strider."
 
 msgid "huntsman_descr"
-msgstr "Förstör alla fientliga lätta stridsvagnar (minst tre) under en strid."
+msgstr "Förstör alla fientliga lätta stridsvagnar (minst 2) under en strid."
 
 msgid "huntsman_heroInfo"
 msgstr "Sergeant Grigoriy Naydin var vagnschef ombord en BT-7. Den 25 juni 1941, i närheten av den Litauiska staden Rudishkyay, nedkämpade han en Wehrmacht-pansarkolonn, bestående av 15 fordon och tio kanoner från 19. Mekaniserade Kåren. Naydin lyckades hålla tillbaka den tyska framryckningen i två dygn, vilket gav tid att organisera försvaret av Vilnius. För detta tilldelades han utmärkelsen Sovjetunionens Hjälte."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Slutför 15 valfria uppdrag för unionen med heder. Belöning: Hedersmedalj: Unionen, III:e klassen."
 
 msgid "readyForBattleAssault"
-msgstr "Exemplariskt uppträdande: Förtrupp"
+msgstr "Exemplariskt uppträdande: Sektion 3 Förtrupp"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "För slutförande av alla Förtruppsuppdrag i kampanjen Sektion 3."
+msgstr "För slutförande av alla Förtruppsuppdrag i huvudoperationen i kampanjen Sektion 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Exemplariskt uppträdande: Fossa Förtrupp"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "För slutförande av alla Förtruppsuppdrag i operation Fossa i kampanjen Sektion 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Exemplariskt uppträdande: Fossa Bakhåll"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "För slutförande av alla Bakhållsuppdrag i operation Fossa i kampanjen Sektion 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Exemplariskt uppträdande: Fossa Assistans"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "För slutförande av alla Assistansuppdrag i operation Fossa i kampanjen Sektion 3."
 
 msgid "readyForBattleHT"
 msgstr "Exemplariskt uppträdande: Tunga stridsvagnar"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "För ärofullt slutförande av 15 personliga uppdrag i artillerivagnar. Belönas med medaljen \"Exemplariskt uppträdande: Artillerivagnar\" Klass IV."
 
 msgid "readyForBattleSniper"
-msgstr "Exemplariskt uppträdande: Bakhåll"
+msgstr "Exemplariskt uppträdande: Sektion 3 Assistans"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "För slutförande av alla Bakhållsuppdrag i kampanjen Sektion 3."
+msgstr "För slutförande av alla Bakhållsuppdrag huvudoperationen i kampanjen Sektion 3."
 
 msgid "readyForBattleSupport"
-msgstr "Exemplariskt uppträdande: Assistans"
+msgstr "Exemplariskt uppträdande: Sektion 3 Assistans"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "För slutförande av alla Assistansuppdrag i kampanjen Sektion 3."
+msgstr "För slutförande av alla Assistansuppdrag i huvudoperationen i kampanjen Sektion 3."
 
 msgid "reliableComrade"
 msgstr "Stridskamrat"
@@ -4692,6 +4761,15 @@ msgstr "Tilldelas spelare som slutfört alla delmoment i Waffenträger: Paradox
 
 msgid "wt2025progression_descr"
 msgstr "Slutför delmomenten i Waffenträger"
+
+msgid "wt2026progression"
+msgstr "Stormryttare"
+
+msgid "wt2026progression_condition"
+msgstr "Tilldelas spelare som slutfört alla delmoment i Waffenträger: Genesis 2026. Äran ges till de som klarat sig igenom det omöjliga, som mött von Kriegers första tänkande maskin, den Elektriska intelligensen, och kapat varje koppling den hade till vår värld."
+
+msgid "wt2026progression_descr"
+msgstr "Slutför alla delmoment i Waffenträger: Genesis 2026"
 
 msgid "wtBossWins"
 msgstr "Blixtens mästare"

@@ -229,23 +229,14 @@ msgstr "satın aldığınızda gelir:"
 msgid "battlePassBuyView/descr"
 msgstr "Bir Gelişim Aşamasını satın aldığınızda, o Aşamada yer alan tüm ödüller anında açılır ve size verilir.."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Bu ödüller size gelecek Aşamaları tamamladıktan sonra verilecektir."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "%(steps)s Aşamaları için size şu ödüller verilecek"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Şu ödülleri hemen alacaksınız"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "%(steps)s. Aşama için size şu ödüller verilecek"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "AÇILACAK"
+msgstr "Tamamlanmamış Aşamalarda Açılır"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "HEMEN ALINACAK"
+msgstr "Anında alınır"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Savaş Kartı Bölümünü Etkinleştirin"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elit Parkur"
 
-msgid "chapter/fullName/201"
-msgstr "Gömülü Zaman"
+msgid "chapter/fullName/211"
+msgstr "Uzman"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Dublör"
 
-msgid "chapter/fullName/203"
-msgstr "Çöl Komutanlığı"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Metin"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "GÖMÜLÜ ZAMAN"
+msgid "chapter/fullNameUppercased/211"
+msgstr "UZMAN"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "DUBLÖR"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "ÇÖL KOMUTANLIĞI"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "METİN"
 
 msgid "chapter/title"
 msgstr "BÖLÜM %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "×3 Mürettebat DP'si Görevi"
 
 msgid "equipCoinBonus"
 msgstr "Bileşenler: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3B Eklenti Seti"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Komutan"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Tüm Bölümler tamamlandıktan sonra açılır. Tamamlanan bölümler: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Bir Premium araç kapın ve seçkin özelleştirme ögeleri elde edin."
+msgstr "Seçkin ödüller ve özgün özelleştirme ögeleri için dalın."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Savaş Kartı: Far Cry burada!"
+msgstr "Özel Bölüm burada!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Gelişmiş Kartı satın alın, daha çok ödül alın!"
@@ -1114,11 +1102,8 @@ msgstr "Elit Parkurun %(level)d. Aşaması"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "deneyim, seçili %(nation)s aracının her mürettebat üyesine"
 
-msgid "rewardChoice/subTitle"
-msgstr "ÖDÜLÜNÜZÜ SEÇİN"
-
 msgid "rewardChoice/title"
-msgstr "SAVAŞ KARTI"
+msgstr "Ödüllerinizi Seçin"
 
 msgid "rewardChoice/titleChapter"
 msgstr "SAVAŞ KARTI: %(chapter)s BÖLÜMÜ"
@@ -1129,14 +1114,14 @@ msgstr "SAVAŞ KARTI: %(chapter)s BÖLÜMÜ, %(level)s. AŞAMA"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Kumlarda Arayış"
+msgid "season/fullName/21"
+msgstr "Cezalı"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "KUMLARDA ARAYIŞ"
+msgid "season/fullNameUppercased/21"
+msgstr "CEZALI"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Seçimlik Yönergeler"

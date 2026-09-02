@@ -826,6 +826,9 @@ msgstr "Estilos 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Primário apenas"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Batedor"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Atirador Especial"
 
@@ -834,9 +837,6 @@ msgstr "Suporte"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Versátil"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Com Rodas"
 
 msgid "centerIsAvailable"
 msgstr "Todos os servidores estão disponíveis outra vez."
@@ -4159,6 +4159,9 @@ msgstr "Sistema de autocarregamento melhorado:\nReduz o tempo normal de autocarr
 msgid "moduleInfo/autoShootGun"
 msgstr "Arma com um sistema de tiro contínuo"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Este veículo está equipado com um lançador de rockets montado no escudo da arma. Ative a funcionalidade para mudar para a mira da arma secundária e, em seguida, dispare um rocket HE não guiado com o botão de disparo."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Fechar"
 
@@ -4312,6 +4315,9 @@ msgstr "Arrefecimento"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "nas qualificações principais e aptidões da tripulação"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Chance de Tiro Crítico"
+
 msgid "moduleInfo/params/damage"
 msgstr "Dano"
 
@@ -4342,11 +4348,29 @@ msgstr "Probabilidade de Incêndio no Impacto"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Tempo de Voo"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Causa sempre dano se a blindagem principal for atingida"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* alcance máximo de voo do projétil para esta arma"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " não depende da distância para este tipo de munição"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", alcance de voo máximo—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " Este tipo de projétil começa a perder poder de penetração com a distância após passar pela primeira tela"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " depende da distância: %(minDist)s - %(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " Este tipo de projétil penetra nas telas normalmente, mas depois perde poder de penetração equivalente a três vezes a espessura da blindagem da tela"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Velocidade Máxima"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Causa sempre dano se a blindagem principal for atingida"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Peso"
@@ -4378,20 +4402,11 @@ msgstr "Pontos de Energia"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Alcance de Tiro"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* alcance máximo de voo da munição para esta arma"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Ângulo Máximo de Rotação das Rodas"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Dano Médio a %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " não depende da distância para este tipo de munição"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", alcanse de voo máximo—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Ângulo de Normalização"
@@ -4399,14 +4414,8 @@ msgstr "Ângulo de Normalização"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Perda de Penetração"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Este tipo de projétil começa a perder poder de penetração com a distância após passar pela primeira tela"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " depende da distância: %(minDist)s - %(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Penetração Média (mm) - Distância"
@@ -4456,9 +4465,6 @@ msgstr "Velocidade de Rotação"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplicador de Blindagem Espaçada"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Este tipo de projétil penetra nas telas normalmente, mas depois perde poder de penetração equivalente a três vezes a espessura da blindagem da tela"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Pós-Combustor de Propelente por Indução que aumenta o dano médio"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Propulsores a jacto aumentam a mobilidade do veículo"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "A arma do veículo dispõe de dispositivos especiais que permitem modificar alguns parâmetros do projétil antes do disparo."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Propulsores de combustível sólido que aumentam a aceleração, a mobilidade e a capacidade de manobra."
@@ -5284,11 +5293,14 @@ msgstr "Veículos com armas perfeitas, a utilização eficaz das quais exige a c
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Tanques multifunções que podem facilmente se adaptar a qualquer situação de combate."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Veículos rápidos e manobráveis que podem tanto detectar e causar dano como também efectuar manobras de flanqueamento."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Os tanques ligeiros de reconhecimento são veículos pequenos e ágeis, concebidos para localizar inimigos. A sua silhueta baixa e a forte capacidade de camuflagem, bem como a excelente manobrabilidade e a elevada velocidade máxima, tornam-nos adequados tanto para o reconhecimento passivo como para o ativo; no entanto, a fraca durabilidade e o baixo poder de fogo impedem-nos de oferecer um apoio de fogo substancial aos aliados."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Veículos com características dinâmicas espectaculares, a sua implementação eficaz que depende do mapa e da situação táctica."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Os tanques ligeiros de apoio aproveitam a sua elevada mobilidade, excelente manobrabilidade e armas potentes para mudar rapidamente de flanco e causar danos significativos antes de recuarem para um local seguro. Embora possam realizar missões de reconhecimento em determinadas situações, o seu grande tamanho e fraca camuflagem tornam-nos batedores menos eficazes do que outros tanques ligeiros."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Os tanques ligeiros versáteis são veículos completos, capazes tanto de realizar missões de reconhecimento como de prestar apoio de fogo aos aliados. Embora sejam menos eficazes no reconhecimento do que os batedores e tenham menos poder de fogo do que os tanques ligeiros de apoio, os perfis equilibrados dos versáteis permitem-lhes desempenhar ambas as funções com competência e adaptar-se facilmente a uma vasta gama de situações de combate."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Veículos com blindagem decente que os torna adequados para combate cerrado e aguentar a sua posição contra tanques pesados inimigos."
@@ -5329,11 +5341,14 @@ msgstr "Tanque Pesado de Suporte"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Tanque Pesado Versátil"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Tanque Ligeiro de Reconhecimento"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Tanque Ligeiro de Apoio"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Tanque Ligeiro Versátil"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Tanque Ligeiro com Rodas"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Tanque Médio de Assalto"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Recarregamento"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magazine/quantidade)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Tempo de Carregamento Acelerado da Munição"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Tempo de Cooldown da Carga Com o Carregador Cheio"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Tempo de Cooldown da Carga Básica"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Cargas no Início da Batalha"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Cargas"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Dano Médio (PE)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersão a 100m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Penetração Média (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Cooldown (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Velocidade do Rocket (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Média de Dano"
 
@@ -6057,6 +6105,21 @@ msgstr "Contentor de Munições"
 
 msgid "tank_params/burstSec"
 msgstr "(s/quantidade/quantidade)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Dano Médio (PE)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Velocidade Máxima (modo AME) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Cadência de Tiro (munições/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Ativação do Modo AME (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Desativação do Modo AME (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Preparação da Salva"
@@ -6150,6 +6213,12 @@ msgstr "Potência do motor (h.p.) (modo Turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Raio de Dano"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Velocidade Máxima (modo AME) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Ativação do Modo AME (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Tempo de arrefecimento da arma após o disparo"
@@ -6325,9 +6394,6 @@ msgstr "Capacidade de Atravessar o Terreno"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Carga de Mira Eletromecânica de Coincidência (% por s) (modo de Combate, passivo)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(por ativação)"
 
@@ -6484,8 +6550,20 @@ msgstr "Carregamento de Arma Auxiliar"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Munições de Armas Auxiliares"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Dano Médio Ajustado por Projétil (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Penetração Média Ajustado por Projétil (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Carregamento da Esteira de Munição"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Tempo Para Mudar de Modo"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetração:"
@@ -6495,6 +6573,36 @@ msgstr "Dispersão a 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Velocidade da Munição"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Ocultação do Inimigo Atrás da Vegetação (Estacionário e Em Movimento)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Ocultação do Inimigo Em Movimento"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Cooldown Inicial"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Duração"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Cooldown"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Velocidade de Rotação da Torre"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Largura Final da Procura"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Largura Inicial da Procura"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Duração da Auto-Deteção"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Alcance de Visão"
 
 msgid "tank_params/speedLimits"
 msgstr "Velocidade Máxima/Marcha Atrás"

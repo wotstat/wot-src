@@ -298,8 +298,26 @@ msgstr "Forøger boost til motorkraft fra raket-boosterne med {colorTagOpen}{val
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Forøger det maksimale antal gange raket-boosterne kan bruges i en enkelt kamp med {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Reducerer første cooldown på tiden, indtil IRST kan bruges, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Reducerer cooldown på tiden, indtil IRST kan bruges igen, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Reducerer tiden dit køretøj er afsløret for fjender, efter at have opdaget dem med IRST, med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Forlænger varigheden af IRST-scanning med {colorTagOpen}{value0} s{colorTagClose} og gør desuden scanningssektoren smallere med {colorTagOpen}{value1} grader{colorTagClose}, forøger dens synsrækkevidde med {colorTagOpen}{value2}%{colorTagClose}, og reducerer sløring på køretøjer i bevægelse med {colorTagOpen}{value3}%{colorTagClose} samt køretøjer skjult i buskads med {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Reducerer risikoen for at et mandskabsmedlem bliver såret, når køretøjet bliver beskadiget."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Forøger gennembrydning efter en ikke-gennembrydende træffer med {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Forøger skade efter en gennembrydende træffer med {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Reducerer spredning, når din kanon bliver beskadiget."
@@ -460,6 +478,18 @@ msgstr "Reducerer ladetiden mellem granater i din kanons magasin."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Reducerer risikoen for at blive opdaget af fjendtlige køretøjer, når du afgiver skud."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Reducerer cooldown på en ladning, når magasinet ikke er fyldt {colorTagOpen}med {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Reducerer cooldown på en ladning, når magasinet er fyldt {colorTagOpen}med {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Reducerer accelereret ladehastighed {colorTagOpen}med yderligere {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Forøger antallet af ladninger tilgængelige i starten af kampen {colorTagOpen}med {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Reducerer tiden inden nedkøling af kanonløbet påbegyndes med {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Reducerer mængden af varme kanonen genererer per skud med {colorTagOpen
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Forøger hastigheden kanonen nedkøles med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Reducerer ladetid på koaksialt raketstyr med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Reducerer ladetid på koaksialt raketstyr med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Reducerer ladetid på koaksialt raketstyr med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Forøger skade fra raket med {colorTagOpen}{value} hp{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Forøger skaden uddelt af andet end HE-granater."
@@ -547,6 +589,18 @@ msgstr "Reducerer kanonens spredning med {colorTagOpen}{value}%{colorTagClose} i
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Reducerer kanonens ladetid med {colorTagOpen}{value}%{colorTagClose} i bunkertilstand."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Forøger maksimal hastighed i EA-tilførsel med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Forøger skade uddelt med særlige granater i EA-tilførsel med {colorTagOpen}{value} hp{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Forøger skade uddelt med standard granater i EA-tilførsel med {colorTagOpen}{value} hp{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Reducerer kanonens ladetid i EA-tilførsel med {colorTagOpen}{value}%{colorTagClose} (undtagen HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Forøger antal hp på dit køretøjs brændstoftanke og motormoduler."
 
@@ -555,6 +609,9 @@ msgstr "Reducerer straffen fra et beskadiget ammunitionsstativ og motor."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Forøger dine granaters skade til fjendtlige køretøjers moduler."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Reducerer tiden det tager at skifte mellem skudtilstande med {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Gør det muligt at konfigurere et alternativt udstyrssæt med ammunition og forbrugsvarer."
@@ -742,6 +799,18 @@ msgstr "Grundformsoptimering"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Udvidet boosterlager"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modificeret Simmer-tænder"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Højtydende væskekøling"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optik med lav afvigelse"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Vedvarende væskekøling"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Affjedringens hp"
 
@@ -750,6 +819,12 @@ msgstr "Affjedringens reparationshastighed"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Mandskabsbeskyttelse"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Justerbart tændrør: Gennembrydning"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Justerbart tændrør: Skade"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situationsafhængig spredning på kanonen"
@@ -928,6 +1003,18 @@ msgstr "Ladetid på indre magasin"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Sløring efter skud"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Præcisionsfabrikeret rotorkrans"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktiv rotorkøling"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Høj-konduktiv statorbeholder"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortocyklisk vikling"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Kold varmeoverførselsvæske"
 
@@ -936,6 +1023,18 @@ msgstr "Høj-konduktiv termisk beholder"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Varmerørsoptimering"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimering af ladecyklus"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimering af ladecyklus"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimering af ladecyklus"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Forbedret sprænghovedlayout"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Skade fra andet end HE-granat"
@@ -1018,6 +1117,18 @@ msgstr "Præcisionsbalanceret rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulisk kanonlader"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Forbedret affjedringsdæmpning"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modificerede særlige enkeltgranater"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modificerede standard enkeltgranater"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimeret EA-ladecyklus"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Valgfrit modul-hp-boost"
 
@@ -1026,6 +1137,9 @@ msgstr "Valgfri modulbeskyttelse"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Skade til granatmodul"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimeret rekalibrering"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Ammunition og forbrugsvarer-udstyrssæt"

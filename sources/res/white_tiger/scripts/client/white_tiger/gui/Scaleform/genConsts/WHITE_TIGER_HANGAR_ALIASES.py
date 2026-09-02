@@ -1,0 +1,10 @@
+class WHITE_TIGER_HANGAR_ALIASES(object):
+    WHITE_TIGER_TANK_CAROUSEL = b'whiteTigerTankCarousel'
+    WHITE_TIGER_PRIME_TIME = b'whiteTigerPrimeTime.swf'
+    WHITE_TIGER_PRIME_TIME_ALIAS = b'whiteTigerPrimeTime'
+    WHITE_TIGER_PROGRESSION = b'whiteTigerProgression'
+    WHITE_TIGER_HANGAR = b'whiteTigerHangarMode'
+    WHITE_TIGER_WELCOME = b'whiteTigerWelcome'
+    WHITE_TIGER_SETTINGS_WINDOW = b'whiteTigerSettingsWindow'
+    WHITE_TIGER_QUEUE_SCREEN = b'whiteTigerQueueScreen'
+    WHITE_TIGER_BATTLE_RESULT = b'whiteTigerBattleResult'

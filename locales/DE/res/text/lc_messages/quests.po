@@ -802,6 +802,12 @@ msgstr "Kontrollierbarer EP-Multiplikator"
 msgid "bonusName/attachment"
 msgstr "3D-Aufsatz"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "Luftangriff"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "Luftabwehrausstattung"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "Beute des Herausforderers"
 
@@ -810,6 +816,9 @@ msgstr "Satz mit 3D-Aufsätzen"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "Meereswächter"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "Jagdausrüstung"
 
 msgid "bonusName/attendance_reward"
 msgstr "Aktivitäts-\nbelohnungen"
@@ -4152,6 +4161,12 @@ msgstr "Strategischer Auftrag"
 
 msgid "item/type/specialMission"
 msgstr "Festung: Sonderanweisungen"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "Dieser Auftrag kann während des Events jeden Tag abgeschlossen werden und lässt sich nicht ersetzen."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "Festgelegter Auftrag"
 
 msgid "metrics/state/done"
 msgstr "Abgeschlossen"

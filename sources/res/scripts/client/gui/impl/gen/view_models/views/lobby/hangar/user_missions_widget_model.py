@@ -1,38 +1,59 @@
-from frameworks.wulf import ViewModel
+from frameworks.wulf import Array, Map, ViewModel
+from gui.impl.gen.view_models.views.lobby.hangar.user_missions_plugin_model import UserMissionsPluginModel
+from gui.impl.gen.view_models.views.lobby.hangar.user_missions_slide_model import UserMissionsSlideModel
 
 class UserMissionsWidgetModel(ViewModel):
-    __slots__ = (b'onPresenterDisappear', b'onWidgetUnmounted')
+    __slots__ = (b'onSlideChanged',)
 
-    def __init__(self, properties=3, commands=2):
+    def __init__(self, properties=4, commands=1):
         super(UserMissionsWidgetModel, self).__init__(properties=properties, commands=commands)
         return
 
-    def getIsBattlePassActive(self):
-        return self._getBool(0)
+    def getSlides(self):
+        return self._getArray(0)
 
-    def setIsBattlePassActive(self, value):
-        self._setBool(0, value)
+    def setSlides(self, value):
+        self._setArray(0, value)
         return
 
-    def getIsAnyEntryPointAvailable(self):
-        return self._getBool(1)
+    @staticmethod
+    def getSlidesType():
+        return UserMissionsSlideModel
 
-    def setIsAnyEntryPointAvailable(self, value):
-        self._setBool(1, value)
+    def getSelectedSlide(self):
+        return self._getString(1)
+
+    def setSelectedSlide(self, value):
+        self._setString(1, value)
         return
 
-    def getAreMissionsActive(self):
-        return self._getBool(2)
+    def getPlugins(self):
+        return self._getMap(2)
 
-    def setAreMissionsActive(self, value):
-        self._setBool(2, value)
+    def setPlugins(self, value):
+        self._setMap(2, value)
         return
+
+    @staticmethod
+    def getPluginsType():
+        return (int, UserMissionsPluginModel)
+
+    def getVisibleGroups(self):
+        return self._getArray(3)
+
+    def setVisibleGroups(self, value):
+        self._setArray(3, value)
+        return
+
+    @staticmethod
+    def getVisibleGroupsType():
+        return unicode
 
     def _initialize(self):
         super(UserMissionsWidgetModel, self)._initialize()
-        self._addBoolProperty(b'isBattlePassActive', False)
-        self._addBoolProperty(b'isAnyEntryPointAvailable', False)
-        self._addBoolProperty(b'areMissionsActive', True)
-        self.onPresenterDisappear = self._addCommand(b'onPresenterDisappear')
-        self.onWidgetUnmounted = self._addCommand(b'onWidgetUnmounted')
+        self._addArrayProperty(b'slides', Array())
+        self._addStringProperty(b'selectedSlide', b'')
+        self._addMapProperty(b'plugins', Map(int, UserMissionsPluginModel))
+        self._addArrayProperty(b'visibleGroups', Array())
+        self.onSlideChanged = self._addCommand(b'onSlideChanged')
         return

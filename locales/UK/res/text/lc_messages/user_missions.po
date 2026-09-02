@@ -382,11 +382,56 @@ msgstr "Щотижневі завдання — набір задач, дост
 msgid "info_page/main/weekly/title"
 msgstr "Щотижневі завдання"
 
+msgid "pm/missionState/active"
+msgstr "Активно"
+
+msgid "pm/missionState/complete"
+msgstr "Завдання виконано"
+
+msgid "pm/missionState/improve"
+msgstr "Поліпшення результату"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Замінити машину"
+
+msgid "pm/no_missions"
+msgstr "Для вибраної машини немає активних бойових завдань"
+
+msgid "pm/tier"
+msgstr "Невідповідний рівень"
+
+msgid "pm/unavailable"
+msgstr "Завдання тимчасово недоступне"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Для вибраної машини немає активних бойових завдань. Будь ласка, виберіть іншу машину."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "З технічних причин це завдання тимчасово недоступне. Вибачте за незручності."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Вибрана машина не відповідає вимогам до рівня для активних операцій. Будь ласка, виберіть іншу машину."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Немає активних завдань"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Тимчасово недоступно"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Невідповідний рівень"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "На сьогодні всі звичайні завдання виконано"
 
 msgid "quests/daily_quests/completed"
 msgstr "Усі щоденні завдання виконано"
+
+msgid "slider/title/missions"
+msgstr "Звичайні завдання"
+
+msgid "slider/title/personalMissions"
+msgstr "Особисті бойові завдання"
 
 msgid "tooltip/common/timer"
 msgstr "Доступно через {{timeLeft}}"

@@ -130,6 +130,9 @@ msgstr "Vous ne pouvez pas créer ni rejoindre de peloton, car vous ne possédez
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Une fois la qualification terminée, les pelotons de 2 et 7 joueurs seront disponibles."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Une fois la qualification terminée, un peloton de deux joueurs sera disponible."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Impossible de créer un peloton."
 
@@ -141,6 +144,9 @@ msgstr "Créez un peloton ou rejoignez-en un déjà existant. Les pelotons dans 
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Peloton"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Créez un peloton ou rejoignez-en un déjà existant. Les pelotons dans Offensive ne peuvent comprendre que deux joueurs."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Créer une unité tactique de 2 ou 3 joueurs pour jouer en coopération.\n• Mode de bataille : Ravages.\n• Types de bataille : Traque d'acier, Domination."
@@ -264,12 +270,6 @@ msgstr "Le peloton a atteint le nombre maximal de chars lourds"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Le peloton a atteint le nombre maximal de chars moyens"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Le peloton a atteint le nombre maximal de chars légers"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Le peloton a atteint le nombre maximal de véhicules à roues"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Le peloton a atteint le nombre maximal de chars légers"

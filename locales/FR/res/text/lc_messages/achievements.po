@@ -139,15 +139,6 @@ msgstr "Décernée aux joueurs pour leur précieuse contribution à l'évolution
 msgid "15YearsOfService_descr"
 msgstr "Vous êtes en jeu depuis le %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Fait d'armes de la réserve du PdC 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Décernée pour l'accomplissement de la Progression."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Décernée pour vos faits d'armes en jeu"
-
 msgid "BPReserveAchievement_2"
 msgstr "Fait d'armes de la réserve du PdC 2"
 
@@ -429,6 +420,15 @@ msgstr "• Décernée pour avoir terminé les trois Chapitres."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Décernée pour vos faits d'armes durant le Passe de combat saison XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Escarmouche des basses terres"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Décernée pour avoir terminé les trois Chapitres."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Décernée pour vos faits d'armes durant le Passe de combat saison XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• La Progression principale comprend 45 Étapes."
@@ -1828,6 +1828,48 @@ msgstr "Dragon d'argent"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Décerné pour avoir récupéré au moins 9 Bannières d'Offensive lors de l'Année du Dragon en mode Offensive."
 
+msgid "comp7_6_1"
+msgstr "Étincelle azurée"
+
+msgid "comp7_6_1_descr"
+msgstr "Décernée pour l'accomplissement d'une série de missions lors de la Saison du Phénix azuré en mode Offensive."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Phénix de bronze"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Décerné pour avoir récupéré au moins 6 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Champion de l'Année du Phénix"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Décerné pour avoir récupéré au moins 15 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Phénix d'or"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Décerné pour avoir récupéré au moins 12 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Phénix de fer"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Décerné pour avoir récupéré au moins 3 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Légende de l'Année du Phénix"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Décerné pour avoir récupéré au moins 18 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Phénix d'argent"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Décerné pour avoir récupéré au moins 9 Bannières d'Offensive lors de l'Année du Phénix en mode Offensive."
+
 msgid "conqueror"
 msgstr "Conquérant %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Uniquement en bataille aléatoire."
 
 msgid "huntsman_descr"
-msgstr "Détruire tous les chars légers ennemis (au moins 3) au cours d'une seule bataille."
+msgstr "Détruire tous les chars légers ennemis (au moins 2) au cours d'une seule bataille."
 
 msgid "huntsman_heroInfo"
 msgstr "Le sergent Gregory Najdin était un chef de char BT-7. Le 25 juin 1941, près de la ville lituanienne de Rudishkyay, il détruisit une colonne de blindés de la Wehrmacht, dont 15 véhicules et 10 canons blindés du 19e Corps Mécanisé. Najdin réussit à repousser l'avancée de l'Allemagne de deux jours, permettant ainsi d'organiser les défenses autour de Vilnius. Pour cette action, Najdin a été fait Héros de l'Union soviétique."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Accomplir avec les honneurs 15 missions pour l'Union. Récompense : Performance exemplaire : Union, Classe III."
 
 msgid "readyForBattleAssault"
-msgstr "Performance exemplaire : Avant-garde"
+msgstr "Performance exemplaire : Avant-garde du Secteur 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Pour l'accomplissement de toutes les missions Avant-garde dans la campagne « Secteur 3 »."
+msgstr "Pour l'accomplissement de toutes les missions Avant-garde dans les opérations principales de la campagne « Secteur 3 »."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Performance exemplaire : Avant-garde de Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Pour l'accomplissement de toutes les missions Avant-garde dans l'opération Fossa de la campagne « Secteur 3 »."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Performance exemplaire : Embuscade de Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Pour l'accomplissement de toutes les missions Embuscade dans l'opération Fossa de la campagne « Secteur 3 »."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Performance exemplaire : Assistance de Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Pour l'accomplissement de toutes les missions Assistance dans l'opération Fossa de la campagne « Secteur 3 »."
 
 msgid "readyForBattleHT"
 msgstr "Performance exemplaire : chars lourds"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Accomplir avec les honneurs 15 missions personnelles pour les canons automoteurs. Récompense : la médaille « Performance exemplaire : canons automoteurs », Classe IV."
 
 msgid "readyForBattleSniper"
-msgstr "Performance exemplaire : Embuscade"
+msgstr "Performance exemplaire : Embuscade du Secteur 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Pour l'accomplissement de toutes les missions Embuscade dans la campagne « Secteur 3 »."
+msgstr "Pour l'accomplissement de toutes les missions Embuscade dans les opérations principales de la campagne « Secteur 3 »."
 
 msgid "readyForBattleSupport"
-msgstr "Performance exemplaire : Assistance"
+msgstr "Performance exemplaire : Assistance du Secteur 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Pour l'accomplissement de toutes les missions Assistance dans la campagne « Secteur 3 »."
+msgstr "Pour l'accomplissement de toutes les missions Assistance dans les opérations principales de la campagne « Secteur 3 »."
 
 msgid "reliableComrade"
 msgstr "Compagnon de bataille"
@@ -4692,6 +4761,15 @@ msgstr "Décernée pour avoir terminé la progression de Waffenträger : Parado
 
 msgid "wt2025progression_descr"
 msgstr "Terminer la progression du mode Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Chevauche-tempête"
+
+msgid "wt2026progression_condition"
+msgstr "Décernée pour avoir terminé la Progression de Waffenträger : Genèse 2026. Cet honneur est octroyé à ceux qui ont tenu tête à la première machine pensante de von Krieger, l'Intelligence électrique, et ont coupé chaque circuit par lequel elle atteignait notre monde."
+
+msgid "wt2026progression_descr"
+msgstr "Terminer la Progression de Waffenträger : Genèse 2026."
 
 msgid "wtBossWins"
 msgstr "Maître des éclairs"

@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "CLOSE"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Affirmative!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Warm-Up will remind you of the game basics. Battles are played against AI-controlled vehicles and the results do not count toward your statistics. You can exit Warm-Up at any time to proceed to Random Battles."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Warm-Up"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Complete missions, finish the Back in Action Progression Stages, and receive valuable in-game rewards. Each completed Standard, Premium, or Bonus Mission counts toward the reward. Missions can be completed in Warm-Up and Random Battles."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Complete missions, finish the Back in Action Progression Stages, and receive valuable rewards. During Battle Pass, Battle Pass Points will be added to the pool of rewards. Missions can be completed in Warm-Up and Random Battles."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Back in Action"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "You can earn rental Tier VIII Premium vehicles, Tier VI researchable vehicles, and discounts on researching and purchasing vehicles as a reward. After completing the Progression, you will receive the main reward."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Rewards"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "BACK IN ACTION"
-
 msgid "mainRewardTooltip/description"
 msgstr "After completing the Back in Action Progression, you will receive:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Main Reward"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Discount on researching and purchasing a Tier %(level)s vehicle"
+msgstr "Discount on researching and purchasing a Tier {{level}} vehicle"
 
 msgid "modeInfoTooltip/description"
 msgstr "Battles against AI-controlled vehicles that do not count toward your statistics. To win, you need to capture the enemy base or destroy all enemy vehicles. Battles are fought in the 15v15 format at Tiers VI–XI and in the 10v10 format at Tiers I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Warm-Up"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Any researchable Tier %(level)s vehicle may be selected. The vehicle comes with researched modules, a crew and a Garage slot."
+msgstr "Any researchable Tier {{level}} vehicle may be selected. The vehicle comes with researched modules, a crew and a Garage slot."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Tier %(level)s vehicle"
+msgstr "Tier {{level}} vehicle"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "A %(researchDiscount)s discount on researching and a %(purchaseDiscount)s discount on purchasing a Tier %(level)s vehicle. Any researchable vehicle may be selected."
+msgstr "A {{researchDiscount}} discount on researching and a {{purchaseDiscount}} discount on purchasing a Tier {{level}} vehicle. Any researchable vehicle may be selected."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "The discount on {whiteSpanish_Open}researching{whiteSpanish_Close} is added to the discount from the vehicle blueprint fragments. The largest available {whiteSpanish_Open}purchasing{whiteSpanish_Close} discount is applied."
+msgstr "The discount on {{@ style (color $color)}}researching{{/}} is added to the discount from the vehicle blueprint fragments. The largest available {{@ style (color $color)}}purchasing{{/}} discount is applied."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Discount on Tier %(level)s Vehicle"
+msgstr "Discount on Tier {{level}} Vehicle"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Affirmative!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Warm-Up will remind you of the game basics. Battles are played against AI-controlled vehicles and the results do not count toward your statistics. You can exit Warm-Up at any time to proceed to Random Battles."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Warm-Up"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Complete missions, finish the Back in Action Progression Stages, and receive valuable rewards. During Battle Pass, Battle Pass Points will be added to the pool of rewards. Missions can be completed in Warm-Up and Random Battles."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Complete missions, finish the Back in Action Progression Stages, and receive valuable in-game rewards. Each completed Standard, Premium, or Bonus Mission counts toward the reward. Missions can be completed in Warm-Up and Random Battles."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Back in Action"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "You can earn rental Tier VIII Premium vehicles, Tier VI researchable vehicles, and discounts on researching and purchasing vehicles as a reward. After completing the Progression, you will receive the main reward."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Rewards"
+
+msgid "umgIntroView/title"
+msgstr "BACK IN ACTION"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "The discount on %(research)s is added to the discount from the vehicle blueprint fragments. The largest available %(purchase)s discount is applied."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Exit Warm-Up?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Battles left: %(battlesCount)s"
+msgstr "Battles left: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Battles against AI-controlled vehicles that do not count toward your statistics."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "You also received:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "A %(expDiscount)s discount on researching and a %(priceDiscount)s discount on purchasing a Tier %(level)s vehicle"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "A {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} discount on researching and a {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} discount on purchasing a Tier {{level}} vehicle"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Tier %(level)s vehicle"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Tier {{level}} vehicle"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Discount on a Tier %(level)s vehicle"
+msgstr "Discount on a Tier {{level}} vehicle"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "For completing a series of Daily Missions"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "PROGRESSION COMPLETED"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "A %(expDiscount)s discount on researching\nand a %(priceDiscount)s discount on purchasing"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "A {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} discount on researching and a {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} discount on purchasing"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "In Garage"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Days of rental: %(days)s"
+msgstr "Days of rental: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Discount for researching and purchasing"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Select Later"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Reset filter"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Vehicle Discount"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Tier %(vehicleLevel)s Vehicle"
+msgstr "Tier {{vehicleLevel}} Vehicle"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Affirmative!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Unable to Open Reward Selection"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "You researched all Tier %(vehicleLevel)s vehicles. You can now receive national blueprint fragments as a reward."
+msgstr "You researched all Tier {{vehicleLevel}} vehicles. You can now receive national blueprint fragments as a reward."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Search by name"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Displayed:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Set by Default"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Rewards selected: %(amountRewards)s %(infoIcon)s"
+msgstr "Rewards selected: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Select rewards from the categories provided"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "No matches found. Change your filter settings or reset them to default."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s National blueprint fragment{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} National blueprint fragment{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% discount on researching and %(priceDiscount)s% discount on purchasing)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% discount on researching and {{priceDiscount}}% discount on purchasing)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Discount on Tier %(level)s Vehicle"
+msgstr "Discount on Tier {{level}} Vehicle"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (All researched modules, crew and a Garage slot)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (All researched modules, crew and a Garage slot)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Tier %(level)s vehicle"
+msgstr "Tier {{level}} vehicle"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Click the \"Claim\" button to receive the selected rewards."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Rewards selected: %(amountRewards)s"
+msgstr "Rewards selected: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Purchase"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "SELECT YOUR REWARD"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "tank destroyer"

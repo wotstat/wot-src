@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Gold verdient"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Sie haben die Medaille „%(nameMedal)s“ für Ihre Beteiligung an der Kampagne „%(campaignName)s“ erhalten."
+msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss eines Auftrags in der Kampagne „%(campaignName)s“ erhalten."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Glückwunsch!"
@@ -1929,6 +1929,21 @@ msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschl
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss von 15 Aufträgen in der Auftragsreihe „%(categoryName)s“ der Kampagne „%(campaignName)s“ erhalten."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss eines Auftrags in der Kampagne „%(campaignName)s“ erhalten."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Glückwunsch!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss von 21 Aufträgen in der Auftragsreihe „%(categoryName)s“ der Operation „%(operationName)s“ erhalten."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss von 14 Aufträgen in der Auftragsreihe „%(categoryName)s“ der Operation „%(operationName)s“ erhalten."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Sie haben die Medaille „%(nameMedal)s“ für den erfolgreichen Abschluss von 7 Aufträgen in der Auftragsreihe „%(categoryName)s“ der Operation „%(operationName)s“ erhalten."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "Strafe für Schaden an Verbündeten: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Klicken Sie die Schaltfläche an, um den Inhalt zu sehen."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Sie haben ein Paket erhalten:"
+msgstr "Paket erhalten"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s (%(colorTagOpen)s%(count)sx%(colorTagClose)s)"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Anzeigen"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "%(count)sx"
+msgstr "Zu den Belohnungen"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktivierte Portale: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Wir haben alle Ihre Portale aktiviert und den Inhalt Ihrem Konto gutgesc
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Belohnungen erhalten"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Wir haben alle Schachteln für Sie geöffnet und die Belohnungen für die Feiertags-Ops hinzugefügt."
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Universelle Fragmente"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "Nationale Fragmente %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Die Konfiguration der folgenden Fahrzeuge hat sich geändert: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Aufgepasst!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>und noch %(vehiclesCount)s</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Nach dem Update wurden alle Dekore von den Fahrzeugen entfernt und ins Lager gegeben, unter „Äußeres“."

@@ -139,15 +139,6 @@ msgstr "Απονέμεται σε παίκτες για την προσωπικ�
 msgid "15YearsOfService_descr"
 msgstr "Είσαστε στο παιχνίδι από %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP Επίτευγμα 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Απονέμεται για την ολοκλήρωση των Φάσεων της διοργάνωσης."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Απονέμεται με βάση τα επιτεύγματά σας"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP Επίτευγμα 2"
 
@@ -429,6 +420,15 @@ msgstr "• Απονέμεται για την ολοκλήρωση και τω�
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Απονέμεται για τα επιτεύγματά σας στην Περίοδο XX του Battle Pass."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Lowland Skirmish"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Απονέμεται για την ολοκλήρωση και των τριών Κεφαλαίων."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Απονέμεται για τα επιτεύγματά σας στην Περίοδο XXI του Battle Pass."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Η Βασική Πρόοδος αποτελείται από 45 Φάσεις."
@@ -1828,6 +1828,48 @@ msgstr "Silver Dragon"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Απονέμεται για τουλάχιστον 9 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Δράκου» των μαχών Επέλασης."
 
+msgid "comp7_6_1"
+msgstr "Azure Spark"
+
+msgid "comp7_6_1_descr"
+msgstr "Απονέμεται από την ολοκλήρωση μίας σειράς αποστολών στην Περίοδο του Κυανού Φοίνικα των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronze Phoenix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Απονέμεται για τουλάχιστον 6 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Year of the Phoenix Champion"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Απονέμεται για τουλάχιστον 15 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Gold Phoenix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Απονέμεται για τουλάχιστον 12 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Iron Phoenix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Απονέμεται για τουλάχιστον 3 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Year of the Phoenix Legend"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Απονέμεται για τουλάχιστον 18 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silver Phoenix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Απονέμεται για τουλάχιστον 9 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Του Φοίνικα» των μαχών Επέλασης."
+
 msgid "conqueror"
 msgstr "Capturer %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Μπορεί να αποκτηθεί μόνο σε Τυχαίες Μάχες."
 
 msgid "huntsman_descr"
-msgstr "Καταστρέψτε όλα τα εχθρικά ελαφρά άρματα (τουλάχιστον 3) κατά τη διάρκεια μίας μάχης."
+msgstr "Καταστρέψτε όλα τα εχθρικά ελαφρά άρματα (τουλάχιστον 2) κατά τη διάρκεια μίας μάχης."
 
 msgid "huntsman_heroInfo"
 msgstr "Ο λοχίας Grigoriy Naydin ήταν αρχηγός πληρώματος σε BT-7. Στις 25 Ιουνίου 1941, κοντά στην Λιθουανική πόλη Rudishkyay, κατέστρεψε μία φάλαγγα τεθωρακισμένων της Wehrmacht, συμπεριλαμβανομένων 15 οχημάτων και 10 πυροβόλων του 19ου Μηχανοκίνητου Σώματος. Ο Naydin κατάφερε να σταματήσει τη Γερμανική προέλαση για δύο ημέρες, καθιστώντας εφικτή την οργάνωση της άμυνας γύρω από το Vilnius. Για αυτή του την ενέργεια, ο Naydin ανακηρύχθηκε Ήρωας της Σοβιετικής Ένωσης."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Ολοκληρώσατε μετ' επαίνων 15 προσωπικές αποστολές του σετ Ένωση. Έπαθλο: το μετάλλιο Exemplary Performance: Ένωση, Κλάσης III."
 
 msgid "readyForBattleAssault"
-msgstr "Exemplary Performance: Εμπροσθοφυλακή"
+msgstr "Exemplary Performance: Εμπροσθοφυλακή Sector 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Για την ολοκλήρωση όλων των αποστολών στην επιχείρηση Εμπροσθοφυλακή της εκστρατείας Sector 3."
+msgstr "Για την ολοκλήρωση όλων των αποστολών Εμπροσθοφυλακής των βασικών επιχειρήσεων της εκστρατείας Sector 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Exemplary Performance: Εμπροσθοφυλακή Fossa"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Για την ολοκλήρωση όλων των αποστολών Εμπροσθοφυλακής της επιχείρησης Fossa της εκστρατείας Sector 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Exemplary Performance: Ενέδρα Fossa"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Για την ολοκλήρωση όλων των αποστολών Ενέδρας της επιχείρησης Fossa της εκστρατείας Sector 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Exemplary Performance: Αρωγή Fossa"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Για την ολοκλήρωση όλων των αποστολών Αρωγής της επιχείρησης Fossa της εκστρατείας Sector 3."
 
 msgid "readyForBattleHT"
 msgstr "Exemplary Performance: Βαρέα Άρματα"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Ολοκληρώστε μετ’ επαίνων 15 προσωπικές αποστολές για Α/Κ Πυροβόλο. Έπαθλο: μετάλλιο \"Exemplary Performance: Α/Κ Πυροβόλο\" 4ης Κλάσης."
 
 msgid "readyForBattleSniper"
-msgstr "Exemplary Performance: Ενέδρα"
+msgstr "Exemplary Performance: Ενέδρα Sector 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Για την ολοκλήρωση όλων των αποστολών στην επιχείρηση Ενέδρα της εκστρατείας Sector 3."
+msgstr "Για την ολοκλήρωση όλων των αποστολών Ενέδρας των βασικών επιχειρήσεων της εκστρατείας Sector 3."
 
 msgid "readyForBattleSupport"
-msgstr "Exemplary Performance: Αρωγή"
+msgstr "Exemplary Performance: Αρωγή Sector 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Για την ολοκλήρωση όλων των αποστολών στην επιχείρηση Αρωγή της εκστρατείας Sector 3."
+msgstr "Για την ολοκλήρωση όλων των αποστολών Αρωγής των βασικών επιχειρήσεων της εκστρατείας Sector 3."
 
 msgid "reliableComrade"
 msgstr "Battle Buddy"
@@ -4692,6 +4761,15 @@ msgstr "Απονέμεται για την ολοκλήρωση της Προό�
 
 msgid "wt2025progression_descr"
 msgstr "Ολοκληρώστε την πρόοδο της διοργάνωσης του Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Stormrider"
+
+msgid "wt2026progression_condition"
+msgstr "Απονέμεται για την ολοκλήρωση της Προόδου στη διοργάνωση «Waffenträger: Genesis» του 2026. Αυτή η τιμητική διάκριση δίνεται σε όσους στάθηκαν απέναντι στην πρώτη σκεπτόμενη μηχανή του von Krieger, την Ηλεκτρική Νοημοσύνη, και έκοψαν κάθε κύκλωμα μέσω του οποίου άγγιζε τον κόσμο μας."
+
+msgid "wt2026progression_descr"
+msgstr "Ολοκληρώστε την Πρόοδο της διοργάνωσης «Waffenträger: Genesis» 2026."
 
 msgid "wtBossWins"
 msgstr "Master of Lightning"

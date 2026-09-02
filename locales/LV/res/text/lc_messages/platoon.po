@@ -130,6 +130,9 @@ msgstr "Nevar izveidot vai pievienoties vadam, jo Garāžā nav piemērota %(lev
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Pēc Kvalifikācijas pabeigšanas būs pieejami 2 un 7 spēlētāju Vadi."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Pēc kvalifikācijas pabeigšanas būs pieejams divu spēlētāju Vads."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Neizdevās izveidot Vadu."
 
@@ -141,6 +144,9 @@ msgstr "Izveido Vadu vai pievienojies esošajam. Uzbrukuma režīmā Vads var sa
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Vads"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Izveido Vadu vai pievienojies esošam. Vadi Uzbrukumā režīmā var sastāvēt tikai no diviem spēlētājiem."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Izveidojiet taktisko vienību no 2 vai 3 spēlētājiem kopīgai sadarbībai.\n• Kauju režīmi: Plosīšanās.\n• Kauju veidi: Tērauda Medības, Dominēšana."
@@ -264,12 +270,6 @@ msgstr "Vads ir sasniedzis maksimālo pieļaujamo smago tanku skaitu"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Vads ir sasniedzis maksimālo pieļaujamo vidējo tanku skaitu"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Vads ir sasniedzis maksimālo pieļaujamo vieglo tanku skaitu"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Vads ir sasniedzis maksimālo pieļaujamo riteņu tanku skaitu"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Vads ir sasniedzis maksimālo pieļaujamo vieglo tanku skaitu"

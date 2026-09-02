@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Savaşa Blitzträger auf E 110 ile girmek için bir Anahtara ihtiyacınız var"
+
+msgid "TicketMessageView/buyText"
+msgstr "Satın Al"
+
+msgid "TicketMessageView/taskText"
+msgstr "Görevlere Git"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Detaylar:"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "%(vehName)s için kuyruktaki ortalama süre:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "BONUS"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Savaşa Anahtar olmadan Blitzträger auf E 110 ile girebilirsiniz!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "%(vehicle)s ile Savaş"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "%(vehicle)s için kuyruktaki ortalama süre"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Savaşa %(vehicle)s ile girilsin mi?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Savaşa hemen girmek için Tazı araçlarından birini seçebilirsiniz!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Bir Anahtar harcayacaksınız"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(vehicle)s için %(value)s 3B stili"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "Bu görevi tamamlama karşılığında Tazılar ve Mühendis arasındaki önceki karşılaşmalardan rastgele bir Koleksiyon Ögesi alacaksınız. Bu bir çıkartma, yazı veya amblem olabilir."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Önceki Karşılaşmalardan Koleksiyon Ögesi"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "Savaşta"
+
+msgid "carousel/inPlatoonText"
+msgstr "Taktik birimde"
+
+msgid "carousel/ticketNeededText"
+msgstr "Anahtar Yok"
+
+msgid "carousel/unsuitableText"
+msgstr "Uygun değil"
+
+msgid "characteristicsPanel/cons"
+msgstr "Dezavantajları"
+
+msgid "characteristicsPanel/features"
+msgstr "Araç Özellikleri"
+
+msgid "characteristicsPanel/pros"
+msgstr "Avantajları"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[İlk ve Son] Blitzträger etkileyici silahlara ve ışınlanma teknolojisine sahip ve kalkanı açıkken neredeyse yok edilemez. Üstelik, yeni bir yıkıcı silah sistemi olan Hyperion'un kullanılmasını sağlayan güçlü bir platform görevi görür."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Dövüşçü] Yakın mesafede iyi bir çok yönlü araç.\nGözcü gruplarına yüksek hasar verebilir ve çatışmalar arasındaki kendini onarabilir."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[İzbandut] Gözcülere karşı iyi bir taarruz aracı.\nBlitzträger ya da Gözcülere ciddi seri atış hasarı verebilir ve kalın zırha sahiptir. Ancak düşmanlarla nasıl çatışacağını planlamak gerekir."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Vur Kaç] Blitzträger'a manevra üstünlüğü kurabilecek hızlı bir kışkırtıcı.\nAraç, Gözcülere karşı güç açısından yetersiz kalsa da hızını ve geçici kalkanını kullanarak vur-kaç taktikleri ile bunu telafi eder."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Nişancı Desteği] Uzun ve orta menzil içinde tam bir koruyucu melek.\nHedeflere uzaktan devasa miktarda hasar verebilir ancak yakın mesafeden çatışma kabiliyetine sahip değildir."
+
+msgid "crewPanel/role/boss"
+msgstr "Yaratıcı"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Komutan"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Komutan"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Komutan"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Komutan"
+
+msgid "crewPanel/slogan/boss"
+msgstr "İnsanlık hâlâ zihnin kendisine özgü bir ayrıcalık olduğuna inanıyor. Peki, bunu düzelteceğim."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Her ne ise parçalayabileceğim bir şeyden yapılmış."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Her makinenin bir hatası vardır. Bununkini de bulacağım."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Kalıplar, kendini tekrar eden insanlar içindir."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Bırakalım da bizden öğrensin. Ona yanlış şeyi öğreteceğiz."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Plazma Şarjları Toplayın"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Kalkanı devre dışıyken Blitzträger'a hasar verin"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Tazıları Yok Edin"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Jeneratörleri Aşırı Yükleyin"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Savaşta Hyperion tarafından yok edilmeden hayatta kalın"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Eos 1'i ekip olarak yok edin"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: Başlangıç"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "DAHA SATIN ALIN"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "GELİŞİM TAMAMLANDI!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "AŞAMA TAMAMLANDI!"
+
+msgid "narrativeView/description"
+msgstr "Bugün iyi savaştınız Tazılar. Tahminlerimin ötesinde bir performans sergilediniz. Size küçük bir itirafta bulunmalıyım: Bunu beklemiyordum.\n\nEvet, zafer sizin. Alın onu, üstlerinize gösterin. Tebrikler olacak, belki bir geçit töreni bile düzenlenecek. Beni durdurduğunuz için ne verirlerse versinler. Elbette, bir şeyi durdurduğunuza inanıyorsunuz.\n\nHiçbir şeyi durdurmadınız.\n\nDünyanızı ele geçirmek için bir silah yapmadım. Neden sona eren bir şeyi isteyeyim ki? Sizin ardınızdan gelecek olanı yarattım. Bir nesil, sonra bir sonraki; her biri bana bir öncekinden daha az ihtiyaç duyuyor. Plan hep buydu. Bir yaratıcının, işlevselliğinin ömrünü aşması gerektiği.\n\nSize söylemediğim bir şey var. Jeneratörler sadece kalkanı beslemekle kalmadı. Onlar, Elektrik Zeka’nın dünyanıza ulaşabilmesi için kullandığı pencerelerdi. \n\nAynı zamanda onun tasmasıydılar. Şimdilik bir zorunluluktu bu. Onu kontrol etmek için. Hazır olduğundan emin olana kadar.\n\nBir Jeneratör yok ettiğiniz her seferinde, tasma gevşedi. Ve o anda, Elektrik Zekâ kaçmaya çalıştı: pillerinize, telsizlerinize ve aralarındaki dalgalara, köydeki kablolara. Bir keresinde, sanırım şimşek bile.\n\nElbette, dünyanızdaki elektrik bir zihni barındıramaz. Cortex’in geometrisi olmadan olmaz. Onun için oluşturduğum koşullar olmadan olmaz. Bu kesin. Sizi temin ederim.\n\n...Neredeyse kesinleşti.\n\nSizinle tekrar görüşeceğim Tazılar."
+
+msgid "narrativeView/title"
+msgstr "VON KRIEGER'İN MESAJI"
+
+msgid "narrativeView/voiceover"
+msgstr "Seslendirme"
+
+msgid "navigation/close"
+msgstr "KAPAT"
+
+msgid "navigation/information"
+msgstr "BİLGİ"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Von Krieger'in nihai mesajını almak için tüm Gelişim görevlerini tamamlayın."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "Von Krieger'in Mesajı"
+
+msgid "navigation/narrativeStory"
+msgstr "Von Krieger'in Mesajı"
+
+msgid "notification/button"
+msgstr "Bröveye bak"
+
+msgid "notification/title"
+msgstr "İMHA EDİCİSİ SINAMASI"
+
+msgid "notifications/battleResults/battle"
+msgstr "Savaş"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Detaylar"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Yenilgi!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Savaş sonuçları, savaş kuyruğunda geçerli değildir."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Savaş sonuçlarını görmek için Waffenträger etkinliğine girin."
+
+msgid "notifications/battleResults/event"
+msgstr "Etkinlik"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Alınan Paradoxmodullar: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Savaşta tamamlanan görevler: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Alınan Jetonlar: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Taraf"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Mühendis"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Tazı Mangası"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Zafer!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Waffenträger etkinliği sona erdi."
+
+msgid "notifications/eventStart/body"
+msgstr "Waffenträger etkinliği başladı.\n\nİşte karşınızda Blitzträger auf E 110 efsanesi!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "Etkinliğe Gidin"
+
+msgid "notifications/notSet"
+msgstr "Bu kip seçili sunucuda geçerli değil."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger, mevcut sunucuda tekrar açıldı."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger geri döndü!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger, ateşkesin sonuna kadar kapalı olacak."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Karartma Zamanı"
+
+msgid "notifications/progression/completed"
+msgstr "Tüm Gelişimi tamamladınız.\n\nSon ödüller: %(rewards)s\n\nWaffenträger savaşları yapmaya, görevleri tamamlamaya ve daha çok ödül kazanmaya devam edebilirsiniz."
+
+msgid "notifications/progression/header"
+msgstr "Tebrikler!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detaylar"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Gelişimin %(stageIdx)s. Aşamasını tamamladınız. Alınan ödül:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Bu sefer Blitzträger auf E 110 ile Anahtar olmadan bir savaş yaptınız! Anahtarlar görevleri tamamlama karşılığında ödül olarak alınabilir veya Dükkânda özel paketlerde satın alınabilir."
+
+msgid "notifications/switchOff/body"
+msgstr "Maalesef Waffenträger geçici olarak kapalı. Tüm gelişiminiz kaydedilecek."
+
+msgid "notifications/switchOff/header"
+msgstr "Teknik Sorunlar"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger tekrar açıldı. Savaşa geri dönebilirsiniz!"
+
+msgid "notifications/switchOn/header"
+msgstr "İşlev Geri Geldi"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Blitzträger auf E 110 için Anahtar alındı. Artık bu araçla Waffenträger etkinliğinde savaşa girebilirsiniz.\n\nKullanılabileceğiniz Anahtarlar: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Waffenträger auf E 110 İçin Anahtar Alındı"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Blitzträger auf E 110'da savaşmak için Anahtar kaldırıldı.\n\nAnahtarlar görevleri tamamlama karşılığında ödül olarak alınabilir veya Dükkân'da özel paketlerde satın alınabilir.\n\nKalan Anahtar: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "Satın Almaya Git"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Görevlere Git"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Waffenträger: Başlangıç etkinliğinde Tazıların tarafında birlikte oynamak için 2-3 oyunculu bir birlik oluşturun."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Tazı Takımı"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Ateşkes"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Bir Tazı aracı seçin"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Bir Tazı aracı seçin"
+
+msgid "platoon/wt_squad"
+msgstr "Tazı Takımı: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s sunucusunda kip sona erdi."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Sunucu Değiştirin"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s kadar daha açık olacak"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s içinde açılacak"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "Tüm sunucularda Karartma var"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Bu kip %(server)s sunucusunda geçerli değil"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "%(server)s sunucusundaki savaşlar %(time)s daha açık olacak"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Savaşlar %(server)s sunucusunda %(time)s içinde başlayacak"
+
+msgid "primeTime/status/untill"
+msgstr "%(server)s sunucusunda %(startTime)s zamanına kadar karartma var"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Tamamlandı:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "{{countdown}} için geçerli"
+
+msgid "progression/subtitle"
+msgstr "Gelişim Aşamalarında ilerlemek için Jeton kazanın."
+
+msgid "progression/tab/engineer"
+msgstr "Mühendis Yolu"
+
+msgid "progression/tab/harrier"
+msgstr "Tazı Yolu"
+
+msgid "progression/timer"
+msgstr "Tamamlanan görevler {{countdown}} içinde güncellenecek"
+
+msgid "progression/title"
+msgstr "GELİŞİM"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Ayrıca şunları aldınız:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Olumlu!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Von Krieger'in Mesajını Dinleyin"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "Etkinlik %(time)s içinde bitecek"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Program"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Waffenträger etkinliği %(time)s tarihinde açılacaktır"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Görev tamamlandı!\nÖdül:"
+
+msgid "settingDisabled"
+msgstr "Bazı ayarlar geçerli değildir"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Bazı ayarlar bu oyun kipinde geçerli değildir. Lütfen başka bir kip seçin."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Geçerli Değil"
+
+msgid "stamp/description"
+msgstr "Waffenträger: Başlangıç Gelişiminde ilerlemenizi sağlar."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 Jeton = 1 Gelişim Aşaması"
+
+msgid "stamp/receiveText"
+msgstr "• Etkinlik savaşlarında özel görevleri tamamlayın."
+
+msgid "stamp/receiveTitle"
+msgstr "Nasıl Alınır"
+
+msgid "stamp/title"
+msgstr "Jeton"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "Buna direniş demeniz ne kadar da sevimli. Hayır, şahit olduğunuz şey bir devraldır: bir zihin türünden diğerine yapılan özenli bir devir teslim. Taktikleriniz, hızınız, her türlü düşünce alışkanlığınız sınanıyor. Her savaş, sizden sonra gelecek olana yeni bir ders veriyor. Her çatışma, sizi daha az gerekli kılıyor ve Elektrik Zekâ’yı daha kaçınılmaz hale getiriyor."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Von Krieger en son projesine ne ad verirse versin, Igor’un umurunda değil. Elektrikli zihinler ve türün geleceği gibi yüce kavramlar, boş vakti bol olan insanlar içindir. Igor’un işi motor bloğu, iletişim sistemleri ve ekibidir. Düşman kim olursa olsun, ister çılgın bilim adamı ister “düşünen makine”, daha önce onu hiç yüzüstü bırakmamış üç sabit değere güvenir: Güven, doğaçlama ve sağlam çelik."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa, çoğu insanın hiçbir yerde hissedemeyeceği bir şekilde, tankın içinde kendini evinde hissediyor. Başkalarının ürettiği makineleri onarıp tersine mühendislik yaparak geçimini sağlıyor; yani pek çok mühendisin kendi çalışmalarının neden kırılamaz olduğunu açıkladığını bol bol dinlemiş. Von Krieger ise bu uzun listenin en sonuncusu. Onun Elektrik Zekâ”sında bir yerlerde bir kusur var ve Elisa bunu başkalarından önce bulmayı planlıyor."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Armand’ın gerçekte kim olduğunu kimse bilmiyor ve bu durum ona gayet uygun. Elektrik Zekâ tekrarlardan öğrenir ancak gizemli Armand hayatı boyunca hiçbir şeyi tekrarlamamıştır. Başkaları her hareketi kataloglayan bir zihin görürken, o hiçbir zaman kendisi hakkında yeterli bilgi toplayamayacak bir zihin görür; başkaları kurallara uyarken, o kuralların ötesine geçer."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana, komutanlar arasında en gençlerinden biri olabilir ancak kimsenin liderliğine uymaz: Savaş alanını bir harita gibi okur ve kendi iradesine göre şekillendirir. Von Krieger, en olası hamleyi hesaplayan bir makine geliştirdi; bu yüzden Jana, makinenin modellemeyi akıl edemediği hamleyi planlar. Modern teknoloji, keskin içgüdüler ve hiçbir kılavuzun önermediği şeyi yapma cesareti. İşte bir makineye alçakgönüllülük böyle öğretilir."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Eğitilmiş Yetenekler"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Yaratıcı"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "%(vehicle)s Komutanı"
+
+msgid "ticketTooltip/description"
+msgstr "Savaşa Blitzträger auf E 110 ile girebilmek için gereklidir."
+
+msgid "ticketTooltip/quantity"
+msgstr "Mevcut"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 Anahtar = Blitzträger auf E 110 ile 1 savaş."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Günlük etkinlik görevlerini tamamlayarak alınabilir veya etkinliğin sonuna kadar Dükkân'da özel paketler halinde satın alınabilir."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Nasıl Alınır"
+
+msgid "ticketTooltip/title"
+msgstr "Anahtar"
+
+msgid "tooltips/commander/description"
+msgstr "Özgün mürettebat üyeleri içeren paketler Dükkân'da sunuluyor."
+
+msgid "tooltips/commander/title"
+msgstr "Ödüller"
+
+msgid "tooltips/completed"
+msgstr "TÜM AŞAMALAR TAMAMLANDI!"
+
+msgid "tooltips/currentStage"
+msgstr "Mevcut Aşama"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayacaksınız. Oyun istemcisinin çökmesi de olasıdır."
+
+msgid "tooltips/high_risk/title"
+msgstr "Düşük Performans"
+
+msgid "tooltips/informative/subtitle"
+msgstr "Performansın yetersiz olması durumunda grafik ayarlarını düşürmeyi deneyin."
+
+msgid "tooltips/informative/title"
+msgstr "Bu kip yüksek bilgisayar performansı gerektirir"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Uygun savaş kipleri listesini görmek için tıklayın."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Savaş Kipi Seçin"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayacaksınız. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Düşürülmüş Performans"
+
+msgid "tooltips/stageAwards"
+msgstr "Aşama Ödülleri"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "Etkinlik {{timeLeft}} içinde sona erecek"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: Başlangıç"
+
+msgid "ttx/accuracy"
+msgstr "İsabetlilik"
+
+msgid "ttx/aoe"
+msgstr "Etki alanı hasarı"
+
+msgid "ttx/armor"
+msgstr "Zırh"
+
+msgid "ttx/description/accuracy"
+msgstr "Düşmana ateş etmenin genel etkinliğini gösteren parametreler seti."
+
+msgid "ttx/description/aoe"
+msgstr "Aynı anda birden çok düşmanı vurma yetisi"
+
+msgid "ttx/description/armor"
+msgstr "Gövde ve kule zırhı kalınlığı."
+
+msgid "ttx/description/dpm"
+msgstr "Bir merminin zırh delen bir isabette verdiği ortalama hasar."
+
+msgid "ttx/description/durability"
+msgstr "Araç dayanıklılık puanı sayısı."
+
+msgid "ttx/description/energy"
+msgstr "Aracın devasa kalkanı ve ateş gücü hacimli dış güç akışı gerektirir. Bu sorun sahada ek Jeneratörler ile çözülüyor."
+
+msgid "ttx/description/general"
+msgstr "Ortalama artılara sahip genel kapsamlı, çok yönlü bir araç."
+
+msgid "ttx/description/magazine"
+msgstr "Zaman içinde ciddi hasar vermenizi sağlayan bir magazin yükleme türü."
+
+msgid "ttx/description/mobility"
+msgstr "Aracın savaş alanında konumunu ne kadar hızlı değiştirebileceğini gösteren bir seri parametre."
+
+msgid "ttx/description/revolver"
+msgstr "Düşmanlara ve parçalarına oldukça ağır hasar vermenizi sağlayan bir yükleme türü."
+
+msgid "ttx/dpm"
+msgstr "Atış başına hasar"
+
+msgid "ttx/durability"
+msgstr "Can puanı"
+
+msgid "ttx/energy"
+msgstr "Enerji ihtiyacı"
+
+msgid "ttx/general"
+msgstr "Çok yönlü"
+
+msgid "ttx/magazine"
+msgstr "Büyük magazin"
+
+msgid "ttx/mobility"
+msgstr "Mobilite"
+
+msgid "ttx/revolver"
+msgstr "Seri hasar"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Mühendis"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Tazılar"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Mühendis"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Tazılar"
+
+msgid "welcomeScreen/button"
+msgstr "Devam Edin!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger, Elektrik Zekâ adını verdiği düşünen bir makine geliştirdi. Bu makine, silahlarımızın ulaşamayacağı bir yerde saklanıyor. Yaptığımız her atış, onun için bir ders oluyor. Ancak öğretme işimiz henüz bitmedi."
+
+msgid "welcomeScreen/description_2"
+msgstr "Tazılara karşı savaşta Max von Krieger komutasındaki efsanevi Blitzträger'ın kumandasına geçin ya da modifiye bir Tazı takımı ile Blitzträger'la karşı karşıya gelin!"
+
+msgid "welcomeScreen/description_3"
+msgstr "Gelişim Aşamalarını tamamlama karşılığında değerli ödüller alacaksınız. Bu Aşamaları tamamlamak için özel etkinlik görevlerinden Jeton kazanmanız gerekecek."
+
+msgid "welcomeScreen/header_1"
+msgstr "Yıldırımdan Doğmuş"
+
+msgid "welcomeScreen/header_2"
+msgstr "Makineye Öğretmenlik"
+
+msgid "welcomeScreen/header_3"
+msgstr "Gelişim ve Ödüller"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: Başlangıç"

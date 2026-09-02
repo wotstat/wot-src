@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "A dobozok kinyitásával járműveket, játékbeli fizetőeszközöket és más értékes jutalmakat kaphatsz."
+msgstr "Ha kinyitod ezeket a dobozokat, VIII-as szintű prémium járműveket, játékbeli fizetőeszközöket és más értékes jutalmakat kaphatsz."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "A dobozok kinyitásával járműveket, játékbeli fizetőeszközöket, testreszabási elemeket és más értékes jutalmakat kaphatsz."
+msgstr "Ha kinyitod ezeket a dobozokat, X-es szintű ritka járműveket, játékbeli fizetőeszközöket és más értékes jutalmakat kaphatsz."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "A dobozok kinyitásával járműveket, játékbeli fizetőeszközöket, testreszabási elemeket és más értékes jutalmakat kaphatsz."
+msgstr "Ha kinyitod ezeket a dobozokat, IX-es szintű prémium járműveket, játékbeli fizetőeszközöket és más értékes jutalmakat kaphatsz."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Megszerezhető a játékon belüli Boltban, illetve bármely más típusú doboz kinyitásával."
+msgstr "Ajándékként kaphatod meg a Prémium boltban vásárolt tárgyak mellé, valamint bármilyen más típusú dobozok kinyitásakor."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Megkaphatod bármilyen más típusú doboz kinyitásakor."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Megkaphatod bármilyen más típusú doboz kinyitásakor."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Jutalomdoboz"
+msgstr "Égi doboz"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Adománydoboz"
+msgstr "Kiválasztott doboz"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Juttatásdoboz"
+msgstr "Mennyei segítség doboz"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "JUTALOMDOBOZ"
+msgstr "ÉGI DOBOZ"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "ADOMÁNYDOBOZ"
+msgstr "KIVÁLASZTOTT DOBOZ"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "JUTTATÁSDOBOZ"
+msgstr "MENNYEI SEGÍTSÉG DOBOZ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Ezek különleges dobozok, amelyek új és egyedi tárgyakat tartalmaznak. A játékon belüli Boltban lehet őket beszerezni."
+msgstr "Ezek különleges dobozok, amelyek új és egyedi VIII–X-es szintű járműveket és további jutalmakat tartalmaznak.\nA dobozokat ajándékba kaphatod a Prémium boltban vásárolt tárgyak mellé, valamint bármilyen más típusú dobozok kinyitásakor."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Az esemény végéig hátra van:"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Technikai okok miatt jelenleg nem lehet kinyitni vagy megvásárolni a dobozokat. Elnézést kérünk az átmeneti kellemetlenségért."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Az Isteni áldás dobozok átmenetileg nem érhetők el"
 
 msgid "eventName/lowerCase"
-msgstr "Suttogások rejteke"
+msgstr "Isteni áldás"
 
 msgid "eventName/upperCase"
-msgstr "SUTTOGÁSOK REJTEKE"
+msgstr "ISTENI ÁLDÁS"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Ha az összes járművel rendelkezel már, akkor egy „Adománydobozt” kapsz helyettük."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ha nem nyitod ki a dobozokat az esemény végéig, automatikusan kinyitjuk őket később."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Ha már az összes járművet megszerezted a dobozokból, jármű helyett egy Adománydobozt kapsz jutalomként."
+msgstr "Ha már rendelkezel a dobozban található összes járművel, akkor egy Kiválasztott dobozt kapsz garantált jutalomként vagy egy jármű helyett."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Minden %(guaranteed0)s. Jutalomdoboz, %(guaranteed1)s. Juttatásdoboz és %(guaranteed2)s. Adománydoboz garantáltan tartalmaz egy járművet. Ha a dobozok kinyitásakor nem kapsz járművet, akkor a(z) %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. dobozod kinyitásakor (a doboz típusától függően) kapsz egy olyan járművet, amellyel még nem rendelkezel. Ezt követően a számláló lenullázódik."
+msgstr "Minden %(guaranteed0)s. Csillagközi, %(guaranteed1)s. Mennyei segítség és %(guaranteed2)s. Kiválasztott doboz garantáltan tartalmaz egy VIII–X-es szintű járművet. Ha a dobozok kinyitásakor nem kapsz egy ilyen járművet sem, akkor %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. dobozod kinyitásakor (a doboz típusától függően) kapsz egy olyan VIII–X-es szintű járművet, amellyel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompenzáció"
+msgstr "Ha az összes járművet megkaptad"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantált jutalom"
+msgid "infoPage/header/description"
+msgstr "Nyisd ki a dobozokat, hogy értékes játékbeli tárgyakat kapj!\nA lehetséges jutalmak listáját alább olvashatod."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Csoportonként legfeljebb egy jutalom eshet"
+msgid "noBoxesView/description/"
+msgstr "Nincsenek dobozaid.\nA Prémium boltban vásárolhatod meg őket."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Kiválasztott doboz"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ha már rendelkezel a dobozban található összes járművel, akkor egy Kiválasztott dobozt kapsz garantált jutalomként egy jármű helyett."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Csillagközi doboz"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Kiválasztott doboz"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Mennyei segítség doboz"

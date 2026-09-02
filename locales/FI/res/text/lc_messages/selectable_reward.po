@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Selvä!"
 
 msgid "error/description"
-msgstr "Tiedot eivät ole väliaikaisesti saatavilla. Pahoittelemme häiriöstä. Ole hyvä ja yritä myöhemmin uudelleen."
+msgstr "Pahoittelemme häiriöstä. Ole hyvä ja yritä myöhemmin uudelleen."
 
 msgid "error/title"
-msgstr "Palkintojen valinnan avaaminen ei onnistu"
+msgstr "Tämä sivu ei ole väliaikaisesti saatavilla"
 
 msgid "footer/closeBtn/label"
 msgstr "Valitse myöhemmin"
@@ -23,7 +23,7 @@ msgstr[1] "Valitse palkintoja tarjotuista kategorioista."
 msgstr[2] "Valitse palkintoja tarjotuista kategorioista."
 
 msgid "footer/okBtn/label"
-msgstr "Ota vastaan"
+msgstr "Ota palkinnot vastaan"
 
 msgid "footer/rewardsSelected"
 msgstr "Valitut palkinnot:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Jo saatu"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Tästä kategoriasta valittavien tavaroiden raja on saavutettu. Voit peruuttaa yhden valinnan valitaksesi toisen."
+msgstr "Olet saavuttanut maksimimäärän tavaroita, jotka on sallittu tässä kategoriassa. Poista yksi valinta valitaksesi toisen."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Raja saavutettu"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direktiivit\nvarusteille"
@@ -93,6 +93,9 @@ msgstr "Tavalliset varusteet"
 
 msgid "tabs/items/trophy"
 msgstr "Palkkiovarusteet"
+
+msgid "tooltips/footer/body"
+msgstr "Valitse palkinnot lunastaaksesi ne"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Klikkaa \"Ota vastaan\" -nappia saadaksesi valitut palkinnot."

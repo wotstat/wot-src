@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Den azurblå drages sæson starter: %(date)s"
+msgstr "Den azurblå føniks' sæson starter: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Den røde drages sæson starter: %(date)s"
+msgstr "Den røde føniks' sæson starter: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Den jadegrønne drages sæson starter: %(date)s"
+msgstr "Den jadegrønne føniks' sæson starter: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Venter på resultatet fra kvalifikationen for at modtage din rang"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Den azurblå drages sæson er slut"
+msgstr "Den azurblå føniks' sæson er slut"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Den røde drages sæson er slut"
+msgstr "Den røde føniks' sæson er slut"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Den jadegrønne drages sæson er slut"
+msgstr "Den jadegrønne føniks' sæson er slut"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Kampe på denne server tilgængelige om %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Køretøjs karakteristika forbedret"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Gendanner hp"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Indkommende skade forøget"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Køretøjs karakteristika forbedret"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Den azurblå drages sæson vil vare i %(days)d dag"
-msgstr[1] "Den azurblå drages sæson vil vare i %(days)d dage"
-msgstr[2] "Den azurblå drages sæson vil vare i %(days)d dage"
+msgstr[0] "Den azurblå føniks' sæson vil vare i %(days)d dag"
+msgstr[1] "Den azurblå føniks' sæson vil vare i %(days)d dage"
+msgstr[2] "Den azurblå føniks' sæson vil vare i %(days)d dage"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Den røde drages sæson vil vare i %(days)d dag"
-msgstr[1] "Den røde drages sæson vil vare i %(days)d dage"
-msgstr[2] "Den røde drages sæson vil vare i %(days)d dage"
+msgstr[0] "Den røde føniks' sæson vil vare i %(days)d dag"
+msgstr[1] "Den røde føniks' sæson vil vare i %(days)d dage"
+msgstr[2] "Den røde føniks' sæson vil vare i %(days)d dage"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Den jadegrønne drages sæson vil vare i %(days)d dag"
-msgstr[1] "Den jadegrønne drages sæson vil vare i %(days)d dage"
-msgstr[2] "Den jadegrønne drages sæson vil vare i %(days)d dage"
+msgstr[0] "Den jadegrønne føniks' sæson vil vare i %(days)d dag"
+msgstr[1] "Den jadegrønne føniks' sæson vil vare i %(days)d dage"
+msgstr[2] "Den jadegrønne føniks' sæson vil vare i %(days)d dage"
 
 msgid "calendarDay/title"
 msgstr "Tidsplan"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Evner"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Onslaught. Dragens år"
+msgstr "Onslaught. Føniksens år"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nulsums-evner"
@@ -574,11 +577,17 @@ msgstr "Bekræftet!"
 msgid "intro/description/banPhase"
 msgstr "Hvert hold kan fuldstændigt bandlyse et køretøj fra en kamp. Koordiner stemmer med allierede for at ekskludere den maskine I frygter mest, eller for at gøre en uventet opstilling klar for jeres fjender. Hvis dit køretøj bandlyses, kan du i stedet vælge fra flere prækonfigurerede lejekøretøjer i stedet."
 
+msgid "intro/description/draw"
+msgstr "Når tiden udløber, og ingen af holdene har opnået en klar sejr, afgøres kampens udfald i tiebreak i denne rækkefølge: overlevende køretøjer, uddelt skade, og hvornår det første køretøj blev nedkæmpet. Hvis ingen af holdene uddelte skade, bliver kampen erklæret uafgjort."
+
+msgid "intro/description/nightMaps"
+msgstr "Nattekort frisker velkendte slagmarker op med nattetidsforhold, nye observationsposter, opdaterede vigtige positioner, samt modificerede opdagelsesmekanismer. Den nuværende liste inkluderer Glacier, Sand River, Outpost og Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Kamptypen har modifikationer, der ændrer visse parametre på køretøjet, som dets hp, cooldown på forbrugsvarer, tid det forbliver opdaget og mere."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Når du erobrer visse områder af kortet, kan du benytte taktiske evner. Der er to typer af vigtige positioner: Artillerihovedkvarteret vil give dig mulighed for at beordre artilleribeskydning på en bestemt position, og kommunikationscentret vil opdage alle fjendtlige køretøjer. Afhængig af kortet, kan forekomsten og placeringen af disse vigtige positioner ændre sig."
+msgstr "Når du indtager bestemte områder af kortet, får du adgang til taktiske evner. Der er to typer af vigtige positioner: Artillerihovedkvarter, der lader dig anmode om artilleriild på en position, og kommunikationscenter, der afslører alle fjendtlige køretøjer. Antallet og placeringen af disse steder varierer fra kort til kort."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Deltag i %(count)s kvalifikationskampe for at afgøre dit niveau og r
 msgstr[2] "Deltag i %(count)s kvalifikationskampe for at afgøre dit niveau og rang. Ved fuldførelse vil du modtage belønninger for den rang du opnåede og alle forrige range.\n\nDesertering eller et uafgjort resultat i kvalifikationen vil blive betragtet som et nederlag."
 
 msgid "intro/description/ranks"
-msgstr "Et system, der viser spillerens evner. Gør fremskridt i graderne fra jern til legende, og optjen værdifulde præmier. Deltag i kampe i Dragens år for at modtage unikke årlige belønninger."
+msgstr "Gør fremskridt gennem rangene fra jern til legende, og optjen værdifulde præmier. Deltag i kampe i Føniksens år for at modtage unikke årlige belønninger."
 
 msgid "intro/description/roleSkills"
 msgstr "Afhængig af rollen har hvert køretøj en særlig evne med tre ladningsniveauer. Jo højere ladningsniveau, når evnen aktiveres, jo stærkere vil effekten være. Ladningsniveauet vil afhænge af antallet af prestigepoint, som kan optjenes ved imponerende præstationer i kamp; erobring af vigtige positioner, brug af taktiske evner etc.\n\nLæs kamptype-reglerne for at lære mere om de forskellige måder du kan optjene prestigepoint på."
@@ -597,6 +606,12 @@ msgstr "Du kan gå i kamp i niveau %(levels)s køretøjer fra teknologitræet (u
 
 msgid "intro/title/banPhase"
 msgstr "KØRETØJSBANDLYSNINGER"
+
+msgid "intro/title/draw"
+msgstr "REGLER VED UAFGJORT"
+
+msgid "intro/title/nightMaps"
+msgstr "NATTEKORT"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ONSLAUGHT-MODIFIKATIONER"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "SEJR, MEN DU"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Forfremmet til %(rank)s"
+msgstr "Forfremmet til {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Rangering: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degraderet til %(rank)s, %(division)s"
+msgstr "Degraderet til {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Forfremmet til %(rank)s, %(division)s"
+msgstr "Forfremmet til {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Kampe deltaget i"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Sæsonrekord i prestigepoint: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Den azurblå drages sæson er slut på %(server)s-serveren."
+msgstr "Den azurblå føniks' sæson er slut på %(server)s-serveren."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Den røde drages sæson er slut på %(server)s-serveren."
+msgstr "Den røde føniks' sæson er slut på %(server)s-serveren."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Den jadegrønne drages sæson er slut på %(server)s-serveren."
+msgstr "Den jadegrønne føniks' sæson er slut på %(server)s-serveren."
 
 msgid "products/actions/buy"
 msgstr "Køb"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ONSLAUGHT. KVALIFIKATION FULDFØRT"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ONSLAUGHT. DEN AZURBLÅ DRAGES SÆSON"
+msgstr "ONSLAUGHT. DEN AZURBLÅ FØNIKS' SÆSON"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ONSLAUGHT. DEN RØDE DRAGES SÆSON"
+msgstr "ONSLAUGHT. DEN RØDE FØNIKS' SÆSON"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ONSLAUGHT. DEN JADEGRØNNE DRAGES SÆSON"
+msgstr "ONSLAUGHT. DEN JADEGRØNNE FØNIKS' SÆSON"
 
 msgid "rewardsScreen/description/year"
-msgstr "ONSLAUGHT. DRAGENS ÅR"
+msgstr "ONSLAUGHT. FØNIKSENS ÅR"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Hvor er min Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Slutter om %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Den azurblå drages sæson"
+msgstr "Den azurblå føniks' sæson"
 
 msgid "seasonName/second"
-msgstr "Den røde drages sæson"
+msgstr "Den røde føniks' sæson"
 
 msgid "seasonName/third"
-msgstr "Den jadegrønne drages sæson"
+msgstr "Den jadegrønne føniks' sæson"
 
 msgid "seasonPointTooltip/header"
 msgstr "Onslaught-faner"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Position på ranglisten: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "ONSLAUGHT. %(seasonNameUpper)s"
+msgstr "ONSLAUGHT %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Modtog %(points)s Onslaught-faner"
 msgstr[2] "Modtog %(points)s Onslaught-faner"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SÆSON I. AZURBLÅ DRAGE"
+msgstr "SÆSON I: AZURBLÅ FØNIKS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SÆSON II. RØD DRAGE"
+msgstr "SÆSON II: RØD FØNIKS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SÆSON III. JADEGRØN DRAGE"
+msgstr "SÆSON III: JADEGRØN FØNIKS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Sejre: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Denne kamptype bliver tilgængelig %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azurblå drage"
+msgstr "Azurblå føniks"
 
 msgid "shortSeasonName/second"
-msgstr "Rød drage"
+msgstr "Rød føniks"
 
 msgid "shortSeasonName/third"
-msgstr "Jadegrøn drage"
+msgstr "Jadegrøn føniks"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Denne sektion indeholder information om de bedste spillere i den nuværende sæson af Onslaught-kamptypen."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Se alle"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Støt Onslaught Legends Series, mens du styrker præmiepuljen med turneringspakker!"
+msgstr "Hvis det hold du vælger, vinder, vil du modtage et unikt gyldent OLS 2026-badge. Hep på dine favoritter!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Vis din esports-ånd med eksklusive tematiske tilpasningselementer og unikke kampvogne!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Et episk slag vil stå ved World of Tanks Championship International i Suzhou, Kina, hvor de dygtigste hold fra hele verden vil støde sammen under reglerne fra Onslaught-kamptypen. Alle med ønsket om at blive kåret som verdensmester. Oplev spændingen, når legender fødes på slagmarken!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS sæson 6"
+msgstr "OLS sæson 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Denne sæson er din sidste mulighed for at modtage værdifulde belønninger, herunder den eksklusive tunge niveau X kampvogn Ashbringer, med alle de unikke 3D-stile du har optjent til den, et frygtløst mandskab med våbenbrødre som en nulsums-evne, samt forbedret og eksperimentelt udstyr du kan vælge fra, en flot 2D-stil og meget mere. Gå ikke glip af det — din sejr venter på slagmarken!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Grib de sidste øjeblikke af Dragens år!"
+msgstr "Grib de sidste øjeblikke af Føniksens år!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "DEN JADEGRØNNE DRAGES SÆSON"
+msgstr "DEN AZURBLÅ FØNIKS' SÆSON"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "ONSLAUGHT. HVAD ER NYT?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Band-tastisk!"
+msgstr "Slip dine flammer løs!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Den forbedrede visning efter kamp med sit friske Update 2.0-design vil nu give dig yderligere kamptype-relateret information efter hver kamp."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Når tiden udløber, og ingen af holdene har opnået en klar sejr, afgøres kampens udfald i tiebreak i denne rækkefølge: overlevende køretøjer, uddelt skade, og hvornår det første køretøj blev nedkæmpet. Hvis ingen af holdene uddelte skade, bliver kampen erklæret uafgjort."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detaljerede kampresultater"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Frygt ikke, hvis dit yndlingskøretøj blev ekskluderet. Lejekøretøjer har nu prækonfigureret mandskab, udstyr, granater og forbrugsvarer."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Klar-til-kamp lejekøretøjer %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "I denne sæson kan hvert hold fuldstændigt bandlyse et køretøj fra en kamp. Koordiner stemmer med allierede for at ekskludere den maskine I frygter mest, eller for at gøre en uventet opstilling klar for jeres fjender."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Køretøjsbandlysninger %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Betingelser for uafgjort opdateret {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kort"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nye køretøjer tilgængelige i Onslaught"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Version 2.4 introducerer nye roller for lette kampvogne, og en revision af køretøjskarakteristika. Prøv dem i kamp!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nye roller for lette kampvogne {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nyt gameplay på velkendte kort. Ændringer omfatter natteforhold, nye observationsposter, nye vigtige positioner og en modificeret opdagelsesmekanisme. Alt dette omdanner kampens forløb, og gør opmærksomhed, timing og taktisk bevægelse mere vigtigt end nogensinde."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Nattekort er ankommet! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "På grund af lav spillerdeltagelse er super-delinger blevet deaktiveret. Vi arbejder på en alternativ holdbaseret måde at spille Onslaught på. I mellemtiden vil 7v7-turneringer jævnligt være tilgængelige."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Ikke flere super-delinger {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Lejekøretøjer"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Den nyligt frigivne amerikanske niveau X medium kampvogn Ares 90 er nu tilgængelig i kamptypen med en justeret rolle-evne."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Maps: Erlenberg er blevet fjernet. Vigtige positioner på Airfield er blevet flyttet. Mindre justeringer til Pilsen.\n• Køretøjer: VZ. 60S Dravec er blevet fjernet. Ny tysk tung kampvogn Kampfpanzer 67 er blevet tilføjet."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Opdatering af rolle-evne %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 kan nu købes på sølv-rangen i Onslaught-butikken."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Butiksopdateringer %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sæsonmæssige balancejusteringer {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EKSKLUDERET"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Sæson I. Azurblå drage"
+msgstr "Sæson I: Azurblå føniks"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Sæson II. Rød drage"
+msgstr "Sæson II: Rød føniks"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Sæson III. Jadegrøn drage"
+msgstr "Sæson III: Jadegrøn føniks"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Nuværende"

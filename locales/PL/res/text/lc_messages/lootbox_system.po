@@ -28,6 +28,30 @@ msgstr "OTRZYMANO NAGRODY"
 msgid "awardViews/footer/backButton/"
 msgstr "Tak jest!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Pozostało: {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Brak ponownych otwarć"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Cenna nagroda"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Otwórz ponownie za darmo"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Za mało obligacji"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Otwórz ponownie za {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Otwórz ponownie"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Wylosowane cenne nagrody nie podlegają ponownemu otwarciu."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Dyrektywa"
 
@@ -118,6 +142,18 @@ msgstr "Otwarte skrzynie: %(count)"
 msgid "common/statsButton"
 msgstr "Statystyki"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Anuluj"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Skrzynia zostanie ponownie otwarta z szansą na otrzymanie innych nagród."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Otwórz ponownie"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Otworzyć ponownie za {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Anuluj"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Wydarzenie zakończy się za %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Jeśli nie otworzysz wszystkich skrzyń przed końcem wydarzenia, zostaną one otwarte automatycznie."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Jeśli nie otworzysz skrzyń przed końcem wydarzenia, zostaną one otwarte automatycznie."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości skrzyń, to za wszystkie kolejne pojazdy otrzymane ze skrzyń dostaniesz rekompensatę w złocie w wysokości ich pełnej wartości."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Każde %(guaranteed0)s skrzyń na pewno zawiera pojazd poziomu VIII–X. Jeśli otworzysz je, a pojazd się nie pojawi, to pojazd poziomu VIII–X, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed0)s.&zwnbsp;skrzyni (zależnie od jej rodzaju). Wtedy licznik zostanie zresetowany."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Każde %(guaranteed)s skrzyń na pewno zawiera pojazd poziomu VIII–X. Jeśli je otworzysz, a pojazd się nie pojawi, to pojazd poziomu VIII–X, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed)s&zwnbsp;. skrzyni (zależnie od jej rodzaju). Wtedy licznik zostanie zresetowany."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Jeśli nie jesteś zadowolony z nagród ze skrzyni, możesz ją otworzyć ponownie, aby mieć szansę na otrzymanie innych przedmiotów z tej samej listy. Każdą skrzynię można otworzyć ponownie tylko ograniczoną liczbę razy:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automatyczne otwarcie"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Rekompensata"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Nagroda gwarantowana"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Ponowne otwarcie"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Zobacz listę przedmiotów na portalu gry"
@@ -273,6 +315,30 @@ msgstr "dla %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "Styl 3D %(style)"
+
+msgid "reroll/free"
+msgstr "Za darmo"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Transakcja finansowa"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Odjęto kredytów: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Odjęto obligacji: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Odjęto złota: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Wydarzenie «%(eventName)s» zakończyło się"
@@ -480,3 +546,15 @@ msgstr "Zrekompensowane pojazdy: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Rekompensata za pojazd, który już masz w garażu."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Ponowne otwarcie"
+
+msgid "tooltip/reroll/price"
+msgstr "Koszt"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Ponowne otwarcie skrzyni daje Ci szansę na otrzymanie innych nagród z tej samej listy."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Ponowne otwarcie"

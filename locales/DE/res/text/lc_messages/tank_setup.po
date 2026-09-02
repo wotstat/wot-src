@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "Strukturpunkte des Fahrzeugs"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit bei Fahrzeugen mit festem Aufbau"
+msgstr "Geschützrichtgeschwindigkeit"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "Turmdrehgeschwindigkeit"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "Strukturpunkte des Fahrzeugs"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "Turmdrehgeschwindigkeit oder Geschützrichtgeschwindigkeit für Fahrzeugen mit festem Aufbau"
+msgstr "Geschützrichtgeschwindigkeit"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "Turmdrehgeschwindigkeit"
@@ -2100,6 +2100,51 @@ msgstr " und "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Die externe Munitionszufuhr des Fahrzeugs erlaubt es, Granaten mit höherem Schaden zu nutzen."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Grundwerte im Standardmodus."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Modifizierte Werte bei externer Munitionszufuhr."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Grundwerte für Schüsse mit voller Ladung"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Werte für Schüsse mit Einzelladung"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Grundwerte für Schüsse mit voller Ladung"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Normal"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Werte für Schüsse mit Einzelladung"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Im kalibrierten Modus ist dieser Granatentyp effektiv gegen geschrägte Panzerung."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Im Standardmodus ist dieser Granatentyp effektiv gegen Panzerung ohne Schürzen."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standardmodus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrierter Modus"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Im kalibrierten Modus kann dieser Granatentyp Schürzen durchschlagen."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Im Standardmodus ist dieser Granatentyp effektiv gegen vertikale Panzerung."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardzubehör der Kategorie %(spec)s ist effektiver, wenn es in diesem Platz eingebaut wird. Zubehör anderer Kategorien gibt nur den üblichen Bonus."

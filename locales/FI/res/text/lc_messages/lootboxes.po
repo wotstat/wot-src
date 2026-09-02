@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Avasimme kaikki lomaoperaation pakettisi."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Onneksi olkoon!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Voit ostaa suuria paketteja premium-kaupasta"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Suuret paketit"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Pienet paketit"
-
-msgid "entryDesc/questSlot"
-msgstr "Saat pieniä paketteja tehtävien suorittamisesta."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Tämä toiminto ei väliaikaisesti ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
 
 msgid "entryPoint/header"
-msgstr "Paketit"
-
-msgid "entryTooltip/body/h1"
-msgstr "Osta suuria paketteja:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Ansaitse pieniä paketteja:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Osta uuden vuoden koristeita sisältäviä paketteja itsellesi ja ystävillesi Premium-kaupasta."
-
-msgid "entryTooltip/body/p2"
-msgstr "Myönnetään lomaoperaation tehtävien suorittamisesta."
-
-msgid "entryTooltip/header"
 msgstr "Paketit"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} pakettia lisää"
 msgid "entryView/buyLabel"
 msgstr "OSTA PAKETTEJA"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Sinulla ei ole suuria paketteja varastossasi.\nOsta niitä lisää Premium-kaupasta."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Sinulla ei ole pieniä paketteja.\nAnsaitse niitä enemmän taisteluissa."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Lomaoperaatio {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Selvä!"
@@ -178,9 +139,6 @@ msgstr "Tarvikelaatikoiden avaaminen"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Lisätty"
 
-msgid "notification/ny19man"
-msgstr "Ainutlaatuisia miehistön jäseniä: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Olet saanut seuraavat palkinnot:"
 
@@ -244,36 +202,6 @@ msgstr "Ainutlaatuinen tyyli:"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Näytä tallissa"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Joulupaketit"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Taikapaketit"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Uuden vuoden paketit"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Kuupaketit"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Joulukokoelma"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Taikakokoelma"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Uuden vuoden kokoelma"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Kuukokoelma"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Paketit sisältävät ryhmän \"{category}\" koristeita ja muita arvokkaita palkintoja."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Mitalit:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Osta lisäpaketteja Premium-kaupasta."
 
@@ -285,12 +213,6 @@ msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen.
 
 msgid "type/event_premium"
 msgstr "Aamunkoiton tarvikelaatikko"
-
-msgid "type/newYear_premium"
-msgstr "SUURET PAKETIT"
-
-msgid "type/newYear_usual"
-msgstr "PIENET PAKETIT"
 
 msgid "type/wt_boss"
 msgstr "Insinöörin sytytystulppa"

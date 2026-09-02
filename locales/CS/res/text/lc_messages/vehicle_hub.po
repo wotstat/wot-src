@@ -34,6 +34,9 @@ msgstr "Dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý v
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Zvyšuje výkon motoru a maximální rychlost pro rychlý pohyb po bojišti. Po aktivaci raketové trysky snižují obratnost a nelze je ručně vypnout."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátů. Parametry jednotlivých granátů se liší v závislosti na zvoleném režimu a každý režim umožňuje rychle se přizpůsobit různým bojovým situacím."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Po aktivaci tento speciální režim zvyšuje a/nebo mění určité bojové parametry. Nejlepší je ho aktivovat, když jste na pozici a připraveni k boji s nepřítelem."
 
@@ -82,6 +85,9 @@ msgstr "Automatický kanón s termální ochranou proti přehřátí"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Raketové trysky"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Systém kalibrace munice"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Palebný režim"
 
@@ -100,8 +106,17 @@ msgstr "Režim palby salvou"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stáním na místě nebo pomalou jízdou získáváte úrovně přesnosti, které vylepší přesnost vašeho dalšího výstřelu.\nNa nejvyšší úrovni přesnosti získáte dobré ovládání děla se sníženým rozptylem i za pohybu nebo při otáčení věže/korby."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Tento mechanismus okamžitě zkrátí dobu nabíjení granátu na krátkou, pevně stanovenou dobu. Každé použití spotřebuje jedno nabití na jeden granát, přičemž se nabití postupem času doplňují – rychleji, je-li zásobník plný. Na začátku bitvy je k dispozici stanovený počet nabití."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Toto vozidlo je vybaveno raketometem namontovaným na mantletu děla. Aktivujte možnost přepnutí na zaměřovač sekundární zbraně a poté stisknutím tlačítka pro odpal vystřelte neřízenou raketu s výbušnou hlavicí."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Kdykoliv zasáhnete nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají. \nZničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Díky vnějšímu modulu pro zásobování municí může toto vozidlo střílet silné mocné, vysoce kvalitní granáty, které způsobují vyšší poškození. Je-li modul aktivní, snižuje pohyblivost a rychlost palby stroje."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Pokud je vaše dělo nabité, můžete začít zahřívat další výstřel, abyste zvýšili jeho poškození – čím vyšší je úroveň zahřátí, tím větší je účinek.\nPři maximálním nahřátí máte několik sekund na výstřel – pokud tak neučiníte, nebudete dočasně schopni střílet."
@@ -142,6 +157,15 @@ msgstr "Systém postupně hromadí náboj, přičemž vyšší úroveň náboje 
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Kdykoliv aktivujte trysky na kapalné palivo, a když to nejvíce potřebujete, získejte posílení k rychlosti. Trysky se zahřívají a před opětovným použitím se musí ochladit. Překročení limitu kritické teplotní meze je dočasně zcela deaktivuje."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Když zasáhnete odhalené nepřátelské vozidlo granátem, upraví se nastavení roznětky u následujícího granátu. Pokud první výstřel prorazil nepřátelský pancíř, zvýší se poškození následujícího výstřelu. Pokud ne, zvýší se průbojnost následujícího výstřelu."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátů. Parametry jednotlivých granátů se liší v závislosti na zvoleném režimu a každý režim umožňuje rychle se přizpůsobit různým bojovým situacím."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Po aktivaci zařízení prohledává oblast před vaším vozidlem a odhaluje skryté cíle, než uplyne doba obnovení. Pokud odhalí dosud neodhaleného nepřítele, budete okamžitě také odhaleni. Skenování můžete po krátké prodlevě ručně zastavit."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost. Levé a pravé trysky mohou pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje couvání."
 
@@ -166,8 +190,17 @@ msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení 
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analogový balistický počítač"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Mechanismus nuceného nabíjení"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaxiální raketomet"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Poloautomatický zásobník munice"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Režim Vnějšího podávání munice"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termobalistické přehřátí"
@@ -208,6 +241,15 @@ msgstr "Přídavné indukční spalování"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Rakety na kapalné palivo"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Upravitelný nastavovač roznětky"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Systém kalibrace munice"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infračervené vyhledávání a sledování (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sekvenční raketové trysky"
 
@@ -232,8 +274,17 @@ msgstr "Vysokotlaké pomocné turbodmychadlo"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Zvyšuje přesnost vašeho dalšího výstřelu se slušnou stabilizací při plné kalibraci."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Okamžitě zkrátí dobu přebíjení granátů na krátkou pevně stanovenou dobu."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Z koaxiálního raketometu nezávislém na hlavním děle vystřeluje neřízenou výbušnou raketu."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Každý zásah do nepřátelského vozidla po omezenou dobu zvyšuje rychlost nabíjení děla."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Vystřeluje granáty s vysokým poškozením za cenu pohyblivosti a doby obnovení."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Zvyšte úroveň tepla, abyste příštím výstřelem způsobili nepřátelským vozidlům větší poškození."
@@ -274,6 +325,15 @@ msgstr "Systém se nabíjí, aby zvýšil poškození. Čím vyšší je nabití
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Trysky, které lze kdykoliv aktivovat a které poskytují prudký nárůst rychlosti."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Zásah odhaleného nepřátelského vozidla zvyšuje poškození nebo průbojnost následujícího granátu."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Dělo je vybavené speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátu."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Zvyšuje dohled a v úzkém úseku detekuje jedoucí vozidla i vozidla skrytá v porostu."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Trysky na tuhé palivo, které zlepšují zrychlení, pohyblivost a ovladatelnost."
 
@@ -298,8 +358,14 @@ msgstr "Speciální mechanika, která na krátkou dobu zvyšuje výkon motoru, z
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, vaše vozidlo bude moci kalibrovat svůj Analogový balistický počítač a zvýšit úrovně přesnosti, čímž se zvýší přesnost vašeho dalšího výstřelu. Pokud překročíte rychlostní limit, váš postup ve zvyšování úrovně přesnosti se pozastaví, dokud nezpomalíte. Na nejvyšší úrovni přesnosti získá vaše vozidlo téměř dokonalou stabilizaci děla s minimálním rozptylem za pohybu nebo při otáčení věže/korby. Tento efekt se po výstřelu zruší."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Toto vozidlo je vybaveno raketometem namontovaným na mantletu děla. Aktivujte možnost přepnutí na zaměřovač sekundární zbraně a poté stisknutím tlačítka pro odpal vystřelte neřízenou raketu s výbušnou hlavicí."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Kdykoliv zasáhnete odhaleného nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají a zničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Díky vnějšímu modulu pro zásobování municí může toto vozidlo střílet silné mocné, vysoce kvalitní granáty, které způsobují vyšší poškození. Je-li modul aktivní, snižuje pohyblivost a rychlost palby stroje."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Pokud je vaše dělo nabité, můžete začít nahřívat svůj další výstřel. Čím vyšší úrovně nahřátí dosáhnete, tím větší bude bonus ke způsobenému poškození. Během procesu nahřívání nemůžete měnit granáty. Když dosáhnete maximální úrovně nahřátí, začne odpočet. Pokud do jeho skončení nevystřelíte, nebudete moct několik sekund střílet."
@@ -340,6 +406,15 @@ msgstr "Systém v průběhu času automaticky akumuluje náboj, který se čás
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Trysky na tekuté palivo poskytují posílení výkonu motoru, což vám umožňuje získat na bojišti poziční výhodu – ale omezují rychlost couvání vašeho vozidla a rychlost otáčení. Trysky lze kdykoliv vypnout a zapnout, pokud nebylo dosaženo limitu opětovné aktivace. Když jsou aktivní, trysky se zahřívají, a dokud se neochladí, nebudou dostupné, což znamená, že je nelze používat nepřetržitě – překročení kritické teplotní meze je dočasně úplně vypne. Pečlivě plánujte svou hru, jinak můžete být nepříjemně překvapeni."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Při zásahu odhaleného nepřátelského vozidla granátem se upraví nastavení roznětky u následujícího granátu. Pokud první výstřel prorazil nepřátelský pancíř, zvýší se poškození následujícího výstřelu. Pokud ne, zvýší se průbojnost následujícího výstřelu."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátů. V přehledu výbavy je uvedeno, na které parametry má vliv přepínání mezi režimy palby."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Pokročilé optické zařízení zvyšuje váš dohled a zlepšuje odhalování pohybujících se vozidel i těch ukrytých v porostu. Po aktivaci zařízení prohledává oblast před vaším vozidlem a odhaluje skryté cíle, než uplyne doba obnovení. Pokud odhalí dosud neodhaleného nepřítele, budete okamžitě také odhaleni. Skenování můžete po krátké prodlevě ručně zastavit."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost vozidla. Na rozdíl od běžných raketových trysek mohou levá a pravá tryska pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje schopnost couvání. Lze je použít několikrát za bitvu, ale před opětovnou aktivací je nutné počkat na ochlazení."
 
@@ -363,6 +438,18 @@ msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení 
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Všechny uvedené hodnoty představují maximální možné hodnoty pro dané vozidlo. Tyto hodnoty může změnit výbava, směrnice a spotřební doplňky, ale tyto změny zde nejsou zohledněny."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibrovatelný AP granát"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibrovatelný APCR granát"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibrovatelný HE granát"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibrovatelný HEAT granát"
 
 msgid "characteristics/templates/upTo"
 msgstr "Až %(value)%s"

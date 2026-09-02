@@ -51,11 +51,11 @@
 		<enable>true</enable>
 		<adaptationSpeed>200</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
-			<threshold>0.230000004</threshold>
-			<amount>0.180000007</amount>
+			<pbsBloom>true</pbsBloom>
+			<threshold>0.200000003</threshold>
+			<amount>0.150000006</amount>
 			<tint>0.729412019 0.882353008 1</tint>
-			<dirtAmount>0.0299999993</dirtAmount>
+			<dirtAmount>0</dirtAmount>
 		</bloom>
 		<environment>
 			<sunlightLumMultiplier>60</sunlightLumMultiplier>
@@ -150,6 +150,10 @@
 		<amplify>0.680000007</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.479999989</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.479999989</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.479999989</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.479999989</emissiveMaterialsMultiplier>
 		<particlesConfigXml></particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/hangar_v4_last_stand/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -283,4 +287,7 @@
 		<transmissionMult>0.600000024</transmissionMult>
 		<waterReflectionAttenuation>1</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

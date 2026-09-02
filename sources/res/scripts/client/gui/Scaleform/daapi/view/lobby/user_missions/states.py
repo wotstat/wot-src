@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 from account_helpers.AccountSettings import ChallengesMissions
-from frameworks.state_machine import StateFlags
-from frameworks.state_machine.transitions import TransitionType
+from frameworks_common.state_machine import StateFlags
+from frameworks_common.state_machine.transitions import TransitionType
 from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
 from gui.Scaleform.framework.entities.View import ViewKey
 from gui.challenges.challenges_helpers import getChallengesInfoUrl, getSettings, setSettings
@@ -105,8 +105,7 @@ class UserMissionsState(SFViewLobbyState, EventsHandler):
     def compareParams(self, params, otherParams):
         if params.get(b'tab') == TabId.CHALLENGES:
             return True
-        super(UserMissionsState, self).compareParams(params, otherParams)
-        return
+        return super(UserMissionsState, self).compareParams(params, otherParams)
 
     def _getViewLoadCtx(self, event):
         return {b'ctx': (event.params)}

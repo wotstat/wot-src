@@ -28,6 +28,30 @@ msgstr "ERHALTENE BELOHNUNGEN"
 msgid "awardViews/footer/backButton/"
 msgstr "Verstanden!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} übrig"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Kein erneutes Öffnen möglich"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Wertvolle Belohnung"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Kostenlos erneut öffnen"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nicht genug Anleihen"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Für {{count}} erneut öffnen"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Erneut öffnen"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Wenn wertvolle Belohnungen gefunden wurden, ist erneutes Öffnen nicht möglich."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direktive"
 
@@ -118,6 +142,18 @@ msgstr "Geöffnete Kisten: %(count)"
 msgid "common/statsButton"
 msgstr "Statistik"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Abbrechen"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Diese Kiste wird erneut geöffnet und kann damit andere Belohnungen bringen."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Erneut öffnen"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Für {{cost}} erneut öffnen?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Abbrechen"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Das Event endet in %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Wenn Sie zum Ende des Events noch nicht alle Kisten geöffnet haben, geschieht dies danach automatisch."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Wenn Sie die Kisten vor dem Ende des Events nicht geöffnet haben, werden diese automatisch geöffnet."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Wenn Sie bereits alle Fahrzeuge aus der Liste möglicher Inhalte besitzen, werden alle folgenden in Kisten gefundenen Fahrzeuge mit ihrem vollen Wert in Gold vergütet."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Jede %(guaranteed0)s. Kiste enthält garantiert ein Fahrzeug der Stufe VIII–X. Wenn Sie Kisten öffnen und kein solches Fahrzeug erhalten, dann erhalten Sie in der %(guaranteed0)s&zwnbsp;. Kiste (abhängig von der Art der Kiste), die Sie öffnen, garantiert ein Fahrzeug der Stufe VIII–X, das Sie noch nicht besitzen. Wenn das passiert, wird der Zähler zurückgesetzt."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Jede %(guaranteed)s. Kiste enthält garantiert ein Fahrzeug der Stufe VIII–X. Wenn Sie Kisten öffnen und kein solches Fahrzeug erhalten, dann erhalten Sie in der %(guaranteed)s&zwnbsp;. Kiste (abhängig von der Art der Kiste), die Sie öffnen, garantiert ein Fahrzeug der Stufe VIII–X, das Sie noch nicht besitzen. Wenn das passiert, wird der Zähler zurückgesetzt."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Wenn Ihnen der Inhalt der Kiste nicht gefällt, können Sie sie erneut öffnen und haben damit eine Chance, andere Gegenstände derselben Liste zu erhalten. Jede Kiste kann nur begrenzt oft erneut geöffnet werden:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Auto-Öffnen"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Vergütung"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantierte Belohnung"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Erneutes Öffnen"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Sehen Sie sich die Liste der Gegenstände auf dem Portal an"
@@ -273,6 +315,30 @@ msgstr "für %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D-Stil „%(style)“"
+
+msgid "reroll/free"
+msgstr "Kostenlos"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finanztransaktion"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Abgezogene Kreditpunkte: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Abgezogene Anleihen: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Abgezogenes Gold: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Das Event „%(eventName)s“ ist beendet."
@@ -480,3 +546,15 @@ msgstr "Vergütete Fahrzeuge: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Vergütung für ein Fahrzeug, das Sie bereits in Ihrer Garage haben"
+
+msgid "tooltip/reroll/attempt"
+msgstr "Erneutes Öffnen"
+
+msgid "tooltip/reroll/price"
+msgstr "Kosten"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Durch das erneute Öffnen einer Kiste können Sie andere Belohnungen von derselben Liste erhalten."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Erneutes Öffnen"

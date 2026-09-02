@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neonska jurnjava je jedinstvena, vremenski ograničena akcija koja nudi nešto drugačije! Utrkujte se i tucite se na opasnim stazama, izvršavajte zadatke i osvajajte nagrade."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s odabirom niže kvalitete grafike u postavkama."
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Imat ćete poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Moguće umanjene performanse"
+msgstr "Niske performanse"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s odabirom niže kvalitete grafike u postavkama."
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Moguće umanjene performanse"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Sve razine"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Pri niskim grafičkim postavkama mogu se pojaviti problemi i vizualni artefakti. Perporučujemo odabir najviših grafičkih postavki za najbolji mogući doživljaj ako specifikacije vašeg računala ispunjavaju zahtjeve. Režim zahtjeva visoke performanse računala. FPS se može smanjiti tijekom intenzivne borbe."
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Imat ćete poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Preporučuju se najviše grafičke postavke"
+msgstr "Niske performanse"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon)Preporučuju se najviše grafičke postavke"
+msgstr "%(icon) Niske performanse"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Pri niskim grafičkim postavkama mogu se pojaviti problemi i vizualni artefakti. Perporučujemo odabir najviših grafičkih postavki za najbolji mogući doživljaj ako specifikacije vašeg računala ispunjavaju zahtjeve. Režim zahtjeva visoke performanse računala. FPS se može smanjiti tijekom intenzivne borbe."
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Preporučuju se najviše grafičke postavke"
+msgstr "Moguće umanjene performanse"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon)Preporučuju se najviše grafičke postavke"
+msgstr "%(icon) Moguće umanjene performanse"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Novi zadatak Neonske jurnjave je dostupan za:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Čestitamo!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Beskonačni post-napredak"
+msgstr "Etapa koja se ponavlja"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Završili ste glavni napredak"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Završite ovu etapu koliko god puta možete."
+msgstr "Uzmite koliko nagrada možete:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Osvojeno bodova: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Ponavljajući"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Za završetak:"
+msgstr "Za izvršenje"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Za poraz:"
+msgstr "Za poraz"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Za pobjedu:"
+msgstr "Za pobjedu"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Bodovi:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Za sada ste izvršili sve dostupne zadatke. U slijedećoj rotaciji će ih se pojaviti više."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Dostupno za {{timeLeft}}"
+msgstr "Istječe za {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Dostupno za {{timeLeft}}"
+msgstr "Akcija završava za {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Novi zadatak dostupan za {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Izbjegavajte lasere i pažljivo tempirajte skokove za dolazak do cilja!"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Pozor: laseri i skokovi"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Ako se vaše vozilo zaglavi koristite \"Povratak na kontrolnu točku\" za teleportiranje natrag na posljednju kontrolnu točku koju ste dosegli."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Povratak na kontrolnu točku"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "da saznate više o ovom režimu"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Izborite svoj put\ndo ciljne linije"
+msgstr "Izborite svoj put do ciljne linije"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Sve razine"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Pri niskim grafičkim postavkama mogu se pojaviti vizualni artefakti i ostali problemi. Perporučujemo odabir najviših grafičkih postavki za najbolji mogući doživljaj ako specifikacije vašeg računala ispunjavaju zahtjeve. Ovaj režim zahtjeva visoke performanse, a FPS se može smanjiti u teškim trenucima."
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Imat ćete poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Preporučuju se najviše grafičke postavke"
+msgstr "Niske performanse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon)Preporučuju se najviše grafičke postavke"
+msgstr "%(icon) Niske performanse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Pri niskim grafičkim postavkama mogu se pojaviti vizualni artefakti i ostali problemi. Perporučujemo odabir najviših grafičkih postavki za najbolji mogući doživljaj ako specifikacije vašeg računala ispunjavaju zahtjeve. Ovaj režim zahtjeva visoke performanse. Vaš FPS se može smanjiti u teškim trenucima."
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Preporučuju se najviše grafičke postavke"
+msgstr "Moguće umanjene performanse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon)Preporučuju se najviše grafičke postavke"
+msgstr "%(icon) Moguće umanjene performanse"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "NEONSKA JURNJAVA"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Utrkujte se i borite se kroz opasne staze, izvršite zadatke i osvojite nagrade."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neonska jurnjava"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "NEONSKA JURNJAVA"

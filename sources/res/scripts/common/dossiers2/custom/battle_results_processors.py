@@ -234,7 +234,9 @@ def updatePotapovQuestAchievements(accDossierDescr, progress):
      (2, 5, b'singleAchievements', b'newMeritPM2'),
      (2, 1, b'steamAchievements', b'steamDoPotapovQuestMedal'),
      (3, 1, b'steamAchievements', b'steamDoPotapovQuestMedal'),
-     (3, 1, b'singleAchievements', b'meritPM3')):
+     (3, 1, b'singleAchievements', b'meritPM3'),
+     (4, 1, b'singleAchievements', b'meritPM3'),
+     (4, 1, b'steamAchievements', b'steamDoPotapovQuestMedal')):
         needToAward = completedCounters.get(seasonID, 0) >= minCounter
         if needToAward and not accDossierDescr[dossierBlockName][achievementName]:
             accDossierDescr[dossierBlockName][achievementName] = True

@@ -46,6 +46,15 @@ msgstr "Įjungia realistiškesnį objektų veikimo ir sunaikinimo modelį žemė
 msgid "HAVOK_ENABLED/warning"
 msgstr "Nustatymas įsigalios kitame mūšyje, jeigu šiame mūšyje jis buvo išjungtas."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Detalesni vaizdo efektai"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Įjungia detalesnius vaizdo efektus. Išjungę šį nustatymą grįšite prie standartinių, kurie gali padėti žaidimui veikti greičiau."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Nustatymas įsigalios kitame mūšyje, jeigu šiame mūšyje jis buvo išjungtas."
+
 msgid "LANGUAGE_CODE"
 msgstr "lt"
 
@@ -175,11 +184,11 @@ msgstr "Vikšrų ir ratų pėdsakai"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Tankų vikšrų ir ratų vėžių vaizdavimas ant žemės.\n\nNepasiekiama pasirinkus standartinę grafiką ir žemą lipdukų kokybę."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Slėpti 3D elementus snaiperio režime"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efektų ir 3D elementų matomumas"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Laikinai paslepia mašinos 3D elementus, kai į ją žiūrima snaiperio režimu.\n\nsumažina objektų kiekį ekrane ir leidžia tiksliau nusitaikyti."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Pakoreguoja 3D elementų matomumą arti ekrano centro, kas sumažins kliūčių kiekį taikantis. 3D elementų matomumas keičiamas tik snaiperio režime.\n\nŽemesnės vertės reikš, jog 3D elementai bus blankesni ir galėsite taikytis aiškiau."
 
 msgid "WATER_QUALITY"
 msgstr "Vandens kokybė"
@@ -1995,6 +2004,15 @@ msgstr "Režimas:"
 
 msgid "screenMode/windowed"
 msgstr "Lange"
+
+msgid "showPrebattleHighlights"
+msgstr "Įjungti pristatymą"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Pademonstruoja labiausiai išsiskiriančius tankus prieš prasidedant mūšiui.\n\nJei išjungsite šį nustatymą, žaidimas veiks greičiau."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Dabartiniame mūšyje šis nustatymas išjungtas, galite jį įjungti kitiems mūšiams."
 
 msgid "smoothing/description"
 msgstr "Nustatomas papildomas plonų linijų ir žaidimo objektų kontūrų apdorojimas. Įjungus šį nustatymą labiau išlyginami objektų kraštai ir paviršiai. Kontūrai atrodo natūraliau."

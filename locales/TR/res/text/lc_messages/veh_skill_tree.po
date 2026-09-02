@@ -298,8 +298,26 @@ msgstr "İticilerin sağladığı motor gücü takviyesini {colorTagOpen}{value}
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "İticilerin tek bir savaşta maksimum kullanma hakkı sayısını {colorTagOpen}{value}{colorTagClose} artırır."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "IRST'nin kullanılabilir hale gelmesi için gereken ilk soğuma süresini {colorTagOpen}{value}{colorTagClose} kısaltır."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "IRST'nin tekrar kullanılabilir hale gelmesi için soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "IRST ile düşmanları tespit ettikten sonra aracınızın onlara görünür hale gelme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "IRST tarama süresini {colorTagOpen}{value0} sn.{colorTagClose} artırır ve ek olarak tarama sektörünü {colorTagOpen}{value1} derece{colorTagClose} daraltır, görüş mesafesini {colorTagOpen}{value2}%{colorTagClose} artırır, hareket halindeki araçların gizliliğini {colorTagOpen}{value3}%{colorTagClose} ve yeşillik arkasındaki araçların gizliliğini {colorTagOpen}{value4}%{colorTagClose} azaltır."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Araç hasar aldığında mürettebat üyelerinin yaralanma riskini azaltır."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Zırhı delemeyen isabetten sonra delme gücünü {colorTagOpen}{value}%{colorTagClose} artırır"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Zırhı delen isabetten sonra hasarı {colorTagOpen}{value}%{colorTagClose} artırır"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Topunuz hasarlı olduğunda top dağılımını azaltır."
@@ -460,6 +478,18 @@ msgstr "Topunuzun şarjöründeki mermiler arası yükleme süresini kısaltır.
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Ateş ederken düşman araçları tarafından tespit edilme riskini azaltır."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Şarjör dolu değilken şarj soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Şarjör doluyken şarj soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Hızlandırılmış mermi yükleme süresini {colorTagOpen}{value} sn. daha{colorTagClose} kısaltır"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Savaşın başında geçerli olan şarj miktarını {colorTagOpen}{value}{colorTagClose} artırır"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Top soğumasının gecikme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
 
@@ -468,6 +498,18 @@ msgstr "Atış başına oluşan top ısısı miktarını {colorTagOpen}{value}%{
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Isınmış topun soğuma hızını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Eş Eksenli Roketatar yükleme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Eş Eksenli Roketatar yükleme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Eş Eksenli Roketatar yükleme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Roket hasarını {colorTagOpen}{value} CP{colorTagClose} artırır."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "HE olmayan mermilerin verdiği hasarı artırır."
@@ -547,6 +589,18 @@ msgstr "Korugan modunda top dağılımını {colorTagOpen}{value}%{colorTagClose
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Korugan modunda top yükleme süresini {colorTagOpen}{value}%{colorTagClose} kısaldır."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "HMB modunda azami ileri hızı {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "HMB modunda özel mermilerin verdiği hasarı {colorTagOpen}{value} CP{colorTagClose}artırır."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "HMB modunda standart mermilerin verdiği hasarı {colorTagOpen}{value} CP{colorTagClose} artırır."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "HMB modunda top yükleme süresini {colorTagOpen}{value}%{colorTagClose} kısaltır (HE dışında)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Aracınızın yakıt deposunun ve motor parçalarının can puanını artırır."
 
@@ -555,6 +609,9 @@ msgstr "Hasarlı cephanelik ve motorun cezayı azaltır."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Mermilerinizin düşman araçlarının parçalarına verdiği hasarı artırır."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Atış modları arasında geçiş için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} azaltır."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Alternatif mühimmat ve sarf malzemeleri savaş yükü yapılandırmanıza imkan sağlar."
@@ -742,6 +799,18 @@ msgstr "Çekirdek Şekli Optimizasyonu"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Genişletilmiş Takviye Haznesi"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifiye Patlama Ateşleyici"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Yüksek Performanslı Sıvı Soğutma"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Düşük Dağılımlı Optikler"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Eşzamanlı Sıvı Soğutma"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Süspansiyon CP'si"
 
@@ -750,6 +819,12 @@ msgstr "Süspansiyon Onarım Hızı"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Mürettebat Koruması"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Ayarlanabilir Fünye Belirleyici: Delme Gücü"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Ayarlanabilir Fünye Belirleyici: Hasar"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Durumsal Top Dağılımı"
@@ -928,6 +1003,18 @@ msgstr "Şarjör İçi Yükleme Süresi"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Ateş Ettikten Sonra Gizlilik"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Yüksek Saflıkta Rotor Sargısı"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktif Rotor Soğutması"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Yüksek İletkenlikli Stator Muhafazası"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortosiklik Sargı"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Düşük Derecede Isı Transfer Sıvısı"
 
@@ -936,6 +1023,18 @@ msgstr "Yüksek İletkenlikli Termal Muhafaza"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Isı Borusu Optimizasyonu"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Yükleme Döngüsü Optimizasyonu"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Yükleme Döngüsü Optimizasyonu"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Yükleme Döngüsü Optimizasyonu"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "İyileştirilmiş Savaş Başlığı Düzeni"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "HE Olmayan Mermi Hasarı"
@@ -1018,6 +1117,18 @@ msgstr "Hassas Dengeli Rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hidrolik Tahrikli Sürgü"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "İyileştirilmiş Süspansiyon Amortisörü"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modifiye Özel Üniter Mermiler"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modifiye Standart Üniter Mermiler"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimize HMB Yükleme Döngüsü"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Seçimlik Parça CP Takviyesi"
 
@@ -1026,6 +1137,9 @@ msgstr "Seçimlik Parça Koruması"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Mermi Parça Hasarı"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimize Yeniden Kalibrasyon"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Mühimmat ve Sarf Malzemeleri Savaş Yükü"

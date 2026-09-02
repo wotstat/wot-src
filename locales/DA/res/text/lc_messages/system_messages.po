@@ -1009,6 +1009,9 @@ msgstr "Træning af mandskabsmedlem(mer) fejlede på grund af en serverfejl. Pr�
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2042,10 +2045,10 @@ msgid "login_to_other_game_wows"
 msgstr "nuværende spilsession blev afbrudt. Dit Wargaming.net&nbsp;ID blev brugt til at logge på World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Fejl ved modtagelse af gaven: serverfejl."
+msgstr "Fejl i åbning af æske: Serverfejl."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Fejl ved modtagelse af gaven. Vent venligst indtil den foregående operation er fuldført."
+msgstr "Fejl i åbning af æske: Vent venligst indtil den foregående operation er fuldført."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Handlingen er midlertidigt utilgængelig. Prøv igen senere."
@@ -2380,30 +2383,6 @@ msgstr "Unik sløring for %(vehicleName)s modtaget."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unik sløring for %(vehicleName)s er tilgængelig for alle køretøjer fra nation: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Al operationsfremskridt er blevet gemt. Du kan genoptage kampagnerne på ethvert tidspunkt."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "%(campaignName1)s- og %(campaignName2)s-kampagnerne sat på pause"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Operationer sat på pause, samt deres missioner, er blevet genoptaget."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "%(campaignName1)s- og %(campaignName2)s-kampagnerne genoptaget"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Al operationsfremskridt er blevet gemt. Du kan genoptage kampagnen på ethvert tidspunkt."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "%(campaignName)s-kampagne sat på pause"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Operationer sat på pause er blevet genoptaget."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "%(campaignName)s-kampagne genoptaget"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s er blevet monteret."
 
@@ -2486,6 +2465,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Fejl ved modtagelse af belønninger. Prøv venligst igen senere."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s er blevet monteret."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Fejl ved modtagelse af belønninger. Prøv venligst igen senere."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s er blevet monteret."
 
 msgid "personalMissions/reward/regular/server_error"

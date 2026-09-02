@@ -382,11 +382,56 @@ msgstr "Ukeoppdrag er et sett med oppgaver som blir tilgjengelig hver uke. Fremg
 msgid "info_page/main/weekly/title"
 msgstr "Ukeoppdrag"
 
+msgid "pm/missionState/active"
+msgstr "Aktiv"
+
+msgid "pm/missionState/complete"
+msgstr "Fullførte oppdrag"
+
+msgid "pm/missionState/improve"
+msgstr "Resultatforbedring"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Endre kjøretøy"
+
+msgid "pm/no_missions"
+msgstr "Ingen aktive oppdrag til dine valgte kjøretøy"
+
+msgid "pm/tier"
+msgstr "Nivåer som ikke passer"
+
+msgid "pm/unavailable"
+msgstr "Oppdrag midlertidig utilgjengelig"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Det er ingen aktive oppdrag til ditt valgte kjøretøy. Vennligst velg et annet."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Dette oppdraget er midlertidig utilgjengelig av tekniske årsaker. Vi beklager ulempen."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Ditt valgte kjøretøy oppfyller ikke nivåkravene for de aktive operasjonene. Vennligst velg et annet kjøretøy."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Ingen aktive oppdrag"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Midlertidig utilgjengelig"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Nivåer som ikke passer"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Alle vanlige oppdrag fullført for i dag"
 
 msgid "quests/daily_quests/completed"
 msgstr "Alle daglige oppdrag fullført"
+
+msgid "slider/title/missions"
+msgstr "Vanlige oppdrag"
+
+msgid "slider/title/personalMissions"
+msgstr "Personlige oppdrag"
 
 msgid "tooltip/common/timer"
 msgstr "Tilgjengelig om {{timeLeft}}"

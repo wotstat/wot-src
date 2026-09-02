@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Olumlu!"
 
 msgid "error/description"
-msgstr "Geçici olarak bilgi veremiyoruz. Verdiğimiz rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyin."
+msgstr "Verdiğimiz rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyin."
 
 msgid "error/title"
-msgstr "Ödül Seçimi Açılamıyor"
+msgstr "Bu sayfa geçici olarak devre dışı"
 
 msgid "footer/closeBtn/label"
 msgstr "Daha Sonra Seç"
@@ -23,7 +23,7 @@ msgstr[1] "Sunulan kategorilerden ödül seçin."
 msgstr[2] "Sunulan kategorilerden ödül seçin."
 
 msgid "footer/okBtn/label"
-msgstr "Al"
+msgstr "Ödülleri Alın"
 
 msgid "footer/rewardsSelected"
 msgstr "Seçilen ödüller:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Zaten alındı"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Bu kategoriden seçilebilir ürün sınırına ulaşıldı. Başka bir ürün eklemek için seçtiğiniz bir ürünü iptal edebilirsiniz."
+msgstr "Bu kategoride izin verilen maksimum ürün sayısına ulaştınız. Başka birini seçmek için bir ürünün seçimini kaldırın."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Sınıra Ulaşıldı"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Donanım\nyönergeleri"
@@ -93,6 +93,9 @@ msgstr "Standart Donanım"
 
 msgid "tabs/items/trophy"
 msgstr "Kayra Donanım"
+
+msgid "tooltips/footer/body"
+msgstr "Ödülleri almak için seçin"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Seçtiğiniz ödülleri almak için Al tuşuna tıklayın."

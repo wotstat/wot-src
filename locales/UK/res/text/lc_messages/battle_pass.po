@@ -229,23 +229,14 @@ msgstr "при купівлі:"
 msgid "battlePassBuyView/descr"
 msgstr "Купівля етапу прогресії миттєво відкриває й нараховує вам усі нагороди етапу."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Ці нагороди додадуть після завершення наступних етапів."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Зараз додадуть такі нагороди за етапи %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Ви миттєво отримаєте наступні нагороди"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Зараз додадуть такі нагороди за %(steps)s-й етап"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "БУДЕ РОЗБЛОКОВАНО"
+msgstr "Розблокуються в непройдених етапах"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "БУДЕ ОТРИМАНО НЕГАЙНО"
+msgstr "Отримуються негайно"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Активувати главу Бойової перепустки"
@@ -277,20 +268,17 @@ msgstr "Пісня про зубра"
 msgid "chapter/fullName/1114"
 msgstr "Пісня про зубра"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Елітний шлях"
 
-msgid "chapter/fullName/201"
-msgstr "Піски часу"
+msgid "chapter/fullName/211"
+msgstr "Спеціаліст"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Каскадер"
 
-msgid "chapter/fullName/203"
-msgstr "Господарі пустелі"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Стоїк"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "ПІСНЯ ПРО ЗУБРА"
@@ -298,17 +286,14 @@ msgstr "ПІСНЯ ПРО ЗУБРА"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "ПІСНЯ ПРО ЗУБРА"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ПІСКИ ЧАСУ"
+msgid "chapter/fullNameUppercased/211"
+msgstr "СПЕЦІАЛІСТ"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "КАСКАДЕР"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "ГОСПОДАРІ ПУСТЕЛІ"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "СТОЇК"
 
 msgid "chapter/title"
 msgstr "ГЛАВА «%(chapter)s»"
@@ -471,6 +456,9 @@ msgstr "Завдання на x3 досвіду екіпажу"
 
 msgid "equipCoinBonus"
 msgstr "Компоненти: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Набір 3D-обвісів"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "командир"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Відкриється після завершення всіх глав. Глав завершено: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Хапайте преміум машину й ексклюзивні елементи зовнішнього вигляду."
+msgstr "Зануртеся в неї, щоб здобути ексклюзивні нагороди й унікальні елементи зовнішнього вигляду."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Бойова перепустка: Far Cry уже тут!"
+msgstr "Спеціальна глава вже тут!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Хапайте більше нагород з Поліпшеною перепусткою!"
@@ -1114,11 +1102,8 @@ msgstr "Етап %(level)d Елітного шляху"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "досвіду кожному члену екіпажу вибраної машини %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "ВИБЕРІТЬ НАГОРОДУ"
-
 msgid "rewardChoice/title"
-msgstr "БОЙОВА ПЕРЕПУСТКА"
+msgstr "Виберіть нагороди"
 
 msgid "rewardChoice/titleChapter"
 msgstr "БОЙОВА ПЕРЕПУСТКА. ГЛАВА «%(chapter)s»"
@@ -1129,14 +1114,14 @@ msgstr "БОЙОВА ПЕРЕПУСТКА. ГЛАВА «%(chapter)s», ЕТАП 
 msgid "season/fullName/1002"
 msgstr "Пісня про зубра"
 
-msgid "season/fullName/20"
-msgstr "У пісках"
+msgid "season/fullName/21"
+msgstr "Відсторонені"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "ПІСНЯ ПРО ЗУБРА"
 
-msgid "season/fullNameUppercased/20"
-msgstr "У ПІСКАХ"
+msgid "season/fullNameUppercased/21"
+msgstr "ВІДСТОРОНЕНІ"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Настанови на вибір"

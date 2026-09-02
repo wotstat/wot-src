@@ -298,8 +298,26 @@ msgstr "Povećava pojačanje motora koje daju potisnici za {colorTagOpen}{value}
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Povećava maksimalan broj koliko puta potisnici mogu biti upotrebljeni u jednoj borbi za {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Smanjuje početno hlađenje pre nego što ICPP može koristiti za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Smanjuje vreme hlađenja pre nego se ICPP može ponovo koristiti za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Smanjuje vreme tokom koga je tvoje vozilo otkriveno neprijateljima nakon njihovog uočavanja uz pomoć ICPP za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Produžava vreme trajanja ICPP pretrage za {colorTagOpen}{value0} s{colorTagClose} i dodatno sužava sektor pretrage za {colorTagOpen}{value1} step.{colorTagClose}, povećava njegov domet za {colorTagOpen}{value2}%{colorTagClose}, i smanjuje prikrivenost vozila u pokretu za {colorTagOpen}{value3}%{colorTagClose} i vozila sakrivenih iza rastinja za {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Smanjuje šansu za povredu članova posade kada je vozilo oštećeno."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Povećava probojnu snagu nakon hica koji nije probio oklop za {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Povećava štetu nakon hica koji je probio oklop za {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Smanjuje rasipanje topa kada je top oštećen."
@@ -460,6 +478,18 @@ msgstr "Smanjuje vreme punjenja između granata u šaržeru."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Smanjuje šansu za uočavanje od strane neprijatelja tokom pucanja."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Smanjuje hlađenje punjenja kada šaržer nije pun {colorTagOpen}za{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Smanjuje hlađenje punjenja kada je šaržer pun {colorTagOpen}za{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Smanjuje vreme ubrzanog punjenja granate {colorTagOpen}za dodatnih {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Povećava broj punjenja dostupnih na početku borbe {colorTagOpen}za {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Smanjuje kašnjenje hlađenja topa za {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Smanjuje količinu toplote topa koja se stvara po hicu za {colorTagOpen}
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Povećava brzinu hlašenja topa za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Smanjuje vreme punjenja koaksijalne nevođene rakete za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Smanjuje vreme punjenja koaksijalne nevođene rakete za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Smanjuje vreme punjenja koaksijalne nevođene rakete za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Povećava štetu granate za {colorTagOpen}{value} poena{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Povećava štetu nanetu ne-HE granatama."
@@ -547,6 +589,18 @@ msgstr "Smanjuje rasipanje topa za {colorTagOpen}{value}%{colorTagClose} u reži
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Smanjuje vreme punjenja topa za {colorTagOpen}{value}%{colorTagClose} u režimu bunkera."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Povećava maksimalnu brzinu unapred u DSM režimu za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Povećava štetu nanetu specijalnim granatama u DSM režimu za {colorTagOpen}{value} poena{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Povećava štetu nanetu standardnim granatama u DSM režimu za {colorTagOpen}{value} poena{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Smanjuje vreme punjenja topa u DSM režimu za {colorTagOpen}{value}%{colorTagClose} (izuzev fugasnih granata)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Povećava poene zdravlja rezervoara i motora."
 
@@ -555,6 +609,9 @@ msgstr "Smanjuje penal na oštećenu policu municije i motor."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Povećava štetu tvojih granata nanetu modulima neprijateljskih vozila."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Smanjuje vreme potrebno za promenu između režima za {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Dozvoljava konfiguraciju dodatnog tovara municije i potrošne robe."
@@ -742,6 +799,18 @@ msgstr "Optimizacija oblika jezgra"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Prošireno spremište pojačivača"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifikovani upaljač ključanja"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Tečno hlađenje visokih performansi"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optika niskog razilaženja"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Konkurentno tečno hlađenje"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Poeni zdravlja vešanja"
 
@@ -750,6 +819,12 @@ msgstr "Brzina opravki vešanja"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Zaštita posade"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Tempirač podesivog upaljača: probojnost"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Tempirač podesivog upaljača: šteta"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situaciono rasipanje topa"
@@ -928,6 +1003,18 @@ msgstr "Vreme punjenja unutar šaržera"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Skrivanje nakon pucanja"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Namotaji rotora visoke čistoće"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktivno hlađenja rotora"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Kućište statora visoke provodljivosti"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortociklični namotaji"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Tečnost za prenos toplote male temperature"
 
@@ -936,6 +1023,18 @@ msgstr "Termalno kućište visoke provodljjivosti"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimizacija toplovoda"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimizacija ciklusa punjenja"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimizacija ciklusa punjenja"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimizacija ciklusa punjenja"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Poboljšani raspored bojeve glave"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Šteta ne-HE granata"
@@ -1018,6 +1117,18 @@ msgstr "Precizno balansiran rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hidraulični nabijač"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Poboljšani amortizeri vešanja"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modifikovane specijalne jedistvene granate"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modifikovane standardne jedistvene granate"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimizovani ciklus punjenja DSM"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Pojačanje poena zdravlja izabranih modula"
 
@@ -1026,6 +1137,9 @@ msgstr "Zaštita izabranih modula"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Šteta modula od granate"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimizovana rekalibracija"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Tovar municije i potrošne robe"

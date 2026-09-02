@@ -110,7 +110,7 @@ msgid "hub/basic_missions/personal/description/completedWithHonors/default"
 msgstr "Ολοκληρώσατε μετ' επαίνων την επιχείρηση {{currentOperationName}}! Η επιχείρηση {{nextOperationName}} είναι πλέον διαθέσιμη για σας."
 
 msgid "hub/basic_missions/personal/description/inProgress"
-msgstr "Μπορείτε να κερδίσετε Πόντους Εκστρατείας από την ολοκλήρωση Προσωπικών Αποστολών, Ημερήσιων Αποστολών και Εβδομαδιαίων Αποστολών."
+msgstr "Κερδίστε Πόντους Εκστρατείας από Προσωπικές, Ημερήσιες και Εβδομαδιαίες Αποστολές."
 
 msgid "hub/basic_missions/personal/description/inProgressForHonors"
 msgstr "Ολοκληρώστε και τις {{totalProgress}} αποστολές για να ολοκληρώσετε μετ' επαίνων την επιχείρηση και να κερδίσετε περισσότερα έπαθλα."
@@ -382,11 +382,56 @@ msgstr "Οι Εβδομαδιαίες Αποστολές είναι ένα σε�
 msgid "info_page/main/weekly/title"
 msgstr "Εβδομαδιαίες Αποστολές"
 
+msgid "pm/missionState/active"
+msgstr "Ενεργή"
+
+msgid "pm/missionState/complete"
+msgstr "Οι Αποστολές Ολοκληρώθηκαν"
+
+msgid "pm/missionState/improve"
+msgstr "Βελτίωση Αποτελέσματος"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Αλλαγή Όχήματος"
+
+msgid "pm/no_missions"
+msgstr "Καμία ενεργή αποστολή για το επιλεγμένο όχημα"
+
+msgid "pm/tier"
+msgstr "Ακατάλληλη βαθμίδα"
+
+msgid "pm/unavailable"
+msgstr "Αποστολή προσωρινά μη διαθέσιμη"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Καμία ενεργή αποστολή για το επιλεγμένο όχημα. Επιλέξτε κάποιο άλλο όχημα."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Η συγκεκριμένη αποστολή είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους. Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Το επιλεγμένο όχημα δεν πληροί τις προδιαγραφές της ενεργής επιχείρησης. Επιλέξτε κάποιο άλλο όχημα."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Καμία Ενεργή Αποστολή"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Προσωρινά Μη Διαθέσιμη"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Ακατάλληλη Βαθμίδα"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Όλες οι σημερινές τυπικές αποστολές ολοκληρώθηκαν"
 
 msgid "quests/daily_quests/completed"
 msgstr "Όλες Οι Ημερήσιες Αποστολές Ολοκληρώθηκαν"
+
+msgid "slider/title/missions"
+msgstr "Τυπικές Αποστολές"
+
+msgid "slider/title/personalMissions"
+msgstr "Προσωπικές Αποστολές"
 
 msgid "tooltip/common/timer"
 msgstr "Διαθεσιμότητα σε {{timeLeft}}"

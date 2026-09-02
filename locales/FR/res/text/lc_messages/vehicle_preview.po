@@ -40,6 +40,9 @@ msgstr "Rechercher"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Récupérer"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Aux Grandes boîtes"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Aucun véhicule %(nation)s de rang %(level)s n'est recherché"
 
@@ -54,6 +57,15 @@ msgstr "Réduction sur l'achat :"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Réduction sur la recherche :"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Ce véhicule peut être obtenu dans les {{@ style (color $color)}}Grandes boîtes !{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Grandes boîtes !"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Ce véhicule peut être obtenu dans les"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Appliquer une réduction de coupon : %(value)s"

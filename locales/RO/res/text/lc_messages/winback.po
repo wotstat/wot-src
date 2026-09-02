@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "ÎNCHIDE"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Recepționat!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Încălzirea îți va reaminti bazele jocului. Luptele se poartă împotriva vehiculelor controlate de AI și rezultatele nu afectează statisticile. Poți ieși oricând din modul Încălzire pentru a participa la lupte standard."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Încălzirea"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Finalizează misiuni, finalizează etapele de progres Înapoi în acțiune și primește recompense valoroase în joc. Fiecare misiune standard, premium sau bonus finalizate îți aduc recompensa mai aproape. Misiunile pot fi finalizate în lupte standard și Încălzire."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Finalizează misiuni, finalizează etapele de progres Înapoi în acțiune și primește recompense valoroase în joc. Pe perioada Certificatului de luptă, punctele Certificatului de luptă se vor adăuga listei de recompense. Misiunile pot fi finalizate în lupte standard și Încălzire."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Înapoi în acțiune"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Poți câștiga drept recompense vehicule premium de închiriat de generația VIII, vehicule cercetabile de generația VI și reduceri la cercetarea și cumpărarea de vehicule. După finalizarea progresului, vei primi recompensa principală."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Recompensele"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ÎNAPOI ÎN ACȚIUNE"
-
 msgid "mainRewardTooltip/description"
 msgstr "După finalizarea progresului Înapoi în acțiune, vei primi:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Recompensa principală"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Reducere la cercetarea și cumpărarea unui vehicul de generația %(level)s"
+msgstr "Reducere la cercetarea și cumpărarea unui vehicul de generația {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Luptele împotriva vehiculelor controlate de AI nu afectează statisticile. Pentru a câștiga, trebuie să capturezi baza inamică sau să distrugi toate vehiculele inamice. Luptele se poartă în formatul 15v15 în generațiile VI-XI și în formatul 10v10 în generațiile I-V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Încălzirea"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Se poate selecta orice vehicul cercetabil de generația %(level)s. vehiculul are modulele cercetate, echipaj și un loc în Garaj."
+msgstr "Se poate selecta orice vehicul cercetabil de generația {{level}}. vehiculul are modulele cercetate, echipaj și un loc în Garaj."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Vehicul de generația %(level)s"
+msgstr "Vehicul din generația {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "O reducere de %(researchDiscount)s la cercetare și o reducere de %(purchaseDiscount)s la cumpărarea unui vehicul de generația %(level)s. Se poate selecta orice vehicul cercetabil."
+msgstr "O reducere de {{researchDiscount}} la cercetare și o reducere de {{purchaseDiscount}} la cumpărarea unui vehicul de generația {{level}}. Se poate selecta orice vehicul cercetabil."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Reducerea la {whiteSpanish_Open}cercetare{whiteSpanish_Close} se adaugă reducerii conferite de fragmentele de proiect ale vehiculului. Se aplică cea mai mare reducere la {whiteSpanish_Open}cumpărare{whiteSpanish_Close}."
+msgstr "Reducerea la {{@ style (color $color)}}cercetare{{/}} se adaugă reducerii conferite de fragmentele de proiect ale vehiculului. Se aplică cea mai mare reducere la {{@ style (color $color)}}cumpărare{{/}}."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "O reducere la vehiculul de generația %(level)s"
+msgstr "O reducere la vehiculul din generația {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Recepționat!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Încălzirea îți va reaminti bazele jocului. Luptele se poartă împotriva vehiculelor controlate de AI și rezultatele nu afectează statisticile. Poți ieși oricând din modul Încălzire pentru a participa la lupte standard."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Încălzirea"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Finalizează misiuni, finalizează etapele de progres Înapoi în acțiune și primește recompense valoroase în joc. Pe perioada Certificatului de luptă, punctele Certificatului de luptă se vor adăuga listei de recompense. Misiunile pot fi finalizate în lupte standard și Încălzire."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Finalizează misiuni, finalizează etapele de progres Înapoi în acțiune și primește recompense valoroase în joc. Fiecare misiune standard, premium sau bonus finalizate îți aduc recompensa mai aproape. Misiunile pot fi finalizate în lupte standard și Încălzire."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Înapoi în acțiune"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Poți câștiga drept recompense vehicule premium de închiriat de generația VIII, vehicule cercetabile de generația VI și reduceri la cercetarea și cumpărarea de vehicule. După finalizarea progresului, vei primi recompensa principală."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Recompensele"
+
+msgid "umgIntroView/title"
+msgstr "ÎNAPOI ÎN ACȚIUNE"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Reducerea la %(research)s se adaugă reducerii conferite de fragmentele de proiect ale vehiculului. Se aplică cea mai mare reducere la %(purchase)s."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Ieși din Încălzire?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Lupte rămase: %(battlesCount)s"
+msgstr "Lupte rămase: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Lupte împotriva vehiculelor controlate de AI care nu afectează statisticile."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Ai primit de asemenea:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "O reducere de %(expDiscount)s la cercetare și o reducere de %(priceDiscount)s la cumpărarea unui vehicul de generația %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "O reducere de {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} la cercetare și o reducere de {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} la cumpărarea unui vehicul din generația {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Vehicul de generația %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Vehicul din generația {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Reducere pentru un vehicul de generația %(level)s"
+msgstr "Reducere pentru un vehicul din generația {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Pentru finalizarea unei serii de misiuni zilnice"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "PROGRES FINALIZAT"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "O reducere de %(expDiscount)s la cercetare\n și o reducere de %(priceDiscount)s la cumpărare"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "O reducere de {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} la cercetare și o reducere de {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} la cumpărare"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "În Garaj"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Zile de închiriere: %(days)s"
+msgstr "Zile de închiriere: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Reducere la cercetare și cumpărare"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "%(value)sx"
+msgstr "{{value}}x"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Selectează mai târziu"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Resetează filtrul"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Reducere la vehicul"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Vehicul de generația %(vehicleLevel)s"
+msgstr "Vehicul din generația {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Recepționat!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Nu pot deschide selecția recompenselor"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Ai cercetat toate vehiculele de generația %(vehicleLevel)s. Acum poți primi fragmente de proiect naționale drept recompensă."
+msgstr "Ai cercetat toate vehiculele din generația {{vehicleLevel}}. Acum poți primi fragmente de proiect naționale drept recompensă."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Caută după nume"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Afișat:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Setare implicită"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Recompense selectate: %(amountRewards)s %(infoIcon)s"
+msgstr "Recompense selectate: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Selectează recompense din categoriile oferite"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nu s-a găsit nimic. Schimbă filtrele de căutare sau resetează-le la starea inițială."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}%(bluePrintsAmount)sx fragment de proiect național{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Fragment de proiect național{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (reducere de %(expDiscount)s% la cercetare și reducere de  %(priceDiscount)s% la cumpărare)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (reducere de {{expDiscount}}% la cercetare și de {{priceDiscount}}% la cumpărare)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "O reducere la vehiculul de generația %(level)s"
+msgstr "O reducere la vehiculul din generația {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (toate modulele cercetate, echipaj și loc în Garaj)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Toate modulele cercetate, echipaj și un loc în Garaj)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Vehicul de generația %(level)s"
+msgstr "Vehicul din generația {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Apasă butonul „Revendică” pentru a primi recompensele selectate."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Recompense selectate: %(amountRewards)s"
+msgstr "Recompense selectate: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Cumpărare"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "SELECTEAZĂ RECOMPENSA"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "antitanc"

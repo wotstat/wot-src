@@ -232,11 +232,35 @@ msgstr "Toto dělo může střílet nepřetržitě bez nutnosti nabíjení. Kaž
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Automatický kanón s termální ochranou proti přehřátí"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Tento mechanismus okamžitě zkrátí dobu nabíjení granátu na krátkou, pevně stanovenou dobu. Každé použití spotřebuje jedno nabití na jeden granát, přičemž se nabití postupem času doplňují – rychleji, je-li zásobník plný. Na začátku bitvy je k dispozici stanovený počet nabití."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mechanismus nuceného nabíjení"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Toto vozidlo je vybaveno raketometem namontovaným na mantletu děla. Chcete-li přepnout na zaměřovač raket, stiskněte:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaxiální raketomet"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Při míření pomocí raketového zaměřovače stiskněte tlačítko pro odpal a vystřelte raketu:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaxiální raketomet"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Kdykoliv zasáhnete nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají.\nZničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Poloautomatický zásobník munice"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Díky vnějšímu modulu pro zásobování municí může toto vozidlo střílet silné mocné, vysoce kvalitní granáty, které způsobují vyšší poškození. Je-li modul aktivní, snižuje pohyblivost a rychlost palby stroje."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Režim Vnějšího podávání munice"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Pokud je vaše dělo nabito, můžete začít nahřívat svůj další výstřel. Čím vyšší úrovně nahřátí dosáhnete, tím větší bonus k průměrnému poškození obdržíte.\nPro spuštění procesu nahřívání stiskněte:"
@@ -345,6 +369,30 @@ msgstr "Po aktivaci raketové trysky zvýší výkon motoru a maximální rychlo
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Výhody a nevýhody"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Když zasáhnete odhalené nepřátelské vozidlo granátem, upraví se nastavení roznětky u následujícího granátu. Pokud první výstřel prorazil nepřátelský pancíř, zvýší se poškození následujícího výstřelu. Pokud ne, zvýší se průbojnost následujícího výstřelu."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Upravitelný nastavovač roznětky"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátů. Parametry jednotlivých granátů se liší v závislosti na zvoleném režimu a každý režim umožňuje rychle se přizpůsobit různým bojovým situacím."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Systém kalibrace munice"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Pokročilé optické zařízení zvyšuje váš dohled a zlepšuje odhalování pohybujících se vozidel i těch ukrytých v porostu. Po aktivaci skenuje úzký sektor před vaším vozidlem a odhaluje skryté cíle ještě před uplynutím doby obnovení."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infračervené vyhledávání a sledování (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Pokud však odhalí nepřítele, který dosud nebyl odhalen, stanete se na dabou dobu také okamžitě viditelnými a jak vy, tak nepřátelé, které odhalíte, o tom budete okamžitě informováni. Skenování můžete ručně zastavit a po krátké prodlevě spustit dobu obnovení."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infračervené vyhledávání a sledování (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost. Levé a pravé trysky mohou pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje couvání."

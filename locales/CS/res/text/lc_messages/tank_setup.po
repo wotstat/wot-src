@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "z HP vozidla"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "z rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+msgstr "z rychlosti otáčení děla"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "z rychlosti otáčení věže"
@@ -1325,7 +1325,7 @@ msgid "kpi/bonus/positive/vehicleGunShotDispersion"
 msgstr "k rozptylu za pohybu a při otáčení vozidla"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
-msgstr "k velkosti kruhu zaměřovače po výstřelu"
+msgstr "z velikosti kruhu zaměřovače po výstřelu"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
 msgstr "k rozptylu za pohybu"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "k bodům výdrže vozidla"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "k rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+msgstr "z rychlosti otáčení děla"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "k rychlosti otáčení věže"
@@ -2100,6 +2100,51 @@ msgstr " a "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Režim Vnějšího podávání munice tohoto vozidla umožňuje použití granátů s vyšším poškozením."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Základní hodnoty ve standardním režimu."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Upravené moduly v režimu vnějšího podávání munice"
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Základní parametry pro granáty s plným nabitím"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametry pro granáty s částečným nabitím"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Základní parametry pro granáty s plným nabitím"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Základní"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametry pro granáty s částečným nabitím"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "V kalibrovaném režimu je tento typ granátu efektivní proti zkosenému pancíři."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátu."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Ve standardním režimu je tento typ granátu efektivní proti pancíři bez clon."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standardní režim"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrovaný režim"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "V kalibrovaném režimu tento granát dokáže probít clony."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Ve standardním režimu je tento typ granátu efektivní proti vertikálnímu pancíři."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardní vybavení z kategorie „%(spec)s“ bude účinnější, když bude namontováno v tomto slotu. Vybavení z jiných kategorií zajistí pouze standardní bonus."

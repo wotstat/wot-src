@@ -19,7 +19,7 @@ package net.wg.gui.lobby.profile.components.chart
       override protected function draw() : void
       {
          super.draw();
-         if(isInvalid(InvalidationType.DATA,LAYOUT_INV))
+         if(isInvalidTypes(InvalidationType.DATA,LAYOUT_INV))
          {
             this.applyAxisUpdate();
          }

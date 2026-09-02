@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Тъй вярно!"
 
 msgid "error/description"
-msgstr "Информацията е временно недостъпна. Извиняваме се за неудобството. Моля опитайте отново по-късно."
+msgstr "Извиняваме се за неудобството. Моля опитайте отново по-късно."
 
 msgid "error/title"
-msgstr "Неуспешно отваряне на избора на награда"
+msgstr "Тази страница е временно недостъпна"
 
 msgid "footer/closeBtn/label"
 msgstr "Избери по-късно"
@@ -23,7 +23,7 @@ msgstr[1] "Изберете награди от посочените катег�
 msgstr[2] "Изберете награди от посочените категории."
 
 msgid "footer/okBtn/label"
-msgstr "Получи"
+msgstr "Получи награди"
 
 msgid "footer/rewardsSelected"
 msgstr "Избрани награди:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Вече получена"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Достигнат е максимумът за избраните предмети в тази категория. Можете да отмените избора на един предмет и да добавите друг."
+msgstr "Достигнахте максималния брой предмети, позволен в тази категория. Премахнете избора на един предмет, за да изберете друг."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Достигнат е максимумът"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Директиви\nза оборудване"
@@ -93,6 +93,9 @@ msgstr "Стандартно оборудване"
 
 msgid "tabs/items/trophy"
 msgstr "Наградно оборудване"
+
+msgid "tooltips/footer/body"
+msgstr "Изберете награди, за да ги получите"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Натиснете бутона \"Получи\", за да вземете избраните награди."

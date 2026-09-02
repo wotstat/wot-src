@@ -232,11 +232,35 @@ msgstr "Esta arma pode disparar continuamente sem necessidade de recarregar. Cad
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Canhão Automático com Controle Térmico de Sobreaquecimento"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "O mecanismo reduz instantaneamente o tempo de recarregamento dos projéteis para um curto período fixo. Cada utilização consome uma carga por projétil, e as cargas recarregam com o tempo — mais rapidamente quando o carregador está cheio. Um determinado número de cargas está disponível no início da batalha."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mecanismo de Carregamento Forçado"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Este veículo está equipado com um lançador de rockets montado no escudo da arma. Para mudar para a mira de rocket, prima:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Lançador Coaxial de Rockets"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Enquanto aponta com a mira do rocket, prima o botão de disparo para lançar um rocket:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Lançador Coaxial de Rockets"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Sempre que atingir um inimigo com um projétil, ganha um nível de eficiência de recarregamento, aumentando temporariamente a velocidade de recarregamento da sua arma. Os níveis acumulam com cada tiro.\nDestruir um veículo inimigo com um projétil concede níveis de eficiência de recarregamento adicionais."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Depósito de Munições Semi-automático"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "O Módulo Externo de Abastecimento de Munições deste veículo permite disparar projéteis unitários de alta potência que causam dano acrescido. Enquanto ativo, o módulo também reduz a mobilidade e a cadência de tiro."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "modo de Abastecimento de Munição Externa"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Se a sua arma estiver carregada, pode começar a aquecer o próximo tiro. Quanto maior for o nível de aquecimento, maior será o bónus no dano médio.\nPara iniciar o processo de aquecimento, pressione:"
@@ -345,6 +369,30 @@ msgstr "Após a activação, os propulsores a jacto aumentam a potência do moto
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Vantagens e Desvantagens"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Ao atingir um veículo inimigo visível com um projétil, o mecanismo de ajuste da espoleta do projétil seguinte é ajustado. Se o disparo inicial penetrou na blindagem inimiga, o dano do disparo seguinte aumenta. Caso contrário, a penetração do disparo seguinte aumenta."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Ajustador de Espoleta"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "A arma do veículo possui dispositivos especiais que permitem modificar alguns parâmetros do projétil antes do disparo. Os parâmetros para diferentes projéteis variam de acordo com o modo selecionado, e cada modo permite adaptar-se rapidamente a diferentes situações de combate."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Sistema de Calibração de Projéteis"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Um dispositivo ótico avançado que aumenta o seu alcance de visão e melhora a deteção de veículos em movimento e ocultos pela vegetação. Quando ativado, analisa um setor estreito à frente do seu veículo, revelando alvos ocultos antes de um período de recarga."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Busca e Rastreamento Por Infravermelho (BRPI)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "No entanto, se revelar um inimigo que ainda não foi detetado, também fica imediatamente detetado durante um período de tempo definido, e ambos tu e os inimigos que detetar são notificados instantaneamente. Pode interromper manualmente a procura e iniciar o tempo de recarga do dispositivo após um breve atraso."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Busca e Rastreamento Por Infravermelho (BRPI)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Propulsores de combustível sólido que melhoram a aceleração, a mobilidade e a manobrabilidade do veículo durante alguns segundos. Ao contrário dos propulsores a jato convencionais, os propulsores esquerdo e direito podem funcionar independentemente um do outro para uma rotação mais rápida do chassis e não restringem a capacidade de marcha-atrás."

@@ -1009,6 +1009,9 @@ msgstr "Kunde inte träna besättningsmedlem(mar) på grund av serverfel. Förs�
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)s st)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "pågående spelsession har avbrutits: Ditt Wargaming.net&nbsp;ID har använts för att logga in på World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Kunde inte ta emot gåva: serverfel."
+msgstr "Kunde inte öppna paket: serverfel."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Kunde inte ta emot gåva: vänta tills föregående funktion slutförts."
+msgstr "Kunde inte öppna paket: vänta tills föregående funktion slutförts."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
@@ -2383,30 +2386,6 @@ msgstr "Unikt kamouflage till %(vehicleName)s mottaget."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unikt kamouflage till %(vehicleName)s är tillgängligt för alla vagnar från %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Alla framsteg i operationen har sparats. Du kan återuppta kampanjerna när du vill."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampanjerna %(campaignName1)s och %(campaignName2)s har pausats"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Pausade operationer och respektive uppdrag har återupptagits."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampanjerna %(campaignName1)s och %(campaignName2)s har återupptagits"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Alla framsteg i operationen har sparats. Du kan återuppta kampanjen när du vill."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampanjen %(campaignName)s har pausats"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Pausade operationer har återupptagits."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampanjen %(campaignName)s har återupptagits"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s har monterats."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Ett fel inträffade vid mottagande av belöning. Försök igen senare."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s har monterats."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Ett fel inträffade vid mottagande av belöning. Försök igen senare."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s har monterats."
 
 msgid "personalMissions/reward/regular/server_error"

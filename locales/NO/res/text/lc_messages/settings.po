@@ -46,6 +46,15 @@ msgstr "Gir en mer detaljert og realistisk prosessering av ødeleggelser på obj
 msgid "HAVOK_ENABLED/warning"
 msgstr "Innstillingen iverksettes i den neste kampen, hvis den er skrudd av i denne kampen."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Forbedrede visuelle effekter"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Aktiverer forbedrede visuelle effekter. Hvis du deaktiverer dette alternativet går spillet tilbake til standardeffekter som kan forbedre ytelsen."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Innstillingen iverksettes i den neste kampen hvis den er skrudd av i denne kampen."
+
 msgid "LANGUAGE_CODE"
 msgstr "no"
 
@@ -175,11 +184,11 @@ msgstr "Aktivér belte- og hjulspor"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Viser belte og hjulspor på bakken.\n\nIkke tilgjengelig med forenklet grafikk eller med lav kvalitet på dekaler."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Skjul 3D vedheng i snikskyttermodus"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Synlighet av effekter og 3D vedheng"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Skjuler midlertidig kjøretøys 3D vedheng i siktesirkelen for kanonen i snikskyttermodus.\n\nReduserer visuelt støy og forbedrer siktepresisjon."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Justerer synligheten for effekter og 3D vedheng i midten av skjermbildet for å redusere visuelle hindringer mens du sikter. Synligheten til 3D vedheng justeres kun i snikskyttermodus.\n\nLavere verdier gjør effekter og 3D vedheng mer gjennomsiktige for økt klarhet når du sikter."
 
 msgid "WATER_QUALITY"
 msgstr "Vannkvalitet"
@@ -1995,6 +2004,15 @@ msgstr "Modus:"
 
 msgid "screenMode/windowed"
 msgstr "Vindu"
+
+msgid "showPrebattleHighlights"
+msgstr "Aktiver høydepunkter"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Viser et utvalg av visuelt slående tanks under nedtellingen før kampen.\n\nDeaktivering av denne parameteren kan forbedre spillets ytelse."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Hvis innstillingen er deaktivert for denne kampen blir den aktivert for den neste."
 
 msgid "smoothing/description"
 msgstr "Avgjør graden av merprosessering av tynne linjer og konturer i spillets bilde. Minimerer artefakter pga mønstre. Kanter og objekter blir mykere."

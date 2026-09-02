@@ -5857,6 +5857,978 @@ msgstr "Sebzés"
 msgid "pm3_9_3_9_title_kills"
 msgstr "Megsemmisítés"
 
+msgid "pm4_11_1_1"
+msgstr "Élharcos-1"
+
+msgid "pm4_11_1_10"
+msgstr "Élharcos-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Okozz %(goal)s HP sebzést lövéssel olyan ellenséges járműveknek, amelyek eltalálták a járművedet"
+
+msgid "pm4_11_1_10_short"
+msgstr "Élharcos-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_11"
+msgstr "Élharcos-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legfeljebb %(distanceShortOrEqual)s m távolságból"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Semmisíts meg egy ellenséges járművet ütközéssel, és éld túl az ütközést"
+
+msgid "pm4_11_1_11_short"
+msgstr "Élharcos-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_12"
+msgstr "Élharcos-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legfeljebb %(distanceShortOrEqual)s m távolságról"
+
+msgid "pm4_11_1_12_short"
+msgstr "Élharcos-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_13"
+msgstr "Élharcos-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Szerezd meg a Nagy kaliber kitüntetést"
+
+msgid "pm4_11_1_13_short"
+msgstr "Élharcos-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "A csata hősei"
+
+msgid "pm4_11_1_14"
+msgstr "Élharcos-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Okozz, szenvedj el és fogj fel összesen %(goal)s HP sebzést"
+
+msgid "pm4_11_1_14_short"
+msgstr "Élharcos-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_1_15"
+msgstr "Élharcos-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet a járműved látótávolságán belül"
+
+msgid "pm4_11_1_15_short"
+msgstr "Élharcos-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_16"
+msgstr "Élharcos-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Szerezd meg az Acélfal kitüntetést"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Legyél a legtöbb sebzést okozó játékos a csapatodban"
+
+msgid "pm4_11_1_16_short"
+msgstr "Élharcos-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "A csata hősei"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_1_17"
+msgstr "Élharcos-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Az okozott sebzésed és a páncélod által felfogott sebzés összesen legyen legalább %(vehicleHealthFactor)sx annyi, mint a járműved életereje"
+
+msgid "pm4_11_1_17_short"
+msgstr "Élharcos-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Sebzés és blokkolás"
+
+msgid "pm4_11_1_18"
+msgstr "Élharcos-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Okozz %(goal)s HP sebzést mozgásképtelen ellenséges járműveknek"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "pm4_11_1_18_short"
+msgstr "Élharcos-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_19"
+msgstr "Élharcos-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Okozz %(goal)s HP sebzést azonos vagy magasabb szintű ellenséges járműveknek úgy, hogy legfeljebb %(distanceShortOrEqual)s m távolságról tüzelsz rájuk"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Semmisíts meg %(goal)s azonos vagy magasabb szintű ellenséges járművet legfeljebb %(distanceShortOrEqual)s m távolságról"
+
+msgid "pm4_11_1_19_short"
+msgstr "Élharcos-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges nehéz tankoknak"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Okozz sebzést ellenséges nehéz tankoknak lövéssel %(goal)s alkalommal"
+
+msgid "pm4_11_1_1_short"
+msgstr "Élharcos-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_2"
+msgstr "Élharcos-2"
+
+msgid "pm4_11_1_20"
+msgstr "Élharcos-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet %(uniqueGoal)s különböző típusból"
+
+msgid "pm4_11_1_20_short"
+msgstr "Élharcos-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_21"
+msgstr "Élharcos-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Okozz, szenvedj el és fogj fel összesen %(goal)s HP sebzést"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Az általad okozott sebzés érje el a csapatod által okozott összes sebzés 25%%-át"
+
+msgid "pm4_11_1_21_short"
+msgstr "Élharcos-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet %(uniqueGoal)s különböző típusból"
+
+msgid "pm4_11_1_2_short"
+msgstr "Élharcos-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_1_3"
+msgstr "Élharcos-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Legyél a legtöbb sebzést okozó játékos a csapatodban"
+
+msgid "pm4_11_1_3_short"
+msgstr "Élharcos-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_1_4"
+msgstr "Élharcos-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Fogj fel %(goal)s HP sebzést, miközben a járműved mozdulatlan"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "pm4_11_1_4_short"
+msgstr "Élharcos-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Blokkolás"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_5"
+msgstr "Élharcos-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Okozz %(goal)s HP sebzést a látótávolságodon belül tartózkodó ellenséges járműveknek"
+
+msgid "pm4_11_1_5_short"
+msgstr "Élharcos-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_6"
+msgstr "Élharcos-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Az okozott sebzésed és a páncélod által felfogott sebzés összesen legyen legalább %(vehicleHealthFactor)sx annyi, mint a járműved életereje"
+
+msgid "pm4_11_1_6_short"
+msgstr "Élharcos-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Sebzés és blokkolás"
+
+msgid "pm4_11_1_7"
+msgstr "Élharcos-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legfeljebb %(distanceShortOrEqual)s m távolságból"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legalább %(distanceGreatOrEqual)s m távolságból"
+
+msgid "pm4_11_1_7_short"
+msgstr "Élharcos-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_8"
+msgstr "Élharcos-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges nehéz tankoknak"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Legyél a legtöbb sebzést okozó játékos a csapatodban"
+
+msgid "pm4_11_1_8_short"
+msgstr "Élharcos-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_1_9"
+msgstr "Élharcos-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Okozz %(goal)s HP sebzést mozgásképtelen ellenséges járműveknek"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "pm4_11_1_9_short"
+msgstr "Élharcos-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_1"
+msgstr "Rajtaütés-1"
+
+msgid "pm4_11_2_10"
+msgstr "Rajtaütés-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Okozz %(goal)s HP sebzést"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Legyél a legtöbb tapasztalati pontot szerző játékos a csapatodban"
+
+msgid "pm4_11_2_10_short"
+msgstr "Rajtaütés-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_2_11"
+msgstr "Rajtaütés-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Okozz %(goal)s HP sebzést mozgó ellenséges járműveknek lövéssel"
+
+msgid "pm4_11_2_11_short"
+msgstr "Rajtaütés-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_12"
+msgstr "Rajtaütés-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Okozz %(goal)s HP sebzést"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet"
+
+msgid "pm4_11_2_12_short"
+msgstr "Rajtaütés-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_13"
+msgstr "Rajtaütés-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Az általad okozott sebzés érje el a csapatod által okozott összes sebzés 25%%-át"
+
+msgid "pm4_11_2_13_short"
+msgstr "Rajtaütés-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_14"
+msgstr "Rajtaütés-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Szerezd meg a Nagy kaliber kitüntetést"
+
+msgid "pm4_11_2_14_short"
+msgstr "Rajtaütés-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "A csata hősei"
+
+msgid "pm4_11_2_15"
+msgstr "Rajtaütés-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Okozz %(vehicleHealthFactor)sx annyi sebzést, mint a járműved életereje"
+
+msgid "pm4_11_2_15_short"
+msgstr "Rajtaütés-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_16"
+msgstr "Rajtaütés-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legalább %(damageDealt)s HP sebzést okozva"
+
+msgid "pm4_11_2_16_short"
+msgstr "Rajtaütés-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_17"
+msgstr "Rajtaütés-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Okozz %(goal)s HP sebzést"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet"
+
+msgid "pm4_11_2_17_short"
+msgstr "Rajtaütés-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_18"
+msgstr "Rajtaütés-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legalább %(distanceGreatOrEqual)s m távolságból"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Legyél a legtöbb tapasztalati pontot szerző játékos a csapatodban"
+
+msgid "pm4_11_2_18_short"
+msgstr "Rajtaütés-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_2_19"
+msgstr "Rajtaütés-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet, mielőtt a járműved sebzést szenvedne el"
+
+msgid "pm4_11_2_19_short"
+msgstr "Rajtaütés-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Okozz %(goal)s HP sebzést"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Érj el %(goal)s páncélt átütő találatot"
+
+msgid "pm4_11_2_1_short"
+msgstr "Rajtaütés-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Páncélátütés"
+
+msgid "pm4_11_2_2"
+msgstr "Rajtaütés-2"
+
+msgid "pm4_11_2_20"
+msgstr "Rajtaütés-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Az általad okozott sebzés érje el a csapatod által okozott összes sebzés 30%%-át"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Semmisítsd meg az összes ellenséges járművet / foglald el, vagy védd meg a bázist"
+
+msgid "pm4_11_2_20_short"
+msgstr "Rajtaütés-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Nyerj meg egy csatát"
+
+msgid "pm4_11_2_21"
+msgstr "Rajtaütés-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "pm4_11_2_21_short"
+msgstr "Rajtaütés-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Okozz %(goal)s HP sebzést a csata első %(timeLimit)s percében"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet %(uniqueGoal)s különböző típusból"
+
+msgid "pm4_11_2_2_short"
+msgstr "Rajtaütés-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_3"
+msgstr "Rajtaütés-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Legyél a legtöbb tapasztalati pontot szerző játékos a csapatodban"
+
+msgid "pm4_11_2_3_short"
+msgstr "Rajtaütés-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_2_4"
+msgstr "Rajtaütés-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Okozz %(goal)s HP sebzést ellenséges közepes tankoknak"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet a járműved látótávolságán kívül"
+
+msgid "pm4_11_2_4_short"
+msgstr "Rajtaütés-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_5"
+msgstr "Rajtaütés-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Okozz %(goal)s HP sebzést, és maradj észrevétlen a sebzés okozásának pillanatában"
+
+msgid "pm4_11_2_5_short"
+msgstr "Rajtaütés-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_6"
+msgstr "Rajtaütés-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Az okozott és a közreműködési sebzésed összesen legyen %(goal)s HP"
+
+msgid "pm4_11_2_6_short"
+msgstr "Rajtaütés-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_2_7"
+msgstr "Rajtaütés-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Szerezd meg a Harckocsizó-mesterlövész kitüntetést"
+
+msgid "pm4_11_2_7_short"
+msgstr "Rajtaütés-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "A csata hősei"
+
+msgid "pm4_11_2_8"
+msgstr "Rajtaütés-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legalább %(distanceGreatOrEqual)s m távolságról"
+
+msgid "pm4_11_2_8_short"
+msgstr "Rajtaütés-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_2_9"
+msgstr "Rajtaütés-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Okozz %(goal)s HP sebzést mozgásképtelen ellenséges járműveknek"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Okozz %(goal)s HP sebzést"
+
+msgid "pm4_11_2_9_short"
+msgstr "Rajtaütés-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Sebzés"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Sebzés"
+
+msgid "pm4_11_3_1"
+msgstr "Közreműködés-1"
+
+msgid "pm4_11_3_10"
+msgstr "Közreműködés-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Tedd lehetővé a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak ellenséges járműveknek azáltal, hogy felderíted vagy mozgásképtelenné teszed őket, miközben észrevétlen maradsz"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Kábíts el ellenséges közepes tankokat és páncélvadászokat összesen %(goal)s másodpercre. A potenciális kábítási idő számít"
+
+msgid "pm4_11_3_10_short"
+msgstr "Közreműködés-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Kábítás"
+
+msgid "pm4_11_3_11"
+msgstr "Közreműködés-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Tedd lehetővé a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak ellenséges járműveknek azáltal, hogy felderíted, mozgásképtelenné teszed vagy elkábítod őket"
+
+msgid "pm4_11_3_11_short"
+msgstr "Közreműködés-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_12"
+msgstr "Közreműködés-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Tedd lehetővé felderítéssel, mozgásképtelenné tétellel vagy kábítással a csapattársaidnak, hogy megsemmisítsenek %(goal)s ellenséges járművet"
+
+msgid "pm4_11_3_12_short"
+msgstr "Közreműködés-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_13"
+msgstr "Közreműködés-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Szerezd meg a Mesterjelvény I. osztályt vagy magasabbat"
+
+msgid "pm4_11_3_13_short"
+msgstr "Közreműködés-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Mesterjelvény"
+
+msgid "pm4_11_3_14"
+msgstr "Közreműködés-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Éld túl a csatát"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Legyél a legtöbb tapasztalati pontot szerző játékos mindkét csapat tagjai közül"
+
+msgid "pm4_11_3_14_short"
+msgstr "Közreműködés-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Éld túl"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Legjobb játékos"
+
+msgid "pm4_11_3_15"
+msgstr "Közreműködés-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Tedd lehetővé felderítéssel, mozgásképtelenné tétellel vagy kábítással a csapattársaidnak, hogy megsemmisítsenek %(goal)s ellenséges járművet"
+
+msgid "pm4_11_3_15_short"
+msgstr "Közreműködés-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_16"
+msgstr "Közreműködés-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek, miközben legalább %(attackerMovingSpeedGreaterOrEqual)s km/h-s sebességgel haladsz"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Semmisíts meg %(goal)s mozgó ellenséges járművet lövéssel"
+
+msgid "pm4_11_3_16_short"
+msgstr "Közreműködés-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Sebzés"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_17"
+msgstr "Közreműködés-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Éld túl a csatát"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Tedd lehetővé a csapattársaidnak kábítással vagy mozgásképtelenné tétellel, hogy %(goal)s HP sebzést okozzanak ellenséges járműveknek, és éld túl a csatát"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Az okozott sebzésnek (a közreműködési sebzést is beleszámítva) összesen %(goal)s HP-nak kell lennie, és túl kell élned a csatát"
+
+msgid "pm4_11_3_17_short"
+msgstr "Közreműködés-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Éld túl"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_3_18"
+msgstr "Közreműködés-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legfeljebb %(distanceShortOrEqual)s m távolságról"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legalább %(distanceGreatOrEqual)s m távolságról"
+
+msgid "pm4_11_3_18_short"
+msgstr "Közreműködés-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_19"
+msgstr "Közreműködés-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Szerezd meg a Tank ász mesterjelvényt"
+
+msgid "pm4_11_3_19_short"
+msgstr "Közreműködés-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Mesterjelvény"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Éld túl a csatát"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Semmisíts meg egy ellenséges önjáró löveget, és éld túl a csatát"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Kábíts el ellenséges járműveket %(goal)s alkalommal, és éld túl a csatát"
+
+msgid "pm4_11_3_1_short"
+msgstr "Közreműködés-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Éld túl"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Kábítás"
+
+msgid "pm4_11_3_2"
+msgstr "Közreműködés-2"
+
+msgid "pm4_11_3_20"
+msgstr "Közreműködés-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Tedd lehetővé a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak az általad felderített ellenséges járműveknek, maradj észrevétlen, és nyerd meg a csatát"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Kábíts el ellenséges nehéz tankokat %(goal)s alkalommal, és nyerd meg a csatát"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Semmisítsd meg az összes ellenséges járművet / foglald el, vagy védd meg a bázist"
+
+msgid "pm4_11_3_20_short"
+msgstr "Közreműködés-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Kábítás"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Nyerj meg egy csatát"
+
+msgid "pm4_11_3_21"
+msgstr "Közreműködés-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Éld túl a csatát"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Az okozott sebzésnek (a közreműködési sebzést is beleszámítva) összesen %(goal)s HP-nak kell lennie"
+
+msgid "pm4_11_3_21_short"
+msgstr "Közreműködés-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Éld túl"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Semmisíts meg egy ellenséges könnyű tankot"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Kábíts el ellenséges járműveket összesen %(goal)s másodpercre. A potenciális kábítási idő számít"
+
+msgid "pm4_11_3_2_short"
+msgstr "Közreműködés-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Kábítás"
+
+msgid "pm4_11_3_3"
+msgstr "Közreműködés-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Tedd lehetővé felderítéssel, mozgásképtelenné tétellel vagy kábítással a csapattársaidnak, hogy sebzést okozzanak %(goal)s ellenséges járműnek"
+
+msgid "pm4_11_3_3_short"
+msgstr "Közreműködés-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_4"
+msgstr "Közreműködés-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Éld túl a csatát"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Deríts fel %(goal)s ellenséges járművet, és éld túl a csatát"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Kábíts el %(stunSeveralTargets)s ellenséges járművet egyetlen lövéssel %(goal)s alkalommal, és éld túl a csatát"
+
+msgid "pm4_11_3_4_short"
+msgstr "Közreműködés-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Éld túl"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Felderítés"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Kábítás"
+
+msgid "pm4_11_3_5"
+msgstr "Közreműködés-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Szerezd meg a Mesterjelvény II. osztályt vagy magasabbat"
+
+msgid "pm4_11_3_5_short"
+msgstr "Közreműködés-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Mesterjelvény"
+
+msgid "pm4_11_3_6"
+msgstr "Közreműködés-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Az okozott sebzésnek (a közreműködési sebzést is beleszámítva) összesen %(goal)s HP-nak kell lennie"
+
+msgid "pm4_11_3_6_short"
+msgstr "Közreműködés-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Komplex feltétel"
+
+msgid "pm4_11_3_7"
+msgstr "Közreműködés-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Tedd lehetővé felderítéssel, kábítással vagy mozgásképtelenné tétellel a csapattársaidnak, hogy %(goal)s HP sebzést okozzanak ellenséges járműveknek"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Semmisíts meg egy ellenséges önjáró löveget"
+
+msgid "pm4_11_3_7_short"
+msgstr "Közreműködés-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Közreműködés"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_8"
+msgstr "Közreműködés-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet"
+
+msgid "pm4_11_3_8_short"
+msgstr "Közreműködés-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_9"
+msgstr "Közreműködés-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet legfeljebb %(distanceShortOrEqual)s m távolságról"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Kábíts el ellenséges közepes tankokat vagy páncélvadászokat %(goal)s alkalommal"
+
+msgid "pm4_11_3_9_short"
+msgstr "Közreműködés-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Megsemmisítés"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Kábítás"
+
 msgid "quest/advice/biathlon/description"
 msgstr "Minden ilyen típusú küldetésnél korlátozott számú próbálkozás áll rendelkezésre a megadott feltétel teljesítésére."
 
@@ -10345,6 +11317,9 @@ msgstr "Második front"
 msgid "season_3"
 msgstr "3. szektor"
 
+msgid "season_4"
+msgstr "3. szektor"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Küldetéssorozat minden járműtípushoz, amellyel megszerezheted az amerikai Black Rock nehéz tankot."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Küldetéssorozat az összes járműtípushoz, amellyel megszerezheted a német Fossa VM 68 közepes tankot."
 
 msgid "tile_1_descr"
 msgstr "Küldetéssorozat minden járműtípushoz, amellyel megszerezheted a német StuG IV-es páncélvadászt."

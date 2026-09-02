@@ -40,6 +40,9 @@ msgstr "Ανακάλυψη"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Ανάκτηση"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Μεγάλα Κουτιά"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Δεν έχει ανακαλυφθεί κάποιο από τα %(nation)s οχήματα της Βαθμίδας %(level)s"
 
@@ -54,6 +57,15 @@ msgstr "Έκπτωση στην αγορά:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Έκπτωση στην ανακάλυψη:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Μπορεί να βρείτε αυτό το όχημα μέσα στα {{@ style (color $color)}}Μεγάλα Κουτιά!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Μεγάλα Κουτιά!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Μπορεί να βρείτε το όχημα αυτό από"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Εφαρμογή έκπτωσης κουπονιού: %(value)s"

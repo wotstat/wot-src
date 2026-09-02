@@ -139,15 +139,6 @@ msgstr "Присъжда се на играчи за техния безцене
 msgid "15YearsOfService_descr"
 msgstr "Вие сте в играта от %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Резервно постижение БП 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Присъжда се за завършване на Напредъка."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Дава се за постиженията ви по време на игра"
-
 msgid "BPReserveAchievement_2"
 msgstr "Резервно постижение БП 2"
 
@@ -429,6 +420,15 @@ msgstr "• Дава се за завършване на всичките три
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Дава се за вашите постижения по време на Боен пропуск Сезон XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Сблъсък в Ниската земя"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Дава се за завършване на всичките три глави."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Дава се за вашите постижения по време на Боен пропуск Сезон XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Основният напредък се състои от 45 етапа."
@@ -1828,6 +1828,48 @@ msgstr "Сребърен дракон"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Дава се за събиране на най-малко 9 цвята на Атака в Годината на дракона в режим Атака."
 
+msgid "comp7_6_1"
+msgstr "Лазурна искра"
+
+msgid "comp7_6_1_descr"
+msgstr "Дава се за изпълнение на поредица от мисии в Сезона на Лазурния феникс в режим Атака."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Бронзов феникс"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Дава се за събиране на най-малко 6 цвята на Атака в Годината на феникса в режим Атака."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Шампион на Годината на феникса"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Дава се за събиране на най-малко 15 цвята на Атака в Годината на феникса в режим Атака."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Златен феникс"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Дава се за събиране на най-малко 12 цвята на Атака в Годината на феникса в режим Атака."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Железен феникс"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Дава се за събиране на най-малко 3 цвята на Атака в Годината на феникса в режим Атака."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Легенда на Годината на феникса"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Дава се за събиране на най-малко 18 цвята на Атака в Годината на феникса в режим Атака."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Сребърен феникс"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Дава се за събиране на най-малко 9 цвята на Атака в Годината на феникса в режим Атака."
+
 msgid "conqueror"
 msgstr "Завоевател %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Дава се само в Случайни битки."
 
 msgid "huntsman_descr"
-msgstr "Унищожете всички вражески леки танкове (поне 3) по време на една битка."
+msgstr "Унищожете всички вражески леки танкове (поне 2) по време на една битка."
 
 msgid "huntsman_heroInfo"
 msgstr "Сержант Григорий Найдин е бил командир на БТ-7. На 25 юни 1941 г. близо до литовския град Рудишкяй унищожава бронирана колона на Вермахта, включваща 15 машини и 10 оръдия от 19-и Механизиран корпус. Найдин успява да удържи настъплението на немците за два дни, което позволило да се организира отбраната на Вилнюс. За тези си действия Найдин е обявен за Герой на Съветския съюз."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Изпълнете с отличие 15 лични мисии за Съюза. Награда: медал \"Образцово изпълнение: Съюз\" III степен."
 
 msgid "readyForBattleAssault"
-msgstr "Образцово изпълнение: Авангард"
+msgstr "Изключително представяне: Сектор 3 Авангард"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "За изпълнение на всички мисии за Авангард в кампанията Сектор 3."
+msgstr "За изпълнение на всички мисии от основните операции за Авангард в кампанията Сектор 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Изключително представяне: Fossa Авангард"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "За изпълнение на всички мисии от операция Fossa за Авангард в кампанията Сектор 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Изключително представяне: Fossa Засада"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "За изпълнение на всички мисии от операция Засада за Авангард в кампанията Сектор 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Изключително представяне: Fossa Съдействие"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "За изпълнение на всички мисии за съдействие за Авангард в кампанията Сектор 3."
 
 msgid "readyForBattleHT"
 msgstr "Образцово изпълнение: тежки танкове"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Изпълнете с отличие 15 лични мисии за САУ. Награда: медал \"Образцово изпълнение: САУ\" IV степен."
 
 msgid "readyForBattleSniper"
-msgstr "Образцово изпълнение: Засада"
+msgstr "Изключително представяне: Сектор 3 Засада"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "За изпълнение на всички мисии за Засада в кампанията Сектор 3."
+msgstr "За изпълнение на всички мисии от основните операции за Засада в кампанията Сектор 3."
 
 msgid "readyForBattleSupport"
-msgstr "Образцово изпълнение: Помощ"
+msgstr "Изключително представяне: Сектор 3 Съдействие"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "За изпълнение на всички мисии за Помощ в кампанията Сектор 3."
+msgstr "За изпълнение на всички мисии за съдействие от основните операции в кампанията Сектор 3."
 
 msgid "reliableComrade"
 msgstr "Боен другар"
@@ -4692,6 +4761,15 @@ msgstr "Дава се за завършване на напредъка на Waf
 
 msgid "wt2025progression_descr"
 msgstr "Завършете напредъка на режим Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Ездач на бурята"
+
+msgid "wt2026progression_condition"
+msgstr "Дава се за завършване на кампанията „Waffenträger: Генезис 2026“. Тази чест се присъжда на онези, които се изправиха срещу първата мислеща машина на фон Кригер - „Електрически интелект“ - и прекъснаха всяка верига, чрез която тя проникваше в нашия свят."
+
+msgid "wt2026progression_descr"
+msgstr "Завършете напредъка на Waffenträger: Генезис 2026."
 
 msgid "wtBossWins"
 msgstr "Господар на светкавицата"

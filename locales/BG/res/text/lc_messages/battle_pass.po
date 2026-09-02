@@ -229,23 +229,14 @@ msgstr "при покупка:"
 msgid "battlePassBuyView/descr"
 msgstr "Закупуването на етап от прогресията незабавно отключва и ви дава всички награди, включени в този етап."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Тези награди ще получите след като завършите предстоящите етапи."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Следните награди ще ви бъдат дадени за етапи %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Ще получите незабавно следните награди"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Следните награди ще ви бъдат дадени за етап %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "ЩЕ БЪДАТ ОТКЛЮЧЕНИ"
+msgstr "Отключване на незавършени етапи"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "ЩЕ БЪДАТ ПОЛУЧЕНИ ВЕДНАГА"
+msgstr "Получаване незабавно"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Активиране на главата на Боен пропуск"
@@ -277,20 +268,17 @@ msgstr "Кармен де Бизонте"
 msgid "chapter/fullName/1114"
 msgstr "Кармен де Бизонте"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Елитна верига"
 
-msgid "chapter/fullName/201"
-msgstr "Погребано време"
+msgid "chapter/fullName/211"
+msgstr "Специалист"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Каскадьор"
 
-msgid "chapter/fullName/203"
-msgstr "Пустинно командване"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Стоик"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "КАРМЕН ДЕ БИЗОНТЕ"
@@ -298,17 +286,14 @@ msgstr "КАРМЕН ДЕ БИЗОНТЕ"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "КАРМЕН ДЕ БИЗОНТЕ"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ПОГРЕБАНО ВРЕМЕ"
+msgid "chapter/fullNameUppercased/211"
+msgstr "СПЕЦИАЛИСТ"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "КАСКАДЬОР"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "ПУСТИННО КОМАНДВАНЕ"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "СТОИК"
 
 msgid "chapter/title"
 msgstr "ГЛАВА %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Мисия за ×3 опит на екипажа"
 
 msgid "equipCoinBonus"
 msgstr "Компоненти: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Набор триизмерни приставки"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Командир"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Достъпно след завършване на всички глави. Завършени глави: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Вземете Премиум машина и ексклузивни елементи за персонализация"
+msgstr "Гмурнете се в него за ексклузивни награди и уникални елементи за персонализация."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Боен пропуск: Far Cry е тук!"
+msgstr "Специалната глава е тук!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Купете Подобрен пропуск и вземете още награди!"
@@ -1114,11 +1102,8 @@ msgstr "Етап %(level)d от Елитната верига"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "опит за всеки член на екипажа на избраната машина от %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "ИЗБЕРЕТЕ НАГРАДАТА СИ"
-
 msgid "rewardChoice/title"
-msgstr "БОЕН ПРОПУСК"
+msgstr "Изберете наградите си"
 
 msgid "rewardChoice/titleChapter"
 msgstr "БОЕН ПРОПУСК: ГЛАВА %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "БОЕН ПРОПУСК: ГЛАВА %(chapter)s, ЕТАП %(level)s"
 msgid "season/fullName/1002"
 msgstr "Кармен де Бизонте"
 
-msgid "season/fullName/20"
-msgstr "Претърсване на пясъците"
+msgid "season/fullName/21"
+msgstr "Заземен"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "КАРМЕН ДЕ БИЗОНТЕ"
 
-msgid "season/fullNameUppercased/20"
-msgstr "ПРЕТЪРСВАНЕ НА ПЯСЪЦИТЕ"
+msgid "season/fullNameUppercased/21"
+msgstr "ЗАЗЕМЕН"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Директиви, от които да избирате"

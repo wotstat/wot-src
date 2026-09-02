@@ -5857,6 +5857,978 @@ msgstr "Шкода"
 msgid "pm3_9_3_9_title_kills"
 msgstr "Знищення"
 
+msgid "pm4_11_1_1"
+msgstr "Авангард-1"
+
+msgid "pm4_11_1_10"
+msgstr "Авангард-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника, яка завдала вам шкоди пострілами"
+
+msgid "pm4_11_1_10_short"
+msgstr "Авангард-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Шкода"
+
+msgid "pm4_11_1_11"
+msgstr "Авангард-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Знищити машину супротивника тараном і вижити"
+
+msgid "pm4_11_1_11_short"
+msgstr "Авангард-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_1_12"
+msgstr "Авангард-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_1_12_short"
+msgstr "Авангард-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_1_13"
+msgstr "Авангард-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Здобути нагороду «Основний калібр»"
+
+msgid "pm4_11_1_13_short"
+msgstr "Авангард-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Герої битви"
+
+msgid "pm4_11_1_14"
+msgstr "Авангард-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Завдати, отримати й заблокувати сумарно %(goal)s од. шкоди"
+
+msgid "pm4_11_1_14_short"
+msgstr "Авангард-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_1_15"
+msgstr "Авангард-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника в межах радіуса огляду вашої машини"
+
+msgid "pm4_11_1_15_short"
+msgstr "Авангард-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_1_16"
+msgstr "Авангард-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Здобути нагороду «Сталева стіна»"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Посісти перше місце за кількістю завданої шкоди у своїй команді"
+
+msgid "pm4_11_1_16_short"
+msgstr "Авангард-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Герої битви"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_1_17"
+msgstr "Авангард-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Сумарно завдати й отримати заблокованої бронею шкоди щонайменше в %(vehicleHealthFactor)s р. більше від міцності власної машини"
+
+msgid "pm4_11_1_17_short"
+msgstr "Авангард-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Заподіяння та блокування шкоди"
+
+msgid "pm4_11_1_18"
+msgstr "Авангард-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Завдати %(goal)s од. шкоди знерухомленій техніці супротивника"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "pm4_11_1_18_short"
+msgstr "Авангард-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Шкода"
+
+msgid "pm4_11_1_19"
+msgstr "Авангард-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника вашого рівня або вище з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника вашого рівня або вище з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_1_19_short"
+msgstr "Авангард-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Завдати %(goal)s од. шкоди важким танкам супротивника"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "%(goal)s р. завдати шкоди пострілами важким танкам супротивника"
+
+msgid "pm4_11_1_1_short"
+msgstr "Авангард-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Шкода"
+
+msgid "pm4_11_1_2"
+msgstr "Авангард-2"
+
+msgid "pm4_11_1_20"
+msgstr "Авангард-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Знищити %(goal)s од. техніки супротивника %(uniqueGoal)s різних типів"
+
+msgid "pm4_11_1_20_short"
+msgstr "Авангард-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Знищення"
+
+msgid "pm4_11_1_21"
+msgstr "Авангард-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Завдати, отримати й заблокувати сумарно %(goal)s од. шкоди"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Завдати 25%% від сумарної шкоди своєї команди"
+
+msgid "pm4_11_1_21_short"
+msgstr "Авангард-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Шкода"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Знищити %(goal)s од. техніки супротивника %(uniqueGoal)s різних типів"
+
+msgid "pm4_11_1_2_short"
+msgstr "Авангард-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Знищення"
+
+msgid "pm4_11_1_3"
+msgstr "Авангард-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Посісти перше місце за кількістю завданої шкоди у своїй команді"
+
+msgid "pm4_11_1_3_short"
+msgstr "Авангард-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_1_4"
+msgstr "Авангард-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Заблокувати %(goal)s од. шкоди, поки ваша машина не рухається"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "pm4_11_1_4_short"
+msgstr "Авангард-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Блокування"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_5"
+msgstr "Авангард-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника в межах радіуса огляду вашої машини"
+
+msgid "pm4_11_1_5_short"
+msgstr "Авангард-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_6"
+msgstr "Авангард-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Сумарно завдати й отримати заблокованої бронею шкоди щонайменше в %(vehicleHealthFactor)s р. більше від міцності власної машини"
+
+msgid "pm4_11_1_6_short"
+msgstr "Авангард-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Заподіяння та блокування шкоди"
+
+msgid "pm4_11_1_7"
+msgstr "Авангард-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані щонайменше %(distanceGreatOrEqual)s м"
+
+msgid "pm4_11_1_7_short"
+msgstr "Авангард-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Шкода"
+
+msgid "pm4_11_1_8"
+msgstr "Авангард-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Завдати %(goal)s од. шкоди важким танкам супротивника"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Посісти перше місце за кількістю завданої шкоди у своїй команді"
+
+msgid "pm4_11_1_8_short"
+msgstr "Авангард-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_1_9"
+msgstr "Авангард-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Завдати %(goal)s од. шкоди знерухомленій техніці супротивника"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "pm4_11_1_9_short"
+msgstr "Авангард-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Шкода"
+
+msgid "pm4_11_2_1"
+msgstr "Засідка-1"
+
+msgid "pm4_11_2_10"
+msgstr "Засідка-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Завдати %(goal)s од. шкоди"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Посісти перше місце за кількістю здобутого досвіду у своїй команді"
+
+msgid "pm4_11_2_10_short"
+msgstr "Засідка-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_2_11"
+msgstr "Засідка-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Завдати %(goal)s од. шкоди пострілами рухомій техніці супротивника"
+
+msgid "pm4_11_2_11_short"
+msgstr "Засідка-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_12"
+msgstr "Засідка-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Завдати %(goal)s од. шкоди"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника"
+
+msgid "pm4_11_2_12_short"
+msgstr "Засідка-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_2_13"
+msgstr "Засідка-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Завдати 25%% від сумарної шкоди своєї команди"
+
+msgid "pm4_11_2_13_short"
+msgstr "Засідка-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Шкода"
+
+msgid "pm4_11_2_14"
+msgstr "Засідка-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Здобути нагороду «Основний калібр»"
+
+msgid "pm4_11_2_14_short"
+msgstr "Засідка-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Герої битви"
+
+msgid "pm4_11_2_15"
+msgstr "Засідка-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Завдати в %(vehicleHealthFactor)s р. більше шкоди, ніж міцність власної машини"
+
+msgid "pm4_11_2_15_short"
+msgstr "Засідка-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_16"
+msgstr "Засідка-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Знищити %(goal)s од. техніки супротивника, завдавши їй щонайменше %(damageDealt)s од. шкоди"
+
+msgid "pm4_11_2_16_short"
+msgstr "Засідка-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Знищення"
+
+msgid "pm4_11_2_17"
+msgstr "Засідка-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Завдати %(goal)s од. шкоди"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника"
+
+msgid "pm4_11_2_17_short"
+msgstr "Засідка-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_2_18"
+msgstr "Засідка-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані щонайменше %(distanceGreatOrEqual)s м"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Посісти перше місце за кількістю здобутого досвіду у своїй команді"
+
+msgid "pm4_11_2_18_short"
+msgstr "Засідка-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_2_19"
+msgstr "Засідка-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника, не втративши очок міцності до цієї миті"
+
+msgid "pm4_11_2_19_short"
+msgstr "Засідка-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Завдати %(goal)s од. шкоди"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Пробити броню супротивника %(goal)s р."
+
+msgid "pm4_11_2_1_short"
+msgstr "Засідка-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Пробивання"
+
+msgid "pm4_11_2_2"
+msgstr "Засідка-2"
+
+msgid "pm4_11_2_20"
+msgstr "Засідка-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Завдати 30%% від сумарної шкоди своєї команди"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Знищити супротивника / захопити чи захистити базу"
+
+msgid "pm4_11_2_20_short"
+msgstr "Засідка-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Шкода"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Перемога"
+
+msgid "pm4_11_2_21"
+msgstr "Засідка-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "pm4_11_2_21_short"
+msgstr "Засідка-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Завдати %(goal)s од. шкоди за перші %(timeLimit)s хв бою"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Знищити %(goal)s од. техніки супротивника %(uniqueGoal)s різних типів"
+
+msgid "pm4_11_2_2_short"
+msgstr "Засідка-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Знищення"
+
+msgid "pm4_11_2_3"
+msgstr "Засідка-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Посісти перше місце за кількістю здобутого досвіду у своїй команді"
+
+msgid "pm4_11_2_3_short"
+msgstr "Засідка-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_2_4"
+msgstr "Засідка-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Завдати %(goal)s од. шкоди середнім танкам супротивника"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника за межами радіусу огляду вашої машини"
+
+msgid "pm4_11_2_4_short"
+msgstr "Засідка-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_2_5"
+msgstr "Засідка-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Завдати %(goal)s од. шкоди, залишаючись непоміченими у мить її заподіяння"
+
+msgid "pm4_11_2_5_short"
+msgstr "Засідка-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_6"
+msgstr "Засідка-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Завдати й допомогти завдати сумарно %(goal)s од. шкоди"
+
+msgid "pm4_11_2_6_short"
+msgstr "Засідка-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_2_7"
+msgstr "Засідка-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Здобути нагороду «Танкіст-снайпер»"
+
+msgid "pm4_11_2_7_short"
+msgstr "Засідка-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Герої битви"
+
+msgid "pm4_11_2_8"
+msgstr "Засідка-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника з відстані щонайменше %(distanceGreatOrEqual)s м"
+
+msgid "pm4_11_2_8_short"
+msgstr "Засідка-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_2_9"
+msgstr "Засідка-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Завдати %(goal)s од. шкоди знерухомленій техніці супротивника"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Завдати %(goal)s од. шкоди"
+
+msgid "pm4_11_2_9_short"
+msgstr "Засідка-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Шкода"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Шкода"
+
+msgid "pm4_11_3_1"
+msgstr "Підтримка-1"
+
+msgid "pm4_11_3_10"
+msgstr "Підтримка-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди, передавши розвіддані або знерухомивши техніку супротивника, залишаючись при цьому непоміченими"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Оглушити середні танки й ПТ-САУ супротивника сумарно на %(goal)s с. Враховується потенційна тривалість оглушення"
+
+msgid "pm4_11_3_10_short"
+msgstr "Підтримка-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Оглушення"
+
+msgid "pm4_11_3_11"
+msgstr "Підтримка-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди техніці супротивника, передавши розвіддані, знерухомивши або оглушивши її"
+
+msgid "pm4_11_3_11_short"
+msgstr "Підтримка-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_12"
+msgstr "Підтримка-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Допомогти союзникам знищити %(goal)s од. техніки супротивника, передавши розвіддані, знерухомивши або оглушивши її"
+
+msgid "pm4_11_3_12_short"
+msgstr "Підтримка-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_13"
+msgstr "Підтримка-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Отримати знак класності «1-й ступінь» чи вище"
+
+msgid "pm4_11_3_13_short"
+msgstr "Підтримка-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Знак класності"
+
+msgid "pm4_11_3_14"
+msgstr "Підтримка-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Вижити в бою"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Посісти перше місце за кількістю здобутого досвіду в обох командах"
+
+msgid "pm4_11_3_14_short"
+msgstr "Підтримка-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Виживання"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Найліпший гравець"
+
+msgid "pm4_11_3_15"
+msgstr "Підтримка-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Допомогти союзникам знищити %(goal)s од. техніки супротивника, передавши розвіддані, знерухомивши або оглушивши її"
+
+msgid "pm4_11_3_15_short"
+msgstr "Підтримка-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_16"
+msgstr "Підтримка-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника, рухаючись зі швидкістю щонайменше %(attackerMovingSpeedGreaterOrEqual)s км/год"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Знищити пострілами %(goal)s од. рухомої техніки супротивника"
+
+msgid "pm4_11_3_16_short"
+msgstr "Підтримка-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Шкода"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_17"
+msgstr "Підтримка-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Вижити в бою"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди техніці супротивника, оглушивши або знерухомивши її, та вижити в бою"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Завдати й допомогти завдати сумарно %(goal)s од. шкоди й вижити в бою"
+
+msgid "pm4_11_3_17_short"
+msgstr "Підтримка-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Виживання"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_3_18"
+msgstr "Підтримка-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Знищити %(goal)s од. техніки супротивника з відстані щонайменше %(distanceGreatOrEqual)s м"
+
+msgid "pm4_11_3_18_short"
+msgstr "Підтримка-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Знищення"
+
+msgid "pm4_11_3_19"
+msgstr "Підтримка-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Отримати знак класності «Майстер»"
+
+msgid "pm4_11_3_19_short"
+msgstr "Підтримка-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Знак класності"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Вижити в бою"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Знищити САУ супротивника й вижити в бою"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Оглушити техніку супротивника %(goal)s р. та вижити в бою"
+
+msgid "pm4_11_3_1_short"
+msgstr "Підтримка-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Виживання"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Оглушення"
+
+msgid "pm4_11_3_2"
+msgstr "Підтримка-2"
+
+msgid "pm4_11_3_20"
+msgstr "Підтримка-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Залишаючись непоміченими, допомогти союзникам завдати %(goal)s од. шкоди по виявленій вами техніці супротивника в переможному бою"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Оглушити важкі танки супротивника %(goal)s р. у переможному бою"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Знищити супротивника / захопити чи захистити базу"
+
+msgid "pm4_11_3_20_short"
+msgstr "Підтримка-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Оглушення"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Перемога"
+
+msgid "pm4_11_3_21"
+msgstr "Підтримка-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Вижити в бою"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Завдати й допомогти завдати сумарно %(goal)s од. шкоди"
+
+msgid "pm4_11_3_21_short"
+msgstr "Підтримка-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Виживання"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Знищити легкий танк супротивника"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Оглушити техніку супротивника сумарно на %(goal)s с. Враховується потенційна тривалість оглушення"
+
+msgid "pm4_11_3_2_short"
+msgstr "Підтримка-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Оглушення"
+
+msgid "pm4_11_3_3"
+msgstr "Підтримка-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Допомогти союзникам завдати шкоди %(goal)s од. техніки супротивника, передавши розвіддані, знерухомивши або оглушивши її"
+
+msgid "pm4_11_3_3_short"
+msgstr "Підтримка-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_4"
+msgstr "Підтримка-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Вижити в бою"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Виявити %(goal)s од. техніки супротивника й вижити в бою"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Оглушити %(stunSeveralTargets)s од. техніки супротивника одним пострілом щонайменше %(goal)s р. і вижити в бою"
+
+msgid "pm4_11_3_4_short"
+msgstr "Підтримка-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Виживання"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Виявлення"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Оглушення"
+
+msgid "pm4_11_3_5"
+msgstr "Підтримка-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Отримати знак класності «2-й ступінь» чи вище"
+
+msgid "pm4_11_3_5_short"
+msgstr "Підтримка-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Знак класності"
+
+msgid "pm4_11_3_6"
+msgstr "Підтримка-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Завдати й допомогти завдати сумарно %(goal)s од. шкоди"
+
+msgid "pm4_11_3_6_short"
+msgstr "Підтримка-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Комплексна умова"
+
+msgid "pm4_11_3_7"
+msgstr "Підтримка-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Допомогти союзникам завдати %(goal)s од. шкоди, передавши розвіддані, оглушивши чи знерухомивши супротивника"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Знищити САУ супротивника"
+
+msgid "pm4_11_3_7_short"
+msgstr "Підтримка-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Підтримка"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_8"
+msgstr "Підтримка-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника"
+
+msgid "pm4_11_3_8_short"
+msgstr "Підтримка-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_9"
+msgstr "Підтримка-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Знищити %(goal)s од. техніки супротивника з відстані щонайбільше %(distanceShortOrEqual)s м"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Оглушити середні танки чи ПТ-САУ супротивника %(goal)s р."
+
+msgid "pm4_11_3_9_short"
+msgstr "Підтримка-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Знищення"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Оглушення"
+
 msgid "quest/advice/biathlon/description"
 msgstr "Для кожного завдання цього типу надано обмежену кількість спроб, щоб виконати визначену умову."
 
@@ -10345,6 +11317,9 @@ msgstr "Другий фронт"
 msgid "season_3"
 msgstr "Сектор 3"
 
+msgid "season_4"
+msgstr "Сектор 3"
+
 msgid "tile_1"
 msgstr "«StuG IV»"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Комплекс бойових завдань для всіх типів техніки на отримання американського важкого танка Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Комплекс бойових завдань для всіх типів техніки на отримання німецького середнього танка Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Комплекс бойових завдань для всіх типів техніки на отримання німецької ПТ-САУ StuG IV."

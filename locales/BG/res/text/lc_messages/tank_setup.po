@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "към точките живот на машината"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "към скоростта на въртене на купола или скоростта на хоризонтално прицелване на оръдието за машини с неподвижна рубка"
+msgstr "към скоростта на движение на оръдието"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "към скоростта на въртене на купола"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "към точките живот на машината"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "към скоростта на въртене на купола или скоростта на хоризонтално прицелване на оръдието за машини с неподвижна рубка"
+msgstr "към скоростта на движение на оръдието"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "към скоростта на въртене на купола"
@@ -2100,6 +2100,51 @@ msgstr " и "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Режимът \"външно подаване на боеприпаси\" на машината позволява използването на снаряди с повишени поражения."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Базови стойности в стандартен режим."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Изменени стойности в режим \"външно подаване на боеприпаси\""
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Базови параметри за изстрели с пълен заряд"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Параметри за изстрели с единичен заряд"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Базови параметри за изстрели с пълен заряд"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Базови"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Параметри за изстрели с единичен заряд"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "В калибриран режим този вид снаряд е ефективен срещу наклонена броня."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Оръдието на машината разполага със специални устройства, които позволяват промяна на някои параметри на снаряда преди стрелба."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "В стандартен режим този вид снаряд е ефективен срещу броня без екрани."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Стандартен режим"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Калибриран режим"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "В калибриран режим този вид снаряд може да пробива екрани."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "В стандартен режим този вид снаряд е ефективен срещу вертикална броня."
 
 msgid "tooltips/specializationDesc"
 msgstr "Стандартното оборудване от категория \"%(spec)s\" ще бъде по-ефективно, ако бъде монтирано в този слот. Оборудването от други категории ще носи само стандартен бонус."

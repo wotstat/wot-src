@@ -2,6 +2,7 @@ from __future__ import absolute_import
 import copy, logging
 from collections import namedtuple, defaultdict
 from functools import partial
+from itertools import chain
 from operator import itemgetter
 import typing
 from future.utils import iteritems
@@ -45,7 +46,7 @@ from gui.lootbox_system.base.common import LOOTBOX_RANDOM_NATIONAL_BLUEPRINT, LO
 from gui.selectable_reward.constants import FEATURE_TO_PREFIX, SELECTABLE_BONUS_NAME
 from gui.server_events.awards_formatters import AWARDS_SIZES, BATTLE_BONUS_X5_TOKEN, CREW_BONUS_X3_TOKEN
 from gui.server_events.events_helpers import parseC11nProgressToken
-from gui.server_events.finders import BRANCH_TO_OPERATION_IDS, isPM3Points
+from gui.server_events.finders import isPMPoints
 from gui.server_events.formatters import parseComplexToken
 from gui.server_events.recruit_helper import getRecruitInfo
 from gui.shared.formatters import text_styles
@@ -75,6 +76,7 @@ from skeletons.gui.battle_matters import IBattleMattersController
 from skeletons.gui.customization import ICustomizationService
 from skeletons.gui.game_control import ICollectionsSystemController, ILootBoxSystemController, IWinbackController, IWotPlusController
 from skeletons.gui.goodies import IGoodiesCache
+from skeletons.gui.lobby_context import ILobbyContext
 from skeletons.gui.offers import IOffersDataProvider
 from skeletons.gui.server_events import IEventsCache
 from skeletons.gui.shared import IItemsCache
@@ -91,7 +93,7 @@ DEFAULT_CREW_LVL = 50
 _CUSTOMIZATIONS_SCALE = 44.0 / 128
 _ZERO_COMPENSATION_MONEY = Money(credits=0, gold=0)
 _CUSTOMIZATION_BONUSES = frozenset([
- 92, 93, 94, 95, 96, 97])
+ 94, 95, 96, 97, 98, 99])
 _META_BONUS_BROWSER_VIEW_TYPE = {b'internal': (VIEW_ALIAS.BROWSER_LOBBY_TOP_SUB), 
    b'overlay': (VIEW_ALIAS.WEB_VIEW_TRANSPARENT)}
 _logger = logging.getLogger(__name__)
@@ -195,6 +197,9 @@ class SimpleBonus(object):
 
     def getTooltipIcon(self):
         return b''
+
+    def getTooltipData(self):
+        return
 
     def getTooltip(self):
         return _getItemTooltip(self._name)
@@ -1044,7 +1049,7 @@ class PersonalMissionsPointsTokensBonus(TokensBonus):
         return b''
 
     def formatValue(self):
-        return self.getValue().get(findFirst(isPM3Points, self.getValue(), b'')).get(b'count', 0)
+        return self.getValue().get(findFirst(isPMPoints, self.getValue(), b'')).get(b'count', 0)
 
     def getTooltip(self):
         return TooltipData(tooltip=TOOLTIPS_CONSTANTS.PERSONAL_MISSIONS_POINTS, isSpecial=False, specialAlias=None, specialArgs=[], isWulfTooltip=True)
@@ -1055,23 +1060,26 @@ class PersonalMissionsPointsTokensBonus(TokensBonus):
 
 class PersonalMissionsDailyPointsTokensBonus(PersonalMissionsPointsTokensBonus):
     __eventsCache = dependency.descriptor(IEventsCache)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
 
     def isShowInGUI(self):
         personalMissions = self.__eventsCache.getPersonalMissions()
-        if not personalMissions.isEnabled(PM_BRANCH.PERSONAL_MISSION_3):
+        serverSettings = self.__lobbyContext.getServerSettings()
+        branches = PM_BRANCH.WITHOUT_AWARD_LIST_BRANCHES
+        if not all(serverSettings.isPersonalMissionsEnabled(branchName) for branchName in branches):
             return False
         else:
-            isPM3CampaignSelected = personalMissions.isCampaignActive(PM_BRANCH.TYPE_TO_NAME[PM_BRANCH.PERSONAL_MISSION_3])
-            pm3ActiveOperations = personalMissions.getActiveOperations(PM_BRANCH.V2_BRANCHES)
-            isAnyPM3OperationActive = len(pm3ActiveOperations) > 0
-            if not isPM3CampaignSelected or not isAnyPM3OperationActive:
+            isWithoutAwardListCampaignSelected = personalMissions.isBranchWithoutAwardListActive()
+            if not isWithoutAwardListCampaignSelected:
                 return False
-            currentOperation = first(pm3ActiveOperations)
+            withoutAwardListActiveOperations = personalMissions.getActiveOperations(branches)
+            if not withoutAwardListActiveOperations:
+                return False
+            currentOperation = first(operation for operation in withoutAwardListActiveOperations if operation.getBranchName() in personalMissions.getActiveCampaigns())
             isOperationCompleted = currentOperation.isCompleted() if currentOperation is not None else False
             isProgressionCompleted = currentOperation.hasCollectedAllPoints() if currentOperation is not None else False
-            operationsPM3 = personalMissions.getAllOperations(PM_BRANCH.V2_BRANCHES)
-            isPM3AllOperationsCompleted = all(operation.isCompleted() for operation in operationsPM3.values())
-            shouldBeVisible = isPM3CampaignSelected and isAnyPM3OperationActive and not isOperationCompleted and not isProgressionCompleted and not isPM3AllOperationsCompleted and not currentOperation.isDisabled()
+            isDisabled = currentOperation.isDisabled() if currentOperation is not None else False
+            shouldBeVisible = isWithoutAwardListCampaignSelected and withoutAwardListActiveOperations and not isOperationCompleted and not isProgressionCompleted and not isDisabled
             return shouldBeVisible and super(PersonalMissionsDailyPointsTokensBonus, self).isShowInGUI()
 
 
@@ -1239,6 +1247,9 @@ class EntitlementBonus(SimpleBonus):
     def getTooltip(self):
         return _getItemTooltip(self.getValue().id)
 
+    def getTooltipData(self):
+        return backport.createTooltipData(self.getTooltip())
+
     def getValue(self):
         return self._ENTITLEMENT_RECORD(*self._value)
 
@@ -1290,18 +1301,24 @@ class CollectionEntitlementBonus(EntitlementBonus):
         return self.__itemId
 
 
+class PetsBonus(SimpleBonus):
+    pass
+
+
 def personalMissionsTokensFactory(name, value, isCompensation=False, ctx=None):
     from gui.server_events.finders import PERSONAL_MISSION_TOKEN
-    completionTokenID = PERSONAL_MISSION_TOKEN % (ctx[b'campaignID'], ctx[b'operationID']) if ctx[b'operationID'] not in BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_3] else b''
+    withoutAwardListBranchesOperations = list(chain.from_iterable(PM_BRANCH.BRANCH_TO_OPERATION_IDS[branch] for branch in PM_BRANCH.convertNameToType(PM_BRANCH.WITHOUT_AWARD_LIST_BRANCHES)))
+    completionTokenID = PERSONAL_MISSION_TOKEN % (ctx[b'campaignID'], ctx[b'operationID']) if ctx[b'operationID'] not in withoutAwardListBranchesOperations else b''
     result = []
+    operationsIds = set(PM_BRANCH.BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_3] + PM_BRANCH.BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_4])
     for tID, tValue in value.iteritems():
         if tID in PM_BRANCH_TO_FREE_TOKEN_NAME.values():
             result.append(FreeTokensBonus({tID: tValue}, isCompensation, ctx))
-        elif tID.startswith(RECRUIT_TMAN_TOKEN_PREFIX) and ctx[b'operationID'] in BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_3]:
+        elif tID.startswith(RECRUIT_TMAN_TOKEN_PREFIX) and ctx[b'operationID'] in operationsIds:
             result.append(TmanTemplateTokensBonus({tID: tValue}, isCompensation, ctx))
         elif tID == completionTokenID:
             result.append(CompletionTokensBonus({tID: tValue}, isCompensation, ctx))
-        elif isPM3Points(tID):
+        elif isPMPoints(tID):
             result.append(PersonalMissionsPointsTokensBonus({tID: tValue}, isCompensation, ctx))
         else:
             result.append(TokensBonus(name, {tID: tValue}, isCompensation, ctx))
@@ -1328,7 +1345,7 @@ def tokensFactory(name, value, isCompensation=False, ctx=None):
             result.append(X5BattleTokensBonus({tID: tValue}, isCompensation, ctx))
         elif tID.startswith(CREW_BONUS_X3_TOKEN):
             result.append(X3CrewTokensBonus({tID: tValue}, isCompensation, ctx))
-        elif isPM3Points(tID):
+        elif isPMPoints(tID):
             result.append(PersonalMissionsDailyPointsTokensBonus({tID: tValue}, isCompensation, ctx))
         elif tID.startswith(BATTLE_PASS_TOKEN_3D_STYLE):
             result.append(BattlePassStyleProgressTokenBonus({tID: tValue}, isCompensation, ctx))
@@ -1858,6 +1875,19 @@ class VehiclesBonus(SimpleBonus):
 
         return pack
 
+    def getVehiclesCrewBonuses(self):
+        tankmenBonusess = []
+        for vehicle, vehInfo in self.getVehicles():
+            if b'noCrew' not in vehInfo:
+                if b'crewLvl' in vehInfo:
+                    tmen = [tman.strCD for _, tman in vehicle.getCrewBySkillLevels(vehInfo[b'crewLvl'])]
+                    tankmenBonusess.append(TankmenBonus(b'tankmen', tmen))
+                elif b'tankmen' in vehInfo:
+                    tmen = [tman for tman in vehInfo.get(b'tankmen', [])]
+                    tankmenBonusess.append(TankmenBonus(b'tankmen', tmen))
+
+        return tankmenBonusess
+
     def __getCommonAwardsVOs(self, vehicle, vehInfo, iconSize=b'small', align=TEXT_ALIGN.RIGHT, withCounts=False):
         vehicleVO = self.__getVehicleVO(vehicle, vehInfo, partial(RES_ICONS.getBonusIcon, iconSize))
         vehicleVO.update({b'label': (self.getIconLabel())})
@@ -2197,11 +2227,12 @@ class CustomizationsBonus(SimpleBonus):
             bonusDesc = b''
             if key is not None:
                 bonusDesc = _ms(key, value=item.userName)
-                if value > 0:
+                if value > 1:
                     bonusDesc = bonusDesc + b' ' + _ms(VEHICLE_CUSTOMIZATION.ELEMENTBONUS_FACTOR, count=value)
                 if count < customizationsCountMax:
                     bonusDesc = bonusDesc + separator
             result.append({b'intCD': (item.intCD), 
+               b'itemTypeID': (item.itemTypeID), 
                b'texture': (item.icon), 
                b'value': value, 
                b'valueStr': valueStr, 
@@ -2620,6 +2651,12 @@ class RandomBlueprintBonus(SimpleBonus):
         return self._HTML_TEMPLATE
 
 
+class BlueprintsIconsNames(CONST_CONTAINER):
+    FINAL_FRAGMENT = b'vehicle_complete'
+    UNIVERSAL_FRAGMENT = b'intelligence'
+    VEHICLE_FRAGMENT = b'vehicle'
+
+
 class VehicleBlueprintBonus(SimpleBonus):
     _HTML_TEMPLATE = b'vehicleBlueprints'
 
@@ -2651,10 +2688,13 @@ class VehicleBlueprintBonus(SimpleBonus):
     def formatBlueprintValue(self):
         return text_styles.neutral(self.itemsCache.items.getItemByCD(self._getFragmentCD()).shortUserName)
 
+    def formatUserNameValue(self):
+        return b''
+
     def getImageCategory(self):
         if self._isFinalFragment():
-            return b'vehicle_complete'
-        return b'vehicle'
+            return BlueprintsIconsNames.FINAL_FRAGMENT
+        return BlueprintsIconsNames.VEHICLE_FRAGMENT
 
     def getImage(self, size=b'big'):
         return RES_ICONS.getBlueprintFragment(size, self.getImageCategory())
@@ -2700,8 +2740,7 @@ class VehicleBlueprintBonus(SimpleBonus):
         return self._value[0]
 
     def _getFormattedMessage(self, styleSubset, formattedValue):
-        vehicleName = self.itemsCache.items.getItemByCD(self._getFragmentCD()).shortUserName
-        return makeHtmlString((b'html_templates:lobby/quests/{}').format(styleSubset), self._HTML_TEMPLATE, {b'vehicleName': vehicleName, b'value': formattedValue})
+        return makeHtmlString((b'html_templates:lobby/quests/{}').format(styleSubset), self._HTML_TEMPLATE, {b'vehicleName': (self.__getVehicleName()), b'value': formattedValue})
 
     def _format(self, styleSubset):
         formattedValue = str(self.getValue()[1])
@@ -2720,6 +2759,9 @@ class VehicleBlueprintBonus(SimpleBonus):
     def _getWrapperType(self):
         return ItemPackType.BLUEPRINT
 
+    def __getVehicleName(self):
+        return self.itemsCache.items.getItemByCD(self._getFragmentCD()).shortUserName
+
 
 class IntelligenceBlueprintBonus(VehicleBlueprintBonus):
     _HTML_TEMPLATE = b'universalBlueprints'
@@ -2731,13 +2773,16 @@ class IntelligenceBlueprintBonus(VehicleBlueprintBonus):
         return int(makeIntelligenceCD(self._getFragmentCD()))
 
     def getImageCategory(self):
-        return b'intelligence'
+        return BlueprintsIconsNames.UNIVERSAL_FRAGMENT
 
     def getBlueprintSpecialAlias(self):
         return TOOLTIPS_CONSTANTS.BLUEPRINT_FRAGMENT_INFO
 
     def formatBlueprintValue(self):
         return b''
+
+    def formatUserNameValue(self):
+        return self.getBlueprintTooltipName()
 
     def canPacked(self):
         return self._ctx.get(b'isPacked', False) and self.getCount() > 1
@@ -2773,6 +2818,9 @@ class NationalBlueprintBonus(VehicleBlueprintBonus):
 
     def getBlueprintSpecialAlias(self):
         return TOOLTIPS_CONSTANTS.BLUEPRINT_FRAGMENT_INFO
+
+    def formatUserNameValue(self):
+        return self.getBlueprintTooltipName()
 
     def formatBlueprintValue(self):
         return b''
@@ -3260,7 +3308,8 @@ _BONUSES = {(Currency.CREDITS): CreditsBonus,
    (WoTPlusBonusType.OPTIONAL_DEVICES_ASSISTANT): WotPlusOptionalDevicesAssistant, 
    (WoTPlusBonusType.PRO_BOOST): WotPlusProBoostBonus, 
    (WoTPlusBonusType.SERVICE_RECORD_CUSTOMIZATION): WotPlusServiceCustomizationBonus, 
-   (WoTPlusBonusType.BATTLE_PASS_PLUS): WotPlusProBattlePass}
+   (WoTPlusBonusType.BATTLE_PASS_PLUS): WotPlusProBattlePass, 
+   b'pets': PetsBonus}
 HIDDEN_BONUSES = (
  MetaBonus,)
 _BONUSES_PRIORITY = (
@@ -3545,13 +3594,17 @@ def splitBonuses(bonuses):
 
 
 def getSplitBonusFunction(bonus):
-    if isinstance(bonus, CrewSkinsBonus):
+    if not getattr(bonus, b'isSplittable', True):
         return
     else:
+        if isinstance(bonus, CrewSkinsBonus):
+            return
         if isinstance(bonus, TankmenBonus):
             return
         if isinstance(bonus, CustomizationsBonus):
             return splitCustomizationsBonus
+        if isinstance(bonus, DossierBonus):
+            return splitDossierBonus
         if isinstance(bonus, (IntegralBonus, GoldBonus)):
             return splitIntegralBonuses
         if isinstance(bonus, SimpleBonus):
@@ -3599,6 +3652,16 @@ def splitSimpleBonuses(bonus):
 
     else:
         split.append(bonus)
+    return split
+
+
+def splitDossierBonus(bonus):
+    split = []
+    value = bonus.getValue()
+    for dossierType, achivements in value.iteritems():
+        for key, data in achivements.iteritems():
+            split.append(DossierBonus(bonus.getName(), {dossierType: {key: data}}, bonus.isCompensation(), bonus.getContext()))
+
     return split
 
 

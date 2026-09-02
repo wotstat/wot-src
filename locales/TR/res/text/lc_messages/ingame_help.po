@@ -232,11 +232,35 @@ msgstr "Bu top yükleme gereği duymadan sürekli ateş edebilir. Her atış ıs
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Termal Aşırı Isınma Kontrollü Otomatik Top"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mekanizma mermi yüklemeyi anında kısa sabit bir süreye indirir. Her kullanım mermi başına bir şarj yer, şarjlar zamanla yenilenir, şarjör tamken daha hızlı yenilenir. Savaşın başında belirli miktarda şarj vardır."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Cebri Yükleme Mekanizması"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Bu araç, top kalkanına yerleştirilmiş bir roketatar ile donatılmıştır. Roket nişan alma sistemine geçmek için şu tuşa basın:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Eş Eksenli Roketatar"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Roket nişangâhı ile nişan alırken roketi fırlatmak için ateş tuşuna basın:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Eş Eksenli Roketatar"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Düşmanı mermiyle her vuruşunuzda yükleme verimliliği seviyesi kazanır, topunuzun yükleme hızını geçici olarak takviye edersiniz. Seviyeler her isabet ile birikir.\nBir düşmanını bir mermiyle yok ettiğiniz ek yükleme verimlilik seviyeleri kazanırsınız."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Yarı Otomatik Cephanelik"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Bu aracın Harici Mühimmat Besleme Modülü, daha fazla hasar veren güçlü, yüksek şarjı olan üniter mermi atışları yapmasını sağlar. Modül aktifken, hareket kabiliyeti ve atış hızı da azalır."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Harici Mühimmat Besleme modu"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Topunuz yüklüyse bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Ulaştığınız ısı seviyesi ne kadar yüksek olursa ortalama hasar bonusu o kadar büyük olur.\nIsıtma işlemini başlatmak için şu tuşa basın:"
@@ -345,6 +369,30 @@ msgstr "Jet takviyeler, etkinleştirildiğinde motor gücünü ve azamî ileri h
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Avantajları ve Dezavantajları"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Görünür bir düşman aracına mermiyle isabet kaydettiğinizde, bir sonraki merminin fünye ayarı değiştirilir. İlk atış düşman zırhını deldiyse, bir sonraki atışın verdiği hasar artar. Delmediyse, bir sonraki atışın delme gücü artar."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Ayarlanabilir Fünye Belirleyici"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır. Farklı mermiler için parametreler, seçilen moda göre değişiklik gösterir ve her mod, farklı savaş durumlarına hızla uyum sağlamanıza olanak tanır."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Mermi Kalibrasyon Sistemi"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Gelişmiş bir optik cihaz, görüş menzilinizi artırır ve hareket halindeki ya da bitki örtüsünün arkasına gizlenmiş araçların tespitini kolaylaştırır. Etkinleştirildiğinde, aracınızın önündeki dar bir alanı tarayarak gizlenmiş hedefleri ortaya çıkarır ve soğumaya geçer."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Kızılötesi Arama ve Takip (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Ancak tarama sonucunda tespit edilmemiş bir düşman ortaya çıkarsa, siz de belirli bir süre boyunca hemen tespit edilmiş gelirsiniz ve hem siz hem de tespit ettiğiniz düşmanlar anında bilgilendirilir. Kısa bir gecikmeyle taramayı manuel olarak durdurabilir cihazın soğuma süresini başlatabilirsiniz."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Kızılötesi Arama ve Takip (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Birkaç saniye boyunca ivmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileri. Sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz."

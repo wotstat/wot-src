@@ -229,23 +229,14 @@ msgstr "bij aankoop:"
 msgid "battlePassBuyView/descr"
 msgstr "Als je een progressiestadium koopt, ontvang je meteen alle beloningen van dat stadium."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Deze beloningen zullen aan jou worden uitgereikt na het voltooien van de aankomende stadia."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "De volgende beloningen zullen aan jou worden uitgereikt voor stadia %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Je zult meteen de volgende beloningen ontvangen"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "De volgende beloningen zullen aan jou worden uitgereikt voor stadium %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "ZAL WORDEN ONTGRENDELD"
+msgstr "Ontgrendelen in onvoltooide stadia"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "ZAL METEEN WORDEN ONTVANGEN"
+msgstr "Meteen ontvangen"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Activeer het Vechtpashoofdstuk"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elite circuit"
 
-msgid "chapter/fullName/201"
-msgstr "Begraven tijd"
+msgid "chapter/fullName/211"
+msgstr "Specialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est notre destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntman"
 
-msgid "chapter/fullName/203"
-msgstr "Woestijncommando"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoïcijns"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "BEGRAVEN TIJD"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNTMAN"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "WOESTIJNCOMMANDO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOÏCIJNS"
 
 msgid "chapter/title"
 msgstr "HOOFDSTUK %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Missie voor ×3 Bemannings-XP"
 
 msgid "equipCoinBonus"
 msgstr "Componenten: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D-attachment set"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Commandant"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Beschikbaar nadat alle hoofdstukken zijn voltooid. Hoofdstukken voltooid: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Pak een Premium voertuig en exclusieve aanpassingselementen."
+msgstr "Duik erin voor exclusieve beloningen en unieke aanpassingselementen."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Vechtpas: Far Cry is hier!"
+msgstr "Het speciale hoofdstuk is hier!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Koop de verbeterde pas voor meer beloningen!"
@@ -1114,11 +1102,8 @@ msgstr "Stadium %(level)d van het elite circuit"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "ervaring voor elk bemanningslid van het geselecteerde %(nation)s voertuig"
 
-msgid "rewardChoice/subTitle"
-msgstr "SELECTEER JE BELONING"
-
 msgid "rewardChoice/title"
-msgstr "VECHTPAS"
+msgstr "Selecteer je beloningen"
 
 msgid "rewardChoice/titleChapter"
 msgstr "VECHTPAS: HOOFDSTUK \"%(chapter)s\""
@@ -1129,14 +1114,14 @@ msgstr "VECHTPAS: HOOFDSTUK \"%(chapter)s\", STADIUM %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Zoeken in het zand"
+msgid "season/fullName/21"
+msgstr "Aan de grond gezet"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "ZOEKEN IN HET ZAND"
+msgid "season/fullNameUppercased/21"
+msgstr "AAN DE GROND GEZET"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Gevechtsbevelen waaruit je kunt kiezen"

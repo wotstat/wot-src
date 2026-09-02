@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Diese Kisten können Fahrzeuge, Spielwährung und andere wertvolle Belohnungen enthalten."
+msgstr "Diese Kisten können Premiumfahrzeuge der Stufe VIII, Spielwährung und andere wertvolle Belohnungen enthalten."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Diese Kisten können Fahrzeuge, Spielwährung, Anpassungselemente und andere wertvolle Belohnungen enthalten."
+msgstr "Diese Kisten können seltene Fahrzeuge der Stufe X, Spielwährung und andere wertvolle Belohnungen enthalten."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Diese Kisten können Fahrzeuge, Spielwährung, Anpassungselemente und andere wertvolle Belohnungen enthalten."
+msgstr "Diese Kisten können Premiumfahrzeuge der Stufe IX, Spielwährung und andere wertvolle Belohnungen enthalten."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Kann im Nachschub oder durch das Öffnen anderer Kistentypen erhalten werden."
+msgstr "Kann als Geschenk für den Kauf von Gegenständen im Premium-Laden sowie durch Öffnen anderer Kisten erhalten werden."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Kann durch Öffnen anderer Kistentypen erhalten werden."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Kann durch Öffnen anderer Kistentypen erhalten werden."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Beutekiste"
+msgstr "HIMMELSKISTE"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Gunstkiste"
+msgstr "AUSERWÄHLTENKISTE"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Ruhmkiste"
+msgstr "Himmelshilfe-Kiste"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "BEUTEKISTE"
+msgstr "HIMMELSKISTE"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "GUNSTKISTE"
+msgstr "AUSERWÄHLTENKISTE"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "RUHMKISTE"
+msgstr "HIMMELSHILFE-KISTE"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Dies sind besondere Kisten, die neue und einzigartige Gegenstände enthalten. Sie sind im Nachschub verfügbar."
+msgstr "Dies sind besondere Kisten, die neue und einzigartige Fahrzeuge der Stufen VIII–X und weitere Belohnungen enthalten.\nSie können Kisten als Geschenk für den Kauf von Gegenständen im Premium-Laden sowie durch Öffnen anderer Kisten erhalten."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Das Event endet in"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Derzeit können Kisten aus technischen Gründen nicht geöffnet oder gekauft werden. Wir bitten um Entschuldigung für die Unannehmlichkeiten."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Göttersegen-Kisten sind vorübergehend nicht verfügbar"
 
 msgid "eventName/lowerCase"
-msgstr "Tresor des Geflüsters"
+msgstr "Göttersegen"
 
 msgid "eventName/upperCase"
-msgstr "TRESOR DES GEFLÜSTERS"
+msgstr "GÖTTERSEGEN"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Wenn Sie alle Fahrzeuge bereits besitzen, erhalten Sie stattdessen eine Gunstkiste."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wenn Sie zum Ende des Events noch nicht alle Kisten geöffnet haben, werden sie danach automatisch geöffnet."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Wenn Sie bereits alle Fahrzeuge aus der Kiste besitzen, erhalten Sie anstatt eines Fahrzeugs eine Gunstkiste als Belohnung."
+msgstr "Sie besitzen bereits alle Fahrzeuge aus dieser Kiste. Anstatt des gefunden Fahrzeugs erhalten Sie eine Auserwähltenkiste als garantierte Belohnung oder anstelle eines zufälligen Premiumfahrzeugs."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Jede %(guaranteed0)s. Beute-, %(guaranteed1)s. Ruhm- und %(guaranteed2)s. Gunstkiste enthält garantiert ein Fahrzeug. Wenn Sie sie öffnen und keine von ihnen ein solches Fahrzeug enthält, finden Sie ein Fahrzeug, das sie noch nicht besitzen, in der %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. Kiste (abhängig von der Art der Kiste). Wenn das passiert, wird der Zähler zurückgesetzt."
+msgstr "Jede %(guaranteed0)s. Himmels-, %(guaranteed1)s. Himmelshilfe- und %(guaranteed2)s. Auserwähltenkiste enthält garantiert ein Fahrzeug der Stufen VIII–X. Wenn Sie sie öffnen und keine von ihnen ein solches Fahrzeug enthält, finden Sie ein Fahrzeug der Stufen VIII–X, das sie noch nicht besitzen, in der %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. Kiste (abhängig von der Art der Kiste). Wenn das passiert, wird der Zähler zurückgesetzt."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Vergütung"
+msgstr "Wenn alle Fahrzeuge erhalten wurden"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantierte Belohnung"
+msgid "infoPage/header/description"
+msgstr "Öffnen Sie Kisten für eine Chance auf wertvolle Spielgegenstände!\nUnten finden Sie eine Liste der möglichen Belohnungen."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Aus jeder Gruppe wird maximal eine Belohnung enthalten sein."
+msgid "noBoxesView/description/"
+msgstr "Sie haben keine Kisten.\nSie können diese im Premium-Laden erhalten."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Auserwähltenkiste"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Wenn Sie bereits alle Fahrzeuge aus der Kiste besitzen, erhalten Sie anstatt des Fahrzeugs eine Auserwähltenkiste als garantierte Belohnung."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Himmelskiste"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Auserwähltenkiste"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Himmelshilfe-Kiste"

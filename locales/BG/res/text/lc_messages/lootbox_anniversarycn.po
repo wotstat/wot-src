@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Когато бъдат отворени, тези кутии могат да ви предоставят машини, валути в играта и други ценни награди."
+msgstr "Когато бъдат отворени, тези кутии може да ви осигурят Премиум машини ниво VIII, валути в играта и други ценни награди."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Когато бъдат отворени, тези кутии може да ви осигурят машини, валути в играта, елементи за персонализация и други ценни награди."
+msgstr "Когато бъдат отворени, тези кутии може да ви предоставят редки машини ниво X, валути в играта и други ценни награди."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Когато бъдат отворени, тези кутии може да ви осигурят машини, валути в играта, елементи за персонализация и други ценни награди."
+msgstr "Когато бъдат отворени, тези кутии може да ви осигурят Премиум машини ниво IX, валути в играта и други ценни награди."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Може да се получи от Магазина в играта и при отваряне на кутии от всеки друг вид."
+msgstr "Може да се получи като подарък при закупуване на артикули в Премиум магазина, както и при отваряне на кутии от всякакъв друг вид."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Може да се получи при отваряне на кутии от всякакъв друг вид."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Може да се получи при отваряне на кутии от всякакъв друг вид."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Наградна кутия с плячка"
+msgstr "АНГЕЛСКА КУТИЯ"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Наградна кутия с дарове"
+msgstr "ИЗБРАНА КУТИЯ"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Наградна кутия с приношения"
+msgstr "Кутия с помощ от небето"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "НАГРАДНА КУТИЯ С ПЛЯЧКА"
+msgstr "АНГЕЛСКА КУТИЯ"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "НАГРАДНА КУТИЯ С ДАРОВЕ"
+msgstr "ИЗБРАНА КУТИЯ"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "НАГРАДНА КУТИЯ С ПРИНОШЕНИЯ"
+msgstr "КУТИЯ С ПОМОЩ ОТ НЕБЕТО"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Това са специални кутии, съдържащи нови и уникални предмети. Те могат да бъдат получени от Магазина в играта."
+msgstr "Това са специални кутии, съдържащи нови и уникални машини ниво VIII–X и още награди.\nМожете да получавате кутии като подарък за закупуване на артикули в Премиум магазина, както и да ги получавате, докато отваряте кутии от всякакъв друг вид."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Събитието ще завърши след"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "В момента кутиите не могат да бъдат отворени или закупени поради технически причини. Извиняваме се за временното неудобство."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Благословените кутии са временно недостъпни"
 
 msgid "eventName/lowerCase"
-msgstr "ТРЕЗОР НА ШЕПОТИТЕ"
+msgstr "Благословии"
 
 msgid "eventName/upperCase"
-msgstr "ТРЕЗОР НА ШЕПОТИТЕ"
+msgstr "БЛАГОСЛОВИИ"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Ако вече притежавате всички машини, вместо това получавате наградна кутия с дарове."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ако не отворите всички кутии преди края на събитието, те ще бъдат отворени автоматично по-късно."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Ако вече притежавате всички машини от кутиите, ще получите наградна кутия с дарове като награда вместо машина."
+msgstr "Ако вече притежавате всички машини от кутията, ще получите Избрана кутия като гарантирана награда или вместо паднала се машина."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Всяка %(guaranteed0)s наградна кутия с плячка, %(guaranteed1)s наградна кутия с приношения и %(guaranteed2)s наградна кутия с дарове гарантирано съдържат машина. Ако ги отворите без да се падне подобна машина, тогава машина, която вече не притежавате, ще се падне, когато отворите %(guaranteed0)s-ата/%(guaranteed1)s-ата/%(guaranteed2)sата кутия (в зависимост от вида на кутията). Когато това се случи, броячът се нулира."
+msgstr "Всеки %(guaranteed0)s небесни кутии, %(guaranteed1)s кутии с помощ от небето и %(guaranteed2)s избрани кутии гарантирано съдържат машина ниво VIII–X. Ако ги отворите без да се падне подобна машина, тогава машина ниво VIII–X, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s-ата/%(guaranteed1)s-ата/%(guaranteed2)s-ата кутия (в зависимост от вида на кутията). Когато това се случи, броячът се нулира."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Компенсация"
+msgstr "Ако всички машини са получени"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Гарантирана награда"
+msgid "infoPage/header/description"
+msgstr "Отворете кутии за шанс да получите ценни предмети в играта!\nВижте по-долу списък с възможните награди."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Не може да се падне повече от една награда на група"
+msgid "noBoxesView/description/"
+msgstr "Нямате никакви кутии.\nМожете да вземете такива от Премиум магазина."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Избрана кутия"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ако вече притежавате всички машини от кутията, ще получите Избрана кутия като гарантирана награда вместо машина."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Ангелска кутия"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Избрана кутия"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Кутия с помощ от небето"

@@ -382,11 +382,56 @@ msgstr "Седмичните мисии са набор от задачи, до�
 msgid "info_page/main/weekly/title"
 msgstr "Седмични мисии"
 
+msgid "pm/missionState/active"
+msgstr "Активно"
+
+msgid "pm/missionState/complete"
+msgstr "Изпълнени мисии"
+
+msgid "pm/missionState/improve"
+msgstr "Подобрение на резултата"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Смяна на машина"
+
+msgid "pm/no_missions"
+msgstr "Няма активни мисии за избраната ви машина"
+
+msgid "pm/tier"
+msgstr "Неподходящо ниво"
+
+msgid "pm/unavailable"
+msgstr "Мисията е временно недостъпна"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Няма активни мисии за избраната ви машина. Моля изберете друга машина."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Тази мисия е временно недостъпна поради технически причини. Извиняваме се за неудобството."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Избраната ви машина не отговаря на изискванията за ниво за активните операции. Моля изберете друга машина."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Няма активни мисии"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Временно недостъпно"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Неподходящо ниво"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Всички редовни мисии за днес са изпълнени"
 
 msgid "quests/daily_quests/completed"
 msgstr "Всички дневни мисии са изпълнени"
+
+msgid "slider/title/missions"
+msgstr "Обичайни мисии"
+
+msgid "slider/title/personalMissions"
+msgstr "Лични мисии"
 
 msgid "tooltip/common/timer"
 msgstr "Достъпно след {{timeLeft}}"

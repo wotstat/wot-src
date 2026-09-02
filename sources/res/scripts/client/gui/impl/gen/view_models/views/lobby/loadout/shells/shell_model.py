@@ -1,12 +1,14 @@
 from frameworks.wulf import Array, ViewModel
 from gui.impl.gen.view_models.common.price_item_model import PriceItemModel
 from gui.impl.gen.view_models.common.price_model import PriceModel
+from gui.impl.gen.view_models.common.vehicle_mechanic_model import VehicleMechanicModel
+from gui.impl.gen.view_models.views.lobby.tank_setup.sub_views.shell_mechanic_subtypes_model import ShellMechanicSubtypesModel
 from gui.impl.gen.view_models.views.lobby.tank_setup.sub_views.shell_specification_model import ShellSpecificationModel
 
 class ShellModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=16, commands=0):
+    def __init__(self, properties=18, commands=0):
         super(ShellModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -129,6 +131,28 @@ class ShellModel(ViewModel):
     def getPropertiesListType():
         return ShellSpecificationModel
 
+    def getMechanics(self):
+        return self._getArray(16)
+
+    def setMechanics(self, value):
+        self._setArray(16, value)
+        return
+
+    @staticmethod
+    def getMechanicsType():
+        return VehicleMechanicModel
+
+    def getMechanicsSubtypes(self):
+        return self._getArray(17)
+
+    def setMechanicsSubtypes(self, value):
+        self._setArray(17, value)
+        return
+
+    @staticmethod
+    def getMechanicsSubtypesType():
+        return ShellMechanicSubtypesModel
+
     def _initialize(self):
         super(ShellModel, self)._initialize()
         self._addViewModelProperty(b'totalPrice', PriceModel())
@@ -147,4 +171,6 @@ class ShellModel(ViewModel):
         self._addBoolProperty(b'isMountedMoreThanOne', False)
         self._addStringProperty(b'kind', b'')
         self._addArrayProperty(b'propertiesList', Array())
+        self._addArrayProperty(b'mechanics', Array())
+        self._addArrayProperty(b'mechanicsSubtypes', Array())
         return

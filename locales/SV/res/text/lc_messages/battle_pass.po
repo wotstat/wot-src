@@ -229,23 +229,14 @@ msgstr "på köp:"
 msgid "battlePassBuyView/descr"
 msgstr "När du köper ett delmoment låser du omedelbart upp och får alla belöningar för delmomentet."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Dessa belöningar delas ut efter slutförande av de följande delmomenten."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Följande belöningar delas ut för delmoment %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Du får följande belöningar direkt:"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Följande belöningar delas ut för delmoment %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "KOMMER LÅSAS UPP"
+msgstr "Låses upp i delmoment som ej slutförts"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "DELAS UT DIREKT"
+msgstr "Erhålls omedelbart"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktivera Stridspasskapitlet"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitspåret"
 
-msgid "chapter/fullName/201"
-msgstr "Begravd tid"
+msgid "chapter/fullName/211"
+msgstr "Specialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntman"
 
-msgid "chapter/fullName/203"
-msgstr "Ökenkommando"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoiker"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "BEGRAVD TID"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNTMAN"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "ÖKENKOMMANDO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIKER"
 
 msgid "chapter/title"
 msgstr "KAPITEL %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Uppdrag för 3× besättningserfarenhet"
 
 msgid "equipCoinBonus"
 msgstr "Komponenter: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "3D-tillbehörsset"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Vagnschef"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Tillgängligt när alla kapitel är slutförda. Slutförda kapitel: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Skaffa en Premiumvagn och exklusiva utseendeelement"
+msgstr "Dyk in för exklusiva belöningar och unika utseendeelement."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Stridspass: Far Cry är här!"
+msgstr "Specialkapitlet är här!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Uppgradera ditt stridspass för fler belöningar!"
@@ -1114,11 +1102,8 @@ msgstr "Delmoment %(level)d av elitspåret"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "erfarenhet för alla besättningsmedlemmar i en vagn från %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "VÄLJ BELÖNING"
-
 msgid "rewardChoice/title"
-msgstr "STRIDSPASS"
+msgstr "Välj dina belöningar"
 
 msgid "rewardChoice/titleChapter"
 msgstr "STRIDSPASS: KAPITLET %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "STRIDSPASS: KAPITLET %(chapter)s, DELMOMENT %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Letar i sanden"
+msgid "season/fullName/21"
+msgstr "Bänkad"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "LETAR I SANDEN"
+msgid "season/fullNameUppercased/21"
+msgstr "BÄNKAD"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Anvisningar att välja mellan"

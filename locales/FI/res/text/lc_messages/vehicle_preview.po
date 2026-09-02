@@ -40,6 +40,9 @@ msgstr "Tutki"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Palauta"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Suuriin paketteihin"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Tason %(level)s %(nation)s vaunua ei ole tutkittu"
 
@@ -54,6 +57,15 @@ msgstr "Alennus ostoon:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Alennus tutkittaessa:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Tämän vaunun voi saada {{@ style (color $color)}}suurista paketeista!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "suurista paketeista!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Tämän vaunun voi saada"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Käytä kupongin alennus: %(value)s"

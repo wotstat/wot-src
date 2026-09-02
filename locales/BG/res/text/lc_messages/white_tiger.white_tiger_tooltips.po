@@ -1,0 +1,170 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Всички етапи са завършени!"
+
+msgid "bannerTooltip/description"
+msgstr "Blitzträger срещу Хрътките: асиметричен бой 1 срещу 6 с модифицирани машини. Спечелете уникални елементи за персонализация и други ценни награди."
+
+msgid "bannerTooltip/expiryDate/frozen"
+msgstr "Примирие"
+
+msgid "bannerTooltip/expiryDate/inAnnouncement"
+msgstr "Waffenträger ще бъде зареден на"
+
+msgid "bannerTooltip/expiryDate/technicalPause"
+msgstr "В момента режимът е недостъпен"
+
+msgid "bannerTooltip/header"
+msgstr "Waffenträger: Генезис"
+
+msgid "bannerTooltip/mode"
+msgstr "РЕЖИМ"
+
+msgid "bannerTooltip/modeHint"
+msgstr "— превключване към друг режим на игра"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е да има и блокиране на клиента на играта."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "В случай на недостатъчна производителност, опитайте да намалите графичните настройки."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Ниска производителност"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Режимът натоварва компютъра"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Намалена производителност"
+
+msgid "bannerTooltip/year"
+msgstr "2026"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Вече сте приятели."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Покана за приятелство, очакваща потвърждение"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Премахни играча от списъка \"Игнорирани\"."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Добави в списъка с приятели"
+
+msgid "battleResult/interaction/menu"
+msgstr "Натиснете, за да отворите менюто за взаимодействие с този играч."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Добави във взвод"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Играчът вече е във взвода."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Вече е изпратена покана."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Само командирът на взвода може да покани играчи да се присъединят към взвода."
+
+msgid "dailyQuests/badgeStatus"
+msgstr "%(icon) Налично до %(date)s"
+
+msgid "dailyQuests/rewards"
+msgstr "Награди:"
+
+msgid "dailyQuests/status"
+msgstr "Нова ежедневна мисия след %(icon) %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Изберете налична машина, за да влезете в битка."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Недостъпно"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Битките в избраната трудност/режим са временно недостъпни поради технически причини."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Недостъпно"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Изчакайте взводът да се върне от предишната битка, за да влезете в нова битка."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Недостъпен"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Несъвместимо ниво на трудност за взвода."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Недостъпен"
+
+msgid "metaWidget/body"
+msgstr "Щракнете, за да видите всички цели и награди на събитието."
+
+msgid "metaWidget/header"
+msgstr "Път на наградата"
+
+msgid "shopWidget/body"
+msgstr "Щракнете, за да отворите специална секция на Магазина в играта с ексклузивни пакети за събитието."
+
+msgid "shopWidget/header"
+msgstr "Ключове за Waffenträger и други"
+
+msgid "teamList/actions/body"
+msgstr "Бързи действия за създаване на взвод и добавяне / премахване на приятели."
+
+msgid "teamList/actions/header"
+msgstr "Бързи действия"
+
+msgid "teamList/damage/body"
+msgstr "Сортирай по нанесени поражения."
+
+msgid "teamList/damage/header"
+msgstr "Нанесени поражения"
+
+msgid "teamList/keys/body"
+msgstr "Сортирайте по спечелени ключове (показаната стойност не отчита бонус ключове, получени за изпълнение на съответната ежедневна мисия)."
+
+msgid "teamList/keys/header"
+msgstr "Спечелени ключове"
+
+msgid "teamList/kills/body"
+msgstr "Сортирай по унищожени вражески машини."
+
+msgid "teamList/kills/header"
+msgstr "Унищожени вражески машини"
+
+msgid "teamList/name/header"
+msgstr "Име на играча"
+
+msgid "teamList/place/body"
+msgstr "Сортирай по позиция в отбора."
+
+msgid "teamList/place/header"
+msgstr "Позиция в отбора"
+
+msgid "teamList/squad/header"
+msgstr "Взводът е тактическа единица за играчи, които да си сътрудничат в битки."
+
+msgid "teamList/vehicle/body"
+msgstr "Сортирай по име и тип на машината."
+
+msgid "teamList/vehicle/header"
+msgstr "Машини"
+
+msgid "vehicle/eventBonus"
+msgstr "Налични са бонус ключове за изпълнение на ежедневна мисия с тази машина"
+
+msgid "vehicle/lowEfficiency"
+msgstr "Слаба ефективност на екипажа"
+
+msgid "vehicle/rentState"
+msgstr "Заключена"

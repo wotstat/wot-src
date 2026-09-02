@@ -298,8 +298,26 @@ msgstr "Vergroot de toename van het motorvermogen door de raketmotoren met {colo
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Vergroot het aantal keer dat de raketmotoren in één gevecht kunnen worden gebruikt met {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Vermindert de initiële cooldown voordat IRZV kan worden gebruikt met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Vermindert de cooldown voordat IRZV opnieuw kan worden gebruikt met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Vermindert hoelang je voertuig aan vijanden wordt onthuld nadat je ze met IRZV hebt verkend met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Verlengt de duur van de IRZV-scan met {colorTagOpen}{value0} s{colorTagClose}, maakt de scansector {colorTagOpen}{value1}°{colorTagClose} smaller, vergroot zijn zichtbereik met {colorTagOpen}{value2}%{colorTagClose} en vermindert de verborgenheid van bewegende voertuigen met {colorTagOpen}{value3}%{colorTagClose} en die van achter begroeiing verstopte voertuigen met {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Vermindert de kans dat bemanningsleden gewond raken wanneer het voertuig wordt beschadigd."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Verhoogt het penetratievermogen na een niet-pantserdoorborende treffer met {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Verhoogt de schade na een pantserdoorborende treffer met {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Vermindert de kanonspreiding wanneer je kanon beschadigd is."
@@ -460,6 +478,18 @@ msgstr "Vermindert de herlaadtijd tussen granaten in het magazijn van je kanon."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Vermindert de kans dat je door vijanden wordt verkend wanneer je vuurt."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Vermindert de cooldown van ladingen wanneer het magazijn niet vol is {colorTagOpen}met {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Vermindert de cooldown van ladingen wanneer het magazijn vol is {colorTagOpen}met {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Vermindert de versnelde granaatherlaadtijd {colorTagOpen}met nog eens {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Vergroot het aantal beschikbare ladingen aan het begin van het gevecht {colorTagOpen}met {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Vermindert de vertraging tot het kanon gaat afkoelen met {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Vermindert de hoeveelheid kanonhitte gegenereerd per schot met {colorTag
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Vergroot de afkoelsnelheid van een verhit kanon met {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Vermindert de herlaadtijd van Coaxiale raketwerper met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Vermindert de herlaadtijd van Coaxiale raketwerper met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Vermindert de herlaadtijd van Coaxiale raketwerper met {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Verhoogt de raketschade met {colorTagOpen}{value} HP{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Verhoogt de schade veroorzaakt door non-HE-granaten."
@@ -547,6 +589,18 @@ msgstr "Vermindert de kanonspreiding met {colorTagOpen}{value}%{colorTagClose} i
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Vermindert de herlaadtijd van het kanon met {colorTagOpen}{value}%{colorTagClose} in de bunkermodus."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Verhoogt de voorwaartse topsnelheid in de EMT-modus met {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Verhoogt de met speciale granaten veroorzaakte schade in de EMT-modus met {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Verhoogt de met standaard granaten veroorzaakte schade in de EMT-modus met {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Vermindert de herlaadtijd van het kanon in de EMT-modus met {colorTagOpen}{value}%{colorTagClose} (m.u.v. HE)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Vergroot het aantal levenspunten van de brandstoftank- en motormodule van je voertuig."
 
@@ -555,6 +609,9 @@ msgstr "Vermindert het negatieve effect van een beschadigde munitieopslag en mot
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Vergroot de schade die je granaten aan de modules van vijandelijke voertuigen veroorzaken."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Vermindert de benodigde tijd om tussen vuurmodi te switchen met {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Stelt je in staat om een alternatieve configuratie van munitie en verbruiksartikelen te gebruiken."
@@ -742,6 +799,18 @@ msgstr "Kernoptimalisatie"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Grotere boosteropslag"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Aangepaste ontsteker"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Effectieve vloeistofkoeling"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optiek met lage divergentie"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Gelijktijdige vloeistofkoeling"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Ophanging-HP"
 
@@ -750,6 +819,12 @@ msgstr "Ophanging reparatiesnelheid"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Bemanningsbescherming"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Aanpasbare ontsteker: penetratie"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Aanpasbare ontsteker: schade"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situationele kanonspreiding"
@@ -928,6 +1003,18 @@ msgstr "Intra-magazijn herlaadtijd"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Verborgenheid na vuren"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Zuivere rotorwikkeling"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Actieve rotorkoeling"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Hooggeleidende statorbehuizing"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Orthocyclische wikkeling"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Speciale warmteoverdrachtsvloeistof"
 
@@ -936,6 +1023,18 @@ msgstr "Hooggeleidende behuizing"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Warmtepijpoptimalisatie"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Laadcyclusoptimalisatie"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Laadcyclusoptimalisatie"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Laadcyclusoptimalisatie"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Verbeterde gevechtskop"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Non-HE-granaatschade"
@@ -1018,6 +1117,18 @@ msgstr "Perfect gebalanceerde rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulisch aangedreven doorlader"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Verbeterde ophangingsdempers"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Aangepaste speciale eenheidsmunitie"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Aangepaste standaard eenheidsmunitie"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Geoptimaliseerde EMT-laadcyclus"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Selectieve module-HP-boost"
 
@@ -1026,6 +1137,9 @@ msgstr "Selectieve modulebescherming"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Granaat moduleschade"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Geoptimaliseerde herkalibratie"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Munitie en verbruiksartikelen configuratie"

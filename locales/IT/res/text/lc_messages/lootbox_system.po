@@ -28,6 +28,30 @@ msgstr "RICOMPENSE RICEVUTE"
 msgid "awardViews/footer/backButton/"
 msgstr "Affermativo!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} rimanente/i"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Nessuna riapertura"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Preziosa ricompensa"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Riapri gratuitamente"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Titoli insufficienti"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Riapri per {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Riapri"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Le ricompense preziose trovate non possono essere oggetto di riapertura."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direttiva"
 
@@ -118,6 +142,18 @@ msgstr "Casse aperte: %(count)"
 msgid "common/statsButton"
 msgstr "Statistiche"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Annulla"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "La cassa sarà aperta di nuovo e sarà possibile ricevere delle ricompense differenti."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Riapri"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Riaprire per {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Annulla"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "L'evento terminerà tra %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Se non apri tutte le casse prima della fine dell'evento, queste saranno successivamente aperte automaticamente."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Se non apri le casse prima della fine dell'evento, queste saranno aperte automaticamente."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti della cassa, allora tutti i veicoli successivi ricevuti dalle casse saranno compensati con una somma in oro pari al loro valore intero."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Le %(guaranteed0)s casse contengono un veicolo di livello VIII–X garantito. Se aprendole non dovessi trovare questo veicolo, allora troverai un veicolo di livello VIII–X che ancora non possiedi in occasione dell'apertura della %(guaranteed0)s&zwnbsp;ª cassa (a seconda del tipo di cassa). Quando ciò avviene, il contatore si azzera."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Ogni %(guaranteed)s casse contengono un veicolo di livello VIII–X garantito. Se aprendole non dovessi trovare questo veicolo, allora troverai un veicolo di livello VIII–X che ancora non possiedi in occasione dell'apertura della %(guaranteed)s&zwnbsp;ª cassa (a seconda del tipo di cassa). Quando ciò avviene, il contatore si azzera."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Se non sei soddisfatto dalle ricompense che hai trovato in una cassa, puoi riaprirla per avere la possibilità di ricevere degli articoli diversi appartenenti alla medesima lista. Ogni cassa può essere riaperta solo un numero limitato di volte:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Apertura automatica"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Compensazione"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Ricompensa garantita"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Riapertura"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Visualizza la lista di articoli sul portale di gioco"
@@ -273,6 +315,30 @@ msgstr "per %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "stile 3D %(style)"
+
+msgid "reroll/free"
+msgstr "Gratis"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Transazione finanziaria"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Crediti dedotti: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Titoli dedotti: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Oro dedotto: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "L'evento «%(eventName)s» è terminato"
@@ -480,3 +546,15 @@ msgstr "Veicoli compensati: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Compensazione per un veicolo già presente nella tua Officina."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Riapertura"
+
+msgid "tooltip/reroll/price"
+msgstr "Costo"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Riaprire una cassa ti dà la possibilità di ricevere degli articoli diversi appartenenti alla medesima lista."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Riapertura"

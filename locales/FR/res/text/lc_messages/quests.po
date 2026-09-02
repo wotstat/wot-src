@@ -802,6 +802,12 @@ msgstr "Multiplicateur flexible d'EXP."
 msgid "bonusName/attachment"
 msgstr "Accessoire 3D"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "Avancée aérienne"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "Ensemble de défense aérienne"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "Butin du challenger"
 
@@ -810,6 +816,9 @@ msgstr "Ensemble d'accessoires 3D"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "Sentinelle des mers"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "Recherche et destruction"
 
 msgid "bonusName/attendance_reward"
 msgstr "Récompenses d'activité"
@@ -4152,6 +4161,12 @@ msgstr "Mission stratégique"
 
 msgid "item/type/specialMission"
 msgstr "Bastion : instructions spéciales"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "Cette mission pourra être accomplie chaque jour durant l'évènement et elle ne pourra pas être repiochée."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "Mission fixe"
 
 msgid "metrics/state/done"
 msgstr "Accomplie"

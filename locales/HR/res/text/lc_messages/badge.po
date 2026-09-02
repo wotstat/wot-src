@@ -644,7 +644,7 @@ msgid "badge_190"
 msgstr "Sektor 3 Super Agent"
 
 msgid "badge_190_descr"
-msgstr "Može se primiti za izvršenje svih osobnih zadataka kampanje Sektor 3."
+msgstr "Može se primiti za izvršenje svih osobnih zadataka u glavnim operacijama kampanje Sektor 3."
 
 msgid "badge_191"
 msgstr "OLS Autumn'25 navijač"
@@ -842,19 +842,19 @@ msgid "badge_225"
 msgstr "Goruća zakletva"
 
 msgid "badge_225_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Šampion u sezoni Grimizni Zmaj u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Šampion u sezoni Grimizni Zmaj u režimu Navala."
 
 msgid "badge_226"
 msgstr "Plamteća kruna"
 
 msgid "badge_226_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Grimizni Zmaj u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Legenda u sezoni Grimizni Zmaj u režimu Navala."
 
 msgid "badge_227"
 msgstr "Supernova"
 
 msgid "badge_227_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Grimizni Zmaj u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Legenda u sezoni Grimizni Zmaj u režimu Navala."
 
 msgid "badge_228"
 msgstr "ATLAS branitelj"
@@ -878,19 +878,19 @@ msgid "badge_231"
 msgstr "Štetna pošast"
 
 msgid "badge_231_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Šampion u sezoni Zmaja od žada u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Šampion u sezoni Zmaj od žada u režimu Navala."
 
 msgid "badge_232"
 msgstr "Otrovni raj"
 
 msgid "badge_232_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Zmaja od žada u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Legenda u sezoni Zmaj od žada u režimu Navala."
 
 msgid "badge_233"
 msgstr "Biološka opasnost"
 
 msgid "badge_233_descr"
-msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Zmaja od žada u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+msgstr "Dodjeljuje se za dosizanje ranga Legenda u sezoni Zmaj od žada u režimu Navala."
 
 msgid "badge_234"
 msgstr "OLS Autumn'26 navijač"
@@ -904,11 +904,65 @@ msgstr "OLS Autumn'26 prorok"
 msgid "badge_235_descr"
 msgstr "Dodjeljuje se fanovima koji su pogodili pobjednički tim OLS Autumn '26. Vaše predviđanje je legendarno!"
 
+msgid "badge_236"
+msgstr "Istrebljivač Stražara"
+
+msgid "badge_236_descr"
+msgstr "Dodjeljuje se za eliminiranje 200 von Kriegerovih Stražara."
+
+msgid "badge_237"
+msgstr "Fossa VM 68 značka, II klasa"
+
+msgid "badge_237_descr"
+msgstr "Može se dobiti za sastavljanje srednjeg tenka Fossa VM 68."
+
+msgid "badge_238"
+msgstr "Fossa VM 68 značka, I klasa"
+
+msgid "badge_238_descr"
+msgstr "Može se dobiti za izvršenje svih zadataka u operaciji Fossa."
+
+msgid "badge_239"
+msgstr "Feniks šampion"
+
+msgid "badge_239_descr"
+msgstr "Dodjeljuje se za ostvarenje ranga Šampion u sezoni Azurni Feniks u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+
 msgid "badge_23_descr"
 msgstr "Budi među najboljih 1000 sudionika događaja Marš nacija u vozilima razine VII."
 
 msgid "badge_24"
 msgstr "Tenkovski stručnjak: razina VIII"
+
+msgid "badge_240"
+msgstr "Feniks legenda"
+
+msgid "badge_240_descr"
+msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Azurni Feniks u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+
+msgid "badge_241"
+msgstr "Legendarni Feniks"
+
+msgid "badge_241_descr"
+msgstr "Dodjeljuje se za ostvarenje ranga Legenda u sezoni Azurni Feniks u režimu Navale. Nagrada će biti uklonjena na početku slijedeće sezone."
+
+msgid "badge_242"
+msgstr "Navala 2026-2027: šampion"
+
+msgid "badge_242_descr"
+msgstr "Komemorativna značka koja se dodjeljuje za prikupljanje 15 Boja Navale."
+
+msgid "badge_243"
+msgstr "Navala 2026-2027: legenda"
+
+msgid "badge_243_descr"
+msgstr "Komemorativna značka koja se dodjeljuje za prikupljanje 18 Boja Navale."
+
+msgid "badge_244"
+msgstr "Legenda o Feniksu"
+
+msgid "badge_244_descr"
+msgstr "Posebna traka nadimka dodjeljena najboljim igračima unutar Godine Feniksa u Navali."
 
 msgid "badge_24_descr"
 msgstr "Budi među najboljih 1000 sudionika događaja Marš nacija u vozilima razine VIII."
@@ -1512,6 +1566,12 @@ msgstr "Supernova"
 
 msgid "suffix/badge_233"
 msgstr "Biološka opasnost"
+
+msgid "suffix/badge_241"
+msgstr "Legendarni Feniks"
+
+msgid "suffix/badge_244"
+msgstr "Legenda o Feniksu"
 
 msgid "suffix/badge_56"
 msgstr "Alfa tester"

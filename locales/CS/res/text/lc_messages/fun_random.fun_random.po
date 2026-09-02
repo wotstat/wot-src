@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neonový sprint je jedinečná, časově omezená akce, která nabízí odlišný styl hry! Závoďte a rvěte se na nebezpečných tratích, plňte mise a získávejte odměny."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Můžete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+msgstr "Výkon vašeho počítače není pro tento režim hry dostačující. Budete mít potíže s grafikou a pohybem vozidla. Možné jsou také pády herního klienta."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Možný omezený výkon"
+msgstr "Nízký výkon"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Můžete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Možný omezený výkon"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Všechny úrovně"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+msgstr "Výkon vašeho počítače není pro tento režim hry dostačující. Budete mít potíže s grafikou a pohybem vozidla. Možné jsou také pády herního klienta."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Je doporučeno nejvyšší nastavení grafiky"
+msgstr "Nízký výkon"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+msgstr "%(icon) Nízký výkon"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Je doporučeno nejvyšší nastavení grafiky"
+msgstr "Možný omezený výkon"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+msgstr "%(icon) Možný omezený výkon"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Nová mise Neonového sprintu bude dostupná za:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Blahopřejeme!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Nekonečný po-postup"
+msgstr "Opakovatelná fáze"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Dokončili jste hlavní postup"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Dokončete tuto fázi tolikrát, kolikrát chcete."
+msgstr "Získejte co nejvíce odměn:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Bodů získáno: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Lze opakovat"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Za dokončení:"
+msgstr "Za dokončení"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Za porážku:"
+msgstr "Za porážku"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Za vítězství:"
+msgstr "Za vítězství"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Body:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Prozatím jste splnili všechny dostupné mise. Další se objeví v příští rotaci."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Dostupné ještě {{timeLeft}}"
+msgstr "Vyprší za {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Dostupné ještě {{timeLeft}}"
+msgstr "Akce končí za {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nové mise budou dostupné za {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Vyhýbejte se laserům, pečlivě načasujte skoky a dojeďte do cíle!"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Pozor: Lasery a skoky"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Pokud vaše vozidlo uvízne, použijte schopnost „Návrat ke kontrolnímu stanovišti“, čímž se teleportujete k poslednímu dosaženému kontrolnímu stanovišti."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Vrátit se ke kontrolnímu stanovišti"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "Pro více informací o režimu"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Probojujte se\nk cílové čáře"
+msgstr "Probojujte se k cílové čáře"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Všechny úrovně"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Tento režim vyžaduje vysoký výkon a během intenzivních okamžiků může dojít k poklesu FPS."
+msgstr "Výkon vašeho počítače není pro tento režim hry dostačující. Budete mít potíže s grafikou a pohybem vozidla. Možné jsou také pády herního klienta."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Je doporučeno nejvyšší grafické nastavení"
+msgstr "Nízký výkon"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Je doporučeno nejvyšší grafické nastavení"
+msgstr "%(icon) Nízký výkon"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Tento režim vyžaduje vysoký výkon počítače. Během intenzivních okamžiků může dojít k poklesu FPS."
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Je doporučeno nejvyšší grafické nastavení"
+msgstr "Možný omezený výkon"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Je doporučeno nejvyšší grafické nastavení"
+msgstr "%(icon) Možný omezený výkon"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neonový sprint"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Závoďte a bojujte na nebezpečných tratích, plňte mise a získávejte odměny."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neonový sprint"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neonový sprint"

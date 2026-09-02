@@ -232,11 +232,35 @@ msgstr "Dit kanon kan continu vuren zonder te worden herladen. Elk schot generee
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Oververhittingsbeheer automatisch kanon"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Het mechanisme verlaagt gelijk de herlaadtijd naar een vaste lage waarde. Per granaat wordt één lading verbruikt, en ladingen worden na verloop van tijd aangevuld – sneller wanneer het magazijn vol is. Aan het begin van het gevecht is een bepaald aantal ladingen beschikbaar."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Geforceerd laadmechanisme"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Dit voertuig is uitgerust met een raketwerper in de kanonmantel. Druk om een raket te richten op:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Coaxiale raketwerper"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Druk wanneer je met het raketzicht richt op de knop voor vuren om een raket te lanceren:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Coaxiale raketwerper"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Elke keer dat je een vijand met een granaat raakt, ontvang je een herlaadefficiëntieniveau, wat de herlaadtijd van je kanon tijdelijk versnelt. Elke voltreffer zorgt voor een hoger niveau.\nHet vernietigen van een vijandelijk voertuig met een granaat levert extra herlaadefficiëntieniveaus."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Semiautomatische munitieopslag"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Door de Externe munitiemodule van dit voertuig kan het eenheidsmunitie met een hoge lading afvuren die meer schade veroorzaken. Als de module actief is, worden de mobiliteit en vuursnelheid verminderd."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Externe munitietoevoer modus"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Als je kanon geladen is, kun je beginnen met het verwarmen van je volgende schot. Hoe hoger je hitteniveau, hoe hoger je gemiddelde schade.\nBegin het verwarmingsproces met een druk op:"
@@ -345,6 +369,30 @@ msgstr "Bij activatie verhogen jetboosters het motorvermogen en de voorwaartse t
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Voor- en nadelen"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Wanneer je een zichtbaar vijandelijk voertuig met een granaat raakt, wordt de ontsteker van de volgende granaat aangepast. Als het eerste schot het vijandelijke pantser doorboort, wordt de schade van het volgende schot verhoogd. Zo niet, dan wordt de penetratie van het volgende schot verhoogd."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Aanpasbare ontsteker"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast. Welke parameters dat zijn, hangt af van de geselecteerde modus. Met elke modus kun je je snel aan verschillende situaties aanpassen."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Granaatkalibratiesysteem"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Een geavanceerd optisch apparaat vergroot je zichtbereik en verbetert de detectie van bewegende en achter begroeiing verstopte voertuigen. Na activatie scant het een smalle sector recht voor je voertuig, waarbij verborgen doelwitten zichtbaar worden."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrarood zoek en volg (IRZV)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Als het een onverkende vijand onthult, word je zelf meteen en tijdelijk zichtbaar, en zowel jij als je vijanden worden hiervan gelijk op de hoogte gebracht. Je kunt zelf de scan stoppen en het apparaat na een tijdje weer opstarten."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrarood zoek en volg (IRZV)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Raketmotoren die voor enkele seconden de acceleratie, mobiliteit en wendbaarheid verhogen. De raketmotoren kunnen onafhankelijk van elkaar werken om de romp sneller te laten draaien, en hebben geen invloed op het achteruitrijden."

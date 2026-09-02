@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "la punctele de integritate ale vehiculului"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+msgstr "la viteza de rotație a tunului"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "la viteza de rotație a turelei"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "la punctele de integritate ale vehiculului"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+msgstr "la viteza de rotație a tunului"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "la viteza de rotație a turelei"
@@ -2100,6 +2100,51 @@ msgstr " și "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Modul Alimentare cu muniție externă al vehiculului îi permite utilizarea de proiectile cu daune crescute."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Valorile de bază în modul Standard"
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Valorile modificate în modul Alimentare cu muniție externă."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Parametrul de bază al loviturilor cu încărcătură completă"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametrii loviturilor cu o singură încărcătură"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Parametrul de bază al loviturilor cu încărcătură completă"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Standard"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametrii loviturilor cu o singură încărcătură"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "În modul Calibrat, acest tip de proiectil e eficient împotriva blindajului înclinat."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "În modul Standard, acest tip de proiectil e eficient împotriva blindajului fără ecrane."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Modul Standard"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Modul Calibrat"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "În modul Calibrat, acest tip de proiectil poate penetra ecrane."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "În modul Standard, acest tip de proiectil e eficient împotriva blindajului vertical."
 
 msgid "tooltips/specializationDesc"
 msgstr "Echipamentul standard din categoria %(spec)s va fi mai eficient dacă este montat în acest locaș. Echipamentul din alte categorii va conferi doar un bonus standard."

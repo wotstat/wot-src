@@ -37,9 +37,9 @@ class BattleDamageLogPanelMeta(BaseDAAPIComponent):
             return self.flashObject.as_detailStatsTop(isVisible, isShortMode, messages)
         return
 
-    def as_addDetailMessageTopS(self, value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG):
+    def as_addDetailMessageTopS(self, value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG, shellModeImg=b''):
         if self._isDAAPIInited():
-            return self.flashObject.as_addDetailMessageTop(value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG)
+            return self.flashObject.as_addDetailMessageTop(value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG, shellModeImg)
         return
 
     def as_detailStatsBottomS(self, isVisible, isShortMode, messages):
@@ -47,9 +47,9 @@ class BattleDamageLogPanelMeta(BaseDAAPIComponent):
             return self.flashObject.as_detailStatsBottom(isVisible, isShortMode, messages)
         return
 
-    def as_addDetailMessageBottomS(self, value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG):
+    def as_addDetailMessageBottomS(self, value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG, shellModeImg=b''):
         if self._isDAAPIInited():
-            return self.flashObject.as_addDetailMessageBottom(value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG)
+            return self.flashObject.as_addDetailMessageBottom(value, actionTypeImg, vehicleTypeImg, vehicleName, shellTypeStr, shellTypeBG, shellModeImg)
         return
 
     def as_isDownCtrlButtonS(self, value):

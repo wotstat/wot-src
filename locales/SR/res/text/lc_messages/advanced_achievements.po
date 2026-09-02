@@ -172,9 +172,6 @@ msgstr "Poseduj&nbsp;T-44-122 (nivo&nbsp; %(level)s)"
 msgid "description/branch_china_Ch19_121"
 msgstr "Izuči sva vozila Kineske srednje grane koja vodi do&nbsp;121 (nivo&nbsp; %(level)s)"
 
-msgid "description/branch_china_Ch29_Type_62C_prot"
-msgstr "Izuči sva vozila Kineske lake grane koja vodi do&nbsp;WZ-132-1 (nivo&nbsp; %(level)s)"
-
 msgid "description/branch_china_Ch38_WZ113G_FT"
 msgstr "Izuči sva vozila Kineske grane lovaca tenkova koja vodi do&nbsp;WZ-113G&nbsp;FT (nivo&nbsp; %(level)s)"
 
@@ -190,14 +187,17 @@ msgstr "Izuči sva vozila Kineske teške grane koja vodi do&nbsp;BZ-79 (nivo&nbs
 msgid "description/branch_china_Ch70_PTZ_78"
 msgstr "Izuči sva vozila u kineskoj grani lovaca tenkova koja vodi do&nbsp;PTZ-78 (nivo&nbsp;%(level)s)"
 
+msgid "description/branch_china_Ch71_WZ_219"
+msgstr "Izuči sva vozila u kineskoj lakoj grani koja vodi do&nbsp;WZ-219 (nivo&nbsp;%(level)s)"
+
 msgid "description/branch_czech_Cz04_T50_51"
 msgstr "Izuči sva vozila Čehoslovačke srednje grane koja vodi do&nbsp;TVP&nbsp;T&nbsp;50/51 (nivo&nbsp; %(level)s)"
 
-msgid "description/branch_czech_Cz17_Vz_55"
-msgstr "Izuči sva vozila Čehoslovačke teške grane koja vodi do&nbsp;Vz.&nbsp;55 (nivo&nbsp; %(level)s)"
-
 msgid "description/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "Izuči sva čehoslovačka vozila lake grane koja vode do &nbsp;Vz.&nbsp;71&nbsp;Tesák (nivo&nbsp;%(level)s)"
+
+msgid "description/branch_czech_Cz46_Vz_63P"
+msgstr "Izuči sva vozila u čehoslovačkoj teškoj grani koja vodi do&nbsp;V.z.&nbsp;63P (nivo&nbsp;%(level)s)"
 
 msgid "description/branch_france_F108_Panhard_EBR_105"
 msgstr "Izuči sva vozila Francuske lake grane koja vodi do Panhard EBR&nbsp;105 (nivo&nbsp; %(level)s)"
@@ -247,6 +247,9 @@ msgstr "Izuči sva vozila Nemačke lake grane koja vodi do&nbsp;leKpz&nbsp;Borke
 msgid "description/branch_germany_G189_Hirschkafer"
 msgstr "Izuči sva vozila Nemačke grane lovaca tenkova koja vodi do&nbsp;Hirschkäfer (nivo&nbsp;%(level)s)"
 
+msgid "description/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "Izuči sva vozila u nemačkoj teškoj grani koja vodi do&nbsp;Pz.Kpfw.&nbsp;Neu (nivo&nbsp;%(level)s)"
+
 msgid "description/branch_germany_G42_Maus"
 msgstr "Izuči sva vozila Nemačke teške grane koja vodi do&nbsp;Maus (nivo&nbsp; %(level)s)"
 
@@ -274,20 +277,23 @@ msgstr "Izuči sva vozila Italijanske teške grane koja vodi do Rinoceronte (niv
 msgid "description/branch_italy_It23_CC_3"
 msgstr "Izuči sva vozila Italijanske grane lovaca koja vodi do Controcarro&nbsp;3 Minotauro (nivo&nbsp; %(level)s)"
 
+msgid "description/branch_italy_It43_CAV_mod_71"
+msgstr "Izuči sva vozila u italijanskoj srednjoj grani koja vodi do&nbsp;CAV 71 (nivo&nbsp;%(level)s)"
+
 msgid "description/branch_japan_J16_ST_B1"
 msgstr "Izuči sva vozila Japanske srednje grane koja vodi do&nbsp;STB-1 (nivo&nbsp; %(level)s)"
 
 msgid "description/branch_japan_J20_Type_2605"
 msgstr "Izuči sva vozila Japanske teške grane koja vodi do Type 5 Heavy (nivo&nbsp; %(level)s)"
 
-msgid "description/branch_japan_J35_Ho_Ri_3"
-msgstr "Izuči sva vozila Japanske grane lovaca koja vodi do&nbsp;Ho-Ri&nbsp;3 (nivo&nbsp; %(level)s)"
-
 msgid "description/branch_japan_J40_Type_71"
 msgstr "Izuči sva vozila Japanske teške grane koja vodi do Type&nbsp;71 (nivo&nbsp; %(level)s)"
 
 msgid "description/branch_japan_J52_STK_2"
 msgstr "Izuči sva vozila u japanskoj teškoj grani koja vodi do&nbsp;STK-2 (nivo&nbsp;%(level)s)"
+
+msgid "description/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "Izuči sva vozila Japanske grane lovaca koja vodi do Shugo (nivo&nbsp;%(level)s)"
 
 msgid "description/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "Izuči sva vozila Poljske teške grane koja vodi do&nbsp;60TP Lewandowskiego (nivo&nbsp; %(level)s)"
@@ -307,11 +313,11 @@ msgstr "Izuči sva vozila Švedske grane lovaca koja vodi do Strv&nbsp;103B (niv
 msgid "description/branch_sweden_S16_Kranvagn"
 msgstr "Izuči sva vozila Švedske teške grane koja vodi do Kranvagn (nivo&nbsp; %(level)s)"
 
-msgid "description/branch_sweden_S28_UDES_15_16"
-msgstr "Izuči sva vozila Švedske srednje grane koja vodi do UDES&nbsp;15/16 (nivo&nbsp; %(level)s)"
-
 msgid "description/branch_sweden_S36_Strv_107_12"
 msgstr "Izuči sva vozila Švedske grane lovaca koja vodi do Strv&nbsp;Strv&nbsp;107-12 (nivo&nbsp;%(level)s)"
+
+msgid "description/branch_sweden_S41_BV_111"
+msgstr "Izučli sva vozila u švedskoj srednjoj grani koja vodi do BV-111&nbsp;(nivo&nbsp;%(level)s)"
 
 msgid "description/branch_uk_GB100_Manticore"
 msgstr "Izuči sva vozila Britanske lake grane koja vodi do Manticore (nivo&nbsp; %(level)s)"
@@ -510,6 +516,9 @@ msgstr "Poseduj sva vozila u kampanji Sektor 3"
 
 msgid "description/third_campaign_first_operation"
 msgstr "Završi prvu operaciju i poseduj&nbsp;Windhund (nivo&nbsp;%(level)s)"
+
+msgid "description/third_campaign_fourth_operation"
+msgstr "Završi četvrtu Operaciju i poseduj&nbsp;Fossa (nivo&nbsp;%(level)s)"
 
 msgid "description/third_campaign_second_operation"
 msgstr "Završi drugu operaciju i poseduj&nbsp;Dravec (nivo&nbsp;%(level)s)"
@@ -850,6 +859,9 @@ msgstr "BZ-79"
 msgid "name/Ch70_PTZ_78"
 msgstr "PTZ-78"
 
+msgid "name/Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "name/Cz02_TVP_T50"
 msgstr "Škoda T&nbsp;50"
 
@@ -894,6 +906,9 @@ msgstr "Vz.&nbsp;71&nbsp;Tesák"
 
 msgid "name/Cz40_DBV_152"
 msgstr "DBV-152"
+
+msgid "name/Cz46_Vz_63P"
+msgstr "Vz.&nbsp;63P"
 
 msgid "name/F06_ARL_44"
 msgstr "ARL&nbsp;44"
@@ -1074,6 +1089,18 @@ msgstr "Hirschkäfer"
 
 msgid "name/G18_JagdPanther"
 msgstr "Jagdpanther"
+
+msgid "name/G193_Pz_Kpfw_55"
+msgstr "Pz.Kpfw.&nbsp;55"
+
+msgid "name/G196_Versuchspanzer_57"
+msgstr "Versuchspanzer&nbsp;57"
+
+msgid "name/G197_Pz_Kpfw_Neu"
+msgstr "Pz.Kpfw.&nbsp;Neu"
+
+msgid "name/G198_Kampfpanzer_67"
+msgstr "Kampfpanzer&nbsp;67"
 
 msgid "name/G200_Chi_Go"
 msgstr "Chi-Go"
@@ -1378,6 +1405,9 @@ msgstr "Semovente&nbsp;M43 Bassotto"
 msgid "name/It31_CC_67_B"
 msgstr "SMV&nbsp;CC-67"
 
+msgid "name/It43_CAV_mod_71"
+msgstr "CAV 71"
+
 msgid "name/J10_Chi_To"
 msgstr "Type&nbsp;4 Chi-To"
 
@@ -1443,6 +1473,9 @@ msgstr "Ashigaru"
 
 msgid "name/J52_STK_2"
 msgstr "STK-2"
+
+msgid "name/J53_Ho_Ri_Shugo"
+msgstr "Shugo"
 
 msgid "name/Pl05_50TP_Tyszkiewicza"
 msgstr "50TP Tyszkiewicza"
@@ -1735,11 +1768,11 @@ msgstr "UDES&nbsp;14 Alt&nbsp;5"
 msgid "name/S36_Strv_107_12"
 msgstr "Strv&nbsp;107-12"
 
+msgid "name/S41_BV_111"
+msgstr "BV-111"
+
 msgid "name/branch_china_Ch19_121"
 msgstr "Kina:&nbsp;121"
-
-msgid "name/branch_china_Ch29_Type_62C_prot"
-msgstr "Kina: WZ-132-1"
 
 msgid "name/branch_china_Ch38_WZ113G_FT"
 msgstr "Kina: WZ-113G&nbsp;FT"
@@ -1756,14 +1789,17 @@ msgstr "China: BZ-79"
 msgid "name/branch_china_Ch70_PTZ_78"
 msgstr "Kina: PTZ-78"
 
+msgid "name/branch_china_Ch71_WZ_219"
+msgstr "China: WZ-219"
+
 msgid "name/branch_czech_Cz04_T50_51"
 msgstr "Čehoslovačka: TVP&nbsp;T&nbsp;50/51"
 
-msgid "name/branch_czech_Cz17_Vz_55"
-msgstr "Čehoslovačka: Vz.&nbsp;55"
-
 msgid "name/branch_czech_Cz34_Vz_71_Tesak"
 msgstr "Čehoslovačka: Vz.&nbsp;71&nbsp;Tesák"
+
+msgid "name/branch_czech_Cz46_Vz_63P"
+msgstr "Čehoslovačka: Vz.&nbsp;63P"
 
 msgid "name/branch_france_F108_Panhard_EBR_105"
 msgstr "Francuska: Panhard EBR&nbsp;105"
@@ -1813,6 +1849,9 @@ msgstr "Nemačka: leKpz&nbsp;Borkenkäfer"
 msgid "name/branch_germany_G189_Hirschkafer"
 msgstr "Nemačka: Hirschkäfer"
 
+msgid "name/branch_germany_G197_Pz_Kpfw_Neu"
+msgstr "Nemačka: Pz.Kpfw.&nbsp;Neu"
+
 msgid "name/branch_germany_G42_Maus"
 msgstr "Nemačka: Maus"
 
@@ -1840,20 +1879,23 @@ msgstr "Italija: Rinoceronte"
 msgid "name/branch_italy_It23_CC_3"
 msgstr "Italija: Controcarro&nbsp;3 Minotauro"
 
+msgid "name/branch_italy_It43_CAV_mod_71"
+msgstr "Italija: CAV 71"
+
 msgid "name/branch_japan_J16_ST_B1"
 msgstr "Japan: STB-1"
 
 msgid "name/branch_japan_J20_Type_2605"
 msgstr "Japan: Type&nbsp;5 Heavy"
 
-msgid "name/branch_japan_J35_Ho_Ri_3"
-msgstr "Japan: Ho-Ri&nbsp;3"
-
 msgid "name/branch_japan_J40_Type_71"
 msgstr "Japan: Type&nbsp;71"
 
 msgid "name/branch_japan_J52_STK_2"
 msgstr "Japan: STK-2"
+
+msgid "name/branch_japan_J53_Ho_Ri_Shugo"
+msgstr "Japan: Ho-Ri&nbsp;4"
 
 msgid "name/branch_poland_Pl15_60TP_Lewandowskiego"
 msgstr "Poljska: 60TP Lewandowskiego"
@@ -1873,11 +1915,11 @@ msgstr "Poljska: Strv&nbsp;103B"
 msgid "name/branch_sweden_S16_Kranvagn"
 msgstr "Švedska: Kranvagn"
 
-msgid "name/branch_sweden_S28_UDES_15_16"
-msgstr "Švedska: UDES&nbsp;15/16"
-
 msgid "name/branch_sweden_S36_Strv_107_12"
 msgstr "Švedska: Strv&nbsp;107-12"
+
+msgid "name/branch_sweden_S41_BV_111"
+msgstr "Švedska: BV-111"
 
 msgid "name/branch_uk_GB100_Manticore"
 msgstr "U.K.: Manticore"
@@ -2076,6 +2118,9 @@ msgstr "Sektor 3"
 
 msgid "name/third_campaign_first_operation"
 msgstr "Operacija: Windhund"
+
+msgid "name/third_campaign_fourth_operation"
+msgstr "Operacija: Fossa"
 
 msgid "name/third_campaign_second_operation"
 msgstr "Operacija: Dravec"

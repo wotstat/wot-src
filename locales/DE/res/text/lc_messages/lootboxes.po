@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Wir haben alle Schachteln der Feiertags-Ops für Sie geöffnet."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Glückwunsch!"
 
@@ -58,34 +55,10 @@ msgstr "{count}x"
 msgid "entryDesc/buySlot"
 msgstr "Sie können große Schachteln im Premium-Laden kaufen"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Große Schachteln"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Kleine Schachteln"
-
-msgid "entryDesc/questSlot"
-msgstr "Kleine Schachteln erhalten Sie für abgeschlossene Aufträge."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Diese Funktion ist vorübergehend nicht verfügbar. Versuchen Sie es später noch einmal."
 
 msgid "entryPoint/header"
-msgstr "Schachteln"
-
-msgid "entryTooltip/body/h1"
-msgstr "Große Schachteln kaufen:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Kleine Schachteln verdienen:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Kaufen Sie Schachteln mit Neujahrsdekorationen für sich selbst und Ihre Freunde im Premium-Laden."
-
-msgid "entryTooltip/body/p2"
-msgstr "Verliehen für abgeschlossene Aufträge der Feiertags-Ops."
-
-msgid "entryTooltip/header"
 msgstr "Schachteln"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} weitere Schachteln"
 msgid "entryView/buyLabel"
 msgstr "SCHACHTELN KAUFEN"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Sie haben keine großen Schachteln im Lager.\nKaufen Sie weitere im Premium-Laden."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Sie haben keine kleinen Schachteln.\nVerdienen Sie weitere im Gefecht."
-
 msgid "entryView/lootboxesCount"
 msgstr "{count}x"
-
-msgid "entryView/title"
-msgstr "Feiertags-Ops {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Verstanden!"
@@ -178,9 +139,6 @@ msgstr "Versorgungskisten öffnen"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Hinzugefügt"
 
-msgid "notification/ny19man"
-msgstr "Ein einzigartiges Besatzungsmitglied: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Sie erhielten folgende Belohnungen:"
 
@@ -244,36 +202,6 @@ msgstr "Ein einzigartiger Stil für"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "In Garage ansehen"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Weihnachtsschachteln"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magieschachteln"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Neujahrsschachteln"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Mondschachteln"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Weihnachtssammlung"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magiesammlung"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Neujahrssammlung"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Mondsammlung"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Schachteln enthalten Dekorationen der {category} und andere wertvolle Belohnungen."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Auszeichnungen:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Kaufen Sie weitere Schachteln im Premium-Laden."
 
@@ -285,12 +213,6 @@ msgstr "Aktion vorübergehend nicht verfügbar. Versuchen Sie es später erneut.
 
 msgid "type/event_premium"
 msgstr "Dämmerungskiste"
-
-msgid "type/newYear_premium"
-msgstr "GROSSE SCHACHTELN"
-
-msgid "type/newYear_usual"
-msgstr "KLEINE SCHACHTELN"
 
 msgid "type/wt_boss"
 msgstr "Ingenieurstarter"

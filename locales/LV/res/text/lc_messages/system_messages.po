@@ -1009,6 +1009,9 @@ msgstr "Apkalpes locekļa(u) trenēšana neizdevās servera kļūdas dēļ. Mē�
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "pašreizējā spēles sesija pārtraukta. Jūsu Wargaming.net&nbsp;ID tika izmantots ieiešanai World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Kļūda saņemot dāvanu: servera kļūda."
+msgstr "Kļūda verot kasti: Servera kļūda."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Kļūda saņemot dāvanu: Lūdzu uzgaidiet līdz izpildās iepriekšējā darbība."
+msgstr "Kļūda verot kasti: Lūdzu uzgaidiet kamēr iepriekšējā darbība ir pabeigta."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
@@ -2383,30 +2386,6 @@ msgstr "Iegūta unikāla kamuflāža priekš %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unikāla kamuflāža priekš %(vehicleName)s ir pieejama visai bruņutehnikai, kuras nācija ir %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Visa operācijas gaita ir saglabāta. Kampaņu var turpināt jebkurā laikā."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampaņas %(campaignName1)s un %(campaignName2)s ir apturētas"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Apturētās operācijas un to misijas ir atsāktas."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampaņas %(campaignName1)s un %(campaignName2)s atsāktas"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Visa operācijas gaita ir saglabāta. Kampaņu var turpināt jebkurā laikā."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampaņa %(campaignName)s apturēta"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Apturētās operācijas ir atsāktas."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampaņa %(campaignName)s atsākta"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s veiksmīgi uzstādīta"
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Kļūda, saņemot balvas. Lūdzu, mēģini vēlreiz vēlāk."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s veiksmīgi uzstādīta"
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Kļūda, saņemot balvas. Lūdzu, mēģini vēlreiz vēlāk."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s veiksmīgi uzstādīta"
 
 msgid "personalMissions/reward/regular/server_error"

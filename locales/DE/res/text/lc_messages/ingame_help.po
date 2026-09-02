@@ -232,11 +232,35 @@ msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nac
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Maschinenkanone mit Temperaturkontrolle gegen Überhitzen"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Über diesen Mechanismus wird die Nachladezeit der Granate auf eine kurze, festgelegte Zeit reduziert. Jeder Einsatz verbraucht eine Ladung pro Granate, diese Ladungen werden mit der Zeit wieder aufgefüllt. Das Auffüllen geschieht schneller, wenn das Magazin voll ist. Zu Beginn des Gefechts ist eine festgelegte Anzahl Ladungen verfügbar."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Erzwungener Lademechanismus"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Das Fahrzeug ist mit einem Raketenwerfer ausgestattet, der in der Kanonenblende befestigt ist. Zum Wechsel auf die Zielerfassung des Raketenwerfers:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaxialer Raketenwerfer"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Drücken Sie die Taste zum Feuern in der Zielerfassung des Raketenwerfers, um eine Rakete abzufeuern:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaxialer Raketenwerfer"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer.\nWenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Halbautomatisches Munitionslager"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Das Modul der externen Munitionszufuhr erlaubt es diesem Fahrzeug, leistungsfähige Hochladungs-Einheitsmunition mit gesteigertem Schaden abzufeuern. Solange das Modul aktiv ist, sind die Beweglichkeit und Feuerrate reduziert."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Modus der externen Munitionszufuhr"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss überhitzen. Je höher die Hitzestufe, desto größer wird der Bonus auf den mittleren Schaden.\nZum Start des Heizvorgangs drücken:"
@@ -345,6 +369,30 @@ msgstr "Bei Aktivierung steigern die Jet-Booster die Motorleistung und die Höch
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Vor- und Nachteile"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Wenn Sie ein sichtbares gegnerisches Fahrzeug mit einer Granate treffen, wird die Zünderprogrammierung für die nächste Granate angepasst. Wenn der erste Schuss die gegnerische Panzerung durchschlagen hat, wird der Schaden des nächsten Schusses erhöht. Wenn kein Durchschlag erfolgte, wird die Durchschlagskraft des nächsten Schusses erhöht."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Anpassbare Zünderprogrammierung"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können. Die Werte der unterschiedlichen Granaten unterscheiden sich je nach gewählten Modus. Über diese Modi können Sie sich schnell an unterschiedliche Gefechtssituationen anpassen."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Munitionskalibrierungssystem"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Ein fortschrittliches Zielsystem, das die Sichtweite steigert und die Erkennung von bewegten und von Laubwerk verdeckten Fahrzeugen erhöht. Bei Aktivierung untersucht das System einen schmalen Bereich vor dem Fahrzeug und enthüllt getarnte Fahrzeuge. Nach Einsatz braucht das Gerät eine Abklingzeit."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrarotzielsystem"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Wenn das System ein noch nicht aufgeklärtes gegnerisches Fahrzeug entdeckt, wird auch das eigene Fahrzeug damit für eine bestimmte Zeit aufgedeckt. Sowohl Sie als auch die von Ihnen aufgeklärten Gegner werden augenblicklich darüber informiert. Sie können den Suchvorgang nach einer kurzen Verzögerung manuell unterbrechen und die Abklingzeit des Geräts starten."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrarotzielsystem"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Die linken und rechten Düsen können unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken."

@@ -130,6 +130,9 @@ msgstr "Du kan ikke opprette eller bli med i en tropp fordi du mangler et passen
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Etter fullført kvalifisering blir opprettelse av tropper med 2 og 7 spillere tilgjengelig."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Etter at kvalifiseringen er fullført blir en tropp på to spillere tilgjengelig."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Kan ikke opprette en tropp."
 
@@ -141,6 +144,9 @@ msgstr "Opprett en tropp eller bli med i en eksisterende. Tropper i Onslaught ka
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Tropp"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Opprett en tropp eller bli med i en eksisterende. Tropper i Onslaught kan bestå av kun 2 spillere."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Opprett en taktisk enhet med 2 eller 3 spillere for samarbeidsspill.\n• Kampmodus: Ødeleggelse.\n• Kamptyper: Steel Hunt, Domination."
@@ -264,12 +270,6 @@ msgstr "Troppen har nådd maks antall tunge tanks"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Troppen har nådd maks antall mediumtanks"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Troppen har nådd maks antall lette tanks"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Troppen har nådd maks antall tanks med hjul"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Troppen har nådd maks antall lette tanks"

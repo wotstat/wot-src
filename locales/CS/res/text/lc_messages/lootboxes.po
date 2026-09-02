@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Otevřeli jsme všechny vaše krabičky Sváteční operace."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Gratulujeme!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Velké krabičky si můžete zakoupit v prémiovém obchodě"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Velké krabičky"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Malé krabičky"
-
-msgid "entryDesc/questSlot"
-msgstr "Malé krabičky získáte za plnění misí."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Tato funkce je dočasně nedostupná. Zkuste to prosím později."
 
 msgid "entryPoint/header"
-msgstr "Krabičky"
-
-msgid "entryTooltip/body/h1"
-msgstr "Kupte si velké krabičky:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Získejte malé krabičky:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Kupte v prémiovém obchodě krabičky s novoročními ozdobami pro sebe i své přátele."
-
-msgid "entryTooltip/body/p2"
-msgstr "Udělují se za plnění misí Sváteční operace."
-
-msgid "entryTooltip/header"
 msgstr "Krabičky"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "další krabičky: {count}"
 msgid "entryView/buyLabel"
 msgstr "KOUPIT KRABIČKY"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Ve skladu nemáte žádné velké krabičky.\nKupte si jich více v prémiovém obchodě."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Nemáte žádné malé krabičky.\nZískejte jich více v bitvách."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Sváteční operace {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Potvrzuji!"
@@ -178,9 +139,6 @@ msgstr "Otevírání beden zásob"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Přidáno"
 
-msgid "notification/ny19man"
-msgstr "Jedinečný člen posádky: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Dostali jste následující odměny:"
 
@@ -244,36 +202,6 @@ msgstr "Jedinečný styl pro"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Ukázat v garáži"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Vánoční krabičky"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magické krabičky"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Novoroční krabičky"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Lunární krabičky"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Vánoční kolekce"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magická kolekce"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Novoroční kolekce"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Lunární kolekce"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Krabičky obsahují ozdoby z {category} a další hodnotné odměny."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Vyznamenání:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Další krabičky si kupte v prémiovém obchodě."
 
@@ -285,12 +213,6 @@ msgstr "Akce je dočasně nedostupná. Zkuste to později."
 
 msgid "type/event_premium"
 msgstr "Bedna zásob úsvitu"
-
-msgid "type/newYear_premium"
-msgstr "VELKÉ KRABIČKY"
-
-msgid "type/newYear_usual"
-msgstr "MALÉ KRABIČKY"
 
 msgid "type/wt_boss"
 msgstr "Inženýrův spouštěč"

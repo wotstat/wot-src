@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Taivaansinisen lohikäärmeen kausi alkaa: %(date)s"
+msgstr "Taivaansinisen feeniksin kausi alkaa: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Verenpunaisen lohikäärmeen kausi alkaa: %(date)s"
+msgstr "Verenpunaisen feeniksin kausi alkaa: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Jadenvihreän lohikäärmeen kausi alkaa: %(date)s"
+msgstr "Jadenvihreän feeniksin kausi alkaa: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Odota karsintojen tuloksia saadaksesi luokituksesi"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Taivaansinisen lohikäärmeen kausi on päättynyt"
+msgstr "Taivaansinisen feeniksin kausi on päättynyt"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Verenpunaisen lohikäärmeen kausi on päättynyt"
+msgstr "Verenpunaisen feeniksin kausi on päättynyt"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Jadenvihreän lohikäärmeen kausi on päättynyt"
+msgstr "Jadenvihreän feeniksin kausi on päättynyt"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Taistelut tällä palvelimella tulevat saataville %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Vaunun ominaisuudet parantuneet"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Kestopisteitä palautetaan"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Kärsittyä vahinkoa lisätty"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Vaunun ominaisuudet parantuneet"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivän"
-msgstr[1] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivää"
-msgstr[2] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[0] "Taivaansinisen feeniksin kausi kestää %(days)d päivän"
+msgstr[1] "Taivaansinisen feeniksin kausi kestää %(days)d päivää"
+msgstr[2] "Taivaansinisen feeniksin kausi kestää %(days)d päivää"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivän"
-msgstr[1] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivää"
-msgstr[2] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[0] "Verenpunaisen feeniksin kausi kestää %(days)d päivän"
+msgstr[1] "Verenpunaisen feeniksin kausi kestää %(days)d päivää"
+msgstr[2] "Verenpunaisen feeniksin kausi kestää %(days)d päivää"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivän"
-msgstr[1] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivää"
-msgstr[2] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[0] "Jadenvihreän feeniksin kausi kestää %(days)d päivän"
+msgstr[1] "Jadenvihreän feeniksin kausi kestää %(days)d päivää"
+msgstr[2] "Jadenvihreän feeniksin kausi kestää %(days)d päivää"
 
 msgid "calendarDay/title"
 msgstr "Aikataulu"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Pätevyydet"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Rynnistys. Lohikäärmeen vuosi"
+msgstr "Rynnistys: Feeniksin vuosi"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nollapätevyydet"
@@ -574,11 +577,17 @@ msgstr "Selvä!"
 msgid "intro/description/banPhase"
 msgstr "Kumpikin joukkue voi estää vaunun kokonaan taistelusta. Koordinoi äänet liittolaistesi kanssa estääksenne kaikkein pelätyin sotakone tai valmistellaksenne yllättävän kokoonpanon vihollisillenne. Jos vaunusi estetään, voit valita vaunun sen tilalle useista esivalmistelluista vuokravaunuista."
 
+msgid "intro/description/draw"
+msgstr "Mikäli aika päättyy eikä kumpikaan joukkue ole saavuttanut selvää voittoa, ratkaistaan tasapelin tulos seuraavassa järjestyksessä: selviytyneet vaunut, tehty vahinko ja ensimmäinen tuhottu vaunu. Mikäli kumpikaan joukkue ei tehnyt vahinkoa, julistetaan taistelu tasapeliksi."
+
+msgid "intro/description/nightMaps"
+msgstr "Yökartat uudistavat tutut taistelukentät yöllisillä olosuhteilla, uusilla tarkkailupisteillä, päivitetyillä kohdealueilla ja muokatuilla havaintomekaniikoilla. Tämänhetkinen valikoima sisältää Glacier, Sand River, Outpost ja Steppes kartat."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Pelimuodossa on muuttujia, jotka vaihtavat vaunun tiettyjä parametrejä, kuten kestopisteitä, kulutustarvikkeiden jäähtymisaikaa, vaunun näkyvissä pysymisen aikaa ja paljon muuta."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Vallattuasi tiettyjä kartan alueita voit käyttää taktisia taitoja. On olemassa kahden tyyppisiä kohdealueita: tykistöpäämaja antaa mahdollisuuden ohjata tykistön iskemään tiettyyn asemaan ja viestintäkokeskus havaitsee kaikki vihollisvaunut. Näiden kohdealueiden olemassa olo ja sijainti voivat vaihdella kartasta riippuen."
+msgstr "Vallattuasi tiettyjä kartan alueita saat pääsyn taktisiin taitoihin. Kohdealueita on kahta tyyppiä: tykistöpäämajoja, jotka antavat mahdollisuuden kutsua kohdennetun iskun, ja viestintäkeskuksia, jotka paljastavat kaikki vihollisvaunut. Näiden määrä ja sijainti vaihtelee kartoittain."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Taistele %(count)s karsintataistelua määrittääksesi taitotasosi j
 msgstr[2] "Taistele %(count)s karsintataistelua määrittääksesi taitotasosi ja luokituksesi. Karsintojen valmistuttua saat palkintoja saavuttamastasi luokituksesta ja kaikista edeltävistä luokituksista.\n\nKarkuruus tai tasapeli karsinnoissa lasketaan tappioksi."
 
 msgid "intro/description/ranks"
-msgstr "Järjestelmä, joka kuvastaa pelaajan taitoa. Etene läpi luokitusten rautaisesta legendaan ja ansaitse arvokkaita palkintoja. Taistele läpi lohikäärmeen vuoden saadaksesi ainutlaatuisia vuosipalkintoja."
+msgstr "Etene läpi luokitusten rautaisesta legendaan ja ansaitse arvokkaita palkintoja. Taistele läpi feeniksin vuoden saadaksesi ainutlaatuisia vuosipalkintoja."
 
 msgid "intro/description/roleSkills"
 msgstr "Kullakin vaunulla on oma erikoistaitonsa roolista riippuen kolmella eri lataustasolla. Mitä korkeampi lataustaso taitoa aktivoitaessa sitä vahvempi vaikutus. Lataustaso riippuu arovaltapisteitä, joita voidaan ansaita vaikuttavasta taistelussa suoriutumisesta, kohdealueiden valtauksesta, taktisten taitojen käytöstä jne.\n\nTutustu pelimuodon sääntöihin saadaksesi lisää tietoa erilaisista tavoista, joilla voit ansaita arvovaltapisteitä."
@@ -597,6 +606,12 @@ msgstr "Voit taistella tason %(levels)s tutkittavilla vaunuilla (telatykit pois 
 
 msgid "intro/title/banPhase"
 msgstr "VAUNUJEN ESTOT"
+
+msgid "intro/title/draw"
+msgstr "TASAPELIN SÄÄNNÖT"
+
+msgid "intro/title/nightMaps"
+msgstr "YÖKARTAT"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "RYNNISTYKSEN MUUTTUJAT"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VOITTO, MUTTA"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Ylennettiin: %(rank)s"
+msgstr "Ylennettiin: {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Luokitus: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Alennettiin: %(rank)s, %(division)s"
+msgstr "Alennettiin: {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Ylennettiin: %(rank)s, %(division)s"
+msgstr "Ylennettiin: {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Käydyt taistelut"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Kausittainen arvovaltapisteiden ennätys: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Taivaansinisen lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+msgstr "Taivaansinisen feeniksin kausi on päättynyt %(server)s palvelimella."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Verenpunaisen lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+msgstr "Verenpunaisen feeniksin kausi on päättynyt %(server)s palvelimella."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Jadenvihreän lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+msgstr "Jadenvihreän feeniksin kausi on päättynyt %(server)s palvelimella."
 
 msgid "products/actions/buy"
 msgstr "Osta"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "RYNNISTYS. KASRINNAT SUORITETTU"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "RYNNISTYS. TAIVAANSINISEN LOHIKÄÄRMEEN KAUSI"
+msgstr "RYNNISTYS: TAIVAANSINISEN FEENIKSIN KAUSI"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "RYNNISTYS. VERENPUNAISEN LOHIKÄÄRMEEN KAUSI"
+msgstr "RYNNISTYS: VERENPUNAISEN FEENIKSIN KAUSI"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "RYNNISTYS. JADENVIHREÄN LOHIKÄÄRMEEN KAUSI"
+msgstr "RYNNISTYS: JADENVIHREÄN FEENIKSIN KAUSI"
 
 msgid "rewardsScreen/description/year"
-msgstr "RYNNISTYS. LOHIKÄÄRMEEN VUOSI"
+msgstr "RYNNISTYS. FEENIKSIN VUOSI"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Missä on Ashbringer vaununi?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Päättymiseen %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Taivaansinisen lohikäärmeen kausi"
+msgstr "Taivaansinisen feeniksin kausi"
 
 msgid "seasonName/second"
-msgstr "Verenpunaisen lohikäärmeen kausi"
+msgstr "Verenpunaisen feeniksin kausi"
 
 msgid "seasonName/third"
-msgstr "Jadenvihreän lohikäärmeen kausi"
+msgstr "Jadenvihreän feeniksin kausi"
 
 msgid "seasonPointTooltip/header"
 msgstr "Rynnistys-liput"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Sijoitus tuloslistalla: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "RYNNISTYS. %(seasonNameUpper)s"
+msgstr "RYNNISTYS %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Saatiin %(points)s Rynnistys-lippua"
 msgstr[2] "Saatiin %(points)s Rynnistys-lippua"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "KAUSI I. TAIVAANSININEN LOHIKÄÄRME"
+msgstr "KAUSI I: TAIVAANSININEN FEENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "KAUSI II. VERENPUNAINEN LOHIKÄÄRME"
+msgstr "KAUSI II: VERENPUNAINEN FEENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "KAUSI III. JADENVIHREÄ LOHIKÄÄRME"
+msgstr "KAUSI III: JADENVIHREÄ FEENIKS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Voitot: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Tämä pelimuoto tulee saatavilla %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Taivaansininen lohikäärme"
+msgstr "Taivaansininen feeniks"
 
 msgid "shortSeasonName/second"
-msgstr "Verenpunainen lohikäärme"
+msgstr "Verenpunainen feeniks"
 
 msgid "shortSeasonName/third"
-msgstr "Jadenvihreä lohikäärme"
+msgstr "Jadenvihreä feeniks"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Tämä osio sisältää tietoa kuluvan \"Rynnistys\" -pelimuodon kauden parhaista pelaajista."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Näytä kaikki"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Tue Onslaught Legends Seriesiä samalla, kun kasvatat palkintopottia turnauspaketeilla!"
+msgstr "Jos valitsemasi joukkue voittaa, saat ainutlaatuisen kultaisen \"OLS 2026\" -arvomerkin. Kannusta suosikkejasi!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Näytä rakkauttasi esportsiin eksklusiivisilla, teemaan tehdyillä muokkauselementeillä ja ainutlaatuisilla vaunuilla!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Suzhoussa Kiinassa on alkamaisillaan eeppinen yhteenotto maailman hurjimpien joukkueiden välillä Rynnistyksen säännöillä ja he kaikki tavoittelevat arvostettua maailmanmestarin titteliä. Koe jännitys, kun legendat syntyvät taistelukentällä!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS Kausi 6"
+msgstr "OLS Kausi 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Tämä kausi on viimeinen tilaisuutesi lunastaa arvokkaita palkintoja, joiden joukossa on eksklusiivinen tason X raskas Ashbringer vaunu kaikilla ainutlaatuisilla kolmiulotteisilla tyyleillä, jotka olet ansainnut sille, ja pelottomalla miehistöllä, jolla on \"Aseveljet\" -nollapätevyys. Lisäksi tarjolla on valittavaksi paranneltuja ja kokeellisia varusteita, katseen vangitseva kaksiulotteinen tyyli ja paljon muuta. Älä jätä välistä – voittosi odottavat sinua taistelukentällä!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Tartu lohikäärmeen vuoden viimeisiin hetkiin!"
+msgstr "Tartu feeniksin vuoden viimeisiin hetkiin!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "JADENVIHREÄN LOHIKÄÄRMEEN KAUSI"
+msgstr "TAIVAANSINISEN FEENIKSIN KAUSI"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "RYNNISTYS. MITÄ UUTTA?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Se-le-vä!"
+msgstr "Päästä liekkisi valloilleen!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Paranneltu taistelun jälkeinen ruutu päivityksen 2.0 designilla antaa sinulle enemmän pelimuotoon liittyvää tietoa jokaisen taistelun jälkeen."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Mikäli aika päättyy eikä kumpikaan joukkue ole saavuttanut selvää voittoa, ratkaistaan tasapelin tulos seuraavassa järjestyksessä: selviytyneet vaunut, tehty vahinko ja ensimmäinen tuhottu vaunu. Mikäli kumpikaan joukkue ei tehnyt vahinkoa, julistetaan taistelu tasapeliksi."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Yksityiskohtaiset taistelun tulokset"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Ei hätää, vaikka suosikkivaunusi estettäisiin. Vuokravaunut tulevat nyt valmiiksi laitetun miehistön, varusteiden, ammusten ja kulutustarvikkeiden kera."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Taisteluvalmiit vuokravaunut %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Tällä kaudella kumpikin joukkue voi estää tyystin yhden vaunun taistelusta. Koordinoikaa äänenne liittolaisten kanssa estääksenne kaikkein pelätyimmän sotakoneen tai valmistellaksenne yllätyksen vihollisille."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Estetyt vaunut %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Tasapelin ehtoja päivitetty {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kartat"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Uusia vaunuja saatavilla Rynnistyksessä"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Versio 2.4 esittelee uudet kevyiden vaunujen roolit ja tasapainottaa vaunujen ominaisuuksia. Kokeile niitä taistelussa!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Uudet roolit kevyille vaunuille {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Tuore pelikokemus tutuilla kartoilla. Muutoksiin kuuluvat yölliset olosuhteet, uudet tarkkailupisteet, uudistetut kohdealueiden sijainnit ja muokatut havaintomekaniikat. Kaikki tämä muuttaa taisteluiden kulkua ja tekee tilannetietoisuudesta, ajoituksesta ja taktisista liikkeistä entistä tärkeämpiä."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Uudet yökartat ovat täällä! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Taisteluiden pienen väkimäärän tähden superosastot on otettu käytöstä. Työstämme vaihtoehtoisia joukkuepohjaisia tapoja pelata Rynnistystä. Tätä odottaessa 7v7 -turnaukset ovat säännöllisesti saatavilla."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Ei enää superosastoja {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "VUOKRAVAUNUT"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Hiljattain julkaistu amerikkalainen tason X keskiraskas Ares 90 on nyt saatavilla pelimuodossa sille säädetyllä roolitaidolla."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Kartat: Erlenberg on poistettu. Kohdealueet Airfieldillä on sijoitettu uusiksi. Pieniä säätöjä PIlseniin.\n• Vaunut: VZ. 60S Dravec on poistettu. Uusi saksalainen raskas Kampfpanzer 67 vaunu on lisätty."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Roolitaidon päivitys %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP 2 on nyt ostettavissa hopeisella arvolla Rynnistyksen kaupassa."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Kaupan päivityksiä %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Kausittaiset tasapainotukset {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "POISTETTU"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "KAUSI I. TAIVAANSININEN LOHIKÄÄRME"
+msgstr "KAUSI I: TAIVAANSININEN FEENIKS"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "KAUSI II. VERENPUNAINEN LOHIKÄÄRME"
+msgstr "KAUSI II: VERENPUNAINEN FEENIKS"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "KAUSI III. JADENVIHREÄ LOHIKÄÄRME"
+msgstr "KAUSI III: JADENVIHREÄ FEENIKS"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Nykyinen"

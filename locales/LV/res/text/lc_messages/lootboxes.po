@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Mēs atvērām visas jūsu Brīvdienu Operācijas kastes."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Apsveicam!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Jūs variet nopirkt Lielās Kastes Premium veikalā."
 
-msgid "entryDesc/newYear_premium"
-msgstr "Lielās Kastes"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Mazās Kastes"
-
-msgid "entryDesc/questSlot"
-msgstr "Jūs saņemiet Mazās Kastes par misiju izpildi."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Šī funkcija uz laiku nav pieejama. Lūdzu mēģiniet vēlāk."
 
 msgid "entryPoint/header"
-msgstr "Kastes"
-
-msgid "entryTooltip/body/h1"
-msgstr "Pirkt Lielās Kastes:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Nopelnīt Mazās Kastes:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Pērciet kastes ar Jaunā Gada dekorācijām jums un jūsu draugiem Premium Veikalā."
-
-msgid "entryTooltip/body/p2"
-msgstr "Apbalvots par Brīvdienu Operācijas misiju izpildi."
-
-msgid "entryTooltip/header"
 msgstr "Kastes"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "vēl {count} kastes"
 msgid "entryView/buyLabel"
 msgstr "PIRKT KASTES"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Jums nav Lielās Kastes Noliktavā.\nPērciet vēl Premium Veikalā."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Jums nav Mazās Kastes.\nNopelniet vēl kaujās."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Brīvdienu uzbrukums {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Sapratu!"
@@ -178,9 +139,6 @@ msgstr "Piegādes Kastu Atvēršana"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Pievienots"
 
-msgid "notification/ny19man"
-msgstr "Unikāls apkalpes loceklis: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Jūs saņēmāt šādas atlīdzības:"
 
@@ -244,36 +202,6 @@ msgstr "Unikāls Stils priekš"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Skats garāžā"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Ziemassvētku Kastes"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Maģiskajām Kastēm"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Jaunā Gada Kastēm"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Mēness Kastes"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Ziemassvētku Kolekcija"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Maģiskā Kolekcija"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Jaunā Gada Kolekcija"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Mēness Kolekcija"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Kastes satur dekorācijas no {category} un citas vērtīgas balvas."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Apbalvojumi:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Pērciet papildus kastes Premium Veikalā."
 
@@ -285,12 +213,6 @@ msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
 
 msgid "type/event_premium"
 msgstr "Rītausmas Piegādes Kaste"
-
-msgid "type/newYear_premium"
-msgstr "LIELĀS KASTES"
-
-msgid "type/newYear_usual"
-msgstr "MAZĀS KASTES"
 
 msgid "type/wt_boss"
 msgstr "Inženiera Starteris"

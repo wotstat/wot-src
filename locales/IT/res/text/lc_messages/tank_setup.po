@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "all'integrità del veicolo"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "alla velocità di brandeggio della torretta o del cannone per veicoli con casamatta"
+msgstr "alla velocità di brandeggio del cannone"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "alla velocità brandeggio della torretta"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "all'integrità del veicolo"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "alla velocità di brandeggio della torretta o del cannone per veicoli con casamatta"
+msgstr "alla velocità di brandeggio del cannone"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "alla velocità brandeggio della torretta"
@@ -2100,6 +2100,51 @@ msgstr " e "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "La Modalità alimentazione esterna munizioni del veicolo consente l'utilizzo di proiettili con danni maggiori."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Valori base nella modalità standard."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Valori modificati nella Modalità alimentazione esterna munizioni."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Parametri di base per colpi a carica completa"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametri per colpi a carica singola"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Parametri di base per colpi a carica completa"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Base"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametri per colpi a carica singola"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "In modalità Calibrata, questo tipo di proiettile è efficace contro le corazze inclinate."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Il cannone del veicolo dispone di dispositivi speciali che consentono di modificare alcuni parametri dei proiettili prima di aprire il fuoco."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "In modalità Standard, questo tipo di proiettile è efficace contro le armature prive di schermatura."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Modalità Standard"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Modalità Calibrata"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "In Modalità Calibrata, questo tipo di proiettile può perforare le schermature."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "In modalità Standard, questo tipo di proiettile è efficace contro le corazze verticali."
 
 msgid "tooltips/specializationDesc"
 msgstr "L'equipaggiamento standard della categoria %(spec)s sarà più efficace se montato in questo spazio. L'equipaggiamento di altre categorie fornirà solo un bonus standard."

@@ -1,6 +1,7 @@
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Teaser_imageWrapper_901f1116, .Teaser_vignette_32737740 {
+.Teaser_imageWrapper_901f1116,
+.Teaser_vignette_32737740 {
   position: absolute;
   top: 0;
   right: 0;
@@ -141,7 +142,7 @@
   align-items: flex-end;
 }
 
-.Teaser_description_bda296e5 {
+.Teaser_description_f7e0ddfc {
   font-size: 15rem;
   font-weight: 400;
   line-height: 1.2em;
@@ -150,11 +151,11 @@
   color: #e9e2bf;
   z-index: 2;
 }
-.mediaMedium .Teaser_description_bda296e5 {
+.mediaMedium .Teaser_description_f7e0ddfc {
   font-size: 24rem;
   font-weight: 400;
   line-height: 1.3em;
-  max-height: 58rem;
+  max-height: 64rem;
 }
 
 .Teaser_extendedText_286b5b73 {

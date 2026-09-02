@@ -382,11 +382,56 @@ msgstr "Haftalık Görevler, her hafta sunulan ödevler setidir. Gelişim her sa
 msgid "info_page/main/weekly/title"
 msgstr "Haftalık Görevler"
 
+msgid "pm/missionState/active"
+msgstr "Aktif"
+
+msgid "pm/missionState/complete"
+msgstr "Görevler Tamamlandı"
+
+msgid "pm/missionState/improve"
+msgstr "Sonuç İyileştirmesi"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Araç Değiştirin"
+
+msgid "pm/no_missions"
+msgstr "Seçili aracınız için aktif görev yok"
+
+msgid "pm/tier"
+msgstr "Uygun olmayan seviye"
+
+msgid "pm/unavailable"
+msgstr "Görev geçici olarak devre dışı"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Seçili aracınız için hiç aktif görev yok. Lütfen başka bir araç seçin."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Bu görev teknik nedenlerle geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Seçili aracınız aktif operasyonların seviye gereksinimlerini karşılamıyor. Lütfen başka bir araç seçin."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Aktif Görev Yok"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Geçici Olarak Devre Dışı"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Uygun Olmayan Seviye"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Bugünün tüm normal görevleri tamamlandı"
 
 msgid "quests/daily_quests/completed"
 msgstr "Tüm Günlük Görevler tamamlandı"
+
+msgid "slider/title/missions"
+msgstr "Normal Görevler"
+
+msgid "slider/title/personalMissions"
+msgstr "Kişisel Görevler"
 
 msgid "tooltip/common/timer"
 msgstr "{{timeLeft}} içinde açılacak"

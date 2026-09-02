@@ -232,11 +232,35 @@ msgstr "Ez a löveg képes folyamatosan tüzelni újratöltés nélkül. Minden 
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Túlmelegedés-szabályozott gépágyú"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "A mechanizmus azonnal csökkenti az újratöltési időt egy fix, rövid időre. Minden használattal lőszerenként egy töltést használ fel, és ezek a töltések idővel újratöltődnek – gyorsabban, ha a tár tele van. A csata kezdetén meghatározott számú töltés áll rendelkezésre."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Kényszerbetöltő mechanizmus"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Ezt a járművet egy lövegpajzsba szerelt rakétavetővel látták el. A következő gomb lenyomásával válthatsz át a rakétairányzékra:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaxiális rakétavető"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "A rakétairányzékkal való célzás közben nyomd meg a tűzgombot a rakéta kilövéséhez."
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaxiális rakétavető"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Minden alkalommal, amikor eltalálsz egy ellenséges járművet egy lövedékkel, újratöltési hatékonysági szintet szerzel, amely átmenetileg megnöveli a löveged újratöltési sebességét. A szintek minden egyes találattal gyarapodnak.\nHa megsemmisítesz egy ellenséges járművet egy lövéssel, akkor további újratöltési hatékonysági szinteket kapsz."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Félautomata lőszerrekesz"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "A jármű a Külső lőszerellátó moduljának köszönhetően nagy tűzerejű, nagy töltetű egyrészes lövedékeket lőhet ki, amelyek nagyobb sebzést okoznak. A modul aktív állapotában azonban csökkenti a jármű mobilitását és tűzgyorsaságát."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Külső lőszeradagolás mód"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Ha a löveged be van töltve, elkezdheted előmelegíteni a következő lövésedet. Minél magasabb hőfokot érsz el, annál nagyobb lesz az átlagos sebzésre kapott bónusz.\nA felmelegítési folyamat elindításához nyomd meg:"
@@ -345,6 +369,30 @@ msgstr "Aktiváláskor a sugárhajtóművek növelik a motor teljesítményét �
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Előnyök és hátrányok"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Ha eltalálsz egy látható ellenséges járművet, akkor módosul a következő lövedék gyújtószerkezete. Ha az első lövés átütötte az ellenséges páncélzatot, a következő lövés nagyobb sebzést okoz. Ha nem, akkor a következő lövés páncélátütése nő."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Állítható gyújtószerkezet-beállító"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "A jármű lövege speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszertulajdonságok módosítását tüzelés előtt. A különböző lőszerek paraméterei a kiválasztott módtól függően változnak, lehetővé téve a különböző harci helyzetekhez való gyors alkalmazkodást."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Lőszerkalibrációs rendszer"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Fejlett optikai eszköz, amely növeli a járműved látótávolságát, és javítja a mozgó, valamint a növényzet mögött rejtőzködő járművek felderítését. Aktiváláskor végigpásztázza a jármű előtti keskeny szektort, és felderíti az álcázott célpontokat, amit újratöltési idő követ."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infravörös keresés és követés (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Azonban ha felfed egy felderítetlen ellenséget, te is azonnal láthatóvá válsz meghatározott időre. Erről te és az általad felderített ellenségek is azonnal értesítést kaptok. A pásztázást leállíthatod manuálisan, és rövid késleltetés után elkezdődik a készülék visszatöltése."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infravörös keresés és követés (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Szilárd üzemanyaggal működő hajtóművek, amelyek néhány másodpercre növelik a gyorsulást, a mobilitást és a manőverezhetőséget. A bal és jobb oldali hajtóművek egymástól függetlenül működtethetők a járműtest gyorsabb forgatásához, és nem korlátozzák a tolatási képességet."

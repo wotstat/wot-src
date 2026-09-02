@@ -136,6 +136,24 @@ msgstr[0] "{{count}} νίκη"
 msgstr[1] "{{count}} νίκες"
 msgstr[2] "{{count}} νίκες"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Διαθέσιμο για {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Combat Experience"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Για την επιστροφή σας στη δράση έχουμε ετοιμάσει μια ειδική προσφορά για σας: {{@ style (color #ede6d9e6)}}το ημερήσιο Redeployment Bonus{{/}} που αυξάνει τα κερδισμένα Combat XP από την πρώτη νίκη της ημέρας με το κάθε όχημα."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Σας καλωσορίζουμε και πάλι στο παιχνίδι!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Τ συγκεκριμένο μπόνους θα ανανεώνεται καθημερινά στις {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Redeployment Bonus: Διαθέσιμο"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Κλικ για να ανοίξετε τις λίστες των οχημάτων σας"
 

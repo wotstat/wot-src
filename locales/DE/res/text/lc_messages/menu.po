@@ -779,7 +779,7 @@ msgid "browser/customTitle/fort/congratulation"
 msgstr "Glückwunsch"
 
 msgid "browser/customTitle/fort/offensiveResult"
-msgstr "Mittlere Ergebnisse"
+msgstr "Vorstoßergebnisse"
 
 msgid "browser/dataUnavailable/description"
 msgstr "Informationen sind vorübergehend nicht verfügbar."
@@ -826,6 +826,9 @@ msgstr "3D-Stile"
 msgid "carousel_tank_filter/ready"
 msgstr "Nur Primär"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Aufklärer"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Scharfschütze"
 
@@ -834,9 +837,6 @@ msgstr "Unterstützung"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Mehrzweck"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Radfahrzeug"
 
 msgid "centerIsAvailable"
 msgstr "Alle Server sind wieder verfügbar."
@@ -4159,6 +4159,9 @@ msgstr "Verbesserter Ladeautomat:\nReduziert die normale Zeit für das automatis
 msgid "moduleInfo/autoShootGun"
 msgstr "Geschütz mit System für kontinuierliches Feuern"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Das Fahrzeug ist mit einem Raketenwerfer ausgestattet, der in der Kanonenblende befestigt ist. Aktivieren Sie die Fähigkeit, um zur Zielerfassung der Sekundärbewaffnung zu gelangen, und feuern Sie ungelenkte HE-Raketen mit der Taste zum Feuern ab."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Schließen"
 
@@ -4312,6 +4315,9 @@ msgstr "Abklingzeit"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "auf Hauptspezialisierungen und Besatzungsvorteile"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Chance auf kritischen Treffer"
+
 msgid "moduleInfo/params/damage"
 msgstr "Schaden"
 
@@ -4342,11 +4348,29 @@ msgstr "Brandwahrscheinlichkeit bei Treffer"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Flugzeit"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Verursacht immer Schaden, wenn die Hauptpanzerung getroffen wird"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maximale Granatenflugweite für dieses Geschütz"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " hängt bei diesem Granatentyp nicht von der Reichweite ab"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maximale Flugweite: 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " Granaten dieses Typs verlieren Durchschlagskraft entsprechend der Distanz, die sie nach dem Durchschlag der ersten Schürze zurücklegen."
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " hängt von der Entfernung ab: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " Granaten dieses Typs durchschlagen Schürzen wie gewohnt, verlieren dann aber Durchschlagskraft entsprechend dem Dreifachen der Dicke der Schürzen."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Höchstgeschwindigkeit"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Verursacht immer Schaden, wenn die Hauptpanzerung getroffen wird"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Gewicht"
@@ -4378,20 +4402,11 @@ msgstr "Strukturpunkte"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Schussweite"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maximale Granatenflugweite für dieses Geschütz"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maximaler Raddrehwinkel"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Mittlerer Schaden auf %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " hängt bei diesem Granatentyp nicht von der Reichweite ab"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maximale Flugweite 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalisierungswinkel"
@@ -4399,14 +4414,8 @@ msgstr "Normalisierungswinkel"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Verlust der Durchschlagskraft"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Granaten dieses Typs verlieren Durchschlagskraft entsprechend der Distanz, die sie nach dem Durchschlag der ersten Schürze zurücklegen."
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " hängt von der Entfernung ab: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Mittlere Durchschlagskraft (mm)–Entfernung"
@@ -4456,9 +4465,6 @@ msgstr "Wendegeschwindigkeit"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplikator für Schottpanzerung"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Granaten dieses Typs durchschlagen Schürzen wie gewohnt, verlieren dann aber Durchschlagskraft entsprechend dem Dreifachen der Dicke der Schürzen."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "%(multiplier)sx"
 
@@ -4506,6 +4512,9 @@ msgstr "Induktionstreibstoff-Nachbrenner, der den mittleren Schaden erhöht"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Jet-Booster steigern die Beweglichkeit des Fahrzeugs"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Feststoff-Schubdüsen, die Beschleunigung, Beweglichkeit und Manövrierfähigkeit verbessern"
@@ -5284,11 +5293,14 @@ msgstr "Fahrzeuge mit perfekten Geschützen, deren effektiver Einsatz bestimmte 
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Mehrzweckpanzer, die sich leicht an jede Gefechtssituation anpassen können."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Schnelle und bewegliche Fahrzeuge, die sowohl aufklären als auch über Flankenmanöver Schaden verursachen können."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Leichte Aufklärungspanzer sind kleine, bewegliche Fahrzeuge, die dazu gedacht sind, den Gegner auszukundschaften. Ihre flache Silhouette und gute Tarnung sowie die hervorragende Manövrierfähigkeit und hohe Höchstgeschwindigkeit eignen sie ideal sowohl für aktives als auch passives Aufklären. Aufgrund ihrer geringen Robustheit und der schwachen Feuerkraft können sie ihren Verbündeten kaum nennenswertes Unterstützungsfeuer bieten."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Fahrzeuge mit herausragenden Werten für Dynamik, die je nach Karte und taktischer Situation unterschiedlich genutzt werden kann."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Leichte Unterstützungspanzer nutzen ihre hohe Beweglichkeit, die hervorragende Manövrierfähigkeit und das leistungsfähige Geschütz, um rasch die Flanke zu wechseln, signifikanten Schaden zu verursachen und sich wieder in Sicherheit zurückzuziehen. Sie können in bestimmten Situationen auch für die Aufklärung eingesetzt werden, sind aufgrund ihrer Größe und der mangelhaften Tarnung darin jedoch weniger effektiv als andere leichte Panzer."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Leichte Mehrzweckpanzer sind gute Allzweckfahrzeuge, die sowohl Aufklären als auch Unterstützungsfeuer bieten können. Sie mögen nicht ganz so gut für die Überwachung des Gegners geeignet sein wie leichte Aufklärungspanzer und haben weniger Feuerkraft als leichte Unterstützungspanzer, dafür erlauben ihre ausgewogenen Werte es ihnen, beide Rollen angemessen auszuüben und sich leicht an eine Vielzahl Situationen im Gefecht einzustellen."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Fahrzeuge mit ordentlicher Panzerung, die gut geeignet sind, um sich im Nahkampf gegnerischen schweren Panzern zu stellen."
@@ -5329,11 +5341,14 @@ msgstr "Schwerer Unterstützungspanzer"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Schwerer Mehrzweckpanzer"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Leichter Aufklärungspanzer"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Leichter Unterstützungspanzer"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Leichter Mehrzweckpanzer"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Leichtes Radfahrzeug"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Mittlerer Sturmpanzer"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Nachladen"
 msgid "tank_params/autoShootClipSec"
 msgstr "(Magazin/Anzahl)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Beschleunigte Nachladezeit"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Abklingzeit der Ladung bei vollem Magazin"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Grundlegende Abklingzeit der Ladung"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Ladungen zu Beginn des Gefechts"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Ladungen"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Mittlerer Schaden (SP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Streuung auf 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Mittlere Durchschlagskraft (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Abklingzeit (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Mündungsgeschwindigkeit der Rakete (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Mittlerer Schaden"
 
@@ -6057,6 +6105,21 @@ msgstr "Granatenbehälter"
 
 msgid "tank_params/burstSec"
 msgstr "(s/Menge/Menge)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Mittlerer Schaden (SP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Höchstgeschwindigkeit (EMZ-Modus) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Feuerrate (Schuss/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Aktivierung EMZ-Modus (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Deaktivierung EMZ-Modus (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Salvenvorbereitung"
@@ -6150,6 +6213,12 @@ msgstr "Motorleistung (PS) (Turbomodus)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Schadensradius"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Höchstgeschwindigkeit (EMZ-Modus) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Aktivierung EMZ-Modus (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Geschützabkühlzeit nach dem Feuern"
@@ -6325,9 +6394,6 @@ msgstr "Geländegängigkeit"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Ladung für elektromechanisches Fügungssichtgerät (% pro s) (Angriffsmodus, passiv)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(pro Aktivierung)"
 
@@ -6484,8 +6550,20 @@ msgstr "Nachladen der Sekundärwaffe"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Granaten der Sekundärwaffe"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Angepasster mittlerer Schaden (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Angepasste mittlere Durchschlagskraft (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Laden des Munitionsgurts"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Zeit zum Umschalten der Modi"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Durchschlagskraft:"
@@ -6495,6 +6573,36 @@ msgstr "Streuung auf 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Granatengeschwindigkeit"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Gegnerische Tarnung hinter Laubwerk (Stationär und in Bewegung)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Tarnung des Gegners in Bewegung"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Initiale Abklingzeit"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Dauer"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Abklingzeit"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Endbreite des Suchbereichs"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Anfangsbreite des Suchbereichs"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Dauer der eigenen Aufdeckung"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Sichtweite"
 
 msgid "tank_params/speedLimits"
 msgstr "Höchstgeschw. vor-/rückwärts"

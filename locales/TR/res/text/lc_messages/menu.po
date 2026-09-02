@@ -826,6 +826,9 @@ msgstr "3B Stiller"
 msgid "carousel_tank_filter/ready"
 msgstr "Hazır"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Gözcü"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Keskin Nişancı"
 
@@ -834,9 +837,6 @@ msgstr "Destekçi"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Çok Yönlü"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Tekerlekli"
 
 msgid "centerIsAvailable"
 msgstr "Bütün sunucular tekrar kullanıma hazır"
@@ -4159,6 +4159,9 @@ msgstr "İyileştirilmiş otomatik yeniden yükleme sistemi:\nOtomatik yeniden y
 msgid "moduleInfo/autoShootGun"
 msgstr "Sürekli atış sistemi olan top"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Bu araç, top kalkanına yerleştirilmiş bir roketatar ile donatılmıştır. Kabiliyeti etkinleştirerek ikincil silah nişangâhına geçin, artından ateş tuşunu kullanarak güdümsüz bir HE roket fırlatın."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Kapat"
 
@@ -4312,6 +4315,9 @@ msgstr "Soğuma"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "ana uzmanlığa ve mürettebat yeteneklerine"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kritik İsabet Olasılığı"
+
 msgid "moduleInfo/params/damage"
 msgstr "Hasar"
 
@@ -4342,11 +4348,29 @@ msgstr "Darbe Aldığında Yangın Çıkma Olasılığı"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Uçuş Süresi"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Ana zırha isabet ederse her zaman hasar verir"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* bu top için maksimum mermi uçuş menzili"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " bu tür mermide mesafeye bağlı değildir"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksimum uçuş menzili-400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " bu mermi türü ilk kalkanı geçtikten sonra mesafeyle delme gücü kaybetmeye başlar"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " mesafeye bağlıdır: %(minDist)s - %(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " bu mermi türü kalkanları normal bir şekilde deler ancak sonra kalkanın zırh kalınlığının üç katına eşit miktarda delme gücü kaybeder"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Azami Hız"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Ana zırha isabet ederse her zaman hasar verir"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Ağırlık"
@@ -4378,20 +4402,11 @@ msgstr "Can Puanı"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Atış Menzili"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* bu top için maksimum mermi uçuş menzili"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maksimum Tekerlek Dönüş Açısı"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "%(dist)s m'de Ortalama Hasar"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " bu tür mermide mesafeye bağlı değildir"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksimum uçuş menzili-400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalizasyon Açısı"
@@ -4399,14 +4414,8 @@ msgstr "Normalizasyon Açısı"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Delme Gücü Kaybı"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " bu mermi türü ilk kalkanı geçtikten sonra mesafeyle delme gücü kaybetmeye başlar"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " mesafeye bağlıdır: %(minDist)s - %(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Ortalama Deliş (mm)-Mesafe"
@@ -4456,9 +4465,6 @@ msgstr "Dönüş Hızı"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Aralıklı Zırh Çarpanı"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " bu mermi türü kalkanları normal bir şekilde deler ancak sonra kalkanın zırh kalınlığının üç katına eşit miktarda delme gücü kaybeder"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Ortalama hasarı artıran İndüklemeli Sevk Barutu Son Yakıcı"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Jet takviyeleri aracın hareket kabiliyetini artırır"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "İvmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileri"
@@ -5284,11 +5293,14 @@ msgstr "Mükemmel toplara sahip araçlar. Etkin kullanımı belirli koşullara u
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Her türlü savaş koşuluna uyum sağlayabilen çok amaçlı tanklar."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Hem keşif yapabilen hem de kanat manevraları gerçekleştirerek hasar verebilen hızlı ve manevra kabiliyeti yüksek araçlar."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Keşif amaçlı hafif tanklar, düşmanları tespit etmek amacıyla tasarlanmış küçük ve çevik araçlardır. Alçak silüetleri ve güçlü gizlilik özelliklerinin yanı sıra mükemmel manevra kabiliyetleri ve yüksek azami hızları, bu tankları hem pasif hem de aktif keşif görevlerinde yetkin kılar; ancak zayıf dayanıklılıkları ve düşük ateş güçleri, müttefiklere önemli ölçüde ateş desteği sağlamalarını engeller."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Muhteşem dinamik niteliklere sahip araçlar. Etkin kullanımları haritaya veya taktik duruma bağlıdır."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Destek amaçlı hafif tanklar, yüksek hareket kabiliyetlerini, mükemmel manevra yeteneklerini ve güçlü toplarını kullanarak hızla kanatlara geçip, güvenli bir bölgeye çekilmeden önce önemli hasar verebilirler. Bazı durumlarda keşif görevleri de yerine getirebilseler de, büyük boyutları ve zayıf gizlilik özellikleri nedeniyle diğer hafif tanklara kıyasla daha az etkili gözcülerdir."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Çok yönlü hafif tanklar, hem gözcülük yapabilen hem de müttefiklere ateş desteği sağlayabilen çok yönlü araçlardır. Gözcü tanklara kıyasla keşif görevlerinde daha az etkili olsalar ve destek hafif tanklarına göre daha az ateş gücüne sahip olsalar da, çok yönlü tankların dengeli özellikleri sayesinde her iki rolü de yetkin bir şekilde yerine getirebilir ve çok çeşitli savaş durumlarına kolayca uyum sağlayabilirler."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "En çok yakın mesafe çatışmalarında ve düşman ağır tanklarına karşı gelirken faydalı olan, makul zırha sahip araçlar."
@@ -5329,11 +5341,14 @@ msgstr "Destek Amaçlı Ağır Tank"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Çok Yönlü Ağır Tank"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Keşif Amaçlı Hafif Tank"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Destek Amaçlı Hafif Tank"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Çok Yönlü Hafif Tank"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Tekerlekli Hafif Tank"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Taarruz Amaçlı Orta Tank"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Yükleme"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magazin/miktar)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Hızlandırılmış Mermi Yükleme Süresi"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Tam Şarjörde Şarj Soğuma Süresi"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Temel Şarj Soğuma Süresi"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Savaşın Başındaki Şarj"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Şarjlar"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Ortalama Hasar (CP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "100 m'de Dağılım (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Ortalama Delme Gücü (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Soğuma (sn.)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Roket mermisi hızı (m/sn.)"
+
 msgid "tank_params/avgDamage"
 msgstr "Ortalama Hasar"
 
@@ -6057,6 +6105,21 @@ msgstr "Şarjör"
 
 msgid "tank_params/burstSec"
 msgstr "(sn./adet/adet)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Ortalama Hasar (CP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Azami Hız (HMB modu) (km/sa.)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Atış Hızı (mermi/dk.)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "HMB Modu Aktivasyonu (sn.)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "HMB Modu Deaktivasyonu (sn.)"
 
 msgid "tank_params/chargeTime"
 msgstr "Salvo Hazırlığı"
@@ -6150,6 +6213,12 @@ msgstr "Motor Gücü (bg) (Turbo modu)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Hasar Yarıçapı"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Azami Hız (HMB modu) (km/sa.)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "HMB Modu Aktivasyonu (sn.)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Ateş ettikten sonra topun soğuma süresi"
@@ -6325,9 +6394,6 @@ msgstr "Arazi Geçiş Kapasitesi"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "İntibaklı Elektromekanik Nişangâh Şarjı (sn. başına %) (Çatışma modu, pasif)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(aktivasyon başına)"
 
@@ -6484,8 +6550,20 @@ msgstr "Yardımcı Silah Yükleniyor"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Yardımcı Silah Mermileri"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Ayarlanmış Mermi Ortalama Hasarı (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Ayarlanmış Mermi Ortalama Delme Gücü (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Şeritle Mühimmat Yükleme"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Mod Değiştirme Süresi"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Delme Gücü:"
@@ -6495,6 +6573,36 @@ msgstr "100 m'de Dağılma"
 
 msgid "tank_params/shotSpeed"
 msgstr "Mermi Hızı"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Yeşillik Arkasındaki Düşman Gizliliği (Sabit ve Hareket Halinde)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Hareket Halindeki Düşman Gizliliği"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "İlk Soğuma"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Süre"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Soğuma"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Kule Dönüş Hızı"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Nihai Tarama Genişliği"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Başlangıç Tarama Genişliği"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Kendini Tespit Süresi"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Görüş Mesafesi"
 
 msgid "tank_params/speedLimits"
 msgstr "Azami Hız/Geri Hız"

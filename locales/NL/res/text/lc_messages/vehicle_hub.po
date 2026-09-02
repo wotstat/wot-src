@@ -34,6 +34,9 @@ msgstr "Het kanon kan continu vuren zonder te worden herladen. Elk schot generee
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Verhoogt het motorvermogen en de topsnelheid voor snelle verplaatsing op het slagveld. Na activatie verminderen de jetboosters de wendbaarheid en kunnen ze niet worden uitgezet."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast. Welke parameters dat zijn, hangt af van de geselecteerde modus. Met elke modus kun je je snel aan verschillende situaties aanpassen."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Bij activatie verbetert en/of verandert deze speciale modus bepaalde gevechtsparameters. Kan het beste worden geactiveerd wanneer je in positie bent, klaar om de vijand aan te vallen."
 
@@ -82,6 +85,9 @@ msgstr "Oververhittingsbeheer automatisch kanon"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Jetboosters"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Granaatkalibratiesysteem"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Fortmodus"
 
@@ -100,8 +106,17 @@ msgstr "Vuursalvomodus"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Door stil te staan of langzaam te rijden, vergaar je nauwkeurigheidsniveaus die de precisie van je volgende schot verbeteren.\nOp het hoogste niveau heeft je kanon degelijke richteigenschappen en lagere spreiding, ook tijdens beweging en het draaien van de romp/koepel."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Het mechanisme verlaagt gelijk de herlaadtijd naar een vaste lage waarde. Per granaat wordt één lading verbruikt, en ladingen worden na verloop van tijd aangevuld – sneller wanneer het magazijn vol is. Aan het begin van het gevecht is een bepaald aantal ladingen beschikbaar."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Dit voertuig is uitgerust met een raketwerper in de kanonmantel. Activeer de bekwaamheid om te switchen naar het richten van het secundaire wapen, en lanceer vervolgens een ongeleide HE-raket met de 'vuur' knop."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Elke keer dat je een vijand met een granaat raakt, ontvang je een herlaadefficiëntieniveau, wat de herlaadtijd van je kanon tijdelijk versnelt. Elke voltreffer zorgt voor een hoger niveau. \nHet vernietigen van een vijandelijk voertuig met een granaat levert extra herlaadefficiëntieniveaus."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Door de Externe munitiemodule van dit voertuig kan het eenheidsmunitie met een hoge lading afvuren die meer schade veroorzaken. Als de module actief is, worden de mobiliteit en vuursnelheid verminderd."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Als je kanon geladen is, kun je beginnen met het verwarmen van je volgende schot voor meer schade – hoe hoger het hitteniveau, hoe groter het effect.\nBij maximale hitte heb je een paar seconden om te vuren – doe je dat niet, dan kun je tijdelijk niet vuren."
@@ -142,6 +157,15 @@ msgstr "Het systeem bouwt met de tijd een lading op, waarbij een hogere lading v
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Activeer de vloeibare brandstofboosters wanneer je meteen sneller wilt gaan. De boosters worden warmer en moeten afkoelen voordat ze opnieuw kunnen worden gebruikt. Bij overschrijding van het kritieke hitteniveau worden ze volledig uitgeschakeld."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Wanneer je een zichtbaar vijandelijk voertuig met een granaat raakt, wordt de ontsteker van de volgende granaat aangepast. Als het eerste schot het vijandelijke pantser doorboort, wordt de schade van het volgende schot verhoogd. Zo niet, dan wordt de penetratie van het volgende schot verhoogd."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast. Welke parameters dat zijn, hangt af van de geselecteerde modus. Met elke modus kun je je snel aan verschillende situaties aanpassen."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Na activatie scant het apparaat een sector voor je voertuig, zodat verborgen doelwitten worden onthuld. Als er een verborgen vijand wordt onthuld, word je zelf ook meteen verkend. Na een tijdje kun je zelf de scan stoppen."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Raketmotoren die voor enkele seconden de acceleratie, mobiliteit en wendbaarheid verhogen. De raketmotoren kunnen onafhankelijk van elkaar werken om de romp sneller te laten draaien, en hebben geen invloed op het achteruitrijden."
 
@@ -166,8 +190,17 @@ msgstr "Deze mechanische modificatie verhoogt kort de acceleratie, het motorverm
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analoog ballistisch rekenapparaat"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Geforceerd laadmechanisme"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Coaxiale raketwerper"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Semiautomatische munitieopslag"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Externe munitietoevoer modus"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Thermoballistische overbelasting"
@@ -208,6 +241,15 @@ msgstr "Inductie-stuwstofnabrander"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Vloeibare brandstofboosters"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Aanpasbare ontsteker"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Granaatkalibratiesysteem"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrarood zoek en volg (IRZV)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sequentiële raketmotoren"
 
@@ -232,8 +274,17 @@ msgstr "Hogedruk-turbocompressor-assistentie"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Verbetert de nauwkeurigheid van je volgende schot, met degelijke stabilisatie bij volledige kalibratie."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Verlaagt gelijk de herlaadtijd van granaten naar een vaste lage waarde."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Vuur een ongeleide HE-raket af uit een coaxiale raketwerper die los staat van het hoofdkanon."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Elke voltreffer op een vijandelijk voertuig versnelt tijdelijk de herlaadtijd van het kanon."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Vuur granaten met hoge schade af ten koste van mobiliteit en cooldown."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Bouwt hitteniveaus op om meer schade te veroorzaken met je volgende schot."
@@ -274,6 +325,15 @@ msgstr "Het systeem wordt opgeladen om de schade te verhogen. Hoe hoger de ladin
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Boosters die op ieder moment kunnen worden geactiveerd voor een snelheidstoename."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Het raken van een zichtbaar vijandelijk voertuig verhoogt de schade of penetratie van de volgende granaat."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Het kanon heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Vergroot het zichtbereik en detecteert bewegende en achter begroeiing verborgen voertuigen in een smalle sector."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Raketmotoren die acceleratie, mobiliteit en wendbaarheid verhogen."
 
@@ -298,8 +358,14 @@ msgstr "Een speciaal mechanisme dat kort motorvermogen, acceleratie en topsnelhe
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Door stil te staan of onder een bepaalde snelheid te blijven, zal je voertuig zijn analoog ballistisch rekenapparaat kalibreren en nauwkeurigheidsniveaus opbouwen, wat de precisie van je volgende schot verbetert. Wanneer je de snelheidslimiet overschrijdt, zul je geen nauwkeurigheidsniveaus opbouwen. Op het hoogste niveau heeft je voertuig nagenoeg perfecte kanonstabilisatie, met verminderde spreiding door beweging en romp-/koepelrotatie. Het effect wordt na het vuren verwijderd."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Dit voertuig is uitgerust met een raketwerper in de kanonmantel. Activeer de bekwaamheid om te switchen naar het richten van het secundaire wapen, en lanceer vervolgens een ongeleide HE-raket met de 'vuur' knop."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Elke keer dat je een zichtbare vijand met een granaat raakt, ontvang je een herlaadefficiëntieniveau, wat de herlaadtijd van je kanon tijdelijk versnelt. Elke voltreffer zorgt voor een hoger niveau. Het vernietigen van een vijandelijk voertuig met een granaat levert extra herlaadefficiëntieniveaus."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Door de Externe munitiemodule van dit voertuig kan het eenheidsmunitie met een hoge lading afvuren die meer schade veroorzaken. Als de module actief is, worden de mobiliteit en vuursnelheid verminderd."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Als je kanon geladen is, kun je beginnen met het verwarmen van je volgende schot. Hoe hoger je hitteniveau, hoe hoger je gemiddelde schade. Tijdens het verwarmen kun je niet van granaat wisselen. Bij het bereiken van het maximale hitteniveau, begint het aftellen. Als je niet op tijd vuurt, kun je een aantal seconden niet schieten."
@@ -340,6 +406,15 @@ msgstr "Na een tijdje krijgt het systeem automatisch een lading, die gedeeltelij
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "De vloeibare brandstofboosters vergroten het motorvermogen, waardoor je op het slagveld een positioneel voordeel hebt, maar verminderen de achteruitrij- en draaisnelheid van je voertuig. Ze kunnen op elk moment aan en uit worden gezet, behalve na het bereiken van de reactiveringslimiet. De boosters worden bij gebruik warmer en zijn onbeschikbaar als ze moeten afkoelen, waardoor ze niet continu kunnen worden gebruikt. Bij overschrijding van het kritieke hitteniveau worden ze volledig uitgeschakeld. Wees dus voorzichtig met het gebruik."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Wanneer je een zichtbaar vijandelijk voertuig met een granaat raakt, wordt de ontsteker van de volgende granaat aangepast. Als het eerste schot het vijandelijke pantser doorboort, wordt de schade van het volgende schot verhoogd. Zo niet, dan wordt de penetratie van het volgende schot verhoogd."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Het kanon van het voertuig heeft speciale apparaten waarmee sommige granaateigenschappen voor het vuren kunnen worden aangepast. De configuratie toont welke eigenschappen veranderen door de vuurmodus te switchen."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Een geavanceerd optisch apparaat vergroot je zichtbereik en verbetert de detectie van bewegende en achter begroeiing verborgen voertuigen. Na activatie scant het een smalle sector recht voor je voertuig, waarbij verborgen doelwitten zichtbaar worden. Als er een verborgen vijand wordt onthuld, word je zelf ook meteen verkend. Na een tijdje kun je zelf de scan stoppen."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Raketmotoren die voor enkele seconden de acceleratie, mobiliteit en wendbaarheid verhogen. In tegenstelling tot gewone jetboosters, kunnen de raketmotoren onafhankelijk van elkaar werken om de romp sneller te laten draaien, en hebben ze geen invloed op het achteruitrijden. Ze kunnen in elk gevecht meermaals worden gebruikt, maar moeten wel herladen."
 
@@ -363,6 +438,18 @@ msgstr "Deze mechanische modificatie verhoogt kort de acceleratie, het motorverm
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Alle getoonde waardes zijn de maximaal haalbare voor het voertuig. Uitrusting, gevechtsbevelen en verbruiksartikelen kunnen deze waardes veranderen, maar dat wordt hier niet getoond."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibreerbare AP-granaat"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibreerbare APCR-granaat"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibreerbare HE-granaat"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibreerbare HEAT-granaat"
 
 msgid "characteristics/templates/upTo"
 msgstr "Tot %(value)%s"

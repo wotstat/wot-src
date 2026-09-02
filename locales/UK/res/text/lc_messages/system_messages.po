@@ -1009,6 +1009,9 @@ msgstr "Серверна помилка. Не вдалося навчити чл
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "поточний сеанс гри перервано. Ваш Wargaming.net&nbsp;ID було використано, щоб увійти у World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Неможливо отримати дарунок: помилка на сервері."
+msgstr "Помилка під час відкриття коробки: збій сервера."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Неможливо отримати дарунок: дочекайтеся завершення попередньої операції."
+msgstr "Помилка під час відкриття коробки: дочекайтеся завершення попередньої операції."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
@@ -2383,30 +2386,6 @@ msgstr "Додано унікальний камуфляж для %(vehicleName)
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Унікальний камуфляж для %(vehicleName)s доступний для всієї техніки нації %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Прогрес операції збережено. Ви можете повернутися до кампанії будь-якої миті."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Кампанії «%(campaignName1)s» та «%(campaignName2)s» призупинено"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Призупинені операції та їхні завдання відновлено."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Кампанії «%(campaignName1)s» та «%(campaignName2)s» знову доступні"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Прогрес операції збережено. Ви можете повернутися до кампанії будь-якої миті."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Кампанію «%(campaignName)s» призупинено"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Призупинені операції відновлено."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Кампанію «%(campaignName)s» відновлено"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Деталь «%(detailName)s» успішно встановлено."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Помилка під час отримання нагород. Спробуйте пізніше."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Деталь «%(detail_name)s» успішно встановлено."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Помилка під час отримання нагород. Спробуйте пізніше."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Деталь «%(detail_name)s» успішно встановлено."
 
 msgid "personalMissions/reward/regular/server_error"

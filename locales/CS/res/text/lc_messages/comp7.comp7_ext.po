@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Tento režim není na serveru %(serverName)s dostupný"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Sezóna azurového Draka začne: %(date)s"
+msgstr "Sezóna azurového Fénixe začne: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Sezóna karmínového Draka začne: %(date)s"
+msgstr "Sezóna karmínového Fénixe začne: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Sezóna nefritového Draka začne: %(date)s"
+msgstr "Sezóna nefritového Fénixe začne: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Vyčkejte na výsledek kvalifikace, poté obdržíte svou hodnost"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Sezóna azurového Draka skončila"
+msgstr "Sezóna azurového Fénixe skončila"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Sezóna karmínového Draka skončila"
+msgstr "Sezóna karmínového Fénixe skončila"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Sezóna nefritového Draka skončila"
+msgstr "Sezóna nefritového Fénixe skončila"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Bitvy na serveru budou dostupné za %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Vlastnosti vozidla zlepšeny"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Obnovování bodů výdrže"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Obdržené poškození zvýšeno"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Vlastnosti vozidla zlepšeny"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Sezóna azurového Draka potrvá %(days)d den"
-msgstr[1] "Sezóna azurového Draka potrvá %(days)d dny"
-msgstr[2] "Sezóna azurového Draka potrvá %(days)d dní"
+msgstr[0] "Sezóna azurového Fénixe potrvá %(days)d den"
+msgstr[1] "Sezóna azurového Fénixe potrvá %(days)d dny"
+msgstr[2] "Sezóna azurového Fénixe potrvá %(days)d dní"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Sezóna karmínového Draka potrvá %(days)d den"
-msgstr[1] "Sezóna karmínového Draka potrvá %(days)d dny"
-msgstr[2] "Sezóna karmínového Draka potrvá %(days)d dní"
+msgstr[0] "Sezóna karmínového Fénixe potrvá %(days)d den"
+msgstr[1] "Sezóna karmínového Fénixe potrvá %(days)d dny"
+msgstr[2] "Sezóna karmínového Fénixe potrvá %(days)d dní"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Sezóna nefritového Draka potrvá %(days)d den"
-msgstr[1] "Sezóna nefritového Draka potrvá %(days)d dny"
-msgstr[2] "Sezóna nefritového Draka potrvá %(days)d dní"
+msgstr[0] "Sezóna nefritového Fénixe potrvá %(days)d den"
+msgstr[1] "Sezóna nefritového Fénixe potrvá %(days)d dny"
+msgstr[2] "Sezóna nefritového Fénixe potrvá %(days)d dní"
 
 msgid "calendarDay/title"
 msgstr "Rozvrh"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Schopnosti"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Nápor. Rok Draka"
+msgstr "Nápor: Rok Fénixe"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nulté schopnosti"
@@ -574,11 +577,17 @@ msgstr "Potvrzuji!"
 msgid "intro/description/banPhase"
 msgstr "Každý tým může v bitvě zakázat jedno konkrétní vozidlo. Domluvte se se spojenci na hlasování a zakažte nejobávanější nepřátelské vozidlo, nebo nepřátelům nachystejte nečekanou sestavu. Pokud bude vaše vozidlo zakázáno, můžete si místo něj vybrat z několika předem připravených nájemních vozidel."
 
+msgid "intro/description/draw"
+msgstr "Pokud vypršel časový limit a žádný tým nedosáhl jasného vítězství, o výsledku bitvy rozhodují následující kritéria v tomto pořadí: počet přeživších vozidel, způsobené poškození a první zničené vozidlo. Pokud žádný z týmů nezpůsobil žádné poškození, je bitva prohlášena za remízu."
+
+msgid "intro/description/nightMaps"
+msgstr "Noční mapy oživují známá bojiště nočními podmínkami, novými Pozorovacími stanovišti, aktualizovanými body zájmu a upravenými mechanikami odhalování. Současná nabídka zahrnuje mapy Ledovec, Pouštní řeka, Předsunutá základna a Step."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Režim má modifikátory, které mění určité parametry vozidla, jako jsou body výdrže vozidla, doba obnovení spotřebních doplňků, zbývající čas odhalení a další."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Jakmile na mapě obsadíte určité oblasti, budete moci použít taktické schopnosti. Existují dva typy bodů zájmu: Velitelství dělostřelectva vám umožní nasměrovat na určitou pozici dělostřelecký úder a Komunikační centrum odhalí všechna nepřátelská vozidla. V závislosti na mapě se přítomnost a umístění těchto bodů zájmu může změnit."
+msgstr "Jakmile obsadíte určité oblasti na mapě, získáte přístup k taktickým schopnostem. Existují dva typy bodů zájmu: Velitelství dělostřelectva, díky kterému si můžete vyžádat cílený úder, a Komunikační centra, která odhalí všechna nepřátelská vozidla. Počet a umístění těchto bodů se liší v závislosti na mapě."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Odehrajte %(count)s kvalifikační bitvy, abyste určili svou úrove
 msgstr[2] "Odehrajte %(count)s kvalifikačních bitev, abyste určili svou úroveň schopností a svou hodnost. Po dokončení získáte odměny za hodnost, které jste dosáhli, a za všechny předchozí hodnosti.\n\nDezerce nebo remíza v kvalifikaci budou považovány za porážku."
 
 msgid "intro/description/ranks"
-msgstr "Systém, který odráží schopnosti hráče. Postupujte hodnostmi od Železné po Legendu a získejte hodnotné odměny. Bojujte během Roku Draka a získejte jedinečné roční odměny."
+msgstr "Postupujte hodnostmi od Železné po Legendu a získejte hodnotné odměny. Bojujte během Roku Fénixe a získejte roční odměny."
 
 msgid "intro/description/roleSkills"
 msgstr "V závislosti na úloze má každé vozidlo speciální schopnost se třemi úrovněmi nabití. Čím vyšší úroveň nabití při aktivování schopnosti, tím silnější efekt schopnost bude mít. Úroveň nabití bude záviset na počtu bodů prestiže, které lze získat za úctyhodný výkon v bitvě, obsazování bodů zájmu, použití taktických schopností atd.\n\nAbyste se dozvěděli víc o různých způsobech, jak můžete body prestiže získat, přečtěte si pravidla režimu."
@@ -597,6 +606,12 @@ msgstr "Do bitvy můžete vstoupit s vyzkoumatelnými vozidly %(levels)s. úro
 
 msgid "intro/title/banPhase"
 msgstr "ZÁKAZY VOZIDEL"
+
+msgid "intro/title/draw"
+msgstr "PODMÍNKY REMÍZY"
+
+msgid "intro/title/nightMaps"
+msgstr "NOČNÍ MAPY"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFIKÁTORY NÁPORU"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VÍTĚZSTVÍ, ALE VY JSTE"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Povýšen na hodnost %(rank)s"
+msgstr "Povýšen na hodnost {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Hodnocení: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degradován na hodnost %(rank)s, %(division)s"
+msgstr "Degradován na hodnost {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Povýšen na hodnost %(rank)s, %(division)s"
+msgstr "Povýšen na hodnost {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Bitev odehráno"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Nejvyšší počet bodů prestiže (sezóna): %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Na serveru %(server)s skončila Sezóna azurového Draka."
+msgstr "Na serveru %(server)s skončila Sezóna azurového Fénixe."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Na serveru %(server)s skončila Sezóna karmínového Draka."
+msgstr "Na serveru %(server)s skončila Sezóna karmínového Fénixe."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Na serveru %(server)s skončila Sezóna nefritového Draka."
+msgstr "Na serveru %(server)s skončila Sezóna nefritového Fénixe."
 
 msgid "products/actions/buy"
 msgstr "Koupit"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "NÁPOR. KVALIFIKACE DOKONČENA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "NÁPOR. SEZÓNA AZUROVÉHO DRAKA"
+msgstr "NÁPOR: SEZÓNA AZUROVÉHO FÉNIXE"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "NÁPOR. SEZÓNA KARMÍNOVÉHO DRAKA"
+msgstr "NÁPOR: SEZÓNA KARMÍNOVÉHO FÉNIXE"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "NÁPOR. SEZÓNA NEFRITOVÉHO DRAKA"
+msgstr "NÁPOR: SEZÓNA NEFRITOVÉHO FÉNIXE"
 
 msgid "rewardsScreen/description/year"
-msgstr "NÁPOR. ROK DRAKA"
+msgstr "NÁPOR. ROK FÉNIXE"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Kde je můj Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Končí za %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Sezóna azurového Draka"
+msgstr "Sezóna azurového Fénixe"
 
 msgid "seasonName/second"
-msgstr "Sezóna karmínového Draka"
+msgstr "Sezóna karmínového Fénixe"
 
 msgid "seasonName/third"
-msgstr "Sezóna nefritového Draka"
+msgstr "Sezóna nefritového Fénixe"
 
 msgid "seasonPointTooltip/header"
 msgstr "Prapory Náporu"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Pozice na žebříčku: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "NÁPOR. %(seasonNameUpper)s"
+msgstr "NÁPOR %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Získány %(points)s prapory Náporu"
 msgstr[2] "Získáno %(points)s praporů Náporu"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "I. SEZÓNA: AZUROVÝ DRAK"
+msgstr "I. SEZÓNA: AZUROVÝ FÉNIX"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "II. SEZÓNA: KARMÍNOVÝ DRAK"
+msgstr "II. SEZÓNA: KARMÍNOVÝ FÉNIX"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "III. SEZÓNA: NEFRITOVÝ DRAK"
+msgstr "III. SEZÓNA: NEFRITOVÝ FÉNIX"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Vítězství: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Tento režim bude k dispozici v %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azurový Drak"
+msgstr "Azurový fénix"
 
 msgid "shortSeasonName/second"
-msgstr "Karmínový Drak"
+msgstr "Karmínový Fénix"
 
 msgid "shortSeasonName/third"
-msgstr "Nefritový Drak"
+msgstr "Nefritový Fénix"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Tato sekce obsahuje informace o nejlepších hráčích aktuální sezóny režimu „Nápor“."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Zobrazit vše"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Podpořte sérii „Legendy Náporu“ a zvyšte pomocí turnajových balíčků výherní fond!"
+msgstr "Pokud tým, který jste si vybrali, vyhraje, získáte jedinečný zlatý odznak „OLS 2026“. Držte palce svým favoritům!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Ukažte svého esportovního ducha s exkluzivními tematickými prvky na úpravu vzhledu a jedinečnými tanky!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Na mezinárodním šampionátu World of Tanks v čínském Su-čou se odehraje velkolepý souboj, v němž se v režimu „Nápor“ utkají nejdivočejší týmy z celého světa a zabojují o prestižní titul mistra světa. Zažijte ono výjimečné napětí, když se na bitevním poli rodí legendy!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "6. sezóna SLN"
+msgstr "7. sezóna OLS"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI 2025"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "V této sezóně máte poslední šanci získat cenné odměny, včetně exkluzivního těžkého tanku X. úrovně Ashbringer se všemi jedinečnými 3D styly, které jste pro něj získali, a neohrožené posádky s nultou schopností „Bratři ve zbrani“, vylepšeného a experimentálního vybavení na výběr, atraktivního 2D stylu a mnohého dalšího. Nenechte si to ujít – vítězství čeká na bojišti!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Využijte poslední okamžiky Roku Draka!"
+msgstr "Využijte poslední okamžiky Roku Fénixe!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEZÓNA NEFRITOVÉHO DRAKA"
+msgstr "SEZÓNA AZUROVÉHO FÉNIXE"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "NÁPOR. CO JE NOVÉHO?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Rozumím!"
+msgstr "Vypusťte plameny!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Vylepšená obrazovka výsledků po bitvě s novým designem aktualizace 2.0 vám nyní po každé bitvě poskytne další informace relevantní pro daný režim."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Pokud vypršel časový limit a žádný tým nedosáhl jasného vítězství, o výsledku bitvy rozhodují následující kritéria v tomto pořadí: počet přeživších vozidel, způsobené poškození a první zničené vozidlo. Pokud žádný z týmů nezpůsobil žádné poškození, je bitva prohlášena za remízu."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Podrobné výsledky bitvy"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Pokud bylo vaše oblíbené vozidlo vyloučeno, nemusíte se bát. Nájemní vozidla nyní přijíždí s přednastavenou posádkou, vybavením, granáty a spotřebními doplňky."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Nájemní vozidla připravená vyrazit %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "V této sezóně může každý tým zcela zakázat použití určitého vozidla v bitvě. Domluvte se se spojenci na hlasování a zakažte nejobávanější stroj soupeře, nebo si pro něj přichystejte nečekanou sestavu."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Zákazy vozidel %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Podmínky remízy aktualizovány {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mapy"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nová vozidla dostupná v Náporu"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Verze 2.4 přináší nové úlohy lehkých tanků a úpravu vyvážení parametrů vozidel. Vyzkoušejte je v bitvě!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nové úlohy pro lehké tanky {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nový herní zážitek na známých mapách. Mezi změny patří noční podmínky, nové Pozorovací stanoviště, nové body zájmu a upravená mechanika odhalování. To vše mění průběh bitvy, díky čemuž jsou přehled, načasování a taktické přesuny důležitější než kdy dřív."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Noční mapy jsou tady! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Vzhledem k nízkému počtu hráčů v bitvách byly vypnuty superčety. Pracujeme na alternativních způsobech týmové hry v Náporu. Do té doby jsou pravidelně k dispozici turnaje ve formátu 7 proti 7."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Superčety jsou vypnuty {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Nájemní vozidla"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Nedávno vydaný americký střední tank X. úrovně Ares 90 je nyní v režimu dostupný s upravenou úlohovou schopností."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mapy: Byla odstraněna mapa Erlenberg. Byly přemístěny body zájmu na mapě Letiště. Drobné úpravy mapy Plzeň.\n• Vozidla: Byl odstraněn Vz. 60S Dravec. Byl přidán nový německý těžký tank Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Aktualizace úlohové schopnosti %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Stroj 114 SP2 je nyní dostupný k zakoupení v obchodě Náporu na hodnosti Stříbrný."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Aktualizace obchodu %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sezónní změny vyvážení {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "VYLOUČENO"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "I. sezóna. Azurový Drak"
+msgstr "I. SEZÓNA: AZUROVÝ FÉNIX"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "II. sezóna. Karmínový Drak"
+msgstr "II. SEZÓNA: KARMÍNOVÝ FÉNIX"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "III. sezóna. Nefritový Drak"
+msgstr "III. SEZÓNA: NEFRITOVÝ FÉNIX"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Stávající"

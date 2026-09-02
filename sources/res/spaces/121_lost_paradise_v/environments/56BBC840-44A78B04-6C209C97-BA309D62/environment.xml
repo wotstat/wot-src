@@ -21,8 +21,8 @@
 		</deferred>
 		<simplifiedDeferred>
 			<useEdgeFog>true</useEdgeFog>
-			<edgeFogInnerBB>-501.25 -478.75 500 559.25</edgeFogInnerBB>
-			<edgeFogOuterBB>-669.25 -604.75 725.75 790.25</edgeFogOuterBB>
+			<edgeFogInnerBB>-590.5 -557.5 647 669.5</edgeFogInnerBB>
+			<edgeFogOuterBB>-643 -662.5 773 774.5</edgeFogOuterBB>
 			<color>0.211765006 0.513725996 1 7.6438899</color>
 			<density>0.00109999999</density>
 			<height>50</height>
@@ -52,36 +52,32 @@
 		<enable>true</enable>
 		<adaptationSpeed>140</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
+			<pbsBloom>true</pbsBloom>
 			<threshold>0.300000012</threshold>
-			<amount>0.600000024</amount>
-			<tint>1 1 1</tint>
+			<amount>0.409999996</amount>
 			<dirtAmount>0.879999995</dirtAmount>
 		</bloom>
 		<environment>
 			<sunlightLumMultiplier>20</sunlightLumMultiplier>
-			<ambientLumMultiplier>1</ambientLumMultiplier>
 			<sunLumMultiplier>6</sunLumMultiplier>
 			<skyLumMultiplier>5</skyLumMultiplier>
+			<skyLumMultiplierDeferred>1</skyLumMultiplierDeferred>
 			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
 		</environment>
 		<tonemappings>
 			<tonemapping>
 				<name>RexpTM</name>
-				<middleGray>0.479999989</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.09000003</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>FilmicTM</name>
-				<middleGray>0.479999989</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.09000003</blackPoint>
 			</tonemapping>
 			<tonemapping>
 				<name>LinearExpTM</name>
-				<middleGray>0.479999989</middleGray>
 				<whitePoint>1.75</whitePoint>
 				<blackPoint>1.09000003</blackPoint>
 			</tonemapping>
@@ -113,11 +109,11 @@
 		<sunBrightness>0.0599999987</sunBrightness>
 		<objectEnable>true</objectEnable>
 		<glareEnable>true</glareEnable>
-		<glareIntensity>0.75999999</glareIntensity>
+		<glareIntensity>0.5</glareIntensity>
 		<glareSize>0.00999999978</glareSize>
 		<flareIntensity>0.310000002</flareIntensity>
-		<objectThreshold>4.72792006</objectThreshold>
-		<objectFlareIntensity>0.439999998</objectFlareIntensity>
+		<objectThreshold>3.58496308</objectThreshold>
+		<objectFlareIntensity>0.300000012</objectFlareIntensity>
 		<haloEnable>true</haloEnable>
 		<sunTexture1>system/maps/psf_rgbe.dds</sunTexture1>
 		<colorTexture>system/maps/lenscolorF.dds</colorTexture>
@@ -154,6 +150,10 @@
 		<amplify>0.5</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>1.39999998</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>1.39999998</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>1.39999998</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>1.39999998</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/121_lost_paradise_v/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -286,4 +286,7 @@
 		<transmissionMult>0.600000024</transmissionMult>
 		<waterReflectionAttenuation>1.13999999</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

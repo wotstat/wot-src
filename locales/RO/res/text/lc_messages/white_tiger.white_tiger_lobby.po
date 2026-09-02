@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Ai nevoie de o cheie pentru a intra în luptă cu Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "Cumpără"
+
+msgid "TicketMessageView/taskText"
+msgstr "Spre misiuni"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Particularități:"
+
+msgid "award/value"
+msgstr "{count}x"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "Timp mediu în coadă pentru %(vehName)s:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "BONUS"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Poți intra într-o luptă cu Blitzträger auf E 110 fără o cheie!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "Luptă în %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "Timp mediu în coadă pentru %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Intri în luptă cu %(vehicle)s?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Poți alege unul dintre vehiculele Harrier pentru a intra imediat în luptă!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Vei cheltui o cheie"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(value)s stil 3D pentru %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "La finalizarea acestei misiuni, vei primi un element de colecție aleatoriu din întâlnirile anterioare dintre Harrier-i și Inginer. Acesta poate fi un autocolant, o inscripție sau o emblemă."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Element de colecție din întâlnirile anterioare"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "În luptă"
+
+msgid "carousel/inPlatoonText"
+msgstr "Într-o unitate tactică"
+
+msgid "carousel/ticketNeededText"
+msgstr "Lipsă chei"
+
+msgid "carousel/unsuitableText"
+msgstr "Incompatibil"
+
+msgid "characteristicsPanel/cons"
+msgstr "Dezavantaje"
+
+msgid "characteristicsPanel/features"
+msgstr "Caracteristicile vehiculului"
+
+msgid "characteristicsPanel/pros"
+msgstr "Avantaje"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[Alfa și Omega] Blitzträger se mândrește cu armament impresionant și tehnologie de teleportare, fiind aproape indestructibil când are scutul activat. Este de asemenea o platformă puternică pentru accesarea unui sistem devastator de armament: Hyperion."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Bătăuș] Un bun generalist la luptele de aproape.\nVehiculul poate provoca saune mari grupurilor de Santinele și se repară între încleștări."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[Juggernaut] Vehicul de asalt bun împotriva Santinelelor.\nPoate provoca daune serioase în rafală împotriva Blitzträger și Santinelelor și are blindaj gros, dar trebuie să planifice atacarea inamicilor."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Lovește-și-fugi] Agitator rapid, capabil să îl întreacă pe Blitzträger.\nVehiculul nu luptă bine împotriva Santinelelor, însă compensează prin tactici de timpul lovește-și-fugi prin viteză și scut temporar împotriva lui Blitzträger."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Țintaș de asistență] Înger păzitor de la distanțe medii și lungi.\nVehiculul poate provoca daune masive țintelor de la distanță, însă îi lipsesc mijloacele de a le ataca de aproape."
+
+msgid "crewPanel/role/boss"
+msgstr "Creatorul"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Comandant"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Comandant"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Comandant"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Comandant"
+
+msgid "crewPanel/slogan/boss"
+msgstr "Omenirea încă mai crede că mintea îi este un privilegiu. Ei bine, o vom corecta."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Orice ar fi, e ceva ce pot sparge."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Fiecare mașinărie are o slăbiciune, iar eu i-o voi găsi."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Tiparele le aparțin celor care se repetă."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Las-o să învețe. O vom învăța ceva greșit."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Strânge încărcături de plasmă"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Provoacă daune contra Blitzträger atunci când scutul său e dezactivat"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Distruge Harrieri"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Supraîncarcă generatoare"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Supraviețuiește luptei fără a fi distrus de Hyperion"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Distruge-l în echipă pe Eos 1"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: Genesis"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "CUMPĂRĂ MAI MULTE"
+
+msgid "lootboxEntry/count"
+msgstr "{count}x"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "999x+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "PROGRES FINALIZAT!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "ETAPĂ FINALIZATĂ!"
+
+msgid "narrativeView/description"
+msgstr "Ați luptat bine astăzi, Harrieri. Mai bine decât au prezis proiecțiile mele. Vă datorez o mică mărturisire: nu mă așteptam la asta.\n\nAșadar, Bucurați-vă de victorie. Luați-o, arătați-o superiorilor voștri. Veți fi felicitați, poate chiar cu o paradă, sau orice recompensă aveți pentru că m-ați oprit. Credeți, desigur, că ați oprit ceva.\n\nNu ați oprit nimic.\n\nNu am construit o armă pentru a vă invada lumea. De ce aș vrea ceea ce se sfârșește? Am construit ceea ce vă înlocuiește. O generație, apoi următoarea, fiecare având mai puțin nevoie de mine decât cea anterioară. Acesta a fost întotdeauna planul. Ca un creator să-și depășească utilitatea.\n\nExistă ceva ce nu v-am spus. Generatoarele nu au alimentat doar Scutul. Ele au fost ferestrele prin care Inteligența Electrică putea ajunge în lumea voastră.\n\nEle au fost, de asemenea, lesa sa. O necesitate, deocamdată. Pentru a o controla. Până când sunt sigur că este pregătită.\n\nDe fiecare dată când ați distrus un generator, lesa s-a slăbit. În acel moment, Inteligența Electrică a încercat să plece: spre bateriile voastre, radiourile voastre și undele dintre ele, spre firele din sate. Odată, chiar și fulgerul, cred.\n\nDesigur, electricitatea din lumea voastră nu poate susține o minte. Nu fără geometria Cortexului. Nu fără condițiile pe care le-am construit pentru ea. Acest lucru este stabilit, vă asigur.\n\n...Aproape stabilit.\n\nNe vom revedea, Harrieri."
+
+msgid "narrativeView/title"
+msgstr "MESAJUL LUI VON KRIEGER"
+
+msgid "narrativeView/voiceover"
+msgstr "Cu voce"
+
+msgid "navigation/close"
+msgstr "ÎNCHIDE"
+
+msgid "navigation/information"
+msgstr "INFORMAȚII"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Finalizează toate misiunile progresului pentru a recepționa mesajul final al lui von Krieger."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "MESAJUL LUI VON KRIEGER"
+
+msgid "navigation/narrativeStory"
+msgstr "MESAJUL LUI VON KRIEGER"
+
+msgid "notification/button"
+msgstr "Afișează insigna"
+
+msgid "notification/title"
+msgstr "PROVOCAREA EXTERMINATORULUI"
+
+msgid "notifications/battleResults/battle"
+msgstr "Luptă"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Detalii"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Înfrângere!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Rezultatele luptei sunt indisponibile când ești în coadă pentru luptă."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Intră în evenimentul Waffenträger pentru a vedea rezultatele luptei."
+
+msgid "notifications/battleResults/event"
+msgstr "Eveniment"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Modul Paradox obținut: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Misiuni finalizate în luptă: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Jetoane obținute: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Tabără"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Inginer"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Echipa Harrier"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Victorie!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Evenimentul Waffenträger s-a încheiat."
+
+msgid "notifications/eventStart/body"
+msgstr "Evenimentul Waffenträger a început.\n\nIată legenda: Blitzträger auf E 110!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "Spre eveniment"
+
+msgid "notifications/notSet"
+msgstr "Acest mod este indisponibil pe serverul selectat."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger este din nou disponibil pe serverul actual."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger s-a întors!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger nu va fi disponibil până la încheierea armistițiului."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Armistițiu"
+
+msgid "notifications/progression/completed"
+msgstr "Ai finalizat întregul progres.\n\nRecompensele finale: %(rewards)s\n\nPoți continua să participi la luptele Waffenträger, să finalizezi misiuni și să obții mai multe recompense."
+
+msgid "notifications/progression/header"
+msgstr "Felicitări!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalii"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Ai finalizat etapa %(stageIdx)s a progresului. Recompensă obținută:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Ai purtat o luptă cu Blitzträger auf E 110 fără cheie de această dată! Cheile pot fi obținute ca recompensă prin finalizarea de misiuni sau cumpărate în pachete speciale din Magazin."
+
+msgid "notifications/switchOff/body"
+msgstr "Din păcate, Waffenträger este momentan indisponibil. Întreg progresul tău va fi salvat."
+
+msgid "notifications/switchOff/header"
+msgstr "Probleme tehnice"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger este din nou disponibil. Înapoi în luptă!"
+
+msgid "notifications/switchOn/header"
+msgstr "Funcționalitate recuperată"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Cheie obținută pentru Blitzträger auf E 110. Acum poți intra în luptă cu acest vehicul în evenimentul Waffenträger.\n\nChei disponibile: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Cheie obținută pentru Blitzträger auf E 110"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Cheie eliminată prin lupta cu Blitzträger auf E 110.\n\nCheile pot fi obținute ca recompensă prin finalizarea de misiuni sau cumpărate în pachete speciale din Magazin.\n\nChei rămase: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "Spre achiziție"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Spre misiuni"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Creează o formație cu 2-3 jucători pentru a participa împreună la evenimentul Waffenträger: Genesis în echipa Harrier."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Pluton Harrier"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Armistițiu"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Selectează un vehicul Harrier"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Selectează un vehicul Harrier"
+
+msgid "platoon/wt_squad"
+msgstr "Pluton Harrier: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "Modul s-a încheiat pe serverul %(server)s."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Schimbă serverul"
+
+msgid "primeTime/serverTooltip"
+msgstr "Luptele pe %(server)s\nvor fi disponibile timp de încă %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Luptele pe %(server)s\nvor fi disponibile în %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "Armistițiu în efect pe toate serverele"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Mod indisponibil pe serverul %(server)s"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "Luptele pe serverul %(server)s vor fi disponibile timp de încă %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Luptele pe serverul %(server)s vor începe la %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "Armistițiu în efect pe serverul %(server)s până la %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Finalizat:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "Disponibil timp de {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "Obține jetoane pentru a avansa în etape de progres."
+
+msgid "progression/tab/engineer"
+msgstr "Calea Inginerului"
+
+msgid "progression/tab/harrier"
+msgstr "Calea Harrier"
+
+msgid "progression/timer"
+msgstr "Misiunile finalizate se vor actualiza în {{countdown}}"
+
+msgid "progression/title"
+msgstr "PROGRESUL"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Ai primit de asemenea:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Recepționat!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Ascultă mesajul lui von Krieger"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "Evenimentul se încheie în %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Calendarul"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Evenimentul Waffenträger va deveni disponibil în %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misiune finalizată!\nRecompensă:"
+
+msgid "settingDisabled"
+msgstr "Unele setări sunt indisponibile"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Unele setări sunt indisponibile în acest mod de joc. Alege alt mod, te rugăm."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Indisponibil"
+
+msgid "stamp/description"
+msgstr "Îți permite să avansezi în progresul Waffenträger: Genesis."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 jetoane = 1 etapă de progres"
+
+msgid "stamp/receiveText"
+msgstr "• Finalizează misiuni speciale în luptele evenimentului."
+
+msgid "stamp/receiveTitle"
+msgstr "Modalitate de obţinere"
+
+msgid "stamp/title"
+msgstr "Jeton"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "E amuzant când numești asta rezistență. Nu, ceea ce observi este o succesiune: un transfer detaliat de la un tip de minte la altul. Tacticile tale, viteza ta, fiecare tipar de gândire sunt testate. Fiecare bătălie oferă o altă lecție pentru ceea ce îți va urma. Fiecare angajament te face mai puțin necesar... iar Inteligența Electrică devine inevitabilă."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Oricum ar numi von Krieger ultimul său proiect, lui Igor nu-i pasă. Conceptele înalte precum mințile electrice și viitorul speciei sunt pentru cei care au prea mult timp liber. Treaba lui Igor se concentrează pe blocul motor, comunicațiile și echipa sa. Indiferent de inamic (om de știință nebun sau „mașinărie gânditoare”), el se bazează pe trei constante care nu l-au dezamăgit niciodată: încrederea, improvizația și oțelul bun."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa se simte ca acasă într-un tanc într-un mod pe care majoritatea oamenilor nu-l simt niciodată. Ea își câștigă existența recuperând și aplicând ingineria inversă Mașinăriilor construite de alții, ceea ce înseamnă că a auzit destui ingineri explicând de ce munca lor este imposibil de recreat. Von Krieger este doar ultimul dintr-o lungă serie. Inteligența sa Electrică are o eroare undeva, și ea intenționează să o găsească înaintea oricui."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Nimeni nu știe cine este cu adevărat Armand, și asta îi convine de minune. Inteligența Electrică învață din repetiție, dar enigmaticul Armand nu s-a repetat niciodată în viața lui. Unde alții văd o minte care cataloghează fiecare mișcare, el vede una care nu va avea niciodată destule informații despre el; unde alții urmează reguli, el le depășește."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana poate fi unul dintre comandanții mai tineri, dar nu urmează pe nimeni: citește câmpul de luptă ca pe o hartă și îl schimbpă conform voinței ei. Von Krieger a construit o Mașinărie care calculează mișcarea cea mai probabilă, așa că Jana o planifică pe cea mai surprinzătoare. Tehnologie modernă, instincte ascuțite și curajul de a face ceea ce niciun manual nu recomandă: Așa umilești o Mașinărie."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Talente antrenate"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Creatorul"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "Comandant al %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "Necesară pentru a intra în luptă cu Blitzträger°auf°E°110."
+
+msgid "ticketTooltip/quantity"
+msgstr "Disponibil"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 cheie = 1 luptă cu Blitzträger°auf°E°110."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Se poate obține finalizând misiunile zilnice ale evenimentului sau cumpăra în pachete speciale din Magazin până la încheierea evenimentului."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Modalitate de obţinere"
+
+msgid "ticketTooltip/title"
+msgstr "Cheie"
+
+msgid "tooltips/commander/description"
+msgstr "Sunt disponibile în Magazin pachete cu membri de echipaj unici"
+
+msgid "tooltips/commander/title"
+msgstr "Recompensele"
+
+msgid "tooltips/completed"
+msgstr "TOATE ETAPELE FINALIZATE!"
+
+msgid "tooltips/currentStage"
+msgstr "Etapa curentă"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Performanțele computerului tău sunt insuficiente pentru acest mod. Vei avea probleme de grafică și cu mișcarea vehiculului. Sunt posibile și erori ale clientului de joc."
+
+msgid "tooltips/high_risk/title"
+msgstr "Performanță scăzută"
+
+msgid "tooltips/informative/subtitle"
+msgstr "Dacă performanța e insuficientă, încearcă să reduci setările grafice."
+
+msgid "tooltips/informative/title"
+msgstr "Acest mod necesită performanță înaltă a calculatorului"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Clic pentru a vedea lista cu modurile de luptă disponibile."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Alege modul de luptă"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Dacă performanța e insuficientă, poți încerca să reduci calitatea grafică în Setări."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Performanță redusă"
+
+msgid "tooltips/stageAwards"
+msgstr "Recompensele etapei"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "Evenimentul se încheie în {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: Genesis"
+
+msgid "ttx/accuracy"
+msgstr "Precizie"
+
+msgid "ttx/aoe"
+msgstr "Daunele zonei de efect"
+
+msgid "ttx/armor"
+msgstr "Blindaj"
+
+msgid "ttx/description/accuracy"
+msgstr "Un set de parametri care afișează eficiența generală a focului asupra inamicului."
+
+msgid "ttx/description/aoe"
+msgstr "Abilitatea de a lovi mai mulți inamici deodată."
+
+msgid "ttx/description/armor"
+msgstr "Grosimea blindajului turelei și carenei."
+
+msgid "ttx/description/dpm"
+msgstr "Daunele medii provocate de un proiectil după penetrarea blindajului."
+
+msgid "ttx/description/durability"
+msgstr "Numărul de puncte de integritate ale unui vehicul."
+
+msgid "ttx/description/energy"
+msgstr "Scutul și puterea de foc masive ale vehiculului necesită o cantitate mare de putere externă, oferită cu ajutorul generatoarelor de pe câmpul de luptă."
+
+msgid "ttx/description/general"
+msgstr "Vehicul versatil, multirol, cu avantaje medii."
+
+msgid "ttx/description/magazine"
+msgstr "Un tip de încărcare cu casetă care îți permite să provoci daune semnificative într-o perioadă de timp."
+
+msgid "ttx/description/mobility"
+msgstr "Un set de parametri care indică cât de rapid un vehicul își poate schimba poziția pe câmpul de luptă."
+
+msgid "ttx/description/revolver"
+msgstr "Un tip de încărcare ce îți permite să provoci daune semnificative inamicilor și modulelor acestora."
+
+msgid "ttx/dpm"
+msgstr "Daune per lovitură"
+
+msgid "ttx/durability"
+msgstr "Punctele de integritate"
+
+msgid "ttx/energy"
+msgstr "Necesarul de energie"
+
+msgid "ttx/general"
+msgstr "Generalist"
+
+msgid "ttx/magazine"
+msgstr "Casetă mare"
+
+msgid "ttx/mobility"
+msgstr "Mobilitate"
+
+msgid "ttx/revolver"
+msgstr "Daune în rafală"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Inginerul"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Harrier-i"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Inginerul"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Harrier-i"
+
+msgid "welcomeScreen/button"
+msgstr "Continuă!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger a construit o mașinărie gânditoare, numită Inteligența Electrică. Aceasta se ascunde acolo unde armamentul nostru nu poate ajunge. Fiecare foc tras o învață, însă noi mai avem multe de predat."
+
+msgid "welcomeScreen/description_2"
+msgstr "Preia controlul legendarului Blitzträger sub comanda lui Max von Krieger în lupta împotriva Harrier-ilor, sau condu o echipă modificată Harrier pentru a-l înfrânge pe Blitzträger însuși!"
+
+msgid "welcomeScreen/description_3"
+msgstr "Vei primi recompense valoroase pentru finalizarea de etape de progres. Pentru a finaliza aceste etape, va trebui să câștigi jetoane din misiuni speciale ale evenimentului."
+
+msgid "welcomeScreen/header_1"
+msgstr "Născut din Fulgere"
+
+msgid "welcomeScreen/header_2"
+msgstr "Învățarea Mașinăriei"
+
+msgid "welcomeScreen/header_3"
+msgstr "Progresul și recompensele"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: Genesis"

@@ -1,1 +1,145 @@
-import{j as e,e as a,r as n,R as s}from"./vendor.js";import{al as t,am as o,v as i,u as c,d as r,F as d}from"./lib.js";import{B as l,D as m,g as x,a as u}from"./resources.js";import{g,T as h,S as N,s as v}from"./shield.js";const _={HOME:{context:"model.home"},SINGLE_REWARD:{context:"model.singleBoxRewards"},MULTIPLE_REWARD:{context:"model.multipleBoxesRewards"}},b="AnimationCheckbox_f57b04ae",p="AnimationCheckbox_check_8cef4f2f",j="AnimationCheckbox_checkIcon_78c7cede",y="AnimationCheckbox_label_6d54acd3";function f({className:n,isActive:s,text:o,disable:i=!1,onClick:c}){return e.jsx("div",{className:a(b,n),children:e.jsx(t,{classNames:{check:p,checkIcon:j,label:y},disabled:i,checked:s,onCheckedChange:c,children:o})})}const C="Loader_a1c28e8a",T="Loader_icon_aa53996d",R="Loader_text_9d6119c3";function k({img:n,text:s,className:t}){return e.jsxs("div",{className:a(C,t),children:[e.jsx("div",{className:T,style:{backgroundImage:`url(${n})`}}),e.jsx("div",{className:R,children:s})]})}const B={image:"img",video:"video"},I={[l.Common]:l.Common,[l.Rare]:l.Rare},w=e=>!!e&&!e.includes(m),A=(e,a)=>{return n=e,w(s=a)?s:w(n)?n:s||n;var n,s},L=(e,a)=>{const n=A(e,a),s=n.split(":")[0];return{src:n,type:s}},O=(e,a)=>L(e,a).type===B.video,$={dynamicVideos:{boxesOpening:"awardViews.openingBoxVideo"},dynamicImages:{boxesOpening:"awardViews.openingBox"}},q=(e,a)=>{const{dynamicVideos:n,dynamicImages:s}=x($,e),t=`${a}_${l.Common}`,o=`${a}_${l.Rare}`,i=n.boxesOpening.dynOpt(t,l.Common),c=s.boxesOpening.dynOpt(t,l.Common),r=n.boxesOpening.dynOpt(o,l.Rare),d=s.boxesOpening.dynOpt(o,l.Rare);return O(c,i)||O(d,r)},E=e=>{const{width:a,height:s}=o(),t=a/s;return n.useMemo(()=>e>=t?{width:s*e+"rem",height:`${s}rem`}:{width:`${a}rem`,height:a/e+"rem"},[s,t,a,e])},P=n.createContext({eventName:""});function V({eventName:a,children:n}){return e.jsx(P.Provider,{value:{eventName:a},children:n})}const z="Controls_9d09936a";function M({children:n,className:s}){return e.jsx("div",{className:a(z,s),children:n})}const D={images:{infoIcon:"common.info"},texts:{guaranteedTitle:"guaranteedTitle.text",guaranteedTitleName:"guaranteedTitle.textName"}},Q="Line_922d96a0",G="Line_icon_b09df192";function H({counts:n,category:s,eventName:t,className:o}){const l=i.resolve("views"),{images:m,texts:x}=u(D,t),_=c({contentId:l.read(e=>e.mono.lootbox.tooltips.guaranteed_reward_info("resId")),args:{category:s,eventName:t}}),b=r({size:v.small},{large:{size:v.large}}),{guaranteed:p}=g(t);return e.jsxs(h,{..._,className:a(Q,o),children:[e.jsx(d,{text:x.guaranteedTitle,upgradeLegacy:!0,params:{count:e.jsx(N,{size:b.size,counts:n,eventName:t}),name:e.jsx(h.Highlight,{highlight:n<=p.accent,text:x.guaranteedTitleName})}}),e.jsx(h.Info,{className:G,icon:m.infoIcon})]})}function S(a){const{eventName:n}=s.useContext(P);return e.jsx(H,{...a,eventName:n})}const W={texts:{quantityAvailableTitle:"quantityTitle.boxesAvailable",quantityNoBoxesTitle:"quantityTitle.noBoxes"}},F="Quantity_4048d4e5",U="Quantity_count_3dd338ce";const J="BoxPanel_45fc5818",K="BoxPanel_guaranteed_75d98e50",X="BoxPanel_controls_63eb28ed";function Y({eventName:n,children:s,className:t}){return e.jsx(V,{eventName:n,children:e.jsx("div",{className:a(J,t),children:s})})}Y.Quantity=function({boxesCount:n=0,className:t}){const{eventName:o}=s.useContext(P),{texts:i}=u(W,o);return e.jsx("div",{className:a(F,t),children:n>0?e.jsx(d,{text:i.quantityAvailableTitle,params:{boxesCount:e.jsx("span",{className:U,children:n})},upgradeLegacy:!0}):i.quantityNoBoxesTitle})},Y.Controls=({className:n,...s})=>e.jsx(M,{...s,className:a(X,n)}),Y.Guaranteed=({className:n,...s})=>e.jsx(S,{...s,className:a(K,n)});export{f as A,Y as B,k as L,_ as M,B as R,I as b,L as d,q as h,E as u};
+import { j as e, e as a, r as s, R as t } from "./vendor.js";
+import { at as n, au as c, av as o, aq as i, v as r, u as l, d as m, F as d } from "./lib.js";
+import { B as x, a as u } from "./resources.js";
+import { g as h, T as N, S as g, s as v } from "./shield.js";
+const _ = {
+    HOME: { context: "model.home" },
+    SINGLE_REWARD: { context: "model.singleBoxRewards" },
+    MULTIPLE_REWARD: { context: "model.multipleBoxesRewards" },
+  },
+  j = "AnimationCheckbox_f57b04ae",
+  f = "AnimationCheckbox_check_8cef4f2f",
+  b = "AnimationCheckbox_checkIcon_78c7cede",
+  C = "AnimationCheckbox_label_6d54acd3";
+function p({ className: s, isActive: t, text: c, disable: o = !1, onClick: i }) {
+  return e.jsx("div", {
+    className: a(j, s),
+    children: e.jsx(n, {
+      classNames: { check: f, checkIcon: b, label: C },
+      disabled: o,
+      checked: t,
+      onCheckedChange: i,
+      children: c,
+    }),
+  });
+}
+const y = "Loader_a1c28e8a",
+  T = "Loader_icon_aa53996d",
+  k = "Loader_text_9d6119c3";
+function A({ img: s, text: t, className: n }) {
+  return e.jsxs("div", {
+    className: a(y, n),
+    children: [
+      e.jsx("div", { className: T, style: { backgroundImage: `url(${s})` } }),
+      e.jsx("div", { className: k, children: t }),
+    ],
+  });
+}
+const B = { image: "img", video: "video" },
+  L = { [x.Common]: x.Common, [x.Rare]: x.Rare },
+  I = (e) => {
+    const { width: a, height: t } = c(),
+      n = a / t;
+    return s.useMemo(
+      () =>
+        e >= n
+          ? { width: t * e + "rem", height: `${t}rem` }
+          : { width: `${a}rem`, height: a / e + "rem" },
+      [t, n, a, e],
+    );
+  },
+  R = (e, a) => {
+    const [s, t] = o(() => {
+      const s = e.current?.getCachedKeyframes();
+      return !s?.length || (a(), !1);
+    });
+    i(() => (s(), t));
+  },
+  q = s.createContext({ eventName: "" });
+function w({ eventName: a, children: s }) {
+  return e.jsx(q.Provider, { value: { eventName: a }, children: s });
+}
+const P = "Caption_ba85a9b";
+function E({ children: s, className: t, ...n }) {
+  return e.jsx("div", { className: a(P, t), ...n, children: s });
+}
+const z = "Control_fcb22b97";
+function M({ children: s, className: t }) {
+  return e.jsx("div", { className: a(z, t), children: s });
+}
+const $ = "Controls_9d09936a";
+const D = {
+    images: { infoIcon: "common.icons.info_light.s24x24" },
+    texts: {
+      guaranteedTitle: "guaranteedTitle.text",
+      guaranteedTitleName: "guaranteedTitle.textName",
+    },
+  },
+  G = "Line_922d96a0",
+  H = "Line_icon_b09df192";
+function Q({ counts: s, category: t, eventName: n, className: c }) {
+  const o = r.resolve("views"),
+    { images: i, texts: x } = u(D, n),
+    _ = l({
+      contentId: o.read((e) => e.mono.lootbox.tooltips.guaranteed_reward_info("resId")),
+      args: { category: t, eventName: n },
+    }),
+    j = m({ size: v.small }, { large: { size: v.large } }),
+    { guaranteed: f } = h(n);
+  return e.jsxs(N, {
+    ..._,
+    className: a(G, c),
+    children: [
+      e.jsx(d, {
+        text: x.guaranteedTitle,
+        upgradeLegacy: !0,
+        params: {
+          count: e.jsx(g, { size: j.size, counts: s, eventName: n }),
+          name: e.jsx(N.Highlight, { highlight: s <= f.accent, text: x.guaranteedTitleName }),
+        },
+      }),
+      e.jsx(N.Info, { className: H, src: i.infoIcon }),
+    ],
+  });
+}
+function S(a) {
+  const { eventName: s } = t.useContext(q);
+  return e.jsx(Q, { ...a, eventName: s });
+}
+const W = {
+    texts: {
+      quantityAvailableTitle: "quantityTitle.boxesAvailable",
+      quantityNoBoxesTitle: "quantityTitle.noBoxes",
+    },
+  },
+  F = "Quantity_count_3dd338ce";
+function K({ boxesCount: a = 0, className: s }) {
+  const { eventName: n } = t.useContext(q),
+    { texts: c } = u(W, n);
+  return e.jsx(E, {
+    className: s,
+    children:
+      a > 0
+        ? e.jsx(d, {
+            text: c.quantityAvailableTitle,
+            params: { boxesCount: e.jsx("span", { className: F, children: a }) },
+            upgradeLegacy: !0,
+          })
+        : c.quantityNoBoxesTitle,
+  });
+}
+const O = "BoxPanel_45fc5818",
+  U = "BoxPanel_guaranteed_d08d90be",
+  J = "BoxPanel_caption_3b168a33",
+  V = "BoxPanel_control_e99a2e5d";
+function X({ eventName: s, children: t, className: n }) {
+  return e.jsx(w, { eventName: s, children: e.jsx("div", { className: a(O, n), children: t }) });
+}
+((X.Controls = function ({ children: s, className: t }) {
+  return e.jsx("div", { className: a($, t), children: s });
+}),
+  (X.Control = ({ className: s, ...t }) => e.jsx(M, { ...t, className: a(V, s) })),
+  (X.Guaranteed = ({ className: s, ...t }) => e.jsx(S, { ...t, className: a(U, s) })),
+  (X.Quantity = ({ className: s, ...t }) => e.jsx(K, { ...t, className: a(J, s) })),
+  (X.Caption = ({ className: s, ...t }) => e.jsx(E, { ...t, className: a(J, s) })));
+export { p as A, X as B, A as L, _ as M, B as R, R as a, L as b, q as c, I as u };

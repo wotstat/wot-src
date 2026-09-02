@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "do punktów wytrzymałości pojazdu"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "do prędkości obrotu wieży lub prędkości obrotu działa dla pojazdów ze stacjonarną kabiną"
+msgstr "do prędkości obrotu działa"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "do prędkości obrotu wieży"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "do punktów wytrzymałości pojazdu"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "do prędkości obrotu wieży lub prędkości obrotu działa dla pojazdów ze stacjonarną kabiną"
+msgstr "do prędkości obrotu działa"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "do prędkości obrotu wieży"
@@ -2100,6 +2100,51 @@ msgstr " i "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Tryb zewnętrznego zasilania amunicją pojazdu pozwala na użycie pocisków o zwiększonych uszkodzeniach."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Podstawowe wartości w trybie standardowym."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Zmienione wartości w trybie zewnętrznego zasilania amunicją."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Podstawowe parametry dla strzałów z pełnym ładunkiem"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametry dla strzałów z pojedynczym ładunkiem"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Podstawowe parametry dla strzałów z pełnym ładunkiem"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Podstawowy"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametry dla strzałów z pojedynczym ładunkiem"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "W trybie skalibrowanym ten typ pocisku jest skuteczny przeciwko pochyłemu pancerzowi."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikację niektórych parametrów pocisku przed wystrzałem."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "W trybie standardowym ten typ pocisku jest skuteczny przeciwko pancerzowi bez ekranów."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Tryb standardowy"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Tryb skalibrowany"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "W trybie skalibrowanym ten typ pocisku może przebijać osłony."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "W trybie standardowym ten typ pocisku jest skuteczny przeciwko pionowemu pancerzowi."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standardowe wyposażenie dla kategorii %(spec)s będzie skuteczniejsze, jeśli zamontujesz je w tym miejscu. Wyposażenie z innych kategorii zapewni tylko standardową premię."

@@ -1009,6 +1009,9 @@ msgstr "Trainen van de bemanning is wegens een serverfout mislukt. Probeer het l
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Fout bij het ontvangen van geschenk: serverfout."
+msgstr "Fout bij het openen van de doos: serverfout."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Fout bij het ontvangen van geschenk. Wacht alsjeblieft tot de vorige handeling is afgerond."
+msgstr "Fout bij het openen van de doos: wacht alsjeblieft tot de vorige handeling is afgerond."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Handeling tijdelijk onbeschikbaar. Probeer het later nog eens."
@@ -2383,30 +2386,6 @@ msgstr "Unieke camouflage voor %(vehicleName)s ontvangen."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unieke camouflage voor %(vehicleName)s is beschikbaar voor alle voertuigen van natie: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Alle operatievoortgang is opgeslagen. Je kunt de campagnes op elk moment hervatten."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "%(campaignName1)s en %(campaignName2)s campagnes gepauzeerd"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Gepauzeerde operaties en hun missies zijn hervat."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "%(campaignName1)s en %(campaignName2)s campagnes hervat"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Alle operatievoortgang is opgeslagen. Je kunt de campagne op elk moment hervatten."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "%(campaignName)s campagne gepauzeerd"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Gepauzeerde operaties zijn hervat."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "%(campaignName)s campagne hervat"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "De %(detailName)s is succesvol gemonteerd."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Fout bij het ontvangen van beloningen. Probeer het later alsjeblieft opnieuw."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "De %(detail_name)s is succesvol gemonteerd."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Fout bij het ontvangen van beloningen. Probeer het later alsjeblieft opnieuw."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "De %(detail_name)s is succesvol gemonteerd."
 
 msgid "personalMissions/reward/regular/server_error"

@@ -826,6 +826,9 @@ msgstr "3D-stílusok"
 msgid "carousel_tank_filter/ready"
 msgstr "Elsődleges"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Felderítő"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Mesterlövész"
 
@@ -834,9 +837,6 @@ msgstr "Támogató"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Sokoldalú"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Kerekes"
 
 msgid "centerIsAvailable"
 msgstr "Összes szerver elérhető."
@@ -4159,6 +4159,9 @@ msgstr "Fejlesztett tártöltő rendszer:\nCsökkenti a lövedékek automata új
 msgid "moduleInfo/autoShootGun"
 msgstr "Folyamatos tüzelési rendszerű löveg"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ez a jármű a lövegpajzsba szerelt rakétavetővel van felszerelve. Aktiváld a képességet, hogy átválthass a másodlagos fegyver irányzékára, majd a tűzgombbal lőj ki egy irányítatlan R.RO-rakétát."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Bezárás"
 
@@ -4312,6 +4315,9 @@ msgstr "Újratöltődés"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "a fő képzettségekhez és a legénységi készségekhez"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kritikus találat esélye"
+
 msgid "moduleInfo/params/damage"
 msgstr "Sebzés"
 
@@ -4342,11 +4348,29 @@ msgstr "Tűz valószínűsége becsapódáskor"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Repülési idő"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Mindig sebzést okoz, ha a fő páncélzatot találja el."
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* ebből a lövegből kilőtt lövedék maximális lőtávja"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " nem függ a távolságtól ennél a lőszertípusnál"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maximális lőtáv – 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " ez a lőszertípus az első rétegen való áthatolás után a távolság növekedésével elkezd veszíteni az átütőerejéből."
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " a távolságtól függően: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " ez a lőszertípus a szokásos módon hatol át a rétegeken, de utána a réteg vastagságának háromszorosával megegyező átütést veszít."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Végsebesség"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Mindig sebzést okoz, ha a fő páncélzatot találat éri."
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Tömeg"
@@ -4378,20 +4402,11 @@ msgstr "Életerő"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Tüzelési távolság"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* ebből a lövegből kilőtt lövedék maximális lőtávja"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maximális kerék elfordulási szög"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Átlagsebzés %(dist)s méteres távolságból"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " nem függ a távolságtól ennél a lőszertípusnál"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maximális lőtáv—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalizációs szög"
@@ -4399,14 +4414,8 @@ msgstr "Normalizációs szög"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Átütésvesztés"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " ez a lőszertípus az első rétegen való áthatolás után a távolság növekedésével elkezd veszíteni az átütőerejéből."
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " a távolságtól függően: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Átlag átütőerő (mm)—Távolság"
@@ -4456,9 +4465,6 @@ msgstr "Forgási sebesség"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Rétegelt páncélzat szorzó"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " ez a lőszertípus a szokásos módon hatol át a rétegen, de utána a réteg vastagságának háromszorosával megegyező átütést veszít."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "%(multiplier)sx"
 
@@ -4506,6 +4512,9 @@ msgstr "Indukciós hajtóanyag-utánégető, amely növeli az átlagos sebzést"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Sugárhajtóművek növelik a jármű mobilitását"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "A jármű fegyvere speciális megoldásokkal rendelkezik, amelyek lehetővé teszik bizonyos lőszertulajdonságok módosítását a lövés előtt."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Szilárd üzemanyaggal működő hajtóművek, amelyek növelik a gyorsulást, a mobilitást és a manőverezhetőséget"
@@ -5284,11 +5293,14 @@ msgstr "Járművek tökéletes lövegekkel, amelyeknek hatékony használata csa
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Többcélú tankok, amik könnyedén alkalmazkodnak bármilyen harci helyzethez."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Gyors és manőverezhető járművek, amelyek képesek felderíteni és megkerülő manőverekben sebzést kiosztani."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "A felderítő könnyű harckocsik kicsi, mozgékony járművek, amelyeket az ellenség felderítésére terveztek. Alacsony felépítésük és kiváló álcázásuk, valamint remek manőverezhetőségük és nagy végsebességük révén egyaránt alkalmasak passzív és aktív felderítésre, azonban gyenge páncélzatuk és alacsony tűzerejük miatt nem tudnak érdemi tűztámogatást nyújtani a csapattársaknak."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Járművek kiemelkedő dinamikai karakterisztikával, aminek hatékony kihasználása a pályától és a taktikai helyzettől függ."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "A támogató könnyű harckocsik magas szintű mobilitásukat, kiváló manőverezhetőségüket és erős lövegeiket kihasználva gyorsan tudnak váltani az oldalszárnyak között, jelentős sebzést kiosztva, mielőtt biztonságos helyre visszavonulnának. Bár bizonyos helyzetekben felderítésre is alkalmasak, nagy méretük és gyenge álcázásuk miatt kevésbé hatékony felderítők, mint más könnyű harckocsik."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "A sokoldalú könnyű harckocsik olyan sokoldalú járművek, amelyek képesek mind a felderítésre, mind pedig a csapattársak tűztámogatására. Bár felderítési feladatokban kevésbé hatékonyak, mint a felderítő harckocsik, és tűzerejük is kisebb, mint a támogató könnyű harckocsiké, a sokoldalú harckocsik kiegyensúlyozott tulajdonságai lehetővé teszik számukra, hogy mindkét szerepet hatékonyan betöltsék, és könnyedén alkalmazkodjanak a legkülönbözőbb harci helyzetekhez."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Járművek elfogadható páncélzattal, amitől közelharcban és az ellenfél nehéz tankjai ellen a leghatékonyabbak."
@@ -5329,11 +5341,14 @@ msgstr "Támogató nehéz tank"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Sokoldalú nehéz tank"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Felderítő könnyű harckocsi"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Támogató könnyű harckocsi"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Sokoldalú könnyű tank"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Kerekes könnyű tank"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Roham közepes tank"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Újratöltés"
 msgid "tank_params/autoShootClipSec"
 msgstr "(tár/mennyiség)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Gyorsított lőszerbetöltés"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Töltetvisszatöltés teljes tárral"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Alap töltetvisszatöltés"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Töltetek a csata kezdetén"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Töltetek"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Átlagsebzés (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Szórás 100 méteren (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Átlagos páncélátütés (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Visszatöltési idő (mp)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Rakéta lövedéksebesség (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Átlag sebzés"
 
@@ -6057,6 +6105,21 @@ msgstr "Lőszertároló"
 
 msgid "tank_params/burstSec"
 msgstr "(mp/darab/darab)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Átlagsebzés (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Végsebesség (KLA-mód) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Tűzgyorsaság (lövés/perc)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "KLA-mód aktiválása (mp)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "KLA-mód deaktiválása (mp)"
 
 msgid "tank_params/chargeTime"
 msgstr "Sorozattűz előkészítése"
@@ -6150,6 +6213,12 @@ msgstr "Motorteljesítmény (LE) (turbó mód)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Sebzési sugár"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Végsebesség (KLA-mód) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "KLA-mód aktiválása (mp)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "A löveg lehűlési ideje tüzelés után"
@@ -6325,9 +6394,6 @@ msgstr "Terepakadály leküzdés"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Képfedéses elektromechanikus célkereszt töltése (%/mp) (harci mód, passzív)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(aktiválásonként)"
 
@@ -6484,8 +6550,20 @@ msgstr "A kiegészítő fegyverzet töltése"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "A kiegészítő fegyverzet lövedékei"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Korrigált lövedék átlagsebzés (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Korrigált lövedék átlagos páncélátütés (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Lőszerheveder betöltése"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Módváltáshoz szükséges idő"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Átütés:"
@@ -6495,6 +6573,36 @@ msgstr "Szórás 100 méteren"
 
 msgid "tank_params/shotSpeed"
 msgstr "Lövedék sebessége"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Ellenség álcázása növényzet mögött (álló és mozgó)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Mozgó ellenség álcázása"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Kezdeti visszatöltés"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Időtartam"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Visszatöltés"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Torony forgási sebessége"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Végső szkennelési szélesség"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Kezdeti szkennelési szélesség"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Felderítettség időtartama"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Látótávolság"
 
 msgid "tank_params/speedLimits"
 msgstr "Maximális sebesség/Tolatási sebesség"

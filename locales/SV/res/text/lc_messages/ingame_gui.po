@@ -700,6 +700,9 @@ msgstr "Zon erövrad"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Skada från brandområde"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Åsamkad skada"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Vagnen reparerad"
 
@@ -741,6 +744,9 @@ msgstr "Skada från granat"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Skada av eldboll"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Skada från granat"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Skada från ramning"
@@ -907,6 +913,9 @@ msgstr "Inget genomslag av bandet"
 msgid "hitMarker/wheelBlocked"
 msgstr "Inget genomslag av hjulet"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "HÖGSTA MÖJLIGA VAGNSKLASS"
 
@@ -1020,6 +1029,21 @@ msgstr "Inga reparationer nödvändiga: alla moduler är intakta."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] är fullt driftsduglig. Inga reparationer behövs."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Ej tillgänglig: Magasinet fullt."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Ej tillgänglig: Inga granater återstår."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Ej tillgänglig: Inga laddningar återstår."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Ej tillgänglig: Omladdningen nästan klar."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Raketavfyrning ej tillgänglig"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Kan inte aktivera koaxialvapen."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Spränggranat (HE) %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Pansarspränggranat (HEAT) %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kritisk träffchans: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Minskad"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Ökad"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Genomsnittlig skada: %(value)s TP"
 
@@ -2710,17 +2746,41 @@ msgstr "Skada per sekund: %(value)s TP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Verkansområde: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Enkel- / Full laddning"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Grund / Ändrad:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Enkel- / Full laddning:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standard / Inställd:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standard / Kalibrerad:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normaliseringsvinkel: %(value)s°"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Genomslagsminskning: %(value)s per 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Genomsnittligt pansargenomslag: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Rikoschettvinkel: %(value)s°"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Utgångshastighet: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Chocktid: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "för att aktivera extern ammunitionskassett"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "för att växla till anfallsläge"
@@ -2745,6 +2805,9 @@ msgstr "för att aktivera Raketmotor (flytande bränsle)"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "för att aktivera raketmotor"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "för att växla eldläge"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "för att aktivera sekventiell raketmotor"

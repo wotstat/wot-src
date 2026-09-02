@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Bekræftet!"
 
 msgid "error/description"
-msgstr "Informationen er midlertidigt utilgængelig. Vi beklager ulejligheden. Prøv igen senere."
+msgstr "Vi beklager ulejligheden. Prøv igen senere."
 
 msgid "error/title"
-msgstr "Kan ikke åbne valg af belønning"
+msgstr "Denne side er midlertidigt utilgængelig"
 
 msgid "footer/closeBtn/label"
 msgstr "Vælg senere"
@@ -23,7 +23,7 @@ msgstr[1] "Vælg belønninger fra de angivne kategorier."
 msgstr[2] "Vælg belønninger fra de angivne kategorier."
 
 msgid "footer/okBtn/label"
-msgstr "Modtag"
+msgstr "Modtag belønninger"
 
 msgid "footer/rewardsSelected"
 msgstr "Belønninger modtaget:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Allerede modtaget"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Grænsen på valgte ting fra denne kategori er nået. Du kan afbryde valget af én ting for at tilføje en anden."
+msgstr "Du har nået det maksimale antal tilladte ting i denne kategori. Fravælg en ting og vælg en anden."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Grænse nået"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direktiver\nfor udstyr"
@@ -93,6 +93,9 @@ msgstr "Standard udstyr"
 
 msgid "tabs/items/trophy"
 msgstr "Erobret udstyr"
+
+msgid "tooltips/footer/body"
+msgstr "Vælg belønninger for at modtage dem"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Klik på Modtag-knappen for at modtage de valgte belønninger."

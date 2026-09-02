@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Kada su otvorene, ove kutije ti mogu dati vozila, valute iz igre i druge vredne nagrade."
+msgstr "Prilikom otvaranja, ove kutije mogu da ti daju premijum vozila VIII nivoa, valute iz igre i druge vredne nagrade."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Kada su otvorena, ove kutije ti mogu dati vozila, valute iz igre, elemente prilagođavanja i druge vredne nagrade."
+msgstr "Prilikom otvaranja, ove kutije mogu da ti daju premijum vozila X nivoa, valute iz igre i druge vredne nagrade."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Kada su otvorena, ove kutije ti mogu dati vozila, valute iz igre, elemente prilagođavanja i druge vredne nagrade."
+msgstr "Prilikom otvaranja, ove kutije mogu da ti daju premijum vozila IX nivoa, valute iz igre i druge vredne nagrade."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Može se nabaviti u prodavnici u igri i dobiti prilikom otvaranja kutija bilo koje druge vrste."
+msgstr "Može biti primljeno kao poklon za kupovinu stvari u premijum prodavnici kao i dobijene prilikom otvaranja kutija bilo koje druge vrste."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Može biti primljen prilikom otvaranja kutija bilo koje druge vrste."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Može biti primljen prilikom otvaranja kutija bilo koje druge vrste."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Nagradna kutija plena"
+msgstr "NEBESKA KUTIJA PLENA"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Blagodarna kutija plena"
+msgstr "IZABRANA KUTIJA PLENA"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Darežljiva kutija plena"
+msgstr "Rajska pomoć kutija plena"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "NAGRADNA KUTIJA PLENA"
+msgstr "NEBESKA KUTIJA PLENA"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "BLAGODARNA KUTIJA PLENA"
+msgstr "IZABRANA KUTIJA PLENA"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "DAREŽLJIVA KUTIJA PLENA"
+msgstr "RAJSKA POMOĆ KUTIJA PLENA"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Ove specijalne kutije sadrže nove i jedinstvene stvari., Mogu se nabaviti u prodavnici u igri."
+msgstr "Ove specijalne kutije sadrže nova i jedinstvena vozila VIII-X nivoa i druge nagrade.\nMožeš da ih dobiješ kao poklon za kupovinu stvari u premijum prodavnici kao i da ih dobiješ otvarajući kutije bilo koje druge vrste."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Događaj se završava za"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Kutije trenutno ne mogu biti otvorene zbog tehničkih razloga. Izvinjavamo se zbog neprijatnosti."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kutije božanskog blagoslova su trenutno nedostupne"
 
 msgid "eventName/lowerCase"
-msgstr "Riznica šapata"
+msgstr "Božanski blagoslov"
 
 msgid "eventName/upperCase"
-msgstr "RIZNICA ŠAPATA"
+msgstr "BOŽANSKI BLAGOSLOV"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Ako već imaš sva vozila, dobićeš blagodarnu kutiju plena umesto njih."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvoriš sve kutije pre završetka događaja, biće otvorene automatski kasnije."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Ako već poseduješ sva vozila iz kutija, dobićeš blagodarnu kutiju plena kao nagradu umesto vozila."
+msgstr "Ako već poseduješ sva vozila iz kutije, dobićeš izabranu kutiju kao zagarantovanu nagradu umesto vozila."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Svaka %(guaranteed0)s nagradna, %(guaranteed1)s blagodarna i %(guaranteed2)s darežljiva kutija plena garantovano sadrže vozilo. Ako ih otvoriš bez dobijenog vozila, onda će vozilo koje ne poseduješ ispasti kada otvoriš %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. kutiju (u zavisnosti od tipa kutije). Kada se to dogodi, brojač se poništava."
+msgstr "Svaka %(guaranteed0)s nebeska, %(guaranteed1)s rajska pomoć i %(guaranteed2)s izabrana kutija garantovano sadrže vozilo VIII-X nivoa. Ako ih otvoriš bez dobijenog vozila, onda će vozilo VIII-X nivoa koje ne poseduješ ispasti kada otvoriš %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. kutiju (u zavisnosti od tipa kutije). Kada se to dogodi, brojač se poništava."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompenzacija"
+msgstr "Ako su sva vozila primljena"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantovana nagrada"
+msgid "infoPage/header/description"
+msgstr "Otvorikutije za šansu da dobiješ vredne stvari iz igre!\nPogledaj ispod za listu mogućih nagrada."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Moguć je drop samo jedne nagrade po grupi"
+msgid "noBoxesView/description/"
+msgstr "Nemaš ni jednu kutiju.\nMožeš da ih nabaviš u premijum prodavnici."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Izabrana kutija"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ako već poseduješ sva vozila iz kutije, dobićeš izabranu kutiju kao zagarantovanu nagradu umesto vozila."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Nebeska kutija"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Izabrana kutija"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Rajska pomoć kutija"

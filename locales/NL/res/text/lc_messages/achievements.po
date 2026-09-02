@@ -139,15 +139,6 @@ msgstr "Uitgereikt aan spelers voor hun onschatbare bijdrage aan de evolutie van
 msgid "15YearsOfService_descr"
 msgstr "Je speelt het spel sinds %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "VP-reserve onderscheiding 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Uitgereikt voor het voltooien van de progressie."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Uitgereikt voor je prestaties in het spel"
-
 msgid "BPReserveAchievement_2"
 msgstr "VP-reserve onderscheiding 2"
 
@@ -429,6 +420,15 @@ msgstr "• Uitgereikt voor het voltooien van alle drie de hoofdstukken."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Uitgereikt voor je prestaties tijdens Vechtpas seizoen XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Laaglandschermutseling"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Uitgereikt voor het voltooien van alle drie de hoofdstukken."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Uitgereikt voor je prestaties tijdens Vechtpas seizoen XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• De hoofdprogressie bestaat uit 45 stadia."
@@ -1828,6 +1828,48 @@ msgstr "Zilveren draak"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Uitgereikt voor het verzamelen van minstens 9 Bestormingkleuren in het Jaar van de Draak in Bestorming."
 
+msgid "comp7_6_1"
+msgstr "Azuurblauwe vonk"
+
+msgid "comp7_6_1_descr"
+msgstr "Uitgereikt voor het voltooien van een reeks missies in 'Seizoen van de Azuurblauwe Feniks' van Bestorming."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzen Feniks"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 6 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Jaar van de Feniks Kampioen"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 15 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Gouden Feniks"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 12 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
+msgid "comp7_6_yearly_iron"
+msgstr "IJzeren Feniks"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 3 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Jaar van de Feniks Legende"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 18 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Zilveren Feniks"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Uitgereikt voor het verzamelen van minstens 9 Bestormingkleuren in het Jaar van de Feniks in Bestorming."
+
 msgid "conqueror"
 msgstr "Overwinnaar %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Alleen beschikbaar in Willekeurige gevechten."
 
 msgid "huntsman_descr"
-msgstr "Vernietig alle vijandelijke lichte tanks (minstens 3) tijdens één gevecht."
+msgstr "Vernietig alle vijandelijke lichte tanks (minstens 2) tijdens één gevecht."
 
 msgid "huntsman_heroInfo"
 msgstr "Sergeant Grigoriy Naydin was een BT-7 commandant. Op 25 juni 1941, nabij het Litouwse dorp Rudishkyay, vernietigde hij een Wehrmacht pantsercolonne, waaronder 15 voertuigen en 10 kanonnen van het 19e gemechaniseerde Korps. Naydin wist de Duitse opmars twee dagen tegen te houden, waardoor het mogelijk werd om de verdediging van Vilnius te organiseren. Voor deze actie werd Naydin Held van de Sovjet-Unie."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Voltooi met eer 15 persoonlijke missies voor de Unie. Beloning: Voorbeeldige prestatie: Uniemedaille, 3e klasse."
 
 msgid "readyForBattleAssault"
-msgstr "Voorbeeldige prestatie: Voorhoede"
+msgstr "Voorbeeldige prestatie: Sector 3 Voorhoede"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Voor het voltooien van alle Voorhoede-missies in de Sector 3 campagne."
+msgstr "Voor het voltooien van alle Voorhoede-missies in de kernoperaties van de Sector 3 campagne."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Voorbeeldige prestatie: Fossa Voorhoede"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Voor het voltooien van alle Voorhoede-missies in de Fossa operatie van de Sector 3 campagne."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Voorbeeldige prestatie: Fossa Hinderlaag"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Voor het voltooien van alle Hinderlaag-missies in de Fossa operatie van de Sector 3 campagne."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Voorbeeldige prestatie: Fossa Assistentie"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Voor het voltooien van alle Assistentie-missies in de Fossa operatie van de Sector 3 campagne."
 
 msgid "readyForBattleHT"
 msgstr "Voorbeeldige prestatie: Zware tanks"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Voltooi met eer 15 persoonlijke missies voor artillerie. Beloning: Voorbeeldige prestatie: Artillerie medaille, IV klasse."
 
 msgid "readyForBattleSniper"
-msgstr "Voorbeeldige prestatie: Hinderlaag"
+msgstr "Voorbeeldige prestatie: Sector 3 Hinderlaag"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Voor het voltooien van alle Hinderlaag-missies in de Sector 3 campagne."
+msgstr "Voor het voltooien van alle Hinderlaag-missies in de kernoperaties van de Sector 3 campagne."
 
 msgid "readyForBattleSupport"
-msgstr "Voorbeeldige prestatie: Assistentie"
+msgstr "Voorbeeldige prestatie: Sector 3 Assistentie"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Voor het voltooien van alle Assistentie-missies in de Sector 3 campagne."
+msgstr "Voor het voltooien van alle Assistentie-missies in de kernoperaties van de Sector 3 campagne."
 
 msgid "reliableComrade"
 msgstr "Strijdmakker"
@@ -4692,6 +4761,15 @@ msgstr "Uitgereikt voor het voltooien van de progressie in Waffenträger: Parado
 
 msgid "wt2025progression_descr"
 msgstr "Voltooi de Waffenträger-progressie."
+
+msgid "wt2026progression"
+msgstr "Stormruiter"
+
+msgid "wt2026progression_condition"
+msgstr "Uitgereikt voor het voltooien van de progressie in Waffenträger: Genesis 2026. Deze onderscheiding wordt gegeven aan degenen die zich hebben verzet tegen de eerste denkende machine, Elektrische Intelligentie, en voorkwamen dat die onze wereld bereikte."
+
+msgid "wt2026progression_descr"
+msgstr "Voltooi de progressie in Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Meester der bliksem"

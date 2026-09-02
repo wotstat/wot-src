@@ -34,6 +34,9 @@ msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nac
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Steigert die Motorleistung und Höchstgeschwindigkeit für schnelle Bewegung über das Schlachtfeld. Bei Aktivierung reduzieren die Jet-Booster die Manövrierfähigkeit, sie können nicht manuell ausgeschaltet werden."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können. Die Werte der unterschiedlichen Granaten unterscheiden sich je nach gewählten Modus. Über diese Modi können Sie sich schnell an unterschiedliche Gefechtssituationen anpassen."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Bei Aktivierung steigert und/oder ändert dieser besondere Modus bestimmte Gefechtswerte. Wird am besten aktiviert, wenn sich das Fahrzeug in Position befindet und bereit ist, den Gegner anzugreifen."
 
@@ -82,6 +85,9 @@ msgstr "Maschinenkanone mit Temperaturkontrolle gegen Überhitzen"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Jet-Booster"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Munitionskalibrierungssystem"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Feuermodus"
 
@@ -100,8 +106,17 @@ msgstr "Salvenfeuermodus"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Wenn Sie stehenbleiben oder sich nur langsam bewegen, steigt die Genauigkeitsstufe für den nächsten Schuss an.\nAuf höchster Stufe ist die Geschützhandhabung optimiert und die Streuung minimiert, selbst bei Bewegung oder Turm-/Wannendrehung."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Über diesen Mechanismus wird die Nachladezeit der Granate auf eine kurze, festgelegte Zeit reduziert. Jeder Einsatz verbraucht eine Ladung pro Granate, diese Ladungen werden mit der Zeit wieder aufgefüllt. Das Auffüllen geschieht schneller, wenn das Magazin voll ist. Zu Beginn des Gefechts ist eine festgelegte Anzahl Ladungen verfügbar."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Das Fahrzeug ist mit einem Raketenwerfer ausgestattet, der in der Kanonenblende befestigt ist. Aktivieren Sie die Fähigkeit, um zur Zielerfassung der Sekundärbewaffnung zu gelangen, und feuern Sie ungelenkte HE-Raketen mit der Taste zum Feuern ab."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer.\nWenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Das Modul der externen Munitionszufuhr erlaubt es diesem Fahrzeug, leistungsfähige Hochladungs-Einheitsmunition mit gesteigertem Schaden abzufeuern. Solange das Modul aktiv ist, sind die Beweglichkeit und Feuerrate reduziert."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss für höheren Schaden überhitzen – je höher die Hitzestufe, desto größer der Effekt.\nAuf höchster Stufe bleiben einige Sekunden, um den Schuss abzufeuern, ansonsten ist Feuern vorübergehend unmöglich."
@@ -142,6 +157,15 @@ msgstr "Dieses System baut über Zeit eine Ladung auf, wobei eine größere Ladu
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Wenn Sie den Flüssigkeitsbooster aktivieren, verleiht er Ihnen einen Geschwindigkeitsschub. Der Booster erhitzt sich und muss erst abkühlen, ehe er erneut verwendet werden kann. Wenn die kritische Hitzestufe überschritten wird, schaltet er sich vorübergehend komplett ab."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Wenn Sie ein sichtbares gegnerisches Fahrzeug mit einer Granate treffen, wird die Zünderprogrammierung für die nächste Granate angepasst. Wenn der erste Schuss die gegnerische Panzerung durchschlagen hat, wird der Schaden des nächsten Schusses erhöht. Wenn kein Durchschlag erfolgte, wird die Durchschlagskraft des nächsten Schusses erhöht."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können. Die Werte der unterschiedlichen Granaten unterscheiden sich je nach gewählten Modus. Über diese Modi können Sie sich schnell an unterschiedliche Gefechtssituationen anpassen."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Bei Aktivierung beginnt das Gerät einen Suchvorgang vor dem Fahrzeug und enthüllt damit getarnte Ziele. Nach Einsatz braucht das Gerät eine Abklingzeit. Wenn das System ein noch nicht aufgeklärtes gegnerisches Fahrzeug entdeckt, wird auch das eigene Fahrzeug damit für eine bestimmte Zeit aufgedeckt. Sie können den Suchvorgang nach einer kurzen Verzögerung manuell unterbrechen."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Die linken und rechten Düsen können unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken."
 
@@ -166,8 +190,17 @@ msgstr "Diese mechanische Modifikation steigert kurzzeitig die Beschleunigung, M
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analoge Ballistikberechnung"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Erzwungener Lademechanismus"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaxialer Raketenwerfer"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Halbautomatisches Munitionslager"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Modus der externen Munitionszufuhr"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Thermoballistische Überladung"
@@ -208,6 +241,15 @@ msgstr "Induktionstreibstoff-Nachbrenner"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Flüssigkeitsbooster"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Anpassbare Zünderprogrammierung"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Munitionskalibrierungssystem"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrarotzielsystem"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "In Reihe geschaltete Schubdüsen"
 
@@ -232,8 +274,17 @@ msgstr "Hochdruck-Turbolader-Zusatzeinheit"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Steigert die Genauigkeit des nächsten Schusses, hin zu sehr guter Stabilisierung bei vollständiger Kalibrierung."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Die Nachladezeit wird direkt auf eine kurze, festgelegte Zeit reduziert."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Feuern Sie eine ungelenkte HE-Rakete von einem koaxialen Raketenwerfer ab, der unabhängig von dem Hauptgeschütz funktioniert."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Jeder Treffer gegen ein gegnerisches Fahrzeug steigert für begrenzte Zeit die Nachladegeschwindigkeit."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Feuern Sie Granaten mit höherem Schaden auf Kosten der Beweglichkeit und Abklingzeit."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Baut Hitzestufen auf, um mit dem nächsten Schuss mehr Schaden gegen ein gegnerisches Fahrzeug zu verursachen."
@@ -274,6 +325,15 @@ msgstr "Dieses System lädt sich auf, um den Schaden zu erhöhen. Je höher die 
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Verleiht einen starken Geschwindigkeitsschub durch Booster, die zu beliebiger Zeit aktiviert werden können."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Wenn Sie ein sichtbares gegnerisches Fahrzeug treffen, wird der Schaden oder die Durchschlagskraft der nächsten Granate erhöht."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Das Geschütz besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Erhöht die Sichtweite und entdeckt bewegte und von Laubwerk verdeckte Fahrzeuge in einem schmalen Bereich."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Feststoff-Schubdüsen, die Beschleunigung, Beweglichkeit und Manövrierfähigkeit verbessern."
 
@@ -298,8 +358,14 @@ msgstr "Eine besondere Mechanik die kurzzeitig Motorleistung, Beschleunigung und
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Wenn Sie stehenbleiben oder sich unterhalb einer bestimmten Geschwindigkeit bewegen, kann Ihr Fahrzeug die analoge Ballistikberechnung kalibrieren und die Genauigkeitsstufe für den nächsten Schuss steigern. Wenn Sie die Geschwindigkeitsgrenze überschreiten, wird die Kalibrierung angehalten, bis Sie wieder langsamer werden. Wenn die Kalibrierung die höchste Stufe erreicht, erhält Ihr Fahrzeug gute Geschützstabilisierung und die Streuung bei Turm-/Wannendrehung ist verringert. Der Effekt wird durch das Feuern entfernt."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Das Fahrzeug ist mit einem Raketenwerfer ausgestattet, der in der Kanonenblende befestigt ist. Aktivieren Sie die Fähigkeit, um zur Zielerfassung der Sekundärbewaffnung zu gelangen, und feuern Sie ungelenkte HE-Raketen mit der Taste zum Feuern ab."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer. Wenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Das Modul der externen Munitionszufuhr erlaubt es diesem Fahrzeug, leistungsfähige Hochladungs-Einheitsmunition mit gesteigertem Schaden abzufeuern. Solange das Modul aktiv ist, sind die Beweglichkeit und Feuerrate reduziert."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss überhitzen. Je höher die Hitzestufe, desto größer wird der Bonus auf den mittleren Schaden. Während der Schuss überhitzt wird, können Sie die Granate nicht wechseln. Auf höchster Stufe der Erhitzung beginnt ein Countdown. Sie müssen vor Ablauf den Schuss abfeuern, ansonsten können Sie mehrere Sekunden lang nicht Feuern."
@@ -340,6 +406,15 @@ msgstr "Dieses System baut automatisch über Zeit eine Ladung auf, die beim Feue
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Der Flüssigkeitsbooster verleiht einen Schub für die Motorleistung, mit der Sie sich einen Positionsvorteil auf dem Schlachtfeld sichern können, allerdings auf Kosten von Rückwärts- und Wendegeschwindigkeit. Der Booster kann jederzeit ein- oder ausgeschaltet werden, solange das Reaktivierungslimit noch nicht erreicht ist. Er erhitzt sich während des Einsatzes und kann während des Abkühlens nicht genutzt werden, ein Dauerbetrieb ist also nicht möglich. Wenn die kritische Hitzestufe überschritten wird, schaltet er sich vorübergehend komplett ab. Planen Sie den Einsatz sorgfältig im Voraus, damit Sie nicht überrascht werden."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Wenn Sie ein sichtbares gegnerisches Fahrzeug mit einer Granate treffen, wird die Zünderprogrammierung für die nächste Granate angepasst. Wenn der erste Schuss die gegnerische Panzerung durchschlagen hat, wird der Schaden des nächsten Schusses erhöht. Wenn kein Durchschlag erfolgte, wird die Durchschlagskraft des nächsten Schusses erhöht."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Das Geschütz des Fahrzeugs besitzt besondere Vorrichtungen, mit denen die Eigenschaften der Granate vor dem Abfeuern modifiziert werden können. Die Munitionsladung zeigt an, welche Werte durch den Wechsel des Feuermodus beeinflusst werden."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Ein fortschrittliches Zielsystem, das die Sichtweite steigert und die Erkennung von bewegten und von Laubwerk verdeckten Fahrzeugen erhöht. Bei Aktivierung untersucht das System einen schmalen Bereich vor dem Fahrzeug und enthüllt getarnte Fahrzeuge. Nach Einsatz braucht das Gerät eine Abklingzeit. Wenn das System ein noch nicht aufgeklärtes gegnerisches Fahrzeug entdeckt, wird auch das eigene Fahrzeug damit für eine bestimmte Zeit aufgedeckt. Sie können den Suchvorgang nach einer kurzen Verzögerung manuell unterbrechen."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Anders als bei gewöhnlichen Jet-Boostern können die linken und rechten Düsen unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken. Die Schubdüsen können mehrmals pro Gefecht eingesetzt werden, haben aber nach jedem Einsatz eine Abklingzeit vor der nächsten Verwendung."
 
@@ -363,6 +438,18 @@ msgstr "Diese mechanische Modifikation steigert kurzzeitig die Beschleunigung, M
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Alle angezeigten Werte entsprechen dem Maximum für das Fahrzeug. Zubehör, Direktiven und Verbrauchsmaterial können diese Werte verändern, diese Änderungen werden hier jedoch nicht mit einbezogen."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "Kalibrierte AP-Granate"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "Kalibrierte APCR-Granate"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "Kalibrierte HE-Granate"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "Kalibrierte HEAT-Granate"
 
 msgid "characteristics/templates/upTo"
 msgstr "Bis zu %(value)%s"

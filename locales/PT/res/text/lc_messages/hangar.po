@@ -136,6 +136,24 @@ msgstr[0] "{{count}} vitória"
 msgstr[1] "{{count}} vitórias"
 msgstr[2] "{{count}} vitórias"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponível por {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Experiência de Batalha"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Para celebrar o seu regresso à ação, temos algo especial para si: {{@ style (color #ede6d9e6)}}o Bónus de Reintegração diário{{/}} aumenta a EXP de Combate ganha pela sua primeira vitória do dia em cada veículo."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Bem-vindo de volta, Comandante!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "O bónus é reiniciado diariamente às {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bónus de Reintegração: Disponível"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Clique para aceder às suas listas de veículos"
 

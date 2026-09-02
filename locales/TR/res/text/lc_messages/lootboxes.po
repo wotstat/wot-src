@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Tüm Şenlik Operasyonları kutularınızı açtık."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Tebrikler!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Büyük Kutuları Premium Dükkândan satın alabilirsiniz"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Büyük Kutular"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Küçük Kutu"
-
-msgid "entryDesc/questSlot"
-msgstr "Görevlerin tamamlanması karşılığında Küçük Kutular alırsınız."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Bu özellik geçici olarak devre dışıdır. Lütfen daha sonra tekrar deneyin."
 
 msgid "entryPoint/header"
-msgstr "Kutular"
-
-msgid "entryTooltip/body/h1"
-msgstr "Büyük Kutular Satın Alın:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Küçük Kutular Kazanın:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Premium Dükkândan kendiniz ve arkadaşlarınız için Yeni Yıl dekorasyonları içeren kutular satın alın."
-
-msgid "entryTooltip/body/p2"
-msgstr "Şenlik Operasyonları görevlerini tamamlama karşılığında verilir."
-
-msgid "entryTooltip/header"
 msgstr "Kutular"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} tane daha kutu"
 msgid "entryView/buyLabel"
 msgstr "KUTU SATIN AL"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Depoda hiç Büyük Kutunuz yok.\nDaha fazlasını Premium Dükkân'dan satın alın."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Hiç Küçük Kutunuz yok.\nDaha fazlasını savaşlarda kazanın."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Şenlik Operasyonları {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Anlaşıldı!"
@@ -178,9 +139,6 @@ msgstr "İkmal Kutuları Açımı"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Eklendi"
 
-msgid "notification/ny19man"
-msgstr "Özgün bir mürettebat üyesi: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Şu ödülleri aldınız:"
 
@@ -244,36 +202,6 @@ msgstr "Özgün Stil:"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Garajda Göster"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Noel Kutuları"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Büyü Kutuları"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Yeni Yıl Kutuları"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Ay Kutuları"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Noel Koleksiyonu"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Büyü Koleksiyonu"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Yeni Yıl Koleksiyonu"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Ay Koleksiyonu"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Kutular {category} kategorisinden dekorasyonlar ve başka değerli ödüller içerir."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Ödüller:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Premium Dükkân'dan ek kutular satın alın."
 
@@ -285,12 +213,6 @@ msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
 
 msgid "type/event_premium"
 msgstr "Şafak İkmal Kutusu"
-
-msgid "type/newYear_premium"
-msgstr "BÜYÜK KUTULAR"
-
-msgid "type/newYear_usual"
-msgstr "KÜÇÜK KUTULAR"
 
 msgid "type/wt_boss"
 msgstr "Mühendis Ateşleyicisi"

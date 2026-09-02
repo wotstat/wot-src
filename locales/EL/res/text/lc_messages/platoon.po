@@ -130,6 +130,9 @@ msgstr "Μπορείτε να δημιουργήσετε έναν Ουλαμό �
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Μετά τα Προκριματικά, οι Ουλαμοί 2 ή 7 παικτών θα γίνουν διαθέσιμοι."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Μόλις ολοκληρωθούν τα Προκριματικά, θα γίνουν διαθέσιμοι οι Ουλαμοί 2-παικτών."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Αδύνατη η δημιουργία Ουλαμού."
 
@@ -141,6 +144,9 @@ msgstr "Μπορείτε να δημιουργήσετε έναν Ουλαμό �
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Ουλαμός"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Μπορείτε να δημιουργήσετε έναν Ουλαμό ή να ενταχθείτε σε έναν υπάρχοντα. Στις Μάχες Επέλασης, οι Ουλαμοί συγκροτούνται από μόνο 2 παίκτες."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Δημιουργήστε επιχειρησιακή μονάδα από 2 ή 3 παίκτες για συνεργασία στη μάχη.\n• Είδος Μάχης: Εφόρμηση.\n • Τύποι Μάχης: Καταδίωξη, Κυριαρχία."
@@ -264,12 +270,6 @@ msgstr "Ο Ουλαμός περιέχει τον μέγιστο αριθμό β
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Ο Ουλαμός περιέχει τον μέγιστο αριθμό μέσων αρμάτων μάχης"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Ο Ουλαμός περιέχει τον μέγιστο αριθμό ελαφρών αρμάτων μάχης"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Ο Ουλαμός περιέχει τον μέγιστο αριθμό τροχήλατων αρμάτων"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Ο Ουλαμός περιέχει τον μέγιστο αριθμό ελαφρών αρμάτων μάχης"

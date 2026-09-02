@@ -700,6 +700,9 @@ msgstr "Zóna obsazena"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Poškození ze zóny požáru"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Způsobené poškození"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Vozidlo opraveno"
 
@@ -741,6 +744,9 @@ msgstr "Poškození výstřelem"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Poškození Ohnivou koulí"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Poškození výstřelem"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Poškození nárazem"
@@ -907,6 +913,9 @@ msgstr "Pás nebyl prostřelen"
 msgid "hitMarker/wheelBlocked"
 msgstr "Kolo nebylo prostřeleno"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s – %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAXIMÁLNÍ ÚROVEŇ VOZIDLA"
 
@@ -1020,6 +1029,21 @@ msgstr "Opravy nejsou třeba: všechny komponenty fungují."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] netřeba opravovat, je plně funkční."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Nedostupné: zásobník je plný."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Nedostupné: nezbývají žádné granáty."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Nedostupné: nezbývají žádná nabití."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Nedostupné: nabíjení je téměř dokončené."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Odpálení rakety není dostupné"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nelze aktivovat spřaženou zbraň."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Výbušný %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Kumulativní %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Šance na kritický zásah: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Snížená"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Zvýšená"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standardní"
+
 msgid "shells_kinds/params/damage"
 msgstr "Průměrné poškození: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Poškození za sekundu: %(value)s HP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Poloměr poškození: %(value)s m"
 
-msgid "shells_kinds/params/header"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Základní/Upravené:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
 msgstr "Plné/částečné nabití"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standardní/Upravené:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standardní/Kalibrované:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Úhel normalizace: %(value)s stupňů"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Ztráta průbojnosti: %(value)s na 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s% %"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Průměrná průbojnost: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Úhel odrazu: %(value)s stupňů"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Rychlost granátu: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Trvání ochromení: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "pro aktivaci režimu VPM"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "pro přepnutí do palebného režimu"
@@ -2745,6 +2805,9 @@ msgstr "pro aktivaci trysek na kapalné palivo"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "pro aktivaci raketových trysek"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "pro přepnutí režimu palby"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "pro aktivaci sekvenčních raketových trysek"

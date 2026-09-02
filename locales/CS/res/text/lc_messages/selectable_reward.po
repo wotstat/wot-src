@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Potvrzuji!"
 
 msgid "error/description"
-msgstr "Informace je dočasně nedostupná. Omlouváme se za nepříjemnosti. Zkuste to prosím později."
+msgstr "Omlouváme se za nepříjemnosti. Zkuste to prosím později."
 
 msgid "error/title"
-msgstr "Výběr odměn nelze otevřít"
+msgstr "Tato stránka je dočasně nedostupná"
 
 msgid "footer/closeBtn/label"
 msgstr "Vyberte si později"
@@ -23,7 +23,7 @@ msgstr[1] "Vyberte si odměny z odpovídajících kategorií."
 msgstr[2] "Vyberte si odměny z odpovídajících kategorií."
 
 msgid "footer/okBtn/label"
-msgstr "Vyzvednout"
+msgstr "Vyzvednout odměny"
 
 msgid "footer/rewardsSelected"
 msgstr "Vybrané odměny:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Již získáno"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Bylo dosaženo limitu pro položky vybrané v této kategorii. Abyste přidali další položku, můžete výběr jedné z nich zrušit."
+msgstr "Dosáhli jste maximálního počtu předmětů povolených v této kategorii. Pro výběr jiného předmětu zrušte jeden ze zvolených."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limit dosažen"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Směrnice\npro vybavení"
@@ -93,6 +93,9 @@ msgstr "Standardní vybavení"
 
 msgid "tabs/items/trophy"
 msgstr "Trofejní vybavení"
+
+msgid "tooltips/footer/body"
+msgstr "Vyberte odměny k vyzvednutí"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "K obdržení vybraných odměn klikněte na tlačítko „Vyzvednout“."

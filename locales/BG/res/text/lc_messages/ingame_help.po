@@ -232,11 +232,35 @@ msgstr "Това оръдие може да стреля непрекъснат�
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Автоматично оръдие с контрол на термичното прегряване"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Механизмът незабавно съкращава времето за презареждане на снаряда до кратък фиксиран период. Всяко използване изразходва един заряд на снаряд, а зарядите се възстановяват с течение на времето - по-бързо, когато пълнителят е пълен. В началото на битката е наличен определен брой заряди."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Механизъм за принудително зареждане"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Тази машина е оборудвана с ракетна пускова установка, монтирана в маската на оръдието. За да превключите към прицел за ракети, натиснете:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Коаксиална ракетна установка"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "При прицелване с ракетния прицел, натиснете бутона за стрелба за пуск на ракета."
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Коаксиална ракетна установка"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Всеки път, когато уцелите враг със снаряд, получавате ниво на ефективност на презареждане, което временно увеличава скоростта на презареждане на оръдието ви. Нивата се натрупват с всяко попадение.\nУнищожаването на вражеска машина със снаряд дава допълнителни нива на ефективност на презареждане."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Полуавтоматична стойка за боекомплект"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Модулът за външно подаване на боеприпаси на тази машина й позволява да изстрелва мощни единични патрони с висока зарядна сила, които нанасят по-големи щети. Когато е активен, модулът също така намалява мобилността и скорострелността."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Външно подаване на боеприбаси"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Ако оръдието ви е заредено, можете да започнете да нагрявате следващия си изстрел. Колкото по-високо ниво на нагряване достигнете, толкова по-голям ще бъде бонусът към средните поражения.\nЗа да започнете процеса на нагряване, натиснете:"
@@ -345,6 +369,30 @@ msgstr "При активиране реактивните ускорители 
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Преимущества и недостатъци"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Когато уцелите видима вражеска машина със снаряд, настройката на взривателя на следващия снаряд се променя. Ако първият изстрел е пробил вражеската броня, щетите от следващия изстрел се увеличават. Ако не е пробил, пробиващата способност на следващия изстрел се увеличава."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Регулируема настройка на взривателя"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Оръдието на машината разполага със специални устройства, които позволяват промяна на някои параметри на снарядите преди изстрел. Параметрите за различните снаряди варират в зависимост от избрания режим, като всеки режим ви позволява бързо да се адаптирате към различни бойни ситуации."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Система за калибриране на снаряди"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Усъвършенстваното оптично устройство увеличава обхвата на видимост и подобрява откриването на движещи се и скрити сред растителността машини. Когато е активирано, то сканира тесен сектор пред машината ви, разкривайки скрити цели преди изтичането на периода на възстановяване."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Инфрачервено търсене и проследяване (ИФТП)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Ако обаче то разкрие незабелязан враг, вие също веднага ставате забелязани за определено време, като и вие, и враговете, които сте забелязали, бивате уведомени незабавно. Можете ръчно да спрете сканирането и да стартирате времето за възстановяване на устройството след кратко забавяне."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Инфрачервено търсене и проследяване (ИФТП)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Твърдогоривни двигатели, които увеличават ускорението, мобилността и маневреността за няколко секунди. Левият и десният двигател могат да работят независимо един от друг за по-бързо завъртане на корпуса и не ограничават възможността за заден ход."

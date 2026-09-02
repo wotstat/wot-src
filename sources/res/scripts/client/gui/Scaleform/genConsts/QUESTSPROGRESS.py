@@ -4,6 +4,7 @@ class QUESTSPROGRESS(object):
     QP_DOT = b'qp_dot'
     C_183X63_OPERATION_1 = b'183x63_operation_1'
     C_183X63_OPERATION_10 = b'183x63_operation_10'
+    C_183X63_OPERATION_11 = b'183x63_operation_11'
     C_183X63_OPERATION_2 = b'183x63_operation_2'
     C_183X63_OPERATION_3 = b'183x63_operation_3'
     C_183X63_OPERATION_4 = b'183x63_operation_4'
@@ -47,6 +48,7 @@ class QUESTSPROGRESS(object):
     C_183X63_OPERATION_ENUM = (
      C_183X63_OPERATION_1,
      C_183X63_OPERATION_10,
+     C_183X63_OPERATION_11,
      C_183X63_OPERATION_2,
      C_183X63_OPERATION_3,
      C_183X63_OPERATION_4,

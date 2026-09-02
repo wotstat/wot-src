@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Bu kutuları açtığınızda araçlar, oyun içi para türleri ve başka değerli ödüller çıkabilir."
+msgstr "Bu kutuları açtığınızda Seviye VIII Premium araçlar, oyun içi paralar ve başka değerli ürünler çıkabilir."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Bu kutuları açtığınızda araçlar, oyun içi para türleri, özelleştirme ögeleri ve başka değerli ödüller çıkabilir."
+msgstr "Bu kutuları açtığınızda nadir Seviye X araçlar, oyun içi paralar ve başka değerli ürünler çıkabilir."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Bu kutuları açtığınızda araçlar, oyun içi para türleri, özelleştirme ögeleri ve başka değerli ödüller çıkabilir."
+msgstr "Bu kutuları açtığınızda Seviye IX Premium araçlar, oyun içi paralar ve başka değerli ürünler çıkabilir."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Oyun içi Dükkân'dan elde edilebilir ve başka tür kutuları açarken alınabilir."
+msgstr "Premium Dükkân'dan ürün satın alma karşılığında hediye olarak ve başka tür kutuları açarken alınabilir."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Başka tür kutuları açarken alınabilir."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Başka tür kutuları açarken alınabilir."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Ödül Ganimet Kutusu"
+msgstr "Semavi Ganimet Kutusu"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Lütuf Ganimet Kutusu"
+msgstr "Seçilmiş Ganimet Kutusu"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Armağan Ganimet Kutusu"
+msgstr "Cennet Yardımı Ganimet Kutusu"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "ÖDÜL GANİMET KUTUSU"
+msgstr "SEMAVİ GANİMET KUTUSU"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "LÜTUF GANİMET KUTUSU"
+msgstr "SEÇİLMİŞ GANİMET KUTUSU"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "ARMAĞAN GANİMET KUTUSU"
+msgstr "CENNET YARDIMI GANİMET KUTUSU"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Bunlar yeni ve özgün ürünler içeren özel kutulardır. Oyun içi Dükkândan elde edilebilir."
+msgstr "Bunlar yeni ve özgün Seviye VIII-X araçlar ve başka ödüller içeren özel kutulardır.\nKutuları Premium Dükkân'dan ürün satın aldığınızda hediye olarak veya başka türlü kutular açarken alabilirsiniz."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Etkinliğin bitişi:"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Kutular teknik nedenlerle şu anda açılamaz veya satın alınamaz. Verdiğimiz geçici rahatsızlık nedeniyle özür dileriz."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Tanrının Nimeti Kutuları Geçici Olarak Devre Dışı"
 
 msgid "eventName/lowerCase"
-msgstr "Fısıltılar Mabedi"
+msgstr "Tanrının Nimeti"
 
 msgid "eventName/upperCase"
-msgstr "FISILTILAR MABEDİ"
+msgstr "TANRININ NİMETİ"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Tüm araçlara sahipseniz bunun yerine bir Lütuf Ganimet Kutusu alırsınız."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Etkinlik bitmeden tüm kutuları açmazsanız kutular daha sonra otomatik olarak açılacak"
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Kutulardaki tüm araçlara zaten sahipseniz ödül olarak araç yerine Lütuf Ganimet Kutusu alacaksınız."
+msgstr "Kutudaki tüm araçlara zaten sahipseniz Garantili ödül olarak çıkan araç yerine Seçilmiş Ganimet Kutusu alacaksınız."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Her %(guaranteed0)s Ödül, %(guaranteed1)s Armağan ve %(guaranteed2)s Lütuf Ganimet Kutusunda bir araç bulunması garantilidir. Bu kutuları açtığınızda böyle bir araç çıkmazsa kutu türüne bağlı olarak açacağınız %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. kutudan sahip olmadığınız bir araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+msgstr "Her %(guaranteed0)s Semavi, %(guaranteed1)s Cennet Yardımı ve %(guaranteed2)s Seçilmiş Ganimet Kutusunda bir Seviye VIII-X araç bulunması garantilidir. Bu kutuları açtığınızda böyle bir araç çıkmazsa kutu türüne bağlı olarak açacağınız %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. kutudan sahip olmadığınız bir Seviye VIII-X araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Telafi"
+msgstr "Tüm Araçlar Alındıysa"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantili Ödül"
+msgid "infoPage/header/description"
+msgstr "Değerli oyun içi ürünler alma şansı için kutuları açın!\nOlası ödüllerin listesini aşağıda bulabilirsiniz."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Grup başına en fazla bir ödül çıkabilir"
+msgid "noBoxesView/description/"
+msgstr "Kutunuz yok.\nKutuları Premium Dükkân'dan alabilirsiniz."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Seçilmiş Ganimet Kutusu"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Kutudaki tüm araçlara zaten sahipseniz Garantili ödül olarak araç yerine Seçilmiş Ganimet Kutusu alacaksınız."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Semavi Ganimet Kutusu"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Seçilmiş Ganimet Kutusu"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Cennet Yardımı Ganimet Kutusu"

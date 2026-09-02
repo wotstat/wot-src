@@ -88,7 +88,7 @@ package net.wg.gui.components.carousels
       {
          var _loc1_:int = 0;
          super.layoutChildren();
-         if(scrollbarRef != null && dataProvider != null && Boolean(isInvalid(InvalidationType.DATA,InvalidationType.SIZE,INVALIDATION_TYPE_SCROLLBAR)))
+         if(scrollbarRef != null && dataProvider != null && Boolean(isInvalidTypes(InvalidationType.DATA,InvalidationType.SIZE,INVALIDATION_TYPE_SCROLLBAR)))
          {
             _loc1_ = Math.ceil(dataProvider.length / columnCount) * this._measuredTypicalItemRendererWidth - width - horizontalGap;
             if(usesLayoutController())
@@ -149,7 +149,7 @@ package net.wg.gui.components.carousels
       {
          var _loc1_:Boolean = false;
          super.draw();
-         if(dataProvider != null && Boolean(isInvalid(InvalidationType.SIZE,InvalidationType.DATA,INVALIDATION_TYPE_LAYOUT,INVALIDATION_TYPE_PENDING_SCROLL)))
+         if(dataProvider != null && Boolean(isInvalidTypes(InvalidationType.SIZE,InvalidationType.DATA,INVALIDATION_TYPE_LAYOUT,INVALIDATION_TYPE_PENDING_SCROLL)))
          {
             _loc1_ = maxHorizontalScrollPosition != minHorizontalScrollPosition && Boolean(dataProvider.length);
             cursorManager.enable = _loc1_;

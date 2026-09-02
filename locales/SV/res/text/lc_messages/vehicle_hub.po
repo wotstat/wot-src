@@ -34,6 +34,9 @@ msgstr "Kanonen kan avfyras kontinuerligt utan omladdning. Varje skott genererar
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Ökar motorstyrkan och topphastigheten för snabb förflyttning över slagfältet. Raketmotorerna minskar manöverförmågan och kan inte stängas av när de aktiverats."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning. Parametrarna för olika granater varierar beroende på det valda läget, och de olika lägena gör att du snabbt kan anpassa dig till olika stridssituationer."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Det här specialläget förbättrar och/eller förändrar vissa stridsegenskaper vid aktivering. Aktiveras helst när vagnen är i ställning och redo att bekämpa fienden."
 
@@ -82,6 +85,9 @@ msgstr "Överhettningsskyddad automatkanon"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Raketmotor"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Granatkalibreringssystem"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Anfallsläge"
 
@@ -100,8 +106,17 @@ msgstr "Salveld"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "När du står still, eller rör dig långsamt, bygger du upp din precision i nivåer som ökar träffsäkerheten för nästa skott.\nVid maximal precisionsnivå har du förbättrad kanonhantering med mindre siktesspridning även under rörelse eller skrov/tornrotation."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mekanismen minskar omedelbart omladdningstiden till en kort bestämd tid. Varje användning förbrukar en laddning per granat och laddningarna fylls på över tid, snabbare när magasinet är fullt. Ett visst antal laddningar är tillgängliga när striden börjar."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Den här vagnen är utrustad med ett koaxialt raketvapen i kanonmanteln. Aktivera förmågan för att byta till raketsiktet och avfyra sen en raket med avfyrningsknappen."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Varje gång du träffar en fiende med en granat ökar din omladdningseffektivitet, vilket tillfälligt minskar omladdningstiden. Nivån höjs för varje träff.\nFörstör du en fiende med en granat får du extra effektnivåer."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Denna vagns externa ammunitionskassett gör att den kan avfyra kraftfulla enkelskott med hög laddning för ökad skadeverkan. När modulen är aktiv minskar den också rörligheten och eldhastigheten."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Om kanonen är laddad kan du börja värma nästa granat för ökad skadeverkan. Ju högre värmenivå desto större effekt.\nVid högsta nivå har du några sekunder på dig att ge eld innan kanonen överhettas och du hindras från att ge eld under en kort stund."
@@ -142,6 +157,15 @@ msgstr "Systemet genererar automatiskt laddning över tid. Ju högre laddning, d
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktivera raketmotorn (flytande bränsle) för extra fart när du behöver det som mest. Raketmotorn blir varm och måste kylas ned innan den kan användas igen, och om den överstiger kritisk värmenivå måste den tillfälligt stängas av helt för att kallna."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "När du träffar en synlig fiendevagn med en granat justeras tändrörsinställningen på nästa granat. Om det första skottet slog igenom fiendens pansar ökas skadan för nästa granat. Om det inte gjorde det ökas genomslagsförmågan för nästa granat."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning. Parametrarna för olika granater varierar beroende på det valda läget, och de olika lägena gör att du snabbt kan anpassa dig till olika stridssituationer."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "När den aktiveras avsöker den ett smalt fält framför din vagn och avslöjar dolda fiender följt av en nedkylningstid. Om den avslöjar en dold fiende blir du också omedelbart synlig för fienden. Avsökningen kan stoppas manuellt med en kort fördröjning."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Fastbränsleraketer som ökar accelerationsförmåga, rörlighet och manöverförmåga i flera sekunder. Höger och vänster raket aktiveras oberoende av varandra för bättre skrovrotation och begränsar inte backförmågan."
 
@@ -166,8 +190,17 @@ msgstr "Den här mekaniska överväxeln ökar avsevärt accelerationsförmåga, 
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analog skjutelementräknare"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Forcerad omladdningsmekanism"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaxialt raketvapen"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Semiautomatiskt ammunitionsställ"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Externt ammunitionsladdningsläge"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termo-ballistisk överladdning"
@@ -208,6 +241,15 @@ msgstr "Drivgasefterbrännkammare"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Raketmotor (flytande bränsle)"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Tändrörsställdon"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Granatkalibreringssystem"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "IR-system för målföljning (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sekventiell raketmotor"
 
@@ -232,8 +274,17 @@ msgstr "Högtrycksturboöverväxel"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Ökar träffsäkerheten för nästa skott och full kalibrering förbättrar stabiliseringen."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Minskar omedelbart omladdningstiden till en kort bestämd tid."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Avfyrar en raket från ett koaxialt raketvapen vid sidan av kanonen."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Varje träff på en fiendevagn ökar kanonens omladdningshastighet under en begränsad tid."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Avfyrar granater med högre skadeverkan till priset av rörlighet och nedkylning."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Bygger upp värmenivåer som ger ökad skadeverkan för nästa granat."
@@ -274,6 +325,15 @@ msgstr "Systemet laddar för att öka skadan. Ju mer laddning, desto större ska
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Raketmotor som kan aktiveras när som helst för extra motorstyrka och topphastighet."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Träffar på synliga fiender ökar skada eller genomslagsförmåga för efterföljande granat."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Kanonen har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Utökar siktsträckan och upptäcker rörliga vagnar och vagnar dolda av vegetation i ett smalt fält."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Fastbränsleraketer som ökar acceleration, rörlighet och manöverförmåga."
 
@@ -298,8 +358,14 @@ msgstr "En specialmekanik som ökar motorstyrka, accelerationsförmåga och topp
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Om du står still eller rör under en viss hastighet så kalibreras vagnens analoga eldriktningssystem, vilket ökar precisionsnivån och träffsäkerheten för nästa skott. Om du överskrider hastighetsgränsen pausas kalibreringen tills du saktar ned igen. Vid maximal precisionsnivå har du nästan perfekt kanonhantering med minimal siktesspridning även under rörelse eller skrov/tornrotation. Effekten upphör när du ger eld."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Den här vagnen är utrustad med ett koaxialt raketvapen i kanonmanteln. Aktivera förmågan för att byta till raketsiktet och avfyra sen en raket med avfyrningsknappen."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Varje gång du träffar en synlig fiende med en granat ökar din omladdningseffektivitet, vilket tillfälligt minskar omladdningstiden. Nivån höjs för varje träff. Förstör du en fiende med en granat får du extra effektnivåer."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Denna vagns externa ammunitionskassett gör att den kan avfyra kraftfulla enkelskott med hög laddning för ökad skadeverkan. När modulen är aktiv minskar den också rörligheten och eldhastigheten."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Om kanonen är laddad kan du börja värma nästa granat för ökad skadeverkan. Ju högre uppvärmningsnivå desto större effekt på genomsnittsskadan. Du kan inte byta granattyp under förvärmningen. När du når högsta nivån börjar en nedräkning. Om du inte avfyrar granaten innan nedräkningen när noll överhettas kanonen och kan inte avfyras på flera sekunder."
@@ -340,6 +406,15 @@ msgstr "Över tid genererar systemet automatiskt laddning, som delvis förbrukas
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Raketmotor (flytande bränsle) ger ett ordentligt tillskott av motorstyrka när du behöver nå en viktig position på slagfältet. Den begränsar dock vagnens hastighet bakåt och även dess rotationsförmåga. Raketmotorn kan stängas av och sättas på när som helst, om den inte har nått reaktiveringsgränsen. Raketmotorn blir varmare när den används och kan inte aktiveras igen förrän den kylts ned, vilket betyder att den inte kan användas hela tiden. Om den når kritisk värmenivå måste den tillfälligt stängas av helt för att kallna. Planera dina manövrer för att undvika att hamna i svåra situationer."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "När du träffar en synlig fiendevagn med en granat justeras tändrörsinställningen på nästa granat. Om det första skottet slog igenom fiendens pansar ökas skadan för nästa granat. Om det inte gjorde det ökas genomslagsförmågan för nästa granat."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning. Du kan se på ammunitionen vilka parametrar som påverkas av de olika lägena."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "En avancerad optisk enhet som ökar din siktsträcka och förbättrar upptäckten av rörliga vagnar och vagnar dolda av vegetation. När den aktiveras avsöker den ett smalt fält framför din vagn och avslöjar dolda fiender följt av en nedkylningstid. Om den avslöjar en dold fiende blir du också omedelbart synlig för fienden. Avsökningen kan stoppas manuellt med en kort fördröjning."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Fastbränsleraketer som ökar accelerationsförmåga, rörlighet och manöverförmåga i flera sekunder. Till skillnad från vanliga raketmotorer kan höger och vänster raket aktiveras oberoende av varandra för bättre skrovrotation och de begränsar inte backförmågan. De kan aktiveras flera gånger per strid, men måste kylas ned innan de aktiveras igen."
 
@@ -363,6 +438,18 @@ msgstr "Den här mekaniska överväxeln ökar avsevärt accelerationsförmåga, 
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Alla värden är de högsta möjliga för vagnen. Utrustning, anvisningar och förnödenheter kan ändra värdena, men det visas inte här."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibrerbar pansarprojektil"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibrerbar tungstensprojektil"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibrerbar spränggranat"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibrerbar pansarspränggranat"
 
 msgid "characteristics/templates/upTo"
 msgstr "Upp till %(value)%s"

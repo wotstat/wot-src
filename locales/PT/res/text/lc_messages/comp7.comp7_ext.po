@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Este modo não está disponível no servidor %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "A Temporada do Dragão Azure começa a: %(date)s"
+msgstr "A Temporada da Fénix Azure começa a: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "A Temporada do Dragão Carmesim começa a: %(date)s"
+msgstr "A Temporada da Fénix Carmesim começa a: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "A Temporada do Dragão Jade começa a: %(date)s"
+msgstr "A Temporada da Fénix Jade começa a: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "À espera dos resultados da Qualificação para receber o seu posto"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Temporada do Dragão Azure terminou"
+msgstr "A Temporada da Fénix Azure terminou"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Temporada do Dragão Carmesim terminou"
+msgstr "A Temporada da Fénix Carmesim terminou"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Temporada do Dragão Jade terminou"
+msgstr "A Temporada da Fénix Jade terminou"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "As batalhas neste servidor vão estar disponíveis em %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Características do veículo melhoradas"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Restaurar pontos de energia"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Aumento dos danos sofridos"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Características do veículo melhoradas"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s - %(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Temporada da Dragão Azure vai durar %(days)d dia"
-msgstr[1] "Temporada da Dragão Azure vai durar %(days)d dias"
-msgstr[2] "Temporada da Dragão Azure vai durar %(days)d dias"
+msgstr[0] "Temporada da Fénix Azure vai durar %(days)d dia"
+msgstr[1] "Temporada da Fénix Azure vai durar %(days)d dias"
+msgstr[2] "Temporada da Fénix Azure vai durar %(days)d dias"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Temporada da Dragão Carmesim vai durar %(days)d dia"
-msgstr[1] "Temporada da Dragão Carmesim vai durar %(days)d dias"
-msgstr[2] "Temporada da Dragão Carmesim vai durar %(days)d dias"
+msgstr[0] "Temporada da Fénix Carmesim vai durar %(days)d dia"
+msgstr[1] "Temporada da Fénix Carmesim vai durar %(days)d dias"
+msgstr[2] "Temporada da Fénix Carmesim vai durar %(days)d dias"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Temporada da Dragão Jade vai durar %(days)d dia"
-msgstr[1] "Temporada da Dragão Jade vai durar %(days)d dias"
-msgstr[2] "Temporada da Dragão Jade vai durar %(days)d dias"
+msgstr[0] "Temporada da Fénix Jade vai durar %(days)d dia"
+msgstr[1] "Temporada da Fénix Jade vai durar %(days)d dias"
+msgstr[2] "Temporada da Fénix Jade vai durar %(days)d dias"
 
 msgid "calendarDay/title"
 msgstr "Calendário"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Aptidões"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Massacre. Ano do Dragão"
+msgstr "Massacre: Ano da Fénix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Aptidões zero"
@@ -574,11 +577,17 @@ msgstr "Afirmativo!"
 msgid "intro/description/banPhase"
 msgstr "Cada equipa pode banir completamente um veículo de uma batalha. Coordene os votos com os seus aliados para excluir a sua máquina mais temida ou para preparar uma formação inesperada para os inimigos. Se o seu veículo for banido, poderá escolher entre vários veículos de aluguer pré-configurados."
 
+msgid "intro/description/draw"
+msgstr "Quando o tempo termina e nenhuma equipa tiver obtido uma vitória clara, o resultado da batalha é decidido por critérios de desempate, por esta ordem: veículos sobreviventes, danos infligidos e o primeiro veículo derrotado. Se nenhuma das equipas tiver infligido danos, a batalha é declarada empate."
+
+msgid "intro/description/nightMaps"
+msgstr "Mapas Noturnos renovam os campos de batalha familiares com condições noturnas, novos Postos de Observação, Pontos de Interesse atualizados e mecânicas de deteção modificadas. A seleção atual inclui Glacier, Sand River, Outpost e Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "O modo tem modificadores que alteram determinados parâmetros do veículo, tais como os seus pontos de energia, tempo de cooldown dos consumíveis, tempo em que permanece visível e mais."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Após capturar certas áreas do mapa, vai poder utilizar habilidades tácticas. Existem dois tipos de Pontos de Interesse: o Quartel-General da Artilharia vai permitir que dirija um ataque de artilharia numa determinada posição e o Centro de Comunicações vai detectar todos os veículos inimigos. Dependendo do mapa, a presença e localização destes Pontos de Interesse podem mudar."
+msgstr "Assim que conquistar determinadas áreas do mapa, terá acesso a Habilidades Táticas. Existem dois tipos de pontos de interesse: os Quartéis-Generais de Artilharia, que lhe permitem solicitar um ataque direcionado, e os Centros de Comunicações, que revelam todos os veículos inimigos. O número e a localização destes locais variam de mapa para mapa."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Trave %(count)s batalhas de Qualificação para determinar o seu nív
 msgstr[2] "Trave %(count)s batalhas de Qualificação para determinar o seu nível de habilidade e posto. Após a conclusão, vai receber recompensas para o posto que alcançou a todos os postos anteriores.\n\nDesertar ou um empate na Qualificação vai ser considerado como uma derrota."
 
 msgid "intro/description/ranks"
-msgstr "Um sistema que reflete a habilidade do jogador. Progrida pelos postos desde Ferro até Lenda e ganhe prémios valiosos. Combata no Ano da Dragão para receber Recompensas Anuais únicas."
+msgstr "Progrida pelos postos desde Ferro até Lenda e ganhe prémios valiosos. Combata no Ano da Fénix para receber Recompensas Anuais únicas."
 
 msgid "intro/description/roleSkills"
 msgstr "Dependendo da função, cada veículo tem uma habilidade especial com três níveis de carga. Quanto mais alto o nível de carga quando a habilidade for ativada, mais forte será o efeito. O nível de carga vai depender do número de Pontos de Prestígio que podem ser ganhos por desempenho impressionante em batalha, captura de Pontos de Interesse, utilização de Habilidades Táticas, etc.\n\nVerifique os regulamentos do modo para saber mais sobre as diferentes maneiras de ganhar Pontos de Prestígio."
@@ -597,6 +606,12 @@ msgstr "Pode entrar em batalha em veículos pesquisáveis de Nível %(levels)s (
 
 msgid "intro/title/banPhase"
 msgstr "BANIMENTOS DE VEÍCULOS"
+
+msgid "intro/title/draw"
+msgstr "REGRAS DO EMPATE"
+
+msgid "intro/title/nightMaps"
+msgstr "MAPAS NOTURNOS"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICADORES DO MASSACRE"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VITÓRIA, MAS VOCÊ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promovido a %(rank)s"
+msgstr "Promovido a {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Classificação: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Despromovido para %(rank)s, %(division)s"
+msgstr "Despromovido a {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promovido a %(rank)s, %(division)s"
+msgstr "Promovido a {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Batalhas travadas"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Recorde de Pontos de Prestígio Sazonais: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "A Temporada do Dragão Azure terminou no servidor %(server)s."
+msgstr "Temporada da Fénix Azure terminou no servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "A Temporada do Dragão Carmesim terminou no servidor %(server)s."
+msgstr "Temporada da Fénix Carmesim terminou no servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "A Temporada do Dragão Jade terminou no servidor %(server)s."
+msgstr "Temporada da Fénix Jade terminou no servidor %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Adquirir"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "MASSACRE. QUALIFICAÇÃO CONCLUÍDA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "MASSACRE. TEMPORADA DO DRAGÃO AZURE"
+msgstr "MASSACRE TEMPORADA DA FÉNIX AZURE"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "MASSACRE. TEMPORADA DO DRAGÃO CARMESIM"
+msgstr "MASSACRE TEMPORADA DA FÉNIX CARMESIM"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "MASSACRE. TEMPORADA DO DRAGÃO JADE"
+msgstr "MASSACRE TEMPORADA DA FÉNIX JADE"
 
 msgid "rewardsScreen/description/year"
-msgstr "MASSACRE. ANO DO DRAGÃO"
+msgstr "MASSACRE. ANO DA FÉNIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Onde Está o Meu Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Termina em %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "TEMPORADA DO DRAGÃO AZURE"
+msgstr "Temporada da Fénix Azure"
 
 msgid "seasonName/second"
-msgstr "Temporada do Dragão Carmesim"
+msgstr "Temporada da Fénix Carmesim"
 
 msgid "seasonName/third"
-msgstr "Temporada do Dragão Jade"
+msgstr "Temporada do Fénix Jade"
 
 msgid "seasonPointTooltip/header"
 msgstr "Cores do Massacre"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Posição na Tabela de Classificação: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "MASSACRE. %(seasonNameUpper)s"
+msgstr "MASSACRE %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Recebido %(points)s Cores do Massacre"
 msgstr[2] "Recebido %(points)s Cores do Massacre"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "TEMPORADA I: DRAGÃO AZURE"
+msgstr "TEMPORADA I: FÉNIX AZURE"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "TEMPORADA II: DRAGÃO CARMESIM"
+msgstr "TEMPORADA II: FÉNIX CARMESIM"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "TEMPORADA III: DRAGÃO JADE"
+msgstr "TEMPORADA III: FÉNIX JADE"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Vitórias: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Este modo vai ficar disponível a %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Dragão Azure"
+msgstr "Fénix Azure"
 
 msgid "shortSeasonName/second"
-msgstr "Dragão Carmesim"
+msgstr "Fénix Carmesim"
 
 msgid "shortSeasonName/third"
-msgstr "Dragão Jade"
+msgstr "Fénix Jade"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Esta secção contém informação sobre os melhores jogadores do modo Massacre da Temporada actual."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Ver Todos"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Apoie a Série Lendas do Massacre e aumente os prémios com pacotes para torneios!"
+msgstr "Se a equipa que escolheu vencer, receberá um crachá dourado exclusivo do OLS 2026. Torça pelos seus favoritos!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Mostra o teu espírito de esports com elementos de personalização temáticos exclusivos e tanques únicos!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "O World of Tanks Championship International, em Suzhou, na China, vai ser palco de um confronto épico, onde as equipas mais ferozes de todo o mundo se vão defrontar sob as regras do modo Massacre, disputando o prestigiado título de campeão mundial. Viva a emoção enquanto as lendas nascem no campo de batalha!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS temporada 6"
+msgstr "OLS Temporada 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Esta temporada marca a sua última oportunidade de receber recompensas valiosas, incluindo o exclusivo tanque pesado de Nível X Ashbringer com todos os estilos 3D únicos que ganhou para ele e uma tripulação destemida com aptidão zero Irmãos d'Armas, além de equipamento melhorado e experimental para escolher, um estilo 2D apelativo e mais. Não perca esta oportunidade - a sua vitória espera no campo de batalha!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Desfrute dos momentos finais do Ano do Dragão!"
+msgstr "Desfrute dos momentos finais do Ano da Fénix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "TEMPORADA DO DRAGÃO DE JADE"
+msgstr "TEMPORADA DA FÉNIX AZURE"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "MASSACRE. O QUE HÁ DE NOVO?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tástico!"
+msgstr "Liberte as suas Chamas!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "O ecrã de resultados pós-batalha melhorado, com o seu novo design da Atualização 2.0, fornecerá agora informações adicionais relacionadas com o modo de jogo após cada batalha."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Quando o tempo termina e nenhuma equipa tiver obtido uma vitória clara, o resultado da batalha é decidido por critérios de desempate, por esta ordem: veículos sobreviventes, danos infligidos e o primeiro veículo derrotado. Se nenhuma das equipas tiver infligido danos, a batalha é declarada empate."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Resultados da Batalha Detalhados"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Não se preocupe se o seu veículo favorito não estiver incluído. Os alugueres vêm agora com tripulação, equipamento, munições e consumíveis pré-configurados."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Alugueres Prontos a Usar %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Esta temporada, cada equipa pode banir completamente um veículo de uma batalha. Coordene os votos com os seus aliados para excluir a sua máquina mais temida ou para preparar uma formação inesperada para os inimigos."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Banimentos de Veículos %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Condições de empate atualizadas {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mapas"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Veículos Novos Disponíveis no Massacre"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "A versão 2.4 introduz novas funções para os tanques ligeiros e um reequilíbrio das características dos veículos. Teste-os em batalha!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Novas funções para os tanques ligeiros {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Uma nova experiência de jogo em mapas já conhecidos. As alterações incluem condições noturnas, novos Postos de Observação, novos PDI e mecânicas de deteção modificadas. Tudo isto redefine o andamento da batalha, tornando a perceção do ambiente, o timing e os movimentos táticos mais importantes do que nunca."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Os mapas noturnos chegaram! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Devido ao baixo número de jogadores nas batalhas, os Super Pelotões foram desativados. Estamos a trabalhar em formas alternativas de jogar o Massacre em equipa. Entretanto, estão disponíveis torneios 7v7 com regularidade."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Chega de super pelotões {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Veículos de Aluguer"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "O tanque médio Americano de Nível X Ares 90, recentemente lançado, está agora disponível no modo com uma Aptidão de Função ajustada."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mapas: Erlenberg foi removido. Os PDI no Airfield foram reposicionados. Foram feitos pequenos ajustes em Pilsen.\n• Veículos: O Vz. 60S Dravec foi removido. Foi adicionado o novo tanque pesado Alemão Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Atualização da Aptidão de Função %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "O 114 SP2 está agora disponível para compra no posto Prata na Loja do Massacre."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Atualizações da Loja %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Alterações no balanço sazonal {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EXCLUÍDO"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Temporada I. Dragão Azure"
+msgstr "TEMPORADA I: FÉNIX AZURE"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Temporada II. Dragão Carmesim"
+msgstr "Temporada II: Fénix Carmesim"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Temporada III. Dragão Jade"
+msgstr "Temporada III: Fénix Jade"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Actual"

@@ -229,23 +229,14 @@ msgstr "na kupnju:"
 msgid "battlePassBuyView/descr"
 msgstr "Kupnja etape Napretka trenutno otključava i daje vam sve nagrade uključene u toj etapi."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Dobit ćete ove nagrade nakon završetka nadolazećih etapa."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Dobit ćete sljedeće nagrade za etape %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Dobit ćete odmah slijedeće nagrade"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Dobit ćete sljedeće nagrade za etapu %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "BITI ĆE OTKLJUČANO"
+msgstr "Otključavanje u nezavršenim etapama"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "BITI ĆE PRIMLJENO ODMAH"
+msgstr "Trenutni primitak"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktiviraj poglavlje Borbene propusnice"
@@ -277,20 +268,17 @@ msgstr "Bizonova pjesma"
 msgid "chapter/fullName/1114"
 msgstr "Bizonova pjesma"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "ELITNI KRUG"
 
-msgid "chapter/fullName/201"
-msgstr "Zakopano vrijeme"
+msgid "chapter/fullName/211"
+msgstr "Specijalist"
 
-msgid "chapter/fullName/202"
-msgstr "To je naša sudbina"
+msgid "chapter/fullName/212"
+msgstr "Kaskader"
 
-msgid "chapter/fullName/203"
-msgstr "Pustinjsko zapovjedništvo"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoik"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "BIZONOVA PJESMA"
@@ -298,17 +286,14 @@ msgstr "BIZONOVA PJESMA"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "BIZONOVA PJESMA"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ZAKOPANO VRIJEME"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIJALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "TO JE NAŠA SUDBINA"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADER"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "PUSTINJSKO ZAPOVJEDNIŠTVO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIK"
 
 msgid "chapter/title"
 msgstr "POGLAVLJE %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Zadatak za ×3 iskustva posade"
 
 msgid "equipCoinBonus"
 msgstr "Komponente: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Komplet 3D privitaka"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Zapovjednik"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Dostupno nakon što su završena sva poglavlja. Završena poglavlja: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Zgrabite premium vozilo i ekskluzivne elemente prilagodbe."
+msgstr "Uronite u njih za ekskluzivne nagrade i jedinstvene elemente prilagodbe."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Borbena propusnica: Far Cry je stigla!"
+msgstr "Stiglo je posebno Poglavlje!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Kupite Poboljšanu propusnicu za još nagrada!"
@@ -1114,11 +1102,8 @@ msgstr "Etapa %(level)d Elitnog kruga"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "iskustva na svakog člana posade odabranog %(nation)s vozila"
 
-msgid "rewardChoice/subTitle"
-msgstr "ODABERITE SVOJU NAGRADU"
-
 msgid "rewardChoice/title"
-msgstr "BORBENA PROPUSNICA"
+msgstr "Odaberite svoje nagrade"
 
 msgid "rewardChoice/titleChapter"
 msgstr "BORBENA PROPUSNICA: POGLAVLJE %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "BORBENA PROPUSNICA: POGLAVLJE %(chapter)s, ETAPA %(level)s"
 msgid "season/fullName/1002"
 msgstr "Bizonova pjesma"
 
-msgid "season/fullName/20"
-msgstr "Traženje pjeska"
+msgid "season/fullName/21"
+msgstr "Uzemljen"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "BIZONOVA PJESMA"
 
-msgid "season/fullNameUppercased/20"
-msgstr "TRAŽENJE PJESKA"
+msgid "season/fullNameUppercased/21"
+msgstr "UZEMLJEN"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Smjernice na odabir"

@@ -880,6 +880,12 @@ msgstr "Ekstra Palet Tırnağı Sınıf 3"
 msgid "gun_balancing_1/name"
 msgstr "Top Dengeleme (Tip 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Top Dengeleme (Tip 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Top Namlusu Modifikasyonu (Tip 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "İyileştirilmiş Süspansiyon (Tip 1)"
 msgid "improved_suspension_2/name"
 msgstr "İyileştirilmiş Süspansiyon (Tip 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "İyileştirilmiş Kule Sürücüsü (Tip 1)"
+
 msgid "inspire/longDescr"
 msgstr "Aracın ve belirli bir yarıçaptaki müttefiklerin mürettebat performanslarını iyileştirir, her mürettebat üyesinin ana uzmanlığına bir % bonus ekler. Bu etkiyi uygulayan oyuncu daha iyileştirilmiş bir etkiden faydalanır."
 
@@ -1294,6 +1303,9 @@ msgstr "Hareket Kabiliyeti İyileştirme Sistemi T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Hareket Kabiliyeti İyileştirme Sistemi T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Namlu Ağzı Parlama Baskısı (Tip 1)"
+
 msgid "nitro/battleDescr"
 msgstr "%(consumeSeconds)s sn. boyunca geçici olarak aracınızın motor gücünü %(enginePowerFactor)s ve azami hızını %(maxSpeedFactor)s kat artırır."
 
@@ -1347,6 +1359,12 @@ msgstr "Seçili alan {colorTagOpen}%(delay)d sn.{colorTagClose} içinde bir top�
 
 msgid "poi_artillery_aoe/name"
 msgstr "Topçu Saldırısı"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Kısa bir gecikmenin ardından, bir Aydınlatma Fişeği seçilen alanı aydınlatır. Etki alanı içinde kalan düşman araçları Tespit Edildi durumunda kalır ve daha fazla hasar alır.\nGözetleme Noktası birkaç dakika sonra geri alınabilir."
+
+msgid "poi_illumination_flare/name"
+msgstr "Aydınlatma Fişeği"
 
 msgid "poi_radar/descr"
 msgstr "Etkinleştirildiğinde, tüm düşman araçları {colorTagOpen}%(duration)d sn.{colorTagClose} boyunca tespitte kalır."
@@ -1879,29 +1897,77 @@ msgstr "Hafif Gövde"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Hafif\nGövde"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Yansıma Önleyici Optik Kaplama"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Yansıma Önleyici Far Kaplaması"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Yansıma Önleyici\nOptik Kaplama"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Yansıma Önleyici\nFar Kaplaması"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Harici Görüş Sistemi"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrikli Periskop Sürücüsü"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Harici Görüş\nSistemi"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrikli\nPeriskop Sürücüsü"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramik Triplex"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramik\nTriplex"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramik Triplex"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Dar Açılı Gözetleme Cihazı"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Dar Açılı\nGözetleme Cihazı"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Yeni Nişan Alma Dişlileri"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Yeni Nişan Alma Dişlileri"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrikli Periskop Sürücüsü"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrikli\nPeriskop Sürücüsü"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Genel Dayanıklılık Artırma"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Genel Dayanıklılık\nArtırma"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Yansıma Önleyici Far Kaplaması"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Yansıma Önleyici\nFar Kaplaması"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Kovan Tahliyesi Ayarı"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Kovan Tahliyesi Ayarı"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Güç Kaynağına Tel Çekme"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Güç Kaynağına\nTel Çekme"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "İyileştirilmiş Mermi Yivleme"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "İyileştirilmiş\nMermi Yivleme"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Hassas Optikler"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Hassas Optikler"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Güçlendirilmiş Ana Yapı"
@@ -2424,6 +2490,9 @@ msgstr "Elektrik Boşalımı"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Yüksek sıklıkta %(thunderCount)s kere seri elektrik deşarjının meydana geldiği bir alan oluşturur. Her deşarj {whiteSpanish_Open}%(damage)s CP hasar{whiteSpanish_Close} verir ve yeteneğin etki alanı içindeki tüm düşman araçlarının hareket kabiliyetini geçici olarak azaltır.\n\n*Yeteneğin etkinleştirilmesi ile ilk deşarj arasında %(delay)s sn. gecikme vardır. Yeteneğin olumsuz etkisi Tamir Çantası kullanarak kaldırılabilir."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Burulma Çubukları Yenileme (Tip 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "%(duration)s sn. boyunca içindeki tüm düşman araçlarının hareket kabiliyeti parametrelerini %(vehicleMaxSpeed)s azaltan, top yükleme ve nişan alma sürelerini %(gunReloadTime)s artıran bir alan oluşturur. "

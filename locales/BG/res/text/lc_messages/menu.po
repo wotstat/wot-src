@@ -826,6 +826,9 @@ msgstr "Триизмерни стилове"
 msgid "carousel_tank_filter/ready"
 msgstr "Само основните"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Разузнавач"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Снайперист"
 
@@ -834,9 +837,6 @@ msgstr "Поддръжка"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Универсален"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Колесен"
 
 msgid "centerIsAvailable"
 msgstr "Всички сървъри отново са достъпни."
@@ -4159,6 +4159,9 @@ msgstr "Подобрена система за автодозареждане:\n
 msgid "moduleInfo/autoShootGun"
 msgstr "Оръдие със система за непрекъснат огън"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Тази машина е оборудвана с ракетна пускова установка, монтирана в маската на оръдието. Активирайте възможността за превключване към мерника на второстепенното оръжие, след което изстреляйте неуправляема ОФ ракета с бутона за стрелба."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Затвори"
 
@@ -4312,6 +4315,9 @@ msgstr "Време за подготовка"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "към основните квалификации и уменията на екипажа"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Вероятност за критично попадение"
+
 msgid "moduleInfo/params/damage"
 msgstr "Поражения"
 
@@ -4342,11 +4348,29 @@ msgstr "Вероятност за пожар при попадения"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Време на полет"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Винаги нанася поражения, ако основната броня бъде ударена"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* максимален обсег на полета на снаряд за това оръдие"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " не зависи от разстоянието за този вид снаряд"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", максимален обсег на полета - 400 м."
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " този тип снаряд започва да губи бронебойност с течение на разстоянието след преминаване през първия екран"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " зависи от разстоянието: %(minDist)s - %(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " този тип снаряд пробива екрани както обикновено, но след това губи бронебойност, равна на три пъти дебелината на бронята на екрана."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Максимална скорост"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Винаги нанася поражения, ако основната броня бъде ударена"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Маса"
@@ -4378,20 +4402,11 @@ msgstr "Точки живот"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Обсег на стрелба"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* максимален обсег на полета на снаряд за това оръдие"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Максимален ъгъл на завъртане на колелата"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Средни поражения на %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " не зависи от разстоянието за този вид снаряд"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", максимален обсег на полета - 400 м."
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Ъгъл на нормализиране"
@@ -4399,14 +4414,8 @@ msgstr "Ъгъл на нормализиране"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Загуба на бронебойност"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " този тип снаряд започва да губи бронебойност с течение на разстоянието след преминаване през първия екран"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " зависи от разстоянието: %(minDist)s - %(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Средна бронебойност (мм.) - Разстояние"
@@ -4456,9 +4465,6 @@ msgstr "Скорост на завъртане"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Множител за екранирана броня"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " този тип снаряд пробива екрани както обикновено, но след това губи бронебойност, равна на три пъти дебелината на бронята на екрана."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Доизгорител на индукционно гориво, кой�
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Реактивни ускорители, повишаващи подвижността на автомобила"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Оръдието на машината разполага със специални устройства, които позволяват промяна на някои параметри на снаряда преди стрелба."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Твърдогоривни двигатели, които повишават ускорението, мобилността и маневреността"
@@ -5284,11 +5293,14 @@ msgstr "Машини с перфектни оръдия, чието ефекти
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Многоцелеви танкове, които лесно се нагаждат към всякакви бойни ситуации."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Бързи и маневрени машини, които могат както да разузнават, така и да нанасят поражения при извършване на фланкиращи маневри."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Леките разузнавателни танкове са малки, маневрени машини, предназначени за откриване на врагове. Ниският им силует и добрата им маскировка, както и отличната маневреност и високата максимална скорост, ги правят подходящи както за пасивно, така и за активно разузнаване, но слабата им издръжливост и ниската огнева мощ им пречат да осигуряват значителна огнева подкрепа на съюзниците."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Машини с изключителни динамични показатели, чието ефективно използване зависи от картата или тактическата ситуация."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Леките танкове за поддръжка използват високата си мобилност, отлична маневреност и мощни оръдия, за да сменят бързо фланговете и да нанесат значителни щети, преди да се оттеглят на безопасно място. Въпреки че в определени ситуации могат да извършват разузнаване, големите им размери и слабата им маскировка ги правят по-малко ефективни разузнавачи в сравнение с други леки танкове."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Универсалните леки танкове са многофункционални машини, способни както да извършват разузнаване, така и да осигуряват огнева подкрепа на съюзниците. Въпреки че са по-малко ефективни в разузнаването в сравнение с разузнавателните танкове и разполагат с по-малка огнева мощ в сравнение с леките танкове за подкрепа, балансираните характеристики на универсалните танкове им позволяват да изпълняват и двете роли успешно и лесно да се адаптират към широк спектър от бойни ситуации."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Машини с добра броня, което ги прави най-подходящи за близък бой и за защитаване на позицията срещу вражески тежки танкове."
@@ -5329,11 +5341,14 @@ msgstr "Тежък танк за поддръжка"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Универсален тежък танк"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Лек разузнавателен танк"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Лек танк за поддръжка"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Универсален лек танк"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Колесен лек танк"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Щурмови среден танк"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Презареждане"
 msgid "tank_params/autoShootClipSec"
 msgstr "(касета/количество)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Време за ускорено зареждане на снаряд"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Възстановяване на заряд при пълна касета"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Базово възстановяване на заряд"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Заряди в началото на битката"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Заряди"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Средни поражения (т. ж.)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Разсейка на 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Средна бронебойност (мм.)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Охлаждане (сек.)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Скорост на снаряда на ракетата (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Средни поражения"
 
@@ -6057,6 +6105,21 @@ msgstr "Контейнер за снаряди"
 
 msgid "tank_params/burstSec"
 msgstr "(s/количество/количество)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Средни поражения (т. ж.)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Макс. скорост (режим ВПБ) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Скорострелност (изстрела/мин)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Активиране на режим ВПБ (сек.)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Деактивиране на режим ВПБ (сек.)"
 
 msgid "tank_params/chargeTime"
 msgstr "Подготовка на залп"
@@ -6150,6 +6213,12 @@ msgstr "Мощност на двигателя (к.с.) (турбо режим)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Радиус на поражения"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Макс. скорост (режим ВПБ) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Активиране на режим ВПБ (сек.)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Време за охлаждане на оръдието след стрелба"
@@ -6325,9 +6394,6 @@ msgstr "Проходимост"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Съвпадение на електромеханичен мерник (% на сек.) (боен режим, пасивен)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(на активация)"
 
@@ -6484,8 +6550,20 @@ msgstr "Зареждане на спомагателно оръжие"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Снаряди на спомагателно оръжие"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Нормализация на средни поражения на снаряд (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Нормализация на средна бронебойност на снаряд (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Зареждане на лента с боеприпаси"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Време за смяна на режимите"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Бронебойност:"
@@ -6495,6 +6573,36 @@ msgstr "Точност на 100 метра"
 
 msgid "tank_params/shotSpeed"
 msgstr "Скорост на снаряда"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Маскировка на враг зад растителност (неподвижен и движещ се)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Маскировка на движещ се враг"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Първоначална подготовка"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Продължителност"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Подготовка"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Скорост на завъртане на купола"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Ширина на финално сканиране"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Ширина на първоначално сканиране"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Продължителност на самооткриване"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Обзор"
 
 msgid "tank_params/speedLimits"
 msgstr "Макс. скорост/заден ход"

@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Begrepen!"
 
 msgid "error/description"
-msgstr "Deze informatie is tijdelijk onbeschikbaar. Onze excuses voor het ongemak. Probeer het later alsjeblieft opnieuw."
+msgstr "Onze excuses voor het ongemak. Probeer het later alsjeblieft opnieuw."
 
 msgid "error/title"
-msgstr "Beloningselectie kan niet worden geopend"
+msgstr "Deze pagina is tijdelijk onbeschikbaar"
 
 msgid "footer/closeBtn/label"
 msgstr "Later selecteren"
@@ -23,7 +23,7 @@ msgstr[1] "Selecteer beloningen uit de beschikbare categorieën."
 msgstr[2] "Selecteer beloningen uit de beschikbare categorieën."
 
 msgid "footer/okBtn/label"
-msgstr "Claimen"
+msgstr "Claim beloningen"
 
 msgid "footer/rewardsSelected"
 msgstr "Geselecteerde beloningen:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Reeds ontvangen"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "De limiet voor geselecteerde items uit deze categorie is bereikt. Je kunt één item deselecteren en vervolgens een ander item toevoegen."
+msgstr "Je hebt het maximale aantal toegestane items in deze categorie bereikt. Deselecteer een item om een ander te kiezen."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limiet bereikt"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Gevechtsbevelen\nvoor uitrusting"
@@ -93,6 +93,9 @@ msgstr "Standaard uitrusting"
 
 msgid "tabs/items/trophy"
 msgstr "Bounty-uitrusting"
+
+msgid "tooltips/footer/body"
+msgstr "Selecteer beloningen om ze te claimen"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Klik op Claimen om de geselecteerde beloningen te ontvangen."

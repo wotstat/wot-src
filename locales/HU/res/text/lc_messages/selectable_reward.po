@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Értettem!"
 
 msgid "error/description"
-msgstr "Az információ átmenetileg nem elérhető. Elnézést kérünk a kellemetlenségért. Kérjük, próbálkozz újra később."
+msgstr "Elnézést kérünk a kellemetlenségért. Próbálkozz újra később."
 
 msgid "error/title"
-msgstr "A jutalom kiválasztása nem nyitható meg"
+msgstr "Ez az oldal átmenetileg nem elérhető"
 
 msgid "footer/closeBtn/label"
 msgstr "Később választok"
@@ -23,7 +23,7 @@ msgstr[1] "Válassz jutalmakat a megadott kategóriákból."
 msgstr[2] "Válassz jutalmakat a megadott kategóriákból."
 
 msgid "footer/okBtn/label"
-msgstr "Igényel"
+msgstr "Jutalmak begyűjtése"
 
 msgid "footer/rewardsSelected"
 msgstr "Kiválasztott jutalmak:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Már megszerezted"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "A kiválasztott tételek száma ebben a kategóriában elérte a limitet. Az egyik elem kiválasztását törölheted, hogy egy másikat adj hozzá."
+msgstr "Elérted a kategóriában megengedett maximális tételszámot. Töröld a jelölést egy tételről, hogy másikat választhass."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limit elérve"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Felszerelés\ndirektívák"
@@ -93,6 +93,9 @@ msgstr "Normál felszerelések"
 
 msgid "tabs/items/trophy"
 msgstr "Jutalom felszerelés"
+
+msgid "tooltips/footer/body"
+msgstr "Válassz jutalmakat, hogy átvedd őket"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Kattints az Igényel gombra a kiválasztott jutalmak átvételéhez."

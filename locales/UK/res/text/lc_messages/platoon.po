@@ -130,6 +130,9 @@ msgstr "Ви не можете створити або приєднатися д
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Після завершення кваліфікації стануть доступні взводи на 2 або 7 гравців."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Після завершення кваліфікації стане доступний взвод на двох гравців."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Не вдалося створити взвод."
 
@@ -141,6 +144,9 @@ msgstr "Створіть взвод або приєднайтеся до ная�
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Взвод"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Створіть взвод або приєднайтеся до наявного. У Натиску взводи можуть складатися лише з двох гравців."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Формування загону з 2–3 гравців для спільної гри.\n• Режим бою: «Бій до останнього».\n• Типи боїв: «Сталеве полювання», «Перевага»."
@@ -264,12 +270,6 @@ msgstr "Досягнуто максимуму кількості важких т
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Досягнуто максимуму кількості середніх танків у взводі"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Досягнуто максимум легких танків у взводі"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Досягнуто максимуму кількості колісних машин у взводі"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Досягнуто максимум легких танків у взводі"

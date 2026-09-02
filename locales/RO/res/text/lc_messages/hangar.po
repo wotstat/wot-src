@@ -136,6 +136,24 @@ msgstr[0] "{{count}} victorie"
 msgstr[1] "{{count}} victorii"
 msgstr[2] "{{count}} victorii"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponibil timp de {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Experienţă de luptă"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Pentru a-ți sărbători revenirea în acțiune, avem ceva special pentru tine: {{@ style (color #ede6d9e6)}}Bonusul zilnic de Redistribuire{{/}} crește EXP de luptă obținută pentru prima ta victorie a zilei în fiecare vehicul."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Bun venit înapoi, comandante!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonusul se resetează zilnic, la {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonusul de redistribuire: Disponibil"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Clic pentru a merge la listele de vehicule"
 

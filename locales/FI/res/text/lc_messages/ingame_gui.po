@@ -700,6 +700,9 @@ msgstr "Alue vallattu"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Vahinko tulialueesta"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Aiheutettu vahinko"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Vaunu korjattu"
 
@@ -741,6 +744,9 @@ msgstr "Vahinkoa osumista"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Vahinkoa tulipallosta"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Vahinkoa osumista"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Vahikoa törmäyksistä"
@@ -907,6 +913,9 @@ msgstr "Telaa ei läpäisty"
 msgid "hitMarker/wheelBlocked"
 msgstr "Pyörää ei läpäisty"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s – %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "VAUNUN MAKSIMITASO"
 
@@ -1020,6 +1029,21 @@ msgstr "Korjauksia ei vaadita: kaikki laitteet ovat ehjiä."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] on täysin toimintakykyinen, korjausta ei tarvita."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Ei saatavilla: lipas on täynnä."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Ei saatavilla: ei ammuksia jäljellä."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Ei saatavilla: ei latauksia jäljellä."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Ei saatavilla: uudelleen lataus lähes valmis."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Raketin laukaisu ei ole saatavilla"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Koaksiaalisen aseen aktivointi ei onnistu."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm sirpalekranaatti %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm ontelokranaatti %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kriittisen osuman todennäköisyys: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Heikentynyt"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Parantunut"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Tavallinen"
+
 msgid "shells_kinds/params/damage"
 msgstr "Keskimääräinen vahinko: %(value)s kestopistettä"
 
@@ -2710,17 +2746,41 @@ msgstr "Vahinkoa per sekuntti: %(value)s pistettä/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Vahingosäde: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Täysi / yksittäinen viritys"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Perus / muokattu:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Täysi / yksittäinen viritys:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Tavallinen / säädetty:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Tavallinen / kalibroitu:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalisointikulma: %(value)s astetta"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Läpäisyn menetys: %(value)s per 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Keskimääräinen läpäisy: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Kimmokekulma: %(value)s astetta"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Ammuksen nopeus: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Lamautuksen kesto: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "aktivoidaksesi ulkoisen ammussyötön"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "vaihtaaksesi piiritystilaan"
@@ -2745,6 +2805,9 @@ msgstr "nestemäisen polttoaineen suihkumoottorien aktivoimiseksi"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "aktivoidaksesi suihkumoottorit"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "vaihtaaksesi ampumatiloja"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "aktivoidaksesi peräkkäiset rakettimoottorit"

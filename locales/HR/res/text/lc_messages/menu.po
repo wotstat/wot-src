@@ -826,6 +826,9 @@ msgstr "3D stilovi"
 msgid "carousel_tank_filter/ready"
 msgstr "Spreman"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Izviđač"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Snajper"
 
@@ -834,9 +837,6 @@ msgstr "Potpora"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Svestrani"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Na kotačima"
 
 msgid "centerIsAvailable"
 msgstr "Svi serveri su ponovo dostupni"
@@ -4159,6 +4159,9 @@ msgstr "Poboljšani sustav autopunjenja:\nSmanjuje standardno vrijeme automatsko
 msgid "moduleInfo/autoShootGun"
 msgstr "Top sa sustavom stalne paljbe"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ovo vozilo je opremljeno lanserom raketa montiranim na blendu topa. Aktivirajte sposobnost prebacivanja na ciljnig sekundarnog naoružanja i potom lansirajte nevođenu HE raketu s tipkom paljbe."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Zatvori"
 
@@ -4312,6 +4315,9 @@ msgstr "Hlađenje"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "na osnovne kvalifikacije i sposobnosti posade"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Vjerojatnost kritičnog pogotka"
+
 msgid "moduleInfo/params/damage"
 msgstr "Šteta"
 
@@ -4342,11 +4348,29 @@ msgstr "Vjerojatnost požara pri udaru"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Vrijeme leta"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Uvijek nanosi štetu ako je pogođen glavni oklop"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maksimalna udaljenost paljbe za ovaj top"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " ne ovisi o udaljenosti za ovaj tip granate"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", najveća udaljenost doleta-400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr "ovaj tip granate počinje gubiti snagu probojnosti s udaljenošću nakon prolaska kroz prvi zaslon"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " ovisi o udaljenosti: %(minDist)s-%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr "ovaj tip granate probija zaslone kao i obično, ali onda gubi snagu probojnosti jednaku trostrukoj debljini oklopa zaslona"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Najveća Brzina"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Uvijek nanosi štetu ako je pogođen glavni oklop"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Masa"
@@ -4378,20 +4402,11 @@ msgstr "HP"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Udaljenost paljbe"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maksimalna udaljenost paljbe za ovaj top"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Najveći kut okretanja kotača"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Prosječna šteta na %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " ne ovisi o udaljenosti za ovaj tip granate"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", najveća udaljenost doleta-400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Kut normalizacije"
@@ -4399,14 +4414,8 @@ msgstr "Kut normalizacije"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Gubitak probojnosti"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr "ovaj tip granate počinje gubiti snagu probojnosti s udaljenošću nakon prolaska kroz prvi zaslon"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " ovisi o udaljenosti: %(minDist)s-%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Prosječna probojnost (mm) - Udaljenost"
@@ -4456,9 +4465,6 @@ msgstr "Brzina zakretanja"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Množitelj razmaknutog oklopa"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr "ovaj tip granate probija zaslone kao i obično, ali onda gubi snagu probojnosti jednaku trostrukoj debljini oklopa zaslona"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Indukcijski pogonski sustav naknadnog izgaranja koji povećava prosječn
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Mlazni potiskivači povećavaju pokretljivost vozila"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Top vozila ima posebne uređaje koji omogućuju promjenu nekih parametara granate prije paljbe."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Potisnici na čvrsto gorivo koji pojačavaju ubrzanje, pokretljivost i upravljivost"
@@ -5284,11 +5293,14 @@ msgstr "Vozila savršenih topova čije učinkovito korištenje zahtjeva udovolja
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Višenamjenski tenkovi koji se mogu lako prilagoditi bilo kojoj borbenoj situaciji."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Brza i pokretna vozila koja mogu i izviđati i nanositi štetu prilikom obuhvatnih manevara."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Izviđački laki tenkovi su mala, okretna vozila izgrađena za uočavanje neprijatelja. Njihove niske siluete i jaka skrovitost, kao i izvrsna upravljivost i velika maksimalna brzina, čine ih vještima i u pasivnom i u aktivnom izviđanju, ali slaba izdržljivost i niska vatrena moć sprječavaju ih da pruže značajnu vatrenu podršku saveznicima."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vozila izvanrednih dinamičkih karakteristika čija učinkovita primjena ovisi o mapi ili taktičkoj situaciji."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Laki tenkovi podrške koriste svoju visoku pokretljivost, izvrsnu upravljivost i snažne topove za brzu promjenu bokova i nanošenje značajne štete prije povlačenja na sigurno. Iako u određenim situacijama mogu provoditi izviđanje, njihova velika veličina i loša prikrivenost čine ih manje učinkovitima u izviđanju od ostalih lakih tenkova."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Svestrani laki tenkovi su svestrana vozila sposobna za izviđanje i pružanje vatrene podrške saveznicima. Iako su manje učinkoviti u izviđanju od izviđača i imaju manju vatrenu moć od lakih tenkova podrške, uravnoteženi profili svestranih tenkova omogućuju im da obje uloge obavljaju sposobno i lako se prilagode širokom rasponu borbenih situacija."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vozila pristojnog oklopa koji ih čini najpogodnijim za blisku borbu i neodstupanje protiv neprijateljskih teških tenkova."
@@ -5329,11 +5341,14 @@ msgstr "Teški tenk podrške"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Svestrani teški tenk"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Izviđački laki tenk"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Laki tenk podrške"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Svestrani laki tenk"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Laki tenk na kotačima"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Jurišni srednji tenk"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Punjenje"
 msgid "tank_params/autoShootClipSec"
 msgstr "(spremnik/količina)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Ubrzano vrijeme punjenja granate"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Hlađenje naboja kod punog spremnika"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Osnovno hlađenje naboja"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Naboja na početku bitke"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Naboji"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Prosječna šteta (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Rasipanje na 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Prosječna probojnost granate (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Hlađenje (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Brzina raketne granate (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Prosječna šteta"
 
@@ -6057,6 +6105,21 @@ msgstr "Spremnik granata"
 
 msgid "tank_params/burstSec"
 msgstr "(s/količina/količina)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Prosječna šteta (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Najveća brzina (EAF režim) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Brzina paljbe (granata/min.)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Uključenje režima Vanjske opskrbe streljivom (EAF)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Isključenje režima Vanjske opskrbe streljivom (EAF)"
 
 msgid "tank_params/chargeTime"
 msgstr "Priprema salve"
@@ -6150,6 +6213,12 @@ msgstr "Snaga motora (KS) (Turbo režim)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Polumjer štete"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Najveća brzina (EAF režim) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Uključenje režima Vanjske opskrbe streljivom (EAF)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Vrijeme hlađenja topa nakon paljbe"
@@ -6325,9 +6394,6 @@ msgstr "Prohodnost po terenu"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Koincidentni elektromehanički ciljnik (% po s) (režim angažmana, pasivan)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(po aktivaciji)"
 
@@ -6484,8 +6550,20 @@ msgstr "Punjenje pomoćnog oružja"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Granate pomoćnog oružja"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Prilagođena prosječna šteta granate (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Prilagođena prosječna probojnost granate (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Punjenje redenikom"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Vrijeme je za prebacivanje režima"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Probojnost:"
@@ -6495,6 +6573,36 @@ msgstr "Rasipanje na 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Brzina granate"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Skrovitost neprijatelja iza raslinja (nepokretan i pokretan)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Skrovitost pokretnog neprijatelja"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Početno hlađenje"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Trajanje"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Hlađenje"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Brzina zakretanja kupole"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Konačna širina skeniranja"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Početna širina skeniranja"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Trajanje samoosmatranja"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Vidokrug"
 
 msgid "tank_params/speedLimits"
 msgstr "Maksimalna brzina/brzina unatrag"

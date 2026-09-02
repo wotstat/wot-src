@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s serveren"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Season of the Azure Dragon begynner: %(date)s"
+msgstr "Season of the Azure Phoenix begynner: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Season of the Crimson Dragon begynner: %(date)s"
+msgstr "Season of the Crimson Phoenix begynner: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Season of the Jade Dragon begynner: %(date)s"
+msgstr "Season of the Jade Phoenix begynner: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Venter på kvalifiseringsresultatene for å få din rangering"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Season of the Azure Dragon er avsluttet"
+msgstr "Season of the Azure Phoenix er avsluttet"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Season of the Crimson Dragon er avsluttet"
+msgstr "Season of the Crimson Phoenix er avsluttet"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Season of the Jade Dragon er avsluttet"
+msgstr "Season of the Jade Phoenix er avsluttet"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Kamper på denne serveren vil bli tilgjengelig om %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Karakteristika på kjøretøyet forbedret"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Gjenoppretter helsepoeng"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Innkommede skade økt"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Karakteristika på kjøretøyet forbedret"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Season of the Azure Dragon kommer til å vare i %(days)d dag"
-msgstr[1] "Season of the Azure Dragon kommer til å vare i %(days)d dager"
-msgstr[2] "Season of the Azure Dragon kommer til å vare i %(days)d dager"
+msgstr[0] "Season of the Azure Phoenix kommer til å vare i %(days)d dag"
+msgstr[1] "Season of the Azure Phoenix kommer til å vare i %(days)d dager"
+msgstr[2] "Season of the Azure Phoenix kommer til å vare i %(days)d dager"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Season of the Crimson Dragon kommer til å vare i %(days)d dag"
-msgstr[1] "Season of the Crimson Dragon kommer til å vare i %(days)d dager"
-msgstr[2] "Season of the Crimson Dragon kommer til å vare i %(days)d dager"
+msgstr[0] "Season of the Crimson Phoenix kommer til å vare i %(days)d dag"
+msgstr[1] "Season of the Crimson Phoenix kommer til å vare i %(days)d dager"
+msgstr[2] "Season of the Crimson Phoenix kommer til å vare i %(days)d dager"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Season of the Jade Dragon kommer til å vare i %(days)d dag"
-msgstr[1] "Season of the Jade Dragon kommer til å vare i %(days)d dager"
-msgstr[2] "Season of the Jade Dragon kommer til å vare i %(days)d dager"
+msgstr[0] "Season of the Jade Phoenix kommer til å vare i %(days)d dag"
+msgstr[1] "Season of the Jade Phoenix kommer til å vare i %(days)d dager"
+msgstr[2] "Season of the Jade Phoenix kommer til å vare i %(days)d dager"
 
 msgid "calendarDay/title"
 msgstr "Program"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Fordeler"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Onslaught. Year of the Dragon"
+msgstr "Onslaught: Year of the Phoenix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nullfordeler"
@@ -574,11 +577,17 @@ msgstr "Bekreftet!"
 msgid "intro/description/banPhase"
 msgstr "Hvert lag kan totalforby et kjøretøy fra en kamp. Samordne stemmene med allierte for å ekskludere maskinen du frykter mest, eller for å forberede en uventet lagoppstilling for fienden. Hvis kjøretøyet ditt blir forbudt, kan du velge mellom flere forhåndskonfigurerte leiekjøretøy i stedet."
 
+msgid "intro/description/draw"
+msgstr "Når tiden går ut og ingen av lagene har oppnådd en klar seier avgjøres kampresultatet av tiebreakere i denne rekkefølgen: Overlevende kjøretøy, skade påført og det første kjøretøyet som ble bekjempet. Hvis ingen skade er påført av noen av lagene erklæres kampen som uavgjort."
+
+msgid "intro/description/nightMaps"
+msgstr "Nattkart gir kjente slagmarker et nytt utseende med nattforhold, nye observasjonsposter, oppdaterte interessepunkter (POIs) og endret oppdagelsesmekanisme. Det nåværende utvalget inkluderer Glacier, Sand River, Outpost og Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Modusen har modifikatorer som endrer visse parametere på kjøretøyet, som f.eks. motstandsdyktighet, nedkjølingstid på forbruksmateriell, tiden man forblir synlig etter å ha blitt oppdaget og mer."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Så snart du erobrer bestemte områder på kartet, vil du kunne benytte taktiske ferdigheter. Det er to typer interessepunkter: Hovedkvarteret for artilleri vil la deg kunne dirigere et artilleriangrep mot en bestemt posisjon, og kommunikasjonssenteret vil oppdage alle de fiendtlige kjøretøyene. Avhengig av kart kan tilstedeværelsen og lokasjon for disse interessepunktene endre seg."
+msgstr "Når du har tatt kontroll over visse områder på kartet får du tilgang til taktiske ferdigheter. Det finnes to typer strategiske punkter: Artillerihovedkvarteret som lar deg be om et målrettet angrep og kommunikasjonssentre som avslører alle fiendtlige kjøretøy. Antallet og plasseringen av disse stedene varierer fra kart til kart."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Kjemp %(count)s kvalifiseringskamper for å bestemme ferdighetsnivå 
 msgstr[2] "Kjemp %(count)s kvalifiseringskamper for å bestemme ferdighetsnivå og rank. Når de er fullført, får du belønninger for rangeringen du oppnådde og alle tidligere rangeringer.\n\nDesertering eller uavgjort i en kvalifisering er det samme som å tape."
 
 msgid "intro/description/ranks"
-msgstr "Et system som viser spillerens ferdighetsnivå. Ha fremgang gjennom rankene fra Iron til Legend og tjen verdifulle premier. Kjemp gjennom hele Year of the Dragon for å få unike årsbelønninger."
+msgstr "Ha fremgang gjennom rankene fra Iron til Legend og tjen verdifulle premier. Kjemp gjennom hele Year of the Phoenix for å få unike årsbelønninger."
 
 msgid "intro/description/roleSkills"
 msgstr "Avhengig av rollen har hvert kjøretøy en spesialferdighet med tre ladningsnivåer. Jo høyere ladningsnivå når ferdigheten aktiveres, jo sterkere blir effekten. Ladningsnivået avhenger av antall prestisjepoeng som kan tjenes for imponerende ytelse i kamp, erobring av interessepunkter, bruk av taktiske ferdigheter, osv.\n\nSjekk reglene for modusen for å lære mer om de ulike måtene du kan tjene prestisjepoeng på."
@@ -597,6 +606,12 @@ msgstr "Du kan gå til kamp i utviklingsbare, spesial- eller samlerkjøretøy p�
 
 msgid "intro/title/banPhase"
 msgstr "KJØRETØYFORBUD"
+
+msgid "intro/title/draw"
+msgstr "REGLER FOR UAVGJORT"
+
+msgid "intro/title/nightMaps"
+msgstr "NATTKART"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ONSLAUGHT MODIFIKATORER"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "SEIER, MEN DU"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Forfremmet til %(rank)s"
+msgstr "Forfremmet til {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Rangering: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degradert til %(rank)s, %(division)s"
+msgstr "Degradert til {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Forfremmet til %(rank)s, %(division)s"
+msgstr "Forfremmet til {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Kamper kjempet"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Rekord for prestisjepoeng per sesong: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Season of the Azure Dragon er avsluttet på %(server)s serveren."
+msgstr "Season of the Azure Phoenix er avsluttet på %(server)s serveren."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Season of the Crimson Dragon er avsluttet på %(server)s serveren."
+msgstr "Season of the Crimson Phoenix er avsluttet på %(server)s serveren."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Season of the Jade Dragon er avsluttet på %(server)s serveren."
+msgstr "Season of the Jade Phoenix er avsluttet på %(server)s serveren."
 
 msgid "products/actions/buy"
 msgstr "Kjøp"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ONSLAUGHT. KVALIFISERING FULLFØRT"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ONSLAUGHT. SEASON OF THE AZURE DRAGON"
+msgstr "ONSLAUGHT: SEASON OF THE AZURE PHOENIX"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ONSLAUGHT SEASON OF THE CRIMSON DRAGON"
+msgstr "ONSLAUGHT: SEASON OF THE CRIMSON PHOENIX"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ONSLAUGHT. SEASON OF THE JADE DRAGON"
+msgstr "ONSLAUGHT: SEASON OF THE JADE PHOENIX"
 
 msgid "rewardsScreen/description/year"
-msgstr "ONSLAUGHT. YEAR OF THE DRAGON"
+msgstr "ONSLAUGHT. YEAR OF THE PHOENIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Hvor er min Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Slutter om %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Season of the Azure Dragon"
+msgstr "Season of the Azure Phoenix"
 
 msgid "seasonName/second"
-msgstr "Season of the Crimson Dragon"
+msgstr "Season of the Crimson Phoenix"
 
 msgid "seasonName/third"
-msgstr "Season of the Jade Dragon"
+msgstr "Season of the Jade Phoenix"
 
 msgid "seasonPointTooltip/header"
 msgstr "Onslaught Colors"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Plass på rangeringslisten: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "ONSLAUGHT. %(seasonNameUpper)s"
+msgstr "ONSLAUGHT %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Mottatt %(points)s Onslaught Colors"
 msgstr[2] "Mottatt %(points)s Onslaught Colors"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SEASON 1. AZURE DRAGON"
+msgstr "1. SESONG: AZURE PHOENIX"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SEASON 2. CRIMSON DRAGON"
+msgstr "2. SESONG: CRIMSON PHOENIX"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SEASON 3. JADE DRAGON"
+msgstr "3. SEASONG: JADE PHOENIX"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Seiere: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Denne modusen blir tilgjengelig den %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azure Dragon"
+msgstr "Azure Phoenix"
 
 msgid "shortSeasonName/second"
-msgstr "Crimson Dragon"
+msgstr "Crimson Phoenix"
 
 msgid "shortSeasonName/third"
-msgstr "Jade Dragon"
+msgstr "Jade Phoenix"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Denne seksjonen inneholder informasjon om de beste spillerne i den inneværende sesongen av Onslaught modusen."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Se alle"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Støtt Onslaught Legends Series ved å booste premiepotten med turneringspakker!"
+msgstr "Dersom laget du velger vinner, får du et unikt OLS 2026 merke. Hei frem dine favoritter!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Vis din glede for esport med eksklusive tematiserte tilpasningselementer og unike tanks!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Et episk sammenstøt kommer til å skje i World of Tanks Championship International i Suzhou, Kina, der de beste lagene fra hele verden møtes under reglene for Onslaught modusen, og der de alle sikter mot den prestisjefylte tittelen som verdensmester. Opplev spenningen når legender blir til på slagmarken!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS 6. sesong"
+msgstr "OLS 7. sesong"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Denne sesonger er siste mulighet til å hente verdifulle belønninger, inkludert den eksklusive tunge tanksen Ashbringer på nivå 10 med alle de unike 3D stilene du har tjent til den med en fryktløs besetning med våpenbrødre som nullfordel, i tillegg til forbedret og eksperimentelt utstyr du kan velge fra, en iøynefallende 2D stil og mer. Ikke gå glipp av dette—din seier venter deg på slagmarken!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Grip de siste øyeblikkene i Year of the Dragon!"
+msgstr "Grip de siste øyeblikkene i Year of the Phoenix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEASON OF THE JADE DRAGON"
+msgstr "Season of the Azure Phoenix"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "ONSLAUGHT. HVA ER NYTT?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Utestengt!"
+msgstr "Slipp løs flammene dine!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Den forbedrede resultatskjermen etter kamp, med sitt ferske Oppdatering 2.0 utseende, vil nå gi deg ytterligere modusrelatert informasjon etter hver kamp."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Når tiden går ut og ingen av lagene har oppnådd en klar seier avgjøres kampresultatet av tiebreakere i denne rekkefølgen: Overlevende kjøretøy, skade påført og det første kjøretøyet som ble bekjempet. Hvis ingen skade er påført av noen av lagene erklæres kampen som uavgjort."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detaljerte kampresultater"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Ikke bekymre deg for at favorittkjøretøyet ditt ble utestengt. Leiekjøretøy kommer nå med forhåndskonfigurert mannskap, utstyr, granater og forbruksmateriell."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Startklare leiekjøretøy %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Denne sesongen kan hvert lag totalforby et kjøretøy fra kamp. Samordne stemmene med allierte for å ekskludere maskinen dere frykter mest, eller for å forberede en uventet lagoppstilling for fienden."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Utestengelse av kjøretøy %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Oppdatert vilkår for uavgjort {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kart"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nye kjøretøy tilgjengelig i Onslaught"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Versjon 2.4 introduserer nye roller for lette tanks og rebalansering av karakteristika for kjøretøy. Prøv dem i kamp!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nye roller for lette tanks {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Fersk spillopplevelse på kjente kart. Endringene inkluderer nattforhold, nye observasjonsposter, nye interessepunkter (POI) og modifisert oppdagelsesmekanisme. Alt dette endrer kampens gang og gjør at situasjonsforståelse, timing og taktiske bevegelser betyr mer enn noen gang."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Nattkart er her! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "På grunn av lavt antall spillere i kamper har supertropper blitt deaktivert. Vi jobber med alternative lagbaserte måter å spille Onslaught på. I mellomtiden er 7 mot 7 turneringer tilgjengelige med jevne mellomrom."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Slutt med supertropper {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Leiekjøretøy"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Den nylig utgitte amerikanske mediumtanksen Ares 90 på nivå 10 er nå tilgjengelig i modusen med en justert rolleferdighet."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Kart: Erlenberg har blitt fjernet. POIs på Airfield har blitt flyttet. Mindre endringer i Pilsen.\n• Kjøretøy: Vz. 60S Dravec har blitt fjernet. Den nye tyske tunge tanksen Kampfpanzer 67 har blitt lagt til."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Oppdatering av rolleferdigheter %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 er nå tilgjengelig for kjøp under rangeringen som Silver i Onslaught butikken."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Butikkoppdateringer %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Endringer i sesongbalansering {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "FJERNET"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Season 1. Azure Dragon"
+msgstr "1. SESONG: AZURE PHOENIX"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Season 2. Crimson Dragon"
+msgstr "2. SESONG: CRIMSON PHOENIX"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Season 3. Jade Dragon"
+msgstr "3. SEASONG: JADE PHOENIX"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Nåværende"

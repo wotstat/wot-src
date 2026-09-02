@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neoninės lenktynės yra unikalus riboto laiko renginys, kurio metu galėsite išbandyti kai ką naujo! Lėkite ir stumdykitės įveikdami pražūtingas kliūtis, vykdykite misijas ir užsidirbkite."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Galimai sumažinta greitaveika"
+msgstr "Žema greitaveika"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Visi lygiai"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "Žema greitaveika"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "%(icon) Žema greitaveika"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "Galimai sumažinta greitaveika"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "%(icon) Galimai sumažinta greitaveika"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Nauja Neoninių lenktynių misija pasiekiama po:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Sveikiname!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Begalinė post progresija"
+msgstr "Pakartojamas etapas"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Jūs užbaigėte pagrindinę seką"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Šį etapą galite įvykdyti tiek kartų, kiek norite."
+msgstr "Gaukite kiek galite daugiau apdovanojimų:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Uždirbti taškai: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Pakartojama"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Už įvykdymą:"
+msgstr "Už užbaigimą"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Už pralaimėjimą:"
+msgstr "Už pralaimėjimą"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Už pergalę:"
+msgstr "Už pergalę"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Taškai:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Jūs įvykdėte visas misijas, kurias galėjote. Daugiau jų atsiras kitame etape."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Pasiekiama dar {{timeLeft}}"
+msgstr "Pradingsta po {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Pasiekiama dar {{timeLeft}}"
+msgstr "Iki renginio pabaigos liko {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Naujos misijos atsiras po {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Venkite lazerių ir apskaičiuokite kada pašokti pakeliui iki finišo!"
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Pavojus: lazeriai ir šuoliai"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Jei jūsų mašina užstringa, gebėjimas \"Sugrįžti į kontrolinį punktą\" leis jums grįžti į paskutinį pasiektą kontrolinį punktą."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Sugrįžti į kontrolinį punktą"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "norėdami daugiau sužinoti apie šį režimą"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Kovokite iki pat\nfinišo tiesiosios"
+msgstr "Prasiskinkite kelią iki finišo linijos"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Visi lygiai"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos, o intensyvių akimirkų metu gali sumažėti kadrų per sekundę skaičius."
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "Žema greitaveika"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "%(icon) Žema greitaveika"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "Galimai sumažinta greitaveika"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+msgstr "%(icon) Galimai sumažinta greitaveika"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neoninės lenktynės"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Lenktyniaukite ir grumkitės pražūtingose trasose, vykdykite misijas ir uždirbkite apdovanojimų."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neoninės lenktynės"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neoninės lenktynės"

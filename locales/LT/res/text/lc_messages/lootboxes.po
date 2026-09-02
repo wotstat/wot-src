@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Mes atidarėme visas jūsų šventines dėžes."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Sveikiname!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Jūs galite nusipirkti didelių dėžių Premium parduotuvėje"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Didelės dėžės"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Mažos dėžės"
-
-msgid "entryDesc/questSlot"
-msgstr "Mažos dėžės gaunamos už įvykdytas misijas."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Šis funkcionalumas laikinai negalimas. Pabandykite vėliau."
 
 msgid "entryPoint/header"
-msgstr "Dėžės"
-
-msgid "entryTooltip/body/h1"
-msgstr "Nusipirkti dideles dėžes:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Uždirbti mažas dėžes:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Pirkite Premium parduotuvėje dėžes su naujametiniais papuošimais sau ir savo draugams."
-
-msgid "entryTooltip/body/p2"
-msgstr "Apdovanojama už Šventinė operacijos misijų įvykdymą."
-
-msgid "entryTooltip/header"
 msgstr "Dėžės"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "dar dėžių: {count}"
 msgid "entryView/buyLabel"
 msgstr "PIRKTI DĖŽES"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Jūs neturite didelių dėžių sandėlyje.\nNusipirkite jas Premium parduotuvėje."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Jūs neturite mažų dėžių.\nUždirbkite jas mūšiuose."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Šventinė operacija {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Tikrai taip!"
@@ -178,9 +139,6 @@ msgstr "Išteklių dėžių atidarymas"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Pridėta"
 
-msgid "notification/ny19man"
-msgstr "Unikalus įgulos narys: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Jūs gaunate šiuos apdovanojimus:"
 
@@ -244,36 +202,6 @@ msgstr "Unikalus stilius, skirtas"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Peržiūrėti garaže"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Kalėdinės dėžės"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Stebuklingos dėžės"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Naujametinės dėžės"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Mėnulio dėžės"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Kalėdinė kolekcija"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magiška kolekcija"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Naujametinė kolekcija"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Mėnulio kolekcija"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Dėžėse papuošimai iš {category} kategorijos ir kiti vertingi prizai."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Apdovanojimai:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Nusipirkite papildomų dėžių Premium parduotuvėje."
 
@@ -285,12 +213,6 @@ msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
 
 msgid "type/event_premium"
 msgstr "Aušros išteklių dėžė"
-
-msgid "type/newYear_premium"
-msgstr "DIDELĖS DĖŽĖS"
-
-msgid "type/newYear_usual"
-msgstr "MAŽOS DĖŽĖS"
 
 msgid "type/wt_boss"
 msgstr "Inžinieriaus starteris"

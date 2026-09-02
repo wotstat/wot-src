@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Affirmatif !"
 
 msgid "error/description"
-msgstr "Les informations sont temporairement indisponibles. Nous nous excusons de la gêne occasionnée. Veuillez réessayer plus tard."
+msgstr "Nous nous excusons de la gêne occasionnée. Veuillez réessayer plus tard."
 
 msgid "error/title"
-msgstr "Impossible d'ouvrir la Sélection des récompenses"
+msgstr "Cette page est temporairement indisponible"
 
 msgid "footer/closeBtn/label"
 msgstr "Sélectionner plus tard"
@@ -23,7 +23,7 @@ msgstr[1] "Sélectionnez des récompenses dans les catégories indiquées."
 msgstr[2] "Sélectionnez des récompenses dans les catégories indiquées."
 
 msgid "footer/okBtn/label"
-msgstr "Obtenir"
+msgstr "Obtenir les récompenses"
 
 msgid "footer/rewardsSelected"
 msgstr "Récompenses sélectionnées :"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Déjà reçu"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "La limite a déjà été atteinte pour les objets sélectionnés de cette catégorie. Vous pouvez annuler la sélection d'un objet pour le remplacer par un autre."
+msgstr "Vous avez atteint le nombre maximal d'objets autorisés dans cette catégorie. Désélectionnez un objet pour en choisir un autre."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limite atteinte"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Directives\nd'équipement"
@@ -93,6 +93,9 @@ msgstr "Équipement standard"
 
 msgid "tabs/items/trophy"
 msgstr "Équipement de prime"
+
+msgid "tooltips/footer/body"
+msgstr "Sélectionnez les récompenses pour les obtenir"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Cliquez sur le bouton Obtenir pour recevoir les récompenses sélectionnées."

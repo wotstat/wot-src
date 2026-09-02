@@ -700,6 +700,9 @@ msgstr "Alan ele geçirme"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Yangın alanından hasar"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Verilen Hasar"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Araç onarıldı"
 
@@ -741,6 +744,9 @@ msgstr "Atış Sonucu Hasar"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Alev Topu tarafından hasar"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Atış Sonucu Hasar"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Çarpma sonucu hasar"
@@ -907,6 +913,9 @@ msgstr "Palet delinmedi"
 msgid "hitMarker/wheelBlocked"
 msgstr "Tekerlek delinmedi"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSİMUM ARAÇ SEVİYESİ"
 
@@ -1020,6 +1029,21 @@ msgstr "Tamirata gerek yok: bütün cihazlar çalışıyor."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] kullanılabilir durumda, tamir gerekmiyor."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Geçersiz: Şarjör dolu."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Geçersiz: Mermi kalmadı."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Geçersiz: Şarj kalmadı."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Geçersiz: Yükleme neredeyse tamamlandı."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Roket fırlatma devre dışı"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Eş eksenli silah etkinleştirilemiyor."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Yüksek Patlayıcı %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm YP Tanksavar %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kritik isabet olasılığı: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Azaldı"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Arttı"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standart"
+
 msgid "shells_kinds/params/damage"
 msgstr "Ortalama hasar: %(value)s CP"
 
@@ -2710,17 +2746,41 @@ msgstr "Saniye Başına Hasar: %(value)s CP/sn."
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Hasar yarıçapı: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Tam / Tek Barut Hakkı"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Temel / Değiştirilmiş:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Tam / Tek Şarj:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standart / Ayarlanmış:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standart / Kalibrelendirilmiş:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalizasyon açısı: %(value)s derece"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Delme gücü kaybı: 100 mm başına %(value)s"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%%%(value)s"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Ortalama delme gücü: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Sekme açısı: %(value)s derece"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Mermi hızı: %(value)s m/sn."
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Şok süresi: %(minValue)s - %(maxValue)s sn."
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "HMB modunu etkinleştirin"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "Kuşatma moduna geçmek için"
@@ -2745,6 +2805,9 @@ msgstr "Sıvı Yakıt Takviyeleri etkinleştirmek için"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "tuşuna basarak jet takviyesini etkinleştirin"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "atış modunu değiştirin"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "Ardışık İtici Roketler etkinleştirmeye"

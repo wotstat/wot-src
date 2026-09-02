@@ -6052,6 +6052,18 @@ msgstr "La direttiva non funzionerà perché hai superato il limite di 6 talenti
 msgid "moduleFits/wrong_slot/body"
 msgstr "Il modulo è già equipaggiato in un altro slot."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "La probabilità di causare danni critici a moduli e/o equipaggio nemici."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "La quantità di cui viene ridotto l'angolo di impatto del proiettile quando colpisce la corazza nemica."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "La quantità di capacità di perforazione che il proiettile perde ogni 100 mm dopo aver colpito una schermatura nemico."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "L'angolo al quale il proiettile rimbalza automaticamente sulla corazza nemica."
+
 msgid "multiselection/alert/body"
 msgstr "Seleziona veicoli: puoi partecipare a battaglie solo con un gruppo al completo."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Pass di battaglia: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin conosceva le aride distese salate della sua attuale missione come il palmo della sua mano, anch'essa segnata dalle intemperie. Abituato a contesti instabili, si era fatto le ossa specializzandosi nella difesa contro le armi chimiche ben prima di salire a bordo di un carro armato. Vent'anni dopo, si ritrovava a pochi giorni di cammino dal complesso del laboratorio dove aveva iniziato il servizio militare come tecnico alle prime armi. Il tempo e le difficoltà non lasciano nessuno indenne, ma, come Vadim diceva scherzosamente al suo equipaggio, non era stato redatto alcun documento per il suo congedo; quindi, finché qualcuno non l'avesse compilato correttamente, lui sarebbe rimasto lì."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Le lussureggianti vallate della giovinezza di Bryn Powell erano un ricordo lontano rispetto ai climi aspri che ebbe modo di conoscere. Il suo ultimo briefing era stato sorprendentemente povero di dettagli e le frasi \"agente chimico non identificato\" e \"rischio di pericolo mortale: estremo\" avrebbero spinto molti comandanti a pregare per un trasferimento. Ma Bryn ha sempre considerato l'istinto di conservazione una qualità ammirevole negli altri. Temerario per natura, avrebbe potuto avere una carriera brillante come stuntman, se avesse voluto. Per lui stare ai comandi di un corazzato è quasi la stessa cosa."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora era un comandante imperturbabile. Da veterano delle missioni di peacekeeping in regioni instabili, aveva imparato a mantenere la calma anche quando la pressione si faceva sempre più forte. Sia che si trovasse al limite delle forze dopo una lunga notte di pattuglia, sia che si trattasse di analizzare informazioni sempre più inquietanti sulla sostanza sconosciuta che il suo equipaggio era stato incaricato di scoprire, la sua compostezza non venne mai meno. Tenne alto il morale con battute che si muovevano sul confine tra leggerezza e umorismo macabro, rifiutandosi di perdere il bagliore negli occhi o l'elasticità nel passo."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "A Sandrine Ousset non sfuggiva nulla. Tiratrice scelta pluridecorata prima di essere reclutata per una missione segreta di ricognizione corazzata, il suo sguardo acuto andava ben oltre il mirino del suo fucile. Bastava mostrarle un frammento distorto di informazioni nemiche perché lei traesse conclusioni di un'accuratezza così costante che persino il suo stesso equipaggio, all'inizio, scambiò le sue straordinarie capacità di osservazione per chiaroveggenza. Sotto il suo comando, i segreti raramente rimanevano nascosti a lungo. Fortunatamente per la sua squadra, riservava la sua implacabile attenzione per la fonte del reagente sconosciuto su cui erano stati incaricati di indagare."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "La gente mi chiede sempre se conosco Jack Reed. Solitamente, prima di rispondere, prendo un respiro profondo e chiudo gli occhi per un attimo. Essere il suo comandante non è una passeggiata. Reed è un ribelle che in qualche modo riesce a seguire gli ordini e rimanere entro i limiti imposti dall'esercito. Proprio ora è intrappolato in un carro armato rovente come l'inferno. Ma, nel profondo, sta percorrendo la strada in modo da poter sfrecciare sulla Road 66 con la sua bici e sentire il vento tra i capelli."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Campagna Settore 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Cresciuto in una famiglia di orologiai di Berna, Stefan ereditò un mestiere che richiedeva silenzio, pazienza e controllo assoluto. Ma per lui, queste qualità avrebbero aperto le porte a una carriera molto diversa. Nel 1940 i servizi segreti britannici gli offrirono una scelta: la Svizzera neutrale da un lato del confine, lui dall'altra. Tra i passi alpini passò dall'essere un tecnico di dispositivi di spionaggio a tiratore scelto. Dopo la guerra continuò a lavorare, eliminando chi era sfuggito alla giustizia sotto falso nome. Stefan ha sempre lavorato da solo, senza lasciare traccia, e lo fa ancora oggi: nessuno del Settore 3 ha mai visto la sua faccia."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Campagna Settore 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s - proiettile predefinito per il cannone selezionato. Utilizzato
 msgid "shell/basic/description/bold"
 msgstr "Proiettile predefinito"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "La Modalità alimentazione esterna munizioni del veicolo consente l'utilizzo di proiettili con danni maggiori."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Base"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modificato"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Una meccanica speciale per il cannone del veicolo che consente di sparare in anticipo modificando i parametri dei proiettili."
 
@@ -10866,6 +10932,21 @@ msgstr "Base:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Alterati:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Il Programmatore di spolette regolabili aumenta il danno medio o la perforazione."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Modificabile:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Il cannone del veicolo dispone di dispositivi speciali che consentono di modificare alcuni parametri dei proiettili prima di aprire il fuoco."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Calibrato"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Mostra/nascondi l'area sotto il fuoco delle A-SMV nemiche sulla minimappa."
@@ -11028,6 +11109,12 @@ msgstr "Ridurre la qualità audio potrebbe migliorare le prestazioni di gioco ge
 
 msgid "soundQualityOn/header"
 msgstr "Audio LQ"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Il {{@ style (color #E9E2BF)}}danno medio{{/}} aumenta dopo un colpo perforante contro un veicolo nemico."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "La {{@ style (color #E9E2BF)}}perforazione media{{/}} aumenta dopo un colpo non perforante contro un veicolo nemico."
 
 msgid "specializationWotPlus/content/header"
 msgstr "I membri dell'equipaggio a bordo di veicoli Premium sono addestrati il 50% più velocemente:"
@@ -11386,6 +11473,36 @@ msgstr "Il Sistema autoricaricatore migliorato riduce il tempo standard di autor
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Tempo tra lo sparo dell'ultimo proiettile nel caricatore (o entrambi i cannoni) e il caricamento del nuovo caricatore. / Numero di cannoni o proiettili nel caricatore."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Il tempo che sostituisce quello rimanente di ricarica quando viene utilizzata questa meccanica."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Il tempo necessario per rifornire una carica se il caricatore è pieno."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Il tempo necessario per rifornire una carica se il caricatore non è pieno."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Il numero di cariche disponibile all'inizio della battaglia."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Il numero massimo di cariche per accelerare la ricarica di un proiettile che può essere conservato."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Danno medio causato da un proiettile del lanciarazzi dopo un colpo perforante. La dispersione del danno potenziale è pari a +/- 25% del valore medio."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "La dispersione è caratterizzata dalla deviazione massima del proiettile dal punto di mira, alla distanza di 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Spessore medio della corazza perforata da un proiettile del lanciarazzi. La dispersione è +/- 25% del valore medio."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Tempo richiesto per ricaricare il lanciarazzi"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Determina la velocità dei razzi non guidati."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Danno medio causato da un proiettile standard dopo un colpo perforante. La dispersione del danno potenziale è pari a +/- 25% del valore medio."
 
@@ -11406,6 +11523,21 @@ msgstr "Durata massima dell'effetto dei Razzi ausiliari dopo ogni attivazione."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Tempo di caricamento tra i proiettili nel contenitore. / Numero di contenitori nel caricatore. / Numero di proiettili nel contenitore."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Danno medio causato da un colpo singolo ad alta carica dopo un colpo perforante. La dispersione del danno potenziale è pari a +/- 25% del valore medio."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Riduzione della velocità nominale in avanti del veicolo in Modalità alimentazione esterna munizioni. La velocità in retromarcia non viene influenzata."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Riduzione del numero di colpi al minuto in Modalità alimentazione esterna munizioni."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Tempo minimo richiesto per preparare il cannone al fuoco dopo l'attivazione della Modalità alimentazione esterna munizioni. Durante questo periodo di tempo, non è possibile cambiare modalità."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Tempo minimo richiesto per preparare il cannone al fuoco dopo essere tornati alla modalità Standard. Durante questo periodo di tempo, non è possibile cambiare modalità."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Tempo di preparazione per sparare con due cannoni contemporaneamente. / Durata del blocco di ricarica del cannone dopo aver sparato la salva."
@@ -11737,8 +11869,17 @@ msgstr "Tempo per ricaricare l'arma ausiliaria dopo aver fatto fuoco."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Numero di proiettili disponibili per le armi ausiliarie durante ogni attivazione."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Il bonus ai danni garantito dopo un colpo perforante contro un veicolo nemico."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Il bonus alla perforazione fornito da un colpo non perforante contro un veicolo nemico."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Tempo necessario per caricare i proiettili all'inizio della battaglia e passare tra tipi di proiettili differenti."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Tempo necessario per passare tra la modalità di fuoco Calibrata e quella Standard."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "La dispersione del cannone è caratterizzata dalla deviazione massima del proiettile dal punto di mira, alla distanza di 100 m."
@@ -11748,6 +11889,36 @@ msgstr "La dispersione del cannone è caratterizzata dalla deviazione massima de
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Mostra quanti metri il proiettile può deviare dal punto di mira ogni 100 metri dal bersaglio. Il valore standard (il primo) è per il cannone surriscaldato, mentre il valore migliorato (il secondo) è per il cannone raffreddato."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Riduzione progressiva del mimetismo dei veicoli nemici dietro al fogliame nel settore scansionato dall'IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Riduzione progressiva del mimetismo dei veicoli nemici in movimento nel settore scansionato dall'IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Tempo necessario per utilizzare l'IRST per la prima volta dopo l'inizio della battaglia."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Durata della scansione dell'IRST."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Tempo necessario prima che l'IRST possa essere usato nuovamente dopo l'attivazione."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Riduzione della velocità di brandeggio della torretta mentre l'IRST è attivo."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Ampiezza del settore scansionato dall'IRST al termine della sua durata."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Ampiezza del settore scansionato dall'IRST all'inizio della sua durata."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Tempo in cui il tuo veicolo rimane visibile dopo l'individuazione di un nemico non avvistato con l'IRST."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Aumento progressivo del raggio visivo nel settore scansionato dall'IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "La velocità del veicolo come definita nelle sue caratteristiche tecniche."

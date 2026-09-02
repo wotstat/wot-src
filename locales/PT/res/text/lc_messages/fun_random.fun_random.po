@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "O Neon Dash é um evento único e de tempo limitado que oferece algo diferente! Corra e lute em pistas perigosas, conclua missões e ganhe recompensas."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso do desempenho ser insuficiente, experimente selecionar uma qualidade gráfica mais baixa nas Definições."
+msgstr "O desempenho do seu computador é insuficiente para este modo. Irá sofrer alguns problemas com os gráficos e o movimento do veículo. O encerramento do cliente também é provável."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Desempenho Possivelmente Reduzido"
+msgstr "Baixo Desempenho"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso do desempenho ser insuficiente, experimente selecionar uma qualidade gráfica mais baixa nas Definições."
+msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso de o desempenho ser insuficiente, experimente uma qualidade gráfica mais baixa nas Definições."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Desempenho Possivelmente Reduzido"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Todos os Níveis"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Com definições gráficas baixas, podem ocorrer artefactos visuais e problemas. Recomendamos que selecione a definição gráfica mais elevada para obter a melhor experiência possível, desde que as especificações do seu computador cumpram os requisitos. O modo exige um elevado desempenho do computador. A taxa de FPS pode diminuir durante combates intensos."
+msgstr "O desempenho do seu computador é insuficiente para este modo. Irá sofrer alguns problemas com os gráficos e o movimento do veículo. O encerramento do cliente também é provável."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Definições gráficas mais elevadas recomendadas"
+msgstr "Baixo Desempenho"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Definições gráficas mais elevadas recomendadas"
+msgstr "%(icon) Baixo Desempenho"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Com definições gráficas baixas, podem ocorrer artefactos visuais e problemas. Recomendamos que selecione a definição gráfica mais elevada para obter a melhor experiência possível, desde que as especificações do seu computador cumpram os requisitos. O modo exige um elevado desempenho do computador. A taxa de FPS pode diminuir durante combates intensos."
+msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso de o desempenho ser insuficiente, experimente uma qualidade gráfica mais baixa nas Definições."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Definições gráficas mais elevadas recomendadas"
+msgstr "Desempenho Possivelmente Reduzido"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Definições gráficas mais elevadas recomendadas"
+msgstr "%(icon) Desempenho Possivelmente Reduzido"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Uma nova missão Neon Dash está disponível em:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Parabéns!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Pós-Progressão Infinita"
+msgstr "Fase Repetível"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "Concluiu a progressão principal"
+msgstr "Concluiu a Progressão Principal"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Conclua esta fase quantas vezes conseguir."
+msgstr "Obtenha o máximo de recompensas que conseguir:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Pontos ganhos: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Repetível"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Pela conclusão:"
+msgstr "Por conclusão"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Pela derrota:"
+msgstr "Por derrota"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Pela vitória:"
+msgstr "Por vitória"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Pontos:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Concluiu todas as missões disponíveis por agora. Mais aparecerão na próxima rotação."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Disponível por {{timeLeft}}"
+msgstr "Expira em {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Disponível por {{timeLeft}}"
+msgstr "O evento termina em {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Novas missões disponíveis em {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Desvie-se dos lasers e calcule o tempo dos saltos com precisão para che
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Cuidado: Lasers e Saltos"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Se o seu veículo ficar preso, use a funcionalidade «Voltar ao Checkpoint» para se teletransportar de volta ao último checkpoint que atingiste."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Voltar ao Checkpoint"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "para saber mais sobre este modo"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Lute até\nchegar à meta"
+msgstr "Lute até chegar à meta"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Todos os Níveis"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Com definições gráficas baixas, podem ocorrer artefactos visuais e outros problemas. Recomendamos que selecione a definição gráfica mais elevada para obter a melhor experiência possível, desde que as especificações do seu computador cumpram os requisitos. Este modo exige um elevado desempenho e a taxa de FPS pode diminuir em momentos mais intensos."
+msgstr "O desempenho do seu computador é insuficiente para este modo. Irá sofrer alguns problemas com os gráficos e o movimento do veículo. O encerramento do cliente também é provável."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Definições Gráficas Mais Elevadas Recomendadas"
+msgstr "Baixo Desempenho"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Definições gráficas mais elevadas recomendadas"
+msgstr "%(icon) Baixo Desempenho"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Com definições gráficas baixas, podem ocorrer artefactos visuais e outros problemas. Recomendamos que selecione a definição gráfica mais elevada para obter a melhor experiência possível, desde que as especificações do seu computador cumpram os requisitos. Este modo exige um elevado desempenho do computador. A sua taxa de FPS pode diminuir em momentos mais intensos."
+msgstr "Este modo necessita de um alto desempenho do seu computador. Poderá sofrer alguns problemas com o carregamento dos mapas, gráficos e o movimento do veículo. No caso de o desempenho ser insuficiente, experimente uma qualidade gráfica mais baixa nas Definições."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Definições Gráficas Mais Elevadas Recomendadas"
+msgstr "Desempenho Possivelmente Reduzido"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Definições gráficas mais elevadas recomendadas"
+msgstr "%(icon) Desempenho Possivelmente Reduzido"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Corra e lute em percursos perigosos, cumpra missões e ganhe recompensas."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neon Dash"

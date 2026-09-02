@@ -28,6 +28,30 @@ msgstr "ZÍSKANÉ ODMĚNY"
 msgid "awardViews/footer/backButton/"
 msgstr "Potvrzuji!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Zbývá {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Žádná znovuotevření"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Cenná odměna"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Bezplatně znovuotevřít"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nedostatek bonů"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Znovuotevřít za {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Znovuotevřít"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Vypadly cenné odměny, bednu nelze znovuotevřít."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Směrnice"
 
@@ -118,6 +142,18 @@ msgstr "Beden otevřeno: %(count)"
 msgid "common/statsButton"
 msgstr "Statistiky"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Zrušit"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Bedna bude Znovuotevřena a vy budete mít šanci získat jiné odměny."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Znovuotevřít"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Znovuotevřít za {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Zrušit"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Akce skončí za %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Pokud neotevřete všechny bedny před koncem akce, budou později otevřeny automaticky."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Pokud bedny neotevřete před koncem akce, budou otevřeny automaticky."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu bedny, pak všechna následující vozidla, která z beden získáte, budou kompenzována ve zlaťácích v hodnotě jejich plné ceny."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Každá %(guaranteed0)s. bedna zaručeně obsahuje vozidlo VIII.–X. úrovně. Pokud daný počet beden otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s.&zwnbsp;bedny padne v závislosti na typu bedny vozidlo VIII.–X. úrovně, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Každá %(guaranteed)s. bedna zaručeně obsahuje vozidlo VIII.–X. úrovně. Pokud daný počet beden otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed)s.&zwnbsp;bedny padne v závislosti na typu bedny vozidlo VIII.–X. úrovně, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
 
-msgid "infoPage/footer/title/autoOpen"
-msgstr "Otevřít automaticky"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Pokud nejste spokojeni s odměnami z bedny, můžete ji znovuotevřít a získat tak šanci na jiné předměty ze stejného seznamu. Počet znovuotevření každé bedny je omezený:"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/autoOpen/default"
+msgstr "Automaticky otevřít"
+
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompenzace"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Zaručená odměna"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Znovuotevření"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Zobrazit seznam předmětů na portálu"
@@ -273,6 +315,30 @@ msgstr "pro %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D styl „%(style)“"
+
+msgid "reroll/free"
+msgstr "Zdarma"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finanční transakce"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Odečteno kreditů: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Odečteno bonů: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Odečteno zlaťáků: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Akce „%(eventName)s“ skončila"
@@ -480,3 +546,15 @@ msgstr "Kompenzovaná vozidla: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompenzace za vozidlo, které je již ve vaší garáži."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Znovuotevřít"
+
+msgid "tooltip/reroll/price"
+msgstr "Cena"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Znovuotevření vám zajišťuje šanci získat jiné odměny ze stejného seznamu."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Znovuotevření"

@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de minim aceeași generație trăgând în ele de la o distanță de maxim %(distanceShortOrEqual)s m"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "Distruge %(goal)s vehicule inamice de minim aceeași generație, de la o distanță de maxim %(distanceShortOrEqual)s m"
+msgstr "Distruge %(goal)s vehicule inamice din minim aceeași generație, de la o distanță de maxim %(distanceShortOrEqual)s m"
 
 msgid "pm3_10_1_7_short"
 msgstr "Avangardă-7"
@@ -5856,6 +5856,978 @@ msgstr "Daune"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Distruge"
+
+msgid "pm4_11_1_1"
+msgstr "Avangardă-1"
+
+msgid "pm4_11_1_10"
+msgstr "Avangardă-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice care ți-au avariat vehiculul cu proiectile"
+
+msgid "pm4_11_1_10_short"
+msgstr "Avangardă-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Daune"
+
+msgid "pm4_11_1_11"
+msgstr "Avangardă-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Distruge prin coliziune un vehicul inamic și supraviețuiește impactului"
+
+msgid "pm4_11_1_11_short"
+msgstr "Avangardă-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_1_12"
+msgstr "Avangardă-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice de la distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_12_short"
+msgstr "Avangardă-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_1_13"
+msgstr "Avangardă-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Câștigă meritul Calibru greu"
+
+msgid "pm4_11_1_13_short"
+msgstr "Avangardă-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Eroi ai luptei"
+
+msgid "pm4_11_1_14"
+msgstr "Avangardă-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Provoacă, suferă și blochează daune totalizând %(goal)s HP"
+
+msgid "pm4_11_1_14_short"
+msgstr "Avangardă-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_1_15"
+msgstr "Avangardă-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice aflate în interiorul razei vizuale ale vehiculului tău"
+
+msgid "pm4_11_1_15_short"
+msgstr "Avangardă-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_1_16"
+msgstr "Avangardă-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Câștigă meritul Indestructibil"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Clasează-te pe primul loc în echipa ta, după daune provocate"
+
+msgid "pm4_11_1_16_short"
+msgstr "Avangardă-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Eroi ai luptei"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Jucător de top"
+
+msgid "pm4_11_1_17"
+msgstr "Avangardă-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Provoacă daune și blochează daune cu blindajul, totalizând sau depășind de %(vehicleHealthFactor)s ori punctele de integritate ale vehiculului"
+
+msgid "pm4_11_1_17_short"
+msgstr "Avangardă-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Daune și blocare"
+
+msgid "pm4_11_1_18"
+msgstr "Avangardă-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice imobilizate"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "pm4_11_1_18_short"
+msgstr "Avangardă-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Daune"
+
+msgid "pm4_11_1_19"
+msgstr "Avangardă-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de minim aceeași generație trăgând în ele de la o distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice din minim aceeași generație, de la o distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_19_short"
+msgstr "Avangardă-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Provoacă daune de %(goal)s HP tancurilor grele inamice"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Provoacă de %(goal)s ori daune cu proiectile tancurilor grele inamice"
+
+msgid "pm4_11_1_1_short"
+msgstr "Avangardă-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Daune"
+
+msgid "pm4_11_1_2"
+msgstr "Avangardă-2"
+
+msgid "pm4_11_1_20"
+msgstr "Avangardă-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Distruge %(goal)s vehicule inamice de %(uniqueGoal)s tipuri diferite"
+
+msgid "pm4_11_1_20_short"
+msgstr "Avangardă-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Distruge"
+
+msgid "pm4_11_1_21"
+msgstr "Avangardă-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Provoacă, suferă și blochează daune totalizând %(goal)s HP"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Provoacă 25%% din totalul daunelor provocate de echipa ta"
+
+msgid "pm4_11_1_21_short"
+msgstr "Avangardă-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Daune"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Distruge %(goal)s vehicule inamice de %(uniqueGoal)s tipuri diferite"
+
+msgid "pm4_11_1_2_short"
+msgstr "Avangardă-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Distruge"
+
+msgid "pm4_11_1_3"
+msgstr "Avangardă-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Clasează-te pe primul loc în echipa ta, după daune provocate"
+
+msgid "pm4_11_1_3_short"
+msgstr "Avangardă-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Jucător de top"
+
+msgid "pm4_11_1_4"
+msgstr "Avangardă-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Blochează daune totalizând %(goal)s HP, în timp ce vehiculul tău este staționar"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "pm4_11_1_4_short"
+msgstr "Avangardă-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Blochează"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_5"
+msgstr "Avangardă-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice din raza vizuală a vehiculului tău"
+
+msgid "pm4_11_1_5_short"
+msgstr "Avangardă-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_6"
+msgstr "Avangardă-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Provoacă daune și blochează daune cu blindajul, totalizând sau depășind de %(vehicleHealthFactor)s ori punctele de integritate ale vehiculului"
+
+msgid "pm4_11_1_6_short"
+msgstr "Avangardă-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Daune și blocare"
+
+msgid "pm4_11_1_7"
+msgstr "Avangardă-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de minim %(distanceGreatOrEqual)s m"
+
+msgid "pm4_11_1_7_short"
+msgstr "Avangardă-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Daune"
+
+msgid "pm4_11_1_8"
+msgstr "Avangardă-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Provoacă daune de %(goal)s HP tancurilor grele inamice"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Clasează-te pe primul loc în echipa ta, după daune provocate"
+
+msgid "pm4_11_1_8_short"
+msgstr "Avangardă-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Jucător de top"
+
+msgid "pm4_11_1_9"
+msgstr "Avangardă-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice imobilizate"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "pm4_11_1_9_short"
+msgstr "Avangardă-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Daune"
+
+msgid "pm4_11_2_1"
+msgstr "Ambuscadă-1"
+
+msgid "pm4_11_2_10"
+msgstr "Ambuscadă-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Provoacă daune de %(goal)s HP"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Clasează-te primul din echipa ta ca experiență obținută"
+
+msgid "pm4_11_2_10_short"
+msgstr "Ambuscadă-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Jucător de top"
+
+msgid "pm4_11_2_11"
+msgstr "Ambuscadă-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Provoacă cu proiectile daune de %(goal)s HP inamicilor care se deplasează"
+
+msgid "pm4_11_2_11_short"
+msgstr "Ambuscadă-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_12"
+msgstr "Ambuscadă-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Provoacă daune de %(goal)s HP"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice"
+
+msgid "pm4_11_2_12_short"
+msgstr "Ambuscadă-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_2_13"
+msgstr "Ambuscadă-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Provoacă 25%% din totalul daunelor provocate de echipa ta"
+
+msgid "pm4_11_2_13_short"
+msgstr "Ambuscadă-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Daune"
+
+msgid "pm4_11_2_14"
+msgstr "Ambuscadă-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Câștigă meritul Calibru greu"
+
+msgid "pm4_11_2_14_short"
+msgstr "Ambuscadă-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Eroi ai luptei"
+
+msgid "pm4_11_2_15"
+msgstr "Ambuscadă-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Provoacă daune de %(vehicleHealthFactor)s ori mai mari decât punctele de integritate ale vehiculului tău"
+
+msgid "pm4_11_2_15_short"
+msgstr "Ambuscadă-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_16"
+msgstr "Ambuscadă-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Distruge %(goal)s vehicule inamice, provocându-le daune de minim %(damageDealt)s HP"
+
+msgid "pm4_11_2_16_short"
+msgstr "Ambuscadă-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Distruge"
+
+msgid "pm4_11_2_17"
+msgstr "Ambuscadă-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Provoacă daune de %(goal)s HP"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice"
+
+msgid "pm4_11_2_17_short"
+msgstr "Ambuscadă-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_2_18"
+msgstr "Ambuscadă-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de minim %(distanceGreatOrEqual)s m"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Clasează-te primul din echipa ta ca experiență obținută"
+
+msgid "pm4_11_2_18_short"
+msgstr "Ambuscadă-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Jucător de top"
+
+msgid "pm4_11_2_19"
+msgstr "Ambuscadă-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice, înainte ca vehiculul tău să fi suferit daune"
+
+msgid "pm4_11_2_19_short"
+msgstr "Ambuscadă-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Provoacă daune de %(goal)s HP"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Marchează %(goal)s lovituri penetrante"
+
+msgid "pm4_11_2_1_short"
+msgstr "Ambuscadă-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Penetrare"
+
+msgid "pm4_11_2_2"
+msgstr "Ambuscadă-2"
+
+msgid "pm4_11_2_20"
+msgstr "Ambuscadă-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Provoacă 30%% din totalul daunelor provocate de echipa ta"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Distruge toate vehiculele inamice / capturează sau apără baza."
+
+msgid "pm4_11_2_20_short"
+msgstr "Ambuscadă-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Daune"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Câștigă o luptă"
+
+msgid "pm4_11_2_21"
+msgstr "Ambuscadă-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "pm4_11_2_21_short"
+msgstr "Ambuscadă-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Provoacă daune de %(goal)s HP în primele %(timeLimit)s minute ale luptei"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Distruge %(goal)s vehicule inamice de %(uniqueGoal)s tipuri diferite"
+
+msgid "pm4_11_2_2_short"
+msgstr "Ambuscadă-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Distruge"
+
+msgid "pm4_11_2_3"
+msgstr "Ambuscadă-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Clasează-te primul din echipa ta ca experiență obținută"
+
+msgid "pm4_11_2_3_short"
+msgstr "Ambuscadă-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Jucător de top"
+
+msgid "pm4_11_2_4"
+msgstr "Ambuscadă-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Provoacă daune de %(goal)s HP tancurilor medii inamice"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice aflate în afara razei vizuale ale vehiculului tău"
+
+msgid "pm4_11_2_4_short"
+msgstr "Ambuscadă-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_2_5"
+msgstr "Ambuscadă-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Provoacă daune de %(goal)s HP, rămânând nevăzut față de inamici când daunele sunt provocate"
+
+msgid "pm4_11_2_5_short"
+msgstr "Ambuscadă-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_6"
+msgstr "Ambuscadă-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Provoacă și ajută la provocarea de daune totalizând %(goal)s HP"
+
+msgid "pm4_11_2_6_short"
+msgstr "Ambuscadă-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_2_7"
+msgstr "Ambuscadă-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Câștigă meritul Tanchist Lunetist"
+
+msgid "pm4_11_2_7_short"
+msgstr "Ambuscadă-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Eroi ai luptei"
+
+msgid "pm4_11_2_8"
+msgstr "Ambuscadă-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice de la distanță de minim %(distanceGreatOrEqual)s m"
+
+msgid "pm4_11_2_8_short"
+msgstr "Ambuscadă-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_2_9"
+msgstr "Ambuscadă-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice imobilizate"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Provoacă daune de %(goal)s HP"
+
+msgid "pm4_11_2_9_short"
+msgstr "Ambuscadă-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Daune"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Daune"
+
+msgid "pm4_11_3_1"
+msgstr "Asistență-1"
+
+msgid "pm4_11_3_10"
+msgstr "Asistență-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Permite-le aliaților să provoace daune de %(goal)s HP prin descoperirea sau imobilizarea vehiculelor inamice, rămânând nevăzut"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Provoacă șoc tancurilor medii și antitancurilor inamice totalizând %(goal)s secunde. Durata potențială de șoc este luată în considerare"
+
+msgid "pm4_11_3_10_short"
+msgstr "Asistență-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Asistență"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Șoc"
+
+msgid "pm4_11_3_11"
+msgstr "Asistență-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Permite-le aliaților tăi să provoace daune de %(goal)s HP vehiculelor inamice, observându-le, imobilizându-le sau provocându-le șoc"
+
+msgid "pm4_11_3_11_short"
+msgstr "Asistență-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Asistență"
+
+msgid "pm4_11_3_12"
+msgstr "Asistență-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Permite aliaților să distrugă %(goal)s vehicule descoperindu-le, imobilizându-le sau provocându-le șoc"
+
+msgid "pm4_11_3_12_short"
+msgstr "Asistență-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Asistență"
+
+msgid "pm4_11_3_13"
+msgstr "Asistență-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Câștigă Insigna de merit Clasa I sau mai mare"
+
+msgid "pm4_11_3_13_short"
+msgstr "Asistență-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Medalia de merit"
+
+msgid "pm4_11_3_14"
+msgstr "Asistență-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Supravieţuieşte luptei"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Clasează-te primul din ambele echipe ca experiență obținută"
+
+msgid "pm4_11_3_14_short"
+msgstr "Asistență-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Supravieţuieşte"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Jucător de top"
+
+msgid "pm4_11_3_15"
+msgstr "Asistență-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Permite aliaților să distrugă %(goal)s vehicule descoperindu-le, imobilizându-le sau provocându-le șoc"
+
+msgid "pm4_11_3_15_short"
+msgstr "Asistență-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Asistență"
+
+msgid "pm4_11_3_16"
+msgstr "Asistență-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice în timp ce te deplasezi cu o viteză de minim %(attackerMovingSpeedGreaterOrEqual)s km/h"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Distruge cu proiectile %(goal)s vehicule inamice care se deplasează"
+
+msgid "pm4_11_3_16_short"
+msgstr "Asistență-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Daune"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_17"
+msgstr "Asistență-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Supravieţuieşte luptei"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Permite-le aliaților să provoace daune de %(goal)s HP vehiculelor inamice imobilizându-le sau provocându-le șoc și supraviețuiește luptei"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Daunele provocate de tine și cu ajutorul tău trebuie să totalizeze %(goal)s HP; supraviețuiește luptei"
+
+msgid "pm4_11_3_17_short"
+msgstr "Asistență-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Supravieţuieşte"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Asistență"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_3_18"
+msgstr "Asistență-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice de la distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Distruge %(goal)s vehicule inamice de la distanță de minim %(distanceGreatOrEqual)s m"
+
+msgid "pm4_11_3_18_short"
+msgstr "Asistență-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Distruge"
+
+msgid "pm4_11_3_19"
+msgstr "Asistență-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Câștigă Insigna As"
+
+msgid "pm4_11_3_19_short"
+msgstr "Asistență-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Medalia de merit"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Supravieţuieşte luptei"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Distruge o artilerie inamică și supraviețuiește luptei"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Provoacă șoc vehiculelor inamice de %(goal)s ori și supraviețuiește luptei"
+
+msgid "pm4_11_3_1_short"
+msgstr "Asistență-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Supravieţuieşte"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Șoc"
+
+msgid "pm4_11_3_2"
+msgstr "Asistență-2"
+
+msgid "pm4_11_3_20"
+msgstr "Asistență-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Permite-le aliaților să provoace daune de %(goal)s HP vehiculelor inamice descoperite de tine, fiind nevăzut, și câștigă lupta"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Provoacă-le țoc tancurilor grele de %(goal)s ori și câștigă lupta"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Distruge toate vehiculele inamice / capturează sau apără baza."
+
+msgid "pm4_11_3_20_short"
+msgstr "Asistență-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Asistență"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Șoc"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Câștigă o luptă"
+
+msgid "pm4_11_3_21"
+msgstr "Asistență-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Supravieţuieşte luptei"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Daunele provocate de tine și cu ajutorul tău trebuie să totalizeze %(goal)s HP"
+
+msgid "pm4_11_3_21_short"
+msgstr "Asistență-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Supravieţuieşte"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Distruge un tanc ușor inamic"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Provoacă șoc vehiculelor inamice totalizând %(goal)s secunde. Durata potențială de șoc este luată în considerare"
+
+msgid "pm4_11_3_2_short"
+msgstr "Asistență-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Șoc"
+
+msgid "pm4_11_3_3"
+msgstr "Asistență-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Permite aliaților să provoace daune contra a %(goal)s vehicule descoperindu-le, imobilizându-le sau provocându-le șoc"
+
+msgid "pm4_11_3_3_short"
+msgstr "Asistență-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Asistență"
+
+msgid "pm4_11_3_4"
+msgstr "Asistență-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Supravieţuieşte luptei"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Descoperă %(goal)s vehicule inamice și supraviețuiește luptei"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Provoacă șoc împotriva a %(stunSeveralTargets)s vehicule inamice cu o singură lovitură de %(goal)s ori și supraviețuiește luptei"
+
+msgid "pm4_11_3_4_short"
+msgstr "Asistență-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Supravieţuieşte"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Descoperă"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Șoc"
+
+msgid "pm4_11_3_5"
+msgstr "Asistență-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Câștigă Insigna de merit Clasa II sau mai mare"
+
+msgid "pm4_11_3_5_short"
+msgstr "Asistență-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Medalia de merit"
+
+msgid "pm4_11_3_6"
+msgstr "Asistență-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Daunele provocate de tine și cu ajutorul tău trebuie să totalizeze %(goal)s HP"
+
+msgid "pm4_11_3_6_short"
+msgstr "Asistență-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Condiție complexă"
+
+msgid "pm4_11_3_7"
+msgstr "Asistență-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Permite-le aliaților să provoace daune de %(goal)s HP vehiculelor inamice observându-le, imobilizându-le sau provocându-le șoc"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Distruge o artilerie inamică"
+
+msgid "pm4_11_3_7_short"
+msgstr "Asistență-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Asistență"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_8"
+msgstr "Asistență-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice"
+
+msgid "pm4_11_3_8_short"
+msgstr "Asistență-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_9"
+msgstr "Asistență-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Distruge %(goal)s vehicule inamice de la distanță de maxim %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Provoacă șoc de %(goal)s ori tancurilor medii sau antitancurilor"
+
+msgid "pm4_11_3_9_short"
+msgstr "Asistență-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Distruge"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Șoc"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Fiecare misiune de acest tip are un număr limitat de încercări pentru a satisface condiția specificată."
@@ -10345,6 +11317,9 @@ msgstr "Al Doilea Front"
 msgid "season_3"
 msgstr "Sectorul 3"
 
+msgid "season_4"
+msgstr "Sectorul 3"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Un set de misiuni pentru toate tipurile de vehicule recompensate cu tancul greu american Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Un set de misiuni pentru toate tipurile de vehicule, premiat cu cu tancul mediul german Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Un set de misiuni pentru toate tipurile de vehicule recompensate cu antitancul german StuG IV."

@@ -40,6 +40,9 @@ msgstr "Forskning"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Genopret"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Til store æsker"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Et af de %(nation)s niveau %(level)s køretøjer er ikke udforsket"
 
@@ -54,6 +57,15 @@ msgstr "Rabat på køb:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Rabat på forskning:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Køretøjet kan findes i {{@ style (color $color)}}store æsker!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Store æsker!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Dette køretøj kan findes i"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Påfør en kuponrabat: %(value)s"

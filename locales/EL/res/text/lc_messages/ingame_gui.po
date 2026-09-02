@@ -700,6 +700,9 @@ msgstr "Κατάληψη Ζώνης"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Φθορά από ζώνη πυρός"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Φθορά Σε Αντιπάλους"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Το όχημα επισκευάστηκε"
 
@@ -741,6 +744,9 @@ msgstr "Φθορά Από Βολή"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Φθορά από Βολίδα"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Φθορά Από Βολή"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Φθορά από εμβολισμό"
@@ -907,6 +913,9 @@ msgstr "Μη διάτρηση ερπύστριας"
 msgid "hitMarker/wheelBlocked"
 msgstr "Μη διάτρηση τροχού"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "ΜΕΓΙΣΤΗ ΒΑΘΜΙΔΑ ΟΧΗΜΑΤΟΣ"
 
@@ -1020,6 +1029,21 @@ msgstr "Δεν απαιτούνται επισκευές: όλες οι συσκ
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] είναι πλήρως σε λειτουργία, δεν απαιτούνται επισκευές."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Μη διαθεσιμότητα: Ο γεμιστήρας είναι γεμάτος."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Μη διαθεσιμότητα: Δεν έχουν απομείνει βλήματα."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Μη διαθεσιμότητα: Δεν έχουν απομείνει γομώσεις."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Μη διαθεσιμότητα: Η επαναγέμιση σχεδόν ολοκληρώθηκε."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Ρουκέτα μη διαθέσιμη"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Αδύνατη η ενεργοποίηση του ομοαξονικού όπλου."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm High-Explosive %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm High-Explosive Anti-Tank %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Πιθανότητα κρίσιμου πλήγματος: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Μειωμένη"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Αυξημένη"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Τυπική"
+
 msgid "shells_kinds/params/damage"
 msgstr "Μέση φθορά: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Φθορά ανά sec: %(value)s HP"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Ακτίνα διασποράς: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Πλήρους / Μονής Γόμωσης"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Βασική / Τροποποιημένη:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Πλήρους / Μονής Γόμωσης:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Τυπική / Προσαρμοσμένη:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Τυπική / Βαθμονομημένη:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Γωνία διόρθωσης: %(value)s μοίρες"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Απώλεια διατρητικότητας: %(value)s ανά 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Μέση διατρητικότητα: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Γωνία εξοστρακισμού: %(value)s μοίρες"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Ταχύτητα βλήματος: %(value)s m/sec"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Διάρκεια σοκ: %(minValue)s–%(maxValue)s sec"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "για ενεργοποίηση της Ε.Τ.Π."
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "για αλλαγή σε φάση Μάχης"
@@ -2745,6 +2805,9 @@ msgstr "για ενεργοποίηση των Προωθητήρων Υγρού
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "για ενεργοποίηση προωθητήρων αερίου"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "για αλλαγή λειτουργίας πυρών"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "για ενεργοποίηση των Διαδοχικών Προωθητήρων Στερεών Καυσίμων"

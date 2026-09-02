@@ -455,10 +455,10 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Το Neon Dash είναι μια μοναδική διοργάνωση, με περιορισμένη χρονική διάρκεια, η οποία προσφέρει στους παίκτες διαφορετικό είδος δράσης! Μπείτε στην κούρσα, σπρώξτε τους αντιπάλους σας, ολοκληρώστε ειδικές αποστολές και διεκδικήστε τα έπαθλα."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client του παιχνιδιού."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Πιθανώς Μειωμένες Επιδόσεις"
+msgstr "Χαμηλές Επιδόσεις"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
 msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Για Όλες Τις Βαθμίδες"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Σε χαμηλές ρυθμίσεις γραφικών, ενδέχεται να προκύψουν οπτικά προβλήματα. Συνιστούμε να επιλέξετε την υψηλότερη ρύθμιση γραφικών για το καλύτερο δυνατό αποτέλεσμα, υπό την προϋπόθεση ότι ο υπολογιστής σας πληροί τις απαιτούμενες προδιαγραφές. Η λειτουργία αυτή απαιτεί υψηλή απόδοση υπολογιστή. Τα FPS μπορεί να μειωθούν κατά τη διάρκεια σφοδρών μαχών."
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client του παιχνιδιού."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "Χαμηλές Επιδόσεις"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "%(icon) Χαμηλές Επιδόσεις"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Σε χαμηλές ρυθμίσεις γραφικών, ενδέχεται να προκύψουν οπτικά προβλήματα. Συνιστούμε να επιλέξετε την υψηλότερη ρύθμιση γραφικών για το καλύτερο δυνατό αποτέλεσμα, υπό την προϋπόθεση ότι ο υπολογιστής σας πληροί τις απαιτούμενες προδιαγραφές. Η λειτουργία αυτή απαιτεί υψηλή απόδοση υπολογιστή. Τα FPS μπορεί να μειωθούν κατά τη διάρκεια σφοδρών μαχών."
+msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "Πιθανώς Μειωμένες Επιδόσεις"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "%(icon) Πιθανώς Μειωμένες Επιδόσεις"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Μία νέα αποστολή Neon Dash θα γίνει διαθέσιμη σε:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Συγχαρητήρια!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Απεριόριστες Επαναλήψεις"
+msgstr "Επαναλαμβανόμενη Φάση"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "Ολοκληρώσατε τη βασική πρόοδο"
+msgstr "Ολοκληρώσατε τη Βασική Πρόοδο"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Ολοκληρώστε αυτή τη φάση όσες φορές θέλετε."
+msgstr "Κερδίστε όσα περισσότερα έπαθλα μπορείτε:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Κερδισμένοι πόντοι: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Επαναλαμβανόμενη"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Από ολοκλήρωση:"
+msgstr "Από ολοκλήρωση"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Από ήττα:"
+msgstr "Από ήττα"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Από νίκη:"
+msgstr "Από νίκη"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Πόντοι:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Ολοκληρώσατε όλες τις διαθέσιμες αποστολές για τώρα. Περισσότερες αποστολές θα εμφανιστούν στον επόμενο κύκλο."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Διαθεσιμότητα για {{timeLeft}}"
+msgstr "Λήγει σε {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Διαθεσιμότητα για {{timeLeft}}"
+msgstr "Λήξη διοργάνωσης σε {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Νέες αποστολές διαθέσιμες σε {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Αποφύγετε τα λέιζερ και συγχρονίστε τα 
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Προσχοχή: Λέιζερ & Άλματα"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Αν κολλήσετε κάπου, χρησιμοποιήστε το «Επιστροφή Σε Σημείο Ελέγχου» για να μεταφερθείτε στο πιο πρόσφατο σημείο ελέγχου."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Επιστροφή Σε Σημείο Ελέγχου"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "για να μάθετε περισσότερα σχετικά με αυτό το είδος μάχης"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Βάλτε τα δυνατά σας\nγια να φτάσετε στον τερματισμό"
+msgstr "Βάλτε τα δυνατά σας για να φτάσετε στον τερματισμό"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Για Όλες Τις Βαθμίδες"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Σε χαμηλές ρυθμίσεις γραφικών, ενδέχεται να προκύψουν οπτικά προβλήματα. Συνιστούμε να επιλέξετε την υψηλότερη ρύθμιση γραφικών για το καλύτερο δυνατό αποτέλεσμα, υπό την προϋπόθεση ότι ο υπολογιστής σας πληροί τις απαιτούμενες προδιαγραφές. Η λειτουργία αυτή απαιτεί υψηλή απόδοση υπολογιστή. Τα FPS μπορεί να μειωθούν κατά τη διάρκεια σφοδρών μαχών."
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client του παιχνιδιού."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "Χαμηλές Επιδόσεις"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "%(icon) Χαμηλές Επιδόσεις"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Σε χαμηλές ρυθμίσεις γραφικών, ενδέχεται να προκύψουν οπτικά προβλήματα. Συνιστούμε να επιλέξετε την υψηλότερη ρύθμιση γραφικών για το καλύτερο δυνατό αποτέλεσμα, υπό την προϋπόθεση ότι ο υπολογιστής σας πληροί τις απαιτούμενες προδιαγραφές. Η λειτουργία αυτή απαιτεί υψηλή απόδοση υπολογιστή. Τα FPS μπορεί να μειωθούν κατά τη διάρκεια σφοδρών μαχών."
+msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "Πιθανώς Μειωμένες Επιδόσεις"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+msgstr "%(icon) Πιθανώς Μειωμένες Επιδόσεις"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Μπείτε στην κούρσα, σπρώξτε τους αντιπάλους σας, ολοκληρώστε ειδικές αποστολές και διεκδικήστε τα έπαθλα."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neon Dash"

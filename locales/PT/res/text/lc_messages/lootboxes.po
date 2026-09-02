@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Abrimos todas as suas caixas das Ops Festivas."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Parabéns!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Pode adquirir Caixas Grandes na Loja Premium"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Caixas Grandes"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Caixas Pequenas"
-
-msgid "entryDesc/questSlot"
-msgstr "Recebe Caixas Pequenas por concluir missões."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Esta funcionalidade está temporariamente indisponível. Por favor, tente novamente mais tarde."
 
 msgid "entryPoint/header"
-msgstr "Caixas"
-
-msgid "entryTooltip/body/h1"
-msgstr "Adquirir Caixas Grandes:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Ganhar Caixas Pequenas:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Adquira caixas com decorações do Ano novo para si e para os seus amigos na Loja Premium."
-
-msgid "entryTooltip/body/p2"
-msgstr "Atribuída pela conclusão de missões das Ops Festivas."
-
-msgid "entryTooltip/header"
 msgstr "Caixas"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "Mais {count} caixas"
 msgid "entryView/buyLabel"
 msgstr "ADQUIRIR CAIXAS"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Não tem Caixas Grandes no Armazém.\nAdquira mais na Loja Premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Não tem Caixas Pequenas.\nGanhe mais em batalhas."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Ops Festivas {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Entendido!"
@@ -178,9 +139,6 @@ msgstr "Abertura das Caixas de Abastecimentos"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Adicionadas"
 
-msgid "notification/ny19man"
-msgstr "Um membro da tripulação único: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Recebeu as seguintes recompensas:"
 
@@ -244,36 +202,6 @@ msgstr "Um Estilo Único para"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Ver na Garagem"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Caixas de Natal"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Caixas Mágicas"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Caixas de Ano Novo"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Caixas Lunares"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Coleção de Natal"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Coleção Mágica"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Coleção Ano Novo"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Coleção Lunar"
-
-msgid "tooltip/category/rewards/description"
-msgstr "As caixas contêm decorações da {category} e outras recompensas valiosas."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Prémios:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Adquira caixas adicionais na Loja Premium."
 
@@ -285,12 +213,6 @@ msgstr "A acção está indisponível temporariamente. Tente de novo mais tarde.
 
 msgid "type/event_premium"
 msgstr "Caixa de Abastecimentos Amanhecer"
-
-msgid "type/newYear_premium"
-msgstr "CAIXAS GRANDES"
-
-msgid "type/newYear_usual"
-msgstr "CAIXAS PEQUENAS"
 
 msgid "type/wt_boss"
 msgstr "Arrancador do Engenheiro"

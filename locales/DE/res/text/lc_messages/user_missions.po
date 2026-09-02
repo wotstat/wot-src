@@ -382,11 +382,56 @@ msgstr "Wochenaufträge bestehen aus einer Auftragsreihe, die jede Woche verfüg
 msgid "info_page/main/weekly/title"
 msgstr "Wochenaufträge"
 
+msgid "pm/missionState/active"
+msgstr "Aktiv"
+
+msgid "pm/missionState/complete"
+msgstr "Aufträge abgeschlossen"
+
+msgid "pm/missionState/improve"
+msgstr "Ergebnisverbesserung"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Fahrzeug wechseln"
+
+msgid "pm/no_missions"
+msgstr "Keine aktiven Aufträge für das ausgewählte Fahrzeug."
+
+msgid "pm/tier"
+msgstr "Unpassende Stufe"
+
+msgid "pm/unavailable"
+msgstr "Der Auftrag ist vorübergehend nicht verfügbar."
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Es gibt keine aktiven Aufträge für das ausgewählte Fahrzeug. Bitte wählen Sie ein anderes Fahrzeug aus."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Dieser Auftrag ist aus technischen Gründen vorübergehend nicht verfügbar. Wir bedauern die Unannehmlichkeiten."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Das ausgewählte Fahrzeug erfüllt nicht die Stufenanforderung für die aktive Operation. Bitte wählen Sie ein anderes Fahrzeug aus."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Keine aktiven Aufträge"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Vorübergehend nicht verfügbar"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Unpassende Stufe"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Alle regulären Aufträge für heute abgeschlossen"
 
 msgid "quests/daily_quests/completed"
 msgstr "Alle Tagesaufträge abgeschlossen"
+
+msgid "slider/title/missions"
+msgstr "Reguläre Aufträge"
+
+msgid "slider/title/personalMissions"
+msgstr "Persönliche Aufträge"
 
 msgid "tooltip/common/timer"
 msgstr "Verfügbar in {{timeLeft}}"

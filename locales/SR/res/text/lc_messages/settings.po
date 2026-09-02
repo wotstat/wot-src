@@ -46,6 +46,15 @@ msgstr "Omogućava mnogo realističniji model uništavanja i međusobne interakc
 msgid "HAVOK_ENABLED/warning"
 msgstr "Podešavanje će biti primenjeno u sledećoj borbi ako je isključeno u trenutnoj borbi."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Poboljšani vizuelni efekti"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Omogućuje poboljšane vizuelne efekte. Isključivanje ove opcije vraća efekte na standardne, što može da poboljša performanse igre."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Podešavanje će biti primenjeno u sledećoj borbi ako je isključeno u trenutnoj borbi."
+
 msgid "LANGUAGE_CODE"
 msgstr "sr"
 
@@ -175,11 +184,11 @@ msgstr "Omogući tragove gusenica i točkova"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Pokazuje tragove gusenica i guma na zemlji.\n\nNije dostupno uz Pojednostavljenu grafiku ili nizak nivo dekala."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Sakrij 3D dodatke u snajper režimu"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efekti i vidljivost 3D dodataka"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Privremeno sakriva 3D dodatke vozila sa nišana topa u snajperskom režimu.\n\nSmanjuje vizuelne prepreke i poboljšava preciznost nišanjenja."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Podešavanje vidljivosti efekata i 3D dodataka blizu sredine ekrana da smanji ometanje pogleda tokom nišanjenja. Vidljivost 3D dodataka se podešava samo u snajper režimu.\n\nManja vrednost čini efekte i 3D dodatke više providnim za poboljšanu jasnoću nišanjenja."
 
 msgid "WATER_QUALITY"
 msgstr "Kvalitet vode"
@@ -1995,6 +2004,15 @@ msgstr "Režim:"
 
 msgid "screenMode/windowed"
 msgstr "U Prozoru"
+
+msgid "showPrebattleHighlights"
+msgstr "Uključi reflektor"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Prikazuje odabir vizuelno upečatljivih tenkova tokom odbrojavanja pred borbu.\n\nIsključivanje ovog parametra može da poboljša performanse igre."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Ako je podešavanje isključeno za trenutnu borbu, biće uključeno za sledeću."
 
 msgid "smoothing/description"
 msgstr "Određuje stepen dodatnog precesiranja tankih linija i kontura objekata u igri i scene. Smanjuje Aliasing efekat. Konture objrekata izgledaju prirodnije."

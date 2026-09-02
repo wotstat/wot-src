@@ -136,6 +136,24 @@ msgstr[0] "{{count}} overwinning"
 msgstr[1] "{{count}} overwinningen"
 msgstr[2] "{{count}} overwinningen"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Beschikbaar voor {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Gevechtservaring"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Om je terugkeer te vieren, hebben we iets speciaals voor jou: {{@ style (color #ede6d9e6)}}de dagelijkse Herinzetbonus{{/}} verhoogt de hoeveelheid verdiende Gevechts-XP voor je eerste overwinning van de dag met elk voertuig."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Welkom terug, commandant!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "De bonus wordt elke dag om {{@ style (color #ede6d9e6)}}{{value}}{{/}} gereset."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Herinzetbonus: beschikbaar"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klik om naar je voertuig-speellijsten te gaan"
 

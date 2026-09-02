@@ -298,8 +298,26 @@ msgstr "Parantaa suihkumoottorien antamaa lisätehoa moottoreille {colorTagOpen}
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Lisää kertoja, joita suihkumoottoreita voi käyttää yhdessä taistelussa: {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Lyhentää alun jäähtymisaikaa ennen kuin IPHJ on käytettävissä {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin IPHJ:ta voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Lyhentää {colorTagOpen}{value} s{colorTagClose} aikaa, jonka vaunusi on näkyvissä vihollisille havaittuasi ne IPHJ:llä."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Pidentää IPHJ:n kestoa {colorTagOpen}{value0} s{colorTagClose} ja lisäksi kaventaa skannaussektoria {colorTagOpen}{value1} astetta{colorTagClose}, pidentää sen näköetäisyyttä {colorTagOpen}{value2}%{colorTagClose} ja heikentää liikkuvien vaunujen naamioitumiskykyä {colorTagOpen}{value3}%{colorTagClose} ja kasvuston piilottamien vaunujen naamioitumiskykyä {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Pienentää miehistön mahdollisuutta loukkaantua vaunun vahingoittuessa."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Parantaa läpäisytehoa läpäisemättömän osuman jälkeen {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Parantaa vahinkoa läpäisevän osuman jälkeen {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Pienentää tykin hajontaa tykkisi ollessa vahingoittunut."
@@ -460,6 +478,18 @@ msgstr "Lyhentää latausaikaa tykkisi lippaan ammusten välissä."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Lyhentää aikaa, jonka ole ampuessasi vihollisvaunujen havaitsemana."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Lyhentää latauksen jäähtymisaikaa, kun lipas ei ole täynnä {colorTagOpen}{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Lyhentää latauksen jäähtymisaikaa, kun lipas on täynnä {colorTagOpen}{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Lyhentää nopeutettua ammuksen latausaikaa {colorTagOpen}vielä {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Antaa taistelun alussa saatavilla olevien latausten määrään {colorTagOpen} {value}{colorTagClose} lisää."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Lyhentää viivettä, joka jäähtymisen alkamiseen menee, {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Pienentää tykin joka laukauksella tuottaman lämmön määrää {color
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Nopeuttaa tykin jäähtymisnopeutta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Lyhentää koaksaalisen rakentinheittimen latausaikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Lyhentää koaksaalisen rakentinheittimen latausaikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Lyhentää koaksaalisen rakentinheittimen latausaikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Lisää raketin vahinkoa {colorTagOpen}{value} pistettä{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Parantaa muiden kuin sirpalekranaattien aiheuttamaa vahinkoa."
@@ -547,6 +589,18 @@ msgstr "Pienentää tykin hajontaa bunkkeritilassa {colorTagOpen}{value}%{colorT
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Lyhentää tykin latausaikaa bunkkeritilassa {colorTagOpen}{value}%{colorTagClose}."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Parantaa huippunopeutta eteenpäin UAS-tilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Kasvattaa erikoisammusten aiheuttamaa vahinkoa UAS-tilassa {colorTagOpen}{value} pistettä{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Kasvattaa tavallisten ammusten aiheuttamaa vahinkoa UAS-tilassa {colorTagOpen}{value} pistettä{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Lyhentää tykin latausaikaa UAS-tilassa {colorTagOpen}{value}%{colorTagClose} (poislukien sirpalekranaatit)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Kasvattaa vaunusi poltta-ainetankin ja moottorin kestopisteitä."
 
@@ -555,6 +609,9 @@ msgstr "Pienentää vahingoittuneesta ammustelineestä ja moottorista tulevaa ra
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Lisää ammustesi vihollisvaunun moduuleille aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Lyhentää ampumistilojen välillä vaihtamiseen kuluvaa aikaa {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Antaa mahdollisuuden tehdä vaihtoehtoisen ammus- ja kulutustarvikevarustuksen."
@@ -742,6 +799,18 @@ msgstr "Ytimen muodon optimointi"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Laajannettu tehostinvarasto"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Muokattu värinäsytytin"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Tehokas nestäjäähdytys"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Tarkasti taittavat optiikat"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Samanaikainen nestejäähdytys"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Telakoneiston kestopisteet"
 
@@ -750,6 +819,12 @@ msgstr "Telakoneiston korjausnopeus"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Miehistön suojaus"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Säädettävä sytyttimen asetin: läpäisy"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Säädettävä sytyttimen asetin: vahinko"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Tilannekohtainen tykin hajonta"
@@ -928,6 +1003,18 @@ msgstr "Lippaan sisäinen latausaika"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Naamioituminen ampumisen jälkeen"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Erittäin puhdas roottorikäämitys"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktiivinen lapajäähdytys"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Johtava staattorin kotelo"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortosyklinen käämitys"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Matalan lämpötilan lämmönsiirtoneste"
 
@@ -936,6 +1023,18 @@ msgstr "Lämpöä johtava lauhdutin"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Lämpöputkien optimointi"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Lataussyklin optimointi"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Lataussyklin optimointi"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Lataussyklin optimointi"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Paranneltu taistelukärjen rakenne"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Muiden kuin sirpalekranaattien vahinko"
@@ -1018,6 +1117,18 @@ msgstr "Tarkkuustasapainotettu roottori"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulinen lataaja"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Parannellut iskunvaimentimet"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Muokatut erikoisammukset"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Muokatut tavalliset ammukset"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimoitu UAS:n lataussykli"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Valikoiva moduulin kestopistelisä"
 
@@ -1026,6 +1137,9 @@ msgstr "Valikoiva moduulin suojaus"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Ammuksen moduulivahinko"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimoitu uudelleenkalibrointi"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Ammus- ja kulutustarvikevarustus"

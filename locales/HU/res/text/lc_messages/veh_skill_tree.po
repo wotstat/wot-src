@@ -298,8 +298,26 @@ msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a sugárhajtóművek �
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Megnöveli a sugárhajtóművek egy csatában történő maximális használatának számát ennyivel: {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti az IRST használata előtti kezdeti visszatöltési időt."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti az IRST újbóli használata előtti visszatöltési időt."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti azt az időtartamot, ameddig a járműved az ellenség számára látható marad, miután az IRST-vel felderítetted őket."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "{colorTagOpen}{value0} mp{colorTagClose}-cel növeli az IRST szkennelési idejét és {colorTagOpen}{value1} fokkal{colorTagClose} csökkenti a szkennelési szektort, {colorTagOpen}{value2}%{colorTagClose}-kal növeli a látótávolságot, {colorTagOpen}{value3}%{colorTagClose}-kal csökkenti a mozgó járművek álcázását, továbbá {colorTagOpen}{value4}%{colorTagClose}-kal a növényzet mögött rejtőző járművekét."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Csökkenti a legénység sérülésének esélyét a jármű sérülésekor."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a páncélátütés erejét egy nem átütő találatot követően."
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a sebzést egy átütő találatot követően."
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Csökkenti a sérült löveg szórását."
@@ -460,6 +478,18 @@ msgstr "Csökkenti a löveged tárában lévő lőszerek közötti újratöltés
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Csökkenti az esélyét, hogy az ellenség felderítsen tüzeléskor."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a töltet visszatöltési idejét, amikor a tár nincs tele."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a töltet visszatöltési idejét, amikor a tár tele van."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "{colorTagOpen}További {value} mp{colorTagClose}-cel csökkenti a gyorsított lövedékbetöltési idő."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "{colorTagOpen}{value}{colorTagClose}-kal növeli a csata kezdetekor rendelkezésre álló töltetek számát."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a löveg lehűlésének késleltetési idejét."
 
@@ -468,6 +498,18 @@ msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg által lö
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a felhevült löveg lehűlési sebességét."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Koaxiális rakétavető újratöltési idejét."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Koaxiális rakétavető újratöltési idejét."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Koaxiális rakétavető újratöltési idejét."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "{colorTagOpen}{value} HP{colorTagClose}-val növeli a rakéta által okozott sebzést."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Növeli a nem R.RO lövedékekkel okozott sebzést."
@@ -547,6 +589,18 @@ msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg szórásá
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg újratöltési idejét Bunker módban."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a végsebességet KLA-módban."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "{colorTagOpen}{value} HP{colorTagClose}-val növeli a speciális lőszerek okozta sebzést KLA-módban."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "{colorTagOpen}{value} HP{colorTagClose}-val növeli a normál lőszerek okozta sebzést KLA-módban."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg újratöltési idejét KLA-módban (kivéve R.RO)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Növeli a járműved üzemanyagtartályának és motorjának életerejét."
 
@@ -555,6 +609,9 @@ msgstr "Csökkenti a sérült lőszerrekesz és motor büntetését."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Növeli a lövedékeid által az ellenséges járművek moduljainak okozott sebzést."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a tüzelési módok közötti váltáshoz szükséges időt."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Lehetővé teszi számodra, hogy összeállíts egy alternatív összeállítást lőszerekből és fogyócikkekből."
@@ -742,6 +799,18 @@ msgstr "Magforma-optimalizálás"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Megnövelt sugárhajtómű-tároló"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Módosított kis lángú gyújtó"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Nagy teljesítményű folyadékhűtés"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Alacsony torzítású optika"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Párhuzamos folyadékhűtés"
+
 msgid "tooltips/title/chassisHP"
 msgstr "A felfüggesztés életereje"
 
@@ -750,6 +819,12 @@ msgstr "A felfüggesztés javítási sebessége"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Legénységvédelem"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Állítható gyújtószerkezet-beállító: Átütés"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Állítható gyújtószerkezet-beállító: Sebzés"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Szituációs lövegszórás"
@@ -928,6 +1003,18 @@ msgstr "A táron belüli újratöltési idő"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "A tüzelés utáni álcázás"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Nagy tisztaságú rotortekercselés"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktív rotorhűtés"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Nagy vezetőképességű állórészház"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortociklikus tekercselés"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Alacsony hőmérsékletű hőátvivő folyadék"
 
@@ -936,6 +1023,18 @@ msgstr "Nagy hővezető-képességű hűtőház"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Hővezetőcső-optimalizálás"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Töltési ciklus optimalizálása"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Töltési ciklus optimalizálása"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Töltési ciklus optimalizálása"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Fejlesztett robbanófej-elrendezés"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "A nem R.RO lőszerek sebzése"
@@ -1018,6 +1117,18 @@ msgstr "Precíziós egyensúlyozású rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hidraulikus meghajtású ütköző"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Fejlesztett lengéscsillapítók"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Módosított speciális egyrészes lőszerek"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Módosított normál egyrészes lőszerek"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimalizált KLA betöltési ciklus"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Szelektív moduléleterő-növelés"
 
@@ -1026,6 +1137,9 @@ msgstr "Szelektív modulvédelem"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Lőszer modulsebzés"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimalizált újrakalibrálás"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Lőszer- és fogyócikk-összeállítás"

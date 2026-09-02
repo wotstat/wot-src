@@ -6052,6 +6052,18 @@ msgstr "Bu araçtaki her mürettebat üyesi için ana uzmanlık başına 6 yeten
 msgid "moduleFits/wrong_slot/body"
 msgstr "Parça zaten başka bir yere takılı durumda."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Düşman parçalarına ve/veya mürettebatına kritik hasar verme olasılığı."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Mermi düşman zırhına çarptığında çarpma açısının azaldığı miktar."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Merminin bir düşman perdesine isabet ettikten sonra her 100 mm için kaybettiği delme gücü miktarı."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Merminin düşman zırhından otomatik olarak sekeceği açı."
+
 msgid "multiselection/alert/body"
 msgstr "Araçları seçin: savaşa sadece tam bir grupla katılabilirsiniz."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Savaş Kartı: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin, şu anki görevinin yapıldığı çorak tuz düzlüklerini, tıpkı hava şartlarından yıpranmış avucunun içi gibi çok iyi tanıyordu. Değişken ortamlara yabancı olmayan Kuprin, daha tanka binmeden çok önce kimyasal savaş savunması alanında uzmanlaşarak kendini kanıtlamıştı. Yirmi yıl sonra, askeri hizmetine genç bir teknisyen olarak başladığı laboratuvar kompleksinden sadece birkaç günlük yürüyüş mesafesinde buldu kendini. Zaman ve zorluklar hiç kimseyi etkisiz bırakmazdı; ancak Vadim’in mürettebatına şaka yollu anlattığı gibi, terhis evrakları henüz dosyalanmamıştı. Yani biri bu evrakları usulüne uygun olarak sunana kadar, o burada kalmaya devam edecekti."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Bryn Powell’ın çocukluğunu geçirdiği yemyeşil vadiler, daha sonra tanışacağı sert iklimlerden dünyalar kadar uzaktaydı. Aldığı son brifing, ayrıntılar açısından dikkat çekici derecede yetersizdi ve “tanımlanamayan kimyasal madde” ile “ölümcül tehlike riski: aşırı” gibi ifadeler, pek çok komutanın başka bir göreve atanmak için dua etmesine neden olurdu. Ancak Bryn, kendini koruma içgüdüsünü başkalarında her zaman takdire şayan bir nitelik olarak görmüştü. Doğası gereği cesur bir adam olan Bryn, eğer içinden gelseydi dublör olarak parlak bir kariyer yapabilirdi. Onu bir tankın kumanda koltuğuna oturtursanız, aradaki fark gözle görülmeyecek kadar azdı."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora, hiçbir şeyden sarsılmayan bir komutandı. İstikrarsız bölgelerdeki barış gücü görevlerinde deneyimli bir subay olarak, baskı arttıkça soğukkanlılığını korumayı öğrenmişti. İster uzun bir gece devriyesinin ardından yorgunluğun eşiğinde olsun, ister ekibinin ortaya çıkarmak üzere gönderildiği bilinmeyen maddeyle ilgili giderek daha tedirgin edici istihbaratları incelesin, soğukkanlılığı asla sarsılmazdı. Hafiflik ile kara mizah arasındaki ince çizgide yürüyen şakalarla morali yüksek tutar, gözlerindeki ışıltıyı ya da adımlarındaki canlılığı kaybetmeyi reddederdi."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Ousset’in gözünden hiçbir şey kaçmazdı. Gizli bir zırhlı keşif görevine alınmadan önce madalyalı bir keskin nişancı olan Ousset’in kartal gibi keskin gözleri, tüfeğinin dürbününün ötesine uzanırdı. Ona düşman istihbaratından bozulmuş bir parça gösterilse, o kadar tutarlı ve isabetli sonuçlara varırdı ki, kendi ekibi bile başlangıçta onun olağanüstü gözlem yeteneklerini geleceği görme becerisi sanmıştı. Onun komutası altında, sırlar nadiren uzun süre gizli kalırdı. Ekibi için şans eseri, en acımasız incelemesini, araştırmak üzere gönderildikleri bilinmeyen reaktifin kaynağına saklıyordu."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "İnsanlar sürekli olarak bana Jack Reed'i tanıyıp tanımadığımı soruyorlar. Genellikle derin bir nefes alıp bir anlığına gözlerimi kapıyorum. Onun komutanı olmak güllük gülistanlık bir olay değil. Reed bir şekilde emirlere uymayı ve askeri kuralların sınırları içinde kalmayı başarabilen bir asi. Şu anda cehennem gibi sıcak bir tankın içinde hapis. Ama içten içe o Route 66'da motorsikletini sürüp rüzgarı saçlarında hissedebilmek için yola koyuluyor."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "3. Sektör harekâtı"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Bernli saat ustalarından oluşan bir ailede büyüyen Stefan, sessizlik, sabır ve mutlak kontrol gerektiren bir zanaatı miras aldı. Ancak onun için bu nitelikler, çok farklı bir kariyeri şekillendirecekti. 1940 yılında İngiliz istihbaratı ona bir seçim sundu: Sınırın bir tarafında tarafsız İsviçre, diğer tarafında ise kendisi. Alp geçitlerinde, casusluk cihazları tamircisiyken keskin nişancıya dönüştü. Savaştan sonra bu işine devam etti ve sahte isimlerle adaletten kaçanları ortadan kaldırdı. Stefan her zaman tek başına çalıştı, hiçbir iz bırakmadı ve hâlâ da öyle yapıyor: 3. Sektör’de hiç kimse onun yüzünü görmedi."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "3. Sektör harekâtı"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s-seçili top için varsayılan mermi. Top niteliklerinin ve Ate�
 msgid "shell/basic/description/bold"
 msgstr "Varsayılan mermi"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Aracın Harici Mühimmat Besleme modu, artırılmış hasarı olan mermiler kullanabilmesini sağlar."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Temel"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Değiştirilmiş"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Araç topu için özel bir mekanik, değiştirilmiş mermi parametreleriyle daha erken etmeye imkan sağlar."
 
@@ -10866,6 +10932,21 @@ msgstr "Temel:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Değiştirilmiş:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Ayarlanabilir Fünye Belirleyici ortalama hasarı veya delme gücünü artırır."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Ayarlanabilir:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standart"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibreli"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Mini haritada düşman KMT ateşi altında kalan alanı göster/gizle."
@@ -11028,6 +11109,12 @@ msgstr "Ses kalitesini düşürmek düşük güçteki bilgisayarlarda genel oyun
 
 msgid "soundQualityOn/header"
 msgstr "Düşük Kalite Ses"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Düşman aracına zırh delen bir isabetten sonra {{@ style (color #E9E2BF)}}Ortalama Hasar{{/}} artar."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "Düşman aracın zırhı delemeyen bir isabetten sonra {{@ style (color #E9E2BF)}}Ortalama Delme Gücü{{/}} artar."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Premium araçlardaki mürettebat üyeleri %50 daha hızlı eğitilir:"
@@ -11386,6 +11473,36 @@ msgstr "İyileştirilmiş otomatik yeniden yükleme sistemi otomatik yeniden yü
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Magazindeki son mermiyi (veya iki topu) ateşledikten sonra yeni magazinin yüklenmesine kadar geçen süre. / Top sayısı veya magazindeki mermi sayısı."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Mekanik kullanıldığında kalan yükleme süresinin yerine geçen süre."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Şarjör doluysa bir şarjın yenilenmesi için gereken süre."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Şarjör dolu değilse bir şarjın yenilenmesi için gereken süre."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Savaşın başında mevcut olan şarj miktarı."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Herhangi bir anda mermi yüklemeyi hızlandırmak için tutulabilecek maksimum şarj miktarı."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Roketatar mermisinin zırhı delen bir isabet kaydettiğinde verdiği ortalama hasar. Potansiyel hasar ortalama değerin +/-%25'i kadar dağılıma sahiptir."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "100 m mesafede bir nişan noktasından maksimum mermi sapması olarak nitelenen dağılım."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Roket merminin delebileceği ortalama zırh kalınlığı. Ortalama değerin +/-%25'i kadar dağılıma sahiptir."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Roketatarı yüklemek için gereken süre"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Güdümsüz roketin uçuş hızını belirler."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Standart merminin zırhı delen bir isabet kaydettiğinde verdiği ortalama hasar. Potansiyel hasar ortalama değerin +/-%25'i kadar dağılıma sahiptir."
 
@@ -11406,6 +11523,21 @@ msgstr "Takviye etkisinin aktivasyon sonrası azami süresi"
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Haznedeki mermiler arasındaki yükleme süresi. / Magazindeki hazne sayısı. / Haznedeki mermi sayısı."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Yüksek şarjlı üniter merminin zırhı delen bir isabet kaydettiğinde verdiği ortalama hasar. Potansiyel hasar ortalama değerin ±%25'i kadar dağılıma sahiptir."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Harici Mühimmat Besleme modunda nominal araç ileri hızındaki azalma. Geri hız etkilenmez."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Harici Mühimmat Besleme modunda dakika başına mermi değerindeki azalma."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Harici Mühimmat Besleme modunu etkinleştirdikten sonra topu ateş etmeye hazırlamak için gereken minimum süre. Bu süre içinde mod değiştiremezsiniz."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Standart moda döndükten sonra topu ateş etmeye hazırlamak için gereken minimum süre. Bu süre içinde mod değiştiremezsiniz."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Aynı anda iki toptan birden ateş etmek için hazırlık süresi. / Salvo atışı yapıldığında top yükleme engelinin süresi."
@@ -11737,8 +11869,17 @@ msgstr "Yardımcı silahların ateş ettikten sonra yükleme süresi."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Her aktivasyonda yardımcı silahların kullanabileceği mermi sayısı."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Düşman aracına zırh delen isabet kaydettikten sonra hasara verilen bonus."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Düşman aracına zırhı delemeyen isabet kaydettikten sonra delme gücüne verilen bonus."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Savaşın başında mermi yüklemek ve farklı mermi türleri arasında geçiş için gereken süre."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Kalibreli ve Standart atış modları arasındaki geçiş süresi."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "100 m. mesafede bir nişan noktasından maksimum mermi sapması olarak nitelenen top dağılımı."
@@ -11748,6 +11889,36 @@ msgstr "100 m. mesafede bir nişan noktasından maksimum mermi sapması olarak n
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Hedefe olan her 100 m'de mermilerin nişan alma noktasından metre olarak ne kadar dağılabileceğini gösterir. Standart değer (ilk değer), ısınmış top içindir. İyileştirilmiş değer (ikinci değer), soğumuş top içindir."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "IRST'nin tarama sektöründe yeşillik arkasındaki düşman araçlarının gizliliğindeki kademeli azalma."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "IRST'nin tarama sektöründe hareket halindeki düşman araçlarının gizliliğindeki kademeli azalma."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "IRST'nin savaş başladıktan sonra ilk defa kullanılabilir hale gelmesi için gereken süre."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "IRST'nin tarama süresi."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "IRST kullanıldıktan sonra tekrar etkinleştirilebilir hale gelmesi için gereken süre."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "IRST aktifken kule dönüş hızındaki azalma."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Süresinin sonunda IRST'nin tarama sektörünün genişliği."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Süresinin başında IRST'nin tarama sektörünün genişliği"
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "IRST ile tespit edilmemiş bir düşmanı tespit ettikten sonra kendi aracınızın tespit edilme süresi."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "IRST'nin tarama sektöründe görüş mesafesindeki kademeli artış."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Teknik özellikleri tarafından belirlenen araç hızı."

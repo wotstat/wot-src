@@ -6052,6 +6052,18 @@ msgstr "La directive ne fonctionnera pas, car vous avez dépassé la limite de 6
 msgid "moduleFits/wrong_slot/body"
 msgstr "L'élément a déjà été installé sur un autre emplacement"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "La probabilité d'infliger des dégâts critiques aux éléments et/ou à l'équipage ennemis."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "La valeur de la réduction de l'angle d'impact de l'obus lorsqu'il touche le blindage ennemi."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "La quantité de puissance de pénétration que l'obus perd tous les 100 mm après avoir touché une protection ennemie."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "L'angle auquel l'obus ricoche automatiquement sur le blindage ennemi."
+
 msgid "multiselection/alert/body"
 msgstr "Choix des véhicules : vous ne pouvez rejoindre la bataille qu'avec un groupe complet."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Passe de combat : Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin connaissait les déserts de sel arides de sa mission actuelle comme sa poche. Habitué aux environnements instables, il avait gagné ses galons en se spécialisant dans la défense contre la guerre chimique bien avant de monter à bord d'un char. Vingt ans plus tard, il se retrouvait à quelques jours de marche à peine du complexe de laboratoires où il avait commencé son service militaire en tant que jeune technicien. Le temps et les épreuves n'épargnent personne, mais, comme Vadim le disait en plaisantant à son équipage, aucun document n'avait été rempli pour sa démobilisation, alors tant que personne ne le soumettrait en bonne et due forme, il ne bougerait pas d'ici."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Les vallées luxuriantes de l'enfance de Bryn Powell étaient à des années-lumière des climats rudes qu'il a fini par connaître. Son dernier briefing était remarquablement bref, et les phrases « agent chimique non identifié » et « risque de danger mortel : extrême » auraient poussé de nombreux commandants à prier pour une réaffectation. Mais Bryn a toujours considéré l'instinct de survie comme une qualité admirable chez les autres. Casse-cou dans l'âme, il aurait pu avoir une brillante carrière de cascadeur s'il en avait eu l'envie. Mettez-le aux commandes d'un char, et la différence était négligeable."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora était un commandant imperturbable. Vétéran de missions de maintien de la paix dans des régions instables, il avait appris à garder son sang-froid lorsque la pression montait. Qu'il soit au bord de l'épuisement après une longue patrouille de nuit, ou qu'il analyse des renseignements de plus en plus troublants sur la substance inconnue que son équipage avait été chargé de découvrir, son sang-froid ne le quittait jamais. Il maintenait le moral avec des blagues qui flirtaient avec la légèreté et l'humour noir, refusant de perdre l'étincelle dans son regard ou son pas alerte."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Rien n'échappait à Sandrine Ousset. Tireuse d'élite décorée avant d'être recrutée pour une mission secrète de reconnaissance blindée, son œil de lynx voyait bien au-delà de la lunette de son fusil. Montrez-lui un fragment déformé de renseignements ennemis, et elle pouvait en tirer des conclusions si précises que même son propre équipage avait d'abord pris ses incroyables capacités d'observation pour de la clairvoyance. Sous son commandement, les secrets restaient rarement enfouis bien longtemps. Heureusement pour son équipe, elle réservait son examen le plus implacable à la source du réactif inconnu sur lequel ils avaient été envoyés pour enquêter."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "On me demande tout le temps si je connais Jack Reed. Avant de répondre, je prends généralement une grande inspiration et je ferme mes yeux pendant un instant. Être son commandant n'est pas de tout repos. Reed est un rebelle qui réussit malgré tout à suivre les ordres et respecter les règles imposées par l'armée. En ce moment, il est coincé dans un char, une vraie fournaise. Mais au fond de lui, il est sur la Route 66 à bord de sa moto et sent le vent dans ses cheveux."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Campagne Secteur 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Élevé dans une famille d'horlogers bernois, Stefan a hérité d'un métier qui exigeait silence, patience et contrôle absolu. Mais pour lui, ces qualités allaient définir une carrière bien différente. En 1940, les services de renseignement britanniques lui ont offert un choix : la Suisse neutre d'un côté de la frontière, lui de l'autre. Dans les cols alpins, il est passé de mécanicien d'appareils d'espionnage à tireur d'élite. Après la guerre, il a poursuivi ce travail, éliminant ceux qui avaient échappé à la justice sous de faux noms. Stefan a toujours travaillé seul, sans laisser de traces, et c'est toujours le cas : personne dans le Secteur 3 n'a jamais vu son visage."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Campagne Secteur 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s : les obus par défaut pour le canon sélectionné. Utilisé po
 msgid "shell/basic/description/bold"
 msgstr "Obus par défaut"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Le mode Alimentation en munitions externe du véhicule permet d'utiliser des obus aux dégâts accrus."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Normal"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modifié"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Une mécanique spéciale pour le canon du véhicule qui lui permet de tirer plus tôt avec des paramètres des obus altérés."
 
@@ -10866,6 +10932,21 @@ msgstr "Normaux :"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Altérés :"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Le Régleur de fusée ajustable augmente les dégâts moyens ou la pénétration."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Ajustable :"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant le tir."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Calibré"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Afficher/masquer la zone sous le tir du canon automoteur ennemi sur la minicarte."
@@ -11028,6 +11109,12 @@ msgstr "Réduire la qualité audio peut améliorer les performances générales 
 
 msgid "soundQualityOn/header"
 msgstr "Son faible qualité"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Les {{@ style (color #E9E2BF)}}Dégâts moyens{{/}} sont augmentés après un tir pénétrant sur un véhicule ennemi."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "La {{@ style (color #E9E2BF)}}Pénétration moyenne{{/}} est augmentée après un tir non pénétrant sur un véhicule ennemi."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Les membres d'équipage à bord de véhicules premium sont entraînés 50 % plus vite :"
@@ -11386,6 +11473,36 @@ msgstr "Le système de rechargement automatique amélioré réduit le temps sta
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Temps entre le tir de la dernière munition du chargeur (ou de tous les canons) et le chargement du nouveau chargeur. / Nombre de canons ou de munitions dans le chargeur."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Le temps qui remplace le temps de rechargement restant lorsque le mécanisme est utilisé."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Temps nécessaire pour récupérer une charge si le chargeur est plein."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Temps nécessaire pour récupérer une charge si le chargeur n'est pas plein."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Le nombre de charges disponibles au début de la bataille."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Nombre maximum de charges pour accélérer le chargement des obus pouvant être cumulées."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Dégâts moyens infligés par un obus de lance-roquettes après un coup pénétrant. La plage des dégâts potentiels est de +/- 25 % de la valeur moyenne."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersion caractérisée par la déviation maximale de l'obus depuis le point de visée à une distance de 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Épaisseur moyenne du blindage pénétrée par un obus de roquette. La plage est de +/- 25 % de la valeur moyenne."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Temps de rechargement du lance-roquettes."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Détermine la vitesse de déplacement de la roquette non guidée."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Dégâts moyens infligés par un obus standard après un coup pénétrant. La plage des dégâts potentiels est de +/- 25 % de la valeur moyenne."
 
@@ -11406,6 +11523,21 @@ msgstr "Durée maximale de l'effet des propulseurs après activation."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Temps de chargement entre les obus du conteneur. / Nombre de conteneurs dans le barillet. / Nombre d'obus dans un conteneur."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Dégâts moyens infligés par un obus unitaire à charge élevée après un coup pénétrant. La plage des dégâts potentiels est de ±25 % de la valeur moyenne."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Réduction de la vitesse nominale en marche avant du véhicule en mode Alimentation en munitions externe. La vitesse en marche arrière n'est pas affectée."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Réduction du nombre d'obus par minute en mode Alimentation en munitions externe."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Temps minimum nécessaire pour préparer le canon au tir après l'activation du mode Alimentation en munitions externe. Le changement de mode est impossible pendant ce temps."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Temps minimum nécessaire pour préparer le canon au tir après le retour au mode Standard. Le changement de mode est impossible pendant ce temps."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Temps de préparation du tir simultané des deux canons. / Durée du blocage du rechargement du canon après avoir tiré une salve."
@@ -11737,8 +11869,17 @@ msgstr "Temps de rechargement des armements auxiliaires après avoir tiré."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Nombre d'obus disponibles pour les armements auxiliaires durant chaque activation."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bonus aux dégâts octroyé après un tir pénétrant sur un véhicule ennemi."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonus à la pénétration octroyé après un tir non pénétrant sur un véhicule ennemi."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Temps nécessaire pour charger des obus au début de la bataille et pour basculer entre les différents types d'obus."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Temps mis pour basculer entre les modes de tir Calibré et Standard."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "La dispersion du canon est caractérisée par la déviation maximale de l'obus depuis le point de visée à une distance de 100 mètres."
@@ -11748,6 +11889,36 @@ msgstr "La dispersion du canon caractérisée par la déviation maximale de l'ob
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Montre dans quelle mesure l'obus peut dévier du point de visée en mètres à 100 mètres de la cible. La valeur standard (la première) correspond à un canon chauffé, la valeur améliorée (la deuxième) correspond à un canon refroidi."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Réduction progressive de la dissimulation des véhicules ennemis derrière la végétation dans le secteur de scan de l'IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Réduction progressive de la dissimulation des véhicules ennemis en mouvement dans le secteur de scan de l'IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Temps nécessaire après le lancement de la bataille avant que l'IRST puisse être utilisé pour la première fois."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Durée du scan de l'IRST."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Temps nécessaire avant que l'IRST puisse à nouveau être utilisé après activation."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Réduction de la vitesse de rotation de la tourelle tant que l'IRST est actif."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Largeur du secteur de scan de l'IRST à la fin de sa durée."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Largeur du secteur de scan de l'IRST au début de sa durée."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Durée pendant laquelle votre véhicule est repéré après avoir détecté un ennemi non repéré avec l'IRST."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Augmentation progressive de la portée de vue dans le secteur de scan de l'IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Vitesse du véhicule telle que définie dans ses caractéristiques techniques."

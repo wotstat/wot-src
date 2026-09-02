@@ -13,6 +13,10 @@ class SMDistractionAbilityEntityComponent(DynamicScriptComponent):
     def __init__(self):
         super(SMDistractionAbilityEntityComponent, self).__init__()
         self._animator = None
+        return
+
+    def _onAvatarReady(self):
+        super(SMDistractionAbilityEntityComponent, self)._onAvatarReady()
         self._addEffect()
         return
 
@@ -30,18 +34,23 @@ class SMDistractionAbilityEntityComponent(DynamicScriptComponent):
 
     def _addEffect(self):
         distractionItem = self.guiSessionProvider.shared.equipments.getEquipmentByName(DISTRACTION_ABILITY)
-        itemDescriptor = distractionItem.getDescriptor()
-        if itemDescriptor.detectSequence:
-            entity = BigWorld.player().vehicle if itemDescriptor.detectFromVehicle else self.entity
-            matrix = Math.Matrix()
-            scale = itemDescriptor.directVisionRadius / self._SEQUENCE_RADIUS
-            matrix.setScale(Math.Vector3(scale, scale, scale))
-            matrix.translation = entity.position
-            loader = AnimationSequence.Loader(itemDescriptor.detectSequence, entity.spaceID)
-            animator = loader.loadSync()
-            animator.bindToWorld(matrix)
-            animator.speed = 1
-            animator.loopCount = 1
-            animator.start()
-            self._animator = animator
-        return
+        if distractionItem is None:
+            return
+        else:
+            itemDescriptor = distractionItem.getDescriptor()
+            if itemDescriptor.detectSequence:
+                entity = BigWorld.player().vehicle if itemDescriptor.detectFromVehicle else self.entity
+                if entity is None:
+                    return
+                matrix = Math.Matrix()
+                scale = itemDescriptor.directVisionRadius / self._SEQUENCE_RADIUS
+                matrix.setScale(Math.Vector3(scale, scale, scale))
+                matrix.translation = entity.position
+                loader = AnimationSequence.Loader(itemDescriptor.detectSequence, entity.spaceID)
+                animator = loader.loadSync()
+                animator.bindToWorld(matrix)
+                animator.speed = 1
+                animator.loopCount = 1
+                animator.start()
+                self._animator = animator
+            return

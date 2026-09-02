@@ -46,6 +46,15 @@ msgstr "Aktiverer en mere detaljeret og realistisk model for ødelæggelse af ob
 msgid "HAVOK_ENABLED/warning"
 msgstr "Indstillingen vil blive påført i den næste kamp, hvis den deaktiveres i den nuværende kamp."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Forbedrede visuelle effekter"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Aktiverer forbedrede visuelle effekter. Deaktivering af denne mulighed vender tilbage til standard-effekter, som kan forbedre spillets ydeevne."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Indstillingen vil blive påført i den næste kamp, hvis den deaktiveres i den nuværende kamp."
+
 msgid "LANGUAGE_CODE"
 msgstr "da"
 
@@ -175,11 +184,11 @@ msgstr "Aktiver spor efter bælter og hjul"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Viser spor fra bælterne og hjulene på jorden.\n\nUtilgængelig med forenklet grafik og lav kvalitet på mærker."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Skjul 3D-tilbehør i skarpskytte-tilstand."
+msgid "VISIBILITY_TUNNEL"
+msgstr "Effekt og synlighed af 3D-tilbehør"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Skjuler midlertidigt et køretøjs 3D-tilbehør for kanonsigtet i skarpskytte-tilstand.\n\nReducerer visuel forvirring og forbedrer sigtets præcision."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Justerer synligheden på effekter og 3D-tilbehør nær midten af skærmen for at reducere visuelle forhindringer, mens der sigtes. Synlighed af 3D-tilbehør justeres kun i skarpskytte-tilstand.\n\nLavere værdier gør effekter og 3D-tilbehør mere gennemsigtige for bedre klarhed i sigtet."
 
 msgid "WATER_QUALITY"
 msgstr "Vandkvalitet"
@@ -1995,6 +2004,15 @@ msgstr "Type:"
 
 msgid "screenMode/windowed"
 msgstr "Vindue"
+
+msgid "showPrebattleHighlights"
+msgstr "Aktiverer søgelys"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Viser et udvalg af visuelt fremstående kampvogne under nedtælling før kamp.\n\nDeaktivering af denne funktion kan forbedre spillets ydeevne."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Hvis indstillingen er deaktiveret i den nuværende kamp, vil den aktiveres i den næste."
 
 msgid "smoothing/description"
 msgstr "Afgør grader af yderligere behandling af tynde linjer og konturer af spilobjekter i sceneriet. Minimerer effekten af aliasing. Objekters kontur fremstår mere naturlig."

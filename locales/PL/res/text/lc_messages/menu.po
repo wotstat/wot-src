@@ -826,6 +826,9 @@ msgstr "Style 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Tylko podstawowe"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Zwiadowca"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Snajper"
 
@@ -834,9 +837,6 @@ msgstr "Wsparcie"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Uniwersalny"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Kołowy"
 
 msgid "centerIsAvailable"
 msgstr "Wszystkie serwery są znowu dostępne."
@@ -4159,6 +4159,9 @@ msgstr "Ulepszony system automatycznego przeładowania:\nZmniejsza standardowy c
 msgid "moduleInfo/autoShootGun"
 msgstr "Działo z systemem prowadzenia ognia ciągłego"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ten pojazd jest wyposażony w wyrzutnię rakiet zamontowaną w jarzmie działa. Aktywuj zdolność, aby przełączyć się na celownik broni dodatkowej, a następnie wystrzel niekierowany pocisk odłamkowo-burzący przyciskiem strzału."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Zamknij"
 
@@ -4312,6 +4315,9 @@ msgstr "Przygotowanie"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "do głównej kwalifikacji i atutów załogi"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Szansa na trafienie krytyczne"
+
 msgid "moduleInfo/params/damage"
 msgstr "Uszkodzenia"
 
@@ -4342,11 +4348,29 @@ msgstr "Prawdopodobieństwo pożaru przy trafieniu"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Czas lotu"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Zawsze zadaje uszkodzenia po trafieniu głównego pancerza"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maksymalny zasięg lotu pocisku dla tego działa"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " nie zależą od odległości dla tego typu pocisku"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksymalny zasięg lotu – 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " ten typ pocisku traci siłę penetracji wraz z odległością po przejściu przez pierwszą osłonę"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " zależą od odległości: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " ten typ pocisku przebija osłony jak zwykle, ale następnie traci siłę penetracji równą trzykrotnej grubości pancerza osłony"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Maksymalna prędkość"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Zawsze zadaje uszkodzenia po trafieniu głównego pancerza"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Masa"
@@ -4378,20 +4402,11 @@ msgstr "Punkty Wytrzymałości"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Zasięg ostrzału"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maksymalny zasięg lotu pocisku dla tego działa"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maksymalny kąt skrętu kół"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Średnie uszkodzenia z %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " nie zależą od odległości dla tego typu pocisku"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksymalny zasięg lotu—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Kąt normalizacji"
@@ -4399,14 +4414,8 @@ msgstr "Kąt normalizacji"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Utrata wartości penetracji"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Ten typ pocisku traci siłę penetracji wraz z odległością po przejściu przez pierwszą osłonę"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " zależą od odległości: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Średnia penetracja (mm)—Odległość"
@@ -4456,9 +4465,6 @@ msgstr "Prędkość obrotu"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Mnożnik pancerza\nprzeciwkumulacyjnego"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Ten typ pocisku przebija osłony jak zwykle, ale następnie traci siłę przebicia równą trzykrotności grubości pancerza osłony"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Indukcyjny dopalacz ładunku zwiększający średnie uszkodzenia"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Dopalacze odrzutowe zwiększające mobilność pojazdu"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikację niektórych parametrów pocisku przed wystrzałem."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Dopalacze na paliwo stałe poprawiające przyspieszenie, mobilność i zwrotność"
@@ -5284,11 +5293,14 @@ msgstr "Pojazdy z doskonałymi działami, których skuteczne użycie wymaga zast
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Czołgi wielozadaniowe, które potrafią z łatwością dostosować się do każdej sytuacji bojowej."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Szybkie i zwrotne pojazdy, które mogą zarówno dokonywać zwiadu, jak i zadawać uszkodzenia, wykonując manewry oskrzydlające."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Czołgi lekkie zwiadu to małe, zwinne pojazdy stworzone do wykrywania przeciwników. Ich niskie sylwetki i dobre maskowanie, a także doskonała zwrotność i wysoka prędkość maksymalna czynią je biegłymi zarówno w pasywnym, jak i aktywnym zwiadzie, ale niska wytrzymałość i mała siła ognia uniemożliwiają im zapewnienie znaczącego wsparcia ogniowego sojusznikom."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Pojazdy o wyjątkowych charakterystykach dynamiki, których skuteczne wykorzystanie zależy od mapy lub sytuacji taktycznej."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Czołgi lekkie wsparcia wykorzystują swoją wysoką mobilność, doskonałą zwrotność i potężne działa, aby szybko zmieniać flanki i zadawać znaczne uszkodzenia, a potem wycofywać się w bezpieczne miejsce. Chociaż w niektórych sytuacjach mogą prowadzić zwiad, ich duże rozmiary i słabe maskowanie sprawiają, że są mniej skutecznymi zwiadowcami niż inne czołgi lekkie."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Uniwersalne czołgi lekkie to dobrze zbalansowane pojazdy zdolne zarówno do prowadzenia zwiadu, jak i zapewniania wsparcia ogniowego sojusznikom. Chociaż są mniej skuteczne w zwiadzie niż czołgi zwiadowcze i mają mniejszą siłę ognia niż czołgi lekkie wsparcia, ich zrównoważone charakterystyki pozwalają im sprawnie odgrywać obie role i łatwo dostosowywać się do różnorodnych sytuacji bojowych."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Pojazdy z przyzwoitym pancerzem, który predestynuje je do walki na małym dystansie i stawiania czoła czołgom ciężkim przeciwnika."
@@ -5329,11 +5341,14 @@ msgstr "Czołg ciężki wsparcia"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Uniwersalny czołg ciężki"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Czołg lekki zwiadu"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Czołg lekki wsparcia"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Uniwersalny czołg lekki"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Kołowy czołg lekki"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Szturmowy czołg średni"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Przeładowanie"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magazynek/ilość)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Przyspieszony czas ładowania pocisku"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Przygotowanie ładunku przy pełnym magazynku"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Bazowy czas przygotowania ładunku"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Ładunki na początku bitwy"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Ładunki"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Średnie uszkodzenia (PW)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Rozrzut na 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Średnia penetracja (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Czas przygotowania (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Prędkość pocisku rakietowego (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Średnie uszkodzenia"
 
@@ -6057,6 +6105,21 @@ msgstr "Zasobnik amunicyjny"
 
 msgid "tank_params/burstSec"
 msgstr "(s/liczba/liczba)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Średnie uszkodzenia (PW)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Prędkość maksymalna (tryb ZZA) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Szybkostrzelność działa (pocisków/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Aktywacja trybu ZZA (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Deaktywacja trybu ZZA(s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Przygotowanie salwy"
@@ -6150,6 +6213,12 @@ msgstr "Moc silnika (KM) (tryb turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Promień uszkodzeń"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Prędkość maksymalna (tryb ZZA) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Aktywacja trybu ZZA(s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Czas chłodzenia działa po wystrzale"
@@ -6325,9 +6394,6 @@ msgstr "Zdolność do pokonywania przeszkód"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Ładunek Elektromechanicznego celownika zbieżności (% na s) (tryb starcia, pasywne)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(na aktywację)"
 
@@ -6484,8 +6550,20 @@ msgstr "Ładowanie uzbrojenia pomocniczego"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Pociski uzbrojenia pomocniczego"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Skorygowane średnie uszkodzenia pocisku (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Skorygowana średnia penetracja pocisku (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Ładowanie pasem amunicyjnym"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Czas przełączania pomiędzy trybami"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetracja:"
@@ -6495,6 +6573,36 @@ msgstr "Rozrzut na 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Prędkość pocisku"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Maskowanie pojazdów przeciwnika za roślinnością (stacjonarnych i w ruchu)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Maskowanie przeciwnika w ruchu"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Początkowe przygotowanie"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Czas trwania"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Czas przygotowania"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Prędkość obrotu wieży"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Końcowa szerokość skanowania"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Początkowa szerokość skanowania"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Czas trwania samowykrywania"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Zasięg widzenia"
 
 msgid "tank_params/speedLimits"
 msgstr "Prędkość maksymalna/cofania"

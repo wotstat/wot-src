@@ -229,23 +229,14 @@ msgstr "na zakup:"
 msgid "battlePassBuyView/descr"
 msgstr "Kupno etapu postępów natychmiast odblokowuje i przyznaje wszystkie nagrody zawarte w tym etapie."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Te nagrody zostaną Ci przyznane po ukończeniu nadchodzących etapów."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Za %(steps)s etapy zostaną Ci przyznane następujące nagrody"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Następujące nagrody otrzymasz natychmiast"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Za %(steps)s etap zostaną Ci przyznane następujące nagrody"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "ZOSTANĄ ODBLOKOWANE"
+msgstr "Odblokowywanie na nieukończonych etapach"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "ZOSTANIE PRZEKAZANE NATYCHMIAST"
+msgstr "Natychmiastowe otrzymanie"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktywuj rozdział Przepustki bitewnej"
@@ -277,20 +268,17 @@ msgstr "Pieśń o żubrze"
 msgid "chapter/fullName/1114"
 msgstr "Pieśń o żubrze"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitarny krąg"
 
-msgid "chapter/fullName/201"
-msgstr "Zakopany czas"
+msgid "chapter/fullName/211"
+msgstr "Specjalista"
 
-msgid "chapter/fullName/202"
-msgstr "C’est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Kaskader"
 
-msgid "chapter/fullName/203"
-msgstr "Pustynne dowództwo"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoik"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "PIEŚŃ O ŻUBRZE"
@@ -298,17 +286,14 @@ msgstr "PIEŚŃ O ŻUBRZE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "PIEŚŃ O ŻUBRZE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ZAKOPANY CZAS"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECJALISTA"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C’EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADER"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "PUSTYNNE DOWÓDZTWO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIK"
 
 msgid "chapter/title"
 msgstr "ROZDZIAŁ %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Misja 3× PD załogi"
 
 msgid "equipCoinBonus"
 msgstr "Elementy: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Zestaw dodatków 3D"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Dowódca"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Dostępny po ukończeniu wszystkich rozdziałów. Ukończone rozdziały: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Zdobądź pojazd premium i ekskluzywne elementy personalizujące."
+msgstr "Zanurkuj w nim, aby zdobyć ekskluzywne nagrody i unikalne elementy personalizacji."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Nadeszła Przepustka bitewna: Far Cry"
+msgstr "Specjalny rozdział jest już dostępny!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Kup ulepszoną przepustkę i zgarnij więcej!"
@@ -1114,11 +1102,8 @@ msgstr "Etap %(level)d elitarnego kręgu"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "doświadczenia dla każdego członka załogi wybranego pojazdu z kraju: %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "WYBIERZ SWOJĄ NAGRODĘ"
-
 msgid "rewardChoice/title"
-msgstr "PRZEPUSTKA BITEWNA"
+msgstr "Wybierz swoje nagrody"
 
 msgid "rewardChoice/titleChapter"
 msgstr "PRZEPUSTKA BITEWNA: ROZDZIAŁ %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "PRZEPUSTKA BITEWNA: ROZDZIAŁ %(chapter)s, ETAP %(level)s"
 msgid "season/fullName/1002"
 msgstr "Pieśń o żubrze"
 
-msgid "season/fullName/20"
-msgstr "Poszukiwania na piaskach"
+msgid "season/fullName/21"
+msgstr "Uziemiony"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "PIEŚŃ O ŻUBRZE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "POSZUKIWANIA NA PIASKACH"
+msgid "season/fullNameUppercased/21"
+msgstr "UZIEMIONY"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Dyrektywy do wyboru"

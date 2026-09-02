@@ -46,6 +46,15 @@ msgstr "Engedélyezi a pályán található objektumok részletesebb és realisz
 msgid "HAVOK_ENABLED/warning"
 msgstr "A beállítás a következő csatában lép életbe, ha az aktuális csatában ki van kapcsolva."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Fejlett vizuális effektusok"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Engedélyezi a fejlett vizuális effektusokat. Az opció kikapcsolásával a rendszer visszatér a normál effektusokhoz, ami javíthatja a játék teljesítményét."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "A beállítás a következő csatában lép életbe, ha az aktuális csatában ki van kapcsolva."
+
 msgid "LANGUAGE_CODE"
 msgstr "hu"
 
@@ -175,11 +184,11 @@ msgstr "Lánctalp és keréknyomok engedélyezése"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Megjeleníti a lánctalp- és keréknyomokat a földön.\n\nNem érhető el egyszerűsített grafika és alacsony matricaminőség beállításokkal."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "A 3D-kiegészítők elrejtése Mesterlövész módban"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Effektusok és 3D-kiegészítők láthatósága"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Átmenetileg elrejti a járművek 3D-kiegészítőit a löveg célkeresztjében Mesterlövész módban.\n\nCsökkenti a képernyőn látható zavaró elemeket és javítja a célzás pontosságát."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "A képernyő közepéhez közeli effektusok és 3D-kiegészítők láthatóságát szabályozza, hogy csökkentse a zavaró elemeket célzás közben. A 3D-kiegészítők láthatósága csak mesterlövész módban állítható be.\n\nAz alacsonyabb értékek átlátszóbbá teszik az effektusokat és a 3D-kiegészítőket, tisztább rálátást biztosítva."
 
 msgid "WATER_QUALITY"
 msgstr "Víz minősége"
@@ -1995,6 +2004,15 @@ msgstr "Mód:"
 
 msgid "screenMode/windowed"
 msgstr "Ablakos"
+
+msgid "showPrebattleHighlights"
+msgstr "Reflektorfény engedélyezése"
+
+msgid "showPrebattleHighlights/description"
+msgstr "A csata előtti visszaszámlálás során látványos harckocsikból álló válogatást jelenít meg.\n\nA paraméter kikapcsolása javíthatja a játék teljesítményét."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Ha a beállítás az aktuális csatában ki van kapcsolva, csak a következő csatában lép életbe."
 
 msgid "smoothing/description"
 msgstr "Meghatározza, hogy az objektumok szélei és élei mennyire legyenek elsimítva. Csökkenti az aliasing effektus hatását. Az objektumok kontúrjai sokkal természetesebbek lesznek."

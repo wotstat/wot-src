@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Recepționat!"
 
 msgid "error/description"
-msgstr "Informație temporar indisponibilă. Ne oferim scuze pentru inconveniențe. Te rugăm să încerci mai târziu."
+msgstr "Oferim scuze pentru inconveniențe. Te rugăm să încerci mai târziu."
 
 msgid "error/title"
-msgstr "Nu pot deschide selecția recompenselor"
+msgstr "Pagina e momentan indisponibilă"
 
 msgid "footer/closeBtn/label"
 msgstr "Selectează mai târziu"
@@ -23,7 +23,7 @@ msgstr[1] "Selectează recompense din categoriile oferite."
 msgstr[2] "Selectează recompense din categoriile oferite."
 
 msgid "footer/okBtn/label"
-msgstr "Revendică"
+msgstr "Revendică recompensele"
 
 msgid "footer/rewardsSelected"
 msgstr "Recompense selectate:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Deja obținut"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "S-a atins limita articolelor selectate din această categorie. Poți anula selectarea unui articol pentru a adăuga un altul."
+msgstr "Ai atins numărul maxim de articole permise în această categorie. Deselectează un articol pentru a alege altul."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limită atinsă"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Directive\npentru echipament"
@@ -93,6 +93,9 @@ msgstr "Echipament standard"
 
 msgid "tabs/items/trophy"
 msgstr "Echipament recompensă"
+
+msgid "tooltips/footer/body"
+msgstr "Selectează recompense pentru revendicare"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Apasă butonul „Revendică” pentru a primi recompensele selectate."

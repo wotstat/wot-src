@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "La Saison du Dragon azuré commence le : %(date)s"
+msgstr "La Saison du Phénix azuré commence le : %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "La Saison du Dragon pourpre commence le : %(date)s"
+msgstr "La Saison du Phénix pourpre commence le : %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "La Saison du Dragon de jade commence le : %(date)s"
+msgstr "La Saison du Phénix de jade commence le : %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "En attente des résultats de la Qualification pour recevoir votre rang"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "La Saison du Dragon azuré est terminée"
+msgstr "La Saison du Phénix azuré est terminée"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "La Saison du Dragon pourpre est terminée"
+msgstr "La Saison du Phénix pourpre est terminée"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "La Saison du Dragon de jade est terminée"
+msgstr "La Saison du Phénix de jade est terminée"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Les batailles sur ce serveur seront disponibles dans %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Caractéristiques du véhicule améliorées"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Récupération des points de structure"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Dégâts subis augmentés"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Caractéristiques du véhicule améliorées"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "La Saison du Dragon azuré durera %(days)d jour"
-msgstr[1] "La Saison du Dragon azuré durera %(days)d jours"
-msgstr[2] "La Saison du Dragon azuré durera %(days)d jours"
+msgstr[0] "La Saison du Phénix azuré durera %(days)d jour"
+msgstr[1] "La Saison du Phénix azuré durera %(days)d jours"
+msgstr[2] "La Saison du Phénix azuré durera %(days)d jours"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "La Saison du Dragon pourpre durera %(days)d jour"
-msgstr[1] "La Saison du Dragon pourpre durera %(days)d jours"
-msgstr[2] "La Saison du Dragon pourpre durera %(days)d jours"
+msgstr[0] "La Saison du Phénix pourpre durera %(days)d jour"
+msgstr[1] "La Saison du Phénix pourpre durera %(days)d jours"
+msgstr[2] "La Saison du Phénix pourpre durera %(days)d jours"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "La Saison du Dragon de jade durera %(days)d jour"
-msgstr[1] "La Saison du Dragon de jade durera %(days)d jours"
-msgstr[2] "La Saison du Dragon de jade durera %(days)d jours"
+msgstr[0] "La Saison du Phénix de jade durera %(days)d jour"
+msgstr[1] "La Saison du Phénix de jade durera %(days)d jours"
+msgstr[2] "La Saison du Phénix de jade durera %(days)d jours"
 
 msgid "calendarDay/title"
 msgstr "Horaires"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Aptitudes"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Offensive. Année du Dragon"
+msgstr "Offensive : l'Année du Phénix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Aptitudes zéro"
@@ -574,11 +577,17 @@ msgstr "Affirmatif !"
 msgid "intro/description/banPhase"
 msgstr "Chaque équipe peut bannir totalement un véhicule d'une bataille. Coordonnez les votes avec vos alliés afin d'exclure la machine que vous craignez le plus ou de préparer une composition inattendue pour les ennemis. Si votre véhicule est banni, vous pouvez choisir parmi plusieurs véhicules de location préconfigurés à la place."
 
+msgid "intro/description/draw"
+msgstr "Quand le temps est écoulé et qu'aucune équipe n'a remporté de victoire nette, l'issue de la bataille est déterminée par des critères de départage dans cet ordre : les véhicules survivants, les dégâts infligés et le premier véhicule vaincu. Si aucune équipe n'a infligé de dégâts, la bataille est déclarée comme une égalité."
+
+msgid "intro/description/nightMaps"
+msgstr "Les cartes de nuit renouvellent les champs de bataille familiers avec des conditions nocturnes, de nouveaux postes d'observation, des Points d'intérêt mis à jour et des mécaniques de détection modifiées. La sélection actuelle inclut Glacier, Rivière de sable, Avant-poste et Steppes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Le mode possède des modificateurs qui changent certains paramètres du véhicule, comme ses points de structure, le temps de rechargement des consommables, la durée pendant laquelle il reste visible et plus encore."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Après avoir capturé certaines zones de la carte, vous pourrez utiliser des compétences tactiques. Il existe deux types de Points d'intérêt : Quartier général de l'artillerie vous permettra d'appeler une frappe d'artillerie sur une positionnée donnée, tandis que Centre de communications repérera tous les véhicules ennemis. En fonction de la carte, la présence et l'emplacement de ces Points d'intérêt peuvent changer."
+msgstr "Après avoir capturé certaines zones de la carte, vous accéderez à des Compétences tactiques. Il existe deux types de points d'intérêt : le Quartier général de l'artillerie, qui vous permet de demander une frappe ciblée, et les Centres de communications, qui révèlent tous les véhicules ennemis. Le nombre et l'emplacement de ces sites varient d'une carte à l'autre."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Disputez %(count)s batailles de Qualification pour déterminer votre 
 msgstr[2] "Disputez %(count)s batailles de Qualification pour déterminer votre niveau de compétence et votre rang. Une fois terminées, vous recevrez des récompenses correspondant au rang que vous avez atteint ainsi que celles de tous les rangs précédents.\n\nLes désertions et les égalités lors de la Qualification seront considérées comme des défaites."
 
 msgid "intro/description/ranks"
-msgstr "Un système qui reflète la compétence du joueur. Progressez dans les rangs de Fer à Légende et gagnez de précieuses récompenses. Combattez durant l'Année du Dragon pour recevoir des Récompenses annuelles uniques."
+msgstr "Progressez dans les rangs de Fer à Légende et gagnez de précieuses récompenses. Combattez durant l'Année du Phénix pour recevoir des Récompenses annuelles uniques."
 
 msgid "intro/description/roleSkills"
 msgstr "En fonction du rôle, chaque véhicule dispose d'une compétence spéciale avec trois niveaux de charge. Plus le niveau de charge est élevé lors de l'activation de la compétence, plus son effet sera important. Le niveau de charge dépendra du nombre de Points de prestige pouvant être obtenus par des performances impressionnantes en bataille, la capture de Points d'intérêt, l'utilisation de compétences tactiques, etc.\n\nConsultez les règles du mode pour en savoir davantage concernant les différentes manières d'obtenir des Points de prestige."
@@ -597,6 +606,12 @@ msgstr "Vous pouvez entrer en bataille à bord de véhicules recherchables de ra
 
 msgid "intro/title/banPhase"
 msgstr "BANNISSEMENTS DE VÉHICULES"
+
+msgid "intro/title/draw"
+msgstr "RÈGLES D'ÉGALITÉ"
+
+msgid "intro/title/nightMaps"
+msgstr "CARTES DE NUIT"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICATEURS D'OFFENSIVE"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VICTOIRE, MAIS VOUS AVEZ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promu en %(rank)s"
+msgstr "Promu à {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Cote : {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Rétrogradé en %(rank)s, %(division)s"
+msgstr "Rétrogradé à {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promu en %(rank)s, %(division)s"
+msgstr "Promu à {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Batailles jouées"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Record de Points de prestige saisonniers : %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "La Saison du Dragon azuré est terminée sur le serveur %(server)s."
+msgstr "La Saison du Phénix azuré est terminée sur le serveur %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "La Saison du Dragon pourpre est terminée sur le serveur %(server)s."
+msgstr "La Saison du Phénix pourpre est terminée sur le serveur %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "La Saison du Dragon de jade est terminée sur le serveur %(server)s."
+msgstr "La Saison du Phénix de jade est terminée sur le serveur %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Acheter"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "OFFENSIVE. QUALIFICATION TERMINÉE"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "OFFENSIVE. SAISON DU DRAGON AZURÉ"
+msgstr "OFFENSIVE : SAISON DU PHÉNIX AZURÉ"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "OFFENSIVE. SAISON DU DRAGON POURPRE"
+msgstr "OFFENSIVE : SAISON DU PHÉNIX POURPRE"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "OFFENSIVE. SAISON DU DRAGON DE JADE"
+msgstr "OFFENSIVE : SAISON DU PHÉNIX DE JADE"
 
 msgid "rewardsScreen/description/year"
-msgstr "OFFENSIVE. ANNÉE DU DRAGON"
+msgstr "OFFENSIVE. ANNÉE DU PHÉNIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Où est mon Ashbringer ?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Se termine dans %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Saison du Dragon azuré"
+msgstr "Saison du Phénix azuré"
 
 msgid "seasonName/second"
-msgstr "Saison du Dragon pourpre"
+msgstr "Saison du Phénix pourpre"
 
 msgid "seasonName/third"
-msgstr "Saison du Dragon de jade"
+msgstr "Saison du Phénix de jade"
 
 msgid "seasonPointTooltip/header"
 msgstr "Bannières d'Offensive"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Position dans le classement : %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "OFFENSIVE. %(seasonNameUpper)s"
+msgstr "OFFENSIVE %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "A reçu %(points)s Bannières d'Offensive"
 msgstr[2] "A reçu %(points)s Bannières d'Offensive"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SAISON I. DRAGON AZURÉ"
+msgstr "SAISON I : PHÉNIX AZURÉ"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SAISON II. DRAGON POURPRE"
+msgstr "SAISON II : PHÉNIX POURPRE"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SAISON III. DRAGON DE JADE"
+msgstr "SAISON III : PHÉNIX DE JADE"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Victoires : %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Ce mode deviendra disponible le %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Dragon azuré"
+msgstr "Phénix azuré"
 
 msgid "shortSeasonName/second"
-msgstr "Dragon pourpre"
+msgstr "Phénix pourpre"
 
 msgid "shortSeasonName/third"
-msgstr "Dragon de jade"
+msgstr "Phénix de jade"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Cette section contient des informations sur les meilleurs joueurs de la saison actuelle en mode Offensive."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Voir tout"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Soutenez la série Légendes d'offensive en faisant grossir la cagnotte grâce aux lots de tournoi !"
+msgstr "Si l'équipe que vous avez choisie l'emporte, vous recevrez un insigne doré unique OLS 2026. Encouragez vos joueurs préférés !"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Montrez votre passion pour l'esport avec des éléments de personnalisation à thème exclusifs et des chars uniques !"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Une confrontation épique est sur le point de se dérouler lors du Championnat international de World of Tanks à Suzhou, en Chine. Ici, les équipes les plus féroces s'affronteront selon les règles d'Offensive, toutes visant le titre prestigieux de champion du monde. Admirez la naissance de légendes sur le champ de bataille !"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS saison 6"
+msgstr "OLS saison 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI 2025"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Cette saison marque votre dernière chance d'obtenir de précieuses récompenses, y compris l'Ashbringer (un char lourd de rang X exclusif) avec tous les styles 3D uniques gagnés pour lui et un équipage intrépide avec Frères d'armes comme aptitude zéro, sans oublier de l'Équipement amélioré et expérimental au choix, un style 2D saisissant et plus encore. Ne passez pas à côté, la victoire vous attend sur le champ de bataille !"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Profitez des derniers moments de l'Année du Dragon !"
+msgstr "Profitez des derniers moments de l'Année du Phénix !"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SAISON DU DRAGON DE JADE"
+msgstr "SAISON DU PHÉNIX AZURÉ"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "OFFENSIVE. QUOI DE NEUF ?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Mise au ban !"
+msgstr "Déchaînez vos flammes !"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "L'écran des résultats d'après-bataille, amélioré avec son nouveau design de la mise à jour 2.0, vous offre désormais des informations supplémentaires propres au mode après chaque bataille."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Quand le temps est écoulé et qu'aucune équipe n'a remporté de victoire nette, l'issue de la bataille est déterminée par des critères de départage dans cet ordre : les véhicules survivants, les dégâts infligés et le premier véhicule vaincu. Si aucune équipe n'a infligé de dégâts, la bataille est déclarée comme une égalité."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Résultats de bataille détaillés"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Ce n'est pas grave si votre véhicule préféré a été exclu. Les locations sont désormais proposées avec un équipage, de l'équipement, des obus et des consommables préconfigurés."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Locations prêtes au déploiement %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Cette saison, chaque équipe peut bannir totalement un véhicule de la bataille. Coordonnez les votes avec vos alliés afin d'exclure la machine que vous craignez le plus ou de préparer une composition inattendue pour les ennemis."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Bannissements de véhicules %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Conditions d'égalité mises à jour {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Cartes"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nouveaux véhicules disponibles dans Offensive"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "La version 2.4 introduit de nouveaux rôles pour les chars légers et un rééquilibrage des caractéristiques des véhicules. Essayez-les en bataille !"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nouveaux rôles pour les chars légers {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Un gameplay renouvelé sur des cartes familières. Les changements incluent des conditions de nuit, de nouveaux postes d'observation, de nouveaux emplacements de points d'intérêt et des mécaniques de détection modifiées. Tout cela remodèle le cours de la bataille, rendant la perception, le timing et les mouvements tactiques plus importants que jamais."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Les cartes de nuit sont arrivées ! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "En raison du faible nombre de joueurs en bataille, les Super-pelotons ont été désactivés. Nous travaillons sur des alternatives en équipe pour jouer en mode Offensive. En attendant, des tournois 7v7 sont disponibles régulièrement."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Finis les super-pelotons {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Véhicules de location"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Le char moyen américain de rang X Ares 90 récemment sorti est désormais disponible dans le mode avec une compétence de rôle ajustée."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Cartes : Erlenberg a été retirée. Les points d'intérêt sur Aérodrome ont été repositionnés. Ajustements mineurs sur Pilsen.\n• Véhicules : Le Vz. 60S Dravec a été retiré. Le nouveau char lourd allemand Kampfpanzer 67 a été ajouté."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Mise à jour des compétences de rôle %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Le 114 SP2 est désormais disponible à l'achat au rang Argent dans la Boutique d'Offensive."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Mise à jour de la Boutique %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Rééquilibrages saisonniers {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EXCLUE"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Saison I. Dragon azuré"
+msgstr "SAISON I : PHÉNIX AZURÉ"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Saison II. Dragon pourpre"
+msgstr "Saison II : Phénix pourpre"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Saison III. Dragon de jade"
+msgstr "SAISON III : PHÉNIX DE JADE"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Actuel"

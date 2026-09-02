@@ -46,6 +46,15 @@ msgstr "Zapíná podrobnější a reálnější zpracování ničení objektů n
 msgid "HAVOK_ENABLED/warning"
 msgstr "Pokud je nastavení ve stávající bitvě vypnuto, pak se projeví až v další bitvě."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Vylepšené vizuální efekty"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Zapne vylepšené vizuální efekty. Vypnutím této možnosti se vrátíte ke standardním efektům, což může zvýšit výkon hry."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Pokud je nastavení ve stávající bitvě vypnuto, pak se projeví až v další bitvě."
+
 msgid "LANGUAGE_CODE"
 msgstr "cs"
 
@@ -175,11 +184,11 @@ msgstr "Povolit stopy pásů a kol"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Zobrazuje na zemi stopy pásů a kol.\n\nNedostupné se zjednodušenou grafikou a nízkou kvalitou obtisků."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Skrýt 3D doplňky v odstřelovacím režimu"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Viditelnost efektů a 3D doplňků"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Dočasně skryje v zaměřovači děla v odstřelovacím režimu 3D doplňky vozidla.\n\nSnižuje vizuální rušení a zvyšuje přesnost míření."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Upravuje viditelnost efektů a 3D doplňků v blízkosti středu obrazovky, aby se omezilo rušení výhledu při míření. Viditelnost 3D doplňků je upravena pouze v odstřelovacím režimu.\n\nNižší hodnoty zvyšují průhlednost efektů a 3D doplňků, čímž se zlepšuje přehlednost při míření."
 
 msgid "WATER_QUALITY"
 msgstr "Kvalita vodní hladiny"
@@ -1995,6 +2004,15 @@ msgstr "Režim:"
 
 msgid "screenMode/windowed"
 msgstr "V okně"
+
+msgid "showPrebattleHighlights"
+msgstr "Zapnout světlomet"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Během odpočítávání před bitvou zobrazuje výběr vizuálně působivých tanků.\n\n Vypnutím tohoto parametru lze zlepšit výkon hry."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Pokud je nastavení ve stávající bitvě vypnuto, pro další bitvu bude zapnuté."
 
 msgid "smoothing/description"
 msgstr "Určuje míru dodatečného zpracování tenkých čar a obrysů herních objektů na herní scéně. Minimalizuje efekt aliasingu. Obrysy objektů vypadají více přirozeně."

@@ -40,6 +40,9 @@ msgstr "Erforschen"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Wiederherstellen"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Zu den großen Schachteln"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Fahrzeug der Stufe %(level)s%(nation)s wurde nicht erforscht"
 
@@ -54,6 +57,15 @@ msgstr "Rabatt auf den Kauf:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Rabatt auf Forschung:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Dieses Fahrzeug kann aus {{@ style (color $color)}}großen Schachteln{{/}} erhalten werden!"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Große Schachteln!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Dieses Fahrzeug ist erhältlich in:"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Couponrabatt anwenden: %(value)s"

@@ -139,15 +139,6 @@ msgstr "Tildelt spillere for deres verdifulle bidrag til utviklingen av World of
 msgid "15YearsOfService_descr"
 msgstr "Du har vært i spillet siden %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP reserve utmerkelse 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Tildelt for fullførelse av fremgangen."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Tildelt for dine utmerkelser under spillets gang"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP reserve utmerkelse 2"
 
@@ -429,6 +420,15 @@ msgstr "• Tildelt for fullførelse av alle tre kapitlene."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Tildelt for dine prestasjoner i løpet av den 20. sesongen av Battle Pass."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Sammenstøt i lavlandet"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Tildelt for fullførelse av alle tre kapitlene."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Tildelt for dine prestasjoner i løpet av den 21. sesongen av Battle Pass."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Hovedfremgangen består av 45 trinn."
@@ -1828,6 +1828,48 @@ msgstr "Silver Dragon"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Tildelt for å ha samlet inn minst 9 Onslought Colors i Year of the Dragon i Onslaught modusen."
 
+msgid "comp7_6_1"
+msgstr "Azure Spark"
+
+msgid "comp7_6_1_descr"
+msgstr "Tildelt for fullførelse av en serie med oppdrag i Season of the Azure Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronze Phoenix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Tildelt for å ha samlet inn minst 6 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Year of the Phoenix Champion"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Tildelt for å ha samlet inn minst 15 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Gold Phoenix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Tildelt for å ha samlet inn minst 12 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Iron Phoenix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Tildelt for å ha samlet inn minst 3 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Year of the Phoenix Legend"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Tildelt for å ha samlet inn minst 18 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silver Phoenix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Tildelt for å ha samlet inn minst 9 Onslought Colors i Year of the Phoenix i Onslaught modusen."
+
 msgid "conqueror"
 msgstr "Capturer %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Bare tilgjengelig i tilfeldige kamper."
 
 msgid "huntsman_descr"
-msgstr "Bekjemp alle fiendens lette tanks (minimum 3) i løpet av en kamp."
+msgstr "Bekjemp alle fiendens lette tanks (minimum 2) i løpet av en kamp."
 
 msgid "huntsman_heroInfo"
 msgstr "Sersjant Grigoriy Naydin var kommandør på en BT-7. Den 25. juni 1941, i nærheten av den litauiske byen Rudishkyay bekjempet han en pansret Wehrmachtkolonne inkludert 15 kjøretøy og 10 kanoner som tilhørte det 19. Mekaniserte Korps. Naydin holdt tyskernes fremmarsj tilbake i to hele dager, noe som gjorde det mulig å organisere forsvaret rundt Vilnius. For disse handlingene ble Naydin tildelt utmerkelsen \"Helt av Sovjetunionen\"."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Fullfør fullstendig 15 personlige oppdrag for Union. Belønning: Eksemplarisk utført: Union medalje, 3. klasse."
 
 msgid "readyForBattleAssault"
-msgstr "Eksemplarisk ytelse: Vanguard"
+msgstr "Exemplary Performance: Sector 3 Vanguard"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "For fullførelse av alle Vanguard oppdragene i Sector 3 kampanjen."
+msgstr "For fullførelse av alle Vanguard oppdragene i hovedoperasjonene for Sector 3 kampanjen."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Exemplary Performance: Fossa Vanguard"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "For fullførelse av alle Vanguard oppdragene i Fossa operasjonen for Sector 3 kampanjen."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Exemplary Performance: Fossa Ambush"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "For fullførelse av alle Ambush oppdragene i Fossa operasjonen for Sector 3 kampanjen."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Exemplary Performance: Fossa Assistance"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "For fullførelse av alle Assistance oppdragene i Fossa operasjonen for Sector 3 kampanjen."
 
 msgid "readyForBattleHT"
 msgstr "Exemplary Performance: Heavy Tanks"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Ærefull utførelse av 15 personlige oppdrag med SPGer. Utmerkelse: Exemplary Performance: SPG medalje, 4. klasse."
 
 msgid "readyForBattleSniper"
-msgstr "Eksemplarisk ytelse: Ambush"
+msgstr "Exemplary Performance: Sector 3 Vanguard"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "For fullførelse av alle Ambush oppdragene i Sector 3 kampanjen."
+msgstr "For fullførelse av alle Ambush oppdragene i hovedoperasjonene for Sector 3 kampanjen."
 
 msgid "readyForBattleSupport"
-msgstr "Eksemplarisk ytelse: Assistance"
+msgstr "Exemplary Performance: Sector 3 Vanguard"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "For fullførelse av alle Assistance oppdragene i Sector 3 kampanjen."
+msgstr "For fullførelse av alle Assistance oppdragene i hovedoperasjonene for Sector 3 kampanjen."
 
 msgid "reliableComrade"
 msgstr "Battle Buddy"
@@ -4692,6 +4761,15 @@ msgstr "Tildelt for fullførelse av fremgangen i Waffenträger: Paradox. Denne �
 
 msgid "wt2025progression_descr"
 msgstr "Fullfør fremgangen i Waffenträger modusen."
+
+msgid "wt2026progression"
+msgstr "Stormrider"
+
+msgid "wt2026progression_condition"
+msgstr "Tildelt for å ha fullført fremgangen i Waffenträger: Genesis 2026. Denne utmerkelsen gis til dem som sto imot von Kriegers første tenkende maskin, den elektriske intelligensen, og kuttet hver eneste krets den brukte for å nå inn i vår verden."
+
+msgid "wt2026progression_descr"
+msgstr "Fullfør fremgangen i Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Master of Lightning"

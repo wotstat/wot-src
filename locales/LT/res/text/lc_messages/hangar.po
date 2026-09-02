@@ -136,6 +136,24 @@ msgstr[0] "{{count}} pergalė"
 msgstr[1] "{{count}} pergalės"
 msgstr[2] "{{count}} pergalių"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Pasiekiama dar {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Kovinė patirtis"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Džiaugdamiesi jūsų sugrįžimu į kovą paruošėme jums kai ką ypatingo: {{@ style (color #ede6d9e6)}}kasdienį sugrįžimo bonusą{{/}}, kuris suteikia daugiau kovinės patirties už pirmą pergalę su kiekviena mašina."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Sveiki sugrįžę, vade!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonusas atstatomas kasdien {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Sugrįžimo bonusas: suteikiamas"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Paspaudę atidarysite savo mašinų grojaraščius"
 

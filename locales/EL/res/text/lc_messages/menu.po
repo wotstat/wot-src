@@ -416,7 +416,7 @@ msgid "awardWindow/vehicleCollectorOfEverything/description"
 msgstr "Συγχαρητήρια! Επειδή αποκτήσατε όλα τα Συλλεκτικά οχήματα όλων των εθνών, θα λάβετε ένα αναμνηστικό μετάλλιο."
 
 msgid "awardWindow/vehicleCollectorOfEverything/header"
-msgstr "Απονομή Επάθλου!"
+msgstr "Το Έπαθλο Απονεμήθηκε!"
 
 msgid "awardWindow/vehicleCollectorOfEverything/okButton"
 msgstr "Θετικόν!"
@@ -826,6 +826,9 @@ msgstr "Τεχνοτροπίες 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Πρωταρχικά μόνο"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Ανίχνευσης"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Ενέδρας"
 
@@ -834,9 +837,6 @@ msgstr "Υποστήριξης"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Πολλαπλών Ρόλων"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Τροχήλατα"
 
 msgid "centerIsAvailable"
 msgstr "Όλοι οι servers είναι ξανά διαθέσιμοι."
@@ -4159,6 +4159,9 @@ msgstr "Βελτιωμένος αυτόματος μηχανισμός γέμι�
 msgid "moduleInfo/autoShootGun"
 msgstr "Πυροβόλο με συνεχόμενη ρίψη πυρών"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Αυτό το όχημα είναι εξοπλισμένο με εκτοξευτή ρουκετών, τοποθετημένο στον μανδύα του πυροβόλου. Ενεργοποιήστε τη δυνατότητα για να μεταβείτε στη στόχευση του δευτερεύοντος οπλισμού και πιέστε το πλήκτρο ρίψης πυρών για να εκτοξεύσετε μία ρουκέτα HE."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Κλείσιμο"
 
@@ -4312,6 +4315,9 @@ msgstr "Επαναφόρτιση"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "στην κύρια ειδικότητα και τις ικανότητες του πληρώματος"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Πιθανότητα Κρίσημου Πλήγματος"
+
 msgid "moduleInfo/params/damage"
 msgstr "Φθορά"
 
@@ -4342,11 +4348,29 @@ msgstr "Πιθανότητα Φωτιάς σε Σύγκρουση"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Χρόνος Πτήσης"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Πάντα προκαλεί φθορά εάν πλήξει την κύρια θωράκιση"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* μέγιστο βεληνεκές για το συγκεκριμένο πυροβόλο"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " δεν εξαρτάται από την απόσταση για βλήματα αυτού του τύπου"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", μέγιστο βεληνεκές—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " η διατρητικότητα των βλημάτων αυτού του τύπου μειώνεται με την απόσταση αφού διαπεράσουν το πρώτο πλέγμα"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " εξαρτάται από την απόσταση: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " τα βλήματα αυτού του τύπου διαπερνούν τα πλέγματα, αλλά χάνουν την τριπλάσια διατρητικότητα από το πάχος της θωράκισης του κάθε πλέγματος"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Μέγιστη Ταχύτητα"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Πάντα προκαλεί φθορά εάν πλήξει την κύρια θωράκιση"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Βάρος"
@@ -4378,20 +4402,11 @@ msgstr "Hit Points"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Βεληνεκές"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* μέγιστο βεληνεκές για το συγκεκριμένο πυροβόλο"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Μέγιστη Γωνία Περιστροφής Τροχών"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Μέση Φθορά στα %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " δεν εξαρτάται από την απόσταση για βλήμα τέτοιου τύπου"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", μέγιστο βεληνεκές—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Διόρθωση Βολής"
@@ -4399,14 +4414,8 @@ msgstr "Διόρθωση Βολής"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Απώλεια Διατρητικότητας"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " η διατρητικότητα των βλημάτων αυτού του τύπου μειώνεται με την απόσταση αφού διαπεράσουν το πρώτο πλέγμα"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " εξαρτάται από την απόσταση: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Μέση Διατρητικότητα (mm)—Απόσταση"
@@ -4424,7 +4433,7 @@ msgid "moduleInfo/params/radioDistance"
 msgstr "Εύρος Σήματος"
 
 msgid "moduleInfo/params/rateTime"
-msgstr "Χρόνος Μεταξύ Βολής Και Αλλαγής Σε Γεμάτο Πυροβόλο"
+msgstr "Αλλαγή Στο Γεμάτο Πυροβόλο Μετά Από Βολή"
 
 msgid "moduleInfo/params/reloadCooldownSeconds"
 msgstr "Επαναφορά"
@@ -4455,9 +4464,6 @@ msgstr "Ταχύτητα Περιστροφής"
 
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Συντελεστής Πρόσθετης Θωράκισης"
-
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " τα βλήματα αυτού του τύπου διαπερνούν τα πλέγματα, αλλά χάνουν την τριπλάσια διατρητικότητα από το πάχος της θωράκισης του κάθε πλέγματος"
 
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
@@ -4506,6 +4512,9 @@ msgstr "Επαγωγικός Μετακαυστήρας Προωθητικού �
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Οι Προωθητήρες Αερίου αυξάνουν την ευκινησία του οχήματος"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Το πυροβόλο του οχήματος διαθέτει ειδικές συσκευές που δίνουν τη δυνατότητα για τροποποίηση ορισμένων χαρακτηριστικών των βλημάτων πριν από τη βολή."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Προωθητήρες στερεού καυσίμου που βελτιώνουν την επιτάχυνση, την ευκινησία και την ευελιξία"
@@ -5284,11 +5293,14 @@ msgstr "Οχήματα με εξαιρετικά πυροβόλα, η αξιοπ
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Οχήματα πολλαπλών ρόλων τα οποία μπορούν εύκολα να προσαρμοστούν σε κάθε περίσταση."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Γρήγορα και ευκίνητα οχήματα που μπορούν εξίσου αποτελεσματικά να εντοπίζουν εχθρικά οχήματα και να προκαλούν φθορά σε αυτά."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Τα ελαφρά άρματα ανίχνευσης είναι μικρά και ευέλικτα οχήματα σχεδιασμένα για τον εντοπισμό εχθρικών οχημάτων. Το χαμηλό τους προφίλ, οι μεγάλοι συντελεστές κάλυψης, η εξαιρετική ευκινησία και η μεγάλη τελική ταχύτητα, τα καθιστούν ιδανικά τόσο για παθητική όσο και για ενεργητική ανίχνευση. Ωστόσο, η περιορισμένη αντοχή τους και η μικρή δύναμη πυρός δεν τους επιτρέπουν να παρέχουν ουσιαστική υποστήριξη στους συμπαίκτες τους."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Οχήματα με εξαιρετική ευκινησία, η αξιοποίηση της οποίας εξαρτάται από τον χάρτη και την πορεία της μάχης."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Τα ελαφρά άρματα υποστήριξης αξιοποιούν την υψηλή τους ευκινησία, την εξαιρετική ευελιξία και τα ισχυρά πυροβόλα τους για να αλλάζουν γρήγορα πλευρά στο πεδίο της μάχης και να προκαλούν σημαντική φθορά πριν υποχωρήσουν σε ασφαλή θέση. Παρότι μπορούν να παίξουν επιτυχώς τον ρόλο του ανιχνευτή σε ορισμένες περιπτώσεις, το μεγάλο τους μέγεθος και η περιορισμένη ικανότητα απόκρυψης τα καθιστούν λιγότερο αποτελεσματικούς ανιχνευτές σε σύγκριση με άλλα ελαφρά άρματα."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Τα ελαφρά άρματα πολλαπλών ρόλων είναι ολοκληρωμένα οχήματα, ικανά τόσο για αναγνώριση όσο και για παροχή υποστήριξης στους συμπαίκτες τους. Παρότι είναι λιγότερο αποτελεσματικά στον εντοπισμό των εχθρικών οχημάτων σε σύγκριση με τα ελαφρά άρματα ανίχνευσης και διαθέτουν μικρότερη ισχύ πυρός από τα ελαφρά άρματα υποστήριξης, τα ισορροπημένα χαρακτηριστικά τους δίνουν τη δυνατότητα να ανταποκρίνονται αποτελεσματικά και στους δύο ρόλους και να προσαρμόζονται εύκολα σε διαφορετικές συνθήκες μέσα στη μάχη."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Οχήματα με ικανοποιητική θωράκιση η οποία τα καθιστά κατάλληλα για συγκρούσεις από μικρή απόσταση και για να αντιμετωπίζουν τα εχθρικά βαρέα άρματα μάχης."
@@ -5329,11 +5341,14 @@ msgstr "HT Υποστήριξης"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "HT Πολλαπλών Ρόλων"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Ελαφρύ Άρμα Ανίχνευσης"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Ελαφρύ Άρμα Υποστήριξης"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "LT Πολλαπλών Ρόλων"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Τροχήλατο LT"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "MT Επίθεσης"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Γέμισμα"
 msgid "tank_params/autoShootClipSec"
 msgstr "(γεμιστήρας/ποσότητα)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Επιταχυνόμενος Χρόνος Γέμισης"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Επαναφορά Γόμωσης Με Γεμάτο Γεμιστήρα"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Βασική Επαναφορά Γόμωσης"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Γομώσεις Στο Ξεκίνημα Της Μάχης"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Γομώσεις"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Μέση Φθορά (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Διασπορά πυρών στα 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Μέση Διατρητικότητα (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Επαναφορά (sec)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Ταχύτητα Ρουκέτας (m/sec)"
+
 msgid "tank_params/avgDamage"
 msgstr "Μέση Φθορά"
 
@@ -6057,6 +6105,21 @@ msgstr "Γεμιστήρας"
 
 msgid "tank_params/burstSec"
 msgstr "(sec/ποσότητα/ποσότητα)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Μέση Φθορά (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Τελική Ταχύτητα (Ε.Τ.Π.) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Ταχυβολία (βολές/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Ενεργοποίηση Ε.Τ.Π. (sec)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Απενεργοποίηση Ε.Τ.Π. (sec)"
 
 msgid "tank_params/chargeTime"
 msgstr "Προετοιμασία Ομοβροντίας"
@@ -6150,6 +6213,12 @@ msgstr "Ισχύς Κινητήρα (h.p.) (Τούρμπο)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Ακτίνα Διασποράς"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Τελική Ταχύτητα (Ε.Τ.Π.) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Ενεργοποίηση Ε.Τ.Π. (sec)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Χρόνος ψύξης μετά από βολή"
@@ -6325,9 +6394,6 @@ msgstr "Ικανότητα Διάβασης Εδάφους"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Ηλεκτρομηχανικό Στόχαστρο Σύμπτωσης (% ανά sec) (Εμπλοκή, μόνιμο)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(ανά ενεργοποίηση)"
 
@@ -6484,8 +6550,20 @@ msgstr "Γέμιση Βοηθητικού Οπλισμού"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Πυρομαχικά Βοηθητικού Οπλισμού"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Προσαρμοσμένη Μέση Φθορά (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Προσαρμοσμένη Μέση Διατρητικότητα (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Γέμιση Με Ταινία Πυρομαχικών"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Χρόνος Αλλαγής Λειτουργίας Πυρών"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Διατρητικότητα:"
@@ -6495,6 +6573,36 @@ msgstr "Διασπορά στα 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Ταχύτητα Βλήματος"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Συντελεστή Κάλυψης Αντιπάλων Πίσω Από Φυλλώματα (Κινούμενων & Ακίνητων)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Συντελεστή Κάλυψης Κινούμενων Αντιπάλων"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Αρχική Επαναφορά"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Διάρκεια"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Επαναφορά"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Ταχύτητα Περιστροφής Πυργίσκου"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Τελικό Εύρος Σάρωσης"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Αρχικό Εύρος Σάρωσης"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Διάρκεια Αυτό-Εντοπισμού"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Εύρος Ορατότητας"
 
 msgid "tank_params/speedLimits"
 msgstr "Μέγ. Ταχύτητα/Οπισθοπορεία"
@@ -7160,7 +7268,7 @@ msgid "vehicleInfo/params/radioDistance"
 msgstr "Εύρος Σήματος (m)"
 
 msgid "vehicleInfo/params/rateTime"
-msgstr "Χρόνος Μεταξύ Βολής Και Αλλαγής Στο Γεμάτο Πυροβόλο (sec)"
+msgstr "Αλλαγή Στο Γεμάτο Πυροβόλο Μετά Από Βολή (sec)"
 
 msgid "vehicleInfo/params/reloadTime"
 msgstr "Ταχυβολία (βολές/min)"

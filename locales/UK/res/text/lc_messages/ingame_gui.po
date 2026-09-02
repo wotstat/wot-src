@@ -700,6 +700,9 @@ msgstr "Зону захоплено"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Шкода від зони пожежі"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Завдано шкоди"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Машину відремонтовано"
 
@@ -741,6 +744,9 @@ msgstr "Шкода пострілом"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Шкода брандером"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Шкода пострілом"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Шкода тараном"
@@ -907,6 +913,9 @@ msgstr "Гусеницю не пробито"
 msgid "hitMarker/wheelBlocked"
 msgstr "Колесо не пробито"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s – %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "МАКСИМАЛЬНИЙ РІВЕНЬ МАШИНИ"
 
@@ -1020,6 +1029,21 @@ msgstr "Всі прилади в робочому стані, ремонт не 
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] у робочому стані, ремонт не потрібен."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Недоступно: магазин повний."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Недоступно: снаряди закінчилися."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Недоступно: заряди закінчилися."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Недоступно: перезаряджання майже завершено."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Запуск ракети недоступний"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Неможливо активувати спарену зброю."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s-мм осколково-фугасний снаряд %(user
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s-мм кумулятивний снаряд %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Імовірність критичного влучення: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Зменшена"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Збільшена"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Базова"
+
 msgid "shells_kinds/params/damage"
 msgstr "Середня шкода: %(value)s од."
 
@@ -2710,17 +2746,41 @@ msgstr "Шкода на секунду: %(value)s од./с"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Радіус ураження: %(value)s м"
 
-msgid "shells_kinds/params/header"
-msgstr "Повний / Одиночний заряд"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Стандартний / модифікований:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Повний / одиночний заряд:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Стандартний / скоригований:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Стандартний / відкалібрований:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Кут нормалізації: %(value)s град."
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Зниження пробиття: %(value)s на 100 мм"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s %%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Середнє пробивання броні: %(value)s мм"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Кут рикошету: %(value)s град."
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Швидкість польоту: %(value)s м/с"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Час оглушення екіпажу: %(minValue)s–%(maxValue)s с"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "для активації режиму ЗПБ"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr ", щоб змінити на облоговий режим"
@@ -2745,6 +2805,9 @@ msgstr "для активації рідинних прискорювачів"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "для активації реактивних прискорювачів"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "для зміни режиму вогню"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "для активації послідовних ракетних прискорювачів"

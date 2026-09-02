@@ -130,6 +130,9 @@ msgstr "Не можете да създавате или да се присъе�
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "След приключване на квалификацията, ще бъдат достъпни взводове от 2 и 7 играчи."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "След завършване на квалификацията ще бъде достъпен взвод от двама играчи."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Не може да се създаде взвод."
 
@@ -141,6 +144,9 @@ msgstr "Създайте взвод или се присъединете към 
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Взвод"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Създайте взвод или се присъединете към съществуващ. В Атака взводовете могат да се състоят само от двама играчи."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Създайте тактическо формирование от 2 или 3 играча за съвместна игра.\n• Режими на битка: \"Буйство\".\n• Видове битки: Стоманен лов, Превъзходство."
@@ -264,12 +270,6 @@ msgstr "Взводът е достигнал максималният брой �
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Взводът е достигнал максималният брой средни танкове"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Достигнат е максималният брой леки танкове във взвода"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Взводът е достигнал максималният брой колесни машини"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Достигнат е максималният брой леки танкове във взвода"

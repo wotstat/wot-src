@@ -229,23 +229,14 @@ msgstr "na kupovinu:"
 msgid "battlePassBuyView/descr"
 msgstr "Kupovina etape napretka momentalno otključava i daje ti sve nagrade uključene u tu etapu."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Ove nagrade će ti biti dodeljene nakon završetka nadolazeće etape."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Sledeće nagrade će ti biti dodeljene za etape %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Dobićeš sledeće nagrade momentalno"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Sledeće nagrade će ti biti dodeljene za etapu %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "BIĆE OTKLJUČANO"
+msgstr "Otključavanje u nezavršenim etapama"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "BIĆE DODELJENO MOMENTALNO"
+msgstr "Dobijaš momentalno"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktiviraj poglavlje Borbene propusnice"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitno kolo"
 
-msgid "chapter/fullName/201"
-msgstr "Zakopano vreme"
+msgid "chapter/fullName/211"
+msgstr "Specijalista"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Kaskader"
 
-msgid "chapter/fullName/203"
-msgstr "Pustinjska komanda"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoik"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ZAKOPANO VREME"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIJALISTA"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADER"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "PUSTINJSKA KOMANDA"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIK"
 
 msgid "chapter/title"
 msgstr "%(chapter)s POGLAVLJE"
@@ -471,6 +456,9 @@ msgstr "Misija za ×3 iskustva posade"
 
 msgid "equipCoinBonus"
 msgstr "Komponente: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Komplet 3D dodataka"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Komandir"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Dostupno nakon što su sva poglavlja završena. Završena poglavlja: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Uzmi premijum vozilo i ekskluzivne elemente prilagođavanja."
+msgstr "Zaroni u ekskluzivne nagrade i jedinstvene elemente prilagođavanja."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Borbena propusnica: Far Cry je tu!"
+msgstr "Specijalno poglavlje je stiglo!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Kupi poboljšanu propusnicu i dobij više nagrada!"
@@ -1114,11 +1102,8 @@ msgstr "Etapa %(level)d elitnog kola"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "iskustva za svakog člana posade izabranog %(nation)s vozila"
 
-msgid "rewardChoice/subTitle"
-msgstr "IZABERI SVOJU NAGRADU"
-
 msgid "rewardChoice/title"
-msgstr "BORBENA PROPUSNICA"
+msgstr "Odaberi svoje nagrade"
 
 msgid "rewardChoice/titleChapter"
 msgstr "BORBENA PROPUSNICA: %(chapter)s POGLAVLJE"
@@ -1129,14 +1114,14 @@ msgstr "BORBENA PROPUSNICA: %(chapter)s POGLAVLJE, ETAPA %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Pretražujući pesak"
+msgid "season/fullName/21"
+msgstr "Prizemljen"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "PRETRAŽUJUĆI PESAK"
+msgid "season/fullNameUppercased/21"
+msgstr "PRIZEMLJEN"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Direktive za odabir"

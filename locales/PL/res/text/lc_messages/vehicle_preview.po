@@ -40,6 +40,9 @@ msgstr "Badaj"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Odzyskaj"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Do dużych pudełek"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Pojazd %(nation)s %(level)s poziomu nie został zbadany."
 
@@ -54,6 +57,15 @@ msgstr "Zniżka przy zakupie:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Zniżka na badanie:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Ten pojazd można wylosować z {{@ style (color $color)}}dużych pudełek!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "dużych pudełek!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Pojazd można wylosować z"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Zastosuj kupon zniżkowy: %(value)s"

@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Θετικόν!"
 
 msgid "error/description"
-msgstr "Πληροφορίες προσωρινά μη διαθέσιμες. Λυπούμαστε για την ταλαιπωρία. Προσπαθήστε ξανά αργότερα."
+msgstr "Λυπούμαστε για την ταλαιπωρία. Προσπαθήστε ξανά αργότερα."
 
 msgid "error/title"
-msgstr "Προσωρινά Αδύνατη Η Επιλογή Επάθλου"
+msgstr "Η συγκεκριμένη σελίδα είναι προσωρινά μη διαθέσιμη"
 
 msgid "footer/closeBtn/label"
 msgstr "Επιλέξτε Αργότερα"
@@ -23,7 +23,7 @@ msgstr[1] "Επιλέξτε έπαθλα από τις διαθέσιμες κα
 msgstr[2] "Επιλέξτε έπαθλα από τις διαθέσιμες κατηγορίες."
 
 msgid "footer/okBtn/label"
-msgstr "Επιλογή"
+msgstr "Επιλογή Επάθλων"
 
 msgid "footer/rewardsSelected"
 msgstr "Επιλεγμένα έπαθλα:"
@@ -50,7 +50,7 @@ msgid "reward/tooltip/state_limited/header"
 msgstr "Ανώτατο Όριο"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Οδηγίες\nεξοπλισμού"
@@ -93,6 +93,9 @@ msgstr "Κανονικός Εξοπλισμός"
 
 msgid "tabs/items/trophy"
 msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "tooltips/footer/body"
+msgstr "Επιλέξτε έπαθλα για να τα διεκδικήσετε"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Κάντε κλικ στο Επιλογή για να παραλάβετε τα έπαθλα που επιλέξατε."

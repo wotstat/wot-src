@@ -136,6 +136,24 @@ msgstr[0] "{{count}} sejr"
 msgstr[1] "{{count}} sejre"
 msgstr[2] "{{count}} sejre"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Tilgængelig for {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Kamp xp"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "For at fejre din tilbagevenden, har vi noget helt særligt til dig: {{@ style (color #ede6d9e6)}}den daglige genindsættelsesbonus{{/}} booster optjeningen af kamp xp for din første sejr på dagen i hvert køretøj."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Velkommen tilbage, kommandør!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonussen nulstilles dagligt kl. {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Genindsættelsesbonus: Tilgængelig"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klik for at gå til dine køretøjs-playlister"
 

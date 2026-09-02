@@ -136,6 +136,24 @@ msgstr[0] "{{count}} victoire"
 msgstr[1] "{{count}} victoires"
 msgstr[2] "{{count}} victoires"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Disponible pour {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Expérience de bataille"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Pour fêter votre retour au combat, nous avons quelque chose de spécial pour vous : {{@ style (color #ede6d9e6)}}le bonus de redéploiement quotidien{{/}} augmente l'EXP. de bataille gagnée lors de votre première victoire du jour à bord de chaque véhicule."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Bon retour parmi nous, Commandant !"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Le bonus est réinitialisé chaque jour à {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonus de redéploiement : disponible"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Cliquez pour voir vos listes de véhicules"
 

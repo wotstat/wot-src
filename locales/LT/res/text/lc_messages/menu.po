@@ -826,6 +826,9 @@ msgstr "3D stiliai"
 msgid "carousel_tank_filter/ready"
 msgstr "Mūšiui paruoštas"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Žvalgas"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Snaiperis"
 
@@ -834,9 +837,6 @@ msgstr "Pagalbininkas"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Universalas"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Ratuotas"
 
 msgid "centerIsAvailable"
 msgstr "Visi serveriai vėl veikia."
@@ -4159,6 +4159,9 @@ msgstr "Pagerinta automatinio užtaisymo sistema:\nsumažina standartinį sviedi
 msgid "moduleInfo/autoShootGun"
 msgstr "Nenustojantis šaudyti ginklas"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ši mašina turi prie ginklo plokštės pritvirtintą raketsvaidį. Aktyvavę gebėjimą pasikeisite į antrinį taikiklį ir galėsite iššauti fugasinę raketą nuspaudę šūvio mygtuką."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Uždaryti"
 
@@ -4312,6 +4315,9 @@ msgstr "Atstatymas"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "pagrindinėms kvalifikacijoms ir įgulos įgūdžiams"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kritinio pataikymo tikimybė"
+
 msgid "moduleInfo/params/damage"
 msgstr "Žala"
 
@@ -4342,11 +4348,29 @@ msgstr "Gaisro tikimybė pataikius"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Skridimo laikas"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Visuomet padaro žalos, jei pataikoma į pagrindinius šarvus"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maksimalus sviedinio skriejimo atstumas šiam pabūklui"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " šiam sviedinių tipui nuo atstumo nepriklauso"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksimalus skriejimo nuotolis - 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " šio tipo sviedinys pradeda su atstumu netekti pramušimo galios įveikę pirmą ekraną"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " priklauso nuo atstumo: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " šio tipo sviediniai įprastai pramuša ekranus, tačiau po to netenka tris kartus daugiau pramušimo galios, nei yra ekrano šarvo storis"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Maksimalus greitis"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Visuomet padaro žalos, jei pataikoma į pagrindinius šarvus"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Masė"
@@ -4378,20 +4402,11 @@ msgstr "Patvarumas"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Šaudymo nuotolis"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maksimalus sviedinio skriejimo atstumas šiam pabūklui"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maksimalus ratų pasukimo kampas"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Vidutinė žala %(dist)s m atstumu"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " šiam sviedinių tipui nuo atstumo nepriklauso"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksimalus skriejimo nuotolis - 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalizavimo kampas"
@@ -4399,14 +4414,8 @@ msgstr "Normalizavimo kampas"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Prarastas pramušimas"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " šio tipo sviedinys pradeda su atstumu netekti pramušimo galios įveikę pirmą ekraną"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " priklauso nuo atstumo: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Vidutinis pramušimas (mm) - Atstumas"
@@ -4456,9 +4465,6 @@ msgstr "Sukimosi greitis"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Atitrauktų šarvų daugiklis"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " šio tipo sviediniai įprastai pramuša ekranus, tačiau po to netenka tris kartus daugiau pramušimo galios, nei yra ekrano šarvo storis"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Indukcinis sprogmens šildytuvas, kuris padidina vidutinę žalą"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Reaktyviniai stiprintuvai pagerina mašinos mobilumą"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Mašinos pabūklas turi specialius įrenginius, kurie leidžia prieš išaunant pakoreguoti tam tikrus sviedinio parametrus."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Kietojo kuro greitintuvai, kurie sustiprina akceleraciją, mobilumą ir manevringumą"
@@ -5284,11 +5293,14 @@ msgstr "Mašinos su tobulais pabūklais, bet norint juos efektyviai išnaudoti r
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Daugiatiksliai tankai, kurie lengvai prisitaiko prie bet kurios situacijos mūšyje."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Greitos ir manevringos mašinos, kurios gali vykti į žvalgybą ir daryti žalą apvažiuodamos priešus iš šonų."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Žvalgai lengvieji tankai yra maži ir vikrūs, nes jis skirti aptikti priešus. Jų žemi siluetai ir didelė maskuote kartu su dideliu mobilumu ir maksimaliu greičiu leidžia žvalgytis tiek pasyviai, tiek aktyviai, tačiau mažas patvarumas ir silpna ginkluotė neleidžia ženkliai padėti komandai susišaudymuose."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Mašinos su išskirtinėmis dinamiškumo savybėmis, efektyvus panaudojimas labai priklauso nuo žemėlapio ir taktinės situacijos."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Pagalbiniai lengvieji tankai gali pasinaudoti savo mobilumu, nuostabiu manevringumu ir galingai pabūklais keičiant puolimo kampus ir padarius žalos greitai atsitraukiant. Nors jie tam tikromis sąlygomis gali užsiimti žvalgyba, jų didelis dydis ir prasta maskuotė neleidžia jiems žvalgytis taip gerai, kaip tą daro kiti lengvieji."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Universalūs lengvieji tankai yra gerai subalansuotos mašinos, galinčios tiek žvalgytis, tiek padėti komandai susišaudymuose. Nors jiems žvalgyboje nesiseka taip gerai, kaip žvalgams ir jų ginkluotė neprilygsta pagalbiniam lengviesiems, universalių subalansuotas profilis leidžia gana patikimai atlikti abiejų rolių užduotis ir prisitaikyti prie įvairių sąlygų mūšio lauke."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Mašinos su neblogais šarvais, kurie leidžia gerai jaustis artimoje kovoje ir ginti savo pozicijas nuo priešo sunkiųjų tankų."
@@ -5329,11 +5341,14 @@ msgstr "Palaikymo sunkusis tankas"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Universalus sunkusis tankas"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Žvalgas lengvasis tankas"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Pagalbinis lengvasis tankas"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Universalus lengvasis tankas"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Ratuotas lengvasis tankas"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Puolimo vidutinis tankas"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Užsitaisymas"
 msgid "tank_params/autoShootClipSec"
 msgstr "(dėtuvė/kiekis)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Padidintas sviedinių užtaisymo greitis"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Užkrovos atsistatymas su pilna apkaba"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Bazinis užkrovos atsistatymo laikas"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Užkrovos mūšio pradžioje"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Užkrovos"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Vidutinė žala (patvarumo taškai)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Sklaida ties 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Vidutinis pramušimas (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Atsistatymo laikas (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Raketos skriejimo greitis (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Vidutinė žala"
 
@@ -6057,6 +6105,21 @@ msgstr "Sviedinių talpa"
 
 msgid "tank_params/burstSec"
 msgstr "(s/svied./svied.)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Vidutinė žala (patvarumo taškai)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Maksimalus greitis (ISM režimas) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Šaudymo sparta (šūviai/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "ISM režimo aktyvavimas (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "ISM režimo išjungimas (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Salvės paruošimas"
@@ -6150,6 +6213,12 @@ msgstr "Variklio galia (a. g.) (Turbo režimas)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Žalos spindulys"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Maksimalus greitis (ISM režime) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "ISM režimo aktyvavimas (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Ginklo ataušimo laikas po šūvio"
@@ -6325,9 +6394,6 @@ msgstr "Pravažumas"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Elektromechaninio žvilgsnio užkrova (% per s) (Kovinis režimas neaktyvus)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(už aktyvavimą)"
 
@@ -6484,8 +6550,20 @@ msgstr "Pagalbinio ginklo užtaisymas"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Pagalbinio ginklo sviediniai"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Pakoreguota vidutinė sviedinio žala (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Pakoreguotas vidutinis sviedinio pramušimas (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Amunicijos diržas užtaisomas"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Režimų perjungimo laikas"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Pramušimas:"
@@ -6495,6 +6573,36 @@ msgstr "Sklaida 100 m atstumu"
 
 msgid "tank_params/shotSpeed"
 msgstr "Sviedinio greitis"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Priešo maskuotė už augalijos (judančio ir stovinčio)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Judančio priešo maskuotė"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Pradinis atsistatymo laikas"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Trukmė"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Atsistatymo laikas"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Bokštelio sukimosi greitis"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Paskutinio skenavimo plotis"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Pradinio skenavimo plotis"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Savo pozicijos išdavimo laikas"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Apžvalgos atstumas"
 
 msgid "tank_params/speedLimits"
 msgstr "Maks. greitis/Atbulinis greitis"

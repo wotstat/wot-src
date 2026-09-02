@@ -233,7 +233,7 @@ package net.wg.gui.components.controls
             addChild(container);
             invalidateData();
          }
-         if(!_usingExternalRenderers && Boolean(isInvalid(InvalidationType.RENDERERS,InvalidationType.SIZE)))
+         if(!_usingExternalRenderers && Boolean(isInvalidTypes(InvalidationType.RENDERERS,InvalidationType.SIZE)))
          {
             drawRenderers(_totalRenderers);
             this.drawLayout();

@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Dieser Modus ist auf dem Server %(serverName)s nicht verfügbar."
 
 msgid "alertMessage/preannounce/first"
-msgstr "Beginn der Saison des blauen Drachen: %(date)s"
+msgstr "Beginn der Saison des blauen Phönix: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Beginn der Saison des roten Drachen: %(date)s"
+msgstr "Beginn der Saison des roten Phönix: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Beginn der Saison des grünen Drachen: %(date)s"
+msgstr "Beginn der Saison des grünen Phönix: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Warten auf Qualifikationsergebnisse, um Rang zu erhalten."
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Die Saison des blauen Drachen ist beendet."
+msgstr "Die Saison des blauen Phönix ist beendet."
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Die Saison des roten Drachen ist beendet."
+msgstr "Die Saison des roten Phönix ist beendet."
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Die Saison des grünen Drachen ist beendet."
+msgstr "Die Saison des grünen Phönix ist beendet."
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Gefechte sind auf diesem Server in %(primeDelta)s verfügbar."
@@ -253,6 +253,9 @@ msgstr "Fahrzeugwerte verbessert"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Strukturpunkte werden wiederhergestellt"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Eingehender Schaden erhöht"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Fahrzeugwerte verbessert"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Die Saison des blauen Drachen dauert %(days)d Tag."
-msgstr[1] "Die Saison des blauen Drachen dauert %(days)d Tage."
-msgstr[2] "Die Saison des blauen Drachen dauert %(days)d Tage."
+msgstr[0] "Die Saison des blauen Phönix dauert %(days)d Tag."
+msgstr[1] "Die Saison des blauen Phönix dauert %(days)d Tage."
+msgstr[2] "Die Saison des blauen Phönix dauert %(days)d Tage."
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Die Saison des roten Drachen dauert %(days)d Tag."
-msgstr[1] "Die Saison des roten Drachen dauert %(days)d Tage."
-msgstr[2] "Die Saison des roten Drachen dauert %(days)d Tage."
+msgstr[0] "Die Saison des roten Phönix dauert %(days)d Tag."
+msgstr[1] "Die Saison des roten Phönix dauert %(days)d Tage."
+msgstr[2] "Die Saison des roten Phönix dauert %(days)d Tage."
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Die Saison des grünen Drachen dauert %(days)d Tag."
-msgstr[1] "Die Saison des grünen Drachen dauert %(days)d Tage."
-msgstr[2] "Die Saison des grünen Drachen dauert %(days)d Tage."
+msgstr[0] "Die Saison des grünen Phönix dauert %(days)d Tag."
+msgstr[1] "Die Saison des grünen Phönix dauert %(days)d Tage."
+msgstr[2] "Die Saison des grünen Phönix dauert %(days)d Tage."
 
 msgid "calendarDay/title"
 msgstr "Zeitplan"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Vorteile"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Ansturm: Jahr des Drachen"
+msgstr "Ansturm: Jahr des Phönix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Null-Vorteile"
@@ -574,11 +577,17 @@ msgstr "Verstanden!"
 msgid "intro/description/banPhase"
 msgstr "Jedes Team kann ein Fahrzeug komplett vom Gefecht ausschließen. Koordinieren Sie die Abstimmung mit Ihren Verbündeten, um das bedrohlichste Fahrzeug auszuschließen oder eine unerwartete Aufstellung für Ihre Gegner vorzubereiten. Wenn Ihr Fahrzeug ausgeschlossen wird, können Sie stattdessen aus mehreren Mietfahrzeugen mit Vorausstattung wählen."
 
+msgid "intro/description/draw"
+msgstr "Wenn die Zeit abläuft und kein Team den Sieg erringen konnte, wird das Gefecht durch die folgenden Faktoren in entsprechender Reihenfolge entschieden: Anzahl der überlebenden Fahrzeuge, verursachter Schaden und erstes besiegtes Fahrzeug. Wenn keins der beiden Teams Schaden verursacht hat, endet das Gefecht unentschieden."
+
+msgid "intro/description/nightMaps"
+msgstr "Nachtkarten bringen mit nächtlichen Bedingungen, neuen Beobachtungsposten, aktualisierten Sonderzielen und modifizierter Mechanik für das Aufklären neues Leben auf vertraute Schlachtfelder. Aktuell gibt es Nachtversionen der Karten Gletscher, Wadi, Außenposten und Steppen."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "In diesem Modus gibt es Modifikatoren, die bestimmte Werte des Fahrzeugs ändern, darunter die Strukturpunkte des Fahrzeugs, die Abklingzeit für Verbrauchsmaterial, die Zeit, die das Fahrzeug sichtbar bleibt und mehr."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Auf der Karte finden Sie bestimmte Bereiche, die Ihnen bei Einnahme taktische Fertigkeiten verleihen. Es gibt zwei Arten dieser Sonderziele: Die Artilleriezentrale erlaubt es Ihnen, einen Artillerieschlag auf eine bestimmte Position auszulösen. Die Kommunikationszentrale klärt alle gegnerischen Fahrzeuge auf. Je nach Karte können diese Sonderziele vorhanden sein oder nicht, und sich an unterschiedlichen Stellen befinden."
+msgstr "Sobald Sie bestimmte Bereiche der Karte eingenommen haben, erhalten Sie Zugriff auf taktische Fertigkeiten. Es gibt zwei Arten Sonderziele: Über die Artilleriezentrale können Sie einen Artillerieschlag anfordern und über die Kommunikationszentrale enthüllen Sie die Position aller gegnerischen Fahrzeuge. Die Anzahl und der Standort dieser Einrichtungen unterscheidet sich je nach Karte."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Bestreiten Sie %(count)s Qualifikationsgefechte, um Ihren Rang und I
 msgstr[2] "Bestreiten Sie %(count)s Qualifikationsgefechte, um Ihren Rang und Ihr Können zu bestimmen. Nach dem Abschluss erhalten Sie die Belohnung für den erreichten Rang sowie alle vorangehenden Ränge.\n\nDesertieren oder Unentschieden werden in der Qualifikation als Niederlage gewertet."
 
 msgid "intro/description/ranks"
-msgstr "Ein System, welches das Können der Spieler widerspiegelt. Sie schreiten von Eisen bis Legende durch die Ränge voran und verdienen dabei wertvolle Belohnungen. Kämpfen Sie das ganze Jahr des Drachen und holen Sie sich einzigartige Jahresbelohnungen."
+msgstr "Sie schreiten von Eisen bis Legende durch die Ränge voran und verdienen wertvolle Belohnungen. Kämpfen Sie das ganze Jahr des Phönix und holen Sie sich einzigartige Jahresbelohnungen."
 
 msgid "intro/description/roleSkills"
 msgstr "Jedes Fahrzeug besitzt eine seiner Rolle entsprechende besondere Fertigkeit mit drei Ladungsstufen. Je höher die Ladungsstufe bei Aktivierung der Fertigkeit ist, desto stärker wird der Effekt sein. Die Ladungsstufe hängt von der Anzahl Prestigepunkte ab. Diese können für beeindruckende Leistung im Gefecht erhalten werden, für das Einnehmen von Sonderzielen, für den Einsatz von taktischen Fertigkeiten und dergleichen mehr.\n\nLesen Sie sich die Bestimmungen des Modus durch, um mehr über die verschiedenen Wege zu erfahren, über die Sie Prestigepunkte verdienen können."
@@ -597,6 +606,12 @@ msgstr "Sie können Gefechte in erforschbaren Fahrzeugen der Stufe %(levels)s (
 
 msgid "intro/title/banPhase"
 msgstr "AUSSCHLUSS VON FAHRZEUGEN"
+
+msgid "intro/title/draw"
+msgstr "REGELN FÜR UNENTSCHIEDEN"
+
+msgid "intro/title/nightMaps"
+msgstr "NACHTKARTEN"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ANSTURM-MODIFIKATOREN"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "SIEG, DOCH SIE SIND"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Aufstieg zu %(rank)s"
+msgstr "Befördert zu: {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Wertung: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Abstieg zu %(rank)s, %(division)s"
+msgstr "Degradiert zu: {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Aufstieg zu %(rank)s, %(division)s"
+msgstr "Befördert zu: {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Gespielte Gefechte"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Saisonrekord für Prestigepunkte: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Die Saison des blauen Drachen auf dem Server %(server)s ist beendet."
+msgstr "Die Saison des blauen Phönix auf dem Server %(server)s ist beendet."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Die Saison des roten Drachen auf dem Server %(server)s ist beendet."
+msgstr "Die Saison des roten Phönix auf dem Server %(server)s ist beendet."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Die Saison des grünen Drachen auf dem Server %(server)s ist beendet."
+msgstr "Die Saison des grünen Phönix auf dem Server %(server)s ist beendet."
 
 msgid "products/actions/buy"
 msgstr "Kaufen"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ANSTURM – QUALIFIKATION ABGESCHLOSSEN"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ANSTURM: SAISON DES BLAUEN DRACHEN"
+msgstr "ANSTURM: SAISON DES BLAUEN PHÖNIX"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ANSTURM: SAISON DES ROTEN DRACHEN"
+msgstr "ANSTURM: SAISON DES ROTEN PHÖNIX"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ANSTURM: SAISON DES GRÜNEN DRACHEN"
+msgstr "ANSTURM: SAISON DES GRÜNEN PHÖNIX"
 
 msgid "rewardsScreen/description/year"
-msgstr "ANSTURM: JAHR DES DRACHEN"
+msgstr "ANSTURM: JAHR DES PHÖNIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Wo ist mein Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Endet in %(seconds)s Sek."
 
 msgid "seasonName/first"
-msgstr "Saison des blauen Drachen"
+msgstr "Saison des blauen Phönix"
 
 msgid "seasonName/second"
-msgstr "Saison des roten Drachen"
+msgstr "Saison des roten Phönix"
 
 msgid "seasonName/third"
-msgstr "Saison des grünen Drachen"
+msgstr "Saison des grünen Phönix"
 
 msgid "seasonPointTooltip/header"
 msgstr "Ansturmfarben"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Position in der Bestenliste: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "ANSTURM. %(seasonNameUpper)s"
+msgstr "ANSTURM %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "%(points)s Ansturmfarben erhalten"
 msgstr[2] "%(points)s Ansturmfarben erhalten"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SAISON I: BLAUER DRACHE"
+msgstr "SAISON I: BLAUER PHÖNIX"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SAISON II: ROTER DRACHE"
+msgstr "SAISON II: ROTER PHÖNIX"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SAISON III: GRÜNER DRACHE"
+msgstr "SAISON III: GRÜNER PHÖNIX"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Siege: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Der Modus ist ab dem %(time)s verfügbar."
 
 msgid "shortSeasonName/first"
-msgstr "Blauer Drache"
+msgstr "Blauer Phönix"
 
 msgid "shortSeasonName/second"
-msgstr "Roter Drache"
+msgstr "Roter Phönix"
 
 msgid "shortSeasonName/third"
-msgstr "Grüner Drache"
+msgstr "Grüner Phönix"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Dieser Abschnitt enthält Informationen über die besten Spieler der aktuellen Saison des Modus „Ansturm“."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Alle anzeigen"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Unterstützen Sie die Ansturm-Legenden und steigern Sie das Preisgeld über die Turnierpakete!"
+msgstr "Wenn das von Ihnen gewählte Team gewinnt, erhalten Sie ein einzigartiges goldenes Abzeichen für die OLS 2026. Feuern Sie Ihre Favoriten an!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Zeigen Sie Ihren E-Sports-Geist mit exklusiven thematischen Anpassungselementen und einzigartigen Panzern!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Das World of Tanks Championship International in Suzhou (China) verspricht eine epische Schlacht zu werden. Unter den Regeln des Modus „Ansturm“ kämpfen hier die besten Teams der Welt um den Titel des Weltmeisters. Werden Sie live Zeuge, wie auf dem Schlachtfeld Legenden geboren werden!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "Saison 6 der OLS"
+msgstr "OLS Saison 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI '25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Diese Saison ist Ihre letzte Chance auf wertvolle Belohnungen, wie den exklusiven Ashbringer, einen schweren Panzer der Stufe X, mit allen einzigartigen 3D-Stilen, die Sie sich für ihn verdient haben, und einer furchtlosen Besatzung mit „Waffenbrüder“ als Null-Vorteil, sowie auf verbessertes und experimentelles Zubehör nach Wahl, einen markanten 2D-Stil und mehr. Lassen Sie sich die Gelegenheit nicht entgehen – der Sieg wartet auf dem Schlachtfeld!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Nutzen Sie die letzten Momente im Jahr des Drachen!"
+msgstr "Nutzen Sie die letzten Momente im Jahr des Phönix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SAISON DES GRÜNEN DRACHEN"
+msgstr "SAISON DES BLAUEN PHÖNIX"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "ANSTURM – WAS IST NEU?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Verstanden!"
+msgstr "Entfesseln Sie Ihre Flammen!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Der verbesserte Bildschirm der Gefechtsergebnisse mit seinem neuen Design von Update 2.0 stellt Ihnen jetzt zusätzliche, modusspezifische Informationen nach jedem Gefecht zur Verfügung."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Wenn die Zeit abläuft und kein Team den Sieg erringen konnte, wird das Gefecht durch die folgenden Faktoren in entsprechender Reihenfolge entschieden: Anzahl der überlebenden Fahrzeuge, verursachter Schaden und erstes besiegtes Fahrzeug. Wenn keins der beiden Teams Schaden verursacht hat, endet das Gefecht unentschieden."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detaillierte Gefechtsergebnisse"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Keine Panik, wenn Ihr Lieblingsfahrzeug ausgeschlossen wird. Mietfahrzeuge werden jetzt mit voreingestellten Besatzungen, Zubehör, Granaten und Verbrauchsmaterial ausgeliefert."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Gefechtsbereite Mietfahrzeuge %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Diese Saison kann jedes Team ein Fahrzeug komplett vom Gefecht ausschließen. Koordinieren Sie die Abstimmung mit Ihren Verbündeten, um das bedrohlichste Fahrzeug auszuschließen oder eine unerwartete Aufstellung für Ihre Gegner vorzubereiten."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Ausschluss von Fahrzeugen %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Bedingungen für Unentschieden aktualisiert {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Karten"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Neue Fahrzeuge für den Modus „Ansturm“"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Mit Version 2.4 werden die neuen Rollen für leichte Panzer zusammen mit einem Rebalancing der Fahrzeugwerte ins Spiel eingeführt. Probieren Sie sie im Gefecht aus!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Neue Rollen für leichte Panzer {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Eine neue Spielweise auf vertrauten Karten. Zu den Änderungen gehören nächtliche Bedingungen, neue Beobachtungsposten, angepasste Standorte für Sonderziele und modifizierte Aufklärungsmechaniken. All dies ändert den Verlauf des Gefechts – jetzt sind Aufmerksamkeit, Zeitgefühl und taktische Bewegungen wichtiger denn je."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Nachtkarten sind da! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Aufgrund geringer Spielerzahlen in diesen Gefechten haben wir die Super-Züge eingestellt. Wir arbeiten derzeit an alternativen teambasierten Spielweisen für Ansturm. Bis dahin werden 7v7-Turniere regelmäßig verfügbar sein."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Keine Super-Züge mehr {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Mietfahrzeuge"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Der kürzlich veröffentlichte mittlere Panzer der Stufe X „Ares 90“ ist jetzt mit einer angepassten Rollenfertigkeit für den Modus verfügbar."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Karten: Die Karte „Erlenberg“ wurde entfernt. Die Positionen der Sonderziele auf der Karte „Flugplatz“ wurden angepasst. Auf der Karte „Pilsen“ wurden leichte Anpassungen vorgenommen.\n• Fahrzeuge: Vz. 60S Dravec wurde entfernt. Der neue deutsche schwere Panzer Kampfpanzer 67 wurde hinzugefügt."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Rollenfertigkeit-Aktualisierung %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Der 114 SP2 ist jetzt ab dem Rang „Silber“ im Ansturm-Laden zum Kauf verfügbar."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Laden-Aktualisierungen %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Änderungen an der Balance der Saison {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "AUSGESCHLOSSEN"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Saison I: Blauer Drache"
+msgstr "Saison I: Blauer Phönix"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Saison II: Roter Drache"
+msgstr "Saison II: Roter Phönix"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Saison III: Grüner Drache"
+msgstr "Saison III: Grüner Phönix"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Aktuell"

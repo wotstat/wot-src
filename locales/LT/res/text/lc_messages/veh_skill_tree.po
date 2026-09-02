@@ -298,8 +298,26 @@ msgstr "Padidina bonusą variklio galiai, kurį suteikia greitintuvai {colorTagO
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Leidžia mūšyje panaudoti greitintuvus dar {colorTagOpen}{value}{colorTagClose} kartus."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Sumažina IRIS atsistatymo laiką, vos prasidėjus mūšiui, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Sumažina atsistatymo laiką, iki kol vėl galite naudoti IRIS {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Sumažina laiką, kurį esate rodomi priešams po to, kai aptinkate mašiną su IRIS {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Prailgina IRIS skenavimo laiką {colorTagOpen}{value0} s{colorTagClose} ir susiaurina skenuojamą sektorių {colorTagOpen}{value1} laipsn.{colorTagClose}, padidina aptikimo atstumą {colorTagOpen}{value2}%{colorTagClose}, sumažina judančių mašinų maskuotę {colorTagOpen}{value3}%{colorTagClose} ir sumažina už augalijos besislepiančių mašinų maskuotę {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Sumažina įgulos nario traumos šansą, kai mašina pažeidžiama."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Padidina pramušimo galią po nepramušusio šūvio {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Padidina žalą po šarvus pramušusio šūvio {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Sumažina nuobaudą išbarstymui, kai pabūklas pažeistas."
@@ -460,6 +478,18 @@ msgstr "Sumažina sviediniu užtaisymo greitį apkaboje."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Sumažina tikimybę priešams jus aptikti, kai šaunate."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Sumažina atsistatymo laiką, kai apkaba nėra pilna, {colorTagOpen}{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Sumažina atsistatymo laiką, kai apkaba yra pilna, {colorTagOpen}{value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Sumažina užsitaisymo laiką su pagreitintu užtaisymu {colorTagOpen} dar {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Padidina mūšio pradžioje turimų užkrovų skaičių dar {colorTagOpen}by {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Sumažina laiką iki kol pabūklas pradeda vėsti {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Sumažina šūvio generuojamą šilumą {colorTagOpen}{value}%{colorTagC
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Padidina įkaitusio pabūklo aušimo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Sumažina papildomo raketsvaidžio užtaisymo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Sumažina papildomo raketsvaidžio užtaisymo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Sumažina papildomo raketsvaidžio užtaisymo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Raketa darys {colorTagOpen}{value} žalos{colorTagClose} daugiau."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Padidina ne fugasinių sviedinių daromą žalą."
@@ -547,6 +589,18 @@ msgstr "Sumažina pabūklo išbarstymą Įsitvirtinimo režime {colorTagOpen}{va
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Sumažina užsitaisymo laiką Įsitvirtinimo režime {colorTagOpen}{value}%{colorTagClose}."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Padidina maksimalų greitį į priekį, kai ISM režimas aktyvus {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Specialūs sviediniai ISM režime darys {colorTagOpen}{value} žalos{colorTagClose} daugiau."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Standartiniai sviediniai ISM režime darys {colorTagOpen}{value} žalos{colorTagClose} daugiau."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Sumažina pabūklo užtaisymo laiką ISM režime {colorTagOpen}{value}%{colorTagClose} (išskyrus fugasiniams)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Padidina jūsų mašinos kuro bako ir variklio patvarumo taškus."
 
@@ -555,6 +609,9 @@ msgstr "Sumažina pažeistos amunicijos saugyklos ir variklio nuobaudą."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Padidina jūsų sviedinių daromą žalą priešo moduliams."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Sumažina laiką, per kurį pakeičiamas šaudymo režimas, {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Leidžia susidėti alternatyvią amunicijos ir ekipuotės konfigūraciją."
@@ -742,6 +799,18 @@ msgstr "Šerdies formos optimizacija"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Didesnė kuro talpykla"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifikuotas lėtas degiklis"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Didelio efektyvumo aušinimo skystis"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Labai tiksli optika"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Nuolatinis skystas aušinimas"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Pakabos patvarumas"
 
@@ -750,6 +819,12 @@ msgstr "Pakabos remonto greitis"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Įgulos apsauga"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Koreguojamas sprogdiklis: pramušimas"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Koreguojamas sprogdiklis: žala"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situacinis pabūklo išbarstymas"
@@ -928,6 +1003,18 @@ msgstr "Užsitaisymo greitis apkaboje"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Maskuotė po šūvio"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Didelio grynumo motoro rėmelis"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktyvus motoro aušinimas"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Didelio laidumo ritė"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Daugiasluoksnė ritė"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Žemos temperatūros aušinimo skystis"
 
@@ -936,6 +1023,18 @@ msgstr "Aukšto šiluminio laidumo kasetė"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Šiluminio vamzdžio optimizacija"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Užtaisymo ciklo optimizacija"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Užtaisymo ciklo optimizacija"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Užtaisymo ciklo optimizacija"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Pagerintas galvutės išdėstymas"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Ne fugasinių sviedinių žala"
@@ -1018,6 +1117,18 @@ msgstr "Tikslumui skirtas motoras"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hidraulinis grūstuvas"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Pagerinti pakabos amortizatoriai"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modifikuoti specialūs sviediniai"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modifikuoti standartiniai sviediniai"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimizuotas ISM ciklas"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Pasirenkamo modulio patvarumas"
 
@@ -1026,6 +1137,9 @@ msgstr "Pasirinkto modulio apsauga"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Sviedinio modulio žala"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimizuota rekalibracija"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Amunicijos ir ekipuotės konfigūracija"

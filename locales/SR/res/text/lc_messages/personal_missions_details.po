@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima tvog nivoa ili višeg pucajući sa razdaljine od %(distanceShortOrEqual)s metara ili manje"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "Uništi %(goal)s neprijateljskih vozila istog nivoa ili višeg sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+msgstr "Uništi %(goal)s neprijateljskih vozilaistog nivoa ili većeg sa razdaljine od %(distanceShortOrEqual)s m ili manje."
 
 msgid "pm3_10_1_7_short"
 msgstr "Prethodnica-7"
@@ -5856,6 +5856,978 @@ msgstr "Šteta"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Uništi"
+
+msgid "pm4_11_1_1"
+msgstr "Prethodnica-1"
+
+msgid "pm4_11_1_10"
+msgstr "Prethodnica-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima koja su oštetila tvoje vozilo pucanjem."
+
+msgid "pm4_11_1_10_short"
+msgstr "Prethodnica-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Šteta"
+
+msgid "pm4_11_1_11"
+msgstr "Prethodnica-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Uništi neprijateljsko vozilo sudaranjem i preživi udar"
+
+msgid "pm4_11_1_11_short"
+msgstr "Prethodnica-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_1_12"
+msgstr "Prethodnica-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+
+msgid "pm4_11_1_12_short"
+msgstr "Prethodnica-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_1_13"
+msgstr "Prethodnica-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Zaradi nagradu \"Veliki kalibar\"."
+
+msgid "pm4_11_1_13_short"
+msgstr "Prethodnica-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Heroji borbe"
+
+msgid "pm4_11_1_14"
+msgstr "Prethodnica-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Nanesi, primi i blokiraj ukupno %(goal)s poena štete"
+
+msgid "pm4_11_1_14_short"
+msgstr "Prethodnica-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_1_15"
+msgstr "Prethodnica-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila u vidokrugu tvog vozila"
+
+msgid "pm4_11_1_15_short"
+msgstr "Prethodnica-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_1_16"
+msgstr "Prethodnica-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Zaradi nagradu \"Čelični zid\""
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Budi najbolji igrač u timu po nanetoj šteti"
+
+msgid "pm4_11_1_16_short"
+msgstr "Prethodnica-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Heroji borbe"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_1_17"
+msgstr "Prethodnica-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Imaj ukupnu nanetu štetu i štetu blokiranu oklopom jednakom ili preko %(vehicleHealthFactor)s puta od broja poena izdržljivosti tvog vozila"
+
+msgid "pm4_11_1_17_short"
+msgstr "Prethodnica-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Šteta i blok"
+
+msgid "pm4_11_1_18"
+msgstr "Prethodnica-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Nanesi %(goal)s poena štete imobilizovanim neprijateljskim vozilima"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "pm4_11_1_18_short"
+msgstr "Prethodnica-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Šteta"
+
+msgid "pm4_11_1_19"
+msgstr "Prethodnica-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima tvog nivoa ili višeg pucajući sa razdaljine od %(distanceShortOrEqual)s metara ili manje"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozilaistog nivoa ili većeg sa razdaljine od %(distanceShortOrEqual)s m ili manje."
+
+msgid "pm4_11_1_19_short"
+msgstr "Prethodnica-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim teškim tenkovima"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Nanesi štetu neprijateljskim teškim tenkovima pogotkom %(goal)s puta"
+
+msgid "pm4_11_1_1_short"
+msgstr "Prethodnica-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Šteta"
+
+msgid "pm4_11_1_2"
+msgstr "Prethodnica-2"
+
+msgid "pm4_11_1_20"
+msgstr "Prethodnica-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Uništi %(goal)s neprijateljskih vozila %(uniqueGoal)s različitih tipova"
+
+msgid "pm4_11_1_20_short"
+msgstr "Prethodnica-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Uništi"
+
+msgid "pm4_11_1_21"
+msgstr "Prethodnica-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Nanesi, primi i blokiraj ukupno %(goal)s poena štete"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Izazovi 25%% ukupne količine štete koju je izazvao tvoj tim"
+
+msgid "pm4_11_1_21_short"
+msgstr "Prethodnica-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Šteta"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Uništi %(goal)s neprijateljskih vozila %(uniqueGoal)s različitih tipova"
+
+msgid "pm4_11_1_2_short"
+msgstr "Prethodnica-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Uništi"
+
+msgid "pm4_11_1_3"
+msgstr "Prethodnica-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Budi najbolji igrač u timu po nanetoj šteti"
+
+msgid "pm4_11_1_3_short"
+msgstr "Prethodnica-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_1_4"
+msgstr "Prethodnica-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Blokiraj %(goal)s poena štete dok ti je vozilo nepokretno"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "pm4_11_1_4_short"
+msgstr "Prethodnica-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Blok"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_5"
+msgstr "Prethodnica-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Nanesi %(goal)s poena štete vozilima unutar vidnog polja tvog vozila"
+
+msgid "pm4_11_1_5_short"
+msgstr "Prethodnica-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_6"
+msgstr "Prethodnica-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Imaj ukupnu nanetu štetu i štetu blokiranu oklopom jednakom ili preko %(vehicleHealthFactor)s puta od broja poena izdržljivosti tvog vozila"
+
+msgid "pm4_11_1_6_short"
+msgstr "Prethodnica-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Šteta i blok"
+
+msgid "pm4_11_1_7"
+msgstr "Prethodnica-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distanceGreatOrEqual)s m ili veće"
+
+msgid "pm4_11_1_7_short"
+msgstr "Prethodnica-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Šteta"
+
+msgid "pm4_11_1_8"
+msgstr "Prethodnica-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim teškim tenkovima"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Budi najbolji igrač u timu po nanetoj šteti"
+
+msgid "pm4_11_1_8_short"
+msgstr "Prethodnica-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_1_9"
+msgstr "Prethodnica-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Nanesi %(goal)s poena štete imobilizovanim neprijateljskim vozilima"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "pm4_11_1_9_short"
+msgstr "Prethodnica-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Šteta"
+
+msgid "pm4_11_2_1"
+msgstr "Zaseda-1"
+
+msgid "pm4_11_2_10"
+msgstr "Zaseda-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Nanesi %(goal)s štete"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Budi najbolji igrač u svom timu po zarađenom iskustvu"
+
+msgid "pm4_11_2_10_short"
+msgstr "Zaseda-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_2_11"
+msgstr "Zaseda-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Nanesi %(goal)s štete neprijateljskim vozilima koja se kreću pogotkom"
+
+msgid "pm4_11_2_11_short"
+msgstr "Zaseda-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_12"
+msgstr "Zaseda-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Nanesi %(goal)s štete"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila"
+
+msgid "pm4_11_2_12_short"
+msgstr "Zaseda-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_2_13"
+msgstr "Zaseda-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Izazovi 25%% ukupne količine štete koju je izazvao tvoj tim"
+
+msgid "pm4_11_2_13_short"
+msgstr "Zaseda-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Šteta"
+
+msgid "pm4_11_2_14"
+msgstr "Zaseda-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Zaradi nagradu \"Veliki kalibar\"."
+
+msgid "pm4_11_2_14_short"
+msgstr "Zaseda-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Heroji borbe"
+
+msgid "pm4_11_2_15"
+msgstr "Zaseda-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Nanesi %(vehicleHealthFactor)s puta više štete nego što tvoje vozilo ima poena izdržljivosti"
+
+msgid "pm4_11_2_15_short"
+msgstr "Zaseda-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_16"
+msgstr "Zaseda-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Uništi %(goal)s neprijateljskih vozila, nanoseći najmanje %(damageDealt)s poena štete."
+
+msgid "pm4_11_2_16_short"
+msgstr "Zaseda-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Uništi"
+
+msgid "pm4_11_2_17"
+msgstr "Zaseda-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Nanesi %(goal)s štete"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila"
+
+msgid "pm4_11_2_17_short"
+msgstr "Zaseda-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_2_18"
+msgstr "Zaseda-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Nanesi %(goal)s poena štete neprijateljskim vozilima sa razdaljine od %(distanceGreatOrEqual)s m ili veće"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Budi najbolji igrač u svom timu po zarađenom iskustvu"
+
+msgid "pm4_11_2_18_short"
+msgstr "Zaseda-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_2_19"
+msgstr "Zaseda-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila pre primanja bilo kakve štete na svom vozilu"
+
+msgid "pm4_11_2_19_short"
+msgstr "Zaseda-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Nanesi %(goal)s štete"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Postigni %(goal)s hitaca koji su probili oklop"
+
+msgid "pm4_11_2_1_short"
+msgstr "Zaseda-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Probijeno"
+
+msgid "pm4_11_2_2"
+msgstr "Zaseda-2"
+
+msgid "pm4_11_2_20"
+msgstr "Zaseda-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Izazovi 30%% ukupne količine štete koju je izazvao tvoj tim"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Uništi sva neprijateljska vozila / zauzmi ili odbrani bazu"
+
+msgid "pm4_11_2_20_short"
+msgstr "Zaseda-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Šteta"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Pobedi u borbi"
+
+msgid "pm4_11_2_21"
+msgstr "Zaseda-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Izazovi %(goal)s poena štete neprijateljskim vozilima"
+
+msgid "pm4_11_2_21_short"
+msgstr "Zaseda-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Nanesi %(goal)s poena štete tokom prvih %(timeLimit)s minuta borbe"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Uništi %(goal)s neprijateljskih vozila %(uniqueGoal)s različitih tipova"
+
+msgid "pm4_11_2_2_short"
+msgstr "Zaseda-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Uništi"
+
+msgid "pm4_11_2_3"
+msgstr "Zaseda-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Budi najbolji igrač u svom timu po zarađenom iskustvu"
+
+msgid "pm4_11_2_3_short"
+msgstr "Zaseda-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_2_4"
+msgstr "Zaseda-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Nanesi %(goal)s štete neprijateljskim srednjim tenkovima"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila van vidokruga tvog vozila"
+
+msgid "pm4_11_2_4_short"
+msgstr "Zaseda-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_2_5"
+msgstr "Zaseda-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Nanesi %(goal)s poena štete ostajući neotkriven od strane neprijatelja u momentu kada je šteta naneta"
+
+msgid "pm4_11_2_5_short"
+msgstr "Zaseda-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_6"
+msgstr "Zaseda-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Nanesi i asistiraj za ukupno %(goal)s štete"
+
+msgid "pm4_11_2_6_short"
+msgstr "Zaseda-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_2_7"
+msgstr "Zaseda-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Zaradi nagradu \"Tenkovski snajper\""
+
+msgid "pm4_11_2_7_short"
+msgstr "Zaseda-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Heroji borbe"
+
+msgid "pm4_11_2_8"
+msgstr "Zaseda-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila sa razdaljine od %(distanceGreatOrEqual)s m ili veće"
+
+msgid "pm4_11_2_8_short"
+msgstr "Zaseda-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_2_9"
+msgstr "Zaseda-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Nanesi %(goal)s poena štete imobilizovanim neprijateljskim vozilima"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Nanesi %(goal)s štete"
+
+msgid "pm4_11_2_9_short"
+msgstr "Zaseda-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Šteta"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Šteta"
+
+msgid "pm4_11_3_1"
+msgstr "Asistencija-1"
+
+msgid "pm4_11_3_10"
+msgstr "Asistencija-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Omogući svojim saveznicima da nanesu %(goal)s poena štete uočavanjem ili imobilizovanjem neprijateljskih vozila dok si neuočen"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Ošamuti neprijateljske srednje tenkove ili lovce tenkova na %(goal)s sekundi ukupno. Vreme potencijalnog ošamućenja se računa"
+
+msgid "pm4_11_3_10_short"
+msgstr "Asistencija-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Ošamuti"
+
+msgid "pm4_11_3_11"
+msgstr "Asistencija-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Omogući saveznicima da nanesu %(goal)s poena štete neprijateljskim vozilima uočavajući ih, imobilizujući ih ili ošamućujući ih"
+
+msgid "pm4_11_3_11_short"
+msgstr "Asistencija-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_12"
+msgstr "Asistencija-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Omogući svojim saveznicima da unište %(goal)s neprijateljskih vozila uočavajući ih, imobilizujući ih ili ošamućujući ih"
+
+msgid "pm4_11_3_12_short"
+msgstr "Asistencija-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_13"
+msgstr "Asistencija-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Primi Medalju majstorstva I klase ili više"
+
+msgid "pm4_11_3_13_short"
+msgstr "Asistencija-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Značka klase"
+
+msgid "pm4_11_3_14"
+msgstr "Asistencija-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Preživi borbu"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Budi najbolji igrač u oba tima po zarađenom iskustvu"
+
+msgid "pm4_11_3_14_short"
+msgstr "Asistencija-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Preživi"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Najbolji igrač"
+
+msgid "pm4_11_3_15"
+msgstr "Asistencija-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Omogući svojim saveznicima da unište %(goal)s neprijateljskih vozila uočavajući ih, imobilizujući ih ili ošamućujući ih"
+
+msgid "pm4_11_3_15_short"
+msgstr "Asistencija-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_16"
+msgstr "Asistencija-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Nanesi %(goal)s štete neprijateljskim vozilima iz pokreta pri brzini od najmanje %(attackerMovingSpeedGreaterOrEqual)s km/h"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila u pokretu pogotkom"
+
+msgid "pm4_11_3_16_short"
+msgstr "Asistencija-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Šteta"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_17"
+msgstr "Asistencija-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Preživi borbu"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Omogući svojim saveznicima da nanesu %(goal)s poena štete neprijateljskim vozilima šokirajući ih ili imobilizujući ih i preživi borbu"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Naneta šteta (uključujući štetu nanetu uz tvoju asistenciju) mora da bude ukupno %(goal)s poena i preživi borbu"
+
+msgid "pm4_11_3_17_short"
+msgstr "Asistencija-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Preživi"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_3_18"
+msgstr "Asistencija-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Uništi %(goal)s neprijateljskih vozila sa razdaljine od %(distanceGreatOrEqual)s m ili veće"
+
+msgid "pm4_11_3_18_short"
+msgstr "Asistencija-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Uništi"
+
+msgid "pm4_11_3_19"
+msgstr "Asistencija-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Primi medalju Majstorstva As tankiste"
+
+msgid "pm4_11_3_19_short"
+msgstr "Asistencija-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Značka klase"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Preživi borbu"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Uništi neprijateljsku artiljeriju i preživi borbu"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Ošamuti neprijateljska vozila %(goal)s puta i preživi borbu"
+
+msgid "pm4_11_3_1_short"
+msgstr "Asistencija-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Preživi"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Ošamuti"
+
+msgid "pm4_11_3_2"
+msgstr "Asistencija-2"
+
+msgid "pm4_11_3_20"
+msgstr "Asistencija-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Omogući svojim saveznicima da nanesu %(goal)s poena štete neprijateljskim vozilima koja si ti otkrio neuočen i pobedi u borbi"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Ošamuti neprijateljske tenkove %(goal)s puta i pobedi u borbi"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Uništi sva neprijateljska vozila / zauzmi ili odbrani bazu"
+
+msgid "pm4_11_3_20_short"
+msgstr "Asistencija-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Ošamuti"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Pobedi u borbi"
+
+msgid "pm4_11_3_21"
+msgstr "Asistencija-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Preživi borbu"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Nanesena šteta ( uključujući štetu tvojom asistencijom) mora biti ukupno %(goal)s"
+
+msgid "pm4_11_3_21_short"
+msgstr "Asistencija-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Preživi"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Uništi neprijateljski laki tenk"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Ošamuti neprijateljska vozila za ukupno %(goal)s sekundi. Računa se i potencijalno trajanje šoka"
+
+msgid "pm4_11_3_2_short"
+msgstr "Asistencija-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Ošamuti"
+
+msgid "pm4_11_3_3"
+msgstr "Asistencija-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Omogući svojim saveznicima da oštete %(goal)s neprijateljskih vozila uočavajući ih, imobilizujući ih ili ošamućujući ih"
+
+msgid "pm4_11_3_3_short"
+msgstr "Asistencija-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_4"
+msgstr "Asistencija-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Preživi borbu"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Uoči %(goal)s neprijateljskih vozila i preživi borbu"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Ošamuti %(stunSeveralTargets)s neprijateljskih vozila jednim hicem %(goal)s puta i preživi borbu"
+
+msgid "pm4_11_3_4_short"
+msgstr "Asistencija-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Preživi"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Uoči"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Ošamuti"
+
+msgid "pm4_11_3_5"
+msgstr "Asistencija-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Primi Medalju majstorstva II klase ili više"
+
+msgid "pm4_11_3_5_short"
+msgstr "Asistencija-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Značka klase"
+
+msgid "pm4_11_3_6"
+msgstr "Asistencija-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Nanesena šteta ( uključujući štetu tvojom asistencijom) mora biti ukupno %(goal)s"
+
+msgid "pm4_11_3_6_short"
+msgstr "Asistencija-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Kompleksni uslovi"
+
+msgid "pm4_11_3_7"
+msgstr "Asistencija-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Omogući saveznicima da nanesu %(goal)s štete neprijateljskim vozilima uočavanjem, ošamućivanjem ili imobilizacijom"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Uništi neprijateljsku artiljeriju"
+
+msgid "pm4_11_3_7_short"
+msgstr "Asistencija-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Asistencija"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_8"
+msgstr "Asistencija-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila"
+
+msgid "pm4_11_3_8_short"
+msgstr "Asistencija-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_9"
+msgstr "Asistencija-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Uništi %(goal)s neprijateljskih vozila sa razdaljine od %(distanceShortOrEqual)s m ili manje"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Ošamuti neprijateljske srednje tenkove ili lovce tenkova %(goal)s puta"
+
+msgid "pm4_11_3_9_short"
+msgstr "Asistencija-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Uništi"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Ošamuti"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Svaka misija ovog tipa ima ograničen broj pokušaja da se ispune navedeni uslovi."
@@ -10345,6 +11317,9 @@ msgstr "\"Drugi front\""
 msgid "season_3"
 msgstr "Sektor 3"
 
+msgid "season_4"
+msgstr "Sektor 3"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Set misija za sve tipove vozila zarad dobijanja Američkog Black Rock teškog tenka."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Komplet misija za sve tipove vozila za dobijanje nemačkog srednjeg tenka Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Set misija za sve tipove vozila zarad dobijanja nemačkog StuG IV lovca tenkova."

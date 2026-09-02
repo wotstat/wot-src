@@ -232,11 +232,35 @@ msgstr "Šis pabūklas gali šaudyti neužsitaisydamas. Kiekvienas šūvis didin
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Perkaisti galintis automatas"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mechanizmas akimirksniu sumažina sviedinių užtaisymo laiką iki tam tikros vertės. Kiekvienas panaudojimas už sviedinį išnaudoją vieną užkrovą, o jos atsistato per laiką – greičiau, jei apkaba pilna. Mūšio pradžioje jau turite tam tikrą užkrovų skaičių."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Priverstinio užtaisymo mechanizmas"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Ši mašina turi ant ginklo plokštės sumontuota raketsvaidį. Pasikeisti į taikymąsi su raketa galite paspaudę:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Pagalbiniai raketsvaidžiai"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Taikydamiesi su raketos taikikliu iššauti raketą galite nuspaudę:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Pagalbiniai raketsvaidžiai"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Kiekvieną kartą, kai pataikote į matomą priešą sviediniu, gaunate efektyvumo lygį, kas laikinai padidina jūsų užsitaisymo greitį. Lygiai kaupiasi su kiekvienu šūviu.\nSunaikinę mašiną sviediniu gausite dar vieną lygį."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Pusiau automatinė amunicijos saugykla"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Šios mašinos išorinio sviedinių maitinimo modulis leidžia iššauti galingus sustiprintus sviedinius, kurie daro daugiau žalos. Kuomet modulis aktyvuotas, jūsų mobilumas ir šaudymo sparta sumažėja."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Išorinio sviedinių maitinimo režimas"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Jei jūsų ginklas užtaisytas, galite pradėti kaitinti kitą šūvį. Kuo didesnis įkaitimo lygis, tuo daugiau žalos darysite.\nĮkaitinimą pradėsite paspaudę klavišą:"
@@ -345,6 +369,30 @@ msgstr "Aktyvuoti reaktyviniai stiprintuvai padidina variklio galią ir maksimal
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Privalumai ir trūkumai"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Kai su sviediniu pataikote į matomą priešą, nustatomas kitos sviedinio sprogdiklio degiklis. Jei pirmas šūvis pramušė priešo šarvus, kitas šūvis darys daugiau žalos. Jei ne, tai jo pramušimas bus didesnis."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Koreguojamas sprogdiklio degiklis"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Mašinos pabūklas turi ypatingus prietaisus, kurie leidžia prieš šūvį pakoreguoti tam tikrus sviedinio parametrus. Skirtingų sviedinių parametrai priklauso nuo pasirinkto režimo ir kiekviena kombinacija padės prisitaikyti prie įvairių situacijų."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Sviedinių kalibravimo sistema"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Pažangus apžvalgos prietaisas, kurie padidina jūsų matymo lauką ir leidžia lengviau aptikti judančias ir augalijoje besislepiančias mašinas. Aktyvavus jis skenuoja siaurą kampą priešais jūsų mašiną ir aptinka mašinas prieš prasidedant atsistatymo laikui."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infraraudonasis ieškiklis ir sekiklis (IRIS)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Tačiau, jei jis aptinka priešą, jūs irgi tampate matomi tam tikrą laiką, o apie tai ir jūs, ir priešas, sužino akimirksniu. Jūs galite patys nustoti skenuoti ir pradėti atsistatymą anksčiau."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infraraudonasis ieškiklis ir sekiklis (IRIS)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Kietojo kuro greitintuvai, kurie kelioms sekundėms padidina akceleraciją, mobilumą ir manevringumą. Dešinysis ir kairysis greitintuvai gali veikti atskirai, kas leis greičiau suktis ir nevaržys važiavimo atbuliniu."

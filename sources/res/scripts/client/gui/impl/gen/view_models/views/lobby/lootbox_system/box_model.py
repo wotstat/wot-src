@@ -4,7 +4,7 @@ from gui.impl.gen.view_models.views.lobby.lootbox_system.slot_model import SlotM
 class BoxModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=5, commands=0):
+    def __init__(self, properties=7, commands=0):
         super(BoxModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -47,6 +47,24 @@ class BoxModel(ViewModel):
     def getSlotsType():
         return SlotModel
 
+    def getRerollCurrency(self):
+        return self._getString(5)
+
+    def setRerollCurrency(self, value):
+        self._setString(5, value)
+        return
+
+    def getRerollPrices(self):
+        return self._getArray(6)
+
+    def setRerollPrices(self, value):
+        self._setArray(6, value)
+        return
+
+    @staticmethod
+    def getRerollPricesType():
+        return int
+
     def _initialize(self):
         super(BoxModel, self)._initialize()
         self._addStringProperty(b'category', b'')
@@ -54,4 +72,6 @@ class BoxModel(ViewModel):
         self._addNumberProperty(b'countToGuaranteed', 0)
         self._addNumberProperty(b'guaranteedLimit', 0)
         self._addArrayProperty(b'slots', Array())
+        self._addStringProperty(b'rerollCurrency', b'')
+        self._addArrayProperty(b'rerollPrices', Array())
         return

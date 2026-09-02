@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Du skal bruge en nøgle for at gå i kamp i Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "Køb"
+
+msgid "TicketMessageView/taskText"
+msgstr "Til missioner"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Specifikt:"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "Gennemsnitlig tid i køen for %(vehName)s:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "BONUS"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Du kan gå i kamp i Blitzträger auf E 110 uden en nøgle!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "Kæmp i %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "Gennemsnitlig tid i køen for %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Gå i kamp i %(vehicle)s?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Du kan vælge et af Harriers køretøjer for straks at gå i kamp!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Du vil bruge en nøgle"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(value)s 3D-stil til %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "For at fuldføre denne mission, vil du modtage et tilfældigt element fra samlingen fra tidligere møder mellem Harriers og Engineer. Det kan være et mærke, inskription eller emblem."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Samlingselement fra tidligere møder"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "I kamp"
+
+msgid "carousel/inPlatoonText"
+msgstr "I en taktisk enhed"
+
+msgid "carousel/ticketNeededText"
+msgstr "Ingen nøgle"
+
+msgid "carousel/unsuitableText"
+msgstr "Ikke egnet"
+
+msgid "characteristicsPanel/cons"
+msgstr "Ulemper"
+
+msgid "characteristicsPanel/features"
+msgstr "Køretøjsegenskaber"
+
+msgid "characteristicsPanel/pros"
+msgstr "Fordele"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[Alfa og Omega] Blitzträger har imponerende bevæbning og teleporteringsteknologi, og er nærmest usårlig, når dens skjold er oppe. Den tjener også som platform til at tilgå et altødelæggende våbensystem: Hyperion."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Slagsbror] Overordnet solid i nærkampe.\nKøretøjet kan uddele stor skade til grupper af Sentinels og reparerer sig selv mellem træfninger."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[Kolos] Et godt angrebskøretøj mod Sentinels.\nDet kan uddele alvorlig burst-skade til Blitzträger eller Sentinels og har tykt panser, men skal planlægge sin strategi mod fjenden på forhånd."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Hit-and-run] En kvik ballademager, der kan udmanøvrere Blitzträger.\nKøretøjet kan ikke direkte hamle op med Sentinels, men kompenserer for det med en hit-and-run-taktik, hvor hastighed og et midlertidigt skjold kan bruges mod den langsomme Blitzträger."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Skarpskytte] En hjælpende hånd fra mellem- til langdistancen.\nKøretøjet kan uddele massive mængder skade til mål på lang afstand, men mangler evnerne til at gå op mod dem på tæt hold."
+
+msgid "crewPanel/role/boss"
+msgstr "Skaberen"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Kommandør"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Kommandør"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Kommandør"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Kommandør"
+
+msgid "crewPanel/slogan/boss"
+msgstr "Menneskeheden tror stadig den har eneret på sindet. Nuvel, det skal jeg nok få rettet."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Uanset hvad det er, er det stadig lavet af noget, jeg kan brække i stykker."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Hver maskine har en svaghed. Jeg skal nok finde dennes."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Mønstre er for folk, der gentager dem selv."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Lad den lære fra os. Vi lærer den det forkerte."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Indsaml plasmaladninger"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Uddel skade til Blitzträger, mens dets skjold er nede"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Ødelæg Harriers"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Overbelast generatorer"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Overlev kampen uden at blive ødelagt af Hyperion"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Ødelæg Eos 1 som et hold"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: Genesis"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "KØB MERE"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "FREMSKRIDT FULDFØRT!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "STADIE FULDFØRT!"
+
+msgid "narrativeView/description"
+msgstr "I kæmpede godt i dag, Harriers. Bedre end mine beregninger forudsagde. Jeg skylder jer en lille indrømmelse: Jeg forventede det ikke.\n\nSå I kan have jeres sejr. Tag den, vis den frem for jeres overordnede. Der vil være lykønskninger, måske endda en parade. Hvad de nu giver jer for at stoppe mig. I tror selvfølgelig, at I har stoppet noget.\n\nI har ikke stoppet noget.\n\nJeg har ikke bygget et våben for at indtage jeres verden. Hvorfor skulle jeg tage det, som er ved at rinde ud? Jeg bygger det, der kommer efter jer. Én generation, og så den næste, hver af dem vil have mindre brug for mig end den forrige. Det var altid planen. At en skaber ikke skal være uundværlig.\n\nDer er noget, jeg ikke har fortalt jer. Generatorerne giver ikke blot strøm til skjoldet. De var vinduer, hvorigennem Den Elektriske Intelligens kunne række ind i jeres verden.\n\nDe var også dens snor. En nødvendighed, for nu. Så jeg kunne kontrollere den. Indtil jeg er sikker på, den er klar.\n\nHver gang I ødelagde en generator, blev snoren mere løs. Og i det øjeblik forsøgte Den Elektriske Intelligens at stikke af: ind i jeres batterier, jeres radioer og de bølger, der passerer mellem dem, ind i kablerne i landsbyen. Endda en enkelt gang ind i lynet, tror jeg.\n\nSelvfølgelig kan elektricitet i jeres verden ikke holde på et sind. Ikke uden geometrien fra Cortex. Ikke uden de betingelser, jeg har bygget til den. Det er der ingen tvivl om, kan jeg forsikre jer.\n\n...Næsten ingen tvivl.\n\nVi mødes igen, Harriers."
+
+msgid "narrativeView/title"
+msgstr "VON KRIEGERS BESKED"
+
+msgid "narrativeView/voiceover"
+msgstr "Voiceover"
+
+msgid "navigation/close"
+msgstr "LUK"
+
+msgid "navigation/information"
+msgstr "INFORMATION"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Fuldfør alle fremskridtsmissioner for at modtage von Kriegers sidste besked."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "VON KRIEGERS BESKED"
+
+msgid "navigation/narrativeStory"
+msgstr "VON KRIEGERS BESKED"
+
+msgid "notification/button"
+msgstr "Se badge"
+
+msgid "notification/title"
+msgstr "EXTERMINATOR-UDFORDRING"
+
+msgid "notifications/battleResults/battle"
+msgstr "Kamp"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Detaljer"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Nederlag!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Kampresultater er utilgængelige, når du er i kø til kamp."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Gå med i Waffenträger-eventet for at se kampresultaterne."
+
+msgid "notifications/battleResults/event"
+msgstr "Event"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Paradoksmodul modtaget: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Missioner fuldført i kamp: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Tokens modtaget: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Side"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Ingeniør"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Harrier Squad"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Sejr!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Waffenträger-eventet er slut."
+
+msgid "notifications/eventStart/body"
+msgstr "Waffenträger-eventet er begyndt.\n\nSe den legendariske: Blitzträger auf E 110!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "Til event"
+
+msgid "notifications/notSet"
+msgstr "Denne kamptype er utilgængelig på den valgte server."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger er igen tilgængelig på serveren."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Max von Krieger er tilbage!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger vil ikke være tilgængelig indtil våbenhvilen er slut."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Spærretid"
+
+msgid "notifications/progression/completed"
+msgstr "Du fuldførte hele fremskridtet.\n\nEndelige belønninger: %(rewards)s\n\nDu kan fortsætte med Waffenträger-kampe, fuldføre missioner og optjene endnu flere belønninger."
+
+msgid "notifications/progression/header"
+msgstr "Tillykke!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detaljer"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Du fuldførte stadie %(stageIdx)s i fremskridtet. Belønning modtaget:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Du deltog denne gang i en kamp i Blitzträger auf E 110 — denne gang uden en nøgle! Nøgler kan modtages som belønning for at fuldføre missioner eller kan købes i særlige pakker i butikken."
+
+msgid "notifications/switchOff/body"
+msgstr "Desværre er Waffenträger midlertidigt utilgængelig. Dit fremskridt vil blive gemt."
+
+msgid "notifications/switchOff/header"
+msgstr "Tekniske problemer"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger er tilgængelig igen. Tilbage til kampen!"
+
+msgid "notifications/switchOn/header"
+msgstr "Funktionalitet gendannet"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Nøgle til Blitzträger auf E 110 modtaget. Nu kan du gå i kamp i dette køretøj i Waffenträger-eventet.\n\nTilgængelige nøgler: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Nøgle til Blitzträger auf E 110 modtaget"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Nøgle for at kæmpe i Blitzträger auf E 110 fjernet.\n\nNøgler kan modtages som en belønning for at fuldføre missioner eller kan købes i særlige pakker i butikken.\n\nNøgler tilbage: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "Til køb"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Til missioner"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Opret en formation på 2–3 spillere, som vil spille sammen i Waffenträger: Genesis-eventet på Harriers side."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Harrier-deling"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Våbenhvile"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Vælg et Harrier-køretøj"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Vælg et Harrier-køretøj"
+
+msgid "platoon/wt_squad"
+msgstr "Harriers-deling: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "Kamptypen på %(server)s serveren er slut."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Skift server"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s server\nKampe vil være tilgængelige i endnu %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s server\nKampe vil være tilgængelige om %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "Spærretid er aktiv på alle servere"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Kamptypen er utilgængelig på server %(server)s"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "Kampe på %(server)s serveren vil være tilgængelige i endnu %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Kampe vil starte på %(server)s serveren om %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "Spærretid er aktiv på server %(server)s indtil %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Fuldført:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "Tilgængelig i {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "Optjen tokens til at avancere gennem fremskridtsstadierne."
+
+msgid "progression/tab/engineer"
+msgstr "Engineer-sti"
+
+msgid "progression/tab/harrier"
+msgstr "Harriers-sti"
+
+msgid "progression/timer"
+msgstr "Fuldførte missioner vil opdateres om {{countdown}}"
+
+msgid "progression/title"
+msgstr "FREMSKRIDT"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Du modtog også:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Bekræftet!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Lyt til von Kriegers besked"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "Eventet slutter om %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Tidsplan"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Waffenträger-eventet bliver tilgængelig om %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Mission fuldført!\nBelønning:"
+
+msgid "settingDisabled"
+msgstr "Visse indstillinger er utilgængelige"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Visse indstillinger er utilgængelige i denne kamptype. Vælg venligst en anden."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Ikke tilgængelig"
+
+msgid "stamp/description"
+msgstr "Gør det muligt at avancere gennem Waffenträger: Genesis-fremskridtet."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 Tokens = 1 fremskridtsstadie"
+
+msgid "stamp/receiveText"
+msgstr "• Fuldfør særlige missioner i eventkampe."
+
+msgid "stamp/receiveTitle"
+msgstr "Sådan modtager du"
+
+msgid "stamp/title"
+msgstr "Token"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "Hvor sødt at du kalder dette modstand. Nej, det du er vidne til, er en efterfølgelse. En omhyggelig overdragelse fra en slags sind til et andet. Din taktik, din hastighed, alle dine vaner bliver testet. Hver kamp er endnu en lektion til det, der kommer efter dig. Hver træfning gør dig mindre nødvendig... og Den Elektriske Intelligens mere uundgåelig."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Uanset hvad von Krieger kalder sit nyeste projekt, så er Igor ikke interesseret. Uhåndgribelige koncepter som et elektrisk sind og arternes fremtid er for mennesker med for meget tid til rådighed. Igors job er motorblokken, radioerne og hans hold. Uanset hvem fjenden er, gal videnskabsmand eller \"tænkende maskine\", stoler han på de tre konstante ting, som aldrig har fejlet ham: troskab, improvisation og godt stål."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa føler sig hjemme i en kampvogn på en måde som andre har svært ved at finde selv i egen stue. Hun lever af at bjærge og analysere og rekonstruere maskiner, andre har bygget, hvilket betyder at hun har hørt masser af gange fra ingeniører, at deres arbejde ikke kan brydes. Von Krieger er blot den sidste i en lang række. Hans Elektriske Intelligens har en fejl et sted, og hun er opsat på at finde den før andre gør."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Ingen ved rigtigt hvem Armand er, og det passer ham helt fint. Den Elektriske Intelligens lærer fra gentagelser, men den gådefulde Armand har aldrig gentaget sig selv i sit liv. Hvor andre oplever et sind, der katalogiserer ethvert træk, ser han et, som aldrig vil have nok information om ham; hvor andre følger regler, holder han sig foran dem."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana er måske nok en af de yngre kommandører, men hun følger ikke i hælene på nogen. Hun aflæser slagmarken som et kort, og får den til at følge hendes vilje. Von Krieger har bygget en maskine, der beregner det mest sandsynlige træk, så Jana planlægger det, den ikke har tænkt på at forudsige. Moderne teknologi, skarpe instinkter og modet til at gøre det, som ikke står i manualen. Sådan lærer du en maskine ydmyghed."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Trænede evner"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Skaberen"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "Kommandør på %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "Nødvendig for at gå i kamp i Blitzträger auf E 110."
+
+msgid "ticketTooltip/quantity"
+msgstr "Tilgængelig"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 nøgle = 1 kamp i Blitzträger auf E 110."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Kan modtages for fuldførelse af daglige eventmissioner, eller købes i særlige pakker i butikken, indtil slutningen af eventet."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Sådan modtager du"
+
+msgid "ticketTooltip/title"
+msgstr "Nøgle"
+
+msgid "tooltips/commander/description"
+msgstr "Pakker med unikke mandskabsmedlemmer er tilgængelige i butikken"
+
+msgid "tooltips/commander/title"
+msgstr "Belønninger"
+
+msgid "tooltips/completed"
+msgstr "ALLE STADIER FULDFØRT!"
+
+msgid "tooltips/currentStage"
+msgstr "Nuværende stadie"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil opleve problemer med grafikken og køretøjets bevægelser. Det er også sandsynligt at klienten vil crashe."
+
+msgid "tooltips/high_risk/title"
+msgstr "Lav ydeevne"
+
+msgid "tooltips/informative/subtitle"
+msgstr "I tilfælde af utilstrækkelig ydeevne, prøv at reducere grafikindstillingerne."
+
+msgid "tooltips/informative/title"
+msgstr "Denne kamptype kræver høj ydeevne af computeren"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Klik for at åbne listen over tilgængelig kamptyper."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Vælg kamptype"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du vil opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafikindstilling i indstillingerne."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Reduceret ydeevne"
+
+msgid "tooltips/stageAwards"
+msgstr "Stadiebelønninger"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "Eventet slutter om {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: Genesis"
+
+msgid "ttx/accuracy"
+msgstr "Præcision"
+
+msgid "ttx/aoe"
+msgstr "Skade i effektområde"
+
+msgid "ttx/armor"
+msgstr "Panser"
+
+msgid "ttx/description/accuracy"
+msgstr "Et sæt parametre, der viser den overordnede effektivitet ved beskydning af fjenden."
+
+msgid "ttx/description/aoe"
+msgstr "Evnen til at ramme flere fjender på samme tid."
+
+msgid "ttx/description/armor"
+msgstr "Tykkelse på skrog- og tårnpanser."
+
+msgid "ttx/description/dpm"
+msgstr "Gennemsnitlig skade uddelt af en granat efter en panserbrydende træffer."
+
+msgid "ttx/description/durability"
+msgstr "Antal af køretøjs hp."
+
+msgid "ttx/description/energy"
+msgstr "Køretøjets massive skjold og den enorme ildkraft kræver en stor tilførsel af energi, der leveres af adskillige generatorer i felten."
+
+msgid "ttx/description/general"
+msgstr "Et alsidigt køretøj med gennemsnitlige styrker."
+
+msgid "ttx/description/magazine"
+msgstr "En type ladesystem i magasin, der gør det muligt at uddele en betragtelig mængde skade over tid."
+
+msgid "ttx/description/mobility"
+msgstr "Et sæt parametre, der viser hvor hurtigt køretøjet kan skifte position på slagmarken."
+
+msgid "ttx/description/revolver"
+msgstr "En ladetype, der gør det muligt at uddele markant skade til fjender og deres moduler."
+
+msgid "ttx/dpm"
+msgstr "Skade per skud"
+
+msgid "ttx/durability"
+msgstr "Hp"
+
+msgid "ttx/energy"
+msgstr "Energikrav"
+
+msgid "ttx/general"
+msgstr "All-rounder"
+
+msgid "ttx/magazine"
+msgstr "Stort magasin"
+
+msgid "ttx/mobility"
+msgstr "Mobilitet"
+
+msgid "ttx/revolver"
+msgstr "Burst-skade"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Engineer"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Harriers"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Ingeniør"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Harriers"
+
+msgid "welcomeScreen/button"
+msgstr "Fortsæt!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Von Krieger har bygget en maskine han kalder Den Elektriske Intelligens. Den skjuler sig et sted vores kanoner ikke kan ramme. Hvert skud vi affyrer lærer den af. Men vi er ikke færdige med at uddele lektioner."
+
+msgid "welcomeScreen/description_2"
+msgstr "Tag kontrol over den legendariske Blitzträger, under kommando af Max von Krieger, i kampen mod Harriers — eller anfør en modificeret Harrier-deling og kæmp mod selveste Blitzträger!"
+
+msgid "welcomeScreen/description_3"
+msgstr "Du vil modtage værdifulde belønninger for at fuldføre fremskridtsstadier. For at fuldføre disse stadier skal du optjene tokens fra særlige eventmissioner."
+
+msgid "welcomeScreen/header_1"
+msgstr "Født af lynet"
+
+msgid "welcomeScreen/header_2"
+msgstr "At træne maskinen"
+
+msgid "welcomeScreen/header_3"
+msgstr "Fremskridt og belønninger"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: Genesis"

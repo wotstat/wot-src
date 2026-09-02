@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import logging, BigWorld
 from gui.Scaleform.daapi.view.common.battle_royale.br_helpers import canVehicleSpawnBot
 from battle_royale.gui.battle_control.controllers.progression_ctrl import IProgressionListener
@@ -16,7 +17,7 @@ class SpawnedBotMsgPlayerMsgs(IProgressionListener, IViewComponentsCtrlListener)
         self.__started = False
         return
 
-    def setVehicleChanged(self, guiVehicle, newModuleIntCD, vehicleRecreated):
+    def setVehicleChanged(self, _, newModuleIntCD, vehicleRecreated):
         vehicle = BigWorld.player().vehicle
         if not self.__initialized and vehicle and b'observer' not in vehicle.typeDescriptor.type.tags:
             self.__initialized = True

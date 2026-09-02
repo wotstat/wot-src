@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neon Dash er et unikt, tidsbegrenset event som byr på noe annerledes! Kjør løp og kjemp deg gjennom farefulle løyper, fullfør oppdrag, og tjen belønninger."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Denne modusen krever høy ytelse fra datamaskinen. Det kan hende du opplever problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+msgstr "Ytelsen på din datamaskin er ikke god nok for denne modusen. Du vil oppleve problemer med grafikk og kjøretøybevegelser. Det er også mulig at spillklienten vil krasje."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Mulig redusert ytelse"
+msgstr "Lav ytelse"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Denne modusen krever høy ytelse fra datamaskinen. Det kan hende du opplever problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Mulig redusert ytelse"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Alle nivåer"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+msgstr "Ytelsen på din datamaskin er ikke god nok for denne modusen. Du vil oppleve problemer med grafikk og kjøretøybevegelser. Det er også mulig at spillklienten vil krasje."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "Lav ytelse"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "%(icon) Lav ytelse"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "Mulig redusert ytelse"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "%(icon) Mulig redusert ytelse"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Et nytt Neon Dash oppdrag er tilgjengelig om:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Gratulerer!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Uendelig post-fremgang"
+msgstr "Trinn som kan tas om igjen"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Du fullførte hovedfremgangen"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Fullfør dette trinnet så mange ganger du kan."
+msgstr "Få så mange belønninger du kan:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Tjente poeng: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Kan tas om igjen"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "For fullførelse:"
+msgstr "For fullførelse"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "For tap:"
+msgstr "For tap"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "For seier:"
+msgstr "For seier"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Poeng:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Du har fullført alle tilgjengelige oppdrag for nå. Flere vil dukke opp i neste rotasjon."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Tilgjengelige i {{timeLeft}}"
+msgstr "Utløper om {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Tilgjengelige i {{timeLeft}}"
+msgstr "Eventet avsluttes om {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Nye oppdrag tilgjengelige i {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Unngå laserne og beregn hoppene omhyggelig for å få fart til målstre
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Pass på: Lasere og hopp"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Hvis kjøretøyet ditt setter seg fast kan du bruke \"Gå tilbake til kontrollpunkt\" for å teleportere tilbake til det siste kontrollpunktet du nådde."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Gå tilbake til kontrollpunkt"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "for å lære mer om denne modusen"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "kjemp din vei\ntil målstreken"
+msgstr "Kjemp deg frem til målstreken"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Alle nivåer"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og andre problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Denne modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense øyeblikk."
+msgstr "Ytelsen på din datamaskin er ikke god nok for denne modusen. Du vil oppleve problemer med grafikk og kjøretøybevegelser. Det er også mulig at spillklienten vil krasje."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "Lav ytelse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "%(icon) Lav ytelse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og andre problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Denne modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense øyeblikk."
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "Mulig redusert ytelse"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+msgstr "%(icon) Mulig redusert ytelse"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "NEON DASH"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Kjemp og kjør gjennom farlige løyper, fullfør oppdrag og tjen belønninger."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon Dash"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "NEON DASH"

@@ -880,6 +880,12 @@ msgstr "Ekstra bæltsegmenter, klasse 3"
 msgid "gun_balancing_1/name"
 msgstr "Kanonbalancering (type 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Kanonbalancering (type 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Kanonløbsmodifikation (type 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Forbedret affjedring (type 1)"
 msgid "improved_suspension_2/name"
 msgstr "Forbedret affjedring (type 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Forbedret tårndrev (type 1)"
+
 msgid "inspire/longDescr"
 msgstr "Forbedrer mandskabets ydeevne på køretøjet og alle allierede indenfor en bestemt radius, tilføjer en % bonus til primær kvalifikation på hvert mandskab. En spiller, som påfører den, vil modtage en forbedret effekt."
 
@@ -1294,6 +1303,9 @@ msgstr "Øget mobilitetssystem T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Øget mobilitetssystem T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Mundingsflammeskjuler (type 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Forøger midlertidigt dit køretøjs motorkraft med %(enginePowerFactor)s og dets tophastighed med %(maxSpeedFactor)s gange i %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Om {colorTagOpen}%(delay)d s{colorTagClose}, vil det valgte område bli
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artilleribeskydning"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Efter en kort pause vil en lysbombe oplyse det valgte område. Fjendtlige køretøjer fanget i dens radius vil forblive opdaget og tage forøget skade.\nObservationsposten kan genindtages efter få minutter."
+
+msgid "poi_illumination_flare/name"
+msgstr "Lysbombe"
 
 msgid "poi_radar/descr"
 msgstr "Ved aktivering vil alle fjendtlige køretøjer forblive opdagede i {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Let skrog"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Let\nskrog"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Anti-refleks belagt optik"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Anti-refleks belagte forlygter"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Anti-refleks\nbelagt optik"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Anti-refleks\nbelagte forlygter"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Eksternt observationsudstyr"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrisk periskopmotor"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Eksternt\nobservationsudstyr"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrisk\nperiskopmotor"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramisk triplex"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramisk\ntriplex"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramisk triplex"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Snævert-vinklet observationsudstyr"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Snævert-vinklet\nobservationsudstyr"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nye sigtehjul"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nye sigtehjul"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrisk periskopmotor"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrisk\nperiskopmotor"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Generel øget holdbarhed"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Generel øget\nholdbarhed"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Anti-refleks belagte forlygter"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Anti-refleks\nbelagte forlygter"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Finjustering af udsmider"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Finjustering af udsmider"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Nye kabler til strømforsyning"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Nye kabler til\nstrømforsyning"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Forbedret projektilrifling"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Forbedret\nprojektilrifling"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Følsom optik"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Følsom optik"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Forstærket primær struktur"
@@ -2424,6 +2490,9 @@ msgstr "Elektrisk udladning"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Skaber en zone, hvor en serie på %(thunderCount)s elektriske udladninger rammer med høj frekvens. Hver udladning uddeler {whiteSpanish_Open}%(damage)s hp skade{whiteSpanish_Close} og reducerer midlertidigt hvert fjendtligt køretøjs mobilitet i evnens effektområde.\n\n*Der er en forsinkelse på %(delay)s s mellem evnens aktivering og den første udladning. Den negative effekt kan fjernes med et reparationssæt."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Udskiftede torsionsstænger (type 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Skaber et område, der reducerer mobilitet med %(vehicleMaxSpeed)s i %(duration)s s, og forøger kanonens lade- og sigtetid med %(gunReloadTime)s for alle fjendtlige køretøjer i området."

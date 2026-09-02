@@ -298,8 +298,26 @@ msgstr "Podnosi zwiększenie mocy silnika od dopalaczy o {colorTagOpen}{value}%
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Zwiększa maksymalną liczbę wykorzystania dopalaczy w jednej bitwie o {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Skraca początkowy czas przygotowania przed użyciem IRST o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Skraca czas przygotowania przed ponownym użyciem IRST o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Skraca czas, przez który Twój pojazd jest widoczny dla przeciwników po ich wykryciu za pomocą IRST, o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Wydłuża czas trwania skanowania IRST o {colorTagOpen}{value0} s{colorTagClose} i dodatkowo zwęża sektor skanowania o {colorTagOpen}{value1} st.{colorTagClose}, zwiększa jego zasięg widzenia o {colorTagOpen}{value2}%{colorTagClose} i zmniejsza maskowanie poruszających się pojazdów o {colorTagOpen}{value3}%{colorTagClose}, a pojazdów ukrytych za roślinnością o {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Zmniejsza ryzyko zranienia członków załogi w przypadku uszkodzenia pojazdu."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Zwiększa penetrację po trafieniu bez przebicia o {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Zwiększa uszkodzenia po trafieniu penetrującym o {colorTagOpen}{value}%{colorTagClose}"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Zmniejsza rozrzut działa, gdy działo jest uszkodzone."
@@ -460,6 +478,18 @@ msgstr "Skraca czas przeładowania pomiędzy pociskami w magazynku działa."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Zmniejsza szansę na zostanie wykrytym przez pojazdy przeciwnika podczas ostrzału."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Skraca czas przygotowania ładowania, gdy magazynek nie jest pełny, {colorTagOpen}o {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Skraca czas przygotowania ładowania, gdy magazynek jest pełny, {colorTagOpen}o {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Skraca czas przyspieszonego ładowania pocisku {colorTagOpen}o kolejne {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Zwiększa liczbę ładunków dostępnych na początku bitwy {colorTagOpen}o {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Skraca opóźnienie schładzania działa o {colorTagOpen}{value} s.{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Zmniejsza ilość ciepła generowanego przez działo podczas strzału o�
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Zwiększa prędkość schładzania działa o {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Skraca czas przeładowania współosiowej wyrzutni rakiet o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Skraca czas przeładowania współosiowej wyrzutni rakiet o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Skraca czas przeładowania współosiowej wyrzutni rakiet o {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Zwiększa uszkodzenia od rakiet o {colorTagOpen}{value} PW{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Zwiększa uszkodzenia zadawane pociskami innymi niż OB."
@@ -547,6 +589,18 @@ msgstr "Zmniejsza rozrzut działa o {colorTagOpen}{value}%{colorTagClose} w tr
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Zmniejsza czas przeładowania działa o {colorTagOpen}{value}%{colorTagClose} w trybie bunkra."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Zwiększa maksymalną prędkość jazdy do przodu w trybie EAF o {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Zwiększa uszkodzenia zadawane pociskami specjalnymi w trybie EAF o {colorTagOpen}{value} PW{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Zwiększa uszkodzenia zadawane pociskami standardowymi w trybie EAF o {colorTagOpen}{value} PW{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Skraca czas przeładowania działa w trybie EAF o {colorTagOpen}{value}%{colorTagClose} (z wyjątkiem OB)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Zwiększa punkty wytrzymałości zbiornika paliwa i silnika Twojego pojazdu."
 
@@ -555,6 +609,9 @@ msgstr "Zmniejsza karę za uszkodzone magazyn amunicji i silnik."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Zwiększa uszkodzenia Twoich pocisków zadawane modułom pojazdów przeciwnika."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Skraca czas potrzebny na przełączanie pomiędzy trybami ostrzału o {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Umożliwia skonfigurowanie alternatywnego zestawu amunicji i materiałów eksploatacyjnych."
@@ -742,6 +799,18 @@ msgstr "Optymalizacja rdzenia"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Powiększony magazyn dopalaczy"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Zmodyfikowany zapalnik podgrzewacza"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Wysokowydajne chłodzenie cieczą"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optyka o niskiej dywergencji"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Współbieżne chłodzenie cieczą"
+
 msgid "tooltips/title/chassisHP"
 msgstr "PW zawieszenia"
 
@@ -750,6 +819,12 @@ msgstr "Szybkość naprawy zawieszenia"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Ochrona załogi"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Regulowany nastawnik zapalnika: Penetracja"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Regulowany nastawnik zapalnika: Uszkodzenia"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Sytuacyjny rozrzut działa"
@@ -928,6 +1003,18 @@ msgstr "Czas przeładowania magazynka wewnętrznego"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Maskowanie po strzale"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Uzwojenie wirnika o wysokiej czystości"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktywne chłodzenie wirnika"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Wysokoprzewodząca obudowa stojana"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Uzwojenie ortocykliczne"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Niskotemperaturowy płyn chłodniczy"
 
@@ -936,6 +1023,18 @@ msgstr "Dobrze przewodząca obudowa termiczna"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optymalizacja duktów grzejnych"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optymalizacja cyklu ładowania"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optymalizacja cyklu ładowania"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optymalizacja cyklu ładowania"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Ulepszony układ głowicy bojowej"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Uszkodzenia pocisków innych niż OB"
@@ -1018,6 +1117,18 @@ msgstr "Precyzyjnie wyważony wirnik"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Taran z napędem hydraulicznym"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Ulepszone amortyzatory zawieszenia"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Zmodyfikowane specjalne pociski scalone"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Zmodyfikowane standardowe pociski scalone"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Zoptymalizowany cykl ładowania ZZA"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Selektywne zwiększenie PW modułu"
 
@@ -1026,6 +1137,9 @@ msgstr "Selektywna ochrona modułu"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Uszkodzenia modułu od pocisków"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Zoptymalizowana rekalibracja"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Zestaw amunicji i materiałów eksploatacyjnych"

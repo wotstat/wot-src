@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Am deschis toate cutiile Operațiunii de Sărbători."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Felicitări!"
 
@@ -58,34 +55,10 @@ msgstr "{count}x"
 msgid "entryDesc/buySlot"
 msgstr "Poți achiziționa Cutii mari din magazinul Premium"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Cutii mari"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Cutii mici"
-
-msgid "entryDesc/questSlot"
-msgstr "Ai primit Cutii mici pentru finalizarea de misiuni."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Funcționalitatea este momentan indisponibilă. Încearcă mai târziu."
 
 msgid "entryPoint/header"
-msgstr "Cutii"
-
-msgid "entryTooltip/body/h1"
-msgstr "Achiziționează Cutii mari:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Câștigă Cutii mici:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Achiziționează cutii cu decorațiuni de Anul Nou pentru tine și prietenii tăi din magazinul Premium."
-
-msgid "entryTooltip/body/p2"
-msgstr "Acordate pentru finalizarea misiunilor Operațiunii de Sărbători."
-
-msgid "entryTooltip/header"
 msgstr "Cutii"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "încă {count} cutii"
 msgid "entryView/buyLabel"
 msgstr "ACHIZIȚIONEAZĂ CUTII"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Nu ai nici o Cutie mare în Depozit.\nAchiziționează mai multe din magazinul Premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Nu ai nici o Cutie mică.\nCâștigă mai multe în lupte."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Operațiunea de sărbători {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Recepționat!"
@@ -178,9 +139,6 @@ msgstr "Se deschid Cutiile de aprovizionare"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Adăugat"
 
-msgid "notification/ny19man"
-msgstr "Un membru de echipaj unic: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Ai primit următoarele recompense:"
 
@@ -244,36 +202,6 @@ msgstr "Un stil unic pentru"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Vezi în Garaj"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Cutii de Crăciun"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Cutii magice"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Cutii de Anul Nou"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Cutii selenare"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Colecția de Crăciun"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Colecția Magică"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Colecția de Anul Nou"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Colecția Selenară"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Cutiile conțin decorațiuni din {category} și alte recompense valoroase."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Distincţii:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Achiziționează cutii adiționale din magazinul Premium."
 
@@ -285,12 +213,6 @@ msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
 
 msgid "type/event_premium"
 msgstr "Cutie de aprovizionare Răsărit"
-
-msgid "type/newYear_premium"
-msgstr "CUTII MARI"
-
-msgid "type/newYear_usual"
-msgstr "CUTII MICI"
 
 msgid "type/wt_boss"
 msgstr "Startul Inginerului"

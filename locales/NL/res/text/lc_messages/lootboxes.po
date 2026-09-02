@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "We hebben al je Operatie Feestdagen-dozen geopend."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Gefeliciteerd!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Je kunt grote dozen kopen in de Premiumwinkel"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Grote dozen"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Kleine dozen"
-
-msgid "entryDesc/questSlot"
-msgstr "Je ontvangt kleine dozen voor het voltooien van missies."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Deze functie is tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."
 
 msgid "entryPoint/header"
-msgstr "Dozen"
-
-msgid "entryTooltip/body/h1"
-msgstr "Koop grote dozen:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Verdien kleine dozen:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Koop in de Premiumwinkel dozen met Nieuwjaarsdecoraties voor jezelf en je vrienden."
-
-msgid "entryTooltip/body/p2"
-msgstr "Uitgereikt voor het voltooien van Operatie Feestdagen-missies."
-
-msgid "entryTooltip/header"
 msgstr "Dozen"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "nog {count} dozen"
 msgid "entryView/buyLabel"
 msgstr "DOZEN KOPEN"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Je hebt geen grote dozen in het depot.\nKoop er meer in de Premiumwinkel."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Je hebt geen kleine dozen.\nVerdien er meer in gevechten."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Operatie Feestdagen {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Begrepen!"
@@ -178,9 +139,6 @@ msgstr "Bevoorradingskisten openen"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Toegevoegd"
 
-msgid "notification/ny19man"
-msgstr "Een uniek bemanningslid: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Je ontvangt de volgende beloningen:"
 
@@ -244,36 +202,6 @@ msgstr "Een unieke stijl voor de"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "In de garage tonen"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Kerstdozen"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magische dozen"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Nieuwjaarsdozen"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Maandozen"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Kerstcollectie"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magische collectie"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Nieuwjaarscollectie"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Maancollectie"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Dozen bevatten decoraties van de {category} en andere waardevolle beloningen."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Prijzen:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Koop meer dozen in de Premiumwinkel."
 
@@ -285,12 +213,6 @@ msgstr "Handeling is tijdelijk onbeschikbaar. Probeer het later nog eens."
 
 msgid "type/event_premium"
 msgstr "Dageraad bevoorradingskist"
-
-msgid "type/newYear_premium"
-msgstr "GROTE DOZEN"
-
-msgid "type/newYear_usual"
-msgstr "KLEINE DOZEN"
 
 msgid "type/wt_boss"
 msgstr "Ingenieur Starter"

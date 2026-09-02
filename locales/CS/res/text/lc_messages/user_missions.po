@@ -382,11 +382,56 @@ msgstr "Týdenní mise jsou sada úkolů, která je k dispozici každý týden.
 msgid "info_page/main/weekly/title"
 msgstr "Týdenní mise"
 
+msgid "pm/missionState/active"
+msgstr "Aktivní"
+
+msgid "pm/missionState/complete"
+msgstr "Mise splněny"
+
+msgid "pm/missionState/improve"
+msgstr "Zlepšení výsledku"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Zmeňte vozidlo"
+
+msgid "pm/no_missions"
+msgstr "Pro vybrané vozidlo nejsou k dispozici žádné aktivní mise"
+
+msgid "pm/tier"
+msgstr "Nevhodná úroveň"
+
+msgid "pm/unavailable"
+msgstr "Mise je dočasně nedostupná"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Pro vámi vybrané vozidlo nejsou k dispozici žádné aktivní mise. Vyberte prosím jiné vozidlo."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Tato mise je z technických důvodů dočasně nedostupná. Omlouváme se za nepříjemnosti."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Vybrané vozidlo nesplňuje požadavky na úroveň pro aktuální operace. Vyberte prosím jiné vozidlo."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Žádné aktivní mise"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Dočasně nedostupné"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Nevhodná úroveň"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Pro dnešek jsou všechny běžné mise splněny"
 
 msgid "quests/daily_quests/completed"
 msgstr "Všechny denní mise splněny"
+
+msgid "slider/title/missions"
+msgstr "Běžné mise"
+
+msgid "slider/title/personalMissions"
+msgstr "Osobní mise"
 
 msgid "tooltip/common/timer"
 msgstr "Dostupné za {{timeLeft}}"

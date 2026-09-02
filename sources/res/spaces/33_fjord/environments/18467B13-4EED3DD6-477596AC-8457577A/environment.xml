@@ -76,9 +76,9 @@
 		<enable>true</enable>
 		<adaptationSpeed>80</adaptationSpeed>
 		<bloom>
-			<enable>true</enable>
+			<pbsBloom>true</pbsBloom>
 			<threshold>0.319999993</threshold>
-			<amount>0.519999981</amount>
+			<amount>0.680000007</amount>
 			<tint>1 0.843037009 0.662419975</tint>
 			<dirtAmount>0.850000024</dirtAmount>
 		</bloom>
@@ -134,11 +134,11 @@
 		<sunBrightness>0.00999999978</sunBrightness>
 		<objectEnable>true</objectEnable>
 		<glareEnable>true</glareEnable>
-		<glareIntensity>0.720000029</glareIntensity>
+		<glareIntensity>0.5</glareIntensity>
 		<glareSize>0.00999999978</glareSize>
 		<flareIntensity>0.200000003</flareIntensity>
-		<objectThreshold>1</objectThreshold>
-		<objectFlareIntensity>0.529999971</objectFlareIntensity>
+		<objectThreshold>3.58496308</objectThreshold>
+		<objectFlareIntensity>0.300000012</objectFlareIntensity>
 		<haloEnable>true</haloEnable>
 		<sunTexture1>system/maps/psf_rgbe.dds</sunTexture1>
 		<colorTexture>system/maps/lenscolorF.dds</colorTexture>
@@ -175,6 +175,10 @@
 		<amplify>0.699999988</amplify>
 	</SSShadows>
 	<VFX>
+		<vfxModelsMultiplier>0.100000001</vfxModelsMultiplier>
+		<cpuParticlesMultiplier>0.100000001</cpuParticlesMultiplier>
+		<gpuParticlesMultiplier>0.100000001</gpuParticlesMultiplier>
+		<emissiveMaterialsMultiplier>0.100000001</emissiveMaterialsMultiplier>
 		<particlesConfigXml>system/data/particles.xml</particlesConfigXml>
 		<particlesSpaceConfigXml>spaces/33_fjord/particles.xml</particlesSpaceConfigXml>
 	</VFX>
@@ -279,4 +283,7 @@
 		<transmissionMult>0.349999994</transmissionMult>
 		<waterReflectionAttenuation>0.349999994</waterReflectionAttenuation>
 	</SimplifiedDeferred>
+	<VisibilityTunnel>
+		<shouldOverrideSettings>false</shouldOverrideSettings>
+	</VisibilityTunnel>
 </root>

@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Kibontottuk az összes Ünnepi hadművelet dobozod."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Gratulálunk!"
 
@@ -58,34 +55,10 @@ msgstr "{count}x"
 msgid "entryDesc/buySlot"
 msgstr "Vásárolhatsz nagy dobozokat a Prémium boltban"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Nagy dobozok"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Kis dobozok"
-
-msgid "entryDesc/questSlot"
-msgstr "Kis dobozokat küldetések teljesítéséért kaphatsz."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Ez a funkció átmenetileg nem elérhető. Kérjük, próbáld újra később."
 
 msgid "entryPoint/header"
-msgstr "Dobozok"
-
-msgid "entryTooltip/body/h1"
-msgstr "Nagy dobozok vásárlása:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Szerezz kis dobozokat:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Vásárolj dobozokat újévi dekorációkkal magadnak és barátaidnak a Prémium boltban."
-
-msgid "entryTooltip/body/p2"
-msgstr "Az Ünnepi hadművelet küldetéseinek teljesítéséért kapott jutalom."
-
-msgid "entryTooltip/header"
 msgstr "Dobozok"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "további {count} doboz"
 msgid "entryView/buyLabel"
 msgstr "DOBOZOK VÁSÁRLÁSA"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Nincsenek nagy dobozok a depódban.\nVegyél néhányat a Prémium boltban."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Nincsenek kis dobozaid.\nSzerezz néhányat csatákban."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Ünnepi hadművelet {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Értettem!"
@@ -178,9 +139,6 @@ msgstr "Az utánpótlásdobozok kinyitása"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Hozzáadva"
 
-msgid "notification/ny19man"
-msgstr "Egy egyedi legénységi tag: %(count)s"
-
 msgid "notification/rewards"
 msgstr "A következő jutalmakat kapod:"
 
@@ -244,36 +202,6 @@ msgstr "Egy egyedi stílus ehhez:"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Megtekintés a garázsban"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Karácsonyi dobozok"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Varázslatos dobozok"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Újévi dobozok"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Holddobozok"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Karácsonyi gyűjtemény"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Varázslatos gyűjtemény"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Újévi gyűjtemény"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Hold gyűjtemény"
-
-msgid "tooltip/category/rewards/description"
-msgstr "A dobozok {category} kategóriájú dekorációkat és egyéb értékes jutalmakat tartalmaznak."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Jutalmak:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Vásárolj további dobozokat a Prémium boltban."
 
@@ -285,12 +213,6 @@ msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később."
 
 msgid "type/event_premium"
 msgstr "Hajnal utánpótlásdoboz"
-
-msgid "type/newYear_premium"
-msgstr "NAGY DOBOZOK"
-
-msgid "type/newYear_usual"
-msgstr "KIS DOBOZOK"
 
 msgid "type/wt_boss"
 msgstr "Mérnök indító"

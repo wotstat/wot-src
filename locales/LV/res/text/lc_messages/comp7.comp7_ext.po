@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Šis režīms nav pieejams %(serverName)s serverī"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Debeszilā Pūķa sezona sākas: %(date)s"
+msgstr "Debeszilā Fēniksa sezona sākas: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Sārtā Pūķa sezona sākas: %(date)s"
+msgstr "Karmīnsarkanā Fēniksa sezona sākas: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Nefrīta Pūķa sezona sākas: %(date)s"
+msgstr "Nefrīta Fēniksa sezona sākas: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Gaidām kvalifikācijas rezultātus, lai piešķirtu tavu rangu"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Debeszilā Pūķa sezona ir beigusies"
+msgstr "Debeszilā Fēniksa sezona ir beigusies"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Sārtā Pūķa sezona ir beigusies"
+msgstr "Karmīnsarkanā Fēniksa sezona ir beigusies."
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Nefrīta Pūķa sezona ir beigusies"
+msgstr "Nefrīta Fēniksa sezona ir beigusies."
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Kaujas šajā serverī būs pieejamas pēc %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Tanka īpašības uzlabotas"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Atjauno dzīvības punktus"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Ienākošie bojājumi palielināti"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Tanka īpašības uzlabotas"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienu"
-msgstr[1] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienas"
-msgstr[2] "Debeszilā Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[0] "Debeszilā Fēniksa sezona ilgs %(days)d dienu"
+msgstr[1] "Debeszilā Fēniksa sezona ilgs %(days)d dienas"
+msgstr[2] "Debeszilā Fēniksa sezona ilgs %(days)d dienas"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Sārtā Pūķa sezona ilgs vēl %(days)d dienu"
-msgstr[1] "Sārtā Pūķa sezona ilgs vēl %(days)d dienas"
-msgstr[2] "Sārtā Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[0] "Karmīnsarkanā Fēniksa sezona ilgs %(days)d dienu"
+msgstr[1] "Karmīnsarkanā Fēniksa sezona ilgs %(days)d dienas"
+msgstr[2] "Karmīnsarkanā Fēniksa sezona ilgs %(days)d dienas"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienu"
-msgstr[1] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienas"
-msgstr[2] "Nefrīta Pūķa sezona ilgs vēl %(days)d dienas"
+msgstr[0] "Nefrīta Fēniksa sezona ilgs %(days)d dienu"
+msgstr[1] "Nefrīta Fēniksa sezona ilgs %(days)d dienas"
+msgstr[2] "Nefrīta Fēniksa sezona ilgs %(days)d dienas"
 
 msgid "calendarDay/title"
 msgstr "Grafiks"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Iemaņas"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "UZBRUKUMS. PŪĶA GADS"
+msgstr "Uzbrukums: Fēniksa gads"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nulles iemaņas"
@@ -574,11 +577,17 @@ msgstr "Sapratu!"
 msgid "intro/description/banPhase"
 msgstr "Katra komanda var pilnībā aizliegt tanku no kaujas. Saskaņojiet balsis ar sabiedrotajiem, lai izslēgtu jūsu visvairāk baidīto tehniku vai sagatavotu negaidītu sastāvu ienaidniekiem. Ja jūsu tanks ir aizliegts, varat izvēlēties no vairākiem iepriekš konfigurētiem nomas variantiem."
 
+msgid "intro/description/draw"
+msgstr "Kad taimeris beidzas un neviena komanda nav guvusi skaidru uzvaru, kaujas iznākumu nosaka papildu kritēriji šādā secībā: izdzīvojušie tanks, nodarītais bojājums un pirmais sakautais tanks. Ja neviena komanda nav nodarījusi bojājumus, kauja tiek pasludināta par neizšķirtu."
+
+msgid "intro/description/nightMaps"
+msgstr "Nakts kartes atsvaidzina pazīstamos kaujas laukus ar nakts apstākļiem, jauniem Novērošanas posteņiem, atjauninātiem intereses punktiem un pārstrādātu pamanīšanas mehāniku. Pašreizējā karšu izlase ietver Ledāju, Smilšu Upe, Priekšposteni un Stepes."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Režīmā ir modifikatori, kas maina noteiktus tanka parametrus, kā piemēram tanka dzīvības punktus, palīgmateriālu atjaunošanās laiku, atlikušo redzamības laiku un vairāk."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Kad esiet sagūstījis noteiktus kartes apgabalus, varēsiet izmantot Taktiskās Spējas. Ir divu veidu Galvenie Punkti: Artilērijas Štābs ļaus jums virzīt artilērijas triecienu noteiktā vietā, un Komunikācijas Centrs pamanīs visus pretinieka tankus. Atkarībā no kartes šo interešu punktu klātbūtne un atrašanās vieta var mainīties."
+msgstr "Kad jūs ieņemat noteiktas kartes zonas, jūs iegūsiet piekļuvi taktiskajām prasmēm. Ir divu veidu interešu punkti: Artilērijas štābs, kas ļauj izsaukt mērķētu triecienu, un Sakaru centri, kas atklāj visus ienaidnieka tankus. Šo vietu skaits un atrašanās vieta mainās no kartes uz karti."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Cīnieties %(count)s Kvalifikācijas kaujās, lai noteiktu jūsu pras
 msgstr[2] "Cīnieties %(count)s Kvalifikācijas kaujās, lai noteiktu jūsu prasmju līmeni un rangu. Pēc izpildes jūs saņemsiet balvas par sasniegto rangu un visiem iepriekšējiem rangiem.\n\nDezertēšana vai neizšķirts Kvalifikācijā tiks uzskatīta par sakāvi."
 
 msgid "intro/description/ranks"
-msgstr "Sistēma, kas atspoguļo spēlētāja prasmi. Progresē caur rangiem no Dzelzs līdz Leģenda un iegūsti vērtīgas balvas. Cīnies visa Pūķa gada laikā, lai saņemtu unikālas gada balvas."
+msgstr "Virzieties cauri rangiem no Dzelzs līdz Leģendai un nopelniet vērtīgas balvas. Cīnieties visu Fēniksa gadu, lai saņemtu unikālas gada balvas."
 
 msgid "intro/description/roleSkills"
 msgstr "Atkarībā no lomas katram tankam ir īpaša spēja ar trim uzlādes līmeņiem. Jo augstāks uzlādes līmenis, kad spēja tiek aktivizēta, jo spēcīgāks efekts. Uzlādes līmenis būs atkarīgs no nopelnītajiem Prestižā Punktiem par izcilu sniegumu cīņā, mērķu ieņemšanu, Taktisko spēju izmantošanu utt.\n\nIepazīsties ar režīma noteikumiem, lai uzzinātu vairāk par dažādiem veidiem, kā vari nopelnīt Prestižā Punktus."
@@ -597,6 +606,12 @@ msgstr "Tu vari piedalīties kaujā ar %(levels)s līmeņa pētniecības tankiem
 
 msgid "intro/title/banPhase"
 msgstr "TANKU AIZLIEGUMI"
+
+msgid "intro/title/draw"
+msgstr "NEIZŠĶIRTA NOTEIKUMI"
+
+msgid "intro/title/nightMaps"
+msgstr "Nakts kartes"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "UZBRUKUMA MODIFIKATORI"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "UZVARA TEVIS DĒĻ"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Paaugstināts uz %(rank)s"
+msgstr "Paaugstināts uz {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Vērtējums: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Pazemināts uz %(rank)s, %(division)s"
+msgstr "Pazemināts līdz {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Paaugstināts uz %(rank)s, %(division)s"
+msgstr "Paaugstināts līdz {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Aizvadītas kaujas"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Sezonas Prestiža Punktu rekords: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Debeszilā Pūķa sezona beigusies serverī: %(server)s"
+msgstr "Debeszila Fēniksa sezona ir beigusies uz %(server)s servera."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Sārtā Pūķa sezona beigusies serverī: %(server)s"
+msgstr "Karmīnsarkanā Fēniksa sezona ir beigusies uz %(server)s servera."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Nefrīta Pūķa sezona beigusies serverī: %(server)s"
+msgstr "Nefrīta Fēniksa sezona ir beigusies uz %(server)s servera."
 
 msgid "products/actions/buy"
 msgstr "Pirkt"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "UZBRUKUMS. KVALIFIKĀCIJA PABEIGTA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "UZBRUKUMS. DEBESZILĀ PŪĶA SEZONA"
+msgstr "UZBRUKUMS: DEBESZILĀ FĒNIKSA SEZONA"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "UZBRUKUMS. SĀRTĀ PŪĶA SEZONA"
+msgstr "UZBRUKUMS: KARMĪNSARKANĀ FĒNIKSA SEZONA"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "UZBRUKUMS. NEFRĪTA PŪĶA SEZONA"
+msgstr "UZBRUKUMS: NEFRĪTA FĒNIKSA SEZONA"
 
 msgid "rewardsScreen/description/year"
-msgstr "UZBRUKUMS. PŪĶA GADS"
+msgstr "UZBRUKUMS. FĒNIKSA GADS"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Kur ir mans Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Beidzas pēc %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "DEBESZILĀ PŪĶA SEZONA"
+msgstr "Debeszilā Fēniksa sezona"
 
 msgid "seasonName/second"
-msgstr "Sārtā Pūķa sezona"
+msgstr "Karmīnsarkanā Fēniksa sezona"
 
 msgid "seasonName/third"
-msgstr "Nefrīta Pūķa sezona"
+msgstr "Nefrīta Fēniksa sezona"
 
 msgid "seasonPointTooltip/header"
 msgstr "Uzbrukuma Krāsas"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Pozīcija Līderu Sarakstā: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "UZBRUKUMS. %(seasonNameUpper)s"
+msgstr "UZBRUKUMS %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Saņemts %(points)s Uzbrukuma Krāsas"
 msgstr[2] "Saņemts %(points)s Uzbrukuma Krāsas"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "I SEZONA. DEBESZILAIS PŪĶIS"
+msgstr "I SEZONA: DEBESZILS FĒNIKSS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "2. SEZONA. SĀRTAIS PŪĶIS"
+msgstr "II SEZONA: KARMĪNSARKANAIS FĒNIKSS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "3. SEZONA. NEFRĪTA PŪĶIS"
+msgstr "III SEZONA: NEFRĪTA FĒNIKSS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Uzvaras: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Šis režīms kļūs pieejams %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Debeszilais Pūķis"
+msgstr "Debeszils Fēniksa"
 
 msgid "shortSeasonName/second"
-msgstr "Sārtais pūķis"
+msgstr "Karmīnsarkanais Fēnikss"
 
 msgid "shortSeasonName/third"
-msgstr "Nefrīta pūķis"
+msgstr "Nefrīta Fēnikss"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Šī sadaļa satur informāciju par labākajiem spēlētājiem pašreizējā Uzbrukuma režīma Sezonā."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Skatīt visus"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Atbalstiet Uzbrukuma leģendu sēriju, vienlaikus palielinot balvu fondu ar turnīru komplektiem!"
+msgstr "Ja komanda, kuru izvēlējāties, uzvarēs, jūs saņemsiet unikālu zelta OLS 2026 nozīmīti. Atbalstiet savus favorītus!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Parādiet savu e-sporta garu ar ekskluzīviem tematiskajiem pielāgošanas elementiem un unikāliem tankiem!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Episkā sadursme sāksies World of Tanks čempionātā Sužou, Ķīnā, kur sīvākās komandas no visas pasaules sacentīsies pēc “Uzbrukuma” režīma noteikumiem, cīnoties par prestižo pasaules čempiona titulu. Piedzīvo satraukumu, kad kaujas laukā dzimst leģendas!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "ULS 6. Sezona"
+msgstr "OLS 7. Sezona"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Šī sezona ir tava pēdējā iespēja iegūt vērtīgas balvas, tostarp ekskluzīvo Ashbringer X līmeņa smago tanku ar visiem unikālajiem 3D stiliem, ko esi tam nopelnījis, un bezbailīgu apkalpi ar Kaujas Brāļi kā nulles priekšrocību, kā arī uzlabotu un eksperimentālo aprīkojumu izvēlei, iespaidīgu 2D stilu un vēl. Nepalaid garām—tava uzvara tevi gaida kaujaslaukā!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Izmanto Pūķa gada pēdējos mirkļus!"
+msgstr "Izmanto pēdējos Fēniksa gada mirkļus!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "NEFRĪTA PŪĶA SEZONA"
+msgstr "DEBESZILĀ FĒNIKSA SEZONA"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "UZBRUKUMS. KAS JAUNS?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Skaidrs!"
+msgstr "Atbrīvo savas liesmas!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Uzlabotais pēc kaujas rezultātu ekrāns ar jauno Atjauninājumu 2.0 dizainu tagad sniegs tev papildu ar režīmu saistītu informāciju pēc katras kaujas."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Kad taimeris beidzas un neviena komanda nav guvusi skaidru uzvaru, kaujas iznākumu nosaka papildu kritēriji šādā secībā: izdzīvojušie tanks, nodarītais bojājums un pirmais sakautais tanks. Ja neviena komanda nav nodarījusi bojājumus, kauja tiek pasludināta par neizšķirtu."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detalizēti kaujas rezultāti"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Nebaidies, ja tavs iecienītais tanks tika izslēgts. Noma tagad nāk ar iepriekš konfigurētu apkalpi, aprīkojumu, lādiņiem un patēriņa priekšmetiem."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Kaujai gatavu tanku noma %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Šajā sezonā katra komanda var pilnībā aizliegt tanku no kaujas. Saskaņojiet balsis ar sabiedrotajiem, lai izslēgtu savu visvairāk baidīto tehniku vai sagatavotu negaidītu sastāvu ienaidniekiem."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Tanku aizliegumi %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Neizšķirta nosacījumi atjaunināti {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Kartes"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Jauni Tanki Pieejami Uzbrukumā"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Versijā 2.4 ir ieviestas jaunas vieglo tanku lomas un pārbalansēti tanku raksturlielumi. Izmēģini tās kaujā!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Jaunas lomas vieglajiem tankiem {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Svaiga spēle uz pazīstamām kartēm. Izmaiņas ietver nakts apstākļus, jaunus novērošanas posteņus, jaunus POI (interesējošos punktus) un modificētu novērošanas mehāniku. Tas viss pārveido kaujas gaitu, padarot apziņu, laika plānošanu un taktisko kustību svarīgāku nekā jebkad agrāk."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Nakts kartes ir klāt! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Sakarā ar zemu spēlētāju skaitu cīņās, Super Vadi ir atspējoti. Mēs strādājam pie alternatīviem komandu spēles veidiem Uzbrukuma režīmā. Tikmēr regulāri ir pieejami 7 pret 7 turnīri."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Vairs nav super vadu {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Nomas Tanki"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Nesen izlaistais Ares 90 X līmeņa amerikāņu vidējais tanks tagad ir pieejams režīmā ar pielāgotu Lomas prasmi."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Kartes: Erlenberga ir noņemta. Novērošanas posteņi Lidostā ir pārvietoti. Nelielas izmaiņas Pilsen.\n • Tanks: VZ. 60S Dravec ir noņemts. Jauns vācu smagais tanks Kampfpanzer 67 ir pievienots."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Lomas prasmes atjauninājums %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 tagad ir pieejams iegādei Sudraba rangā Uzbrukuma veikalā."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Veikala atjauninājumi %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sezonas līdzsvara izmaiņas {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "NEIEKĻAUTS"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "I sezona. Debeszilais pūķis"
+msgstr "I SEZONA: DEBESZILS FĒNIKSS"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "II sezona. Sārtais pūķis"
+msgstr "II SEZONA: KARMĪNSARKANAIS FĒNIKSS"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "II sezona. Nefrīta pūķis"
+msgstr "III SEZONA: NEFRĪTA FĒNIKSS"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Pašreizējais"

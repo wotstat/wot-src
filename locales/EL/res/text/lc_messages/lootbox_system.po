@@ -28,6 +28,30 @@ msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΑΘΛΑ"
 msgid "awardViews/footer/backButton/"
 msgstr "Θετικόν!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Απομένουν {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Κανένα νέο άνοιγμα"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Πολύτιμο έπαθλο"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Δωρεάν Νέο Άνοιγμα"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Όχι αρκετά bonds"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Νέο Άνοιγμα για {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Νέο Άνοιγμα"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Εάν βρείτε κάποιο πολύτιμο έπαθλο δεν μπορεί να γίνει νέο άνοιγμα."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Οδηγία"
 
@@ -80,10 +104,10 @@ msgid "common/footer/checkbox"
 msgstr "Κινούμενη Προβολή Ανοίγματος"
 
 msgid "common/getButton/lowerCase"
-msgstr "Αποκτήστε Περισσότερα"
+msgstr "Περισσότερα"
 
 msgid "common/getButton/upperCase"
-msgstr "ΑΠΟΚΤΗΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ"
 
 msgid "common/infoButton"
 msgstr "Περιεχόμενα"
@@ -117,6 +141,18 @@ msgstr "Κοντέινερ που ανοίχθηκαν: %(count)"
 
 msgid "common/statsButton"
 msgstr "Στατιστικά"
+
+msgid "confirmRerollLootBox/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Θα γίνει νέο άνοιγμα του κοντέινερ για την πιθανότητα να λάβετε διαφορετικά έπαθλα."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Νέο Άνοιγμα"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Νέο Άνοιγμα για {{cost}}?"
 
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Άκυρο"
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Λήξη διοργάνωσης σε %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Εάν δεν ανοίξετε όλα τα κοντέινερ έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Εάν δεν ανοίξετε όλα τα κοντέινερ έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα για λογαριασμό σας."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε ως αντιστάθμισμα την πλήρη αξία σε gold όσων οχημάτων βρείτε στα κοντέινερ."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Σε κάθε %(guaranteed0)s κοντέινερ, θα βρείτε εγγυημένα ένα όχημα των Βαθμίδων VIII–X. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(guaranteed0)s&zwnbsp;ου κοντέινερ (ανάλογα με τον τύπο του κοντέινερ) θα λάβετε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Σε κάθε %(guaranteed)s κοντέινερ, θα βρείτε εγγυημένα ένα όχημα των Βαθμίδων VIII–X. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(guaranteed)s&zwnbsp;ου κοντέινερ (ανάλογα με τον τύπο του κοντέινερ) θα λάβετε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Αν δεν μείνετε ικανοποιημένοι με το περιεχόμενο κάποιου κοντέινερ, μπορείτε να το ανοίξετε εκ νέου κάποιες συγκεκριμένες φορές, για την πιθανότητα να λάβετε διαφορετικά έπαθλα."
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Αυτόματο Άνοιγμα"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Αντιστάθμισμα"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Εγγυημένο Έπαθλο"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Νέο Άνοιγμα"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Δείτε την πλήρη λίστα των επάθλων στο portal του παιχνιδιού"
@@ -273,6 +315,30 @@ msgstr "για %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D τεχνοτροπία %(style)"
+
+msgid "reroll/free"
+msgstr "Δωρεάν"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Οικονομική Συναλλαγή"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Κόστος σε credits: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Κόστος σε bonds: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Ημερομηνία: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Κόστος σε gold: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Η διοργάνωση «%(eventName)s» έληξε"
@@ -480,3 +546,15 @@ msgstr "Για %(count) οχήματα λάβατε αντιστάθμισμα"
 
 msgid "tooltip/compensation/notification"
 msgstr "Αντιστάθμισμα για το όχημα που ήδη έχετε στην κατοχή σας."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Νέο Άνοιγμα"
+
+msgid "tooltip/reroll/price"
+msgstr "Κόστος"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Με το νέο άνοιγμα ενός κοντέινερ διεκδικείτε την πιθανότητα να λάβετε διαφορετικά έπαθλα από την ίδια λίστα."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Νέο Άνοιγμα"

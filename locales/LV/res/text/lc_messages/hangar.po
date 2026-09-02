@@ -136,6 +136,24 @@ msgstr[0] "{{count}} uzvara"
 msgstr[1] "{{count}}uzvaras"
 msgstr[2] "{{count}}uzvaras"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Pieejams vēl {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Kaujas pieredze"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Lai atzīmētu tavu atgriešanos ierindā, mums tev ir kas īpašs: {{@ style (color #ede6d9e6)}}ikdienas Atgriešanās bonus{{/}} palielina kaujas XP, ko iegūsti par savu pirmo dienas uzvaru katrā tankā."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Sveicināti atkal, Komandieri!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonuss tiek atiestatīts katru dienu plkst. {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Pārcelšanas prēmija: Pieejama"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Noklikšķini, lai atvērtu savu tanku izlasi"
 

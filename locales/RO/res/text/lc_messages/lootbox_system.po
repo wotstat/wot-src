@@ -28,6 +28,30 @@ msgstr "RECOMPENSE OBȚINUTE"
 msgid "awardViews/footer/backButton/"
 msgstr "Recepționat!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} rămase"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Nu mai sunt redeschideri"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Recompensă valoroasă"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Redeschide gratuit"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Insuficiente bonduri"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Redeschide contra {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Redeschide"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Recompensele valoroase apărute împiedică redeschiderea."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Directivă"
 
@@ -118,6 +142,18 @@ msgstr "Cutii deschise: %(count)"
 msgid "common/statsButton"
 msgstr "Statistici"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Anulează"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Cutia va fi redeschisă pentru șansa de a obține recompense diferite."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Redeschide"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Redeschizi contra {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Anulează"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Evenimentul se va încheia în %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Dacă nu deschizi toate cutiile până la încheierea evenimentului, acestea vor fi deschise automat mai târziu."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Dacă nu deschizi cutii până la încheierea evenimentului, acestea vor fi deschise automat."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al cutiilor, toate vehiculele ulterioare obținute vor fi compensate în aur egal cu valoarea lor întreagă."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "La fiecare %(guaranteed0)s cutii, ai garanția apariției unui vehicul din generațiile VIII-X. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celei de-a %(guaranteed0)s&zwnbsp;-a cutii (în funcție de tipul cutiei) vei primi un vehicul pe care nu îl deții deja din generațiile VIII-X. Apoi, contorul va fi resetat."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "La fiecare %(guaranteed)s cutii, ai garanția apariției unui vehicul din generațiile VIII-X. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celei de-a %(guaranteed)s&zwnbsp;-a cutii (în funcție de tipul cutiei) vei primi un vehicul pe care nu îl deții deja din generațiile VIII-X. Apoi, contorul va fi resetat."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Dacă nu ești mulțumit de recompensele dintr-o cutie, o poți redeschide pentru șansa de a obține alte articole din aceeași listă. Fiecare cutie poate fi redeschisă de un număr limitat de ori:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Deschidere automată"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Compensare"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Recompensă garantată"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Se redeschide"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Afișează lista articolelor pe portalul din joc"
@@ -273,6 +315,30 @@ msgstr "pentru %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "Stilul 3D %(style)"
+
+msgid "reroll/free"
+msgstr "Gratuit"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Tranzacţie financiară"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Credite scăzute: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Bonduri scăzute: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Aur scăzut: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Evenimentul „%(eventName)s” s-a încheiat"
@@ -480,3 +546,15 @@ msgstr "Vehicule compensate: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Compensare pentru vehicul care se află deja în Garaj."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Se redeschide"
+
+msgid "tooltip/reroll/price"
+msgstr "Cost"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Redeschiderea unei cutii îți acordă șansa de a obține recompense diferite din aceeași listă."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Se redeschide"

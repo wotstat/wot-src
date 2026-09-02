@@ -142,6 +142,17 @@ class StrongholdSettings(object):
             return RESERVE_SORTIE_ORDER
         return RESERVE_STRONGHOLD_ORDER
 
+    def clearSelectedReserves(self):
+        if not self.__rawData:
+            return False
+        else:
+            reserve = self.__rawData.get(b'reserve')
+            if reserve is None or not reserve.get(b'selected_reserves'):
+                return False
+            reserve[b'selected_reserves'] = []
+            self.__setReserve()
+            return True
+
     def __validateData(self, rawData):
         for field in _OldStrongholdDataScheme:
             if field not in rawData:

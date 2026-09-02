@@ -298,8 +298,26 @@ msgstr "Ökar bonusen raketmotorn ger till motorstyrkan med {colorTagOpen}{value
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Ökar antalet gånger raketmotorn kan användas under en enda strid med {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Minskar nedkylningstiden innan IRST kan användas första gången med {colorTagOpen}{value} {colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Minskar nedkylningstiden innan IRST kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Minskar tiden din vagn är synlig för fienden efter du upptäckt en fiende med IRST med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Förlänger aktiveringstiden för IRST med {colorTagOpen}{value0} s{colorTagClose}, minskar bredden på avsökningsfältet med {colorTagOpen}{value1} {colorTagClose}, ökar siktsträckan med {colorTagOpen}{value2}%{colorTagClose} samt minskar maskeringsförmågan för vagnar i rörelse med {colorTagOpen}{value3}%{colorTagClose} och vagnar dolda av vegetation med {colorTagOpen}{value4}%{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Minskar risken att besättningsmedlemmar skadas när vagnen tar skada."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Ökar genomslagsförmågan med {colorTagOpen}{value}%{colorTagClose}efter en träff som inte slår igenom pansaret"
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Ökar skadan med {colorTagOpen}{value}%{colorTagClose} efter en träff som slår igenom pansaret"
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Minskar siktesspridningen när kanonen är skadad."
@@ -460,6 +478,18 @@ msgstr "Minskar omladdningstiden mellan granater i magasinet."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Minskar risken att upptäckas av fiendevagnar vid eldgivning."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Minskar nedkylningstiden för laddningar {colorTagOpen}med {value} s{colorTagClose} när magasinet inte är fullt."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Minskar nedkylningstiden för laddningar {colorTagOpen}med {value} s{colorTagClose} när magasinet är fullt."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Minskar den forcerade omladdningstiden {colorTagOpen}med ytterligare {value} s.{colorTagClose}"
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Ökar antalet laddningar tillgängliga vid stridens början {colorTagOpen}med {value}.{colorTagClose}"
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Minskar fördröjningen av kanonnedkylningen med {colorTagOpen}{value}{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Minskar värmen som genereras per skott med {colorTagOpen}{value}%{color
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Ökar nedkylningen av en uppvärmd kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Minskar omladdningstiden för raketvapnet med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Minskar omladdningstiden för raketvapnet med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Minskar omladdningstiden för raketvapnet med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Ökar raketens skada med {colorTagOpen}{value} träffpoäng{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Ökar skadeverkan för alla granater utom spränggranater."
@@ -547,6 +589,18 @@ msgstr "Minskar siktesspridningen med {colorTagOpen}{value}%{colorTagClose} i f�
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Minskar omladdningstiden med {colorTagOpen}{value}%{colorTagClose} i förskansningsläge."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Ökar topphastigheten när extern ammunitionskassett är aktiverad med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Ökar skadeverkan för specialammunition med {colorTagOpen}{value} träffpoäng{colorTagClose} när extern ammunitionskassett är aktiverad."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Ökar skadeverkan för standardammunition med {colorTagOpen}{value} träffpoäng{colorTagClose} när extern ammunitionskassett är aktiverad."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Minskar omladdningstiden {colorTagOpen}{value}%{colorTagClose} (undantaget spränggranater) när extern ammunitionskassett är aktiverad."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Ökar träffpoängen för vagnens bränsletank och motor."
 
@@ -555,6 +609,9 @@ msgstr "Minskar effekten av ett skadat ammunitionsställ och skadad motor."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Ökar dina granaters skadeverkan på fiendens moduler."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Minskar tiden att växla mellan olika eldlägen med {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Låter dig skapa alternativa konfigurationer med ammunition och förnödenheter."
@@ -742,6 +799,18 @@ msgstr "Optimerad kärnform"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Utökad raketlast"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifierat stand-byläge"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Högeffektiv vätskekylning"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Lågdivergensoptik"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Simultanvätsekylning"
+
 msgid "tooltips/title/chassisHP"
 msgstr "TP för upphängningen"
 
@@ -750,6 +819,12 @@ msgstr "Reparationshastighet för upphängningen"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Besättningsskydd"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Tändrörsställdon: Genomslag"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Tändrörsställdon: Skada"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Siktesspridning med skadad kanon"
@@ -928,6 +1003,18 @@ msgstr "Omladdningstid inom magasinet"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Maskering vid eldgivning"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Högkvalitativ rotorlindning"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktiv rotorkylning"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Högkonduktivt statorhus"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortocyklisk lindning"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Lågtemperaturkylvätska"
 
@@ -936,6 +1023,18 @@ msgstr "Högkonduktiv värmekåpa"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimerade värmeledningar"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Laddcykeloptimering"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Laddcykeloptimering"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Laddcykeloptimering"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Förbättrad stridsspets"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Granatskada (exkl. spränggranater)"
@@ -1018,6 +1117,18 @@ msgstr "Precisionsbalanserad rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulisk ansättare"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Förbättrad fjädring"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Särskilt anpassad specialammunition"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Särskilt anpassad standardammunition"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Kassettladdcykeloptimering"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Manuell modulförstärkning"
 
@@ -1026,6 +1137,9 @@ msgstr "Manuellt modulskydd"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Modulgranatskada"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Omkalibreringsoptimering"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Stridslast, ammunition och förnödenheter"

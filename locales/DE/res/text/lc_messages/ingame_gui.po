@@ -700,6 +700,9 @@ msgstr "Zone erobert"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Schaden durch Feuerbereich"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Verursachter Schaden"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Fahrzeug repariert"
 
@@ -741,6 +744,9 @@ msgstr "Schaden durch Treffer"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Schaden durch Feuerball"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Schaden durch Treffer"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Schaden durch Rammen"
@@ -907,6 +913,9 @@ msgstr "Kette nicht durchschlagen"
 msgid "hitMarker/wheelBlocked"
 msgstr "Rad nicht durchschlagen"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s–%(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAXIMALE FAHRZEUGSTUFE"
 
@@ -1020,6 +1029,21 @@ msgstr "Keine Reparatur benötigt: alle Module intakt."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] ist funktionsfähig, keine Reparatur erforderlich."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Nicht verfügbar: Magazin ist voll."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Nicht verfügbar: Keine Granaten mehr."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Nicht verfügbar: Keine Ladungen mehr."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Nicht verfügbar: Nachladen fast abgeschlossen."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Abfeuern von Raketen ist nicht verfügbar."
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Koaxiale Waffe konnte nicht aktiviert werden."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Sprenggranate %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Hohlladungsgeschoss %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Chance auf kritischen Treffer: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Verringert"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Erhöht"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Mittlerer Schaden: %(value)s SP"
 
@@ -2710,17 +2746,41 @@ msgstr "Schaden pro Sekunde: %(value)s SP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Schadensradius: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Voll / Einzelladung"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Normal/Modifiziert:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Voll/Einzelladung"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standard/Angepasst:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standard/kalibriert:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalisierungswinkel: %(value)s Grad"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Verlust der Durchschlagskraft: %(value)s pro 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s %%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Mittlere Durchschlagskraft: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Abprallwinkel: %(value)s Grad"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Granatengeschwindigkeit: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Betäubungsdauer: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "zum Aktivieren des EMZ-Modus."
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "zum Feuermodus wechseln"
@@ -2745,6 +2805,9 @@ msgstr "zum Aktivieren der Flüssigkeitsbooster"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr ", um Jet-Booster zu aktivieren."
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr ", um den Feuermodus umzuschalten."
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "zum Aktivieren der in Reihe geschalteten Schubdüsen"

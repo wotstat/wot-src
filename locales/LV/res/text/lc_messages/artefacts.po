@@ -880,6 +880,12 @@ msgstr "Papildus Griezēji Klase 3"
 msgid "gun_balancing_1/name"
 msgstr "Ieroča Balansēšana (Tips 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Ieroča Balansēšana (2. tips)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Ieroča stobra modifikācija (1. tips)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Uzlabota Balstiekārta (Tips 1)"
 msgid "improved_suspension_2/name"
 msgstr "Uzlabota Balstiekārta (Tips 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Uzlabota torņa piedziņa (1. tips)"
+
 msgid "inspire/longDescr"
 msgstr "Uzlabo tanka apkalpes, un visu sabiedroto noteiktā rādiusā, sniegumu, pievienojot % bonusu lielai kvalifikācijai katram apkalpes loceklim. Spēlētājs, kurš pielieto to, saņems uzlabotu efektu."
 
@@ -1294,6 +1303,9 @@ msgstr "Mobilitātes Uzlabošanas Sistēma T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Mobilitātes Uzlabošanas Sistēma T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Stobra liesmas slāpētājs (1. tips)"
+
 msgid "nitro/battleDescr"
 msgstr "Uz laiku paaugstina jūsu tanka dzinēja spēku par %(enginePowerFactor)s un tā maksimālo ātrumu %(maxSpeedFactor)s reizes uz %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "{colorTagOpen}%(delay)d s{colorTagClose} laikā izvēlētajai zonai uzb
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artilērijas Trieciens"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Pēc īsas aizkaves izvēlēto apgabalu izgaismo apgaismošanas signālraķete. Pretinieka tanki, kas atrodas tās darbības rādiusā, paliek atklāti un saņem palielinātus bojājumus.\nNovērošanas posteni pēc dažām minūtēm var ieņemt atkārtoti."
+
+msgid "poi_illumination_flare/name"
+msgstr "Gaismas uzplaiksnījums"
 
 msgid "poi_radar/descr"
 msgstr "Pēc aktivizācijas, visi pretinieku tanki paliks pamanīti uz {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Viegls Korpuss"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Viegls\nKorpuss"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Pretatstarojošās Optikas Pārklājums"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Pretatstarojošais Lukturu pārklājums"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Pretatstarojošās\nOptikas Pārklājums"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Pretatstarojošais\nLukturu pārklājums"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Ārējās Redzamības Sistēma"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Periskopa Elektriskā piedziņa"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Ārējās Redzamības\nSistēma"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Periskopa\nElektriskā piedziņa"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panorāmas Triplekss"
 
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panorāmas Triplekss"
+
+msgid "role_LT_scout_pair_5_2/name"
+msgstr "Šaurleņķa Novērošanas ierīce"
+
+msgid "role_LT_scout_pair_5_2/splitName"
+msgstr "Šaurleņķa\nNovērošanas ierīce"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Jauni Tēmēšanas pārnesumi"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Jauni Tēmēšanas pārnesumi"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Periskopa Elektriskā piedziņa"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Periskopa\nElektriskā piedziņa"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Vispārējās Izturības palielinājums"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Vispārējās izturības\npalielinājums"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Pretatstarojošais Lukturu pārklājums"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Pretatstarojošais\nLukturu pārklājums"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Izmetēja Regulēšana"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Izmetēja Regulēšana"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Barošanas avota Pārsavienošana"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Barošanas avota\nPārsavienošana"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Uzlabots Stobra vītņojums"
+
 msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panorāmas\nTriplekss"
+msgstr "Uzlabots\nStobra vītņojums"
 
 msgid "role_LT_universal_pair_5_2/name"
-msgstr "Šaurleņķa Novērošanas Ierīce"
+msgstr "Jūtīga Optika"
 
 msgid "role_LT_universal_pair_5_2/splitName"
-msgstr "Šaurleņķa\nNovērošanas Ierīce"
+msgstr "Jūtīga Optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Pastiprināta Primārā Struktūra"
@@ -2424,6 +2490,9 @@ msgstr "Elektriskā Izlāde"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Izveido zonu, kurā ar augstu frekvenci notiek virkne %(thunderCount)s elektrisko izlāžu. Katra izlāde nodara {whiteSpanish_Open}%(damage)s HP bojājumus{whiteSpanish_Close} un īslaicīgi samazina katra ienaidnieka tanka mobilitāti spējas ietekmes zonā.\n\n*Starp spējas aktivizēšanu un pirmo izlādi ir %(delay)s s aizkave. Negatīvo efektu var noņemt ar Remonta Komplektu."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Vērpes stieņu nomaiņa (1. tips)"
 
 msgid "trappoint/battleDescr"
 msgstr "Uz %(duration)s s, izveido zonu, as samazina mobilitātes parametrus par %(vehicleMaxSpeed)s, un palielina ieroča pārlādes/tēmēšanas laiku par %(gunReloadTime)s visiem pretinieku tankiem iekš tās."

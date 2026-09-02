@@ -28,6 +28,30 @@ msgstr "ПОЛУЧЕНИ НАГРАДИ"
 msgid "awardViews/footer/backButton/"
 msgstr "Тъй вярно!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "остават {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Няма повторни отваряния"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Ценна награда"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Безплатно повторно отваряне"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Недостатъчно бонове"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Отвори повторно за {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Отвори отново"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Падналите се ценни награди не подложат на повторно отваряне."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Директива"
 
@@ -118,6 +142,18 @@ msgstr "Отворени кутии: %(count)"
 msgid "common/statsButton"
 msgstr "Статистика"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Отмени"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Кутията ще се отвори отново за шанс да получите различни награди."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Отвори отново"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Отвори отново за {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Отмени"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Събитието приключва след %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Ако не отворите всички кутии преди края на събитието, те ще бъдат отворени автоматично по-късно."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Ако не отворите кутиите преди края на събитието, те ще бъдат отворени автоматично."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на кутията, тогава всички следващи машини, които получавате от кутии, ще бъдат компенсирани в злато, равно на пълната им стойност."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Всеки %(guaranteed0)s кутии гарантирано съдържат машина ниво VIII–X. Ако ги отворите без да се падне такава машина, тогава машина ниво VIII–X, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s&zwnbsp;-ата кутия (в зависимост от вида на кутията). Когато това се случи, броячът се нулира."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Всеки %(guaranteed)s кутии гарантирано съдържат машина ниво VIII–X. Ако ги отворите без да се падне такава машина, тогава машина ниво VIII–X, която още не притежавате, ще се падне, когато отворите %(guaranteed)s&zwnbsp;-ата кутия (в зависимост от вида на кутията). Когато това се случи, броячът се нулира."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Ако не сте доволни от наградите в дадена кутия, можете да я отворите отново, за да имате шанс да получите различни предмети от същия списък. Всяка кутия може да бъде отворена отново само ограничен брой пъти:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Автоматично отваряне"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Компенсация"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Гарантирана награда"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Повторно отваряне"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Вижте списък с елементи в портала на играта"
@@ -273,6 +315,30 @@ msgstr "за %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "триизмерен стил %(style)"
+
+msgid "reroll/free"
+msgstr "Безплатно"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Финансова транзакция"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Извадени кредити: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Извадени бонове: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Дата: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Извадено злато: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Събитието \"%(eventName)s\" приключи"
@@ -480,3 +546,15 @@ msgstr "Компенсирани машини: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Компенсация за машината, която вече е в Парка ви."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Повторно отваряне"
+
+msgid "tooltip/reroll/price"
+msgstr "Цена"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Повторното отваряне на кутия ви дава шанс да получите различни награди от същия списък."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Повторно отваряне"

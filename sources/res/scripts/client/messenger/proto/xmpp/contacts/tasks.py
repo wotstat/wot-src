@@ -5,7 +5,7 @@ from messenger.proto.events import g_messengerEvents
 from messenger.proto.xmpp.gloox_constants import IQ_TYPE
 from messenger.proto.xmpp.gloox_wrapper import ClientHolder
 from messenger.proto.xmpp.log_output import CLIENT_LOG_AREA as _LOG_AREA, g_logOutput
-from messenger.storage import storage_getter
+from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from shared_utils import CONST_CONTAINER
 
 class TaskResult(CONST_CONTAINER):
@@ -20,15 +20,12 @@ class TaskResult(CONST_CONTAINER):
 _ShadowPath = namedtuple(b'_ShadowPath', b'actionID, isFinal')
 
 class _Task(ClientHolder):
+    usersStorage = MessengerStorageDescriptor(UsersStorage)
     __slots__ = (b'_result',)
 
     def __init__(self):
         super(_Task, self).__init__()
         self._result = TaskResult.UNDEFINED
-        return
-
-    @storage_getter(b'users')
-    def usersStorage(self):
         return
 
     def clear(self):

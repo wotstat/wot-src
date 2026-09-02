@@ -1009,6 +1009,9 @@ msgstr "Antrenarea membrilor de echipaj a eșuat din cauza unei erori de server.
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)sx)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "sesiunea de joc curentă a fost întreruptă. Contul tău Wargaming.net&nbsp;ID a fost utilizat pentru conectare la World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Eroare la primirea cadoului: eroare de server."
+msgstr "Eroare la deschiderea cutiei: eroare de server."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Eroare la primirea cadoului. Așteaptă finalizarea operațiunii anterioare."
+msgstr "Eroare la deschiderea cutiei: te rugăm să aștepți până la finalizarea operațiunii precedente."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
@@ -2383,30 +2386,6 @@ msgstr "Camuflaj unic pentru %(vehicleName)s primit."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Camuflajul unic pentru %(vehicleName)s este disponibil pentru toate vehiculele de naționalitate: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Întreg progresul operațiunii a fost salvat. Poți relua în orice moment campaniile."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Campaniile %(campaignName1)s și %(campaignName2)s sunt suspendate"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Operațiunile suspendate și misiunile acestora au fost reluate."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Campaniile %(campaignName1)s și %(campaignName2)s au fost reluate"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Întreg progresul operațiunii a fost salvat. Poți relua în orice moment campania."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Campania %(campaignName)s a fost suspendată"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Operațiunile suspendate au fost reluate."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Campania %(campaignName)s a fost reluată"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s s-instalat cu succes."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Eroare la obținerea de recompense. Reîncearcă mai târziu."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s s-a instalat cu succes."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Eroare la obținerea de recompense. Reîncearcă mai târziu."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s s-a instalat cu succes."
 
 msgid "personalMissions/reward/regular/server_error"

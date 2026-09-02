@@ -488,22 +488,22 @@ msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
 msgstr ", "
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
-msgstr "Kalıcı bonus: %(bonuses)"
+msgstr "%(roleImage)Kalıcı bonus: %(bonuses)"
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
-msgstr "Kalıcı bonus: %(bonus)"
+msgstr "%(roleImage)Kalıcı bonus: %(bonus)"
 
 msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
-msgstr "Kalıcı bonus: %(bonus1) ve %(bonus2)"
+msgstr "%(roleImage)Kalıcı bonus: %(bonus1) ve %(bonus2)"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
-msgstr "Kalıcı bonusları elde etmek için Seviyeyi artırın: %(bonuses)"
+msgstr "%(roleImage)%(bonuses) kalıcı bonuslarını elde etmek için Seviyeyi artırın"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
-msgstr "Kalıcı bonusu elde etmek için Seviyeyi artırın: %(bonus)"
+msgstr "%(roleImage)%(bonus) kalıcı bonusunu elde etmek için Seviyeyi artırın"
 
 msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
-msgstr "%(bonus1) ve %(bonus2) kalıcı bonuslarını elde etmek için Seviyeyi artırın"
+msgstr "%(roleImage)%(bonus1) ve %(bonus2) kalıcı bonuslarını elde etmek için Seviyeyi artırın"
 
 msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
 msgstr "Seviyeyi Artır"

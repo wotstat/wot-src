@@ -382,11 +382,56 @@ msgstr "Savaitinės misijos yra kiekvieną savaitę atsinaujinančios užduotys.
 msgid "info_page/main/weekly/title"
 msgstr "Savaitinės misijos"
 
+msgid "pm/missionState/active"
+msgstr "Aktyvuota"
+
+msgid "pm/missionState/complete"
+msgstr "Misijos įvykdytos"
+
+msgid "pm/missionState/improve"
+msgstr "Rezultato pagerinimas"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Pasikeiskite mašiną"
+
+msgid "pm/no_missions"
+msgstr "Jūsų pasirinktai mašinai nėra aktyvių misijų"
+
+msgid "pm/tier"
+msgstr "Netinkamas lygis"
+
+msgid "pm/unavailable"
+msgstr "Misijos laikinai nepasiekiamos"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Su pasirinkta mašina nerasta jokių aktyvių misijų. Pasirinkite kitą mašiną."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Ši misija laikinai nepasiekiama dėl techninių priežasčių. Mes atsiprašome už nepatogumus."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Jūsų pasirinkta mašina nėra tinkamo lygio pasirinktai operacijai. Pasirinkite kitą mašiną."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Jokių aktyvių misijų"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Laikinai nepasiekiama"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Netinkamas lygis"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Visos reguliarios šiandienos misijos įvykdytos"
 
 msgid "quests/daily_quests/completed"
 msgstr "Visos kasdienės misijos įvykdytos"
+
+msgid "slider/title/missions"
+msgstr "Įprastos misijos"
+
+msgid "slider/title/personalMissions"
+msgstr "Asmeninės misijos"
 
 msgid "tooltip/common/timer"
 msgstr "Pasiekia po {{timeLeft}}"

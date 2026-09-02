@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Razumijem!"
 
 msgid "error/description"
-msgstr "Informacija je privremeno nedostupna. Ispričavamo se na neugodnosti. Molim, pokušajte ponovo kasnije."
+msgstr "Ispričavamo se na neugodnosti. Molim, pokušajte ponovo kasnije."
 
 msgid "error/title"
-msgstr "Nije moguće otvoriti odabir nagrade"
+msgstr "Ova stranica je privremeno nedostupna"
 
 msgid "footer/closeBtn/label"
 msgstr "Odaberi kasnije"
@@ -23,7 +23,7 @@ msgstr[1] "Odaberite nagrade iz danih kategorija."
 msgstr[2] "Odaberite nagrade iz danih kategorija."
 
 msgid "footer/okBtn/label"
-msgstr "Zatraži"
+msgstr "Zatraži nagrade"
 
 msgid "footer/rewardsSelected"
 msgstr "Odabrane nagrade:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Već primljeno"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Dosegnuta je granica odabranih predmeta u ovoj kategoriji. Možete otkazati odabir jednog predmeta kako bi dodali drugi."
+msgstr "Dosegli ste maksimalni dozvoljeni broj predmeta u ovoj kategoriji. Poništite odabir jednog predmeta da bi odabrali drugi."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Granica dosegnuta"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Smjernice\nza opremu"
@@ -93,6 +93,9 @@ msgstr "Standardna oprema"
 
 msgid "tabs/items/trophy"
 msgstr "Nagradna oprema"
+
+msgid "tooltips/footer/body"
+msgstr "Odaberite nagrade da biste ih preuzeli"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Kliknite gumb Potražuj za primitak odabranih nagrada."

@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Avattaessa näistä laatikoista saattaa saada vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
+msgstr "Avattaessa näistä laatikosita saattaa saada tason VIII premium-vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Avattaessa näistä laatikoista saattaa saada vaunuja, pelinsisäisiä valuuttoja, muokkauselementtejä ja muita arvokkaita palkintoja."
+msgstr "Avattaessa näistä laatikosita saattaa saada harvinaisia tason X vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Avattaessa näistä laatikoista saattaa saada vaunuja, pelinsisäisiä valuuttoja, muokkauselementtejä ja muita arvokkaita palkintoja."
+msgstr "Avattaessa näistä laatikosita saattaa saada tason IX premium-vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Voidaan hankkia pelinsisäisestä Kaupasta ja saada avaamalla minkä hyvänsä laisia muita laatikoita."
+msgstr "Voidaan saada lahjaksi tavaroita ostettaessa Premium-kaupasta sekä avaamalla minkä hyvänsä laisia muita laatikoita."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Voidaan saada avaamalla minkä hyvänsä laisia muita laatikoita."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Voidaan saada avaamalla minkä hyvänsä laisia muita laatikoita."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Palkkioiden saalislaatikko"
+msgstr "Taivaallinen saalislaatikko"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Hyödyn saalislaatikko"
+msgstr "VALITTU SAALISLAATIKKO"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Lahjoitusten saalislaatikko"
+msgstr "Taivaallisen avun saalislaatikko"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "PALKKIOIDEN SAALISLAATIKKO"
+msgstr "TAIVAALLINEN SAALISLAATIKKO"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "HYÖDYN SAALISLAATIKKO"
+msgstr "VALITTU SAALISLAATIKKO"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "LAHJOITUSTEN SAALISLAATIKKO"
+msgstr "TAIVAALLISEN AVUN SAALISLAATIKKO"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Nämä ovat erikoislaatikoita, jotka sisältävät uusia ja ainutlaatuisia tavaroita. Niitä voi hankkia pelinsisäisestä Kaupasta."
+msgstr "Nämä ovat erikoislaatikoita, jotka sisältävät uusia ja ainutlaatuisia tasojen VIII–X vaunuja ja muita palkintoja.\nVoit saada laatikoita lahjaksi tavaroiden ostamisesta Premium-kaupasta skeä avaamailla minkä hyvänsä laisia muita laatikoita."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Tapahtuman päättymiseen"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Laatikoita ei voi tällä hetkellä avata tai ostaa teknisten syiden tähden. Pahoittelemme väliaikaista haittaa."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Jumalan siunausten laatikot eivät ole väliaikaisesti saatavilla"
 
 msgid "eventName/lowerCase"
-msgstr "Kuiskausten holvi"
+msgstr "Jumalan siunaukset"
 
 msgid "eventName/upperCase"
-msgstr "KUISKAUSTEN HOLVI"
+msgstr "JUMALAN SIUNAUKSET"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Jos omistat jo kaikki vaunut, saat sen sijaan hyödyn saalislaatikon."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Mikäli et avaa kaikkia laatikoita ennen tapahtuman päättymistä, ne avataan automaattisesti myöhemmin."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Mikäli omistat jo kaikki vaunut laatikoista, saat vaunun sijaan palkinnoksi hyödyn laatikon."
+msgstr "Mikäli omistat jo kaikki vaunut laatikosta, saat Valitun saalislaatikon takuupalkintona tai löytyneen vaunun sijaan."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Joka %(guaranteed0)s. palkkioiden-, %(guaranteed1)s. lahjoitusten ja %(guaranteed2)s. hyödyn saalislaatikko sisältävät taatusti vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen vaunun, jota et vielä omista, kun avaat %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. laatikon (laatikosta riippuen). Kun näin käy, laskuri nollautuu."
+msgstr "Joka %(guaranteed0)s. taivaallinen, %(guaranteed1)s. taivaallisen avun ja %(guaranteed2)s. Valittu saalislaatikko sisältävät taatusti tason VIII-X vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII-X vaunun, jota et vielä omista, kun avaat %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. laatikon (laatikosta riippuen). Kun näin käy, laskuri nollautuu."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Hyvitys"
+msgstr "Jos kaikki vaunut on saatu"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Taattu palkinto"
+msgid "infoPage/header/description"
+msgstr "Avaa laatikoita saadaksesi mahdollisuuden saada arvokkaita pelinsisäisiä tavaroita!\nAlta näet listan mahdollisista palkinnoista."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Saada voi vain yhden palkinnon per ryhmä"
+msgid "noBoxesView/description/"
+msgstr "Sinulla ei ole laatikoita.\nVoit saada niitä Premium-kaupasta."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Valittu saalislaatikko"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Mikäli omistat jo kaikki vaunut laatikosta, saat Valitun saalislaatikon takuupalkintona vaunun sijaan."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "TAIVAALLINEN SAALISLAATIKKO"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Valittu saalislaatikko"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Taivaallisen avun saalislaatikko"

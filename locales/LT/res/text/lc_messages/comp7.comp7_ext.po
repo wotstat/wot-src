@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Žydrojo Drakono sezonas prasideda: %(date)s"
+msgstr "Žydrojo Fenikso sezono pradžia: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Kruvinojo Drakono sezonas prasideda: %(date)s"
+msgstr "Kruvinojo Fenikso sezono pradžia: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Nefrito Drakono sezonas prasideda: %(date)s"
+msgstr "Nefrito Fenikso sezono pradžia: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Laukiama kvalifikacijos rezultatų, pagal kuriuos suteiksime rangą"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Žydrojo Drakono sezonas baigėsi"
+msgstr "Žydrojo Fenikso sezonas baigėsi"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Kruvinojo Drakono sezonas baigėsi"
+msgstr "Kruvinojo Fenikso sezonas baigėsi"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Nefrito Drakono sezonas baigėsi"
+msgstr "Nefrito Fenikso sezonas baigėsi"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Mūšiai šiame serveryje vyks po %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Pagerintos mašinos charakteristikos"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Patvarumo taškų atstatymas"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Padidinta gaunama žala"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Pagerintos mašinos charakteristikos"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Žydrojo Drakono sezonas tęsis %(days)d dieną"
-msgstr[1] "Žydrojo Drakono sezonas tęsis %(days)d dienas"
-msgstr[2] "Žydrojo Drakono sezonas tęsis %(days)d dienų"
+msgstr[0] "Žydrojo Fenikso sezonas tęsis dar %(days)d dieną"
+msgstr[1] "Žydrojo Fenikso sezonas tęsis dar %(days)d dienas"
+msgstr[2] "Žydrojo Fenikso sezonas tęsis dar %(days)d dienų"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Kruvinojo Drakono sezonas tęsis %(days)d dieną"
-msgstr[1] "Kruvinojo Drakono sezonas tęsis %(days)d dienas"
-msgstr[2] "Kruvinojo Drakono sezonas tęsis %(days)d dienų"
+msgstr[0] "Kruvinojo Fenikso sezonas tęsis dar %(days)d dieną"
+msgstr[1] "Kruvinojo Fenikso sezonas tęsis dar %(days)d dienas"
+msgstr[2] "Kruvinojo Fenikso sezonas tęsis dar %(days)d dienų"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Nefrito Drakono sezonas tęsis %(days)d dieną"
-msgstr[1] "Nefrito Drakono sezonas tęsis %(days)d dienas"
-msgstr[2] "Nefrito Drakono sezonas tęsis %(days)d dienų"
+msgstr[0] "Nefrito Fenikso sezonas tęsis dar %(days)d dieną"
+msgstr[1] "Nefrito Fenikso sezonas tęsis dar %(days)d dienas"
+msgstr[2] "Nefrito Fenikso sezonas tęsis dar %(days)d dienų"
 
 msgid "calendarDay/title"
 msgstr "Tvarkaraštis"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Įgūdžiai"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Prasiveržimas. Drakono metai"
+msgstr "Prasiveržimas: Fenikso metai"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nuliniai įgūdžiai"
@@ -574,11 +577,17 @@ msgstr "Tikrai taip!"
 msgid "intro/description/banPhase"
 msgstr "Kiekviena komanda gali uždrausti pasirinkti kurią nors mašiną mūšyje. Tarkitės su komandos nariais ir uždrauskite pačią grėsmingiausią mašiną arba paruoškite priešams netikėtą staigmeną. Jei jūsų mašina yra uždrausta, galite išsinuomoti paruoštą mašiną."
 
+msgid "intro/description/draw"
+msgstr "Jei pasibaigus laikui nė viena komanda dar neiškovojo aiškios pergalės, mūšio baigtis bus nuspręsta pagal šiuos kriterijus tokia tvarka: išgyvenusios mašinos, padaryta žala ir pirma sunaikinta mašina. Jei nė viena komanda nepadarė žalos kitai, skelbiamos lygiosios."
+
+msgid "intro/description/nightMaps"
+msgstr "Naktiniuose žemėlapiuose galėsite išbandyti mūšio laukus nakties metu, pamatyti naujus apžvalgos postus, atnaujintus svarbius taškus ir kitaip aptikti priešus. Dabar esame paruošę šiuos žemėlapius: Ledynas, Smėlio upė, Sargybos postas ir Stepės."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Režimas turi modifikatorius, kurie gali pakeisti tam tikrus mašinos parametrus, tokius kaip mašinos patvarumas, ekipuotės atstatymo laikas, laikas, per kurį išliekate matomu, ir daugiau."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Užėmus specialias žemėlapio zonas, galėsite pasinaudoti taktiniais įgūdžiais. Yra dviejų tipų svarbūs taškai: artilerijų štabas jums leis tiesioginį artilerijos smūgį specifinėje žemėlapio pozicijoje, bei komunikacijų centras pastebės visas priešų mašinas. Priklausomai nuo žemėlapio, svarbių taškų buvimas ir jų vieta gali keistis."
+msgstr "Užgrobę tam tikrus žemėlapio taškus galėsite naudoti taktinius gebėjimus. Svarbūs taškai būna dviejų tipų: artilerijų štabas, kuris leis smogti į konkrečią mūšio lauko vietą, ir komunikacijų centras, kuris pastebės visas priešų mašinas. Skirtinguose žemėlapiuose šių svarbių taškų skaičius skiriasi."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Sužaiskite %(count)s kvalifikacinių mūšių ir nustatykite savo ly
 msgstr[2] "Sužaiskite %(count)s kvalifikacinių mūšių ir nustatykite savo lygį ir rangą. Užbaigę kvalifikaciją gausite pasiekto ir ankstesnių rangų prizus.\n\nDezertyravimas ar lygiosios bus vertinami kaip pralaimėjimas."
 
 msgid "intro/description/ranks"
-msgstr "Ši sistema atspindi žaidėjo sugebėjimus. Lipkite vis į aukštesnius rangus nuo Geležinio iki Legendos ir gaukite vertingus prizus. Visus Drakono metus dalyvaukite renginyje ir gaukite unikalių metinių prizų."
+msgstr "Kopkite rangais nuo geležinio iki legendos ir uždirbkite vertingų apdovanojimų. Kovokite Fenikso metais ir gaukite unikalių metinių apdovanojimų."
 
 msgid "intro/description/roleSkills"
 msgstr "Priklausomai nuo rolės, kiekviena mašina turi specialų įgūdį su trejais užkrovos lygiais. Kuo didesnė užkrova, tuo stipresnis bus įgūdžio efektas. Užkrovos lygis priklausys nuo surinktų prestižo taškų, kuriuos galima gauti už nuostabų pasirodymą, svarbių taškų užėmimą, taktinių įgūdžių naudojimą ir ne tik.\n\nPeržiūrėkite renginio taisykles ir sužinokite daugiau apie įvairius būdus gauti prestižo taškų."
@@ -597,6 +606,12 @@ msgstr "Jūs galite dalyvauti mūšiuose su visomis išrandamomis ar kolekcinėm
 
 msgid "intro/title/banPhase"
 msgstr "MAŠINŲ UŽDRAUDIMAS"
+
+msgid "intro/title/draw"
+msgstr "LYGIŲJŲ TAIKYKLĖS"
+
+msgid "intro/title/nightMaps"
+msgstr "NAKTINIAI ŽEMĖLAPIAI"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "PRASIVERŽIMO MODIFIKATORIAI"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "PERGALĖ, BET JŪS"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Paaukštinti į rangą %(rank)s"
+msgstr "Aukštesnis rangas: {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Reitingas: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Pažeminti iki rango %(rank)s, %(division)s"
+msgstr "Žemesnis rangas: {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Paaukštinti į rangą %(rank)s, %(division)s"
+msgstr "Aukštesnis rangas: {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Mūšių skaičius"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Sezono prestižo taškų rekordas: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Žydrojo Drakono sezonas pasibaigė %(server)s serveryje."
+msgstr "%(server)s serveryje Žydrojo Fenikso sezonas pasibaigė."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Kruvinojo Drakono sezonas pasibaigė %(server)s serveryje."
+msgstr "%(server)s serveryje Kruvinojo Fenikso sezonas pasibaigė."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Nefrito Drakono sezonas pasibaigė %(server)s serveryje."
+msgstr "%(server)s serveryje Nefrito Fenikso sezonas pasibaigė."
 
 msgid "products/actions/buy"
 msgstr "Pirkti"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "PRASIVERŽIMAS. KVALIFIKACIJA BAIGTA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "PRASIVERŽIMAS. ŽYDROJO DRAKONO SEZONAS"
+msgstr "PRASIVERŽIMAS: ŽYDROJO FENIKSO SEZONAS"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "PRASIVERŽIMO KRUVINOJO DRAKONO SEZONAS"
+msgstr "PRASIVERŽIMAS: KRUVINOJO FENIKSO SEZONAS"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "PRASIVERŽIMAS NEFRITO DRAKONO SEZONAS"
+msgstr "PRASIVERŽIMAS: NEFRITO FENIKSO SEZONAS"
 
 msgid "rewardsScreen/description/year"
-msgstr "PRASIVERŽIMAS. DRAKONO METAI"
+msgstr "PRASIVERŽIMAS. FENIKSO METAI"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Kur mano Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Baigiasi už %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Žydrojo Drakono sezonas"
+msgstr "Žydrojo Fenikso sezonas"
 
 msgid "seasonName/second"
-msgstr "Kruvinojo Drakono sezonas"
+msgstr "Kruvinojo Fenikso sezonas"
 
 msgid "seasonName/third"
-msgstr "Nefrito Drakono sezonas"
+msgstr "Nefrito Fenikso sezonas"
 
 msgid "seasonPointTooltip/header"
 msgstr "Prasiveržimo spalvos"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Vieta reitinge: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "PRASIVERŽIMAS. %(seasonNameUpper)s"
+msgstr "PRASIVERŽIMAS %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Gautos %(points)s Mantikoros spalvos"
 msgstr[2] "Gauta %(points)s Mantikoros spalvų"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "I SEZONAS: ŽYDRASIS DRAKONAS"
+msgstr "I SEZONAS: ŽYDRASIS FENIKSAS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "II SEZONAS: KRUVINASIS DRAKONAS"
+msgstr "II SEZONAS: KRUVINASIS FENIKSAS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "III SEZONAS: NEFRITO DRAKONAS"
+msgstr "III SEZONAS: NEFRITO FENIKSAS"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Pergalės: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Režimas bus pasiekiamas %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Žydrasis Drakonas"
+msgstr "Žydrasis Feniksas"
 
 msgid "shortSeasonName/second"
-msgstr "Kruvinasis Drakonas"
+msgstr "Kruvinasis Feniksas"
 
 msgid "shortSeasonName/third"
-msgstr "Nefrito Drakonas"
+msgstr "Nefrito Feniksas"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Šioje skiltyje yra informacija apie geriausius šio sezono Prasiveržimo režimo žaidėjus."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Pamatyti visus"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Parodykite paramą Prasiveržimo legendų taurei ir padidinkite prizinį fondą su turnyro rinkiniais!"
+msgstr "Jei jūsų pasirinkta komanda nugalės, gausite unikalų 2026 OLS ženkliuką. Palaikykite savo favoritus!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Parodykite savo nusiteikimą esportui su ypatingais pritaikomaisiais elementais ir unikaliais tankais!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Neužmirštamos kovos vyks World of Tanks tarptautiniame čempionate, Sudžou, Kinijoje, kur geriausios viso pasaulio komandos susikaus pagal Prasiveržimo taisykles dėl prestižinio pasaulio čempiono titulo. Pamatykite kaip mūšio lauke užgimsta legendos!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "PLT 6 sezonas"
+msgstr "OLS 7 sezonas"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Šis sezonas yra paskutinė proga jums pasiimti puikiausių apdovanojimų, tarp kurių yra ypatingas X lygio sunkusis tankas Ashbringer su visais jo unikaliais 3D stiliais ir bebaime įgula su nuliniais įgūdžiais Ginklo broliai, daug pasirenkamos pagerintos ir eksperimentinės įrangos, puikiai atrodantis 2D stilius ir daugiau. Nepraleiskite — mūšio lauke nusimato jūsų pergalė!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Pasinaudokite paskutinėmis Drakono metų akimirkomis!"
+msgstr "Pasinaudokite paskutinėmis Fenikso metų akimirkomis!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "NEFRITO DRAKONO SEZONAS"
+msgstr "ŽYDROJO FENIKSO SEZONAS"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "PRASIVERŽIMAS. KAS NAUJO?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Nuostabu!"
+msgstr "Užkurkite savo liepsną!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Atnaujintas mūšio rezultatų langas su 2.0 atnaujinimo dizainus dabar jums po mūšio suteiks daugiau su režimu susijusios informacijos."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Jei pasibaigus laikui nė viena komanda dar neiškovojo aiškios pergalės, mūšio baigtis bus nuspręsta pagal šiuos kriterijus tokia tvarka: išgyvenusios mašinos, padaryta žala ir pirma sunaikinta mašina. Jei nė viena komanda nepadarė žalos kitai, skelbiamos lygiosios."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detalesni mūšio rezultatai"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Nesijaudinkite, jei jūsų mėgstamiausia mašina uždrausta. Nuomojamos mašinos dabar suteikiamos su įgula, įranga, sviediniais ir ekipuote."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Mūšiui paruošta nuoma %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Šį sezoną komanda gali visiškai uždrausti naudoti mašiną mūšyje. Tarkitės su komandos nariais ir uždrauskite pačią grėsmingiausią mašiną arba paruoškite priešams netikėtą staigmeną."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Mašinų uždraudimas %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Atnaujintos lygiųjų sąlygos {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Žemėlapiai"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Prasiveržime jūsų laukia naujos mašinos"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Su 2.4 versija pasirodo naujos lengvųjų tankų rolės ir atnaujintos mašinų charakteristikos. Išbandykite jas mūšyje!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Naujų rolių lengvieji tankai {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nauji išbandymai pažįstamuose žemėlapiuose. Pristatome naktinius mūšius, naujus apžvalgos postus, į kitas vietas perstumtus svarbius taškus ir pakoreguotą priešų aptikimo sistemą. Visa tai pakeis mūšio eigą, todėl nuovokumas, judėjimas taktiškai ir tinkamu laiku dabar svarbiau, nei kada anksčiau."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Pristatome naktinius žemėlapius! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Dėl mažo žaidėjų skaičiaus mūšiuose mes nebeleidžiame žaisti super būriuose. Tačiau mes ieškome naujų būdų komandiškai žaisti Prasiveržime. Tačiau 7 prieš 7 turnyrai toliau tęsiami."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Daugiau jokių super būrių {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "NUOMOJAMOS MAŠINOS"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Neseniai žaidime pasirodęs amerikiečių X lygio vidutinis tankas Ares 90 dabar turi ir kiek pakoreguotą rolės įgūdį."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Žemėlapiai: Erlenbergas išimtas. Svarbūs taškai Aerodrome perstumti. Šiek tiek pakoreguotas Pilzenas.\n• Mašinos: pakoreguotas Vz. 60S Dravec. Įtrauktas naujas vokiečių sunkusis tankas Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Atnaujintas rolės įgūdis %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "Nuo sidabrinio rango dabar Prasiveržimo parduotuvėje galite įsigyti 114 SP2."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Atnaujinta parduotuvė %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sezono subalansavimas {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "PAŠALINTA"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "I sezonas. Žydrasis Drakonas"
+msgstr "I SEZONAS: ŽYDRASIS FENIKSAS"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "II sezonas: Kruvinasis Drakonas"
+msgstr "II SEZONAS: KRUVINASIS FENIKSAS"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "III sezonas: Nefrito Drakonas"
+msgstr "III SEZONAS: NEFRITO FENIKSAS"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Dabartinis"

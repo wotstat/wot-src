@@ -34,6 +34,9 @@ msgstr "Tykki voi ampua jatkuvasti ilman tarvetta ladata. Jokainen laukaus tuott
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Parantaa moottoritehoa ja huippunopeutta mahdollistaen vikkelän liikkeen taistelukentän halki. Aktivoitaessa suihkumoottorit heikentävät ohjattavuutta eikä niitä voi ottaa pois käytöstä itse."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Vaunun tykillä on erikoismekanismeja, jotka mahdollistavat joidenkin ammusten parametrien säätöä ennen ampumista. Eri ammusten ominaisuudet vaihtelevat valitun tilan mukaan ja kukin tila antaa sinun sopeutua nopeasti erilaisiin taistelutilanteisiin."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Aktivoitaessa tämä erikoistila parantaa ja/tai muuttaa tiettyjä taisteluparametrejä. Tehokkaimmillaan aktivoitaessa, kun vaunu on asemassa ja valmis käymään vihollisten kimppuun."
 
@@ -82,6 +85,9 @@ msgstr "Ylikuumenemista hallinnoiva konetykki"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Suihkumoottorit"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Ammusten kalibrointijärjestelmä"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Piiritystila"
 
@@ -100,8 +106,17 @@ msgstr "Yhteislaukaus"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Keräät tarkkuustasojasi pysymällä paikallasi tai liikkumalla hitaasti parantaaksesi seuraavan laukauksesi tarkkuutta.\nKorkeimmalla tarkkuustasolla tykkisi on kelpo käsiteltävä pienennetyllä hajonnalla jopa liikkeessä tai runkoa/tornia käännettäessä."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mekanismi lyhentää välittömästi ammuksen latausaikaa kiinteään lyhyeen aikaan. Kukin käyttö kuluttaa yhden latauksen per ammus ja lataukset palautuvat ajan kanssa – nopeammin, kun lipas on täynnä. Taistelun alkaessa on tarjolla tietty määrä latauksia."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Tämä vaunu on varustettu tykin kilpeen liitetyllä raketinheittimellä. Aktivoi kyky vaihtaa apuaseen tähtäimiin ja sen jälkeen laukaise ohjaamaton raketti ampumisnapilla."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Joka kerta osuessasi viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta.\nVihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Tämän vaunun ulkoinen ammustäydennysmoduuli antaa mahdollisuuden ampua tehokkaita, viritettyjä ammuksia, jotka tekevät enemmän vahinkoa. Aktiivisena ollessaan tämä moduuli myös heikentää liikkuvuutta ja tulinopeutta."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Jos tykkisi on ladattu, voit alkaa lämmittämään seuraavaa laukaustasi tehdäksesi enemmän vahinkoa – mitä korkeampi lämpötaso, sitä suurempi vaikutus.\nKorkeimmalla lämpötasolla sinulla on muutama sekunti aikaa ampua. Jos et ammu, tulee ampumisesta hetkeksi mahdotonta."
@@ -142,6 +157,15 @@ msgstr "Järjestelmä virittyy ajan kanssa ja mitä korkeampi viritys, sitä ene
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktivoi nestemäisen polttoaineen suihkumoottorit milloin hyvänsä saadaksesi lisää vauhtia, kun sitä eniten tarvitset. Suihkumoottorit kuumenevat ja niiden pitää jäähtyä ennen kuin niitä voi käyttää uudelleen. Kriittisen lämpörajan ylittäminen laittaa ne väliaikaisesti kokonaan pois käytöstä."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Osuessasi näkyvään vihollisvaunuun ammuksella säädetään seuraavan ammuksen sytyttimen asetusta. Mikäli ensimmäinen ammus läpäisi vihollispanssarin, kasvatetaan seuraavan ammuksen vahinkoa. Mikäli se ei läpäissyt, kasvatetaan seuraavan ammuksen läpäisyä."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Vaunun tykillä on erikoismekanismeja, jotka mahdollistavat joidenkin ammusten parametrien säätöä ennen ampumista. Eri ammusten ominaisuudet vaihtelevat valitun tilan mukaan ja kukin tila antaa sinun sopeutua nopeasti erilaisiin taistelutilanteisiin."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Aktivoitaessa laite skannaa sektorin vaunusi edestä paljastaen kätketyt kohteet ennen jäähtymisaikaa. Mikäli se paljastaa näkymättömissä olleen vihollisen, myös sinut havaitaan välittömästi. Voit pysäyttää skannauksen käsin pienen viiveen jälkeen."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Kiinteällä polttoaineella toimivat suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ohjattavuutta muutaman sekunnin ajan. Vasen ja oikea moottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen. Ne eivät myöskään rajoita vaunun ohjattavuutta."
 
@@ -166,8 +190,17 @@ msgstr "Tämä mekaaninen apuväline tehostaa merkittävästi lyhyeksi aikaa vau
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analoginen ballistinen laskentalaite"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Pakottava latausmekanismi"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Koaksiaalinen raketinheitin"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Puoliautomaattinen ammusteline"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Ulkoisen ammussyötön tila"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termoballistinen ylilataus"
@@ -208,6 +241,15 @@ msgstr "Lähtöpanoksen induktiojälkipoltin"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Nestemäisen polttoaineen suihkumoottorit"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Säädettävä sytyttimen asetin"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Ammusten kalibrointijärjestelmä"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrapuna haku ja jäljitys (IPHJ)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Peräkkäiset rakettimoottorit"
 
@@ -232,8 +274,17 @@ msgstr "Korkeapaineinen turboahtimen tehostin"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Parantaa seuraavasi laukauksen tarkkuutta kelpo vakaudella täysin kalibroituna."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Lyhentää välittömästi ammuksen latausajan tiettyyn kiinteään aikaan."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Ampuu suoraan lentävän raketin koaksaalisesta heittimestä erillään päätykillä ampumisesta."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Jokainen osuma vihollisvaunuun tehostaa tykin latausnopeutta tietyksi ajaksi."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Ampuu isoa vahinkoa tekeviä ammuksia liikkumisen ja jäähtymisajan kustannuksella."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Kerryttää lämpötasoja, jotka saavat seuraavan laukauksesi aiheuttamaan enemmän vahinkoa vihollisvaunuihin."
@@ -274,6 +325,15 @@ msgstr "Järjestelmä virittyy tehostaakseen vahinkoa. Mitä suurempi viritys, s
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Suihkumoottorit, jotka voidaan aktivoida milloin hyvänsä tarjoamaan nopea lisä vauhtiin."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Näkyvään vihollisvaunuun osuminen kasvattaa seuraavan ammuksen vahinkoa tai läpäisyä."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin ominaisuuksien muokkaamisen ennen ampumista."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Pidentää näköetäisyyttä ja havaitsee liikkuvat ja kasvuston kätkemät viholliset kapealta sektorilta."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Kiinteää polttoainetta käyttävät suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ketteryyttä."
 
@@ -298,8 +358,14 @@ msgstr "Erikoismekaniikka, joka lisää moottoritehoa, kiihtyvyyttä ja huippuno
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Paikallaan tai tietyn nopeuden alapuolella pysyminen mahdollistaa vaunullesi sen analogisen ballistisen laskentalaitteen kalibroinnin ja tarkkuustasojen kerryttämisen, mikä parantaa seuraavan laukauksesi tarkkuutta. Tarkkuustasojen kertyminen keskeytyy, mikäli ylität nopeusrajan, aina siihen asti, että hidastat uudelleen. Suurimmalla tarkkuustasolla vaunusi saavuttaa kelpo tykin vakauden pienennetyllä hajonnalla liikkeen tai rungon/tornin kääntämisen takia. Vaikutus poistetaan ammuttaessa."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Tämä vaunu on varustettu tykin kilpeen liitetyllä raketinheittimellä. Aktivoi kyky vaihtaa apuaseen tähtäimiin ja sen jälkeen laukaise ohjaamaton raketti ampumisnapilla."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Joka kerta osuessasi näkyvään viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta ja vihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Tämän vaunun ulkoinen ammustäydennysmoduuli antaa mahdollisuuden ampua tehokkaita, viritettyjä ammuksia, jotka tekevät enemmän vahinkoa. Aktiivisena ollessaan tämä moduuli myös heikentää liikkuvuutta ja tulinopeutta."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Mikäli tykkisi on ladattu, voit alkaa lämmittää seuraavaa laukaustasi. Mitä suuremman lämpötason saavutat, sitä suurempi bonus keskimääräiseen vahinkoon tulee olemaan. Lämmitysprosessin aikana ei voi vaihtaa ammuksia. Saavutettuasi korkeimman lämpötason käynnistyy laskuri. Mikäli et ammu ennen sen kulumista loppuun, et voi ampua muutamaan sekuntiin."
@@ -340,6 +406,15 @@ msgstr "Järjestelmää virittyy ajan kanssa ja se viritys kuluu osittain tehost
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Nestemäisen polttoaineen suihkumoottorit tarjoavat pikaisen tehoruiskeen moottoritehoon, jonka avulla voit päästä taistelukentällä haluamaasi sijaintiin. Samalla ne rajoittavat vaunusi peruutus- ja kääntönopeuksia. Ne voidaan kytkeä päälle ja pois päältä milloin hyvänsä paitsi uudelleenaktivointirajan saavuttamisen jälkeen. Suihkumoottorit kuumenevat käytössä ollessaan ja niitä ei voi käyttää, kunnes ne ovat jäähtyneet. Näin ollen niitä ei voi käyttää jatkuvasti, sillä kriittisen lämpörajan ylitettyään ne ovat hetken aikaa kokonaan pois käytöstä."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Osuessasi näkyvään vihollisvaunuun ammuksella säädetään seuraavan ammuksen sytyttimen asetusta. Mikäli ensimmäinen ammus läpäisi vihollispanssarin, kasvatetaan seuraavan ammuksen vahinkoa. Mikäli se ei läpäissyt, kasvatetaan seuraavan ammuksen läpäisyä."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Vaunun tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin parametrien muokkaamisen ennen alkamista."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Kehittynyt optinen laite, joka kasvattaa näkökykyäsi ja helpottaa liikkuvien ja kasvillisuuden kätkemien vaunujen havaitsemista. Aktivoitaessa se skannaa kapean sektorin vaunusi edestä paljastaen kätketyt kohteet ennen jäähtymisaikaa. Mikäli se paljastaa näkymättömissä olleen vihollisen, myös sinä itse tulet välittömästi havaituksi. Voit manuaalisesti keskeyttää skannauksen lyhyen viiveen jälkeen."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Kiinteää polttoainetta käyttävät suihkumoottorit, jotka parantavat vaunun kiihtyvyyttä, liikkuvuutta ja ohjattavuutta muutaman sekunnin ajan. Toisin kuin tavalliset suihkumoottoritehostimet vasen ja oikea suihkumoottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen eivätkä ne vaikuta peruutuskykyyn. Niitä voi käyttää monta kertaa taistelussa, mutta niiden on jäähdyttävä aktivointien välillä."
 
@@ -363,6 +438,18 @@ msgstr "Tämä mekaaninen apuväline tehostaa merkittävästi lyhyeksi aikaa vau
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Kaikki näytetyt arvot ovat suurimpia mahdollisia vaunulle. Varusteet, direktiivit ja kulutustarvikkeet voivat muuttaa näitä arvoja, mutta nämä muutokset eivät näy täällä."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibroitava panssarikranaatti"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibroitava alikaliiperiammus"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibroitava sirpalekranaatti"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibroitava ontelokranaatti"
 
 msgid "characteristics/templates/upTo"
 msgstr "Jopa %(value)%s"

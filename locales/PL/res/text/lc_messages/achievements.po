@@ -139,15 +139,6 @@ msgstr "Przyznawany graczom za ich nieoceniony wkład w rozwój World of Tank
 msgid "15YearsOfService_descr"
 msgstr "Jesteś w grze od %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Osiągnięcie Rezerwa PB 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Przyznawane za ukończenie postępów."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Przyznawane za osiągnięcia w grze"
-
 msgid "BPReserveAchievement_2"
 msgstr "Osiągnięcie Rezerwa PB 2"
 
@@ -429,6 +420,15 @@ msgstr "• Przyznawana za ukończenie wszystkich trzech rozdziałów."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Przyznawane za osiągnięcia podczas Sezonu XX Przepustki bitewnej."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Nizinna potyczka"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Przyznawana za ukończenie wszystkich trzech rozdziałów."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Przyznawane za osiągnięcia podczas Sezonu XXI Przepustki bitewnej."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Główny postęp składa się z 45 etapów."
@@ -1828,6 +1828,48 @@ msgstr "Srebrny Smok"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Przyznawany za zebranie przynajmniej 9 Sztandarów Natarcia w Roku Smoka w trybie Natarcie."
 
+msgid "comp7_6_1"
+msgstr "Lazurowa Iskra"
+
+msgid "comp7_6_1_descr"
+msgstr "Przyznawane za ukończenie serii misji w sezonie Lazurowego Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Brązowy Feniks"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Przyznawane za zebranie przynajmniej 6 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Mistrz Roku Feniksa"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Przyznawane za zebranie przynajmniej 15 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Złoty Feniks"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Przyznawane za zebranie przynajmniej 12 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Żelazny Feniks"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Przyznawane za zebranie przynajmniej 3 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legenda Roku Feniksa"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Przyznawane za zebranie przynajmniej 18 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Srebrny Feniks"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Przyznawane za zebranie przynajmniej 9 Sztandarów Natarcia w Roku Feniksa w trybie Natarcie."
+
 msgid "conqueror"
 msgstr "Zdobywca %(rank)s"
 
@@ -2114,7 +2156,7 @@ msgid "fighter_condition"
 msgstr "• Dostępne tylko w Bitwach losowych."
 
 msgid "fighter_descr"
-msgstr "Zniszcz cztery lub pięć przeciwnika pojazdów w ciągu jednej bitwy."
+msgstr "Zniszcz cztery lub pięć pojazdów przeciwnika w ciągu jednej bitwy."
 
 msgid "fightingReconnaissanceMedal"
 msgstr "Rozpoznanie bojem"
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Dostępne tylko w Bitwach losowych."
 
 msgid "huntsman_descr"
-msgstr "Zniszcz wszystkie lekkie czołgi przeciwnika (co najmniej 3) w ciągu jednej bitwy."
+msgstr "Zniszcz wszystkie czołgi lekkie przeciwnika (co najmniej 2) w ciągu jednej bitwy."
 
 msgid "huntsman_heroInfo"
 msgstr "Sierżant Grigorij Najdin był dowódcą czołgu BT-7. 25 Czerwca 1941 niedaleko miasteczka Rudziszki (obecnie Litwa) zniszczył kolumnę pancerną Wehrmachtu, składającą się z 15 pojazdów i 10 dział z 19. Korpusu Zmechanizowanego. Najdinowi udało się powstrzymać niemieckie natarcie przez dwa dni, co umożliwiło zorganizowanie obrony wokół Wilna. Za tę akcję Najdin otrzymał tytuł Bohatera Związku Radzieckiego."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Ukończ z wyróżnieniem 15 misji osobistych dla Związku, Nagroda: Przykładna Efektywność: Związek, Klasa III."
 
 msgid "readyForBattleAssault"
-msgstr "Wzorowa Efektywność: Awangarda"
+msgstr "Przykładna Efektywność: Awangarda 3. Sektora"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Za ukończenie wszystkich misji Awangardy w kampanii 3. Sektor."
+msgstr "Za ukończenie wszystkich misji Awangardy w głównych operacjach kampanii 3. Sektor."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Przykładna Efektywność: Fossa Awangarda"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Za ukończenie wszystkich misji Awangardy w operacji Fossa w kampanii 3. Sektor."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Przykładna Efektywność: Fossa Zasadzka"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Za ukończenie wszystkich misji Zasadzki w operacji Fossa w kampanii 3. Sektor."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Przykładna Efektywność: Fossa Asysta"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Za ukończenie wszystkich misji Asysty w operacji Fossa w kampanii 3. Sektor."
 
 msgid "readyForBattleHT"
 msgstr "Wzorowa efektywność: Ciężkie czołgi"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Ukończ z wyróżnieniem 15 misji osobistych dla dział samobieżnych. Nagroda: \"Wzorowa Efektywność: działa samobieżne\" IV klasy."
 
 msgid "readyForBattleSniper"
-msgstr "Wzorowa Efektywność: Zasadzka"
+msgstr "Przykładna Efektywność: Zasadzka 3. Sektora"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Za ukończenie wszystkich misji Zasadzki w kampanii 3. Sektor."
+msgstr "Za ukończenie wszystkich misji Zasadzki w głównych operacjach kampanii 3. Sektor."
 
 msgid "readyForBattleSupport"
-msgstr "Wzorowa Efektywność: Asysta"
+msgstr "Przykładna Efektywność: Asysta 3. Sektora"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Za ukończenie wszystkich misji Asysty w kampanii 3. Sektor."
+msgstr "Za ukończenie wszystkich misji Asysty w głównych operacjach kampanii 3. Sektor."
 
 msgid "reliableComrade"
 msgstr "Kolega z wojska"
@@ -4692,6 +4761,15 @@ msgstr "Przyznawane za ukończenie postępów w trybie Waffenträger: Paradoks.
 
 msgid "wt2025progression_descr"
 msgstr "Ukończ postępy trybu Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Jeździec Burzy"
+
+msgid "wt2026progression_condition"
+msgstr "Przyznawane za ukończenie postępów w trybie Waffenträger: Genesis 2026. To wyróżnienie otrzymują ci, którzy stawili czoła pierwszej myślącej maszynie von Kriegera, Elektrycznej Inteligencji, i przerwali każdy obwód, przez który sięgała do naszego świata."
+
+msgid "wt2026progression_descr"
+msgstr "Ukończ postępy w trybie Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Władca Piorunów"

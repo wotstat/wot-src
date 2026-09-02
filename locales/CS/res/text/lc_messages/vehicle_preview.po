@@ -40,6 +40,9 @@ msgstr "Vyzkoumat"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Obnovit"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Na velké krabičky"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Vozidlo %(nation)s %(level)s. úrovně není vyzkoumáno"
 
@@ -54,6 +57,15 @@ msgstr "Sleva na zakoupení:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Sleva na vyzkoumání:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Toto vozidlo může vypadnout z {{@ style (color $color)}}velkých krabiček!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Velké krabičky!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Toto vozidlo může vypadnout z"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Použít slevu z kupónu: %(value)s"

@@ -136,6 +136,24 @@ msgstr[0] "{{count}} voitto"
 msgstr[1] "{{count}} voittoa"
 msgstr[2] "{{count}} voittoa"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Saatavilla hintaan {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Taistelukokemus"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Meillä on jotain erityistä juhlistamaan paluutasi peliin: {{@ style (color #ede6d9e6)}}päivittäinen paluubonus{{/}} tuomaan enemmän taistelukokemusta päivän ensimmäisestä voitostasi kullakin vaunulla."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Tervetuloa takaisin komentaja!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonus nollautuu päivittäin kello {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Paluubonus: saatavilla"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klikkaa mennäksesi vaunujen pelilistoihisi"
 

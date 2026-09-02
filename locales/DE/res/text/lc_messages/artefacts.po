@@ -880,6 +880,12 @@ msgstr "Zusätzliche Laufpolster, Klasse 3"
 msgid "gun_balancing_1/name"
 msgstr "Geschützauswuchtung (Typ 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Geschützauswuchtung (Typ 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Waffenrohrmodifikation (Typ 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Verbessertes Fahrwerk (Typ 1)"
 msgid "improved_suspension_2/name"
 msgstr "Verbessertes Fahrwerk (Typ 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Verbesserter Turmantrieb (Typ 1)"
+
 msgid "inspire/longDescr"
 msgstr "Steigert die Leistung der Fahrzeugbesatzung und aller Verbündeten in einem bestimmten Radius, wodurch jedes Besatzungsmitglied einen prozentualen Bonus auf seine Hauptspezialisierung erhält. Der einsetzende Spieler erhält einen verstärkten Effekt."
 
@@ -1294,6 +1303,9 @@ msgstr "System zur Verbesserung der Beweglichkeit VS3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "System zur Verbesserung der Beweglichkeit VS3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Mündungsfeuerdämpfer (Typ 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Steigert für %(consumeSeconds)s s vorübergehend die Motorleistung des eigenen Fahrzeugs um %(enginePowerFactor)s und die Höchstgeschwindigkeit um den Faktor %(maxSpeedFactor)s."
 
@@ -1347,6 +1359,12 @@ msgstr "Der ausgewählte Bereich wird nach {colorTagOpen}%(delay)d s{colorTagCl
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artillerieschlag"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Nach einer kurzen Verzögerung erhellt eine Leuchtkugel den ausgewählten Bereich. Gegnerische Fahrzeuge im ausgeleuchteten Radius bleiben aufgeklärt und erleiden gesteigerten Schaden.\nDer Beobachtungsposten kann nach ein paar Minuten erneut erobert werden."
+
+msgid "poi_illumination_flare/name"
+msgstr "Leuchtkugel"
 
 msgid "poi_radar/descr"
 msgstr "Bei Aktivierung bleiben alle Gegnerfahrzeuge {colorTagOpen}%(duration)d s{colorTagClose} lang aufgeklärt."
@@ -1879,29 +1897,77 @@ msgstr "Leichte Wanne"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Leichte\nWanne"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflektive Optikbeschichtung"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflektive Scheinwerferbeschichtung"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflektive\nOptikbeschichtung"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antireflektive\nScheinwerferbeschichtung"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Externes Sichtsystem"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrischer Periskopantrieb"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Externes\nSichtsystem"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrischer\nPeriskopantrieb"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panorama-Triplex"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panorama-\nTriplex"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panorama-Triplex"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Schmalwinkel-Beobachtungsgerät"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Schmalwinkel-\nBeobachtungsgerät"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Neue Zielerfassungsgeräte"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Neue Zielerfassungsgeräte"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrischer Periskopantrieb"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrischer\nPeriskopantrieb"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Allgemeine Erhöhung der Robustheit"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Allgemeine Erhöhung\nder Robustheit"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflektive Scheinwerferbeschichtung"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antireflektive\nScheinwerferbeschichtung"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Feinabstimmung des Auswerfers"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Feinabstimmung des Auswerfers"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Stromversorgungsverkabelung"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Stromversorgungs-\nverkabelung"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Verbesserter Geschossdrall"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Verbesserter\nGeschossdrall"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Empfindliche Optik"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Empfindliche Optik"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Verstärkte Hauptstruktur"
@@ -2424,6 +2490,9 @@ msgstr "Elektrische Entladung"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Erzeugt einen Bereich, in dem eine Reihe von %(thunderCount)s elektrischen Entladungen mit hoher Frequenz einschlägt. Jede Entladung verursacht {whiteSpanish_Open}%(damage)s Schaden{whiteSpanish_Close} und verringert die Beweglichkeit von gegnerischen Fahrzeugen innerhalb des Wirkungsbereichs des Effekts.\n\n*Es gibt eine Verzögerung von %(delay)s s zwischen dem Einsatz der Fähigkeit und der ersten Entladung. Der negative Effekt kann mit einer Ersatzteilkiste entfernt werden."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Drehstabaustausch (Typ 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Erschafft für %(duration)s s einen Bereich, in dem die Beweglichkeit aller gegnerischen Fahrzeuge um %(vehicleMaxSpeed)s verringert und ihre Nachlade- und Zielerfassungszeit um %(gunReloadTime)s erhöht ist."

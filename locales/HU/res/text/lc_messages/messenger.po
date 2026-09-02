@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Megszerzett arany"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "A(z) %(campaignName)s kampányban való részvételedért kitüntettünk %(nameMedal)s medállal."
+msgstr "Sikeresen teljesítettél egy küldetést ebben a kampányban: %(campaignName)s, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Gratulálunk!"
@@ -1929,6 +1929,21 @@ msgstr "Sikeresen teljesítettél 30 küldetést a(z) %(campaignName)s kampány 
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Sikeresen teljesítettél 15 küldetést a(z) %(campaignName)s kampány %(categoryName)s sorozatábanban, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Sikeresen teljesítettél egy küldetést ebben a kampányban: %(campaignName)s, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Sikeresen teljesítettél 21 küldetést a(z) %(operationName)s művelet %(categoryName)s sorozatában, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Sikeresen teljesítettél 14 küldetést a(z) %(operationName)s művelet %(categoryName)s sorozatában, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Sikeresen teljesítettél 7 küldetést a(z) %(operationName)s művelet %(categoryName)s sorozatában, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "bírság a csapattársaknak okozott sérülésekért: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kattints a gombra a tartalom megtekintéséhez."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Csomagot kaptál:"
+msgstr "Megkaptad a csomagot"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Megtekintés"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "%(count)sx"
+msgstr "A jutalmakhoz"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Kapuk aktiválva: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Aktiváltuk az összes kapudat, tartalmukat pedig hozzáadtuk a fiókodh
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Jutalmakat kaptál"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Kinyitottuk az összes dobozodat, és jóváírtuk az ünnepi hadműveleti jutalmaidat"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Univerzális töredékek"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s nemzeti töredék"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "A következő járművek konfigurációja megváltozott: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Figyelem!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>és még %(vehiclesCount)s</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "A frissítést követően minden matricát eltávolítottunk a járművekről és visszakerültek a Depóba, a Külső részbe."

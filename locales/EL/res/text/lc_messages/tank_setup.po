@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "στα hit points του οχήματος"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+msgstr "στην ταχύτητα περιστροφής του πυροβόλου"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "στην ταχύτητα περιστροφής του πυργίσκου"
@@ -1235,19 +1235,19 @@ msgid "kpi/bonus/positive/specialShellDamage"
 msgstr "στη φθορά των ειδικών βλημάτων"
 
 msgid "kpi/bonus/positive/specialShellPenetration"
-msgstr "στην ειδική διατρητικότητα των βλημάτων"
+msgstr "στην διατρητικότητα των ειδικών βλημάτων"
 
 msgid "kpi/bonus/positive/specialShellVelocity"
-msgstr "στην ειδική ταχύτητα των βλημάτων"
+msgstr "στην ταχύτητα των ειδικών βλημάτων"
 
 msgid "kpi/bonus/positive/standardShellDamage"
 msgstr "στη φθορά των τυπικών βλημάτων "
 
 msgid "kpi/bonus/positive/standardShellPenetration"
-msgstr "στην τυπική διατρητικότητα των βλημάτων"
+msgstr "στην διατρητικότητα των τυπικών βλημάτων"
 
 msgid "kpi/bonus/positive/standardShellVelocity"
-msgstr "στην τυπική ταχύτητα των βλημάτων"
+msgstr "στην ταχύτητα των τυπικών βλημάτων"
 
 msgid "kpi/bonus/positive/stunResistanceEffectFactor"
 msgstr "στην αρνητική επίδραση του σοκ"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "στα hit points του οχήματος"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+msgstr "στην ταχύτητα περιστροφής του πυροβόλου"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "στην ταχύτητα περιστροφής του πυργίσκου"
@@ -2100,6 +2100,51 @@ msgstr " και "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Η Εξωτερική Τροφοδοσία Πυρομαχικών αυτού του οχήματος δίνει τη δυνατότητα για χρήση βλημάτων που προκαλούν μεγαλύτερη φθορά."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Βασικές τιμές σε Τυπική λειτουργία."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Τροποποιημένες τιμές σε λειτουργία Εξωτερικής Τροφοδοσίας Πυρομαχικών."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Βασικές παράμετροι για βλήματα πλήρους γόμωσης"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Παράμετροι για βλήματα μονής γόμωσης"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Βασικές παράμετροι για βλήματα πλήρους γόμωσης"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Βασικές"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Παράμετροι για βλήματα μονής γόμωσης"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Σε λειτουργία Βαθμονόμησης, ο συγκεκριμένος τύπος βλήματος είναι αποτελεσματικός εναντίον κεκλιμένης θωράκισης."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Το πυροβόλο του οχήματος διαθέτει ειδικές συσκευές που δίνουν τη δυνατότητα για τροποποίηση ορισμένων χαρακτηριστικών των βλημάτων πριν από τη βολή."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Σε Τυπική λειτουργία, ο συγκεκριμένος τύπος βλήματος είναι αποτελεσματικός εναντίον θωράκισης χωρίς πλέγματα."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Τυπική Λειτουργία"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Λειτουργία Βαθμονόμησης"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Σε λειτουργία Βαθμονόμησης, ο συγκεκριμένος τύπος βλήματος είναι αποτελεσματικός εναντίον πλεγμάτων θωράκισης."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Σε Τυπική λειτουργία, ο συγκεκριμένος τύπος βλήματος είναι αποτελεσματικός εναντίον μη κεκλιμένης θωράκισης."
 
 msgid "tooltips/specializationDesc"
 msgstr "Ο κανονικός εξοπλισμός από την κατηγορία %(spec)s θα είναι περισσότερο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση. Εξοπλισμός από άλλη κατηγορία θα δίνει μόνο το βασικό μπόνους."

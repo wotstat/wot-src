@@ -16,6 +16,7 @@ COUNTRY_CODES_FOR_EXTERNAL_LOOT_LIST = (b'KR',)
 DEFAULT_EVENT_NAME = b'lootbox_system'
 LOOTBOX_COMPENSATION_TOKEN_PREFIX = b'lbs_compensation'
 LOOTBOX_COMPENSATION_BONUS = b'lootboxCompensation'
+REROLLABLE_BOX_OPEN_COUNT = 1
 
 class NotificationPathPart(str, Enum):
     MAIN = b'serviceChannelMessages'

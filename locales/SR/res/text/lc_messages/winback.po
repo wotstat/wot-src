@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "ZATVORI"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Razumem!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Zagrevanje te podseća na osnove igre. Borbe se igraju protiv kompjuterski kontrolisanih vozila i rezultat se ne računa u tvojoj statistici. Možeš da izađeš iz zagrevanja bilo kada da nastaviš u nasumične borbe."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Zagrevanje"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Kompletiraj misije, završavaj Nazad u akciji etape napretka i dobij vredne nagrade u igri. Svaka završena standardna, premijum ili bonus misija se računa za nagradu. Misije mogu biti završene u zagrevanju i nasumičnim borbama."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Kompletiraj misije, završavaj \"Nazad u akciju\" etape napretka i dobij vredne nagrade. Tokom Borbene propusnice, poeni Borbene propusnice će biti dodati u svrhu nagrada. Misije mogu biti završene u zagrevanju i nasumičnim borbama."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Nazad u akciju"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Možeš da zaradiš premijum vozila VIII nivoa za iznajmljivanje, izučiva vozila VI nivoa i popuste na izučavanje i kupovinu vozila kao nagrade. Nakon završetka napretka dobićeš glavnu nagradu."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Nagrade"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "NAZAD U AKCIJU"
-
 msgid "mainRewardTooltip/description"
 msgstr "Nakon završetka \"Nazad u akciju\" napredka dobićeš :"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Glavna nagrada"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Popust na izučavanje i kupovinu vozila %(level)s nivoa"
+msgstr "Popust na istraživanje i kupovinu vozila {{level}} nivoa"
 
 msgid "modeInfoTooltip/description"
 msgstr "Borbe protiv AI vođenih vozila koje se ne računaju u tvojoj statistici. Za pobedu moraš da zauzmeš neprijateljsku bazu ili da uništiš sva neprijateljska vozila. Borbe se vode u formatu 15 na 15 na nivoima VI-XI i u formatu 10 na 10 na nivoima I-V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Zagrevanje"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Bilo koje izučivo vozilo %(level)s nivoa može biti odabrano. Vozilo dolazi sa izučenim modulima, posadom i mestom u garaži."
+msgstr "Bilo koje izučivo vozilo {{level}} nivoa može biti odabrano. Vozilo dolazi sa izučenim modulima, posadom i mestom u garaži."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Vozilo %(level)s nivoa"
+msgstr "Vozilo {{level}} nivoa"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Popust %(researchDiscount)s na izučavanje i popust %(purchaseDiscount)s na kupovinu vozila %(level)s nivoa. Svako izučivo vozilo može biti odabrano."
+msgstr "Popust {{researchDiscount}} na izučavanje i popust {{purchaseDiscount}} na kupovinu vozila {{level}} nivoa. Svako izučivo vozilo može biti odabrano."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Popust na {whiteSpanish_Open} izučavanje{whiteSpanish_Close} je dodat na popust od fragmenata nacrta vozila. Najveći dostupan popust {whiteSpanish_Open}kupovine{whiteSpanish_Close} se primenjuje."
+msgstr "Popust na {{@ style (color $color)}}izučavanje{{/}} je dodat na popust od fragmenata nacrta vozila. Najveći dostupan popust {{@ style (color $color)}}kupovine{{/}} se primenjuje."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Popust na vozilo %(level)s nivoa"
+msgstr "Popust na vozilo {{level}} nivoa"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Potvrdno!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Zagrevanje te podseća na osnove igre. Borbe se igraju protiv kompjuterski kontrolisanih vozila i rezultat se ne računa u tvojoj statistici. Možeš da izađeš iz zagrevanja bilo kada da nastaviš u nasumične borbe."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Zagrevanje"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Kompletiraj misije, završavaj \"Nazad u akciju\" etape napretka i dobij vredne nagrade. Tokom Borbene propusnice, poeni Borbene propusnice će biti dodati u svrhu nagrada. Misije mogu biti završene u zagrevanju i nasumičnim borbama."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Kompletiraj misije, završavaj Nazad u akciji etape napretka i dobij vredne nagrade u igri. Svaka završena standardna, premijum ili bonus misija se računa za nagradu. Misije mogu biti završene u zagrevanju i nasumičnim borbama."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Nazad u akciju"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Možeš da zaradiš premijum vozila VIII nivoa za iznajmljivanje, izučiva vozila VI nivoa i popuste na izučavanje i kupovinu vozila kao nagrade. Nakon završetka napretka dobićeš glavnu nagradu."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Nagrade"
+
+msgid "umgIntroView/title"
+msgstr "NAZAD U AKCIJU"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Popust na %(research)s je dodat na popust od fragmenata nacrta vozila. Najveći dostupan %(purchase)s popust se primenjuje"
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Izađi iz zagrevanja?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Preostale borbe: %(battlesCount)s"
+msgstr "Preostalo borbi: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Borbe protiv kompjuterski kontrolisanih vozila koje ne računaju u tvojoj statistici."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Takođe si dobio:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s popust na izučavanje i %(priceDiscount)s popust na kupovinu vozila %(level)s nivoa"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Popust od {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} na istraživanje i popust od {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} na kupovinu vozila {{level}} nivoa"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Vozilo %(level)s nivoa"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Vozilo {{level}} nivoa"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Popust na vozilo %(level)s nivoa"
+msgstr "Popust na vozilo {{level}} nivoa"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Za završavanje serije dnevnih misija"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "NAPREDAK JE ZAVRŠEN"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s popust na izučavanje\ni %(priceDiscount)s popust na kupovinu"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Popust od {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} na izučavanje i popust od {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} na kupovinu"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "U Garaži"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Dana rente: %(days)s"
+msgstr "Dana iznajmljivanja: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Popust za izučavanje i kupovinu"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Izaberi kasnije"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Reset filtera"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Popust vozila"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Vozilo %(vehicleLevel)s nivoa"
+msgstr "Vozilo {{vehicleLevel}} nivoa"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Razumem!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Otvaranje sekcije sa nagradama nije uspelo"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Izučio si sva vozila %(vehicleLevel)s nivoa. Sada možeš da dobiješ nacionalne fragmente nacrta kao nagradu."
+msgstr "Izučio si sva vozila {{vehicleLevel}} nivoa. Sada možeš da dobiješ nacionalne fragmente nacrta kao nagradu."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Pretraži po imenu"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Prikazano:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Vrati na podrazumevano"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Izabrane nagrade: %(amountRewards)s %(infoIcon)s"
+msgstr "Odabrane nagrade: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Izaberi nagrade iz obezbeđenih kategorija"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Ništa nije pronađeno. Promeni svoja podešavanja filtera ili ih poništi na početna podešavanja."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s Nacionalnih fragmenata nacrta{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nacionalni fragment nacrta{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% popust na izučavanje i %(priceDiscount)s% popust na kupovinu)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% popust na istraživanje i {{priceDiscount}}% popust na kupovinu)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Popust na vozilo %(level)s nivoa"
+msgstr "Popust na vozilo {{level}} nivoa"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (Svi izučeni moduli, posada i mesto u garaži)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Svi izučeni moduli, posada i mesto u garaži)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Vozilo %(level)s nivoa"
+msgstr "Vozilo {{level}} nivoa"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Klikni na dugme \"Preuzmi\" da bi dobio izabrane nagrade."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Izabrane nagrade: %(amountRewards)s"
+msgstr "Odabrane nagrade: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Kupi"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "IZABERI SVOJU NAGRADU"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "lovac tenkova"

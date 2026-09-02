@@ -6052,6 +6052,18 @@ msgstr "Direktīva nestrādās, jo jūs esiet pārsnieguši 6 iemanu ierobežoju
 msgid "moduleFits/wrong_slot/body"
 msgstr "Ierīce jau ir uzstādīta citā slotā."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Iespēja radīt kritiskus bojājumus pretinieka moduļiem un/vai apkalpei."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Lādiņa trieciena leņķa samazinājuma apmērs, tam trāpot ienaidnieka bruņās."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Cik daudz cauršaušanas spējas lādiņš zaudē ik pēc 100 mm pēc trāpījuma pretinieka ekrāna bruņās."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Leņķis, pie kura lādiņš automātiski rikošetē no pretinieka bruņām. "
+
 msgid "multiselection/alert/body"
 msgstr "Izvēlieties bruņutehniku: jūs varat pievienoties kaujai tikai ar nokomplektētu grupu."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Kaujas Caurlaide: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadims Kuprins pazina savas pašreizējās misijas neauglīgos sāls līdzenumus kā savu tikpat vēja un saules appūsto plaukstu. Viņam nebija sveša darbošanās nestabilā un bīstamā vidē—viņš bija norūdījies, specializējoties aizsardzībā pret ķīmisko karadarbību, ilgi pirms vispār kāpa tankā. Divdesmit gadus vēlāk viņš atradās tikai dažu dienu gājiena attālumā no laboratoriju kompleksa, kur bija sācis savu militāro dienestu kā jaunākais tehniķis. Laiks un pārbaudījumi nevienu nesaudzē, taču, kā Vadims mēdza jokot savai apkalpei, neviens dokuments par viņa atvaļināšanu tā arī nebija noformēts—tāpēc, kamēr kāds to pienācīgi neiesniegs, viņš paliks šeit."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Braiens Pauels savas bērnības leknās ielejas atcerējās kā pasauli, kas bija gaismas gadu attālumā no skarbajiem apstākļiem, kurus viņam nācās iepazīt vēlāk. Viņa jaunākajā instruktāžā bija pārsteidzoši maz detaļu, un tādas frāzes kā \"neidentificēta ķīmiska viela\" un \"nāvējošu briesmu risks: ārkārtējs\" daudziem komandieriem liktu lūgt pārcelšanu. Taču Braiens vienmēr uzskatīja, ka pašsaglabāšanās instinkts ir apsveicama īpašība citos cilvēkos. Pēc dabas pārgalvis, viņš varētu būt izveidojis spožu kaskadiera karjeru, ja vien kādreiz būtu izjutis tādu vēlmi. Ielieciet viņu tanka vadības vietā, un atšķirība būtu gandrīz nemanāma."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora bija nesatricināms komandieris. Būdams miera uzturēšanas misiju veterāns nestabilos reģionos, viņš bija iemācījies saglabāt savaldību, pat ja spiediens pieauga. Neatkarīgi no tā, vai viņš pēc garas nakts patruļas darbojās uz spēku izsīkuma robežas vai analizēja arvien satraucošāku izlūkinformāciju par nezināmo vielu, kuru viņa komandai bija uzdots atklāt, viņa paškontrole nekad nešaubījās. Viņš uzturēja morāli ar jokiem, kas balansēja uz robežas starp vieglprātību un melno humoru, atsakoties zaudēt dzirksti acīs vai Pavasari savā solī."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Nekas nepaslīdēja garām Sandrīnai Ussē. Pirms viņu savervēja slepenai bruņotās izlūkošanas misijai, viņa bija godalgota snaipere, un viņas ērgļa skatiens sniedzās tālāk par šautenes optisko tēmekli. Parādiet viņai izkropļotu ienaidnieka izlūkinformācijas fragmentu, un viņa spēja izdarīt secinājumus ar tik nemainīgu precizitāti, ka pat pašas komanda sākumā noturēja viņas neparastās novērošanas spējas par gaišredzību. Viņas vadībā noslēpumi reti palika aprakti ilgu laiku. Par laimi viņas komandai, savu visnesaudzīgāko vērību viņa veltīja nezināmā reaģenta avotam, kuru viņi bija nosūtīti izmeklēt."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Cilvēki vienmēr jautā, vai es pazīstu Džeku Rīdu. Pirms atbildu, parasti ievelku dziļu elpu un uz brīdi aizveru acis. Būt viņa komandierim nav rožu gulta. Rīds ir nemiernieks, kuram kaut kā izdodas izpildīt pavēles un ievērot militāristu noteiktos noteikumus. Šobrīd viņš ir ieslodzīts karstā kā ellē tankā. Bet dziļi iekšā viņš ir uz ceļa, lai varētu braukt ar velosipēdu pa 66. maršrutu un sajust vēju matos."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "3. sektora kampaņa"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefans uzauga Bernes pulksteņmeistaru ģimenē un mantoja amatu, kurā bija vajadzīgs klusums, pacietība un absolūta paškontrole. Taču viņam šīs īpašības noteica pavisam citu karjeru. 1940. gadā Lielbritānijas izlūkdienests piedāvāja viņam izvēli: neitrālā Šveice vienā robežas pusē, viņš—otrā. Alpu pārejās viņš no spiegošanas ierīču mehāniķa kļuva par snaiperi. Pēc kara viņš turpināja šo darbu, likvidējot tos, kuri bija izvairījušies no taisnīguma, slēpjoties aiz viltus vārdiem. Stefans vienmēr strādāja viens, neatstājot nekādas pēdas, un dara to joprojām: 3. sektorā neviens nekad nav redzējis viņa seju."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "3. sektora kampaņa"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s – lādiņš pēc noklusējuma izvēlētajam lielgabalam. Tiek
 msgid "shell/basic/description/bold"
 msgstr "Pamata lādiņš"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Tanka Ārējās munīcijas padeves režīms ļauj izmantot lādiņus, kas rada lielākus bojājumus."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Parasts"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Mainīts:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Tanka lielgabala īpašā mehānika ļauj šaut agrāk ar mainītiem lādiņa parametriem."
 
@@ -10866,6 +10932,21 @@ msgstr "Pamata:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Mainītie:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Regulējamais Degļa uzstādītājs palielina vidējos bojājumus vai cauršaušanas spēju."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Regulējams:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms izšaušanas mainīt dažus šāviņa parametrus."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standarta"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibrēts"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Rādīt/slēpt zonu zem pretinieku Artilērijas uguns minikartē."
@@ -11028,6 +11109,12 @@ msgstr "Skaņas kvalitātes samazināšana var uzlabot spēles ātrdarbību zem�
 
 msgid "soundQualityOn/header"
 msgstr "Zema kvalitāte"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Vidējie bojājumi{{/}} palielinās pēc caursitoša trāpījuma ienaidnieka tankam."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Vidējā cauršaušana{{/}} palielinās pēc necaursitoša trāpījuma pretinieka tankā."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Apkalpes locekļi Premium tankos tiek trenēti 50% ātrāk:"
@@ -11386,6 +11473,36 @@ msgstr "Uzlabotā autopārlādes sistēma samazina standarta laiku čaulīšu au
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Laiks starp magazīna pēdējās čaulītes (vai abu ieroču) izšaušanu un jaunās magazīnas ielādi. / Ieroču vai čaulīšu skaits magazīnā."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Laiks, kas aizstāj atlikušo pārlādēšanas laiku, kad tiek izmantots mehānisms."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Laiks, kas nepieciešams, lai atjaunotu vienu lādiņu, ja aptvere ir pilna."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Laiks, kas nepieciešams, lai atjaunotu vienu lādiņu, ja aptvere nav pilna."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Kaujas sākumā pieejamais lādiņu skaits."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Maksimālais paātrinātās šāviņu ielādes lādiņu skaits, ko var glabāt vienlaikus."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Vidējie bojājumi, ko nodara raķešu palaišanas iekārtas lādiņš pēc caursitoša trāpījuma. Iespējamā bojājumu izkliede ir +/- 25% no vidējās vērtības."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Izkliede, ko raksturo maksimālā lādiņa novirze no mērķēšanas punkta 100 m attālumā."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Raketlādiņa cauršautās bruņas vidējais biezums. Izkliede ir +/- 25% no vidējās vērtības."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Laiks, kas nepieciešams raķešu palaidēja pārlādēšanai"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Nosaka nevadāmās raķetes lidojuma ātrumu."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Vidējie bojājumi, ko rada standarta čaulīte pēc bruņu cauršaujoša šāviena. Potenciālā bojājumu izkliede ir +/- 25% no vidējās vērtības."
 
@@ -11406,6 +11523,21 @@ msgstr "Pastiprinātāja efekta maksimālais ilgums pēc aktivizēšanas."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Lādēšanas laiks starp čaulītēm konteinerā. / Konteineru skaits magazīnā. / Čaulīšu skaits konteinerā."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Vidējais bojājumu apjoms, ko pēc bruņas caursitoša trāpījuma nodara paaugstinātas jaudas viengabala lādiņš. Iespējamā bojājumu izkliede ir ±25% no vidējās vērtības."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Ārējās munīcijas padeves režīmā tanka braukšanas uz priekšu ātrums tiek samazināts līdz nominālajam. Atpakaļgaitas ātrums netiek ietekmēts."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Šāvienu skaita minūtē samazinājums Ārējās munīcijas padeves režīmā."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimālais laiks, kas nepieciešams, lai sagatavotu ieroci šaušanai pēc Ārējās munīcijas padeves režīma aktivizēšanas. Šajā laikā režīmus pārslēgt nav iespējams."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimālais laiks, kas nepieciešams, lai sagatavotu ieroci šaušanai pēc atgriešanās standarta režīmā. Šajā laikā režīmus pārslēgt nevar."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Sagatavošanas laiks šaušanai no diviem ieročiem vienlaicīgi. / Ieroča pārlādes bloķēšanas ilgums izšaujot zalvi."
@@ -11737,8 +11869,17 @@ msgstr "Laiks, kas nepieciešams palīgieroču pārlādēšanai pēc šāviena."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Čaulu skaits palīgieročiem katrā aktivizācijā."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bojājumu bonuss, kas tiek piešķirts pēc caursitoša trāpījuma ienaidnieka tankā."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonuss cauršaušanas spējai, kas tiek piešķirts pēc necaursitoša trāpījuma ienaidnieka tankam."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Laiks, kas nepieciešams šāviņa ielādēšanai kaujas sākumā un pārslēgšanai starp dažādiem šāviņu veidiem."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Laiks, kas nepieciešams, lai pārslēgtos starp Kalibrēto un Standarta šaušanas režīmu."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Lielgabala izkliede tiek raksturota ar maksimālo lādiņa novirzi no tēmēšanas punkta 100 metru attālumā."
@@ -11748,6 +11889,36 @@ msgstr "Lielgabala izkliede tiek raksturota ar maksimālo lādiņa novirzi no t�
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Parāda, cik daudz čaulīte var novirzīties no tēmēšanas punkta metros uz 100 metriem līdz mērķim. Standarta vērtība (pirmā) ir uzkarsušam ierocim, uzlabotā vērtība (otrā) ir atdzesētam ierocim."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Pakāpeniska pretinieka tanku maskēšanās samazināšanās aiz lapotnes IRST skenēšanas sektorā."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Pakāpeniska kustībā esošo ienaidnieka tanku maskēšanās samazināšanās IRST skenēšanas sektorā."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Laiks, kas nepieciešams pēc kaujas sākuma, līdz IRST var izmantot pirmo reizi."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "IRST skenēšanas ilgums."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Laiks, kas nepieciešams, pirms IRST pēc aktivizēšanas var atkal izmantot."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Torņa pagriešanas ātruma samazināšanās, kamēr IRST ir aktīva."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "IRST skenēšanas sektora platums tā darbības ilguma beigās."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "IRST skenēšanas sektora platums tā darbības sākumā."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Laiks, cik ilgi jūsu tanks ir pamanīts pēc tam, kad ar IRST atklājat iepriekš nepamanītu pretinieku."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Pakāpenisks novērošanas diapazona palielinājums IRST skenēšanas sektorā."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Tehniskajos parametros norādītais bruņutehnikas ātrums."

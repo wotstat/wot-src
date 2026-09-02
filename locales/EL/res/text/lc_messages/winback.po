@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "ΚΛΕΙΣΙΜΟ"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Θετικό!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Η Προθέρμανση θα σας θυμίσει τα βασικά του παιχνιδιού. Θα έχετε να αντιμετωπίσετε αντιπάλους AI, ενώ οι μάχες αυτές δεν προσμετρούνται στα στατιστικά σας. Μπορείτε να αποχωρήσετε από την Προθέρμανση ανά πάσα στιγμή για να συνεχίσετε το παιχνίδι στις Τυχαίες Μάχες."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Προθέρμανση"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Ολοκληρώστε την Επιστροφή Στη Δράση ολοκληρώνοντας Τυπικές, Προνομιακές ή Πρόσθετες Αποστολές για να κερδίσετε τα έπαθλα. Η ολοκλήρωση των αποστολών μπορεί να γίνει σε Τυχαίες Μάχες ή σε μάχες Προθέρμανσης."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Ολοκληρώστε την Επιστροφή Στη Δράση ολοκληρώνοντας Τυπικές, Προνομιακές ή Πρόσθετες Αποστολές για να κερδίσετε τα πολύτιμα έπαθλα. Η ολοκλήρωση των αποστολών μπορεί να γίνει σε Τυχαίες Μάχες ή σε μάχες Προθέρμανσης. Κατά τη διάρκεια της διοργάνωσης Battle Pass, από κάθε αποστολή θα κερδίζετε πρόσθετους Πόντους Battle Pass."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Επιστροφή Στη Δράση"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Μπορείτε να κερδίσετε ως έπαθλα μισθωμένα Προνομιακά οχήματα της Βαθμίδας VIII, κανονικά οχήματα της Βαθμίδας VI, καθώς και εκπτώσεις στην ανακάλυψη και αγορά οχημάτων. Μετά την ολοκλήρωση της προόδου, θα λάβετε το κύριο έπαθλο."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Έπαθλα"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΗ ΔΡΑΣΗ"
-
 msgid "mainRewardTooltip/description"
 msgstr "Έπαθλα από την ολοκλήρωση της Επιστροφής Στη Δράση, θα κερδίσετε:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Κύριο Έπαθλο"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Εκπτώσεις στην ανακάλυψη και αγορά ενός οχήματος της Βαθμίδας %(level)s"
+msgstr "Εκπτώσεις στην ανακάλυψη και αγορά ενός οχήματος της Βαθμίδας {{level}}"
 
 msgid "modeInfoTooltip/description"
 msgstr "Μάχες εναντίον αντιπάλων AI, οι οποίες δεν προσμετρούνται στα στατιστικά σας. Για να νικήσετε θα πρέπει να καταλάβετε την εχθρική βάση ή να καταστρέψετε όλα τα εχθρικά οχήματα. Οι μάχες αυτές διεξάγονται με μορφή 15v15 για τα οχήματα των Βαθμίδων VI–XI και με τη μορφή 10v10 για τα οχήματα των Βαθμίδων I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Προθέρμανση"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Μπορείτε να επιλέξετε οποιοδήποτε κανονικό όχημα Βαθμίδας %(level)s. Το όχημα προσφέρεται με όλα τα εξαρτήματα, πλήρωμα και θέση στο Γκαράζ."
+msgstr "Μπορείτε να επιλέξετε οποιοδήποτε κανονικό όχημα Βαθμίδας {{level}}. Το όχημα προσφέρεται με όλα τα εξαρτήματα, πλήρωμα και θέση στο Γκαράζ."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Όχημα Βαθμίδας %(level)s"
+msgstr "Όχημα Βαθμίδας {{level}}"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "Έκπτωση %(researchDiscount)s στην ανακάλυψη και έκπτωση %(purchaseDiscount)s στην αγορά ενός οχήματος της Βαθμίδας %(level)s. Μπορείτε να επιλέξετε οποιοδήποτε όχημα από τον Πίνακα Τεχνολογίας."
+msgstr "Έκπτωση {{researchDiscount}} στην ανακάλυψη και έκπτωση {{purchaseDiscount}} στην αγορά ενός οχήματος της Βαθμίδας {{level}}. Μπορείτε να επιλέξετε όχημα από οποιονδήποτε κλάδο τεχνολογίας."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Η έκπτωση {whiteSpanish_Open}στην ανακάλυψη{whiteSpanish_Close} προστίθεται στην έκπτωση από τα μηχανολογικά σχέδια του οχήματος. Ισχύει η μέγιστη {whiteSpanish_Open}έκπτωση στην αγορά{whiteSpanish_Close} που μπορεί να αξιοποιηθεί."
+msgstr "Η έκπτωση {{@ style (color $color)}}στην ανακάλυψη{{/}} προστίθεται στην έκπτωση από τα μηχανολογικά σχέδια του οχήματος. Ισχύει η μέγιστη {{@ style (color $color)}}έκπτωση στην αγορά{{/}} που μπορεί να αξιοποιηθεί."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Έκπτωση σε Όχημα της Βαθμίδας %(level)s"
+msgstr "Έκπτωση σε Όχημα της Βαθμίδας {{level}}"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Θετικόν!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Η Προθέρμανση θα σας θυμίσει τα βασικά του παιχνιδιού. Θα έχετε να αντιμετωπίσετε αντιπάλους AI, ενώ οι μάχες αυτές δεν προσμετρούνται στα στατιστικά σας. Μπορείτε να αποχωρήσετε από την Προθέρμανση ανά πάσα στιγμή για να συνεχίσετε το παιχνίδι στις Τυχαίες Μάχες."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Προθέρμανση"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Ολοκληρώστε την Επιστροφή Στη Δράση ολοκληρώνοντας Τυπικές, Προνομιακές ή Πρόσθετες Αποστολές για να κερδίσετε τα πολύτιμα έπαθλα. Η ολοκλήρωση των αποστολών μπορεί να γίνει σε Τυχαίες Μάχες ή σε μάχες Προθέρμανσης. Κατά τη διάρκεια της διοργάνωσης Battle Pass, από κάθε αποστολή θα κερδίζετε πρόσθετους Πόντους Battle Pass."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Ολοκληρώστε την Επιστροφή Στη Δράση ολοκληρώνοντας Τυπικές, Προνομιακές ή Πρόσθετες Αποστολές για να κερδίσετε τα έπαθλα. Η ολοκλήρωση των αποστολών μπορεί να γίνει σε Τυχαίες Μάχες ή σε μάχες Προθέρμανσης."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Επιστροφή Στη Δράση"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Μπορείτε να κερδίσετε ως έπαθλα μισθωμένα Προνομιακά οχήματα της Βαθμίδας VIII, κανονικά οχήματα της Βαθμίδας VI, καθώς και εκπτώσεις στην ανακάλυψη και αγορά οχημάτων. Μετά την ολοκλήρωση της προόδου, θα λάβετε το κύριο έπαθλο."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Έπαθλα"
+
+msgid "umgIntroView/title"
+msgstr "ΕΠΙΣΤΡΟΦΗ ΣΤΗ ΔΡΑΣΗ"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Η έκπτωση στην %(research)s προστίθεται στην έκπτωση από τα μηχανολογικά σχέδια του οχήματος. Ισχύει η μέγιστη έκπτωση στην %(purchase)s που μπορεί να αξιοποιηθεί."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Έξοδος Από Την Προθέρμανση?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Μάχες που απομένουν: %(battlesCount)s"
+msgstr "Μάχες που απομένουν: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Μάχες εναντίον αντιπάλων AI, οι οποίες δεν προσμετρούνται στα στατιστικά σας."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Λάβατε επίσης:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "Έκπτωση %(expDiscount)s στην ανακάλυψη και έκπτωση %(priceDiscount)s στην αγορά ενός οχήματος της Βαθμίδας %(level)s"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Έκπτωση {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} στην ανακάλυψη και έκπτωση {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} στην αγορά ενός οχήματος της Βαθμίδας {{level}}"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Όχημα Βαθμίδας %(level)s"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Όχημα Βαθμίδας {{level}}"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Έκπτωση για όχημα της Βαθμίδας %(level)s"
+msgstr "Έκπτωση για όχημα της Βαθμίδας {{level}}"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Για την ολοκλήρωση μιας σειράς Ημερήσιων Αποστολών"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "Η ΠΡΟΟΔΟΣ ΟΛΟΚΛΗΡΩΘΗΚΕ"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "Έκπτωση %(expDiscount)s στην ανακάλυψη\nκαι έκπτωση %(priceDiscount)s στην αγορά"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "Έκπτωση {{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} στην ανακάλυψη και έκπτωση {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} στην αγορά"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Στο Γκαράζ"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Ημέρες μίσθωσης: %(days)s"
+msgstr "Ημέρες μίσθωσης: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Έκπτωση στην ανακάλυψη και στην αγορά"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Επιλέξτε Αργότερα"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Επαναφορά φίλτρου"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Έκπτωση Οχήματος"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Όχημα Βαθμίδας %(vehicleLevel)s"
+msgstr "Όχημα Βαθμίδας {{vehicleLevel}}"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Θετικό!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Προσωρινά Αδύνατη Η Επιλογή Επάθλου"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Έχετε ανακαλύψει όλα τα οχήματα της Βαθμίδας %(vehicleLevel)s. Θα λαμβάνετε πλέον εθνικά τμήματα σχεδίων ως έπαθλο."
+msgstr "Έχετε ανακαλύψει όλα τα οχήματα της Βαθμίδας {{vehicleLevel}}. Θα λαμβάνετε πλέον εθνικά τμήματα σχεδίων ως έπαθλο."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Αναζήτηση με το όνομα"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Προβολή:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Προκαθορισμένα"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Επιλεγμένα έπαθλα: %(amountRewards)s %(infoIcon)s"
+msgstr "Επιλεγμένα έπαθλα: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Επιλέξτε έπαθλα από τις διαθέσιμες κατηγορίες"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Δεν βρέθηκε κάτι. Αλλάξτε τις ρυθμίσεις του φίλτρου ή επαναφέρετε την προκαθορισμένη τιμή."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}Εθνικό τμήμα σχεδίου x%(bluePrintsAmount)s {white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Εθνικά τμήματα σχεδίων{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (έκπτωση %(expDiscount)s% στην ανακάλυψη και έκπτωση %(priceDiscount)s% στην αγορά)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (έκπτωση {{expDiscount}}% στην ανακάλυψη και έκπτωση {{priceDiscount}}% στην αγορά)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Έκπτωση σε Όχημα της Βαθμίδας %(level)s"
+msgstr "Έκπτωση σε Όχημα της Βαθμίδας {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (με όλα τα εξαρτήματα, πλήρωμα και θέση γκαράζ)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (με όλα τα εξαρτήματα, πλήρωμα και θέση γκαράζ)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Όχημα Βαθμίδας %(level)s"
+msgstr "Όχημα Βαθμίδας {{level}}"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Κάντε κλικ στο Παραλαβή για να λάβετε τα έπαθλα που επιλέξατε."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Επιλεγμένα έπαθλα: %(amountRewards)s"
+msgstr "Επιλεγμένα έπαθλα: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Αγορά"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "ΕΠΙΛΕΞΤΕ ΕΠΑΘΛΟ"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "αντιαρματικό"

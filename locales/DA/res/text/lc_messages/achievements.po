@@ -139,15 +139,6 @@ msgstr "Tildelt spillere for deres uvurderlige bidrag til udviklingen af World o
 msgid "15YearsOfService_descr"
 msgstr "Du har været i spillet siden %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP reservebedrift 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Tildelt for at fuldføre fremskridtet."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Tildelt for dine bedrifter i løbet af spillet"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP reservebedrift 2"
 
@@ -429,6 +420,15 @@ msgstr "• Tildelt for at fuldføre alle tre kapitler."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Tildelt for dine bedrifter under Battle Pass sæson XX."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Træfning i lavlandet"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Tildelt for at fuldføre alle tre kapitler."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Tildelt for dine bedrifter under Battle Pass sæson XXI."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Det primære fremskridt består af 45 stadier."
@@ -1828,6 +1828,48 @@ msgstr "Sølvdrage"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Tildelt for at indsamle mindst 9 Onslaught-faner i Dragens år i Onslaught-kamptypen."
 
+msgid "comp7_6_1"
+msgstr "Azurblå gnist"
+
+msgid "comp7_6_1_descr"
+msgstr "Tildelt for at fuldføre en serie missioner i Den azurblå føniks' sæson i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzeføniks"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Tildelt for at indsamle mindst 6 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Føniksens år, mester"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Tildelt for at indsamle mindst 15 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Guldføniks"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Tildelt for at indsamle mindst 12 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Jernføniks"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Tildelt for at indsamle mindst 3 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Føniksens år, legende"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Tildelt for at indsamle mindst 18 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Sølvføniks"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Tildelt for at indsamle mindst 9 Onslaught-faner i Føniksens år i Onslaught-kamptypen."
+
 msgid "conqueror"
 msgstr "Erobrer %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Tildeles kun i standard kampe."
 
 msgid "huntsman_descr"
-msgstr "Ødelæg alle fjendtlige lette kampvogne (mindst 3) i løbet af én kamp."
+msgstr "Ødelæg alle fjendtlige lette kampvogne (mindst 2) i løbet af én kamp."
 
 msgid "huntsman_heroInfo"
 msgstr "Sergent Grigoriy Naydin var en BT-7 kommandør. Den 25. juni, 1941, nær den litauiske by Rudishkyay, ødelagde han en Wehrmacht kolonne med armerede køretøjer, inklusive 15 køretøjer og 10 kanoner fra det 19. Mekaniserede Korps. Det lykkedes Naydin at holde den tyske fremfærd stangen i to dage, hvilket gjorde det muligt at organisere forsvaret af Vilnius. For denne handling, blev Naydin gjort til en Helt af Sovjetunionen."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Fuldfør med udmærkelse 15 personlige missioner for Unionen. Belønning: Eksemplarisk udførelse: Union medalje, klasse III."
 
 msgid "readyForBattleAssault"
-msgstr "Eksemplarisk udførelse: Fortrop"
+msgstr "Eksemplarisk udførelse: Sektor 3 Fortrop"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "For at fuldføre alle Fortrop-missionerne i Sektor 3-kampagnen."
+msgstr "For at fuldføre alle Fortrop-missionerne i de primære operationer i Sektor 3-kampagnen."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Eksemplarisk udførelse: Fossa Fortrop"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "For at fuldføre alle Fortrop-missionerne i Fossa-operationen i Sektor 3-kampagnen."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Eksemplarisk udførelse: Fossa Baghold"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "For at fuldføre alle Baghold-missionerne i Fossa-operationen i Sektor 3-kampagnen."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Eksemplarisk udførelse: Fossa Assistance"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "For at fuldføre alle Assistance-missionerne i Fossa-operationen i Sektor 3-kampagnen."
 
 msgid "readyForBattleHT"
 msgstr "Eksemplarisk udførelse: Tunge kampvogne"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Fuldfør med udmærkelse 15 personlige missioner for SPG'ere. Belønning: Eksemplarisk udførelse: SPG medalje, klasse IV."
 
 msgid "readyForBattleSniper"
-msgstr "Eksemplarisk udførelse: Baghold"
+msgstr "Eksemplarisk udførelse: Sektor 3 Baghold"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "For at fuldføre alle Baghold-missionerne i Sektor 3-kampagnen."
+msgstr "For at fuldføre alle Baghold-missionerne i de primære operationer i Sektor 3-kampagnen."
 
 msgid "readyForBattleSupport"
-msgstr "Eksemplarisk udførelse: Assistance"
+msgstr "Eksemplarisk udførelse: Sektor 3 Assistance"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "For at fuldføre alle Assistance-missionerne i Sektor 3-kampagnen."
+msgstr "For at fuldføre alle Assistance-missionerne i de primære operationer i Sektor 3-kampagnen."
 
 msgid "reliableComrade"
 msgstr "Kampven"
@@ -4692,6 +4761,15 @@ msgstr "Tildelt for at fuldføre fremskridtet i Waffenträger: Paradoks. Denne �
 
 msgid "wt2025progression_descr"
 msgstr "Fuldfør fremskridt i Waffenträger-kamptypen."
+
+msgid "wt2026progression"
+msgstr "Stormrytter"
+
+msgid "wt2026progression_condition"
+msgstr "Tildelt for at fuldføre fremskridtet i Waffenträger: Genesis 2026. Denne ære tildeles dem, der kæmpede mod von Kriegers første tænkende maskine, Den Elektriske Intelligens, og afskar alle de kredsløb, som den brugte til at nå ind i vores verden."
+
+msgid "wt2026progression_descr"
+msgstr "Fuldfør fremskridtet i Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Lynets mester"

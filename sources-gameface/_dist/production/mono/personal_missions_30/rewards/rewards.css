@@ -64,7 +64,7 @@
 
 .AdditionalRewards_reward_ed90708c + .AdditionalRewards_reward_ed90708c {
   margin-left: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Buttons_82277d53 {
@@ -83,7 +83,7 @@
 
 .Buttons_text_981ee64f {
   font-weight: 700;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleName_cce06ab3 {
@@ -92,10 +92,12 @@
   color: #fff;
   position: relative;
 }
-.VehicleName_base__24x24_e43b4676, .VehicleName_base__24x24_metal_af74305d {
+.VehicleName_base__24x24_e43b4676,
+.VehicleName_base__24x24_metal_af74305d {
   font-size: 14rem;
 }
-.VehicleName_base__48x48_e43b4676, .VehicleName_base__64x64_a079d4e3 {
+.VehicleName_base__48x48_e43b4676,
+.VehicleName_base__64x64_a079d4e3 {
   font-size: 22rem;
   font-weight: 700;
   line-height: 1.3em;
@@ -109,7 +111,8 @@
 .VehicleName_vehicleTypeContainer_1421b13d {
   position: relative;
 }
-.VehicleName_base__24x24_e43b4676 .VehicleName_vehicleTypeContainer_1421b13d, .VehicleName_base__24x24_metal_af74305d .VehicleName_vehicleTypeContainer_1421b13d {
+.VehicleName_base__24x24_e43b4676 .VehicleName_vehicleTypeContainer_1421b13d,
+.VehicleName_base__24x24_metal_af74305d .VehicleName_vehicleTypeContainer_1421b13d {
   width: 24rem;
 }
 .VehicleName_base__48x48_e43b4676 .VehicleName_vehicleTypeContainer_1421b13d {
@@ -132,7 +135,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.VehicleName_base__24x24_e43b4676 .VehicleName_vehicleType_5ec4137d, .VehicleName_base__24x24_metal_af74305d .VehicleName_vehicleType_5ec4137d {
+.VehicleName_base__24x24_e43b4676 .VehicleName_vehicleType_5ec4137d,
+.VehicleName_base__24x24_metal_af74305d .VehicleName_vehicleType_5ec4137d {
   width: 24rem;
   height: 24rem;
 }
@@ -151,7 +155,7 @@
 .VehicleName_base__83x74_1dd2aae1 .VehicleName_vehicleType_5ec4137d {
   width: 83rem;
   height: 74rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Header_fadeIn_65f475ba {
@@ -258,7 +262,7 @@
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes RegularMainReward_fadeIn_54e4f800 {
@@ -344,7 +348,8 @@
 .mediaLarge .RegularMainReward_info_59fd3db8 {
   font-size: 20rem;
 }
-.RegularMainReward_base__attachment_54e4f800 .RegularMainReward_info_59fd3db8 {
+.RegularMainReward_base__attachment_54e4f800 .RegularMainReward_info_59fd3db8,
+.RegularMainReward_base__style_3d_54e4f800 .RegularMainReward_info_59fd3db8 {
   visibility: hidden;
 }
 .showMainRewardsLabels .RegularMainReward_info_59fd3db8 {
@@ -354,7 +359,7 @@
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes VehiclePart_fadeIn_4fbae416 {
@@ -420,7 +425,7 @@
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes MainRewards_fadeIn_56da68ed {
@@ -495,7 +500,8 @@
   width: 1300rem;
   height: 1300rem;
   margin: -830rem 0 0 -650rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.common.lines) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.common.lines) no-repeat
+    center/contain;
   opacity: 0;
   mix-blend-mode: additive;
   position: absolute;
@@ -518,7 +524,7 @@
 }
 .MainRewards_base__campaignWithHonors_56da68ed .MainRewards_rays_466e2f66 {
   margin-top: -770rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleVideo_210aecbb {
@@ -541,7 +547,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Rewards_fadeIn_405577a5 {
@@ -661,7 +667,8 @@
 .Rewards_closeButton_550ea6e3 {
   width: 48rem;
   height: 48rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.rewards.close) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.rewards.close) no-repeat
+    center/contain;
   opacity: 0.6;
   transition: opacity 0.3s;
   cursor: pointer;

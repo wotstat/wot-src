@@ -232,11 +232,35 @@ msgstr "Šis ierocis var šaut nepārtraukti bez nepieciešamības pārlādēt. 
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Termiskās Pārkaršanas Kontroles Automātiskais Lielgabals"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mehānisms uzreiz samazina šāviņa pārlādēšanas laiku līdz īsam fiksētam laikam. Katra izmantošana patērē vienu uzlādi uz katru šāviņu, un uzlādes laika gaitā atjaunojas—ātrāk, kad magazīna ir pilna. Kaujas sākumā ir pieejams noteikts uzlaužu skaits."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Piespiedu ielādes mehānisms"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Šis tanks ir aprīkots ar raķešu palaišanas iekārtu, kas uzstādīta lielgabala maskā. Lai pārslēgtos uz raķešu tēmēkli, nospiediet:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaksiālais raķešu palaidējs"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Mērķējot ar raķešu tēmēkli, nospiediet šaušanas pogu, lai palaistu raķeti:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaksiālais raķešu palaidējs"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Katru reizi, kad trāpi ienaidniekam ar čaulu, tu iegūsti pārlādēšanas efektivitātes līmeni, kas uz laiku palielina tava ieroča pārlādēšanas ātrumu. Līmeņi uzkrājas ar katru trāpījumu.\nIenaidnieka tanka iznīcināšana ar čaulu piešķir papildu pārlādēšanas efektivitātes līmeņus."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Daļēji automātiska munīcijas glabātuve"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Šī tanka Ārējais munīcijas padeves modulis ļauj tam izšaut jaudīgus viengabala šāviņus ar pastiprinātu lādiņu, kas nodara lielākus bojājumus. Kamēr modulis ir aktīvs, tas arī samazina mobilitāti un šaušanas ātrumu."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Ārējās munīcijas padeves režīms"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Ja lielgabals ir ielādēts, vari sākt nākamā šāviena uzkarsēšanu. Jo augstāks karstuma līmenis, jo lielāks vidējais bojājumu bonuss.\nLai sāktu uzkarsēšanu, nospied taustiņu:"
@@ -345,6 +369,30 @@ msgstr "Pēc aktivizācijas, reaktīvo dzinēju pastiprinātāji palielina dzin�
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Priekšrocības un Trūkumi"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Kad ar lādiņu trāpāt redzamam ienaidnieka tankam, nākamā lādiņa degļa iestatījums tiek pielāgots. Ja pirmais šāviens izsita cauri ienaidnieka bruņām, nākamā šāviena bojājumi tiek palielināti. Ja ne, tiek palielināta nākamā šāviena cauršaušanas spēja."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Regulējams detonatora iestatītājs"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms šāviena mainīt dažus lādiņa parametrus. Dažādu lādiņu parametri atšķiras atkarībā no izvēlētā režīma, un katrs režīms ļauj ātri pielāgoties dažādām kaujas situācijām."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Lādiņu kalibrēšanas sistēma"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Uzlabota optikas ierīce palielina jūsu redzamības rādiusu un uzlabo kustīgu un aiz lapotnes paslēptu tanku atklāšanu. Aktivizējot tā skenē šauru sektoru jūsu tanka priekšā, atklājot nomaskētus mērķus, pirms sākas atdzišanas periods."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrasarkanā meklēšanas un izsekošanas sistēma (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Tomēr, ja tas atklāj nepamanītu ienaidnieku, arī jūs uz noteiktu laiku nekavējoties kļūstat pamanāms, un gan jūs, gan ienaidnieki, kurus pamanāt, par to tiekat informēti uzreiz. Jūs varat manuāli apturēt skenēšanu un pēc īsas aizkaves sākt ierīces dzesēšanas laiku."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrasarkanā meklēšanas un izsekošanas sistēma (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Cietā kurināmā paātrinātāji paaugstina paātrinājumu, mobilitāti un manevrētspēju uz vairākām sekundēm. Kreisais un labais paātrinātāji darbojas neatkarīgi viens no otra, nodrošinot ātrāku korpusa apgriešanos un neierobežo atpakaļgaitu."

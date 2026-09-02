@@ -1009,6 +1009,9 @@ msgstr "O treino dos membros da tripulação falhou devido a um erro no servidor
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Erro ao receber o presente: erro do servidor."
+msgstr "Erro ao abrir a caixa: Erro de servidor."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Erro ao receber o presente: Por favor espere até a operação anterior estar concluída."
+msgstr "Erro a abrir a caixa: Por favor espere até que a operação anterior esteja concluída."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "A acção está indisponível temporariamente. Tente novamente mais tarde."
@@ -2383,30 +2386,6 @@ msgstr "Recebida a Camuflagem exclusiva para %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Está disponível a Camuflagem rara do %(vehicleName)s para todos os veículos da nação: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Todo o progresso da operação foi guardado. Pode retomar as campanhas a qualquer momento."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "As campanhas %(campaignName1)s e %(campaignName2)s foram colocadas em pausa"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "As operações pausadas e as suas missões foram retomadas."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "As campanhas %(campaignName1)s e %(campaignName2)s foram retomadas"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Todo o progresso da operação foi guardado. Pode retomar a campanha a qualquer momento."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Campanha %(campaignName)s pausada"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "As operações em pausa foram retomadas."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Campanha %(campaignName)s retomada"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "O %(detailName)s foi montado com sucesso."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Erro ao receber recompensas. Tente novamente mais tarde."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "O %(detail_name)s foi montado com sucesso."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Erro ao receber recompensas. Tente novamente mais tarde."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "O %(detail_name)s foi montado com sucesso."
 
 msgid "personalMissions/reward/regular/server_error"

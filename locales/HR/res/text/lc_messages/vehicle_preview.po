@@ -40,6 +40,9 @@ msgstr "Istraživanje"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Vrati"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Na velike kutije"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "%(nation)s vozilo razine %(level)s nije istraženo"
 
@@ -54,6 +57,15 @@ msgstr "Popust na kupnju:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Popust na istraživanje:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Ovo vozilo se može dobiti iz {{@ style (color $color)}}velikih kutija!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Velike kutije!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Ovo se vozilo može dobiti iz"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Primjeni popust kupona: %(value)s"

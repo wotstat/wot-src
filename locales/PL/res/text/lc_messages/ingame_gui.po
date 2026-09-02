@@ -700,6 +700,9 @@ msgstr "Strefa zajęta"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Strefa zniszczeń po pożarze"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Zadane uszkodzenia"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Pojazd naprawiony"
 
@@ -741,6 +744,9 @@ msgstr "Uszkodzenia od strzału"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Uszkodzenie od kuli ognia"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Uszkodzenia od strzału"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Uszkodzenia od taranowania"
@@ -907,6 +913,9 @@ msgstr "Nie przebito gąsienicy"
 msgid "hitMarker/wheelBlocked"
 msgstr "Nie przebito koła"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSYMALNY POZIOM POJAZDU"
 
@@ -1020,6 +1029,21 @@ msgstr "Naprawa nie jest wymagana: wszystkie urządzenia są w stanie nienaruszo
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] jest w doskonałym stanie, nie wymaga napraw"
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Niedostępne: Magazynek jest pełny."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Niedostępne: Brak pocisków."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Niedostępne: Brak ładunków."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Niedostępne: Przeładowanie prawie zakończone."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Wystrzelenie rakiety jest niedostępne"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nie można aktywować broni sprzężonej."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm pocisk odłamkowo-burzący %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm pocisk kumulacyjny %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Szansa na trafienie krytyczne: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Zmniejszono"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Zwiększono"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standardowa"
+
 msgid "shells_kinds/params/damage"
 msgstr "Średnie uszkodzenia: %(value)s PW"
 
@@ -2710,17 +2746,41 @@ msgstr "Uszkodzenia na sekundę: %(value)s PW/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Promień uszkodzeń: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Pełne / pojedyncze doładowanie"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Podstawowy / Zmodyfikowany:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Pełny / pojedynczy ładunek:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standardowy / Dostosowany:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standardowy / Skalibrowany:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Kąt normalizacji: %(value)s st."
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Utrata wartości penetracji: %(value)s na 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Średnia penetracja: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Kąt rykoszetu: %(value)s st."
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Prędkość pocisku: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Czas trwania ogłuszenia: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "do aktywacji trybu EAF"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "aby przełączyć w tryb ostrzału"
@@ -2745,6 +2805,9 @@ msgstr "aby aktywować dopalacze na paliwo ciekłe"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "by aktywować dopalacze odrzutowe"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "aby przełączyć tryby ognia"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "aby aktywować sekwencyjne dopalacze rakietowe"

@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Guld optjent"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "For at være med i rangeringen i %(campaignName)s, er du blevet tildelt %(nameMedal)s-medaljen."
+msgstr "For udførelse af en mission i %(campaignName)s-kampagnen, er du blevet tildelt %(nameMedal)s-medaljen."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Tillykke!"
@@ -1929,6 +1929,21 @@ msgstr "For udførelse af 30 missioner i %(categoryName)s-serien i %(campaignNam
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "For udførelse af 15 missioner i %(categoryName)s-serien i %(campaignName)s-kampagnen, er du blevet tildelt %(nameMedal)s-medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "For udførelse af en mission i %(campaignName)s-kampagnen, er du blevet tildelt %(nameMedal)s-medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Tillykke!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "For udførelse af 21 missioner i %(categoryName)s-serien i %(operationName)s-operationen, er du blevet tildelt %(nameMedal)s-medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "For udførelse af 14 missioner i %(categoryName)s-serien i %(operationName)s-operationen, er du blevet tildelt %(nameMedal)s-medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "For udførelse af 7 missioner i %(categoryName)s-serien i %(operationName)s-operationen, er du blevet tildelt %(nameMedal)s-medaljen."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "bøde for skade på allierede: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Klik på knappen for at se indholdet."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Du modtog en pakke:"
+msgstr "Pakke modtaget"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Se"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Til belønninger"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Porte aktiveret: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Vi aktiverede alle dine porte og tilføjede deres indhold til din konto:
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Belønninger modtaget"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Vi åbnede alle dine æsker og tilføjede belønningerne for Ferie-ops"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Universelle fragmenter"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s nationale fragmenter"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Konfigurationen på følgende køretøjer er blevet ændret: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Bemærk!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>og yderligere %(vehiclesCount)s</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Efter opdateringen, er alle mærker blevet fjernet fra køretøjer og sendt til depotet, i eksteriør skærmen."

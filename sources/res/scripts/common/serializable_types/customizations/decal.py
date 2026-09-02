@@ -2,6 +2,7 @@ from __future__ import absolute_import
 from collections import OrderedDict
 from items.components.c11n_constants import ApplyArea
 from py2to3.patched_future import with_metaclass
+from typing import Dict
 from serialization.field import intField, applyAreaEnumField
 from serialization.serializable_component import SerializableComponent
 from wrapped_reflection_framework import ReflectionMetaclass
@@ -25,3 +26,8 @@ class DecalComponent(with_metaclass(ReflectionMetaclass, SerializableComponent))
         self.progressionLevel = progressionLevel
         super(DecalComponent, self).__init__()
         return
+
+    def toDict(self):
+        at = self.appliedTo
+        p = self.id
+        return {i: p for i in ApplyArea.RANGE if i & at}

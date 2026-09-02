@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, List
 from functools import partial
 from future.utils import viewitems, viewvalues
 import BigWorld, Event, Math, VehicleStickers, Vehicular, math_utils
-from cgf_client_common.game_object_holder import GameObjectHolder
+from cgf_client_common.prefab_loader import PrefabLoader
 from dossiers2.ui.achievements import MARK_ON_GUN_RECORD
 from items.components.c11n_constants import EASING_TRANSITION_DURATION
 from gui import g_tankActiveCamouflage
@@ -98,7 +98,7 @@ ActivateContext = typing.NamedTuple(b'ActivateContext', (
  (
   b'dirtComponent', Vehicular.DirtComponent)))
 
-class HangarVehicleAppearance(GameObjectHolder):
+class HangarVehicleAppearance(PrefabLoader):
     __ROOT_NODE_NAME = b'V'
     itemsCache = dependency.descriptor(IItemsCache)
     itemsFactory = dependency.descriptor(IGuiItemsFactory)
@@ -113,6 +113,9 @@ class HangarVehicleAppearance(GameObjectHolder):
             return self.__vEntity.model
         else:
             return
+
+    def isReady(self):
+        return self.compoundModel is not None
 
     @property
     def id(self):
@@ -612,6 +615,7 @@ class HangarVehicleAppearance(GameObjectHolder):
         prefabMap = [PrefabsMapItem(attachment.slotName, attachment.modelName) for attachment in self.__attachments if not attachment.hidden] + self.slotPrefabs
         extraSlots = getExtraSlotMap(self.__vDesc, self) + getObjectSlots(self.__vDesc)
         createVehicleComposition(gameObject=self.gameObject, prefabMap=prefabMap, followNodes=True, extraSlots=extraSlots, queue=queue)
+        self._flushLoadingQueue()
         return
 
     def __onItemsCacheSyncCompleted(self, updateReason, _):
@@ -828,7 +832,7 @@ class HangarVehicleAppearance(GameObjectHolder):
 
     def rotateTurretForAnchor(self, anchorId, duration=EASING_TRANSITION_DURATION):
         if self.compoundModel is None or self.__vDesc is None:
-            return False
+            return
         defaultYaw = self._getTurretYaw()
         turretYaw = self.__getTurretYawForAnchor(anchorId, defaultYaw)
         self.turretRotator.start(turretYaw, rotationTime=duration)
@@ -990,7 +994,8 @@ class HangarVehicleAppearance(GameObjectHolder):
 
         self.__modelAnimators = []
         for go in self.customizationGameObjects:
-            queue.removeGameObject(go)
+            if go.valid:
+                queue.removeGameObject(go)
 
         self.customizationGameObjects = []
         return

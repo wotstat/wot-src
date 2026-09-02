@@ -167,7 +167,7 @@ msgid "number/minLenToSplit"
 msgstr "5"
 
 msgid "number/negativeSign"
-msgstr "−"
+msgstr "-"
 
 msgid "number/separator"
 msgstr " "
@@ -181,11 +181,17 @@ msgstr "%#d %bs a las %TIME"
 msgid "regionalDate/dayMonthFull"
 msgstr "%#d de %Bs"
 
+msgid "regionalDate/dayMonthFull/EU"
+msgstr "%# d de %B d"
+
 msgid "regionalDate/dayMonthFullTime"
 msgstr "%#d de %Bs a las %TIME"
 
 msgid "regionalDate/dayMonthNumeric"
 msgstr "%#d/%#m"
+
+msgid "regionalDate/dayMonthNumeric/EU"
+msgstr "%d/%m"
 
 msgid "regionalDate/fullDate"
 msgstr "%#d de %Bs de %Y"

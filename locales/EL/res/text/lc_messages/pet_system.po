@@ -56,13 +56,13 @@ msgid "infoPageEntryPoint"
 msgstr "Πως θα γίνω φίλος με το κατοικίδιό μου?"
 
 msgid "message/petAdded/button"
-msgstr "Αποθήκη"
+msgstr "Φωλιά Κατοικίδιου"
 
 msgid "message/petAdded/header"
 msgstr "Το νέο κατοικίδιο %(petType)s προστέθηκε στον λογαριασμό σας"
 
 msgid "message/petAdded/text"
-msgstr "Το κατοικίδιο %(petBreed)s προστέθηκε στην αποθήκη"
+msgstr "Το κατοικίδιο %(petBreed)s προστέθηκε στην φωλιά σας"
 
 msgid "message/petBuy/success"
 msgstr "Το κατοικίδιο %(petName)s αγοράστηκε επιτυχώς. Κόστος %(price)s."
@@ -92,10 +92,10 @@ msgid "petEventTooltip/body"
 msgstr "Το κατοικίδιο %(petName)s βρήκε κάτι όσο λείπατε! Πρέπει να το τσεκάρετε!"
 
 msgid "petHouseMarker/default"
-msgstr "Αποθήκη Κατοικίδιων"
+msgstr "Φωλιά Κατοικίδιου"
 
 msgid "petHouseMarker/pet"
-msgstr "Αποθήκη: {{petName}}"
+msgstr "Φωλιά Κατοικίδιου: {{petName}}"
 
 msgid "petSettings/cancelButton"
 msgstr "Άκυρο"
@@ -176,7 +176,7 @@ msgid "petStorage/status/selected"
 msgstr "Επιλέχθηκε"
 
 msgid "petStorage/title"
-msgstr "Αποθήκη"
+msgstr "Φωλιά Κατοικίδιου"
 
 msgid "petStorageTooltip/bonus/caption"
 msgstr "Μάχες απομένουν. Επαναφορά αύριο."
@@ -209,19 +209,13 @@ msgid "promotion/button/challenge"
 msgstr "Αποστολές"
 
 msgid "promotion/button/purchase"
-msgstr "Εφοδιασμός"
+msgstr "Αγορά"
 
 msgid "promotion/challengeInfo/text_1"
 msgstr "Λεπτομέρειες αποστολής"
 
-msgid "promotion/challengeInfo/text_2"
-msgstr "Διαθέσιμο σε ειδικό πακέτο προσφοράς μέσα στον Εφοδιασμό του παιχνιδιού."
-
 msgid "promotion/challengeInfo/title_1"
 msgstr "Αποστολές"
-
-msgid "promotion/challengeInfo/title_2"
-msgstr "Πως Να Το Αποκτήσετε"
 
 msgid "synergyTooltip/description/done"
 msgstr "Κάθε επίπεδο συνεργασίας με το κατοικίδιό σας ενισχύει τη φιλία σας. Με έναν τέτοιον Σύντροφο Στη Μάχη, δεν θα μπορούσατε να ζητήσετε καλύτερο σύμμαχο. Αν παραμείνετε ανενεργοί για μεγάλο χρονικό διάστημα, αυτό το επίπεδο θα μειωθεί."

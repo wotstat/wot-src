@@ -298,8 +298,26 @@ msgstr "Erhöht den Bonus auf Motorleistung durch die Schubdüsen um {colorTagOp
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "Erhöht die verfügbaren Aktivierungen der Schubdüsen in einem Gefecht um {colorTagOpen}{value}{colorTagClose}."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "Reduziert die initiale Abklingzeit, ehe das Infrarotzielsystem eingesetzt werden kann, um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "Reduziert die Abklingzeit, ehe das Infrarotzielsystem erneut eingesetzt werden kann, um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "Reduziert die Zeit, die das eigene Fahrzeug aufgedeckt bleibt, nachdem das Infrarotzielsystem ein gegnerisches Fahrzeug entdeckt hat, um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "Verlängert die Dauer des Suchvorgangs des Infrarotzielsystems um {colorTagOpen}{value0} s{colorTagClose}, verengt den untersuchten Bereich um {colorTagOpen}{value1} Grad{colorTagClose}, steigert die Sichtweite des Systems um {colorTagOpen}{value2} %{colorTagClose} und verringert die Tarnung von Fahrzeugen in Bewegung um {colorTagOpen}{value3} %{colorTagClose} sowie von Fahrzeugen hinter Laubwerk um {colorTagOpen}{value4} %{colorTagClose}."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Reduziert die Wahrscheinlichkeit der Verletzung eines Besatzungsmitglieds, wenn das Fahrzeug beschädigt wird."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "Erhöht die Durchschlagskraft, nachdem ein Treffer die Panzerung nicht durchschlagen hat, um {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "Erhöht den Schaden, nachdem ein Treffer die Panzerung durchschlagen hat, um {colorTagOpen}{value}%{colorTagClose}."
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Reduziert die Geschützstreuung, wenn das Geschütz beschädigt ist."
@@ -460,6 +478,18 @@ msgstr "Reduziert die Nachladezeit zwischen den Granaten im Magazin."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Reduziert die Wahrscheinlichkeit, beim Feuern durch ein gegnerisches Fahrzeug entdeckt zu werden."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "Reduziert die Abklingzeit von Ladungen, wenn das Magazin nicht voll ist, {colorTagOpen}um {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "Reduziert die Abklingzeit von Ladungen, wenn das Magazin nicht voll ist, {colorTagOpen}um {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "Reduziert die beschleunigte Nachladezeit {colorTagOpen}um weitere {value} s{colorTagClose}."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "Erhöht die Anzahl der Ladungen zu Beginn des Gefechts {colorTagOpen}um {value}{colorTagClose}."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "Reduziert die Verzögerung zur Abkühlung des Geschützes um {colorTagOpen}{value} s{colorTagClose}."
 
@@ -468,6 +498,18 @@ msgstr "Reduziert die pro Schuss erzeugte Wärme um {colorTagOpen}{value} %{col
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "Beschleunigt die Abkühlung des erhitzten Geschützes um {colorTagOpen}{value} %{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "Reduziert die Nachladezeit des koaxialen Raketenwerfers um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "Reduziert die Nachladezeit des koaxialen Raketenwerfers um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "Reduziert die Nachladezeit des koaxialen Raketenwerfers um {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "Erhöht den Schaden der Raketen um {colorTagOpen}{value} SP{colorTagClose}."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Steigert den Schaden, der von nicht-HE-Granaten verursacht wird."
@@ -547,6 +589,18 @@ msgstr "Reduziert die Geschützstreuung im Bunkermodus um {colorTagOpen}{value}�
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "Reduziert die Nachladezeit im Bunkermodus um {colorTagOpen}{value} %{colorTagClose}."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "Erhöht die Höchstgeschwindigkeit vorwärts im EZM-Modus um {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "Erhöht den Schaden der Spezialgranaten im EZM-Modus um {colorTagOpen}{value} SP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "Erhöht den Schaden der Standardgranaten im EZM-Modus um {colorTagOpen}{value} SP{colorTagClose}."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "Reduziert die Nachladezeit im EZM-Modus um {colorTagOpen}{value}%{colorTagClose} (ausgenommen HE-Granaten)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Steigert die Strukturpunkte des Treibstofftanks und der Motormodule des Fahrzeugs."
 
@@ -555,6 +609,9 @@ msgstr "Verringert den Malus durch ein beschädigtes Munitionslager bzw. einen b
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Steigert den Schaden der eigenen Granaten gegen Module gegnerischer Fahrzeuge."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "Reduziert die erforderliche Zeit, um den Feuermodus zu wechseln, um {colorTagOpen}{value} s{colorTagClose}."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Erlaubt es, eine alternative Ausrüstung für Munition und Verbrauchsmaterial einzustellen."
@@ -742,6 +799,18 @@ msgstr "Kernform-Optimierung"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Erweiterte Treibmittellagerung"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Modifizierter Vorheizzünder"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Hochleistungs-Flüssigkeitskühlung"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Minimaldivergentes Sichtgerät"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Nebenläufige Flüssigkeitskühlung"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Fahrwerk-Robustheit"
 
@@ -750,6 +819,12 @@ msgstr "Reparaturgeschwindigkeit des Fahrwerks"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Besatzungsschutz"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Anpassbare Zünderprogrammierung: Durchschlag"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Anpassbare Zünderprogrammierung: Schaden"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situative Geschützstreuung"
@@ -928,6 +1003,18 @@ msgstr "Nachladezeit innerhalb des Magazins"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Tarnung nach dem Feuern"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Hochreine Läuferwicklung"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktive Laufradkühlung"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Hochleitfähiges Statorgehäuse"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Orthozyklische Wickeltechnik"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Niedertemperatur-Wärmeträger"
 
@@ -936,6 +1023,18 @@ msgstr "Hochleitfähige Thermoeinhausung"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Wärmerohr-Optimierung"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Ladezyklus-Optimierung"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Ladezyklus-Optimierung"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Ladezyklus-Optimierung"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Optimierte Sprengkopfform"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Schaden von nicht-HE-Granaten"
@@ -1018,6 +1117,18 @@ msgstr "Feingewuchtetes Laufrad"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulischer Ansetzer"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Verbesserte Fahrwerksdämpfer"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Modifizierte Einheits-Spezialgranaten"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Modifizierte Einheits-Standardgranaten"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimierter EZM-Ladezyklus"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Selektive Verstärkung für Modul-Robustheit"
 
@@ -1026,6 +1137,9 @@ msgstr "Selektiver Modulschutz"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Granatenmodulschaden"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimierte Rekalibrierung"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Ausrüstung Munition und Verbrauchsmaterial"

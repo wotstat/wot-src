@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "від запасу міцності машини"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "від швидкості обертання башти чи горизонтального наведення гармати для машин із нерухомою рубкою"
+msgstr "від швидкості горизонтального наведення"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "від швидкості обертання башти"
@@ -1325,7 +1325,7 @@ msgid "kpi/bonus/positive/vehicleGunShotDispersion"
 msgstr "до розкиду під час руху та поворотів"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
-msgstr "до розміру кола зведення після пострілу"
+msgstr "від розміру кола зведення після пострілу"
 
 msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
 msgstr "до розкиду під час руху шасі"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "до запасу міцності машини"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "до швидкості повороту башти або горизонтального наведення гармати для машин із нерухомою рубкою"
+msgstr "до швидкості горизонтального наведення"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "до швидкості обертання башти"
@@ -1592,7 +1592,7 @@ msgid "kpi/bonus/ttc/positive/crewStunDuration"
 msgstr "до часу оглушення екіпажу"
 
 msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
-msgstr "до нижнього порогу вилки шкоди та бронепробиття"
+msgstr "до нижнього порогу вилки шкоди\nта бронепробиття"
 
 msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
 msgstr "до завдавання шкоди тараном"
@@ -1604,7 +1604,7 @@ msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
 msgstr "до скритості супротивника,\nякий рухається"
 
 msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
-msgstr "до шансу ураження модулів та екіпажу супротивника"
+msgstr "до шансу ураження модулів та екіпажу\nсупротивника"
 
 msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
 msgstr "до швидкості гасіння пожежі"
@@ -2100,6 +2100,51 @@ msgstr " та "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Режим зовнішньої подачі боєприпасів дозволяє використовувати снаряди зі збільшеною шкодою."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Базові значення в стандартному режимі."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Змінені значення в режимі зовнішньої подачі боєприпасів."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Базові параметри для пострілів із повним зарядом"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Параметри для пострілів з одним зарядом"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Базові параметри для пострілів із повним зарядом"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Стандартні"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Параметри для пострілів з одним зарядом"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "У відкаліброваному режимі цей тип снарядів ефективний проти похилої броні."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Гармата машини оснащена спеціальними пристроями, що дозволяють змінювати деякі параметри снаряда перед пострілом."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "У стандартному режимі цей тип снарядів ефективний проти броні без екранів."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Стандартний режим"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Відкалібрований режим"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "У відкаліброваному режимі цей тип снарядів може пробивати екрани."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "У стандартному режимі цей тип снарядів ефективний проти вертикальної броні."
 
 msgid "tooltips/specializationDesc"
 msgstr "Загальне обладнання категорії «%(spec)s» дасть збільшений ефект, якщо його встановлено в цей слот. Обладнання інших категорій дасть лише стандартний ефект."

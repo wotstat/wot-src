@@ -382,11 +382,56 @@ msgstr "Ugentlige missioner er et sæt opgaver tilgængelige hver uge. Fremskrid
 msgid "info_page/main/weekly/title"
 msgstr "Ugentlige missioner"
 
+msgid "pm/missionState/active"
+msgstr "Aktiv"
+
+msgid "pm/missionState/complete"
+msgstr "Missioner fuldført"
+
+msgid "pm/missionState/improve"
+msgstr "Resultatforbedring"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Skift køretøj"
+
+msgid "pm/no_missions"
+msgstr "Ingen aktive missioner for dit valgte køretøj"
+
+msgid "pm/tier"
+msgstr "Upassende niveau"
+
+msgid "pm/unavailable"
+msgstr "Mission midlertidigt utilgængelig"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Der er ingen aktive missioner for dit valgte køretøj. Vælg venligst et andet køretøj."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Denne mission er midlertidigt utilgængelig af tekniske årsager. Vi undskylder ulejligheden."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Dit valgte køretøj opfylder ikke niveaukravet for de aktive operationer. Vælg venligst et andet køretøj."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Ingen aktive missioner"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Midlertidigt utilgængelig"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Upassende niveau"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Alle almindelige missioner fuldført for i dag"
 
 msgid "quests/daily_quests/completed"
 msgstr "Alle daglige missioner fuldført"
+
+msgid "slider/title/missions"
+msgstr "Almindelige missioner"
+
+msgid "slider/title/personalMissions"
+msgstr "Personlige missioner"
 
 msgid "tooltip/common/timer"
 msgstr "Tilgængelige om {{timeLeft}}"

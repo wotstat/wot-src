@@ -229,23 +229,14 @@ msgstr "la cumpărare:"
 msgid "battlePassBuyView/descr"
 msgstr "Cumpărarea unei etape de progres deblochează instantaneu și îți conferă toate recompensele incluse în acea etapă."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Aceste recompense îți vor fi acordate după finalizarea episoadelor următoare."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Următoarele recompense îți vor fi acordate pentru etapele %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Vei primi imediat următoarele recompense"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Următoarele recompense îți vor fi acordate pentru etapa %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "SE VA DEBLOCA"
+msgstr "Deblocarea în etapele nefinalizate"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "SE VA OBȚINE IMEDIAT"
+msgstr "Obținerea instantanee"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Activează capitolul Certificatului de luptă"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Circuitul Elită"
 
-msgid "chapter/fullName/201"
-msgstr "Timp Îngropat"
+msgid "chapter/fullName/211"
+msgstr "Specialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Cascador"
 
-msgid "chapter/fullName/203"
-msgstr "Comanda Deșertului"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoic"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "TIMP ÎNGROPAT"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "CASCADOR"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "COMANDA DEȘERTULUI"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIC"
 
 msgid "chapter/title"
 msgstr "CAPITOLUL %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Misiune pentru 3× EXP de echipaj"
 
 msgid "equipCoinBonus"
 msgstr "Componente: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Set de Atașamente 3D"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Comandant"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Disponibil după finalizarea tuturor capitolelor. Capitole finalizate: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Ia un vehicul premium și elemente de personalizare exclusive."
+msgstr "Joacă pentru recompense exclusive și elemente de personalizare unice."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Certificatul de luptă: Far Cry a sosit!"
+msgstr "Capitolul special a sosit!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Cumpără Certificatul îmbunătățit și mai multe recompense!"
@@ -1114,11 +1102,8 @@ msgstr "Etapa %(level)d a Circuitului Elită"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "experiență pentru fiecare membru de echipaj al vehiculului %(nation)s selectat"
 
-msgid "rewardChoice/subTitle"
-msgstr "SELECTEAZĂ RECOMPENSA"
-
 msgid "rewardChoice/title"
-msgstr "CERTIFICATUL DE LUPTĂ"
+msgstr "Selectează-ți recompensele"
 
 msgid "rewardChoice/titleChapter"
 msgstr "CERTIFICATUL DE LUPTĂ: CAPITOLUL %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "CERTIFICATUL DE LUPTĂ: CAPITOLUL %(chapter)s, ETAPA %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Căutând în nisipuri"
+msgid "season/fullName/21"
+msgstr "În rezervă"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "CĂUTÂND ÎN NISIPURI"
+msgid "season/fullNameUppercased/21"
+msgstr "ÎN REZERVĂ"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Directive de selectat"

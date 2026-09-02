@@ -116,7 +116,8 @@
 .CurrencyReward_value__freeXP_14604aab {
   color: #f2f2f7;
 }
-.CurrencyReward_value__xp_798b3220, .CurrencyReward_value__credits_7febd935 {
+.CurrencyReward_value__xp_798b3220,
+.CurrencyReward_value__credits_7febd935 {
   color: #ced9d9;
 }
 .CurrencyReward_value__gold_b344cb5e {
@@ -124,7 +125,8 @@
 }
 .CurrencyReward_value__crystal_8d9d5181 {
   color: #c9c9b6;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -205,7 +207,8 @@
 .Content_separator_9582cf97 {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Content_rewards_a1ee43b6 {
   display: flex;
@@ -214,7 +217,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }
@@ -226,14 +230,21 @@
   width: 100%;
   height: 222rem;
   margin-bottom: 12rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.quests_chain") no-repeat 50%/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.quests_chain") no-repeat 50% /
+    contain;
 }
 .Content_section_3b18e32a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, transparent, rgba(201, 201, 182, 0.07) 37%, rgba(201, 201, 182, 0.07) 63%, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 201, 182, 0.07) 37%,
+    rgba(201, 201, 182, 0.07) 63%,
+    transparent
+  );
 }
 .Content_title_616045b9 {
   color: #e9e2bf;

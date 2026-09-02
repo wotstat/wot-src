@@ -229,23 +229,14 @@ msgstr "ostettaessa:"
 msgid "battlePassBuyView/descr"
 msgstr "Edistymisen vaiheen ostaminen avaa ja antaa sinulle välittömästi kaikki siihen lukuun liittyvät palkinnot."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Nämä palkinnot myönnetään sinulle tulevien vaiheiden suorittamisen jälkeen."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Seuraavat palkinnot saat vaiheista %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Saat seuraavat palkinnot välittömästi"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Seuraavat palkinnot saat vaiheesta %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "AVATAAN"
+msgstr "Avaaminen suorittamattomissa vaiheissa"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "SAADAAN VÄLITTÖMÄSTI"
+msgstr "Välittömästi saaminen"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktivoi Taistelupassin luku"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "ELIITTIRATA"
 
-msgid "chapter/fullName/201"
-msgstr "Haudattu aika"
+msgid "chapter/fullName/211"
+msgstr "Spesialisti"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stunt-mies"
 
-msgid "chapter/fullName/203"
-msgstr "Aavikkoyksikkö"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoalainen"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "HAUDATTU AIKA"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPESIALISTI"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNT-MIES"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "AAVIKKOYKSIKKÖ"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOALAINEN"
 
 msgid "chapter/title"
 msgstr "LUKU %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Tehtävä x3 miehistökokemukseen"
 
 msgid "equipCoinBonus"
 msgstr "Komponentit: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Kolmiulotteisten lisävarusteiden lajitelma"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Komentaja"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Saatavilla, kun kaikki luvut on suoritettu: Suoritetut luvut: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Nappaa premium-vaunu ja eksklusiivisia muokkauselementtejä."
+msgstr "Sukella siihen eksklusiivisten palkintojen ja ainutlaatuisten muokkauselementtien perässä."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Taistelupassi: Far Cry on täällä!"
+msgstr "Erikoisluku on täällä!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Osta Parempi passi ja saat lisää palkintoja!"
@@ -1114,11 +1102,8 @@ msgstr "Eliittiradan vaihe %(level)d"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "kokemusta kullekin valitun kansakunnan (%(nation)s) vaunun miehistön jäsenelle"
 
-msgid "rewardChoice/subTitle"
-msgstr "VALITSE PALKINTOSI"
-
 msgid "rewardChoice/title"
-msgstr "TAISTELUPASSI"
+msgstr "Valitse palkintosi"
 
 msgid "rewardChoice/titleChapter"
 msgstr "TAISTELUPASSI: LUKU \"%(chapter)s\""
@@ -1129,14 +1114,14 @@ msgstr "TAISTELUPASSI: LUKU \"%(chapter)s\", VAIHE %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Hiekanjyvää etsimässä"
+msgid "season/fullName/21"
+msgstr "Arestissa"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "HIEKANJYVÄÄ ETSIMÄSSÄ"
+msgid "season/fullNameUppercased/21"
+msgstr "ARESTISSA"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Direktiivejä valittavaksi"

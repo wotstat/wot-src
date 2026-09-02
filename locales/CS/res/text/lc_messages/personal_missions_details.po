@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům stejné nebo vyšší úrovně palbou na vzdálenost %(distanceShortOrEqual)s m a menší"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "Zničte nepřátelská vozidla (%(goal)s) stejné nebo vyšší úrovně palbou na vzdálenost %(distanceShortOrEqual)s m a menší"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) stejné nebo vyšší úrovně palbou na vzdálenost %(distanceShortOrEqual)s m nebo menší"
 
 msgid "pm3_10_1_7_short"
 msgstr "Předvoj-7"
@@ -5856,6 +5856,978 @@ msgstr "Poškození"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Zničení"
+
+msgid "pm4_11_1_1"
+msgstr "Předvoj-1"
+
+msgid "pm4_11_1_10"
+msgstr "Předvoj-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům, která zasáhla vaše vozidlo palbou"
+
+msgid "pm4_11_1_10_short"
+msgstr "Předvoj-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Poškození"
+
+msgid "pm4_11_1_11"
+msgstr "Předvoj-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Zničte nepřátelské vozidlo nárazem a náraz přežijte"
+
+msgid "pm4_11_1_11_short"
+msgstr "Předvoj-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_1_12"
+msgstr "Předvoj-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) ze vzdálenosti %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_1_12_short"
+msgstr "Předvoj-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_1_13"
+msgstr "Předvoj-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Získejte ocenění „Velká ráže“"
+
+msgid "pm4_11_1_13_short"
+msgstr "Předvoj-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Hrdinové bitvy"
+
+msgid "pm4_11_1_14"
+msgstr "Předvoj-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Způsobte, obdržte a zastavte pancířem celkem %(goal)s bodů poškození"
+
+msgid "pm4_11_1_14_short"
+msgstr "Předvoj-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_1_15"
+msgstr "Předvoj-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) v dohledu vašeho vozidla"
+
+msgid "pm4_11_1_15_short"
+msgstr "Předvoj-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_1_16"
+msgstr "Předvoj-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Získejte ocenění „Ocelová zeď“"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Buďte nejlepším hráčem svého týmu podle způsobeného poškození"
+
+msgid "pm4_11_1_16_short"
+msgstr "Předvoj-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Hrdinové bitvy"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_1_17"
+msgstr "Předvoj-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Dosáhněte toho, aby celkové způsobené poškození a poškození zastavené pancířem %(vehicleHealthFactor)skrát přesáhlo body výdrže vašeho vozidla"
+
+msgid "pm4_11_1_17_short"
+msgstr "Předvoj-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Poškození a blokování"
+
+msgid "pm4_11_1_18"
+msgstr "Předvoj-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození znehybněným nepřátelským vozidlům"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "pm4_11_1_18_short"
+msgstr "Předvoj-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Poškození"
+
+msgid "pm4_11_1_19"
+msgstr "Předvoj-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům stejné nebo vyšší úrovně palbou na vzdálenost %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) stejné nebo vyšší úrovně palbou na vzdálenost %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_1_19_short"
+msgstr "Předvoj-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským těžkým tankům"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Poškoďte nepřátelské těžké tanky tím, že na ně %(goal)skrát vystřelíte"
+
+msgid "pm4_11_1_1_short"
+msgstr "Předvoj-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Poškození"
+
+msgid "pm4_11_1_2"
+msgstr "Předvoj-2"
+
+msgid "pm4_11_1_20"
+msgstr "Předvoj-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) %(uniqueGoal)s různých typů"
+
+msgid "pm4_11_1_20_short"
+msgstr "Předvoj-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Zničení"
+
+msgid "pm4_11_1_21"
+msgstr "Předvoj-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Způsobte, obdržte a zastavte pancířem celkem %(goal)s bodů poškození"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Způsobte 25 %% z celkového množství poškození způsobeného vaším týmem"
+
+msgid "pm4_11_1_21_short"
+msgstr "Předvoj-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Poškození"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) %(uniqueGoal)s různých typů"
+
+msgid "pm4_11_1_2_short"
+msgstr "Předvoj-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Zničení"
+
+msgid "pm4_11_1_3"
+msgstr "Předvoj-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Buďte nejlepším hráčem svého týmu podle způsobeného poškození"
+
+msgid "pm4_11_1_3_short"
+msgstr "Předvoj-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_1_4"
+msgstr "Předvoj-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Zablokujte pancířem %(goal)s bodů poškození ve stacionárním vozidle"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "pm4_11_1_4_short"
+msgstr "Předvoj-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Zablokování"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_5"
+msgstr "Předvoj-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům v dohledu vašeho vozidla"
+
+msgid "pm4_11_1_5_short"
+msgstr "Předvoj-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_6"
+msgstr "Předvoj-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Dosáhněte toho, aby celkové způsobené poškození a poškození zastavené pancířem %(vehicleHealthFactor)skrát přesáhlo body výdrže vašeho vozidla"
+
+msgid "pm4_11_1_6_short"
+msgstr "Předvoj-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Poškození a blokování"
+
+msgid "pm4_11_1_7"
+msgstr "Předvoj-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost%(distanceGreatOrEqual)s m nebo větší"
+
+msgid "pm4_11_1_7_short"
+msgstr "Předvoj-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Poškození"
+
+msgid "pm4_11_1_8"
+msgstr "Předvoj-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským těžkým tankům"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Buďte nejlepším hráčem svého týmu podle způsobeného poškození"
+
+msgid "pm4_11_1_8_short"
+msgstr "Předvoj-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_1_9"
+msgstr "Předvoj-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození znehybněným nepřátelským vozidlům"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "pm4_11_1_9_short"
+msgstr "Předvoj-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Poškození"
+
+msgid "pm4_11_2_1"
+msgstr "Léčka-1"
+
+msgid "pm4_11_2_10"
+msgstr "Léčka-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Buďte nejlepším hráčem svého týmu podle získaných zkušeností"
+
+msgid "pm4_11_2_10_short"
+msgstr "Léčka-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_2_11"
+msgstr "Léčka-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Způsobte palbou %(goal)s bodů poškození pohybujícím se nepřátelským vozidlům"
+
+msgid "pm4_11_2_11_short"
+msgstr "Léčka-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_12"
+msgstr "Léčka-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s)"
+
+msgid "pm4_11_2_12_short"
+msgstr "Léčka-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_2_13"
+msgstr "Léčka-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Způsobte 25 %% z celkového množství poškození způsobeného vaším týmem"
+
+msgid "pm4_11_2_13_short"
+msgstr "Léčka-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Poškození"
+
+msgid "pm4_11_2_14"
+msgstr "Léčka-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Získejte ocenění „Velká ráže“"
+
+msgid "pm4_11_2_14_short"
+msgstr "Léčka-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Hrdinové bitvy"
+
+msgid "pm4_11_2_15"
+msgstr "Léčka-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Způsobte %(vehicleHealthFactor)skrát více poškození, než kolik má vaše vozidlo bodů výdrže"
+
+msgid "pm4_11_2_15_short"
+msgstr "Léčka-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_16"
+msgstr "Léčka-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) a zároveň jim způsobte alespoň %(damageDealt)s bodů poškození"
+
+msgid "pm4_11_2_16_short"
+msgstr "Léčka-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Zničení"
+
+msgid "pm4_11_2_17"
+msgstr "Léčka-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s)"
+
+msgid "pm4_11_2_17_short"
+msgstr "Léčka-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_2_18"
+msgstr "Léčka-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost%(distanceGreatOrEqual)s m nebo větší"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Buďte nejlepším hráčem svého týmu podle získaných zkušeností"
+
+msgid "pm4_11_2_18_short"
+msgstr "Léčka-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_2_19"
+msgstr "Léčka-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Zničte %(goal)s ks nepřátelských vozidel dřív, než bude bude poškozeno vaše vozidlo"
+
+msgid "pm4_11_2_19_short"
+msgstr "Léčka-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Dosáhněte %(goal)s průstřelů pancíře"
+
+msgid "pm4_11_2_1_short"
+msgstr "Léčka-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Průbojnost"
+
+msgid "pm4_11_2_2"
+msgstr "Léčka-2"
+
+msgid "pm4_11_2_20"
+msgstr "Léčka-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Způsobte 30 %% z celkového množství poškození způsobeného vaším týmem"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Zničte všechna nepřátelská vozidla, nebo obsaďte či ubraňte základnu"
+
+msgid "pm4_11_2_20_short"
+msgstr "Léčka-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Poškození"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Vyhrajte bitvu"
+
+msgid "pm4_11_2_21"
+msgstr "Léčka-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "pm4_11_2_21_short"
+msgstr "Léčka-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození během prvních %(timeLimit)s minut bitvy"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) %(uniqueGoal)s různých typů"
+
+msgid "pm4_11_2_2_short"
+msgstr "Léčka-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Zničení"
+
+msgid "pm4_11_2_3"
+msgstr "Léčka-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Buďte nejlepším hráčem svého týmu podle získaných zkušeností"
+
+msgid "pm4_11_2_3_short"
+msgstr "Léčka-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_2_4"
+msgstr "Léčka-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským středním tankům"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) mimo dohled vašeho vozidla"
+
+msgid "pm4_11_2_4_short"
+msgstr "Léčka-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_2_5"
+msgstr "Léčka-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození a v okamžiku, kdy je poškození způsobeno, zůstaňte neodhaleni nepřítelem"
+
+msgid "pm4_11_2_5_short"
+msgstr "Léčka-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_6"
+msgstr "Léčka-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Způsobte a pomozte způsobit celkem %(goal)s bodů poškození"
+
+msgid "pm4_11_2_6_short"
+msgstr "Léčka-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_2_7"
+msgstr "Léčka-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Získejte ocenění „Tankista odstřelovač“"
+
+msgid "pm4_11_2_7_short"
+msgstr "Léčka-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Hrdinové bitvy"
+
+msgid "pm4_11_2_8"
+msgstr "Léčka-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) ze vzdálenosti %(distanceGreatOrEqual)s m nebo větší"
+
+msgid "pm4_11_2_8_short"
+msgstr "Léčka-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_2_9"
+msgstr "Léčka-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Způsobte %(goal)s bodů poškození znehybněným nepřátelským vozidlům"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Způsobte %(goal)s bodů poškození"
+
+msgid "pm4_11_2_9_short"
+msgstr "Léčka-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Poškození"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Poškození"
+
+msgid "pm4_11_3_1"
+msgstr "Pomoc-1"
+
+msgid "pm4_11_3_10"
+msgstr "Pomoc-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Umožněte svým spojencům způsobit %(goal)s bodů poškození odhalováním nebo znehybněním nepřátelských vozidel, zatímco budete neodhaleni"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Na celkem %(goal)s sekund ochromte nepřátelské střední tanky a stíhače tanků. Je započítáno potenciální trvání ochromení"
+
+msgid "pm4_11_3_10_short"
+msgstr "Pomoc-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Asistence"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Ochromení"
+
+msgid "pm4_11_3_11"
+msgstr "Pomoc-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Umožněte svým spojencům způsobit %(goal)s bodů poškození nepřátelským vozidlům tím, že je odhalíte, znehybníte nebo ochromíte"
+
+msgid "pm4_11_3_11_short"
+msgstr "Pomoc-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Asistence"
+
+msgid "pm4_11_3_12"
+msgstr "Pomoc-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Umožněte svým spojencům zničit nepřátelská vozidla (%(goal)s) tím, že je odhalíte, znehybníte nebo ochromíte"
+
+msgid "pm4_11_3_12_short"
+msgstr "Pomoc-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Asistence"
+
+msgid "pm4_11_3_13"
+msgstr "Pomoc-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Získejte ocenění „Vzorný tankista I. třídy“ nebo vyšší"
+
+msgid "pm4_11_3_13_short"
+msgstr "Pomoc-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Vzorný tankista"
+
+msgid "pm4_11_3_14"
+msgstr "Pomoc-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Přežijte bitvu"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Buďte nejlepším hráčem obou týmů podle získaných zkušeností"
+
+msgid "pm4_11_3_14_short"
+msgstr "Pomoc-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Přežití"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Nejlepší hráč"
+
+msgid "pm4_11_3_15"
+msgstr "Pomoc-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Umožněte svým spojencům zničit nepřátelská vozidla (%(goal)s) tím, že je odhalíte, znehybníte nebo ochromíte"
+
+msgid "pm4_11_3_15_short"
+msgstr "Pomoc-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Asistence"
+
+msgid "pm4_11_3_16"
+msgstr "Pomoc-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům, zatímco jedete rychlostí alespoň %(attackerMovingSpeedGreaterOrEqual)s km/h"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Zničte palbou pohybující se nepřátelská vozidla (%(goal)s)"
+
+msgid "pm4_11_3_16_short"
+msgstr "Pomoc-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Poškození"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_17"
+msgstr "Pomoc-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Přežijte bitvu"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Umožněte svým spojencům způsobit %(goal)s bodů poškození nepřátelským vozidlům tím, že je ochromíte nebo znehybníte, a přežijte bitvu"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Způsobené poškození (včetně poškození způsobeného vaší asistencí) musí celkově činit %(goal)s bodů; a přežijte bitvu"
+
+msgid "pm4_11_3_17_short"
+msgstr "Pomoc-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Přežití"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Asistence"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_3_18"
+msgstr "Pomoc-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) ze vzdálenosti %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) ze vzdálenosti %(distanceGreatOrEqual)s m nebo větší"
+
+msgid "pm4_11_3_18_short"
+msgstr "Pomoc-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Zničení"
+
+msgid "pm4_11_3_19"
+msgstr "Pomoc-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Získejte ocenění „Vzorný tankista: hrdina“"
+
+msgid "pm4_11_3_19_short"
+msgstr "Pomoc-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Vzorný tankista"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Přežijte bitvu"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Zničte alespoň 1 nepřátelské dělostřelectvo a přežijte bitvu"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "%(goal)skrát ochromte nepřátelská vozidla a přežijte bitvu"
+
+msgid "pm4_11_3_1_short"
+msgstr "Pomoc-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Přežití"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Ochromení"
+
+msgid "pm4_11_3_2"
+msgstr "Pomoc-2"
+
+msgid "pm4_11_3_20"
+msgstr "Pomoc-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Umožněte svým spojencům způsobit %(goal)s bodů poškození nepřátelským vozidlům, která jste odhalili, zatímco jste nebyli odhaleni, a vyhrajte bitvu."
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "%(goal)skrát ochromte nepřátelské těžké tanky a vyhrajte bitvu"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Zničte všechna nepřátelská vozidla, nebo obsaďte či ubraňte základnu"
+
+msgid "pm4_11_3_20_short"
+msgstr "Pomoc-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Asistence"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Ochromení"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Vyhrajte bitvu"
+
+msgid "pm4_11_3_21"
+msgstr "Pomoc-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Přežijte bitvu"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Způsobené poškození (včetně poškození způsobeného vaší asistencí) musí celkově činit %(goal)s bodů"
+
+msgid "pm4_11_3_21_short"
+msgstr "Pomoc-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Přežití"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Zničte nepřátelský lehký tank"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Na celkem %(goal)s sekund ochromte nepřátelská vozidla. Je započítáno potenciální trvání ochromení"
+
+msgid "pm4_11_3_2_short"
+msgstr "Pomoc-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Ochromení"
+
+msgid "pm4_11_3_3"
+msgstr "Pomoc-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Umožněte svým spojencům způsobit poškození nepřátelským vozidlům (%(goal)s) tím, že je odhalíte, znehybníte nebo ochromíte"
+
+msgid "pm4_11_3_3_short"
+msgstr "Pomoc-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Asistence"
+
+msgid "pm4_11_3_4"
+msgstr "Pomoc-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Přežijte bitvu"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Odhalte nepřátelská vozidla (%(goal)s) a přežijte bitvu"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "%(goal)skrát ochromte nepřátelská vozidla (%(stunSeveralTargets)s) jedním výstřelem a přežijte bitvu"
+
+msgid "pm4_11_3_4_short"
+msgstr "Pomoc-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Přežití"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Odhalení"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Ochromení"
+
+msgid "pm4_11_3_5"
+msgstr "Pomoc-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Získejte ocenění „Vzorný tankista II. třídy“ nebo vyšší"
+
+msgid "pm4_11_3_5_short"
+msgstr "Pomoc-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Vzorný tankista"
+
+msgid "pm4_11_3_6"
+msgstr "Pomoc-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Způsobené poškození (včetně poškození způsobeného vaší asistencí) musí celkově činit %(goal)s bodů"
+
+msgid "pm4_11_3_6_short"
+msgstr "Pomoc-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Složitá podmínka"
+
+msgid "pm4_11_3_7"
+msgstr "Pomoc-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Umožněte svým spojencům způsobit %(goal)s bodů poškození nepřátelským vozidlům tím, že je odhalíte, ochromíte nebo znehybníte"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Zničte nepřátelské dělostřelectvo"
+
+msgid "pm4_11_3_7_short"
+msgstr "Pomoc-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Asistence"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_8"
+msgstr "Pomoc-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s)"
+
+msgid "pm4_11_3_8_short"
+msgstr "Pomoc-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_9"
+msgstr "Pomoc-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) ze vzdálenosti %(distanceShortOrEqual)s m nebo menší"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "%(goal)skrát ochromte nepřátelské střední tanky nebo stíhače tanků"
+
+msgid "pm4_11_3_9_short"
+msgstr "Pomoc-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Zničení"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Ochromení"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Každá mise tohoto typu má omezený počet pokusů o splnění uvedené podmínky."
@@ -10345,6 +11317,9 @@ msgstr "Druhá fronta"
 msgid "season_3"
 msgstr "Sektor 3"
 
+msgid "season_4"
+msgstr "Sektor 3"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Skupina misí pro všechny typy vozidel, abyste získali americký těžký tank Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Skupina misí pro všechny typy vozidel na získání německého středního tank Fossa VM 68."
 
 msgid "tile_1_descr"
 msgstr "Skupina misí pro všechny typy vozidel, abyste získali německý stíhač tanků StuG IV."

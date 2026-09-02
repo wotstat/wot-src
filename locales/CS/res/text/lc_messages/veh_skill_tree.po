@@ -298,8 +298,26 @@ msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje výkon motoru poskyt
 msgid "tooltips/description/ch70_mechanic_3"
 msgstr "O {colorTagOpen}{value}{colorTagClose} zvyšuje maximální počet použití trysek v jedné bitvě."
 
+msgid "tooltips/description/ch71_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje výchozí dobu obnovení před užitím IRST."
+
+msgid "tooltips/description/ch71_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze IRST znovu použít."
+
+msgid "tooltips/description/ch71_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu, po kterou je vaše vozidlo odhalené nepřátelům poté, co tyto nepřátele pomocí IRST odhalíte."
+
+msgid "tooltips/description/ch71_mechanic_3"
+msgstr "O {colorTagOpen}{value0} s{colorTagClose} prodlužuje dobu trvání skenu IRST a dále o {colorTagOpen}{value1} stupňů{colorTagClose} zužuje sektor skenu, o {colorTagOpen}{value2}%{colorTagClose} prodlužuje jeho dohled a o {colorTagOpen}{value3}%{colorTagClose} snižuje maskování jedoucích vozidel a o {colorTagOpen}{value4}%{colorTagClose} maskování vozidel ukrytých v porostu."
+
 msgid "tooltips/description/crewProtection"
 msgstr "Snižuje šanci na zranění člena posádky při poškození vozidla."
+
+msgid "tooltips/description/cz46_mechanic_0"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje průbojnost po zásahu bez probití pancíře."
+
+msgid "tooltips/description/cz46_mechanic_1"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje poškození po zásahu s probitím pancíře."
 
 msgid "tooltips/description/damagedGunDispersion"
 msgstr "Snižuje rozptyl děla při poškození vašeho děla."
@@ -460,6 +478,18 @@ msgstr "Snižuje dobu nabíjení mezi granáty v zásobníku vašeho děla."
 msgid "tooltips/description/invisibilityWhenShooting"
 msgstr "Snižuje pravděpodobnost, že vás po výstřelu odhalí nepřátelská vozidla."
 
+msgid "tooltips/description/it43_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení nabití, když není zásobník plný."
+
+msgid "tooltips/description/it43_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení nabití, když je zásobník plný."
+
+msgid "tooltips/description/it43_mechanic_2"
+msgstr "O dalších {colorTagOpen}{value} s{colorTagClose} snižuje dobu urychleného nabíjení granátů."
+
+msgid "tooltips/description/it43_mechanic_3"
+msgstr "O {colorTagOpen}{value}{colorTagClose} zvyšuje počet nabití dostupných na začátku bitvy."
+
 msgid "tooltips/description/j52_mechanic_0"
 msgstr "O {colorTagOpen}{value} s{colorTagClose} zkracuje čekací dobu před ochlazováním děla."
 
@@ -468,6 +498,18 @@ msgstr "O {colorTagOpen}{value} %{colorTagClose} snižuje množství tepla gen
 
 msgid "tooltips/description/j52_mechanic_2"
 msgstr "O {colorTagOpen}{value} %{colorTagClose} zrychluje ochlazování zahřátého děla."
+
+msgid "tooltips/description/j53_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu nabíjení koaxiálního raketometu."
+
+msgid "tooltips/description/j53_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu nabíjení koaxiálního raketometu."
+
+msgid "tooltips/description/j53_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu nabíjení koaxiálního raketometu."
+
+msgid "tooltips/description/j53_mechanic_3"
+msgstr "O {colorTagOpen}{value} bodů{colorTagClose} zvyšuje poškození způsobené raketou."
 
 msgid "tooltips/description/nonHEShellDamage"
 msgstr "Zvyšuje poškození způsobené nevýbušnými granáty."
@@ -547,6 +589,18 @@ msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje rozptyl děla v opevn
 msgid "tooltips/description/s36_mechanic_3"
 msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje dobu nabíjení děla v opevněném režimu."
 
+msgid "tooltips/description/s41_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje maximální rychlost v režimu VPM."
+
+msgid "tooltips/description/s41_mechanic_1"
+msgstr "O {colorTagOpen}{value} bodů{colorTagClose} zvyšuje poškození způsobené speciálními granáty v režimu VPM."
+
+msgid "tooltips/description/s41_mechanic_2"
+msgstr "O {colorTagOpen}{value} bodů{colorTagClose} zvyšuje poškození způsobené standardními granáty v režimu VPM."
+
+msgid "tooltips/description/s41_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje dobu nabíjení děla v režimu VPM (vyjma HE granátů)."
+
 msgid "tooltips/description/selectiveModuleHPBoost"
 msgstr "Zvyšuje body výdrže modulů nádrží a motoru vašeho vozidla."
 
@@ -555,6 +609,9 @@ msgstr "Snižuje postih poškozené bedny s municí a motoru."
 
 msgid "tooltips/description/shellModuleDamage"
 msgstr "Zvyšuje poškození, které vaše granáty způsobí modulům nepřátelských vozidel."
+
+msgid "tooltips/description/shellSwitchMechanic"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu potřebnou pro přepnutí mezi režimy palby."
 
 msgid "tooltips/description/shells_consumables_switch"
 msgstr "Umožňuje vám nastavit si alternativní konfiguraci munice a spotřebních doplňků."
@@ -742,6 +799,18 @@ msgstr "Optimalizace tvaru jádra"
 msgid "tooltips/title/ch70_mechanic_3"
 msgstr "Rozšířený úložný prostor pro trysku"
 
+msgid "tooltips/title/ch71_mechanic_0"
+msgstr "Upravený zážehový systém Simmer"
+
+msgid "tooltips/title/ch71_mechanic_1"
+msgstr "Vysoce výkonné kapalinové chlazení"
+
+msgid "tooltips/title/ch71_mechanic_2"
+msgstr "Optika s nízkou rozbíhavostí"
+
+msgid "tooltips/title/ch71_mechanic_3"
+msgstr "Souběžné kapalinové chlazení"
+
 msgid "tooltips/title/chassisHP"
 msgstr "Body výdrže podvozku"
 
@@ -750,6 +819,12 @@ msgstr "Rychlost oprav podvozku"
 
 msgid "tooltips/title/crewProtection"
 msgstr "Ochrana posádky"
+
+msgid "tooltips/title/cz46_mechanic_0"
+msgstr "Upravitelný nastavovač roznětky: Průbojnost"
+
+msgid "tooltips/title/cz46_mechanic_1"
+msgstr "Upravitelný nastavovač roznětky: Poškození"
 
 msgid "tooltips/title/damagedGunDispersion"
 msgstr "Situační rozptyl děla"
@@ -928,6 +1003,18 @@ msgstr "Doba nabíjení vnitřního zásobníku"
 msgid "tooltips/title/invisibilityWhenShooting"
 msgstr "Maskování po výstřelu"
 
+msgid "tooltips/title/it43_mechanic_0"
+msgstr "Vysoce ryzí cívky rotoru"
+
+msgid "tooltips/title/it43_mechanic_1"
+msgstr "Aktivní chlazení rotoru"
+
+msgid "tooltips/title/it43_mechanic_2"
+msgstr "Těleso statoru s vysokou vodivostí"
+
+msgid "tooltips/title/it43_mechanic_3"
+msgstr "Ortocyklické vinutí cívek"
+
 msgid "tooltips/title/j52_mechanic_0"
 msgstr "Nízkoteplotní teplonosná kapalina"
 
@@ -936,6 +1023,18 @@ msgstr "Termální pouzdro s vysokou vodivostí"
 
 msgid "tooltips/title/j52_mechanic_2"
 msgstr "Optimalizace tepelných trubic"
+
+msgid "tooltips/title/j53_mechanic_0"
+msgstr "Optimalizace nabíjecího cyklu"
+
+msgid "tooltips/title/j53_mechanic_1"
+msgstr "Optimalizace nabíjecího cyklu"
+
+msgid "tooltips/title/j53_mechanic_2"
+msgstr "Optimalizace nabíjecího cyklu"
+
+msgid "tooltips/title/j53_mechanic_3"
+msgstr "Vylepšené uspořádání bojové hlavice"
 
 msgid "tooltips/title/nonHEShellDamage"
 msgstr "Poškození ne-HE granáty"
@@ -1018,6 +1117,18 @@ msgstr "Přesně vyvážený rotor"
 msgid "tooltips/title/s36_mechanic_3"
 msgstr "Hydraulicky poháněný nabiják"
 
+msgid "tooltips/title/s41_mechanic_0"
+msgstr "Vylepšené tlumiče odpružení"
+
+msgid "tooltips/title/s41_mechanic_1"
+msgstr "Upravené speciální jednotlivé granáty"
+
+msgid "tooltips/title/s41_mechanic_2"
+msgstr "Upravené standardní jednotlivé granáty"
+
+msgid "tooltips/title/s41_mechanic_3"
+msgstr "Optimalizovaný cyklus nabíjení VPM"
+
 msgid "tooltips/title/selectiveModuleHPBoost"
 msgstr "Posílení bodů výdrže vybraného modulu"
 
@@ -1026,6 +1137,9 @@ msgstr "Ochrana vybraného modulu"
 
 msgid "tooltips/title/shellModuleDamage"
 msgstr "Poškození granátů do modulů"
+
+msgid "tooltips/title/shellSwitchMechanic"
+msgstr "Optimalizovaná rekalibrace"
 
 msgid "tooltips/title/shells_consumables_switch"
 msgstr "Konfigurace munice a spotřebních doplňků"

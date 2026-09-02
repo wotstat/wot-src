@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "tanka dzīvības punktiem"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+msgstr "ieroča griešanās ātrumam"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "torņa griešanās ātrumam"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "tanka dzīvības punktiem"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+msgstr "ieroča griešanās ātrumam"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "torņa griešanās ātrumam"
@@ -2100,6 +2100,51 @@ msgstr " un "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Tanka Ārējās munīcijas padeves režīms ļauj izmantot lādiņus, kas rada lielākus bojājumus."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Pamatvērtības Standarta režīmā."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Mainītas vērtības Ārējās munīcijas padeves režīmā."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Pilnībā uzlādētu šāvienu pamatparametri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Viena lādiņa šāvienu parametri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Pilnībā uzlādētu šāvienu pamatparametri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Parasts"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Viena lādiņa šāvienu parametri"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Kalibrētajā režīmā šis šāviņa veids ir efektīvs pret slīpu bruņu aizsardzību."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms izšaušanas mainīt dažus šāviņa parametrus."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Standarta režīmā šis lādiņa veids ir efektīvs pret bruņām bez ekrāniem."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standarta režīms"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibrētais režīms"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Kalibrētajā režīmā šis lādiņa veids var caursist ekrānus."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Standarta režīmā šis šāviņa veids ir efektīvs pret vertikālām bruņām."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standarta iekārtas no %(spec)s kategorijas būs efektīvākas, ja uzstādītas šajā vietā. Iekārtas no citas kategorijas sniegs tikai standarta bonusu."

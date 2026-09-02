@@ -40,6 +40,9 @@ msgstr "Fejlesztés"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Visszaállítás"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "A nagy dobozokhoz"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Nincs kifejlesztve %(level)s-s szintű %(nation)s jármű"
 
@@ -54,6 +57,15 @@ msgstr "Kedvezmény a vásárlásra:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Kedvezmény a fejlesztéshez:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Ezt a járművet megkaphatod a {{@ style (color $color)}}nagy dobozokból!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "nagy dobozokból!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Ezt a járművet megkaphatod a"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Kupon kedvezmény felhasználása: %(value)s"

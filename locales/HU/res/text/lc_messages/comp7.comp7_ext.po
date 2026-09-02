@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Az azúrkék sárkány szezonjának kezdete: %(date)s"
+msgstr "Az azúrkék főnix szezonjának kezdete: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "A bíborvörös sárkány szezonjának kezdete: %(date)s"
+msgstr "A bíborvörös főnix szezonjának kezdete: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "A jádezöld sárkány szezonjának kezdete: %(date)s"
+msgstr "A jádezöld főnix szezonjának kezdete: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Várakozás a kvalifikáció eredményeire a rangod meghatározásához"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Az azúrkék sárkány szezonja véget ért"
+msgstr "Az azúrkék főnix szezonja véget ért"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "A bíborvörös sárkány szezonja véget ért"
+msgstr "A bíborvörös főnix szezonja véget ért"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "A jádezöld sárkány szezonja véget ért"
+msgstr "A jádezöld főnix szezonja véget ért"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Ezen a szerveren elérhetőek lesznek a csaták %(primeDelta)s múlva"
@@ -253,6 +253,9 @@ msgstr "Jármű karakterisztikái fejlesztve"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Életerő visszaállítása"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Az elszenvedett sebzés megnőtt"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Jármű karakterisztikái fejlesztve"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Az azúrkék sárkány szezonja %(days)d napig tart"
-msgstr[1] "Az azúrkék sárkány szezonja %(days)d napig tart"
-msgstr[2] "Az azúrkék sárkány szezonja %(days)d napig tart"
+msgstr[0] "Az azúrkék főnix szezonja %(days)d napig tart"
+msgstr[1] "Az azúrkék főnix szezonja %(days)d napig tart"
+msgstr[2] "Az azúrkék főnix szezonja %(days)d napig tart"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "A bíborvörös sárkány szezonja %(days)d napig tart"
-msgstr[1] "A bíborvörös sárkány szezonja %(days)d napig tart"
-msgstr[2] "A bíborvörös sárkány szezonja %(days)d napig tart"
+msgstr[0] "A bíborvörös főnix szezonja %(days)d napig tart"
+msgstr[1] "A bíborvörös főnix szezonja %(days)d napig tart"
+msgstr[2] "A bíborvörös főnix szezonja %(days)d napig tart"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "A jádezöld sárkány szezonja %(days)d napig tart"
-msgstr[1] "A jádezöld sárkány szezonja %(days)d napig tart"
-msgstr[2] "A jádezöld sárkány szezonja %(days)d napig tart"
+msgstr[0] "A jádezöld főnix szezonja %(days)d napig tart"
+msgstr[1] "A jádezöld főnix szezonja %(days)d napig tart"
+msgstr[2] "A jádezöld főnix szezonja %(days)d napig tart"
 
 msgid "calendarDay/title"
 msgstr "Időterv"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Készségek"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Roham. A sárkány éve"
+msgstr "Roham. A főnix éve"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nulladik készségek"
@@ -574,11 +577,17 @@ msgstr "Értettem!"
 msgid "intro/description/banPhase"
 msgstr "Minden csapat teljesen kitilthat egy járművet a csatából. Egyeztesd a szavazatokat a csapattársakkal, hogy kizárjátok a legrettegettebb járművet, vagy váratlan felállást készítsetek elő az ellenség számára. Ha a járművedet kizárták, helyette több előre beállított bérelt jármű közül választhatsz."
 
+msgid "intro/description/draw"
+msgstr "Ha lejár az idő, és egyik csapat sem ért el egyértelmű győzelmet, a csata kimenetelét a következő sorrendben alkalmazott tiebreakerek alapján határozzuk meg: a túlélő járművek száma, az okozott sebzés mennyisége, valamint az elsőként legyőzött jármű. Ha egyik csapat sem okozott sebzést, a csatát döntetlennek nyilvánítjuk."
+
+msgid "intro/description/nightMaps"
+msgstr "Az éjszakai pályák a megszokott csatatereket éjszakai körülményekkel, új megfigyelőállásokkal, megújított fontos pontokkal és módosított felderítési mechanikával frissítik fel. A jelenlegi felhozatalban a Glacier, a Sand River, az Outpost és a Steppes szerepel."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "A játékmód módosítókkal rendelkezik, amelyek megváltoztatják a jármű bizonyos paramétereit, például az életerejét, a fogyócikkek visszatöltési idejét, a felderítettségi időt és így tovább."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Miután elfoglaltad a pálya bizonyos területeit, használhatod a taktikai képességeket. Kétféle fontos pont van: a tüzérségi főhadiszállás lehetővé teszi, hogy tüzérségi csapást mérj egy bizonyos pozícióra, a kommunikációs központ pedig az összes ellenséges járművet felderíti. A pályától függően ezeknek a fontos pontoknak a jelenléte és elhelyezkedése változhat."
+msgstr "Miután elfoglaltad a pálya bizonyos területeit, hozzáférhetsz a taktikai képességekhez. Kétféle fontos pont létezik: a Tüzérségi főhadiszállás, amellyel célzott támadást kérhetsz, és a Kommunikációs központ, amely felfedi az összes ellenséges járművet. A helyszínek száma és elhelyezkedése pályánként változik."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Vívj meg %(count)s kvalifikációs csatát a tudásszinted és a ran
 msgstr[2] "Vívj meg %(count)s kvalifikációs csatát a tudásszinted és a rangod meghatározásához. A feltétel teljesítése után jutalmakat kapsz az elért rangodért és az összes korábbi rangért.\n\nA besorolásban való dezertálás vagy döntetlen vereségnek minősül."
 
 msgid "intro/description/ranks"
-msgstr "A játékos képességeit tükröző rendszer. Haladj előre a ranglétrán a Vastól a Legendáig, és szerezz értékes díjakat! Csatázz A sárkány éve során egyedi éves jutalmakért!"
+msgstr "Haladj előre a ranglétrán a Vastól a Legendáig, és zsebelj be értékes jutalmakat! Küzdd végig A főnix évét, hogy megszerezd az egyedi éves jutalmakat!"
 
 msgid "intro/description/roleSkills"
 msgstr "A szerepétől függően minden járműnek van egy különleges képessége három töltési szinttel. Minél magasabb a töltési szint a képesség aktiválásakor, annál erősebb lesz a hatás. A töltési szint a tekintélypontok számától függ, ezeket pedig a csatában nyújtott meggyőző teljesítményért, a fontos pontok elfoglalásáért, a taktikai képességek használatáért és egyebekért szerezhetsz.\n\nNézd meg a játékmód szabályzatát, amelyből bővebben tájékozódhatsz a tekintélypontok gyűjtésének különböző módjairól."
@@ -597,6 +606,12 @@ msgstr "A csatában %(levels)s. szintű kifejleszthető (kivéve az önjáró l�
 
 msgid "intro/title/banPhase"
 msgstr "JÁRMŰVEK TILTÁSA"
+
+msgid "intro/title/draw"
+msgstr "A DÖNTETLEN SZABÁLYAI"
+
+msgid "intro/title/nightMaps"
+msgstr "ÉJSZAKAI PÁLYÁK"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "ROHAM MÓDOSÍTÓK"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "GYŐZELEM, DE TE"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Előléptetve: %(rank)s"
+msgstr "Előléptetve: {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Értékelés: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Lefokozva: %(rank)s, %(division)s"
+msgstr "Lefokozva ide: {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Előléptetve: %(rank)s, %(division)s"
+msgstr "Előléptetve ide: {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Megvívott csaták"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Szezonbeli tekintélypont-rekord: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Az azúrkék sárkány szezonja véget ért ezen a szerveren: %(server)s."
+msgstr "Az azúrkék főnix szezonja véget ért ezen a szerveren: %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "A bíborvörös sárkány szezonja véget ért ezen a szerveren: %(server)s."
+msgstr "A bíborvörös főnix szezonja véget ért ezen a szerveren: %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "A jádezöld sárkány szezonja véget ért ezen a szerveren: %(server)s."
+msgstr "A jádezöld főnix szezonja véget ért ezen a szerveren: %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Vásárlás"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ROHAM. A KVALIFIKÁCIÓ BEFEJEZŐDÖTT"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ROHAM. AZ AZÚRKÉK SÁRKÁNY SZEZONJA"
+msgstr "ROHAM: AZ AZÚRKÉK FŐNIX SZEZONJA"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ROHAM. A BÍBORVÖRÖS SÁRKÁNY SZEZONJA"
+msgstr "ROHAM: A BÍBORVÖRÖS FŐNIX SZEZONJA"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ROHAM. A JÁDEZÖLD SÁRKÁNY SZEZONJA"
+msgstr "ROHAM: A JÁDEZÖLD FŐNIX SZEZONJA"
 
 msgid "rewardsScreen/description/year"
-msgstr "ROHAM. A SÁRKÁNY ÉVE"
+msgstr "ROHAM. A FŐNIX ÉVE"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Hol van az Ashbringerem?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Véget ér %(seconds)s mp múlva"
 
 msgid "seasonName/first"
-msgstr "Az azúrkék sárkány szezonja"
+msgstr "Az azúrkék főnix szezonja"
 
 msgid "seasonName/second"
-msgstr "A bíborvörös sárkány szezonja"
+msgstr "A bíborvörös főnix szezonja"
 
 msgid "seasonName/third"
-msgstr "A jádezöld sárkány szezonja"
+msgstr "A jádezöld főnix szezonja"
 
 msgid "seasonPointTooltip/header"
 msgstr "Roham színek"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Helyezés a ranglistán: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "ROHAM. %(seasonNameUpper)s"
+msgstr "ROHAM %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "%(points)s Roham színt kaptál"
 msgstr[2] "%(points)s Roham színt kaptál"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "I. SZEZON – AZÚRKÉK SÁRKÁNY"
+msgstr "I. SZEZON: AZÚRKÉK FŐNIX"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "II. SZEZON – BÍBORVÖRÖS SÁRKÁNY"
+msgstr "II. SZEZON: BÍBORVÖRÖS FŐNIX"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "III. SZEZON – JÁDEZÖLD SÁRKÁNY"
+msgstr "III. SZEZON: JÁDEZÖLD FŐNIX"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Győzelmek: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Ez a mód elérhetővé válik ekkor: %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azúrkék sárkány"
+msgstr "Azúrkék főnix"
 
 msgid "shortSeasonName/second"
-msgstr "Bíborvörös sárkány"
+msgstr "Bíborvörös főnix"
 
 msgid "shortSeasonName/third"
-msgstr "Jádezöld sárkány"
+msgstr "Jádezöld főnix"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Ez a szekció információkat tartalmaz a Roham mód jelenlegi szezonjának legjobb játékosairól."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Az összes megjelenítése"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Támogasd a Roham-legendák sorozatot, és növeld a nyereményalapot a torna csomagjaival!"
+msgstr "Ha a kiválasztott csapatod nyer, megkapod az egyedi aranyozott OLS 2026 jelvényt. Szurkolj a kedvenceidnek!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Mutasd ki az e-sport iránti rajongásodat exkluzív tematikus testreszabási elemekkel és egyedi tankokkal!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Hatalmas összecsapásra kerül sor a World of Tanks Championship International tornán a kínai Szucsouban, ahol a világ legádázabb csapatai mérik össze az erejüket a Roham játékmód szabályai szerint, és küzdenek meg a világbajnoki címért. Éld át az izgalmat, amikor legendák születnek a csatatéren!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "RLS 6. szezon"
+msgstr "OLS 7. szezon"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI 2025"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Ez a szezon az utolsó esélyed arra, hogy értékes jutalmakat szerezz, például az Ashbringert, egy exkluzív X-es szintű nehéz tankot az összes megszerzett egyedi 3D-stílusával és egy rettenthetetlen legénységgel a Bajtársak nulladik készséggel, választható fejlesztett és kísérleti felszereléseket, egy szemet gyönyörködtető 2D-stílust és még megannyi mást. Ne szalaszd el a lehetőséget – győzelem vár rád a csatatéren!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Használd ki a sárkány évének utolsó pillanatait!"
+msgstr "Ragadd meg A főnix évének utolsó pillanatait!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "A JÁDEZÖLD SÁRKÁNY SZEZONJA"
+msgstr "AZ AZÚRKÉK FŐNIX SZEZONJA"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "ROHAM. MIK AZ ÚJDONSÁGOK?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Fantasztikus!"
+msgstr "Engedd szabadjára a benned égő tüzet!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "A 2.0-s frissítés új továbbfejlesztett csata utáni eredményképernyője mostantól minden csata után további, a játékmódhoz kapcsolódó információkat jelenít meg."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Ha lejár az idő, és egyik csapat sem ért el egyértelmű győzelmet, a csata kimenetelét a következő sorrendben alkalmazott tiebreakerek alapján határozzuk meg: a túlélő járművek száma, az okozott sebzés mennyisége, valamint az elsőként legyőzött jármű. Ha egyik csapat sem okozott sebzést, a csatát döntetlennek nyilvánítjuk."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Részletes csataeredmények"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Ne aggódj, ha a kedvenc járműved nem szerepel a listán! A bérelt járművekhez mostantól előre összeállított legénység, felszerelés, lőszer és fogyócikkek tartoznak."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Indulásra kész bérelt járművek %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Ebben a szezonban minden csapat teljesen kizárhat egy járművet a csatából. Egyeztessétek a szavazataitokat, hogy kizárjátok a legrettegettebb gépet, vagy váratlan felállást készítsetek elő az ellenség számára."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Járműtiltás %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Frissültek a döntetlen szabályai {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Pályák"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Új járművek érhetők el a Rohamban"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "A 2.4-es verzióban új könnyűharckocsi-szerepkörök mutatkoznak be, valamint kiegyensúlyoztunk bizonyos járműtulajdonságokat. Próbáld ki őket a csatában!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Új szerepek a könnyű tankoknak {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Friss játékmenet az ismerős pályákon. A változások között szerepelnek az éjszakai körülmények, az új megfigyelőállások, az új fontos pontok, valamint a felderítési mechanika módosítása. Mindez átalakítja a csata menetét, így a helyzetfelismerés, az időzítés és a taktikai mozgás fontosabb, mint valaha."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Megérkeztek az éjszakai pályák! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "A csatákban részt vevő játékosok alacsony létszáma miatt kikapcsoltuk a szuper szakaszokat. Dolgozunk a Roham játékmód alternatív, csapatalapú változatain. Addig is rendszeresen szervezünk 7v7 tornákat."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Nincs több szuper szakasz {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Bérelhető járművek"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "A nemrégiben megjelent Ares 90 X-es szintű amerikai közepes harckocsi már elérhető a módban, módosított szerepképességgel."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Pályák: Az Erlenberg pályát eltávolítottuk. Áthelyeztük a fontos pontokat az Airfield pályán. Kisebb módosítások történtek a Pilsen pályán.\n• Járművek: A Vz. 60S Dravec harckocsit eltávolítottuk. Hozzáadtuk az új Kampfpanzer 67 német nehéz harckocsit."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Szerepképesség frissítés %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "A 114 SP2 már megvásárolható Ezüst rangtól kezdve a Roham boltban."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Bolt frissítései %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Szezonális egyensúlyi változtatások {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "KIZÁRVA"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "I. szezon. Azúrkék sárkány"
+msgstr "I. szezon: Azúrkék főnix"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "II. szezon. Bíborvörös sárkány"
+msgstr "II. szezon: Bíborvörös főnix"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "III. szezon. Jádezöld sárkány"
+msgstr "III. szezon: Jádezöld főnix"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Jelenlegi"

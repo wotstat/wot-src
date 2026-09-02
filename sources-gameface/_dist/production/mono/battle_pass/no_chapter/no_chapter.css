@@ -79,7 +79,8 @@
 .Message_separator_8e93a926 {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Message_rewards_6ded1e3b {
   display: flex;
@@ -88,7 +89,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }
@@ -107,7 +109,12 @@
   width: 100%;
   margin: 0 -28rem;
   padding: 12rem 28rem 15rem 72rem;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(39, 39, 39, 0.5) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
   position: relative;
 }
 .Message_text_4b17d86 {
@@ -155,7 +162,8 @@
   font-size: 18rem;
   font-weight: 700;
   line-height: 1.1;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -236,7 +244,8 @@
 .Content_separator_9582cf97 {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Content_rewards_a1ee43b6 {
   display: flex;
@@ -245,7 +254,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }

@@ -38,6 +38,7 @@ class LinkDescriptor(AutoProperty):
         return
 
     def __call__(self, *args, **kwargs):
+        raise AssertionError(b'Never execute this, it is only for autocompletion support')
         return
 
 

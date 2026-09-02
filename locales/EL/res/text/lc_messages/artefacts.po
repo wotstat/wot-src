@@ -880,6 +880,12 @@ msgstr "Επιπρόσθετα Μεταλλικά Πέλματα 3ης Κλάσ
 msgid "gun_balancing_1/name"
 msgstr "Ζυγοστάθμιση Πυροβόλου (Τύπος 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Ζυγοστάθμιση Πυροβόλου (Τύπος 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Τροποποίηση Κάνης (Τύπος 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Βελτιωμένη Ανάρτηση (Τύπος 1)"
 msgid "improved_suspension_2/name"
 msgstr "Βελτιωμένη Ανάρτηση (Τύπος 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Βελτιωμένη Περιστροφή Πυργίσκου (Τύπος 1)"
+
 msgid "inspire/longDescr"
 msgstr "Βελτιώνει τα πληρώματα του ίδιου του οχήματος αλλά και των άλλων οχημάτων της ομάδας μέσα σε μία καθορισμένη περιοχή, δίνοντας μπόνους % στην κύρια ειδικότητα του κάθε μέλους. Ο παίκτης που ενεργοποιεί την Εφεδρεία λαμβάνει μεγαλύτερο μπόνους."
 
@@ -1294,6 +1303,9 @@ msgstr "Σετ Βελτιωμένης Ευκινησίας Τ3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Σετ Βελτιωμένης Ευκινησίας Τ3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Καταστολέας Λάμψης Στομίου (Τύπος 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Αυξάνεται προσωρινά η ισχύς του κινητήρα κατά %(enginePowerFactor)s και η μέγιστη ταχύτητα κατά %(maxSpeedFactor)s φορές για %(consumeSeconds)s sec."
 
@@ -1347,6 +1359,12 @@ msgstr "Μέσα σε {colorTagOpen}%(delay)d sec{colorTagClose}, η επιλε�
 
 msgid "poi_artillery_aoe/name"
 msgstr "Μπαράζ Πυροβολικού"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Μετά από μια σύντομη καθυστέρηση, εκτοξεύεται μια Φωτοβολίδα Φωταψίας που φωτίζει την επιλεγμένη περιοχή. Τα εχθρικά οχήματα που βρίσκονται εντός της ακτίνας δράσης της παραμένουν Εντοπισμένα και δέχονται αυξημένη φθορά.\nΤο Παρατηρητήριο μπορεί να καταληφθεί ξανά έπειτα από λίγα λεπτά."
+
+msgid "poi_illumination_flare/name"
+msgstr "Φωτοβολίδα Φωταψίας"
 
 msgid "poi_radar/descr"
 msgstr "Όταν ενεργοποιείται, όλα τα εχθρικά οχήματα θα παραμένουν εντοπισμένα για {colorTagOpen}%(duration)d sec{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Ελαφρύτερο Σκάφος"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Ελαφρύτερο\nΣκάφος"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Αντί-Αντανακλαστική Επικάλυψη Οπτικών"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Αντί-Αντανακλαστική Επικάλυψη Προβολέων"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Αντί-Αντανακλαστική\nΕπικάλυψη Οπτικών"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Αντί-Αντανακλαστική\nΕπικάλυψη Προβολέων"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Εξωτερικό Σύστημα Διόπτευσης"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Ηλεκτρικό Περισκόπιο"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Εξωτερικό Σύστημα\nΔιόπτευσης"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Ηλεκτρική Κίνηση\nΠερισκοπίου"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Πανοραμικό Τρίπλεξ"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Πανοραμικό\nΤρίπλεξ"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Πανοραμικό Τρίπλεξ"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Συσκευή Διόπτευσης Μικρής-Γωνίας"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Συσκευή Διόπτευσης\nΜικρής-Γωνίας"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Νέα Σκοπευτικά"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Νέα Σκοπευτικά"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Ηλεκτρικό Περισκόπιο"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Ηλεκτρική Κίνηση\nΠερισκοπίου"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Αύξηση Αντοχής"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Αύξηση Αντοχής"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Αντί-Αντανακλαστική Επικάλυψη Προβολέων"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Αντί-Αντανακλαστική\nΕπικάλυψη Προβολέων"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Ρύθμιση Εξολκέα"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Ρύθμιση Εξολκέα"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Επανακαλωδίωση Συστήματος Τροφοδοσίας"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Επανακαλωδίωση\nΣυστήματος Τροφοδοσίας"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Βελτιωμένη Αυλάκωση Κάννης"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Βελτιωμένη\nΑυλάκωση Κάννης"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Ευαίσθητα Οπτικά"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Ευαίσθητα Οπτικά"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Ενισχυμένη Δομή"
@@ -2424,6 +2490,9 @@ msgstr "Ηλεκτρική Εκκένωση"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Δημιουργεί μία ζώνη στην οποία γίνονται %(thunderCount)s ηλεκτρικές εκκενώσεις με μεγάλη συχνότητα. Κάθε εκκένωση προκαλεί {whiteSpanish_Open}%(damage)s HP φθοράς{whiteSpanish_Close} και μειώνει την ευκινησία των οχημάτων μέσα στην περιοχή επίδρασης.\n\n*Υπάρχει χρονική καθυστέρηση %(delay)s sec από την ενεργοποίηση μέχρι την πρώτη ηλεκτρική εκκένωση. Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Αντικατάσταση Ράβδων Στρέψης (Τύπος 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Για %(duration)s sec, δημιουργεί μία περιοχή στην οποία μειώνεται η ευκινησία κατά %(vehicleMaxSpeed)s, η ταχυβολία και η ταχύτητα στόχευσης κατά %(gunReloadTime)s, σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."

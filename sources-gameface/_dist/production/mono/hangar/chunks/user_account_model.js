@@ -1,1 +1,105 @@
-import{o as e,K as s,q as o}from"./vendor.js";import{i as t,dg as n,cr as i,cs as r,dh as a,di as c,dj as l,dk as u,S as p,dl as m,dm as b,dn as d,dp as P,W as g}from"./lib.js";var f=(e=>(e.None="None",e.Core="Core",e.Pro="Pro",e))(f||{}),v=(e=>(e.Inactive="Inactive",e.Active="Active",e.Cancelled="Cancelled",e))(v||{});const C=n(P(e=>e>0),d(g)),k=[[a,c],[l,u],[p,m],[b,()=>m(1)]];function A(e){if(e){const s=i(e,r());for(const[e,o]of k){const t=Math.ceil(e(s));if(t>0)return o(t)}}}var x=(e=>(e.Unlock="unlock",e.UnlockSteamAndCn="unlockSteamAndCn",e.UnlockPro="unlockPro",e))(x||{});const[y,I]=t("UserAccountProvider")(({observableModel:t,cleanup:n})=>{const i=t.object("userInfo"),r=t.object("subscriptions.wotPlus"),a=t.object("subscriptions.premiumAccount"),c=t.primitives(["isCnRealm","isSteamPlatform"],"subscriptions"),l=t.arrayClone("subscriptions.wotPlus.benefits"),u=t.arrayClone("subscriptions.wotPlus.proBenefits"),p={basic:e.box(A(C(a.get().expiryTime))),plus:e.box(A(C(r.get().expiryTime)))};const m=s(()=>a.get().expiryTime,e=>{p.basic.set(A(C(e)))}),b=s(()=>r.get().expiryTime,e=>{p.plus.set(A(C(e)))}),d=setInterval(function(){o(()=>{p.basic.set(A(C(a.get().expiryTime))),p.plus.set(A(C(r.get().expiryTime)))})},6e4);return n(()=>{clearInterval(d),m(),b()}),{userInfo:i,premiums:p,wotPlus:r,premiumAccount:a,benefits:l,proBenefits:u,subscriptionPrimitives:c,getTooltipVariant:()=>{const e=r.get().state,s=r.get().type;return e===v.Inactive&&s===f.None&&(c.isCnRealm.get()||c.isSteamPlatform.get())?"unlockSteamAndCn":e===v.Inactive&&s===f.None?"unlock":e!==v.Inactive&&s===f.Core?"unlockPro":"unlock"}}},({externalModel:e})=>({openAccountDashboard:e.createCallbackNoArgs("onOpenAccountDashboard"),openWotPlusSubscriptionPage:e.createCallbackNoArgs("subscriptions.onOpenWotPlus"),openPremiumSubscriptionPage:e.createCallbackNoArgs("subscriptions.onOpenPremium")}));export{x as T,y as U,v as W,f as a,I as u};
+import { o as e, U as s, q as o } from "./vendor.js";
+import {
+  i as t,
+  ci as n,
+  ck as i,
+  dw as a,
+  dk as r,
+  dx as c,
+  dy as l,
+  df as u,
+  dz as p,
+  dA as m,
+  dB as b,
+  dC as d,
+  dD as P,
+  cj as f,
+} from "./lib.js";
+var g = ((e) => ((e.None = "None"), (e.Core = "Core"), (e.Pro = "Pro"), e))(g || {}),
+  v = ((e) => ((e.Inactive = "Inactive"), (e.Active = "Active"), (e.Cancelled = "Cancelled"), e))(
+    v || {},
+  );
+const C = b(
+    P((e) => e > 0),
+    d(f),
+  ),
+  k = [
+    [a, r],
+    [c, l],
+    [u, p],
+    [m, () => p(1)],
+  ];
+function A(e) {
+  if (e) {
+    const s = n(e, i());
+    for (const [e, o] of k) {
+      const t = Math.ceil(e(s));
+      if (t > 0) return o(t);
+    }
+  }
+}
+var x = ((e) => (
+  (e.Unlock = "unlock"),
+  (e.UnlockSteamAndCn = "unlockSteamAndCn"),
+  (e.UnlockPro = "unlockPro"),
+  e
+))(x || {});
+const [y, I] = t("UserAccountProvider")(
+  ({ observableModel: t, cleanup: n }) => {
+    const i = t.object("userInfo"),
+      a = t.object("subscriptions.wotPlus"),
+      r = t.object("subscriptions.premiumAccount"),
+      c = t.primitives(["isCnRealm", "isSteamPlatform"], "subscriptions"),
+      l = t.arrayClone("subscriptions.wotPlus.benefits"),
+      u = t.arrayClone("subscriptions.wotPlus.proBenefits"),
+      p = { basic: e.box(A(C(r.get().expiryTime))), plus: e.box(A(C(a.get().expiryTime))) };
+    const m = s(
+        () => r.get().expiryTime,
+        (e) => {
+          p.basic.set(A(C(e)));
+        },
+      ),
+      b = s(
+        () => a.get().expiryTime,
+        (e) => {
+          p.plus.set(A(C(e)));
+        },
+      ),
+      d = setInterval(function () {
+        o(() => {
+          (p.basic.set(A(C(r.get().expiryTime))), p.plus.set(A(C(a.get().expiryTime))));
+        });
+      }, 6e4);
+    return (
+      n(() => {
+        (clearInterval(d), m(), b());
+      }),
+      {
+        userInfo: i,
+        premiums: p,
+        wotPlus: a,
+        premiumAccount: r,
+        benefits: l,
+        proBenefits: u,
+        subscriptionPrimitives: c,
+        getTooltipVariant: () => {
+          const e = a.get().state,
+            s = a.get().type;
+          return e === v.Inactive && s === g.None && (c.isCnRealm.get() || c.isSteamPlatform.get())
+            ? "unlockSteamAndCn"
+            : e === v.Inactive && s === g.None
+              ? "unlock"
+              : e !== v.Inactive && s === g.Core
+                ? "unlockPro"
+                : "unlock";
+        },
+      }
+    );
+  },
+  ({ externalModel: e }) => ({
+    openAccountDashboard: e.createCallbackNoArgs("onOpenAccountDashboard"),
+    openWotPlusSubscriptionPage: e.createCallbackNoArgs("subscriptions.onOpenWotPlus"),
+    openPremiumSubscriptionPage: e.createCallbackNoArgs("subscriptions.onOpenPremium"),
+  }),
+);
+export { x as T, y as U, v as W, g as a, I as u };

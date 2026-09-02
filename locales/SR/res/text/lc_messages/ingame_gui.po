@@ -700,6 +700,9 @@ msgstr "Zona je zauzeta"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Šteta od zone vatre"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Naneta šteta"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Vozilo popravljeno"
 
@@ -741,6 +744,9 @@ msgstr "Šteta pogodkom"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Šteta Vatrenom loptom"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Šteta pogodkom"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Šteta sudaranjem"
@@ -907,6 +913,9 @@ msgstr "Gusenica nije probijena"
 msgid "hitMarker/wheelBlocked"
 msgstr "Točak nije probijen"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSIMALAN NIVO VOZILA"
 
@@ -1020,6 +1029,21 @@ msgstr "Popravke nisu potrebne: Svi moduli ispravni."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] ne zahteva nikakve popravke."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Nedostupno: Šaržer je pun."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Nedostupno: Nema prostalih granata."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Nedostupno: Nema preostalih punjenja."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Nedostupno: Punjenje je skoro gotovo."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Lansiranje rakete je nedostupno"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nije moguće aktivirati koaksijalno oružje."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm Fugasna %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm Kumulativna %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Šansa za kritičan pogodak: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Smanjena"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Povećana"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standardna"
+
 msgid "shells_kinds/params/damage"
 msgstr "Prosečna šteta: %(value)s poena (HP)"
 
@@ -2710,17 +2746,41 @@ msgstr "Šteta po sekundi: %(value)s poena/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Poluprečnik oštećenja: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Puno / jedno punjenje"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Osnovno / Modifikovano:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Puno / Jedno punjenje:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standardno / Podešeno:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standardno / Kalibrisano:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Ugao normalizacije: %(value)s step."
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Gubitak probojnosti: %(value)s na 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Prosečna penetracija: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Ugao rikošeta: %(value)s step."
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Brzina granate: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Trajanje ošamućenja: %(minValue)s - %(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "za aktiviranje DSM režima"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "za prelaz u opsadni režim"
@@ -2745,6 +2805,9 @@ msgstr "da aktiviraš Bustere tečnog goriva"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "za aktiviranje mlaznih bustera"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "za promenu režima vatre"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "za aktiviranje sekvencijalnih raketnih potisnika"

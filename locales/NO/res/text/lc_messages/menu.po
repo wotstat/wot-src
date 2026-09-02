@@ -826,6 +826,9 @@ msgstr "3D stiler"
 msgid "carousel_tank_filter/ready"
 msgstr "Kun primær"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Speider"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Snikskytter"
 
@@ -834,9 +837,6 @@ msgstr "Støtte"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Allsidig"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Med hjul"
 
 msgid "centerIsAvailable"
 msgstr "Alle serverne er online igjen."
@@ -4159,6 +4159,9 @@ msgstr "Forbedret autoladesystem:\nReduserer standard tid for autolading av gran
 msgid "moduleInfo/autoShootGun"
 msgstr "Kanon med kontinuerlig ildgivning"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Dette kjøretøyet er utstyrt med en rakettutkaster montert i kanonens mantel. Aktiver evnen ved å bytte til sekundærvåpenets sikte og fyr løs en ikke-styrt HE rakett med avfyringsknappen."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Avslutt"
 
@@ -4312,6 +4315,9 @@ msgstr "Nedkjøling"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "på hovedkvalifikasjonene og besetningsfordeler"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Sjanse for kritisk treff"
+
 msgid "moduleInfo/params/damage"
 msgstr "Skade"
 
@@ -4342,11 +4348,29 @@ msgstr "Sjanse for brann ved treff"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Flytid"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Forårsaker alltid skade dersom hovedpansringen treffes"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maksimal rekkevidde for granatene med denne kanonen"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " avhenger ikke av rekkevidden for denne typen granat"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksimal rekkevidde—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " denne typen granater taper penetrasjonskraft i mellomrom etter først å ha penetrert det første laget"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " avhenger av rekkevidde: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " denne typen granater penetrerer det første laget som vanlig, men mister deretter penetrasjonskraft tilsvarende tre ganger pansringstykkelsen"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Toppfart"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Forårsaker alltid skade dersom hovedpansringen treffes"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Vekt"
@@ -4378,20 +4402,11 @@ msgstr "Helsepoeng"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Skuddrekkevidde"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maksimal rekkevidde for granatene med denne kanonen"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maksimal dreiningsvinkel for hjul"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Gjennomsnittlig skade på %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " avhenger ikke av rekkevidden for denne typen granat"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksimal rekkevidde—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normaliseringsvinkel"
@@ -4399,14 +4414,8 @@ msgstr "Normaliseringsvinkel"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Penetrasjonsreduksjon"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " denne typen granater taper penetrasjonskraft i mellomrom etter først å ha penetrert det første laget"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " avhenger av rekkevidde: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Gjennomsnittlig penetrasjon (mm)—Distanse"
@@ -4456,9 +4465,6 @@ msgstr "Dreiehastighet"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplikator for pansring med\nmellomrom"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " denne typen granater penetrerer det første laget som vanlig, men mister deretter penetrasjonskraft tilsvarende tre ganger pansringstykkelsen"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Etterbrenner med drivstoffinduksjon som øker gjennomsnittlig skade"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Jetboostere øker kjøretøyets hastighet"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Kjøretøyets kanon har spesielle innretninger som gjør det mulig å endre visse granatparametere før avfyring."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Boostere med faste drivstoff som øker akselerasjon, mobilitet og manøvrerbarhet"
@@ -5284,11 +5293,14 @@ msgstr "Kjøretøy med perfekte kanoner, der effektiv bruk krever etterfølgelse
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Flerbrukstanks som enkelt kan tilpasse seg en hvilken som helst kampsituasjon."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Raske og manøvrerbare kjøretøy som både kan speide og forårsake skade under flankemanøvre."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Lette speidertanks er små smidige kjøretøy bygget for å oppdage fiender. Deres lave silhuetter og gode kamuflasje, kombinert med utmerket manøvrerbarhet og høy toppfart, gjør dem dyktige til både passiv og aktiv speiding. Men dårlig motstandsdyktighet og lav ildkraft hindrer dem i å gi betydelig støtteild til allierte."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Kjøretøy med fremragende dynamiske karakteristika, der effektiv bruk avhenger av kartet eller den taktiske situasjonen."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Lette støttetanks bruker sin høye mobilitet, utmerkede manøvrerbarhet og kraftige kanoner til å raskt bytte flanker og påføre betydelig skade før de trekker seg tilbake i sikkerhet. Selv om de kan utføre rekognosering i visse situasjoner gjør deres store størrelse og dårlige kamuflasjeevne dem til mindre effektive speidere enn andre lette tanks."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Allsidige lette tanks er balanserte kjøretøy som er i stand til både oppklaring og å gi ildstøtte til allierte. Selv om de er mindre effektive til rekognosering enn rene speidere og har mindre ildkraft enn støttetanks, gjør den balanserte profilen at de kan fylle begge roller godt og enkelt tilpasse seg et bredt spekter av kampsituasjoner."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Kjøretøy med grei pansring som gjør at de passer best til nærkamp og til å stå imot fiendtlige tunge tanks."
@@ -5329,11 +5341,14 @@ msgstr "Tung støttetanks"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Allsidig tung tanks"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Lett speidertanks"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Lett støttetanks"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Allsidig lett tanks"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Lett tanks på hjul"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Medium angrepstanks"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Lad om"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magasin/mengde)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Raskere ladetid på granat"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Nedkjølingstid for fullt klips"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Basis nedkjølingstid for lading"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Lading ved begynnelse av kamp"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Ladninger"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Gjennomsnittlig skade (helsepoeng)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Spredning ved 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Standard penetrering (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Nedkjøling (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Rakettgranathastighet (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Gjennomsnittlig skade"
 
@@ -6057,6 +6105,21 @@ msgstr "Granatkasse"
 
 msgid "tank_params/burstSec"
 msgstr "(s/klips/granater pr. klips)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Gjennomsnittlig skade (helsepoeng)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Toppfart (EAF modus) (km/t)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Skuddtakt (runder/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "EAF modusaktivering (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "EAF modus deaktivering (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Klargjøring for salve"
@@ -6150,6 +6213,12 @@ msgstr "Motorkraft (hk) (turbomodus)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Skaderadius"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Toppfart (EAF modus) (km/t)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "EAF modusaktivering (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Nedkjølingstid for kanonen etter skudd"
@@ -6325,9 +6394,6 @@ msgstr "Terrengkapasitet"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Elektromekanisk stereoskopisk siktejustering (% per hit) (kampmodus, passiv)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(per aktivering)"
 
@@ -6484,8 +6550,20 @@ msgstr "Lading av hjelpevåpen"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Granater til hjelpevåpen"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Justert gjennomsnittlig granatskade (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Justert gjennomsnittlig granatpenetrasjon (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Ladetid på ammunisjonsbelte"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Tiden det tar å bytte modi"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetrasjon:"
@@ -6495,6 +6573,36 @@ msgstr "Spredning ved 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Granatens utgangshastighet"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Fiendens skjuleevne bak vegetasjon (Stasjonær og i bevegelse)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Skjuleevne for fiende i bevegelse"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Begynnende nedkjøling"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Varighet"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Nedkjøling"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Tårnets dreiehastighet"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Bredde på sluttskanning"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Bredde på første skanning"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Varighet på egen oppdagelse"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Synsrekkevidde"
 
 msgid "tank_params/speedLimits"
 msgstr "Toppfart / Reversfart"

@@ -97,8 +97,9 @@ def _operationLocked(func):
     def funcWithMessage(self, *args, **kwargs):
         if not self.isLocked:
             return func(self, *args, **kwargs)
-        SystemMessages.pushI18nMessage(b'#system_messages:vehicleCompare/disabled', type=SM_TYPE.Error)
-        return
+        else:
+            SystemMessages.pushI18nMessage(b'#system_messages:vehicleCompare/disabled', type=SM_TYPE.Error)
+            return
 
     return funcWithMessage
 
@@ -108,8 +109,9 @@ def _ErrorNotification(func):
     def funcWithMessage(self, *args, **kwargs):
         if self.isEnabled() and self.isAvailable():
             return func(self, *args, **kwargs)
-        SystemMessages.pushI18nMessage(b'#system_messages:vehicleCompare/disabled', type=SM_TYPE.Error)
-        return
+        else:
+            SystemMessages.pushI18nMessage(b'#system_messages:vehicleCompare/disabled', type=SM_TYPE.Error)
+            return
 
     return funcWithMessage
 

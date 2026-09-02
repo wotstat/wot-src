@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ZATVORI"
+
+msgid "continueBtn"
+msgstr "Nastavi"
+
+msgid "economy/double/credits"
+msgstr "WoT premijum nalog povećava količinu zarađenih kredita za %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "WoT premijum nalog povećava količinu zarađenog iskustva za %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT premijum nalog povećava količinu zarađenog iskustva posade za %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "WoT premijum nalog povećava količinu zarađenog iskustva za %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT premijum nalog povećava količinu zarađenog borbenog i slobodnog iskustva za %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Zauzimanje generatora"
+
+msgid "efficiency/damageAssisted"
+msgstr "Asistirana šteta"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Šok"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Blokirana šteta"
+
+msgid "efficiency/damageDealt"
+msgstr "Šteta"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Odbrana generatora"
+
+msgid "efficiency/empty"
+msgstr " - "
+
+msgid "efficiency/kills"
+msgstr "Uništen"
+
+msgid "efficiency/spotted"
+msgstr "Opažanje"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Zauzimanje generatora"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Šteta uz tvoju asistenciju"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Ošamuti"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Upotreba oklopa"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Šteta"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Odbrana generatora"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Neprijatelji uništeni"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Opažanje"
+
+msgid "finish"
+msgstr "Borba se završila:"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Mora biti primenjen na najskoriju borbu u istom vozilu."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonus ne može biti primenjen: ubrzani trening posade je uključen."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus ne može biti primenjen: ubrzani trening posade je isključen."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Množitelji se mogu primeniti samo na pobedničke borbe."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Prilagodiv bonus nemože biti primenjen: posada nije pronadjena."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Prilagodiv bonus ne može biti primenjen: vozilo nije pronadjeno."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Specijalna misija. Etapa: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Specijalna misija"
+
+msgid "result/lose"
+msgstr "PORAZ"
+
+msgid "result/tie"
+msgstr "NEREŠENO"
+
+msgid "result/win"
+msgstr "POBEDA"
+
+msgid "ribbon/applied"
+msgstr "Bonus uspešno primenjen"
+
+msgid "ribbon/errorState"
+msgstr "Greška aplikacije"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s Bonusa na iskustvo"
+
+msgid "ribbon/timeLeft"
+msgstr "Bonus se obnavlja za:"
+
+msgid "ribbon/usesLeft"
+msgstr "Dostupne aplikacije: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "LIČNI REZULTAT"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Timski rezultat"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Igrači"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "LIČNI REZULTAT"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "Timski rezultat"
+
+msgid "sub_modes/undefined/team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "sub_modes/undefined/team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Igrači"

@@ -86,6 +86,16 @@ class VehiclePreviewBottomPanelShowcaseStyleBuying(VehiclePreviewBottomPanelShow
             self.__notifier.startNotification()
         return
 
+    def _populate(self):
+        super(VehiclePreviewBottomPanelShowcaseStyleBuying, self)._populate()
+        self.__itemsCache.onSyncCompleted += self.__onSyncCompleted
+        return
+
+    def _dispose(self):
+        self.__itemsCache.onSyncCompleted -= self.__onSyncCompleted
+        super(VehiclePreviewBottomPanelShowcaseStyleBuying, self)._dispose()
+        return
+
     def _destroy(self):
         self.__notifier.stopNotification()
         self.__notifier.clear()
@@ -150,4 +160,8 @@ class VehiclePreviewBottomPanelShowcaseStyleBuying(VehiclePreviewBottomPanelShow
         vPShowcaseStyleBuyingVO = self.__prepareVO()
         self.as_setDataS(vPShowcaseStyleBuyingVO)
         self.as_setBuyingTimeElapsedS(True)
+        return
+
+    def __onSyncCompleted(self, *_):
+        self.update()
         return

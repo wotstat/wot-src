@@ -40,6 +40,9 @@ msgstr "Onderzoek"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Terugbrengen"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Naar grote dozen"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Geen niveau %(level)s uit de %(nation)s technologieboom onderzocht"
 
@@ -54,6 +57,15 @@ msgstr "Korting op het kopen:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Korting op het onderzoeken:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Dit voertuig kan in {{@ style (color $color)}}grote dozen{{/}} zitten!"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Grote dozen!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Dit voertuig zit mogelijk in"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Gebruik een couponkorting: %(value)s"

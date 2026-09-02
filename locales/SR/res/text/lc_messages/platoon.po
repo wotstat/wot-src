@@ -130,6 +130,9 @@ msgstr "Ne možeš da kreiraš ili se pridružiš vodu jer nemaš odgovarajuće 
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Nakon kraja kvalifikacija, vodovi od 2 i 7 igrača će biti dostupni."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Nakon završetka kvalifikacija vod od dva igrača biće dostupan."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Nije moguće kreirati vod."
 
@@ -141,6 +144,9 @@ msgstr "Kreiraj vod ili se pridruži postojećem. U Jurišu, vodovi se sastoje o
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Vod"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Kreiraj vod ili se pridruži postojećem. U Jurišu, vodovi mogu da se sastoje samo od dva igrača."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Napravi taktičku jedinicu od 2 ili 3 igrača za zajedničku igru.\n• Borbeni režim: Boj do poslednjeg\n• Tipovi borbi: Čelični lov, Dominacija."
@@ -264,12 +270,6 @@ msgstr "Vod je dostigao maksimalan broj teških tenkova"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Vod je dostigao maksimalan broj srednjih tenkova"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Vod je dostigao maksimalan broj lakih tenkova"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Vod je dostigao maksimalan broj vozila sa točkovima"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Vod je dostigao maksimalan broj lakih tenkova"

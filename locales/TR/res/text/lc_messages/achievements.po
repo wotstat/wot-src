@@ -139,15 +139,6 @@ msgstr "Oyunculara World of Tanks'in evrimine paha biçilmez katkılarından dol
 msgid "15YearsOfService_descr"
 msgstr "%(regDate)s tarihinden beri oyundasınız"
 
-msgid "BPReserveAchievement_1"
-msgstr "SK Yedek Başarısı 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Gelişimi tamamlama karşılığında verilir."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Oyun sırasındaki başarılarınız karşılığında verilir"
-
 msgid "BPReserveAchievement_2"
 msgstr "SK Yedek Başarısı 2"
 
@@ -429,6 +420,15 @@ msgstr "• Üç Bölümün tümünü tamamlama karşılığında ödül olarak 
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Savaş Kartı XX. Sezon sırasındaki başarılarınız karşılığında ödül olarak verilir."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Ova Çatışması"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Üç Bölümün tümünü tamamlama karşılığında ödül olarak verilir."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Savaş Kartı XXI. Sezon sırasındaki başarılarınız karşılığında ödül olarak verilir."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Ana Gelişim 45 Aşamadan oluşmaktadır."
@@ -1828,6 +1828,48 @@ msgstr "Gümüş Ejderha"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Hücum kipinde Ejderha Yılında en az 9 Hücum Rengi toplama karşılığında ödül olarak verilir."
 
+msgid "comp7_6_1"
+msgstr "Azur Kıvılcım"
+
+msgid "comp7_6_1_descr"
+msgstr "Hücum kipinde Azur Anka Kuşu Sezonu'nun savaş görevleri serisini tamamlama karşılığında verilir."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronz Anka Kuşu"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Hücum kipinde Anka Yılında en az 6 Hücum Rengi toplama karşılığında verilir."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Anka Yılı Şampiyonu"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Hücum kipinde Anka Yılında en az 15 Hücum Rengi toplama karşılığında verilir."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Altın Anka Kuşu"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Hücum kipinde Anka Yılında en az 12 Hücum Rengi toplama karşılığında verilir."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Demir Anka Kuşu"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Hücum kipinde Anka Yılında en az 3 Hücum Rengi toplama karşılığında verilir."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Anka Yılı Efsanesi"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Hücum kipinde Anka Yılında en az 18 Hücum Rengi toplama karşılığında verilir."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Gümüş Anka Kuşu"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Hücum kipinde Anka Yılında en az 9 Hücum Rengi toplama karşılığında verilir."
+
 msgid "conqueror"
 msgstr "İşgalci %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Sadece Rastgele Savaşlarda alınabilir."
 
 msgid "huntsman_descr"
-msgstr "Tek bir savaşta tüm düşman hafif tanklarını (en az 3) yok edin."
+msgstr "Tek bir savaşta tüm düşman hafif tanklarını (en az 2) yok edin."
 
 msgid "huntsman_heroInfo"
 msgstr "Çavuş Grigoriy Naydin BT-7 komutanıydı. 25 Haziran 1941'de Rudishkyay isimli Litvanya kasabası yakınlarında 19'uncu Mekanize Tümenin 15 aracı ve 10 topu dahil bir Wehrmacht zırhlı birliğini yok etti. Naydin Alman ilerlemesini iki gün boyunca durdurmayı başararak Vilnius çevresinin savunmasının hazırlanmasını sağladı. Bu hareketi ile Naydin Sovyetler Birliği Kahramanı ünvanı kazandı."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Birlik için 15 kişisel görevi takdirle tamamlayın. Ödül: Örnek Performans: Birlik madalyası, III. Sınıf."
 
 msgid "readyForBattleAssault"
-msgstr "Örnek Performans: Öncü Kuvvet"
+msgstr "Örnek Performans: 3. Sektör Öncü Kuvvet"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "3. Sektör harekâtında tüm Öncü Kuvvet görevlerini tamamlama karşılığında."
+msgstr "3. Sektör harekâtının ana operasyonlarında tüm Öncü Kuvvet görevlerini tamamlama karşılığında."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Örnek Performans: Fossa Öncü Kuvvet"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "3. Sektör harekâtının Fossa operasyonunda tüm Öncü Kuvvet görevlerini tamamlama karşılığında."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Örnek Performans: Fossa Pusu"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "3. Sektör harekâtının Fossa operasyonunda tüm Pusu görevlerini tamamlama karşılığında."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Örnek Performans: Fossa Destek"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "3. Sektör harekâtının Fossa operasyonunda tüm Destek görevlerini tamamlama karşılığında."
 
 msgid "readyForBattleHT"
 msgstr "Örnek Performans: Ağır Tanklar"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "KMTler için 15 kişisel görevi takdirle tamamlayın. Ödül: Örnek Performans: KMT madalyası. IV. Kademe."
 
 msgid "readyForBattleSniper"
-msgstr "Örnek Performans: Pusu"
+msgstr "Örnek Performans: 3. Sektör Pusu"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "3. Sektör harekâtında tüm Pusu görevlerini tamamlama karşılığında."
+msgstr "3. Sektör harekâtının ana operasyonlarında tüm Pusu görevlerini tamamlama karşılığında."
 
 msgid "readyForBattleSupport"
-msgstr "Örnek Performans: Destek"
+msgstr "Örnek Performans: 3. Sektör Destek"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "3. Sektör harekâtında tüm Destek görevlerini tamamlama karşılığında."
+msgstr "3. Sektör harekâtının ana operasyonlarında tüm Destek görevlerini tamamlama karşılığında."
 
 msgid "reliableComrade"
 msgstr "Savaş Arkadaşı"
@@ -4692,6 +4761,15 @@ msgstr "Waffenträger: Paradoks Gelişimini tamamlama karşılığında ödül o
 
 msgid "wt2025progression_descr"
 msgstr "Waffenträger kipi Gelişimini tamamlayın."
+
+msgid "wt2026progression"
+msgstr "Fırtına Binicisi"
+
+msgid "wt2026progression_condition"
+msgstr "Waffenträger: Başlangıç 2026 etkinliğindeki Gelişimi tamamlayanlara verilir. Bu onur, von Krieger'in ilk düşünen makinesi olan Elektrik Zekâ'ya karşı duran ve onun dünyamıza ulaşmasını sağlayan tüm devreleri kesenlere verilir."
+
+msgid "wt2026progression_descr"
+msgstr "Waffenträger: Başlangıç 2026 etkinliğinde Gelişimi tamamlayın."
 
 msgid "wtBossWins"
 msgstr "Yıldırım Ustası"

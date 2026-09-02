@@ -46,6 +46,15 @@ msgstr "Permite o modelare mai realistă și detaliată a distrugerii obiectelor
 msgid "HAVOK_ENABLED/warning"
 msgstr "Setarea va fi aplicată în următoarea luptă, dacă este inactivă în lupta curentă."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Efecte vizuale îmbunătățite"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Activează efectele vizuale îmbunătățite. Dezactivarea acestei opțiuni revine la efectele standard, ceea ce poate îmbunătăți performanța jocului."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Setarea va fi aplicată în următoarea luptă, dacă este inactivă în lupta curentă."
+
 msgid "LANGUAGE_CODE"
 msgstr "ro"
 
@@ -175,11 +184,11 @@ msgstr "Activează urmele de şenile și roți"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Afișează pe teren urmele de șenile și roți.\n\nIndisponibilă în Grafica Simplificată și Calitatea Redusă a afișării."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Ascunde atașamentele 3D în modul țintaș"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Vizibilitatea efectelor și Atașamentelor 3D"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Ascunde temporar Atașamentele 3D în reticulul tunului în modul țintaș.\n\nReduce aglomerarea vizuală și îmbunătățește precizia țintirii."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Ajustează vizibilitatea efectelor și a Atașamentelor 3D în apropierea centrului ecranului pentru a reduce obstrucția vizuală în timpul țintirii. Vizibilitatea atașamentului 3D este ajustată doar în modul țintaș.\n\nValorile mai mici fac efectele și Atașamentele 3D mai transparente pentru o claritate mai mare la țintire."
 
 msgid "WATER_QUALITY"
 msgstr "Calitatea apei"
@@ -1995,6 +2004,15 @@ msgstr "Mod:"
 
 msgid "screenMode/windowed"
 msgstr "Fereastră"
+
+msgid "showPrebattleHighlights"
+msgstr "Activează Evidențierea"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Afișează o selecție de tancuri impresionante vizual în timpul numărătorii inverse înainte de luptă.\n\nDezactivarea acestui parametru poate îmbunătăți performanța jocului."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Dacă setarea este dezactivată în lupta curentă, aceasta va fi activată în următoarea."
 
 msgid "smoothing/description"
 msgstr "Stabileşte nivelul de procesare suplimentară a liniilor subţiri şi a contururilor obiectelor. Micşorează efectul de aliasing. Contururile obiectelor arată mai firesc."

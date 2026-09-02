@@ -880,6 +880,12 @@ msgstr "Plusz barázdák 3. osztály"
 msgid "gun_balancing_1/name"
 msgstr "Löveg egyensúlyozás (1. típus)"
 
+msgid "gun_balancing_2/name"
+msgstr "Löveg-kiegyensúlyozás (2. típus)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Lövegcső-módosítás (1. típus)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Fejlesztett felfüggesztés (1. típus)"
 msgid "improved_suspension_2/name"
 msgstr "Fejlesztett felfüggesztés (2. típus)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Fejlesztett toronyhajtás (1. típus)"
+
 msgid "inspire/longDescr"
 msgstr "Megnöveli a saját és a közelben lévő csapattársak legénységének a teljesítményét egy meghatározott körön belül. % bónuszt ad a legénység minden tagjának fő képzettségéhez. A játékos, aki alkalmazza, nagyobb hatást kap."
 
@@ -1294,6 +1303,9 @@ msgstr "Mobilitásjavító rendszer 3. szint"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Mobilitásjavító rendszer 3. szint"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Torkolattűz-csökkentő (1. típus)"
+
 msgid "nitro/battleDescr"
 msgstr "Ideiglenesen megnöveli a jármű motorjának teljesítményét %(enginePowerFactor)s-kal, valamint %(maxSpeedFactor)sx-esen növeli a végsebességet %(consumeSeconds)s másodpercen át."
 
@@ -1347,6 +1359,12 @@ msgstr "{colorTagOpen}%(delay)d mp-en{colorTagClose} belül a kiválasztott ter
 
 msgid "poi_artillery_aoe/name"
 msgstr "Tüzérségi csapás"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Rövid késleltetést követően egy világítórakéta borítja fénybe a kiválasztott területet. A hatótávolságán belül tartózkodó ellenséges járművek felderített állapotban maradnak, és megnövelt sebzést szenvednek el.\nA Megfigyelőállás néhány perc elteltével újra elfoglalható."
+
+msgid "poi_illumination_flare/name"
+msgstr "Világítórakéta"
 
 msgid "poi_radar/descr"
 msgstr "Amikor aktiválva van, minden ellenséges jármű látható marad {colorTagOpen}%(duration)d mp-ig{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Könnyű járműtest"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Könnyű\njárműtest"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Tükröződésmentes optikai bevonat"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Tükröződésmentes fényszóró bevonat"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Tükröződésmentes\noptikai bevonat"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Tükröződésmentes\nfényszóró bevonat"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Külső látási rendszer"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektromos vezérlésű periszkóp"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Külső látási\nrendszer"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektromos vezérlésű\nperiszkóp"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panorámás triplex"
 
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panorámás triplex"
+
+msgid "role_LT_scout_pair_5_2/name"
+msgstr "Szűk látószögű megfigyelőeszköz"
+
+msgid "role_LT_scout_pair_5_2/splitName"
+msgstr "Szűk látószögű\nmegfigyelőeszköz"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Új célzórendszer-fogaskerekek"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Új célzórendszer-fogaskerekek"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektromos vezérlésű periszkóp"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektromos vezérlésű\nperiszkóp"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Általános tartósságnövelés"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Általános\ntartósságnövelés"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Tükröződésmentes fényszóró bevonat"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Tükröződésmentes\nfényszóró bevonat"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Ejektorigazítás"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Ejektorigazítás"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Tápellátás újrakábelezése"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Tápellátás\nújrakábelezése"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Továbbfejlesztett lövedékhuzagolás"
+
 msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panorámás\ntriplex"
+msgstr "Továbbfejlesztett\nlövedékhuzagolás"
 
 msgid "role_LT_universal_pair_5_2/name"
-msgstr "Szűk látószögű megfigyelő eszköz"
+msgstr "Érzékeny optika"
 
 msgid "role_LT_universal_pair_5_2/splitName"
-msgstr "Szűk látószögű\nmegfigyelő eszköz"
+msgstr "Érzékeny optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Megerősített elsődleges szerkezet"
@@ -2424,6 +2490,9 @@ msgstr "Elektromos kisülés"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Olyan zónát hoz létre, ahol %(thunderCount)s elektromos kisülések sorozata következik be nagy gyakorisággal. Minden kisülés {whiteSpanish_Open}%(damage)s sebzést{whiteSpanish_Close} okoz, és átmenetileg csökkenti minden ellenséges jármű mobilitását a képesség hatásterületén belül.\n\n*A képesség aktiválása és az első kisülés között %(delay)s másodperc késleltetés van. A negatív hatás javítókészlettel semlegesíthető."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Torziósrúd-csere (1. típus)"
 
 msgid "trappoint/battleDescr"
 msgstr "%(duration)s másodpercre egy olyan területet hoz létre, amely a mobilitási paramétereket csökkenti %(vehicleMaxSpeed)s-kal, a löveg újratöltési és célzási idejét pedig %(gunReloadTime)s-kal növeli a területen belül tartózkodó összes ellenséges járműre vonatkozóan."

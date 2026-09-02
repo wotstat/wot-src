@@ -34,7 +34,7 @@ package net.wg.gui.lobby.profile.components.chart
       override protected function draw() : void
       {
          super.draw();
-         if(isInvalid(InvalidationType.DATA,VALUE_INV))
+         if(isInvalidTypes(InvalidationType.DATA,VALUE_INV))
          {
             this.applyValueChange();
          }

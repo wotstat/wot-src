@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "a los puntos de vida del vehículo"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "a la velocidad de giro de la torreta o del cañón para vehículos con cabinas estacionarias"
+msgstr "a la velocidad de giro del cañón"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "a la velocidad de giro de la torreta"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "a los puntos de vida del vehículo"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "a la velocidad de rotación de la torreta o del cañón para vehículos con cabinas estacionarias"
+msgstr "a la velocidad de giro del cañón"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "a la velocidad de giro de la torreta"
@@ -2100,6 +2100,51 @@ msgstr " y "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "El modo de alimentación de munición externa del vehículo permite usar proyectiles con un daño mayor."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Valores básicos en modo estándar."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Valores modificados en el modo de alimentación externa de munición."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Parámetros básicos para disparos de carga completa"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parámetros para disparos de carga individual"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Parámetros básicos para disparos de carga completa"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Básica"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parámetros para disparos de carga individual"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "En el modo calibrado, este tipo de proyectil es eficaz contra el blindaje inclinado."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "El cañón del vehículo tiene dispositivos especiales que permiten modificar algunos parámetros del proyectil antes de disparar."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "En el modo estándar, este tipo de proyectil es eficaz contra el blindaje sin pantallas."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Modo estándar"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Modo calibrado"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "En el modo calibrado, este tipo de proyectil puede penetrar las pantallas."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "En el modo estándar, este tipo de proyectil es eficaz contra el blindaje vertical."
 
 msgid "tooltips/specializationDesc"
 msgstr "El equipamiento estándar de la categoría %(spec)s será más efectivo si se monta en este espacio. El equipamiento de otras categorías proporcionará la bonificación estándar."

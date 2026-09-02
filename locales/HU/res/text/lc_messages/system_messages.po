@@ -1009,6 +1009,9 @@ msgstr "A harckocsizó kiképzése szerverhiba miatt nem sikerült. Próbálkozz
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)sx)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "az aktuális játékmenet megszakadt. A Wargaming.net&nbsp;ID-d a World&nbsp;of&nbsp;Warships-be van bejelentkezve"
 
 msgid "lootboxes/open/server_error"
-msgstr "Hiba az ajándék átvételekor: szerverhiba."
+msgstr "Hiba a doboz kinyitásakor: Szerverhiba."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Hiba az ajándék átvételekor. Kérjük, várd meg, amíg az előző művelet befejeződik."
+msgstr "Hiba a doboz kinyitásakor: Kérjük, várd meg, amíg az előző műveletet végrehajtjuk."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később."
@@ -2383,30 +2386,6 @@ msgstr "Egyedi álcafestés %(vehicleName)s járműhöz megszerezve."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "A(z) %(vehicleName)s jármű egyedi álcafestése, elérhető a következő nemzet minden járművére: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Az elért előrehaladásodat elmentettük. Bármikor folytathatod a kampányokat."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "%(campaignName1)s és %(campaignName2)s kampány szünetel"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "A szüneteltetett hadműveletek és azok küldetései folytatódnak."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "%(campaignName1)s és %(campaignName2)s kampány folytatódik"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Az elért előrehaladásodat elmentettük. Bármikor folytathatod a kampányt."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "%(campaignName)s kampány szünetel"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "A szüneteltetett hadműveletek folytatódnak."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "%(campaignName)s kampány folytatódik"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Sikeresen felszerelted ezt: %(detailName)s."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Hiba a jutalmak fogadásakor. Kérjük, próbálkozz újra később."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Sikeresen felszerelted ezt: %(detail_name)s."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Hiba a jutalmak fogadásakor. Kérjük, próbálkozz újra később."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Sikeresen felszerelted ezt: %(detail_name)s."
 
 msgid "personalMissions/reward/regular/server_error"

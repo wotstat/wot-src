@@ -46,6 +46,15 @@ msgstr "Детальніше і достовірніше опрацьовує п
 msgid "HAVOK_ENABLED/warning"
 msgstr "Налаштування набуде чинності з наступного бою, якщо у цьому бою воно було вимкнено."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Поліпшені візуальні ефекти"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Вмикає поліпшені візуальні ефекти. Вимкнення цієї опції повертає стандартні ефекти, що може підвищити швидкодію гри."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Налаштування набуде чинності з наступного бою, якщо в цьому бою воно було вимкнено."
+
 msgid "LANGUAGE_CODE"
 msgstr "uk"
 
@@ -175,11 +184,11 @@ msgstr "Сліди гусениць та коліс"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Показує сліди від гусениць і коліс на землі.\n\nНедоступно при спрощеній графіці й низькій якості деколей."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Приховати 3D-обвіси в снайперському режимі"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Видимість ефектів та 3D-обвісів"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Тимчасово приховує 3D-обвіси в прицілі снайперського режиму.\n\nЗменшує візуальний шум і поліпшує точність прицілювання."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Налаштовує видимість ефектів та 3D-обвісів біля центра екрана, щоб зменшити візуальний шум під час прицілювання. Видимість 3D-обвісів налаштовується лише в снайперському режимі.\n\nНижчі значення роблять ефекти та 3D-обвіси прозорішими для поліпшення точності прицілювання."
 
 msgid "WATER_QUALITY"
 msgstr "Якість води"
@@ -1995,6 +2004,15 @@ msgstr "Режим:"
 
 msgid "screenMode/windowed"
 msgstr "Віконний"
+
+msgid "showPrebattleHighlights"
+msgstr "Увімкнути «Парад зірок»"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Показує добірку візуально разючих танків під час передбойового відліку.\n\nВимкнений параметр може підвищити швидкодію гри."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Якщо налаштування вимкнено в поточному бою, воно набуде чинності в наступному."
 
 msgid "smoothing/description"
 msgstr "Визначає ступінь додаткового опрацювання тонких ліній і обрисів об’єктів ігрової сцени, мінімізуючи ефект «сходинок». Обриси об’єктів мають природніший вигляд."

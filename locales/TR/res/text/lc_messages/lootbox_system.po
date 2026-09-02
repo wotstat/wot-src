@@ -28,6 +28,30 @@ msgstr "ALINAN ÖDÜLLER"
 msgid "awardViews/footer/backButton/"
 msgstr "Olumlu!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} kaldı"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Yeniden açma imkanı yok"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Değerli ödül"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Ücretsiz Yeniden Açın"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Yeterli tahvil yok"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "{{count}} karşılığında yeniden açın"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Yeniden Açın"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Çıkan değerli ödüller yeniden açmaya uygun değildi."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Yönerge"
 
@@ -118,6 +142,18 @@ msgstr "Açılan kutular: %(count)"
 msgid "common/statsButton"
 msgstr "İstatistikler"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "İptal"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Kutu, farklı ödüller alma şansı ile yeniden açılacak."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Yeniden Açın"
+
+msgid "confirmRerollLootBox/title"
+msgstr "{{cost}} karşılığında yeniden açılsın mı?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "İptal"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Etkinlik %(time) içinde sona erecek"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Etkinlik bitmeden tüm kutuları açmazsanız daha sonra otomatik olarak açılacaklar."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Etkinlik bitmeden kutuları açmazsanız otomatik olarak açılacaklar."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Olası kutu içeriği listesindeki tüm araçlara zaten sahipseniz kutulardan alacağınız sonraki tüm araçlar tam değerleri karşılığı altın ile telafi edilecek."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Her %(guaranteed0)s kutusunda bir Seviye VIII-X araç bulunması garantilidir. Bu kutuları açtığınızda böyle bir araç çıkmazsa kutu türüne bağlı olarak açacağınız %(guaranteed0)s&zwnbsp;. kutudan sahip olmadığınız bir Seviye VIII-X araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Her %(guaranteed)s kutusunda bir Seviye VIII-X araç bulunması garantilidir. Bu kutuları açtığınızda böyle bir araç çıkmazsa kutu türüne bağlı olarak açacağınız %(guaranteed)s&zwnbsp;. kutudan sahip olmadığınız bir Seviye VIII-X araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Bir kutudan aldığınız ödüllerden memnun kalmazsanız, kutuyu yeniden açarak aynı listeden farklı ürünler alma şansı elde edebilirsiniz. Her kutu yalnızca sınırlı kere yeniden açılabilir:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Otomatik Aç"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Telafi"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantili Ödül"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Yeniden Açılıyor"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Ürün listesine oyun portalında bakın"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo) için"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "%(style) 3B stiliniz;"
+
+msgid "reroll/free"
+msgstr "Ücretsiz"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finansal İşlem"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Düşülen kredi: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Düşülen tahvil: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Tarih: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Düşülen altın: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "\"%(eventName)s\" etkinliği sona erdi"
@@ -480,3 +546,15 @@ msgstr "Telafi edilen araçlar: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Zaten Garajınızda olan araç için telafi."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Yeniden Açılıyor"
+
+msgid "tooltip/reroll/price"
+msgstr "Fiyat"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Bir kutuyu yeniden açmak, aynı listeden farklı ödüller kazanma şansı sunar."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Yeniden Açılıyor"

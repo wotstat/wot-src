@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Este modo no está disponible en el servidor %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Inicio de la Temporada del Dragón celeste: %(date)s"
+msgstr "Inicio de la Temporada del Fénix celeste: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Inicio de la Temporada del Dragón escarlata: %(date)s"
+msgstr "Inicio de la Temporada del Fénix escarlata: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Inicio de la Temporada del Dragón jade: %(date)s"
+msgstr "Inicio de la Temporada del Fénix jade: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Esperando los resultados de la Cualificación para recibir tu rango"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "La Temporada del Dragón celeste ha terminado"
+msgstr "La Temporada del Fénix celeste ha terminado"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "La Temporada del Dragón escarlata ha terminado"
+msgstr "La Temporada del Fénix escarlata ha terminado"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "La Temporada del Dragón jade ha terminado"
+msgstr "La Temporada del Fénix jade ha terminado"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Las batallas en el servidor empezarán en %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Características del vehículo mejoradas"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Restauración de puntos de vida"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Daño recibido aumentado"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Características del vehículo mejoradas"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s-%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "La Temporada del Dragón celeste durará %(days)d día"
-msgstr[1] "La Temporada del Dragón celeste durará %(days)d días"
-msgstr[2] "La Temporada del Dragón celeste durará %(days)d días"
+msgstr[0] "La Temporada del Fénix celeste durará %(days)d día"
+msgstr[1] "La Temporada del Fénix celeste durará %(days)d días"
+msgstr[2] "La Temporada del Fénix celeste durará %(days)d días"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "La Temporada del Dragón escarlata durará %(days)d día"
-msgstr[1] "La Temporada del Dragón escarlata durará %(days)d días"
-msgstr[2] "La Temporada del Dragón escarlata durará %(days)d días"
+msgstr[0] "La Temporada del Fénix escarlata durará %(days)d día"
+msgstr[1] "La Temporada del Fénix escarlata durará %(days)d días"
+msgstr[2] "La Temporada del Fénix escarlata durará %(days)d días"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "La Temporada del Dragón jade durará %(days)d día"
-msgstr[1] "La Temporada del Dragón jade durará %(days)d días"
-msgstr[2] "La Temporada del Dragón jade durará %(days)d días"
+msgstr[0] "La Temporada del Fénix jade durará %(days)d día"
+msgstr[1] "La Temporada del Fénix jade durará %(days)d días"
+msgstr[2] "La Temporada del Fénix jade durará %(days)d días"
 
 msgid "calendarDay/title"
 msgstr "Programa"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Cualificaciones"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Asedio. Año del Dragón"
+msgstr "Asedio: Año del Fénix"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Cualificaciones cero"
@@ -574,11 +577,17 @@ msgstr "¡Afirmativo!"
 msgid "intro/description/banPhase"
 msgstr "Cada equipo puede bloquear un vehículo para una batalla. Ponte de acuerdo con tus aliados para excluir la máquina más temida o para formar una alineación que sorprenda a los enemigos. Si bloquean tu vehículo, puedes elegir otro preconfigurado de una lista de alquiler."
 
+msgid "intro/description/draw"
+msgstr "Cuando se acaba el tiempo y ningún equipo ha obtenido una victoria clara, el resultado de la batalla se decide por desempate en este orden: vehículos restantes, daño infligido y el primer vehículo destruido. Si ningún equipo inflige daño, la batalla se declara empatada."
+
+msgid "intro/description/nightMaps"
+msgstr "Los mapas nocturnos renuevan campos de batalla familiares con condiciones nocturnas, puestos de observación nuevos, puntos de interés actualizados y mecánicas de detección modificadas. La alineación actual incluye los mapas Glaciar, Río de Arena, Puesto avanzado y Estepas."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "El modo tiene modificadores que cambian ciertos parámetros del vehículo, como sus puntos de vida, el tiempo de enfriamiento de los consumibles o el tiempo de visibilidad, entre otros."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Una vez que hayas capturado ciertas zonas del mapa, podrás usar habilidades tácticas. Hay dos tipos de puntos de interés: el Cuartel de artillería te permite dirigir ataques de artillería a ciertas posiciones, y el Centro de comunicaciones detecta todos los vehículos enemigos. La presencia y la ubicación de los puntos de interés puede cambiar en función del mapa."
+msgstr "Tras capturar ciertas zonas del mapa, podrás acceder a las habilidades tácticas. Hay dos tipos de puntos de interés: el Cuartel de artillería, que te permite solicitar un ataque dirigido, y los Centros de comunicaciones, que revelan todos los vehículos enemigos. El número y la ubicación de estos puntos varían en función del mapa."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Libra %(count)s batallas de Cualificación para determinar tu rango y
 msgstr[2] "Libra %(count)s batallas de Cualificación para determinar tu rango y nivel de habilidad. Al completarlas, recibirás las recompensas del rango alcanzado y todos los previos.\n\nUna deserción o un empate en la Cualificación se consideran como una derrota."
 
 msgid "intro/description/ranks"
-msgstr "Un sistema que refleja la habilidad del jugador. Progresa por los rangos, de Hierro a Leyenda, y gana premios valiosos. Lucha durante el Año del Dragón para recibir recompensas anuales únicas."
+msgstr "Progresa por los rangos, de Hierro a Leyenda, y gana premios valiosos. Lucha durante el Año del Fénix para recibir recompensas anuales únicas."
 
 msgid "intro/description/roleSkills"
 msgstr "Según su rol, cada vehículo tiene una habilidad especial con tres niveles de carga. Cuanto más alto sea el nivel de carga cuando se activa la habilidad, más fuerte será el efecto. El nivel de carga dependerá del número de puntos de prestigio que se pueden ganar por rendir bien en batalla, capturar puntos de interés, usar habilidades tácticas, etc.\n\nComprueba el reglamento del modo para saber más sobre las distintas maneras de ganar puntos de prestigio."
@@ -597,6 +606,12 @@ msgstr "Puedes salir a luchar a bordo de vehículos desarrollables de nivel %(l
 
 msgid "intro/title/banPhase"
 msgstr "BLOQUEOS DE VEHÍCULOS"
+
+msgid "intro/title/draw"
+msgstr "REGLAS DE EMPATE"
+
+msgid "intro/title/nightMaps"
+msgstr "MAPAS NOCTURNOS"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFICADORES DE ASEDIO"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "VICTORIA, PORQUE"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Ascensión a %(rank)s"
+msgstr "Se te ha ascendido a {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Clasificación: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degradación a %(rank)s, %(division)s"
+msgstr "Se te ha degradado a {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Ascensión a %(rank)s, %(division)s"
+msgstr "Se te ha ascendido a {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Batallas libradas"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Récord de puntos de prestigio (temporada): %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "La Temporada del Dragón celeste ha acabado en el servidor %(server)s."
+msgstr "La Temporada del Fénix celeste ha acabado en el servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "La Temporada del Dragón escarlata ha acabado en el servidor %(server)s."
+msgstr "La Temporada del Fénix escarlata ha acabado en el servidor %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "La Temporada del Dragón jade ha acabado en el servidor %(server)s."
+msgstr "La Temporada del Fénix jade ha acabado en el servidor %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Comprar"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "ASEDIO. CUALIFICACIÓN COMPLETADA"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "ASEDIO. TEMPORADA DEL DRAGÓN CELESTE"
+msgstr "ASEDIO: TEMPORADA DEL FÉNIX CELESTE"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "ASEDIO. TEMPORADA DEL DRAGÓN ESCARLATA"
+msgstr "ASEDIO: TEMPORADA DEL FÉNIX ESCARLATA"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "ASEDIO. TEMPORADA DEL DRAGÓN JADE"
+msgstr "ASEDIO: TEMPORADA DEL FÉNIX JADE"
 
 msgid "rewardsScreen/description/year"
-msgstr "ASEDIO. AÑO DEL DRAGÓN"
+msgstr "ASEDIO. AÑO DEL FÉNIX"
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "¡¿Dónde está mi Ashbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Acaba en %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Temporada del Dragón celeste"
+msgstr "Temporada del Fénix celeste"
 
 msgid "seasonName/second"
-msgstr "Temporada del Dragón escarlata"
+msgstr "Temporada del Fénix escarlata"
 
 msgid "seasonName/third"
-msgstr "Temporada del Dragón jade"
+msgstr "Temporada del Fénix jade"
 
 msgid "seasonPointTooltip/header"
 msgstr "Colores de Asedio"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Puesto en la clasificación: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "ASEDIO. %(seasonNameUpper)s"
+msgstr "ASEDIO %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "%(points)s colores de Asedio recibidos"
 msgstr[2] "%(points)s colores de Asedio recibidos"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "TEMPORADA I: DRAGÓN CELESTE"
+msgstr "TEMPORADA I: FÉNIX CELESTE"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "TEMPORADA II: DRAGÓN ESCARLATA"
+msgstr "TEMPORADA II: FÉNIX ESCARLATA"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "TEMPORADA III: DRAGÓN JADE"
+msgstr "TEMPORADA III: FÉNIX JADE"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Victorias: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "El modo estará disponible en %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Dragón celeste"
+msgstr "Fénix celeste"
 
 msgid "shortSeasonName/second"
-msgstr "Dragón escarlata"
+msgstr "Fénix escarlata"
 
 msgid "shortSeasonName/third"
-msgstr "Dragón jade"
+msgstr "Fénix jade"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Esta sección incluye información sobre los mejores jugadores de la temporada actual del modo Asedio."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Ver todo"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "¡Apoya la Serie Leyendas de Asedio y potencia el bote de premios con lotes del torneo!"
+msgstr "Si gana el equipo que has elegido, recibirás una insignia dorada única de la OLS 2026. ¡Apoya a tus favoritos!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "¡Muestra tu pasión por los esports con elementos de personalización temáticos y carros especiales!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Prepárate para presenciar un enfrentamiento épico en el Campeonato Internacional de World of Tanks de Suzhou, China, donde los equipos más salvajes del mundo se verán las caras bajo las reglas del modo Asedio para hacerse con el prestigioso título de campeón del mundo. ¡Sé testigo de cómo nacen las leyendas en el campo de batalla!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "Temporada 6 de OLS"
+msgstr "Temporada 7 de OLS"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI 25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Esta temporada es tu última oportunidad de recibir recompensas valiosas como el Ashbringer, carro pesado de nivel X exclusivo, con todos los estilos 3D únicos que has obtenido para él, y una tripulación intrépida con la cualificación cero «Hermanos de armas», equipamiento mejorado y experimental para elegir, un estilo 2D cautivador y mucho más. No te lo pierdas: ¡la victoria te aguarda en el campo de batalla!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "¡Aprovecha los últimos días del Año del Dragón!"
+msgstr "¡Aprovecha los últimos días del Año del Fénix!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "TEMPORADA DEL DRAGÓN JADE"
+msgstr "TEMPORADA DEL FÉNIX CELESTE"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "NOVEDADES DE ASEDIO"
 
 msgid "whatsNewView/button/ok"
-msgstr "¡Recibido!"
+msgstr "¡Desata tus llamas!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Ahora, en la versión renovada de la pantalla de resultados posbatalla con el diseño implementado en la actualización 2.0, hay más información del modo después de cada combate."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Cuando se acaba el tiempo y ningún equipo ha obtenido una victoria clara, el resultado de la batalla se decide por desempate en este orden: vehículos restantes, daño infligido y el primer vehículo destruido. Si ningún equipo inflige daño, la batalla se declara empatada."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Resultados de la batalla detallados"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Si se ha excluido tu vehículo favorito, no te preocupes; ahora, los de alquiler vienen con tripulación, equipamiento, proyectiles y consumibles preconfigurados."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Vehículos de alquiler disponibles %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "En esta temporada, cada equipo puede bloquear un vehículo para una batalla. Ponte de acuerdo con tus aliados para excluir la máquina más temida o para formar una alineación que sorprenda a los enemigos."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Bloqueos de vehículos %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Condiciones de empate actualizadas {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mapas"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nuevos vehículos disponibles en Asedio"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "La versión 2.4 introduce nuevos roles para carros ligeros y un reequilibrio de las características de los vehículos. ¡Pruébalos en batalla!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nuevos roles para carros ligeros {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nueva jugabilidad en mapas conocidos. Los cambios incluyen condiciones nocturnas, puestos de observación nuevos, ubicaciones de puntos de interés nuevas y mecánicas de detección modificadas. Todo esto cambia el transcurso de la batalla y hace que la percepción, el ritmo y el movimiento táctico importen más que nunca."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "¡Los mapas nocturnos ya están aquí! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Debido a la baja población de jugadores en las batallas, hemos desactivado los superpelotones. Estamos trabajando en formas alternativas de jugar a Asedio en equipo. Mientras tanto, hay torneos 7c7 disponibles con frecuencia."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "No más superpelotones {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Vehículos de alquiler"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "El Ares 90, un nuevo carro medio estadounidense de nivel X, ya se puede usar en el modo con una habilidad de rol modificada."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mapas: hemos eliminado Erlenberg. Hemos reubicado los puntos de interés en Aeródromo. Pequeños ajustes en Pilsen.\n• Vehículos: hemos eliminado el Vz. 60S Dravec. Hemos añadido el nuevo carro pesado alemán Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Novedades: habilidad de rol %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "El 114 SP2 ya se puede comprar en el rango Plata en la tienda de Asedio."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Novedades: Tienda %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Cambios de equilibrio de la temporada {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "EXCLUIDO"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s-%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "Temporada I. Dragón celeste"
+msgstr "Temporada I: Fénix celeste"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "Temporada II. Dragón escarlata"
+msgstr "Temporada II: Fénix escarlata"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "Temporada III. Dragón jade"
+msgstr "Temporada III: Fénix jade"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Actual"

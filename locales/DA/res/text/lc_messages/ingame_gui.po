@@ -700,6 +700,9 @@ msgstr "Zone erobret"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Skade fra område med ild"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Skade uddelt"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Køretøj repareret"
 
@@ -741,6 +744,9 @@ msgstr "Skade ved skud"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Skade fra ildkugle"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Skade ved skud"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Skade ved sammenstød"
@@ -907,6 +913,9 @@ msgstr "Bælte blev ikke gennembrudt"
 msgid "hitMarker/wheelBlocked"
 msgstr "Hjul blev ikke gennembrudt"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSIMALT KØRETØJSNIVEAU"
 
@@ -1020,6 +1029,21 @@ msgstr "Reparationer er ikke nødvendige: alt udstyr er intakt."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] er fuldt operationel, ingen reparation påkrævet."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Utilgængelig: Magasin er fyldt."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Utilgængelig: Ingen granater tilbage."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Utilgængelig: Ingen ladninger tilbage."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Utilgængelig: Ladning næsten fuldført."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Raketstart er utilgængelig"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Kan ikke aktivere koaksialt våben."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm høj-eksplosiv %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm høj-eksplosiv anti-kampvogn %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Chance for kritisk træffer: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Reduceret"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Forøget"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Gennemsnitlig skade: %(value)s hp"
 
@@ -2710,17 +2746,41 @@ msgstr "Skade per sekund: %(value)s hp/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Skaderadius: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Fuld/enkelt-ladning"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Basal / Modificeret:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Fuld- / enkelt-ladning:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standard / Justeret:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standard / Kalibreret:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normaliseringsvinkel: %(value)s grader"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Gennembrydningstab: %(value)s per 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Gennemsnitlig gennembrydning: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Rikochetvinkel: %(value)s grader"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Mundingshastighed: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Fortumlet varighed: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "for at aktivere EA-tilførsel"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "for at skifte til belejringstilstand"
@@ -2745,6 +2805,9 @@ msgstr "for at aktivere flydende brændstofboostere"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "for at aktivere jet-boostere"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "for at skifte skudtilstand"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "for at aktivere sekventielle raket-boostere"

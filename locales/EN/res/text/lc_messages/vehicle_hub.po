@@ -34,6 +34,9 @@ msgstr "The gun can fire continuously without the need for reload. Each shot gen
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Increase engine power and top speed for rapid movement across the battlefield. When activated, jet boosters reduce maneuverability and cannot be disabled manually."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "The vehicle's gun has special devices that allow some shell parameters to be modified before firing. Parameters for different shells vary based on the selected mode, and each mode lets you quickly adapt to different combat situations."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "When activated, this special mode increases and/or changes certain battle parameters. Best activated when in position and ready to engage the enemy."
 
@@ -82,6 +85,9 @@ msgstr "Thermal Overheat Control Autocannon"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Jet Boosters"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Shell Calibration System"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Siege Mode"
 
@@ -100,8 +106,17 @@ msgstr "Salvo Fire Mode"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "By remaining stationary or moving slowly, you build accuracy levels to improve your next shot's precision.\nAt the highest accuracy level, you gain decent gun handling, with reduced dispersion even during movement or turret/hull traverse."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "The mechanism instantly reduces shell reload to a short fixed time. Each use consumes one charge per shell, and charges replenish over time—faster when the clip is full. A set number of charges is available at the start of battle."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "This vehicle is equipped with a rocket launcher mounted in the gun mantlet. Activate the ability to switch to the secondary weapon aiming sight, and then launch an unguided HE rocket with the fire button."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Every time you hit an enemy with a shell, you gain a reload efficiency level, temporarily boosting your gun's reload speed. Levels accumulate with each hit. \nDestroying an enemy vehicle with a shell grants additional reload efficiency levels."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "This vehicle's External Ammunition Supply Module allows it to fire powerful high-charge unitary rounds that cause increased damage. While active, the module also reduces mobility and fire rate."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "If your gun is loaded, you can start heating your next shot for increased damage—the higher the heat level, the greater the effect.\nAt maximum heat, you have several seconds to fire—if you do not, you will be temporarily unable to shoot."
@@ -142,6 +157,15 @@ msgstr "The system accumulates a charge over time, with a higher charge granting
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Activate the Liquid Fuel Boosters at any time for a burst of speed when you need it most. The boosters heat up and must cool down before they can be reused, while exceeding the critical heat level will temporarily disable them completely."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "When you hit a visible enemy vehicle with a shell, the fuze setter on the next shell is adjusted. If the initial shot penetrated enemy armor, the next shot's damage is increased. If it did not, the next shot's penetration is increased."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "The vehicle's gun has special devices that allow some shell parameters to be modified before firing. Parameters for different shells vary based on the selected mode, and each mode lets you quickly adapt to different combat situations."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "When activated, the device scans a sector in front of your vehicle, revealing concealed targets before a cooldown. If it reveals an unspotted enemy, you also immediately become spotted. You can manually stop the scan after a short delay."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Solid-fuel thrusters that boost acceleration, mobility, and maneuverability for several seconds. The left and right thrusters can work independently of each other for faster hull traverse, and do not restrict reverse capability."
 
@@ -166,8 +190,17 @@ msgstr "This mechanical modification significantly boosts the vehicle's accelera
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analog Ballistic Computing Device"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Forced Loading Mechanism"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Coaxial Rocket Launcher"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Semi-Automatic Ammo Rack"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "External Ammunition Feed mode"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Thermo-Ballistic Overcharge"
@@ -208,6 +241,15 @@ msgstr "Induction Propellant Afterburner"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Liquid Fuel Boosters"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Adjustable Fuze Setter"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Shell Calibration System"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infrared Search and Track (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sequential Rocket Thrusters"
 
@@ -232,8 +274,17 @@ msgstr "High-Pressure Turbocharger Assist"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Increases the accuracy of your next shot, with decent stabilization at full calibration."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Instantly reduces shell reload to a short fixed time."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Fire an unguided HE-rocket from a coaxial launcher independently from the main gun."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Every hit to an enemy vehicle boosts gun reload speed for a limited time."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Fire high-damage rounds at the cost of mobility and cooldown."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Build up heat levels to cause more damage to enemy vehicles with your next shot."
@@ -274,6 +325,15 @@ msgstr "The system charges to boost damage. The higher the charge, the greater t
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Boosters that can be activated at any time to provide a sharp burst of speed."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Hitting a visible enemy vehicle increases the next shell's damage or penetration."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "The gun has special devices that allow some shell parameters to be modified before firing."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Extends view range and detects moving and foliage-hidden vehicles in a narrow sector."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Solid-fuel thrusters that boost acceleration, mobility, and maneuverability."
 
@@ -298,8 +358,14 @@ msgstr "A special mechanic that boosts engine power, acceleration, and top speed
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Remaining stationary or moving below a certain speed allows your vehicle to calibrate its Analog Ballistic Computing Device and build accuracy levels, increasing the accuracy of your next shot. If you exceed the speed limit, your progress in building accuracy levels will be paused until you slow down. At the highest accuracy level, your vehicle gains decent gun stabilization, with reduced dispersion from movement or turret/hull rotation. The effect is removed upon firing."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "This vehicle is equipped with a rocket launcher mounted in the gun mantlet. Activate the ability to switch to the secondary weapon aiming sight, and then launch an unguided HE rocket with the fire button."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Every time you hit a visible enemy with a shell, you gain a reload efficiency level, temporarily boosting your gun's reload speed. Levels accumulate with each hit, and destroying an enemy vehicle with a shell grants additional reload efficiency levels."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "This vehicle's External Ammunition Supply Module allows it to fire powerful high-charge unitary rounds that cause increased damage. While active, the module also reduces mobility and fire rate."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "If your gun is loaded, you can start to heat your next shot. The higher the heat level you reach, the greater the bonus to average damage will be. During the heating process, you cannot change shells. When you reach maximum heat level, a countdown begins. If you do not fire before it ends, you will be unable to shoot for several seconds."
@@ -340,6 +406,15 @@ msgstr "Over time, the system automatically accumulates a charge, which is parti
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "The Liquid Fuel Boosters grant a burst of engine power, allowing you to gain a positional advantage on the battlefield—but limiting your vehicle's reverse and traverse speed. They can be toggled on or off at any time, except after reaching the reactivation limit. The boosters heat up while active and become unavailable until cooled down, meaning they cannot be used nonstop—while exceeding the critical heat level will temporarily disable them completely. Plan your moves carefully to avoid being caught off guard."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Upon hitting a visible enemy vehicle with a shell, the fuze setter on the next shell is adjusted. If the initial shot penetrated enemy armor, the next shot's damage is increased. If it did not, the next shot's penetration is increased."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "The vehicle's gun has special devices that allow some shell parameters to be modified before firing. The loadout shows which parameters will be affected by switching between firing modes."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "An advanced optics device increases your view range and enhances detection of moving and foliage-hidden vehicles. When activated, it scans a narrow sector in front of your vehicle, revealing concealed targets before a cooldown period. If it reveals an unspotted enemy, you also immediately become spotted. You can manually stop the scan after a short delay."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Solid-fuel thrusters that improve vehicle acceleration, mobility, and maneuverability for several seconds. Unlike regular jet boosters, the left and right thrusters can work independently of each other for faster hull traverse, and do not restrict reverse capability. They can be used multiple times per battle, but require a cooldown before reactivation."
 
@@ -363,6 +438,18 @@ msgstr "This mechanical modification significantly boosts the vehicle's accelera
 
 msgid "characteristics/abilities/special/notes"
 msgstr "All values shown are the maximum possible for the vehicle. Equipment, directives, and consumables can change these values, but these changes are not reflected here."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "calibratable AP shell"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "calibratable APCR shell"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "calibratable HE shell"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "calibratable HEAT shell"
 
 msgid "characteristics/templates/upTo"
 msgstr "Up to %(value)%s"

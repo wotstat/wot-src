@@ -880,6 +880,12 @@ msgstr "Dodatkowe ostrogi (klasa 3)"
 msgid "gun_balancing_1/name"
 msgstr "Zrównoważenie działa (typ 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Zrównoważenie działa (typ 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modyfikacja lufy działa (Typ 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Ulepszone zawieszenie (typ 1)"
 msgid "improved_suspension_2/name"
 msgstr "Ulepszone zawieszenie (typ 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Ulepszony napęd wieży (Typ 1)"
+
 msgid "inspire/longDescr"
 msgstr "Poprawia wydajność załóg pojazdu i sojuszników w określonym promieniu, dodając premię % do głównej kwalifikacji każdego członka załogi. Gracz, który ją zastosuje, otrzyma lepsze działanie."
 
@@ -1294,6 +1303,9 @@ msgstr "Zestaw poprawiający mobilność P3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Zestaw poprawiający mobilność P3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Tłumik błysku wylotowego (Typ 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Chwilowo zwiększa moc silnika pojazdu o %(enginePowerFactor)s, a jego prędkość maksymalną %(maxSpeedFactor)s razy na okres %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "W ciągu {colorTagOpen}%(delay)d s{colorTagClose} wybrany obszar zosta
 
 msgid "poi_artillery_aoe/name"
 msgstr "Ostrzał artyleryjski"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Po krótkim opóźnieniu flara rozświetlająca oświetla wybrany obszar. Pojazdy przeciwnika w jej zasięgu pozostają wykryte i otrzymują zwiększone uszkodzenia.\nPosterunek obserwacyjny można ponownie przejąć po kilku minutach."
+
+msgid "poi_illumination_flare/name"
+msgstr "Flara rozświetlająca"
 
 msgid "poi_radar/descr"
 msgstr "Jeśli jest aktywna, wszystkie pojazdy przeciwnika będą wykryte przez {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Lekki kadłub"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Lekki\nkadłub"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Powłoka antyrefleksyjna optyki"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Powłoka antyrefleksyjna świateł przednich"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Powłoka antyrefleksyjna\noptyki"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Powłoka antyrefleksyjna\nświateł przednich"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Zewnętrzny system obserwacji"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektryczny napęd peryskopu"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Zewnętrzny\nsystem obserwacji"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektryczny\nnapęd peryskopu"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramiczny triplex"
 
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramiczny triplex"
+
+msgid "role_LT_scout_pair_5_2/name"
+msgstr "Urządzenie obserwacyjne o wąskim kącie patrzenia"
+
+msgid "role_LT_scout_pair_5_2/splitName"
+msgstr "Urządzenie obserwacyjne\no wąskim kącie patrzenia"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nowe przełożenia celownika"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nowe przełożenia celownika"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektryczny napęd peryskopu"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektryczny\nnapęd peryskopu"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Ogólne podniesienie wytrzymałości"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Ogólne podniesienie\nwytrzymałości"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Powłoka antyrefleksyjna świateł przednich"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Powłoka antyrefleksyjna\nświateł przednich"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Tuning wyrzutnika"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Tuning wyrzutnika"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Przezwojenie zasilania"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Przezwojenie\nzasilania"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Ulepszone gwintowanie"
+
 msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramiczny\ntriplex"
+msgstr "Ulepszone\ngwintowanie"
 
 msgid "role_LT_universal_pair_5_2/name"
-msgstr "Urządzenie obserwacyjne o wąskim kącie patrzenia"
+msgstr "Czuła optyka"
 
 msgid "role_LT_universal_pair_5_2/splitName"
-msgstr "Urządzenie obserwacyjne\no wąskim kącie patrzenia"
+msgstr "Czuła optyka"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Wzmocnienie struktury"
@@ -2424,6 +2490,9 @@ msgstr "Wyładowanie elektryczne"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Tworzy strefę, w której z dużą częstotliwością uderza %(thunderCount)s wyładowań elektrycznych. Każde wyładowanie zadaje {whiteSpanish_Open}%(damage)s PW uszkodzeń{whiteSpanish_Close} i tymczasowo ogranicza mobilność wszystkich pojazdów przeciwnika w obszarze działania zdolności.\n\nPomiędzy aktywacją zdolności a pierwszym wyładowaniem występuje opóźnienie %(delay)s s. Negatywny efekt można usunąć za pomocą zestawu naprawczego."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Wymiana drążków skrętnych (typ 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Na %(duration)s s tworzy obszar, który zmniejsza parametry mobilności o %(vehicleMaxSpeed)s i wydłuża czas przeładowania i celowania o %(gunReloadTime)s wszystkim pojazdom przeciwnika znajdującym się w jego strefie."

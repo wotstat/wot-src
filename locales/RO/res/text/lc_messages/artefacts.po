@@ -880,6 +880,12 @@ msgstr "Crampoane adiționale Clasa 3"
 msgid "gun_balancing_1/name"
 msgstr "Echilibrarea tunului (Tipul 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Echilibrarea tunului (Tipul 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modificarea țevii tunului (Tipul 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Suspensie îmbunătățită (Tipul 1)"
 msgid "improved_suspension_2/name"
 msgstr "Suspensie îmbunătățită (Tipul 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Motor al turelei îmbunătățit (Tipul 1)"
+
 msgid "inspire/longDescr"
 msgstr "Crește performanța vehiculelor și tuturor aliaților dintr-o anumită zonă, adăugând un % bonus calificării majore a fiecărui membru de echipaj. Jucătorul care o activează obține un efect îmbunătățit."
 
@@ -1294,6 +1303,9 @@ msgstr "Sistem de mobilitate T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Sistem de mobilitate T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Suprimarea flăcării tunului (Tipul 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Crește temporar puterea motorului vehiculului cu %(enginePowerFactor)s și viteza maximă a acestuia de %(maxSpeedFactor)s ori timp de %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "În {colorTagOpen}%(delay)d s{colorTagClose}, zona selectată va fi ata
 
 msgid "poi_artillery_aoe/name"
 msgstr "Lovitură de artilerie"
+
+msgid "poi_illumination_flare/descr"
+msgstr "După o scurtă întârziere, o Rachetă de semnalizare iluminează zona selectată. Vehiculele inamice aflate în raza acesteia rămân descoperite și suferă daune crescute.\nPostul de observare poate fi recapturat după câteva minute."
+
+msgid "poi_illumination_flare/name"
+msgstr "Rachetă de semnalizare"
 
 msgid "poi_radar/descr"
 msgstr "La activare, toate vehiculele inamice vor rămâne descoperite timp de {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Carenă ușoară"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Carenă\nușoară"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Optică anti-reflex îmbunătățită"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Faruri antireflex"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Optică anti-reflex\nîmbunătățită"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Faruri\nantireflex"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Periscop extern"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Motor electric periscop"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Periscop\nextern"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Motor\nelectric periscop"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Vizor panoramic"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Vizor\npanoramic"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Vizor panoramic"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Sistem de observare cu unghi ascuțit"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Sistem de observare\ncu unghi ascuțit"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Roți de țintire noi"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Roți de țintire noi"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Motor electric periscop"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Motor\nelectric periscop"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Creșterea generală a durabilității"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Creșterea generală\na durabilității"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Faruri antireflex"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Faruri\nantireflex"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Tuningul mecanismului extractor"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Tuningul mecanismului extractor"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Rebobinarea sursei de putere"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Rebobinarea sursei\nde putere"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Îmbunătățirea ghintuirii proiectilelor"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Îmbunătățirea ghintuirii\nproiectilelor"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Optică sensibilă"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Optică sensibilă"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Structură primară întărită"
@@ -2424,6 +2490,9 @@ msgstr "Descărcare electrică"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Creează o zonă în care o serie de %(thunderCount)s descărcări electrice lovesc cu frecvență ridicată. Fiecare descărcare provoacă {whiteSpanish_Open}daune de %(damage)s HP{whiteSpanish_Close} și reduce temporar mobilitatea fiecărui vehicul inamic din aria de efect a abilității.\n\n*Există o întârziere de %(delay)s s între activarea abilității și prima descărcare. Efectul negativ poate fi eliminat cu un set de piese de schimb."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Înlocuirea barelor de torsiune (Tipul 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Timp de %(duration)s s, creează o zonă care reduce parametrii de mobilitate cu %(vehicleMaxSpeed)s, crescând timpul de țintire și reîncărcare cu %(gunReloadTime)s pentru toate vehiculele inamice din zona sa de acțiune."

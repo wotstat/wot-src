@@ -232,11 +232,35 @@ msgstr "Ovaj top može da puca bez potrebe za punjenjem. Svaki hitac stvara topl
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Termalna kontrola pregrevanja automatskog topa"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mehanizam momentalno smanjuje punjenje granate na kraće fiksno vreme. Svaka upotreba troši jedno punjenje po granati, a punjenja se dopunjuju tokom vremena - brže kada je šaržer pun. Određen broj punjenja je dostupan na početku borbe."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Mehanizam prisilnog punjenja"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Ovo vozilo je opremljeno raketnim lanserom montiranim na štit topa. Da pređeš na nišan rakete, pritisni:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaksijalni raketni lanser"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Dok nišaniš raketom u raketnom nišanu, pritisni dugme za pucanje da lansiraš raketu:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaksijalni raketni lanser"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Svaki put kada pogodiš protivnika granatom, dobijaš nivo efikasnosti punjenja, koji privremeno pojačavaju brzinu punjenja topa. Nivoi se akumuliraju sa svakim pogotkom.\nUništenje neprijatelja granatom dodaje dodatne nivoe efikasnosti punjenja."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Polu automatska polica municije"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Modul za dovod spoljne municije na ovom vozilu mu dozvoljava da ispaljuje snažne jedinstvene granate koje nanose povećanu štetu. Dok je aktivan, modul takođe smanjuje pokretljivost i brzinu vatre."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Režim dovoda spoljne municije"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Ako je top napunjen, možeš da zagrevaš sledeći pucanj. Što je veći nivo toplote, veći je bonus štete.\nDa počneš proces grejanja pritisni:"
@@ -345,6 +369,30 @@ msgstr "Nakon aktiviranja mlazni busteri povećavaju snagu motora i maksimalnu b
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Prednosti i mane"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Kada pogodiš vidljivog neprijatelja granatom, tempirač upaljača na sledećoj granati je podešen. Ako je početni hitac probio neprijateljski oklop, šteta sledećeg hica je povećana. Ako nije, probojnost sledećeg hica je povećana."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Tempirač podesivog upaljača"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Top ovog vozila ima specijalan uređaj koji dozvoljava promenu nekih parametara granate pre pucanja. Parametri za različite granate variraju u zavisnosti od odabranog režima, a svaki režim ti dozvoljava da se brzo prilagodiš različitim borbenim situacijama."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Sistem kalibracije granata"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "Napredni optički uređaj povećava tvoj vidokrug i poboljšava otkrivanje pokretnih vozila i vozila sakrivenih iza rastinja. Kada je aktiviran, skenira uzani sektor ispred tvog vozila, otkrivajući prikrivene mete pre perioda hlađenja."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infracrvena pretraga i praćenje (ICPP)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Međutim, ako otkrije neuočenog neprijatelja, i ti si takođe momentalno uočen na određeno vreme i istovremeno ste obavešteni i ti i neprijatelj koga si uočio. Možeš ručno da prekineš skeniranje i započneš period hlađenja uređaja nakon kratke zadrške."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infracrvena pretraga i praćenje (ICPP)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Potisnici na čvrsto gorivo koji povećavaju ubrzanje, pokretljivost i upralvjivost tokom nekoliko sekundi. Levi i desni potisnici mogu da rade nezavisno jedan od drugoga za brže okretanje trupa i ne smanjuju sposobnost hoda unazad."

@@ -28,6 +28,30 @@ msgstr "SAADUT PALKINNOT"
 msgid "awardViews/footer/backButton/"
 msgstr "Selvä!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} jäljellä"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Ei uudelleenavaamisia"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Arvokas palkinto"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Avaa uudelleen ilmaiseksi"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Ei riittävästi arvopapereita"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Avaa käyttäen {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Avaa uudelleen"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Saatuja arvokkaita palkintoja ei ole mahdollista avata uudelleen."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direktiivi"
 
@@ -118,6 +142,18 @@ msgstr "Laatikoita avattu: %(count)"
 msgid "common/statsButton"
 msgstr "Tilastot"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Peruuta"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Laatikko avataan uudelleen ja siitä voi saada eri palkinnot."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Avaa uudelleen"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Avaa käyttäen {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Peruuta"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Tapahtuman päättymiseen %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Mikäli et avaa kaikkia laatikoita ennen tapahtuman päättymistä, ne avataan automaattisesti myöhemmin."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Mikäli et avaa laatikoita ennen tapahtuman päättymistä, ne avataan automaattisesti."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Mikäli omistat jo kaikki vaunut laatikon mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat laatikoista, kullalla niiden täyden arvon mukaan."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Joka %(guaranteed0)s. laatikko sisältää taatusti tason VIII-X vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII-X vaunun, jota et vielä omista, kun avaat %(guaranteed0)s&zwnbsp;. laatikon (laatikosta riippuen). Kun näin käy, laskuri nollautuu."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Joka %(guaranteed)s. laatikko sisältää taatusti tason VIII-X vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII-X vaunun, jota et vielä omista, kun avaat %(guaranteed)s&zwnbsp;. laatikon (laatikosta riippuen). Kun näin käy, laskuri nollautuu."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Mikäli et ole tyytyväinen laatikon palkintoihin, voit avata sen uudelleen ja voit saada eri palkinnot samalta listalta. Jokaisen laatikon voi avata rajoitetun määrän kertoja:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automaattinen avaus"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Hyvitys"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Taattu palkinto"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Uudelleen avaaminen"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Katso lista tavaroista pelin portaalista"
@@ -273,6 +315,30 @@ msgstr "%(vehicleInfo) vaunulle"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "kolmiulotteinen \"%(style)\" -tyylisi"
+
+msgid "reroll/free"
+msgstr "Ilmainen"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Rahasiirto"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Krediittejä vähennetty: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Arvopapereita vähennetty: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Päiväys: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Kultaa vähennetty: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "\"%(eventName)s\" -tapahtuma on päättynyt"
@@ -480,3 +546,15 @@ msgstr "Hyvitetyt vaunut: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Hyvitys vaunusta, joka sinulla on jo tallissasi."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Uudelleen avaaminen"
+
+msgid "tooltip/reroll/price"
+msgstr "Hinta"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Laatikon uudelleen avaaminen antaa mahdollisuuden saara eri palkinnot samalta listalta."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Uudelleen avaaminen"

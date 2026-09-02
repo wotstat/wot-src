@@ -79,7 +79,8 @@
 .Content_separator_9582cf97 {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Content_rewards_a1ee43b6 {
   display: flex;
@@ -88,7 +89,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }
@@ -97,7 +99,8 @@
   flex-direction: column;
   width: 500rem;
   padding: 280rem 30rem 30rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.tooltip_lock") center top/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.tooltip_lock") center top/contain
+    no-repeat;
   line-height: normal;
 }
 .Content_title_14ef9ac4 {

@@ -315,7 +315,6 @@ class ValueReplay:
         if b'factor10' in other or b'factors10' in other:
             return 10.0
         return
-        return
 
     def __opMul(self, other, _, x=None):
         if x is None:
@@ -372,9 +371,7 @@ class ValueReplay:
             if seekForTagName == tagName:
                 if prevFinalResult is not None:
                     return finalResult - prevFinalResult
-                else:
-                    return finalResult
-
+                return finalResult
             prevFinalResult = finalResult
 
         return 0

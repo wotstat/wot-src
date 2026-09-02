@@ -3908,7 +3908,7 @@ msgid "pm3_10_1_7_description_damage"
 msgstr "Nodarīt %(goal)s HP bojājumus vienāda vai augstāka līmeņa ienaidnieka tankiem, šaujot no attāluma, kas nepārsniedz %(distanceShortOrEqual)s m"
 
 msgid "pm3_10_1_7_description_kills"
-msgstr "Iznīcināt %(goal)s vienāda vai augstāka līmeņa ienaidnieka tankus no attāluma līdz %(distanceShortOrEqual)s m"
+msgstr "Iznīcini %(goal)s pretinieka tankus tā paša vai augstāka līmeņa no attāluma, kas nepārsniedz %(distanceShortOrEqual)s m"
 
 msgid "pm3_10_1_7_short"
 msgstr "Avangards-7"
@@ -5856,6 +5856,978 @@ msgstr "Bojājumi"
 
 msgid "pm3_9_3_9_title_kills"
 msgstr "Iznīcināt"
+
+msgid "pm4_11_1_1"
+msgstr "Avangards-1"
+
+msgid "pm4_11_1_10"
+msgstr "Avangards-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Nodari %(goal)s bojājumu punktu ienaidnieka tankiem, kas ar šāvieniem bojā tavu tanku."
+
+msgid "pm4_11_1_10_short"
+msgstr "Avangards-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_11"
+msgstr "Avangards-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem no attāluma līdz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Iznīcini ienaidnieka tanku ar tarānu un izdzīvo pēc trieciena"
+
+msgid "pm4_11_1_11_short"
+msgstr "Avangards-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_12"
+msgstr "Avangards-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no attāluma līdz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_12_short"
+msgstr "Avangards-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_13"
+msgstr "Avangards-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Nopelniet Augsta Kalibra apbalvojumu"
+
+msgid "pm4_11_1_13_short"
+msgstr "Avangards-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Kaujas varoņi"
+
+msgid "pm4_11_1_14"
+msgstr "Avangards-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Izdariet, saņemiet un bloķējiet kopumā %(goal)s HP bojājumus"
+
+msgid "pm4_11_1_14_short"
+msgstr "Avangards-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_1_15"
+msgstr "Avangards-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus sava tanka redzamības rādiusā"
+
+msgid "pm4_11_1_15_short"
+msgstr "Avangards-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_16"
+msgstr "Avangards-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Nopelniet Tērauda Sienas apbalvojumu"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Esiet top spēlētājs jūsu komandā pēc izdarītajiem bojājumiem"
+
+msgid "pm4_11_1_16_short"
+msgstr "Avangards-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Kaujas varoņi"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_1_17"
+msgstr "Avangards-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Kopējais nodarītais un bruņām bloķētais bojājums ≥ %(vehicleHealthFactor)s reizes tava tanka dzīvības punktu skaitam"
+
+msgid "pm4_11_1_17_short"
+msgstr "Avangards-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Bojājums un Bloķēšana"
+
+msgid "pm4_11_1_18"
+msgstr "Avangards-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu neizkustētiem ienaidnieka tankiem"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "pm4_11_1_18_short"
+msgstr "Avangards-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_19"
+msgstr "Avangards-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus vienāda vai augstāka līmeņa ienaidnieka tankiem, šaujot no attāluma, kas nepārsniedz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Iznīcini %(goal)s pretinieka tankus tā paša vai augstāka līmeņa no attāluma, kas nepārsniedz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_19_short"
+msgstr "Avangards-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Nodarīt %(goal)s dzīvības punktu bojājumus ienaidnieka smagajiem tankiem"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "%(goal)s reizes nodarīt bojājumus ienaidnieka smagajiem tankiem, šaujot tiem"
+
+msgid "pm4_11_1_1_short"
+msgstr "Avangards-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_2"
+msgstr "Avangards-2"
+
+msgid "pm4_11_1_20"
+msgstr "Avangards-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus no %(uniqueGoal)s dažādiem tipiem"
+
+msgid "pm4_11_1_20_short"
+msgstr "Avangards-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_21"
+msgstr "Avangards-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Izdariet, saņemiet un bloķējiet kopumā %(goal)s HP bojājumus"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Nodarīt 25%% no jūsu komandas kopējiem bojājumiem"
+
+msgid "pm4_11_1_21_short"
+msgstr "Avangards-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus no %(uniqueGoal)s dažādiem tipiem"
+
+msgid "pm4_11_1_2_short"
+msgstr "Avangards-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_1_3"
+msgstr "Avangards-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Esiet top spēlētājs jūsu komandā pēc izdarītajiem bojājumiem"
+
+msgid "pm4_11_1_3_short"
+msgstr "Avangards-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_1_4"
+msgstr "Avangards-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Bloķēt %(goal)s HP bojājumu, kamēr tavs tanks ir nekustīgs"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "pm4_11_1_4_short"
+msgstr "Avangards-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Bloks"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_5"
+msgstr "Avangards-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kas atrodas tava tanka redzamības zonā"
+
+msgid "pm4_11_1_5_short"
+msgstr "Avangards-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_6"
+msgstr "Avangards-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Kopējais nodarītais un bruņām bloķētais bojājums ≥ %(vehicleHealthFactor)s reizes tava tanka dzīvības punktu skaitam"
+
+msgid "pm4_11_1_6_short"
+msgstr "Avangards-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Bojājums un Bloķēšana"
+
+msgid "pm4_11_1_7"
+msgstr "Avangards-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem no attāluma līdz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem no attāluma %(distanceGreatOrEqual)s m vai lielāka"
+
+msgid "pm4_11_1_7_short"
+msgstr "Avangards-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_8"
+msgstr "Avangards-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Nodarīt %(goal)s dzīvības punktu bojājumus ienaidnieka smagajiem tankiem"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Esiet top spēlētājs jūsu komandā pēc izdarītajiem bojājumiem"
+
+msgid "pm4_11_1_8_short"
+msgstr "Avangards-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_1_9"
+msgstr "Avangards-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu neizkustētiem ienaidnieka tankiem"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "pm4_11_1_9_short"
+msgstr "Avangards-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_1"
+msgstr "Slēpnis-1"
+
+msgid "pm4_11_2_10"
+msgstr "Slēpnis-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Esiet top spēlētājs jūsu komandā pēc nopelnītās pieredzes"
+
+msgid "pm4_11_2_10_short"
+msgstr "Slēpnis-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_2_11"
+msgstr "Slēpnis-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus kustībā esošiem ienaidnieka tankiem, šaujot tiem"
+
+msgid "pm4_11_2_11_short"
+msgstr "Slēpnis-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_12"
+msgstr "Slēpnis-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus"
+
+msgid "pm4_11_2_12_short"
+msgstr "Slēpnis-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_13"
+msgstr "Slēpnis-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Nodarīt 25%% no jūsu komandas kopējiem bojājumiem"
+
+msgid "pm4_11_2_13_short"
+msgstr "Slēpnis-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_14"
+msgstr "Slēpnis-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Nopelniet Augsta Kalibra apbalvojumu"
+
+msgid "pm4_11_2_14_short"
+msgstr "Slēpnis-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Kaujas varoņi"
+
+msgid "pm4_11_2_15"
+msgstr "Slēpnis-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Nodarīt %(vehicleHealthFactor)s reizes vairāk bojājumu nekā tava tanka dzīvības punkti"
+
+msgid "pm4_11_2_15_short"
+msgstr "Slēpnis-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_16"
+msgstr "Slēpnis-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Iznīcini %(goal)s pretinieka tankus, nodarot tiem vismaz %(damageDealt)s bojājumu punktu."
+
+msgid "pm4_11_2_16_short"
+msgstr "Slēpnis-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_17"
+msgstr "Slēpnis-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus"
+
+msgid "pm4_11_2_17_short"
+msgstr "Slēpnis-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_18"
+msgstr "Slēpnis-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem no attāluma %(distanceGreatOrEqual)s m vai lielāka"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Esiet top spēlētājs jūsu komandā pēc nopelnītās pieredzes"
+
+msgid "pm4_11_2_18_short"
+msgstr "Slēpnis-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_2_19"
+msgstr "Slēpnis-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Iznīcināt %(goal)s ienaidnieka tankus, pirms tavs tanks saņem bojājumus"
+
+msgid "pm4_11_2_19_short"
+msgstr "Slēpnis-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Izdarīt %(goal)s bruņu caursitošus trāpījumus"
+
+msgid "pm4_11_2_1_short"
+msgstr "Slēpnis-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Cauršaušana"
+
+msgid "pm4_11_2_2"
+msgstr "Slēpnis-2"
+
+msgid "pm4_11_2_20"
+msgstr "Slēpnis-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Nodarīt 30%% no jūsu komandas kopējiem bojājumiem"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Iznīciniet visus ienaidnieka tankus, ieņemiet bāzi, vai aizsargājiet bāzi"
+
+msgid "pm4_11_2_20_short"
+msgstr "Slēpnis-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Uzvariet kauju"
+
+msgid "pm4_11_2_21"
+msgstr "Slēpnis-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "pm4_11_2_21_short"
+msgstr "Slēpnis-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Nodari %(goal)s HP bojājumu pirmo %(timeLimit)s minūšu laikā pēc kaujas sākuma"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus no %(uniqueGoal)s dažādiem tipiem"
+
+msgid "pm4_11_2_2_short"
+msgstr "Slēpnis-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_3"
+msgstr "Slēpnis-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Esiet top spēlētājs jūsu komandā pēc nopelnītās pieredzes"
+
+msgid "pm4_11_2_3_short"
+msgstr "Slēpnis-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_2_4"
+msgstr "Slēpnis-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka vidējiem tankiem"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus ārpus sava tanka redzamības rādiusa"
+
+msgid "pm4_11_2_4_short"
+msgstr "Slēpnis-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_5"
+msgstr "Slēpnis-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Nodari %(goal)s bojājumus, paliekot neredzamam ienaidniekiem brīdī, kad tiek nodarīti bojājumi."
+
+msgid "pm4_11_2_5_short"
+msgstr "Slēpnis-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_6"
+msgstr "Slēpnis-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Kopā nodarīt un palīdzēt nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_6_short"
+msgstr "Slēpnis-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_2_7"
+msgstr "Slēpnis-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Nopelniet Tanku Snaipera apbalvojumu"
+
+msgid "pm4_11_2_7_short"
+msgstr "Slēpnis-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Kaujas varoņi"
+
+msgid "pm4_11_2_8"
+msgstr "Slēpnis-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no attāluma %(distanceGreatOrEqual)s m vai lielāka"
+
+msgid "pm4_11_2_8_short"
+msgstr "Slēpnis-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_2_9"
+msgstr "Slēpnis-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Nodarīt %(goal)s HP bojājumu neizkustētiem ienaidnieka tankiem"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Nodarīt %(goal)s HP bojājumu"
+
+msgid "pm4_11_2_9_short"
+msgstr "Slēpnis-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Bojājumi"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Bojājumi"
+
+msgid "pm4_11_3_1"
+msgstr "Atbalsts-1"
+
+msgid "pm4_11_3_10"
+msgstr "Atbalsts-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Panāc, lai sabiedrotie, kamēr tu paliec nepamanīts, nodara %(goal)s bojājumu punktu, atklājot vai imobilizējot pretinieka tankus."
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Apdullināt ienaidnieka vidējos tankus un tanku iznīcinātājus kopā uz %(goal)s sekundēm. Tiek skaitīts arī potenciālais apdullināšanas ilgums"
+
+msgid "pm4_11_3_10_short"
+msgstr "Atbalsts-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Apdullināt"
+
+msgid "pm4_11_3_11"
+msgstr "Atbalsts-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Ļaut sabiedrotajiem nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, tos atklājot, padarot nekustīgu vai apdullinot"
+
+msgid "pm4_11_3_11_short"
+msgstr "Atbalsts-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_12"
+msgstr "Atbalsts-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Palīdzi sabiedrotajiem iznīcināt %(goal)s ienaidnieka tankus, tos atklājot, padarot nekustīgus vai apdullinot"
+
+msgid "pm4_11_3_12_short"
+msgstr "Atbalsts-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_13"
+msgstr "Atbalsts-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Iegūt Meistarības nozīmi “I. klase” vai augstāku "
+
+msgid "pm4_11_3_13_short"
+msgstr "Atbalsts-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Meistarības nozīme"
+
+msgid "pm4_11_3_14"
+msgstr "Atbalsts-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Izdzīvojiet kaujā"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Iegūt visvairāk pieredzes abu komandu starpā"
+
+msgid "pm4_11_3_14_short"
+msgstr "Atbalsts-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Izdzīvojiet"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Top spēlētājs"
+
+msgid "pm4_11_3_15"
+msgstr "Atbalsts-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Palīdzi sabiedrotajiem iznīcināt %(goal)s ienaidnieka tankus, tos atklājot, padarot nekustīgus vai apdullinot"
+
+msgid "pm4_11_3_15_short"
+msgstr "Atbalsts-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_16"
+msgstr "Atbalsts-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, pārvietojoties vismaz %(attackerMovingSpeedGreaterOrEqual)s km/h ātrumā"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Iznīcināt %(goal)s kustībā esošus ienaidnieka tankus, šaujot tiem"
+
+msgid "pm4_11_3_16_short"
+msgstr "Atbalsts-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Bojājumi"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_17"
+msgstr "Atbalsts-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Izdzīvojiet kaujā"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Palīdzi sabiedrotajiem nodarīt pretinieka tankiem %(goal)s bojājumu punktu, tos apdullinot vai imobilizējot, un izdzīvo kaujā."
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Jānodara kopā %(goal)s HP bojājumu (ieskaitot bojājumus, kas nodarīti ar jūsu palīdzību) un jāizdzīvo kauja."
+
+msgid "pm4_11_3_17_short"
+msgstr "Atbalsts-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Izdzīvojiet"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_3_18"
+msgstr "Atbalsts-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no attāluma līdz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no attāluma %(distanceGreatOrEqual)s m vai lielāka"
+
+msgid "pm4_11_3_18_short"
+msgstr "Atbalsts-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_19"
+msgstr "Atbalsts-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Saņemt “Meistara tankista” atzinības zīmi"
+
+msgid "pm4_11_3_19_short"
+msgstr "Atbalsts-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Meistarības nozīme"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Izdzīvojiet kaujā"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Iznīcini pretinieka Artilēriju un izdzīvo kaujā."
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Apdullini pretinieka tankus %(goal)s reizes un izdzīvo kaujā"
+
+msgid "pm4_11_3_1_short"
+msgstr "Atbalsts-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Izdzīvojiet"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Apdullināt"
+
+msgid "pm4_11_3_2"
+msgstr "Atbalsts-2"
+
+msgid "pm4_11_3_20"
+msgstr "Atbalsts-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Panāciet, lai jūsu sabiedrotie nodarītu %(goal)s bojājuma punktus pretinieka tankiem, kurus atklājāt, pats paliekot nepamanīts, un uzvariet kaujā."
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Apdullini ienaidnieka smagos tankus %(goal)s reizes un uzvari kaujā"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Iznīciniet visus ienaidnieka tankus, ieņemiet bāzi, vai aizsargājiet bāzi"
+
+msgid "pm4_11_3_20_short"
+msgstr "Atbalsts-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Apdullināt"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Uzvariet kauju"
+
+msgid "pm4_11_3_21"
+msgstr "Atbalsts-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Izdzīvojiet kaujā"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Nodarītie bojājumi (ieskaitot bojājumus ar tavu palīdzību) kopā jāsasniedz %(goal)s HP"
+
+msgid "pm4_11_3_21_short"
+msgstr "Atbalsts-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Izdzīvojiet"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Iznīciniet pretinieku vieglo tanku"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Apdullināt ienaidnieka tankus kopā uz %(goal)s sekundēm. Tiek skaitīts arī potenciālais apdullināšanas ilgums"
+
+msgid "pm4_11_3_2_short"
+msgstr "Atbalsts-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Apdullināt"
+
+msgid "pm4_11_3_3"
+msgstr "Atbalsts-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Ļaut sabiedrotajiem nodarīt bojājumus %(goal)s ienaidnieka tankiem, tos atklājot, padarot nekustīgus vai apdullinot"
+
+msgid "pm4_11_3_3_short"
+msgstr "Atbalsts-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_4"
+msgstr "Atbalsts-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Izdzīvojiet kaujā"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Atklāj %(goal)s ienaidnieka tankus un izdzīvo kaujā"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Ar vienu šāvienu apdullini %(stunSeveralTargets)s ienaidnieka tankus %(goal)s reizes un izdzīvo kaujā"
+
+msgid "pm4_11_3_4_short"
+msgstr "Atbalsts-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Izdzīvojiet"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Atklājiet"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Apdullināt"
+
+msgid "pm4_11_3_5"
+msgstr "Atbalsts-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Saņemiet II klases vai augstāku Meistarības nozīmīti."
+
+msgid "pm4_11_3_5_short"
+msgstr "Atbalsts-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Meistarības nozīme"
+
+msgid "pm4_11_3_6"
+msgstr "Atbalsts-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Nodarītie bojājumi (ieskaitot bojājumus ar tavu palīdzību) kopā jāsasniedz %(goal)s HP"
+
+msgid "pm4_11_3_6_short"
+msgstr "Atbalsts-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Kompleksie nosacījumi"
+
+msgid "pm4_11_3_7"
+msgstr "Atbalsts-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Ļaut sabiedrotajiem nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, tos atklājot, apdullinot vai imobilizējot"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Iznīcināt ienaidnieka Artilēriju"
+
+msgid "pm4_11_3_7_short"
+msgstr "Atbalsts-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Atbalsts"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_8"
+msgstr "Atbalsts-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus"
+
+msgid "pm4_11_3_8_short"
+msgstr "Atbalsts-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_9"
+msgstr "Atbalsts-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no attāluma līdz %(distanceShortOrEqual)s m"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Apdullināt ienaidnieka vidējos tankus vai tanku iznīcinātājus %(goal)s reizes"
+
+msgid "pm4_11_3_9_short"
+msgstr "Atbalsts-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Iznīcināt"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Apdullināt"
 
 msgid "quest/advice/biathlon/description"
 msgstr "Katrai šī tipa misijai ir ierobežots skaits mēģinājumu lai izpildītu norādītos nosacījumus."
@@ -10345,6 +11317,9 @@ msgstr "Otrā fronte"
 msgid "season_3"
 msgstr "Sektors 3"
 
+msgid "season_4"
+msgstr "3. sektors"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Misiju kopums visiem tehnikas tipiem, lai saņemtu amerikāņu smago tanku Black Rock."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Misiju komplekts visiem tanku veidiem, lai saņemtu vācu Fossa VM 68 vidējo tanku."
 
 msgid "tile_1_descr"
 msgstr "Misiju sērija visiem bruņutehniku veidiem, lai iegūtu Vācijas tanku iznīcinātāju Stug IV."

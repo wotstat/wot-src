@@ -1009,6 +1009,9 @@ msgstr "Mürettebat üyesinin/üyelerinin eğitimi sunucu hatası nedeniyle baş
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Warships'e girmek için kullanıldı"
 
 msgid "lootboxes/open/server_error"
-msgstr "Hediyeyi alırken hata: Sunucu hatası."
+msgstr "Kutu açılırken hata: Sunucu hatası."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Hediyeyi alırken hata. Lütfen önceki işlem bitene kadar bekleyin."
+msgstr "Kutu açılırken hata: Lütfen önceki işlemin bitmesini bekleyin."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
@@ -2383,30 +2386,6 @@ msgstr "%(vehicleName)s için Özel Kamuflaj alındı."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "%(vehicleName)s için Özel Kamuflaj şu ülkenin tüm araçları için kullanılabilir: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Tüm operasyon gelişimi kaydedildi. Harekâtlara istediğiniz anda devam edebilirsiniz."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "%(campaignName1)s ve %(campaignName2)s harekâtları duraklatıldı"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Duraklatılan operasyonlar ve görevlerine tekrar devam ediliyor"
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "%(campaignName1)s ve %(campaignName2)s harekâtlarına tekrar devam ediliyor"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Tüm operasyon gelişimi kaydedildi. Harekâta istediğiniz anda devam edebilirsiniz."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "%(campaignName)s harekâtı duraklatıldı"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Duraklatılan operasyonlara tekrar devam ediliyor."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "%(campaignName)s harekâtına tekrar devam ediliyor"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s başarıyla takıldı."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Ödüller alınırken hata. Lütfen daha sonra tekrar deneyin."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s başarıyla takıldı."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Ödüller alınırken hata. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s başarıyla takıldı."
 
 msgid "personalMissions/reward/regular/server_error"

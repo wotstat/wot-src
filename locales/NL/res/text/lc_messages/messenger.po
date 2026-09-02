@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Goud verdiend"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor toetreding tot de rangen van %(campaignName)s."
+msgstr "Je hebt de %(nameMedal)s medaille ontvangen voor het succesvol voltooien van een missie in de %(campaignName)s campagne."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Gefeliciteerd!"
@@ -1929,6 +1929,21 @@ msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooi
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 15 missies in de %(categoryName)s reeks van de %(campaignName)s campagne."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Je hebt de %(nameMedal)s medaille ontvangen voor het succesvol voltooien van een missie in de %(campaignName)s campagne."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 21 missies in de %(categoryName)s reeks van de %(operationName)s operatie."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 14 missies in de %(categoryName)s reeks van de %(operationName)s operatie."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 7 missies in de %(categoryName)s reeks van de %(operationName)s operatie."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "boete voor schade toegebracht aan bondgenoten: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Klik op de knop om de inhoud te bekijken."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Je hebt een pakketje ontvangen:"
+msgstr "Pakketje ontvangen"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Bekijken"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Naar beloningen"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Gates geactiveerd: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "We hebben al je Gates geactiveerd en hun inhoud aan je account toegevoeg
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Beloningen ontvangen"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "We hebben al je dozen geopend en de beloningen van Operatie Feestdagen toegevoegd"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Universeel fragmenten"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s nationale fragmenten"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "De configuratie van de volgende voertuigen is veranderd: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Let op!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>en nog %(vehiclesCount)s</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Vanwege de update zijn alle stickers van je voertuigen verwijderd en naar het Depot gestuurd, bij Exterieur."

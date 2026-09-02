@@ -880,6 +880,12 @@ msgstr "Ramponi addizionali di 3ª classe"
 msgid "gun_balancing_1/name"
 msgstr "Bilanciamento del cannone (tipo 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Bilanciamento del cannone (tipo 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Canna modificata (tipo 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Sospensioni migliorate (tipo 1)"
 msgid "improved_suspension_2/name"
 msgstr "Sospensioni migliorate (tipo 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Rotazione della torretta migliorato (tipo 1)"
+
 msgid "inspire/longDescr"
 msgstr "Aumenta le prestazioni dell'equipaggio del veicolo e di tutti i suoi alleati in un determinato raggio, aggiungendo una percentuale bonus alla qualificazione primaria di ogni membro dell'equipaggio. Il giocatore che lo utilizza riceve un effetto migliorato."
 
@@ -1294,6 +1303,9 @@ msgstr "Sistema di miglioramento alla mobilità LP3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Sistema di miglioramento alla mobilità LP3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Spegnifiamma (tipo 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Aumenta temporaneamente la potenza del motore del tuo veicolo del %(enginePowerFactor)s e la sua velocità massima di %(maxSpeedFactor)s volte per %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "L'area selezionata sarà attaccata con un Attacco d'artiglieria nel giro
 
 msgid "poi_artillery_aoe/name"
 msgstr "Attacco d'artiglieria"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Dopo un breve ritardo, un razzo illuminante fa luce sull'area selezionata. I veicoli nemici all'interno del suo raggio d'azione rimangono individuati e subiscono danni maggiori.\nIl punto d'osservazione può essere riconquistato dopo qualche minuto."
+
+msgid "poi_illumination_flare/name"
+msgstr "Razzo illuminante"
 
 msgid "poi_radar/descr"
 msgstr "Una volta attivato, tutti i veicoli nemici rimarranno avvistati per {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Scafo alleggerito"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Scafo\nalleggerito"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Rivestimento antiriflesso delle ottiche"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Rivestimento antiriflesso dei fanali"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Rivestimento antiriflesso\ndelle ottiche"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Rivestimento antiriflesso\ndei fanali"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Sistema di visione esterno"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Periscopio ad azionamento elettrico"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Sistema di\nvisione esterno"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Periscopio\nad azionamento elettrico"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Ottica panoramica"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Ottica\npanoramica"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Ottica panoramica"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Dispositivo di osservazione ad angolo stretto"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Dispositivo di osservazione\nad angolo stretto"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nuovi organi di puntamento"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nuovi organi di puntamento"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Periscopio ad azionamento elettrico"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Periscopio\nad azionamento elettrico"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Aumento generale dell'integrità"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Aumento\ngenerale dell'integrità"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Rivestimento antiriflesso dei fanali"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Rivestimento antiriflesso\ndei fanali"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Messa a punto dell'espulsore"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Messa a punto dell'espulsore"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Ricablaggio dell'impianto elettrico"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Ricablaggio\ndell'impianto elettrico"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Rigatura dei proiettili migliorata"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Rigatura dei proiettili\nmigliorata"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Ottiche reattive"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Ottiche reattive"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Struttura principale rinforzata"
@@ -2424,6 +2490,9 @@ msgstr "Scarica elettrica"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Crea una zona in cui si abbatte una serie di %(thunderCount)s scariche elettriche ad alta frequenza. Ogni scarica causa {whiteSpanish_Open}%(damage)s HP di danno{whiteSpanish_Close} e riduce temporaneamente la mobilità di tutti i veicoli nemici all'interno dell'area d'effetto dell'abilità.\n\n*Tra l'attivazione dell'abilità e la prima scarica, è presente un ritardo di %(delay)s s. L'effetto negativo può essere rimosso da un Kit di riparazione."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Sostituzione delle barre di torsione (tipo 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Per %(duration)s s, crea un'area che riduce i parametri di mobilità del %(vehicleMaxSpeed)s e aumenta i tempi di ricarica e puntamento del cannone del %(gunReloadTime)s per tutti i veicoli nemici al suo interno."

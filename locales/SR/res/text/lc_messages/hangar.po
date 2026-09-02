@@ -136,6 +136,24 @@ msgstr[0] "{{count}} pobeda"
 msgstr[1] "{{count}} pobede"
 msgstr[2] "{{count}} pobeda"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Dostupno za {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Borbeno iskustvo"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Da bi proslavili tvoj povratak u akciju, imamo nešto specijalno za tebe: {{@ style (color #ede6d9e6)}}dnevni bonus za ponovni ulazak{{/}} pojačava zarađeno borbeno iskustvo za tvoju prvu pobedu dana u svakom vozilu."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Dobrodošao nazad komandiru!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonus se poništava svakog dana u {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonus ponovnog ulaska: dostupan"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klik da odeš na svoju plejlistu vozila"
 

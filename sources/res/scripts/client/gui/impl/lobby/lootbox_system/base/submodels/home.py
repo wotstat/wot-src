@@ -1,5 +1,7 @@
+from __future__ import absolute_import
 from typing import TYPE_CHECKING
 from account_helpers.AccountSettings import LOOT_BOXES_SELECTED_BOX
+from frameworks.wulf.view.array import fillIntsArray
 from gui.impl.gen.view_models.views.lobby.lootbox_system.main_view_model import SubViewID
 from gui.impl.gen.view_models.views.lobby.lootbox_system.submodels.home_view_model import HomeViewModel
 from gui.impl.lobby.lootbox_system.base.common import SubViewImpl
@@ -17,6 +19,7 @@ from skeletons.gui.game_control import ILootBoxSystemController
 if TYPE_CHECKING:
     from typing import Dict, List
     from gui.server_events.bonuses import SimpleBonus
+_OPENING_OPTION_KEY = b'openingOption'
 
 class Home(SubViewImpl):
     __lootBoxes = dependency.descriptor(ILootBoxSystemController)
@@ -24,8 +27,9 @@ class Home(SubViewImpl):
 
     def __init__(self, viewModel, parentView):
         super(Home, self).__init__(viewModel, parentView)
-        self.__stats = Statistics()
+        self._stats = Statistics()
         self.__isResetCompleted = False
+        self.__isOpeningInProgress = False
         self.__boxOption = None
         self.__eventName = b''
         return
@@ -53,11 +57,11 @@ class Home(SubViewImpl):
             self.__updateData(model=vmTx)
             self.__updateCounters(model=vmTx)
             self.__updateAnimationState(model=vmTx)
-            self.__updateOpeningOptions(model=vmTx)
             self.__updateSelectedOpeningOption(model=vmTx)
         return
 
     def finalize(self):
+        self.__isOpeningInProgress = False
         self.__lootBoxes.setSetting(self.__eventName, LOOT_BOXES_SELECTED_BOX, self.__boxOption)
         super(Home, self).finalize()
         return
@@ -112,6 +116,8 @@ class Home(SubViewImpl):
 
     @replaceNoneKwargsModel
     def __updateCounters(self, model=None):
+        if self.__isOpeningInProgress:
+            return
         updateBoxesInfoModel(self.__eventName, model.getBoxesInfo())
         return
 
@@ -130,36 +136,37 @@ class Home(SubViewImpl):
             self.__boxOption = boxOption
         model.setSelectedBoxOption(self.__boxOption)
         self.__lootBoxes.setSetting(self.__eventName, LOOT_BOXES_SELECTED_BOX, self.__boxOption)
-        inventoryCount = self.__getBoxOptions()[self.__boxOption].getInventoryCount()
-        selectedCount = getOpeningOptions(self.__eventName)[self.__options[self.__eventName].get(b'openingOption', 0)]
-        if inventoryCount < selectedCount:
-            self.__resetSelectedOpeningOption(model=model)
+        self.__updateOpeningOptions(model=model)
         return
 
     @replaceNoneKwargsModel
     def __updateOpeningOptions(self, model=None):
-        openingOptions = model.getOpeningOptions()
-        openingOptions.clear()
-        for o in getOpeningOptions(self.__eventName):
-            openingOptions.addNumber(o)
-
-        openingOptions.invalidate()
-        return
+        openingOptions = getOpeningOptions(self.__eventName, self.__boxOption)
+        fillIntsArray(openingOptions, model.getOpeningOptions())
+        openingIndex = self.__options[self.__eventName].get(_OPENING_OPTION_KEY, 0)
+        if openingIndex == 0:
+            return
+        else:
+            box = self.__lootBoxes.getBox(self.__eventName, self.__boxOption)
+            inventoryCount = box.getInventoryCount() if box is not None else 0
+            if openingIndex >= len(openingOptions) or inventoryCount < openingOptions[openingIndex]:
+                self.__resetSelectedOpeningOption(model=model)
+            return
 
     @replaceNoneKwargsModel
     def __updateSelectedOpeningOption(self, ctx=None, model=None):
-        openingOption = (ctx or {}).get(b'openingOption')
+        openingOption = (ctx or {}).get(_OPENING_OPTION_KEY)
         if openingOption is None:
-            openingOption = self.__options.get(b'openingOption', 0)
+            openingOption = self.__options.get(_OPENING_OPTION_KEY, 0)
         else:
-            self.__options[b'openingOption'] = int(openingOption)
+            self.__options[_OPENING_OPTION_KEY] = int(openingOption)
         model.setSelectedOpeningOption(openingOption)
         return
 
     @replaceNoneKwargsModel
     def __resetSelectedOpeningOption(self, model=None):
-        self.__options[self.__eventName][b'openingOption'] = 0
-        model.setSelectedOpeningOption(self.__options[self.__eventName][b'openingOption'])
+        self.__options[self.__eventName][_OPENING_OPTION_KEY] = 0
+        model.setSelectedOpeningOption(self.__options[self.__eventName][_OPENING_OPTION_KEY])
         return
 
     @replaceNoneKwargsModel
@@ -172,7 +179,7 @@ class Home(SubViewImpl):
         useStats = self.__lootBoxes.useStats(self.__eventName)
         model.setUseStats(useStats)
         if useStats:
-            self.__stats.update(model.statistics, findFirst((lambda b: b.getCategory() == self.boxCategory), self.__lootBoxes.getActiveBoxes(self.__eventName)).getID(), self.__isResetCompleted, self.__eventName)
+            self._stats.update(model.statistics, findFirst((lambda b: b.getCategory() == self.boxCategory), self.__lootBoxes.getActiveBoxes(self.__eventName)).getID(), self.__isResetCompleted, self.__eventName)
         return
 
     def __getDefaultBoxOption(self):
@@ -192,14 +199,18 @@ class Home(SubViewImpl):
         def processResult(bonuses):
             self.parentView.switchToSubView(isBackground=True, eventName=self.__eventName)
             Views.load(ViewID.MAIN, subViewID=SubViewID.MULTIPLE_BOXES_REWARDS if count > 1 else SubViewID.SINGLE_BOX_REWARDS, eventName=self.__eventName, category=self.boxCategory, count=count, bonuses=bonuses)
+            self.__isOpeningInProgress = False
             return
 
         model.setIsError(False)
+        self.__isOpeningInProgress = True
         openBoxes(self.__eventName, self.boxCategory, count, processResult)
         return
 
     @replaceNoneKwargsModel
     def __onErrorBack(self, _, model=None):
+        self.__isOpeningInProgress = False
+        self.__updateCounters()
         model.setIsError(True)
         return
 
@@ -217,7 +228,7 @@ class Home(SubViewImpl):
         return
 
     def __onStatisticsReset(self):
-        self.__stats.reset()
+        self._stats.reset()
         return
 
     def __onStatusChanged(self):

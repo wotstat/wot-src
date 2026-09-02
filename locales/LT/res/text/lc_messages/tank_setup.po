@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "mašinos patvarumo taškams"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+msgstr "ginklo sukimosi greičiui"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "bokštelio sukimosi greičiui"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "mašinos patvarumo taškams"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+msgstr "ginklo sukimosi greičiui"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "bokštelio sukimosi greičiui"
@@ -2100,6 +2100,51 @@ msgstr " ir "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Mašinos išorinio sviedinių maitinimo režimas leidžia naudoti daugiau žalos darančius sviedinius."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Įprastos vertės standartiniu režimu."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Modifikuotos vertės išorinio sviedinių maitino režime."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Įprasti parametrai pilnos užkrovos sviediniams"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Parametrai vienos užkrovos sviediniams"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Įprasti parametrai pilnos užkrovos sviediniams"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Įprastas"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Parametrai vienos užkrovos sviediniams"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Kalibruotame režime šio tipo sviediniai efektyvūs prieš pakreiptus šarvus."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Mašinos pabūklas turi specialius įrenginius, kurie leidžia prieš išaunant pakoreguoti tam tikrus sviedinio parametrus."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Standartiniame režime šio tipo sviediniai efektyvūs prieš šarvus be ekranų."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standartinis režimas"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibruotas režimas"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Kalibruotame režime šio tipo sviediniai gali prasiskverbti pro ekranus."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Standartiniame režime šio tipo sviediniai efektyvūs prieš vertikalius šarvus."
 
 msgid "tooltips/specializationDesc"
 msgstr "Standartinė įranga, priklausanti kategorijai %(spec)s, bus efektyvesnė, jeigu ją sumontuosite šioje vietoje. Kitų kategorijų įranga suteiks tik standartinį bonusą."

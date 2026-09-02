@@ -229,23 +229,14 @@ msgstr "på kjøp:"
 msgid "battlePassBuyView/descr"
 msgstr "Å kjøpe et fremgangstrinn åpner den umiddelbart og gir deg alle belønningene som følger med det trinnet."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Disse belønningene vil bli gitt til deg etter at du har fullført de kommende trinnene."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Følgende belønninger gis deg for trinnene %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Du får følgende belønninger umiddelbart"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Følgende belønninger gis deg for trinnet %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "VIL BLI ÅPNET"
+msgstr "Åpnes i ikke fullførte trinn"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "FÅS UMIDDELBART"
+msgstr "Mottas umiddelbart"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktiver Battle Pass kapittelet"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elite Circuit"
 
-msgid "chapter/fullName/201"
-msgstr "Buried Time"
+msgid "chapter/fullName/211"
+msgstr "Spesialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntmann"
 
-msgid "chapter/fullName/203"
-msgstr "DESERT COMMAND"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "STOISK"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "Buried Time"
+msgid "chapter/fullNameUppercased/211"
+msgstr "Spesialist"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullNameUppercased/212"
+msgstr "Stuntmann"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "DESERT COMMAND"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOISK"
 
 msgid "chapter/title"
 msgstr "KAPITTEL %(chapter)s"
@@ -471,6 +456,9 @@ msgstr "Oppdrag med ×3 besetningserfaring"
 
 msgid "equipCoinBonus"
 msgstr "Komponenter: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Sett med 3D vedheng"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Kommandør"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Tilgjengelig etter at alle kapitlene er fullført. Fullførte kapitler: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Skaff deg et premiumkjøretøy og eksklusive tilpasningselementer."
+msgstr "Stup ut i det for eksklusive belønninger og unike tilpasningselementer."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Battle Pass: Far Cry er her!"
+msgstr "Spesialkapittelet er her!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Kjøp forbedret pass og få flere belønninger!"
@@ -1114,11 +1102,8 @@ msgstr "%(level)d. trinn i Elite Circuit"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "erfaring til hvert besetningsmedlem i det valgte kjøretøyet fra %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "VELG DIN BELØNNING"
-
 msgid "rewardChoice/title"
-msgstr "BATTLE PASS"
+msgstr "Velg dine belønninger"
 
 msgid "rewardChoice/titleChapter"
 msgstr "BATTLE PASS: KAPITTEL %(chapter)s"
@@ -1129,14 +1114,14 @@ msgstr "BATTLE PASS: KAPITTEL %(chapter)s, %(level)s. TRINN"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Searching the Sands"
+msgid "season/fullName/21"
+msgstr "GROUNDED"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "SEARCHING THE SANDS"
+msgid "season/fullNameUppercased/21"
+msgstr "GROUNDED"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Direktiver å velge fra"

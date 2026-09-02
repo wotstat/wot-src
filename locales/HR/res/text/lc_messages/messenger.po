@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Zarađeno zlato"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Za pridruživanje rangu %(campaignName)s vam je dodjeljenja medalja %(nameMedal)s."
+msgstr "Za uspješno izvršenje zadatka u kampanji %(campaignName)s vam je dodjeljena medalja %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Čestitamo!"
@@ -1929,6 +1929,21 @@ msgstr "Za uspješno izvršenje 30 zadataka u nizu %(categoryName)s u kampanji %
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Za uspješno izvršenje 15 zadataka u nizu %(categoryName)s u kampanji %(campaignName)s vam je dodjeljena medalja %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Za uspješno izvršenje zadatka u kampanji %(campaignName)s vam je dodjeljena medalja %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Za uspješno izvršenje 21 zadataka u nizu %(categoryName)s u operaciji %(operationName)s vam je dodjeljena medalja %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Za uspješno izvršenje 14 zadataka u nizu %(categoryName)s u operaciji %(operationName)s vam je dodjeljena medalja %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Za uspješno izvršenje 7 zadataka u nizu %(categoryName)s u operaciji %(operationName)s vam je dodjeljena medalja %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "kazna za štetu uzrokovanu saveznicima: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknite na gumb za pregled sadržaja."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Primili ste paket:"
+msgstr "Paket primljen"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Pregledaj"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Na nagrade"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktivirano vrata: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Aktivirali smo sva vaša vrata i njihov sadržaj dodati na vaš račun:"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Primljene nagrade"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Otvorili smo sve vaše kutije i dodali nagrade za Praznične operacije"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Univerzalni dijelić"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s nacionalni dijelić"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Konfiguracija slijedećih vozila je izmjenjena: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Pozor!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>i %(vehiclesCount)s još</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Nakon nadogradnje sve naljepnice su uklonjene s vozila i poslane u skladište u sekciju Vanjština."

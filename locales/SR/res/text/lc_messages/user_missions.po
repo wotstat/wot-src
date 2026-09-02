@@ -382,11 +382,56 @@ msgstr "Nedeljne misije su komplet zadataka dostupnih svake nedelje. Napredak se
 msgid "info_page/main/weekly/title"
 msgstr "Nedeljne misije"
 
+msgid "pm/missionState/active"
+msgstr "Aktivna"
+
+msgid "pm/missionState/complete"
+msgstr "Misije su završene"
+
+msgid "pm/missionState/improve"
+msgstr "Poboljšanje rezultata"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Promeni vozilo"
+
+msgid "pm/no_missions"
+msgstr "Nema aktivnih misija za tvoje odabrano vozilo"
+
+msgid "pm/tier"
+msgstr "Neodgovarajući nivo"
+
+msgid "pm/unavailable"
+msgstr "Misija je privremeno nedostupna"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Nema aktivnih misija za tvoje odabrano vozilo. Molim, odaberi drugo vozilo."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Ova misija je privremeno nedostupna iz tehničkih razloga. Izvinjavamo se zbog neprijatnosti."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Tvoje odabrano vozilo ne zadovoljava uslove nivoa za aktivne operacije. Molim, odaberi drugo vozilo."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Nema aktivnih misija"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Privremeno nedostupno"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Neodgovarajući nivo"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Sve obične misije završene za danas"
 
 msgid "quests/daily_quests/completed"
 msgstr "Sve dnevne misije su za završene"
+
+msgid "slider/title/missions"
+msgstr "Regularne misije"
+
+msgid "slider/title/personalMissions"
+msgstr "Lične misije"
 
 msgid "tooltip/common/timer"
 msgstr "Dostupno za {{timeLeft}}"

@@ -28,6 +28,30 @@ msgstr "MOTTAGNA BELÖNINGAR"
 msgid "awardViews/footer/backButton/"
 msgstr "Uppfattat!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} kvar"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Inga återöppningar"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Värdefull belöning"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Återöppna gratis"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Obligationer saknas"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Återöppna för {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Återöppna"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Kan inte återöppnas efter att ha gett en värdefull belöning."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Anvisning"
 
@@ -118,6 +142,18 @@ msgstr "Öppnade lådor: %(count)"
 msgid "common/statsButton"
 msgstr "Statistik"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Avbryt"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Lådan återöppnas för en chans att få en annan belöning."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Återöppna"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Återöppna för {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Avbryt"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Evenemanget avslutas om %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Om du inte öppnar alla lådor innan evenemanget avslutas kommer de öppnas automatiskt."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Om du inte öppnar lådor innan evenemanget avslutas kommer de öppnas automatiskt."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får kompenseras med respektive värde i guld."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Du är garanterad en Premiumvagn klass VIII–X för varje %(guaranteed0)s lådor du öppnar. Om du öppnar så många lådor utan att få en vagn så kommer den %(guaranteed0)s:e&zwnbsp;lådan (beroende på typ av låda) innehålla en Premiumvagn klass VIII–X du inte redan äger. Därefter nollställs räkningen."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Du är garanterad en premiumvagn klass VIII–X för varje %(guaranteed)s lådor du öppnar. Om du öppnar så många lådor utan att få en vagn så kommer den %(guaranteed)s:e&zwnbsp;lådan (beroende på typ av låda) innehålla en premiumvagn klass VIII–X du inte redan äger. Därefter nollställs räkningen."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Om du inte är nöjd med innehållet i en låda kan du återöppna den för en chans att få ett annat innehåll från samma vinstplan. Varje låda kan bara öppnas ett begränsat antal gånger:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Öppna automatiskt"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompensation"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garanterad belöning"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Återöppnanade"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Se en lista över möjligt innehåll på spelportalen"
@@ -273,6 +315,30 @@ msgstr "för %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D-stilen %(style)"
+
+msgid "reroll/free"
+msgstr "Gratis"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}} – {{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finanstransaktion"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Krediter avdragna: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Obligationer avdragna: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Guld avdraget: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Evenemanget %(eventName)s har avslutats."
@@ -480,3 +546,15 @@ msgstr "Kompenserade vagnar: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompensation för vagnar redan i ditt garage."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Återöppnanade"
+
+msgid "tooltip/reroll/price"
+msgstr "Kostnad"
+
+msgid "tooltip/reroll/text/default"
+msgstr "När du återöppnar en låda har du chans att få annat innehåll från samma vinstplan."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Återöppnanade"

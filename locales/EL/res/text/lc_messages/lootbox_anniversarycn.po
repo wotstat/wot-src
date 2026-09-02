@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=2; plural=(n != 1);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Όταν ανοίγετε τα κοντέινερ αυτά, μπορεί να βρείτε μοναδικά οχήματα, νομίσματα και άλλα πολύτιμα αγαθά του παιχνιδιού."
+msgstr "Όταν ανοίγετε τέτοια κοντέινερ, μπορεί να βρείτε Προνομιακά Οχήματα της Βαθμίδας VIII, νομίσματα του παιχνιδιού και άλλα πολύτιμα αγαθά."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Όταν ανοίγετε τα κοντέινερ αυτά, μπορεί να βρείτε μοναδικά οχήματα, στοιχεία προσαρμογής, νομίσματα και άλλα πολύτιμα αγαθά του παιχνιδιού."
+msgstr "Όταν ανοίγετε τέτοια κοντέινερ, μπορεί να βρείτε σπάνια Προνομιακά Οχήματα της Βαθμίδας X, νομίσματα του παιχνιδιού και άλλα πολύτιμα αγαθά."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Όταν ανοίγετε τα κοντέινερ αυτά, μπορεί να βρείτε μοναδικά οχήματα, στοιχεία προσαρμογής, νομίσματα και άλλα πολύτιμα αγαθά του παιχνιδιού."
+msgstr "Όταν ανοίγετε τέτοια κοντέινερ, μπορεί να βρείτε Προνομιακά Οχήματα της Βαθμίδας IX, νομίσματα του παιχνιδιού και άλλα πολύτιμα αγαθά."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Μπορείτε να το αποκτήσετε από τον Εφοδιασμό του παιχνιδιού ή να το βρείτε σε κοντέινερ άλλου είδους."
+msgstr "Μπορείτε να το λάβετε ως δώρο όταν αγοράζετε αντικείμενα από το Premium Shop ή να το βρείτε μέσα σε κοντέινερ άλλου είδους."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Μπορεί να το βρείτε μέσα σε κοντέινερ άλλου είδους."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Μπορεί να το βρείτε μέσα σε κοντέινερ άλλου είδους."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Κοντέινερ Bounty"
+msgstr "Κοντέινερ Celestial"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Κοντέινερ Boon"
+msgstr "Κοντέινερ Chosen"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Κοντέινερ Bestowal"
+msgstr "Κοντέινερ Heaven Help"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "ΚΟΝΤΕΪΝΕΡ BOUNTY"
+msgstr "ΚΟΝΤΕΪΝΕΡ CELESTIAL"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "ΚΟΝΤΕΪΝΕΡ BOON"
+msgstr "ΚΟΝΤΕΙΝΕΡ CHOSEN"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "ΚΟΝΤΕΪΝΕΡ BESTOWAL"
+msgstr "ΚΟΝΤΕΙΝΕΡ HEAVEN HELP"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Σε αυτά τα ειδικά κοντέινερ μπορείτε να βρείτε νέα και μοναδικά αντικείμενα του παιχνιδιού. Μπορείτε να τα αποκτήσετε από τον Εφοδιασμό του παιχνιδιού."
+msgstr "Στα ειδικά αυτά κοντέινερ μπορεί να βρείτε σπάνια και ολοκαίνουρια οχήματα των Βαθμίδων VIII–X, μαζί με πολλά άλλα έπαθλα.\nΜπορείτε να τα λάβετε ως δώρο όταν αγοράζετε αντικείμενα από το Premium Shop ή να τα βρείτε μέσα σε κοντέινερ άλλου είδους."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Λήξη διοργάνωσης σε"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Η λειτουργία των κοντέινερ είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους. Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Κοντέινερ God's Blessing Προσωρινά Μη Διαθέσιμα"
 
 msgid "eventName/lowerCase"
-msgstr "Vault of Whispers"
+msgstr "God's Blessing"
 
 msgid "eventName/upperCase"
-msgstr "VAULT OF WHISPERS"
+msgstr "GOD'S BLESSING"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Εάν έχετε ήδη στην κατοχή σας όλα οχήματα, θα λάβετε ως αντιστάθμισμα ένα Κοντέινερ Boon για κάθε όχημα που βρίσκετε."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Εάν δεν ανοίξετε όλα τα κοντέινερ έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα που μπορεί να βρείτε στα κοντέινερ, θα λάβετε ένα Κοντέινερ Boon ως αντιστάθμισμα αντί για κάποιο όχημα."
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα που μπορεί να βρείτε στα κοντέινερ, θα λάβετε ένα Κοντέινερ Chosen ως Εγγυημένο Έπαθλο αντί για κάποιο όχημα."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Σε κάθε %(guaranteed0)s Κοντέινερ Bounty, %(guaranteed1)s Κοντέινερ Bestowal και %(guaranteed2)s Κοντέινερ Boon, θα βρείτε εγγυημένα ένα όχημα. Αλλά αν δεν βρείτε κάποιο όχημα, τότε με το άνοιγμα του %(guaranteed0)sου ή του %(guaranteed1)sου ή του %(guaranteed2)sου κοντέινερ (ανάλογα με τον τύπο του κοντέινερ) θα λάβετε εγγυημένα ένα όχημα που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+msgstr "Σε κάθε %(guaranteed0)s Κοντέινερ Celestial, %(guaranteed1)s Κοντέινερ Heaven Help και %(guaranteed2)s Κοντέινερ Chosen, θα βρείτε εγγυημένα ένα όχημα των Βαθμίδων VIII–X. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(guaranteed0)sου ή του %(guaranteed1)sου ή του %(guaranteed2)sου κοντέινερ (ανάλογα με τον τύπο του κοντέινερ) θα λάβετε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Αντιστάθμισμα"
+msgstr "Όταν Έχετε Λάβει Όλα Τα Οχήματα"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Εγγυημένο Έπαθλο"
+msgid "infoPage/header/description"
+msgstr "Ανοίξτε κιβώτια για να βρείτε πολύτιμα αγαθά του παιχνιδιού!\nΔείτε μια λίστα παρακάτω για πιθανές ανταμοιβές."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Μπορείτε να βρείτε μόνο ένα έπαθλο από το κάθε γκρουπ"
+msgid "noBoxesView/description/"
+msgstr "Δεν έχετε καθόλου κοντέινερ.\nΑγοράστε τα από το Premium Shop."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Κοντέινερ Chosen"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα που μπορεί να βρείτε στα κοντέινερ, θα λάβετε ένα Κοντέινερ Chosen ως Εγγυημένο Έπαθλο αντί για κάποιο όχημα."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Κοντέινερ Celestial"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Κοντέινερ Chosen"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Κοντέινερ Heaven Help"

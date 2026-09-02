@@ -575,7 +575,7 @@ msgid "deluxeAdditionalInvisibilityDevice/long_special"
 msgstr "Poboljšana verzija izduvnog sistema niske buke koja obezbeđuje jači efekat: povećava prikrivenost pokretnog ili nepokretnog vozila. Korisna za aktivno izviđanje, kao i za pasivno otkrivanje sa riskantnih pozicija.\nOva oprema je pogodna za vozila svih nacija i tipova ali njena efikasnost zavisi od tipa vozila. Može da se demontira samo upotrebom bonova."
 
 msgid "deluxeAdditionalInvisibilityDevice/name"
-msgstr "Pritajena izduvna jedinicia."
+msgstr "Pritajena izduvna jedinica"
 
 msgid "deluxeAdditionalInvisibilityDevice/short_special"
 msgstr "Povećava prikrivenost pokretnog ili nepokretnog vozila za {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
@@ -880,6 +880,12 @@ msgstr "Dodatne kaljače na gusenicama klasa 3"
 msgid "gun_balancing_1/name"
 msgstr "Balansiranje topa (Tip 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Balansiranje topa (Tip 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modifikacija cevi topa (tip 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Poboljšano vešanje (Tip 1)"
 msgid "improved_suspension_2/name"
 msgstr "Poboljšano vešanje (Tip 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Poboljšani pogon kupole (tip 1)"
+
 msgid "inspire/longDescr"
 msgstr "Poboljšava performanse posade vozila i svih saveznika u određenom radijusu dodajući % bonus na glavnu kvalifikaciju svakog člana posade. Igrač koji nanese primiće poboljšani efekat."
 
@@ -1294,6 +1303,9 @@ msgstr "Sistem poboljšanja mobilnosti T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Sistem poboljšanja mobilnosti T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Prigušivač bljeska cevi (tip 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Privremeno povećava snagu motora tvog vozila za %(enginePowerFactor)s i njegovu maksimalnu brzinu %(maxSpeedFactor)s puta tokom %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "U okviru od {colorTagOpen}%(delay)d s{colorTagClose}, odabrana oblast �
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artiljerijski napad"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Nakon male zadrške, granata za osvetljavanje obasjava odabranu oblast. Neprijateljska vozila uhvaćena u njenom dometu ostaju uočena i primaju povećanu štetu.\nOsmatračko mesto može biti ponovo zauzeto nakon nekog vremena."
+
+msgid "poi_illumination_flare/name"
+msgstr "Osvetljavajuća granata"
 
 msgid "poi_radar/descr"
 msgstr "Kada se aktivira, sva neprijateljska vozila će ostati otkrivena za {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Lagani trup"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Lagani\ntrup"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflektujuće oblaganje optike"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflektujuće oblaganje farova"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflektujeće\noblaganje optike"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antireflektujuće\noblaganje farova"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Spoljni sistem osmatranja"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Električni pogon periskopa"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Spoljni sistem\nosmatranja"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Električni\npogon periskopa"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramski periskop"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramski\nperiskop"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramski periskop"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Uskougaona osmatračka sprava"
 
+msgid "role_LT_scout_pair_5_2/splitName"
+msgstr "Uskougaona\nosmatračka sprava"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Novi zupčanici nišanjenja"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Novi zupčanici nišanjenja"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Električni pogon periskopa"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Električni\npogon periskopa"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Opšte povećanje izdržljivosti"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Opšte povećanje\nizdržljivosti"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflektujuće oblaganje farova"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antireflektujuće\noblaganje farova"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Podešavanje izbacivača"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Podešavanje izbacivača"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Ojačavanje napajanja"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Ojačavanje\nnapajanja"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Poboljšano olučavanje projektila"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Poboljšano\nolučavanje projektila"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Osetljiva optika"
+
 msgid "role_LT_universal_pair_5_2/splitName"
-msgstr "Uskougaouna\nosmatračka sprava"
+msgstr "Osetljiva optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Ojačana primarna struktura"
@@ -2424,6 +2490,9 @@ msgstr "Električno pražnjenje"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Stvara zonu gde serija %(thunderCount)s električnih pražnjenja udara sa visokom učestalošću. Svako pražnjenje nanosi {whiteSpanish_Open}%(damage)s poena štete{whiteSpanish_Close} i privremeno smanjuje pokretljivost svakog neprijateljskog vozila u oblasti efekta sposobnosti.\n\n*Postoji kašnjenje od %(delay)s s između aktiviranja sposobnosti i prvog pražnjenja. Negativni efekat može biti uklonjen kompletom za popravku."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Zamena torzionih šipki (tip 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Tokom %(duration)s s, stvara zonu koja smanjuje parametre pokretljivosti za %(vehicleMaxSpeed)s, i povećava vreme punjenja topa i nišanjenja za %(gunReloadTime)s za sva neprijateljska vozila unutar."

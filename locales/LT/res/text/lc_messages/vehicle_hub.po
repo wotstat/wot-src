@@ -34,6 +34,9 @@ msgstr "Pabūklas gali šaudyti nesustodamas ir neužsitaisydamas. Kiekvienas š
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Padidina variklio galingumą ir maksimalų greitį, kas leidžia greitai pakeisti poziciją. Aktyvuoti raketiniai stiprintuvai sumažina manevringumą ir jų negalima išjungti pačiam."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Mašinos pabūklas turi ypatingus prietaisus, kurie leidžia prieš šūvį pakoreguoti tam tikrus sviedinio parametrus. Skirtingų sviedinių parametrai priklauso nuo pasirinkto režimo ir kiekviena kombinacija padės prisitaikyti prie įvairių situacijų."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Šis specialus režimas aktyvuotas padidina ir/arba pakeičia tam tikrus kovinius parametrus. Geriausia aktyvuoti prieš kovą su priešu."
 
@@ -82,6 +85,9 @@ msgstr "Perkaisti galintis automatas"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Reaktyviniai stiprintuvai"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Sviedinių kalibravimo sistema"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Apgulties režimas"
 
@@ -100,8 +106,17 @@ msgstr "Šaudymas salvėmis"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Stovėdami vietoje arba lėtai judėdami gaunate taiklumo lygių, kurie padidina jūsų kito šūvio tikslumą.\nPasiekę aukščiausią taiklumo lygį, galite gerai valdyti ginklą su sumažintu išbarstymu net judėdami ar sukdamiesi."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mechanizmas akimirksniu sumažina sviedinių užtaisymo laiką iki tam tikros vertės. Kiekvienas panaudojimas už sviedinį išnaudoją vieną užkrovą, o jos atsistato per laiką – greičiau, jei apkaba pilna. Mūšio pradžioje jau turite tam tikrą užkrovų skaičių."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ši mašina turi prie ginklo plokštės pritvirtintą raketsvaidį. Aktyvavę gebėjimą pasikeisite į antrinį taikiklį ir galėsite iššauti fugasinę raketą nuspaudę šūvio mygtuką."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Kiekvieną kartą, kai pataikote į matomą priešą sviediniu, gaunate efektyvumo lygį, kas laikinai padidina jūsų užsitaisymo greitį. Lygiai kaupiasi su kiekvienu šūviu.\nSunaikinę mašiną sviediniu gausite dar vieną lygį."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Šios mašinos išorinio sviedinių maitinimo modulis leidžia iššauti galingus sustiprintus sviedinius, kurie daro daugiau žalos. Kuomet modulis aktyvuotas, jūsų mobilumas ir šaudymo sparta sumažėja."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Jei jūsų ginklas užtaisytas, galite pradėti kaitinti kitą šūvį, kuris darys daugiau žalos — kuo labiau įkaitinsite, tuo stipriau šausite.\nPasiekę maksimalų įkaitimo lygį turite vos kelias sekundes šūviui — jei nešausite, laikinai negalėsite šauti."
@@ -142,6 +157,15 @@ msgstr "Sistema per laiką sukaupia užkrovą, kuo ji didesnė, tuo daugiau žal
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktyvuokite skystojo kuro stiprintuvus tada, kai jums labiausiai reikia jų suteikiamo greičio. Greitintuvai įkaista ir iki kito naudojimo privalo atvėsti, o jei viršysite kritinę temperatūrą, jie išsijungs visiškai ir laikinai neveiks."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Kai su sviediniu pataikote į matomą priešą, nustatomas kitos sviedinio sprogdiklio degiklis. Jei pirmas šūvis pramušė priešo šarvus, kitas šūvis darys daugiau žalos. Jei ne, tai jo pramušimas bus didesnis."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Mašinos pabūklas turi ypatingus prietaisus, kurie leidžia prieš šūvį pakoreguoti tam tikrus sviedinio parametrus. Skirtingų sviedinių parametrai priklauso nuo pasirinkto režimo ir kiekviena kombinacija padės prisitaikyti prie įvairių situacijų."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Aktyvuotas, prietaisas nuskenuoja sektorių priešais jūsų mašiną ir prieš prasidedant atsistatymo laikui aptinka pasislėpusius priešus. Jei jis aptinka priešą, jūs irgi tapsite matomi. Jūs galite patys nutraukti skenavimą anksčiau laiko."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Kietojo kuro greitintuvai, kurie kelioms sekundėms padidina akceleraciją, mobilumą ir manevringumą. Dešinysis ir kairysis greitintuvai gali veikti atskirai, kas leis greičiau suktis ir nevaržys važiavimo atbuliniu."
 
@@ -166,8 +190,17 @@ msgstr "Ši mechaninė modifikacija trumpam ženkliai padidina mašinos akcelera
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analoginis balistinis skaičiavimo prietaisas"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Priverstinio užtaisymo mechanizmas"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Pagalbiniai raketsvaidžiai"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Pusiau automatinė amunicijos saugykla"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Išorinio sviedinių maitinimo režimas"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Termobalistinė perkrova"
@@ -208,6 +241,15 @@ msgstr "Indukcinis sprogmens šildytuvas"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Skystojo kuro greitintuvai"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Koreguojamas sprogdiklio degiklis"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Sviedinių kalibravimo sistema"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Infraraudonasis ieškiklis ir sekiklis (IRIS)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Nuoseklūs raketiniai greitintuvai"
 
@@ -232,8 +274,17 @@ msgstr "Aukšto slėgio turbokompresoriaus stiprintuvas"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Padidintas jūsų kito šūvio taiklumas, esant pilnam kalibravimui suteikiantis gerą stabilizaciją."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Akimirksniu sumažina sviedinių užtaisymą iki tam tikro laiko."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Iššaukite fugasinę raketą iš papildomo raketsvaidžio, nepriklausomai nuo pagrindinio pabūklo."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Kiekvienas pataikytas šūvis į priešą trumpam padidina užsitaisymo greitį."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Šaudykite daug žalos darančius sviediniu paaukoję mobilumo."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Kaupkite įkaitimo lygius ir padarykite daugiau žalos kitu šūviu."
@@ -274,6 +325,15 @@ msgstr "Sistema užkraunama tam, kad darytų daugiau žalos. Kuo didesnė užkro
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Greitintuvus galite aktyvuoti bet kada ir suteikti sau greičio."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Pataikę į matomą priešą kitu šūviu darysite daugiau žalos arba daugiau pramušite."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Pabūklas turi specialius įrenginius, kurie leidžia prieš išaunant pakoreguoti tam tikrus sviedinio parametrus."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Padidina apžvalgos atstumą ir aptinka judančius ar už augalijos besislepiančius priešus siaurame sektoriuje."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Kietojo kuro greitintuvai, kurie sustiprina akceleraciją, mobilumą ir manevringumą."
 
@@ -298,8 +358,14 @@ msgstr "Speciali funkcija, kuri trumpam padidina variklio galią, akceleraciją 
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Stovint arba važiuojant mažesniu nei tam tikru greičiu, jūsų mašina kalibruoja Analoginį balistinį skaičiavimo prietaisą ir padidina taiklumo lygį, taip užtikrindama kito šūvio tikslumą. Jei viršysite leistiną greitį, jūsų tikslumo lygių kūrimo progresas bus sustabdytas, kol sulėtinsite greitį. Pasiekus aukščiausią tikslumo lygį, jūsų mašina įgyja beveik tobulą ginklo stabilizavimą, su minimaliu išbarstymu judant / sukant korpusą ar bokštelį. Efektas panaikinamas iššovus."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ši mašina turi prie ginklo plokštės pritvirtintą raketsvaidį. Aktyvavę gebėjimą pasikeisite į antrinį taikiklį ir galėsite iššauti fugasinę raketą nuspaudę šūvio mygtuką."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Kiekvieną kartą, kai pataikote į matomą priešą sviediniu, gaunate efektyvumo lygį, kas laikinai padidina jūsų užsitaisymo greitį. Lygiai kaupiasi su kiekvienu šūviu, o sunaikinę mašiną sviediniu gausite dar vieną lygį."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Šios mašinos išorinio sviedinių maitinimo modulis leidžia iššauti galingus sustiprintus sviedinius, kurie daro daugiau žalos. Kuomet modulis aktyvuotas, jūsų mobilumas ir šaudymo sparta sumažėja."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Jei jūsų ginklas užtaisytas, galite pradėti kaitinti kitą šūvį. Kuo didesnis įkaitimo lygis, tuo daugiau žalos darysite. Kaitinimo metu negalite pakeisti sviedinio. Kai pasieksite maksimalų įkaitimo lygį pradės skaičiuotis laikas. Jei nešausite laiku, kelias sekundes negalėsite šauti."
@@ -340,6 +406,15 @@ msgstr "Su laiku sistema įgyja vis didesnę užkrovą, kurios dalį galima pana
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Skysto kuro greitintuvai trumpam sustiprina variklio galią, kas leidžia užimti svarbias pozicijas mūšio lauke — tačiau tai riboja mašinos gebėjimą važiuoti atbuliniu. Juos galime bet kada įjungti ir išjungti, išskyrus jeigu jie peržengia aktyvavimo limitą. Aktyvuoti greitintuvai kaista ir po laiko pasidaro nenaudojami, iki kol vėl atvėsta, todėl negalite jų naudoti visada, nes pasiekę kritinę temperatūrą juos visiškai išjungsite. Planuokite savo veiksmus ir nebūkite prigauti netinkamoje vietoje."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Kai su sviediniu pataikote į matomą priešą, nustatomas kitos sviedinio sprogdiklio degiklis. Jei pirmas šūvis pramušė priešo šarvus, kitas šūvis darys daugiau žalos. Jei ne, tai jo pramušimas bus didesnis."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Mašinos pabūklas turi ypatingus prietaisus, kurie leidžia prieš šūvį pakoreguoti tam tikrus sviedinių parametrus. Ruošdami mašiną prieš mūšį galite pamatyti, kokie parametrai keičiasi."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Pažangi apžvalgos sistema, padidinanti apžvalgos atstumą ir leidžianti lengviau aptikti judančius ar už augalijos besislepiančius priešus. Aktyvuotas jis skenuoja siaurą sektorių jūsų mašinos priekyje ir aptinka priešus, kol atsistatymo laikas neprasideda. Jūs galite patys sustabdyti gebėjimą, kai norite."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Kietojo kuro greitintuvai, kurie kelioms sekundėms padidina mašinos akceleraciją, mobilumą ir manevringumą. Priešingai nei standartiniai raketiniai stiprintuvai, kairysis ir dešinysis stiprintuvai gali veikti nepriklausomai vienas kito greičiau sukant korpusą ir nevaržo važiavimo atbuliniu. Mūšyje juos galima naudoti kelis kartus, tačiau jiems atsistatyti reikia laiko."
 
@@ -363,6 +438,18 @@ msgstr "Ši mechaninė modifikacija trumpam ženkliai padidina mašinos akcelera
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Visos rodomos vertės yra šios mašinos maksimumas. Įranga, instrukcijos ir ekipuotė gali pakeisti šias vertes, tačiau čia tai nėra vertinama."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibruojamas šarvamušys sviedinys"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibruojamas šarvamušys pokalibrinis sviedinys"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibruojamas fugasinis sviedinys"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibruojamas kumuliatyvinis sviedinys"
 
 msgid "characteristics/templates/upTo"
 msgstr "Iki %(value)%s"

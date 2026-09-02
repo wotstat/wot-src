@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Неоновий старт — унікальна тимчасова подія зі свіжим геймплеєм! Мчіть небезпечними трасами, бийтеся, виконуйте завдання й здобувайте нагороди."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Цей режим вимогливий до комп'ютера. Мапа може завантажуватися тривалий час, можливі спотворення графіки й негаразди з пересуванням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+msgstr "Продуктивності вашого комп'ютера замало для цього режиму. Виникнуть проблеми з графікою та переміщенням техніки, також можливий аварійний вихід із клієнта гри."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Можливе зниження продуктивності"
+msgstr "Мала продуктивність"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Цей режим вимогливий до комп'ютера. Мапа може завантажуватися тривалий час, можливі спотворення графіки й негаразди з пересуванням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+msgstr "Режим вимогливий до продуктивності комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Можливе зниження продуктивності"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Усі рівні"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+msgstr "Продуктивності вашого комп'ютера замало для цього режиму. Виникнуть проблеми з графікою та переміщенням техніки, також можливий аварійний вихід із клієнта гри."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Рекомендовані найвищі налаштування графіки"
+msgstr "Мала продуктивність"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+msgstr "%(icon) Мала продуктивність"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+msgstr "Режим вимогливий до продуктивності комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Рекомендовані найвищі налаштування графіки"
+msgstr "Можливе зниження продуктивності"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+msgstr "%(icon) Можливе зниження продуктивності"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "До нового завдання «Неоновий старт»:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Вітаємо!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Нескінченна постпрогресія"
+msgstr "Повторюваний етап"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Ви пройшли основну прогресію"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Проходьте цей етап стільки разів, скільки зможете."
+msgstr "Отримайте якомога більше нагород:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Отримано очок: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Можна виконати повторно"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "За виконання:"
+msgstr "За виконання"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "За поразку:"
+msgstr "За поразку"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "За перемогу:"
+msgstr "За перемогу"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Очки:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Ви виконали всі доступні завдання. Нові з'являться в наступній ротації."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Доступно протягом {{timeLeft}}"
+msgstr "Зникне через {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Доступно протягом {{timeLeft}}"
+msgstr "До кінця події: {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Нове завдання за {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Ухиляйтеся від лазерів і точно розрахо�
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Обережно: лазери й трампліни"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Якщо ваша машина застрягла, скористайтеся вмінням «Повернутися до контрольної точки», щоб телепортуватися до останньої пройденої контрольної точки."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Повернутися до контрольної точки"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "для додаткової інформації про режим."
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Проривайтеся\nдо фінішу"
+msgstr "Проривайтеся до фінішу"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Усі рівні"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+msgstr "Продуктивності вашого комп'ютера замало для цього режиму. Виникнуть проблеми з графікою та переміщенням техніки, також можливий аварійний вихід із клієнта гри."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Рекомендовані найвищі налаштування графіки"
+msgstr "Мала продуктивність"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+msgstr "%(icon) Мала продуктивність"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+msgstr "Режим вимогливий до продуктивності комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Рекомендовані найвищі налаштування графіки"
+msgstr "Можливе зниження продуктивності"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+msgstr "%(icon) Можливе зниження продуктивності"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Неоновий старт"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Мчіть небезпечними трасами, бийтеся, виконуйте завдання та здобувайте нагороди."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Неоновий старт"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Неоновий старт"

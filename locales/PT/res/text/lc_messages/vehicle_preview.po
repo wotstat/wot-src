@@ -40,6 +40,9 @@ msgstr "Pesquisa"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Recuperar"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Para Caixas Grandes"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Veículo de Nível %(level)s %(nation)s não está pesquisado"
 
@@ -54,6 +57,15 @@ msgstr "Desconto na aquisição:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Desconto na pesquisa:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Este veículo pode sair de {{@ style (color $color)}}Caixas Grandes!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Caixas Grandes"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Este veículo pode sair de"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Aplique um cupão de desconto: %(value)s"

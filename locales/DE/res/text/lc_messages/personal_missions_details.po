@@ -5857,6 +5857,978 @@ msgstr "Schaden"
 msgid "pm3_9_3_9_title_kills"
 msgstr "Zerstören"
 
+msgid "pm4_11_1_1"
+msgstr "Vorhut-1"
+
+msgid "pm4_11_1_10"
+msgstr "Vorhut-10"
+
+msgid "pm4_11_1_10_description_counterAttack"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen, die Ihr Fahrzeug mit Schüssen getroffen haben"
+
+msgid "pm4_11_1_10_short"
+msgstr "Vorhut-10"
+
+msgid "pm4_11_1_10_title_counterAttack"
+msgstr "Schaden"
+
+msgid "pm4_11_1_11"
+msgstr "Vorhut-11"
+
+msgid "pm4_11_1_11_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_1_11_description_kills"
+msgstr "Zerstören Sie ein gegnerisches Fahrzeug durch Rammen und überleben Sie den Aufprall"
+
+msgid "pm4_11_1_11_short"
+msgstr "Vorhut-11"
+
+msgid "pm4_11_1_11_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_11_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_12"
+msgstr "Vorhut-12"
+
+msgid "pm4_11_1_12_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_1_12_short"
+msgstr "Vorhut-12"
+
+msgid "pm4_11_1_12_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_13"
+msgstr "Vorhut-13"
+
+msgid "pm4_11_1_13_description_medal"
+msgstr "Verdienen Sie die Auszeichnung „Großkaliber“"
+
+msgid "pm4_11_1_13_short"
+msgstr "Vorhut-13"
+
+msgid "pm4_11_1_13_title_medal"
+msgstr "Besondere Leistungen im Gefecht"
+
+msgid "pm4_11_1_14"
+msgstr "Vorhut-14"
+
+msgid "pm4_11_1_14_description_damageDealtReceivedAndBlocked"
+msgstr "Verursachen, erhalten und wehren Sie insgesamt %(goal)s Schadenspunkte ab"
+
+msgid "pm4_11_1_14_short"
+msgstr "Vorhut-14"
+
+msgid "pm4_11_1_14_title_damageDealtReceivedAndBlocked"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_1_15"
+msgstr "Vorhut-15"
+
+msgid "pm4_11_1_15_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge innerhalb der Sichtweite Ihres Fahrzeugs"
+
+msgid "pm4_11_1_15_short"
+msgstr "Vorhut-15"
+
+msgid "pm4_11_1_15_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_16"
+msgstr "Vorhut-16"
+
+msgid "pm4_11_1_16_description_medal"
+msgstr "Verdienen Sie die Auszeichnung „Stahlwand“"
+
+msgid "pm4_11_1_16_description_topByDamage"
+msgstr "Verursachen Sie den meisten Schaden in Ihrem Team"
+
+msgid "pm4_11_1_16_short"
+msgstr "Vorhut-16"
+
+msgid "pm4_11_1_16_title_medal"
+msgstr "Besondere Leistungen im Gefecht"
+
+msgid "pm4_11_1_16_title_topByDamage"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_1_17"
+msgstr "Vorhut-17"
+
+msgid "pm4_11_1_17_description_damageandBlock"
+msgstr "Verursachen oder wehren Sie insgesamt mindestens %(vehicleHealthFactor)s Mal so viel Schaden ab, wie Ihr Fahrzeug Strukturpunkte hat"
+
+msgid "pm4_11_1_17_short"
+msgstr "Vorhut-17"
+
+msgid "pm4_11_1_17_title_damageandBlock"
+msgstr "Schaden und Abwehren"
+
+msgid "pm4_11_1_18"
+msgstr "Vorhut-18"
+
+msgid "pm4_11_1_18_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an bewegungsunfähigen gegnerischen Fahrzeugen"
+
+msgid "pm4_11_1_18_description_damageAlt"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "pm4_11_1_18_short"
+msgstr "Vorhut-18"
+
+msgid "pm4_11_1_18_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_18_title_damageAlt"
+msgstr "Schaden"
+
+msgid "pm4_11_1_19"
+msgstr "Vorhut-19"
+
+msgid "pm4_11_1_19_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen Ihrer Stufe oder höher durch Schüsse aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_1_19_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge Ihrer Stufe oder höher aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_1_19_short"
+msgstr "Vorhut-19"
+
+msgid "pm4_11_1_19_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_19_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_1_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen schweren Panzern"
+
+msgid "pm4_11_1_1_description_hits"
+msgstr "Verursachen Sie %(goal)s Mal mit Schüssen Schaden an gegnerischen schweren Panzern"
+
+msgid "pm4_11_1_1_short"
+msgstr "Vorhut-1"
+
+msgid "pm4_11_1_1_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_1_title_hits"
+msgstr "Schaden"
+
+msgid "pm4_11_1_2"
+msgstr "Vorhut-2"
+
+msgid "pm4_11_1_20"
+msgstr "Vorhut-20"
+
+msgid "pm4_11_1_20_description_killsDiversity"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge %(uniqueGoal)s verschiedener Typen"
+
+msgid "pm4_11_1_20_short"
+msgstr "Vorhut-20"
+
+msgid "pm4_11_1_20_title_killsDiversity"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_21"
+msgstr "Vorhut-21"
+
+msgid "pm4_11_1_21_description_damageDealtReceivedAndBlocked"
+msgstr "Verursachen, erhalten und wehren Sie insgesamt %(goal)s Schadenspunkte ab"
+
+msgid "pm4_11_1_21_description_totalDamagePercent"
+msgstr "Verursachen Sie 25 %% des insgesamt von Ihrem Team verursachten Schadens"
+
+msgid "pm4_11_1_21_short"
+msgstr "Vorhut-21"
+
+msgid "pm4_11_1_21_title_damageDealtReceivedAndBlocked"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_1_21_title_totalDamagePercent"
+msgstr "Schaden"
+
+msgid "pm4_11_1_2_description_killsDiversity"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge %(uniqueGoal)s verschiedener Typen"
+
+msgid "pm4_11_1_2_short"
+msgstr "Vorhut-2"
+
+msgid "pm4_11_1_2_title_killsDiversity"
+msgstr "Zerstören"
+
+msgid "pm4_11_1_3"
+msgstr "Vorhut-3"
+
+msgid "pm4_11_1_3_description_topByDamage"
+msgstr "Verursachen Sie den meisten Schaden Ihres Teams"
+
+msgid "pm4_11_1_3_short"
+msgstr "Vorhut-3"
+
+msgid "pm4_11_1_3_title_topByDamage"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_1_4"
+msgstr "Vorhut-4"
+
+msgid "pm4_11_1_4_description_blockedDamage"
+msgstr "Wehren Sie %(goal)s Schadenspunkte ab, während Ihr Fahrzeug still steht"
+
+msgid "pm4_11_1_4_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "pm4_11_1_4_short"
+msgstr "Vorhut-4"
+
+msgid "pm4_11_1_4_title_blockedDamage"
+msgstr "Abwehren"
+
+msgid "pm4_11_1_4_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_5"
+msgstr "Vorhut-5"
+
+msgid "pm4_11_1_5_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen innerhalb der Sichtweite Ihres Fahrzeugs"
+
+msgid "pm4_11_1_5_short"
+msgstr "Vorhut-5"
+
+msgid "pm4_11_1_5_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_6"
+msgstr "Vorhut-6"
+
+msgid "pm4_11_1_6_description_damageandBlock"
+msgstr "Verursachen oder wehren Sie insgesamt mindestens %(vehicleHealthFactor)s Mal so viel Schaden ab, wie Ihr Fahrzeug Strukturpunkte hat"
+
+msgid "pm4_11_1_6_short"
+msgstr "Vorhut-6"
+
+msgid "pm4_11_1_6_title_damageandBlock"
+msgstr "Schaden und Abwehren"
+
+msgid "pm4_11_1_7"
+msgstr "Vorhut-7"
+
+msgid "pm4_11_1_7_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_1_7_description_damageAlt"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus mindestens %(distanceGreatOrEqual)s m Distanz"
+
+msgid "pm4_11_1_7_short"
+msgstr "Vorhut-7"
+
+msgid "pm4_11_1_7_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_7_title_damageAlt"
+msgstr "Schaden"
+
+msgid "pm4_11_1_8"
+msgstr "Vorhut-8"
+
+msgid "pm4_11_1_8_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen schweren Panzern"
+
+msgid "pm4_11_1_8_description_topByDamage"
+msgstr "Verursachen Sie den meisten Schaden in Ihrem Team"
+
+msgid "pm4_11_1_8_short"
+msgstr "Vorhut-8"
+
+msgid "pm4_11_1_8_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_8_title_topByDamage"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_1_9"
+msgstr "Vorhut-9"
+
+msgid "pm4_11_1_9_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an bewegungsunfähigen gegnerischen Fahrzeugen"
+
+msgid "pm4_11_1_9_description_damageAlt"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "pm4_11_1_9_short"
+msgstr "Vorhut-9"
+
+msgid "pm4_11_1_9_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_1_9_title_damageAlt"
+msgstr "Schaden"
+
+msgid "pm4_11_2_1"
+msgstr "Hinterhalt-1"
+
+msgid "pm4_11_2_10"
+msgstr "Hinterhalt-10"
+
+msgid "pm4_11_2_10_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_10_description_topByExp"
+msgstr "Verdienen Sie die meiste Erfahrung Ihres Teams"
+
+msgid "pm4_11_2_10_short"
+msgstr "Hinterhalt-10"
+
+msgid "pm4_11_2_10_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_10_title_topByExp"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_2_11"
+msgstr "Hinterhalt-11"
+
+msgid "pm4_11_2_11_description_damage"
+msgstr "Verursachen Sie mit Schüssen %(goal)s Schadenspunkte an sich bewegenden gegnerischen Fahrzeugen"
+
+msgid "pm4_11_2_11_short"
+msgstr "Hinterhalt-11"
+
+msgid "pm4_11_2_11_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_12"
+msgstr "Hinterhalt-12"
+
+msgid "pm4_11_2_12_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_12_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge"
+
+msgid "pm4_11_2_12_short"
+msgstr "Hinterhalt-12"
+
+msgid "pm4_11_2_12_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_12_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_13"
+msgstr "Hinterhalt-13"
+
+msgid "pm4_11_2_13_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "pm4_11_2_13_description_totalDamagePercent"
+msgstr "Verursachen Sie 25 %% des insgesamt von Ihrem Team verursachten Schadens"
+
+msgid "pm4_11_2_13_short"
+msgstr "Hinterhalt-13"
+
+msgid "pm4_11_2_13_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_13_title_totalDamagePercent"
+msgstr "Schaden"
+
+msgid "pm4_11_2_14"
+msgstr "Hinterhalt-14"
+
+msgid "pm4_11_2_14_description_medal"
+msgstr "Verdienen Sie die Auszeichnung „Großkaliber“"
+
+msgid "pm4_11_2_14_short"
+msgstr "Hinterhalt-14"
+
+msgid "pm4_11_2_14_title_medal"
+msgstr "Besondere Leistungen im Gefecht"
+
+msgid "pm4_11_2_15"
+msgstr "Hinterhalt-15"
+
+msgid "pm4_11_2_15_description_damage"
+msgstr "Verursachen Sie %(vehicleHealthFactor)s Mal mehr Schaden, als Ihr Fahrzeug Strukturpunkte hat"
+
+msgid "pm4_11_2_15_short"
+msgstr "Hinterhalt-15"
+
+msgid "pm4_11_2_15_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_16"
+msgstr "Hinterhalt-16"
+
+msgid "pm4_11_2_16_description_killWithCausingDamage"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge und verursachen Sie dabei jeweils mindestens %(damageDealt)s Schadenspunkte"
+
+msgid "pm4_11_2_16_short"
+msgstr "Hinterhalt-16"
+
+msgid "pm4_11_2_16_title_killWithCausingDamage"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_17"
+msgstr "Hinterhalt-17"
+
+msgid "pm4_11_2_17_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_17_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge"
+
+msgid "pm4_11_2_17_short"
+msgstr "Hinterhalt-17"
+
+msgid "pm4_11_2_17_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_17_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_18"
+msgstr "Hinterhalt-18"
+
+msgid "pm4_11_2_18_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen aus mindestens %(distanceGreatOrEqual)s m Distanz"
+
+msgid "pm4_11_2_18_description_topByExp"
+msgstr "Verdienen Sie die meiste Erfahrung Ihres Teams"
+
+msgid "pm4_11_2_18_short"
+msgstr "Hinterhalt-18"
+
+msgid "pm4_11_2_18_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_18_title_topByExp"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_2_19"
+msgstr "Hinterhalt-19"
+
+msgid "pm4_11_2_19_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge, ohne vorher selbst Schaden zu erleiden"
+
+msgid "pm4_11_2_19_short"
+msgstr "Hinterhalt-19"
+
+msgid "pm4_11_2_19_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_1_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_1_description_piercings"
+msgstr "Erzielen Sie %(goal)s durchschlagende Treffer"
+
+msgid "pm4_11_2_1_short"
+msgstr "Hinterhalt-1"
+
+msgid "pm4_11_2_1_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_1_title_piercings"
+msgstr "Durchschlag"
+
+msgid "pm4_11_2_2"
+msgstr "Hinterhalt-2"
+
+msgid "pm4_11_2_20"
+msgstr "Hinterhalt-20"
+
+msgid "pm4_11_2_20_description_totalDamagePercent"
+msgstr "Verursachen Sie 30 %% des insgesamt von Ihrem Team verursachten Schadens"
+
+msgid "pm4_11_2_20_description_win"
+msgstr "Zerstören Sie alle gegnerischen Fahrzeuge / erobern oder verteidigen Sie die Basis"
+
+msgid "pm4_11_2_20_short"
+msgstr "Hinterhalt-20"
+
+msgid "pm4_11_2_20_title_totalDamagePercent"
+msgstr "Schaden"
+
+msgid "pm4_11_2_20_title_win"
+msgstr "Gewinnen Sie ein Gefecht"
+
+msgid "pm4_11_2_21"
+msgstr "Hinterhalt-21"
+
+msgid "pm4_11_2_21_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen"
+
+msgid "pm4_11_2_21_short"
+msgstr "Hinterhalt-21"
+
+msgid "pm4_11_2_21_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_2_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte innerhalb der ersten %(timeLimit)s Minuten des Gefechts"
+
+msgid "pm4_11_2_2_description_killsDiversity"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge %(uniqueGoal)s verschiedener Typen"
+
+msgid "pm4_11_2_2_short"
+msgstr "Hinterhalt-2"
+
+msgid "pm4_11_2_2_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_2_title_killsDiversity"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_3"
+msgstr "Hinterhalt-3"
+
+msgid "pm4_11_2_3_description_topByExp"
+msgstr "Verdienen Sie die meiste Erfahrung Ihres Teams"
+
+msgid "pm4_11_2_3_short"
+msgstr "Hinterhalt-3"
+
+msgid "pm4_11_2_3_title_topByExp"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_2_4"
+msgstr "Hinterhalt-4"
+
+msgid "pm4_11_2_4_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen mittleren Panzern"
+
+msgid "pm4_11_2_4_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge außerhalb der Sichtweite Ihres Fahrzeugs"
+
+msgid "pm4_11_2_4_short"
+msgstr "Hinterhalt-4"
+
+msgid "pm4_11_2_4_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_4_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_5"
+msgstr "Hinterhalt-5"
+
+msgid "pm4_11_2_5_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte ohne von Gegnern entdeckt zu werden, während Sie den Schaden verursachen"
+
+msgid "pm4_11_2_5_short"
+msgstr "Hinterhalt-5"
+
+msgid "pm4_11_2_5_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_6"
+msgstr "Hinterhalt-6"
+
+msgid "pm4_11_2_6_description_damageAndAssist"
+msgstr "Verursachen oder ermöglichen Sie insgesamt %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_6_short"
+msgstr "Hinterhalt-6"
+
+msgid "pm4_11_2_6_title_damageAndAssist"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_2_7"
+msgstr "Hinterhalt-7"
+
+msgid "pm4_11_2_7_description_medal"
+msgstr "Verdienen Sie die Auszeichnung „Panzer-Meisterschütze“"
+
+msgid "pm4_11_2_7_short"
+msgstr "Hinterhalt-7"
+
+msgid "pm4_11_2_7_title_medal"
+msgstr "Besondere Leistungen im Gefecht"
+
+msgid "pm4_11_2_8"
+msgstr "Hinterhalt-8"
+
+msgid "pm4_11_2_8_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge aus mindestens %(distanceGreatOrEqual)s m Distanz"
+
+msgid "pm4_11_2_8_short"
+msgstr "Hinterhalt-8"
+
+msgid "pm4_11_2_8_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_2_9"
+msgstr "Hinterhalt-9"
+
+msgid "pm4_11_2_9_description_damage"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an bewegungsunfähigen gegnerischen Fahrzeugen"
+
+msgid "pm4_11_2_9_description_damageAlt"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte"
+
+msgid "pm4_11_2_9_short"
+msgstr "Hinterhalt-9"
+
+msgid "pm4_11_2_9_title_damage"
+msgstr "Schaden"
+
+msgid "pm4_11_2_9_title_damageAlt"
+msgstr "Schaden"
+
+msgid "pm4_11_3_1"
+msgstr "Unterstützung-1"
+
+msgid "pm4_11_3_10"
+msgstr "Unterstützung-10"
+
+msgid "pm4_11_3_10_description_assist"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s Schadenspunkte zu verursachen, indem Sie gegnerische Fahrzeuge aufklären oder bewegungsunfähig machen, und bleiben Sie dabei unentdeckt"
+
+msgid "pm4_11_3_10_description_stunTime"
+msgstr "Betäuben Sie gegnerische mittlere Panzer und Jagdpanzer für insgesamt %(goal)s Sekunden (potenzielle Betäubungsdauer)"
+
+msgid "pm4_11_3_10_short"
+msgstr "Unterstützung-10"
+
+msgid "pm4_11_3_10_title_assist"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_10_title_stunTime"
+msgstr "Betäubung"
+
+msgid "pm4_11_3_11"
+msgstr "Unterstützung-11"
+
+msgid "pm4_11_3_11_description_assist"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s Schadenspunkte an gegnerischen Fahrzeugen zu verursachen, indem Sie diese aufklären, bewegungsunfähig machen oder betäuben"
+
+msgid "pm4_11_3_11_short"
+msgstr "Unterstützung-11"
+
+msgid "pm4_11_3_11_title_assist"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_12"
+msgstr "Unterstützung-12"
+
+msgid "pm4_11_3_12_description_assistedKills"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s gegnerische Fahrzeuge zu zerstören, indem Sie diese aufklären, bewegungsunfähig machen oder betäuben"
+
+msgid "pm4_11_3_12_short"
+msgstr "Unterstützung-12"
+
+msgid "pm4_11_3_12_title_assistedKills"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_13"
+msgstr "Unterstützung-13"
+
+msgid "pm4_11_3_13_description_medal"
+msgstr "Erhalten Sie ein Überlegenheitsabzeichen der I. Klasse oder besser"
+
+msgid "pm4_11_3_13_short"
+msgstr "Unterstützung-13"
+
+msgid "pm4_11_3_13_title_medal"
+msgstr "Überlegenheitsabzeichen"
+
+msgid "pm4_11_3_14"
+msgstr "Unterstützung-14"
+
+msgid "pm4_11_3_14_description_alive"
+msgstr "Überleben Sie das Gefecht"
+
+msgid "pm4_11_3_14_description_topByExp"
+msgstr "Verdienen Sie die meiste Erfahrung beider Teams"
+
+msgid "pm4_11_3_14_short"
+msgstr "Unterstützung-14"
+
+msgid "pm4_11_3_14_title_alive"
+msgstr "Überleben"
+
+msgid "pm4_11_3_14_title_topByExp"
+msgstr "Bester Spieler"
+
+msgid "pm4_11_3_15"
+msgstr "Unterstützung-15"
+
+msgid "pm4_11_3_15_description_assistedKills"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s gegnerische Fahrzeuge zu zerstören, indem Sie diese aufklären, bewegungsunfähig machen oder betäuben"
+
+msgid "pm4_11_3_15_short"
+msgstr "Unterstützung-15"
+
+msgid "pm4_11_3_15_title_assistedKills"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_16"
+msgstr "Unterstützung-16"
+
+msgid "pm4_11_3_16_description_damageCausedAtMovementSpeed"
+msgstr "Verursachen Sie %(goal)s Schadenspunkte an gegnerischen Fahrzeugen, während Sie sich mit mindestens %(attackerMovingSpeedGreaterOrEqual)s km/h bewegen"
+
+msgid "pm4_11_3_16_description_kills"
+msgstr "Zerstören Sie %(goal)s sich bewegende gegnerische Fahrzeuge mit Schüssen"
+
+msgid "pm4_11_3_16_short"
+msgstr "Unterstützung-16"
+
+msgid "pm4_11_3_16_title_damageCausedAtMovementSpeed"
+msgstr "Schaden"
+
+msgid "pm4_11_3_16_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_17"
+msgstr "Unterstützung-17"
+
+msgid "pm4_11_3_17_description_alive"
+msgstr "Überleben Sie das Gefecht"
+
+msgid "pm4_11_3_17_description_assist"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s Schadenspunkte an gegnerischen Fahrzeugen zu verursachen, indem Sie diese betäuben oder bewegungsunfähig machen, und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_17_description_damageAndAssist"
+msgstr "Verursachen Sie insgesamt %(goal)s Schadenspunkte (inklusive ermöglichter Schaden) und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_17_short"
+msgstr "Unterstützung-17"
+
+msgid "pm4_11_3_17_title_alive"
+msgstr "Überleben"
+
+msgid "pm4_11_3_17_title_assist"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_17_title_damageAndAssist"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_3_18"
+msgstr "Unterstützung-18"
+
+msgid "pm4_11_3_18_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_3_18_description_killsAlt"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge aus mindestens %(distanceGreatOrEqual)s m Distanz"
+
+msgid "pm4_11_3_18_short"
+msgstr "Unterstützung-18"
+
+msgid "pm4_11_3_18_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_18_title_killsAlt"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_19"
+msgstr "Unterstützung-19"
+
+msgid "pm4_11_3_19_description_medal"
+msgstr "Erhalten Sie das Überlegenheitsabzeichen „Panzerass“"
+
+msgid "pm4_11_3_19_short"
+msgstr "Unterstützung-19"
+
+msgid "pm4_11_3_19_title_medal"
+msgstr "Überlegenheitsabzeichen"
+
+msgid "pm4_11_3_1_description_alive"
+msgstr "Überleben Sie das Gefecht"
+
+msgid "pm4_11_3_1_description_kills"
+msgstr "Zerstören Sie eine gegnerische Selbstfahrlafette und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_1_description_stunNumber"
+msgstr "Betäuben Sie %(goal)s gegnerische Fahrzeuge und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_1_short"
+msgstr "Unterstützung-1"
+
+msgid "pm4_11_3_1_title_alive"
+msgstr "Überleben"
+
+msgid "pm4_11_3_1_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_1_title_stunNumber"
+msgstr "Betäubung"
+
+msgid "pm4_11_3_2"
+msgstr "Unterstützung-2"
+
+msgid "pm4_11_3_20"
+msgstr "Unterstützung-20"
+
+msgid "pm4_11_3_20_description_assist"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s Schadenspunkte an gegnerischen Fahrzeugen zu verursachen, indem Sie diese aufklären. Bleiben Sie dabei unentdeckt und gewinnen Sie das Gefecht"
+
+msgid "pm4_11_3_20_description_stunNumber"
+msgstr "Betäuben Sie %(goal)s Mal gegnerische schwere Panzer und gewinnen Sie das Gefecht"
+
+msgid "pm4_11_3_20_description_win"
+msgstr "Zerstören Sie alle gegnerischen Fahrzeuge / erobern oder verteidigen Sie die Basis"
+
+msgid "pm4_11_3_20_short"
+msgstr "Unterstützung-20"
+
+msgid "pm4_11_3_20_title_assist"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_20_title_stunNumber"
+msgstr "Betäubung"
+
+msgid "pm4_11_3_20_title_win"
+msgstr "Gewinnen Sie ein Gefecht"
+
+msgid "pm4_11_3_21"
+msgstr "Unterstützung-21"
+
+msgid "pm4_11_3_21_description_alive"
+msgstr "Überleben Sie das Gefecht"
+
+msgid "pm4_11_3_21_description_damageAndAssist"
+msgstr "Verursachen Sie insgesamt %(goal)s Schadenspunkte (inklusive ermöglichter Schaden)"
+
+msgid "pm4_11_3_21_short"
+msgstr "Unterstützung-21"
+
+msgid "pm4_11_3_21_title_alive"
+msgstr "Überleben"
+
+msgid "pm4_11_3_21_title_damageAndAssist"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_3_2_description_kills"
+msgstr "Zerstören Sie einen gegnerischen leichten Panzer"
+
+msgid "pm4_11_3_2_description_stunTime"
+msgstr "Betäuben Sie gegnerische Fahrzeuge für insgesamt %(goal)s Sekunden (potenzielle Betäubungsdauer)"
+
+msgid "pm4_11_3_2_short"
+msgstr "Unterstützung-2"
+
+msgid "pm4_11_3_2_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_2_title_stunTime"
+msgstr "Betäubung"
+
+msgid "pm4_11_3_3"
+msgstr "Unterstützung-3"
+
+msgid "pm4_11_3_3_description_assistedHits"
+msgstr "Ermöglichen Sie Ihren Verbündeten, Schaden an %(goal)s gegnerischen Fahrzeugen zu verursachen, indem Sie diese aufklären, bewegungsunfähig machen oder betäuben"
+
+msgid "pm4_11_3_3_short"
+msgstr "Unterstützung-3"
+
+msgid "pm4_11_3_3_title_assistedHits"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_4"
+msgstr "Unterstützung-4"
+
+msgid "pm4_11_3_4_description_alive"
+msgstr "Überleben Sie das Gefecht"
+
+msgid "pm4_11_3_4_description_spotNumber"
+msgstr "Klären Sie %(goal)s gegnerische Fahrzeuge auf und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_4_description_stunNumber"
+msgstr "Betäuben Sie %(goal)s Mal %(stunSeveralTargets)s gegnerische Fahrzeuge mit einem einzelnen Schuss und überleben Sie das Gefecht"
+
+msgid "pm4_11_3_4_short"
+msgstr "Unterstützung-4"
+
+msgid "pm4_11_3_4_title_alive"
+msgstr "Überleben"
+
+msgid "pm4_11_3_4_title_spotNumber"
+msgstr "Aufklären"
+
+msgid "pm4_11_3_4_title_stunNumber"
+msgstr "Betäubung"
+
+msgid "pm4_11_3_5"
+msgstr "Unterstützung-5"
+
+msgid "pm4_11_3_5_description_medal"
+msgstr "Erhalten Sie ein Überlegenheitsabzeichen der II. Klasse oder besser"
+
+msgid "pm4_11_3_5_short"
+msgstr "Unterstützung-5"
+
+msgid "pm4_11_3_5_title_medal"
+msgstr "Überlegenheitsabzeichen"
+
+msgid "pm4_11_3_6"
+msgstr "Unterstützung-6"
+
+msgid "pm4_11_3_6_description_damageAndAssist"
+msgstr "Verursachen Sie insgesamt %(goal)s Schadenspunkte (inklusive ermöglichter Schaden)"
+
+msgid "pm4_11_3_6_short"
+msgstr "Unterstützung-6"
+
+msgid "pm4_11_3_6_title_damageAndAssist"
+msgstr "Komplexe Bedingung"
+
+msgid "pm4_11_3_7"
+msgstr "Unterstützung-7"
+
+msgid "pm4_11_3_7_description_assist"
+msgstr "Ermöglichen Sie Ihren Verbündeten, %(goal)s Schadenspunkte an gegnerischen Fahrzeugen zu verursachen, indem Sie diese aufklären, betäuben oder bewegungsunfähig machen"
+
+msgid "pm4_11_3_7_description_kills"
+msgstr "Zerstören Sie eine gegnerische SFL"
+
+msgid "pm4_11_3_7_short"
+msgstr "Unterstützung-7"
+
+msgid "pm4_11_3_7_title_assist"
+msgstr "Unterstützung"
+
+msgid "pm4_11_3_7_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_8"
+msgstr "Unterstützung-8"
+
+msgid "pm4_11_3_8_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge"
+
+msgid "pm4_11_3_8_short"
+msgstr "Unterstützung-8"
+
+msgid "pm4_11_3_8_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_9"
+msgstr "Unterstützung-9"
+
+msgid "pm4_11_3_9_description_kills"
+msgstr "Zerstören Sie %(goal)s gegnerische Fahrzeuge aus höchstens %(distanceShortOrEqual)s m Distanz"
+
+msgid "pm4_11_3_9_description_stunNumber"
+msgstr "Betäuben Sie %(goal)s Mal gegnerische mittlere Panzer oder Jagdpanzer"
+
+msgid "pm4_11_3_9_short"
+msgstr "Unterstützung-9"
+
+msgid "pm4_11_3_9_title_kills"
+msgstr "Zerstören"
+
+msgid "pm4_11_3_9_title_stunNumber"
+msgstr "Betäubung"
+
 msgid "quest/advice/biathlon/description"
 msgstr "Für jeden Auftrag dieses Typs steht nur eine begrenzte Anzahl Versuche zur Verfügung, die angegebene Bedingung zu erfüllen."
 
@@ -10345,6 +11317,9 @@ msgstr "Zweite Front"
 msgid "season_3"
 msgstr "Sektor 3"
 
+msgid "season_4"
+msgstr "Sektor 3"
+
 msgid "tile_1"
 msgstr "StuG IV"
 
@@ -10353,6 +11328,12 @@ msgstr "Black Rock"
 
 msgid "tile_10_descr"
 msgstr "Eine Reihe von Aufträgen für alle Fahrzeugtypen, um den amerikanischen schweren Panzer Black Rock zu erhalten."
+
+msgid "tile_11"
+msgstr "Fossa"
+
+msgid "tile_11_descr"
+msgstr "Eine Reihe von Aufträgen für alle Fahrzeugtypen, um den deutschen mittleren Panzer Fossa VM 68 zu bekommen."
 
 msgid "tile_1_descr"
 msgstr "Eine Reihe von Aufträgen für alle Fahrzeugtypen, um den deutschen Jagdpanzer StuG IV zu erhalten."

@@ -880,6 +880,12 @@ msgstr "Rozšíření tankových pásů 3. třídy"
 msgid "gun_balancing_1/name"
 msgstr "Vyvážení děla (typ 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Vyvážení děla (typ 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Úprava hlavně zbraně (typ 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Vylepšený podvozek (typ 1)"
 msgid "improved_suspension_2/name"
 msgstr "Vylepšený podvozek (typ 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Vylepšený pohon věže (typ 1)"
+
 msgid "inspire/longDescr"
 msgstr "Zlepšuje výkon posádky vozidla a všech jeho spojenců v určitém okruhu a přidává % bonus k hlavní kvalifikaci každého člena posádky. Hráč, který ho použije, obdrží vylepšený efekt."
 
@@ -1294,6 +1303,9 @@ msgstr "Systém zvýšení pohyblivosti Ú3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Systém zvýšení pohyblivosti Ú3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Tlumič úsťového plamene (typ 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Po dobu %(consumeSeconds)s s dočasně zvyšuje výkon motoru vašeho vozidla o %(enginePowerFactor)s a jeho maximální rychlost %(maxSpeedFactor)s násobně."
 
@@ -1347,6 +1359,12 @@ msgstr "Během {colorTagOpen}%(delay)d s{colorTagClose} bude vybraná oblast na
 
 msgid "poi_artillery_aoe/name"
 msgstr "Dělostřelecký úder"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Po krátkém zpoždění osvětlí zvolenou oblast světlice. Nepřátelská vozidla, která se ocitnou v jejím dosahu, zůstanou odhalena a utrpí vyšší poškození.\nPozorovací stanoviště lze po několika minutách znovu obsadit."
+
+msgid "poi_illumination_flare/name"
+msgstr "Světlice"
 
 msgid "poi_radar/descr"
 msgstr "V době aktivování zůstanou všechna nepřátelská vozidla na{colorTagOpen}%(duration)d s{colorTagClose} odhalena."
@@ -1879,29 +1897,77 @@ msgstr "Odlehčená korba"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Odlehčená\nkorba"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflexní nátěr optiky"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflexní nátěr světlometů"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflexní\nnátěr optiky"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antireflexní\nnátěr světlometů"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Externí sledovací systém"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrický pohon periskopu"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Externí\nsledovací systém"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrický pohon\nperiskopu"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramatický triplex"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramatický\ntriplex"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramatický triplex"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Úzkoúhlé pozorovací zařízení"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Úzkoúhlé\npozorovací zařízení"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nová ozubená kola zaměřovače"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nová ozubená kola zaměřovače"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrický pohon periskopu"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrický pohon\nperiskopu"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Obecné zvýšení odolnosti"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Obecné\nzvýšení odolnosti"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflexní nátěr světlometů"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antireflexní\nnátěr světlometů"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Vyladění ejektoru"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Vyladění ejektoru"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Přepojení napájecího zdroje"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Přepojení\nnapájecího zdroje"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Vylepšené drážkování hlavně"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Vylepšené\ndrážkování hlavně"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Citlivá optika"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Citlivá optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Zesílená primární konstrukce"
@@ -2424,6 +2490,9 @@ msgstr "Elektrický výboj"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Vytváří oblast, ve které udeří s vysokou frekvencí série %(thunderCount)s elektrických výbojů. Každý výboj způsobuje {whiteSpanish_Open}%(damage)s bodů poškození{whiteSpanish_Close} a v oblasti účinku schopnosti snižuje pohyblivost vozidla.\n\n*Mezi aktivací této schopnosti a prvním výbojem je prodleva %(delay)s s. Negativní účinek lze odstranit pomocí sady nářadí."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Výměna torzních tyčí (typ 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Na %(duration)s s vytváří oblast, která všem nepřátelským vozidlům uvnitř oblasti snižuje parametry pohyblivosti o %(vehicleMaxSpeed)s a zpomaluje nabíjení a zaměřování děla o %(gunReloadTime)s."

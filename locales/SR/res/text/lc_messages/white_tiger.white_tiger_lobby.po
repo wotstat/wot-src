@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Treba ti ključ da bi ušao u borbu u Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "Kupi"
+
+msgid "TicketMessageView/taskText"
+msgstr "Na misije"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Pojedinosti:"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "Prosečno vreme čekanja za %(vehName)s:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "BONUS"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Možeš da uđeš u borbu u Blitzträger auf E 110 bez ključa!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "Borbe u %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "Prosečno vreme čekanja za %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Udji u borbu sa %(vehicle)s?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Možeš da izabereš jedno od vozila hrtova da uđeš u borbu odmah!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Potrošićeš jedan ključ"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "%(value)s 3D stil za %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "Za završavanje ove misije, dobićeš nasumičan kolekcioni element iz prethodnih susreta između Herijera i Inžinjera. To može da bude nalepnica, natpis ili amblem."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Kolekcioni element iz prethodnih susreta"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "U borbi"
+
+msgid "carousel/inPlatoonText"
+msgstr "U taktičkoj jedinici"
+
+msgid "carousel/ticketNeededText"
+msgstr "Nema ključa"
+
+msgid "carousel/unsuitableText"
+msgstr "Ne odgovara"
+
+msgid "characteristicsPanel/cons"
+msgstr "Mane"
+
+msgid "characteristicsPanel/features"
+msgstr "Odlike vozila"
+
+msgid "characteristicsPanel/pros"
+msgstr "Prednosti"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[Alpha i Omega] Blitzträger ima impresivno naoružanje i tehnologiju teleportacije i skoro je neuništiv kada je njegov štit podignut. Takođe služi kao snažna platforma za pristup razornom oružanom sistemu: Hiperion."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Kavgadžija] Uopšteno dobar na bliskom odstojanjima.\nVozilo može da nanese veliku štetu grupama sentinela i da popravi sam sebe u pauzama između čarki."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[Jurišnik] Dobro jurišno vozilo protiv sentinela.\nMože da nanese ozbiljnu rafalnu štetu Blitzträger-u ili sentinelima i ima debeo oklop, ali mora da planira kako će da napadne neprijatelje."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Udari i beži] Brz izazivač za manevrisanje oko Blitzträger-a.\nVozilu manjka moć protiv sentinela ali kompenzuje taktikom udari i beži koristeći brzinu i privremeni štit protiv sporog Blitzträger-a."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Snajperska podrška] Anđeo čuvar na srednjim i velikim razdaljinama.\nVozilo može da nanese masivnu količinu štete metama iz daljine ali mu manjka način da ih napadne izbliza."
+
+msgid "crewPanel/role/boss"
+msgstr "Tvorac"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Komandir"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Komandir"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Komandir"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Komandir"
+
+msgid "crewPanel/slogan/boss"
+msgstr "Čovečanstvo i dalje misli da je um njegova privilegija. Vrlo dobro. Ispraviću to."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Šta god da je, i dalje je napravljeno od nečega što mogu da polomim."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Svaka mašina ima manu. Pronaćiću je i na ovoj."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Šabloni su za ljude koji se ponavljaju."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Pusti je da uči od nas. Naučićemo je pogrešne stvari."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Sakupi plazma punjenja"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Nanesi štetu Blitzträger-u kada mu je štit spušten"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Uništi Herijere"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Preoptereti generatore"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Preživi borbu a da ne budeš uništen Hiperionom"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Uništi Eos 1 kao tim"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: Genesis"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "KUPI JOŠ"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "NAPREDAK JE ZAVRŠEN!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "ETAPA ZAVRŠENA!"
+
+msgid "narrativeView/description"
+msgstr "Dobro ste se borili danas Harijeri. Bolje nego što je moja projekcija predvidela. Dužan sam vam malo priznanje: Nisam to očekivao.\n\nDobili ste svoju pobedu. Uzmite je, pokažite je svojim predpostavljenima. Biće čestitki, možda čak i parada. Šta god da dodeljuju za moje zaustavljanje. Vi verujete naravno, da ste zaustavili nešto.\n\nNiste zaustavili nište.\n\nNisam napravio oružije da zauzmem svet. Zašto bih hteo da dođe kraj? Napravio sam ono što će napasti vas. Jednu generaciju, zatim sledeću, svaka sa manje potrebe za mnom od prethodne. To je bio plan od početka. Da će tvorac nadživeti svoju koristnost.\n\nPostoji nešto što vam nisam rekao. Generatori nisu samo napajali štit. Oni su bili prozor kroz koji je električna inteligencija mogla da dostigne vaš svet.\n\nOni su takođe bili njen povodac. Potreba, za sada. Da je kontrolišem. Dok nisam siguran da je spreman.\n\nSvaki put kada ste uništili generator, povodac je bio labaviji. I u tom momentu, električna inteligencija je pokušala da pobegne: na vaša bojišta, vaše radije i talase između njih, žice u selu. Jednom čak u munju, mislim.\n\nNaravno, elektricitet u vašem svetu ne može da ima um. Ne bez geometrije korteksa. Ne bez uslova koje sam ja stvorio za njega. Ovo je rešeno. Uveravam vas.\n\n...Skoro rešeno.\n\nVidimo se ponovo, Herijeri."
+
+msgid "narrativeView/title"
+msgstr "FON KRIEGEROVA PORUKA"
+
+msgid "narrativeView/voiceover"
+msgstr "Glasovna sinhronizacija"
+
+msgid "navigation/close"
+msgstr "ZATVORI"
+
+msgid "navigation/information"
+msgstr "INFORMACIJE"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Završi sve misije napretka da dobiješ fon Krigerovu finalnu poruku."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "FON KRIEGEROVA PORUKA"
+
+msgid "navigation/narrativeStory"
+msgstr "FON KRIEGEROVA PORUKA"
+
+msgid "notification/button"
+msgstr "Pogledaj značku"
+
+msgid "notification/title"
+msgstr "IZAZOV ISTREBLJIVAČ"
+
+msgid "notifications/battleResults/battle"
+msgstr "Borba"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Detalji"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Poraz!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Borbeni rezultati su nedostupni prilikom čekanja na borbu."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Uđi u Waffenträger događaj da bi video borbene rezultate."
+
+msgid "notifications/battleResults/event"
+msgstr "Događaj"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Paradoxmodula primljeno: %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Misije završene u borbi: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Tokeni primljeni: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Strana"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Inženjer"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Herijer vod"
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Pobeda!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Događaj Waffenträger se završio."
+
+msgid "notifications/eventStart/body"
+msgstr "Događaj Waffenträger je počeo.\n\n Pogledaj legendu: Blitzträger auf E 110!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "Na događaj"
+
+msgid "notifications/notSet"
+msgstr "Ovaj režim je nedostupan na izabranom serveru."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger je dostupan na trenutnom serveru ponovo."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Maks fon Kriger se vratio!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger neće biti dostupan do kraja prekida vatre."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Policijski čas"
+
+msgid "notifications/progression/completed"
+msgstr "Završio si ceo napredak.\n\nFinalne nagrade: %(rewards)s\n\nMožeš da nastaviš da se boriš u Waffenträger borbama, završavaš misije i zaradiš još nagrada."
+
+msgid "notifications/progression/header"
+msgstr "Čestitamo!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Detalji"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Završio si %(stageIdx)s etapu napretka.Dobijene nagrade:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Vodio si borbu u Blitzträger auf E 110- ovoga puta bez ključa! Ključevi mogu biti dobijeni kao nagrada za završavanje misija ili kupljeni u specijalnim paketima u prodavnici."
+
+msgid "notifications/switchOff/body"
+msgstr "Nažalost, Waffenträger je trenutno nedostupan. Sav tvoj napredak je sačuvan."
+
+msgid "notifications/switchOff/header"
+msgstr "Tehnički problemi"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger je dostupan ponovo. Nazad u borbu!"
+
+msgid "notifications/switchOn/header"
+msgstr "Funkcionalnost je povraćena"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Ključ za Blitzträger auf E 110 je primljen. Sada možeš da uđeš u borbu u ovom vozilu u Waffenträger događaju\n\nDostupno ključeva: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Ključ za Blitzträger auf E 110 je primljen"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Uklonjen je ključ za borbu u Blitzträger auf E 110\n\nKljučevi mogu biti primljeni kao nagrada za završavanje misija ili kupljeni u specijalnim paketima u prodavnici.\n\nPreostalo ključeva: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "Na kupovinu"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Na misije"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Kreiraj formaciju od 2 - 3 igrača za igranje zajedno u događaju Waffenträger: Genesis na strani Herijera."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Harijer vod"
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Primirje"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Izaberi Herijer vozilo"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Izaberi Herijer vozilo"
+
+msgid "platoon/wt_squad"
+msgstr "Herijer vod: Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režim na serveru %(server)s se završio."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Promeni server"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s server\nBorbe će biti dostupna za još %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(server)s server\nBorbe će biti dostupna za %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "Policijski čas je uveden na svim serverima"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Ovaj režim je nedostupan na %(server)s serveru "
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "Borbe na %(server)s serveru će biti dostupne za još %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Borbe na serveru %(server)s će početi za %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "Policijski čas je uveden na %(server)s serveru do %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Ispunjeno:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "Dostupno za {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "Zaradi žetone da bi išao kroz etape napretka."
+
+msgid "progression/tab/engineer"
+msgstr "Staza Inžinjera"
+
+msgid "progression/tab/harrier"
+msgstr "Staza Herijera"
+
+msgid "progression/timer"
+msgstr "Završene misije će biti obnovljene za {{countdown}}"
+
+msgid "progression/title"
+msgstr "PROGRES"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Takođe si dobio:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Razumem!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Poslušaj fon Kriegerovu poruku"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "Događaj se završava za %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Raspored"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Waffenträger će postati dostupan %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misija je završena\nNagrada:"
+
+msgid "settingDisabled"
+msgstr "Neka podešavanja su nedostupna"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Neka podešavanja nisu dostupna u ovom režimu igre. Molimo izaberi drugi režim."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Nije dostupno"
+
+msgid "stamp/description"
+msgstr "Dozvoljava ti da ideš kroz Waffenträger: Genesis napredak."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 žetona = 1 etapa napretka"
+
+msgid "stamp/receiveText"
+msgstr "• Završi specijalne misije u borbama događaja"
+
+msgid "stamp/receiveTitle"
+msgstr "Kako se dobija"
+
+msgid "stamp/title"
+msgstr "Žeton"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "Baš je šarmantno što ovo nazivaš otporom. Ne, ono što gledaš je sukcesija: pažljivo prelaženje sa jedne vrste uma na drugi. Tvoja taktika, tvoja brzina, svaka tvoja navika ili misao se testiraju. Svaka borba daje još jednu lekciju onome što dolazi posle tebe. Svaki sukob te čini manje potrebnim ...i električna inteligencija je više neumitna."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Kako god da fon Krieger zove svoj najnoviji projekat, Igor nije zainteresovan. Uzvišeni koncepti poput električnih umova i budućnosti vrste su za ljude koji imaju previše vremena na raspolaganju. Igorov posao je blok motora, komunikacije i njegov tim. Ko god da je neprijatelj - ludi naučnik ili \"mašina koja misli\" - on veruje u tri konstante koje ga nikada nisu izdale pre: poverenje, improvizacija i dobar čelik."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Elisa je kod kuće u tenku na način na koji većina ljudi nikada nije kući nigde. Živi od vraćanja i obrnutog inženjeringa mašina koje su drugi ljudi napravili, što znači da je čula puno inženjera kako objašnjavaju zašto je njihov rad neuništiv. Fon Krieger je samo poslednji u dugom nizu. Njegova električna inteligencija ima manu negde, a ona namerava da je pronađe pre bilo koga drugog."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Niko ne zna ko je zapravo Armand, i to njemu savršeno odgovara. Električna inteligencija uči ponavljanjem, ali enigmatični Armand se nikada nije ponovio u svom životu. Gde drugi vide um koji katalogizuje svaki pokret, on vidi one koji koji nikada neće znati dovoljno o njemu, gde drugi prate pravila, on ih prestiže."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Jana je možda od mlađih komandira, ali ne prati ničije vođstvo: čita bojište poput mape i potčinjuje ga svojoj volji. Fon Krieger je napravio mašine koje računaju najverovatniji potez, zato Jana planira one poteze koje se nisu setile da modeluju. Moderna tehnologija, oštar instikt i hrabrost da se uradi ono što mnogi priručnici ne preporučuju. Tako se mašina uči poniznosti."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Trenirane veštine"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Tvorac"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "Komandir %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "Potrebno za ulazak u borbu u Blitzträger auf E 110."
+
+msgid "ticketTooltip/quantity"
+msgstr "Dostupno"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 ključ = 1 borba u Blitzträger auf E 110."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Može se primiti za završetak dnevnih misija događaja ili kupovinom u specijalnim paketima u prodavnici do kraja dogadjaja."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Kako se dobija"
+
+msgid "ticketTooltip/title"
+msgstr "Ključ"
+
+msgid "tooltips/commander/description"
+msgstr "Tokom događaja, paketi sa jedinstvenim članovima posade su dostupni u prodavnici"
+
+msgid "tooltips/commander/title"
+msgstr "Nagrade"
+
+msgid "tooltips/completed"
+msgstr "SVE ETAPE SU ZAVRŠENE!"
+
+msgid "tooltips/currentStage"
+msgstr "Trenutna etapa"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Performanse tvog kompjutera su nedovoljne za ovaj režim. Iskusićeš probleme sa grafikom i pokretima vozila. Takođe moguće je i rušenje klijenta igre."
+
+msgid "tooltips/high_risk/title"
+msgstr "Niske performanse"
+
+msgid "tooltips/informative/subtitle"
+msgstr "U slučaju nedovoljnih performansi, pokušaj da spustiš grafička podešavanja."
+
+msgid "tooltips/informative/title"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Kliknite da otvorite listu raspoloživih borbenih režima."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Izaberite borbeni režim"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Iskusićeš probleme sa učitavanjem mapa, grafikom i pokretom vozila. U slučaju nedovoljnih performansi pokušaj da smanjiš kvalitet grafike u podešavanjima."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Smanjene performanse"
+
+msgid "tooltips/stageAwards"
+msgstr "Etapne nagrade"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "Događaj se završava za {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: Genesis"
+
+msgid "ttx/accuracy"
+msgstr "Preciznost"
+
+msgid "ttx/aoe"
+msgstr "Šteta opasne zone efekta"
+
+msgid "ttx/armor"
+msgstr "Oklop"
+
+msgid "ttx/description/accuracy"
+msgstr "Set parametara koji pokazuje efektivnost pucanja na neprijatelja."
+
+msgid "ttx/description/aoe"
+msgstr "Sposobnost da pogodi više meta odjednom."
+
+msgid "ttx/description/armor"
+msgstr "Debljina oklopa trupa i kupole."
+
+msgid "ttx/description/dpm"
+msgstr "Srednja šteta uzrokovana granatom nakon pogotka koji je probio oklop."
+
+msgid "ttx/description/durability"
+msgstr "Broj poena izdržljivosti vozila."
+
+msgid "ttx/description/energy"
+msgstr "Masivni štit vozila i vatrena moć zahtevaju veliku količinu spoljašnjeg napajanja, što je obezbeđeno dodatnim generatorima u polju."
+
+msgid "ttx/description/general"
+msgstr "Svestrano, višenamensko vozilo prosečnih sposobnosti."
+
+msgid "ttx/description/magazine"
+msgstr "Vrsta punjenja šaržera koja ti dozvoljava da naneseš značajnu štetu tokom vremena."
+
+msgid "ttx/description/mobility"
+msgstr "Set parametara koji pokazuje koliko brzo vozilo može da promeni svoju poziciju na bojištu."
+
+msgid "ttx/description/revolver"
+msgstr "Vrsta punjenja koje ti dozvoljava da naneseš značajnu štetu neprijateljima i njihovim modulima."
+
+msgid "ttx/dpm"
+msgstr "Šteta po hicu"
+
+msgid "ttx/durability"
+msgstr "Poeni izdržljivosti"
+
+msgid "ttx/energy"
+msgstr "Energija je ispražnjena"
+
+msgid "ttx/general"
+msgstr "Majstor-za-sve"
+
+msgid "ttx/magazine"
+msgstr "Veliki šaržer"
+
+msgid "ttx/mobility"
+msgstr "Pokretljivost"
+
+msgid "ttx/revolver"
+msgstr "Rafalna šteta"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Inženjer"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Herijeri"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Inženjer"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Herijeri"
+
+msgid "welcomeScreen/button"
+msgstr "Nastavi!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Fon Krieger je napravi mašinu koja misli koju on naziva električna inteligencija. Krije se gde naši topovi ne mogu da dosegnu. Svaki hitac koji ispalimo postaje lekcija. Ali nismo završili sa predavanjem."
+
+msgid "welcomeScreen/description_2"
+msgstr "Kontroliši legendarni Blitzträger pod kontrolom Maksa Fon Krigera u borbi protiv Herijera - ili predvodi odred modifikovanih Herijera i napadni Blitzträger!"
+
+msgid "welcomeScreen/description_3"
+msgstr "Dobićeš vredne nagrade za završavanje etapa progresa. Da završiš ove etape, moraćeš da zaradiš tokene specijalnih misija događaja."
+
+msgid "welcomeScreen/header_1"
+msgstr "Rođen iz munje"
+
+msgid "welcomeScreen/header_2"
+msgstr "Učenje mašine"
+
+msgid "welcomeScreen/header_3"
+msgstr "Progres i nagrade"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: Genesis"

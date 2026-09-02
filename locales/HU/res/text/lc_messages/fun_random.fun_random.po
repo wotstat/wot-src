@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "A Neon száguldás egy egyedülálló, korlátozott ideig elérhető esemény, amely újszerű élményt kínál! Versenyezz, törj utat a veszedelmes pályákon, teljesítsd a küldetéseket, és zsebeld be a jutalmakat!"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+msgstr "A számítógéped teljesítménye nem elégséges ehhez a módhoz. Problémákat fogsz tapasztalni a grafikában és a jármű mozgásában. Előfordulhat, hogy a játékkliens összeomlik."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Csökkentett teljesítmény lehetséges"
+msgstr "Alacsony teljesítmény"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, valamint a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Csökkentett teljesítmény lehetséges"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Összes szint"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód nagy teljesítményű számítógépet igényel. Az FPS-érték intenzív harcok során csökkenhet."
+msgstr "A számítógéped teljesítménye nem elégséges ehhez a módhoz. Problémákat fogsz tapasztalni a grafikában és a jármű mozgásában. Előfordulhat, hogy a játékkliens összeomlik."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "Alacsony teljesítmény"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "%(icon) Alacsony teljesítmény"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. A játékmód nagy teljesítményű számítógépet igényel. Az FPS-érték intenzív harcok során csökkenhet."
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, valamint a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "Csökkentett teljesítmény lehetséges"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "%(icon) Csökkentett teljesítmény lehetséges"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Új Neon száguldás küldetés válik elérhetővé ekkor:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Gratulálunk!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Végtelen utólagos előrehaladás"
+msgstr "Megismételhető szakasz"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
 msgstr "Teljesítetted a fő előrehaladást"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Ezt a szakaszt annyiszor teljesítheted, ahányszor csak tudod."
+msgstr "Szerezz annyi jutalmat, amennyit csak tudsz:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Összegyűjtött pontok: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Megismételhető"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "A teljesítésért:"
+msgstr "A teljesítésért"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Vereségért:"
+msgstr "Vereségért"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Győzelemért:"
+msgstr "Győzelemért"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Pontok:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Egyelőre minden elérhető küldetést teljesítettél. A következő körben újabbak jelennek meg."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+msgstr "Lejár {{timeLeft}} múlva"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Ennyi ideig érhető el: {{timeLeft}}"
+msgstr "Az esemény {{timeLeft}} múlva véget ér"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Az új küldetésekig hátralévő idő: {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Kerüld ki a lézereket, és gondosan időzítsd az ugrásokat, hogy cé
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Vigyázat: lézerek és ugrások"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Ha a járműved elakad, használd a „Visszatérés az ellenőrzőpontra” képességet, hogy visszateleportálj az utolsó elért ellenőrzőpontra."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Visszatérés az ellenőrzőpontra"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "gombot a játékmód részletes leírásának megtekintéséhez"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Törj utat magadnak\na célvonalhoz!"
+msgstr "Törj utat magadnak a célvonalhoz"
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Összes szint"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és más problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. Ez a játékmód nagy teljesítményt igényel, és az FPS-érték intenzív pillanatokban csökkenhet."
+msgstr "A számítógéped teljesítménye nem elégséges ehhez a módhoz. Problémákat fogsz tapasztalni a grafikában és a jármű mozgásában. Előfordulhat, hogy a játékkliens összeomlik."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "Alacsony teljesítmény"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "%(icon) Alacsony teljesítmény"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Alacsony grafikai beállítások esetén vizuális anomáliákat és más problémákat tapasztalhatsz. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás használatát, amennyiben a számítógéped teljesítménye megfelel a követelményeknek. Ez a játékmód nagy teljesítményű számítógépet igényel. Az FPS-értéked intenzív pillanatokban csökkenhet."
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, valamint a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "Csökkentett teljesítmény lehetséges"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+msgstr "%(icon) Csökkentett teljesítmény lehetséges"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neon száguldás"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Versenyezz, és verekedd át magad a veszélyes pályákon, teljesíts küldetéseket, és szerezz jutalmakat!"
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neon száguldás"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neon száguldás"

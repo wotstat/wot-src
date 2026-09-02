@@ -28,6 +28,30 @@ msgstr "MOTTATTE BELØNNINGER"
 msgid "awardViews/footer/backButton/"
 msgstr "Bekreftet!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} gjenværende"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Ingen gjenåpninger"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Verdifull belønning"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Gjenåpne gratis"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Ikke nok sedler"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Gjenåpne for {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Gjenåpne"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Verdifulle belønninger som er sluppet kvalifiserer ikke for gjenåpning."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Direktiv"
 
@@ -118,6 +142,18 @@ msgstr "Antall åpnede esker: %(count)"
 msgid "common/statsButton"
 msgstr "Statistikk"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Avbryt"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Esken blir åpnet på nytt for muligheten til å få andre belønninger."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Gjenåpne"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Gjenåpne for {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Avbryt"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Eventet avsluttes om %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Dersom du ikke åpner alle eskene før eventet er ferdig, blir de automatisk åpnet senere."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Dersom du ikke åpner esker før eventet er over, blir de åpnet automatisk."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i eskene, vil alle påfølgende kjøretøy du får fra eskene bli kompensert med gull tilsvarende deres fulle verdi."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Hver %(guaranteed0)s. eske garanteres å inneholde et kjøretøy på nivå 8–10. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy på nivå 8–10 som du ikke har fra før bli sluppet når du åpner den %(guaranteed0)s&zwnbsp;. esken (avhengig av type eske). Når den så slipper et kjøretøy, nullstilles telleren."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Hver %(guaranteed)s. eske garanteres å inneholde et kjøretøy på nivå 8–10. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet vil et kjøretøy på nivå 8–10 som du ikke har fra før bli sluppet når du åpner den %(guaranteed)s&zwnbsp;. esken (avhengig av type eske). Når den så slipper et kjøretøy, nullstilles telleren."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Hvis du ikke er fornøyd med belønningene fra en eske kan du gjenåpne den for en sjanse til å få andre enheter fra den samme listen. Hver eske kan bare gjenåpnes et begrenset antall ganger:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Autoåpne"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompensasjon"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantert belønning"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Gjenåpning"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Se liste over enheter på nettsidene"
@@ -273,6 +315,30 @@ msgstr "til %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D stilen %(style)"
+
+msgid "reroll/free"
+msgstr "Gratis"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finansiell overføring"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Credits fratrukket: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Sedler fratrukket: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Dato: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Gull fratrukket: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "\"%(eventName)s\" eventet er avsluttet."
@@ -480,3 +546,15 @@ msgstr "Kompenserte kjøretøy: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompensasjon for kjøretøyet som allerede er i garasjen din."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Gjenåpning"
+
+msgid "tooltip/reroll/price"
+msgstr "Pris"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Gjenåpning av en eske gir deg en sjanse til å få andre belønninger fra den samme listen."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Gjenåpning"

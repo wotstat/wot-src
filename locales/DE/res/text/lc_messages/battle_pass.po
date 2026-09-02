@@ -229,23 +229,14 @@ msgstr "zum Kauf:"
 msgid "battlePassBuyView/descr"
 msgstr "Mit dem Kauf einer Fortschrittsstufe erhalten Sie sofort alle Belohnungen der jeweiligen Stufe."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Diese Belohnungen erhalten Sie, wenn Sie die kommenden Stufen abgeschlossen haben."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Die folgenden Belohnungen erhalten Sie für die Stufen %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Sie erhalten sofort die folgenden Belohnungen."
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Die folgenden Belohnungen erhalten Sie für Stufe %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "WIRD FREIGESCHALTET"
+msgstr "Freischalten in noch nicht abgeschlossenen Stufen"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "WIRD SOFORT ERHALTEN"
+msgstr "Direkt erhalten"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktivieren Sie das Kapitel des Battle Pass"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitestufen"
 
-msgid "chapter/fullName/201"
-msgstr "Zeit unter Dünen"
+msgid "chapter/fullName/211"
+msgstr "Spezialist"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Stuntman"
 
-msgid "chapter/fullName/203"
-msgstr "Wüstenkommando"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoiker"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ZEIT UNTER DÜNEN"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPEZIALIST"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "STUNTMAN"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "WÜSTENKOMMANDO"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIKER"
 
 msgid "chapter/title"
 msgstr "KAPITEL „%(chapter)s“"
@@ -471,6 +456,9 @@ msgstr "Auftrag für 3× Besatzungs-EP"
 
 msgid "equipCoinBonus"
 msgstr "Komponenten: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Satz mit 3D-Aufsätzen"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Kommandant"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Verfügbar, nachdem alle Kapitel abgeschlossen sind. Abgeschlossene Kapitel: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Holen Sie sich ein Premiumfahrzeug und exklusive Anpassungselemente."
+msgstr "Gehen Sie es an und sichern Sie sich exklusive Belohnungen und einzigartige Anpassungselemente."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Der Battle Pass „Far Cry“ ist da!"
+msgstr "Das besondere Kapitel ist da!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Mehr Belohnungen mit dem verbesserten Pass!"
@@ -1114,11 +1102,8 @@ msgstr "Abschnitt %(level)d der Elitestufen"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "Erfahrung für jedes Besatzungsmitglied des ausgewählten %(nation)s Fahrzeugs"
 
-msgid "rewardChoice/subTitle"
-msgstr "WÄHLEN SIE IHRE BELOHNUNG"
-
 msgid "rewardChoice/title"
-msgstr "BATTLE PASS"
+msgstr "Wählen Sie Ihre Belohnungen"
 
 msgid "rewardChoice/titleChapter"
 msgstr "BATTLE PASS: KAPITEL „%(chapter)s“"
@@ -1129,14 +1114,14 @@ msgstr "BATTLE PASS: KAPITEL „%(chapter)s“, STUFE %(level)s"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Suche im Sand"
+msgid "season/fullName/21"
+msgstr "Festgesetzt"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "SUCHE IM SAND"
+msgid "season/fullNameUppercased/21"
+msgstr "FESTGESETZT"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Wählbare Direktiven"

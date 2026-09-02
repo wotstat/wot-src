@@ -10,7 +10,9 @@
   height: 32rem;
 }
 .ChatButton_base__glow_e84e99cd {
-  box-shadow: 0 0 12rem rgba(241, 210, 183, 0.5), 0 0 3rem #e5b285;
+  box-shadow:
+    0 0 12rem rgba(241, 210, 183, 0.5),
+    0 0 3rem #e5b285;
 }
 
 .ChatButton_overlay_d0e16554 {
@@ -45,7 +47,8 @@
   width: 10rem;
   height: 11rem;
   margin-left: 4rem;
-  background: url(R.images.gui.maps.icons.header_footer.chat_carousel.close) center/contain no-repeat;
+  background: url(R.images.gui.maps.icons.header_footer.chat_carousel.close) center/contain
+    no-repeat;
   opacity: 0.8;
   transition: opacity 0.1s;
 }
@@ -57,13 +60,14 @@
 }
 
 @keyframes ChatButton_blink_1daa9390 {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
     opacity: 0;
   }
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScrollControlButtons_bd2f5f8c {
   display: flex;
@@ -110,7 +114,8 @@
 .ScrollControlButtons_arrowButton_dd11fcee::after {
   width: 18rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.header_footer.chat_carousel.arrow_small) center/contain no-repeat;
+  background: url(R.images.gui.maps.icons.header_footer.chat_carousel.arrow_small) center/contain
+    no-repeat;
   content: "";
   position: absolute;
   top: 0;
@@ -128,7 +133,7 @@
 }
 .ScrollControlButtons_arrowButton_dd11fcee.ScrollControlButtons_arrowButton__right_22c9e28b::after {
   transform: rotate(180deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChatCarousel_545467f0 {
   display: flex;
@@ -169,7 +174,7 @@
 .mediaMediumWidth .ChatCarousel_divider_312a4ca4 {
   height: 30rem;
   margin-left: 16rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChatChannels_c801bb1d {
   display: flex;
@@ -187,7 +192,7 @@
 }
 .ChatChannels_c801bb1d:active .ChatChannels_icon_a3ff928f {
   opacity: 0.5;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Contacts_51abbb46 {
   display: flex;
@@ -214,7 +219,7 @@
   margin-left: 4rem;
   color: var(--color-general-secondary);
   font-weight: 500;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Ping_da5c25be {
   display: flex;
@@ -255,7 +260,7 @@
 }
 .Ping_base__protanopia_7471c73e .Ping_indicatorBar__weak_8e4c0bd9 {
   background-color: #5f5fff;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ReferralProgram_valueContainer_a1a1e336 {
   min-width: 13rem;
@@ -311,7 +316,7 @@
 
 .ReferralProgram_notifications_d09a7c8a {
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SessionStatistic_2cb87b7d {
   display: flex;
@@ -341,7 +346,7 @@
   padding-left: 4rem;
   color: var(--color-general-secondary);
   font-weight: 500;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleCompare_cff2d129 {
   display: flex;
@@ -368,7 +373,7 @@
   line-height: 1.3em;
   color: var(--color-general-secondary);
   font-weight: 500;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Footer_valueContainer_f6f9da36 {
   min-width: 13rem;
@@ -454,7 +459,7 @@
 
 .Footer_vehicleCompare_531bca52 {
   margin-right: 12rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .App_cabb9f2f {
   display: flex;
@@ -481,5 +486,6 @@
   padding-bottom: 20rem;
 }
 .App_footer__oldStyle_ed955e9f {
-  background: url(R.images.gui.maps.icons.header_footer.old_background_pattern) repeat center/contain;
+  background: url(R.images.gui.maps.icons.header_footer.old_background_pattern) repeat
+    center/contain;
 }

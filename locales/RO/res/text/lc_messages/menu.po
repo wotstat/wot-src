@@ -826,6 +826,9 @@ msgstr "Stiluri 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Principale"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Iscoadă"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Țintaș"
 
@@ -834,9 +837,6 @@ msgstr "Asistență"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Versatil"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Cu roți"
 
 msgid "centerIsAvailable"
 msgstr "Toate serverele au redevenit disponibile."
@@ -4159,6 +4159,9 @@ msgstr "Sistem îmbunătățit de autoreîncărcare:\nReduce timpul standard de 
 msgid "moduleInfo/autoShootGun"
 msgstr "Tun cu sistem de foc continuu"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Acest vehicul este echipat cu un lansator de rachete montat în mantaua tunului. Activează abilitatea de a comuta la vizorul armei secundare, apoi lansează o rachetă HE neghidată cu butonul de tragere."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Închide"
 
@@ -4312,6 +4315,9 @@ msgstr "Timp de pregătire"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "la calificările majore și talentele echipajului"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Șansa de lovituri critice"
+
 msgid "moduleInfo/params/damage"
 msgstr "Daune"
 
@@ -4342,11 +4348,29 @@ msgstr "Probabilitatea de incendiu la impact"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Timp de impact"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Provoacă mereu daune dacă blindajul principal este lovit"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* distanța maximă de zbor a unui proiectil tras cu acest tun"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " nu depinde de distanță pentru acest tip de proiectil"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", distanța maximă de zbor - 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " acest tip de proiectil începe să piardă din puterea de penetrare cu distanța după ce traversează primul ecran"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " depinde de distanță: %(minDist)s-%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " acest tip de proiectil penetrează ecrane ca de obicei, însă pierde apoi din puterea de penetrare, cu o valoare de trei ori mai mare decât grosimea blindajului de tip ecran"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Viteza maximă"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Provoacă mereu daune dacă blindajul principal este lovit"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Greutate"
@@ -4378,20 +4402,11 @@ msgstr "Puncte de integritate"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Distanța de tragere"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* distanța maximă de zbor a unui proiectil tras cu acest tun"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Unghiul maxim de bracaj al roții"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Daune medii la %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " nu depinde de distanță pentru acest tip de proiectil"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", distanța maximă de zbor - 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Unghiul de normalizare"
@@ -4399,14 +4414,8 @@ msgstr "Unghiul de normalizare"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Pierderea de penetrare"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " acest tip de proiectil începe să piardă din puterea de penetrare cu distanța după ce traversează primul ecran"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " depinde de distanță: %(minDist)s-%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Penetrare medie (mm)-Distanță"
@@ -4456,9 +4465,6 @@ msgstr "Viteză de rotație"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplicatorul blindajului spațiat"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " acest tip de proiectil penetrează ecrane ca de obicei, însă pierde apoi din puterea de penetrare, cu o valoare de trei ori mai mare decât grosimea blindajului de tip ecran"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Propulsare post-combustie cu inducție care crește daunele medii"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Racheto-accelerarea crește mobilitatea vehiculului"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Acceleratoare cu combustibil solid care cresc accelerația, mobilitatea și manevrabilitatea"
@@ -5284,11 +5293,14 @@ msgstr "Vehicule cu tunuri perfecte, a căror utilizare eficientă necesită ade
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Tancuri multirol care se pot adapta ușor oricărei situații de luptă."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Vehicule rapide și manevrabile care pot efectua observații și provoca daune prin manevre de învăluire."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Tancurile ușoare de recunoaștere sunt vehicule mici și agile, construite pentru a descoperi inamicii. Siluetele lor joase și camuflajul puternic, precum și manevrabilitatea excelentă și viteza maximă ridicată, le fac pricepute atât la recunoașterea pasivă, cât și la cea activă, dar durabilitatea slabă și puterea de foc redusă le împiedică să le ofere aliaților asistență de foc substanțială."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vehicule cu caracteristici dinamice uimitoare, a căror utilizare depinde de hartă sau situația tactică."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Tancurile ușoare de asistență își folosesc mobilitatea ridicată, manevrabilitatea excelentă și tunurile puternice pentru a schimba rapid flancurile și a provoca daune semnificative înainte de a se retrage în siguranță. Deși pot efectua recunoaștere în anumite situații, dimensiunea lor mare și camuflajul slab le fac mai puțin eficiente ca cercetași decât alte tancuri ușoare."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Tancurile ușoare versatile sunt vehicule bine echilibrate, capabile atât de recunoaștere, cât și de a oferi asistență de foc aliaților. Deși sunt mai puțin eficiente la recunoaștere decât cercetașii și au mai puțină putere de foc decât tancurile ușoare de asistență, profilurile echilibrate ale acestor tancuri le permit să îndeplinească ambele roluri cu succes și să se adapteze ușor la o gamă largă de situații de luptă."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vehicule cu blindaj decent, potrivite pentru lupta de aproape sau rezistență împotriva tancurilor grele inamice."
@@ -5329,11 +5341,14 @@ msgstr "Tanc greu de asistență"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Tanc greu versatil"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Tanc uşor de recunoaștere"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Tanc uşor de asistență"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Tanc uşor versatil"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Tanc uşor cu roți"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Tanc mediu de asalt"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Reîncarcare"
 msgid "tank_params/autoShootClipSec"
 msgstr "(casetă/cantitate)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Încărcare accelerată a proiectilelor"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Refacerea încărcăturii la caseta plină"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Refacerea de bază a încărcăturii"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Încărcături la începutul luptei"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Încărcături"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Daune medii (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersia la 100m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Penetrare medie (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Refacerea (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Viteza rachetei (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Medie daune"
 
@@ -6057,6 +6105,21 @@ msgstr "Container cu proiectile"
 
 msgid "tank_params/burstSec"
 msgstr "(s/cantitate/cantitate)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Daune medii (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Viteza maximă (mod EAF) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Cadenţă de tragere (lovituri/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Activarea modului EAF (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Deactivarea modului EAF (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Pregătire salvă"
@@ -6150,6 +6213,12 @@ msgstr "Puterea motorului (hp) (modul Turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Raza daunelor"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Viteza maximă (mod EAF) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Activarea modului EAF (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Timpul de răcire a tunului după foc"
@@ -6325,9 +6394,6 @@ msgstr "Capacitate de traversare teren"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Încărcătura Telemetrului electromagnetic de coincidență (% per s) (modul de angajament, pasiv)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(per activare)"
 
@@ -6484,8 +6550,20 @@ msgstr "Încărcarea armamentului auxiliar"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Proiectilele armamentului auxiliar"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Daunele medii ajustate ale proiectilului (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Penetrarea medie ajustată a proiectilului (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Încărcarea curelei cu muniție"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Durata de schimbare a modurilor"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Penetrare:"
@@ -6495,6 +6573,36 @@ msgstr "Dispersie la 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Viteză a obuzului"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Camuflajul inamicilor în spatele vegetației (staționari și în mișcare)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Camuflajul inamicilor în mișcare"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Timp de pregătire"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Durata"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Timp de pregătire"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Viteza de rotație a turelei"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Lățimea finală a scanării"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Lățimea inițială a scanării"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Durata auto-descoperirii"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Raza vizuală"
 
 msgid "tank_params/speedLimits"
 msgstr "Viteză maximă / viteză marșarier"

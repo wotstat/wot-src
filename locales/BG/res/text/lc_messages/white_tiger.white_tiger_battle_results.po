@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ЗАТВОРИ"
+
+msgid "continueBtn"
+msgstr "Продължи"
+
+msgid "economy/double/credits"
+msgstr "Танковият премиум акаунт увеличава количеството спечелени кредити с %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "Танковият премиум акаунт повишава печеленото количество боен опит с %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "Танковият премиум акаунт повишава количеството спечелен опит на екипажа с %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "Танковият премиум акаунт повишава печеленото количество боен опит с %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "Танковият премиум акаунт повишава печеленото количество боен и свободен опит с %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Превземане на генератор"
+
+msgid "efficiency/damageAssisted"
+msgstr "Помощ за поражения"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Зашемети"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Спрени поражения"
+
+msgid "efficiency/damageDealt"
+msgstr "Поражения"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Защита на генератор"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Унищожен"
+
+msgid "efficiency/spotted"
+msgstr "Откриване"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Превземане на генератор"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Участие в унищожение"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Зашемети"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Използване на броня"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Поражения"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Защита на генератор"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Врагът е унищожен"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Откриване"
+
+msgid "finish"
+msgstr "Битката приключи:"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Трябва да се приложи към последната битка със същата машина."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Бонусът не може да бъде приложен: ускореното обучение на екипажа е включено."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Бонусът не може да бъде приложен: ускореното обучение на екипажа е изключено."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Множителите могат да се прилагат само към победоносни битки."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Управляемият бонус не може да бъде приложен: екипажът не е открит."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Управляемият бонус не може да бъде приложен: машината не е открита."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Специална мисия. Етап: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Специална мисия"
+
+msgid "result/lose"
+msgstr "ЗАГУБА"
+
+msgid "result/tie"
+msgstr "РЕМИ"
+
+msgid "result/win"
+msgstr "ПОБЕДА"
+
+msgid "ribbon/applied"
+msgstr "Бонусът е приложен успешно"
+
+msgid "ribbon/errorState"
+msgstr "Грешка в приложението"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s бонус към опита"
+
+msgid "ribbon/timeLeft"
+msgstr "Подновяване на бонуса след:"
+
+msgid "ribbon/usesLeft"
+msgstr "Налични приложения: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "ЛИЧЕН РЕЗУЛТАТ"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Отборен резултат"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Играчи"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "ЛИЧЕН РЕЗУЛТАТ"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "Отборен резултат"
+
+msgid "sub_modes/undefined/team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "sub_modes/undefined/team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Играчи"

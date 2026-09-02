@@ -1116,7 +1116,8 @@ def parseCommandMessage(message, verifyArgs=True):
             LOG_ERROR(b'Can`t process arguments: command %s hasn`t argument processor. command ignored' % (cmd,))
             return (0, 0, b'', b'')
         return cmdProcessor.parseRawData(rawData, verifyArgs)
-    return
+    else:
+        return
 
 
 def verifyCommandData(command, int64Arg=0, int16arg=0, stringArg1=b'', stringArg2=b''):
@@ -1126,7 +1127,6 @@ def verifyCommandData(command, int64Arg=0, int16arg=0, stringArg1=b'', stringArg
         return False
     else:
         return cmdProcessor.verifyParsedData(int64Arg, int16arg, stringArg1, stringArg2)
-        return
 
 
 def isPermanentBan(banTime):
@@ -1220,7 +1220,6 @@ class UserBannedError(ChatError):
         else:
             return b'You are banned by user %s till %s. Reason: %s.' % (
              self.__banOwnerNick, self.__banEndTime, self.__banReason)
-            return
 
 
 class ChatBannedError(ChatError):
@@ -1238,7 +1237,6 @@ class ChatBannedError(ChatError):
             return b'You are banned till %s. Reason: %s.' % (self.__banEndTime, self.__banReason)
         else:
             return b'You are banned. Reason: %s.' % self.__banReason
-            return
 
 
 class ChatSQLError(ChatError):
@@ -1648,7 +1646,8 @@ SYS_MESSAGE_TYPE = Enumeration(b'systemMessageType', [
  459, 
  460, 
  461, 
- 462])
+ 462, 
+ 463])
 SYS_MESSAGE_IMPORTANCE = Enumeration(b'systemMessageImportance', [
  b'normal',
  b'high'])
@@ -1666,7 +1665,6 @@ def isMembersListSupported(channelInfo):
         return False
     else:
         return isMembersListSupportedByFlags(channelInfo.get(b'notifyFlags', 0))
-        return
 
 
 def isMembersListSupportedByFlags(channelNotifyFlags):

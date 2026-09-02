@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "ZAVŘÍT"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Potvrzuji!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Rozcvička vám připomene základy hry. Bitvy jsou hrány proti umělou inteligencí ovládaným vozidlům a výsledky se nezapočítávají do vašich statistik. Rozcvičku můžete kdykoliv opustit a pokračovat do náhodných bitev."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Rozcvička"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Splňte mise, dokončete fáze postupu Zpět v akci a získejte hodnotné herní odměny. Každá splněná standardní, prémiová či bonusová mise se počítá do odměny. Mise lze splnit v Rozcvičce nebo v náhodných bitvách."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Splňte mise, dokončete fáze postupu Zpět v akci a získejte hodnotné odměny. Během Battle Passu budou mezi odměny přidány body Battle Passu. Mise lze splnit v Rozcvičce nebo v náhodných bitvách."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Zpět v akci"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Jako odměnu můžete získat nájemní prémiová vozidla VIII. úrovně, vyzkoumatelná vozidla VI. úrovně a slevy na výzkum a nákup vozidel. Po dokončení postupu získáte hlavní odměnu."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Odměny"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ZPĚT V AKCI"
-
 msgid "mainRewardTooltip/description"
 msgstr "Po dokončení postupu Zpět v akci získáte:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Hlavní odměna"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Sleva na výzkum a nákup vozidla %(level)s. úrovně"
+msgstr "Sleva na výzkum a nákup vozidla {{level}}. úrovně"
 
 msgid "modeInfoTooltip/description"
 msgstr "Bitvy proti vozidlům ovládaným umělou inteligencí, které se nezapočítávají do vašich statistik. Abyste zvítězili, musíte obsadit nepřátelskou základnu, nebo zničit všechna nepřátelská vozidla. Bitvy probíhají ve formátu 15 proti 15 s vozidly VI.–XI. úrovně a ve formátu 10 proti 10 s vozidly I.–V. úrovně."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Rozcvička"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Lze vybrat jakékoliv vyzkoumatelné vozidlo %(level)s. úrovně. Vozidlo přichází s vyzkoumanými moduly, posádkou a stáním v garáži."
+msgstr "Lze vybrat jakékoliv vyzkoumatelné vozidlo {{level}}. úrovně. Vozidlo přichází s vyzkoumanými moduly, posádkou a stáním v garáži."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "vozidlo %(level)s. úrovně"
+msgstr "Vozidlo {{level}}. úrovně"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "%(researchDiscount)s sleva na vyzkoumání a %(purchaseDiscount)s sleva na zakoupení vozidla %(level)s. úrovně. Lze vybrat jakékoliv vyzkoumatelné vozidlo."
+msgstr "{{researchDiscount}} sleva na vyzkoumání a {{purchaseDiscount}} sleva na zakoupení vozidla {{level}}. úrovně. Lze vybrat jakékoliv vyzkoumatelné vozidlo."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Sleva na {whiteSpanish_Open}vyzkoumání{whiteSpanish_Close} je přidána ke slevě z fragmentů plánu vozidla. Je aplikována největší dostupná sleva na {whiteSpanish_Open}zakoupení{whiteSpanish_Close}."
+msgstr "Sleva na {{@ style (color $color)}}vyzkoumání{{/}} je přidána ke slevě z fragmentů plánu vozidla. Je aplikována největší dostupná sleva na {{@ style (color $color)}}zakoupení{{/}}."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Sleva na vozidlo %(level)s. úrovně"
+msgstr "Sleva na vozidlo {{level}}. úrovně"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Potvrzuji!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Rozcvička vám připomene základy hry. Bitvy jsou hrány proti umělou inteligencí ovládaným vozidlům a výsledky se nezapočítávají do vašich statistik. Rozcvičku můžete kdykoliv opustit a pokračovat do náhodných bitev."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Rozcvička"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Splňte mise, dokončete fáze postupu Zpět v akci a získejte hodnotné odměny. Během Battle Passu budou mezi odměny přidány body Battle Passu. Mise lze splnit v Rozcvičce nebo v náhodných bitvách."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Splňte mise, dokončete fáze postupu Zpět v akci a získejte hodnotné herní odměny. Každá splněná standardní, prémiová či bonusová mise se počítá do odměny. Mise lze splnit v Rozcvičce nebo v náhodných bitvách."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Zpět v akci"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Jako odměnu můžete získat nájemní prémiová vozidla VIII. úrovně, vyzkoumatelná vozidla VI. úrovně a slevy na výzkum a nákup vozidel. Po dokončení postupu získáte hlavní odměnu."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Odměny"
+
+msgid "umgIntroView/title"
+msgstr "ZPĚT V AKCI"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Sleva na %(research)s je přidána ke slevě z fragmentů plánu vozidla. Je aplikována největší dostupná sleva na %(purchase)s."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Opustit Rozcvičku?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Zbývá bitev: %(battlesCount)s"
+msgstr "Zbývá bitev: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Bitvy proti umělou inteligencí ovládaným vozidlům, které se nezapočítávají do vašich statistik."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Získali jste také:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s sleva na vyzkoumání a %(priceDiscount)s sleva na zakoupení vozidla %(level)s. úrovně"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} sleva na výzkum a {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} sleva na nákup vozidla {{level}}. úrovně"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "vozidla %(level)s. úrovně"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Vozidlo {{level}}. úrovně"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Sleva na vozidlo %(level)s. úrovně"
+msgstr "Sleva na vozidlo {{level}}. úrovně"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Za dokončení série denních misí"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "POSTUP DOKONČEN"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s sleva na vyzkoumání\n a %(priceDiscount)s sleva na zakoupení"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} sleva na výzkum a {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} sleva na nákup"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "V garáži"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Dny pronájmu: %(days)s"
+msgstr "Dní pronájmu: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Sleva na vyzkoumání a zakoupení"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "%(value)sx"
+msgstr "{{value}}×"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Vybrat později"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Vynulovat filtr"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Sleva na vozidlo"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Vozidlo %(vehicleLevel)s. úrovně"
+msgstr "Vozidla {{vehicleLevel}}. úrovně"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Potvrzuji!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Výběr odměn nelze otevřít"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Vyzkoumali jste všechna vozidla %(vehicleLevel)s. úrovně. Nyní jako odměnu můžete získat fragmenty národních plánů."
+msgstr "Vyzkoumali jste všechna vozidla {{vehicleLevel}}. úrovně. Nyní jako odměnu můžete získat fragmenty národních plánů."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Hledat podle názvu"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Zobrazeno:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Nastavit do výchozího stavu"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Vybrané odměny: %(amountRewards)s %(infoIcon)s"
+msgstr "Vybrané odměny: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Vyberte si odměny z odpovídajících kategorií"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nic nebylo nalezeno. Změňte nastavení filtru, nebo ho vynulujte."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}%(bluePrintsAmount)sx fragment národního plánu{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Národní fragmenty plánů{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% sleva na vyzkoumání a %(priceDiscount)s% sleva na zakoupení)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% slevna na výzkum a {{priceDiscount}}% sleva na nákup)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Sleva na vozidlo %(level)s. úrovně"
+msgstr "Sleva na vozidlo {{level}}. úrovně"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (vyzkoumané všechny moduly, posádka a stání v garáži)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (všechny vyzkoumané moduly, posádka a stání v garáži)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "vozidlo %(level)s. úrovně"
+msgstr "Vozidlo {{level}}. úrovně"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Pro získání vybraných odměn klikněte na tlačítko „Vyzvednout“."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Vybrané odměny: %(amountRewards)s"
+msgstr "Vybrané odměny: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Koupit"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "VYBERTE SI SVOU ODMĚNU"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "stíhač tanků"

@@ -229,23 +229,14 @@ msgstr "k zakoupení:"
 msgid "battlePassBuyView/descr"
 msgstr "Zakoupením fáze postupu okamžitě odemknete a získáte všechny odměny, které jsou v této fázi obsaženy."
 
-msgid "battlePassBuyView/reward/descriptionFutureRewards"
-msgstr "Tyto odměny vám budou uděleny po dokončení nadcházejících fází."
-
-msgid "battlePassBuyView/reward/descriptionNowRewards"
-msgstr "Budou vám uděleny následující odměny za fáze %(steps)s"
-
 msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
 msgstr "Okamžitě dostanete všechny následující odměny"
 
-msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
-msgstr "Budou vám uděleny následující odměny za fázi %(steps)s"
-
 msgid "battlePassBuyView/reward/titleFutureRewards"
-msgstr "BUDOU ODEMČENY"
+msgstr "Odemykání v nedokončených fázích"
 
 msgid "battlePassBuyView/reward/titleNowRewards"
-msgstr "BUDOU OBDRŽENY OKAMŽITĚ"
+msgstr "Okamžité získání"
 
 msgid "battlePassStatus/activateChapter"
 msgstr "Aktivovat kapitolu Battle Passu"
@@ -277,20 +268,17 @@ msgstr "Carmen de Bisonte"
 msgid "chapter/fullName/1114"
 msgstr "Carmen de Bisonte"
 
-msgid "chapter/fullName/200"
+msgid "chapter/fullName/210"
 msgstr "Elitní okruh"
 
-msgid "chapter/fullName/201"
-msgstr "Ztracený čas"
+msgid "chapter/fullName/211"
+msgstr "Specialista"
 
-msgid "chapter/fullName/202"
-msgstr "C'est Notre Destin"
+msgid "chapter/fullName/212"
+msgstr "Kaskadér"
 
-msgid "chapter/fullName/203"
-msgstr "Pouštní velení"
-
-msgid "chapter/fullName/205"
-msgstr "Far Cry"
+msgid "chapter/fullName/213"
+msgstr "Stoik"
 
 msgid "chapter/fullNameUppercased/10021"
 msgstr "CARMEN DE BISONTE"
@@ -298,17 +286,14 @@ msgstr "CARMEN DE BISONTE"
 msgid "chapter/fullNameUppercased/1114"
 msgstr "CARMEN DE BISONTE"
 
-msgid "chapter/fullNameUppercased/201"
-msgstr "ZTRACENÝ ČAS"
+msgid "chapter/fullNameUppercased/211"
+msgstr "SPECIALISTA"
 
-msgid "chapter/fullNameUppercased/202"
-msgstr "C'EST NOTRE DESTIN"
+msgid "chapter/fullNameUppercased/212"
+msgstr "KASKADÉR"
 
-msgid "chapter/fullNameUppercased/203"
-msgstr "POUŠTNÍ VELENÍ"
-
-msgid "chapter/fullNameUppercased/205"
-msgstr "FAR CRY"
+msgid "chapter/fullNameUppercased/213"
+msgstr "STOIK"
 
 msgid "chapter/title"
 msgstr "KAPITOLA „%(chapter)s“"
@@ -471,6 +456,9 @@ msgstr "Mise na 3× ZK posádky"
 
 msgid "equipCoinBonus"
 msgstr "Součásti: %(count)s"
+
+msgid "finalReward/attachmentsSet/title"
+msgstr "Sada 3D doplňků"
 
 msgid "finalReward/tankman/roles/commander"
 msgstr "Velitel"
@@ -779,10 +767,10 @@ msgid "postProgressionView/footer/description/text"
 msgstr "Dostupná po dokončení všech kapitol. Kapitol dokončeno: %(completedChapters)/%(chaptersAmount)"
 
 msgid "postProgressionView/footer/extraChapter/description/text"
-msgstr "Získejte prémiové vozidlo a exkluzivní prvky na úpravu vzhledu."
+msgstr "Honem do toho a získejte exkluzivní odměny a jedinečné prvky na úpravu vzhledu."
 
 msgid "postProgressionView/footer/extraChapter/title/text"
-msgstr "Battle Pass: Far Cry je tady!"
+msgstr "Je tu speciální kapitola!"
 
 msgid "postProgressionView/footer/purchaseIP/banner/text"
 msgstr "Kupte si Vylepšený Pass a získejte víc odměn!"
@@ -1114,11 +1102,8 @@ msgstr "%(level)d. fáze Elitního okruhu"
 msgid "rewardChoice/crewBook/rewardDescription"
 msgstr "zkušeností pro každého člena posádky ve vybraném vozidle národa %(nation)s"
 
-msgid "rewardChoice/subTitle"
-msgstr "VYBERTE SVOU ODMĚNU"
-
 msgid "rewardChoice/title"
-msgstr "BATTLE PASS"
+msgstr "Vyberte si své odměny"
 
 msgid "rewardChoice/titleChapter"
 msgstr "BATTLE PASS: KAPITOLA „%(chapter)s“"
@@ -1129,14 +1114,14 @@ msgstr "BATTLE PASS: KAPITOLA „%(chapter)s“, %(level)s. FÁZE"
 msgid "season/fullName/1002"
 msgstr "Carmen de Bisonte"
 
-msgid "season/fullName/20"
-msgstr "Hledání v písku"
+msgid "season/fullName/21"
+msgstr "Bezmoc"
 
 msgid "season/fullNameUppercased/1002"
 msgstr "CARMEN DE BISONTE"
 
-msgid "season/fullNameUppercased/20"
-msgstr "HLEDÁNÍ V PÍSKU"
+msgid "season/fullNameUppercased/21"
+msgstr "BEZMOC"
 
 msgid "selectBonus/battle_booster_gift"
 msgstr "Směrnice na výběr"

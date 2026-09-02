@@ -139,15 +139,6 @@ msgstr "Видано як подяку гравцям за їхній неоці
 msgid "15YearsOfService_descr"
 msgstr "Ви з нами з %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Резервне досягнення БП 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Нагорода за проходження прогресії."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Видають за певні успіхи в грі"
-
 msgid "BPReserveAchievement_2"
 msgstr "Резервне досягнення БП 2"
 
@@ -429,6 +420,15 @@ msgstr "• Видається після проходження всіх трь
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "За успіхи в межах XX сезону Бойової перепустки."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Сутичка в низовинах"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Видається після проходження всіх трьох глав."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "За успіхи в межах XXI сезону Бойової перепустки."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Основна частина прогресії складається з 45 етапів."
@@ -1828,6 +1828,48 @@ msgstr "Срібний Дракон"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Видається за здобуття щонайменше 9 прапорів Натиску в році Дракона в режимі «Натиск»."
 
+msgid "comp7_6_1"
+msgstr "Лазурна іскра"
+
+msgid "comp7_6_1_descr"
+msgstr "Нагорода за виконання ланцюжка завдань у сезоні Лазурного Фенікса режиму «Натиск»."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Бронзовий Фенікс"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Видається за здобуття щонайменше 6 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Чемпіон року Фенікса"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Видається за здобуття щонайменше 15 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Золотий Фенікс"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Видається за здобуття щонайменше 12 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Залізний Фенікс"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Видається за здобуття щонайменше 3 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Легенда року Фенікса"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Видається за здобуття щонайменше 18 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Срібний Фенікс"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Видається за здобуття щонайменше 9 прапорів Натиску в році Фенікса в режимі «Натиск»."
+
 msgid "conqueror"
 msgstr "«Завойовник %(rank)s»"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Видають лише у Випадкових боях."
 
 msgid "huntsman_descr"
-msgstr "Знищити всі легкі танки супротивника в одному бою, але щонайменше 3."
+msgstr "Знищити всі легкі танки супротивника в одному бою (щонайменше 2)."
 
 msgid "huntsman_heroInfo"
 msgstr "Григорій Миколайович Найдін — сержант, командир танка БТ-7, Герой Радянського Союзу. 25 червня 1941 р. біля містечка Рудішкяй (Литва) розгромив колону бронетехніки супротивника, знищивши 15 танків і 10 гармат передового загону 19-ї танкової дивізії Вермахту, затримавши цим наступ німців на дві доби, що дозволило ретельно організувати оборону Вільно."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Виконати з відзнакою 15 особистих бойових завдань Союзу. Нагорода: медаль «Зразкове виконання: Союз» III ступеня."
 
 msgid "readyForBattleAssault"
-msgstr "«Зразкове виконання: Авангард»"
+msgstr "Зразкове виконання: «Сектор 3», Авангард"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "За виконання всіх завдань Авангарду кампанії «Сектор 3»."
+msgstr "За виконання всіх завдань Авангарду в основних операціях кампанії «Сектор 3»."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Зразкове виконання: «Фосса», Авангард"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "За виконання всіх завдань Авангарду в операції «Фосса» кампанії «Сектор 3»."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Зразкове виконання: «Фосса», Засідка"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "За виконання всіх завдань Засідки в операції «Фосса» кампанії «Сектор 3»."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Зразкове виконання: «Фосса», Підтримка"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "За виконання всіх завдань Підтримки в операції «Фосса» кампанії «Сектор 3»."
 
 msgid "readyForBattleHT"
 msgstr "«Зразкове виконання: важкі танки»"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Виконати з відзнакою 15 особистих бойових завдань для САУ. Нагорода: медаль «Зразкове виконання: САУ» IV ступеня."
 
 msgid "readyForBattleSniper"
-msgstr "«Зразкове виконання: Засідка»"
+msgstr "Зразкове виконання: «Сектор 3», Засідка"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "За виконання всіх завдань Засідки кампанії «Сектор 3»."
+msgstr "За виконання всіх завдань Засідки в основних операціях кампанії «Сектор 3»."
 
 msgid "readyForBattleSupport"
-msgstr "«Зразкове виконання: Підтримка»"
+msgstr "Зразкове виконання: «Сектор 3», Підтримка"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "За виконання всіх завдань Підтримки кампанії «Сектор 3»."
+msgstr "За виконання всіх завдань Підтримки в основних операціях кампанії «Сектор 3»."
 
 msgid "reliableComrade"
 msgstr "«Надійний бойовий товариш»"
@@ -4692,6 +4761,15 @@ msgstr "Видають за завершення прогресії в режи
 
 msgid "wt2025progression_descr"
 msgstr "Завершіть прогресію режиму «Ваффентрагер»."
+
+msgid "wt2026progression"
+msgstr "Вершник бурі"
+
+msgid "wt2026progression_condition"
+msgstr "Видають за завершення прогресії в режимі «Ваффентрагер: Генезис 2026». Цією відзнакою нагороджують тих, хто протистояв першій розумній машині фон Крігера — Електричному Розуму — і зруйнував усі електричні стежки, якими вона проникала в наш світ."
+
+msgid "wt2026progression_descr"
+msgstr "Завершити прогресію в події «Ваффентрагер: Генезис 2026»."
 
 msgid "wtBossWins"
 msgstr "Володар блискавок"

@@ -6052,6 +6052,18 @@ msgstr "Anvisningen fungerar inte då du har nått gränsen på 6 förmågor per
 msgid "moduleFits/wrong_slot/body"
 msgstr "Modulen har redan monterats på en annan plats."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Chansen att åsamka fiendens moduler och/eller besättning kritisk skada."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Hur mycket granatens anslagsvinkel minskas när den träffar fiendens pansar."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Hur mycket genomslagsförmåga granaten tappar per 100 mm efter att den träffat ett yttre pansarskikt."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Vinkeln som får granaten att automatiskt rikoschettera av fiendens pansar."
+
 msgid "multiselection/alert/body"
 msgstr "Välj vagnar: du kan bara delta i striden med en komplett grupp."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Stridspass: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin kände de karga saltslätterna på sitt nuvarande uppdrag lika väl som baksidan av sin lika väderbitna hand. Han var ingen främling för instabila miljöer och hade gjort sig ett namn som specialist på försvar mot kemisk krigföring långt innan han någonsin satte sin fot i en stridsvagn. Tjugo år senare befann han sig bara några få dagars marsch från laboratorieanläggningen där han hade inlett sin militärtjänst som labbassistent. Tid och prövningar lämnar ingen man oskadd, men som Vadim brukade skämta med sin besättning hade ingen registrerat en officiell utskrivningsorder, så fram tills någon skrev under rätt formulär så var han här för att stanna."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "De lummiga dalarna där Bryn Powells växte upp var en helt annan värld än de hårda klimat han senare fick vänja sig vid. Hans senaste uppdragsgenomgång var anmärkningsvärt knapp på detaljer, och formuleringar som \"oidentifierat kemiskt ämne\" och \"extrem livsfara\" skulle få många befäl att be om förflyttning. Men Bryn såg alltid självbevarelsedrift som en beundransvärd egenskap andra människor besatt. Han var våghalsig av naturen och kunde ha haft en glänsande karriär som stuntman om han någonsin hade känt någon dragning åt det hållet. Sätt honom bakom spakarna i en stridsvagn, och skillnaden var försumbar."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora besatt ett orubbligt lugn. Som veteran från fredsbevarande uppdrag i instabila områden hade han lärt sig att behålla lugnet när trycket ökade. Oavsett om han gick på gränsen till utmattning efter en lång nattpatrull, eller tolkade alltmer oroande underrättelser om den okända substans som hans besättning hade skickats för att undersöka, sviktade hans fattning aldrig. Han höll moralen uppe med skämt som balanserade på gränsen mellan lättsinne och galghumor och vägrade ge upp glimten i ögat."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Ingenting undgick Sandrine Ousset. Hon var en dekorerad prickskytt innan hon rekryterades till ett hemligt pansarspaningsuppdrag, och hennes skarpa blick sträckte sig långt bortom gevärets kikarsikte. Visa henne ett bara ett fragment av fiendens underrättelser, så kunde hon dra slutsatser med en sådan träffsäkerhet att till och med hennes egen besättning till en början misstog hennes kusligt skarpa iakttagelseförmåga för klärvoajans. Under hennes befäl förblev hemligheter sällan begravda länge. Lyckligtvis för hennes team riktade hon sin mest obevekliga granskning mot källan till det okända reagens som de hade skickats för att undersöka."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Folk frågar alltid om jag känner Jack Reed. Innan jag svarar drar jag alltid ett djupt andetag och sluter ögonen en minut. Att vara hans befälhavare är ingen dans på rosor. Reed är en rebell som på något sätt lyckas följa order och hålla sig inom reglementet. Just nu sitter han fast i en kokhet stridsvagn. Men inom sig är han ute på vägen på sin motorcykel i full fart längs Route 66 med vinden i håret."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Kampanjen Sektion 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefan växte upp i en familj av bernesiska urmakare och fick ärva ett hantverk som krävde tystnad, tålamod och absolut kontroll. Men för honom kom dessa egenskaper att definiera en helt annan karriär. År 1940 gav brittisk underrättelsetjänst honom ett val: neutrala Schweiz på ena sidan av gränsen, han på den andra. I alppassen gick han från att bygga spionutrustning till prickskytt. Efter kriget fortsatte han det arbetet och jagade fiender som hade undkommit rättvisan under falska namn. Stefan arbetade alltid ensam, utan att lämna ett spår, och gör det fortfarande: ingen i Sektion 3 har någonsin sett hans ansikte."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Kampanjen Sektion 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—Standardgranat för kanonen. Används för att beräkna värd
 msgid "shell/basic/description/bold"
 msgstr "Standardgranat"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Vagnens externa ammunitionskassett låter dig använda granater med ökad skadeverkan."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Grund"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Ändrade:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "En spelmekanik som gör det möjligt att avfyra kanon i förtid med förändrade granategenskaper."
 
@@ -10866,6 +10932,21 @@ msgstr "Grundvärden:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Förändrade värden:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Tändrörsställdon ökar genomsnittlig skada eller genomslagsförmåga."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Inställda värden:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibrerad"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Visa/göm träffområde för fientlig artillerield på minikartan."
@@ -11028,6 +11109,12 @@ msgstr "Att sänka ljudkvaliteten kan förbättra spelets prestanda på långsam
 
 msgid "soundQualityOn/header"
 msgstr "Låg ljudkvalitet"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Den {{@ style (color #E9E2BF)}}genomsnittliga skadan{{/}} ökas efter en träff med genomslag."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "Den {{@ style (color #E9E2BF)}}genomsnittliga genomslagsförmågan{{/}} ökas efter en träff som inte slår igenom pansaret."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Besättningsmedlemmar i Premiumvagnar tränas 50% snabbare:"
@@ -11386,6 +11473,36 @@ msgstr "Förbättrad automatladdare minskar omladdningstiden för automatisk oml
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Tiden det tar från att den sista granaten i magasinet (eller båda kanonerna) avfyrats och att ett nytt magasin laddats. / Antal eldrör eller granater i magasinet."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Tiden ersätter återstående omladdningstid vid aktivering."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Tiden det tar att återställa en laddning när magasinet är fullt."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Tiden det tar att återställa en laddning när magasinet inte är fullt."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Antalet laddningar tillgängliga vid stridens början."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Högsta antalet laddningar för ökad omladdningstakt som kan hållas samtidigt."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Genomsnittlig skada åsamkad av en raket efter pansargenomslag. Skadepotentialen är +/-25% av angivet värde för skadeverkan."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Siktesspridningen anger det maximala avståndet en granat avviker från siktespunkten på ett avstånd av 100m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Genomsnittlig genomslagsförmåga för en raket efter normalisering. Värdet avviker +/-25% från angivet värde för genomslagsförmåga."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Hur lång tid det tar att ladda om raketvapnet"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Raketens flyghastighet."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Genomsnittlig skada åsamkad av en standardgranat efter pansargenomslag. Skadepotentialen är +/-25% av angivet värde för skadeverkan."
 
@@ -11406,6 +11523,21 @@ msgstr "Maximal varaktighet för raketmotorn vid aktivering."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Omladdningstid mellan granater i salvan. / Antal salvor i magasinet. / Antal granater i salvan."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Genomsnittlig skada åsamkad av en fulladdad granat efter pansargenomslag. Skadepotentialen är ±25% av angivet värde för skadeverkan."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Hur mycket topphastighet framåt vagnen förlorar när den externa ammunitionskassetten är aktiverad. Backhastigheten påverkas inte."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Hur mycket eldhastigheten minskas när den externa ammunitionskassetten är aktiverad."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minsta tid det tar att göra kanonen redo av avfyras efter aktivering den externa ammunitionskassetten. Du kan inte byta läge under den här tiden."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minsta tid det tar att göra kanonen redo av avfyras när du återgår till standardläget. Du kan inte byta läge under den här tiden."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Tiden för att förbereda de två pjäserna för samtidig eldgivning. / Fördröjning av omladdning efter en salva avfyrats."
@@ -11737,8 +11869,17 @@ msgstr "Tid det tag att ladda om förstärkningsvapen efter det avfyrats."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Antal granater tillgängliga för förstärkningsvapen vid varje aktivering."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Hur mycket skadan ökas efter en träff som slår igenom fiendens pansar."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Hur mycket genomslagsförmågan ökas efter en träff som inte slår igenom fiendens pansar."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Hur långt tid det tar att ladda granater i början av striden och att växla mellan olika granattyper."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Hur lång tid det tar att växla mellan kalibreringsläge och standardläget."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Siktesspridningen anger det maximala avstånd en granat avviker från siktespunkten på ett avstånd av 100m."
@@ -11748,6 +11889,36 @@ msgstr "Siktesspridningen anger det maximala avstånd en granat avviker från si
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Visar hur mycket en granat kan avvika från siktpunkten per 100 m till målet. Standardvärdet (första värdet) gäller för ett varmt eldrör, det bättre värdet (andra värdet) gäller för ett kallt eldrör."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Progressiv minskning i maskeringsförmågan för fiendevagnar dolda av vegetation inom avsökningsfältet för IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Progressiv minskning i maskeringsförmågan för fiendevagnar i rörelse inom avsökningsfältet för IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Hur lång tid det tar från stridens början tills IRST kan användas för första gången."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Hur lång tid första avsökningen med IRST tar."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Hur lång tid som krävs innan IRST kan aktiveras igen efter användning."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Hur mycket tornrotationen minskas när IRST är aktiv."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Bredden på avsökningsfältet för IRST i slutet av aktiveringen."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Bredden på avsökningsfältet för IRST i vid aktiveringen."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Tiden du själv förblir synlig när du upptäcker en dold fiende med IRST."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Progressiv ökning i siktsträckan inom avsökningsfältet för IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Vagnens hastighet i enlighet med dess tekniska specifikationer."

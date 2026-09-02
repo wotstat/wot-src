@@ -28,6 +28,30 @@ msgstr "RÉCOMPENSES REÇUES"
 msgid "awardViews/footer/backButton/"
 msgstr "Affirmatif !"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "{{count}} restantes"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Aucune réouverture"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Récompense précieuse"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Rouvrir gratuitement"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Pas assez d'obligations"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Rouvrir pour {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Rouvrir"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Les récompenses de valeur obtenues ne peuvent pas être reçues à nouveau."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Directive"
 
@@ -118,6 +142,18 @@ msgstr "Boîtes ouvertes : %(count)"
 msgid "common/statsButton"
 msgstr "Statistiques"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Annuler"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "La boîte sera rouverte pour tenter d'obtenir des récompenses différentes."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Rouvrir"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Rouvrir pour {{cost}} ?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Annuler"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s : %(count)s"
 msgid "homeView/subtitle"
 msgstr "L'évènement prendra fin dans %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Si vous n'ouvrez pas toutes les boîtes avant la fin de l'évènement, elles s'ouvriront automatiquement par la suite."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Si vous n'ouvrez pas les boîtes avant la fin de l'évènement, elles s'ouvriront automatiquement."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible de la boîte, alors tous les véhicules suivants reçus dans les boîtes feront l'objet d'une compensation en pièces d'or à hauteur de leur valeur totale."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Chaque %(guaranteed0)se Boîte contient assurément un véhicule de rangs VIII à X. Si vous en ouvrez une qui ne contient pas un tel véhicule, alors un véhicule de rangs VIII à X que vous ne possédez pas encore sera obtenu en ouvrant la %(guaranteed0)s&zwnbsp;e Boîte (en fonction du type de Boîte). Lorsque cela se produit, le compteur est réinitialisé."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Chaque %(guaranteed)se boîte contient assurément un véhicule de rangs VIII à X. Si vous en ouvrez une qui ne contient pas un tel véhicule, alors un véhicule de rangs VIII à X que vous ne possédez pas encore sera obtenu en ouvrant la %(guaranteed)s&zwnbsp;e boîte (en fonction du type de boîte). Lorsque cela se produit, le compteur est réinitialisé."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Si vous n'êtes pas satisfait des récompenses d'une boîte, vous pouvez la rouvrir pour avoir une chance de recevoir des objets différents de la même liste. Chaque boîte ne peut être rouverte qu'un nombre de fois limité :"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Ouverture automatique"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Compensation"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Récompense garantie"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Réouverture"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Voir la liste des objets sur le portail du jeu"
@@ -273,6 +315,30 @@ msgstr "pour le véhicule %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "style 3D %(style)"
+
+msgid "reroll/free"
+msgstr "Gratuit"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Transaction financière"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Crédits déduits : %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Obligations déduites : %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Date : %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Pièces d'or déduites : %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "L'évènement %(eventName)s est terminé"
@@ -480,3 +546,15 @@ msgstr "Véhicules compensés : %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Compensation pour un véhicule déjà présent dans votre garage."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Réouverture"
+
+msgid "tooltip/reroll/price"
+msgstr "Coût"
+
+msgid "tooltip/reroll/text/default"
+msgstr "La réouverture d'une boîte vous donne une chance de recevoir des récompenses différentes de la même liste."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Réouverture"

@@ -1,0 +1,170 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/allStagesAreCompleted"
+msgstr "Toutes les Étapes ont été accomplies !"
+
+msgid "bannerTooltip/description"
+msgstr "Le Blitzträger contre les Lévriers : combat asymétrique en 1 contre 6 à bord de véhicules modifiés. Gagnez des éléments de personnalisation uniques et d'autres récompenses précieuses."
+
+msgid "bannerTooltip/expiryDate/frozen"
+msgstr "Cessez-le-feu"
+
+msgid "bannerTooltip/expiryDate/inAnnouncement"
+msgstr "Le Waffenträger aura son plein d'énergie le"
+
+msgid "bannerTooltip/expiryDate/technicalPause"
+msgstr "Le mode n'est pas disponible pour le moment"
+
+msgid "bannerTooltip/header"
+msgstr "Waffenträger : Genèse"
+
+msgid "bannerTooltip/mode"
+msgstr "MODE"
+
+msgid "bannerTooltip/modeHint"
+msgstr "- passage à un autre mode"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Les performances de votre ordinateur sont insuffisantes pour ce mode. Vous allez subir des problèmes graphiques et de déplacement de votre véhicule. Des plantages du client du jeu sont également probables."
+
+msgid "bannerTooltip/performanceRisk/text/lowRisk"
+msgstr "En cas de performances insuffisantes, tentez de baisser les paramètres graphiques."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous allez subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Faibles performances"
+
+msgid "bannerTooltip/performanceRisk/title/lowRisk"
+msgstr "Ce mode est gourmand en ressources informatiques"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Performances réduites"
+
+msgid "bannerTooltip/year"
+msgstr "2026"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Vous êtes déjà amis."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "En attente de confirmation de la demande d'ajout aux amis."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Retirer ce joueur des ignorés."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Ajouter aux amis"
+
+msgid "battleResult/interaction/menu"
+msgstr "Cliquez pour ouvrir le menu d'interaction avec ce joueur."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Ajouter au peloton"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Joueur déjà dans le peloton."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitation déjà envoyée."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Seul le chef du peloton peut inviter des joueurs à rejoindre le peloton."
+
+msgid "dailyQuests/badgeStatus"
+msgstr "%(icon) Disponible jusqu'au %(date)s"
+
+msgid "dailyQuests/rewards"
+msgstr "Récompenses :"
+
+msgid "dailyQuests/status"
+msgstr "Nouvelle mission quotidienne dans %(icon) %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Sélectionnez un véhicule disponible pour entrer en bataille."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Les batailles dans le mode/difficulté sélectionné(e) sont temporairement indisponibles pour des raisons techniques."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Attendez que le peloton revienne de la bataille précédente pour en lancer une nouvelle."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Indisponible"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Niveau de difficulté incompatible pour le peloton."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Indisponible"
+
+msgid "metaWidget/body"
+msgstr "Cliquez pour voir tous les objectifs et récompenses de l'évènement."
+
+msgid "metaWidget/header"
+msgstr "Voie des récompenses"
+
+msgid "shopWidget/body"
+msgstr "Cliquez pour ouvrir une section spéciale du Magasin en jeu avec des lots de l'évènement exclusifs."
+
+msgid "shopWidget/header"
+msgstr "Clés du Waffenträger et plus"
+
+msgid "teamList/actions/body"
+msgstr "Actions rapides pour créer un peloton et ajouter / retirer des amis."
+
+msgid "teamList/actions/header"
+msgstr "Actions rapides"
+
+msgid "teamList/damage/body"
+msgstr "Classer par dégâts infligés."
+
+msgid "teamList/damage/header"
+msgstr "Dégâts infligés"
+
+msgid "teamList/keys/body"
+msgstr "Classer par Clés gagnées (la valeur affichée ne prend pas en compte les Clés bonus reçues en accomplissant la mission quotidienne correspondante)."
+
+msgid "teamList/keys/header"
+msgstr "Clés gagnées"
+
+msgid "teamList/kills/body"
+msgstr "Classer par véhicules ennemis détruits."
+
+msgid "teamList/kills/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "teamList/name/header"
+msgstr "Nom du joueur"
+
+msgid "teamList/place/body"
+msgstr "Classer par position dans l'équipe."
+
+msgid "teamList/place/header"
+msgstr "Position dans l'équipe"
+
+msgid "teamList/squad/header"
+msgstr "Un peloton est une unité tactique permettant aux joueurs de coopérer en bataille."
+
+msgid "teamList/vehicle/body"
+msgstr "Classer par type et nom des véhicules."
+
+msgid "teamList/vehicle/header"
+msgstr "Véhicules"
+
+msgid "vehicle/eventBonus"
+msgstr "Des Clés bonus sont disponibles en accomplissant une mission quotidienne à bord de ce véhicule"
+
+msgid "vehicle/lowEfficiency"
+msgstr "Faible efficacité de l'équipage"
+
+msgid "vehicle/rentState"
+msgstr "Verrouillé"

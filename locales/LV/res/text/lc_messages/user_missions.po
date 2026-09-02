@@ -382,11 +382,56 @@ msgstr "Iknedēļas misijas ir uzdevumu kopa, kas pieejama katru nedēļu. Progr
 msgid "info_page/main/weekly/title"
 msgstr "Iknedēļas Misijas"
 
+msgid "pm/missionState/active"
+msgstr "Uzsākta"
+
+msgid "pm/missionState/complete"
+msgstr "Misijas pabeigtas"
+
+msgid "pm/missionState/improve"
+msgstr "Rezultāta uzlabošana"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Mainīt tanku"
+
+msgid "pm/no_missions"
+msgstr "Jūsu izvēlētajam tankam nav aktīvu misiju."
+
+msgid "pm/tier"
+msgstr "Neatbilstošs līmenis"
+
+msgid "pm/unavailable"
+msgstr "Misija īslaicīgi nav pieejama."
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Jūsu izvēlētajam tankam nav aktīvu misiju. Lūdzu, izvēlieties citu tanku."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Šī misija tehnisku iemeslu dēļ īslaicīgi nav pieejama. Atvainojamies par sagādātajām neērtībām."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Jūsu izvēlētais tanks neatbilst aktīvo operāciju līmeņa prasībām. Lūdzu, izvēlieties citu tanku."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Nav aktīvu misiju"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Īslaicīgi nav pieejams"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Neatbilstošs līmenis"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Šodien visi parastie uzdevumi ir izpildīti."
 
 msgid "quests/daily_quests/completed"
 msgstr "Visas Ikdienas Misijas pabeigtas"
+
+msgid "slider/title/missions"
+msgstr "Regulārās misijas"
+
+msgid "slider/title/personalMissions"
+msgstr "Personīgās misijas"
 
 msgid "tooltip/common/timer"
 msgstr "Pieejams pēc {{timeLeft}}"

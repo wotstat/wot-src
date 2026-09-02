@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "LUKK"
+
+msgid "continueBtn"
+msgstr "Fortsett"
+
+msgid "economy/double/credits"
+msgstr "WoT premiumkonto øker mengde tjente credits med %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "WoT premiumkonto øker mengde tjente erfaringspoeng med %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT premiumkonto øker mengde tjent besetningserfaring med %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "WoT premiumkonto øker mengde tjente erfaringspoeng med %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT premiumkonto øker mengde tjente erfarings- og frie erfaringspoeng med %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Generatorerobring"
+
+msgid "efficiency/damageAssisted"
+msgstr "Assistert skade"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Sjokk"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Skade blokkert"
+
+msgid "efficiency/damageDealt"
+msgstr "Skade"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Generatorforsvar"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Bekjempet"
+
+msgid "efficiency/spotted"
+msgstr "Oppdagelse"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Generatorerobring"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Skade etter din oppdagelse"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Sjokk"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Bruk av pansring"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Skade"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Generatorforsvar"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Fiende bekjempet"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Oppdagelse"
+
+msgid "finish"
+msgstr "Kamp avsluttet:"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Må benyttes for den siste kampen i samme kjøretøy."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonus kan ikke gis: Aksellerert besetningstrening er skrudd på."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus kan ikke gis: Aksellerert besetningstrening er skrudd av."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Multiplikatorer kan kun benyttes i seierskamper."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Egenkontrollert bonus kan ikke benyttes: Besetning ikke funnet."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Egenkontrollert bonus kan ikke benyttes: Kjøretøy ikke funnet."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Spesialoppdrag. Trinn: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Spesialoppdrag"
+
+msgid "result/lose"
+msgstr "TAP"
+
+msgid "result/tie"
+msgstr "UAVGJORT"
+
+msgid "result/win"
+msgstr "SEIER"
+
+msgid "ribbon/applied"
+msgstr "Bonus ble lagt til"
+
+msgid "ribbon/errorState"
+msgstr "Iverksettelsesfeil"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s bonus på erfaringspoeng"
+
+msgid "ribbon/timeLeft"
+msgstr "Bonusfornyelse om:"
+
+msgid "ribbon/usesLeft"
+msgstr "Tilgjengelige iverksettelser: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "PERSONLIGE POENG"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Lagets poeng"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Spillere"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "PERSONLIGE POENG"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "Lagets poeng"
+
+msgid "sub_modes/undefined/team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "sub_modes/undefined/team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Spillere"

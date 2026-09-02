@@ -1009,6 +1009,9 @@ msgstr "Trening članova posade nije uspeo zbog greške servera. Pokušaj ponovo
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "trenutna igra je prekinuta. Tvoj Wargaming.net&nbsp;ID je upotrebljen za prijavu u World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Greška pri prijemu poklona: greška na serveru."
+msgstr "Greška pri otvaranju kutije: Greška na serveru."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Greška pri prijemu poklona. Molim sačekaj dok se prethodna operacija ne završi."
+msgstr "Greška pri otvaranju kutije: Molim sačekaj dok se prethodna operacija ne završi."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Akcija je trenutno nedostupna. Pokušaj ponovo kasnije."
@@ -2383,30 +2386,6 @@ msgstr "Jedinstvena kamuflaža za %(vehicleName)s primljena."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Jedinstvena kamuflaža za %(vehicleName)s je dostupna za sva vozila nacije: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Sav napredak u operaciji je sačuvan. Možeš da nastaviš kampanje bilo kada."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampanje %(campaignName1)s i %(campaignName2)s su pauzirane"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Pauzirane operacije i njihove misije su nastavljene."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampanje %(campaignName1)s i %(campaignName2)s su nastavljene"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Sav napredak u operaciji je sačuvan. Možeš da nastaviš kampanju bilo kada."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampanja %(campaignName)s je pauzirana"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Pauzirane operacije su nastavljene"
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampanja %(campaignName)s je nastavljena"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "%(detailName)s je uspešno montirana."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Greška pri prijemu nagrada. Molim pokušaj ponovo kasnije."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s je uspešno montirana."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Greška pri prijemu nagrada. Molim pokušaj ponovo kasnije."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "%(detail_name)s je uspešno montirana."
 
 msgid "personalMissions/reward/regular/server_error"

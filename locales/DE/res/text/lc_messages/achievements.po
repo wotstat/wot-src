@@ -139,15 +139,6 @@ msgstr "Verliehen an Spieler für ihren unbezahlbaren Beitrag zur Weiterentwickl
 msgid "15YearsOfService_descr"
 msgstr "Sie sind seit dem %(regDate)s im Spiel."
 
-msgid "BPReserveAchievement_1"
-msgstr "BP-Reserve-Erfolg 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Verliehen für den Abschluss des Fortschritts."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Verliehen für Ihre Erfolge im Spiel."
-
 msgid "BPReserveAchievement_2"
 msgstr "BP-Reserve-Erfolg 2"
 
@@ -429,6 +420,15 @@ msgstr "• Verliehen für den Abschluss aller drei Kapitel."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Verliehen für Ihre Erfolge in Saison XX des Battle Pass."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Scharmützel im Flachland"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Verliehen für den Abschluss aller drei Kapitel."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Verliehen für Ihre Erfolge in Saison XXI des Battle Pass."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Der Hauptfortschritt besteht aus 45 Stufen."
@@ -1828,6 +1828,48 @@ msgstr "Silberner Drache"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Verliehen für das Sammeln von mindestens 9 Ansturmfarben im Jahr des Drachen im Modus „Ansturm“."
 
+msgid "comp7_6_1"
+msgstr "Blauer Funken"
+
+msgid "comp7_6_1_descr"
+msgstr "Verliehen für den Abschluss einer Auftragsreihe in der Saison des blauen Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzener Phönix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Verliehen für das Sammeln von mindestens 6 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Meister des Jahres des Phönix"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Verliehen für das Sammeln von mindestens 15 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Goldener Phönix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Verliehen für das Sammeln von mindestens 12 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Eiserner Phönix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Verliehen für das Sammeln von mindestens 3 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legende des Jahres des Phönix"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Verliehen für das Sammeln von mindestens 18 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Silberner Phönix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Verliehen für das Sammeln von mindestens 9 Ansturmfarben im Jahr des Phönix im Modus „Ansturm“."
+
 msgid "conqueror"
 msgstr "Eroberer %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Nur in Zufallsgefechten verliehen."
 
 msgid "huntsman_descr"
-msgstr "Zerstören Sie alle gegnerischen leichten Panzer (mindestens 3) im Laufe eines Gefechts."
+msgstr "Zerstören Sie alle gegnerischen leichten Panzer (mindestens 2) im Laufe eines Gefechts."
 
 msgid "huntsman_heroInfo"
 msgstr "Sergeant Grigorij Najdin war Kommandant eines BT-7. Am 25. Juni zerstörte er nahe der litauischen Stadt Rudischkjaj eine gepanzerte Wehrmacht-Kolonne, zu der 15 Fahrzeuge und 10 Geschütze der 19. Panzergrenadierdivision gehörten. Najdin hielt den deutschen Vorstoß zwei Tage auf, was es den Verteidigern rund um Vilnius ermöglichte, sich zu organisieren. Najdin wurde aufgrund dieser Tat zum Held der Sowjetunion."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Schließen Sie 15 persönliche Aufträge für die Union ausgezeichnet ab. Belohnung: Medaille „Vorbildliche Leistung: Union“ III. Klasse."
 
 msgid "readyForBattleAssault"
-msgstr "Vorbildliche Leistung: Vorhut"
+msgstr "Vorbildliche Leistung: Sektor 3, Vorhut"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Für den Abschluss aller Aufträge vom Typ „Vorhut“ in der Kampagne „Sektor 3“."
+msgstr "Für den Abschluss aller Aufträge vom Typ „Vorhut“ im Hauptteil der Kampagne „Sektor 3“."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Vorbildliche Leistung: Fossa, Vorhut"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Für den Abschluss aller Aufträge vom Typ „Vorhut“ in der Operation Fossa der Kampagne „Sektor 3“."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Vorbildliche Leistung: Fossa, Hinterhalt"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Für den Abschluss aller Aufträge vom Typ „Hinterhalt“ in der Operation Fossa der Kampagne „Sektor 3“."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Vorbildliche Leistung: Fossa, Unterstützung"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Für den Abschluss aller Aufträge vom Typ „Unterstützung“ in der Operation Fossa der Kampagne „Sektor 3“."
 
 msgid "readyForBattleHT"
 msgstr "Vorbildliche Leistung: Schwere Panzer"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Schließen Sie 15 persönliche Aufträge für Selbstfahrlafetten ausgezeichnet ab. Belohnung: „Beispielhafte Leistung: Selbstfahrlafetten“, IV. Klasse."
 
 msgid "readyForBattleSniper"
-msgstr "Vorbildliche Leistung: Hinterhalt"
+msgstr "Vorbildliche Leistung: Sektor 3, Hinterhalt"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Für den Abschluss aller Aufträge vom Typ „Hinterhalt“ in der Kampagne „Sektor 3“."
+msgstr "Für den Abschluss aller Aufträge vom Typ „Hinterhalt“ im Hauptteil der Kampagne „Sektor 3“."
 
 msgid "readyForBattleSupport"
-msgstr "Vorbildliche Leistung: Unterstützung"
+msgstr "Vorbildliche Leistung: Sektor 3, Unterstützung"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Für den Abschluss aller Aufträge vom Typ „Unterstützung“ in der Kampagne „Sektor 3“."
+msgstr "Für den Abschluss aller Aufträge vom Typ „Unterstützung“ im Hauptteil der Kampagne „Sektor 3“."
 
 msgid "reliableComrade"
 msgstr "Kampfeskumpel"
@@ -4692,6 +4761,15 @@ msgstr "Verliehen für den Fortschritt im Event „Waffenträger: Paradox“. Di
 
 msgid "wt2025progression_descr"
 msgstr "Schließen Sie den Fortschritt des Modus „Waffenträger“ ab."
+
+msgid "wt2026progression"
+msgstr "Sturmreiter"
+
+msgid "wt2026progression_condition"
+msgstr "Verliehen für den Fortschritt im Event Waffenträger: Genesis 2026. Diese Ehre wird jenen gewährt, die sich von Kriegers denkender Maschine entgegengestellt haben, der Elektrischen Intelligenz, und jeden Schaltkreis zerschlugen, durch den sie in unsere Welt eindringen wollte."
+
+msgid "wt2026progression_descr"
+msgstr "Schließen Sie den Fortschritt in Waffenträger: Genesis 2026 ab."
 
 msgid "wtBossWins"
 msgstr "Blitzmeister"

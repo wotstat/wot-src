@@ -455,13 +455,13 @@ msgid "modes/fall_tanks/entryPoint/tooltip/description"
 msgstr "Neona Skrējiens ir unikāls, laika ierobežots pasākums, kas piedāvā kaut ko atšķirīgu! Sacensties un cīnies cauri bīstamiem maršrutiem, pildi misijas un nopelni balvas."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
-msgstr "Šis režīms prasa augstu datora veiktspēju. Jums var rasties problēmas ar kartes ielādi, grafiku un tanku kustību. Nepietiekamas veiktspējas gadījumā mēģiniet izvēlēties zemāku grafikas kvalitāti iestatījumos."
+msgstr "Jūsu datora veiktspēja šajā režīmā nav pietiekama. Jums radīsies problēmas ar grafiku un tanku kustību. Iespējama arī spēles klienta avārija."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
-msgstr "Iespējama Samazināta Veiktspēja"
+msgstr "Zema Veiktspēja"
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
-msgstr "Šis režīms prasa augstu datora veiktspēju. Jums var rasties problēmas ar kartes ielādi, grafiku un tanku kustību. Nepietiekamas veiktspējas gadījumā mēģiniet izvēlēties zemāku grafikas kvalitāti iestatījumos."
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
 
 msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
 msgstr "Iespējama Samazināta Veiktspēja"
@@ -506,22 +506,22 @@ msgid "modes/fall_tanks/mode_selector/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Visi līmeņi"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
-msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+msgstr "Jūsu datora veiktspēja šajā režīmā nav pietiekama. Jums radīsies problēmas ar grafiku un tanku kustību. Iespējama arī spēles klienta avārija."
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
-msgstr "Ieteicamie augstākie grafikas iestatījumi"
+msgstr "Zema Veiktspēja"
 
 msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
-msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+msgstr "%(icon) Zema Veiktspēja"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
-msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
-msgstr "Ieteicamie augstākie grafikas iestatījumi"
+msgstr "Iespējama Samazināta Veiktspēja"
 
 msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+msgstr "%(icon) Iespējama samazināta veiktspēja"
 
 msgid "modes/fall_tanks/mode_selector/progression/resettable"
 msgstr "Jauna Neona Skrējiena misija ir pieejama pēc:"
@@ -557,13 +557,13 @@ msgid "modes/fall_tanks/progression/infinite/congratulations"
 msgstr "Apsveicam!"
 
 msgid "modes/fall_tanks/progression/infinite/infinityStep"
-msgstr "Bezgalīgs progress"
+msgstr "Atkārtojama Stadija"
 
 msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
-msgstr "Jūs pabeidzāt galveno progresu."
+msgstr "Jūs pabeidzāt Galveno Progresiju"
 
 msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
-msgstr "Pabeidziet šo posmu tik reižu, cik vien iespējams."
+msgstr "Iegūsti pēc iespējas vairāk atlīdzību:"
 
 msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
 msgstr "Nopelnītie punkti: {{progressionSteps}}"
@@ -581,13 +581,13 @@ msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
 msgstr "Atkārtojams"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
-msgstr "Par pabeigšanu:"
+msgstr "Pabeigšanai"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
-msgstr "Par sakāvi:"
+msgstr "Par sakāvi"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
-msgstr "Par uzvaru:"
+msgstr "Par uzvaru"
 
 msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
 msgstr "Punkti:"
@@ -611,10 +611,10 @@ msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
 msgstr "Pagaidām jūs esat izpildījis visas pieejamās misijas. Nākamajā rotācijā parādīsies vēl citas."
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
-msgstr "Pieejams vēl {{timeLeft}}"
+msgstr "Beidzas pēc {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
-msgstr "Pieejams vēl {{timeLeft}}"
+msgstr "Pasākums beidzas pēc {{timeLeft}}"
 
 msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
 msgstr "Jaunas misijas būs pieejamas pēc {{timeLeft}}"
@@ -1195,6 +1195,12 @@ msgstr "Izvairies no lāzeriem un rūpīgi laiko lēcienus, lai ātri sasniegtu 
 msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
 msgstr "Uzmanību: Lāzeri un Lēcieni"
 
+msgid "sub_modes/fall_tanks/detailsHelp/page3/description"
+msgstr "Ja jūsu tanks iestrēgst, izmantojiet spēju \"Atgriezties pie kontrolpunkta\", lai teleportētos atpakaļ uz pēdējo sasniegto kontrolpunktu."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page3/title"
+msgstr "Atgriezties pie kontrolpunkta"
+
 msgid "sub_modes/fall_tanks/detailsHelpHint/description"
 msgstr "uzzināt vairāk par šo režīmu"
 
@@ -1208,37 +1214,37 @@ msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
 msgstr "15–30"
 
 msgid "sub_modes/fall_tanks/subModeCard/description"
-msgstr "Cīnies līdz\n finišam"
+msgstr "Cīnies līdz finiša līnijai."
 
 msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
 msgstr "{parSecondary_open}I{parSecondary_close} Visi līmeņi"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
-msgstr "Izmantojot zemos grafikas iestatījumus, var rasties vizuāli artefakti un citas problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko pieredzi, ja vien jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu veiktspēju, un FPS ātrums var samazināties intensīvos brīžos."
+msgstr "Jūsu datora veiktspēja šajā režīmā nav pietiekama. Jums radīsies problēmas ar grafiku un tanku kustību. Iespējama arī spēles klienta avārija."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
-msgstr "Ieteicamie augstākie grafikas iestatījumi"
+msgstr "Zema Veiktspēja"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
-msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+msgstr "%(icon) Zema Veiktspēja"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
-msgstr "Izmantojot zemos grafikas iestatījumus, var rasties vizuāli artefakti un citas problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko pieredzi, ja vien jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Jūsu FPS ātrums var samazināties intensīvos brīžos."
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
-msgstr "Ieteicamie augstākie grafikas iestatījumi"
+msgstr "Iespējama Samazināta Veiktspēja"
 
 msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
-msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+msgstr "%(icon) Iespējama samazināta veiktspēja"
 
 msgid "sub_modes/fall_tanks/subModeCard/title"
 msgstr "Neona Skrējiens"
 
 msgid "sub_modes/fall_tanks/tips/tip1/description"
-msgstr "?empty?"
+msgstr "Sacenties un cīnieties cauri bīstamiem maršrutiem, pildiet misijas un nopelniet balvas."
 
 msgid "sub_modes/fall_tanks/tips/tip1/title"
-msgstr "?empty?"
+msgstr "Neona Skrējiens"
 
 msgid "sub_modes/fall_tanks/userName"
 msgstr "Neona Skrējiens"

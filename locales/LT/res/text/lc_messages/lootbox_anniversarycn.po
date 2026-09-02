@@ -1,20 +1,17 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "#PluralForms"
-msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
-
 msgid "boxTooltip/description/text/bronze"
-msgstr "Atidarę šias dėžes galite gauti mašinų, žaidimo valiutų ir kitų vertingų apdovanojimų."
+msgstr "Atidarydami šias dėžes gausite VIII lygio Premium mašinų, žaidimo valiutų ir kitų vertingų prizų."
 
 msgid "boxTooltip/description/text/gold"
-msgstr "Atidarę šias dėžes galite gauti mašinų, žaidimo valiutų, pritaikomųjų elementų ir kitų vertingų apdovanojimų."
+msgstr "Atidarydami šias dėžes gausite retų X lygio mašinų, žaidimo valiutų ir kitų vertingų prizų."
 
 msgid "boxTooltip/description/text/silver"
-msgstr "Atidarę šias dėžes galite gauti mašinų, žaidimo valiutų, pritaikomųjų elementų ir kitų vertingų apdovanojimų."
+msgstr "Atidarydami šias dėžes gausite IX lygio Premium mašinų, žaidimo valiutų ir kitų vertingų prizų."
 
 msgid "boxTooltip/howGet/text/bronze"
-msgstr "Galima rasti žaidimo parduotuvėje arba gauti atidarant kito tipo dėžes."
+msgstr "Galima gauti dovanų perkant daiktus iš Premium parduotuvės ar atidarinėjant kitų tipų dėžes."
 
 msgid "boxTooltip/howGet/text/gold"
 msgstr "Galima gauti atidarant bet kurio kito tipo dėžę."
@@ -23,49 +20,67 @@ msgid "boxTooltip/howGet/text/silver"
 msgstr "Galima gauti atidarant bet kurio kito tipo dėžę."
 
 msgid "common/boxCategory/lowerCase/bronze"
-msgstr "Duoklės dėžė"
+msgstr "Dangiškoji dėžė"
 
 msgid "common/boxCategory/lowerCase/gold"
-msgstr "Dovanos dėžė"
+msgstr "Išrinktoji dėžė"
 
 msgid "common/boxCategory/lowerCase/silver"
-msgstr "Palaimos dėžė"
+msgstr "Rojaus pagalbos dėžė"
 
 msgid "common/boxCategory/upperCase/bronze"
-msgstr "DUOKLĖS DĖŽĖ"
+msgstr "DANGIŠKOJI DĖŽĖ"
 
 msgid "common/boxCategory/upperCase/gold"
-msgstr "DOVANOS DĖŽĖ"
+msgstr "IŠRINKTOJI DĖŽĖ"
 
 msgid "common/boxCategory/upperCase/silver"
-msgstr "PALAIMOS DĖŽĖ"
+msgstr "ROJAUS PAGALBOS DĖŽĖ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Tai yra ypatingos dėžės, kurių viduje galite rasti naujų ir unikalių daiktų. Jų galite įsigyti žaidimo parduotuvėje."
+msgstr "Tai yra specialios dėžės, kuriose gali būti naujų ir unikalių VIII–X lygio mašinų ir kitų prizų.\nŠias dėžes galite gauti dovanų pirkdami Premium parduotuvės prekes ar atidarydami kitų tipų dėžes."
 
-msgid "entryPoint/tooltip/timerText"
-msgstr "Iki renginio pabaigos liko"
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Šiuo metu negalima atidaryti ar pirkti dėžių dėl techninių nesklandumų. Mes atsiprašome už laikinus sutrikimus."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Dievo palaimos dėžės laikinai nepasiekiamos"
 
 msgid "eventName/lowerCase"
-msgstr "Šnibždanti saugykla"
+msgstr "Dievo palaima"
 
 msgid "eventName/upperCase"
-msgstr "ŠNIBŽDANTI SAUGYKLA"
+msgstr "DIEVO PALAIMA"
 
-msgid "guaranteed/tooltip/description1/"
-msgstr "Jei jau turite visas mašinas, vietoje jų gausite dovanos dėžę."
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jei iki renginio pabaigos neatidarysite visų dėžių, tai vėliau jos bus atidarytos automatiškai."
 
 msgid "infoPage/footer/description/compensation"
-msgstr "Jei jau turite visas mašinas iš dėžės, vietoje mašinos kaip kompensaciją gausite dovanos dėžę."
+msgstr "Jei jau turite visas mašinas iš dėžės, kaip garantuotą prizą vietoje mašinos gausite Išrinktąją dėžę kaip kompensaciją."
 
 msgid "infoPage/footer/description/guaranteed"
-msgstr "Kas %(guaranteed0)s duoklės, %(guaranteed1)s dovanos ir %(guaranteed2)s palaimos dėžių garantuotai gausite mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s-tą/%(guaranteed1)s-tą/%(guaranteed2)s-tą dėžę (priklausomai nuo dėžės tipo). Gavus mašiną dėžės bus skaičiuojamos iš naujo."
+msgstr "Kas %(guaranteed0)s Dangiškųjų, %(guaranteed1)s Rojaus pagalbos ir %(guaranteed2)s Išrinktųjų dėžių garantuotai gausite VIII–X lygio mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s-tą/%(guaranteed1)s-tą/%(guaranteed2)s-tą dėžę (priklausomai nuo dėžės tipo). Gavus mašiną dėžės bus skaičiuojamos iš naujo."
 
 msgid "infoPage/footer/title/compensation"
-msgstr "Kompensacija"
+msgstr "Jei gautos visos mašinos"
 
-msgid "infoPage/footer/title/guaranteed"
-msgstr "Garantuotas prizas"
+msgid "infoPage/header/description"
+msgstr "Atidarykite dėžes, iš kurių galite gauti vertingų žaidimo daiktų!\nŽemiau rasite visų galimų prizų sąrašą."
 
-msgid "infoPage/header/rewards/description"
-msgstr "Galima gauti tik po vieną apdovanojimą iš grupės"
+msgid "noBoxesView/description/"
+msgstr "Jūs neturite dėžių.\nJų galite gauti Premium parduotuvėje."
+
+msgid "singleRewardView/tooltip/boxName/"
+msgstr "Išrinktosiomis dėžėmis"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jei jau turite visas mašinas iš dėžės, kaip garantuotą prizą vietoje mašinos gausite Išrinktąją dėžę kaip kompensaciją."
+
+msgid "statisticsRewards/label/lootBox_bronze"
+msgstr "Dangiškoji dėžė"
+
+msgid "statisticsRewards/label/lootBox_gold"
+msgstr "Išrinktoji dėžė"
+
+msgid "statisticsRewards/label/lootBox_silver"
+msgstr "Rojaus pagalbos dėžė"

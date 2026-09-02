@@ -1079,7 +1079,7 @@ msgid "kpi/bonus/negative/vehicleStrength"
 msgstr "aracın can puanına"
 
 msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
-msgstr "kule dönüş hızına veya sabit kabine sahip araçların top dönüş hızına"
+msgstr "top dönüş hızına"
 
 msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
 msgstr "kule dönüş hızına"
@@ -1391,7 +1391,7 @@ msgid "kpi/bonus/positive/vehicleStrength"
 msgstr "aracın can puanına"
 
 msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
-msgstr "kule dönüş hızına veya sabit kabine sahip araçlar için top dönüş hızına"
+msgstr "top dönüş hızına"
 
 msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
 msgstr "kule dönüş hızına"
@@ -2100,6 +2100,51 @@ msgstr " ve "
 
 msgid "tooltips/separator/other"
 msgstr ", "
+
+msgid "tooltips/shellMechanics/bustleFeed/description"
+msgstr "Aracın Harici Mühimmat Besleme modu, artırılmış hasarı olan mermiler kullanabilmesini sağlar."
+
+msgid "tooltips/shellMechanics/bustleFeed/off"
+msgstr "Standart modda temel değerler."
+
+msgid "tooltips/shellMechanics/bustleFeed/on"
+msgstr "Harici Mühimmat Besleme modunda değiştirilmiş değerler."
+
+msgid "tooltips/shellMechanics/lowChargeShot/basic/description"
+msgstr "Tam şarjlı atışların temel parametreleri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/modified/description"
+msgstr "Tek şarjlı atışların parametreleri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/off"
+msgstr "Tam şarjlı atışların temel parametreleri"
+
+msgid "tooltips/shellMechanics/lowChargeShot/offLabel"
+msgstr "Temel"
+
+msgid "tooltips/shellMechanics/lowChargeShot/on"
+msgstr "Tek şarjlı atışların parametreleri"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/angled_armor/description"
+msgstr "Kalibreli modda bu mermi türü açılı zırha karşı etkilidir."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/description"
+msgstr "Aracın topunda, ateş etmeden önce bazı mermi parametrelerinin değiştirilmesine olanak tanıyan özel cihazlar bulunmaktadır."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/noscreen/description"
+msgstr "Standart modda bu mermi türü perdeleri olmayan zırha karşı etkilidir."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/off"
+msgstr "Standart Mod"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/on"
+msgstr "Kalibreli Mod"
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/screen/description"
+msgstr "Kalibreli modda bu mermi türü perdeleri delebilir."
+
+msgid "tooltips/shellMechanics/shellParamsSwitcher/straight_armor/description"
+msgstr "Standart modda bu mermi türü dikey zırha karşı etkilidir."
 
 msgid "tooltips/specializationDesc"
 msgstr "%(spec)s sınıfından standart donanım bu yuvaya takılırsa daha etkili olacaktır. Diğer sınıflardan donanım sadece standart bir bonus sağlayacaktır."

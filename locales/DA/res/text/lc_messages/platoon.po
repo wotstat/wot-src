@@ -130,6 +130,9 @@ msgstr "Du kan ikke oprette eller gå med i delinger, da du ikke har et passende
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Efter kvalifikationen er fuldført, er delinger på 2 og 7 spillere tilgængelige."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Når kvalifikationen er fuldført, vil en deling på to spillere være tilgængelig."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Kan ikke oprette en deling."
 
@@ -141,6 +144,9 @@ msgstr "Opret en deling eller gå med i en eksisterende. Delinger i Onslaught ka
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Deling"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Opret en deling eller gå med i en eksisterende. Delinger i Onslaught kan kun bestå af to spillere."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Opret en taktisk enhed på 2 eller 3 spillere der kan samarbejde.\n• Kamptilstand: Raseri.\n• Kamptyper: Ståljagt, dominans."
@@ -264,12 +270,6 @@ msgstr "Delingen har nået det maksimale antal tunge kampvogne"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Delingen har nået det maksimale antal medium kampvogne"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Delingen har nået det maksimale antal lette kampvogne"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Delingen har nået det maksimale antal hjulkøretøjer"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Delingen har nået det maksimale antal lette kampvogne"

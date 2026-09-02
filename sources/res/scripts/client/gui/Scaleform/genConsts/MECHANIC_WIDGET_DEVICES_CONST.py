@@ -1,0 +1,10 @@
+class MECHANIC_WIDGET_DEVICES_CONST(object):
+    DEVICE_STATE_CRITICAL = b'critical'
+    DEVICE_STATE_DESTROYED = b'destroyed'
+    DEVICE_NONE = b'None'
+    DEVICE_CHASSIS = b'chassis'
+    DEVICE_ENGINE = b'engine'
+    DEVICE_AMMO_BAY = b'ammoBay'
+    DEVICES = [DEVICE_NONE, DEVICE_CHASSIS, DEVICE_ENGINE, DEVICE_AMMO_BAY]
+    LINKAGE_DEVICE_CRITICAL = b'DeviceCriticalUI'
+    LINKAGE_DEVICE_DESTROYED = b'DeviceDestroyedUI'

@@ -34,6 +34,9 @@ msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy str
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Zwiększa moc silnika i prędkość maksymalną, zapewniając szybkie przemieszczanie się po polu bitwy. Po aktywacji dopalacze odrzutowe zmniejszają zwrotność i nie można ich wyłączyć ręcznie."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Działo pojazdu posiada specjalne urządzenia, które umożliwiają modyfikację niektórych parametrów pocisków przed wystrzałem. Parametry dla określonych pocisków różnią się w zależności od wybranego trybu, a każdy tryb pozwala szybko dostosować się do odmiennych sytuacji bojowych."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Po aktywacji ten specjalny tryb zwiększa i/lub zmienia określone parametry bojowe. Najlepiej aktywować na pozycji i po przygotowaniu do starcia z przeciwnikiem."
 
@@ -82,6 +85,9 @@ msgstr "Działko automatyczne z kontrolą przegrzania"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Dopalacze odrzutowe"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "System kalibracji pocisków"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Tryb ostrzału"
 
@@ -100,8 +106,17 @@ msgstr "Tryb ognia salwą"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Pozostając w bezruchu lub poruszając się powoli, budujesz poziomy celności, aby poprawić precyzję następnego strzału.\nPrzy maksymalnym poziomie celności uzyskujesz przyzwoite prowadzenie działa ze zmniejszonym rozrzutem nawet podczas ruchu lub obrotu wieży/kadłuba."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mechanizm natychmiast skraca przeładowanie pocisku do krótkiego, ustalonego czasu. Każde użycie zużywa jeden ładunek na pocisk, a ładunki odnawiają się z czasem – szybciej, gdy magazynek jest pełny. Na początku bitwy dostępna jest określona liczba ładunków."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ten pojazd jest wyposażony w wyrzutnię rakiet zamontowaną w jarzmie działa. Aktywuj zdolność, aby przełączyć się na celownik broni dodatkowej, a następnie wystrzel niekierowany pocisk odłamkowo-burzący przyciskiem strzału."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Za każdym razem, kiedy trafisz przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem. \nZniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Moduł zewnętrznego zasilania amunicją tego pojazdu pozwala strzelać potężnymi, jednolitymi pociskami o dużym ładunku, które zadają zwiększone uszkodzenia. Gdy jest aktywny, moduł zmniejsza również mobilność i szybkostrzelność."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Jeśli działo jest załadowane, możesz zacząć rozgrzewać swój kolejny strzał, aby zwiększyć uszkodzenia – im wyższy poziom rozgrzania, tym większy efekt.\nPrzy maksymalnym rozgrzaniu masz kilka sekund na wystrzał – jeśli tego nie zrobisz, będziesz tymczasowo niezdolny do strzału."
@@ -142,6 +157,15 @@ msgstr "System gromadzi ładunek w miarę upływu czasu, a im wyższy poziom �
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Aktywuj Dopalacze na paliwo ciekłe w dowolnym momencie, aby zwiększyć prędkość, gdy jest to najbardziej potrzebne. Dopalacze nagrzewają się i muszą ostygnąć przed ponownym użyciem, a przekroczenie krytycznego poziomu rozgrzania tymczasowo całkowicie je wyłączy."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Gdy trafisz pociskiem widoczny pojazd przeciwnika, zapalnik następnego pocisku jest regulowany. Jeśli pierwszy strzał przebił pancerz przeciwnika, zwiększają się uszkodzenia następnego pocisku. W przeciwnym wypadku zwiększa się jego penetracja."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Działo pojazdu posiada specjalne urządzenia, które umożliwiają modyfikację niektórych parametrów pocisków przed wystrzałem. Parametry dla określonych pocisków różnią się w zależności od wybranego trybu, a każdy tryb pozwala szybko dostosować się do odmiennych sytuacji bojowych."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Po aktywacji urządzenie skanuje sektor przed Twoim pojazdem, ujawniając ukryte cele, po czym następuje czas przygotowania. Jeśli ujawni niewykrytego przeciwnika, Ty również natychmiast zostajesz wykryty. Możesz ręcznie zatrzymać skanowanie po krótkim opóźnieniu."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. Prawy i lewy dopalacz mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył."
 
@@ -166,8 +190,17 @@ msgstr "Ta mechaniczna modyfikacja na krótki czas znacznie zwiększa przyspiesz
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Analogowe balistyczne urządzenie obliczeniowe"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Wymuszony mechanizm ładujący"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Współosiowa wyrzutnia rakiet"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Pół-automatyczny magazyn amunicji"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Tryb zewnętrznego zasilania amunicją"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Przeciążenie termo-balistyczne"
@@ -208,6 +241,15 @@ msgstr "Indukcyjny dopalacz materiału pędnego"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Dopalacze na paliwo ciekłe"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Regulowany nastawnik zapalnika"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "System kalibracji pocisków"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Poszukiwanie i śledzenie w podczerwieni (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Sekwencyjne dopalacze rakietowe"
 
@@ -232,8 +274,17 @@ msgstr "Wysokociśnieniowe serwo turbosprężarki"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Zwiększa celność Twojego następnego strzału dzięki przyzwoitej stabilizacji przy pełnej kalibracji."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Natychmiast skraca czas przeładowania pocisku do krótkiej, stałej wartości."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Wystrzeliwuje niekierowany pocisk rakietowy OB ze współosiowej wyrzutni, niezależnie od działa głównego."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Każde trafienie pojazdu przeciwnika zwiększa szybkość przeładowania działa na ograniczony czas."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Wystrzeliwuje pociski o wysokich uszkodzeniach kosztem mobilności i czasu przygotowania."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Zwiększaj poziomy rozgrzania, aby zadać więcej uszkodzeń pojazdom przeciwnika przy następnym strzale."
@@ -274,6 +325,15 @@ msgstr "System ładuje się, aby zwiększyć zadawane uszkodzenia. Im wyższy ł
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Dopalacze można aktywować w dowolnym momencie, aby zapewnić gwałtowny wzrost prędkości."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Trafienie widocznego pojazdu przeciwnika zwiększa uszkodzenia lub penetrację następnego pocisku."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Działo ma specjalne urządzenia, które pozwalają modyfikować niektóre parametry pocisku przed wystrzałem."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Zwiększa zasięg widzenia i wykrywa poruszające się i ukryte za roślinnością pojazdy w wąskim sektorze."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Dopalacze na paliwo stałe poprawiające przyspieszenie, mobilność i zwrotność."
 
@@ -298,8 +358,14 @@ msgstr "Specjalna mechanika, która na krótki czas zwiększa moc silnika, przys
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Pozostawanie w bezruchu lub poruszanie się z prędkością poniżej określonego limitu pozwala pojazdowi skalibrować Analogowe balistyczne urządzenie obliczeniowe i nabudować poziomy celności, zwiększając celność kolejnego strzału. Jeśli przekroczysz limit prędkości, postępy nabudowania poziomów celności zostaną zatrzymane do momentu zwolnienia. Na najwyższym poziomie celności pojazd zyskuje znaczną stabilizację działa, co zapewnia zmniejszony rozrzut od ruchu lub obrotów wieży i kadłuba. Efekt znika po oddaniu strzału."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ten pojazd jest wyposażony w wyrzutnię rakiet zamontowaną w jarzmie działa. Aktywuj zdolność, aby przełączyć się na celownik broni dodatkowej, a następnie wystrzel niekierowany pocisk odłamkowo-burzący przyciskiem strzału."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Za każdym razem, kiedy trafisz wykrytego przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem, a zniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Moduł zewnętrznego zasilania amunicją tego pojazdu pozwala strzelać potężnymi, jednolitymi pociskami o dużym ładunku, które zadają zwiększone uszkodzenia. Gdy jest aktywny, moduł zmniejsza również mobilność i szybkostrzelność."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Jeśli Twoje działo jest naładowane, możesz rozpocząć rozgrzewanie kolejnego pocisku. Im wyższy poziom rozgrzania osiągniesz, tym wyższa będzie premia do średnich uszkodzeń. Podczas procesu rozgrzewania nie można zmieniać pocisków. Po osiągnięciu maksymalnego poziomu rozgrzania rozpocznie się odliczanie. Jeśli nie oddasz strzału przed jego zakończeniem, nie będziesz mógł strzelać przez kolejnych kilka sekund."
@@ -340,6 +406,15 @@ msgstr "Z upływem czasu system automatycznie gromadzi ładunek, który jest cz
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Dopalacze na paliwo ciekłe zapewniają doładowanie mocy silnika, pozwalając uzyskać przewagę pozycyjną na polu bitwy, ale ograniczając prędkość wsteczną i prędkość obrotu Twojego pojazdu. Można je włączyć lub wyłączyć w dowolnym momencie, wyłączając czas po osiągnięciu ograniczenia reaktywacji. Dopalacze nagrzewają się, gdy są aktywne i stają się niedostępne, dopóki nie ostygną, co oznacza, że nie można ich używać bez przerwy – a przekroczenie krytycznego poziomu rozgrzania tymczasowo całkowicie je wyłączy. Ostrożnie zaplanuj swoje ruchy, aby nie dać się zaskoczyć."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Po trafieniu pociskiem widocznego pojazdu przeciwnika zapalnik następnego pocisku jest regulowany. Jeśli pierwszy strzał przebił pancerz przeciwnika, zwiększają się uszkodzenia następnego strzału, a jeśli nie – zwiększa się penetracja."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Działo pojazdu ma specjalne urządzenia, które pozwalają na modyfikację niektórych parametrów pocisku przed oddaniem strzału. Zestaw amunicji pokazuje, które parametry zostaną zmienione przez przełączanie się między trybami ognia."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Zaawansowane urządzenie optyczne zwiększa zasięg widzenia i poprawia wykrywanie pojazdów poruszających się i ukrytych w zaroślach. Po aktywacji skanuje wąski sektor przed pojazdem, ujawniając ukryte cele, po czym następuje okres przygotowania. Jeśli ujawni niewykrytego przeciwnika, gracz również zostaje natychmiast wykryty. Można ręcznie zatrzymać skanowanie po krótkim opóźnieniu."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. W odróżnieniu od zwykłych dopalaczy odrzutowych, prawy i lewy silnik mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył. Można z nich korzystać wielokrotnie w trakcie bitwy, ale przed ponownym użyciem wymagają czasu na przygotowanie."
 
@@ -363,6 +438,18 @@ msgstr "Ta mechaniczna modyfikacja na krótki czas znacznie zwiększa przyspiesz
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Wszystkie podane wartości stanowią wartości maksymalne dla danego pojazdu. Wyposażenie, dyrektywy i materiały eksploatacyjne mogą wpływać na te wartości, ale te zmiany nie zostały tutaj uwzględnione."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "kalibrowalny pocisk PP"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "kalibrowalny pocisk APCR"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "kalibrowalny pocisk OB"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "kalibrowalny pocisk kumulacyjny"
 
 msgid "characteristics/templates/upTo"
 msgstr "Do %(value)%s"

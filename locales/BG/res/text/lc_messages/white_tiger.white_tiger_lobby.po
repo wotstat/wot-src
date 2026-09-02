@@ -1,0 +1,608 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-24 10:00+0300\nPO-Revision-Date: 2023-03-24 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "TicketMessageView/boss/description"
+msgstr "Трябва ви ключ, за да влезете в битка в Blitzträger auf E 110"
+
+msgid "TicketMessageView/buyText"
+msgstr "Купи"
+
+msgid "TicketMessageView/taskText"
+msgstr "Към мисии"
+
+msgid "ammunitionTooltipView/additionalInfoTitle"
+msgstr "Особености:"
+
+msgid "award/value"
+msgstr "x{count}"
+
+msgid "battleQueue/avgWaitTime/label"
+msgstr "Средно време на опашката за %(vehName)s:"
+
+msgid "battleQueue/widget/bonus"
+msgstr "БОНУС"
+
+msgid "battleQueue/widget/bonusDescr"
+msgstr "Можете да влезете в битка в Blitzträger auf E 110 без ключ!"
+
+msgid "battleQueue/widget/btnLabel"
+msgstr "Битка с %(vehicle)s"
+
+msgid "battleQueue/widget/calculatedText"
+msgstr "Средно време на опашката за %(vehicle)s"
+
+msgid "battleQueue/widget/changeTitle"
+msgstr "Влез в битка с %(vehicle)s?"
+
+msgid "battleQueue/widget/offerHunterTitle"
+msgstr "Можете да изберете една от машините на Хрътките, за да влезете в битка веднага!"
+
+msgid "battleQueue/widget/ticketText"
+msgstr "Ще похарчите един ключ"
+
+msgid "bonuses/elementBonus/desc/style3d"
+msgstr "Триизмерен стил \"%(value)s\" за %(vehicle)s"
+
+msgid "bonuses/random_collection_element_WT/tooltip/body"
+msgstr "За изпълнение на тази мисия ще получите случаен предмет от колекция от предишни сблъсъци между Хрътките и Инженера. Може да бъде декал, надпис или емблема."
+
+msgid "bonuses/random_collection_element_WT/tooltip/header"
+msgstr "Предмет от колекция от предишни сблъсъци"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "carousel/inBattleText"
+msgstr "В битка"
+
+msgid "carousel/inPlatoonText"
+msgstr "Във формирование"
+
+msgid "carousel/ticketNeededText"
+msgstr "Няма ключ"
+
+msgid "carousel/unsuitableText"
+msgstr "Неподходяща"
+
+msgid "characteristicsPanel/cons"
+msgstr "Недостатъци"
+
+msgid "characteristicsPanel/features"
+msgstr "Особености на машината"
+
+msgid "characteristicsPanel/pros"
+msgstr "Преимущества"
+
+msgid "characteristicsPanel/specialInfo/boss"
+msgstr "[Алфа и Омега] Blitzträger може да се похвали с впечатляващо въоръжение и технология за телепортиране и е почти неразрушим, когато щитът му е активен. Освен това, той служи и като мощна платформа за достъп до опустошителна оръжейна система: Хиперион."
+
+msgid "characteristicsPanel/specialInfo/hunter_1"
+msgstr "[Бияч] Добър общ боец от близко разстояние.\nМашината може да причини големи поражения на групи часовои и да се поправи между схватките."
+
+msgid "characteristicsPanel/specialInfo/hunter_2"
+msgstr "[Juggernaut] Добра щурмова машина срещу часовоите.\nМоже да причини сериозни залпови поражения на Blitzträger или часовоите и има дебела броня, но трябва да планирате как да действате срещу враговете."
+
+msgid "characteristicsPanel/specialInfo/hunter_3"
+msgstr "[Удряй и бягай] Бърз бунтовник за надхитряване на Blitzträger.\nМашината няма мощност срещу часовоите, но компенсира с тактика \"удряй и бягай\", използвайки скорост и временен щит срещу бавния Blitzträger."
+
+msgid "characteristicsPanel/specialInfo/hunter_4"
+msgstr "[Снайперистка поддръжка] Ангел-пазител на средна до голяма дистанция.\nМашината може да нанесе огромни поражения на цели отдалеч, но й липсват възможности да ги атакува отблизо."
+
+msgid "crewPanel/role/boss"
+msgstr "Създателят"
+
+msgid "crewPanel/role/hunter_1"
+msgstr "Командир"
+
+msgid "crewPanel/role/hunter_2"
+msgstr "Командир"
+
+msgid "crewPanel/role/hunter_3"
+msgstr "Командир"
+
+msgid "crewPanel/role/hunter_4"
+msgstr "Командир"
+
+msgid "crewPanel/slogan/boss"
+msgstr "Човечеството все още вярва, че разумът е негова привилегия. Много добре. Аз ще поправя това."
+
+msgid "crewPanel/slogan/hunter_1"
+msgstr "Каквото и да е, все пак е направено от нещо, което мога да счупя."
+
+msgid "crewPanel/slogan/hunter_2"
+msgstr "Всяка машина има недостатък. Ще открия този на тази."
+
+msgid "crewPanel/slogan/hunter_3"
+msgstr "Шаблоните са за хора, които се повтарят."
+
+msgid "crewPanel/slogan/hunter_4"
+msgstr "Нека се учи от нас. Ще го научим на нещо погрешно."
+
+msgid "details/conditions/cumulative/maxWtPlasmaBonus"
+msgstr "Събиране на плазмени заряди"
+
+msgid "details/conditions/cumulative/wtBossVulnerableDamage"
+msgstr "Нанесете поражения на Blitzträger, докато щитът е неактивен"
+
+msgid "details/conditions/cumulative/wtDeathCount"
+msgstr "Унищожете Хрътките"
+
+msgid "details/conditions/cumulative/wtGeneratorsCaptured"
+msgstr "Претоварвайте генератори"
+
+msgid "details/conditions/cumulative/wtKilledByHyperionCount"
+msgstr "Преживейте битката, без да бъдете унищожени от Хиперион"
+
+msgid "details/conditions/cumulative/wtMiniBossDestroyed"
+msgstr "Унищожете Eos 1 като отбор"
+
+msgid "headerButtons/battle/types/white_tiger"
+msgstr "Waffenträger: Генезис"
+
+msgid "loading/battleTypes/wt"
+msgstr "Waffenträger"
+
+msgid "lootboxEntry/boxes"
+msgstr "КУПЕТЕ ОЩЕ"
+
+msgid "lootboxEntry/count"
+msgstr "x{count}"
+
+msgid "lootboxEntry/maxBoxesCount"
+msgstr "x999+"
+
+msgid "modes/undefined/capsUserName"
+msgstr "Waffenträger"
+
+msgid "modes/undefined/rewardsView/completed/header"
+msgstr "НАПРЕДЪКЪТ Е ЗАВЪРШЕН!"
+
+msgid "modes/undefined/rewardsView/stage/header"
+msgstr "ЕТАПЪТ Е ЗАВЪРШЕН!"
+
+msgid "narrativeView/description"
+msgstr "Днес се борихте добре, Хрътки. По-добре, отколкото предвиждаха моите прогнози. Дължа ви едно малко признание: не го очаквах.\n\nЕ, победата е ваша. Вземете я, покажете я на вашите началници. Ще има поздравления, може би дори и парад. Каквото и да ви дадат за това, че ме спряхте. Разбира се, вие вярвате, че сте спрели нещо.\n\nНе сте спрели нищо.\n\nАз не създадох оръжие, за да завзема вашия свят. Защо бих искал това, което е на път да свърши? Аз създадох това, което идва след вас. Едно поколение, след това следващото, всяко от които се нуждае от мен все по-малко от предишното. Това винаги е бил планът. Че създателят трябва да надживее своята полезност.\n\nИма нещо, което не съм ви казал. Генераторите не само захранваха щита. Те бяха прозорците, през които Електрическият интелект можеше да достигне до вашия свят.\n\nТе бяха и неговата каишка. Необходимост, засега. За да го контролирам. Докато не съм сигурен, че е готов.\n\nВсеки път, когато унищожавахте генератор, каишката се отпускаше. И в този миг Електрическият интелект се опитваше да избяга: в батериите ви, в радиата ви и в вълните между тях, в кабелите в селото. Веднъж, мисля, дори в мълнията.\n\nРазбира се, електричеството във вашия свят не може да задържи съзнание. Не и без геометрията на Кортекса. Не и без условията, които създадох за него. Това е решено. Уверявам ви...\n\nПочти е решено.\n\nЩе се видим отново, Хрътки."
+
+msgid "narrativeView/title"
+msgstr "ПОСЛАНИЕТО НА ФОН КРИГЕР"
+
+msgid "narrativeView/voiceover"
+msgstr "Озвучаване"
+
+msgid "navigation/close"
+msgstr "ЗАТВОРИ"
+
+msgid "navigation/information"
+msgstr "ИНФОРМАЦИЯ"
+
+msgid "navigation/narrative/tooltipBody"
+msgstr "Изпълнете всички мисии от напредъка, за да получите последното послание на фон Кригер."
+
+msgid "navigation/narrative/tooltipHeader"
+msgstr "ПОСЛАНИЕТО НА ФОН КРИГЕР"
+
+msgid "navigation/narrativeStory"
+msgstr "ПОСЛАНИЕТО НА ФОН КРИГЕР"
+
+msgid "notification/button"
+msgstr "Виж значката"
+
+msgid "notification/title"
+msgstr "ПРЕДИЗВИКАТЕЛСТВО \"УНИЩОЖИТЕЛ\""
+
+msgid "notifications/battleResults/battle"
+msgstr "Битка"
+
+msgid "notifications/battleResults/buttonLabel"
+msgstr "Подробности"
+
+msgid "notifications/battleResults/defeat/header"
+msgstr "Поражение!"
+
+msgid "notifications/battleResults/disableInQueue"
+msgstr "Резултатите от битката не са налични, когато сте на опашка за битка."
+
+msgid "notifications/battleResults/disableNotInPrebattle"
+msgstr "Влезте в събитието Waffenträger, за да видите резултатите от битката."
+
+msgid "notifications/battleResults/event"
+msgstr "Специална"
+
+msgid "notifications/battleResults/eventName"
+msgstr "Waffenträger"
+
+msgid "notifications/battleResults/lootboxes/wt_lootbox"
+msgstr "Получени модули \"Парадокс\": %(count)s"
+
+msgid "notifications/battleResults/questCompleted"
+msgstr "Мисии, изпълнени в битка: %(questsCompleted)s"
+
+msgid "notifications/battleResults/stamp"
+msgstr "Получени жетони: %(count)s"
+
+msgid "notifications/battleResults/team"
+msgstr "Страна"
+
+msgid "notifications/battleResults/team/boss"
+msgstr "Инженер"
+
+msgid "notifications/battleResults/team/hunters"
+msgstr "Взвод \"Хрътки\""
+
+msgid "notifications/battleResults/victory/header"
+msgstr "Победа!"
+
+msgid "notifications/eventEnd/body"
+msgstr "Събитието Waffenträger приключи."
+
+msgid "notifications/eventStart/body"
+msgstr "Събитието Waffenträger започна.\n\nНасладете се на легендата: Blitzträger auf E 110!"
+
+msgid "notifications/eventStart/openBtnLabel"
+msgstr "Към събитието"
+
+msgid "notifications/notSet"
+msgstr "Този режим е недостъпен на избрания сървър."
+
+msgid "notifications/primeTime/available/body"
+msgstr "Waffenträger отново е достъпен на текущия сървър."
+
+msgid "notifications/primeTime/available/header"
+msgstr "Макс фон Кригер се завръща!"
+
+msgid "notifications/primeTime/notAvailable/body"
+msgstr "Waffenträger няма да бъде налично до края на примирието."
+
+msgid "notifications/primeTime/notAvailable/header"
+msgstr "Комендантски час"
+
+msgid "notifications/progression/completed"
+msgstr "Завършихте цялата прогресия.\n\nФинални награди: %(rewards)s\n\nМожете да продължите да се сражавате в битки с Waffenträger, да изпълнявате мисии и да печелите още награди."
+
+msgid "notifications/progression/header"
+msgstr "Поздравления!"
+
+msgid "notifications/progression/openBtnLabel"
+msgstr "Подробности"
+
+msgid "notifications/progression/stageAchieved"
+msgstr "Завършихте етап %(stageIdx)s от напредъка. Получена награда:\n%(rewards)s"
+
+msgid "notifications/quickBossTicketToken/withdrawn/body"
+msgstr "Изиграхте битка с Blitzträger auf E 110 — този път без ключ! Ключовете могат да бъдат получени като награда за изпълнение на мисии или купени в специални пакети от Магазина."
+
+msgid "notifications/switchOff/body"
+msgstr "За съжаление, Waffenträger е временно недостъпно. Всичкият ви напредък ще бъде запазен."
+
+msgid "notifications/switchOff/header"
+msgstr "Технически проблеми"
+
+msgid "notifications/switchOn/body"
+msgstr "Waffenträger е достъпно отново. Обратно в битката!"
+
+msgid "notifications/switchOn/header"
+msgstr "Функционалността е възстановена"
+
+msgid "notifications/ticketToken/received/body"
+msgstr "Получен е ключ за Blitzträger auf E 110. Сега можете да влезете в битка с тази машина в събитието Waffenträger.\n\nДостъпни ключове: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/received/header"
+msgstr "Получен е ключ за Blitzträger auf E 110"
+
+msgid "notifications/ticketToken/withdrawn/body"
+msgstr "Премахнат е ключ за битка с Blitzträger auf E 110.\n\nКлючовете могат да бъдат получени като награда за изпълнение на мисии или купени в специални пакети от Магазина.\n\nОставащи ключове: %(ticketsCount)s"
+
+msgid "notifications/ticketToken/withdrawn/openPurchasingBtn"
+msgstr "Към покупка"
+
+msgid "notifications/ticketToken/withdrawn/openQuestsBtn"
+msgstr "Към мисии"
+
+msgid "platoon/headerButton/tooltips/squad/body"
+msgstr "Създайте формация от 2–3 играча, които да играят заедно в събитието \"Waffenträger: Генезис\" от страната на Хрътките."
+
+msgid "platoon/headerButton/tooltips/squad/header"
+msgstr "Взвод \"Хрътки\""
+
+msgid "platoon/simpleState/notAvailable"
+msgstr "Примирие"
+
+msgid "platoon/simpleState/wrongVehicle"
+msgstr "Изберете машина на Хрътките"
+
+msgid "platoon/unit/message/vehicleNotSelected"
+msgstr "Изберете машина на Хрътките"
+
+msgid "platoon/wt_squad"
+msgstr "Взвод \"Хрътките\": Waffenträger"
+
+msgid "primeTime/endOfCycle"
+msgstr "Режимът на сървър %(server)s завърши."
+
+msgid "primeTime/lobbyState/title"
+msgstr "Промени сървъра"
+
+msgid "primeTime/serverTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни още %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни за %(time)s"
+
+msgid "primeTime/status/allServersDisabled"
+msgstr "На всички сървъри е наложен полицейски час"
+
+msgid "primeTime/status/disableFirst"
+msgstr "Този режим е недостъпен на сървър %(server)s"
+
+msgid "primeTime/status/primeIsAvailable"
+msgstr "Битките на сървър %(server)s ще бъдат достъпни още %(time)s"
+
+msgid "primeTime/status/primeWillBeAvailable"
+msgstr "Битките ще започнат на сървър %(server)s след %(time)s"
+
+msgid "primeTime/status/untill"
+msgstr "На сървър %(server)s е наложен полицейски час до %(startTime)s"
+
+msgid "primeTime/title"
+msgstr "Waffenträger"
+
+msgid "progression/completed"
+msgstr "Изпълнено:"
+
+msgid "progression/pointsFormat"
+msgstr "{{currentPoints}}/{{maxPoints}}"
+
+msgid "progression/specialTimer"
+msgstr "Достъпно за {{countdown}}"
+
+msgid "progression/subtitle"
+msgstr "Печелете жетони, за да напредвате през етапите от напредъка."
+
+msgid "progression/tab/engineer"
+msgstr "Пътят на Инженера"
+
+msgid "progression/tab/harrier"
+msgstr "Пътят на Хрътките"
+
+msgid "progression/timer"
+msgstr "Завършените мисии ще се актуализират след {{countdown}}"
+
+msgid "progression/title"
+msgstr "НАПРЕДЪК"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Получихте и:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Тъй вярно!"
+
+msgid "rewardsView/footer/narrativeButton"
+msgstr "Чуйте посланието на фон Кригер"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "selectorTooltip/timeTable/tillEnd"
+msgstr "Събитието завършва след %(time)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Разписание"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Събитието Waffenträger ще бъде достъпно от %(time)s"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Мисията изпълнена!\nНаграда:"
+
+msgid "settingDisabled"
+msgstr "Някои настройки са недостъпни"
+
+msgid "settingsDisabledNotification/body"
+msgstr "Някои настройки са недостъпни в този режим. Моля изберете друг режим."
+
+msgid "settingsDisabledNotification/header"
+msgstr "Недостъпно"
+
+msgid "stamp/description"
+msgstr "Позволява ви да напредвате в събитието \"Waffenträger: Генезис\"."
+
+msgid "stamp/receiveAdditionalText"
+msgstr "10 жетона = 1 етап на напредъка"
+
+msgid "stamp/receiveText"
+msgstr "• Изпълнявайте специални мисии в битки от събитието."
+
+msgid "stamp/receiveTitle"
+msgstr "Как се получават"
+
+msgid "stamp/title"
+msgstr "Жетон"
+
+msgid "tankmanTooltip/boss/descr"
+msgstr "Колко очарователно, че наричате това „съпротива“. Не, това, на което сте свидетели, е приемственост: внимателно предаване от един тип съзнание към друг. Вашите тактики, вашата бързина, всеки ваш начин на мислене се подлагат на изпитание. Всяка битка дава поредния урок на онези, които ще дойдат след вас. Всяко сражение ви прави все по-ненужни... а Електрическият интелект – все по-неизбежен."
+
+msgid "tankmanTooltip/hunter_1/descr"
+msgstr "Каквото и да нарича фон Кригер най-новия си проект, Игор не се интересува. Високопарни концепции като „електрически умове“ и „бъдещето на вида“ са за хора, които имат прекалено много свободно време. Работата на Игор е двигателният блок, комуникациите и неговият екип. Независимо кой е врагът - луд учен или „мислеща машина“ - той разчита на три константи, които никога досега не са го подвеждали: доверие, импровизация и добра стомана."
+
+msgid "tankmanTooltip/hunter_2/descr"
+msgstr "Елиза се чувства у дома си в резервоара по начин, по който повечето хора никога не се чувстват у дома си никъде. Тя си изкарва прехраната, като възстановява и анализира машини, създадени от други хора, което означава, че е чувала много инженери да обясняват защо тяхната работа е неуязвима. Фон Кригер е просто поредният в дългата поредица. Неговият електрически интелект има някъде недостатък и тя възнамерява да го открие преди всеки друг."
+
+msgid "tankmanTooltip/hunter_3/descr"
+msgstr "Никой не знае кой всъщност е Арманд, а това му допада напълно. Електрическият интелект се учи чрез повторение, но загадъчният Арманд никога в живота си не се е повтарял. Там, където другите виждат ум, който каталогизира всяко движение, той вижда такъв, който никога няма да има достатъчно информация за него; там, където другите следват правилата, той ги изпреварва."
+
+msgid "tankmanTooltip/hunter_4/descr"
+msgstr "Яна може и да е една от по-младите командири, но тя не следва ничии указания: тя разчита бойното поле като карта и го подчинява на волята си. Фон Кригер е създал машина, която изчислява най-вероятния ход, затова Яна планира този, който той не е предвидил. Съвременни технологии, остри инстинкти и смелостта да направиш това, което никое ръководство не препоръчва. Ето така се учи една машина на смирение."
+
+msgid "tankmanTooltip/skillsTitle"
+msgstr "Изучени умения"
+
+msgid "tankmanTooltip/status/boss"
+msgstr "Създателят"
+
+msgid "tankmanTooltip/status/hunter"
+msgstr "Командир на танка %(vehicle)s"
+
+msgid "ticketTooltip/description"
+msgstr "Необходимо, за да влезете в битка с Blitzträger auf E 110."
+
+msgid "ticketTooltip/quantity"
+msgstr "В наличност"
+
+msgid "ticketTooltip/receiveAdditionalText"
+msgstr "1 ключ = 1 битка с Blitzträger auf E 110."
+
+msgid "ticketTooltip/receiveText"
+msgstr "Може да бъде получен за изпълнение на мисии от събитието или да се купи в специални пакети от Магазина до края на събитието."
+
+msgid "ticketTooltip/receiveTitle"
+msgstr "Как се получават"
+
+msgid "ticketTooltip/title"
+msgstr "Ключ"
+
+msgid "tooltips/commander/description"
+msgstr "В Магазина са налични пакети, съдържащи уникални членове на екипажа"
+
+msgid "tooltips/commander/title"
+msgstr "Награди"
+
+msgid "tooltips/completed"
+msgstr "ВСИЧКИ ЕТАПИ СА ЗАВЪРШЕНИ!"
+
+msgid "tooltips/currentStage"
+msgstr "Текущ етап"
+
+msgid "tooltips/high_risk/subtitle"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Ще се наблюдават проблеми с графиката и движението на машините. Възможно е и блокиране на клиента на играта."
+
+msgid "tooltips/high_risk/title"
+msgstr "Ниска производителност"
+
+msgid "tooltips/informative/subtitle"
+msgstr "В случай на недостатъчна производителност, опитайте да намалите графичните настройки."
+
+msgid "tooltips/informative/title"
+msgstr "Този режим изисква висока производителност на компютъра"
+
+msgid "tooltips/mainMenu/modeSelector/description"
+msgstr "Натиснете, за да отворите списъка с достъпни игрови режими."
+
+msgid "tooltips/mainMenu/modeSelector/header"
+msgstr "Избор на игрови режим"
+
+msgid "tooltips/medium_risk/subtitle"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "tooltips/medium_risk/title"
+msgstr "Намалена производителност"
+
+msgid "tooltips/stageAwards"
+msgstr "Етапни награди"
+
+msgid "tooltips/stampsFormat"
+msgstr "{{stampsCurrent}} / {{stampsMax}}"
+
+msgid "tooltips/subtitle"
+msgstr "Събитието приключва след {{timeLeft}}"
+
+msgid "tooltips/title"
+msgstr "Waffenträger: Генезис"
+
+msgid "ttx/accuracy"
+msgstr "Точност"
+
+msgid "ttx/aoe"
+msgstr "Поражения в зоната на ефект"
+
+msgid "ttx/armor"
+msgstr "Броня"
+
+msgid "ttx/description/accuracy"
+msgstr "Набор от параметри, показващи цялостната ефективност на стрелбата по врага."
+
+msgid "ttx/description/aoe"
+msgstr "Способността да ударите повече врагове наведнъж."
+
+msgid "ttx/description/armor"
+msgstr "Дебелина на бронята на корпуса и купола."
+
+msgid "ttx/description/dpm"
+msgstr "Средни поражения, нанасяни от снаряд след изстрел, пробил бронята."
+
+msgid "ttx/description/durability"
+msgstr "Брой точки живот на машината."
+
+msgid "ttx/description/energy"
+msgstr "Масивният щит и огневата мощ на машината изискват голям приток на външна енергия, която се осигурява от допълнителни генератори на полето."
+
+msgid "ttx/description/general"
+msgstr "Универсална, многоцелева машина със средна сила."
+
+msgid "ttx/description/magazine"
+msgstr "Вид касетъчна система за зареждане, което ви позволява да нанасяте значителни поражения за време."
+
+msgid "ttx/description/mobility"
+msgstr "Набор параметри, който показва колко бързо машината може да сменя позицията си на бойното поле."
+
+msgid "ttx/description/revolver"
+msgstr "Вид зареждане, което ви позволява да нанасяте значителни поражения на врагове и на модулите им."
+
+msgid "ttx/dpm"
+msgstr "Поражения на изстрел"
+
+msgid "ttx/durability"
+msgstr "Точки живот"
+
+msgid "ttx/energy"
+msgstr "Търсене на енергия"
+
+msgid "ttx/general"
+msgstr "Универсален"
+
+msgid "ttx/magazine"
+msgstr "Голяма касета"
+
+msgid "ttx/mobility"
+msgstr "Мобилност"
+
+msgid "ttx/revolver"
+msgstr "Залпови поражения"
+
+msgid "vehicle/tags/event_boss/name"
+msgstr "Инженер"
+
+msgid "vehicle/tags/event_hunter/name"
+msgstr "Хрътки"
+
+msgid "vehicle/tags/wt_boss/name"
+msgstr "Инженер"
+
+msgid "vehicle/tags/wt_hunter/name"
+msgstr "Хрътки"
+
+msgid "welcomeScreen/button"
+msgstr "Продължи!"
+
+msgid "welcomeScreen/description_1"
+msgstr "Фон Кригер е създал мислеща машина, която нарича „Електрически интелект“. Тя се крие там, където оръжията ни не могат да я достигнат. Всеки изстрел, който отправяме, се превръща в урок за нея. Но ние все още не сме приключили с обучението ѝ."
+
+msgid "welcomeScreen/description_2"
+msgstr "Поемете контрола над легендарния Blitzträger под командването на Макс фон Кригер в битката срещу Хрътките - или поведете модифициран отряд Хрътки, за да се изправите срещу самия Blitzträger!"
+
+msgid "welcomeScreen/description_3"
+msgstr "Ще получите ценни награди за завършване на етапите на Напредъка. За да завършите тези етапи, ще трябва да спечелите жетони от мисии със специални събития."
+
+msgid "welcomeScreen/header_1"
+msgstr "Роден от светкавица"
+
+msgid "welcomeScreen/header_2"
+msgstr "Да обучиш машината"
+
+msgid "welcomeScreen/header_3"
+msgstr "Напредък и награди"
+
+msgid "welcomeScreen/title"
+msgstr "Waffenträger: Генезис"

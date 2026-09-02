@@ -130,6 +130,9 @@ msgstr "Nu poți crea sau intra în plutoane, deoarece nu deții în Garaj un ve
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "După încheierea calificărilor, vor fi disponibile plutoanele cu 2 sau 7 jucători."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "După finalizarea calificărilor, plutonul cu doi jucători va fi disponibil."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Nu pot crea un pluton."
 
@@ -141,6 +144,9 @@ msgstr "Creează un pluton sau intră într-unul existent. În modul Violență,
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Creează un pluton sau intră într-unul existent. În modul Violență, plutoanele pot avea doar doi jucători."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Formează o unitate tactică de 2 sau 3 jucători pentru joc cooperativ.\n• Moduri de luptă: Exterminare.\n• Tipuri de luptă: Vânătorul de Oțel, Dominare."
@@ -264,12 +270,6 @@ msgstr "Plutonul a atins numărul maxim de tancuri grele"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Plutonul a atins numărul maxim de tancuri medii"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Plutonul a atins numărul maxim de tancuri ușoare"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Plutonul a atins numărul maxim de vehicule cu roți"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Plutonul a atins numărul maxim de tancuri ușoare"

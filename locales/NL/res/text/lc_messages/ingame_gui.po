@@ -700,6 +700,9 @@ msgstr "Zone veroverd"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Schade van brandzone"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "Veroorzaakte schade"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Voertuig gerepareerd"
 
@@ -741,6 +744,9 @@ msgstr "Schade door schot"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Schade door vuurbal"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Schade door schot"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Schade door rammen"
@@ -907,6 +913,9 @@ msgstr "Rupsband niet gepenetreerd"
 msgid "hitMarker/wheelBlocked"
 msgstr "Wiel niet gepenetreerd"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s - %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAXIMAAL VOERTUIGNIVEAU"
 
@@ -1020,6 +1029,21 @@ msgstr "Reparaties zijn niet nodig: alle componenten zijn intact."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] is intact en hoeft niet te worden gerepareerd."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Onbeschikbaar: magazijn is vol."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Onbeschikbaar: geen resterende granaten."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Onbeschikbaar: geen resterende ladingen."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Onbeschikbaar: herladen bijna voltooid."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Raket lanceren is onbeschikbaar"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Coaxiaal wapen kan niet worden geactiveerd."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm brisant %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm anti-tank brisant %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kans op kritische treffer: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Verminderd"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Verhoogd"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standaard"
+
 msgid "shells_kinds/params/damage"
 msgstr "Gemiddelde schade: %(value)s HP"
 
@@ -2710,17 +2746,41 @@ msgstr "Schade per seconde: %(value)s HP/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Schadestraal: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Volledige / enkelvoudige lading"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Standaard / aangepast:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Volledige / enkelvoudige lading:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standaard / aangepast:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standaard / gekalibreerd:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalisatiehoek: %(value)s°"
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Penetratieverlies: %(value)s per 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Gemiddelde penetratie: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Afketshoek: %(value)s°"
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Granaatsnelheid: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Verdovingstijd: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "om EMT-modus te activeren"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr " — Switch naar fortmodus"
@@ -2745,6 +2805,9 @@ msgstr "om vloeibare brandstofboosters te activeren"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "om jetboosters te activeren"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "om de vuurmodus te switchen"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "om Sequentiële raketmotoren te activeren"

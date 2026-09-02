@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Ανοίχτηκαν όλα τα κουτιά σας από τις Γιορτινές Επιχειρήσεις."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Συγχαρητήρια!"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Μπορείτε να αγοράσετε Μεγάλα Κουτιά από το Premium Shop"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Μεγάλα Κουτιά"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Μικρά Κουτιά"
-
-msgid "entryDesc/questSlot"
-msgstr "Κερδίζετε Μικρά Κουτιά από την ολοκλήρωση αποστολών."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
 
 msgid "entryPoint/header"
-msgstr "Κουτιά"
-
-msgid "entryTooltip/body/h1"
-msgstr "Αγοράστε Μεγάλα Κουτιά:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Κερδίστε Μικρά Κουτιά:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Αγοράστε κουτιά με στολίδια του Νέου Έτους για σας και τους φίλους σας από το Premium Shop."
-
-msgid "entryTooltip/body/p2"
-msgstr "Απονέμεται από την ολοκλήρωση αποστολών των Γιορτινών Επιχειρήσεων."
-
-msgid "entryTooltip/header"
 msgstr "Κουτιά"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} ακόμη κουτιά"
 msgid "entryView/buyLabel"
 msgstr "ΑΓΟΡΑ ΚΟΥΤΙΩΝ"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Δεν έχετε Μεγάλα Κουτιά στην Αποθήκη.\nΑγοράστε από το Premium Shop."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Δεν έχετε καθόλου Μικρά Κουτιά.\nΚερδίστε τα στις μάχες."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Γιορτινές Επιχειρήσεις {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Έλαβα Γνώση!"
@@ -178,9 +139,6 @@ msgstr "Άνοιγμα Κιβωτίων"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Απονομή"
 
-msgid "notification/ny19man"
-msgstr "Ένα μοναδικό μέλος πληρώματος: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Λάβατε τα ακόλουθα έπαθλα:"
 
@@ -244,36 +202,6 @@ msgstr "Μία Μοναδική Τεχνοτροπία για το"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Στο Γκαράζ"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Χριστουγεννιάτικα Κουτιά"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Μαγικά Κουτιά"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Κουτιά Νέου Έτους"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Σεληνιακά Κουτιά"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Χριστουγεννιάτικη Συλλογή"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Μαγική Συλλογή"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Συλλογή Νέου Έτους"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Σεληνιακή Συλλογή"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Κουτιά που περιέχουν στολίδια από τη {category} και άλλα πολύτιμα έπαθλα."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Έπαθλα:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Αγοράστε πρόσθετα κοντέινερ από το Premium Shop."
 
@@ -285,12 +213,6 @@ msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπ�
 
 msgid "type/event_premium"
 msgstr "Κιβώτιο Dawn Supply"
-
-msgid "type/newYear_premium"
-msgstr "ΜΕΓΑΛΑ ΚΟΥΤΙΑ"
-
-msgid "type/newYear_usual"
-msgstr "ΜΙΚΡΑ ΚΟΥΤΙΑ"
 
 msgid "type/wt_boss"
 msgstr "Εκκινητήρας Engineer"

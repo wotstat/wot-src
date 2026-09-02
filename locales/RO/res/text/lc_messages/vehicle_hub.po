@@ -34,6 +34,9 @@ msgstr "Tunul poate trage continuu fără a trebui să reîncarce. Fiecare lovit
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Crește puterea motorului și viteza maximă pentru deplasare rapidă pe câmpul de luptă. Când sunt activate, racheto-accelerările reduc manevrabilitatea și nu pot fi dezactivate manual."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere. Parametrii pentru diferite proiectile variază în funcție de modul selectat, iar fiecare mod îți permite să te adaptezi rapid la diferite situații de luptă."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "La activare, acest mod special crește și/sau schimbă anumiți parametri de luptă. Activarea e preferabilă din poziții pregătite pentru angajarea inamicilor."
 
@@ -82,6 +85,9 @@ msgstr "Controlul termic de supraîncălzire a autotunului"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Racheto-accelerare"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Sistemul de calibrare a proiectilelor"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Modul de asalt"
 
@@ -100,8 +106,17 @@ msgstr "Modul de foc în salvă"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "Pe perioada cât rămâi staționar sau te deplasezi lent, aduni niveluri de precizie pentru a îmbunătăți precizia următoarei lovituri.\nLa nivelul maxim de precizie, obții manevrabilitate decentă a tunului, cu dispersie redusă chiar și din mișcare sau la rotirea turelei/carenei."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Mecanismul reduce instantaneu timpul de reîncărcare a proiectilului la un timp fix scurt. Fiecare utilizare consumă o încărcătură per proiectil, iar încărcăturile se refac în timp, mai rapid când încărcătorul este plin. Un număr stabilit de încărcături este disponibil la începutul luptei."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Acest vehicul este echipat cu un lansator de rachete montat în mantaua tunului. Activează abilitatea de a comuta la vizorul armei secundare, apoi lansează o rachetă HE neghidată cu butonul de tragere."
+
 msgid "abilities/special/description/battleFury"
 msgstr "De fiecare dată când lovești un inamic cu un proiectil, obții un nivel de eficiență a încărcării, crescând temporar viteza de reîncărcare a tunului. Nivelurile se acumulează după fiecare lovitură. \nDistrugerea cu un proiectil a unul vehicul inamic conferă niveluri suplimentare de eficiență a încărcării."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Modulul extern de muniție al acestui vehicul îi permite să tragă proiectile unitare puternice cu încărcătură mare care provoacă daune crescute. În timp ce este activ, modulul reduce mobilitatea și cadența de tragere."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Dacă tunul tău e încărcat, poți începe încălzirea următoarei lovituri pentru daune crescute; cu cât mai mare este nivelul de încălzire, cu atât mai mare este efectul.\nLa încălzire maximă, ai la dispoziție câteva secunde pentru a trage; în caz contrar, nu vei putea trage o perioadă."
@@ -142,6 +157,15 @@ msgstr "Sistemul acumulează în timp o încărcătură, bonusul daunelor fiind 
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Activează în orice moment acceleratoarele cu combustibil lichid pentru un plus de viteză la nevoie. Acceleratoarele se încălzesc și trebuie să se răcească înainte de reutilizare, iar depășirea limitei critice de încălzire le va dezactiva complet pentru o scurtă perioadă de timp."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Când lovești cu un proiectil un vehicul inamic vizibil, dispozitivul de reglare a focosului de pe următorul proiectil este ajustat. Dacă lovitura inițială a penetrat blindajul inamic, daunele următorului proiectil sunt mărite. Dacă nu a penetrat, penetrarea următorului proiectil este mărită."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere. Parametrii pentru diferite proiectile variază în funcție de modul selectat, iar fiecare mod îți permite să te adaptezi rapid la diferite situații de luptă."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Când este activat, dispozitivul scanează un sector în fața vehiculului tău, dezvăluind țintele camuflate înainte de a începe refacerea. Dacă dezvăluie un inamic nedescoperit, devii și tu imediat descoperit. Poți opri manual scanarea după o scurtă întârziere."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Acceleratoare cu combustibil solid care îmbunătățesc accelerația, mobilitatea și manevrabilitatea timp de câteva secunde. Propulsoarele din stânga și din dreapta pot funcționa independent unul de celălalt pentru o rotire mai rapidă a carenei și nu restricționează capacitatea de marșarier."
 
@@ -166,8 +190,17 @@ msgstr "Această modificare mecanică crește semnificativ accelerația, puterea
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Calculator balistic analogic"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Sistem de încărcare forțat"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Lansator de rachete coaxial"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Compartiment de muniție semiautomat"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Modul Alimentare cu muniție externă"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Supraîncărcare termo-balistică"
@@ -208,6 +241,15 @@ msgstr "Propulsare post-combustie cu inducție"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Acceleratoare cu combustibil lichid"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Reglare ajustabilă a focosului"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Sistemul de calibrare a proiectilelor"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Sistem de urmărire cu infraroșu (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Acceleratoare secvențiale"
 
@@ -232,8 +274,17 @@ msgstr "Asistarea de înaltă presiune a Turbocompresorului"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Crește precizia următoarei tale lovituri, cu stabilizare decentă la calibrare maximă."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Reduce instantaneu timpul de reîncărcare a proiectilului la un interval fix scurt."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Trage o rachetă HE neghidată dintr-un lansator coaxial, independent de tunul principal."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Fiecare lovitură asupra unui vehicul inamic scade viteza de reîncărcare a tunului pentru o perioadă limitată."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Trage cu proiectile cu daune mari, cu prețul mobilității și al timpului de pregătire."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Crește nivelurile de încălzire pentru a provoca mai multe daune vehiculelor inamice cu următoarea ta lovitură."
@@ -274,6 +325,15 @@ msgstr "Sistemul se încarcă pentru a crește daunele. Cu cât mai mare încăr
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Acceleratoarele pot fi activate oricând pentru o sporire puternică a vitezei."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Lovirea unui vehicul inamic vizibil crește daunele sau penetrarea următorului proiectil."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Tunul are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Extinde raza vizuală și descoperă vehiculele în mișcare și ascunse de vegetație într-un sector îngust."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Acceleratoare cu combustibil solid care cresc accelerația, mobilitatea și manevrabilitatea."
 
@@ -298,8 +358,14 @@ msgstr "O mecanică specială care crește puterea motorului, accelerația și v
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Păstrarea vehiculului staționar sau deplasându-se sub o anumită viteză îi permite vehiculului tău să-și calibreze Calculatorul balistic analogic și să adune niveluri de precizie, crescând acuratețea următoarei lovituri. Dacă depășești limita de viteză, progresul creșterii nivelurilor de precizie se întrerupe până când încetinești din nou. La nivelul maxim de precizie, vehiculul tău obține stabilizare decentă a tunului cu reducere a dispersiei la deplasare sau rotație a tunului sau carenei. Efectul este eliminat după foc."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Acest vehicul este echipat cu un lansator de rachete montat în mantaua tunului. Activează abilitatea de a comuta la vizorul armei secundare, apoi lansează o rachetă HE neghidată cu butonul de tragere."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "De fiecare dată când lovești un inamic vizibil cu un proiectil, obții un nivel de eficiență a încărcării, crescând temporar viteza de reîncărcare a tunului. Nivelurile se acumulează după fiecare lovitură, iar distrugerea cu un proiectil a unul vehicul inamic conferă niveluri suplimentare de eficiență a încărcării."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Modulul extern de muniție al acestui vehicul îi permite să tragă proiectile unitare puternice cu încărcătură mare care provoacă daune crescute. În timp ce este activ, modulul reduce mobilitatea și cadența de tragere."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Dacă tunul tău este încărcat, poți încerca să-ți încălzești următoarea lovitură. Cu cât mai mare este nivelul de căldură atins, cu atât mai mare va fi bonusul daunelor medii. Nu poți schimba proiectilele pe perioada încălzirii. O numărătoare inversă începe la atingerea nivelului maxim de încălzire. Dacă nu tragi înainte ca aceasta să se încheie, vei fi împiedicat să tragi timp de câteva secunde."
@@ -340,6 +406,15 @@ msgstr "În timp, sistemul acumulează automat o încărcătură care este consu
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Acceleratoarele cu combustibil lichid conferă o creștere a puterii motorului, permițându-ți să obții un avantaj pozițional pe câmpul de luptă, limitând însă viteza de marșarier și de rotație a vehiculului. Acestea pot fi activate și dezactivate oricând, în afara perioadei de după atingerea limitei de reactivare. Acceleratoarele se încălzesc în timpul activării și devin indisponibile până la răcire, deci nu pot fi utilizate permanent; depășirea limitei critice de încălzire le va dezactiva temporar. Planifică-ți cu atenție mișcările pentru a nu fi luat prin surprindere."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Când lovești cu un proiectil un vehicul inamic vizibil, dispozitivul de reglare a focosului de pe următorul proiectil este ajustat. Dacă lovitura inițială a penetrat blindajul inamic, daunele următorului proiectil sunt mărite. Dacă nu a penetrat, penetrarea următorului proiectil este mărită."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere. Configurația arată care parametri vor fi afectați prin schimbarea modurilor de tragere."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Un dispozitiv optic avansat îți mărește raza vizuală și îmbunătățește descoperirea vehiculelor în mișcare și ascunse în vegetație. Când este activat, scanează un sector îngust în fața vehiculului tău, dezvăluind țintele camuflate înaintea unei perioade de refacere. Dacă dezvăluie un inamic nedescoperit, devii și tu imediat descoperit. Poți opri manual scanarea după o scurtă întârziere."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Acceleratoare cu combustibil solid care îmbunătățesc accelerația, mobilitatea și manevrabilitatea timp de câteva secunde. Propulsoarele din stânga și din dreapta pot funcționa independent unul de celălalt pentru o rotire mai rapidă a carenei și nu restricționează capacitatea de marșarier. Acestea pot fi utilizate de mai multe ori per luptă, dar au nevoie de timp de refacere înainte de reactivare."
 
@@ -363,6 +438,18 @@ msgstr "Această modificare mecanică crește semnificativ accelerația, puterea
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Toate valorile afișate le reprezintă pe cele maxime pentru vehicul. Echipamentul, directivele și consumabilele pot modifica aceste valori, însă modificările nu sunt reflectate aici."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "Proiectil AP calibrabil"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "Proiectil APCR calibrabil"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "Proiectil HE calibrabil"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "Proiectil HEAT calibrabil"
 
 msgid "characteristics/templates/upTo"
 msgstr "Până la %(value)%s"

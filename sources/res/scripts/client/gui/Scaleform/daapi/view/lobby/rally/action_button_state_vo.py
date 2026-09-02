@@ -184,8 +184,7 @@ class ActionButtonStateVO(dict):
 
     def _getVehiclesGroupIsFullMessage(self):
         DEFAULT_TAG_PRIORITY = 0.0
-        TAGS_PRIORITY = {b'role_LT_universal': 0.9, 
-           b'role_LT_wheeled': 1.0}
+        TAGS_PRIORITY = {}
         res = R.strings.platoon.members.footer.vehiclesGroupIsFull
         tagsWithoutSlot = self.__validationCtx[b'tags']
         if tagsWithoutSlot:

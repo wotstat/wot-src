@@ -3,7 +3,7 @@ from frameworks.wulf import ViewModel
 class BaseQuestModel(ViewModel):
     __slots__ = ()
 
-    def __init__(self, properties=9, commands=0):
+    def __init__(self, properties=10, commands=0):
         super(BaseQuestModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -63,11 +63,18 @@ class BaseQuestModel(ViewModel):
         self._setBool(7, value)
         return
 
-    def getAnimateCompletion(self):
+    def getIsLocked(self):
         return self._getBool(8)
 
-    def setAnimateCompletion(self, value):
+    def setIsLocked(self, value):
         self._setBool(8, value)
+        return
+
+    def getAnimateCompletion(self):
+        return self._getBool(9)
+
+    def setAnimateCompletion(self, value):
+        self._setBool(9, value)
         return
 
     def _initialize(self):
@@ -80,5 +87,6 @@ class BaseQuestModel(ViewModel):
         self._addNumberProperty(b'totalProgress', 0)
         self._addNumberProperty(b'earned', 0)
         self._addBoolProperty(b'isCompleted', False)
+        self._addBoolProperty(b'isLocked', False)
         self._addBoolProperty(b'animateCompletion', False)
         return

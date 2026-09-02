@@ -136,6 +136,24 @@ msgstr[0] "{{count}} vítězství"
 msgstr[1] "{{count}} vítězství"
 msgstr[2] "{{count}} vítězství"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Dostupné ještě {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Bojové zkušenosti"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Abychom oslavili váš návrat do akce, připravili jsme pro váš něco speciálního: {{@ style (color #ede6d9e6)}}každodenní bonus „Opětovné nasazení“{{/}}, který zvyšuje počet bojových ZK získaných za první vítězství dne v každém vozidle."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Vítejte zpět, veliteli!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonus je obnoven každý den v {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Opětovné nasazení: Dostupné"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klikněte pro přechod na své seznamy oblíbených vozidel"
 

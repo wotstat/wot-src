@@ -6052,6 +6052,18 @@ msgstr "Directiva nu va funcționa deoarece ai depășit limita de 6 talente per
 msgid "moduleFits/wrong_slot/body"
 msgstr "Componenta a fost deja montată în altă parte."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Șansa de provocare de daune critice împotriva modulelor și/sau echipajelor inamice."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Cantitatea cu care unghiul de impact al proiectilului este redus atunci când lovește blindajul inamicului."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Cantitatea de putere de penetrare pierdută de proiectil la fiecare 100 mm după ce lovește un ecran inamic."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Unghiul la care proiectilul ricoșează automat de pe blindajul inamicului."
+
 msgid "multiselection/alert/body"
 msgstr "Selectează vehiculele: poți intra în luptă doar cu un grup complet."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Certificatul de luptă: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin cunoștea câmpiile sărate sterpe ale misiunii sale actuale ca pe dosul mâinii sale la fel de bătute de vreme. Nu era străin de mediile volatile, câștigându-și petlițele specializându-se în apărarea împotriva războiului chimic cu mult înainte de a urca vreodată într-un tanc. Douăzeci de ani mai târziu, se afla la doar câteva zile de mers pe jos de complexul de laboratoare unde își începuse serviciul militar ca tehnician junior. Timpul și încercările nu lasă pe nimeni nevătămat, dar, după cum glumea Vadim cu echipa sa, nu fusese depus niciun act pentru eliberarea sa din serviciu, așa că, până când cineva îl va depune corect, el va rămâne aici."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Văile luxuriante ale copilăriei lui Bryn Powell erau la o lume distanță de climatele aspre pe care a ajuns să le cunoască. Ultima sa informare era remarcabil de săracă în detalii, iar expresiile „agent chimic neidentificat” și „risc de pericol mortal: extrem” ar fi făcut mulți comandanți să se roage pentru o realocare. Dar Bryn a considerat întotdeauna autoconservarea ca o calitate admirabilă la alții. Un temerar prin natura sa, ar fi putut avea o carieră strălucitoare drept cascador dacă ar fi simțit vreodată impulsul. Pune-l la comanda unui tanc, iar diferența era neglijabilă."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora era un comandant imperturbabil. Veteran al misiunilor de Peacekeeper în regiuni instabile, învățase cum să-și păstreze calmul pe măsură ce presiunea creștea. Fie că era epuizat după o noapte lungă de patrulare, fie că analiza informații tot mai tulburătoare despre substanța necunoscută pe care echipa sa fusese trimisă să o descopere, stăpânirea sa de sine nu ceda niciodată. Menținea moralul cu glume care se aflau la limita dintre ușuratic și umor negru, refuzând să renunțe la scânteia din ochii săi sau la pasul său tineresc."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Nimic nu trecea neobservat de Sandrine Ousset. Un trăgător de elită decorat înainte de a fi recrutată pentru o misiune secretă de recunoaștere blindată, ochiul ei de vultur se extindea dincolo de luneta puștii. Arată-i un fragment distorsionat de informații inamice și putea trage concluzii atât de precis încât chiar și echipajul ei a confundat inițial abilitățile ei de observație neobișnuite cu clarviziunea. Sub comanda ei, secretele rareori rămâneau îngropate mult timp. Din fericire pentru echipa ei, ea și-a rezervat cea mai necruțătoare examinare pentru sursa reactivului necunoscut pe care fuseseră trimiși să-l investigheze."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Oamenii întreabă dacă îl știu pe Jack Reed. Înainte să răspund, de obicei trag mult aer în piept și închid ochii un moment. Să îi fii comandant nu e treabă ușoară. Reed e un rebel care reușește cumva să urmeze ordinele și să respecte regulile impuse de armată. Acum e închis într-un tanc unde e mai fierbinte ca în iad. Dar în capul lui e undeva pe șosele, călărind motorul lui pe Route 66, cu vântul în plete."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Campania Sectorul 3"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Crescut într-o familie de ceasornicari din Bern, Stefan a moștenit o meserie care necesita liniște, răbdare și control absolut. Pentru el, însă, aceste calități aveau să definească o carieră foarte diferită. În 1940, serviciile de informații britanice i-au oferit o alegere: Elveția neutră de o parte a graniței, el de cealaltă. În trecătorile alpine, a evoluat de la mecanic de dispozitive de spionaj la trăgător de elită. După război, a continuat acea muncă, eliminându-i pe cei care au scăpat justiției sub nume false. Stefan a lucrat întotdeauna singur, fără a lăsa urme, și încă o face: nimeni din Sectorul 3 nu i-a văzut vreodată fața."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Campania Sectorul 3"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s—proiectilul standard pentru tunul selectat. Utilizat pentru c
 msgid "shell/basic/description/bold"
 msgstr "Proiectil standard"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Modul Alimentare cu muniție externă al vehiculului îi permite utilizarea de proiectile cu daune crescute."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modificat:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "O mecanică specială a tunului vehiculului permite focul devreme cu parametri alterați ai proiectilului."
 
@@ -10866,6 +10932,21 @@ msgstr "Standard:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Alterare:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Reglarea ajustabilă a focosului crește daunele sau penetrarea medie."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Ajustabil:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Tunul vehiculului are dispozitive speciale care permit modificarea unor parametri ai proiectilului înainte de tragere."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standard"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Calibrat"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Arată/ascunde pe minihartă zona lovită de artilerii."
@@ -11028,6 +11109,12 @@ msgstr "Reducerea calității sunetului poate îmbunătăți performanța joculu
 
 msgid "soundQualityOn/header"
 msgstr "Sunet LQ"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Daunele medii{{/}} sunt crescute după o lovitură penetrantă împotriva unui vehicul inamic."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Penetrarea medie{{/}} este crescută după o lovitură non-penetrantă împotriva unui vehicul inamic."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Membrii de echipaj din vehiculele premium se antrenează cu 50% mai rapid:"
@@ -11386,6 +11473,36 @@ msgstr "Sistem îmbunătățit de autoreîncărcare reduce timpul standard de au
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "perioada dintre focul cu ultimul proiectil din casetă (sau cu ambele tunuri) și încărcarea noii casete. / Numărul de tunuri sau de proiectile din casetă."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Perioada de timp ce înlocuiește timpul de reîncărcare rămas, la utilizarea mecanismului."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Perioada de înlocuire a unei încărcături dacă caseta este plină."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Perioada de înlocuire a unei încărcături dacă caseta nu este plină."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Cantitatea de încărcături disponibile la începutul luptei."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Cantitatea maximă de încărcături care poate fi menținută în orice moment pentru accelerarea încărcării proiectilului."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Valoarea medie a daunelor provocate de un proiectil al lansatorului de rachete după o lovitură penetrantă. Dispersia potențială de daune este +/-25% față de valoarea medie."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersia definită de deviația maximă a proiectilului de la punctul ochit, la o distanță de 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Valoarea medie a grosimii blindajului penetrate de o rachetă. Dispersia este +/-25% față de valoarea medie."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Perioada de reîncărcare a unui lansator de rachete"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Determină viteza de deplasare a unei rachete neghidate."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Valoarea medie a daunelor provocate de un proiectil standard după o lovitură penetrantă. Dispersia potențială de daune este +/-25% față de valoarea medie."
 
@@ -11406,6 +11523,21 @@ msgstr "Durata maximă a efectului acceleratoarelor după activare."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Timpul de încărcare între proiectile în container. / Numărul de containere din casetă. / Numărul de proiectile din container."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Valoarea medie a daunelor provocate de un proiectil unitar cu încărcătură mare, după o lovitură penetrantă. Dispersia potențială de daune este ± 25% față de valoarea medie."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Reducerea vitezei nominale de înaintare a vehiculului în modul Alimentare cu muniție externă. Viteza de marșarier nu este afectată."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Reducerea cantității de proiectile per minut în modul Alimentare cu muniție externă."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Perioada minimă necesară pentru a pregăti tunul pentru tragere după activarea modului Alimentare cu muniție externă. În acest timp, nu poți schimba modurile."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Perioada minimă necesară pentru a pregăti tunul pentru tragere după revenirea la modul Standard. În acest timp, nu poți schimba modurile."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Timpul de pregătire pentru tragerea cu ambele tunuri simultan. / Durata reîncărcării în bloc a tunului după tragerea unei salve."
@@ -11737,8 +11869,17 @@ msgstr "Durata reîncărcării armamentului auxiliar după tragere."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Cantitatea de proiectile disponibilă armamentului auxiliar pe perioada fiecărei activări."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bonusul la daune acordat după o lovitură penetrantă asupra unui vehicul inamic."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonusul la penetrare acordat după o lovitură non-penetrantă asupra unui vehicul inamic."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Perioada necesară pentru încărcarea proiectilelor la începutul luptei și la schimbarea între tipurile de proiectile."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Timpul necesar pentru a comuta între modurile de tragere Calibrat și Standard."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Dispersie a tunului, definită de deviația maximă a proiectilului de la punctul ochit, la o distanță de 100 m."
@@ -11748,6 +11889,36 @@ msgstr "Dispersie a tunului, definită de deviația maximă a proiectilului de l
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Afișează cât de mult poate devia un proiectil față de punctul de țintire în metri per 100m față de țintă. Valoarea standard (prima) este pentru un tun încins, valoarea îmbunătățită (a doua) este pentru un tun răcit."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Reducere progresivă a camuflajului vehiculelor inamice în spatele vegetației din sectorul de scanare al IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Reducere progresivă a camuflajului vehiculelor inamice în mișcare din sectorul de scanare al IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Timpul scurs de la începerea luptei, necesar pentru IRST să poată fi utilizat pentru prima dată."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Durata scanării IRST."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Timpul necesar pentru ca IRST să poată fi utilizat din nou după activare."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Reducerea vitezei de rotație a turelei în timp ce IRST este activ."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Lățimea sectorului de scanare al IRST la sfârșitul duratei sale."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Lățimea sectorului de scanare al IRST la începutul duratei sale."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Perioada în care vehiculul tău este descoperit, după ce detectezi cu IRST un inamic nedescoperit."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Creșterea progresivă a razei vizuale în sectorul de scanare al IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Viteza vehiculului, definită de caracteristicile sale tehnice."

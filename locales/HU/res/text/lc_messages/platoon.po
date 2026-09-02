@@ -130,6 +130,9 @@ msgstr "Nem hozhatsz létre, és nem csatlakozhatsz szakaszhoz, mert a garázsod
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "A kvalifikáció befejezését követően 2 és 7 fős szakaszok lesznek elérhetők."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "A kvalifikációt követően egy kétfős szakasz válik elérhetővé."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Szakasz létrehozása nem lehetséges."
 
@@ -141,6 +144,9 @@ msgstr "Létrehozhatsz egy szakaszt, vagy csatlakozhatsz egy meglévőhöz. Roha
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Szakasz"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Létrehozhatsz egy szakaszt, vagy csatlakozhatsz egy meglévőhöz. Roham módban a szakaszok csak 2 játékosból állhatnak."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Hozz létre 2 vagy 3 játékosból álló taktikai egységet, hogy együttműködjetek a csatákban.\n• Csata módok: Dühöngés.\n•Csata típusok: Acélvadászat, Dominancia."
@@ -264,12 +270,6 @@ msgstr "A szakasz elérte a nehéz harckocsik maximális számát"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "A szakasz elérte a közepes harckocsik maximális számát"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "A szakasz elérte a könnyű harckocsik maximális számát"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "A szakasz elérte a kerekes járművek maximális számát"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "A szakasz elérte a könnyű harckocsik maximális számát"

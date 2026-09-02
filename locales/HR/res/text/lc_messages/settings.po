@@ -46,6 +46,15 @@ msgstr "Omogućuje detaljniju i stvarniju obradu uništenja objekata na mapi.\n\
 msgid "HAVOK_ENABLED/warning"
 msgstr "Ova postavka će biti primjenjena u slijedećoj bitci ako je isključena u trenutnoj bitci."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Poboljšani vizualni efekti"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Omogućuje poboljšane vizualne efekte. Onemogućavanje ove opcije vraća standardne efekte koji mogu poboljšati performanse igre."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Ova postavka će biti primjenjena u slijedećoj bitci ako je isključena u trenutnoj bitci."
+
 msgid "LANGUAGE_CODE"
 msgstr "hr"
 
@@ -175,11 +184,11 @@ msgstr "Uključi tragove gusjenica i kotača"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Prikazuje tragove gusjenica i kotača na tlu.\n\nNedostupno s pojednostavljenom grafikom i niskom kvalitetom poligona."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Sakrij 3D privitke u snajperskom režimu"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Vidljivost efekta i 3D privitka"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Privremeno sakriva 3D privitke vozila iz ciljnika topa u snajperskom režimu.\n\nSmanjuje vizualnu pretrpanost i poboljšava preciznost ciljanja."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Prilagođava vidljivost efekata i 3D privitaka pored središta ekrana kako bi se umanjilo vizualno zaklanjanje prilikom ciljanja. VIdljivost 3D privitka se prilagođava samo u snajperskom režimu.\n\nNiže vrijednosti čine efekte i 3D privitke providnijima u svrhu povećanja jasnoće ciljanja."
 
 msgid "WATER_QUALITY"
 msgstr "Kvaliteta vode"
@@ -1995,6 +2004,15 @@ msgstr "Režim:"
 
 msgid "screenMode/windowed"
 msgstr "U prozoru"
+
+msgid "showPrebattleHighlights"
+msgstr "Uključenje reflektora"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Prikazuje izbor vizualno upečatljivih tenkova tijekom odbrojavanja prije bitke.\n\nOnemogućavanje ovog parametra može poboljšati performanse igre."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Ako je postavka onemogućena za trenutnu bitku, bit će omogućena za sljedeću."
 
 msgid "smoothing/description"
 msgstr "Određuje stupanj dodatne obrade tankih linija objekata u igri i scene igre. Minimizira aliasing efekt. Obrisi objekta izgledaju prirodnije."

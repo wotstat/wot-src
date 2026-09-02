@@ -232,11 +232,35 @@ msgstr "Den här kanonen kan ge kontinuerlig eld utan att behöva ladda om. Varj
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Överhettningsskyddad automatkanon"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mekanismen minskar omedelbart omladdningstiden till en kort bestämd tid. Varje användning förbrukar en laddning per granat och laddningarna fylls på över tid, snabbare när magasinet är fullt. Ett visst antal laddningar är tillgängliga när striden börjar."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Forcerad omladdningsmekanism"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Vagnen är utrustad med ett raketvapen monterat i kanonmanteln. För att växla till raketsiktet tryck:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaxialt raketvapen"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Tryck på eldgivningsknappen för att avfyra en raket när du använder raketsiktet:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaxialt raketvapen"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Varje gång du träffar en fiende med en granat ökar din omladdningseffektivitet, vilket tillfälligt minskar omladdningstiden. Nivån höjs för varje träff.\nFörstör du en fiende med en granat får du extra effektnivåer."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Semiautomatiskt ammunitionsställ"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Denna vagns externa ammunitionskassett gör att den kan avfyra kraftfulla enkelskott med hög laddning för ökad skadeverkan. När modulen är aktiv minskar den också rörligheten och eldhastigheten."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Externt ammunitionsladdningsläge"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Om kanonen är laddad kan du börja värma nästa granat för ökad skadeverkan. Ju högre värmenivå desto större bpnus på genomsnittsskadan.\nFör att starta värmeprocessen trycker du på:"
@@ -345,6 +369,30 @@ msgstr "Vid aktivering ökar raketmotorn motorstyrka och topphastighet. Vagnen b
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Fördelar och nackdelar"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "När du träffar en synlig fiendevagn med en granat justeras tändrörsinställningen på nästa granat. Om det första skottet slog igenom fiendens pansar ökas skadan för nästa granat. Om det inte gjorde det ökas genomslagsförmågan för nästa granat."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Tändrörsställdon"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning. Parametrarna för olika granater varierar beroende på det valda läget, och de olika lägena gör att du snabbt kan anpassa dig till olika stridssituationer."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Granatkalibreringssystem"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "En avancerad optisk enhet som ökar din siktsträcka och förbättrar upptäckten av rörliga vagnar och vagnar dolda av vegetation. När den aktiveras avsöker den ett smalt fält framför din vagn och avslöjar dolda fiender följt av en nedkylningstid."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "IR-system för målföljning (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Notera dock att om det avslöjar en oupptäckt fiende blir du också omedelbart upptäckt under en viss tid, och både du och de fiender du upptäcker meddelas direkt. Du kan manuellt avbryta skanningen och påbörja enhetens nedkylning efter en kort fördröjning."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "IR-system för målföljning (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Fastbränsleraketer som ökar accelerationsförmåga, rörlighet och manöverförmåga i flera sekunder. Höger och vänster raket aktiveras oberoende av varandra för bättre skrovrotation och begränsar inte backförmågan."

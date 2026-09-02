@@ -1009,6 +1009,9 @@ msgstr "Výcvik člena/členů posádky selhal kvůli chybě serveru. Zkuste to 
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (%(count)sx)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo použité pro přihlášení do World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Chyba při přijetí dárku: chyba serveru."
+msgstr "Chyba při otevírání krabičky: Chyba serveru."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Chyba při přijetí dárku. Počkejte prosím na dokončení předchozí operace."
+msgstr "Chyba při otevírání krabičky: Počkejte prosím na dokončení předchozí operace."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Akce je dočasně nedostupná. Zkuste to později."
@@ -2383,30 +2386,6 @@ msgstr "Unikátní kamufláž pro %(vehicleName)s získána."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Unikátní kamufláž pro %(vehicleName)s je k dispozici pro všechna vozidla národa: %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Postup všemi operacemi byl uložen. Kdykoliv můžete v kampaních pokračovat."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampaně „%(campaignName1)s“ a „%(campaignName2)s“ pozastaveny"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Pozastavené operace a jejich mise byly obnoveny."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampaně „%(campaignName1)s“ a „%(campaignName2)s“ obnoveny"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Veškerý postup operacemi byl uložen. Kdykoliv můžete v kampani pokračovat."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampaň „%(campaignName)s“ pozastavena"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Pozastavené operace byly obnoveny."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampaň „%(campaignName)s“ obnovena"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Díl „%(detailName)s“ byl úspěšně namontován."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Chyba při získávání odměn. Zkuste to prosím později."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Díl „%(detail_name)s“ byl úspěšně namontován."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Chyba při získávání odměn. Zkuste to prosím později."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Díl „%(detail_name)s“ byl úspěšně namontován."
 
 msgid "personalMissions/reward/regular/server_error"

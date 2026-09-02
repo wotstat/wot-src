@@ -40,6 +40,9 @@ msgstr "Išrasti"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Susigrąžinti"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Į dideles dėžes"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Neišrasta %(nation)s %(level)s lygio mašina"
 
@@ -54,6 +57,15 @@ msgstr "Nuolaida pirkimui:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Nuolaida išradimui:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Šią mašiną galite gauti iš {{@ style (color $color)}}didelių dėžių!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Didelių dėžių!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Šią mašiną galite gauti iš"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Panaudoti nuolaidų kuponą: %(value)s"

@@ -232,11 +232,35 @@ msgstr "Denne våpenet kan skyte kontinuerlig uten å måtte lades på nytt. Hve
 msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
 msgstr "Autokanon med overopphetingskontroll"
 
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "Mekanismen reduserer umiddelbart ladetiden for granater til en kort, fastsatt tid. Hver bruk forbruker én ladning per granat og ladningene fylles opp over tid—raskere når klipset er fullt. Et bestemt antall ladninger er tilgjengelig ved kampstart."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Tvungen lademekanisme"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "Dette kjøretøyet er utstyrt med en rakettutkaster montert i kanonmantelen. For å bytte til rakettsikte, trykk:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Koaksial rakettutkaster"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "Trykk på avfyringsknappen mens du sikter med rakettsiktet for å avfyre en rakett:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Koaksial rakettutkaster"
+
 msgid "detailsHelp/mechanics/battleFury/page1/description"
 msgstr "Hver gang du treffer en fiende med en granat får du et høyere nivå for ladeeffektivitet, noe som midlertidig gir din kanons ladehastighet en boost. Nivåer akkumuleres for hvert treff.\nÅ bekjempe et fiendtlig kjøretøy med en granat gir deg ytterligere effektivitetsnivåer for lading."
 
 msgid "detailsHelp/mechanics/battleFury/page1/title"
 msgstr "Semiautomatisk ammunisjonsstativ"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "Dette kjøretøyets eksterne ammunisjonsforsyningsmodul gjør det mulig å avfyre kraftige enhetrunder med høy ladning som gir økt skade. Når modulen er aktiv reduserer den også mobiliteten og skuddtakten."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "Ekstern ammunisjonsforsyningsmodus"
 
 msgid "detailsHelp/mechanics/chargeShot/page1/description"
 msgstr "Dersom din kanon er ladet kan du begynne å varme opp ditt neste skudd. Jo høyere varmenivå du når, desto større blir bonusen på gjennomsnittsskade.\nFor å starte oppvarmingsprosessen, trykk:"
@@ -345,6 +369,30 @@ msgstr "Ved aktivering øker rakettboosterne motorkraften og toppfarten forover.
 
 msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
 msgstr "Fordeler og ulemper"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "Når du treffer et synlig fiendtlig kjøretøy med en granat justeres tennsatsen på det neste skuddet. Hvis det første skuddet trengte gjennom fiendens pansring økes skaden på det neste skuddet. Hvis ikke, økes penetrasjonsevnen i stedet."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Justerbar tennsats"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "Kjøretøyets kanon har spesialfunksjoner som gjør det mulig å endre visse granatparametere før avfyring. Parametere for ulike granater varierer basert på valgt modus og hver modus lar deg raskt tilpasse deg ulike kampsituasjoner."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Granatkalibreringssystem"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "En avansert optikkenhet øker synsrekkevidden din og forbedrer oppdagelsen av kjøretøy i bevegelse eller som er skjult bak vegetasjon. Når den aktiveres skanner den en smal sektor foran kjøretøyet ditt og avslører skjulte mål før en nedkjølingsperiode starter."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrarødt søk og sporing (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "Men hvis den avslører en uoppdaget fiende blir du også umiddelbart oppdaget i en bestemt tidsperiode og både du og fiendene du oppdager får varsel med en gang. Du kan avbryte skanningen manuelt og starte enhetens nedkjøling etter en kort forsinkelse."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrarødt søk og sporing (IRST)"
 
 msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
 msgstr "Boostere med fast drivstoff som øker akselerasjon, mobilitet og manøvreringsevne i flere sekunder. De venstre og høyre boosterne kan fungere uavhengig av hverandre for raskere dreining av skroget, og begrenser ikke muligheten for reversering."

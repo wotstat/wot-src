@@ -40,6 +40,9 @@ msgstr "Utvikling"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Gjenopprett"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Til store esker"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Kjøretøy fra %(nation)s på nivå %(level)s har ikke blitt utviklet"
 
@@ -54,6 +57,15 @@ msgstr "Rabatt på kjøp:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Utviklingsrabatt:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Dette kjøretøyet kan bli sluppet fra {{@ style (color $color)}}store esker!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Store esker!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Dette kjøretøyet kan slippes fra"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Aktivér en kupongrabatt: %(value)s"

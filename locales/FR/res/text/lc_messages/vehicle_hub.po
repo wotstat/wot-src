@@ -34,6 +34,9 @@ msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque ti
 msgid "abilities/common/description/rocketAcceleration"
 msgstr "Augmente la puissance du moteur et la vitesse maximale pour se déplacer rapidement sur le champ de bataille. Lorsqu'ils sont actifs, les propulseurs réduisent la maniabilité et ils ne peuvent pas être désactivés manuellement."
 
+msgid "abilities/common/description/shellParamsSwitcher"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant de tirer. Les paramètres des différents obus varient en fonction du mode sélectionné, et chaque mode vous permet de vous adapter rapidement à différentes situations de combat."
+
 msgid "abilities/common/description/siegeMode"
 msgstr "Lorsqu'il est activé, ce mode spécial augmente et/ou change certains paramètres de combat. Surtout utile une fois en position et prêt à engager l'ennemi."
 
@@ -82,6 +85,9 @@ msgstr "Canon automatique avec gestion de la surchauffe"
 msgid "abilities/common/name/rocketAcceleration"
 msgstr "Propulseurs"
 
+msgid "abilities/common/name/shellParamsSwitcher"
+msgstr "Système de calibrage des obus"
+
 msgid "abilities/common/name/siegeMode"
 msgstr "Mode tir"
 
@@ -100,8 +106,17 @@ msgstr "Mode de tir salve"
 msgid "abilities/special/description/accuracyStacks"
 msgstr "En restant immobile ou en roulant lentement, vous accumulez des niveaux de précision pour améliorer la précision de votre prochain tir.\nAu niveau de précision le plus élevé, vous atteignez un maniement du canon correct, avec une dispersion réduite même en mouvement ou lors de la rotation de la caisse ou de la tourelle."
 
+msgid "abilities/special/description/autoreloaderSurge"
+msgstr "Le mécanisme réduit instantanément le rechargement de l'obus à un temps fixe court. Chaque utilisation consomme une charge par obus, et les charges se reconstituent au fil du temps, plus rapidement lorsque le chargeur est plein. Un certain nombre de charges est disponible au début de la bataille."
+
+msgid "abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ce véhicule est équipé d'un lance-roquettes monté dans le mantelet du canon. Activez la capacité pour passer à la vue de visée de l'arme secondaire, puis lancez une roquette HE non guidée avec le bouton de tir."
+
 msgid "abilities/special/description/battleFury"
 msgstr "Chaque fois que vous touchez un ennemi avec un obus, vous gagnez un niveau d'efficacité du rechargement qui accélère temporairement la vitesse de rechargement de votre canon. Les niveaux se cumulent à chaque tir. \nLa destruction d'un véhicule ennemi avec un obus octroie des niveaux d'efficacité du rechargement supplémentaires."
+
+msgid "abilities/special/description/bustleFeed"
+msgstr "Le Module d'alimentation externe en munitions de ce véhicule lui permet de tirer de puissants obus unitaires à charge élevée qui infligent des dégâts accrus. Lorsqu'il est actif, cet élément réduit également la mobilité et la cadence de tir."
 
 msgid "abilities/special/description/chargeShot"
 msgstr "Si votre canon est chargé, vous pouvez commencer à chauffer votre prochain tir pour des dégâts accrus : plus le niveau de chauffe est élevé, plus l'effet est important.\nAu niveau de chauffe maximal, vous disposez de plusieurs secondes pour tirer, faute de quoi vous serez temporairement dans l'incapacité de tirer."
@@ -142,6 +157,15 @@ msgstr "Le système accumule de la charge au fil du temps. Plus la charge est é
 msgid "abilities/special/description/rechargeableNitro"
 msgstr "Activez les Propulseurs à carburant liquide à tout moment pour gagner en vitesse au moment où vous en avez le plus besoin. Les propulseurs chauffent et doivent être refroidis avant d'être réutilisés, et dépasser le niveau de chauffe critique les désactivera totalement pour un certain temps."
 
+msgid "abilities/special/description/shellCalibration"
+msgstr "Lorsque vous touchez un véhicule ennemi visible avec un obus, le régleur de fusée du prochain obus est ajusté. Si le tir initial a pénétré le blindage ennemi, les dégâts du tir suivant sont augmentés. Dans le cas contraire, la pénétration du tir suivant est augmentée."
+
+msgid "abilities/special/description/shellParamsSwitcher"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant de tirer. Les paramètres des différents obus varient en fonction du mode sélectionné, et chaque mode vous permet de vous adapter rapidement à différentes situations de combat."
+
+msgid "abilities/special/description/sightPointer"
+msgstr "Une fois activé, le dispositif scanne un secteur devant votre véhicule, révélant les cibles dissimulées avant un temps de rechargement. S'il révèle un ennemi non repéré, vous devenez également immédiatement repéré. Vous pouvez arrêter manuellement le scan après un court délai."
+
 msgid "abilities/special/description/stagedJetBoosters"
 msgstr "Des réacteurs à carburant solide renforçant l'accélération, la mobilité et la maniabilité pour plusieurs secondes. Les réacteurs gauche et droit peuvent fonctionner indépendamment l'un de l'autre pour faire pivoter la caisse plus rapidement, et sans l'empêcher d'utiliser la marche arrière."
 
@@ -166,8 +190,17 @@ msgstr "Cette modification mécanique augmente considérablement l'accélératio
 msgid "abilities/special/name/accuracyStacks"
 msgstr "Dispositif de calcul balistique analogique"
 
+msgid "abilities/special/name/autoreloaderSurge"
+msgstr "Mécanisme de chargement forcé"
+
+msgid "abilities/special/name/auxiliaryRocketLauncher"
+msgstr "Lance-roquettes coaxial"
+
 msgid "abilities/special/name/battleFury"
 msgstr "Râtelier de munitions semi-automatique"
+
+msgid "abilities/special/name/bustleFeed"
+msgstr "Mode Alimentation en munitions externe"
 
 msgid "abilities/special/name/chargeShot"
 msgstr "Surcharge thermo-balistique"
@@ -208,6 +241,15 @@ msgstr "Postcombustion à induction"
 msgid "abilities/special/name/rechargeableNitro"
 msgstr "Propulseurs à carburant liquide"
 
+msgid "abilities/special/name/shellCalibration"
+msgstr "Régleur de fusée ajustable"
+
+msgid "abilities/special/name/shellParamsSwitcher"
+msgstr "Système de calibrage des obus"
+
+msgid "abilities/special/name/sightPointer"
+msgstr "Recherche et poursuite infrarouge (IRST)"
+
 msgid "abilities/special/name/stagedJetBoosters"
 msgstr "Réacteurs séquentiels"
 
@@ -232,8 +274,17 @@ msgstr "Assistance turbo haute pression"
 msgid "abilities/special/shortDescription/accuracyStacks"
 msgstr "Augmente la précision de votre prochain tir avec une stabilisation correcte après un étalonnage complet."
 
+msgid "abilities/special/shortDescription/autoreloaderSurge"
+msgstr "Réduit instantanément le temps de rechargement de l'obus à une courte durée fixe."
+
+msgid "abilities/special/shortDescription/auxiliaryRocketLauncher"
+msgstr "Tire une roquette explosive non guidée depuis un lanceur coaxial, indépendamment du canon principal."
+
 msgid "abilities/special/shortDescription/battleFury"
 msgstr "Chaque coup infligé à un véhicule ennemi accélère la vitesse de rechargement du canon pendant un certain temps."
+
+msgid "abilities/special/shortDescription/bustleFeed"
+msgstr "Tire des obus à dégâts élevés au détriment de la mobilité et du délai de récupération."
 
 msgid "abilities/special/shortDescription/chargeShot"
 msgstr "Accumulez des niveaux de chaleur pour infliger davantage de dégâts aux véhicules ennemis à votre prochain tir."
@@ -274,6 +325,15 @@ msgstr "Le système accumule de la charge pour augmenter les dégâts. Plus la c
 msgid "abilities/special/shortDescription/rechargeableNitro"
 msgstr "Les propulseurs peuvent être activés à tout moment pour une belle augmentation de la vitesse."
 
+msgid "abilities/special/shortDescription/shellCalibration"
+msgstr "Toucher un véhicule ennemi visible augmente les dégâts ou la pénétration de l'obus suivant."
+
+msgid "abilities/special/shortDescription/shellParamsSwitcher"
+msgstr "Le canon dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant le tir."
+
+msgid "abilities/special/shortDescription/sightPointer"
+msgstr "Augmente la portée de vue et détecte les véhicules en mouvement ou cachés par la végétation dans un secteur étroit."
+
 msgid "abilities/special/shortDescription/stagedJetBoosters"
 msgstr "Réacteurs à carburant solide qui boostent l'accélération, la mobilité et la maniabilité."
 
@@ -298,8 +358,14 @@ msgstr "Une mécanique spéciale qui augmente la puissance du moteur, l'accélé
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Rester immobile ou rouler sous une certaine vitesse permet à votre véhicule de calibrer son Dispositif de calcul balistique analogique et d'accumuler des niveaux de précision, augmentant ainsi la précision de votre prochain tir. Si vous dépassez la limite de vitesse, votre progression dans l'accumulation de niveaux de précision sera mise en pause tant que vous ne ralentirez pas. Au niveau de précision le plus élevé, votre véhicule gagne une stabilisation du canon correcte, avec une dispersion réduite en mouvement ainsi que lors de la rotation de la caisse ou de la tourelle. L'effet est retiré lorsque vous tirez."
 
+msgid "characteristics/abilities/special/description/auxiliaryRocketLauncher"
+msgstr "Ce véhicule est équipé d'un lance-roquettes monté dans le mantelet du canon. Activez la capacité pour passer à la vue de visée de l'arme secondaire, puis lancez une roquette HE non guidée avec le bouton de tir."
+
 msgid "characteristics/abilities/special/description/battleFury"
 msgstr "Chaque fois que vous touchez un ennemi visible avec un obus, vous gagnez un niveau d'efficacité du rechargement qui accélère temporairement la vitesse de rechargement de votre canon. Les niveaux se cumulent à chaque tir et la destruction d'un véhicule ennemi avec un obus octroie des niveaux d'efficacité du rechargement supplémentaires."
+
+msgid "characteristics/abilities/special/description/bustleFeed"
+msgstr "Le Module d'alimentation externe en munitions de ce véhicule lui permet de tirer de puissants obus unitaires à charge élevée qui infligent des dégâts accrus. Lorsqu'il est actif, cet élément réduit également la mobilité et la cadence de tir."
 
 msgid "characteristics/abilities/special/description/chargeShot"
 msgstr "Si votre canon est chargé, vous pouvez commencer à chauffer votre prochain tir. Plus le niveau de chaleur atteint est élevé, plus le bonus aux dégâts moyens le sera également. Lors du processus de chauffe, vous ne pouvez pas changer de type d'obus. Lorsque vous atteignez le niveau maximal de chauffe, un compte à rebours commence. Si vous ne tirez pas avant la fin de celui-ci, vous ne pourrez pas tirer pendant plusieurs secondes."
@@ -340,6 +406,15 @@ msgstr "Au fil du temps, le système accumule automatiquement une charge qui est
 msgid "characteristics/abilities/special/description/rechargeableNitro"
 msgstr "Les Propulseurs à carburant liquide confèrent une poussée à la puissance du moteur, ce qui vous permet de prendre un avantage positionnel sur le champ de bataille, mais en limitant la vitesse en marche avant et en marche arrière de votre véhicule. Ils peuvent être activés ou désactivés à tout moment, sauf après avoir atteint la limite de réactivation. Les propulseurs chauffent tant qu'ils sont actifs et ils deviennent indisponibles jusqu'à la fin du refroidissement, ils ne peuvent donc pas être utilisés en continu, et dépasser le niveau de chauffe critique les désactivera totalement pendant un moment. Prévoyez vos mouvements attentivement pour éviter de vous faire surprendre."
 
+msgid "characteristics/abilities/special/description/shellCalibration"
+msgstr "Après avoir touché un véhicule ennemi visible avec un obus, le régleur de fusée de du prochain obus est ajusté. Si le tir initial a pénétré le blindage ennemi, les dégâts du prochain tir sont augmentés. Si ce n'est pas le cas, la pénétration du prochain tir est augmentée."
+
+msgid "characteristics/abilities/special/description/shellParamsSwitcher"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant de tirer. L'équipement indique quels paramètres seront affectés en changeant de mode de tir."
+
+msgid "characteristics/abilities/special/description/sightPointer"
+msgstr "Un dispositif optique avancé augmente votre portée de vue et améliore la détection des véhicules en mouvement et cachés par le feuillage. Lorsqu'il est activé, il scanne un secteur étroit devant votre véhicule, révélant les cibles dissimulées avant une période de rechargement. S'il révèle un ennemi non repéré, vous devenez également immédiatement repéré. Vous pouvez arrêter manuellement le scan après un court délai."
+
 msgid "characteristics/abilities/special/description/stagedJetBoosters"
 msgstr "Des réacteurs à carburant solide qui améliorent l'accélération, la mobilité et la maniabilité du véhicule pendant plusieurs secondes. Contrairement aux propulseurs standards, les réacteurs gauche et droit peuvent fonctionner indépendamment l'un de l'autre pour faire pivoter la caisse plus rapidement, et sans l'empêcher d'utiliser la marche arrière. Ils peuvent être utilisés à plusieurs reprises en bataille, mais ils nécessitent un temps de rechargement avant d'être réactivés."
 
@@ -363,6 +438,18 @@ msgstr "Cette modification mécanique augmente considérablement l'accélératio
 
 msgid "characteristics/abilities/special/notes"
 msgstr "Toutes les valeurs affichées correspondent au maximum possible pour ce véhicule. L'équipement, les directives et les consommables peuvent modifier ces valeurs, mais ces changements ne sont pas reflétés ici."
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
+msgstr "obus AP calibrable"
+
+msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING_CR"
+msgstr "obus APCR calibrable"
+
+msgid "characteristics/shellParamsSwitcher/HIGH_EXPLOSIVE"
+msgstr "obus HE calibrable"
+
+msgid "characteristics/shellParamsSwitcher/HOLLOW_CHARGE"
+msgstr "obus HEAT calibrable"
 
 msgid "characteristics/templates/upTo"
 msgstr "Jusqu'à %(value)%s"

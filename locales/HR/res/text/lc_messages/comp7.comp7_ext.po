@@ -50,25 +50,25 @@ msgid "alertMessage/notSet"
 msgstr "Ovaj režim je nedostupan na serveru %(serverName)s"
 
 msgid "alertMessage/preannounce/first"
-msgstr "Sezona Azurnog Zmaja počinje: %(date)s"
+msgstr "Sezona Azurnog Feniksa počinje: %(date)s"
 
 msgid "alertMessage/preannounce/second"
-msgstr "Sezona Grimiznog Zmaja počinje: %(date)s"
+msgstr "Sezona Grimiznog Feniksa počinje: %(date)s"
 
 msgid "alertMessage/preannounce/third"
-msgstr "Sezona Zmaja od žada počinje: %(date)s"
+msgstr "Sezona Feniksa od žada počinje: %(date)s"
 
 msgid "alertMessage/qualification"
 msgstr "Čekanje na rezultate kvalifikacija za primitak vašeg ranga"
 
 msgid "alertMessage/seasonEnd/first"
-msgstr "Završila je sezona Azurnog Zmaja"
+msgstr "Završila je sezona Azurnog Feniksa"
 
 msgid "alertMessage/seasonEnd/second"
-msgstr "Završila je sezona Grimiznog Zmaja"
+msgstr "Završila je sezona Grimiznog Feniksa"
 
 msgid "alertMessage/seasonEnd/third"
-msgstr "Završila je sezona Zmaja od žada"
+msgstr "Završila je sezona Feniksa od žada"
 
 msgid "alertMessage/standaloneNotAvailable"
 msgstr "Bitke na ovom serveru će biti dostupne za %(primeDelta)s"
@@ -253,6 +253,9 @@ msgstr "Poboljšane karakteristike vozila"
 msgid "battlePage/statusNotificationTimers/hunter"
 msgstr "Obnavljanje HP"
 
+msgid "battlePage/statusNotificationTimers/illuminationFlare"
+msgstr "Nadolazeća šteta povećana"
+
 msgid "battlePage/statusNotificationTimers/juggernaut"
 msgstr "Poboljšane karakteristike vozila"
 
@@ -366,21 +369,21 @@ msgstr "%(start)s–%(end)s"
 
 msgid "calendarDay/timeLeft/first"
 msgid_plural "plural/calendarDay/timeLeft/first"
-msgstr[0] "Sezona Azurnog Zmaja će trajati %(days)d dan"
-msgstr[1] "Sezona Azurnog Zmaja će trajati %(days)d dana"
-msgstr[2] "Sezona Azurnog Zmaja će trajati %(days)d dana"
+msgstr[0] "Sezona Azurnog Feniksa će trajati %(days)d dan"
+msgstr[1] "Sezona Azurnog Feniksa će trajati %(days)d dana"
+msgstr[2] "Sezona Azurnog Feniksa će trajati %(days)d dana"
 
 msgid "calendarDay/timeLeft/second"
 msgid_plural "plural/calendarDay/timeLeft/second"
-msgstr[0] "Sezona Grimoznog Zmaja će trajati %(days)d dan"
-msgstr[1] "Sezona Grimoznog Zmaja će trajati %(days)d dana"
-msgstr[2] "Sezona Grimoznog Zmaja će trajati %(days)d dana"
+msgstr[0] "Sezona Grimiznog Feniksa će trajati %(days)d dan"
+msgstr[1] "Sezona Grimiznog Feniksa će trajati %(days)d dana"
+msgstr[2] "Sezona Grimiznog Feniksa će trajati %(days)d dana"
 
 msgid "calendarDay/timeLeft/third"
 msgid_plural "plural/calendarDay/timeLeft/third"
-msgstr[0] "Sezona Zmaja od žada će trajati %(days)d dan"
-msgstr[1] "Sezona Zmaja od žada će trajati %(days)d dana"
-msgstr[2] "Sezona Zmaja od žada će trajati %(days)d dana"
+msgstr[0] "Sezona Feniksa od žada će trajati %(days)d dan"
+msgstr[1] "Sezona Feniksa od žada će trajati %(days)d dana"
+msgstr[2] "Sezona Feniksa od žada će trajati %(days)d dana"
 
 msgid "calendarDay/title"
 msgstr "Raspored"
@@ -416,7 +419,7 @@ msgid "crewMembersTooltip/perks"
 msgstr "Sposobnosti"
 
 msgid "crewMembersTooltip/subHeading"
-msgstr "Navala. Godina zmaja"
+msgstr "Navala: Godina Feniksa"
 
 msgid "crewMembersTooltip/zeroPerks"
 msgstr "Nulte sposobnosti"
@@ -574,11 +577,17 @@ msgstr "Razumijem!"
 msgid "intro/description/banPhase"
 msgstr "Svaki tim može potpuno zabraniti vozilo iz bitke. Koordinirajte glasove sa saveznicima kako biste isključili vozilo kojeg se najviše bojite ili pripremili neočekivanu postavu za neprijatelje. Ako je vaše vozilo zabranjeno, umjesto toga možete birati između nekoliko unaprijed konfiguriranih vozila najma."
 
+msgid "intro/description/draw"
+msgstr "Kada vrijeme istekne i nijedan tim nije ostvario jasnu pobjedu, ishod bitke određuje se redoslijedom u kojem se odlučuje o neriješenom ishodu: preživjela vozila, nanesena šteta i prvo poraženo vozilo. Ako nijedan tim ne nanese štetu, bitka se proglašava neriješenom."
+
+msgid "intro/description/nightMaps"
+msgstr "Noćne mape osvježavaju poznata bojišta s noćnim uvjetima, novim osmatračkim položajima, ažuriranim točkama interesa i modificiranom mehanikom otkrivanja. Trenutna postava uključuje Glečer, Pješčanu rijeku, Predstražu i Stepe."
+
 msgid "intro/description/onslaughtModifiers"
 msgstr "Režim ima modifikatore koji mijenjaju određene parametre vozila, kao što je HP vozila, vrijeme hlađenja potrošnog materijala, preostalo vrijeme vidljivosti i više."
 
 msgid "intro/description/pointsOfInterest"
-msgstr "Kada osvojite određena područja na mapi moći ćete koristiti taktičke vještine. Dva su tipa Točaka interesa: Stožer topništva omogućuje usmjeravanje topničkog udara na određeni položaj, a Komunikacijski centar će otkriti sva neprijateljska vozila. Ovisno o mapi, prisustvo i položaj ovih Točaka interesa se može mjenjati."
+msgstr "Nakon što osvojite određena područja karte, dobit ćete pristup Taktičkim vještinama. Postoje dvije vrste točaka interesa: Topničko zapovjedništvo, koje vam omogućuje pozivanje ciljanog napada, i Komunikacijski centri, koji otkrivaju sva neprijateljska vozila. Broj i lokacija ovih mjesta razlikuju se od mape do mape."
 
 msgid "intro/description/qualification"
 msgid_plural "plural/intro/description/qualification"
@@ -587,7 +596,7 @@ msgstr[1] "Odigrajte %(count)s bitke kvalifikacije za određivanje vaše razine 
 msgstr[2] "Odigrajte %(count)s bitaka kvalifikacije za određivanje vaše razine vještine i ranga. Nakon završetka ćete dobiti nagrade za rang koji ste ostvarili i sve prethodne rangove.\n\nDezertiranje ili neriješeno u kvalifikacijama će se smatrati porazom."
 
 msgid "intro/description/ranks"
-msgstr "Sustav koji odražava vještinu igrača. Napredovanje kroz rangove od Željeza do Legende i osvojite vrijedne nagrade. Borite se u Godini zmaja za primitak jedinstvenih godišnjih nagrada."
+msgstr "Napredujte kroz rangove od Željeza do Legende i osvojite vrijedne nagrade. Borite se u Godini Feniksa za primitak jedinstvenih godišnjih nagrada."
 
 msgid "intro/description/roleSkills"
 msgstr "Ovisno o ulozi, svako vozilo ima posebnu vještinu s tri razine naboja. Što je razina naboja veća kada se vještina aktivira, to će biti jači učinak. Razina naboja će ovisiti o broju bodova Prestiža koji se mogu osvojiti za dojmljivu izvedbu u bitci, osvajanje Točaka interesa, korištenje taktičkih vještina, itd.\n\nPogledajte pravila režima i saznajte više o različitim načina osvajana bodova Prestiža."
@@ -597,6 +606,12 @@ msgstr "Možete ući u bitku u vozilima razine %(levels)s koja se mogu istražit
 
 msgid "intro/title/banPhase"
 msgstr "ZABRANE VOZILA"
+
+msgid "intro/title/draw"
+msgstr "PRAVILA IZVLAČENJA"
+
+msgid "intro/title/nightMaps"
+msgstr "NOĆNE MAPE"
 
 msgid "intro/title/onslaughtModifiers"
 msgstr "MODIFIKATORI NAVALE"
@@ -773,16 +788,19 @@ msgid "pbs/overview/extraLeaveStatus/win"
 msgstr "POBJEDA, ALI STE"
 
 msgid "pbs/overview/highRank/promoted"
-msgstr "Promaknut u %(rank)s"
+msgstr "Promaknut u {{rank}}"
+
+msgid "pbs/overview/highRank/rating"
+msgstr "Rejting: {{score}}"
 
 msgid "pbs/overview/lowRank/default"
-msgstr "%(rank)s, %(division)s"
+msgstr "{{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/demoted"
-msgstr "Degradiran na %(rank)s, %(division)s"
+msgstr "Degradiran u {{rank}}, {{division}}"
 
 msgid "pbs/overview/lowRank/promoted"
-msgstr "Promaknut na %(rank)s, %(division)s"
+msgstr "Promaknut u {{rank}}, {{division}}"
 
 msgid "pbs/overview/qualification/description"
 msgstr "Odigrano bitaka"
@@ -839,13 +857,13 @@ msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
 msgstr "Sezonski rekord bodova prestiža: %(recordPrestige)s"
 
 msgid "primeTimeView/status/seasonDisabled/first"
-msgstr "Sezona Azurnog Zmaja je završila na serveru %(server)s."
+msgstr "Sezona Azurnog Feniksa je završila na serveru %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/second"
-msgstr "Sezona Grimiznog Zmaja je završila na serveru %(server)s."
+msgstr "Sezona Grimiznog Feniksa je završila na serveru %(server)s."
 
 msgid "primeTimeView/status/seasonDisabled/third"
-msgstr "Sezona Zmaja od žada je završila na serveru %(server)s."
+msgstr "Sezona Feniksa od žada je završila na serveru %(server)s."
 
 msgid "products/actions/buy"
 msgstr "Kupnja"
@@ -1343,16 +1361,16 @@ msgid "rewardsScreen/description/qualificationEnded"
 msgstr "NAVALA. KVALIFIKACIJE ZAVRŠENE"
 
 msgid "rewardsScreen/description/season/first"
-msgstr "NAVALA. SEZONA AZURNOG ZMAJA"
+msgstr "NAVALA. SEZONA AZURNOG FENIKSA"
 
 msgid "rewardsScreen/description/season/second"
-msgstr "NAVALA. SEZONA GRIMIZNOG ZMAJA"
+msgstr "NAVALA. SEZONA GRIMIZNOG FENIKSA"
 
 msgid "rewardsScreen/description/season/third"
-msgstr "NAVALA. SEZONA ZMAJA OD ŽADA"
+msgstr "SEZONA NAVALE FENIKSA OD ŽADA"
 
 msgid "rewardsScreen/description/year"
-msgstr "NAVALA. GODINA ZMAJA"
+msgstr "NAVALA. GODINA FENIKSA."
 
 msgid "rewardsScreen/goToVehicle"
 msgstr "Gdje je moj Ahbringer?!"
@@ -1469,13 +1487,13 @@ msgid "season/secondsLeft"
 msgstr "Završava za %(seconds)s s"
 
 msgid "seasonName/first"
-msgstr "Sezorna Azurnog Zmaja"
+msgstr "Sezorna Azurnog Feniksa"
 
 msgid "seasonName/second"
-msgstr "Sezona Grimiznog Zmaja"
+msgstr "Sezona Grimiznog Feniksa "
 
 msgid "seasonName/third"
-msgstr "Sezona Zmaja od žada"
+msgstr "Sezona Feniksa od žada"
 
 msgid "seasonPointTooltip/header"
 msgstr "Boje Navale"
@@ -1523,7 +1541,7 @@ msgid "seasonStatistics/description/leaderboardPosition"
 msgstr "Položaj na tablici: %(position)s"
 
 msgid "seasonStatistics/description/season"
-msgstr "NAVALA. %(seasonNameUpper)s"
+msgstr "NAVALA %(seasonNameUpper)s"
 
 msgid "seasonStatistics/description/seasonPoint"
 msgid_plural "plural/seasonStatistics/description/seasonPoint"
@@ -1532,13 +1550,13 @@ msgstr[1] "Primljeno %(points)s Boje Navale"
 msgstr[2] "Primljeno %(points)s Boja Navale"
 
 msgid "seasonStatistics/seasonNameUpper/first"
-msgstr "SEZONA I. AZURNI ZMAJ"
+msgstr "SEZONA I: AZURNI FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/second"
-msgstr "SEZONA II. GRIMIZNI ZMAJ"
+msgstr "SEZONA II: GRIMIZNI FENIKS"
 
 msgid "seasonStatistics/seasonNameUpper/third"
-msgstr "SEZONA III. ZMAJ OD ŽADA"
+msgstr "SEZONA III: FENIKS OD ŽADA"
 
 msgid "seasonStatistics/section/statistics/battles/additional"
 msgstr "Pobjeda: %(additional)s"
@@ -1625,13 +1643,13 @@ msgid "selectorTooltip/unavailable/nextSeason"
 msgstr "Ovaj režim će postati dostupan %(time)s"
 
 msgid "shortSeasonName/first"
-msgstr "Azurni zmaj"
+msgstr "Azurni Feniks"
 
 msgid "shortSeasonName/second"
-msgstr "Grimizni zmaj"
+msgstr "Grimizni Feniks"
 
 msgid "shortSeasonName/third"
-msgstr "Zmaj od žada"
+msgstr "Feniks od žada"
 
 msgid "sidebar/tabs/tooltip/body/leaderboard"
 msgstr "Ovaj odjeljak sadrži informacije o najboljim igračima trenutne sezone režima Navala."
@@ -1916,7 +1934,7 @@ msgid "tournament/viewFull"
 msgstr "Pregledaj sve"
 
 msgid "tournament/visitShop/description/ols"
-msgstr "Podržite seriju Legende navale i pojačavajte fond nagrada s paketima turnira!"
+msgstr "Ako tim kojeg ste odabrali pobjedi, dobit ćete jedinstvenu zlatnu značku OLS 2026. Navijajte za svoje favorite!"
 
 msgid "tournament/visitShop/description/wci"
 msgstr "Pokažite vaš esports duh s ekskluzivnim tematskim elementima prilagodbe i jedinstvenim tenkovima!"
@@ -1946,7 +1964,7 @@ msgid "tournamentsEntryPointTooltip/description/wci"
 msgstr "Epski sudar će se odviti na World of Tanks Championship International u Suzhou u Kini gdje će se najžešći timovi iz cijelog svijeta sukobiti pod pravilima režima Navale u želji za prestižnom titulom svjetskog prvaka. Doživite uzbuđenje dok se legende rađaju na bojištu!"
 
 msgid "tournamentsEntryPointTooltip/heading/ols"
-msgstr "OLS sezona 6"
+msgstr "OLS sezona 7"
 
 msgid "tournamentsEntryPointTooltip/heading/wci"
 msgstr "WCI'25"
@@ -2072,55 +2090,52 @@ msgid "whatsNewView/banner/description"
 msgstr "Ova sezona obilježava vašu posljednju priliku potraživanja vrijednih nagrada, uključujući ekskluzivni teški tenk razine X Ashbringer sa svim jedinstvenim 3D stilovima koje ste osvojili za njega i neustrašivu posadu s Braćom po oružju kao nultom sposobnošću, kao i poboljšanu i eksperimentalnu opremu, predivni 2D stil i više. Ne propustite-vaša pobjeda vas čeka na bojištu!"
 
 msgid "whatsNewView/banner/heading"
-msgstr "Uhvatite posljednje trenutke Godine Zmaja!"
+msgstr "Uhvatite posljednje trenutke Godine Feniksa!"
 
 msgid "whatsNewView/banner/title/large"
-msgstr "SEZONA ZMAJA OD ŽADA"
+msgstr "SEZORNA AZURNOG FENIKSA"
 
 msgid "whatsNewView/banner/title/small"
 msgstr "NAVALA. ŠTO JE NOVOGA?"
 
 msgid "whatsNewView/button/ok"
-msgstr "Ban-tastično!"
+msgstr "Oslobodite vaše Plamenove!"
 
-msgid "whatsNewView/detailedBattleResults/description"
-msgstr "Poboljšani zaslon s rezultatima nakon bitke s novim dizajnom Ažuriranja 2.0 sada će vam davati dodatne informacije vezane uz režim igre nakon svake bitke."
+msgid "whatsNewView/drawConditions/description"
+msgstr "Kada vrijeme istekne i nijedan tim nije ostvario jasnu pobjedu, ishod bitke određuje se redoslijedom u kojem se odlučuje o neriješenom ishodu: preživjela vozila, nanesena šteta i prvo poraženo vozilo. Ako nijedan tim ne nanese štetu, bitka se proglašava neriješenom."
 
-msgid "whatsNewView/detailedBattleResults/heading"
-msgstr "Detaljni rezultati bitke"
-
-msgid "whatsNewView/equippedRentals/description"
-msgstr "Nema bojazni ako je vaše omiljeno vozilo isključeno. Vozila najma sada dolaze s predkonfiguriranom posadom, opremom, granatama i potrošnim materijalom."
-
-msgid "whatsNewView/equippedRentals/heading"
-msgstr "Vozila najma spremna za pokret %(tag)s"
-
-msgid "whatsNewView/intro/description"
-msgstr "Ove sezone svaki tim može potpuno zabraniti vozilo iz bitke. Koordinirajte glasovanje sa saveznicima da isključite vozilo kojeg se najviše bojite ili pripremite neočekivanu postavu za neprijatelje."
-
-msgid "whatsNewView/intro/heading"
-msgstr "Zabrana vozila %(tag)s"
+msgid "whatsNewView/drawConditions/heading"
+msgstr "Ažurirani uvjeti izvlačenja {{tag}}"
 
 msgid "whatsNewView/mapChanges/heading"
 msgstr "Mape"
 
-msgid "whatsNewView/newAvailableVehicles/heading"
-msgstr "Nova vozila dostupna u Navali"
+msgid "whatsNewView/newLTRoles/description"
+msgstr "Verzija 2.4 predstavlja nove uloge lakih tenkova i rebalans karakteristika vozila. Iskušajte ih u bitci!"
+
+msgid "whatsNewView/newLTRoles/heading"
+msgstr "Nove uloge za lake tenkove {{tag}}"
+
+msgid "whatsNewView/nightMaps/description"
+msgstr "Nova igra na poznatim mapama. Promjene uključuju noćne uvjete, nove osmatračke položaje, nove točke interesa i modificiranu mehaniku otkrivanja. Sve to preobličuje tijek bitke i čini svjesnost, tajming i taktičko kretanje važnijim nego ikada."
+
+msgid "whatsNewView/nightMaps/heading"
+msgstr "Stigle su noćne mape! {{tag}}"
+
+msgid "whatsNewView/noSuperPlatoons/description"
+msgstr "Zbog malog broja igrača u bitkama, super vodovi su onemogućeni. Radimo na alternativnim timskim načinima igranja navale. U međuvremenu, turniri 7 na 7 dostupni su redovito."
+
+msgid "whatsNewView/noSuperPlatoons/heading"
+msgstr "Nema više super vodova {{tag}}"
 
 msgid "whatsNewView/rentalVehicles/heading"
 msgstr "Vozila najma"
 
-msgid "whatsNewView/roleSkillUpdate/description"
-msgstr "Nedavno predstavljeni američki srednji tenk razine X Ares 90 je sada dostupan u režimu s podešenom vještinom uloge."
+msgid "whatsNewView/seasonalBalanceChanges/description"
+msgstr "• Mape: Erlenberg je uklonjen. Točke interesa na Aerodromu su premještene. Manje korekcije Plzena.\n• Vozila: VZ. 60S Dravec je uklonjen. Dodan je novi njemački teški tenk Kampfpanzer 67."
 
-msgid "whatsNewView/roleSkillUpdate/heading"
-msgstr "Ažuriranje vještine uloge %(tag)s"
-
-msgid "whatsNewView/shopUpdates/description"
-msgstr "114 SP2 je sada dostupan za kupnju na rangu Srebro u prodavaonici Navale."
-
-msgid "whatsNewView/shopUpdates/heading"
-msgstr "Ažuriranja prodavaonice %(tag)s"
+msgid "whatsNewView/seasonalBalanceChanges/heading"
+msgstr "Sezonske promjene balansa {{tag}}"
 
 msgid "whatsNewView/stamp/removed"
 msgstr "ISKLJUČENO"
@@ -2270,13 +2285,13 @@ msgid "yearlyStatistics/seasonDateInterval"
 msgstr "%(start)s–%(end)s"
 
 msgid "yearlyStatistics/seasonName/0"
-msgstr "SEZONA I. AZURNI ZMAJ"
+msgstr "SEZONA I: AZURNI FENIKS"
 
 msgid "yearlyStatistics/seasonName/1"
-msgstr "SEZONA II. GRIMIZNI ZMAJ"
+msgstr "SEZONA II: GRIMIZNI FENIKS"
 
 msgid "yearlyStatistics/seasonName/2"
-msgstr "SEZONA III. ZMAJ OD ŽADA"
+msgstr "SEZONA III: FENIKS OD ŽADA"
 
 msgid "yearlyStatistics/seasonStatus/active"
 msgstr "Trenutni"

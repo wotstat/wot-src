@@ -880,6 +880,12 @@ msgstr "Crampons de chenilles supplémentaires Classe 3"
 msgid "gun_balancing_1/name"
 msgstr "Équilibrage du canon (Type 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Équilibrage du canon (Type 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modification du canon (Type 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Suspension améliorée (Type 1)"
 msgid "improved_suspension_2/name"
 msgstr "Suspension améliorée (Type 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Mécanisme de rotation de tourelle amélioré (Type 1)"
+
 msgid "inspire/longDescr"
 msgstr "Améliore les performances de l'équipage du véhicule et de tous les alliés dans un certain rayon, ajoutant un bonus de % à la qualification principale de chaque membre d'équipage. Le joueur qui l'applique recevra un effet accru."
 
@@ -1294,6 +1303,9 @@ msgstr "Système d'amélioration de la mobilité Niv. 3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Système d'amélioration de la mobilité Niv. 3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Cache-flammes (Type 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Augmente temporairement la puissance moteur de votre véhicule de %(enginePowerFactor)s et multiplie sa vitesse maximale par %(maxSpeedFactor)s pendant %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Dans {colorTagOpen}%(delay)d s{colorTagClose}, la zone sélectionnée s
 
 msgid "poi_artillery_aoe/name"
 msgstr "Frappe d'artillerie"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Après un court délai, une fusée d'illumination illumine la zone sélectionnée. Les véhicules ennemis pris dans son rayon restent repérés et subissent davantage de dégâts.\nLe Poste d'observation peut être recapturé après quelques minutes."
+
+msgid "poi_illumination_flare/name"
+msgstr "Fusée d'illumination"
 
 msgid "poi_radar/descr"
 msgstr "Une fois activée, tous les véhicules ennemis resteront visibles pendant {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Caisse légère"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Caisse\nlégère"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Optiques traitées antireflets"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Phares antireflets"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Optiques traitées\nantireflets"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Phares\nantireflets"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Système de vision externe"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Motorisation électrique du périscope"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Système de vision\nexterne"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Motorisation électrique\ndu périscope"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Triplex panoramique"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Triplex\npanoramique"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Triplex panoramique"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Appareil d'observation à angle étroit"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Appareil d'observation\nà angle étroit"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nouveaux mécanismes de visée"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nouveaux mécanismes de visée"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Motorisation électrique du périscope"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Motorisation électrique\ndu périscope"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Augmentation générale de la durabilité"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Augmentation générale\nde la durabilité"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Phares antireflets"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Phares\nantireflets"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Ajustement de l'éjecteur"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Ajustement de l'éjecteur"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Recâblage de l'alimentation électrique"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Recâblage de\nl'alimentation électrique"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Rayures améliorées de l'âme du canon"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Rayures améliorées\nde l'âme du canon"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Optiques sensibles"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Optiques sensibles"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Structure principale renforcée"
@@ -2424,6 +2490,9 @@ msgstr "Décharge électrique"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Crée une zone dans laquelle une série de %(thunderCount)s décharges électriques frappent à grande fréquence. Chaque décharge inflige {whiteSpanish_Open}%(damage)s PS de dégâts{whiteSpanish_Close} et réduit temporairement la mobilité des véhicules ennemis dans la zone d'effet de cette capacité.\n\n*Il y a un délai de %(delay)s s entre l'activation de la capacité et la première décharge. L'effet négatif peut être retiré avec un Kit de réparation."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Remplacement des barres de torsion (Type 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Pendant %(duration)s s, crée une zone qui réduit les paramètres de mobilité de %(vehicleMaxSpeed)s et augmente le temps de rechargement et de visée du canon de %(gunReloadTime)s pour tous les véhicules ennemis à l'intérieur."

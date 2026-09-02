@@ -880,6 +880,12 @@ msgstr "Extra greppytor klass 3"
 msgid "gun_balancing_1/name"
 msgstr "Pjäsbalansering (typ 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Pjäsbalansering (typ 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Eldrörsmodifikation (typ 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Förbättrade stötdämpare (typ 1)"
 msgid "improved_suspension_2/name"
 msgstr "Förbättrade stötdämpare (typ 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Förbättrar torntraversmotor (typ 1)"
+
 msgid "inspire/longDescr"
 msgstr "Ökar besättningens och alla allierade besättningars inom ett visst avstånds effektivitet. Ger en %-bonus till alla besättningsmedlemmars huvudutbildning. Ökad effekt för spelaren som aktiverar den."
 
@@ -1294,6 +1303,9 @@ msgstr "Mobilitetspaket T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Mobilitetspaket T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Mynningsbroms (typ 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Ökar tillfälligt vagnens motorstyrka med %(enginePowerFactor)s och topphastigheten med en faktor av %(maxSpeedFactor)s i %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Angivet område beskjuts med artillerield efter {colorTagOpen}%(delay)d�
 
 msgid "poi_artillery_aoe/name"
 msgstr "Artilleriattack"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Lyser upp området med ett lysbloss efter en kort fördröjning. Fiendevagnar inom det upplysta området förblir upptäckta och tar ökad skada.\nObservationsplatsen kan återerövras efter några minuter."
+
+msgid "poi_illumination_flare/name"
+msgstr "Lysbloss"
 
 msgid "poi_radar/descr"
 msgstr "Alla fiender fortsätter vara upptäckta i {colorTagOpen}%(duration)d s{colorTagClose} från aktiveringsögonblicket."
@@ -1879,29 +1897,77 @@ msgstr "Lättviktsskrov"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Lättvikts-\nskrov"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflexbeläggning"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflexstrålkastare"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflex-\nbeläggning"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antireflex-\nstrålkastare"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Extra eldledningsoptik"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Elektrisk observationsenhet"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Extra\neldledningsoptik"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Elektrisk\nobservationsenhet"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Vidvinkelprisma"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Vidvinkel-\nprisma"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Vidvinkelprisma"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Förstorande prisma"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Förstorande\nprisma"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Nya eldriktningsdrev"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Nya eldriktningsdrev"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Elektrisk observationsenhet"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Elektrisk\nobservationsenhet"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Allmän hållbarhetsöversyn"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Allmän\nhållbarhetsöversyn"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflexstrålkastare"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antireflex-\nstrålkastare"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Tillsyn av utkastare"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Tillsyn av utkastare"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Omkopplat elaggregat"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Omkopplat\nelaggregat"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Förbättrat granatdrivband"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Förbättrat\ngranatdrivband"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Finkänslig optik"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Finkänslig optik"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Förstärkt pansarkropp"
@@ -2424,6 +2490,9 @@ msgstr "Elektrisk urladdning"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Skapar ett område med %(thunderCount)s snabba elektriska urladdningar. Varje urladdning åsamkar {whiteSpanish_Open}%(damage)s träffpoäng skada{whiteSpanish_Close} och minskar tillfälligt alla fiendevagnars rörelseförmåga inom verkansområdet.\n\n*Från aktivering tar det %(delay)s s till första urladdningen. Den negativa effekten kan tas bort med reparationslådor."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Utbytta torsionsstavar (typ 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Skapar ett område som minskar manöverförmågan med %(vehicleMaxSpeed)s och ökar omladdningstid och sikttid för alla fiendevagnar med %(gunReloadTime)s under %(duration)s s."

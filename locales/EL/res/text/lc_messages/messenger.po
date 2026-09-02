@@ -1802,7 +1802,7 @@ msgid "serviceChannelMessages/battlePassReward/header/default"
 msgstr "Συγχαρητήρια!"
 
 msgid "serviceChannelMessages/battlePassReward/header/voted"
-msgstr "Απονομή Επάθλου"
+msgstr "Το Έπαθλο Απονεμήθηκε"
 
 msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
 msgstr "Ολοκλήρωση Φάσης Επίλεκτης Διαδρομής.\nΈπαθλα:"
@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Κερδισμένο gold"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Για τη συμμετοχή στην εκστρατεία %(campaignName)s σας απονέμεται το μετάλλιο %(nameMedal)s."
+msgstr "Από την επιτυχή ολοκλήρωση μίας αποστολής της εκστρατείας %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Συγχαρητήρια!"
@@ -1929,6 +1929,21 @@ msgstr "Από την επιτυχή ολοκλήρωση 30 αποστολών 
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Από την επιτυχή ολοκλήρωση 15 αποστολών της σειράς %(categoryName)s για την εκστρατεία %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Από την επιτυχή ολοκλήρωση μίας αποστολής της εκστρατείας %(campaignName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Από την επιτυχή ολοκλήρωση 21 αποστολών της σειράς %(categoryName)s για την επιχείρηση %(operationName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Από την επιτυχή ολοκλήρωση 14 αποστολών της σειράς %(categoryName)s για την επιχείρηση %(operationName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Από την επιτυχή ολοκλήρωση 7 αποστολών της σειράς %(categoryName)s για την επιχείρηση %(operationName)s σας απονεμήθηκε το μετάλλιο %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "πρόστιμο για φθορά σε συμμάχους: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Κλικ στο κουμπί για προβολή του περιεχομένου."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Παραλάβατε ένα δέμα:"
+msgstr "Παραλαβή Δέματος"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Προβολή"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Έπαθλα"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Ενεργοποιήσεις Πύλης: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Ενεργοποιήσαμε όλες τις Πύλες και προσ�
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Παραλαβή Επάθλων"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Ανοίχτηκαν όλα σας τα κουτιά και λάβατε τα έπαθλα από τις Γιορτινές Επιχειρήσεις"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "Ανοίχτηκαν όλοι οι Ευχετήριες Κάρτες του Νέου Σεληνιακού Έτους."
@@ -3218,7 +3227,7 @@ msgid "serviceChannelMessages/recruitGift/header"
 msgstr "Οι Ενισχύσεις Έφτασαν!"
 
 msgid "serviceChannelMessages/recruitGift/text"
-msgstr "Κερδίσατε ένα πλήρωμα από %(event)s."
+msgstr "Κερδίσατε μέλη πληρώματος από %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr "Έχετε μη στρατολογημένα μέλη πληρώματος: %(count)s. Επόμενη διαγραφή στις %(date)s!"
@@ -3400,6 +3409,18 @@ msgstr "Τμήματα γενικής χρήσης"
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "%(nationName)s τμήματα έθνους"
 
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "Η διαμόρφωση των ακόλουθων οχημάτων έχει αλλάξει: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Προσοχή!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>και %(vehiclesCount)s ακόμη</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
+
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "Με την παρουσίαση της νέας έκδοσης, έγινε αφαίρεση όλων των χαλκομανιών από τα οχήματα και αποστολή τους στην Αποθήκη, στον τομέα Εξωτερική Όψη."
 
@@ -3419,7 +3440,7 @@ msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
 msgstr "Οχήματα που αφαιρέθηκαν: %(vehicles)s"
 
 msgid "serviceChannelMessages/sysMsg/customization/buyMany"
-msgstr "έγινε αγορά των ακόλουθων στοιχείων προσαρμογής:\n%(items)s\nΚόστος %(money)s."
+msgstr "Αποκτήθηκαν τα ακόλουθα στοιχεία προσαρμογής:\n%(items)s\nΚόστος %(money)s."
 
 msgid "serviceChannelMessages/sysMsg/customization/buyOne"
 msgstr "Επιτυχής αγορά του στοιχείου %(itemType)s \"%(itemName)s\".\nΚόστος %(money)s."

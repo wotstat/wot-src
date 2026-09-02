@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Vi öppnade alla dina Helg-Ops-paket."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Grattis!"
 
@@ -58,34 +55,10 @@ msgstr "{count} st"
 msgid "entryDesc/buySlot"
 msgstr "Du kan köpa stora paket i Premiumaffären"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Stora paket"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Små paket"
-
-msgid "entryDesc/questSlot"
-msgstr "Du får små paket för slutförande av uppdrag."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Funktionen är ej tillgänglig för tillfället. Försök igen senare."
 
 msgid "entryPoint/header"
-msgstr "Paket"
-
-msgid "entryTooltip/body/h1"
-msgstr "Köp stora paket:"
-
-msgid "entryTooltip/body/h2"
-msgstr "Tjäna småpaket:"
-
-msgid "entryTooltip/body/p1"
-msgstr "Köp paket med julpynt för dig själv och dina vänner i Premiumaffären."
-
-msgid "entryTooltip/body/p2"
-msgstr "Delas ut för slutförandet av Helg-Opsuppdrag."
-
-msgid "entryTooltip/header"
 msgstr "Paket"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "Ytterligare {count} paket"
 msgid "entryView/buyLabel"
 msgstr "KÖP PAKET"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Du har inga stora paket i förrådet.\nKöp fler i Premiumaffären."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Du har inga småpaket.\nTjäna fler i strid."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Helg-Ops {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Uppfattat!"
@@ -178,9 +139,6 @@ msgstr "Öppnande av förrådslådor"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Tillagt"
 
-msgid "notification/ny19man"
-msgstr "En unik besättningsmedlem: %(count)s"
-
 msgid "notification/rewards"
 msgstr "Du mottog följande belöningar:"
 
@@ -244,36 +202,6 @@ msgstr "En unik stil för"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Visa i garaget"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Julklappar"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Magiska paket"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Nyårspaket"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Månpaket"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Julsamlingen"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Magisamlingen"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Nyårssamlingen"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Månsamlingen"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Paket innehåller pynt av typ {category} och andra värdefulla belöningar."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Utmärkelser:"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Köp fler paket i Premiumaffären."
 
@@ -285,12 +213,6 @@ msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
 
 msgid "type/event_premium"
 msgstr "Gryningsförrådslåda"
-
-msgid "type/newYear_premium"
-msgstr "STORA PAKET"
-
-msgid "type/newYear_usual"
-msgstr "SMÅ PAKET"
 
 msgid "type/wt_boss"
 msgstr "Ingenjörsstartdon"

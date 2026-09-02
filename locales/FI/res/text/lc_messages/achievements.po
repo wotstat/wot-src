@@ -139,15 +139,6 @@ msgstr "Myönnetään pelaajille heidän korvaamattomasta panoksestaan World of 
 msgid "15YearsOfService_descr"
 msgstr "Olet ollut pelissä %(regDate)s alkaen"
 
-msgid "BPReserveAchievement_1"
-msgstr "TP:n reservisaavutus 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Myönnetään edistymisen suorittamisesta."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Myönnetään saavutuksistasi pelin aikana"
-
 msgid "BPReserveAchievement_2"
 msgstr "TP:n reservisaavutus 2"
 
@@ -429,6 +420,15 @@ msgstr "• Myönnetään kaikkien kolmen luvun suorittamisesta."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Myönnetään saavutuksistasi Taistelupassin kauden XX aikana."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Alankokahakka"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Myönnetään kaikkien kolmen luvun suorittamisesta."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Myönnetään saavutuksistasi Taistelupassin kauden XXI aikana."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Ensisijainen edistyminen koostuu 45 vaiheesta."
@@ -1828,6 +1828,48 @@ msgstr "Hopeinen lohikäärme"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Myönnetään vähintään 9 Rynnistys-lipun keräämisestä Lohikäärmeen vuoden aikana Rynnistys -pelimuodossa."
 
+msgid "comp7_6_1"
+msgstr "Taivaansininen kipinä"
+
+msgid "comp7_6_1_descr"
+msgstr "Myönnetään tehtäväsarjan suorittamisesta Taivaansinisen feeniksin kaudella Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Pronssinen feeniks"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Myönnetään vähintään kuuden Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Feeniksin vuoden mestari"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Myönnetään vähintään 15 Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Kultainen feeniks"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Myönnetään vähintään 12 Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Rautainen feeniks"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Myönnetään vähintään 3 Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Feeniksin vuoden legenda"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Myönnetään vähintään 18 Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Hopeinen feeniks"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Myönnetään vähintään 9 Rynnistys-lipun keräämisestä Feeniksin vuoden aikana Rynnistys -pelimuodossa."
+
 msgid "conqueror"
 msgstr "Valloittaja %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Saatavilla vain satunnaistaisteluista."
 
 msgid "huntsman_descr"
-msgstr "Tuhoa kaikki vihollisen kevyet vaunut (vähintään 3) yhden taistelun aikana."
+msgstr "Tuhoa kaikki vihollisen kevyet vaunut (vähintään 2) yhden taistelun aikana."
 
 msgid "huntsman_heroInfo"
 msgstr "Kersantti Grigoriy Naydin oli BT7 vaunun komentaja. 25. päivänä heinäkuuta vuonna 1941, lähellä liettualaista Rudishkyayn kaupunkia, hän tuhosi Wehrmachtin panssaroidun kolonnan, mukaan lukien 19. mekanisoidun joukon 15 ajoneuvoa ja 10 tykkiä. Naydin onnistui viivyttämään saksalaisten etenemistä kahden päivän ajan, joka mahdollisti puolustuksien organisoimisen Vilnan ympäristössä. Tämän johdosta, Naydinista tehtiin Neuvostoliiton sankari."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Suorita ansiokkaasti 15 henkilökohtaista tehtävää yhteenliittymälle. Palkinto: Mallikelpoinen suoritus: Yhteenliittymän mitali, III luokka."
 
 msgid "readyForBattleAssault"
-msgstr "Mallikelpoinen suoritus: Etuvartio"
+msgstr "Esimerkillinen suorituskyky: Sektori 3 - Etuvartio"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Kaikkien Etuvartio-tehtävien suorittamisesta \"Sektori 3\" kampanjassa."
+msgstr "Kaikkien Etuvartio-tehtävien suorittamisesta \"Sektori 3\" kampanjan pääoperaatioissa."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Mallikelpoinen suoritus: Fossa - Etuvartio"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Kaikkien Etuvartio-tehtävien suorittamisesta \"Sektori 3\" kampanjan Fossa operaatiossa."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Mallikelpoinen suoritus: Fossa - Väijytys"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Kaikkien Väijytys-tehtävien suorittamisesta \"Sektori 3\" kampanjan Fossa operaatiossa."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Mallikelpoinen suoritus: Fossa - Avustus"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Kaikkien Avustus-tehtävien suorittamisesta \"Sektori 3\" kampanjan Fossa operaatiossa."
 
 msgid "readyForBattleHT"
 msgstr "Esimerkillinen suorituskyky: Raskaat vaunut"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Telatykkien 15 henkilökohtaisen tehtävän ansiokkaasta suorittamisesta. Palkinto: \"Esimerkillinen suorituskyky: Telatykit\" mitali, IV luokka."
 
 msgid "readyForBattleSniper"
-msgstr "Mallikelpoinen suoritus: Väijytys"
+msgstr "Esimerkillinen suorituskyky: Sektori 3 - Väijytys"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Kaikkien Väijytys-tehtävien suorittamisesta \"Sektori 3\" kampanjassa."
+msgstr "Kaikkien Väijytys-tehtävien suorittamisesta \"Sektori 3\" kampanjan pääoperaatioissa."
 
 msgid "readyForBattleSupport"
-msgstr "Mallikelpoinen suoritus: Avustus"
+msgstr "Esimerkillinen suorituskyky: Sektori 3 - Avustus"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Kaikkien Avustus-tehtävien suorittamisesta \"Sektori 3\" -kampanjassa."
+msgstr "Kaikkien Avustus-tehtävien suorittamisesta \"Sektori 3\" kampanjan pääoperaatioissa."
 
 msgid "reliableComrade"
 msgstr "Luotettava toveri"
@@ -4692,6 +4761,15 @@ msgstr "Myönnetään Waffenträger: Paradoksin edistymisen suorittamisesta. Tä
 
 msgid "wt2025progression_descr"
 msgstr "Suorita Waffenträger -pelimuodon edistyminen."
+
+msgid "wt2026progression"
+msgstr "Myrskyn ratsastaja"
+
+msgid "wt2026progression_condition"
+msgstr "Myönnetään Waffenträger: Genesis 2026:n edistymisen suorittamisesta. Tämä kunnianosoitus myönnetään heille, jotka vastustivat von Kriegerin ensimmäistä ajattelevaa konetta, Sähköälyä, ja rikkoivat jokaisen virtapiirin, joiden kautta se kurkotti maailmaamme."
+
+msgid "wt2026progression_descr"
+msgstr "Suorita Waffenträger: Genesis 2026:n edistyminen."
 
 msgid "wtBossWins"
 msgstr "Salaman mestari"

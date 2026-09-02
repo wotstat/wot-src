@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Bekreftet!"
 
 msgid "error/description"
-msgstr "Informasjon er midlertidig utilgjengelig. Vi beklager ulempen. Vennligst prøv igjen senere."
+msgstr "Vi beklager ulempen. Vennligst prøv igjen senere."
 
 msgid "error/title"
-msgstr "Kan ikke åpne avdelingen for valg av belønninger"
+msgstr "Denne siden er midlertidig utilgjengelig"
 
 msgid "footer/closeBtn/label"
 msgstr "Velg senere"
@@ -23,7 +23,7 @@ msgstr[1] "Velg belønninger fra de viste kategoriene."
 msgstr[2] "Velg belønninger fra de viste kategoriene."
 
 msgid "footer/okBtn/label"
-msgstr "Hent"
+msgstr "Hent belønninger"
 
 msgid "footer/rewardsSelected"
 msgstr "Belønninger valgt:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Allerede mottatt"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Grensen for valgte enheter i denne kategorien har blitt nådd. Du kan avbryte valget av én enhet for å legge til en annen."
+msgstr "Du har nådd det maksimale antallet enheter som er tillatt i denne kategorien. Velg bort en enhet for å velge et annet."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Grense nådd"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direktiver\nfor utstyr"
@@ -93,6 +93,9 @@ msgstr "Standardutstyr"
 
 msgid "tabs/items/trophy"
 msgstr "Skuddpremieutstyr"
+
+msgid "tooltips/footer/body"
+msgstr "Velg belønninger for å hente dem"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Klikk på Hent knappen for å få de utvalgte belønningene."

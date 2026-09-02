@@ -826,6 +826,9 @@ msgstr "Kolmiulotteiset tyylit"
 msgid "carousel_tank_filter/ready"
 msgstr "Vain ensisijaiset"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Tiedustelija"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Tarkka-ampuja"
 
@@ -834,9 +837,6 @@ msgstr "Tukija"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Monipuolinen"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Pyörällinen"
 
 msgid "centerIsAvailable"
 msgstr "Kaikki palvelimet ovat jälleen käytettävissä."
@@ -4159,6 +4159,9 @@ msgstr "Paranneltu automaattinen latausjärjestelmä:\nLyhentää tavanomaista a
 msgid "moduleInfo/autoShootGun"
 msgstr "Tykki jatkuvalla tulituksella"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Tämä vaunu on varustettu tykin kilpeen liitetyllä raketinheittimellä. Aktivoi kyky vaihtaa apuaseen tähtäimiin ja sen jälkeen laukaise ohjaamaton raketti ampumisnapilla."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Sulje"
 
@@ -4312,6 +4315,9 @@ msgstr "Jäähtymisaika"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "päätaitoihin ja miehistön pätevyyksiin"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kriittisen osuman todennäköisyys"
+
 msgid "moduleInfo/params/damage"
 msgstr "Vahinko"
 
@@ -4342,11 +4348,29 @@ msgstr "Tulipalon mahdollisuus osumasta"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Lentoaika"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Aiheuttaa aina vahinkoa, jos osuu pääpanssariin"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* ammuksen maksimaalinen lentomatka tällä tykillä"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " ei riipu etäisyydestä tälle ammustyypille."
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksimaalinen lentomatka – 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " tämän tyyppinen ammus alkaa menettämään läpäisyvoimaansa etäisyyden kasvaessa läpäistyään ensimmäisen lisäsuojan"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " etäisyydestä riippuen: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " tämän tyyppinen ammus läpäisee lisäsuojat tavalliseen tapaan, mutta menettää sitten läpäisyvoimaansa kolme kertaa lisäsuojan paksuuden verran"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Huippunopeus"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Aiheuttaa aina vahinkoa, jos pääpanssariin osuu"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Paino"
@@ -4378,20 +4402,11 @@ msgstr "Osumapisteet"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Ampumaetäisyys"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* ammuksen maksimaalinen lentomatka tällä tykillä"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Pyörien jyrkin kääntökulma"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Keskim. vahinko %(dist)s m etäisyydellä"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " ei riipu etäisyydestä tälle ammustyypille."
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksimaalinen lentomatka—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalisaation kulma"
@@ -4399,14 +4414,8 @@ msgstr "Normalisaation kulma"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Läpäisyn menetys"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " tämän tyyppinen ammus alkaa menettämään läpäisyvoimaansa etäisyyden kasvaessa läpäistyään ensimmäisen lisäsuojan"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " riippuu etäisyydestä: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Keskimääräinen läpäisy (mm)—Etäisyys"
@@ -4456,9 +4465,6 @@ msgstr "Kääntymisnopeus"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Ontelopanssarin kerroin"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " tämän tyyppinen ammus läpäisee lisäsuojat tavalliseen tapaan, mutta menettää sitten läpäisyvoimaansa kolme kertaa lisäsuojan paksuuden verran"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Lähtöpanoksen induktiojälkipoltin, joka kasvattaa keskimääräistä 
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Suihkumoottorit, jotka parantavat vaunun liikettä"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Vaunun tykissä on erikoislaitteita, jotka mahdollistavat ammusten joidenkin ominaisuuksien muokkaamisen ennen ampumista."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Kiinteää polttoainetta käyttävät suihkumoottorit, jotka tehostavat kiihtyyvyttä, liikettä ja ketteryyttä"
@@ -5284,11 +5293,14 @@ msgstr "Vaunuja, joiden täydellisten tykkien tehokas käyttö vaatii tiettyihin
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Monikäyttöisiä vaunuja, jotka sopeutuvat helposti tilanteeseen kuin tilanteeseen."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Nopeita ja ketteriä vaunuja, jotka voivat sekä tiedustella että aiheuttaa vahinkoa sivustoihin iskiessään."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Kevyet tiedusteluvaunut ovat pieniä, ketteriä ajoneuvoja, jotka on rakennettu vihollisten havaitsemiseen. Niiden matala profiili, hyvä naamioitumiskyky sekä erinomainen liikkuvuus ja suuri huippunopeus tekevät niistä taitavia sekä passiivisessa että aktiivisessa tiedustelussa, mutta heikko kestävyys ja vähäinen tulivoima estävät niitä tarjoamasta merkittävää tulitukea liittolaisilleen."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vaunuja uskomattomilla liikeominaisuuksilla, joiden hyödyntäminen riippuu kartasta tai taktisesta tilanteesta."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Tulitukea tarjoavat kevyet vaunut hyödyntävät suurta liikkuvuuttaan, erinomaista ketteryyttään ja tehokkaita tykkejään vaihtaakseen nopeasti sivustalta toiselle ja aiheuttaakseen merkittävää vahinkoa ennen vetäytymistään takaisin turvaan. Vaikka ne voivat tietyissä tilanteissa suoriutua myös tiedustelusta, niiden suuri koko ja heikko naamiointikyky tekevät niistä huonompia tiedustelijoita kuin muista kevyistä vaunuista."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Monipuoliset kevyet vaunut sopivat hyvin sekä tiedusteluun että tulituen tarjoamiseen liittolaisilleen. Vaikka ne ovat vähemmän päteviä tiedustelussa kuin tiedustelijat ja niillä on vähemmän tulivoimaa kuin tulitukea tarjoavilla kevyillä vaunuilla, niiden tasapainoiset kyvykkyydet antavat mahdollisuuden suoriutua molemmista rooleista ja sopeutua monenlaisiin tilanteisiin taistelussa."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vaunuja, jotka hyvän panssarointinsa tähden sopivat parhaiten lähitaisteluun ja painimaan vihollisen raskaiden vaunujen kanssa."
@@ -5329,11 +5341,14 @@ msgstr "Tulitukea tarjoava raskas vaunu"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Monipuolinen raskas vaunu"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Tiedustelevat kevyt vaunu"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Tulitukea tarjoava kevyt vaunu"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Monipuolinen kevyt vaunu"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Pyörällinen kevyt vaunu"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Rynnäköivä keskiraskas vaunu"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Lataus"
 msgid "tank_params/autoShootClipSec"
 msgstr "(lipas/määrä)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Nopeutettu ammusten latausaika"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Latauksen jäähtymisaika täydellä lippaalla"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Latauksen perusjäähtymisaika"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Latauksia taistelun alussa"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Lataukset"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Keskimääräinen vahinko (kestopistettä)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Hajonta 100 metrissä (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Keskimääräinen läpäisy (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Jäähtymisaika (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Raketin lentonopeus (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Keskimääräinen vahinko"
 
@@ -6057,6 +6105,21 @@ msgstr "Ammuskasetti"
 
 msgid "tank_params/burstSec"
 msgstr "(s/määrä/määrä)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Keskimääräinen vahinko (kestopistettä)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Huippunopeus (UAS-tilassa) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Tulinopeus (laukausta/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "UAS-tilan aktivointi (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "UAS-tilan deaktivointi (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Yhteislaukauksen valmistelu"
@@ -6150,6 +6213,12 @@ msgstr "Moottoriteho (hv) (turbotila)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Vahinkosäde"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Huippunopeus (UAS-tilassa) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "UAS-tilan aktivointi (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Tykin jäähtymisaika ampumisen jälkeen"
@@ -6325,9 +6394,6 @@ msgstr "Maasto-ominaisuudet"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Elektromekaanisen kaksoistähtäimen lataus (% per sekunti) (taistelutila, passiivinen)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(per aktivaatio)"
 
@@ -6484,8 +6550,20 @@ msgstr "Apuaseen lataaminen"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Apuaseen ammukset"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Säädetty ammuksen keskimääräinen vahinko (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Säädetty ammuksen keskimääräinen läpäisy (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Ammusvyön lataaminen"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Aika tilan vaihtamiseen"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Läpäisy:"
@@ -6495,6 +6573,36 @@ msgstr "Hajonta 100 metrissä"
 
 msgid "tank_params/shotSpeed"
 msgstr "Ammuksen nopeus"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Vihollisen naamioitumiskyky suojan takana (paikallaan ja liikkeessä)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Liikkuvan vihollisen naamioitumiskyky"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Alkuperäinen jäähtymisaika"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Kesto"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Jäähtymisaika"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Tornin kääntönopeus"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Skannauksen leveys lopussa"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Skannauksen leveys alussa"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Oman havaittuna pysymisen kesto"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Näköetäisyys"
 
 msgid "tank_params/speedLimits"
 msgstr "Nopeus eteen/taakse"

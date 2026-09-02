@@ -130,6 +130,9 @@ msgstr "Nie możesz tworzyć plutonów ani do nich dołączać, bo nie masz w g
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Po ukończeniu kwalifikacji będą dostępne plutony 2 i 7 graczy."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Po ukończeniu kwalifikacji będzie dostępny pluton dwóch graczy."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Nie można utworzyć plutonu."
 
@@ -141,6 +144,9 @@ msgstr "Stwórz pluton lub dołącz do już istniejącego. W Natarciu Light plu
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Stwórz pluton lub dołącz do już istniejącego. W Natarciu plutony mogą składać się tylko z dwóch graczy."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Stwórz jednostkę taktyczną złożoną z 2 lub 3 graczy, by grać wspólnie.\n• Tryby bitwy: Rozwałka.\n• Typy bitwy: Stalowe łowy, Dominacja."
@@ -264,12 +270,6 @@ msgstr "Pluton osiągnął maksymalną liczbę czołgów ciężkich"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Pluton osiągnął maksymalną liczbę czołgów średnich"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Pluton osiągnął maksymalną liczbę czołgów lekkich"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Pluton osiągnął maksymalną liczbę pojazdów kołowych"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Pluton osiągnął maksymalną liczbę czołgów lekkich"

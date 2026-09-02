@@ -8,10 +8,10 @@ msgid "error/button"
 msgstr "Affermativo!"
 
 msgid "error/description"
-msgstr "Informazioni temporaneamente non disponibili. Ci scusiamo per l'inconveniente. Riprova più tardi."
+msgstr "Ci scusiamo per l'inconveniente. Riprova più tardi."
 
 msgid "error/title"
-msgstr "Impossibile aprire la selezione delle ricompense"
+msgstr "Questa pagina è temporaneamente indisponibile."
 
 msgid "footer/closeBtn/label"
 msgstr "Seleziona più tardi"
@@ -23,7 +23,7 @@ msgstr[1] "Seleziona le ricompense dalle categorie fornite."
 msgstr[2] "Seleziona le ricompense dalle categorie fornite."
 
 msgid "footer/okBtn/label"
-msgstr "Reclama"
+msgstr "Reclama ricompense"
 
 msgid "footer/rewardsSelected"
 msgstr "Ricompense selezionate:"
@@ -44,13 +44,13 @@ msgid "reward/state_received"
 msgstr "Già ricevuta"
 
 msgid "reward/tooltip/state_limited/body"
-msgstr "Il limite degli articoli selezionati in questa categoria è stato raggiunto. È possibile annullare la selezione di un articolo per aggiungerne un altro."
+msgstr "Hai raggiunto il numero massimo di articoli consentiti in questa categoria. Deseleziona un articolo per sceglierne un altro."
 
 msgid "reward/tooltip/state_limited/header"
 msgstr "Limite raggiunto"
 
 msgid "tabs/counter"
-msgstr "%(count)s/%(limit)s"
+msgstr "%(count)s / %(limit)s"
 
 msgid "tabs/items/battleBooster"
 msgstr "Direttive\nper l'equipaggiamento"
@@ -93,6 +93,9 @@ msgstr "Equipaggiamento standard"
 
 msgid "tabs/items/trophy"
 msgstr "Equipaggiamento premio"
+
+msgid "tooltips/footer/body"
+msgstr "Seleziona le ricompense per riscattarle"
 
 msgid "tooltips/selectedRewards/description"
 msgstr "Clicca sul pulsante Reclama per ricevere le ricompense selezionate."

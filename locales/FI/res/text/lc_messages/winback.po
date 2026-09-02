@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "SULJE"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Selvä!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Lämmittely palauttaa sinulle mieliin pelin perusteet. Taistelut käydään tekoälyn ohjaamia vaunuja vastaan ja tuloksia ei huomioida tilastoissasi. Voit poistua lämmittelystä koska hyvänsä jatkaaksesi satunnaistaisteluihin."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Lämmittely"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Suorita tehtävät, viimeistele Takaisin toimintaan -edistymisen vaiheet ja saat arvokkaita pelinsisäisiä palkintoja. Kukin suoritettu tavallinen, premium- tai bonustehtävä lasketaan edistymiseen. Tehtäviä voi suorittaa lämmittely- ja satunnaistaisteluissa."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Suorita tehtävät, viimeistele Takaisin toimintaan -edistymisen vaiheet ja saat arvokkaita pelinsisäisiä palkintoja. Taistelupassin aikana palkintojen joukossa on Taistelupassin pisteitä. Tehtäviä voi suorittaa lämmittely- ja satunnaistaisteluissa."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Takaisin toiminnassa"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Voit ansaita palkinnoksi tason VIII premium-vaunuja vuokralle, tason VI tutkittavia vaunuja ja alennuksia vaunujen tutkimiseen ja ostamiseen. Edistymisen suorittamisen jälkeen saat pääpalkinnon."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Palkinnot"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "TAKAISIN TOIMINNASSA"
-
 msgid "mainRewardTooltip/description"
 msgstr "Takaisin toimintaan -edistymisen suorittamisesta saat:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Pääpalkinto"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Alennus tason %(level)s vaunun tutkimisesta ja ostamisesta"
+msgstr "Alennus tason {{level}} vaunun tutkimisesta ja ostamisesta"
 
 msgid "modeInfoTooltip/description"
 msgstr "Taisteluita tekoälyn ohjaamia vaunuja vastaan, joita ei huomioida tilastoissasi. Voittaaksesi sinun tulee vallata vihollisen tukikohta tai tuhota kaikki vihollisvaunut. Taistelut käydään 15v15 taisteluina tasoilla VI–XI ja 10v10 taisteluina tasoilla I–V"
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Lämmittely"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Mikä hyvänsä tason %(level)s vaunu voidaan valita. Vaunun saa tutkittujen moduulien, miehistön ja tallipaikan kera."
+msgstr "Mikä hyvänsä tason {{level}} vaunu voidaan valita. Vaunun saa tutkittujen moduulien, miehistön ja tallipaikan kera."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "Tason %(level)s vaunu"
+msgstr "Tason {{level}} vaunu"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "%(researchDiscount)s alennus tason %(level)s vaunun tutkimiseen ja %(purchaseDiscount)s alennus sen ostamiseen. Valita voit minkä hyvänsä tutkittavissa olevan vaunun."
+msgstr "{{researchDiscount}} alennus tason {{level}} vaunun tutkimiseen ja {{purchaseDiscount}} alennus sen ostamiseen. Valita voit minkä hyvänsä tutkittavissa olevan vaunun."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Alennus {whiteSpanish_Open}tutkimiseen{whiteSpanish_Close} lisätään piirustusten palasista saatavaan alennukseen. {whiteSpanish_Open}Ostamiseen{whiteSpanish_Close} käytetään suurinta mahdollista alennusta."
+msgstr "Alennus {{@ style (color $color)}}tutkimiseen{{/}} lisätään piirustusten palasista saatavaan alennukseen. {{@ style (color $color)}}Ostamiseen{{/}} käytetään suurinta mahdollista alennusta."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Alennus tason %(level)s vaunusta"
+msgstr "Alennus tason {{level}} vaunusta"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Selvä!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Lämmittely palauttaa sinulle mieliin pelin perusteet. Taistelut käydään tekoälyn ohjaamia vaunuja vastaan ja tuloksia ei huomioida tilastoissasi. Voit poistua lämmittelystä koska hyvänsä jatkaaksesi satunnaistaisteluihin."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Lämmittely"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Suorita tehtävät, viimeistele Takaisin toimintaan -edistymisen vaiheet ja saat arvokkaita pelinsisäisiä palkintoja. Taistelupassin aikana palkintojen joukossa on Taistelupassin pisteitä. Tehtäviä voi suorittaa lämmittely- ja satunnaistaisteluissa."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Suorita tehtävät, viimeistele Takaisin toimintaan -edistymisen vaiheet ja saat arvokkaita pelinsisäisiä palkintoja. Kukin suoritettu tavallinen, premium- tai bonustehtävä lasketaan edistymiseen. Tehtäviä voi suorittaa lämmittely- ja satunnaistaisteluissa."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Takaisin toiminnassa"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Voit ansaita palkinnoksi tason VIII premium-vaunuja vuokralle, tason VI tutkittavia vaunuja ja alennuksia vaunujen tutkimiseen ja ostamiseen. Edistymisen suorittamisen jälkeen saat pääpalkinnon."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Palkinnot"
+
+msgid "umgIntroView/title"
+msgstr "TAKAISIN TOIMINNASSA"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Alennus %(research)s lisätään piirustusten palasista saatavaan alennukseen. %(purchase)s suhteen käytetään suurinta mahdollista alennusta."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Poistu lämmittelystä?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Taisteluita jäljellä: %(battlesCount)s"
+msgstr "Taisteluita jäljellä: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Taisteluita tekoälyn ohjaamia vaunuja vastaan ei huomioida tilastoissasi."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Sait myös:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s alennuksen tason %(level)svaunun tutkimiseen ja %(priceDiscount)s alennuksen sen ostamiseen"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} alennus tutkimisesta ja {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} alennus ostamisesta tason {{level}} vaunulle"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "Tason %(level)s vaunu"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "Tason {{level}} vaunu"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Alennus tason %(level)s vaunusta"
+msgstr "Alennus tason {{level}} vaunusta"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Päivittäisten tehtävien sarjan suorittamisesta"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "EDISTYMINEN SUORITETTU"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s alennus tutkimiseen\nja %(priceDiscount)s alennus ostamiseen"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} alennus tutkimisesta ja {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} alennus ostamisesta"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Tallissa"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Vuokrapäiviä: %(days)s"
+msgstr "Vuokrapäiviä: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Alennus tutkimiseen ja ostamiseen"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Valitse myöhemmin"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Alusta suodatin"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Vaunualennus"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "Tason %(vehicleLevel)s vaunu"
+msgstr "Tason {{vehicleLevel}} vaunu"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Selvä!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Palkintojen valinnan avaaminen ei onnistu"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Tutkit kaikki tason %(vehicleLevel)s vaunut. Voit nyt saada kansallisia piirustusten palasia palkinnoksi."
+msgstr "Tutkit kaikki tason {{vehicleLevel}} vaunut. Voit nyt saada kansallisia piirustusten palasia palkinnoksi."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Etsi nimen perusteella"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Näytetään:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Aseta oletukseksi"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Valitut palkinnot: %(amountRewards)s %(infoIcon)s"
+msgstr "Valitut palkinnot: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Valitse palkinnot annetuista kategorioista"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Mitään ei löytynyt. Vaihda suodattimen asetuksia tai palauta ne oletusasetuksiin."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s kansallista piirustusten palasta{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Kansallisen piirustuksen palanen{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% alennus tutkimiseen ja %(priceDiscount)s% alennus ostamiseen)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% alennus tutkimisesta ja {{priceDiscount}}% alennus ostamisesta)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Alennus tason %(level)s vaunusta"
+msgstr "Alennus tason {{level}} vaunusta"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (kaikki moduulit tutkittu, miehistö ja tallipaikka)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (Kaikki tutkitut moduulit, miehistö ja tallipaikka)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "Tason %(level)s vaunu"
+msgstr "Tason {{level}} vaunu"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Klikkaa \"Ota vastaan\" -nappia saadaksesi valitut palkinnot."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Valitut palkinnot: %(amountRewards)s"
+msgstr "Valitut palkinnot: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Osta"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "VALITSE PALKINTOSI"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{name}} {{type}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "PST-vaunu"

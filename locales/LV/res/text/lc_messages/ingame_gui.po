@@ -700,6 +700,9 @@ msgstr "Zona ieņemta"
 msgid "efficiencyRibbons/fireDamageZone"
 msgstr "Bojājumi no uguns zonas"
 
+msgid "efficiencyRibbons/heRocket"
+msgstr "NODARĪTIE BOJĀJUMI"
+
 msgid "efficiencyRibbons/healthAdded"
 msgstr "Tanks salabots"
 
@@ -741,6 +744,9 @@ msgstr "Bojājumi no šāviena"
 
 msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
 msgstr "Bojājumi no Ugunsbumbas"
+
+msgid "efficiencyRibbons/receivedHERocket"
+msgstr "Bojājumi no šāviena"
 
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Bojājumi no taranēšanas"
@@ -907,6 +913,9 @@ msgstr "Kāpurķēdes netika cauršautas"
 msgid "hitMarker/wheelBlocked"
 msgstr "Ritenis netika cauršauts"
 
+msgid "intuition/timeRange"
+msgstr "%(left)s — %(right)s"
+
 msgid "levelProgress/maxLevel"
 msgstr "MAKSIMĀLAIS TANKA LĪMENIS"
 
@@ -1020,6 +1029,21 @@ msgstr "Neviena ierīce nav bojāta, remonts nav nepieciešams."
 
 msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
 msgstr "[%(entity)s] ir lieliskā stāvoklī, remonts nav nepieciešams."
+
+msgid "player_errors/mechanics/autoreloaderSurge/clipFull"
+msgstr "Nav pieejams: Aptvere ir pilna."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noAmmo"
+msgstr "Nav pieejams: Nav atlikuši lādiņi."
+
+msgid "player_errors/mechanics/autoreloaderSurge/noCharges"
+msgstr "Nav pieejams: Nav atlikuši uzlādes mēģinājumi."
+
+msgid "player_errors/mechanics/autoreloaderSurge/reloadingSmall"
+msgstr "Nav pieejams: Pārlāde gandrīz pabeigta."
+
+msgid "player_errors/mechanics/auxiliaryRocketLauncher/cant_shoot"
+msgstr "Raķetes palaišana nav pieejama"
 
 msgid "player_errors/mechanics/supportWeapon/cant_shoot"
 msgstr "Nevar aktivizēt koaksiālo ieroci."
@@ -2701,6 +2725,18 @@ msgstr "%(caliber)s mm šķembu-fugasa lādiņš %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm kumulatīvais lādiņš %(userString)s"
 
+msgid "shells_kinds/params/criticalHitChance"
+msgstr "Kritiskā trāpījuma iespēja: %(value)s"
+
+msgid "shells_kinds/params/criticalHitChance/decreased"
+msgstr "Samazināts"
+
+msgid "shells_kinds/params/criticalHitChance/increased"
+msgstr "Palielināts"
+
+msgid "shells_kinds/params/criticalHitChance/standard"
+msgstr "Standarta"
+
 msgid "shells_kinds/params/damage"
 msgstr "Vidējie bojājumi: %(value)s dzīvības punkti"
 
@@ -2710,17 +2746,41 @@ msgstr "Bojājumi Sekundē: %(value)s dzīvības punkti/s"
 msgid "shells_kinds/params/explosionRadius"
 msgstr "Bojājumu rādiuss: %(value)s m"
 
-msgid "shells_kinds/params/header"
-msgstr "Pilna / Vienreizēja uzlāde"
+msgid "shells_kinds/params/header/bustleFeed"
+msgstr "Pamata / modificēts:"
+
+msgid "shells_kinds/params/header/lowChargeShot"
+msgstr "Pilna / Viena uzlāde:"
+
+msgid "shells_kinds/params/header/shellCalibration"
+msgstr "Standarta / Pielāgotais:"
+
+msgid "shells_kinds/params/header/shellParamsSwitcher"
+msgstr "Standarta / Kalibrēts:"
+
+msgid "shells_kinds/params/normalizationAngle"
+msgstr "Normalizācijas leņķis: %(value)s gr."
+
+msgid "shells_kinds/params/penetrationLoss"
+msgstr "Caursišanas zudums: %(value)s uz 100 mm"
+
+msgid "shells_kinds/params/penetrationLossValueTemplate"
+msgstr "%(value)s%%"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Vidējā cauršaušana: %(value)s mm"
+
+msgid "shells_kinds/params/ricochetAngle"
+msgstr "Rikošeta leņķis: %(value)s gr."
 
 msgid "shells_kinds/params/shotSpeed"
 msgstr "Čaulītes ātrums: %(value)s m/s"
 
 msgid "shells_kinds/params/stunDuration"
 msgstr "Apdullināšanas ilgums: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/bustleFeed"
+msgstr "aktivizēt AMP režīmu"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "pārslēgšanās uz ielenkšanas režīmu"
@@ -2745,6 +2805,9 @@ msgstr "lai aktivizētu Šķidro degvielas paātrinātājus"
 
 msgid "siegeMode/hint/rocketAcceleration"
 msgstr "lai aktivizētu reaktīvo dzinēju pastiprinātājus"
+
+msgid "siegeMode/hint/shellParamsSwitcher"
+msgstr "pārslēgt šaušanas režīmus"
 
 msgid "siegeMode/hint/stagedJetBoosters"
 msgstr "aktivizēt Secīgos Raķešu paātrinātājus"

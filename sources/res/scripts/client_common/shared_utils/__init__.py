@@ -109,7 +109,8 @@ def safeIndexOf(item, collection, default=None):
 def safeCall(function, *args, **kwargs):
     if callable(function):
         return function(*args, **kwargs)
-    return
+    else:
+        return
 
 
 def notImplementedCall(taskID, onNotImplementedCall=None):

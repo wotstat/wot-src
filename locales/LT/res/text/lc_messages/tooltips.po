@@ -6052,6 +6052,18 @@ msgstr "Ši instrukcija neveikia, nes jūs jau viršijote 6 pagrindinės kvalifi
 msgid "moduleFits/wrong_slot/body"
 msgstr "Modulis jau sumontuotas kitoje vietoje."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Tikimybė padaryti kritinę žalą priešo moduliams ir/ar įgulai."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Vertė, pagal kurią sumažinamas smūgio kampas pataikius į priešo šarvus."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Pramušimo skvarba, kurią sviedinys praranda kas 100 mm pataikęs į šarvų ekraną."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Kampas nuo kurio sviedinys automatiškai atšoka rikošetu."
+
 msgid "multiselection/alert/body"
 msgstr "Pasirinkite techniką: eiti į mūšį galima tik pilnai sukomplektavus grupę."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Kovinis leidimas: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin savo dabartinės misijos dykumas ir druskos lygumas pažinojo kaip savo ne mažiau vėjo nugairintą delną. Jam nepastovios aplinkos nebuvo svetimos, jis užsitarnavo garbės juostas specializuodamasis gynyboje nuo cheminių ginklų dar gerokai prieš įsėdęs į tanką. Praėjus dvidešimčiai metų, jis atsidūrė vos kelių dienų kelio atstumu nuo laboratorijų komplekso, kuriame buvo pradėjęs karinę tarnybą kaip jaunesnysis technikas. Laikas ir išbandymai nepalieka nė vieno žmogaus nepaliesto, bet, kaip Vadim juokavo savo įgulai, jo atleidimo iš tarnybos dokumentai nebuvo pateikti – taigi, kol kas nors jų tinkamai nepateiks, jis čia liks."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Žaliuojantys slėniai, kuriuose Bryn Powell praleido vaikystę, buvo visiškai kitoks pasaulis, palyginti su atšiauriomis klimato sąlygomis, su kuriomis jam teko susidurti. Jo naujausiose instrukcijose buvo stebėtinai mažai detalių, o frazės \"nenustatytas cheminis agentas\" ir \"mirtino pavojaus rizika: ekstremali\" priverstų daugelį vadų melstis dėl perkėlimo į kitą postą. Tačiau Bryn visada laikė savisaugą pagirtina kitų žmonių vertybe. Iš prigimties drąsuolis, jis galėjo padaryti nuostabią kaskadininko karjerą, jei tik būtų pajutęs tokį norą. Nors pasodinus jį už tanko vairo, skirtumas yra nežymus."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora yra nepajudinamasis vadas. Kaip taikos palaikymo misijų nestabiliuose regionuose veteranas, jis išmojo išlaikyti šaltą kraują spaudimui vis didėjant. Nesvarbu, ar jis yra ant išsekimo ribos po ilgos naktinės žvalgybos, ar analizuoja nerimą keliančią žvalgybinę informaciją apie nežinomą medžiagą, kurios paslaptis jo įgula buvo pasiųsta atskleisti, jo ramumas niekada nesusvyruoja. Jis palaiko komandos dvasią juokeliais, balansuojančiais tarp lengvabūdiškumo ir juodo humoro, atsisakydamas prarasti ugnį akyse ar žvalumą žingsnyje."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Ousset nieko nepraleisdavo. Prieš įstodama į slaptą šarvuotą žvalgybos misiją ji buvo daug garbės medalių užsitarnavusi šaulė, savo erelio žvilgsniu matydavusi daugiau nei leisdavo jos šautuvo optika. Parodykite jai net ir iškraipytą priešo žvalgybos informacijos fragmentą, ir ji sugebės padaryti tokias nuoseklias ir tikslias išvadas, kad net jos pačios įgula iš pradžių jos neįtikėtinus stebėjimo įgūdžius palaikė aiškiaregyste. Jai vadovaujant paslaptys retai likdavo paslėptos ilgam. Jos komandos laimei, ji savo negailestingiausią dėmesį skiria nežinomo reagento, kurį jiems buvo pavesta ištirti, šaltiniui."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Žmonės manęs klausia, ar pažįstu Jack Reed. Prieš atsakydamas, paprastai giliai įkvepiu ir trumpam užsimerkiu. Buvimas jo vadu nėra rožėm klotas kelias. Reed yra maištininkas, kuris kažkaip sugeba vykdyti nurodymus ir laikytis kariuomenės nustatytų taisyklių. Šiuo metu jis yra įstrigęs pragariškai karštame tanke. Bet mintyse jis lekia keliu, lyg važiuotų motociklu Route 66 keliu ir jaustų vėją savo plaukuose."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Kampanija 3 Sektorius"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Užaugęs Berno laikrodžių meistrų šeimoje, Stefanas paveldėjo amatą, reikalaujantį tylos, kantrybės ir absoliučios savikontrolės. Tačiau jam šios savybės nulėmė visai kitokią karjerą. 1940 metais Britanijos žvalgyba jam pasiūlė pasirinkti: neutralioji Šveicarija vienoje sienos pusėje, o jis – kitoje. Alpių slėniuose jis iš šnipinėjimo įrangos mechaniko tapo šauliu. Po karo jis tęsė tą darbą, likviduodamas tuos, kurie, pasinaudoję netikrais vardais, vengė teisingumo. Stefanas visada dirbo vienas, nepalikdamas jokių pėdsakų, ir taip daro iki šiol: niekas 3 sektoriuje niekada nematė jo veido."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Kampanija 3 Sektorius"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s - standartinis sviedinys pasirinktam pabūklui. Naudojamas skai
 msgid "shell/basic/description/bold"
 msgstr "Standartinis sviedinys"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Mašinos išorinio sviedinių maitinimo režimas leidžia naudoti daugiau žalos darančius sviedinius."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Įprastas"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Modifikuota:"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Ypatinga funkcija, leidžianti mašinos pabūklui anksčiau iššauti susilpnintą sviedinį."
 
@@ -10866,6 +10932,21 @@ msgstr "Įprastas:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Pakoreguotas:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Koreguojamas sprogmens degiklis padidina vidutinę žalą ar pramušimą."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Koreguojamas:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Mašinos pabūklas turi specialius įrenginius, kurie leidžia prieš išaunant pakoreguoti tam tikrus sviedinio parametrus."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standartinis"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibruotas"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Rodyti/slėpti mini žemėlapyje zoną, kurią apšaudo priešų artilerija."
@@ -11028,6 +11109,12 @@ msgstr "Sumažinus garso kokybę, gali pagreitėti žaidimo greitaveika žemesn�
 
 msgid "soundQualityOn/header"
 msgstr "Žema kokybė"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Vidutinė žala{{/}} padidinama pramušus priešo mašinos šarvus."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Vidutinis pramušimas{{/}} padidinamas, kai į priešą pataikoma, bet šarvai nepramušami."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Įgulos nariai Premium mašinose treniruojami 50% greičiau:"
@@ -11386,6 +11473,36 @@ msgstr "Pagerinta automatinio užtaisymo sistema sumažina standartinį sviedini
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Laikas nuo paskutinio iššauto sviedinio kasetėje (arba iš abiejų pabūklų) iki naujos kasetės užtaisymo. / Sviedinių kasetėje arba pabūklų skaičius."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Laikas, iki kurio nukrenta užtaisymo laikas, kai mechanizmas panaudojamas."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Laikas, per kurį atstatoma viena užkrova su pilna apkaba."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Laikas, per kurį atstatoma viena užkrova, jei apkaba ne pilna."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Mūšio pradžioje turimų užkrovų skaičius."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Maksimalus užtaisymą pagreitinančių užkrovų skaičius, kurį galite turėti vienu metu."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Vidutinė raketos žala pramušus šarvus. Potencialios žalos vertė yra +/- 25% vidutinės vertės."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Sklaida apibūdina sviedinio nuokrypį nuo centrinio taikymosi taško, sviediniui nuskriejus 100 metrų atstumą."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Vidutinis raketos pramušamų šarvų storis. Skirtis gali +/- 25% vidutinės vertės."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Laikas, per kurį raketsvaidis vėl užtaisomas"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Nuo jo priklauso raketos skriejimo greitis."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Vidutinė žala standartiniais sviediniais pramušus šarvus. Potencialios žalos vertė yra +/- 25% vidutinės vertės."
 
@@ -11406,6 +11523,21 @@ msgstr "Maksimalus greitintuvų veikimo laikas."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Užsitaisymo laikas tarp sviedinių talpoje. / Talpų skaičius kasetėje. / Sviedinių skaičius kasetėje."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Vidutinė žala, kurią padaro užkrovą panaudojęs sviedinys pramušęs šarvus. Potenciali sviedinio žala yra ±25% vidutinės vertės."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Maksimalaus greičio į priekį sumažėjimas naudojant išorinio sviedinių maitinimo režimą. Greitis atbuliniu nekinta."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Sviedinių per minutę sumažinimas naudojant išorinio sviedinių maitinimo režimą."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimalus laikas, per kurį pabūklas paruošiamas išorinio sviedinių maitinimo režimui. Šiuo metu negalima pakeisti režimo."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimalus laikas, per kurį pabūklas paruošiamas sugrįžti į standartinį režimą. Šiuo metu negalima pakeisti režimo."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Laikas pasiruošimui šauti iš abiejų vamzdžių iš karto. / Pabūklo užtaisymo trukmė po iššautos salvės."
@@ -11737,8 +11869,17 @@ msgstr "Laikas, per kurį papildomas ginklas užtaisomas kitam šūviui."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Papildomo ginklo sviedinių skaičius prieš jį aktyvuojant."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Papildoma žala, suteikiama pramušus priešo šarvus."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Papildomas pramušimas, suteikiamas pataikius, bet nepramušus šarvų."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Laikas, per kurį mūšio pradžioje užtaisomas sviedinys ir pasikeičiama iš vieno, į kitą."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Laikas, per kurį pasikeičiama tarp kalibruoto ir standartinio režimo."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Ginklo sklaida apibūdina sviedinio nuokrypį nuo centrinio taikymosi taško, sviediniui nuskriejus 100 metrų atstumą."
@@ -11748,6 +11889,36 @@ msgstr "Ginklo sklaida apibūdina sviedinio nuokrypį nuo centrinio taikymosi ta
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Parodo kiek metrų sviedinys gali nukrypti nuo taikymosi taško 100 m atstumu nuo taikinio. Standartinė vertė (pirmoji) yra įkaitusiam pabūklui, pagerinta vertė (antroji) yra atvėsusiam pabūklui."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Vis didėjantis maskuotės sumažinimas už augalijos pasislėpusioms mašinoms IRIS skenavimo lauke."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Vis didėjantis maskuotės sumažinimas už judančioms mašinoms IRIS skenavimo lauke."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Laikas nuo mūšio pradžios, po kurio pirmą kartą galėsite panaudoti IRIS."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Pirmojo IRIS skenavimo trukmė"
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Laikas, po kurio vėl galėsite naudoti IRIS."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Bokštelio sukimosi greičio sumažinimas naudojant IRIS."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "IRIS skenuojamo sektoriaus plotis veikimo pabaigoje."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "IRIS skenuojamo sektoriaus plotis veikimo pradžioje."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Laikas, kurį jūsų mašina išlieka matoma, kai aptinkate priešą su IRIS."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Vis didėjantis apžvalgos atstumas IRIS skenuojamame sektoriuje."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Techninės specifikacijose nurodytas mašinos greitis."

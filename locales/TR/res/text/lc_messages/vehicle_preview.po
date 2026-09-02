@@ -40,6 +40,9 @@ msgstr "Araştır"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Kurtar"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Büyük Kutulara Gidin"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Seviye %(level)s %(nation)s araç araştırılmadı"
 
@@ -54,6 +57,15 @@ msgstr "Satın almada indirim:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Araştırmada indirim:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Bu araç {{@ style (color $color)}}Büyük Kutulardan{{/}} çıkabilir!"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Büyük Kutular!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Bu araç şuradan çıkabilir:"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Kupon indirimi uygulayın: %(value)s"

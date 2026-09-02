@@ -802,6 +802,12 @@ msgstr "Zarządzany bonus do PD"
 msgid "bonusName/attachment"
 msgstr "Dodatek 3D"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "Natarcie powietrzne"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "Zestaw obrony przeciwlotniczej"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "Łup pretendenta"
 
@@ -810,6 +816,9 @@ msgstr "Zestaw dodatków 3D"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "Oceaniczny strażnik"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "Odnaleźć i zniszczyć"
 
 msgid "bonusName/attendance_reward"
 msgstr "Nagrody za obecność"
@@ -4152,6 +4161,12 @@ msgstr "Misja strategiczna"
 
 msgid "item/type/specialMission"
 msgstr "Twierdza: Specjalne instrukcje"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "Ta misja będzie dostępna do ukończenia każdego dnia wydarzenia i nie można jej zamienić."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "Stała misja"
 
 msgid "metrics/state/done"
 msgstr "Ukończono"

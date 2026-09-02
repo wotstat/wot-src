@@ -826,6 +826,9 @@ msgstr "3D styly"
 msgid "carousel_tank_filter/ready"
 msgstr "Pouze primární"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Průzkumník"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Odstřelovací"
 
@@ -834,9 +837,6 @@ msgstr "Podpůrný"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Všestranný"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Kolový"
 
 msgid "centerIsAvailable"
 msgstr "Všechny servery jsou znovu dostupné."
@@ -4159,6 +4159,9 @@ msgstr "Vylepšený systém automatického dobíjení:\nSnižuje standardní dob
 msgid "moduleInfo/autoShootGun"
 msgstr "Dělo se systémem nepřetržité palby"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Toto vozidlo je vybaveno raketometem namontovaným na mantletu děla. Aktivujte možnost přepnutí na zaměřovač sekundární zbraně a poté stisknutím tlačítka pro odpal vystřelte neřízenou raketu s výbušnou hlavicí."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Zavřít"
 
@@ -4312,6 +4315,9 @@ msgstr "Čas obnovení"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "k hlavním kvalifikacím a schopnostem posádky"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Šance na kritický zásah"
+
 msgid "moduleInfo/params/damage"
 msgstr "Poškození"
 
@@ -4342,11 +4348,29 @@ msgstr "Pravděpodobnost požáru při zásahu"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Doba letu"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Při zásahu hlavního pancíře vždy způsobí poškození"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maximální vzdálenost, na kterou granát z tohoto děla doletí"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " u tohoto typu granátu nezávisí na vzdálenosti"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maximální dolet - 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " tento typ granátu po proražení první clony začíná se vzdáleností ztrácet průbojnost"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " závisí na vzdálenosti: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " tento typ granátu probíjí clony jako obvykle, ale poté ztrácí průbojnost rovnající se trojnásobku tloušťky pancíře clony."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Maximální rychlost"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Při zásahu hlavního pancíře vždy způsobí poškození"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Hmotnost"
@@ -4378,20 +4402,11 @@ msgstr "Výdrž"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Dostřel"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maximální vzdálenost, na kterou granát z tohoto děla doletí"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maximální úhel natočení kol"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Průměrné poškození na %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " u tohoto typu granátu nezávisí na vzdálenosti"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maximální dolet - 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Úhel normalizace"
@@ -4399,14 +4414,8 @@ msgstr "Úhel normalizace"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Ztráta průbojnosti"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " tento typ granátu po proražení první clony začíná se vzdáleností ztrácet průbojnost"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " závisí na vzdálenosti: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Průměrná průbojnost (mm) — Vzdálenost"
@@ -4456,9 +4465,6 @@ msgstr "Rychlost otáčení"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Násobitel vrstveného pancíře"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " tento typ granátu probíjí clony jako obvykle, ale poté ztrácí průbojnost rovnající se trojnásobku tloušťky pancíře clony."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "%(multiplier)s×"
 
@@ -4506,6 +4512,9 @@ msgstr "Přídavné indukční spalování, které zvyšuje průměrné poškoze
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Raketové trysky zvyšují pohyblivost vozidla"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátu."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Trysky na tuhé palivo, které posilují zrychlení, pohyblivost a ovladatelnost"
@@ -5284,11 +5293,14 @@ msgstr "Vozidla s dokonalými děly, jejichž efektivní využití vyžaduje spl
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Víceúčelové tanky, které se snadno přizpůsobí jakékoli bojové situaci."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Rychlá a obratná vozidla, která mohou jak provádět průzkum, tak i udělovat poškození při obchvatných manévrech."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Průzkumné lehké tanky jsou malá obratná vozidla určená k vyhledávání nepřátel. Díky nízkému profilu a dobrému maskování, stejně jako vynikající obratnosti a vysoké maximální rychlosti, se hodí jak k pasivnímu, tak k aktivnímu průzkumu. Nízká odolnost a malá palebná síla jim však brání v poskytování výraznější palebné podpory."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vozidla s vynikajícími dynamickými vlastnostmi, jejichž efektivní využití závisí na mapě či taktické situaci."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Podpůrné lehké tanky využívají svou vysokou pohyblivost, vynikající obratnost a výkonná děla k tomu, aby rychle přejížděly na křídla fronty a způsobovaly značné poškození, než se stáhnou do bezpečí. Ačkoli v určitých situacích mohou provádět průzkum, jejich větší rozměry a špatné maskování z nich činí méně účinné průzkumníky, než jsou jiné lehké tanky."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Všestranné lehké tanky jsou univerzální vozidla, která dokáží plnit jak průzkumné úlohy, tak zajišťovat palebnou podporu. Ačkoli nejsou při průzkumu tak účinné jako průzkumné tanky a mají menší palebnou sílu než podpůrné lehké tanky, jejich vyvážené vlastnosti jim umožňují úspěšně plnit obě role a snadno se přizpůsobit široké škále bojových situací."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vozidla se slušným pancířem, díky němuž se nejlépe hodí k boji zblízka a k držení pozic proti nepřátelským těžkým tankům."
@@ -5329,11 +5341,14 @@ msgstr "Podpůrný těžký tank"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Všestranný těžký tank"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Průzkumný lehký tank"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Podpůrný lehký tank"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Všestranný lehký tank"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Kolový lehký tank"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Útočný střední tank"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Nabití"
 msgid "tank_params/autoShootClipSec"
 msgstr "(zásobník/množství)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Doba urychleného nabíjení granátu"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Doba obnovení nabití při plném zásobníku"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Základní doba obnovení nabití"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Počet nabití na začátku bitvy"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Nabití"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Průměrné poškození (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Rozptyl na 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Průměrná průbojnost (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Doba obnovení (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Rychlost rakety (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Průměrné poškození"
 
@@ -6057,6 +6105,21 @@ msgstr "Zásobník munice"
 
 msgid "tank_params/burstSec"
 msgstr "(s/počet/počet)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Průměrné poškození (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Maximální rychlost (režim VPM) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Rychlost střelby (ran/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Aktivace režimu VPM (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Deaktivace režimu VPM (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Příprava salvy"
@@ -6150,6 +6213,12 @@ msgstr "Výkon motoru (hp) (turbo režim)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Poloměr poškození"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Maximální rychlost (režim VPM) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Aktivace režimu VPM (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Doba ochlazení děla po výstřelu"
@@ -6325,9 +6394,6 @@ msgstr "Průchodnost terénem"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Nabití Koincidenčního elektromechanického zaměřovače (% za s) (soubojový režim, pasivní)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(za aktivaci)"
 
@@ -6484,8 +6550,20 @@ msgstr "Nabíjení pomocného zbraňového systému"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Granáty pomocného zbraňového systému"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Průměrné poškození upraveného granátu (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Průměrná průbojnost upraveného granátu (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Nabíjení nábojového pásu"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Doba do přepnutí režimů"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Průbojnost:"
@@ -6495,6 +6573,36 @@ msgstr "Rozptyl na 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Rychlost granátu"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Maskování nepřítele za porostem (stojící a za pohybu)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Maskování pohybujícího se nepřítele"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Výchozí obnovení"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Doba trvání"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Doba obnovení"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Rychlost otáčení věže"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Finální šířka skenu"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Původní šířka skenu"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Trvání sebeodhalení"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Dohled"
 
 msgid "tank_params/speedLimits"
 msgstr "Max. rychlost / couvání"

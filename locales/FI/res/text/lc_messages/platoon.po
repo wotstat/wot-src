@@ -130,6 +130,9 @@ msgstr "Et voi luoda tai liittyä osastoihin, koska sinulla ei ole soveltuvaa ta
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Karsintojen valmistuttua kahden ja seitsemän pelaajan osastot tulevat saataville."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Karsintojen jälkeen kahden pelaajan osastot tulevat saataville."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Et voi luoda osastoa."
 
@@ -141,6 +144,9 @@ msgstr "Luo osasto tai liity jo olemassa olevaan. Rynnistyksessä osastot voivat
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Osasto"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Luo osasto tai liity jo olemassa olevaan. Rynnistyksessä osastot voivat koostua vain kahdesta pelaajasta."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Luo kahden tai kolmen pelaajan taktinen yksikkö yhdessä pelaamiseen.\n• Pelimuoto: teräsmyrsky.\n• Taistelutyypit: teräsjahti, ylivalta."
@@ -264,12 +270,6 @@ msgstr "Osastossa on jo maksimimäärä raskaita vaunuja"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Osastossa on jo maksimimäärä keskiraskaita vaunuja"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Osastossa on jo maksimimäärä kevyitä vaunuja"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Osastossa on jo maksimimäärä pyörällisiä ajoneuvoja"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Osastossa on jo maksimimäärä kevyitä vaunuja"

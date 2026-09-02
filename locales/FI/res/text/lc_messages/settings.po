@@ -46,6 +46,15 @@ msgstr "Mahdollistaa objektien tuhoutumisen yksityiskohtaisemman ja realistimman
 msgid "HAVOK_ENABLED/warning"
 msgstr "Asetus otetaan käyttöön seuraavassa taistelussa, mikäli se on pois päältä nykyisesä taistelussa."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Parannellut visuaaliset efektit"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Ottaa käyttöön paremmat visuaaliset efektit. Tämän asetuksen kytkeminen pois palauttaa tavallisiin efekteihin, mikä voi parantaa pelin suorituskykyä."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Asetus otetaan käyttöön seuraavassa taistelussa, mikäli se on pois päältä nykyisesä taistelussa."
+
 msgid "LANGUAGE_CODE"
 msgstr "fi"
 
@@ -175,11 +184,11 @@ msgstr "Ota käyttöön telojen ja renkaiden jäljet"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Näyttää telojen ja pyörien jäljet maassa.\n\nEi ole saatavilla yksinkertaistetuilla grafiikoilla ja matalalla koristeiden laadulla."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Piilota kolmiulotteiset lisävarusteet tarkka-ampujatilassa"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efektien ja kolmiulotteisen lisävarusteiden näkyvyys"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Piilottaa väliaikaisesti vaunun kolmiulotteiset lisävarusteet tykin tähtäimestä tarkka-ampujatilassa.\n\nVähentää visuaalisten ärsykkeiden määrää ja parantaa tähtäystarkkuutta."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Säätää efektien ja kolmiulotteisten lisävarusteiden näkyvyyttä ruudun keskustan lähellä, jotta tähtäämisen tiellä on vähemmän visuaalisia esteitä. Kolmiulotteisten lisävarusteiden näkyvyyttä säädetään vain tarkka-ampuja -tilassa.\n\nAlhaisemmat arvot tekevät efekteistä ja lisävarusteita läpinäkyvämpiä ja selkeyttävät tähtäämistä"
 
 msgid "WATER_QUALITY"
 msgstr "Veden laatu"
@@ -1995,6 +2004,15 @@ msgstr "Tila:"
 
 msgid "screenMode/windowed"
 msgstr "Ikkuna"
+
+msgid "showPrebattleHighlights"
+msgstr "Ota käyttöön valokeila"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Näyttää valikoiman visuaalisesti näyttäviä vaunuja taistelun lähtölaskennan aikana.\n\nTämän parametrin poistaminen käytöstä voi parantaa pelin suorituskykyä."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Mikäli asetus on poistettu käytöstä nykyisen taistelun ajaksi, on se käytössä seuraavassa."
 
 msgid "smoothing/description"
 msgstr "Määrittelee peliobjektien ohuiden viivojen ja ääriviivojen lisäprosessoinnin asteen. Minimoi sahalaitaisuusefektin. Objektien ääriviivat näyttävät luonnollisemmilta."

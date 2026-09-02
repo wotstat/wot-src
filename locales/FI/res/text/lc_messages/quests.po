@@ -802,6 +802,12 @@ msgstr "Kohdennettava kokemuskerroin"
 msgid "bonusName/attachment"
 msgstr "Kolmiulotteinen lisävaruste"
 
+msgid "bonusName/attachments_set/aerialAdvance"
+msgstr "Edistys ilmassa"
+
+msgid "bonusName/attachments_set/airDefenseSuite"
+msgstr "Ilmapuolustusjärjestelmä"
+
 msgid "bonusName/attachments_set/challengersBounty"
 msgstr "Haastajan palkkio"
 
@@ -810,6 +816,9 @@ msgstr "Kolmiulotteisten lisävarusteiden lajitelma"
 
 msgid "bonusName/attachments_set/oceanicSentinel"
 msgstr "Merten vartija"
+
+msgid "bonusName/attachments_set/searchAndDestroy"
+msgstr "Etsi ja tuhoa"
 
 msgid "bonusName/attendance_reward"
 msgstr "Läsnäolopalkinnot"
@@ -4152,6 +4161,12 @@ msgstr "Strateginen tehtävä"
 
 msgid "item/type/specialMission"
 msgstr "Linnake: Erityiskäskyt"
+
+msgid "lockedForRerollTooltip/body"
+msgstr "Tämä tehtävä on saatavilla suoritettavaksi joka päivä tapahtuman ajan, eikä sitä voi arpoa uusiksi."
+
+msgid "lockedForRerollTooltip/header"
+msgstr "Kiinteä tehtävä"
 
 msgid "metrics/state/done"
 msgstr "Suoritettu"

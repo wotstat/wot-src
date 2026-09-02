@@ -826,6 +826,9 @@ msgstr "3D-stilar"
 msgid "carousel_tank_filter/ready"
 msgstr "Endast primära"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Spanare"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Prickskytt"
 
@@ -834,9 +837,6 @@ msgstr "Understödsvagn"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Mångsidig"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Pansarbil"
 
 msgid "centerIsAvailable"
 msgstr "Alla servrar tillgängliga igen"
@@ -4159,6 +4159,9 @@ msgstr "Förbättrad automatladdare:\nMinskar omladdningstiden för automatisk o
 msgid "moduleInfo/autoShootGun"
 msgstr "Automatkanon som kan ge ihållande eld"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Den här vagnen är utrustad med ett koaxialt raketvapen i kanonmanteln. Aktivera förmågan för att byta till raketsiktet och avfyra sen en raket med avfyrningsknappen."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Stäng"
 
@@ -4312,6 +4315,9 @@ msgstr "Nedkylning"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "huvudutbildning och besättningsförmågor"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kritisk träffchans"
+
 msgid "moduleInfo/params/damage"
 msgstr "Skada"
 
@@ -4342,11 +4348,29 @@ msgstr "Brandrisk"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Flygtid"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Åsamkar alltid skada om pansaret träffas."
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maximalt skjutavstånd för kanonen"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " beror inte på avståndet för denna granattyp"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maximalt skotthåll—400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " granattypen börjar tappa genomslagsförmåga på avstånd när den passerat första pansarskiktet"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " beror på avstånd: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " granattypen går igenom pansarskärmar som vanligt, men förlorar genomslagsförmåga motsvarande tre gånger pansarskiktets tjocklek."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Topphastighet"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Åsamkar alltid skada om pansaret träffas."
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Vikt"
@@ -4378,20 +4402,11 @@ msgstr "Träffpoäng"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Skottvidd"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maximalt skjutavstånd för kanonen"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Gräns för hjulvridning"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Genomsnittlig skada på %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " beror inte på avståndet för denna granattyp"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr "maximalt skotthåll—400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normaliseringsvinkel"
@@ -4399,14 +4414,8 @@ msgstr "Normaliseringsvinkel"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Genomslagsminskning"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " granattypen börjar tappa genomslagsförmåga på avstånd när den passerat första pansarskiktet"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " beror på avstånd: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Genomsnittlig penetration (mm)-Avstånd"
@@ -4456,9 +4465,6 @@ msgstr "Rotationshastighet"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Faktor för skiktat pansar"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " granattypen går igenom pansarskärmar som vanligt, men förlorar genomslagsförmåga motsvarande tre gånger pansarskiktets tjocklek."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Drivgasefterbrännkammaren ökar den genomsnittliga skadan"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Raketmotor som ökar vagnens hastighet"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Vagnens kanon har särskilda anordningar som gör det möjligt att ändra vissa granatparametrar före eldgivning."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Fastbränsleraketer som ökar acceleration, rörlighet och manöverförmåga"
@@ -5284,11 +5293,14 @@ msgstr "Vagnar med de allra kraftigaste pjäserna som ställer väldigt stora kr
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Mångsidiga vagnar som kan anpassa sig till varje stridssituation."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Snabba och rörligt vagnar som både kan spana och åsamka skada i flankanfall."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Lätta spaningsvagnar är små, smidiga vagnar byggda för att upptäcka fienden. De har låg siluett, effektiv maskeringsförmåga, utmärkt rörlighet och hög topphastighet, vilket gör dem skickliga på både passiv och aktiv spaning, men låg tålighet och klen eldkraft hindrar dem från att ge laget betydande eldunderstöd."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Vagnar med exceptionellt hög hastighet och manöverförmåga vars effektivitet dikteras av kartan och den taktiska situationen."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Lätta understödsvagnar använder sin rörlighet, utmärkta manöverförmåga och kraftfulla beväpning för att snabbt byta flank och orsaka betydande skada innan de drar sig tillbaka i säkerhet. Även om de kan genomföra spaning i vissa situationer, gör deras stora storlek och dåliga maskering dem till mindre effektiva spanare än andra lätta stridsvagnar."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Mångsidiga lätta stridsvagnar är allsidiga vagnar som kan både spana och ge eldunderstöd till allierade. Även om de är mindre effektiva i spaning än spaningsvagnar och har mindre eldkraft än understödslätta stridsvagnar, gör deras balanserade egenskaper att de kan fylla båda rollerna väl och enkelt anpassa sig till ett brett spektrum av stridssituationer."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Vagnar med ordentligt pansar som gör dem mest lämpade att hålla tillbaka fiendens tunga stridsvagnar."
@@ -5329,11 +5341,14 @@ msgstr "Tung understödsstridsvagn"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Tung universalstridsvagn"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Lätt spaningsvagn"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Lätt understödsvagn"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Lätt universalstridsvagn"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Lätt pansarbil"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Medeltung stormstridsvagn"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Omladdning"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magasin/antal)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Snabbare omladdning"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Nedkylning vid fullt magasin"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Basnedkylning"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Laddningar vid stridens början"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Laddningar"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Genomsnittlig skada (TP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Siktesspridning på 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Genomsnittlig genomslagsförmåga (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Nedkylningstid (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Rakethastighet (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Genomsnittlig skada"
 
@@ -6057,6 +6105,21 @@ msgstr "Salva"
 
 msgid "tank_params/burstSec"
 msgstr "(s/antal/antal)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Genomsnittlig skada (TP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Topphastighet (extern kassett) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Eldhastighet (skott/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Växling till extern kassett (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Växling från extern kassett (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Salvförberedelsetid"
@@ -6150,6 +6213,12 @@ msgstr "Motorstyrka (hk) (turboläge)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Verkansområde"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Topphastighet (extern kassett) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Växling till extern kassett (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Nedkylningstid efter eldgivning"
@@ -6325,9 +6394,6 @@ msgstr "Förmåga att korsa terräng"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Laddning för Koincidensbaserat elektromekaniskt sikte (% per träff) (bekämpningsläge, passivt)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(per aktivering)"
 
@@ -6484,8 +6550,20 @@ msgstr "Laddningstid för förstärkningsvapen"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Granater för förstärkningsvapen"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Genomsnittlig skada för inställd granat (%) "
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Genomsnittligt genomslag för inställd granat (%) "
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Bandmatad kanon"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Tid för att växla läge"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Pansargenomslag:"
@@ -6495,6 +6573,36 @@ msgstr "Spridning på 100m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Utgångshastighet"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Maskering för vagnar dolda av vegetation (stillastående och i rörelse)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Maskering för fiende i rörelse"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Nedkylning från start"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Varaktighet"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Nedkylning"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Tornrotationshastighet"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Avsökningsfält (slut)"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Avsökningsfält (start)"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Tid för självupptäckande"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Siktsträcka"
 
 msgid "tank_params/speedLimits"
 msgstr "Toppfart / bakåt"

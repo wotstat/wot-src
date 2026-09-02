@@ -46,6 +46,15 @@ msgstr "Schakelt een meer gedetailleerd en realistisch model in voor objectverni
 msgid "HAVOK_ENABLED/warning"
 msgstr "De instelling wordt bij het volgende gevecht toegepast als het in het huidige gevecht is uitgeschakeld."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Verbeterde visuele effecten"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Zet verbeterde visuele effecten aan. Zet deze optie uit om terug te gaan naar standaard effecten, wat de spelprestaties kan verbeteren."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "De instelling wordt bij het volgende gevecht toegepast als het in het huidige gevecht is uitgezet."
+
 msgid "LANGUAGE_CODE"
 msgstr "nl"
 
@@ -175,11 +184,11 @@ msgstr "Zet rupsband- en wielsporen aan"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Toont rupsband- en wielsporen op de grond.\n\nNiet beschikbaar met vereenvoudigde graphics en lage decal-kwaliteit."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Verberg 3D-attachments in sluipschuttermodus"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Zichtbaarheid van effecten en 3D-attachments"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Verbergt tijdelijk 3D-attachments in het vizier van de sluipschuttermodus.\n\nVermindert visuele ruis en verbetert het richten."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Past de zichtbaarheid van effecten en 3D-attachments in het midden van het scherm aan om het richten makkelijker te maken. De zichtbaarheid van 3D-attachments wordt alleen in de Sluipschuttermodus aangepast.\n\nLagere waardes maken effecten en 3D-attachments transparanter en het richten makkelijker."
 
 msgid "WATER_QUALITY"
 msgstr "Waterkwaliteit"
@@ -1995,6 +2004,15 @@ msgstr "Modus:"
 
 msgid "screenMode/windowed"
 msgstr "In kader"
+
+msgid "showPrebattleHighlights"
+msgstr "Zet spotlight aan"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Toont een selectie prachtige tanks tijdens de countdown voor het gevecht.\n\nHet uitschakelen van deze parameter kan de spelprestaties verbeteren."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "De instelling wordt bij het volgende gevecht toegepast als het in het huidige gevecht is uitgezet."
 
 msgid "smoothing/description"
 msgstr "Bepaalt de mate van extra verwerking van dunne lijnen en contouren van spelobjecten. Het aliasing-effect verminderend. De randen en vlakken van objecten wordt gladder met deze optie ingeschakeld."

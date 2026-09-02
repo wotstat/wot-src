@@ -49,6 +49,9 @@ msgstr "A-220A-2"
 msgid "A_220A_CFE_D"
 msgstr "A-220A"
 
+msgid "A_220B_1_F"
+msgstr "A-220B"
+
 msgid "A_220B_1_QL"
 msgstr "A-220B QL"
 
@@ -57,6 +60,9 @@ msgstr "A-220B/78"
 
 msgid "A_220B_79"
 msgstr "A-220B/79"
+
+msgid "A_220C"
+msgstr "A-220C"
 
 msgid "A_220R"
 msgstr "A 220R"
@@ -700,6 +706,21 @@ msgstr "BZ-75 7x7"
 msgid "Ch48_BZ_75_7x7_short"
 msgstr "BZ-75 7x7"
 
+msgid "Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_descr"
+msgstr "\"Jeg lå stille og betragtede røgsøjlen langt over mig. Sorte fangarme, der strakte sig opad, højere end et skud kan nå, bærende på gløder indtil de falmede bort. Det eneste bevis på mit nederlag lå i asken, der dækkede slagmarken — grå og uformelig, mit endeligt. Og alligevel glødede noget af det med en stærk varme, der trodsede livløsheden. Selv her, i ødelæggelsens kølvand, var der en gnist.\n\nDet gik da op for mig, at mit endeligt er hvor jeg begynder.\n\nFor hvordan kan du rejse dig, hvis du ikke har været nede?\""
+
+msgid "Ch48_BZ_75_CFE_F_long_special"
+msgstr "Fireborn fejer hen over slagmarken, frygtet af mange og respekteret af alle. Dens kraftfulde bevæbning kan påføre markant skade på ethvert mål, mens kombinationen af raket-boostere og pålideligt panser giver uforlignelig mobilitet og beskyttelse. Overrask dine modstandere og lad føniksen flyve!"
+
+msgid "Ch48_BZ_75_CFE_F_short"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_short_special"
+msgstr "Raket-boostere, kraftfuld kanon"
+
 msgid "Ch48_BZ_75_descr"
 msgstr "I 1960'erne, i en tid med et anspændt forhold til Sovjetunionen, fandt Kina på konceptet med \"grænsedækkende styrker\". Den primære ildkraft i denne formation skulle komme fra enheder udstyret med \"grænsedækkende kampvogne\". Et af projekterne på et sådant køretøj var BZ-75, udviklet i 1975 med erfaringer fra den tunge kampvogn WZ-111. Under arbejdet på tårnet, indarbejdede ingeniørerne flere designaspekter fra WZ-1224-projektet. Ingen prototyper på BZ-75 blev bygget."
 
@@ -981,6 +1002,18 @@ msgstr "PTZ-78, en forbedring på den velkendte kinesiske KJ-opskrift, har en im
 
 msgid "Ch70_PTZ_78_short"
 msgstr "PTZ-78"
+
+msgid "Ch71_WZ_219"
+msgstr "WZ-219"
+
+msgid "Ch71_WZ_219_descr"
+msgstr "I begyndelsen af 1970'erne påbegyndte Kina udviklingen af en let kampvogn til at erstatte den forældede Type 62. Det kompakte, hurtige køretøj skulle matche MBT'er på ildkraft. Designet inkluderede et multifunktionelt sigte- og afstandsmålersystem. Det viste sig dog at være for klodset og krævede en separat strømkilde. På grund af vanskelighederne og omkostningerne, blev projektet nedlagt."
+
+msgid "Ch71_WZ_219_long_special"
+msgstr "WZ-219 er som andre kinesiske lette kampvogne, når det angår deres imponerende bevæbning. Dens unikke natur ligger i en sofistikeret afstandsmåler, der gør køretøjet i stand til på effektiv vis at afsløre intetanende fjenders positioner, og på den vis gøre dem sårbare."
+
+msgid "Ch71_WZ_219_short"
+msgstr "WZ-219"
 
 msgid "Ch72_Yongshi"
 msgstr "Yongshi"
@@ -1264,6 +1297,9 @@ msgstr "Bull Demon King"
 msgid "Chassis_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Chassis_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Chassis_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1330,6 +1366,9 @@ msgstr "BZ-79"
 msgid "Chassis_Ch68_PGZ_70"
 msgstr "PGZ-70"
 
+msgid "Chassis_Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "Chassis_Ch72_Yongshi"
 msgstr "Yongshi"
 
@@ -1367,6 +1406,9 @@ msgid "Gun_Ch00_ClingeBot_SH"
 msgstr "Clinger"
 
 msgid "HS_110F"
+msgstr "HS 110F"
+
+msgid "HS_110F_F"
 msgstr "HS 110F"
 
 msgid "HS_110F_M"
@@ -1588,6 +1630,9 @@ msgstr "Bull Demon King"
 msgid "Turret_1_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Turret_1_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Turret_1_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1647,6 +1692,9 @@ msgstr "PGZ-70"
 
 msgid "Turret_1_Ch70_PTZ_78"
 msgstr "PTZ-78"
+
+msgid "Turret_1_Ch71_WZ_219"
+msgstr "WZ-219"
 
 msgid "Turret_1_Ch72_Yongshi"
 msgstr "Yongshi"
@@ -2029,6 +2077,18 @@ msgstr "105 mm Type 81-I"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_115mm_69_115T"
+msgstr "115 mm 69-115T"
+
+msgid "_115mm_Po_115G"
+msgstr "Po-115G"
+
+msgid "_115mm_Sha_bao_115G"
+msgstr "Sha bao-115G"
+
+msgid "_115mm_Tuo_chuan_115G"
+msgstr "Tuo chuan-115G"
+
 msgid "_120mm_CB-472LY"
 msgstr "Chuan bei-472LY"
 
@@ -2166,6 +2226,9 @@ msgstr "12150L (34-1)"
 
 msgid "_12150L_70"
 msgstr "12150L-70"
+
+msgid "_12150ZL"
+msgstr "12150ZL"
 
 msgid "_122-mm_37-122JT"
 msgstr "122 mm 37-122JT"
@@ -2527,6 +2590,9 @@ msgstr "Sprgr. G 45 (WT IV)"
 msgid "_152_mm_64_152T"
 msgstr "152 mm 64-152T"
 
+msgid "_152_mm_64_152T_F"
+msgstr "152 mm 64-152T"
+
 msgid "_152_mm_64_152T_M"
 msgstr "152 mm 64-152DV"
 
@@ -2555,6 +2621,9 @@ msgid "_152mm_59_152JG_FT_HE_G6_SH"
 msgstr "59-152JG HE"
 
 msgid "_152mm_AP_T"
+msgstr "Chuan bei-152T"
+
+msgid "_152mm_AP_T_F"
 msgstr "Chuan bei-152T"
 
 msgid "_152mm_Chuan_bei_152T_DV"
@@ -2599,7 +2668,13 @@ msgstr "GM 45HE B"
 msgid "_152mm_HEAT_T"
 msgstr "Po-152T"
 
+msgid "_152mm_HEAT_T_F"
+msgstr "Po-152T"
+
 msgid "_152mm_HE_T"
+msgstr "Sha bao-152T"
+
+msgid "_152mm_HE_T_F"
 msgstr "Sha bao-152T"
 
 msgid "_152mm_Po_152"

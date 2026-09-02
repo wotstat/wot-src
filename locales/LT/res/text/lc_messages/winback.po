@@ -1,36 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "dailyQuestsIntroView/buttons/close"
-msgstr "UŽDARYTI"
-
-msgid "dailyQuestsIntroView/buttons/confirm"
-msgstr "Tikrai taip!"
-
-msgid "dailyQuestsIntroView/info/mode/description"
-msgstr "Apšilimas primins jums žaidimo pagrindus. Mūšių prieš dirbtinio intelekto valdomas mašinas rezultatai neįtraukiami į jūsų statistiką. Jūs galite bet kada palikti Apšilimą ir pradėti Atsitiktinius mūšius."
-
-msgid "dailyQuestsIntroView/info/mode/title"
-msgstr "Apšilimas"
-
-msgid "dailyQuestsIntroView/info/quests/description"
-msgstr "Vykdykite misijas, užbaikite Atgal į kovą sekos misijas ir gaukite vertingus apdovanojimus. Kiekviena įvykdyta Standartinė, Premium ar Bonus misija artina link apdovanojimo. Misijas galima įvykdyti Apšilime ir Atsitiktiniuose mūšiuose."
-
-msgid "dailyQuestsIntroView/info/quests/descriptionBP"
-msgstr "Vykdykite misijas, užbaikite Atgal į kovą sekos misijas ir gaukite vertingus apdovanojimus. Kovinio leidimo metu Kovinio leidimo taškai įtraukiami į prizų sąrašą. Misijas galima įvykdyti Apšilime ir Atsitiktiniuose mūšiuose."
-
-msgid "dailyQuestsIntroView/info/quests/title"
-msgstr "Atgal į kovą"
-
-msgid "dailyQuestsIntroView/info/rewards/description"
-msgstr "Jūs galite gauti VIII lygio Premium mašinų nuomas, VI lygio išrandamas mašinas ir nuolaidas išradimui bei mašinų pirkimui. Įvykdę visą seką gausite pagrindinį apdovanojimą."
-
-msgid "dailyQuestsIntroView/info/rewards/title"
-msgstr "Apdovanojimai"
-
-msgid "dailyQuestsIntroView/title"
-msgstr "ATGAL Į KOVĄ"
-
 msgid "mainRewardTooltip/description"
 msgstr "Jums įvykdžius Atgal į kovą seką jūsų laukia:"
 
@@ -38,7 +8,7 @@ msgid "mainRewardTooltip/title"
 msgstr "Pagrindinis apdovanojimas"
 
 msgid "mainRewardTooltip/vehicleRewardLabel"
-msgstr "Nuolaidos išrandant ir perkant %(level)s lygio mašiną"
+msgstr "Nuolaidos išrandant ir perkant {{level}} lygio mašiną"
 
 msgid "modeInfoTooltip/description"
 msgstr "Mūšiai prieš DI valdomas mašinas, kurie neįtraukiami į jūsų statistiką. Laimėsite užėmę priešų bazę arba sunaikinę visas priešų mašinas. Mūšiai vyksta 15 prieš 15 formatu su VI–XI lygio mašinomis ir 10 prieš 10 formatu su I–V."
@@ -53,19 +23,46 @@ msgid "modeInfoTooltip/title"
 msgstr "Apšilimas"
 
 msgid "selectableRewardTooltip/basic/description"
-msgstr "Galima pasirinkti bet kurią išrandamą %(level)s lygio mašiną. Mašina turės su išrastais moduliais ir garažo vieta."
+msgstr "Galima pasirinkti bet kurią išrandamą {{level}} lygio mašiną. Mašina turės su išrastais moduliais ir garažo vieta."
 
 msgid "selectableRewardTooltip/basic/title"
-msgstr "%(level)s lygio mašina"
+msgstr "{{level}} lygio mašina"
 
 msgid "selectableRewardTooltip/discount/description"
-msgstr "%(researchDiscount)s nuolaida išrandant ir %(purchaseDiscount)s nuolaida perkant %(level)s lygio mašiną. Galima pasirinkti bet kurią išrandamą mašiną."
+msgstr "{{researchDiscount}} nuolaida išrandant ir {{purchaseDiscount}} nuolaida perkant {{level}} lygio mašiną. Galima pasirinkti bet kurią išrandamą mašiną."
 
 msgid "selectableRewardTooltip/discount/footer"
-msgstr "Nuolaida {whiteSpanish_Open}išrandant{whiteSpanish_Close} sumuojama su nuolaida iš mašinos fragmentų. {whiteSpanish_Open}Perkant{whiteSpanish_Close} taikoma didžiausia galima nuolaida."
+msgstr "Nuolaida {{@ style (color $color)}}išrandant{{/}} sumuojama su nuolaida iš mašinos fragmentų. {{@ style (color $color)}}Perkant{{/}} taikoma didžiausia galima nuolaida."
 
 msgid "selectableRewardTooltip/discount/title"
-msgstr "Nuolaida %(level)s lygio mašinai"
+msgstr "Nuolaida {{level}} lygio mašinai"
+
+msgid "umgIntroView/buttons/confirm"
+msgstr "Tikrai taip!"
+
+msgid "umgIntroView/info/mode/description"
+msgstr "Apšilimas primins jums žaidimo pagrindus. Mūšių prieš dirbtinio intelekto valdomas mašinas rezultatai neįtraukiami į jūsų statistiką. Jūs galite bet kada palikti Apšilimą ir pradėti Atsitiktinius mūšius."
+
+msgid "umgIntroView/info/mode/title"
+msgstr "Apšilimas"
+
+msgid "umgIntroView/info/quests/description/battlePass"
+msgstr "Vykdykite misijas, užbaikite Atgal į kovą sekos misijas ir gaukite vertingus apdovanojimus. Kovinio leidimo metu Kovinio leidimo taškai įtraukiami į prizų sąrašą. Misijas galima įvykdyti Apšilime ir Atsitiktiniuose mūšiuose."
+
+msgid "umgIntroView/info/quests/description/default"
+msgstr "Vykdykite misijas, užbaikite Atgal į kovą sekos misijas ir gaukite vertingus apdovanojimus. Kiekviena įvykdyta Standartinė, Premium ar Bonus misija artina link apdovanojimo. Misijas galima įvykdyti Apšilime ir Atsitiktiniuose mūšiuose."
+
+msgid "umgIntroView/info/quests/title"
+msgstr "Atgal į kovą"
+
+msgid "umgIntroView/info/rewards/description"
+msgstr "Jūs galite gauti VIII lygio Premium mašinų nuomas, VI lygio išrandamas mašinas ir nuolaidas išradimui bei mašinų pirkimui. Įvykdę visą seką gausite pagrindinį apdovanojimą."
+
+msgid "umgIntroView/info/rewards/title"
+msgstr "Apdovanojimai"
+
+msgid "umgIntroView/title"
+msgstr "ATGAL Į KOVĄ"
 
 msgid "vehicleDiscountRewardTooltip/description"
 msgstr "Nuolaida %(research)s sumuojama su nuolaida iš mašinos fragmentų. %(purchase)s taikoma didžiausia galima nuolaida."
@@ -104,7 +101,7 @@ msgid "winbackLeaveModeDialogView/title"
 msgstr "Išeiti iš Apšilimo?"
 
 msgid "winbackPopover/battlesCount"
-msgstr "Liko mūšių: %(battlesCount)s"
+msgstr "Liko mūšių: {{battlesCount}}"
 
 msgid "winbackPopover/description"
 msgstr "Mūšiai prieš DI valdomas mašinas, kurie neįtraukiami į jūsų statistiką."
@@ -137,19 +134,13 @@ msgid "winbackRewardView/secondRowTitle"
 msgstr "Jūs dar gavote:"
 
 msgid "winbackRewardView/selectableReward/discount"
-msgstr "%(expDiscount)s nuolaida išrandant ir %(priceDiscount)s nuolaida perkant %(level)s lygio mašiną"
-
-msgid "winbackRewardView/selectableReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} nuolaida išrandamai mašinai ir {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} nuolaida perkant {{level}} lygio mašiną"
 
 msgid "winbackRewardView/selectableReward/gift"
-msgstr "%(level)s lygio mašina"
-
-msgid "winbackRewardView/selectableReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+msgstr "{{level}} lygio mašina"
 
 msgid "winbackRewardView/selectableReward/reserveDiscount"
-msgstr "Nuolaida %(level)s lygio mašinai"
+msgstr "Nuolaida {{level}} lygio mašinai"
 
 msgid "winbackRewardView/subtitle/regularProgressionCompleted"
 msgstr "Už kasdienių misijų serijos įvykdymą"
@@ -173,25 +164,19 @@ msgid "winbackRewardView/title/winbackProgressionCompleted"
 msgstr "SEKA BAIGTA"
 
 msgid "winbackRewardView/vehicleReward/discount"
-msgstr "%(expDiscount)s nuolaida išrandant\nir %(priceDiscount)s nuolaida perkant"
-
-msgid "winbackRewardView/vehicleReward/expDiscount"
-msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+msgstr "{{@ style (bold) (color $color1)}}{{expDiscount}}%{{/}} nuolaida išrandamai mašinai ir {{@ style (bold) (color $color2)}}{{priceDiscount}}%{{/}} nuolaida perkant"
 
 msgid "winbackRewardView/vehicleReward/inHangar"
 msgstr "Garaže"
 
-msgid "winbackRewardView/vehicleReward/priceDiscount"
-msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
-
 msgid "winbackRewardView/vehicleReward/rent"
-msgstr "Nuomos dienos: %(days)s"
+msgstr "Nuomos dienos: {{days}}"
 
 msgid "winbackRewardView/vehicleReward/reserveDiscount"
 msgstr "Nuolaida išrandant ir perkant"
 
 msgid "winbackSelectableRewardView/bluePrintReward/value"
-msgstr "x%(value)s"
+msgstr "x{{value}}"
 
 msgid "winbackSelectableRewardView/buttons/cancel"
 msgstr "Pasirinkti vėliau"
@@ -206,13 +191,13 @@ msgid "winbackSelectableRewardView/buttons/reset"
 msgstr "Pašalinti filtrą"
 
 msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
-msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+msgstr "{{rewardsSelected}}/{{rewardsAvailable}}"
 
 msgid "winbackSelectableRewardView/category/title"
 msgstr "Nuolaida mašinai"
 
 msgid "winbackSelectableRewardView/category/titleDiscount"
-msgstr "%(vehicleLevel)s lygio mašina"
+msgstr "{{vehicleLevel}} lygio mašina"
 
 msgid "winbackSelectableRewardView/error/button"
 msgstr "Tikrai taip!"
@@ -224,13 +209,13 @@ msgid "winbackSelectableRewardView/error/title"
 msgstr "Negalima atidaryti prizų pasirinkimo"
 
 msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
-msgstr "Jūs išradote visas %(vehicleLevel)s lygio mašinas. Dabar galite gauti nacionalinių brėžinių fragmentų dovanų."
+msgstr "Jūs išradote visas {{vehicleLevel}} lygio mašinas. Dabar galite gauti nacionalinių brėžinių fragmentų dovanų."
 
 msgid "winbackSelectableRewardView/filter/placeholder"
 msgstr "Paieška pagal pavadinimą"
 
 msgid "winbackSelectableRewardView/filter/searchResult"
-msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+msgstr "{{itemsShown}} {{@ style (color $color)}}/ {{itemsAvailable}}{{/}}"
 
 msgid "winbackSelectableRewardView/filter/shown"
 msgstr "Rodoma:"
@@ -242,7 +227,7 @@ msgid "winbackSelectableRewardView/filter/tooltip/header"
 msgstr "Nustatyti numatytuosius"
 
 msgid "winbackSelectableRewardView/footer/actionText/active"
-msgstr "Pasirinkti apdovanojimai: %(amountRewards)s %(infoIcon)s"
+msgstr "Pasirinkti apdovanojimai: {{amountRewards}} {{infoIcon}}"
 
 msgid "winbackSelectableRewardView/footer/actionText/disable"
 msgstr "Pasirinkite apdovanojimus ir pateiktų kategorijų"
@@ -251,25 +236,25 @@ msgid "winbackSelectableRewardView/resetInf/text"
 msgstr "Nieko nerasta. Pakeiskite filtro nustatymus arba pašalinkite filtravimą."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
-msgstr "{white_Open}x%(bluePrintsAmount)s nacionaliniai brėžinių fragmentai{white_Close} (%(countryName)s)"
+msgstr "{{@ style (color $color)}}{{bluePrintsAmount}} Nacijos brėžinio fragmentas{{/}} ({{countryName}})"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% nuolaida išrandant ir %(priceDiscount)s% nuolaida perkant)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} ({{expDiscount}}% nuolaida išrandant ir {{priceDiscount}}% nuolaida perkant)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
-msgstr "Nuolaida %(level)s lygio mašinai"
+msgstr "Nuolaida {{level}} lygio mašinai"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
-msgstr "{white_Open}%(name)s{white_Close} (visi išrasti moduliai ir garažo vieta)"
+msgstr "{{@ style (color $color)}}{{name}}{{/}} (visi moduliai išrasti, įgula ir vieta garaže)"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
-msgstr "%(level)s lygio mašina"
+msgstr "{{level}} lygio mašina"
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
 msgstr "Paspauskite mygtuką \"Pasiimti\", norėdami gauti pasirinktus prizus."
 
 msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
-msgstr "Pasirinkti apdovanojimai: %(amountRewards)s"
+msgstr "Pasirinkti apdovanojimai: {{@ style (color $color)}}{{amountRewards}}{{/}}"
 
 msgid "winbackSelectableRewardView/tabs/buy"
 msgstr "Pirkti"
@@ -284,7 +269,7 @@ msgid "winbackSelectableRewardView/title/text"
 msgstr "PASIRINKITE SAVO APDOVANOJIMĄ"
 
 msgid "winbackSelectableRewardView/vehicleName"
-msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+msgstr "{{@ style (color $color)}}{{level}}{{/}} {{type}} {{name}}"
 
 msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
 msgstr "prieštankinis"

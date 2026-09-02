@@ -130,6 +130,9 @@ msgstr "Non puoi creare o unirti a un Plotone perché non hai un veicolo di live
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Una volta completata la Qualificazione, saranno disponibili Plotoni da 2 e 7 giocatori."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Al termine delle qualificazioni, sarà disponibile un plotone composto da due giocatori."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Impossibile creare un Plotone."
 
@@ -141,6 +144,9 @@ msgstr "Crea un Plotone o unisciti a uno esistente. I Plotoni in Aggressione Lig
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Plotone"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Crea un Plotone o unisciti a uno esistente. I Plotoni in Aggressione Light possono essere composti da solo due."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Crea un'unità tattica composta da 2 o 3 giocatori per giocare in cooperativa.\n• Modalità di battaglia: Furia.\n• Tipo di battaglia: Caccia all'acciaio, Supremazia."
@@ -264,12 +270,6 @@ msgstr "Il Plotone ha raggiunto il numero massimo di carri pesanti"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Il Plotone ha raggiunto il numero massimo di carri medi"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Il Plotone ha raggiunto il numero massimo di carri leggeri"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Il Plotone ha raggiunto il numero massimo di autoblindo"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Il Plotone ha raggiunto il numero massimo di carri leggeri"

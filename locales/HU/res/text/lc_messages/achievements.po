@@ -139,15 +139,6 @@ msgstr "Azon játékosok jutalma, akik felbecsülhetetlenül sokat tettek a Worl
 msgid "15YearsOfService_descr"
 msgstr "%(regDate)s óta játszol a játékkal"
 
-msgid "BPReserveAchievement_1"
-msgstr "BP Tartalékkitüntetés 1."
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Jutalom az előrehaladás teljesítéséért."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Jutalom a játékban elért eredményeidért"
-
 msgid "BPReserveAchievement_2"
 msgstr "BP Tartalékkitüntetés 2."
 
@@ -429,6 +420,15 @@ msgstr "• Mindhárom fejezet teljesítéséért kaphatod meg."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Jutalom a Battle Pass XX. szezonjában elért eredményeidért."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Alföldi csatározás"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Jutalom mindhárom fejezet teljesítéséért."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Jutalom a Battle Pass XXI. szezonjában elért eredményeidért."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• A fő előrehaladás 45 szakaszból áll."
@@ -1828,6 +1828,48 @@ msgstr "Ezüst sárkány"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Jutalom legalább 9 Roham szín összegyűjtéséért A Sárkány évében, Roham módban."
 
+msgid "comp7_6_1"
+msgstr "Azúrkék szikra"
+
+msgid "comp7_6_1_descr"
+msgstr "Jutalom „Az azúrkék főnix szezonja“ küldetéssorozatának teljesítéséért Roham módban."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzfőnix"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Jutalom legalább 6 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
+msgid "comp7_6_yearly_champion"
+msgstr "A főnix évének bajnoka"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Jutalom legalább 15 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Aranyfőnix"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Jutalom legalább 12 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Vasfőnix"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Jutalom legalább 3 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
+msgid "comp7_6_yearly_legend"
+msgstr "A főnix évének legendája"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Jutalom legalább 18 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Ezüstfőnix"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Jutalom legalább 9 Roham szín összegyűjtéséért A főnix éve során Roham módban."
+
 msgid "conqueror"
 msgstr "Foglaló %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Csak normál csatában szerezhető meg."
 
 msgid "huntsman_descr"
-msgstr "Semmisítsd meg az összes könnyű tankot (de legalább 3-at) egy csata során."
+msgstr "Semmisítsd meg az összes ellenséges könnyű tankot (de legalább 2-t) egy csata során."
 
 msgid "huntsman_heroInfo"
 msgstr "Grigoriy Naydin őrmester egy BT-7-es parancsnoka volt. 1941 Június 25.-én Rudishkyay litván város közelében megsemmisítette a Wermacht 19. gépesített zászlóaljának egyik páncélos oszlopát, ami 15 páncélos járműből és 10 lövegből állt. Naydin két napig tartotta fel a német előrenyomulást ezzel elősegítve a védelem megszervezését Vilnius közelében. Ezért a tettéért a „Szovjetunió hőse” kitüntetést kapta."
@@ -3134,7 +3176,7 @@ msgid "medalBrunoPietro_heroInfo"
 msgstr "Pietro Bruno egy olasz tank ász volt. Rendkívüli bátorságáért megkapta a legmagasabb olasz kitüntetést (Medaglia d'oro al Valore Militare)."
 
 msgid "medalBurda"
-msgstr "Bruda medál"
+msgstr "Burda medál"
 
 msgid "medalBurda_condition"
 msgstr "• Tankkal vagy páncélvadásszal elérhető.\n• A megsemmisített járműveknek legalább 1 szinttel magasabbak kell lenniük.\n• Csak normál csatában elérhető."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Teljesítsd kitüntetéssel az Unió 15 személyes küldetését. Jutalom: Példamutató teljesítmény: Unió medál, III. osztály."
 
 msgid "readyForBattleAssault"
-msgstr "Példamutató teljesítmény: Élharcos"
+msgstr "Kitűnő teljesítmény: 3. szektor Élharcos"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "A 3. szektor kampány összes Élharcos küldetésének teljesítéséért."
+msgstr "A 3. szektor kampány fő hadműveleteiben szereplő összes Élharcos küldetés teljesítéséért."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Kitűnő teljesítmény: Fossa Élharcos"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "A 3. szektor kampány Fossa hadműveletében szereplő összes Élharcos küldetés teljesítéséért."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Példamutató teljesítmény: Fossa Rajtaütés"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "A 3. szektor kampány Fossa hadműveletében szereplő összes Rajtaütés küldetés teljesítéséért."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Példamutató teljesítmény: Fossa Közreműködés"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "A 3. szektor kampány Fossa hadműveletében szereplő összes Közreműködés küldetés teljesítéséért."
 
 msgid "readyForBattleHT"
 msgstr "Kitűnő teljesítmény: Nehéz tankok"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Teljesíts kitüntetéssel 15 önjáró löveg személyes küldetést. Jutalom: Kitűnő teljesítmény: Önjáró löveg medál IV. osztály."
 
 msgid "readyForBattleSniper"
-msgstr "Példamutató teljesítmény: Rajtaütés"
+msgstr "Példamutató teljesítmény: 3. szektor Rajtaütés"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "A 3. szektor kampány összes Rajtaütés küldetésének teljesítéséért."
+msgstr "A 3. szektor kampány fő hadműveleteiben szereplő összes Rajtaütés küldetés teljesítéséért."
 
 msgid "readyForBattleSupport"
-msgstr "Példamutató teljesítmény: Közreműködés"
+msgstr "Példamutató teljesítmény: 3. szektor Közreműködés"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "A 3. szektor kampány összes Közreműködés küldetésének teljesítéséért."
+msgstr "A 3. szektor kampány fő hadműveleteiben szereplő összes Közreműködés küldetés teljesítéséért."
 
 msgid "reliableComrade"
 msgstr "Harcostárs"
@@ -4692,6 +4761,15 @@ msgstr "A Waffenträger: Paradox esemény előrehaladásának teljesítésének 
 
 msgid "wt2025progression_descr"
 msgstr "Teljesítsd a Waffenträger mód előrehaladását."
+
+msgid "wt2026progression"
+msgstr "Viharlovas"
+
+msgid "wt2026progression_condition"
+msgstr "Jutalom a Waffenträger: Genezis 2026 előrehaladásának teljesítéséért. Ezt a kitüntetést azok kapják meg, akik szembeszálltak von Krieger első gondolkodó gépével, az Elektromos intelligenciával, és elvágták az összes áramkört, amelyeken keresztül az behatolt a világunkba."
+
+msgid "wt2026progression_descr"
+msgstr "Teljesítsd a Waffenträger: Genezis 2026 előrehaladását!"
 
 msgid "wtBossWins"
 msgstr "A villámlás ura"

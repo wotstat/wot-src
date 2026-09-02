@@ -46,6 +46,15 @@ msgstr "Ieslēdz detalizētāku un reālistiskāku objektu iznīcicības apstrā
 msgid "HAVOK_ENABLED/warning"
 msgstr "Šis iestatījums tiks pielietots nākamajā kaujā, ja pašreizējā kaujā tas tiek izslēgts."
 
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED"
+msgstr "Uzlaboti vizuālie efekti"
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/description"
+msgstr "Iespējo uzlabotus vizuālos efektus. Atspējojot šo opciju, tiks atjaunoti standarta efekti, kas var uzlabot spēles veiktspēju."
+
+msgid "INCREASE_EFFECTS_CONTRAST_ENABLED/warning"
+msgstr "Šis iestatījums tiks pielietots nākamajā kaujā, ja pašreizējā kaujā tas tiek izslēgts."
+
 msgid "LANGUAGE_CODE"
 msgstr "lv"
 
@@ -175,11 +184,11 @@ msgstr "Ieslēgt kāpurķēžu pēdas"
 msgid "VEHICLE_TRACES_ENABLED/description"
 msgstr "Attēlo kāpurķēžu un riteņu nospiedumus uz zemes.\n\nNav pieejams ar Vienkāršotu Grafiku un Zemu Uzlīmju Kvalitāti."
 
-msgid "VISIBILITY_TUNNEL_ENABLED"
-msgstr "Paslēpt 3D pielikumus snaipera režīmā"
+msgid "VISIBILITY_TUNNEL"
+msgstr "Efekta un 3D pielikuma redzamība"
 
-msgid "VISIBILITY_TUNNEL_ENABLED/description"
-msgstr "Uz laiku paslēpj tanka 3D pielikumus no ieroča tēmēkļa snaipera režīmā.\n\n Samazina vizuālo traucējumu un uzlabo mērķēšanas precizitāti."
+msgid "VISIBILITY_TUNNEL/description"
+msgstr "Pielāgo efektu un 3D pielikumu redzamību ekrāna centra tuvumā, lai, tēmējot, samazinātu redzes aizsegšanu. 3D pielikumu redzamība tiek pielāgota tikai snaipera režīmā.\n\nMazākas vērtības padara efektus un 3D pielikumus caurspīdīgākus, lai uzlabotu tēmēšanas skaidrību."
 
 msgid "WATER_QUALITY"
 msgstr "Ūdens kvalitāte"
@@ -1995,6 +2004,15 @@ msgstr "Režīms:"
 
 msgid "screenMode/windowed"
 msgstr "Loga režīms"
+
+msgid "showPrebattleHighlights"
+msgstr "Ieslēgt prožektoru"
+
+msgid "showPrebattleHighlights/description"
+msgstr "Parāda vizuāli iespaidīgu tanku izlasi pirmskaujas atskaites laikā.\n\nŠī parametra atspējošana var uzlabot spēles veiktspēju."
+
+msgid "showPrebattleHighlights/warning"
+msgstr "Ja šis iestatījums pašreizējā kaujā ir atspējots, tas tiks iespējots nākamajā."
 
 msgid "smoothing/description"
 msgstr "Nosaka šauru līniju un spēles objektu kontūru papildus apstrādes līmeni. Samazina robojuma efektu. Objektu kontūras izskatās dabiskākas."

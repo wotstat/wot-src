@@ -139,15 +139,6 @@ msgstr "Dodjeljuje se igračima za njihov neprocjenjiv doprinos evoluciji World 
 msgid "15YearsOfService_descr"
 msgstr "U igri ste od %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "Pričuva BP dostignuće 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Dodjeljuje se za završetak Napretka."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Dodjeljuje se za vaša dostignuća tijekom igre"
-
 msgid "BPReserveAchievement_2"
 msgstr "Pričuva BP dostignuće 2"
 
@@ -429,6 +420,15 @@ msgstr "• Dodjeljuje se za izvršenje sva tri Poglavlja."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Dodjeluje se za vaša dostignuća tijekom Sezone XX Borbene propusnice."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Okršaj u nizinama"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Dodjeljuje se za izvršenje sva tri Poglavlja."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Dodjeluje se za vaša dostignuća tijekom Sezone XXI Borbene propusnice."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Glavni napredak se sastoji od 45 etapa."
@@ -1828,6 +1828,48 @@ msgstr "Srebrni zmaj"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Dodjeljuje se za skupljanje najmanje 9 Boja Navale u Godini zmaja režima Navale."
 
+msgid "comp7_6_1"
+msgstr "Azurna iskra"
+
+msgid "comp7_6_1_descr"
+msgstr "Dodjeljuje se za izvršenje niza zadataka u sezoni Azurni Feniks režima Navale."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Brončani Feniks"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 6 Boja Navale u Godini Feniksa režima Navale."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Šampion Godine Feniksa"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 15 Boja Navale u Godini Feniksa režima Navale."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Zlatni Feniks"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 12 Boja Navale u Godini Feniksa režima Navale."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Željezni Feniks"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 3 Boja Navale u Godini Feniksa režima Navale."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Legenda Godine Feniksa"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 18 Boja Navale u Godini Feniksa režima Navale."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Srebrni Feniks"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Dodjeljuje se za skupljanje najmanje 9 Boja Navale u Godini Feniksa režima Navale."
+
 msgid "conqueror"
 msgstr "Osvajač %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Može se dobiti samo u slučajnim bitkama."
 
 msgid "huntsman_descr"
-msgstr "Uništi sve neprijateljske lake tenkove (najmanje 3) tijekom jedne bitke."
+msgstr "Uništi sve neprijateljske lake tenkove (najmanje 2) tijekom jedne bitke."
 
 msgid "huntsman_heroInfo"
 msgstr "Narednik Grigorij Najdin je bio zapovjednik BT-7. 25. lipnja 1941., pored litavskog grada Rudiškaj, uništio je oklopnu kolonu Wehrmachta, uključujuči 15 vozila i 10 topova 19. mehaniziranog korpusa. Najdin je uspio zadržati njemački napredak dva dana i tako omogućio organizaciju obrane oko Viljnusa. Za ovu akciju je Najdin proglašen Herojem Sovjetskog Saveza."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Izvrši s počastima 15 osobnih zadataka za Uniju Nagrada: Primjerna izvedba: medalja Unija, III klasa."
 
 msgid "readyForBattleAssault"
-msgstr "Primjerna izvedba: Vrh napada"
+msgstr "Uzorna izvedba: Vrh napada Sektor 3"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Za izvršenje svih zadataka Vrh napada u kampanji Sektor 3."
+msgstr "Za izvršenje svih zadataka Vrh napada u glavnim operacijama u kampanji Sektor 3."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Primjerna izvedba: Fossa Vrh napada"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Za izvršenje svih zadataka Vrh napada u Fossa operaciji u kampanji Sektor 3."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Primjerna izvedba: Fossa Zasjeda"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Za izvršenje svih zadataka Zasjeda u Fossa operaciji u kampanji Sektor 3."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Primjerna izvedba: Fossa Pomoć"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Za izvršenje svih zadataka Pomoći u Fossa operaciji u kampanji Sektor 3."
 
 msgid "readyForBattleHT"
 msgstr "Primjerna izvedba: teški tenkovi"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Časno izvrši 15 osobnih zadataka za samohodne topove. Nagrada: Primjerna izvedba: medalja Samohodnog topa, četvrta klasa."
 
 msgid "readyForBattleSniper"
-msgstr "Primjerna izvedba: Zasjeda"
+msgstr "Uzorna izvedba: Zasjeda Sektor 3"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Za izvršenje svih zadataka Zasjeda u kampanji Sektor 3."
+msgstr "Za izvršenje svih zadataka Zasjeda u glavnim operacijama u kampanji Sektor 3."
 
 msgid "readyForBattleSupport"
-msgstr "Primjerna izvedba: Pomoć"
+msgstr "Uzorna izvedba: Pomoć Sektor 3"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Za izvršenje svih zadataka Pomoć u kampanji Sektor 3."
+msgstr "Za izvršenje svih zadataka Pomoć u glavnim operacijama u kampanji Sektor 3."
 
 msgid "reliableComrade"
 msgstr "Ratni drug"
@@ -4692,6 +4761,15 @@ msgstr "Dodjeljuje se za izvršenje napretka u Waffenträger: Paradoks. Ova čas
 
 msgid "wt2025progression_descr"
 msgstr "Završite napredak akcije Waffenträger."
+
+msgid "wt2026progression"
+msgstr "Jahač oluje"
+
+msgid "wt2026progression_condition"
+msgstr "Dodjeljuje se za završetak Napretka u Waffenträger: Postanak 2026. Ova se čast dodjeljuje onima koji su se suprotstavili von Kriegerovom prvom misaonom stroju, Električnoj inteligenciji, i prekinuli svaki strujni krug kroz koji je dopirao do našeg svijeta."
+
+msgid "wt2026progression_descr"
+msgstr "Završite Napredak u Waffenträger: Postanak 2026."
 
 msgid "wtBossWins"
 msgstr "Gospodar munje"

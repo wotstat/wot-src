@@ -94,36 +94,30 @@ class BattleResultsCache(object):
 
 
 def save(accountName, battleResults):
-    fileHandler = None
     try:
         arenaUniqueID = battleResults[0]
         folderName = getFolderName(accountName, arenaUniqueID)
         if not os.path.isdir(folderName):
             os.makedirs(folderName)
         fileName = os.path.join(folderName, b'%s.dat' % arenaUniqueID)
-        fileHandler = open(fileName, b'wb')
-        pickle.dump((BATTLE_RESULTS_VERSION, battleResults), fileHandler, -1)
+        with open(fileName, b'wb') as fs:
+            pickle.dump((BATTLE_RESULTS_VERSION, battleResults), fs, -1)
     except Exception:
         LOG_CURRENT_EXCEPTION()
 
-    if fileHandler is not None:
-        fileHandler.close()
     return
 
 
 def load(uniqueFolderName, arenaUniqueID):
-    fileHandler = None
     try:
         fileName = os.path.join(getFolderName(uniqueFolderName, arenaUniqueID), b'%s.dat' % arenaUniqueID)
         if not os.path.isfile(fileName):
             return
-        fileHandler = open(fileName, b'rb')
-        version, battleResults = pickle.load(fileHandler)
+        with open(fileName, b'rb') as fs:
+            version, battleResults = pickle.load(fs)
     except Exception:
         LOG_CURRENT_EXCEPTION()
 
-    if fileHandler is not None:
-        fileHandler.close()
     if version == BATTLE_RESULTS_VERSION:
         return battleResults
     else:

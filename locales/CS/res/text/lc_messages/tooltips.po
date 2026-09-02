@@ -2288,10 +2288,10 @@ msgid "boostersWindow/booster/activateInfo/expirationTimer"
 msgstr "%(count)s za %(time)s"
 
 msgid "boostersWindow/booster/activateInfo/expireSoon"
-msgstr "Je potřeba aktivovat zálohy s omezenou dobou trvanlivosti:"
+msgstr "Je potřeba aktivovat zálohy s dobou trvanlivosti:"
 
 msgid "boostersWindow/booster/activateInfo/expireToday"
-msgstr "Je potřeba aktivovat zálohy s omezenou dobou trvanlivosti:"
+msgstr "Je potřeba aktivovat zálohy s dobou trvanlivosti:"
 
 msgid "boostersWindow/booster/activateInfo/improvedReserve"
 msgstr "Vylepšená osobní záloha"
@@ -6052,6 +6052,18 @@ msgstr "Směrnice nebude fungovat, protože jste překročili limit 6 schopnost
 msgid "moduleFits/wrong_slot/body"
 msgstr "Modul již je namontován v jiné pozici."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Šance na způsobení kritického poškození nepřátelským modulům a/nebo na zranění posádky."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Hodnota, o kterou se zmenší úhel dopadu granátu při zásahu nepřátelského pancíře."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Míra ztráty průbojnosti granátu na každých 100 mm po zasažení nepřátelské clony."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Úhel, pod kterým se granát automaticky odrazí od nepřátelského pancíře."
+
 msgid "multiselection/alert/body"
 msgstr "Vyberte vozidla: do bitvy se můžete zapojit pouze s úplnou skupinou."
 
@@ -8497,6 +8509,42 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Battle Pass: Far Cry"
 
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Vadim Kuprin znal pusté solné pláně, kde právě plnil svou misi, jako dlaň své stejně větrem ošlehané ruky. V nestabilních podmínkách nebyl žádným nováčkem; své ostruhy si vysloužil jako specialista na obranu proti chemickým zbraním ještě dlouho předtím, než vůbec usedl do tanku. O dvacet let později se ocitl pouhých pár dní chůze od areálu laboratoří, kde kdysi zahájil svou vojenskou službu jako mladší technik. Čas a útrapy nikoho nešetří, ale jak Vadim žertoval před svou posádkou, žádost o jeho propuštění z armády ještě nikdo nevyplnil – takže dokud ji někdo řádně nepodá, zůstane tady."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Krásné zelené údolí, kde Bryn Powell prožil své dětství, byla na hony vzdálená drsným klimatickým podmínkám, s nimiž se později seznámil. Jeho poslední brífink byl pozoruhodně chudý na podrobnosti a fráze jako „neidentifikovaná chemická látka“ a „riziko smrtelného nebezpečí: extrémní“ by mnohé velitele přiměly modlit se za přeřazení. Bryn však vždy považoval instinkt sebezáchovy za obdivuhodnou vlastnost – u ostatních lidí. Byl od přírody odvážný, a kdyby ho to někdy lákalo, mohl mít zářivou kariéru jako kaskadér. Posadíte-li ho za řídicí páky tanku, rozdíl je zanedbatelný."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Nagai Sora byl naprosto klidný, nezdolný velitel. Jako veterán mírových misí v nestabilních oblastech se naučil zachovat chladnou hlavu i pod tlakem. Ať už byl na pokraji vyčerpání po dlouhé noční hlídce, nebo analyzoval stále znepokojivější zpravodajské informace o neznámé látce, kterou měla jeho posádka odhalit, jeho vyrovnanost nikdy neochabla. Morálku udržoval vtipy, které balancovaly na hranici mezi lehkomyslností a černým humorem, a přitom odmítal ztratit jiskru v očích či pružný krok."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "Sandrine Oussetové nikdy nic neuniklo. Ještě než byla vůbec povolána k tajné obrněné průzkumné misi, prožila si zářnou kariéru jako mnohokrát vyznamenaná odstřelovačka. Její ostříží zrak viděl daleko za zaměřovač pušky. Stačilo jí ukázat zkreslený úryvek nepřátelských zpravodajských informací a dokázala z něj vyvodit závěry tak důsledně přesné, že i její vlastní posádka zpočátku zaměňovala Sandrininy neobyčejné pozorovací schopnosti za jasnovidectví. Pod jejím velením zůstávala tajemství málokdy dlouho skryta. Naštěstí pro její tým si onu neúprosnou pozornost schovávala pro odhalení zdroje neznámé látky, kterou byli vysláni zkoumat."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
+
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Lidé se vždy ptají, jestli znám Jacka Reeda. Než odpovím, obvykle se zhluboka nadechnu a na chvíli zavřu oči. Být jeho velitelem není zrovna procházka růžovým sadem. Reed je rebel, kterému se nějak daří plnit rozkazy a dodržovat pravidla stanovená armádou. Právě teď je uvězněn v rozžhaveném tanku. Ale hluboko uvnitř vyráží na silnici, aby mohl jet na své motorce po Route 66 a cítit vítr ve vlasech."
 
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Kampaň „Sektor 3“"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Stefan vyrůstal v rodině bernských hodinářů a zdědil tak řemeslo vyžadující ticho, trpělivost a naprostou sebekontrolu. Pro něj však tyto vlastnosti znamenaly zcela odlišnou kariéru. V roce 1940 mu britská tajná služba nabídla volbu: na jedné straně hranice neutrálního Švýcarska, na druhé on sám. V alpských průsmycích se vypracoval z mechanika špionážních zařízení na ostrostřelce. Po válce v této práci pokračoval a likvidoval ty, kteří pod falešnými jmény unikli spravedlnosti. Stefan vždy pracoval sám, aniž by zanechal stopy, a dělá to dodnes: nikdo v Sektoru 3 nikdy neviděl jeho tvář."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Kampaň „Sektor 3“"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s — výchozí granát pro vybrané dělo. Slouží k výpočtu 
 msgid "shell/basic/description/bold"
 msgstr "Výchozí granát"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Režim Vnějšího podávání munice tohoto vozidla umožňuje použití granátů s vyšším poškozením."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Základní"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Upravený"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Speciální mechanika děla vozidla umožňuje předčasnou palbu s upravenými parametry granátů."
 
@@ -10866,6 +10932,21 @@ msgstr "Základní:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Upravené:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Nastavitelný nastavovač roznětky zvyšuje průměrné poškození nebo průbojnost."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Upravitelný:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Dělo tohoto vozidla je vybaveno speciálními zařízeními, která umožňují před výstřelem upravit některé parametry granátu."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Standardní"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Kalibrovaný"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Ukázat/skrýt oblast pod palbou nepřátelského dělostřelectva na minimapě."
@@ -11028,6 +11109,12 @@ msgstr "Omezení kvality zvuku může zlepšit celkový výkon hry na počítač
 
 msgid "soundQualityOn/header"
 msgstr "LQ zvuk"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "Po zásahu nepřátelského vozidla s probitím pancíře je zvýšeno {{@ style (color #E9E2BF)}}průměrné poškození{{/}}."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "Po zásahu nepřátelského vozidla bez probití pancíře je zvýšena {{@ style (color #E9E2BF)}}průměrná průbojnost{{/}}."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Členové posádky v prémiových vozidlech jsou cvičeni o 50 % rychleji:"
@@ -11386,6 +11473,36 @@ msgstr "Vylepšený systém automatického dobíjení snižuje standardní dobu 
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Doba mezi vystřelením posledního granátu v zásobníku (nebo v obou dělech) a nabitím nového zásobníku. / Počet děl nebo granátů v zásobníku."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Čas, který nahrazuje zbývající dobu nabíjení při použití této mechaniky."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Doba potřebná k doplnění jednoho nabití, pokud je zásobník plný."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Doba potřebná k doplnění jednoho nabití, pokud zásobník není plný."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Počet nabití, která jsou k dispozici na začátku bitvy."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Maximální počet nabití pro urychlené nabíjení granátů, která lze najednou držet."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Průměrné poškození způsobené raketometem po průstřelu. Potenciální rozsah poškození je +/- 25 % z průměrné hodnoty."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Rozptyl charakterizovaný maximální odchylkou granátu od zamýšleného bodu ve vzdálenosti 100 m."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Průměrná tloušťka pancíře probitého raketou. Rozptyl je +/- 25 % z průměrné hodnoty."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Doba potřebná k nabití raketometu"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Určuje rychlost letu neřízené rakety."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Průměrné poškození způsobené standardním granátem po průstřelu. Potenciální rozsah poškození je +/- 25 % z průměrné hodnoty."
 
@@ -11406,6 +11523,21 @@ msgstr "Maximální doba trvání efektu trysek po aktivaci."
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Doba nabíjení granátů v rámci zásobníku munice. / Počet zásobníků munice v zásobníku. / Počet granátů v zásobníku munice."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Průměrné poškození způsobené vysoce kvalitním granátem po průstřelu. Potenciální rozsah poškození je +/- 25 % z průměrné hodnoty."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Snížení na nominální rychlost jízdy vpřed v režimu Vnějšího podávání munice. Rychlost couvání není ovlivněna."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Snížení počtu výstřelů za minutu v režimu Vnějšího podávání munice."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Minimální doba potřebná k přípravě děla k palbě po aktivaci režimu Vnějšího podávání munice. Během této doby nelze přepínat mezi režimy."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Minimální doba potřebná k přípravě děla k palbě po návratu do standardního režimu. Během této doby nelze přepínat mezi režimy."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Doba přípravy k palbě ze dvou děl najednou. / Doba trvání blokace nabíjení děl po vypálení salvy."
@@ -11737,8 +11869,17 @@ msgstr "Doba nabití pomocného zbraňového systému po výstřelu."
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Počet granátů dostupných pro pomocný zbraňový systém během každé aktivace."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Bonus k poškození způsobenému po zásahu nepřátelského vozidla, který probije pancíř."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Bonus k průbojnosti po zásahu nepřátelského vozidla bez probití pancíře."
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Doba potřebná k nabití granátů na začátku bitvy a k přepnutí mezi různými typy granátů."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Doba potřebná k přepnutí mezi kalibrovaným a standardním režimem palby."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Rozptyl děla vyznačený maximální odchylkou granátu od záměrného bodu na vzdálenost 100 m."
@@ -11748,6 +11889,36 @@ msgstr "Rozptyl děla vyznačený maximální odchylkou granátu od záměrného
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Ukazuje, jak moc se granát může odchýlit od bodu zaměření v metrech na 100 metrů k cíli. Standardní hodnota (první) je pro zahřáté dělo, vylepšená hodnota (druhá) je pro ochlazené dělo."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Postupné snižování maskování nepřátelských vozidel v porostu v sektoru skenu IRST."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Postupné snižování maskování jedoucích nepřátelských vozidel v sektoru skenu IRST."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Doba potřebná po zahájení bitvy, než lze IRST poprvé použít."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Doba trvání skenu IRST."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Doba, po kterou je nutné počkat, než bude možné IRST po aktivaci znovu použít."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Snížení rychlosti otáčení věže při aktivním IRST."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Šířka skenovacího sektoru IRST na konci jeho trvání."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Šířka skenovacího sektoru IRST na začátku jeho trvání."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Čas, po který je vaše vozidlo odhaleno poté, co jste pomocí IRST objevili neodhaleného nepřítele."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Postupné zvětšování dohledu ve skenovacím sektoru IRST."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Rychlost vozidla tak, jak je uvedena v technických vlastnostech."

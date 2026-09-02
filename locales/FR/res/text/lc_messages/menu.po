@@ -826,6 +826,9 @@ msgstr "Styles 3D"
 msgid "carousel_tank_filter/ready"
 msgstr "Chars principaux"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Éclaireur"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Tireur de précision"
 
@@ -834,9 +837,6 @@ msgstr "Soutien"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Polyvalent"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "À roues"
 
 msgid "centerIsAvailable"
 msgstr "Tous les serveurs sont de nouveau disponibles."
@@ -4159,6 +4159,9 @@ msgstr "Système de rechargement automatique amélioré :\nRéduit le temps sta
 msgid "moduleInfo/autoShootGun"
 msgstr "Canon avec système de tir continu"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Ce véhicule est équipé d'un lance-roquettes monté dans le mantelet du canon. Activez la capacité pour passer à la vue de visée de l'arme secondaire, puis lancez une roquette HE non guidée avec le bouton de tir."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Fermer"
 
@@ -4312,6 +4315,9 @@ msgstr "Temps de rechargement"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "aux qualifications principales et aux aptitudes de l'équipage"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Probabilité de coup critique"
+
 msgid "moduleInfo/params/damage"
 msgstr "Dégâts"
 
@@ -4342,11 +4348,29 @@ msgstr "Probabilité d'incendie à l'impact"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Temps de vol"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Inflige toujours des dégâts si le blindage principal est touché"
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* portée de tir maximale pour ce canon"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " ne dépend pas de la distance pour ce type d'obus"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", portée de tir maximale : 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr " ce type d'obus commence à perdre en puissance de pénétration au fil de la distance après avoir traversé la première protection"
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " dépend de la distance : %(minDist)s à %(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr " ce type d'obus pénètre les protections comme d'habitude, mais perd ensuite en puissance de pénétration à hauteur de trois fois l'épaisseur de la protection du blindage"
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Vitesse maximale"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Inflige toujours des dégâts si le blindage principal est touché"
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Poids"
@@ -4378,20 +4402,11 @@ msgstr "Points de structure"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Portée de tir"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* portée de tir maximale pour ce canon"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Angle de braquage maximal des roues"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Dégâts moyens à %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " ne dépend pas de la distance pour ce type d'obus"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", portée de tir maximale : 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Angle de normalisation"
@@ -4399,14 +4414,8 @@ msgstr "Angle de normalisation"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Perte de pénétration"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr " Ce type d'obus commence à perdre en puissance de pénétration au fil de la distance après avoir traversé la première protection"
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " dépend de la distance : %(minDist)s à %(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Pénétration moyenne (mm) : Distance"
@@ -4456,9 +4465,6 @@ msgstr "Vitesse de rotation"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Multiplicateur du blindage espacé"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr " Ce type d'obus pénètre les protections comme d'habitude, mais perd ensuite en puissance de pénétration à hauteur de trois fois l'épaisseur de la protection du blindage"
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Postcombustion à induction qui augmente les dégâts moyens"
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Propulseurs augmentant la mobilité du véhicule"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Le canon du véhicule dispose de dispositifs spéciaux qui permettent de modifier certains paramètres des obus avant le tir."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Réacteurs à carburant solide qui boostent l'accélération, la mobilité et la maniabilité"
@@ -5284,11 +5293,14 @@ msgstr "Des véhicules aux canons parfaits dont leur bonne utilisation nécessit
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Des chars multirôles qui peuvent facilement s'adapter à toutes situation de combat."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Des véhicules rapides et maniables qui peuvent aussi bien repérer qu'infliger des dégâts en effectuant des manœuvres de contournement."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Les chars légers de reconnaissance sont de petits véhicules agiles conçus pour détecter les ennemis. Leur silhouette basse et leur bonne dissimulation, ainsi que leur excellente manœuvrabilité et leur vitesse maximale élevée, les rendent experts en reconnaissance passive et active, mais leur faible durabilité et leur faible puissance de feu les empêchent d'offrir un appui-feu conséquent à leurs alliés."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Des véhicules avec des caractéristiques de dynamisme remarquables, leur efficacité dépend de la carte ou de la situation tactique."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Les chars légers de soutien utilisent leur grande mobilité, leur excellente manœuvrabilité et leurs canons puissants pour changer rapidement d'axe et infliger des dégâts importants avant de se replier en lieu sûr. Bien qu'ils puissent effectuer des missions de reconnaissance dans certaines situations, leurs grandes dimensions et leur faible dissimulation en font des éclaireurs moins efficaces que les autres chars légers."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Les chars légers polyvalents sont des véhicules bien équilibrés capables à la fois d'effectuer de la reconnaissance et de fournir un appui-feu aux alliés. Bien qu'ils soient moins efficaces en reconnaissance que les éclaireurs et qu'ils aient moins de puissance de feu que les chars légers de soutien, le profil équilibré des chars polyvalents leur permet de remplir ces deux rôles efficacement et de s'adapter facilement à un large éventail de situations de combat."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Des véhicules avec un blindage correct qui préfèrent le combat rapproché et se défendre face à des chars lourds ennemis."
@@ -5329,11 +5341,14 @@ msgstr "Char lourd de soutien"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Char lourd polyvalent"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Char léger de reconnaissance"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Char léger de soutien"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Char léger polyvalent"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Char léger à roues"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Char moyen d'assaut"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Recharger"
 msgid "tank_params/autoShootClipSec"
 msgstr "(chargeur/quantité)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Temps de chargement accéléré des obus"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Temps de rechargement de la charge avec un barillet plein"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Temps de rechargement de la charge de base"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Charges au début de la bataille"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Charges"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Dégâts moyens (PS)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Dispersion à 100 m (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Pénétration moyenne (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Temps de rechargement (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Vélocité des obus-roquettes (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Dégâts moyens"
 
@@ -6057,6 +6105,21 @@ msgstr "Conteneur à obus"
 
 msgid "tank_params/burstSec"
 msgstr "(s/quantité/quantité)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Dégâts moyens (PS)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Vitesse maximale (mode AME) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Cadence de tir (coups/min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "Activation du mode AME (s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "Désactivation du mode AME (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Préparation de la salve"
@@ -6150,6 +6213,12 @@ msgstr "Puissance du moteur (ch) (mode turbo)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Rayon des dégâts"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Vitesse maximale (mode AME) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "Activation du mode AME (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Temps de refroidissement du canon post-tir"
@@ -6325,9 +6394,6 @@ msgstr "Capacité de franchissement du terrain"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Charge de la coïncidence du viseur électromécanique (% par s) (mode engagement, passif)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(par activation)"
 
@@ -6484,8 +6550,20 @@ msgstr "Chargement de l'armement auxiliaire"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Obus de l'armement auxiliaire"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Dégâts moyens des obus ajustés (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Pénétration moyenne des obus ajustés (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Chargement de la bande de munitions"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Durée de changement de mode"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Pénétration :"
@@ -6495,6 +6573,36 @@ msgstr "Dispersion à 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Vélocité des obus"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Dissimulation des véhicules ennemis derrière la végétation (à l'arrêt et en mouvement)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Dissimulation des ennemis en mouvement"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Temps de rechargement initial"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Durée"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Temps de rechargement"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Vitesse de rotation de la tourelle"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Largeur de balayage finale"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Largeur de balayage initiale"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Durée d'auto-détection"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Portée de vue"
 
 msgid "tank_params/speedLimits"
 msgstr "Vitesse max/marche arrière"

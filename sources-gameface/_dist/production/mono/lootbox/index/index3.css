@@ -24,7 +24,8 @@
 
 .Ordinal_c2d1e05 .Ordinal_divider_7beeb965 {
   margin-left: 20rem;
-}@keyframes Rewards_fadeIn_405577a5 {
+}
+@keyframes Rewards_fadeIn_405577a5 {
   from {
     opacity: 0;
   }
@@ -48,7 +49,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
-}@keyframes Compensation_fadeIn_db29c4dc {
+}
+@keyframes Compensation_fadeIn_db29c4dc {
   from {
     opacity: 0;
   }
@@ -63,7 +65,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-}@keyframes Content_fadeIn_da09528a {
+}
+@keyframes Content_fadeIn_da09528a {
   from {
     opacity: 0;
   }
@@ -80,7 +83,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
-}@keyframes Glow_fadeIn_a44066b8 {
+}
+@keyframes Glow_fadeIn_a44066b8 {
   from {
     opacity: 0;
   }
@@ -99,7 +103,8 @@
   z-index: -1;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes PreviewButton_fadeIn_22577403 {
+}
+@keyframes PreviewButton_fadeIn_22577403 {
   from {
     opacity: 0;
   }
@@ -119,7 +124,8 @@
 }
 .PreviewButton_fdc3bedf .PreviewButton_loupeButton_3b872270:hover {
   opacity: 1;
-}@keyframes Title_fadeIn_2e63cf3 {
+}
+@keyframes Title_fadeIn_2e63cf3 {
   from {
     opacity: 0;
   }
@@ -151,10 +157,13 @@
 .Title_base__credits_2e63cf3 .Title_value_5c3353d2 {
   color: var(--color-currency-credits);
 }
-.Title_base__gold_2e63cf3 .Title_value_5c3353d2, .Title_base__premium_plus_8be25f37 .Title_value_5c3353d2 {
+.Title_base__gold_2e63cf3 .Title_value_5c3353d2,
+.Title_base__premium_plus_8be25f37 .Title_value_5c3353d2 {
   color: var(--color-currency-gold);
 }
-.Title_base__freeXP_2e63cf3 .Title_value_5c3353d2, .Title_base__bptaler_2e63cf3 .Title_value_5c3353d2, .Title_base__crystal_2e63cf3 .Title_value_5c3353d2 {
+.Title_base__freeXP_2e63cf3 .Title_value_5c3353d2,
+.Title_base__bptaler_2e63cf3 .Title_value_5c3353d2,
+.Title_base__crystal_2e63cf3 .Title_value_5c3353d2 {
   color: var(--color-currency-bond);
 }
 
@@ -166,7 +175,8 @@
   margin-top: -7rem;
   color: var(--color-currency-gold);
   line-height: 120%;
-}@keyframes VehicleTitle_fadeIn_8292520d {
+}
+@keyframes VehicleTitle_fadeIn_8292520d {
   from {
     opacity: 0;
   }
@@ -182,7 +192,8 @@
   line-height: 1.3em;
   color: var(--color-currency-gold);
   white-space: nowrap;
-}@keyframes RewardCard_fadeIn_a49b43b7 {
+}
+@keyframes RewardCard_fadeIn_a49b43b7 {
   from {
     opacity: 0;
   }
@@ -197,7 +208,8 @@
   height: 80rem;
   position: relative;
   z-index: 0;
-}@keyframes Compensation_fadeIn_db29c4dc {
+}
+@keyframes Compensation_fadeIn_db29c4dc {
   from {
     opacity: 0;
   }
@@ -234,7 +246,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes Card_fadeIn_f4c22d1c {
+}
+@keyframes Card_fadeIn_f4c22d1c {
   from {
     opacity: 0;
   }
@@ -280,7 +293,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes RewardsRow_fadeIn_8819d1ca {
+}
+@keyframes RewardsRow_fadeIn_8819d1ca {
   from {
     opacity: 0;
   }
@@ -389,7 +403,8 @@
 .animation_3_CONCURRENT_APPEAR__skip .RewardsRow_8819d1ca .RewardsRow_divider__3_e5b77023 {
   opacity: 1;
   transition: opacity 0s ease-out;
-}@keyframes Layout_fadeIn_750f09cf {
+}
+@keyframes Layout_fadeIn_750f09cf {
   from {
     opacity: 0;
   }
@@ -414,7 +429,8 @@
 .Layout_1c0c8eb5 .Layout_overlay_2156876 {
   z-index: 4;
   pointer-events: auto;
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

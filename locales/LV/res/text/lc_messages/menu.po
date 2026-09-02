@@ -826,6 +826,9 @@ msgstr "3D Stili"
 msgid "carousel_tank_filter/ready"
 msgstr "Rādīt tikai pamata"
 
+msgid "carousel_tank_filter/scout"
+msgstr "Izlūks"
+
 msgid "carousel_tank_filter/sniper"
 msgstr "Snaiperis"
 
@@ -834,9 +837,6 @@ msgstr "Atbalstītājs"
 
 msgid "carousel_tank_filter/universal"
 msgstr "Universālis"
-
-msgid "carousel_tank_filter/wheeled"
-msgstr "Ritenis"
 
 msgid "centerIsAvailable"
 msgstr "Visi serveri atkal darbojas."
@@ -4159,6 +4159,9 @@ msgstr "Uzlabota autopārlādes sistēma:\nSamazina standarta laiku čaulīšu a
 msgid "moduleInfo/autoShootGun"
 msgstr "Ierocis ar nepārtrauktas uguns sistēmu"
 
+msgid "moduleInfo/auxiliaryRocketLauncher"
+msgstr "Šis tanks ir aprīkots ar raķešu palaišanas iekārtu, kas uzstādīta lielgabala maskā. Aktivizējiet spēju pārslēgties uz sekundārā ieroča tēmēkli un pēc tam ar šāviena pogu izšaujiet nevadāmu HE raķeti."
+
 msgid "moduleInfo/closeBtn"
 msgstr "Aizvērt"
 
@@ -4312,6 +4315,9 @@ msgstr "Sagatavošanas laiks"
 msgid "moduleInfo/params/crewRolesFactor"
 msgstr "galvenajām kvalifikācijām un apkalpes iemaņām"
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Kritiskā trāpījuma iespēja"
+
 msgid "moduleInfo/params/damage"
 msgstr "Bojājumi"
 
@@ -4342,11 +4348,29 @@ msgstr "Aizdegšanās Iespēja Triecienā"
 msgid "moduleInfo/params/flyDelayRange"
 msgstr "Lidojuma Laiks"
 
+msgid "moduleInfo/params/footnote/guaranteedDamage"
+msgstr "Vienmēr rada bojājumus, ja tiek trāpīts galvenajā bruņojumā."
+
+msgid "moduleInfo/params/footnote/maxShotDistance"
+msgstr "* maksimālais lādiņu lidošanas attālums šim lielgabalam"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance"
+msgstr " šis čaulītes veids nav atkarīgs no attāluma"
+
+msgid "moduleInfo/params/footnote/noPiercingDistance/maxDistance"
+msgstr ", maksimālais lidošanas attālums – 400 m"
+
+msgid "moduleInfo/params/footnote/penetrationLoss"
+msgstr "šāda veida šāviņš sāk zaudēt cauršaušanas spēju pēc attāluma, kad ir izsists cauri pirmajam ekrānam."
+
+msgid "moduleInfo/params/footnote/piercingDistance"
+msgstr " atkarīgs no attāluma: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/footnote/screensArmorMultiplier"
+msgstr "šis čaulas tips caururbj ekrānus kā parasti, bet pēc tam zaudē cauršaušanas spēju, kas ir vienāda ar trīs reizes ekrāna bruņu biezumu."
+
 msgid "moduleInfo/params/forwardMaxSpeed"
 msgstr "Maksimālais Ātrums"
-
-msgid "moduleInfo/params/guaranteedDamage/footnote"
-msgstr "Vienmēr rada bojājumus, ja tiek trāpīts galvenajā bruņojumā."
 
 msgid "moduleInfo/params/hullAndChassisWeight"
 msgstr "Svars"
@@ -4378,20 +4402,11 @@ msgstr "Dzīvības Punkti"
 msgid "moduleInfo/params/maxShotDistance"
 msgstr "Šaušanas Attālums"
 
-msgid "moduleInfo/params/maxShotDistance/footnote"
-msgstr "* maksimālais lādiņu lidošanas attālums šim lielgabalam"
-
 msgid "moduleInfo/params/maxSteeringLockAngle"
 msgstr "Maksimālais Riteņu Griešanās Leņķis"
 
 msgid "moduleInfo/params/minAvgMutableDamageList"
 msgstr "Vidējie Bojājumi no %(dist)s m"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote"
-msgstr " šis čaulītes veids nav atkarīgs no attāluma"
-
-msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
-msgstr ", maksimālais lidošanas attālums – 400 m"
 
 msgid "moduleInfo/params/normalizationAngle"
 msgstr "Normalizācijas leņķis"
@@ -4399,14 +4414,8 @@ msgstr "Normalizācijas leņķis"
 msgid "moduleInfo/params/penetrationLoss"
 msgstr "Caursišanas zudums"
 
-msgid "moduleInfo/params/penetrationLoss/footnote"
-msgstr "šāda veida šāviņš sāk zaudēt caursišanas spēju pēc attāluma, kad ir izsists cauri pirmajam ekrānam."
-
 msgid "moduleInfo/params/piercingDistance"
 msgstr "%(dist)s m"
-
-msgid "moduleInfo/params/piercingDistance/footnote"
-msgstr " atkarīgs no attāluma: %(minDist)s–%(maxDist)s m"
 
 msgid "moduleInfo/params/piercingDistanceHeader"
 msgstr "Vidējā cauršaušanas spēja (mm) – attālums"
@@ -4456,9 +4465,6 @@ msgstr "Pagriešanās Ātrums"
 msgid "moduleInfo/params/screensArmorMultiplier"
 msgstr "Izvietoto bruņu reizinātājs"
 
-msgid "moduleInfo/params/screensArmorMultiplier/footnote"
-msgstr "šis čaulas tips caururbj ekrānus kā parasti, bet pēc tam zaudē caursišanas spēju, kas ir vienāda ar trīs reizes ekrāna bruņu biezumu."
-
 msgid "moduleInfo/params/screensArmorMultiplier/value"
 msgstr "x%(multiplier)s"
 
@@ -4506,6 +4512,9 @@ msgstr "Indukcijas propelenta pēcdedzinātājs, kas palielina vidējos bojājum
 
 msgid "moduleInfo/rocketAcceleration"
 msgstr "Reaktīvo dzinēju pastiprinātāji palielina tanka mobilitāti"
+
+msgid "moduleInfo/shellParamsSwitcher"
+msgstr "Tanka lielgabalam ir īpašas ierīces, kas ļauj pirms izšaušanas mainīt dažus šāviņa parametrus."
 
 msgid "moduleInfo/stagedJetBoosters"
 msgstr "Cietā kurināmā paātrinātāji, kas palielina paātrinājumu, mobilitāti un manevrētspēju"
@@ -5284,11 +5293,14 @@ msgstr "Tanki ar perfektiem ieročiem, kuru efektīvai pielietošanai vajag atbi
 msgid "roleExp/roleDescr/role_HT_universal"
 msgstr "Daudzfunkcionāli tanki, kas var viegli pielāgoties jebkurai kaujas situācijai."
 
-msgid "roleExp/roleDescr/role_LT_universal"
-msgstr "Ātri un manevrēt spējīgi tanki, kas var gan izlūkot, gan izdarīt bojājumus veicot ielenkšanas manevrus."
+msgid "roleExp/roleDescr/role_LT_scout"
+msgstr "Izlūku vieglie tanki ir mazi, veikli tanki, kas paredzēti pretinieku atklāšanai. To zemais siluets un labā maskēšanās, kā arī izcilā manevrētspēja un lielais maksimālais ātrums padara tos ļoti piemērotus gan pasīvai, gan aktīvai izlūkošanai, taču vājā izturība un zemā uguns jauda neļauj tiem sniegt sabiedrotajiem būtisku uguns atbalstu."
 
-msgid "roleExp/roleDescr/role_LT_wheeled"
-msgstr "Tanki ar izcilām dinamiskām īpašībām, kuru efektīva pielietošana ir atkarīga no kartes un taktiskās situācijas."
+msgid "roleExp/roleDescr/role_LT_support"
+msgstr "Atbalsta vieglie tanki izmanto savu augsto mobilitāti, izcilo manevrētspēju un jaudīgos lielgabalus, lai ātri mainītu flangus, nodarītu ievērojamu kaitējumu un pēc tam atkāptos drošībā. Lai gan noteiktās situācijās tie var veikt izlūkošanu, to lielie izmēri un sliktā maskēšanās padara tos par mazāk efektīviem izlūkiem nekā citus vieglos tankus."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Daudzpusīgie vieglie tanki ir vispusīgi tanki, kas spēj gan veikt izlūkošanu, gan sniegt uguns atbalstu sabiedrotajiem. Lai gan izlūkošanā tie ir mazāk efektīvi nekā izlūktanki un tiem ir mazāka uguns jauda nekā atbalsta vieglajiem tankiem, daudzpusīgo tanku sabalansētie parametri ļauj tiem pārliecinoši pildīt abas lomas un viegli pielāgoties visdažādākajām kaujas situācijām."
 
 msgid "roleExp/roleDescr/role_MT_assault"
 msgstr "Tanki ar pienācīgām bruņām, kas padara tos vislabāk piemērotus tuvcīņai un pozīciju noturēšanai pret pretinieku smagajiem tankiem."
@@ -5329,11 +5341,14 @@ msgstr "Atbalsta Smagais Tanks"
 msgid "roleExp/roleGroupName/role_HT_universal"
 msgstr "Daudzveidīgs Smagais Tanks"
 
+msgid "roleExp/roleGroupName/role_LT_scout"
+msgstr "Izlūku vieglais tanks"
+
+msgid "roleExp/roleGroupName/role_LT_support"
+msgstr "Atbalsta vieglais tanks"
+
 msgid "roleExp/roleGroupName/role_LT_universal"
 msgstr "Daudzveidīgs Vieglais Tanks"
-
-msgid "roleExp/roleGroupName/role_LT_wheeled"
-msgstr "Riteņu Vieglais Tanks"
 
 msgid "roleExp/roleGroupName/role_MT_assault"
 msgstr "Uzbrukuma Vidējais Tanks"
@@ -5377,10 +5392,13 @@ msgstr "%(groupName)s"
 msgid "roleExp/roleName/role_HT_universal"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_universal"
+msgid "roleExp/roleName/role_LT_scout"
 msgstr "%(groupName)s"
 
-msgid "roleExp/roleName/role_LT_wheeled"
+msgid "roleExp/roleName/role_LT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
 msgstr "%(groupName)s"
 
 msgid "roleExp/roleName/role_MT_assault"
@@ -6034,6 +6052,36 @@ msgstr "Pārlāde"
 msgid "tank_params/autoShootClipSec"
 msgstr "(magazīna/daudzums)"
 
+msgid "tank_params/autoreloaderSurgeBoostedReloadTime"
+msgstr "Paātrināts čaulas ielādes laiks"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeFast"
+msgstr "Uzlādes atjaunošanās laiks ar pilnu magazīnu"
+
+msgid "tank_params/autoreloaderSurgeChargeTimeSlow"
+msgstr "Pamata uzlādes atjaunošanās laiks"
+
+msgid "tank_params/autoreloaderSurgeInitCharges"
+msgstr "Uzlādes kaujas sākumā"
+
+msgid "tank_params/autoreloaderSurgeMaxCharges"
+msgstr "Lādiņi"
+
+msgid "tank_params/auxiliaryRocketLauncherAvgDamage"
+msgstr "Vidējie Bojājumi (HP)"
+
+msgid "tank_params/auxiliaryRocketLauncherDispersion"
+msgstr "Izkliede 100 m attālumā (m)"
+
+msgid "tank_params/auxiliaryRocketLauncherPenetration"
+msgstr "Vidējā cauršaušanas spēja (mm)"
+
+msgid "tank_params/auxiliaryRocketLauncherReloadTime"
+msgstr "Atdzišana (s)"
+
+msgid "tank_params/auxiliaryRocketLauncherVelocity"
+msgstr "Raķetes lādiņa ātrums (m/s)"
+
 msgid "tank_params/avgDamage"
 msgstr "Vidējie Bojājumi"
 
@@ -6057,6 +6105,21 @@ msgstr "Magazīna"
 
 msgid "tank_params/burstSec"
 msgstr "(s/quantity/quantity)"
+
+msgid "tank_params/bustleFeedDamagePerShot"
+msgstr "Vidējie Bojājumi (HP)"
+
+msgid "tank_params/bustleFeedMaxSpeed"
+msgstr "Maksimālais ātrums (AMP režīmā) (km/h)"
+
+msgid "tank_params/bustleFeedRateOfFire"
+msgstr "Lielgabala šaušanas ātrums (šāv./min)"
+
+msgid "tank_params/bustleFeedSwitchingToEASMMode"
+msgstr "AMP režīma aktivizēšana(s)"
+
+msgid "tank_params/bustleFeedSwitchingToStandardMode"
+msgstr "AMP režīma deaktivizēšana (s)"
 
 msgid "tank_params/chargeTime"
 msgstr "Zalves Sagatavošana"
@@ -6150,6 +6213,12 @@ msgstr "Dzinēja jauda (z.s.) (turborežīms)"
 
 msgid "tank_params/explosionRadius"
 msgstr "Bojājumu Rādiuss"
+
+msgid "tank_params/extendedTitle/bustleFeedMaxSpeed"
+msgstr "Maksimālais ātrums (AMP režīmā) (km/h)"
+
+msgid "tank_params/extendedTitle/bustleFeedSwitchingToBAF"
+msgstr "AMP režīma aktivizēšana (s)"
 
 msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
 msgstr "Ieroča dzesēšanas laiks pēc šaušanas"
@@ -6325,9 +6394,6 @@ msgstr "Caurgājība"
 msgid "tank_params/passiveCoincideceShootingCharge"
 msgstr "Elektromehāniskā sakritības tēmekļa uzlāde (%/s) (kaujas režīms, pasīvs)"
 
-msgid "tank_params/penetrationLoss"
-msgstr "(%/100 mm)"
-
 msgid "tank_params/perActivation"
 msgstr "(par aktivizāciju)"
 
@@ -6484,8 +6550,20 @@ msgstr "Palīgieroča pārlādes laiks"
 msgid "tank_params/secondaryTotalBurstSize"
 msgstr "Palīgieroča čaulu skaits"
 
+msgid "tank_params/shellCalibrationAvgDamage"
+msgstr "Pielāgotais vidējais lādiņa bojājumu apjoms (%)"
+
+msgid "tank_params/shellCalibrationAvgPenetration"
+msgstr "Pielāgotais vidējais lādiņa cauršaušanas rādītājs (%)"
+
 msgid "tank_params/shellLoadingTime"
 msgstr "Amunīcijas jostas ielāde"
+
+msgid "tank_params/shellParamsSwitchingTime"
+msgstr "Laiks pārslēgt režīmus"
+
+msgid "tank_params/shellPenetrationLoss"
+msgstr "(%/100 mm)"
 
 msgid "tank_params/shortened/avgPiercingPower"
 msgstr "Cauršaušana:"
@@ -6495,6 +6573,36 @@ msgstr "Novirze uz 100 m"
 
 msgid "tank_params/shotSpeed"
 msgstr "Čaulītes Ātrums"
+
+msgid "tank_params/sightPointerConsealmentFoliage"
+msgstr "Ienaidnieka maskēšanās aiz lapotnes (stāvot uz vietas un kustībā)"
+
+msgid "tank_params/sightPointerConsealmentMoving"
+msgstr "Kustīga ienaidnieka maskēšanās"
+
+msgid "tank_params/sightPointerDeployTime"
+msgstr "Sākotnējā atdzišana"
+
+msgid "tank_params/sightPointerDuration"
+msgstr "Darbības ilgums"
+
+msgid "tank_params/sightPointerReloadTime"
+msgstr "Atjaunošanās laiks"
+
+msgid "tank_params/sightPointerRotationSpeed"
+msgstr "Torņa griešanās ātrums"
+
+msgid "tank_params/sightPointerSectorAngleEnd"
+msgstr "Gala skenēšanas platums"
+
+msgid "tank_params/sightPointerSectorAngleStart"
+msgstr "Sākotnējās skenēšanas platums"
+
+msgid "tank_params/sightPointerSelfSpottingTime"
+msgstr "Pašatmaksāšanās ilgums"
+
+msgid "tank_params/sightPointerViewRange"
+msgstr "Redzamība"
 
 msgid "tank_params/speedLimits"
 msgstr "Maks. Ātr./Atpakaļgaitas Ātr."

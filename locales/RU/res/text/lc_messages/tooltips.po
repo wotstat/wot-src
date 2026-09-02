@@ -2285,13 +2285,13 @@ msgid "boostersWindow/booster/activateInfo/expirableReserves"
 msgstr "Резервы со сроком действия"
 
 msgid "boostersWindow/booster/activateInfo/expirationTimer"
-msgstr "%(count)s в течение %(time)s"
+msgstr "%(count)s за %(time)s"
 
 msgid "boostersWindow/booster/activateInfo/expireSoon"
-msgstr "Активируйте личные резервы с ограниченным сроком:"
+msgstr "Активируйте личные резервы со сроком действия:"
 
 msgid "boostersWindow/booster/activateInfo/expireToday"
-msgstr "Активируйте личные резервы с ограниченным сроком:"
+msgstr "Активируйте личные резервы со сроком действия:"
 
 msgid "boostersWindow/booster/activateInfo/improvedReserve"
 msgstr "Улучшенный личный резерв"
@@ -6052,6 +6052,18 @@ msgstr "Инструкция не будет работать, поскольк�
 msgid "moduleFits/wrong_slot/body"
 msgstr "Модуль уже установлен в другом слоте."
 
+msgid "moduleInfo/params/criticalHitChance"
+msgstr "Вероятность нанесения критического урона модулям и/или экипажу противника."
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Величина, на которую уменьшается угол попадания снаряда, когда он касается брони."
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Снижение бронепробития за каждые 100 мм после того, как снаряд попадает в экран."
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Угол гарантированного рикошета при попадании в броню противника."
+
 msgid "multiselection/alert/body"
 msgstr "Выберите технику: выйти в бой можно только полностью укомплектовав группу."
 
@@ -6890,7 +6902,7 @@ msgid "notrecruitedtankman/hw25_Titi_CN/label"
 msgstr "巴比伦: 荣耀征途"
 
 msgid "notrecruitedtankman/jager_mailand/desc"
-msgstr "Егерь Mailand присоединяется к отряду со свежим взглядом на события, разворачивающиеся на поле боя. Эффектный новый облик и уникальная озвучка Mailand разнообразят ваши сражения."
+msgstr "Егерь Mailand присоединяется к отряду со свежим взглядом на события, разворачивающиеся на поле боя. Эффектный новый облик и уникальная озвучка Mailand гарантированно разнообразят ваши сражения."
 
 msgid "notrecruitedtankman/jager_mailand/howToGetInfo"
 msgstr "?empty?"
@@ -6899,7 +6911,7 @@ msgid "notrecruitedtankman/jager_mailand/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/jager_mouzakrobat/desc"
-msgstr "Встречайте егеря MouzAkrobat с его фирменным стилем ведения боя. Благодаря его уникальной озвучке ваши сражения будут запоминаться ещё сильнее."
+msgstr "Встречайте егеря MouzAkrobat с его фирменным стилем ведения боя. Благодаря его уникальной озвучке ваши сражения станут более запоминающимися."
 
 msgid "notrecruitedtankman/jager_mouzakrobat/howToGetInfo"
 msgstr "?empty?"
@@ -8480,7 +8492,7 @@ msgid "notrecruitedtankman/tankmen_bp20_7/label"
 msgstr "Боевой пропуск: Far Cry"
 
 msgid "notrecruitedtankman/tankmen_bp20_8/desc"
-msgstr "Джейсон Броди — талантливый и умный, но непутёвый малый, привыкший плыть по течению. В основном его интересуют вечеринки, экстремальные виды спорта и его девушка Лиза, постоянно напоминающая о том, что пора бы взяться за ум. Оказавшись на враждебном острове, он наконец вынужден сосредоточиться на единственной важной цели: спасении друзей. По ходу дела Джейсон обнаруживает в себе пугающую склонность к насилию, природные инстинкты выживания и растущую жажду мести, а также находит место, где чувствует себя своим. Но у всего есть своя цена, и ещё предстоит выяснить, готов ли он её заплатить."
+msgstr "Джейсон Броуди — талантливый и умный, но непутёвый малый, привыкший плыть по течению. В основном его интересуют вечеринки, экстремальные виды спорта и его девушка Лиза, постоянно напоминающая о том, что пора бы взяться за ум. Оказавшись на враждебном острове, он наконец вынужден сосредоточиться на единственной важной цели: спасении друзей. По ходу дела Джейсон обнаруживает в себе пугающую склонность к насилию, природные инстинкты выживания и растущую жажду мести, а также находит место, где чувствует себя своим. Но у всего есть своя цена, и ещё предстоит выяснить, готов ли он её заплатить."
 
 msgid "notrecruitedtankman/tankmen_bp20_8/howToGetInfo"
 msgstr "?empty?"
@@ -8496,6 +8508,42 @@ msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_bp20_9/label"
 msgstr "Боевой пропуск: Far Cry"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/desc"
+msgstr "Бесплодные солончаки, куда Вадима Куприна направили на очередное задание, он знал как свои пять пальцев. Он привык к опасным условиям, ведь служил специалистом по защите от химического оружия задолго до того, как впервые занял место в танке. Спустя двадцать лет он оказался всего в нескольких днях пути от комплекса лабораторий, где когда-то начинал службу младшим техником. Время и пережитые испытания оставляют свой след на каждом, но, как любит шутить Вадим, документы на его увольнение так никто и не оформил — так что, пока с ними не разберутся, он останется здесь."
+
+msgid "notrecruitedtankman/tankmen_bp21_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_1/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/desc"
+msgstr "Цветущие долины, в которых прошло детство Брина Пауэлла, были совсем непохожи на те суровые места, куда его привела служба. Последний инструктаж оказался удивительно скуп на подробности, а такие формулировки, как «неопознанное химическое вещество» и «риск смертельной опасности: крайне высокий», заставили бы многих командиров просить о переводе. Но Брин всегда ценил в других инстинкт самосохранения. Смельчак по натуре, он мог бы сделать блестящую карьеру каскадёра, если бы захотел. Впрочем, его манера езды тоже очень напоминает погони из боевиков."
+
+msgid "notrecruitedtankman/tankmen_bp21_2/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_2/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/desc"
+msgstr "Нагаи Сора — сама невозмутимость. У него за плечами большой опыт миротворческих миссий в горячих точках, поэтому он сохраняет хладнокровие даже в самых напряжённых ситуациях. Нагаи не смогли выбить из равновесия ни утомительные ночные патрули, ни поступление всё более тревожных разведданных о неизвестном веществе, на поиски которого отправили его экипаж. Он поддерживает боевой дух шуточками на грани чёрного юмора, не теряя ни блеска в глазах, ни лёгкости походки."
+
+msgid "notrecruitedtankman/tankmen_bp21_3/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_3/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/desc"
+msgstr "От зоркого взгляда Сандрин Уссе не ускользало ничто. Ещё до участия в секретной танковой разведывательной операции она стала знаменитым снайпером , а её орлиный глаз давал фору прицелу винтовки. Стоило показать Сандрин хотя бы обрывок вражеских разведданных, как она делала настолько точные выводы, что даже собственный экипаж поначалу принимал её невероятную наблюдательность за ясновидение. Под командованием девушки загадки редко остаются нераскрытыми. К счастью для команды, всё своё внимание она сосредоточила на поисках источника неизвестного реагента."
+
+msgid "notrecruitedtankman/tankmen_bp21_4/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_bp21_4/label"
+msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_bp2_1/desc"
 msgstr "Если вы попросите характеристику на Рида у его командира, тот скорее всего закатит глаза и тяжело вздохнёт. Рид — прирождённый бунтарь, который каким-то чудом ещё держится в дисциплинарных рамках, которые устанавливает ему служба в армии. Ему бы сейчас мотоцикл и 66-е шоссе под колёса — но нет, приходится жариться в танке и выполнять очередной приказ."
@@ -8900,6 +8948,15 @@ msgid "notrecruitedtankman/tankmen_pm3_3/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/tankmen_pm3_3/label"
+msgstr "Кампания «Сектор 3»"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/desc"
+msgstr "Стефан вырос в семье бернских часовщиков и унаследовал ремесло, требующее тишины, терпения и полного самообладания. Эти качества ему пригодились, но совсем на другом поприще. В 1940 году британская разведка изменила его судьбу: нейтральная Швейцария осталась по одну сторону границы, а он — по другую. В Альпах он прошёл путь от механика, обслуживавшего шпионское оборудование, до снайпера. Он не бросил винтовку и после войны: теперь он устраняет тех, кто ускользнул от правосудия под вымышленными именами. Стефан всегда работал и работает в одиночку, не оставляя следов. В «Секторе 3» его лица ещё никто не видел."
+
+msgid "notrecruitedtankman/tankmen_pm4_1/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/tankmen_pm4_1/label"
 msgstr "Кампания «Сектор 3»"
 
 msgid "notrecruitedtankman/tankwoman/desc"
@@ -10849,6 +10906,15 @@ msgstr "%(bold)s — снаряд, применяемый по умолчани�
 msgid "shell/basic/description/bold"
 msgstr "Базовый снаряд"
 
+msgid "shell/mechanics/bustleFeed/description"
+msgstr "Режим внешней подачи боеприпасов (ВПБ) позволяет использовать снаряды с повышенным уроном."
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/basic"
+msgstr "Базовые"
+
+msgid "shell/mechanics/bustleFeed/paramsHeader/specific"
+msgstr "Унитарные"
+
 msgid "shell/mechanics/lowChargeShot/description"
 msgstr "Специальная механика для орудия машины, которая позволяет стрелять раньше с изменёнными характеристиками снаряда."
 
@@ -10866,6 +10932,21 @@ msgstr "Базовые:"
 
 msgid "shell/mechanics/lowChargeShot/paramsHeader/specific"
 msgstr "Изменённые:"
+
+msgid "shell/mechanics/shellCalibration/description"
+msgstr "Регулируемый взрыватель увеличивает средний урон или бронепробиваемость."
+
+msgid "shell/mechanics/shellCalibration/paramsHeader"
+msgstr "Изменяемые:"
+
+msgid "shell/mechanics/shellParamsSwitcher/description"
+msgstr "Орудие оснащено устройствами, которые позволяют изменять некоторые параметры снаряда перед выстрелом."
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/basic"
+msgstr "Стандартные"
+
+msgid "shell/mechanics/shellParamsSwitcher/paramsHeader/specific"
+msgstr "Калиброванные"
 
 msgid "showArtyHitOnMap/body"
 msgstr "Включение или отключение отображения на мини-карте области, по которой САУ противника ведёт огонь."
@@ -11028,6 +11109,12 @@ msgstr "Снижение качества звука может повысить
 
 msgid "soundQualityOn/header"
 msgstr "Низкое качество"
+
+msgid "specialMechanics/shellCalibration/avgDamage"
+msgstr "{{@ style (color #E9E2BF)}}Средний урон{{/}} увеличивается в случае пробития брони противника."
+
+msgid "specialMechanics/shellCalibration/avgPiercingPower"
+msgstr "{{@ style (color #E9E2BF)}}Средняя бронепробиваемость{{/}} увеличивается в случае непробития брони противника."
 
 msgid "specializationWotPlus/content/header"
 msgstr "Члены экипажа обучаются на 50% быстрее на премиум технике:"
@@ -11386,6 +11473,36 @@ msgstr "Доработанная система дозарядки магази�
 msgid "tank_params/desc/autoShootClipFireRate"
 msgstr "Время между выстрелом последнего снаряда (или ствола) и заряжанием нового магазина. / Количество стволов или снарядов в магазине."
 
+msgid "tank_params/desc/autoreloaderSurgeBoostedReloadTime"
+msgstr "Время, которое заменяет оставшееся время перезарядки при использовании механизма."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeFast"
+msgstr "Время подготовки одного заряда при полном магазине."
+
+msgid "tank_params/desc/autoreloaderSurgeChargeTimeSlow"
+msgstr "Время подготовки одного заряда при неполном магазине."
+
+msgid "tank_params/desc/autoreloaderSurgeInitCharges"
+msgstr "Количество доступных зарядов в начале боя."
+
+msgid "tank_params/desc/autoreloaderSurgeMaxCharges"
+msgstr "Максимальное количество зарядов для ускоренной перезарядки снаряда, доступных единовременно."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherAvgDamage"
+msgstr "Среднее значение урона, наносимого ракетой за один запуск при пробитии брони. Разброс урона составляет от –25% до +25% от среднего значения."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherDispersion"
+msgstr "Показывает, на сколько метров ракета может отклониться от точки прицеливания за каждые 100 метров расстояния до цели."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherPenetration"
+msgstr "Средняя толщина брони, пробиваемая ракетой с учётом её нормализации. Разброс составляет от –25% до +25% от среднего значения."
+
+msgid "tank_params/desc/auxiliaryRocketLauncherReloadTime"
+msgstr "Время перезарядки ракетной установки"
+
+msgid "tank_params/desc/auxiliaryRocketLauncherVelocity"
+msgstr "Определяет скорость полёта неуправляемой ракеты."
+
 msgid "tank_params/desc/avgDamage"
 msgstr "Среднее значение урона, наносимого базовым снарядом за один выстрел при пробитии брони. Разброс урона составляет от –25% до +25% от среднего значения."
 
@@ -11406,6 +11523,21 @@ msgstr "Максимальная продолжительность эффект
 
 msgid "tank_params/desc/burstFireRate"
 msgstr "Время смены снаряда в кассете. / Количество кассет в магазине. / Количество снарядов в кассете."
+
+msgid "tank_params/desc/bustleFeedDamagePerShot"
+msgstr "Среднее значение урона, наносимого унитарным снарядом повышенной мощности за один выстрел при пробитии брони. Разброс урона составляет от –25% до +25% от среднего значения."
+
+msgid "tank_params/desc/bustleFeedMaxSpeed"
+msgstr "Уменьшение номинальной скорости движения вперёд в режиме внешней подачи боеприпасов. Скорость движения назад не меняется."
+
+msgid "tank_params/desc/bustleFeedRateOfFire"
+msgstr "Уменьшение скорострельности в режиме внешней подачи боеприпасов."
+
+msgid "tank_params/desc/bustleFeedSwitchingToEASMMode"
+msgstr "Минимальное время подготовки орудия после активации режима внешней подачи боеприпасов. В этот период переключать режимы невозможно."
+
+msgid "tank_params/desc/bustleFeedSwitchingToStandardMode"
+msgstr "Минимальное время подготовки орудия после возврата в стандартный режим. В этот период переключать режимы невозможно."
 
 msgid "tank_params/desc/chargeTime"
 msgstr "Время подготовки к выстрелу из обоих орудий одновременно. / Время блокировки перезарядки орудий после залпа."
@@ -11737,8 +11869,17 @@ msgstr "Время перезарядки вспомогательного ор�
 msgid "tank_params/desc/secondaryTotalBurstSize"
 msgstr "Количество снарядов, доступных для вспомогательного орудия во время активации."
 
+msgid "tank_params/desc/shellCalibrationAvgDamage"
+msgstr "Бонус к урону после успешного пробития брони противника."
+
+msgid "tank_params/desc/shellCalibrationAvgPenetration"
+msgstr "Бонус к бронепробиваемости после непробития брони противника"
+
 msgid "tank_params/desc/shellLoadingTime"
 msgstr "Время подготовки ленты в начале боя и смены типа снарядов."
+
+msgid "tank_params/desc/shellParamsSwitchingTime"
+msgstr "Время переключения между стандартным режимом и режимом калибровки."
 
 msgid "tank_params/desc/shotDispersionAngle"
 msgstr "Показывает, на сколько метров снаряд может отклониться от точки прицеливания за каждые 100 метров расстояния до цели."
@@ -11748,6 +11889,36 @@ msgstr "Показывает, на сколько метров снаряд мо
 
 msgid "tank_params/desc/shotDispersionAngle/withDualAccuracy"
 msgstr "Показывает, на сколько метров снаряд может отклониться от точки прицеливания за каждые 100 метров расстояния до цели. Базовое значение (первое) — при нагреве орудия, улучшенное (второе) — после остывания."
+
+msgid "tank_params/desc/sightPointerConsealmentFoliage"
+msgstr "Прогрессивное уменьшение незаметности замаскированных в растительности машин противника в секторе сканирования ИК-СПС."
+
+msgid "tank_params/desc/sightPointerConsealmentMoving"
+msgstr "Прогрессивное уменьшение незаметности движущихся машин противника в секторе сканирования ИК-СПС."
+
+msgid "tank_params/desc/sightPointerDeployTime"
+msgstr "Время, необходимое для первого использования ИК-СПС после начала боя."
+
+msgid "tank_params/desc/sightPointerDuration"
+msgstr "Продолжительность сканирования ИК-СПС."
+
+msgid "tank_params/desc/sightPointerReloadTime"
+msgstr "Время, необходимое для повторного использования ИК-СПС."
+
+msgid "tank_params/desc/sightPointerRotationSpeed"
+msgstr "Уменьшение скорости вращения башни при активной ИК-СПС."
+
+msgid "tank_params/desc/sightPointerSectorAngleEnd"
+msgstr "Ширина сектора сканирования ИК-СПС в конце её действия."
+
+msgid "tank_params/desc/sightPointerSectorAngleStart"
+msgstr "Ширина сектора сканирования ИК-СПС в начале её действия."
+
+msgid "tank_params/desc/sightPointerSelfSpottingTime"
+msgstr "Время обнаружения вашей машины после обнаружения противника с помощью ИК-СПС."
+
+msgid "tank_params/desc/sightPointerViewRange"
+msgstr "Прогрессивное увеличение дальности обзора в секторе сканирования ИК-СПС."
 
 msgid "tank_params/desc/speedLimits"
 msgstr "Паспортная скорость машины."

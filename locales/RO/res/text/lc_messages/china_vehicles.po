@@ -49,6 +49,9 @@ msgstr "A-220A-2"
 msgid "A_220A_CFE_D"
 msgstr "A-220A"
 
+msgid "A_220B_1_F"
+msgstr "A-220B"
+
 msgid "A_220B_1_QL"
 msgstr "A-220B QL"
 
@@ -57,6 +60,9 @@ msgstr "A-220B/78"
 
 msgid "A_220B_79"
 msgstr "A-220B/79"
+
+msgid "A_220C"
+msgstr "A-220C"
 
 msgid "A_220R"
 msgstr "A 220R"
@@ -700,6 +706,21 @@ msgstr "BZ-75 7x7"
 msgid "Ch48_BZ_75_7x7_short"
 msgstr "BZ-75 7x7"
 
+msgid "Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_descr"
+msgstr "„Stăteam nemișcat, privind cum fumul se ridica deasupra. Vârfuri negre se înălțau mai sus decât orice salvă, scânteile țesând cerul înainte de a se stinge. Singura dovadă a înfrângerii mele era în cenușa care acoperea câmpul de luptă: gri și fără formă, inertă și finală. Totuși, unele puncte încă mocneau cu o căldură strălucitoare care sfida lipsa lor de viață. Chiar și aici, în urma distrugerii, o scânteie persista.\n\nAm realizat atunci că sfârșitul meu este locul renașterii.\n\nCum, altfel, poți să te ridici dacă nu ai ars?”"
+
+msgid "Ch48_BZ_75_CFE_F_long_special"
+msgstr "Fireborn mătură câmpul de luptă, temut de mulți și respectat de toți. Armamentul său puternic poate provoca daune semnificative oricărei ținte, în timp ce combinația de racheto-accelerare și blindaj fiabil oferă mobilitate și protecție de neegalat. Surprinde-ți adversarii și lasă Phoenixul să se înalțe!"
+
+msgid "Ch48_BZ_75_CFE_F_short"
+msgstr "Fireborn"
+
+msgid "Ch48_BZ_75_CFE_F_short_special"
+msgstr "Racheto-accelerare, tun puternic"
+
 msgid "Ch48_BZ_75_descr"
 msgstr "În anii 1960, în contextul relațiilor tensionate cu URSS, în China a luat ființă conceptul de creare a „forțelor de acoperire a frontierei”. Principala putere de foc a acestei formațiuni se baza pe unități cu „tancuri de acoperire a frontierei”. Unul dintre proiectele unor astfel de vehicule a fost BZ-75, dezvoltat în 1975 pe baza experienței obținute în dezvoltarea tancului greu WZ-111. În timpul proiectării turelei, inginerii au încorporat caracteristici de design ale proiectului WZ-1224. nu s-au construit prototipuri de BZ-75."
 
@@ -981,6 +1002,18 @@ msgstr "Îmbunătățind formula familiară a antitancurilor chinezești, PTZ-78
 
 msgid "Ch70_PTZ_78_short"
 msgstr "PTZ-78"
+
+msgid "Ch71_WZ_219"
+msgstr "WZ-219"
+
+msgid "Ch71_WZ_219_descr"
+msgstr "La începutul anilor 1970, China a început să dezvolte un tanc ușor pentru a înlocui modelul învechit Type 62. Vehiculul compact și rapid trebuia să egaleze tancurile principale de luptă în ceea ce privește puterea de foc. Designul includea un sistem multifuncțional de țintire și determinare a distanței; cu toate acestea, s-a dovedit a fi prea voluminos și necesita o unitate de alimentare separată. Din cauza dificultăților și a costurilor ridicate, proiectul a fost închis."
+
+msgid "Ch71_WZ_219_long_special"
+msgstr "WZ-219 seamănă cu alte tancuri ușoare chinezești în ceea ce privește armamentul său impresionant. Unicitatea sa constă în dispozitivul său sofisticat de telemetrie, care îi permite vehiculului să dezvăluie eficient pozițiile țintelor camuflate și astfel să le facă vulnerabile."
+
+msgid "Ch71_WZ_219_short"
+msgstr "WZ-219"
 
 msgid "Ch72_Yongshi"
 msgstr "Yongshi"
@@ -1264,6 +1297,9 @@ msgstr "Bull Demon King"
 msgid "Chassis_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Chassis_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Chassis_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1330,6 +1366,9 @@ msgstr "BZ-79"
 msgid "Chassis_Ch68_PGZ_70"
 msgstr "PGZ-70"
 
+msgid "Chassis_Ch71_WZ_219"
+msgstr "WZ-219"
+
 msgid "Chassis_Ch72_Yongshi"
 msgstr "Yongshi"
 
@@ -1367,6 +1406,9 @@ msgid "Gun_Ch00_ClingeBot_SH"
 msgstr "Clinger"
 
 msgid "HS_110F"
+msgstr "HS 110F"
+
+msgid "HS_110F_F"
 msgstr "HS 110F"
 
 msgid "HS_110F_M"
@@ -1588,6 +1630,9 @@ msgstr "Bull Demon King"
 msgid "Turret_1_Ch48_BZ_75"
 msgstr "BZ model 1975"
 
+msgid "Turret_1_Ch48_BZ_75_CFE_F"
+msgstr "Fireborn"
+
 msgid "Turret_1_Ch49_BZ_68"
 msgstr "BZ-68"
 
@@ -1647,6 +1692,9 @@ msgstr "PGZ-70"
 
 msgid "Turret_1_Ch70_PTZ_78"
 msgstr "PTZ-78"
+
+msgid "Turret_1_Ch71_WZ_219"
+msgstr "WZ-219"
 
 msgid "Turret_1_Ch72_Yongshi"
 msgstr "Yongshi"
@@ -2029,6 +2077,18 @@ msgstr "105 mm Type 81-I"
 msgid "_10WSc"
 msgstr "10WSc"
 
+msgid "_115mm_69_115T"
+msgstr "115 mm 69-115T"
+
+msgid "_115mm_Po_115G"
+msgstr "Po-115G"
+
+msgid "_115mm_Sha_bao_115G"
+msgstr "Sha bao-115G"
+
+msgid "_115mm_Tuo_chuan_115G"
+msgstr "Tuo chuan-115G"
+
 msgid "_120mm_CB-472LY"
 msgstr "Chuan bei-472LY"
 
@@ -2166,6 +2226,9 @@ msgstr "12150L (34-1)"
 
 msgid "_12150L_70"
 msgstr "12150L-70"
+
+msgid "_12150ZL"
+msgstr "12150ZL"
 
 msgid "_122-mm_37-122JT"
 msgstr "122 mm 37-122JT"
@@ -2527,6 +2590,9 @@ msgstr "Sprgr. G 45 (WT IV)"
 msgid "_152_mm_64_152T"
 msgstr "152 mm 64-152T"
 
+msgid "_152_mm_64_152T_F"
+msgstr "152 mm 64-152T"
+
 msgid "_152_mm_64_152T_M"
 msgstr "152 mm 64-152DV"
 
@@ -2555,6 +2621,9 @@ msgid "_152mm_59_152JG_FT_HE_G6_SH"
 msgstr "59-152JG HE"
 
 msgid "_152mm_AP_T"
+msgstr "Chuan bei-152T"
+
+msgid "_152mm_AP_T_F"
 msgstr "Chuan bei-152T"
 
 msgid "_152mm_Chuan_bei_152T_DV"
@@ -2599,7 +2668,13 @@ msgstr "GM 45HE B"
 msgid "_152mm_HEAT_T"
 msgstr "Po-152T"
 
+msgid "_152mm_HEAT_T_F"
+msgstr "Po-152T"
+
 msgid "_152mm_HE_T"
+msgstr "Sha bao-152T"
+
+msgid "_152mm_HE_T_F"
 msgstr "Sha bao-152T"
 
 msgid "_152mm_Po_152"

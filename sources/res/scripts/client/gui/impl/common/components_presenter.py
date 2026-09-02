@@ -50,7 +50,7 @@ class ComponentsPresenterView(ViewImpl):
             if content is not None:
                 return content
 
-        return
+        return super(ComponentsPresenterView, self).createPopOverContent(event)
 
     def _registerSubModels(self):
         raise NotImplementedError

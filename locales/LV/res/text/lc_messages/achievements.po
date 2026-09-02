@@ -139,15 +139,6 @@ msgstr "Apbalvots spēlētājiem par to nenovērtējamo ieguldījumu World of Ta
 msgid "15YearsOfService_descr"
 msgstr "Jūs esiet spēlē kopš %(regDate)s"
 
-msgid "BPReserveAchievement_1"
-msgstr "KC Rezerves Sasniegums 1"
-
-msgid "BPReserveAchievement_1_condition"
-msgstr "• Apbalvots par Progresa pabeigšanu."
-
-msgid "BPReserveAchievement_1_descr"
-msgstr "Apbalvots par jūsu sasniegumiem spēles laikā."
-
 msgid "BPReserveAchievement_2"
 msgstr "KC Rezerves Sasniegums 2"
 
@@ -429,6 +420,15 @@ msgstr "• Apbalvots par visu trīs Nodaļu izpildi."
 
 msgid "BattlePassCommonPr_20_descr"
 msgstr "Piešķirts par jūsu sasniegumiem Kaujas Caurlaides XX sezonas laikā."
+
+msgid "BattlePassCommonPr_21"
+msgstr "Zemienes sadursme"
+
+msgid "BattlePassCommonPr_21_condition"
+msgstr "• Apbalvots par visu trīs Nodaļu izpildi."
+
+msgid "BattlePassCommonPr_21_descr"
+msgstr "Piešķirts par jūsu sasniegumiem Kaujas Caurlaides XXI sezonā."
 
 msgid "BattlePassCommonPr_2_condition"
 msgstr "• Galvenais Progress sastāv no 45 Stadijām."
@@ -1828,6 +1828,48 @@ msgstr "Sudraba Pūķis"
 msgid "comp7_5_yearly_silver_descr"
 msgstr "Piešķirts par vismaz 9 “Uzbrukuma” krāsu savākšanu Pūķa gadā režīmā “Uzbrukums”."
 
+msgid "comp7_6_1"
+msgstr "Debeszila dzirkstele"
+
+msgid "comp7_6_1_descr"
+msgstr "Piešķirts par misiju sērijas pabeigšanu Debeszilā Fēniksa sezonā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_bronze"
+msgstr "Bronzas Fēnikss"
+
+msgid "comp7_6_yearly_bronze_descr"
+msgstr "Piešķirts par vismaz 6 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_champion"
+msgstr "Fēniksa gada Čempions"
+
+msgid "comp7_6_yearly_champion_descr"
+msgstr "Piešķirts par vismaz 15 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_gold"
+msgstr "Zelta Fēnikss"
+
+msgid "comp7_6_yearly_gold_descr"
+msgstr "Piešķirts par vismaz 12 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_iron"
+msgstr "Dzelzs Fēnikss"
+
+msgid "comp7_6_yearly_iron_descr"
+msgstr "Piešķirts par vismaz 3 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_legend"
+msgstr "Fēniksa leģendas gads"
+
+msgid "comp7_6_yearly_legend_descr"
+msgstr "Piešķirts par vismaz 18 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
+msgid "comp7_6_yearly_silver"
+msgstr "Sudraba Fēnikss"
+
+msgid "comp7_6_yearly_silver_descr"
+msgstr "Piešķirts par vismaz 9 Uzbrukuma krāsu savākšanu Fēniksa gadā Uzbrukuma režīmā."
+
 msgid "conqueror"
 msgstr "Ieņēmējs, %(rank)s"
 
@@ -2399,7 +2441,7 @@ msgid "huntsman_condition"
 msgstr "• Piešķir tikai gadījuma kaujās."
 
 msgid "huntsman_descr"
-msgstr "Iznīciniet visus pretinieku vieglos tankus (vismaz 3)."
+msgstr "Iznīciniet visus pretinieku vieglos tankus (vismaz 2)."
 
 msgid "huntsman_heroInfo"
 msgstr "Seržants Grigorijs Nikolajevičs Naidins bija BT-7 tanka komandieris un Padomju Savienības varonis. 1941. gada 25. jūnijā netālu no Lietuvas pilsētas Rudišķi iznīcināja Vērmahta bruņoto kolonnu, ieskaitot 15 bruņutehnikas vienības un 10 lielgabalus, kas bija 19. tanku pulka sastāvā. Naidins šādā veidā aizkavēja vāciešu uzbrukumu divas dienas, nodrošinot aizsardzības izveidošanu Viļņas apkārtnē."
@@ -3887,13 +3929,40 @@ msgid "readyForBattleAllianceUSSR_notification3"
 msgstr "Izpildiet ar izcilību 15 Savienības personālās misijas. Balva: Paraugsniegums: Savienības medaļa, Klase III."
 
 msgid "readyForBattleAssault"
-msgstr "Priekšzīmīgs izpildījums: Avangards"
+msgstr "Izcila darbība: 3. sektora Avangards"
 
 msgid "readyForBattleAssault_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleAssault_descr"
-msgstr "Par visu Avangarda misiju izpildi 3. Sektora kampaņā."
+msgstr "Par visu Avangarda misiju izpildi 3. sektora kampaņas galvenajās operācijās."
+
+msgid "readyForBattleFossaAssault"
+msgstr "Izcils sniegums: Fossa Avangards"
+
+msgid "readyForBattleFossaAssault_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaAssault_descr"
+msgstr "Par visu Avangarda misiju izpildi 3. sektora kampaņas operācijā Fossa."
+
+msgid "readyForBattleFossaSniper"
+msgstr "Priekšzīmīgs sniegums: Fossa Slēpņuzbrukums"
+
+msgid "readyForBattleFossaSniper_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSniper_descr"
+msgstr "Par visu Slēpņa misiju izpildi 3. sektora kampaņas operācijā Fossa."
+
+msgid "readyForBattleFossaSupport"
+msgstr "Izcils sniegums: Fossa Palīdzība"
+
+msgid "readyForBattleFossaSupport_condition"
+msgstr "?empty?"
+
+msgid "readyForBattleFossaSupport_descr"
+msgstr "Par visu Atbalsta misiju izpildi 3. sektora kampaņas operācijā Fossa."
 
 msgid "readyForBattleHT"
 msgstr "Priekšzīmīgs izpildījums: Smagie tanki"
@@ -3980,22 +4049,22 @@ msgid "readyForBattleSPG_notification4"
 msgstr "Izpildiet ar izcilību 15 personīgās artilērijas misijas. Atlīdzība: IV pakāpes medaļa „Priekšzīmīgs izpildījums: Artilērija”."
 
 msgid "readyForBattleSniper"
-msgstr "Priekšzīmīgs izpildījums: Slēpnis"
+msgstr "Izcila veiktspēja: 3. sektora slēpnis"
 
 msgid "readyForBattleSniper_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSniper_descr"
-msgstr "Par visu Slēpņa misiju izpildi 3. Sektora kampaņā."
+msgstr "Par visu Slēpņa misiju izpildi 3. sektora kampaņas galvenajās operācijās."
 
 msgid "readyForBattleSupport"
-msgstr "Priekšzīmīgs izpildījums: Atbalsts"
+msgstr "Izcila veiktspēja: 3. sektora atbalsts"
 
 msgid "readyForBattleSupport_condition"
 msgstr "?empty?"
 
 msgid "readyForBattleSupport_descr"
-msgstr "Par visu Atbalsta misiju izpildi 3. Sektora kampaņā."
+msgstr "Par visu Atbalsta misiju izpildi 3. sektora kampaņas galvenajās operācijās."
 
 msgid "reliableComrade"
 msgstr "Kaujas biedrs"
@@ -4692,6 +4761,15 @@ msgstr "Piešķirts par progresijas pabeigšanu Waffenträger: Paradox notikumā
 
 msgid "wt2025progression_descr"
 msgstr "Pabeidz Waffenträger režīma progresiju."
+
+msgid "wt2026progression"
+msgstr "Vētru jātnieks"
+
+msgid "wt2026progression_condition"
+msgstr "Piešķirts par Waffenträger: Genesis 2026 progresijas pabeigšanu. Šis gods tiek piešķirts tiem, kas stājās pretī fon Krīgera pirmajai domājošajai mašīnai, Elektriskajam intelektam, un pārtrauca katru ķēdi, caur kuru tā sasniedza mūsu pasauli."
+
+msgid "wt2026progression_descr"
+msgstr "Pabeidz progresiju spēlē Waffenträger: Genesis 2026."
 
 msgid "wtBossWins"
 msgstr "Zibens Pārvaldītājs"

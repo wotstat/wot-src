@@ -1009,6 +1009,9 @@ msgstr "Szkolenie członka(-ów) załogi nie powiodło się z powodu błędu se
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "bieżąca sesja gra została przerwana. Twoje Wargaming.net&nbsp;ID zostało wykorzystane do zalogowania się do gry World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Błąd przy odbieraniu prezentu: błąd serwera."
+msgstr "Błąd otwierania pudełka: Błąd serwera."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Błąd przy odbieraniu prezentu. Zaczekaj na zakończenie poprzedniej operacji."
+msgstr "Błąd otwierania pudełka: Poczekaj na zakończenie poprzedniej operacji."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
@@ -2383,30 +2386,6 @@ msgstr "Otrzymano wyjątkowy kamuflaż dla pojazdu %(vehicleName)s."
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Wyjątkowy kamuflaż dla pojazdu %(vehicleName)s jest dostępny dla wszystkich pojazdów kraju %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Wszystkie postępy operacji zostały zapisane. Możesz wznowić kampanie w dowolnym momencie."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Kampanie %(campaignName1)s i %(campaignName2)s są zatrzymane"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Zatrzymane operacje i ich misje zostały wznowione."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Kampanie %(campaignName1)s i %(campaignName2)s zostały wznowione"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Wszystkie postępy operacji zostały zapisane. Możesz wznowić kampanię w dowolnym momencie."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Kampania %(campaignName)s zatrzymana"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Zatrzymane operacje zostały wznowione."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Kampania %(campaignName)s wznowiona"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Udało się zamontować: %(detailName)s."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Błąd przy otrzymywaniu nagród. Spróbuj ponownie później."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Udało się zamontować: %(detail_name)s."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Błąd przy otrzymywaniu nagród. Spróbuj ponownie później."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Udało się zamontować: %(detail_name)s."
 
 msgid "personalMissions/reward/regular/server_error"

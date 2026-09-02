@@ -136,6 +136,24 @@ msgstr[0] "{{count}} seger"
 msgstr[1] "{{count}} segrar"
 msgstr[2] "{{count}} segrar"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Tillgänglig i {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Stridserfarenhet"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "För att fira att du är tillbaka har vi något speciellt till dig: {{@ style (color #ede6d9e6)}}den dagliga bonusen för återupptagen tjänst{{/}} ökar stridserfarenheten du tjänar för dagens första seger med varje vagn."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Välkommen tillbaka befälhavare!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Bonusen återställs dagligen kl. {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Bonus för återupptagen tjänst: Tillgänglig"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Klicka för att gå till din vagnsspellista"
 

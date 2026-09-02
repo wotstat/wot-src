@@ -382,11 +382,56 @@ msgstr "Veckouppdrag är en uppsättning uppdrag som ändras veckovis. Framsteg 
 msgid "info_page/main/weekly/title"
 msgstr "Veckouppdrag"
 
+msgid "pm/missionState/active"
+msgstr "Aktivt"
+
+msgid "pm/missionState/complete"
+msgstr "Slutförda uppdrag"
+
+msgid "pm/missionState/improve"
+msgstr "Resultatförbättring"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Byt vagn"
+
+msgid "pm/no_missions"
+msgstr "Inga aktiva uppdrag för den valda vagnen"
+
+msgid "pm/tier"
+msgstr "Ogiltig klass"
+
+msgid "pm/unavailable"
+msgstr "Uppdraget ej tillgängligt för tillfället"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Det finns inga aktiva uppdrag för vagnen. Välj en annan vagn."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "Uppdraget är av tekniska skäl ej tillgänglig för tillfället. Vi ber om ursäkt för besväret."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Vagnen du valt har inte rätt klass för de aktiva operationerna. Välj en annan vagn."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Inga aktiva uppdrag"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Ej tillgänglig för tillfället"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Ogiltig klass"
+
 msgid "quests/daily_quests/all_completed"
 msgstr "Alla dagens standarduppdrag slutförda"
 
 msgid "quests/daily_quests/completed"
 msgstr "Alla dagliga uppdrag slutförda"
+
+msgid "slider/title/missions"
+msgstr "Standarduppdrag"
+
+msgid "slider/title/personalMissions"
+msgstr "Personliga uppdrag"
 
 msgid "tooltip/common/timer"
 msgstr "Tillgängliga om {{timeLeft}}"

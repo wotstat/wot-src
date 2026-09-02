@@ -1916,7 +1916,7 @@ msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Oro guadagnato"
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
-msgstr "Per esserti unito ai ranghi del %(campaignName)s, hai ricevuto la medaglia %(nameMedal)s."
+msgstr "Per aver completato con successo una missione nella campagna %(campaignName)s, hai ricevuto la medaglia %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
 msgstr "Congratulazioni!"
@@ -1929,6 +1929,21 @@ msgstr "Per aver completato con successo 30 missioni nella serie %(categoryName)
 
 msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
 msgstr "Per aver completato con successo 15 missioni nella serie %(categoryName)s della campagna %(campaignName)s, hai ricevuto la medaglia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/description"
+msgstr "Per aver completato con successo una missione nella campagna %(campaignName)s, hai ricevuto la medaglia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/header"
+msgstr "Congratulazioni!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/1/description"
+msgstr "Per aver completato con successo 21 missioni nella serie %(categoryName)s dell'operazione %(operationName)s, hai ricevuto la medaglia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/2/description"
+msgstr "Per aver completato con successo 14 missioni nella serie %(categoryName)s dell'operazione %(operationName)s, hai ricevuto la medaglia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/4/stage/3/description"
+msgstr "Per aver completato con successo 7 missioni nella serie %(categoryName)s dell'operazione %(operationName)s, hai ricevuto la medaglia %(nameMedal)s."
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "penalità per danni causati ad alleati: %s"
@@ -2870,16 +2885,13 @@ msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Clicca sul pulsante per visualizzare il contenuto."
 
 msgid "serviceChannelMessages/lootBoxes/header"
-msgstr "Hai ricevuto una consegna:"
+msgstr "Consegna ricevuta"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
-msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+msgstr "%(name)s: %(colorTagOpen)s%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
-msgstr "Vedi"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "Alle ricompense"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Portali attivati: %(boxes)s"
@@ -2898,9 +2910,6 @@ msgstr "Abbiamo attivato tutti i Portali e aggiunto il loro contenuto al tuo acc
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Ricompense ricevute"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
-msgstr "Abbiamo aperto tutti i tuoi pacchi e aggiunto le ricompense di Operazioni delle Feste"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3399,6 +3408,18 @@ msgstr "Frammenti universali"
 
 msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
 msgstr "Frammenti nazionali %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/description"
+msgstr "La configurazione dei seguenti veicoli è stata modificata: \n • %(vehiclesList)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/header"
+msgstr "Attenzione!"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/additionalCount"
+msgstr "<font color='#E9E2BF'>e %(vehiclesCount)s altri</font>"
+
+msgid "serviceChannelMessages/sysMsg/converter/postProgression/vehiclesList/delimiter"
+msgstr " • "
 
 msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
 msgstr "A seguito dell'aggiornamento, tutte le decalcomanie sono state rimosse dai veicoli e inviate al Magazzino nella sezione Personalizzazione."

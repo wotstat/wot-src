@@ -40,6 +40,9 @@ msgstr "Izpētīt"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Atgūt"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Uz Lielajām Kastēm"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "%(level)s līmeņa %(nation)s tanks nav izpētīts"
 
@@ -54,6 +57,15 @@ msgstr "Atlaide pērkot:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Atlaide izpētei:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Šis tanks var izkrist no {{@ style (color $color)}}Lielajām Kastēm!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Lielajām Kastēm!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Šis tanks var izkrist no"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Piemērot kupona atlaidi: %(value)s"

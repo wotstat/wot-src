@@ -1,9 +1,6 @@
 msgid ""
 msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
 
-msgid "autoOpenView/bottomLabel"
-msgstr "Nous avons ouvert toutes vos boîtes des Opés des fêtes."
-
 msgid "autoOpenView/congratsLabel"
 msgstr "Félicitations !"
 
@@ -58,34 +55,10 @@ msgstr "x{count}"
 msgid "entryDesc/buySlot"
 msgstr "Vous pouvez acheter des Grandes boîtes dans la Boutique premium"
 
-msgid "entryDesc/newYear_premium"
-msgstr "Grandes boîtes"
-
-msgid "entryDesc/newYear_usual"
-msgstr "Petites boîtes"
-
-msgid "entryDesc/questSlot"
-msgstr "Vous recevez des Petites boîtes en accomplissant des missions."
-
 msgid "entryDesc/restrictedMode"
 msgstr "Cette fonctionnalité est temporairement indisponible. Veuillez réessayer plus tard."
 
 msgid "entryPoint/header"
-msgstr "Boîtes"
-
-msgid "entryTooltip/body/h1"
-msgstr "Acheter des grandes boîtes :"
-
-msgid "entryTooltip/body/h2"
-msgstr "Gagner des petites boîtes :"
-
-msgid "entryTooltip/body/p1"
-msgstr "Acheter des boîtes contenant des décorations du Nouvel An pour vous ou pour vos amis dans la Boutique premium."
-
-msgid "entryTooltip/body/p2"
-msgstr "Décernée pour l'accomplissement de missions des Opés des fêtes."
-
-msgid "entryTooltip/header"
 msgstr "Boîtes"
 
 msgid "entryView/boxesCount"
@@ -94,20 +67,8 @@ msgstr "{count} boîtes en plus"
 msgid "entryView/buyLabel"
 msgstr "ACHETER DES BOÎTES"
 
-msgid "entryView/ended/newYear_premium"
-msgstr "Vous n'avez pas de Grandes boîtes dans le dépôt.\nAchetez-en plus dans la Boutique premium."
-
-msgid "entryView/ended/newYear_usual"
-msgstr "Vous n'avez pas de Petites boîtes.\nGagnez-en en batailles."
-
 msgid "entryView/lootboxesCount"
 msgstr "x{count}"
-
-msgid "entryView/title"
-msgstr "Opés des fêtes {year}"
-
-msgid "entryView/year"
-msgstr "2019"
 
 msgid "multiOpenView/applyLabel"
 msgstr "Compris !"
@@ -178,9 +139,6 @@ msgstr "Ouverture de caisses de ravitaillement"
 msgid "notification/lootBoxesReceived/invoice"
 msgstr "Ajoutée"
 
-msgid "notification/ny19man"
-msgstr "Un membre d'équipage unique : %(count)s"
-
 msgid "notification/rewards"
 msgstr "Vous avez reçu les récompenses suivantes :"
 
@@ -244,36 +202,6 @@ msgstr "Un style unique pour le"
 msgid "specialReward/vehicle/goToBtn"
 msgstr "Voir dans le garage"
 
-msgid "tooltip/category/header/Christmas"
-msgstr "Boîtes de Noël"
-
-msgid "tooltip/category/header/Fairytale"
-msgstr "Boîtes magiques"
-
-msgid "tooltip/category/header/NewYear"
-msgstr "Boîtes du Nouvel An"
-
-msgid "tooltip/category/header/Oriental"
-msgstr "Boîtes lunaires"
-
-msgid "tooltip/category/rewards/Christmas"
-msgstr "Collection de Noël"
-
-msgid "tooltip/category/rewards/Fairytale"
-msgstr "Collection magique"
-
-msgid "tooltip/category/rewards/NewYear"
-msgstr "Collection du Nouvel An"
-
-msgid "tooltip/category/rewards/Oriental"
-msgstr "Collection lunaire"
-
-msgid "tooltip/category/rewards/description"
-msgstr "Les boîtes contiennent des décorations de la {category} et d'autres récompenses de valeur."
-
-msgid "tooltip/category/rewards/header"
-msgstr "Récompenses :"
-
 msgid "tooltip/entryView/buyBoxes"
 msgstr "Acheter des boîtes supplémentaires dans la Boutique premium."
 
@@ -285,12 +213,6 @@ msgstr "Action temporairement indisponible. Réessayez plus tard."
 
 msgid "type/event_premium"
 msgstr "Caisse de ravitaillement de l'aube"
-
-msgid "type/newYear_premium"
-msgstr "GRANDES BOÎTES"
-
-msgid "type/newYear_usual"
-msgstr "PETITES BOÎTES"
 
 msgid "type/wt_boss"
 msgstr "Démarreur de l'Ingénieur"

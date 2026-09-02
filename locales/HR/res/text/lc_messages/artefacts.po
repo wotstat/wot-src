@@ -880,6 +880,12 @@ msgstr "Dodatne gusjenice 3. klasa"
 msgid "gun_balancing_1/name"
 msgstr "Uravnoteženje topa (Tip 1)"
 
+msgid "gun_balancing_2/name"
+msgstr "Uravnoteženje topa (Tip 2)"
+
+msgid "gun_barrel_modification_1/name"
+msgstr "Modifikacija topovske cijevi (Tip 1)"
+
 msgid "handExtinguishers/always"
 msgstr "?empty?"
 
@@ -1105,6 +1111,9 @@ msgstr "Poboljšani ovjes (Tip 1)"
 msgid "improved_suspension_2/name"
 msgstr "Poboljšani ovjes (Tip 2)"
 
+msgid "improved_turret_drive_1/name"
+msgstr "Poboljšani pogon kupole (Tip 1)"
+
 msgid "inspire/longDescr"
 msgstr "Poboljšava izvedbu posade vozila i svih saveznika unutar određenog polumjera, dodajući % bonus na osnovnu kvalifikaciju svakog člana posade. Igrač koji je primjenjuje prima poboljšani učinak."
 
@@ -1294,6 +1303,9 @@ msgstr "Sustav poboljšavanja pokretljivosti T3"
 msgid "modernizedTurbochargerRotationMechanism3/short_special"
 msgstr "Sustav poboljšavanja pokretljivosti T3"
 
+msgid "muzzle_flash_suppressor_1/name"
+msgstr "Prigušivač bljeska otvora cijevi (Tip 1)"
+
 msgid "nitro/battleDescr"
 msgstr "Privremeno povećava snagu vašeg motora za %(enginePowerFactor)s i najveću brzinu za %(maxSpeedFactor)s puta na %(consumeSeconds)s s."
 
@@ -1347,6 +1359,12 @@ msgstr "Unutar {colorTagOpen}%(delay)d s{colorTagClose}, odabrano područje će 
 
 msgid "poi_artillery_aoe/name"
 msgstr "Topnički udar"
+
+msgid "poi_illumination_flare/descr"
+msgstr "Nakon kratke odgode, osvjetljavajuća baklja osvjetljava odabrano područje. Neprijateljska vozila uhvaćena u njenom polumjeru ostaju otkrivena i primaju povećanu štetu.\nOsmatrački položaj se može ponovno zauzeti nakon nekoliko minuta."
+
+msgid "poi_illumination_flare/name"
+msgstr "Osvjetljavajuća baklja"
 
 msgid "poi_radar/descr"
 msgstr "Kada se aktivira, sva neprijateljska vozila ostaju otkrivena na {colorTagOpen}%(duration)d s{colorTagClose}."
@@ -1879,29 +1897,77 @@ msgstr "Laki trup"
 msgid "role_HT_universal_pair_5_2/splitName"
 msgstr "Laki\ntrup"
 
-msgid "role_LT_universal_pair_4_1/name"
-msgstr "Antireflektirajući premaz optike"
+msgid "role_LT_scout_pair_4_1/name"
+msgstr "Antireflektirajući premaz svjetala"
 
-msgid "role_LT_universal_pair_4_1/splitName"
-msgstr "Antireflektirajući\npremaz optike"
+msgid "role_LT_scout_pair_4_1/splitName"
+msgstr "Antirefleksni premaz\nza prednja svjetla"
 
-msgid "role_LT_universal_pair_4_2/name"
-msgstr "Vanjski sustav vidljivosti"
+msgid "role_LT_scout_pair_4_2/name"
+msgstr "Električni pogon periskopa"
 
-msgid "role_LT_universal_pair_4_2/splitName"
-msgstr "Vanjski sustav\nvidljivosti"
+msgid "role_LT_scout_pair_4_2/splitName"
+msgstr "Električni pogon\nperiskopa"
 
-msgid "role_LT_universal_pair_5_1/name"
+msgid "role_LT_scout_pair_5_1/name"
 msgstr "Panoramska tripleks optika"
 
-msgid "role_LT_universal_pair_5_1/splitName"
-msgstr "Panoramska\ntripleks optika"
+msgid "role_LT_scout_pair_5_1/splitName"
+msgstr "Panoramska tripleks optika"
 
-msgid "role_LT_universal_pair_5_2/name"
+msgid "role_LT_scout_pair_5_2/name"
 msgstr "Uskokutni osmatrački uređaj"
 
-msgid "role_LT_universal_pair_5_2/splitName"
+msgid "role_LT_scout_pair_5_2/splitName"
 msgstr "Uskokutni\nosmatrački uređaj"
+
+msgid "role_LT_support_pair_4_1/name"
+msgstr "Novi zupčanici ciljnika"
+
+msgid "role_LT_support_pair_4_1/splitName"
+msgstr "Novi zupčanici ciljnika"
+
+msgid "role_LT_support_pair_4_2/name"
+msgstr "Električni pogon periskopa"
+
+msgid "role_LT_support_pair_4_2/splitName"
+msgstr "Električni pogon\nperiskopa"
+
+msgid "role_LT_support_pair_5_1/name"
+msgstr "Opće povećanje izdržljivosti"
+
+msgid "role_LT_support_pair_5_1/splitName"
+msgstr "Opće povećanje\nizdržljivosti"
+
+msgid "role_LT_support_pair_5_2/name"
+msgstr "Antireflektirajući premaz svjetala"
+
+msgid "role_LT_support_pair_5_2/splitName"
+msgstr "Antirefleksni premaz\nza prednja svjetla"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Podešavanje izbacivača"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Podešavanje izbacivača"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Preožičenje napajanja"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Preožičenje\nnapajanja"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Poboljšano ožljebljavanje projektila"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Poboljšano\nožljebljavanje projektila"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Osjetljiva optika"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Osjetljiva optika"
 
 msgid "role_LT_wheeled_pair_4_1/name"
 msgstr "Ojačana osnovna struktura"
@@ -2424,6 +2490,9 @@ msgstr "Električni izboj"
 
 msgid "thunderStrike/shortDescr"
 msgstr "Stvara zonu u kojoj niz %(thunderCount)s električnih pražnjenja udara visokom frekvencijom. Svako pražnjenje uzrokuje {whiteSpanish_Open}%(damage)s HP štete{whiteSpanish_Close} i privremeno smanjuje pokretljivost svakog neprijateljskog vozila unutar područja djelovanja sposobnosti.\n\n* Postoji %(delay)s s kašnjenja između aktivacije sposobnosti i prvog pražnjenja. Njegov negativni učinak može se ukloniti alatom za popravke."
+
+msgid "torsion_bars_replace_1/name"
+msgstr "Zamjena torzijskih šipki (Tip 1)"
 
 msgid "trappoint/battleDescr"
 msgstr "Na %(duration)s s stvara područje koje umanjuje parametre pokretljivosti za %(vehicleMaxSpeed)s i povećava vrijeme punjenja topa i ciljanja za %(gunReloadTime)s za sva neprijateljska vozila unutar njega."

@@ -28,6 +28,30 @@ msgstr "GAUTI APDOVANOJIMAI"
 msgid "awardViews/footer/backButton/"
 msgstr "Tikrai taip!"
 
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "liko {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Jokių atidarymų iš naujo"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Vertingas apdovanojimas"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Atidaryti iš naujo nemokamai"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Nepakanka bonų"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Atidaryti iš naujo už {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Dar kartą atidaryti"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Gautas vertingas apdovanojimas, todėl atidaryti iš naujo negalima."
+
 msgid "bonuses/description/battle_booster"
 msgstr "Instrukcija"
 
@@ -118,6 +142,18 @@ msgstr "Atidaryta dėžių: %(count)"
 msgid "common/statsButton"
 msgstr "Statistika"
 
+msgid "confirmRerollLootBox/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Dėžė bus vėl atidaryta dėl galimybės gauti kitų apdovanojimų."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Dar kartą atidaryti"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Atidaryti iš naujo už {{cost}}?"
+
 msgid "confirmResetLootBoxStatistics/cancel"
 msgstr "Atšaukti"
 
@@ -199,23 +235,29 @@ msgstr "%(boxName)s: %(count)s"
 msgid "homeView/subtitle"
 msgstr "Iki renginio pabaigos liko %(time)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Jei iki renginio pabaigos neatidarysite visų dėžių, tai vėliau jos bus atidarytos automatiškai."
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Jei iki renginio pabaigos neatidarysite dėžių, jos bus atidarytos automatiškai."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/default"
 msgstr "Jei jau turite visas mašinas, kurias galite gauti iš dėžių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Kas %(guaranteed0)s dėžių garantuotai gausite VIII–X lygio mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s&zwnbsp;-tą dėžę (priklausomai nuo dėžės tipo). Gavus mašiną dėžės bus skaičiuojamos iš naujo."
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Kas %(guaranteed)s dėžių garantuotai gausite VIII–X lygio mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed)s&zwnbsp;-tą dėžę (priklausomai nuo dėžės tipo). Gavus mašiną dėžės bus skaičiuojamos iš naujo."
 
-msgid "infoPage/footer/title/autoOpen"
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Jei jums nepatinka iš dėžės gauti apdovanojimai, galite ją atidaryti iš naujo su tikimybe gauti kitų apdovanojimų iš to pačio sąrašo. Kiekvieną dėžę galima atidaryti iš naujo ribotą kartų skaičių:"
+
+msgid "infoPage/footer/title/autoOpen/default"
 msgstr "Automatinis atidarymas"
 
-msgid "infoPage/footer/title/compensation"
+msgid "infoPage/footer/title/compensation/default"
 msgstr "Kompensacija"
 
-msgid "infoPage/footer/title/guaranteed"
+msgid "infoPage/footer/title/guaranteed/default"
 msgstr "Garantuotas prizas"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Atidaroma iš naujo"
 
 msgid "infoPage/header/lootListLink"
 msgstr "Pamatykite visą daiktų sąrašą žaidimo portale"
@@ -273,6 +315,30 @@ msgstr "už %(vehicleInfo)"
 
 msgid "rareRewardOverlay/rewardDescription/style/text"
 msgstr "3D stilius %(style),"
+
+msgid "reroll/free"
+msgstr "Nemokamai"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Finansinė operacija"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Nuskaičiuota kreditų: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Nuskaičiuota bonų: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Nuskaičiuota aukso: %(amount)s"
 
 msgid "serviceChannelMessages/finish/header"
 msgstr "Renginys «%(eventName)s» baigėsi."
@@ -480,3 +546,15 @@ msgstr "Kompensuotos mašinos: %(count)"
 
 msgid "tooltip/compensation/notification"
 msgstr "Kompensacija už mašiną, kuri jau yra jūsų garaže."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Atidaroma iš naujo"
+
+msgid "tooltip/reroll/price"
+msgstr "Kaina"
+
+msgid "tooltip/reroll/text/default"
+msgstr "Atidarę dėžę iš naujo galite gauti kitų prizų iš to pačio sąrašo."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Atidaroma iš naujo"

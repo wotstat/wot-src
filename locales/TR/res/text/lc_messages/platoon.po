@@ -130,6 +130,9 @@ msgstr "Takım oluşturamaz veya birine katılamazsınız çünkü Garajınızda
 msgid "headerButton/tooltips/comp7QualificationSquad/body"
 msgstr "Elemeler tamamlandıktan sonra 2 ve 7 oyunculu Takım imkanı açılacak."
 
+msgid "headerButton/tooltips/comp7QualificationSquad/superSquadDisabled/body"
+msgstr "Eleme tamamlandıktan sonra iki oyunculu bir Takım açılacak."
+
 msgid "headerButton/tooltips/comp7Restriction/body"
 msgstr "Takım oluşturulamıyor."
 
@@ -141,6 +144,9 @@ msgstr "Bir Takım oluşturabilir ya da mevcut birine katılabilirsiniz. Hücum'
 
 msgid "headerButton/tooltips/comp7Squad/header"
 msgstr "Takım"
+
+msgid "headerButton/tooltips/comp7Squad/superSquadDisabled/body"
+msgstr "Bir Takım oluşturabilir ya da mevcut birine katılabilirsiniz. Hücum'da Takımlar sadece iki oyunculu olabilir."
 
 msgid "headerButton/tooltips/dominationSquad/body"
 msgstr "Beraber oynamak için 2 veya 3 oyunculu bir taktik birim oluşturun.\n• Savaş kipleri: Hücum.\n• Savaş türleri: Çelik Avı, Egemenlik."
@@ -264,12 +270,6 @@ msgstr "Takım maksimum sayıda ağır tanka ulaştı"
 
 msgid "members/footer/vehiclesGroupIsFull/mediumTank"
 msgstr "Takım maksimum sayıda orta tanka ulaştı"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
-msgstr "Takım maksimum sayıda hafif tanka ulaştı"
-
-msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
-msgstr "Takım maksimum sayıda tekerlekli araca ulaştı"
 
 msgid "members/footer/vehiclesGroupIsFull/scout"
 msgstr "Takım maksimum sayıda hafif tanka ulaştı"

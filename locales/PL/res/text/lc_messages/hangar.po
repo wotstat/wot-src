@@ -136,6 +136,24 @@ msgstr[0] "{{count}} zwycięstwo"
 msgstr[1] "{{count}} zwycięstwa"
 msgstr[2] "{{count}} zwycięstw"
 
+msgid "restBonusWidget/tooltip/available"
+msgstr "Dostępne przez {{value}}"
+
+msgid "restBonusWidget/tooltip/battleExperience"
+msgstr "Doświadczenie bojowe"
+
+msgid "restBonusWidget/tooltip/description/body"
+msgstr "Aby uczcić Twój powrót do akcji, mamy dla Ciebie coś specjalnego: {{@ style (color #ede6d9e6)}}codzienna Premia za ponowne użycie{{/}} zwiększa PD bojowe zdobywane za pierwsze zwycięstwo dnia każdym pojazdem."
+
+msgid "restBonusWidget/tooltip/description/header"
+msgstr "Witaj ponownie, Dowódco!"
+
+msgid "restBonusWidget/tooltip/reset"
+msgstr "Premia resetuje się codziennie o {{@ style (color #ede6d9e6)}}{{value}}{{/}}."
+
+msgid "restBonusWidget/tooltip/title/available"
+msgstr "Premia za ponowne użycie: Dostępna"
+
 msgid "tooltip/filters/myVehicle/body"
 msgstr "Kliknij, aby zobaczyć swoją playlistę pojazdów"
 

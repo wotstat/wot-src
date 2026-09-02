@@ -1009,6 +1009,9 @@ msgstr "Обучението на членовете на екипажа се п
 msgid "crewBooksNotification/bookUsed"
 msgstr "%(name)s."
 
+msgid "crewBooksNotification/bookUsedOneOf"
+msgstr "%(name)s"
+
 msgid "crewBooksNotification/booksUsed"
 msgstr "%(name)s (x%(count)s)"
 
@@ -2045,10 +2048,10 @@ msgid "login_to_other_game_wows"
 msgstr "текущата игрова сесия беше прекъсната. Вашата Wargaming.net&nbsp;ID беше използвана за влизане в World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Грешка при получаване на подаръка: сървърна грешка."
+msgstr "Грешка при отваряне на кутията: сървърна грешка."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
-msgstr "Грешка при получаване на подаръка: моля изчакайте завършването на предходната операция."
+msgstr "Грешка при отваряне на кутия: моля изчакайте до завършване на предходната операция."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Действието е временно недостъпно. Опитайте отново по-късно."
@@ -2383,30 +2386,6 @@ msgstr "Получен е уникален камуфлаж за %(vehicleName)s
 msgid "personalMissions/camouflageUnlocked"
 msgstr "Уникалният камуфлаж за %(vehicleName)s е достъпен за всички машини от нация %(nation)s."
 
-msgid "personalMissions/campaign12Paused/body"
-msgstr "Целият напредък на операциите е запазен. Можете да възобновите кампаниите по всяко време."
-
-msgid "personalMissions/campaign12Paused/title"
-msgstr "Кампаниите %(campaignName1)s и %(campaignName2)s са на пауза"
-
-msgid "personalMissions/campaign12Resumed/body"
-msgstr "Преустановените операции и техните мисии са възобновени."
-
-msgid "personalMissions/campaign12Resumed/title"
-msgstr "Кампаниите %(campaignName1)s и %(campaignName2)s са възобновени"
-
-msgid "personalMissions/campaign3Paused/body"
-msgstr "Целият напредък на операциите е запазен. Можете да възобновите кампанията по всяко време."
-
-msgid "personalMissions/campaign3Paused/title"
-msgstr "Кампания %(campaignName)s е на пауза"
-
-msgid "personalMissions/campaign3Resumed/body"
-msgstr "Преустановените операции са възобновени."
-
-msgid "personalMissions/campaign3Resumed/title"
-msgstr "Кампания %(campaignName)s е възобновена"
-
 msgid "personalMissions/detailInstalled/body"
 msgstr "Модул \"%(detailName)s\" е монтиран успешно."
 
@@ -2489,6 +2468,12 @@ msgid "personalMissions/reward/pm3/server_error"
 msgstr "Грешка при получаването на наградите. Моля, опитайте отново по-късно."
 
 msgid "personalMissions/reward/pm3/success"
+msgstr "Модул \"%(detail_name)s\" е монтиран успешно."
+
+msgid "personalMissions/reward/pm4/server_error"
+msgstr "Грешка при получаването на наградите. Моля, опитайте отново по-късно."
+
+msgid "personalMissions/reward/pm4/success"
 msgstr "Модул \"%(detail_name)s\" е монтиран успешно."
 
 msgid "personalMissions/reward/regular/server_error"

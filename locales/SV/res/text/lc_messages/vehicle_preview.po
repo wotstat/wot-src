@@ -40,6 +40,9 @@ msgstr "Forska"
 msgid "buyingPanel/buyBtn/label/restore"
 msgstr "Återställ"
 
+msgid "buyingPanel/buyBtn/label/toBoxes"
+msgstr "Till Stora paket"
+
 msgid "buyingPanel/collectible/notResearchedVehiclesWarning"
 msgstr "Ingen vagn klass %(level)s från det %(nation)s teknologiträdet framforskad"
 
@@ -54,6 +57,15 @@ msgstr "Rabatt på köp av:"
 
 msgid "buyingPanel/customOffer/research"
 msgstr "Rabatt på forskning:"
+
+msgid "buyingPanel/fromBoxes/fullLabel"
+msgstr "Den här vagnen kan erhållas från {{@ style (color $color)}}Stora paket!{{/}}"
+
+msgid "buyingPanel/fromBoxes/highlightenLabel"
+msgstr "Stora paket!"
+
+msgid "buyingPanel/fromBoxes/label"
+msgstr "Du kan få den här vagnen i"
 
 msgid "buyingPanel/frontlinePack/couponLabel"
 msgstr "Använd kupongrabatt: %(value)s"
