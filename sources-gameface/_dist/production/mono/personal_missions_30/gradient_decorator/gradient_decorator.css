@@ -10,7 +10,13 @@
 }
 
 .GradientDecorator_background_3350082a {
-  background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, #c9c9b6 38.22%, #c9c9b6 64.56%, rgba(201, 201, 182, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 201, 182, 0) 0%,
+    #c9c9b6 38.22%,
+    #c9c9b6 64.56%,
+    rgba(201, 201, 182, 0) 100%
+  );
   opacity: 0.07;
   position: absolute;
   top: 0;
@@ -22,7 +28,8 @@
 .GradientDecorator_divider_fc5b9985 {
   width: 362rem;
   height: 1rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.components.divider) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.components.divider)
+    no-repeat center/cover;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

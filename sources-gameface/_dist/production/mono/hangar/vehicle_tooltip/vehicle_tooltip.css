@@ -19,9 +19,10 @@
 }
 .Row_title__colon_6c475686 {
   margin-right: 4rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.BattlePassPoints_row__battlePassPoints_4e755749::after, .BattlePassPoints_row__reward_4e755749::after {
+.BattlePassPoints_row__battlePassPoints_4e755749::after,
+.BattlePassPoints_row__reward_4e755749::after {
   width: 97rem;
   height: 28rem;
   background-repeat: no-repeat;
@@ -77,9 +78,10 @@
 
 .BattlePassPoints_text_fe4f3086 {
   max-width: 280rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Bonds_row__bonds_34572d0b::after, .Bonds_row__limitReached_34572d0b::after {
+.Bonds_row__bonds_34572d0b::after,
+.Bonds_row__limitReached_34572d0b::after {
   width: 97rem;
   height: 28rem;
   background-repeat: no-repeat;
@@ -157,7 +159,7 @@
 }
 .Bonds_row__displayTimer_34572d0b .Bonds_text_dad80fb6 {
   max-width: 224rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Earnings_row__multiplier_16fcb8c8::after {
   width: 97rem;
@@ -209,7 +211,7 @@
 
 .Earnings_text_a6c4a45b {
   max-width: 280rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Crew_2339425e {
   align-items: center;
@@ -232,7 +234,7 @@
 .Crew_sign_a456f030 {
   margin-left: 3rem;
   color: var(--color-general-tertiary);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Rent_leftColumn_a909b981 {
   display: flex;
@@ -248,7 +250,7 @@
 
 .Rent_text_94f0c0d7 {
   max-width: 280rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Role_c276c189 {
   color: rgba(238, 237, 233, 0.9);
@@ -261,7 +263,7 @@
 .Role_property_8f6d69d9 {
   max-width: 224rem;
   margin-left: 4rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .TradeIn_leftColumn_e8d75ad6 {
   display: flex;
@@ -278,9 +280,10 @@
 
 .TradeIn_text_1e5d2ead {
   max-width: 280rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.WotPlus_wotPlus_c07472c2::after, .WotPlus_wotPlus__timer_fb00f649::after {
+.WotPlus_wotPlus_c07472c2::after,
+.WotPlus_wotPlus__timer_fb00f649::after {
   width: 24rem;
   height: 24rem;
   background-repeat: no-repeat;
@@ -308,7 +311,7 @@
 }
 .media-upscale .WotPlus_wotPlus__timer_fb00f649::after {
   background-image: url(R.images.gui.maps.icons.ui_kit.rental_counter.rent_x48x48);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_name_154815cc {
   font-size: 24rem;
@@ -337,7 +340,7 @@
 
 .Header_row_d4a891e5 {
   margin-left: 105rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .EliteSystem_leftColumn_6aa7810f {
   display: flex;
@@ -397,7 +400,7 @@
 
 .EliteSystem_progressBarBorder_45636892 {
   display: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ServiceRecords_leftColumn_c596dc1b {
   display: flex;
@@ -426,7 +429,7 @@
 
 .ServiceRecords_text_e426fb24 {
   max-width: 280rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SpecialAbility_gradient_73f7ba6b {
   position: absolute;
@@ -444,7 +447,13 @@
 }
 
 .SpecialAbility_gradient_73f7ba6b {
-  background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, #c9c9b6 38%, #c9c9b6 65%, rgba(201, 201, 182, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 201, 182, 0) 0%,
+    #c9c9b6 38%,
+    #c9c9b6 65%,
+    rgba(201, 201, 182, 0) 100%
+  );
   opacity: 0.07;
 }
 
@@ -468,7 +477,7 @@
 
 .SpecialAbility_text_f255c0f5 {
   line-height: 1.1em;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Tooltip_decorator_9aef02ef {
   width: 420rem;

@@ -36,7 +36,7 @@
   margin-top: 8rem;
   color: var(--color-general-tertiary);
   line-height: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ColumnItem_f772e009 {
@@ -60,7 +60,7 @@
   font-weight: 400;
   line-height: 1.3em;
   margin-left: 5rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InnerBlock_4e0a1101 {
@@ -118,8 +118,9 @@
   width: 4rem;
   height: 100rem;
   margin-top: 10rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.missions_category.vertical_line) no-repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.missions_category.vertical_line)
+    no-repeat center/contain;
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MissionsCategoryTooltip_c7151f3b {

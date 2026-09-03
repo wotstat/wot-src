@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -73,10 +80,11 @@ html[lang=th] input {
   align-items: center;
   margin-top: 2rem;
   color: rgba(var(--color-general-primary-rgb), 0.9);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -99,21 +107,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -130,13 +144,16 @@ html[lang=th] input {
 .App_eventImage_57463043 {
   width: 100%;
   height: 180rem;
-  background: url(R.images.gui.maps.icons.stronghold_event.tooltips.event_banner.background) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.stronghold_event.tooltips.event_banner.background)
+    no-repeat center/cover;
   position: absolute;
   top: 0;
   left: 0;
   pointer-events: none;
 }
-.App_base__announce_0 .App_eventImage_57463043, .App_base__intro_0 .App_eventImage_57463043, .App_base__inactive_0 .App_eventImage_57463043 {
+.App_base__announce_0 .App_eventImage_57463043,
+.App_base__intro_0 .App_eventImage_57463043,
+.App_base__inactive_0 .App_eventImage_57463043 {
   filter: grayscale(1);
 }
 
@@ -173,8 +190,22 @@ html[lang=th] input {
   width: 100%;
   height: 1rem;
   margin: 24rem 0 13rem;
-  background: linear-gradient(to right, rgba(201, 201, 182, 0.2) 33.33%, rgba(201, 201, 182, 0) 33.33%, rgba(201, 201, 182, 0)) repeat right/3rem 1rem;
-  mask: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.6) 5%, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 70%, rgba(0, 0, 0, 0.6) 95%, transparent);
+  background: linear-gradient(
+      to right,
+      rgba(201, 201, 182, 0.2) 33.33%,
+      rgba(201, 201, 182, 0) 33.33%,
+      rgba(201, 201, 182, 0)
+    )
+    repeat right/3rem 1rem;
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.6) 5%,
+    rgb(0, 0, 0) 30%,
+    rgb(0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.6) 95%,
+    transparent
+  );
   mask-repeat: no-repeat;
 }
 

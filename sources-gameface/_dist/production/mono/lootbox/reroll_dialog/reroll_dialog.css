@@ -17,7 +17,8 @@
   width: 100%;
   text-align: center;
   position: relative;
-}@keyframes ButtonGroup_fadeIn_7b2e7b98 {
+}
+@keyframes ButtonGroup_fadeIn_7b2e7b98 {
   from {
     opacity: 0;
   }
@@ -41,7 +42,8 @@
 }
 .mediaLarge .ButtonGroup_button_58dccf2c {
   min-width: 190rem;
-}@keyframes CloseButton_fadeIn_987cb365 {
+}
+@keyframes CloseButton_fadeIn_987cb365 {
   from {
     opacity: 0;
   }
@@ -65,7 +67,8 @@
 }
 .CloseButton_643e2b20:active {
   opacity: 0.5;
-}@keyframes Description_fadeIn_49efcb55 {
+}
+@keyframes Description_fadeIn_49efcb55 {
   from {
     opacity: 0;
   }
@@ -86,7 +89,8 @@
 }
 .mediaLarge .Description_4c003c21 {
   font-size: 22rem;
-}@keyframes Divider_fadeIn_76b1f722 {
+}
+@keyframes Divider_fadeIn_76b1f722 {
   from {
     opacity: 0;
   }
@@ -97,11 +101,13 @@
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Divider_72500b9a {
-  background: rgba(196, 198, 192, 0.5) url("R.images.gui.maps.icons.ui.noise") center/100rem 100rem repeat;
+  background: rgba(196, 198, 192, 0.5) url("R.images.gui.maps.icons.ui.noise") center/100rem 100rem
+    repeat;
   opacity: 0.3;
   position: relative;
   z-index: 1;
-}@keyframes Overlay_fadeIn_3c7155a {
+}
+@keyframes Overlay_fadeIn_3c7155a {
   from {
     opacity: 0;
   }
@@ -115,7 +121,8 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-}@keyframes Title_fadeIn_2e63cf3 {
+}
+@keyframes Title_fadeIn_2e63cf3 {
   from {
     opacity: 0;
   }
@@ -139,7 +146,8 @@
 }
 .mediaLarge .Title_7d49f5c4 {
   font-size: 46rem;
-}@keyframes RerollDialog_fadeIn_5234fc0b {
+}
+@keyframes RerollDialog_fadeIn_5234fc0b {
   from {
     opacity: 0;
   }
@@ -156,7 +164,8 @@
   align-items: center;
   height: 100%;
   overflow: hidden;
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

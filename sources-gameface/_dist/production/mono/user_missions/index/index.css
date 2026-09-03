@@ -20,7 +20,7 @@
   font-size: 28rem;
   font-weight: 700;
   line-height: 1.3em;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .TextBlock_97d73ac3 {
   display: flex;
@@ -65,7 +65,7 @@
 .mediaExtraLarge .TextBlock_description_eacddfcf {
   font-size: 20rem;
   line-height: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CampaignNotActivated_9407dfc7 {
   display: flex;
@@ -94,7 +94,7 @@
 
 .CampaignNotActivated_title_d30bb4f2 {
   margin-bottom: 6rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Completed_47cefd15 {
   display: flex;
@@ -119,7 +119,7 @@
 .Completed_textBlock_15b3296b {
   flex: 1;
   margin-bottom: 5rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CompletedWithHonors_bc0ee63d {
   display: flex;
@@ -154,7 +154,8 @@
   width: 55rem;
   height: 55rem;
   margin: -5rem 0;
-  background: url(R.images.gui.maps.icons.userMissions.personal_missions.completed) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.personal_missions.completed) no-repeat
+    center/contain;
 }
 .mediaMedium .CompletedWithHonors_completedIcon_de0cf0c3 {
   width: 110rem;
@@ -170,10 +171,14 @@
   margin-bottom: 10rem;
   text-align: center;
 }
-.mediaMedium .CompletedWithHonors_base__allCompleted_632ea0e2 .CompletedWithHonors_textBlock_9e298c15 {
+.mediaMedium
+  .CompletedWithHonors_base__allCompleted_632ea0e2
+  .CompletedWithHonors_textBlock_9e298c15 {
   margin-bottom: 15rem;
 }
-.mediaLarge .CompletedWithHonors_base__allCompleted_632ea0e2 .CompletedWithHonors_textBlock_9e298c15 {
+.mediaLarge
+  .CompletedWithHonors_base__allCompleted_632ea0e2
+  .CompletedWithHonors_textBlock_9e298c15 {
   margin-bottom: 20rem;
 }
 .CompletedWithHonors_base__hasUncompleted_906ea6c6 .CompletedWithHonors_textBlock_9e298c15 {
@@ -189,10 +194,12 @@
   max-width: 100%;
   max-height: 25rem;
 }
-.mediaLarge .CompletedWithHonors_base__allCompleted_632ea0e2 .CompletedWithHonors_description_aead74a {
+.mediaLarge
+  .CompletedWithHonors_base__allCompleted_632ea0e2
+  .CompletedWithHonors_description_aead74a {
   max-width: 90%;
   max-height: auto;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ProgressCount_1bbbcb2 {
   display: flex;
@@ -249,7 +256,7 @@
   top: 2rem;
   left: 100%;
   transform: translateX(1rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Index_f505a04a {
   box-shadow: none;
@@ -257,7 +264,7 @@
 }
 .Index_f505a04a::after {
   border: 0 none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InProgress_a9a08feb {
   display: flex;
@@ -353,7 +360,8 @@
   width: 24rem;
   height: 24rem;
   margin-left: 4rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.points.c_24x24) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.personal_missions_30.points.c_24x24) no-repeat
+    center/cover;
 }
 
 .InProgress_container_fb690b6c {
@@ -392,7 +400,7 @@
 .mediaExtraLarge .InProgress_progressBar_fc1f13a5 {
   width: 500rem;
   height: 16rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PersonalMissions_background_cee2473a {
   position: absolute;
@@ -413,7 +421,7 @@
 }
 .mediaExtraLarge .PersonalMissions_d479b157 {
   height: 390rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CompletionEffects_c32f942 {
   position: absolute;
@@ -444,7 +452,8 @@
 .CompletionEffects_glowIcon_1b3d9ffe {
   width: 1200rem;
   height: 800rem;
-  background: url(R.images.gui.maps.icons.userMissions.hub.animations.glow_green_1200x800) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.hub.animations.glow_green_1200x800) no-repeat
+    center/contain;
   mix-blend-mode: screen;
   transform: translateX(-200rem);
 }
@@ -475,7 +484,7 @@
   margin: 0 50rem;
   background-color: #cbfd70;
   transform: rotate(30deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SpecConditionsIcons_ab3f13c7 {
   display: flex;
@@ -483,7 +492,7 @@
 
 .SpecConditionsIcons_icon_d767e7b4 {
   margin-left: 3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Conditions_specConditions_faac5c77 {
   margin-bottom: 3rem;
@@ -512,7 +521,7 @@
   margin-bottom: 8rem;
   font-size: 20rem;
   line-height: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Icon_animatedIcon_96d2a89c {
   position: absolute;
@@ -530,7 +539,7 @@
 .mediaMedium .Icon_f61225ad {
   width: 80rem;
   height: 80rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Reroll_9aa89152 {
   position: relative;
@@ -557,7 +566,8 @@
   width: 18rem;
   height: 18rem;
   margin: 0 0 2rem 5rem;
-  background: url(R.images.gui.maps.icons.userMissions.hub.basic.reroll_icon) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.hub.basic.reroll_icon) no-repeat
+    center/contain;
   opacity: 0.7;
   transition: opacity 0.2s ease;
 }
@@ -569,7 +579,7 @@
   color: #ffdd9a;
   font-size: 16rem;
   opacity: 0.9;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .mediaLarge .Rewards_rewardItem_5e36a95a {
   margin: 0 3rem;
@@ -577,7 +587,7 @@
 
 .Rewards_boxRewardClassName_f0825900 {
   margin-left: 15rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Mission_557cf0dd {
   position: relative;
@@ -645,7 +655,7 @@
 
 .Mission_progressBarWrapper_5877296e {
   transform: translateX(-2rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .WeeklyMissions_b5c4ab0c {
   height: 390rem;
@@ -722,7 +732,7 @@
 }
 .mediaMedium .WeeklyMissions_title__right_82a872e3 {
   left: auto;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DisabledState_4abbc2ea {
   display: flex;
@@ -754,7 +764,8 @@
 .DisabledState_icon_58468d38 {
   width: 33rem;
   height: 31rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.allert_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.allert_icon") no-repeat
+    center/contain;
 }
 
 .DisabledState_message_90090227 {
@@ -762,12 +773,12 @@
   font-weight: 400;
   line-height: 1.3em;
   color: rgba(var(--color-general-primary-rgb), 0.5);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Block_content_7290bea6 {
   width: 100%;
   z-index: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Glow_95d62d77 {
   position: absolute;
@@ -792,7 +803,7 @@
 }
 .Glow_icon__greyLense_4150ede3 {
   transform: translateY(-50rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Reflection_7a45ed9c {
   position: absolute;
@@ -810,7 +821,13 @@
 .Reflection_bg_5a5ee806 {
   width: 150%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(237, 230, 217, 0), rgba(237, 230, 217, 0.05) 16%, rgba(237, 230, 217, 0.05) 83%, rgba(237, 230, 217, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(237, 230, 217, 0),
+    rgba(237, 230, 217, 0.05) 16%,
+    rgba(237, 230, 217, 0.05) 83%,
+    rgba(237, 230, 217, 0)
+  );
   opacity: 0;
   position: absolute;
   pointer-events: none;
@@ -847,7 +864,7 @@
   background-color: rgba(var(--color-general-primary-rgb), 0.08);
   transform: rotate(30deg);
   width: 30rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .UnlockVideo_2a17fce0 {
   width: 72rem;
@@ -858,7 +875,7 @@
 .UnlockVideo_video_c11372d2 {
   width: 100%;
   height: 100%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .BaseMissionCard_34808815 {
   width: 187rem;
@@ -1010,7 +1027,7 @@
 }
 .mediaLarge .BaseMissionCard_rewardItem_8174e9b5 {
   margin: 0 3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DailyBonusMissionCard_cardBlock_cc29aa9d {
   position: absolute;
@@ -1060,7 +1077,8 @@
 .DailyBonusMissionCard_lockIcon_da4d31e0 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.lock_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.lock_icon") no-repeat
+    center/contain;
 }
 
 .DailyBonusMissionCard_unlockVideo_86889f8c {
@@ -1098,7 +1116,7 @@
 }
 .mediaLarge .DailyBonusMissionCard_timer_f1d1a15a {
   top: -1rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RerollButton_5f432227 {
   display: flex;
@@ -1143,7 +1161,8 @@
 .RerollButton_icon_990a0f17 {
   width: 18rem;
   height: 18rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.reroll_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.reroll_icon") no-repeat
+    center/contain;
   opacity: 0.7;
   transition: opacity 0.2s ease;
 }
@@ -1164,7 +1183,7 @@
   color: #ffdd9a;
   font-size: 16rem;
   opacity: 0.9;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DailyMissionCard_dbc24668 {
   position: relative;
@@ -1181,7 +1200,7 @@
 .mediaExtraLarge .DailyMissionCard_reroll_fd5c6ea8 {
   top: 11rem;
   right: 17rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DailyMissionsBlock_d8a9293c {
   display: flex;
@@ -1228,7 +1247,7 @@
 .mediaExtraLarge .DailyMissionsBlock_separator_3d64a18 {
   height: 304rem;
   margin-top: 59rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Arrow_391ca11f {
   display: flex;
@@ -1243,7 +1262,8 @@
 .Arrow_iconBig_9a073166 {
   width: 250rem;
   height: 218rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.prem_big_arrow") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.prem_big_arrow") no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
 }
@@ -1251,7 +1271,8 @@
 .Arrow_icon_bbabc0ab {
   width: 19rem;
   height: 40rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.prem_arrow") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.prem_arrow") no-repeat
+    center/contain;
   opacity: 0.25;
   position: absolute;
   left: 0;
@@ -1263,7 +1284,7 @@
 .Arrow_icon__right_2cb4415d {
   opacity: 0;
   left: 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PremiumDailyMissionsCard_606cad53 {
   position: relative;
@@ -1316,7 +1337,8 @@
   width: 24rem;
   height: 24rem;
   margin-bottom: 4rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.lock_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.lock_icon") no-repeat
+    center/contain;
   position: absolute;
   top: 30rem;
   left: 50%;
@@ -1344,11 +1366,17 @@
 .PremiumDailyMissionsCard_unlockGlow_6356a26d {
   width: 150%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(237, 230, 217, 0), rgba(237, 230, 217, 0.05) 16%, rgba(237, 230, 217, 0.05) 83%, rgba(237, 230, 217, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(237, 230, 217, 0),
+    rgba(237, 230, 217, 0.05) 16%,
+    rgba(237, 230, 217, 0.05) 83%,
+    rgba(237, 230, 217, 0)
+  );
   position: absolute;
   top: 0;
   left: -25%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PremiumDailyMissionsList_a02f9e79 {
   display: flex;
@@ -1356,7 +1384,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PurchasePremiumState_bg_9f5578d2 {
   position: absolute;
@@ -1376,13 +1404,15 @@
 }
 
 .PurchasePremiumState_bg_9f5578d2 {
-  background: url(R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_back) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_back) no-repeat
+    center/cover;
 }
 
 .PurchasePremiumState_icon_f474fb80 {
   width: 236rem;
   height: 236rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_s") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_s") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1391,12 +1421,14 @@
 .mediaLarge .PurchasePremiumState_icon_f474fb80 {
   width: 312rem;
   height: 312rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_m") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_m") no-repeat
+    center/contain;
 }
 .mediaExtraLarge .PurchasePremiumState_icon_f474fb80 {
   width: 452rem;
   height: 452rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_l") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.basic.wotPrem_icon_l") no-repeat
+    center/contain;
 }
 
 .PurchasePremiumState_container_c4d5c44e {
@@ -1435,7 +1467,7 @@
   line-height: 1.3em;
   margin-top: 2rem;
   color: var(--color-general-dark);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ClaimWinBack_f65a728 {
   display: flex;
@@ -1478,7 +1510,7 @@
   align-items: center;
   margin-top: 5rem;
   color: var(--color-general-tertiary);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .EpicQuestProgress_bg_22314285 {
   position: absolute;
@@ -1508,7 +1540,8 @@
 }
 
 .EpicQuestProgress_bg_22314285 {
-  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.epic_quest_progress) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.epic_quest_progress)
+    no-repeat center/cover;
 }
 
 .EpicQuestProgress_header_b693c8b4 {
@@ -1610,12 +1643,13 @@
 }
 .mediaExtraLarge .EpicQuestProgress_claimWinBack_b707ef06 {
   top: 30rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MainReward_c68d434f {
   width: 150rem;
   height: 92rem;
-  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.win_back_reward) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.win_back_reward)
+    no-repeat center/cover;
   position: relative;
 }
 .mediaMedium .MainReward_c68d434f {
@@ -1674,7 +1708,7 @@
   right: 47%;
   bottom: -50rem;
   transform: translateX(50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .WinBackReward_debcb7d5 {
   display: flex;
@@ -1689,11 +1723,13 @@
   width: 48rem;
   height: 48rem;
 }
-.WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_icon_592ffdd7, .WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_icon_592ffdd7 {
+.WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_icon_592ffdd7,
+.WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_icon_592ffdd7 {
   width: 57rem;
   height: 42rem;
 }
-.mediaLarge .WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_icon_592ffdd7, .mediaLarge .WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_icon_592ffdd7 {
+.mediaLarge .WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_icon_592ffdd7,
+.mediaLarge .WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_icon_592ffdd7 {
   width: 82rem;
   height: 60rem;
 }
@@ -1710,7 +1746,8 @@
   top: 1rem;
   left: 1rem;
 }
-.WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_level_d832cd76, .WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_level_d832cd76 {
+.WinBackReward_base__vehicleForGift_5fa23c6c .WinBackReward_level_d832cd76,
+.WinBackReward_base__vehicleDiscount_5fa23c6c .WinBackReward_level_d832cd76 {
   top: 8rem;
   left: 18rem;
 }
@@ -1725,7 +1762,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Quest_bd89fbc {
   display: flex;
@@ -1739,7 +1776,7 @@
 }
 .mediaMedium .Quest_info_2092d559 {
   font-size: 14rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .QuestStatus_questNumber_a4eb07b6 {
   font-size: 18rem;
@@ -1760,7 +1797,7 @@
   color: var(--color-general-dark);
   text-shadow: 0 1rem 0 rgba(255, 255, 255, 0.7);
   letter-spacing: -0.7rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .WinBackProgress_bg_8a178cd6 {
   position: absolute;
@@ -1787,7 +1824,8 @@
 }
 
 .WinBackProgress_bg_8a178cd6 {
-  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.win_back_progress) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.userMissions.hub.reward_progress.win_back_progress)
+    no-repeat center/cover;
   pointer-events: none;
 }
 
@@ -1866,10 +1904,24 @@
 
 .WinBackProgress_scrollWrapper_b8ebdca5 {
   mask-repeat: no-repeat;
-  mask-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 98%, rgba(0, 0, 0, 0.7) 98.1%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 98%,
+    rgba(0, 0, 0, 0.7) 98.1%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 .WinBackProgress_scrollWrapper__maskLeft_e282f4a5 {
-  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 3%, rgb(0, 0, 0) 6%, rgb(0, 0, 0) 98%, rgba(0, 0, 0, 0.7) 98.1%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 3%,
+    rgb(0, 0, 0) 6%,
+    rgb(0, 0, 0) 98%,
+    rgba(0, 0, 0, 0.7) 98.1%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .WinBackProgress_progress_b2a3589c {
@@ -1931,13 +1983,13 @@
 .mediaExtraLarge .WinBackProgress_mainReward_1460436e {
   bottom: 38rem;
   left: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardProgressBlock_bf1cc1f3 {
   display: flex;
   width: 100%;
   height: 100%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DailyMissions_c4fedd54 {
   position: relative;
@@ -2020,7 +2072,7 @@
 }
 .mediaExtraLarge .DailyMissions_rewardProgress_73a64666 {
   height: 390rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .BasicMissions_1ecd0546 {
   display: flex;

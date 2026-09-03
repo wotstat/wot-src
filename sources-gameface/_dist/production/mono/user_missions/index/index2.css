@@ -15,7 +15,7 @@
 }
 .mediaExtraLarge .ActiveLabel_e577414e {
   font-size: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PreviewableReward_5e9e4c84 {
   display: flex;
@@ -60,7 +60,8 @@
 .PreviewableReward_icon_7cb83516 {
   width: 115rem;
   height: 115rem;
-  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.zoom_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.zoom_icon") no-repeat
+    center/contain;
 }
 .mediaLarge .PreviewableReward_icon_7cb83516 {
   width: 135rem;
@@ -69,11 +70,11 @@
 .mediaExtraLarge .PreviewableReward_icon_7cb83516 {
   width: 155rem;
   height: 155rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .mediaLarge .AttachmentSet_name_ed624d0c {
   font-size: 28rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CurrenciesDescription_5a5f9bec {
   display: flex;
@@ -123,7 +124,7 @@
 .mediaLarge .CurrenciesDescription_name_6d26e764 {
   margin-top: 10rem;
   font-size: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ImprovedEquipment_4bafe1ca {
   display: flex;
@@ -155,7 +156,7 @@
 .mediaLarge .ImprovedEquipment_label_a7a4323c {
   margin-top: 10rem;
   font-size: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .TankmanDescription_fb7e0eff {
   display: flex;
@@ -191,7 +192,7 @@
 .mediaLarge .TankmanDescription_label_3f65b2da {
   margin-top: 10rem;
   font-size: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleDescription_229a36fc {
   display: flex;
@@ -235,7 +236,8 @@
   width: 30rem;
   height: 26rem;
   margin: -5rem 5rem;
-  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.inGarage") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.inGarage") no-repeat
+    center/contain;
   pointer-events: auto;
 }
 .mediaMedium .VehicleDescription_vehicleInHangar_37261f1 {
@@ -249,7 +251,8 @@
 .VehicleDescription_icon_7bb8a458 {
   width: 115rem;
   height: 115rem;
-  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.zoom_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.zoom_icon") no-repeat
+    center/contain;
 }
 .mediaLarge .VehicleDescription_icon_7bb8a458 {
   width: 135rem;
@@ -258,7 +261,7 @@
 .mediaExtraLarge .VehicleDescription_icon_7bb8a458 {
   width: 155rem;
   height: 155rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .KingReward_ad0db18a {
   display: flex;
@@ -351,7 +354,7 @@
 }
 .mediaExtraLarge .KingReward_count_a785a0ee {
   transform: translateX(-46rem) translateY(-165rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ConditionItem_493eba0b {
   display: flex;
@@ -429,7 +432,7 @@
 }
 .mediaExtraLarge .ConditionItem_multiline_6e29776a {
   height: 90rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .OrSeparator_6a9b8792 {
   display: flex;
@@ -453,13 +456,14 @@
   width: 16rem;
   height: 16rem;
   margin-left: 4rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.arrow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.arrow) no-repeat
+    center/contain;
 }
 .OrSeparator_separatorArrow__rotate_d7353f8f {
   margin-left: 0;
   margin-right: 4rem;
   transform: rotate(180deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ConditionsList_77f64f73 {
   display: flex;
@@ -476,14 +480,14 @@
 .ConditionsList_condition_1282d07b {
   display: flex;
   flex-direction: column;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Overlay_7ff640ef {
   width: 100%;
   height: 100%;
   background: no-repeat center/contain;
   position: absolute;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardImage_5b6b980 {
   display: flex;
@@ -506,7 +510,7 @@
   font-size: 18rem;
   right: 2rem;
   bottom: -13rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardName_text_debdee3b {
   display: flex;
@@ -523,13 +527,13 @@
 }
 .mediaLarge .RewardName_text_debdee3b {
   font-size: 18rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Reward_cd75c111 {
   display: flex;
   align-items: center;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardBlock_38712af9 {
   display: flex;
@@ -587,7 +591,7 @@
 }
 .RewardBlock_label__tankXP_8b84c167 {
   color: #dce0e0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardsList_bd99d393 {
   display: flex;
@@ -607,7 +611,8 @@
 .RewardsList_divider_1204c896 {
   width: 300rem;
   height: 1rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.card_divider) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.card_divider) no-repeat
+    center/contain;
   opacity: 0.3;
 }
 .mediaLarge .RewardsList_divider_1204c896 {
@@ -623,7 +628,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CardContent_e7b3309a {
   display: flex;
@@ -677,7 +682,7 @@
 }
 .mediaExtraLarge .CardContent_kingReward_36e46b8 {
   width: 450rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MissionNumber_2f758a67 {
   display: flex;
@@ -690,7 +695,9 @@
   font-size: 30rem;
   font-weight: 700;
   line-height: 115%;
-  text-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.25), 0 0 4rem rgba(0, 0, 0, 0.25);
+  text-shadow:
+    0 3rem 4rem rgba(0, 0, 0, 0.25),
+    0 0 4rem rgba(0, 0, 0, 0.25);
 }
 .mediaLarge .MissionNumber_missionNumber_560428d8 {
   font-size: 34rem;
@@ -706,7 +713,7 @@
 }
 .mediaExtraLarge .MissionNumber_missionNumber__active_10840043 {
   font-size: 56rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Content_fa80e432::after {
   position: absolute;
@@ -733,7 +740,7 @@
 }
 .Content_base__selected_da09528a .Content_fa80e432::after {
   opacity: 0.7;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Slot_disabled_287eb554 {
   position: absolute;
@@ -787,7 +794,7 @@
 }
 .Slot_base__active_71f19f5c .Slot_selected__border_1228134 {
   border: 1rem solid rgba(255, 255, 255, 0.4);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Status_684476cf {
   width: 100%;
@@ -818,10 +825,12 @@
   background: url(R.images.gui.maps.icons.ui_kit.card.status_done) no-repeat center/contain;
 }
 .Status_base__locked_35b9a31c .Status_icon_6c4af360 {
-  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock_small) no-repeat
+    center/contain;
 }
 .mediaMedium .Status_base__locked_35b9a31c .Status_icon_6c4af360 {
-  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.battlePass.chapter_choice.status_lock) no-repeat
+    center/contain;
 }
 .Status_icon__disabled_8a3e5587 {
   pointer-events: none;
@@ -835,17 +844,46 @@
   left: 0;
 }
 .Status_base__done_35b9a31c .Status_line_324edf86 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.02) 100%), linear-gradient(90deg, rgba(100, 186, 33, 0) 25%, rgba(100, 186, 33, 0.5) 50%, rgba(100, 186, 33, 0) 75%);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.02) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(100, 186, 33, 0) 25%,
+      rgba(100, 186, 33, 0.5) 50%,
+      rgba(100, 186, 33, 0) 75%
+    );
 }
 .Status_base__locked_35b9a31c .Status_line_324edf86 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.02) 100%), linear-gradient(90deg, rgba(201, 189, 169, 0) 25%, rgba(201, 189, 169, 0.5) 50%, rgba(201, 189, 169, 0) 75%);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.02) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(201, 189, 169, 0) 25%,
+      rgba(201, 189, 169, 0.5) 50%,
+      rgba(201, 189, 169, 0) 75%
+    );
 }
 
 .Status_shadow_75136b3b {
   flex-shrink: 0;
   width: 16rem;
   height: 1rem;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
   opacity: 0.8;
   position: absolute;
   bottom: -6rem;
@@ -866,7 +904,11 @@
   left: 0;
 }
 .Status_base__done_35b9a31c .Status_glowInner_c9a2a44d {
-  background: radial-gradient(82% 111% at 50% 145%, rgba(100, 186, 33, 0.05) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(69% 95% at 50% 145%, rgba(100, 186, 33, 0.2) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(86% 117% at 50% 198%, rgba(100, 186, 33, 0.6) 0%, rgba(100, 186, 33, 0) 100%), radial-gradient(47% 65% at 50% 156%, #64ba21 0%, rgba(100, 186, 33, 0) 100%);
+  background:
+    radial-gradient(82% 111% at 50% 145%, rgba(100, 186, 33, 0.05) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(69% 95% at 50% 145%, rgba(100, 186, 33, 0.2) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(86% 117% at 50% 198%, rgba(100, 186, 33, 0.6) 0%, rgba(100, 186, 33, 0) 100%),
+    radial-gradient(47% 65% at 50% 156%, #64ba21 0%, rgba(100, 186, 33, 0) 100%);
 }
 
 .Status_blur_fe6f30fc {
@@ -893,7 +935,7 @@
 }
 .Status_base__done_35b9a31c .Status_glowBig_eec956d5 {
   background: linear-gradient(180deg, rgba(100, 186, 33, 0) 0, rgba(100, 186, 33, 0.1) 100%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Card_52e1a4f9 {
   display: flex;
@@ -909,11 +951,14 @@
 .Card_missionNumber_e5ee23b0 {
   width: 232rem;
   height: 52rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.number_line) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.number_line) no-repeat
+    center/contain;
   position: absolute;
   top: -30rem;
 }
-.Card_base__locked_f4c22d1c .Card_missionNumber_e5ee23b0, .Card_base__failed_f4c22d1c .Card_missionNumber_e5ee23b0, .Card_base__done_f4c22d1c .Card_missionNumber_e5ee23b0 {
+.Card_base__locked_f4c22d1c .Card_missionNumber_e5ee23b0,
+.Card_base__failed_f4c22d1c .Card_missionNumber_e5ee23b0,
+.Card_base__done_f4c22d1c .Card_missionNumber_e5ee23b0 {
   opacity: 0.5;
 }
 .Card_base__active_f4c22d1c .Card_missionNumber_e5ee23b0 {
@@ -936,13 +981,16 @@
   width: 450rem;
   height: 560rem;
 }
-.Card_base__active_f4c22d1c .Card_slot_6fc1552c, .Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
+.Card_base__active_f4c22d1c .Card_slot_6fc1552c,
+.Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
   height: 380rem;
 }
-.mediaLarge .Card_base__active_f4c22d1c .Card_slot_6fc1552c, .mediaLarge .Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
+.mediaLarge .Card_base__active_f4c22d1c .Card_slot_6fc1552c,
+.mediaLarge .Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
   height: 500rem;
 }
-.mediaExtraLarge .Card_base__active_f4c22d1c .Card_slot_6fc1552c, .mediaExtraLarge .Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
+.mediaExtraLarge .Card_base__active_f4c22d1c .Card_slot_6fc1552c,
+.mediaExtraLarge .Card_base__failed_f4c22d1c .Card_slot_6fc1552c {
   height: 600rem;
 }
 .Card_slot__wideCard_b14825c3 {
@@ -989,7 +1037,12 @@
 .Card_shimmer_5d9bc25a {
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.05) 50%, transparent 100%);
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 100%
+  );
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100rem;
@@ -997,13 +1050,14 @@
   top: 0;
   left: 0;
   z-index: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ReplayBlock_4b4cbc0b {
   display: flex;
   width: 160rem;
   height: 350rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.replay.replay_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.replay.replay_small)
+    no-repeat center/contain;
 }
 .mediaMedium .ReplayBlock_4b4cbc0b {
   margin-right: 20rem;
@@ -1036,7 +1090,9 @@
   font-size: 22rem;
   font-weight: 500;
   line-height: 22rem;
-  text-shadow: 0 1.18px 0 rgba(0, 0, 0, 0.3), 0 1.18px 17.73px rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1.18px 0 rgba(0, 0, 0, 0.3),
+    0 1.18px 17.73px rgba(23, 23, 23, 0.4);
 }
 .mediaLarge .ReplayBlock_text_dbfcc0fa {
   margin-top: 8rem;
@@ -1060,7 +1116,9 @@
   font-size: 16rem;
   font-weight: 400;
   line-height: 21rem;
-  text-shadow: 0 1.18px 0 rgba(0, 0, 0, 0.3), 0 1.18px 17.73px rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1.18px 0 rgba(0, 0, 0, 0.3),
+    0 1.18px 17.73px rgba(23, 23, 23, 0.4);
 }
 .mediaLarge .ReplayBlock_completedText_b0e0a907 {
   margin-top: 10rem;
@@ -1074,7 +1132,8 @@
   width: 16rem;
   height: 16rem;
   margin-top: 5rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat
+    center/contain;
   opacity: 0.5;
 }
 .mediaLarge .ReplayBlock_infoIcon_d1694385 {
@@ -1085,7 +1144,7 @@
 .mediaExtraLarge .ReplayBlock_infoIcon_d1694385 {
   width: 30rem;
   height: 30rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CardsList_cardsWrapper_6c2823cb {
   display: flex;
@@ -1112,7 +1171,7 @@
 
 .CardsList_additionalMargin_ffdbf123 {
   width: 25rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .StickyKingReward_kingReward_784e7ea7 {
   width: 340rem;
@@ -1134,26 +1193,30 @@
   width: 450rem;
   height: 560rem;
 }
-.StickyKingReward_kingReward__active_e3d84edb, .StickyKingReward_kingReward__failed_9232f04b {
+.StickyKingReward_kingReward__active_e3d84edb,
+.StickyKingReward_kingReward__failed_9232f04b {
   height: 380rem;
 }
-.mediaLarge .StickyKingReward_kingReward__active_e3d84edb, .mediaLarge .StickyKingReward_kingReward__failed_9232f04b {
+.mediaLarge .StickyKingReward_kingReward__active_e3d84edb,
+.mediaLarge .StickyKingReward_kingReward__failed_9232f04b {
   height: 500rem;
 }
-.mediaExtraLarge .StickyKingReward_kingReward__active_e3d84edb, .mediaExtraLarge .StickyKingReward_kingReward__failed_9232f04b {
+.mediaExtraLarge .StickyKingReward_kingReward__active_e3d84edb,
+.mediaExtraLarge .StickyKingReward_kingReward__failed_9232f04b {
   height: 600rem;
 }
 
 .StickyKingReward_lip_fa4cc4ea {
   width: 80rem;
   height: 100%;
-  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.lip") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.lip") no-repeat
+    center/contain;
   position: absolute;
   top: 0;
   left: 0;
   transform: translateX(-40rem);
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CardsContent_5a377872 {
   display: flex;
@@ -1172,7 +1235,13 @@
   mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0) 2%);
 }
 .CardsContent_mask__both_e9f58edc {
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 2%, rgb(0, 0, 0) 98%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(0, 0, 0) 2%,
+    rgb(0, 0, 0) 98%,
+    rgba(0, 0, 0, 0)
+  );
 }
 .CardsContent_mask__left_cc482a2a {
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 2%);
@@ -1204,7 +1273,7 @@
 }
 .CardsContent_kingReward__done_a3c56347 {
   opacity: 0.5;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Badges_active_2b01effc {
   font-size: 16rem;
@@ -1216,8 +1285,13 @@
   height: 21rem;
   padding: 0 12rem;
   border-radius: 2rem;
-  box-shadow: 0 1px 0 0 rgba(53, 54, 56, 0.7), 0 0 3px 0 rgba(255, 187, 40, 0.4), 0 1px 0 0 rgba(255, 255, 255, 0.4) inset, 0 0 10px 0 rgba(255, 254, 251, 0.8);
-  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.active_button_small") repeat-x left center/cover;
+  box-shadow:
+    0 1px 0 0 rgba(53, 54, 56, 0.7),
+    0 0 3px 0 rgba(255, 187, 40, 0.4),
+    0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
+    0 0 10px 0 rgba(255, 254, 251, 0.8);
+  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.active_button_small") repeat-x
+    left center/cover;
   color: var(--color-general-dark);
   opacity: 0;
   position: absolute;
@@ -1271,14 +1345,16 @@
     opacity: 1;
     transform: scale(1);
   }
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Info_challengeName_7ddcece6 {
   color: rgba(var(--color-general-primary-rgb), 0.9);
   font-size: 22rem;
   font-weight: 500;
   line-height: 1.1;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 17px rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.3),
+    0 1px 17px rgba(23, 23, 23, 0.4);
 }
 .mediaLarge .Info_challengeName_7ddcece6 {
   font-size: 26rem;
@@ -1294,7 +1370,9 @@
   display: flex;
   align-items: center;
   color: rgba(var(--color-general-primary-rgb), 0.5);
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 17px rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.3),
+    0 1px 17px rgba(23, 23, 23, 0.4);
 }
 .mediaLarge .Info_settings_386b6846 {
   font-size: 20rem;
@@ -1325,7 +1403,8 @@
   width: 24rem;
   height: 24rem;
   margin-left: 4rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.shield") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.shield") no-repeat
+    center/contain;
 }
 .Info_attempts__disabled_e68e1244 .Info_attemptsIcon_cc763bd9 {
   background-image: url("R.images.gui.maps.icons.userMissions.hub.challenge.shield_disabled");
@@ -1351,14 +1430,15 @@
   width: 16rem;
   height: 16rem;
   margin-right: 5rem;
-  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.done_small") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.done_small") no-repeat
+    center/contain;
 }
 .mediaLarge .Info_completedIcon_a3825991 {
   width: 24rem;
   height: 24rem;
   margin-right: 2rem;
   background-image: url("R.images.gui.maps.icons.userMissions.hub.challenge.done");
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Content_fce2a30 {
   width: 100%;
@@ -1438,7 +1518,7 @@
 
 .Content_accent_9c27dd12 {
   color: rgba(var(--color-general-primary-rgb), 0.9);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Card_wrapper_96ab126 {
   display: flex;
@@ -1459,7 +1539,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_7811c695 {
   font-size: 20rem;
@@ -1510,11 +1590,11 @@
 }
 .Header_complexityIcon__easy_1d4962ab {
   background-image: url("R.images.gui.maps.icons.userMissions.hub.challenge.complexity.easy");
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Complexity_card__selected_cd2a2f69 {
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChallengeList_eefb9f3f {
   display: flex;
@@ -1539,7 +1619,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ProgressInfo_8424c779 {
   display: flex;
@@ -1561,7 +1641,8 @@
 .ProgressInfo_shieldIcon_55d5061d {
   width: 48rem;
   height: 48rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.shield_s) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.shield_s) no-repeat
+    center/contain;
 }
 .mediaLarge .ProgressInfo_shieldIcon_55d5061d {
   width: 64rem;
@@ -1574,7 +1655,8 @@
   background-image: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.shield_l);
 }
 .ProgressInfo_shieldIcon__fault_f4da6e67 {
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.loseShield_s) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.loseShield_s)
+    no-repeat center/contain;
   filter: brightness(0.7);
   opacity: 0.5;
 }
@@ -1588,7 +1670,8 @@
 .ProgressInfo_dashIcon_fe02568c {
   width: 5rem;
   height: 1rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.dash) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.dash) no-repeat
+    center/contain;
   opacity: 0.7;
 }
 .mediaSmall .ProgressInfo_dashIcon_fe02568c {
@@ -1643,7 +1726,7 @@
 }
 .mediaExtraLarge .ProgressInfo_remaining_3c852f20 {
   font-size: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RestartPrice_33839785 {
   display: flex;
@@ -1673,7 +1756,8 @@
   width: 24rem;
   height: 24rem;
   margin-right: 5rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.restart_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.restart_small) no-repeat
+    center/contain;
 }
 .mediaLarge .RestartPrice_restartIcon_5bfca1dc {
   width: 32rem;
@@ -1690,12 +1774,14 @@
 
 .RestartPrice_currency_4cba0a13 {
   font-weight: 600;
-  text-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3), 0 1rem 15rem rgba(23, 23, 23, 0.5);
+  text-shadow:
+    0 1rem 0 rgba(0, 0, 0, 0.3),
+    0 1rem 15rem rgba(23, 23, 23, 0.5);
 }
 
 .RestartPrice_currencyIcon_8a20d0ca {
   margin-left: 5rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RestartAction_6898d409 {
   display: flex;
@@ -1727,13 +1813,14 @@
   height: 16rem;
   margin-left: 6rem;
   margin-top: 4rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat
+    center/contain;
   opacity: 0.5;
 }
 .mediaLarge .RestartAction_infoIcon_6c17b18 {
   width: 24rem;
   height: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RestartInfo_cf799b5c {
   display: flex;
@@ -1761,7 +1848,8 @@
   height: 24rem;
   margin-left: 6rem;
   margin-top: 4rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.info) no-repeat
+    center/contain;
   opacity: 0.5;
 }
 .mediaLarge .RestartInfo_infoIcon_12406d73 {
@@ -1769,7 +1857,7 @@
 }
 .mediaExtraLarge .RestartInfo_infoIcon_12406d73 {
   margin-top: 9rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RestartBlock_7a915f27 {
   display: flex;
@@ -1786,7 +1874,7 @@
 }
 .mediaExtraLarge .RestartBlock_7a915f27 {
   font-size: 34rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .StatusInfo_162c825c {
   display: flex;
@@ -1850,7 +1938,8 @@
 .StatusInfo_divider_31e9fdd7 {
   width: 1rem;
   height: 30rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.header_divider) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.header_divider) no-repeat
+    center/contain;
 }
 .mediaLarge .StatusInfo_divider_31e9fdd7 {
   height: 35rem;
@@ -1883,7 +1972,8 @@
 .StatusInfo_lockIcon_d41e4eed {
   width: 24rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.vehicle_lock_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.vehicle_lock_small)
+    no-repeat center/contain;
 }
 .mediaLarge .StatusInfo_lockIcon_d41e4eed {
   width: 32rem;
@@ -1925,7 +2015,7 @@
 
 .StatusInfo_button_db9e092d {
   margin-left: 20rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_1d08ba03 {
   display: flex;
@@ -1962,7 +2052,8 @@
   align-self: center;
   width: 16rem;
   height: 16rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.check_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.check_small) no-repeat
+    center/contain;
 }
 .mediaLarge .Header_completeIcon_c846c24 {
   width: 24rem;
@@ -2030,7 +2121,8 @@
 .Header_restartDivider_37e861e5 {
   width: 6rem;
   height: 100%;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.divider_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.divider_small) no-repeat
+    center/contain;
 }
 .mediaLarge .Header_restartDivider_37e861e5 {
   background-image: url(R.images.gui.maps.icons.userMissions.challenges.icons.divider_large);
@@ -2064,12 +2156,13 @@
 .Header_shimmer_825b28be {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.shimmer") no-repeat center left/contain;
+  background: url("R.images.gui.maps.icons.userMissions.hub.challenge.shimmer") no-repeat center
+    left/contain;
   position: absolute;
   top: 0;
   left: 0;
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChallengeContent_3d909f5c {
   display: flex;
@@ -2118,7 +2211,7 @@
 
 .ChallengeContent_cards_ae124483 {
   margin-top: 12rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChallengesEmpty_2e7c4f64 {
   display: flex;
@@ -2130,7 +2223,8 @@
   width: 50rem;
   height: 52rem;
   margin-bottom: 16rem;
-  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.timer_icon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.userMissions.challenges.icons.timer_icon") no-repeat
+    center/contain;
 }
 
 .ChallengesEmpty_title_92c1e7c4 {
@@ -2138,9 +2232,11 @@
   font-size: 28rem;
   font-weight: 500;
   line-height: 1.1;
-  text-shadow: 0 1.18rem 0 rgba(0, 0, 0, 0.3), 0 1.18rem 17.73rem rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1.18rem 0 rgba(0, 0, 0, 0.3),
+    0 1.18rem 17.73rem rgba(23, 23, 23, 0.4);
   letter-spacing: 0.6rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ChallengeMissions_f1737fb7 {
   display: flex;

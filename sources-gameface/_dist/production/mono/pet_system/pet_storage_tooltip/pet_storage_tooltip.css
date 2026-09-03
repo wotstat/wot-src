@@ -37,7 +37,7 @@
   width: 24rem;
   height: 24rem;
   background: url(R.images.gui.maps.icons.petSystem.clock_icon) no-repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Warning_87784287 {
   font-size: 18rem;
@@ -49,7 +49,8 @@
   color: var(--color-status-alert);
   position: relative;
 }
-.Warning_87784287::before, .Warning_87784287::after {
+.Warning_87784287::before,
+.Warning_87784287::after {
   height: 1rem;
   content: "";
   position: absolute;
@@ -61,7 +62,12 @@
   opacity: 0.2;
 }
 .Warning_87784287::after {
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.07));
+  background-image: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.07)
+  );
   opacity: 0.8;
 }
 
@@ -74,7 +80,7 @@
 .Warning_warningText_aecebe45 {
   justify-content: center;
   flex-shrink: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .App_2f55a205 {
   margin-top: 8rem;
@@ -83,7 +89,8 @@
 .App_inner_e279a242 {
   width: 418rem;
   padding: 16rem 16rem 24rem;
-  background: url(R.images.gui.maps.icons.petSystem.tooltips.bg_flare) no-repeat left top/328rem 172rem;
+  background: url(R.images.gui.maps.icons.petSystem.tooltips.bg_flare) no-repeat left top/328rem
+    172rem;
   color: rgba(var(--color-general-primary-rgb), 0.9);
 }
 
@@ -95,7 +102,15 @@
 }
 .App_header_37a37190::before {
   height: 1rem;
-  background-image: repeating-linear-gradient(90deg, transparent 0rem, transparent 2rem, #5a5a52 2rem, #5a5a52 3rem, transparent 3rem, transparent 4rem);
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0rem,
+    transparent 2rem,
+    #5a5a52 2rem,
+    #5a5a52 3rem,
+    transparent 3rem,
+    transparent 4rem
+  );
   background-size: 3rem 1rem;
   opacity: 0.5;
   position: absolute;

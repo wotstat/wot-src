@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -133,7 +140,8 @@ html[lang=th] input {
   width: 400rem;
   height: 1rem;
   margin: 40rem 0 30rem;
-  background: rgba(196, 198, 192, 0.5) url("R.images.gui.maps.icons.ui.noise") center/100rem 100rem repeat;
+  background: rgba(196, 198, 192, 0.5) url("R.images.gui.maps.icons.ui.noise") center/100rem 100rem
+    repeat;
   opacity: 0.3;
   position: relative;
   z-index: 1;
@@ -156,7 +164,9 @@ html[lang=th] input {
 .mediaMedium .DefaultDialogTemplate_buttonGroup_8ab4d55c .DefaultDialogTemplate_button_c76aebb7 {
   min-width: 160rem;
 }
-.mediaExtraLarge .DefaultDialogTemplate_buttonGroup_8ab4d55c .DefaultDialogTemplate_button_c76aebb7 {
+.mediaExtraLarge
+  .DefaultDialogTemplate_buttonGroup_8ab4d55c
+  .DefaultDialogTemplate_button_c76aebb7 {
   min-width: 190rem;
 }
 
@@ -206,7 +216,11 @@ html[lang=th] input {
 .DefaultDialogTemplate_footer_glow_cf98773e {
   width: 333rem;
   height: 64rem;
-  background-image: radial-gradient(50% 100% at 50% 0%, var(--footer-highlight-color) 0%, transparent 100%);
+  background-image: radial-gradient(
+    50% 100% at 50% 0%,
+    var(--footer-highlight-color) 0%,
+    transparent 100%
+  );
   background-repeat: no-repeat;
   background-position: center center;
   opacity: 0.2;

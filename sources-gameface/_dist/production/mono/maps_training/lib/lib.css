@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -105,10 +112,11 @@ html[lang=th] input {
   --color-status-done-rgb: 100, 186, 33;
   --color-team-killer: #09e2ff;
   --color-team-killer-rgb: 9, 226, 255;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -131,21 +139,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -164,10 +178,11 @@ html[lang=th] input {
 
 .SceneWrapper_base__moveSpaceDisabled_1b1cd939 {
   cursor: auto;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -190,21 +205,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -227,7 +248,13 @@ html[lang=th] input {
   white-space: normal;
   overflow-wrap: normal;
 }
-html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span, html[lang=zh_tw] .FormatText_db904f12 span, html[lang=zh_sg] .FormatText_db904f12 span, html[lang=zh_cn] .FormatText_db904f12 span, html[lang=vi] .FormatText_db904f12 span, html[lang=th] .FormatText_db904f12 span {
+html[lang="ja"] .FormatText_db904f12 span,
+html[lang="ko"] .FormatText_db904f12 span,
+html[lang="zh_tw"] .FormatText_db904f12 span,
+html[lang="zh_sg"] .FormatText_db904f12 span,
+html[lang="zh_cn"] .FormatText_db904f12 span,
+html[lang="vi"] .FormatText_db904f12 span,
+html[lang="th"] .FormatText_db904f12 span {
   overflow-wrap: anywhere;
 }
 
@@ -306,10 +333,11 @@ html[lang=ja] .FormatText_db904f12 span, html[lang=ko] .FormatText_db904f12 span
 }
 .FormatText_colorLegacy__prom {
   color: #a29b70;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -332,21 +360,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -357,11 +391,13 @@ html[lang=th] input {
   width: 24rem;
   height: 24rem;
 }
-.Reward_base__s48x48_21f091ec, .Reward_base__small_3eddf28d {
+.Reward_base__s48x48_21f091ec,
+.Reward_base__small_3eddf28d {
   width: 48rem;
   height: 48rem;
 }
-.Reward_base__s80x80_21f091ec, .Reward_base__big_e23f2c77 {
+.Reward_base__s80x80_21f091ec,
+.Reward_base__big_e23f2c77 {
   width: 80rem;
   height: 80rem;
 }
@@ -426,13 +462,15 @@ html[lang=th] input {
   width: 48rem;
   height: 48rem;
 }
-.Reward_base__s48x48_21f091ec .Reward_overlay_8cbe65c9, .Reward_base__small_3eddf28d .Reward_overlay_8cbe65c9 {
+.Reward_base__s48x48_21f091ec .Reward_overlay_8cbe65c9,
+.Reward_base__small_3eddf28d .Reward_overlay_8cbe65c9 {
   width: 96rem;
   height: 96rem;
   background-size: 100%;
   overflow: visible;
 }
-.Reward_base__s80x80_21f091ec .Reward_overlay_8cbe65c9, .Reward_base__big_e23f2c77 .Reward_overlay_8cbe65c9 {
+.Reward_base__s80x80_21f091ec .Reward_overlay_8cbe65c9,
+.Reward_base__big_e23f2c77 .Reward_overlay_8cbe65c9 {
   width: 128rem;
   height: 128rem;
 }
@@ -469,11 +507,13 @@ html[lang=th] input {
   width: 24rem;
   height: 24rem;
 }
-.Reward_image__s48x48_21f091ec, .Reward_image__small_3eddf28d {
+.Reward_image__s48x48_21f091ec,
+.Reward_image__small_3eddf28d {
   width: 48rem;
   height: 48rem;
 }
-.Reward_image__s80x80_21f091ec, .Reward_image__big_e23f2c77 {
+.Reward_image__s80x80_21f091ec,
+.Reward_image__big_e23f2c77 {
   width: 80rem;
   height: 80rem;
 }
@@ -526,14 +566,16 @@ html[lang=th] input {
   margin-top: 0;
   white-space: nowrap;
 }
-.Reward_base__s48x48_21f091ec .Reward_info_26d38c48, .Reward_base__small_3eddf28d .Reward_info_26d38c48 {
+.Reward_base__s48x48_21f091ec .Reward_info_26d38c48,
+.Reward_base__small_3eddf28d .Reward_info_26d38c48 {
   margin: -8rem -10rem 0;
 }
 .Reward_info__multi_465d34bd {
   justify-content: flex-end;
   margin-right: 2rem;
 }
-.Reward_base__s48x48_21f091ec .Reward_info__multi_465d34bd, .Reward_base__small_3eddf28d .Reward_info__multi_465d34bd {
+.Reward_base__s48x48_21f091ec .Reward_info__multi_465d34bd,
+.Reward_base__small_3eddf28d .Reward_info__multi_465d34bd {
   margin-right: 0;
 }
 .Reward_info__credits_1643219 {
@@ -574,23 +616,26 @@ html[lang=th] input {
   position: absolute;
   z-index: 1;
 }
-.Reward_base__s48x48_21f091ec .Reward_timer_22ba7b8b, .Reward_base__small_3eddf28d .Reward_timer_22ba7b8b {
+.Reward_base__s48x48_21f091ec .Reward_timer_22ba7b8b,
+.Reward_base__small_3eddf28d .Reward_timer_22ba7b8b {
   width: 23rem;
   height: 23rem;
   background-image: url(R.images.gui.maps.icons.quests.bonuses.small.timer);
   top: -6rem;
   right: -6rem;
 }
-.Reward_base__s80x80_21f091ec .Reward_timer_22ba7b8b, .Reward_base__big_e23f2c77 .Reward_timer_22ba7b8b {
+.Reward_base__s80x80_21f091ec .Reward_timer_22ba7b8b,
+.Reward_base__big_e23f2c77 .Reward_timer_22ba7b8b {
   width: 48rem;
   height: 48rem;
   background-image: url(R.images.gui.maps.icons.quests.bonuses.big.timer);
   top: -14rem;
   right: -14rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -613,21 +658,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -650,10 +701,11 @@ html[lang=th] input {
 
 .RewardsList_boxRewardClassName_882c908d {
   align-items: center;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -676,21 +728,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -701,10 +759,11 @@ html[lang=th] input {
   border: none;
   background: none;
   cursor: pointer;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -727,28 +786,38 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Button_background_98ebcfb8, .Button_background_98ebcfb8::after, .Button_border_7e6390d7, .Button_overlay_174632c8, .Button_overlay_174632c8::before {
+.Button_background_98ebcfb8,
+.Button_background_98ebcfb8::after,
+.Button_border_7e6390d7,
+.Button_overlay_174632c8,
+.Button_overlay_174632c8::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -759,7 +828,11 @@ html[lang=th] input {
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Button_background_98ebcfb8, .Button_background_98ebcfb8::after, .Button_border_7e6390d7, .Button_overlay_174632c8, .Button_overlay_174632c8::before {
+.Button_background_98ebcfb8,
+.Button_background_98ebcfb8::after,
+.Button_border_7e6390d7,
+.Button_overlay_174632c8,
+.Button_overlay_174632c8::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -816,7 +889,8 @@ html[lang=th] input {
 .Button_base__theme-primary_8ba55469 .Button_background_98ebcfb8 {
   background-image: radial-gradient(51% 50% at 50% 50%, #d9d2c5 0%, #afb1a4 100%);
 }
-.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:hover .Button_background_98ebcfb8 {
+.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:hover
+  .Button_background_98ebcfb8 {
   background-color: rgba(237, 230, 217, 0.32);
 }
 .Button_background_98ebcfb8::after {
@@ -830,7 +904,8 @@ html[lang=th] input {
   background-image: url(R.images.gui.maps.icons.ui_kit.common.primary_background);
   opacity: 0.48;
 }
-.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover .Button_background_98ebcfb8::after {
+.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover
+  .Button_background_98ebcfb8::after {
   opacity: 0.7;
 }
 .Button_base__theme-secondary_3fa4afc .Button_background_98ebcfb8::after {
@@ -842,16 +917,19 @@ html[lang=th] input {
   transition: opacity 0.1s ease-out;
 }
 .Button_base__theme-primary_8ba55469 .Button_border_7e6390d7 {
-  border-image: url(R.images.gui.maps.icons.ui_kit.button.primary_button_border_pattern) 2/2rem repeat;
+  border-image: url(R.images.gui.maps.icons.ui_kit.button.primary_button_border_pattern) 2/2rem
+    repeat;
   box-shadow: 0 0 0 1rem rgba(13, 14, 16, 0.4);
 }
 .Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40 .Button_border_7e6390d7 {
   opacity: 0.8;
 }
-.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover .Button_border_7e6390d7 {
+.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover
+  .Button_border_7e6390d7 {
   opacity: 1;
 }
-.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:active .Button_border_7e6390d7 {
+.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:active
+  .Button_border_7e6390d7 {
   opacity: 0.9;
 }
 .Button_base__theme-primary_8ba55469.Button_base__disabled_b713e04a .Button_border_7e6390d7 {
@@ -861,12 +939,15 @@ html[lang=th] input {
   border-width: 1rem;
   border-style: solid;
   border-image: url(R.images.gui.maps.icons.ui_kit.common.secondary_border_pattern) 4/4rem round;
-  box-shadow: 0 0 0 1rem rgba(13, 14, 16, 0.4), inset 0 0 0 1rem rgba(13, 14, 16, 0.32);
+  box-shadow:
+    0 0 0 1rem rgba(13, 14, 16, 0.4),
+    inset 0 0 0 1rem rgba(13, 14, 16, 0.32);
 }
 .Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40 .Button_border_7e6390d7 {
   opacity: 0.9;
 }
-.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:hover .Button_border_7e6390d7 {
+.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:hover
+  .Button_border_7e6390d7 {
   opacity: 1;
 }
 .Button_base__theme-secondary_3fa4afc.Button_base__disabled_b713e04a .Button_border_7e6390d7 {
@@ -877,18 +958,25 @@ html[lang=th] input {
   border-radius: 2rem;
   opacity: 0;
   mix-blend-mode: overlay;
-  transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
+  transition:
+    opacity 0.1s ease-out,
+    background-color 0.1s ease-out;
 }
-.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover .Button_overlay_174632c8 {
+.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:hover
+  .Button_overlay_174632c8 {
   background-color: #fff;
   opacity: 0.4;
 }
-.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:active .Button_overlay_174632c8, .Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:active .Button_overlay_174632c8 {
+.Button_base__theme-primary_8ba55469.Button_base__enabled_96634d40.Button_70871946:active
+  .Button_overlay_174632c8,
+.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:active
+  .Button_overlay_174632c8 {
   background-color: #000;
   opacity: 0.24;
 }
 .Button_base__disabled_b713e04a .Button_overlay_174632c8 {
-  background: url(R.images.gui.maps.icons.ui_kit.patterns.disable_overlay_pattern) repeat center/10rem 10rem;
+  background: url(R.images.gui.maps.icons.ui_kit.patterns.disable_overlay_pattern) repeat
+    center/10rem 10rem;
   opacity: 0.12;
 }
 .Button_overlay_174632c8::before {
@@ -908,25 +996,49 @@ html[lang=th] input {
 .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778 {
   padding-bottom: 2rem;
 }
-html[lang=ja] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=ko] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=zh_tw] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=zh_sg] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=zh_cn] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=vi] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778, html[lang=th] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778 {
+html[lang="ja"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="ko"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="zh_tw"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="zh_sg"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="zh_cn"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="vi"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778,
+html[lang="th"] .Button_base__size-extraSmall_d0cdb5ed .Button_content__fontAligned_66115778 {
   padding-bottom: 4rem;
 }
 .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778 {
   padding-bottom: 1rem;
 }
-html[lang=ja] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=ko] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=zh_tw] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=zh_sg] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=zh_cn] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=vi] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778, html[lang=th] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778 {
+html[lang="ja"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="ko"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="zh_tw"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="zh_sg"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="zh_cn"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="vi"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778,
+html[lang="th"] .Button_base__size-small_fc7095a4 .Button_content__fontAligned_66115778 {
   padding-bottom: 4rem;
 }
 .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778 {
   padding-bottom: 2rem;
 }
-html[lang=ja] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=ko] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=zh_tw] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=zh_sg] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=zh_cn] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=vi] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778, html[lang=th] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778 {
+html[lang="ja"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="ko"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="zh_tw"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="zh_sg"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="zh_cn"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="vi"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778,
+html[lang="th"] .Button_base__size-medium_814d61f0 .Button_content__fontAligned_66115778 {
   padding-bottom: 5rem;
 }
 .Button_base__size-large_83da852e .Button_content__fontAligned_66115778 {
   padding-bottom: 2rem;
 }
-html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=ko] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=zh_tw] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=zh_sg] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=zh_cn] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=vi] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778, html[lang=th] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778 {
+html[lang="ja"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="ko"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="zh_tw"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="zh_sg"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="zh_cn"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="vi"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778,
+html[lang="th"] .Button_base__size-large_83da852e .Button_content__fontAligned_66115778 {
   padding-bottom: 4rem;
 }
 .Button_base__theme-primary_8ba55469 .Button_content_298de63f {
@@ -935,7 +1047,8 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
 .Button_base__theme-secondary_3fa4afc .Button_content_298de63f {
   font-weight: 500;
 }
-.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:active .Button_content_298de63f {
+.Button_base__theme-secondary_3fa4afc.Button_base__enabled_96634d40.Button_70871946:active
+  .Button_content_298de63f {
   opacity: 0.9;
 }
 .Button_base__theme-primary_8ba55469.Button_base__disabled_b713e04a .Button_content_298de63f {
@@ -955,10 +1068,11 @@ html[lang=ja] .Button_base__size-large_83da852e .Button_content__fontAligned_661
 }
 .Button_base__size-large_83da852e .Button_content_298de63f {
   font-size: 28rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -981,28 +1095,36 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Input_disabledOverlay_3e980046, .Input_icon_ed3c6a4a::before, .Input_clearButton_d26b0bd5::before {
+.Input_disabledOverlay_3e980046,
+.Input_icon_ed3c6a4a::before,
+.Input_clearButton_d26b0bd5::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -1012,7 +1134,9 @@ html[lang=th] input {
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Input_disabledOverlay_3e980046, .Input_icon_ed3c6a4a::before, .Input_clearButton_d26b0bd5::before {
+.Input_disabledOverlay_3e980046,
+.Input_icon_ed3c6a4a::before,
+.Input_clearButton_d26b0bd5::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -1025,35 +1149,43 @@ html[lang=th] input {
   width: 100%;
   border: 1rem solid transparent;
   border-radius: 2rem;
-  box-shadow: 0 0 0 1rem rgba(13, 14, 16, 0.4), inset 0 0 0 1rem rgba(13, 14, 16, 0.32);
+  box-shadow:
+    0 0 0 1rem rgba(13, 14, 16, 0.4),
+    inset 0 0 0 1rem rgba(13, 14, 16, 0.32);
   background: url(R.images.gui.maps.icons.ui_kit.common.secondary_background) center/100% auto;
   position: relative;
   z-index: 0;
-  transition: background-color 0.24s ease-out, border-color 0.24s ease-out;
+  transition:
+    background-color 0.24s ease-out,
+    border-color 0.24s ease-out;
   cursor: text;
 }
 .Input_decoration_b561de7a:hover {
   background-color: rgba(237, 230, 217, 0.12);
 }
-.Input_decoration__focused_494bd5d6, .Input_decoration_b561de7a:hover {
+.Input_decoration__focused_494bd5d6,
+.Input_decoration_b561de7a:hover {
   border-color: rgba(237, 230, 217, 0.12);
 }
 .Input_decoration__alertState_a3c7d971 {
   border-color: rgba(238, 112, 0, 0.75);
 }
-.Input_decoration__alertState_a3c7d971.Input_decoration__focused_494bd5d6, .Input_decoration__alertState_a3c7d971:hover {
+.Input_decoration__alertState_a3c7d971.Input_decoration__focused_494bd5d6,
+.Input_decoration__alertState_a3c7d971:hover {
   border-color: #ee7000;
 }
 .Input_decoration__errorState_a889ba00 {
   border-color: rgba(243, 18, 1, 0.75);
 }
-.Input_decoration__errorState_a889ba00.Input_decoration__focused_494bd5d6, .Input_decoration__errorState_a889ba00:hover {
+.Input_decoration__errorState_a889ba00.Input_decoration__focused_494bd5d6,
+.Input_decoration__errorState_a889ba00:hover {
   border-color: #f31201;
 }
 .Input_decoration__doneState_273150be {
   border-color: rgba(100, 186, 33, 0.75);
 }
-.Input_decoration__doneState_273150be.Input_decoration__focused_494bd5d6, .Input_decoration__doneState_273150be:hover {
+.Input_decoration__doneState_273150be.Input_decoration__focused_494bd5d6,
+.Input_decoration__doneState_273150be:hover {
   border-color: #64ba21;
 }
 .Input_decoration__disabled_74e25c08 {
@@ -1077,7 +1209,8 @@ html[lang=th] input {
 
 .Input_disabledOverlay_3e980046 {
   border-radius: 2rem;
-  background: url(R.images.gui.maps.icons.ui_kit.patterns.disable_overlay_pattern) repeat center/10rem 10rem;
+  background: url(R.images.gui.maps.icons.ui_kit.patterns.disable_overlay_pattern) repeat
+    center/10rem 10rem;
   opacity: 0;
   z-index: -1;
   transition: opacity 0.24s ease-out;
@@ -1122,7 +1255,13 @@ html[lang=th] input {
 .Input_field__mediumSize_7a1efba0 {
   padding: 2rem 3rem 0;
 }
-html[lang=ja] .Input_field__mediumSize_7a1efba0, html[lang=ko] .Input_field__mediumSize_7a1efba0, html[lang=zh_tw] .Input_field__mediumSize_7a1efba0, html[lang=zh_sg] .Input_field__mediumSize_7a1efba0, html[lang=zh_cn] .Input_field__mediumSize_7a1efba0, html[lang=vi] .Input_field__mediumSize_7a1efba0, html[lang=th] .Input_field__mediumSize_7a1efba0 {
+html[lang="ja"] .Input_field__mediumSize_7a1efba0,
+html[lang="ko"] .Input_field__mediumSize_7a1efba0,
+html[lang="zh_tw"] .Input_field__mediumSize_7a1efba0,
+html[lang="zh_sg"] .Input_field__mediumSize_7a1efba0,
+html[lang="zh_cn"] .Input_field__mediumSize_7a1efba0,
+html[lang="vi"] .Input_field__mediumSize_7a1efba0,
+html[lang="th"] .Input_field__mediumSize_7a1efba0 {
   padding-top: 3rem;
 }
 .Input_fieldWrapper_a4454e66:first-child .Input_field__mediumSize_7a1efba0 {
@@ -1134,7 +1273,13 @@ html[lang=ja] .Input_field__mediumSize_7a1efba0, html[lang=ko] .Input_field__med
 .Input_field__largeSize_2b4f0b27 {
   padding: 6rem 5rem 0;
 }
-html[lang=ja] .Input_field__largeSize_2b4f0b27, html[lang=ko] .Input_field__largeSize_2b4f0b27, html[lang=zh_tw] .Input_field__largeSize_2b4f0b27, html[lang=zh_sg] .Input_field__largeSize_2b4f0b27, html[lang=zh_cn] .Input_field__largeSize_2b4f0b27, html[lang=vi] .Input_field__largeSize_2b4f0b27, html[lang=th] .Input_field__largeSize_2b4f0b27 {
+html[lang="ja"] .Input_field__largeSize_2b4f0b27,
+html[lang="ko"] .Input_field__largeSize_2b4f0b27,
+html[lang="zh_tw"] .Input_field__largeSize_2b4f0b27,
+html[lang="zh_sg"] .Input_field__largeSize_2b4f0b27,
+html[lang="zh_cn"] .Input_field__largeSize_2b4f0b27,
+html[lang="vi"] .Input_field__largeSize_2b4f0b27,
+html[lang="th"] .Input_field__largeSize_2b4f0b27 {
   padding-top: 7rem;
 }
 .Input_fieldWrapper_a4454e66:first-child .Input_field__largeSize_2b4f0b27 {
@@ -1170,7 +1315,13 @@ html[lang=ja] .Input_field__largeSize_2b4f0b27, html[lang=ko] .Input_field__larg
   right: 3rem;
   left: 3rem;
 }
-html[lang=ja] .Input_placeholder__mediumSize_2b8cbadc, html[lang=ko] .Input_placeholder__mediumSize_2b8cbadc, html[lang=zh_tw] .Input_placeholder__mediumSize_2b8cbadc, html[lang=zh_sg] .Input_placeholder__mediumSize_2b8cbadc, html[lang=zh_cn] .Input_placeholder__mediumSize_2b8cbadc, html[lang=vi] .Input_placeholder__mediumSize_2b8cbadc, html[lang=th] .Input_placeholder__mediumSize_2b8cbadc {
+html[lang="ja"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="ko"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="zh_tw"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="zh_sg"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="zh_cn"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="vi"] .Input_placeholder__mediumSize_2b8cbadc,
+html[lang="th"] .Input_placeholder__mediumSize_2b8cbadc {
   padding-top: 3rem;
 }
 .Input_fieldWrapper_a4454e66:first-child .Input_placeholder__mediumSize_2b8cbadc {
@@ -1184,7 +1335,13 @@ html[lang=ja] .Input_placeholder__mediumSize_2b8cbadc, html[lang=ko] .Input_plac
   right: 5rem;
   left: 5rem;
 }
-html[lang=ja] .Input_placeholder__largeSize_6dbe7ba2, html[lang=ko] .Input_placeholder__largeSize_6dbe7ba2, html[lang=zh_tw] .Input_placeholder__largeSize_6dbe7ba2, html[lang=zh_sg] .Input_placeholder__largeSize_6dbe7ba2, html[lang=zh_cn] .Input_placeholder__largeSize_6dbe7ba2, html[lang=vi] .Input_placeholder__largeSize_6dbe7ba2, html[lang=th] .Input_placeholder__largeSize_6dbe7ba2 {
+html[lang="ja"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="ko"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="zh_tw"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="zh_sg"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="zh_cn"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="vi"] .Input_placeholder__largeSize_6dbe7ba2,
+html[lang="th"] .Input_placeholder__largeSize_6dbe7ba2 {
   padding-top: 7rem;
 }
 .Input_fieldWrapper_a4454e66:first-child .Input_placeholder__largeSize_6dbe7ba2 {
@@ -1205,7 +1362,8 @@ html[lang=ja] .Input_placeholder__largeSize_6dbe7ba2, html[lang=ko] .Input_place
 .Input_message__visible_a76c109c {
   opacity: 1;
 }
-.Input_message__alertType_34d13f9f::before, .Input_message__errorType_c0d7caba::before {
+.Input_message__alertType_34d13f9f::before,
+.Input_message__errorType_c0d7caba::before {
   background: no-repeat center/contain;
 }
 .Input_message__alertType_34d13f9f::before {
@@ -1270,7 +1428,8 @@ html[lang=ja] .Input_placeholder__largeSize_6dbe7ba2, html[lang=ko] .Input_place
 .Input_decoration_b561de7a:hover .Input_icon_ed3c6a4a {
   opacity: 0.5;
 }
-.Input_icon__focused_a76c109c, .Input_decoration_b561de7a:hover .Input_icon__focused_a76c109c {
+.Input_icon__focused_a76c109c,
+.Input_decoration_b561de7a:hover .Input_icon__focused_a76c109c {
   opacity: 1;
 }
 .Input_icon__mediumSize_f7d15078 {
@@ -1321,10 +1480,12 @@ html[lang=ja] .Input_placeholder__largeSize_6dbe7ba2, html[lang=ko] .Input_place
 .Input_decoration_b561de7a:hover .Input_clearButton__visible_8d3756eb {
   opacity: 0.5;
 }
-.Input_clearButton__visible_8d3756eb:hover, .Input_decoration_b561de7a .Input_clearButton__visible_8d3756eb:hover {
+.Input_clearButton__visible_8d3756eb:hover,
+.Input_decoration_b561de7a .Input_clearButton__visible_8d3756eb:hover {
   opacity: 1;
 }
-.Input_clearButton__visible_8d3756eb:active, .Input_decoration_b561de7a .Input_clearButton__visible_8d3756eb:active {
+.Input_clearButton__visible_8d3756eb:active,
+.Input_decoration_b561de7a .Input_clearButton__visible_8d3756eb:active {
   opacity: 0.8;
 }
 .Input_clearButton_d26b0bd5::before {
@@ -1340,10 +1501,11 @@ html[lang=ja] .Input_placeholder__largeSize_6dbe7ba2, html[lang=ko] .Input_place
 }
 .Input_clearButton__upscale_494bd5d6::before {
   background-image: url(R.images.gui.maps.icons.ui_kit.close_button.icon_medium);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1366,28 +1528,35 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Thumb_background_7f3dd6ac, .Thumb_border_5749138b {
+.Thumb_background_7f3dd6ac,
+.Thumb_border_5749138b {
   position: absolute;
   top: 0;
   right: 0;
@@ -1395,7 +1564,10 @@ html[lang=th] input {
   left: 0;
 }
 
-.Thumb_border_5749138b, .Thumb_innerBorder_42bafd18, .Thumb_icon_dca8bf26, .Thumb_background_7f3dd6ac {
+.Thumb_border_5749138b,
+.Thumb_innerBorder_42bafd18,
+.Thumb_icon_dca8bf26,
+.Thumb_background_7f3dd6ac {
   position: absolute;
   pointer-events: none;
 }
@@ -1425,7 +1597,8 @@ html[lang=th] input {
   background: url(R.images.gui.maps.icons.ui_kit.scroll.vertical_texture) center/100% auto repeat-y;
 }
 .Thumb_base__horizontal_27ca7ace .Thumb_background_7f3dd6ac {
-  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_texture) center/auto 100% repeat-x;
+  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_texture) center/auto 100%
+    repeat-x;
 }
 .Thumb_base__active_830942bb .Thumb_background_7f3dd6ac {
   opacity: 1;
@@ -1436,7 +1609,8 @@ html[lang=th] input {
 }
 .Thumb_base__horizontal_27ca7ace .Thumb_icon_dca8bf26 {
   width: 8rem;
-  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_grip) center left/7rem 6rem no-repeat;
+  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_grip) center left/7rem 6rem
+    no-repeat;
   top: 2rem;
   bottom: 2rem;
   left: 50%;
@@ -1444,7 +1618,8 @@ html[lang=th] input {
 }
 .Thumb_base__vertical_55a67c91 .Thumb_icon_dca8bf26 {
   height: 8rem;
-  background: url(R.images.gui.maps.icons.ui_kit.scroll.vertical_grip) top center/5rem 9rem no-repeat;
+  background: url(R.images.gui.maps.icons.ui_kit.scroll.vertical_grip) top center/5rem 9rem
+    no-repeat;
   top: 50%;
   right: 2rem;
   left: 2rem;
@@ -1469,10 +1644,11 @@ html[lang=th] input {
   border-image-slice: 4;
   border-image-width: 4rem;
   border-image-repeat: round;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1495,21 +1671,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1560,11 +1742,13 @@ html[lang=th] input {
   background-position: bottom;
   right: 0;
 }
-.HorizontalBar_4df27ac3:hover .HorizontalBar_rail_37858d8f, .HorizontalBar_4df27ac3:active .HorizontalBar_rail_37858d8f {
+.HorizontalBar_4df27ac3:hover .HorizontalBar_rail_37858d8f,
+.HorizontalBar_4df27ac3:active .HorizontalBar_rail_37858d8f {
   opacity: 1;
 }
 
-.forwardDisabled .HorizontalBar_button__right_e8f0aa2d, .backwardDisabled .HorizontalBar_button__left_da330e13 {
+.forwardDisabled .HorizontalBar_button__right_e8f0aa2d,
+.backwardDisabled .HorizontalBar_button__left_da330e13 {
   opacity: 0.2;
   cursor: default;
   pointer-events: none;
@@ -1573,7 +1757,8 @@ html[lang=th] input {
 .HorizontalBar_button_cbabd91 {
   width: 8rem;
   height: 11rem;
-  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_arrow) top right/contain no-repeat;
+  background: url(R.images.gui.maps.icons.ui_kit.scroll.horizontal_arrow) top right/contain
+    no-repeat;
   opacity: 0.2;
   transition: opacity 0.2s ease-in;
   cursor: pointer;
@@ -1582,12 +1767,14 @@ html[lang=th] input {
 .HorizontalBar_button__left_da330e13 {
   transform: rotate(180deg);
 }
-.HorizontalBar_4df27ac3:hover .HorizontalBar_button_cbabd91, .HorizontalBar_4df27ac3:active .HorizontalBar_button_cbabd91 {
+.HorizontalBar_4df27ac3:hover .HorizontalBar_button_cbabd91,
+.HorizontalBar_4df27ac3:active .HorizontalBar_button_cbabd91 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1610,21 +1797,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1654,10 +1847,11 @@ html[lang=th] input {
 .HorizontalScroll_defaultScrollArea_a5c0f45 {
   width: 100%;
   margin-bottom: 7rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1680,21 +1874,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1747,11 +1947,13 @@ html[lang=th] input {
   background-position: bottom;
   bottom: 0;
 }
-.VerticalBar_7187fa00:hover .VerticalBar_rail_3d663c9, .VerticalBar_7187fa00:active .VerticalBar_rail_3d663c9 {
+.VerticalBar_7187fa00:hover .VerticalBar_rail_3d663c9,
+.VerticalBar_7187fa00:active .VerticalBar_rail_3d663c9 {
   opacity: 1;
 }
 
-.forwardDisabled .VerticalBar_button__bottom_6880f123, .backwardDisabled .VerticalBar_button__top_b8383775 {
+.forwardDisabled .VerticalBar_button__bottom_6880f123,
+.backwardDisabled .VerticalBar_button__top_b8383775 {
   opacity: 0.2;
   cursor: default;
   pointer-events: none;
@@ -1772,12 +1974,14 @@ html[lang=th] input {
 .VerticalBar_button__bottom_6880f123 {
   transform: translateX(-1rem) rotate(180deg);
 }
-.VerticalBar_7187fa00:hover .VerticalBar_button_7b0e4aca, .VerticalBar_7187fa00:active .VerticalBar_button_7b0e4aca {
+.VerticalBar_7187fa00:hover .VerticalBar_button_7b0e4aca,
+.VerticalBar_7187fa00:active .VerticalBar_button_7b0e4aca {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1800,21 +2004,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1847,10 +2057,11 @@ html[lang=th] input {
 
 .VerticalScroll_area_a3c0086a {
   flex: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1873,21 +2084,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1946,7 +2163,9 @@ html[lang=th] input {
   right: 2rem;
   bottom: 2rem;
   left: 2rem;
-  transition: background-color 0.24s ease-out, opacity 0.24s ease-out;
+  transition:
+    background-color 0.24s ease-out,
+    opacity 0.24s ease-out;
 }
 .Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_background_78cd67c0 {
   background-color: rgba(var(--color-general-secondary-rgb), 0.3);
@@ -1955,29 +2174,36 @@ html[lang=th] input {
   background-position: center;
   background-size: cover;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__fullSizeContent_1b52d9ec .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__fullSizeContent_1b52d9ec
+  .Toggle_background_78cd67c0 {
   background-image: none;
 }
 .Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:active .Toggle_background_78cd67c0 {
   background-color: rgba(0, 0, 0, 0.23);
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080:active .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080:active
+  .Toggle_background_78cd67c0 {
   background-image: none;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec
+  .Toggle_background_78cd67c0 {
   background-color: transparent;
   z-index: 1;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080:hover .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080:hover
+  .Toggle_background_78cd67c0 {
   background-color: rgba(255, 255, 255, 0.32);
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b
+  .Toggle_background_78cd67c0 {
   opacity: 0.6;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b
+  .Toggle_background_78cd67c0 {
   background-color: rgba(var(--color-general-tertiary-rgb), 0.4);
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080:active .Toggle_background_78cd67c0 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec.Toggle_base__activated_d584e080:active
+  .Toggle_background_78cd67c0 {
   background-color: rgba(0, 0, 0, 0.23);
 }
 
@@ -1993,12 +2219,15 @@ html[lang=th] input {
   border-width: 1rem;
   border-style: solid;
   border-image: url(R.images.gui.maps.icons.ui_kit.toggle.border) 6/6rem repeat;
-  box-shadow: inset 0 0 0 1rem rgba(13, 14, 16, 0.32), 0 0 0 1rem rgba(13, 14, 16, 0.32);
+  box-shadow:
+    inset 0 0 0 1rem rgba(13, 14, 16, 0.32),
+    0 0 0 1rem rgba(13, 14, 16, 0.32);
   background-color: rgba(13, 14, 16, 0.32);
   opacity: 0.8;
   transition: opacity 0.24s ease-out;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_border_3d0d0d39, .Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_border_3d0d0d39 {
+.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_border_3d0d0d39,
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_border_3d0d0d39 {
   opacity: 1;
 }
 .Toggle_base__theme-primary_3e3de333.Toggle_base__disabled_b564a69b .Toggle_border_3d0d0d39 {
@@ -2007,7 +2236,15 @@ html[lang=th] input {
 
 .Toggle_base__theme-primary_3e3de333 .Toggle_bulb_fe6d0fba {
   height: 1rem;
-  background: repeating-linear-gradient(to right, #0d0e10, #0d0e10 1rem, #fff 2rem, #fff 10rem, #0d0e10 11rem, #0d0e10 12rem);
+  background: repeating-linear-gradient(
+    to right,
+    #0d0e10,
+    #0d0e10 1rem,
+    #fff 2rem,
+    #fff 10rem,
+    #0d0e10 11rem,
+    #0d0e10 12rem
+  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: 12rem;
@@ -2018,14 +2255,17 @@ html[lang=th] input {
   left: 0;
   transition: filter 0.24s ease-out;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_bulb_fe6d0fba, .Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_bulb_fe6d0fba {
+.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_bulb_fe6d0fba,
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_bulb_fe6d0fba {
   filter: brightness(1);
   z-index: 1;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b .Toggle_bulb_fe6d0fba {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b
+  .Toggle_bulb_fe6d0fba {
   filter: brightness(0.6);
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover:active .Toggle_bulb_fe6d0fba, .Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080:active .Toggle_bulb_fe6d0fba {
+.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover:active .Toggle_bulb_fe6d0fba,
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080:active .Toggle_bulb_fe6d0fba {
   filter: brightness(0.53);
 }
 
@@ -2046,10 +2286,12 @@ html[lang=th] input {
   opacity: 1;
 }
 .Toggle_base__theme-primary_3e3de333.Toggle_base__disabled_b564a69b .Toggle_overlay_e2999686 {
-  background: url(R.images.gui.maps.icons.ui_kit.common.disable_overlay_pattern_2) repeat center/8rem 8rem;
+  background: url(R.images.gui.maps.icons.ui_kit.common.disable_overlay_pattern_2) repeat
+    center/8rem 8rem;
   opacity: 0.24;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b .Toggle_overlay_e2999686 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080.Toggle_base__disabled_b564a69b
+  .Toggle_overlay_e2999686 {
   opacity: 0.12;
 }
 
@@ -2068,7 +2310,8 @@ html[lang=th] input {
   opacity: 0.6;
   transition: opacity 0.24s ease-out;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_content_17eff4d2, .Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_content_17eff4d2 {
+.Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:hover .Toggle_content_17eff4d2,
+.Toggle_base__theme-primary_3e3de333.Toggle_base__activated_d584e080 .Toggle_content_17eff4d2 {
   opacity: 1;
 }
 .Toggle_base__theme-primary_3e3de333.Toggle_cdf77db0:active .Toggle_content_17eff4d2 {
@@ -2077,12 +2320,14 @@ html[lang=th] input {
 .Toggle_base__theme-primary_3e3de333.Toggle_base__disabled_b564a69b .Toggle_content_17eff4d2 {
   opacity: 0.3;
 }
-.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec .Toggle_content_17eff4d2 {
+.Toggle_base__theme-primary_3e3de333.Toggle_base__fullSizeContent_1b52d9ec
+  .Toggle_content_17eff4d2 {
   padding-bottom: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2105,21 +2350,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2129,10 +2380,11 @@ html[lang=th] input {
 .Formattext_bb80854d {
   display: flex;
   flex-wrap: wrap;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2155,21 +2407,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2238,10 +2496,11 @@ html[lang=th] input {
 }
 .media-upscale .CloseButton_base__x32x32_6466ea31:hover {
   background-image: url(R.images.gui.maps.icons.ui_kit.close_button.icon_x32x32_hover);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2264,21 +2523,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }

@@ -23,7 +23,7 @@
 }
 .ZoomOut_icon_2967d894:active {
   opacity: 0.8;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InfoBox_ea99595d {
@@ -105,7 +105,13 @@
   margin-right: 9rem;
   color: rgba(var(--color-general-primary-rgb), 0.6);
   position: relative;
-  mask-image: linear-gradient(to bottom, rgba(225, 0, 0, 0) 0%, #e10000 7%, #900 93%, rgba(153, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(225, 0, 0, 0) 0%,
+    #e10000 7%,
+    #900 93%,
+    rgba(153, 0, 0, 0) 100%
+  );
   mask-repeat: no-repeat;
 }
 .mediaLarge .InfoBox_textArea_fbe24a5d {
@@ -115,7 +121,7 @@
 
 .InfoBox_text_860b4630 {
   padding: 10rem 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Assembling_aad1dbe5 {
@@ -172,7 +178,7 @@
 
 .Assembling_progression_70048f1c {
   margin-bottom: 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Separator_ad87e1c2 {
@@ -193,8 +199,9 @@
 .Separator_separatorPattern_151b0785 {
   flex: 1;
   height: 100%;
-  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat
+    center/contain;
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleItem_4773539d {
@@ -214,7 +221,7 @@
 
 .VehicleItem_header_5a7536ee {
   margin-left: 3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .CategoryInfo_c4876b8 {
@@ -242,10 +249,24 @@
   margin-top: 9rem;
   font-size: 80rem;
 }
-html[lang=ja] .CategoryInfo_title_3745f90, html[lang=ko] .CategoryInfo_title_3745f90, html[lang=zh_tw] .CategoryInfo_title_3745f90, html[lang=zh_sg] .CategoryInfo_title_3745f90, html[lang=zh_cn] .CategoryInfo_title_3745f90, html[lang=vi] .CategoryInfo_title_3745f90, html[lang=el] .CategoryInfo_title_3745f90, html[lang=th] .CategoryInfo_title_3745f90 {
+html[lang="ja"] .CategoryInfo_title_3745f90,
+html[lang="ko"] .CategoryInfo_title_3745f90,
+html[lang="zh_tw"] .CategoryInfo_title_3745f90,
+html[lang="zh_sg"] .CategoryInfo_title_3745f90,
+html[lang="zh_cn"] .CategoryInfo_title_3745f90,
+html[lang="vi"] .CategoryInfo_title_3745f90,
+html[lang="el"] .CategoryInfo_title_3745f90,
+html[lang="th"] .CategoryInfo_title_3745f90 {
   font-size: 46rem;
 }
-html[lang=ja] .mediaMedium .CategoryInfo_title_3745f90, html[lang=ko] .mediaMedium .CategoryInfo_title_3745f90, html[lang=zh_tw] .mediaMedium .CategoryInfo_title_3745f90, html[lang=zh_sg] .mediaMedium .CategoryInfo_title_3745f90, html[lang=zh_cn] .mediaMedium .CategoryInfo_title_3745f90, html[lang=vi] .mediaMedium .CategoryInfo_title_3745f90, html[lang=el] .mediaMedium .CategoryInfo_title_3745f90, html[lang=th] .mediaMedium .CategoryInfo_title_3745f90 {
+html[lang="ja"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="ko"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="zh_tw"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="zh_sg"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="zh_cn"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="vi"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="el"] .mediaMedium .CategoryInfo_title_3745f90,
+html[lang="th"] .mediaMedium .CategoryInfo_title_3745f90 {
   font-size: 56rem;
 }
 
@@ -269,16 +290,30 @@ html[lang=ja] .mediaMedium .CategoryInfo_title_3745f90, html[lang=ko] .mediaMedi
   color: var(--color-general-secondary);
   font-weight: 400;
 }
-html[lang=de] .CategoryInfo_descriptionBlock_18a18499 {
+html[lang="de"] .CategoryInfo_descriptionBlock_18a18499 {
   font-size: 17rem;
 }
-html[lang=ja] .CategoryInfo_descriptionBlock_18a18499, html[lang=ko] .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_tw] .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_sg] .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_cn] .CategoryInfo_descriptionBlock_18a18499, html[lang=vi] .CategoryInfo_descriptionBlock_18a18499, html[lang=el] .CategoryInfo_descriptionBlock_18a18499, html[lang=th] .CategoryInfo_descriptionBlock_18a18499 {
+html[lang="ja"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="ko"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_tw"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_sg"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_cn"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="vi"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="el"] .CategoryInfo_descriptionBlock_18a18499,
+html[lang="th"] .CategoryInfo_descriptionBlock_18a18499 {
   font-size: 16rem;
 }
-html[lang=ja] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=ko] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_tw] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_sg] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=zh_cn] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=vi] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=el] .mediaMedium .CategoryInfo_descriptionBlock_18a18499, html[lang=th] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
+html[lang="ja"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="ko"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_tw"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_sg"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="zh_cn"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="vi"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="el"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499,
+html[lang="th"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   font-size: 20rem;
 }
-html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
+html[lang="de"] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   font-size: 19rem;
 }
 
@@ -288,7 +323,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .CategoryInfo_highlightedText_76a530ff {
   color: var(--color-general-primary);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ArrowButton_472a47bc {
@@ -322,11 +357,12 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   height: 27rem;
   background-image: url(R.images.gui.maps.icons.personal_missions_30.common.arrowButton_small);
 }
-.ArrowButton_base__medium_3ee48459 .ArrowButton_icon_440f072, .ArrowButton_base__large_a8d86102 .ArrowButton_icon_440f072 {
+.ArrowButton_base__medium_3ee48459 .ArrowButton_icon_440f072,
+.ArrowButton_base__large_a8d86102 .ArrowButton_icon_440f072 {
   width: 26rem;
   height: 77rem;
   background-image: url(R.images.gui.maps.icons.personal_missions_30.common.arrowButton_large);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ShadowLine_a5bf2ece {
@@ -339,7 +375,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .ShadowLine_glow_2c471335 {
   width: 74rem;
   height: 52rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.menu.missions_number_glow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.menu.missions_number_glow)
+    no-repeat center/contain;
   opacity: 0.1;
   position: absolute;
   top: 50%;
@@ -372,7 +409,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .ShadowLine_dash__right_81c6c0e4 {
   right: -3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MissionNumber_36d5d4af {
@@ -386,14 +423,29 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   z-index: 2;
   transform: translateX(-50%);
 }
-.MissionNumber_base__missions_59467b17.MissionNumber_base__completed_59467b17, .MissionNumber_base__missions_59467b17.MissionNumber_base__locked_59467b17, .MissionNumber_base__missions_59467b17.MissionNumber_base__disabled_59467b17, .MissionNumber_base__default_54b91be4 {
+.MissionNumber_base__missions_59467b17.MissionNumber_base__completed_59467b17,
+.MissionNumber_base__missions_59467b17.MissionNumber_base__locked_59467b17,
+.MissionNumber_base__missions_59467b17.MissionNumber_base__disabled_59467b17,
+.MissionNumber_base__default_54b91be4 {
   top: 3rem;
 }
 
 .MissionNumber_line_5eb3c137 {
   width: 230rem;
   height: 1rem;
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.02) 100%);
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -414,7 +466,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .MissionNumber_base__missions_59467b17 .MissionNumber_content_1ea67e25 {
   width: 38rem;
 }
-.MissionNumber_base__missions_59467b17.MissionNumber_base__active_59467b17 .MissionNumber_content_1ea67e25 {
+.MissionNumber_base__missions_59467b17.MissionNumber_base__active_59467b17
+  .MissionNumber_content_1ea67e25 {
   width: 58rem;
 }
 
@@ -464,7 +517,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   line-height: 1.3em;
   margin-bottom: 3rem;
 }
-.MissionNumber_base__disabled_59467b17 .MissionNumber_mission_9ce6f188, .MissionNumber_base__locked_59467b17 .MissionNumber_mission_9ce6f188 {
+.MissionNumber_base__disabled_59467b17 .MissionNumber_mission_9ce6f188,
+.MissionNumber_base__locked_59467b17 .MissionNumber_mission_9ce6f188 {
   opacity: 0.5;
 }
 .MissionNumber_base__completed_59467b17 .MissionNumber_mission_9ce6f188 {
@@ -498,7 +552,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaMedium .MissionNumber_subtitle_f0005ad0 {
   font-size: 22rem;
   top: 59rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehiclesProgress_d2b4bea6 {
@@ -529,7 +583,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .VehiclesProgress_done__visible_b31330f7 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Progress_431da46b {
@@ -551,7 +605,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Progress_line_6fc99c5a {
   flex: 1;
   height: 1rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat
+    center/contain;
 }
 
 .Progress_icon_14b45aa1 {
@@ -585,7 +640,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .Progress_done__visible_c28cb7f7 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MultilineOverflow_ec9f8e47 {
@@ -619,7 +674,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Quest_555c39f7 {
@@ -708,7 +763,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   font-weight: 400;
   line-height: 1.3em;
   line-height: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .QuestSeparator_43fba5a4 {
@@ -728,7 +783,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   line-height: 1.3em;
   color: var(--color-currency-free-experience);
   font-weight: 600;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Quests_36d28d52 {
@@ -765,7 +820,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .Quests_base__missions_f09ce410 .Quests_questSeparator_622bda04 {
   margin: 8rem 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Rewards_1a8854f {
@@ -779,7 +834,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .Rewards_base__big_405577a5 .Rewards_reward_28325b8d + .Rewards_reward_28325b8d {
   margin-left: 2rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Disabled_e625fb0e {
@@ -816,7 +871,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaMedium .Disabled_base__missions_3cd47f61 .Disabled_text_291ac5b3 {
   font-size: 22rem;
   line-height: 26rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MissionsCard_card_397fd5a8 {
@@ -888,7 +943,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaMedium .MissionsCard_base__active_612e59cb .MissionsCard_quests_c9799910 {
   margin-top: 59rem;
 }
-.MissionsCard_base__completed_d27920a2 .MissionsCard_quests_c9799910, .MissionsCard_base__locked_d27920a2 .MissionsCard_quests_c9799910 {
+.MissionsCard_base__completed_d27920a2 .MissionsCard_quests_c9799910,
+.MissionsCard_base__locked_d27920a2 .MissionsCard_quests_c9799910 {
   opacity: 0.7;
 }
 
@@ -946,13 +1002,18 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .MissionsCard_brightLine_2caf52b8 {
   width: 236rem;
-  background-image: linear-gradient(90deg, rgba(201, 189, 169, 0) 0%, rgba(201, 189, 169, 0.5) 50%, rgba(201, 189, 169, 0) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(201, 189, 169, 0) 0%,
+    rgba(201, 189, 169, 0.5) 50%,
+    rgba(201, 189, 169, 0) 100%
+  );
 }
 
 .MissionsCard_shadowLine_32ae564b {
   width: 30rem;
   background: rgba(0, 0, 0, 0.4);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DraggingOverlay_599243d {
@@ -966,7 +1027,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .DraggingOverlay_599243d {
   z-index: 1000;
   cursor: move;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScrollableCards_cede7903 {
@@ -1010,7 +1071,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .ScrollableCards_button_189502f8.visible {
   opacity: 1;
   pointer-events: auto;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Missions_aa7824d8 {
@@ -1049,7 +1110,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .mediaLarge .Missions_separator_cf7f866c {
   margin: 22rem 0 12rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Background_af83c19a {
@@ -1061,7 +1122,11 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Background_6cd490f5 {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
   position: absolute;
   left: 0;
 }
@@ -1089,7 +1154,11 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Background_noise_c5b84c8b {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 100%);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1097,14 +1166,15 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Background_noise_c5b84c8b::after {
   width: 1920rem;
   height: 126rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.noise) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.noise) no-repeat
+    center/contain;
   opacity: 0.7;
   content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) rotate(180deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Fill_done_81de6102 {
@@ -1122,7 +1192,10 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   transition: 3s ease-out opacity 4s;
 }
 .Fill_done__doneStatic_b04e330e {
-  box-shadow: 0 0 4rem rgba(var(--color-status-link-rgb), 0.08), 0 0 8rem rgba(255, 221, 170, 0.16), 0 0 16rem rgba(255, 190, 143, 0.24);
+  box-shadow:
+    0 0 4rem rgba(var(--color-status-link-rgb), 0.08),
+    0 0 8rem rgba(255, 221, 170, 0.16),
+    0 0 16rem rgba(255, 190, 143, 0.24);
   opacity: 1;
 }
 
@@ -1139,7 +1212,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   100% {
     opacity: 0;
   }
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ProgressBar_13ab2776,
@@ -1150,7 +1223,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   width: 100%;
   position: relative;
   z-index: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Divider_657ed92 {
@@ -1163,7 +1236,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Divider_separator_5e4040d8 {
   width: 20rem;
   height: 100rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.separator) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.separator) no-repeat
+    center/contain;
   position: absolute;
   bottom: 8rem;
   left: 0;
@@ -1184,13 +1258,18 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   bottom: 0;
   left: 0;
   transform: translate(-50%, 0);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ContentWrapper_border_e0f7c2c {
   width: 100%;
   height: 1rem;
-  background: linear-gradient(90deg, rgba(237, 230, 217, 0) 0, rgba(237, 230, 217, 0.5) 51%, rgba(237, 230, 217, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 230, 217, 0) 0,
+    rgba(237, 230, 217, 0.5) 51%,
+    rgba(237, 230, 217, 0) 100%
+  );
   opacity: 0.5;
   position: absolute;
   left: 0;
@@ -1202,7 +1281,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .ContentWrapper_border__top_89652dc7 {
   top: -3rem;
   z-index: -1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InProgress_status_a90e1754 {
@@ -1217,7 +1296,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .InProgress_point_12655571 {
   transform: translateX(-6rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .NotReceived_wrapper_4d14069c {
@@ -1240,13 +1319,19 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .NotReceived_glareAttention_c2d53c79 {
   width: 150%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0.3) 42%, rgba(255, 255, 255, 0.6) 78%, rgba(255, 255, 255, 0) 87%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0.3) 42%,
+    rgba(255, 255, 255, 0.6) 78%,
+    rgba(255, 255, 255, 0) 87%
+  );
   opacity: 1;
   position: absolute;
   top: auto;
   left: auto;
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Detail_391b711d {
@@ -1291,7 +1376,12 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   bottom: 100rem;
   left: 50%;
   transform: translate(-50%, 4rem);
-  transition: transform 300ms ease-out, width 300ms ease-out, height 300ms ease-out, filter 300ms ease-out, opacity 300ms ease-out;
+  transition:
+    transform 300ms ease-out,
+    width 300ms ease-out,
+    height 300ms ease-out,
+    filter 300ms ease-out,
+    opacity 300ms ease-out;
 }
 .mediaLarge .Detail_786a8eed {
   width: 280rem;
@@ -1325,24 +1415,31 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   transform: translate(-50%, 0);
   cursor: pointer;
 }
-.Detail_base__inProgress_cdd8039b .Detail_786a8eed, .Detail_base__notReceived_cdd8039b .Detail_786a8eed, .Detail_base__selected_cdd8039b .Detail_786a8eed {
+.Detail_base__inProgress_cdd8039b .Detail_786a8eed,
+.Detail_base__notReceived_cdd8039b .Detail_786a8eed,
+.Detail_base__selected_cdd8039b .Detail_786a8eed {
   width: 260rem;
   height: 98rem;
 }
-.mediaLarge .Detail_base__inProgress_cdd8039b .Detail_786a8eed, .mediaLarge .Detail_base__notReceived_cdd8039b .Detail_786a8eed, .mediaLarge .Detail_base__selected_cdd8039b .Detail_786a8eed {
+.mediaLarge .Detail_base__inProgress_cdd8039b .Detail_786a8eed,
+.mediaLarge .Detail_base__notReceived_cdd8039b .Detail_786a8eed,
+.mediaLarge .Detail_base__selected_cdd8039b .Detail_786a8eed {
   width: 400rem;
   height: 150rem;
 }
-.Detail_base__inProgress_cdd8039b .Detail_786a8eed, .Detail_base__notReceived_cdd8039b .Detail_786a8eed {
+.Detail_base__inProgress_cdd8039b .Detail_786a8eed,
+.Detail_base__notReceived_cdd8039b .Detail_786a8eed {
   bottom: 100rem;
 }
-.mediaLarge .Detail_base__inProgress_cdd8039b .Detail_786a8eed, .mediaLarge .Detail_base__notReceived_cdd8039b .Detail_786a8eed {
+.mediaLarge .Detail_base__inProgress_cdd8039b .Detail_786a8eed,
+.mediaLarge .Detail_base__notReceived_cdd8039b .Detail_786a8eed {
   bottom: 92rem;
 }
 .Detail_base__done_cdd8039b .Detail_786a8eed {
   filter: brightness(0.8);
 }
-.Detail_base__completed_cdd8039b .Detail_786a8eed, .Detail_base__completedWithHonors_cdd8039b .Detail_786a8eed {
+.Detail_base__completed_cdd8039b .Detail_786a8eed,
+.Detail_base__completedWithHonors_cdd8039b .Detail_786a8eed {
   filter: brightness(1);
   bottom: 70rem;
 }
@@ -1394,11 +1491,13 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Detail_base__active_cdd8039b .Detail_detailName_3e246437 {
   color: rgba(var(--color-general-primary-rgb), 0.5);
 }
-.Detail_base__inProgress_cdd8039b .Detail_detailName_3e246437, .Detail_base__notReceived_cdd8039b .Detail_detailName_3e246437 {
+.Detail_base__inProgress_cdd8039b .Detail_detailName_3e246437,
+.Detail_base__notReceived_cdd8039b .Detail_detailName_3e246437 {
   opacity: 0;
   pointer-events: none;
 }
-.Detail_base__completed_cdd8039b .Detail_detailName_3e246437, .Detail_base__completedWithHonors_cdd8039b .Detail_detailName_3e246437 {
+.Detail_base__completed_cdd8039b .Detail_detailName_3e246437,
+.Detail_base__completedWithHonors_cdd8039b .Detail_detailName_3e246437 {
   margin: 45rem 0 0;
   transform: translateY(0rem);
 }
@@ -1414,7 +1513,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   bottom: 73rem;
   left: 50%;
   transform: translate(-50%, -2rem);
-  transition: opacity 300ms ease-out, transform 300ms ease-out;
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
   pointer-events: none;
 }
 .mediaLarge .Detail_arrow_c9c63ca8 {
@@ -1422,10 +1523,12 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   height: 64rem;
   bottom: 63rem;
 }
-.Detail_base__done_cdd8039b .Detail_arrow_c9c63ca8, .Detail_base__received_cdd8039b .Detail_arrow_c9c63ca8 {
+.Detail_base__done_cdd8039b .Detail_arrow_c9c63ca8,
+.Detail_base__received_cdd8039b .Detail_arrow_c9c63ca8 {
   opacity: 0.7;
 }
-.Detail_base__completed_cdd8039b .Detail_arrow_c9c63ca8, .Detail_base__completedWithHonors_cdd8039b .Detail_arrow_c9c63ca8 {
+.Detail_base__completed_cdd8039b .Detail_arrow_c9c63ca8,
+.Detail_base__completedWithHonors_cdd8039b .Detail_arrow_c9c63ca8 {
   display: none;
 }
 .Detail_base__selected_cdd8039b .Detail_arrow_c9c63ca8 {
@@ -1442,20 +1545,24 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   bottom: 92rem;
   left: 50%;
   transform: translate(-50%, -4rem);
-  transition: opacity 300ms ease-out, transform 300ms ease-out;
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
   pointer-events: none;
 }
 .Detail_base__done_cdd8039b .Detail_preview_127f6ca4 {
   display: flex;
 }
-.Detail_base__completed_cdd8039b .Detail_preview_127f6ca4, .Detail_base__completedWithHonors_cdd8039b .Detail_preview_127f6ca4 {
+.Detail_base__completed_cdd8039b .Detail_preview_127f6ca4,
+.Detail_base__completedWithHonors_cdd8039b .Detail_preview_127f6ca4 {
   bottom: 60rem;
 }
 
 .Detail_glow_bda41477 {
   width: 242rem;
   height: 65rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.glow) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.glow) no-repeat
+    center/cover;
   opacity: 0.2;
   position: absolute;
   bottom: 20rem;
@@ -1485,11 +1592,20 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   z-index: -1;
   transition: opacity 150ms ease-in;
 }
-.Detail_base__done_cdd8039b .Detail_background_7783be7f, .Detail_base__default_cdd8039b .Detail_background_7783be7f, .Detail_base__notReceived_cdd8039b .Detail_background_7783be7f, .Detail_base__inProgress_cdd8039b .Detail_background_7783be7f {
-  background: radial-gradient(59% 59% at 50% 0%, rgba(225, 225, 225, 0.4) 0%, rgba(225, 225, 225, 0) 100%);
+.Detail_base__done_cdd8039b .Detail_background_7783be7f,
+.Detail_base__default_cdd8039b .Detail_background_7783be7f,
+.Detail_base__notReceived_cdd8039b .Detail_background_7783be7f,
+.Detail_base__inProgress_cdd8039b .Detail_background_7783be7f {
+  background: radial-gradient(
+    59% 59% at 50% 0%,
+    rgba(225, 225, 225, 0.4) 0%,
+    rgba(225, 225, 225, 0) 100%
+  );
   transform: translateY(-2rem);
 }
-.Detail_base__done_cdd8039b .Detail_background_7783be7f, .Detail_base__default_cdd8039b .Detail_background_7783be7f, .Detail_base__notReceived_cdd8039b .Detail_background_7783be7f {
+.Detail_base__done_cdd8039b .Detail_background_7783be7f,
+.Detail_base__default_cdd8039b .Detail_background_7783be7f,
+.Detail_base__notReceived_cdd8039b .Detail_background_7783be7f {
   opacity: 0.1;
 }
 .Detail_base__inProgress_cdd8039b .Detail_background_7783be7f {
@@ -1498,7 +1614,11 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Detail_base__inProgress_cdd8039b .Detail_background_7783be7f::after {
   width: 100%;
   height: 145rem;
-  background: radial-gradient(59% 59% at 50% 0%, rgba(225, 225, 225, 0.4) 0%, rgba(225, 225, 225, 0) 100%);
+  background: radial-gradient(
+    59% 59% at 50% 0%,
+    rgba(225, 225, 225, 0.4) 0%,
+    rgba(225, 225, 225, 0) 100%
+  );
   opacity: 0.5;
   content: "";
   position: absolute;
@@ -1530,7 +1650,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaLarge .Detail_video_82d3b729 {
   width: 380rem;
   height: 170rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Progress_wrapper_4bc654f5::after {
@@ -1554,7 +1674,13 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   width: 100%;
   height: 28rem;
   margin-left: 9rem;
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 20%,
+    rgba(0, 0, 0, 0.3) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
   position: absolute;
   bottom: 33rem;
   left: 0;
@@ -1565,7 +1691,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   border-image: url(R.images.gui.maps.icons.ui_kit.common.secondary_border_pattern) 4/4rem round;
   opacity: 0.9;
   content: "";
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .AdditionalReward_f8c5544e {
@@ -1601,7 +1727,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   width: 80rem;
   height: 80rem;
   position: relative;
-  transition: opacity 300ms ease-out, transform 300ms ease-out;
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
 }
 .AdditionalReward_reward__style_63ee7343:hover {
   transform: translateY(-4rem);
@@ -1621,7 +1749,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   left: 50%;
   z-index: 1;
   transform: translate(-50%, -4rem);
-  transition: opacity 300ms ease-out, transform 300ms ease-out;
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
   pointer-events: none;
 }
 .AdditionalReward_reward_614e1789:hover .AdditionalReward_preview_d2077285 {
@@ -1655,7 +1785,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .AdditionalReward_icon_286945a9 {
   transform: translateY(1rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MainReward_fc423f8a {
@@ -1718,7 +1848,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .MainReward_buttonContent_e44cd18e {
   font-weight: 700;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Rewards_855b83d9 {
@@ -1743,7 +1873,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .Rewards_mainReward_feb5fd02 {
   transform: translateY(-19rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Progression_cd193b8c {
@@ -1785,7 +1915,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Progression_shadow_b01cb69a {
   width: 102rem;
   height: 280rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.shadow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression.shadow) no-repeat
+    center/contain;
   position: absolute;
   bottom: -30rem;
   z-index: 1;
@@ -1814,7 +1945,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   right: 282rem;
   bottom: 33rem;
 }
-.Progression_base__completed_61efd8f5 .Progression_arrowButton__right_ca24c462, .Progression_base__completedWithHonors_61efd8f5 .Progression_arrowButton__right_ca24c462 {
+.Progression_base__completed_61efd8f5 .Progression_arrowButton__right_ca24c462,
+.Progression_base__completedWithHonors_61efd8f5 .Progression_arrowButton__right_ca24c462 {
   right: 20rem;
 }
 .Progression_arrowButton__visible_627338e7 {
@@ -1839,7 +1971,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Progression_bar_e8c74acd {
   padding: 0 10rem;
   transform: translateY(-12rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .OperationStatus_7bc3be55 {
@@ -1848,7 +1980,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   align-items: center;
   width: 930rem;
   height: 46rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.menu.statusBackground) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.menu.statusBackground) no-repeat
+    center/contain;
   color: rgba(var(--color-general-primary-rgb), 0.9);
   font-size: 20rem;
   line-height: 24rem;
@@ -1873,7 +2006,13 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .OperationStatus_glareAttention_18133b71 {
   width: 210%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0.3) 42%, rgba(255, 255, 255, 0.6) 78%, rgba(255, 255, 255, 0) 87%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0.3) 42%,
+    rgba(255, 255, 255, 0.6) 78%,
+    rgba(255, 255, 255, 0) 87%
+  );
   opacity: 1;
   position: absolute;
   top: auto;
@@ -1887,7 +2026,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   line-height: 1.3em;
   padding-bottom: 3rem;
   font-weight: 700;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .State_c71b06cc {
@@ -1900,7 +2039,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   height: 24rem;
   background: no-repeat center/contain;
   transform: translateX(-56rem);
-  transition: opacity 500ms, transform 500ms;
+  transition:
+    opacity 500ms,
+    transform 500ms;
 }
 .State_base__selected_9f725de9 .State_icon_2d3ccaa3 {
   transform: translateX(0);
@@ -1912,16 +2053,20 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   line-height: 1.3em;
   transition: opacity 300ms;
 }
-.State_base__completedWithHonors_9f725de9 .State_text_d27af289, .State_base__completed_9f725de9 .State_text_d27af289 {
+.State_base__completedWithHonors_9f725de9 .State_text_d27af289,
+.State_base__completed_9f725de9 .State_text_d27af289 {
   color: var(--color-status-done);
 }
 .State_base__active_9f725de9 .State_text_d27af289 {
   color: #cbac77;
 }
-.State_base__unavailable_9f725de9 .State_text_d27af289, .State_base__available_9f725de9 .State_text_d27af289 {
+.State_base__unavailable_9f725de9 .State_text_d27af289,
+.State_base__available_9f725de9 .State_text_d27af289 {
   color: var(--color-general-primary);
 }
-.State_base__completedWithHonors_9f725de9 .State_text_d27af289, .State_base__completed_9f725de9 .State_text_d27af289, .State_base__available_9f725de9 .State_text_d27af289 {
+.State_base__completedWithHonors_9f725de9 .State_text_d27af289,
+.State_base__completed_9f725de9 .State_text_d27af289,
+.State_base__available_9f725de9 .State_text_d27af289 {
   opacity: 0.9;
 }
 .State_base__unavailable_9f725de9 .State_text_d27af289 {
@@ -1929,7 +2074,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .State_base__textHidden_9f725de9 .State_text_d27af289 {
   opacity: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleName_c038d9d8 {
@@ -1957,7 +2102,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .VehicleName_playVideoButton_10de3bdb:active {
   opacity: 0.5;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MenuItem_d36069b6 {
@@ -1986,7 +2131,10 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   position: absolute;
   top: 0;
   left: 0;
-  transition: opacity 500ms, width 500ms, height 500ms;
+  transition:
+    opacity 500ms,
+    width 500ms,
+    height 500ms;
 }
 .MenuItem_d36069b6:hover .MenuItem_vehicleImage_1697986e {
   opacity: 0.9;
@@ -1995,14 +2143,17 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   opacity: 0.5;
   transition-duration: 200ms, 500ms, 500ms;
 }
-.MenuItem_base__unavailable_28be5e00 .MenuItem_vehicleImage_1697986e, .MenuItem_base__locked_28be5e00 .MenuItem_vehicleImage_1697986e, .MenuItem_base__locked_28be5e00:hover .MenuItem_vehicleImage_1697986e {
+.MenuItem_base__unavailable_28be5e00 .MenuItem_vehicleImage_1697986e,
+.MenuItem_base__locked_28be5e00 .MenuItem_vehicleImage_1697986e,
+.MenuItem_base__locked_28be5e00:hover .MenuItem_vehicleImage_1697986e {
   opacity: 0.6;
 }
 .MenuItem_base__selected_b91feb1b .MenuItem_vehicleImage_1697986e {
   width: 150rem;
   height: 100rem;
 }
-.MenuItem_base__selected_b91feb1b .MenuItem_vehicleImage_1697986e, .MenuItem_base__selected_b91feb1b:hover .MenuItem_vehicleImage_1697986e {
+.MenuItem_base__selected_b91feb1b .MenuItem_vehicleImage_1697986e,
+.MenuItem_base__selected_b91feb1b:hover .MenuItem_vehicleImage_1697986e {
   opacity: 1;
 }
 
@@ -2031,12 +2182,14 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .MenuItem_d36069b6:hover .MenuItem_state_b65b146b {
   opacity: 1;
 }
-.MenuItem_base__unavailable_28be5e00 .MenuItem_state_b65b146b, .MenuItem_base__locked_28be5e00 .MenuItem_state_b65b146b, .MenuItem_base__locked_28be5e00:hover .MenuItem_state_b65b146b {
+.MenuItem_base__unavailable_28be5e00 .MenuItem_state_b65b146b,
+.MenuItem_base__locked_28be5e00 .MenuItem_state_b65b146b,
+.MenuItem_base__locked_28be5e00:hover .MenuItem_state_b65b146b {
   opacity: 0.6;
 }
 .MenuItem_base__selected_b91feb1b .MenuItem_state_b65b146b {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Menu_f1a51291 {
@@ -2055,7 +2208,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .Menu_chevron_64fd0b8c {
   margin: 17rem 0 0 -10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .NewOperationBanner_8e4ab8a {
@@ -2079,7 +2232,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .NewOperationBanner_glow_b7bd7fdc {
   width: 600rem;
   height: 400rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.main.new_operation_banner.attention_background") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.main.new_operation_banner.attention_background")
+    no-repeat center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2107,7 +2261,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .NewOperationBanner_background_53154b2a {
   filter: brightness(1);
   opacity: 0.7;
-  transition: opacity 0.4s ease-out, filter 0.4s ease-out;
+  transition:
+    opacity 0.4s ease-out,
+    filter 0.4s ease-out;
 }
 .NewOperationBanner_flag_7964203e:hover .NewOperationBanner_background_53154b2a {
   filter: brightness(1.2);
@@ -2143,7 +2299,10 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   font-weight: 500;
   line-height: 115%;
   text-align: right;
-  text-shadow: 0 0 30rem rgba(255, 60, 60, 0.3), 0 0 25rem rgba(255, 82, 82, 0.7), 0 0 16rem rgba(255, 154, 82, 0.6);
+  text-shadow:
+    0 0 30rem rgba(255, 60, 60, 0.3),
+    0 0 25rem rgba(255, 82, 82, 0.7),
+    0 0 16rem rgba(255, 154, 82, 0.6);
   transform: translateY(-26rem);
 }
 
@@ -2160,7 +2319,13 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .NewOperationBanner_glareHover_bbd5ed5e {
   width: 100%;
   height: 100%;
-  background: linear-gradient(205deg, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0.3) 42%, rgba(255, 255, 255, 0.6) 78%, rgba(255, 255, 255, 0) 87%);
+  background: linear-gradient(
+    205deg,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0.3) 42%,
+    rgba(255, 255, 255, 0.6) 78%,
+    rgba(255, 255, 255, 0) 87%
+  );
   opacity: 0.4;
   mix-blend-mode: screen;
   transform: translateY(-180rem);
@@ -2168,7 +2333,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .NewOperationBanner_flag_7964203e:hover .NewOperationBanner_glareHover_bbd5ed5e {
   transform: translateY(-80rem);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Completed_up_5a670638 {
@@ -2305,7 +2470,11 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Completed_glow_a9f265a3 {
   width: 600rem;
   height: 550rem;
-  background: radial-gradient(48.79% 48.79% at 50% 48.79%, rgba(36, 70, 34, 0.8) 0%, rgba(50, 54, 50, 0) 100%);
+  background: radial-gradient(
+    48.79% 48.79% at 50% 48.79%,
+    rgba(36, 70, 34, 0.8) 0%,
+    rgba(50, 54, 50, 0) 100%
+  );
   opacity: 0;
   position: absolute;
   top: 5rem;
@@ -2329,7 +2498,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   width: 1300rem;
   height: 1300rem;
   margin: -820rem 0 0 -650rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.common.lines) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.personal_missions_30.common.lines) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   top: 100%;
@@ -2344,7 +2514,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 .mediaLarge .Completed_rays_8566affd {
   margin-top: -875rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Completed_cc94136f {
@@ -2380,7 +2550,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaExtraLarge .Completed_text_3d00c33a {
   font-size: 22rem;
   line-height: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Title_1676083a {
@@ -2407,7 +2577,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .Title_image_899d070e {
   opacity: 0.9;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleTypes_54108783 {
@@ -2436,8 +2606,9 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .VehicleTypes_line_d3555d32 {
   flex: 1;
   height: 1rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+  background: url(R.images.gui.maps.icons.personal_missions_30.common.border_pattern) repeat
+    center/contain;
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .DefaultCard_2c35f6e {
@@ -2537,7 +2708,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .mediaExtraLarge .DefaultCard_rewards_14dfa3b1 {
   height: 60rem;
   margin: 8rem 0 3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .AdditionalCard_15bcf296 {
@@ -2638,7 +2809,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   font-weight: 400;
   line-height: 1.3em;
   line-height: 22rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Missions_74bb97b6 {
@@ -2682,7 +2853,7 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 .Missions_additionalCard_8b2b9913 {
   flex: 1;
   padding: 3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Progression_dc19a034 {
@@ -2735,10 +2906,11 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 
 .Progression_menu_ad782db3 {
   pointer-events: auto;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Main_sceneWrapper_84c5dae7, .Main_progressionShadow_ca6ff6b5,
+.Main_sceneWrapper_84c5dae7,
+.Main_progressionShadow_ca6ff6b5,
 .Main_missionsShadow_eb81cd44,
 .Main_vignette_4ff7a20d,
 .Main_shadow_dd29bf43 {
@@ -2827,7 +2999,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   padding-left: 0;
   padding-right: 0;
 }
-.Main_base__assembling_84c5dae7 .Main_wrapper_77b681a3, .Main_base__progression_84c5dae7 .Main_wrapper_77b681a3 {
+.Main_base__assembling_84c5dae7 .Main_wrapper_77b681a3,
+.Main_base__progression_84c5dae7 .Main_wrapper_77b681a3 {
   pointer-events: none;
 }
 
@@ -2845,10 +3018,12 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
 }
 
 .Main_progressionShadow_ca6ff6b5 {
-  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression_vidnette) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.personal_missions_30.main.progression_vidnette) no-repeat
+    center/cover;
   opacity: 0.9;
 }
-.Main_base__assembling_84c5dae7 .Main_progressionShadow_ca6ff6b5, .Main_base__completedWithHonors_84c5dae7 .Main_progressionShadow_ca6ff6b5 {
+.Main_base__assembling_84c5dae7 .Main_progressionShadow_ca6ff6b5,
+.Main_base__completedWithHonors_84c5dae7 .Main_progressionShadow_ca6ff6b5 {
   opacity: 0;
 }
 
@@ -2871,7 +3046,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   transition: opacity 300ms ease-out;
   pointer-events: none;
 }
-.Main_base__completedWithHonors_84c5dae7.Main_base__progression_84c5dae7 .Main_completedWithHonorsShadow_cc7ae74e {
+.Main_base__completedWithHonors_84c5dae7.Main_base__progression_84c5dae7
+  .Main_completedWithHonorsShadow_cc7ae74e {
   opacity: 0.85;
 }
 
@@ -2886,7 +3062,8 @@ html[lang=de] .mediaMedium .CategoryInfo_descriptionBlock_18a18499 {
   display: none;
   pointer-events: none;
 }
-.Main_base__progression_84c5dae7 .Main_progress_a05440d5, .Main_base__assembling_84c5dae7 .Main_progress_a05440d5 {
+.Main_base__progression_84c5dae7 .Main_progress_a05440d5,
+.Main_base__assembling_84c5dae7 .Main_progress_a05440d5 {
   pointer-events: auto;
 }
 

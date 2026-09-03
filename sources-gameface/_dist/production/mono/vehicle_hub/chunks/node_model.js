@@ -1,1 +1,15 @@
-var e=(e=>(e.Researched="researched",e.Selected="selected",e.Default="default",e))(e||{}),a=(e=>(e.Major="major",e.Special="special",e.Final="final",e.Common="common",e.Ghost="ghost",e))(a||{});export{e as S,a as T};
+var e = ((e) => (
+    (e.Researched = "researched"),
+    (e.Selected = "selected"),
+    (e.Default = "default"),
+    e
+  ))(e || {}),
+  a = ((e) => (
+    (e.Major = "major"),
+    (e.Special = "special"),
+    (e.Final = "final"),
+    (e.Common = "common"),
+    (e.Ghost = "ghost"),
+    e
+  ))(a || {});
+export { e as S, a as T };

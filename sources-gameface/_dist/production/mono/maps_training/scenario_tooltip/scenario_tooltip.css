@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -49,11 +56,12 @@ html[lang=th] input {
   width: 32rem;
   height: 32rem;
   margin: -3rem;
-  background: no-repeat 50%/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+  background: no-repeat 50% / contain;
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -76,21 +84,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -147,7 +161,7 @@ html[lang=th] input {
 .ScenarioTooltip_vehicle_5a40fa05 {
   width: 20rem;
   height: 20rem;
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
 }
 .ScenarioTooltip_vehicle__mediumTank_61e7d52c {
   background-image: url(R.images.gui.maps.icons.mapsTraining.mediumTank);
@@ -160,7 +174,7 @@ html[lang=th] input {
   width: 380rem;
   height: 9rem;
   margin: -4rem 0;
-  background: url(R.images.gui.maps.icons.mapsTraining.dividerDotty) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.dividerDotty) no-repeat 50% / contain;
 }
 
 .ScenarioTooltip_rewards_304168fb {
@@ -170,7 +184,13 @@ html[lang=th] input {
   align-items: center;
   width: 380rem;
   margin: 14rem 0 0 -20rem;
-  background: linear-gradient(90deg, rgba(196, 196, 196, 0) 8%, rgba(196, 196, 196, 0.1) 36%, rgba(196, 196, 196, 0.1) 64%, rgba(196, 196, 196, 0) 91%);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 196, 196, 0) 8%,
+    rgba(196, 196, 196, 0.1) 36%,
+    rgba(196, 196, 196, 0.1) 64%,
+    rgba(196, 196, 196, 0) 91%
+  );
 }
 
 .ScenarioTooltip_rewardsItemsMix_82604f59 {
@@ -181,7 +201,7 @@ html[lang=th] input {
   width: 22rem;
   height: 16rem;
   margin-bottom: 5rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.tooltip_completed) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.tooltip_completed) no-repeat 50% / contain;
 }
 
 .ScenarioTooltip_info_655ab6a9 {
@@ -198,5 +218,5 @@ html[lang=th] input {
   width: 23rem;
   height: 23rem;
   margin: 3rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.tooltip_info) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.tooltip_info) no-repeat 50% / contain;
 }

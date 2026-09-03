@@ -74,7 +74,13 @@
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .List_e841c5d7 {
-  background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, rgba(201, 201, 182, 0.07) 38.22%, rgba(201, 201, 182, 0.07) 64.56%, rgba(201, 201, 182, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 201, 182, 0) 0%,
+    rgba(201, 201, 182, 0.07) 38.22%,
+    rgba(201, 201, 182, 0.07) 64.56%,
+    rgba(201, 201, 182, 0) 100%
+  );
 }
 
 .List_item_fd6c0009 {
@@ -88,7 +94,8 @@
   margin: 12rem 6rem 0 0;
   border-radius: 100%;
   background-color: #8c8c7e;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -175,7 +182,8 @@
 .Content_image_e25fcf8a {
   width: 232rem;
   height: 174rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.random_quest") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.random_quest") no-repeat
+    center/contain;
 }
 
 .Content_title_36b16647 {
@@ -202,7 +210,8 @@
   width: 420rem;
   height: 9rem;
   margin-top: 8rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.random_quest_divider") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.random_quest_divider") no-repeat
+    center/contain;
 }
 
 .Content_rewardBase_967dd44a {

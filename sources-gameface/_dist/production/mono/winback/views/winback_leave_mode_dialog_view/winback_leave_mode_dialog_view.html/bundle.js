@@ -1,1 +1,89 @@
-import{x as e,j as a}from"../../../chunks/vendor.js";import{i as s,n as i,r as c,u as o,T as l,C as n,B as r,a as d,b as t,U as p}from"../../../chunks/lib.js";/* empty css                    */const[m,b]=s("WinbackLeaveModeDialogViewModel")(i,({externalModel:e})=>({close:e.createCallbackNoArgs("onClose"),confirm:e.createCallbackNoArgs("onLeaveMode")})),j="App_46ee3e4e",k="App_closeButton_f5179698",x="App_content_45130151",_="App_modeIcon_1197f4a",v="App_title_b88d6a39",w="App_alert_47e07ad4",h="App_alertIcon_3798e60f",u="App_divider_d1dc8925",A="App_actions_cb654453",g="App_button_3cdb7609",y=c.resolve("strings"),N=e(function(){const{controls:e}=b();return o(e.close),a.jsxs("div",{className:j,children:[a.jsx("div",{className:k,children:a.jsx(l,{caption:y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.close"),type:"close",side:"right",onClick:e.close})}),a.jsxs("div",{className:x,children:[a.jsx("div",{className:_}),a.jsx("div",{className:v,children:y.readOrEmpty("winback.winbackLeaveModeDialogView.title")}),a.jsxs("div",{className:w,children:[a.jsx("span",{className:h}),y.readOrEmpty("winback.winbackLeaveModeDialogView.alert")]}),a.jsx("div",{className:u}),a.jsxs("div",{className:A,children:[a.jsx(n,{size:d.medium,mixClass:g,type:r.primary,onClick:e.confirm,children:y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.confirm")}),a.jsx(n,{size:d.medium,mixClass:g,type:r.secondary,onClick:e.close,children:y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.cancel")})]})]})]})});t(a.jsx(m,{children:a.jsx(p,{children:a.jsx(N,{})})}),{immediateLayout:!1});
+import { x as e, j as a } from "../../../chunks/vendor.js";
+import {
+  i as s,
+  n as i,
+  r as c,
+  u as o,
+  T as l,
+  C as n,
+  B as r,
+  a as d,
+  b as t,
+  U as p,
+} from "../../../chunks/lib.js";
+/* empty css                    */ const [m, b] = s("WinbackLeaveModeDialogViewModel")(
+    i,
+    ({ externalModel: e }) => ({
+      close: e.createCallbackNoArgs("onClose"),
+      confirm: e.createCallbackNoArgs("onLeaveMode"),
+    }),
+  ),
+  j = "App_46ee3e4e",
+  k = "App_closeButton_f5179698",
+  x = "App_content_45130151",
+  _ = "App_modeIcon_1197f4a",
+  v = "App_title_b88d6a39",
+  w = "App_alert_47e07ad4",
+  h = "App_alertIcon_3798e60f",
+  u = "App_divider_d1dc8925",
+  A = "App_actions_cb654453",
+  g = "App_button_3cdb7609",
+  y = c.resolve("strings"),
+  N = e(function () {
+    const { controls: e } = b();
+    return (
+      o(e.close),
+      a.jsxs("div", {
+        className: j,
+        children: [
+          a.jsx("div", {
+            className: k,
+            children: a.jsx(l, {
+              caption: y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.close"),
+              type: "close",
+              side: "right",
+              onClick: e.close,
+            }),
+          }),
+          a.jsxs("div", {
+            className: x,
+            children: [
+              a.jsx("div", { className: _ }),
+              a.jsx("div", {
+                className: v,
+                children: y.readOrEmpty("winback.winbackLeaveModeDialogView.title"),
+              }),
+              a.jsxs("div", {
+                className: w,
+                children: [
+                  a.jsx("span", { className: h }),
+                  y.readOrEmpty("winback.winbackLeaveModeDialogView.alert"),
+                ],
+              }),
+              a.jsx("div", { className: u }),
+              a.jsxs("div", {
+                className: A,
+                children: [
+                  a.jsx(n, {
+                    size: d.medium,
+                    mixClass: g,
+                    type: r.primary,
+                    onClick: e.confirm,
+                    children: y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.confirm"),
+                  }),
+                  a.jsx(n, {
+                    size: d.medium,
+                    mixClass: g,
+                    type: r.secondary,
+                    onClick: e.close,
+                    children: y.readOrEmpty("winback.winbackLeaveModeDialogView.buttons.cancel"),
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      })
+    );
+  });
+t(a.jsx(m, { children: a.jsx(p, { children: a.jsx(N, {}) }) }), { immediateLayout: !1 });
