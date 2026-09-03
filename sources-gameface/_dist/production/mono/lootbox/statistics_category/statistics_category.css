@@ -23,7 +23,7 @@
 .AttachmentRarity_ico_f4c561ab {
   width: 20rem;
   height: 20rem;
-  background: no-repeat 0 0/contain;
+  background: no-repeat 0 0 / contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,7 +41,8 @@
 }
 .AttachmentRarity_base__legendary_43c6f01c .AttachmentRarity_text_df05f94a {
   color: #d0aa60;
-}@keyframes List_fadeIn_5974b0a7 {
+}
+@keyframes List_fadeIn_5974b0a7 {
   from {
     opacity: 0;
   }
@@ -92,7 +93,8 @@
   width: 24rem;
   height: 24rem;
   margin: 0 5rem;
-}@keyframes Skills_fadeIn_2c9d324a {
+}
+@keyframes Skills_fadeIn_2c9d324a {
   from {
     opacity: 0;
   }
@@ -112,7 +114,8 @@
   height: 16rem;
   margin-right: 4rem;
   background: center/contain;
-}@keyframes Reward_fadeIn_21f091ec {
+}
+@keyframes Reward_fadeIn_21f091ec {
   from {
     opacity: 0;
   }
@@ -168,7 +171,8 @@
 
 .Reward_skills_b1d62052 {
   margin-top: 4rem;
-}@keyframes Rewards_fadeIn_405577a5 {
+}
+@keyframes Rewards_fadeIn_405577a5 {
   from {
     opacity: 0;
   }
@@ -195,7 +199,8 @@
   line-height: 1.3em;
   margin-top: 12rem;
   color: var(--color-general-secondary);
-}@keyframes Content_fadeIn_da09528a {
+}
+@keyframes Content_fadeIn_da09528a {
   from {
     opacity: 0;
   }
@@ -209,7 +214,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

@@ -38,8 +38,9 @@
   width: 183rem;
   height: 46rem;
   margin: -11rem 0 -5rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.or") no-repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.or") no-repeat
+    center/contain;
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Rewards_133d6676 {
@@ -48,7 +49,8 @@
   align-items: center;
   width: 340rem;
   height: 114rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.ribbon") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.ribbon") no-repeat
+    center/contain;
 }
 
 .Rewards_reward_37bfce6e {
@@ -59,7 +61,8 @@
 .Rewards_lock_aac08787 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.lock") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.lock") no-repeat
+    center/contain;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -69,7 +72,7 @@
 
 .Rewards_rewardItem__locked_854387f7 {
   opacity: 0.4;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Content_vehicle__completed_7ddc57c3 {
@@ -84,7 +87,8 @@
   width: 100%;
   margin-left: -1rem;
   padding-left: 1rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.content") no-repeat left top/100%;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.content") no-repeat
+    left top/100%;
   position: relative;
 }
 
@@ -123,7 +127,8 @@
   width: 24rem;
   height: 24rem;
   margin-top: 1rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.completed") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.completed") no-repeat
+    center/contain;
 }
 
 .Content_completedTitle_359f897d {
@@ -171,13 +176,14 @@
   width: 64rem;
   height: 64rem;
   margin: 0 -10rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.icon_tank") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.icon_tank") no-repeat
+    center/contain;
   position: relative;
 }
 .Content_vehicle__completed_7ddc57c3 {
   margin: 0;
   background-image: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.tank_complete");
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Footer_1a3a6ef2 {
@@ -214,7 +220,8 @@
   width: 24rem;
   height: 24rem;
   margin-right: 2rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.warning") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.warning") no-repeat
+    center/contain;
 }
 
 .Footer_warningText_fe7e2424 {
@@ -238,7 +245,8 @@
 .Footer_flag_d1c54678 {
   width: 24rem;
   height: 24rem;
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.flag") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.flag") no-repeat
+    center/contain;
 }
 
 .Footer_status_4e68aa27 {
@@ -248,7 +256,7 @@
   margin-bottom: -1rem;
   color: #edcb9e;
   letter-spacing: 0.6rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_overlay_c7c1d9a8 {
@@ -270,7 +278,8 @@
 }
 
 .Header_overlay_c7c1d9a8 {
-  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.overlay") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.personal_missions_30.tooltips.umg.bg.overlay") no-repeat
+    center/contain;
   z-index: 2;
 }
 
@@ -286,7 +295,7 @@
   top: 5rem;
   left: 14rem;
   z-index: 3;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .UmgTooltip_b6709ae6 {

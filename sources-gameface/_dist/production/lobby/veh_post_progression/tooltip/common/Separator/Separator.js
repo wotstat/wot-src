@@ -1,1 +1,16 @@
-(()=>{"use strict";var r={7363:r=>{r.exports=React}},t={};function e(o){var s=t[o];if(void 0!==s)return s.exports;var p=t[o]={exports:{}};return r[o](p,p.exports,e),p.exports}e(7363)})();
+(() => {
+  "use strict";
+  var r = {
+      7363: (r) => {
+        r.exports = React;
+      },
+    },
+    t = {};
+  function e(o) {
+    var s = t[o];
+    if (void 0 !== s) return s.exports;
+    var p = (t[o] = { exports: {} });
+    return (r[o](p, p.exports, e), p.exports);
+  }
+  e(7363);
+})();

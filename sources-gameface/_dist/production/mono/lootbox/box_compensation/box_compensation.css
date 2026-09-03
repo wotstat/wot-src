@@ -12,7 +12,8 @@
   width: 36rem;
   height: 36rem;
   background: no-repeat center/contain;
-}@keyframes Description_fadeIn_49efcb55 {
+}
+@keyframes Description_fadeIn_49efcb55 {
   from {
     opacity: 0;
   }
@@ -28,7 +29,8 @@
   line-height: 1.3em;
   color: var(--color-general-tertiary);
   line-height: 1.1;
-}@keyframes Heading_fadeIn_da06193d {
+}
+@keyframes Heading_fadeIn_da06193d {
   from {
     opacity: 0;
   }
@@ -44,7 +46,8 @@
   line-height: 1.3em;
   color: rgba(var(--color-general-primary-rgb), 0.9);
   font-weight: 400;
-}@keyframes Info_fadeIn_3f9bb731 {
+}
+@keyframes Info_fadeIn_3f9bb731 {
   from {
     opacity: 0;
   }
@@ -70,7 +73,8 @@
   flex-shrink: 1;
   color: var(--color-general-tertiary);
   line-height: 1.1;
-}@keyframes Tooltip_fadeIn_648bdb8d {
+}
+@keyframes Tooltip_fadeIn_648bdb8d {
   from {
     opacity: 0;
   }
@@ -86,7 +90,8 @@
 
 .Tooltip_divider_e05cf029 {
   margin: 10rem 0;
-}@keyframes Box_fadeIn_0 {
+}
+@keyframes Box_fadeIn_0 {
   from {
     opacity: 0;
   }
@@ -104,7 +109,8 @@
 
 .Box_shield_6c5351b6 {
   transform: translateX(-3rem);
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

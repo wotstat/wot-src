@@ -79,7 +79,8 @@
 .Styles_separator_46f5d10f {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Styles_rewards_34671e2f {
   display: flex;
@@ -88,7 +89,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }
@@ -98,7 +100,8 @@
   width: 403rem;
   padding-left: 28rem;
   padding-bottom: 10rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.Gradient_devider") center top/100% 40rem no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.Gradient_devider") center top/100%
+    40rem no-repeat;
   position: relative;
 }
 .Styles_separators_c0377bd4 {
@@ -142,7 +145,8 @@
 }
 .Styles_labelColumn_bf6ee8a4 {
   flex: 1 1 auto;
-}@keyframes Point_fadeInWithScale_d8b7e333 {
+}
+@keyframes Point_fadeInWithScale_d8b7e333 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -254,7 +258,8 @@
   width: 32rem;
   height: 38rem;
   margin-top: -20rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.additional_points_glow") center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.additional_points_glow")
+    center/contain no-repeat;
   position: absolute;
   top: 50%;
   left: -14rem;
@@ -284,7 +289,8 @@
   margin-left: 6rem;
   margin-top: 4rem;
   background: url("R.images.gui.maps.icons.battlePass.tooltips.points_24") center/contain no-repeat;
-}@keyframes PointsTable_fadeInWithScale_adbccef6 {
+}
+@keyframes PointsTable_fadeInWithScale_adbccef6 {
   0% {
     opacity: 0;
     transform: scale(1.2);

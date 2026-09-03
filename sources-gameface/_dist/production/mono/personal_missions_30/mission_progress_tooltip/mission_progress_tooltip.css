@@ -12,7 +12,8 @@
   width: 64rem;
   height: 64rem;
   margin-left: 23rem;
-  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.mission_progress.vehicle_empty) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.personal_missions_30.tooltips.mission_progress.vehicle_empty)
+    no-repeat center/cover;
 }
 .VehicleItem_base__completed_e538d77c .VehicleItem_vehicleIcon_be065974 {
   background-image: url(R.images.gui.maps.icons.personal_missions_30.tooltips.mission_progress.vehicle_filled);
@@ -45,7 +46,7 @@
   height: 14rem;
   top: 48rem;
   right: 49rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InnerBlock_a92b837 {
@@ -72,7 +73,7 @@
   display: flex;
   justify-content: center;
   margin: 2rem 0 20rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MissionProgressTooltip_a2ab3368 {

@@ -25,7 +25,8 @@
 
 .Timer_9f04d336 {
   transform: translateY(2rem);
-}@keyframes BaseTooltip_fadeIn_93d80cba {
+}
+@keyframes BaseTooltip_fadeIn_93d80cba {
   from {
     opacity: 0;
   }
@@ -50,7 +51,8 @@
   margin-top: 6rem;
   color: var(--color-general-tertiary);
   line-height: 1.1;
-}@keyframes AlertIcon_fadeIn_a8a4098d {
+}
+@keyframes AlertIcon_fadeIn_a8a4098d {
   from {
     opacity: 0;
   }
@@ -88,7 +90,8 @@
 .AlertIcon_base__big_a8a4098d .AlertIcon_icon_3bb8b40 {
   width: 32rem;
   height: 32rem;
-}@keyframes ErrorTooltip_fadeIn_519671ab {
+}
+@keyframes ErrorTooltip_fadeIn_519671ab {
   from {
     opacity: 0;
   }
@@ -128,7 +131,8 @@
   margin-top: 3rem;
   color: var(--color-general-tertiary);
   line-height: 1.2;
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

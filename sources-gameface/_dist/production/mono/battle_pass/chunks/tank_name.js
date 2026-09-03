@@ -1,1 +1,47 @@
-import{j as e}from"./vendor.js";import{aS as a,cp as s,s as l,at as i}from"./lib.js";const n=e=>{switch(e){case i.heavyTank:return i.heavyTank;case i.lightTank:return i.lightTank;case i.mediumTank:return i.mediumTank;case i.SPG:return i.SPG;default:return i["AT-SPG"]}},r=({vehicleName:i,vehicleShortName:r,vehicleType:m,vehicleLvl:c,isElite:t,classNames:o,vehicleTypeIconSize:u=l.x64x64,isShortName:v=!1,custom:h=!1})=>e.jsx("div",{className:null==o?void 0:o.base,children:e.jsxs(a,{children:[e.jsx(a.Level,{className:null==o?void 0:o.level,value:c,numberType:s.numberTypes.roman}),e.jsx(a.Type,{className:null==o?void 0:o.typeIcon,type:n(m),premium:t,size:u}),e.jsx(a.Name,{className:null==o?void 0:o.name,children:v?r:i})]})});export{r as T};
+import { j as e } from "./vendor.js";
+import { aS as a, cp as s, s as l, at as i } from "./lib.js";
+const n = (e) => {
+    switch (e) {
+      case i.heavyTank:
+        return i.heavyTank;
+      case i.lightTank:
+        return i.lightTank;
+      case i.mediumTank:
+        return i.mediumTank;
+      case i.SPG:
+        return i.SPG;
+      default:
+        return i["AT-SPG"];
+    }
+  },
+  r = ({
+    vehicleName: i,
+    vehicleShortName: r,
+    vehicleType: m,
+    vehicleLvl: c,
+    isElite: t,
+    classNames: o,
+    vehicleTypeIconSize: u = l.x64x64,
+    isShortName: v = !1,
+    custom: h = !1,
+  }) =>
+    e.jsx("div", {
+      className: null == o ? void 0 : o.base,
+      children: e.jsxs(a, {
+        children: [
+          e.jsx(a.Level, {
+            className: null == o ? void 0 : o.level,
+            value: c,
+            numberType: s.numberTypes.roman,
+          }),
+          e.jsx(a.Type, {
+            className: null == o ? void 0 : o.typeIcon,
+            type: n(m),
+            premium: t,
+            size: u,
+          }),
+          e.jsx(a.Name, { className: null == o ? void 0 : o.name, children: v ? r : i }),
+        ],
+      }),
+    });
+export { r as T };

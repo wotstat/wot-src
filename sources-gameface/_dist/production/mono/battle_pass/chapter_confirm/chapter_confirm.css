@@ -100,7 +100,8 @@
 
 .ExtraChapterDescription_highlightText_3444159b {
   color: var(--color-status-alert);
-}@keyframes Container_fadeInWithScale_a197fc5 {
+}
+@keyframes Container_fadeInWithScale_a197fc5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -204,7 +205,8 @@
 }
 .mediaExtraLarge .Container_divider_9b7ebff {
   margin: 40rem 0;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);

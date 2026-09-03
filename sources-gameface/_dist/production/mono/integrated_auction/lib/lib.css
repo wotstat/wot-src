@@ -11,7 +11,7 @@
   border-image-slice: 24 fill;
   border-image-width: 24rem;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .FormattedValue_item__x16x16_9eb36ff5 + .FormattedValue_item__x16x16_9eb36ff5 {
   margin-left: 6rem;
@@ -64,7 +64,7 @@
 }
 .FormattedValue_detailedSeparator__x80x80_2c1c84ee {
   margin: -4rem 20rem 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Timer_dac0a0aa {
   display: flex;
@@ -156,7 +156,11 @@
 .Timer_label__accent_ac7d4f7b {
   color: #edcb9e;
   font-weight: 500;
-  text-shadow: 0 0 6rem rgba(255, 228, 159, 0.16), 0 0 10rem rgba(255, 177, 86, 0.24), 0 0 12rem rgba(255, 61, 0, 0.32), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 0 6rem rgba(255, 228, 159, 0.16),
+    0 0 10rem rgba(255, 177, 86, 0.24),
+    0 0 12rem rgba(255, 61, 0, 0.32),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
 }
 .Timer_label__cooldown_c2349ab9 {
   color: rgba(var(--color-general-primary-rgb), 0.9);

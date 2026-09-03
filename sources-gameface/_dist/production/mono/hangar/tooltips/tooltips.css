@@ -59,7 +59,7 @@
   margin-top: 4rem;
   color: var(--color-status-done);
   font-weight: 500;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_b0317c12 {
   width: 100%;
@@ -103,7 +103,7 @@
   position: absolute;
   right: -20rem;
   bottom: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .LowEfficiency_1efeab37 {
   font-size: 18rem;
@@ -136,7 +136,7 @@
 
 .LowEfficiency_skillsEfficiencyDivider_90d40a96 {
   margin: 0 2rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PerkTile_c4fa07da {
   display: flex;
@@ -154,14 +154,17 @@
   border-radius: 2rem;
   background: center/contain no-repeat;
 }
-.PerkTile_base__default_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__disable_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__lock_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__default_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__disable_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__lock_d25f8651 .PerkTile_perkBorder_62732f00 {
   border-left-color: var(--color-general-primary);
   border-top-color: var(--color-general-primary);
   border-right-color: var(--color-general-primary);
   border-bottom-color: var(--color-general-primary);
   opacity: 0.2;
 }
-.PerkTile_base__active_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__activeDisable_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__active_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__activeDisable_d25f8651 .PerkTile_perkBorder_62732f00 {
   border-color: #feab34;
   opacity: 1;
 }
@@ -169,11 +172,13 @@
   border-color: #ff2717;
   opacity: 0.6;
 }
-.PerkTile_base__newFull_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__newLow_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__newFull_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__newLow_d25f8651 .PerkTile_perkBorder_62732f00 {
   border-color: #fd9;
   opacity: 1;
 }
-.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkBorder_62732f00 {
   border-color: #fd9;
   opacity: 0.6;
 }
@@ -181,21 +186,26 @@
   border: 0;
   opacity: 1;
 }
-.PerkTile_base__bonus_d25f8651.PerkTile_base__default_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__bonus_d25f8651.PerkTile_base__disable_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__bonus_d25f8651.PerkTile_base__lock_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__bonus_d25f8651.PerkTile_base__default_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__bonus_d25f8651.PerkTile_base__disable_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__bonus_d25f8651.PerkTile_base__lock_d25f8651 .PerkTile_perkBorder_62732f00 {
   background-image: url(R.images.gui.maps.icons.crew.tooltips.dash);
 }
-.PerkTile_base__bonus_d25f8651.PerkTile_base__active_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__bonus_d25f8651.PerkTile_base__activeDisable_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__bonus_d25f8651.PerkTile_base__active_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__bonus_d25f8651.PerkTile_base__activeDisable_d25f8651 .PerkTile_perkBorder_62732f00 {
   background-image: url(R.images.gui.maps.icons.crew.tooltips.dashActive);
 }
 .PerkTile_base__bonus_d25f8651.PerkTile_base__low_d25f8651 .PerkTile_perkBorder_62732f00 {
   background-image: url(R.images.gui.maps.icons.crew.tooltips.dashRed);
 }
-.PerkTile_base__bonus_d25f8651.PerkTile_base__newFull_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__bonus_d25f8651.PerkTile_base__newLow_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__bonus_d25f8651.PerkTile_base__newFull_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__bonus_d25f8651.PerkTile_base__newLow_d25f8651 .PerkTile_perkBorder_62732f00 {
   width: 44rem;
   height: 44rem;
   background-image: url(R.images.gui.maps.icons.crew.tooltips.dashNew);
 }
-.PerkTile_base__bonus_d25f8651.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkBorder_62732f00, .PerkTile_base__bonus_d25f8651.PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkBorder_62732f00 {
+.PerkTile_base__bonus_d25f8651.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkBorder_62732f00,
+.PerkTile_base__bonus_d25f8651.PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkBorder_62732f00 {
   width: 44rem;
   height: 44rem;
   background-image: url(R.images.gui.maps.icons.crew.tooltips.dashNew);
@@ -240,12 +250,18 @@
   height: 16rem;
   background-image: url(R.images.gui.maps.icons.crew.tooltips.lockedPerk);
 }
-.PerkTile_base__newFull_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__newLow_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkIcon_e41d7d0a {
+.PerkTile_base__newFull_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__newLow_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkIcon_e41d7d0a {
   width: 46rem;
   height: 46rem;
   background-image: url(R.images.gui.maps.icons.crew.tooltips.plusIcon);
 }
-.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__activeDisable_d25f8651 .PerkTile_perkIcon_e41d7d0a, .PerkTile_base__disable_d25f8651 .PerkTile_perkIcon_e41d7d0a {
+.PerkTile_base__newDisableFull_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__newDisableLow_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__activeDisable_d25f8651 .PerkTile_perkIcon_e41d7d0a,
+.PerkTile_base__disable_d25f8651 .PerkTile_perkIcon_e41d7d0a {
   opacity: 0.3;
 }
 
@@ -259,7 +275,7 @@
   bottom: -22rem;
   left: 50%;
   transform: translateX(-50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PerksProgression_27852bb8 {
   display: flex;
@@ -283,7 +299,7 @@
 }
 .PerksProgression_perkLine__bonus_523b1287 {
   width: 48rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .PerksBlock_f82e9f49 {
   width: 100%;
@@ -345,7 +361,7 @@
   width: 24rem;
   height: 24rem;
   margin: 0 3rem 0 -3rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Specialization_b8ff1390 {
   width: 100%;
@@ -386,7 +402,7 @@
   height: 24rem;
   margin: 0 4rem 0 -4rem;
   background: url(R.images.gui.maps.icons.crew.tooltips.premiumVehicleIcon) center/contain no-repeat;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .UntrainedPenalty_ac022fb6 {
   width: 100%;
@@ -420,7 +436,7 @@
   margin-top: 6rem;
   color: #ff2717;
   line-height: 1.2;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Index_4a4da35 {
   margin-top: 28rem;
@@ -454,7 +470,7 @@
   bottom: -5rem;
   left: 50%;
   transform: translateX(-50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Index_5056ae66 {
   font-size: 18rem;
@@ -468,7 +484,7 @@
 }
 .mediaLarge .Index_5056ae66 {
   width: 260rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Hint_base_wrapper_653f0747 {
   display: flex;
@@ -488,7 +504,7 @@
 }
 .Hint_base__steamCn_135a3ed .Hint_base_text_f734dbc2 {
   color: #e9e2bf;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Bonuslist_30606a62 .Bonuslist_list_d0c73d0d {
   display: flex;
@@ -496,15 +512,24 @@
   padding: 0 18rem 10rem;
   overflow: hidden;
 }
-.Bonuslist_30606a62 .Bonuslist_list_leftColumn_30606a62, .Bonuslist_30606a62 .Bonuslist_list_rightColumn_30606a62, .Bonuslist_30606a62 .Bonuslist_list_proBonusesLeftColumn_30606a62, .Bonuslist_30606a62 .Bonuslist_list_proBonusesRightColumn_f94cf518 {
+.Bonuslist_30606a62 .Bonuslist_list_leftColumn_30606a62,
+.Bonuslist_30606a62 .Bonuslist_list_rightColumn_30606a62,
+.Bonuslist_30606a62 .Bonuslist_list_proBonusesLeftColumn_30606a62,
+.Bonuslist_30606a62 .Bonuslist_list_proBonusesRightColumn_f94cf518 {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-.Bonuslist_30606a62 .Bonuslist_list__unlockPro_30606a62 .Bonuslist_list_item_a02b09a8 .Bonuslist_icon_280817ab {
+.Bonuslist_30606a62
+  .Bonuslist_list__unlockPro_30606a62
+  .Bonuslist_list_item_a02b09a8
+  .Bonuslist_icon_280817ab {
   opacity: 0.5;
 }
-.Bonuslist_30606a62 .Bonuslist_list__unlockPro_30606a62 .Bonuslist_list_item_a02b09a8 .Bonuslist_iconLock_239f55db {
+.Bonuslist_30606a62
+  .Bonuslist_list__unlockPro_30606a62
+  .Bonuslist_list_item_a02b09a8
+  .Bonuslist_iconLock_239f55db {
   display: flex;
 }
 .Bonuslist_30606a62 .Bonuslist_list_item_a02b09a8 {
@@ -531,14 +556,18 @@
 }
 .Bonuslist_30606a62 .Bonuslist_list_item__pro_30606a62 .Bonuslist_name_5f548721 {
   color: #e9e2bf;
-  text-shadow: 0 0.5px 0.2px rgba(0, 0, 0, 0.66), 0 1px 3.5px rgba(255, 189, 66, 0.6);
+  text-shadow:
+    0 0.5px 0.2px rgba(0, 0, 0, 0.66),
+    0 1px 3.5px rgba(255, 189, 66, 0.6);
 }
 .Bonuslist_30606a62 .Bonuslist_list__pro_15c23dd {
   margin-bottom: 10rem;
 }
 .Bonuslist_30606a62 .Bonuslist_list__pro_15c23dd .Bonuslist_name_5f548721 {
   color: #e9e2bf;
-  text-shadow: 0 0.5px 0.2px rgba(0, 0, 0, 0.66), 0 1px 3.5px rgba(255, 189, 66, 0.6);
+  text-shadow:
+    0 0.5px 0.2px rgba(0, 0, 0, 0.66),
+    0 1px 3.5px rgba(255, 189, 66, 0.6);
 }
 .Bonuslist_30606a62 .Bonuslist_list__extended_b282b07a {
   max-height: 447rem;
@@ -546,23 +575,37 @@
 .Bonuslist_30606a62 .Bonuslist_proBenefits_10504c1 {
   max-height: 169rem;
   padding-top: 10rem;
-  background: url("R.images.gui.maps.icons.subscription.wot_plus_pro_glow_center") top center/cover no-repeat;
+  background: url("R.images.gui.maps.icons.subscription.wot_plus_pro_glow_center") top center/cover
+    no-repeat;
   position: relative;
 }
 .Bonuslist_30606a62 .Bonuslist_proBenefits_10504c1::before {
   height: 1rem;
-  background: linear-gradient(to right, rgba(245, 222, 128, 0.2) 0, rgba(245, 222, 128, 0.2) 1rem, rgba(245, 222, 128, 0) 1rem, rgba(245, 222, 128, 0) 100%) 0 0/3rem 1rem repeat-x;
+  background: linear-gradient(
+      to right,
+      rgba(245, 222, 128, 0.2) 0,
+      rgba(245, 222, 128, 0.2) 1rem,
+      rgba(245, 222, 128, 0) 1rem,
+      rgba(245, 222, 128, 0) 100%
+    )
+    0 0/3rem 1rem repeat-x;
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   pointer-events: none;
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 33%, rgb(0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 33%,
+    rgb(0, 0, 0) 66%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 .Bonuslist_30606a62 .Bonuslist_proBenefits__upgraded_1052ec71 {
   max-height: 168rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_5400049d {
   display: flex;
@@ -583,10 +626,12 @@
   left: 0;
 }
 .Header_background__core_3cecc71e {
-  background: url("R.images.gui.maps.icons.subscription.wot_plus_core_glow") 50% 50%/cover no-repeat;
+  background: url("R.images.gui.maps.icons.subscription.wot_plus_core_glow") 50% 50% / cover
+    no-repeat;
 }
 .Header_background__pro_8e2017ec {
-  background: url("R.images.gui.maps.icons.subscription.wot_plus_pro_glow") 50% 50%/cover no-repeat;
+  background: url("R.images.gui.maps.icons.subscription.wot_plus_pro_glow") 50% 50% / cover
+    no-repeat;
 }
 
 .Header_icon_efb3dd40 {
@@ -636,7 +681,7 @@
   color: rgba(238, 237, 233, 0.5);
   font-size: 20rem;
   line-height: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Index_decorator_29808c75 {
   width: 366rem;
@@ -648,8 +693,16 @@
 }
 
 .Index_wrapper_99411988 {
-  background: radial-gradient(55.6% 100% at 50% 0%, rgba(81, 176, 181, 0.15) 0%, rgba(81, 176, 181, 0.02) 100%);
+  background: radial-gradient(
+    55.6% 100% at 50% 0%,
+    rgba(81, 176, 181, 0.15) 0%,
+    rgba(81, 176, 181, 0.02) 100%
+  );
 }
 .Index_wrapper__pro_fe256643 {
-  background: radial-gradient(86.64% 100% at 50% 0%, rgba(172, 131, 42, 0.2) 0%, rgba(172, 131, 42, 0.02) 100%);
+  background: radial-gradient(
+    86.64% 100% at 50% 0%,
+    rgba(172, 131, 42, 0.2) 0%,
+    rgba(172, 131, 42, 0.02) 100%
+  );
 }

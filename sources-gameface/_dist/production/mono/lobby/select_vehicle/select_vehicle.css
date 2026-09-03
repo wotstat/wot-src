@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -88,7 +95,13 @@ html[lang=th] input {
   width: 100%;
   color: var(--color-general-primary);
 }
-html[lang=ja] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=ko] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=zh_tw] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=zh_sg] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=zh_cn] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=vi] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4, html[lang=th] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4 {
+html[lang="ja"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="ko"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="zh_tw"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="zh_sg"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="zh_cn"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="vi"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4,
+html[lang="th"] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4 {
   transform: translateY(2rem);
 }
 .mediaLarge .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTitle_595e5af4 {
@@ -314,7 +327,13 @@ html[lang=ja] .FilterPopover_playlistTrigger_fd8fa4b3 .FilterPopover_playlistTit
   height: 22rem;
   line-height: 1;
 }
-html[lang=ja] .FilterPopover_inputField_a2989dce, html[lang=ko] .FilterPopover_inputField_a2989dce, html[lang=zh_tw] .FilterPopover_inputField_a2989dce, html[lang=zh_sg] .FilterPopover_inputField_a2989dce, html[lang=zh_cn] .FilterPopover_inputField_a2989dce, html[lang=vi] .FilterPopover_inputField_a2989dce, html[lang=th] .FilterPopover_inputField_a2989dce {
+html[lang="ja"] .FilterPopover_inputField_a2989dce,
+html[lang="ko"] .FilterPopover_inputField_a2989dce,
+html[lang="zh_tw"] .FilterPopover_inputField_a2989dce,
+html[lang="zh_sg"] .FilterPopover_inputField_a2989dce,
+html[lang="zh_cn"] .FilterPopover_inputField_a2989dce,
+html[lang="vi"] .FilterPopover_inputField_a2989dce,
+html[lang="th"] .FilterPopover_inputField_a2989dce {
   padding-top: 2rem;
 }
 .mediaLarge .FilterPopover_inputField_a2989dce {
@@ -339,7 +358,7 @@ html[lang=ja] .FilterPopover_inputField_a2989dce, html[lang=ko] .FilterPopover_i
 .FilterPopover_inputPlaceholder_5ac00a5 {
   /* stylelint-disable-next-line selector-no-qualifying-type */
 }
-html[lang=vi] .FilterPopover_inputPlaceholder_5ac00a5 {
+html[lang="vi"] .FilterPopover_inputPlaceholder_5ac00a5 {
   padding-top: 1rem;
 }
 
@@ -375,10 +394,11 @@ html[lang=vi] .FilterPopover_inputPlaceholder_5ac00a5 {
 .FilterPopover_carouselChanger_4432f804 {
   width: 48rem;
   height: 100%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -401,21 +421,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -456,10 +482,11 @@ html[lang=th] input {
   height: 20rem;
   background: url(R.images.gui.maps.icons.ui_kit.close_button.icon_small) no-repeat center/contain;
   opacity: 0.7;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -482,21 +509,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -520,10 +553,11 @@ html[lang=th] input {
 }
 .Icon_container_83f4dd0e > * {
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -546,21 +580,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -573,7 +613,9 @@ html[lang=th] input {
   filter: brightness(1);
   opacity: 1;
   position: relative;
-  transition: opacity 200ms ease-in-out, filter 200ms ease-in-out;
+  transition:
+    opacity 200ms ease-in-out,
+    filter 200ms ease-in-out;
 }
 .CopyButton_base__enabled_49d34ed8:hover {
   filter: brightness(1.3);
@@ -598,12 +640,14 @@ html[lang=th] input {
   transition: opacity 200ms ease-in-out;
   pointer-events: none;
 }
-.CopyButton_base__copyStatus_49d34ed8 .CopyButton_icon__export_49d34ed8, .CopyButton_base__copiedStatus_49d34ed8 .CopyButton_icon__exportDone_8d5db080 {
+.CopyButton_base__copyStatus_49d34ed8 .CopyButton_icon__export_49d34ed8,
+.CopyButton_base__copiedStatus_49d34ed8 .CopyButton_icon__exportDone_8d5db080 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -626,21 +670,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -653,7 +703,9 @@ html[lang=th] input {
   filter: brightness(1);
   opacity: 1;
   position: relative;
-  transition: opacity 200ms ease-in-out, filter 200ms ease-in-out;
+  transition:
+    opacity 200ms ease-in-out,
+    filter 200ms ease-in-out;
 }
 .EditButton_e0942ef0:hover {
   filter: brightness(1.3);
@@ -670,10 +722,11 @@ html[lang=th] input {
   top: 0;
   left: 0;
   pointer-events: none;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -696,21 +749,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -801,10 +860,11 @@ html[lang=th] input {
 }
 .Item_actions_63add2d {
   margin-right: 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -827,21 +887,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -876,7 +942,10 @@ html[lang=th] input {
   border: none;
   background: none;
   color: var(--color-status-link);
-  text-shadow: 0 0 4rem rgba(252, 246, 235, 0.16), 0 0 8rem rgba(255, 196, 108, 0.24), 0 0 16rem rgba(255, 154, 82, 0.5);
+  text-shadow:
+    0 0 4rem rgba(252, 246, 235, 0.16),
+    0 0 8rem rgba(255, 196, 108, 0.24),
+    0 0 16rem rgba(255, 154, 82, 0.5);
   transition: color 200ms ease-in-out;
   cursor: pointer;
 }
@@ -889,10 +958,11 @@ html[lang=th] input {
   flex-wrap: wrap;
   flex: 1;
   text-align: left;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -915,21 +985,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1017,10 +1093,11 @@ html[lang=th] input {
 }
 .Dropdown_arrow__opened_ef9f7c1d {
   transform: rotate(180deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1043,21 +1120,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1116,10 +1199,11 @@ html[lang=th] input {
 }
 .Item_base__selected_5f6fcc69 .Item_selectedIcon_eb50b3a6 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1142,21 +1226,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1180,7 +1270,13 @@ html[lang=th] input {
   width: 100%;
   color: var(--color-general-primary);
 }
-html[lang=ja] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=ko] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=zh_tw] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=zh_sg] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=zh_cn] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=vi] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2, html[lang=th] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2 {
+html[lang="ja"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="ko"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="zh_tw"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="zh_sg"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="zh_cn"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="vi"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2,
+html[lang="th"] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba2 {
   transform: translateY(2rem);
 }
 
@@ -1228,10 +1324,11 @@ html[lang=ja] .Dropdown_playlistTrigger_eb63ff3b .Dropdown_playlistTitle_9fbceba
 
 .Dropdown_trigger_f754201d {
   cursor: pointer;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1254,21 +1351,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1369,7 +1472,13 @@ html[lang=th] input {
   font-size: 20rem;
   line-height: 1;
 }
-html[lang=ja] .Filters_inputField_8f369261, html[lang=ko] .Filters_inputField_8f369261, html[lang=zh_tw] .Filters_inputField_8f369261, html[lang=zh_sg] .Filters_inputField_8f369261, html[lang=zh_cn] .Filters_inputField_8f369261, html[lang=vi] .Filters_inputField_8f369261, html[lang=th] .Filters_inputField_8f369261 {
+html[lang="ja"] .Filters_inputField_8f369261,
+html[lang="ko"] .Filters_inputField_8f369261,
+html[lang="zh_tw"] .Filters_inputField_8f369261,
+html[lang="zh_sg"] .Filters_inputField_8f369261,
+html[lang="zh_cn"] .Filters_inputField_8f369261,
+html[lang="vi"] .Filters_inputField_8f369261,
+html[lang="th"] .Filters_inputField_8f369261 {
   padding-top: 2rem;
 }
 
@@ -1381,12 +1490,13 @@ html[lang=ja] .Filters_inputField_8f369261, html[lang=ko] .Filters_inputField_8f
   letter-spacing: 0.02em;
   /* stylelint-disable-next-line selector-no-qualifying-type */
 }
-html[lang=vi] .Filters_inputPlaceholder_b010dc5a {
+html[lang="vi"] .Filters_inputPlaceholder_b010dc5a {
   padding-top: 1rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1409,28 +1519,36 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Content_7ccb81a0, .Content_7ccb81a0::after, .Content_disabledOverlay_a8908196 {
+.Content_7ccb81a0,
+.Content_7ccb81a0::after,
+.Content_disabledOverlay_a8908196 {
   position: absolute;
   top: 0;
   right: 0;
@@ -1458,7 +1576,8 @@ html[lang=th] input {
 .Content_7ccb81a0:hover .Content_7ccb81a0::after {
   opacity: 0.4;
 }
-.Content_base__selected_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after, .Content_base__selected_da09528a .Content_7ccb81a0::after {
+.Content_base__selected_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after,
+.Content_base__selected_da09528a .Content_7ccb81a0::after {
   opacity: 0.7;
 }
 .Content_base__empty_da09528a.Content_7ccb81a0:hover .Content_7ccb81a0::after {
@@ -1468,10 +1587,11 @@ html[lang=th] input {
 .Content_disabledOverlay_a8908196 {
   background: url(R.images.gui.maps.icons.ui_kit.card.disabled_pattern) 0 0/8rem 8rem repeat;
   z-index: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1494,21 +1614,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1571,7 +1697,8 @@ html[lang=th] input {
 .Slot_977dd8f1:hover .Slot_selected_6e9f21df {
   border: 1rem solid rgba(255, 255, 255, 0.18);
 }
-.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected_6e9f21df, .Slot_base__selected_71f19f5c .Slot_selected_6e9f21df {
+.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected_6e9f21df,
+.Slot_base__selected_71f19f5c .Slot_selected_6e9f21df {
   border: 1rem solid rgba(255, 255, 255, 0.4);
 }
 .Slot_base__empty_d386066c.Slot_977dd8f1:hover .Slot_selected_6e9f21df {
@@ -1580,12 +1707,14 @@ html[lang=th] input {
 .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0);
 }
-.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected__border_e2a17304, .Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
+.Slot_base__selected_71f19f5c.Slot_977dd8f1:hover .Slot_selected__border_e2a17304,
+.Slot_base__selected_71f19f5c .Slot_selected__border_e2a17304 {
   border: 2rem solid rgba(255, 255, 255, 0.4);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1608,21 +1737,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1669,12 +1804,20 @@ html[lang=th] input {
   font-size: 18rem;
   font-weight: 500;
   line-height: 1;
-  text-shadow: 0 1rem 15rem rgba(23, 23, 23, 0.4), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 1rem 15rem rgba(23, 23, 23, 0.4),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
   letter-spacing: 0.03em;
   opacity: 0.9;
   pointer-events: none;
 }
-html[lang=ja] .Information_text_a2b2c19b, html[lang=ko] .Information_text_a2b2c19b, html[lang=zh_tw] .Information_text_a2b2c19b, html[lang=zh_sg] .Information_text_a2b2c19b, html[lang=zh_cn] .Information_text_a2b2c19b, html[lang=vi] .Information_text_a2b2c19b, html[lang=th] .Information_text_a2b2c19b {
+html[lang="ja"] .Information_text_a2b2c19b,
+html[lang="ko"] .Information_text_a2b2c19b,
+html[lang="zh_tw"] .Information_text_a2b2c19b,
+html[lang="zh_sg"] .Information_text_a2b2c19b,
+html[lang="zh_cn"] .Information_text_a2b2c19b,
+html[lang="vi"] .Information_text_a2b2c19b,
+html[lang="th"] .Information_text_a2b2c19b {
   font-size: 16rem;
 }
 .mediaMedium .Information_text_a2b2c19b {
@@ -1682,13 +1825,25 @@ html[lang=ja] .Information_text_a2b2c19b, html[lang=ko] .Information_text_a2b2c1
   font-size: 20rem;
   line-height: 1.2;
 }
-html[lang=ja] .mediaMedium .Information_text_a2b2c19b, html[lang=ko] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_tw] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_sg] .mediaMedium .Information_text_a2b2c19b, html[lang=zh_cn] .mediaMedium .Information_text_a2b2c19b, html[lang=vi] .mediaMedium .Information_text_a2b2c19b, html[lang=th] .mediaMedium .Information_text_a2b2c19b {
+html[lang="ja"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="ko"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="vi"] .mediaMedium .Information_text_a2b2c19b,
+html[lang="th"] .mediaMedium .Information_text_a2b2c19b {
   font-size: 18rem;
 }
 .mediaExtraLarge .Information_text_a2b2c19b {
   font-size: 24rem;
 }
-html[lang=ja] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=ko] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_tw] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_sg] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=zh_cn] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=vi] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=th] .mediaExtraLarge .Information_text_a2b2c19b {
+html[lang="ja"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="ko"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="vi"] .mediaExtraLarge .Information_text_a2b2c19b,
+html[lang="th"] .mediaExtraLarge .Information_text_a2b2c19b {
   font-size: 22rem;
 }
 .Information_text__level_e5a9014e {
@@ -1702,13 +1857,22 @@ html[lang=ja] .mediaExtraLarge .Information_text_a2b2c19b, html[lang=ko] .mediaE
 }
 .Information_text__premium_741ebb2f {
   color: #ffe4c0;
-  text-shadow: 0 0 24rem rgba(255, 61, 0, 0.35), 0 0 20rem rgba(255, 177, 86, 0.35), 0 0 7rem rgba(255, 228, 159, 0.2);
+  text-shadow:
+    0 0 24rem rgba(255, 61, 0, 0.35),
+    0 0 20rem rgba(255, 177, 86, 0.35),
+    0 0 7rem rgba(255, 228, 159, 0.2);
   opacity: 1;
 }
 .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 16rem;
 }
-html[lang=ja] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 14rem;
 }
 .mediaMedium .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
@@ -1717,14 +1881,26 @@ html[lang=ja] .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, htm
 .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 18rem;
 }
-html[lang=ja] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .mediaLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 16rem;
 }
 .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 20rem;
   line-height: 1.2;
 }
-html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=ko] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_tw] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_sg] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=zh_cn] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=vi] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b, html[lang=th] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
+html[lang="ja"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="ko"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_tw"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_sg"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="zh_cn"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="vi"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b,
+html[lang="th"] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_text_a2b2c19b {
   font-size: 18rem;
 }
 
@@ -1750,7 +1926,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaExtraLarge .Information_battlePass_63749625 {
   right: -1rem;
 }
-.Information_battlePass__bonus_6e8d4f26, .Information_battlePass__active_960b5eed {
+.Information_battlePass__bonus_6e8d4f26,
+.Information_battlePass__active_960b5eed {
   opacity: 1;
 }
 .Information_base__double_6e8d4f26 .Information_battlePass_63749625 {
@@ -1778,7 +1955,9 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
   color: rgba(238, 237, 233, 0.9);
   font-size: 16rem;
   font-weight: 500;
-  text-shadow: 0 1rem 15rem rgba(23, 23, 23, 0.4), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 1rem 15rem rgba(23, 23, 23, 0.4),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
   letter-spacing: 0.02em;
   opacity: 0.9;
   z-index: 1;
@@ -1820,7 +1999,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.vehicle-card:hover .Information_prestige_95cc4ef2, .Information_prestige__active_960b5eed {
+.vehicle-card:hover .Information_prestige_95cc4ef2,
+.Information_prestige__active_960b5eed {
   opacity: 1;
 }
 
@@ -1835,7 +2015,8 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaMedium .Information_identifier__changeNation_665b13a2 {
   padding-right: 22rem;
 }
-.Information_identifier__alpha_6e8d4f26, .Information_identifier__super_46b1ed0d {
+.Information_identifier__alpha_6e8d4f26,
+.Information_identifier__super_46b1ed0d {
   padding-right: 24rem;
 }
 .Information_identifier__rent_1fba5dce {
@@ -1871,17 +2052,21 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .Information_identifierIcon__super_34b8f5c2 {
   background: url(R.images.gui.maps.icons.hangar.carousel.cards.super_test) no-repeat center/contain;
 }
-.Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   right: -1rem;
   bottom: -4rem;
 }
-.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaMedium .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   right: 1rem;
 }
-.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   bottom: -3rem;
 }
-.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235, .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
+.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__alpha_ddf4d235,
+.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__super_34b8f5c2 {
   bottom: 0;
 }
 .Information_identifierIcon__changeNation_dfee83c8 {
@@ -1913,12 +2098,15 @@ html[lang=ja] .mediaExtraLarge .Information_base__double_6e8d4f26 .Information_t
 .mediaLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__changeNation_dfee83c8 {
   bottom: -1rem;
 }
-.mediaExtraLarge .Information_base__double_6e8d4f26 .Information_identifierIcon__changeNation_dfee83c8 {
+.mediaExtraLarge
+  .Information_base__double_6e8d4f26
+  .Information_identifierIcon__changeNation_dfee83c8 {
   bottom: 2rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1941,28 +2129,36 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.ProBoost_7490b440, .ProBoost_arrow_346b5e61, .ProBoost_glow_280ac9aa {
+.ProBoost_7490b440,
+.ProBoost_arrow_346b5e61,
+.ProBoost_glow_280ac9aa {
   position: absolute;
   top: 0;
   right: 0;
@@ -2050,13 +2246,21 @@ html[lang=th] input {
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_arrow_346b5e61 {
   opacity: 1;
-  animation: 650ms 500ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_arrow-brightness-activating_7b71aa2e, 1000ms 0ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_arrow-translation-activating_7b71aa2e;
+  animation:
+    650ms 500ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_arrow-brightness-activating_7b71aa2e,
+    1000ms 0ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_arrow-translation-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_glow_280ac9aa {
   animation: 900ms 350ms linear both ProBoost_glow-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_triangle_ae0f2fba {
-  animation: 1050ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_triangle-opacity-activating_7b71aa2e, 1400ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both ProBoost_triangle-translation-activating_7b71aa2e;
+  animation:
+    1050ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_triangle-opacity-activating_7b71aa2e,
+    1400ms 600ms cubic-bezier(0.46, 0.005, 0.21, 1) both
+      ProBoost_triangle-translation-activating_7b71aa2e;
 }
 .ProBoost_base__activating_7b71aa2e .ProBoost_triangle__1_1cb04326 {
   animation-delay: 600ms, 600ms;
@@ -2072,7 +2276,8 @@ html[lang=th] input {
   transition: opacity 1000ms 0ms linear;
 }
 .ProBoost_base__deactivating_7b71aa2e .ProBoost_arrow_346b5e61 {
-  animation: 1000ms 0ms cubic-bezier(0.09, 0.585, 1, 0.895) both ProBoost_arrow-deactivating_7b71aa2e;
+  animation: 1000ms 0ms cubic-bezier(0.09, 0.585, 1, 0.895) both
+    ProBoost_arrow-deactivating_7b71aa2e;
 }
 .ProBoost_base__deactivating_7b71aa2e .ProBoost_glow_280ac9aa {
   opacity: 0;
@@ -2086,7 +2291,8 @@ html[lang=th] input {
 .ProBoost_corner_9f13801e {
   width: 164rem;
   height: 86rem;
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.corner") right bottom/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.corner") right
+    bottom/contain no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -2095,7 +2301,8 @@ html[lang=th] input {
 }
 
 .ProBoost_arrow_346b5e61 {
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.arrow") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.arrow") right
+    center/contain no-repeat;
   filter: brightness(1);
   opacity: 0;
   position: absolute;
@@ -2103,7 +2310,12 @@ html[lang=th] input {
 }
 
 .ProBoost_glow_280ac9aa {
-  background: radial-gradient(100% 65% at 100% 100%, rgba(218, 172, 68, 0.5) 0%, rgba(218, 172, 68, 0) 90%) right bottom/cover no-repeat;
+  background: radial-gradient(
+      100% 65% at 100% 100%,
+      rgba(218, 172, 68, 0.5) 0%,
+      rgba(218, 172, 68, 0) 90%
+    )
+    right bottom/cover no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -2113,7 +2325,8 @@ html[lang=th] input {
 .ProBoost_triangle_ae0f2fba {
   width: 100%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.triangle") right center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.hangar.carousel.cards.overlay.pro_boost.triangle") right
+    center/contain no-repeat;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -2128,10 +2341,11 @@ html[lang=th] input {
 }
 .ProBoost_triangle__3_e738f7f2 {
   bottom: 30%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2154,28 +2368,38 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Background_1089bc1c, .Background_wotPlus_3cf6035a, .Background_crystal_6112fa42, .Background_bpBonus_cf76872, .Background_multiplier_284cda6c {
+.Background_1089bc1c,
+.Background_wotPlus_3cf6035a,
+.Background_crystal_6112fa42,
+.Background_bpBonus_cf76872,
+.Background_multiplier_284cda6c {
   position: absolute;
   top: 0;
   right: 0;
@@ -2221,7 +2445,8 @@ html[lang=th] input {
   width: 208rem;
   height: 156rem;
 }
-.vehicle-card:hover .Background_flag_beb58b8, .Background_flag__active_de322c1b {
+.vehicle-card:hover .Background_flag_beb58b8,
+.Background_flag__active_de322c1b {
   opacity: 0.9;
 }
 
@@ -2259,28 +2484,33 @@ html[lang=th] input {
 }
 
 .Background_wotPlus_3cf6035a {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.wot_plus) no-repeat right bottom/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.wot_plus) no-repeat right
+    bottom/contain;
 }
 
 .Background_crystal_6112fa42 {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal) no-repeat right bottom/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal) no-repeat right
+    bottom/contain;
 }
 .Background_crystal__limit_61072361 {
   background-image: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.crystal_limit);
 }
 
 .Background_bpBonus_cf76872 {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat right top/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.bp_points_bonus) no-repeat
+    right top/contain;
 }
 
 .Background_multiplier_284cda6c {
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.multiplier) no-repeat left top/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.corners.multiplier) no-repeat left
+    top/contain;
 }
 
 .Background_favorite_d98f92cc {
   width: 22rem;
   height: 27rem;
-  background: url(R.images.gui.maps.icons.hangar.carousel.cards.favorite_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.hangar.carousel.cards.favorite_small) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   right: 0;
@@ -2297,10 +2527,11 @@ html[lang=th] input {
 }
 .Background_favorite__active_7f14a6c7 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2323,21 +2554,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2365,10 +2602,11 @@ html[lang=th] input {
   left: 50%;
   transform: translate(-50%, -53%);
   transition: opacity 0.2s ease;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2391,28 +2629,36 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
 
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Card_74e86576, .Card_overlay_701a3ab4, .Card_overlay_701a3ab4::before {
+.Card_74e86576,
+.Card_overlay_701a3ab4,
+.Card_overlay_701a3ab4::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -2437,7 +2683,11 @@ html[lang=th] input {
   justify-content: center;
   align-items: center;
   padding: 0 16rem;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(23, 23, 23, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(23, 23, 23, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
   opacity: 0;
   transition: opacity 0.24s ease-out;
 }
@@ -2502,10 +2752,11 @@ html[lang=th] input {
   flex: 1 1 auto;
   height: 100%;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2528,21 +2779,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2635,10 +2892,11 @@ html[lang=th] input {
 }
 .mediaExtraLargeWidth .SelectVehicleList_card_a6ec1778 {
   width: 14.27%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2661,21 +2919,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2776,10 +3040,11 @@ html[lang=th] input {
 }
 .mediaExtraLarge .SelectVehicle_emptyDescription_3ea65b11 {
   font-size: 32rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2802,21 +3067,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }

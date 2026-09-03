@@ -3,7 +3,7 @@
 .Default_img_81672d94 {
   width: 338rem;
   height: 180rem;
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
   position: absolute;
   top: 4rem;
   left: 6rem;
@@ -30,8 +30,12 @@
   width: 100%;
   height: 1rem;
   margin: 10rem 0;
-  background: linear-gradient(to right, transparent 50%, rgb(18, 17, 11) 50%), linear-gradient(270deg, #12110b 0%, #c9c9b6 50%, #12110b 100%);
-  background-size: 3rem 2rem, 100% 100%;
+  background:
+    linear-gradient(to right, transparent 50%, rgb(18, 17, 11) 50%),
+    linear-gradient(270deg, #12110b 0%, #c9c9b6 50%, #12110b 100%);
+  background-size:
+    3rem 2rem,
+    100% 100%;
   opacity: 0.2;
 }
 
@@ -45,7 +49,7 @@
   margin-top: 2rem;
   color: var(--color-general-tertiary);
   opacity: 0.9;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_3d842ff {
   display: flex;
@@ -72,7 +76,9 @@
   font-weight: 400;
   line-height: 1.3em;
   color: rgba(var(--color-general-primary-rgb), 0.5);
-  text-shadow: 0 1rem 17rem rgba(23, 23, 23, 0.4), 0 1rem 0 rgba(0, 0, 0, 0.3);
+  text-shadow:
+    0 1rem 17rem rgba(23, 23, 23, 0.4),
+    0 1rem 0 rgba(0, 0, 0, 0.3);
 }
 
 .Header_accent_78fe2ee9 {
@@ -103,10 +109,11 @@
   width: 24rem;
   height: 24rem;
   margin-left: 4rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.shield_s) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.shields.shield_s) no-repeat
+    center/contain;
   position: relative;
   top: 2rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ConditionItem_a08966eb {
   display: flex;
@@ -141,7 +148,7 @@
   font-size: 18rem;
   font-weight: 400;
   line-height: 110%;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .OrSeparator_b6b48c7a {
   display: flex;
@@ -158,13 +165,14 @@
   width: 16rem;
   height: 16rem;
   margin-left: 3rem;
-  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.arrow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.userMissions.challenges.icons.arrow) no-repeat
+    center/contain;
 }
 .OrSeparator_arrow__rotate_1d0c168d {
   margin-left: 0;
   margin-right: 3rem;
   transform: rotate(180deg);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ConditionsList_ee6c89f3 {
   display: flex;
@@ -176,14 +184,14 @@
 .ConditionsList_condition_726a545 {
   display: flex;
   flex-direction: column;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Overlay_7ff640ef {
   width: 100%;
   height: 100%;
   background: no-repeat center/contain;
   position: absolute;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardImage_98da984 {
   display: flex;
@@ -209,7 +217,7 @@
 }
 .mediaLarge .RewardImage_count_971e488d {
   font-size: 18rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardName_text_79eb0561 {
   display: flex;
@@ -226,7 +234,7 @@
 }
 .mediaLarge .RewardName_text_79eb0561 {
   font-size: 18rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RewardsList_397c9761 {
   display: flex;
@@ -239,7 +247,12 @@
   width: 100%;
   height: 1rem;
   margin-bottom: 16rem;
-  background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, rgba(201, 201, 182, 0.2) 50%, rgba(201, 201, 182, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 201, 182, 0) 0%,
+    rgba(201, 201, 182, 0.2) 50%,
+    rgba(201, 201, 182, 0) 100%
+  );
 }
 
 .RewardsList_rewardsContainer_aebf6314 {
@@ -294,19 +307,24 @@
 }
 .RewardsList_label__tankXP_2ee96a57 {
   color: #dce0e0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Mission_1a8e8c9 {
   display: flex;
   gap: 10rem;
   flex-direction: column;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .TimerBlock_divider_c31a7a65 {
   width: 100%;
   height: 1rem;
   margin: 18rem 0;
-  background: linear-gradient(90deg, rgba(201, 201, 182, 0) 0%, rgba(201, 201, 182, 0.2) 50%, rgba(201, 201, 182, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 201, 182, 0) 0%,
+    rgba(201, 201, 182, 0.2) 50%,
+    rgba(201, 201, 182, 0) 100%
+  );
 }
 
 .TimerBlock_fbeff754 {
@@ -322,12 +340,13 @@
   display: flex;
   align-items: center;
   color: var(--color-general-tertiary);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .App_b3d5c0d8 {
   display: flex;
   flex-direction: column;
   width: 338rem;
   padding: 18rem 20rem 25rem;
-  background: url(R.images.gui.maps.icons.userMissions.hub.challenge.tooltip) no-repeat top right/contain;
+  background: url(R.images.gui.maps.icons.userMissions.hub.challenge.tooltip) no-repeat top
+    right/contain;
 }

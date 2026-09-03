@@ -83,6 +83,7 @@
 .Separator_a3ff07::after {
   width: 283rem;
   height: 1rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50% / contain
+    no-repeat;
   content: "";
 }
