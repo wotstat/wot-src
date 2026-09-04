@@ -187,21 +187,14 @@ package net.wg.gui.lobby.rankedBattles19.components
             while(_loc3_ >= 0)
             {
                this._steps[_loc3_].alpha = 0;
-               §§push(this._tweens);
-               §§push(§§findproperty(Tween));
-               §§push(TWEEN_TIME);
-               §§push(this._steps[_loc3_]);
-               §§push({
+               this._tweens.push(new Tween(TWEEN_TIME,this._steps[_loc3_],{
                   "x":_loc2_ * _loc3_,
                   "alpha":1
-               });
-               §§push("delay");
-               §§push(DELAY_TIME * (this._stepsLength - _loc3_));
-               §§push("ease");
-               §§push(Cubic.easeOut);
-               §§push("onComplete");
-               §§push(_loc3_ == 0 ? param1 : null);
-               §§pop().push(new §§pop().Tween(§§pop(),§§pop(),§§pop(),null));
+               },{
+                  "delay":DELAY_TIME * (this._stepsLength - _loc3_),
+                  "ease":Cubic.easeOut,
+                  "onComplete":(_loc3_ == 0 ? param1 : null)
+               }));
                _loc3_--;
             }
          }
