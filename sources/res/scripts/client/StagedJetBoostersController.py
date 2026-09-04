@@ -19,6 +19,7 @@ from wotdecorators import noexcept
 if IS_CLIENT:
     import Input
     from Input import TriggerEvent
+    from vehicles.mechanics.mechanic_inputs.mechanic_input_profile import PlayerVehicleInputPredicate
 _logger = logging.getLogger(__name__)
 
 @ReprInjector.simple(b'state', b'endTime', b'duration', b'count', b'acceleratorStatus', b'params')
@@ -102,6 +103,7 @@ class StagedJetBoostersController(VehicleDynamicComponent, StagedJetBoostersCont
             return
         inputAction = Input.inputSystem().findAction(self._INPUT_PROFILE_NAME, self._INPUT_ACTION_NAME)
         if inputAction:
+            inputAction.setPredicate(PlayerVehicleInputPredicate(self.entity))
             inputAction.bindEventReaction(TriggerEvent.Triggered, self.tryActivate)
         else:
             _logger.error(b"[INPUT] Can't find InputAction %s/%s", self._INPUT_PROFILE_NAME, self._INPUT_ACTION_NAME)
