@@ -83,7 +83,8 @@
   background: url("R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
-}@keyframes ClaimInfo_fadeInWithScale_221479b8 {
+}
+@keyframes ClaimInfo_fadeInWithScale_221479b8 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -171,7 +172,8 @@
   font-weight: 400;
   line-height: 1.3;
   width: 100%;
-}@keyframes BattleRoyaleTable_fadeInWithScale_13433de7 {
+}
+@keyframes BattleRoyaleTable_fadeInWithScale_13433de7 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -250,7 +252,8 @@
   flex: 1 0 auto;
   min-width: 24rem;
   min-height: 24rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.points_24") center center/24rem 24rem no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.points_24") center center/24rem 24rem
+    no-repeat;
 }
 
 .BattleRoyaleTable_pointsColumn1_85de316a {
@@ -272,7 +275,8 @@
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.25;
-}@keyframes HeaderWithPoints_fadeInWithScale_46eb29ed {
+}
+@keyframes HeaderWithPoints_fadeInWithScale_46eb29ed {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -365,7 +369,8 @@
   margin-right: 10rem;
   background: no-repeat center/contain;
 }
-.HeaderWithPoints_modeIcon__battleRoyale_98f862f2, .HeaderWithPoints_modeIcon__epic_14f8b63 {
+.HeaderWithPoints_modeIcon__battleRoyale_98f862f2,
+.HeaderWithPoints_modeIcon__epic_14f8b63 {
   margin-left: -5rem;
   margin-top: 2rem;
 }
@@ -381,7 +386,8 @@
   font-size: 14rem;
   font-weight: 400;
   line-height: 1.3;
-}@keyframes RulesTable_fadeInWithScale_1d6097e4 {
+}
+@keyframes RulesTable_fadeInWithScale_1d6097e4 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -478,7 +484,13 @@
   width: 100%;
   padding-left: 28rem;
   padding-right: 28rem;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0) 100%) 0 0/100% 40rem no-repeat;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.05) 40%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    0 0/100% 40rem no-repeat;
 }
 
 .RulesTable_footer_3838100b {
@@ -514,12 +526,14 @@
   width: 32rem;
   height: 38rem;
   margin-top: -20rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.additional_points_glow") center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.additional_points_glow")
+    center/contain no-repeat;
   position: absolute;
   top: 50%;
   left: 66rem;
   z-index: 1;
-}@keyframes EndSoon_fadeInWithScale_ea771f41 {
+}
+@keyframes EndSoon_fadeInWithScale_ea771f41 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -615,7 +629,8 @@
 .EndSoon_timerLight_32dfe31 {
   width: 95rem;
   height: 32rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.end_date_light") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.end_date_light") no-repeat
+    center/contain;
   mix-blend-mode: lighten;
   position: absolute;
   top: 50%;
@@ -654,8 +669,12 @@
   font-weight: 400;
   line-height: 1.3;
   margin-right: 8rem;
-  text-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
-}@keyframes Level_fadeInWithScale_4e6750d {
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 15rem #e52;
+}
+@keyframes Level_fadeInWithScale_4e6750d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -745,7 +764,8 @@
   font-weight: 700;
   line-height: 1.15;
   margin-bottom: 19rem;
-}@keyframes Points_fadeInWithScale_d59040e3 {
+}
+@keyframes Points_fadeInWithScale_d59040e3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -842,7 +862,8 @@
   height: 24rem;
   margin-left: 10rem;
   background: url("R.images.gui.maps.icons.battlePass.tooltips.points_24") center/contain no-repeat;
-}@keyframes Progression_fadeInWithScale_61efd8f5 {
+}
+@keyframes Progression_fadeInWithScale_61efd8f5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -931,7 +952,8 @@
 
 .Progression_points_fa2aa3d9 {
   margin-left: calc(24rem + 10rem);
-}@keyframes ExpireTime_fadeInWithScale_843e3f7e {
+}
+@keyframes ExpireTime_fadeInWithScale_843e3f7e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1011,14 +1033,18 @@
   justify-content: center;
   align-items: center;
   height: 18rem;
-  text-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 15rem #e52;
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 15rem #e52;
   position: relative;
 }
 
 .ExpireTime_light_ff99b79d {
   width: 250rem;
   height: 173rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.expire_time_light") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.expire_time_light") no-repeat
+    center/contain;
   mix-blend-mode: lighten;
   position: absolute;
   top: -10rem;
@@ -1029,7 +1055,8 @@
 .ExpireTime_icon_8036e60f {
   width: 37rem;
   height: 37rem;
-  background: url("R.images.gui.maps.icons.battlePass.tooltips.time_icon_glow") center/cover no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.tooltips.time_icon_glow") center/cover
+    no-repeat;
 }
 
 .ExpireTime_value_6d799e0c {
@@ -1037,7 +1064,8 @@
   font-size: 14rem;
   font-weight: 400;
   line-height: 1.3;
-}@keyframes Header_fadeInWithScale_65f475ba {
+}
+@keyframes Header_fadeInWithScale_65f475ba {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1133,7 +1161,8 @@
   margin-left: 10rem;
   line-height: 125%;
   opacity: 0.5;
-}@keyframes RewardsBlock_fadeInWithScale_5feff608 {
+}
+@keyframes RewardsBlock_fadeInWithScale_5feff608 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1242,7 +1271,8 @@
 .RewardsBlock_reward__shiftUp_c85a723b {
   margin-top: -30rem;
 }
-.RewardsBlock_reward__styleUpgrade_5feff608, .RewardsBlock_reward__wide_6b8de2f3 {
+.RewardsBlock_reward__styleUpgrade_5feff608,
+.RewardsBlock_reward__wide_6b8de2f3 {
   margin-right: 10rem;
 }
 .RewardsBlock_reward__next_37ab73ce {
@@ -1258,13 +1288,15 @@
   width: 36rem;
   height: 36rem;
   margin: -14rem -4rem -12rem -12rem;
-  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock_current_small") center/contain no-repeat;
+  background: url("R.images.gui.maps.icons.battlePass.progression.icon_lock_current_small")
+    center/contain no-repeat;
 }
 
 .RewardsBlock_a66e0ba7 .RewardsBlock_overlay_adaa44ea {
   width: 180rem;
   height: 135rem;
-}@keyframes InProgressContent_fadeInWithScale_334c972d {
+}
+@keyframes InProgressContent_fadeInWithScale_334c972d {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1372,7 +1404,8 @@
 .InProgressContent_claim_4bd431ea {
   margin-left: -6rem;
   padding: 0 28rem;
-}@keyframes Header_fadeInWithScale_65f475ba {
+}
+@keyframes Header_fadeInWithScale_65f475ba {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1464,7 +1497,8 @@
   margin-left: 10rem;
   line-height: 125%;
   opacity: 0.5;
-}@keyframes RewardsBlock_fadeInWithScale_5feff608 {
+}
+@keyframes RewardsBlock_fadeInWithScale_5feff608 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1564,7 +1598,8 @@
 
 .RewardsBlock_reward__big_6e09459f {
   margin: 0 17rem;
-}@keyframes PostProgressionContent_fadeInWithScale_d2b5683d {
+}
+@keyframes PostProgressionContent_fadeInWithScale_d2b5683d {
   0% {
     opacity: 0;
     transform: scale(1.2);

@@ -38,7 +38,7 @@
 }
 .mediaMedium .Buttons_base__input_32d3fada .Buttons_button_1de2fcc1 {
   min-width: 158rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .AlertOverlay_6a914e50 {
   display: flex;
@@ -100,7 +100,12 @@
   margin: 13rem 0 23rem;
   background-color: #fff;
   position: relative;
-  mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.07));
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.07)
+  );
   mask-repeat: no-repeat;
   z-index: 1;
 }
@@ -132,7 +137,7 @@
 }
 .mediaExtraLarge .AlertOverlay_title_f9ee7b93 {
   font-size: 48rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Input_1c7ccc50 {
   display: flex;
@@ -156,7 +161,7 @@
 }
 .mediaMedium .Input_placeholder_491fdc9a {
   padding-top: 6rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Import_40d148c8 {
   display: flex;

@@ -37,7 +37,8 @@
 .Step_through_54d48531 {
   text-decoration-line: line-through;
   text-decoration-color: var(--color-general-primary);
-}@keyframes App_fadeIn_0 {
+}
+@keyframes App_fadeIn_0 {
   from {
     opacity: 0;
   }

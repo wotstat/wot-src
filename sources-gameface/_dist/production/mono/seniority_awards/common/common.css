@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -89,7 +96,8 @@ html[lang=th] input {
 .Decorator_close_232926e0 {
   width: 30rem;
   height: 30rem;
-  background: url(R.images.gui.maps.icons.seniorityAwards.notifications.close) no-repeat center/12rem 12rem;
+  background: url(R.images.gui.maps.icons.seniorityAwards.notifications.close) no-repeat
+    center/12rem 12rem;
   opacity: 0.6;
   position: absolute;
   top: 13rem;
@@ -105,7 +113,8 @@ html[lang=th] input {
   width: 100%;
   height: 100%;
   border-radius: 6rem;
-  background: url(R.images.gui.maps.icons.seniorityAwards.notifications.background_pop_up) no-repeat center/100% auto;
+  background: url(R.images.gui.maps.icons.seniorityAwards.notifications.background_pop_up) no-repeat
+    center/100% auto;
   overflow: hidden;
   position: absolute;
   z-index: -2;
@@ -144,10 +153,11 @@ html[lang=th] input {
 .Decorator_lip__bottom_f34b9718 {
   background-image: url(R.images.gui.maps.icons.seniorityAwards.notifications.lip_top);
   bottom: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -170,21 +180,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }

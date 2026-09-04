@@ -79,7 +79,8 @@
 .Content_separator_9582cf97 {
   width: 283rem;
   height: 1rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points") 50%/contain no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Devider_points")
+    50% / contain no-repeat;
 }
 .Content_rewards_a1ee43b6 {
   display: flex;
@@ -88,7 +89,8 @@
   align-items: center;
   width: 403rem;
   height: 154rem;
-  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large") bottom/cover no-repeat;
+  background: url("../../../../../styles/R.images.gui.maps.icons.battlePass.tooltips.Ribbon_large")
+    bottom/cover no-repeat;
   color: #c9c9b6;
   font-size: 14rem;
 }
@@ -103,17 +105,30 @@
   width: 100%;
   height: 222rem;
   margin-bottom: 12rem;
-  background: url("R.images.gui.maps.icons.battlePass.rewards.progression_style_not_chosen") no-repeat 50%/contain;
+  background: url("R.images.gui.maps.icons.battlePass.rewards.progression_style_not_chosen")
+    no-repeat 50% / contain;
 }
 .Content_section_cf0c3481 {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, transparent, rgba(201, 201, 182, 0.07) 37%, rgba(201, 201, 182, 0.07) 63%, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 201, 182, 0.07) 37%,
+    rgba(201, 201, 182, 0.07) 63%,
+    transparent
+  );
 }
 .Content_sectionBottom_d2c91d7c {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, transparent, rgba(201, 201, 182, 0.07) 37%, rgba(201, 201, 182, 0.07) 63%, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 201, 182, 0.07) 37%,
+    rgba(201, 201, 182, 0.07) 63%,
+    transparent
+  );
   padding-bottom: 10rem;
 }
 .Content_title_73d62fc4 {
@@ -133,7 +148,7 @@
   height: 24rem;
   margin-bottom: 7rem;
   padding-left: 28rem;
-  background: url("R.images.gui.maps.icons.library.alertBigIcon") no-repeat 0 50%/contain;
+  background: url("R.images.gui.maps.icons.library.alertBigIcon") no-repeat 0 50% / contain;
 }
 .Content_text_8f35597f {
   color: #8c8c7e;

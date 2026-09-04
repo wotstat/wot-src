@@ -1,7 +1,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -24,21 +25,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -48,7 +55,8 @@ html[lang=th] input {
 .Emblem_90452419 {
   width: 100rem;
   height: 100rem;
-  background: url(R.images.gui.maps.icons.skillTree.prestige.emblem.small.emblem_disable) center/contain no-repeat;
+  background: url(R.images.gui.maps.icons.skillTree.prestige.emblem.small.emblem_disable)
+    center/contain no-repeat;
   position: relative;
 }
 .mediaMedium .Emblem_90452419 {
@@ -56,10 +64,12 @@ html[lang=th] input {
   height: 120rem;
   background-image: url(R.images.gui.maps.icons.skillTree.prestige.emblem.big.emblem_disable);
 }
-.Emblem_base__available_9b4d607c, .Emblem_base__achieved_4f63778f {
+.Emblem_base__available_9b4d607c,
+.Emblem_base__achieved_4f63778f {
   background-image: url(R.images.gui.maps.icons.skillTree.prestige.emblem.small.emblem_available);
 }
-.mediaMedium .Emblem_base__available_9b4d607c, .mediaMedium .Emblem_base__achieved_4f63778f {
+.mediaMedium .Emblem_base__available_9b4d607c,
+.mediaMedium .Emblem_base__achieved_4f63778f {
   background-image: url(R.images.gui.maps.icons.skillTree.prestige.emblem.big.emblem_available);
 }
 .Emblem_base__progress_347071b5 {
@@ -85,7 +95,9 @@ html[lang=th] input {
   font-size: 28rem;
   line-height: 38rem;
 }
-.Emblem_base__available_9b4d607c .Emblem_level_23acdd81, .Emblem_base__achieved_4f63778f .Emblem_level_23acdd81, .Emblem_base__progress_347071b5 .Emblem_level_23acdd81 {
+.Emblem_base__available_9b4d607c .Emblem_level_23acdd81,
+.Emblem_base__achieved_4f63778f .Emblem_level_23acdd81,
+.Emblem_base__progress_347071b5 .Emblem_level_23acdd81 {
   opacity: 1;
 }
 .Emblem_base__progress_347071b5 .Emblem_level_23acdd81 {
@@ -97,10 +109,11 @@ html[lang=th] input {
 .mediaMedium .Emblem_base__progress_347071b5 .Emblem_level_23acdd81 {
   font-size: 40rem;
   line-height: 52rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -123,21 +136,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -316,10 +335,11 @@ html[lang=th] input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -342,21 +362,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -398,7 +424,13 @@ html[lang=th] input {
   mask-repeat: no-repeat;
 }
 .Progression_scrollWrapper__both_2efcfbbf {
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #000 5%, #000 95%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    #000 5%,
+    #000 95%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 .Progression_scrollWrapper__left_c11cb4e5 {
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #000 5%);
@@ -421,10 +453,11 @@ html[lang=th] input {
   right: 10rem;
   bottom: 10rem;
   left: 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -447,21 +480,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -528,10 +567,11 @@ html[lang=th] input {
   width: 115rem;
   height: 84rem;
   background-image: url(R.images.gui.maps.icons.skillTree.prestige.disabled_big);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -554,21 +594,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -588,7 +634,8 @@ html[lang=th] input {
   display: none;
   width: 24rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.lock.lock_icon) repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.lock.lock_icon) repeat
+    center/contain;
   position: absolute;
   top: 0;
   left: 50%;
@@ -596,10 +643,11 @@ html[lang=th] input {
 }
 .EntryPointLine_base__locked_d883e9db .EntryPointLine_lock_e27404c6 {
   display: flex;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -622,21 +670,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -652,16 +706,18 @@ html[lang=th] input {
   height: 200rem;
   pointer-events: none;
 }
-.ResearchedAnimation_video__major_6660d527, .ResearchedAnimation_video__final_d43c2114 {
+.ResearchedAnimation_video__major_6660d527,
+.ResearchedAnimation_video__final_d43c2114 {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 .mediaLarge .ResearchedAnimation_video_a2258a9e {
   width: 256rem;
   height: 256rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -684,21 +740,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -717,13 +779,16 @@ html[lang=th] input {
   }
 }
 @keyframes BasicBorder_pulseBorder_7913b3f5 {
-  0%, 20% {
+  0%,
+  20% {
     border-color: rgba(255, 255, 255, 0.7);
   }
-  35%, 70% {
+  35%,
+  70% {
     border-color: rgba(206, 206, 206, 0.25);
   }
-  90%, 100% {
+  90%,
+  100% {
     border-color: rgba(255, 255, 255, 0.7);
   }
 }
@@ -738,7 +803,9 @@ html[lang=th] input {
   border-radius: 50%;
   transition: border 0.2s;
 }
-.BasicBorder_base__selected_7913b3f5, .BasicBorder_base__researched_c2cb0bad, .BasicBorder_base__animateResearched_a1bc9e9 {
+.BasicBorder_base__selected_7913b3f5,
+.BasicBorder_base__researched_c2cb0bad,
+.BasicBorder_base__animateResearched_a1bc9e9 {
   border-width: 1rem;
   border-color: #fff7e1;
 }
@@ -771,7 +838,10 @@ html[lang=th] input {
 }
 
 .BasicBorder_selectedBg_5f6a826 {
-  background: linear-gradient(0deg, rgba(255, 122, 0, 0.1), rgba(255, 122, 0, 0.1)), linear-gradient(0deg, rgba(180, 181, 170, 0.07), rgba(180, 181, 170, 0.07)), rgba(17, 17, 16, 0.5);
+  background:
+    linear-gradient(0deg, rgba(255, 122, 0, 0.1), rgba(255, 122, 0, 0.1)),
+    linear-gradient(0deg, rgba(180, 181, 170, 0.07), rgba(180, 181, 170, 0.07)),
+    rgba(17, 17, 16, 0.5);
 }
 .BasicBorder_base__selected_7913b3f5 .BasicBorder_selectedBg_5f6a826 {
   opacity: 1;
@@ -786,7 +856,10 @@ html[lang=th] input {
 }
 
 .BasicBorder_researchedBg_f0292637 {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 239, 208, 0.2) 0%, rgba(255, 191, 126, 0) 73%), linear-gradient(0deg, rgba(180, 181, 170, 0.15), rgba(180, 181, 170, 0.15)), rgba(17, 17, 16, 0.5);
+  background:
+    radial-gradient(50% 50% at 50% 50%, rgba(255, 239, 208, 0.2) 0%, rgba(255, 191, 126, 0) 73%),
+    linear-gradient(0deg, rgba(180, 181, 170, 0.15), rgba(180, 181, 170, 0.15)),
+    rgba(17, 17, 16, 0.5);
   transition-delay: var(--transitionDelay);
 }
 .BasicBorder_base__researched_c2cb0bad .BasicBorder_researchedBg_f0292637 {
@@ -795,10 +868,11 @@ html[lang=th] input {
 }
 .BasicBorder_base__animateResearched_a1bc9e9 .BasicBorder_researchedBg_f0292637 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -821,21 +895,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -851,7 +931,9 @@ html[lang=th] input {
   border-radius: 4rem;
   transition: border 0.2s;
 }
-.MajorBorder_base__selected_1957f8b, .MajorBorder_base__researched_5556406e, .MajorBorder_base__animateResearched_8ebb77ec {
+.MajorBorder_base__selected_1957f8b,
+.MajorBorder_base__researched_5556406e,
+.MajorBorder_base__animateResearched_8ebb77ec {
   border-width: 1rem;
   border-color: #fff7e1;
 }
@@ -893,8 +975,13 @@ html[lang=th] input {
 }
 
 .MajorBorder_selectedBg_5d7cc9ad {
-  box-shadow: 0 0 2rem rgba(203, 108, 21, 0.2), 0 0 16rem rgba(255, 143, 40, 0.1);
-  background: linear-gradient(0deg, rgba(255, 122, 0, 0.1), rgba(255, 122, 0, 0.1)), linear-gradient(0deg, rgba(180, 181, 170, 0.07), rgba(180, 181, 170, 0.07)), rgba(17, 17, 16, 0.5);
+  box-shadow:
+    0 0 2rem rgba(203, 108, 21, 0.2),
+    0 0 16rem rgba(255, 143, 40, 0.1);
+  background:
+    linear-gradient(0deg, rgba(255, 122, 0, 0.1), rgba(255, 122, 0, 0.1)),
+    linear-gradient(0deg, rgba(180, 181, 170, 0.07), rgba(180, 181, 170, 0.07)),
+    rgba(17, 17, 16, 0.5);
 }
 .MajorBorder_base__selected_1957f8b .MajorBorder_selectedBg_5d7cc9ad {
   opacity: 1;
@@ -909,7 +996,10 @@ html[lang=th] input {
 }
 
 .MajorBorder_researchedBg_db572fb9 {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 239, 208, 0.2) 0%, rgba(255, 191, 126, 0) 73%), linear-gradient(0deg, rgba(180, 181, 170, 0.15), rgba(180, 181, 170, 0.15)), rgba(17, 17, 16, 0.5);
+  background:
+    radial-gradient(50% 50% at 50% 50%, rgba(255, 239, 208, 0.2) 0%, rgba(255, 191, 126, 0) 73%),
+    linear-gradient(0deg, rgba(180, 181, 170, 0.15), rgba(180, 181, 170, 0.15)),
+    rgba(17, 17, 16, 0.5);
   transition-delay: var(--transitionDelay);
 }
 .MajorBorder_base__researched_5556406e .MajorBorder_researchedBg_db572fb9 {
@@ -918,10 +1008,11 @@ html[lang=th] input {
 }
 .MajorBorder_base__animateResearched_8ebb77ec .MajorBorder_researchedBg_db572fb9 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -944,21 +1035,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -975,9 +1072,13 @@ html[lang=th] input {
   background: no-repeat center/contain;
   filter: grayscale(0.8) brightness(1);
   opacity: 0.65;
-  transition: filter 0.5s, opacity 0.5s;
+  transition:
+    filter 0.5s,
+    opacity 0.5s;
 }
-.Icon_base__selected_55a8ab20 .Icon_4a7e2c0e, .Icon_base__researched_55a8ab20 .Icon_4a7e2c0e, .Icon_base__animateResearched_55a8ab20 .Icon_4a7e2c0e {
+.Icon_base__selected_55a8ab20 .Icon_4a7e2c0e,
+.Icon_base__researched_55a8ab20 .Icon_4a7e2c0e,
+.Icon_base__animateResearched_55a8ab20 .Icon_4a7e2c0e {
   filter: grayscale(0) brightness(1);
   opacity: 1;
 }
@@ -989,21 +1090,30 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, rgba(255, 119, 0, 0.2) 0%, rgba(255, 119, 0, 0.15) 25%, rgba(255, 119, 0, 0.1) 40%, rgba(255, 119, 0, 0.05) 60%, rgba(255, 119, 0, 0) 80%);
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 119, 0, 0.2) 0%,
+    rgba(255, 119, 0, 0.15) 25%,
+    rgba(255, 119, 0, 0.1) 40%,
+    rgba(255, 119, 0, 0.05) 60%,
+    rgba(255, 119, 0, 0) 80%
+  );
   opacity: 1;
   transition: opacity 0.2s;
 }
-.Icon_base__default_55a8ab20 .Icon_glow_5d4d69c5, .Icon_base__researched_55a8ab20 .Icon_glow_5d4d69c5 {
+.Icon_base__default_55a8ab20 .Icon_glow_5d4d69c5,
+.Icon_base__researched_55a8ab20 .Icon_glow_5d4d69c5 {
   opacity: 0;
   transition: none;
 }
 .Icon_base__animateResearched_55a8ab20 .Icon_glow_5d4d69c5 {
   opacity: 0;
   transition-delay: var(--transitionDelay);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1026,21 +1136,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1072,7 +1188,9 @@ html[lang=th] input {
   color: rgba(var(--color-currency-combat-experience-rgb), 0.9);
   font-size: 12rem;
   font-weight: 600;
-  text-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3), 0 1rem 15rem rgba(23, 23, 23, 0.4);
+  text-shadow:
+    0 1rem 0 rgba(0, 0, 0, 0.3),
+    0 1rem 15rem rgba(23, 23, 23, 0.4);
 }
 .mediaMedium .Price_value_9290e627 {
   font-size: 14rem;
@@ -1098,10 +1216,11 @@ html[lang=th] input {
 }
 .Price_base__default_29f8d762 .Price_icon_aed4fc8a {
   opacity: 0.5;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1124,21 +1243,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1184,12 +1309,17 @@ html[lang=th] input {
   border: 1rem solid rgba(252, 246, 235, 0.2);
   border-radius: 50%;
   opacity: 0;
-  transition: border-color 0.2s, opacity 0.3s;
+  transition:
+    border-color 0.2s,
+    opacity 0.3s;
 }
-.Segments_base__major_bd931c2c .Segments_circle_783c8fb4, .Segments_base__final_a33819aa .Segments_circle_783c8fb4 {
+.Segments_base__major_bd931c2c .Segments_circle_783c8fb4,
+.Segments_base__final_a33819aa .Segments_circle_783c8fb4 {
   border-radius: 7rem;
 }
-.Segments_base__selected_634cda13 .Segments_circle_783c8fb4, .Segments_base__researched_634cda13 .Segments_circle_783c8fb4, .Segments_base__animateResearched_634cda13 .Segments_circle_783c8fb4 {
+.Segments_base__selected_634cda13 .Segments_circle_783c8fb4,
+.Segments_base__researched_634cda13 .Segments_circle_783c8fb4,
+.Segments_base__animateResearched_634cda13 .Segments_circle_783c8fb4 {
   opacity: 1;
 }
 
@@ -1207,9 +1337,12 @@ html[lang=th] input {
   border: 1rem solid transparent;
   opacity: 0;
   transform: translate(-50%, -50%) scale(var(--scale-value));
-  transition: transform 0.2s, opacity 0.2s;
+  transition:
+    transform 0.2s,
+    opacity 0.2s;
 }
-.Segments_base__major_bd931c2c .Segments_segmentTop_f9463de1, .Segments_base__final_a33819aa .Segments_segmentTop_f9463de1,
+.Segments_base__major_bd931c2c .Segments_segmentTop_f9463de1,
+.Segments_base__final_a33819aa .Segments_segmentTop_f9463de1,
 .Segments_base__major_bd931c2c .Segments_segmentRight_8c024c7d,
 .Segments_base__final_a33819aa .Segments_segmentRight_8c024c7d,
 .Segments_base__major_bd931c2c .Segments_segmentBottom_d19a8cec,
@@ -1225,7 +1358,8 @@ html[lang=th] input {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-.Segments_base__researched_634cda13 .Segments_segmentTop_f9463de1, .Segments_base__animateResearched_634cda13 .Segments_segmentTop_f9463de1,
+.Segments_base__researched_634cda13 .Segments_segmentTop_f9463de1,
+.Segments_base__animateResearched_634cda13 .Segments_segmentTop_f9463de1,
 .Segments_base__researched_634cda13 .Segments_segmentRight_8c024c7d,
 .Segments_base__animateResearched_634cda13 .Segments_segmentRight_8c024c7d,
 .Segments_base__researched_634cda13 .Segments_segmentBottom_d19a8cec,
@@ -1241,17 +1375,25 @@ html[lang=th] input {
 .Segments_base__researched_634cda13 .Segments_segmentLeft_988e88cf {
   transition: none;
 }
-.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentTop_f9463de1,
-.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentRight_8c024c7d,
-.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentBottom_d19a8cec,
-.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentLeft_988e88cf {
+.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentTop_f9463de1,
+.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentRight_8c024c7d,
+.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentBottom_d19a8cec,
+.Segments_base__notDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentLeft_988e88cf {
   transition-delay: 0ms;
   transition-duration: 0ms;
 }
-.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentTop_f9463de1,
-.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentRight_8c024c7d,
-.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentBottom_d19a8cec,
-.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13 .Segments_segmentLeft_988e88cf {
+.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentTop_f9463de1,
+.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentRight_8c024c7d,
+.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentBottom_d19a8cec,
+.Segments_base__withDelay_634cda13.Segments_base__animateResearched_634cda13
+  .Segments_segmentLeft_988e88cf {
   transition-delay: var(--transitionDelay);
   transition-duration: 0.2s;
 }
@@ -1261,7 +1403,8 @@ html[lang=th] input {
   clip-path: polygon(40% 0%, 60% 0%, 60% 3%, 40% 3%);
   border-top-color: rgba(255, 204, 153, 0.9);
 }
-.Segments_base__major_bd931c2c .Segments_segmentTop_f9463de1, .Segments_base__final_a33819aa .Segments_segmentTop_f9463de1 {
+.Segments_base__major_bd931c2c .Segments_segmentTop_f9463de1,
+.Segments_base__final_a33819aa .Segments_segmentTop_f9463de1 {
   border-radius: 7rem;
   clip-path: polygon(85% 0%, 100% 0%, 100% 15%, 85% 15%);
   border-right-color: rgba(255, 204, 153, 0.9);
@@ -1272,7 +1415,8 @@ html[lang=th] input {
   clip-path: polygon(97% 40%, 100% 40%, 100% 60%, 97% 60%);
   border-right-color: rgba(255, 204, 153, 0.9);
 }
-.Segments_base__major_bd931c2c .Segments_segmentRight_8c024c7d, .Segments_base__final_a33819aa .Segments_segmentRight_8c024c7d {
+.Segments_base__major_bd931c2c .Segments_segmentRight_8c024c7d,
+.Segments_base__final_a33819aa .Segments_segmentRight_8c024c7d {
   border-radius: 7rem;
   clip-path: polygon(85% 85%, 100% 85%, 100% 100%, 85% 100%);
   border-bottom-color: rgba(255, 204, 153, 0.9);
@@ -1283,7 +1427,8 @@ html[lang=th] input {
   clip-path: polygon(40% 97%, 60% 97%, 60% 100%, 40% 100%);
   border-bottom-color: rgba(255, 204, 153, 0.9);
 }
-.Segments_base__major_bd931c2c .Segments_segmentBottom_d19a8cec, .Segments_base__final_a33819aa .Segments_segmentBottom_d19a8cec {
+.Segments_base__major_bd931c2c .Segments_segmentBottom_d19a8cec,
+.Segments_base__final_a33819aa .Segments_segmentBottom_d19a8cec {
   border-radius: 7rem;
   clip-path: polygon(0% 85%, 15% 85%, 15% 100%, 0% 100%);
   border-left-color: rgba(255, 204, 153, 0.9);
@@ -1294,14 +1439,16 @@ html[lang=th] input {
   clip-path: polygon(0% 40%, 3% 40%, 3% 60%, 0% 60%);
   border-left-color: rgba(255, 204, 153, 0.9);
 }
-.Segments_base__major_bd931c2c .Segments_segmentLeft_988e88cf, .Segments_base__final_a33819aa .Segments_segmentLeft_988e88cf {
+.Segments_base__major_bd931c2c .Segments_segmentLeft_988e88cf,
+.Segments_base__final_a33819aa .Segments_segmentLeft_988e88cf {
   border-radius: 7rem;
   clip-path: polygon(0% 0%, 15% 0%, 15% 15%, 0% 15%);
   border-top-color: rgba(255, 204, 153, 0.9);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1324,21 +1471,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1359,10 +1512,11 @@ html[lang=th] input {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(0deg, #d9d9d9, transparent);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1385,21 +1539,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1423,10 +1583,11 @@ html[lang=th] input {
   width: 60rem;
   height: 60rem;
   filter: brightness(2);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1449,21 +1610,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1471,7 +1638,8 @@ html[lang=th] input {
 /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Points_rotate_d59040e3 {
-  0%, 40% {
+  0%,
+  40% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
   55% {
@@ -1480,18 +1648,22 @@ html[lang=th] input {
   60% {
     transform: translate(-50%, -50%) rotate(177deg);
   }
-  70%, 100% {
+  70%,
+  100% {
     transform: translate(-50%, -50%) rotate(180deg);
   }
 }
 @keyframes Points_fadeOut_d59040e3 {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 1;
   }
-  35%, 70% {
+  35%,
+  70% {
     opacity: 0;
   }
-  90%, 100% {
+  90%,
+  100% {
     opacity: 1;
   }
 }
@@ -1527,7 +1699,8 @@ html[lang=th] input {
   height: 12rem;
 }
 @keyframes Points_arrow-move-45_d59040e3 {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 1;
     transform: rotate(45deg) translate(-30%);
   }
@@ -1535,7 +1708,8 @@ html[lang=th] input {
     opacity: 0.3;
     transform: rotate(45deg) translate(-100%);
   }
-  45%, 70% {
+  45%,
+  70% {
     opacity: 0.3;
     transform: rotate(45deg) translate(-90%);
   }
@@ -1571,7 +1745,8 @@ html[lang=th] input {
   left: 0;
 }
 @keyframes Points_arrow-move-135_d59040e3 {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 1;
     transform: rotate(135deg) translate(-30%);
   }
@@ -1579,7 +1754,8 @@ html[lang=th] input {
     opacity: 0.3;
     transform: rotate(135deg) translate(-100%);
   }
-  45%, 70% {
+  45%,
+  70% {
     opacity: 0.3;
     transform: rotate(135deg) translate(-90%);
   }
@@ -1615,7 +1791,8 @@ html[lang=th] input {
   right: 0;
 }
 @keyframes Points_arrow-move-225_d59040e3 {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 1;
     transform: rotate(225deg) translate(-30%);
   }
@@ -1623,7 +1800,8 @@ html[lang=th] input {
     opacity: 0.3;
     transform: rotate(225deg) translate(-100%);
   }
-  45%, 70% {
+  45%,
+  70% {
     opacity: 0.3;
     transform: rotate(225deg) translate(-90%);
   }
@@ -1659,7 +1837,8 @@ html[lang=th] input {
   bottom: 0;
 }
 @keyframes Points_arrow-move-315_d59040e3 {
-  0%, 20% {
+  0%,
+  20% {
     opacity: 1;
     transform: rotate(315deg) translate(-30%);
   }
@@ -1667,7 +1846,8 @@ html[lang=th] input {
     opacity: 0.3;
     transform: rotate(315deg) translate(-100%);
   }
-  45%, 70% {
+  45%,
+  70% {
     opacity: 0.3;
     transform: rotate(315deg) translate(-90%);
   }
@@ -1709,7 +1889,12 @@ html[lang=th] input {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 39rem;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 60%, rgba(255, 245, 219, 0.15) 60%, rgba(210, 142, 82, 0) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(255, 245, 219, 0.15) 60%,
+    rgba(210, 142, 82, 0) 100%
+  );
   animation: Points_fadeOut_d59040e3 2s infinite;
 }
 .mediaLarge .Points_outsideGlow_8ec52358 {
@@ -1723,12 +1908,21 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(255, 245, 219, 0.02) 50%, rgba(255, 245, 219, 0.07) 60%, rgba(255, 245, 219, 0.1) 65%, rgba(255, 245, 219, 0.15) 75%, rgba(210, 142, 82, 0) 80%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 245, 219, 0.02) 50%,
+    rgba(255, 245, 219, 0.07) 60%,
+    rgba(255, 245, 219, 0.1) 65%,
+    rgba(255, 245, 219, 0.15) 75%,
+    rgba(210, 142, 82, 0) 80%
+  );
   animation: Points_fadeOut_d59040e3 2s infinite;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1751,21 +1945,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1776,10 +1976,11 @@ html[lang=th] input {
   width: 100%;
   height: 100%;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -1802,21 +2003,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -1853,7 +2060,9 @@ html[lang=th] input {
   filter: grayscale(1.1) brightness(1);
   opacity: 1;
 }
-.Basic_ef3988ee:hover.Basic_base__selected_9a292541 .Basic_icon_6056e6e, .Basic_ef3988ee:hover.Basic_base__researched_9a292541 .Basic_icon_6056e6e, .Basic_ef3988ee:hover.Basic_base__animateResearched_9a292541 .Basic_icon_6056e6e {
+.Basic_ef3988ee:hover.Basic_base__selected_9a292541 .Basic_icon_6056e6e,
+.Basic_ef3988ee:hover.Basic_base__researched_9a292541 .Basic_icon_6056e6e,
+.Basic_ef3988ee:hover.Basic_base__animateResearched_9a292541 .Basic_icon_6056e6e {
   filter: grayscale(0) brightness(1.15);
   opacity: 1;
 }
@@ -1875,7 +2084,8 @@ html[lang=th] input {
   border-color: rgba(252, 246, 235, 0.35);
 }
 
-.Basic_base__enableHover_9a292541.Basic_ef3988ee:hover.Basic_base__default_9a292541 .Basic_border_1c1598db {
+.Basic_base__enableHover_9a292541.Basic_ef3988ee:hover.Basic_base__default_9a292541
+  .Basic_border_1c1598db {
   border-color: rgba(206, 206, 206, 0.35);
 }
 
@@ -1927,15 +2137,38 @@ html[lang=th] input {
   mask-repeat: no-repeat;
 }
 .Basic_base__special_9a292541 .Basic_container_f1a31b36 {
-  mask-image: radial-gradient(circle at center 93%, rgba(0, 0, 0, 0) 15.5%, rgba(0, 0, 0, 0.1) 16%, rgba(0, 0, 0, 0.3) 16.5%, rgba(0, 0, 0, 0.6) 17%, rgba(0, 0, 0, 0.8) 17.5%, black 17.8%, black 18%);
+  mask-image: radial-gradient(
+    circle at center 93%,
+    rgba(0, 0, 0, 0) 15.5%,
+    rgba(0, 0, 0, 0.1) 16%,
+    rgba(0, 0, 0, 0.3) 16.5%,
+    rgba(0, 0, 0, 0.6) 17%,
+    rgba(0, 0, 0, 0.8) 17.5%,
+    black 17.8%,
+    black 18%
+  );
 }
 .mediaLarge .Basic_base__special_9a292541 .Basic_container_f1a31b36 {
-  mask-image: radial-gradient(circle at center 93%, rgba(0, 0, 0, 0) 16%, rgba(0, 0, 0, 0.1) 16.3%, rgba(0, 0, 0, 0.3) 16.5%, rgba(0, 0, 0, 0.6) 16.7%, rgba(0, 0, 0, 0.8) 16.8%, black 18%);
+  mask-image: radial-gradient(
+    circle at center 93%,
+    rgba(0, 0, 0, 0) 16%,
+    rgba(0, 0, 0, 0.1) 16.3%,
+    rgba(0, 0, 0, 0.3) 16.5%,
+    rgba(0, 0, 0, 0.6) 16.7%,
+    rgba(0, 0, 0, 0.8) 16.8%,
+    black 18%
+  );
 }
-.Basic_base__special_9a292541.Basic_base__researched_9a292541 .Basic_container_f1a31b36, .Basic_base__special_9a292541.Basic_base__animateResearched_9a292541 .Basic_container_f1a31b36 {
+.Basic_base__special_9a292541.Basic_base__researched_9a292541 .Basic_container_f1a31b36,
+.Basic_base__special_9a292541.Basic_base__animateResearched_9a292541 .Basic_container_f1a31b36 {
   cursor: pointer;
 }
-.Basic_base__lockedTree_9a292541 .Basic_container_f1a31b36, .Basic_base__researched_9a292541 .Basic_container_f1a31b36, .Basic_base__animateResearched_9a292541 .Basic_container_f1a31b36, .Basic_base__special_9a292541.Basic_base__lockedTree_9a292541 .Basic_container_f1a31b36, .Basic_base__special_9a292541.Basic_base__researched_9a292541.Basic_base__lockedVehicle_9a292541 .Basic_container_f1a31b36 {
+.Basic_base__lockedTree_9a292541 .Basic_container_f1a31b36,
+.Basic_base__researched_9a292541 .Basic_container_f1a31b36,
+.Basic_base__animateResearched_9a292541 .Basic_container_f1a31b36,
+.Basic_base__special_9a292541.Basic_base__lockedTree_9a292541 .Basic_container_f1a31b36,
+.Basic_base__special_9a292541.Basic_base__researched_9a292541.Basic_base__lockedVehicle_9a292541
+  .Basic_container_f1a31b36 {
   cursor: default;
 }
 
@@ -1957,7 +2190,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 46rem;
   height: 46rem;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.common.texture.small.texture) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.common.texture.small.texture)
+    no-repeat center/contain;
 }
 .mediaLarge .Basic_texture_a8f6d174 {
   width: 54rem;
@@ -1972,7 +2206,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 80rem;
   height: 80rem;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.common.glow.small.glow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.common.glow.small.glow) no-repeat
+    center/contain;
   opacity: 0;
   z-index: -1;
   transition: opacity 0.2s;
@@ -1994,10 +2229,20 @@ html[lang=th] input {
   opacity: 0.7;
 }
 .Basic_base__special_9a292541 .Basic_glow_8e0e646b {
-  mask-image: radial-gradient(circle at center 76%, rgba(0, 0, 0, 0) 12.3%, rgba(0, 0, 0, 0.5) 12.3%, black 13.3%);
+  mask-image: radial-gradient(
+    circle at center 76%,
+    rgba(0, 0, 0, 0) 12.3%,
+    rgba(0, 0, 0, 0.5) 12.3%,
+    black 13.3%
+  );
 }
 .mediaLarge .Basic_base__special_9a292541 .Basic_glow_8e0e646b {
-  mask-image: radial-gradient(circle at center 75.5%, rgba(0, 0, 0, 0) 12.8%, rgba(0, 0, 0, 0.5) 12.8%, black 14%);
+  mask-image: radial-gradient(
+    circle at center 75.5%,
+    rgba(0, 0, 0, 0) 12.8%,
+    rgba(0, 0, 0, 0.5) 12.8%,
+    black 14%
+  );
 }
 .mediaLarge .Basic_glow_8e0e646b {
   width: 100rem;
@@ -2015,10 +2260,12 @@ html[lang=th] input {
   transform-origin: center;
   transition: transform 0.2s;
 }
-.Basic_ef3988ee:hover.Basic_base__researched_9a292541 .Basic_gearContainer_e8e416fa, .Basic_ef3988ee:hover.Basic_base__animateResearched_9a292541 .Basic_gearContainer_e8e416fa {
+.Basic_ef3988ee:hover.Basic_base__researched_9a292541 .Basic_gearContainer_e8e416fa,
+.Basic_ef3988ee:hover.Basic_base__animateResearched_9a292541 .Basic_gearContainer_e8e416fa {
   transform: rotate(90deg);
 }
-.Basic_ef3988ee:hover.Basic_base__lockedTree_9a292541 .Basic_gearContainer_e8e416fa, .Basic_ef3988ee:hover.Basic_base__lockedVehicle_9a292541 .Basic_gearContainer_e8e416fa {
+.Basic_ef3988ee:hover.Basic_base__lockedTree_9a292541 .Basic_gearContainer_e8e416fa,
+.Basic_ef3988ee:hover.Basic_base__lockedVehicle_9a292541 .Basic_gearContainer_e8e416fa {
   transform: rotate(0);
 }
 .mediaLarge .Basic_gearContainer_e8e416fa {
@@ -2034,7 +2281,9 @@ html[lang=th] input {
   background: url(R.images.gui.maps.icons.skillTree.tree.gear.small.gear) no-repeat center/contain;
   filter: grayscale(0.8);
   opacity: 0.5;
-  transition: filter 0.2s, opacity 0.2s;
+  transition:
+    filter 0.2s,
+    opacity 0.2s;
 }
 .Basic_base__selected_9a292541 .Basic_gearIcon_88a263ef {
   filter: grayscale(0);
@@ -2052,10 +2301,11 @@ html[lang=th] input {
 }
 .mediaLarge .Basic_gearIcon_88a263ef {
   background-image: url(R.images.gui.maps.icons.skillTree.tree.gear.large.gear);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2078,21 +2328,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2112,12 +2368,14 @@ html[lang=th] input {
 .Ghost_base__selected_f90be090 {
   background-color: rgba(255, 219, 183, 0.9);
 }
-.Ghost_base__researched_eea20f5, .Ghost_base__animateResearched_a7c4bb12 {
+.Ghost_base__researched_eea20f5,
+.Ghost_base__animateResearched_a7c4bb12 {
   background-color: rgba(255, 247, 225, 0.7);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2140,21 +2398,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2173,13 +2437,16 @@ html[lang=th] input {
   }
 }
 @keyframes FinalPerkDecoration_pulseBorder_260dff85 {
-  0%, 20% {
+  0%,
+  20% {
     border-color: rgba(255, 255, 255, 0.7);
   }
-  35%, 70% {
+  35%,
+  70% {
     border-color: rgba(206, 206, 206, 0.25);
   }
-  90%, 100% {
+  90%,
+  100% {
     border-color: rgba(255, 255, 255, 0.7);
   }
 }
@@ -2212,7 +2479,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 240rem;
   height: 240rem;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.final.borderLayer.small.borderLayer) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.final.borderLayer.small.borderLayer)
+    no-repeat center/contain;
   z-index: 1;
   pointer-events: none;
 }
@@ -2240,10 +2508,14 @@ html[lang=th] input {
   height: 240rem;
   background-image: url(R.images.gui.maps.icons.skillTree.tree.perks.final.glow.large.default);
 }
-.FinalPerkDecoration_base__selected_260dff85 .FinalPerkDecoration_glow_ae828d97, .FinalPerkDecoration_base__animateResearched_260dff85 .FinalPerkDecoration_glow_ae828d97 {
+.FinalPerkDecoration_base__selected_260dff85 .FinalPerkDecoration_glow_ae828d97,
+.FinalPerkDecoration_base__animateResearched_260dff85 .FinalPerkDecoration_glow_ae828d97 {
   background-image: url(R.images.gui.maps.icons.skillTree.tree.perks.final.glow.small.selected);
 }
-.mediaLarge .FinalPerkDecoration_base__selected_260dff85 .FinalPerkDecoration_glow_ae828d97, .mediaLarge .FinalPerkDecoration_base__animateResearched_260dff85 .FinalPerkDecoration_glow_ae828d97 {
+.mediaLarge .FinalPerkDecoration_base__selected_260dff85 .FinalPerkDecoration_glow_ae828d97,
+.mediaLarge
+  .FinalPerkDecoration_base__animateResearched_260dff85
+  .FinalPerkDecoration_glow_ae828d97 {
   width: 240rem;
   height: 240rem;
   background-image: url(R.images.gui.maps.icons.skillTree.tree.perks.final.glow.large.selected);
@@ -2280,7 +2552,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.final.star.small.star) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.final.star.small.star) no-repeat
+    center/contain;
   opacity: 0.2;
   transform-origin: center center;
   animation: FinalPerkDecoration_rotateBackForth_260dff85 15s infinite;
@@ -2349,10 +2622,11 @@ html[lang=th] input {
 .mediaLarge .FinalPerkDecoration_draftTexture_a070f384 {
   width: 700rem;
   height: 800rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2375,21 +2649,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2450,7 +2730,9 @@ html[lang=th] input {
   filter: grayscale(1.1) brightness(1);
   opacity: 1;
 }
-.Major_305c8384:hover.Major_base__selected_8ac3c20b .Major_icon_f20d091, .Major_305c8384:hover.Major_base__researched_8ac3c20b .Major_icon_f20d091, .Major_305c8384:hover.Major_base__animateResearched_8ac3c20b .Major_icon_f20d091 {
+.Major_305c8384:hover.Major_base__selected_8ac3c20b .Major_icon_f20d091,
+.Major_305c8384:hover.Major_base__researched_8ac3c20b .Major_icon_f20d091,
+.Major_305c8384:hover.Major_base__animateResearched_8ac3c20b .Major_icon_f20d091 {
   filter: grayscale(0) brightness(1.15);
   opacity: 1;
 }
@@ -2505,7 +2787,9 @@ html[lang=th] input {
   width: 100%;
   height: 100%;
 }
-.Major_base__lockedTree_8ac3c20b .Major_container_928d6f81, .Major_base__researched_8ac3c20b .Major_container_928d6f81, .Major_base__animateResearched_8ac3c20b .Major_container_928d6f81 {
+.Major_base__lockedTree_8ac3c20b .Major_container_928d6f81,
+.Major_base__researched_8ac3c20b .Major_container_928d6f81,
+.Major_base__animateResearched_8ac3c20b .Major_container_928d6f81 {
   cursor: default;
 }
 
@@ -2531,7 +2815,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 60rem;
   height: 60rem;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.major.texture.small.texture) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.major.texture.small.texture)
+    no-repeat center/contain;
   pointer-events: none;
 }
 .mediaLarge .Major_texture_5f54f0c9 {
@@ -2552,7 +2837,8 @@ html[lang=th] input {
   transform: translate(-50%, -50%);
   width: 110rem;
   height: 110rem;
-  background: url(R.images.gui.maps.icons.skillTree.tree.perks.major.glow.small.glow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.tree.perks.major.glow.small.glow) no-repeat
+    center/contain;
   opacity: 0;
   z-index: -1;
   transition: opacity 0.2s;
@@ -2576,10 +2862,11 @@ html[lang=th] input {
   width: 128rem;
   height: 128rem;
   background-image: url(R.images.gui.maps.icons.skillTree.tree.perks.major.glow.large.glow);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2602,21 +2889,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2635,14 +2928,16 @@ html[lang=th] input {
   stroke-dasharray: 2 4;
   stroke-dashoffset: 6;
 }
-.Path_base__researched_a3514b92, .Path_base__animateResearched_8845b1b0 {
+.Path_base__researched_a3514b92,
+.Path_base__animateResearched_8845b1b0 {
   stroke: rgba(255, 247, 225, 0.7);
   stroke-dasharray: 0;
   stroke-dashoffset: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2665,21 +2960,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2692,10 +2993,11 @@ html[lang=th] input {
   position: absolute;
   top: 0;
   left: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2718,21 +3020,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2743,10 +3051,11 @@ html[lang=th] input {
   width: var(--width);
   height: var(--height);
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2769,21 +3078,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2811,10 +3126,11 @@ html[lang=th] input {
 .Info_perk_6719815a {
   color: var(--color-currency-free-experience);
   opacity: 0.9;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -2837,21 +3153,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -2992,10 +3314,11 @@ html[lang=th] input {
   to {
     transform: rotate(360deg);
   }
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 :root {
   --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
+    0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4),
+    0rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 /* stylelint-disable selector-max-id */
@@ -3018,21 +3341,27 @@ input {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
+html[lang="ja"] body,
+html[lang="ko"] body,
+html[lang="zh_tw"] body,
+html[lang="zh_sg"] body,
+html[lang="zh_cn"] body,
+html[lang="vi"] body,
+html[lang="th"] body,
+html[lang="ja"] button,
+html[lang="ko"] button,
+html[lang="zh_tw"] button,
+html[lang="zh_sg"] button,
+html[lang="zh_cn"] button,
+html[lang="vi"] button,
+html[lang="th"] button,
+html[lang="ja"] input,
+html[lang="ko"] input,
+html[lang="zh_tw"] input,
+html[lang="zh_sg"] input,
+html[lang="zh_cn"] input,
+html[lang="vi"] input,
+html[lang="th"] input {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -3053,7 +3382,8 @@ html[lang=th] input {
 .EntryPoint_bg_1daedee {
   width: 100rem;
   height: 100rem;
-  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.small.normal) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.small.normal) no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3075,7 +3405,8 @@ html[lang=th] input {
 .EntryPoint_hover_4ee0996f {
   width: 100rem;
   height: 100rem;
-  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.small.hover) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.skillTree.entryPoint.progression.small.hover) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   top: 50%;

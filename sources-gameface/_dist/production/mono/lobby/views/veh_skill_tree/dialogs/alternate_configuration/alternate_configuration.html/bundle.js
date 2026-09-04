@@ -1,1 +1,192 @@
-import{j as e,f as s,t as a,r as t}from"../../../../../chunks/vendor.js";import{r as i,g as o,aC as l,b9 as r,a9 as c,ae as n,u as d,s as m,B as p,t as v,V as h,ba as _,i as u,m as f,J as g,b as j,k as x,Q as N,aF as y,p as C,c as b,U as k}from"../../../../../chunks/lib.js";const E={base:"Card_24797002",card:"Card_8b5a7d32",content:"Card_content_e830473a",image:"Card_image_e613669d",name:"Card_name_99ab4a1d"};function I({type:a,iconName:t,pressed:n,onClick:d,nodeID:m}){const p=i.resolve("strings"),v=o(),{onMouseEnter:h,onMouseLeave:_,onClick:u}=l({contentId:R.views.lobby.veh_post_progression.tooltip.SetupTooltipView("resId"),args:{nodeID:m,type:a}});return e.jsxs("div",{className:s(E.base,n&&E.base__pressed),onMouseEnter:h,onMouseLeave:_,onClick:()=>{u(),d(),v.play("click",{target:n?"deselect":"select"})},children:[e.jsx(r,{className:E.card,selected:n,status:n?"done":void 0,children:e.jsx("div",{className:E.content,children:e.jsx(c,{className:E.image,width:"250",height:"160",path:`skillTree.tree.dialogs.alternateConfiguration.${t}`})})}),e.jsx("div",{className:E.name,children:p.readOrEmpty(`veh_skill_tree.dialog.altConfiguration.${a}`)})]})}const S="Footer_info_b48c491b",T="Footer_separator_3f705b18",A="Footer_button_197c4535",O=n("AlternateConfigurationFooter","Footer_fb231f23");function F({onClose:s,...a}){const t=i.resolve("strings"),o=d({size:m.small},{medium:{size:m.medium}});return e.jsxs(O,{...a,children:[e.jsx("div",{className:S,children:t.readOrEmpty("veh_skill_tree.dialog.altConfiguration.info")}),e.jsx("div",{className:T}),e.jsx(p,{className:A,theme:v.primary,size:o.size,onClick:s,children:t.readOrEmpty("veh_skill_tree.dialog.common.accept")})]})}const M={vehicle:"Header_vehicle_2fc02200",vehicleTier:"Header_vehicleTier_135eaea3",vehicleName:"Header_vehicleName_135eaea3",title:"Header_title_1c6e5cde",description:"Header_description_edbe210e"};function z({level:s,type:a,name:t,premium:o}){const l=i.resolve("strings");return e.jsxs("div",{className:M.base,children:[e.jsxs(h,{className:M.vehicle,children:[e.jsx(h.Level,{className:M.vehicleTier,value:s}),a&&e.jsx(h.Type,{type:a,size:_.x64x64,premium:o}),e.jsx(h.Name,{children:e.jsx("div",{className:M.vehicleName,children:t})})]}),e.jsx("div",{className:M.title,children:l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.title")}),e.jsx("div",{className:M.description,children:l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.description")})]})}const[D,H]=u()(({observableModel:e})=>{const s={vehicleInfo:e.transform(({vehicleLvl:e,vehicleType:s,vehicleName:a,isElite:t})=>({level:e,type:s,name:a,premium:t}),"vehicleInfo"),loadouts:e.transform(e=>f(e,e=>({...e})),"loadouts"),...e.primitives(["nodeID"])},a=g.shallow(()=>f(s.loadouts.get(),({isSelected:e})=>e));return{...s,computeds:{loadoutStates:a}}},({externalModel:e})=>({close:e.createCallbackNoArgs("onClose"),affirmate:e.createCallback(e=>({loadoutStates:JSON.stringify(e)}),"onAffirmate")})),w="App_170f5fe6",L="App_cards_2833612d",$="App_footer_d8aec517",J=a(function(){const{model:s,controls:a}=H();j(x.ESCAPE,a.close),j(x.ENTER,()=>a.affirmate(c));const i=s.vehicleInfo.get(),o=s.loadouts.get(),l=s.nodeID.get(),r=s.computeds.loadoutStates(),[c,n]=t.useState(r);N.log(y(i.type),`Incorrect vehicle type: ${i.type}`);const d=y(i.type)?i.type:void 0;return e.jsxs("div",{className:w,children:[e.jsx(z,{...i,type:d}),e.jsx("div",{className:L,children:o.map(({type:s,iconName:a},t)=>e.jsx(I,{type:s,iconName:a,pressed:c[t],nodeID:l,onClick:()=>{n(e=>e.map((e,s)=>s===t?!e:e))}},`loadout-card-${s}`))}),e.jsx(F,{className:$,onClose:()=>a.affirmate(c)})]})}),V=C({click:{select:"yes1",deselect:"yes"}});b(e.jsx(k,{soundsOverrides:V,children:e.jsx(D,{children:e.jsx(J,{})})}));
+import { j as e, f as s, t as a, r as t } from "../../../../../chunks/vendor.js";
+import {
+  r as i,
+  g as o,
+  aC as l,
+  b9 as r,
+  a9 as c,
+  ae as n,
+  u as d,
+  s as m,
+  B as p,
+  t as v,
+  V as h,
+  ba as _,
+  i as u,
+  m as f,
+  J as g,
+  b as j,
+  k as x,
+  Q as N,
+  aF as y,
+  p as C,
+  c as b,
+  U as k,
+} from "../../../../../chunks/lib.js";
+const E = {
+  base: "Card_24797002",
+  card: "Card_8b5a7d32",
+  content: "Card_content_e830473a",
+  image: "Card_image_e613669d",
+  name: "Card_name_99ab4a1d",
+};
+function I({ type: a, iconName: t, pressed: n, onClick: d, nodeID: m }) {
+  const p = i.resolve("strings"),
+    v = o(),
+    {
+      onMouseEnter: h,
+      onMouseLeave: _,
+      onClick: u,
+    } = l({
+      contentId: R.views.lobby.veh_post_progression.tooltip.SetupTooltipView("resId"),
+      args: { nodeID: m, type: a },
+    });
+  return e.jsxs("div", {
+    className: s(E.base, n && E.base__pressed),
+    onMouseEnter: h,
+    onMouseLeave: _,
+    onClick: () => {
+      (u(), d(), v.play("click", { target: n ? "deselect" : "select" }));
+    },
+    children: [
+      e.jsx(r, {
+        className: E.card,
+        selected: n,
+        status: n ? "done" : void 0,
+        children: e.jsx("div", {
+          className: E.content,
+          children: e.jsx(c, {
+            className: E.image,
+            width: "250",
+            height: "160",
+            path: `skillTree.tree.dialogs.alternateConfiguration.${t}`,
+          }),
+        }),
+      }),
+      e.jsx("div", {
+        className: E.name,
+        children: p.readOrEmpty(`veh_skill_tree.dialog.altConfiguration.${a}`),
+      }),
+    ],
+  });
+}
+const S = "Footer_info_b48c491b",
+  T = "Footer_separator_3f705b18",
+  A = "Footer_button_197c4535",
+  O = n("AlternateConfigurationFooter", "Footer_fb231f23");
+function F({ onClose: s, ...a }) {
+  const t = i.resolve("strings"),
+    o = d({ size: m.small }, { medium: { size: m.medium } });
+  return e.jsxs(O, {
+    ...a,
+    children: [
+      e.jsx("div", {
+        className: S,
+        children: t.readOrEmpty("veh_skill_tree.dialog.altConfiguration.info"),
+      }),
+      e.jsx("div", { className: T }),
+      e.jsx(p, {
+        className: A,
+        theme: v.primary,
+        size: o.size,
+        onClick: s,
+        children: t.readOrEmpty("veh_skill_tree.dialog.common.accept"),
+      }),
+    ],
+  });
+}
+const M = {
+  vehicle: "Header_vehicle_2fc02200",
+  vehicleTier: "Header_vehicleTier_135eaea3",
+  vehicleName: "Header_vehicleName_135eaea3",
+  title: "Header_title_1c6e5cde",
+  description: "Header_description_edbe210e",
+};
+function z({ level: s, type: a, name: t, premium: o }) {
+  const l = i.resolve("strings");
+  return e.jsxs("div", {
+    className: M.base,
+    children: [
+      e.jsxs(h, {
+        className: M.vehicle,
+        children: [
+          e.jsx(h.Level, { className: M.vehicleTier, value: s }),
+          a && e.jsx(h.Type, { type: a, size: _.x64x64, premium: o }),
+          e.jsx(h.Name, { children: e.jsx("div", { className: M.vehicleName, children: t }) }),
+        ],
+      }),
+      e.jsx("div", {
+        className: M.title,
+        children: l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.title"),
+      }),
+      e.jsx("div", {
+        className: M.description,
+        children: l.readOrEmpty("veh_skill_tree.dialog.altConfiguration.description"),
+      }),
+    ],
+  });
+}
+const [D, H] = u()(
+    ({ observableModel: e }) => {
+      const s = {
+          vehicleInfo: e.transform(
+            ({ vehicleLvl: e, vehicleType: s, vehicleName: a, isElite: t }) => ({
+              level: e,
+              type: s,
+              name: a,
+              premium: t,
+            }),
+            "vehicleInfo",
+          ),
+          loadouts: e.transform((e) => f(e, (e) => ({ ...e })), "loadouts"),
+          ...e.primitives(["nodeID"]),
+        },
+        a = g.shallow(() => f(s.loadouts.get(), ({ isSelected: e }) => e));
+      return { ...s, computeds: { loadoutStates: a } };
+    },
+    ({ externalModel: e }) => ({
+      close: e.createCallbackNoArgs("onClose"),
+      affirmate: e.createCallback((e) => ({ loadoutStates: JSON.stringify(e) }), "onAffirmate"),
+    }),
+  ),
+  w = "App_170f5fe6",
+  L = "App_cards_2833612d",
+  $ = "App_footer_d8aec517",
+  J = a(function () {
+    const { model: s, controls: a } = H();
+    (j(x.ESCAPE, a.close), j(x.ENTER, () => a.affirmate(c)));
+    const i = s.vehicleInfo.get(),
+      o = s.loadouts.get(),
+      l = s.nodeID.get(),
+      r = s.computeds.loadoutStates(),
+      [c, n] = t.useState(r);
+    N.log(y(i.type), `Incorrect vehicle type: ${i.type}`);
+    const d = y(i.type) ? i.type : void 0;
+    return e.jsxs("div", {
+      className: w,
+      children: [
+        e.jsx(z, { ...i, type: d }),
+        e.jsx("div", {
+          className: L,
+          children: o.map(({ type: s, iconName: a }, t) =>
+            e.jsx(
+              I,
+              {
+                type: s,
+                iconName: a,
+                pressed: c[t],
+                nodeID: l,
+                onClick: () => {
+                  n((e) => e.map((e, s) => (s === t ? !e : e)));
+                },
+              },
+              `loadout-card-${s}`,
+            ),
+          ),
+        }),
+        e.jsx(F, { className: $, onClose: () => a.affirmate(c) }),
+      ],
+    });
+  }),
+  V = C({ click: { select: "yes1", deselect: "yes" } });
+b(e.jsx(k, { soundsOverrides: V, children: e.jsx(D, { children: e.jsx(J, {}) }) }));
