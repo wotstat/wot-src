@@ -1,540 +1,539 @@
 .TooltipDecorator_base_c9 {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 }
 
 .TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
-        padding: 4rem 6rem 8rem;
-        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
-        border-image-slice: 24 fill;
-        border-image-width: 24rem;
-        position: relative;
-    }
-
-.Reward_base_ea {
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  padding: 4rem 6rem 8rem;
+  border-image-source: url("R.images.gui.maps.icons.tooltip.tooltip_background");
+  border-image-slice: 24 fill;
+  border-image-width: 24rem;
+  position: relative;
 }
 
-    .Reward_base__s48x48_46,
-    .Reward_base__small_c0 {
-        width: 48rem;
-        height: 48rem;
-    }
+.Reward_base_ea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
-    .Reward_base__s80x80_ce,
-    .Reward_base__big_e5 {
-        width: 80rem;
-        height: 80rem;
-    }
+.Reward_base__s48x48_46,
+.Reward_base__small_c0 {
+  width: 48rem;
+  height: 48rem;
+}
 
-    .Reward_base__s128x100_c3 {
-        width: 128rem;
-        height: 100rem;
-    }
+.Reward_base__s80x80_ce,
+.Reward_base__big_e5 {
+  width: 80rem;
+  height: 80rem;
+}
 
-    .Reward_base__s180x135_7c {
-        width: 180rem;
-        height: 135rem;
-    }
+.Reward_base__s128x100_c3 {
+  width: 128rem;
+  height: 100rem;
+}
 
-    .Reward_base__s232x174_67 {
-        width: 232rem;
-        height: 174rem;
-    }
+.Reward_base__s180x135_7c {
+  width: 180rem;
+  height: 135rem;
+}
 
-    .Reward_base__s296x222_78 {
-        width: 296rem;
-        height: 222rem;
-    }
+.Reward_base__s232x174_67 {
+  width: 232rem;
+  height: 174rem;
+}
 
-    .Reward_base__s400x300_07 {
-        width: 400rem;
-        height: 300rem;
-    }
+.Reward_base__s296x222_78 {
+  width: 296rem;
+  height: 222rem;
+}
 
-    .Reward_base__s600x450_f8 {
-        width: 600rem;
-        height: 450rem;
-    }
+.Reward_base__s400x300_07 {
+  width: 400rem;
+  height: 300rem;
+}
+
+.Reward_base__s600x450_f8 {
+  width: 600rem;
+  height: 450rem;
+}
 
 .Reward_tooltipWrapper_b5 {
-    height: 100%;
+  height: 100%;
 }
 
 .Reward_icon_df {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    position: relative;
-    z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
 }
 
 .Reward_overlay_68 {
-    background: no-repeat center / 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
+  background: no-repeat center / 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .Reward_base__s48x48_46 .Reward_overlay_68,
-    .Reward_base__small_c0 .Reward_overlay_68 {
-        width: 96rem;
-        height: 96rem;
-        background-size: 100%;
-        overflow: visible;
-    }
+.Reward_base__small_c0 .Reward_overlay_68 {
+  width: 96rem;
+  height: 96rem;
+  background-size: 100%;
+  overflow: visible;
+}
 
 .Reward_base__s80x80_ce .Reward_overlay_68,
-    .Reward_base__big_e5 .Reward_overlay_68 {
-        width: 128rem;
-        height: 128rem;
-    }
+.Reward_base__big_e5 .Reward_overlay_68 {
+  width: 128rem;
+  height: 128rem;
+}
 
 .Reward_base__s180x135_7c .Reward_overlay_68 {
-        width: 266rem;
-        height: 241rem;
-    }
+  width: 266rem;
+  height: 241rem;
+}
 
 .Reward_base__s232x174_67 .Reward_overlay_68 {
-        width: 344rem;
-        height: 312rem;
-    }
+  width: 344rem;
+  height: 312rem;
+}
 
 .Reward_base__s296x222_78 .Reward_overlay_68 {
-        width: 450rem;
-        height: 408rem;
-    }
+  width: 450rem;
+  height: 408rem;
+}
 
 .Reward_base__s400x300_07 .Reward_overlay_68 {
-        width: 618rem;
-        height: 590rem;
-    }
+  width: 618rem;
+  height: 590rem;
+}
 
 .Reward_base__s600x450_f8 .Reward_overlay_68 {
-        width: 670rem;
-        height: 575rem;
-    }
+  width: 670rem;
+  height: 575rem;
+}
 
 .Reward_highlight_36 {
-    width: 100%;
-    height: 100%;
-    background: no-repeat center / contain;
-    position: absolute;
-    z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center / contain;
+  position: absolute;
+  z-index: 0;
 }
 
 .Reward_image_89 {
-    position: relative;
+  position: relative;
 }
 
 .Reward_info_72 {
-    margin-top: -13rem;
-    color: #e9e2bf;
-    font-size: 14rem;
-    line-height: 18rem;
-    text-align: center;
-    z-index: 1;
+  margin-top: -13rem;
+  color: #e9e2bf;
+  font-size: 14rem;
+  line-height: 18rem;
+  text-align: center;
+  z-index: 1;
 }
 
 .Reward_base__s48x48_46 .Reward_info_72,
-    .Reward_base__small_c0 .Reward_info_72 {
-        margin: -10rem -10rem 0;
-    }
+.Reward_base__small_c0 .Reward_info_72 {
+  margin: -10rem -10rem 0;
+}
 
 .Reward_info__multi_63 {
-        margin-right: 2rem;
-        text-align: right;
-    }
+  margin-right: 2rem;
+  text-align: right;
+}
 
 .Reward_base__s48x48_46 .Reward_info__multi_63,
-        .Reward_base__small_c0 .Reward_info__multi_63 {
-            margin-right: 0;
-        }
+.Reward_base__small_c0 .Reward_info__multi_63 {
+  margin-right: 0;
+}
 
 .Reward_info__credits_ef {
-        color: #E9E2BF;
-    }
+  color: #e9e2bf;
+}
 
 .Reward_info__gold_36 {
-        color: #FFC363;
-    }
+  color: #ffc363;
+}
 
 .Reward_info__crystal_36 {
-        color: #C9C9B6;
-    }
+  color: #c9c9b6;
+}
 
 .Reward_info__premiumTank_d3 {
-        color: #FFDD99;
-    }
+  color: #ffdd99;
+}
 
 .Reward_timer_d3 {
-    background: no-repeat center / contain;
-    position: absolute;
-    z-index: 1;
+  background: no-repeat center / contain;
+  position: absolute;
+  z-index: 1;
 }
 
 .Reward_base__s48x48_46 .Reward_timer_d3,
-    .Reward_base__small_c0 .Reward_timer_d3 {
-        width: 23rem;
-        height: 23rem;
-        background-image: url('R.images.gui.maps.icons.quests.bonuses.small.timer');
-        top: -6rem;
-        right: -6rem;
-    }
+.Reward_base__small_c0 .Reward_timer_d3 {
+  width: 23rem;
+  height: 23rem;
+  background-image: url("R.images.gui.maps.icons.quests.bonuses.small.timer");
+  top: -6rem;
+  right: -6rem;
+}
 
 .Reward_base__s80x80_ce .Reward_timer_d3,
-    .Reward_base__big_e5 .Reward_timer_d3 {
-        width: 48rem;
-        height: 48rem;
-        background-image: url('R.images.gui.maps.icons.quests.bonuses.big.timer');
-        top: -14rem;
-        right: -14rem;
-    }
+.Reward_base__big_e5 .Reward_timer_d3 {
+  width: 48rem;
+  height: 48rem;
+  background-image: url("R.images.gui.maps.icons.quests.bonuses.big.timer");
+  top: -14rem;
+  right: -14rem;
+}
 
 .Box_mt__XS_0c {
-            margin-top: 4rem;
-        }
-        .Box_mt__SM_eb {
-            margin-top: 8rem;
-        }
-        .Box_mt__SMp_cf {
-            margin-top: 10rem;
-        }
-        .Box_mt__MD_25 {
-            margin-top: 16rem;
-        }
-        .Box_mt__MDp_49 {
-            margin-top: 20rem;
-        }
-        .Box_mt__LG_e8 {
-            margin-top: 32rem;
-        }
-        .Box_mt__XL_83 {
-            margin-top: 64rem;
-        }
+  margin-top: 4rem;
+}
+.Box_mt__SM_eb {
+  margin-top: 8rem;
+}
+.Box_mt__SMp_cf {
+  margin-top: 10rem;
+}
+.Box_mt__MD_25 {
+  margin-top: 16rem;
+}
+.Box_mt__MDp_49 {
+  margin-top: 20rem;
+}
+.Box_mt__LG_e8 {
+  margin-top: 32rem;
+}
+.Box_mt__XL_83 {
+  margin-top: 64rem;
+}
 
 .Box_mr__XS_7c {
-            margin-right: 4rem;
-        }
+  margin-right: 4rem;
+}
 
 .Box_mr__SM_08 {
-            margin-right: 8rem;
-        }
+  margin-right: 8rem;
+}
 
 .Box_mr__SMp_06 {
-            margin-right: 10rem;
-        }
+  margin-right: 10rem;
+}
 
 .Box_mr__MD_4a {
-            margin-right: 16rem;
-        }
+  margin-right: 16rem;
+}
 
 .Box_mr__MDp_b6 {
-            margin-right: 20rem;
-        }
+  margin-right: 20rem;
+}
 
 .Box_mr__LG_d0 {
-            margin-right: 32rem;
-        }
+  margin-right: 32rem;
+}
 
 .Box_mr__XL_db {
-            margin-right: 64rem;
-        }
+  margin-right: 64rem;
+}
 
 .Box_mb__XS_bb {
-            margin-bottom: 4rem;
-        }
+  margin-bottom: 4rem;
+}
 
 .Box_mb__SM_83 {
-            margin-bottom: 8rem;
-        }
+  margin-bottom: 8rem;
+}
 
 .Box_mb__SMp_04 {
-            margin-bottom: 10rem;
-        }
+  margin-bottom: 10rem;
+}
 
 .Box_mb__MD_ed {
-            margin-bottom: 16rem;
-        }
+  margin-bottom: 16rem;
+}
 
 .Box_mb__MDp_65 {
-            margin-bottom: 20rem;
-        }
+  margin-bottom: 20rem;
+}
 
 .Box_mb__LG_c8 {
-            margin-bottom: 32rem;
-        }
+  margin-bottom: 32rem;
+}
 
 .Box_mb__XL_f8 {
-            margin-bottom: 64rem;
-        }
+  margin-bottom: 64rem;
+}
 
 .Box_ml__XS_8a {
-            margin-left: 4rem;
-        }
+  margin-left: 4rem;
+}
 
 .Box_ml__SM_e6 {
-            margin-left: 8rem;
-        }
+  margin-left: 8rem;
+}
 
 .Box_ml__SMp_fb {
-            margin-left: 10rem;
-        }
+  margin-left: 10rem;
+}
 
 .Box_ml__MD_2b {
-            margin-left: 16rem;
-        }
+  margin-left: 16rem;
+}
 
 .Box_ml__MDp_c7 {
-            margin-left: 20rem;
-        }
+  margin-left: 20rem;
+}
 
 .Box_ml__LG_39 {
-            margin-left: 32rem;
-        }
+  margin-left: 32rem;
+}
 
 .Box_ml__XL_4a {
-            margin-left: 64rem;
-        }
+  margin-left: 64rem;
+}
 
 .FormatText_base_d0 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* eslint-disable-next-line expectedscss*/
 .Text_paragraph-P10_2c {
-        font-size: 10rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_paragraph-P12_22 {
-        font-size: 12rem;
-        font-weight: 400;
-        line-height: 1.3;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 .Text_paragraph-P14_a7 {
-        font-size: 14rem;
-        font-weight: 400;
-        line-height: 1.3;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 .Text_paragraph-P16_90 {
-        font-size: 16rem;
-        font-weight: 400;
-        line-height: 1.25;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 .Text_paragraph-P18_50 {
-        font-size: 18rem;
-        font-weight: 400;
-        line-height: 1.25;
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 .Text_paragraph-P24_33 {
-        font-size: 24rem;
-        font-weight: 400;
-        line-height: 32rem;
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 32rem;
 }
 .Text_heading-H14_8b {
-        font-size: 14rem;
-        font-weight: 700;
-        line-height: 1.15;
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
 .Text_heading-H15_9e {
-        font-size: 15rem;
-        font-weight: 700;
-        line-height: 1.15;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
 .Text_heading-H18_b7 {
-        font-size: 18rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H20R_f6 {
-        font-size: 20rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_heading-H22_27 {
-        font-size: 22rem;
-        font-weight: 700;
-        line-height: 1.2;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .Text_heading-H24R_be {
-        font-size: 24rem;
-        font-weight: 400;
-        line-height: 1.2;
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .Text_heading-H24_0c {
-        font-size: 24rem;
-        font-weight: 700;
-        line-height: 1.2;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .Text_heading-H28_78 {
-        font-size: 28rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H36_32 {
-        font-size: 36rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 36rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H56_c3 {
-        font-size: 56rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 56rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H73_8f {
-        font-size: 73rem;
-        font-weight: 700;
-        line-height: 1.1;
+  font-size: 73rem;
+  font-weight: 700;
+  line-height: 1.1;
 }
 .Text_heading-H144_a9 {
-        font-size: 144rem;
-        font-weight: 700;
-        line-height: 1;
+  font-size: 144rem;
+  font-weight: 700;
+  line-height: 1;
 }
 .Text_BLACK_REAL_30 {
-        color: #000000;
-    }
+  color: #000000;
+}
 .Text_WHITE_REAL_bc {
-        color: #FFFFFF;
-    }
+  color: #ffffff;
+}
 .Text_WHITE_62 {
-        color: #F2F2F7;
-    }
+  color: #f2f2f7;
+}
 .Text_WHITE_ORANGE_54 {
-        color: #FEFEEC;
-    }
+  color: #fefeec;
+}
 .Text_WHITE_SPANISH_df {
-        color: #E9E2BF;
-    }
+  color: #e9e2bf;
+}
 .Text_PAR_15 {
-        color: #8C8C7E;
-    }
+  color: #8c8c7e;
+}
 .Text_PAR_SECONDARY_5d {
-        color: #595950;
-    }
+  color: #595950;
+}
 .Text_PAR_TERTIARY_c9 {
-        color: #37362E;
-    }
+  color: #37362e;
+}
 .Text_INFO_RED_30 {
-        color: #FF0000;
-    }
+  color: #ff0000;
+}
 .Text_RED_66 {
-        color: #FF2717;
-    }
+  color: #ff2717;
+}
 .Text_RED_DARK_d8 {
-        color: #B70000;
-    }
+  color: #b70000;
+}
 .Text_YELLOW_ed {
-        color: #FEAB34;
-    }
+  color: #feab34;
+}
 .Text_ORANGE_be {
-        color: #EE7000;
-    }
+  color: #ee7000;
+}
 .Text_CREAM_57 {
-        color: #FFDD99;
-    }
+  color: #ffdd99;
+}
 .Text_BROWN_18 {
-        color: #CBAC77;
-    }
+  color: #cbac77;
+}
 .Text_GREEN_BRIGHT_3f {
-        color: #80D43A;
-    }
+  color: #80d43a;
+}
 .Text_GREEN_e3 {
-        color: #7AB300;
-    }
+  color: #7ab300;
+}
 .Text_GREEN_DARK_f1 {
-        color: #497212;
-    }
+  color: #497212;
+}
 .Text_BLUE_BOOSTER_21 {
-        color: #CCFFFF;
-    }
+  color: #ccffff;
+}
 .Text_BLUE_TEAMKILLER_ab {
-        color: #09E2FF;
-    }
+  color: #09e2ff;
+}
 .Text_CRED_f7 {
-        color: #CED9D9;
-    }
+  color: #ced9d9;
+}
 .Text_GOLD_28 {
-        color: #FFC363;
-    }
+  color: #ffc363;
+}
 .Text_BOND_be {
-        color: #C9C9B6;
-    }
+  color: #c9c9b6;
+}
 .Text_PROM_65 {
-        color: #A29B70;
-    }
-
-.App_base_56 {
-    color: #8C8C7E;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    min-width: 385rem;
-    max-height: 768rem;
-    background-color: #12110b;
-    position: relative;
+  color: #a29b70;
 }
 
-    .App_base__wide_26 {
-        max-height: 585rem;
-    }
+.App_base_56 {
+  color: #8c8c7e;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  min-width: 385rem;
+  max-height: 768rem;
+  background-color: #12110b;
+  position: relative;
+}
+
+.App_base__wide_26 {
+  max-height: 585rem;
+}
 
 .App_background_06 {
-    background-image: linear-gradient(
-            180deg,
-            rgba(51, 51, 41, .5) 0%,
-            rgba(51, 51, 41, 0) 15.6%,
-            rgba(51, 51, 41, 0) 88%,
-            rgba(51, 51, 41, .3) 100%
-    );
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(51, 51, 41, 0.5) 0%,
+    rgba(51, 51, 41, 0) 15.6%,
+    rgba(51, 51, 41, 0) 88%,
+    rgba(51, 51, 41, 0.3) 100%
+  );
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .App_content_87 {
-    padding: 25rem 0 25rem 25rem;
-    position: relative;
+  padding: 25rem 0 25rem 25rem;
+  position: relative;
 }
 
 .App_header_3a {
-    color: #E9E2BF;
-    font-size: 15rem;
-    font-weight: 700;
-    line-height: 1.15;
+  color: #e9e2bf;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
 
 .App_rewards_9b {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10rem;
 }
 
 .App_reward_fa {
-    display: flex;
-    align-items: center;
-    margin-top: 15rem;
-    margin-right: 25rem;
+  display: flex;
+  align-items: center;
+  margin-top: 15rem;
+  margin-right: 25rem;
 }
 
 .App_description_b2 {
-    color: #8C8C7E;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-left: 10rem;
+  color: #8c8c7e;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-left: 10rem;
 }
-

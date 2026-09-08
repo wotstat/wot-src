@@ -1,101 +1,109 @@
 .TooltipDecorator_base_c9 {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 }
 
 .TooltipDecorator_base__theme-default_6d .TooltipDecorator_decorator_3d {
-        padding: 4rem 6rem 8rem;
-        border-image-source: url('R.images.gui.maps.icons.tooltip.tooltip_background');
-        border-image-slice: 24 fill;
-        border-image-width: 24rem;
-        position: relative;
-    }
+  padding: 4rem 6rem 8rem;
+  border-image-source: url("R.images.gui.maps.icons.tooltip.tooltip_background");
+  border-image-slice: 24 fill;
+  border-image-width: 24rem;
+  position: relative;
+}
 
 .FormatText_base_d0 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Content_base_4a {
-    width: 300rem;
-    border: 1rem solid #f2f2e61a;
-    border-radius: 2rem;
-    background: linear-gradient(180deg, rgba(51, 51, 41, .3) 0%, rgba(51, 51, 41, 0) 16%, rgba(51, 51, 41, 0) 88%, rgba(51, 51, 41, .1) 100%),
-                linear-gradient(0deg, #030200, #030200);
+  width: 300rem;
+  border: 1rem solid #f2f2e61a;
+  border-radius: 2rem;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(51, 51, 41, 0.3) 0%,
+      rgba(51, 51, 41, 0) 16%,
+      rgba(51, 51, 41, 0) 88%,
+      rgba(51, 51, 41, 0.1) 100%
+    ),
+    linear-gradient(0deg, #030200, #030200);
 }
 
 .Content_content_3e {
-    padding: 0 21rem;
+  padding: 0 21rem;
 }
 
 .Content_descriptionText_e8 {
-    color: #8C8C7E;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-top: 18rem;
+  color: #8c8c7e;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: 18rem;
 }
 
 .Content_descriptionText__max_d7 {
-        color: #E9E2BF;
-    }
+  color: #e9e2bf;
+}
 
 .Content_description_4c {
-    color: #8C8C7E;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-top: 14rem;
+  color: #8c8c7e;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: 14rem;
 }
 
 .Content_progress_f4 {
-    color: #C9C9B6;
-    font-size: 16rem;
-    font-weight: 400;
-    line-height: 1.25;
-    margin-top: 18rem;
+  color: #c9c9b6;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 18rem;
 }
 
 .Content_progress__gold_ee {
-        color: #FFC363;
-    }
+  color: #ffc363;
+}
 
 .Content_progress__credits_dc {
-        color: #CED9D9;
-    }
+  color: #ced9d9;
+}
 
 .Content_maxValue_78 {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .Content_separatorTopWrapper_fb {
-    width: 100%;
-    margin-top: 6rem;
-    margin-bottom: -10rem;
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: -10rem;
 }
 
 .Content_separator_c2 {
-    width: 300rem;
-    height: 9rem;
-    background: url('R.images.gui.maps.icons.resourceWell.tooltips.divider_small') center / contain no-repeat;
+  width: 300rem;
+  height: 9rem;
+  background: url("R.images.gui.maps.icons.resourceWell.tooltips.divider_small") center / contain
+    no-repeat;
 }
 
 .Content_progressWrapper_72 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 68rem;
-    margin-bottom: -8rem;
-    padding-top: 4rem;
-    background: url('R.images.gui.maps.icons.resourceWell.tooltips.white_bg') no-repeat center / contain;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 68rem;
+  margin-bottom: -8rem;
+  padding-top: 4rem;
+  background: url("R.images.gui.maps.icons.resourceWell.tooltips.white_bg") no-repeat center /
+    contain;
 }
 
 .Content_icon_f2 {
-    flex: 1;
-    width: 24rem;
-    height: 18rem;
-    margin-top: 2rem;
-    margin-right: 1rem;
-    background: no-repeat 100% center;
+  flex: 1;
+  width: 24rem;
+  height: 18rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  background: no-repeat 100% center;
 }
-

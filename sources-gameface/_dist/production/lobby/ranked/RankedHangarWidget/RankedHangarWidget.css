@@ -1,698 +1,713 @@
 .App_base_bf {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .App_wrapper_06 {
-    width: 100%;
-    max-width: 20rem;
-    height: 100%;
-    max-height: 136rem;
-    position: relative;
+  width: 100%;
+  max-width: 20rem;
+  height: 100%;
+  max-height: 136rem;
+  position: relative;
 }
 
 .App_wrapperHover_57 {
-    width: 332rem;
-    height: 90%;
-    background: radial-gradient(48.29% 100% at 50% 0%, rgba(241, 14, 14, 0.3) 0%, rgba(183, 8, 8, 0) 100%);
-    opacity: 0;
-    position: absolute;
-    transition: opacity 0.6s ease-out;
+  width: 332rem;
+  height: 90%;
+  background: radial-gradient(
+    48.29% 100% at 50% 0%,
+    rgba(241, 14, 14, 0.3) 0%,
+    rgba(183, 8, 8, 0) 100%
+  );
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.6s ease-out;
 }
 
 .App_wrapperHover_hover_57 {
-        opacity: 1;
-    }
+  opacity: 1;
+}
 
 .App_ranks_23 {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .App_ranks_showLeague_1b {
-        margin-top: 14rem;
-    }
+  margin-top: 14rem;
+}
 
 .App_ranks_23 > div {
-        cursor: pointer;
-    }
+  cursor: pointer;
+}
 
 .App_bonus_bd {
-    position: absolute;
-    bottom: 15rem;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  bottom: 15rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .App_bonus_showLeague_17 {
-        bottom: 0;
-    }
+  bottom: 0;
+}
 
 .FormatText_base_d0 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .FormatTextWithColorTags_blackReal_3c {
-    color: #000000;
+  color: #000000;
 }
 
 .FormatTextWithColorTags_whiteReal_8a {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .FormatTextWithColorTags_white_16 {
-    color: #F2F2F7;
+  color: #f2f2f7;
 }
 
 .FormatTextWithColorTags_whiteOrange_18 {
-    color: #FEFEEC;
+  color: #fefeec;
 }
 
 .FormatTextWithColorTags_whiteSpanish_10 {
-    color: #E9E2BF;
+  color: #e9e2bf;
 }
 
 .FormatTextWithColorTags_par_ca {
-    color: #8C8C7E;
+  color: #8c8c7e;
 }
 
 .FormatTextWithColorTags_parSecondary_8d {
-    color: #595950;
+  color: #595950;
 }
 
 .FormatTextWithColorTags_parTertiary_a3 {
-    color: #37362E;
+  color: #37362e;
 }
 
 .FormatTextWithColorTags_red_60 {
-    color: #FF2717;
+  color: #ff2717;
 }
 
 .FormatTextWithColorTags_redDark_03 {
-    color: #B70000;
+  color: #b70000;
 }
 
 .FormatTextWithColorTags_yellow_ad {
-    color: #FEAB34;
+  color: #feab34;
 }
 
 .FormatTextWithColorTags_orange_e4 {
-    color: #EE7000;
+  color: #ee7000;
 }
 
 .FormatTextWithColorTags_cream_cd {
-    color: #FFDD99;
+  color: #ffdd99;
 }
 
 .FormatTextWithColorTags_brown_c8 {
-    color: #CBAC77;
+  color: #cbac77;
 }
 
 .FormatTextWithColorTags_greenBright_f0 {
-    color: #80D43A;
+  color: #80d43a;
 }
 
 .FormatTextWithColorTags_green_c5 {
-    color: #7AB300;
+  color: #7ab300;
 }
 
 .FormatTextWithColorTags_greenDark_af {
-    color: #497212;
+  color: #497212;
 }
 
 .FormatTextWithColorTags_blueBooster_ac {
-    color: #CCFFFF;
+  color: #ccffff;
 }
 
 .FormatTextWithColorTags_blueTeamkiller_6f {
-    color: #09E2FF;
+  color: #09e2ff;
 }
 
 .FormatTextWithColorTags_cred_4e {
-    color: #CED9D9;
+  color: #ced9d9;
 }
 
 .FormatTextWithColorTags_gold_90 {
-    color: #FFC363;
+  color: #ffc363;
 }
 
 .FormatTextWithColorTags_bond_71 {
-    color: #C9C9B6;
+  color: #c9c9b6;
 }
 
 .FormatTextWithColorTags_prom_dd {
-    color: #A29B70;
+  color: #a29b70;
 }
 
 .BonusBattles_base_c0 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
 }
 
 .BonusBattles_light_65 {
-    width: 267rem;
-    height: 52rem;
-    background: url('R.images.gui.maps.icons.mode_selector.common.bonus_light') no-repeat 50% / contain;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
+  width: 267rem;
+  height: 52rem;
+  background: url("R.images.gui.maps.icons.mode_selector.common.bonus_light") no-repeat 50% /
+    contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .BonusBattles_divider_89 {
-    width: 74rem;
-    height: 1rem;
-    background: url('R.images.gui.maps.icons.mode_selector.common.bonus_decoration') no-repeat 50% / contain;
+  width: 74rem;
+  height: 1rem;
+  background: url("R.images.gui.maps.icons.mode_selector.common.bonus_decoration") no-repeat 50% /
+    contain;
 }
 
 .BonusBattles_divider__right_47 {
-        transform: scaleX(-1);
-    }
+  transform: scaleX(-1);
+}
 
 .BonusBattles_icon_b8 {
-    width: 16rem;
-    height: 16rem;
-    background: url('R.images.gui.maps.icons.rankedBattles.bonusIcons.c_16x16') no-repeat 50% / contain;
+  width: 16rem;
+  height: 16rem;
+  background: url("R.images.gui.maps.icons.rankedBattles.bonusIcons.c_16x16") no-repeat 50% /
+    contain;
 }
 
 .BonusBattles_amount_0f {
-    color: #FEFEEC;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    min-width: 8rem;
-    margin: -2rem 4rem 0 2rem;
-    text-shadow: 0px 0px 5px rgba(255, 72, 0, 0.4), 0px 0px 15px rgba(255, 72, 0, 0.5);
+  color: #fefeec;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  min-width: 8rem;
+  margin: -2rem 4rem 0 2rem;
+  text-shadow:
+    0px 0px 5px rgba(255, 72, 0, 0.4),
+    0px 0px 15px rgba(255, 72, 0, 0.5);
 }
 
 @keyframes Blink_blinker_60 {
-    0% {
-        transform: rotate(-225deg) translate(-200rem, 0rem);
-    }
+  0% {
+    transform: rotate(-225deg) translate(-200rem, 0rem);
+  }
 
-    12% {
-        transform: rotate(-225deg) translate(200rem, 0rem);
-    }
+  12% {
+    transform: rotate(-225deg) translate(200rem, 0rem);
+  }
 
-    100% {
-        transform: rotate(-225deg) translate(200rem, 0rem);
-    }
+  100% {
+    transform: rotate(-225deg) translate(200rem, 0rem);
+  }
 }
 
 @keyframes Blink_widgetBlinker_a5 {
-    0% {
-        transform: rotate(-225deg) translate(-100rem, 0rem);
-    }
+  0% {
+    transform: rotate(-225deg) translate(-100rem, 0rem);
+  }
 
-    8% {
-        transform: rotate(-225deg) translate(100rem, 0rem);
-    }
+  8% {
+    transform: rotate(-225deg) translate(100rem, 0rem);
+  }
 
-    100% {
-        transform: rotate(-225deg) translate(100rem, 0rem);
-    }
+  100% {
+    transform: rotate(-225deg) translate(100rem, 0rem);
+  }
 }
 
 .Blink_base_38 {
-    width: 114rem;
-    height: 160rem;
-    clip-path: polygon(51% 94%, 93% 84%, 93% 6%, 9% 6%, 9% 84%);
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    mask-image: linear-gradient(180deg, transparent 0%, #000000 50%);
+  width: 114rem;
+  height: 160rem;
+  clip-path: polygon(51% 94%, 93% 84%, 93% 6%, 9% 6%, 9% 84%);
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mask-image: linear-gradient(180deg, transparent 0%, #000000 50%);
 }
 
 .mediaMedium .Blink_base_38 {
-        width: 190rem;
-        height: 260rem;
+  width: 190rem;
+  height: 260rem;
 }
 
 .Blink_base_38 .Blink_blink_28 {
-        width: 30rem;
-        height: 300rem;
-        background: rgba(255, 255, 255, 0.3);
-        filter: blur(16px);
-        mix-blend-mode: overlay;
-        position: absolute;
-        top: -30rem;
-        left: 50%;
-        z-index: 99;
-        transform: rotate(-225deg) translate(-200rem, 0rem);
-        transform-origin: center;
-        animation: Blink_blinker_60 6s linear infinite;
-        animation-delay: 3s;
-    }
+  width: 30rem;
+  height: 300rem;
+  background: rgba(255, 255, 255, 0.3);
+  filter: blur(16px);
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: -30rem;
+  left: 50%;
+  z-index: 99;
+  transform: rotate(-225deg) translate(-200rem, 0rem);
+  transform-origin: center;
+  animation: Blink_blinker_60 6s linear infinite;
+  animation-delay: 3s;
+}
 
 .mediaMedium .Blink_base_38 .Blink_blink_28 {
-            width: 50rem;
-            height: 400rem;
-            top: -50rem;
+  width: 50rem;
+  height: 400rem;
+  top: -50rem;
 }
 
 .Blink_base_38.Blink_widget_0f {
-        width: 58rem;
-        height: 80rem;
-    }
+  width: 58rem;
+  height: 80rem;
+}
 
 .Blink_base_38.Blink_widget_0f .Blink_blink_28 {
-            width: 15rem;
-            height: 150rem;
-            transform: rotate(-225deg) translate(-100rem, 0rem);
-            transform-origin: center;
-            animation: Blink_widgetBlinker_a5 6s linear infinite;
-            animation-delay: 1s;
-        }
+  width: 15rem;
+  height: 150rem;
+  transform: rotate(-225deg) translate(-100rem, 0rem);
+  transform-origin: center;
+  animation: Blink_widgetBlinker_a5 6s linear infinite;
+  animation-delay: 1s;
+}
 
 .Rank_base_bc {
-    margin: 0 16rem 0 12rem;
-    background: url('R.images.gui.maps.icons.rankedBattles.ranks.back.big') no-repeat center / 90%;
-    position: relative;
-    pointer-events: auto;
+  margin: 0 16rem 0 12rem;
+  background: url("R.images.gui.maps.icons.rankedBattles.ranks.back.big") no-repeat center / 90%;
+  position: relative;
+  pointer-events: auto;
 }
 
 .Rank_icon_d8 {
-    width: 58rem;
-    height: 80rem;
-    background: no-repeat 50% / contain;
+  width: 58rem;
+  height: 80rem;
+  background: no-repeat 50% / contain;
 }
 
 .Rank_icon__next_bb {
-        opacity: 0.7;
-    }
+  opacity: 0.7;
+}
 
 .Rank_frame_1b {
-    width: 74rem;
-    height: 94rem;
-    position: absolute;
-    top: -8rem;
-    left: -7rem;
+  width: 74rem;
+  height: 94rem;
+  position: absolute;
+  top: -8rem;
+  left: -7rem;
 }
 
 .Rank_unburnable_f1 {
-    background: url('R.images.gui.maps.icons.rankedBattles.ranks.unburnable.small') no-repeat 50% / contain;
-    opacity: 0.7;
+  background: url("R.images.gui.maps.icons.rankedBattles.ranks.unburnable.small") no-repeat 50% /
+    contain;
+  opacity: 0.7;
 }
 
 .Rank_lock_93 {
-    display: block;
-    width: 35rem;
-    height: 35rem;
-    background: url('R.images.gui.maps.icons.rankedBattles.reward.lock') no-repeat center / cover;
-    position: absolute;
-    bottom: -13rem;
-    left: 50%;
-    z-index: 5;
-    transform: translateX(-47%);
+  display: block;
+  width: 35rem;
+  height: 35rem;
+  background: url("R.images.gui.maps.icons.rankedBattles.reward.lock") no-repeat center / cover;
+  position: absolute;
+  bottom: -13rem;
+  left: 50%;
+  z-index: 5;
+  transform: translateX(-47%);
 }
 
 .Stage_base_4c {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 30rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30rem;
 }
 
-    .mediaMedium .Stage_base_4c {
-        height: 44rem;
+.mediaMedium .Stage_base_4c {
+  height: 44rem;
 }
 
 .Stage_stage_fc {
-    width: 14rem;
-    height: 30rem;
-    margin-left: -5rem;
-    background: url('R.images.gui.maps.icons.rankedBattles.reward.stages.normal') center / contain no-repeat;
+  width: 14rem;
+  height: 30rem;
+  margin-left: -5rem;
+  background: url("R.images.gui.maps.icons.rankedBattles.reward.stages.normal") center / contain
+    no-repeat;
 }
 
 .Stage_stage_fc.Stage_firstStage_f7 {
-        margin-left: 0 !important;
-    }
+  margin-left: 0 !important;
+}
 
 .mediaMedium .Stage_stage_fc {
-        width: 20rem;
-        height: 44rem;
-        margin-left: -7rem;
+  width: 20rem;
+  height: 44rem;
+  margin-left: -7rem;
 }
 
 .Stage_notReceived_15 {
-    filter: opacity(40%);
+  filter: opacity(40%);
 }
 
 .Division_base_6d {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(closest-side, rgba(0, 0, 0, 0.4) 0%, transparent 80%);
-    position: relative;
-    pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.4) 0%, transparent 80%);
+  position: relative;
+  pointer-events: auto;
 }
 
 @keyframes AnimatedBackground_raysAppearance_85 {
-    0% {
-        opacity: 0;
-        transform: translateY(20rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
 
-    100% {
-        opacity: 0.2;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
 }
 
 @keyframes AnimatedBackground_rotate_e7 {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes AnimatedBackground_reverse-rotate_26 {
-    from {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(360deg);
+  }
 
-    to {
-        transform: rotate(0deg);
-    }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes AnimatedBackground_slideUp_c1 {
-    0% {
-        opacity: 0;
-        transform: translateY(20rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes AnimatedBackground_lockStartAnimation_67 {
-    0% {
-        filter: blur(0);
-    }
+  0% {
+    filter: blur(0);
+  }
 
-    100% {
-        filter: blur(4px);
-    }
+  100% {
+    filter: blur(4px);
+  }
 }
 
 @keyframes AnimatedBackground_lockEndAnimation_dc {
-    0% {
-        filter: blur(4px);
-        opacity: 1;
-        transform: translateX(-50%) scale(1);
-    }
+  0% {
+    filter: blur(4px);
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
 
-    100% {
-        filter: blur(24px);
-        opacity: 0;
-        transform: translateX(-50%) scale(1.7);
-    }
+  100% {
+    filter: blur(24px);
+    opacity: 0;
+    transform: translateX(-50%) scale(1.7);
+  }
 }
 
 @keyframes AnimatedBackground_fadeIn_c5 {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes AnimatedBackground_fadeOut_02 {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes AnimatedBackground_raysAppearance_85 {
-    0% {
-        opacity: 0;
-        transform: translateY(20rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
 
-    100% {
-        opacity: 0.2;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
 }
 
 @keyframes AnimatedBackground_rotate_e7 {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .AnimatedBackground_base_ec {
-    width: 900rem;
-    height: 900rem;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
+  width: 900rem;
+  height: 900rem;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .mediaMedium .AnimatedBackground_base_ec {
-        width: 900rem;
-        height: 900rem;
+  width: 900rem;
+  height: 900rem;
 }
 
 .mediaLarge .AnimatedBackground_base_ec {
-        width: 1300rem;
-        height: 1300rem;
+  width: 1300rem;
+  height: 1300rem;
 }
 
 .mediaExtraLarge .AnimatedBackground_base_ec {
-        width: 1500rem;
-        height: 1500rem;
+  width: 1500rem;
+  height: 1500rem;
 }
 
 .AnimatedBackground_base_ec.AnimatedBackground_widget_8b {
-        width: 250rem;
-        height: 250rem;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-    }
+  width: 250rem;
+  height: 250rem;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
 
 .AnimatedBackground_base_ec.AnimatedBackground_widget_8b .AnimatedBackground_rays_59 {
-            opacity: 1;
-            z-index: -1;
-        }
+  opacity: 1;
+  z-index: -1;
+}
 
 .AnimatedBackground_base_ec.AnimatedBackground_widget_8b .AnimatedBackground_sunShineCanvas_be,
-        .AnimatedBackground_base_ec.AnimatedBackground_widget_8b .AnimatedBackground_staticHighlight_1c {
-            width: 250rem;
-            height: 250rem;
-        }
+.AnimatedBackground_base_ec.AnimatedBackground_widget_8b .AnimatedBackground_staticHighlight_1c {
+  width: 250rem;
+  height: 250rem;
+}
 
 .AnimatedBackground_animation_fb {
-    opacity: 0;
-    animation: AnimatedBackground_fadeIn_c5 0.3s ease-in 1s forwards;
+  opacity: 0;
+  animation: AnimatedBackground_fadeIn_c5 0.3s ease-in 1s forwards;
 }
 
 .AnimatedBackground_animation_fb .AnimatedBackground_rays_59 {
-        animation-delay: 1.8s, 2.2s;
-    }
+  animation-delay: 1.8s, 2.2s;
+}
 
 .AnimatedBackground_animation_fb.AnimatedBackground_widget_8b {
-        opacity: 1;
-    }
+  opacity: 1;
+}
 
 .AnimatedBackground_animation_fb.AnimatedBackground_widget_8b .AnimatedBackground_rays_59 {
-            animation-name: AnimatedBackground_none_a3;
-        }
+  animation-name: AnimatedBackground_none_a3;
+}
 
 .AnimatedBackground_rays_59 {
-    width: 100%;
-    height: 100%;
-    background: url('R.images.gui.maps.icons.rankedBattles.finalState.rays') no-repeat center / contain;
-    opacity: 0;
-    mix-blend-mode: additive;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation-name: AnimatedBackground_raysAppearance_85, AnimatedBackground_rotate_e7;
-    animation-duration: 1.5s, 120s;
-    animation-fill-mode: forwards, forwards;
-    animation-timing-function: cubic-bezier(.07, .82, .17, 1), linear;
-    animation-iteration-count: 1, infinite;
+  width: 100%;
+  height: 100%;
+  background: url("R.images.gui.maps.icons.rankedBattles.finalState.rays") no-repeat center /
+    contain;
+  opacity: 0;
+  mix-blend-mode: additive;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: AnimatedBackground_raysAppearance_85, AnimatedBackground_rotate_e7;
+  animation-duration: 1.5s, 120s;
+  animation-fill-mode: forwards, forwards;
+  animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1), linear;
+  animation-iteration-count: 1, infinite;
 }
 
 .AnimatedBackground_sunShineCanvas_be {
-    width: 480rem;
-    height: 480rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 480rem;
+  height: 480rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .AnimatedBackground_staticHighlight_1c {
-    width: 480rem;
-    height: 480rem;
-    background: url('R.images.gui.maps.icons.rankedBattles.finalState.highlight') no-repeat center / contain;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 480rem;
+  height: 480rem;
+  background: url("R.images.gui.maps.icons.rankedBattles.finalState.highlight") no-repeat center /
+    contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .RankedStat_base_3f {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
 }
 .RankedStat_icon_35 {
-    width: 52rem;
-    height: 52rem;
-    margin-top: -6rem;
-    background: no-repeat 50% / contain;
+  width: 52rem;
+  height: 52rem;
+  margin-top: -6rem;
+  background: no-repeat 50% / contain;
 }
 .RankedStat_icon__efficiency_9c {
-        background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetEfficiency');
-    }
+  background-image: url("R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetEfficiency");
+}
 .RankedStat_icon__position_fd {
-        background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.position');
-    }
+  background-image: url("R.images.gui.maps.icons.rankedBattles.stats.c_52.position");
+}
 .RankedStat_value_06 {
-    color: #CED9D9;
-    font-size: 22rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: -10rem;
-    text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
+  color: #ced9d9;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: -10rem;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
 }
 .RankedStat_delta_2f {
-    color: #80D43A;
-    font-size: 14rem;
-    font-weight: 400;
-    line-height: 1.3;
-    display: flex;
-    text-shadow: 0 0 12rem rgba(128,212,58, .5),
-        0 0 7rem rgba(128,212,58, .5);
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 100%);
+  color: #80d43a;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  display: flex;
+  text-shadow:
+    0 0 12rem rgba(128, 212, 58, 0.5),
+    0 0 7rem rgba(128, 212, 58, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
 }
 .RankedStat_delta__minus_ca {
-        color: #FF2717;
-        text-shadow: 0 0 12rem rgba(255,39,23, .5),
-            0 0 7rem rgba(255,39,23, .5);
-    }
+  color: #ff2717;
+  text-shadow:
+    0 0 12rem rgba(255, 39, 23, 0.5),
+    0 0 7rem rgba(255, 39, 23, 0.5);
+}
 .RankedStat_arrow_4b {
-    width: 12rem;
-    height: 12rem;
-    margin: 4rem 4rem 0 0;
-    background: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_plus') no-repeat 50% / contain;
+  width: 12rem;
+  height: 12rem;
+  margin: 4rem 4rem 0 0;
+  background: url("R.images.gui.maps.icons.rankedBattles.league.widget_delta_plus") no-repeat 50% /
+    contain;
 }
 .RankedStat_arrow__minus_a0 {
-        background-image: url('R.images.gui.maps.icons.rankedBattles.league.widget_delta_minus');
-    }
+  background-image: url("R.images.gui.maps.icons.rankedBattles.league.widget_delta_minus");
+}
 
 .RankedStatBattles_base_3c {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
 }
 
 .RankedStatBattles_icon_d0 {
-    width: 52rem;
-    height: 52rem;
-    margin-top: -6rem;
-    background: no-repeat 50% / contain;
-    background-image: url('R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetBattles');
+  width: 52rem;
+  height: 52rem;
+  margin-top: -6rem;
+  background: no-repeat 50% / contain;
+  background-image: url("R.images.gui.maps.icons.rankedBattles.stats.c_52.widgetBattles");
 }
 
 .RankedStatBattles_value_a4 {
-    color: #CED9D9;
-    font-size: 22rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: -10rem;
-    text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
+  color: #ced9d9;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: -10rem;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.46);
 }
 
 .League_base_93 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 290rem;
-    height: 130rem;
-    position: relative;
-    pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290rem;
+  height: 130rem;
+  position: relative;
+  pointer-events: auto;
 }
 
-    .League_base__extraSmall_c7,
-    .League_base__tiny_53 {
-        align-items: flex-start;
-        width: 166rem;
-        height: 64rem;
-    }
+.League_base__extraSmall_c7,
+.League_base__tiny_53 {
+  align-items: flex-start;
+  width: 166rem;
+  height: 64rem;
+}
 
-    .League_base__small_67 {
-        align-items: flex-start;
-        width: 240rem;
-        height: 64rem;
-    }
+.League_base__small_67 {
+  align-items: flex-start;
+  width: 240rem;
+  height: 64rem;
+}
 
-    .League_base__smedium_31 {
-        width: 240rem;
-        height: 100rem;
-    }
+.League_base__smedium_31 {
+  width: 240rem;
+  height: 100rem;
+}
 
-    .League_base__medium_b9 {
-        width: 290rem;
-        height: 100rem;
-    }
+.League_base__medium_b9 {
+  width: 290rem;
+  height: 100rem;
+}
 
-    .League_base__large_48 {
-        width: 290rem;
-        height: 100rem;
-    }
+.League_base__large_48 {
+  width: 290rem;
+  height: 100rem;
+}
 .League_wrapper_12 {
-    position: relative;
+  position: relative;
 }
 .League_icon_2f {
-    width: 100rem;
-    height: 100rem;
-    margin: 0 16rem;
-    background: no-repeat 50% / contain;
-    position: relative;
-    z-index: 1;
+  width: 100rem;
+  height: 100rem;
+  margin: 0 16rem;
+  background: no-repeat 50% / contain;
+  position: relative;
+  z-index: 1;
 }
-

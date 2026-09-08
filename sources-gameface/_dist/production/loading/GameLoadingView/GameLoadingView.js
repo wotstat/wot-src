@@ -1,1 +1,541 @@
-(()=>{"use strict";var e,t={740:(e,t,n)=>{var a=n(179),r=n.n(a),o=n(493),i=n.n(o),s=n(483),l=n.n(s);const c=[];function g(e){const t=(0,a.useRef)(e);return(0,a.useLayoutEffect)((()=>{t.current=e})),(0,a.useCallback)(((...e)=>(0,t.current)(...e)),c)}const u=(e,t)=>{let n;const a=setTimeout((()=>{n=e()}),t);return()=>{"function"==typeof n&&n(),clearTimeout(a)}};let d,m,_,f;!function(e){e[e.None=0]="None",e[e.In=1]="In",e[e.Visible=2]="Visible",e[e.Out=3]="Out"}(d||(d={})),function(e){e[e.Logo=1]="Logo",e[e.FairPlayMessage=2]="FairPlayMessage"}(m||(m={})),function(e){e[e.Invisible=0]="Invisible",e[e.Visible=1]="Visible"}(_||(_={})),function(e){e.Default="default",e.Korea="korea",e.China="china"}(f||(f={}));const p="Background_base_a7",h="Background_bg_42",v="Background_image_78";var b;!function(e){e[e.NotLoaded=0]="NotLoaded",e[e.Loading=1]="Loading",e[e.Waiting=2]="Waiting",e[e.Loaded=3]="Loaded",e[e.Failed=4]="Failed"}(b||(b={}));const E=({backgroundPath:e,preloadPath:t="",onLoaded:n,className:o})=>{const i=(0,a.useRef)(b.NotLoaded),s=(0,a.useState)(!1),c=s[0],g=s[1],u=t||e;(0,a.useEffect)((()=>{if(!e)return;const t=i.current===b.Failed;g(t),[b.Failed,b.Loaded].includes(i.current)?null==n||n(t):i.current=b.Waiting}),[e,n]),(0,a.useEffect)((()=>{i.current!==b.Waiting&&(i.current=b.Loading)}),[u]);const d=(0,a.useCallback)((()=>{i.current===b.Waiting&&(g(!1),null==n||n()),i.current=b.Loaded}),[n]);return r().createElement("div",{className:l()(p,o)},e&&r().createElement("div",{className:h,style:{backgroundImage:`url(${e})`}}),r().createElement("img",{className:v,src:u,onLoad:d,onError:()=>{i.current===b.Waiting&&(g(!0),null==n||n(!0)),i.current=b.Failed}}),c&&r().createElement("div",{className:h,style:{backgroundImage:"url(img://gui/maps/loading/defaults/loading_09.png)"}}))},y="Progress_base_40",N="Progress_back_22",C="Progress_fore_5c",w="setProgress",k=({className:e})=>{const t=(0,a.useState)({progress:0,progressMax:1}),n=t[0],o=t[1],i=100*((null==n?void 0:n.progress)/(null==n?void 0:n.progressMax));return(0,a.useEffect)((()=>{const e=(e,t)=>{const n=Math.max(0,t),a=Math.min(e,n);o((e=>e.progress===a&&e.progressMax===n?e:{progress:a,progressMax:n}))};return engine.on(w,e),()=>engine.off(w,e)}),[]),r().createElement("div",{className:l()(y,e)},r().createElement("div",{className:N}),r().createElement("div",{className:C,style:{width:`${i}%`}}))},L="ContentFooter_base_66",P="ContentFooter_title_60",I="ContentFooter_title__only_63",T="ContentFooter_description_cb",O="ContentFooter_progressBar_e3",F="ContentFooter_progressBar__alwaysOnTop_c5",x="ContentFooter_statusText_7b",R="ContentFooter_statusText__alwaysOnTop_90",S=({progressAlwaysOnTop:e,statusText:t,description:n,title:a,className:o,style:i})=>r().createElement("div",{className:l()(L,o),style:i},r().createElement(k,{className:l()(O,e&&F)}),r().createElement("div",{className:l()(x,e&&R)},t),n&&r().createElement("div",{className:T},n),a&&r().createElement("div",{className:l()(P,!n&&I)},a)),B=/(.*){open}(.*){close}(.*)/g,M=({text:e})=>{if(null===e)return null;const t=e.split("\n");return r().createElement(a.Fragment,null,t.map(((e,t)=>{const n=e.split(" ").map(((e,t)=>{const n=B.exec(e);return n&&n.length>1?r().createElement(r().Fragment,null,n[1]&&r().createElement("div",null,n[1]),r().createElement("div",{style:{color:"#03953f"}},n[2]),n[3]&&r().createElement("div",null,n[3])):r().createElement("div",{key:t},e)})).map((e=>[e," "])).flat().slice(0,-1);return r().createElement("div",{key:t,style:{display:"flex",flexWrap:"wrap",justifyContent:"center"}},n)})))},j="LetteringImage_base_bc",V=({width:e,height:t,margins:n,paddings:o,image:i,className:s})=>{const c=o[0],g=o[1],u=o[2],d=o[3],m=n[0],_=n[1],f=n[2],p=n[3],h=(0,a.useState)({width:window.innerWidth,height:window.innerHeight}),v=h[0],b=h[1],E=v.height<900||v.width<1600?.8:1;return(0,a.useEffect)((()=>{const e=()=>{b({width:window.innerWidth,height:window.innerHeight})};return window.addEventListener("resize",e),()=>window.removeEventListener("resize",e)}),[]),i?r().createElement("div",{className:l()(j,s),style:{width:e*E+"rem",height:t*E+"rem",marginTop:(m-c)*E+"rem",marginRight:(_-g)*E+"rem",marginBottom:(f-u)*E+"rem",marginLeft:(p-d)*E+"rem",backgroundImage:`url(${i})`}}):r().createElement("div",null)},A="LogoSlide_base_66",W="LogoSlide_backLogo_ed",$="LogoSlide_logo_80",D="LogoSlide_awards_62",z=()=>r().createElement("div",{className:A},r().createElement("div",{className:W}),r().createElement("div",{className:$}),r().createElement("div",{className:D})),H={base:"Content_base_64",background:"Content_background_e4",label:"Content_label_0c",version:"Content_version_39",copyright:"Content_copyright_bf",ageRating:"Content_ageRating_a0",contentFooter:"Content_contentFooter_f1",letteringImage__tl:"Content_letteringImage__tl_68",letteringImage__tr:"Content_letteringImage__tr_1b",letteringImage__cc:"Content_letteringImage__cc_f0",letteringImage__br:"Content_letteringImage__br_7b",fairPlayMessage:"Content_fairPlayMessage_23",vignette:"Content_vignette_14",vignette__invisible:"Content_vignette__invisible_9d",info:"Content_info_22",info__default:"Content_info__default_1a",info__korea:"Content_info__korea_f1",info__china:"Content_info__china_7b",fadeIn:"Content_fadeIn_e5"};function K(){return K=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&&(e[a]=n[a])}return e},K.apply(this,arguments)}const q="setStatusText";var G;!function(e){e.TopRight="TR",e.TopLeft="TL",e.BottomRight="BR",e.BottomLeft="BL",e.Center="CC"}(G||(G={}));const J={width:0,height:0,margins:[0,0,0,0],paddings:[0,0,0,0],image:"",position:G.TopRight},Q=({data:e,nextBackgroundPath:t,onContentChanged:n,className:o})=>{const i=(0,a.useState)(),s=i[0],c=i[1],u=(0,a.useState)(!1),d=u[0],p=u[1],h=(0,a.useRef)(!1),v=(0,a.useRef)(),b=(0,a.useRef)(!0),y=(null==e?void 0:e.additionalImage)||J,N=y.position===G.BottomLeft||y.position===G.BottomRight;(0,a.useEffect)((()=>{const e=e=>c(e);return engine.on(q,e),()=>engine.off(q,e)}),[]);const C=g(((t=!1)=>{e&&(p(t),b.current=!e.backgroundPath||!(null!=e&&e.hasVignette),n(),h.current=!0)}));if((0,a.useEffect)((()=>{if(!e)return;const t=v.current;(!t||t!==e)&&(b.current=!e.backgroundPath||!(null!=e&&e.hasVignette),n(),v.current=e)}),[e,C,n]),!e)return null;const w=e.infoStyle===f.Default?(e=>{const t=e.split("\n");return t.length<=1?e:[t[0],t.slice(1).join(" ")].join("\n")})(e.info):e.info,k=e.backgroundPath||t,L=d?"":e.text,P=d?"":e.description;return r().createElement("div",{className:l()(H.base,o)},k&&r().createElement(E,{className:H.background,backgroundPath:e.backgroundPath,preloadPath:t,onLoaded:C}),r().createElement("div",{className:l()(H.vignette,b.current&&H.vignette__invisible)}),e.contentState!==_.Invisible&&(N?r().createElement("div",{className:H.contentFooter},r().createElement(V,K({},y,{className:H[`letteringImage__${y.position.toLowerCase()}`]})),r().createElement(S,{title:L,description:P,statusText:s,progressAlwaysOnTop:h.current})):r().createElement(r().Fragment,null,r().createElement(V,K({},y,{className:H[`letteringImage__${y.position.toLowerCase()}`]})),r().createElement(S,{title:L,description:P,statusText:s,progressAlwaysOnTop:h.current,className:H.contentFooter}))),(()=>{switch(e.logoType){case m.Logo:return r().createElement(z,null);case m.FairPlayMessage:return r().createElement("div",{className:H.fairPlayMessage})}})(),r().createElement("div",{className:l()(H.label,H.version)},e.version),r().createElement("div",{className:l()(H.label,H.copyright)},e.copyright),e.ageRatingPath&&r().createElement("div",{className:H.ageRating,style:{backgroundImage:`url('img://${e.ageRatingPath}')`}}),r().createElement("div",{className:l()(H.info,H[`info__${e.infoStyle}`])},r().createElement(M,{text:w})))},U="App_base_8c",X="App_content_ab",Y="App_dimmer_28",Z="App_dimmer__visible_38",ee="App_dimmer__fadeOut_3b",te="App_dimmer__fadeIn_c3",ne="setData",ae="onTransitionStart",re="onTransitionEnd",oe={[d.Out]:ee,[d.In]:te,[d.Visible]:Z},ie=()=>{const e=(0,a.useState)(),t=e[0],n=e[1],o=(0,a.useState)(),i=o[0],s=o[1],c=(0,a.useState)(""),m=c[0],_=c[1],f=(0,a.useState)(d.None),p=f[0],h=f[1],v=(0,a.useRef)(),b=(0,a.useRef)(!0);(0,a.useEffect)((()=>{const e=e=>n(e);return engine.on(ne,e),engine.trigger("onViewReady"),()=>engine.off(ne,e)}),[]),(0,a.useEffect)((()=>{const e=v.current!==(null==t?void 0:t.backgroundPath);if(!t||!e&&t.backgroundPath)s(t);else{v.current=t.backgroundPath,engine.trigger(ae);const e=()=>{h(d.Visible),s(t)};if(!b.current)return h(d.In),_(t.backgroundPath),u(e,t.transitionTime);b.current=!1,e()}}),[t]);const E=g((()=>{p===d.Visible&&h(d.Out)}));return(0,a.useEffect)((()=>{if(i&&p===d.Out)return u((()=>{h(d.None),engine.trigger(re)}),i.transitionTime)}),[i,p]),r().createElement("div",{className:U},r().createElement(Q,{data:i,nextBackgroundPath:m,onContentChanged:E,className:X}),p!==d.None&&r().createElement("div",{className:l()(Y,oe[p]),style:{animationDuration:(t?t.transitionTime/1e3:0)+"s"}}))};engine.whenReady.then((()=>{i().render(r().createElement(ie,null),document.getElementById("root"))}))}},n={};function a(e){var r=n[e];if(void 0!==r)return r.exports;var o=n[e]={exports:{}};return t[e](o,o.exports,a),o.exports}a.m=t,e=[],a.O=(t,n,r,o)=>{if(!n){var i=1/0;for(g=0;g<e.length;g++){for(var[n,r,o]=e[g],s=!0,l=0;l<n.length;l++)(!1&o||i>=o)&&Object.keys(a.O).every((e=>a.O[e](n[l])))?n.splice(l--,1):(s=!1,o<i&&(i=o));if(s){e.splice(g--,1);var c=r();void 0!==c&&(t=c)}}return t}o=o||0;for(var g=e.length;g>0&&e[g-1][2]>o;g--)e[g]=e[g-1];e[g]=[n,r,o]},a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var n in t)a.o(t,n)&&!a.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},a.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{var e={808:0};a.O.j=t=>0===e[t];var t=(t,n)=>{var r,o,[i,s,l]=n,c=0;if(i.some((t=>0!==e[t]))){for(r in s)a.o(s,r)&&(a.m[r]=s[r]);if(l)var g=l(a)}for(t&&t(n);c<i.length;c++)o=i[c],a.o(e,o)&&e[o]&&e[o][0](),e[o]=0;return a.O(g)},n=self.webpackChunkgameface=self.webpackChunkgameface||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var r=a.O(void 0,[501],(()=>a(740)));r=a.O(r)})();
+(() => {
+  "use strict";
+  var e,
+    t = {
+      740: (e, t, n) => {
+        var a = n(179),
+          r = n.n(a),
+          o = n(493),
+          i = n.n(o),
+          s = n(483),
+          l = n.n(s);
+        const c = [];
+        function g(e) {
+          const t = (0, a.useRef)(e);
+          return (
+            (0, a.useLayoutEffect)(() => {
+              t.current = e;
+            }),
+            (0, a.useCallback)((...e) => (0, t.current)(...e), c)
+          );
+        }
+        const u = (e, t) => {
+          let n;
+          const a = setTimeout(() => {
+            n = e();
+          }, t);
+          return () => {
+            ("function" == typeof n && n(), clearTimeout(a));
+          };
+        };
+        let d, m, _, f;
+        (!(function (e) {
+          ((e[(e.None = 0)] = "None"),
+            (e[(e.In = 1)] = "In"),
+            (e[(e.Visible = 2)] = "Visible"),
+            (e[(e.Out = 3)] = "Out"));
+        })(d || (d = {})),
+          (function (e) {
+            ((e[(e.Logo = 1)] = "Logo"), (e[(e.FairPlayMessage = 2)] = "FairPlayMessage"));
+          })(m || (m = {})),
+          (function (e) {
+            ((e[(e.Invisible = 0)] = "Invisible"), (e[(e.Visible = 1)] = "Visible"));
+          })(_ || (_ = {})),
+          (function (e) {
+            ((e.Default = "default"), (e.Korea = "korea"), (e.China = "china"));
+          })(f || (f = {})));
+        const p = "Background_base_a7",
+          h = "Background_bg_42",
+          v = "Background_image_78";
+        var b;
+        !(function (e) {
+          ((e[(e.NotLoaded = 0)] = "NotLoaded"),
+            (e[(e.Loading = 1)] = "Loading"),
+            (e[(e.Waiting = 2)] = "Waiting"),
+            (e[(e.Loaded = 3)] = "Loaded"),
+            (e[(e.Failed = 4)] = "Failed"));
+        })(b || (b = {}));
+        const E = ({ backgroundPath: e, preloadPath: t = "", onLoaded: n, className: o }) => {
+            const i = (0, a.useRef)(b.NotLoaded),
+              s = (0, a.useState)(!1),
+              c = s[0],
+              g = s[1],
+              u = t || e;
+            ((0, a.useEffect)(() => {
+              if (!e) return;
+              const t = i.current === b.Failed;
+              (g(t),
+                [b.Failed, b.Loaded].includes(i.current)
+                  ? null == n || n(t)
+                  : (i.current = b.Waiting));
+            }, [e, n]),
+              (0, a.useEffect)(() => {
+                i.current !== b.Waiting && (i.current = b.Loading);
+              }, [u]));
+            const d = (0, a.useCallback)(() => {
+              (i.current === b.Waiting && (g(!1), null == n || n()), (i.current = b.Loaded));
+            }, [n]);
+            return r().createElement(
+              "div",
+              { className: l()(p, o) },
+              e &&
+                r().createElement("div", { className: h, style: { backgroundImage: `url(${e})` } }),
+              r().createElement("img", {
+                className: v,
+                src: u,
+                onLoad: d,
+                onError: () => {
+                  (i.current === b.Waiting && (g(!0), null == n || n(!0)), (i.current = b.Failed));
+                },
+              }),
+              c &&
+                r().createElement("div", {
+                  className: h,
+                  style: { backgroundImage: "url(img://gui/maps/loading/defaults/loading_09.png)" },
+                }),
+            );
+          },
+          y = "Progress_base_40",
+          N = "Progress_back_22",
+          C = "Progress_fore_5c",
+          w = "setProgress",
+          k = ({ className: e }) => {
+            const t = (0, a.useState)({ progress: 0, progressMax: 1 }),
+              n = t[0],
+              o = t[1],
+              i = 100 * ((null == n ? void 0 : n.progress) / (null == n ? void 0 : n.progressMax));
+            return (
+              (0, a.useEffect)(() => {
+                const e = (e, t) => {
+                  const n = Math.max(0, t),
+                    a = Math.min(e, n);
+                  o((e) =>
+                    e.progress === a && e.progressMax === n ? e : { progress: a, progressMax: n },
+                  );
+                };
+                return (engine.on(w, e), () => engine.off(w, e));
+              }, []),
+              r().createElement(
+                "div",
+                { className: l()(y, e) },
+                r().createElement("div", { className: N }),
+                r().createElement("div", { className: C, style: { width: `${i}%` } }),
+              )
+            );
+          },
+          L = "ContentFooter_base_66",
+          P = "ContentFooter_title_60",
+          I = "ContentFooter_title__only_63",
+          T = "ContentFooter_description_cb",
+          O = "ContentFooter_progressBar_e3",
+          F = "ContentFooter_progressBar__alwaysOnTop_c5",
+          x = "ContentFooter_statusText_7b",
+          R = "ContentFooter_statusText__alwaysOnTop_90",
+          S = ({
+            progressAlwaysOnTop: e,
+            statusText: t,
+            description: n,
+            title: a,
+            className: o,
+            style: i,
+          }) =>
+            r().createElement(
+              "div",
+              { className: l()(L, o), style: i },
+              r().createElement(k, { className: l()(O, e && F) }),
+              r().createElement("div", { className: l()(x, e && R) }, t),
+              n && r().createElement("div", { className: T }, n),
+              a && r().createElement("div", { className: l()(P, !n && I) }, a),
+            ),
+          B = /(.*){open}(.*){close}(.*)/g,
+          M = ({ text: e }) => {
+            if (null === e) return null;
+            const t = e.split("\n");
+            return r().createElement(
+              a.Fragment,
+              null,
+              t.map((e, t) => {
+                const n = e
+                  .split(" ")
+                  .map((e, t) => {
+                    const n = B.exec(e);
+                    return n && n.length > 1
+                      ? r().createElement(
+                          r().Fragment,
+                          null,
+                          n[1] && r().createElement("div", null, n[1]),
+                          r().createElement("div", { style: { color: "#03953f" } }, n[2]),
+                          n[3] && r().createElement("div", null, n[3]),
+                        )
+                      : r().createElement("div", { key: t }, e);
+                  })
+                  .map((e) => [e, " "])
+                  .flat()
+                  .slice(0, -1);
+                return r().createElement(
+                  "div",
+                  {
+                    key: t,
+                    style: { display: "flex", flexWrap: "wrap", justifyContent: "center" },
+                  },
+                  n,
+                );
+              }),
+            );
+          },
+          j = "LetteringImage_base_bc",
+          V = ({ width: e, height: t, margins: n, paddings: o, image: i, className: s }) => {
+            const c = o[0],
+              g = o[1],
+              u = o[2],
+              d = o[3],
+              m = n[0],
+              _ = n[1],
+              f = n[2],
+              p = n[3],
+              h = (0, a.useState)({ width: window.innerWidth, height: window.innerHeight }),
+              v = h[0],
+              b = h[1],
+              E = v.height < 900 || v.width < 1600 ? 0.8 : 1;
+            return (
+              (0, a.useEffect)(() => {
+                const e = () => {
+                  b({ width: window.innerWidth, height: window.innerHeight });
+                };
+                return (
+                  window.addEventListener("resize", e),
+                  () => window.removeEventListener("resize", e)
+                );
+              }, []),
+              i
+                ? r().createElement("div", {
+                    className: l()(j, s),
+                    style: {
+                      width: e * E + "rem",
+                      height: t * E + "rem",
+                      marginTop: (m - c) * E + "rem",
+                      marginRight: (_ - g) * E + "rem",
+                      marginBottom: (f - u) * E + "rem",
+                      marginLeft: (p - d) * E + "rem",
+                      backgroundImage: `url(${i})`,
+                    },
+                  })
+                : r().createElement("div", null)
+            );
+          },
+          A = "LogoSlide_base_66",
+          W = "LogoSlide_backLogo_ed",
+          $ = "LogoSlide_logo_80",
+          D = "LogoSlide_awards_62",
+          z = () =>
+            r().createElement(
+              "div",
+              { className: A },
+              r().createElement("div", { className: W }),
+              r().createElement("div", { className: $ }),
+              r().createElement("div", { className: D }),
+            ),
+          H = {
+            base: "Content_base_64",
+            background: "Content_background_e4",
+            label: "Content_label_0c",
+            version: "Content_version_39",
+            copyright: "Content_copyright_bf",
+            ageRating: "Content_ageRating_a0",
+            contentFooter: "Content_contentFooter_f1",
+            letteringImage__tl: "Content_letteringImage__tl_68",
+            letteringImage__tr: "Content_letteringImage__tr_1b",
+            letteringImage__cc: "Content_letteringImage__cc_f0",
+            letteringImage__br: "Content_letteringImage__br_7b",
+            fairPlayMessage: "Content_fairPlayMessage_23",
+            vignette: "Content_vignette_14",
+            vignette__invisible: "Content_vignette__invisible_9d",
+            info: "Content_info_22",
+            info__default: "Content_info__default_1a",
+            info__korea: "Content_info__korea_f1",
+            info__china: "Content_info__china_7b",
+            fadeIn: "Content_fadeIn_e5",
+          };
+        function K() {
+          return (
+            (K =
+              Object.assign ||
+              function (e) {
+                for (var t = 1; t < arguments.length; t++) {
+                  var n = arguments[t];
+                  for (var a in n) Object.prototype.hasOwnProperty.call(n, a) && (e[a] = n[a]);
+                }
+                return e;
+              }),
+            K.apply(this, arguments)
+          );
+        }
+        const q = "setStatusText";
+        var G;
+        !(function (e) {
+          ((e.TopRight = "TR"),
+            (e.TopLeft = "TL"),
+            (e.BottomRight = "BR"),
+            (e.BottomLeft = "BL"),
+            (e.Center = "CC"));
+        })(G || (G = {}));
+        const J = {
+            width: 0,
+            height: 0,
+            margins: [0, 0, 0, 0],
+            paddings: [0, 0, 0, 0],
+            image: "",
+            position: G.TopRight,
+          },
+          Q = ({ data: e, nextBackgroundPath: t, onContentChanged: n, className: o }) => {
+            const i = (0, a.useState)(),
+              s = i[0],
+              c = i[1],
+              u = (0, a.useState)(!1),
+              d = u[0],
+              p = u[1],
+              h = (0, a.useRef)(!1),
+              v = (0, a.useRef)(),
+              b = (0, a.useRef)(!0),
+              y = (null == e ? void 0 : e.additionalImage) || J,
+              N = y.position === G.BottomLeft || y.position === G.BottomRight;
+            (0, a.useEffect)(() => {
+              const e = (e) => c(e);
+              return (engine.on(q, e), () => engine.off(q, e));
+            }, []);
+            const C = g((t = !1) => {
+              e &&
+                (p(t),
+                (b.current = !e.backgroundPath || !(null != e && e.hasVignette)),
+                n(),
+                (h.current = !0));
+            });
+            if (
+              ((0, a.useEffect)(() => {
+                if (!e) return;
+                const t = v.current;
+                (!t || t !== e) &&
+                  ((b.current = !e.backgroundPath || !(null != e && e.hasVignette)),
+                  n(),
+                  (v.current = e));
+              }, [e, C, n]),
+              !e)
+            )
+              return null;
+            const w =
+                e.infoStyle === f.Default
+                  ? ((e) => {
+                      const t = e.split("\n");
+                      return t.length <= 1 ? e : [t[0], t.slice(1).join(" ")].join("\n");
+                    })(e.info)
+                  : e.info,
+              k = e.backgroundPath || t,
+              L = d ? "" : e.text,
+              P = d ? "" : e.description;
+            return r().createElement(
+              "div",
+              { className: l()(H.base, o) },
+              k &&
+                r().createElement(E, {
+                  className: H.background,
+                  backgroundPath: e.backgroundPath,
+                  preloadPath: t,
+                  onLoaded: C,
+                }),
+              r().createElement("div", {
+                className: l()(H.vignette, b.current && H.vignette__invisible),
+              }),
+              e.contentState !== _.Invisible &&
+                (N
+                  ? r().createElement(
+                      "div",
+                      { className: H.contentFooter },
+                      r().createElement(
+                        V,
+                        K({}, y, { className: H[`letteringImage__${y.position.toLowerCase()}`] }),
+                      ),
+                      r().createElement(S, {
+                        title: L,
+                        description: P,
+                        statusText: s,
+                        progressAlwaysOnTop: h.current,
+                      }),
+                    )
+                  : r().createElement(
+                      r().Fragment,
+                      null,
+                      r().createElement(
+                        V,
+                        K({}, y, { className: H[`letteringImage__${y.position.toLowerCase()}`] }),
+                      ),
+                      r().createElement(S, {
+                        title: L,
+                        description: P,
+                        statusText: s,
+                        progressAlwaysOnTop: h.current,
+                        className: H.contentFooter,
+                      }),
+                    )),
+              (() => {
+                switch (e.logoType) {
+                  case m.Logo:
+                    return r().createElement(z, null);
+                  case m.FairPlayMessage:
+                    return r().createElement("div", { className: H.fairPlayMessage });
+                }
+              })(),
+              r().createElement("div", { className: l()(H.label, H.version) }, e.version),
+              r().createElement("div", { className: l()(H.label, H.copyright) }, e.copyright),
+              e.ageRatingPath &&
+                r().createElement("div", {
+                  className: H.ageRating,
+                  style: { backgroundImage: `url('img://${e.ageRatingPath}')` },
+                }),
+              r().createElement(
+                "div",
+                { className: l()(H.info, H[`info__${e.infoStyle}`]) },
+                r().createElement(M, { text: w }),
+              ),
+            );
+          },
+          U = "App_base_8c",
+          X = "App_content_ab",
+          Y = "App_dimmer_28",
+          Z = "App_dimmer__visible_38",
+          ee = "App_dimmer__fadeOut_3b",
+          te = "App_dimmer__fadeIn_c3",
+          ne = "setData",
+          ae = "onTransitionStart",
+          re = "onTransitionEnd",
+          oe = { [d.Out]: ee, [d.In]: te, [d.Visible]: Z },
+          ie = () => {
+            const e = (0, a.useState)(),
+              t = e[0],
+              n = e[1],
+              o = (0, a.useState)(),
+              i = o[0],
+              s = o[1],
+              c = (0, a.useState)(""),
+              m = c[0],
+              _ = c[1],
+              f = (0, a.useState)(d.None),
+              p = f[0],
+              h = f[1],
+              v = (0, a.useRef)(),
+              b = (0, a.useRef)(!0);
+            ((0, a.useEffect)(() => {
+              const e = (e) => n(e);
+              return (engine.on(ne, e), engine.trigger("onViewReady"), () => engine.off(ne, e));
+            }, []),
+              (0, a.useEffect)(() => {
+                const e = v.current !== (null == t ? void 0 : t.backgroundPath);
+                if (!t || (!e && t.backgroundPath)) s(t);
+                else {
+                  ((v.current = t.backgroundPath), engine.trigger(ae));
+                  const e = () => {
+                    (h(d.Visible), s(t));
+                  };
+                  if (!b.current) return (h(d.In), _(t.backgroundPath), u(e, t.transitionTime));
+                  ((b.current = !1), e());
+                }
+              }, [t]));
+            const E = g(() => {
+              p === d.Visible && h(d.Out);
+            });
+            return (
+              (0, a.useEffect)(() => {
+                if (i && p === d.Out)
+                  return u(() => {
+                    (h(d.None), engine.trigger(re));
+                  }, i.transitionTime);
+              }, [i, p]),
+              r().createElement(
+                "div",
+                { className: U },
+                r().createElement(Q, {
+                  data: i,
+                  nextBackgroundPath: m,
+                  onContentChanged: E,
+                  className: X,
+                }),
+                p !== d.None &&
+                  r().createElement("div", {
+                    className: l()(Y, oe[p]),
+                    style: { animationDuration: (t ? t.transitionTime / 1e3 : 0) + "s" },
+                  }),
+              )
+            );
+          };
+        engine.whenReady.then(() => {
+          i().render(r().createElement(ie, null), document.getElementById("root"));
+        });
+      },
+    },
+    n = {};
+  function a(e) {
+    var r = n[e];
+    if (void 0 !== r) return r.exports;
+    var o = (n[e] = { exports: {} });
+    return (t[e](o, o.exports, a), o.exports);
+  }
+  ((a.m = t),
+    (e = []),
+    (a.O = (t, n, r, o) => {
+      if (!n) {
+        var i = 1 / 0;
+        for (g = 0; g < e.length; g++) {
+          for (var [n, r, o] = e[g], s = !0, l = 0; l < n.length; l++)
+            (!1 & o || i >= o) && Object.keys(a.O).every((e) => a.O[e](n[l]))
+              ? n.splice(l--, 1)
+              : ((s = !1), o < i && (i = o));
+          if (s) {
+            e.splice(g--, 1);
+            var c = r();
+            void 0 !== c && (t = c);
+          }
+        }
+        return t;
+      }
+      o = o || 0;
+      for (var g = e.length; g > 0 && e[g - 1][2] > o; g--) e[g] = e[g - 1];
+      e[g] = [n, r, o];
+    }),
+    (a.n = (e) => {
+      var t = e && e.__esModule ? () => e.default : () => e;
+      return (a.d(t, { a: t }), t);
+    }),
+    (a.d = (e, t) => {
+      for (var n in t)
+        a.o(t, n) && !a.o(e, n) && Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
+    }),
+    (a.g = (function () {
+      if ("object" == typeof globalThis) return globalThis;
+      try {
+        return this || new Function("return this")();
+      } catch (e) {
+        if ("object" == typeof window) return window;
+      }
+    })()),
+    (a.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (() => {
+      var e = { 808: 0 };
+      a.O.j = (t) => 0 === e[t];
+      var t = (t, n) => {
+          var r,
+            o,
+            [i, s, l] = n,
+            c = 0;
+          if (i.some((t) => 0 !== e[t])) {
+            for (r in s) a.o(s, r) && (a.m[r] = s[r]);
+            if (l) var g = l(a);
+          }
+          for (t && t(n); c < i.length; c++)
+            ((o = i[c]), a.o(e, o) && e[o] && e[o][0](), (e[o] = 0));
+          return a.O(g);
+        },
+        n = (self.webpackChunkgameface = self.webpackChunkgameface || []);
+      (n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n))));
+    })());
+  var r = a.O(void 0, [501], () => a(740));
+  r = a.O(r);
+})();
