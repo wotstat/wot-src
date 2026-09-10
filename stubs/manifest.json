@@ -2,8 +2,8 @@
   "binaries": [
     {
       "path": "win64/WorldOfTanks.exe",
-      "sha256": "dce626606dbebbd175b312a11938c0e4b5f641879c3030db4d9a43243a385de3",
-      "size": 78768816
+      "sha256": "de2443a70cc852203104e102254a63eb5bc32ff8cdd664e1506d0caacf2dcff7",
+      "size": 78773424
     },
     {
       "path": "win64/python27.dll",
@@ -748,7 +748,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x303b345",
+            "registration_rva": "0x303b365",
             "required_parameters": 0,
             "return_type": "float",
             "scopes": []
@@ -1535,7 +1535,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x3051aba",
+            "registration_rva": "0x3051ada",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -4113,7 +4113,7 @@
             "descriptor": "() -> None",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x3051ada",
+            "registration_rva": "0x3051afa",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -4132,7 +4132,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x3051ada",
+            "registration_rva": "0x3051afa",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -10670,7 +10670,7 @@
               "Any",
               "int"
             ],
-            "registration_rva": "0x3025a8f",
+            "registration_rva": "0x3025aaf",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -10831,7 +10831,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x302d7e0",
+            "registration_rva": "0x302d800",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10844,7 +10844,7 @@
             "descriptor": "() -> None",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x302d7fe",
+            "registration_rva": "0x302d81e",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10859,7 +10859,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x302d7fe",
+            "registration_rva": "0x302d81e",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10878,7 +10878,7 @@
               "int",
               "bool"
             ],
-            "registration_rva": "0x2cbb1c9",
+            "registration_rva": "0x2cbb1d9",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10897,7 +10897,7 @@
               "int",
               "bool"
             ],
-            "registration_rva": "0x2cbb25f",
+            "registration_rva": "0x2cbb26f",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10920,7 +10920,7 @@
               "bool",
               "bool"
             ],
-            "registration_rva": "0x2cbb25f",
+            "registration_rva": "0x2cbb26f",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10997,7 +10997,7 @@
               "Any",
               "KeyEvent"
             ],
-            "registration_rva": "0x30261e3",
+            "registration_rva": "0x3026203",
             "required_parameters": 1,
             "return_type": "bool",
             "scopes": []
@@ -11059,7 +11059,7 @@
               "Any",
               "MouseEvent"
             ],
-            "registration_rva": "0x302620f",
+            "registration_rva": "0x302622f",
             "required_parameters": 1,
             "return_type": "bool",
             "scopes": []
@@ -11091,7 +11091,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2ffe422",
+            "registration_rva": "0x2ffe442",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11104,7 +11104,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x302d83a",
+            "registration_rva": "0x302d85a",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11117,7 +11117,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x302d8b2",
+            "registration_rva": "0x302d8d2",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11136,7 +11136,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1e7",
+            "registration_rva": "0x2cbb1f7",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11155,7 +11155,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1e7",
+            "registration_rva": "0x2cbb1f7",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11178,7 +11178,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1e7",
+            "registration_rva": "0x2cbb1f7",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11197,7 +11197,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb205",
+            "registration_rva": "0x2cbb215",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11216,7 +11216,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb205",
+            "registration_rva": "0x2cbb215",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11239,7 +11239,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb205",
+            "registration_rva": "0x2cbb215",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11262,7 +11262,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2cbb2f2",
+            "registration_rva": "0x2cbb302",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11285,7 +11285,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2cbb2f2",
+            "registration_rva": "0x2cbb302",
             "required_parameters": 4,
             "return_type": "None",
             "scopes": []
@@ -11304,7 +11304,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb18d",
+            "registration_rva": "0x2cbb19d",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11323,7 +11323,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb18d",
+            "registration_rva": "0x2cbb19d",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11342,7 +11342,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb241",
+            "registration_rva": "0x2cbb251",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11365,7 +11365,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb241",
+            "registration_rva": "0x2cbb251",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11384,7 +11384,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb16f",
+            "registration_rva": "0x2cbb17f",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11403,7 +11403,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb313",
+            "registration_rva": "0x2cbb323",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11426,7 +11426,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb313",
+            "registration_rva": "0x2cbb323",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11445,7 +11445,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1ab",
+            "registration_rva": "0x2cbb1bb",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11464,7 +11464,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1ab",
+            "registration_rva": "0x2cbb1bb",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11487,7 +11487,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb1ab",
+            "registration_rva": "0x2cbb1bb",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11512,7 +11512,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2cbb29b",
+            "registration_rva": "0x2cbb2ab",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11531,7 +11531,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb27d",
+            "registration_rva": "0x2cbb28d",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11554,7 +11554,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb27d",
+            "registration_rva": "0x2cbb28d",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11573,7 +11573,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb223",
+            "registration_rva": "0x2cbb233",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11592,7 +11592,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb223",
+            "registration_rva": "0x2cbb233",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11615,7 +11615,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb223",
+            "registration_rva": "0x2cbb233",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -11640,7 +11640,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2cbb2d7",
+            "registration_rva": "0x2cbb2e7",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11659,7 +11659,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb2b9",
+            "registration_rva": "0x2cbb2c9",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11682,7 +11682,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2cbb2b9",
+            "registration_rva": "0x2cbb2c9",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -17383,7 +17383,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -17432,7 +17432,7 @@
               "Any",
               "Math.Vector2"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -17449,7 +17449,7 @@
               "Any",
               "Math.Vector3"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -17466,7 +17466,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -17780,7 +17780,7 @@
               "Any",
               "float"
             ],
-            "registration_rva": "0x304ffee",
+            "registration_rva": "0x305000e",
             "required_parameters": 2,
             "return_type": "None",
             "scopes": []
@@ -18214,7 +18214,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x3048bf0",
+            "registration_rva": "0x3048c10",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18453,7 +18453,7 @@
               "float",
               "Any | None"
             ],
-            "registration_rva": "0x3048bf0",
+            "registration_rva": "0x3048c10",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18476,7 +18476,7 @@
               "float",
               "Any | None"
             ],
-            "registration_rva": "0x3048bf0",
+            "registration_rva": "0x3048c10",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18503,7 +18503,7 @@
               "float",
               "Any | None"
             ],
-            "registration_rva": "0x3048bf0",
+            "registration_rva": "0x3048c10",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18530,7 +18530,7 @@
               "bool",
               "Any | None"
             ],
-            "registration_rva": "0x3048bf0",
+            "registration_rva": "0x3048c10",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18883,7 +18883,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -18932,7 +18932,7 @@
               "Any",
               "Math.Vector2"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -18949,7 +18949,7 @@
               "Any",
               "Math.Vector3"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -18966,7 +18966,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x30271e3",
+            "registration_rva": "0x3027203",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -19099,7 +19099,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x303e342",
+            "registration_rva": "0x303e362",
             "required_parameters": null,
             "return_type": "bool",
             "scopes": []
@@ -20204,7 +20204,7 @@
               "Any | None",
               "str | None"
             ],
-            "registration_rva": "0x3031856",
+            "registration_rva": "0x3031876",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -21242,7 +21242,7 @@
               "float",
               "int"
             ],
-            "registration_rva": "0x3050f77",
+            "registration_rva": "0x3050f97",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -21504,7 +21504,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x304b7b3",
+            "registration_rva": "0x304b7d3",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []

@@ -200,7 +200,9 @@ package net.wg.gui.lobby.vehicleTradeWnds.sell
                _loc6_ = new SellDialogElementVO();
                _loc6_.id = _loc4_.userName;
                _loc6_.type = FITTING_TYPES.EQUIPMENT;
-               _loc6_.moneyValue = _loc4_.sellPrice[0] != 0 ? Number(_loc4_.sellPrice[0]) : Number(_loc4_.sellPrice[1]);
+               §§push(_loc6_);
+               §§push(_loc4_.sellPrice[0] != 0 ? Number(_loc4_.sellPrice[0]) : Number(_loc4_.sellPrice[1]));
+               §§pop().moneyValue = §§pop();
                _loc6_.sellActionPriceVo = _loc4_.actionVo;
                _loc6_.toInventory = _loc4_.toInventory;
                _loc6_.itemIDList = [_loc4_.itemID];
