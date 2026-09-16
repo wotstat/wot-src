@@ -27,7 +27,7 @@ VERSION_XML_COMMIT_RE = re.compile(
     r"^v\.(?P<version>[0-9]+(?:\.[0-9]+){3})"
     r"(?: [A-Za-z]+(?: [A-Za-z]+)*)? #(?P<build>[0-9]+)$"
 )
-SOURCE_SUFFIXES = frozenset({".po", ".py", ".txt", ".xml"})
+SOURCE_SUFFIXES = frozenset({".def", ".po", ".py", ".txt", ".xml"})
 GAMEFACE_PREFIX = "res/gui/gameface/"
 MANIFEST_NAMES = ("files", "actionscript", "stubs", "packages", "conflicts")
 REPOSITORY_URL = "https://github.com/wotstat/wot-src"
@@ -1237,7 +1237,7 @@ git clone --depth 1 --no-single-branch {REPOSITORY_URL}.git
 README.md
 .version_name
 .publication.json
-sources/             # base + default locale overlay; .py, .xml, .po, .txt
+sources/             # base + default locale overlay; .py, .xml, .def, .po, .txt
 locales/<LANG>/      # все locale overlays WG, включая default locale
 sources-as3/         # декомпилированные .as
 sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
