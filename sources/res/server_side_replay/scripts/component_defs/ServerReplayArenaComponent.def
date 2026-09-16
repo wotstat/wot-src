@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties></Properties>
+	<BaseMethods>
+		<onRecorderCellReady></onRecorderCellReady>
+		<onCellRecordingStarted></onCellRecordingStarted>
+		<onCellRecordingStopped></onCellRecordingStopped>
+		<onRecordingFinalized></onRecordingFinalized>
+	</BaseMethods>
+	<CellMethods>
+		<storeInitialRecordingData>
+			<Arg>PYTHON</Arg>
+		</storeInitialRecordingData>
+		<recordReplayAvatarMethod>
+			<Arg>STRING</Arg>
+			<Arg>PYTHON</Arg>
+		</recordReplayAvatarMethod>
+	</CellMethods>
+	<ofEntity>
+		<Arena></Arena>
+	</ofEntity>
+</root>

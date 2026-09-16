@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<stateStatus>
+			<Type>AUTO_SHOOT_GUN_STATE_STATUS</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</stateStatus>
+	</Properties>
+	<CellMethods>
+		<activateShooting>
+			<Exposed></Exposed>
+		</activateShooting>
+		<deactivateShooting>
+			<Exposed></Exposed>
+		</deactivateShooting>
+	</CellMethods>
+	<ClientMethods></ClientMethods>
+	<DefaultKeyName>autoShootGunController</DefaultKeyName>
+</root>

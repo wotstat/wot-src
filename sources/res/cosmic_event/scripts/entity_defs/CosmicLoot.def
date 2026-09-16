@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<AppealRadius>3000</AppealRadius>
+	<Properties>
+		<range>
+			<Type>FLOAT32</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</range>
+		<height>
+			<Type>FLOAT32</Type>
+			<Flags>CELL_PUBLIC</Flags>
+		</height>
+		<depth>
+			<Type>FLOAT32</Type>
+			<Flags>CELL_PUBLIC</Flags>
+		</depth>
+		<itemID>
+			<Type>UINT8</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</itemID>
+		<type>
+			<Type>STRING</Type>
+			<Flags>CELL_PUBLIC</Flags>
+		</type>
+		<state>
+			<Type>UINT8</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</state>
+		<lifeTime>
+			<Type>INT32</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</lifeTime>
+		<lifeTimeRemained>
+			<Type>INT32</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</lifeTimeRemained>
+	</Properties>
+	<ClientMethods></ClientMethods>
+	<BaseMethods></BaseMethods>
+	<TempProperties>
+		<_captures></_captures>
+		<_ProximityManager__data></_ProximityManager__data>
+	</TempProperties>
+	<shouldBackup>false</shouldBackup>
+</root>

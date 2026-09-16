@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Parent>DualAccuracyBase</Parent>
+	<ClientMethods>
+		<onCoolingDataUpdated>
+			<Arg>FLOAT32</Arg>
+			<DetailLevel>MY_VEHICLE</DetailLevel>
+		</onCoolingDataUpdated>
+	</ClientMethods>
+</root>

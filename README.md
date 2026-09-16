@@ -43,7 +43,7 @@ git clone --depth 1 --no-single-branch https://github.com/wotstat/wot-src.git
 README.md
 .version_name
 .publication.json
-sources/             # base + default locale overlay; .py, .xml, .po, .txt
+sources/             # base + default locale overlay; .py, .xml, .def, .po, .txt
 locales/<LANG>/      # все locale overlays WG, включая default locale
 sources-as3/         # декомпилированные .as
 sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
@@ -60,6 +60,6 @@ stubs/               # полный manifest payload IDE stubs
 - Ветка: `mt-ru`
 - Версия: `1.45.0.8133`
 - Publisher: `lesta`
-- GameSnapshot: `sha256:eb6c84aa47866c8db3899a9d0616dca15f2922c5815b47b1b5533747677bf952`
+- GameSnapshot: `sha256:aa8da1593ca043a254862770b36c4ae8b99eb0abe821a7e42221b5e8c0a19e3d`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

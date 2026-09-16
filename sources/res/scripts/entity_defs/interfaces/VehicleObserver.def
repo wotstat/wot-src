@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<remoteCamera>
+			<Type>REMOTE_CAMERA_DATA</Type>
+			<Flags>OWN_CLIENT</Flags>
+			<Default>
+				<time>0</time>
+				<shotPoint>0 0 0</shotPoint>
+				<zoom>25</zoom>
+				<mode>0</mode>
+			</Default>
+			<ExposedForReplay>true</ExposedForReplay>
+		</remoteCamera>
+	</Properties>
+	<CellMethods>
+		<setRemoteCamera>
+			<Exposed></Exposed>
+			<Arg>REMOTE_CAMERA_DATA</Arg>
+			<IsImmediate>true</IsImmediate>
+		</setRemoteCamera>
+	</CellMethods>
+</root>
