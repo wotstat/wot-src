@@ -2547,327 +2547,7 @@ const view = Object.freeze(
         n && jsxRuntimeExports.jsx("div", { className: cx(styles$e.goto, s?.goto), children: n }),
       ],
     });
-  },
-  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
-function parseArguments(e) {
-  const t = [];
-  let n = "",
-    s = !1,
-    r = !1,
-    o = "";
-  for (let a = 0; a < e.length; a++) {
-    const i = e[a];
-    ("'" !== i && '"' !== i) || r || s
-      ? i === o && r
-        ? ((r = !1), (n += i))
-        : "(" !== i || r
-          ? ")" === i && s && !r
-            ? ((s = !1), (n += i))
-            : " " !== i || s || r
-              ? (n += i)
-              : n && (t.push(n), (n = ""))
-          : ((s = !0), (n += i))
-      : ((r = !0), (o = i), (n += i));
-  }
-  return (n && t.push(n), t);
-}
-function parse(e, t) {
-  const n = [],
-    s = [];
-  let r = "",
-    o = !1,
-    a = "",
-    i = 0;
-  for (let c = 0; c < e.length; c++) {
-    const l = e[c];
-    if (l === t.start[0] && e.slice(c, c + t.start.length) === t.start) {
-      if (r) {
-        if (s.length > 0) {
-          s[s.length - 1].node.children.push({ type: NodeTypes.Text, value: r });
-        } else n.push({ type: NodeTypes.Text, value: r });
-        r = "";
-      }
-      ((o = !0), (c += t.start.length - 1));
-    } else if (l === t.end[0] && e.slice(c, c + t.end.length) === t.end) {
-      ((o = !1), (c += t.end.length - 1));
-      const e = a.trim();
-      if (e.startsWith("@")) {
-        const t = e.slice(1).trim(),
-          r = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++i, children: [] };
-        if (s.length > 0) {
-          s[s.length - 1].node.children.push(r);
-        } else n.push(r);
-        s.push({ node: r, startIndex: n.length });
-      } else if ("/" === e) s.length > 0 && s.pop();
-      else {
-        const t = { type: NodeTypes.Var, instanceId: ++i, name: e };
-        if (s.length > 0) {
-          s[s.length - 1].node.children.push(t);
-        } else n.push(t);
-      }
-      a = "";
-    } else o ? (a += l) : (r += l);
-  }
-  if (r)
-    if (s.length) {
-      s[s.length - 1].node.children.push({ type: NodeTypes.Text, value: r });
-    } else n.push({ type: NodeTypes.Text, value: r });
-  return n;
-}
-const COLORS =
-    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$c = "FormatText_db904f12",
-  base__fullSize = "FormatText_base__fullSize_a514958e",
-  nowrap = "FormatText_nowrap_ff69eca3",
-  styles$d = { COLORS: COLORS, base: base$c, base__fullSize: base__fullSize, nowrap: nowrap },
-  legacyColors = new Set(styles$d.COLORS?.split(", ") ?? []);
-let keyId = 0;
-function takeKey() {
-  return ++keyId;
-}
-const startsWithPunctuationRe =
-  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
-function splitString(e) {
-  const t = resources.resolve("langCode");
-  return addSpaceAndMap(
-    splitLocale(e, t),
-    t,
-    (e, t) => e && jsxRuntimeExports.jsx("span", { children: e }, `${e}${t}`),
-  );
-}
-function splitArray(e) {
-  const t = [];
-  for (let n = 0; n < e.length; n++) {
-    const s = e[n],
-      r = e[n + 1];
-    if ("string" != typeof r || !startsWithPunctuationRe.test(r)) {
-      t.push(split(s));
-      continue;
-    }
-    const o = splitString(r.slice(1));
-    (t.push(
-      jsxRuntimeExports.jsxs(
-        reactExports.Fragment,
-        {
-          children: [
-            jsxRuntimeExports.jsxs("span", {
-              className: styles$d.nowrap,
-              children: [split(s), r[0]],
-            }),
-            o,
-          ],
-        },
-        takeKey(),
-      ),
-    ),
-      (n += 1));
-  }
-  return t;
-}
-function split(e) {
-  return Array.isArray(e)
-    ? splitArray(e)
-    : "string" == typeof e
-      ? jsxRuntimeExports.jsx(reactExports.Fragment, { children: splitString(e) }, takeKey())
-      : e;
-}
-function style(e, ...t) {
-  return jsxRuntimeExports.jsx(
-    "span",
-    {
-      style: t.reduce((n, s) => {
-        if (Array.isArray(s)) {
-          const [e, t] = s;
-          return ((n[e] = t), n);
-        }
-        return (console.warn(`Invalid argument ${s} in ${e}: ${t}`), n);
-      }, {}),
-      children: e,
-    },
-    takeKey(),
-  );
-}
-function className(e, ...t) {
-  return jsxRuntimeExports.jsx(
-    "span",
-    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
-    takeKey(),
-  );
-}
-const color = (e, t) => ["color", t],
-  fontSize = (e, t) => ["fontSize", t],
-  fontWeight = (e, t) => ["fontWeight", t],
-  textDecoration = (e, t) => ["textDecoration", t],
-  bold = (e) => ["fontWeight", "bold"];
-function colorLegacy(e, t) {
-  const n = takeKey();
-  return legacyColors.has(String(t))
-    ? jsxRuntimeExports.jsx("span", { className: `FormatText_colorLegacy__${t}`, children: e }, n)
-    : jsxRuntimeExports.jsx("span", { style: { color: `#${t}` }, children: e }, n);
-}
-const defaultFormatters = {
-  class: className,
-  colorLegacy: colorLegacy,
-  bold: bold,
-  split: split,
-  style: style,
-  color: color,
-  fontSize: fontSize,
-  fontWeight: fontWeight,
-  textDecoration: textDecoration,
-};
-function applyFunction(e, t, n, s) {
-  const r = n.map((t) => {
-      if ("string" != typeof t) return t;
-      const n = t.trim();
-      if (n.startsWith("(") && n.endsWith(")")) {
-        const [t, ...r] = n.slice(1, -1).split(" ");
-        return t ? applyFunction(e, t, r, s) : e;
-      }
-      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
-    }),
-    o = s[t];
-  return o ? o(e, ...r) : (console.error(`Function ${t} is not registered`), e);
-}
-function applyFunctions(e, t, n) {
-  return e.reduce((e, t) => {
-    const [s, ...r] = parseArguments(t.trim());
-    return s ? applyFunction(e, s, r, n) : e;
-  }, t);
-}
-function isEnd(e) {
-  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
-}
-function resolveAttrParams(e, t) {
-  for (let n = 0; n < e.length; n++) {
-    if ("$" === e[n]) {
-      let s = n + 1;
-      for (; s < e.length && !isEnd(e[s]);) s++;
-      const r = e.slice(n + 1, s),
-        o = t[r];
-      if (o) return resolveAttrParams(e.replace(`$${r}`, String(o)), t);
-    }
-  }
-  return e;
-}
-function resolveAttrsParams(e, t) {
-  const n = [];
-  for (let s = 0; s < e.length; s++) n[s] = resolveAttrParams(e[s], t);
-  return n;
-}
-const primitives = ["number", "string", "undefined"];
-function render(e, t, n = {}, s = !0) {
-  s && (keyId = 0);
-  const r = [];
-  function o(e) {
-    if (primitives.includes(typeof e)) {
-      const t = r.at(-1);
-      if ("string" == typeof t) return void (r[r.length - 1] = t + e);
-    }
-    r.push(e);
-  }
-  for (const a of e)
-    if (a.type === NodeTypes.Text) o(a.value);
-    else if (a.type === NodeTypes.Var)
-      null === n[a.name] || primitives.includes(typeof n[a.name])
-        ? o(n[a.name] ?? `{{${a.name}}}`)
-        : r.push(
-            jsxRuntimeExports.jsx(
-              reactExports.Fragment,
-              { children: n[a.name] },
-              `var-${a.name}-${a.instanceId}`,
-            ),
-          );
-    else if (a.type === NodeTypes.Tag) {
-      const e = render(a.children, t, n, !1),
-        s = applyFunctions(resolveAttrsParams(a.attrs, n), e, t);
-      r.push(s);
-    }
-  return r;
-}
-function upgradeColorTag(e) {
-  return e
-    .replace(
-      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    )
-    .replace(
-      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
-      "{{@ colorLegacy '$1'}}$3{{/}}",
-    );
-}
-function upgradeVariables(e) {
-  return e
-    .replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}")
-    .replace(new RegExp("(?<!\\{)\\{(\\w+|\\d)\\}", "g"), "{{$1}}");
-}
-function upgradeSymbols(e) {
-  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
-}
-function upgradeLegacy(e) {
-  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
-}
-const defaultBrackets = { start: "{{", end: "}}" },
-  FormatText = reactExports.memo(function (e) {
-    const {
-        brackets: t = defaultBrackets,
-        text: n,
-        params: s,
-        upgradeLegacy: r,
-        fullSize: o,
-        inline: a,
-        formatters: i,
-        split: c,
-        ...l
-      } = e,
-      u = reactExports.useMemo(
-        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
-        [e.text, e.upgradeLegacy],
-      ),
-      d = reactExports.useMemo(
-        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
-        [e.formatters],
-      ),
-      p = reactExports.useMemo(() => parse(c ? `{{@ split}}${u}{{/}}` : u, t), [t, u, c]),
-      _ = reactExports.useMemo(() => render(p, d, e.params), [p, d, e.params]),
-      m = clsx(styles$d.base, o && styles$d.base__fullSize, l.className);
-    return e.inline
-      ? (console.warn(
-          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
-          "Use 'split' prop instead.",
-        ),
-        jsxRuntimeExports.jsx("p", {
-          ...l,
-          className: m,
-          ref: (e) => {
-            e?.setAttribute("cohinline", "true");
-          },
-          children: _,
-        }))
-      : jsxRuntimeExports.jsx("span", { ...l, className: m, children: _ });
-  });
-function FormatString({ path: e, ...t }) {
-  return jsxRuntimeExports.jsx(FormatText, {
-    text: resources.resolve("strings").readOrEmpty(e),
-    ...t,
-  });
-}
-const getFromCallStack = (e = 1) => {
-  const t = new Error().stack;
-  let n,
-    s = R.invalid("resId"),
-    r = "";
-  return (
-    t &&
-      ((r = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
-      (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
-      window.__feature &&
-        window.__feature !== n &&
-        window.subViews[n] &&
-        (s = window.subViews[n].id)),
-    { callerUrl: r, caller: n, stack: t, resId: s }
-  );
-};
+  };
 let ClickOutsideManager$1 = class e {
   entries = [];
   _listenMouse = !1;
@@ -3195,1547 +2875,10 @@ const ClickOutsideManager = ClickOutsideManager$1.instance,
     SystemLocale: SystemLocale,
     UserLocale: UserLocale,
   };
-window.ViewEnvHelper = ViewEnvHelper;
-const SHOW_DELAY_MIN = 100,
-  SHOW_DELAY_DEFAULT = 400;
-function getViewEventArguments(e) {
-  return Object.entries(e || {}).map(([e, t]) => {
-    const n = { __Type: "GFValueProxy", name: e };
-    switch (typeof t) {
-      case "number":
-        n.number = t;
-        break;
-      case "boolean":
-        n.bool = t;
-        break;
-      case "undefined":
-        break;
-      default:
-        n.string = t.toString();
-    }
-    return n;
-  });
-}
-const handleViewEvent = (e, t, n = {}, s = 0) => {
-    viewEnv.handleViewEvent({
-      __Type: "GFViewEventProxy",
-      type: ViewEventType.TOOLTIP,
-      contentID: e,
-      decoratorID: t,
-      targetID: s,
-      ...n,
-    });
-  },
-  Tooltip = ({
-    children: e,
-    contentId: t,
-    args: n,
-    onMouseEnter: s,
-    onMouseLeave: r,
-    onMouseDown: o,
-    onClick: a,
-    ignoreShowDelay: i = !1,
-    ignoreMouseClick: c = !1,
-    decoratorId: l = 0,
-    isEnabled: u = !0,
-    targetId: d = 0,
-    onShow: p,
-    onHide: _,
-    ...m
-  }) => {
-    const g = reactExports.useRef({
-        timeoutId: 0,
-        isVisible: !1,
-        prevTarget: null,
-        hideTimerId: null,
-      }),
-      h = reactExports.useMemo(() => d || getFromCallStack().resId, [d]),
-      f = reactExports.useCallback(() => {
-        (g.current.isVisible && g.current.timeoutId) ||
-          (handleViewEvent(
-            t,
-            l,
-            { isMouseEvent: !0, on: !0, arguments: getViewEventArguments(n) },
-            h,
-          ),
-          p && p(),
-          (g.current.isVisible = !0));
-      }, [t, l, n, h, p]),
-      E = reactExports.useCallback(() => {
-        if (g.current.isVisible || g.current.timeoutId) {
-          const e = g.current.timeoutId;
-          (e > 0 && (clearTimeout(e), (g.current.timeoutId = 0)),
-            handleViewEvent(t, l, { on: !1 }, h),
-            g.current.isVisible && _ && _(),
-            (g.current.isVisible = !1));
-        }
-      }, [t, l, h, _]),
-      b = reactExports.useCallback((e) => {
-        g.current.isVisible &&
-          ((g.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
-          (g.current.hideTimerId = window.setTimeout(() => {
-            const t = document.elementFromPoint(e.clientX, e.clientY);
-            t && !t.isSameNode(g.current.prevTarget) && E();
-          }, 200)));
-      }, []);
-    (reactExports.useEffect(() => {
-      const e = g.current.hideTimerId;
-      return (
-        document.addEventListener("wheel", b, { capture: !0 }),
-        () => {
-          (document.removeEventListener("wheel", b, { capture: !0 }), e && window.clearTimeout(e));
-        }
-      );
-    }, []),
-      reactExports.useEffect(() => {
-        !1 === u && E();
-      }, [u, E]),
-      reactExports.useEffect(
-        () => (
-          window.addEventListener("mouseleave", E),
-          () => {
-            (window.removeEventListener("mouseleave", E), E());
-          }
-        ),
-        [E],
-      ));
-    return u
-      ? reactExports.cloneElement(e, {
-          onMouseEnter:
-            ((y = e.props.onMouseEnter),
-            (e) => {
-              (e.clientX === window.innerWidth && e.clientY === window.innerHeight) ||
-                (clearTimeout(g.current.timeoutId),
-                (g.current.timeoutId = window.setTimeout(
-                  f,
-                  i ? SHOW_DELAY_MIN : SHOW_DELAY_DEFAULT,
-                )),
-                s && s(e),
-                y && y(e));
-            }),
-          onMouseLeave: ((e) => (t) => {
-            (E(), r?.(t), e?.(t));
-          })(e.props.onMouseLeave),
-          onClick: ((e) => (t) => {
-            (!1 === c && E(), a?.(t), e?.(t));
-          })(e.props.onClick),
-          onMouseDown: ((e) => (t) => {
-            (!1 === c && E(), o?.(t), e?.(t));
-          })(e.props.onMouseDown),
-          ...m,
-        })
-      : e;
-    var y;
-  },
-  BackportTooltip = ({ children: e, ...t }) =>
-    jsxRuntimeExports.jsx(Tooltip, {
-      contentId:
-        R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
-      ignoreShowDelay: !0,
-      ...t,
-      children: e,
-    }),
-  UB_SIMPLE_TOOLTIPS = R.views.common.tooltip_window.simple_tooltip_content,
-  getTooltipContentId = (e) =>
-    e
-      ? UB_SIMPLE_TOOLTIPS.SimpleTooltipHtmlContent("resId")
-      : UB_SIMPLE_TOOLTIPS.SimpleTooltipContent("resId"),
-  SimpleTooltip = ({ children: e, body: t, header: n, note: s, alert: r, args: o, ...a }) => {
-    const i = reactExports.useMemo(() => {
-      const e = { ...o, body: t, header: n, note: s, alert: r };
-      for (const t in e) void 0 === e[t] && delete e[t];
-      return e;
-    }, [r, t, n, s, o]);
-    return jsxRuntimeExports.jsx(Tooltip, {
-      contentId: getTooltipContentId(o?.hasHtmlContent),
-      decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
-      args: i,
-      ...a,
-      children: e,
-    });
-  },
-  DynamicTooltipWrapper = ({ children: e, tooltipArgs: t, className: n }) => {
-    if (!t) return e;
-    const s = jsxRuntimeExports.jsx("div", { className: n, children: e });
-    if (t.header || t.body) return jsxRuntimeExports.jsx(SimpleTooltip, { ...t, children: s });
-    const { contentId: r } = t;
-    return r
-      ? jsxRuntimeExports.jsx(Tooltip, { ...t, contentId: r, children: s })
-      : jsxRuntimeExports.jsx(BackportTooltip, { ...t, children: s });
-  },
-  InputType = { Default: "default", Search: "search", Email: "email", Password: "password" },
-  InputVariant = { Normal: "normal", Disabled: "disabled", Alert: "alert", Error: "error" },
-  InputSize = { Medium: "medium" },
-  defaultPlaceholders = {
-    [InputType.Default]: "",
-    [InputType.Email]: R.strings.common.input.placeholder.email(),
-    [InputType.Search]: R.strings.common.input.placeholder.search(),
-    [InputType.Password]: R.strings.common.input.placeholder.password(),
-  },
-  inputType = {
-    [InputType.Default]: "text",
-    [InputType.Email]: "text",
-    [InputType.Search]: "text",
-    [InputType.Password]: "password",
-  },
-  defaultHelpers = {
-    [InputType.Default]: "",
-    [InputType.Email]: "Invalid email",
-    [InputType.Search]: "",
-    [InputType.Password]: "",
-  },
-  iconsPath = R.images.gui.maps.icons.components.input;
-function getDefaultIcon(e, t) {
-  return e === InputType.Search ? iconsPath.$dyn(`search_${t}`) : "";
-}
-function getDefaultHelperIcon(e) {
-  return e === InputVariant.Alert ? R.images.gui.maps.icons.library.alertIcon() : "";
-}
-function validateEmail(e) {
-  const t = e.match(
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
-  );
-  return Boolean(t);
-}
-function performDefaultValidation(e, t) {
-  return t !== InputType.Email || validateEmail(e);
-}
-const base$b = "Helpermessage_e43ecb4b",
-  base__shown = "Helpermessage_base__shown_28b28c74",
-  icon$3 = "Helpermessage_icon_85f835c3",
-  message = "Helpermessage_message_f2ba82e2",
-  message__alert = "Helpermessage_message__alert_69e4761c",
-  message__error = "Helpermessage_message__error_87d8a8a1",
-  message__done = "Helpermessage_message__done_dd4f50f2",
-  styles$c = {
-    base: base$b,
-    base__shown: base__shown,
-    icon: icon$3,
-    message: message,
-    message__alert: message__alert,
-    message__error: message__error,
-    message__done: message__done,
-  },
-  HelperMessage = ({ variant: e, show: t = !0, helperText: n, helperIcon: s, classMix: r }) => {
-    const o = reactExports.useMemo(() => {
-        const t = s || getDefaultHelperIcon(e);
-        return t && { backgroundImage: `url(${t})` };
-      }, [s, e]),
-      a = cx(styles$c.base, t && styles$c.base__shown),
-      i = cx(styles$c.message, styles$c[`message__${e}`], r);
-    return jsxRuntimeExports.jsxs("div", {
-      className: a,
-      children: [
-        o && jsxRuntimeExports.jsx("div", { className: styles$c.icon, style: o }),
-        jsxRuntimeExports.jsx("div", { className: i, children: n }),
-      ],
-    });
-  },
-  base$a = "Inputcontrol_ef855555",
-  base__focused = "Inputcontrol_base__focused_dbb7783b",
-  base__alert = "Inputcontrol_base__alert_4288729",
-  base__error = "Inputcontrol_base__error_b0980004",
-  base__done = "Inputcontrol_base__done_420d2fbe",
-  base__disabled$1 = "Inputcontrol_base__disabled_1443472e",
-  input = "Inputcontrol_input_13480315",
-  base__small$4 = "Inputcontrol_base__small_95506303",
-  base__medium$2 = "Inputcontrol_base__medium_95506303",
-  base__large$2 = "Inputcontrol_base__large_95506303",
-  base__withIcon = "Inputcontrol_base__withIcon_95506303",
-  input__search = "Inputcontrol_input__search_4dd8e53c",
-  disabled = "Inputcontrol_disabled_ae37311b",
-  placeholder = "Inputcontrol_placeholder_b37a5d38",
-  placeholder__search = "Inputcontrol_placeholder__search_c228534f",
-  icon$2 = "Inputcontrol_icon_253aeaaf",
-  icon__search = "Inputcontrol_icon__search_dc77e54f",
-  clear = "Inputcontrol_clear_48eaf250",
-  styles$b = {
-    base: base$a,
-    base__focused: base__focused,
-    base__alert: base__alert,
-    base__error: base__error,
-    base__done: base__done,
-    base__disabled: base__disabled$1,
-    input: input,
-    base__small: base__small$4,
-    base__medium: base__medium$2,
-    base__large: base__large$2,
-    base__withIcon: base__withIcon,
-    input__search: input__search,
-    disabled: disabled,
-    placeholder: placeholder,
-    placeholder__search: placeholder__search,
-    icon: icon$2,
-    icon__search: icon__search,
-    clear: clear,
-  },
-  ControlComponent = ({
-    componentId: e,
-    value: t = "",
-    type: n = InputType.Default,
-    size: s = InputSize.Medium,
-    variant: r = InputVariant.Normal,
-    placeholder: o = "",
-    highlighted: a,
-    withClear: i,
-    selectOnFocus: c = !0,
-    maxLength: l,
-    iconSource: u,
-    classMix: d,
-    onMouseEnter: p,
-    onMouseLeave: _,
-    onMouseDown: m,
-    onMouseUp: g,
-    onClick: h,
-    onChange: f,
-    onClear: E,
-    onFocus: b,
-    onBlur: y,
-  }) => {
-    const [x, v] = reactExports.useState(!1),
-      w = reactExports.useRef(null),
-      T = reactExports.useRef({ mouseOver: !1, mouseDown: !1 }),
-      S = r !== InputVariant.Disabled,
-      R = reactExports.useCallback(
-        (e) => {
-          S && (v(!0), b && b(e));
-        },
-        [S, b],
-      ),
-      C = reactExports.useCallback(
-        (e) => {
-          S && !T.current.mouseOver && (v(!1), y && y(e));
-        },
-        [S, y],
-      );
-    reactExports.useEffect(() => {
-      S && x && c && w.current && w.current.select();
-    }, [c, x, S]);
-    const P = reactExports.useCallback(
-        (e) => {
-          S && f && f(e.target.value);
-        },
-        [S, f],
-      ),
-      M = reactExports.useCallback(
-        (e) => {
-          S && ((T.current.mouseOver = !0), p && p(e));
-        },
-        [S, p],
-      ),
-      k = reactExports.useCallback(
-        (e) => {
-          S &&
-            w.current &&
-            (T.current.mouseDown && w.current.focus(), (T.current.mouseOver = !1), _ && _(e));
-        },
-        [S, _],
-      ),
-      $ = reactExports.useCallback(
-        (e) => {
-          S && ((T.current.mouseDown = !0), m && m(e));
-        },
-        [S, m],
-      ),
-      O = reactExports.useCallback(
-        (e) => {
-          S && ((T.current.mouseDown = !1), g && g(e));
-        },
-        [S, g],
-      ),
-      A = reactExports.useCallback(
-        (e) => {
-          if (S && w.current) {
-            ((!x || (x && e.target !== w.current)) && w.current.focus(), h && h(e));
-          }
-        },
-        [x, S, h],
-      ),
-      D = o || defaultPlaceholders[n],
-      I = Boolean(u),
-      N = cx(
-        styles$b.base,
-        styles$b[`base__${s}`],
-        a && styles$b[`base__${r}`],
-        x && styles$b.base__focused,
-        I && styles$b.base__withIcon,
-        d,
-      ),
-      B = reactExports.useMemo(() => (u ? { backgroundImage: `url(${u})` } : null), [u]),
-      L = cx(styles$b.input, styles$b[`input__${n}`]),
-      F = cx(styles$b.icon, styles$b[`icon__${n}`]),
-      j = cx(styles$b.placeholder, styles$b[`placeholder__${n}`]);
-    return jsxRuntimeExports.jsxs("div", {
-      id: e,
-      className: N,
-      onMouseEnter: M,
-      onMouseDown: $,
-      onMouseUp: O,
-      onMouseLeave: k,
-      onClick: A,
-      children: [
-        !S && jsxRuntimeExports.jsx("div", { className: styles$b.disabled }),
-        B && jsxRuntimeExports.jsx("div", { style: B, className: F }),
-        jsxRuntimeExports.jsx("input", {
-          ref: w,
-          className: L,
-          type: inputType[n],
-          value: t,
-          onChange: P,
-          disabled: !S,
-          onFocus: R,
-          onBlur: C,
-          maxLength: l,
-        }),
-        D && !t && !x && jsxRuntimeExports.jsx("div", { className: j, children: D }),
-        i &&
-          jsxRuntimeExports.jsx("div", {
-            className: styles$b.clear,
-            onClick: (e) => {
-              (Sound.playClick(), E && E(e));
-            },
-            onMouseEnter: Sound.playHighlight,
-          }),
-      ],
-    });
-  },
-  InputControl = React.memo(ControlComponent),
-  base$9 = "Input_bb86d5c5",
-  base__small$3 = "Input_base__small_1baff0ec",
-  base__medium$1 = "Input_base__medium_8fb9a9d9",
-  base__large$1 = "Input_base__large_ca84f140",
-  helper = "Input_helper_7ec902d2",
-  styles$a = {
-    base: base$9,
-    base__small: base__small$3,
-    base__medium: base__medium$1,
-    base__large: base__large$1,
-    helper: helper,
-  },
-  defaultOptions = {
-    debounceTime: 200,
-    performChangeValidation: !0,
-    selectOnFocus: !0,
-    withTypeIcon: !0,
-    disableHighlightOnFocus: !0,
-  },
-  Input = ({
-    componentId: e,
-    type: t = InputType.Default,
-    variant: n = InputVariant.Normal,
-    size: s = InputSize.Medium,
-    value: r,
-    tooltipArgs: o,
-    helperText: a = "",
-    isValidated: i = !0,
-    showHelper: c = !0,
-    error: l,
-    options: u,
-    onFocus: d,
-    onMouseEnter: p,
-    onMouseLeave: _,
-    onMouseUp: m,
-    onMouseDown: g,
-    onChange: h,
-    classMix: f,
-    controlClassMix: E,
-    helperClassMix: b,
-    ...y
-  }) => {
-    const [x, v] = reactExports.useState(r),
-      [w, T] = reactExports.useState(i),
-      S = reactExports.useMemo(() => ({ ...defaultOptions, ...u }), [u]),
-      R = reactExports.useRef({ debounceTimeout: 0, isChangeHandled: !0, value: r, type: t }),
-      C = reactExports.useCallback((e) => {
-        e !== R.current.value && ((R.current.value = e), (R.current.isChangeHandled = !1), v(e));
-      }, []),
-      P = reactExports.useCallback(
-        (e) => {
-          let t = !0;
-          (S.performChangeValidation &&
-            (t = S.changesValidator
-              ? S.changesValidator(e)
-              : performDefaultValidation(e, R.current.type)),
-            h && h(e, t));
-        },
-        [h, S],
-      ),
-      M = reactExports.useCallback(() => {
-        R.current.debounceTimeout &&
-          (window.clearTimeout(R.current.debounceTimeout), (R.current.debounceTimeout = 0));
-      }, []),
-      k = reactExports.useCallback(() => C(""), [C]);
-    reactExports.useEffect(() => () => M(), [M]);
-    const $ = reactExports.useCallback(
-      (e) => {
-        (M(),
-          S.debounceTime
-            ? (R.current.debounceTimeout = window.setTimeout(() => {
-                P(e);
-              }, S.debounceTime))
-            : P(e));
-      },
-      [P, M, S.debounceTime],
-    );
-    (reactExports.useEffect(() => {
-      R.current.isChangeHandled ||
-        R.current.value !== x ||
-        ($(R.current.value), (R.current.isChangeHandled = !0));
-    }, [x, $]),
-      reactExports.useEffect(() => {
-        (R.current.isChangeHandled && r !== R.current.value && ((R.current.value = r), v(r)),
-          (R.current.type = t));
-      }, [r, t]),
-      reactExports.useEffect(() => {
-        T(i);
-      }, [i, n]));
-    const O = reactExports.useCallback((e) => p && p(e), [p]),
-      A = reactExports.useCallback(
-        (e) => {
-          (S.disableHighlightOnFocus && w && T(!1), d && d(e));
-        },
-        [w, d, S.disableHighlightOnFocus],
-      ),
-      D = reactExports.useCallback((e) => m && m(e), [m]),
-      I = reactExports.useCallback((e) => g && g(e), [g]),
-      N = reactExports.useCallback((e) => _ && _(e), [_]),
-      B = reactExports.useMemo(
-        () => (S.withTypeIcon ? getDefaultIcon(t, s) : ""),
-        [t, s, S.withTypeIcon],
-      ),
-      L = a || defaultHelpers[t],
-      F = Boolean(x),
-      j = l ? InputVariant.Error : n,
-      U = Boolean(l) || w,
-      z = reactExports.useMemo(
-        () => ("boolean" == typeof S.withClear ? F && S.withClear : F && t === InputType.Search),
-        [t, F, S],
-      ),
-      H = cx(styles$a.base, styles$a[`base__${s}`], styles$a[`base__${n}`], f);
-    return jsxRuntimeExports.jsxs("div", {
-      id: e,
-      className: H,
-      onMouseEnter: O,
-      onMouseDown: I,
-      onMouseUp: D,
-      onMouseLeave: N,
-      children: [
-        jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
-          tooltipArgs: o,
-          children: jsxRuntimeExports.jsx(InputControl, {
-            componentId: e ? `${e}-inputControl` : void 0,
-            iconSource: B,
-            size: s,
-            type: t,
-            variant: j,
-            value: x,
-            withClear: z,
-            highlighted: U,
-            selectOnFocus: S.selectOnFocus,
-            maxLength: S.maxLength,
-            classMix: E,
-            onFocus: A,
-            onChange: C,
-            onClear: k,
-            ...y,
-          }),
-        }),
-        L &&
-          jsxRuntimeExports.jsx("div", {
-            className: styles$a.helper,
-            children: jsxRuntimeExports.jsx(HelperMessage, {
-              variant: j,
-              show: c && (S.isPermanentHelper || U),
-              helperText: l || L,
-              helperIcon: S.helperIconSource,
-              classMix: b,
-            }),
-          }),
-      ],
-    });
-  },
-  useMount = (e) => {
-    reactExports.useEffect(e, []);
-  },
-  useUnmount = (e) => {
-    reactExports.useEffect(() => e, []);
-  },
-  NO_RAF_ID = 0;
-function useSkipFrame() {
-  const e = reactExports.useRef(NO_RAF_ID);
-  return (
-    useUnmount(() => {
-      window.cancelAnimationFrame(e.current);
-    }),
-    reactExports.useMemo(
-      () => ({
-        run: (t) => {
-          (window.cancelAnimationFrame(e.current),
-            (e.current = window.requestAnimationFrame(() => {
-              e.current = window.requestAnimationFrame(() => {
-                ((e.current = NO_RAF_ID), t());
-              });
-            })));
-        },
-        clear: () => {
-          (window.cancelAnimationFrame(e.current), (e.current = NO_RAF_ID));
-        },
-        get isRunning() {
-          return e.current !== NO_RAF_ID;
-        },
-      }),
-      [],
-    )
-  );
-}
-const makeCancelable = (e) => {
-    let t = !1;
-    return {
-      promise: new Promise((n, s) => {
-        e.then((e) => !t && n(e)).catch((e) => !t && s(e));
-      }),
-      cancel() {
-        t = !0;
-      },
-    };
-  },
-  base$8 = "Popoverdecorator_a558c74b",
-  decorator$1 = "Popoverdecorator_decorator_79bd913c",
-  arrow = "Popoverdecorator_arrow_f2e5d047",
-  arrow__bottom = "Popoverdecorator_arrow__bottom_7d41b48a",
-  arrow__top = "Popoverdecorator_arrow__top_993c5ad7",
-  arrow__left = "Popoverdecorator_arrow__left_bde08974",
-  arrow__right = "Popoverdecorator_arrow__right_585d6247",
-  closeBtn = "Popoverdecorator_closeBtn_eaee89c3",
-  content$2 = "Popoverdecorator_content_1624656c",
-  styles$9 = {
-    base: base$8,
-    decorator: decorator$1,
-    arrow: arrow,
-    arrow__bottom: arrow__bottom,
-    arrow__top: arrow__top,
-    arrow__left: arrow__left,
-    arrow__right: arrow__right,
-    closeBtn: closeBtn,
-    content: content$2,
-  };
-var PopoverDirections = ((e) => (
-  (e[(e.Left = 0)] = "Left"),
-  (e[(e.Right = 1)] = "Right"),
-  (e[(e.Top = 2)] = "Top"),
-  (e[(e.Bottom = 3)] = "Bottom"),
-  e
-))(PopoverDirections || {});
-const ARROW_DIR_POSTFIXES = ["__left", "__right", "__top", "__bottom"],
-  BORDER_TRANSPARENT_SIZE = 58,
-  PopoverDecorator = (
-    {
-      children: e,
-      disableAutoSizeUpdate: t,
-      onOutsideClick: n,
-      className: s,
-      customStyles: r = {},
-    },
-    o,
-  ) => {
-    const a = reactExports.useRef(null),
-      i = reactExports.useRef(null),
-      c = reactExports.useRef(null),
-      [l, u] = reactExports.useState(window.decorator && window.decorator.directionType),
-      d = reactExports.useCallback(() => {
-        (Sound.playClick(), env.view.sendEvent.close());
-      }, []),
-      p = reactExports.useCallback(() => {
-        Sound.playHighlight();
-      }, []),
-      _ = cx(styles$9.arrow, styles$9[`arrow${ARROW_DIR_POSTFIXES[l]}`]);
-    useMount(
-      () => (
-        env.client.events.mouse.enableOutside(),
-        env.client.events.mouse.down(([, e]) => {
-          "outside" === e && (n ? n() : env.view.sendEvent.close("popover"));
-        })
-      ),
-    );
-    const m = reactExports.useCallback(
-        (e) => {
-          let t = e.target;
-          do {
-            if (t === a.current || t === c.current) return;
-            t = t.parentNode;
-          } while (t);
-          const s = window.decorator;
-          if (void 0 !== window.decorator) {
-            const e = env.client.getMouseGlobalPosition(),
-              t = ![s.boundX, s.boundY, s.boundWidth, s.boundHeight].includes(void 0),
-              n =
-                e.x < s.boundX ||
-                e.x > s.boundX + s.boundWidth ||
-                e.y > s.boundY + s.boundHeight ||
-                e.y < s.boundY;
-            if (t && !n) return;
-          }
-          n ? n() : env.view.sendEvent.close("popover");
-        },
-        [a, c, n],
-      ),
-      g = reactExports.useCallback(() => {
-        u(window.decorator.directionType);
-      }, []),
-      h = useSkipFrame(),
-      f = reactExports.useCallback(() => {
-        const e = i.current;
-        if (e)
-          return (
-            env.view.freezeTextureBeforeResize(),
-            h.run(() => {
-              const t = e.scrollWidth,
-                n = e.scrollHeight;
-              (env.view.resize(t, n), g());
-            })
-          );
-      }, [h, g]);
-    return (
-      reactExports.useImperativeHandle(
-        o,
-        () => ({ updateSize: f, updateDirection: g, elementRef: i }),
-        [f, g],
-      ),
-      useMount(() => {
-        env.view.setInputPaddingsRem(BORDER_TRANSPARENT_SIZE);
-      }),
-      reactExports.useEffect(() => {
-        document.addEventListener("mousedown", m, { capture: !0 });
-        const e = makeCancelable(onLayoutReady());
-        return (
-          !t && e.promise.then(() => f()),
-          () => {
-            (e.cancel(), document.removeEventListener("mousedown", m));
-          }
-        );
-      }, [f, m, t]),
-      jsxRuntimeExports.jsx("div", {
-        className: cx(styles$9.base, s),
-        ref: i,
-        children: jsxRuntimeExports.jsxs("div", {
-          className: styles$9.decorator,
-          children: [
-            jsxRuntimeExports.jsxs("div", {
-              className: styles$9.content,
-              ref: a,
-              children: [
-                e,
-                window.decorator &&
-                  window.decorator.isCloseBtnVisible &&
-                  jsxRuntimeExports.jsx(SimpleTooltip, {
-                    body: R.strings.dialogs.common.error.cancel(),
-                    children: jsxRuntimeExports.jsx("div", {
-                      className: styles$9.closeBtn,
-                      onClick: d,
-                      onMouseEnter: p,
-                      ref: c,
-                    }),
-                  }),
-              ],
-            }),
-            jsxRuntimeExports.jsx("div", { className: _, style: r.arrow }),
-          ],
-        }),
-      })
-    );
-  },
-  PopoverDecoratorForwarded = reactExports.forwardRef(PopoverDecorator),
-  Popover = ({
-    contentId: e,
-    decoratorId: t,
-    direction: n = PopoverDirections.Top,
-    targetId: s,
-    args: r,
-    onClick: o,
-    children: a,
-    isEnabled: i = !0,
-    ...c
-  }) => {
-    const l = reactExports.useRef(null),
-      u = reactExports.useCallback(() => {
-        if (isPopOverShown()) return sendClosePopOverEvent();
-        l.current && sendShowPopOverEvent(e, n, l.current, t, s, r);
-      }, [e, n, r, t, s]);
-    return jsxRuntimeExports.jsx("div", {
-      ref: l,
-      onMouseDown:
-        ((d = a.props.onClick),
-        (e) => {
-          i && (u(), o && o(e), d && d(e));
-        }),
-      ...c,
-      children: a,
-    });
-    var d;
-  },
-  createLayoutReadyInEffect = (e) => {
-    let t,
-      n = null;
-    return (
-      (n = requestAnimationFrame(() => {
-        n = requestAnimationFrame(() => {
-          ((n = null), (t = e()));
-        });
-      })),
-      () => {
-        ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
-      }
-    );
-  },
-  clamp = (e, t, n) => (n < e ? e : n > t ? t : n),
-  STATIC_DEPS = [];
-function useEvent(e) {
-  const t = reactExports.useRef(e);
-  return (
-    reactExports.useLayoutEffect(() => {
-      t.current = e;
-    }),
-    reactExports.useCallback((...e) => (0, t.current)(...e), STATIC_DEPS)
-  );
-}
-function useRepeatCallback(e, t, n = []) {
-  const s = reactExports.useRef(0),
-    r = reactExports.useCallback(() => {
-      (window.clearInterval(s.current), (s.current = 0));
-    }, n || []);
-  reactExports.useEffect(() => r, [r]);
-  const o = (n ?? []).concat([t]);
-  return [
-    reactExports.useCallback((n) => {
-      (0 !== s.current && r(), (s.current = window.setInterval(() => e(n, !0), t)), e(n, !1));
-    }, o),
-    r,
-  ];
-}
-const useCallbackEffect = (e, t = []) => {
-    const n = reactExports.useRef(),
-      s = reactExports.useCallback((...t) => {
-        (n.current && n.current(), (n.current = e(...t)));
-      }, t);
-    return (
-      reactExports.useEffect(
-        () => () => {
-          n.current && n.current();
-        },
-        [s],
-      ),
-      s
-    );
-  },
-  useEmitter = () => {
-    const e = reactExports.useMemo(() => ({}), []),
-      t = (t) => (e[t] || (e[t] = new Map()), e[t]),
-      n = (e, n) => {
-        t(e).set(n, n);
-      },
-      s = (e, n) => {
-        t(e).delete(n);
-      },
-      r = (e, ...n) => {
-        for (const s of t(e).values()) s(...n);
-      };
-    return reactExports.useMemo(() => ({ on: n, off: s, trigger: r }), []);
-  };
-function throttle(e, t, n, s) {
-  let r,
-    o = !1,
-    a = 0;
-  function i() {
-    r && clearTimeout(r);
-  }
-  function c(...c) {
-    const l = this,
-      u = Date.now() - a;
-    function d() {
-      ((a = Date.now()), n.apply(l, c));
-    }
-    o ||
-      (s && !r && d(),
-      i(),
-      void 0 === s && u > e
-        ? d()
-        : !0 !== t &&
-          (r = setTimeout(
-            s
-              ? function () {
-                  r = void 0;
-                }
-              : d,
-            void 0 === s ? e - u : e,
-          )));
-  }
-  return (
-    "boolean" != typeof t && ((s = n), (n = t), (t = void 0)),
-    (c.cancel = function () {
-      (i(), (o = !0));
-    }),
-    c
-  );
-}
-function useThrottle(e, t, n) {
-  const s = reactExports.useMemo(() => throttle(n, e), t);
-  return (reactExports.useEffect(() => s.cancel, [s]), s);
-}
-var Direction = ((e) => ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e))(
-  Direction || {},
-);
-const defaultSettings = {
-    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
-    animationConfig: { tension: 170, friction: 26 },
-  },
-  createApiHook = ({
-    getContainerSize: e,
-    getBounds: t,
-    setScrollPosition: n,
-    getDirection: s,
-    getWrapperSize: r,
-    forceTriggerMouseMove: o,
-  }) => {
-    const a = (e, n) => {
-      const [s, r] = t(e);
-      return r <= s ? 0 : clamp(s, r, n);
-    };
-    return (i = {}) => {
-      const { settings: c = defaultSettings } = i,
-        l = reactExports.useRef(null),
-        u = reactExports.useRef(null),
-        d = reactExports.useRef(!1),
-        p = useEmitter(),
-        _ = useThrottle(
-          () => {
-            o && o();
-          },
-          [],
-          150,
-        ),
-        [m, g] = useSpring(() => ({
-          scrollPosition: 0,
-          onChange: (e) => {
-            const t = l.current;
-            t && (n(t, e), p.trigger("change", e), o && d.current && _());
-          },
-          onRest: (e) => p.trigger("rest", e),
-          onStart: (e) => p.trigger("start", e),
-          onPause: (e) => p.trigger("pause", e),
-        })),
-        h = reactExports.useCallback(
-          (e, t, n) => {
-            const s = m.scrollPosition.get(),
-              r = (m.scrollPosition.goal ?? 0) - s;
-            return a(e, t * n + r + s);
-          },
-          [m.scrollPosition],
-        ),
-        f = reactExports.useCallback(
-          (e, { immediate: t = !1, reset: n = !0 } = {}) => {
-            const s = l.current;
-            s &&
-              g.start({
-                scrollPosition: a(s, e),
-                immediate: t,
-                reset: n,
-                config: c.animationConfig,
-                from: { scrollPosition: a(s, m.scrollPosition.get()) },
-              });
-          },
-          [g, c.animationConfig, m.scrollPosition],
-        ),
-        E = reactExports.useCallback(
-          (e) => {
-            const t = l.current,
-              n = u.current;
-            if (!t || !n) return;
-            const s = ((e, t) => {
-                switch (t.type) {
-                  case "proportional":
-                    return r(e) / t.factor;
-                  case "fixed":
-                    return t.value;
-                }
-              })(n, c.step),
-              o = h(t, e, s);
-            f(o);
-          },
-          [f, h, c.step],
-        ),
-        b = reactExports.useCallback(
-          (e) => {
-            (0 !== e.deltaY && E(s(e)),
-              l.current && p.trigger("mouseWheel", e, m.scrollPosition, t(l.current)));
-          },
-          [m.scrollPosition, E, p],
-        ),
-        y = useCallbackEffect(
-          () =>
-            createLayoutReadyInEffect(() => {
-              const e = l.current;
-              e && (f(a(e, m.scrollPosition.goal), { immediate: !0 }), p.trigger("resizeHandled"));
-            }),
-          [f, m.scrollPosition.goal],
-        ),
-        x = useEvent(() => {
-          const e = l.current;
-          if (!e) return;
-          const t = a(e, m.scrollPosition.goal);
-          (t !== m.scrollPosition.goal && f(t, { immediate: !0 }), p.trigger("recalculateContent"));
-        });
-      (reactExports.useEffect(
-        () => (
-          window.addEventListener("resize", y),
-          () => {
-            window.removeEventListener("resize", y);
-          }
-        ),
-        [y],
-      ),
-        reactExports.useEffect(() => {
-          const e = l.current;
-          if (!e || !o) return;
-          const t = () => {
-              d.current = !0;
-            },
-            n = () => {
-              d.current = !1;
-            };
-          return (
-            e.addEventListener("mouseenter", t),
-            e.addEventListener("mouseleave", n),
-            () => {
-              (e.removeEventListener("mouseenter", t), e.removeEventListener("mouseleave", n));
-            }
-          );
-        }, [l]));
-      return reactExports.useMemo(
-        () => ({
-          getWrapperSize: () => (u.current ? r(u.current) : void 0),
-          getContainerSize: () => (l.current ? e(l.current) : void 0),
-          getBounds: () =>
-            l.current
-              ? t(l.current)
-              : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
-          stepTimeout: c.step.clampedArrowStepTimeout,
-          clampPosition: a,
-          handleMouseWheel: b,
-          applyScroll: f,
-          applyStepTo: E,
-          contentRef: l,
-          wrapperRef: u,
-          scrollPosition: g,
-          animationScroll: m,
-          recalculateContent: x,
-          events: { on: p.on, off: p.off },
-        }),
-        [m.scrollPosition, f, E, p.off, p.on, x, b, g, c.step.clampedArrowStepTimeout],
-      );
-    };
-  },
-  base$7 = "Horizontalbar_bdf22414",
-  base__active$1 = "Horizontalbar_base__active_5a3d92a0",
-  leftButton = "Horizontalbar_leftButton_ba80ec4f",
-  rightButton = "Horizontalbar_rightButton_847c1c78",
-  track$1 = "Horizontalbar_track_388b12f",
-  thumb$1 = "Horizontalbar_thumb_9d4dd30f",
-  rail$1 = "Horizontalbar_rail_b8667e3c",
-  styles$8 = {
-    base: base$7,
-    base__active: base__active$1,
-    leftButton: leftButton,
-    rightButton: rightButton,
-    track: track$1,
-    thumb: thumb$1,
-    rail: rail$1,
-  },
-  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1 = 100,
-  DISABLE_CLASS$1 = "disable",
-  MIN_THUMB_SIZE$1 = 20,
-  MOUSE_BUTTON_LEFT$1 = 0,
-  initDraggingState$1 = { pending: !1, offset: 0 },
-  getStepByRailClickDefault$1 = (e) => 0.9 * (e.getWrapperSize() ?? 0),
-  isBoundThumb = (e, t, n) => n - (e.offsetWidth - t.offsetWidth) >= -0.5,
-  emptyFunction$1 = () => {},
-  calculateThumbSize$1 = (e, t) => Math.max(MIN_THUMB_SIZE$1, e.offsetWidth * t),
-  BarFC$1 = ({
-    api: e,
-    classNames: t = {},
-    getStepByRailClick: n = getStepByRailClickDefault$1,
-    onDrag: s = emptyFunction$1,
-  }) => {
-    const r = reactExports.useRef(null),
-      o = reactExports.useRef(null),
-      a = reactExports.useRef(null),
-      i = reactExports.useRef(null),
-      c = reactExports.useRef(null),
-      l = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1,
-      [u, d] = reactExports.useState(initDraggingState$1),
-      p = reactExports.useCallback(
-        (e) => {
-          (d(e), c.current && s({ type: e.pending ? "dragStart" : "dragEnd", thumb: c.current }));
-        },
-        [s],
-      ),
-      _ = () => {
-        const t = i.current,
-          n = c.current,
-          s = e.getWrapperSize(),
-          r = e.getContainerSize();
-        if (!(s && t && n && r)) return;
-        const l = e.animationScroll.scrollPosition.get(),
-          u = Math.min(1, s / r),
-          d = clamp(0, 1, l / (r - s)),
-          p = (t.offsetWidth - calculateThumbSize$1(t, u)) * d;
-        ((n.style.transform = `translateX(${0 | p}px)`),
-          ((e) => {
-            if (o.current && a.current && i.current && c.current) {
-              if (0 === e)
-                return (
-                  o.current.classList.add(DISABLE_CLASS$1),
-                  void a.current.classList.remove(DISABLE_CLASS$1)
-                );
-              if (isBoundThumb(i.current, c.current, e))
-                return (
-                  o.current.classList.remove(DISABLE_CLASS$1),
-                  void a.current.classList.add(DISABLE_CLASS$1)
-                );
-              (o.current.classList.remove(DISABLE_CLASS$1),
-                a.current.classList.remove(DISABLE_CLASS$1));
-            }
-          })(p));
-      },
-      m = useEvent(() => {
-        ((() => {
-          const t = c.current,
-            n = i.current,
-            s = e.getWrapperSize(),
-            o = e.getContainerSize();
-          if (!(o && t && s && n)) return;
-          const a = Math.min(1, s / o);
-          ((t.style.width = `${calculateThumbSize$1(n, a)}px`),
-            (t.style.display = "flex"),
-            r.current &&
-              (1 !== a
-                ? r.current.classList.add(styles$8.base__active)
-                : r.current.classList.remove(styles$8.base__active)));
-        })(),
-          _());
-      });
-    (reactExports.useEffect(() => createLayoutReadyInEffect(m)),
-      reactExports.useEffect(
-        () =>
-          createLayoutReadyInEffect(() => {
-            const t = () => {
-              _();
-            };
-            let n = emptyFunction$1;
-            const s = () => {
-              (n(), (n = createLayoutReadyInEffect(m)));
-            };
-            return (
-              e.events.on("recalculateContent", m),
-              e.events.on("rest", t),
-              e.events.on("change", t),
-              e.events.on("resizeHandled", s),
-              () => {
-                (n(),
-                  e.events.off("recalculateContent", m),
-                  e.events.off("rest", t),
-                  e.events.off("change", t),
-                  e.events.off("resizeHandled", s));
-              }
-            );
-          }),
-        [e],
-      ),
-      reactExports.useEffect(() => {
-        if (!u.pending) return;
-        const t = env.client.events.mouse.move(([t, n]) => {
-            const r = e.contentRef.current,
-              o = e.wrapperRef.current;
-            if (!r || !o) return;
-            const a = i.current,
-              l = c.current;
-            if (!a || !l) return;
-            if ("inside" === n && t.clientX < 0) return;
-            const d = t.clientX - u.offset - a.getBoundingClientRect().x,
-              p = (d / a.offsetWidth) * (e.getContainerSize() ?? 0);
-            (e.scrollPosition.start({
-              scrollPosition: e.clampPosition(r, p),
-              reset: !0,
-              immediate: !0,
-              from: { scrollPosition: e.animationScroll.scrollPosition.get() },
-            }),
-              s({ type: "dragging", thumb: l, thumbOffset: d, contentOffset: p }));
-          }),
-          n = env.client.events.mouse.up(() => {
-            (t(), p(initDraggingState$1));
-          });
-        return () => {
-          (t(), n());
-        };
-      }, [e, u.offset, u.pending, s, p]));
-    const [g, h] = useRepeatCallback((t) => e.applyStepTo(t), l, [e]);
-    reactExports.useEffect(
-      () => (
-        document.addEventListener("mouseup", h, !0),
-        () => document.removeEventListener("mouseup", h, !0)
-      ),
-      [h],
-    );
-    const f = (e) => {
-      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
-    };
-    return jsxRuntimeExports.jsxs("div", {
-      className: cx(styles$8.base, t.base),
-      ref: r,
-      onWheel: e.handleMouseWheel,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$8.leftButton, t.leftButton),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS$1) ||
-              e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), g(Direction.Next));
-          },
-          onMouseUp: h,
-          ref: o,
-          onMouseEnter: f,
-        }),
-        jsxRuntimeExports.jsxs("div", {
-          className: cx(styles$8.track, t.track),
-          onMouseDown: (t) => {
-            const s = c.current;
-            if (s && t.button === MOUSE_BUTTON_LEFT$1)
-              if ((playSound$1("play"), t.target === s))
-                p({ pending: !0, offset: t.screenX - s.getBoundingClientRect().x });
-              else {
-                ((t) => {
-                  const s = c.current,
-                    r = e.contentRef.current;
-                  if (!s || !r) return;
-                  const o = n(e);
-                  e.applyScroll(e.animationScroll.scrollPosition.get() + o * t);
-                })(t.screenX > s.getBoundingClientRect().x ? Direction.Prev : Direction.Next);
-              }
-          },
-          ref: i,
-          onMouseEnter: f,
-          children: [
-            jsxRuntimeExports.jsx("div", { ref: c, className: cx(styles$8.thumb, t.thumb) }),
-            jsxRuntimeExports.jsx("div", { className: cx(styles$8.rail, t.rail) }),
-          ],
-        }),
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$8.rightButton, t.rightButton),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS$1) ||
-              e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), g(Direction.Prev));
-          },
-          onMouseUp: h,
-          ref: a,
-          onMouseEnter: f,
-        }),
-      ],
-    });
-  };
-reactExports.memo(BarFC$1);
-const DEFAULT_VERTICAL_API_CONTEXT = {
-    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
-    getContainerSize: (e) => e.scrollHeight,
-    getWrapperSize: (e) => e.offsetHeight,
-    setScrollPosition: (e, t) => {
-      e.scrollTop = t.value.scrollPosition;
-    },
-    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
-  },
-  useVerticalScrollApi = createApiHook(DEFAULT_VERTICAL_API_CONTEXT),
-  base$6 = "Verticalbar_89dc020b",
-  base__active = "Verticalbar_base__active_1e0d5e44",
-  topButton = "Verticalbar_topButton_1ce852b9",
-  bottomButton = "Verticalbar_bottomButton_bc76d779",
-  track = "Verticalbar_track_7532d39a",
-  thumb = "Verticalbar_thumb_264988ce",
-  rail = "Verticalbar_rail_85a58f07",
-  styles$7 = {
-    base: base$6,
-    base__active: base__active,
-    topButton: topButton,
-    bottomButton: bottomButton,
-    track: track,
-    thumb: thumb,
-    rail: rail,
-  },
-  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
-  DISABLE_CLASS = "disable",
-  MIN_THUMB_SIZE = 20,
-  MOUSE_BUTTON_LEFT = 0,
-  emptyFunction = () => {},
-  initDraggingState = { pending: !1, offset: 0 },
-  getStepByRailClickDefault = (e) => 0.9 * (e.getWrapperSize() ?? 0),
-  isBottomBoundThumb = (e, t, n) => n - (e.offsetHeight - t.offsetHeight) >= -0.5,
-  handleContainer = (e, t) => {
-    e.contentRef.current && t(e.contentRef.current);
-  },
-  calculateThumbSize = (e, t) => Math.max(MIN_THUMB_SIZE, e.offsetHeight * t),
-  BarFC = ({
-    api: e,
-    classNames: t = {},
-    getStepByRailClick: n = getStepByRailClickDefault,
-    onDrag: s = emptyFunction,
-  }) => {
-    const r = reactExports.useRef(null),
-      o = reactExports.useRef(null),
-      a = reactExports.useRef(null),
-      i = reactExports.useRef(null),
-      c = reactExports.useRef(null),
-      l = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
-      [u, d] = reactExports.useState(initDraggingState),
-      p = reactExports.useCallback(
-        (e) => {
-          (d(e), c.current && s({ type: e.pending ? "dragStart" : "dragEnd", thumb: c.current }));
-        },
-        [s],
-      ),
-      _ = useEvent(() => {
-        const t = c.current,
-          n = i.current,
-          s = e.getWrapperSize(),
-          o = e.getContainerSize();
-        if (!(s && o && t && n)) return;
-        const a = Math.min(1, s / o);
-        return (
-          (t.style.height = `${calculateThumbSize(n, a)}px`),
-          (t.style.display = "flex"),
-          r.current &&
-            (1 !== a
-              ? r.current.classList.add(styles$7.base__active)
-              : r.current.classList.remove(styles$7.base__active)),
-          a
-        );
-      }),
-      m = useEvent(() => {
-        const t = i.current,
-          n = c.current,
-          s = e.getWrapperSize(),
-          r = e.getContainerSize();
-        if (!(s && t && n && r)) return;
-        const l = e.animationScroll.scrollPosition.get(),
-          u = Math.min(1, s / r),
-          d = clamp(0, 1, l / (r - s)),
-          p = (t.offsetHeight - calculateThumbSize(t, u)) * d;
-        ((n.style.transform = `translateY(${0 | p}px)`),
-          ((e) => {
-            if (o.current && a.current && i.current && c.current) {
-              if (0 === Math.round(e))
-                return (
-                  o.current.classList.add(DISABLE_CLASS),
-                  void a.current.classList.remove(DISABLE_CLASS)
-                );
-              if (isBottomBoundThumb(i.current, c.current, e))
-                return (
-                  o.current.classList.remove(DISABLE_CLASS),
-                  void a.current.classList.add(DISABLE_CLASS)
-                );
-              (o.current.classList.remove(DISABLE_CLASS),
-                a.current.classList.remove(DISABLE_CLASS));
-            }
-          })(p));
-      }),
-      g = useEvent(() => {
-        handleContainer(e, () => {
-          (_(), m());
-        });
-      });
-    (reactExports.useEffect(() => createLayoutReadyInEffect(g)),
-      reactExports.useEffect(() => {
-        const t = () => {
-          handleContainer(e, () => {
-            m();
-          });
-        };
-        let n = emptyFunction;
-        const s = () => {
-          (n(), (n = createLayoutReadyInEffect(g)));
-        };
-        return (
-          e.events.on("recalculateContent", g),
-          e.events.on("rest", t),
-          e.events.on("change", t),
-          e.events.on("resizeHandled", s),
-          () => {
-            (n(),
-              e.events.off("recalculateContent", g),
-              e.events.off("rest", t),
-              e.events.off("change", t),
-              e.events.off("resizeHandled", s));
-          }
-        );
-      }, [e]),
-      reactExports.useEffect(() => {
-        if (!u.pending) return;
-        const t = env.client.events.mouse.up(() => {
-            p(initDraggingState);
-          }),
-          n = env.client.events.mouse.move(([t]) => {
-            handleContainer(e, (n) => {
-              const r = i.current,
-                o = c.current,
-                a = e.getContainerSize();
-              if (!r || !o || !a) return;
-              const l = t.screenY - u.offset - r.getBoundingClientRect().y,
-                d = (l / r.offsetHeight) * a;
-              (e.scrollPosition.start({
-                scrollPosition: e.clampPosition(n, d),
-                reset: !0,
-                immediate: !0,
-                from: { scrollPosition: n.scrollTop },
-              }),
-                s({ type: "dragging", thumb: o, thumbOffset: l, contentOffset: d }));
-            });
-          });
-        return () => {
-          (t(), n());
-        };
-      }, [e, u.offset, u.pending, s, p]));
-    const [h, f] = useRepeatCallback((t) => e.applyStepTo(t), l, [e]);
-    reactExports.useEffect(
-      () => (
-        document.addEventListener("mouseup", f, !0),
-        () => document.removeEventListener("mouseup", f, !0)
-      ),
-      [f],
-    );
-    const E = (e) => {
-      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
-    };
-    return jsxRuntimeExports.jsxs("div", {
-      className: cx(styles$7.base, t.base),
-      ref: r,
-      onWheel: e.handleMouseWheel,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$7.topButton, t.topButton),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS) ||
-              e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), h(Direction.Next));
-          },
-          ref: o,
-          onMouseEnter: E,
-        }),
-        jsxRuntimeExports.jsxs("div", {
-          className: cx(styles$7.track, t.track),
-          onMouseDown: (t) => {
-            const s = c.current;
-            if (s && t.button === MOUSE_BUTTON_LEFT)
-              if ((playSound$1("play"), t.target === s))
-                p({ pending: !0, offset: t.screenY - s.getBoundingClientRect().y });
-              else {
-                ((t) => {
-                  c.current &&
-                    handleContainer(e, (s) => {
-                      if (!s) return;
-                      const r = n(e),
-                        o = e.clampPosition(s, s.scrollTop + r * t);
-                      e.applyScroll(o);
-                    });
-                })(t.screenY > s.getBoundingClientRect().y ? Direction.Prev : Direction.Next);
-              }
-          },
-          ref: i,
-          onMouseEnter: E,
-          children: [
-            jsxRuntimeExports.jsx("div", { ref: c, className: cx(styles$7.thumb, t.thumb) }),
-            jsxRuntimeExports.jsx("div", { className: cx(styles$7.rail, t.rail) }),
-          ],
-        }),
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$7.bottomButton, t.bottomButton),
-          onMouseDown: (e) => {
-            e.target.classList.contains(DISABLE_CLASS) ||
-              e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), h(Direction.Prev));
-          },
-          onMouseUp: f,
-          ref: a,
-          onMouseEnter: E,
-        }),
-      ],
-    });
-  },
-  Bar = reactExports.memo(BarFC),
-  content$1 = "Verticalscroll_content_848080fa",
-  defaultScroll = "Verticalscroll_defaultScroll_5f9d259",
-  area = "Verticalscroll_area_39a5f7ae",
-  styles$6 = { content: content$1, defaultScroll: defaultScroll, area: area },
-  DefaultScroll = ({
-    children: e,
-    api: t,
-    className: n,
-    barClassNames: s,
-    areaClassName: r,
-    scrollClassName: o,
-    scrollClassNames: a,
-    getStepByRailClick: i,
-    onDrag: c,
-  }) => {
-    const l = reactExports.useMemo(() => {
-        const e = s || {};
-        return { ...e, base: cx(styles$6.base, e.base) };
-      }, [s]),
-      u = reactExports.useMemo(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
-    return jsxRuntimeExports.jsxs("div", {
-      className: cx(styles$6.defaultScroll, n),
-      onWheel: t.handleMouseWheel,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$6.area, r),
-          children: jsxRuntimeExports.jsx(Area, {
-            className: o,
-            classNames: a,
-            api: u,
-            children: e,
-          }),
-        }),
-        jsxRuntimeExports.jsx(Bar, { getStepByRailClick: i, api: t, onDrag: c, classNames: l }),
-      ],
-    });
-  },
-  Area = ({ className: e, classNames: t, children: n, api: s }) => (
-    reactExports.useEffect(() => createLayoutReadyInEffect(s.recalculateContent)),
-    jsxRuntimeExports.jsx("div", {
-      className: cx(styles$6.base, e),
-      ref: s.wrapperRef,
-      onWheel: s.handleMouseWheel,
-      children: jsxRuntimeExports.jsx("div", {
-        className: cx(styles$6.content, t?.content),
-        ref: s.contentRef,
-        children: n,
-      }),
-    })
-  );
-Area.Default = DefaultScroll;
-const Vertical = Object.freeze(
-    Object.defineProperty(
-      {
-        __proto__: null,
-        Area: Area,
-        Bar: Bar,
-        Default: DefaultScroll,
-        useVerticalScrollApi: useVerticalScrollApi,
-      },
-      Symbol.toStringTag,
-      { value: "Module" },
-    ),
-  ),
-  Scroll = { Vertical: Vertical };
 function getNumberFormatType(e) {
   return "gold" === e ? NumberFormatType.GOLD : NumberFormatType.INTEGRAL;
 }
+window.ViewEnvHelper = ViewEnvHelper;
 const FormatNumber = ({ value: e, format: t = "integral" }) => {
   const n = getNumberFormatType(t),
     s = SystemLocale.getNumberFormat(e, n);
@@ -5133,7 +3276,2002 @@ const NORMALIZE_OVERLAYS_LIST = ["attachment"],
       default:
         return e;
     }
+  },
+  getFromCallStack = (e = 1) => {
+    const t = new Error().stack;
+    let n,
+      s = R.invalid("resId"),
+      r = "";
+    return (
+      t &&
+        ((r = t.match(/(coui:\/\/[^\s]+\.js)/)?.[0] || ""),
+        (n = t.split("\n")[e].split(".js")[0].split("/").pop() || ""),
+        window.__feature &&
+          window.__feature !== n &&
+          window.subViews[n] &&
+          (s = window.subViews[n].id)),
+      { callerUrl: r, caller: n, stack: t, resId: s }
+    );
+  },
+  SHOW_DELAY_MIN = 100,
+  SHOW_DELAY_DEFAULT = 400;
+function getViewEventArguments(e) {
+  return Object.entries(e || {}).map(([e, t]) => {
+    const n = { __Type: "GFValueProxy", name: e };
+    switch (typeof t) {
+      case "number":
+        n.number = t;
+        break;
+      case "boolean":
+        n.bool = t;
+        break;
+      case "undefined":
+        break;
+      default:
+        n.string = t.toString();
+    }
+    return n;
+  });
+}
+const handleViewEvent = (e, t, n = {}, s = 0) => {
+    viewEnv.handleViewEvent({
+      __Type: "GFViewEventProxy",
+      type: ViewEventType.TOOLTIP,
+      contentID: e,
+      decoratorID: t,
+      targetID: s,
+      ...n,
+    });
+  },
+  Tooltip = ({
+    children: e,
+    contentId: t,
+    args: n,
+    onMouseEnter: s,
+    onMouseLeave: r,
+    onMouseDown: o,
+    onClick: a,
+    ignoreShowDelay: i = !1,
+    ignoreMouseClick: c = !1,
+    decoratorId: l = 0,
+    isEnabled: u = !0,
+    targetId: d = 0,
+    onShow: p,
+    onHide: _,
+    ...m
+  }) => {
+    const g = reactExports.useRef({
+        timeoutId: 0,
+        isVisible: !1,
+        prevTarget: null,
+        hideTimerId: null,
+      }),
+      h = reactExports.useMemo(() => d || getFromCallStack().resId, [d]),
+      f = reactExports.useCallback(() => {
+        (g.current.isVisible && g.current.timeoutId) ||
+          (handleViewEvent(
+            t,
+            l,
+            { isMouseEvent: !0, on: !0, arguments: getViewEventArguments(n) },
+            h,
+          ),
+          p && p(),
+          (g.current.isVisible = !0));
+      }, [t, l, n, h, p]),
+      E = reactExports.useCallback(() => {
+        if (g.current.isVisible || g.current.timeoutId) {
+          const e = g.current.timeoutId;
+          (e > 0 && (clearTimeout(e), (g.current.timeoutId = 0)),
+            handleViewEvent(t, l, { on: !1 }, h),
+            g.current.isVisible && _ && _(),
+            (g.current.isVisible = !1));
+        }
+      }, [t, l, h, _]),
+      b = reactExports.useCallback((e) => {
+        g.current.isVisible &&
+          ((g.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
+          (g.current.hideTimerId = window.setTimeout(() => {
+            const t = document.elementFromPoint(e.clientX, e.clientY);
+            t && !t.isSameNode(g.current.prevTarget) && E();
+          }, 200)));
+      }, []);
+    (reactExports.useEffect(() => {
+      const e = g.current.hideTimerId;
+      return (
+        document.addEventListener("wheel", b, { capture: !0 }),
+        () => {
+          (document.removeEventListener("wheel", b, { capture: !0 }), e && window.clearTimeout(e));
+        }
+      );
+    }, []),
+      reactExports.useEffect(() => {
+        !1 === u && E();
+      }, [u, E]),
+      reactExports.useEffect(
+        () => (
+          window.addEventListener("mouseleave", E),
+          () => {
+            (window.removeEventListener("mouseleave", E), E());
+          }
+        ),
+        [E],
+      ));
+    return u
+      ? reactExports.cloneElement(e, {
+          onMouseEnter:
+            ((y = e.props.onMouseEnter),
+            (e) => {
+              (e.clientX === window.innerWidth && e.clientY === window.innerHeight) ||
+                (clearTimeout(g.current.timeoutId),
+                (g.current.timeoutId = window.setTimeout(
+                  f,
+                  i ? SHOW_DELAY_MIN : SHOW_DELAY_DEFAULT,
+                )),
+                s && s(e),
+                y && y(e));
+            }),
+          onMouseLeave: ((e) => (t) => {
+            (E(), r?.(t), e?.(t));
+          })(e.props.onMouseLeave),
+          onClick: ((e) => (t) => {
+            (!1 === c && E(), a?.(t), e?.(t));
+          })(e.props.onClick),
+          onMouseDown: ((e) => (t) => {
+            (!1 === c && E(), o?.(t), e?.(t));
+          })(e.props.onMouseDown),
+          ...m,
+        })
+      : e;
+    var y;
+  },
+  BackportTooltip = ({ children: e, ...t }) =>
+    jsxRuntimeExports.jsx(Tooltip, {
+      contentId:
+        R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
+      ignoreShowDelay: !0,
+      ...t,
+      children: e,
+    }),
+  UB_SIMPLE_TOOLTIPS = R.views.common.tooltip_window.simple_tooltip_content,
+  getTooltipContentId = (e) =>
+    e
+      ? UB_SIMPLE_TOOLTIPS.SimpleTooltipHtmlContent("resId")
+      : UB_SIMPLE_TOOLTIPS.SimpleTooltipContent("resId"),
+  SimpleTooltip = ({ children: e, body: t, header: n, note: s, alert: r, args: o, ...a }) => {
+    const i = reactExports.useMemo(() => {
+      const e = { ...o, body: t, header: n, note: s, alert: r };
+      for (const t in e) void 0 === e[t] && delete e[t];
+      return e;
+    }, [r, t, n, s, o]);
+    return jsxRuntimeExports.jsx(Tooltip, {
+      contentId: getTooltipContentId(o?.hasHtmlContent),
+      decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
+      args: i,
+      ...a,
+      children: e,
+    });
+  },
+  DynamicTooltipWrapper = ({ children: e, tooltipArgs: t, className: n }) => {
+    if (!t) return e;
+    const s = jsxRuntimeExports.jsx("div", { className: n, children: e });
+    if (t.header || t.body) return jsxRuntimeExports.jsx(SimpleTooltip, { ...t, children: s });
+    const { contentId: r } = t;
+    return r
+      ? jsxRuntimeExports.jsx(Tooltip, { ...t, contentId: r, children: s })
+      : jsxRuntimeExports.jsx(BackportTooltip, { ...t, children: s });
+  },
+  NodeTypes = { Text: 1, Tag: 2, Var: 3 };
+function parseArguments(e) {
+  const t = [];
+  let n = "",
+    s = !1,
+    r = !1,
+    o = "";
+  for (let a = 0; a < e.length; a++) {
+    const i = e[a];
+    ("'" !== i && '"' !== i) || r || s
+      ? i === o && r
+        ? ((r = !1), (n += i))
+        : "(" !== i || r
+          ? ")" === i && s && !r
+            ? ((s = !1), (n += i))
+            : " " !== i || s || r
+              ? (n += i)
+              : n && (t.push(n), (n = ""))
+          : ((s = !0), (n += i))
+      : ((r = !0), (o = i), (n += i));
+  }
+  return (n && t.push(n), t);
+}
+function parse(e, t) {
+  const n = [],
+    s = [];
+  let r = "",
+    o = !1,
+    a = "",
+    i = 0;
+  for (let c = 0; c < e.length; c++) {
+    const l = e[c];
+    if (l === t.start[0] && e.slice(c, c + t.start.length) === t.start) {
+      if (r) {
+        if (s.length > 0) {
+          s[s.length - 1].node.children.push({ type: NodeTypes.Text, value: r });
+        } else n.push({ type: NodeTypes.Text, value: r });
+        r = "";
+      }
+      ((o = !0), (c += t.start.length - 1));
+    } else if (l === t.end[0] && e.slice(c, c + t.end.length) === t.end) {
+      ((o = !1), (c += t.end.length - 1));
+      const e = a.trim();
+      if (e.startsWith("@")) {
+        const t = e.slice(1).trim(),
+          r = { type: NodeTypes.Tag, attrs: t.split("|"), instanceId: ++i, children: [] };
+        if (s.length > 0) {
+          s[s.length - 1].node.children.push(r);
+        } else n.push(r);
+        s.push({ node: r, startIndex: n.length });
+      } else if ("/" === e) s.length > 0 && s.pop();
+      else {
+        const t = { type: NodeTypes.Var, instanceId: ++i, name: e };
+        if (s.length > 0) {
+          s[s.length - 1].node.children.push(t);
+        } else n.push(t);
+      }
+      a = "";
+    } else o ? (a += l) : (r += l);
+  }
+  if (r)
+    if (s.length) {
+      s[s.length - 1].node.children.push({ type: NodeTypes.Text, value: r });
+    } else n.push({ type: NodeTypes.Text, value: r });
+  return n;
+}
+const COLORS =
+    "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
+  base$c = "FormatText_db904f12",
+  base__fullSize = "FormatText_base__fullSize_a514958e",
+  nowrap = "FormatText_nowrap_ff69eca3",
+  styles$d = { COLORS: COLORS, base: base$c, base__fullSize: base__fullSize, nowrap: nowrap },
+  legacyColors = new Set(styles$d.COLORS?.split(", ") ?? []);
+let keyId = 0;
+function takeKey() {
+  return ++keyId;
+}
+const startsWithPunctuationRe =
+  /^[*"'ー.,、。，:;：；！？》」•%)(!?\u0EAF\u0E3B\u0E3F\u0E31\u0E32\u0E33\u0E47-\u0E4F\u0E5A-\u0E5F\u0E00-\u0E7F\u3000-\u303F\uFF00-\uFFEF\]]/u;
+function splitString(e) {
+  const t = resources.resolve("langCode");
+  return addSpaceAndMap(
+    splitLocale(e, t),
+    t,
+    (e, t) => e && jsxRuntimeExports.jsx("span", { children: e }, `${e}${t}`),
+  );
+}
+function splitArray(e) {
+  const t = [];
+  for (let n = 0; n < e.length; n++) {
+    const s = e[n],
+      r = e[n + 1];
+    if ("string" != typeof r || !startsWithPunctuationRe.test(r)) {
+      t.push(split(s));
+      continue;
+    }
+    const o = splitString(r.slice(1));
+    (t.push(
+      jsxRuntimeExports.jsxs(
+        reactExports.Fragment,
+        {
+          children: [
+            jsxRuntimeExports.jsxs("span", {
+              className: styles$d.nowrap,
+              children: [split(s), r[0]],
+            }),
+            o,
+          ],
+        },
+        takeKey(),
+      ),
+    ),
+      (n += 1));
+  }
+  return t;
+}
+function split(e) {
+  return Array.isArray(e)
+    ? splitArray(e)
+    : "string" == typeof e
+      ? jsxRuntimeExports.jsx(reactExports.Fragment, { children: splitString(e) }, takeKey())
+      : e;
+}
+function style(e, ...t) {
+  return jsxRuntimeExports.jsx(
+    "span",
+    {
+      style: t.reduce((n, s) => {
+        if (Array.isArray(s)) {
+          const [e, t] = s;
+          return ((n[e] = t), n);
+        }
+        return (console.warn(`Invalid argument ${s} in ${e}: ${t}`), n);
+      }, {}),
+      children: e,
+    },
+    takeKey(),
+  );
+}
+function className(e, ...t) {
+  return jsxRuntimeExports.jsx(
+    "span",
+    { className: t.filter((e) => "string" == typeof e && e.length > 0).join(" "), children: e },
+    takeKey(),
+  );
+}
+const color = (e, t) => ["color", t],
+  fontSize = (e, t) => ["fontSize", t],
+  fontWeight = (e, t) => ["fontWeight", t],
+  textDecoration = (e, t) => ["textDecoration", t],
+  bold = (e) => ["fontWeight", "bold"];
+function colorLegacy(e, t) {
+  const n = takeKey();
+  return legacyColors.has(String(t))
+    ? jsxRuntimeExports.jsx("span", { className: `FormatText_colorLegacy__${t}`, children: e }, n)
+    : jsxRuntimeExports.jsx("span", { style: { color: `#${t}` }, children: e }, n);
+}
+const defaultFormatters = {
+  class: className,
+  colorLegacy: colorLegacy,
+  bold: bold,
+  split: split,
+  style: style,
+  color: color,
+  fontSize: fontSize,
+  fontWeight: fontWeight,
+  textDecoration: textDecoration,
+};
+function applyFunction(e, t, n, s) {
+  const r = n.map((t) => {
+      if ("string" != typeof t) return t;
+      const n = t.trim();
+      if (n.startsWith("(") && n.endsWith(")")) {
+        const [t, ...r] = n.slice(1, -1).split(" ");
+        return t ? applyFunction(e, t, r, s) : e;
+      }
+      return n.startsWith("'") && n.endsWith("'") ? n.slice(1, -1) : n;
+    }),
+    o = s[t];
+  return o ? o(e, ...r) : (console.error(`Function ${t} is not registered`), e);
+}
+function applyFunctions(e, t, n) {
+  return e.reduce((e, t) => {
+    const [s, ...r] = parseArguments(t.trim());
+    return s ? applyFunction(e, s, r, n) : e;
+  }, t);
+}
+function isEnd(e) {
+  return !((e >= "a" && e <= "z") || (e >= "A" && e <= "Z") || (e >= "0" && e <= "9") || "_" === e);
+}
+function resolveAttrParams(e, t) {
+  for (let n = 0; n < e.length; n++) {
+    if ("$" === e[n]) {
+      let s = n + 1;
+      for (; s < e.length && !isEnd(e[s]);) s++;
+      const r = e.slice(n + 1, s),
+        o = t[r];
+      if (o) return resolveAttrParams(e.replace(`$${r}`, String(o)), t);
+    }
+  }
+  return e;
+}
+function resolveAttrsParams(e, t) {
+  const n = [];
+  for (let s = 0; s < e.length; s++) n[s] = resolveAttrParams(e[s], t);
+  return n;
+}
+const primitives = ["number", "string", "undefined"];
+function render(e, t, n = {}, s = !0) {
+  s && (keyId = 0);
+  const r = [];
+  function o(e) {
+    if (primitives.includes(typeof e)) {
+      const t = r.at(-1);
+      if ("string" == typeof t) return void (r[r.length - 1] = t + e);
+    }
+    r.push(e);
+  }
+  for (const a of e)
+    if (a.type === NodeTypes.Text) o(a.value);
+    else if (a.type === NodeTypes.Var)
+      null === n[a.name] || primitives.includes(typeof n[a.name])
+        ? o(n[a.name] ?? `{{${a.name}}}`)
+        : r.push(
+            jsxRuntimeExports.jsx(
+              reactExports.Fragment,
+              { children: n[a.name] },
+              `var-${a.name}-${a.instanceId}`,
+            ),
+          );
+    else if (a.type === NodeTypes.Tag) {
+      const e = render(a.children, t, n, !1),
+        s = applyFunctions(resolveAttrsParams(a.attrs, n), e, t);
+      r.push(s);
+    }
+  return r;
+}
+function upgradeColorTag(e) {
+  return e
+    .replace(
+      /%\(([a-zA-Z0-9]+)_(Open|Start)\)s(.+?)%\(\1_(Close|End)\)s/,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    )
+    .replace(
+      /\{([a-zA-Z0-9]+)_(Open|Start)\}(.+?)\{\1_(Close|End)\}/gi,
+      "{{@ colorLegacy '$1'}}$3{{/}}",
+    );
+}
+function upgradeVariables(e) {
+  return e
+    .replace(/%\((\w+|\d)\)(?:s|d)?/gi, "{{$1}}")
+    .replace(new RegExp("(?<!\\{)\\{(\\w+|\\d)\\}", "g"), "{{$1}}");
+}
+function upgradeSymbols(e) {
+  return e.replaceAll("&nbsp;", " ").replaceAll("&zwnbsp;", "\ufeff");
+}
+function upgradeLegacy(e) {
+  return pipe(e, upgradeSymbols, upgradeColorTag, upgradeVariables);
+}
+const defaultBrackets = { start: "{{", end: "}}" },
+  FormatText = reactExports.memo(function (e) {
+    const {
+        brackets: t = defaultBrackets,
+        text: n,
+        params: s,
+        upgradeLegacy: r,
+        fullSize: o,
+        inline: a,
+        formatters: i,
+        split: c,
+        ...l
+      } = e,
+      u = reactExports.useMemo(
+        () => (e.upgradeLegacy ? upgradeLegacy(e.text) : e.text),
+        [e.text, e.upgradeLegacy],
+      ),
+      d = reactExports.useMemo(
+        () => (e.formatters ? { ...defaultFormatters, ...e.formatters } : defaultFormatters),
+        [e.formatters],
+      ),
+      p = reactExports.useMemo(() => parse(c ? `{{@ split}}${u}{{/}}` : u, t), [t, u, c]),
+      _ = reactExports.useMemo(() => render(p, d, e.params), [p, d, e.params]),
+      m = clsx(styles$d.base, o && styles$d.base__fullSize, l.className);
+    return e.inline
+      ? (console.warn(
+          "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
+          "Use 'split' prop instead.",
+        ),
+        jsxRuntimeExports.jsx("p", {
+          ...l,
+          className: m,
+          ref: (e) => {
+            e?.setAttribute("cohinline", "true");
+          },
+          children: _,
+        }))
+      : jsxRuntimeExports.jsx("span", { ...l, className: m, children: _ });
+  });
+function FormatString({ path: e, ...t }) {
+  return jsxRuntimeExports.jsx(FormatText, {
+    text: resources.resolve("strings").readOrEmpty(e),
+    ...t,
+  });
+}
+const base$b = "Reward_c5dc614c",
+  base__s48x48 = "Reward_base__s48x48_ab59d545",
+  base__small$4 = "Reward_base__small_69779e9c",
+  base__s80x80 = "Reward_base__s80x80_ab59d545",
+  base__big$1 = "Reward_base__big_4733a488",
+  base__s128x100 = "Reward_base__s128x100_fb15aafa",
+  base__s180x135 = "Reward_base__s180x135_16cc707b",
+  base__s232x174 = "Reward_base__s232x174_e32aac73",
+  base__s296x222 = "Reward_base__s296x222_c9fbf416",
+  base__s400x300 = "Reward_base__s400x300_76ba5081",
+  base__s600x450 = "Reward_base__s600x450_aba4634a",
+  tooltipWrapper = "Reward_tooltipWrapper_5c2caa5a",
+  icon$3 = "Reward_icon_ae345d69",
+  overlay$1 = "Reward_overlay_ff0a7872",
+  base__normalize = "Reward_base__normalize_ab59d545",
+  highlight = "Reward_highlight_ac5e429a",
+  image = "Reward_image_d9c7ed84",
+  info = "Reward_info_29e76ef9",
+  info__multi = "Reward_info__multi_14b911c",
+  info__credits = "Reward_info__credits_a7e7bbe",
+  info__gold = "Reward_info__gold_c2d9d72c",
+  info__bptaler = "Reward_info__bptaler_ab59d545",
+  info__crystal = "Reward_info__crystal_ec55d024",
+  info__premiumTank = "Reward_info__premiumTank_67c21f6d",
+  title = "Reward_title_50579ad9",
+  timer = "Reward_timer_98cb5bca",
+  styles$c = {
+    base: base$b,
+    base__s48x48: base__s48x48,
+    base__small: base__small$4,
+    base__s80x80: base__s80x80,
+    base__big: base__big$1,
+    base__s128x100: base__s128x100,
+    base__s180x135: base__s180x135,
+    base__s232x174: base__s232x174,
+    base__s296x222: base__s296x222,
+    base__s400x300: base__s400x300,
+    base__s600x450: base__s600x450,
+    tooltipWrapper: tooltipWrapper,
+    icon: icon$3,
+    overlay: overlay$1,
+    base__normalize: base__normalize,
+    highlight: highlight,
+    image: image,
+    info: info,
+    info__multi: info__multi,
+    info__credits: info__credits,
+    info__gold: info__gold,
+    info__bptaler: info__bptaler,
+    info__crystal: info__crystal,
+    info__premiumTank: info__premiumTank,
+    title: title,
+    timer: timer,
+  },
+  Reward = ({
+    name: e,
+    image: t,
+    isPeriodic: n = !1,
+    size: s = ImageSize.Big,
+    special: r,
+    value: o,
+    valueType: a,
+    title: i,
+    style: c,
+    className: l,
+    classNames: u,
+    tooltipArgs: d,
+    periodicIconTooltipArgs: p,
+  }) => {
+    const _ = getBottomHighlight(s, r),
+      m = getOverlay(r),
+      g = getFormattedValue(o, a);
+    return jsxRuntimeExports.jsxs("div", {
+      className: cx(
+        styles$c.base,
+        styles$c[`base__${s}`],
+        NORMALIZE_OVERLAYS_LIST.includes(e) && styles$c.base__normalize,
+        l,
+      ),
+      style: c,
+      children: [
+        jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
+          tooltipArgs: d,
+          className: styles$c.tooltipWrapper,
+          children: jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
+            children: [
+              jsxRuntimeExports.jsxs("div", {
+                className: cx(styles$c.image, u?.image),
+                children: [
+                  _ &&
+                    jsxRuntimeExports.jsx("div", {
+                      className: cx(styles$c.highlight, u?.highlight),
+                      style: {
+                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${s}.${_}_highlight)`,
+                      },
+                    }),
+                  t &&
+                    jsxRuntimeExports.jsx("div", {
+                      className: cx(styles$c.icon, u?.rewardIcon),
+                      style: { backgroundImage: `url(${t})` },
+                    }),
+                  m &&
+                    jsxRuntimeExports.jsx("div", {
+                      className: cx(styles$c.overlay, u?.overlay),
+                      style: {
+                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${s}.${m}_overlay)`,
+                      },
+                    }),
+                ],
+              }),
+              g &&
+                jsxRuntimeExports.jsx("div", {
+                  className: cx(
+                    styles$c.info,
+                    styles$c[`info__${e}`],
+                    a === ValueTypes.MULTI && styles$c.info__multi,
+                    u?.info,
+                  ),
+                  children: g,
+                }),
+              i &&
+                jsxRuntimeExports.jsx("div", {
+                  className: cx(styles$c.title, u?.title),
+                  children: i,
+                }),
+            ],
+          }),
+        }),
+        n &&
+          jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
+            tooltipArgs: p,
+            children: jsxRuntimeExports.jsx("div", {
+              className: cx(styles$c.timer, u?.periodicIcon),
+            }),
+          }),
+      ],
+    });
+  },
+  InputType = { Default: "default", Search: "search", Email: "email", Password: "password" },
+  InputVariant = { Normal: "normal", Disabled: "disabled", Alert: "alert", Error: "error" },
+  InputSize = { Medium: "medium" },
+  defaultPlaceholders = {
+    [InputType.Default]: "",
+    [InputType.Email]: R.strings.common.input.placeholder.email(),
+    [InputType.Search]: R.strings.common.input.placeholder.search(),
+    [InputType.Password]: R.strings.common.input.placeholder.password(),
+  },
+  inputType = {
+    [InputType.Default]: "text",
+    [InputType.Email]: "text",
+    [InputType.Search]: "text",
+    [InputType.Password]: "password",
+  },
+  defaultHelpers = {
+    [InputType.Default]: "",
+    [InputType.Email]: "Invalid email",
+    [InputType.Search]: "",
+    [InputType.Password]: "",
+  },
+  iconsPath = R.images.gui.maps.icons.components.input;
+function getDefaultIcon(e, t) {
+  return e === InputType.Search ? iconsPath.$dyn(`search_${t}`) : "";
+}
+function getDefaultHelperIcon(e) {
+  return e === InputVariant.Alert ? R.images.gui.maps.icons.library.alertIcon() : "";
+}
+function validateEmail(e) {
+  const t = e.match(
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
+  );
+  return Boolean(t);
+}
+function performDefaultValidation(e, t) {
+  return t !== InputType.Email || validateEmail(e);
+}
+const base$a = "Helpermessage_e43ecb4b",
+  base__shown = "Helpermessage_base__shown_28b28c74",
+  icon$2 = "Helpermessage_icon_85f835c3",
+  message = "Helpermessage_message_f2ba82e2",
+  message__alert = "Helpermessage_message__alert_69e4761c",
+  message__error = "Helpermessage_message__error_87d8a8a1",
+  message__done = "Helpermessage_message__done_dd4f50f2",
+  styles$b = {
+    base: base$a,
+    base__shown: base__shown,
+    icon: icon$2,
+    message: message,
+    message__alert: message__alert,
+    message__error: message__error,
+    message__done: message__done,
+  },
+  HelperMessage = ({ variant: e, show: t = !0, helperText: n, helperIcon: s, classMix: r }) => {
+    const o = reactExports.useMemo(() => {
+        const t = s || getDefaultHelperIcon(e);
+        return t && { backgroundImage: `url(${t})` };
+      }, [s, e]),
+      a = cx(styles$b.base, t && styles$b.base__shown),
+      i = cx(styles$b.message, styles$b[`message__${e}`], r);
+    return jsxRuntimeExports.jsxs("div", {
+      className: a,
+      children: [
+        o && jsxRuntimeExports.jsx("div", { className: styles$b.icon, style: o }),
+        jsxRuntimeExports.jsx("div", { className: i, children: n }),
+      ],
+    });
+  },
+  base$9 = "Inputcontrol_ef855555",
+  base__focused = "Inputcontrol_base__focused_dbb7783b",
+  base__alert = "Inputcontrol_base__alert_4288729",
+  base__error = "Inputcontrol_base__error_b0980004",
+  base__done = "Inputcontrol_base__done_420d2fbe",
+  base__disabled$1 = "Inputcontrol_base__disabled_1443472e",
+  input = "Inputcontrol_input_13480315",
+  base__small$3 = "Inputcontrol_base__small_95506303",
+  base__medium$2 = "Inputcontrol_base__medium_95506303",
+  base__large$2 = "Inputcontrol_base__large_95506303",
+  base__withIcon = "Inputcontrol_base__withIcon_95506303",
+  input__search = "Inputcontrol_input__search_4dd8e53c",
+  disabled = "Inputcontrol_disabled_ae37311b",
+  placeholder = "Inputcontrol_placeholder_b37a5d38",
+  placeholder__search = "Inputcontrol_placeholder__search_c228534f",
+  icon$1 = "Inputcontrol_icon_253aeaaf",
+  icon__search = "Inputcontrol_icon__search_dc77e54f",
+  clear = "Inputcontrol_clear_48eaf250",
+  styles$a = {
+    base: base$9,
+    base__focused: base__focused,
+    base__alert: base__alert,
+    base__error: base__error,
+    base__done: base__done,
+    base__disabled: base__disabled$1,
+    input: input,
+    base__small: base__small$3,
+    base__medium: base__medium$2,
+    base__large: base__large$2,
+    base__withIcon: base__withIcon,
+    input__search: input__search,
+    disabled: disabled,
+    placeholder: placeholder,
+    placeholder__search: placeholder__search,
+    icon: icon$1,
+    icon__search: icon__search,
+    clear: clear,
+  },
+  ControlComponent = ({
+    componentId: e,
+    value: t = "",
+    type: n = InputType.Default,
+    size: s = InputSize.Medium,
+    variant: r = InputVariant.Normal,
+    placeholder: o = "",
+    highlighted: a,
+    withClear: i,
+    selectOnFocus: c = !0,
+    maxLength: l,
+    iconSource: u,
+    classMix: d,
+    onMouseEnter: p,
+    onMouseLeave: _,
+    onMouseDown: m,
+    onMouseUp: g,
+    onClick: h,
+    onChange: f,
+    onClear: E,
+    onFocus: b,
+    onBlur: y,
+  }) => {
+    const [x, v] = reactExports.useState(!1),
+      w = reactExports.useRef(null),
+      T = reactExports.useRef({ mouseOver: !1, mouseDown: !1 }),
+      S = r !== InputVariant.Disabled,
+      R = reactExports.useCallback(
+        (e) => {
+          S && (v(!0), b && b(e));
+        },
+        [S, b],
+      ),
+      C = reactExports.useCallback(
+        (e) => {
+          S && !T.current.mouseOver && (v(!1), y && y(e));
+        },
+        [S, y],
+      );
+    reactExports.useEffect(() => {
+      S && x && c && w.current && w.current.select();
+    }, [c, x, S]);
+    const P = reactExports.useCallback(
+        (e) => {
+          S && f && f(e.target.value);
+        },
+        [S, f],
+      ),
+      M = reactExports.useCallback(
+        (e) => {
+          S && ((T.current.mouseOver = !0), p && p(e));
+        },
+        [S, p],
+      ),
+      k = reactExports.useCallback(
+        (e) => {
+          S &&
+            w.current &&
+            (T.current.mouseDown && w.current.focus(), (T.current.mouseOver = !1), _ && _(e));
+        },
+        [S, _],
+      ),
+      $ = reactExports.useCallback(
+        (e) => {
+          S && ((T.current.mouseDown = !0), m && m(e));
+        },
+        [S, m],
+      ),
+      O = reactExports.useCallback(
+        (e) => {
+          S && ((T.current.mouseDown = !1), g && g(e));
+        },
+        [S, g],
+      ),
+      A = reactExports.useCallback(
+        (e) => {
+          if (S && w.current) {
+            ((!x || (x && e.target !== w.current)) && w.current.focus(), h && h(e));
+          }
+        },
+        [x, S, h],
+      ),
+      D = o || defaultPlaceholders[n],
+      I = Boolean(u),
+      N = cx(
+        styles$a.base,
+        styles$a[`base__${s}`],
+        a && styles$a[`base__${r}`],
+        x && styles$a.base__focused,
+        I && styles$a.base__withIcon,
+        d,
+      ),
+      B = reactExports.useMemo(() => (u ? { backgroundImage: `url(${u})` } : null), [u]),
+      L = cx(styles$a.input, styles$a[`input__${n}`]),
+      F = cx(styles$a.icon, styles$a[`icon__${n}`]),
+      j = cx(styles$a.placeholder, styles$a[`placeholder__${n}`]);
+    return jsxRuntimeExports.jsxs("div", {
+      id: e,
+      className: N,
+      onMouseEnter: M,
+      onMouseDown: $,
+      onMouseUp: O,
+      onMouseLeave: k,
+      onClick: A,
+      children: [
+        !S && jsxRuntimeExports.jsx("div", { className: styles$a.disabled }),
+        B && jsxRuntimeExports.jsx("div", { style: B, className: F }),
+        jsxRuntimeExports.jsx("input", {
+          ref: w,
+          className: L,
+          type: inputType[n],
+          value: t,
+          onChange: P,
+          disabled: !S,
+          onFocus: R,
+          onBlur: C,
+          maxLength: l,
+        }),
+        D && !t && !x && jsxRuntimeExports.jsx("div", { className: j, children: D }),
+        i &&
+          jsxRuntimeExports.jsx("div", {
+            className: styles$a.clear,
+            onClick: (e) => {
+              (Sound.playClick(), E && E(e));
+            },
+            onMouseEnter: Sound.playHighlight,
+          }),
+      ],
+    });
+  },
+  InputControl = React.memo(ControlComponent),
+  base$8 = "Input_bb86d5c5",
+  base__small$2 = "Input_base__small_1baff0ec",
+  base__medium$1 = "Input_base__medium_8fb9a9d9",
+  base__large$1 = "Input_base__large_ca84f140",
+  helper = "Input_helper_7ec902d2",
+  styles$9 = {
+    base: base$8,
+    base__small: base__small$2,
+    base__medium: base__medium$1,
+    base__large: base__large$1,
+    helper: helper,
+  },
+  defaultOptions = {
+    debounceTime: 200,
+    performChangeValidation: !0,
+    selectOnFocus: !0,
+    withTypeIcon: !0,
+    disableHighlightOnFocus: !0,
+  },
+  Input = ({
+    componentId: e,
+    type: t = InputType.Default,
+    variant: n = InputVariant.Normal,
+    size: s = InputSize.Medium,
+    value: r,
+    tooltipArgs: o,
+    helperText: a = "",
+    isValidated: i = !0,
+    showHelper: c = !0,
+    error: l,
+    options: u,
+    onFocus: d,
+    onMouseEnter: p,
+    onMouseLeave: _,
+    onMouseUp: m,
+    onMouseDown: g,
+    onChange: h,
+    classMix: f,
+    controlClassMix: E,
+    helperClassMix: b,
+    ...y
+  }) => {
+    const [x, v] = reactExports.useState(r),
+      [w, T] = reactExports.useState(i),
+      S = reactExports.useMemo(() => ({ ...defaultOptions, ...u }), [u]),
+      R = reactExports.useRef({ debounceTimeout: 0, isChangeHandled: !0, value: r, type: t }),
+      C = reactExports.useCallback((e) => {
+        e !== R.current.value && ((R.current.value = e), (R.current.isChangeHandled = !1), v(e));
+      }, []),
+      P = reactExports.useCallback(
+        (e) => {
+          let t = !0;
+          (S.performChangeValidation &&
+            (t = S.changesValidator
+              ? S.changesValidator(e)
+              : performDefaultValidation(e, R.current.type)),
+            h && h(e, t));
+        },
+        [h, S],
+      ),
+      M = reactExports.useCallback(() => {
+        R.current.debounceTimeout &&
+          (window.clearTimeout(R.current.debounceTimeout), (R.current.debounceTimeout = 0));
+      }, []),
+      k = reactExports.useCallback(() => C(""), [C]);
+    reactExports.useEffect(() => () => M(), [M]);
+    const $ = reactExports.useCallback(
+      (e) => {
+        (M(),
+          S.debounceTime
+            ? (R.current.debounceTimeout = window.setTimeout(() => {
+                P(e);
+              }, S.debounceTime))
+            : P(e));
+      },
+      [P, M, S.debounceTime],
+    );
+    (reactExports.useEffect(() => {
+      R.current.isChangeHandled ||
+        R.current.value !== x ||
+        ($(R.current.value), (R.current.isChangeHandled = !0));
+    }, [x, $]),
+      reactExports.useEffect(() => {
+        (R.current.isChangeHandled && r !== R.current.value && ((R.current.value = r), v(r)),
+          (R.current.type = t));
+      }, [r, t]),
+      reactExports.useEffect(() => {
+        T(i);
+      }, [i, n]));
+    const O = reactExports.useCallback((e) => p && p(e), [p]),
+      A = reactExports.useCallback(
+        (e) => {
+          (S.disableHighlightOnFocus && w && T(!1), d && d(e));
+        },
+        [w, d, S.disableHighlightOnFocus],
+      ),
+      D = reactExports.useCallback((e) => m && m(e), [m]),
+      I = reactExports.useCallback((e) => g && g(e), [g]),
+      N = reactExports.useCallback((e) => _ && _(e), [_]),
+      B = reactExports.useMemo(
+        () => (S.withTypeIcon ? getDefaultIcon(t, s) : ""),
+        [t, s, S.withTypeIcon],
+      ),
+      L = a || defaultHelpers[t],
+      F = Boolean(x),
+      j = l ? InputVariant.Error : n,
+      U = Boolean(l) || w,
+      z = reactExports.useMemo(
+        () => ("boolean" == typeof S.withClear ? F && S.withClear : F && t === InputType.Search),
+        [t, F, S],
+      ),
+      H = cx(styles$9.base, styles$9[`base__${s}`], styles$9[`base__${n}`], f);
+    return jsxRuntimeExports.jsxs("div", {
+      id: e,
+      className: H,
+      onMouseEnter: O,
+      onMouseDown: I,
+      onMouseUp: D,
+      onMouseLeave: N,
+      children: [
+        jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
+          tooltipArgs: o,
+          children: jsxRuntimeExports.jsx(InputControl, {
+            componentId: e ? `${e}-inputControl` : void 0,
+            iconSource: B,
+            size: s,
+            type: t,
+            variant: j,
+            value: x,
+            withClear: z,
+            highlighted: U,
+            selectOnFocus: S.selectOnFocus,
+            maxLength: S.maxLength,
+            classMix: E,
+            onFocus: A,
+            onChange: C,
+            onClear: k,
+            ...y,
+          }),
+        }),
+        L &&
+          jsxRuntimeExports.jsx("div", {
+            className: styles$9.helper,
+            children: jsxRuntimeExports.jsx(HelperMessage, {
+              variant: j,
+              show: c && (S.isPermanentHelper || U),
+              helperText: l || L,
+              helperIcon: S.helperIconSource,
+              classMix: b,
+            }),
+          }),
+      ],
+    });
+  },
+  useMount = (e) => {
+    reactExports.useEffect(e, []);
+  },
+  useUnmount = (e) => {
+    reactExports.useEffect(() => e, []);
+  },
+  NO_RAF_ID = 0;
+function useSkipFrame() {
+  const e = reactExports.useRef(NO_RAF_ID);
+  return (
+    useUnmount(() => {
+      window.cancelAnimationFrame(e.current);
+    }),
+    reactExports.useMemo(
+      () => ({
+        run: (t) => {
+          (window.cancelAnimationFrame(e.current),
+            (e.current = window.requestAnimationFrame(() => {
+              e.current = window.requestAnimationFrame(() => {
+                ((e.current = NO_RAF_ID), t());
+              });
+            })));
+        },
+        clear: () => {
+          (window.cancelAnimationFrame(e.current), (e.current = NO_RAF_ID));
+        },
+        get isRunning() {
+          return e.current !== NO_RAF_ID;
+        },
+      }),
+      [],
+    )
+  );
+}
+const makeCancelable = (e) => {
+    let t = !1;
+    return {
+      promise: new Promise((n, s) => {
+        e.then((e) => !t && n(e)).catch((e) => !t && s(e));
+      }),
+      cancel() {
+        t = !0;
+      },
+    };
+  },
+  base$7 = "Popoverdecorator_a558c74b",
+  decorator$1 = "Popoverdecorator_decorator_79bd913c",
+  arrow = "Popoverdecorator_arrow_f2e5d047",
+  arrow__bottom = "Popoverdecorator_arrow__bottom_7d41b48a",
+  arrow__top = "Popoverdecorator_arrow__top_993c5ad7",
+  arrow__left = "Popoverdecorator_arrow__left_bde08974",
+  arrow__right = "Popoverdecorator_arrow__right_585d6247",
+  closeBtn = "Popoverdecorator_closeBtn_eaee89c3",
+  content$2 = "Popoverdecorator_content_1624656c",
+  styles$8 = {
+    base: base$7,
+    decorator: decorator$1,
+    arrow: arrow,
+    arrow__bottom: arrow__bottom,
+    arrow__top: arrow__top,
+    arrow__left: arrow__left,
+    arrow__right: arrow__right,
+    closeBtn: closeBtn,
+    content: content$2,
   };
+var PopoverDirections = ((e) => (
+  (e[(e.Left = 0)] = "Left"),
+  (e[(e.Right = 1)] = "Right"),
+  (e[(e.Top = 2)] = "Top"),
+  (e[(e.Bottom = 3)] = "Bottom"),
+  e
+))(PopoverDirections || {});
+const ARROW_DIR_POSTFIXES = ["__left", "__right", "__top", "__bottom"],
+  BORDER_TRANSPARENT_SIZE = 58,
+  PopoverDecorator = (
+    {
+      children: e,
+      disableAutoSizeUpdate: t,
+      onOutsideClick: n,
+      className: s,
+      customStyles: r = {},
+    },
+    o,
+  ) => {
+    const a = reactExports.useRef(null),
+      i = reactExports.useRef(null),
+      c = reactExports.useRef(null),
+      [l, u] = reactExports.useState(window.decorator && window.decorator.directionType),
+      d = reactExports.useCallback(() => {
+        (Sound.playClick(), env.view.sendEvent.close());
+      }, []),
+      p = reactExports.useCallback(() => {
+        Sound.playHighlight();
+      }, []),
+      _ = cx(styles$8.arrow, styles$8[`arrow${ARROW_DIR_POSTFIXES[l]}`]);
+    useMount(
+      () => (
+        env.client.events.mouse.enableOutside(),
+        env.client.events.mouse.down(([, e]) => {
+          "outside" === e && (n ? n() : env.view.sendEvent.close("popover"));
+        })
+      ),
+    );
+    const m = reactExports.useCallback(
+        (e) => {
+          let t = e.target;
+          do {
+            if (t === a.current || t === c.current) return;
+            t = t.parentNode;
+          } while (t);
+          const s = window.decorator;
+          if (void 0 !== window.decorator) {
+            const e = env.client.getMouseGlobalPosition(),
+              t = ![s.boundX, s.boundY, s.boundWidth, s.boundHeight].includes(void 0),
+              n =
+                e.x < s.boundX ||
+                e.x > s.boundX + s.boundWidth ||
+                e.y > s.boundY + s.boundHeight ||
+                e.y < s.boundY;
+            if (t && !n) return;
+          }
+          n ? n() : env.view.sendEvent.close("popover");
+        },
+        [a, c, n],
+      ),
+      g = reactExports.useCallback(() => {
+        u(window.decorator.directionType);
+      }, []),
+      h = useSkipFrame(),
+      f = reactExports.useCallback(() => {
+        const e = i.current;
+        if (e)
+          return (
+            env.view.freezeTextureBeforeResize(),
+            h.run(() => {
+              const t = e.scrollWidth,
+                n = e.scrollHeight;
+              (env.view.resize(t, n), g());
+            })
+          );
+      }, [h, g]);
+    return (
+      reactExports.useImperativeHandle(
+        o,
+        () => ({ updateSize: f, updateDirection: g, elementRef: i }),
+        [f, g],
+      ),
+      useMount(() => {
+        env.view.setInputPaddingsRem(BORDER_TRANSPARENT_SIZE);
+      }),
+      reactExports.useEffect(() => {
+        document.addEventListener("mousedown", m, { capture: !0 });
+        const e = makeCancelable(onLayoutReady());
+        return (
+          !t && e.promise.then(() => f()),
+          () => {
+            (e.cancel(), document.removeEventListener("mousedown", m));
+          }
+        );
+      }, [f, m, t]),
+      jsxRuntimeExports.jsx("div", {
+        className: cx(styles$8.base, s),
+        ref: i,
+        children: jsxRuntimeExports.jsxs("div", {
+          className: styles$8.decorator,
+          children: [
+            jsxRuntimeExports.jsxs("div", {
+              className: styles$8.content,
+              ref: a,
+              children: [
+                e,
+                window.decorator &&
+                  window.decorator.isCloseBtnVisible &&
+                  jsxRuntimeExports.jsx(SimpleTooltip, {
+                    body: R.strings.dialogs.common.error.cancel(),
+                    children: jsxRuntimeExports.jsx("div", {
+                      className: styles$8.closeBtn,
+                      onClick: d,
+                      onMouseEnter: p,
+                      ref: c,
+                    }),
+                  }),
+              ],
+            }),
+            jsxRuntimeExports.jsx("div", { className: _, style: r.arrow }),
+          ],
+        }),
+      })
+    );
+  },
+  PopoverDecoratorForwarded = reactExports.forwardRef(PopoverDecorator),
+  Popover = ({
+    contentId: e,
+    decoratorId: t,
+    direction: n = PopoverDirections.Top,
+    targetId: s,
+    args: r,
+    onClick: o,
+    children: a,
+    isEnabled: i = !0,
+    ...c
+  }) => {
+    const l = reactExports.useRef(null),
+      u = reactExports.useCallback(() => {
+        if (isPopOverShown()) return sendClosePopOverEvent();
+        l.current && sendShowPopOverEvent(e, n, l.current, t, s, r);
+      }, [e, n, r, t, s]);
+    return jsxRuntimeExports.jsx("div", {
+      ref: l,
+      onMouseDown:
+        ((d = a.props.onClick),
+        (e) => {
+          i && (u(), o && o(e), d && d(e));
+        }),
+      ...c,
+      children: a,
+    });
+    var d;
+  },
+  createLayoutReadyInEffect = (e) => {
+    let t,
+      n = null;
+    return (
+      (n = requestAnimationFrame(() => {
+        n = requestAnimationFrame(() => {
+          ((n = null), (t = e()));
+        });
+      })),
+      () => {
+        ("function" == typeof t && t(), null !== n && cancelAnimationFrame(n));
+      }
+    );
+  },
+  clamp = (e, t, n) => (n < e ? e : n > t ? t : n),
+  STATIC_DEPS = [];
+function useEvent(e) {
+  const t = reactExports.useRef(e);
+  return (
+    reactExports.useLayoutEffect(() => {
+      t.current = e;
+    }),
+    reactExports.useCallback((...e) => (0, t.current)(...e), STATIC_DEPS)
+  );
+}
+function useRepeatCallback(e, t, n = []) {
+  const s = reactExports.useRef(0),
+    r = reactExports.useCallback(() => {
+      (window.clearInterval(s.current), (s.current = 0));
+    }, n || []);
+  reactExports.useEffect(() => r, [r]);
+  const o = (n ?? []).concat([t]);
+  return [
+    reactExports.useCallback((n) => {
+      (0 !== s.current && r(), (s.current = window.setInterval(() => e(n, !0), t)), e(n, !1));
+    }, o),
+    r,
+  ];
+}
+const useCallbackEffect = (e, t = []) => {
+    const n = reactExports.useRef(),
+      s = reactExports.useCallback((...t) => {
+        (n.current && n.current(), (n.current = e(...t)));
+      }, t);
+    return (
+      reactExports.useEffect(
+        () => () => {
+          n.current && n.current();
+        },
+        [s],
+      ),
+      s
+    );
+  },
+  useEmitter = () => {
+    const e = reactExports.useMemo(() => ({}), []),
+      t = (t) => (e[t] || (e[t] = new Map()), e[t]),
+      n = (e, n) => {
+        t(e).set(n, n);
+      },
+      s = (e, n) => {
+        t(e).delete(n);
+      },
+      r = (e, ...n) => {
+        for (const s of t(e).values()) s(...n);
+      };
+    return reactExports.useMemo(() => ({ on: n, off: s, trigger: r }), []);
+  };
+function throttle(e, t, n, s) {
+  let r,
+    o = !1,
+    a = 0;
+  function i() {
+    r && clearTimeout(r);
+  }
+  function c(...c) {
+    const l = this,
+      u = Date.now() - a;
+    function d() {
+      ((a = Date.now()), n.apply(l, c));
+    }
+    o ||
+      (s && !r && d(),
+      i(),
+      void 0 === s && u > e
+        ? d()
+        : !0 !== t &&
+          (r = setTimeout(
+            s
+              ? function () {
+                  r = void 0;
+                }
+              : d,
+            void 0 === s ? e - u : e,
+          )));
+  }
+  return (
+    "boolean" != typeof t && ((s = n), (n = t), (t = void 0)),
+    (c.cancel = function () {
+      (i(), (o = !0));
+    }),
+    c
+  );
+}
+function useThrottle(e, t, n) {
+  const s = reactExports.useMemo(() => throttle(n, e), t);
+  return (reactExports.useEffect(() => s.cancel, [s]), s);
+}
+var Direction = ((e) => ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e))(
+  Direction || {},
+);
+const defaultSettings = {
+    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
+    animationConfig: { tension: 170, friction: 26 },
+  },
+  createApiHook = ({
+    getContainerSize: e,
+    getBounds: t,
+    setScrollPosition: n,
+    getDirection: s,
+    getWrapperSize: r,
+    forceTriggerMouseMove: o,
+  }) => {
+    const a = (e, n) => {
+      const [s, r] = t(e);
+      return r <= s ? 0 : clamp(s, r, n);
+    };
+    return (i = {}) => {
+      const { settings: c = defaultSettings } = i,
+        l = reactExports.useRef(null),
+        u = reactExports.useRef(null),
+        d = reactExports.useRef(!1),
+        p = useEmitter(),
+        _ = useThrottle(
+          () => {
+            o && o();
+          },
+          [],
+          150,
+        ),
+        [m, g] = useSpring(() => ({
+          scrollPosition: 0,
+          onChange: (e) => {
+            const t = l.current;
+            t && (n(t, e), p.trigger("change", e), o && d.current && _());
+          },
+          onRest: (e) => p.trigger("rest", e),
+          onStart: (e) => p.trigger("start", e),
+          onPause: (e) => p.trigger("pause", e),
+        })),
+        h = reactExports.useCallback(
+          (e, t, n) => {
+            const s = m.scrollPosition.get(),
+              r = (m.scrollPosition.goal ?? 0) - s;
+            return a(e, t * n + r + s);
+          },
+          [m.scrollPosition],
+        ),
+        f = reactExports.useCallback(
+          (e, { immediate: t = !1, reset: n = !0 } = {}) => {
+            const s = l.current;
+            s &&
+              g.start({
+                scrollPosition: a(s, e),
+                immediate: t,
+                reset: n,
+                config: c.animationConfig,
+                from: { scrollPosition: a(s, m.scrollPosition.get()) },
+              });
+          },
+          [g, c.animationConfig, m.scrollPosition],
+        ),
+        E = reactExports.useCallback(
+          (e) => {
+            const t = l.current,
+              n = u.current;
+            if (!t || !n) return;
+            const s = ((e, t) => {
+                switch (t.type) {
+                  case "proportional":
+                    return r(e) / t.factor;
+                  case "fixed":
+                    return t.value;
+                }
+              })(n, c.step),
+              o = h(t, e, s);
+            f(o);
+          },
+          [f, h, c.step],
+        ),
+        b = reactExports.useCallback(
+          (e) => {
+            (0 !== e.deltaY && E(s(e)),
+              l.current && p.trigger("mouseWheel", e, m.scrollPosition, t(l.current)));
+          },
+          [m.scrollPosition, E, p],
+        ),
+        y = useCallbackEffect(
+          () =>
+            createLayoutReadyInEffect(() => {
+              const e = l.current;
+              e && (f(a(e, m.scrollPosition.goal), { immediate: !0 }), p.trigger("resizeHandled"));
+            }),
+          [f, m.scrollPosition.goal],
+        ),
+        x = useEvent(() => {
+          const e = l.current;
+          if (!e) return;
+          const t = a(e, m.scrollPosition.goal);
+          (t !== m.scrollPosition.goal && f(t, { immediate: !0 }), p.trigger("recalculateContent"));
+        });
+      (reactExports.useEffect(
+        () => (
+          window.addEventListener("resize", y),
+          () => {
+            window.removeEventListener("resize", y);
+          }
+        ),
+        [y],
+      ),
+        reactExports.useEffect(() => {
+          const e = l.current;
+          if (!e || !o) return;
+          const t = () => {
+              d.current = !0;
+            },
+            n = () => {
+              d.current = !1;
+            };
+          return (
+            e.addEventListener("mouseenter", t),
+            e.addEventListener("mouseleave", n),
+            () => {
+              (e.removeEventListener("mouseenter", t), e.removeEventListener("mouseleave", n));
+            }
+          );
+        }, [l]));
+      return reactExports.useMemo(
+        () => ({
+          getWrapperSize: () => (u.current ? r(u.current) : void 0),
+          getContainerSize: () => (l.current ? e(l.current) : void 0),
+          getBounds: () =>
+            l.current
+              ? t(l.current)
+              : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
+          stepTimeout: c.step.clampedArrowStepTimeout,
+          clampPosition: a,
+          handleMouseWheel: b,
+          applyScroll: f,
+          applyStepTo: E,
+          contentRef: l,
+          wrapperRef: u,
+          scrollPosition: g,
+          animationScroll: m,
+          recalculateContent: x,
+          events: { on: p.on, off: p.off },
+        }),
+        [m.scrollPosition, f, E, p.off, p.on, x, b, g, c.step.clampedArrowStepTimeout],
+      );
+    };
+  },
+  base$6 = "Horizontalbar_bdf22414",
+  base__active$1 = "Horizontalbar_base__active_5a3d92a0",
+  leftButton = "Horizontalbar_leftButton_ba80ec4f",
+  rightButton = "Horizontalbar_rightButton_847c1c78",
+  track$1 = "Horizontalbar_track_388b12f",
+  thumb$1 = "Horizontalbar_thumb_9d4dd30f",
+  rail$1 = "Horizontalbar_rail_b8667e3c",
+  styles$7 = {
+    base: base$6,
+    base__active: base__active$1,
+    leftButton: leftButton,
+    rightButton: rightButton,
+    track: track$1,
+    thumb: thumb$1,
+    rail: rail$1,
+  },
+  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1 = 100,
+  DISABLE_CLASS$1 = "disable",
+  MIN_THUMB_SIZE$1 = 20,
+  MOUSE_BUTTON_LEFT$1 = 0,
+  initDraggingState$1 = { pending: !1, offset: 0 },
+  getStepByRailClickDefault$1 = (e) => 0.9 * (e.getWrapperSize() ?? 0),
+  isBoundThumb = (e, t, n) => n - (e.offsetWidth - t.offsetWidth) >= -0.5,
+  emptyFunction$1 = () => {},
+  calculateThumbSize$1 = (e, t) => Math.max(MIN_THUMB_SIZE$1, e.offsetWidth * t),
+  BarFC$1 = ({
+    api: e,
+    classNames: t = {},
+    getStepByRailClick: n = getStepByRailClickDefault$1,
+    onDrag: s = emptyFunction$1,
+  }) => {
+    const r = reactExports.useRef(null),
+      o = reactExports.useRef(null),
+      a = reactExports.useRef(null),
+      i = reactExports.useRef(null),
+      c = reactExports.useRef(null),
+      l = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT$1,
+      [u, d] = reactExports.useState(initDraggingState$1),
+      p = reactExports.useCallback(
+        (e) => {
+          (d(e), c.current && s({ type: e.pending ? "dragStart" : "dragEnd", thumb: c.current }));
+        },
+        [s],
+      ),
+      _ = () => {
+        const t = i.current,
+          n = c.current,
+          s = e.getWrapperSize(),
+          r = e.getContainerSize();
+        if (!(s && t && n && r)) return;
+        const l = e.animationScroll.scrollPosition.get(),
+          u = Math.min(1, s / r),
+          d = clamp(0, 1, l / (r - s)),
+          p = (t.offsetWidth - calculateThumbSize$1(t, u)) * d;
+        ((n.style.transform = `translateX(${0 | p}px)`),
+          ((e) => {
+            if (o.current && a.current && i.current && c.current) {
+              if (0 === e)
+                return (
+                  o.current.classList.add(DISABLE_CLASS$1),
+                  void a.current.classList.remove(DISABLE_CLASS$1)
+                );
+              if (isBoundThumb(i.current, c.current, e))
+                return (
+                  o.current.classList.remove(DISABLE_CLASS$1),
+                  void a.current.classList.add(DISABLE_CLASS$1)
+                );
+              (o.current.classList.remove(DISABLE_CLASS$1),
+                a.current.classList.remove(DISABLE_CLASS$1));
+            }
+          })(p));
+      },
+      m = useEvent(() => {
+        ((() => {
+          const t = c.current,
+            n = i.current,
+            s = e.getWrapperSize(),
+            o = e.getContainerSize();
+          if (!(o && t && s && n)) return;
+          const a = Math.min(1, s / o);
+          ((t.style.width = `${calculateThumbSize$1(n, a)}px`),
+            (t.style.display = "flex"),
+            r.current &&
+              (1 !== a
+                ? r.current.classList.add(styles$7.base__active)
+                : r.current.classList.remove(styles$7.base__active)));
+        })(),
+          _());
+      });
+    (reactExports.useEffect(() => createLayoutReadyInEffect(m)),
+      reactExports.useEffect(
+        () =>
+          createLayoutReadyInEffect(() => {
+            const t = () => {
+              _();
+            };
+            let n = emptyFunction$1;
+            const s = () => {
+              (n(), (n = createLayoutReadyInEffect(m)));
+            };
+            return (
+              e.events.on("recalculateContent", m),
+              e.events.on("rest", t),
+              e.events.on("change", t),
+              e.events.on("resizeHandled", s),
+              () => {
+                (n(),
+                  e.events.off("recalculateContent", m),
+                  e.events.off("rest", t),
+                  e.events.off("change", t),
+                  e.events.off("resizeHandled", s));
+              }
+            );
+          }),
+        [e],
+      ),
+      reactExports.useEffect(() => {
+        if (!u.pending) return;
+        const t = env.client.events.mouse.move(([t, n]) => {
+            const r = e.contentRef.current,
+              o = e.wrapperRef.current;
+            if (!r || !o) return;
+            const a = i.current,
+              l = c.current;
+            if (!a || !l) return;
+            if ("inside" === n && t.clientX < 0) return;
+            const d = t.clientX - u.offset - a.getBoundingClientRect().x,
+              p = (d / a.offsetWidth) * (e.getContainerSize() ?? 0);
+            (e.scrollPosition.start({
+              scrollPosition: e.clampPosition(r, p),
+              reset: !0,
+              immediate: !0,
+              from: { scrollPosition: e.animationScroll.scrollPosition.get() },
+            }),
+              s({ type: "dragging", thumb: l, thumbOffset: d, contentOffset: p }));
+          }),
+          n = env.client.events.mouse.up(() => {
+            (t(), p(initDraggingState$1));
+          });
+        return () => {
+          (t(), n());
+        };
+      }, [e, u.offset, u.pending, s, p]));
+    const [g, h] = useRepeatCallback((t) => e.applyStepTo(t), l, [e]);
+    reactExports.useEffect(
+      () => (
+        document.addEventListener("mouseup", h, !0),
+        () => document.removeEventListener("mouseup", h, !0)
+      ),
+      [h],
+    );
+    const f = (e) => {
+      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
+    };
+    return jsxRuntimeExports.jsxs("div", {
+      className: cx(styles$7.base, t.base),
+      ref: r,
+      onWheel: e.handleMouseWheel,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$7.leftButton, t.leftButton),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS$1) ||
+              e.button !== MOUSE_BUTTON_LEFT$1 ||
+              (playSound$1("play"), g(Direction.Next));
+          },
+          onMouseUp: h,
+          ref: o,
+          onMouseEnter: f,
+        }),
+        jsxRuntimeExports.jsxs("div", {
+          className: cx(styles$7.track, t.track),
+          onMouseDown: (t) => {
+            const s = c.current;
+            if (s && t.button === MOUSE_BUTTON_LEFT$1)
+              if ((playSound$1("play"), t.target === s))
+                p({ pending: !0, offset: t.screenX - s.getBoundingClientRect().x });
+              else {
+                ((t) => {
+                  const s = c.current,
+                    r = e.contentRef.current;
+                  if (!s || !r) return;
+                  const o = n(e);
+                  e.applyScroll(e.animationScroll.scrollPosition.get() + o * t);
+                })(t.screenX > s.getBoundingClientRect().x ? Direction.Prev : Direction.Next);
+              }
+          },
+          ref: i,
+          onMouseEnter: f,
+          children: [
+            jsxRuntimeExports.jsx("div", { ref: c, className: cx(styles$7.thumb, t.thumb) }),
+            jsxRuntimeExports.jsx("div", { className: cx(styles$7.rail, t.rail) }),
+          ],
+        }),
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$7.rightButton, t.rightButton),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS$1) ||
+              e.button !== MOUSE_BUTTON_LEFT$1 ||
+              (playSound$1("play"), g(Direction.Prev));
+          },
+          onMouseUp: h,
+          ref: a,
+          onMouseEnter: f,
+        }),
+      ],
+    });
+  };
+reactExports.memo(BarFC$1);
+const DEFAULT_VERTICAL_API_CONTEXT = {
+    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
+    getContainerSize: (e) => e.scrollHeight,
+    getWrapperSize: (e) => e.offsetHeight,
+    setScrollPosition: (e, t) => {
+      e.scrollTop = t.value.scrollPosition;
+    },
+    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
+  },
+  useVerticalScrollApi = createApiHook(DEFAULT_VERTICAL_API_CONTEXT),
+  base$5 = "Verticalbar_89dc020b",
+  base__active = "Verticalbar_base__active_1e0d5e44",
+  topButton = "Verticalbar_topButton_1ce852b9",
+  bottomButton = "Verticalbar_bottomButton_bc76d779",
+  track = "Verticalbar_track_7532d39a",
+  thumb = "Verticalbar_thumb_264988ce",
+  rail = "Verticalbar_rail_85a58f07",
+  styles$6 = {
+    base: base$5,
+    base__active: base__active,
+    topButton: topButton,
+    bottomButton: bottomButton,
+    track: track,
+    thumb: thumb,
+    rail: rail,
+  },
+  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
+  DISABLE_CLASS = "disable",
+  MIN_THUMB_SIZE = 20,
+  MOUSE_BUTTON_LEFT = 0,
+  emptyFunction = () => {},
+  initDraggingState = { pending: !1, offset: 0 },
+  getStepByRailClickDefault = (e) => 0.9 * (e.getWrapperSize() ?? 0),
+  isBottomBoundThumb = (e, t, n) => n - (e.offsetHeight - t.offsetHeight) >= -0.5,
+  handleContainer = (e, t) => {
+    e.contentRef.current && t(e.contentRef.current);
+  },
+  calculateThumbSize = (e, t) => Math.max(MIN_THUMB_SIZE, e.offsetHeight * t),
+  BarFC = ({
+    api: e,
+    classNames: t = {},
+    getStepByRailClick: n = getStepByRailClickDefault,
+    onDrag: s = emptyFunction,
+  }) => {
+    const r = reactExports.useRef(null),
+      o = reactExports.useRef(null),
+      a = reactExports.useRef(null),
+      i = reactExports.useRef(null),
+      c = reactExports.useRef(null),
+      l = e.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
+      [u, d] = reactExports.useState(initDraggingState),
+      p = reactExports.useCallback(
+        (e) => {
+          (d(e), c.current && s({ type: e.pending ? "dragStart" : "dragEnd", thumb: c.current }));
+        },
+        [s],
+      ),
+      _ = useEvent(() => {
+        const t = c.current,
+          n = i.current,
+          s = e.getWrapperSize(),
+          o = e.getContainerSize();
+        if (!(s && o && t && n)) return;
+        const a = Math.min(1, s / o);
+        return (
+          (t.style.height = `${calculateThumbSize(n, a)}px`),
+          (t.style.display = "flex"),
+          r.current &&
+            (1 !== a
+              ? r.current.classList.add(styles$6.base__active)
+              : r.current.classList.remove(styles$6.base__active)),
+          a
+        );
+      }),
+      m = useEvent(() => {
+        const t = i.current,
+          n = c.current,
+          s = e.getWrapperSize(),
+          r = e.getContainerSize();
+        if (!(s && t && n && r)) return;
+        const l = e.animationScroll.scrollPosition.get(),
+          u = Math.min(1, s / r),
+          d = clamp(0, 1, l / (r - s)),
+          p = (t.offsetHeight - calculateThumbSize(t, u)) * d;
+        ((n.style.transform = `translateY(${0 | p}px)`),
+          ((e) => {
+            if (o.current && a.current && i.current && c.current) {
+              if (0 === Math.round(e))
+                return (
+                  o.current.classList.add(DISABLE_CLASS),
+                  void a.current.classList.remove(DISABLE_CLASS)
+                );
+              if (isBottomBoundThumb(i.current, c.current, e))
+                return (
+                  o.current.classList.remove(DISABLE_CLASS),
+                  void a.current.classList.add(DISABLE_CLASS)
+                );
+              (o.current.classList.remove(DISABLE_CLASS),
+                a.current.classList.remove(DISABLE_CLASS));
+            }
+          })(p));
+      }),
+      g = useEvent(() => {
+        handleContainer(e, () => {
+          (_(), m());
+        });
+      });
+    (reactExports.useEffect(() => createLayoutReadyInEffect(g)),
+      reactExports.useEffect(() => {
+        const t = () => {
+          handleContainer(e, () => {
+            m();
+          });
+        };
+        let n = emptyFunction;
+        const s = () => {
+          (n(), (n = createLayoutReadyInEffect(g)));
+        };
+        return (
+          e.events.on("recalculateContent", g),
+          e.events.on("rest", t),
+          e.events.on("change", t),
+          e.events.on("resizeHandled", s),
+          () => {
+            (n(),
+              e.events.off("recalculateContent", g),
+              e.events.off("rest", t),
+              e.events.off("change", t),
+              e.events.off("resizeHandled", s));
+          }
+        );
+      }, [e]),
+      reactExports.useEffect(() => {
+        if (!u.pending) return;
+        const t = env.client.events.mouse.up(() => {
+            p(initDraggingState);
+          }),
+          n = env.client.events.mouse.move(([t]) => {
+            handleContainer(e, (n) => {
+              const r = i.current,
+                o = c.current,
+                a = e.getContainerSize();
+              if (!r || !o || !a) return;
+              const l = t.screenY - u.offset - r.getBoundingClientRect().y,
+                d = (l / r.offsetHeight) * a;
+              (e.scrollPosition.start({
+                scrollPosition: e.clampPosition(n, d),
+                reset: !0,
+                immediate: !0,
+                from: { scrollPosition: n.scrollTop },
+              }),
+                s({ type: "dragging", thumb: o, thumbOffset: l, contentOffset: d }));
+            });
+          });
+        return () => {
+          (t(), n());
+        };
+      }, [e, u.offset, u.pending, s, p]));
+    const [h, f] = useRepeatCallback((t) => e.applyStepTo(t), l, [e]);
+    reactExports.useEffect(
+      () => (
+        document.addEventListener("mouseup", f, !0),
+        () => document.removeEventListener("mouseup", f, !0)
+      ),
+      [f],
+    );
+    const E = (e) => {
+      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
+    };
+    return jsxRuntimeExports.jsxs("div", {
+      className: cx(styles$6.base, t.base),
+      ref: r,
+      onWheel: e.handleMouseWheel,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$6.topButton, t.topButton),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS) ||
+              e.button !== MOUSE_BUTTON_LEFT ||
+              (playSound$1("play"), h(Direction.Next));
+          },
+          ref: o,
+          onMouseEnter: E,
+        }),
+        jsxRuntimeExports.jsxs("div", {
+          className: cx(styles$6.track, t.track),
+          onMouseDown: (t) => {
+            const s = c.current;
+            if (s && t.button === MOUSE_BUTTON_LEFT)
+              if ((playSound$1("play"), t.target === s))
+                p({ pending: !0, offset: t.screenY - s.getBoundingClientRect().y });
+              else {
+                ((t) => {
+                  c.current &&
+                    handleContainer(e, (s) => {
+                      if (!s) return;
+                      const r = n(e),
+                        o = e.clampPosition(s, s.scrollTop + r * t);
+                      e.applyScroll(o);
+                    });
+                })(t.screenY > s.getBoundingClientRect().y ? Direction.Prev : Direction.Next);
+              }
+          },
+          ref: i,
+          onMouseEnter: E,
+          children: [
+            jsxRuntimeExports.jsx("div", { ref: c, className: cx(styles$6.thumb, t.thumb) }),
+            jsxRuntimeExports.jsx("div", { className: cx(styles$6.rail, t.rail) }),
+          ],
+        }),
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$6.bottomButton, t.bottomButton),
+          onMouseDown: (e) => {
+            e.target.classList.contains(DISABLE_CLASS) ||
+              e.button !== MOUSE_BUTTON_LEFT ||
+              (playSound$1("play"), h(Direction.Prev));
+          },
+          onMouseUp: f,
+          ref: a,
+          onMouseEnter: E,
+        }),
+      ],
+    });
+  },
+  Bar = reactExports.memo(BarFC),
+  content$1 = "Verticalscroll_content_848080fa",
+  defaultScroll = "Verticalscroll_defaultScroll_5f9d259",
+  area = "Verticalscroll_area_39a5f7ae",
+  styles$5 = { content: content$1, defaultScroll: defaultScroll, area: area },
+  DefaultScroll = ({
+    children: e,
+    api: t,
+    className: n,
+    barClassNames: s,
+    areaClassName: r,
+    scrollClassName: o,
+    scrollClassNames: a,
+    getStepByRailClick: i,
+    onDrag: c,
+  }) => {
+    const l = reactExports.useMemo(() => {
+        const e = s || {};
+        return { ...e, base: cx(styles$5.base, e.base) };
+      }, [s]),
+      u = reactExports.useMemo(() => ({ ...t, handleMouseWheel: () => {} }), [t]);
+    return jsxRuntimeExports.jsxs("div", {
+      className: cx(styles$5.defaultScroll, n),
+      onWheel: t.handleMouseWheel,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$5.area, r),
+          children: jsxRuntimeExports.jsx(Area, {
+            className: o,
+            classNames: a,
+            api: u,
+            children: e,
+          }),
+        }),
+        jsxRuntimeExports.jsx(Bar, { getStepByRailClick: i, api: t, onDrag: c, classNames: l }),
+      ],
+    });
+  },
+  Area = ({ className: e, classNames: t, children: n, api: s }) => (
+    reactExports.useEffect(() => createLayoutReadyInEffect(s.recalculateContent)),
+    jsxRuntimeExports.jsx("div", {
+      className: cx(styles$5.base, e),
+      ref: s.wrapperRef,
+      onWheel: s.handleMouseWheel,
+      children: jsxRuntimeExports.jsx("div", {
+        className: cx(styles$5.content, t?.content),
+        ref: s.contentRef,
+        children: n,
+      }),
+    })
+  );
+Area.Default = DefaultScroll;
+const Vertical = Object.freeze(
+    Object.defineProperty(
+      {
+        __proto__: null,
+        Area: Area,
+        Bar: Bar,
+        Default: DefaultScroll,
+        useVerticalScrollApi: useVerticalScrollApi,
+      },
+      Symbol.toStringTag,
+      { value: "Module" },
+    ),
+  ),
+  Scroll = { Vertical: Vertical };
 var CurrencySize = ((e) => (
     (e.small = "small"),
     (e.big = "big"),
@@ -5154,10 +5292,10 @@ var CurrencySize = ((e) => (
   StockBackgroundName = ((e) => ((e.Red = "RedActionBG"), (e.Blue = "BlueActionBG"), e))(
     StockBackgroundName || {},
   );
-const base$5 = "Currency_37b937ed",
-  icon$1 = "Currency_icon_7e0ceeb1",
-  base__small$2 = "Currency_base__small_3c6cfaf0",
-  base__big$1 = "Currency_base__big_3c6cfaf0",
+const base$4 = "Currency_37b937ed",
+  icon = "Currency_icon_7e0ceeb1",
+  base__small$1 = "Currency_base__small_3c6cfaf0",
+  base__big = "Currency_base__big_3c6cfaf0",
   base__large = "Currency_base__large_3c6cfaf0",
   base__extraLarge = "Currency_base__extraLarge_3c6cfaf0",
   value = "Currency_value_cb375db",
@@ -5173,11 +5311,11 @@ const base$5 = "Currency_37b937ed",
   stock__indent = "Currency_stock__indent_cbef6f7b",
   stock__interactive = "Currency_stock__interactive_ff7f7510",
   stockBackground = "Currency_stockBackground_aab4a285",
-  styles$5 = {
-    base: base$5,
-    icon: icon$1,
-    base__small: base__small$2,
-    base__big: base__big$1,
+  styles$4 = {
+    base: base$4,
+    icon: icon,
+    base__small: base__small$1,
+    base__big: base__big,
     base__large: base__large,
     base__extraLarge: base__extraLarge,
     "icon__credits-small": "Currency_icon__credits-small_76c23d6f",
@@ -5236,13 +5374,13 @@ const base$5 = "Currency_37b937ed",
     classNames: u,
   }) =>
     jsxRuntimeExports.jsxs("span", {
-      className: cx(styles$5.base, styles$5[`base__${n}`], l),
+      className: cx(styles$4.base, styles$4[`base__${n}`], l),
       children: [
         jsxRuntimeExports.jsxs("span", {
           className: cx(
-            styles$5.value,
-            styles$5[`value__${s}`],
-            !i && styles$5.value__notEnough,
+            styles$4.value,
+            styles$4[`value__${s}`],
+            !i && styles$4.value__notEnough,
             u?.value,
           ),
           children: [
@@ -5254,19 +5392,19 @@ const base$5 = "Currency_37b937ed",
           ],
         }),
         jsxRuntimeExports.jsx("span", {
-          className: cx(styles$5.icon, styles$5[`icon__${s}-${n}`], u?.icon),
+          className: cx(styles$4.icon, styles$4[`icon__${s}-${n}`], u?.icon),
         }),
         e &&
           jsxRuntimeExports.jsxs("span", {
             className: cx(
-              styles$5.stock,
-              o && styles$5.stock__indent,
-              t && styles$5.stock__interactive,
+              styles$4.stock,
+              o && styles$4.stock__indent,
+              t && styles$4.stock__interactive,
               u?.stock,
             ),
             children: [
               jsxRuntimeExports.jsx("span", {
-                className: styles$5.stockBackground,
+                className: styles$4.stockBackground,
                 style: { backgroundImage: `url(R.images.gui.maps.icons.library.${c})` },
               }),
               Boolean(o) && o,
@@ -5274,145 +5412,7 @@ const base$5 = "Currency_37b937ed",
           }),
       ],
     }),
-  Currency = reactExports.memo(CurrencyComponent),
-  base$4 = "Reward_c5dc614c",
-  base__s48x48 = "Reward_base__s48x48_ab59d545",
-  base__small$1 = "Reward_base__small_69779e9c",
-  base__s80x80 = "Reward_base__s80x80_ab59d545",
-  base__big = "Reward_base__big_4733a488",
-  base__s128x100 = "Reward_base__s128x100_fb15aafa",
-  base__s180x135 = "Reward_base__s180x135_16cc707b",
-  base__s232x174 = "Reward_base__s232x174_e32aac73",
-  base__s296x222 = "Reward_base__s296x222_c9fbf416",
-  base__s400x300 = "Reward_base__s400x300_76ba5081",
-  base__s600x450 = "Reward_base__s600x450_aba4634a",
-  tooltipWrapper = "Reward_tooltipWrapper_5c2caa5a",
-  icon = "Reward_icon_ae345d69",
-  overlay$1 = "Reward_overlay_ff0a7872",
-  base__normalize = "Reward_base__normalize_ab59d545",
-  highlight = "Reward_highlight_ac5e429a",
-  image = "Reward_image_d9c7ed84",
-  info = "Reward_info_29e76ef9",
-  info__multi = "Reward_info__multi_14b911c",
-  info__credits = "Reward_info__credits_a7e7bbe",
-  info__gold = "Reward_info__gold_c2d9d72c",
-  info__bptaler = "Reward_info__bptaler_ab59d545",
-  info__crystal = "Reward_info__crystal_ec55d024",
-  info__premiumTank = "Reward_info__premiumTank_67c21f6d",
-  title = "Reward_title_50579ad9",
-  timer = "Reward_timer_98cb5bca",
-  styles$4 = {
-    base: base$4,
-    base__s48x48: base__s48x48,
-    base__small: base__small$1,
-    base__s80x80: base__s80x80,
-    base__big: base__big,
-    base__s128x100: base__s128x100,
-    base__s180x135: base__s180x135,
-    base__s232x174: base__s232x174,
-    base__s296x222: base__s296x222,
-    base__s400x300: base__s400x300,
-    base__s600x450: base__s600x450,
-    tooltipWrapper: tooltipWrapper,
-    icon: icon,
-    overlay: overlay$1,
-    base__normalize: base__normalize,
-    highlight: highlight,
-    image: image,
-    info: info,
-    info__multi: info__multi,
-    info__credits: info__credits,
-    info__gold: info__gold,
-    info__bptaler: info__bptaler,
-    info__crystal: info__crystal,
-    info__premiumTank: info__premiumTank,
-    title: title,
-    timer: timer,
-  },
-  Reward = ({
-    name: e,
-    image: t,
-    isPeriodic: n = !1,
-    size: s = ImageSize.Big,
-    special: r,
-    value: o,
-    valueType: a,
-    title: i,
-    style: c,
-    className: l,
-    classNames: u,
-    tooltipArgs: d,
-    periodicIconTooltipArgs: p,
-  }) => {
-    const _ = getBottomHighlight(s, r),
-      m = getOverlay(r),
-      g = getFormattedValue(o, a);
-    return jsxRuntimeExports.jsxs("div", {
-      className: cx(
-        styles$4.base,
-        styles$4[`base__${s}`],
-        NORMALIZE_OVERLAYS_LIST.includes(e) && styles$4.base__normalize,
-        l,
-      ),
-      style: c,
-      children: [
-        jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
-          tooltipArgs: d,
-          className: styles$4.tooltipWrapper,
-          children: jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
-            children: [
-              jsxRuntimeExports.jsxs("div", {
-                className: cx(styles$4.image, u?.image),
-                children: [
-                  _ &&
-                    jsxRuntimeExports.jsx("div", {
-                      className: cx(styles$4.highlight, u?.highlight),
-                      style: {
-                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${s}.${_}_highlight)`,
-                      },
-                    }),
-                  t &&
-                    jsxRuntimeExports.jsx("div", {
-                      className: cx(styles$4.icon, u?.rewardIcon),
-                      style: { backgroundImage: `url(${t})` },
-                    }),
-                  m &&
-                    jsxRuntimeExports.jsx("div", {
-                      className: cx(styles$4.overlay, u?.overlay),
-                      style: {
-                        backgroundImage: `url(R.images.gui.maps.icons.quests.bonuses.${s}.${m}_overlay)`,
-                      },
-                    }),
-                ],
-              }),
-              g &&
-                jsxRuntimeExports.jsx("div", {
-                  className: cx(
-                    styles$4.info,
-                    styles$4[`info__${e}`],
-                    a === ValueTypes.MULTI && styles$4.info__multi,
-                    u?.info,
-                  ),
-                  children: g,
-                }),
-              i &&
-                jsxRuntimeExports.jsx("div", {
-                  className: cx(styles$4.title, u?.title),
-                  children: i,
-                }),
-            ],
-          }),
-        }),
-        n &&
-          jsxRuntimeExports.jsx(DynamicTooltipWrapper, {
-            tooltipArgs: p,
-            children: jsxRuntimeExports.jsx("div", {
-              className: cx(styles$4.timer, u?.periodicIcon),
-            }),
-          }),
-      ],
-    });
-  };
+  Currency = reactExports.memo(CurrencyComponent);
 function makeId(e) {
   return Symbol.for(e.split("mono/")[1] || "unknown");
 }
@@ -5850,29 +5850,29 @@ const base = "Tooltipdecorator_ea72f443",
   });
 export {
   sizes$1 as $,
-  Scroll as A,
+  Input as A,
   ButtonType as B,
   CButton as C,
   DynamicTooltipWrapper as D,
-  findIndex as E,
+  InputType as E,
   FormatString as F,
-  get as G,
-  pxToRem$1 as H,
-  Input as I,
-  buttonStyles as J,
-  getRewardValueType as K,
-  getRewardImage as L,
-  ImageSize as M,
-  getFormattedValue as N,
-  getOverlay as O,
+  PopoverDirections as G,
+  breakpointsByType as H,
+  ImageSize as I,
+  Currency as J,
+  StockBackgroundName as K,
+  CurrencyType as L,
+  MediaSize as M,
+  CurrencySize as N,
+  useVerticalScrollApi as O,
   Popover as P,
-  BonusNames as Q,
-  breakpoints as R,
+  useSkipFrame$1 as Q,
+  Reward as R,
   SimpleTooltip as S,
   TextButton as T,
   UIProvider as U,
-  MediaSize as V,
-  Reward as W,
+  Scroll as V,
+  findIndex as W,
   Image$1 as X,
   useLoadPlugin as Y,
   isReactComponent as Z,
@@ -5886,28 +5886,28 @@ export {
   TooltipDecorator as a5,
   FormatText as a6,
   runView as b,
-  constFalse as c,
-  identity as d,
-  Tooltip as e,
+  createLayoutReadyInEffect$1 as c,
+  buttonStyles as d,
+  getRewardTooltipConfig as e,
   filter as f,
-  InputType as g,
-  PopoverDirections as h,
+  get as g,
+  getRewardValueType as h,
   initializeModelWithContext as i,
-  createLayoutReadyInEffect$1 as j,
-  useMedia as k,
-  breakpointsByType as l,
-  map as m,
+  getRewardImage as j,
+  playSound$2 as k,
+  getFormattedValue as l,
+  getOverlay as m,
   noop as n,
-  getRewardTooltipConfig as o,
-  playSound$2 as p,
+  BonusNames as o,
+  pxToRem$1 as p,
   normalizeResource as q,
   resources as r,
-  Currency as s,
+  useMedia as s,
   toRoman as t,
   useCallbackOnEsc as u,
-  StockBackgroundName as v,
-  CurrencyType as w,
-  CurrencySize as x,
-  useVerticalScrollApi as y,
-  useSkipFrame$1 as z,
+  breakpoints as v,
+  constFalse as w,
+  map as x,
+  identity as y,
+  Tooltip as z,
 };

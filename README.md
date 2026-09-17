@@ -1,4 +1,4 @@
-# wot-src • wot-cn • 2.4.0.0 #942
+# wot-src • wot-cn • 2.4.0.1 #949
 
 [![wot-eu status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-eu.json)](https://github.com/wotstat/wot-src/tree/wot-eu)
 [![wot-na status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-na.json)](https://github.com/wotstat/wot-src/tree/wot-na)
@@ -43,7 +43,7 @@ git clone --depth 1 --no-single-branch https://github.com/wotstat/wot-src.git
 README.md
 .version_name
 .publication.json
-sources/             # base + default locale overlay; .py, .xml, .po, .txt
+sources/             # base + default locale overlay; .py, .xml, .def, .po, .txt
 locales/<LANG>/      # все locale overlays WG, включая default locale
 sources-as3/         # декомпилированные .as
 sources-gameface/    # содержимое base/res/gui/gameface без исходного префикса
@@ -58,8 +58,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `wot-cn`
 - Ветка: `wot-cn`
-- Версия: `2.4.0.5435`
+- Версия: `2.4.0.5449`
 - Publisher: `qihoo`
-- GameSnapshot: `sha256:a40120fa453da68c77009fe6ca8eaae50b9ff9ce727c140736d75ba57c0a0aa6`
+- GameSnapshot: `sha256:b3e8f769f86a090cda23733f8eb69cbe6c48a377127425d36738c13e4bfd23f0`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

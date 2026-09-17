@@ -5309,6 +5309,48 @@ const toggleThemes = { primary: "primary", custom: "custom" },
     });
   });
 ((Toggle.themes = toggleThemes), (Toggle.sizes = toggleSizes));
+const root = "CloseButton_root_987cb365",
+  base$2 = "CloseButton_7488a1b8",
+  base__medium = "CloseButton_base__medium_97d04067",
+  base__small = "CloseButton_base__small_c1b29bae",
+  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
+  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
+  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
+  styles$2 = {
+    root: root,
+    base: base$2,
+    base__medium: base__medium,
+    base__small: base__small,
+    base__extraSmall: base__extraSmall,
+    base__x96x96: base__x96x96,
+    base__x32x32: base__x32x32,
+  },
+  sizes = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  upscaleImageSizes = {
+    [sizes.medium]: "x96x96",
+    [sizes.small]: sizes.medium,
+    [sizes.extraSmall]: "x32x32",
+  };
+function CloseButton({
+  size: e = sizes.medium,
+  hoverSound: u = sounds$1.highlight,
+  clickSound: t = sounds$1.click,
+  className: s,
+  onHover: n,
+  onClose: r,
+}) {
+  const a = useUpscale(styles$2[`base__${e}`], styles$2[`base__${upscaleImageSizes[e]}`]);
+  return jsxRuntimeExports.jsx("div", {
+    className: cx(styles$2.base, a, s),
+    onMouseEnter: () => {
+      (play.sound(u), n?.());
+    },
+    onClick: () => {
+      (play.sound(t), r());
+    },
+  });
+}
+CloseButton.size = sizes;
 var Alignment = ((e) => ((e[(e.left = 0)] = "left"), (e[(e.right = 1)] = "right"), e))(
   Alignment || {},
 );
@@ -5373,8 +5415,8 @@ const convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
   },
   formatString = (e, u, t) =>
     e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (t && e in t ? t[e] : splitWords(e, u))),
-  base$2 = "Formattext_bb80854d",
-  styles$2 = { base: base$2 },
+  base$1 = "Formattext_bb80854d",
+  styles$1 = { base: base$1 },
   FormatText = ({
     binding: e,
     text: u = "",
@@ -5391,7 +5433,7 @@ const convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
           jsxRuntimeExports.jsx(
             "div",
             {
-              className: cx(styles$2.base, t),
+              className: cx(styles$1.base, t),
               children: formatString(u, s, e).map((e, u) =>
                 jsxRuntimeExports.jsx(reactExports.Fragment, { children: e }, `${u}-${e}`),
               ),
@@ -5401,49 +5443,7 @@ const convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
         ),
     });
   },
-  root = "CloseButton_root_987cb365",
-  base$1 = "CloseButton_7488a1b8",
-  base__medium = "CloseButton_base__medium_97d04067",
-  base__small = "CloseButton_base__small_c1b29bae",
-  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
-  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
-  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
-  styles$1 = {
-    root: root,
-    base: base$1,
-    base__medium: base__medium,
-    base__small: base__small,
-    base__extraSmall: base__extraSmall,
-    base__x96x96: base__x96x96,
-    base__x32x32: base__x32x32,
-  },
-  sizes = { medium: "medium", small: "small", extraSmall: "extraSmall" },
-  upscaleImageSizes = {
-    [sizes.medium]: "x96x96",
-    [sizes.small]: sizes.medium,
-    [sizes.extraSmall]: "x32x32",
-  };
-function CloseButton({
-  size: e = sizes.medium,
-  hoverSound: u = sounds$1.highlight,
-  clickSound: t = sounds$1.click,
-  className: s,
-  onHover: n,
-  onClose: r,
-}) {
-  const a = useUpscale(styles$1[`base__${e}`], styles$1[`base__${upscaleImageSizes[e]}`]);
-  return jsxRuntimeExports.jsx("div", {
-    className: cx(styles$1.base, a, s),
-    onMouseEnter: () => {
-      (play.sound(u), n?.());
-    },
-    onClick: () => {
-      (play.sound(t), r());
-    },
-  });
-}
-CloseButton.size = sizes;
-const base = "Tooltip_6d997cee",
+  base = "Tooltip_6d997cee",
   decorator = "Tooltip_decorator_b3486d4e",
   styles = { base: base, decorator: decorator },
   Base = defineStyledComponent("Base", styles.base),
@@ -5489,13 +5489,13 @@ export {
   JSXBuilder as M,
   UIProvider as N,
   runView as O,
-  FormatText as P,
-  initExternalPaddings$1 as Q,
+  CloseButton as P,
+  FormatText as Q,
   Rewards as R,
   SceneWrapper as S,
   Tooltip$1 as T,
   UPSCALE as U,
-  CloseButton as V,
+  initExternalPaddings$1 as V,
   noop as W,
   Tooltip as X,
   useSimpleTooltip as a,

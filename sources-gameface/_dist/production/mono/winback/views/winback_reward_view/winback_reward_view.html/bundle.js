@@ -7,54 +7,54 @@ import {
   j as t,
   h as c,
   i as l,
-  A as n,
+  z as d,
 } from "../../../chunks/vendor.js";
 import {
-  i as d,
-  f as o,
-  G as _,
+  i as n,
+  g as o,
+  f as _,
   n as w,
-  j as R,
-  H as m,
+  c as R,
+  p as m,
   r as u,
   a as b,
   C as h,
   B as p,
-  J as E,
-  o as g,
-  K as x,
-  L as v,
-  p as f,
-  M as N,
-  N as S,
-  O as C,
+  d as E,
+  e as g,
+  h as v,
+  j as x,
+  k as f,
+  I as N,
+  l as S,
+  m as C,
   D as j,
-  Q as I,
+  o as I,
   F as k,
   t as V,
   q as T,
-  k as O,
-  R as y,
-  V as L,
-  W as A,
+  s as O,
+  v as y,
+  M as L,
+  R as A,
   u as D,
   T as z,
   b as M,
   U as F,
 } from "../../../chunks/lib.js";
-import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_model.js";
+import { R as P, a as H, A as G } from "../../../chunks/winback_reward_view_model.js";
 /* empty css                    */ const $ = [
-    H.SELECTABLE_VEHICLE_FOR_GIFT,
-    H.SELECTABLE_VEHICLE_DISCOUNT,
+    P.SELECTABLE_VEHICLE_FOR_GIFT,
+    P.SELECTABLE_VEHICLE_DISCOUNT,
   ],
   B = [
-    H.VEHICLE_FOR_GIFT,
-    H.VEHICLE_FOR_RENT,
-    H.VEHICLE_DISCOUNT,
-    H.SELECTABLE_VEHICLE_FOR_GIFT,
-    H.SELECTABLE_VEHICLE_DISCOUNT,
+    P.VEHICLE_FOR_GIFT,
+    P.VEHICLE_FOR_RENT,
+    P.VEHICLE_DISCOUNT,
+    P.SELECTABLE_VEHICLE_FOR_GIFT,
+    P.SELECTABLE_VEHICLE_DISCOUNT,
   ],
-  [W, U] = d("WinbackRewardViewModel")(
+  [W, U] = n("WinbackRewardViewModel")(
     ({ observableModel: a }) => {
       const r = {
           primitives: a.primitives([
@@ -67,9 +67,9 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
         },
         i = s(() => {
           switch (r.primitives.state.get()) {
-            case P.WINBACK_PROGRESSION_COMPLETED:
-              return n();
-            case P.REGULAR_PROGRESSION_COMPLETED:
+            case H.WINBACK_PROGRESSION_COMPLETED:
+              return d();
+            case H.REGULAR_PROGRESSION_COMPLETED:
               return R() ? l() : u();
             default:
               return u();
@@ -77,26 +77,26 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
         }),
         t = s(() => {
           switch (r.primitives.state.get()) {
-            case P.WINBACK_PROGRESSION_COMPLETED:
-              return d();
-            case P.REGULAR_PROGRESSION_COMPLETED:
+            case H.WINBACK_PROGRESSION_COMPLETED:
+              return n();
+            case H.REGULAR_PROGRESSION_COMPLETED:
               return R() ? c() : b();
             default:
               return b();
           }
         }),
-        c = s(() => o(r.rewards.get(), (e) => !B.includes(e.name))),
-        l = s(() => o(r.rewards.get(), (e) => B.includes(e.name))),
-        n = s(() => o(r.rewards.get(), (e) => $.includes(e.name))),
-        d = s(() => o(r.rewards.get(), (e) => !$.includes(e.name))),
+        c = s(() => _(r.rewards.get(), (e) => !B.includes(e.name))),
+        l = s(() => _(r.rewards.get(), (e) => B.includes(e.name))),
+        d = s(() => _(r.rewards.get(), (e) => $.includes(e.name))),
+        n = s(() => _(r.rewards.get(), (e) => !$.includes(e.name))),
         w = s(() => {
           const e = r.rewards.get();
-          return 1 === e.length && _(e, 0)?.name === H.VEHICLE_FOR_GIFT;
+          return 1 === e.length && o(e, 0)?.name === P.VEHICLE_FOR_GIFT;
         }),
-        R = s(() => Boolean(o(r.rewards.get(), (e) => B.includes(e.name)).length)),
-        m = s(() => Boolean(n().length)),
-        u = s(() => o(r.rewards.get(), (e, s) => s < r.firstRowMaxRewardsCount.get())),
-        b = s(() => o(r.rewards.get(), (e, s) => s >= r.firstRowMaxRewardsCount.get()));
+        R = s(() => Boolean(_(r.rewards.get(), (e) => B.includes(e.name)).length)),
+        m = s(() => Boolean(d().length)),
+        u = s(() => _(r.rewards.get(), (e, s) => s < r.firstRowMaxRewardsCount.get())),
+        b = s(() => _(r.rewards.get(), (e, s) => s >= r.firstRowMaxRewardsCount.get()));
       return {
         ...r.primitives,
         ...r,
@@ -107,16 +107,16 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
           hasVehicleRewards: R,
           hasOnlyVehicleForGiftReward: w,
           isRibbonGold: s(() =>
-            [P.WINBACK_PROGRESSION_COMPLETED, P.REGULAR_PROGRESSION_COMPLETED].includes(
+            [H.WINBACK_PROGRESSION_COMPLETED, H.REGULAR_PROGRESSION_COMPLETED].includes(
               r.primitives.state.get(),
             ),
           ),
           isGlowVisible: s(() =>
-            [P.WELCOME, P.REGULAR_PROGRESSION_COMPLETED, P.WINBACK_PROGRESSION_COMPLETED].includes(
+            [H.WELCOME, H.REGULAR_PROGRESSION_COMPLETED, H.WINBACK_PROGRESSION_COMPLETED].includes(
               r.primitives.state.get(),
             ),
           ),
-          isLinesVisible: s(() => ![P.PROGRESSION_STEP].includes(r.primitives.state.get())),
+          isLinesVisible: s(() => ![H.PROGRESSION_STEP].includes(r.primitives.state.get())),
         },
       };
     },
@@ -129,8 +129,8 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
     }),
   ),
   K = "Actions_afedde92",
-  Q = "Actions_button_d816f92b",
-  q = u.resolve("strings"),
+  q = "Actions_button_d816f92b",
+  Q = u.resolve("strings"),
   Y = i(function () {
     const { model: e, controls: s } = U(),
       { secondRowRewardsShowed: a } = r.useContext(ye),
@@ -160,7 +160,7 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
           [s, i]
         );
       })(`.${E.base}`),
-      c = { size: b.medium, mixClass: Q, disabled: !a };
+      c = { size: b.medium, mixClass: q, disabled: !a };
     return e.isFirstProgressionStep.get()
       ? t.jsx("div", {
           className: K,
@@ -169,7 +169,7 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
             onClick: s.showQuests,
             type: p.primary,
             ...c,
-            children: q.readOrEmpty("winback.winbackRewardView.buttons.showQuests"),
+            children: Q.readOrEmpty("winback.winbackRewardView.buttons.showQuests"),
           }),
         })
       : e.computes.hasSelectableRewards() && e.isSelectableAwardAvailable.get()
@@ -181,13 +181,13 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
                 onClick: s.selectReward,
                 type: p.primary,
                 ...c,
-                children: q.readOrEmpty("winback.winbackRewardView.buttons.selectReward"),
+                children: Q.readOrEmpty("winback.winbackRewardView.buttons.selectReward"),
               }),
               t.jsx(h, {
                 onClick: s.close,
                 type: p.secondary,
                 ...c,
-                children: q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
+                children: Q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
               }),
             ],
           })
@@ -200,13 +200,13 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
                   onClick: s.showVehicle,
                   type: p.primary,
                   ...c,
-                  children: q.readOrEmpty("winback.winbackRewardView.buttons.showVehicle"),
+                  children: Q.readOrEmpty("winback.winbackRewardView.buttons.showVehicle"),
                 }),
                 t.jsx(h, {
                   onClick: s.close,
                   type: p.secondary,
                   ...c,
-                  children: q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
+                  children: Q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
                 }),
               ],
             })
@@ -217,7 +217,7 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
                 type: p.primary,
                 onClick: s.close,
                 ...c,
-                children: q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
+                children: Q.readOrEmpty("winback.winbackRewardView.buttons.confirm"),
               }),
             });
   }),
@@ -230,8 +230,8 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
     title__welcome: "Header_title__welcome_ea86e315",
   },
   X = u.resolve("strings"),
-  Z = [P.SELECTED_REWARDS, P.PROGRESSION_STEP, P.WINBACK_PROGRESSION_COMPLETED],
-  ee = [P.REGULAR_PROGRESSION_COMPLETED],
+  Z = [H.SELECTED_REWARDS, H.PROGRESSION_STEP, H.WINBACK_PROGRESSION_COMPLETED],
+  ee = [H.REGULAR_PROGRESSION_COMPLETED],
   se = i(function () {
     const { model: e } = U(),
       s = e.state.get();
@@ -259,9 +259,9 @@ import { R as H, a as P, A as G } from "../../../chunks/winback_reward_view_mode
   }),
   ae = (e, s) => ({
     name: e.name,
-    image: v(e, s),
+    image: x(e, s),
     value: e.value,
-    valueType: x(e.name),
+    valueType: v(e.name),
     special: e.overlayType,
     tooltipArgs: g({ [G]: e.tooltipId }, Number(e.tooltipContentId), { ignoreShowDelay: !0 }),
   }),
@@ -278,7 +278,7 @@ function te({ index: e = 0, delay: s = 0, onEnd: a, children: r }) {
     },
     onRest: a,
   });
-  return t.jsx(n.div, { className: ie, style: i, children: r });
+  return t.jsx(d.div, { className: ie, style: i, children: r });
 }
 const ce = {
     base: "RegularReward_8b391676",
@@ -304,10 +304,10 @@ const ce = {
     400: N.S400x300,
     600: N.S600x450,
   };
-function ne({ size: e, bonus: s, className: a }) {
+function de({ size: e, bonus: s, className: a }) {
   const r = le[e],
-    { name: i, image: l, value: n, valueType: d, special: o, tooltipArgs: _ } = ae(s, r),
-    w = S(n, d),
+    { name: i, image: l, value: d, valueType: n, special: o, tooltipArgs: _ } = ae(s, r),
+    w = S(d, n),
     R = C(o);
   return t.jsx(j, {
     tooltipArgs: _,
@@ -323,11 +323,11 @@ function ne({ size: e, bonus: s, className: a }) {
             },
           }),
         t.jsxs("div", {
-          className: c(ce.value, ce[`value__${i}`], ce[`value__${d}`]),
+          className: c(ce.value, ce[`value__${i}`], ce[`value__${n}`]),
           children: [
             w,
             i === I.PremiumPlus &&
-              "14" === n &&
+              "14" === d &&
               t.jsx(k, {
                 path: "winback.winbackRewardView.premiumPlus",
                 className: ce.premiumPlusText,
@@ -338,7 +338,7 @@ function ne({ size: e, bonus: s, className: a }) {
     }),
   });
 }
-const de = {
+const ne = {
   base: "SelectableReward_4c8d1030",
   base__size180: "SelectableReward_base__size180_64a72357",
   base__size360: "SelectableReward_base__size360_5997ac92",
@@ -355,41 +355,41 @@ function oe({
   name: r,
   size: i,
   className: l,
-  priceDiscount: n,
-  expDiscount: d,
+  priceDiscount: d,
+  expDiscount: n,
 }) {
-  const o = r === H.SELECTABLE_VEHICLE_DISCOUNT,
+  const o = r === P.SELECTABLE_VEHICLE_DISCOUNT,
     _ = V(a);
   return t.jsx(j, {
     tooltipArgs: g({ [G]: e }, Number(s), { ignoreShowDelay: !0 }),
     children: t.jsxs("div", {
-      className: c(de.base, de[`base__size${i}`], l),
+      className: c(ne.base, ne[`base__size${i}`], l),
       children: [
         t.jsxs("div", {
-          className: de.image,
+          className: ne.image,
           children: [
-            t.jsx("div", { className: de.levelMark, children: _ }),
-            o && t.jsx("div", { className: de.discountMark }),
+            t.jsx("div", { className: ne.levelMark, children: _ }),
+            o && t.jsx("div", { className: ne.discountMark }),
           ],
         }),
-        o && 0 !== d && 0 !== n
+        o && 0 !== n && 0 !== d
           ? t.jsx(k, {
               path: "winback.winbackRewardView.selectableReward.discount",
               params: {
                 level: _,
                 color1: "#f2f2f7",
                 color2: "#fd9",
-                expDiscount: d,
-                priceDiscount: n,
+                expDiscount: n,
+                priceDiscount: d,
               },
-              className: de.title,
+              className: ne.title,
             })
           : t.jsx(k, {
               path: o
                 ? "winback.winbackRewardView.selectableReward.reserveDiscount"
                 : "winback.winbackRewardView.selectableReward.gift",
               params: { level: _ },
-              className: de.title,
+              className: ne.title,
             }),
       ],
     }),
@@ -425,8 +425,8 @@ function me({
   isElite: r,
   isFromStorage: i,
   vehicleName: l,
-  vehicleLvl: n,
-  vehicleType: d,
+  vehicleLvl: d,
+  vehicleType: n,
   userName: o,
   nation: _,
   size: w,
@@ -435,12 +435,12 @@ function me({
   priceDiscount: u,
   expDiscount: b,
 }) {
-  const h = e === H.VEHICLE_FOR_RENT,
-    p = e === H.VEHICLE_DISCOUNT,
+  const h = e === P.VEHICLE_FOR_RENT,
+    p = e === P.VEHICLE_DISCOUNT,
     E = `R.images.gui.maps.shop.vehicles.c_${we[w]}.${T(l)}`,
-    x = `R.images.gui.maps.icons.filters.nations.${_}`,
-    v = T(d),
-    f = `R.images.gui.maps.icons.vehicleTypes.${r ? (180 === w ? `elite.${v}` : `big.${v}_elite`) : 180 === w ? `c_24x24.${v}` : `big.${v}`}`;
+    v = `R.images.gui.maps.icons.filters.nations.${_}`,
+    x = T(n),
+    f = `R.images.gui.maps.icons.vehicleTypes.${r ? (180 === w ? `elite.${x}` : `big.${x}_elite`) : 180 === w ? `c_24x24.${x}` : `big.${x}`}`;
   return t.jsx(j, {
     tooltipArgs: g({ [G]: s }, Number(a), { ignoreShowDelay: !0 }),
     children: t.jsxs("div", {
@@ -457,8 +457,8 @@ function me({
         t.jsxs("div", {
           className: _e.title,
           children: [
-            t.jsx("div", { className: _e.nation, style: { backgroundImage: `url('${x}')` } }),
-            V(n),
+            t.jsx("div", { className: _e.nation, style: { backgroundImage: `url('${v}')` } }),
+            V(d),
             t.jsx("div", {
               className: _e.typeContainer,
               children: t.jsx("div", {
@@ -538,20 +538,20 @@ const ue = {
       r = s.computes.getFirstRowRewards().length - 1,
       i = s.computes.hasVehicleRewards(),
       l = he[a.name][r],
-      n = i ? l : be[a.name][r];
+      d = i ? l : be[a.name][r];
     switch (e.name) {
-      case H.VEHICLE_FOR_GIFT:
-      case H.VEHICLE_DISCOUNT:
-      case H.VEHICLE_FOR_RENT:
+      case P.VEHICLE_FOR_GIFT:
+      case P.VEHICLE_DISCOUNT:
+      case P.VEHICLE_FOR_RENT:
         return t.jsx(me, { ...e, size: l });
-      case H.SELECTABLE_VEHICLE_FOR_GIFT:
-      case H.SELECTABLE_VEHICLE_DISCOUNT:
+      case P.SELECTABLE_VEHICLE_FOR_GIFT:
+      case P.SELECTABLE_VEHICLE_DISCOUNT:
         return t.jsx(oe, { ...e, size: l });
       default:
-        return t.jsx(ne, {
+        return t.jsx(de, {
           bonus: e,
-          size: n,
-          className: c(ue.reward, i && ue[`reward__offset${n}`]),
+          size: d,
+          className: c(ue.reward, i && ue[`reward__offset${d}`]),
         });
     }
   }),
@@ -571,15 +571,15 @@ function ge({
   tooltipContentId: r,
   vehicleLvl: i,
   userName: l,
-  size: n,
-  className: d,
+  size: d,
+  className: n,
 }) {
-  const o = e === H.VEHICLE_DISCOUNT,
+  const o = e === P.VEHICLE_DISCOUNT,
     _ = T(s).toLowerCase();
   return t.jsx(j, {
     tooltipArgs: g({ [G]: a }, Number(r), { ignoreShowDelay: !0 }),
     children: t.jsxs("div", {
-      className: c(Ee.base, Ee[`base__${n}`], d),
+      className: c(Ee.base, Ee[`base__${d}`], n),
       children: [
         t.jsxs("div", {
           className: Ee.imageWrapper,
@@ -597,20 +597,20 @@ function ge({
     }),
   });
 }
-const xe = "SecondRowRewardsResolver_reward_9a61ab72";
-function ve({ reward: e }) {
+const ve = "SecondRowRewardsResolver_reward_9a61ab72";
+function xe({ reward: e }) {
   const { breakpoint: s } = O(),
     a = s.width >= L.Medium ? N.Big : N.Small;
   switch (e.name) {
-    case H.SELECTABLE_VEHICLE_DISCOUNT:
-    case H.SELECTABLE_VEHICLE_FOR_GIFT:
+    case P.SELECTABLE_VEHICLE_DISCOUNT:
+    case P.SELECTABLE_VEHICLE_FOR_GIFT:
       return null;
-    case H.VEHICLE_FOR_RENT:
-    case H.VEHICLE_FOR_GIFT:
-    case H.VEHICLE_DISCOUNT:
-      return t.jsx(ge, { ...e, size: a, className: xe });
+    case P.VEHICLE_FOR_RENT:
+    case P.VEHICLE_FOR_GIFT:
+    case P.VEHICLE_DISCOUNT:
+      return t.jsx(ge, { ...e, size: a, className: ve });
     default:
-      return t.jsx(A, { ...ae(e, a), size: a, className: xe });
+      return t.jsx(A, { ...ae(e, a), size: a, className: ve });
   }
 }
 const fe = {
@@ -632,9 +632,9 @@ const fe = {
       a = e.computes.isLinesVisible(),
       i = e.computes.isGlowVisible(),
       l = e.computes.getFirstRowRewards(),
-      n = e.computes.getSecondRowRewards(),
+      d = e.computes.getSecondRowRewards(),
       {
-        firstRowRewardsShowed: d,
+        firstRowRewardsShowed: n,
         setFirstRowRewardsShowed: o,
         setSecondRowRewardsShowed: _,
       } = r.useContext(ye),
@@ -646,10 +646,10 @@ const fe = {
       }, [_]);
     return (
       r.useEffect(() => {
-        0 === n.length && d && _(!0);
-      }, [d, n, _]),
+        0 === d.length && n && _(!0);
+      }, [n, d, _]),
       t.jsxs("div", {
-        className: c(fe.base, n.length && fe.base__withSecondRow),
+        className: c(fe.base, d.length && fe.base__withSecondRow),
         children: [
           t.jsxs("div", {
             className: fe.firstRow,
@@ -674,8 +674,8 @@ const fe = {
               ),
             ],
           }),
-          Boolean(n.length) &&
-            d &&
+          Boolean(d.length) &&
+            n &&
             t.jsxs("div", {
               className: fe.secondRow,
               children: [
@@ -685,14 +685,14 @@ const fe = {
                 }),
                 t.jsx("div", {
                   className: fe.secondRowRewards,
-                  children: n.map((e, s) =>
+                  children: d.map((e, s) =>
                     t.jsx(
                       te,
                       {
                         index: s,
                         delay: 200,
-                        onEnd: s === n.length - 1 ? R : void 0,
-                        children: t.jsx(ve, { reward: e }),
+                        onEnd: s === d.length - 1 ? R : void 0,
+                        children: t.jsx(xe, { reward: e }),
                       },
                       e.index,
                     ),
@@ -717,15 +717,15 @@ const fe = {
     const { model: e, controls: s } = U(),
       { screenWidthRem: a } = O(),
       [i, l] = r.useState(!1),
-      [n, d] = r.useState(!1),
+      [d, n] = r.useState(!1),
       o = r.useMemo(
         () => ({
           firstRowRewardsShowed: i,
-          secondRowRewardsShowed: n,
+          secondRowRewardsShowed: d,
           setFirstRowRewardsShowed: l,
-          setSecondRowRewardsShowed: d,
+          setSecondRowRewardsShowed: n,
         }),
-        [i, n],
+        [i, d],
       );
     (r.useLayoutEffect(() => {
       s.setFirstRowMaxRewardsCount(a < 2048 ? 4 : 5);
@@ -748,7 +748,7 @@ const fe = {
           }),
           t.jsx("div", { className: Ie, children: t.jsx(se, {}) }),
           t.jsx("div", { className: c(ke, _ && Ve), children: t.jsx(Se, {}) }),
-          t.jsx("div", { className: c(Te, n && Oe), children: t.jsx(Y, {}) }),
+          t.jsx("div", { className: c(Te, d && Oe), children: t.jsx(Y, {}) }),
         ],
       }),
     });

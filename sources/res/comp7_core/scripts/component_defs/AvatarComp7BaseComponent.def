@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<CellMethods>
+		<chooseVehicleForBan>
+			<Exposed></Exposed>
+			<Arg>INT64</Arg>
+		</chooseVehicleForBan>
+		<confirmBanVehicle>
+			<Exposed></Exposed>
+		</confirmBanVehicle>
+	</CellMethods>
+	<ofEntity>
+		<Avatar></Avatar>
+	</ofEntity>
+	<DefaultKeyName>avatarComp7BaseComponent</DefaultKeyName>
+</root>

@@ -1,15 +1,15 @@
 import { D as s, j as e } from "../../../../chunks/vendor.js";
 import {
   i as o,
-  m as a,
-  V as i,
-  a4 as r,
-  a5 as t,
+  m as i,
+  L as a,
+  Y as r,
+  Z as t,
   n,
-  a6 as l,
+  $ as l,
   g as d,
   F as m,
-  a7 as c,
+  a0 as c,
   r as p,
 } from "../../../../chunks/lib.js";
 import { D as u } from "../../../../chunks/divider.js";
@@ -22,11 +22,11 @@ const [j, k] = o()(
       specConditions: s.transform((s) => _(s), "specialConditionIds"),
       rewards: s.transform(
         (s) =>
-          a(s, (s) => {
+          i(s, (s) => {
             return {
-              size: i.Small,
+              size: a.Small,
               name: s.name,
-              image: t(s, i.Small),
+              image: t(s, a.Small),
               value: s.value,
               valueType: r(s.name),
               special:
@@ -61,7 +61,7 @@ const [j, k] = o()(
         o.length > 0 && e.jsx(v, { specConditions: o, className: f }),
         e.jsx(u, { className: h }),
         e.jsx(m, { path: "user_missions.tooltip.daily_quests.rewards", className: T }),
-        e.jsx(c, { data: s.rewards.get(), size: i.Small, classMix: x, rewardItemClassMix: b }),
+        e.jsx(c, { data: s.rewards.get(), size: a.Small, classMix: x, rewardItemClassMix: b }),
       ],
     });
   });

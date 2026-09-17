@@ -1,5 +1,5 @@
 import { j as s } from "../../../../chunks/vendor.js";
-import { K as e, J as i, U as n, r as t } from "../../../../chunks/lib.js";
+import { w as e, J as i, U as n, r as t } from "../../../../chunks/lib.js";
 /* empty css                       */ const a = "Content_31a760a2",
   r = "Content_title_1fdee2fe",
   o = "Content_image_a2b2b7e0",

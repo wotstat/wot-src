@@ -1,14 +1,14 @@
 import { r as s, j as n } from "../../../chunks/vendor.js";
-import { h as t } from "../../../chunks/lib.js";
-const c = {};
-function e() {
-  const [t, e] = s.useState(0);
+import { r } from "../../../chunks/lib.js";
+const t = {};
+function c() {
+  const [r, c] = s.useState(0);
   return n.jsxs("div", {
-    className: c.base,
+    className: t.base,
     children: [
       n.jsx("div", { children: "Template" }),
-      n.jsxs("button", { onClick: () => e((s) => s + 1), children: ["count is ", t, "!"] }),
+      n.jsxs("button", { onClick: () => c((s) => s + 1), children: ["count is ", r, "!"] }),
     ],
   });
 }
-t(n.jsx(e, {}));
+r(n.jsx(c, {}));

@@ -1,5 +1,5 @@
 import { j as o, t as e } from "../../../../chunks/vendor.js";
-import { i as s, n as i, aM as r, ao as n, aH as t, aK as a } from "../../../../chunks/lib.js";
+import { i as s, n as i, aN as r, ao as n, aH as t, aK as a } from "../../../../chunks/lib.js";
 const [c, d] = s()(({ observableModel: o }) => o.primitives(["icon", "header", "description"]), i),
   p = "MinorShortTooltipApp_c7f66d5d",
   l = "MinorShortTooltipApp_icon_e512c4",
