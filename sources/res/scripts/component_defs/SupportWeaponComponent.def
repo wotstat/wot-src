@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Implements>
+		<Interface>SecondaryGunActivatorInterface</Interface>
+	</Implements>
+	<DetailLevel>MY_VEHICLE</DetailLevel>
+	<Properties>
+		<status>
+			<Type>SUPPORT_WEAPON_STATUS</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</status>
+	</Properties>
+	<ClientMethods></ClientMethods>
+	<DefaultKeyName>supportWeaponComponent</DefaultKeyName>
+</root>

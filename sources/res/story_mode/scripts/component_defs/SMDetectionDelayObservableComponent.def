@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<CellMethods></CellMethods>
+	<ClientMethods></ClientMethods>
+	<Properties>
+		<timers>
+			<Type>PYTHON</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<AllowUnsafeData>true</AllowUnsafeData>
+			<Default>{}</Default>
+		</timers>
+	</Properties>
+	<ofEntity>
+		<Vehicle></Vehicle>
+	</ofEntity>
+	<DefaultKeyName>SMDetectionDelayObservableComponent</DefaultKeyName>
+</root>

@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "เมื่อเปิด กล่องชิ้นส่วนเหล่านี้อาจจะมอบพาหนะพิเศษ, สกุลเงินในเกมและสิ่งของมีค่าอื่นๆให้"
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "กล่องชิ้นส่วนย้อนแย้งสามารถหาได้จากร้านค้าในเกมหรือร้านค้าพิเศษ"
+msgstr "กล่องประจุสายฟ้านั้นมีให้ในร้านค้าในเกม"
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "กล่องชิ้นส่วนย้อนแย้ง"
+msgstr "กล่องประจุสายฟ้า"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "กล่องชิ้นส่วนย้อนแย้ง"
+msgstr "กล่องประจุสายฟ้า"
 
 msgid "common/getButton/lowerCase"
 msgstr "ไปยังกล่องชิ้นส่วน"
@@ -31,11 +31,17 @@ msgstr "ไปยังกล่องชิ้นส่วน"
 msgid "common/loader"
 msgstr "กำลังเปิดกล่องชิ้นส่วน"
 
+msgid "common/selectTooltip"
+msgstr "มีกล่องประจุสายฟ้าไม่พอให้เปิดห้าอันพร้อมกัน"
+
 msgid "common/statistics/emptyHeader"
 msgstr "เปิดกล่องชิ้นส่วนเพื่อดูสถิติ"
 
 msgid "common/statistics/header"
-msgstr "เปิดกล่องชิ้นส่วนแล้ว: %(count)"
+msgstr "เปิดกล่องประจุสายฟ้าแล้ว:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "กล่องประจุสายฟ้าจะเปิดอีกครั้งสำหรับโอกาสในการได้รับรางวัลที่ต่างออกไป"
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "ข้อมูลทั้งหมดของกล่องชิ้นส่วนที่เปิดจะถูกลบออกไป"
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "ไปยังกล่องชิ้นส่วน"
 
 msgid "entryPoint/tooltip/description"
-msgstr "เหล่านี้คือกล่องชิ้นส่วนพิเศษที่ประกอบด้วยสิ่งของใหม่ที่เป็นเอกลักษณ์รวมไปถึงพาหนะพิเศษ, องค์ประกอบปรับแต่ง, สกุลเงินในเกมและรางวัลมีค่าอื่นๆ\nกล่องชิ้นส่วนเหล่านี้สามารถหาได้จากร้านค้าในเกมหรือร้านค้าพิเศษ"
+msgstr "กล่องประจุสายฟ้านี้มีสิ่งของใหม่และสิ่งของที่เป็นเอกลักษณ์ กล่องสามารถซื้อได้จากร้านค้าในเกม"
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "กล่องชิ้นส่วนไม่สามารถเปิดหรือหาได้ในขณะนี้เนื่องด้วยเหตุทางเทคนิค ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "กล่องชิ้นส่วนไม่มีให้ชั่วคราว"
 
 msgid "eventName/lowerCase"
-msgstr "ทำลายความย้อนแย้ง"
+msgstr "ขี่วายุ"
 
 msgid "eventName/upperCase"
-msgstr "ทำลายความย้อนแย้ง"
+msgstr "ขี่วายุ"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "รางวัลรับประกันในกล่องชิ้นส่วนถัดไป!"
@@ -64,14 +70,23 @@ msgstr "รางวัลรับประกันในกล่องชิ
 msgid "guaranteedTitle/text"
 msgstr "กล่องชิ้นส่วนจำนวนสูงสุดก่อนที่จะได้รับรางวัลรับประกัน: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "ถ้าคุณไม่เปิดกล่องชิ้นส่วนก่อนที่กิจกรรมจบลง ก็จะทำการเปิดกล่องโดยอัตโนมัติ"
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "ถ้าคุณยังไม่ได้เปิดกล่องประจุสายฟ้าก่อนช่วงท้ายกิจกรรม ก็จะทำการเปิดกล่องดังกล่าวโดยอัตโนมัติ"
 
-msgid "infoPage/footer/description/compensation"
-msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของกล่องชิ้นส่วนแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากกล่องชิ้นส่วนจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
+msgid "infoPage/footer/description/compensation/wt"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของกล่องประจุสายฟ้าแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากกล่องชิ้นส่วนจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "ทุกๆ %(guaranteed0)s กล่องชิ้นส่วนจะรับประกันว่าจะมีพาหนะพิเศษให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องชิ้นส่วนที่ %(guaranteed0)s และเมื่อได้รับแล้วตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "ทุกๆ %(guaranteed)s กล่องประจุสายฟ้าจะรับประกันว่าจะมีพาหนะพิเศษให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องประจุสายฟ้าที่ %(guaranteed)s และเมื่อได้รับแล้วตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "หากคุณยังไม่พอใจกับรางวัลที่ได้จากกล่องประจุสายฟ้า คุณสามารถเปิดใหม่ได้โดยมีโอกาสในการได้รับรางวัลที่ต่างออกไปจากรายการเดียวกัน แต่ละกล่องประจุสายฟ้าสามารถเปิดใหม่ได้อีกในจำนวนครั้งที่จำกัด:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "เปิดอัตโนมัติ"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "ค่าชดเชย"
 
 msgid "infoPage/header/description"
 msgstr "เปิดกล่องชิ้นส่วนดังกล่าวเพื่อโอกาสในการได้รับสิ่งของที่มีค่าในเกมกัน! มาดูรายละเอียดกันได้ที่ด้านล่าง"
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "จาก %(name) (เปิดกล่องชิ้นส่วนไป %(boxesCount) กล่อง)"
 
 msgid "noBoxesView/description/"
-msgstr "ถ้าคุณไม่มีกล่องชิ้นส่วนใดๆ คุณสามารถซื้อได้\nจากร้านค้าในเกมหรือร้านค้าพิเศษ"
+msgstr "กล่องประจุสายฟ้านั้นมีให้ในร้านค้าในเกม"
+
+msgid "noBoxesView/goToButton/"
+msgstr "ไปยังกล่องประจุสายฟ้าที่มี"
 
 msgid "preview/backLabel"
 msgstr "ไปยังกล่องชิ้นส่วน"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "มีกล่องชิ้นส่วนให้: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "ไม่มีกล่องชิ้นส่วนให้"
+msgstr "ไม่มีกล่องประจุสายฟ้า"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "ถ้าคุณได้รับพาหนะทั้งหมดจากรายการเนื้อหากล่องชิ้นส่วนที่เป็นไปได้แล้วพาหนะทั้งหมดที่เหลือที่คุณได้รับจากกล่องชิ้นส่วนก็จะทำการชดเชยให้เป็นทองแทน"
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) กล่องชิ้นส่วน"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของกล่องชิ้นส่วนที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) กล่องชิ้นส่วนโดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดกล่องชิ้นส่วนที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"
+
+msgid "tooltip/reroll/text/wt"
+msgstr "การเปิดกล่องประจุสายฟ้าอีกครั้งจะทำให้คุณมีโอกาสในการได้รับรางวัลที่ต่างออกไปจากชุดรายชื่อเดียวกัน"

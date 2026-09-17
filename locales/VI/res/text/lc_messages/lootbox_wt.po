@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Khi được mở, các Module này có thể đem lại xe Premium, tiền tệ trong game và nhiều quà khác đầy giá trị cho bạn."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Bạn có thể sở hữu Paradoxmodul ở Cửa hàng trong game hoặc Shop Premium."
+msgstr "Module có ở Cửa hàng trong game."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Module"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODULE"
 
 msgid "common/getButton/lowerCase"
 msgstr "Lấy Module"
@@ -31,11 +31,17 @@ msgstr "LẤY MODULE"
 msgid "common/loader"
 msgstr "Đang mở Module..."
 
+msgid "common/selectTooltip"
+msgstr "Không đủ Module để mở cùng lúc 5 cái"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Mở Module để xem thống kê."
 
 msgid "common/statistics/header"
-msgstr "Số Module đã mở: %(count)"
+msgstr "Module đã mở:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Module sẽ được mở lại để có cơ hội nhận các phần thưởng khác."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Mọi thông tin về các Module đã mở sẽ bị xóa."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "ĐẾN MODULE"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Đây là những Module đặc biệt chứa đồ mới và độc đáo, gồm cả xe Premium, tùy biến, tiền tệ trong game, cũng như nhiều quà khác đầy giá trị.\nBạn có thể sở hữu Module từ Cửa hàng trong game hoặc Shop Premium."
+msgstr "Đây là những Module đặc biệt chứa đồ mới và độc. Chúng có thể sở hữu từ Cửa hàng trong game."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Hiện không thể mở hay sở hữu Module vì lý do kỹ thuật. Chúng tôi rất tiếc và xin lỗi về vấn đề nhất thời này."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Module Tạm thời Không khả dụng"
 
 msgid "eventName/lowerCase"
-msgstr "Break the Paradox"
+msgstr "Ride the Storm"
 
 msgid "eventName/upperCase"
-msgstr "BREAK THE PARADOX"
+msgstr "RIDE THE STORM"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Phần thưởng Chắc chắn ở Module tiếp theo!"
@@ -64,14 +70,23 @@ msgstr "Phần thưởng Chắc chắn ở Module tiếp theo!"
 msgid "guaranteedTitle/text"
 msgstr "Số Module nhiều nhất trước P.thưởng Chắc chắn: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Nếu bạn không mở Module trước khi sự kiện kết thúc, chúng sẽ được mở tự động."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Nếu bạn không mở Module trước khi sự kiện kết thúc, chúng sẽ tự động được khui."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Nếu đã sở hữu mọi chiếc thuộc danh sách khả dĩ trong Module rồi, tất cả xe mà bạn nhận sau đó từ Module sẽ được đền bù theo vàng đúng toàn bộ giá trị của chúng."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Mỗi %(guaranteed0)s Module chắc chắn đem lại một xe Premium. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một xe Premium chưa sở hữu khi khui Module thứ %(guaranteed0)s. Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Mỗi %(guaranteed)s Module chắc chắn đem lại một xe. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một phương tiện chưa sở hữu khi khui Module thứ %(guaranteed)s. Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Nếu không hài lòng với phần thưởng trong một Module, bạn có thể mở lại Module đó để có cơ hội nhận đồ khác từ danh sách. Mỗi hộp chỉ có thể được mở lại số lần nhất định:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Mở Tự động"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Đền bù"
 
 msgid "infoPage/header/description"
 msgstr "Mở Module để có cơ hội ẵm hàng giá trị trong game! Xem chi tiết dưới đây."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Từ %(name) (đã mở %(boxesCount) Module)"
 
 msgid "noBoxesView/description/"
-msgstr "Không có Module nào. Bạn có thể sở hữu chúng\ntừ Cửa hàng trong game hoặc Shop Premium."
+msgstr "Module có ở Cửa hàng trong game"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Đến Module có sẵn"
 
 msgid "preview/backLabel"
 msgstr "ĐẾN MODULE"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Module khả dụng: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Không Module khả dụng"
+msgstr "Hết Module rồi"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Nếu đã sở hữu mọi phương tiện thuộc danh sách khả dĩ trong Module rồi, tất cả xe mà bạn nhận sau đó từ Module sẽ được đền bù theo vàng."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) Module"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Phần thưởng Chắc chắn là một xe thuộc danh sách khả dĩ trong Module.\nNếu mở %(remainingCount) cái mà chưa nhận được xe nào như thế, bạn sẽ ẵm về một chiếc khi khui Module thứ %(count). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Mở lại một Module sẽ cho bạn cơ hội nhận những phần thưởng khác từ cùng danh sách."

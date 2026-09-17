@@ -7,11 +7,11 @@ import {
   w as o,
   x as l,
   S as p,
-  P as u,
+  Q as u,
   B as d,
   O as m,
   N as _,
-  Q as T,
+  V as T,
 } from "../../../chunks/lib.js";
 const x = "Tips_79909a0",
   v = "Tips_textBlock_182bfa9e",
@@ -73,9 +73,9 @@ const [k, y] = c()(
   ),
   E = "MapsTrainingQueue_sceneWrapper_eb6e1bef",
   O = "MapsTrainingQueue_efb55e16",
-  P = "MapsTrainingQueue_box_4e1afcbd",
-  q = "MapsTrainingQueue_time_5b62c1a7",
-  C = "MapsTrainingQueue_timeValue_a055e4d3",
+  q = "MapsTrainingQueue_box_4e1afcbd",
+  C = "MapsTrainingQueue_time_5b62c1a7",
+  P = "MapsTrainingQueue_timeValue_a055e4d3",
   Q = "MapsTrainingQueue_button_66a29f22",
   A = "MapsTrainingQueue_button__focus_9e1e4044",
   B = "MapsTrainingQueue_title_24c8a587",
@@ -92,7 +92,7 @@ const I = a(function () {
     t = a.time.get(),
     c = i.useMemo(
       function () {
-        return { time: e.jsx("div", { className: C, children: t }) };
+        return { time: e.jsx("div", { className: P, children: t }) };
       },
       [t],
     ),
@@ -122,9 +122,9 @@ const I = a(function () {
           }),
         }),
         e.jsxs("div", {
-          className: P,
+          className: q,
           children: [
-            e.jsx(u, { classMix: q, text: W.readOrEmpty("maps_training.queue.time"), binding: c }),
+            e.jsx(u, { classMix: C, text: W.readOrEmpty("maps_training.queue.time"), binding: c }),
             e.jsx(d, {
               className: s(Q, 0 === _ && A),
               theme: d.themes.secondary,

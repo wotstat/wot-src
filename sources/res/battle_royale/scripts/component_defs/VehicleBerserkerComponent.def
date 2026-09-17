@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<finishTime>
+			<Type>FLOAT32</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</finishTime>
+		<tickInterval>
+			<Type>FLOAT32</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</tickInterval>
+	</Properties>
+	<DefaultKeyName>berserkerComponent</DefaultKeyName>
+</root>

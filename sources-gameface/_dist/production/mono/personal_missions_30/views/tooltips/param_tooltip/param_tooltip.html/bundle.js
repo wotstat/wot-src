@@ -12,7 +12,7 @@ import {
   f as a,
   v as c,
   az as p,
-  y as d,
+  Z as d,
   aA as _,
   r as m,
   F as x,
@@ -146,25 +146,25 @@ const U = Object.freeze(
       { value: "Module" },
     ),
   ),
-  q = "InnerBlock_196a7ac9",
-  J = "InnerBlock_icon_be2c6db5",
-  K = "InnerBlock_textBlock_fedd1516",
-  Q = "InnerBlock_title_5e7e6bb2",
-  R = "InnerBlock_description_37b78534";
-function V() {
+  Z = "InnerBlock_196a7ac9",
+  q = "InnerBlock_icon_be2c6db5",
+  J = "InnerBlock_textBlock_fedd1516",
+  K = "InnerBlock_title_5e7e6bb2",
+  Q = "InnerBlock_description_37b78534";
+function R() {
   return s.jsxs("div", {
-    className: q,
+    className: Z,
     children: [
-      s.jsx("div", { className: J }),
+      s.jsx("div", { className: q }),
       s.jsxs("div", {
-        className: K,
+        className: J,
         children: [
           s.jsx(x, {
             path: "personal_missions_30.tooltip.progression.innerBlock.title",
-            className: Q,
+            className: K,
           }),
           s.jsxs("div", {
-            className: R,
+            className: Q,
             children: [
               s.jsx(z, {
                 children: s.jsx(x, {
@@ -183,10 +183,10 @@ function V() {
     ],
   });
 }
-const W = "Index_40f8809b",
-  X = "Index_title_499790e",
-  Y = "Index_description_d1292557",
-  Z = "Index_footer_162a858a";
+const V = "Index_40f8809b",
+  W = "Index_title_499790e",
+  X = "Index_description_d1292557",
+  Y = "Index_footer_162a858a";
 const $ = Object.freeze(
     Object.defineProperty(
       {
@@ -194,15 +194,15 @@ const $ = Object.freeze(
         default: function () {
           return s.jsx(p.Decorator, {
             children: s.jsxs("div", {
-              className: W,
+              className: V,
               children: [
-                s.jsx(x, { path: "personal_missions_30.tooltip.progression.title", className: X }),
+                s.jsx(x, { path: "personal_missions_30.tooltip.progression.title", className: W }),
                 s.jsx(x, {
                   path: "personal_missions_30.tooltip.progression.description",
-                  className: Y,
+                  className: X,
                 }),
-                s.jsx(h, { children: s.jsx(V, {}) }),
-                s.jsx(x, { path: "personal_missions_30.tooltip.progression.footer", className: Z }),
+                s.jsx(h, { children: s.jsx(R, {}) }),
+                s.jsx(x, { path: "personal_missions_30.tooltip.progression.footer", className: Y }),
               ],
             }),
           });

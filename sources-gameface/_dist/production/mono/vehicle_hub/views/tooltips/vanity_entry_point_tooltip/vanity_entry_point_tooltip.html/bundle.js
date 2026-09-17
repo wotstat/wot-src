@@ -4,7 +4,7 @@ import {
   c as i,
   n,
   r as c,
-  aM as o,
+  aN as o,
   I as p,
   d as l,
   aK as d,
@@ -27,12 +27,12 @@ const j = "App_19d66a47",
   x = "App_image_7518e11e",
   f = "App_description_4c81e48b",
   y =
-    ((A = l(t({ isUnlocked: a() }))),
+    ((N = l(t({ isUnlocked: a() }))),
     function () {
-      return u().model.computes.params(A);
+      return u().model.computes.params(N);
     });
-var A;
-const N = c.resolve("strings"),
+var N;
+const A = c.resolve("strings"),
   k = "veh_skill_tree.tooltips.vanityEntryPoint",
   b = s(function () {
     const { isUnlocked: s } = y();
@@ -41,14 +41,14 @@ const N = c.resolve("strings"),
         children: e.jsxs("div", {
           className: j,
           children: [
-            e.jsx("div", { className: v, children: N.readOrEmpty(`${k}.title`) }),
-            e.jsx("div", { className: _, children: N.readOrEmpty(`${k}.text`) }),
+            e.jsx("div", { className: v, children: A.readOrEmpty(`${k}.title`) }),
+            e.jsx("div", { className: _, children: A.readOrEmpty(`${k}.text`) }),
             !s &&
               e.jsxs("div", {
                 className: h,
                 children: [
                   e.jsx(p, { className: x, path: "skillTree.tree.tooltips.statusInfo" }),
-                  e.jsx("div", { className: f, children: N.readOrEmpty(`${k}.statusInfo`) }),
+                  e.jsx("div", { className: f, children: A.readOrEmpty(`${k}.statusInfo`) }),
                 ],
               }),
           ],

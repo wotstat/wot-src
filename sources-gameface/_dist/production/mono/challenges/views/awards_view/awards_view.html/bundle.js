@@ -4,26 +4,26 @@ import {
   t as d,
   e as o,
   S as c,
-  r as m,
+  a as m,
   b as g,
   u,
   F as _,
   g as h,
-  a as p,
+  c as p,
   p as w,
   m as y,
   R as v,
   B as b,
-  c as f,
+  d as f,
   C as x,
   V as j,
-  d as N,
-  f as I,
+  f as N,
+  h as I,
   k as $,
-  h as S,
-  j as A,
-  l as k,
-  U as C,
+  r as S,
+  U as A,
+  j as k,
+  l as C,
 } from "../../../chunks/lib.js";
 const [E, O] = l()(
   ({ observableModel: a }) => {
@@ -858,6 +858,6 @@ const Me = {
       ],
     });
   });
-S(a.jsx(E, { children: a.jsx(C, { children: a.jsx(Pa, {}) }) }))
-  .then(() => A(document.getElementById("root")))
-  .then(() => k());
+S(a.jsx(E, { children: a.jsx(A, { children: a.jsx(Pa, {}) }) }))
+  .then(() => k(document.getElementById("root")))
+  .then(() => C());

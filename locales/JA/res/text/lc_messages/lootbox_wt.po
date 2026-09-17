@@ -14,7 +14,7 @@ msgid "boxTooltip/description/text/wt"
 msgstr "プレミアム車輌やゲーム内通貨などといった貴重な報酬が一定の確率でドロップする「パラドックス・モジュール」です。"
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "ゲーム内ショップやプレミアムショップでさらに購入できます。"
+msgstr "「パラドックス・モジュール」はゲーム内ショップから入手できます。"
 
 msgid "common/boxCategory/lowerCase/wt"
 msgstr "パラドックス・モジュール"
@@ -31,11 +31,17 @@ msgstr "モジュール開封画面へ"
 msgid "common/loader"
 msgstr "「パラドックス・モジュール」を開封中……"
 
+msgid "common/selectTooltip"
+msgstr "一度に5個開封するには「パラドックス・モジュール」が不足しています。"
+
 msgid "common/statistics/emptyHeader"
 msgstr "「パラドックス・モジュール」を開封して統計を確認"
 
 msgid "common/statistics/header"
-msgstr "開封した「パラドックス・モジュール」: %(count)"
+msgstr "開封した「パラドックス・モジュール」:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "「パラドックス・モジュール」を再開封すると、異なる報酬を入手できる可能性があります。"
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "開封した「パラドックス・モジュール」についてのすべての情報が削除されます。"
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "ボックス画面へ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "プレミアム車輌やカスタマイズ要素、ゲーム内通貨など、新登場および限定のアイテムが一定の確率でドロップする特別なボックスです。\n「パラドックス・モジュール」はゲーム内ショップまたはプレミアムショップから購入できます。"
+msgstr "新登場の限定アイテムが一定の確率でドロップする特別なボックスです。ゲーム内ショップから入手できます。"
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "技術的な理由により、一時的に「パラドックス・モジュール」の開封および入手ができなくなっています。 ご不便をおかけして申し訳ございません。"
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "「パラドックス・モジュール」は一時的に利用不可"
 
 msgid "eventName/lowerCase"
-msgstr "時空の迷宮"
+msgstr "ライド・ザ・ストーム"
 
 msgid "eventName/upperCase"
-msgstr "時空の迷宮"
+msgstr "ライド・ザ・ストーム"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "「パラドックス・モジュール」をもう1個開封すると確約報酬が手に入ります!"
@@ -64,14 +70,23 @@ msgstr "「パラドックス・モジュール」をもう1個開封すると�
 msgid "guaranteedTitle/text"
 msgstr "確約報酬のドロップに必要な開封数: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/wt"
 msgstr "未開封の「パラドックス・モジュール」は、イベント終了時に自動的に開封されます。"
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "「パラドックス・モジュール」からドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償として車輌価格の全額に相当するゴールドを受け取ります。"
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "「パラドックス・モジュール」を%(guaranteed0)s個開封すると、プレミアム車輌が必ず1輌はドロップするようになっています。もしチェストを開封してもプレミアム車輌がドロップしなかった場合、%(guaranteed0)s個目からガレージに未所有のプレミアム車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "「パラドックス・モジュール」を%(guaranteed)s個開封すると、車輌が必ず1輌はドロップするようになっています。もしチェストを開封しても車輌がドロップしなかった場合、%(guaranteed)s個目からガレージに未所有の車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "「パラドックス・モジュール」からドロップした報酬に満足できない場合、再開封することで同じリストから別のアイテムを入手できる可能性があります。各「パラドックス・モジュール」には再開封できる回数に上限があります。"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "自動開封"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "補償"
 
 msgid "infoPage/header/description"
 msgstr "「パラドックス・モジュール」からは貴重なゲーム内アイテムの数々がドロップします。詳細は下記よりご確認ください。"
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "%(name)からドロップ (%(boxesCount)個開封)"
 
 msgid "noBoxesView/description/"
-msgstr "「パラドックス・モジュール」がありません。\n「パラドックス・モジュール」はゲーム内ショップまたはプレミアムショップから購入できます。"
+msgstr "「パラドックス・モジュール」はゲーム内ショップから入手できます。"
+
+msgid "noBoxesView/goToButton/"
+msgstr "所有中の「パラドックス・モジュール」へ"
 
 msgid "preview/backLabel"
 msgstr "「パラドックス・モジュール」へ"
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount)個"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "「確約報酬」とは、「モジュール」からドロップする報酬のリストの中にある車輌のいずれか1輌のことを指します。\nもし「モジュール」を%(remainingCount)回開けてもリストにある車輌がドロップしなかった場合、%(count)個目からガレージに未所有の車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+
+msgid "tooltip/reroll/text/wt"
+msgstr "「パラドックス・モジュール」を再開封すると、同じリストから別の報酬を入手できる可能性があります。"
