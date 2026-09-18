@@ -1,20 +1,20 @@
 {
   "branch": "wot-na",
   "client_type": "sd",
-  "commit_subject": "2.4.0.0 #945",
+  "commit_subject": "2.4.0.1 #950",
   "counts": {
     "locales": {
       "EN": 298,
       "ES_AR": 298,
       "PT_BR": 298
     },
-    "sources": 16310,
+    "sources": 16804,
     "sources_as3": 6568,
     "sources_gameface": 1654,
     "stubs": 97
   },
   "default_locale": "EN",
-  "descriptor_sha256": "0d8e68877038d3de36e27e0a45393a62878f7fe4f02e6da3a7fc10d958b7db26",
+  "descriptor_sha256": "c6dff71ea739ff9899934cd39937df589969b4a22e43ae871ad58c57c6a7bdf4",
   "languages": [
     "EN",
     "ES_AR",
@@ -23,8 +23,8 @@
   "publisher": "wargaming",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-09-10T15:10:49.854041Z",
-  "snapshot_id": "sha256:417c274a0ae00ec2b0a3387c9b22981468f05cf0109d5516a9781c6c4f65c494",
+  "snapshot_created_at": "2026-09-18T12:04:25.662228Z",
+  "snapshot_id": "sha256:e9fc28cb580035ca99a91471eedd593a02e7a914c86d9b36b534dc5ad9518495",
   "target": "wot-na",
-  "version_name": "2.4.0.5438"
+  "version_name": "2.4.0.5451"
 }

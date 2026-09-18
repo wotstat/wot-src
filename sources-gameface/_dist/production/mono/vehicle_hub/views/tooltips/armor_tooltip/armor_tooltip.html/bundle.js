@@ -1,5 +1,5 @@
 import { r as e, j as a, t as s, H as r, g as c, A as t } from "../../../../chunks/vendor.js";
-import { r as o, ao as l, i, n as m, aN as n, aK as p } from "../../../../chunks/lib.js";
+import { r as o, ao as l, i, n as m, aM as n, aK as p } from "../../../../chunks/lib.js";
 import { a as d, D as _ } from "../../../../chunks/armor_model.js";
 const u = "ArmorLayer_94179689",
   v = "ArmorLayer_layer_5ad9db4",
@@ -67,8 +67,8 @@ const u = "ArmorLayer_94179689",
   O = "App_section__angle_0",
   b = "App_section__effective_1febaf50",
   T = "App_section__dcc_4ee5cb89",
-  L = "App_section__dcc_no_damage_369f0583",
-  M = "App_image_4d2b9a23",
+  M = "App_section__dcc_no_damage_369f0583",
+  L = "App_image_4d2b9a23",
   C = "App_image__nominal_4645aa40",
   I = "App_image__angle_a810893a",
   R = "App_image__effective_64e0c709",
@@ -142,7 +142,7 @@ const X = t(function () {
         a.jsxs("div", {
           className: s(g, N && E),
           children: [
-            a.jsx("div", { className: s(M, C) }),
+            a.jsx("div", { className: s(L, C) }),
             N
               ? a.jsxs("div", {
                   className: D,
@@ -183,7 +183,7 @@ const X = t(function () {
         a.jsxs("div", {
           className: s(g, O),
           children: [
-            a.jsx("div", { className: s(M, I) }),
+            a.jsx("div", { className: s(L, I) }),
             a.jsxs("div", {
               className: D,
               children: [
@@ -205,7 +205,7 @@ const X = t(function () {
         a.jsxs("div", {
           className: s(g, b),
           children: [
-            a.jsx("div", { className: s(M, R) }),
+            a.jsx("div", { className: s(L, R) }),
             a.jsxs("div", {
               className: D,
               children: [
@@ -225,11 +225,11 @@ const X = t(function () {
         }),
         a.jsx("div", { className: K, children: a.jsx("div", { className: q }) }),
         a.jsxs("div", {
-          className: s(g, T, X !== _.PENETRATION && L),
+          className: s(g, T, X !== _.PENETRATION && M),
           children: [
             a.jsx("div", {
               className: s(
-                M,
+                L,
                 X === _.PENETRATION && $,
                 X === _.NO_DAMAGE && k,
                 X === _.RICOCHET && P,

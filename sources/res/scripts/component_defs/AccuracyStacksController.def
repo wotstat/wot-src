@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<abilityState>
+			<Type>ACCURACY_STACKS_STATE</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</abilityState>
+	</Properties>
+	<ofEntity>
+		<Vehicle></Vehicle>
+	</ofEntity>
+	<DefaultKeyName>accuracyStacksController</DefaultKeyName>
+</root>

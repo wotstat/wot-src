@@ -1677,37 +1677,38 @@ const shiftBottomAnimation = {
       { boxesCount: c, boxesCountToGuaranteed: l, boxCategory: d } = o.computes.boxInfo(),
       u = o.openingOptions.get(),
       { eventName: p } = o.root.get(),
-      m = useAdaptive(
+      { hasFooterShadow: m } = getConfig(p),
+      x = useAdaptive(
         { buttonSize: Button.sizes.medium },
         { large: { buttonSize: Button.sizes.large } },
       ),
-      x = u.length > 1,
-      b = s === screenMode.withBoxes,
-      _ = n.subViewIDs.get(),
-      y = hasOverlay(_);
-    const E = () => {
+      b = u.length > 1,
+      _ = s === screenMode.withBoxes,
+      y = n.subViewIDs.get(),
+      E = hasOverlay(y);
+    const g = () => {
         (play.sound(r.boxMouseLeave), a.setIsBoxHovered(!1));
       },
-      g = useThrottle(
+      h = useThrottle(
         () => {
-          y || e();
+          E || e();
         },
-        [y, e],
+        [E, e],
         THROTTLE_DELAY$1,
       );
     return (
-      useKeydownListener(keyStringCodes.SPACE, g),
+      useKeydownListener(keyStringCodes.SPACE, h),
       jsxRuntimeExports.jsxs(BoxPanel, {
         eventName: p,
         className: clsx(styles$1.base, t),
         children: [
           l > 0 && jsxRuntimeExports.jsx(BoxPanel.Guaranteed, { counts: l, category: d }),
-          b &&
+          _ &&
             jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
               children: [
                 jsxRuntimeExports.jsxs(BoxPanel.Controls, {
                   children: [
-                    x &&
+                    b &&
                       jsxRuntimeExports.jsx(BoxPanel.Control, {
                         children: jsxRuntimeExports.jsx(Select, {}),
                       }),
@@ -1715,14 +1716,14 @@ const shiftBottomAnimation = {
                       className: styles$1.control,
                       children: jsxRuntimeExports.jsx(Button, {
                         onClick: () => {
-                          y || (E(), e());
+                          E || (g(), e());
                         },
                         className: styles$1.button,
                         onMouseEnter: function () {
                           (play.sound(r.boxMouseEnter), a.setIsBoxHovered(!0));
                         },
-                        onMouseLeave: E,
-                        size: m.buttonSize,
+                        onMouseLeave: g,
+                        size: x.buttonSize,
                         silent: !0,
                         children: i.openButtonText,
                       }),
@@ -1732,6 +1733,7 @@ const shiftBottomAnimation = {
                 jsxRuntimeExports.jsx(BoxPanel.Quantity, { boxesCount: c }),
               ],
             }),
+          m && jsxRuntimeExports.jsx(BoxPanel.Shadow, {}),
         ],
       })
     );
@@ -1750,9 +1752,9 @@ const shiftBottomAnimation = {
   statsButton = "App_statsButton_b992bd88",
   close = "App_close_b1f58b8d",
   headerAnimation = "App_headerAnimation_c3dc2c23",
-  footer = "App_footer_35a0825a",
+  footer = "App_footer_103a2d08",
   boxOpenPanel = "App_boxOpenPanel_a6e2c19d",
-  loader = "App_loader_9f50f8e4",
+  loader = "App_loader_ce88c940",
   checkbox = "App_checkbox_194935ee",
   purchaseButton = "App_purchaseButton_91d9ec24",
   tabs = "App_tabs_7a430c78",

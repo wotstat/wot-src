@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<DetailLevel>MY_VEHICLE</DetailLevel>
+	<ofEntity>
+		<Vehicle></Vehicle>
+	</ofEntity>
+	<Properties>
+		<status>
+			<Type>STATIONARY_RELOAD_STATUS</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</status>
+	</Properties>
+	<DefaultKeyName>stationaryReloadController</DefaultKeyName>
+</root>

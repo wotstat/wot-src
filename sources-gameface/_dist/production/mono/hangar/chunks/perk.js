@@ -1,4 +1,4 @@
-import { du as e, r as n, ax as a } from "./lib.js";
+import { dk as e, r as n, ax as a } from "./lib.js";
 import { j as s, f as i } from "./vendor.js";
 const r = -1,
   t = 1,
@@ -6,12 +6,12 @@ const r = -1,
   l = "new_skill",
   c = -1,
   f = 6,
-  u = 100,
-  d = "doge_role",
+  d = 100,
+  u = "doge_role",
   v = 8,
-  m = "new_skill",
-  b = "brotherhood",
-  k = "default",
+  k = "new_skill",
+  m = "brotherhood",
+  b = "default",
   g = "active",
   _ = "activeDisable",
   h = "disable",
@@ -39,9 +39,9 @@ function L(n) {
       nativeTank: c,
       vehicleBonusDetails: f,
     } = n,
-    u = [];
+    d = [];
   for (const e of s)
-    u.push({
+    d.push({
       id: a,
       name: e.name,
       state: e.state,
@@ -51,11 +51,11 @@ function L(n) {
       nativeTank: c,
       instruction: B(f),
     });
-  for (let d = 0; d < i; d++) {
-    const n = 100 !== r && d === i - 1 ? e.learning : e.learned;
-    u.push({ id: a, name: m, state: n, vehEfficacy: t, efficacy: o, role: l, nativeTank: c });
+  for (let u = 0; u < i; u++) {
+    const n = 100 !== r && u === i - 1 ? e.learning : e.learned;
+    d.push({ id: a, name: k, state: n, vehEfficacy: t, efficacy: o, role: l, nativeTank: c });
   }
-  return u;
+  return d;
 }
 function C(e) {
   const {
@@ -110,9 +110,9 @@ function x(n) {
       ? 1
       : n.state !== e.learning && a.state === e.learning
         ? -1
-        : n.name === m && a.name !== m
+        : n.name === k && a.name !== k
           ? 1
-          : n.name !== m && a.name === m
+          : n.name !== k && a.name === k
             ? -1
             : 0,
   );
@@ -131,7 +131,7 @@ function N({
   return t
     ? o
       ? g
-      : k
+      : b
     : n !== e.learning || l || r
       ? r && n === e.learning
         ? o
@@ -151,7 +151,7 @@ function N({
                   ? n === e.learning
                     ? T
                     : y
-                  : k
+                  : b
       : o
         ? _
         : g;
@@ -188,16 +188,16 @@ export {
   v as A,
   O as B,
   F as C,
-  d as D,
+  u as D,
   f as M,
   l as N,
   A as O,
-  b as P,
+  m as P,
   r as S,
   c as T,
   t as a,
-  u as b,
-  m as c,
+  d as b,
+  k as c,
   I as d,
   x as e,
   V as f,

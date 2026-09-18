@@ -1,5 +1,5 @@
 import { j as s, f as e, s as o } from "../../../../chunks/vendor.js";
-import { i, v as l, F as t, J as n, h as a, az as c, d as r } from "../../../../chunks/lib.js";
+import { i, v as l, F as t, a7 as a, h as n, az as c, d as r } from "../../../../chunks/lib.js";
 import { G as m } from "../../../../chunks/gradient_decorator.js";
 /* empty css                       */ const [d, _] = i()(
     ({ observableModel: s }) => ({
@@ -46,10 +46,10 @@ import { G as m } from "../../../../chunks/gradient_decorator.js";
         }),
         s.jsx("div", {
           className: M,
-          children: n(i, (l) =>
+          children: a(i, (l) =>
             s.jsx(
               b,
-              { vehicleName: a(e.vehicles.get(), l), completed: l + 1 <= o, last: l + 1 === i },
+              { vehicleName: n(e.vehicles.get(), l), completed: l + 1 <= o, last: l + 1 === i },
               l,
             ),
           ),

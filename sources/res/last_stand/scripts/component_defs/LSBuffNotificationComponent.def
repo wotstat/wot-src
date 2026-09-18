@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<DetailLevel>MY_VEHICLE</DetailLevel>
+	<Properties>
+		<startTime>
+			<Type>FLOAT</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<Default>0.0</Default>
+		</startTime>
+	</Properties>
+</root>

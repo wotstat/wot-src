@@ -1,9 +1,9 @@
-import { s as o, r as s, l as i, j as e, m as _ } from "../../../chunks/vendor.js";
+import { s as o, r as s, m as i, j as e, n as _ } from "../../../chunks/vendor.js";
 import {
   c as r,
   i as a,
-  v as t,
-  u as n,
+  v as n,
+  u as t,
   r as p,
   e as d,
   s as v,
@@ -30,14 +30,14 @@ import {
     vid_pm_pause: r("vid_pm_pause"),
     vid_pm_resume: r("vid_pm_resume"),
   },
-  [b, g] = a()(({ observableModel: o }) => ({ ...o.primitives({ videoPath: "videoPath" }) }), t),
+  [b, g] = a()(({ observableModel: o }) => ({ ...o.primitives({ videoPath: "videoPath" }) }), n),
   x = { base: "IntroScreen_c2734047", video: "IntroScreen_video_16d069c3" },
   I = o(function () {
     const { model: o } = g(),
       r = o.videoPath.get(),
       a = s.useRef(null),
-      t = s.useRef(!1),
-      f = n(),
+      n = s.useRef(!1),
+      f = t(),
       h = p.resolve("videos"),
       [j, b] = i(() => ({
         from: { opacity: 0 },
@@ -49,8 +49,8 @@ import {
         onRest: () => v.closeView(),
       }));
     function E() {
-      t.current ||
-        ((t.current = !0),
+      n.current ||
+        ((n.current = !0),
         f.play("stopIntro"),
         b.start({
           to: { opacity: 0 },

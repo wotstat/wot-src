@@ -1,26 +1,26 @@
-import { j as e, L as a, M as l, r as s, f as i, A as t } from "../../../../chunks/vendor.js";
+import { j as e, I as a, J as l, r as s, f as i, A as t } from "../../../../chunks/vendor.js";
 import {
   r,
   I as o,
-  bb as n,
-  bc as c,
-  bd as m,
-  be as d,
-  bf as h,
+  aO as n,
+  aP as c,
+  aQ as m,
+  aR as d,
+  aS as h,
   m as p,
-  bg as u,
-  bh as g,
-  aM as v,
+  aT as u,
+  aU as g,
+  aN as v,
   F as _,
   C as x,
-  b8 as b,
-  ao as S,
+  aV as S,
+  ao as b,
   i as y,
   am as f,
   Q as T,
   aa as j,
-  aN as N,
-  bi as k,
+  aM as N,
+  aW as k,
   aK as V,
 } from "../../../../chunks/lib.js";
 import { T as w, S as P } from "../../../../chunks/node_model.js";
@@ -81,21 +81,21 @@ const F = "Params_table_5f20ee37",
   A = "Params_cell__baseValue_7dda4017",
   C = "Params_cell__deltaValue_7dda4017",
   I = "Params_cell__icon_c5591684",
-  G = "Params_cell__name_296ad44d",
-  M = "Params_cellBaseValue_bef0df54",
-  O = "Params_delta_51013ac9",
+  O = "Params_cell__name_296ad44d",
+  G = "Params_cellBaseValue_bef0df54",
+  M = "Params_delta_51013ac9",
   z = r.resolve("intl"),
   q = a(),
   H = "baseValue",
-  L = "delta",
-  B = "icon",
+  B = "delta",
+  L = "icon",
   Z = "name",
   K = [
     q.accessor(H, {
       cell: (a) => {
         const l = a.getValue() > 0;
         return e.jsx("div", {
-          className: l ? M : "",
+          className: l ? G : "",
           children: l ? z.formatReal("woZeroDigits", a.getValue()) : "",
         });
       },
@@ -104,14 +104,14 @@ const F = "Params_table_5f20ee37",
         className: A,
       },
     }),
-    q.accessor(L, {
-      cell: (a) => e.jsx("div", { className: O, children: a.getValue() }),
+    q.accessor(B, {
+      cell: (a) => e.jsx("div", { className: M, children: a.getValue() }),
       meta: {
         column: { behaviour: m.contentResponsive, minSize: "0rem", maxSize: "500rem" },
         className: C,
       },
     }),
-    q.accessor(B, {
+    q.accessor(L, {
       cell: (a) => e.jsx(o, { width: 24, height: 24, path: a.getValue() }),
       meta: { column: { behaviour: m.static, size: "38rem" }, className: I },
     }),
@@ -119,7 +119,7 @@ const F = "Params_table_5f20ee37",
       cell: (a) => e.jsx(n, { text: a.getValue() }),
       meta: {
         column: { behaviour: m.screenResponsive, size: "100%", minSize: "0rem", maxSize: "500rem" },
-        className: G,
+        className: O,
       },
     }),
   ],
@@ -158,7 +158,7 @@ const F = "Params_table_5f20ee37",
     reloadTimeInClip: "clipFireRate",
     HEshellVelocity: "shellVelocity",
   },
-  Y = {
+  Q = {
     vehicleStrength: "val",
     turretTraverse: "grads",
     gunTraverse: "grads",
@@ -195,31 +195,31 @@ const F = "Params_table_5f20ee37",
     reloadTimeInClip: "s",
     HEshellVelocity: "mps",
   };
-const Q = r.resolve("strings"),
-  X = r.resolve("intl"),
-  J = ({ valueType: e, value: a, valueKey: l }) => {
+const Y = r.resolve("strings"),
+  J = r.resolve("intl"),
+  U = ({ valueType: e, value: a, valueKey: l }) => {
     const s = "mul" === e ? 100 * (a - 1) : a,
       i = s > 0 ? "+" : "",
-      t = X.formatReal("woZeroDigits", s);
+      t = J.formatReal("woZeroDigits", s);
     let r = "";
     var o;
     return (
       (r =
         "mul" === e
-          ? Q.readOrEmpty("veh_skill_tree.kpi.bonus.valueTypes.default")
-          : Q.readOr(
-              `veh_skill_tree.kpi.bonus.valueTypes.${((o = l), o in Y ? Y[o] : "default")}`,
-              () => Q.readOrEmpty("veh_skill_tree.kpi.bonus.valueTypes.default"),
+          ? Y.readOrEmpty("veh_skill_tree.kpi.bonus.valueTypes.default")
+          : Y.readOr(
+              `veh_skill_tree.kpi.bonus.valueTypes.${((o = l), o in Q ? Q[o] : "default")}`,
+              () => Y.readOrEmpty("veh_skill_tree.kpi.bonus.valueTypes.default"),
             )),
       `${i}${t}${r}`
     );
   };
-function U({ baseValue: e, name: a, hasManyParameters: l, index: s }) {
+function X({ baseValue: e, name: a, hasManyParameters: l, index: s }) {
   return e > 0
     ? l
-      ? Q.readOrEmpty(`menu.vehicleInfo.params.${a}_${s}`)
-      : Q.readOrEmpty(`menu.vehicleInfo.params.${a}`)
-    : Q.readOrEmpty(`tank_setup.kpi.bonus.positive.${a}`);
+      ? Y.readOrEmpty(`menu.vehicleInfo.params.${a}_${s}`)
+      : Y.readOrEmpty(`menu.vehicleInfo.params.${a}`)
+    : Y.readOrEmpty(`tank_setup.kpi.bonus.positive.${a}`);
 }
 function ee() {
   const { table: a } = d();
@@ -258,9 +258,9 @@ function ae({ parameters: a }) {
         0 !== e.value &&
           a.push({
             baseValue: e.baseValue,
-            delta: J(e),
+            delta: U(e),
             icon: `vehParams.small.${((l = e.name), l in W ? W[l] : l)}`,
-            name: U(e),
+            name: X(e),
           });
       }),
       a
@@ -326,7 +326,7 @@ const oe = {
   ) {
     const u = r.resolve("intl"),
       g = r.resolve("strings"),
-      S = n === w.Final || n === w.Major,
+      b = n === w.Final || n === w.Major,
       y = n === w.Common;
     return e.jsx("div", {
       className: oe.tooltip,
@@ -335,7 +335,7 @@ const oe = {
         children: e.jsxs("div", {
           className: i(oe.base, oe[`base__${n}`]),
           children: [
-            S &&
+            b &&
               e.jsx(o, {
                 path: "skillTree.tree.tooltips.tooltipBG",
                 width: 320,
@@ -374,7 +374,7 @@ const oe = {
                   params: {
                     amount: e.jsx(x, {
                       className: oe.currency,
-                      type: b.tankXP,
+                      type: S.tankXP,
                       reverse: !0,
                       children: e.jsx("div", {
                         className: oe.value,
@@ -402,7 +402,7 @@ function de({ text: a, tagColors: l, binding: s, className: i }) {
         m = t[1] ?? "",
         d = t[2] ?? "",
         h = "binding" + o++,
-        p = e.jsx(S, {
+        p = e.jsx(b, {
           style: { color: l[m], alignItems: "flex-start" },
           upgradeLegacy: !0,
           text: d,
@@ -466,8 +466,8 @@ const he = (e, a, l, s) =>
   ve = "App_separator_5196a6d1",
   _e = "App_description_b444b29b",
   xe = [w.Common, w.Major, w.Final],
-  be = r.resolve("strings"),
-  Se = { colorTag: "#ede6d9" },
+  Se = r.resolve("strings"),
+  be = { colorTag: "#ede6d9" },
   ye = t(function () {
     const { model: a } = ge(),
       { localizationName: l, status: i, price: t, type: r, vehicleName: o } = a.node.get(),
@@ -480,7 +480,7 @@ const he = (e, a, l, s) =>
       u = i === P.Researched,
       g = !(r !== w.Special || (u && a.lockedVehicle.get())),
       v = xe.includes(r) && "mechanics" !== c,
-      _ = be.read(`veh_skill_tree.tooltips.description.${l}`),
+      _ = Se.read(`veh_skill_tree.tooltips.description.${l}`),
       x = s.useCallback(() => {
         const e = p.current;
         if (!e) return;
@@ -495,10 +495,10 @@ const he = (e, a, l, s) =>
           bottom: parseInt(s.getPropertyValue("padding-bottom"), 10),
         });
       }, [p]);
-    var b, S;
+    var S, b;
     if (
-      ((b = x),
-      (S = []),
+      ((S = x),
+      (b = []),
       s.useEffect(() => {
         let e,
           a = null;
@@ -507,7 +507,7 @@ const he = (e, a, l, s) =>
             a = requestAnimationFrame(() => {
               a = requestAnimationFrame(() => {
                 a = requestAnimationFrame(() => {
-                  ((a = null), (e = b()));
+                  ((a = null), (e = S()));
                 });
               });
             });
@@ -516,7 +516,7 @@ const he = (e, a, l, s) =>
             ("function" == typeof e && e(), null !== a && cancelAnimationFrame(a));
           }
         );
-      }, [b, ...S]),
+      }, [S, ...b]),
       r !== w.Ghost)
     )
       return e.jsxs(me, {
@@ -530,7 +530,7 @@ const he = (e, a, l, s) =>
         vehicleType: n,
         ref: p,
         children: [
-          _ && e.jsx(de, { className: _e, text: _, tagColors: Se, binding: h }),
+          _ && e.jsx(de, { className: _e, text: _, tagColors: be, binding: h }),
           v && e.jsx(ae, { parameters: d }),
           g && e.jsx(re, {}),
           !u && e.jsx("div", { className: ve }),
