@@ -2,7 +2,7 @@
   "binaries": [
     {
       "path": "win64/Tanki.exe",
-      "sha256": "3963224cd0987fcee3584e9c9d6804f050f5c87b07faf2273dd2624e70639a9c",
+      "sha256": "62a338fb16a2e0644ab0673e097e7db2075bd1a1b845b8f743ef3e83423a05f3",
       "size": 68438016
     }
   ],
@@ -929,7 +929,7 @@
         "userDataObjects": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x1b2df45",
+          "registration_rva": "0x1b2df55",
           "value": 48
         }
       },
@@ -1089,7 +1089,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x28579ed",
+            "registration_rva": "0x28579fd",
             "required_parameters": 0,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -1104,7 +1104,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x28579ed",
+            "registration_rva": "0x28579fd",
             "required_parameters": 0,
             "return_type": "float",
             "scopes": []
@@ -1979,7 +1979,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x286a7da",
+            "registration_rva": "0x286a7ea",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -3209,7 +3209,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x285abc9",
+            "registration_rva": "0x285abd9",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -6889,7 +6889,7 @@
             "descriptor": "() -> None",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x286a7fa",
+            "registration_rva": "0x286a80a",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -6908,7 +6908,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x286a7fa",
+            "registration_rva": "0x286a80a",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -8541,7 +8541,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2262eb5",
+            "registration_rva": "0x2262ed5",
             "required_parameters": 0,
             "return_type": "Math.Vector4",
             "scopes": []
@@ -8635,7 +8635,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2262eb5",
+            "registration_rva": "0x2262ed5",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -10755,7 +10755,7 @@
               "Any",
               "int"
             ],
-            "registration_rva": "0x284213f",
+            "registration_rva": "0x284214f",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -10847,7 +10847,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2849e7e",
+            "registration_rva": "0x2849e8e",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10864,7 +10864,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2849e9c",
+            "registration_rva": "0x2849eac",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -10924,7 +10924,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x2853056",
+            "registration_rva": "0x2853066",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -10958,7 +10958,7 @@
               "Any",
               "KeyEvent"
             ],
-            "registration_rva": "0x2842864",
+            "registration_rva": "0x2842874",
             "required_parameters": 1,
             "return_type": "bool",
             "scopes": []
@@ -10975,7 +10975,7 @@
               "Any",
               "float"
             ],
-            "registration_rva": "0x2853056",
+            "registration_rva": "0x2853066",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -11037,7 +11037,7 @@
               "Any",
               "KeyEvent"
             ],
-            "registration_rva": "0x2853069",
+            "registration_rva": "0x2853079",
             "required_parameters": 1,
             "return_type": "bool",
             "scopes": []
@@ -11054,7 +11054,7 @@
               "Any",
               "MouseEvent"
             ],
-            "registration_rva": "0x2842893",
+            "registration_rva": "0x28428a3",
             "required_parameters": 1,
             "return_type": "bool",
             "scopes": []
@@ -11090,7 +11090,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11139,7 +11139,7 @@
               "Any",
               "Math.Vector2"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -11156,7 +11156,7 @@
               "Any",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -11173,7 +11173,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -11218,7 +11218,7 @@
             "descriptor": "() -> None",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2849eba",
+            "registration_rva": "0x2849eca",
             "required_parameters": null,
             "return_type": "None",
             "scopes": []
@@ -11233,7 +11233,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2842835",
+            "registration_rva": "0x2842845",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -11250,7 +11250,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x2842835",
+            "registration_rva": "0x2842845",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -11263,7 +11263,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2849ed8",
+            "registration_rva": "0x2849ee8",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11291,7 +11291,7 @@
             "descriptor": "() -> %",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2849f50",
+            "registration_rva": "0x2849f60",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -11701,7 +11701,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22486df",
+            "registration_rva": "0x22486ff",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -11718,7 +11718,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x22486df",
+            "registration_rva": "0x22486ff",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -11735,7 +11735,7 @@
             "parameter_types": [
               "list[tuple[float, Any]]"
             ],
-            "registration_rva": "0x2248ff9",
+            "registration_rva": "0x2249019",
             "required_parameters": 0,
             "return_type": "Any",
             "scopes": []
@@ -11752,7 +11752,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22491a1",
+            "registration_rva": "0x22491c1",
             "required_parameters": null,
             "return_type": "list[tuple[float, Any]]",
             "scopes": []
@@ -11769,7 +11769,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22483dc",
+            "registration_rva": "0x22483fc",
             "required_parameters": 0,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -11784,7 +11784,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22483dc",
+            "registration_rva": "0x22483fc",
             "required_parameters": 0,
             "return_type": "bool",
             "scopes": []
@@ -12017,7 +12017,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x223883e",
+            "registration_rva": "0x223885e",
             "required_parameters": 0,
             "return_type": "bool",
             "scopes": []
@@ -12034,7 +12034,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22388bb",
+            "registration_rva": "0x22388db",
             "required_parameters": 0,
             "return_type": "bool",
             "scopes": []
@@ -12051,7 +12051,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2238938",
+            "registration_rva": "0x2238958",
             "required_parameters": 0,
             "return_type": "bool",
             "scopes": []
@@ -12068,7 +12068,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2262b6e",
+            "registration_rva": "0x2262b8e",
             "required_parameters": 0,
             "return_type": "Any",
             "scopes": []
@@ -12087,7 +12087,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2262815",
+            "registration_rva": "0x2262835",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -12104,7 +12104,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22638af",
+            "registration_rva": "0x22638cf",
             "required_parameters": 0,
             "return_type": "Any",
             "scopes": []
@@ -12121,7 +12121,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22631f0",
+            "registration_rva": "0x2263210",
             "required_parameters": 0,
             "return_type": "Any",
             "scopes": []
@@ -12138,7 +12138,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2263470",
+            "registration_rva": "0x2263490",
             "required_parameters": 0,
             "return_type": "Math.Vector4",
             "scopes": []
@@ -12155,7 +12155,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2262d1a",
+            "registration_rva": "0x2262d3a",
             "required_parameters": 0,
             "return_type": "list[tuple[float, Any]]",
             "scopes": []
@@ -12172,7 +12172,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x22629cc",
+            "registration_rva": "0x22629ec",
             "required_parameters": 0,
             "return_type": "Math.Vector4",
             "scopes": []
@@ -12189,7 +12189,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2262f2c",
+            "registration_rva": "0x2262f4c",
             "required_parameters": null,
             "return_type": "Math.Vector4",
             "scopes": []
@@ -12208,7 +12208,7 @@
               "Math.Matrix",
               "Math.Vector3"
             ],
-            "registration_rva": "0x22192e3",
+            "registration_rva": "0x2219303",
             "required_parameters": null,
             "return_type": "float",
             "scopes": []
@@ -12229,7 +12229,7 @@
               "float",
               "float | None"
             ],
-            "registration_rva": "0x22190d1",
+            "registration_rva": "0x22190f1",
             "required_parameters": null,
             "return_type": "Math.Vector2",
             "scopes": []
@@ -12250,7 +12250,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218fda",
+            "registration_rva": "0x2218ffa",
             "required_parameters": null,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -12271,7 +12271,7 @@
               "float",
               "float | None"
             ],
-            "registration_rva": "0x22191b7",
+            "registration_rva": "0x22191d7",
             "required_parameters": null,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -12292,7 +12292,7 @@
               "float",
               "float | None"
             ],
-            "registration_rva": "0x221929d",
+            "registration_rva": "0x22192bd",
             "required_parameters": null,
             "return_type": "Math.Vector4",
             "scopes": []
@@ -12305,7 +12305,7 @@
             "descriptor": "() -> Matrix",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2218d36",
+            "registration_rva": "0x2218d56",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12318,7 +12318,7 @@
             "descriptor": "() -> Matrix",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2218d9d",
+            "registration_rva": "0x2218dbd",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12333,7 +12333,7 @@
             "parameter_types": [
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218d9d",
+            "registration_rva": "0x2218dbd",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12350,7 +12350,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218d9d",
+            "registration_rva": "0x2218dbd",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12363,7 +12363,7 @@
             "descriptor": "() -> Matrix",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2218d53",
+            "registration_rva": "0x2218d73",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12378,7 +12378,7 @@
             "parameter_types": [
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218d53",
+            "registration_rva": "0x2218d73",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12397,7 +12397,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218eaa",
+            "registration_rva": "0x2218eca",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12416,7 +12416,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218eaa",
+            "registration_rva": "0x2218eca",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12429,7 +12429,7 @@
             "descriptor": "() -> Matrix",
             "parameter_names": [],
             "parameter_types": [],
-            "registration_rva": "0x2218d73",
+            "registration_rva": "0x2218d93",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12444,7 +12444,7 @@
             "parameter_types": [
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218d73",
+            "registration_rva": "0x2218d93",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12463,7 +12463,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218ecd",
+            "registration_rva": "0x2218eed",
             "required_parameters": null,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12482,7 +12482,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218ecd",
+            "registration_rva": "0x2218eed",
             "required_parameters": 2,
             "return_type": "Math.Matrix",
             "scopes": []
@@ -12499,7 +12499,7 @@
             "parameter_types": [
               "int"
             ],
-            "registration_rva": "0x2263c12",
+            "registration_rva": "0x2263c32",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -12520,7 +12520,7 @@
               "Math.Vector2",
               "Math.Vector3"
             ],
-            "registration_rva": "0x22192f9",
+            "registration_rva": "0x2219319",
             "required_parameters": 1,
             "return_type": "int",
             "scopes": []
@@ -12539,7 +12539,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218ffa",
+            "registration_rva": "0x221901a",
             "required_parameters": null,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -12558,7 +12558,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2218ffa",
+            "registration_rva": "0x221901a",
             "required_parameters": 2,
             "return_type": "Math.Vector3",
             "scopes": []
@@ -14048,28 +14048,28 @@
           "confidence": "exact-native-enum",
           "member": "SAWTOOTH",
           "owner": "Waveform",
-          "registration_rva": "0x2263419",
+          "registration_rva": "0x2263439",
           "value": 3
         },
         "SINE": {
           "confidence": "exact-native-enum",
           "member": "SINE",
           "owner": "Waveform",
-          "registration_rva": "0x2263403",
+          "registration_rva": "0x2263423",
           "value": 2
         },
         "SQUARE": {
           "confidence": "exact-native-enum",
           "member": "SQUARE",
           "owner": "Waveform",
-          "registration_rva": "0x22633d7",
+          "registration_rva": "0x22633f7",
           "value": 0
         },
         "TRIANGLE": {
           "confidence": "exact-native-enum",
           "member": "TRIANGLE",
           "owner": "Waveform",
-          "registration_rva": "0x22633ed",
+          "registration_rva": "0x226340d",
           "value": 1
         }
       },
@@ -14087,24 +14087,24 @@
             "confidence": "exact-native-enum",
             "members": {
               "SAWTOOTH": {
-                "registration_rva": "0x2263419",
+                "registration_rva": "0x2263439",
                 "value": 3
               },
               "SINE": {
-                "registration_rva": "0x2263403",
+                "registration_rva": "0x2263423",
                 "value": 2
               },
               "SQUARE": {
-                "registration_rva": "0x22633d7",
+                "registration_rva": "0x22633f7",
                 "value": 0
               },
               "TRIANGLE": {
-                "registration_rva": "0x22633ed",
+                "registration_rva": "0x226340d",
                 "value": 1
               }
             },
             "module": "Vector4MatrixAdaptor",
-            "registration_rva": "0x22633bc"
+            "registration_rva": "0x22633dc"
           },
           "methods": {}
         }
@@ -14117,49 +14117,49 @@
           "confidence": "exact-native-enum",
           "member": "STYLE_LOOKAT",
           "owner": "Style",
-          "registration_rva": "0x2263665",
+          "registration_rva": "0x2263685",
           "value": 5
         },
         "STYLE_LOOKAT_SCALEZ": {
           "confidence": "exact-native-enum",
           "member": "STYLE_LOOKAT_SCALEZ",
           "owner": "Style",
-          "registration_rva": "0x226367b",
+          "registration_rva": "0x226369b",
           "value": 6
         },
         "STYLE_XYZ_SCALE": {
           "confidence": "exact-native-enum",
           "member": "STYLE_XYZ_SCALE",
           "owner": "Style",
-          "registration_rva": "0x22635f7",
+          "registration_rva": "0x2263617",
           "value": 0
         },
         "STYLE_XY_SCALE": {
           "confidence": "exact-native-enum",
           "member": "STYLE_XY_SCALE",
           "owner": "Style",
-          "registration_rva": "0x226360d",
+          "registration_rva": "0x226362d",
           "value": 1
         },
         "STYLE_X_ROTATE": {
           "confidence": "exact-native-enum",
           "member": "STYLE_X_ROTATE",
           "owner": "Style",
-          "registration_rva": "0x2263623",
+          "registration_rva": "0x2263643",
           "value": 2
         },
         "STYLE_Y_ROTATE": {
           "confidence": "exact-native-enum",
           "member": "STYLE_Y_ROTATE",
           "owner": "Style",
-          "registration_rva": "0x2263639",
+          "registration_rva": "0x2263659",
           "value": 3
         },
         "STYLE_Z_ROTATE": {
           "confidence": "exact-native-enum",
           "member": "STYLE_Z_ROTATE",
           "owner": "Style",
-          "registration_rva": "0x226364f",
+          "registration_rva": "0x226366f",
           "value": 4
         }
       },
@@ -14180,36 +14180,36 @@
             "confidence": "exact-native-enum",
             "members": {
               "STYLE_LOOKAT": {
-                "registration_rva": "0x2263665",
+                "registration_rva": "0x2263685",
                 "value": 5
               },
               "STYLE_LOOKAT_SCALEZ": {
-                "registration_rva": "0x226367b",
+                "registration_rva": "0x226369b",
                 "value": 6
               },
               "STYLE_XYZ_SCALE": {
-                "registration_rva": "0x22635f7",
+                "registration_rva": "0x2263617",
                 "value": 0
               },
               "STYLE_XY_SCALE": {
-                "registration_rva": "0x226360d",
+                "registration_rva": "0x226362d",
                 "value": 1
               },
               "STYLE_X_ROTATE": {
-                "registration_rva": "0x2263623",
+                "registration_rva": "0x2263643",
                 "value": 2
               },
               "STYLE_Y_ROTATE": {
-                "registration_rva": "0x2263639",
+                "registration_rva": "0x2263659",
                 "value": 3
               },
               "STYLE_Z_ROTATE": {
-                "registration_rva": "0x226364f",
+                "registration_rva": "0x226366f",
                 "value": 4
               }
             },
             "module": "Vector4Swizzle",
-            "registration_rva": "0x22635dc"
+            "registration_rva": "0x22635fc"
           },
           "methods": {}
         }
@@ -14942,7 +14942,7 @@
         "link": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x21f257f",
+          "registration_rva": "0x21f259f",
           "value": 0
         }
       },
@@ -14962,37 +14962,37 @@
         "WHAT_ADD_INFO": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5e78",
+          "registration_rva": "0x23e5e98",
           "value": 19
         },
         "WHAT_DEFINE_FILE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5e8d",
+          "registration_rva": "0x23e5ead",
           "value": 35
         },
         "WHAT_DEFINE_FUNC": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5ea2",
+          "registration_rva": "0x23e5ec2",
           "value": 67
         },
         "WHAT_ENTER": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5e24",
+          "registration_rva": "0x23e5e44",
           "value": 0
         },
         "WHAT_EXIT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5e39",
+          "registration_rva": "0x23e5e59",
           "value": 1
         },
         "WHAT_LINENO": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23e5e4e",
+          "registration_rva": "0x23e5e6e",
           "value": 2
         }
       },
@@ -15032,7 +15032,7 @@
         "StringIO": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23d8d32",
+          "registration_rva": "0x23d8d52",
           "value": 0
         }
       },
@@ -15120,55 +15120,55 @@
         "CERT_OPTIONAL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2435097",
+          "registration_rva": "0x24350b7",
           "value": 1
         },
         "SSL_ERROR_EOF": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x243505b",
+          "registration_rva": "0x243507b",
           "value": 8
         },
         "SSL_ERROR_INVALID_ERROR_CODE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2435070",
+          "registration_rva": "0x2435090",
           "value": 10
         },
         "SSL_ERROR_SSL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2435031",
+          "registration_rva": "0x2435051",
           "value": 1
         },
         "SSL_ERROR_SYSCALL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x243501c",
+          "registration_rva": "0x243503c",
           "value": 5
         },
         "SSL_ERROR_WANT_CONNECT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2435046",
+          "registration_rva": "0x2435066",
           "value": 7
         },
         "SSL_ERROR_WANT_READ": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2434fdd",
+          "registration_rva": "0x2434ffd",
           "value": 2
         },
         "SSL_ERROR_WANT_WRITE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2434ff2",
+          "registration_rva": "0x2435012",
           "value": 3
         },
         "SSL_ERROR_WANT_X509_LOOKUP": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2435007",
+          "registration_rva": "0x2435027",
           "value": 4
         }
       },
@@ -15233,109 +15233,109 @@
         "CELL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d97",
+          "registration_rva": "0x23b5db7",
           "value": 5
         },
         "DEF_BOUND": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5cb3",
+          "registration_rva": "0x23b5cd3",
           "value": 70
         },
         "DEF_GLOBAL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5c35",
+          "registration_rva": "0x23b5c55",
           "value": 1
         },
         "DEF_IMPORT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5c9e",
+          "registration_rva": "0x23b5cbe",
           "value": 64
         },
         "DEF_LOCAL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5c4a",
+          "registration_rva": "0x23b5c6a",
           "value": 2
         },
         "DEF_PARAM": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5c5f",
+          "registration_rva": "0x23b5c7f",
           "value": 4
         },
         "FREE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d82",
+          "registration_rva": "0x23b5da2",
           "value": 4
         },
         "GLOBAL_EXPLICIT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d58",
+          "registration_rva": "0x23b5d78",
           "value": 2
         },
         "GLOBAL_IMPLICIT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d6d",
+          "registration_rva": "0x23b5d8d",
           "value": 3
         },
         "LOCAL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d43",
+          "registration_rva": "0x23b5d63",
           "value": 1
         },
         "OPT_BARE_EXEC": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d2e",
+          "registration_rva": "0x23b5d4e",
           "value": 4
         },
         "OPT_EXEC": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d19",
+          "registration_rva": "0x23b5d39",
           "value": 2
         },
         "OPT_IMPORT_STAR": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5d04",
+          "registration_rva": "0x23b5d24",
           "value": 1
         },
         "SCOPE_OFF": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5dac",
+          "registration_rva": "0x23b5dcc",
           "value": 11
         },
         "TYPE_CLASS": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5cda",
+          "registration_rva": "0x23b5cfa",
           "value": 1
         },
         "TYPE_FUNCTION": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5cc5",
+          "registration_rva": "0x23b5ce5",
           "value": 0
         },
         "TYPE_MODULE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5cef",
+          "registration_rva": "0x23b5d0f",
           "value": 2
         },
         "USE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23b5c20",
+          "registration_rva": "0x23b5c40",
           "value": 8
         }
       },
@@ -15541,19 +15541,19 @@
         "HKEY_CLASSES_ROOT": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2413ce0",
+          "registration_rva": "0x2413d00",
           "value": -2147483648
         },
         "HKEY_USERS": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2413d22",
+          "registration_rva": "0x2413d42",
           "value": -2147483645
         },
         "REG_SZ": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2413fe6",
+          "registration_rva": "0x2414006",
           "value": 1
         }
       },
@@ -15615,7 +15615,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -15664,7 +15664,7 @@
               "Any",
               "Math.Vector2"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -15681,7 +15681,7 @@
               "Any",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -15698,7 +15698,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -16226,13 +16226,13 @@
         "DEBUG_SAVEALL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2358861",
+          "registration_rva": "0x2358881",
           "value": 32
         },
         "DEBUG_STATS": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23587e0",
+          "registration_rva": "0x2358800",
           "value": 1
         }
       },
@@ -16487,37 +16487,37 @@
         "C_BUILTIN": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c415",
+          "registration_rva": "0x233c435",
           "value": 6
         },
         "C_EXTENSION": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c3be",
+          "registration_rva": "0x233c3de",
           "value": 3
         },
         "PKG_DIRECTORY": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c3f8",
+          "registration_rva": "0x233c418",
           "value": 5
         },
         "PY_COMPILED": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c3a1",
+          "registration_rva": "0x233c3c1",
           "value": 2
         },
         "PY_FROZEN": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c42e",
+          "registration_rva": "0x233c44e",
           "value": 7
         },
         "PY_SOURCE": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x233c384",
+          "registration_rva": "0x233c3a4",
           "value": 1
         }
       },
@@ -16651,7 +16651,7 @@
             "parameter_types": [
               "Any"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": null,
             "return_type": "Any",
             "scopes": []
@@ -16700,7 +16700,7 @@
               "Any",
               "Math.Vector2"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -16717,7 +16717,7 @@
               "Any",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -16734,7 +16734,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2843869",
+            "registration_rva": "0x2843879",
             "required_parameters": 1,
             "return_type": "None",
             "scopes": []
@@ -16775,7 +16775,7 @@
         "ACCESS_READ": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x23f6ca8",
+          "registration_rva": "0x23f6cc8",
           "value": 1
         }
       },
@@ -17219,7 +17219,7 @@
               "Any",
               "Math.Vector4"
             ],
-            "registration_rva": "0x2262771",
+            "registration_rva": "0x2262791",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17236,7 +17236,7 @@
               "Any",
               "Vector4ProviderHelper"
             ],
-            "registration_rva": "0x2262a8f",
+            "registration_rva": "0x2262aaf",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17440,7 +17440,7 @@
               "Any",
               "list[tuple[float, Any]]"
             ],
-            "registration_rva": "0x224da47",
+            "registration_rva": "0x224da67",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17605,7 +17605,7 @@
               "Any | None",
               "str | None"
             ],
-            "registration_rva": "0x284df4a",
+            "registration_rva": "0x284df5a",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17662,7 +17662,7 @@
               "GameObject",
               "Math.Matrix"
             ],
-            "registration_rva": "0x2176fd1",
+            "registration_rva": "0x2176ff1",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17681,7 +17681,7 @@
               "GameObject",
               "Math.Vector3"
             ],
-            "registration_rva": "0x2176ff7",
+            "registration_rva": "0x2177017",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -17719,7 +17719,7 @@
               "GameObject",
               "float"
             ],
-            "registration_rva": "0x2173c59",
+            "registration_rva": "0x2173c79",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18177,7 +18177,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0xcb90b7",
+            "registration_rva": "0xcb9337",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18198,7 +18198,7 @@
               "Any",
               "float"
             ],
-            "registration_rva": "0x2868d19",
+            "registration_rva": "0x2868d29",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18513,7 +18513,7 @@
               "Math.Vector3",
               "Math.Vector3"
             ],
-            "registration_rva": "0x21377f3",
+            "registration_rva": "0x2137813",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -18555,7 +18555,7 @@
               "float",
               "int"
             ],
-            "registration_rva": "0x21437a7",
+            "registration_rva": "0x21437c7",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19016,7 +19016,7 @@
               "bool",
               "bool"
             ],
-            "registration_rva": "0x217aa22",
+            "registration_rva": "0x217aa42",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19223,7 +19223,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2863349",
+            "registration_rva": "0x2863359",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19315,7 +19315,7 @@
               "float",
               "Any"
             ],
-            "registration_rva": "0x2219900",
+            "registration_rva": "0x2219920",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19384,7 +19384,7 @@
               "Any",
               "Any"
             ],
-            "registration_rva": "0x2263bd0",
+            "registration_rva": "0x2263bf0",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19430,7 +19430,7 @@
               "float",
               "int"
             ],
-            "registration_rva": "0x2869c5b",
+            "registration_rva": "0x2869c6b",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19553,7 +19553,7 @@
               "float",
               "float"
             ],
-            "registration_rva": "0x2137d8c",
+            "registration_rva": "0x2137dac",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -19909,7 +19909,7 @@
               "int",
               "int"
             ],
-            "registration_rva": "0x2854ee7",
+            "registration_rva": "0x2854ef7",
             "required_parameters": 0,
             "return_type": "None",
             "scopes": []
@@ -20784,31 +20784,31 @@
         "DEFLATED": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2437e05",
+          "registration_rva": "0x2437e25",
           "value": 8
         },
         "DEF_MEM_LEVEL": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2437e1a",
+          "registration_rva": "0x2437e3a",
           "value": 8
         },
         "MAX_WBITS": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2437df0",
+          "registration_rva": "0x2437e10",
           "value": 15
         },
         "Z_DEFAULT_COMPRESSION": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2437e59",
+          "registration_rva": "0x2437e79",
           "value": -1
         },
         "Z_SYNC_FLUSH": {
           "binary": "Tanki.exe",
           "confidence": "exact-native-constant",
-          "registration_rva": "0x2437ed1",
+          "registration_rva": "0x2437ef1",
           "value": 2
         }
       },
