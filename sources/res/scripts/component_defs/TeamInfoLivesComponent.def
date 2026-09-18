@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<CellMethods></CellMethods>
+	<ClientMethods></ClientMethods>
+	<Properties>
+		<teamLives>
+			<Type>ARRAY
+				<of>TEAM_LIVES</of>
+			</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</teamLives>
+		<respawnInfo>
+			<Type>ARRAY
+				<of>RESPAWN_TIME_INFO</of>
+			</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</respawnInfo>
+	</Properties>
+	<ofEntity>
+		<TeamInfo></TeamInfo>
+		<ArenaInfo></ArenaInfo>
+	</ofEntity>
+	<DefaultKeyName>teamLivesComponent</DefaultKeyName>
+</root>

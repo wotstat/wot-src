@@ -779,8 +779,8 @@
 			<rotationIsAroundCenter>false</rotationIsAroundCenter>
 			<rotationSpeed>60</rotationSpeed>
 			<shotDispersionFactors>
-				<vehicleMovement>0.16</vehicleMovement>
-				<vehicleRotation>0.16</vehicleRotation>
+				<vehicleMovement>0.13</vehicleMovement>
+				<vehicleRotation>0.13</vehicleRotation>
 			</shotDispersionFactors>
 			<bulkHealthFactor>3.0</bulkHealthFactor>
 			<maxHealth>250</maxHealth>
@@ -1627,7 +1627,7 @@
 			<price>70000</price>
 			<notInShop>true</notInShop>
 			<armor>
-				<armor_1>228</armor_1>
+				<armor_1>230</armor_1>
 				<armor_2>160</armor_2>
 				<armor_3>100</armor_3>
 				<armor_4>60</armor_4>
@@ -1659,7 +1659,7 @@
 				<maxRegenHealth>85</maxRegenHealth>
 				<repairCost>1.0</repairCost>
 			</turretRotatorHealth>
-			<circularVisionRadius>400</circularVisionRadius>
+			<circularVisionRadius>390</circularVisionRadius>
 			<surveyingDeviceHealth>
 				<maxHealth>120</maxHealth>
 				<maxRegenHealth>60</maxRegenHealth>
@@ -1688,9 +1688,9 @@
 						<maxPitch>0 7 1 7</maxPitch>
 					</pitchLimits>
 					<invisibilityFactorAtShot>0.135</invisibilityFactorAtShot>
-					<shotDispersionRadius>0.42</shotDispersionRadius>
-					<reloadTime>21</reloadTime>
-					<aimingTime>3.0</aimingTime>
+					<shotDispersionRadius>0.46</shotDispersionRadius>
+					<reloadTime>19</reloadTime>
+					<aimingTime>2.5</aimingTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>4</afterShot>

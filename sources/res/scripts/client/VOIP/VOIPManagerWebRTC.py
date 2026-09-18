@@ -101,6 +101,11 @@ class VOIPManagerWebRTC(VOIPHandler):
         if enabled:
             self.__enable(isInitFromPrefs)
         else:
+            dbIDs = set()
+            for dbID, data in self.__channelUsers.iteritems():
+                if data[b'talking']:
+                    dbIDs.add(dbID)
+
             self.__disable()
         return
 
@@ -138,13 +143,13 @@ class VOIPManagerWebRTC(VOIPHandler):
         if self.__channel:
             if not isInitFromPrefs:
                 self.enableCurrentChannel(True)
+        BigWorld.VOIP.enableVOIP()
         return
 
     def __disable(self):
         _logger.info(b'Disable')
         self.__enabled = False
-        if self.__channel:
-            self.enableCurrentChannel(False)
+        BigWorld.VOIP.disableVOIP()
         return
 
     def getState(self):
@@ -178,8 +183,7 @@ class VOIPManagerWebRTC(VOIPHandler):
             return
         self.__channel = channelID
         self.__channelToken = token
-        if self.isEnabled():
-            self.__evaluateAutoJoinChannel(channelID)
+        self.__evaluateAutoJoinChannel(channelID)
         return
 
     def __evaluateAutoJoinChannel(self, newChannel):
@@ -433,8 +437,8 @@ class VOIPManagerWebRTC(VOIPHandler):
         if int(data[VOIPCommon.KEY_RETURN_CODE]) != VOIPCommon.CODE_SUCCESS:
             _logger.error(b'Participant is not updated: %r', data)
             return
-        dbid = int(data[VOIPCommon.KEY_PARTICIPANT_URI])
-        if dbid == 0:
+        dbid = data[VOIPCommon.KEY_PARTICIPANT_URI]
+        if dbid == b'0':
             dbid = self.__getOwnPlayerDBID()
         talking = int(data[VOIPCommon.KEY_IS_SPEAKING])
         if dbid in self.__channelUsers:

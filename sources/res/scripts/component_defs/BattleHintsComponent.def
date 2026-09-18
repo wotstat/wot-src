@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<ClientMethods>
+		<showHint>
+			<Args>
+				<hingId>STRING</hingId>
+				<hingParams>ARRAY
+					<of>STRING</of>
+				</hingParams>
+			</Args>
+		</showHint>
+		<hideHint>
+			<Arg>STRING</Arg>
+		</hideHint>
+	</ClientMethods>
+	<Properties></Properties>
+	<ofEntity>
+		<Avatar></Avatar>
+	</ofEntity>
+	<DefaultKeyName>battleHintsComponent</DefaultKeyName>
+</root>

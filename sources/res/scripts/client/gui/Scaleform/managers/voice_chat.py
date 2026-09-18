@@ -1,5 +1,5 @@
 from frameworks.wulf import WindowLayer
-from VOIP import getVOIPManager, isOSSupported
+from VOIP import getVOIPManager
 from messenger.proto.events import g_messengerEvents
 from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
 from gui.shared.utils import getPlayerDatabaseID
@@ -9,7 +9,6 @@ from messenger.proto import proto_getter
 from gui.Scaleform.framework.entities.abstract.VoiceChatManagerMeta import VoiceChatManagerMeta
 _MESSAGE_INIT_SUCCESS = b'voiceChatInitSucceded'
 _MESSAGE_INIT_FAILED = b'voiceChatInitFailed'
-_MESSAGE_INIT_FAILED_OS = b'voiceChatInitFailedByOS'
 
 class BaseVoiceChatManager(VoiceChatManagerMeta):
 
@@ -116,11 +115,10 @@ class LobbyVoiceChatManager(BaseVoiceChatManager):
     def _showChatInitErrorMessage(self):
         if not self.__failedEventRaised:
             self.__failedEventRaised = True
-            messageKey = _MESSAGE_INIT_FAILED if isOSSupported() else _MESSAGE_INIT_FAILED_OS
             if self.__enterToLobby:
-                self._showDialog(messageKey)
+                self._showDialog(_MESSAGE_INIT_FAILED)
             else:
-                self.__pendingMessage = messageKey
+                self.__pendingMessage = _MESSAGE_INIT_FAILED
         return
 
 
@@ -140,8 +138,7 @@ class BattleVoiceChatManager(BaseVoiceChatManager):
         return
 
     def _showChatInitErrorMessage(self):
-        messageKey = _MESSAGE_INIT_FAILED if isOSSupported() else _MESSAGE_INIT_FAILED_OS
         if self.__enteredToBattle and not self.__failedEventRaised:
-            self._showDialog(messageKey)
+            self._showDialog(_MESSAGE_INIT_FAILED)
             self.__failedEventRaised = True
         return

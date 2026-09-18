@@ -4768,11 +4768,10 @@
               t = u.levels,
               r = t.fromLevel,
               a = t.toLevel,
-              s = t.chapterID;
+              s = t.chapterID,
+              i = (0, c.GS)().mediaSize;
             re({ callback: e, preventPropagation: !1 });
-            const i = {
-              backgroundImage: `url(${(0, ae.wD)(R.images.gui.maps.icons.battlePass.backgrounds.rewards, s.get())})`,
-            };
+            const o = { backgroundImage: `url(${(0, ae.iT)(s.get(), (0, ae.jz)(i))})` };
             return n().createElement(
               "div",
               { className: fr },
@@ -4782,7 +4781,7 @@
                 n().createElement(ne.N, {
                   chapter: s.get(),
                   isCurrent: !0,
-                  customBackgroundStyle: i,
+                  customBackgroundStyle: o,
                 }),
               ),
               n().createElement("div", { className: br }),
@@ -4863,7 +4862,7 @@
       },
       903: (e, u, t) => {
         "use strict";
-        t.d(u, { Sc: () => s, W4: () => c, jz: () => o, sM: () => l, wD: () => i });
+        t.d(u, { Sc: () => s, W4: () => c, iT: () => _, jz: () => o, sM: () => l, wD: () => i });
         var r = t(5415),
           a = t(8546);
         const n = (e) => {
@@ -4907,6 +4906,11 @@
             const t = R.images.gui.maps.icons.battlePass.backgrounds,
               r = n(u);
             return { backgroundImage: `url(${i(t.chapter, e, r)})` };
+          },
+          _ = (e, u = a.$u.Medium) => {
+            const t = R.images.gui.maps.icons.battlePass.backgrounds,
+              r = n(u);
+            return i(t.rewards, e, r);
           };
       },
       930: (e, u, t) => {
