@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Modulerna kan innehålla Premiumvagnar, spelvaluta eller annat värdefullt spelinnehåll."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Du kan köpa Paradoxmoduler i affären eller Premiumaffären."
+msgstr "Moduler är tillgängliga i affären i spelet."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Modul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Skaffa moduler"
@@ -31,11 +31,17 @@ msgstr "SKAFFA MODULER"
 msgid "common/loader"
 msgstr "Modulöppning..."
 
+msgid "common/selectTooltip"
+msgstr "Lådor saknas för att kunna öppna fem samtidigt"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Öppna moduler för att se statistik."
 
 msgid "common/statistics/header"
-msgstr "Öppnade moduler: %(count)"
+msgstr "Moduler öppnade:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modulen återöppnas för en chans att få en annan belöning."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "All information om öppnade moduler raderas."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "TILL MODULER"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Detta är specialmoduler med nytt och unikt innehåll, bl.a Premiumvagnar, utseendeelement, spelvaluta och andra värdefulla saker m.m.\nDu kan köpa moduler i affären i spelet eller i Premiumaffären."
+msgstr "Det här är specialmoduler med nytt och unikt innehåll. De kan erhållas i affären i spelet."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduler kan inte öppnas eller erhållas för tillfället på grund av tekniska problem. Vi ber om ursäkt för besväret."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduler tillfälligt ej tillgängliga"
 
 msgid "eventName/lowerCase"
-msgstr "Bryt paradoxen"
+msgstr "Stormryttare"
 
 msgid "eventName/upperCase"
-msgstr "BRYT PARADOXEN"
+msgstr "STORMRYTTARE"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garanterad belöning i nästa modul!"
@@ -64,14 +70,23 @@ msgstr "Garanterad belöning i nästa modul!"
 msgid "guaranteedTitle/text"
 msgstr "Max antal moduler innan garanterad belöning: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Om du inte öppnar alla moduler innan evenemanget avslutas kommer de öppnas automatiskt."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Om du inte öppnar moduler innan evenemanget avslutas kommer de öppnas automatiskt."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från moduler kompenseras med respektive värde i guld."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Du är garanterad en Premiumvagn för varje %(guaranteed0)s moduler du öppnar. Om du öppnar så många moduler utan att få en vagn så kommer den %(guaranteed0)s:e modulen innehålla en Premiumvagn du inte redan äger. Därefter nollställs räkningen."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Du är garanterad en vagn för varje %(guaranteed)s moduler du öppnar. Om du öppnar så många moduler utan att få en vagn så kommer den %(guaranteed)s:e modulen innehålla en vagn du inte redan äger. Därefter nollställs räkningen."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Om du inte är nöjd med innehållet i en modul kan du återöppna den för en chans att få ett annat innehåll från samma vinstplan. Varje modul kan bara öppnas ett begränsat antal gånger:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Öppna automatiskt"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensation"
 
 msgid "infoPage/header/description"
 msgstr "Öppna modulen för en chans att få värdefullt spelinnehåll! Läs mer nedan."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Från %(name) (%(boxesCount) öppnade moduler)"
 
 msgid "noBoxesView/description/"
-msgstr "Du har inga moduler. Du kan köpa dem\ni affären i spelet eller Premiumaffären."
+msgstr "Moduler är tillgängliga i affären i spelet"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Till tillgängliga moduler"
 
 msgid "preview/backLabel"
 msgstr "TILL MODULER"
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) moduler"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count):e modulen. Därefter återställs räkningen."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "När du återöppnar en modul har du chans att få annat innehåll från samma vinstplan."

@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "À leur ouverture, ces modules peuvent vous rapporter des véhicules premium, des devises du jeu et d'autres récompenses précieuses."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Vous pouvez obtenir des Paradoxmoduls dans le Magasin en jeu ou dans la Boutique premium."
+msgstr "Les modules sont disponibles dans le Magasin en jeu."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Module"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODULE"
 
 msgid "common/getButton/lowerCase"
 msgstr "Obtenir des Modules"
@@ -31,11 +31,17 @@ msgstr "OBTENIR DES MODULES"
 msgid "common/loader"
 msgstr "Ouverture de modules…"
 
+msgid "common/selectTooltip"
+msgstr "Pas assez de modules pour en ouvrir 5 à la fois"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Ouvrez des modules pour voir les statistiques."
 
 msgid "common/statistics/header"
-msgstr "Modules ouverts : %(count)"
+msgstr "Modules ouverts :"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Le module sera rouvert pour tenter d'obtenir des récompenses différentes."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Toutes les informations portant sur les modules ouverts seront supprimées."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "AUX MODULES"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Il s'agit de modules spéciaux contenant des objets qui peuvent être nouveaux ou uniques, y compris des véhicules premium, des éléments de personnalisation, des devises du jeu et d'autres récompenses précieuses.\nVous pouvez obtenir des modules dans le Magasin en jeu ou la Boutique premium."
+msgstr "Il s'agit de modules spéciaux contenant des objets nouveaux et uniques. Ils peuvent être obtenus dans le Magasin en jeu."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Ces modules ne peuvent pas être ouverts ni obtenus actuellement pour des raisons techniques. Nous nous excusons pour cette gêne temporaire."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Les modules sont temporairement indisponibles"
 
 msgid "eventName/lowerCase"
-msgstr "Briser le paradoxe"
+msgstr "Bravez la tempête"
 
 msgid "eventName/upperCase"
-msgstr "BRISER LE PARADOXE"
+msgstr "BRAVEZ LA TEMPÊTE"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Récompense garantie dans le prochain module !"
@@ -64,14 +70,23 @@ msgstr "Récompense garantie dans le prochain module !"
 msgid "guaranteedTitle/text"
 msgstr "Maximum de modules avant une Récompense garantie : %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/wt"
 msgstr "Si vous n'ouvrez pas les modules avant la fin de l'évènement, ils s'ouvriront automatiquement."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du module, alors tous les véhicules suivants reçus dans les modules feront l'objet d'une compensation en pièces d'or à hauteur de leur valeur totale."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Chaque %(guaranteed0)se module contient assurément un véhicule premium. Si vous en ouvrez un qui ne contient pas un tel véhicule, alors un véhicule premium que vous ne possédez pas encore sera obtenu en ouvrant le %(guaranteed0)se module. Lorsque cela se produit, le compteur est réinitialisé."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Chaque %(guaranteed)se module contient assurément un véhicule. Si vous en ouvrez un qui ne contient pas un tel véhicule, alors un véhicule que vous ne possédez pas encore sera obtenu en ouvrant le %(guaranteed)se module. Lorsque cela se produit, le compteur est réinitialisé."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Si vous n'êtes pas satisfait des récompenses d'un module, vous pouvez le rouvrir pour avoir une chance de recevoir des objets différents de la même liste. Chaque module ne peut être rouvert qu'un nombre limité de fois :"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Ouverture automatique"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensation"
 
 msgid "infoPage/header/description"
 msgstr "Ouvrez le module pour tenter de recevoir de précieux objets du jeu ! Retrouvez plus de détails ci-dessous."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Dans le %(name) (%(boxesCount) modules ouverts)"
 
 msgid "noBoxesView/description/"
-msgstr "Vous ne possédez aucun module. Vous pouvez en obtenir\ndans le Magasin en jeu ou dans la Boutique premium."
+msgstr "Les modules sont disponibles dans le Magasin en jeu"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Aux modules disponibles"
 
 msgid "preview/backLabel"
 msgstr "AUX MODULES"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Modules disponibles : %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Aucun module disponible"
+msgstr "À court de modules"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du module, alors tous les véhicules suivants reçus dans les modules feront l'objet d'une compensation en pièces d'or."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) modules"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "La Récompense garantie est un véhicule de la liste du contenu possible du module.\nSi vous en ouvrez %(remainingCount) sans obtenir un tel véhicule, il sera acquis en ouvrant le %(count)e module. Quand cela se produit, le compteur est remis à zéro."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "La réouverture d'un module vous donne une chance de recevoir des récompenses différentes de la même liste."

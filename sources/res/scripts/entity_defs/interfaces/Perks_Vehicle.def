@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<perkEffects>
+			<Type>PERK_EFFECTS</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<DetailLevel>MY_VEHICLE</DetailLevel>
+		</perkEffects>
+		<perks>
+			<Type>ARRAY
+				<of>PERK_INFO_HUD</of>
+			</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<DetailLevel>MY_VEHICLE</DetailLevel>
+		</perks>
+		<perksRibbonNotify>
+			<Type>ARRAY
+				<of>PERK_INFO_RIBBON</of>
+			</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<DetailLevel>MY_VEHICLE</DetailLevel>
+		</perksRibbonNotify>
+	</Properties>
+	<CellMethods></CellMethods>
+</root>

@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Atidarydami juos gausite Premium mašinų, žaidimo valiutų ir kitų vertingų prizų."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoksmodulių galite rasti žaidimo ar Premium parduotuvėse."
+msgstr "Modulių rasite žaidimo parduotuvėje."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoksmodulis"
+msgstr "Modulis"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOKSMODULIS"
+msgstr "MODULIS"
 
 msgid "common/getButton/lowerCase"
 msgstr "Gauti modulių"
@@ -31,11 +31,17 @@ msgstr "GAUTI MODULIŲ"
 msgid "common/loader"
 msgstr "Atidaromas modulis"
 
+msgid "common/selectTooltip"
+msgstr "Nepakanka modulių, kad iš karto atidarytumėte penkis"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Statistiką pamatysite atidarę modulius."
 
 msgid "common/statistics/header"
-msgstr "Atidaryta modulių: %(count)"
+msgstr "Atidaryta modulių:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modulis bus vėl atidarytas dėl galimybės gauti kitų apdovanojimų."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Visa informacija apie atidarytus modulius bus ištrinta."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "Į MODULIUS"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Tai yra specialūs moduliai, kuriuose galima rasti naujų ir unikalių daiktų, tarp kurių yra Premium mašinų, pritaikomųjų elementų, žaidimo valiutų ir kitų vertingų daiktų.\nModulių galite gauti žaidimo arba Premium parduotuvėse."
+msgstr "Tai yra ypatingi moduliai, kurių viduje galite rasti naujų ir unikalių daiktų. Jų galite įsigyti žaidimo parduotuvėje."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Šiuo metu negalima atidaryti ar gauti modulių dėl techninių nesklandumų. Mes atsiprašome už laikinus sutrikimus."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduliai laikinai nepasiekiami"
 
 msgid "eventName/lowerCase"
-msgstr "Nutraukite paradoksą"
+msgstr "Pasikinkykite audrą"
 
 msgid "eventName/upperCase"
-msgstr "NUTRAUKITE PARADOKSĄ"
+msgstr "PASIKINKYKITE AUDRĄ"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garantuotas prizas kitame modulyje!"
@@ -64,14 +70,23 @@ msgstr "Garantuotas prizas kitame modulyje!"
 msgid "guaranteedTitle/text"
 msgstr "Daugiausia modulių iki garantuoto prizo: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Jei iki renginio pabaigos neatidarysite visų modulių, tai jie bus atidaryti automatiškai."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Jei iki renginio pabaigos neatidarysite modulių, jie bus atidaryti automatiškai."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Jei jau turite visas mašinas, kurias galite gauti iš modulių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Kas %(guaranteed0)s modulių garantuotai gausite Premium mašiną. Jei atidarinėdami modulius negaunate tokios mašinos, tai Premium mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s-tą modulį. Gavus mašiną moduliai bus skaičiuojami iš naujo."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Kas %(guaranteed)s modulių garantuotai gausite mašiną. Jei atidarinėdami modulius negaunate tokios mašinos, tai mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed)s-tą modulį. Gavus mašiną moduliai bus skaičiuojami iš naujo."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Jei jums nepatinka iš modulio gauti apdovanojimai, galite jį atidaryti iš naujo su tikimybe gauti kitų apdovanojimų iš to pačio sąrašo. Kiekvieną modulį galima atidaryti iš naujo ribotą kartų skaičių:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automatinis atidarymas"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensacija"
 
 msgid "infoPage/header/description"
 msgstr "Modulių viduje gali būti vertingų žaidimo daiktų! Sužinokite daugiau žemiau."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Iš %(name) (atidaryta modulių: %(boxesCount))"
 
 msgid "noBoxesView/description/"
-msgstr "Jūs neturite modulių. Jų galite gauti\nžaidimo parduotuvėje arba Premium parduotuvėje."
+msgstr "Modulių rasite žaidimo parduotuvėje"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Į pasiekiamus modulius"
 
 msgid "preview/backLabel"
 msgstr "Į MODULIUS"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Pasiekiama modulių: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Nėra pasiekiamų modulių"
+msgstr "Nebeturite modulių"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Jei jau turite visas mašinas, kurias galite gauti iš modulių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) modulių"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Garantuotas prizas yra mašina iš prizų sąrašo.\nJei atidarėte %(remainingCount) ir mašinos dar negavote, tai gausite ją atidarę %(count) modulį. Kai ją gausite, skaičiuoklis pradės skaičiuoti iš naujo."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Atidarę modulį iš naujo galite gauti kitų prizų iš to pačio sąrašo."

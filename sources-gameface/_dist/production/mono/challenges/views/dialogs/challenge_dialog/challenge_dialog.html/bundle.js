@@ -9,16 +9,16 @@ import {
   q as u,
   s as m,
   v as g,
-  r as b,
+  a as b,
   w as v,
   x as p,
   y as _,
   z as h,
-  A as f,
-  m as x,
-  f as y,
+  A as x,
+  m as f,
+  h as y,
   k as j,
-  h as N,
+  r as N,
   U as z,
 } from "../../../../chunks/lib.js";
 var C = ((e) => ((e.Primary = "primary"), (e.Secondary = "secondary"), (e.Custom = "custom"), e))(
@@ -244,10 +244,10 @@ const se = "Wallet_26bfe88f",
       { isWalletAvailable: s } = e.root.get(),
       t = e.balance.get(),
       i = v({ size: m.extraSmall }, { large: { size: m.small }, extraLarge: { size: m.medium } }),
-      r = f(i.size, m.small);
+      r = x(i.size, m.small);
     return a.jsx("div", {
       className: se,
-      children: x(t, ({ value: e, name: t }) =>
+      children: f(t, ({ value: e, name: t }) =>
         a.jsx(
           "div",
           {

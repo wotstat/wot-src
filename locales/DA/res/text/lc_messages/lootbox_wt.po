@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Ved åbning kan disse moduler give dig premium køretøjer, in-game valuta og andre værdifulde belønninger."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoksmoduler kan fås i in-game butikken eller premium butikken."
+msgstr "Moduler er tilgængelige i in-game butikken."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoksmodul"
+msgstr "Modul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOKSMODUL"
+msgstr "MODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Få moduler"
@@ -31,11 +31,17 @@ msgstr "FÅ MODULER"
 msgid "common/loader"
 msgstr "Åbner modul..."
 
+msgid "common/selectTooltip"
+msgstr "Ikke nok moduler til at åbne fem på én gang"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Åbn moduler for at se statistik."
 
 msgid "common/statistics/header"
-msgstr "Moduler åbnet: %(count)"
+msgstr "Moduler åbnet:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modulet vil blive åbnet igen med mulighed for at modtage andre belønninger."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Al information om åbnede moduler vil blive slettet."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "TIL MODULER"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Disse er særlige moduler, der indeholder nye og unikke ting, herunder premium køretøjer, tilpasningselementer, in-game valuta og andre værdifulde belønninger.\nModuler kan fås i in-game butikken eller premium butikken."
+msgstr "Disse er særlige moduler med nye og unikke ting. De kan findes i in-game butikken."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduler kan ikke åbnes eller fås i øjeblikket på grund af tekniske udfordringer. Vi beklager den midlertidige ulejlighed."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduler midlertidigt utilgængelige"
 
 msgid "eventName/lowerCase"
-msgstr "Bryd paradokset"
+msgstr "Stormrytter"
 
 msgid "eventName/upperCase"
-msgstr "BRYD PARADOKSET"
+msgstr "STORMRYTTER"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garanteret belønning i det næste modul!"
@@ -64,14 +70,23 @@ msgstr "Garanteret belønning i det næste modul!"
 msgid "guaranteedTitle/text"
 msgstr "Max antal moduler til en garanteret belønning: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Hvis du ikke åbner moduler, før eventet er slut, vil de senere blive åbnet automatisk."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Hvis du ikke åbner moduler, før eventet er slut, vil de blive åbnet automatisk."
 
-msgid "infoPage/footer/description/compensation"
-msgstr "Hvis du allerede ejer alle køretøjer fra listen over muligt indhold i moduler, vil alle følgende køretøjer du modtager fra moduler blive kompenseret med guld, der modsvarer deres fulde værdi."
+msgid "infoPage/footer/description/compensation/wt"
+msgstr "Hvis du allerede ejer alle køretøjerne fra listen over muligt indhold i moduler, vil alle følgende køretøjer du modtager fra moduler blive kompenseret med guld, der modsvarer deres fulde værdi."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Hver %(guaranteed0)s moduler vil med garanti indeholde et premium køretøj. Hvis du åbner dem uden at finde et sådant køretøj, så vil du finde et premium køretøj, som du ikke allerede ejer, i det %(guaranteed0)s. modul. Når køretøjet findes, nulstilles tælleren."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Hver %(guaranteed)s moduler vil med garanti indeholde et køretøj. Hvis du åbner dem uden at finde et sådant køretøj, så vil du finde et køretøj, som du ikke allerede ejer, i det %(guaranteed)s. modul. Når køretøjet findes, nulstilles tælleren."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Hvis du ikke er tilfreds med belønningerne fra et modul, kan du genåbne det med mulighed for at modtage andre ting fra samme liste. Hvert modul kan kun genåbnes et begrænset antal gange:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Auto-åbn"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensation"
 
 msgid "infoPage/header/description"
 msgstr "Åbn modulet for muligheden for at modtage værdifulde in-game ting! Se flere detaljer nedenfor."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Fra %(name) (%(boxesCount) moduler åbnet)"
 
 msgid "noBoxesView/description/"
-msgstr "Du har ingen moduler. Du kan finde dem\ni in-game butikken eller premium butikken."
+msgstr "Moduler er tilgængelige i in-game butikken"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Til tilgængelige moduler"
 
 msgid "preview/backLabel"
 msgstr "TIL MODULER"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Moduler tilgængelige: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Ingen moduler tilgængelige"
+msgstr "Ikke flere moduler"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Hvis du allerede ejer alle køretøjerne fra listen over muligt indhold i modulerne, vil alle følgende køretøjer du modtager fra moduler blive kompenseret med guld."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) moduler"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Den garanterede belønning er et køretøj fra listen over muligt indhold i moduler.\nHvis du åbner %(remainingCount), uden at de indeholder et sådant køretøj, vil det være at finde, når du åbner det %(count). modul. Når det sker, vil tælleren blive nulstillet."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Genåbning af et modul giver dig chancen for at modtage andre belønninger fra samme liste."

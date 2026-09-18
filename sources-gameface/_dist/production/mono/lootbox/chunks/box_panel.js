@@ -1,8 +1,8 @@
 import { j as e, e as a, r as s, R as t } from "./vendor.js";
-import { at as n, au as c, av as o, aq as i, v as r, u as l, d as m, F as d } from "./lib.js";
+import { at as n, au as c, av as o, aq as i, v as l, u as r, d as m, F as d } from "./lib.js";
 import { B as x, a as u } from "./resources.js";
-import { g as h, T as N, S as g, s as v } from "./shield.js";
-const _ = {
+import { g as h, T as N, S as g, s as _ } from "./shield.js";
+const v = {
     HOME: { context: "model.home" },
     SINGLE_REWARD: { context: "model.singleBoxRewards" },
     MULTIPLE_REWARD: { context: "model.multipleBoxesRewards" },
@@ -26,7 +26,7 @@ function p({ className: s, isActive: t, text: c, disable: o = !1, onClick: i }) 
 const y = "Loader_a1c28e8a",
   T = "Loader_icon_aa53996d",
   k = "Loader_text_9d6119c3";
-function A({ img: s, text: t, className: n }) {
+function B({ img: s, text: t, className: n }) {
   return e.jsxs("div", {
     className: a(y, n),
     children: [
@@ -35,9 +35,9 @@ function A({ img: s, text: t, className: n }) {
     ],
   });
 }
-const B = { image: "img", video: "video" },
+const A = { image: "img", video: "video" },
   L = { [x.Common]: x.Common, [x.Rare]: x.Rare },
-  I = (e) => {
+  w = (e) => {
     const { width: a, height: t } = c(),
       n = a / t;
     return s.useMemo(
@@ -48,16 +48,16 @@ const B = { image: "img", video: "video" },
       [t, n, a, e],
     );
   },
-  R = (e, a) => {
+  I = (e, a) => {
     const [s, t] = o(() => {
       const s = e.current?.getCachedKeyframes();
       return !s?.length || (a(), !1);
     });
     i(() => (s(), t));
   },
-  q = s.createContext({ eventName: "" });
-function w({ eventName: a, children: s }) {
-  return e.jsx(q.Provider, { value: { eventName: a }, children: s });
+  R = s.createContext({ eventName: "" });
+function q({ eventName: a, children: s }) {
+  return e.jsx(R.Provider, { value: { eventName: a }, children: s });
 }
 const P = "Caption_ba85a9b";
 function E({ children: s, className: t, ...n }) {
@@ -67,28 +67,28 @@ const z = "Control_fcb22b97";
 function M({ children: s, className: t }) {
   return e.jsx("div", { className: a(z, t), children: s });
 }
-const $ = "Controls_9d09936a";
-const D = {
+const S = "Controls_9d09936a";
+const $ = {
     images: { infoIcon: "common.icons.info_light.s24x24" },
     texts: {
       guaranteedTitle: "guaranteedTitle.text",
       guaranteedTitleName: "guaranteedTitle.textName",
     },
   },
-  G = "Line_922d96a0",
-  H = "Line_icon_b09df192";
-function Q({ counts: s, category: t, eventName: n, className: c }) {
-  const o = r.resolve("views"),
-    { images: i, texts: x } = u(D, n),
-    _ = l({
+  D = "Line_922d96a0",
+  G = "Line_icon_b09df192";
+function H({ counts: s, category: t, eventName: n, className: c }) {
+  const o = l.resolve("views"),
+    { images: i, texts: x } = u($, n),
+    v = r({
       contentId: o.read((e) => e.mono.lootbox.tooltips.guaranteed_reward_info("resId")),
       args: { category: t, eventName: n },
     }),
-    j = m({ size: v.small }, { large: { size: v.large } }),
+    j = m({ size: _.small }, { large: { size: _.large } }),
     { guaranteed: f } = h(n);
   return e.jsxs(N, {
-    ..._,
-    className: a(G, c),
+    ...v,
+    className: a(D, c),
     children: [
       e.jsx(d, {
         text: x.guaranteedTitle,
@@ -98,13 +98,13 @@ function Q({ counts: s, category: t, eventName: n, className: c }) {
           name: e.jsx(N.Highlight, { highlight: s <= f.accent, text: x.guaranteedTitleName }),
         },
       }),
-      e.jsx(N.Info, { className: H, src: i.infoIcon }),
+      e.jsx(N.Info, { className: G, src: i.infoIcon }),
     ],
   });
 }
-function S(a) {
-  const { eventName: s } = t.useContext(q);
-  return e.jsx(Q, { ...a, eventName: s });
+function Q(a) {
+  const { eventName: s } = t.useContext(R);
+  return e.jsx(H, { ...a, eventName: s });
 }
 const W = {
     texts: {
@@ -114,7 +114,7 @@ const W = {
   },
   F = "Quantity_count_3dd338ce";
 function K({ boxesCount: a = 0, className: s }) {
-  const { eventName: n } = t.useContext(q),
+  const { eventName: n } = t.useContext(R),
     { texts: c } = u(W, n);
   return e.jsx(E, {
     className: s,
@@ -128,18 +128,24 @@ function K({ boxesCount: a = 0, className: s }) {
         : c.quantityNoBoxesTitle,
   });
 }
-const O = "BoxPanel_45fc5818",
-  U = "BoxPanel_guaranteed_d08d90be",
-  J = "BoxPanel_caption_3b168a33",
-  V = "BoxPanel_control_e99a2e5d";
-function X({ eventName: s, children: t, className: n }) {
-  return e.jsx(w, { eventName: s, children: e.jsx("div", { className: a(O, n), children: t }) });
+const O = "Shadow_28737c39";
+function U({ className: s }) {
+  return e.jsx("div", { className: a(O, s) });
 }
-((X.Controls = function ({ children: s, className: t }) {
-  return e.jsx("div", { className: a($, t), children: s });
+const J = "BoxPanel_f93d6b25",
+  V = "BoxPanel_guaranteed_d08d90be",
+  X = "BoxPanel_caption_3b168a33",
+  Y = "BoxPanel_control_e99a2e5d",
+  Z = "BoxPanel_shadow_1ecffa55";
+function ee({ eventName: s, children: t, className: n }) {
+  return e.jsx(q, { eventName: s, children: e.jsx("div", { className: a(J, n), children: t }) });
+}
+((ee.Controls = function ({ children: s, className: t }) {
+  return e.jsx("div", { className: a(S, t), children: s });
 }),
-  (X.Control = ({ className: s, ...t }) => e.jsx(M, { ...t, className: a(V, s) })),
-  (X.Guaranteed = ({ className: s, ...t }) => e.jsx(S, { ...t, className: a(U, s) })),
-  (X.Quantity = ({ className: s, ...t }) => e.jsx(K, { ...t, className: a(J, s) })),
-  (X.Caption = ({ className: s, ...t }) => e.jsx(E, { ...t, className: a(J, s) })));
-export { p as A, X as B, A as L, _ as M, B as R, R as a, L as b, q as c, I as u };
+  (ee.Control = ({ className: s, ...t }) => e.jsx(M, { ...t, className: a(Y, s) })),
+  (ee.Guaranteed = ({ className: s, ...t }) => e.jsx(Q, { ...t, className: a(V, s) })),
+  (ee.Quantity = ({ className: s, ...t }) => e.jsx(K, { ...t, className: a(X, s) })),
+  (ee.Caption = ({ className: s, ...t }) => e.jsx(E, { ...t, className: a(X, s) })),
+  (ee.Shadow = ({ className: s, ...t }) => e.jsx(U, { ...t, className: a(Z, s) })));
+export { p as A, ee as B, B as L, v as M, A as R, I as a, L as b, R as c, w as u };

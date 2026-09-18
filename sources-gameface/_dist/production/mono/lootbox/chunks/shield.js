@@ -17,7 +17,7 @@ const t = {
       hoverZone: { width: "38%", height: "39%", horizontalOffset: "30.8%", verticalOffset: "39%" },
       backgroundColor: "#111",
     },
-    COMMON: { guaranteed: { accent: 5, visibleAt: 10 } },
+    COMMON: { guaranteed: { accent: 5, visibleAt: 10 }, hasFooterShadow: !0 },
   },
   o = {
     DEFAULT_CONFIG: t,

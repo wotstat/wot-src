@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Когато бъдат отворени, тези модули може да ви осигурят Премиум машини, валути в играта и други ценни награди."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Модулите \"Парадокс\" могат да бъдат получени от Магазина в играта или от Премиум магазина."
+msgstr "Модулите са налични в Магазина в играта."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Модул \"Парадокс\""
+msgstr "Модул"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "МОДУЛ \"ПАРАДОКС\""
+msgstr "МОДУЛ"
 
 msgid "common/getButton/lowerCase"
 msgstr "Вземете модули"
@@ -31,11 +31,17 @@ msgstr "ВЗЕМЕТЕ МОДУЛИ"
 msgid "common/loader"
 msgstr "Отваряне на модул..."
 
+msgid "common/selectTooltip"
+msgstr "Няма достатъчно модули за отваряне на пет наведнъж"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Отворете модули, за да видите статистиките."
 
 msgid "common/statistics/header"
-msgstr "Отворени модули: %(count)"
+msgstr "Отворени модули:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Модулът ще се отвори отново за шанс да получите различни награди."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Цялата информация за отворените модули ще бъде изтрита."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "КЪМ МОДУЛИ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Това са специални модули, съдържащи нови и уникални предмети, включително Премиум машини, елементи за персонализация, валути в играта и други ценни награди.\nМодулите могат да бъдат получени от Магазина в играта или от Премиум магазина."
+msgstr "Това са специални модули, съдържащи нови и уникални предмети. Те могат да бъдат получени от Магазина в играта."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "В момента модулите не могат да бъдат отворени или получени поради технически причини. Извиняваме се за временното неудобство."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Модулите са временно недостъпни"
 
 msgid "eventName/lowerCase"
-msgstr "Пробийте парадокса"
+msgstr "Яхни бурята"
 
 msgid "eventName/upperCase"
-msgstr "ПРОБИЙТЕ ПАРАДОКСА"
+msgstr "ЯХНИ БУРЯТА"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Гарантирана награда в следващия модул!"
@@ -64,14 +70,23 @@ msgstr "Гарантирана награда в следващия модул!"
 msgid "guaranteedTitle/text"
 msgstr "Максимум модули до гарантирана награда: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/wt"
 msgstr "Ако не отворите модулите преди края на събитието, те ще бъдат отворени автоматично."
 
-msgid "infoPage/footer/description/compensation"
-msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на модула, тогава всички следващи машини, които получавате от модули, ще бъдат компенсирани в злато, равно на пълната им стойност."
+msgid "infoPage/footer/description/compensation/wt"
+msgstr "Ако вече притежавате всичките машини от списъка с възможно съдържание на модула, тогава всички следващи машини, които получавате от модули, ще бъдат компенсирани в злато, равно на пълната им стойност."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Всеки %(guaranteed0)s модула гарантирано съдържат Премиум машина. Ако ги отворите без да се падне такава машина, тогава Премиум машина, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s-ия модул. Когато това се случи, броячът се нулира."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Всеки %(guaranteed)s модула гарантирано съдържат машина. Ако ги отворите без да се падне такава машина, тогава машина, която още не притежавате, ще се падне, когато отворите %(guaranteed)s-ия модул. Когато това се случи, броячът се нулира."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Ако не сте доволни от наградите в даден модул, можете да я отворите отново, за да имате шанс да получите различни предмети от същия списък. Всеки модул може да бъде отворен отново само ограничен брой пъти:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Автоматично отваряне"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Компенсация"
 
 msgid "infoPage/header/description"
 msgstr "Отворете модула за шанс да получите ценни предмети в играта! Вижте повече подробности по-долу."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "От %(name) (%(boxesCount) отворени модула)"
 
 msgid "noBoxesView/description/"
-msgstr "Нямате никакви модули. Можете да ги вземете\nв Магазина в играта или Премиум магазина."
+msgstr "Модулите са налични в Магазина в играта"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Към наличните модули"
 
 msgid "preview/backLabel"
 msgstr "КЪМ МОДУЛИ"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Налични модули: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Няма налични модули"
+msgstr "Няма повече модули"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на модула, тогава всички следващи машини, които получавате от модули, ще бъдат компенсирани в злато."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) модула"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Гарантираната награда е машина от списъка с възможно съдържание на модул.\nАко отворите %(remainingCount), без да се падне такава машина, то ще се падне, когато отворите %(count)-ия модул. Когато това стане, броячът се нулира."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Повторното отваряне на модул ви дава шанс да получите различни награди от същия списък."

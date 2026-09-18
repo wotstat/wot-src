@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Όταν ανοίγετε συσκευές, μπορεί να βρείτε Προνομιακά Οχήματα, νομίσματα του παιχνιδιού και άλλα πολύτιμα αγαθά."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Τις συσκευές Paradoxmoduls μπορείτε να τις αγοράσετε από τον Εφοδιασμό του παιχνιδιού ή από το Premium Shop."
+msgstr "Τα Modules θα τα βρείτε στον Εφοδιασμό του παιχνιδιού."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Module"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODULE"
 
 msgid "common/getButton/lowerCase"
 msgstr "Αποκτήστε Συσκευές"
@@ -31,11 +31,17 @@ msgstr "ΑΠΟΚΤΗΣΤΕ ΣΥΣΚΕΥΕΣ"
 msgid "common/loader"
 msgstr "Άνοιγμα συσκευής..."
 
+msgid "common/selectTooltip"
+msgstr "Όχι αρκετά Modules για να ανοίξετε 5 μονομιάς"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Ανοίξτε συσκευές για να δείτε στατιστικά."
 
 msgid "common/statistics/header"
-msgstr "Συσκευές που ανοίχθηκαν: %(count)"
+msgstr "Ανοιγμένα Modules:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Θα γίνει νέο άνοιγμα του Module για την πιθανότητα να λάβετε διαφορετικά έπαθλα."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Όλες οι πληροφορίες από το άνοιγμα των συσκευών θα μηδενιστεί."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "ΣΤΙΣ ΣΥΣΚΕΥΕΣ"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Σε αυτές τις ειδικές συσκευές μπορείτε να βρείτε πολύτιμα αγαθά του παιχνιδιού, όπως Προνομιακά Οχήματα και μοναδικά στοιχεία προσαρμογής.\nΑγοράστε τις από τον Εφοδιασμό ή το Premium Shop."
+msgstr "Σε αυτά τα ειδικά Modules μπορείτε να βρείτε νέα και μοναδικά αντικείμενα του παιχνιδιού. Μπορείτε να τα αποκτήσετε από τον Εφοδιασμό του παιχνιδιού."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Η λειτουργία των συσκευών είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους. Μας συγχωρείτε για την ταλαιπωρία."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Συσκευές Προσωρινά Μη Διαθέσιμες"
 
 msgid "eventName/lowerCase"
-msgstr "Break the Paradox"
+msgstr "Ride the Storm"
 
 msgid "eventName/upperCase"
-msgstr "BREAK THE PARADOX"
+msgstr "RIDE THE STORM"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Εγγυημένο Έπαθλο στην επόμενη συσκευή!"
@@ -64,14 +70,23 @@ msgstr "Εγγυημένο Έπαθλο στην επόμενη συσκευή!"
 msgid "guaranteedTitle/text"
 msgstr "Μέγιστο πλήθος συσκευών πριν το Εγγυημένο Έπαθλο: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Εάν δεν ανοίξετε όλα τις συσκευές έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα για λογαριασμό σας."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Εάν δεν ανοίξετε όλα τα Modules έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα για λογαριασμό σας."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε ως αντιστάθμισμα την πλήρη αξία σε gold όσων οχημάτων βρείτε στις συσκευές."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Σε κάθε %(guaranteed0)s συσκευές, θα βρείτε εγγυημένα ένα Προνομιακό Όχημα. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα της %(guaranteed0)sης συσκευής θα λάβετε εγγυημένα ένα Προνομιακό Όχημα που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Σε κάθε %(guaranteed)s Modules, θα βρείτε εγγυημένα ένα όχημα. Αλλά αν δεν βρείτε κάποιο όχημα, τότε με το άνοιγμα του %(guaranteed)sου Module θα λάβετε εγγυημένα ένα όχημα που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Αν δεν μείνετε ικανοποιημένοι με το περιεχόμενο κάποιου Module, μπορείτε να το ανοίξετε εκ νέου κάποιες συγκεκριμένες φορές, για την πιθανότητα να λάβετε διαφορετικά έπαθλα."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Αυτόματο Άνοιγμα"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Αντιστάθμισμα"
 
 msgid "infoPage/header/description"
 msgstr "Ανοίξτε τις συσκευές για να βρείτε πολύτιμα αγαθά του παιχνιδιού! Δείτε περισσότερες λεπτομέρειες παρακάτω."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Περιεχόμενα %(name) (Ανοίξατε %(boxesCount) συσκευές)"
 
 msgid "noBoxesView/description/"
-msgstr "Δεν έχετε καμία συσκευή. Αγοράστε τις\nαπό τον Εφοδιασμό του παιχνιδιού ή από το Premium Shop."
+msgstr "Τα Modules θα τα βρείτε στον Εφοδιασμό του παιχνιδιού"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Διαθέσιμα Modules"
 
 msgid "preview/backLabel"
 msgstr "ΣΤΙΣ ΣΥΣΚΕΥΕΣ"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Διαθέσιμες συσκευές: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Καμία διαθέσιμη συσκευή"
+msgstr "Κανένα διαθέσιμο Module"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε αντιστάθμισμα σε gold για όσα οχήματα βρείτε στις συσκευές."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) συσκευές"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Το Εγγυημένο Έπαθλο είναι ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα.\nΕάν ανοίξετε %(remainingCount) συσκευές αλλά δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα της %(count)ης συσκευής θα λάβετε εγγυημένα ένα όχημα από τη λίστα με τα διαθέσιμα έπαθλα. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Με το νέο άνοιγμα ενός Module διεκδικείτε την πιθανότητα να λάβετε διαφορετικά έπαθλα από την ίδια λίστα."

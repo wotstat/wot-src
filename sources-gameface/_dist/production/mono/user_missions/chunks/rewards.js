@@ -1,7 +1,7 @@
 import { r as e, j as a, e as t } from "./vendor.js";
-import { x as s, v as l } from "./lib.js";
+import { a4 as s, x as l } from "./lib.js";
 import { f as r } from "./utils.js";
-import { g as n, I as o, a as i, b as m } from "./get_reward_image.js";
+import { a as n, I as o, b as i, g as m } from "./get_reward_image.js";
 const _ = "customization",
   c = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"];
 function d(e, a) {

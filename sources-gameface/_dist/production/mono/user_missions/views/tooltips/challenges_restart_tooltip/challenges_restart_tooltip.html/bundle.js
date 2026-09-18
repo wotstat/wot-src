@@ -3,11 +3,11 @@ import {
   i as r,
   n as t,
   g as a,
-  Q as c,
-  R as n,
+  q as c,
+  v as n,
   r as i,
   U as d,
-  K as o,
+  w as o,
 } from "../../../../chunks/lib.js";
 /* empty css                       */ const [p, l] = r()(
     ({ observableModel: s }) => ({ ...{ root: s.object() } }),
@@ -21,8 +21,8 @@ import {
   b = "App_separator_edcf04ac",
   h = "App_textBlock_a1aa5c7e",
   N = "App_currentNumber_d28826b0",
-  f = "App_commonNumber_c5925018",
-  v = "App_currency_d28826b0",
+  v = "App_commonNumber_c5925018",
+  f = "App_currency_d28826b0",
   y = a.resolve("strings"),
   A = "R.strings.user_missions.tooltip.hub.restart",
   g = s(function () {
@@ -48,7 +48,7 @@ import {
                     text: y.readOrEmpty(`${A}.free_restarts_text`),
                     binding: {
                       currentNumber: e.jsx("span", { className: N, children: r - t }),
-                      commonNumber: e.jsx("span", { className: f, children: `/ ${r}` }),
+                      commonNumber: e.jsx("span", { className: v, children: `/ ${r}` }),
                     },
                   }),
                 e.jsx(c, {
@@ -60,7 +60,7 @@ import {
                     currency: e.jsx(n, {
                       type: i,
                       reverse: !0,
-                      classNames: { base: v, icon: u },
+                      classNames: { base: f, icon: u },
                       children: a,
                     }),
                   },

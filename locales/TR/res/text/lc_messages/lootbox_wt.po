@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Bu modülleri açtığınızda Premium araçlar, oyun içi paralar ve başka değerli ürünler çıkabilir."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoxmodulları oyun içi Dükkândan veya Premium Dükkân'dan satın alabilirsiniz."
+msgstr "Modüller oyun içi Dükkânda sunulmaktadır."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Modül"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODÜL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Modüller Alın"
@@ -31,11 +31,17 @@ msgstr "MODÜLLER ALIN"
 msgid "common/loader"
 msgstr "Modül açılıyor..."
 
+msgid "common/selectTooltip"
+msgstr "Aynı anda beş adet açmak için yeterli modül yok"
+
 msgid "common/statistics/emptyHeader"
 msgstr "İstatistiklere bakmak için modülleri açın."
 
 msgid "common/statistics/header"
-msgstr "Açılan modüller: %(count)"
+msgstr "Açılan modüller:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modül, farklı ödüller alma şansı ile yeniden açılacak."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Açılan modüller hakkında tüm bilgiler silinecek."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "MODÜLLERE GİDİN"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Bunlar Premium araçlar, özelleştirme ögeleri, oyun içi paralar ve başka değerli ödüller gibi yeni ve özgün ürünler içeren özel modüllerdir.\nModülleri oyun içi Dükkândan veya Premium Dükkân'dan elde edebilirsiniz."
+msgstr "Bunlar yeni ve özgün ürünler içeren özel modüllerdir. Oyun içi Dükkândan elde edilebilir."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Modüller teknik nedenlerle şu anda açılamaz veya elde edilemez. Verdiğimiz geçici rahatsızlık nedeniyle özür dileriz."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Modüller Geçici Olarak Devre Dışı"
 
 msgid "eventName/lowerCase"
-msgstr "Paradoksu Kırın"
+msgstr "Fırtınayla Yürü"
 
 msgid "eventName/upperCase"
-msgstr "PARADOKSU KIRIN"
+msgstr "FIRTINAYLA YÜRÜ"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Bir sonraki modülde Garantili Ödül!"
@@ -64,14 +70,23 @@ msgstr "Bir sonraki modülde Garantili Ödül!"
 msgid "guaranteedTitle/text"
 msgstr "Garantili Ödüle kalan maksimum modül: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/wt"
 msgstr "Etkinlik bitmeden modülleri açmazsanız otomatik olarak açılacaklar."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Olası modül içeriği listesindeki tüm araçlara zaten sahipseniz modüllerden alacağınız sonraki tüm araçlar tam değerleri karşılığı altın ile telafi edilecek."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Her %(guaranteed0)s modülde bir Premium araç bulunması garantilidir. Bu modülleri açtığınızda böyle bir araç çıkmazsa açacağınız %(guaranteed0)s. modülden sahip olmadığınız bir Premium araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Her %(guaranteed)s modülde bir araç bulunması garantilidir. Bu modülleri açtığınızda böyle bir araç çıkmazsa açacağınız %(guaranteed)s. modülden sahip olmadığınız bir araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Bir modülden aldığınız ödüllerden memnun kalmazsanız, modülü yeniden açarak aynı listeden farklı ürünler alma şansı elde edebilirsiniz. Her modül yalnızca sınırlı kere yeniden açılabilir:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Otomatik Aç"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Telafi"
 
 msgid "infoPage/header/description"
 msgstr "Değerli oyun içi ürünler alma şansı için modülü açın! Detayları aşağıda bulabilirsiniz."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "%(name) içinden (%(boxesCount) modül açıldı)"
 
 msgid "noBoxesView/description/"
-msgstr "Hiç modülünüz yok. Modülleri oyun içi Dükkân'dan\nveya Premium Dükkân'dan alabilirsiniz."
+msgstr "Modüller oyun içi Dükkânda sunulmaktadır."
+
+msgid "noBoxesView/goToButton/"
+msgstr "Mevcut Modüller"
 
 msgid "preview/backLabel"
 msgstr "MODÜLLERE GİDİN"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Mevcut modüller: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Hiç modül yok"
+msgstr "Başka modül yok"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Olası modül içeriği listesindeki tüm araçlara zaten sahipseniz modüllerden alacağınız sonraki tüm araçlar altın ile telafi edilecek."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) modül"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Garantili Ödül, olası modül içeriği listesinden bir araçtır.\n%(remainingCount) açtığınız halde böyle bir araç çıkmazsa açacağınız %(count). modülden çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Bir modülü yeniden açmak, aynı listeden farklı ödüller kazanma şansı sunar."

@@ -1,15 +1,15 @@
 import { D as s, j as e, e as a } from "../../../../chunks/vendor.js";
 import {
   i as o,
-  q as i,
-  N as l,
-  v as n,
+  K as i,
+  a2 as l,
+  x as n,
   o as r,
   t as c,
   p,
   C as t,
   n as m,
-  w as d,
+  a3 as d,
   r as _,
   U as u,
 } from "../../../../chunks/lib.js";
@@ -23,11 +23,11 @@ const [h, j] = o()(
   g = "App_image_95a6abe1",
   x = "App_a3d5dffb",
   f = "App_base__popup_a2438b5f",
-  N = "App_wrapper_ffdbb6e9",
-  k = "App_description_d7c3ebc2",
-  A = "App_title_90c25d0c",
-  v = "App_rewards_e7ebd125",
-  C = "App_button_a92a5123",
+  k = "App_wrapper_ffdbb6e9",
+  A = "App_description_d7c3ebc2",
+  N = "App_title_90c25d0c",
+  C = "App_rewards_e7ebd125",
+  v = "App_button_a92a5123",
   w = "App_close_654073f5",
   y = R.strings.user_missions.hub.challenge_missions.notification.mission_complete,
   M = s(function () {
@@ -39,7 +39,7 @@ const [h, j] = o()(
       className: a(x, u && f),
       children: [
         e.jsxs("div", {
-          className: N,
+          className: k,
           children: [
             e.jsx("div", {
               className: g,
@@ -48,17 +48,17 @@ const [h, j] = o()(
               },
             }),
             e.jsx("div", {
-              className: k,
+              className: A,
               children: e.jsx(n, {
                 params: { mission: _ },
                 text: y.title(),
-                className: A,
+                className: N,
                 upgradeLegacy: !0,
               }),
             }),
-            e.jsx("div", { className: v, children: e.jsx(b, { bonuses: M }) }),
+            e.jsx("div", { className: C, children: e.jsx(b, { bonuses: M }) }),
             e.jsx(r, {
-              className: C,
+              className: v,
               size: p.small,
               onClick: o.openChallenge,
               theme: c.secondary,

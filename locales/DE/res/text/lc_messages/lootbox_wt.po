@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Diese Module können Premiumfahrzeuge, Spielwährung und andere wertvolle Belohnungen enthalten."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Sie können diese Paradoxmodule im Nachschub oder im Premium-Laden kaufen."
+msgstr "Module sind im Nachschub verfügbar."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Modul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Module erhalten"
@@ -31,11 +31,17 @@ msgstr "MODULE ERHALTEN"
 msgid "common/loader"
 msgstr "Module werden geöffnet ..."
 
+msgid "common/selectTooltip"
+msgstr "Nicht genug Module, um fünf gleichzeitig zu öffnen."
+
 msgid "common/statistics/emptyHeader"
 msgstr "Öffnen Sie Module, um die Statistik zu sehen."
 
 msgid "common/statistics/header"
-msgstr "Geöffnete Module: %(count)"
+msgstr "Geöffnete Module:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Das Modul wird erneut geöffnet und kann damit andere Belohnungen bringen."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Alle Informationen zu geöffneten Modulen werden gelöscht."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "ZU DEN MODULEN"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Dies sind besondere Module, die neue und einzigartige Gegenstände enthalten, darunter Premiumfahrzeuge, Anpassungselemente, Spielwährungen und andere wertvolle Belohnungen.\nSie können Module im Nachschub oder im Premium-Laden erhalten."
+msgstr "Dies sind besondere Module, die neue und einzigartige Gegenstände enthalten. Sie sind im Nachschub verfügbar."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Derzeit können Module aus technischen Gründen nicht erhalten oder geöffnet werden. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Module vorübergehend nicht verfügbar"
 
 msgid "eventName/lowerCase"
-msgstr "Paradox zerbrechen"
+msgstr "Sturmreiter"
 
 msgid "eventName/upperCase"
-msgstr "PARADOX ZERBRECHEN"
+msgstr "STURMREITER"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garantierte Belohnung im nächsten Modul!"
@@ -64,14 +70,23 @@ msgstr "Garantierte Belohnung im nächsten Modul!"
 msgid "guaranteedTitle/text"
 msgstr "Maximale Module bis zur garantierten Belohnung: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Wenn Sie zum Ende des Events noch nicht alle Module geöffnet haben, werden diese automatisch geöffnet."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Wenn Sie die Module vor dem Ende des Events nicht geöffnet haben, werden diese automatisch geöffnet."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste möglicher Inhalte besitzen, werden alle folgenden in Modulen gefundenen Fahrzeuge mit ihrem vollen Wert in Gold vergütet."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Spätestens jedes %(guaranteed0)s. Modul enthält garantiert ein Premiumfahrzeug. Wenn Sie also zuvor noch keins erhalten haben, wird spätestens das %(guaranteed0)s. Modul garantiert ein Premiumfahrzeug enthalten, das Sie noch nicht besitzen. Der Zähler wird durch den Erhalt zurückgesetzt."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Spätestens jedes %(guaranteed)s. Modul enthält garantiert ein Fahrzeug. Wenn Sie also zuvor noch keins erhalten haben, wird spätestens das %(guaranteed)s. Modul garantiert ein Fahrzeug enthalten, das Sie noch nicht besitzen. Der Zähler wird durch den Erhalt zurückgesetzt."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Wenn Ihnen der Inhalt des Moduls nicht gefällt, können Sie es erneut öffnen und haben damit eine Chance, andere Gegenstände derselben Liste zu erhalten. Jedes Modul kann nur begrenzt oft erneut geöffnet werden:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Auto-Öffnen"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Vergütung"
 
 msgid "infoPage/header/description"
 msgstr "Öffnen Sie das Modul für eine Chance auf wertvolle Spielgegenstände! Weitere Details finden Sie unten."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Aus %(name) (%(boxesCount) Module geöffnet)"
 
 msgid "noBoxesView/description/"
-msgstr "Sie haben keine Module.\nSie können diese im Nachschub oder im Premium-Laden kaufen."
+msgstr "Module sind im Nachschub verfügbar."
+
+msgid "noBoxesView/goToButton/"
+msgstr "Zu den verfügbaren Modulen"
 
 msgid "preview/backLabel"
 msgstr "ZU DEN MODULEN"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Verfügbare Module: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Keine verfügbaren Module"
+msgstr "Keine Module mehr vorhanden"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste der möglichen Inhalte der Module besitzen, werden alle folgenden Fahrzeuge, die Sie aus den Modulen erhalten, in Gold vergütet."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) Module"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Die garantierte Belohnung ist ein Fahrzeug von der Liste der möglichen Inhalte der Module.\nWenn Sie %(remainingCount) öffnen, ohne ein solches Fahrzeug zu erhalten, ist es garantiert im %(count). Modul enthalten. Der Zähler wird durch den Erhalt zurückgesetzt."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Durch das erneute Öffnen eines Moduls können Sie andere Belohnungen von derselben Liste erhalten."

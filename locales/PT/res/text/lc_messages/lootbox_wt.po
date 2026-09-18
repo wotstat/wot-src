@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Quando abertas, estes módulos podem conceder-lhe veículos Premium de Nível IX, moedas do jogo e outras recompensas valiosas."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Os Paradoxmoduls podem ser adquiridos na Loja do jogo ou na Loja Premium."
+msgstr "Os módulos estão disponíveis na Loja do jogo."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Módulo"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MÓDULO"
 
 msgid "common/getButton/lowerCase"
 msgstr "Obter Módulos"
@@ -31,11 +31,17 @@ msgstr "OBTER MÓDULOS"
 msgid "common/loader"
 msgstr "Módulo a abrir..."
 
+msgid "common/selectTooltip"
+msgstr "Não há módulos suficientes para abrir cinco de uma só vez"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Abrir módulos para ver as estatísticas."
 
 msgid "common/statistics/header"
-msgstr "Módulos abertos: %(count)"
+msgstr "Módulos abertos:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "O módulo será aberto novamente para ter a oportunidade de receber recompensas diferentes."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Todas as informações sobre módulos abertos serão eliminadas."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "PARA OS MÓDULOS"
 
 msgid "entryPoint/tooltip/description"
-msgstr "São módulos especiais que contêm itens novos e únicos, incluindo veículos Premium, elementos de personalização, moedas do jogo e outras recompensas valiosas.\nOs módulos podem ser obtidos na Loja do jogo ou na Loja Premium."
+msgstr "Estes são módulos especiais que contêm itens novos e exclusivos. Podem ser adquiridos na Loja do jogo."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Módulos não podem ser abertos atualmente ou obtidos devido a razões técnicas. Pedimos desculpa pelo inconveniente temporário."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Módulos Temporariamente Indisponíveis"
 
 msgid "eventName/lowerCase"
-msgstr "Quebre o Paradoxo"
+msgstr "Monte a Tempestade"
 
 msgid "eventName/upperCase"
-msgstr "QUEBRE O PARADOXO"
+msgstr "MONTE A TEMPESTADE"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Recompensa Garantida no próximo módulo!"
@@ -64,14 +70,23 @@ msgstr "Recompensa Garantida no próximo módulo!"
 msgid "guaranteedTitle/text"
 msgstr "Máximo de módulos antes de uma Recompensa Garantida: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Se não abrir todos os módulos antes do fim do evento, eles serão abertos automaticamente."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Se não abrir os módulos antes do fim do evento, estes serão abertos automaticamente."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Se já possuir todos os veículos da lista de possíveis conteúdos dos módulos, todos os veículos subsequentes que receber dos módulos serão compensados em ouro igual ao seu valor total."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "A cada %(guaranteed0)s módulos é garantido conter um veículo Premium. Se os abrir sem que um deles deixe cair um veículo, então um veículo Premium que ainda não possua irá cair quando abrir o %(guaranteed0)sº módulo. Quando isso acontecer, o contador é reiniciado."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "A cada %(guaranteed)s módulos é garantido conter um veículo. Se os abrir sem que um deles deixe cair um veículo, então um veículo que ainda não possua irá cair quando abrir o %(guaranteed)sº módulo. Quando isso acontecer, o contador é reiniciado."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Se não estiver satisfeito com as recompensas de um módulo, poderá reabri-lo para ter a possibilidade de receber itens diferentes da mesma lista. Cada módulo só pode ser reaberto um número limitado de vezes."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Abertura Automática"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensação"
 
 msgid "infoPage/header/description"
 msgstr "Abra o módulo para ter a oportunidade de receber itens valiosos no jogo! Veja mais pormenores abaixo."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Dos %(name) (%(boxesCount) módulos abertos)"
 
 msgid "noBoxesView/description/"
-msgstr "Não tem nenhum módulo. Pode adquiri-los\nna Loja do jogo ou na Loja Premium."
+msgstr "Os módulos estão disponíveis na Loja do jogo"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Para os Módulos Disponíveis"
 
 msgid "preview/backLabel"
 msgstr "PARA OS MÓDULOS"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Módulos disponíveis: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Sem módulos disponíveis"
+msgstr "Sem mais módulos"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Se já possuir todos os veículos da lista de possíveis conteúdos dos módulos, todos os veículos subsequentes que receber dos módulos serão compensados em ouro."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) módulos"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "A Recompensa Garantida é um veículo da lista de possíveis conteúdos dos módulos.\nSe abrir %(remainingCount) sem que um veículo tenha saído, ele sairá quando abrir o %(count) módulo. Quando isso acontecer, o contador é reiniciado."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Ao reabrir um módulo, tem a oportunidade de receber recompensas diferentes da mesma lista."

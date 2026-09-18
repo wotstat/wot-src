@@ -3,28 +3,28 @@ import {
   i as t,
   ci as n,
   ck as i,
-  dw as a,
-  dk as r,
-  dx as c,
-  dy as l,
+  dn as r,
+  dp as a,
+  dq as c,
+  dr as l,
   df as u,
-  dz as p,
-  dA as m,
-  dB as b,
-  dC as d,
-  dD as P,
+  ds as p,
+  dt as m,
+  du as b,
+  dv as d,
+  dw as P,
   cj as f,
 } from "./lib.js";
-var g = ((e) => ((e.None = "None"), (e.Core = "Core"), (e.Pro = "Pro"), e))(g || {}),
-  v = ((e) => ((e.Inactive = "Inactive"), (e.Active = "Active"), (e.Cancelled = "Cancelled"), e))(
-    v || {},
+var v = ((e) => ((e.None = "None"), (e.Core = "Core"), (e.Pro = "Pro"), e))(v || {}),
+  g = ((e) => ((e.Inactive = "Inactive"), (e.Active = "Active"), (e.Cancelled = "Cancelled"), e))(
+    g || {},
   );
 const C = b(
     P((e) => e > 0),
     d(f),
   ),
   k = [
-    [a, r],
+    [r, a],
     [c, l],
     [u, p],
     [m, () => p(1)],
@@ -47,27 +47,27 @@ var x = ((e) => (
 const [y, I] = t("UserAccountProvider")(
   ({ observableModel: t, cleanup: n }) => {
     const i = t.object("userInfo"),
-      a = t.object("subscriptions.wotPlus"),
-      r = t.object("subscriptions.premiumAccount"),
+      r = t.object("subscriptions.wotPlus"),
+      a = t.object("subscriptions.premiumAccount"),
       c = t.primitives(["isCnRealm", "isSteamPlatform"], "subscriptions"),
       l = t.arrayClone("subscriptions.wotPlus.benefits"),
       u = t.arrayClone("subscriptions.wotPlus.proBenefits"),
-      p = { basic: e.box(A(C(r.get().expiryTime))), plus: e.box(A(C(a.get().expiryTime))) };
+      p = { basic: e.box(A(C(a.get().expiryTime))), plus: e.box(A(C(r.get().expiryTime))) };
     const m = s(
-        () => r.get().expiryTime,
+        () => a.get().expiryTime,
         (e) => {
           p.basic.set(A(C(e)));
         },
       ),
       b = s(
-        () => a.get().expiryTime,
+        () => r.get().expiryTime,
         (e) => {
           p.plus.set(A(C(e)));
         },
       ),
       d = setInterval(function () {
         o(() => {
-          (p.basic.set(A(C(r.get().expiryTime))), p.plus.set(A(C(a.get().expiryTime))));
+          (p.basic.set(A(C(a.get().expiryTime))), p.plus.set(A(C(r.get().expiryTime))));
         });
       }, 6e4);
     return (
@@ -77,19 +77,19 @@ const [y, I] = t("UserAccountProvider")(
       {
         userInfo: i,
         premiums: p,
-        wotPlus: a,
-        premiumAccount: r,
+        wotPlus: r,
+        premiumAccount: a,
         benefits: l,
         proBenefits: u,
         subscriptionPrimitives: c,
         getTooltipVariant: () => {
-          const e = a.get().state,
-            s = a.get().type;
-          return e === v.Inactive && s === g.None && (c.isCnRealm.get() || c.isSteamPlatform.get())
+          const e = r.get().state,
+            s = r.get().type;
+          return e === g.Inactive && s === v.None && (c.isCnRealm.get() || c.isSteamPlatform.get())
             ? "unlockSteamAndCn"
-            : e === v.Inactive && s === g.None
+            : e === g.Inactive && s === v.None
               ? "unlock"
-              : e !== v.Inactive && s === g.Core
+              : e !== g.Inactive && s === v.Core
                 ? "unlockPro"
                 : "unlock";
         },
@@ -102,4 +102,4 @@ const [y, I] = t("UserAccountProvider")(
     openPremiumSubscriptionPage: e.createCallbackNoArgs("subscriptions.onOpenPremium"),
   }),
 );
-export { x as T, y as U, v as W, g as a, I as u };
+export { x as T, y as U, g as W, v as a, I as u };

@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Avattaessa näistä moduuleista saattaa saada premium-vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoksimoduuleja voi saada pelinsisäisestä Kaupasta tai Premium-kaupasta."
+msgstr "Moduulit ovat saatavilla pelinsisäisestä Kaupasta."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoksimoduuli"
+msgstr "Moduuli"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOKSIMODUULI"
+msgstr "MODUULI"
 
 msgid "common/getButton/lowerCase"
 msgstr "ULEJAHANKI MODUULEJA"
@@ -31,11 +31,17 @@ msgstr "ULEJAHANKI MODUULEJA"
 msgid "common/loader"
 msgstr "Moduulin avaaminen..."
 
+msgid "common/selectTooltip"
+msgstr "Ei riittävästi moduuleita, jotta voisit avata viisi kerralla"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Avaa moduuleita nähdäksesi tilastot."
 
 msgid "common/statistics/header"
-msgstr "Moduuleja avattu: %(count)"
+msgstr "Moduuleita avattu:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Moduuli avataan uudelleen ja siitä voi saada eri palkinnot."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Kaikki tiedot avatuista moduuleista poistetaan."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "MODUULEIHIN"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Nämä ovat erikoismoduuleja, jotka sisältävät uusia ja ainutlaatuisia tavaroita, kuten premium-vaunuja, muokkauselementtejä, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja.\nModuuleja voidaan saada pelinsisäisestä Kaupasta tai Premium-kaupasta."
+msgstr "Nämä ovat erityisiä moduuleja, jotka sisältävät uusia ja ainutlaatuisia tavaroita. Niitä voi hankkia pelinsisäisestä Kaupasta."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduuleja ei voi tällä hetkellä avata tai hankkia teknisten syiden tähden. Pahoittelemme väliaikaista haittaa."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduulit eivät ole hetkellisesti saatavilla"
 
 msgid "eventName/lowerCase"
-msgstr "MURRA PARADOKSI"
+msgstr "Ratsasta myrskyllä"
 
 msgid "eventName/upperCase"
-msgstr "MURRA PARADOKSI"
+msgstr "RATSASTA MYRSKYLLÄ"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Taattu palkinto seuraavassa moduulissa!"
@@ -64,14 +70,23 @@ msgstr "Taattu palkinto seuraavassa moduulissa!"
 msgid "guaranteedTitle/text"
 msgstr "Suurin määrä moduuleja ennen taakuupalkintoa: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Mikäli et avaa kaikkia moduuleita ennen tapahtuman päättymistä, avataan ne automaattisesti."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Mikäli et avaa moduuleja ennen tapahtuman päättymistä, ne avataan automaattisesti."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Mikäli omistat jo kaikki vaunut moduulin mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat moduuleista, kullalla niiden täyden arvon mukaan."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Joka %(guaranteed0)s. moduuli sisältää taatusti premium-vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen premium-vaunun, jota et vielä omista, kun avaat %(guaranteed0)s. moduulin. Kun näin käy, laskuri nollautuu."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Joka %(guaranteed)s. moduuli sisältää taatusti vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen vaunun, jota et vielä omista, kun avaat %(guaranteed)s. moduulin. Kun näin käy, laskuri nollautuu."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Mikäli et ole tyytyväinen moduulin palkintoihin, voit avata sen uudelleen ja voit saada eri palkinnot samalta listalta. Jokaisen moduulin voi avata rajoitetun määrän kertoja:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automaattinen avaus"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Hyvitys"
 
 msgid "infoPage/header/description"
 msgstr "Avaa moduuli saadaksesi mahdollisuuden saada arvokkaita pelihyödykkeitä! Katso lisätietoja alta."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "\"%(name)\" -arkusta (%(boxesCount) moduulia avattu)"
 
 msgid "noBoxesView/description/"
-msgstr "Sinulla ei ole yhtään moduulia. Voit saada niitä\npelinsisäisestä Kaupasta tai Premium-kaupasta."
+msgstr "Moduulit ovat saatavilla pelinsisäisestä Kaupasta"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Saatavilla oleviin moduuleihin"
 
 msgid "preview/backLabel"
 msgstr "MODUULEIHIN"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Moduuleja saatavilla: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Ei moduuleja saatavilla"
+msgstr "Ei enempää moduuleja"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Mikäli omistat jo kaikki vaunut moduulin mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat moduuleista, kullalla."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) moduulia"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Takuupalkinto on vaunu moduulin mahdollisten sisältöjen listalta.\nJos avaat %(remainingCount) saamatta tällaista vaunua, saat sen avatessasi %(count) moduulin. Näin tapahtuessa laskuri nollautuu."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Moduulin uudelleen avaaminen antaa mahdollisuuden saara eri palkinnot samalta listalta."

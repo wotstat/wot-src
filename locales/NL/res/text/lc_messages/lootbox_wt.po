@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Bij het openen kunnen deze modules je Premium voertuigen, in-game valuta en andere waardevolle dingen opleveren."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoxmoduls zijn te verkrijgen in de in-game winkel of Premiumwinkel."
+msgstr "Modules zijn verkrijgbaar in de in-game winkel."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Module"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODULE"
 
 msgid "common/getButton/lowerCase"
 msgstr "Krijg modules"
@@ -31,11 +31,17 @@ msgstr "KRIJG MODULES"
 msgid "common/loader"
 msgstr "Module openen..."
 
+msgid "common/selectTooltip"
+msgstr "Niet genoeg modules om in één keer vijf stuks te openen"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Open modules om statistieken te bekijken."
 
 msgid "common/statistics/header"
-msgstr "Modules geopend: %(count)"
+msgstr "Modules geopend:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "De module wordt heropend om kans te maken op andere beloningen."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Alle informatie over geopende modules zal worden verwijderd."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "NAAR MODULES"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Dit zijn speciale modules met nieuwe en unieke items, waaronder Premium voertuigen, aanpassingselementen, in-game valuta en andere waardevolle beloningen.\nDe modules zijn te verkrijgen in de in-game winkel of Premiumwinkel."
+msgstr "Dit zijn speciale modules met nieuwe en unieke items. Ze kunnen worden verkregen in de in-game winkel."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Wegens technische redenen kunnen er momenteel geen modules worden geopend of verkregen. Onze excuses voor het tijdelijke ongemak."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Modules tijdelijk onbeschikbaar"
 
 msgid "eventName/lowerCase"
-msgstr "Breek de Paradox"
+msgstr "Berijd de storm"
 
 msgid "eventName/upperCase"
-msgstr "BREEK DE PARADOX"
+msgstr "BERIJD DE STORM"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Gegarandeerde beloning in de volgende module!"
@@ -64,14 +70,23 @@ msgstr "Gegarandeerde beloning in de volgende module!"
 msgid "guaranteedTitle/text"
 msgstr "Maximum aantal modules tot een gegarandeerde beloning: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Wanneer het evenement is afgelopen en je niet alle modules hebt geopend, zullen ze automatisch worden geopend."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Als je de modules niet voor het einde van het evenement opent, zullen ze automatisch worden geopend."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de module al hebt, dan zul je in plaats van alle voertuigen die daarna in modules zitten, hun volledige waarde in goud ontvangen."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Elke %(guaranteed0)s modules bevatten gegarandeerd een Premium voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed0)se module een Premium voertuig dat je nog niet hebt. Wanneer dat gebeurt, wordt de teller gereset."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Elke %(guaranteed)s modules bevatten gegarandeerd een voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed)se module een voertuig dat je nog niet hebt. Wanneer dat gebeurt, wordt de teller gereset."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Als je niet blij bent met de beloningen uit een module, kun je die heropenen om kans te maken op andere items uit dezelfde lijst. Elke module kan een beperkt aantal keer worden heropend:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automatisch openen"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensatie"
 
 msgid "infoPage/header/description"
 msgstr "Open de module om kans te maken op waardevolle in-game items! Kijk voor meer informatie hieronder."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Uit de %(name) (%(boxesCount) modules geopend)"
 
 msgid "noBoxesView/description/"
-msgstr "Je hebt geen modules. Ze zijn te verkrijgen\nin de in-game winkel of Premiumwinkel."
+msgstr "Modules zijn verkrijgbaar in de in-game winkel"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Naar beschikbare modules"
 
 msgid "preview/backLabel"
 msgstr "NAAR MODULES"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Modules beschikbaar: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Geen modules beschikbaar"
+msgstr "Geen modules meer"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de module al hebt, dan zul je in plaats van alle voertuigen die daarna in modules zitten goud ontvangen."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) modules"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "De gegarandeerde beloning is een voertuig uit de lijst met mogelijke inhoud van de module.\nAls je er %(remainingCount) opent zonder een dergelijk voertuig te ontvangen, dan zal de %(count)e module het voertuig bevatten. Als dat gebeurt, wordt de teller gereset."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Bij het heropenen van een module kun je andere beloningen uit dezelfde lijst ontvangen."

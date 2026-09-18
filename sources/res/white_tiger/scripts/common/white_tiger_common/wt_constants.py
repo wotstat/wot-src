@@ -174,6 +174,4 @@ WT_EVENT_TICKET_KEY = b'wtevent:ticket'
 WT_PROGRESSION_TOKEN_KEY = b'wtevent:stamp'
 WT_EVENT_GOLDEN_TICKET_KEY = b'wtevent:event_vehicles_special'
 WT_FIRST_TIME_EVENT_ENTER_TANK = b'usa:A120_M48A5_hound_TLXXL'
-WT_LOOTBOX_TOKEN_KEYS = {
- b'lootBox:25091901', b'lootBox:25091902', b'lootBox:25091903', b'lootBox:25091904'}
 WT_PROGRESSION_ACHIEVEMENT = b'wt2026progression'

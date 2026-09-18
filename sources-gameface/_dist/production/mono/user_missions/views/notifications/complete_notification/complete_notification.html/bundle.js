@@ -1,15 +1,15 @@
 import { D as s, j as e, e as a } from "../../../../chunks/vendor.js";
 import {
   i as l,
-  q as c,
-  N as n,
-  v as o,
+  K as c,
+  a2 as n,
+  x as o,
   o as i,
   t as r,
   p,
   C as t,
   n as m,
-  w as d,
+  a3 as d,
   r as _,
   U as h,
 } from "../../../../chunks/lib.js";
@@ -28,8 +28,8 @@ const [u, g] = l()(
   k = "App_acceptIcon_d6166213",
   v = "App_description_3d77568a",
   C = "App_title_b04670be",
-  w = "App_rewards_573bd253",
-  y = "App_button_cec9cac4",
+  y = "App_rewards_573bd253",
+  w = "App_button_cec9cac4",
   M = "App_close_654073f5",
   I = R.strings.user_missions.hub.challenge_missions.notification.challenge_complete,
   z = s(function () {
@@ -61,9 +61,9 @@ const [u, g] = l()(
                 e.jsx("div", { className: A, children: e.jsx("div", { className: k }) }),
               ],
             }),
-            e.jsx("div", { className: w, children: e.jsx(b, { bonuses: L }) }),
+            e.jsx("div", { className: y, children: e.jsx(b, { bonuses: L }) }),
             e.jsx(i, {
-              className: y,
+              className: w,
               size: p.small,
               onClick: l.openChallenge,
               theme: h ? r.primary : r.secondary,

@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Po otevření vám z těchto modulů mohou padnout prémiová vozidla, herní měny a další hodnotné odměny."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoxmoduly lze koupit v herním nebo prémiovém obchodě."
+msgstr "Moduly jsou dostupné v herním obchodě."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodul"
+msgstr "Modul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODUL"
+msgstr "MODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Získat moduly"
@@ -31,11 +31,17 @@ msgstr "ZÍSKAT MODULY"
 msgid "common/loader"
 msgstr "Otevírání modulu..."
 
+msgid "common/selectTooltip"
+msgstr "Nedostatek modulů pro otevření pěti najednou"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Otevřete moduly a prohlédněte si statistiky."
 
 msgid "common/statistics/header"
-msgstr "Modulů otevřeno: %(count)"
+msgstr "Modulů otevřeno:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modul bude znovuotevřen a vy budete mít šanci získat jiné odměny."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Všechny informace o otevřených modulech byly vymazány."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "NA MODULY"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Jsou to speciální moduly, které obsahují nové a jedinečné předměty, včetně prémiových vozidel, prvků na úpravu vzhledu, herních měn a dalších hodnotných odměn.\nModuly lze získat v herním nebo prémiovém obchodě."
+msgstr "Jedná se o speciální moduly obsahující nové a jedinečné předměty. Lze je získat v herním obchodě."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Moduly nelze v současné době z technických důvodů otevřít ani získat. Omlouváme se za dočasné potíže."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduly jsou dočasně nedostupné"
 
 msgid "eventName/lowerCase"
-msgstr "Rozbijte paradox"
+msgstr "Jezdci bouře"
 
 msgid "eventName/upperCase"
-msgstr "ROZBIJTE PARADOX"
+msgstr "JEZDCI BOUŘE"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Zaručená odměna v dalším modulu!"
@@ -64,14 +70,23 @@ msgstr "Zaručená odměna v dalším modulu!"
 msgid "guaranteedTitle/text"
 msgstr "Maximální počet otevřených modulů před získáním zaručené odměny: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Pokud neotevřete moduly před koncem akce, budou otevřeny automaticky."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Pokud moduly neotevřete před koncem akce, budou otevřeny automaticky."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu modulu, pak všechna následující vozidla, která z modulů získáte, budou kompenzována ve zlaťácích v hodnotě jejich plné ceny."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Každý %(guaranteed0)s. modul zaručeně obsahuje prémiové vozidlo. Pokud daný počet modulů otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s. modulu padne prémiové vozidlo, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Každý %(guaranteed)s. modul zaručeně obsahuje vozidlo. Pokud daný počet modulů otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed)s. modulu padne vozidlo, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Pokud nejste spokojeni s odměnami z modulu, můžete ho znovuotevřít a získat tak šanci na jiné předměty ze stejného seznamu. Počet znovuotevření každého modulu je omezený:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automaticky otevřít"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompenzace"
 
 msgid "infoPage/header/description"
 msgstr "Otevřete modul pro šanci získat cenné herní předměty! Více podrobností níže."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "Z %(name) (%(boxesCount) modulů otevřeno)"
 
 msgid "noBoxesView/description/"
-msgstr "Nemáte žádné moduly. Můžete je\nzakoupit v herním obchodě nebo v prémiovém obchodě."
+msgstr "Moduly jsou dostupné v herním obchodě"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Na dostupné moduly"
 
 msgid "preview/backLabel"
 msgstr "NA MODULY"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Dostupné moduly: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Nejsou dostupné žádné moduly"
+msgstr "Žádné další moduly"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu modulu, pak všechna následující vozidla, která z modulů získáte, budou kompenzována ve zlaťácích."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) modulů"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu modulu.\nPokud otevřete %(remainingCount), aniž by vám takové vozidlo padlo, při otevření %(count). modulu takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Znovuotevření modulu vám zajišťuje šanci získat jiné odměny ze stejného seznamu."

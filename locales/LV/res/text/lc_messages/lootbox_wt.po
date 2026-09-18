@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "Atverot šos moduļus, vari iegūt Premium tankus, spēles valūtas un citus vērtīgus apbalvojumus."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Paradoxmoduli var iegūt Spēles veikalā vai Premium veikalā."
+msgstr "Moduļi ir pieejami spēles veikalā."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Paradoxmodulis"
+msgstr "Modulis"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "PARADOXMODULIS"
+msgstr "MODULIS"
 
 msgid "common/getButton/lowerCase"
 msgstr "Iegūt Moduļus"
@@ -31,11 +31,17 @@ msgstr "IEGŪT MODUĻUS"
 msgid "common/loader"
 msgstr "Notiek moduļa atvēršana..."
 
+msgid "common/selectTooltip"
+msgstr "Nepietiek moduļu, lai vienlaikus atvērtu piecus."
+
 msgid "common/statistics/emptyHeader"
 msgstr "Atver moduļus, lai skatītu statistiku."
 
 msgid "common/statistics/header"
-msgstr "Atvērti moduļi: %(count)"
+msgstr "Atvērtie moduļi:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modulis atkal tiks atvērts, sniedzot iespēju saņemt citas balvas."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Visa informācija par atvērtajiem moduļiem tiks dzēsta."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "UZ MODUĻIEM"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Šie ir speciāli moduļi ar jauniem un unikāliem priekšmetiem — Premium tankiem, pielāgošanas elementiem, spēles valūtām un citiem vērtīgiem apbalvojumiem.\nModuļus var iegūt Spēles veikalā vai Premium veikalā."
+msgstr "Šie ir speciālie moduļi, kuros ir jauni un unikāli priekšmeti. Tos var iegādāties spēles veikalā."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Tehnisku iemeslu dēļ moduļus pašlaik nevar atvērt vai iegūt. Atvainojamies par sagādātajām neērtībām."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Moduļi uz Laiku nav Pieejami"
 
 msgid "eventName/lowerCase"
-msgstr "Izlauzties no Paradoksa"
+msgstr "Jāj cauri vētrai"
 
 msgid "eventName/upperCase"
-msgstr "IZLAUZTIES NO PARADOKSA"
+msgstr "JĀJ CAURI VĒTRAI"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Garantēta Balva nākamajā modulī!"
@@ -64,14 +70,23 @@ msgstr "Garantēta Balva nākamajā modulī!"
 msgid "guaranteedTitle/text"
 msgstr "Maksimālais modulis skaits līdz Garantētai Balvai: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
-msgstr "Ja moduļi netiek atvērti līdz pasākuma beigām, tie tiks atvērti automātiski."
+msgid "infoPage/footer/description/autoOpen/wt"
+msgstr "Ja neatvērsiet moduļus pirms pasākuma beigām, tie tiks atvērti automātiski."
 
-msgid "infoPage/footer/description/compensation"
-msgstr "Ja tev jau ir visi tanki no iespējamā moduļu satura saraksta, tad visi nākamie iegūtie tanki tiks kompensēti ar zeltu pilnā vērtībā."
+msgid "infoPage/footer/description/compensation/wt"
+msgstr "Ja jums jau pieder visi tanki no iespējamā moduļa satura saraksta, tad par visiem turpmāk no moduļiem saņemtajiem tankiem jūs saņemsiet kompensāciju zeltā, kas ir vienāda ar to pilno vērtību."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "Ik pēc %(guaranteed0)s moduļiem garantēti tiks izlozēts Premium tanks. Ja neviena šāda transportlīdzekļa nav starp atvērtajiem, tad %(guaranteed0)s. modulī tiks piešķirts Premium tanks, kas tev vēl nav. Pēc tam skaitītājs tiek atiestatīts."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "Katrs %(guaranteed)s. modulis garantēti saturēs tanku. Ja, atverot moduļus, neviens no tiem nesaturēs tanku, tad, atverot %(guaranteed)s-to kasti, tiks saņemts tanks, kas jums vēl nepieder. Pēc tam skaitītājs tiks atiestatīts."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Ja neesat apmierināts ar moduļa balvām, varat to atvērt vēlreiz, lai iegūtu iespēju saņemt citus priekšmetus no tā paša saraksta. Katru moduli var atkārtoti atvērt tikai ierobežotu reižu skaitu:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automātiskā Atvēršana"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensācija"
 
 msgid "infoPage/header/description"
 msgstr "Atver moduli, lai iegūtu vērtīgus spēles priekšmetus! Vairāk informācijas zemāk."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "No %(name) (atvērti %(boxesCount) moduļi)"
 
 msgid "noBoxesView/description/"
-msgstr "Tev nav neviena moduļa. Tos var iegūt\nSpēles veikalā vai Premium veikalā."
+msgstr "Moduļi ir pieejami spēles veikalā."
+
+msgid "noBoxesView/goToButton/"
+msgstr "Uz pieejamajiem moduļiem"
 
 msgid "preview/backLabel"
 msgstr "UZ MODUĻIEM"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Pieejamie moduļi: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Nav pieejamu moduļu"
+msgstr "Vairs nav moduļu"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Ja tev jau ir visi tanki no iespējamā moduļa satura saraksta, visi nākamie iegūtie tanki tiks kompensēti ar zeltu."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) moduļi"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Garantētā balva ir tanks no moduļa iespējamā satura saraksta.\nJa atver %(remainingCount) moduļus un nevienā no tiem šāds tanks netiek iegūts, tas tiek saņemts, atverot %(count). moduli. Kad tas notiek, skaitītājs tiek atiestatīts."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Atkārtoti atverot moduli, jums ir iespēja saņemt citas balvas no tā paša saraksta."

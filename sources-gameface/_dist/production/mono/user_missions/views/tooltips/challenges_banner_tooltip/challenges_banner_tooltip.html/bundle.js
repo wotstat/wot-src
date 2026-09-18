@@ -3,7 +3,7 @@ import {
   i as r,
   n as i,
   g as t,
-  v as n,
+  x as n,
   y as l,
   z as c,
   D as d,
@@ -12,12 +12,12 @@ import {
   M as _,
   m as u,
   H as g,
-  q as x,
+  K as x,
   r as j,
   U as h,
-  K as b,
+  w as p,
 } from "../../../../chunks/lib.js";
-import { b as p, I as v } from "../../../../chunks/get_reward_image.js";
+import { g as b, I as v } from "../../../../chunks/get_reward_image.js";
 import { f } from "../../../../chunks/utils.js";
 /* empty css                       */ const N = [
     "gold",
@@ -91,8 +91,8 @@ import { f } from "../../../../chunks/utils.js";
   S = "Header_shields_ae11a84e",
   X = "Header_shieldsCount_eb5f7f96",
   F = "Header_shieldIcon_155019e1",
-  q = t.resolve("strings"),
-  A = e(function () {
+  A = t.resolve("strings"),
+  K = e(function () {
     const { model: e } = y(),
       a = e.challengeName.get(),
       r = e.completedMissions.get(),
@@ -104,7 +104,7 @@ import { f } from "../../../../chunks/utils.js";
         s.jsx("div", {
           className: B,
           children: s.jsx(n, {
-            text: q.readOrEmpty(
+            text: A.readOrEmpty(
               "user_missions.challenge_missions.entrypoint.tooltip.challengeTitle",
             ),
             params: { challengeName: a },
@@ -116,7 +116,7 @@ import { f } from "../../../../chunks/utils.js";
             s.jsx("div", {
               className: z,
               children: s.jsx(n, {
-                text: q.readOrEmpty("user_missions.hub.challenge_missions.missionsCount"),
+                text: A.readOrEmpty("user_missions.hub.challenge_missions.missionsCount"),
                 params: {
                   currentMissions: s.jsx("span", { className: T, children: r }),
                   totalMissions: i,
@@ -136,7 +136,7 @@ import { f } from "../../../../chunks/utils.js";
       ],
     });
   }),
-  K = "ConditionItem_a08966eb",
+  q = "ConditionItem_a08966eb",
   G = "ConditionItem_icon_3b7a4890",
   U = "ConditionItem_conditionBg_e5e2cf8e",
   J = "ConditionItem_text_5a72400a",
@@ -151,7 +151,7 @@ import { f } from "../../../../chunks/utils.js";
         V.readOrEmpty(n, "silent") ||
         V.readOrEmpty("userMissions.challenges.missionIcons.c_80.folder");
     return s.jsxs("div", {
-      className: K,
+      className: q,
       children: [
         s.jsx("div", {
           className: G,
@@ -272,7 +272,7 @@ const xe = {
                   s.jsx(_e, {
                     showCounter: l,
                     count: n,
-                    image: p(e, v.Big),
+                    image: b(e, v.Big),
                     className: a(xe.rewardImage, l && xe.rewardImage__counter),
                   }),
                   c && s.jsx(de, { special: c, size: v.Small, className: xe.overlay }),
@@ -287,10 +287,10 @@ const xe = {
     });
   }),
   he = "Mission_1a8e8c9";
-function be() {
+function pe() {
   return s.jsxs("div", { className: he, children: [s.jsx(te, {}), s.jsx(je, {})] });
 }
-const pe = "TimerBlock_divider_c31a7a65",
+const be = "TimerBlock_divider_c31a7a65",
   ve = "TimerBlock_fbeff754",
   fe = "TimerBlock_timerText_66570163",
   Ne = t.resolve("strings"),
@@ -299,7 +299,7 @@ const pe = "TimerBlock_divider_c31a7a65",
       a = e.time.get();
     return s.jsxs(s.Fragment, {
       children: [
-        s.jsx("div", { className: pe }),
+        s.jsx("div", { className: be }),
         s.jsx("div", {
           className: ve,
           children: s.jsx(n, {
@@ -321,14 +321,14 @@ const pe = "TimerBlock_divider_c31a7a65",
       r = e.conditions.get(),
       i =
         (e.challengeName.get() ? Ie : Le) === Ie
-          ? s.jsxs(s.Fragment, { children: [s.jsx(A, {}), r && s.jsx(be, {}), a && s.jsx(we, {})] })
+          ? s.jsxs(s.Fragment, { children: [s.jsx(K, {}), r && s.jsx(pe, {}), a && s.jsx(we, {})] })
           : s.jsx(M, {});
     return s.jsx("div", { className: ye, children: i });
   });
 j(
   s.jsx(h, {
     children: s.jsx(w, {
-      children: s.jsx(b, { children: s.jsx(b.Decorator, { children: s.jsx(Re, {}) }) }),
+      children: s.jsx(p, { children: s.jsx(p.Decorator, { children: s.jsx(Re, {}) }) }),
     }),
   }),
 );

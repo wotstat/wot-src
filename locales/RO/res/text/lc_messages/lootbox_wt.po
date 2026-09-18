@@ -14,13 +14,13 @@ msgid "boxTooltip/description/text/wt"
 msgstr "La deschidere, aceste module îți pot aduce vehicule premium, monede în joc sau alte recompense valoroase."
 
 msgid "boxTooltip/howGet/text/wt"
-msgstr "Poți cumpăra Module Paradox din Magazinul din joc sau Magazinul Premium."
+msgstr "Modulele sunt disponibile în Magazinul din joc."
 
 msgid "common/boxCategory/lowerCase/wt"
-msgstr "Modul paradox"
+msgstr "Modul"
 
 msgid "common/boxCategory/upperCase/wt"
-msgstr "MODUL PARADOX"
+msgstr "MODUL"
 
 msgid "common/getButton/lowerCase"
 msgstr "Obține module"
@@ -31,11 +31,17 @@ msgstr "OBȚINE MODULE"
 msgid "common/loader"
 msgstr "Se deschide modulul..."
 
+msgid "common/selectTooltip"
+msgstr "Insuficiente module pentru a deschide cinci deodată"
+
 msgid "common/statistics/emptyHeader"
 msgstr "Deschide module pentru a afișa statistici."
 
 msgid "common/statistics/header"
-msgstr "Module deschise: %(count)"
+msgstr "Module deschise:"
+
+msgid "confirmRerollLootBox/description/wt"
+msgstr "Modulul va fi redeschis pentru șansa de a obține recompense diferite."
 
 msgid "confirmResetLootBoxStatistics/description"
 msgstr "Toate informațiile despre modulele deschise vor fi șterse."
@@ -44,7 +50,7 @@ msgid "entryPoint/boxes"
 msgstr "SPRE MODULE"
 
 msgid "entryPoint/tooltip/description"
-msgstr "Acestea sunt module speciale care conțin articole noi și unice, inclusiv vehicule premium, elemente de personalizare, monede în joc și alte recompense valoroase.\nModulele pot fi obținute din Magazinul din joc sau din Magazinu Premium."
+msgstr "Acestea sunt module speciale ce conțin articole noi și unice. Le poți obține din Magazinul din joc."
 
 msgid "entryPoint/tooltip/warningDescription"
 msgstr "Modulele nu pot fi deschise sau obținute momentan, din motive tehnice. Oferim scuze pentru neplăcerea temporară."
@@ -53,10 +59,10 @@ msgid "entryPoint/tooltip/warningTitle"
 msgstr "Modulele temporar indisponibile"
 
 msgid "eventName/lowerCase"
-msgstr "Sparge paradoxul"
+msgstr "Călărețul Furtunii"
 
 msgid "eventName/upperCase"
-msgstr "SPARGE PARADOXUL"
+msgstr "CĂLĂREȚUL FURTUNII"
 
 msgid "guaranteedTitle/nextBox"
 msgstr "Recompensă garantată în următorul modul!"
@@ -64,14 +70,23 @@ msgstr "Recompensă garantată în următorul modul!"
 msgid "guaranteedTitle/text"
 msgstr "Maximul de module înainte de recompensa garantată: %(count)"
 
-msgid "infoPage/footer/description/autoOpen"
+msgid "infoPage/footer/description/autoOpen/wt"
 msgstr "Dacă nu deschizi module până la încheierea evenimentului, acestea vor fi deschise automat."
 
-msgid "infoPage/footer/description/compensation"
+msgid "infoPage/footer/description/compensation/wt"
 msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al modulelor, toate vehiculele ulterioare obținute din module vor fi compensate în aur egal cu valoarea lor întreagă."
 
-msgid "infoPage/footer/description/guaranteed"
-msgstr "La fiecare %(guaranteed0)s module, ai garanția apariției unui vehicul premium. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celui de-al %(guaranteed0)s-lea modul vei primi un vehicul premium pe care nu îl deții deja. Apoi, contorul va fi resetat."
+msgid "infoPage/footer/description/guaranteed/wt"
+msgstr "La fiecare %(guaranteed)s module, ai garanția apariției unui vehicul. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celui de-al %(guaranteed)s-lea modul vei primi un vehicul pe care nu îl deții deja. Apoi, contorul va fi resetat."
+
+msgid "infoPage/footer/description/reroll/wt"
+msgstr "Dacă nu ești mulțumit de recompensele dintr-un modul, îl poți redeschide pentru șansa de a obține alte articole din aceeași listă. Fiecare modul poate fi redeschis de un număr limitat de ori:"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Deschidere automată"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensare"
 
 msgid "infoPage/header/description"
 msgstr "Deschide modulul pentru șansa de a obține articole valoroase în joc! Află mai multe detalii mai jos."
@@ -80,7 +95,10 @@ msgid "multipleRewardView/header/subTitle/"
 msgstr "De la %(name) (%(boxesCount) module deschise)"
 
 msgid "noBoxesView/description/"
-msgstr "Nu deții module. Le poți obține\ndin Magazinul din joc sau din magazinul Premium."
+msgstr "Modulele sunt disponibile în Magazinul din joc"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Spre modulele disponibile"
 
 msgid "preview/backLabel"
 msgstr "SPRE MODULE"
@@ -89,7 +107,7 @@ msgid "quantityTitle/boxesAvailable"
 msgstr "Module disponibile: %(boxesCount)"
 
 msgid "quantityTitle/noBoxes"
-msgstr "Nu există module disponibile"
+msgstr "Nu mai sunt module"
 
 msgid "singleRewardView/tooltip/description/"
 msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al modulelor, toate vehiculele ulterioare obținute din module vor fi compensate cu aur."
@@ -102,3 +120,6 @@ msgstr[2] "%(remainingCount) module"
 
 msgid "singleRewardView/tooltip/subtitle/"
 msgstr "Recompensa garantată constă într-un vehicul din lista de conținut posibil.\nDacă deschizi %(remainingCount) fără ca dintr-unul să apară un astfel de vehicul, acesta va apărea la deschiderea celui de-al %(count) modul. Apoi, contorul va fi resetat."
+
+msgid "tooltip/reroll/text/wt"
+msgstr "Redeschiderea unui modul îți acordă șansa de a obține recompense diferite din aceeași listă."
