@@ -15,7 +15,8 @@
   width: 350rem;
   height: 224rem;
   margin-bottom: 8rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.error_icon) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.error_icon) no-repeat
+    center/contain;
 }
 .mediaLarge .ErrorScreen_icon_5cfee7d {
   width: 432rem;
@@ -48,7 +49,7 @@
 .ErrorScreen_button_4c0ae438 {
   width: 160rem;
   height: 32rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Footer_2bc55d13 {
   height: 100%;
@@ -118,7 +119,7 @@
 }
 .mediaMedium .Footer_button_c9561362 {
   min-height: 32rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Tab_cb313e6e {
   width: 48rem;
@@ -145,7 +146,9 @@
   top: -2rem;
   left: 50%;
   transform: translate(-50%, -100%);
-  transition: opacity 0.5s, color 0.5s;
+  transition:
+    opacity 0.5s,
+    color 0.5s;
 }
 .mediaLarge .Tab_title_4526d246 {
   color: #f2f2f7;
@@ -158,7 +161,8 @@
 .Tab_cb313e6e:hover .Tab_title_4526d246 {
   opacity: 0.6;
 }
-.Tab_base__selected_0 .Tab_title_4526d246, .Tab_base__selected_0:hover .Tab_title_4526d246 {
+.Tab_base__selected_0 .Tab_title_4526d246,
+.Tab_base__selected_0:hover .Tab_title_4526d246 {
   color: #fff;
   opacity: 1;
 }
@@ -166,7 +170,8 @@
 .Tab_vehicle_f3b75eea {
   width: 100%;
   height: 100%;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.vehicle_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.vehicle_small) no-repeat
+    center/contain;
   filter: brightness(1);
   transition: filter 0.5s;
 }
@@ -179,14 +184,16 @@
 .Tab_base__hasSelectedRewards_0 .Tab_vehicle_f3b75eea {
   opacity: 0.5;
 }
-.Tab_base__selected_0:hover .Tab_vehicle_f3b75eea, .Tab_base__hasSelectedRewards_0:hover .Tab_vehicle_f3b75eea {
+.Tab_base__selected_0:hover .Tab_vehicle_f3b75eea,
+.Tab_base__hasSelectedRewards_0:hover .Tab_vehicle_f3b75eea {
   filter: brightness(1);
 }
 
 .Tab_discount_e3d3f89d {
   width: 66rem;
   height: 52rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.discount_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.discount_small) no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -232,7 +239,8 @@
 .Tab_check_4150e2cc {
   width: 100%;
   height: 100%;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.check) no-repeat center/48rem;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.check) no-repeat
+    center/48rem;
   opacity: 0;
   position: absolute;
   transition: opacity 0.5s;
@@ -285,7 +293,8 @@
 .Tab_glow_69e84f94 {
   width: 192rem;
   height: 144rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.glow_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.glow_small) no-repeat
+    center/contain;
   opacity: 0;
   mix-blend-mode: screen;
   position: absolute;
@@ -303,7 +312,7 @@
 }
 .Tab_base__selected_0 .Tab_glow_69e84f94 {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Categories_f4d88e4e {
   display: flex;
@@ -319,13 +328,14 @@
   width: 9rem;
   height: 48rem;
   margin: 0 24rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.separator_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.separator_small)
+    no-repeat center/contain;
 }
 .mediaLarge .Categories_separator_748175df {
   height: 80rem;
   margin: 0 28rem;
   background-image: url(R.images.gui.maps.icons.winback.selectableRewardView.tab.separator_large);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SearchDetails_ee38a013 {
   color: #fefeec;
@@ -350,7 +360,8 @@
 .SearchDetails_glow_e7fb29b2 {
   width: 81rem;
   height: 86rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.glow_arrow) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.glow_arrow) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -394,7 +405,8 @@
 .SearchDetails_buttonIcon_d4d9488f {
   width: 20rem;
   height: 20rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.filter_reset_icon) no-repeat center;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.filter_reset_icon) no-repeat
+    center;
   background-size: 11rem 15rem;
   position: relative;
 }
@@ -413,7 +425,7 @@
   100% {
     opacity: 1;
   }
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Filter_rotate_c0a62b94 {
   from {
@@ -479,7 +491,8 @@
 .Filter_buttonIcon_bf5f2b43 {
   width: 34rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.filter_button_icon) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.filter_button_icon) no-repeat
+    center/contain;
 }
 
 .Filter_compensationPlaceholder_c721d50 {
@@ -495,7 +508,7 @@
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.25;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Title_rotate_2e63cf3 {
   from {
@@ -579,7 +592,7 @@
   font-size: 24rem;
   font-weight: 700;
   line-height: 1.2;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Header_rotate_65f475ba {
   from {
@@ -645,7 +658,7 @@
 }
 .mediaExtraLarge .Header_categories_64d8d133 {
   margin-top: 46rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Card_dcd42ca2 {
   width: 236rem;
@@ -674,20 +687,26 @@
 }
 .Card_base__active_ed8b6279 {
   border: 1rem solid rgba(255, 178, 102, 0.68);
-  box-shadow: 0 0 6rem rgba(255, 122, 0, 0.4), inset 0 0 28px rgba(255, 122, 0, 0.28);
-  background: linear-gradient(0deg, rgba(255, 148, 71, 0.08), rgba(255, 148, 71, 0.08)), rgba(0, 0, 0, 0.56);
+  box-shadow:
+    0 0 6rem rgba(255, 122, 0, 0.4),
+    inset 0 0 28px rgba(255, 122, 0, 0.28);
+  background:
+    linear-gradient(0deg, rgba(255, 148, 71, 0.08), rgba(255, 148, 71, 0.08)), rgba(0, 0, 0, 0.56);
 }
 .Card_base__active_ed8b6279:hover {
   border: 1rem solid rgba(255, 178, 102, 0.8);
-  box-shadow: 0 0 6rem rgba(255, 122, 0, 0.4), inset 0 0 28px rgba(255, 122, 0, 0.28);
-  background: linear-gradient(0deg, rgba(255, 148, 71, 0.12), rgba(255, 148, 71, 0.12)), rgba(0, 0, 0, 0.56);
+  box-shadow:
+    0 0 6rem rgba(255, 122, 0, 0.4),
+    inset 0 0 28px rgba(255, 122, 0, 0.28);
+  background:
+    linear-gradient(0deg, rgba(255, 148, 71, 0.12), rgba(255, 148, 71, 0.12)), rgba(0, 0, 0, 0.56);
 }
 .Card_base__lastInRow_87358ec8 {
   margin-right: 0;
 }
 .mediaSmall .Card_base__lastInRow_87358ec8 {
   margin-right: 0;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .BluePrintReward_bluePrintIcon_40ce3690 {
   width: 180rem;
@@ -720,7 +739,8 @@
 .BluePrintReward_hangarIcon_9428b075 {
   width: 30rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.cards.in_hangar) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.cards.in_hangar) no-repeat
+    center/cover;
 }
 
 .BluePrintReward_countInHangar_cc31c0f0 {
@@ -740,7 +760,7 @@
   position: absolute;
   top: 136rem;
   right: 36rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Discount_contentTitle_aabc06c6 {
   margin-bottom: 8rem;
@@ -796,7 +816,7 @@
   background-color: #8c8c7e;
   position: absolute;
   top: 9rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ForGift_8de3d134 {
   display: flex;
@@ -807,7 +827,7 @@
   font-size: 14rem;
   font-weight: 700;
   line-height: 1.15;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleReward_nationImage_fd71a755 {
   width: 208rem;
@@ -825,7 +845,7 @@
   position: absolute;
   top: 23rem;
   left: 27rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Cards_9470dddc {
   display: flex;
@@ -843,7 +863,7 @@
   align-self: center;
   position: absolute;
   top: 198rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .NoFilteredVehicles_68489788 {
   display: flex;
@@ -862,7 +882,8 @@
 .NoFilteredVehicles_alertIcon_68b8edf4 {
   width: 16rem;
   height: 16rem;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.alertIcon) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.alertIcon) no-repeat
+    center/cover;
 }
 
 .NoFilteredVehicles_text_179ecf3f {
@@ -876,7 +897,7 @@
 .NoFilteredVehicles_button_deeba065 {
   width: 160rem;
   min-height: 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes ScrollableCards_rotate_8b2491e4 {
   from {
@@ -929,7 +950,8 @@
 
 .ScrollableCards_shadow_cae4b9f5 {
   width: 100%;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.cards.lip) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.cards.lip) no-repeat
+    center/contain;
   opacity: 0;
   position: absolute;
   z-index: 10;
@@ -984,7 +1006,7 @@
 
 .ScrollableCards_barRail_a535aa69 {
   border-color: rgba(60, 58, 46, 0.7);
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes App_rotate_0 {
   from {
@@ -1015,7 +1037,8 @@
 .App_9ac57ea8 {
   width: 100%;
   height: 100%;
-  background: url(R.images.gui.maps.icons.winback.selectableRewardView.background) no-repeat center/cover;
+  background: url(R.images.gui.maps.icons.winback.selectableRewardView.background) no-repeat
+    center/cover;
   overflow: hidden;
   transition: opacity 0.2s ease-in;
 }

@@ -1,4 +1,6 @@
-import logging, cPickle
+from __future__ import absolute_import
+import logging
+from future.moves import pickle
 from Event import Event
 from VehiclesSpawnListStorageCommon import convertTuplesToVehicleSpawnData
 _logger = logging.getLogger(__name__)
@@ -20,6 +22,6 @@ class VehiclesSpawnListStorage(object):
         return
 
     def updateSpawnList(self, spawnListData):
-        spawnList = convertTuplesToVehicleSpawnData(cPickle.loads(spawnListData))
+        spawnList = convertTuplesToVehicleSpawnData(pickle.loads(spawnListData))
         self.onSpawnListUpdated(spawnList)
         return

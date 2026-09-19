@@ -1,1 +1,209 @@
-import{L as e,r as t,j as o,f as a}from"./vendor.js";import{i as r,c as n,cg as s,dI as l,l as c,m,o as d,U as i,u,r as b,v as _,a6 as p,q as I}from"./lib.js";import{s as y,a as g,i as P}from"../views/footer/footer.html/bundle.js";import"./divider.js";/* empty css      */const[v,f]=r("PlatoonProvider")(({observableModel:e})=>{const t={...e.primitives(["state","useWelcomeLayout","commanderIndex","playerIndex","tooltipHeader","tooltipBody","tooltipParams"]),members:e.arrayClone("members")},o=n.structural(()=>{try{const e=JSON.parse(t.tooltipParams.get()),o=t.tooltipHeader.get(),a=t.tooltipBody.get();return{header:(o&&s(l(o),e))??void 0,body:(a&&s(l(a),e))??void 0}}catch(e){return{}}});return{...t,computes:{tooltipArgs:o}}},({externalModel:e})=>({onInPlatoonAction:e.createCallbackNoArgs("onInPlatoonAction")})),h="IN_PLATOON",x="DISABLED",j="member",N="player",A="commander",S="commanderPlayer",k="empty",C="search",E="notReady",W="ready",w="inBattle";const B=(e,t,o)=>e?`${o}_${t}`:t===C?"search":"empty_member",L={base:"Platoon_9c663a1",button:"Platoon_button_a989ea7f",button__disabled:"Platoon_button__disabled_e1f331be",button__search:"Platoon_button__search_a7562308",rotation:"Platoon_rotation_78daa44d",memberIconWrapper:"Platoon_memberIconWrapper_3b1536c",memberIcon:"Platoon_memberIcon_7e29c5ae",memberIcon__searchState:"Platoon_memberIcon__searchState_78daa44d",memberIcon__readyState:"Platoon_memberIcon__readyState_407793d7"},M=e(function({popoverTargetID:e,classNames:r}){const n=f(),s=c(),l=m({value:y.small},{medium:{value:y.medium}}),v=d(l.value,i),M=n.model.state.get(),R=n.model.useWelcomeLayout.get(),T=n.model.commanderIndex.get(),$=n.model.playerIndex.get(),D=u(n.model.computes.tooltipArgs()),H=t.useMemo(()=>({resId:e??b.resolve("aliases").read(e=>e.lobby_footer.default.Platoon("resId"))}),[e]),O=_("squadTypeSelectPopover",void 0,H);return o.jsx("div",{...D,onClick:function(e){D.onClick(),M!==x&&(s.play("click",{target:"platoon",original:e}),M!==h&&R?O.onClick(e):n.controls.onInPlatoonAction())},onMouseEnter:function(e){D.onMouseEnter(e),M!==x&&s.play("mouse-enter",{target:"platoon",original:e})},className:a(L.base,r?.base),"data-test-id":"platoonWidget",children:(()=>{switch(M){case"CREATE":return o.jsx(I,{...g(v,"creation"),className:a(L.button,r?.button)});case x:return o.jsx(I,{...g(v,"creation_disabled"),className:a(L.button,L.button__disabled,r?.button)});case"SEARCHING":return o.jsx(I,{...g(v,"search"),className:a(L.button,L.button__search,r?.button)});case h:return p(n.model.members.get(),(e,t)=>{const n=(l=t===T,(s=t===$)&&l?S:s?N:l?A:j);var s,l;const c=function(e){switch(e){case"empty":return k;case"searching":return C;case"notReady":return E;case"ready":return W;case"inBattle":return w;default:return console.error("Platoon widget: met unexpected member state ",e),k}}(e.state),m=P(`${n}_${c}`),d=m&&c===W;return o.jsx("div",{className:L.memberIconWrapper,children:o.jsx(I,{...g(v,B(m,c,n),d),className:a(L.memberIcon,c===C&&L.memberIcon__searchState,d&&L.memberIcon__readyState,r?.memberIcon)})},t)});default:return void console.error("Platoon widget: met unexpected platoon state ",M)}})()})});function R({options:e,mocks:t,mode:a,...r}){return o.jsx(v,{mode:a,mocks:t,options:e,children:o.jsx(M,{...r})})}export{R as default};
+import { r as e } from "./rolldown-runtime.js";
+import {
+  C as s,
+  Fi as t,
+  Ha as a,
+  Ja as o,
+  Li as n,
+  Si as r,
+  Va as i,
+  Wa as c,
+  cr as l,
+  gr as d,
+  hi as m,
+  hr as p,
+  i as g,
+  n as u,
+  qa as _,
+  r as h,
+  ro as x,
+  t as b,
+  to as f,
+  uo as v,
+  xr as T,
+  za as N,
+} from "./lib.js";
+var w = (function (e) {
+  return ((e.News = "news"), (e.ShopPromo = "shopPromo"), (e.None = "none"), e);
+})({});
+(w.News, w.News, w.ShopPromo, Math.floor(Date.now() / 1e3));
+var y = {
+    getter: d({
+      type: w.News,
+      description:
+        "Watch very interesting video, with very long, very very interesting and meaningful description!",
+      isVideo: !0,
+      image: "https://pie-webbrg-cdn-stg.wgcdn.co/dcont/fb/image/whats_new_475x230_2.png",
+    }),
+    controls: () => n(t("onClick", "onClose")),
+  },
+  [C, j] = p("TeaserModel")(
+    ({ observableModel: e }) =>
+      e.primitives([
+        "type",
+        "postCounter",
+        "description",
+        "text",
+        "isVideo",
+        "finishTime",
+        "image",
+      ]),
+    ({ externalModel: e }) => ({
+      onClick: e.createCallbackNoArgs("onClick"),
+      onClose: e.createCallbackNoArgs("onClose"),
+    }),
+  ),
+  k = e(x(), 1),
+  W = {
+    imageWrapper: "Teaser_imageWrapper_901f1116",
+    vignette: "Teaser_vignette_32737740",
+    base: "Teaser_a2a96284",
+    base__video: "Teaser_base__video_3d4fdb7e",
+    contentWrapper: "Teaser_contentWrapper_b44f0d64",
+    image: "Teaser_image_41628c29",
+    base__newsType: "Teaser_base__newsType_3d4fdb7e",
+    base__shopPromoType: "Teaser_base__shopPromoType_3d4fdb7e",
+    title: "Teaser_title_f8c387e3",
+    counter: "Teaser_counter_6afc9955",
+    closeButton: "Teaser_closeButton_c46a88df",
+    text: "Teaser_text_8e0a588c",
+    bottomContent: "Teaser_bottomContent_eb7878d6",
+    description: "Teaser_description_f7e0ddfc",
+    extendedText: "Teaser_extendedText_286b5b73",
+    countdown: "Teaser_countdown_40e45fc1",
+  },
+  M = e(m(), 1),
+  B = "Teaser:Base",
+  E = l(function ({ className: e, classNames: t }) {
+    const { model: n, controls: l } = j(),
+      d = n.type.get() || w.News,
+      m = n.postCounter.get(),
+      p = n.text.get(),
+      x = n.description.get(),
+      y = n.finishTime.get(),
+      C = n.isVideo.get(),
+      E = n.image.get(),
+      P = T(),
+      S = v.resolve("strings");
+    const L = (0, k.useCallback)(
+        (e) => {
+          (e.stopPropagation(), l.onClose());
+        },
+        [l],
+      ),
+      [V, $] = (0, k.useState)(null);
+    (0, k.useLayoutEffect)(() => {
+      let e;
+      const s = N(o(y || 0), _());
+      if (!y || s <= 0) return void $(null);
+      const t = Math.floor(a.seconds(s)),
+        n = c(o(y), i(1)) ? h.Extended : h.Long;
+      if (($({ duration: t, style: n }), n === h.Extended)) {
+        const s = N(o(t + 1), i(1));
+        e = setTimeout(() => $((e) => ({ ...e, style: h.Long })), Math.min(s, r));
+      }
+      return () => {
+        e && (clearTimeout(e), (e = void 0));
+      };
+    }, [y]);
+    const [A, z] = (0, k.useState)(null),
+      [I, q] = (0, k.useState)(!1);
+    return (
+      (0, k.useEffect)(() => {
+        const e = new Image();
+        return (
+          (e.src = E),
+          (e.onload = () => {
+            (z({ path: E, height: e.height, width: e.width }), q(!0));
+          }),
+          (e.onerror = () => {
+            q(!0);
+          }),
+          () => {
+            ((e.src = ""), z(null));
+          }
+        );
+      }, [E]),
+      I
+        ? (0, M.jsxs)("div", {
+            className: f(W.base, W[`base__${d}Type`], C && W.base__video, e),
+            onClick: function (e) {
+              (P.play("click", { target: B, original: e }), l.onClick());
+            },
+            onMouseEnter: function (e) {
+              P.play("mouse-enter", { target: B, original: e });
+            },
+            children: [
+              (0, M.jsx)("div", {
+                className: f(W.contentWrapper, t?.contentWrapper),
+                children: (0, M.jsx)("div", {
+                  className: f(W.imageWrapper, t?.imageWrapper),
+                  children:
+                    A &&
+                    (0, M.jsx)("div", {
+                      className: f(W.image, t?.image),
+                      style: {
+                        backgroundImage: `url(${A.path})`,
+                        height: `${A.height}rem`,
+                        width: `${A.width}rem`,
+                      },
+                    }),
+                }),
+              }),
+              (0, M.jsx)("div", { className: f(W.vignette, t?.vignette) }),
+              (0, M.jsxs)("div", {
+                className: f(W.contentWrapper, t?.contentWrapper),
+                children: [
+                  (0, M.jsxs)("div", {
+                    className: f(W.title, t?.title),
+                    children: [
+                      S.readOrEmpty("menu.promo.teaser.title"),
+                      Boolean(m) &&
+                        m > 0 &&
+                        (0, M.jsx)(g, {
+                          className: f(W.counter, t?.counter),
+                          value: m,
+                          size: "small",
+                        }),
+                    ],
+                  }),
+                  (0, M.jsx)(b, {
+                    type: "close",
+                    side: "right",
+                    classNames: { base: f(W.closeButton, t?.closeButton) },
+                    onClick: L,
+                    caption: "",
+                  }),
+                  p && (0, M.jsx)("div", { className: f(W.text, t?.text), children: p }),
+                  (x || V) &&
+                    (0, M.jsxs)("div", {
+                      className: W.bottomContent,
+                      children: [
+                        x &&
+                          (0, M.jsx)("div", {
+                            className: f(W.description, t?.description),
+                            children: (0, M.jsx)(s, {
+                              classMix: W.extendedText,
+                              text: x,
+                              isTruncationAvailable: !0,
+                            }),
+                          }),
+                        V && (0, M.jsx)(u, { className: f(W.countdown, t?.countdown), ...V }),
+                      ],
+                    }),
+                ],
+              }),
+            ],
+          })
+        : null
+    );
+  });
+function P({ className: e, classNames: s, ...t }) {
+  return (0, M.jsx)(C, {
+    ...t,
+    mode: "real",
+    mocks: y,
+    children: (0, M.jsx)(E, { className: e, classNames: s }),
+  });
+}
+export { P as default };

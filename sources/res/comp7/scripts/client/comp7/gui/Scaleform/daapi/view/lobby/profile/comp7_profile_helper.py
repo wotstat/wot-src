@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from gui.Scaleform.daapi.view.lobby.profile.ProfileSection import DropdownData
 COMP7_SEASON_NUMBERS = (1,)
 COMP7_ARCHIVE_NAMES = (b'Griffin', b'Pegasus', b'Manticore', b'Dragon')

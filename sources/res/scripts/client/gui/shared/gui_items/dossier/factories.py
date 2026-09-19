@@ -534,6 +534,9 @@ _ACHIEVEMENTS_BY_NAME = {(_AB.TOTAL, b'warrior'): (_CustomAchieveFactory.get(_as
    (_AB.SINGLE, b'twoPointZeroMedal'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'twoPointZeroCollectorMedal'): (_AchieveFactory.get(_as.simple_progress_achvs.Collector20Achievement)), 
    (_AB.SINGLE, b'hw2025Medal'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
+   (_AB.SINGLE, b'hw2026Medal_1'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
+   (_AB.SINGLE, b'hw2026Medal_2'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
+   (_AB.SINGLE, b'hw2026Medal_3'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'NY26_AtmsphrLevel'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'NY26_CelebChallenge'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'grinch_medal_2026'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
@@ -546,7 +549,8 @@ _ACHIEVEMENTS_BY_NAME = {(_AB.TOTAL, b'warrior'): (_CustomAchieveFactory.get(_as
    (_AB.SINGLE, b'comp7_6_yearly_silver'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'comp7_6_yearly_gold'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'comp7_6_yearly_champion'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
-   (_AB.SINGLE, b'comp7_6_yearly_legend'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement))}
+   (_AB.SINGLE, b'comp7_6_yearly_legend'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
+   (_AB.SINGLE, b'FortRushMedal_2026'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement))}
 for _nID, _ in enumerate(nations.NAMES):
     _ACHIEVEMENTS_BY_NAME[(_AB.TOTAL, b'tankExpert%d' % _nID)] = _NationAchieveFactory.get(_as.nation_specific.TankExpertAchievement, _nID)
     _ACHIEVEMENTS_BY_NAME[(_AB.TOTAL, b'mechanicEngineer%d' % _nID)] = _NationAchieveFactory.get(_as.nation_specific.MechEngineerAchievement, _nID)

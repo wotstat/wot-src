@@ -793,13 +793,13 @@ PREM_TYPE_TO_ENTITLEMENT = {v: k for k, v in ENTITLEMENT_TO_PREM_TYPE.items()}
 
 class ENTITLEMENT_OPS:
     GRANT = b'grant'
-    GRANT_WITHOUT_EXCESS = b'grant_without_excess'
+    FORCED_GRANT = b'forced_grant'
     CONSUME = b'consume'
-    CONSUME_GREEDY = b'consume_greedy'
+    FORCED_CONSUME = b'forced_consume'
     ALL = (
-     GRANT, GRANT_WITHOUT_EXCESS, CONSUME, CONSUME_GREEDY)
-    GRANT_ALL = (GRANT, GRANT_WITHOUT_EXCESS)
-    CONSUME_ALL = (CONSUME, CONSUME_GREEDY)
+     GRANT, FORCED_GRANT, CONSUME, FORCED_CONSUME)
+    GRANT_ALL = (GRANT, FORCED_GRANT)
+    CONSUME_ALL = (CONSUME, FORCED_CONSUME)
 
 
 class PREM_BONUS_TYPES:
@@ -881,6 +881,7 @@ class Configs(enum.Enum):
     W2GT_CONFIG = b'w2gt_config'
     CHALLENGES_CONFIG = b'challenges_config'
     PRE_BATTLE_HIGHLIGHTS_CONFIG = b'pbh_config'
+    GAMEFACE_HUD_CONFIG = b'gameface_hud_config'
 
 
 INBATTLE_CONFIGS = [
@@ -1842,7 +1843,6 @@ class AUTO_MAINTENANCE_RESULT:
     NOT_ENOUGH_ASSETS = 1
     NOT_PERFORMED = 2
     DISABLED_OPTION = 3
-    NO_WALLET_SESSION = 4
     RENT_IS_OVER = 5
     RENT_IS_ALMOST_OVER = 6
     BUY_NOT_AUTO_EQUIP = 7

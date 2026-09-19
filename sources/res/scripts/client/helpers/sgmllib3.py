@@ -1,3 +1,4 @@
+from __future__ import absolute_import, print_function
 import _markupbase, re
 __all__ = [
  b'SGMLParser', b'SGMLParseError']
@@ -317,8 +318,8 @@ class SGMLParser(_markupbase.ParserBase):
 
     def report_unbalanced(self, tag):
         if self.verbose:
-            print b'*** Unbalanced </' + tag + b'>'
-            print (b'*** Stack:', self.stack)
+            print(b'*** Unbalanced </' + tag + b'>')
+            print(b'*** Stack:', self.stack)
         return
 
     def convert_charref(self, name):

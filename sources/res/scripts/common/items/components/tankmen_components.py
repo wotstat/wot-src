@@ -45,6 +45,7 @@ class SPECIAL_VOICE_TAG(object):
     ERWIN = b'erwinSpecialVoice'
     JAGER_MAILAND = b'jager_mailand_SpecialVoice'
     JAGER_MOUZAKROBAT = b'jager_mouzAkrobat_SpecialVoice'
+    FR_SPARK = b'fr_spark_SpecialVoice'
     BATTLE_OF_BLOGGERS = (b'ru1_LebwaSpecialVoice', b'ru2_YushaSpecialVoice', b'ru3_Amway921SpecialVoice', b'ru4_KorbenDallasSpecialVoice', b'eu1_MailandSpecialVoice', b'eu2_Skill4ltuSpecialVoice', b'eu3_DezgamezSpecialVoice', b'eu4_AwesomeEpicGuysSpecialVoice')
     BATTLE_OF_BLOGGERS_2021 = (b'bb21_ru1_Yusha_specialVoice', b'bb21_ru1_Vspishka_specialVoice', b'bb21_ru2_Amway921_specialVoice', b'bb21_ru2_Korbendailas_specialVoice', b'bb21_ru3_Lebwa_specialVoice', b'bb21_ru3_Inspirer_specialVoice', b'bb21_ru4_Evilgranny_specialVoice', b'bb21_ru4_Nearyou_specialVoice', b'bb21_eu1_Circon_specialVoice', b'bb21_eu2_Dakillzor_specialVoice', b'bb21_eu3_Newmulti2k_specialVoice', b'bb21_eu4_Orzanel_specialVoice', b'bb21_na1_Cabbagemechanic_specialVoice', b'bb21_na2_Tragicloss_specialVoice', b'bb21_na3_Cmdraf_specialVoice', b'bb21_asia1_Mastertortoise_specialVoice', b'bb21_asia2_Summertiger_specialVoice', b'bb21_asia3_Maharlika_specialVoice')
     G_I_JOE_TWITCH_2021 = (b'duke_specialVoice', b'cobra_specialVoice')
@@ -77,7 +78,7 @@ class SPECIAL_VOICE_TAG(object):
     BP_20_M = (b'tankmen_bp20_5', b'tankmen_bp20_6', b'tankmen_bp20_7', b'tankmen_bp20_8', b'tankmen_bp20_9')
     MT_LB_4 = b'tankmen_mtlb4_1'
     ALL = (
-     BUFFON, SABATON, OFFSPRING, RACER, RACER_EN, CELEBRITY_2021, MIHO, YHA, ALICE, DARJEELING, CELEBRITY_2022, DAY_OF_COSMONAUTICS_21, SABATON_2021, QUICKY_BABY, WITCHES_CREW, CELEBRITY_2023, HAND_OF_BLOOD, NAMELESS, EDELWEISS, SKILL_4_LTU, TALKTOME_GOOSE, CELEBRITY_2024, CYGAN, ERIKA, MIKA, MARTY_VOLE, MT_LB_1, MT_LB_4, CELEBRITY_2025, KEI, HW25_QUICKYBABY, HW25_MAILAND, HW25_MOUZ_AKROBAT, HW25_SKILL4LTU, HW25_LU_JUN_CN, HW25_TITI_CN, HW25_DA_KUN_CN, HW25_PANCHEZHANG_CN, CELEBRITY_2026, ERWIN, JAGER_MAILAND, JAGER_MOUZAKROBAT) + BATTLE_OF_BLOGGERS + BATTLE_OF_BLOGGERS_2021 + G_I_JOE_TWITCH_2021 + WHITE_TIGER_EVENT_2021 + G_I_JOE_2022 + WHITE_TIGER_EVENT_2022 + BPH_2022 + WHITE_TIGER_EVENT_2023 + BP_12_M + BP_H2 + BP_13 + CTM_24 + BP_14_M + WHITE_TIGER_EVENT_2024 + BP_15_M + BP_H4 + BP_16_M + BP_17_DC_M + BP_18_M + BP_18_NM + BP_H5 + BP_H6 + BP_19_M + BP_20_M
+     BUFFON, SABATON, OFFSPRING, RACER, RACER_EN, CELEBRITY_2021, MIHO, YHA, ALICE, DARJEELING, CELEBRITY_2022, DAY_OF_COSMONAUTICS_21, SABATON_2021, QUICKY_BABY, WITCHES_CREW, CELEBRITY_2023, HAND_OF_BLOOD, NAMELESS, EDELWEISS, SKILL_4_LTU, TALKTOME_GOOSE, CELEBRITY_2024, CYGAN, ERIKA, MIKA, MARTY_VOLE, MT_LB_1, MT_LB_4, CELEBRITY_2025, KEI, HW25_QUICKYBABY, HW25_MAILAND, HW25_MOUZ_AKROBAT, HW25_SKILL4LTU, HW25_LU_JUN_CN, HW25_TITI_CN, HW25_DA_KUN_CN, HW25_PANCHEZHANG_CN, CELEBRITY_2026, ERWIN, JAGER_MAILAND, JAGER_MOUZAKROBAT, FR_SPARK) + BATTLE_OF_BLOGGERS + BATTLE_OF_BLOGGERS_2021 + G_I_JOE_TWITCH_2021 + WHITE_TIGER_EVENT_2021 + G_I_JOE_2022 + WHITE_TIGER_EVENT_2022 + BPH_2022 + WHITE_TIGER_EVENT_2023 + BP_12_M + BP_H2 + BP_13 + CTM_24 + BP_14_M + WHITE_TIGER_EVENT_2024 + BP_15_M + BP_H4 + BP_16_M + BP_17_DC_M + BP_18_M + BP_18_NM + BP_H5 + BP_H6 + BP_19_M + BP_20_M
 
 
 class SPECIAL_CREW_TAG(object):

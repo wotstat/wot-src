@@ -6670,6 +6670,15 @@ msgstr "?empty?"
 msgid "notrecruitedtankman/fisherman/label"
 msgstr "?empty?"
 
+msgid "notrecruitedtankman/fr_spark/desc"
+msgstr "Nowhere stayed home for long for Lacie \"Spark\" Paxton. Growing up traveling between military bases with her father, a communications engineer, made her worldly, adaptable, and uncannily skilled at spotting patterns. Spark later proved just as capable inside an armored vehicle as she was behind intelligence equipment. She leads with dry wit and never risks her crew lightly. When Sector 3 formed a unit to intercept the Architect's transmissions, Spark was the natural choice to command it. She dubbed their first mission \"Operation Switchblade\", and the name stuck to the unit."
+
+msgid "notrecruitedtankman/fr_spark/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/fr_spark/label"
+msgstr "Black Signal"
+
 msgid "notrecruitedtankman/freeSkillsTitle"
 msgstr "Zero Perks"
 
@@ -6935,6 +6944,15 @@ msgid "notrecruitedtankman/lunar26_commander/howToGetInfo"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/lunar26_commander/label"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/desc"
+msgstr "Renowned engineer-turned-commander Emil Diachenko is equally in his element opening fire on enemy tanks or opening up an engine compartment to hammer in impromptu upgrades. A true maverick, he has become something of an urban legend at the barracks—his men swear he never sleeps. Emil knows the rumors, and prefers to neither confirm nor deny them; a man with a fondness for the extraordinary, he'd be the last to stifle anyone's imagination. Indeed, when he's not scheming up his next madcap venture, he's sketching out homebrewed turbochargers that could never possibly work... or so it would seem."
+
+msgid "notrecruitedtankman/mustached_engineer/howToGetInfo"
+msgstr "?empty?"
+
+msgid "notrecruitedtankman/mustached_engineer/label"
 msgstr "?empty?"
 
 msgid "notrecruitedtankman/ny19men/desc"
@@ -11571,6 +11589,12 @@ msgstr "Time between firing the last shell in the magazine (or both guns) and lo
 
 msgid "tank_params/desc/coincidenceElectromechanicalSightDuration"
 msgstr "Duration of the effect of the Coincidence Electromechanical Sight after activation."
+
+msgid "tank_params/desc/combatThrottleCooldown"
+msgstr "Time required before the throttle can be activated again after use."
+
+msgid "tank_params/desc/combatThrottleDuration"
+msgstr "Duration of the throttle's effect after activation."
 
 msgid "tank_params/desc/concentrationModeCooldown"
 msgstr "Time required before the stabilizer can be activated again after use."

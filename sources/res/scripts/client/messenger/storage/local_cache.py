@@ -1,4 +1,5 @@
-import types, Event
+from __future__ import absolute_import
+import Event
 from helpers import dependency
 from helpers.local_cache import FileLocalCache, PickleIO, CryptIO
 from skeletons.account_helpers.settings_core import ISettingsCache
@@ -32,7 +33,7 @@ class SimpleCachedStorage(object):
         return self._getCachedData()
 
     def restoreFromCache(self, record):
-        if not isinstance(record, types.ListType):
+        if not isinstance(record, list):
             return
         restored = self._setCachedData(record)
         self.onRestoredFromCache(restored)
@@ -79,7 +80,7 @@ class RevCachedStorage(SimpleCachedStorage):
         return record
 
     def restoreFromCache(self, record):
-        if not isinstance(record, types.ListType):
+        if not isinstance(record, list):
             return
         else:
             self.__rev = self.__getServerRev()

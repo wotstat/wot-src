@@ -7,7 +7,7 @@ msgstr[0] "%(count) оставшийся Модуль"
 msgstr[1] "%(count) оставшихся Модуля"
 msgstr[2] "%(count) оставшихся Модулей"
 
-msgid "awardViews/footer/backButton/"
+msgid "awardViews/footer/backButton"
 msgstr "Назад к Модулям"
 
 msgid "boxTooltip/description/text/wt"
@@ -76,10 +76,10 @@ msgstr "Каждый %(guaranteed0)s-й Модуль гарантированн�
 msgid "infoPage/header/description"
 msgstr "Откройте Модуль с шансом выпадения ценных внутриигровых предметов! Подробности ниже."
 
-msgid "multipleRewardView/header/subTitle/"
+msgid "multipleRewardView/header/subTitle"
 msgstr "Из %(name) (открыто %(boxesCount) Модулей)"
 
-msgid "noBoxesView/description/"
+msgid "noBoxesView/description"
 msgstr "У вас нет Модулей. Вы можете приобрести их\nво внутриигровом или Премиум магазине."
 
 msgid "preview/backLabel"
@@ -91,7 +91,7 @@ msgstr "Модулей в наличии: %(boxesCount)"
 msgid "quantityTitle/noBoxes"
 msgstr "Модули закончились"
 
-msgid "singleRewardView/tooltip/description/"
+msgid "singleRewardView/tooltip/description"
 msgstr "Если у вас уже есть вся техника из списка возможных наград, каждая последующая машина, которую вы получите из Модулей, будет компенсирована золотом."
 
 msgid "singleRewardView/tooltip/remainingCount"
@@ -100,5 +100,5 @@ msgstr[0] "%(remainingCount) Модуль"
 msgstr[1] "%(remainingCount) Модуля"
 msgstr[2] "%(remainingCount) Модулей"
 
-msgid "singleRewardView/tooltip/subtitle/"
-msgstr "Гарантированная награда — машина из списка возможных наград.\nЕсли вы откроете %(remainingCount) и не получите такую технику, она выпадет при открытии %(count)-го Модуля. При выпадении такой машины счётчик сбрасывается."
+msgid "singleRewardView/tooltip/subtitle"
+msgstr "Гарантированная награда — машина из списка возможных наград.\nЕсли вы откроете %(remainingCount) Модулей и не получите такую технику, она выпадет при открытии %(count)-го Модуля. При выпадении такой машины счётчик сбрасывается."

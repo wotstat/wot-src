@@ -1348,6 +1348,7 @@ class QUESTS(object):
     BONUSNAME_ATTACHMENTS_SET_SEARCHANDDESTROY = b'#quests:bonusName/attachments_set/searchAndDestroy'
     BONUSNAME_ATTACHMENTS_SET_AERIALADVANCE = b'#quests:bonusName/attachments_set/aerialAdvance'
     BONUSNAME_ATTACHMENTS_SET_AIRDEFENSESUITE = b'#quests:bonusName/attachments_set/airDefenseSuite'
+    BONUSNAME_ATTACHMENTS_SET_OPBCT = b'#quests:bonusName/attachments_set/OpBCt'
     ACTION_AUTO_CALENDAR = b'#quests:action/auto/calendar'
     ACTION_FULL_CALENDAR = b'#quests:action/full/calendar'
     ACTION_HERO_FULL_CALENDAR = b'#quests:action/hero/full/calendar'
@@ -1856,7 +1857,8 @@ class QUESTS(object):
      BONUSNAME_ATTACHMENTS_SET_CHALLENGERSBOUNTY,
      BONUSNAME_ATTACHMENTS_SET_SEARCHANDDESTROY,
      BONUSNAME_ATTACHMENTS_SET_AERIALADVANCE,
-     BONUSNAME_ATTACHMENTS_SET_AIRDEFENSESUITE)
+     BONUSNAME_ATTACHMENTS_SET_AIRDEFENSESUITE,
+     BONUSNAME_ATTACHMENTS_SET_OPBCT)
     ACTION_ENUM = (
      ACTION_AUTO_CALENDAR,
      ACTION_FULL_CALENDAR,

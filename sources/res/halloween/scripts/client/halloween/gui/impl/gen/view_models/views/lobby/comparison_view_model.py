@@ -1,0 +1,25 @@
+from frameworks.wulf import Array, ViewModel
+from halloween.gui.impl.gen.view_models.views.lobby.comparison_vehicle_model import ComparisonVehicleModel
+
+class ComparisonViewModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=1, commands=0):
+        super(ComparisonViewModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getVehicles(self):
+        return self._getArray(0)
+
+    def setVehicles(self, value):
+        self._setArray(0, value)
+        return
+
+    @staticmethod
+    def getVehiclesType():
+        return ComparisonVehicleModel
+
+    def _initialize(self):
+        super(ComparisonViewModel, self)._initialize()
+        self._addArrayProperty(b'vehicles', Array())
+        return

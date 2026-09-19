@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import functools
 from tutorial.data.has_id import HasID
 __all__ = (b'CONDITION_TYPE', b'CONDITION_STATE', b'FlagCondition', b'GlobalFlagCondition', b'WindowOnSceneCondition', b'VarDefinedCondition', b'VarCompareCondition', b'EffectTriggeredCondition', b'GameItemSimpleStateCondition', b'GameItemRelateStateCondition', b'Conditions')

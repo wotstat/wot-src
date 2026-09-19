@@ -1,0 +1,371 @@
+import { r as e } from "../../chunks/rolldown-runtime.js";
+import {
+  $n as t,
+  Bi as s,
+  Ca as a,
+  G as l,
+  In as o,
+  Kt as i,
+  Ri as r,
+  Tr as n,
+  Xr as c,
+  Yr as d,
+  ar as u,
+  ba as m,
+  cr as p,
+  da as h,
+  di as y,
+  dr as v,
+  hi as b,
+  hr as g,
+  lr as _,
+  pr as f,
+  sr as x,
+  to as z,
+  uo as j,
+  ur as N,
+  xr as C,
+} from "../../chunks/lib.js";
+import "../../chunks/global.js";
+import {
+  c as A,
+  d as k,
+  f as O,
+  h as S,
+  i as w,
+  p as T,
+  r as I,
+  s as B,
+  t as E,
+} from "../../chunks/encode_decode.js";
+var P = {
+    closeButton: "Buttons_closeButton_abd8199",
+    buttonsBase: "Buttons_buttonsBase_baa73d96",
+    button: "Buttons_button_1de2fcc1",
+    base__input: "Buttons_base__input_32d3fada",
+  },
+  $ = e(b()),
+  L = j.resolve("strings"),
+  M = function ({ onClick: e, className: t }) {
+    const s = C();
+    return (0, $.jsx)("div", {
+      onClick: function (e) {
+        s.play("close", { target: "vehicle:playlists:overlay:close_button", original: e });
+      },
+      onMouseEnter: function (e) {
+        s.play("mouse-enter", { target: "vehicle:playlists:overlay:close_button", original: e });
+      },
+      className: z(P.closeBase, t),
+      "data-test-id": "closeOverlay",
+      children: (0, $.jsx)("div", {
+        onClick: e,
+        className: P.closeButton,
+        children: (0, $.jsx)(u, { path: "ui.close_btn", width: 48, height: 48 }),
+      }),
+    });
+  },
+  J = {
+    default: { size: o.sizes.extraSmall },
+    breakpoints: {
+      medium: { size: o.sizes.small },
+      large: { size: o.sizes.medium },
+      extraLarge: { size: o.sizes.large },
+    },
+  };
+function V({ buttons: e, onAction: t }) {
+  const s = y(J.default, J.breakpoints);
+  return (0, $.jsx)("div", {
+    className: P.buttonsBase,
+    children: e.map((e, a) =>
+      (0, $.jsx)(
+        o,
+        {
+          className: P.button,
+          autoAlignContent: !1,
+          theme: 0 === a ? o.themes.primary : o.themes.secondary,
+          size: s.size,
+          onClick: () => t(e.action),
+          soundTarget: e.soundTarget,
+          "data-test-id": e.title,
+          children: L.readOrEmpty(e.title),
+        },
+        a,
+      ),
+    ),
+  });
+}
+var [D, F] = g()(
+    ({ observableModel: e }) => {
+      const t = e.primitives(["params", "type"]),
+        a = f.primitive(() => {
+          try {
+            return i(A, JSON.parse(t.params.get())).title;
+          } catch (e) {
+            return (console.error("Can't get playlist title", e), "");
+          }
+        }),
+        l = f.shallow(() => {
+          try {
+            return i(B, JSON.parse(t.params.get()));
+          } catch (e) {
+            return (console.error("Can't parse import overlay params", e), { titles: new Set() });
+          }
+        });
+      return { type: t.type, playlistCode: s.box(""), playlistTitle: a, importParams: l };
+    },
+    ({ externalModel: e, model: t }) => {
+      const s = e.createCallback(
+          (e) => ({ action: O.import, data: JSON.stringify(e.initial) }),
+          "onAction",
+        ),
+        a = e.createCallback((e) => ({ action: e }), "onAction");
+      return {
+        import: r((e) => {
+          s({ initial: T(S(t.importParams().titles, "playlists.defaultName"), e) });
+        }),
+        doAction: (e) => {
+          if (e === k.import)
+            console.error('Unsupported type to doAction, please use "import" function from DL');
+          else a(e);
+        },
+        close: e.createCallbackNoArgs("onClose"),
+      };
+    },
+  ),
+  R = "AlertOverlay_6a914e50",
+  G = "AlertOverlay_close_c8fc8fba",
+  K = "AlertOverlay_content_be3b87d6",
+  U = "AlertOverlay_glow_2370fdef",
+  W = "AlertOverlay_icon_ec1d1576",
+  X = "AlertOverlay_divider_ffb30a39",
+  Y = "AlertOverlay_title_f9ee7b93",
+  q = { iconSize: 157, glowSize: [998, 639] },
+  H = {
+    medium: { iconSize: 188, glowSize: [1200, 768] },
+    extraLarge: { iconSize: 256, glowSize: [1632, 1044] },
+  },
+  Q = function ({ titlePath: e, titleParams: s }) {
+    const a = y(q, H);
+    return (0, $.jsxs)("div", {
+      className: K,
+      children: [
+        (0, $.jsx)(u, {
+          path: "hangar.playlists.overlay_glow",
+          width: a.glowSize[0],
+          height: a.glowSize[1],
+          className: U,
+        }),
+        (0, $.jsx)(u, {
+          path: "library.icon_alert_256x256",
+          width: a.iconSize,
+          height: a.iconSize,
+          className: W,
+        }),
+        (0, $.jsx)(t, { className: Y, path: e, params: s }),
+        (0, $.jsx)(u, { path: "ui.noise", className: X, fit: "contain" }),
+      ],
+    });
+  };
+function Z(e) {
+  const t = `playlists.dialogs.${e}.button.submit`,
+    s = `playlists.dialogs.${e}.button.cancel`;
+  switch (e) {
+    case O.delete:
+      return [
+        { action: k.delete, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
+        { action: k.cancel, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
+      ];
+    case O.save:
+      return [
+        { action: k.save, title: t, soundTarget: "vehicle:playlists:overlay:submit_button" },
+        { action: k.discard, title: s, soundTarget: "vehicle:playlists:overlay:cancel_button" },
+      ];
+    default:
+      return [
+        {
+          action: k.submit,
+          title: "dialogs.common.submit",
+          soundTarget: "vehicle:playlists:overlay:submit_button",
+        },
+        {
+          action: k.cancel,
+          title: "dialogs.common.cancel",
+          soundTarget: "vehicle:playlists:overlay:cancel_button",
+        },
+      ];
+  }
+}
+var ee = p(function () {
+    const e = F(),
+      t = e.model.type.get(),
+      s = { playlistTitle: t === O.delete ? e.model.playlistTitle() : "" };
+    return (
+      d(h.ESCAPE, e.controls.close),
+      (0, $.jsxs)("div", {
+        className: R,
+        children: [
+          (0, $.jsx)(M, { onClick: e.controls.close, className: G }),
+          (0, $.jsx)(Q, { titlePath: `playlists.dialogs.${t}.title`, titleParams: s }),
+          (0, $.jsx)(V, {
+            buttons: Z(t),
+            onAction: function (t) {
+              e.controls.doAction(t);
+            },
+          }),
+        ],
+      })
+    );
+  }),
+  te = {
+    base: "Input_1c7ccc50",
+    decoration: "Input_decoration_85fbd35d",
+    field: "Input_field_17ca5da5",
+    placeholder: "Input_placeholder_491fdc9a",
+  },
+  se = j.resolve("strings"),
+  ae = p(function (e) {
+    const t = y({ size: l.sizes.medium }, { medium: { size: l.sizes.large } });
+    return (0, $.jsx)(l.Provider, {
+      value: e.state.code.get(),
+      size: t.size,
+      state: e.state.valid.get() ? l.states.default : l.states.alert,
+      children: (0, $.jsxs)("div", {
+        className: z(te.base, e.className),
+        children: [
+          (0, $.jsxs)(l.Decoration, {
+            className: te.decoration,
+            children: [
+              (0, $.jsx)(l.Field, {
+                onChange: (t) => e.state.setCode(t.currentTarget.value),
+                className: te.field,
+                classNames: { placeholder: te.placeholder },
+                "data-test-id": "playlistCodeInput",
+                children: se.readOrEmpty("playlists.dialogs.import.input.message"),
+              }),
+              (0, $.jsx)(l.ClearButton, {}),
+            ],
+          }),
+          (0, $.jsx)(l.Message, {
+            visible: !e.state.valid.get(),
+            className: te.message,
+            children: se.readOrEmpty("playlists.dialogs.import.input.alert"),
+          }),
+        ],
+      }),
+    });
+  });
+var le = "Import_40d148c8",
+  oe = "Import_input_e16c13cf",
+  ie = "Import_close_a22b55d9",
+  re = "Import_content_4f83aea5",
+  ne = "Import_title_84bfc65",
+  ce = "Import_buttons_cfa84075",
+  de = "Import_button_4685dd9f",
+  ue = j.resolve("strings"),
+  me = {
+    default: { size: o.sizes.extraSmall },
+    breakpoints: {
+      medium: { size: o.sizes.small },
+      large: { size: o.sizes.medium },
+      extraLarge: { size: o.sizes.large },
+    },
+  },
+  pe = p(function ({ state: e }) {
+    const t = y(me.default, me.breakpoints),
+      s = F();
+    function a() {
+      const t = E(e.code.get());
+      return (
+        e.setValid("ok" === t.type),
+        "error" === t.type
+          ? console.warn(`Failed to decode the code ${e.code}`, t.error)
+          : t.value.hash !== I(t.value.numbers)
+            ? (console.error("Invalid hash sum. List can be corrupted"), e.setValid(!1))
+            : void s.controls.import(t.value.numbers)
+      );
+    }
+    return (
+      c(h.ENTER, a),
+      (0, $.jsxs)("div", {
+        className: ce,
+        children: [
+          (0, $.jsx)(o, {
+            className: de,
+            autoAlignContent: !1,
+            theme: o.themes.primary,
+            size: t.size,
+            onClick: a,
+            soundTarget: "vehicle:playlists:overlay:submit_button",
+            "data-test-id": "importPlaylist",
+            children: ue.readOrEmpty("playlists.dialogs.import.button.submit"),
+          }),
+          (0, $.jsx)(o, {
+            className: de,
+            autoAlignContent: !1,
+            theme: o.themes.secondary,
+            size: t.size,
+            onClick: () => s.controls.doAction(k.cancel),
+            soundTarget: "vehicle:playlists:overlay:cancel_button",
+            "data-test-id": "cancelImportPlaylist",
+            children: ue.readOrEmpty("dialogs.common.cancel"),
+          }),
+        ],
+      })
+    );
+  }),
+  he = p(function () {
+    const e = F(),
+      t = x(() => {
+        const e = s.box(!0),
+          t = s.box("");
+        return {
+          valid: e,
+          code: t,
+          setValid: r(e.set.bind(e)),
+          setCode: r((s) => {
+            (e.set(!0), t.set(s));
+          }),
+        };
+      });
+    return (
+      d(h.ESCAPE, e.controls.close),
+      (0, $.jsxs)("div", {
+        className: le,
+        children: [
+          (0, $.jsx)(M, { onClick: e.controls.close, className: ie }),
+          (0, $.jsxs)("div", {
+            className: re,
+            children: [
+              (0, $.jsx)("div", {
+                className: ne,
+                children: ue.readOrEmpty("playlists.dialogs.import.title"),
+              }),
+              (0, $.jsx)(ae, { state: t, className: oe }),
+            ],
+          }),
+          (0, $.jsx)(pe, { state: t }),
+        ],
+      })
+    );
+  }),
+  ye = p(function () {
+    const e = F().model.type.get();
+    switch (e) {
+      case O.import:
+        return (0, $.jsx)(he, {});
+      case O.delete:
+      case O.save:
+        return (0, $.jsx)(ee, {});
+      default:
+        return (console.error(`The overlay type for ${e} is not supported`), null);
+    }
+  }),
+  ve = n(w);
+N(
+  new v()
+    .addWithProps(_, { soundsOverrides: ve })
+    .add(D)
+    .render((0, $.jsx)(ye, {})),
+)
+  .then(() => a(document.getElementById("root")))
+  .then(() => m());

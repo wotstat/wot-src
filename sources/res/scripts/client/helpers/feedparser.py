@@ -1,15 +1,16 @@
+from __future__ import absolute_import
 __version__ = b'5.1.2'
 __license__ = b"\nCopyright (c) 2010-2012 Kurt McKee <contactme@kurtmckee.org>\nCopyright (c) 2002-2008 Mark Pilgrim\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice,\n  this list of conditions and the following disclaimer.\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
 __author__ = b'Mark Pilgrim <http://diveintomark.org/>'
-__contributors__ = [3, 
- 4, 
- 5, 
+__contributors__ = [5, 
  6, 
  7, 
  8, 
  9, 
  10, 
- 11]
+ 11, 
+ 12, 
+ 13]
 USER_AGENT = b'UniversalFeedParser/%s +https://code.google.com/p/feedparser/' % __version__
 ACCEPT_HEADER = b'application/atom+xml,application/rdf+xml,application/rss+xml,application/x-netcdf,application/xml;q=0.9,text/xml;q=0.2,*/*;q=0.1'
 PREFERRED_XML_PARSERS = [
@@ -33,6 +34,7 @@ except (NameError, AttributeError):
 
 try:
     import base64, binascii
+    from py2to3.compat import base64compat
 except ImportError:
     base64 = binascii = None
 else:
@@ -68,8 +70,17 @@ ACCEPTABLE_URI_SCHEMES = (
  b'wais',
  b'aim', b'callto', b'cvs', b'facetime', b'feed', b'git', b'gtalk', b'irc', b'ircs',
  b'irc6', b'itms', b'mms', b'msnim', b'skype', b'ssh', b'smb', b'svn', b'ymsg')
-import cgi, codecs, copy, datetime, re, struct, time, types, urllib, urllib2, urlparse, warnings
-from htmlentitydefs import name2codepoint, codepoint2name, entitydefs
+import cgi, codecs, copy, datetime, re, struct, time, warnings
+from past.builtins import basestring, unicode, unichr
+from future.moves.urllib.request import build_opener, Request, HTTPDigestAuthHandler, HTTPRedirectHandler, HTTPDefaultErrorHandler
+from future.moves.urllib.parse import urljoin, urlparse, urlunparse, urlsplit, urlunsplit
+from future.utils import lfilter, listitems, lmap
+from py2to3.compat import base64compat
+try:
+    from html.entities import name2codepoint, entitydefs
+except ImportError:
+    from htmlentitydefs import name2codepoint, entitydefs
+
 try:
     from io import BytesIO as _StringIO
 except ImportError:
@@ -77,6 +88,56 @@ except ImportError:
         from cStringIO import StringIO as _StringIO
     except ImportError:
         from StringIO import StringIO as _StringIO
+
+_typeprog = None
+
+def _splittype(url):
+    global _typeprog
+    if _typeprog is None:
+        import re
+        _typeprog = re.compile(b'^([^/:]+):')
+    match = _typeprog.match(url)
+    if match:
+        scheme = match.group(1)
+        return (
+         scheme.lower(), url[len(scheme) + 1:])
+    else:
+        return (
+         None, url)
+
+
+_hostprog = None
+
+def _splithost(url):
+    global _hostprog
+    if _hostprog is None:
+        _hostprog = re.compile(b'//([^/#?]*)(.*)', re.DOTALL)
+    match = _hostprog.match(url)
+    if match:
+        host_port = match.group(1)
+        path = match.group(2)
+        if path and not path.startswith(b'/'):
+            path = b'/' + path
+        return (host_port, path)
+    else:
+        return (
+         None, url)
+
+
+_userprog = None
+
+def _splituser(host):
+    global _userprog
+    if _userprog is None:
+        import re
+        _userprog = re.compile(b'^(.*)@(.*)$')
+    match = _userprog.match(host)
+    if match:
+        return match.group(1, 2)
+    else:
+        return (
+         None, host)
+
 
 try:
     import gzip
@@ -250,7 +311,7 @@ class FeedParserDict(dict):
             try:
                 return dict.__getitem__(self, b'tags')[0][b'term']
             except IndexError:
-                raise KeyError, b"object doesn't have key 'category'"
+                raise KeyError(b"object doesn't have key 'category'")
 
         elif key == b'enclosures':
             norel = lambda link: FeedParserDict([(name, value) for name, value in link.items() if name != b'rel'])
@@ -319,7 +380,7 @@ class FeedParserDict(dict):
         try:
             return self.__getitem__(key)
         except KeyError:
-            raise AttributeError, b"object has no attribute '%s'" % key
+            raise AttributeError(b"object has no attribute '%s'" % key)
 
         return
 
@@ -360,7 +421,7 @@ def _urljoin(base, uri):
     uri = _urifixer.sub(b'\\1\\3', uri)
     if not isinstance(uri, unicode):
         uri = uri.decode(b'utf-8', b'ignore')
-    uri = urlparse.urljoin(base, uri)
+    uri = urljoin(base, uri)
     if not isinstance(uri, unicode):
         return uri.decode(b'utf-8', b'ignore')
     return uri
@@ -482,7 +543,7 @@ class _FeedParserMixin():
 
     def unknown_starttag(self, tag, attrs):
         self.depth += 1
-        attrs = map(self._normalize_attributes, attrs)
+        attrs = lmap(self._normalize_attributes, attrs)
         attrsD = dict(attrs)
         baseuri = attrsD.get(b'xml:base', attrsD.get(b'base')) or self.baseuri
         if not isinstance(baseuri, unicode):
@@ -853,9 +914,9 @@ class _FeedParserMixin():
     def lookslikehtml(s):
         if not (re.search(b'</(\\w+)>', s) or re.search(b'&#?\\w+;', s)):
             return
-        if filter((lambda t: t.lower() not in _HTMLSanitizer.acceptable_elements), re.findall(b'</?(\\w+)', s)):
+        if lfilter((lambda t: t.lower() not in _HTMLSanitizer.acceptable_elements), re.findall(b'</?(\\w+)', s)):
             return
-        if filter((lambda e: e not in entitydefs.keys()), re.findall(b'&(\\w+);', s)):
+        if lfilter((lambda e: e not in entitydefs.keys()), re.findall(b'&(\\w+);', s)):
             return
         return 1
 
@@ -1180,7 +1241,7 @@ class _FeedParserMixin():
             author, email = context.get(key), None
             if not author:
                 return
-            emailmatch = re.search(u'(([a-zA-Z0-9\\_\\-\\.\\+]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?))(\\?subject=\\S+)?', author)
+            emailmatch = re.search(b'(([a-zA-Z0-9\\_\\-\\.\\+]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?))(\\?subject=\\S+)?', author)
             if emailmatch:
                 email = emailmatch.group(0)
                 author = author.replace(email, u'')
@@ -1748,7 +1809,7 @@ if _XML_AVAILABLE:
                 givenprefix = None
             prefix = self._matchnamespaces.get(lowernamespace, givenprefix)
             if givenprefix and (prefix == None or prefix == b'' and lowernamespace == b'') and givenprefix not in self.namespacesInUse:
-                raise UndeclaredNamespace, b"'%s' is not associated with a namespace" % givenprefix
+                raise UndeclaredNamespace(b"'%s' is not associated with a namespace" % givenprefix)
             localname = str(localname).lower()
             attrsD, self.decls = self.decls, {}
             if localname == b'math' and namespace == b'http://www.w3.org/1998/Math/MathML':
@@ -1773,7 +1834,7 @@ if _XML_AVAILABLE:
             for qname in attrs.getQNames():
                 attrsD[str(qname).lower()] = attrs.getValueByQName(qname)
 
-            self.unknown_starttag(localname, attrsD.items())
+            self.unknown_starttag(localname, listitems(attrsD))
             return
 
         def characters(self, text):
@@ -2341,7 +2402,7 @@ class _MicroformatsParser():
         linktype = attrsD.get(b'type', b'').strip()
         if linktype.startswith(b'audio/') or linktype.startswith(b'video/') or linktype.startswith(b'application/') and not linktype.endswith(b'xml'):
             return 1
-        path = urlparse.urlparse(attrsD[b'href'])[2]
+        path = urlparse(attrsD[b'href'])[2]
         if path.find(b'.') == -1:
             return 0
         fileext = path.split(b'.').pop().lower()
@@ -2353,7 +2414,7 @@ class _MicroformatsParser():
             href = elm.get(b'href')
             if not href:
                 continue
-            urlscheme, domain, path, params, query, fragment = urlparse.urlparse(_urljoin(self.baseuri, href))
+            urlscheme, domain, path, params, query, fragment = urlparse(_urljoin(self.baseuri, href))
             segments = path.split(b'/')
             tag = segments.pop()
             if not tag:
@@ -2361,7 +2422,7 @@ class _MicroformatsParser():
                     tag = segments.pop()
                 else:
                     continue
-            tagscheme = urlparse.urlunparse((urlscheme, domain, (b'/').join(segments), b'', b'', b''))
+            tagscheme = urlunparse((urlscheme, domain, (b'/').join(segments), b'', b'', b''))
             if not tagscheme.endswith(b'/'):
                 tagscheme += b'/'
             self.tags.append(FeedParserDict({b'term': tag, b'scheme': tagscheme, b'label': (elm.string or b'')}))
@@ -2468,7 +2529,7 @@ def _makeSafeAbsoluteURI(base, rel=None):
         return rel or u''
     if not rel:
         try:
-            scheme = urlparse.urlparse(base)[0]
+            scheme = urlparse(base)[0]
         except ValueError:
             return u''
 
@@ -2686,7 +2747,7 @@ class _HTMLSanitizer(_BaseHTMLProcessor):
             elif tag not in self.acceptable_elements:
                 return
         if self.mathmlOK or self.svgOK:
-            if filter((lambda (n, v): n.startswith(b'xlink:')), attrs):
+            if lfilter((lambda nv: nv[0].startswith(b'xlink:')), attrs):
                 if (b'xmlns:xlink', b'http://www.w3.org/1999/xlink') not in attrs:
                     attrs.append((b'xmlns:xlink', b'http://www.w3.org/1999/xlink'))
         clean_attrs = []
@@ -2812,14 +2873,14 @@ def _sanitizeHTML(htmlSource, encoding, _type):
         return data
 
 
-class _FeedURLHandler(urllib2.HTTPDigestAuthHandler, urllib2.HTTPRedirectHandler, urllib2.HTTPDefaultErrorHandler):
+class _FeedURLHandler(HTTPDigestAuthHandler, HTTPRedirectHandler, HTTPDefaultErrorHandler):
 
     def http_error_default(self, req, fp, code, msg, headers):
         fp.status = code
         return fp
 
     def http_error_301(self, req, fp, code, msg, hdrs):
-        result = urllib2.HTTPRedirectHandler.http_error_301(self, req, fp, code, msg, hdrs)
+        result = HTTPRedirectHandler.http_error_301(self, req, fp, code, msg, hdrs)
         result.status = code
         result.newurl = result.geturl()
         return result
@@ -2830,7 +2891,7 @@ class _FeedURLHandler(urllib2.HTTPDigestAuthHandler, urllib2.HTTPRedirectHandler
     http_error_307 = http_error_301
 
     def http_error_401(self, req, fp, code, msg, headers):
-        host = urlparse.urlparse(req.get_full_url())[1]
+        host = urlparse(req.get_full_url())[1]
         if base64 is None or b'Authorization' not in req.headers or b'WWW-Authenticate' not in headers:
             return self.http_error_default(req, fp, code, msg, headers)
         else:
@@ -2847,7 +2908,7 @@ def _open_resource(url_file_stream_or_string, etag, modified, agent, referrer, h
     if hasattr(url_file_stream_or_string, b'read'):
         return url_file_stream_or_string
     else:
-        if isinstance(url_file_stream_or_string, basestring) and urlparse.urlparse(url_file_stream_or_string)[0] in (b'http', b'https', b'ftp', b'file', b'feed'):
+        if isinstance(url_file_stream_or_string, basestring) and urlparse(url_file_stream_or_string)[0] in (b'http', b'https', b'ftp', b'file', b'feed'):
             if url_file_stream_or_string.startswith(b'feed:http'):
                 url_file_stream_or_string = url_file_stream_or_string[5:]
             elif url_file_stream_or_string.startswith(b'feed:'):
@@ -2856,17 +2917,17 @@ def _open_resource(url_file_stream_or_string, etag, modified, agent, referrer, h
                 agent = USER_AGENT
             auth = None
             if base64:
-                urltype, rest = urllib.splittype(url_file_stream_or_string)
-                realhost, rest = urllib.splithost(rest)
+                urltype, rest = _splittype(url_file_stream_or_string)
+                realhost, rest = _splithost(rest)
                 if realhost:
-                    user_passwd, realhost = urllib.splituser(realhost)
+                    user_passwd, realhost = _splituser(realhost)
                     if user_passwd:
                         url_file_stream_or_string = b'%s://%s%s' % (urltype, realhost, rest)
-                        auth = base64.standard_b64encode(user_passwd).strip()
+                        auth = base64compat.b64encode(user_passwd).strip()
             if isinstance(url_file_stream_or_string, unicode):
                 url_file_stream_or_string = _convert_to_idn(url_file_stream_or_string)
             request = _build_urllib2_request(url_file_stream_or_string, agent, etag, modified, referrer, auth, request_headers)
-            opener = urllib2.build_opener(*tuple(handlers + [_FeedURLHandler()]))
+            opener = build_opener(*tuple(handlers + [_FeedURLHandler()]))
             opener.addheaders = []
             try:
                 return opener.open(request)
@@ -2884,7 +2945,7 @@ def _open_resource(url_file_stream_or_string, etag, modified, agent, referrer, h
 
 
 def _convert_to_idn(url):
-    parts = list(urlparse.urlsplit(url))
+    parts = list(urlsplit(url))
     try:
         parts[1].encode(b'ascii')
     except UnicodeEncodeError:
@@ -2899,14 +2960,14 @@ def _convert_to_idn(url):
         parts[1] = (b'.').join(newhost)
         if port:
             parts[1] += b':' + port
-        return urlparse.urlunsplit(parts)
+        return urlunsplit(parts)
 
     return url
     return
 
 
 def _build_urllib2_request(url, agent, etag, modified, referrer, auth, request_headers):
-    request = urllib2.Request(url)
+    request = Request(url)
     request.add_header(b'User-Agent', agent)
     if etag:
         request.add_header(b'If-None-Match', etag)
@@ -2948,13 +3009,13 @@ def registerDateHandler(func):
 
 
 _iso8601_tmpl = [
- 208, 209, 210, 211, 
- 212, 213, 214, 
- 215, 216, 217, 
- 218, 219, 
- 220, 
- 221, 
- 95]
+ 216, 217, 218, 219, 
+ 220, 221, 222, 
+ 223, 224, 225, 
+ 226, 227, 
+ 228, 
+ 229, 
+ 103]
 _iso8601_re = [tmpl.replace(b'YYYY', b'(?P<year>\\d{4})').replace(b'YY', b'(?P<year>\\d\\d)').replace(b'MM', b'(?P<month>[01]\\d)').replace(b'DD', b'(?P<day>[0123]\\d)').replace(b'OOO', b'(?P<ordinal>[0123]\\d\\d)').replace(b'CC', b'(?P<century>\\d\\d$)') + b'(T?(?P<hour>\\d{2}):(?P<minute>\\d{2})' + b'(:(?P<second>\\d{2}))?' + b'(\\.(?P<fracsecond>\\d+))?' + b'(?P<tz>[+-](?P<tzhour>\\d{2})(:(?P<tzmin>\\d{2}))?|Z)?)?' for tmpl in _iso8601_tmpl]
 try:
     del tmpl
@@ -2989,7 +3050,7 @@ def _parse_date_iso8601(dateString):
         if not year or year == b'--':
             year = time.gmtime()[0]
         elif len(year) == 2:
-            year = 100 * int(time.gmtime()[0] / 100) + int(year)
+            year = 100 * int(time.gmtime()[0] // 100) + int(year)
         else:
             year = int(year)
         month = params.get(b'month', b'-')
@@ -3152,14 +3213,14 @@ def _parse_date_w3dtf(dateString):
     def __extract_date(m):
         year = int(m.group(b'year'))
         if year < 100:
-            year = 100 * int(time.gmtime()[0] / 100) + int(year)
+            year = 100 * int(time.gmtime()[0] // 100) + int(year)
         if year < 1000:
             return (0, 0, 0)
         else:
             julian = m.group(b'julian')
             if julian:
                 julian = int(julian)
-                month = julian / 30 + 1
+                month = julian // 30 + 1
                 day = julian % 30 + 1
                 jday = None
                 while jday != julian:
@@ -3246,9 +3307,9 @@ def _parse_date_w3dtf(dateString):
 
 registerDateHandler(_parse_date_w3dtf)
 _rfc822_months = [
- 320, 321, 322, 323, 324, 325, 
- 326, 327, 328, 329, 330, 331]
-_rfc822_daynames = [332, 333, 334, 335, 336, 337, 338]
+ 328, 329, 330, 331, 332, 333, 
+ 334, 335, 336, 337, 338, 339]
+_rfc822_daynames = [340, 341, 342, 343, 344, 345, 346]
 _rfc822_month = b'(?P<month>%s)(?:[a-z]*,?)' % (b'|').join(_rfc822_months)
 _rfc822_year = b'(?P<year>(?:\\d{2})?\\d{2})'
 _rfc822_day = b'(?P<day> *\\d{1,2})'
@@ -3469,7 +3530,7 @@ def _stripDoctype(data):
     replacement = _s2bytes(b'')
     if len(doctype_results) == 1 and entity_results:
         safe_pattern = re.compile(_s2bytes(b'\\s+(\\w+)\\s+"(&#\\w+;|[^&"]*)"'))
-        safe_entities = filter((lambda e: safe_pattern.match(e)), entity_results)
+        safe_entities = lfilter((lambda e: safe_pattern.match(e)), entity_results)
         if safe_entities:
             replacement = _s2bytes(b'<!DOCTYPE feed [\n  <!ENTITY') + _s2bytes(b'>\n  <!ENTITY ').join(safe_entities) + _s2bytes(b'>\n]>')
     data = doctype_pattern.sub(replacement, head) + data

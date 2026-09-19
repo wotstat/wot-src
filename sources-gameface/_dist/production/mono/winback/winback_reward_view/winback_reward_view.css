@@ -13,7 +13,7 @@
 }
 .mediaMedium .Actions_button_d816f92b {
   min-height: 32rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Header_ee5a2d07 {
   display: flex;
@@ -87,11 +87,11 @@
   font-size: 73rem;
   font-weight: 700;
   line-height: 1.1;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .AnimatedReward_4c41ec42 {
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .RegularReward_8b391676 {
   display: flex;
@@ -205,11 +205,13 @@
 .RegularReward_base__size180_8dbcaf1f .RegularReward_value__premium_plus_b32a2c8c {
   padding: 0;
 }
-.RegularReward_base__size232_9bf8f4e3 .RegularReward_value_80f381fe, .RegularReward_base__size360_8fbc6f4c .RegularReward_value_80f381fe {
+.RegularReward_base__size232_9bf8f4e3 .RegularReward_value_80f381fe,
+.RegularReward_base__size360_8fbc6f4c .RegularReward_value_80f381fe {
   padding: 0 28rem;
   font-size: 20rem;
 }
-.RegularReward_base__size232_9bf8f4e3 .RegularReward_value__premium_plus_b32a2c8c, .RegularReward_base__size360_8fbc6f4c .RegularReward_value__premium_plus_b32a2c8c {
+.RegularReward_base__size232_9bf8f4e3 .RegularReward_value__premium_plus_b32a2c8c,
+.RegularReward_base__size360_8fbc6f4c .RegularReward_value__premium_plus_b32a2c8c {
   padding: 0;
 }
 .RegularReward_base__size296_56fbe61a .RegularReward_value_80f381fe {
@@ -248,7 +250,7 @@
   font-size: 24rem;
   font-weight: 400;
   line-height: 1.2;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SelectableReward_4c8d1030 {
   display: flex;
@@ -359,7 +361,7 @@
   font-weight: 400;
   line-height: 1.2;
   max-width: 420rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleReward_e6c0c13c {
   display: flex;
@@ -597,7 +599,7 @@
   height: 32rem;
   margin-right: 6rem;
   background: url(R.images.gui.maps.icons.winback.rewardsView.garage) no-repeat center/contain;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .FirstRowRewardsResolver_reward__offset180_eaf5012c {
   margin: 0 34rem;
@@ -607,7 +609,7 @@
 }
 .FirstRowRewardsResolver_reward__offset600_6a7da3bd {
   margin: 0 24rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleReward_812fa6e2 {
   display: flex;
@@ -686,11 +688,11 @@
 }
 .VehicleReward_base__big_933347e8 .VehicleReward_name_2c75f05c {
   margin-top: -11rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .SecondRowRewardsResolver_reward_9a61ab72 {
   margin: 0 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes Rewards_rotate_405577a5 {
   from {
@@ -801,7 +803,8 @@
   animation-iteration-count: 1;
   width: 1366rem;
   padding-bottom: 26.04%;
-  background: url(R.images.gui.maps.icons.winback.rewardsView.ribbonRegular_small) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.winback.rewardsView.ribbonRegular_small) no-repeat
+    center/contain;
 }
 .mediaMedium .Rewards_ribbon_1743da87 {
   width: 1600rem;
@@ -859,7 +862,7 @@
 
 .Rewards_secondRowRewards_a1e37c96 {
   display: flex;
-}/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 @keyframes App_rotate_0 {
   from {

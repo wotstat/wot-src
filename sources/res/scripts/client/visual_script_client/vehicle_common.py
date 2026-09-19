@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import BigWorld
 from constants import DEFAULT_GUN_INSTALLATION_INDEX
 from visual_script import ASPECT
@@ -152,7 +153,7 @@ class TriggerListener(TriggersManager.ITriggerListener):
     def onPlayerEnterTrigger(self, trigger, enter):
         return
 
-    def onPlayerMove(self, modeCommands):
+    def onPlayerMove(self, moveCommands):
         return
 
     def onPlayerContinuousBurstStart(self, gunInstallationIndex):

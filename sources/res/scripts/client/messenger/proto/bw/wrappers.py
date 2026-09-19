@@ -1,9 +1,9 @@
+from __future__ import absolute_import
+import time as _time
 from collections import namedtuple
-import time as _time, types
+from past.builtins import unicode
 from chat_shared import SYS_MESSAGE_IMPORTANCE
 _ChannelData = namedtuple(b'_ChannelData', [
- 5, 
- 6, 
  7, 
  8, 
  9, 
@@ -11,7 +11,9 @@ _ChannelData = namedtuple(b'_ChannelData', [
  11, 
  12, 
  13, 
- 14])
+ 14, 
+ 15, 
+ 16])
 
 class ChannelDataWrapper(_ChannelData):
 
@@ -20,8 +22,6 @@ class ChannelDataWrapper(_ChannelData):
 
 
 _ChatActionData = namedtuple(b'_ChatActionData', (b' ').join([
- 19, 
- 20, 
  21, 
  22, 
  23, 
@@ -29,28 +29,30 @@ _ChatActionData = namedtuple(b'_ChatActionData', (b' ').join([
  25, 
  26, 
  27, 
- 13]))
+ 28, 
+ 29, 
+ 15]))
 
 class ChatActionWrapper(_ChatActionData):
 
     def __new__(cls, action=-1, channel=0, actionResponse=-1, group=0, originator=-1, originatorNickName=b'Unknown', requestID=-1, data=None, time=_time.time(), sentTime=_time.time(), flags=0, **kwargs):
         result = _ChatActionData.__new__(cls, action, channel, actionResponse, group, originator, unicode(originatorNickName, b'utf-8', errors=b'ignore'), requestID, time, sentTime, flags)
-        result.data = unicode(data, b'utf-8', errors=b'ignore') if isinstance(data, types.StringTypes) else data
+        result.data = unicode(data, b'utf-8', errors=b'ignore') if isinstance(data, bytes) else data
         return result
 
 
 _ServiceChannelData = namedtuple(b'_ServiceChannelData', (b' ').join([
- 31, 
- 32, 
  33, 
  34, 
  35, 
  36, 
- 27, 
  37, 
  38, 
+ 29, 
  39, 
- 40]))
+ 40, 
+ 41, 
+ 42]))
 
 class ServiceChannelMessage(_ServiceChannelData):
 

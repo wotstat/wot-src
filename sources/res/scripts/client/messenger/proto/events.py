@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import Event
 
 class _ChannelsSharedEvents(object):
@@ -54,12 +55,13 @@ class MemberEvents(object):
 
 
 class _VOIPSharedEvents(object):
-    __slots__ = (b'__eventManager', b'onCredentialReceived', b'onChannelAvailable', b'onChannelLost', b'onChannelEntered', b'onChannelLeft', b'onVoiceChatInitSucceeded', b'onVoiceChatInitFailed', b'onPlayerSpeaking')
+    __slots__ = (b'__eventManager', b'onCredentialReceived', b'onCredentialFailed', b'onChannelAvailable', b'onChannelLost', b'onChannelEntered', b'onChannelLeft', b'onVoiceChatInitSucceeded', b'onVoiceChatInitFailed', b'onPlayerSpeaking', b'onCaptureDeviceSetFailed')
 
     def __init__(self):
         super(_VOIPSharedEvents, self).__init__()
         self.__eventManager = Event.EventManager()
         self.onCredentialReceived = Event.Event()
+        self.onCredentialFailed = Event.Event(self.__eventManager)
         self.onChannelAvailable = Event.Event(self.__eventManager)
         self.onChannelLost = Event.Event(self.__eventManager)
         self.onChannelEntered = Event.Event(self.__eventManager)
@@ -67,6 +69,7 @@ class _VOIPSharedEvents(object):
         self.onVoiceChatInitSucceeded = Event.Event(self.__eventManager)
         self.onVoiceChatInitFailed = Event.Event(self.__eventManager)
         self.onPlayerSpeaking = Event.Event(self.__eventManager)
+        self.onCaptureDeviceSetFailed = Event.Event(self.__eventManager)
         return
 
     def clear(self):

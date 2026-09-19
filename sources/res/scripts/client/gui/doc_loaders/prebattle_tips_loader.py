@@ -1,6 +1,6 @@
 from __future__ import absolute_import
+from items.vehicle_mechanics_types import MECHANIC_KEY_BY_NAME
 import resource_helper
-from vehicles.mechanics.mechanic_constants import VehicleMechanic
 _PREBATTLE_TIPS_XML_PATH = b'gui/prebattle_tips.xml'
 _PRECEDING_DEFAULT_SHOW_TIMES = 1
 DEFAULT_STATUS = b'payAttention'
@@ -61,7 +61,7 @@ def _readMechanicsData(section):
         mechanicsData = {}
         for mechanicsKey in (b'include', b'exclude'):
             rawMechanics = section.readString(mechanicsKey).split()
-            mechanicsData[mechanicsKey] = frozenset(VehicleMechanic(mechanic) for mechanic in rawMechanics)
+            mechanicsData[mechanicsKey] = frozenset(MECHANIC_KEY_BY_NAME[m] for m in rawMechanics if m in MECHANIC_KEY_BY_NAME)
 
         return mechanicsData
 

@@ -1,1 +1,7 @@
-import{j as s,f as a}from"./vendor.js";import"./lib.js";const o="Separator_a3ff07",r=({className:r=""})=>s.jsx("div",{className:a(o,r)});export{r as S};
+import { r as a } from "./rolldown-runtime.js";
+import { Xn as s, ci as r, ui as o } from "./lib.js";
+o();
+var i = "Separator_a3ff07",
+  m = s(),
+  t = ({ className: a = "" }) => (0, m.jsx)("div", { className: r(i, a) });
+export { t };

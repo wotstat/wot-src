@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import BigWorld
 __all__ = (b'regionDecorator', b'enterToRegion', b'exitFromRegion')
 

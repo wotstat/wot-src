@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 import operator
+from future.utils import lmap, listvalues
 from tutorial.data.has_id import HasID, HasTargetID, HasIDAndTarget
 
 class VAR_FINDER_TYPE(object):
@@ -190,7 +192,7 @@ class Scene(HasID):
         return
 
     def getGuiItems(self):
-        return self.__guiItems.values()
+        return listvalues(self.__guiItems)
 
     def getGuiItem(self, targetID):
         if targetID in self.__guiItems:
@@ -337,10 +339,10 @@ class ActionsHolder(HasID):
             return
 
     def getActionTypes(self):
-        return map(operator.itemgetter(0), self.__actions.keys())
+        return lmap(operator.itemgetter(0), self.__actions)
 
     def getActions(self):
-        return self.__actions.values()
+        return listvalues(self.__actions)
 
     def setActions(self, actions):
         self.__actions = dict(((action.getType(), action.getTargetID()), action) for action in actions)

@@ -1,5 +1,5 @@
+from __future__ import absolute_import
 from collections import namedtuple, defaultdict
-from itertools import izip
 import BigWorld, Event
 from constants import REQUEST_COOLDOWN
 from gui.battle_control.avatar_getter import getSoundNotifications
@@ -148,7 +148,8 @@ class BaseRespawnsController(ViewComponentsController):
 
     def updateRespawnVehicles(self, vehsList):
         self.__vehicles = {}
-        battleAbilities = {vehTypeCompDescr: compDescrList for vehTypeCompDescr, compDescrList in izip(BigWorld.player().ammoViews[b'vehTypeCompDescrs'], BigWorld.player().ammoViews[b'compDescrs'])}
+        player = BigWorld.player()
+        battleAbilities = dict(zip(player.ammoViews[b'vehTypeCompDescrs'], player.ammoViews[b'compDescrs']))
         for v in vehsList:
             descr = vehicles.getVehicleType(v[b'compDescr'])
             self.__vehicles[descr.compactDescr] = _Vehicle(descr.compactDescr, v[b'compDescr'], battleAbilities.get(descr.compactDescr, ()), v[b'crewCompactDescrs'], v[b'customRoleSlotTypeId'], v[b'settings'], v[b'vehPostProgression'], v[b'vehSetups'], unpackVehSetupsIndexes(list(v[b'vehSetupsIndexes'])), v[b'vehDisabledSetupSwitches'])

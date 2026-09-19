@@ -1,4 +1,5 @@
-import os, sys, typing, BigWorld, constants
+from __future__ import absolute_import
+import sys, typing, BigWorld, constants
 from helpers import ExitCode
 from persistent_data_cache import configs
 from persistent_data_cache import fault_tolerance
@@ -90,4 +91,4 @@ def fini():
     return
 
 
-__all__ = [25, 26, 27, 28, 29, 30]
+__all__ = [26, 27, 28, 29, 30, 31]

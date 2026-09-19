@@ -97,7 +97,7 @@ class PbhSequenceHandler(BasePbhSubSystem):
                 if layerName not in EXCLUDED_LAYERS:
                     sequenceLayers[layerName] = sequenceCMP.getDurationByLayerName(layerName)
 
-            sortedSequenceLayers = OrderedDict(sorted(iteritems(sequenceLayers), key=(lambda item: item[1]), reverse=True))
+            sortedSequenceLayers = OrderedDict(sorted(iteritems(sequenceLayers), key=(lambda item: item[1])))
             _logger.info(b'[PBH] Prefab sequence layers: %s', sortedSequenceLayers)
             currentTimeLeft = timeUntilEndOfPeriod()
             _logger.info(b'[PBH] Time left before current period ends: %f seconds', currentTimeLeft)

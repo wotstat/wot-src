@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from shared_utils import CONST_CONTAINER
 VERSION = b'VERSION'
 POST_PROCESSING_QUALITY = b'POST_PROCESSING_QUALITY'

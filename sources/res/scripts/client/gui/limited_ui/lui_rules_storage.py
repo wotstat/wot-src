@@ -1,6 +1,7 @@
 import logging
 from collections import namedtuple, defaultdict
 from enumerations import Enumeration, EnumItem
+from future.utils import listitems
 import typing, BigWorld
 from account_helpers import AccountSettings
 from expressions import parseExpression
@@ -21,7 +22,6 @@ class LuiRuleTypes(CONST_CONTAINER):
 
 
 LUI_RULES = Enumeration(b'Limited UI rules', [
- 14, 
  15, 
  16, 
  17, 
@@ -56,7 +56,8 @@ LUI_RULES = Enumeration(b'Limited UI rules', [
  46, 
  47, 
  48, 
- 49])
+ 49, 
+ 50])
 _POSTPONED_RULES_DELAY = 5.0
 _SERVER_SETTINGS_BLOCK_BITS = 32
 
@@ -153,7 +154,7 @@ class _LimitedUIRules(object):
             return
         else:
             serverRules = defaultdict(list)
-            for ruleType, ruleIDs in self.__postponedCompletedRules.items():
+            for ruleType, ruleIDs in listitems(self.__postponedCompletedRules):
                 if ruleType == LuiRuleTypes.VERSIONED:
                     AccountSettings.completeVersionedRules([ruleID.name() for ruleID in ruleIDs])
                     del self.__postponedCompletedRules[ruleType]

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import typing
 if typing.TYPE_CHECKING:
     from typing import Optional
@@ -176,10 +177,6 @@ class IVOIPChatController(object):
         return
 
     def isVivox(self):
-        raise NotImplementedError
-        return
-
-    def isYY(self):
         raise NotImplementedError
         return
 

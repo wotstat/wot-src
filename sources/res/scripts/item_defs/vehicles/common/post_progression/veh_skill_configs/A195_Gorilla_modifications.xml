@@ -296,7 +296,7 @@
 			<mul>
 				<name>dynAttrs/multShotDispersionFactor</name>
 				<value>0.95</value>
-				<filter>siege</filter>
+				<filter>lowChargeShot</filter>
 			</mul>
 		</modifiers>
 		<kpi>

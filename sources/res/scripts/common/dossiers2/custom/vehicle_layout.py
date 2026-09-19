@@ -1,16 +1,11 @@
 from __future__ import absolute_import
 from dossiers2.common.DossierBlockBuilders import *
+from dossiers2.common.DossierBlockBuilders import BinarySetDossierBlockBuilder, DictBlockBuilder, ListBlockBuilder, StaticSizeBlockBuilder
 from dossiers2.custom.battle_statistics_layouts import *
-from dossiers2.custom.dependencies import ACHIEVEMENT15X15_DEPENDENCIES
-from dossiers2.custom.dependencies import ACHIEVEMENT7X7_DEPENDENCIES
-from dossiers2.custom.dependencies import FALLOUT_STATS_DEPENDENCIES
-from dossiers2.custom.dependencies import FORT_ACHIEVEMENTS_DEPENDENCIES
-from dossiers2.custom.dependencies import GLOBAL_MAP_STATS_DEPENDENCIES
-from dossiers2.custom.dependencies import RANKED_STATS_DEPENDENCIES
-from dossiers2.custom.dependencies import A30X30_STATS_DEPENDENCIES
-from dossiers2.custom.dependencies import EPIC_BATTLE_STATS_DEPENDENCIES
+from dossiers2.custom.battle_statistics_layouts import A7X7_BLOCK_LAYOUT, A7X7_STATS_DEPENDENCIES, A15X15_2_BLOCK_LAYOUT, A15X15_BLOCK_LAYOUT, A15X15_STATS_DEPENDENCIES, A30X30_BLOCK_LAYOUT, CLAN2_BLOCK_LAYOUT, CLAN_BLOCK_LAYOUT, CLAN_STATS_DEPENDENCIES, COMP7_BLOCK_LAYOUT, COMPANY2_BLOCK_LAYOUT, COMPANY_BLOCK_LAYOUT, EPIC_BATTLE_VEHICLE_BLOCK_LAYOUT, FALLOUT_VEHICLE_BLOCK_LAYOUT, FORT_BATTLES_STATS_DEPENDENCIES, FORT_BLOCK_LAYOUT, FORT_SORTIES_STATS_DEPENDENCIES, GLOBAL_MAP_BLOCK_LAYOUT, HISTORICAL_BLOCK_LAYOUT, HISTORICAL_STATS_DEPENDENCIES, MAX_BLOCK_LAYOUT, MAX_COMP7_BLOCK_LAYOUT, MAX_FALLOUT_BLOCK_LAYOUT, RANKED_BLOCK_LAYOUT, RATED_7X7_BLOCK_LAYOUT, VEH_TYPE_FRAGS_DEPENDENCIES, MAX_15x15_BLOCK_LAYOUT
+from dossiers2.custom.dependencies import A30X30_STATS_DEPENDENCIES, ACHIEVEMENT7X7_DEPENDENCIES, ACHIEVEMENT15X15_DEPENDENCIES, EPIC_BATTLE_STATS_DEPENDENCIES, FALLOUT_STATS_DEPENDENCIES, FORT_ACHIEVEMENTS_DEPENDENCIES, GLOBAL_MAP_STATS_DEPENDENCIES, RANKED_STATS_DEPENDENCIES
 TOTAL_BLOCK_LAYOUT = [
- 11, 12, 13, 14, 15]
+ 6, 7, 8, 9, 10]
 _totalBlockBuilder = StaticSizeBlockBuilder(b'total', TOTAL_BLOCK_LAYOUT, {}, [])
 _a15x15BlockBuilder = StaticSizeBlockBuilder(b'a15x15', A15X15_BLOCK_LAYOUT, A15X15_STATS_DEPENDENCIES, [])
 _a15x15_2BlockBuilder = StaticSizeBlockBuilder(b'a15x15_2', A15X15_2_BLOCK_LAYOUT, {}, [])
@@ -64,6 +59,11 @@ _maxRankedSeason1BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason1', MAX_
 _maxRankedSeason2BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason2', MAX_BLOCK_LAYOUT, {}, _maxPopUps)
 _maxRankedSeason3BlockBuilder = StaticSizeBlockBuilder(b'maxRankedSeason3', MAX_BLOCK_LAYOUT, {}, _maxPopUps)
 _ACHIEVEMENTS15X15_BLOCK_LAYOUT = [
+ 69, 
+ 70, 
+ 71, 
+ 72, 
+ 73, 
  74, 
  75, 
  76, 
@@ -148,13 +148,13 @@ _ACHIEVEMENTS15X15_BLOCK_LAYOUT = [
  155, 
  156, 
  157, 
- 158, 
+ 158]
+_achievements15x15PopUps = [
  159, 
  160, 
  161, 
  162, 
- 163]
-_achievements15x15PopUps = [
+ 163, 
  164, 
  165, 
  166, 
@@ -166,50 +166,46 @@ _achievements15x15PopUps = [
  172, 
  173, 
  174, 
- 175, 
- 176, 
- 177, 
- 178, 
- 179, 
- 139, 
- 142, 
- 180, 
+ 134, 
+ 137, 
+ 145, 
+ 147, 
+ 148, 
+ 149, 
+ 150, 
+ 151, 
+ 152, 
  153, 
- 154, 
- 155, 
- 156, 
- 157, 
- 158, 
- 159]
+ 154]
 _achievements15x15BlockBuilder = StaticSizeBlockBuilder(b'achievements', _ACHIEVEMENTS15X15_BLOCK_LAYOUT, ACHIEVEMENT15X15_DEPENDENCIES, _achievements15x15PopUps)
 ACHIEVEMENTS7X7_BLOCK_LAYOUT = [
- 182, 183, 184, 
- 185, 186, 187, 
- 188, 
- 189, 190, 191, 192, 
- 193, 
- 194, 195, 196, 
- 197, 198, 199, 200, 
- 201, 202, 203, 204, 205, 
- 206, 
+ 176, 177, 178, 
+ 179, 180, 181, 
+ 182, 
+ 183, 184, 185, 186, 
+ 187, 
+ 188, 189, 190, 
+ 191, 192, 193, 194, 
+ 195, 196, 197, 198, 199, 
+ 200, 
+ 201, 
+ 202, 203, 204, 205, 206, 
  207, 
- 208, 209, 210, 211, 212, 
- 213, 
- 214, 215, 216, 217, 
- 218, 
- 219]
+ 208, 209, 210, 211, 
+ 212, 
+ 213]
 _achievements7x7BlockBuilder = StaticSizeBlockBuilder(b'achievements7x7', ACHIEVEMENTS7X7_BLOCK_LAYOUT, ACHIEVEMENT7X7_DEPENDENCIES, [])
 UNIQUE_VEH_ACHIEVEMENT_VALUES = []
 _uniqueVehAchievementPopUps = []
 _uniqueVehAchievementBlockBuilder = BinarySetDossierBlockBuilder(b'uniqueAchievements', UNIQUE_VEH_ACHIEVEMENT_VALUES, {}, _uniqueVehAchievementPopUps)
 _SINGLE_ACHIEVEMENTS_VALUES = [
- 222, 223, 224, 225, 
- 226, 227, 228]
-_singleAchievementsPopUps = [222, 223, 224, 225, 
- 226, 227, 228]
+ 216, 217, 218, 219, 
+ 220, 221, 222]
+_singleAchievementsPopUps = [216, 217, 218, 219, 
+ 220, 221, 222]
 _singleAchievementsBlockBuilder = BinarySetDossierBlockBuilder(b'singleAchievements', _SINGLE_ACHIEVEMENTS_VALUES, {}, _singleAchievementsPopUps)
 FORT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 230, 231, 232, 233, 234, 235]
+ 224, 225, 226, 227, 228, 229]
 _fortPersonalAchievementsPopUps = [
  b'soldierOfFortune']
 _fortPersonalAchievementsBlockBuilder = StaticSizeBlockBuilder(b'fortAchievements', FORT_ACHIEVEMENTS_BLOCK_LAYOUT, FORT_ACHIEVEMENTS_DEPENDENCIES, _fortPersonalAchievementsPopUps)
@@ -217,16 +213,16 @@ CLAN_ACHIEVEMENTS_BLOCK_LAYOUT = [
  b'medalRotmistrov']
 _clanAchievementsBlockBuilder = StaticSizeBlockBuilder(b'clanAchievements', CLAN_ACHIEVEMENTS_BLOCK_LAYOUT, {}, [])
 FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 239, 240, 241, 242, 
- 243, 244, 245, 246, 247, 248, 
- 249, 250]
+ 233, 234, 235, 236, 
+ 237, 238, 239, 240, 241, 242, 
+ 243, 244]
 _falloutAchievementsPopUps = [b'falloutDieHard']
 _falloutAchievementsBlockBuilder = StaticSizeBlockBuilder(b'falloutAchievements', FALLOUT_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _falloutAchievementsPopUps)
 EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT = [
- 252, 253, 254, 255, 
- 256]
-_epicBattleAchievementsPopUps = [252, 253, 254, 255, 
- 256]
+ 246, 247, 248, 249, 
+ 250]
+_epicBattleAchievementsPopUps = [246, 247, 248, 249, 
+ 250]
 _epicBattleAchievementsBlockBuilder = StaticSizeBlockBuilder(b'epicBattleAchievements', EPIC_BATTLE_ACHIEVEMENTS_BLOCK_LAYOUT, {}, _epicBattleAchievementsPopUps)
 _playerInscriptionsBlockBuilder = ListBlockBuilder(b'inscriptions', b'H', {})
 _playerEmblemsBlockBuilder = ListBlockBuilder(b'emblems', b'H', {})

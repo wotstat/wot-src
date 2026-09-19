@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from account_helpers import AccountSettings
 from account_helpers.AccountSettings import COMP7_PREBATTLE_CAROUSEL_ROW_VALUE
 from comp7_core.gui.Scaleform.daapi.view.battle.common import getSavedRowCountValue, rowValueToRowCount, rowCountToRowValue
@@ -47,7 +48,7 @@ class Comp7TankCarouselFilterPopover(TankCarouselFilterPopover):
         dataVO[b'searchSectionVisible'] = True
         dataVO[b'progressionsSectionVisible'] = False
         dataVO[b'additionalInfo'] = text_styles.stats(backport.text(R.strings.comp7_ext.battleCarousel.filterPopover.desc()))
-        vehicleLevels = self._carousel.getCustomParams().get(b'vehicleLevelsFilter', list())
+        vehicleLevels = self._carousel.getCustomParams().get(b'vehicleLevelsFilter', [])
         if self._carousel is not None and not len(vehicleLevels) > 1:
             dataVO[b'tankTierSectionVisible'] = False
         return dataVO
@@ -56,7 +57,7 @@ class Comp7TankCarouselFilterPopover(TankCarouselFilterPopover):
         mapping = super(Comp7TankCarouselFilterPopover, self)._generateMapping(hasRented, hasEvent, hasRoles, hasCustomization, **kwargs)
         mapping[FILTER_POPOVER_SECTION.SPECIALS] = [
          b'rented', b'favorite']
-        vehicleLevels = kwargs.get(b'vehicleLevelsFilter', list())
+        vehicleLevels = kwargs.get(b'vehicleLevelsFilter', [])
         if len(vehicleLevels) > 1:
             mapping[FILTER_POPOVER_SECTION.LEVELS] = [(b'level_{}').format(lvl) for lvl in vehicleLevels]
         else:

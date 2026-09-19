@@ -689,6 +689,11 @@ package net.wg.mock
       public function handleInput(param1:InputEvent) : void
       {
       }
+      
+      public function get empty() : Boolean
+      {
+         return false;
+      }
    }
 }
 

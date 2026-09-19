@@ -1,9 +1,15 @@
-import logging, BigWorld, Event, Settings, SoundGroups, VOIPCommon
+from __future__ import absolute_import
+import logging
+from builtins import range
+from future.utils import viewitems
+import BigWorld, Event, Settings, SoundGroups
+from VOIP import VOIPCommon
 from VOIP.voip_constants import VOIP_SUPPORTED_API
-from VOIPFsm import VOIPFsm, VOIP_FSM_STATE as STATE
-from VOIPHandler import VOIPHandler
+from VOIP.VOIPFsm import VOIPFsm, VOIP_FSM_STATE as STATE
+from VOIP.VOIPHandler import VOIPHandler
 from constants import CLIENT_INACTIVITY_TIMEOUT, ARENA_GUI_TYPE
 from gui.shared.utils import backoff
+from math_common import round_py2_style_int
 from messenger.m_constants import PROTO_TYPE
 from messenger.m_constants import USER_ACTION_ID, USER_TAG
 from messenger.proto import proto_getter
@@ -13,6 +19,8 @@ from messenger.storage import MessengerStorageDescriptor, UsersStorage
 from helpers import dependency
 from skeletons.account_helpers.settings_core import ISettingsCore
 from account_helpers.settings_core.settings_constants import SOUND
+from gui.shared.utils import getPlayerDatabaseID
+from messenger_common_chat2 import VOIP_CREDS_MODE_CHANNEL_REFRESH
 _logger = logging.getLogger(__name__)
 _logger.addHandler(logging.NullHandler())
 _logger.setLevel(logging.DEBUG)
@@ -34,8 +42,18 @@ class VOIPManager(VOIPHandler):
         self.__voipServer = b''
         self.__voipDomain = b''
         self.__testDomain = b''
+        self.__livekitServer = b''
+        self.__desiredIsLiveKit = False
         self.__user = [
          b'', b'']
+        self.__awaitingTestCredentials = False
+        self.__awaitingChannelToken = False
+        self.__channelTokenTimeoutID = None
+        self.__channelTokenRetried = False
+        self.__listenerTestToken = b''
+        self.__echoTestPublisherHandled = False
+        self.__livekitOpusMaxBitrate = None
+        self.__livekitOpusRed = None
         self.__channel = [
          b'', b'']
         self.__currentChannel = b''
@@ -55,6 +73,7 @@ class VOIPManager(VOIPHandler):
         self.__channelUsers = {}
         self.__eventManager = em = Event.EventManager()
         self.onCaptureDevicesUpdated = Event.Event(em)
+        self.onCaptureDeviceSet = Event.Event(em)
         self.onPlayerSpeaking = Event.Event(em)
         self.onInitialized = Event.Event(em)
         self.onFailedToConnect = Event.Event(em)
@@ -74,10 +93,13 @@ class VOIPManager(VOIPHandler):
         return
 
     def destroy(self):
+        self.__cancelChannelTokenTimeout()
+        self.__awaitingChannelToken = False
         self.__fsm.onStateChanged -= self.__onStateChanged
         self.__cancelReloginCallback()
         self.__eventManager.clear()
-        BigWorld.VOIP.finalise()
+        if self.__initialized:
+            BigWorld.VOIP.finalise()
         _logger.info(b'Destroy')
         return
 
@@ -90,6 +112,9 @@ class VOIPManager(VOIPHandler):
     def isNotInitialized(self):
         return not self.__initialized and self.getState() == STATE.NONE
 
+    def isInitializing(self):
+        return self.getState() == STATE.INITIALIZING
+
     def isInTesting(self):
         return self.__inTesting
 
@@ -100,7 +125,7 @@ class VOIPManager(VOIPHandler):
         return self.__currentChannel
 
     def isVoiceSupported(self):
-        return self.getVOIPDomain() != b'' and self.isInitialized()
+        return (self.getVOIPDomain() != b'' or self.__livekitServer != b'' and self.isLiveKit()) and self.isInitialized()
 
     def isChannelAvailable(self):
         if self.bwProto.voipProvider.getChannelParams()[0]:
@@ -150,6 +175,7 @@ class VOIPManager(VOIPHandler):
         voipEvents.onChannelAvailable += self.__me_onChannelAvailable
         voipEvents.onChannelLost += self.__me_onChannelLost
         voipEvents.onCredentialReceived += self.__me_onCredentialReceived
+        voipEvents.onCredentialFailed += self.__me_onCredentialFailed
         usersEvents = g_messengerEvents.users
         usersEvents.onUsersListReceived += self.__me_onUsersListReceived
         usersEvents.onUserActionReceived += self.__me_onUserActionReceived
@@ -161,6 +187,7 @@ class VOIPManager(VOIPHandler):
         voipEvents.onChannelAvailable -= self.__me_onChannelAvailable
         voipEvents.onChannelLost -= self.__me_onChannelLost
         voipEvents.onCredentialReceived -= self.__me_onCredentialReceived
+        voipEvents.onCredentialFailed -= self.__me_onCredentialFailed
         usersEvents = g_messengerEvents.users
         usersEvents.onUsersListReceived -= self.__me_onUsersListReceived
         usersEvents.onUserActionReceived -= self.__me_onUserActionReceived
@@ -171,7 +198,7 @@ class VOIPManager(VOIPHandler):
             self.__enable(isInitFromPrefs)
         else:
             dbIDs = set()
-            for dbID, data in self.__channelUsers.iteritems():
+            for dbID, data in viewitems(self.__channelUsers):
                 if data[b'talking']:
                     dbIDs.add(dbID)
 
@@ -185,6 +212,8 @@ class VOIPManager(VOIPHandler):
         return
 
     def enableCurrentChannel(self, isEnabled=True, autoEnableVOIP=True):
+        if not isEnabled:
+            self.__channelTokenRetried = False
         needsEnableVOIP = isEnabled and not self.settingsCore.getSetting(SOUND.VOIP_ENABLE)
         if autoEnableVOIP and needsEnableVOIP:
             self.settingsCore.applySetting(SOUND.VOIP_ENABLE, True)
@@ -221,43 +250,69 @@ class VOIPManager(VOIPHandler):
         self.__enabled = False
         return
 
-    def initialize(self, domain, server):
+    def initialize(self, domain, server, livekitServer):
         if self.__initialized:
             _logger.warning(b'VOIPManager is already initialized')
             return
         _logger.info(b'Initialize')
         self.__voipServer = server
         self.__voipDomain = domain
-        self.__testDomain = b'sip:confctl-2@' + self.__voipDomain
+        self.__livekitServer = livekitServer
+        self.__desiredIsLiveKit = bool(livekitServer)
+        if livekitServer:
+            self.__testDomain = b'lk_echo_test_%s' % getPlayerDatabaseID()
+        else:
+            self.__testDomain = b'sip:confctl-2@' + self.__voipDomain
         _logger.debug(b"voip_server: '%s'", self.__voipServer)
         _logger.debug(b"voip_domain: '%s'", self.__voipDomain)
         _logger.debug(b"test_domain: '%s'", self.__testDomain)
-        self.__fsm.update(self)
+        _logger.debug(b"livekit_server: '%s'", self.__livekitServer)
+        self.__fsm.start()
         logLevel = 0
         section = Settings.g_instance.userPrefs
         if section.has_key(b'development'):
             section = section[b'development']
             if section.has_key(b'vivoxLogLevel'):
                 logLevel = section[b'vivoxLogLevel'].asInt
-        vinit = {(VOIPCommon.KEY_SERVER): (b'http://%s/api2' % self.__voipServer), (VOIPCommon.KEY_MIN_PORT): b'0', 
-           (VOIPCommon.KEY_MAX_PORT): b'0', 
-           (VOIPCommon.KEY_LOG_PREFIX): b'voip', 
-           (VOIPCommon.KEY_LOG_SUFFIX): b'.txt', 
-           (VOIPCommon.KEY_LOG_FOLDER): b'.', 
-           (VOIPCommon.KEY_LOG_LEVEL): (str(logLevel))}
-        BigWorld.VOIP.initialise(vinit)
+        if self.__livekitServer != b'':
+            serverSettings = getattr(BigWorld.player(), b'serverSettings', {})
+            self.__livekitOpusMaxBitrate = serverSettings.get(VOIPCommon.KEY_SERVER_SETTINGS_LIVEKIT_OPUS_MAX_BITRATE)
+            self.__livekitOpusRed = serverSettings.get(VOIPCommon.KEY_SERVER_SETTINGS_LIVEKIT_OPUS_RED)
+            vinit = {(VOIPCommon.KEY_LIVEKIT_SAMPLE_RATE): (serverSettings.get(VOIPCommon.KEY_SERVER_SETTINGS_LIVEKIT_SAMPLE_RATE, b'')), 
+               (VOIPCommon.KEY_LIVEKIT_CHANNELS): (serverSettings.get(VOIPCommon.KEY_SERVER_SETTINGS_LIVEKIT_CHANNELS, b''))}
+            initialised = BigWorld.VOIP.initialise(vinit, BigWorld.VOIPBackend.LIVEKIT)
+            if initialised is False:
+                _logger.error(b'BigWorld.VOIP.initialise refused to re-initialise the LiveKit backend (returned False); voice will be unavailable this session')
+        else:
+            vinit = {(VOIPCommon.KEY_SERVER): (b'http://%s/api2' % self.__voipServer), (VOIPCommon.KEY_MIN_PORT): b'0', 
+               (VOIPCommon.KEY_MAX_PORT): b'0', 
+               (VOIPCommon.KEY_LOG_PREFIX): b'voip', 
+               (VOIPCommon.KEY_LOG_SUFFIX): b'.txt', 
+               (VOIPCommon.KEY_LOG_FOLDER): b'.', 
+               (VOIPCommon.KEY_LOG_LEVEL): (str(logLevel))}
+            BigWorld.VOIP.initialise(vinit, BigWorld.VOIPBackend.VIVOX)
+        BigWorld.VOIP.setHandler(self)
         return
 
     def __login(self, name, password):
         if not self.__initialized:
             self.__needLogginAfterInit = True
-        self.__user = [name, password]
+        if self.isLiveKit():
+            self.__user = [
+             self.__getPlayerName(b''), password]
+        else:
+            self.__user = [
+             name, password]
         if not self.__needLogginAfterInit:
             self.__fsm.update(self)
         return
 
     def __loginUser(self):
         _logger.info(b'Login Request: %s', self.__user[0])
+        if self.isLiveKit():
+            loginConfig = {(VOIPCommon.KEY_LIVEKIT_SERVER_URL): (self.__livekitServer), (VOIPCommon.KEY_LIVEKIT_SELF_IDENTITY): (str(getPlayerDatabaseID()))}
+            BigWorld.VOIP.login(self.__user[0], b'', loginConfig)
+            return
         cmd = {(VOIPCommon.KEY_PARTICIPANT_PROPERTY_FREQUENCY): b'100'}
         BigWorld.VOIP.login(self.__user[0], self.__user[1], cmd)
         return
@@ -281,21 +336,38 @@ class VOIPManager(VOIPHandler):
         return
 
     def __setReloginCallback(self):
-        delay = self.__expBackOff.next()
+        delay = self.__expBackOff.nextDelay()
         _logger.info(b'__setReloginCallback. Next attempt after %d seconds', delay)
         self.__reLoginCallbackID = BigWorld.callback(delay, self.__loginUserOnCallback)
         return
 
     def logout(self):
         _logger.info(b'Logout')
+        self.__cancelChannelTokenTimeout()
+        self.__awaitingChannelToken = False
+        self.__channelTokenRetried = False
         self.__clearUser()
         self.__clearDesiredChannel()
         self.__fsm.update(self)
+        if self.__desiredIsLiveKit:
+            self.finalise()
+        return
+
+    def finalise(self):
+        _logger.info(b'Finalise')
+        self.__cancelChannelTokenTimeout()
+        self.__awaitingChannelToken = False
+        self.__channelTokenRetried = False
+        if self.__initialized:
+            BigWorld.VOIP.finalise()
+        self.__initialized = False
+        self.__fsm.reset()
         return
 
     def __setAvailableChannel(self, channel, password):
+        self.__channelTokenRetried = False
         if not self.__initialized and self.__fsm.inNoneState():
-            self.initialize(self.__voipDomain, self.__voipServer)
+            self.initialize(self.__voipDomain, self.__voipServer, self.__livekitServer)
         if not self.__user[0] and self.isEnabled():
             self.__requestCredentials()
         _logger.info(b'ReceivedAvailableChannel: %s', channel)
@@ -316,12 +388,21 @@ class VOIPManager(VOIPHandler):
                 isEnabled = self.__isAutoJoinChannel()
             self.enableCurrentChannel(isEnabled=isEnabled, autoEnableVOIP=False)
         else:
-            _logger.warn(b'__evaluateAutoJoinChannel: cant use newChannel: %r. id: %r, newId: %r', newChannel, channelID, newChannelID)
+            _logger.warning(b'__evaluateAutoJoinChannel: cant use newChannel: %r. id: %r, newId: %r', newChannel, channelID, newChannelID)
         return
 
     def __joinChannel(self, channel, password):
         _logger.info(b"JoinChannel '%s'", channel)
-        BigWorld.VOIP.joinChannel(channel, password)
+        extraData = {}
+        if self.isLiveKit():
+            if self.__livekitOpusMaxBitrate is not None:
+                extraData[VOIPCommon.KEY_LIVEKIT_OPUS_MAX_BITRATE] = self.__livekitOpusMaxBitrate
+            if self.__livekitOpusRed is not None:
+                extraData[VOIPCommon.KEY_LIVEKIT_OPUS_RED] = self.__livekitOpusRed
+            _logger.info(b'Join LiveKit channel with extra data: %s', extraData)
+            extraData[VOIPCommon.KEY_LIVEKIT_TOKEN] = password
+            password = b''
+        BigWorld.VOIP.joinChannel(channel, password, extraData)
         return
 
     def __leaveChannel(self):
@@ -335,8 +416,16 @@ class VOIPManager(VOIPHandler):
     def enterTestChannel(self):
         if self.__inTesting:
             return
+        if self.__awaitingChannelToken:
+            _logger.info(b'EnterTestChannel refused: channel-token refresh in progress')
+            return
         _logger.info(b'EnterTestChannel: %s', self.__testDomain)
         self.__inTesting = True
+        self.__echoTestPublisherHandled = False
+        if self.isLiveKit():
+            self.__awaitingTestCredentials = True
+            self.__requestCredentials()
+            return
         self.__setAvailableChannel(self.__testDomain, b'')
         return
 
@@ -345,6 +434,9 @@ class VOIPManager(VOIPHandler):
             return
         _logger.info(b'LeaveTestChannel')
         self.__inTesting = False
+        self.__echoTestPublisherHandled = False
+        self.__awaitingTestCredentials = False
+        self.__listenerTestToken = b''
         params = self.bwProto.voipProvider.getChannelParams()
         if params[0]:
             self.__setAvailableChannel(*params)
@@ -361,8 +453,8 @@ class VOIPManager(VOIPHandler):
         return
 
     def __setVolume(self):
-        self.setMasterVolume(int(round(SoundGroups.g_instance.getVolume(VOIPCommon.KEY_VOIP_MASTER) * 100)))
-        self.setMicrophoneVolume(int(round(SoundGroups.g_instance.getVolume(VOIPCommon.KEY_VOIP_MIC) * 100)))
+        self.setMasterVolume(round_py2_style_int(SoundGroups.g_instance.getVolume(VOIPCommon.KEY_VOIP_MASTER) * 100))
+        self.setMicrophoneVolume(round_py2_style_int(SoundGroups.g_instance.getVolume(VOIPCommon.KEY_VOIP_MIC) * 100))
         return
 
     def __muffleMasterVolume(self):
@@ -390,9 +482,13 @@ class VOIPManager(VOIPHandler):
     def __setMicMute(self, muted):
         _logger.debug(b'SetMicMute: %s', str(muted))
         if muted:
+            if self.isLiveKit():
+                BigWorld.VOIP.command({(VOIPCommon.KEY_COMMAND): (VOIPCommon.CMD_LIVEKIT_STOP_TALK)})
             BigWorld.VOIP.disableMicrophone()
         else:
             BigWorld.VOIP.enableMicrophone()
+            if self.isLiveKit():
+                BigWorld.VOIP.command({(VOIPCommon.KEY_COMMAND): (VOIPCommon.CMD_LIVEKIT_START_TALK)})
         return
 
     def requestCaptureDevices(self):
@@ -414,12 +510,38 @@ class VOIPManager(VOIPHandler):
         self.bwProto.voipProvider.requestCredentials(reset)
         return
 
+    def __requestChannelToken(self):
+        _logger.info(b'RequestChannelToken (LiveKit stale-token rejoin)')
+        self.__awaitingChannelToken = True
+        self.__armChannelTokenTimeout()
+        self.bwProto.voipProvider.requestCredentials(reset=1, mode=VOIP_CREDS_MODE_CHANNEL_REFRESH)
+        return
+
+    def __armChannelTokenTimeout(self):
+        self.__cancelChannelTokenTimeout()
+        self.__channelTokenTimeoutID = BigWorld.callback(5.0, self.__onChannelTokenTimeout)
+        return
+
+    def __cancelChannelTokenTimeout(self):
+        if self.__channelTokenTimeoutID is not None:
+            BigWorld.cancelCallback(self.__channelTokenTimeoutID)
+            self.__channelTokenTimeoutID = None
+        return
+
+    def __onChannelTokenTimeout(self):
+        self.__channelTokenTimeoutID = None
+        _logger.warning(b'Channel token refresh timed out; stale-token rejoin aborted')
+        self.__awaitingChannelToken = False
+        self.__channelTokenRetried = False
+        return
+
     def __clearDesiredChannel(self):
         self.__channel = [b'', b'']
         return
 
     def __clearUser(self):
         self.__user = [b'', b'']
+        self.__awaitingTestCredentials = False
         return
 
     def __onChatActionMute(self, dbid, muted):
@@ -432,9 +554,12 @@ class VOIPManager(VOIPHandler):
         _logger.debug(b'MuteParticipantForMe: %d, %s', dbid, str(mute))
         self.__channelUsers[dbid][b'muted'] = mute
         uri = self.__channelUsers[dbid][b'uri']
-        cmd = {(VOIPCommon.KEY_COMMAND): (VOIPCommon.CMD_SET_PARTICIPANT_MUTE), 
-           (VOIPCommon.KEY_PARTICIPANT_URI): uri, 
-           (VOIPCommon.KEY_STATE): (str(mute))}
+        if self.isLiveKit():
+            cmd = {(VOIPCommon.KEY_COMMAND): (VOIPCommon.CMD_MUTE_PARTICIPANT if mute else VOIPCommon.CMD_UNMUTE_PARTICIPANT), 
+               (VOIPCommon.KEY_PARTICIPANT_URI): uri}
+        else:
+            cmd = {(VOIPCommon.KEY_COMMAND): (VOIPCommon.CMD_SET_PARTICIPANT_MUTE), (VOIPCommon.KEY_PARTICIPANT_URI): uri, 
+               (VOIPCommon.KEY_STATE): (str(mute))}
         BigWorld.VOIP.command(cmd)
         return True
 
@@ -446,6 +571,13 @@ class VOIPManager(VOIPHandler):
         return False
 
     def __extractDBIDFromURI(self, uri):
+        if self.isLiveKit():
+            try:
+                return (
+                 int(uri), uri)
+            except (TypeError, ValueError):
+                return (-1, b'')
+
         try:
             domain = self.__voipDomain
             login = uri.partition(b'sip:')[2].rpartition(b'@' + domain)[0]
@@ -463,10 +595,27 @@ class VOIPManager(VOIPHandler):
         self.__fsm.update(self)
         return
 
+    @staticmethod
+    def __getPlayerName(defaultName):
+        try:
+            player = BigWorld.player()
+            if player is None:
+                return defaultName
+            playerName = getattr(player, b'name', None)
+            if playerName is None:
+                return defaultName
+            return playerName
+        except (AttributeError, TypeError):
+            return defaultName
+        except Exception:
+            return defaultName
+
+        return
+
     def __resetToInitializedState(self):
-        _logger.debug(b'resetToInitializesState')
+        _logger.debug(b'resetToInitializedState')
         if self.__currentChannel != b'':
-            for dbid in self.__channelUsers.iterkeys():
+            for dbid in self.__channelUsers:
                 self.onPlayerSpeaking(dbid, False)
 
             self.__channelUsers.clear()
@@ -475,9 +624,15 @@ class VOIPManager(VOIPHandler):
         if self.__needLogginAfterInit:
             self.__fsm.update(self)
             self.__needLogginAfterInit = False
+            if self.__fsm.getState() != STATE.INITIALIZED:
+                return
+        if self.isLiveKit():
+            self.__user = [
+             self.__getPlayerName(b''), b'']
+        self.__fsm.update(self)
         return
 
-    def __onStateChanged(self, _, newState):
+    def __onStateChanged(self, oldState, newState):
         if newState == STATE.INITIALIZED:
             self.__resetToInitializedState()
         elif newState == STATE.LOGGING_IN:
@@ -511,6 +666,7 @@ class VOIPManager(VOIPHandler):
             _logger.info(b'---------------------------')
             _logger.info(b"ERROR: '%d' - '%s'", int(data[VOIPCommon.KEY_STATUS_CODE]), data[VOIPCommon.KEY_STATUS_STRING])
             _logger.info(b'---------------------------')
+            self.onFailedToConnect()
         return
 
     def onVoipDestroyed(self, data):
@@ -520,13 +676,35 @@ class VOIPManager(VOIPHandler):
         return
 
     def onCaptureDevicesArrived(self, data):
+        if self.isLiveKit():
+            returnCode = int(data.get(VOIPCommon.KEY_RETURN_CODE, VOIPCommon.CODE_ERROR))
+            previousDevices = self.__captureDevices
+            previousCurrentDevice = self.__currentCaptureDevice
+            if returnCode != VOIPCommon.CODE_SUCCESS:
+                _logger.warning(b'LiveKit capture devices refresh failed. Keeping cached devices: %r', previousDevices)
+                self.__currentCaptureDevice = previousCurrentDevice
+                self.onCaptureDevicesUpdated()
+                return
+            captureDevices = []
+            captureDevicesCount = int(data.get(VOIPCommon.KEY_COUNT, 0))
+            for i in range(captureDevicesCount):
+                deviceKey = VOIPCommon.KEY_CAPTURE_DEVICES + b'_' + str(i)
+                device = data.get(deviceKey, b'')
+                if device:
+                    captureDevices.append(str(device))
+
+            self.__captureDevices = captureDevices
+            self.__captureDevicesNames = list(captureDevices)
+            self.__currentCaptureDevice = str(data.get(VOIPCommon.KEY_CURRENT_CAPTURE_DEVICE, b''))
+            self.onCaptureDevicesUpdated()
+            return
         if int(data[VOIPCommon.KEY_RETURN_CODE]) != VOIPCommon.CODE_SUCCESS:
             _logger.error(b'Capture devices are not arrived: %r', data)
             return
         captureDevicesCount = int(data[VOIPCommon.KEY_COUNT])
         self.__captureDevices = []
         self.__captureDevicesNames = []
-        for i in xrange(captureDevicesCount):
+        for i in range(captureDevicesCount):
             self.__captureDevices.append(str(data[VOIPCommon.KEY_CAPTURE_DEVICES + b'_' + str(i)]))
             self.__captureDevicesNames.append(str(data[VOIPCommon.KEY_CAPTURE_DEVICES_NAMES + b'_' + str(i)]))
 
@@ -535,8 +713,15 @@ class VOIPManager(VOIPHandler):
         return
 
     def onSetCaptureDevice(self, data):
-        if int(data[VOIPCommon.KEY_RETURN_CODE]) != VOIPCommon.CODE_SUCCESS:
-            _logger.error(b'Capture device is not set: %r', data)
+        returnCode = int(data.get(VOIPCommon.KEY_RETURN_CODE, VOIPCommon.CODE_ERROR))
+        deviceName = data.get(b'device_name', b'')
+        if returnCode == VOIPCommon.CODE_SUCCESS:
+            if deviceName:
+                self.__currentCaptureDevice = str(deviceName)
+            self.onCaptureDeviceSet(deviceName, True)
+        else:
+            self.onCaptureDeviceSet(deviceName, False)
+            self.requestCaptureDevices()
         return
 
     def onSetLocalSpeakerVolume(self, data):
@@ -587,7 +772,7 @@ class VOIPManager(VOIPHandler):
             _logger.info(b'---------------------------')
             _logger.info(b"ERROR: '%d' - '%s'", statusCode, statusString)
             _logger.info(b'---------------------------')
-            if (statusCode == VOIPCommon.STATUS_WRONG_CREDENTIALS or statusCode == VOIPCommon.STATUS_UNKNOWN_ACCOUNT) and self.__loginAttemptsRemained > 0:
+            if statusCode in (VOIPCommon.STATUS_WRONG_CREDENTIALS, VOIPCommon.STATUS_UNKNOWN_ACCOUNT) and self.__loginAttemptsRemained > 0:
                 self.__reloginUser()
             else:
                 self.onFailedToConnect()
@@ -596,13 +781,38 @@ class VOIPManager(VOIPHandler):
     def onSessionAdded(self, data):
         if int(data[VOIPCommon.KEY_RETURN_CODE]) != VOIPCommon.CODE_SUCCESS:
             _logger.error(b'Session is not added: %r', data)
+            if self.isLiveKit():
+                if not self.__channelTokenRetried and not self.__inTesting and not self.__awaitingChannelToken and self.bwProto.voipProvider.getChannelParams()[0]:
+                    self.__channelTokenRetried = True
+                    self.__requestChannelToken()
+                self.__clearDesiredChannel()
+                self.__fsm.update(self)
             return
         _logger.debug(b'Session added: %r', data)
+        self.__cancelChannelTokenTimeout()
+        self.__awaitingChannelToken = False
+        self.__channelTokenRetried = False
+        if self.__channelUsers:
+            _logger.warning(b'[VOIP] onSessionAdded: participant cache already contains %d users', len(self.__channelUsers))
         currentChannel = self.__currentChannel = data[VOIPCommon.KEY_URI]
         self.__setVolume()
         self.__fsm.update(self)
         isTestChannel = currentChannel == self.__testDomain
         self.onJoinedChannel(currentChannel, isTestChannel, self.__isChannelRejoin and not isTestChannel)
+        if self.isLiveKit():
+            if isTestChannel:
+                if not self.__echoTestPublisherHandled:
+                    self.__echoTestPublisherHandled = True
+                    self.setMicMute(False)
+                    if self.__listenerTestToken:
+                        listenerToken = self.__listenerTestToken
+                        self.__listenerTestToken = b''
+                        extraData = {(VOIPCommon.KEY_LIVEKIT_TOKEN): listenerToken, 
+                           (VOIPCommon.KEY_LIVEKIT_AUTO_PUBLISH): b'false'}
+                        _logger.info(b'Echo test: joining listener on %s', self.__testDomain)
+                        BigWorld.VOIP.joinChannel(self.__testDomain, b'', extraData)
+            elif self.__activateMicByVoice:
+                self.setMicMute(False)
         return
 
     def onSessionRemoved(self, data):
@@ -610,7 +820,7 @@ class VOIPManager(VOIPHandler):
             _logger.error(b'Session is not removed: %r', data)
             return
         _logger.debug(b'Session removed: %r', data)
-        for dbid in self.__channelUsers.iterkeys():
+        for dbid in self.__channelUsers:
             self.onPlayerSpeaking(dbid, False)
 
         self.__channelUsers.clear()
@@ -641,7 +851,12 @@ class VOIPManager(VOIPHandler):
         dbid, _ = self.__extractDBIDFromURI(uri)
         if dbid == -1:
             return
-        self.__channelUsers[dbid] = {b'talking': False, b'uri': uri, b'muted': False}
+        isNewUser = dbid not in self.__channelUsers
+        if isNewUser:
+            self.__channelUsers[dbid] = {b'talking': False, b'uri': uri, b'muted': False}
+            self.onPlayerSpeaking(dbid, False)
+        else:
+            self.__channelUsers[dbid][b'uri'] = uri
         user = self.usersStorage.getUser(dbid)
         if user and user.isMuted():
             self.__muteParticipantForMe(dbid, True)
@@ -653,8 +868,12 @@ class VOIPManager(VOIPHandler):
             return
         uri = data[VOIPCommon.KEY_PARTICIPANT_URI]
         dbid, _ = self.__extractDBIDFromURI(uri)
+        if dbid == -1:
+            return
         if dbid in self.__channelUsers:
             del self.__channelUsers[dbid]
+            if not self.__isAnyoneTalking():
+                self.__restoreMasterVolume()
         self.onPlayerSpeaking(dbid, False)
         return
 
@@ -671,11 +890,23 @@ class VOIPManager(VOIPHandler):
             channelUser = self.__channelUsers[dbid]
             if channelUser[b'talking'] != talking:
                 channelUser[b'talking'] = talking
+                _logger.info(b'VOIP talking-state transition: dbid=%r talking=%r anyoneTalking=%r', dbid, talking, self.__isAnyoneTalking())
                 if self.__isAnyoneTalking():
                     self.__muffleMasterVolume()
                 else:
                     self.__restoreMasterVolume()
         self.onPlayerSpeaking(dbid, talking)
+        return
+
+    def onLog(self, data):
+        message = str(data[VOIPCommon.KEY_STATUS_STRING])
+        severity = str(data[VOIPCommon.KEY_LOG_SEVERITY])
+        if severity == VOIPCommon.SEVERITY_INFO:
+            _logger.info(b'[LiveKitVOIP]: %s', message)
+        elif severity == VOIPCommon.SEVERITY_WARNING:
+            _logger.warning(b'[LiveKitVOIP]: %s', message)
+        elif severity == VOIPCommon.SEVERITY_ERROR:
+            _logger.error(b'[LiveKitVOIP]: %s', message)
         return
 
     @staticmethod
@@ -701,7 +932,31 @@ class VOIPManager(VOIPHandler):
 
     def __me_onCredentialReceived(self, name, pwd):
         _logger.debug(b'OnUserCredentials: %s', name)
+        if self.__awaitingChannelToken:
+            self.__cancelChannelTokenTimeout()
+            self.__awaitingChannelToken = False
+            currentRoom = self.bwProto.voipProvider.getChannelParams()[0]
+            if name and pwd and name == currentRoom:
+                self.__channel = [
+                 name, pwd]
+                self.applyChannelSetting(True, hash(name))
+            else:
+                self.__channelTokenRetried = False
+            return
+        if self.__awaitingTestCredentials:
+            self.__awaitingTestCredentials = False
+            pubToken, sep, listenerToken = pwd.partition(VOIPCommon.LIVEKIT_TOKEN_DELIMITER)
+            self.__listenerTestToken = listenerToken if sep else b''
+            self.__setAvailableChannel(self.__testDomain, pubToken)
+            return
         self.__login(name, pwd)
+        return
+
+    def __me_onCredentialFailed(self):
+        self.__cancelChannelTokenTimeout()
+        self.__awaitingChannelToken = False
+        self.__awaitingTestCredentials = False
+        self.__channelTokenRetried = False
         return
 
     def __me_onUsersListReceived(self, tags):
@@ -718,3 +973,6 @@ class VOIPManager(VOIPHandler):
         if actionID in (USER_ACTION_ID.MUTE_SET, USER_ACTION_ID.MUTE_UNSET):
             self.__onChatActionMute(user.getID(), user.isMuted())
         return
+
+    def isLiveKit(self):
+        return self.getAPI() == VOIP_SUPPORTED_API.LIVEKIT

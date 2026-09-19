@@ -1,35 +1,34 @@
-import abc, logging
+from __future__ import absolute_import
+import logging
 from uilogging.base.logger import FlowLogger, MetricsLogger
 from uilogging.shop.logging_constants import FEATURE
 _logger = logging.getLogger(__name__)
 
 class ShopPreviewFlowLogger(FlowLogger):
-    __metaclass__ = abc.ABCMeta
     __slots__ = ()
 
     def __init__(self):
         super(ShopPreviewFlowLogger, self).__init__(FEATURE)
         return
 
-    @abc.abstractmethod
     def logOpenPreview(self):
+        raise NotImplementedError
         return
 
 
 class ShopPreviewMetricsLogger(MetricsLogger):
-    __metaclass__ = abc.ABCMeta
     __slots__ = ()
 
     def __init__(self):
         super(ShopPreviewMetricsLogger, self).__init__(FEATURE)
         return
 
-    @abc.abstractmethod
     def onViewOpen(self, *args, **kwargs):
+        raise NotImplementedError
         return
 
-    @abc.abstractmethod
     def onViewClosed(self, *args, **kwargs):
+        raise NotImplementedError
         return
 
     def logOpenPurchaseConfirmation(self):

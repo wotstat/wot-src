@@ -11,15 +11,6 @@ def open(arg0: Any, arg1: str) -> bool: ...
 
 def pow(*args: Any, **kwargs: Any) -> Any: ...
 
-@overload
-def reload(arg0: Any) -> None: ...
-@overload
-def reload(arg0: Any, arg1: Any = ...) -> None: ...
-@overload
-def reload(arg0: Any, arg1: int = ...) -> None: ...
-@overload
-def reload(arg0: Any, arg1: str = ...) -> None: ...
-
 def repr(*args: Any, **kwargs: Any) -> Any: ...
 
 __dict__: Any
@@ -47,6 +38,7 @@ quit: Any
 range: Any
 raw_input: Any
 reduce: Any
+reload: Any
 str: Any
 unichr: Any
 unicode: Any

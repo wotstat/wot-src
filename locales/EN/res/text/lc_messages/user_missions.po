@@ -328,6 +328,9 @@ msgstr "Claim Reward"
 msgid "hub/reward_progress/win_back_quest_progress/claim_main"
 msgstr "Claim Rewards"
 
+msgid "hub/reward_progress/win_back_quest_progress/progress"
+msgstr "{{current}}{{@ style (color #ede6d998)}}/{{total}}{{/}}"
+
 msgid "hub/reward_progress/win_back_quest_progress/sub_title"
 msgstr "Every completed Standard, Premium, or Bonus Mission contributes toward your progress."
 
@@ -335,7 +338,7 @@ msgid "hub/reward_progress/win_back_quest_progress/time_left"
 msgstr "Available"
 
 msgid "hub/reward_progress/win_back_quest_progress/title"
-msgstr "Back in Action! Complete Daily Missions to earn Epic Rewards: {progres}"
+msgstr "Back in Action! Complete Daily Missions to earn Epic Rewards: {{progress}}"
 
 msgid "info_page/additional/bonus/description"
 msgstr "Once you complete three Standard Missions, a Bonus Mission becomes available, offering even more valuable rewards. The Bonus Mission must be completed by the end of the day, or it will expire."
@@ -506,7 +509,7 @@ msgid "tooltip/hub/shields/title"
 msgstr "Shields"
 
 msgid "tooltip/vehicle_restrictions"
-msgstr "Vehicle restrictions:"
+msgstr "Complete using"
 
 msgid "tooltip/weekly_mission"
 msgstr "Weekly Mission"

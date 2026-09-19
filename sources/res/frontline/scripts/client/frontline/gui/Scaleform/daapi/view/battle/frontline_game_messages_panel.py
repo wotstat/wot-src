@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import typing, BattleReplay
 from ReservesEvents import randomReservesEvents
 from gui.Scaleform.daapi.view.meta.GameMessagesPanelMeta import GameMessagesPanelMeta
@@ -37,30 +38,30 @@ class FrontlineMessagePanel(BattleHintComponent, GameMessagesPanelMeta):
         self.__blockNewMessages = True
         return
 
-    def onMessageStarted(self, messageType, modificator, id_):
+    def onMessageStarted(self, msgType, modificator, id_):
         ctrl = self.sessionProvider.dynamic.gameNotifications
         if ctrl is not None:
             randomReservesEvents.hidePanel(True)
-            ctrl.onMessagePlaybackStarted(messageType, {b'id': id_, b'modificator': modificator})
+            ctrl.onMessagePlaybackStarted(msgType, {b'id': id_, b'modificator': modificator})
         return
 
-    def onMessagePhaseStarted(self, messageType, modificator, id_):
+    def onMessagePhaseStarted(self, msgType, modificator, msgID):
         ctrl = self.sessionProvider.dynamic.gameNotifications
         if ctrl is not None:
-            ctrl.onMessagePlaybackPhaseStarted(messageType, {b'id': id_, b'modificator': modificator})
+            ctrl.onMessagePlaybackPhaseStarted(msgType, {b'id': msgID, b'modificator': modificator})
         return
 
-    def onMessageEnded(self, messageType, id_):
+    def onMessageEnded(self, msgType, msgID):
         ctrl = self.sessionProvider.dynamic.gameNotifications
         if ctrl is not None:
-            ctrl.onMessagePlaybackEnded(messageType, {b'id': id_})
+            ctrl.onMessagePlaybackEnded(msgType, {b'id': msgID})
         return
 
-    def onMessageHiding(self, messageType, id_):
+    def onMessageHiding(self, msgType, msgID):
         ctrl = self.sessionProvider.dynamic.gameNotifications
         if ctrl is not None:
             randomReservesEvents.showPanel()
-            ctrl.onMessagePlaybackHide(messageType, {b'id': id_})
+            ctrl.onMessagePlaybackHide(msgType, {b'id': msgID})
         return
 
     def _populate(self):

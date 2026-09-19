@@ -1,4 +1,7 @@
-import string, BigWorld, constants
+from __future__ import absolute_import
+import string
+from future.utils import lrange, viewitems
+import BigWorld, constants
 from account_helpers.AccountSettings import NEW_SETTINGS_COUNTER
 from account_helpers.settings_core.settings_constants import BATTLE_EVENTS, CONTROLS, DAMAGE_INDICATOR, DAMAGE_LOG, GAME, SESSION_STATS, SITUATIONAL_PERKS, VERSION, BattleCommStorageKeys, BattlePassStorageKeys, GuiSettingsBehavior, OnceOnlyHints, ScorePanelStorageKeys, SPGAim
 from adisp import adisp_async, adisp_process
@@ -52,7 +55,7 @@ def _initializeDefaultSettings(core, data, initialized):
                (GAME.RECEIVE_INVITES_IN_BATTLE): b'readBool', 
                (GAME.STORE_RECEIVER_IN_BATTLE): b'readBool', 
                (GAME.CHAT_CONTACTS_LIST_ONLY): b'readBool'}
-            for key, reader in _userProps.iteritems():
+            for key, reader in viewitems(_userProps):
                 if key in tags:
                     gameData[key] = getattr(subSec, reader)(key)
 
@@ -96,7 +99,7 @@ def _reinitializeDefaultSettings(core, data, initialized, callback=None):
 
     @adisp_async
     def wrapper(callback=None):
-        BigWorld.player().intUserSettings.delIntSettings(range(1, 60), callback)
+        BigWorld.player().intUserSettings.delIntSettings(lrange(1, 60), callback)
         return
 
     yield wrapper()
@@ -622,7 +625,7 @@ def _migrateTo67(core, data, initialized):
     from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
     storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.BATTLE_PASS_STORAGE, 0)
     clear = data[b'clear']
-    for position in range(2, 16) + range(18, 20):
+    for position in lrange(2, 16) + lrange(18, 20):
         settingOffset = 1 << position
         if storedValue & settingOffset:
             clear[b'battlePassStorage'] = clear.get(b'battlePassStorage', 0) | settingOffset
@@ -828,7 +831,7 @@ def _migrateTo85(core, data, initialized):
 
 
 def _migrateTo86(core, data, initialized):
-    for position in range(2) + range(17, 18):
+    for position in lrange(2) + lrange(17, 18):
         data[b'clear'][b'battlePassStorage'] = data[b'clear'].get(b'battlePassStorage', 0) | 1 << position
 
     return
@@ -1190,11 +1193,11 @@ def _migrateTo116(core, data, initialized):
                        b'zoomIndicator': 100}}
         aimData = data.get(b'aimData')
         if aimData:
-            for aimDataType in newbiesAimData:
+            for aimDataType, aimDataValue in viewitems(newbiesAimData):
                 if aimDataType in aimData:
-                    data[b'aimData'][aimDataType].update(newbiesAimData[aimDataType])
+                    data[b'aimData'][aimDataType].update(aimDataValue)
                 else:
-                    data[b'aimData'][aimDataType] = newbiesAimData[aimDataType]
+                    data[b'aimData'][aimDataType] = aimDataValue
 
         else:
             data[b'aimData'] = newbiesAimData
@@ -1223,11 +1226,11 @@ def _migrateTo116(core, data, initialized):
                      b'markerAltHp': 1}}
         markersData = data.get(b'markersData')
         if markersData:
-            for markerType in newbiesMarkersData:
+            for markerType, newMarkerData in viewitems(newbiesMarkersData):
                 if markerType in markersData:
-                    data[b'markersData'][markerType].update(newbiesMarkersData[markerType])
+                    data[b'markersData'][markerType].update(newMarkerData)
                 else:
-                    data[b'markersData'][markerType] = newbiesMarkersData[markerType]
+                    data[b'markersData'][markerType] = newMarkerData
 
         else:
             data[b'markersData'] = newbiesMarkersData
@@ -1696,6 +1699,17 @@ def _migrateTo159(core, data, initialized):
     return
 
 
+def _migrateTo160(core, data, initialized):
+    if not initialized:
+        return
+    dogTags = data.setdefault(b'dogTags', {})
+    dogTags.update({(GAME.SHOW_VICTIMS_DOGTAG): True, 
+       (GAME.SHOW_DOGTAG_TO_KILLER): True, 
+       (GAME.SHOW_KILLERS_DOGTAG): True, 
+       (GAME.SHOW_PERSONAL_ANIMATED_DOGTAG): True})
+    return
+
+
 _versions = (
  (
   1, _initializeDefaultSettings, True, False),
@@ -2012,7 +2026,9 @@ _versions = (
  (
   158, _migrateTo158, False, False),
  (
-  159, _migrateTo159, False, False))
+  159, _migrateTo159, False, False),
+ (
+  160, _migrateTo160, False, False))
 
 @adisp_async
 @adisp_process

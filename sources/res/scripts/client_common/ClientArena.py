@@ -465,12 +465,14 @@ class ClientArena(object):
         vehInfo = self.__vehicles[vehID]
         if vehInfo[b'isAlive']:
             self.onVehicleUpdated(vehID)
-        else:
-            deathInfo = vehInfo[b'deathInfo']
-            reasonID = deathInfo[b'reasonID']
-            self.onVehicleKilled(deathInfo[b'victimID'], deathInfo[b'killerID'], deathInfo[b'equipmentID'], reasonID, deathInfo[b'numVehiclesAffected'])
-            if reasonID == ATTACK_REASON.getIndex(ATTACK_REASON.RECOVERY) and not isPlayerVehicle:
-                self.onVehicleRecovered(vehID)
+            return
+        if compDescr and b'observer' in vehicles.VehicleDescr(compactDescr=compDescr).type.tags:
+            return
+        deathInfo = vehInfo[b'deathInfo']
+        reasonID = deathInfo[b'reasonID']
+        self.onVehicleKilled(deathInfo[b'victimID'], deathInfo[b'killerID'], deathInfo[b'equipmentID'], reasonID, deathInfo[b'numVehiclesAffected'])
+        if reasonID == ATTACK_REASON.getIndex(ATTACK_REASON.RECOVERY) and not isPlayerVehicle:
+            self.onVehicleRecovered(vehID)
         return
 
     def updateVehicleIsTeamKiller(self, vehID):

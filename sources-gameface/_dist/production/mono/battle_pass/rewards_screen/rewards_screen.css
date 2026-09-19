@@ -173,7 +173,8 @@
   text-align: center;
   position: relative;
   z-index: 4;
-}@keyframes Banner_fadeInWithScale_fad1ffcf {
+}
+@keyframes Banner_fadeInWithScale_fad1ffcf {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -263,7 +264,8 @@
 .Banner_icon_5d6fa4df {
   width: 160rem;
   height: 115rem;
-  background: url("R.images.gui.maps.icons.battlePass.rewards.battle_pass_banner") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.rewards.battle_pass_banner") no-repeat
+    center/contain;
 }
 .mediaLarge .Banner_icon_5d6fa4df {
   width: 210rem;
@@ -314,13 +316,15 @@
   width: 769rem;
   height: 452rem;
   margin: -226rem 0 0 -384rem;
-  background: url("R.images.gui.maps.icons.battlePass.rewards.button_blink") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.rewards.button_blink") no-repeat
+    center/contain;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: -1;
   pointer-events: none;
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -481,7 +485,8 @@
 
 .Footer_postProgressionButton_45a39895 {
   margin-left: 12rem;
-}@keyframes ChapterLogo_fadeInWithScale_c213492a {
+}
+@keyframes ChapterLogo_fadeInWithScale_c213492a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -572,7 +577,8 @@
 .mediaMedium .ChapterLogo_aa1334cf {
   width: 600rem;
   height: 450rem;
-}@keyframes Glow_fadeInWithScale_a44066b8 {
+}
+@keyframes Glow_fadeInWithScale_a44066b8 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -674,7 +680,8 @@
   height: 800rem;
   margin-left: -400rem;
   margin-top: -400rem;
-}@keyframes AttachmentOverlay_fadeInWithScale_2ef6ad7b {
+}
+@keyframes AttachmentOverlay_fadeInWithScale_2ef6ad7b {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -758,7 +765,8 @@
   left: 0;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes Compensation_fadeInWithScale_db29c4dc {
+}
+@keyframes Compensation_fadeInWithScale_db29c4dc {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -837,7 +845,8 @@
   width: 48rem;
   height: 48rem;
   background: no-repeat center/contain;
-}@keyframes TankName_fadeInWithScale_a6870619 {
+}
+@keyframes TankName_fadeInWithScale_a6870619 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -949,7 +958,8 @@
   width: 83rem;
   height: 74rem;
   margin: 0 -14rem;
-}@keyframes Text_fadeInWithScale_e1d6e9be {
+}
+@keyframes Text_fadeInWithScale_e1d6e9be {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1026,7 +1036,8 @@
 /* stylelint-disable selector-no-qualifying-type */
 .Text_textCenter_a832bab6 {
   justify-content: center;
-}@keyframes Title_fadeInWithScale_2e63cf3 {
+}
+@keyframes Title_fadeInWithScale_2e63cf3 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1135,7 +1146,8 @@
 .Title_base__gold_2e63cf3 .Title_37b34825 {
   color: #ffc363;
 }
-.Title_base__bptaler_2e63cf3 .Title_37b34825, .Title_base__crystal_2e63cf3 .Title_37b34825 {
+.Title_base__bptaler_2e63cf3 .Title_37b34825,
+.Title_base__crystal_2e63cf3 .Title_37b34825 {
   color: #c9c9b6;
 }
 
@@ -1156,7 +1168,8 @@
 }
 .mediaMedium .Title_base__wide_2e63cf3 .Title_subtitle_918f7dda {
   font-size: 22rem;
-}@keyframes Reward_fadeInWithScale_21f091ec {
+}
+@keyframes Reward_fadeInWithScale_21f091ec {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1385,7 +1398,8 @@
   animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1);
   animation-delay: 0s;
   animation-iteration-count: 1;
-}@keyframes Rewards_fadeInWithScale_405577a5 {
+}
+@keyframes Rewards_fadeInWithScale_405577a5 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1470,7 +1484,8 @@
 }
 .mediaMedium .Rewards_base__updateSize_222a87fa {
   height: 450rem;
-}@keyframes Ribbon_fadeInWithScale_18efb3f8 {
+}
+@keyframes Ribbon_fadeInWithScale_18efb3f8 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1578,7 +1593,8 @@
 }
 .mediaMedium .Ribbon_base__indentWide_72bb1f1 {
   top: 120rem;
-}@keyframes MainRewards_fadeInWithScale_56da68ed {
+}
+@keyframes MainRewards_fadeInWithScale_56da68ed {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1674,13 +1690,16 @@
   height: 910rem;
   margin-left: -455rem;
   margin-top: -455rem;
-  background: url("R.images.gui.maps.icons.battlePass.rewards.lines") no-repeat center center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.rewards.lines") no-repeat center
+    center/contain;
   opacity: 0;
   mix-blend-mode: additive;
   position: absolute;
   top: 60%;
   left: 50%;
-  animation: MainRewards_raysAppearance_56da68ed 0.8s cubic-bezier(0.07, 0.82, 0.17, 1) 0.8s forwards, MainRewards_rotate_56da68ed 120s linear 1.2s infinite forwards;
+  animation:
+    MainRewards_raysAppearance_56da68ed 0.8s cubic-bezier(0.07, 0.82, 0.17, 1) 0.8s forwards,
+    MainRewards_rotate_56da68ed 120s linear 1.2s infinite forwards;
   pointer-events: none;
 }
 .mediaMedium .MainRewards_rays_11ac61d3 {
@@ -1713,7 +1732,8 @@
   to {
     transform: rotate(360deg);
   }
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);

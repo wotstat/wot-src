@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<CellMethods>
+		<selectUpgrade>
+			<Args>
+				<index>INT32</index>
+			</Args>
+			<Exposed></Exposed>
+		</selectUpgrade>
+	</CellMethods>
+	<Properties>
+		<upgradeOptions>
+			<Type>ARRAY
+				<of>STRING</of>
+			</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</upgradeOptions>
+	</Properties>
+	<ofEntity>
+		<Vehicle></Vehicle>
+	</ofEntity>
+</root>

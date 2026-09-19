@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from future.utils import listitems, viewvalues
 from gui.shared import utils
 from messenger import g_settings
 from messenger.m_constants import CLIENT_ACTION_ID, CLIENT_ERROR_ID
@@ -149,10 +151,10 @@ class _RoomAction(ClientHolder):
         self._result = ACTION_RESULT.REMOVE_FROM_STORAGE
         return
 
-    def _join(self, mucInfo):
+    def _join(self, info):
         return
 
-    def _leave(self, mucInfo):
+    def _leave(self, resource):
         return
 
     def _setPresenceError(self, tag):
@@ -312,7 +314,7 @@ class LeaveAction(_RoomAction):
         self._remove()
         return
 
-    def _join(self, resource):
+    def _join(self, info):
         self.clear()
         self._step = ENTRY_STEP.UNDEFINED
         return
@@ -478,7 +480,7 @@ class MUCProvider(ChatProvider):
             mucInfo = resource.getMucInfo()
             dbID = resource.getWgDatabaseID()
             nickname = resource.getWgNickname() or jid.getResource()
-            for action in self.__actions.itervalues():
+            for action in viewvalues(self.__actions):
                 result |= action.setPresence(jid, dbID, nickname, presence, mucInfo)
 
             if not result:
@@ -491,7 +493,7 @@ class MUCProvider(ChatProvider):
 
     def handlePresenceError(self, jid, pyGlooxTag):
         result = False
-        for action in self.__actions.itervalues():
+        for action in viewvalues(self.__actions):
             result |= action.setPresenceError(jid, pyGlooxTag)
 
         self.__filterActions()
@@ -499,7 +501,7 @@ class MUCProvider(ChatProvider):
 
     def handleIQ(self, iqID, iqType, pyGlooxTag):
         result = False
-        for action in self.__actions.itervalues():
+        for action in viewvalues(self.__actions):
             result |= action.setIQ(iqID, iqType, pyGlooxTag)
 
         self.__filterActions()
@@ -531,7 +533,7 @@ class MUCProvider(ChatProvider):
         return
 
     def __filterActions(self):
-        for jid, action in self.__actions.items()[:]:
+        for jid, action in listitems(self.__actions):
             if action.isRunning():
                 continue
             self.__actions.pop(jid)

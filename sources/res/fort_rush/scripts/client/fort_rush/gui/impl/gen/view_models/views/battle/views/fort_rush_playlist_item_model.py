@@ -1,0 +1,48 @@
+from frameworks.wulf import Array, ViewModel
+
+class FortRushPlaylistItemModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(FortRushPlaylistItemModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getId(self):
+        return self._getString(0)
+
+    def setId(self, value):
+        self._setString(0, value)
+        return
+
+    def getName(self):
+        return self._getString(1)
+
+    def setName(self, value):
+        self._setString(1, value)
+        return
+
+    def getVehicleIds(self):
+        return self._getArray(2)
+
+    def setVehicleIds(self, value):
+        self._setArray(2, value)
+        return
+
+    @staticmethod
+    def getVehicleIdsType():
+        return int
+
+    def getTipSize(self):
+        return self._getString(3)
+
+    def setTipSize(self, value):
+        self._setString(3, value)
+        return
+
+    def _initialize(self):
+        super(FortRushPlaylistItemModel, self)._initialize()
+        self._addStringProperty(b'id', b'')
+        self._addStringProperty(b'name', b'')
+        self._addArrayProperty(b'vehicleIds', Array())
+        self._addStringProperty(b'tipSize', b'')
+        return

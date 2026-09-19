@@ -41,7 +41,7 @@ class SpecialRewardsNotification(NotificationBase):
     def _getCallbacks(self):
         return super(SpecialRewardsNotification, self)._getCallbacks() + (
          (
-          b'inventory', self.__onInventoryUpdate),)
+          b'inventory.1', self.__onInventoryUpdate),)
 
     def _getEvents(self):
         return super(SpecialRewardsNotification, self)._getEvents() + (
@@ -78,9 +78,8 @@ class SpecialRewardsNotification(NotificationBase):
         packBonusModelAndTooltipData(bonuses, bonusModels, showAttachmentsSets=True)
         return
 
-    def __onInventoryUpdate(self, _, diff):
-        if diff is not None and GUI_ITEM_TYPE.VEHICLE in diff:
-            self._update()
+    def __onInventoryUpdate(self, *_):
+        self._update()
         return
 
     @args2params(str, int)

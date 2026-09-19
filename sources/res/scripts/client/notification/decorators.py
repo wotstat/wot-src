@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import typing, BigWorld
 from CurrentVehicle import g_currentVehicle
 from PlayerEvents import g_playerEvents
@@ -75,10 +76,7 @@ class _NotificationDecorator(EventsHandler):
     def __repr__(self):
         return (b'{0:>s}(typeID = {1:n}, entityID = {2:n})').format(self.__class__.__name__, self.getType(), self.getID())
 
-    def __cmp__(self, other):
-        if isinstance(other, _NotificationDecorator):
-            return cmp(self.getOrder(), other.getOrder())
-        return -1
+    __hash__ = object.__hash__
 
     def __eq__(self, other):
         return isinstance(other, _NotificationDecorator) and self.getType() == other.getType() and self.getID() == other.getID()
@@ -219,20 +217,20 @@ class MessageDecorator(_NotificationDecorator):
     def getGroup(self):
         return self._settings.groupID
 
-    def update(self, formatted):
-        super(MessageDecorator, self).update(formatted)
-        self._make(formatted)
+    def update(self, entity):
+        super(MessageDecorator, self).update(entity)
+        self._make(entity)
         return
 
     def getOrder(self):
         return (self.showAt(), self._entityID)
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         if settings:
             self._settings = settings
             if not self._settings.showAt:
                 self._settings.showAt = _makeShowTime()
-        message = formatted.copy() if formatted else {}
+        message = entity.copy() if entity else {}
         for key in _ICONS_FIELDS:
             if key in message:
                 message[key] = makePathToIcon(message[key])
@@ -275,10 +273,10 @@ class RecruitReminderMessageDecorator(MessageDecorator):
     def getSavedData(self):
         return self._vo[b'message'].get(b'savedData', {})
 
-    def update(self, formatted):
-        _NotificationDecorator.update(self, formatted)
+    def update(self, entity):
+        _NotificationDecorator.update(self, entity)
         settings = NotificationGuiSettings(isNotify=getNewRecruitsCounter() > 0, priorityLevel=self.getPriorityLevel())
-        super(RecruitReminderMessageDecorator, self)._make(formatted, settings)
+        super(RecruitReminderMessageDecorator, self)._make(entity, settings)
         return
 
 
@@ -318,8 +316,8 @@ class LockButtonMessageDecorator(MessageDecorator):
         g_playerEvents.onDequeued -= self._onDequeued
         return
 
-    def update(self, formatted):
-        _NotificationDecorator.update(self, formatted)
+    def update(self, entity):
+        _NotificationDecorator.update(self, entity)
         return
 
     def _onEqueued(self, _):
@@ -330,8 +328,8 @@ class LockButtonMessageDecorator(MessageDecorator):
         self._updateButtonsState(lock=False)
         return
 
-    def _make(self, formatted=None, settings=None):
-        super(LockButtonMessageDecorator, self)._make(formatted, settings)
+    def _make(self, entity=None, settings=None):
+        super(LockButtonMessageDecorator, self)._make(entity, settings)
         self._updateButtons(None)
         return
 
@@ -503,8 +501,8 @@ class PrbInviteDecorator(_NotificationDecorator):
     def getOrder(self):
         return (self.showAt(), self._createdAt)
 
-    def _make(self, invite=None, settings=None):
-        invite = invite or self.prbInvites.getInvite(self._entityID)
+    def _make(self, entity=None, settings=None):
+        invite = entity or self.prbInvites.getInvite(self._entityID)
         if not invite:
             LOG_ERROR(b'Invite not found', self._entityID)
             self._vo = {}
@@ -565,12 +563,13 @@ class FriendshipRequestDecorator(_NotificationDecorator):
         return (
          self.showAt(), self._receivedAt)
 
-    def update(self, user):
-        super(FriendshipRequestDecorator, self).update(user)
-        self._make(user=user, settings=NotificationGuiSettings(False, NotificationPriorityLevel.LOW, showAt=self.showAt()))
+    def update(self, entity):
+        super(FriendshipRequestDecorator, self).update(entity)
+        self._make(entity=entity, settings=NotificationGuiSettings(False, NotificationPriorityLevel.LOW, showAt=self.showAt()))
         return
 
-    def _make(self, user=None, settings=None):
+    def _make(self, entity=None, settings=None):
+        user = entity
         if settings:
             self._settings = settings
         contacts = self.proto.contacts
@@ -624,12 +623,13 @@ class WGNCPopUpDecorator(_NotificationDecorator):
     def getSavedData(self):
         return self._itemName
 
-    def update(self, item):
-        super(WGNCPopUpDecorator, self).update(item)
-        self._make(item)
+    def update(self, entity):
+        super(WGNCPopUpDecorator, self).update(entity)
+        self._make(entity)
         return
 
-    def _make(self, item=None, settings=None):
+    def _make(self, entity=None, settings=None):
+        item = entity
         self._itemName = item.getName()
         if settings:
             self._settings = settings
@@ -932,8 +932,8 @@ class ClanAppActionDecorator(_ClassBaseActionDecorator):
     def getType(self):
         return NOTIFICATION_TYPE.CLAN_APP_ACTION
 
-    def _getName(self, clanInfo):
-        return _getClanName(clanInfo)
+    def _getName(self, entity):
+        return _getClanName(entity)
 
 
 class ClanInvitesActionDecorator(_ClassBaseActionDecorator):
@@ -945,9 +945,9 @@ class ClanInvitesActionDecorator(_ClassBaseActionDecorator):
     def getType(self):
         return NOTIFICATION_TYPE.CLAN_INVITE_ACTION
 
-    def update(self, formatted):
-        super(ClanInvitesActionDecorator, self).update(formatted)
-        self._make(formatted)
+    def update(self, entity):
+        super(ClanInvitesActionDecorator, self).update(entity)
+        self._make(entity)
         return
 
     def _getName(self, entity):
@@ -1060,9 +1060,9 @@ class BattlePassLockButtonDecorator(MessageDecorator):
         super(BattlePassLockButtonDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateEntityButtons()
-        super(BattlePassLockButtonDecorator, self)._make(formatted, settings)
+        super(BattlePassLockButtonDecorator, self)._make(entity, settings)
         return
 
     def __updateEntityButtons(self):
@@ -1104,9 +1104,9 @@ class MapboxButtonDecorator(MessageDecorator):
         super(MapboxButtonDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateButtons()
-        super(MapboxButtonDecorator, self)._make(formatted, settings)
+        super(MapboxButtonDecorator, self)._make(entity, settings)
         return
 
     def __updateButtons(self):
@@ -1252,9 +1252,9 @@ class LootBoxSystemDecorator(MessageDecorator):
          (
           self.__lootBoxes.onBoxesAvailabilityChanged, self.__update))
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateEntityButtons()
-        super(LootBoxSystemDecorator, self)._make(formatted, settings)
+        super(LootBoxSystemDecorator, self)._make(entity, settings)
         return
 
     def __makeEntity(self, message, savedData):
@@ -1290,9 +1290,9 @@ class CollectionsLockButtonDecorator(MessageDecorator):
         super(CollectionsLockButtonDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateEntityButtons()
-        super(CollectionsLockButtonDecorator, self)._make(formatted, settings)
+        super(CollectionsLockButtonDecorator, self)._make(entity, settings)
         return
 
     def __updateEntityButtons(self):
@@ -1484,8 +1484,8 @@ class PrestigeLvlUpDecorator(LockButtonMessageDecorator):
         super(PrestigeLvlUpDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
-        super(PrestigeLvlUpDecorator, self)._make(formatted, settings)
+    def _make(self, entity=None, settings=None):
+        super(PrestigeLvlUpDecorator, self)._make(entity, settings)
         isOnBattleQueueScreen = self.__appLoader.getApp().containerManager.getView(WindowLayer.SUB_VIEW, criteria={(POP_UP_CRITERIA.VIEW_ALIAS): (VIEW_ALIAS.BATTLE_QUEUE)}) is not None
         self._updateButtonsState(lock=isOnBattleQueueScreen)
         return
@@ -1536,8 +1536,8 @@ class ExchangeRateDiscountDecorator(MessageDecorator):
 class PostProgressionDecorator(LockButtonMessageDecorator):
     __appLoader = dependency.descriptor(IAppLoader)
 
-    def _make(self, formatted=None, settings=None):
-        super(PostProgressionDecorator, self)._make(formatted, settings)
+    def _make(self, entity=None, settings=None):
+        super(PostProgressionDecorator, self)._make(entity, settings)
         lobbyHangarWindow = self.__appLoader.getApp().containerManager.getView(WindowLayer.SUB_VIEW, criteria={(POP_UP_CRITERIA.VIEW_ALIAS): (VIEW_ALIAS.BATTLE_QUEUE)})
         self._updateButtonsState(lobbyHangarWindow is not None)
         return
@@ -1640,8 +1640,8 @@ class PetSystemDecorator(LockButtonMessageDecorator):
         super(PetSystemDecorator, self).clear()
         return
 
-    def _make(self, formatted=None, settings=None):
-        super(PetSystemDecorator, self)._make(formatted, settings)
+    def _make(self, entity=None, settings=None):
+        super(PetSystemDecorator, self)._make(entity, settings)
         isOnBattleQueueScreen = self.__appLoader.getApp().containerManager.getView(WindowLayer.SUB_VIEW, criteria={(POP_UP_CRITERIA.VIEW_ALIAS): (VIEW_ALIAS.BATTLE_QUEUE)}) is not None
         self._updateButtonsState(lock=isOnBattleQueueScreen)
         return
@@ -1727,9 +1727,9 @@ class ChallengesReminderDecorator(MessageDecorator):
          (
           self.__challenges.onChallengesSettingsChanged, self.__update),)
 
-    def _make(self, formatted=None, settings=None):
+    def _make(self, entity=None, settings=None):
         self.__updateEntityButtons()
-        super(ChallengesReminderDecorator, self)._make(formatted, settings)
+        super(ChallengesReminderDecorator, self)._make(entity, settings)
         return
 
     def __makeEntity(self):

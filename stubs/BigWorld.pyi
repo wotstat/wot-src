@@ -811,8 +811,6 @@ def wg_collideDynamic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: i
 
 def wg_collideDynamicStatic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: int = ..., arg4: int = ..., arg5: int = ..., arg6: int = ...) -> Any: ...
 
-def wg_collideDynamics(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: Any) -> Any: ...
-
 def wg_collideSegment(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: int, arg4: int = ...) -> Any: ...
 
 def wg_collideSphereDynamicStatic(arg0: int, arg1: Math.Vector3, arg2: Math.Vector3, arg3: float, arg4: int, arg5: int, arg6: int) -> Any: ...
@@ -1150,7 +1148,6 @@ Screener: Any
 ShadowPassBit: Any
 SniperAimingSystem: Any
 SniperAimingSystemRemote: Any
-Space: Final[int] = 5
 StaticScriptComponent: Any
 StrategicAimingSystem: Any
 StrategicAimingSystemRemote: Any
@@ -1224,21 +1221,35 @@ class ReplayTerminatedReason:
     REPLAY_ABORTED_VERSION_MISMATCH: ClassVar[ReplayTerminatedReason]  # native value: 1
     REPLAY_STOPPED_PLAYBACK: ClassVar[ReplayTerminatedReason]  # native value: 0
 
+class SpawnTarget:
+    Parent: ClassVar[SpawnTarget]  # native value: 1
+    Root: ClassVar[SpawnTarget]  # native value: 0
+    Space: ClassVar[SpawnTarget]  # native value: 2
+
+class VOIPBackend:
+    LIVEKIT: ClassVar[VOIPBackend]  # native value: 1
+    VIVOX: ClassVar[VOIPBackend]  # native value: 0
+
 ANGLE_RADIANS: Final[FilterInterpolationType] = FilterInterpolationType.ANGLE_RADIANS
 CAMERA_ARTY_ROTATION: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_ARTY_ROTATION
 CAMERA_ARTY_SHOT_POINT: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_ARTY_SHOT_POINT
 CAMERA_ARTY_TRANSLATION: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_ARTY_TRANSLATION
 CAMERA_SHOT_POINT: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_SHOT_POINT
 LINEAR: Final[FilterInterpolationType] = FilterInterpolationType.LINEAR
+LIVEKIT: Final[VOIPBackend] = VOIPBackend.LIVEKIT
 LOADING_VIEW: Final[EventType] = EventType.LOADING_VIEW
 LOAD_FAILED: Final[EventType] = EventType.LOAD_FAILED
+Parent: Final[SpawnTarget] = SpawnTarget.Parent
 REPLAY_ABORTED_CORRUPTED_DATA: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_CORRUPTED_DATA
 REPLAY_ABORTED_ENTITYDEF_MISMATCH: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_ENTITYDEF_MISMATCH
 REPLAY_ABORTED_METADATA_REJECTED: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_METADATA_REJECTED
 REPLAY_ABORTED_VERSION_MISMATCH: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_VERSION_MISMATCH
 REPLAY_STOPPED_PLAYBACK: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_STOPPED_PLAYBACK
+Root: Final[SpawnTarget] = SpawnTarget.Root
 SLERP_OF_CARTESIAN: Final[FilterInterpolationType] = FilterInterpolationType.SLERP_OF_CARTESIAN
 SPHERICAL_RADIANS: Final[FilterInterpolationType] = FilterInterpolationType.SPHERICAL_RADIANS
+Space: Final[SpawnTarget] = SpawnTarget.Space
 VIEW_CREATED: Final[EventType] = EventType.VIEW_CREATED
 VIEW_DESTROYED: Final[EventType] = EventType.VIEW_DESTROYED
 VIEW_LOADED: Final[EventType] = EventType.VIEW_LOADED
+VIVOX: Final[VOIPBackend] = VOIPBackend.VIVOX

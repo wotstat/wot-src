@@ -1,9 +1,9 @@
 from __future__ import absolute_import
 import typing
 from gui.shared.utils.decorators import ReprInjector
+from items.vehicle_mechanics_types import VehicleMechanicKeys
 from vehicles.components.component_interfaces import IVehicleGunSlotComponent
 from vehicles.components.vehicle_component import VehicleDynamicComponent
-from vehicles.mechanics.mechanic_constants import VehicleMechanic
 from vehicles.mechanics.mechanic_helpers import getVehicleDescrMechanicParams
 from vehicles.mechanics.mechanic_states import IMechanicStatesComponent
 from vehicles.mechanics.gun_mechanics.low_charge_shot.public import LowChargeShotPublicMechanicState, DEFAULT_MECHANIC_STATE, createLowChargeShotPublicStatesEvents
@@ -54,7 +54,7 @@ class LowChargeShotPublicController(VehicleDynamicComponent, IVehicleGunSlotComp
 
     def _collectComponentParams(self, typeDescriptor):
         super(LowChargeShotPublicController, self)._collectComponentParams(typeDescriptor)
-        self.__params = getVehicleDescrMechanicParams(typeDescriptor, VehicleMechanic.LOW_CHARGE_SHOT)
+        self.__params = getVehicleDescrMechanicParams(typeDescriptor, VehicleMechanicKeys.LOW_CHARGE_SHOT)
         return
 
     def __updateMechanicState(self):

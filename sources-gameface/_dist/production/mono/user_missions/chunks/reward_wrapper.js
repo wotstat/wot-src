@@ -1,1 +1,40 @@
-import{j as o}from"./vendor.js";import{m as e,az as t,a4 as a,a5 as s,a7 as r,a6 as i}from"./lib.js";function n({bonuses:n,questId:l,size:p,resId:d,...v}){const u=e(n,o=>{return{size:p,name:o.name,image:s(o,p),value:o.value,valueType:a(o.name),special:"overlayType"in o&&o.overlayType&&(e=o.overlayType,"string"==typeof e&&Object.values(i).includes(e)||(console.warn(`Invalid overlayType value: ${e}`),0))?o.overlayType:void 0,tooltipArgs:{...t({tooltipId:`${l}:${o.tooltipId}`},Number(o.tooltipContentId)||R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId")),resId:d}};var e}),m={contentId:R.views.lobby.tooltips.AdditionalRewardsTooltip("resId"),args:{showFromIndex:v.count,questId:l},resId:d};return o.jsx(r,{...v,data:u,boxRewardTooltip:m,size:p})}export{n as R};
+import { r as o } from "./rolldown-runtime.js";
+import { B as e, C as t, Jt as s, S as a, on as r, w as n, y as i } from "./lib.js";
+var l = o(s(), 1);
+function p({ bonuses: o, questId: s, size: p, resId: d, ...v }) {
+  const u = r(o, (o) => {
+      return {
+        size: p,
+        name: o.name,
+        image: a(o, p),
+        value: o.value,
+        valueType: n(o.name),
+        special:
+          "overlayType" in o &&
+          o.overlayType &&
+          ((r = o.overlayType),
+          ("string" == typeof r && Object.values(e).includes(r)) ||
+            (console.warn(`Invalid overlayType value: ${r}`), 0))
+            ? o.overlayType
+            : void 0,
+        tooltipArgs: {
+          ...t(
+            { tooltipId: `${s}:${o.tooltipId}` },
+            Number(o.tooltipContentId) ||
+              R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
+                "resId",
+              ),
+          ),
+          resId: d,
+        },
+      };
+      var r;
+    }),
+    y = {
+      contentId: R.views.lobby.tooltips.AdditionalRewardsTooltip("resId"),
+      args: { showFromIndex: v.count, questId: s },
+      resId: d,
+    };
+  return (0, l.jsx)(i, { ...v, data: u, boxRewardTooltip: y, size: p });
+}
+export { p as t };

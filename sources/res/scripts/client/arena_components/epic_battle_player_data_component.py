@@ -1,10 +1,12 @@
+from __future__ import absolute_import
 from collections import defaultdict
+from future.utils import viewitems
+import BigWorld, Event
 from arena_components.player_data_component import PlayerDataComponent
 from constants import ARENA_SYNC_OBJECTS, SECTOR_STATE, ARENA_PERIOD
+from gui.battle_control import avatar_getter
 from PlayerEvents import g_playerEvents
 from debug_utils import LOG_CURRENT_EXCEPTION
-import Event, BigWorld
-from gui.battle_control import avatar_getter
 
 class EpicBattlePlayerDataComponent(PlayerDataComponent):
     playerLives = property((lambda self: self.__getPlayerLives()))
@@ -66,7 +68,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
         lives = 0
         livesPerTeamAndGroup = self.getSyncDataObjectData(ARENA_SYNC_OBJECTS.RESPAWN, b'livesByTeamGroup')
         if livesPerTeamAndGroup is not None:
-            for teamAndGroup, teamLives in livesPerTeamAndGroup.iteritems():
+            for teamAndGroup, teamLives in viewitems(livesPerTeamAndGroup):
                 if teamAndGroup[0] == teamId:
                     lives += teamLives
 
@@ -75,7 +77,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
     def getPlayersForTeamAndGroup(self, teamId, groupId):
         playersPerTeamAndGroup = self.getSyncDataObjectData(ARENA_SYNC_OBJECTS.PLAYER_GROUP, b'numPlayersPerGroup')
         if playersPerTeamAndGroup is not None:
-            for key, count in playersPerTeamAndGroup.iteritems():
+            for key, count in viewitems(playersPerTeamAndGroup):
                 if key[0] == teamId and key[1] == groupId:
                     return count
 
@@ -137,7 +139,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
     def setPlayerLaneByPlayerGroups(self):
         playerId = avatar_getter.getPlayerVehicleID()
         playerGroups = self.playerGroups
-        if playerGroups and playerId is not 0 and playerId in playerGroups:
+        if playerGroups and playerId != 0 and playerId in playerGroups:
             self.__respawnLane = playerGroups[playerId]
             self.onPlayerRespawnLaneUpdated(self.__respawnLane)
             self.setPhysicalLane(self.__respawnLane, self.__physicalSectorGroup, force=True)
@@ -172,11 +174,11 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
         arena = avatar_getter.getArena()
         if arena is not None:
             key = b'playerGroup'
-            gameModeStats = dict((vehID, {key: playerGroup}) for vehID, playerGroup in args.iteritems())
+            gameModeStats = dict((vehID, {key: playerGroup}) for vehID, playerGroup in viewitems(args))
             arena.updateGameModeSpecificStats(False, gameModeStats)
         self.onPlayerGroupsUpdated(args)
         playerId = avatar_getter.getPlayerVehicleID()
-        if playerId is not 0 and playerId in args:
+        if playerId != 0 and playerId in args:
             self.__respawnLane = args[playerId]
             self.onPlayerRespawnLaneUpdated(self.__respawnLane)
         return
@@ -212,7 +214,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
                     playerSectorID = groupID
                     break
 
-        if playerSectorID != -1 and playerSectorID != self.__playerSectorID:
+        if playerSectorID not in (-1, self.__playerSectorID):
             self.__playerSectorID = playerSectorID
         return self.__playerSectorID
 
@@ -242,7 +244,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
             if self.__physicalLane != group:
                 self.__physicalLane = group
                 self.onPlayerPhysicalLaneUpdated(group)
-        gameModeStats = dict((vehID, {b'playerGroup': group, b'physicalSector': sectorID}) for vehID, (sectorID, group) in args.iteritems())
+        gameModeStats = dict((vehID, {b'playerGroup': group, b'physicalSector': sectorID}) for vehID, (sectorID, group) in viewitems(args))
         self.onPlayerGroupsUpdated(args)
         arena.updateGameModeSpecificStats(False, gameModeStats)
         return
@@ -251,7 +253,7 @@ class EpicBattlePlayerDataComponent(PlayerDataComponent):
         if BigWorld.player().arena.period != ARENA_PERIOD.BATTLE:
             return
         changedTemIds = []
-        for teamAndGroup, _ in args.iteritems():
+        for teamAndGroup in args:
             if teamAndGroup[0] not in changedTemIds:
                 changedTemIds.append(teamAndGroup[0])
 

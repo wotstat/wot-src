@@ -123,7 +123,9 @@
   background: no-repeat center/contain;
   filter: brightness(1);
   opacity: 1;
-  transition: opacity 0.3s, filter 0.3s;
+  transition:
+    opacity 0.3s,
+    filter 0.3s;
 }
 .Category_a031eac:hover .Category_image_16708176 {
   filter: brightness(1.3);
@@ -162,7 +164,9 @@
   line-height: 1.15;
   text-align: center;
   opacity: 1;
-  transition: color 0.3s, opacity 0.3s;
+  transition:
+    color 0.3s,
+    opacity 0.3s;
 }
 .mediaLarge .Category_counter_53ffc003 {
   font-size: 26rem;
@@ -173,7 +177,8 @@
 .Category_base__completed_b894c2f0 .Category_counter_53ffc003 {
   color: #64ba21;
   opacity: 0.6;
-}@keyframes SelectButton_fadeInWithScale_41cc3cb2 {
+}
+@keyframes SelectButton_fadeInWithScale_41cc3cb2 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -279,7 +284,8 @@
 .SelectButton_base__minus_2b97334c.SelectButton_base__disabled_953b567 {
   filter: brightness(0.5);
   cursor: default;
-}@keyframes Reward_fadeInWithScale_21f091ec {
+}
+@keyframes Reward_fadeInWithScale_21f091ec {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -384,7 +390,8 @@
   bottom: 0;
   left: 0;
 }
-.Reward_base__stateReceived_21f091ec .Reward_image_cdd2db9f, .Reward_base__stateLimited_21f091ec .Reward_image_cdd2db9f {
+.Reward_base__stateReceived_21f091ec .Reward_image_cdd2db9f,
+.Reward_base__stateLimited_21f091ec .Reward_image_cdd2db9f {
   opacity: 0.4;
 }
 .Reward_base__stateLimited_21f091ec.Reward_base__selected_21f091ec .Reward_image_cdd2db9f {
@@ -476,7 +483,8 @@
   left: 50%;
   transform: translateX(-50%);
 }
-.Reward_base__selected_21f091ec .Reward_countText_a516c1a0, .Reward_aafd9d9f:hover .Reward_countText_a516c1a0 {
+.Reward_base__selected_21f091ec .Reward_countText_a516c1a0,
+.Reward_aafd9d9f:hover .Reward_countText_a516c1a0 {
   opacity: 1;
 }
 
@@ -509,7 +517,8 @@
   transform: translateX(-50%);
   pointer-events: none;
 }
-.Reward_aafd9d9f:hover .Reward_state_f012fad1, .Reward_base__stateReceived_21f091ec .Reward_state_f012fad1 {
+.Reward_aafd9d9f:hover .Reward_state_f012fad1,
+.Reward_base__stateReceived_21f091ec .Reward_state_f012fad1 {
   opacity: 1;
   pointer-events: auto;
 }
@@ -535,7 +544,8 @@
 }
 .Reward_base__stateReceived_21f091ec .Reward_stateText_3f71ade9 {
   color: #7ab300;
-}@keyframes ContentGrid_fadeInWithScale_e365c19f {
+}
+@keyframes ContentGrid_fadeInWithScale_e365c19f {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -668,7 +678,13 @@
   mask-image: linear-gradient(to bottom, #000 90%, rgba(0, 0, 0, 0.1));
 }
 .ContentGrid_mask__both_b371be52 {
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #000 10%, #000 90%, rgba(0, 0, 0, 0.1));
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    #000 10%,
+    #000 90%,
+    rgba(0, 0, 0, 0.1)
+  );
 }
 
 .ContentGrid_scrollBar_cc7e0d82 {
@@ -721,7 +737,8 @@
   width: 24rem;
   height: 24rem;
   bottom: -13rem;
-}@keyframes Footer_fadeInWithScale_4308958a {
+}
+@keyframes Footer_fadeInWithScale_4308958a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -810,7 +827,8 @@
 
 .Footer_button_5c8555fc {
   min-width: 180rem;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1014,7 +1032,8 @@
   background: transparent;
   opacity: 0;
 }
-.Content_563e7cb8 .Content_tabBackground__active_2055b5b, .Content_563e7cb8 .Content_tabBackground__hover_b301ca04 {
+.Content_563e7cb8 .Content_tabBackground__active_2055b5b,
+.Content_563e7cb8 .Content_tabBackground__hover_b301ca04 {
   opacity: 1;
   transition: opacity 0.1s ease-in-out;
 }
@@ -1089,7 +1108,8 @@
 .Content_bottomLip_f6b13712 {
   width: 1100rem;
   height: 110rem;
-  background: url(R.images.gui.maps.icons.selectableReward.footer.bottomLip) no-repeat center/contain;
+  background: url(R.images.gui.maps.icons.selectableReward.footer.bottomLip) no-repeat
+    center/contain;
   position: absolute;
   top: 0;
   left: 50%;
@@ -1103,7 +1123,8 @@
   width: 1400rem;
   background-image: url(R.images.gui.maps.icons.selectableReward.footer.bottomLip_large);
   transform: translate(-50%, -35rem);
-}@keyframes Error_fadeInWithScale_60812d95 {
+}
+@keyframes Error_fadeInWithScale_60812d95 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1219,7 +1240,8 @@
 
 .Error_button_1befe7e6 {
   min-width: 160rem;
-}@keyframes RewardSelection_fadeInWithScale_2550f39 {
+}
+@keyframes RewardSelection_fadeInWithScale_2550f39 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -1298,7 +1320,8 @@
   display: flex;
   width: 100%;
   height: 100%;
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);

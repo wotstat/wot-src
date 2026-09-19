@@ -1,4 +1,7 @@
-import logging, Event
+from __future__ import absolute_import
+import logging
+from future.utils import viewitems
+import Event
 _logger = logging.getLogger(__name__)
 _logger.setLevel(logging.DEBUG)
 
@@ -15,7 +18,7 @@ class VOIP_FSM_STATE(object):
 
 
 _STATE = VOIP_FSM_STATE
-_STATE_NAMES = dict([(v, k) for k, v in VOIP_FSM_STATE.__dict__.iteritems() if not k.startswith(b'_')])
+_STATE_NAMES = {v: k for k, v in viewitems(VOIP_FSM_STATE.__dict__) if not k.startswith(b'_')}
 
 class VOIPFsm(object):
 
@@ -43,10 +46,13 @@ class VOIPFsm(object):
         self.__state = _STATE.NONE
         return
 
-    def update(self, voip):
+    def start(self):
         if self.__state == _STATE.NONE:
             self.__setState(_STATE.INITIALIZING)
-        elif self.__state == _STATE.INITIALIZING and voip.isInitialized():
+        return
+
+    def update(self, voip):
+        if self.__state == _STATE.INITIALIZING and voip.isInitialized():
             self.__setState(_STATE.INITIALIZED)
         elif self.__state == _STATE.INITIALIZED and voip.getUser() != b'':
             self.__setState(_STATE.LOGGING_IN)

@@ -2,11 +2,11 @@ from __future__ import absolute_import
 import typing
 from events_handler import eventHandler
 from gui.shared.utils.decorators import ReprInjector
+from items.vehicle_mechanics_types import VehicleMechanicKey, VehicleMechanicKeys
 from vehicles.components.vehicle_component import VehicleDynamicComponent
 from vehicles.mechanics.gun_mechanics.common import IGunMechanicComponent
 from vehicles.mechanics.gun_mechanics.temperature.common import createTemperatureStatesEvents
 from vehicles.mechanics.gun_mechanics.temperature.temperature_gun import DEFAULT_TEMPERATURE_COMPONENT_PARAMS, DEFAULT_TEMPERATURE_MECHANIC_STATE, TemperatureGunComponentParams, TemperatureGunMechanicState, TemperatureGunAmmoState
-from vehicles.mechanics.mechanic_constants import VehicleMechanic
 from vehicles.mechanics.mechanic_helpers import getVehicleDescrMechanicParams
 from vehicles.mechanics.mechanic_states import IMechanicStatesComponent
 if typing.TYPE_CHECKING:
@@ -24,14 +24,9 @@ class TemperatureGunController(VehicleDynamicComponent, IGunMechanicComponent, I
         self._initComponent()
         return
 
-    @eventHandler
-    def onCollectAmmoStates(self, ammoStates):
-        ammoStates[self.vehicleMechanic.value] = TemperatureGunAmmoState(self.__mechanicState)
-        return
-
     @property
-    def vehicleMechanic(self):
-        return VehicleMechanic.TEMPERATURE_GUN
+    def vehicleMechanicKey(self):
+        return VehicleMechanicKeys.TEMPERATURE_GUN
 
     @property
     def statesEvents(self):
@@ -46,6 +41,11 @@ class TemperatureGunController(VehicleDynamicComponent, IGunMechanicComponent, I
     def set_stateStatus(self, _=None):
         self._updateComponentAppearance()
         self._updateComponentAvatar()
+        return
+
+    @eventHandler
+    def onCollectAmmoStates(self, ammoStates):
+        ammoStates[self.vehicleMechanicKey.uniqueName] = TemperatureGunAmmoState(self.__mechanicState)
         return
 
     def onDestroy(self):
@@ -72,7 +72,7 @@ class TemperatureGunController(VehicleDynamicComponent, IGunMechanicComponent, I
 
     def _collectComponentParams(self, typeDescriptor):
         super(TemperatureGunController, self)._collectComponentParams(typeDescriptor)
-        mechanicParams = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanic)
+        mechanicParams = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanicKey)
         self.__componentParams = TemperatureGunComponentParams.fromMechanicParams(mechanicParams)
         return
 

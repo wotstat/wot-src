@@ -760,6 +760,8 @@ class MENU(object):
     TANK_PARAMS_SIGHTPOINTERVIEWRANGE = b'#menu:tank_params/sightPointerViewRange'
     TANK_PARAMS_SIGHTPOINTERCONSEALMENTFOLIAGE = b'#menu:tank_params/sightPointerConsealmentFoliage'
     TANK_PARAMS_SIGHTPOINTERCONSEALMENTMOVING = b'#menu:tank_params/sightPointerConsealmentMoving'
+    TANK_PARAMS_COMBATTHROTTLEDURATION = b'#menu:tank_params/combatThrottleDuration'
+    TANK_PARAMS_COMBATTHROTTLECOOLDOWN = b'#menu:tank_params/combatThrottleCooldown'
     EXTRAPARAMS_HEADER = b'#menu:extraParams/header'
     EXTRAPARAMS_MULTIDESC = b'#menu:extraParams/multiDesc'
     EXTRAPARAMS_DESC = b'#menu:extraParams/desc'
@@ -1270,6 +1272,7 @@ class MENU(object):
     MODULEINFO_AUTOLOADERGUN = b'#menu:moduleInfo/autoLoaderGun'
     MODULEINFO_AUTOLOADERGUNBOOST = b'#menu:moduleInfo/autoLoaderGunBoost'
     MODULEINFO_AUTOSHOOTGUN = b'#menu:moduleInfo/autoShootGun'
+    MODULEINFO_COMBATTHROTTLE = b'#menu:moduleInfo/combatThrottle'
     MODULEINFO_DAMAGEMUTABLE = b'#menu:moduleInfo/damageMutable'
     MODULEINFO_DUALACCURACY = b'#menu:moduleInfo/dualAccuracy'
     MODULEINFO_DUALGUN = b'#menu:moduleInfo/dualGun'
@@ -3107,7 +3110,9 @@ class MENU(object):
      TANK_PARAMS_SIGHTPOINTERSELFSPOTTINGTIME,
      TANK_PARAMS_SIGHTPOINTERVIEWRANGE,
      TANK_PARAMS_SIGHTPOINTERCONSEALMENTFOLIAGE,
-     TANK_PARAMS_SIGHTPOINTERCONSEALMENTMOVING)
+     TANK_PARAMS_SIGHTPOINTERCONSEALMENTMOVING,
+     TANK_PARAMS_COMBATTHROTTLEDURATION,
+     TANK_PARAMS_COMBATTHROTTLECOOLDOWN)
     BROWSER_CUSTOMTITLE_ENUM = (
      BROWSER_CUSTOMTITLE_FORT_OFFENSIVERESULT,
      BROWSER_CUSTOMTITLE_FORT_CONGRATULATION)

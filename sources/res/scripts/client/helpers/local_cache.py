@@ -1,13 +1,17 @@
-import base64, shelve
+from __future__ import absolute_import
+import shelve, os, zlib
+from builtins import open
 from collections import defaultdict
 from contextlib import contextmanager
-import os, cPickle
+from future.moves import pickle
+from past.builtins import basestring
 from threading import Lock, Thread
-import types, zlib, BigWorld, Event
-from debug_utils import LOG_WARNING, LOG_CURRENT_EXCEPTION, LOG_ERROR
-from soft_exception import SoftException
 from typing import Tuple
+import BigWorld, Event
+from debug_utils import LOG_WARNING, LOG_CURRENT_EXCEPTION, LOG_ERROR
 from external_strings_utils import unicode_from_utf8
+from py2to3.compat import base64compat
+from soft_exception import SoftException
 
 class CacheIO(object):
 
@@ -55,9 +59,9 @@ class RedirectIO(CacheIO):
 
 
 @contextmanager
-def _open_file(fileName, mode=b'r'):
+def _open_file(fileName, mode=b'r', encoding=None):
     try:
-        fd = open(fileName, mode)
+        fd = open(fileName, mode, encoding=encoding)
     except IOError as error:
         LOG_CURRENT_EXCEPTION()
         yield (None, error)
@@ -206,8 +210,8 @@ class PickleIO(RedirectIO):
 
     def _doRead(self, src):
         try:
-            return cPickle.loads(src)
-        except cPickle.PickleError as error:
+            return pickle.loads(src)
+        except pickle.PickleError as error:
             LOG_WARNING(b'Can not unpickle cache', error)
             return
         except EOFError as error:
@@ -218,8 +222,8 @@ class PickleIO(RedirectIO):
 
     def _doWrite(self, dst):
         try:
-            return cPickle.dumps(dst, -1)
-        except cPickle.PickleError as error:
+            return pickle.dumps(dst, -1)
+        except pickle.PickleError as error:
             LOG_WARNING(b'Can not pickle cache', error)
             return
 
@@ -267,19 +271,18 @@ def makeFileLocalCachePath(space, tags, fileFormat=b'.dat'):
         LOG_WARNING(b'Error while creating directory', dirPath, tags)
         return b''
 
-    tagsType = type(tags)
-    if tagsType is types.TupleType:
+    if isinstance(tags, tuple):
         fileName = (b';').join(map(str, tags))
-    elif tagsType in types.StringTypes:
+    elif isinstance(tags, basestring):
         fileName = tags
     else:
-        LOG_ERROR(b'Type of tags can be string, unicode or tuple', tagsType, tags)
+        LOG_ERROR(b'Type of tags can be string, unicode or tuple', type(tags), tags)
         return b''
     if fileFormat:
         fileFormat = (b'.{0:>s}').format(fileFormat)
     else:
         fileFormat = b''
-    return p.join(dirPath, (b'{0:>s}{1:>s}').format(base64.b32encode(fileName), fileFormat))
+    return p.join(dirPath, (b'{0:>s}{1:>s}').format(base64compat.b32encode(fileName), fileFormat))
 
 
 class FileLocalCache(object):

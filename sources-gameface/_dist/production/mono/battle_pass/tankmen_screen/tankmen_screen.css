@@ -124,7 +124,11 @@
 .Details_label__received_672e99c5::after {
   width: 120%;
   height: 40rem;
-  background: radial-gradient(50% 48.48% at 50% 48.48%, rgba(0, 243, 10, 0.24) 9.46%, rgba(0, 82, 18, 0) 100%);
+  background: radial-gradient(
+    50% 48.48% at 50% 48.48%,
+    rgba(0, 243, 10, 0.24) 9.46%,
+    rgba(0, 82, 18, 0) 100%
+  );
   opacity: 0.8;
   content: "";
   position: absolute;
@@ -133,7 +137,8 @@
   z-index: -1;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}@keyframes Skills_fadeInWithScale_2c9d324a {
+}
+@keyframes Skills_fadeInWithScale_2c9d324a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -241,7 +246,8 @@
 .Skills_zeroIcon_907fac9b {
   width: 18rem;
   height: 18rem;
-  background: url("R.images.gui.maps.icons.battlePass.tankman.new_perks.zero_perk") no-repeat center/contain;
+  background: url("R.images.gui.maps.icons.battlePass.tankman.new_perks.zero_perk") no-repeat
+    center/contain;
   position: absolute;
   top: -18%;
   right: -18%;
@@ -270,7 +276,8 @@
   background-color: #f2f2f7;
   opacity: 0.3;
   pointer-events: none;
-}@keyframes Voice_fadeInWithScale_d1a20ef1 {
+}
+@keyframes Voice_fadeInWithScale_d1a20ef1 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -410,7 +417,8 @@
   0% {
     opacity: 0;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 1;
   }
   100% {
@@ -421,7 +429,8 @@
   0% {
     opacity: 0;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 1;
   }
   100% {
@@ -432,13 +441,15 @@
   0% {
     opacity: 0;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 1;
   }
   100% {
     opacity: 0;
   }
-}@keyframes Tankman_fadeInWithScale_ca952550 {
+}
+@keyframes Tankman_fadeInWithScale_ca952550 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -531,7 +542,8 @@
   width: 460rem;
   height: 770rem;
 }
-.Tankman_base__hover_ca952550, .Tankman_base__active_9fe4dd8e {
+.Tankman_base__hover_ca952550,
+.Tankman_base__active_9fe4dd8e {
   z-index: 2;
 }
 .Tankman_base__disabled_9be07c52 {
@@ -558,10 +570,12 @@
   transform-origin: bottom;
   transition: transform 0.15s ease-in-out;
 }
-.Tankman_base__hover_ca952550 .Tankman_interactiveContainer_8be6d5d0, .Tankman_base__active_9fe4dd8e .Tankman_interactiveContainer_8be6d5d0 {
+.Tankman_base__hover_ca952550 .Tankman_interactiveContainer_8be6d5d0,
+.Tankman_base__active_9fe4dd8e .Tankman_interactiveContainer_8be6d5d0 {
   z-index: 3;
 }
-.Tankman_base__hover_ca952550 .Tankman_interactiveContainer_8be6d5d0::before, .Tankman_base__active_9fe4dd8e .Tankman_interactiveContainer_8be6d5d0::before {
+.Tankman_base__hover_ca952550 .Tankman_interactiveContainer_8be6d5d0::before,
+.Tankman_base__active_9fe4dd8e .Tankman_interactiveContainer_8be6d5d0::before {
   transform: scale(1.05);
 }
 .Tankman_base__muted_ca952550 .Tankman_interactiveContainer_8be6d5d0 {
@@ -577,7 +591,9 @@
   left: 50%;
   transform: translateX(-50%) scale(1);
   transform-origin: bottom;
-  transition: transform 0.15s ease-in-out, filter 0.15s ease-in-out;
+  transition:
+    transform 0.15s ease-in-out,
+    filter 0.15s ease-in-out;
 }
 .mediaLarge .Tankman_image_2e7bae1e {
   width: 580rem;
@@ -587,13 +603,15 @@
   width: 640rem;
   height: 640rem;
 }
-.Tankman_base__hover_ca952550 .Tankman_image_2e7bae1e, .Tankman_base__active_9fe4dd8e .Tankman_image_2e7bae1e {
+.Tankman_base__hover_ca952550 .Tankman_image_2e7bae1e,
+.Tankman_base__active_9fe4dd8e .Tankman_image_2e7bae1e {
   transform: translateX(-50%) scale(1.05);
 }
 .Tankman_base__active_9fe4dd8e .Tankman_image_2e7bae1e {
   filter: brightness(1.2);
 }
-.Tankman_base__muted_ca952550 .Tankman_image_2e7bae1e, .Tankman_base__disabled_9be07c52 .Tankman_image_2e7bae1e {
+.Tankman_base__muted_ca952550 .Tankman_image_2e7bae1e,
+.Tankman_base__disabled_9be07c52 .Tankman_image_2e7bae1e {
   cursor: default;
 }
 
@@ -607,12 +625,15 @@
 .Tankman_voice_a253f649 {
   margin-bottom: 12rem;
   opacity: 0.8;
-  transition: transform 0.15s ease-in-out, opacity 0.15s ease-in-out;
+  transition:
+    transform 0.15s ease-in-out,
+    opacity 0.15s ease-in-out;
 }
 .mediaLarge .Tankman_voice_a253f649 {
   margin-bottom: 20rem;
 }
-.Tankman_base__hover_ca952550 .Tankman_voice_a253f649, .Tankman_base__active_9fe4dd8e .Tankman_voice_a253f649 {
+.Tankman_base__hover_ca952550 .Tankman_voice_a253f649,
+.Tankman_base__active_9fe4dd8e .Tankman_voice_a253f649 {
   opacity: 1;
   transform: translateY(-20rem);
 }
@@ -637,7 +658,8 @@
   margin-bottom: 5rem;
   font-size: 40rem;
   font-weight: 600;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -746,7 +768,8 @@
 }
 .mediaExtraLarge .Content_scrollBar_66a66791 {
   transform: translateY(90rem);
-}@keyframes App_fadeInWithScale_0 {
+}
+@keyframes App_fadeInWithScale_0 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -834,7 +857,8 @@
   width: 100vw;
   height: 100vh;
   padding: 40rem 0;
-  background: url("R.images.gui.maps.icons.battlePass.backgrounds.tankmen_screen") no-repeat center/cover;
+  background: url("R.images.gui.maps.icons.battlePass.backgrounds.tankmen_screen") no-repeat
+    center/cover;
   overflow: hidden;
   position: relative;
 }

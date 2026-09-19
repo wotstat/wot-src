@@ -231,7 +231,9 @@ MEASURE_UNITS = {b'aimingTime': (MENU.TANK_PARAMS_S),
    b'sightPointerSelfSpottingTime': (MENU.TANK_PARAMS_S), 
    b'sightPointerViewRange': (MENU.TANK_PARAMS_M), 
    b'sightPointerConsealmentFoliage': (MENU.TANK_PARAMS_FACTOR), 
-   b'sightPointerConsealmentMoving': (MENU.TANK_PARAMS_FACTOR)}
+   b'sightPointerConsealmentMoving': (MENU.TANK_PARAMS_FACTOR), 
+   b'combatThrottleDuration': (MENU.TANK_PARAMS_S), 
+   b'combatThrottleCooldown': (MENU.TANK_PARAMS_S)}
 MEASURE_UNITS_NO_BRACKETS = {b'weight': (MENU.TANK_PARAMS_NO_BRACKETS_KG), 
    b'cooldownSeconds': (MENU.TANK_PARAMS_NO_BRACKETS_S), 
    b'reloadCooldownSeconds': (MENU.TANK_PARAMS_NO_BRACKETS_S), 
@@ -609,7 +611,7 @@ def _getDeltaSettings():
 
 DELTA_PARAMS_SETTING = _getDeltaSettings()
 SMART_ROUND_PARAMS = {
- 83, 59, 42, 74, 199, 68, 
+ 83, 59, 42, 74, 201, 68, 
  RELOAD_TIME_PROP_NAME, DISPERSION_RADIUS, 32, 
  79, DUAL_GUN_RATE_TIME, DUAL_GUN_CHARGE_TIME, 
  104, CONTINUOUS_SHOTS_PER_MINUTE, 

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import typing
 from enum import unique, IntEnum
 import Event
@@ -193,7 +194,6 @@ ComponentDescr = typing.NamedTuple(b'ComponentDescr', (
   b'ID', str), (b'viewType', GuiType), (b'viewId', str), (b'path', str)))
 
 class IGuiImpl(object):
-    __slots__ = (b'onComponentFound', b'onTriggerActivated', b'onComponentDisposed', b'onEffectCompleted', b'onInit')
     if typing.TYPE_CHECKING:
         onComponentFound = None
         onComponentDisposed = None
@@ -217,7 +217,7 @@ class IGuiImpl(object):
         raise NotImplementedError
         return
 
-    def setDescriptions(self, items):
+    def setDescriptions(self, descriptions):
         raise NotImplementedError
         return
 

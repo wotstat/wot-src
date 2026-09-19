@@ -1,4 +1,7 @@
+from __future__ import absolute_import
 import itertools, logging, sys, typing
+from future.utils import viewitems, viewvalues
+from past.builtins import basestring
 from gui.Scaleform.locale.RES_ICONS import RES_ICONS
 from gui.server_events.awards_formatters import AWARDS_SIZES
 from gui.server_events.bonuses import HIDDEN_BONUSES
@@ -21,7 +24,7 @@ class _RequestQuestBonusSchema(W2CSchema):
 
 
 class _RawQuestConditionsFormatters(CardBattleConditionsFormatters):
-    MAX_CONDITIONS_IN_CARD = sys.maxint
+    MAX_CONDITIONS_IN_CARD = sys.maxsize
     ICON_SIZE = CONDITION_SIZE.NORMAL
 
     def _getFormattedField(self, field):
@@ -40,7 +43,7 @@ def _formatQuestBonuses(quest):
         if any(isinstance(bonus, hb) for hb in HIDDEN_BONUSES):
             continue
         for item in bonus.getWrappedEpicBonusList():
-            icon = {size: sanitizeResPath(path) for size, path in item.get(b'icon').iteritems()}
+            icon = {size: sanitizeResPath(path) for size, path in viewitems(item.get(b'icon'))}
             entries.append({b'id': (item.get(b'id', 0)), 
                b'type': (item[b'type']), 
                b'icon': icon, 
@@ -68,7 +71,7 @@ class QuestsWebApi(W2CSchema):
     def handleGetTokens(self, command):
         tokens = self._eventsCache.questsProgress.getTokensData()
         if hasattr(command, b'ids') and command.ids:
-            tokens = {k: v for k, v in tokens.iteritems() if k in command.ids}
+            tokens = {k: v for k, v in viewitems(tokens) if k in command.ids}
         return {b'token_list': tokens, b'action': b'get_tokens'}
 
     @w2c(_QuestsSchema, b'get_quests')
@@ -80,7 +83,7 @@ class QuestsWebApi(W2CSchema):
 
         else:
             filterFunc = None
-        data = {qID: _questAsDict(quest) for qID, quest in self._eventsCache.getActiveQuests(filterFunc=filterFunc).iteritems()}
+        data = {qID: _questAsDict(quest) for qID, quest in viewitems(self._eventsCache.getActiveQuests(filterFunc=filterFunc))}
         return data
 
     @w2c(_QuestsSchema, b'get_quests_old')
@@ -98,7 +101,7 @@ class QuestsWebApi(W2CSchema):
 
         quests = self._eventsCache.questsProgress.getQuestsData()
         if hasattr(command, b'ids') and command.ids:
-            quests = {k: v for k, v in quests.iteritems() if k in command.ids}
+            quests = {k: v for k, v in viewitems(quests) if k in command.ids}
         quests = {k: _processQuest(v, self._eventsCache.getHiddenQuests().get(k)) for k, v in quests.items()}
         return {b'quest_list': quests, 
            b'action': b'get_quests'}
@@ -118,7 +121,7 @@ class QuestsWebApi(W2CSchema):
         questInfo = {}
         questIdBase = cmd.quest_id_base
         allQuests = self._eventsCache.getAllQuests(filterFunc=(lambda q: q.getID().startswith(questIdBase)))
-        for questData in allQuests.itervalues():
+        for questData in viewvalues(allQuests):
             questInfo[b'title'] = questData.getUserName()
             questInfo[b'description'] = questData.getDescription()
             iconKey = questData.getID().replace(questIdBase, b'').lstrip(b'_')

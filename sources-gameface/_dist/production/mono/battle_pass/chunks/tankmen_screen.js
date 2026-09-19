@@ -1,1 +1,380 @@
-import{g as e,w as a,f as s,j as n,R as t,r as i,k as l}from"./vendor.js";import{i as o,e as _,m as c,K as r,r as d,ac as b,k as m,n as k,G as u,B as v,o as p,bU as h,bN as f,p as S,bl as N,bj as w,bq as g,b as x,bz as j}from"./lib.js";import{N as I,T as P}from"./constants.js";/* empty css      */const V={battlePass:{chapterChoice:"/battlePass/chapterChoice",progression:"/battlePass/progression",postProgression:"/battlePass/postProgression",buyPass:"/battlePass/buyPass",buyPassRewards:"/battlePass/buyPassRewards",buyLevels:"/battlePass/buyLevels",buyLevelsRewards:"/battlePass/buyLevelsRewards",holidayFinal:"/battlePass/holidayFinal",tankmenScreen:"/battlePass/tankmenScreen"}},[y,T]=o()(({observableModel:a})=>{const s={tankmenList:a.array("tankmen")};return{computes:{getTankmenList:e(()=>c(s.tankmenList.get(),r),{equals:_})}}},({externalModel:e})=>({showShop:e.createCallback(e=>({tankmanGroupName:e}),"showShop")}));var O=(e=>(e.RECEIVED="received",e.PROGRESSION="progression",e.IN_SHOP="inShop",e.NOT_FULL="notFull",e.UNAVAILABLE="unavailable",e))(O||{});const C={base:"Details_f71cbec7",base__received:"Details_base__received_cc86090a",button:"Details_button_7162adb1",label:"Details_label_53b1bce8",label__received:"Details_label__received_672e99c5",fadeInWithScale:"Details_fadeInWithScale_43c92208",slideUp:"Details_slideUp_43c92208",blink:"Details_blink_43c92208",scale:"Details_scale_43c92208",rotate:"Details_rotate_43c92208",windowIn:"Details_windowIn_43c92208",fadeOut:"Details_fadeOut_43c92208",fadeIn:"Details_fadeIn_43c92208"},L=d.resolve("strings"),D=a(({tankman:e,className:a})=>{const{controls:t}=T(),{state:i,progressionLevel:l,count:o,availableCount:_,groupName:c,chapterID:r}=e,d=b(),h=m({buttonSize:k.extraSmall},{large:{buttonSize:k.small}}),f=L.readOrEmpty(`battle_pass.tankmenVoiceover.${i}`),S=s(C.label,C[`label__${i}`]),N=(()=>{switch(i){case O.PROGRESSION:return n.jsx(u,{classMix:S,text:f,binding:{progressionLevel:l}});case O.NOT_FULL:return n.jsx(u,{classMix:S,text:f,binding:{availableCount:_,count:o}});default:return n.jsx("span",{className:S,children:f})}})(),w=(()=>{switch(i){case O.PROGRESSION:return{label:L.readOrEmpty("battle_pass.tankmenVoiceover.chapterButton"),handler:()=>d.push(V.battlePass.progression,{chapterID:r})};case O.IN_SHOP:case O.NOT_FULL:return{label:L.readOrEmpty("battle_pass.tankmenVoiceover.shopButton"),handler:()=>t.showShop(c)};default:return null}})();return n.jsxs("div",{className:s(C.base,C[`base__${i}`],a),children:[N,w&&n.jsx(v,{onClick:w.handler,className:C.button,theme:p.secondary,size:h.buttonSize,children:w.label})]})}),E={base:"Skills_12e25c21",skill:"Skills_skill_8dd2237b",skill__specificPerk:"Skills_skill__specificPerk_9fedba",tooltip:"Skills_tooltip_313e3831",zeroIcon:"Skills_zeroIcon_907fac9b",icon:"Skills_icon_f9b466d4",icon__new_skill:"Skills_icon__new_skill_dfb9653d",divider:"Skills_divider_693bc0a8",fadeInWithScale:"Skills_fadeInWithScale_2c9d324a",slideUp:"Skills_slideUp_2c9d324a",blink:"Skills_blink_2c9d324a",scale:"Skills_scale_2c9d324a",rotate:"Skills_rotate_2c9d324a",windowIn:"Skills_windowIn_2c9d324a",fadeOut:"Skills_fadeOut_2c9d324a",fadeIn:"Skills_fadeIn_2c9d324a"},$=d.resolve("images"),U=({skills:e,className:a})=>{const i=h(e,e=>e.isZero);return n.jsx("div",{className:s(E.base,a),children:c(e,(e,a)=>{const{name:l,isZero:o}=e,_=l!==I,c=a===i&&!_;return n.jsxs(t.Fragment,{children:[n.jsx(f,{contentId:R.views.mono.battle_pass.tooltips.crew_member_skill("resId"),args:{name:l,isZero:o,hasZeroPerk:void 0!==i},children:n.jsxs("div",{className:s(E.skill,_&&E.skill__specificPerk),children:[o&&!_&&n.jsx("div",{className:E.zeroIcon}),n.jsx("div",{className:s(E.icon,E[`icon__${l}`]),style:{backgroundImage:`url(${$.readOrEmpty(`battlePass.tankman.new_perks.icon_perk_${l}`)})`}})]})}),c&&n.jsx("div",{className:E.divider})]},`${e.name}_${a}`)})})},z={base:"Voice_cd68eca5",icon:"Voice_icon_a4c0c739",icon__speaker:"Voice_icon__speaker_96c5b33",icon__wave0:"Voice_icon__wave0_86731afb",base__animate:"Voice_base__animate_d1a20ef1",wave0:"Voice_wave0_d1a20ef1",icon__wave1:"Voice_icon__wave1_a21172b8",wave1:"Voice_wave1_d1a20ef1",icon__wave2:"Voice_icon__wave2_8dd59152",wave2:"Voice_wave2_d1a20ef1",label:"Voice_label_5b3d7cf5",base__hover:"Voice_base__hover_d1a20ef1",fadeInWithScale:"Voice_fadeInWithScale_d1a20ef1",slideUp:"Voice_slideUp_d1a20ef1",blink:"Voice_blink_d1a20ef1",scale:"Voice_scale_d1a20ef1",rotate:"Voice_rotate_d1a20ef1",windowIn:"Voice_windowIn_d1a20ef1",fadeOut:"Voice_fadeOut_d1a20ef1",fadeIn:"Voice_fadeIn_d1a20ef1"},A=d.resolve("strings"),B=(()=>{const e=Math.ceil(P/800);return{duration:800,iterationCount:e,totalDuration:800*e}})(),W=({isHovered:e,isPlayingSound:a,className:t})=>n.jsxs("div",{className:s(z.base,e&&z.base__hover,a&&z.base__animate,t),style:{"--animation-duration":`${B.duration}ms`,"--animation-iteration-count":B.iterationCount},children:[n.jsx("div",{className:s(z.icon,z.icon__speaker)}),Array.from({length:3},(e,a)=>n.jsx("div",{className:s(z.icon,z[`icon__wave${a}`])},`wave${a}`)),n.jsx("div",{className:z.label,children:A.readOrEmpty("battle_pass.tankmenVoiceover.listen")})]}),F={base:"Tankman_90661404",base__hover:"Tankman_base__hover_ca952550",base__active:"Tankman_base__active_9fe4dd8e",base__disabled:"Tankman_base__disabled_9be07c52",interactiveContainer:"Tankman_interactiveContainer_8be6d5d0",base__muted:"Tankman_base__muted_ca952550",image:"Tankman_image_2e7bae1e",content:"Tankman_content_a12559ff",voice:"Tankman_voice_a253f649",skills:"Tankman_skills_771bfa6a",name:"Tankman_name_eb347b56"},M=d.resolve("images"),H=({tankman:e,activeTankman:a,setActiveTankman:t})=>{const{groupName:l,fullName:o,hasVoiceover:_,skills:c}=e,r=Boolean(a)&&a!==l,[d,b]=i.useState(!1),[m,k]=i.useState(!1),[u,v]=i.useState(!1);return i.useEffect(()=>{m&&!r&&_&&(b(!0),S.sound(R.sounds.bp_highlight()))},[r,m,_]),n.jsxs("div",{className:s(F.base,r&&F.base__disabled,u&&F.base__active,d&&F.base__hover,!_&&F.base__muted),children:[n.jsx("div",{className:F.interactiveContainer,onClick:()=>{u||r||!_||(t(l),v(!0),S.sound(R.sounds.play()),S.sound(l),setTimeout(()=>{v(!1),t("")},P))},onMouseEnter:()=>{!r&&_?(b(!0),S.sound(R.sounds.bp_highlight())):k(!0)},onMouseLeave:()=>{b(!1),k(!1)},children:_&&n.jsx(W,{className:F.voice,isHovered:d,isPlayingSound:u})}),n.jsx("div",{className:F.image,style:{backgroundImage:`url(${M.readOrEmpty(`battlePass.tankman.persons.commander_${l}`)})`}}),n.jsxs("div",{className:F.content,children:[c.length>0&&n.jsx(U,{className:F.skills,skills:c}),n.jsx("span",{className:F.name,children:o}),n.jsx(D,{className:F.details,tankman:e})]})]})},G="Content_bd627888",Z="Content_scrollWrapper_722ae7d9",q="Content_scrollWrapper__hasScroll_24bcd139",K="Content_scrollContent_bc619017",J="Content_scrollBar_66a66791",Q=a(({className:e})=>{const{model:{computes:a}}=T(),s=a.getTankmenList(),[t,o]=i.useState(""),{api:_}=N(),[c,r]=i.useState(!1),d=i.useCallback(()=>{const[e,a]=_.getBounds();r(e!==a)},[_]);return i.useEffect(()=>(_.events.on("resizeHandled",d),()=>{_.events.off("resizeHandled",d)}),[_.events,d]),n.jsxs("div",{className:l(G,e),children:[n.jsx(w,{classNames:{wrapper:l(Z,c&&q),content:K},children:s.map((e,a)=>n.jsx(H,{tankman:e,activeTankman:t,setActiveTankman:o},`tankman-${a}`))}),n.jsx(g,{classNames:{base:J}})]})}),X="App_7603ab20",Y="App_content_927ebd71",ee=()=>{const e=b();return x(e.goBack),n.jsx("div",{className:X,children:n.jsx(j,{children:n.jsx(Q,{className:Y})})})},ae=()=>n.jsx(y,{options:{rootId:R.aliases.battle_pass.TankmenScreen("resId")},children:n.jsx(ee,{})});export{ae as T,V as r};
+import { r as e } from "./rolldown-runtime.js";
+import {
+  Br as a,
+  Ct as s,
+  Et as n,
+  Hr as t,
+  In as i,
+  Or as l,
+  Qr as _,
+  Qt as o,
+  R as c,
+  Tt as r,
+  Xn as d,
+  _n as b,
+  _t as m,
+  bt as k,
+  ci as u,
+  gn as v,
+  gt as p,
+  pi as h,
+  pt as f,
+  qn as S,
+  ui as w,
+  wr as g,
+  wt as I,
+  yt as N,
+} from "./lib.js";
+import "./global.js";
+import { h as x } from "./vendor.js";
+import { n as j, t as P } from "./constants.js";
+var T = e(w(), 1),
+  V = e(o(), 1),
+  y = {
+    root: "/hangar",
+    battlePass: {
+      chapterChoice: "/battlePass/chapterChoice",
+      progression: "/battlePass/progression",
+      postProgression: "/battlePass/postProgression",
+      intro: "/battlePass/intro",
+      buyPass: "/battlePass/buyPass",
+      buyPassRewards: "/battlePass/buyPassRewards",
+      buyLevels: "/battlePass/buyLevels",
+      buyLevelsRewards: "/battlePass/buyLevelsRewards",
+      holidayFinal: "/battlePass/holidayFinal",
+      tankmenScreen: "/battlePass/tankmenScreen",
+    },
+  },
+  [O, C] = b()(
+    ({ observableModel: e }) => {
+      const s = { tankmenList: e.array("tankmen") };
+      return { computes: { getTankmenList: v(() => l(s.tankmenList.get(), t), { equals: a }) } };
+    },
+    ({ externalModel: e }) => ({
+      showShop: e.createCallback((e) => ({ tankmanGroupName: e }), "showShop"),
+    }),
+  ),
+  L = (function (e) {
+    return (
+      (e.RECEIVED = "received"),
+      (e.PROGRESSION = "progression"),
+      (e.IN_SHOP = "inShop"),
+      (e.NOT_FULL = "notFull"),
+      (e.UNAVAILABLE = "unavailable"),
+      e
+    );
+  })({}),
+  D = {
+    base: "Details_f71cbec7",
+    base__received: "Details_base__received_cc86090a",
+    button: "Details_button_7162adb1",
+    label: "Details_label_53b1bce8",
+    label__received: "Details_label__received_672e99c5",
+    fadeInWithScale: "Details_fadeInWithScale_43c92208",
+    slideUp: "Details_slideUp_43c92208",
+    blink: "Details_blink_43c92208",
+    scale: "Details_scale_43c92208",
+    rotate: "Details_rotate_43c92208",
+    windowIn: "Details_windowIn_43c92208",
+    fadeOut: "Details_fadeOut_43c92208",
+    fadeIn: "Details_fadeIn_43c92208",
+  },
+  E = d(),
+  $ = h.resolve("strings"),
+  U = x(({ tankman: e, className: a }) => {
+    const { controls: t } = C(),
+      {
+        state: i,
+        progressionLevel: l,
+        count: _,
+        availableCount: o,
+        groupName: c,
+        chapterID: d,
+      } = e,
+      b = s(),
+      m = S({ buttonSize: r.extraSmall }, { large: { buttonSize: r.small } }),
+      v = $.readOrEmpty(`battle_pass.tankmenVoiceover.${i}`),
+      p = u(D.label, D[`label__${i}`]),
+      h = (() => {
+        switch (i) {
+          case L.PROGRESSION:
+            return (0, E.jsx)(k, { classMix: p, text: v, binding: { progressionLevel: l } });
+          case L.NOT_FULL:
+            return (0, E.jsx)(k, {
+              classMix: p,
+              text: v,
+              binding: { availableCount: o, count: _ },
+            });
+          default:
+            return (0, E.jsx)("span", { className: p, children: v });
+        }
+      })(),
+      f = (() => {
+        switch (i) {
+          case L.PROGRESSION:
+            return {
+              label: $.readOrEmpty("battle_pass.tankmenVoiceover.chapterButton"),
+              handler: () => b.push(y.battlePass.progression, { chapterID: d }),
+            };
+          case L.IN_SHOP:
+          case L.NOT_FULL:
+            return {
+              label: $.readOrEmpty("battle_pass.tankmenVoiceover.shopButton"),
+              handler: () => t.showShop(c),
+            };
+          default:
+            return null;
+        }
+      })();
+    return (0, E.jsxs)("div", {
+      className: u(D.base, D[`base__${i}`], a),
+      children: [
+        h,
+        f &&
+          (0, E.jsx)(I, {
+            onClick: f.handler,
+            className: D.button,
+            theme: n.secondary,
+            size: m.buttonSize,
+            children: f.label,
+          }),
+      ],
+    });
+  }),
+  W = {
+    base: "Skills_12e25c21",
+    skill: "Skills_skill_8dd2237b",
+    skill__specificPerk: "Skills_skill__specificPerk_9fedba",
+    tooltip: "Skills_tooltip_313e3831",
+    zeroIcon: "Skills_zeroIcon_907fac9b",
+    icon: "Skills_icon_f9b466d4",
+    icon__new_skill: "Skills_icon__new_skill_dfb9653d",
+    divider: "Skills_divider_693bc0a8",
+    fadeInWithScale: "Skills_fadeInWithScale_2c9d324a",
+    slideUp: "Skills_slideUp_2c9d324a",
+    blink: "Skills_blink_2c9d324a",
+    scale: "Skills_scale_2c9d324a",
+    rotate: "Skills_rotate_2c9d324a",
+    windowIn: "Skills_windowIn_2c9d324a",
+    fadeOut: "Skills_fadeOut_2c9d324a",
+    fadeIn: "Skills_fadeIn_2c9d324a",
+  },
+  z = h.resolve("images"),
+  A = ({ skills: e, className: a }) => {
+    const s = g(e, (e) => e.isZero);
+    return (0, E.jsx)("div", {
+      className: u(W.base, a),
+      children: l(e, (e, a) => {
+        const { name: n, isZero: t } = e,
+          i = n !== P,
+          l = a === s && !i;
+        return (0, E.jsxs)(
+          T.Fragment,
+          {
+            children: [
+              (0, E.jsx)(c, {
+                contentId: R.views.mono.battle_pass.tooltips.crew_member_skill("resId"),
+                args: { name: n, isZero: t, hasZeroPerk: void 0 !== s },
+                children: (0, E.jsxs)("div", {
+                  className: u(W.skill, i && W.skill__specificPerk),
+                  children: [
+                    t && !i && (0, E.jsx)("div", { className: W.zeroIcon }),
+                    (0, E.jsx)("div", {
+                      className: u(W.icon, W[`icon__${n}`]),
+                      style: {
+                        backgroundImage: `url(${z.readOrEmpty(`battlePass.tankman.new_perks.icon_perk_${n}`)})`,
+                      },
+                    }),
+                  ],
+                }),
+              }),
+              l && (0, E.jsx)("div", { className: W.divider }),
+            ],
+          },
+          `${e.name}_${a}`,
+        );
+      }),
+    });
+  },
+  B = {
+    base: "Voice_cd68eca5",
+    icon: "Voice_icon_a4c0c739",
+    icon__speaker: "Voice_icon__speaker_96c5b33",
+    icon__wave0: "Voice_icon__wave0_86731afb",
+    base__animate: "Voice_base__animate_d1a20ef1",
+    wave0: "Voice_wave0_d1a20ef1",
+    icon__wave1: "Voice_icon__wave1_a21172b8",
+    wave1: "Voice_wave1_d1a20ef1",
+    icon__wave2: "Voice_icon__wave2_8dd59152",
+    wave2: "Voice_wave2_d1a20ef1",
+    label: "Voice_label_5b3d7cf5",
+    base__hover: "Voice_base__hover_d1a20ef1",
+    fadeInWithScale: "Voice_fadeInWithScale_d1a20ef1",
+    slideUp: "Voice_slideUp_d1a20ef1",
+    blink: "Voice_blink_d1a20ef1",
+    scale: "Voice_scale_d1a20ef1",
+    rotate: "Voice_rotate_d1a20ef1",
+    windowIn: "Voice_windowIn_d1a20ef1",
+    fadeOut: "Voice_fadeOut_d1a20ef1",
+    fadeIn: "Voice_fadeIn_d1a20ef1",
+  },
+  F = h.resolve("strings"),
+  H = (() => {
+    const e = Math.ceil(j / 800);
+    return { duration: 800, iterationCount: e, totalDuration: 800 * e };
+  })(),
+  M = ({ isHovered: e, isPlayingSound: a, className: s }) =>
+    (0, E.jsxs)("div", {
+      className: u(B.base, e && B.base__hover, a && B.base__animate, s),
+      style: {
+        "--animation-duration": `${H.duration}ms`,
+        "--animation-iteration-count": H.iterationCount,
+      },
+      children: [
+        (0, E.jsx)("div", { className: u(B.icon, B.icon__speaker) }),
+        Array.from({ length: 3 }, (e, a) =>
+          (0, E.jsx)("div", { className: u(B.icon, B[`icon__wave${a}`]) }, `wave${a}`),
+        ),
+        (0, E.jsx)("div", {
+          className: B.label,
+          children: F.readOrEmpty("battle_pass.tankmenVoiceover.listen"),
+        }),
+      ],
+    }),
+  G = {
+    base: "Tankman_90661404",
+    base__hover: "Tankman_base__hover_ca952550",
+    base__active: "Tankman_base__active_9fe4dd8e",
+    base__disabled: "Tankman_base__disabled_9be07c52",
+    interactiveContainer: "Tankman_interactiveContainer_8be6d5d0",
+    base__muted: "Tankman_base__muted_ca952550",
+    image: "Tankman_image_2e7bae1e",
+    content: "Tankman_content_a12559ff",
+    voice: "Tankman_voice_a253f649",
+    skills: "Tankman_skills_771bfa6a",
+    name: "Tankman_name_eb347b56",
+    fadeInWithScale: "Tankman_fadeInWithScale_ca952550",
+    slideUp: "Tankman_slideUp_ca952550",
+    blink: "Tankman_blink_ca952550",
+    scale: "Tankman_scale_ca952550",
+    rotate: "Tankman_rotate_ca952550",
+    windowIn: "Tankman_windowIn_ca952550",
+    fadeOut: "Tankman_fadeOut_ca952550",
+    fadeIn: "Tankman_fadeIn_ca952550",
+  },
+  Z = h.resolve("images"),
+  q = ({ tankman: e, activeTankman: a, setActiveTankman: s }) => {
+    const { groupName: n, fullName: t, hasVoiceover: i, skills: l } = e,
+      o = Boolean(a) && a !== n,
+      [c, r] = (0, T.useState)(!1),
+      [d, b] = (0, T.useState)(!1),
+      [m, k] = (0, T.useState)(!1);
+    return (
+      (0, T.useEffect)(() => {
+        d && !o && i && (r(!0), _.sound(R.sounds.bp_highlight()));
+      }, [o, d, i]),
+      (0, E.jsxs)("div", {
+        className: u(
+          G.base,
+          o && G.base__disabled,
+          m && G.base__active,
+          c && G.base__hover,
+          !i && G.base__muted,
+        ),
+        children: [
+          (0, E.jsx)("div", {
+            className: G.interactiveContainer,
+            onClick: () => {
+              m ||
+                o ||
+                !i ||
+                (s(n),
+                k(!0),
+                _.sound(R.sounds.play()),
+                _.sound(n),
+                setTimeout(() => {
+                  (k(!1), s(""));
+                }, j));
+            },
+            onMouseEnter: () => {
+              !o && i ? (r(!0), _.sound(R.sounds.bp_highlight())) : b(!0);
+            },
+            onMouseLeave: () => {
+              (r(!1), b(!1));
+            },
+            children: i && (0, E.jsx)(M, { className: G.voice, isHovered: c, isPlayingSound: m }),
+          }),
+          (0, E.jsx)("div", {
+            className: G.image,
+            style: {
+              backgroundImage: `url(${Z.readOrEmpty(`battlePass.tankman.persons.commander_${n}`)})`,
+            },
+          }),
+          (0, E.jsxs)("div", {
+            className: G.content,
+            children: [
+              l.length > 0 && (0, E.jsx)(A, { className: G.skills, skills: l }),
+              (0, E.jsx)("span", { className: G.name, children: t }),
+              (0, E.jsx)(U, { className: G.details, tankman: e }),
+            ],
+          }),
+        ],
+      })
+    );
+  },
+  Q = "Content_bd627888",
+  X = "Content_scrollWrapper_722ae7d9",
+  J = "Content_scrollWrapper__hasScroll_24bcd139",
+  K = "Content_scrollContent_bc619017",
+  Y = "Content_scrollBar_66a66791",
+  ee = x(({ className: e }) => {
+    const {
+        model: { computes: a },
+      } = C(),
+      s = a.getTankmenList(),
+      [n, t] = (0, T.useState)(""),
+      { api: i } = N(),
+      [l, _] = (0, T.useState)(!1),
+      o = (0, T.useCallback)(() => {
+        const [e, a] = i.getBounds();
+        _(e !== a);
+      }, [i]);
+    return (
+      (0, T.useEffect)(
+        () => (
+          i.events.on("resizeHandled", o),
+          () => {
+            i.events.off("resizeHandled", o);
+          }
+        ),
+        [i.events, o],
+      ),
+      (0, E.jsxs)("div", {
+        className: (0, V.default)(Q, e),
+        children: [
+          (0, E.jsx)(p, {
+            classNames: { wrapper: (0, V.default)(X, l && J), content: K },
+            children: s.map((e, a) =>
+              (0, E.jsx)(q, { tankman: e, activeTankman: n, setActiveTankman: t }, `tankman-${a}`),
+            ),
+          }),
+          (0, E.jsx)(m, { classNames: { base: Y } }),
+        ],
+      })
+    );
+  }),
+  ae = "App_7603ab20",
+  se = "App_content_927ebd71",
+  ne = () => (
+    i(s().goBack),
+    (0, E.jsx)("div", {
+      className: ae,
+      children: (0, E.jsx)(f, { children: (0, E.jsx)(ee, { className: se }) }),
+    })
+  ),
+  te = () =>
+    (0, E.jsx)(O, {
+      options: { rootId: R.aliases.battle_pass.TankmenScreen("resId") },
+      children: (0, E.jsx)(ne, {}),
+    });
+export { y as n, te as t };

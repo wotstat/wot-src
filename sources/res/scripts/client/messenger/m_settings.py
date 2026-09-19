@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 from collections import namedtuple, defaultdict
+from future.utils import viewitems, viewvalues
 import Event
 from debug_utils import LOG_ERROR
 from helpers import dependency
@@ -48,13 +50,13 @@ class _ColorScheme(defaultdict):
         return (b'{0:06X}').format(self[key][self.__current])
 
     def iterColors(self):
-        for key, colors in self.iteritems():
+        for key, colors in viewitems(self):
             yield (key, colors[self.__current])
 
         return
 
     def iterHexs(self):
-        for key, colors in self.iteritems():
+        for key, colors in viewitems(self):
             yield (
              key, (b'{0:06X}').format(colors[self.__current]))
 
@@ -183,7 +185,7 @@ class MessengerSettings(object):
             csName = b'colorBlind'
         else:
             csName = b'default'
-        for colorScheme in self.__colorsSchemes.itervalues():
+        for colorScheme in viewvalues(self.__colorsSchemes):
             colorScheme.setCurrent(csName)
 
         return
@@ -219,7 +221,7 @@ class MessengerSettings(object):
     def __accs_onSettingsChanged(self, diff):
         if b'isColorBlind' in diff:
             result = False
-            for colorScheme in self.__colorsSchemes.itervalues():
+            for colorScheme in viewvalues(self.__colorsSchemes):
                 csName = b'colorBlind' if diff[b'isColorBlind'] else b'default'
                 if colorScheme.setCurrent(csName):
                     result = True

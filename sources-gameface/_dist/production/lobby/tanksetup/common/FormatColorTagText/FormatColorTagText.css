@@ -1,127 +1,126 @@
 .ShortenedText_base_d255a {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 18rem;
-    opacity: 0;
-    overflow: hidden;
-    transition: opacity ease .2s;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: 18rem;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity ease 0.2s;
 }
 
-    .ShortenedText_base__shown_f9822 {
-        opacity: 1;
-    }
+.ShortenedText_base__shown_f9822 {
+  opacity: 1;
+}
 
 .FormatText_base_f27a4 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .FormatTextWithColorTags_blackReal_ae104 {
-    color: #000000;
+  color: #000000;
 }
 
 .FormatTextWithColorTags_whiteReal_c12a8 {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .FormatTextWithColorTags_white_c5665 {
-    color: #F2F2F7;
+  color: #f2f2f7;
 }
 
 .FormatTextWithColorTags_whiteOrange_fff65 {
-    color: #FEFEEC;
+  color: #fefeec;
 }
 
 .FormatTextWithColorTags_whiteSpanish_d24b3 {
-    color: #E9E2BF;
+  color: #e9e2bf;
 }
 
 .FormatTextWithColorTags_par_ee7d9 {
-    color: #8C8C7E;
+  color: #8c8c7e;
 }
 
 .FormatTextWithColorTags_parSecondary_a5b8c {
-    color: #595950;
+  color: #595950;
 }
 
 .FormatTextWithColorTags_parTertiary_a0c09 {
-    color: #37362E;
+  color: #37362e;
 }
 
 .FormatTextWithColorTags_red_ad70c {
-    color: #FF2717;
+  color: #ff2717;
 }
 
 .FormatTextWithColorTags_redDark_afb30 {
-    color: #B70000;
+  color: #b70000;
 }
 
 .FormatTextWithColorTags_yellow_e47d1 {
-    color: #FEAB34;
+  color: #feab34;
 }
 
 .FormatTextWithColorTags_orange_e08c4 {
-    color: #EE7000;
+  color: #ee7000;
 }
 
 .FormatTextWithColorTags_cream_f2e96 {
-    color: #FFDD99;
+  color: #ffdd99;
 }
 
 .FormatTextWithColorTags_brown_ed7be {
-    color: #CBAC77;
+  color: #cbac77;
 }
 
 .FormatTextWithColorTags_greenBright_b0875 {
-    color: #80D43A;
+  color: #80d43a;
 }
 
 .FormatTextWithColorTags_green_d0263 {
-    color: #7AB300;
+  color: #7ab300;
 }
 
 .FormatTextWithColorTags_greenDark_f19b8 {
-    color: #497212;
+  color: #497212;
 }
 
 .FormatTextWithColorTags_blueBooster_fd3be {
-    color: #CCFFFF;
+  color: #ccffff;
 }
 
 .FormatTextWithColorTags_blueTeamkiller_fd915 {
-    color: #09E2FF;
+  color: #09e2ff;
 }
 
 .FormatTextWithColorTags_cred_fdafa {
-    color: #CED9D9;
+  color: #ced9d9;
 }
 
 .FormatTextWithColorTags_gold_ab90e {
-    color: #FFC363;
+  color: #ffc363;
 }
 
 .FormatTextWithColorTags_bond_e83f5 {
-    color: #C9C9B6;
+  color: #c9c9b6;
 }
 
 .FormatTextWithColorTags_prom_aa30c {
-    color: #A29B70;
+  color: #a29b70;
 }
 
 /* This specific rule is used to fix https://jira.wargaming.net/browse/WOTPRG-9871 */
 
 .FormatTextWithColorTags_parNoWidth_bf7ac {
-    width: 0;
-    color: #8C8C7E;
+  width: 0;
+  color: #8c8c7e;
 }
 
 .FormatColorTagText_base_c8ac0 {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .FormatColorTagText_text_d64ad {
-    flex: 0 1;
+  flex: 0 1;
 }
-

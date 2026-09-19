@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from future.utils import viewitems
 from shared_utils import findFirst
 from messenger.m_constants import USER_ACTION_ID, USER_TAG, PROTO_TYPE, CLIENT_ACTION_ID
 from messenger.proto.xmpp import entities, errors
@@ -118,7 +120,7 @@ class SyncBlockItemTask(IQTask):
         return
 
     def set(self, pyGlooxTag):
-        for xPath, clazz in self._handlers.iteritems():
+        for xPath, clazz in viewitems(self._handlers):
             result = pyGlooxTag.filterXPath(xPath)
             if not result:
                 continue

@@ -1,4 +1,6 @@
+from __future__ import absolute_import
 import typing
+from future.utils import viewitems
 from frameworks.wulf import WindowLayer
 from gui.Scaleform.framework.entities.DisposableEntity import EntityState
 from gui.Scaleform.framework.managers.containers import POP_UP_CRITERIA
@@ -39,7 +41,7 @@ def getRewardList(progressInfo, isBattlePassActive, forBattleResults=False):
         return rewardsList
     else:
         tasksToComplete = progressInfo.get(b'tasksToComplete', {})
-        for missionId, tasksProgression in progressInfo.get(b'tasksProgression', {}).iteritems():
+        for missionId, tasksProgression in viewitems(progressInfo.get(b'tasksProgression', {})):
             mission = missionSettings.getMission(missionId)
             if mission is not None:
                 rewardsList += mission.getTasksReward([taskId for taskId in tasksProgression if tasksToComplete.get((missionId, taskId), True)], isBattlePassActive)
@@ -56,7 +58,7 @@ def getTasksCount(progressInfo):
     tasksToComplete = progressInfo.get(b'tasksToComplete', {})
     tasksToCompleteCount = len(tasksToComplete)
     completedTasksCount = 0
-    for missionID, tasks in progressInfo.get(b'tasksProgression', {}).iteritems():
+    for missionID, tasks in viewitems(progressInfo.get(b'tasksProgression', {})):
         for taskID in tasks:
             if (
              missionID, taskID) in tasksToComplete:
@@ -71,7 +73,7 @@ def formatAndFillRewards(rewards, rewardsModel, idGenerator, bonusCache, maxBonu
     formatter = StoryModeBonusesAwardsComposer(maxBonusesInView, AwardsPacker(getSMFormattersMap()))
     bonusRewards = formatter.getFormattedBonuses(rewards, AWARDS_SIZES.BIG)
     for bonus in bonusRewards:
-        tooltipId = (b'{}').format(idGenerator.next())
+        tooltipId = (b'{}').format(next(idGenerator))
         bonusCache[tooltipId] = bonus
         rewardItem = RewardModel()
         rewardItem.setName(bonus.bonusName)

@@ -1,0 +1,10 @@
+class HW_BATTLE_NOTIFICATIONS_TIMER_TYPES(object):
+    MAGNUS_GOTO = b'magnusGoTo'
+    MAGNUS_WAIT = b'magnusWait'
+    HW_DEATH_ZONE = b'hwDeathZone'
+    HW_DRAIN_SOULS = b'hwDrainSouls'
+    HW_DRAIN_LIFE = b'hwDrainLife'
+    HW_PERSONAL_DEATH_ZONE = b'hwPersonalDeathZone'
+    HW_PERSONAL_DEATH_ZONE_IGNITE = b'hwPersonalDeathZoneIgnite'
+    HW_PERSONAL_DEATH_ZONE_STUN = b'hwPersonalDeathZoneStun'
+    HW_PERSONAL_DEATH_ZONE_DAMAGE_OVERTIME = b'hwPersonalDeathZoneDamageOvertime'

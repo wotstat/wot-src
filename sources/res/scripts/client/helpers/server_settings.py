@@ -1,9 +1,11 @@
-import copy, functools, logging, types, typing
+from __future__ import absolute_import
+import copy, functools, logging, typing
 from collections import namedtuple
 from itertools import chain
+from past.builtins import unicode
+from future.utils import listvalues, viewitems, viewvalues
 import constants, post_progression_common
 from personal_missions import PM_SWITCHES
-from shared_utils import makeTupleByDict, updateDict
 from BonusCaps import BonusCapsConst
 from Event import Event
 from UnitBase import PREBATTLE_TYPE_TO_UNIT_ASSEMBLER, UNIT_ASSEMBLER_IMPL_TO_CONFIG
@@ -37,6 +39,7 @@ from prestige_system.prestige_common import PrestigeConfig
 from prestige_system.prestige_milestones_common import PrestigeMilestonesConfig
 from ranked_common import SwitchState
 from schema_manager import getSchemaManager
+from shared_utils import makeTupleByDict, updateDict
 from soft_exception import SoftException
 from telecom_rentals_common import TELECOM_RENTALS_CONFIG
 from trade_in_common.constants_types import CONFIG_NAME as TRADE_IN_CONFIG_NAME
@@ -116,7 +119,7 @@ class RoamingSettings(namedtuple(b'RoamingSettings', (b'homeCenterID', b'curCent
 class _FileServerSettings(object):
 
     def __init__(self, fsSettings):
-        self.__urls = dict((n, d.get(b'url_template', b'')) for n, d in fsSettings.iteritems())
+        self.__urls = dict((n, d.get(b'url_template', b'')) for n, d in viewitems(fsSettings))
         return
 
     def getUrls(self):
@@ -317,7 +320,7 @@ class _TournamentSettings(namedtuple(b'_TournamentSettings', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -359,7 +362,7 @@ class _BwShop(namedtuple(b'_BwShop', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -396,7 +399,7 @@ class RankedBattlesConfig(namedtuple(b'RankedBattlesConfig', (b'isEnabled', b'pe
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -409,23 +412,23 @@ class _ProgressiveReward(namedtuple(b'_ProgressiveReward', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
 _ProgressiveReward.__new__.__defaults__ = (
  True, b'pr:level', b'pr:probability', 0)
 
-class _EpicMetaGameConfig(namedtuple(b'_EpicMetaGameConfig', [171, 172, 173, 174, 175, 176, 
- 177, 178, 179, 
- 180])):
+class _EpicMetaGameConfig(namedtuple(b'_EpicMetaGameConfig', [173, 174, 175, 176, 177, 178, 
+ 179, 180, 181, 
+ 182])):
 
     def asDict(self):
         return self._asdict()
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -448,7 +451,7 @@ class EpicGameConfig(namedtuple(b'EpicGameConfig', (b'isEnabled', b'enableWelcom
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -464,7 +467,7 @@ class _UnitAssemblerConfig(namedtuple(b'_UnitAssemblerConfig', (b'configs',))):
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @staticmethod
@@ -546,7 +549,7 @@ class BattleRoyaleConfig(namedtuple(b'BattleRoyaleConfig', (b'isEnabled', b'isSt
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -555,7 +558,7 @@ class BattleRoyaleConfig(namedtuple(b'BattleRoyaleConfig', (b'isEnabled', b'isSt
 
     @classmethod
     def __packStpCoinAwardConfig(cls, data):
-        data[b'coinAward'] = {int(bonusType): value for bonusType, value in data[b'coinAward'].iteritems()}
+        data[b'coinAward'] = {int(bonusType): value for bonusType, value in viewitems(data[b'coinAward'])}
         return
 
 
@@ -563,7 +566,7 @@ class _TelecomConfig(object):
     __slots__ = (b'__bundleIdToProvider',)
 
     def __init__(self, telecomConfig):
-        self.__bundleIdToProvider = {bundleId: bundleData[b'operator'] for bundleId, bundleData in telecomConfig[b'bundles'].iteritems()}
+        self.__bundleIdToProvider = {bundleId: bundleData[b'operator'] for bundleId, bundleData in viewitems(telecomConfig[b'bundles'])}
         return
 
     def getInternetProvider(self, bundleId):
@@ -673,7 +676,7 @@ class SeniorityAwardsConfig(typing.NamedTuple(b'SeniorityAwardsConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -696,7 +699,7 @@ class EasyTankEquipConfig(typing.NamedTuple(b'EasyTankEquipConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -736,12 +739,12 @@ class _crystalRewardsConfig(namedtuple(b'_crystalRewardsConfig', (b'limits', b'r
 
     def isCrystalEarnPossible(self, arenaType, battleModifiers=None):
         battleModifiers = battleModifiers or BattleModifiers()
-        for level, rewardData in self.rewards.level.iteritems():
+        for level, rewardData in viewitems(self.rewards.level):
             battleModifiersCtx = ModifiersContext(modifiers=battleModifiers, level=level)
             if self.__isCrystalEarnPossible(arenaType, battleModifiersCtx(BattleParams.CRYSTAL_REWARDS, rewardData)):
                 return True
 
-        for vehCD, rewardData in self.rewards.vehicle.iteritems():
+        for vehCD, rewardData in viewitems(self.rewards.vehicle):
             battleModifiersCtx = ModifiersContext(modifiers=battleModifiers, vehType=vehicles.getVehicleType(vehCD))
             if self.__isCrystalEarnPossible(arenaType, battleModifiersCtx(BattleParams.CRYSTAL_REWARDS, rewardData)):
                 return True
@@ -750,17 +753,17 @@ class _crystalRewardsConfig(namedtuple(b'_crystalRewardsConfig', (b'limits', b'r
 
     def getRewardInfoData(self):
         results = []
-        for level, rewardData in self.rewards.level.iteritems():
-            for arenaBonusType, scoreData in rewardData.iteritems():
-                topWinRewards = list(scoreData[True].itervalues())
+        for level, rewardData in viewitems(self.rewards.level):
+            for arenaBonusType, scoreData in viewitems(rewardData):
+                topWinRewards = listvalues(scoreData[True])
                 winTop3 = max(topWinRewards)
-                results.append(_crystalRewardInfo(level, arenaBonusType, winTop3=winTop3, loseTop3=max(scoreData[False].itervalues()), winTop10=min(scoreData[True].itervalues()), loseTop10=min(scoreData[False].itervalues()), topLength=len(scoreData[True]), firstTopLength=topWinRewards.count(winTop3)))
+                results.append(_crystalRewardInfo(level, arenaBonusType, winTop3=winTop3, loseTop3=max(viewvalues(scoreData[False])), winTop10=min(viewvalues(scoreData[True])), loseTop10=min(viewvalues(scoreData[False])), topLength=len(scoreData[True]), firstTopLength=topWinRewards.count(winTop3)))
 
         return results
 
     def __isCrystalEarnPossible(self, arenaType, rewardData):
         if arenaType in rewardData:
-            return sum(chain(rewardData[arenaType][False].itervalues(), rewardData[arenaType][True].itervalues())) > 0
+            return sum(chain(viewvalues(rewardData[arenaType][False]), viewvalues(rewardData[arenaType][True]))) > 0
         return False
 
 
@@ -792,7 +795,7 @@ class _BlueprintsConvertSaleConfig(namedtuple(b'_BlueprintsConvertSaleConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     def isEnabled(self):
@@ -817,7 +820,7 @@ class _MapboxConfig(namedtuple(b'_MapboxConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = {k: v for k, v in data.iteritems() if k in allowedFields}
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -854,7 +857,7 @@ class VehiclePostProgressionConfig(namedtuple(b'_VehiclePostProgression', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -876,7 +879,7 @@ class _EventBattlesConfig(namedtuple(b'_EventBattlesConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -928,20 +931,20 @@ class GiftSystemConfig(namedtuple(b'_GiftSystemConfig', (b'events', b'itemToEven
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         self.__packEventConfigs(dataToUpdate)
         return self._replace(**dataToUpdate)
 
     @classmethod
     def __packEventConfigs(cls, data):
-        events = {eID: makeTupleByDict(GiftEventConfig, eData) for eID, eData in data[b'events'].iteritems()}
+        events = {eID: makeTupleByDict(GiftEventConfig, eData) for eID, eData in viewitems(data[b'events'])}
         data[b'events'], data[b'itemToEventID'] = events, cls.__getItemToEventMap(events)
         return
 
     @classmethod
     def __getItemToEventMap(cls, events):
         result = {}
-        for eventID, eventConfig in events.iteritems():
+        for eventID, eventConfig in viewitems(events):
             result.update({itemID: eventID for itemID in eventConfig.giftItemIDs})
 
         return result
@@ -961,7 +964,7 @@ class PlayLimitsConfig(namedtuple(b'PlayLimitsConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -986,7 +989,7 @@ class _BattleMattersConfig(namedtuple(b'_BattleMattersConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1008,7 +1011,7 @@ class PeripheryRoutingConfig(namedtuple(b'_PeripheryRoutingConfig', (b'isEnabled
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -1027,7 +1030,7 @@ def settingsBlock(className, fields):
 
         def replace(self, data):
             allowedFields = self._fields
-            dataToUpdate = {k: v for k, v in self._preprocessData(data).iteritems() if k in allowedFields}
+            dataToUpdate = {k: v for k, v in viewitems(self._preprocessData(data)) if k in allowedFields}
             return self._replace(**dataToUpdate)
 
         @classmethod
@@ -1060,7 +1063,7 @@ class WinbackConfig(namedtuple(b'WinbackConfig', (
     __slots__ = ()
 
     def __new__(cls, **kwargs):
-        defaults = dict(isEnabled=False, isModeEnabled=False, isWhatsNewEnabled=False, isProgressionEnabled=False, tokenQuestPrefix=b'', offerTokenPrefix=b'', winbackAccessToken=b'', winbackModeAccessTokens=[], winbackBattlesCountToken=b'', winbackShowPromoToken=b'', winbackPromoURL=b'', lastQuestEnabler=b'', winbackStartingQuest=b'', chainVersions=list())
+        defaults = dict(isEnabled=False, isModeEnabled=False, isWhatsNewEnabled=False, isProgressionEnabled=False, tokenQuestPrefix=b'', offerTokenPrefix=b'', winbackAccessToken=b'', winbackModeAccessTokens=[], winbackBattlesCountToken=b'', winbackShowPromoToken=b'', winbackPromoURL=b'', lastQuestEnabler=b'', winbackStartingQuest=b'', chainVersions=[])
         defaults.update(kwargs)
         return super(WinbackConfig, cls).__new__(cls, **defaults)
 
@@ -1069,7 +1072,7 @@ class WinbackConfig(namedtuple(b'WinbackConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1093,7 +1096,7 @@ class PersonalReservesConfig(namedtuple(b'_PersonalReserves', (b'isReservesInBat
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -1111,7 +1114,7 @@ class PreModerationConfig(namedtuple(b'_PreModerationConfig', (b'prebattleDescri
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -1142,13 +1145,13 @@ class _LootBoxSystemConfig(namedtuple(b'_LootBoxSystemConfig', (b'events', b'mai
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         self.__packEventConfigs(dataToUpdate)
         return self._replace(**dataToUpdate)
 
     @classmethod
     def __packEventConfigs(cls, dataToUpdate):
-        dataToUpdate[b'events'] = {eventName: LootBoxSystemEventConfig(eventName=eventName, **event) for eventName, event in dataToUpdate[b'events'].iteritems()}
+        dataToUpdate[b'events'] = {eventName: LootBoxSystemEventConfig(eventName=eventName, **event) for eventName, event in viewitems(dataToUpdate[b'events'])}
         return
 
 
@@ -1168,7 +1171,7 @@ class _LimitedUIConfig(namedtuple(b'_LimitedUIConfig', (b'enabled', b'rules', b'
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1189,7 +1192,7 @@ class _SteamShadeConfig(namedtuple(b'_SteamShadeConfig', (b'battlesPlayed', b'se
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1210,7 +1213,7 @@ class _ABFeatureTestConfig(namedtuple(b'_ABFeatureTestConfig', (b'newbieHints', 
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1232,7 +1235,7 @@ class ReferralProgramConfig(namedtuple(b'ReferralProgramConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1255,7 +1258,7 @@ class LiveOpsWebEventsConfig(namedtuple(b'LiveOpsWebEventsConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1277,7 +1280,7 @@ class _AdvancedAchievementsConfig(namedtuple(b'_AdvancedAchievementsConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     @classmethod
@@ -1299,7 +1302,7 @@ class _ExchangeRatesConfig(namedtuple(b'_ExchangeRatesConfig', (b'isGoldExchange
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -1426,7 +1429,7 @@ class _W2GTConfig(namedtuple(b'_W2GTConfig', (b'enabled', b'dataLifetime', b'tim
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
     def getTimeLimitByStage(self, stage):
@@ -1448,7 +1451,7 @@ class _PreBattleHighlightsConfig(namedtuple(b'PreBattleHighlightsConfig', (
 
     def replace(self, data):
         allowedFields = self._fields
-        dataToUpdate = dict((k, v) for k, v in data.iteritems() if k in allowedFields)
+        dataToUpdate = {k: v for k, v in viewitems(data) if k in allowedFields}
         return self._replace(**dataToUpdate)
 
 
@@ -1598,7 +1601,7 @@ class ServerSettings(object):
         if BonusCapsConst.CONFIG_NAME in self.__serverSettings:
             BONUS_CAPS.OVERRIDE_BONUS_CAPS = self.__serverSettings[BonusCapsConst.CONFIG_NAME]
         else:
-            BONUS_CAPS.OVERRIDE_BONUS_CAPS = dict()
+            BONUS_CAPS.OVERRIDE_BONUS_CAPS = {}
         if b'blueprints_convert_sale_config' in self.__serverSettings:
             self.__blueprintsConvertSaleConfig = makeTupleByDict(_BlueprintsConvertSaleConfig, self.__serverSettings[b'blueprints_convert_sale_config'])
         else:
@@ -1833,7 +1836,7 @@ class ServerSettings(object):
     def getConfigModel(self, schema):
         configModel = self.__schemaManager.getModel(schema)
         if configModel is None:
-            raise SoftException(b'Schema %s was not registered. All schemas must be registered before ServerSettings inited.', schema.gpKey)
+            raise SoftException((b'Schema {} was not registered. All schemas must be registered before ServerSettings inited.').format(schema.gpKey))
         return configModel
 
     @property
@@ -2041,10 +2044,10 @@ class ServerSettings(object):
         return self.__getGlobalSetting(PM_SWITCHES.IS_PM_BATTLE_PROGRESS_ENABLED, True)
 
     def getDisabledPMOperations(self):
-        return self.__getGlobalSetting(PM_SWITCHES.DISABLED_PM_OPERATIONS, dict())
+        return self.__getGlobalSetting(PM_SWITCHES.DISABLED_PM_OPERATIONS, {})
 
     def getDisabledPersonalMissions(self):
-        return self.__getGlobalSetting(PM_SWITCHES.DISABLED_PM_MISSIONS, dict())
+        return self.__getGlobalSetting(PM_SWITCHES.DISABLED_PM_MISSIONS, {})
 
     def isStrongholdsEnabled(self):
         return self.__getGlobalSetting(b'strongholdSettings', {}).get(b'isStrongholdsEnabled', False)

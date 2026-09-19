@@ -1,1 +1,168 @@
-import{L as e,r as s,j as t,f as a}from"./vendor.js";import{$ as o,dJ as n,dK as r,i,l as c,r as l,dL as d,cj as m,ck as p,dM as g,dk as _,dN as u,cw as h,dO as x,dP as b,cr as v,dQ as T,dR as f}from"./lib.js";var N=(e=>(e.News="news",e.ShopPromo="shopPromo",e.None="none",e))(N||{});const w={getter:r({type:N.News,description:"Watch very interesting video, with very long, very very interesting and meaningful description!",isVideo:!0,image:"https://pie-webbrg-cdn-stg.wgcdn.co/dcont/fb/image/whats_new_475x230_2.png"}),controls:()=>o(n("onClick","onClose"))},[j,y]=i("TeaserModel")(({observableModel:e})=>e.primitives(["type","postCounter","description","text","isVideo","finishTime","image"]),({externalModel:e})=>({onClick:e.createCallbackNoArgs("onClick"),onClose:e.createCallbackNoArgs("onClose")})),C={imageWrapper:"Teaser_imageWrapper_901f1116",vignette:"Teaser_vignette_32737740",base:"Teaser_a2a96284",base__video:"Teaser_base__video_3d4fdb7e",contentWrapper:"Teaser_contentWrapper_b44f0d64",image:"Teaser_image_41628c29",base__newsType:"Teaser_base__newsType_3d4fdb7e",base__shopPromoType:"Teaser_base__shopPromoType_3d4fdb7e",title:"Teaser_title_f8c387e3",counter:"Teaser_counter_6afc9955",closeButton:"Teaser_closeButton_c46a88df",text:"Teaser_text_8e0a588c",bottomContent:"Teaser_bottomContent_eb7878d6",description:"Teaser_description_f7e0ddfc",extendedText:"Teaser_extendedText_286b5b73",countdown:"Teaser_countdown_40e45fc1"},k="Teaser:Base",W=e(function({className:e,classNames:o}){const{model:n,controls:r}=y(),i=n.type.get()||N.News,w=n.postCounter.get(),j=n.text.get(),W=n.description.get(),M=n.finishTime.get(),B=n.isVideo.get(),E=n.image.get(),P=c(),L=l.resolve("strings");const $=s.useCallback(e=>{e.stopPropagation(),r.onClose()},[r]),[S,A]=s.useState(null);s.useLayoutEffect(()=>{let e;const s=d(m(M||0),p());if(!M||s<=0)return void A(null);const t=Math.floor(f.seconds(s)),a=g(m(M),_(1))?u.Extended:u.Long;if(A({duration:t,style:a}),a===u.Extended){const s=d(m(t+1),_(1));e=setTimeout(()=>A(e=>({...e,style:u.Long})),Math.min(s,h))}return()=>{e&&(clearTimeout(e),e=void 0)}},[M]);const[V,I]=s.useState(null),[O,z]=s.useState(!1);return s.useEffect(()=>{const e=new Image;return e.src=E,e.onload=()=>{I({path:E,height:e.height,width:e.width}),z(!0)},e.onerror=()=>{z(!0)},()=>{e.src="",I(null)}},[E]),O?t.jsxs("div",{className:a(C.base,C[`base__${i}Type`],B&&C.base__video,e),onClick:function(e){P.play("click",{target:k,original:e}),r.onClick()},onMouseEnter:function(e){P.play("mouse-enter",{target:k,original:e})},children:[t.jsx("div",{className:a(C.contentWrapper,o?.contentWrapper),children:t.jsx("div",{className:a(C.imageWrapper,o?.imageWrapper),children:V&&t.jsx("div",{className:a(C.image,o?.image),style:{backgroundImage:`url(${V.path})`,height:`${V.height}rem`,width:`${V.width}rem`}})})}),t.jsx("div",{className:a(C.vignette,o?.vignette)}),t.jsxs("div",{className:a(C.contentWrapper,o?.contentWrapper),children:[t.jsxs("div",{className:a(C.title,o?.title),children:[L.readOrEmpty("menu.promo.teaser.title"),Boolean(w)&&w>0&&t.jsx(x,{className:a(C.counter,o?.counter),value:w,size:"small"})]}),t.jsx(b,{type:"close",side:"right",classNames:{base:a(C.closeButton,o?.closeButton)},onClick:$,caption:""}),j&&t.jsx("div",{className:a(C.text,o?.text),children:j}),(W||S)&&t.jsxs("div",{className:C.bottomContent,children:[W&&t.jsx("div",{className:a(C.description,o?.description),children:t.jsx(v,{classMix:C.extendedText,text:W,isTruncationAvailable:!0})}),S&&t.jsx(T,{className:a(C.countdown,o?.countdown),...S})]})]})]}):null});function M({className:e,classNames:s,...a}){return t.jsx(j,{...a,mode:"real",mocks:w,children:t.jsx(W,{className:e,classNames:s})})}export{M as default};
+import { r as e } from "./rolldown-runtime.js";
+import {
+  Mr as t,
+  Or as o,
+  Pt as a,
+  cr as r,
+  ea as n,
+  fi as s,
+  hi as l,
+  hr as c,
+  ir as m,
+  li as d,
+  pr as i,
+  ro as u,
+  to as b,
+  tr as _,
+  ui as p,
+  uo as I,
+  xr as y,
+} from "./lib.js";
+import { n as P, r as g, t as h } from "../footer/bundle.js";
+var [v, f] = c("PlatoonProvider")(
+    ({ observableModel: e }) => {
+      const t = {
+          ...e.primitives([
+            "state",
+            "useWelcomeLayout",
+            "commanderIndex",
+            "playerIndex",
+            "tooltipHeader",
+            "tooltipBody",
+            "tooltipParams",
+          ]),
+          members: e.arrayClone("members"),
+        },
+        o = i.structural(() => {
+          try {
+            const e = JSON.parse(t.tooltipParams.get()),
+              o = t.tooltipHeader.get(),
+              r = t.tooltipBody.get();
+            return { header: (o && a(_(o), e)) ?? void 0, body: (r && a(_(r), e)) ?? void 0 };
+          } catch (e) {
+            return {};
+          }
+        });
+      return { ...t, computes: { tooltipArgs: o } };
+    },
+    ({ externalModel: e }) => ({ onInPlatoonAction: e.createCallbackNoArgs("onInPlatoonAction") }),
+  ),
+  x = e(u(), 1),
+  N = "member",
+  A = "player",
+  S = "commander",
+  j = "commanderPlayer",
+  E = "empty",
+  k = "search",
+  B = "notReady",
+  C = "ready",
+  D = "inBattle";
+var L = (e, t, o) => (e ? `${o}_${t}` : t === k ? "search" : "empty_member"),
+  M = {
+    base: "Platoon_9c663a1",
+    button: "Platoon_button_a989ea7f",
+    button__disabled: "Platoon_button__disabled_e1f331be",
+    button__search: "Platoon_button__search_a7562308",
+    rotation: "Platoon_rotation_78daa44d",
+    memberIconWrapper: "Platoon_memberIconWrapper_3b1536c",
+    memberIcon: "Platoon_memberIcon_7e29c5ae",
+    memberIcon__searchState: "Platoon_memberIcon__searchState_78daa44d",
+    memberIcon__readyState: "Platoon_memberIcon__readyState_407793d7",
+  },
+  O = e(l(), 1),
+  W = r(function ({ popoverTargetID: e, classNames: a }) {
+    const r = f(),
+      l = y(),
+      c = s(d({ value: P.small }, { medium: { value: P.medium } }).value, p),
+      i = r.model.state.get(),
+      u = r.model.useWelcomeLayout.get(),
+      _ = r.model.commanderIndex.get(),
+      v = r.model.playerIndex.get(),
+      W = o(r.model.computes.tooltipArgs()),
+      w = t(
+        "squadTypeSelectPopover",
+        void 0,
+        (0, x.useMemo)(
+          () => ({
+            resId: e ?? I.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
+          }),
+          [e],
+        ),
+      );
+    return (0, O.jsx)("div", {
+      ...W,
+      onClick: function (e) {
+        (W.onClick(),
+          "DISABLED" !== i &&
+            (l.play("click", { target: "platoon", original: e }),
+            "IN_PLATOON" !== i && u ? w.onClick(e) : r.controls.onInPlatoonAction()));
+      },
+      onMouseEnter: function (e) {
+        (W.onMouseEnter(e),
+          "DISABLED" !== i && l.play("mouse-enter", { target: "platoon", original: e }));
+      },
+      className: b(M.base, a?.base),
+      "data-test-id": "platoonWidget",
+      children: (() => {
+        switch (i) {
+          case "CREATE":
+            return (0, O.jsx)(m, { ...g(c, "creation"), className: b(M.button, a?.button) });
+          case "DISABLED":
+            return (0, O.jsx)(m, {
+              ...g(c, "creation_disabled"),
+              className: b(M.button, M.button__disabled, a?.button),
+            });
+          case "SEARCHING":
+            return (0, O.jsx)(m, {
+              ...g(c, "search"),
+              className: b(M.button, M.button__search, a?.button),
+            });
+          case "IN_PLATOON":
+            return n(r.model.members.get(), (e, t) => {
+              const o = ((n = t === _), (r = t === v) && n ? j : r ? A : n ? S : N);
+              var r, n;
+              const s = (function (e) {
+                  switch (e) {
+                    case "empty":
+                      return E;
+                    case "searching":
+                      return k;
+                    case "notReady":
+                      return B;
+                    case "ready":
+                      return C;
+                    case "inBattle":
+                      return D;
+                    default:
+                      return (console.error("Platoon widget: met unexpected member state ", e), E);
+                  }
+                })(e.state),
+                l = h(`${o}_${s}`),
+                d = l && s === C;
+              return (0, O.jsx)(
+                "div",
+                {
+                  className: M.memberIconWrapper,
+                  children: (0, O.jsx)(m, {
+                    ...g(c, L(l, s, o), d),
+                    className: b(
+                      M.memberIcon,
+                      s === k && M.memberIcon__searchState,
+                      d && M.memberIcon__readyState,
+                      a?.memberIcon,
+                    ),
+                  }),
+                },
+                t,
+              );
+            });
+          default:
+            return void console.error("Platoon widget: met unexpected platoon state ", i);
+        }
+      })(),
+    });
+  });
+function w({ options: e, mocks: t, mode: o, ...a }) {
+  return (0, O.jsx)(v, { mode: o, mocks: t, options: e, children: (0, O.jsx)(W, { ...a }) });
+}
+export { w as default };

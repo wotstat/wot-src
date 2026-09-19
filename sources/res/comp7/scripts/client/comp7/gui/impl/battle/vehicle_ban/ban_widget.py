@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from future.utils import viewitems
 import BigWorld, BattleReplay
 from PlayerEvents import g_playerEvents
 from ReplayEvents import g_replayEvents
@@ -126,7 +128,7 @@ class BanWidgetView(ViewImpl):
         model.setBanState(BanState.FINISHED)
         ownVehicleID = arenaDP.getVehIDByAccDBID(getOwnDatabaseID())
         ownTeam = arenaDP.getVehicleInfo(ownVehicleID).team
-        for teamID, banVehicleInfo in vehicleBanCtrl.bannedVehicles.iteritems():
+        for teamID, banVehicleInfo in viewitems(vehicleBanCtrl.bannedVehicles):
             bannedVehicleCD = banVehicleInfo[b'vehicleCD']
             isRandomlySelected = banVehicleInfo[b'isRandomlySelected']
             totalVotes = banVehicleInfo[b'totalVotes']

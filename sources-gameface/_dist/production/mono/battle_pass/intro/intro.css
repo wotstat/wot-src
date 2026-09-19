@@ -101,7 +101,8 @@
 .mediaLarge .Bullets_bullet__active_abbe1a09 {
   width: 12rem;
   height: 12rem;
-}@keyframes Slider_fadeInWithScale_263edf46 {
+}
+@keyframes Slider_fadeInWithScale_263edf46 {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -188,7 +189,13 @@
 .Slider_trackWrapper_5523de93 {
   overflow: hidden;
   transform: translateY(-25rem);
-  mask-image: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, #d9d9d9 10%, #d9d9d9 90%, rgba(217, 217, 217, 0) 100%);
+  mask-image: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 0) 0%,
+    #d9d9d9 10%,
+    #d9d9d9 90%,
+    rgba(217, 217, 217, 0) 100%
+  );
   mask-repeat: no-repeat;
 }
 .mediaMedium .Slider_trackWrapper_5523de93 {
@@ -209,12 +216,16 @@
   align-items: center;
   height: 100%;
   opacity: 0;
-  transition: 0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) opacity, 0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) filter, 0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) transform;
+  transition:
+    0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) opacity,
+    0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) filter,
+    0.5s cubic-bezier(0.78, 0.13, 0.15, 0.86) transform;
   will-change: transition;
 }
 .Slider_slide__active_b616c59f {
   opacity: 1;
-}@keyframes DescriptioBlock_fadeInWithScale_a2fdbd0e {
+}
+@keyframes DescriptioBlock_fadeInWithScale_a2fdbd0e {
   0% {
     opacity: 0;
     transform: scale(1.2);
@@ -349,7 +360,8 @@
   width: 720rem;
   margin-top: 30rem;
   font-size: 26rem;
-}@keyframes Content_fadeInWithScale_da09528a {
+}
+@keyframes Content_fadeInWithScale_da09528a {
   0% {
     opacity: 0;
     transform: scale(1.2);

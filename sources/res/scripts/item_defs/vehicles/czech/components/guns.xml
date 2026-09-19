@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root xmlns:xmlref="http://bwt/xmlref">
+<root>
 	<ids>
 		<_88mm_Vz_37N_A>0</_88mm_Vz_37N_A>
 		<_37mm_Pechotni_delo_Skoda_L_27>1</_37mm_Pechotni_delo_Skoda_L_27>
@@ -57,6 +57,7 @@
 		<_100_mm_S_3>61</_100_mm_S_3>
 		<_105mm_dvojkanon_vz_40N>62</_105mm_dvojkanon_vz_40N>
 		<_107mm_vz_63>63</_107mm_vz_63>
+		<_122mm_Vz_122_2_L52_Petra>66</_122mm_Vz_122_2_L52_Petra>
 		<_130mm_vz_63_s_ANZ>67</_130mm_vz_63_s_ANZ>
 		<_100mm_AK1_50_51>2000</_100mm_AK1_50_51>
 		<_75mm_Skoda_A18_24>2001</_75mm_Skoda_A18_24>
@@ -3366,20 +3367,20 @@
 			<effects>shot_largeext_mb</effects>
 			<reloadEffect>reload_automat_reloading_115_152</reloadEffect>
 			<pitchLimits>
-				<minPitch>0.0 -10 1.0 -10</minPitch>
-				<maxPitch>0.0 10 1.0 10</maxPitch>
+				<minPitch>0.0 -20.0 1.0 -20.0</minPitch>
+				<maxPitch>0.0 10.0 1.0 10.0</maxPitch>
 			</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
-			<rotationSpeed>0.96</rotationSpeed>
-			<reloadTime>62.58</reloadTime>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>12</reloadTime>
 			<maxAmmo>40</maxAmmo>
-			<aimingTime>10.43</aimingTime>
-			<weight>100</weight>
+			<aimingTime>2.5</aimingTime>
+			<weight>2800</weight>
 			<maxHealth>240</maxHealth>
 			<maxRegenHealth>120</maxRegenHealth>
 			<repairCost>11</repairCost>
-			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
-			<shotDispersionRadius>1.04</shotDispersionRadius>
+			<invisibilityFactorAtShot>0.153</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.36</shotDispersionRadius>
 			<shotDispersionFactors>
 				<turretRotation>0.08</turretRotation>
 				<afterShot>4.0</afterShot>
@@ -3391,42 +3392,38 @@
 					<speed>980</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>100</piercingPower>
+					<piercingPower>270 260</piercingPower>
 				</_130mm_Prurazny_vz_63_NZ>
 				<_130mm_Prurazny_vz_63_s_jadrem_NZ>
 					<defaultPortion>0.0</defaultPortion>
 					<speed>1150</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>100</piercingPower>
+					<piercingPower>316 286</piercingPower>
 				</_130mm_Prurazny_vz_63_s_jadrem_NZ>
 				<_130mm_Narazovy_vz_63_NZ>
 					<defaultPortion>0</defaultPortion>
 					<speed>870</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>100</piercingPower>
+					<piercingPower>68 68</piercingPower>
 				</_130mm_Narazovy_vz_63_NZ>
 			</shots>
 			<mechanics>
 				<shellCalibration>
 					<penetration>
-						<damageCoefficient>0.01</damageCoefficient>
+						<damageCoefficient>0.1</damageCoefficient>
 					</penetration>
 					<nonPenetration>
 						<modifiers>
 							<mul>
 								<name>dynAttrs/gun/piercing</name>
-								<value>1.01</value>
+								<value>1.05</value>
 							</mul>
 						</modifiers>
 					</nonPenetration>
 				</shellCalibration>
 			</mechanics>
-			<clip>
-				<count>2</count>
-				<rate>1</rate>
-			</clip>
 		</_130mm_vz_63_s_ANZ>
 		<_152_mm_D_20SM>
 			<userString>#czech_vehicles:_152_mm_D_20SM</userString>
@@ -3544,5 +3541,57 @@
 				</_122mm_Narazovy_vz_48_60>
 			</shots>
 		</_122mm_vz_44_60>
+		<_122mm_Vz_122_2_L52_Petra>
+			<userString>#czech_vehicles:_122mm_Vz_122_2_L52_Petra</userString>
+			<tags></tags>
+			<level>8</level>
+			<price>100000</price>
+			<notInShop>true</notInShop>
+			<impulse>0.62</impulse>
+			<reloadEffect>dualgun_reload115_152</reloadEffect>
+			<pitchLimits>
+				<minPitch>0.0 -25.0 1.0 -25.0</minPitch>
+				<maxPitch>0.0 6.0 1.0 6.0</maxPitch>
+			</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>26</rotationSpeed>
+			<reloadTime>12.5</reloadTime>
+			<maxAmmo>40</maxAmmo>
+			<aimingTime>3.42857142857143</aimingTime>
+			<weight>2590</weight>
+			<maxHealth>180</maxHealth>
+			<maxRegenHealth>90</maxRegenHealth>
+			<repairCost>8</repairCost>
+			<invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.44</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_122mm_Prurazny_vz_52_Petra>
+					<defaultPortion>1</defaultPortion>
+					<speed>980</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>226 210</piercingPower>
+				</_122mm_Prurazny_vz_52_Petra>
+				<_122mm_Prupalny_vz_52_Petra>
+					<defaultPortion>0</defaultPortion>
+					<speed>920</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>285 285</piercingPower>
+				</_122mm_Prupalny_vz_52_Petra>
+				<_122mm_Narazovy_vz_52_Petra>
+					<defaultPortion>0</defaultPortion>
+					<speed>920</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>61 61</piercingPower>
+				</_122mm_Narazovy_vz_52_Petra>
+			</shots>
+		</_122mm_Vz_122_2_L52_Petra>
 	</shared>
 </root>

@@ -1,1 +1,21 @@
-import{j as s,f as a,R as r}from"./vendor.js";import{av as e}from"./lib.js";const n="Divider_9939af4b";function t(r){return s.jsx(e,{path:"ui.noise",className:a(n,r.className),fit:"cover"})}function i({children:a,className:e}){const n=r.Children.toArray(a);return n.length<=1?a:s.jsx(s.Fragment,{children:n.filter(s=>s).map((a,n)=>s.jsxs(r.Fragment,{children:[n>0&&s.jsx(t,{className:e}),a]},n))})}export{t as D,i as a};
+import { r } from "./rolldown-runtime.js";
+import { ar as s, hi as a, ro as e, to as n } from "./lib.js";
+var t = r(e(), 1),
+  i = "Divider_9939af4b",
+  o = r(a(), 1);
+function l(r) {
+  return (0, o.jsx)(s, { path: "ui.noise", className: n(i, r.className), fit: "cover" });
+}
+function m({ children: r, className: s }) {
+  const a = t.Children.toArray(r);
+  return a.length <= 1
+    ? r
+    : (0, o.jsx)(o.Fragment, {
+        children: a
+          .filter((r) => r)
+          .map((r, a) =>
+            (0, o.jsxs)(t.Fragment, { children: [a > 0 && (0, o.jsx)(l, { className: s }), r] }, a),
+          ),
+      });
+}
+export { m as n, l as t };

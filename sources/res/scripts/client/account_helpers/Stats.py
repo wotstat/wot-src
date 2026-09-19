@@ -1,5 +1,8 @@
-import cPickle, logging
+from __future__ import absolute_import
+import logging
 from functools import partial, wraps
+from future.moves import pickle
+from future.utils import lrange
 import typing, AccountCommands, constants, items, personal_missions
 from account_helpers.premium_info import PremiumInfo
 from debug_utils import LOG_DEBUG_DEV, LOG_WARNING, LOG_ERROR
@@ -25,7 +28,7 @@ _SIMPLE_VALUE_STATS = (b'fortResource', b'slots', b'berths', b'freeXP', b'dossie
 _DICT_STATS = (b'vehTypeXP', b'vehTypeLocks', b'restrictions', b'globalVehicleLocks', b'dummySessionStats', b'maxResearchedLevelByNation', b'weeklyVehicleCrystals', b'prestigeMilestonesAchieved')
 _GROWING_SET_STATS = (b'unlocks', b'eliteVehicles', b'multipliedXPVehs', b'multipliedRankedBattlesVehs')
 _ACCOUNT_STATS = (b'clanDBID', b'attrs', b'premiumExpiryTime', b'autoBanTime', b'globalRating')
-_CACHE_STATS = (b'isFinPswdVerified', b'mayConsumeWalletResources', b'oldVehInvIDs', b'isSsrPlayEnabled', b'isEmergencyModeEnabled')
+_CACHE_STATS = (b'isFinPswdVerified', b'isResourcesConsumptionAllowed', b'oldVehInvIDs', b'isSsrPlayEnabled', b'isEmergencyModeEnabled')
 _CACHE_DICT_STATS = (b'SPA', b'entitlements', b'dynamicCurrencies', b'comp7')
 _PREFERRED_MAPS_KEY = b'preferredMaps'
 _ADDITIONAL_XP_CACHE_KEY = b'_additionalXPCache'
@@ -100,7 +103,7 @@ class Stats(object):
                 if stat_r in statsDiff:
                     cache[stat] = statsDiff[stat_r]
                 if stat in statsDiff:
-                    synchronizeDicts(statsDiff[stat], cache.setdefault(stat, dict()))
+                    synchronizeDicts(statsDiff[stat], cache.setdefault(stat, {}))
 
             for stat in _GROWING_SET_STATS:
                 stat_r = (
@@ -140,11 +143,11 @@ class Stats(object):
             for stat in _CACHE_DICT_STATS:
                 statDiff = cacheDiff.get(stat, None)
                 if statDiff:
-                    synchronizeDicts(statDiff, cache.setdefault(stat, dict()))
+                    synchronizeDicts(statDiff, cache.setdefault(stat, {}))
 
         piggyBankDiff = diff.get(PIGGY_BANK_PDATA_KEY, None)
         if piggyBankDiff is not None:
-            synchronizeDicts(piggyBankDiff, cache.setdefault(PIGGY_BANK_PDATA_KEY, dict()))
+            synchronizeDicts(piggyBankDiff, cache.setdefault(PIGGY_BANK_PDATA_KEY, {}))
         if _PREFERRED_MAPS_KEY in diff:
             synchronizeDicts(diff[_PREFERRED_MAPS_KEY], cache.setdefault(_PREFERRED_MAPS_KEY, {}))
         if _LIMITED_UI in diff:
@@ -353,7 +356,7 @@ class Stats(object):
             proxy = lambda requestID, resultID, errorStr, ext={}: callback(resultID)
         else:
             proxy = None
-        data = cPickle.dumps(data)
+        data = pickle.dumps(data)
         self.__account._doCmdStr(AccountCommands.CMD_SET_RANKED_INFO, data, proxy)
         return
 
@@ -409,7 +412,7 @@ class Stats(object):
         if startQuestID > endQuestID:
             _logger.error(b'Incorrect quest IDs range: %s', questIDRange)
             return
-        self.__completePersonalMissionQuests(range(startQuestID, endQuestID + 1), withAdditional, callback)
+        self.__completePersonalMissionQuests(lrange(startQuestID, endQuestID + 1), withAdditional, callback)
         return
 
     def completeQuests(self, questIDs, callback=None):
@@ -426,9 +429,9 @@ class Stats(object):
 
     def completePremiumDaily(self):
         from gui import SystemMessages
-        from gui.server_events.events_helpers import premMissionsSortFunc
+        from gui.server_events.events_helpers import PremMissionsSortKey
         from gui.shared.notifications import NotificationPriorityLevel
-        quests = sorted(self._eventsCache.getPremiumQuests().values(), cmp=premMissionsSortFunc)
+        quests = sorted(self._eventsCache.getPremiumQuests().values(), key=PremMissionsSortKey)
         for q in quests:
             if not q.isCompleted():
                 questID = q.getID()

@@ -1,4 +1,6 @@
-import random, types, time
+from __future__ import absolute_import
+import random, time
+from past.builtins import basestring, long
 from string import Template
 from helpers import dependency
 from ids_generators import SequenceIDGenerator
@@ -20,7 +22,7 @@ class BareJID(object):
         tail = b''
         if not jid:
             self._node, self._domain = (b'', b'')
-        elif isinstance(jid, types.StringTypes):
+        elif isinstance(jid, basestring):
             if jid.find(b'@') + 1:
                 self._node, jid = jid.split(b'@', 1)
                 self._node = self._node.lower()
@@ -46,7 +48,7 @@ class BareJID(object):
     def setNode(self, node):
         if node is None:
             self._node = b''
-        if isinstance(node, types.StringTypes):
+        if isinstance(node, basestring):
             self._node = node.lower()
         else:
             self._node = node
@@ -83,8 +85,10 @@ class BareJID(object):
     def __ne__(self, other):
         return not self.__eq__(other)
 
-    def __nonzero__(self):
+    def __bool__(self):
         return self.__str__() != b''
+
+    __nonzero__ = __bool__
 
     def __hash__(self):
         return hash(self.__str__())
@@ -166,7 +170,7 @@ def makeUserRoomJID(room=b''):
     if not service or not service[b'hostname']:
         return jid
     if not room:
-        room = (b'user_room_{:08X}_{:08X}_{:04X}').format(long(time.time()) & 4294967295L, random.randrange(1, 4294967295L), _counter.next())
+        room = (b'user_room_{:08X}_{:08X}_{:04X}').format(long(time.time()) & 4294967295L, random.randrange(1, 4294967295L), _counter.nextSequenceID)
     jid.setNode(room)
     jid.setDomain(service[b'hostname'])
     return jid

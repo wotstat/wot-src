@@ -1,51 +1,12 @@
 /* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
 /* stylelint-disable selector-no-qualifying-type */
-#MenuItem_root_28be5e00,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.MenuItem_862e4b38[lang=ja], .MenuItem_862e4b38[lang=ko], .MenuItem_862e4b38[lang=vi], .MenuItem_862e4b38[lang=zh_tw], .MenuItem_862e4b38[lang=zh_sg], .MenuItem_862e4b38[lang=zh_cn], .MenuItem_862e4b38[lang=th] {
+.MenuItem_862e4b38[lang="ja"],
+.MenuItem_862e4b38[lang="ko"],
+.MenuItem_862e4b38[lang="vi"],
+.MenuItem_862e4b38[lang="zh_tw"],
+.MenuItem_862e4b38[lang="zh_sg"],
+.MenuItem_862e4b38[lang="zh_cn"],
+.MenuItem_862e4b38[lang="th"] {
   font-family: Warhelios;
   letter-spacing: 0;
 }
@@ -89,7 +50,7 @@ html[lang=th] input {
 .MenuItem_modeIcon_1db29b3c {
   width: 64rem;
   height: 64rem;
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
   position: absolute;
   top: 50%;
   left: 100%;
@@ -103,7 +64,11 @@ html[lang=th] input {
   line-height: 1;
   letter-spacing: 0.02em;
   opacity: 0.8;
-  transition: opacity 0.2s, transform 0.2s, text-shadow 0.2s, color 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s,
+    text-shadow 0.2s,
+    color 0.2s;
 }
 .mediaMedium .MenuItem_label_3cf912d3 {
   font-size: 28rem;
@@ -119,21 +84,31 @@ html[lang=th] input {
 }
 .MenuItem_base__enabledState_6f88d3d1:hover .MenuItem_label_3cf912d3 {
   color: #fcf6eb;
-  text-shadow: 0 0 16rem rgba(255, 154, 82, 0.5), 0 0 8rem rgba(255, 196, 108, 0.24), 0 0 4rem rgba(252, 246, 235, 0.17);
+  text-shadow:
+    0 0 16rem rgba(255, 154, 82, 0.5),
+    0 0 8rem rgba(255, 196, 108, 0.24),
+    0 0 4rem rgba(252, 246, 235, 0.17);
 }
 
 .MenuItem_titleWrapper_cf46ff6b {
   display: flex;
   align-items: center;
   color: rgba(238, 237, 233, 0.9);
-  transition: opacity 0.2s, transform 0.2s, text-shadow 0.2s, color 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s,
+    text-shadow 0.2s,
+    color 0.2s;
 }
 .MenuItem_base__disabledState_28be5e00 .MenuItem_titleWrapper_cf46ff6b {
   opacity: 0.5;
 }
 .MenuItem_base__enabledState_6f88d3d1:hover .MenuItem_titleWrapper_cf46ff6b {
   color: #fcf6eb;
-  text-shadow: 0 0 16rem rgba(255, 154, 82, 0.5), 0 0 8rem rgba(255, 196, 108, 0.24), 0 0 4rem rgba(252, 246, 235, 0.17);
+  text-shadow:
+    0 0 16rem rgba(255, 154, 82, 0.5),
+    0 0 8rem rgba(255, 196, 108, 0.24),
+    0 0 4rem rgba(252, 246, 235, 0.17);
   transform: translateX(6rem);
 }
 
@@ -186,7 +161,10 @@ html[lang=th] input {
   font-size: 16rem;
   font-weight: 500;
   line-height: 1;
-  text-shadow: 0 0 40px rgba(255, 76, 60, 0.6), 0 0 24rem rgba(255, 233, 187, 0.3), 0 0 8rem rgba(255, 251, 239, 0.2);
+  text-shadow:
+    0 0 40px rgba(255, 76, 60, 0.6),
+    0 0 24rem rgba(255, 233, 187, 0.3),
+    0 0 8rem rgba(255, 251, 239, 0.2);
   letter-spacing: 0.02em;
 }
 .mediaMedium .MenuItem_modeName_36c0339e {
@@ -202,52 +180,7 @@ html[lang=th] input {
 }
 .MenuItem_base__disabledState_28be5e00 .MenuItem_modeName_36c0339e {
   opacity: 0.3;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#Tooltip_root_648bdb8d,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Tooltip_d6454088 {
   display: none;
@@ -284,53 +217,8 @@ html[lang=th] input {
   width: 380rem;
   height: 220rem;
   border: 1rem solid #3d3b31;
-  background: no-repeat 50%/cover;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#Point_root_d8b7e333,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+  background: no-repeat 50% / cover;
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Point_8a5de05a {
   position: absolute;
@@ -351,10 +239,12 @@ html[lang=th] input {
   left: 100%;
   pointer-events: auto;
 }
-.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8, .Point_base__main_d8b7e333 .Point_title_41667fa8 {
+.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8,
+.Point_base__main_d8b7e333 .Point_title_41667fa8 {
   padding-left: 19rem;
 }
-.mediaMedium .Point_base__enemyBase_d8b7e333 .Point_title_41667fa8, .mediaMedium .Point_base__main_d8b7e333 .Point_title_41667fa8 {
+.mediaMedium .Point_base__enemyBase_d8b7e333 .Point_title_41667fa8,
+.mediaMedium .Point_base__main_d8b7e333 .Point_title_41667fa8 {
   padding-left: 33rem;
 }
 .Point_base__left_d8b7e333 .Point_title_41667fa8 {
@@ -365,10 +255,12 @@ html[lang=th] input {
 .mediaMedium .Point_base__left_d8b7e333 .Point_title_41667fa8 {
   padding-right: 9rem;
 }
-.Point_base__left_d8b7e333.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8, .Point_base__left_d8b7e333.Point_base__main_d8b7e333 .Point_title_41667fa8 {
+.Point_base__left_d8b7e333.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8,
+.Point_base__left_d8b7e333.Point_base__main_d8b7e333 .Point_title_41667fa8 {
   padding: 0 19rem 0 0;
 }
-.mediaMedium .Point_base__left_d8b7e333.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8, .mediaMedium .Point_base__left_d8b7e333.Point_base__main_d8b7e333 .Point_title_41667fa8 {
+.mediaMedium .Point_base__left_d8b7e333.Point_base__enemyBase_d8b7e333 .Point_title_41667fa8,
+.mediaMedium .Point_base__left_d8b7e333.Point_base__main_d8b7e333 .Point_title_41667fa8 {
   padding-right: 33rem;
 }
 .Point_base__point_d8b7e333.Point_base__hover_d8b7e333 .Point_title_41667fa8 {
@@ -377,16 +269,24 @@ html[lang=th] input {
 .mediaMedium .Point_base__point_d8b7e333.Point_base__hover_d8b7e333 .Point_title_41667fa8 {
   padding-left: 12rem;
 }
-.Point_base__point_d8b7e333.Point_base__hover_d8b7e333.Point_base__left_d8b7e333 .Point_title_41667fa8 {
+.Point_base__point_d8b7e333.Point_base__hover_d8b7e333.Point_base__left_d8b7e333
+  .Point_title_41667fa8 {
   padding: 0 8rem 0 0;
 }
-.mediaMedium .Point_base__point_d8b7e333.Point_base__hover_d8b7e333.Point_base__left_d8b7e333 .Point_title_41667fa8 {
+.mediaMedium
+  .Point_base__point_d8b7e333.Point_base__hover_d8b7e333.Point_base__left_d8b7e333
+  .Point_title_41667fa8 {
   padding-right: 12rem;
 }
 .Point_base__hover_d8b7e333 .Point_title_41667fa8 {
   color: #ffdd99;
   font-size: 14rem;
-  text-shadow: 0 0 4rem #000000, 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 15rem #e52, 0 0 8rem rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 0 4rem #000000,
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 15rem #e52,
+    0 0 8rem rgba(0, 0, 0, 0.8);
   top: -9rem;
 }
 .mediaMedium .Point_base__hover_d8b7e333 .Point_title_41667fa8 {
@@ -431,19 +331,26 @@ html[lang=th] input {
 .Point_base__point_d8b7e333.Point_base__hover_d8b7e333 .Point_bullet_aedfa7e4 {
   width: 10rem;
   height: 10rem;
-  box-shadow: 0 0 4rem #000000, 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 15rem #e52, 0 0 8rem rgba(0, 0, 0, 0.8);
+  box-shadow:
+    0 0 4rem #000000,
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 15rem #e52,
+    0 0 8rem rgba(0, 0, 0, 0.8);
 }
 .mediaMedium .Point_base__point_d8b7e333.Point_base__hover_d8b7e333 .Point_bullet_aedfa7e4 {
   width: 18rem;
   height: 18rem;
 }
-.Point_base__enemyBase_d8b7e333 .Point_bullet_aedfa7e4, .Point_base__main_d8b7e333 .Point_bullet_aedfa7e4 {
+.Point_base__enemyBase_d8b7e333 .Point_bullet_aedfa7e4,
+.Point_base__main_d8b7e333 .Point_bullet_aedfa7e4 {
   width: 32rem;
   height: 32rem;
   background: none;
   filter: none;
 }
-.mediaMedium .Point_base__enemyBase_d8b7e333 .Point_bullet_aedfa7e4, .mediaMedium .Point_base__main_d8b7e333 .Point_bullet_aedfa7e4 {
+.mediaMedium .Point_base__enemyBase_d8b7e333 .Point_bullet_aedfa7e4,
+.mediaMedium .Point_base__main_d8b7e333 .Point_bullet_aedfa7e4 {
   width: 46rem;
   height: 46rem;
 }
@@ -451,7 +358,7 @@ html[lang=th] input {
 .Point_bulletTeamPointBG_88bf7cc6 {
   width: 60rem;
   height: 60rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.base_selected_small) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.base_selected_small) no-repeat 50% / contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -487,7 +394,9 @@ html[lang=th] input {
   background-image: url(R.images.gui.maps.icons.mapsTraining.base_disabled_hover_small);
   background-position-y: 0;
 }
-.mediaMedium .Point_base__hover_d8b7e333.Point_base__enemyBase_d8b7e333 .Point_bulletTeamPointBG_88bf7cc6 {
+.mediaMedium
+  .Point_base__hover_d8b7e333.Point_base__enemyBase_d8b7e333
+  .Point_bulletTeamPointBG_88bf7cc6 {
   width: 84rem;
   height: 84rem;
   background-image: url(R.images.gui.maps.icons.mapsTraining.base_disabled_hover);
@@ -522,70 +431,25 @@ html[lang=th] input {
   font-size: 28rem;
   font-weight: 700;
   line-height: 1.3em;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#Minimap_root_a2d34e2a,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Minimap_56313038 {
   width: 570rem;
   height: 570rem;
   border: 1rem solid rgba(112, 112, 112, 0.8);
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
   position: relative;
   pointer-events: auto;
 }
 
 .Minimap_scenario_d0d9ef72 {
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
 }
 
 .Minimap_bg_85adfa16 {
   width: 432rem;
   height: 432rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.minimap.bg_small) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.minimap.bg_small) no-repeat 50% / contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -597,52 +461,7 @@ html[lang=th] input {
   width: 690rem;
   height: 690rem;
   background-image: url(R.images.gui.maps.icons.mapsTraining.minimap.bg);
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#Info_root_3f9bb731,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Info_80cc32c {
   display: flex;
@@ -654,7 +473,7 @@ html[lang=th] input {
 .Info_icon_7889eaa8 {
   width: 14rem;
   height: 14rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.info) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.info) no-repeat 50% / contain;
 }
 
 .Info_text_55959f92 {
@@ -673,52 +492,7 @@ html[lang=th] input {
   font-size: 20rem;
   font-weight: 400;
   line-height: 1.3em;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#TextKey_root_591e8197,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .TextKey_583f19c3 {
   display: flex;
@@ -746,7 +520,11 @@ html[lang=th] input {
 }
 .TextKey_base__highlight_591e8197 .TextKey_content_954e2172 {
   color: #ffdd99;
-  text-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 14rem #e52, 0 0 8rem rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 14rem #e52,
+    0 0 8rem rgba(0, 0, 0, 0.8);
 }
 
 .TextKey_bullet_3d33d938 {
@@ -762,54 +540,13 @@ html[lang=th] input {
   top: 8rem;
 }
 .TextKey_base__highlight_591e8197 .TextKey_bullet_3d33d938 {
-  box-shadow: 0 0 4rem rgba(255, 127, 0, 0.25), 0 0 8rem #ff2a00, 0 0 14rem #e52, 0 0 8rem rgba(0, 0, 0, 0.8);
+  box-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 14rem #e52,
+    0 0 8rem rgba(0, 0, 0, 0.8);
   background-color: #ffdd99;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#ScenarioInfo_root_51d47cd5,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScenarioInfo_b19f2c76 {
   display: flex;
@@ -907,52 +644,7 @@ html[lang=th] input {
 }
 .mediaMedium .ScenarioInfo_paragraph_3d99fe50 {
   height: 10rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#ScenarioRewards_root_1315023c,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScenarioRewards_61c38a7d {
   display: flex;
@@ -981,7 +673,7 @@ html[lang=th] input {
 .ScenarioRewards_shine_3e53614c {
   width: 173rem;
   height: 155rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.rewards_bg_small) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.rewards_bg_small) no-repeat 50% / contain;
   position: absolute;
   top: 0;
   left: 50%;
@@ -998,52 +690,7 @@ html[lang=th] input {
 }
 .mediaMedium .ScenarioRewards_rewardClassMix_4167dff2 {
   margin: 0 5rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#ScenarioCard_root_cc1adb57,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScenarioCard_ce43d9d5 {
   margin-right: 20rem;
@@ -1070,7 +717,8 @@ html[lang=th] input {
   border: 1rem solid rgba(122, 179, 0, 0.25);
   box-shadow: inset 0 0 12rem rgba(122, 179, 0, 0.05);
 }
-.ScenarioCard_base__completed_cc1adb57.ScenarioCard_base__hover_cc1adb57 .ScenarioCard_card_71406647 {
+.ScenarioCard_base__completed_cc1adb57.ScenarioCard_base__hover_cc1adb57
+  .ScenarioCard_card_71406647 {
   border-color: rgba(105, 112, 77, 0.8);
 }
 .ScenarioCard_base__hover_cc1adb57 .ScenarioCard_card_71406647 {
@@ -1078,15 +726,24 @@ html[lang=th] input {
 }
 .ScenarioCard_base__selected_2f057ace .ScenarioCard_card_71406647 {
   border-color: rgba(174, 127, 44, 0.8);
-  box-shadow: inset 0 0 40rem rgba(174, 127, 44, 0.1), 0 0 15rem rgba(238, 80, 3, 0.3), 0 0 6rem rgba(255, 42, 0, 0.1);
+  box-shadow:
+    inset 0 0 40rem rgba(174, 127, 44, 0.1),
+    0 0 15rem rgba(238, 80, 3, 0.3),
+    0 0 6rem rgba(255, 42, 0, 0.1);
 }
-.ScenarioCard_card_71406647[lang=da] {
+.ScenarioCard_card_71406647[lang="da"] {
   padding-top: 2rem;
 }
 
 .ScenarioCard_borderShine_2675039f {
   border: 0.5rem solid;
-  border-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 2%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 98%) 1 fill;
+  border-image: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 2%,
+      rgba(255, 255, 255, 0.3) 50%,
+      rgba(255, 255, 255, 0) 98%
+    )
+    1 fill;
   position: absolute;
   top: -1rem;
   right: 0;
@@ -1100,14 +757,30 @@ html[lang=th] input {
   border: none;
 }
 .ScenarioCard_base__completed_cc1adb57 .ScenarioCard_borderShine_2675039f {
-  border-image-source: linear-gradient(270deg, rgba(100, 188, 31, 0) 2%, rgba(129, 234, 48, 0.3) 50%, rgba(100, 188, 31, 0) 98%);
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(100, 188, 31, 0) 2%,
+    rgba(129, 234, 48, 0.3) 50%,
+    rgba(100, 188, 31, 0) 98%
+  );
 }
-.ScenarioCard_base__completed_cc1adb57.ScenarioCard_base__hover_cc1adb57 .ScenarioCard_borderShine_2675039f {
-  border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 2%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 98%);
+.ScenarioCard_base__completed_cc1adb57.ScenarioCard_base__hover_cc1adb57
+  .ScenarioCard_borderShine_2675039f {
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 98%
+  );
 }
 
 .ScenarioCard_selectedOverlay_ee536659 {
-  background: linear-gradient(180deg, rgba(255, 42, 0, 0.1) 0%, rgba(255, 42, 0, 0) 0.01%, rgba(255, 127, 0, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 42, 0, 0.1) 0%,
+    rgba(255, 42, 0, 0) 0.01%,
+    rgba(255, 127, 0, 0.1) 100%
+  );
   position: absolute;
   left: 0;
   right: 0;
@@ -1118,7 +791,7 @@ html[lang=th] input {
 .ScenarioCard_shine_8e6c402e {
   width: 162rem;
   height: 52rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.shine) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.shine) no-repeat 50% / contain;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1172,7 +845,7 @@ html[lang=th] input {
   transform: translate(-50%);
   width: 64rem;
   height: 28rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.checkmark) repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.checkmark) repeat 50% / contain;
   bottom: -14rem;
   pointer-events: none;
 }
@@ -1206,103 +879,13 @@ html[lang=th] input {
     opacity: 0;
     transform: translateY(15rem);
   }
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#Scenarios_root_8d8d7a92,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Scenarios_638d959b {
   display: flex;
   padding-top: 14rem;
   position: relative;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#VehicleMarker_root_20624c4,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .VehicleMarker_516481a7 {
   display: flex;
@@ -1316,7 +899,7 @@ html[lang=th] input {
 .VehicleMarker_vehicle_c8d4fd9b {
   width: 36rem;
   height: 40rem;
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
 }
 .VehicleMarker_vehicle__mediumTank_333918a {
   background-image: url(R.images.gui.maps.icons.mapsTraining.mediumTank);
@@ -1359,7 +942,7 @@ html[lang=th] input {
 .VehicleMarker_info_6781f30a {
   width: 14rem;
   height: 14rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.info) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.info) no-repeat 50% / contain;
   position: absolute;
   top: 50%;
   left: 100%;
@@ -1374,52 +957,7 @@ html[lang=th] input {
   to {
     opacity: 1;
   }
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapOptions_root_12c9f853,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapOptions_ce83a9ee {
   display: flex;
@@ -1521,7 +1059,8 @@ html[lang=th] input {
   width: 470rem;
   height: 97rem;
   padding-top: 67rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.scenarios_title_shadow) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.scenarios_title_shadow) no-repeat 50% /
+    contain;
   color: #ffe4c0;
   text-align: center;
   top: -97rem;
@@ -1543,52 +1082,7 @@ html[lang=th] input {
 .mediaExtraLarge .MapOptions_menuItems_764d3737 {
   top: 65rem;
   left: 48rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#InfoButton_root_c58f1a93,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .InfoButton_border_f3a2eae1 {
   position: absolute;
@@ -1628,71 +1122,33 @@ html[lang=th] input {
 
 .InfoButton_border_f3a2eae1 {
   border-radius: 2rem;
-  border-image: radial-gradient(ellipse 50% 60% at 50% 50%, rgba(170, 238, 255, 0.55) 50%, transparent 100%) 2/1rem 0 1rem 0 stretch;
+  border-image: radial-gradient(
+      ellipse 50% 60% at 50% 50%,
+      rgba(170, 238, 255, 0.55) 50%,
+      transparent 100%
+    )
+    2/1rem 0 1rem 0 stretch;
 }
 
-.InfoButton_label_94741ae8 {
+.InfoButton_label_5a5ddc63 {
   color: #a4ecf1;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: 0.03em;
-  filter: drop-shadow(0rem 0rem 18rem 0rem rgba(31, 68, 255, 0.23)) drop-shadow(0rem 0rem 8rem 0rem rgba(0, 234, 255, 0.42)) drop-shadow(0rem 1rem 0rem 0rem rgba(13, 14, 16, 0.8));
+  filter: drop-shadow(0rem 0rem 18rem 0rem rgba(31, 68, 255, 0.23))
+    drop-shadow(0rem 0rem 8rem 0rem rgba(0, 234, 255, 0.42))
+    drop-shadow(0rem 1rem 0rem 0rem rgba(13, 14, 16, 0.8));
 }
-.InfoButton_base__smallSize_c40e1b5c .InfoButton_label_94741ae8 {
+.InfoButton_base__smallSize_c40e1b5c .InfoButton_label_5a5ddc63 {
   padding-bottom: 1rem;
   font-size: 18rem;
 }
-.InfoButton_base__mediumSize_f347ecd3 .InfoButton_label_94741ae8 {
+.InfoButton_base__mediumSize_f347ecd3 .InfoButton_label_5a5ddc63 {
   padding-bottom: 1rem;
   font-size: 20rem;
 }
-.InfoButton_icon_c58f1a93 + .InfoButton_label_94741ae8 {
+.InfoButton_icon_c58f1a93 + .InfoButton_label_5a5ddc63 {
   margin-left: 4rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapCard_root_d4e974e5,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapCard_7b82d161 {
   width: 225rem;
@@ -1725,7 +1181,7 @@ html[lang=th] input {
   right: 0;
   top: 0;
   bottom: 0;
-  background: no-repeat 50%/contain;
+  background: no-repeat 50% / contain;
 }
 
 .MapCard_contextShadow_62484de0 {
@@ -1745,7 +1201,7 @@ html[lang=th] input {
   transform: translate(-50%);
   width: 64rem;
   height: 28rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.checkmark) repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.checkmark) repeat 50% / contain;
   bottom: -14rem;
   pointer-events: none;
 }
@@ -1790,7 +1246,7 @@ html[lang=th] input {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(R.images.gui.maps.icons.mapsTraining.disabled) repeat 0/auto;
+  background: url(R.images.gui.maps.icons.mapsTraining.disabled) repeat 0 / auto;
 }
 
 .MapCard_overlaySaturation_64c7d29 {
@@ -1816,52 +1272,7 @@ html[lang=th] input {
 }
 .MapCard_base__hover_ac4f3480 .MapCard_overlayHover_300d3bfc {
   opacity: 1;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapGroup_root_4121018b,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapGroup_71166309 {
   margin-top: 11rem;
@@ -1910,56 +1321,11 @@ html[lang=th] input {
   width: 9rem;
   height: 12rem;
   margin: 5rem 0 0 4rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.lockGrey) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.lockGrey) no-repeat 50% / contain;
 }
 .mediaLarge .MapGroup_icon_ef9f14c8 {
   margin-left: 0rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapListEmpty_root_b8ed95a2,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapListEmpty_2a00c67b {
   display: flex;
@@ -2001,52 +1367,7 @@ html[lang=th] input {
   line-height: 1.3em;
   color: #8c8c7e;
   bottom: -3rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#ScrollContainer_root_14e26b7c,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .ScrollContainer_a913c1cf {
   mask-image: linear-gradient(to top, #000 100%);
@@ -2070,52 +1391,7 @@ html[lang=th] input {
 .mediaMedium .ScrollContainer_scrollContent_aca70867 {
   width: 991rem;
   margin-left: 0;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapSelect_root_5a99af0e,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapSelect_ad19ca6e {
   display: flex;
@@ -2187,7 +1463,13 @@ html[lang=th] input {
   margin: 1rem 0 0 10rem;
   color: #8c8c7e;
 }
-html[lang=ja] .MapSelect_subtitle_839e0c65, html[lang=ko] .MapSelect_subtitle_839e0c65, html[lang=zh_tw] .MapSelect_subtitle_839e0c65, html[lang=zh_sg] .MapSelect_subtitle_839e0c65, html[lang=zh_cn] .MapSelect_subtitle_839e0c65, html[lang=vi] .MapSelect_subtitle_839e0c65, html[lang=th] .MapSelect_subtitle_839e0c65 {
+html[lang="ja"] .MapSelect_subtitle_839e0c65,
+html[lang="ko"] .MapSelect_subtitle_839e0c65,
+html[lang="zh_tw"] .MapSelect_subtitle_839e0c65,
+html[lang="zh_sg"] .MapSelect_subtitle_839e0c65,
+html[lang="zh_cn"] .MapSelect_subtitle_839e0c65,
+html[lang="vi"] .MapSelect_subtitle_839e0c65,
+html[lang="th"] .MapSelect_subtitle_839e0c65 {
   font-size: 14rem;
   font-weight: 400;
   line-height: 1.2em;
@@ -2198,7 +1480,13 @@ html[lang=ja] .MapSelect_subtitle_839e0c65, html[lang=ko] .MapSelect_subtitle_83
   line-height: 1.3em;
   margin: 1rem 0 0 0rem;
 }
-html[lang=ja] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=ko] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=zh_tw] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=zh_sg] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=zh_cn] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=vi] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=th] .mediaMedium .MapSelect_subtitle_839e0c65 {
+html[lang="ja"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="ko"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="zh_tw"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="zh_sg"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="zh_cn"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="vi"] .mediaMedium .MapSelect_subtitle_839e0c65,
+html[lang="th"] .mediaMedium .MapSelect_subtitle_839e0c65 {
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -2209,7 +1497,13 @@ html[lang=ja] .mediaMedium .MapSelect_subtitle_839e0c65, html[lang=ko] .mediaMed
   line-height: 1.3em;
   margin: -5rem 0 0 0rem;
 }
-html[lang=ja] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=ko] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=zh_tw] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=zh_sg] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=zh_cn] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=vi] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=th] .mediaLarge .MapSelect_subtitle_839e0c65 {
+html[lang="ja"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="ko"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_tw"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_sg"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_cn"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="vi"] .mediaLarge .MapSelect_subtitle_839e0c65,
+html[lang="th"] .mediaLarge .MapSelect_subtitle_839e0c65 {
   font-size: 18rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -2220,7 +1514,13 @@ html[lang=ja] .mediaLarge .MapSelect_subtitle_839e0c65, html[lang=ko] .mediaLarg
   line-height: 1.3em;
   margin: -5rem 0 0 0rem;
 }
-html[lang=ja] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=ko] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=zh_tw] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=zh_sg] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=zh_cn] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=vi] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=th] .mediaExtraLarge .MapSelect_subtitle_839e0c65 {
+html[lang="ja"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="ko"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_tw"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_sg"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="zh_cn"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="vi"] .mediaExtraLarge .MapSelect_subtitle_839e0c65,
+html[lang="th"] .mediaExtraLarge .MapSelect_subtitle_839e0c65 {
   font-size: 18rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -2290,7 +1590,8 @@ html[lang=ja] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=ko] .medi
 .MapSelect_iconToggle_596a6b63 {
   width: 24rem;
   height: 24rem;
-  background: url(R.images.gui.maps.icons.mapsTraining.toggleIcon_isComplete) no-repeat 50%/contain;
+  background: url(R.images.gui.maps.icons.mapsTraining.toggleIcon_isComplete) no-repeat 50% /
+    contain;
 }
 
 .MapSelect_input_d0f986df {
@@ -2299,10 +1600,22 @@ html[lang=ja] .mediaExtraLarge .MapSelect_subtitle_839e0c65, html[lang=ko] .medi
   margin-left: 9rem;
   padding-right: 14rem;
 }
-html[lang=ja] .MapSelect_input_d0f986df, html[lang=ko] .MapSelect_input_d0f986df, html[lang=zh_tw] .MapSelect_input_d0f986df, html[lang=zh_sg] .MapSelect_input_d0f986df, html[lang=zh_cn] .MapSelect_input_d0f986df, html[lang=vi] .MapSelect_input_d0f986df, html[lang=th] .MapSelect_input_d0f986df {
+html[lang="ja"] .MapSelect_input_d0f986df,
+html[lang="ko"] .MapSelect_input_d0f986df,
+html[lang="zh_tw"] .MapSelect_input_d0f986df,
+html[lang="zh_sg"] .MapSelect_input_d0f986df,
+html[lang="zh_cn"] .MapSelect_input_d0f986df,
+html[lang="vi"] .MapSelect_input_d0f986df,
+html[lang="th"] .MapSelect_input_d0f986df {
   width: 183rem;
 }
-html[lang=ja] .mediaMedium .MapSelect_input_d0f986df, html[lang=ko] .mediaMedium .MapSelect_input_d0f986df, html[lang=zh_tw] .mediaMedium .MapSelect_input_d0f986df, html[lang=zh_sg] .mediaMedium .MapSelect_input_d0f986df, html[lang=zh_cn] .mediaMedium .MapSelect_input_d0f986df, html[lang=vi] .mediaMedium .MapSelect_input_d0f986df, html[lang=th] .mediaMedium .MapSelect_input_d0f986df {
+html[lang="ja"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="ko"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="zh_tw"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="zh_sg"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="zh_cn"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="vi"] .mediaMedium .MapSelect_input_d0f986df,
+html[lang="th"] .mediaMedium .MapSelect_input_d0f986df {
   width: 203rem;
 }
 
@@ -2342,52 +1655,7 @@ html[lang=ja] .mediaMedium .MapSelect_input_d0f986df, html[lang=ko] .mediaMedium
 .mediaExtraLarge .MapSelect_menuItems_3b44c8c5 {
   top: 62rem;
   left: 48rem;
-}/* stylelint-disable selector-no-qualifying-type */
-:root {
-  --hangar-highlight-shadow:
-      0rem 0rem 15rem rgba(23, 23, 23, 0.4), 0rem 0rem 5rem rgba(23, 23, 23, 0.4), 0rem 2rem rgba(0, 0, 0, 0.3);
-}
-
-/* stylelint-disable selector-max-id */
-/* stylelint-disable selector-no-qualifying-type */
-#MapsTrainingPage_root_4698e372,
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: var(--color-general-primary);
-  font-size: 14rem;
-}
-
-body,
-button,
-input {
-  font-family: PFDINMax;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-html[lang=ja] body, html[lang=ko] body, html[lang=zh_tw] body, html[lang=zh_sg] body, html[lang=zh_cn] body, html[lang=vi] body, html[lang=th] body,
-html[lang=ja] button,
-html[lang=ko] button,
-html[lang=zh_tw] button,
-html[lang=zh_sg] button,
-html[lang=zh_cn] button,
-html[lang=vi] button,
-html[lang=th] button,
-html[lang=ja] input,
-html[lang=ko] input,
-html[lang=zh_tw] input,
-html[lang=zh_sg] input,
-html[lang=zh_cn] input,
-html[lang=vi] input,
-html[lang=th] input {
-  font-family: Warhelios;
-  letter-spacing: 0;
-}
-
-/* stylelint-disable selector-no-qualifying-type */
+} /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .MapsTrainingPage_da7db6ae {
   width: 100%;
@@ -2397,5 +1665,5 @@ html[lang=th] input {
   overflow: hidden;
 }
 .MapsTrainingPage_base__select_cf7858dc {
-  background: url(R.images.gui.maps.icons.mapsTraining.bg) no-repeat 50%/cover;
+  background: url(R.images.gui.maps.icons.mapsTraining.bg) no-repeat 50% / cover;
 }

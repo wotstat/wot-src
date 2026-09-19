@@ -32,7 +32,7 @@ class BattleRoyaleQueueProvider(RandomQueueProvider):
             return b'stPatrick'
         return b'battleRoyale'
 
-    def getIconPath(self, iconlabel):
+    def getIconPath(self, iconLabel):
         if self.__battleRoyaleController.isStPatrick():
             iconPath = R.images.battle_royale.gui.maps.st_patrick.icons.battleTypes.c_136x136.battle_royale()
         else:

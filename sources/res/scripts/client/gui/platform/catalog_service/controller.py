@@ -1,5 +1,6 @@
 import json, logging
 from collections import namedtuple
+from future.utils import listitems
 import BigWorld, adisp
 from gui.macroses import getLanguageCode
 from gui.shared.money import Currency
@@ -277,7 +278,7 @@ class PurchaseCache(IPurchaseCache):
         return
 
     def fini(self):
-        for k, purchasePackage in self.__purchaseById.items():
+        for k, purchasePackage in listitems(self.__purchaseById):
             purchasePackage.destroy()
             del k
 

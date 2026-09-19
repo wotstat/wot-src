@@ -40,7 +40,7 @@ class BattleRoyaleEventShopPresenter(UserMissionChildPresenter, TooltipPositione
     def _getCallbacks(self):
         return super(BattleRoyaleEventShopPresenter, self)._getCallbacks() + (
          (
-          b'cache.mayConsumeWalletResources', self.__update),)
+          b'cache.isResourcesConsumptionAllowed', self.__update),)
 
     def _onLoading(self):
         self.initOverlapCtrl()
@@ -55,7 +55,7 @@ class BattleRoyaleEventShopPresenter(UserMissionChildPresenter, TooltipPositione
             else:
                 balance = self.__battleRoyaleController.getBRCoinBalance()
             model.setBalance(balance)
-            model.setIsWGMoneyAvailable(self.__itemsCache.items.stats.mayConsumeWalletResources)
+            model.setIsWGMoneyAvailable(self.__itemsCache.items.stats.isResourcesConsumptionAllowed)
         return
 
     @staticmethod

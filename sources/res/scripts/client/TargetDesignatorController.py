@@ -2,11 +2,12 @@ from __future__ import absolute_import, division
 import typing, BigWorld
 from constants import TARGET_DESIGNATOR_STATE as STATE
 from gui.shared.utils.decorators import ReprInjector
+from items.vehicle_mechanics_types import VehicleMechanicKey, VehicleMechanicKeys
 from vehicles.components.vehicle_component import VehicleDynamicComponent
 from vehicles.components.vehicle_prefabs import createMechanicPrefabSpawner
 from vehicles.mechanics.common import IMechanicComponent
 from vehicles.mechanics.mechanic_commands import IMechanicCommandsComponent, createMechanicCommandsEvents
-from vehicles.mechanics.mechanic_constants import VehicleMechanic, VehicleMechanicCommand
+from vehicles.mechanics.mechanic_constants import VehicleMechanicCommand
 from vehicles.mechanics.mechanic_helpers import getVehicleDescrMechanicParams
 from vehicles.mechanics.mechanic_states import IMechanicState, IMechanicStatesComponent, createMechanicStatesEvents
 if typing.TYPE_CHECKING:
@@ -60,8 +61,8 @@ class TargetDesignatorController(VehicleDynamicComponent, IMechanicComponent, IM
         return
 
     @property
-    def vehicleMechanic(self):
-        return VehicleMechanic.TARGET_DESIGNATOR
+    def vehicleMechanicKey(self):
+        return VehicleMechanicKeys.TARGET_DESIGNATOR
 
     @property
     def commandsEvents(self):
@@ -109,7 +110,7 @@ class TargetDesignatorController(VehicleDynamicComponent, IMechanicComponent, IM
 
     def _collectComponentParams(self, typeDescriptor):
         super(TargetDesignatorController, self)._collectComponentParams(typeDescriptor)
-        self.__params = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanic)
+        self.__params = getVehicleDescrMechanicParams(typeDescriptor, self.vehicleMechanicKey)
         return
 
     def __updateState(self):

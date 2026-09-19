@@ -86,7 +86,7 @@ class AutoOpenView(ViewImpl):
         return
 
     def __filterRewards(self, rewards):
-        for tokenName in rewards.get(b'tokens', {}).keys():
+        for tokenName in list(rewards.get(b'tokens', {})):
             if tokenName.startswith((LOOTBOX_TOKEN_PREFIX, LOOTBOX_COMPENSATION_TOKEN_PREFIX)):
                 rewards[b'tokens'].pop(tokenName, None)
 

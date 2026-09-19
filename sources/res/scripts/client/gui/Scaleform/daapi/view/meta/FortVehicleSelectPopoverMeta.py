@@ -5,3 +5,7 @@ class FortVehicleSelectPopoverMeta(VehicleSelectPopoverBase):
     def onFilterChange(self, index, value):
         self._printOverrideError(b'onFilterChange')
         return
+
+    def onFrozenChange(self, value):
+        self._printOverrideError(b'onFrozenChange')
+        return

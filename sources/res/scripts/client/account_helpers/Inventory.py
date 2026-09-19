@@ -1,6 +1,9 @@
+from __future__ import absolute_import
 import collections, logging, typing, Event
 from array import array
+from builtins import range
 from functools import partial
+from future.utils import viewitems, viewvalues
 from itertools import chain
 import AccountCommands, items
 from shared_utils.account_helpers.diff_utils import synchronizeDicts
@@ -21,7 +24,7 @@ _EQUIPMENT = items.ITEM_TYPE_INDICES[b'equipment']
 
 def getAmmoAsDict(ammo):
     ammoAsDict = collections.defaultdict(int)
-    for i in xrange(len(ammo) / 2):
+    for i in range(len(ammo) // 2):
         ammoAsDict[ammo[2 * i]] += ammo[2 * i + 1]
 
     return ammoAsDict
@@ -60,7 +63,7 @@ class Inventory(object):
             self.__cache.clear()
         invDiff = diff.get(b'inventory', None)
         if invDiff is not None:
-            for itemTypeIdx, itemInvDiff in invDiff.iteritems():
+            for itemTypeIdx, itemInvDiff in viewitems(invDiff):
                 synchronizeDicts(itemInvDiff, self.__cache.setdefault(itemTypeIdx, {}))
 
         cacheDiff = diff.get(b'cache', None)
@@ -607,7 +610,7 @@ class Inventory(object):
 
     def __sellMultipleItemsOnShopSynced(self, itemList, callback, resultID, shopRev):
         chunkSize = 80
-        chunks = [itemList[i:i + chunkSize] for i in xrange(0, len(itemList), chunkSize)]
+        chunks = [itemList[i:i + chunkSize] for i in range(0, len(itemList), chunkSize)]
         results = {}
         if resultID < 0:
             if callback is not None:
@@ -618,8 +621,8 @@ class Inventory(object):
             def proxy(requestID, resultID, errorStr, ext=None):
                 _logger.debug(b'sellMultipleItems callback(requestID=%d, resultID=%d, errorStr=%s', requestID, resultID, errorStr)
                 results[requestID] = resultID
-                if all(res is not None for res in results.itervalues()):
-                    if all(AccountCommands.isCodeValid(res) for res in results.itervalues()):
+                if all(res is not None for res in viewvalues(results)):
+                    if all(AccountCommands.isCodeValid(res) for res in viewvalues(results)):
                         callback(AccountCommands.RES_SUCCESS)
                     else:
                         callback(AccountCommands.RES_FAILURE)

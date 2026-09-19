@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Properties>
+		<reservesModifier>
+			<Type>INT32</Type>
+			<Flags>BASE</Flags>
+		</reservesModifier>
+	</Properties>
+	<BaseMethods>
+		<onAccountArenaCreated>
+			<Arg>UINT8</Arg>
+			<Arg>UINT64</Arg>
+			<Arg>PYTHON</Arg>
+		</onAccountArenaCreated>
+	</BaseMethods>
+	<ofEntity>
+		<Account></Account>
+	</ofEntity>
+	<DefaultKeyName>fLAccountComponent</DefaultKeyName>
+</root>

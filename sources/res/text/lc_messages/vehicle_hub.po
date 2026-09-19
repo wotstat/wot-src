@@ -10,6 +10,9 @@ msgstr "Allows a series of shells to be fired from the magazine one by one, with
 msgid "abilities/common/description/autoShootGun"
 msgstr "Fires rapid bursts of shells to deliver high damage in a short time, at the cost of penetration and accuracy. Most effective in close-quarters combat."
 
+msgid "abilities/common/description/combatThrottle"
+msgstr "Activate the throttle for a temporary boost to engine power, speed, and maneuverability while maintaining reliable gun handling. This allows for agile, dynamic play without compromising combat effectiveness."
+
 msgid "abilities/common/description/damageMutable"
 msgstr "Fires star shells, causing maximum damage within 50 m. The shells' damage decreases over distance, making them most effective in close combat."
 
@@ -61,6 +64,9 @@ msgstr "Improved Autoreloader"
 msgid "abilities/common/name/autoShootGun"
 msgstr "Autocannon"
 
+msgid "abilities/common/name/combatThrottle"
+msgstr "Combat Throttle"
+
 msgid "abilities/common/name/damageMutable"
 msgstr "Deep-Rifled Gun"
 
@@ -102,6 +108,15 @@ msgstr "Turbo Mode"
 
 msgid "abilities/common/name/twinGun"
 msgstr "Salvo Fire Mode"
+
+msgid "abilities/common/shortDescription/combatThrottle"
+msgstr "Boosts maneuverability without harming gun handling."
+
+msgid "abilities/common/shortDescription/overheatGun"
+msgstr "The system allows for continuous fire without reload and controls how the gun generates heat when firing."
+
+msgid "abilities/common/shortDescription/shellParamsSwitcher"
+msgstr "The gun has special devices that allow some shell parameters to be modified before firing."
 
 msgid "abilities/special/description/accuracyStacks"
 msgstr "By remaining stationary or moving slowly, you build accuracy levels to improve your next shot's precision.\nAt the highest accuracy level, you gain decent gun handling, with reduced dispersion even during movement or turret/hull traverse."
@@ -355,6 +370,15 @@ msgstr "Allows firing from both guns simultaneously at the cost of increased rel
 msgid "abilities/special/shortDescription/wheeledDash"
 msgstr "A special mechanic that boosts engine power, acceleration, and top speed for a short time."
 
+msgid "characteristics/abilities/common/description/combatThrottle"
+msgstr "Activate the throttle for a temporary boost to engine power, speed, and maneuverability while maintaining reliable gun handling. This allows for agile, dynamic play without compromising combat effectiveness."
+
+msgid "characteristics/abilities/common/description/overheatGun"
+msgstr "The gun can fire continuously without the need for reload. Each shot generates heat: the higher its temperature, the more some of its parameters change. Continuous firing will cause the gun to overheat, preventing further firing until it cools down."
+
+msgid "characteristics/abilities/common/description/shellParamsSwitcher"
+msgstr "The vehicle's gun has special devices that allow some shell parameters to be modified before firing. The loadout shows which parameters will be affected by switching between firing modes."
+
 msgid "characteristics/abilities/special/description/accuracyStacks"
 msgstr "Remaining stationary or moving below a certain speed allows your vehicle to calibrate its Analog Ballistic Computing Device and build accuracy levels, increasing the accuracy of your next shot. If you exceed the speed limit, your progress in building accuracy levels will be paused until you slow down. At the highest accuracy level, your vehicle gains decent gun stabilization, with reduced dispersion from movement or turret/hull rotation. The effect is removed upon firing."
 
@@ -437,7 +461,7 @@ msgid "characteristics/abilities/special/description/wheeledDash"
 msgstr "This mechanical modification significantly boosts the vehicle's acceleration, engine power, and top forward and reverse speed for a short time, allowing you to react quickly to enemy attacks and catch opponents off guard with dynamic maneuvers. Maintaining a high movement speed accelerates the mechanic's cooldown."
 
 msgid "characteristics/abilities/special/notes"
-msgstr "All values shown are the maximum possible for the vehicle. Equipment, directives, and consumables can change these values, but these changes are not reflected here."
+msgstr "All values shown are the best possible for the vehicle. Equipment, directives, and consumables can change these values, but these changes are not reflected here."
 
 msgid "characteristics/shellParamsSwitcher/ARMOR_PIERCING"
 msgstr "calibratable AP shell"

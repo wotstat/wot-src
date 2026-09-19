@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-from items.artefacts import BaseMarkerConfigReader, EffectsConfigReader, LevelBasedVisualScriptEquipment, VisualScriptEquipment
+from items.artefacts import BaseMarkerConfigReader, EffectsConfigReader, LevelBasedVisualScriptEquipment, PointVisualScriptEquipment, VisualScriptEquipment
 
 class Comp7CoreAoeHealEquipment(VisualScriptEquipment):
     _CONFIG_SLOTS = (b'duration', b'radius', b'heal', b'secondaryHealDebuff', b'tickInterval')
@@ -82,7 +82,7 @@ class Comp7CoreAoeInspireEquipment(VisualScriptEquipment):
         return
 
 
-class Comp7CoreRedlineEquipment(LevelBasedVisualScriptEquipment, BaseMarkerConfigReader, EffectsConfigReader):
+class Comp7CoreRedlineEquipment(PointVisualScriptEquipment, LevelBasedVisualScriptEquipment, BaseMarkerConfigReader, EffectsConfigReader):
     _CONFIG_SLOTS = LevelBasedVisualScriptEquipment._LEVEL_BASED_SLOTS + BaseMarkerConfigReader._MARKER_SLOTS_ + EffectsConfigReader._EFFECTS_SLOTS_ + (b'delay', b'damage', b'stunDuration', b'areaShow', b'fraction', b'requireAssists')
 
     def __init__(self):
@@ -181,7 +181,7 @@ class Comp7CoreRiskyAttackEquipment(VisualScriptEquipment):
         return
 
 
-class Comp7CoreReconEquipment(LevelBasedVisualScriptEquipment, BaseMarkerConfigReader):
+class Comp7CoreReconEquipment(PointVisualScriptEquipment, LevelBasedVisualScriptEquipment, BaseMarkerConfigReader):
     _CONFIG_SLOTS = LevelBasedVisualScriptEquipment._LEVEL_BASED_SLOTS + BaseMarkerConfigReader._MARKER_SLOTS_ + (b'duration', b'delay', b'startupDelay')
 
     def __init__(self):

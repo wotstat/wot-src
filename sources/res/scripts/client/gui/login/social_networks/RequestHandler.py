@@ -1,7 +1,8 @@
-import httplib, base64
+import httplib
 from urlparse import urlparse, parse_qsl
 from BaseHTTPServer import BaseHTTPRequestHandler
 from gui import GUI_SETTINGS
+from py2to3.compat import base64compat
 _TEMPLATE_EMPTY_GIF_BASE64 = b'R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 
 class RequestHandler(BaseHTTPRequestHandler):
@@ -25,7 +26,7 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.send_response(httplib.OK)
         self.send_header(b'Content-Type', b'image/gif')
         self.end_headers()
-        self.wfile.write(base64.decodestring(_TEMPLATE_EMPTY_GIF_BASE64))
+        self.wfile.write(base64compat.b64decode(_TEMPLATE_EMPTY_GIF_BASE64))
         self.wfile.close()
         self.server.keepData(token, accountId, socialNetwork)
         return

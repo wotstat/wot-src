@@ -1,4 +1,4 @@
-from itertools import izip
+from __future__ import absolute_import
 import logging, typing
 from account_helpers import AccountSettings
 from account_helpers.AccountSettings import COMP7_UI_SECTION, COMP7_WEEKLY_QUESTS_PAGE_TOKENS_COUNT
@@ -115,7 +115,7 @@ class WeeklyQuestsPage(PageSubModelPresenter):
         return
 
     def __updateProgressPointModels(self, tokenQuests, numBattleQuestsToCompleteByTokenQuestIdx):
-        for (ID, quest), cnt in izip(tokenQuests, numBattleQuestsToCompleteByTokenQuestIdx):
+        for (ID, quest), cnt in zip(tokenQuests, numBattleQuestsToCompleteByTokenQuestIdx):
             progressPointsModel = ProgressPointsModel()
             progressPointsModel.setCount(cnt)
             packedBonuses, tooltipsData = packTokensRewardsQuestBonuses(quest)
@@ -126,7 +126,7 @@ class WeeklyQuestsPage(PageSubModelPresenter):
         return
 
     def __updateRewardsInTooltips(self, qID, packedBonuses, tooltipsData):
-        for idx, (packedBonus, tooltipData) in enumerate(izip(packedBonuses, tooltipsData)):
+        for idx, (packedBonus, tooltipData) in enumerate(zip(packedBonuses, tooltipsData)):
             tooltipId = b'%s_%s' % (qID, idx)
             self.__tooltipDataById[tooltipId] = tooltipData
             packedBonus.setTooltipId(tooltipId)
@@ -139,7 +139,7 @@ class WeeklyQuestsPage(PageSubModelPresenter):
         if not quests:
             _logger.error(b'There are no quests in WeeklyQuestsPage.')
             return []
-        for lastQuestInWeekIndex in xrange(questsPerWeek - 1, weeklyQuests.numBattleQuests, questsPerWeek):
+        for lastQuestInWeekIndex in range(questsPerWeek - 1, weeklyQuests.numBattleQuests, questsPerWeek):
             _, lastQuestOfWeek = quests[lastQuestInWeekIndex]
             if not lastQuestOfWeek.isCompleted():
                 firstQuestOfWeekIndex = lastQuestInWeekIndex - questsPerWeek + 1

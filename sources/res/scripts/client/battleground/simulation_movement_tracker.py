@@ -1,6 +1,7 @@
-import itertools
+from __future__ import absolute_import, division
+import itertools, logging
 from collections import namedtuple, deque
-import BigWorld, logging
+import BigWorld
 from aih_constants import CTRL_MODE_NAME
 from constants import ARENA_PERIOD
 from gun_rotation_shared import decodeGunAngles
@@ -8,8 +9,8 @@ from helpers import isPlayerAvatar
 from helpers.CallbackDelayer import CallbackDelayer
 from PlayerEvents import g_playerEvents
 _logger = logging.getLogger(__name__)
-SimulationMovementData = namedtuple(b'SimulationMovementData', [10, 11, 12, 13, 
- 14, 15])
+SimulationMovementData = namedtuple(b'SimulationMovementData', [11, 12, 13, 14, 
+ 15, 16])
 ShotMapData = namedtuple(b'ShotMapData', [b'dataID', b'lastDuration'])
 
 class SimulationMovementTracker(CallbackDelayer):

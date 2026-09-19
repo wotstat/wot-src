@@ -1,0 +1,52 @@
+from __future__ import absolute_import
+from enum import Enum
+FEATURE = b'hw26'
+MIN_VIEW_TIME = 2.0
+MIN_VO_TIME = 1
+
+class HWLogActions(Enum):
+    VO_LISTENED = b'vo_listened'
+    TOOLTIP_VIEWED = b'tooltip_viewed'
+    LIFETIME = b'lifetime'
+    CLICK = b'click'
+    OPEN = b'open'
+
+
+class HWLogKeys(Enum):
+    HW_LOBBY = b'hw_lobby'
+    RANDOM_LOBBY = b'random_lobby'
+    DECRYPT_VIEW = b'decrypt_view'
+    REWARD_PATH_VIEW = b'reward_path_view'
+    PROMO_VIEW = b'promo_view'
+    EXCHANGE_VIEW = b'exchange_view'
+    BESTIARY_VIEW = b'bestiary_view'
+    MODE_SELECTOR_VIEW = b'mode_selector_view'
+    COMPARISON_VIEW = b'comparison_view'
+    ANOMALIES_VIEW = b'anomalies_view'
+    HW_WEB_VIEW = b'hw_web_view'
+    CAROUSEL = b'carousel'
+    META_WIDGET = b'meta_widget'
+    BATTLE_RESULT_STATS = b'battle_result_stats'
+    BATTLE_RESULT_STATS_CM = b'battle_result_stats_cm'
+    SIMPLE_TOOLTIP = b'simple_tooltip'
+    HW_ENTRY_POINT = b'hw_entry_point'
+    THUMBNAIL = b'thumbnail'
+    ARROW = b'arrow'
+    BUNDLE = b'bundle'
+    INFO_BUTTON = b'info_button'
+    BESTIARY_BUTTON = b'bestiary_button'
+    COMPARISON_BUTTON = b'comparison_button'
+    ANOMALIES_BUTTON = b'anomalies_button'
+    VEHICLE_PREVIEW_BUTTON = b'vehicle_preview_button'
+    VIEW_BUTTON = b'view_button'
+    CONTEXT_MENU_BUTTON = b'context_menu_button'
+    ADD_FRIEND_BUTTON = b'add_friend_button'
+    SEND_PLATOON_INVITATION_BUTTON = b'send_platoon_invitation_button'
+    SHOW_CONTEXT_MENU_BUTTON = b'show_context_menu_button'
+    SKIP_BUTTON = b'skip_button'
+    HANGAR_3D_OBJECT = b'3d_object'
+    UMG_BANNER = b'umg_banner'
+    MODE_SELECTOR = b'mode_selector'
+    HEADER = b'header'
+    HW_HANGAR_UMG_WIDGET = b'hw_hangar_umg_widget'
+    REWARD_PATH_UMG_WIDGET = b'reward_path_umg_widget'

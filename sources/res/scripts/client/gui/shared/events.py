@@ -9,7 +9,7 @@ from shared_utils import CONST_CONTAINER
 if typing.TYPE_CHECKING:
     from gui.Scaleform.framework.managers.loaders import GuiImplViewLoadParams
     from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
-__all__ = (b'ArgsEvent', b'ComponentEvent', b'LoadViewEvent', b'LoadGuiImplViewEvent', b'ShowDialogEvent', b'LoginEvent', b'LoginEventEx', b'LobbySimpleEvent', b'FightButtonDisablingEvent', b'FightButtonEvent', b'CloseWindowEvent', b'BrowserEvent', b'HangarVehicleEvent', b'HangarCustomizationEvent', b'GameEvent', b'ViewEventType', b'OpenLinkEvent', b'ChannelManagementEvent', b'PreBattleChannelEvent', b'AmmunitionSetupViewEvent', b'HasCtxEvent', b'DogTagsEvent', b'DeathCamEvent', b'FullscreenModeSelectorEvent', b'ModeSelectorPopoverEvent', b'ModeSubSelectorEvent', b'NavigationEvent', b'BackNavigationEvent', b'PersonalMissionsEvent', b'UserMissionsEvent', b'GUICommonEvent', b'PetObjectHoverEvent', b'PetSystemEvent')
+__all__ = (b'ArgsEvent', b'ComponentEvent', b'LoadViewEvent', b'LoadGuiImplViewEvent', b'ShowDialogEvent', b'LoginEvent', b'LoginEventEx', b'LobbySimpleEvent', b'FightButtonDisablingEvent', b'FightButtonEvent', b'CloseWindowEvent', b'BrowserEvent', b'HangarVehicleEvent', b'HangarCustomizationEvent', b'GameEvent', b'ViewEventType', b'OpenLinkEvent', b'ChannelManagementEvent', b'PreBattleChannelEvent', b'AmmunitionSetupViewEvent', b'HasCtxEvent', b'DogTagsEvent', b'DeathCamEvent', b'FullscreenModeSelectorEvent', b'ModeSelectorPopoverEvent', b'ModeSubSelectorEvent', b'NavigationEvent', b'BackNavigationEvent', b'PersonalMissionsEvent', b'UserMissionsEvent', b'GUICommonEvent', b'PetObjectHoverEvent', b'PetSystemEvent', b'HidePopoverEvent')
 _logger = logging.getLogger(__name__)
 
 class HasCtxEvent(SharedEvent):

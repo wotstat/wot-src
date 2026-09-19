@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from Event import Event
 from adisp import adisp_async
 from gui.ClientUpdateManager import g_clientUpdateManager
@@ -85,7 +86,7 @@ class SettingsCache(ISettingsCache):
         self.onSyncStarted()
         import BattleReplay
         if BattleReplay.g_replayCtrl.isPlaying:
-            cbWrapper(dict())
+            cbWrapper({})
             return
         self.__intSettings.request()(cbWrapper)
         return

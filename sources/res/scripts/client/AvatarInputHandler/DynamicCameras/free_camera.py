@@ -1,4 +1,7 @@
-import GUI, BigWorld, Settings, logging, ResMgr, BattleReplay, constants, Math, math_utils, Keys, random, math, CommandMapping
+from __future__ import absolute_import, division
+import random, math, logging
+from future.utils import lmap
+import GUI, BigWorld, Settings, ResMgr, BattleReplay, constants, Math, math_utils, Keys, CommandMapping
 from gui.shared.utils.key_mapping import getVirtualKey
 from helpers import dependency
 from skeletons.gui.battle_session import IBattleSessionProvider
@@ -6,6 +9,8 @@ from Math import Vector3
 from AvatarInputHandler.VideoCamera import VideoCamera, _InertiaScalar, KeySensor, _AlignerToLand
 from AvatarInputHandler.DynamicCameras import CameraWithSettings
 from AvatarInputHandler.cameras import readFloat
+from account_helpers.AccountSettings import AccountSettings
+from account_helpers.settings_core.settings_constants import CONTROLS
 from debug_utils import LOG_WARNING
 from helpers import isPlayerAvatar
 _logger = logging.getLogger(__name__)
@@ -111,7 +116,6 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         ds.writeBool(b'freeVideoMode/camera/horzInvert', ucfg[b'horzInvert'])
         ds.writeBool(b'freeVideoMode/camera/vertInvert', ucfg[b'vertInvert'])
         ds.writeFloat(b'freeVideoMode/camera/keySensitivity', ucfg[b'keySensitivity'])
-        ds.writeFloat(b'freeVideoMode/camera/sensitivity', ucfg[b'sensitivity'])
         ds.writeFloat(b'freeVideoMode/camera/scrollSensitivity', ucfg[b'scrollSensitivity'])
         return
 
@@ -149,7 +153,7 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         ucfg[b'vertInvert'] = False
         ucfg[b'sniperModeByShift'] = False
         ucfg[b'keySensitivity'] = readFloat(dataSec, b'keySensitivity', 0.0, 10.0, 1.0)
-        ucfg[b'sensitivity'] = readFloat(dataSec, b'sensitivity', 0.0, 10.0, 1.0)
+        ucfg[b'sensitivity'] = AccountSettings.getSettings(CONTROLS.MOUSE_FREECAM_SENS)
         ucfg[b'scrollSensitivity'] = readFloat(dataSec, b'scrollSensitivity', 0.0, 10.0, 1.0)
         return
 
@@ -171,6 +175,15 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
     def _getConfigsKey():
         return FreeVideoCamera.__name__
 
+    def _getMouseSensitivitySettingKey(self):
+        return CONTROLS.MOUSE_FREECAM_SENS
+
+    def _applyMouseSensitivityFromAccount(self):
+        super(FreeVideoCamera, self)._applyMouseSensitivityFromAccount()
+        if self._cfg:
+            self.__updateProperties()
+        return
+
     def setUserConfigValue(self, name, value):
         super(FreeVideoCamera, self).setUserConfigValue(name, value)
         self.__updateProperties()
@@ -184,7 +197,7 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         return
 
     def _readMovementSettings(self, configDataSec):
-        movementMappings = dict()
+        movementMappings = {}
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_ROTATE_LEFT))] = Math.Vector3(-1, 0, 0)
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_ROTATE_RIGHT))] = Math.Vector3(1, 0, 0)
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_MOVE_FORWARD))] = Math.Vector3(0, 0, 1)
@@ -195,15 +208,15 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         self._movementSensor.currentVelocity = Math.Vector3()
         self._verticalMovementSensor = KeySensor({}, linearSensitivity, None, linearSensitivityAcc)
         speedVertical = configDataSec.readFloat(b'speedVertical', 1.0)
-        heightChangeMappings = dict()
+        heightChangeMappings = {}
         heightChangeMappings[getattr(Keys, configDataSec.readString(b'keyMoveUp', b'KEY_SPACE'))] = speedVertical
         heightChangeMappings[getattr(Keys, configDataSec.readString(b'keyMoveDown', b'KEY_LSHIFT'))] = -speedVertical
         self._heightAboveGroundSensor = _SensitivityLimitKeySensor(heightChangeMappings, linearSensitivity, None, linearSensitivityAcc)
         self._heightAboveGroundSensor.reset(Math.Vector3())
-        sensitivityLimits = map(int, configDataSec.readString(b'sensitivityLimits', b'').split())
+        sensitivityLimits = lmap(int, configDataSec.readString(b'sensitivityLimits', b'').split())
         if not sensitivityLimits:
             sensitivityLimits = _DEFAULT_SPEED_LEVEL_LIMITS
-        speedChangeKeyMappings = dict()
+        speedChangeKeyMappings = {}
         speedChangeKeyMappings[getattr(Keys, configDataSec.readString(b'keySelectSpeed1', b'KEY_1'))] = sensitivityLimits[0]
         speedChangeKeyMappings[getattr(Keys, configDataSec.readString(b'keySelectSpeed2', b'KEY_2'))] = sensitivityLimits[1]
         speedChangeKeyMappings[getattr(Keys, configDataSec.readString(b'keySelectSpeed3', b'KEY_3'))] = sensitivityLimits[2]
@@ -365,7 +378,7 @@ class FreeVideoCamera(VideoCamera, CameraWithSettings):
         return BigWorld.wg_collideSphereDynamicStatic(spaceID, start, end, self.__acCameraColliderRadius, skipFlags, ignoreDynamicId, ignorePart)
 
     def __onMappingChanged(self, *args):
-        movementMappings = dict()
+        movementMappings = {}
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_ROTATE_LEFT))] = Math.Vector3(-1, 0, 0)
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_ROTATE_RIGHT))] = Math.Vector3(1, 0, 0)
         movementMappings[getattr(Keys, getVirtualKey(CommandMapping.CMD_MOVE_FORWARD))] = Math.Vector3(0, 0, 1)
@@ -492,9 +505,9 @@ class _VariableHeightAlignerToLand(_AlignerToLand):
                 self._minHeightSafe = self._maxHeightSafe = self._maxHeightSafe * 0.1 + self._minHeightSafe * 0.9
             return
 
-    def enableWithFixedHeight(self, currentPos, newHeight, aboveSeaLevel=False):
-        newHeight = math_utils.clamp(self._minHeightSafe, self._maxHeightSafe, newHeight)
-        super(_VariableHeightAlignerToLand, self).enableWithFixedHeight(currentPos, newHeight, aboveSeaLevel)
+    def enableWithFixedHeight(self, currentPos, height, ignoreTerrain=False):
+        height = math_utils.clamp(self._minHeightSafe, self._maxHeightSafe, height)
+        super(_VariableHeightAlignerToLand, self).enableWithFixedHeight(currentPos, height, ignoreTerrain)
         return
 
     def setCollisionSkipFlags(self, flags):

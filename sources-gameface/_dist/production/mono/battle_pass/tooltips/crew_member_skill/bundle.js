@@ -1,0 +1,120 @@
+import { r as e } from "../../chunks/rolldown-runtime.js";
+import {
+  Vr as s,
+  Xn as r,
+  _n as i,
+  ci as a,
+  fn as c,
+  n as t,
+  pn as n,
+  tn as l,
+  ui as d,
+} from "../../chunks/lib.js";
+import "../../chunks/global.js";
+import { h as o } from "../../chunks/vendor.js";
+import { t as x } from "../../chunks/constants.js";
+d();
+var [m, j] = i()(({ observableModel: e }) => ({ root: e.object() }), s),
+  k = "TextBlock_c1243dca",
+  h = r(),
+  p = ({ text: e, className: s = "" }) => (0, h.jsx)("div", { className: a(k, s), children: e }),
+  _ = "Divider_669232ac",
+  P = () => (0, h.jsx)("div", { className: _ }),
+  v = "Title_a2303213",
+  N = ({ text: e, children: s }) =>
+    (0, h.jsxs)("div", { className: v, children: [s, (0, h.jsx)("div", { children: e })] }),
+  f = "NewPerk_65dd7364",
+  u = "NewPerk_textWrapper_deeac718",
+  b = "NewPerk_text_b9d72254",
+  g = "NewPerk_icon_bd29446e",
+  w = R.strings.tooltips.skill,
+  Z = ({ hasZeroPerk: e, isZero: s }) =>
+    (0, h.jsx)("div", {
+      className: f,
+      children: (0, h.jsx)("div", {
+        children: s
+          ? (0, h.jsxs)(h.Fragment, {
+              children: [
+                (0, h.jsx)(N, {
+                  text: w.newPerk.zeroPerk.title(),
+                  children: (0, h.jsx)("div", { className: g }),
+                }),
+                (0, h.jsxs)("div", {
+                  className: u,
+                  children: [
+                    (0, h.jsx)(P, {}),
+                    (0, h.jsx)(p, { text: w.newPerk.zeroPerk.text(), className: b }),
+                    (0, h.jsx)(P, {}),
+                  ],
+                }),
+              ],
+            })
+          : (0, h.jsxs)(h.Fragment, {
+              children: [
+                (0, h.jsx)(N, { text: w.newPerk.perk.title() }),
+                e && (0, h.jsx)(p, { text: w.newPerk.perk.text(), className: b }),
+              ],
+            }),
+      }),
+    }),
+  S = "SpecificPerk_ce130323",
+  z = "SpecificPerk_title_82263009",
+  I = "SpecificPerk_titleTexts_ce130323",
+  T = "SpecificPerk_subtitle_93cd4397",
+  y = "SpecificPerk_specificIcon_ecae8756",
+  D = "SpecificPerk_zeroPerkIcon_3d9628f1",
+  F = R.strings.tooltips,
+  W = ({ isZero: e, name: s }) =>
+    (0, h.jsxs)("div", {
+      className: S,
+      children: [
+        (0, h.jsxs)("div", {
+          className: z,
+          children: [
+            (0, h.jsx)("div", {
+              className: y,
+              style: {
+                backgroundImage: `url('R.images.gui.maps.icons.battlePass.tankman.perks.icon_perk_${s}')`,
+              },
+            }),
+            (0, h.jsxs)("div", {
+              className: I,
+              children: [
+                (0, h.jsx)("div", { children: F.skill.name.$dyn(s) }),
+                (0, h.jsx)(p, { text: F.perkType.name.common() }),
+              ],
+            }),
+          ],
+        }),
+        e &&
+          (0, h.jsxs)("div", {
+            className: T,
+            children: [
+              (0, h.jsx)("div", { className: D }),
+              (0, h.jsx)(p, { text: F.perks.zeroPerkInfo() }),
+            ],
+          }),
+      ],
+    }),
+  $ = "App_fa61a3fe",
+  A = o(() => {
+    const { model: e } = j(),
+      { name: s, isZero: r, hasZeroPerk: i } = e.root.get(),
+      a = s !== x;
+    return (0, h.jsx)(t, {
+      children: (0, h.jsx)(t.Decorator, {
+        children: (0, h.jsx)("div", {
+          className: $,
+          children: a
+            ? (0, h.jsx)(W, { isZero: r, name: s })
+            : (0, h.jsx)(Z, { isZero: r, hasZeroPerk: i }),
+        }),
+      }),
+    });
+  });
+c(
+  new n()
+    .add(l)
+    .addWithProps(m, {})
+    .render((0, h.jsx)(A, {})),
+);
