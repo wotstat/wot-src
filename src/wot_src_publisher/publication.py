@@ -155,18 +155,48 @@ def _run_git(
     check: bool = True,
     input_text: str | None = None,
 ) -> subprocess.CompletedProcess[str]:
-    result = subprocess.run(
-        ["git", "-C", str(repository), *arguments],
-        text=True,
-        capture_output=True,
-        check=False,
-        input=input_text,
-    )
+    # Object reads can fetch missing objects from a partial-clone promisor remote.
+    # Retry only repeatable reads/fetches, never commit or worktree mutations.
+    command = arguments[0] if arguments else "command"
+    retry_delays = (5.0, 15.0)
+    retryable_command = command in {
+        "fetch",
+        "ls-remote",
+        "ls-tree",
+        "show",
+        "cat-file",
+        "diff",
+        "rev-list",
+        "rev-parse",
+    }
+    for attempt in range(len(retry_delays) + 1):
+        result = subprocess.run(
+            ["git", "-C", str(repository), *arguments],
+            text=True,
+            capture_output=True,
+            check=False,
+            input=input_text,
+        )
+        details = result.stderr.strip() or result.stdout.strip()
+        if (
+            result.returncode == 0
+            or not retryable_command
+            or not _is_retryable_push_failure(details)
+            or attempt == len(retry_delays)
+        ):
+            break
+        delay = retry_delays[attempt]
+        _progress(
+            "git-read",
+            "retrying",
+            command=command,
+            attempt=attempt + 1,
+            retry_delay_seconds=delay,
+        )
+        time.sleep(delay)
     if check and result.returncode != 0:
         details = result.stderr.strip() or result.stdout.strip()
-        raise PublicationError(
-            f"git {arguments[0] if arguments else 'command'} failed: {details}"
-        )
+        raise PublicationError(f"git {arguments[0] if arguments else 'command'} failed: {details}")
     return result
 
 
