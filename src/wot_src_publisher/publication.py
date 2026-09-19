@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import ipaddress
 import json
 import os
 import re
@@ -170,6 +171,7 @@ def _run_git(
         "rev-parse",
     }
     for attempt in range(len(retry_delays) + 1):
+        started = time.monotonic()
         result = subprocess.run(
             ["git", "-C", str(repository), *arguments],
             text=True,
@@ -177,7 +179,30 @@ def _run_git(
             check=False,
             input=input_text,
         )
+        elapsed = round(time.monotonic() - started, 3)
         details = result.stderr.strip() or result.stdout.strip()
+        if result.returncode != 0 and retryable_command and details:
+            _progress(
+                "git-read",
+                "failed",
+                command=command,
+                attempt=attempt + 1,
+                attempts=len(retry_delays) + 1,
+                exit_code=result.returncode,
+                elapsed_seconds=elapsed,
+                retryable=_is_retryable_push_failure(details),
+                **_git_failure_fields(details),
+            )
+            if attempt == 0 and _is_retryable_push_failure(details):
+                _probe_github_transport()
+        elif result.returncode == 0 and attempt > 0:
+            _progress(
+                "git-read",
+                "recovered",
+                command=command,
+                attempt=attempt + 1,
+                elapsed_seconds=elapsed,
+            )
         if (
             result.returncode == 0
             or not retryable_command
@@ -198,6 +223,170 @@ def _run_git(
         details = result.stderr.strip() or result.stdout.strip()
         raise PublicationError(f"git {arguments[0] if arguments else 'command'} failed: {details}")
     return result
+
+
+def _git_failure_fields(details: str) -> dict[str, object]:
+    lowered = details.casefold()
+    reason = "other"
+    for label, markers in (
+        ("dns", ("could not resolve host",)),
+        ("connect", ("failed to connect", "connection refused")),
+        ("timeout", ("timed out",)),
+        ("reset", ("connection reset",)),
+        ("http_5xx", ("the requested url returned error: 5", "http 5")),
+        ("disconnect", ("remote end hung up", "unexpected disconnect")),
+        ("authentication", ("authentication failed", "could not read username")),
+    ):
+        if any(marker in lowered for marker in markers):
+            reason = label
+            break
+    missing = re.search(r"could not fetch ([0-9a-f]{40,64}) from promisor remote", lowered)
+    return {
+        "reason": reason,
+        "promisor_fetch": "promisor remote" in lowered,
+        "missing_object": missing.group(1) if missing else None,
+    }
+
+
+def _probe_github_transport() -> None:
+    # Independent, unauthenticated probe; never print stderr, headers or curl config.
+    # This describes connectivity AFTER the failure, not the failed Git connection.
+    try:
+        result = subprocess.run(
+            [
+                "curl",
+                "--disable",
+                "--head",
+                "--silent",
+                "--show-error",
+                "--connect-timeout",
+                "5",
+                "--max-time",
+                "10",
+                "--output",
+                os.devnull,
+                "--write-out",
+                "%{http_code} %{remote_ip} %{time_namelookup} %{time_connect} "
+                "%{time_appconnect} %{time_total}",
+                "https://github.com/",
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=12,
+        )
+        parts = result.stdout.split()
+        fields: dict[str, object] = {"exit_code": result.returncode}
+        # remote_ip is empty when curl never connected. Retain DNS/time metrics then too.
+        if len(parts) == 6:
+            fields["remote_ip"] = str(ipaddress.ip_address(parts.pop(1)))
+        if len(parts) == 5:
+            fields["http_status"] = int(parts[0])
+            for key, value in zip(
+                ("dns_seconds", "connect_seconds", "tls_seconds", "total_seconds"),
+                parts[1:],
+                strict=True,
+            ):
+                fields[key] = float(value)
+        _progress("github-connectivity", "observed", **fields)
+    except (OSError, subprocess.TimeoutExpired, ValueError):
+        _progress("github-connectivity", "unavailable")
+
+
+def _head_commit(repository: Path) -> str | None:
+    result = _run_git(repository, "rev-parse", "--verify", "--quiet", "HEAD", check=False)
+    if result.returncode == 1:
+        return None  # Unborn branch on the first publication.
+    value = result.stdout.strip()
+    if result.returncode != 0 or not GIT_OBJECT_ID_RE.fullmatch(value):
+        raise PublicationError("could not inspect publication HEAD")
+    return value
+
+
+def _verify_created_commit(
+    repository: Path, commit: str, parent: str | None, tree: str, message: str
+) -> None:
+    raw = _run_git(repository, "cat-file", "commit", commit).stdout
+    headers, separator, body = raw.partition("\n\n")
+    trees = [line[5:] for line in headers.splitlines() if line.startswith("tree ")]
+    parents = [line[7:] for line in headers.splitlines() if line.startswith("parent ")]
+    if (
+        not separator
+        or trees != [tree]
+        or parents != ([] if parent is None else [parent])
+        or body.rstrip("\n") != message.rstrip("\n")
+    ):
+        raise PublicationError(
+            "created commit does not match the expected tree, parent and message"
+        )
+
+
+def _commit_with_recovery(
+    repository: Path,
+    message: str,
+    *,
+    retry_delays: Sequence[float] = (5.0, 15.0),
+) -> str:
+    parent = _head_commit(repository)
+    tree = _run_git(repository, "write-tree").stdout.strip()
+    attempts = len(retry_delays) + 1
+    for attempt in range(1, attempts + 1):
+        # Hooks/concurrent changes must not alter what a retry would commit.
+        if (
+            _head_commit(repository) != parent
+            or _run_git(repository, "write-tree").stdout.strip() != tree
+        ):
+            raise PublicationError("publication HEAD or index changed before commit retry")
+        started = time.monotonic()
+        result = _run_git(repository, "commit", "--message", message, check=False)
+        elapsed = round(time.monotonic() - started, 3)
+        after = _head_commit(repository)
+        details = result.stderr.strip() or result.stdout.strip()
+        retryable = _is_retryable_push_failure(details)
+        if result.returncode != 0:
+            _progress(
+                "git-commit",
+                "failed",
+                attempt=attempt,
+                attempts=attempts,
+                exit_code=result.returncode,
+                elapsed_seconds=elapsed,
+                retryable=retryable,
+                head_before=parent,
+                head_after=after,
+                expected_tree=tree,
+                **_git_failure_fields(details),
+            )
+            if retryable and attempt == 1:
+                _probe_github_transport()
+        if result.returncode == 0 or (retryable and after != parent):
+            if after is None or after == parent:
+                raise PublicationError("git commit did not create a new commit")
+            _verify_created_commit(repository, after, parent, tree, message)
+            _progress(
+                "git-commit",
+                "completed",
+                attempt=attempt,
+                attempts=attempts,
+                elapsed_seconds=elapsed,
+                commit=after,
+                tree_verified=True,
+                result="created" if result.returncode == 0 else "recovered_after_transport_error",
+            )
+            return after
+        if not retryable or attempt == attempts:
+            raise PublicationError(f"git commit failed: {_git_error_excerpt(details)}")
+        delay = retry_delays[attempt - 1]
+        _progress(
+            "git-commit",
+            "retrying",
+            attempt=attempt,
+            attempts=attempts,
+            retry_delay_seconds=delay,
+            head_unchanged=True,
+        )
+        time.sleep(delay)
+    raise AssertionError("unreachable commit retry state")
 
 
 def _run_git_streaming(
@@ -720,9 +909,7 @@ def _prestage_large_git_objects(
             )
         for batch_number, batch in enumerate(batches, start=1):
             batch_bytes = sum(blob.size for blob in batch)
-            index_info = "".join(
-                f"{blob.mode} {blob.object_id}\t{blob.path}\0" for blob in batch
-            )
+            index_info = "".join(f"{blob.mode} {blob.object_id}\t{blob.path}\0" for blob in batch)
             _run_git(
                 staging_worktree,
                 "update-index",
@@ -730,15 +917,10 @@ def _prestage_large_git_objects(
                 "--index-info",
                 input_text=index_info,
             )
-            _run_git(
+            staging_commit = _commit_with_recovery(
                 staging_worktree,
-                "commit",
-                "--message",
                 f"stage publication objects {batch_number}/{len(batches)}",
             )
-            staging_commit = _run_git(
-                staging_worktree, "rev-parse", "HEAD"
-            ).stdout.strip()
             pushed_ref = True
             _push_commit(staging_worktree, remote_ref, staging_commit)
             _progress(
@@ -750,16 +932,12 @@ def _prestage_large_git_objects(
                 bytes=batch_bytes,
                 commit=staging_commit[:12],
             )
-        staging_tree = _run_git(
-            staging_worktree, "rev-parse", "HEAD^{tree}"
-        ).stdout.strip()
+        staging_tree = _run_git(staging_worktree, "rev-parse", "HEAD^{tree}").stdout.strip()
         expected_tree = _run_git(
             publication_worktree, "rev-parse", f"{commit_sha}^{{tree}}"
         ).stdout.strip()
         if staging_tree != expected_tree:
-            raise PublicationError(
-                "cumulative staging tree does not match the publication tree"
-            )
+            raise PublicationError("cumulative staging tree does not match the publication tree")
         _progress(
             "stage-objects",
             "completed",
@@ -819,6 +997,19 @@ def _push_commit(
             )
             return
 
+        details = result.stderr.strip() or result.stdout.strip()
+        _progress(
+            "push",
+            "attempt_failed",
+            attempt=attempt,
+            attempts=attempts,
+            exit_code=result.returncode,
+            elapsed_seconds=elapsed_seconds,
+            retryable=_is_retryable_push_failure(details),
+            **_git_failure_fields(details),
+        )
+        if attempt == 1 and _is_retryable_push_failure(details):
+            _probe_github_transport()
         if _remote_head(worktree, remote_ref) == commit_sha:
             _progress(
                 "push",
@@ -1706,8 +1897,7 @@ def publish_snapshot(
                 "publication_state": "unchanged",
             }
         with _progress_stage("commit", files=len(changed_files)) as progress:
-            _run_git(worktree, "commit", "--message", commit_subject)
-            commit_sha = _run_git(worktree, "rev-parse", "HEAD").stdout.strip()
+            commit_sha = _commit_with_recovery(worktree, commit_subject)
             progress["commit"] = commit_sha[:12]
             progress.update(_git_object_stats(worktree))
         with _prestage_large_git_objects(

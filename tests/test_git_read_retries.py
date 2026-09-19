@@ -23,6 +23,7 @@ def test_existing_publication_recovers_from_promisor_network_failure(
     (tmp_path / ".publication.json").write_text('{"schema_version": 1}')
     git("add", ".publication.json")
     git("commit", "-m", "Publication")
+    monkeypatch.setattr(publication, "_probe_github_transport", lambda: None)
     real_run = subprocess.run
     failures = 0
     sleeps: list[float] = []
@@ -61,6 +62,7 @@ def test_existing_publication_recovers_from_promisor_network_failure(
 def test_git_retries_are_bounded_and_only_for_safe_transient_failures(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch, command: str, error: str, attempts: int
 ) -> None:
+    monkeypatch.setattr(publication, "_probe_github_transport", lambda: None)
     calls = 0
     sleeps: list[float] = []
 
