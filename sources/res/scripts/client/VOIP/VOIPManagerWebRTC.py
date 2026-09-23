@@ -101,11 +101,6 @@ class VOIPManagerWebRTC(VOIPHandler):
         if enabled:
             self.__enable(isInitFromPrefs)
         else:
-            dbIDs = set()
-            for dbID, data in self.__channelUsers.iteritems():
-                if data[b'talking']:
-                    dbIDs.add(dbID)
-
             self.__disable()
         return
 
@@ -143,13 +138,13 @@ class VOIPManagerWebRTC(VOIPHandler):
         if self.__channel:
             if not isInitFromPrefs:
                 self.enableCurrentChannel(True)
-        BigWorld.VOIP.enableVOIP()
         return
 
     def __disable(self):
         _logger.info(b'Disable')
         self.__enabled = False
-        BigWorld.VOIP.disableVOIP()
+        if self.__channel:
+            self.enableCurrentChannel(False)
         return
 
     def getState(self):
@@ -183,7 +178,8 @@ class VOIPManagerWebRTC(VOIPHandler):
             return
         self.__channel = channelID
         self.__channelToken = token
-        self.__evaluateAutoJoinChannel(channelID)
+        if self.isEnabled():
+            self.__evaluateAutoJoinChannel(channelID)
         return
 
     def __evaluateAutoJoinChannel(self, newChannel):
