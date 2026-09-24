@@ -82,8 +82,10 @@ class WTEventStorageView(WtEventBasePortalsView):
         model.setTankLevel(vehicle.level)
         model.setTankNation(vehicle.name.split(b':')[0])
         model.setTankType(vehicle.type)
+        tankPortalPrice = self._eventCtrl.getConfig().tankPortalPrice
+        discountPerToken = self._eventCtrl.getMainPrizeDiscountPerToken()
         model.setDiscountTokenCount(self._eventCtrl.getCurrentMainPrizeDiscountTokensCount())
-        model.setDiscountPerToken(self._eventCtrl.getMainPrizeDiscountPerToken())
+        model.setDiscountPerToken(int(discountPerToken * 100 / tankPortalPrice))
         model.setMaxDiscountTokenCount(self._eventCtrl.getConfig().mainPrizeMaxDiscountTokenCount)
         return
 
