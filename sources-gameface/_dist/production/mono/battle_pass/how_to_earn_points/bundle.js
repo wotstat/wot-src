@@ -1,45 +1,45 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  Br as a,
-  Cr as t,
-  Er as n,
-  Et as l,
-  Jt as s,
-  Kt as i,
-  Ln as o,
-  Lr as c,
-  Or as _,
-  Ot as d,
-  Qn as r,
-  Rn as m,
-  Rt as b,
+  $t as a,
+  Br as t,
+  Cr as n,
+  Er as l,
+  Ft as s,
+  Gt as i,
+  Jt as o,
+  Kt as c,
+  Ln as _,
+  Lr as d,
+  Or as r,
+  Qn as m,
+  Rn as b,
   Sr as p,
   Tt as u,
-  Xn as T,
-  Yn as g,
-  Yt as x,
-  Zr as h,
-  Zt as v,
-  _n as f,
-  ci as C,
-  dr as j,
-  en as E,
-  fn as N,
-  gn as I,
-  gr as y,
-  ir as A,
-  pi as L,
-  pn as w,
-  qn as O,
-  qt as P,
-  tn as B,
-  ui as S,
-  wt as k,
+  Ut as T,
+  Wt as g,
+  Xn as x,
+  Yn as h,
+  Yt as v,
+  Zr as f,
+  Zt as C,
+  _n as j,
+  ci as E,
+  dr as N,
+  en as I,
+  fn as y,
+  gn as A,
+  gr as L,
+  ir as w,
+  pi as O,
+  pn as P,
+  qn as B,
+  tn as S,
+  ui as k,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as M } from "../chunks/vendor.js";
 import { t as F } from "../chunks/tank_name.js";
-var G = e(S(), 1),
+var G = e(k(), 1),
   D = (function (e) {
     return (
       (e[(e.REGULAR = 1)] = "REGULAR"),
@@ -54,26 +54,26 @@ var G = e(S(), 1),
   $ = (function (e) {
     return ((e[(e.LIMIT = 0)] = "LIMIT"), (e[(e.DAILY = 1)] = "DAILY"), e);
   })({}),
-  [W, z] = f()(
+  [W, z] = j()(
     ({ observableModel: e }) => {
-      const n = {
+      const a = {
           root: e.object(),
           gameModes: e.array("gameModes"),
-          selectedGameMode: y.box(D.REGULAR),
+          selectedGameMode: L.box(D.REGULAR),
         },
-        l = I(() => n.gameModes.get(), { equals: a }),
-        s = I(() => t(l(), (e) => e.arenaBonusType === n.selectedGameMode.get()) || 0, {
-          equals: a,
+        l = A(() => a.gameModes.get(), { equals: t }),
+        s = A(() => n(l(), (e) => e.arenaBonusType === a.selectedGameMode.get()) || 0, {
+          equals: t,
         }),
-        i = I(() => p(l(), (e) => e.arenaBonusType === n.selectedGameMode.get()), { equals: a }),
-        o = I((e) => p(l(), (a) => e === a.arenaBonusType), { equals: a });
+        i = A(() => p(l(), (e) => e.arenaBonusType === a.selectedGameMode.get()), { equals: t }),
+        o = A((e) => p(l(), (a) => e === a.arenaBonusType), { equals: t });
       return {
-        ...n,
+        ...a,
         computes: { getItems: l, getSlide: o, activeIndex: s, activeGameModeInfo: i },
       };
     },
     ({ externalModel: e, model: a }) => {
-      const t = j((e) => {
+      const t = N((e) => {
         a.selectedGameMode.set(e);
       });
       return {
@@ -83,15 +83,15 @@ var G = e(S(), 1),
       };
     },
   ),
-  Y = R.images.gui.maps.icons,
-  U = Y.battleTypes.c_136x136,
-  H = Y.battleTypes.c_136x136,
+  U = R.images.gui.maps.icons,
+  Y = U.battleTypes.c_136x136,
+  H = U.battleTypes.c_136x136,
   q = {
-    [D.REGULAR]: { small: U.random(), large: H.random() },
-    [D.BATTLE_ROYALE_SOLO]: { small: U.battle_royale(), large: H.battle_royale() },
-    [D.EPIC_BATTLE]: { small: U.epicbattle(), large: H.epicbattle() },
-    [D.COMP7]: { small: U.comp7(), large: H.comp7() },
-    [D.COMP7_LIGHT]: { small: U.comp7Light(), large: H.comp7Light() },
+    [D.REGULAR]: { small: Y.random(), large: H.random() },
+    [D.BATTLE_ROYALE_SOLO]: { small: Y.battle_royale(), large: H.battle_royale() },
+    [D.EPIC_BATTLE]: { small: Y.epicbattle(), large: H.epicbattle() },
+    [D.COMP7]: { small: Y.comp7(), large: H.comp7() },
+    [D.COMP7_LIGHT]: { small: Y.comp7Light(), large: H.comp7Light() },
   },
   V = {
     [D.REGULAR]: { levelRange: [4, 11] },
@@ -107,21 +107,21 @@ var G = e(S(), 1),
   Q = "Tab_container_e3bc117d",
   X = "Tab_title_960e90b1",
   ee = "Tab_conditions_5d132c9",
-  ae = T(),
-  te = L.resolve("strings"),
+  ae = x(),
+  te = O.resolve("strings"),
   ne = "battle_pass.howToEarnPoints",
   le = function ({ gameMode: e, isActive: a }) {
     const t = e.arenaBonusType,
-      { breakpoint: n } = g(),
-      l = n.weight >= r.medium.weight,
+      { breakpoint: n } = h(),
+      l = n.weight >= m.medium.weight,
       { large: s, small: i } = q[t],
-      o = V[t]?.levelRange ?? [],
-      c =
-        2 === o.length
-          ? { startLevel: A(o[0]), endLevel: A(o[1]) }
-          : { level: void 0 !== o[0] ? A(o[0]) : void 0 };
+      c = V[t]?.levelRange ?? [],
+      _ =
+        2 === c.length
+          ? { startLevel: w(c[0]), endLevel: w(c[1]) }
+          : { level: void 0 !== c[0] ? w(c[0]) : void 0 };
     return (0, ae.jsxs)("div", {
-      className: C(K, a && J),
+      className: E(K, a && J),
       children: [
         (0, ae.jsx)("div", { className: Z, style: { backgroundImage: `url(${l ? s : i})` } }),
         (0, ae.jsxs)("div", {
@@ -133,10 +133,10 @@ var G = e(S(), 1),
             }),
             (0, ae.jsx)("div", {
               className: ee,
-              children: (0, ae.jsx)(E, {
+              children: (0, ae.jsx)(o, {
                 text: te.readOrEmpty(`${ne}.text.c_${t}`),
                 upgradeLegacy: !0,
-                params: c,
+                params: _,
               }),
             }),
           ],
@@ -179,14 +179,14 @@ var G = e(S(), 1),
       i = a > 0,
       o = Boolean(t),
       c = !s && !i,
-      _ = O({ vehicleTypeIconSize: d.x48x48 }, { extraLarge: { vehicleTypeIconSize: d.x64x64 } });
+      _ = B({ vehicleTypeIconSize: u.x48x48 }, { extraLarge: { vehicleTypeIconSize: u.x64x64 } });
     if (c)
       return n !== Me.VEHICLES || o
         ? t
         : (0, ae.jsxs)(ae.Fragment, {
             children: [
               (0, ae.jsx)("div", {
-                className: C(se.nationFlag, se[`nationFlag__${l.vehicleNation}`]),
+                className: E(se.nationFlag, se[`nationFlag__${l.vehicleNation}`]),
               }),
               (0, ae.jsx)(F, {
                 ...l,
@@ -196,7 +196,7 @@ var G = e(S(), 1),
               }),
             ],
           });
-    const r =
+    const d =
       i &&
       (0, ae.jsx)("div", {
         className: se.additionalPoints,
@@ -211,10 +211,10 @@ var G = e(S(), 1),
           : (0, ae.jsx)("div", { className: se.additionalPointsText, children: `+ ${a}` }),
       });
     return (0, ae.jsxs)("div", {
-      className: C(se.base, se[`base__${n}`]),
+      className: E(se.base, se[`base__${n}`]),
       children: [
         s && (0, ae.jsx)("div", { className: se.points, children: e }),
-        r,
+        d,
         (i || !s) && (0, ae.jsx)("div", { className: se.icon }),
       ],
     });
@@ -240,63 +240,63 @@ var G = e(S(), 1),
     fadeIn: "Table_fadeIn_ef69bf65",
   },
   ce = ({ tableRows: e, tableType: a, shouldEnableTruncate: t = !1 }) => {
-    const l = O({ isSmallScreen: !0 }, { medium: { isSmallScreen: !1 } }),
-      s = n(e, 0)?.cell;
+    const n = B({ isSmallScreen: !0 }, { medium: { isSmallScreen: !1 } }),
+      s = l(e, 0)?.cell;
     if (!s) return null;
-    const o = _(s, (a, t) => _(e, (e) => e.cell?.[t])),
-      c = R.strings.settings.LANGUAGE_CODE();
+    const i = r(s, (a, t) => r(e, (e) => e.cell?.[t])),
+      o = R.strings.settings.LANGUAGE_CODE();
     return (0, ae.jsx)("div", {
-      className: C(oe.base, oe[`base__${a}`]),
-      children: _(o, (e, n) =>
+      className: E(oe.base, oe[`base__${a}`]),
+      children: r(i, (e, l) =>
         (0, ae.jsx)(
           "div",
           {
             className: oe.column,
-            children: _(e, (s, o) => {
+            children: r(e, (s, i) => {
               if (!s) return null;
-              const { text: _, points: d, externalPoints: r, vehicleInfo: m } = s.value,
-                b = Boolean(_),
-                p = b && 0 === d && 0 === r,
-                u = t && l.isSmallScreen && p,
-                T = 0 === o,
-                g = o === e.length - 1,
-                x = C(
+              const { text: c, points: _, externalPoints: d, vehicleInfo: r } = s.value,
+                m = Boolean(c),
+                b = m && 0 === _ && 0 === d,
+                p = t && n.isSmallScreen && b,
+                u = 0 === i,
+                g = i === e.length - 1,
+                x = E(
                   oe.cell,
-                  b && oe.cell__text,
-                  T ? oe.cell__inFirstRow : oe.cell__content,
-                  oe[`cell__column_${n}`],
-                  u && oe.cell__truncated,
+                  m && oe.cell__text,
+                  u ? oe.cell__inFirstRow : oe.cell__content,
+                  oe[`cell__column_${l}`],
+                  p && oe.cell__truncated,
                 );
               return (0, ae.jsxs)(
                 G.Fragment,
                 {
                   children: [
-                    u
-                      ? (0, ae.jsx)(i, {
-                          text: _,
+                    p
+                      ? (0, ae.jsx)(T, {
+                          text: c,
                           className: x,
-                          tooltipParams: { body: _ },
-                          lang: c,
+                          tooltipParams: { body: c },
+                          lang: o,
                         })
                       : (0, ae.jsx)("div", {
                           className: x,
-                          lang: c,
+                          lang: o,
                           children: (0, ae.jsx)(ie, {
-                            points: d,
-                            externalPoints: r,
-                            text: _,
+                            points: _,
+                            externalPoints: d,
+                            text: c,
                             tableType: a,
-                            vehicleInfo: m,
+                            vehicleInfo: r,
                           }),
                         }),
                     !g && (0, ae.jsx)("div", { className: oe.rowDivider }),
                   ],
                 },
-                `cell_${o}_${a}`,
+                `cell_${i}_${a}`,
               );
             }),
           },
-          `column_${n}_${a}`,
+          `column_${l}_${a}`,
         ),
       ),
     });
@@ -304,15 +304,15 @@ var G = e(S(), 1),
   _e = "WotPlusBanner_4f7164a3",
   de = "WotPlusBanner_text_35aa0162",
   re = "WotPlusBanner_link_2fb44a00",
-  me = L.resolve("strings"),
+  me = O.resolve("strings"),
   be = M(() => {
     const { controls: e } = z(),
       a = me.readOrEmpty("battle_pass.howToEarnPoints.plusBanner.link"),
-      t = O({ imageSize: 52 }, { large: { imageSize: 64 } });
+      t = B({ imageSize: 52 }, { large: { imageSize: 64 } });
     return (0, ae.jsxs)("div", {
       className: _e,
       children: [
-        (0, ae.jsx)(b, {
+        (0, ae.jsx)(s, {
           path: "battlePass.how_to_earn_points.plus_logo",
           width: t.imageSize,
           height: t.imageSize,
@@ -320,7 +320,7 @@ var G = e(S(), 1),
         (0, ae.jsxs)("div", {
           className: de,
           children: [
-            (0, ae.jsx)(E, {
+            (0, ae.jsx)(o, {
               text: me.readOrEmpty("battle_pass.howToEarnPoints.plusBanner.line1"),
               params: {
                 link: (0, ae.jsx)("a", { className: re, onClick: e.openWotPlus, children: a }),
@@ -338,13 +338,13 @@ var G = e(S(), 1),
   Te = "TabContent_base__battleRoyal_7bbb6e2f",
   ge = "TabContent_conditions_6de11214",
   xe = "TabContent_title_38082bc8",
-  he = L.resolve("strings"),
+  he = O.resolve("strings"),
   ve = M(function () {
     const { model: e } = z(),
       { isWotPlusShown: a } = e.root.get(),
       { battleRoyaleCondtions: t } = e.computes.activeGameModeInfo();
     return (0, ae.jsxs)("div", {
-      className: C(ue, Te),
+      className: E(ue, Te),
       children: [
         (0, ae.jsxs)("div", {
           className: pe,
@@ -407,33 +407,33 @@ var G = e(S(), 1),
     fadeIn: "Card_fadeIn_f4c22d1c",
   },
   Ne = ({ card: e }) => {
-    const { controls: a } = z(),
-      t = je[e],
-      n = O(
-        { buttonSize: u.extraSmall },
-        { large: { buttonSize: u.small }, extraLarge: { buttonSize: u.medium } },
+    const { controls: t } = z(),
+      n = je[e],
+      l = B(
+        { buttonSize: a.extraSmall },
+        { large: { buttonSize: a.small }, extraLarge: { buttonSize: a.medium } },
       );
     return (0, ae.jsxs)("div", {
       className: Ee.base,
       children: [
-        t?.image &&
+        n?.image &&
           (0, ae.jsx)("div", {
-            className: C(Ee.image, Ee[`image__${e}`]),
-            style: { backgroundImage: `url(${t?.image})` },
+            className: E(Ee.image, Ee[`image__${e}`]),
+            style: { backgroundImage: `url(${n?.image})` },
           }),
         (0, ae.jsxs)("div", {
           className: Ee.description,
           children: [
             (0, ae.jsx)("div", { className: Ee.cardTitle, children: je[e].title }),
-            (0, ae.jsx)("div", { className: Ee.text, children: t?.text }),
-            "linkText" in t &&
-              t?.linkText &&
-              (0, ae.jsx)(k, {
-                onClick: a.onGoToMissions,
-                size: n.buttonSize,
-                theme: l.secondary,
+            (0, ae.jsx)("div", { className: Ee.text, children: n?.text }),
+            "linkText" in n &&
+              n?.linkText &&
+              (0, ae.jsx)(C, {
+                onClick: t.onGoToMissions,
+                size: l.buttonSize,
+                theme: I.secondary,
                 className: Ee.linkButton,
-                children: t?.linkText,
+                children: n?.linkText,
               }),
           ],
         }),
@@ -448,7 +448,7 @@ var G = e(S(), 1),
   we = "DefaultTab_wotPlusBanner__hasVehicles_a5409707",
   Oe = "DefaultTab_title_1d604cc7",
   Pe = "DefaultTab_cards_c1bfc92c",
-  Be = L.resolve("strings"),
+  Be = O.resolve("strings"),
   Se = "battle_pass.howToEarnPoints",
   ke = M(function () {
     const { model: e } = z(),
@@ -460,11 +460,11 @@ var G = e(S(), 1),
       className: Ie,
       children: [
         (0, ae.jsxs)("div", {
-          className: C(Ae, s && ye),
+          className: E(Ae, s && ye),
           children: [
             (0, ae.jsx)("div", { className: Oe, children: Be.readOrEmpty(`${Se}.conditions`) }),
             (0, ae.jsx)(ce, { tableRows: n, tableType: Me.CONDITIONS, shouldEnableTruncate: s }),
-            a && (0, ae.jsx)("div", { className: C(Re, s && we), children: (0, ae.jsx)(be, {}) }),
+            a && (0, ae.jsx)("div", { className: E(Re, s && we), children: (0, ae.jsx)(be, {}) }),
           ],
         }),
         s &&
@@ -478,7 +478,7 @@ var G = e(S(), 1),
         i &&
           (0, ae.jsx)("div", {
             className: Pe,
-            children: _(t, (e, a) => (0, ae.jsx)(Ne, { card: e }, `card-${a}`)),
+            children: r(t, (e, a) => (0, ae.jsx)(Ne, { card: e }, `card-${a}`)),
           }),
       ],
     });
@@ -494,8 +494,8 @@ var G = e(S(), 1),
   $e = "App_animationBg_1dccac61",
   We = "App_mainBg_4662d711",
   ze = "App_dimBg_e8187a2a",
-  Ye = "App_content_ffc5f1c8",
-  Ue = "App_close_fbc86043",
+  Ue = "App_content_ffc5f1c8",
+  Ye = "App_close_fbc86043",
   He = "App_titleContainer_ef2e4d7b",
   qe = "App_title_b6b0162",
   Ve = "App_description_79d7b229",
@@ -510,31 +510,31 @@ var G = e(S(), 1),
   na = "App_tabBackground__hover_498f3901",
   la = "App_tabContent_a32e480",
   sa = "App_contentTab_22347cf",
-  ia = L.resolve("strings"),
+  ia = O.resolve("strings"),
   oa = "battle_pass.howToEarnPoints",
   ca = M(function () {
     const e = (0, G.useRef)(!1),
       [a, t] = (0, G.useState)(null),
-      { model: l, controls: i } = z(),
-      d = l.computes.getItems(),
-      r = l.selectedGameMode.get(),
-      b = l.computes.activeIndex();
+      { model: n, controls: s } = z(),
+      m = n.computes.getItems(),
+      p = n.selectedGameMode.get(),
+      u = n.computes.activeIndex();
     return (
-      o(),
+      _(),
       (0, G.useEffect)(() => {
         const a = (a) => {
-          (a.code !== c.ARROW_LEFT && a.code !== c.ARROW_RIGHT) || (e.current = !1);
+          (a.code !== d.ARROW_LEFT && a.code !== d.ARROW_RIGHT) || (e.current = !1);
         };
         return (window.addEventListener("keyup", a), () => window.removeEventListener("keyup", a));
       }, []),
-      m(c.ARROW_LEFT, () => {
+      b(d.ARROW_LEFT, () => {
         e.current ||
-          ((e.current = !0), 0 !== b && i.setSelectedGameMode(n(d, b - 1)?.arenaBonusType || 1));
+          ((e.current = !0), 0 !== u && s.setSelectedGameMode(l(m, u - 1)?.arenaBonusType || 1));
       }),
-      m(c.ARROW_RIGHT, () => {
+      b(d.ARROW_RIGHT, () => {
         e.current ||
           ((e.current = !0),
-          b !== d.length - 1 && i.setSelectedGameMode(n(d, b + 1)?.arenaBonusType || 1));
+          u !== m.length - 1 && s.setSelectedGameMode(l(m, u + 1)?.arenaBonusType || 1));
       }),
       (0, ae.jsxs)("div", {
         className: Ge,
@@ -547,9 +547,9 @@ var G = e(S(), 1),
                 className: We,
                 children: (0, ae.jsx)("div", { className: ze }),
               }),
-              (0, ae.jsx)(v, { className: Ue, onClose: h.close }),
+              (0, ae.jsx)(v, { className: Ye, onClose: f.close }),
               (0, ae.jsxs)("div", {
-                className: Ye,
+                className: Ue,
                 children: [
                   (0, ae.jsxs)("div", {
                     className: He,
@@ -560,29 +560,29 @@ var G = e(S(), 1),
                       }),
                       (0, ae.jsx)("div", {
                         className: Ve,
-                        children: (0, ae.jsx)(E, { text: ia.readOrEmpty(`${oa}.description`) }),
+                        children: (0, ae.jsx)(o, { text: ia.readOrEmpty(`${oa}.description`) }),
                       }),
                     ],
                   }),
-                  (0, ae.jsxs)(P, {
-                    size: s.large,
-                    theme: x.custom,
-                    active: r,
-                    onActiveChange: i.setSelectedGameMode,
+                  (0, ae.jsxs)(g, {
+                    size: i.large,
+                    theme: c.custom,
+                    active: p,
+                    onActiveChange: s.setSelectedGameMode,
                     children: [
                       (0, ae.jsx)("div", {
                         className: Ke,
-                        children: _(d, (e) => {
-                          const n = r === e.arenaBonusType,
+                        children: r(m, (e) => {
+                          const n = p === e.arenaBonusType,
                             l = a === e.arenaBonusType && !n,
                             s = {
-                              base: C(Ze, n && Je),
-                              background: C(aa, n && ta, l && na),
-                              borderImage: C(Qe, n && Xe, l && ea),
+                              base: E(Ze, n && Je),
+                              background: E(aa, n && ta, l && na),
+                              borderImage: E(Qe, n && Xe, l && ea),
                               content: la,
                             };
                           return (0, ae.jsx)(
-                            P.Tab,
+                            g.Tab,
                             {
                               tabId: e.arenaBonusType,
                               classNames: s,
@@ -590,14 +590,14 @@ var G = e(S(), 1),
                               onMouseLeave: () => t(null),
                               children: (0, ae.jsx)(le, {
                                 gameMode: e,
-                                isActive: r === e.arenaBonusType,
+                                isActive: p === e.arenaBonusType,
                               }),
                             },
                             e.arenaBonusType,
                           );
                         }),
                       }),
-                      (0, ae.jsx)(P.Content, {
+                      (0, ae.jsx)(g.Content, {
                         children: () =>
                           (0, ae.jsx)("div", { className: sa, children: (0, ae.jsx)(Fe, {}) }),
                       }),
@@ -611,9 +611,9 @@ var G = e(S(), 1),
       })
     );
   });
-N(
-  new w()
-    .add(B)
+y(
+  new P()
+    .add(S)
     .addWithProps(W, {})
     .render((0, ae.jsx)(ca, {})),
 );

@@ -18248,7 +18248,7 @@ var mV = "Depot_dots_e22e1616",
     });
   },
   yV = "MechanicHeader_200c7176",
-  CV = "MechanicHeader_textLabel_4d8ca1c4",
+  CV = "MechanicHeader_textLabel_4f093ea6",
   wV = Ds.resolve("strings"),
   jV = Ds.resolve("images"),
   NV = Ds.resolve("views"),

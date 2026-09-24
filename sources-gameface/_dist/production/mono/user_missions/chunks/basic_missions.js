@@ -1,45 +1,45 @@
 import { r as e } from "./rolldown-runtime.js";
 import {
-  At as s,
-  Bt as i,
-  C as t,
-  Ct as o,
-  Dn as r,
-  Dt as a,
-  En as n,
-  Et as l,
-  F as c,
-  Ft as d,
-  Gt as m,
-  Ht as u,
-  I as _,
-  It as p,
-  Jt as g,
-  Kt as f,
-  Mn as x,
-  Mt as h,
-  Nt as b,
-  On as C,
-  Ot as v,
-  Pn as N,
-  Pt as y,
-  S as I,
-  Sn as j,
-  St as k,
-  Ut as M,
-  V as E,
-  Vt as w,
-  Wt as S,
-  Xt as P,
-  Z as B,
-  _ as O,
-  an as T,
-  b as A,
-  c as L,
-  cn as D,
-  ct as W,
-  d as F,
-  et as H,
+  $ as s,
+  A as i,
+  At as t,
+  Bt as o,
+  C as r,
+  Ct as a,
+  Dn as n,
+  Dt as l,
+  E as c,
+  En as d,
+  Et as m,
+  Ft as u,
+  Gt as _,
+  Ht as p,
+  It as g,
+  Jt as f,
+  Kt as x,
+  Mn as h,
+  Mt as b,
+  Nt as C,
+  On as v,
+  Ot as N,
+  Pn as y,
+  Pt as I,
+  Q as j,
+  S as k,
+  Sn as M,
+  St as E,
+  Ut as w,
+  V as S,
+  Vt as P,
+  Wt as B,
+  Xt as O,
+  Y as T,
+  _ as A,
+  _t as L,
+  an as D,
+  c as W,
+  cn as F,
+  d as H,
   fn as G,
   g as V,
   gn as q,
@@ -51,29 +51,29 @@ import {
   kt as X,
   l as J,
   ln as K,
-  lt as Z,
-  m as ee,
-  on as se,
+  m as Z,
+  on as ee,
+  ot as se,
   p as ie,
   rn as te,
-  rt as oe,
+  st as oe,
   tt as re,
   u as ae,
   un as ne,
-  vt as le,
-  w as ce,
-  wn as de,
-  wt as me,
-  xn as ue,
-  xt as _e,
+  w as le,
+  wn as ce,
+  wt as de,
+  xn as me,
+  xt as ue,
+  y as _e,
   yn as pe,
   z as ge,
   zt as fe,
 } from "./lib.js";
 import { t as xe } from "../hub/bundle.js";
-import { t as he } from "./reward_wrapper.js";
-import { n as be, r as Ce } from "./helpers.js";
-var [ve, Ne] = k()(
+import { n as he, r as be } from "./helpers.js";
+import { t as Ce } from "./reward_wrapper.js";
+var [ve, Ne] = E()(
     ({ observableModel: e }) => e.object(),
     ({ externalModel: e }) => ({
       goToCampaigns: e.createCallbackNoArgs("goToCampaigns"),
@@ -92,48 +92,48 @@ var [ve, Ne] = k()(
   })({}),
   Ie = "ActionButton_20d194fb",
   je = "ActionButton_text_eb11c2b7",
-  ke = e(g(), 1);
+  ke = e(f(), 1);
 function Me({ textPath: e, ...s }) {
-  return (0, ke.jsx)(E, {
+  return (0, ke.jsx)(S, {
     ...s,
-    className: r(Ie, s.className),
-    children: (0, ke.jsx)(Z, { className: je, path: e }),
+    className: n(Ie, s.className),
+    children: (0, ke.jsx)(oe, { className: je, path: e }),
   });
 }
 var Re = "TextBlock_97d73ac3",
   Ee = "TextBlock_base__centered_d13b3a4b",
   we = "TextBlock_title_770e50f6",
   Se = "TextBlock_description_eacddfcf",
-  Pe = N.resolve("strings");
-N.resolve("aliases");
+  Pe = y.resolve("strings");
+y.resolve("aliases");
 var Be = (e, s, i) => {
     const t = `${e}.${s}`;
     return s === ye.COMPLETED_WITH_HONORS ? `${t}.${i ? "allCompleted" : "default"}` : t;
   },
-  Oe = le(function ({ centered: e = !1, className: s, classNames: i }) {
-    const { model: t } = Ne(),
+  Oe = L(function ({ centered: e = !1, className: s, classNames: t }) {
+    const { model: o } = Ne(),
       {
-        state: o,
+        state: r,
         allOperationsCompleted: a,
-        currentOperationName: n,
-        nextOperationName: l,
+        currentOperationName: l,
+        nextOperationName: c,
         stageNumber: d,
         totalProgress: m,
-      } = t.get();
+      } = o.get();
     return (0, ke.jsxs)("div", {
-      className: r(Re, e && Ee, s),
+      className: n(Re, e && Ee, s),
       children: [
-        (0, ke.jsx)(Z, {
-          path: Be("user_missions.hub.basic_missions.personal.title", o, a),
-          params: { currentOperationName: n, nextOperationName: l, stageNumber: d },
-          className: r(we, i?.title),
+        (0, ke.jsx)(oe, {
+          path: Be("user_missions.hub.basic_missions.personal.title", r, a),
+          params: { currentOperationName: l, nextOperationName: c, stageNumber: d },
+          className: n(we, t?.title),
         }),
-        (0, ke.jsx)(c, {
-          classMix: r(Se, i?.description),
-          justifyContent: e ? O.Center : O.FlexStart,
-          text: Pe.readOrEmpty(Be("user_missions.hub.basic_missions.personal.description", o, a))
-            .replace("{{currentOperationName}}", n)
-            .replace("{{nextOperationName}}", l)
+        (0, ke.jsx)(i, {
+          classMix: n(Se, t?.description),
+          justifyContent: e ? A.Center : A.FlexStart,
+          text: Pe.readOrEmpty(Be("user_missions.hub.basic_missions.personal.description", r, a))
+            .replace("{{currentOperationName}}", l)
+            .replace("{{nextOperationName}}", c)
             .replace("{{totalProgress}}", m.toString()),
           isTruncationAvailable: !0,
         }),
@@ -143,7 +143,7 @@ var Be = (e, s, i) => {
   Te = "CampaignNotActivated_9407dfc7",
   Ae = "CampaignNotActivated_textBlock_c662540",
   Le = "CampaignNotActivated_title_d30bb4f2",
-  De = le(function () {
+  De = L(function () {
     const { controls: e } = Ne();
     return (0, ke.jsxs)("div", {
       className: Te,
@@ -159,7 +159,7 @@ var Be = (e, s, i) => {
   }),
   We = "Completed_47cefd15",
   Fe = "Completed_textBlock_15b3296b",
-  He = le(function () {
+  He = L(function () {
     const { controls: e } = Ne();
     return (0, ke.jsxs)("div", {
       className: We,
@@ -180,11 +180,11 @@ var Be = (e, s, i) => {
   ze = "CompletedWithHonors_base__hasUncompleted_906ea6c6",
   Ue = "CompletedWithHonors_title_a75dacc1",
   Qe = "CompletedWithHonors_description_aead74a",
-  Ye = le(function () {
+  Ye = L(function () {
     const { model: e, controls: s } = Ne(),
       { allOperationsCompleted: i } = e.get();
     return (0, ke.jsxs)("div", {
-      className: r(Ge, i ? Ve : ze),
+      className: n(Ge, i ? Ve : ze),
       children: [
         i && (0, ke.jsx)("div", { className: qe }),
         (0, ke.jsx)(Oe, { centered: i, className: $e, classNames: { title: Ue, description: Qe } }),
@@ -198,7 +198,7 @@ var Be = (e, s, i) => {
       ],
     });
   }),
-  Xe = e(C(), 1),
+  Xe = e(v(), 1),
   Je = {
     base: "ProgressCount_1bbbcb2",
     slash: "ProgressCount_slash_ac34047e",
@@ -209,25 +209,25 @@ var Be = (e, s, i) => {
     total__slashCenter: "ProgressCount_total__slashCenter_bb7952a3",
   },
   Ke = "fullWidth",
-  Ze = N.resolve("intl"),
+  Ze = y.resolve("intl"),
   es = (0, Xe.memo)(function ({
     current: e,
     total: s,
     children: i,
     displayType: t = Ke,
     className: o,
-    classNames: a,
+    classNames: r,
   }) {
     return (0, ke.jsxs)("div", {
-      className: r(Je.base, o),
+      className: n(Je.base, o),
       children: [
         (0, ke.jsx)("div", {
-          className: r(Je.current, Je[`current__${t}`], a?.current),
+          className: n(Je.current, Je[`current__${t}`], r?.current),
           children: i ?? Ze.formatNumber("integral", e),
         }),
-        (0, ke.jsx)("div", { className: r(Je.slash, Je[`slash__${t}`], a?.slash), children: "/" }),
+        (0, ke.jsx)("div", { className: n(Je.slash, Je[`slash__${t}`], r?.slash), children: "/" }),
         (0, ke.jsx)("div", {
-          className: r(Je.total, Je[`total__${t}`], a?.total),
+          className: n(Je.total, Je[`total__${t}`], r?.total),
           children: Ze.formatNumber("integral", s),
         }),
       ],
@@ -245,10 +245,10 @@ var Be = (e, s, i) => {
       e
     );
   })({}),
-  os = N.resolve("strings");
+  os = y.resolve("strings");
 function rs(e) {
-  return (0, ke.jsx)(W, {
-    ...a({
+  return (0, ke.jsx)(se, {
+    ...l({
       header: os.readOrEmpty(`personal_missions_30.detail.name.${e.id}`),
       body: os
         .readOrEmpty("user_missions.hub.basic_missions.personal.detail.tooltip.body")
@@ -273,18 +273,18 @@ var as = {
     detail: "InProgress_detail_da841dde",
     progressBar: "InProgress_progressBar_fc1f13a5",
   },
-  ns = N.resolve("views"),
-  ls = le(function () {
+  ns = y.resolve("views"),
+  ls = L(function () {
     const { model: e, controls: s } = Ne(),
       {
         state: i,
         totalProgress: t,
         currentProgress: o,
-        previousProgress: a,
-        detailId: n,
-        vehicleName: c,
+        previousProgress: r,
+        detailId: a,
+        vehicleName: l,
       } = e.get(),
-      d = l(
+      c = m(
         ts.PM3_POINTS,
         (0, Xe.useMemo)(
           () => ({
@@ -294,7 +294,7 @@ var as = {
         ),
       );
     return (0, ke.jsxs)("div", {
-      className: r(as.base, as[`base__${i}`]),
+      className: n(as.base, as[`base__${i}`]),
       children: [
         (0, ke.jsx)(Oe, {
           className: as.textBlock,
@@ -307,25 +307,25 @@ var as = {
                   className: as.progress,
                   children: [
                     (0, ke.jsx)(es, { current: o, total: t }),
-                    (0, ke.jsx)("div", { ...d, className: as.points }),
+                    (0, ke.jsx)("div", { ...c, className: as.points }),
                   ],
                 }),
                 (0, ke.jsxs)("div", {
                   className: as.container,
                   children: [
-                    (0, ke.jsx)(rs, { id: n, vehicleName: c, className: as.detail }),
+                    (0, ke.jsx)(rs, { id: a, vehicleName: l, className: as.detail }),
                     (0, ke.jsx)(is, {
                       value: o,
                       size: "full",
                       maxValue: t,
                       className: as.progressBar,
-                      children: (0, ke.jsx)($, { initValue: a, initMaxValue: t }),
+                      children: (0, ke.jsx)($, { initValue: r, initMaxValue: t }),
                     }),
                   ],
                 }),
               ],
             })
-          : (0, ke.jsx)(Z, {
+          : (0, ke.jsx)(oe, {
               path: "user_missions.hub.basic_missions.personal.progress.inProgressForHonors",
               params: { progress: (0, ke.jsx)(es, { current: o, total: t }) },
               className: as.progress,
@@ -354,15 +354,15 @@ var as = {
         return `${o}.campaign`;
     }
   },
-  us = le(function (e) {
+  us = L(function (e) {
     const { model: s } = Ne(),
-      { state: i, allOperationsCompleted: t, currentOperationId: o, nextOperationId: a } = s.get();
-    return (0, ke.jsxs)(ee, {
-      className: r(ds, e.className),
+      { state: i, allOperationsCompleted: t, currentOperationId: o, nextOperationId: r } = s.get();
+    return (0, ke.jsxs)(Z, {
+      className: n(ds, e.className),
       disableMouse: !0,
       children: [
-        (0, ke.jsx)(W, {
-          path: ms(i, t, o, a),
+        (0, ke.jsx)(se, {
+          path: ms(i, t, o, r),
           width: "auto",
           height: "auto",
           fit: "cover",
@@ -386,15 +386,15 @@ var as = {
       ],
     });
   }),
-  [_s, ps] = k()(
+  [_s, ps] = E()(
     ({ observableModel: e }) => ({
       ...e.primitives(["updateWeekDay"]),
       missions: e.transform(
         (e) =>
-          F(e).map((e) => ({
+          H(e).map((e) => ({
             ...e,
-            specConditions: Ce(e.specialConditionIds),
-            rerollAvailableTimestamp: pe(ue(), j(e.timeToNextReroll)),
+            specConditions: be(e.specialConditionIds),
+            rerollAvailableTimestamp: pe(me(), M(e.timeToNextReroll)),
           })),
         "missionsList",
       ),
@@ -407,59 +407,59 @@ var as = {
     if (!e) throw new Error("useAnimation must be used within an AnimationProvider");
     return e;
   },
-  xs = le(function ({ completed: e, rerollState: s, children: i }) {
-    const [t, r] = (0, Xe.useState)(!1),
-      a = o(),
-      [l, c] = h(() => ({ from: { x: 0 } })),
-      [m, u] = h(() => ({ from: { x: 0 } })),
-      [_, p] = h(() => ({ from: { x: 0 } })),
-      [g, f] = h(() => ({ from: { opacity: e ? 0.5 : 1 } })),
-      [x, b] = h(() => ({ from: { opacity: "in" === s ? 1 : 0 } })),
-      [C, v] = d(3, (e) => ({
+  xs = L(function ({ completed: e, rerollState: s, children: i }) {
+    const [t, o] = (0, Xe.useState)(!1),
+      r = a(),
+      [n, l] = b(() => ({ from: { x: 0 } })),
+      [c, m] = b(() => ({ from: { x: 0 } })),
+      [_, p] = b(() => ({ from: { x: 0 } })),
+      [g, f] = b(() => ({ from: { opacity: e ? 0.5 : 1 } })),
+      [x, h] = b(() => ({ from: { opacity: "in" === s ? 1 : 0 } })),
+      [C, v] = u(3, (e) => ({
         from:
           "in" === s
             ? { transform: "translateY(-30rem)", opacity: 0 }
             : { transform: "translateY(0rem)", opacity: 1 },
       })),
-      [N, y] = h(() => ({ from: { opacity: e || "in" === s ? 0 : 1 } })),
-      [I, j] = h(() => ({ from: { transform: "rotate(0deg)" } })),
+      [N, y] = b(() => ({ from: { opacity: e || "in" === s ? 0 : 1 } })),
+      [I, j] = b(() => ({ from: { transform: "rotate(0deg)" } })),
       k = (e) => {
-        (r(!0), Promise.all(e.flat()).then(() => r(!1)));
+        (o(!0), Promise.all(e.flat()).then(() => o(!1)));
       },
-      R = M(() => {
+      M = w(() => {
         k([
-          c.start({ to: { x: 1 }, config: { duration: 1500, easing: n.easeInOutCubic } }),
+          l.start({ to: { x: 1 }, config: { duration: 1500, easing: d.easeInOutCubic } }),
           p.start({ to: { x: 1 }, config: { duration: 800 } }),
-          u.start({ to: { x: 1 }, config: { duration: 1500, easing: n.easeInOutCubic } }),
-          y.start({ to: { opacity: 0 }, config: { duration: 400, easing: n.easeInCubic } }),
-          f.start({ to: { opacity: 0.5 }, config: { duration: 200, easing: n.easeInCubic } }),
+          m.start({ to: { x: 1 }, config: { duration: 1500, easing: d.easeInOutCubic } }),
+          y.start({ to: { opacity: 0 }, config: { duration: 400, easing: d.easeInCubic } }),
+          f.start({ to: { opacity: 0.5 }, config: { duration: 200, easing: d.easeInCubic } }),
         ]);
       }),
-      E = M(() => {
+      R = w(() => {
         k([
           j.start({ to: { transform: "rotate(360deg)" }, config: { duration: 400 }, loop: !0 }),
           v.start((e) => ({
             to: { transform: "translateY(30rem)", opacity: 0 },
             delay: 50 * (3 - e),
-            config: { duration: 250, easing: n.easeInQuint },
+            config: { duration: 250, easing: d.easeInQuint },
           })),
-          b.start({
+          h.start({
             to: { opacity: 1 },
-            config: { duration: 300, easing: n.easeInQuint },
+            config: { duration: 300, easing: d.easeInQuint },
             delay: 100,
           }),
         ]);
       }),
-      w = M(() => {
+      E = w(() => {
         k([
           v.start((e) => ({
             to: { transform: "translateY(0rem)", opacity: 1 },
-            config: { duration: 300, easing: n.easeOutQuint },
+            config: { duration: 300, easing: d.easeOutQuint },
             delay: 50 * e,
           })),
-          b.start({
+          h.start({
             to: { opacity: 0 },
-            config: { duration: 300, easing: n.easeOutQuint },
+            config: { duration: 300, easing: d.easeOutQuint },
             delay: 100,
           }),
           y.start({ to: { opacity: 1 }, config: { duration: 100 }, delay: 300 }),
@@ -469,9 +469,9 @@ var as = {
       (0, Xe.useEffect)(() => {
         switch (s) {
           case "in":
-            return w();
+            return E();
           case "out":
-            return (a.play(xe.umg_hub_quest_reroll), E());
+            return (r.play(xe.umg_hub_quest_reroll), R());
           case "waiting":
             return void j.start({
               to: { transform: "rotate(360deg)" },
@@ -481,18 +481,18 @@ var as = {
           default:
             j.set({ transform: "rotate(0deg)" });
         }
-      }, [w, E, j, s, a]),
+      }, [E, R, j, s, r]),
       (0, ke.jsx)(gs.Provider, {
         value: {
-          completedGlowStyle: l,
-          completedBlickContainerStyle: m,
+          completedGlowStyle: n,
+          completedBlickContainerStyle: c,
           completedBlickStyle: _,
           completedFadingStyle: g,
           rerollingSprings: C,
           rerollIconStyle: I,
           rerollButtonStyle: N,
           rerollGlowStyle: x,
-          playCompletion: R,
+          playCompletion: M,
           inProgress: t,
         },
         children: i,
@@ -543,9 +543,9 @@ var js = "SpecConditionsIcons_ab3f13c7",
 function Ms({ specConditions: e, className: s, ...i }) {
   return (0, ke.jsx)("div", {
     ...i,
-    className: r(js, s),
-    children: se(e, (e) =>
-      (0, ke.jsx)(W, { width: 24, height: 24, path: e.iconPath, className: ks }, e.id),
+    className: n(js, s),
+    children: ee(e, (e) =>
+      (0, ke.jsx)(se, { width: 24, height: 24, path: e.iconPath, className: ks }, e.id),
     ),
   });
 }
@@ -554,11 +554,11 @@ var Rs = (function (e) {
   })({}),
   Es = "Conditions_specConditions_faac5c77",
   ws = "Conditions_commonCondition_72d62c0e";
-N.resolve("aliases");
-var Ss = N.resolve("views");
+y.resolve("aliases");
+var Ss = y.resolve("views");
 function Ps({ commonConditionId: e, specConditions: s }) {
-  const i = fs(),
-    t = l(
+  const t = fs(),
+    o = m(
       Rs.SPEC_CONDITIONS,
       (0, Xe.useMemo)(
         () => ({
@@ -569,10 +569,10 @@ function Ps({ commonConditionId: e, specConditions: s }) {
       ),
     );
   return (0, ke.jsxs)(Y.div, {
-    style: i.rerollingSprings[0],
+    style: t.rerollingSprings[0],
     children: [
-      s.length > 0 && (0, ke.jsx)(Ms, { ...t, specConditions: s, className: Es }),
-      (0, ke.jsx)(c, { text: be(e, s), classMix: ws, isTruncationAvailable: !0 }),
+      s.length > 0 && (0, ke.jsx)(Ms, { ...o, specConditions: s, className: Es }),
+      (0, ke.jsx)(i, { text: he(e, s), classMix: ws, isTruncationAvailable: !0 }),
     ],
   });
 }
@@ -580,7 +580,7 @@ var Bs = "Icon_animatedIcon_96d2a89c",
   Os = "Icon_f61225ad";
 function Ts({ completed: e, commonConditionId: s, className: i }) {
   const t = fs(),
-    o = f(
+    o = x(
       {
         completedIcon: "userMissions.hub.basic.done_icon_s",
         missionIcon: `userMissions.weekly.commonCond.x32x32.c_${s}`,
@@ -592,22 +592,22 @@ function Ts({ completed: e, commonConditionId: s, className: i }) {
         },
       },
     ),
-    a = p(e, {
+    r = g(e, {
       initial: { opacity: e ? 1 : 0.2, scale: 1 },
       from: { opacity: 0, scale: 0.2 },
-      enter: { opacity: e ? 1 : 0.2, scale: 1, config: { duration: 200, easing: n.easeOutCubic } },
-      leave: { opacity: 0, scale: 0.2, config: { duration: 200, easing: n.easeInCubic } },
+      enter: { opacity: e ? 1 : 0.2, scale: 1, config: { duration: 200, easing: d.easeOutCubic } },
+      leave: { opacity: 0, scale: 0.2, config: { duration: 200, easing: d.easeInCubic } },
       exitBeforeEnter: !0,
     });
   return (0, ke.jsx)("div", {
-    className: r(Os, i),
+    className: n(Os, i),
     children: (0, ke.jsx)(Y.div, {
       style: t.rerollingSprings[0],
-      children: a((e, s) =>
+      children: r((e, s) =>
         (0, ke.jsx)(Y.div, {
           style: e,
           className: Bs,
-          children: (0, ke.jsx)(W, {
+          children: (0, ke.jsx)(se, {
             path: s ? o.completedIcon : o.missionIcon,
             width: 32,
             height: 32,
@@ -636,40 +636,40 @@ var As = Xe.memo(function (e) {
   Fs = "Reroll_icon_9cea8d59",
   Hs = "Reroll_timer_9c3c15fe",
   Gs = "Reroll button",
-  Vs = N.resolve("strings"),
-  qs = N.resolve("views");
+  Vs = y.resolve("strings"),
+  qs = y.resolve("views");
 function $s({
   rerollCooldown: e,
   rerollAvailableTimestamp: s,
   timeToNextReroll: i,
   onClick: t,
-  className: a,
+  className: o,
 }) {
-  const n = o(),
-    c = X((0, Xe.useMemo)(() => ({ until: s, tick: j(1) }), [s])),
-    { rerollButtonStyle: d, rerollIconStyle: m } = fs(),
-    u = l(
+  const r = a(),
+    l = X((0, Xe.useMemo)(() => ({ until: s, tick: M(1) }), [s])),
+    { rerollButtonStyle: d, rerollIconStyle: u } = fs(),
+    _ = m(
       Rs.REROLL,
       (0, Xe.useMemo)(
         () => ({
           rerollCooldown: e,
-          rerollAvailableTimestamp: de(s),
+          rerollAvailableTimestamp: ce(s),
           resId: qs.read((e) => e.mono.user_missions.tooltips.param_tooltip("resId")),
         }),
         [e, s],
       ),
     );
   return (0, ke.jsx)(Y.div, {
-    ...u,
+    ..._,
     style: d,
-    className: r(Ls, a),
-    children: c.done
+    className: n(Ls, o),
+    children: l.done
       ? (0, ke.jsxs)("div", {
           onClick: () => {
-            (n.play("click", { target: Gs }), t());
+            (r.play("click", { target: Gs }), t());
           },
           onMouseEnter: () => {
-            n.play("mouse-enter", { target: Gs });
+            r.play("mouse-enter", { target: Gs });
           },
           className: Ds,
           children: [
@@ -677,26 +677,26 @@ function $s({
               className: Ws,
               children: Vs.readOrEmpty("user_missions.hub.basic_missions.daily.reroll_button"),
             }),
-            (0, ke.jsx)(Y.div, { style: m, className: Fs }),
+            (0, ke.jsx)(Y.div, { style: u, className: Fs }),
           ],
         })
-      : (0, ke.jsx)(Q, {
+      : (0, ke.jsx)(c, {
           start: i,
-          format: Q.format.superCompact,
-          size: Q.size.x24x24,
+          format: c.format.superCompact,
+          size: c.size.x24x24,
           className: Hs,
         }),
   });
 }
 var zs = "Rewards_rewardItem_5e36a95a",
   Us = "Rewards_boxRewardClassName_f0825900",
-  Qs = N.resolve("aliases");
+  Qs = y.resolve("aliases");
 function Ys(e) {
-  const s = f(
+  const s = x(
     { rewardSize: ge.S24x24, rewardMaxCount: 4 },
     { large: { rewardSize: ge.Small, rewardMaxCount: 5 } },
   );
-  return (0, ke.jsx)(he, {
+  return (0, ke.jsx)(Ce, {
     bonuses: e.bonuses,
     questId: e.id,
     size: s.rewardSize,
@@ -717,13 +717,13 @@ var Xs = "Mission_557cf0dd",
   oi = "Mission_reroll_15a6d836",
   ri = "Mission_reroll__noEvents_f1a3e9cd",
   ai = "Mission_progressBarWrapper_5877296e",
-  ni = le(function ({
+  ni = L(function ({
     bonuses: e,
     commonConditionId: s,
     currentProgress: i,
     id: t,
-    previousProgress: a,
-    specConditions: n,
+    previousProgress: o,
+    specConditions: r,
     isRerollInProgress: l,
     timeToNextReroll: c,
     rerollAvailableTimestamp: d,
@@ -732,9 +732,9 @@ var Xs = "Mission_557cf0dd",
     className: _,
   }) {
     const { controls: p } = ps(),
-      g = o(),
+      g = a(),
       f = fs(),
-      [x, h] = (0, Xe.useState)(a === u),
+      [x, h] = (0, Xe.useState)(o === u),
       { playCompletion: b } = f,
       C = (0, Xe.useMemo)(
         () => ({
@@ -748,7 +748,7 @@ var Xs = "Mission_557cf0dd",
         [i, u, g, b],
       );
     return (0, ke.jsxs)("div", {
-      className: r(Xs, f.inProgress && Js, _),
+      className: n(Xs, f.inProgress && Js, _),
       children: [
         (0, ke.jsx)(Is, {}),
         (0, ke.jsx)(Y.div, { style: f.rerollGlowStyle, className: Ks }),
@@ -765,7 +765,7 @@ var Xs = "Mission_557cf0dd",
                     (0, ke.jsxs)(Y.div, {
                       style: f.completedFadingStyle,
                       children: [
-                        (0, ke.jsx)(Ps, { commonConditionId: s, specConditions: n }),
+                        (0, ke.jsx)(Ps, { commonConditionId: s, specConditions: r }),
                         (0, ke.jsx)(Y.div, {
                           style: f.rerollingSprings[1],
                           children: (0, ke.jsx)(es, { current: i, total: u }),
@@ -783,7 +783,7 @@ var Xs = "Mission_557cf0dd",
                       rerollAvailableTimestamp: d,
                       timeToNextReroll: c,
                       onClick: () => p.reroll(t),
-                      className: r(oi, (i === u || l) && ri),
+                      className: n(oi, (i === u || l) && ri),
                     }),
                     (0, ke.jsx)(Y.div, {
                       style: f.rerollingSprings[2],
@@ -800,7 +800,7 @@ var Xs = "Mission_557cf0dd",
                 children: (0, ke.jsx)("div", {
                   className: ai,
                   children: (0, ke.jsx)(As, {
-                    previousProgress: a,
+                    previousProgress: o,
                     currentProgress: i,
                     totalProgress: u,
                     animationProps: C,
@@ -818,7 +818,7 @@ var Xs = "Mission_557cf0dd",
   di = "WeeklyMissions_list_ef7648a3",
   mi = "WeeklyMissions_title_eeb41405",
   ui = "WeeklyMissions_title__right_82a872e3",
-  _i = le(function (e) {
+  _i = L(function (e) {
     const { model: s } = ps(),
       i = s.missions.get(),
       t = (0, Xe.useRef)(i);
@@ -830,13 +830,13 @@ var Xs = "Mission_557cf0dd",
           s = new Set();
         return (
           U(t.current, (t, o) => {
-            const r = T(i, o);
+            const r = D(i, o);
             r && r.id !== t.id && (e.add(t.id), s.add(r.id));
           }),
           { rerolledIds: e, newIds: s }
         );
       }, [i]),
-      a = p(i, {
+      r = g(i, {
         key: (e) => e.id,
         initial: { x: 1 },
         from: { x: 0 },
@@ -844,23 +844,23 @@ var Xs = "Mission_557cf0dd",
         leave: { x: 0, config: { duration: 600 } },
         exitBeforeEnter: !0,
       });
-    return (0, ke.jsxs)(ee, {
-      className: r(li, e.fullHeight && ci, e.className),
+    return (0, ke.jsxs)(Z, {
+      className: n(li, e.fullHeight && ci, e.className),
       disableMouse: !0,
       children: [
-        (0, ke.jsx)(Z, { className: mi, path: "user_missions.hub.basic_missions.weekly.title" }),
-        (0, ke.jsx)(Z, {
-          className: r(mi, ui),
+        (0, ke.jsx)(oe, { className: mi, path: "user_missions.hub.basic_missions.weekly.title" }),
+        (0, ke.jsx)(oe, {
+          className: n(mi, ui),
           path: "user_missions.hub.basic_missions.weekly.update_info",
           params: {
-            weekDay: N.resolve("strings").readOrEmpty(
-              `menu.dateTime.weekDays.full.c_${s.updateWeekDay.get()}`,
-            ),
+            weekDay: y
+              .resolve("strings")
+              .readOrEmpty(`menu.dateTime.weekDays.full.c_${s.updateWeekDay.get()}`),
           },
         }),
         (0, ke.jsx)("div", {
           className: di,
-          children: a((e, s) =>
+          children: r((e, s) =>
             (0, ke.jsx)(xs, {
               completed: s.previousProgress === s.totalProgress,
               rerollState: (() => {
@@ -904,7 +904,7 @@ function bi({ message: e }) {
 }
 var Ci = "Block_content_7290bea6";
 function vi({ content: e, isEnabled: s, disabilityReason: i, className: t }) {
-  return (0, ke.jsx)(ee, {
+  return (0, ke.jsx)(Z, {
     className: t,
     disableMouse: !0,
     children: s
@@ -915,7 +915,7 @@ function vi({ content: e, isEnabled: s, disabilityReason: i, className: t }) {
 var Ni = (0, Xe.createContext)(null);
 function yi() {
   const e = (0, Xe.useContext)(Ni);
-  return (P(null !== e, "AnimationsContext is null"), e);
+  return (O(null !== e, "AnimationsContext is null"), e);
 }
 function Ii() {
   return (0, Xe.useContext)(Ni);
@@ -970,22 +970,22 @@ function Bi({ sound: e, soundCfg: s }) {
   e && s && ("string" == typeof s ? e.play(s) : e.play(s.eventName, s?.event));
 }
 function Oi({ children: e }) {
-  const s = w(),
+  const s = P(),
     i = (0, Xe.useRef)({}),
     t = (0, Xe.useRef)({}),
     o = (0, Xe.useRef)({}),
-    r = me(),
-    a = M(({ id: e, animName: s, elementId: t = e }) => Ei(i, e, s, t)),
-    n = M((e, s, t = e) => {
+    r = de(),
+    a = w(({ id: e, animName: s, elementId: t = e }) => Ei(i, e, s, t)),
+    n = w((e, s, t = e) => {
       Mi(i, e, s, t);
     }),
-    l = M(
+    l = w(
       ({ id: e, animName: s, config: t, elementId: o = e }) => (
         ki(i, t, e, s, o),
         () => n(e, s, o)
       ),
     ),
-    c = M(
+    c = w(
       ({
         id: e,
         animName: s,
@@ -1002,13 +1002,13 @@ function Oi({ children: e }) {
           Bi({ sound: r, soundCfg: n }));
       },
     ),
-    d = M(({ id: e, animName: i, elementId: o = e, providerCfg: r = {} }) => {
+    d = w(({ id: e, animName: i, elementId: o = e, providerCfg: r = {} }) => {
       const a = s.on(ji(e, i, o), () => {
         (Mi(t, e, i, o), Si({ storage: t, id: e, emitter: s, providerCfg: r }), a());
       });
       ki(t, !0, e, i, o);
     }),
-    m = M(({ complexId: e, id: i, animName: t, elementId: r = i, providerCfg: a }) => {
+    m = w(({ complexId: e, id: i, animName: t, elementId: r = i, providerCfg: a }) => {
       const n = s.on(ji(i, t, r), function () {
           (!(function ({
             storage: e,
@@ -1038,7 +1038,7 @@ function Oi({ children: e }) {
         l = Ri(o, e, i, t);
       l ? l.add(r) : ki(o, new Set().add(r), e, i, t);
     }),
-    u = M(({ groupId: e, groupCfg: o, providerCfg: a, soundCfg: n }) => {
+    u = w(({ groupId: e, groupCfg: o, providerCfg: a, soundCfg: n }) => {
       (Mi(t, e),
         a?.skip ||
           a?.skipTrigger ||
@@ -1051,7 +1051,7 @@ function Oi({ children: e }) {
         Bi({ sound: r, soundCfg: n }),
         a?.skip && !a?.skipTrigger && Pi({ id: e, emitter: s, providerCfg: a }));
     }),
-    _ = M(({ complexId: e, complexCfg: t, providerCfg: a, soundCfg: n }) => {
+    _ = w(({ complexId: e, complexCfg: t, providerCfg: a, soundCfg: n }) => {
       if ((Mi(o, e), !a?.skip && !a?.skipTrigger))
         for (let [s, o] of Object.entries(t))
           wi(s, o, i, (i, t) => {
@@ -1078,7 +1078,7 @@ function Oi({ children: e }) {
     );
   return (0, ke.jsx)(Ni.Provider, { value: p, children: e });
 }
-var [Ti, Ai] = k()(
+var [Ti, Ai] = E()(
   ({ observableModel: e }) => {
     const s = {
         ...e.primitives(["timeToNextRerol", "areAllMissionsCompleted", "timeToMissionsUpdate"]),
@@ -1086,13 +1086,13 @@ var [Ti, Ai] = k()(
         bonusMission: e.object("bonusMission"),
         bonusMissionBonuses: e.arrayClone("bonusMission.bonuses"),
       },
-      i = _e.model((e) => {
+      i = ue.model((e) => {
         const i = s.bonusMission.get();
         if (e == i.id) return i;
         const t = s.missionsList.get();
         return te(t, (s) => s.id == e);
       }),
-      t = _e.model(() => s.missionsList.get().some(({ animateCompletion: e }) => e));
+      t = ue.model(() => s.missionsList.get().some(({ animateCompletion: e }) => e));
     return { ...s, computes: { missionById: i, isAnyCompleteAnimation: t } };
   },
   ({ externalModel: e }) => ({ onReroll: e.createCallback((e) => ({ questId: e }), "onReroll") }),
@@ -1118,7 +1118,7 @@ var Di = {
     config: { duration: 400 },
   };
 function Fi(e = Gi.GREY_LENSE, s) {
-  const i = b(),
+  const i = C(),
     t = ((e) => {
       switch (e) {
         case Gi.GREEN:
@@ -1130,14 +1130,14 @@ function Fi(e = Gi.GREY_LENSE, s) {
           return Di;
       }
     })(e),
-    o = M(() => s?.()),
-    r = M(() => {
+    o = w(() => s?.()),
+    r = w(() => {
       i.start({ onRest: o, ...t, reset: !0 });
     }),
-    a = M(() => {
+    a = w(() => {
       i.start({ to: { opacity: 0 }, reset: !0, immediate: !0 });
     }),
-    n = h({ ref: i, onRest: o, ...t });
+    n = b({ ref: i, onRest: o, ...t });
   return (0, Xe.useMemo)(() => ({ glowStyle: n, config: { start: r, skip: a } }), [n, a, r]);
 }
 var Hi = {
@@ -1168,25 +1168,25 @@ var Hi = {
   zi = "glow";
 var Ui = (0, Xe.memo)(function ({ id: e, elementId: s, className: i, glowType: t = Gi.GREEN }) {
   const o = Ii(),
-    { glowStyle: a, config: n } = Fi(
+    { glowStyle: r, config: a } = Fi(
       t,
-      M(() => o?.emitter.trigger(ji(e, zi, s), e, s)),
+      w(() => o?.emitter.trigger(ji(e, zi, s), e, s)),
     );
   return (
-    Li({ id: e, elementId: s, registerAnimation: o?.registerAnimation, animName: zi, config: n }),
+    Li({ id: e, elementId: s, registerAnimation: o?.registerAnimation, animName: zi, config: a }),
     (0, ke.jsx)(Y.div, {
-      style: a,
-      className: r(Hi.base, i),
-      children: (0, ke.jsx)(W, { ...$i(t), className: r(Hi.icon, Hi[`icon__${t}`]) }),
+      style: r,
+      className: n(Hi.base, i),
+      children: (0, ke.jsx)(se, { ...$i(t), className: n(Hi.icon, Hi[`icon__${t}`]) }),
     })
   );
 });
 function Qi(e, s) {
-  const i = y(e, { onRest: M(() => s?.()) }),
-    t = M((e) => {
+  const i = I(e, { onRest: w(() => s?.()) }),
+    t = w((e) => {
       e?.to != i.get() ? i.start({ ...e }) : s?.();
     }),
-    o = M((e) => {
+    o = w((e) => {
       i.start({ ...e, delay: 0, immediate: !0, config: { duration: 0 } });
     });
   return (0, Xe.useMemo)(() => ({ opacity: i, config: { start: t, skip: o } }), [i, o, t]);
@@ -1196,7 +1196,7 @@ var Xi = (0, Xe.memo)(function ({ id: e, from: s, className: i, elementId: t, ch
     const a = Ii(),
       { opacity: n, config: l } = Qi(
         s,
-        M(() => a?.emitter.trigger(ji(e, Yi, t), e, t)),
+        w(() => a?.emitter.trigger(ji(e, Yi, t), e, t)),
       );
     return (
       Li({ id: e, elementId: t, registerAnimation: a?.registerAnimation, animName: Yi, config: l }),
@@ -1225,38 +1225,38 @@ var Zi = "Reflection_7a45ed9c",
 var at = (0, Xe.memo)(function ({ id: e, elementId: s, className: i }) {
     const { registerAnimation: t, emitter: o } = yi(),
       {
-        bgStyle: a,
-        linesStyle: n,
+        bgStyle: r,
+        linesStyle: a,
         config: l,
       } = (function (e) {
-        const s = b(),
-          i = b(),
+        const s = C(),
+          i = C(),
           t = (0, Xe.useRef)(0),
-          o = M(() => {
+          o = w(() => {
             ((t.current += 1), 2 == t.current && ((t.current = 0), e?.()));
           }),
-          r = M(() => {
+          r = w(() => {
             (s.start({ ...Ji, onRest: o, reset: !0 }), i.start({ ...Ki, onRest: o, reset: !0 }));
           }),
-          a = M(() => {
+          a = w(() => {
             (s.start({ to: { opacity: 0 }, immediate: !0 }), i.start({ ...Ki, immediate: !0 }));
           }),
-          n = h({ ref: s, onRest: o, ...Ji }),
-          l = h({ ref: i, onRest: o, ...Ki });
+          n = b({ ref: s, onRest: o, ...Ji }),
+          l = b({ ref: i, onRest: o, ...Ki });
         return (0, Xe.useMemo)(
           () => ({ bgStyle: n, linesStyle: l, config: { start: r, skip: a } }),
           [n, l, a, r],
         );
-      })(M(() => o.trigger(ji(e, rt, s), e, s)));
+      })(w(() => o.trigger(ji(e, rt, s), e, s)));
     return (
       Li({ id: e, elementId: s, registerAnimation: t, animName: rt, config: l }),
       (0, ke.jsx)("div", {
-        className: r(Zi, i),
+        className: n(Zi, i),
         children: (0, ke.jsx)(Y.div, {
-          style: a,
+          style: r,
           className: et,
           children: (0, ke.jsxs)(Y.div, {
-            style: n,
+            style: a,
             className: st,
             children: [
               (0, ke.jsx)("div", { className: it }),
@@ -1281,30 +1281,30 @@ var ct = (0, Xe.memo)(function ({ init: e = !1, id: s, elementId: i, className: 
         const [i, t] = (0, Xe.useState)(e),
           o = (0, Xe.useRef)(!1),
           r = (0, Xe.useRef)(0),
-          a = M((e) => {
+          a = w((e) => {
             ((o.current = !1), i != Boolean(e?.state) ? t(Boolean(e?.state)) : s?.());
           }),
-          n = M((e) => {
+          n = w((e) => {
             ((o.current = !0), i != Boolean(e?.state) ? t(Boolean(e?.state)) : s?.());
           }),
-          l = M(() => {
+          l = w(() => {
             ((r.current += 1), 2 == r.current && (s?.(), (r.current = 0)));
           }),
-          c = p(i, { ...nt, onRest: l, immediate: o.current });
+          c = g(i, { ...nt, onRest: l, immediate: o.current });
         return (0, Xe.useMemo)(
           () => ({ transitions: c, config: { start: a, skip: n } }),
           [c, a, n],
         );
       })(
         e,
-        M(() => r?.emitter.trigger(ji(s, lt, i), s, i)),
+        w(() => r?.emitter.trigger(ji(s, lt, i), s, i)),
       );
     return (
       Li({ id: s, elementId: i, registerAnimation: r?.registerAnimation, animName: lt, config: n }),
       o ? a((e, s) => (0, ke.jsx)(Y.div, { style: e, className: t, children: o[Number(s)] })) : null
     );
   }),
-  [dt, mt] = k()(
+  [dt, mt] = E()(
     ({ observableModel: e }) => ({
       ...e.primitives(["targetQuestId"]),
       dailyMissionsBlockStatus: e.object("dailyMissionsBlockStatus"),
@@ -1327,15 +1327,15 @@ var ct = (0, Xe.memo)(function ({ init: e = !1, id: s, elementId: i, className: 
   yt = { from: { opacity: 0, y: -G(10) }, to: { opacity: 1, y: 0 }, config: Nt },
   It = { from: { opacity: 1, y: 0 }, to: { opacity: 0, y: G(10) }, config: Nt };
 function jt(e) {
-  const s = b(),
+  const s = C(),
     i = (0, Xe.useCallback)(() => e?.(), [e]),
-    t = h({ ref: s, opacity: 1, y: 0, config: Nt, onRest: i }),
-    o = M((e) => {
+    t = b({ ref: s, opacity: 1, y: 0, config: Nt, onRest: i }),
+    o = w((e) => {
       e?.leave
         ? s.start({ ...It, ...e, onRest: i, reset: !0 })
         : s.start({ ...yt, ...e, onRest: i, reset: !0 });
     }),
-    r = M((e) => {
+    r = w((e) => {
       e?.leave
         ? s.start({ ...It, ...e, onRest: i, delay: 0, reset: !0, immediate: !0 })
         : s.start({ ...yt, ...e, onRest: i, delay: 0, reset: !0, immediate: !0 });
@@ -1351,7 +1351,7 @@ var Mt = (0, Xe.memo)(function ({ id: e, elementId: s, className: i, children: t
       c = l.current == n,
       { registerAnimation: d, emitter: m } = yi(),
       { styles: u, config: _ } = jt(
-        M(() => {
+        w(() => {
           ((l.current = n), m.trigger(ji(e, kt, s), e, s));
         }),
       );
@@ -1365,10 +1365,10 @@ var Mt = (0, Xe.memo)(function ({ id: e, elementId: s, className: i, children: t
         registerAnimation: d,
         animName: kt,
         config: {
-          start: M((e) => {
+          start: w((e) => {
             (r(), _.start(e));
           }),
-          skip: M((e) => {
+          skip: w((e) => {
             (r(), _.skip(e));
           }),
         },
@@ -1445,25 +1445,25 @@ var Vt = {
 var qt = "rotate";
 var $t = (0, Xe.memo)(function ({ id: e, className: s, elementId: i, props: t, children: o }) {
     const r = Ii(),
-      a = M(() => r?.emitter.trigger(ji(e, qt, i), e, i)),
+      a = w(() => r?.emitter.trigger(ji(e, qt, i), e, i)),
       { rotate: n, config: l } = (function (e) {
         const s = (0, Xe.useRef)(!1),
-          i = M((e, i) => {
+          i = w((e, i) => {
             s.current && i.stop().set(0);
           }),
-          t = y(0, { ...Vt, pause: !0, ...e, onStart: i }),
-          o = M((e) => {
+          t = I(0, { ...Vt, pause: !0, ...e, onStart: i }),
+          o = w((e) => {
             ((s.current = !1), t.start({ ...Vt, ...e, onStart: i }).then(ne));
           }),
-          r = M((e) => {
+          r = w((e) => {
             ((s.current = !0), t.stop().set(0));
           });
         return (0, Xe.useMemo)(() => ({ rotate: t, config: { start: o, skip: r } }), [t, r, o]);
       })(t),
-      c = M((e) => {
+      c = w((e) => {
         (l.start(e), e?.loop && a());
       }),
-      d = M((e) => {
+      d = w((e) => {
         (l.skip(e), a());
       });
     return (
@@ -1491,10 +1491,10 @@ function Qt(e) {
     o = xt,
     r = ji(`${e}_slideInComplete`, Ut, o),
     a = ji(`${e}_slideOutComplete`, Ut, o);
-  (u(t, r, () => {
+  (p(t, r, () => {
     t.trigger(ji(e, Ut, o), e, o);
   }),
-    u(t, a, () => {
+    p(t, a, () => {
       (s({
         groupId: e,
         groupCfg: zt.missionUnComplete,
@@ -1510,7 +1510,7 @@ function Qt(e) {
       registerAnimation: i,
       animName: Ut,
       config: {
-        start: M(() => {
+        start: w(() => {
           s({
             groupId: e,
             groupCfg: zt.reRollSlideOut,
@@ -1533,8 +1533,8 @@ function Xt(e, s, i) {
 }
 function Jt({ missions: e, bonusMission: s, timeToNextReRoll: i, isFirstRender: t }) {
   const { startComplexAnimation: o, startGroupAnimation: r } = yi(),
-    a = m(e),
-    n = m({ ...s });
+    a = _(e),
+    n = _({ ...s });
   At(t, () => {
     const t = {},
       l = {};
@@ -1576,16 +1576,16 @@ function eo(e, s) {
 }
 var so = "UnlockVideo_2a17fce0",
   io = "UnlockVideo_video_c11372d2",
-  to = N.resolve("videos"),
+  to = y.resolve("videos"),
   oo = "unlockVideo";
 var ro = (0, Xe.memo)(function ({ id: e, elementId: s, className: i }) {
     const t = (0, Xe.useRef)(null),
       o = Ii(),
-      { opacity: a, config: n } = Qi(0),
-      l = M(() => {
-        t.current && (t.current.play(), n.start({ to: 1 }));
+      { opacity: r, config: a } = Qi(0),
+      l = w(() => {
+        t.current && (t.current.play(), a.start({ to: 1 }));
       }),
-      c = M(ne),
+      c = w(ne),
       d = (0, Xe.useCallback)(() => {
         o?.emitter.trigger(ji(e, oo, s), e, s);
       }, [o?.emitter, s, e]);
@@ -1598,8 +1598,8 @@ var ro = (0, Xe.memo)(function ({ id: e, elementId: s, className: i }) {
     });
     const m = to.readOrEmpty("user_missions.unlock_72x72");
     return (0, ke.jsx)(Y.div, {
-      style: { opacity: a },
-      className: r(so, i),
+      style: { opacity: r },
+      className: n(so, i),
       children: (0, ke.jsx)(J, { src: m, ref: t, onEnded: d, className: io }),
     });
   }),
@@ -1641,42 +1641,42 @@ function po() {
   const {
       startAnimation: e,
       startComplexAnimation: s,
-      checkRegisteredInStorage: t,
-      emitter: o,
+      checkRegisteredInStorage: i,
+      emitter: t,
     } = yi(),
     { model: r } = mt(),
     { model: a } = Ai(),
     n = a.missionsList.get(),
-    l = F(a.bonusMission.get()),
+    l = H(a.bonusMission.get()),
     c = a.timeToNextRerol.get(),
     d = fe();
   (!(function ({ missions: e, bonusMission: s }) {
-    const { startComplexAnimation: t } = yi();
-    i(() => {
-      const i = {},
+    const { startComplexAnimation: i } = yi();
+    o(() => {
+      const t = {},
         o = {};
       (e.forEach((e) => {
-        Dt(i, o, e);
+        Dt(t, o, e);
       }),
-        Dt(i, o, s),
+        Dt(t, o, s),
         ae(o) ||
-          t({
+          i({
             complexId: uo.MISSION_COMPLETE,
             complexCfg: o,
             providerCfg: { skip: !0, skipTrigger: !0 },
           }),
-        ae(i) ||
-          t({
+        ae(t) ||
+          i({
             complexId: uo.MISSION_COMPLETE,
-            complexCfg: i,
+            complexCfg: t,
             soundCfg: xe.umg_hub_quest_complete,
           }));
     });
   })({ missions: n, bonusMission: l }),
     (function ({ missions: e, bonusMission: s, isFirstRender: i }) {
       const { startComplexAnimation: t } = yi(),
-        o = m(e),
-        r = m(s);
+        o = _(e),
+        r = _(s);
       At(i, () => {
         const i = {};
         (e.forEach((e, s) => {
@@ -1695,7 +1695,7 @@ function po() {
     Jt({ missions: n, bonusMission: l, timeToNextReRoll: c, isFirstRender: d }),
     (function ({ missions: e, timeToNextReRoll: s, isFirstRender: i }) {
       const { startComplexAnimation: t, emitter: o } = yi(),
-        r = m(s);
+        r = _(s);
       (At(i, () => {
         if (0 == s && r > 0) {
           const s = Zt(e, Kt.showReRollButton);
@@ -1706,7 +1706,7 @@ function po() {
           });
         }
       }),
-        u(o, uo.RE_ROLL, () => {
+        p(o, uo.RE_ROLL, () => {
           const s = eo(e, Kt.stopRotation),
             i = eo(e, Kt.showReRollButton);
           (t({
@@ -1716,7 +1716,7 @@ function po() {
           }),
             t({ complexId: uo.SHOW_REROLL_COMPONENT, complexCfg: i }));
         }),
-        u(o, uo.RE_ROLL, () => {
+        p(o, uo.RE_ROLL, () => {
           if (0 == s) {
             const s = Zt(e, Kt.stopRotation),
               i = Zt(e, Kt.showReRollButton);
@@ -1733,14 +1733,14 @@ function po() {
           t({ complexId: uo.SHOW_REROLL_COMPONENT, complexCfg: i });
         }));
     })({ missions: n, timeToNextReRoll: c, isFirstRender: d }));
-  const _ = (0, Xe.useRef)(!1),
-    p = (0, Xe.useCallback)(() => {
+  const m = (0, Xe.useRef)(!1),
+    u = (0, Xe.useCallback)(() => {
       l.isCompleted ||
         (n.every(({ isCompleted: e }) => e) &&
-          !_.current &&
-          ((_.current = !0), e({ id: l.id, animName: lo, elementId: Ot })));
+          !m.current &&
+          ((m.current = !0), e({ id: l.id, animName: lo, elementId: Ot })));
     }, [l.isCompleted, l.id, n, e]);
-  (u(o, ut, (e) => {
+  (p(t, ut, (e) => {
     const i = a.computes.missionById(e);
     i?.isCompleted &&
       i?.currentProgress == i?.totalProgress &&
@@ -1750,23 +1750,23 @@ function po() {
         soundCfg: xe.umg_hub_quest_complete,
       });
   }),
-    u(o, uo.MISSION_COMPLETE, () => {
-      p();
+    p(t, uo.MISSION_COMPLETE, () => {
+      u();
     }));
   const g = r.targetQuestId.get(),
-    f = m(g);
+    f = _(g);
   (0, Xe.useEffect)(() => {
     g &&
       f != g &&
-      t({ id: g, animName: "reflection" }) &&
+      i({ id: g, animName: "reflection" }) &&
       e({ id: g, animName: rt, soundCfg: xe.umg_hub_highlight });
-  }, [t, f, e, g]);
+  }, [i, f, e, g]);
 }
 var go = (0, Xe.memo)(function ({ id: e, currentProgress: s, totalProgress: i, earned: t }) {
-    const r = Ii(),
-      { play: a } = o(),
-      n = M(() => r?.emitter.trigger(ut, e)),
-      l = M(() => a(xe.umg_hub_quest_progress)),
+    const o = Ii(),
+      { play: r } = a(),
+      n = w(() => o?.emitter.trigger(ut, e)),
+      l = w(() => r(xe.umg_hub_quest_progress)),
       c = (0, Xe.useMemo)(() => ({ onResolve: n, onStart: l }), [n, l]);
     return (0, ke.jsxs)(ke.Fragment, {
       children: [
@@ -1791,7 +1791,7 @@ var xo = (0, Xe.memo)(function ({
     const r = yi(),
       [a, n] = (0, Xe.useState)(!o);
     return (
-      u(r.emitter, fo, (s) => {
+      p(r.emitter, fo, (s) => {
         e === s?.id && n(!0);
       }),
       (0, ke.jsx)(go, { id: e, currentProgress: a ? s : s - t, totalProgress: i, earned: t })
@@ -1815,11 +1815,11 @@ function wo({
   classNames: i,
   isPremium: t = !1,
   resId: o = 0,
-  isProgressAnimationPaused: a = !1,
-  iconSeverityLog: n = "warn",
+  isProgressAnimationPaused: r = !1,
+  iconSeverityLog: a = "warn",
 }) {
   const l = e.icon + (t ? "_gold" : "_silver"),
-    c = f(
+    c = x(
       { iconPath: `userMissions.missionIcons.c_32.${l}`, rewardSize: ge.S24x24, rewardMaxCount: 4 },
       {
         medium: { iconPath: `userMissions.missionIcons.c_80.${l}` },
@@ -1827,13 +1827,13 @@ function wo({
       },
     ),
     { id: d, isCompleted: m, animateCompletion: u } = e,
-    p = e.totalProgress > 0;
+    _ = e.totalProgress > 0;
   return (
     (0, Xe.useEffect)(() => {
-      e.icon || "silent" == n || x(`Icon for quest ID: ${d} is not set`, n);
-    }, [e.icon, n, d]),
+      e.icon || "silent" == a || h(`Icon for quest ID: ${d} is not set`, a);
+    }, [e.icon, a, d]),
     (0, ke.jsxs)("div", {
-      className: r(ho, s),
+      className: n(ho, s),
       children: [
         (0, ke.jsx)(Ui, { id: d }),
         (0, ke.jsxs)("div", {
@@ -1849,17 +1849,17 @@ function wo({
                 children: [
                   e.icon &&
                     (0, ke.jsx)(
-                      W,
+                      se,
                       {
                         path: c.iconPath,
                         width: 32,
                         height: 32,
                         adaptive: { medium: { width: 80, height: 80 } },
-                        className: r(No, yo, i?.icon),
+                        className: n(No, yo, i?.icon),
                       },
                       c.iconPath,
                     ),
-                  (0, ke.jsx)(W, {
+                  (0, ke.jsx)(se, {
                     path: "userMissions.hub.basic.done_icon_s",
                     width: 32,
                     height: 32,
@@ -1879,9 +1879,9 @@ function wo({
               children: (0, ke.jsx)(Mt, {
                 id: d,
                 elementId: _t,
-                children: (0, ke.jsx)(_, {
+                children: (0, ke.jsx)(Q, {
                   text: z(e.description),
-                  classNames: { base: r(jo, i?.condition), text: ko },
+                  classNames: { base: n(jo, i?.condition), text: ko },
                   upgradeLegacy: !0,
                 }),
               }),
@@ -1900,14 +1900,14 @@ function wo({
                 elementId: pt,
                 className: Mo,
                 children:
-                  p &&
+                  _ &&
                   (t
                     ? (0, ke.jsx)(xo, {
                         id: d,
                         currentProgress: e.currentProgress,
                         totalProgress: e.totalProgress,
                         earned: e.earned,
-                        isPaused: a,
+                        isPaused: r,
                       })
                     : (0, ke.jsx)(go, {
                         id: d,
@@ -1921,12 +1921,12 @@ function wo({
               id: d,
               elementId: ft,
               from: 1,
-              className: r(Ro, i?.rewards),
+              className: n(Ro, i?.rewards),
               children: (0, ke.jsx)(Mt, {
                 id: d,
                 elementId: ft,
                 children: (0, ke.jsx)(
-                  he,
+                  Ce,
                   {
                     bonuses: e.bonuses,
                     questId: e.id,
@@ -1958,21 +1958,21 @@ var So = "DailyBonusMissionCard_cardBlock_cc29aa9d",
   Do = "DailyBonusMissionCard_unlockVideo_86889f8c",
   Wo = "DailyBonusMissionCard_lockMessage_662cb362",
   Fo = "DailyBonusMissionCard_timer_f1d1a15a",
-  Ho = N.resolve("aliases"),
-  Go = N.resolve("strings"),
+  Ho = y.resolve("aliases"),
+  Go = y.resolve("strings"),
   Vo = new Map([
     [!0, 1],
     [!1, 0],
   ]);
 function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
   const { id: t, isAvailable: o } = e,
-    n = !o || s;
+    r = !o || s;
   (!(function (e, s) {
     const { startGroupAnimation: i, registerAnimation: t, emitter: o } = yi();
-    (u(o, Gt, () => {
+    (p(o, Gt, () => {
       o.trigger(ji(e, Ft, s), e, s);
     }),
-      u(o, Ht, () => {
+      p(o, Ht, () => {
         i({ groupId: e, groupCfg: Wt, providerCfg: { triggerId: Gt } });
       }),
       Li({
@@ -1981,10 +1981,10 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
         registerAnimation: t,
         animName: Ft,
         config: {
-          start: M(() => {
+          start: w(() => {
             i({ groupId: e, groupCfg: Tt.slideOut, providerCfg: { triggerId: Ht } });
           }),
-          skip: M(() => {
+          skip: w(() => {
             i({ groupId: e, groupCfg: Tt.slideOut, providerCfg: { skip: !0, triggerId: Ht } });
           }),
         },
@@ -1992,10 +1992,10 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
   })(t, Bt),
     (function (e, s) {
       const { startGroupAnimation: i, registerAnimation: t, emitter: o } = yi();
-      (u(o, mo, () => {
+      (p(o, mo, () => {
         o.trigger(ji(e, lo, s), e, s);
       }),
-        u(o, co, () => {
+        p(o, co, () => {
           i({ groupId: e, groupCfg: no, providerCfg: { triggerId: mo } });
         }),
         Li({
@@ -2004,7 +2004,7 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
           registerAnimation: t,
           animName: lo,
           config: {
-            start: M(() => {
+            start: w(() => {
               (i({ groupId: e, groupCfg: Tt.slideOut, providerCfg: { skip: !0, skipTrigger: !0 } }),
                 i({
                   groupId: e,
@@ -2013,7 +2013,7 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
                   soundCfg: xe.umg_hub_unlock_bonus,
                 }));
             }),
-            skip: M(() => {
+            skip: w(() => {
               i({
                 groupId: e,
                 groupCfg: { ...Tt.slideOut, ...ao.hideLockState },
@@ -2024,7 +2024,7 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
         }));
     })(t, Ot),
     Qt(t));
-  const l = a({
+  const a = l({
     body: Go.readOrEmpty(
       "user_missions.hub.basic_missions.daily.bonus_daily_missions_timer.tooltip",
     ),
@@ -2035,8 +2035,8 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
       (0, ke.jsxs)(Xi, {
         id: t,
         elementId: Pt,
-        className: r(So, !o && Bo),
-        from: Vo.get(!n),
+        className: n(So, !o && Bo),
+        from: Vo.get(!r),
         children: [
           (0, ke.jsx)(wo, {
             data: { ...e, id: t },
@@ -2049,8 +2049,8 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
             i > 0 &&
             (0, ke.jsx)("div", {
               className: Fo,
-              ...l,
-              children: (0, ke.jsx)(Q, { start: i, size: Q.size.x24x24 }),
+              ...a,
+              children: (0, ke.jsx)(c, { start: i, size: c.size.x24x24 }),
             }),
         ],
       }),
@@ -2058,7 +2058,7 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
         id: t,
         elementId: Rt,
         className: Oo,
-        from: Vo.get(n),
+        from: Vo.get(r),
         children: [
           (0, ke.jsx)(Ui, { id: t, elementId: St, glowType: Gi.GREY_LENSE }),
           (0, ke.jsxs)("div", {
@@ -2080,7 +2080,7 @@ function qo({ data: e, isAnyCompleteAnimation: s, timeToMissionsUpdate: i }) {
                 id: t,
                 elementId: wt,
                 from: 1,
-                children: (0, ke.jsx)(Z, {
+                children: (0, ke.jsx)(oe, {
                   path: "user_missions.hub.basic_missions.daily.bonus_daily_missions_lock_info",
                   className: Wo,
                 }),
@@ -2103,14 +2103,14 @@ var $o = "RerollButton_5f432227",
   Ko = "RerollButton_base__locked_6d55354d",
   Zo = "RerollButton_timerAnim_36fcf1f3",
   er = "RerollButton_timer_611c1639",
-  sr = N.resolve("aliases"),
-  ir = N.resolve("views"),
-  tr = N.resolve("strings"),
+  sr = y.resolve("aliases"),
+  ir = y.resolve("views"),
+  tr = y.resolve("strings"),
   or = sr.read((e) => e.user_missions.hub.basicMissions.DailyMissionsSection.DailyBlock("resId")),
   rr = ir.read((e) => e.mono.user_missions.tooltips.daily_reroll_tooltip("resId"));
-function ar({ id: e, isCompleted: s, isLocked: i, onClick: t, className: a, timeToNextReroll: n }) {
-  const l = o(),
-    c = v(
+function ar({ id: e, isCompleted: s, isLocked: i, onClick: t, className: o, timeToNextReroll: r }) {
+  const l = a(),
+    d = N(
       ((e, s) =>
         s
           ? {
@@ -2128,36 +2128,36 @@ function ar({ id: e, isCompleted: s, isLocked: i, onClick: t, className: a, time
             }
           : { resId: or, contentId: rr, disabled: e })(s, i),
     ),
-    d = !s && 0 === n && !i,
-    m = n > 0 && !i;
+    m = !s && 0 === r && !i,
+    u = r > 0 && !i;
   return (0, ke.jsxs)(Xi, {
     id: e,
     elementId: ht,
     from: s ? 0 : 1,
-    ...c,
-    className: r($o, d && zo, i && Ko, a),
-    onClick: d ? t : void 0,
+    ...d,
+    className: n($o, m && zo, i && Ko, o),
+    onClick: m ? t : void 0,
     children: [
       (0, ke.jsx)(Xi, {
-        from: m ? 1 : 0,
+        from: u ? 1 : 0,
         id: e,
         elementId: Ct,
         className: Zo,
-        children: (0, ke.jsx)(Q, {
-          start: n,
-          format: Q.format.superCompact,
-          size: Q.size.x24x24,
+        children: (0, ke.jsx)(c, {
+          start: r,
+          format: c.format.superCompact,
+          size: c.size.x24x24,
           className: er,
         }),
       }),
       (0, ke.jsxs)(Xi, {
-        from: m ? 0 : 1,
+        from: u ? 0 : 1,
         id: e,
         onMouseEnter: () => {
           l.play("mouse-enter", { target: "Reroll button" });
         },
         elementId: vt,
-        className: r(Uo, m && Qo),
+        className: n(Uo, u && Qo),
         children: [
           !i &&
             (0, ke.jsx)("div", {
@@ -2177,7 +2177,7 @@ function ar({ id: e, isCompleted: s, isLocked: i, onClick: t, className: a, time
 }
 var nr = "DailyMissionCard_dbc24668",
   lr = "DailyMissionCard_reroll_fd5c6ea8",
-  cr = N.resolve("aliases");
+  cr = y.resolve("aliases");
 function dr({ data: e, timeToNextReroll: s, onReroll: i }) {
   const { id: t, isCompleted: o, isLocked: r } = e;
   return (
@@ -2210,12 +2210,12 @@ var mr = "DailyMissionsBlock_d8a9293c",
   _r = "DailyMissionsBlock_allMissionsCompletedMessage_20d9eaa9",
   pr = "DailyMissionsBlock_timer_c9dd266c",
   gr = "DailyMissionsBlock_separator_3d64a18",
-  fr = N.resolve("strings"),
-  xr = le(function () {
+  fr = y.resolve("strings"),
+  xr = L(function () {
     const { model: e, controls: s } = Ai(),
       i = e.timeToMissionsUpdate.get();
     po();
-    const t = a({
+    const t = l({
       body: fr.readOrEmpty(
         "user_missions.hub.basic_missions.daily.new_daily_missions_timer.tooltip",
       ),
@@ -2234,10 +2234,10 @@ var mr = "DailyMissionsBlock_d8a9293c",
                   "user_missions.hub.basic_missions.daily.new_daily_missions_timer.message",
                 ),
               }),
-              (0, ke.jsx)(Q, { start: i, size: Q.size.x16x16, className: pr }),
+              (0, ke.jsx)(c, { start: i, size: c.size.x16x16, className: pr }),
             ],
           }),
-        se(e.missionsList.get(), (i, t) =>
+        ee(e.missionsList.get(), (i, t) =>
           (0, ke.jsxs)(
             Xe.Fragment,
             {
@@ -2262,9 +2262,9 @@ var mr = "DailyMissionsBlock_d8a9293c",
     });
   }),
   hr = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.DailyBlock("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) => e.user_missions.hub.basicMissions.DailyMissionsSection.DailyBlock("resId")),
   };
 function br() {
   return (0, ke.jsx)(Ti, {
@@ -2272,10 +2272,10 @@ function br() {
     children: (0, ke.jsx)(Oi, { children: (0, ke.jsx)(xr, {}) }),
   });
 }
-var [Cr, vr] = k()(
+var [Cr, vr] = E()(
     ({ observableModel: e }) => {
       const s = { ...e.primitives(["isAvailable"]), missionsList: e.arrayClone("missionsList") },
-        i = _e.model((e) => te(s.missionsList.get(), (s) => s.id == e));
+        i = ue.model((e) => te(s.missionsList.get(), (s) => s.id == e));
       return { ...s, computes: { missionById: i } };
     },
     ({ externalModel: e }) => ({ onPurchasePremium: e.createCallbackNoArgs("onPurchasePremium") }),
@@ -2312,29 +2312,29 @@ function Sr({ id: e }) {
     {
       bigArrowStyle: t,
       leftArrowStyle: o,
-      mainArrowStyle: a,
-      rightArrowStyle: n,
+      mainArrowStyle: r,
+      rightArrowStyle: a,
       config: l,
     } = (function (e) {
-      const s = b(),
-        i = b(),
-        t = b(),
-        o = b(),
+      const s = C(),
+        i = C(),
+        t = C(),
+        o = C(),
         r = (0, Xe.useRef)(0),
-        a = M(() => {
+        a = w(() => {
           ((r.current += 1), 4 == r.current && ((r.current = 0), e?.()));
         }),
-        n = M((e) => {
+        n = w((e) => {
           const r = 0 | e?.delay;
           (s.start({ ...Nr, onRest: a, reset: !0, delay: r }),
             i.start({ ...yr, onRest: a, reset: !0, delay: r + 150 }),
             t.start({ ...Ir, onRest: a, reset: !0, delay: r + 250 }),
             o.start({ ...yr, onRest: a, reset: !0, delay: r + 350 }));
         }),
-        l = h({ ref: s, onRest: a, ...Nr }),
-        c = h({ ref: i, onRest: a, ...yr }),
-        d = h({ ref: t, onRest: a, ...Ir }),
-        m = h({ ref: o, onRest: a, ...yr });
+        l = b({ ref: s, onRest: a, ...Nr }),
+        c = b({ ref: i, onRest: a, ...yr }),
+        d = b({ ref: t, onRest: a, ...Ir }),
+        m = b({ ref: o, onRest: a, ...yr });
       return (0, Xe.useMemo)(
         () => ({
           bigArrowStyle: l,
@@ -2345,16 +2345,16 @@ function Sr({ id: e }) {
         }),
         [l, c, d, m, n],
       );
-    })(M(() => i.trigger(ji(e, wr), e)));
+    })(w(() => i.trigger(ji(e, wr), e)));
   return (
     Li({ id: e, registerAnimation: s, animName: wr, config: l }),
     (0, ke.jsxs)("div", {
       className: jr,
       children: [
         (0, ke.jsx)(Y.div, { style: t, className: kr }),
-        (0, ke.jsx)(Y.div, { style: o, className: r(Mr, Rr) }),
-        (0, ke.jsx)(Y.div, { style: n, className: r(Mr, Er) }),
-        (0, ke.jsx)(Y.div, { style: a, className: Mr }),
+        (0, ke.jsx)(Y.div, { style: o, className: n(Mr, Rr) }),
+        (0, ke.jsx)(Y.div, { style: a, className: n(Mr, Er) }),
+        (0, ke.jsx)(Y.div, { style: r, className: Mr }),
       ],
     })
   );
@@ -2373,10 +2373,10 @@ var Pr = "card",
   Vr = "PremiumDailyMissionsCard_lockIcon_9bac6cb",
   qr = "PremiumDailyMissionsCard_unlockGlowContainer_c6213bf6",
   $r = "PremiumDailyMissionsCard_unlockGlow_6356a26d",
-  zr = N.resolve("aliases"),
-  Ur = N.resolve("strings");
+  zr = y.resolve("aliases"),
+  Ur = y.resolve("strings");
 function Qr({ data: e, isJustUnlocked: s }) {
-  const i = a({
+  const i = l({
       body: Ur.readOrEmpty("user_missions.hub.basic_missions.daily.premium.locked_mission.tooltip"),
     }),
     t = e.isLocked || s;
@@ -2505,13 +2505,13 @@ var Kr = "premiumMissionComplete",
   };
 function ia() {
   const { startAnimation: e, checkRegisteredInStorage: s } = yi(),
-    { model: t } = mt(),
-    { model: o } = vr(),
-    r = F(o.missionsList.get()),
-    a = m(r),
+    { model: i } = mt(),
+    { model: t } = vr(),
+    r = H(t.missionsList.get()),
+    a = _(r),
     n = fe(),
-    l = t.targetQuestId.get(),
-    c = m(l);
+    l = i.targetQuestId.get(),
+    c = _(l);
   ((0, Xe.useEffect)(() => {
     l &&
       c != l &&
@@ -2520,38 +2520,38 @@ function ia() {
   }, [s, c, e, l]),
     (function ({ missions: e }) {
       const { startGroupAnimation: s } = yi();
-      i(() => {
+      o(() => {
         const i = e.findIndex((e) => e.isCompleted && e.animateCompletion);
         -1 !== i && Jr({ completeIdx: i, missions: e, startGroupAnimation: s });
       });
     })({ missions: r }),
-    (function ({ isFirstRender: e, missions: s, prevMissions: t }) {
-      const { startComplexAnimation: o } = yi();
-      (i(() => {
+    (function ({ isFirstRender: e, missions: s, prevMissions: i }) {
+      const { startComplexAnimation: t } = yi();
+      (o(() => {
         const e = {};
         (s.forEach((s) => {
           s.isCompleted && !s.animateCompletion && (e[s.id] = Xr.missionComplete);
         }),
-          ae(e) || o({ complexId: Kr, complexCfg: e, providerCfg: { skip: !0, skipTrigger: !0 } }));
+          ae(e) || t({ complexId: Kr, complexCfg: e, providerCfg: { skip: !0, skipTrigger: !0 } }));
       }),
         Yr(!e, () => {
           const e = {},
-            i = {};
-          (s.forEach((s, o) => {
-            const r = t[o];
+            o = {};
+          (s.forEach((s, t) => {
+            const r = i[t];
             s.isLocked && !r.isLocked
               ? (e[s.id] = sa.missionLock)
-              : !s.isCompleted && r.isCompleted && (i[s.id] = sa.missionUnComplete);
+              : !s.isCompleted && r.isCompleted && (o[s.id] = sa.missionUnComplete);
           }),
             ae(e) ||
-              o({ complexId: Zr, complexCfg: e, providerCfg: { skip: !0, skipTrigger: !0 } }),
-            ae(i) ||
-              o({ complexId: ea, complexCfg: i, providerCfg: { skip: !0, skipTrigger: !0 } }));
+              t({ complexId: Zr, complexCfg: e, providerCfg: { skip: !0, skipTrigger: !0 } }),
+            ae(o) ||
+              t({ complexId: ea, complexCfg: o, providerCfg: { skip: !0, skipTrigger: !0 } }));
         }));
     })({ isFirstRender: n, missions: r, prevMissions: a }),
     (function ({ isFirstRender: e, missions: s, prevMissions: i }) {
       const { startGroupAnimation: t, emitter: o } = yi();
-      (u(o, fo, ({ unlockedIdx: e }) => {
+      (p(o, fo, ({ unlockedIdx: e }) => {
         s[e].isCompleted && Jr({ completeIdx: e, missions: s, startGroupAnimation: t });
       }),
         Yr(!e, () => {
@@ -2564,15 +2564,15 @@ function ia() {
     })({ isFirstRender: n, missions: r, prevMissions: a }));
 }
 var ta = "PremiumDailyMissionsList_a02f9e79",
-  oa = le(function () {
+  oa = L(function () {
     const { model: e } = vr(),
       s = e.missionsList.get();
     return (
       ia(),
       (0, ke.jsx)("div", {
         className: ta,
-        children: se(s, (e, i) => {
-          const t = (i > 0 && T(s, i - 1)?.animateCompletion) || !1;
+        children: ee(s, (e, i) => {
+          const t = (i > 0 && D(s, i - 1)?.animateCompletion) || !1;
           return (0, ke.jsxs)(
             Xe.Fragment,
             {
@@ -2595,7 +2595,7 @@ var ta = "PremiumDailyMissionsList_a02f9e79",
   da = "PurchasePremiumState_message_a8e12b7c",
   ma = "PurchasePremiumState_button_4e9a2fc9",
   ua = "PurchasePremiumState_buttonTitle_2b5af5a0",
-  _a = N.resolve("strings");
+  _a = y.resolve("strings");
 function pa() {
   const { controls: e } = vr();
   return (0, ke.jsxs)("div", {
@@ -2618,9 +2618,9 @@ function pa() {
               "user_missions.hub.basic_missions.daily.purchase_premium.message",
             ),
           }),
-          (0, ke.jsx)(E, {
-            theme: E.themes.primary,
-            size: E.sizes.small,
+          (0, ke.jsx)(S, {
+            theme: S.themes.primary,
+            size: S.sizes.small,
             onClick: e.onPurchasePremium,
             className: ma,
             children: (0, ke.jsx)("div", {
@@ -2635,14 +2635,14 @@ function pa() {
     ],
   });
 }
-var ga = le(function () {
+var ga = L(function () {
     const { model: e } = vr();
     return e.isAvailable.get() ? (0, ke.jsx)(oa, {}) : (0, ke.jsx)(pa, {});
   }),
   fa = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.PremiumBlock("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) => e.user_missions.hub.basicMissions.DailyMissionsSection.PremiumBlock("resId")),
   };
 function xa() {
   return (0, ke.jsx)(Cr, {
@@ -2650,11 +2650,11 @@ function xa() {
     children: (0, ke.jsx)(Oi, { children: (0, ke.jsx)(ga, {}) }),
   });
 }
-var [ha, ba] = k()(({ observableModel: e }) => e.primitives(["progressType"]), ne),
+var [ha, ba] = E()(({ observableModel: e }) => e.primitives(["progressType"]), ne),
   Ca = (function (e) {
     return ((e.EpicQuest = "epicQuest"), (e.WinBack = "winBack"), (e.Disabled = "disabled"), e);
   })({}),
-  [va, Na] = k()(
+  [va, Na] = E()(
     ({ observableModel: e }) => ({
       ...e.primitives(["id", "current", "total", "earned", "winBackTimeLeft"]),
       bonuses: e.arrayClone("bonuses"),
@@ -2667,14 +2667,14 @@ var [ha, ba] = k()(({ observableModel: e }) => e.primitives(["progressType"]), n
   Ia = "ClaimWinBack_claimButton_f4d9ca67",
   ja = "ClaimWinBack_claimText_329621c1",
   ka = "ClaimWinBack_timer_89673125";
-var Ma = le(function ({ className: e }) {
+var Ma = L(function ({ className: e }) {
     const { model: s, controls: i } = Na(),
-      t = N.resolve("strings"),
+      t = y.resolve("strings"),
       o = s.winBackTimeLeft.get();
     return (0, ke.jsxs)("div", {
-      className: r(ya, e),
+      className: n(ya, e),
       children: [
-        (0, ke.jsx)(E, {
+        (0, ke.jsx)(S, {
           theme: "primary",
           size: "small",
           autoAlignContent: !1,
@@ -2691,7 +2691,7 @@ var Ma = le(function ({ className: e }) {
           className: ka,
           children: [
             t.readOrEmpty("user_missions.hub.reward_progress.epic_quest_progress.time_left"),
-            (0, ke.jsx)(Q, { start: o }),
+            (0, ke.jsx)(c, { start: o }),
           ],
         }),
       ],
@@ -2707,15 +2707,15 @@ var Ma = le(function ({ className: e }) {
   Ta = "EpicQuestProgress_progress_9b81fedd",
   Aa = "EpicQuestProgress_progressBar_115e7a24",
   La = "EpicQuestProgress_claimWinBack_b707ef06",
-  Da = N.resolve("aliases");
-var Wa = le(function () {
+  Da = y.resolve("aliases");
+var Wa = L(function () {
     const { model: e } = Na(),
       s = e.total.get(),
-      i = e.current.get(),
-      t = e.earned.get(),
-      o = e.id.get(),
-      r = N.resolve("strings"),
-      a = f({ rewardSize: ge.S24x24 }, { large: { rewardSize: ge.Small } });
+      t = e.current.get(),
+      o = e.earned.get(),
+      r = e.id.get(),
+      a = y.resolve("strings"),
+      n = x({ rewardSize: ge.S24x24 }, { large: { rewardSize: ge.Small } });
     return (0, ke.jsxs)("div", {
       className: Ea,
       children: [
@@ -2726,26 +2726,26 @@ var Wa = le(function () {
             (0, ke.jsxs)("div", {
               className: Sa,
               children: [
-                (0, ke.jsx)(c, {
+                (0, ke.jsx)(i, {
                   classMix: Pa,
                   isTruncationAvailable: !0,
-                  text: r.readOrEmpty(
+                  text: a.readOrEmpty(
                     "user_missions.hub.reward_progress.epic_quest_progress.title",
                   ),
                 }),
-                (0, ke.jsx)(c, {
+                (0, ke.jsx)(i, {
                   classMix: Ba,
                   isTruncationAvailable: !0,
-                  text: r.readOrEmpty(
+                  text: a.readOrEmpty(
                     "user_missions.hub.reward_progress.epic_quest_progress.sub_title",
                   ),
                 }),
               ],
             }),
-            (0, ke.jsx)(he, {
+            (0, ke.jsx)(Ce, {
               bonuses: e.bonuses.get(),
-              questId: o,
-              size: a.rewardSize,
+              questId: r,
+              size: n.rewardSize,
               resId: Da.read((e) =>
                 e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
               ),
@@ -2758,14 +2758,14 @@ var Wa = le(function () {
         (0, ke.jsxs)("div", {
           className: Ta,
           children: [
-            (0, ke.jsx)(es, { current: i, total: s }),
+            (0, ke.jsx)(es, { current: t, total: s }),
             (0, ke.jsxs)(is, {
-              value: i,
+              value: t,
               size: "full",
               maxValue: s,
               className: Aa,
               children: [
-                (0, ke.jsx)($, { initValue: i - t, initMaxValue: s }),
+                (0, ke.jsx)($, { initValue: t - o, initMaxValue: s }),
                 e.winBackTimeLeft.get() > 0 && (0, ke.jsx)(Ma, { className: La }),
               ],
             }),
@@ -2775,15 +2775,17 @@ var Wa = le(function () {
     });
   }),
   Fa = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) =>
+        e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
+      ),
     context: "model.epicQuestProgress",
   };
 function Ha() {
   return (0, ke.jsx)(va, { options: Fa, children: (0, ke.jsx)(Wa, {}) });
 }
-var [Ga, Va] = k()(
+var [Ga, Va] = E()(
     ({ observableModel: e }) => {
       const s = {
           ...e.primitives([
@@ -2797,8 +2799,8 @@ var [Ga, Va] = k()(
           ]),
           quests: e.arrayClone("quests"),
         },
-        i = _e.model((e) => T(s.quests.get(), e)),
-        t = _e.model((e) => {
+        i = ue.model((e) => D(s.quests.get(), e)),
+        t = ue.model((e) => {
           const s = i(e);
           return s ? K(s.rewards) : [];
         });
@@ -2809,9 +2811,11 @@ var [Ga, Va] = k()(
       takeAllRewards: e.createCallbackNoArgs("onTakeAllRewards"),
     }),
   ),
-  qa = N.resolve("aliases").read((e) =>
-    e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
-  ),
+  qa = y
+    .resolve("aliases")
+    .read((e) =>
+      e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
+    ),
   $a = (function (e) {
     return ((e.AVAILABLE = "available"), (e.DISABLED = "disabled"), (e.NO_OFFERS = "no_offers"), e);
   })({}),
@@ -2821,27 +2825,27 @@ var [Ga, Va] = k()(
   Ya = "MainReward_claimButton_20c977ab",
   Xa = "MainReward_claimText_107d14cf",
   Ja = "MainReward_timer_234aa797",
-  Ka = N.resolve("aliases"),
-  Za = N.resolve("views");
-var en = le(function () {
+  Ka = y.resolve("aliases"),
+  Za = y.resolve("views");
+var en = L(function () {
     const { model: e, controls: s } = Va(),
       i = e.timeLeftToClaim.get(),
       t = e.offersState.get(),
-      o = N.resolve("strings"),
-      a = v({
+      o = y.resolve("strings"),
+      r = N({
         resId: Ka.read((e) =>
           e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
         ),
         contentId: Za.read((e) => e.mono.winback.tooltips.main_reward_tooltip("resId")),
       });
     return (0, ke.jsxs)("div", {
-      className: r(za, e.isBattlePassActive.get() && Ua),
+      className: n(za, e.isBattlePassActive.get() && Ua),
       children: [
-        (0, ke.jsx)("div", { ...a, className: Qa }),
+        (0, ke.jsx)("div", { ...r, className: Qa }),
         t != $a.NO_OFFERS &&
           (0, ke.jsxs)(ke.Fragment, {
             children: [
-              (0, ke.jsx)(E, {
+              (0, ke.jsx)(S, {
                 theme: "primary",
                 size: "medium",
                 disabled: t == $a.DISABLED,
@@ -2861,7 +2865,7 @@ var en = le(function () {
                     o.readOrEmpty(
                       "user_missions.hub.reward_progress.win_back_quest_progress.time_left",
                     ),
-                    (0, ke.jsx)(Q, { start: i }),
+                    (0, ke.jsx)(c, { start: i }),
                   ],
                 }),
             ],
@@ -2888,8 +2892,8 @@ var en = le(function () {
     base__vehicleForRent: "WinBackReward_base__vehicleForRent_5fa23c6c",
     discount: "WinBackReward_discount_86c0d506",
   },
-  on = N.resolve("aliases"),
-  rn = N.resolve("views");
+  on = y.resolve("aliases"),
+  rn = y.resolve("views");
 function an({ reward: e, className: s }) {
   const i = e.name,
     t = ((e) => {
@@ -2906,7 +2910,7 @@ function an({ reward: e, className: s }) {
       return "";
     })(e);
   return (0, ke.jsxs)("div", {
-    ...v({
+    ...N({
       resId: on.read((e) =>
         e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
       ),
@@ -2917,12 +2921,12 @@ function an({ reward: e, className: s }) {
         ),
       args: { tooltipId: e.tooltipId },
     }),
-    className: r(tn.base, tn[`base__${i}`], s),
+    className: n(tn.base, tn[`base__${i}`], s),
     children: [
-      (0, ke.jsx)(W, { path: t, className: tn.icon }),
-      e?.vehicleLvl && (0, ke.jsx)(L, { value: e.vehicleLvl, className: tn.level }),
+      (0, ke.jsx)(se, { path: t, className: tn.icon }),
+      e?.vehicleLvl && (0, ke.jsx)(W, { value: e.vehicleLvl, className: tn.level }),
       i == sn.VEHICLE_DISCOUNT &&
-        (0, ke.jsx)(W, {
+        (0, ke.jsx)(se, {
           path: "userMissions.hub.reward_progress.discount_colorize",
           className: tn.discount,
         }),
@@ -2938,30 +2942,30 @@ var nn = "Quest_bd89fbc",
     sn.SELECTABLE_VEHICLE_FOR_GIFT,
     sn.SELECTABLE_VEHICLE_DISCOUNT,
   ]);
-var dn = le(function ({ style: e, className: s, index: i }) {
-    const { model: o } = Va(),
-      a = o.computes.rewardsByIndex(i),
-      n = f({ rewardSize: ge.S24x24 }, { large: { rewardSize: ge.Small } });
+var dn = L(function ({ style: e, className: s, index: i }) {
+    const { model: t } = Va(),
+      o = t.computes.rewardsByIndex(i),
+      a = x({ rewardSize: ge.S24x24 }, { large: { rewardSize: ge.Small } });
     return (0, ke.jsx)("div", {
-      className: r(nn, s),
+      className: n(nn, s),
       style: e,
-      children: a.map((e, s) => {
+      children: o.map((e, s) => {
         return cn.has(e.name)
           ? (0, ke.jsx)(an, { reward: e }, `${s}_${e.name}`)
           : (0, ke.jsx)(
-              A,
+              _e,
               {
-                size: n.rewardSize,
+                size: a.rewardSize,
                 ...((i = e),
-                (o = ge.Small),
+                (t = ge.Small),
                 {
                   name: i.name,
-                  image: I(i, o),
+                  image: k(i, t),
                   special: i.overlayType,
                   value: i.value,
-                  valueType: ce(i.name),
+                  valueType: le(i.name),
                   tooltipArgs: {
-                    ...t(
+                    ...r(
                       { tooltipId: i.tooltipId },
                       Number(i.tooltipContentId) ||
                         R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -2975,7 +2979,7 @@ var dn = le(function ({ style: e, className: s, index: i }) {
               },
               `${s}_${e.name}`,
             );
-        var i, o;
+        var i, t;
       }),
     });
   }),
@@ -2983,23 +2987,23 @@ var dn = le(function ({ style: e, className: s, index: i }) {
   un = "QuestStatus_claim_f060156f",
   _n = "QuestStatus_claimText_bb723ab5",
   pn = [sn.SELECTABLE_VEHICLE_FOR_GIFT, sn.SELECTABLE_VEHICLE_DISCOUNT];
-var gn = le(function ({ index: e, questNumber: s, className: i, style: t }) {
-  const { model: o, controls: a } = Va(),
-    n = o.current.get(),
+var gn = L(function ({ index: e, questNumber: s, className: i, style: t }) {
+  const { model: o, controls: r } = Va(),
+    a = o.current.get(),
     l = o.computes.rewardsByIndex(e),
     c = o.offersState.get(),
-    d = N.resolve("strings");
-  return n < s
-    ? (0, ke.jsx)("div", { className: r(mn, i), style: t, children: s })
+    d = y.resolve("strings");
+  return a < s
+    ? (0, ke.jsx)("div", { className: n(mn, i), style: t, children: s })
     : l.some(({ name: e }) => pn.includes(e))
-      ? (0, ke.jsx)(E, {
+      ? (0, ke.jsx)(S, {
           theme: "primary",
           size: "small",
           disabled: c === $a.DISABLED,
-          className: r(un, i),
+          className: n(un, i),
           autoAlignContent: !1,
           style: t,
-          onClick: () => a.takeReward(s.toString()),
+          onClick: () => r.takeReward(s.toString()),
           children: (0, ke.jsx)("div", {
             className: _n,
             children: d.readOrEmpty(
@@ -3007,7 +3011,7 @@ var gn = le(function ({ index: e, questNumber: s, className: i, style: t }) {
             ),
           }),
         })
-      : (0, ke.jsx)(W, {
+      : (0, ke.jsx)(se, {
           path: "userMissions.hub.reward_progress.completed",
           width: 11,
           height: 11,
@@ -3015,12 +3019,12 @@ var gn = le(function ({ index: e, questNumber: s, className: i, style: t }) {
           style: t,
         });
 });
-var fn = le(function ({ classNames: e }) {
+var fn = L(function ({ classNames: e }) {
     const { model: s } = Va(),
       i = s.total.get(),
       t = s.quests.get();
     return (0, ke.jsx)(ke.Fragment, {
-      children: D(t, ({ questNumber: s }, t) => {
+      children: F(t, ({ questNumber: s }, t) => {
         const o = { left: (s / i) * 100 + "%" };
         return (0, ke.jsxs)(
           Xe.Fragment,
@@ -3050,33 +3054,33 @@ var fn = le(function ({ classNames: e }) {
   En = "WinBackProgress_quest_f3ea405e",
   wn = "WinBackProgress_scrollBar_efbfbc78",
   Sn = "WinBackProgress_mainReward_1460436e";
-N.resolve("aliases");
-var Pn = N.resolve("intl");
-var Bn = le(function () {
+y.resolve("aliases");
+var Pn = y.resolve("intl");
+var Bn = L(function () {
     const { model: e } = Va(),
-      { api: i } = oe(),
-      t = s(),
-      [o, a] = (0, Xe.useState)(!1),
-      n = e.total.get(),
-      l = e.current.get(),
-      d = e.earned.get(),
-      m = 160 * e.quests.get().length,
-      u = N.resolve("strings"),
-      _ = (0, Xe.useCallback)(() => {
-        a(i.animationScroll.scrollPosition.get() > 0);
-      }, [i]),
-      p = S(() => t.run(() => i.applyScroll(m * (l / n) - 160)));
+      { api: o } = re(),
+      r = t(),
+      [a, l] = (0, Xe.useState)(!1),
+      c = e.total.get(),
+      d = e.current.get(),
+      m = e.earned.get(),
+      u = 160 * e.quests.get().length,
+      _ = y.resolve("strings"),
+      p = (0, Xe.useCallback)(() => {
+        l(o.animationScroll.scrollPosition.get() > 0);
+      }, [o]),
+      g = B(() => r.run(() => o.applyScroll(u * (d / c) - 160)));
     return (
       (0, Xe.useEffect)(() => {
-        const e = i.events.on("start", _),
-          s = i.events.on("rest", _);
+        const e = o.events.on("start", p),
+          s = o.events.on("rest", p);
         return (
-          p(),
+          g(),
           () => {
             (e(), s());
           }
         );
-      }, [i.events, p, _]),
+      }, [o.events, g, p]),
       (0, ke.jsxs)("div", {
         className: hn,
         children: [
@@ -3084,25 +3088,24 @@ var Bn = le(function () {
           (0, ke.jsxs)("div", {
             className: bn,
             children: [
-              (0, ke.jsx)(c, {
+              (0, ke.jsx)(i, {
                 classMix: Cn,
                 isTruncationAvailable: !0,
-                text: u
-                  .readOrEmpty("user_missions.hub.reward_progress.win_back_quest_progress.title")
-                  .replace(
-                    "{{progress}}",
-                    u
-                      .readOrEmpty(
-                        "user_missions.hub.reward_progress.win_back_quest_progress.progress",
-                      )
-                      .replace("{{current}}", Pn.formatNumber("integral", l))
-                      .replace("{{total}}", Pn.formatNumber("integral", n)),
-                  ),
+                text: _.readOrEmpty(
+                  "user_missions.hub.reward_progress.win_back_quest_progress.title",
+                ).replace(
+                  "{{progress}}",
+                  _.readOrEmpty(
+                    "user_missions.hub.reward_progress.win_back_quest_progress.progress",
+                  )
+                    .replace("{{current}}", Pn.formatNumber("integral", d))
+                    .replace("{{total}}", Pn.formatNumber("integral", c)),
+                ),
               }),
-              (0, ke.jsx)(c, {
+              (0, ke.jsx)(i, {
                 classMix: vn,
                 isTruncationAvailable: !0,
-                text: u.readOrEmpty(
+                text: _.readOrEmpty(
                   "user_missions.hub.reward_progress.win_back_quest_progress.sub_title",
                 ),
               }),
@@ -3113,26 +3116,26 @@ var Bn = le(function () {
             children: [
               (0, ke.jsxs)("div", {
                 className: yn,
-                onWheel: i.handleMouseWheel,
+                onWheel: o.handleMouseWheel,
                 children: [
-                  (0, ke.jsx)(H, {
-                    classNames: { wrapper: r(In, o && jn) },
+                  (0, ke.jsx)(j, {
+                    classNames: { wrapper: n(In, a && jn) },
                     children: (0, ke.jsxs)("div", {
                       className: kn,
-                      style: { width: `${m}rem` },
+                      style: { width: `${u}rem` },
                       children: [
                         (0, ke.jsx)(is, {
-                          value: l,
+                          value: d,
                           size: "full",
-                          maxValue: n,
+                          maxValue: c,
                           className: Mn,
-                          children: (0, ke.jsx)($, { initValue: l - d, initMaxValue: n }),
+                          children: (0, ke.jsx)($, { initValue: d - m, initMaxValue: c }),
                         }),
                         (0, ke.jsx)(fn, { classNames: { questStatus: Rn, quest: En } }),
                       ],
                     }),
                   }),
-                  (0, ke.jsx)(re, { classNames: { base: wn } }),
+                  (0, ke.jsx)(s, { classNames: { base: wn } }),
                 ],
               }),
               (0, ke.jsx)("div", { className: Sn, children: (0, ke.jsx)(en, {}) }),
@@ -3143,16 +3146,18 @@ var Bn = le(function () {
     );
   }),
   On = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) =>
+        e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
+      ),
     context: "model.winBackProgress",
   };
 function Tn() {
   return (0, ke.jsx)(Ga, { options: On, children: (0, ke.jsx)(Bn, {}) });
 }
 var An = "RewardProgressBlock_bf1cc1f3";
-var Ln = le(function () {
+var Ln = L(function () {
     const { model: e } = ba(),
       s = e.progressType.get();
     return (0, ke.jsx)("div", {
@@ -3170,14 +3175,16 @@ var Ln = le(function () {
     });
   }),
   Dn = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) =>
+        e.user_missions.hub.basicMissions.DailyMissionsSection.RewardProgressBlock("resId"),
+      ),
   };
 function Wn() {
   return (0, ke.jsx)(ha, {
     options: Dn,
-    children: (0, ke.jsx)(B, { children: (0, ke.jsx)(Ln, {}) }),
+    children: (0, ke.jsx)(T, { children: (0, ke.jsx)(Ln, {}) }),
   });
 }
 var Fn = "DailyMissions_c4fedd54",
@@ -3185,8 +3192,8 @@ var Fn = "DailyMissions_c4fedd54",
   Gn = "DailyMissions_content_22c598b5",
   Vn = "DailyMissions_missionsBlock_778a9b79",
   qn = "DailyMissions_rewardProgress_73a64666",
-  $n = N.resolve("strings"),
-  zn = le(function () {
+  $n = y.resolve("strings"),
+  zn = L(function () {
     const { model: e } = mt(),
       s = e.dailyMissionsBlockStatus.get();
     return (0, ke.jsxs)("div", {
@@ -3218,14 +3225,14 @@ var Fn = "DailyMissions_c4fedd54",
     });
   }),
   Un = {
-    rootId: N.resolve("aliases").read((e) =>
-      e.user_missions.hub.basicMissions.DailyMissionsSection.MainView("resId"),
-    ),
+    rootId: y
+      .resolve("aliases")
+      .read((e) => e.user_missions.hub.basicMissions.DailyMissionsSection.MainView("resId")),
   };
 function Qn() {
   return (0, ke.jsx)(dt, { options: Un, children: (0, ke.jsx)(zn, {}) });
 }
-var [Yn, Xn] = k()(
+var [Yn, Xn] = E()(
     ({ observableModel: e }) => ({
       ...e.primitives([
         "isDailySectionAvailable",
@@ -3238,10 +3245,10 @@ var [Yn, Xn] = k()(
   Jn = "BasicMissions_1ecd0546",
   Kn = "BasicMissions_section_37456c06",
   Zn = "BasicMissions_rightCards_9fb1ec2c",
-  el = N.resolve("aliases"),
+  el = y.resolve("aliases"),
   sl = { rootId: el.read((e) => e.user_missions.hub.basicMissions.WeeklyMissions("resId")) },
   il = { rootId: el.read((e) => e.user_missions.hub.basicMissions.PersonalMissions("resId")) },
-  tl = le(function () {
+  tl = L(function () {
     const { model: e } = Xn();
     return (0, ke.jsxs)("div", {
       className: Jn,

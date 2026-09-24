@@ -5,7 +5,7 @@
 		<gunner>loader</gunner>
 		<driver></driver>
 	</crew>
-	<supplySlots>2 1 1 6 6 6 7 8 8 8</supplySlots>
+	<supplySlots>66 66 66 8 8 8</supplySlots>
 	<customRoleSlotOptions>3 5</customRoleSlotOptions>
 	<speedLimits>
 		<forward>65</forward>
@@ -96,15 +96,6 @@
 			<collisionModelClient>vehicles/british/GB123_GSOR_1006_v7/collision_client/Hull.model</collisionModelClient>
 		</hitTester>
 		<customizationSlots>
-			<slot>
-				<slotType>clan</slotType>
-				<slotId>10000</slotId>
-				<rayStart>0.203351006 0.0672049969 2.5202179</rayStart>
-				<rayEnd>0.168621004 -0.0836760029 2.3936131</rayEnd>
-				<rayUp>0.0226840004 0.63955301 -0.768411994</rayUp>
-				<size>0.28</size>
-				<isUVProportional>false</isUVProportional>
-			</slot>
 			<slot>
 				<slotType>paint</slotType>
 				<slotId>11000</slotId>

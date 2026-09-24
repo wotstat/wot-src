@@ -8,29 +8,29 @@ import {
   K as r,
   St as i,
   Vt as c,
-  _ as d,
-  ft as _,
-  g as l,
-  jt as m,
-  kt as b,
-  lt as u,
-  q as h,
-  rt as x,
-  wt as v,
-  xt as g,
+  ft as d,
+  jt as _,
+  kt as l,
+  lt as m,
+  q as b,
+  rt as u,
+  v as h,
+  wt as x,
+  xt as v,
+  y as g,
 } from "./lib.js";
 import { t as f } from "./resources.js";
 import { i as I } from "./getRewardImage.js";
 import { a as N, t as j } from "./shield.js";
 var y = "TimerSubtitle_452d1eee",
-  C = e(_());
+  C = e(d());
 function z({ text: e, expireTime: s, className: t = "" }) {
   return (0, C.jsx)(a, {
     text: e,
     params: {
-      time: (0, C.jsx)(l, {
+      time: (0, C.jsx)(h, {
         start: s,
-        size: u({ timerSize: d.x16x16 }, { large: { timerSize: d.x24x24 } }).timerSize,
+        size: m({ timerSize: g.x16x16 }, { large: { timerSize: g.x24x24 } }).timerSize,
       }),
     },
     className: c(y, t),
@@ -152,32 +152,32 @@ var V = "BoxSwitch_30f3e1e",
 function X({
   tabs: e,
   sounds: a,
-  changeTab: s = m,
+  changeTab: s = _,
   active: n = "",
   className: o = "",
   eventName: r,
 }) {
   const { guaranteed: d } = N(r),
-    _ = h(300, !0);
-  function l(e) {
-    _.call(() => {
+    m = b(300, !0);
+  function h(e) {
+    m.call(() => {
       (t.sound(a.switch), s(e));
     });
   }
-  function u(a) {
+  function g(a) {
     const s = e.length;
     if (0 === s) return;
-    const t = g(e, (e) => e.boxCategory === n) ?? 0,
+    const t = v(e, (e) => e.boxCategory === n) ?? 0,
       o = Math.min(Math.max(t + a, 0), s - 1),
       r = i(e, o);
-    r && r.boxCategory !== n && l(r.boxCategory);
+    r && r.boxCategory !== n && h(r.boxCategory);
   }
   return (
-    x(b.ARROW_UP, () => u(-1)),
-    x(b.ARROW_DOWN, () => u(1)),
+    u(l.ARROW_UP, () => g(-1)),
+    u(l.ARROW_DOWN, () => g(1)),
     (0, C.jsx)(E, {
       className: c(V, o),
-      children: v(e, (e, a) => {
+      children: x(e, (e, a) => {
         const s = `${a}_${e.boxCategory}`,
           t = (function (e, a) {
             return 1 == (e === a) ? $ : B;
@@ -187,7 +187,7 @@ function X({
           E.Item,
           {
             id: s,
-            onClick: () => l(e.boxCategory),
+            onClick: () => h(e.boxCategory),
             state: t,
             children: [
               (0, C.jsx)(

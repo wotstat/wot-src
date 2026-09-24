@@ -5,12 +5,12 @@ import {
   C as r,
   Ht as a,
   L as c,
-  R as l,
-  V as p,
+  R as p,
+  V as l,
   Vt as o,
-  ft as i,
-  jt as m,
-  l as n,
+  d as i,
+  ft as m,
+  jt as n,
   s as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
@@ -29,43 +29,43 @@ var _ = e(a(), 1),
     images: { divider: "common.noise" },
   },
   N = { dynamicTexts: { title: "tooltip.reroll.title", text: "tooltip.reroll.text" } },
-  [v, g] = p()(({ observableModel: e }) => {
+  [v, g] = l()(({ observableModel: e }) => {
     const r = { root: e.object(), prices: e.arrayClone("prices") },
       { eventName: a } = r.root.get(),
       c = s(() => u(h, a), { equals: t }),
-      l = s(() => x(N, a), { equals: t });
-    return { ...r, computes: { resources: c, dynamicResources: l } };
-  }, m),
+      p = s(() => x(N, a), { equals: t });
+    return { ...r, computes: { resources: c, dynamicResources: p } };
+  }, n),
   y = "Step_ee60b742",
   A = "Step_700f8f43",
   b = "Step_currency_c7a9823f",
   S = "Step_icon_48d4a79d",
   k = "Step_through_54d48531",
-  R = e(i(), 1),
+  R = e(m(), 1),
   T = c(function ({ step: e, attemptWidth: t }) {
     const { model: s } = g(),
       { rerollAttempts: a, currency: c } = s.root.get(),
-      { texts: l } = s.computes.resources(),
-      p = ((e) =>
+      { texts: p } = s.computes.resources(),
+      l = ((e) =>
         e.end === e.start
-          ? { text: l.singleStep, params: { step: e.end } }
-          : { text: l.template, params: { start: e.start, end: e.end } })(e),
-      i = a - 1 >= e.end;
+          ? { text: p.singleStep, params: { step: e.end } }
+          : { text: p.template, params: { start: e.start, end: e.end } })(e),
+      m = a - 1 >= e.end;
     return (0, R.jsxs)("div", {
       className: y,
       children: [
         (0, R.jsx)(r, {
-          className: o(A, i && k),
-          text: p.text,
-          params: p.params,
+          className: o(A, m && k),
+          text: l.text,
+          params: l.params,
           style: { width: `${t}rem` },
         }),
         0 === e.value
-          ? (0, R.jsx)(r, { text: l.free, className: o(i && k) })
-          : (0, R.jsx)(n, {
+          ? (0, R.jsx)(r, { text: p.free, className: o(m && k) })
+          : (0, R.jsx)(i, {
               type: c || "",
               reverse: !0,
-              className: o(b, i && k),
+              className: o(b, m && k),
               classNames: { icon: S },
               children: e.value,
             }),
@@ -87,8 +87,8 @@ var _ = e(a(), 1),
       s = e.prices.get(),
       { texts: a } = e.computes.resources(),
       { dynamicTexts: c } = e.computes.dynamicResources(),
-      l = j(s.slice(1)),
-      [p, o] = (0, _.useState)(0),
+      p = j(s.slice(1)),
+      [l, o] = (0, _.useState)(0),
       i = (0, _.useRef)(null);
     return (
       (0, _.useLayoutEffect)(() => {
@@ -114,14 +114,14 @@ var _ = e(a(), 1),
               }),
               (0, R.jsx)("div", {
                 className: B,
-                children: l.map((e, s) =>
+                children: p.map((e, s) =>
                   (0, R.jsxs)(
                     "div",
                     {
                       className: O,
                       children: [
                         (0, R.jsx)(f, { eventName: t, className: V }),
-                        (0, R.jsx)(T, { attemptWidth: p, step: e }),
+                        (0, R.jsx)(T, { attemptWidth: l, step: e }),
                       ],
                     },
                     `${e}_${s}`,
@@ -134,7 +134,7 @@ var _ = e(a(), 1),
       })
     );
   });
-l(
+p(
   (0, R.jsx)(v, {
     children: (0, R.jsx)(d, { children: (0, R.jsx)(d.Decorator, { children: (0, R.jsx)(D, {}) }) }),
   }),

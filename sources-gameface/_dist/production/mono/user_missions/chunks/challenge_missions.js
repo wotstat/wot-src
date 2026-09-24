@@ -7,9 +7,9 @@ import {
   Dn as i,
   Dt as r,
   E as l,
-  Gt as c,
-  H as o,
-  I as d,
+  F as c,
+  Gt as o,
+  H as d,
   It as m,
   J as _,
   Jt as u,
@@ -29,41 +29,41 @@ import {
   Tt as k,
   U as S,
   V as T,
-  X as D,
-  Y as E,
-  Yt as P,
-  Z as M,
-  Zt as B,
-  _n as A,
-  a as $,
-  an as O,
-  c as L,
-  en as z,
-  et as H,
-  f as V,
-  i as W,
-  j as K,
-  jt as q,
-  k as F,
-  ln as Y,
-  lt as X,
-  mn as U,
-  n as G,
-  nn as J,
-  nt as Q,
-  o as Z,
-  on as ee,
-  pn as se,
-  qt as ae,
-  r as te,
-  rn as ne,
-  rt as ie,
-  s as re,
-  t as le,
-  tn as ce,
-  tt as oe,
-  ut as de,
-  vt as me,
+  W as D,
+  X as E,
+  Y as P,
+  Yt as M,
+  Z as B,
+  Zt as A,
+  _n as $,
+  _t as O,
+  a as L,
+  an as z,
+  c as H,
+  ct as V,
+  en as W,
+  et as K,
+  f as q,
+  i as F,
+  j as Y,
+  jt as X,
+  k as U,
+  ln as G,
+  mn as J,
+  n as Q,
+  nn as Z,
+  o as ee,
+  on as se,
+  pn as ae,
+  q as te,
+  qt as ne,
+  r as ie,
+  rn as re,
+  s as le,
+  st as ce,
+  t as oe,
+  tn as de,
+  tt as me,
   x as _e,
 } from "./lib.js";
 import { i as ue, r as he, t as ge } from "./get_reward_image.js";
@@ -118,16 +118,16 @@ var be = e(v(), 1),
           ...e.primitives(["enabled", "selectedChallengeID"]),
           root: e.object(),
           challengesPacks: e.arrayClone("challengesPacks"),
-          viewedChallenges: z.set([]),
-          scrollTargetID: z.box(null),
-          shouldScrollToActive: z.box(!1),
+          viewedChallenges: W.set([]),
+          scrollTargetID: W.box(null),
+          shouldScrollToActive: W.box(!1),
         },
         t = a(() => {
           const e = s.challengesPacks.get();
           return e
-            ? ee(e, (e) => ({
+            ? se(e, (e) => ({
                 complexity: e.complexity,
-                challenges: ee(e.challenges, (e) => {
+                challenges: se(e.challenges, (e) => {
                   const a = e.challengeID;
                   return s.viewedChallenges.has(a) ? { ...e, isNew: !1 } : e;
                 }),
@@ -145,7 +145,7 @@ var be = e(v(), 1),
             e
           );
         });
-      ce(
+      de(
         () => s.root.get().activeChallengeID,
         I((e) => {
           s.shouldScrollToActive.get() &&
@@ -242,7 +242,7 @@ var be = e(v(), 1),
     return (0, He.jsxs)("div", {
       className: i(Ke, t),
       children: [
-        (0, He.jsx)(re, {
+        (0, He.jsx)(le, {
           type: "preview",
           size: "normal",
           onClick: () => {
@@ -257,7 +257,7 @@ var be = e(v(), 1),
           classNames: { icon: Xe },
         }),
         e.label &&
-          (0, He.jsx)(F, {
+          (0, He.jsx)(c, {
             classMix: i(qe, n?.name),
             text:
               "attachmentsTitle" !== a
@@ -291,27 +291,27 @@ var be = e(v(), 1),
   ls = R.strings.user_missions.hub.challenge_missions.reward,
   cs = (e) => {
     switch (e) {
-      case Z.heavyTank:
-        return Z.heavyTank;
-      case Z.lightTank:
-        return Z.lightTank;
-      case Z.mediumTank:
-        return Z.mediumTank;
-      case Z.SPG:
-        return Z.SPG;
+      case ee.heavyTank:
+        return ee.heavyTank;
+      case ee.lightTank:
+        return ee.lightTank;
+      case ee.mediumTank:
+        return ee.mediumTank;
+      case ee.SPG:
+        return ee.SPG;
       default:
-        return Z["AT-SPG"];
+        return ee["AT-SPG"];
     }
   },
-  os = ({ kingReward: e, classNames: s, vehicleTypeIconSize: a = $.x48x48 }) => {
+  os = ({ kingReward: e, classNames: s, vehicleTypeIconSize: a = L.x48x48 }) => {
     const { isInHangar: t, vehicleShortName: n, type: i, level: r, isElite: l } = e;
     return (0, He.jsx)("div", {
       className: s?.base,
-      children: (0, He.jsxs)(W, {
+      children: (0, He.jsxs)(F, {
         children: [
-          (0, He.jsx)(W.Level, { className: s?.level, value: r, numberType: L.numberTypes.roman }),
-          (0, He.jsx)(W.Type, { className: s?.typeIcon, type: cs(i), premium: l, size: a }),
-          (0, He.jsx)(W.Name, { className: s?.name, children: n }),
+          (0, He.jsx)(F.Level, { className: s?.level, value: r, numberType: H.numberTypes.roman }),
+          (0, He.jsx)(F.Type, { className: s?.typeIcon, type: cs(i), premium: l, size: a }),
+          (0, He.jsx)(F.Name, { className: s?.name, children: n }),
           t && (0, He.jsx)("div", { className: s?.vehicleInHangar }),
         ],
       }),
@@ -340,7 +340,7 @@ var be = e(v(), 1),
       (0, He.jsxs)("div", {
         className: ds,
         children: [
-          (0, He.jsx)(re, {
+          (0, He.jsx)(le, {
             type: "preview",
             size: "normal",
             onClick: () => {
@@ -375,7 +375,7 @@ var be = e(v(), 1),
       return (0, He.jsxs)("div", {
         className: es,
         children: [
-          (0, He.jsx)(de, { className: ss, text: s }),
+          (0, He.jsx)(V, { className: ss, text: s }),
           (0, He.jsx)("div", { className: as, children: ts.improvedEquipment() }),
         ],
       });
@@ -386,7 +386,7 @@ var be = e(v(), 1),
       return (0, He.jsxs)("div", {
         className: Qe.base,
         children: [
-          (0, He.jsx)(de, {
+          (0, He.jsx)(V, {
             className: i(Qe.count, Qe[`count__${s}`]),
             text: t.formatNumber("integral", a),
           }),
@@ -414,7 +414,7 @@ var be = e(v(), 1),
   ks = "KingReward_overlay_f33628c4",
   Rs = "KingReward_count_a785a0ee",
   Ss = R.strings.user_missions.hub.challenge_missions.reward,
-  Ts = me(function ({ kingRewardType: e, kingReward: s, missionId: a, className: t }) {
+  Ts = O(function ({ kingRewardType: e, kingReward: s, missionId: a, className: t }) {
     const { model: n, controls: r } = Ae(),
       { selectedChallengeID: l } = n.root.get(),
       { bg: c } = ((e) => {
@@ -460,7 +460,7 @@ var be = e(v(), 1),
                 openPreview: r.openPreview,
               }),
             }),
-            _ > 1 && (0, He.jsx)(de, { text: Ss.multi(), className: Rs, params: { count: _ } }),
+            _ > 1 && (0, He.jsx)(V, { text: Ss.multi(), className: Rs, params: { count: _ } }),
           ],
         }),
       ],
@@ -476,8 +476,8 @@ var be = e(v(), 1),
   Os = N.resolve("images"),
   Ls = ({ condition: e }) => {
     const { iconKey: s, titleData: a, descrData: t } = e,
-      { breakpoint: n } = ae(),
-      i = n.weight >= P.large.weight,
+      { breakpoint: n } = ne(),
+      i = n.weight >= M.large.weight,
       r = `userMissions.challenges.missionIcons.${i ? "c_128" : "c_80"}.${s}`,
       l = `userMissions.challenges.missionIcons.${i ? "c_128" : "c_80"}.folder`,
       c = Os.readOrEmpty(r, "silent") || Os.readOrEmpty(l);
@@ -492,7 +492,7 @@ var be = e(v(), 1),
           className: Ms,
           children: [
             (0, He.jsx)("div", { className: Bs, children: a }),
-            (0, He.jsx)(d, { text: `${t}`, classNames: { base: $s, text: As }, upgradeLegacy: !0 }),
+            (0, He.jsx)(Y, { text: `${t}`, classNames: { base: $s, text: As }, upgradeLegacy: !0 }),
           ],
         }),
       ],
@@ -521,7 +521,7 @@ var be = e(v(), 1),
   Fs = ({ mission: e, state: s }) =>
     (0, He.jsx)("div", {
       className: i(qs.base, qs[`base__${s}`]),
-      children: ee(e.postBattleCondition.items, (e, s, a) =>
+      children: se(e.postBattleCondition.items, (e, s, a) =>
         (0, He.jsxs)(
           "div",
           {
@@ -552,7 +552,7 @@ var Qs = "Reward_cd75c111",
     return (
       (0, be.useEffect)(() => {
         t &&
-          se.tooltip.hide(
+          ae.tooltip.hide(
             Zs.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
             Number(l),
           );
@@ -566,7 +566,7 @@ var Qs = "Reward_cd75c111",
     style: { backgroundImage: `url(${a})` },
     children:
       e &&
-      (0, He.jsx)(de, {
+      (0, He.jsx)(V, {
         text: R.strings.user_missions.hub.challenge_missions.reward.multi(),
         className: Gs,
         params: { count: s },
@@ -575,7 +575,7 @@ var Qs = "Reward_cd75c111",
 }),
   (ea.Name = function ({ reward: e, className: s = "" }) {
     const { label: a } = e;
-    return (0, He.jsx)(de, { className: i(Js, s), text: t.formatNumber("integral", Number(a)) });
+    return (0, He.jsx)(V, { className: i(Js, s), text: t.formatNumber("integral", Number(a)) });
   }),
   (ea.Overlay = function ({ size: e, special: s, className: a }) {
     return (0, He.jsx)("div", {
@@ -636,7 +636,7 @@ var ta = "RewardsList_bd99d393",
         e.length > 0 && (0, He.jsx)("div", { className: na }),
         (0, He.jsx)("div", {
           className: ia,
-          children: ee(e, (e, t) =>
+          children: se(e, (e, t) =>
             (0, He.jsx)(aa, { reward: e, missionId: s, disabledRewardTooltip: a }, `${t}_${e.id}`),
           ),
         }),
@@ -659,8 +659,8 @@ function ca({
 }) {
   const r = e.bonuses,
     l = e.id,
-    c = ne(r, (e) => "" !== t && e.bonusType === t),
-    o = Y(a && c ? J(r, (e) => e.bonusType !== t) : r);
+    c = re(r, (e) => "" !== t && e.bonusType === t),
+    o = G(a && c ? Z(r, (e) => e.bonusType !== t) : r);
   return (0, He.jsxs)("div", {
     className: i(la.base, la[`base__${s}`]),
     children: [
@@ -815,11 +815,11 @@ function Ia({
     h = ((e) => "done" === e || "locked" === e)(a);
   (0, be.useEffect)(() => {
     const e = d.current;
-    ("active" === a && "active" !== e && U.sound(Ee),
-      "failed" === a && "failed" !== e && U.sound(Pe),
+    ("active" === a && "active" !== e && J.sound(Ee),
+      "failed" === a && "failed" !== e && J.sound(Pe),
       (d.current = a));
   }, [a]);
-  const g = ne(c, (e) => "" !== t && e.bonusType === t);
+  const g = re(c, (e) => "" !== t && e.bonusType === t);
   return (0, He.jsx)("div", {
     className: i(ya.base, ya[`base__${a}`], r),
     children: (0, He.jsxs)(pa, {
@@ -829,7 +829,7 @@ function Ia({
         "active" === a &&
           (0, He.jsx)("div", {
             className: ya.shimmerContainer,
-            children: (0, He.jsx)(q.div, { style: o, className: ya.shimmer }),
+            children: (0, He.jsx)(X.div, { style: o, className: ya.shimmer }),
           }),
         (0, He.jsx)(_a, { number: s, active: u, className: ya.missionNumber }),
         (0, He.jsx)(ca, {
@@ -872,7 +872,7 @@ function Ba({ selectedChallenge: e, className: s = "" }) {
       children: [
         (0, He.jsx)("div", {
           className: Ra,
-          children: (0, He.jsx)(F, {
+          children: (0, He.jsx)(c, {
             text: Pa.readOrEmpty(`${Ma}.header.numberTemplate`),
             binding: {
               currentNumber: (0, He.jsx)("span", { className: i(Sa, a === t && Ta), children: t }),
@@ -909,7 +909,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
       onMouseUp: () => d(!1),
       onMouseLeave: () => d(!1),
       children: [
-        ee(a, (l, c, d) =>
+        se(a, (l, c, d) =>
           (0, He.jsx)(
             Ia,
             {
@@ -965,7 +965,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     kingReward: "CardsContent_kingReward_3201ccb6",
     kingReward__done: "CardsContent_kingReward__done_a3c56347",
   },
-  Ua = me(function ({ selectedChallenge: e, enableAnimation: a = !1 }) {
+  Ua = O(function ({ selectedChallenge: e, enableAnimation: a = !1 }) {
     const { model: t } = Ae(),
       n = (0, be.useRef)(null),
       r = (0, be.useRef)(null),
@@ -973,17 +973,17 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
       c = (0, be.useRef)(null),
       [o, d] = (0, be.useState)(!1),
       [m, _] = (0, be.useState)(!1),
-      { api: u } = ie(),
+      { api: u } = me(),
       { animationScroll: h, applyScroll: g } = u,
       { activeChallengeID: b } = t.root.get(),
       f = e?.challengeID,
       x = e?.missions,
       v = e?.mainRewardType ?? "",
-      j = x ? O(x, x.length - 1) : void 0,
-      y = j?.bonuses ? ne(j.bonuses, (e) => "" !== v && e.bonusType === v) : void 0,
+      j = x ? z(x, x.length - 1) : void 0,
+      y = j?.bonuses ? re(j.bonuses, (e) => "" !== v && e.bonusType === v) : void 0,
       [N, I] = p(() => ({ maskStop: 100, isSticky: 0, config: { precision: 0.1 } })),
-      C = s(u, w.horizontal, void 0, { gapBeforeStart: 5 }),
-      [k, R] = Q(u),
+      C = B(u, E.horizontal, void 0, { gapBeforeStart: 5 }),
+      [k, R] = K(u),
       S = (0, be.useCallback)(() => {
         if (!l.current || !e) return 0;
         const s = e.completedMissions,
@@ -1007,31 +1007,31 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
           I.start({ maskStop: e, isSticky: 1, immediate: !0 });
         } else I.start({ maskStop: i, isSticky: 0, immediate: !0 });
       }, [h.scrollPosition, I, u]),
-      E = (0, be.useCallback)(() => {
+      P = (0, be.useCallback)(() => {
         (_(!0), D());
       }, [D]),
-      P = (0, be.useCallback)(() => {
+      M = (0, be.useCallback)(() => {
         (D(), m && h.scrollPosition.idle && _(!1));
       }, [h.scrollPosition, D, m]);
     if (
       ((0, be.useEffect)(
         () => (
-          B(() => {
+          A(() => {
             D();
           }),
-          u.events.on("mouseWheel", E),
-          u.events.on("change", P),
+          u.events.on("mouseWheel", P),
+          u.events.on("change", M),
           u.events.on("resizeHandled", D),
           () => {
-            (u.events.off("mouseWheel", E),
-              u.events.off("change", P),
+            (u.events.off("mouseWheel", P),
+              u.events.off("change", M),
               u.events.off("resizeHandled", D));
           }
         ),
-        [u, E, P, I, D],
+        [u, P, M, I, D],
       ),
       (0, be.useEffect)(() => {
-        B(() => {
+        A(() => {
           "idle" === C.type && h.scrollPosition.idle && (_(!1), g(h.scrollPosition.get()));
         });
       }, [h.scrollPosition, g, C.type]),
@@ -1049,31 +1049,31 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
       !e)
     )
       return null;
-    const M = o || m;
-    return (0, He.jsxs)(q.div, {
+    const $ = o || m;
+    return (0, He.jsxs)(X.div, {
       style: T,
       className: Xa.base,
       children: [
         (0, He.jsx)("div", {
           className: i(
             Xa.mask,
-            Xa[`mask__${((A = k), ($ = R), A || $ ? (A ? ($ ? Ya : qa) : Ka) : Fa)}`],
+            Xa[`mask__${((O = k), (L = R), O || L ? (O ? (L ? Ya : qa) : Ka) : Fa)}`],
           ),
           ref: r,
-          children: (0, He.jsx)(q.div, {
+          children: (0, He.jsx)(X.div, {
             className: Xa.maskReward,
             style: {
               maskImage: N.maskStop.to(
                 (e) => `linear-gradient(to right, #000 ${e}px, transparent ${e}px)`,
               ),
             },
-            children: (0, He.jsx)(H, {
+            children: (0, He.jsx)(w, {
               classNames: { wrapper: Xa.scrollWrapper },
               children:
                 x &&
                 f &&
                 (0, He.jsx)(Ha, {
-                  dragging: M,
+                  dragging: $,
                   selectedChallenge: e,
                   missions: x,
                   activeChallengeID: b,
@@ -1090,7 +1090,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
           j &&
           f &&
           x &&
-          (0, He.jsx)(q.div, {
+          (0, He.jsx)(X.div, {
             className: i(
               Xa.kingReward,
               "done" === Oe(e, x.length - 1, b, f) && Xa.kingReward__done,
@@ -1104,29 +1104,29 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
               missionId: j.id,
             }),
           }),
-        (0, He.jsx)(oe, { classNames: { base: Xa.scrollBar } }),
+        (0, He.jsx)(s, { classNames: { base: Xa.scrollBar } }),
       ],
     });
-    var A, $;
+    var O, L;
   }),
   Ga = "Badges_active_2b01effc",
   Ja = "Badges_active__shown_962cc4d1",
   Qa = "Badges_bubble_44df09e",
   Za = (0, be.memo)(function ({ status: e }) {
-    const s = c(e) === ve;
+    const s = o(e) === ve;
     return (0, He.jsxs)(He.Fragment, {
       children: [
         e === ve &&
           (0, He.jsx)("div", {
             className: i(Ga, s && Ja),
-            children: (0, He.jsx)(X, {
+            children: (0, He.jsx)(ce, {
               path: "user_missions.hub.challenge_missions.missionsActive",
             }),
           }),
         e === je &&
-          (0, He.jsx)(G.Root, {
+          (0, He.jsx)(Q.Root, {
             className: Qa,
-            children: (0, He.jsx)(G.Value, {
+            children: (0, He.jsx)(Q.Value, {
               size: "medium",
               value: R.strings.user_missions.hub.challenge_missions.new(),
             }),
@@ -1151,7 +1151,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     const n = t > 0;
     return (0, He.jsxs)(He.Fragment, {
       children: [
-        (0, He.jsx)("div", { className: et, children: (0, He.jsx)(le, { text: e }) }),
+        (0, He.jsx)("div", { className: et, children: (0, He.jsx)(oe, { text: e }) }),
         (0, He.jsx)("div", {
           className: st,
           children: s
@@ -1159,7 +1159,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
                 className: rt,
                 children: [
                   (0, He.jsx)("span", { className: lt }),
-                  (0, He.jsx)(X, {
+                  (0, He.jsx)(ce, {
                     path: "user_missions.hub.challenge_missions.missionsCompleted",
                   }),
                 ],
@@ -1191,56 +1191,56 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
     accent: "Content_accent_9c27dd12",
   },
   dt = R.images.gui.maps.icons.userMissions.hub.challenge.background,
-  mt = me(function ({ challengeID: e, complexity: s, selected: a }) {
+  mt = O(function ({ challengeID: e, complexity: s, selected: a }) {
     const { model: t } = Ae(),
-      { breakpoint: n } = ae(),
-      r = t.computes.getChallengeByID(e),
-      l = t.computes.getCardStatus(e).get(),
-      c = r?.completedMissions ?? 0,
-      o = r?.totalMissions ?? 0,
-      d = r?.type ?? "",
-      m = r?.expireTime ?? 0,
-      _ = r?.challengeName ?? "",
-      u = r?.state,
-      h = r?.remainingAttempts ?? 0,
-      g = (0, He.jsx)(X, {
+      { breakpoint: r } = ne(),
+      c = t.computes.getChallengeByID(e),
+      o = t.computes.getCardStatus(e).get(),
+      d = c?.completedMissions ?? 0,
+      m = c?.totalMissions ?? 0,
+      _ = c?.type ?? "",
+      u = c?.expireTime ?? 0,
+      h = c?.challengeName ?? "",
+      g = c?.state,
+      b = c?.remainingAttempts ?? 0,
+      p = (0, He.jsx)(ce, {
         path: "user_missions.hub.challenge_missions.missionsCount",
         params: {
-          currentMissions: (0, He.jsx)("span", { className: ot.accent, children: c }),
-          totalMissions: o,
+          currentMissions: (0, He.jsx)("span", { className: ot.accent, children: d }),
+          totalMissions: m,
         },
       }),
-      p = "special" === d ? dt.additional.$dyn(`c_${e}`) : dt.basic();
+      f = "special" === _ ? dt.additional.$dyn(`c_${e}`) : dt.basic();
     return (0, He.jsxs)("div", {
       className: ot.base,
       children: [
-        l && (0, He.jsx)(Za, { status: l }),
+        o && (0, He.jsx)(Za, { status: o }),
         (0, He.jsx)("div", {
           className: i(ot.background, a && ot.background__selected),
-          style: { backgroundImage: `url(${p})` },
+          style: { backgroundImage: `url(${f})` },
         }),
-        (0, He.jsx)("div", { className: i(ot.pattern, d && ot[`pattern__${s}`]) }),
-        r &&
+        (0, He.jsx)("div", { className: i(ot.pattern, _ && ot[`pattern__${s}`]) }),
+        c &&
           (0, He.jsxs)("div", {
             className: ot.content,
             children: [
-              u !== Me.COMPLETED &&
+              g !== Me.COMPLETED &&
                 (0, He.jsx)(
-                  K,
+                  l,
                   {
-                    type: y.accent,
-                    format: m > 86400 ? b.compact : b.default,
-                    size: n.weight < P.extraLarge.weight ? f.x24x24 : f.x32x32,
+                    type: U.accent,
+                    format: u > 86400 ? n.compact : n.default,
+                    size: r.weight < M.extraLarge.weight ? x.x24x24 : x.x32x32,
                     className: ot.timer,
-                    start: m,
+                    start: u,
                   },
-                  m,
+                  u,
                 ),
               (0, He.jsx)(ct, {
-                challengeName: _,
-                completed: u === Me.COMPLETED,
-                formattedCount: g,
-                remainingAttempts: h,
+                challengeName: h,
+                completed: g === Me.COMPLETED,
+                formattedCount: p,
+                remainingAttempts: b,
               }),
             ],
           }),
@@ -1252,7 +1252,7 @@ var Aa = "CardsList_cardsWrapper_6c2823cb",
 function ht({ challengeID: e, isSelected: s, onSelect: a, complexity: t, className: n, ...i }) {
   return (0, He.jsx)("div", {
     ...i,
-    children: (0, He.jsx)(V, {
+    children: (0, He.jsx)(q, {
       classNames: { wrapper: _t, card: ut },
       className: n,
       selected: s,
@@ -1282,15 +1282,15 @@ function pt({ complexity: e, className: s }) {
       ...a,
       children: [
         (0, He.jsx)("div", { className: i(gt.complexityIcon, gt[`complexityIcon__${e}`]) }),
-        (0, He.jsx)(X, { path: `user_missions.hub.challenge_missions.complexity.${e}` }),
+        (0, He.jsx)(ce, { path: `user_missions.hub.challenge_missions.complexity.${e}` }),
       ],
     }),
   });
 }
 var ft = "Complexity_card__selected_cd2a2f69",
-  xt = me(function ({ complexity: e }) {
+  xt = O(function ({ complexity: e }) {
     const { model: s, controls: a } = Ae(),
-      { api: t } = D(),
+      { api: t } = _(),
       n = s.selectedChallengeID.get(),
       r = s.computes.getChallengesByComplexity(e).get(),
       l = (0, be.useCallback)(
@@ -1318,7 +1318,7 @@ var ft = "Complexity_card__selected_cd2a2f69",
     return (0, He.jsxs)(He.Fragment, {
       children: [
         (0, He.jsx)(pt, { complexity: e }),
-        ee(r, (s) => {
+        se(r, (s) => {
           const a = s.challengeID,
             t = n === a;
           return (0, He.jsx)(
@@ -1339,11 +1339,11 @@ var ft = "Complexity_card__selected_cd2a2f69",
   }),
   vt = "ChallengeList_eefb9f3f",
   jt = "ChallengeList_verticalBar_9881b2c2",
-  yt = me(function () {
+  yt = O(function () {
     const { model: e } = Ae(),
       s = e.computes.challenges.get(),
-      { api: a } = D();
-    te(a);
+      { api: a } = _();
+    ie(a);
     const t = e.scrollTargetID.get();
     return (
       (0, be.useEffect)(() => {
@@ -1364,14 +1364,14 @@ var ft = "Complexity_card__selected_cd2a2f69",
       }, [t, e, a]),
       (0, He.jsxs)(He.Fragment, {
         children: [
-          (0, He.jsx)(_, {
-            children: ee(s, (e) =>
+          (0, He.jsx)(h, {
+            children: se(s, (e) =>
               e.challenges?.length
                 ? (0, He.jsx)(xt, { complexity: e.complexity }, `challenge__${e.complexity}`)
                 : null,
             ),
           }),
-          (0, He.jsx)(E, { classNames: { base: jt } }),
+          (0, He.jsx)(te, { classNames: { base: jt } }),
         ],
       })
     );
@@ -1380,7 +1380,7 @@ function Nt({ isAnimating: e = !1 }) {
   return (0, He.jsx)("div", {
     className: vt,
     style: { pointerEvents: e ? "none" : "auto", cursor: e ? "default" : "auto" },
-    children: (0, He.jsx)(h, { children: (0, He.jsx)(yt, {}) }),
+    children: (0, He.jsx)(D, { children: (0, He.jsx)(yt, {}) }),
   });
 }
 var wt = {
@@ -1429,14 +1429,14 @@ function St({ attempts: e, remainingAttempts: s, isFailed: a, isCompleted: t, cl
           className: wt.attemptsText,
           ...r,
           children: [
-            (0, He.jsx)(F, {
+            (0, He.jsx)(c, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.numberTemplate"),
               binding: {
                 currentNumber: (0, He.jsx)("span", { className: wt.currentNumber, children: s }),
                 commonNumber: (0, He.jsx)("span", { className: wt.commonNumber, children: e }),
               },
             }),
-            (0, He.jsx)(F, {
+            (0, He.jsx)(c, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.remaining"),
               classMix: wt.remaining,
             }),
@@ -1459,27 +1459,27 @@ var Tt = "RestartPrice_33839785",
 function Ht({ challengeData: e, hasOpacity: s = !1 }) {
   const a = e.restartCost,
     t = e.currencyType,
-    r = e.isEnoughMoney,
-    c = e.remainingFreeRestarts,
-    o = c > 0,
-    d = j({ resId: Lt, contentId: zt }),
-    { breakpoint: m } = ae(),
-    _ = m.weight >= P.large.weight ? n.medium : n.small;
+    n = e.isEnoughMoney,
+    r = e.remainingFreeRestarts,
+    l = r > 0,
+    o = j({ resId: Lt, contentId: zt }),
+    { breakpoint: d } = ne(),
+    m = d.weight >= M.large.weight ? f.medium : f.small;
   return (0, He.jsxs)("div", {
     className: Tt,
-    ...d,
+    ...o,
     children: [
       (0, He.jsx)("div", { className: i(Pt, s && Mt) }),
-      o
-        ? (0, He.jsx)(F, {
+      l
+        ? (0, He.jsx)(c, {
             text: Nn.readOrEmpty(`${wn}.multiplier`),
-            binding: { count: c },
+            binding: { count: r },
             classMix: i(Dt, s && Et),
           })
-        : (0, He.jsx)(l, {
-            size: _,
+        : (0, He.jsx)(b, {
+            size: m,
             type: t,
-            enough: !o && r,
+            enough: !l && n,
             reverse: !0,
             classNames: { base: Bt, icon: At },
             children: a,
@@ -1499,11 +1499,11 @@ var Vt = "RestartAction_6898d409",
 function Jt({ challengeData: e, onAction: s, hasButton: a }) {
   const t = e.remainingFreeRestarts,
     n = e.isEnoughMoney,
-    i = e.currencyType === x.crystal,
-    { breakpoint: r } = ae(),
+    i = e.currencyType === y.crystal,
+    { breakpoint: r } = ne(),
     l = j({ resId: Ut, contentId: Gt }),
-    c = r.weight >= P.large.weight ? o.large : o.small,
-    d = t > 0;
+    o = r.weight >= M.large.weight ? d.large : d.small,
+    m = t > 0;
   return (0, He.jsxs)("div", {
     className: Vt,
     children: [
@@ -1513,8 +1513,8 @@ function Jt({ challengeData: e, onAction: s, hasButton: a }) {
             disabled: i && !n,
             onClick: () => s("restart"),
             className: Wt,
-            size: c,
-            children: d
+            size: o,
+            children: m
               ? Nn.readOrEmpty(`${wn}.buttons.freeRestart`)
               : Nn.readOrEmpty(`${wn}.buttons.restart`),
           })
@@ -1522,8 +1522,8 @@ function Jt({ challengeData: e, onAction: s, hasButton: a }) {
             className: Kt,
             ...l,
             children: [
-              d &&
-                (0, He.jsx)(F, {
+              m &&
+                (0, He.jsx)(c, {
                   text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.restart.text"),
                   binding: { count: t },
                   classMix: qt,
@@ -1551,7 +1551,7 @@ function rn({ challengeData: e }) {
     children: [
       (0, He.jsx)(Ht, { challengeData: e, hasOpacity: !0 }),
       a &&
-        (0, He.jsx)(F, {
+        (0, He.jsx)(c, {
           text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.restart.text"),
           binding: { count: s },
           classMix: Zt,
@@ -1586,21 +1586,21 @@ function jn({
   isLocked: s,
   isAnotherActive: a,
   onAction: t,
-  buttonSize: n,
-  className: r = "",
+  buttonSize: r,
+  className: o = "",
 }) {
   return (0, He.jsxs)("div", {
-    className: i(on, r),
+    className: i(on, o),
     children: [
-      (0, He.jsx)(F, {
+      (0, He.jsx)(c, {
         text: Nn.readOrEmpty(`${wn}.timer.text`),
         binding: {
           timer: (0, He.jsx)(
-            K,
+            l,
             {
-              size: f.x24x24,
-              type: y.accent,
-              format: e > 86400 ? b.compact : b.default,
+              size: x.x24x24,
+              type: U.accent,
+              format: e > 86400 ? n.compact : n.default,
               start: e,
               classNames: { icon: mn, label: _n },
             },
@@ -1614,7 +1614,7 @@ function jn({
           className: un,
           children: [
             (0, He.jsx)("div", { className: hn }),
-            (0, He.jsx)(F, {
+            (0, He.jsx)(c, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.unavailable"),
               binding: {
                 lockIcon: (0, He.jsx)("div", { className: i(pn, a && fn) }),
@@ -1633,7 +1633,7 @@ function jn({
               (0, He.jsx)(T, {
                 onClick: () => t("to_active_challenge"),
                 className: vn,
-                size: n,
+                size: r,
                 children: Nn.readOrEmpty(
                   "user_missions.hub.challenge_missions.header.buttons.toChallenge",
                 ),
@@ -1661,61 +1661,61 @@ var yn = {
   },
   Nn = N.resolve("strings"),
   wn = "user_missions.hub.challenge_missions.header",
-  In = me(function ({ selectedChallenge: e, className: s = "", enableAnimation: a = !1 }) {
+  In = O(function ({ selectedChallenge: e, className: s = "", enableAnimation: a = !1 }) {
     const { model: t, controls: n } = Ae(),
       {
         activeChallengeID: r,
         isSuitableVehicles: l,
-        selectedChallengeExpireTime: c,
+        selectedChallengeExpireTime: o,
       } = t.root.get(),
-      d = e.state,
-      m = e.challengeName,
-      _ = c,
-      u = e.attempts,
-      h = e.remainingAttempts,
-      b = e.challengeID,
-      f = e.remainingFreeRestarts,
-      x = g(
-        { buttonSize: o.small },
-        { large: { buttonSize: o.medium }, extraLarge: { buttonSize: o.large } },
+      m = e.state,
+      _ = e.challengeName,
+      u = o,
+      h = e.attempts,
+      b = e.remainingAttempts,
+      f = e.challengeID,
+      x = e.remainingFreeRestarts,
+      v = g(
+        { buttonSize: d.small },
+        { large: { buttonSize: d.medium }, extraLarge: { buttonSize: d.large } },
       ),
-      { breakpoint: v } = ae(),
-      j = v.weight >= P.large.weight ? o.medium : o.extraSmall,
-      y = d === Me.COMPLETED,
-      N = d === Me.FAILED,
-      w = d === Me.ACTIVE,
-      I = d === Me.INACTIVE,
-      C = Boolean(r && b !== r),
-      k = C || !l,
-      R = k || y,
-      D = w ? "surrender" : "activate",
-      E = $e(a, 0),
-      M = p({
+      { breakpoint: j } = ne(),
+      y = j.weight >= M.large.weight ? d.medium : d.extraSmall,
+      N = m === Me.COMPLETED,
+      w = m === Me.FAILED,
+      I = m === Me.ACTIVE,
+      C = m === Me.INACTIVE,
+      k = Boolean(r && f !== r),
+      R = k || !l,
+      D = R || N,
+      E = I ? "surrender" : "activate",
+      P = $e(a, 0),
+      B = p({
         from: { transform: "translateX(-100%)" },
         to: { transform: "translateX(100%)" },
         config: { duration: 700 },
         delay: 2800,
         loop: !0,
       }),
-      B = (e) => {
-        n.handleAction(e, f);
+      A = (e) => {
+        n.handleAction(e, x);
       };
-    return (0, He.jsxs)(q.div, {
-      style: E,
-      className: i(yn.base, s, yn[`state_${d.toLowerCase()}`]),
+    return (0, He.jsxs)(X.div, {
+      style: P,
+      className: i(yn.base, s, yn[`state_${m.toLowerCase()}`]),
       children: [
-        !y &&
+        !N &&
           (0, He.jsx)(jn, {
-            expireTime: _,
-            isLocked: k,
-            isAnotherActive: C,
-            onAction: B,
-            buttonSize: j,
+            expireTime: u,
+            isLocked: R,
+            isAnotherActive: k,
+            onAction: A,
+            buttonSize: y,
           }),
-        y &&
+        N &&
           (0, He.jsx)("div", {
             className: yn.completeText,
-            children: (0, He.jsx)(F, {
+            children: (0, He.jsx)(c, {
               text: Nn.readOrEmpty("user_missions.hub.challenge_missions.header.complete"),
               binding: { completeIcon: (0, He.jsx)("div", { className: yn.completeIcon }) },
             }),
@@ -1723,19 +1723,19 @@ var yn = {
         (0, He.jsxs)("div", {
           className: yn.controls,
           children: [
-            (0, He.jsx)("div", { className: i(yn.name, R && yn.name__disabled), children: m }),
-            (w || I) &&
-              !k &&
+            (0, He.jsx)("div", { className: i(yn.name, D && yn.name__disabled), children: _ }),
+            (I || C) &&
+              !R &&
               (0, He.jsxs)("div", {
                 className: yn.buttonWrapper,
                 children: [
                   (0, He.jsx)(T, {
-                    onClick: () => B(D),
+                    onClick: () => A(E),
                     className: yn.button,
-                    size: x.buttonSize,
-                    theme: w ? S.secondary : S.primary,
-                    disabled: k,
-                    children: w
+                    size: v.buttonSize,
+                    theme: I ? S.secondary : S.primary,
+                    disabled: R,
+                    children: I
                       ? Nn.readOrEmpty(
                           "user_missions.hub.challenge_missions.header.buttons.surrender",
                         )
@@ -1743,25 +1743,25 @@ var yn = {
                           "user_missions.hub.challenge_missions.header.buttons.activate",
                         ),
                   }),
-                  I && !k && (0, He.jsx)(q.div, { style: M, className: yn.shimmer }),
+                  C && !R && (0, He.jsx)(X.div, { style: B, className: yn.shimmer }),
                 ],
               }),
           ],
         }),
         (0, He.jsxs)("div", {
-          className: i(yn.attemptsSection, R && yn.attemptsSection__disabled),
+          className: i(yn.attemptsSection, D && yn.attemptsSection__disabled),
           children: [
-            (0, He.jsx)(St, { attempts: u, remainingAttempts: h, isFailed: N, isCompleted: y }),
-            !y &&
+            (0, He.jsx)(St, { attempts: h, remainingAttempts: b, isFailed: w, isCompleted: N }),
+            !N &&
               (0, He.jsxs)("div", {
-                className: i(yn.restartSection, R && yn.restartSection__disabled),
+                className: i(yn.restartSection, D && yn.restartSection__disabled),
                 children: [
                   (0, He.jsx)("div", { className: yn.restartDivider }),
                   (0, He.jsx)(cn, {
                     challengeData: e,
-                    hasButton: !k,
-                    isActive: w,
-                    onAction: B,
+                    hasButton: !R,
+                    isActive: I,
+                    onAction: A,
                     className: yn.restartBlock,
                   }),
                 ],
@@ -1775,7 +1775,7 @@ var yn = {
   kn = "ChallengeContent_challengeInfo_cc1bc653",
   Rn = "ChallengeContent_transitionWrapper_2895b14e",
   Sn = "ChallengeContent_cards_ae124483",
-  Tn = me(function () {
+  Tn = O(function () {
     const { model: e } = Ae(),
       { selectedChallengeID: s } = e.root.get(),
       a = e.computes.getChallengeByID(s),
@@ -1817,8 +1817,8 @@ var yn = {
     return (0, He.jsxs)("div", {
       className: Cn,
       children: [
-        (0, He.jsx)(q.div, { style: d, children: (0, He.jsx)(Nt, { isAnimating: l }) }),
-        (0, He.jsx)(q.div, {
+        (0, He.jsx)(X.div, { style: d, children: (0, He.jsx)(Nt, { isAnimating: l }) }),
+        (0, He.jsx)(X.div, {
           className: kn,
           style: {
             transform: _.transform,
@@ -1829,7 +1829,7 @@ var yn = {
             if (!s) return null;
             const a = s,
               n = t && i;
-            return (0, He.jsx)(q.div, {
+            return (0, He.jsx)(X.div, {
               className: Rn,
               style: e,
               children:
@@ -1839,7 +1839,7 @@ var yn = {
                     (0, He.jsx)(In, { selectedChallenge: a, enableAnimation: !0 }),
                     (0, He.jsx)("div", {
                       className: Sn,
-                      children: (0, He.jsx)(M, {
+                      children: (0, He.jsx)(P, {
                         children: (0, He.jsx)(Ua, { selectedChallenge: a, enableAnimation: !0 }),
                       }),
                     }),
@@ -1869,7 +1869,7 @@ function Bn() {
 }
 var An = "ChallengeMissions_f1737fb7",
   $n = "ChallengeMissions_empty_6a671d3b",
-  On = me(function () {
+  On = O(function () {
     const { model: e } = Ae(),
       s = e.enabled.get();
     return (0, He.jsx)("div", {

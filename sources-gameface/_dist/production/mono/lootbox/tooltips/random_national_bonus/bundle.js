@@ -5,14 +5,14 @@ import {
   R as t,
   V as r,
   ft as i,
-  j as o,
-  jt as d,
-  p as l,
+  h as o,
+  j as d,
+  jt as l,
   s as n,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { t as c } from "../../chunks/getRewardImage.js";
-var [p, m] = r()(({ observableModel: s }) => ({ root: s.object() }), d),
+var [m, p] = r()(({ observableModel: s }) => ({ root: s.object() }), l),
   h = "App_fed01ed5",
   j = "App_icon_370a809b",
   g = "App_title_b26a330b",
@@ -20,22 +20,22 @@ var [p, m] = r()(({ observableModel: s }) => ({ root: s.object() }), d),
   b = "App_description_ef18359b",
   u = s(i(), 1),
   _ = a(function () {
-    const { model: s } = m(),
+    const { model: s } = p(),
       a = s.root.get(),
       t = e.resolve("strings");
     return (0, u.jsxs)("div", {
       className: h,
       children: [
-        (0, u.jsx)("div", { className: j, style: { backgroundImage: `url(${c(a, o.S600x450)})` } }),
+        (0, u.jsx)("div", { className: j, style: { backgroundImage: `url(${c(a, d.S600x450)})` } }),
         (0, u.jsx)("div", {
           className: g,
           children: t.readOrEmpty(`tooltips.awardItem.${a.name}.header`),
         }),
-        (0, u.jsx)(l, {
+        (0, u.jsx)(o, {
           classMix: b,
           text: t.readOrEmpty(`tooltips.awardItem.${a.name}.body`),
           binding: {
-            highlighted: (0, u.jsx)(l, {
+            highlighted: (0, u.jsx)(o, {
               classMix: x,
               text: t.readOrEmpty("tooltips.awardItem.highlighted"),
               binding: { xp: a.value },
@@ -46,7 +46,7 @@ var [p, m] = r()(({ observableModel: s }) => ({ root: s.object() }), d),
     });
   });
 t(
-  (0, u.jsx)(p, {
+  (0, u.jsx)(m, {
     children: (0, u.jsx)(n, { children: (0, u.jsx)(n.Decorator, { children: (0, u.jsx)(_, {}) }) }),
   }),
 );

@@ -24738,76 +24738,6 @@ var defaultUnknownStyle = {
         : (0, import_jsx_runtime.jsx)("img", { ...l, ref: t, src: a, width: n, height: r });
     }),
   ),
-  sizes$2 = { small: "small", medium: "medium" },
-  types$2 = { bubble: "bubble", discount: "discount", custom: "custom" },
-  imageSizes$2 = { [sizes$2.small]: 48, [sizes$2.medium]: 60 };
-function getImagePath$1(e, t, n) {
-  return e === types$2.bubble || e === types$2.discount ? `library.notification.${e}_${t}x${t}` : n;
-}
-function Icon$1({ className: e, size: t = sizes$2.small, type: n, imagePath: r }) {
-  const a = imageSizes$2[t];
-  return (0, import_jsx_runtime.jsx)(Image$1, {
-    width: a,
-    height: a,
-    path: getImagePath$1(n, a, r),
-    className: e,
-  });
-}
-var base$11 = "Value_880359b5",
-  base__small$2 = "Value_base__small_533886b2",
-  base__text = "Value_base__text_3c091067",
-  base__medium$2 = "Value_base__medium_c1f8595d",
-  value = "Value_29975a5b",
-  value__small = "Value_value__small_f3df7ae5",
-  value__medium = "Value_value__medium_62a482c",
-  value_module_default = {
-    base: base$11,
-    base__small: base__small$2,
-    base__text: base__text,
-    base__medium: base__medium$2,
-    value: value,
-    value__small: value__small,
-    value__medium: value__medium,
-  },
-  intl$1 = resources.resolve("intl"),
-  DEFAULT_MAX_VALUE = 99;
-function formatNumber(e, t) {
-  return e > t
-    ? (0, import_jsx_runtime.jsx)(FormatString, { path: "common.valuePlus", params: { value: t } })
-    : intl$1.formatNumber("integral", e);
-}
-function getValue(e, t) {
-  return "number" == typeof e ? formatNumber(e, t) : e;
-}
-function Value({
-  classNames: e,
-  size: t = sizes$2.small,
-  value: n,
-  maxValue: r = DEFAULT_MAX_VALUE,
-}) {
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: clsx(
-      value_module_default.base,
-      value_module_default[`base__${t}`],
-      "string" == typeof n && value_module_default.base__text,
-      e?.valueContainer,
-    ),
-    children: (0, import_jsx_runtime.jsx)("div", {
-      className: clsx(value_module_default.value, value_module_default[`value__${t}`], e?.value),
-      children: getValue(n, r),
-    }),
-  });
-}
-var base$10 = "Bubble_df22310d",
-  base__hidden = "Bubble_base__hidden_1700314d",
-  bubble_module_default = { base: base$10, base__hidden: base__hidden },
-  Bubble = {
-    Root: defineStyledComponent("Bubble", bubble_module_default.base, {
-      variants: { hidden: { true: bubble_module_default.base__hidden } },
-    }),
-    Value: Value,
-    Icon: Icon$1,
-  },
   contextInstance$1 = (0, import_react.createContext)(null),
   positions = { left: "left", right: "right", top: "top", bottom: "bottom" },
   positionList = Object.values(positions),
@@ -25081,11 +25011,11 @@ function updatePosition(e, t, n, r, a, o, i, s) {
     applyTransform(n, a.top - l, r, s, i);
   }
 }
-var base$9 = "PopoverTip_163a336f",
+var base$11 = "PopoverTip_163a336f",
   arrow = "PopoverTip_arrow_44c7d6a5",
   glow = "PopoverTip_glow_da3f9be9",
   popover_tip_module_default = {
-    base: base$9,
+    base: base$11,
     "base__flip-left": "PopoverTip_base__flip-left_3cc0dadc",
     "base__flip-right": "PopoverTip_base__flip-right_6a5605b6",
     "base__flip-top": "PopoverTip_base__flip-top_6bcc69e1",
@@ -25210,8 +25140,8 @@ function Popover(e) {
   (Popover.use = usePopover),
   (Popover.Portal = Portal),
   (Popover.Trigger = Trigger));
-var base$8 = "TruncateText_dcb41d92",
-  truncate_text_module_default = { base: base$8 },
+var base$10 = "TruncateText_dcb41d92",
+  truncate_text_module_default = { base: base$10 },
   TruncatedText = (0, import_react.forwardRef)(function (
     { text: e, tooltipParams: t, className: n, ...r },
     a,
@@ -25239,6 +25169,76 @@ var base$8 = "TruncateText_dcb41d92",
       })
     );
   }),
+  sizes$2 = { small: "small", medium: "medium" },
+  types$2 = { bubble: "bubble", discount: "discount", custom: "custom" },
+  imageSizes$2 = { [sizes$2.small]: 48, [sizes$2.medium]: 60 };
+function getImagePath$1(e, t, n) {
+  return e === types$2.bubble || e === types$2.discount ? `library.notification.${e}_${t}x${t}` : n;
+}
+function Icon$1({ className: e, size: t = sizes$2.small, type: n, imagePath: r }) {
+  const a = imageSizes$2[t];
+  return (0, import_jsx_runtime.jsx)(Image$1, {
+    width: a,
+    height: a,
+    path: getImagePath$1(n, a, r),
+    className: e,
+  });
+}
+var base$9 = "Value_880359b5",
+  base__small$2 = "Value_base__small_533886b2",
+  base__text = "Value_base__text_3c091067",
+  base__medium$2 = "Value_base__medium_c1f8595d",
+  value = "Value_29975a5b",
+  value__small = "Value_value__small_f3df7ae5",
+  value__medium = "Value_value__medium_62a482c",
+  value_module_default = {
+    base: base$9,
+    base__small: base__small$2,
+    base__text: base__text,
+    base__medium: base__medium$2,
+    value: value,
+    value__small: value__small,
+    value__medium: value__medium,
+  },
+  intl$1 = resources.resolve("intl"),
+  DEFAULT_MAX_VALUE = 99;
+function formatNumber(e, t) {
+  return e > t
+    ? (0, import_jsx_runtime.jsx)(FormatString, { path: "common.valuePlus", params: { value: t } })
+    : intl$1.formatNumber("integral", e);
+}
+function getValue(e, t) {
+  return "number" == typeof e ? formatNumber(e, t) : e;
+}
+function Value({
+  classNames: e,
+  size: t = sizes$2.small,
+  value: n,
+  maxValue: r = DEFAULT_MAX_VALUE,
+}) {
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: clsx(
+      value_module_default.base,
+      value_module_default[`base__${t}`],
+      "string" == typeof n && value_module_default.base__text,
+      e?.valueContainer,
+    ),
+    children: (0, import_jsx_runtime.jsx)("div", {
+      className: clsx(value_module_default.value, value_module_default[`value__${t}`], e?.value),
+      children: getValue(n, r),
+    }),
+  });
+}
+var base$8 = "Bubble_df22310d",
+  base__hidden = "Bubble_base__hidden_1700314d",
+  bubble_module_default = { base: base$8, base__hidden: base__hidden },
+  Bubble = {
+    Root: defineStyledComponent("Bubble", bubble_module_default.base, {
+      variants: { hidden: { true: bubble_module_default.base__hidden } },
+    }),
+    Value: Value,
+    Icon: Icon$1,
+  },
   themes = { primary: "primary", custom: "custom" },
   sizes$1 = { small: "small", medium: "medium" },
   imageSizes$1 = { [sizes$1.small]: 16, [sizes$1.medium]: 20 },
@@ -26526,7 +26526,7 @@ export {
   computedFn as X,
   JSXBuilder as Y,
   initializeModelWithContext as Z,
-  Bubble as _,
+  TruncatedText as _,
   map as _t,
   roles as a,
   useCallbackOnEsc as at,
@@ -26539,9 +26539,9 @@ export {
   useRem as et,
   RadioButton as f,
   createLayoutReadyInEffect$1 as ft,
-  usePopover as g,
+  types$2 as g,
   makeObservable as gt,
-  Popover as h,
+  sizes$2 as h,
   getDependencyTree as ht,
   List as i,
   easings as it,
@@ -26551,7 +26551,7 @@ export {
   clsx as kt,
   CardsWrapper as l,
   require_jsx_runtime as lt,
-  TruncatedText as m,
+  Bubble as m,
   configure as mt,
   Tooltip as n,
   animated as nt,
@@ -26568,13 +26568,13 @@ export {
   useSkipFrame as tt,
   borderTypes as u,
   breakpointsByType as ut,
-  sizes$2 as v,
+  Popover as v,
   mapExists as vt,
   Area as w,
   resize$1 as wt,
   getRewardValueType as x,
   noop$3 as xt,
-  types$2 as y,
+  usePopover as y,
   keyCodes as yt,
   FormatText as z,
 };

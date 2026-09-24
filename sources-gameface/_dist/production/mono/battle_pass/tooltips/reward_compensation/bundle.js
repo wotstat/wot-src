@@ -4,15 +4,15 @@ import {
   G as s,
   J as r,
   Jn as n,
-  Ot as i,
+  Jt as i,
   Pr as t,
-  Ur as o,
-  X as l,
-  Xn as d,
-  _n as c,
-  ci as _,
-  ei as f,
-  en as m,
+  Tt as o,
+  Ur as l,
+  X as d,
+  Xn as c,
+  _n as _,
+  ci as f,
+  ei as m,
   fn as p,
   gn as b,
   n as w,
@@ -25,7 +25,7 @@ import { h } from "../../chunks/vendor.js";
 import { a as x } from "../../chunks/utils.js";
 import { t as I } from "../../chunks/tank_name.js";
 j();
-var [R, N] = c()(({ observableModel: a }) => {
+var [R, N] = _()(({ observableModel: a }) => {
     const s = {
         root: a.object(),
         initialRewardsArray: a.array("initialReward"),
@@ -34,14 +34,14 @@ var [R, N] = c()(({ observableModel: a }) => {
       r = b((a = 0) => t(s.initialRewardsArray.get().items, a), { equals: e }),
       n = b((a = 0) => t(s.compensationRewardsArray.get().items, a), { equals: e });
     return { ...s, computes: { initialReward: r, compensationReward: n } };
-  }, o),
+  }, l),
   k = "Arrow_c612004f",
   g = "Arrow_icon_ca620234",
-  y = d();
+  y = c();
 function D({ className: a }) {
-  return (0, y.jsx)("div", { className: _(k, a), children: (0, y.jsx)("div", { className: g }) });
+  return (0, y.jsx)("div", { className: f(k, a), children: (0, y.jsx)("div", { className: g }) });
 }
-var O = {
+var A = {
     base: "Divider_d6b67ddd",
     base__top: "Divider_base__top_6e207943",
     base__bottom: "Divider_base__bottom_6fbb70c2",
@@ -54,10 +54,10 @@ var O = {
     fadeOut: "Divider_fadeOut_76b1f722",
     fadeIn: "Divider_fadeIn_76b1f722",
   },
-  A = "top",
+  O = "top",
   C = "bottom";
 function E({ position: a }) {
-  return (0, y.jsx)("div", { className: _(O.base, O[`base__${a}`]) });
+  return (0, y.jsx)("div", { className: f(A.base, A[`base__${a}`]) });
 }
 var S = {
     base: "RewardInfo_16031c66",
@@ -78,17 +78,17 @@ var S = {
   U = (a) => {
     const { name: e, value: s, userName: n } = a;
     if (
-      e === l.Vehicles &&
+      e === d.Vehicles &&
       ((a) => ["vehicleName", "vehicleType", "vehicleLvl", "isElite"].every((e) => e in a))(a)
     ) {
       const e = { base: S.label, name: S.tankName, level: S.tankLevel };
-      return (0, y.jsx)(I, { ...a, vehicleTypeIconSize: i.x24x24, classNames: e });
+      return (0, y.jsx)(I, { ...a, vehicleTypeIconSize: o.x24x24, classNames: e });
     }
-    if (e === l.Customizations) return (0, y.jsx)("span", { className: S.label, children: n });
-    const t = u(s, r(e));
+    if (e === d.Customizations) return (0, y.jsx)("span", { className: S.label, children: n });
+    const i = u(s, r(e));
     return (0, y.jsx)("span", {
-      className: _(S.label, S[`label__${e}`]),
-      children: "string" == typeof t ? t : s,
+      className: f(S.label, S[`label__${e}`]),
+      children: "string" == typeof i ? i : s,
     });
   };
 function L({ reward: a }) {
@@ -103,7 +103,7 @@ function F({ initialReward: a, compensationReward: e }) {
     className: W,
     children: [
       (0, y.jsx)("div", { className: $ }),
-      (0, y.jsx)(E, { position: A }),
+      (0, y.jsx)(E, { position: O }),
       (0, y.jsx)(L, { reward: a }),
       (0, y.jsx)(D, { className: q }),
       (0, y.jsx)(L, { reward: e }),
@@ -111,21 +111,21 @@ function F({ initialReward: a, compensationReward: e }) {
     ],
   });
 }
-var P = "Footer_9d3d3a12",
-  z = "Footer_compensation_b57b9f53",
-  J = v.resolve("images"),
-  T = v.resolve("strings");
+var J = "Footer_9d3d3a12",
+  P = "Footer_compensation_b57b9f53",
+  T = v.resolve("images"),
+  z = v.resolve("strings");
 function X() {
   const a = n(
-    J.readOrEmpty("battlePass.tooltips.compensation"),
-    J.readOrEmpty("battlePass.tooltips.compensation_large"),
+    T.readOrEmpty("battlePass.tooltips.compensation"),
+    T.readOrEmpty("battlePass.tooltips.compensation_large"),
   );
   return (0, y.jsxs)("div", {
-    className: P,
+    className: J,
     children: [
-      (0, y.jsx)("div", { className: z, style: { backgroundImage: `url(${a})` } }),
+      (0, y.jsx)("div", { className: P, style: { backgroundImage: `url(${a})` } }),
       (0, y.jsx)("span", {
-        children: T.readOrEmpty("battle_pass.tooltips.rewardCompensation.footer"),
+        children: z.readOrEmpty("battle_pass.tooltips.rewardCompensation.footer"),
       }),
     ],
   });
@@ -135,8 +135,8 @@ var B = "Header_title_487f6f3f",
 function H({ rewardName: a }) {
   return (0, y.jsxs)(y.Fragment, {
     children: [
-      (0, y.jsx)("span", { className: B, children: f(a) }),
-      (0, y.jsx)(m, {
+      (0, y.jsx)("span", { className: B, children: m(a) }),
+      (0, y.jsx)(i, {
         text: G.readOrEmpty(`battle_pass.tooltips.rewardCompensation.description.${a}`),
       }),
     ],

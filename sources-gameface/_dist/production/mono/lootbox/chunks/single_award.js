@@ -16,10 +16,10 @@ import {
   Z as _,
   a as f,
   ft as b,
-  j as g,
-  lt as x,
-  m as y,
-  p as w,
+  g,
+  h as x,
+  j as y,
+  lt as w,
   tt as h,
   vt as v,
   wt as N,
@@ -277,7 +277,7 @@ function De({ children: e, text: a, className: s }) {
     return (0, Pe.jsxs)("div", {
       className: p(ze.base, ze[`base__${e}`], t),
       children: [
-        (0, Pe.jsx)("div", { className: ze.value, children: (0, Pe.jsx)(w, { text: S(s) }) }),
+        (0, Pe.jsx)("div", { className: ze.value, children: (0, Pe.jsx)(x, { text: S(s) }) }),
         a && (0, Pe.jsx)("span", { className: ze.plural, children: a }),
       ],
     });
@@ -336,7 +336,7 @@ var Le = {
                 contentId: Number(e.tooltipContentId),
                 tooltipId: e.tooltipId,
                 children: [
-                  (0, Pe.jsx)(De.Reward, { image: E(e, g.Big) }),
+                  (0, Pe.jsx)(De.Reward, { image: E(e, y.Big) }),
                   e.name === d.Vehicles &&
                     (0, Pe.jsx)(De.VehicleTitle, {
                       vehicleName: e.vehicleShortName,
@@ -388,7 +388,7 @@ function Qe({ children: e, className: a }) {
       children: (0, Pe.jsx)("div", {
         className: Xe.description,
         style: { fontSize: a?.descriptionFontSize },
-        children: (0, Pe.jsx)(w, { text: S(r) }),
+        children: (0, Pe.jsx)(x, { text: S(r) }),
       }),
     });
   }));
@@ -440,7 +440,7 @@ function ra({ children: e, className: a, ...s }) {
       W(s, () => s.current?.play()),
       (0, Pe.jsx)("div", {
         className: p(Ye, a),
-        children: (0, Pe.jsx)(y, { ref: s, className: Ze, src: e, loop: !0 }),
+        children: (0, Pe.jsx)(g, { ref: s, className: Ze, src: e, loop: !0 }),
       })
     );
   }),
@@ -479,7 +479,7 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "36rem",
       nameHeight: "28rem",
       compensationGlowSize: "780rem",
-      imageSize: g.S600x450,
+      imageSize: y.S600x450,
       glowSize: "780rem",
       rareVideoSize: "512rem",
     },
@@ -491,7 +491,7 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "30rem",
       nameHeight: "24rem",
       compensationGlowSize: "520rem",
-      imageSize: g.S600x450,
+      imageSize: y.S600x450,
       glowSize: "520rem",
       rareVideoSize: "512rem",
     },
@@ -503,13 +503,13 @@ var ia = { opacity: 0, transform: "scale(0.96)", filter: "brightness(1.5)", imme
       countHeight: "26rem",
       nameHeight: "22rem",
       compensationGlowSize: "386rem",
-      imageSize: g.S600x450,
+      imageSize: y.S600x450,
       glowSize: "386rem",
       rareVideoSize: "440rem",
     },
   };
 function xa(e = !1) {
-  const a = x(
+  const a = w(
     { rare: ga.large, regular: ga.medium },
     { large: { rare: ga.extraLarge, regular: ga.large } },
   );
@@ -577,7 +577,7 @@ var ya = "Compensation_db29c4dc",
               size: { width: v.compensationGlowSize, height: v.compensationGlowSize },
             }),
           }),
-          (0, Pe.jsx)(y, {
+          (0, Pe.jsx)(g, {
             ref: c,
             className: ha,
             style: { width: v.compensationGlowSize, height: v.compensationGlowSize },
@@ -589,7 +589,7 @@ var ya = "Compensation_db29c4dc",
           (0, Pe.jsx)(_.div, {
             style: { ...b, visibility: b.visibility },
             children: (0, Pe.jsx)(ie, {
-              icon: E(e, g.S600x450, e.isCompensation),
+              icon: E(e, y.S600x450, e.isCompensation),
               sizes: { height: v.rewardHeight, width: v.rewardWidth },
             }),
           }),

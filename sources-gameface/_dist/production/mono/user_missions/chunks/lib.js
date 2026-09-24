@@ -22248,6 +22248,19 @@ async function runView(
       ),
     r && (initExternalPaddings$1(t), enableFullScreenModeSupported$1()));
 }
+function ColorsProvider(e) {
+  return (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: e.children });
+}
+function UIProvider(e) {
+  return (0, import_jsx_runtime.jsx)(ColorsProvider, {
+    children: (0, import_jsx_runtime.jsx)(SoundsProvider, {
+      overrides: e.soundsOverrides,
+      severity: e.soundSeverity,
+      silent: e.soundsOff,
+      children: e.children,
+    }),
+  });
+}
 if (!import_react.useState) throw new Error("mobx-react-lite requires React with Hooks support");
 if (!makeObservable)
   throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
@@ -22588,7 +22601,317 @@ function useObserver(e, t) {
 function useStaticRendering(e) {
   enableStaticRendering(e);
 }
-var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
+var TabsContext = (0, import_react.createContext)(null);
+function useTabsContext() {
+  const e = (0, import_react.useContext)(TabsContext);
+  return (assert$1(null !== e, "You can use tabs hooks only with Tabs component"), e);
+}
+function Content({ children: e, keyOverride: t }) {
+  const n = useTabsContext();
+  return (0, import_jsx_runtime.jsx)(
+    import_react.Fragment,
+    { children: e(n.active) },
+    t ?? n.active,
+  );
+}
+var falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
+  cx$8 = clsx,
+  cva = (e, t) => (n) => {
+    var r;
+    if (null == (null == t ? void 0 : t.variants))
+      return cx$8(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
+    const { variants: a, defaultVariants: o } = t,
+      i = Object.keys(a).map((e) => {
+        const t = null == n ? void 0 : n[e],
+          r = null == o ? void 0 : o[e];
+        if (null === t) return null;
+        const i = falsyToString(t) || falsyToString(r);
+        return a[e][i];
+      }),
+      s =
+        n &&
+        Object.entries(n).reduce((e, t) => {
+          let [n, r] = t;
+          return (void 0 === r || (e[n] = r), e);
+        }, {});
+    return cx$8(
+      e,
+      i,
+      null == t || null === (r = t.compoundVariants) || void 0 === r
+        ? void 0
+        : r.reduce((e, t) => {
+            let { class: n, className: r, ...a } = t;
+            return Object.entries(a).every((e) => {
+              let [t, n] = e;
+              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
+            })
+              ? [...e, n, r]
+              : e;
+          }, []),
+      null == n ? void 0 : n.class,
+      null == n ? void 0 : n.className,
+    );
+  };
+function defineStyledComponent(e, t, n) {
+  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
+    a = r ? Object.keys(r) : [];
+  if ("object" == typeof t) {
+    const n = t,
+      r = cva(n.className, n.cva),
+      o = n.element,
+      i = (0, import_react.forwardRef)(function (e, t) {
+        return (0, import_react.createElement)(o, {
+          ...("function" == typeof o ? e : cleanProps(a, e)),
+          ref: t,
+          className: r(e),
+        });
+      });
+    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
+  }
+  const o = cva(t, n),
+    i = (0, import_react.forwardRef)(function (t, n) {
+      return (0, import_jsx_runtime.jsx)("div", {
+        "data-name": e,
+        ...cleanProps(a, t),
+        ref: n,
+        className: o(t),
+      });
+    });
+  return ((i.displayName = e), n && (i.cva = n), i);
+}
+function cleanProps(e, t) {
+  if (0 === e.length) return t;
+  const n = { ...t };
+  for (const r of e) delete n[r];
+  return n;
+}
+var themes$1 = { primary: "primary", custom: "custom" },
+  sizes$7 = { large: "large", medium: "medium", small: "small" },
+  background$4 = "HorizontalTabs_background_5e3af03e",
+  mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
+  base$32 = "HorizontalTabs_69e3c6f3",
+  outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
+  mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
+  content$6 = "HorizontalTabs_content_1ae3c4bd",
+  horizontal_tabs_module_default = {
+    background: background$4,
+    mainBorderImage: mainBorderImage,
+    base: base$32,
+    "base__size-small": "HorizontalTabs_base__size-small_75fae891",
+    "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
+    "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
+    outerBorder: outerBorder,
+    "base__theme-primary": "HorizontalTabs_base__theme-primary_5e3af03e",
+    mainBorder: mainBorder,
+    content: content$6,
+  },
+  Base$10 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
+    variants: {
+      size: {
+        [sizes$7.large]: horizontal_tabs_module_default["base__size-large"],
+        [sizes$7.medium]: horizontal_tabs_module_default["base__size-medium"],
+        [sizes$7.small]: horizontal_tabs_module_default["base__size-small"],
+      },
+      theme: {
+        [themes$1.primary]: horizontal_tabs_module_default["base__theme-primary"],
+        [themes$1.custom]: void 0,
+      },
+    },
+  }),
+  Switcher = (0, import_react.forwardRef)(function ({ children: e, classNames: t, ...n }, r) {
+    const a = useTabsContext();
+    return (0, import_jsx_runtime.jsx)(Base$10, {
+      ...n,
+      ref: r,
+      className: clsx(n.className, t?.base),
+      size: a.size,
+      theme: a.theme,
+      children: (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(horizontal_tabs_module_default.outerBorder, t?.outerBorder),
+        children: (0, import_jsx_runtime.jsxs)("div", {
+          className: clsx(horizontal_tabs_module_default.mainBorder, t?.mainBorder),
+          children: [
+            (0, import_jsx_runtime.jsx)("div", {
+              className: clsx(horizontal_tabs_module_default.mainBorderImage, t?.mainBorderImage),
+            }),
+            (0, import_jsx_runtime.jsx)("div", {
+              className: clsx(horizontal_tabs_module_default.content, t?.content),
+              children: e,
+            }),
+          ],
+        }),
+      }),
+    });
+  }),
+  border$2 = "Tab_border_d4435cf2",
+  background$3 = "Tab_background_763456",
+  backgroundPattern$1 = "Tab_backgroundPattern_32ac7949",
+  innerBorderImage = "Tab_innerBorderImage_77cde9e",
+  base$31 = "Tab_806d6908",
+  base__active$2 = "Tab_base__active_a872a63f",
+  content$5 = "Tab_content_4eefcae7",
+  base__inactive = "Tab_base__inactive_0",
+  tab_module_default = {
+    border: border$2,
+    background: background$3,
+    backgroundPattern: backgroundPattern$1,
+    innerBorderImage: innerBorderImage,
+    base: base$31,
+    "base__theme-primary": "Tab_base__theme-primary_209414fd",
+    base__active: base__active$2,
+    content: content$5,
+    "base__size-small": "Tab_base__size-small_0",
+    "base__size-medium": "Tab_base__size-medium_0",
+    "base__size-large": "Tab_base__size-large_0",
+    base__inactive: base__inactive,
+  },
+  Base$9 = defineStyledComponent("Tab", tab_module_default.base, {
+    variants: {
+      size: {
+        [sizes$7.large]: tab_module_default["base__size-large"],
+        [sizes$7.medium]: tab_module_default["base__size-medium"],
+        [sizes$7.small]: tab_module_default["base__size-small"],
+      },
+      theme: {
+        [themes$1.primary]: tab_module_default["base__theme-primary"],
+        [themes$1.custom]: void 0,
+      },
+      state: {
+        active: tab_module_default.base__active,
+        inactive: tab_module_default.base__inactive,
+      },
+    },
+    defaultVariants: { size: sizes$7.medium, theme: themes$1.primary },
+  }),
+  HeadlessTab = (0, import_react.forwardRef)(function (
+    { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
+    u,
+  ) {
+    const l = useSounds();
+    return (0, import_jsx_runtime.jsx)(Base$9, {
+      ...s,
+      ref: u,
+      theme: e,
+      size: t,
+      state: r === n ? "active" : "inactive",
+      onMouseEnter: function (e) {
+        (r !== n && l.play("mouse-enter", { target: Base$9.displayName, original: e }), i?.(e));
+      },
+      onClick: function (e) {
+        (r !== n && l.play("click", { target: Base$9.displayName, original: e }), o?.(e));
+      },
+      children: a,
+    });
+  });
+function Tab({ tabId: e, classNames: t, className: n, children: r, ...a }) {
+  const o = useTabsContext();
+  return (0, import_jsx_runtime.jsxs)(HeadlessTab, {
+    "data-test-id": `${e}Tab`,
+    ...a,
+    tabId: e,
+    theme: o.theme,
+    size: o.size,
+    active: o.active,
+    className: clsx(t?.base, n),
+    onClick: (t) => {
+      (a.onClick?.(t), o.change(e));
+    },
+    children: [
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.background, t?.background),
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.backgroundPattern, t?.backgroundPattern),
+      }),
+      (0, import_jsx_runtime.jsx)("div", { className: clsx(tab_module_default.border, t?.border) }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.innerBorderImage, t?.borderImage),
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        className: clsx(tab_module_default.content, t?.content),
+        children: r,
+      }),
+    ],
+  });
+}
+function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) {
+  const [o, i] = (0, import_react.useState)(e),
+    s = (0, import_react.useRef)(e),
+    u = (0, import_react.useMemo)(() => ({ active: o, theme: t, size: n, change: i }), [o, n, t]);
+  return (
+    (0, import_react.useLayoutEffect)(() => {
+      i(e);
+    }, [e]),
+    (0, import_react.useEffect)(() => {
+      s.current !== o && ((s.current = o), a?.(o));
+    }, [o, a]),
+    (0, import_jsx_runtime.jsx)(TabsContext.Provider, { value: u, children: r })
+  );
+}
+((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
+var scriptRel = (function () {
+    const e = "undefined" != typeof document && document.createElement("link").relList;
+    return e && e.supports && e.supports("modulepreload") ? "modulepreload" : "preload";
+  })(),
+  assetsURL = function (e, t) {
+    return new URL(e, t).href;
+  },
+  seen = {},
+  __vitePreload = function (e, t, n) {
+    let r = Promise.resolve();
+    if (t && t.length > 0) {
+      const e = document.getElementsByTagName("link"),
+        o = document.querySelector("meta[property=csp-nonce]"),
+        i = o?.nonce || o?.getAttribute("nonce");
+      ((a = t.map((t) => {
+        if ((t = assetsURL(t, n)) in seen) return;
+        seen[t] = !0;
+        const r = t.endsWith(".css"),
+          a = r ? '[rel="stylesheet"]' : "";
+        if (n)
+          for (let n = e.length - 1; n >= 0; n--) {
+            const a = e[n];
+            if (a.href === t && (!r || "stylesheet" === a.rel)) return;
+          }
+        else if (document.querySelector(`link[href="${t}"]${a}`)) return;
+        const o = document.createElement("link");
+        return (
+          (o.rel = r ? "stylesheet" : scriptRel),
+          r || (o.as = "script"),
+          (o.crossOrigin = ""),
+          (o.href = t),
+          i && o.setAttribute("nonce", i),
+          document.head.appendChild(o),
+          r
+            ? new Promise((e, n) => {
+                (o.addEventListener("load", e),
+                  o.addEventListener("error", () =>
+                    n(new Error(`Unable to preload CSS for ${t}`)),
+                  ));
+              })
+            : void 0
+        );
+      })),
+        (r = Promise.all(
+          a.map((e) =>
+            Promise.resolve(e).then(
+              (e) => ({ status: "fulfilled", value: e }),
+              (e) => ({ status: "rejected", reason: e }),
+            ),
+          ),
+        )));
+    }
+    var a;
+    function o(e) {
+      const t = new Event("vite:preloadError", { cancelable: !0 });
+      if (((t.payload = e), window.dispatchEvent(t), !t.defaultPrevented)) throw e;
+    }
+    return r.then((t) => {
+      for (const e of t || []) "rejected" === e.status && o(e.reason);
+      return e().catch(o);
+    });
+  },
+  require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
   require_jsx_dev_runtime = __commonJSMin((e, t) => {
     t.exports = require_react_jsx_dev_runtime_production();
   }),
@@ -22612,7 +22935,7 @@ var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
     children: () => children,
     createComponent: () => createComponent,
     createComputed: () => createComputed,
-    createContext: () => createContext$6,
+    createContext: () => createContext$5,
     createDeferred: () => createDeferred,
     createEffect: () => createEffect,
     createMemo: () => createMemo,
@@ -22646,7 +22969,7 @@ var require_react_jsx_dev_runtime_production = __commonJSMin((e) => {}),
     splitProps: () => splitProps,
     startTransition: () => startTransition,
     untrack: () => untrack,
-    useContext: () => useContext$6,
+    useContext: () => useContext$5,
     useTransition: () => useTransition,
   }),
   taskIdCounter = 1,
@@ -22837,7 +23160,7 @@ function createRenderEffect(e, t, n) {
 function createEffect(e, t, n) {
   runEffects = runUserEffects;
   const r = createComputation(e, t, !1, STALE),
-    a = SuspenseContext && useContext$6(SuspenseContext);
+    a = SuspenseContext && useContext$5(SuspenseContext);
   (a && (r.suspense = a),
     (n && n.render) || (r.user = !0),
     Effects ? Effects.push(r) : updateComputation(r));
@@ -22852,7 +23175,7 @@ function createReaction(e, t) {
       !1,
       0,
     ),
-    a = SuspenseContext && useContext$6(SuspenseContext);
+    a = SuspenseContext && useContext$5(SuspenseContext);
   return (
     a && (r.suspense = a),
     (r.user = !0),
@@ -22919,7 +23242,7 @@ function createResource(e, t, n) {
     }, !1);
   }
   function w() {
-    const e = SuspenseContext && useContext$6(SuspenseContext),
+    const e = SuspenseContext && useContext$5(SuspenseContext),
       t = m(),
       n = _();
     if (void 0 !== n && !i) throw n;
@@ -23162,11 +23485,11 @@ function useTransition() {
 function resumeEffects(e) {
   (Effects.push.apply(Effects, e), (e.length = 0));
 }
-function createContext$6(e, t) {
+function createContext$5(e, t) {
   const n = Symbol("context");
   return { id: n, Provider: createProvider(n), defaultValue: e };
 }
-function useContext$6(e) {
+function useContext$5(e) {
   let t;
   return Owner && Owner.context && void 0 !== (t = Owner.context[e.id]) ? t : e.defaultValue;
 }
@@ -23182,7 +23505,7 @@ function children(e) {
   );
 }
 function getSuspenseContext() {
-  return SuspenseContext || (SuspenseContext = createContext$6());
+  return SuspenseContext || (SuspenseContext = createContext$5());
 }
 function enableExternalSource(e, t = (e) => e()) {
   if (ExternalSourceConfig) {
@@ -24022,11 +24345,11 @@ function ErrorBoundary(e) {
 }
 var suspenseListEquals = (e, t) =>
     e.showContent === t.showContent && e.showFallback === t.showFallback,
-  SuspenseListContext = createContext$6();
+  SuspenseListContext = createContext$5();
 function SuspenseList(e) {
   let t,
     [n, r] = createSignal(() => ({ inFallback: !1 }));
-  const a = useContext$6(SuspenseListContext),
+  const a = useContext$5(SuspenseListContext),
     [o, i] = createSignal([]);
   a && (t = a.register(createMemo(() => n()().inFallback)));
   const s = createMemo(
@@ -24117,7 +24440,7 @@ function Suspense(e) {
         ));
     }
   }
-  const f = useContext$6(SuspenseListContext);
+  const f = useContext$5(SuspenseListContext);
   let p;
   return (
     f && (t = f.register(c.inFallback)),
@@ -25194,7 +25517,7 @@ function ssrSpread(e, t, n) {}
 var isServer = !1,
   isDev = !1,
   SVG_NAMESPACE = "http://www.w3.org/2000/svg";
-function createElement$1(e, t = !1, n = void 0) {
+function createElement(e, t = !1, n = void 0) {
   return t ? document.createElementNS(SVG_NAMESPACE, e) : document.createElement(e, { is: n });
 }
 var hydrate = (...e) => (enableHydration(), hydrate$1(...e));
@@ -25215,7 +25538,7 @@ function Portal(e) {
             n = () => t(!0);
           (createRoot((t) => insert(i, () => (e() ? t() : a()), null)), onCleanup(n));
         } else {
-          const r = createElement$1(e.isSVG ? "g" : "div", e.isSVG),
+          const r = createElement(e.isSVG ? "g" : "div", e.isSVG),
             o = t && r.attachShadow ? r.attachShadow({ mode: "open" }) : r;
           (Object.defineProperty(r, "_$host", { get: () => n.parentNode, configurable: !0 }),
             insert(o, a),
@@ -25241,7 +25564,7 @@ function createDynamic(e, t) {
         const n = SVGElements.has(e),
           r = sharedConfig.context
             ? getNextElement()
-            : createElement$1(
+            : createElement(
                 e,
                 n,
                 untrack(() => t.is),
@@ -25862,12 +26185,12 @@ var html = createHTML({
     SVGNamespace: SVGNamespace,
   }),
   jsx_exports = __exportAll({
-    Fragment: () => Fragment$3,
+    Fragment: () => Fragment$2,
     jsx: () => jsx,
     jsxDEV: () => jsx,
     jsxs: () => jsx,
   });
-function Fragment$3(e) {
+function Fragment$2(e) {
   return e.children;
 }
 function jsx(e, t) {
@@ -26554,69 +26877,7 @@ function _usingCtx() {
     },
   };
 }
-var scriptRel = (function () {
-    const e = "undefined" != typeof document && document.createElement("link").relList;
-    return e && e.supports && e.supports("modulepreload") ? "modulepreload" : "preload";
-  })(),
-  assetsURL = function (e, t) {
-    return new URL(e, t).href;
-  },
-  seen = {},
-  __vitePreload = function (e, t, n) {
-    let r = Promise.resolve();
-    if (t && t.length > 0) {
-      const e = document.getElementsByTagName("link"),
-        o = document.querySelector("meta[property=csp-nonce]"),
-        i = o?.nonce || o?.getAttribute("nonce");
-      ((a = t.map((t) => {
-        if ((t = assetsURL(t, n)) in seen) return;
-        seen[t] = !0;
-        const r = t.endsWith(".css"),
-          a = r ? '[rel="stylesheet"]' : "";
-        if (n)
-          for (let n = e.length - 1; n >= 0; n--) {
-            const a = e[n];
-            if (a.href === t && (!r || "stylesheet" === a.rel)) return;
-          }
-        else if (document.querySelector(`link[href="${t}"]${a}`)) return;
-        const o = document.createElement("link");
-        return (
-          (o.rel = r ? "stylesheet" : scriptRel),
-          r || (o.as = "script"),
-          (o.crossOrigin = ""),
-          (o.href = t),
-          i && o.setAttribute("nonce", i),
-          document.head.appendChild(o),
-          r
-            ? new Promise((e, n) => {
-                (o.addEventListener("load", e),
-                  o.addEventListener("error", () =>
-                    n(new Error(`Unable to preload CSS for ${t}`)),
-                  ));
-              })
-            : void 0
-        );
-      })),
-        (r = Promise.all(
-          a.map((e) =>
-            Promise.resolve(e).then(
-              (e) => ({ status: "fulfilled", value: e }),
-              (e) => ({ status: "rejected", reason: e }),
-            ),
-          ),
-        )));
-    }
-    var a;
-    function o(e) {
-      const t = new Event("vite:preloadError", { cancelable: !0 });
-      if (((t.payload = e), window.dispatchEvent(t), !t.defaultPrevented)) throw e;
-    }
-    return r.then((t) => {
-      for (const e of t || []) "rejected" === e.status && o(e.reason);
-      return e().catch(o);
-    });
-  },
-  injected = !1,
+var injected = !1,
   plugins = new Map(),
   loading = new Map();
 function pluginFunc() {
@@ -26678,19 +26939,6 @@ function injectGFPlugins() {
         wg: { mediaWrapper: media_wrapper_exports },
       }),
       (injected = !0));
-}
-function ColorsProvider(e) {
-  return (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: e.children });
-}
-function UIProvider(e) {
-  return (0, import_jsx_runtime.jsx)(ColorsProvider, {
-    children: (0, import_jsx_runtime.jsx)(SoundsProvider, {
-      overrides: e.soundsOverrides,
-      severity: e.soundSeverity,
-      silent: e.soundsOff,
-      children: e.children,
-    }),
-  });
 }
 var NodeTypes = { Text: 1, Tag: 2, Var: 3 };
 function parseArguments(e) {
@@ -26758,12 +27006,12 @@ function parse(e, t) {
 }
 var COLORS =
     "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$32 = "FormatText_db904f12",
+  base$30 = "FormatText_db904f12",
   base__fullSize = "FormatText_base__fullSize_a514958e",
   nowrap = "FormatText_nowrap_ff69eca3",
   format_text_module_default = {
     COLORS: COLORS,
-    base: base$32,
+    base: base$30,
     base__fullSize: base__fullSize,
     nowrap: nowrap,
   },
@@ -27198,28 +27446,28 @@ var require_classnames = __commonJSMin((e, t) => {
     })();
   }),
   import_classnames = __toESM(require_classnames()),
-  base$31 = "CloseButton_7488a1b8",
+  base$29 = "CloseButton_7488a1b8",
   base__medium$2 = "CloseButton_base__medium_97d04067",
   base__small$3 = "CloseButton_base__small_c1b29bae",
   base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
   base__x96x96$1 = "CloseButton_base__x96x96_8157b84d",
   base__x32x32 = "CloseButton_base__x32x32_6466ea31",
   close_button_module_default = {
-    base: base$31,
+    base: base$29,
     base__medium: base__medium$2,
     base__small: base__small$3,
     base__extraSmall: base__extraSmall,
     base__x96x96: base__x96x96$1,
     base__x32x32: base__x32x32,
   },
-  sizes$7 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  sizes$6 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
   upscaleImageSizes = {
-    [sizes$7.medium]: "x96x96",
-    [sizes$7.small]: sizes$7.medium,
-    [sizes$7.extraSmall]: "x32x32",
+    [sizes$6.medium]: "x96x96",
+    [sizes$6.small]: sizes$6.medium,
+    [sizes$6.extraSmall]: "x32x32",
   };
 function CloseButton({
-  size: e = sizes$7.medium,
+  size: e = sizes$6.medium,
   hoverSound: t = sounds$1.highlight,
   clickSound: n = sounds$1.click,
   className: r,
@@ -27240,7 +27488,7 @@ function CloseButton({
     },
   });
 }
-CloseButton.size = sizes$7;
+CloseButton.size = sizes$6;
 var Context$2 = (0, import_react.createContext)(void 0);
 function useHorizontalScroll() {
   const e = (0, import_react.useContext)(Context$2);
@@ -27443,23 +27691,23 @@ function useScrollBounding(e, [t, n] = IGNORE_DEFAULT) {
   );
 }
 var scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  background$4 = "Thumb_background_b893084a",
-  border$2 = "Thumb_border_5749138b",
+  background$2 = "Thumb_background_b893084a",
+  border$1 = "Thumb_border_5749138b",
   innerBorder = "Thumb_innerBorder_42bafd18",
   icon$7 = "Thumb_icon_dca8bf26",
-  base$30 = "Thumb_6ff3e706",
+  base$28 = "Thumb_6ff3e706",
   base__vertical$1 = "Thumb_base__vertical_55a67c91",
   base__horizontal = "Thumb_base__horizontal_27ca7ace",
-  base__active$2 = "Thumb_base__active_830942bb",
+  base__active$1 = "Thumb_base__active_830942bb",
   thumb_module_default = {
-    background: background$4,
-    border: border$2,
+    background: background$2,
+    border: border$1,
     innerBorder: innerBorder,
     icon: icon$7,
-    base: base$30,
+    base: base$28,
     base__vertical: base__vertical$1,
     base__horizontal: base__horizontal,
-    base__active: base__active$2,
+    base__active: base__active$1,
   },
   BOUNCING_OFFSET = 2,
   FORWARD_DISABLED = "forwardDisabled",
@@ -27736,7 +27984,7 @@ function useBarHandlers(e, t, n, r, a, o, i) {
   );
 }
 var rail$1 = "HorizontalBar_rail_37858d8f",
-  base$29 = "HorizontalBar_4df27ac3",
+  base$27 = "HorizontalBar_4df27ac3",
   track$1 = "HorizontalBar_track_649dc296",
   rail__left = "HorizontalBar_rail__left_1a906b4e",
   rail__right = "HorizontalBar_rail__right_cd24364e",
@@ -27745,7 +27993,7 @@ var rail$1 = "HorizontalBar_rail_37858d8f",
   button$1 = "HorizontalBar_button_cbabd91",
   horizontal_bar_module_default = {
     rail: rail$1,
-    base: base$29,
+    base: base$27,
     track: track$1,
     rail__left: rail__left,
     rail__right: rail__right,
@@ -27865,14 +28113,14 @@ var rail$1 = "HorizontalBar_rail_37858d8f",
       ],
     });
   }),
-  base$28 = "HorizontalScroll_5b201d2b",
+  base$26 = "HorizontalScroll_5b201d2b",
   wrapper$1 = "HorizontalScroll_wrapper_2fb60496",
   wrapper__left = "HorizontalScroll_wrapper__left_adacfff",
   wrapper__right = "HorizontalScroll_wrapper__right_a6825027",
   wrapper__both = "HorizontalScroll_wrapper__both_7917ea88",
   defaultScrollArea = "HorizontalScroll_defaultScrollArea_a5c0f45",
   horizontal_scroll_module_default = {
-    base: base$28,
+    base: base$26,
     wrapper: wrapper$1,
     wrapper__left: wrapper__left,
     wrapper__right: wrapper__right,
@@ -28055,7 +28303,7 @@ function useScrollByDragElements(e, t, n, r) {
     d
   );
 }
-function Base$10({ settings: e, children: t }) {
+function Base$8({ settings: e, children: t }) {
   const n = useApi$1({ settings: e }),
     r = (0, import_react.useMemo)(() => ({ api: n }), [n]);
   return (0, import_jsx_runtime.jsx)(Context$2.Provider, { value: r, children: t });
@@ -28077,7 +28325,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   },
   useApi = createApiHook(DEFAULT_VERTICAL_API_CONFIG),
   rail = "VerticalBar_rail_3d663c9",
-  base$27 = "VerticalBar_7187fa00",
+  base$25 = "VerticalBar_7187fa00",
   track = "VerticalBar_track_ff482708",
   rail__top = "VerticalBar_rail__top_ee531f43",
   rail__bottom = "VerticalBar_rail__bottom_3eaa33b1",
@@ -28086,7 +28334,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   button = "VerticalBar_button_7b0e4aca",
   vertical_bar_module_default = {
     rail: rail,
-    base: base$27,
+    base: base$25,
     track: track,
     rail__top: rail__top,
     rail__bottom: rail__bottom,
@@ -28215,7 +28463,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
           : maskDirections.bottom
         : maskDirections.top
       : maskDirections.both,
-  content$6 = "VerticalScroll_content_f30246e6",
+  content$4 = "VerticalScroll_content_f30246e6",
   content__top = "VerticalScroll_content__top_b27098a4",
   content__bottom = "VerticalScroll_content__bottom_d6604290",
   content__both = "VerticalScroll_content__both_8d905712",
@@ -28223,7 +28471,7 @@ var DEFAULT_VERTICAL_API_CONFIG = {
   bar = "VerticalScroll_bar_c5afe570",
   area = "VerticalScroll_area_a3c0086a",
   vertical_scroll_module_default = {
-    content: content$6,
+    content: content$4,
     content__top: content__top,
     content__bottom: content__bottom,
     content__both: content__both,
@@ -28290,260 +28538,12 @@ function MaskArea({ classNames: e, ...t }) {
     },
   });
 }
-function Base$9({ settings: e, children: t }) {
+function Base$7({ settings: e, children: t }) {
   const n = useApi({ settings: e }),
     r = (0, import_react.useMemo)(() => ({ api: n }), [n]);
   return (0, import_jsx_runtime.jsx)(Context$1.Provider, { value: r, children: t });
 }
 Area.Default = DefaultScroll;
-var TabsContext = (0, import_react.createContext)(null);
-function useTabsContext() {
-  const e = (0, import_react.useContext)(TabsContext);
-  return (assert$1(null !== e, "You can use tabs hooks only with Tabs component"), e);
-}
-function Content({ children: e, keyOverride: t }) {
-  const n = useTabsContext();
-  return (0, import_jsx_runtime.jsx)(
-    import_react.Fragment,
-    { children: e(n.active) },
-    t ?? n.active,
-  );
-}
-var falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
-  cx$7 = clsx,
-  cva = (e, t) => (n) => {
-    var r;
-    if (null == (null == t ? void 0 : t.variants))
-      return cx$7(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
-    const { variants: a, defaultVariants: o } = t,
-      i = Object.keys(a).map((e) => {
-        const t = null == n ? void 0 : n[e],
-          r = null == o ? void 0 : o[e];
-        if (null === t) return null;
-        const i = falsyToString(t) || falsyToString(r);
-        return a[e][i];
-      }),
-      s =
-        n &&
-        Object.entries(n).reduce((e, t) => {
-          let [n, r] = t;
-          return (void 0 === r || (e[n] = r), e);
-        }, {});
-    return cx$7(
-      e,
-      i,
-      null == t || null === (r = t.compoundVariants) || void 0 === r
-        ? void 0
-        : r.reduce((e, t) => {
-            let { class: n, className: r, ...a } = t;
-            return Object.entries(a).every((e) => {
-              let [t, n] = e;
-              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
-            })
-              ? [...e, n, r]
-              : e;
-          }, []),
-      null == n ? void 0 : n.class,
-      null == n ? void 0 : n.className,
-    );
-  };
-function defineStyledComponent(e, t, n) {
-  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
-    a = r ? Object.keys(r) : [];
-  if ("object" == typeof t) {
-    const n = t,
-      r = cva(n.className, n.cva),
-      o = n.element,
-      i = (0, import_react.forwardRef)(function (e, t) {
-        return (0, import_react.createElement)(o, {
-          ...("function" == typeof o ? e : cleanProps(a, e)),
-          ref: t,
-          className: r(e),
-        });
-      });
-    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
-  }
-  const o = cva(t, n),
-    i = (0, import_react.forwardRef)(function (t, n) {
-      return (0, import_jsx_runtime.jsx)("div", {
-        "data-name": e,
-        ...cleanProps(a, t),
-        ref: n,
-        className: o(t),
-      });
-    });
-  return ((i.displayName = e), n && (i.cva = n), i);
-}
-function cleanProps(e, t) {
-  if (0 === e.length) return t;
-  const n = { ...t };
-  for (const r of e) delete n[r];
-  return n;
-}
-var themes$1 = { primary: "primary", custom: "custom" },
-  sizes$6 = { large: "large", medium: "medium", small: "small" },
-  background$3 = "HorizontalTabs_background_5e3af03e",
-  mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
-  base$26 = "HorizontalTabs_69e3c6f3",
-  outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
-  mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
-  content$5 = "HorizontalTabs_content_1ae3c4bd",
-  horizontal_tabs_module_default = {
-    background: background$3,
-    mainBorderImage: mainBorderImage,
-    base: base$26,
-    "base__size-small": "HorizontalTabs_base__size-small_75fae891",
-    "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
-    "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
-    outerBorder: outerBorder,
-    "base__theme-primary": "HorizontalTabs_base__theme-primary_5e3af03e",
-    mainBorder: mainBorder,
-    content: content$5,
-  },
-  Base$8 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
-    variants: {
-      size: {
-        [sizes$6.large]: horizontal_tabs_module_default["base__size-large"],
-        [sizes$6.medium]: horizontal_tabs_module_default["base__size-medium"],
-        [sizes$6.small]: horizontal_tabs_module_default["base__size-small"],
-      },
-      theme: {
-        [themes$1.primary]: horizontal_tabs_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
-      },
-    },
-  }),
-  Switcher = (0, import_react.forwardRef)(function ({ children: e, classNames: t, ...n }, r) {
-    const a = useTabsContext();
-    return (0, import_jsx_runtime.jsx)(Base$8, {
-      ...n,
-      ref: r,
-      className: clsx(n.className, t?.base),
-      size: a.size,
-      theme: a.theme,
-      children: (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(horizontal_tabs_module_default.outerBorder, t?.outerBorder),
-        children: (0, import_jsx_runtime.jsxs)("div", {
-          className: clsx(horizontal_tabs_module_default.mainBorder, t?.mainBorder),
-          children: [
-            (0, import_jsx_runtime.jsx)("div", {
-              className: clsx(horizontal_tabs_module_default.mainBorderImage, t?.mainBorderImage),
-            }),
-            (0, import_jsx_runtime.jsx)("div", {
-              className: clsx(horizontal_tabs_module_default.content, t?.content),
-              children: e,
-            }),
-          ],
-        }),
-      }),
-    });
-  }),
-  border$1 = "Tab_border_d4435cf2",
-  background$2 = "Tab_background_763456",
-  backgroundPattern$1 = "Tab_backgroundPattern_32ac7949",
-  innerBorderImage = "Tab_innerBorderImage_77cde9e",
-  base$25 = "Tab_806d6908",
-  base__active$1 = "Tab_base__active_a872a63f",
-  content$4 = "Tab_content_4eefcae7",
-  base__inactive = "Tab_base__inactive_0",
-  tab_module_default = {
-    border: border$1,
-    background: background$2,
-    backgroundPattern: backgroundPattern$1,
-    innerBorderImage: innerBorderImage,
-    base: base$25,
-    "base__theme-primary": "Tab_base__theme-primary_209414fd",
-    base__active: base__active$1,
-    content: content$4,
-    "base__size-small": "Tab_base__size-small_0",
-    "base__size-medium": "Tab_base__size-medium_0",
-    "base__size-large": "Tab_base__size-large_0",
-    base__inactive: base__inactive,
-  },
-  Base$7 = defineStyledComponent("Tab", tab_module_default.base, {
-    variants: {
-      size: {
-        [sizes$6.large]: tab_module_default["base__size-large"],
-        [sizes$6.medium]: tab_module_default["base__size-medium"],
-        [sizes$6.small]: tab_module_default["base__size-small"],
-      },
-      theme: {
-        [themes$1.primary]: tab_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
-      },
-      state: {
-        active: tab_module_default.base__active,
-        inactive: tab_module_default.base__inactive,
-      },
-    },
-    defaultVariants: { size: sizes$6.medium, theme: themes$1.primary },
-  }),
-  HeadlessTab = (0, import_react.forwardRef)(function (
-    { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
-    u,
-  ) {
-    const l = useSounds();
-    return (0, import_jsx_runtime.jsx)(Base$7, {
-      ...s,
-      ref: u,
-      theme: e,
-      size: t,
-      state: r === n ? "active" : "inactive",
-      onMouseEnter: function (e) {
-        (r !== n && l.play("mouse-enter", { target: Base$7.displayName, original: e }), i?.(e));
-      },
-      onClick: function (e) {
-        (r !== n && l.play("click", { target: Base$7.displayName, original: e }), o?.(e));
-      },
-      children: a,
-    });
-  });
-function Tab({ tabId: e, classNames: t, className: n, children: r, ...a }) {
-  const o = useTabsContext();
-  return (0, import_jsx_runtime.jsxs)(HeadlessTab, {
-    "data-test-id": `${e}Tab`,
-    ...a,
-    tabId: e,
-    theme: o.theme,
-    size: o.size,
-    active: o.active,
-    className: clsx(t?.base, n),
-    onClick: (t) => {
-      (a.onClick?.(t), o.change(e));
-    },
-    children: [
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.background, t?.background),
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.backgroundPattern, t?.backgroundPattern),
-      }),
-      (0, import_jsx_runtime.jsx)("div", { className: clsx(tab_module_default.border, t?.border) }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.innerBorderImage, t?.borderImage),
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        className: clsx(tab_module_default.content, t?.content),
-        children: r,
-      }),
-    ],
-  });
-}
-function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) {
-  const [o, i] = (0, import_react.useState)(e),
-    s = (0, import_react.useRef)(e),
-    u = (0, import_react.useMemo)(() => ({ active: o, theme: t, size: n, change: i }), [o, n, t]);
-  return (
-    (0, import_react.useLayoutEffect)(() => {
-      i(e);
-    }, [e]),
-    (0, import_react.useEffect)(() => {
-      s.current !== o && ((s.current = o), a?.(o));
-    }, [o, a]),
-    (0, import_jsx_runtime.jsx)(TabsContext.Provider, { value: u, children: r })
-  );
-}
-((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
 var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
   sizes$5 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
   base$24 = "HeadlessButton_df8536fc",
@@ -29012,433 +29012,10 @@ var RewardType$1 = (function (e) {
         children: e,
       })
     );
-  };
-function isSerializableReactNode(e) {
-  return (
-    !(null != e && !["string", "number", "boolean"].includes(typeof e)) ||
-    (!(0, import_react.isValidElement)(e) && !!Array.isArray(e) && e.every(isSerializableReactNode))
-  );
-}
-var base$21 = "MultilineOverflow_ec9f8e47",
-  content$2 = "MultilineOverflow_content_b539970d",
-  multiline_overflow_module_default = { base: base$21, content: content$2 };
-function isSerializableParams(e) {
-  return !e || Object.values(e).every(isSerializableReactNode);
-}
-function cloneNode(e) {
-  return e instanceof HTMLElement
-    ? e.cloneNode(!0)
-    : e.nodeType === Node.TEXT_NODE
-      ? document.createTextNode(e.nodeValue ?? "")
-      : void 0;
-}
-var MultilineOverflow$1 = (0, import_react.forwardRef)(function (
-  {
-    text: e,
-    brackets: t,
-    params: n,
-    formatters: r,
-    upgradeLegacy: a,
-    split: o = !0,
-    onMouseEnter: i,
-    onMouseLeave: s,
-    onClick: u,
-    tooltipDisabled: l = !1,
-    tooltip: c,
-    className: d,
-    classNames: f,
-    style: p,
-    styleBase: m,
-    styleText: h,
-    ..._
   },
-  g,
-) {
-  const b = (0, import_react.useRef)(null),
-    v = (0, import_react.useRef)(null),
-    [y, E] = (0, import_react.useState)(!1);
-  (0, import_react.useEffect)(() => {
-    if (0 === e.length) return;
-    const t = b.current,
-      n = v.current;
-    if (!t || !n) return;
-    const r = document.createElement("div");
-    function a() {
-      if (!t || !n) return;
-      const e = t.children[0];
-      if (!e) return console.warn("MultilineOverflow can't get first child to handle it", t);
-      (r.remove(),
-        (r.className = clsx(multiline_overflow_module_default.content, t.children[0].className)),
-        (r.innerHTML = ""),
-        e instanceof HTMLElement && (r.style.cssText = e.style.cssText));
-      const a = e.childNodes.length - 1;
-      let o = a;
-      for (; o >= 0; o--) {
-        const n = e.childNodes[o];
-        if (n instanceof HTMLElement && !(n.offsetTop + n.offsetHeight > t.clientHeight)) break;
-      }
-      if (o === a) E(!1);
-      else {
-        E(!0);
-        const a = relativeOffset(t.getBoundingClientRect(), e.getBoundingClientRect());
-        for (
-          r.style.visibility = "", r.style.left = `${a.x}px`, r.style.top = `${a.y}px`;
-          o >= 0;
-          o--
-        ) {
-          const t = e.childNodes[o];
-          if (
-            t instanceof HTMLElement &&
-            !(t.offsetLeft + t.offsetWidth + n.offsetWidth > e.clientWidth)
-          )
-            break;
-        }
-        for (let t = 0; t <= o; t++) {
-          const n = e.childNodes[t];
-          if (!(n instanceof HTMLElement)) continue;
-          const a = cloneNode(n);
-          a ? r.appendChild(a) : console.warn("Unexpected type of target node", n);
-        }
-        const i = n.cloneNode(!0);
-        (i.removeAttribute("style"), r.appendChild(i), t.appendChild(r));
-      }
-    }
-    const o = new ResizeObserver(a);
-    return (
-      o.observe(t),
-      new DisposeBuilder()
-        .add(addEventListener$1(window, "resize", a))
-        .add(o.disconnect.bind(o))
-        .add(r.remove.bind(r)).dispose
-    );
-  }, [g, e]);
-  const A = isSerializableParams(n),
-    S = useParamTooltip(
-      "format_text",
-      (0, import_react.useMemo)(
-        () => ({
-          text: e,
-          params: A ? n : void 0,
-          split: o,
-          upgradeLegacy: a,
-          brackets: t,
-          resId: resources.resolve("views").read((e) => e.mono.tooltips.tooltips("resId")),
-        }),
-        [e, t, o, a, n, A],
-      ),
-    ),
-    w = c ?? S;
-  if (
-    ((0, import_react.useEffect)(() => {
-      l || y || w.onMouseLeave();
-    }, [y, w, c, l, A]),
-    0 === e.length)
-  )
-    return null;
-  return (0, import_jsx_runtime.jsxs)("div", {
-    ..._,
-    onMouseEnter: function (e) {
-      (i?.(e), y && !l && w.onMouseEnter(e));
-    },
-    onClick: function (e) {
-      (u?.(e), l || w.onClick());
-    },
-    onMouseLeave: function (e) {
-      (s?.(e), l || w.onMouseLeave());
-    },
-    ref: assignRefs([g, b]),
-    className: clsx(multiline_overflow_module_default.base, d, f?.base),
-    style: { ...p, ...m },
-    children: [
-      (0, import_jsx_runtime.jsx)(FormatText$1, {
-        text: e,
-        brackets: t,
-        params: n,
-        upgradeLegacy: a,
-        split: o,
-        formatters: r,
-        className: f?.text,
-        style: { ...h, visibility: y ? "hidden" : void 0 },
-      }),
-      (0, import_jsx_runtime.jsx)("div", {
-        ref: v,
-        style: { visibility: "hidden", position: "absolute" },
-        children: "...",
-      }),
-    ],
-  });
-});
-function FormatTextSplited({ className: e, ...t }) {
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: e,
-    children: t.text
-      .split("\n")
-      .map((e) => (0, import_jsx_runtime.jsx)(FormatText$1, { ...t, text: e }, e)),
-  });
-}
-function ExtendedText(e) {
-  return (
-    void 0 !== e.onSizeChanged &&
-      console.warn('[ExtendedText Adapter] Property "onSizeChanged" doesn\'t support'),
-    void 0 !== e.targetId &&
-      console.warn('[ExtendedText Adapter] Property "targetId" doesn\'t support'),
-    (0, import_jsx_runtime.jsx)(
-      e.isTruncationAvailable || e.truncateIdentify ? MultilineOverflow$1 : FormatTextSplited,
-      {
-        split: e.split ?? !0,
-        text: e.text,
-        params: e.binding,
-        style: { alignContent: e.alignContent, justifyContent: e.justifyContent },
-        upgradeLegacy: !0,
-        className: clsx(e.className, e.classMix),
-      },
-    )
-  );
-}
-var formats = {
-    superCompact: "superCompact",
-    compact: "compact",
-    default: "default",
-    detailed: "detailed",
-  },
-  sizes$4 = {
-    x16x16: "x16x16",
-    x24x24: "x24x24",
-    x32x32: "x32x32",
-    x48x48: "x48x48",
-    x80x80: "x80x80",
-  },
-  types$3 = { accent: "accent", cooldown: "cooldown" },
-  item__x16x16 = "FormattedValue_item__x16x16_9eb36ff5",
-  item__x24x24 = "FormattedValue_item__x24x24_9eb36ff5",
-  item__x32x32 = "FormattedValue_item__x32x32_bd66be3c",
-  item__x48x48 = "FormattedValue_item__x48x48_43bf6d1b",
-  item__x80x80 = "FormattedValue_item__x80x80_c03e8347",
-  part__x16x16 = "FormattedValue_part__x16x16_2186b32f",
-  part__x24x24 = "FormattedValue_part__x24x24_2186b32f",
-  part__x32x32 = "FormattedValue_part__x32x32_f9323fe3",
-  part__x48x48 = "FormattedValue_part__x48x48_bd002d69",
-  part__x80x80 = "FormattedValue_part__x80x80_dca9ec18",
-  detailedSeparator = "FormattedValue_detailedSeparator_30bfaeef",
-  detailedSeparator__x16x16 = "FormattedValue_detailedSeparator__x16x16_2b8550e4",
-  detailedSeparator__x24x24 = "FormattedValue_detailedSeparator__x24x24_2b8550e4",
-  detailedSeparator__x32x32 = "FormattedValue_detailedSeparator__x32x32_bc7822fa",
-  detailedSeparator__x48x48 = "FormattedValue_detailedSeparator__x48x48_4cb1e66b",
-  detailedSeparator__x80x80 = "FormattedValue_detailedSeparator__x80x80_2c1c84ee",
-  formatted_value_module_default = {
-    item__x16x16: item__x16x16,
-    item__x24x24: item__x24x24,
-    item__x32x32: item__x32x32,
-    item__x48x48: item__x48x48,
-    item__x80x80: item__x80x80,
-    part__x16x16: part__x16x16,
-    part__x24x24: part__x24x24,
-    part__x32x32: part__x32x32,
-    part__x48x48: part__x48x48,
-    part__x80x80: part__x80x80,
-    detailedSeparator: detailedSeparator,
-    detailedSeparator__x16x16: detailedSeparator__x16x16,
-    detailedSeparator__x24x24: detailedSeparator__x24x24,
-    detailedSeparator__x32x32: detailedSeparator__x32x32,
-    detailedSeparator__x48x48: detailedSeparator__x48x48,
-    detailedSeparator__x80x80: detailedSeparator__x80x80,
-  };
-function FormattedValue({ size: e, preFormatted: t }) {
-  const n = [];
-  for (let r = 0; r < t.items.length; ++r)
-    (t.separator &&
-      r > 0 &&
-      n.push(
-        (0, import_jsx_runtime.jsx)(
-          "span",
-          {
-            className: (0, import_classnames.default)(
-              formatted_value_module_default.detailedSeparator,
-              formatted_value_module_default[`detailedSeparator__${e}`],
-            ),
-          },
-          "separator",
-        ),
-      ),
-      n.push(
-        (0, import_jsx_runtime.jsx)(
-          "span",
-          {
-            className: (0, import_classnames.default)(
-              formatted_value_module_default.item,
-              formatted_value_module_default[`item__${e}`],
-            ),
-            children: t.items[r]
-              ?.split(" ")
-              .map((t, n) =>
-                (0, import_jsx_runtime.jsx)(
-                  "span",
-                  {
-                    className: (0, import_classnames.default)(
-                      formatted_value_module_default.part,
-                      formatted_value_module_default[`part__${e}`],
-                    ),
-                    children: t,
-                  },
-                  `part_${n}`,
-                ),
-              ),
-          },
-          `item_${r}`,
-        ),
-      ));
-  return n;
-}
-var STRING_RESOURCES = resources.resolve("strings"),
-  COLON = ":",
-  DAYS_FORMAT = "D",
-  HOURS_FORMAT = "h",
-  MINUTES_FORMAT = "m",
-  DEFAULT_MIN_VALUE = 1,
-  FORMAT_PARTS = {
-    [formats.compact]: [DAYS_FORMAT, HOURS_FORMAT, MINUTES_FORMAT],
-    [formats.default]: [DAYS_FORMAT, HOURS_FORMAT, MINUTES_FORMAT],
-    [formats.detailed]: [DAYS_FORMAT, "hh", "mm", "ss"],
-  },
-  FORMATTER = {
-    [formats.compact]: compactFormatter,
-    [formats.default]: defaultFormatter,
-    [formats.detailed]: detailedFormatter,
-  },
-  LOCALE_FORMATTERS = {
-    [DAYS_FORMAT]: (e) =>
-      format$1(
-        STRING_RESOURCES.readOr("common.timer.days", () => DAYS_FORMAT.toLowerCase()),
-        { days: e },
-      ),
-    [HOURS_FORMAT]: (e) =>
-      format$1(
-        STRING_RESOURCES.readOr("common.timer.hours", () => HOURS_FORMAT),
-        { hours: e },
-      ),
-    [MINUTES_FORMAT]: (e) =>
-      format$1(
-        STRING_RESOURCES.readOr("common.timer.minutes", () => MINUTES_FORMAT),
-        { minutes: e },
-      ),
-  };
-function detailedFormatter(e) {
-  const [t, ...n] = e,
-    r = n.join(COLON);
-  return { separator: !0, items: Number(t) > 0 ? [LOCALE_FORMATTERS[DAYS_FORMAT]?.(t), r] : [r] };
-}
-function defaultFormatter(e, t) {
-  let n = 0;
-  const r = e.length - 1,
-    a = FORMAT_PARTS[t],
-    o = { separator: !1, items: [] };
-  for (; n < r && !(Number(e[n]) > 0); ++n);
-  return (
-    a[n] === MINUTES_FORMAT && 0 === Number(e[n])
-      ? (o.items = [LOCALE_FORMATTERS[MINUTES_FORMAT]?.(DEFAULT_MIN_VALUE)])
-      : (o.items = [n, n + 1].map((t) => LOCALE_FORMATTERS[a[t]]?.(e[t]))),
-    o
-  );
-}
-function compactFormatter(e, t) {
-  const n = e.length,
-    r = FORMAT_PARTS[t],
-    a = { separator: !1, items: [] };
-  for (let o = 0; o < n; ++o)
-    if (Number(e[o]) > 0) return ((a.items = [LOCALE_FORMATTERS[r[o]]?.(e[o])]), a);
-  return ((a.items = [LOCALE_FORMATTERS[MINUTES_FORMAT]?.(DEFAULT_MIN_VALUE)]), a);
-}
-var formatValue = (e, t) => FORMATTER[t]?.(format$2(e, FORMAT_PARTS[t]), t),
-  base$20 = "Timer_dac0a0aa",
-  icon$6 = "Timer_icon_a61415df",
-  icon__x16x16$1 = "Timer_icon__x16x16_5bab55e2",
-  icon__accent = "Timer_icon__accent_2cf70c3b",
-  icon__cooldown = "Timer_icon__cooldown_4a26d3f",
-  icon__x24x24$1 = "Timer_icon__x24x24_31571381",
-  icon__x32x32$1 = "Timer_icon__x32x32_807dde34",
-  icon__x48x48$1 = "Timer_icon__x48x48_ae779a9e",
-  icon__x80x80 = "Timer_icon__x80x80_251aafea",
-  label$1 = "Timer_label_1565f308",
-  label__x16x16 = "Timer_label__x16x16_e3ff224",
-  label__x24x24 = "Timer_label__x24x24_ca748cca",
-  label__x32x32 = "Timer_label__x32x32_13cccf38",
-  label__x48x48 = "Timer_label__x48x48_e3a9b542",
-  label__x80x80 = "Timer_label__x80x80_10a84ee6",
-  label__accent = "Timer_label__accent_ac7d4f7b",
-  label__cooldown = "Timer_label__cooldown_c2349ab9",
-  timer_module_default = {
-    base: base$20,
-    icon: icon$6,
-    icon__x16x16: icon__x16x16$1,
-    icon__accent: icon__accent,
-    icon__cooldown: icon__cooldown,
-    icon__x24x24: icon__x24x24$1,
-    icon__x32x32: icon__x32x32$1,
-    icon__x48x48: icon__x48x48$1,
-    icon__x80x80: icon__x80x80,
-    label: label$1,
-    label__x16x16: label__x16x16,
-    label__x24x24: label__x24x24,
-    label__x32x32: label__x32x32,
-    label__x48x48: label__x48x48,
-    label__x80x80: label__x80x80,
-    label__accent: label__accent,
-    label__cooldown: label__cooldown,
-  };
-function Timer({
-  start: e,
-  limit: t = 0,
-  tick: n = 1,
-  size: r = sizes$4.x24x24,
-  type: a = types$3.accent,
-  format: o = formats.default,
-  autostart: i = !0,
-  className: s,
-  classNames: u,
-}) {
-  const [l] = useTicker(
-    (0, import_react.useMemo)(
-      () => ({
-        type: "countdown",
-        start: isDuration(e) ? e : seconds(e),
-        limit: isDuration(t) ? t : seconds(t),
-        tick: isDuration(n) ? n : seconds(n),
-        autostart: i,
-      }),
-      [i, t, e, n],
-    ),
-  );
-  return (0, import_jsx_runtime.jsxs)("div", {
-    className: (0, import_classnames.default)(timer_module_default.base, s),
-    children: [
-      (0, import_jsx_runtime.jsx)("div", {
-        className: (0, import_classnames.default)(
-          timer_module_default.icon,
-          timer_module_default[`icon__${r}`],
-          timer_module_default[`icon__${a}`],
-          u?.icon,
-        ),
-      }),
-      o !== formats.superCompact &&
-        (0, import_jsx_runtime.jsx)("div", {
-          className: (0, import_classnames.default)(
-            timer_module_default.label,
-            timer_module_default[`label__${r}`],
-            timer_module_default[`label__${a}`],
-            u?.label,
-          ),
-          children: (0, import_jsx_runtime.jsx)(FormattedValue, {
-            size: r,
-            preFormatted: formatValue(l, o),
-          }),
-        }),
-    ],
-  });
-}
-((Timer.format = formats), (Timer.size = sizes$4), (Timer.type = types$3));
-var base$19 = "Tooltip_6d997cee",
+  base$21 = "Tooltip_6d997cee",
   decorator = "Tooltip_decorator_b3486d4e",
-  tooltip_module_default = { base: base$19, decorator: decorator },
+  tooltip_module_default = { base: base$21, decorator: decorator },
   Base$6 = defineStyledComponent("Base", tooltip_module_default.base),
   Decorator = defineStyledComponent("Decorator", tooltip_module_default.decorator),
   Tooltip$1 = (0, import_react.forwardRef)(function ({ children: e, ...t }, n) {
@@ -30395,8 +29972,8 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
   },
   formatString = (e, t, n) =>
     e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (n && e in n ? n[e] : splitWords(e, t))),
-  base$18 = "Formattext_bb80854d",
-  FormatText_module_default = { base: base$18 },
+  base$20 = "Formattext_bb80854d",
+  FormatText_module_default = { base: base$20 },
   FormatText = ({
     binding: e,
     text: t = "",
@@ -30426,7 +30003,7 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
               ),
             ),
         }),
-  types$2 = {
+  types$3 = {
     tankXP: "tankXP",
     freeXP: "freeXP",
     credits: "credits",
@@ -30444,8 +30021,8 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
     brProgressionToken: "brProgressionToken",
     battlePassPoints: "battlePassPoints",
   },
-  currencyTypes = Object.values(types$2),
-  sizes$3 = {
+  currencyTypes = Object.values(types$3),
+  sizes$4 = {
     extraSmall: "extraSmall",
     small: "small",
     medium: "medium",
@@ -30454,30 +30031,30 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
     xxl: "xxl",
   },
   imageSizes$1 = {
-    [sizes$3.extraSmall]: 16,
-    [sizes$3.small]: 24,
-    [sizes$3.medium]: 32,
-    [sizes$3.large]: 48,
-    [sizes$3.extraLarge]: 80,
-    [sizes$3.xxl]: 96,
+    [sizes$4.extraSmall]: 16,
+    [sizes$4.small]: 24,
+    [sizes$4.medium]: 32,
+    [sizes$4.large]: 48,
+    [sizes$4.extraLarge]: 80,
+    [sizes$4.xxl]: 96,
   },
   upscaledImageSizes = {
-    [sizes$3.extraSmall]: 32,
-    [sizes$3.small]: 48,
-    [sizes$3.medium]: 32,
-    [sizes$3.large]: 96,
-    [sizes$3.extraLarge]: 80,
-    [sizes$3.xxl]: 96,
+    [sizes$4.extraSmall]: 32,
+    [sizes$4.small]: 48,
+    [sizes$4.medium]: 32,
+    [sizes$4.large]: 96,
+    [sizes$4.extraLarge]: 80,
+    [sizes$4.xxl]: 96,
   },
   discountSizesConfig = {
-    [sizes$3.extraSmall]: { width: "60rem", height: "36rem" },
-    [sizes$3.small]: { width: "80rem", height: "48rem" },
-    [sizes$3.medium]: { width: "80rem", height: "48rem" },
-    [sizes$3.large]: { width: "106rem", height: "64rem" },
-    [sizes$3.extraLarge]: { width: "140rem", height: "84rem" },
-    [sizes$3.xxl]: { width: "140rem", height: "84rem" },
+    [sizes$4.extraSmall]: { width: "60rem", height: "36rem" },
+    [sizes$4.small]: { width: "80rem", height: "48rem" },
+    [sizes$4.medium]: { width: "80rem", height: "48rem" },
+    [sizes$4.large]: { width: "106rem", height: "64rem" },
+    [sizes$4.extraLarge]: { width: "140rem", height: "84rem" },
+    [sizes$4.xxl]: { width: "140rem", height: "84rem" },
   },
-  base$17 = "Currency_72d4be39",
+  base$19 = "Currency_72d4be39",
   base__reverse = "Currency_base__reverse_f12e61b0",
   base__notEnough = "Currency_base__notEnough_9a7842f",
   base__credits = "Currency_base__credits_7b9ae721",
@@ -30486,7 +30063,7 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
   base__crystal = "Currency_base__crystal_f830cb47",
   base__tankXP = "Currency_base__tankXP_1707c68b",
   currency_module_default = {
-    base: base$17,
+    base: base$19,
     base__reverse: base__reverse,
     base__notEnough: base__notEnough,
     base__credits: base__credits,
@@ -30500,7 +30077,7 @@ var convertNbsp = (e) => e.replace(/&nbsp;/g, " "),
     variants: { reverse: { true: currency_module_default.base__reverse } },
   });
 function formatCurrencyValue(e, t) {
-  const n = t === types$2.gold ? "gold" : "integral";
+  const n = t === types$3.gold ? "gold" : "integral";
   return Array.isArray(e)
     ? e.map((e) => ("number" == typeof e ? intl$2.formatNumber(n, e) : e))
     : "number" == typeof e
@@ -30513,7 +30090,7 @@ function Currency({
   className: n,
   classNames: r,
   imagePath: a,
-  size: o = sizes$3.small,
+  size: o = sizes$4.small,
   enough: i = !0,
   ...s
 }) {
@@ -30542,7 +30119,430 @@ function Currency({
     ],
   });
 }
-((Currency.sizes = sizes$3), (Currency.types = types$2));
+function isSerializableReactNode(e) {
+  return (
+    !(null != e && !["string", "number", "boolean"].includes(typeof e)) ||
+    (!(0, import_react.isValidElement)(e) && !!Array.isArray(e) && e.every(isSerializableReactNode))
+  );
+}
+((Currency.sizes = sizes$4), (Currency.types = types$3));
+var base$18 = "MultilineOverflow_ec9f8e47",
+  content$2 = "MultilineOverflow_content_b539970d",
+  multiline_overflow_module_default = { base: base$18, content: content$2 };
+function isSerializableParams(e) {
+  return !e || Object.values(e).every(isSerializableReactNode);
+}
+function cloneNode(e) {
+  return e instanceof HTMLElement
+    ? e.cloneNode(!0)
+    : e.nodeType === Node.TEXT_NODE
+      ? document.createTextNode(e.nodeValue ?? "")
+      : void 0;
+}
+var MultilineOverflow$1 = (0, import_react.forwardRef)(function (
+  {
+    text: e,
+    brackets: t,
+    params: n,
+    formatters: r,
+    upgradeLegacy: a,
+    split: o = !0,
+    onMouseEnter: i,
+    onMouseLeave: s,
+    onClick: u,
+    tooltipDisabled: l = !1,
+    tooltip: c,
+    className: d,
+    classNames: f,
+    style: p,
+    styleBase: m,
+    styleText: h,
+    ..._
+  },
+  g,
+) {
+  const b = (0, import_react.useRef)(null),
+    v = (0, import_react.useRef)(null),
+    [y, E] = (0, import_react.useState)(!1);
+  (0, import_react.useEffect)(() => {
+    if (0 === e.length) return;
+    const t = b.current,
+      n = v.current;
+    if (!t || !n) return;
+    const r = document.createElement("div");
+    function a() {
+      if (!t || !n) return;
+      const e = t.children[0];
+      if (!e) return console.warn("MultilineOverflow can't get first child to handle it", t);
+      (r.remove(),
+        (r.className = clsx(multiline_overflow_module_default.content, t.children[0].className)),
+        (r.innerHTML = ""),
+        e instanceof HTMLElement && (r.style.cssText = e.style.cssText));
+      const a = e.childNodes.length - 1;
+      let o = a;
+      for (; o >= 0; o--) {
+        const n = e.childNodes[o];
+        if (n instanceof HTMLElement && !(n.offsetTop + n.offsetHeight > t.clientHeight)) break;
+      }
+      if (o === a) E(!1);
+      else {
+        E(!0);
+        const a = relativeOffset(t.getBoundingClientRect(), e.getBoundingClientRect());
+        for (
+          r.style.visibility = "", r.style.left = `${a.x}px`, r.style.top = `${a.y}px`;
+          o >= 0;
+          o--
+        ) {
+          const t = e.childNodes[o];
+          if (
+            t instanceof HTMLElement &&
+            !(t.offsetLeft + t.offsetWidth + n.offsetWidth > e.clientWidth)
+          )
+            break;
+        }
+        for (let t = 0; t <= o; t++) {
+          const n = e.childNodes[t];
+          if (!(n instanceof HTMLElement)) continue;
+          const a = cloneNode(n);
+          a ? r.appendChild(a) : console.warn("Unexpected type of target node", n);
+        }
+        const i = n.cloneNode(!0);
+        (i.removeAttribute("style"), r.appendChild(i), t.appendChild(r));
+      }
+    }
+    const o = new ResizeObserver(a);
+    return (
+      o.observe(t),
+      new DisposeBuilder()
+        .add(addEventListener$1(window, "resize", a))
+        .add(o.disconnect.bind(o))
+        .add(r.remove.bind(r)).dispose
+    );
+  }, [g, e]);
+  const A = isSerializableParams(n),
+    S = useParamTooltip(
+      "format_text",
+      (0, import_react.useMemo)(
+        () => ({
+          text: e,
+          params: A ? n : void 0,
+          split: o,
+          upgradeLegacy: a,
+          brackets: t,
+          resId: resources.resolve("views").read((e) => e.mono.tooltips.tooltips("resId")),
+        }),
+        [e, t, o, a, n, A],
+      ),
+    ),
+    w = c ?? S;
+  if (
+    ((0, import_react.useEffect)(() => {
+      l || y || w.onMouseLeave();
+    }, [y, w, c, l, A]),
+    0 === e.length)
+  )
+    return null;
+  return (0, import_jsx_runtime.jsxs)("div", {
+    ..._,
+    onMouseEnter: function (e) {
+      (i?.(e), y && !l && w.onMouseEnter(e));
+    },
+    onClick: function (e) {
+      (u?.(e), l || w.onClick());
+    },
+    onMouseLeave: function (e) {
+      (s?.(e), l || w.onMouseLeave());
+    },
+    ref: assignRefs([g, b]),
+    className: clsx(multiline_overflow_module_default.base, d, f?.base),
+    style: { ...p, ...m },
+    children: [
+      (0, import_jsx_runtime.jsx)(FormatText$1, {
+        text: e,
+        brackets: t,
+        params: n,
+        upgradeLegacy: a,
+        split: o,
+        formatters: r,
+        className: f?.text,
+        style: { ...h, visibility: y ? "hidden" : void 0 },
+      }),
+      (0, import_jsx_runtime.jsx)("div", {
+        ref: v,
+        style: { visibility: "hidden", position: "absolute" },
+        children: "...",
+      }),
+    ],
+  });
+});
+function FormatTextSplited({ className: e, ...t }) {
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: e,
+    children: t.text
+      .split("\n")
+      .map((e) => (0, import_jsx_runtime.jsx)(FormatText$1, { ...t, text: e }, e)),
+  });
+}
+function ExtendedText(e) {
+  return (
+    void 0 !== e.onSizeChanged &&
+      console.warn('[ExtendedText Adapter] Property "onSizeChanged" doesn\'t support'),
+    void 0 !== e.targetId &&
+      console.warn('[ExtendedText Adapter] Property "targetId" doesn\'t support'),
+    (0, import_jsx_runtime.jsx)(
+      e.isTruncationAvailable || e.truncateIdentify ? MultilineOverflow$1 : FormatTextSplited,
+      {
+        split: e.split ?? !0,
+        text: e.text,
+        params: e.binding,
+        style: { alignContent: e.alignContent, justifyContent: e.justifyContent },
+        upgradeLegacy: !0,
+        className: clsx(e.className, e.classMix),
+      },
+    )
+  );
+}
+var formats = {
+    superCompact: "superCompact",
+    compact: "compact",
+    default: "default",
+    detailed: "detailed",
+  },
+  sizes$3 = {
+    x16x16: "x16x16",
+    x24x24: "x24x24",
+    x32x32: "x32x32",
+    x48x48: "x48x48",
+    x80x80: "x80x80",
+  },
+  types$2 = { accent: "accent", cooldown: "cooldown" },
+  item__x16x16 = "FormattedValue_item__x16x16_9eb36ff5",
+  item__x24x24 = "FormattedValue_item__x24x24_9eb36ff5",
+  item__x32x32 = "FormattedValue_item__x32x32_bd66be3c",
+  item__x48x48 = "FormattedValue_item__x48x48_43bf6d1b",
+  item__x80x80 = "FormattedValue_item__x80x80_c03e8347",
+  part__x16x16 = "FormattedValue_part__x16x16_2186b32f",
+  part__x24x24 = "FormattedValue_part__x24x24_2186b32f",
+  part__x32x32 = "FormattedValue_part__x32x32_f9323fe3",
+  part__x48x48 = "FormattedValue_part__x48x48_bd002d69",
+  part__x80x80 = "FormattedValue_part__x80x80_dca9ec18",
+  detailedSeparator = "FormattedValue_detailedSeparator_30bfaeef",
+  detailedSeparator__x16x16 = "FormattedValue_detailedSeparator__x16x16_2b8550e4",
+  detailedSeparator__x24x24 = "FormattedValue_detailedSeparator__x24x24_2b8550e4",
+  detailedSeparator__x32x32 = "FormattedValue_detailedSeparator__x32x32_bc7822fa",
+  detailedSeparator__x48x48 = "FormattedValue_detailedSeparator__x48x48_4cb1e66b",
+  detailedSeparator__x80x80 = "FormattedValue_detailedSeparator__x80x80_2c1c84ee",
+  formatted_value_module_default = {
+    item__x16x16: item__x16x16,
+    item__x24x24: item__x24x24,
+    item__x32x32: item__x32x32,
+    item__x48x48: item__x48x48,
+    item__x80x80: item__x80x80,
+    part__x16x16: part__x16x16,
+    part__x24x24: part__x24x24,
+    part__x32x32: part__x32x32,
+    part__x48x48: part__x48x48,
+    part__x80x80: part__x80x80,
+    detailedSeparator: detailedSeparator,
+    detailedSeparator__x16x16: detailedSeparator__x16x16,
+    detailedSeparator__x24x24: detailedSeparator__x24x24,
+    detailedSeparator__x32x32: detailedSeparator__x32x32,
+    detailedSeparator__x48x48: detailedSeparator__x48x48,
+    detailedSeparator__x80x80: detailedSeparator__x80x80,
+  };
+function FormattedValue({ size: e, preFormatted: t }) {
+  const n = [];
+  for (let r = 0; r < t.items.length; ++r)
+    (t.separator &&
+      r > 0 &&
+      n.push(
+        (0, import_jsx_runtime.jsx)(
+          "span",
+          {
+            className: (0, import_classnames.default)(
+              formatted_value_module_default.detailedSeparator,
+              formatted_value_module_default[`detailedSeparator__${e}`],
+            ),
+          },
+          "separator",
+        ),
+      ),
+      n.push(
+        (0, import_jsx_runtime.jsx)(
+          "span",
+          {
+            className: (0, import_classnames.default)(
+              formatted_value_module_default.item,
+              formatted_value_module_default[`item__${e}`],
+            ),
+            children: t.items[r]
+              ?.split(" ")
+              .map((t, n) =>
+                (0, import_jsx_runtime.jsx)(
+                  "span",
+                  {
+                    className: (0, import_classnames.default)(
+                      formatted_value_module_default.part,
+                      formatted_value_module_default[`part__${e}`],
+                    ),
+                    children: t,
+                  },
+                  `part_${n}`,
+                ),
+              ),
+          },
+          `item_${r}`,
+        ),
+      ));
+  return n;
+}
+var STRING_RESOURCES = resources.resolve("strings"),
+  COLON = ":",
+  DAYS_FORMAT = "D",
+  HOURS_FORMAT = "h",
+  MINUTES_FORMAT = "m",
+  DEFAULT_MIN_VALUE = 1,
+  FORMAT_PARTS = {
+    [formats.compact]: [DAYS_FORMAT, HOURS_FORMAT, MINUTES_FORMAT],
+    [formats.default]: [DAYS_FORMAT, HOURS_FORMAT, MINUTES_FORMAT],
+    [formats.detailed]: [DAYS_FORMAT, "hh", "mm", "ss"],
+  },
+  FORMATTER = {
+    [formats.compact]: compactFormatter,
+    [formats.default]: defaultFormatter,
+    [formats.detailed]: detailedFormatter,
+  },
+  LOCALE_FORMATTERS = {
+    [DAYS_FORMAT]: (e) =>
+      format$1(
+        STRING_RESOURCES.readOr("common.timer.days", () => DAYS_FORMAT.toLowerCase()),
+        { days: e },
+      ),
+    [HOURS_FORMAT]: (e) =>
+      format$1(
+        STRING_RESOURCES.readOr("common.timer.hours", () => HOURS_FORMAT),
+        { hours: e },
+      ),
+    [MINUTES_FORMAT]: (e) =>
+      format$1(
+        STRING_RESOURCES.readOr("common.timer.minutes", () => MINUTES_FORMAT),
+        { minutes: e },
+      ),
+  };
+function detailedFormatter(e) {
+  const [t, ...n] = e,
+    r = n.join(COLON);
+  return { separator: !0, items: Number(t) > 0 ? [LOCALE_FORMATTERS[DAYS_FORMAT]?.(t), r] : [r] };
+}
+function defaultFormatter(e, t) {
+  let n = 0;
+  const r = e.length - 1,
+    a = FORMAT_PARTS[t],
+    o = { separator: !1, items: [] };
+  for (; n < r && !(Number(e[n]) > 0); ++n);
+  return (
+    a[n] === MINUTES_FORMAT && 0 === Number(e[n])
+      ? (o.items = [LOCALE_FORMATTERS[MINUTES_FORMAT]?.(DEFAULT_MIN_VALUE)])
+      : (o.items = [n, n + 1].map((t) => LOCALE_FORMATTERS[a[t]]?.(e[t]))),
+    o
+  );
+}
+function compactFormatter(e, t) {
+  const n = e.length,
+    r = FORMAT_PARTS[t],
+    a = { separator: !1, items: [] };
+  for (let o = 0; o < n; ++o)
+    if (Number(e[o]) > 0) return ((a.items = [LOCALE_FORMATTERS[r[o]]?.(e[o])]), a);
+  return ((a.items = [LOCALE_FORMATTERS[MINUTES_FORMAT]?.(DEFAULT_MIN_VALUE)]), a);
+}
+var formatValue = (e, t) => FORMATTER[t]?.(format$2(e, FORMAT_PARTS[t]), t),
+  base$17 = "Timer_dac0a0aa",
+  icon$6 = "Timer_icon_a61415df",
+  icon__x16x16$1 = "Timer_icon__x16x16_5bab55e2",
+  icon__accent = "Timer_icon__accent_2cf70c3b",
+  icon__cooldown = "Timer_icon__cooldown_4a26d3f",
+  icon__x24x24$1 = "Timer_icon__x24x24_31571381",
+  icon__x32x32$1 = "Timer_icon__x32x32_807dde34",
+  icon__x48x48$1 = "Timer_icon__x48x48_ae779a9e",
+  icon__x80x80 = "Timer_icon__x80x80_251aafea",
+  label$1 = "Timer_label_1565f308",
+  label__x16x16 = "Timer_label__x16x16_e3ff224",
+  label__x24x24 = "Timer_label__x24x24_ca748cca",
+  label__x32x32 = "Timer_label__x32x32_13cccf38",
+  label__x48x48 = "Timer_label__x48x48_e3a9b542",
+  label__x80x80 = "Timer_label__x80x80_10a84ee6",
+  label__accent = "Timer_label__accent_ac7d4f7b",
+  label__cooldown = "Timer_label__cooldown_c2349ab9",
+  timer_module_default = {
+    base: base$17,
+    icon: icon$6,
+    icon__x16x16: icon__x16x16$1,
+    icon__accent: icon__accent,
+    icon__cooldown: icon__cooldown,
+    icon__x24x24: icon__x24x24$1,
+    icon__x32x32: icon__x32x32$1,
+    icon__x48x48: icon__x48x48$1,
+    icon__x80x80: icon__x80x80,
+    label: label$1,
+    label__x16x16: label__x16x16,
+    label__x24x24: label__x24x24,
+    label__x32x32: label__x32x32,
+    label__x48x48: label__x48x48,
+    label__x80x80: label__x80x80,
+    label__accent: label__accent,
+    label__cooldown: label__cooldown,
+  };
+function Timer({
+  start: e,
+  limit: t = 0,
+  tick: n = 1,
+  size: r = sizes$3.x24x24,
+  type: a = types$2.accent,
+  format: o = formats.default,
+  autostart: i = !0,
+  className: s,
+  classNames: u,
+}) {
+  const [l] = useTicker(
+    (0, import_react.useMemo)(
+      () => ({
+        type: "countdown",
+        start: isDuration(e) ? e : seconds(e),
+        limit: isDuration(t) ? t : seconds(t),
+        tick: isDuration(n) ? n : seconds(n),
+        autostart: i,
+      }),
+      [i, t, e, n],
+    ),
+  );
+  return (0, import_jsx_runtime.jsxs)("div", {
+    className: (0, import_classnames.default)(timer_module_default.base, s),
+    children: [
+      (0, import_jsx_runtime.jsx)("div", {
+        className: (0, import_classnames.default)(
+          timer_module_default.icon,
+          timer_module_default[`icon__${r}`],
+          timer_module_default[`icon__${a}`],
+          u?.icon,
+        ),
+      }),
+      o !== formats.superCompact &&
+        (0, import_jsx_runtime.jsx)("div", {
+          className: (0, import_classnames.default)(
+            timer_module_default.label,
+            timer_module_default[`label__${r}`],
+            timer_module_default[`label__${a}`],
+            u?.label,
+          ),
+          children: (0, import_jsx_runtime.jsx)(FormattedValue, {
+            size: r,
+            preFormatted: formatValue(l, o),
+          }),
+        }),
+    ],
+  });
+}
+((Timer.format = formats), (Timer.size = sizes$3), (Timer.type = types$2));
 var getFromCallStack = (e = 1) => {
     const t = new Error().stack;
     let n,
@@ -31759,8 +31759,11 @@ var getCssStyle = (e, t) => window.getComputedStyle(e, null).getPropertyValue(t)
       default:
         return e;
     }
-  },
-  base__s24x24 = "Reward_base__s24x24_954b5cee",
+  };
+function createParser(e) {
+  return (t) => parse$1(e, JSON.parse(t));
+}
+var base__s24x24 = "Reward_base__s24x24_954b5cee",
   base__s48x48 = "Reward_base__s48x48_21f091ec",
   base__small$2 = "Reward_base__small_3eddf28d",
   base__s80x80 = "Reward_base__s80x80_21f091ec",
@@ -32068,11 +32071,8 @@ var base$14 = "RewardsList_b956755b",
               ),
             ),
     });
-  });
-function createParser(e) {
-  return (t) => parse$1(e, JSON.parse(t));
-}
-var Alignment = (function (e) {
+  }),
+  Alignment = (function (e) {
     return ((e.FlexStart = "flex-start"), (e.Center = "center"), (e.FlexEnd = "flex-end"), e);
   })({}),
   THAI_LANGUAGE_CODE = "th",
@@ -33543,9 +33543,9 @@ var base$1 = "Bubble_df22310d",
     );
   });
 export {
-  useScrollByDragElements as $,
+  Bar$1 as $,
   computed as $t,
-  Tooltip$1 as A,
+  ExtendedText as A,
   intl$3 as An,
   useSkipFrame$1 as At,
   Specials$1 as B,
@@ -33553,40 +33553,40 @@ export {
   getRewardTooltipConfig as C,
   subtract as Cn,
   useSounds as Ct,
-  sizes$3 as D,
+  formats as D,
   clsx as Dn,
   useSimpleTooltip as Dt,
-  Currency as E,
+  Timer as E,
   easings$1 as En,
   useParamTooltip as Et,
-  ExtendedText as F,
+  FormatText as F,
   asFunction as Fn,
   useSprings as Ft,
-  sizes$6 as G,
+  Area as G,
   usePrevious as Gt,
   sizes$5 as H,
   useEmitterSubscribe as Ht,
-  MultilineOverflow$1 as I,
+  Tooltip$1 as I,
   useTransition$2 as It,
-  MaskArea as J,
+  useVerticalScroll as J,
   require_jsx_runtime as Jt,
-  Base$9 as K,
+  MaskArea as K,
   useAdaptive as Kt,
   NotificationWrapper as L,
   useCallbackOnEsc as Lt,
-  formats as M,
+  Currency as M,
   logBySeverity as Mn,
   useSpring as Mt,
   sizes$4 as N,
   concatWithPath as Nn,
   useSpringRef as Nt,
-  types$2 as O,
+  sizes$3 as O,
   require_react as On,
   useTooltip as Ot,
   types$3 as P,
   resources as Pn,
   useSpringValue as Pt,
-  dragDirections as Q,
+  Area$1 as Q,
   action as Qt,
   getOverlay$1 as R,
   useCloseOnEsc as Rt,
@@ -33600,88 +33600,88 @@ export {
   useEvent as Ut,
   Button as V,
   useEmitter as Vt,
-  Tabs as W,
+  Base$7 as W,
   useCallbackOnce as Wt,
-  useVerticalScroll as X,
+  dragDirections as X,
   assert$1 as Xt,
-  Bar as Y,
+  Base$8 as Y,
   breakpointsByType as Yt,
-  Base$10 as Z,
+  useScrollByDragElements as Z,
   createLayoutReadyInEffect as Zt,
   Alignment as _,
   ONE_DAY as _n,
-  string as _t,
+  observer as _t,
   sizes$1 as a,
   get$1 as an,
-  sizes$7 as at,
-  Reward as b,
+  useLoadPlugin as at,
+  createParser as b,
   millis as bn,
   JSXBuilder as bt,
   VehicleLevel as c,
   mapNonNullable as cn,
-  Image$1 as ct,
+  FormatText$1 as ct,
   cloneModel as d,
   pipe as dn,
-  UIProvider as dt,
+  number as dt,
   observable$1 as en,
-  Area$1 as et,
+  useScrollBounding as et,
   CardSingle as f,
   remToPx$1 as fn,
-  injectGFPlugins as ft,
+  object as ft,
   ProgressBar as g,
   normalizeResource as gn,
-  object as gt,
+  sizes$7 as gt,
   Delta as h,
   capitalize as hn,
-  number as ht,
+  Tabs as ht,
   VehicleInfo as i,
   forEach as in,
-  CloseButton as it,
-  Timer as j,
+  isReactComponent as it,
+  MultilineOverflow$1 as j,
   ImagesRClassProvider as jn,
   animated as jt,
-  FormatText as k,
+  types$2 as k,
   SoundsRClassProvider as kn,
   useUntilTimer as kt,
   Video as l,
   toArray$1 as ln,
-  FormatString as lt,
+  injectGFPlugins as lt,
   Card as m,
   play$1 as mn,
-  array as mt,
+  __vitePreload as mt,
   Bubble as n,
   filter as nn,
-  useScrollBounding as nt,
+  CloseButton as nt,
   types$1 as o,
   map as on,
-  isReactComponent as ot,
+  Image$1 as ot,
   CardsWrapper as p,
   sendEvent$2 as pn,
-  __vitePreload as pt,
-  Area as q,
+  string as pt,
+  Bar as q,
   useMedia as qt,
   useVerticalDrag as r,
   find as rn,
-  useHorizontalScroll as rt,
+  sizes$6 as rt,
   IconButton as s,
   mapFilter as sn,
-  useLoadPlugin as st,
+  FormatString as st,
   TruncatedText as t,
   reaction as tn,
-  Bar$1 as tt,
+  useHorizontalScroll as tt,
   isEmptyObject as u,
   noop$2 as un,
-  FormatText$1 as ut,
-  createParser as v,
+  array as ut,
+  Rewards as v,
   format$2 as vn,
-  observer as vt,
+  UIProvider as vt,
   getRewardValueType as w,
   toMillis as wn,
   useSoundsOptional as wt,
   getOverlay as x,
   now$1 as xn,
   computeds as xt,
-  Rewards as y,
+  Reward as y,
   add as yn,
   runView as yt,
   ImageSize$1 as z,

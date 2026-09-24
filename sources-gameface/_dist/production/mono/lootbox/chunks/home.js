@@ -23,17 +23,17 @@ import {
   bt as find,
   dt as useMedia,
   ft as require_jsx_runtime,
+  g as Video,
   gt as createTimeoutInEffect,
+  h as FormatText,
   j as ImageSize,
   jt as noop,
   kt as keyStringCodes,
   lt as useAdaptive,
-  m as Video,
   mt as breakpointsByType,
   n as renderString,
   nt as useKeydownListener,
   o as env,
-  p as FormatText,
   r as useLoadPlugin,
   t as Switcher$1,
   tt as useCallbackOnEsc,
@@ -51,7 +51,6 @@ import {
   t as getDynamicResources,
 } from "./resources.js";
 import { t as scroll_with_lips_default } from "./scroll_with_lips.js";
-import { n as hasOverlay, t as useModel$2 } from "../main/bundle.js";
 import { n as PurchaseButton, t as SOUNDS } from "./sounds.js";
 import {
   a as BoxSwitch,
@@ -60,6 +59,7 @@ import {
   t as StatsButton,
 } from "./buttons.js";
 import { a as getConfig } from "./shield.js";
+import { n as hasOverlay, t as useModel$2 } from "../main/bundle.js";
 import {
   a as getTooltipInfo,
   i as getRewardsCategoryName,

@@ -1,7 +1,7 @@
-import { Pn as e, _t as t, gt as s, ht as a, sn as i } from "./lib.js";
+import { Pn as e, dt as t, ft as s, pt as a, sn as i } from "./lib.js";
 var o = e.resolve("strings"),
   n = e.resolve("images"),
-  r = s({ id: a(), textPath: t(), iconPath: t() }),
+  r = s({ id: t(), textPath: a(), iconPath: a() }),
   c = (e) =>
     i(
       e,

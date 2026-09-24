@@ -25,5 +25,5 @@ def packBonusesWithTokensConvertionIfCompleted(pCur, model, event, questTokensCo
     else:
         bonuses = model.getBonuses()
         bonuses.clear()
-        packQuestBonusModelAndTooltipData(bonusPacker, bonuses, event, questBonuses=event.getBonuses(), tooltipData=tooltipData)
+        packQuestBonusModelAndTooltipData(bonusPacker, bonuses, event, questBonuses=[bonus for bonus in event.getBonuses() if not _isRandomRewardPlaceholder(bonus)], tooltipData=tooltipData)
     return

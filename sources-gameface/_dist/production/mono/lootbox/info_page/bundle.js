@@ -22,17 +22,17 @@ import {
   Wt as v,
   _t as N,
   bt as y,
-  c as j,
-  f as C,
-  ft as k,
+  d as j,
+  ft as C,
+  h as k,
   j as w,
   jt as S,
   k as I,
-  l as B,
-  lt as T,
+  lt as B,
+  m as T,
   ot as L,
-  p as P,
-  tt as z,
+  tt as P,
+  u as z,
   ut as $,
   w as R,
   wt as O,
@@ -50,7 +50,7 @@ import { t as ae } from "../chunks/divider2.js";
 var se = "ExternalLink_3e4af53",
   te = "ExternalLink_text_169bb4e3",
   re = "ExternalLink_icon_887a2bf3",
-  ie = e(k());
+  ie = e(C());
 function ne({ text: e, icon: a, onClick: s, className: t = "" }) {
   return (0, ie.jsxs)("div", {
     className: x(se, t),
@@ -273,7 +273,7 @@ function ze({ children: e, className: a = "" }) {
   return (0, ie.jsx)("div", {
     className: x(Te, s),
     style: t,
-    children: (0, ie.jsx)(P, { text: a, binding: { count: e }, formatWithBrackets: !0 }),
+    children: (0, ie.jsx)(k, { text: a, binding: { count: e }, formatWithBrackets: !0 }),
   });
 }),
   (ze.Overlay = function ({ reward: e, size: a, className: s = "" }) {
@@ -545,7 +545,7 @@ var Ze = {
         height: h,
         fontSize: g,
       } = (function (e) {
-        return T(
+        return B(
           {
             small: { imageSize: w.Big, width: 80, height: 80, fontSize: "14rem" },
             medium: { imageSize: w.Big, width: 80, height: 80, fontSize: "14rem" },
@@ -569,7 +569,7 @@ var Ze = {
         isInHangar: k,
         name: S,
         count: I,
-        id: B,
+        id: T,
         styleID: L,
       } = e;
     return (0, ie.jsx)(Fe, {
@@ -612,7 +612,7 @@ var Ze = {
             (0, ie.jsx)(Fe.PreviewButton, {
               image: d.previewIcon,
               onClick: () => {
-                (i(c), n({ bonusType: S, bonusId: B || "", styleID: L }));
+                (i(c), n({ bonusType: S, bonusId: T || "", styleID: L }));
               },
               className: ta.preview,
               classNames: { icon: ta.previewIcon },
@@ -652,7 +652,7 @@ var fa = d(function () {
       { texts: a } = e.computes.resources(),
       { chosenCategory: s } = e.root.get(),
       t = e.computes.getSlots(s),
-      r = T(
+      r = B(
         { probability: { min: 148, max: 300 } },
         {
           medium: { probability: { min: 148, max: 300 } },
@@ -760,7 +760,7 @@ function Ia({ children: e, className: a }) {
         (0, ie.jsx)(r, { className: ja, text: e, params: a }),
         0 === s
           ? (0, ie.jsx)(r, { className: Ca, text: i })
-          : (0, ie.jsx)(B, { type: t, reverse: !0, classNames: { icon: ka }, children: s }),
+          : (0, ie.jsx)(j, { type: t, reverse: !0, classNames: { icon: ka }, children: s }),
       ],
     });
   }),
@@ -910,7 +910,7 @@ var Qa = "Header_a98c2191",
         }),
         [t],
       ),
-      n = T(
+      n = B(
         { infoSize: U.sizes.small, backButtonImages: i("small") },
         {
           medium: { infoSize: U.sizes.small, backButtonImages: i("medium") },
@@ -922,7 +922,7 @@ var Qa = "Header_a98c2191",
       className: x(Qa, e),
       children: [
         (0, ie.jsx)(Ma, { icons: o, onClick: s.close }),
-        (0, ie.jsx)(C, { path: "ui.noise", className: Ya, fit: "cover" }),
+        (0, ie.jsx)(T, { path: "ui.noise", className: Ya, fit: "cover" }),
         r && (0, ie.jsx)(Ua, { eventName: a.eventName, onClick: s.showVideo, size: n.infoSize }),
       ],
     });
@@ -944,7 +944,7 @@ var ls = d(function () {
     { hasLootListLink: o, hasShopButton: c, chosenCategory: l } = e.root.get(),
     { eventExpireTime: d } = e.root.get();
   return (
-    z(a.close),
+    P(a.close),
     (0, ie.jsxs)(me, {
       className: es,
       style: { backgroundImage: `url(${s.background})` },
@@ -993,4 +993,4 @@ var ls = d(function () {
     })
   );
 });
-f((0, ie.jsx)(j, { children: (0, ie.jsx)(aa, { children: (0, ie.jsx)(ls, {}) }) }));
+f((0, ie.jsx)(z, { children: (0, ie.jsx)(aa, { children: (0, ie.jsx)(ls, {}) }) }));

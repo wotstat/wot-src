@@ -3214,7 +3214,7 @@
                   id: P,
                   itemInstalledSetupIdx: T,
                   isMountedMoreThanOne: k,
-                  contextMenuDisabled: S,
+                  contextMenuDisabled: S || G,
                   isSetupSwitching: s,
                 };
               return a().createElement(

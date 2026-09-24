@@ -5,22 +5,22 @@ import {
   Jt as l,
   L as t,
   St as n,
-  U as i,
-  V as o,
-  at as c,
-  dt as r,
-  it as p,
-  un as m,
-  ut as b,
-  vt as _,
-  yt as d,
+  U as o,
+  V as c,
+  _t as i,
+  ct as r,
+  nt as p,
+  rt as m,
+  un as _,
+  vt as b,
+  yt as h,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [h, u] = n()(
+/* empty css                 */ var [d, g] = n()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
-  g = "App_image_95a6abe1",
+  u = "App_image_95a6abe1",
   x = "App_9e9b93b",
   j = "App_base__popup_a2438b5f",
   f = "App_wrapper_ffdbb6e9",
@@ -31,20 +31,20 @@ import "../../chunks/_wg-global-styles.js";
   v = "App_close_654073f5",
   w = s(l(), 1),
   y = R.strings.user_missions.hub.challenge_missions.notification.start,
-  M = _(function () {
-    const { model: s, controls: l } = u(),
-      { first: n, isPopUp: r } = s.root.get(),
-      _ = n,
-      d = _ ? y.title() : y.newChallengesTitle(),
-      h = _ ? y.text() : y.newChallengesText();
+  M = i(function () {
+    const { model: s, controls: l } = g(),
+      { first: n, isPopUp: i } = s.root.get(),
+      b = n,
+      h = b ? y.title() : y.newChallengesTitle(),
+      d = b ? y.text() : y.newChallengesText();
     return (0, w.jsxs)(t, {
-      className: e(x, r && j),
+      className: e(x, i && j),
       children: [
         (0, w.jsxs)("div", {
           className: f,
           children: [
             (0, w.jsx)("div", {
-              className: g,
+              className: u,
               style: {
                 backgroundImage: `url(${R.images.gui.maps.icons.userMissions.hub.challenge.started_challenge()})`,
               },
@@ -52,21 +52,21 @@ import "../../chunks/_wg-global-styles.js";
             (0, w.jsxs)("div", {
               className: A,
               children: [
-                (0, w.jsx)(b, { text: d, className: N }),
-                (0, w.jsx)(b, { text: h, className: k }),
+                (0, w.jsx)(r, { text: h, className: N }),
+                (0, w.jsx)(r, { text: d, className: k }),
               ],
             }),
-            (0, w.jsx)(o, {
+            (0, w.jsx)(c, {
               className: C,
               size: a.small,
               onClick: l.openChallenge,
-              theme: i.primary,
+              theme: o.primary,
               children: y.button(),
             }),
           ],
         }),
-        r && (0, w.jsx)(p, { size: c.small, onClose: m, className: v }),
+        i && (0, w.jsx)(p, { size: m.small, onClose: _, className: v }),
       ],
     });
   });
-d((0, w.jsx)(h, { children: (0, w.jsx)(r, { children: (0, w.jsx)(M, {}) }) }));
+h((0, w.jsx)(d, { children: (0, w.jsx)(b, { children: (0, w.jsx)(M, {}) }) }));

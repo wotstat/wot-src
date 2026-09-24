@@ -228,7 +228,7 @@
             displayStatusIs: () => T,
             enableFullScreenModeSupported: () => L,
             events: () => r.U,
-            extraSize: () => P,
+            extraSize: () => y,
             forceTriggerMouseMove: () => b,
             freezeTextureBeforeResize: () => _,
             getBrowserTexturePath: () => c,
@@ -249,7 +249,7 @@
             setEventHandled: () => B,
             setInputPaddingsRem: () => d,
             setSidePaddingsRem: () => m,
-            whenTutorialReady: () => y,
+            whenTutorialReady: () => P,
           }));
         var i = u(308),
           a = u(544),
@@ -324,7 +324,7 @@
             (e, t) => ((e[t] = () => viewEnv.getShowingStatus() === n.W[t]), e),
             {},
           ),
-          P = {
+          y = {
             set: (e, t) => {
               viewEnv.setExtraSizeRem(e, t);
             },
@@ -332,7 +332,7 @@
               viewEnv.getExtraSizeRem(e, t);
             },
           },
-          y = Promise.all([
+          P = Promise.all([
             new Promise((e) => {
               window.isDomBuilt ? e() : r.U.onDomBuilt(e);
             }),
@@ -1175,8 +1175,8 @@
           return a().createElement(h, null, a().createElement(v, u, t));
         };
         var T = u(533),
-          P = u.n(T);
-        const y = "Collection_base_e1bbd",
+          y = u.n(T);
+        const P = "Collection_base_e1bbd",
           L = (e) => {
             const t = (0, i.useRef)(!1);
             t.current || (e(), (t.current = !0));
@@ -1673,7 +1673,7 @@
             return "";
           },
           Te = (e, t, u) => (u < e ? e : u > t ? t : u),
-          Pe = {
+          ye = {
             defaultConfig: {
               generalBackgroundColor: "#0D1525",
               pages: [
@@ -2623,7 +2623,7 @@
               ],
             },
           },
-          ye = "defaultConfig",
+          Pe = "defaultConfig",
           Le = "none",
           Ie = ((e, t) => {
             const u = (0, i.createContext)({});
@@ -2829,7 +2829,7 @@
                 u = (0, xe.Om)(
                   () => {
                     const e = t.root.get().currentCollection;
-                    return Pe[fe(e)] || Pe[ye];
+                    return ye[fe(e)] || ye[Pe];
                   },
                   { equals: ne },
                 ),
@@ -2887,7 +2887,7 @@
                 s = (0, xe.Om)(() => a().pages[o()].pageItems, { equals: ne }),
                 l = (0, xe.Om)(() => {
                   const e = t.root.get().currentCollection;
-                  return !Pe[fe(e)] || e === ye;
+                  return !ye[fe(e)] || e === Pe;
                 }),
                 d = (0, xe.Om)(() => {
                   const e = t.root.get();
@@ -3750,8 +3750,8 @@
               ),
             );
           },
-          Pt = "FormatText_base_f27a4",
-          yt = ({
+          yt = "FormatText_base_f27a4",
+          Pt = ({
             binding: e,
             text: t = "",
             classMix: u,
@@ -3766,7 +3766,7 @@
               o.split("\n").map((t, r) =>
                 a().createElement(
                   "div",
-                  { className: g()(Pt, u), key: `${t}-${r}` },
+                  { className: g()(yt, u), key: `${t}-${r}` },
                   ((e, t, u) =>
                     e.split(/%\((.*?)\)(?:[sd])?/g).map((e) => (u && e in u ? u[e] : Se(e, t))))(
                     t,
@@ -3839,7 +3839,7 @@
                 { className: Gt },
                 m((e, t) => a().createElement(qe.animated.div, { className: Ht, style: e }, t + 1)),
               ),
-              a().createElement(yt, { classMix: Mt, text: $t, binding: { pageCount: n } }),
+              a().createElement(Pt, { classMix: Mt, text: $t, binding: { pageCount: n } }),
               c > 0 &&
                 a().createElement(
                   "div",
@@ -4343,10 +4343,10 @@
               })
             );
           },
-          Pu = ["onEndAnimation"];
-        function yu() {
+          yu = ["onEndAnimation"];
+        function Pu() {
           return (
-            (yu = Object.assign
+            (Pu = Object.assign
               ? Object.assign.bind()
               : function (e) {
                   for (var t = 1; t < arguments.length; t++) {
@@ -4355,7 +4355,7 @@
                   }
                   return e;
                 }),
-            yu.apply(null, arguments)
+            Pu.apply(null, arguments)
           );
         }
         const Lu = (0, i.memo)((e) => {
@@ -4369,7 +4369,7 @@
                   u[i] = e[i];
                 }
               return u;
-            })(e, Pu);
+            })(e, yu);
           const n = (0, i.useRef)({}),
             r = (0, i.useCallback)(() => {
               ((n.current.from = void 0), t && t());
@@ -4379,7 +4379,7 @@
             (n.current.from = o),
             a().createElement(
               Ru,
-              yu({}, u, {
+              Pu({}, u, {
                 onEndAnimation: r,
                 key: `${o}-${u.to}-${null == u ? void 0 : u.additionalKey}`,
                 from: o,
@@ -4694,7 +4694,7 @@
               a().createElement(
                 "div",
                 { className: ti },
-                a().createElement(yt, {
+                a().createElement(Pt, {
                   classMix: ui,
                   text: R.strings.collections.footer.progressbar.activeState.receivedElements.text(),
                   binding: {
@@ -5132,8 +5132,8 @@
           xi = "CompletedState_base__animated_e4488",
           Ri = "CompletedState_base__completed_e546f",
           Ti = "CompletedState_glowWrapper_eabeb",
-          Pi = "CompletedState_glow_bab68",
-          yi = "CompletedState_title_fb05e",
+          yi = "CompletedState_glow_bab68",
+          Pi = "CompletedState_title_fb05e",
           Li = (0, U.Pi)(({ hasAnimation: e, isCompletedState: t }) =>
             a().createElement(
               "div",
@@ -5141,12 +5141,12 @@
               a().createElement(
                 "div",
                 { className: Ti },
-                a().createElement("div", { className: Pi }),
+                a().createElement("div", { className: yi }),
               ),
               a().createElement("div", { className: Si }),
               a().createElement(
                 "div",
-                { className: yi },
+                { className: Pi },
                 R.strings.collections.footer.collectionCompleted(),
               ),
             ),
@@ -5219,6 +5219,7 @@
             notification__symbol: "HorizontalTabs_notification__symbol_a2760",
             notification__small: "HorizontalTabs_notification__small_c3149",
             notification__large: "HorizontalTabs_notification__large_d46a5",
+            notification__single: "HorizontalTabs_notification__single_c6053",
             notification__dot: "HorizontalTabs_notification__dot_faa1d",
             notification__medium: "HorizontalTabs_notification__medium_f6177",
           },
@@ -5302,6 +5303,9 @@
                           ki.notification,
                           ki[`notification__${r.type}`],
                           ki[`notification__${null != (l = r.size) ? l : "medium"}`],
+                          "value" === r.type &&
+                            1 === String(r.value).length &&
+                            ki.notification__single,
                           null == s ? void 0 : s.notification,
                         ),
                       },
@@ -5411,11 +5415,11 @@
             );
           });
         engine.whenReady.then(() => {
-          P().render(
+          y().render(
             a().createElement(
               Ne,
               null,
-              a().createElement(x, { className: y }, a().createElement(Wi, null)),
+              a().createElement(x, { className: P }, a().createElement(Wi, null)),
             ),
             document.getElementById("root"),
           );

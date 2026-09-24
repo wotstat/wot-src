@@ -1,5 +1,5 @@
 import { r as e } from "./rolldown-runtime.js";
-import { $t as l, Rt as _, Xn as a, ci as s, ui as i } from "./lib.js";
+import { Ft as l, Xn as _, ci as a, qt as s, ui as i } from "./lib.js";
 import { h as c } from "./vendor.js";
 i();
 var n = {
@@ -27,20 +27,20 @@ var n = {
     fadeOut: "VehicleInfo_fadeOut_9c9aeed",
     fadeIn: "VehicleInfo_fadeIn_9c9aeed",
   },
-  o = a(),
+  o = _(),
   h = R.images.gui.maps.icons.vehicleTypes,
-  t = ({ isSpecial: e, vehicleLevel: l, vehicleName: _, vehicleType: a, isElite: i }) => {
+  t = ({ isSpecial: e, vehicleLevel: l, vehicleName: _, vehicleType: s, isElite: i }) => {
     const c = ((e, l) => {
       const _ = l.replace("-", "_"),
         a = e ? h.elite : h;
       if ((s = _) in a && "$num" !== s && "$dyn" !== s && "function" == typeof a[_])
         return { backgroundImage: `url(${a[_]()})` };
       var s;
-    })(i, a);
+    })(i, s);
     return (0, o.jsxs)("div", {
-      className: s(n.base, n[`base__level${l}`]),
+      className: a(n.base, n[`base__level${l}`]),
       children: [
-        (0, o.jsx)("div", { className: s(n.vehicleType, i && n.vehicleType__elite), style: c }),
+        (0, o.jsx)("div", { className: a(n.vehicleType, i && n.vehicleType__elite), style: c }),
         (0, o.jsx)("div", { className: e ? n.vehicleName : "", children: _ }),
       ],
     });
@@ -51,10 +51,10 @@ var n = {
     (0, o.jsxs)("div", {
       className: v,
       children: [
-        (0, o.jsx)(_, { path: "battlePass.tooltips.plus_logo", width: 64, height: 64 }),
+        (0, o.jsx)(l, { path: "battlePass.tooltips.plus_logo", width: 64, height: 64 }),
         (0, o.jsx)("div", {
           className: f,
-          children: (0, o.jsx)(l, {
+          children: (0, o.jsx)(s, {
             path: "battle_pass.tooltips.plusBanner.text",
             params: { color1: "#F2F2F7", color2: "#FCF2C4" },
             split: !0,

@@ -5501,7 +5501,10 @@
                 {
                   args: S,
                   isEnabled:
-                    !s && !n.isCurrentLayoutSkillsTraining && !n.isCurrentLayoutMentorAssigment,
+                    -1 !== u.tankmanID &&
+                    !s &&
+                    !n.isCurrentLayoutSkillsTraining &&
+                    !n.isCurrentLayoutMentorAssigment,
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                 },
                 i().createElement(

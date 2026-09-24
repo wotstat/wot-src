@@ -2,9 +2,9 @@ import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
   Or as e,
   Qn as t,
-  Qt as i,
-  Ur as a,
-  Xn as n,
+  Ur as i,
+  Xn as a,
+  Xt as n,
   Yn as l,
   _n as o,
   bt as r,
@@ -19,12 +19,12 @@ import { h as x } from "../../chunks/vendor.js";
 import { n as j, t as p } from "../../chunks/wot_plus_banner.js";
 import { n as v, t as b } from "../../chunks/per_battle_points_table.js";
 m();
-var u = s(i(), 1),
+var u = s(n(), 1),
   f = "VehicleList_82a6a4d",
   N = "VehicleList_info_41a84ef",
   g = "VehicleList_points_9c8e2f92",
   w = "VehicleList_top_af361d05",
-  P = n(),
+  P = a(),
   C = ({ vehiclesList: s }) => {
     const t = ({
       vehicleLevel: s,
@@ -75,7 +75,7 @@ var u = s(i(), 1),
       rewardPoints: s.array("rewardPoints"),
       vehiclesList: s.array("vehiclesList"),
     }),
-    a,
+    i,
   ),
   S = "Header_a103bd21",
   V = "Header_icon_eed746ab",
@@ -99,7 +99,7 @@ var u = s(i(), 1),
     }),
   B = "Points_2d36306a",
   M = "Points_separator_162767d5",
-  Q = "Points_105728d0",
+  X = "Points_105728d0",
   A = "Points_table_eac25b11",
   D = x(() => {
     const { model: s } = k(),
@@ -111,7 +111,7 @@ var u = s(i(), 1),
       children: [
         (0, P.jsx)("div", { className: M }),
         (0, P.jsx)("div", {
-          className: Q,
+          className: X,
           children: (0, P.jsx)(b, {
             showSeparator: !1,
             stretchBg: !0,
@@ -129,8 +129,8 @@ var u = s(i(), 1),
   }),
   F = "Content_d4d03eba",
   O = "Content_separator_774f59ff",
-  U = "Content_subtitleRules_2104a67e",
-  X = "Content_subtitleVehicles_ead57094",
+  Q = "Content_subtitleRules_2104a67e",
+  U = "Content_subtitleVehicles_ead57094",
   Y = "Content_pointsWrapper_21e79339",
   q = "Content_footerSeparator_a66c0c84",
   z = "Content_footer_92eb1524",
@@ -144,7 +144,7 @@ var u = s(i(), 1),
       className: F,
       children: [
         (0, P.jsx)(E, {}),
-        (0, P.jsx)("div", { className: U, children: I.rules() }),
+        (0, P.jsx)("div", { className: Q, children: I.rules() }),
         (0, P.jsxs)("div", {
           className: Y,
           children: [
@@ -156,7 +156,7 @@ var u = s(i(), 1),
         e.length > 0 &&
           (0, P.jsxs)(P.Fragment, {
             children: [
-              (0, P.jsx)("div", { className: X, children: I.specialVehicles() }),
+              (0, P.jsx)("div", { className: U, children: I.specialVehicles() }),
               (0, P.jsx)(C, { vehiclesList: e }),
               (0, P.jsx)("div", { className: q, children: (0, P.jsx)("div", { className: O }) }),
             ],

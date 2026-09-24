@@ -3,20 +3,20 @@ import {
   Dn as e,
   H as a,
   Jt as l,
-  L as i,
-  St as n,
-  U as o,
+  L as n,
+  St as o,
+  U as i,
   V as c,
-  at as t,
-  dt as r,
-  it as p,
-  un as m,
-  ut as d,
+  _t as t,
+  ct as r,
+  nt as p,
+  rt as m,
+  un as d,
   vt as _,
   yt as g,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [h, u] = n()(
+/* empty css                 */ var [h, u] = o()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -30,11 +30,11 @@ import "../../chunks/_wg-global-styles.js";
   v = "App_close_654073f5",
   C = s(l(), 1),
   y = R.strings.user_missions.hub.challenge_missions.notification.fail,
-  w = _(function () {
+  w = t(function () {
     const { model: s, controls: l } = u(),
-      { challengeName: n, isPopUp: r } = s.root.get();
-    return (0, C.jsxs)(i, {
-      className: e(j, r && x),
+      { challengeName: o, isPopUp: t } = s.root.get();
+    return (0, C.jsxs)(n, {
+      className: e(j, t && x),
       children: [
         (0, C.jsxs)("div", {
           className: f,
@@ -47,8 +47,8 @@ import "../../chunks/_wg-global-styles.js";
             }),
             (0, C.jsx)("div", {
               className: A,
-              children: (0, C.jsx)(d, {
-                params: { challenge: n },
+              children: (0, C.jsx)(r, {
+                params: { challenge: o },
                 text: y.title(),
                 className: N,
                 upgradeLegacy: !0,
@@ -58,13 +58,13 @@ import "../../chunks/_wg-global-styles.js";
               className: k,
               size: a.small,
               onClick: l.openChallenge,
-              theme: o.primary,
+              theme: i.primary,
               children: y.button(),
             }),
           ],
         }),
-        r && (0, C.jsx)(p, { size: t.small, onClose: m, className: v }),
+        t && (0, C.jsx)(p, { size: m.small, onClose: d, className: v }),
       ],
     });
   });
-g((0, C.jsx)(h, { children: (0, C.jsx)(r, { children: (0, C.jsx)(w, {}) }) }));
+g((0, C.jsx)(h, { children: (0, C.jsx)(_, { children: (0, C.jsx)(w, {}) }) }));

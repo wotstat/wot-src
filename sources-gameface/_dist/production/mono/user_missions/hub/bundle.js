@@ -10,18 +10,18 @@ const __vite__mapDeps = (
 ) => i.map((i) => d[i]);
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  G as s,
-  Jt as t,
-  Kt as u,
-  On as a,
-  St as n,
-  Tt as _,
-  W as r,
-  Zt as o,
-  bt as l,
-  dt as i,
-  on as h,
-  pt as m,
+  Jt as s,
+  Kt as t,
+  On as u,
+  St as a,
+  Tt as n,
+  Zt as _,
+  _t as r,
+  bt as o,
+  gt as l,
+  ht as i,
+  mt as h,
+  on as m,
   un as b,
   vt as c,
   yt as g,
@@ -36,17 +36,17 @@ import "../chunks/_wg-global-styles.js";
     umg_hub_quest_reroll: "umg_hub_quest_reroll",
   },
   p = {
-    [d.umg_hub_quest_progress]: _(d.umg_hub_quest_progress),
-    [d.umg_hub_quest_complete]: _(d.umg_hub_quest_complete),
-    [d.umg_hub_highlight]: _(d.umg_hub_highlight),
-    [d.umg_hub_unlock_bonus]: _(d.umg_hub_unlock_bonus),
-    [d.umg_hub_unlock_premium]: _(d.umg_hub_unlock_premium),
-    [d.umg_hub_quest_reroll]: _(d.umg_hub_quest_reroll),
+    [d.umg_hub_quest_progress]: n(d.umg_hub_quest_progress),
+    [d.umg_hub_quest_complete]: n(d.umg_hub_quest_complete),
+    [d.umg_hub_highlight]: n(d.umg_hub_highlight),
+    [d.umg_hub_unlock_bonus]: n(d.umg_hub_unlock_bonus),
+    [d.umg_hub_unlock_premium]: n(d.umg_hub_unlock_premium),
+    [d.umg_hub_quest_reroll]: n(d.umg_hub_quest_reroll),
   },
   k = "basic",
   C = "challenges",
-  f = e(a(), 1),
-  [v, j] = n()(
+  f = e(u(), 1),
+  [v, j] = a()(
     ({ observableModel: e }) => ({
       ...e.primitives(["currentTabId"]),
       tabsList: e.arrayClone("tabsList"),
@@ -63,24 +63,24 @@ import "../chunks/_wg-global-styles.js";
   y = "Hub_tabsContainer_e39aa10a",
   x = "Hub_tab_5c9743bd",
   z = "Hub_content_f95705c3",
-  E = e(t(), 1),
+  E = e(s(), 1),
   L = {
     [k]: f.lazy(() =>
-      m(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
+      h(() => import("../chunks/basic_missions.js"), __vite__mapDeps([0, 1]), import.meta.url),
     ),
     [C]: f.lazy(() =>
-      m(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
+      h(() => import("../chunks/challenge_missions.js"), __vite__mapDeps([0, 2]), import.meta.url),
     ),
   },
-  w = c(() => {
-    const { controls: e, model: t } = j(),
-      a = t.currentTabId.get(),
-      n = (0, f.useRef)(null),
-      _ = (0, f.useCallback)(() => {
-        o(() =>
-          o(() => {
-            if (n.current) {
-              const s = n.current.getBoundingClientRect(),
+  w = r(() => {
+    const { controls: e, model: s } = j(),
+      u = s.currentTabId.get(),
+      a = (0, f.useRef)(null),
+      n = (0, f.useCallback)(() => {
+        _(() =>
+          _(() => {
+            if (a.current) {
+              const s = a.current.getBoundingClientRect(),
                 t = viewEnv.getScale();
               e.onContentLayoutChanged(Math.floor(s.y / t), Math.floor(s.height / t));
             }
@@ -89,49 +89,49 @@ import "../chunks/_wg-global-styles.js";
       }, [e]);
     ((0, f.useEffect)(
       () => (
-        window.addEventListener("resize", _),
-        engine.on("clientResized", _),
+        window.addEventListener("resize", n),
+        engine.on("clientResized", n),
         () => {
-          (window.removeEventListener("resize", _), engine.off("clientResized", _));
+          (window.removeEventListener("resize", n), engine.off("clientResized", n));
         }
       ),
-      [_],
+      [n],
     ),
       (0, f.useEffect)(() => {
-        _();
-      }, [n, _]));
-    const l = u({ tabSize: s.small }, { large: { tabSize: s.medium } });
+        n();
+      }, [a, n]));
+    const r = t({ tabSize: l.small }, { large: { tabSize: l.medium } });
     return (0, E.jsxs)("div", {
       className: q,
       children: [
-        (0, E.jsx)(r, {
-          active: a,
+        (0, E.jsx)(i, {
+          active: u,
           theme: "primary",
-          size: l.tabSize,
+          size: r.tabSize,
           onActiveChange: e.onTabChange,
-          children: (0, E.jsx)(r.Switcher, {
+          children: (0, E.jsx)(i.Switcher, {
             classNames: { base: y },
-            children: h(t.tabsList.get(), (e) =>
-              (0, E.jsx)(r.Tab, { tabId: e.id, className: x, children: e.title }, `tab_${e.id}`),
+            children: m(s.tabsList.get(), (e) =>
+              (0, E.jsx)(i.Tab, { tabId: e.id, className: x, children: e.title }, `tab_${e.id}`),
             ),
           }),
         }),
         (0, E.jsx)("div", {
           className: z,
-          ref: n,
+          ref: a,
           children:
-            L[a] &&
+            L[u] &&
             (0, E.jsx)(f.Suspense, {
               fallback: (0, E.jsx)("div", {}),
-              children: f.createElement(L[a]),
+              children: f.createElement(L[u]),
             }),
         }),
       ],
     });
   });
 g(
-  new l()
-    .addWithProps(i, { soundsOverrides: p })
+  new o()
+    .addWithProps(c, { soundsOverrides: p })
     .add(v)
     .render((0, E.jsx)(w, {})),
 ).then(b);

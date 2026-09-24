@@ -1,42 +1,42 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  Br as s,
-  Et as t,
+  $t as s,
+  Br as t,
   In as a,
   Lr as n,
   Or as l,
   Qn as r,
   Qr as o,
   Rn as i,
-  Tt as d,
-  Xn as c,
-  Yn as _,
+  Xn as d,
+  Yn as c,
+  Yt as _,
   Zn as u,
   Zr as m,
   Zt as b,
   _n as p,
   ar as f,
   ci as h,
-  fn as C,
-  gn as v,
-  pi as x,
-  pn as j,
-  ti as g,
-  tn as k,
-  ui as S,
-  wt as N,
+  en as C,
+  fn as v,
+  gn as x,
+  pi as j,
+  pn as g,
+  ti as k,
+  tn as S,
+  ui as N,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as w } from "../chunks/vendor.js";
-var y = e(S(), 1),
+var y = e(N(), 1),
   I = "Bullets_212d5391",
-  E = "Bullets_bullet_ba77929c",
-  B = "Bullets_bullet__active_abbe1a09",
-  W = c();
+  B = "Bullets_bullet_ba77929c",
+  E = "Bullets_bullet__active_abbe1a09",
+  W = d();
 function O({ count: e, current: s, className: t }) {
   return (0, W.jsx)("div", {
     className: h(I, t),
-    children: f(e, (e) => (0, W.jsx)("div", { className: h(E, e + 1 === s && B) }, e)),
+    children: f(e, (e) => (0, W.jsx)("div", { className: h(B, e + 1 === s && E) }, e)),
   });
 }
 var $ = {
@@ -56,7 +56,7 @@ var $ = {
   },
   L = ({ children: e, currentSlide: s }) => {
     const t = (0, y.useRef)(null),
-      { breakpoint: a } = _(),
+      { breakpoint: a } = c(),
       n = a.weight < r.medium.weight,
       l = e,
       [o, i] = (0, y.useState)(0),
@@ -116,11 +116,11 @@ var $ = {
       children: [
         (0, W.jsx)("div", { className: M, style: { backgroundImage: `url(${e})` } }),
         (0, W.jsx)("div", { className: P, children: s }),
-        (0, W.jsx)("div", { className: U, children: t && g(t) }),
+        (0, W.jsx)("div", { className: U, children: t && k(t) }),
       ],
     });
   },
-  T = {
+  Z = {
     base: "Content_90bca771",
     bg: "Content_bg_3c3188a8",
     shadow: "Content_shadow_7e9b4ef",
@@ -143,63 +143,63 @@ var $ = {
     fadeOut: "Content_fadeOut_da09528a",
     fadeIn: "Content_fadeIn_da09528a",
   },
-  Z = x.resolve("images"),
-  A = x.resolve("strings"),
-  F = ({ slides: e, onClose: s }) => {
+  A = j.resolve("images"),
+  F = j.resolve("strings"),
+  Q = ({ slides: e, onClose: t }) => {
     const [a, l] = (0, y.useState)(1),
       r = 1 === a,
-      c = a === e.length,
+      d = a === e.length,
       m = e.length <= 1,
-      { breakpoint: p } = _(),
-      f = p.height <= u.Small ? d.small : d.medium,
-      C = Z.readOrEmpty("battlePass.backgrounds.common", "silent"),
-      v = (0, y.useCallback)(
+      { breakpoint: p } = c(),
+      f = p.height <= u.Small ? s.small : s.medium,
+      v = A.readOrEmpty("battlePass.backgrounds.common", "silent"),
+      x = (0, y.useCallback)(
         function () {
           r || (l(a - 1), o.sound(R.sounds.play()), o.sound(R.sounds.bp_glide_01()));
         },
         [r, a],
       ),
-      x = (0, y.useCallback)(
+      j = (0, y.useCallback)(
         function () {
-          c || (l(a + 1), o.sound(R.sounds.play()), o.sound(R.sounds.bp_glide_01()));
+          d || (l(a + 1), o.sound(R.sounds.play()), o.sound(R.sounds.bp_glide_01()));
         },
-        [c, a],
+        [d, a],
       ),
-      j = () => o.sound(R.sounds.highlight());
+      g = () => o.sound(R.sounds.highlight());
     return (
-      i(n.ARROW_LEFT, v),
-      i(n.ARROW_RIGHT, x),
+      i(n.ARROW_LEFT, x),
+      i(n.ARROW_RIGHT, j),
       (0, W.jsxs)("div", {
-        className: T.base,
-        style: { backgroundImage: `url(${C})` },
+        className: Z.base,
+        style: { backgroundImage: `url(${v})` },
         children: [
           (0, W.jsxs)(W.Fragment, {
             children: [
-              (0, W.jsx)("div", { className: T.bg, style: { backgroundImage: `url(${C})` } }),
-              (0, W.jsx)("div", { className: T.shadow }),
+              (0, W.jsx)("div", { className: Z.bg, style: { backgroundImage: `url(${v})` } }),
+              (0, W.jsx)("div", { className: Z.shadow }),
             ],
           }),
-          (0, W.jsx)(b, { onClose: s, className: T.closeButton }),
+          (0, W.jsx)(_, { onClose: t, className: Z.closeButton }),
           (0, W.jsxs)("div", {
-            className: T.content,
+            className: Z.content,
             children: [
               !m &&
-                (0, W.jsx)(N, {
-                  theme: t.secondary,
-                  onClick: v,
-                  onMouseEnter: j,
-                  className: h(T.sliderControl, T.sliderControl__prev),
+                (0, W.jsx)(b, {
+                  theme: C.secondary,
+                  onClick: x,
+                  onMouseEnter: g,
+                  className: h(Z.sliderControl, Z.sliderControl__prev),
                   disabled: r,
-                  children: (0, W.jsx)("div", { className: T.prev }),
+                  children: (0, W.jsx)("div", { className: Z.prev }),
                 }),
               !m &&
-                (0, W.jsx)(N, {
-                  theme: t.secondary,
-                  onClick: x,
-                  onMouseEnter: j,
-                  className: h(T.sliderControl, T.sliderControl__next),
-                  disabled: c,
-                  children: (0, W.jsx)("div", { className: T.next }),
+                (0, W.jsx)(b, {
+                  theme: C.secondary,
+                  onClick: j,
+                  onMouseEnter: g,
+                  className: h(Z.sliderControl, Z.sliderControl__next),
+                  disabled: d,
+                  children: (0, W.jsx)("div", { className: Z.next }),
                 }),
               (0, W.jsx)(L, {
                 currentSlide: a,
@@ -207,30 +207,30 @@ var $ = {
                   (0, W.jsx)(
                     z,
                     {
-                      icon: Z.readOrEmpty(`battlePass.intro.${e}`),
-                      title: A.readOrEmpty(`battle_pass.intro.${e}.title`),
-                      descr: A.readOrEmpty(`battle_pass.intro.${e}.text`),
+                      icon: A.readOrEmpty(`battlePass.intro.${e}`),
+                      title: F.readOrEmpty(`battle_pass.intro.${e}.title`),
+                      descr: F.readOrEmpty(`battle_pass.intro.${e}.text`),
                     },
                     s,
                   ),
                 ),
               }),
               (0, W.jsxs)("div", {
-                className: T.bottomContainer,
+                className: Z.bottomContainer,
                 children: [
                   (0, W.jsx)("div", {
-                    className: T.buttonWrapper,
-                    children: (0, W.jsx)(N, {
-                      theme: t.primary,
+                    className: Z.buttonWrapper,
+                    children: (0, W.jsx)(b, {
+                      theme: C.primary,
                       size: f,
-                      className: T.actionButton,
-                      onClick: c ? s : x,
-                      children: c
-                        ? A.readOrEmpty("battle_pass.intro.affirmative.button")
-                        : A.readOrEmpty("battle_pass.intro.next.button"),
+                      className: Z.actionButton,
+                      onClick: d ? t : j,
+                      children: d
+                        ? F.readOrEmpty("battle_pass.intro.affirmative.button")
+                        : F.readOrEmpty("battle_pass.intro.next.button"),
                     }),
                   }),
-                  (0, W.jsx)(O, { count: e.length, current: a, className: T.bullets }),
+                  (0, W.jsx)(O, { count: e.length, current: a, className: Z.bullets }),
                 ],
               }),
             ],
@@ -239,22 +239,22 @@ var $ = {
       })
     );
   },
-  [Q, X] = p()(
+  [T, X] = p()(
     ({ observableModel: e }) => {
-      const t = { root: e.object(), slides: e.array("slides") },
-        a = v(() => l(t.slides.get(), (e) => e), { equals: s });
-      return { ...t, computes: { getSlides: a } };
+      const s = { root: e.object(), slides: e.array("slides") },
+        a = x(() => l(s.slides.get(), (e) => e), { equals: t });
+      return { ...s, computes: { getSlides: a } };
     },
     ({ externalModel: e }) => ({}),
   ),
-  q = w(() => {
+  Y = w(() => {
     const { model: e } = X(),
       s = e.computes.getSlides();
-    return (a(() => m.close()), (0, W.jsx)(F, { slides: s, onClose: m.close }));
+    return (a(() => m.close()), (0, W.jsx)(Q, { slides: s, onClose: m.close }));
   });
-C(
-  new j()
-    .add(k)
-    .addWithProps(Q, {})
-    .render((0, W.jsx)(q, {})),
+v(
+  new g()
+    .add(S)
+    .addWithProps(T, {})
+    .render((0, W.jsx)(Y, {})),
 );

@@ -6016,60 +6016,65 @@
       },
       285: (e, t, n) => {
         "use strict";
-        n.d(t, { C: () => b });
+        n.d(t, { C: () => f });
         var a = n(9849),
           r = n.n(a),
-          u = n(7363),
-          s = n.n(u);
-        const i = "NumberRange_base_fab6b",
-          o = "NumberRange_base__animation_d9d14",
-          l = "NumberRange_from_aa86f",
-          c = "NumberRange_from__red_ce35d",
-          d = "NumberRange_separator_fd341",
-          m = s().memo(function ({ from: e, to: t, className: n }) {
-            return s().createElement(
+          u = n(828),
+          s = n(7363),
+          i = n.n(s);
+        const o = "NumberRange_base_fab6b",
+          l = "NumberRange_base__animation_d9d14",
+          c = "NumberRange_from_aa86f",
+          d = "NumberRange_from__red_ce35d",
+          m = "NumberRange_separator_fd341",
+          _ = i().memo(function ({ from: e, to: t, isAnimated: n, isFromRed: a, className: u }) {
+            return i().createElement(
               "div",
-              { className: r()(i, e <= 0 && o, n) },
-              s().createElement("div", { className: r()(l, e <= 0 && t > 0 && c) }, e),
-              e !== t &&
-                s().createElement(
-                  s().Fragment,
+              { className: r()(o, n && l, u) },
+              i().createElement("div", { className: r()(c, a && d) }, e),
+              void 0 !== t &&
+                i().createElement(
+                  i().Fragment,
                   null,
-                  s().createElement("div", { className: d }, "/"),
-                  s().createElement("div", null, t),
+                  i().createElement("div", { className: m }, "/"),
+                  i().createElement("div", null, t),
                 ),
             );
           }),
-          _ = "NumberRangeWithLabel_base_e56d6",
-          E = "NumberRangeWithLabel_title_ea468",
-          g = "NumberRangeWithLabel_counter_cf012",
-          p = "NumberRangeWithLabel_counterGlow_bb198",
-          b = ({
+          E = "NumberRangeWithLabel_base_e56d6",
+          g = "NumberRangeWithLabel_title_ea468",
+          p = "NumberRangeWithLabel_counter_cf012",
+          b = "NumberRangeWithLabel_counterGlow_bb198",
+          f = ({
             title: e,
             isGlowVisible: t = !1,
             className: n,
             classNames: a,
-            from: i,
-            to: o,
+            from: o,
+            to: l,
           }) => {
-            const l = (0, u.useMemo)(
-              () => ({
-                left: i !== o ? 7 * String(i).length + 4 : Math.round((7 * String(i).length) / 2),
-              }),
-              [i, o],
-            );
-            return s().createElement(
+            const c = u.Z5.getNumberFormat(o, u.B3.INTEGRAL),
+              d = (0, s.useMemo)(
+                () => ({ left: o !== l ? 7 * c.length + 4 : Math.round((7 * c.length) / 2) }),
+                [c, o, l],
+              );
+            return i().createElement(
               "div",
-              { className: r()(_, n) },
-              s().createElement("div", { className: E }, e),
-              s().createElement(
+              { className: r()(E, n) },
+              i().createElement("div", { className: g }, e),
+              i().createElement(
                 "div",
-                { className: g },
-                s().createElement(m, { from: i, to: o }),
+                { className: p },
+                i().createElement(_, {
+                  from: c,
+                  to: o !== l ? u.Z5.getNumberFormat(l, u.B3.INTEGRAL) : void 0,
+                  isAnimated: o <= 0,
+                  isFromRed: o <= 0 && l > 0,
+                }),
                 t &&
-                  s().createElement("div", {
-                    style: l,
-                    className: r()(p, null == a ? void 0 : a.counterGlow),
+                  i().createElement("div", {
+                    style: d,
+                    className: r()(b, null == a ? void 0 : a.counterGlow),
                   }),
               ),
             );

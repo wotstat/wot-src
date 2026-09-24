@@ -1,26 +1,26 @@
 import { r as s } from "./rolldown-runtime.js";
-import { Jt as i, Pn as t, ct as e, lt as o, on as a } from "./lib.js";
+import { Jt as i, Pn as t, on as o, ot as e, st as a } from "./lib.js";
 var n = "SpecConditions_title_af03f2f",
-  c = "SpecConditions_specCondition_b0565ee6",
-  r = "SpecConditions_specConditionText_5455dba",
-  l = s(i(), 1),
-  d = t.resolve("strings");
+  r = "SpecConditions_specCondition_b0565ee6",
+  c = "SpecConditions_specConditionText_5455dba",
+  d = s(i(), 1),
+  l = t.resolve("strings");
 function p(s) {
-  return (0, l.jsxs)("div", {
+  return (0, d.jsxs)("div", {
     className: s.className,
     children: [
-      (0, l.jsx)(o, { path: "user_missions.tooltip.vehicle_restrictions", className: n }),
-      a(s.specConditions, (s) =>
-        (0, l.jsxs)(
+      (0, d.jsx)(a, { path: "user_missions.tooltip.vehicle_restrictions", className: n }),
+      o(s.specConditions, (s) =>
+        (0, d.jsxs)(
           "div",
           {
-            className: c,
+            className: r,
             children: [
-              (0, l.jsx)(e, { width: 24, height: 24, path: s.iconPath }),
-              (0, l.jsx)(o, {
+              (0, d.jsx)(e, { width: 24, height: 24, path: s.iconPath }),
+              (0, d.jsx)(a, {
                 path: "weekly_quests.specialCondition.tooltip",
-                params: { condition: d.read(s.textPath) },
-                className: r,
+                params: { condition: l.read(s.textPath) },
+                className: c,
               }),
             ],
           },

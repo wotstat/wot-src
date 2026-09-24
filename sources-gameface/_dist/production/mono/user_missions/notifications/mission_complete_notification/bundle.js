@@ -7,14 +7,14 @@ import {
   St as n,
   U as i,
   V as r,
-  at as t,
-  dt as c,
-  it as p,
-  ln as m,
-  un as d,
-  ut as _,
-  vt as u,
-  yt as b,
+  _t as c,
+  ct as t,
+  ln as p,
+  nt as m,
+  rt as d,
+  un as _,
+  vt as b,
+  yt as u,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ import { t as h } from "../../chunks/rewards.js";
@@ -33,11 +33,11 @@ var [g, j] = n()(
   C = "App_close_654073f5",
   M = s(l(), 1),
   z = R.strings.user_missions.hub.challenge_missions.notification.mission_complete,
-  D = u(function () {
+  D = c(function () {
     const { model: s, controls: l } = j(),
       { missionID: n, isPopUp: c } = s.root.get(),
-      u = s.bonuses.get(),
-      b = m(u);
+      b = s.bonuses.get(),
+      u = p(b);
     return (0, M.jsxs)(o, {
       className: e(f, c && A),
       children: [
@@ -52,14 +52,14 @@ var [g, j] = n()(
             }),
             (0, M.jsx)("div", {
               className: N,
-              children: (0, M.jsx)(_, {
+              children: (0, M.jsx)(t, {
                 params: { mission: n },
                 text: z.title(),
                 className: v,
                 upgradeLegacy: !0,
               }),
             }),
-            (0, M.jsx)("div", { className: w, children: (0, M.jsx)(h, { bonuses: b }) }),
+            (0, M.jsx)("div", { className: w, children: (0, M.jsx)(h, { bonuses: u }) }),
             (0, M.jsx)(r, {
               className: y,
               size: a.small,
@@ -69,8 +69,8 @@ var [g, j] = n()(
             }),
           ],
         }),
-        c && (0, M.jsx)(p, { size: t.small, onClose: d, className: C }),
+        c && (0, M.jsx)(m, { size: d.small, onClose: _, className: C }),
       ],
     });
   });
-b((0, M.jsx)(g, { children: (0, M.jsx)(c, { children: (0, M.jsx)(D, {}) }) }));
+u((0, M.jsx)(g, { children: (0, M.jsx)(b, { children: (0, M.jsx)(D, {}) }) }));

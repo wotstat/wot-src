@@ -4409,60 +4409,65 @@
       },
       285: (e, t, n) => {
         "use strict";
-        n.d(t, { C: () => p });
+        n.d(t, { C: () => v });
         var a = n(9849),
           r = n.n(a),
-          u = n(7363),
-          i = n.n(u);
-        const s = "NumberRange_base_fab6b",
-          l = "NumberRange_base__animation_d9d14",
-          o = "NumberRange_from_aa86f",
-          c = "NumberRange_from__red_ce35d",
-          d = "NumberRange_separator_fd341",
-          m = i().memo(function ({ from: e, to: t, className: n }) {
-            return i().createElement(
+          u = n(828),
+          i = n(7363),
+          s = n.n(i);
+        const l = "NumberRange_base_fab6b",
+          o = "NumberRange_base__animation_d9d14",
+          c = "NumberRange_from_aa86f",
+          d = "NumberRange_from__red_ce35d",
+          m = "NumberRange_separator_fd341",
+          _ = s().memo(function ({ from: e, to: t, isAnimated: n, isFromRed: a, className: u }) {
+            return s().createElement(
               "div",
-              { className: r()(s, e <= 0 && l, n) },
-              i().createElement("div", { className: r()(o, e <= 0 && t > 0 && c) }, e),
-              e !== t &&
-                i().createElement(
-                  i().Fragment,
+              { className: r()(l, n && o, u) },
+              s().createElement("div", { className: r()(c, a && d) }, e),
+              void 0 !== t &&
+                s().createElement(
+                  s().Fragment,
                   null,
-                  i().createElement("div", { className: d }, "/"),
-                  i().createElement("div", null, t),
+                  s().createElement("div", { className: m }, "/"),
+                  s().createElement("div", null, t),
                 ),
             );
           }),
-          _ = "NumberRangeWithLabel_base_e56d6",
-          g = "NumberRangeWithLabel_title_ea468",
-          E = "NumberRangeWithLabel_counter_cf012",
-          b = "NumberRangeWithLabel_counterGlow_bb198",
-          p = ({
+          g = "NumberRangeWithLabel_base_e56d6",
+          E = "NumberRangeWithLabel_title_ea468",
+          b = "NumberRangeWithLabel_counter_cf012",
+          p = "NumberRangeWithLabel_counterGlow_bb198",
+          v = ({
             title: e,
             isGlowVisible: t = !1,
             className: n,
             classNames: a,
-            from: s,
-            to: l,
+            from: l,
+            to: o,
           }) => {
-            const o = (0, u.useMemo)(
-              () => ({
-                left: s !== l ? 7 * String(s).length + 4 : Math.round((7 * String(s).length) / 2),
-              }),
-              [s, l],
-            );
-            return i().createElement(
+            const c = u.Z5.getNumberFormat(l, u.B3.INTEGRAL),
+              d = (0, i.useMemo)(
+                () => ({ left: l !== o ? 7 * c.length + 4 : Math.round((7 * c.length) / 2) }),
+                [c, l, o],
+              );
+            return s().createElement(
               "div",
-              { className: r()(_, n) },
-              i().createElement("div", { className: g }, e),
-              i().createElement(
+              { className: r()(g, n) },
+              s().createElement("div", { className: E }, e),
+              s().createElement(
                 "div",
-                { className: E },
-                i().createElement(m, { from: s, to: l }),
+                { className: b },
+                s().createElement(_, {
+                  from: c,
+                  to: l !== o ? u.Z5.getNumberFormat(o, u.B3.INTEGRAL) : void 0,
+                  isAnimated: l <= 0,
+                  isFromRed: l <= 0 && o > 0,
+                }),
                 t &&
-                  i().createElement("div", {
-                    style: o,
-                    className: r()(b, null == a ? void 0 : a.counterGlow),
+                  s().createElement("div", {
+                    style: d,
+                    className: r()(p, null == a ? void 0 : a.counterGlow),
                   }),
               ),
             );
@@ -7033,7 +7038,10 @@
                 {
                   args: S,
                   isEnabled:
-                    !s && !a.isCurrentLayoutSkillsTraining && !a.isCurrentLayoutMentorAssigment,
+                    -1 !== n.tankmanID &&
+                    !s &&
+                    !a.isCurrentLayoutSkillsTraining &&
+                    !a.isCurrentLayoutMentorAssigment,
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                 },
                 u().createElement(

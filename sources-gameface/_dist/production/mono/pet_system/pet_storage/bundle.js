@@ -132,15 +132,15 @@ function ve({ petName: e, currentNameID: t, setCurrentNameID: s }) {
         onClick: () => {
           e.petNameID !== t && (l.sound(i.click), r(!1), s(e.petNameID));
         },
-        children: (0, pe.jsx)(q, {
+        children: (0, pe.jsx)(P, {
           className: _e.cardText,
           text: ge.readOrEmpty(`pet_names.petName_${e.petNameID}`),
         }),
       }),
-      (0, pe.jsx)(P.Root, {
+      (0, pe.jsx)(q.Root, {
         hidden: !a,
         className: _e.bubble,
-        children: (0, pe.jsx)(P.Icon, { type: se.bubble }),
+        children: (0, pe.jsx)(q.Icon, { type: V.bubble }),
       }),
       (0, pe.jsx)("div", { className: _e.background }),
       (0, pe.jsx)("div", { className: _e.border }),
@@ -155,7 +155,7 @@ var he = "NamingContent_19d112f7",
   fe = re(function ({ currentNameID: e, setCurrentNameID: t }) {
     const { model: s, controls: a } = le(),
       n = s.petNames.get(),
-      o = V();
+      o = se();
     return (
       (0, ce.useEffect)(() => {
         const e = o.subscribe.onBeforeClose(() => {
@@ -192,7 +192,7 @@ var he = "NamingContent_19d112f7",
   Pe = "save",
   Be = "cancel";
 function ke({ closeMode: e, onClick: t, disabled: s = !1 }) {
-  const a = V();
+  const a = se();
   return (0, pe.jsx)(b, {
     theme: e === Pe ? d.primary : d.secondary,
     size: c.small,
@@ -217,7 +217,7 @@ var Ie = "SettingsFooter_8ecc89b6",
     return (0, pe.jsxs)("div", {
       className: Ie,
       children: [
-        (0, pe.jsx)(F.Divider, { className: Ee }),
+        (0, pe.jsx)(te.Divider, { className: Ee }),
         (0, pe.jsx)("div", { className: Oe }),
         (0, pe.jsxs)("div", {
           className: De,
@@ -278,27 +278,27 @@ var Ie = "SettingsFooter_8ecc89b6",
       { petNameID: s, visibilityState: a } = t.root.get(),
       [r, n] = (0, ce.useState)(s),
       [o, i] = (0, ce.useState)(a);
-    return (0, pe.jsxs)(F.Display, {
+    return (0, pe.jsxs)(te.Display, {
       className: (0, ue.default)(Re, e === Ye.naming && We),
       children: [
         (0, pe.jsx)(I, { path: "petSystem.selected_light", className: ze }),
-        (0, pe.jsx)(F.Close, {}),
-        (0, pe.jsxs)(F.Header, {
+        (0, pe.jsx)(te.Close, {}),
+        (0, pe.jsxs)(te.Header, {
           className: Ue,
           children: [
-            (0, pe.jsx)(F.Title, {
+            (0, pe.jsx)(te.Title, {
               className: He,
               children: Qe.readOrEmpty(`pet_system.petSettings.${e}.title`),
             }),
-            (0, pe.jsx)(F.Subtitle, {
+            (0, pe.jsx)(te.Subtitle, {
               className: Le,
               children: Qe.readOrEmpty(`pet_system.petSettings.${e}.subtitle`),
             }),
-            (0, pe.jsx)(F.Divider, { className: qe }),
+            (0, pe.jsx)(te.Divider, { className: qe }),
             (0, pe.jsx)("div", { className: Je }),
           ],
         }),
-        (0, pe.jsxs)(F.Body, {
+        (0, pe.jsxs)(te.Body, {
           className: Ge,
           children: [
             e === Ye.naming
@@ -332,9 +332,9 @@ var Ie = "SettingsFooter_8ecc89b6",
       i = (r && !a) || e === Ye.visibility;
     return (0, pe.jsx)("div", {
       className: Ke.base,
-      children: (0, pe.jsxs)(F, {
+      children: (0, pe.jsxs)(te, {
         children: [
-          (0, pe.jsx)(F.Trigger, {
+          (0, pe.jsx)(te.Trigger, {
             children: (t, n) =>
               (0, pe.jsxs)(b, {
                 ...(!n.opened && o),
@@ -352,15 +352,15 @@ var Ie = "SettingsFooter_8ecc89b6",
                   }),
                   r &&
                     !a &&
-                    (0, pe.jsx)(P.Root, {
+                    (0, pe.jsx)(q.Root, {
                       hidden: !s,
                       className: Ke.bubble,
-                      children: (0, pe.jsx)(P.Icon, { type: se.bubble }),
+                      children: (0, pe.jsx)(q.Icon, { type: V.bubble }),
                     }),
                 ],
               }),
           }),
-          (0, pe.jsx)(F.Portal, {
+          (0, pe.jsx)(te.Portal, {
             lazy: !0,
             position: "bottom",
             pivot: 1,
@@ -970,10 +970,10 @@ function Js({
       a &&
         (0, pe.jsx)("div", {
           className: Us,
-          children: (0, pe.jsx)(P.Root, {
-            children: (0, pe.jsx)(P.Value, {
+          children: (0, pe.jsx)(q.Root, {
+            children: (0, pe.jsx)(q.Value, {
               value: qs.readOrEmpty("pet_system.petStorage.petCard.promo"),
-              size: te.medium,
+              size: F.medium,
             }),
           }),
         }),

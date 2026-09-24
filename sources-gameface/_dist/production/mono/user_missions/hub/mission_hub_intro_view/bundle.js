@@ -6,7 +6,7 @@ import {
   St as o,
   U as t,
   V as r,
-  dt as a,
+  _t as a,
   vt as l,
   yt as c,
 } from "../../chunks/lib.js";
@@ -19,13 +19,13 @@ var [d, m] = o()(
   ),
   u = "MissionHubIntroView_23a12109",
   b = "MissionHubIntroView_content_61444cea",
-  h = "MissionHubIntroView_image_c296ca82",
-  j = "MissionHubIntroView_info_938a77f3",
-  x = "MissionHubIntroView_title_d8509827",
-  _ = "MissionHubIntroView_description_f111e687",
+  _ = "MissionHubIntroView_image_c296ca82",
+  h = "MissionHubIntroView_info_938a77f3",
+  j = "MissionHubIntroView_title_d8509827",
+  x = "MissionHubIntroView_description_f111e687",
   v = "MissionHubIntroView_divider_c63a837",
   g = s(i(), 1),
-  p = l(() => {
+  p = a(() => {
     n();
     const { model: s, controls: i } = m();
     return (0, g.jsx)("div", {
@@ -34,14 +34,14 @@ var [d, m] = o()(
         className: b,
         children: [
           (0, g.jsx)("div", {
-            className: h,
+            className: _,
             style: { background: `url(${s.icon.get()}) no-repeat center` },
           }),
           (0, g.jsxs)("div", {
-            className: j,
+            className: h,
             children: [
-              (0, g.jsx)("div", { className: x, children: s.header.get() }),
-              (0, g.jsx)("div", { className: _, children: s.description.get() }),
+              (0, g.jsx)("div", { className: j, children: s.header.get() }),
+              (0, g.jsx)("div", { className: x, children: s.description.get() }),
               (0, g.jsx)("div", { className: v }),
               (0, g.jsx)(r, {
                 size: e.small,
@@ -55,4 +55,4 @@ var [d, m] = o()(
       }),
     });
   });
-c((0, g.jsx)(a, { children: (0, g.jsx)(d, { children: (0, g.jsx)(p, {}) }) }));
+c((0, g.jsx)(l, { children: (0, g.jsx)(d, { children: (0, g.jsx)(p, {}) }) }));

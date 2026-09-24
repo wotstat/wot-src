@@ -23180,6 +23180,315 @@ function UIProvider(e) {
     }),
   });
 }
+var themes$1 = { primary: "primary", secondary: "secondary", custom: "custom" },
+  sizes$9 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
+  falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
+  cx$21 = clsx,
+  cva = (e, t) => (n) => {
+    var r;
+    if (null == (null == t ? void 0 : t.variants))
+      return cx$21(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
+    const { variants: a, defaultVariants: o } = t,
+      i = Object.keys(a).map((e) => {
+        const t = null == n ? void 0 : n[e],
+          r = null == o ? void 0 : o[e];
+        if (null === t) return null;
+        const i = falsyToString(t) || falsyToString(r);
+        return a[e][i];
+      }),
+      s =
+        n &&
+        Object.entries(n).reduce((e, t) => {
+          let [n, r] = t;
+          return (void 0 === r || (e[n] = r), e);
+        }, {});
+    return cx$21(
+      e,
+      i,
+      null == t || null === (r = t.compoundVariants) || void 0 === r
+        ? void 0
+        : r.reduce((e, t) => {
+            let { class: n, className: r, ...a } = t;
+            return Object.entries(a).every((e) => {
+              let [t, n] = e;
+              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
+            })
+              ? [...e, n, r]
+              : e;
+          }, []),
+      null == n ? void 0 : n.class,
+      null == n ? void 0 : n.className,
+    );
+  };
+function defineStyledComponent(e, t, n) {
+  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
+    a = r ? Object.keys(r) : [];
+  if ("object" == typeof t) {
+    const n = t,
+      r = cva(n.className, n.cva),
+      o = n.element,
+      i = (0, import_react.forwardRef)(function (e, t) {
+        return (0, import_react.createElement)(o, {
+          ...("function" == typeof o ? e : cleanProps(a, e)),
+          ref: t,
+          className: r(e),
+        });
+      });
+    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
+  }
+  const o = cva(t, n),
+    i = (0, import_react.forwardRef)(function (t, n) {
+      return (0, import_jsx_runtime.jsx)("div", {
+        "data-name": e,
+        ...cleanProps(a, t),
+        ref: n,
+        className: o(t),
+      });
+    });
+  return ((i.displayName = e), n && (i.cva = n), i);
+}
+function cleanProps(e, t) {
+  if (0 === e.length) return t;
+  const n = { ...t };
+  for (const r of e) delete n[r];
+  return n;
+}
+var base$55 = "HeadlessButton_df8536fc",
+  fadeInWithScale$64 = "HeadlessButton_fadeInWithScale_6a626904",
+  slideUp$64 = "HeadlessButton_slideUp_6a626904",
+  blink$64 = "HeadlessButton_blink_6a626904",
+  scale$64 = "HeadlessButton_scale_6a626904",
+  rotate$64 = "HeadlessButton_rotate_6a626904",
+  windowIn$64 = "HeadlessButton_windowIn_6a626904",
+  fadeOut$64 = "HeadlessButton_fadeOut_6a626904",
+  fadeIn$64 = "HeadlessButton_fadeIn_6a626904",
+  headless_button_module_default = {
+    base: base$55,
+    fadeInWithScale: fadeInWithScale$64,
+    slideUp: slideUp$64,
+    blink: blink$64,
+    scale: scale$64,
+    rotate: rotate$64,
+    windowIn: windowIn$64,
+    fadeOut: fadeOut$64,
+    fadeIn: fadeIn$64,
+  },
+  HeadlessButtonBase = defineStyledComponent("Button", {
+    element: "button",
+    className: headless_button_module_default.base,
+  }),
+  HeadlessButton = (0, import_react.forwardRef)(function (
+    {
+      children: e,
+      onClick: t,
+      onMouseEnter: n,
+      soundTarget: r,
+      disabled: a = !1,
+      silent: o = !1,
+      ...i
+    },
+    s,
+  ) {
+    const u = useSounds();
+    return (0, import_jsx_runtime.jsx)(HeadlessButtonBase, {
+      ...i,
+      ref: s,
+      onMouseEnter: function (e) {
+        (a || o || u.play("mouse-enter", { target: r || "Button", original: e }), n?.(e));
+      },
+      onClick: function (e) {
+        a || (o || u.play("click", { target: r || "Button", original: e }), t?.(e));
+      },
+      children: e,
+    });
+  }),
+  background$8 = "Button_background_98ebcfb8",
+  border$5 = "Button_border_7e6390d7",
+  overlay$3 = "Button_overlay_174632c8",
+  base$54 = "Button_70871946",
+  base__enabled$1 = "Button_base__enabled_96634d40",
+  base__disabled$5 = "Button_base__disabled_b713e04a",
+  content$7 = "Button_content_298de63f",
+  content__fontAligned = "Button_content__fontAligned_66115778",
+  fadeInWithScale$63 = "Button_fadeInWithScale_6bcdc8c",
+  slideUp$63 = "Button_slideUp_6bcdc8c",
+  blink$63 = "Button_blink_6bcdc8c",
+  scale$63 = "Button_scale_6bcdc8c",
+  rotate$63 = "Button_rotate_6bcdc8c",
+  windowIn$63 = "Button_windowIn_6bcdc8c",
+  fadeOut$63 = "Button_fadeOut_6bcdc8c",
+  fadeIn$63 = "Button_fadeIn_6bcdc8c",
+  button_module_default = {
+    background: background$8,
+    border: border$5,
+    overlay: overlay$3,
+    base: base$54,
+    base__enabled: base__enabled$1,
+    base__disabled: base__disabled$5,
+    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
+    "base__size-small": "Button_base__size-small_fc7095a4",
+    "base__size-medium": "Button_base__size-medium_814d61f0",
+    "base__size-large": "Button_base__size-large_83da852e",
+    "base__theme-primary": "Button_base__theme-primary_8ba55469",
+    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
+    content: content$7,
+    content__fontAligned: content__fontAligned,
+    fadeInWithScale: fadeInWithScale$63,
+    slideUp: slideUp$63,
+    blink: blink$63,
+    scale: scale$63,
+    rotate: rotate$63,
+    windowIn: windowIn$63,
+    fadeOut: fadeOut$63,
+    fadeIn: fadeIn$63,
+  },
+  Button$1 = (0, import_react.forwardRef)(function (
+    {
+      children: e,
+      size: t = sizes$9.large,
+      theme: n = themes$1.primary,
+      disabled: r = !1,
+      silent: a = !1,
+      autoAlignContent: o = !0,
+      classNames: i,
+      className: s,
+      ...u
+    },
+    l,
+  ) {
+    return (0, import_jsx_runtime.jsxs)(HeadlessButton, {
+      ...u,
+      ref: l,
+      silent: a,
+      disabled: r,
+      className: clsx(
+        button_module_default.base,
+        button_module_default[`base__size-${t}`],
+        button_module_default[`base__theme-${n}`],
+        r ? button_module_default.base__disabled : button_module_default.base__enabled,
+        s,
+        i?.base,
+      ),
+      onClick: function (e) {
+        r || u.onClick?.(e);
+      },
+      children: [
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.background, i?.background),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.border, i?.border),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(button_module_default.overlay, i?.overlay),
+        }),
+        (0, import_jsx_runtime.jsx)("div", {
+          className: clsx(
+            button_module_default.content,
+            o && button_module_default.content__fontAligned,
+            i?.content,
+          ),
+          children: e,
+        }),
+      ],
+    });
+  });
+((Button$1.themes = themes$1), (Button$1.sizes = sizes$9));
+var require_classnames = __commonJSMin((e, t) => {
+    !(function () {
+      var e = {}.hasOwnProperty;
+      function n() {
+        for (var e = "", t = 0; t < arguments.length; t++) {
+          var n = arguments[t];
+          n && (e = a(e, r(n)));
+        }
+        return e;
+      }
+      function r(t) {
+        if ("string" == typeof t || "number" == typeof t) return t;
+        if ("object" != typeof t) return "";
+        if (Array.isArray(t)) return n.apply(null, t);
+        if (
+          t.toString !== Object.prototype.toString &&
+          !t.toString.toString().includes("[native code]")
+        )
+          return t.toString();
+        var r = "";
+        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
+        return r;
+      }
+      function a(e, t) {
+        return t ? (e ? e + " " + t : e + t) : e;
+      }
+      void 0 !== t && t.exports
+        ? ((n.default = n), (t.exports = n))
+        : "function" == typeof define && "object" == typeof define.amd && define.amd
+          ? define("classnames", [], function () {
+              return n;
+            })
+          : (window.classNames = n);
+    })();
+  }),
+  import_classnames = __toESM(require_classnames()),
+  base$53 = "CloseButton_7488a1b8",
+  base__medium$4 = "CloseButton_base__medium_97d04067",
+  base__small$10 = "CloseButton_base__small_c1b29bae",
+  base__extraSmall$1 = "CloseButton_base__extraSmall_f52764c1",
+  base__x96x96$1 = "CloseButton_base__x96x96_8157b84d",
+  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
+  fadeInWithScale$62 = "CloseButton_fadeInWithScale_987cb365",
+  slideUp$62 = "CloseButton_slideUp_987cb365",
+  blink$62 = "CloseButton_blink_987cb365",
+  scale$62 = "CloseButton_scale_987cb365",
+  rotate$62 = "CloseButton_rotate_987cb365",
+  windowIn$62 = "CloseButton_windowIn_987cb365",
+  fadeOut$62 = "CloseButton_fadeOut_987cb365",
+  fadeIn$62 = "CloseButton_fadeIn_987cb365",
+  close_button_module_default = {
+    base: base$53,
+    base__medium: base__medium$4,
+    base__small: base__small$10,
+    base__extraSmall: base__extraSmall$1,
+    base__x96x96: base__x96x96$1,
+    base__x32x32: base__x32x32,
+    fadeInWithScale: fadeInWithScale$62,
+    slideUp: slideUp$62,
+    blink: blink$62,
+    scale: scale$62,
+    rotate: rotate$62,
+    windowIn: windowIn$62,
+    fadeOut: fadeOut$62,
+    fadeIn: fadeIn$62,
+  },
+  sizes$8 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  upscaleImageSizes = {
+    [sizes$8.medium]: "x96x96",
+    [sizes$8.small]: sizes$8.medium,
+    [sizes$8.extraSmall]: "x32x32",
+  };
+function CloseButton({
+  size: e = sizes$8.medium,
+  hoverSound: t = sounds$1.highlight,
+  clickSound: n = sounds$1.click,
+  className: r,
+  onHover: a,
+  onClose: o,
+}) {
+  const i = useUpscale(
+    close_button_module_default[`base__${e}`],
+    close_button_module_default[`base__${upscaleImageSizes[e]}`],
+  );
+  return (0, import_jsx_runtime.jsx)("div", {
+    className: (0, import_classnames.default)(close_button_module_default.base, i, r),
+    onMouseEnter: () => {
+      (play$1.sound(t), a?.());
+    },
+    onClick: () => {
+      (play$1.sound(n), o());
+    },
+  });
+}
+CloseButton.size = sizes$8;
 var NodeTypes = { Text: 1, Tag: 2, Var: 3 };
 function parseArguments(e) {
   const t = [];
@@ -23246,30 +23555,30 @@ function parse(e, t) {
 }
 var COLORS =
     "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$55 = "FormatText_db904f12",
+  base$52 = "FormatText_db904f12",
   base__fullSize = "FormatText_base__fullSize_a514958e",
   nowrap = "FormatText_nowrap_ff69eca3",
-  fadeInWithScale$64 = "FormatText_fadeInWithScale_d6a0698c",
-  slideUp$64 = "FormatText_slideUp_d6a0698c",
-  blink$64 = "FormatText_blink_d6a0698c",
-  scale$64 = "FormatText_scale_d6a0698c",
-  rotate$64 = "FormatText_rotate_d6a0698c",
-  windowIn$64 = "FormatText_windowIn_d6a0698c",
-  fadeOut$64 = "FormatText_fadeOut_d6a0698c",
-  fadeIn$64 = "FormatText_fadeIn_d6a0698c",
+  fadeInWithScale$61 = "FormatText_fadeInWithScale_d6a0698c",
+  slideUp$61 = "FormatText_slideUp_d6a0698c",
+  blink$61 = "FormatText_blink_d6a0698c",
+  scale$61 = "FormatText_scale_d6a0698c",
+  rotate$61 = "FormatText_rotate_d6a0698c",
+  windowIn$61 = "FormatText_windowIn_d6a0698c",
+  fadeOut$61 = "FormatText_fadeOut_d6a0698c",
+  fadeIn$61 = "FormatText_fadeIn_d6a0698c",
   format_text_module_default = {
     COLORS: COLORS,
-    base: base$55,
+    base: base$52,
     base__fullSize: base__fullSize,
     nowrap: nowrap,
-    fadeInWithScale: fadeInWithScale$64,
-    slideUp: slideUp$64,
-    blink: blink$64,
-    scale: scale$64,
-    rotate: rotate$64,
-    windowIn: windowIn$64,
-    fadeOut: fadeOut$64,
-    fadeIn: fadeIn$64,
+    fadeInWithScale: fadeInWithScale$61,
+    slideUp: slideUp$61,
+    blink: blink$61,
+    scale: scale$61,
+    rotate: rotate$61,
+    windowIn: windowIn$61,
+    fadeOut: fadeOut$61,
+    fadeIn: fadeIn$61,
   },
   legacyColors = new Set(format_text_module_default.COLORS?.split(", ") ?? []),
   keyId = 0;
@@ -23514,101 +23823,6 @@ function FormatPluralString({ path: e, count: t, ...n }) {
     ...n,
   });
 }
-var require_classnames = __commonJSMin((e, t) => {
-    !(function () {
-      var e = {}.hasOwnProperty;
-      function n() {
-        for (var e = "", t = 0; t < arguments.length; t++) {
-          var n = arguments[t];
-          n && (e = a(e, r(n)));
-        }
-        return e;
-      }
-      function r(t) {
-        if ("string" == typeof t || "number" == typeof t) return t;
-        if ("object" != typeof t) return "";
-        if (Array.isArray(t)) return n.apply(null, t);
-        if (
-          t.toString !== Object.prototype.toString &&
-          !t.toString.toString().includes("[native code]")
-        )
-          return t.toString();
-        var r = "";
-        for (var o in t) e.call(t, o) && t[o] && (r = a(r, o));
-        return r;
-      }
-      function a(e, t) {
-        return t ? (e ? e + " " + t : e + t) : e;
-      }
-      void 0 !== t && t.exports
-        ? ((n.default = n), (t.exports = n))
-        : "function" == typeof define && "object" == typeof define.amd && define.amd
-          ? define("classnames", [], function () {
-              return n;
-            })
-          : (window.classNames = n);
-    })();
-  }),
-  import_classnames = __toESM(require_classnames()),
-  base$54 = "CloseButton_7488a1b8",
-  base__medium$4 = "CloseButton_base__medium_97d04067",
-  base__small$10 = "CloseButton_base__small_c1b29bae",
-  base__extraSmall$1 = "CloseButton_base__extraSmall_f52764c1",
-  base__x96x96$1 = "CloseButton_base__x96x96_8157b84d",
-  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
-  fadeInWithScale$63 = "CloseButton_fadeInWithScale_987cb365",
-  slideUp$63 = "CloseButton_slideUp_987cb365",
-  blink$63 = "CloseButton_blink_987cb365",
-  scale$63 = "CloseButton_scale_987cb365",
-  rotate$63 = "CloseButton_rotate_987cb365",
-  windowIn$63 = "CloseButton_windowIn_987cb365",
-  fadeOut$63 = "CloseButton_fadeOut_987cb365",
-  fadeIn$63 = "CloseButton_fadeIn_987cb365",
-  close_button_module_default = {
-    base: base$54,
-    base__medium: base__medium$4,
-    base__small: base__small$10,
-    base__extraSmall: base__extraSmall$1,
-    base__x96x96: base__x96x96$1,
-    base__x32x32: base__x32x32,
-    fadeInWithScale: fadeInWithScale$63,
-    slideUp: slideUp$63,
-    blink: blink$63,
-    scale: scale$63,
-    rotate: rotate$63,
-    windowIn: windowIn$63,
-    fadeOut: fadeOut$63,
-    fadeIn: fadeIn$63,
-  },
-  sizes$9 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
-  upscaleImageSizes = {
-    [sizes$9.medium]: "x96x96",
-    [sizes$9.small]: sizes$9.medium,
-    [sizes$9.extraSmall]: "x32x32",
-  };
-function CloseButton({
-  size: e = sizes$9.medium,
-  hoverSound: t = sounds$1.highlight,
-  clickSound: n = sounds$1.click,
-  className: r,
-  onHover: a,
-  onClose: o,
-}) {
-  const i = useUpscale(
-    close_button_module_default[`base__${e}`],
-    close_button_module_default[`base__${upscaleImageSizes[e]}`],
-  );
-  return (0, import_jsx_runtime.jsx)("div", {
-    className: (0, import_classnames.default)(close_button_module_default.base, i, r),
-    onMouseEnter: () => {
-      (play$1.sound(t), a?.());
-    },
-    onClick: () => {
-      (play$1.sound(n), o());
-    },
-  });
-}
-CloseButton.size = sizes$9;
 var TabsContext = (0, import_react.createContext)(null);
 function useTabsContext() {
   const e = (0, import_react.useContext)(TabsContext);
@@ -23622,123 +23836,52 @@ function Content({ children: e, keyOverride: t }) {
     t ?? n.active,
   );
 }
-var falsyToString = (e) => ("boolean" == typeof e ? `${e}` : 0 === e ? "0" : e),
-  cx$20 = clsx,
-  cva = (e, t) => (n) => {
-    var r;
-    if (null == (null == t ? void 0 : t.variants))
-      return cx$20(e, null == n ? void 0 : n.class, null == n ? void 0 : n.className);
-    const { variants: a, defaultVariants: o } = t,
-      i = Object.keys(a).map((e) => {
-        const t = null == n ? void 0 : n[e],
-          r = null == o ? void 0 : o[e];
-        if (null === t) return null;
-        const i = falsyToString(t) || falsyToString(r);
-        return a[e][i];
-      }),
-      s =
-        n &&
-        Object.entries(n).reduce((e, t) => {
-          let [n, r] = t;
-          return (void 0 === r || (e[n] = r), e);
-        }, {});
-    return cx$20(
-      e,
-      i,
-      null == t || null === (r = t.compoundVariants) || void 0 === r
-        ? void 0
-        : r.reduce((e, t) => {
-            let { class: n, className: r, ...a } = t;
-            return Object.entries(a).every((e) => {
-              let [t, n] = e;
-              return Array.isArray(n) ? n.includes({ ...o, ...s }[t]) : { ...o, ...s }[t] === n;
-            })
-              ? [...e, n, r]
-              : e;
-          }, []),
-      null == n ? void 0 : n.class,
-      null == n ? void 0 : n.className,
-    );
-  };
-function defineStyledComponent(e, t, n) {
-  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : n?.variants,
-    a = r ? Object.keys(r) : [];
-  if ("object" == typeof t) {
-    const n = t,
-      r = cva(n.className, n.cva),
-      o = n.element,
-      i = (0, import_react.forwardRef)(function (e, t) {
-        return (0, import_react.createElement)(o, {
-          ...("function" == typeof o ? e : cleanProps(a, e)),
-          ref: t,
-          className: r(e),
-        });
-      });
-    return ((i.displayName = e), n.cva && (i.cva = n.cva), i);
-  }
-  const o = cva(t, n),
-    i = (0, import_react.forwardRef)(function (t, n) {
-      return (0, import_jsx_runtime.jsx)("div", {
-        "data-name": e,
-        ...cleanProps(a, t),
-        ref: n,
-        className: o(t),
-      });
-    });
-  return ((i.displayName = e), n && (i.cva = n), i);
-}
-function cleanProps(e, t) {
-  if (0 === e.length) return t;
-  const n = { ...t };
-  for (const r of e) delete n[r];
-  return n;
-}
-var themes$1 = { primary: "primary", custom: "custom" },
-  sizes$8 = { large: "large", medium: "medium", small: "small" },
-  background$8 = "HorizontalTabs_background_5e3af03e",
+var themes = { primary: "primary", custom: "custom" },
+  sizes$7 = { large: "large", medium: "medium", small: "small" },
+  background$7 = "HorizontalTabs_background_5e3af03e",
   mainBorderImage = "HorizontalTabs_mainBorderImage_ee367896",
-  base$53 = "HorizontalTabs_69e3c6f3",
+  base$51 = "HorizontalTabs_69e3c6f3",
   outerBorder = "HorizontalTabs_outerBorder_3255d0c5",
   mainBorder = "HorizontalTabs_mainBorder_61e34c2c",
-  content$7 = "HorizontalTabs_content_1ae3c4bd",
-  fadeInWithScale$62 = "HorizontalTabs_fadeInWithScale_5e3af03e",
-  slideUp$62 = "HorizontalTabs_slideUp_5e3af03e",
-  blink$62 = "HorizontalTabs_blink_5e3af03e",
-  scale$62 = "HorizontalTabs_scale_5e3af03e",
-  rotate$62 = "HorizontalTabs_rotate_5e3af03e",
-  windowIn$62 = "HorizontalTabs_windowIn_5e3af03e",
-  fadeOut$62 = "HorizontalTabs_fadeOut_5e3af03e",
-  fadeIn$62 = "HorizontalTabs_fadeIn_5e3af03e",
+  content$6 = "HorizontalTabs_content_1ae3c4bd",
+  fadeInWithScale$60 = "HorizontalTabs_fadeInWithScale_5e3af03e",
+  slideUp$60 = "HorizontalTabs_slideUp_5e3af03e",
+  blink$60 = "HorizontalTabs_blink_5e3af03e",
+  scale$60 = "HorizontalTabs_scale_5e3af03e",
+  rotate$60 = "HorizontalTabs_rotate_5e3af03e",
+  windowIn$60 = "HorizontalTabs_windowIn_5e3af03e",
+  fadeOut$60 = "HorizontalTabs_fadeOut_5e3af03e",
+  fadeIn$60 = "HorizontalTabs_fadeIn_5e3af03e",
   horizontal_tabs_module_default = {
-    background: background$8,
+    background: background$7,
     mainBorderImage: mainBorderImage,
-    base: base$53,
+    base: base$51,
     "base__size-small": "HorizontalTabs_base__size-small_75fae891",
     "base__size-medium": "HorizontalTabs_base__size-medium_afc0934f",
     "base__size-large": "HorizontalTabs_base__size-large_12c75e24",
     outerBorder: outerBorder,
     "base__theme-primary": "HorizontalTabs_base__theme-primary_5e3af03e",
     mainBorder: mainBorder,
-    content: content$7,
-    fadeInWithScale: fadeInWithScale$62,
-    slideUp: slideUp$62,
-    blink: blink$62,
-    scale: scale$62,
-    rotate: rotate$62,
-    windowIn: windowIn$62,
-    fadeOut: fadeOut$62,
-    fadeIn: fadeIn$62,
+    content: content$6,
+    fadeInWithScale: fadeInWithScale$60,
+    slideUp: slideUp$60,
+    blink: blink$60,
+    scale: scale$60,
+    rotate: rotate$60,
+    windowIn: windowIn$60,
+    fadeOut: fadeOut$60,
+    fadeIn: fadeIn$60,
   },
   Base$14 = defineStyledComponent("Tabs", horizontal_tabs_module_default.base, {
     variants: {
       size: {
-        [sizes$8.large]: horizontal_tabs_module_default["base__size-large"],
-        [sizes$8.medium]: horizontal_tabs_module_default["base__size-medium"],
-        [sizes$8.small]: horizontal_tabs_module_default["base__size-small"],
+        [sizes$7.large]: horizontal_tabs_module_default["base__size-large"],
+        [sizes$7.medium]: horizontal_tabs_module_default["base__size-medium"],
+        [sizes$7.small]: horizontal_tabs_module_default["base__size-small"],
       },
       theme: {
-        [themes$1.primary]: horizontal_tabs_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
+        [themes.primary]: horizontal_tabs_module_default["base__theme-primary"],
+        [themes.custom]: void 0,
       },
     },
   }),
@@ -23767,61 +23910,61 @@ var themes$1 = { primary: "primary", custom: "custom" },
       }),
     });
   }),
-  border$5 = "Tab_border_d4435cf2",
-  background$7 = "Tab_background_763456",
+  border$4 = "Tab_border_d4435cf2",
+  background$6 = "Tab_background_763456",
   backgroundPattern$2 = "Tab_backgroundPattern_32ac7949",
   innerBorderImage = "Tab_innerBorderImage_77cde9e",
-  base$52 = "Tab_806d6908",
+  base$50 = "Tab_806d6908",
   base__active$4 = "Tab_base__active_a872a63f",
-  content$6 = "Tab_content_4eefcae7",
+  content$5 = "Tab_content_4eefcae7",
   base__inactive = "Tab_base__inactive_0",
-  fadeInWithScale$61 = "Tab_fadeInWithScale_0",
-  slideUp$61 = "Tab_slideUp_0",
-  blink$61 = "Tab_blink_0",
-  scale$61 = "Tab_scale_0",
-  rotate$61 = "Tab_rotate_0",
-  windowIn$61 = "Tab_windowIn_0",
-  fadeOut$61 = "Tab_fadeOut_0",
-  fadeIn$61 = "Tab_fadeIn_0",
+  fadeInWithScale$59 = "Tab_fadeInWithScale_0",
+  slideUp$59 = "Tab_slideUp_0",
+  blink$59 = "Tab_blink_0",
+  scale$59 = "Tab_scale_0",
+  rotate$59 = "Tab_rotate_0",
+  windowIn$59 = "Tab_windowIn_0",
+  fadeOut$59 = "Tab_fadeOut_0",
+  fadeIn$59 = "Tab_fadeIn_0",
   tab_module_default = {
-    border: border$5,
-    background: background$7,
+    border: border$4,
+    background: background$6,
     backgroundPattern: backgroundPattern$2,
     innerBorderImage: innerBorderImage,
-    base: base$52,
+    base: base$50,
     "base__theme-primary": "Tab_base__theme-primary_209414fd",
     base__active: base__active$4,
-    content: content$6,
+    content: content$5,
     "base__size-small": "Tab_base__size-small_0",
     "base__size-medium": "Tab_base__size-medium_0",
     "base__size-large": "Tab_base__size-large_0",
     base__inactive: base__inactive,
-    fadeInWithScale: fadeInWithScale$61,
-    slideUp: slideUp$61,
-    blink: blink$61,
-    scale: scale$61,
-    rotate: rotate$61,
-    windowIn: windowIn$61,
-    fadeOut: fadeOut$61,
-    fadeIn: fadeIn$61,
+    fadeInWithScale: fadeInWithScale$59,
+    slideUp: slideUp$59,
+    blink: blink$59,
+    scale: scale$59,
+    rotate: rotate$59,
+    windowIn: windowIn$59,
+    fadeOut: fadeOut$59,
+    fadeIn: fadeIn$59,
   },
   Base$13 = defineStyledComponent("Tab", tab_module_default.base, {
     variants: {
       size: {
-        [sizes$8.large]: tab_module_default["base__size-large"],
-        [sizes$8.medium]: tab_module_default["base__size-medium"],
-        [sizes$8.small]: tab_module_default["base__size-small"],
+        [sizes$7.large]: tab_module_default["base__size-large"],
+        [sizes$7.medium]: tab_module_default["base__size-medium"],
+        [sizes$7.small]: tab_module_default["base__size-small"],
       },
       theme: {
-        [themes$1.primary]: tab_module_default["base__theme-primary"],
-        [themes$1.custom]: void 0,
+        [themes.primary]: tab_module_default["base__theme-primary"],
+        [themes.custom]: void 0,
       },
       state: {
         active: tab_module_default.base__active,
         inactive: tab_module_default.base__inactive,
       },
     },
-    defaultVariants: { size: sizes$8.medium, theme: themes$1.primary },
+    defaultVariants: { size: sizes$7.medium, theme: themes.primary },
   }),
   HeadlessTab = (0, import_react.forwardRef)(function (
     { theme: e, size: t, tabId: n, active: r, children: a, onClick: o, onMouseEnter: i, ...s },
@@ -23889,25 +24032,25 @@ function Tabs({ active: e, theme: t, size: n, children: r, onActiveChange: a }) 
   );
 }
 ((Tabs.Switcher = Switcher), (Tabs.Tab = Tab), (Tabs.Content = Content));
-var base$51 = "TruncateText_dcb41d92",
-  fadeInWithScale$60 = "TruncateText_fadeInWithScale_54cac51a",
-  slideUp$60 = "TruncateText_slideUp_54cac51a",
-  blink$60 = "TruncateText_blink_54cac51a",
-  scale$60 = "TruncateText_scale_54cac51a",
-  rotate$60 = "TruncateText_rotate_54cac51a",
-  windowIn$60 = "TruncateText_windowIn_54cac51a",
-  fadeOut$60 = "TruncateText_fadeOut_54cac51a",
-  fadeIn$60 = "TruncateText_fadeIn_54cac51a",
+var base$49 = "TruncateText_dcb41d92",
+  fadeInWithScale$58 = "TruncateText_fadeInWithScale_54cac51a",
+  slideUp$58 = "TruncateText_slideUp_54cac51a",
+  blink$58 = "TruncateText_blink_54cac51a",
+  scale$58 = "TruncateText_scale_54cac51a",
+  rotate$58 = "TruncateText_rotate_54cac51a",
+  windowIn$58 = "TruncateText_windowIn_54cac51a",
+  fadeOut$58 = "TruncateText_fadeOut_54cac51a",
+  fadeIn$58 = "TruncateText_fadeIn_54cac51a",
   truncate_text_module_default = {
-    base: base$51,
-    fadeInWithScale: fadeInWithScale$60,
-    slideUp: slideUp$60,
-    blink: blink$60,
-    scale: scale$60,
-    rotate: rotate$60,
-    windowIn: windowIn$60,
-    fadeOut: fadeOut$60,
-    fadeIn: fadeIn$60,
+    base: base$49,
+    fadeInWithScale: fadeInWithScale$58,
+    slideUp: slideUp$58,
+    blink: blink$58,
+    scale: scale$58,
+    rotate: rotate$58,
+    windowIn: windowIn$58,
+    fadeOut: fadeOut$58,
+    fadeIn: fadeIn$58,
   },
   TruncatedText = (0, import_react.forwardRef)(function (
     { text: e, tooltipParams: t, className: n, ...r },
@@ -23960,25 +24103,25 @@ var RUDY_PL = 51345,
   RUDY_USSR = 59393,
   RUDIES = [RUDY_USSR, RUDY_PL],
   sameTanksRemap = { [RUDY_PL]: RUDIES, [RUDY_USSR]: RUDIES },
-  base$50 = "VehicleLevel_3c938122",
-  fadeInWithScale$59 = "VehicleLevel_fadeInWithScale_b3bd7071",
-  slideUp$59 = "VehicleLevel_slideUp_b3bd7071",
-  blink$59 = "VehicleLevel_blink_b3bd7071",
-  scale$59 = "VehicleLevel_scale_b3bd7071",
-  rotate$59 = "VehicleLevel_rotate_b3bd7071",
-  windowIn$59 = "VehicleLevel_windowIn_b3bd7071",
-  fadeOut$59 = "VehicleLevel_fadeOut_b3bd7071",
-  fadeIn$59 = "VehicleLevel_fadeIn_b3bd7071",
+  base$48 = "VehicleLevel_3c938122",
+  fadeInWithScale$57 = "VehicleLevel_fadeInWithScale_b3bd7071",
+  slideUp$57 = "VehicleLevel_slideUp_b3bd7071",
+  blink$57 = "VehicleLevel_blink_b3bd7071",
+  scale$57 = "VehicleLevel_scale_b3bd7071",
+  rotate$57 = "VehicleLevel_rotate_b3bd7071",
+  windowIn$57 = "VehicleLevel_windowIn_b3bd7071",
+  fadeOut$57 = "VehicleLevel_fadeOut_b3bd7071",
+  fadeIn$57 = "VehicleLevel_fadeIn_b3bd7071",
   vehicle_level_module_default = {
-    base: base$50,
-    fadeInWithScale: fadeInWithScale$59,
-    slideUp: slideUp$59,
-    blink: blink$59,
-    scale: scale$59,
-    rotate: rotate$59,
-    windowIn: windowIn$59,
-    fadeOut: fadeOut$59,
-    fadeIn: fadeIn$59,
+    base: base$48,
+    fadeInWithScale: fadeInWithScale$57,
+    slideUp: slideUp$57,
+    blink: blink$57,
+    scale: scale$57,
+    rotate: rotate$57,
+    windowIn: windowIn$57,
+    fadeOut: fadeOut$57,
+    fadeIn: fadeIn$57,
   },
   numberTypes = { arabic: "arabic", roman: "roman" };
 function getLevelType(e, t) {
@@ -24132,7 +24275,7 @@ var defaultUnknownStyle = {
   lengths = { short: "short", medium: "medium", long: "long" },
   iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
   icon$11 = (e, t, n) => ("prestige" === t ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${n}`),
-  base$49 = "VehiclePrestigeLevel_a750cce",
+  base$47 = "VehiclePrestigeLevel_a750cce",
   icon$10 = "VehiclePrestigeLevel_icon_ef024cc3",
   base__left$1 = "VehiclePrestigeLevel_base__left_4426b46c",
   level = "VehiclePrestigeLevel_level_10f410ba",
@@ -24145,16 +24288,16 @@ var defaultUnknownStyle = {
   base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
   base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
   base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
-  fadeInWithScale$58 = "VehiclePrestigeLevel_fadeInWithScale_4426b46c",
-  slideUp$58 = "VehiclePrestigeLevel_slideUp_4426b46c",
-  blink$58 = "VehiclePrestigeLevel_blink_4426b46c",
-  scale$58 = "VehiclePrestigeLevel_scale_4426b46c",
-  rotate$58 = "VehiclePrestigeLevel_rotate_4426b46c",
-  windowIn$58 = "VehiclePrestigeLevel_windowIn_4426b46c",
-  fadeOut$58 = "VehiclePrestigeLevel_fadeOut_4426b46c",
-  fadeIn$58 = "VehiclePrestigeLevel_fadeIn_4426b46c",
+  fadeInWithScale$56 = "VehiclePrestigeLevel_fadeInWithScale_4426b46c",
+  slideUp$56 = "VehiclePrestigeLevel_slideUp_4426b46c",
+  blink$56 = "VehiclePrestigeLevel_blink_4426b46c",
+  scale$56 = "VehiclePrestigeLevel_scale_4426b46c",
+  rotate$56 = "VehiclePrestigeLevel_rotate_4426b46c",
+  windowIn$56 = "VehiclePrestigeLevel_windowIn_4426b46c",
+  fadeOut$56 = "VehiclePrestigeLevel_fadeOut_4426b46c",
+  fadeIn$56 = "VehiclePrestigeLevel_fadeIn_4426b46c",
   vehicle_prestige_level_module_default = {
-    base: base$49,
+    base: base$47,
     icon: icon$10,
     base__left: base__left$1,
     level: level,
@@ -24167,14 +24310,14 @@ var defaultUnknownStyle = {
     base__silver: base__silver,
     base__gold: base__gold$1,
     base__enamel: base__enamel,
-    fadeInWithScale: fadeInWithScale$58,
-    slideUp: slideUp$58,
-    blink: blink$58,
-    scale: scale$58,
-    rotate: rotate$58,
-    windowIn: windowIn$58,
-    fadeOut: fadeOut$58,
-    fadeIn: fadeIn$58,
+    fadeInWithScale: fadeInWithScale$56,
+    slideUp: slideUp$56,
+    blink: blink$56,
+    scale: scale$56,
+    rotate: rotate$56,
+    windowIn: windowIn$56,
+    fadeOut: fadeOut$56,
+    fadeIn: fadeIn$56,
   };
 function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: a, ...o }) {
   return e < 1 || "undefined" === n
@@ -24206,41 +24349,41 @@ function PrestigeLevel({ level: e, grade: t, type: n, direction: r, classNames: 
       });
 }
 PrestigeLevel.direction = directions$1;
-var base$48 = "VehicleRole_e70537d3",
+var base$46 = "VehicleRole_e70537d3",
   icon__x16x16$1 = "VehicleRole_icon__x16x16_f444f190",
   icon__x24x24$1 = "VehicleRole_icon__x24x24_cc02d077",
   icon__x32x32$1 = "VehicleRole_icon__x32x32_2180a099",
   icon__x48x48$1 = "VehicleRole_icon__x48x48_2a01e86c",
-  fadeInWithScale$57 = "VehicleRole_fadeInWithScale_741b56a9",
-  slideUp$57 = "VehicleRole_slideUp_741b56a9",
-  blink$57 = "VehicleRole_blink_741b56a9",
-  scale$57 = "VehicleRole_scale_741b56a9",
-  rotate$57 = "VehicleRole_rotate_741b56a9",
-  windowIn$57 = "VehicleRole_windowIn_741b56a9",
-  fadeOut$57 = "VehicleRole_fadeOut_741b56a9",
-  fadeIn$57 = "VehicleRole_fadeIn_741b56a9",
+  fadeInWithScale$55 = "VehicleRole_fadeInWithScale_741b56a9",
+  slideUp$55 = "VehicleRole_slideUp_741b56a9",
+  blink$55 = "VehicleRole_blink_741b56a9",
+  scale$55 = "VehicleRole_scale_741b56a9",
+  rotate$55 = "VehicleRole_rotate_741b56a9",
+  windowIn$55 = "VehicleRole_windowIn_741b56a9",
+  fadeOut$55 = "VehicleRole_fadeOut_741b56a9",
+  fadeIn$55 = "VehicleRole_fadeIn_741b56a9",
   vehicle_role_module_default = {
-    base: base$48,
+    base: base$46,
     icon__x16x16: icon__x16x16$1,
     icon__x24x24: icon__x24x24$1,
     icon__x32x32: icon__x32x32$1,
     icon__x48x48: icon__x48x48$1,
-    fadeInWithScale: fadeInWithScale$57,
-    slideUp: slideUp$57,
-    blink: blink$57,
-    scale: scale$57,
-    rotate: rotate$57,
-    windowIn: windowIn$57,
-    fadeOut: fadeOut$57,
-    fadeIn: fadeIn$57,
+    fadeInWithScale: fadeInWithScale$55,
+    slideUp: slideUp$55,
+    blink: blink$55,
+    scale: scale$55,
+    rotate: rotate$55,
+    windowIn: windowIn$55,
+    fadeOut: fadeOut$55,
+    fadeIn: fadeIn$55,
   },
-  sizes$7 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
+  sizes$6 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
   images$1 = resources.resolve("images"),
   VehicleRole = (0, import_react.forwardRef)(function (
-    { roleKey: e, size: t = sizes$7.x24x24, classNames: n, ...r },
+    { roleKey: e, size: t = sizes$6.x24x24, classNames: n, ...r },
     a,
   ) {
-    const o = useUpscale(t, sizes$7.x32x32);
+    const o = useUpscale(t, sizes$6.x32x32);
     return (0, import_jsx_runtime.jsx)("div", {
       ...r,
       ref: a,
@@ -24251,7 +24394,7 @@ var base$48 = "VehicleRole_e70537d3",
       }),
     });
   });
-VehicleRole.sizes = sizes$7;
+VehicleRole.sizes = sizes$6;
 var WITHOUT_ROLE = "without_role",
   roles = {
     assault: "assault",
@@ -24318,7 +24461,7 @@ var WITHOUT_ROLE = "without_role",
     WOT_PLUS_EXCLUSIVE_VEHICLE_DISABLED: "wot_plus_exclusive_vehicle_disabled",
   },
   stateValues = Object.values(vehicleState),
-  sizes$6 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
+  sizes$5 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
   upscaledSizes = { x24x24: "x64x64", x48x48: "x96x96", x64x64: "x96x96", x96x96: "x96x96" },
   mapTypes = {
     [types$2.lightTank]: "light_tank",
@@ -24327,7 +24470,7 @@ var WITHOUT_ROLE = "without_role",
     [types$2.SPG]: "spg",
     [types$2["AT-SPG"]]: "tank_destroyer",
   },
-  base$47 = "VehicleType_30b4aab0",
+  base$45 = "VehicleType_30b4aab0",
   base__x24x24 = "VehicleType_base__x24x24_a3dc7aa3",
   base__x48x48 = "VehicleType_base__x48x48_cb59f57a",
   base__x64x64 = "VehicleType_base__x64x64_bb9b890",
@@ -24337,16 +24480,16 @@ var WITHOUT_ROLE = "without_role",
   base__premium__x64x64 = "VehicleType_base__premium__x64x64_ba9a2a05",
   base__premium__x96x96 = "VehicleType_base__premium__x96x96_d837a523",
   icon$9 = "VehicleType_icon_b15d2628",
-  fadeInWithScale$56 = "VehicleType_fadeInWithScale_4e0d61e4",
-  slideUp$56 = "VehicleType_slideUp_4e0d61e4",
-  blink$56 = "VehicleType_blink_4e0d61e4",
-  scale$56 = "VehicleType_scale_4e0d61e4",
-  rotate$56 = "VehicleType_rotate_4e0d61e4",
-  windowIn$56 = "VehicleType_windowIn_4e0d61e4",
-  fadeOut$56 = "VehicleType_fadeOut_4e0d61e4",
-  fadeIn$56 = "VehicleType_fadeIn_4e0d61e4",
+  fadeInWithScale$54 = "VehicleType_fadeInWithScale_4e0d61e4",
+  slideUp$54 = "VehicleType_slideUp_4e0d61e4",
+  blink$54 = "VehicleType_blink_4e0d61e4",
+  scale$54 = "VehicleType_scale_4e0d61e4",
+  rotate$54 = "VehicleType_rotate_4e0d61e4",
+  windowIn$54 = "VehicleType_windowIn_4e0d61e4",
+  fadeOut$54 = "VehicleType_fadeOut_4e0d61e4",
+  fadeIn$54 = "VehicleType_fadeIn_4e0d61e4",
   vehicle_type_module_default = {
-    base: base$47,
+    base: base$45,
     base__x24x24: base__x24x24,
     base__x48x48: base__x48x48,
     base__x64x64: base__x64x64,
@@ -24356,20 +24499,20 @@ var WITHOUT_ROLE = "without_role",
     base__premium__x64x64: base__premium__x64x64,
     base__premium__x96x96: base__premium__x96x96,
     icon: icon$9,
-    fadeInWithScale: fadeInWithScale$56,
-    slideUp: slideUp$56,
-    blink: blink$56,
-    scale: scale$56,
-    rotate: rotate$56,
-    windowIn: windowIn$56,
-    fadeOut: fadeOut$56,
-    fadeIn: fadeIn$56,
+    fadeInWithScale: fadeInWithScale$54,
+    slideUp: slideUp$54,
+    blink: blink$54,
+    scale: scale$54,
+    rotate: rotate$54,
+    windowIn: windowIn$54,
+    fadeOut: fadeOut$54,
+    fadeIn: fadeIn$54,
   },
   VehicleType = (0, import_react.forwardRef)(function (
-    { type: e, size: t = sizes$6.x48x48, premium: n = !1, fit: r = "contain", ...a },
+    { type: e, size: t = sizes$5.x48x48, premium: n = !1, fit: r = "contain", ...a },
     o,
   ) {
-    const i = useUpscale(sizes$6[t], upscaledSizes[t]);
+    const i = useUpscale(sizes$5[t], upscaledSizes[t]);
     return (0, import_jsx_runtime.jsx)(Image$1, {
       ...a,
       ref: o,
@@ -24384,30 +24527,30 @@ var WITHOUT_ROLE = "without_role",
       path: `ui_kit.vehicle_type.${i}.${n ? "premium_" : ""}${normalizeResource(mapTypes[e])}_${i}`,
     });
   });
-((VehicleType.types = types$2), (VehicleType.sizes = sizes$6));
-var base$46 = "VehicleInfo_1732f1f0",
+((VehicleType.types = types$2), (VehicleType.sizes = sizes$5));
+var base$44 = "VehicleInfo_1732f1f0",
   name = "VehicleInfo_name_3989ca04",
   name__premium = "VehicleInfo_name__premium_258b3b93",
-  fadeInWithScale$55 = "VehicleInfo_fadeInWithScale_9c9aeed",
-  slideUp$55 = "VehicleInfo_slideUp_9c9aeed",
-  blink$55 = "VehicleInfo_blink_9c9aeed",
-  scale$55 = "VehicleInfo_scale_9c9aeed",
-  rotate$55 = "VehicleInfo_rotate_9c9aeed",
-  windowIn$55 = "VehicleInfo_windowIn_9c9aeed",
-  fadeOut$55 = "VehicleInfo_fadeOut_9c9aeed",
-  fadeIn$55 = "VehicleInfo_fadeIn_9c9aeed",
+  fadeInWithScale$53 = "VehicleInfo_fadeInWithScale_9c9aeed",
+  slideUp$53 = "VehicleInfo_slideUp_9c9aeed",
+  blink$53 = "VehicleInfo_blink_9c9aeed",
+  scale$53 = "VehicleInfo_scale_9c9aeed",
+  rotate$53 = "VehicleInfo_rotate_9c9aeed",
+  windowIn$53 = "VehicleInfo_windowIn_9c9aeed",
+  fadeOut$53 = "VehicleInfo_fadeOut_9c9aeed",
+  fadeIn$53 = "VehicleInfo_fadeIn_9c9aeed",
   vehicle_info_module_default = {
-    base: base$46,
+    base: base$44,
     name: name,
     name__premium: name__premium,
-    fadeInWithScale: fadeInWithScale$55,
-    slideUp: slideUp$55,
-    blink: blink$55,
-    scale: scale$55,
-    rotate: rotate$55,
-    windowIn: windowIn$55,
-    fadeOut: fadeOut$55,
-    fadeIn: fadeIn$55,
+    fadeInWithScale: fadeInWithScale$53,
+    slideUp: slideUp$53,
+    blink: blink$53,
+    scale: scale$53,
+    rotate: rotate$53,
+    windowIn: windowIn$53,
+    fadeOut: fadeOut$53,
+    fadeIn: fadeIn$53,
   },
   VehicleName = defineStyledComponent("VehicleName", vehicle_info_module_default.name, {
     variants: { premium: { true: vehicle_info_module_default.name__premium } },
@@ -24424,149 +24567,6 @@ var base$46 = "VehicleInfo_1732f1f0",
   (VehicleInfo.Type = VehicleType),
   (VehicleInfo.Name = VehicleName),
   (VehicleInfo.Role = VehicleRole));
-var themes = { primary: "primary", secondary: "secondary", custom: "custom" },
-  sizes$5 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
-  base$45 = "HeadlessButton_df8536fc",
-  fadeInWithScale$54 = "HeadlessButton_fadeInWithScale_6a626904",
-  slideUp$54 = "HeadlessButton_slideUp_6a626904",
-  blink$54 = "HeadlessButton_blink_6a626904",
-  scale$54 = "HeadlessButton_scale_6a626904",
-  rotate$54 = "HeadlessButton_rotate_6a626904",
-  windowIn$54 = "HeadlessButton_windowIn_6a626904",
-  fadeOut$54 = "HeadlessButton_fadeOut_6a626904",
-  fadeIn$54 = "HeadlessButton_fadeIn_6a626904",
-  headless_button_module_default = {
-    base: base$45,
-    fadeInWithScale: fadeInWithScale$54,
-    slideUp: slideUp$54,
-    blink: blink$54,
-    scale: scale$54,
-    rotate: rotate$54,
-    windowIn: windowIn$54,
-    fadeOut: fadeOut$54,
-    fadeIn: fadeIn$54,
-  },
-  HeadlessButtonBase = defineStyledComponent("Button", {
-    element: "button",
-    className: headless_button_module_default.base,
-  }),
-  HeadlessButton = (0, import_react.forwardRef)(function (
-    {
-      children: e,
-      onClick: t,
-      onMouseEnter: n,
-      soundTarget: r,
-      disabled: a = !1,
-      silent: o = !1,
-      ...i
-    },
-    s,
-  ) {
-    const u = useSounds();
-    return (0, import_jsx_runtime.jsx)(HeadlessButtonBase, {
-      ...i,
-      ref: s,
-      onMouseEnter: function (e) {
-        (a || o || u.play("mouse-enter", { target: r || "Button", original: e }), n?.(e));
-      },
-      onClick: function (e) {
-        a || (o || u.play("click", { target: r || "Button", original: e }), t?.(e));
-      },
-      children: e,
-    });
-  }),
-  background$6 = "Button_background_98ebcfb8",
-  border$4 = "Button_border_7e6390d7",
-  overlay$3 = "Button_overlay_174632c8",
-  base$44 = "Button_70871946",
-  base__enabled$1 = "Button_base__enabled_96634d40",
-  base__disabled$5 = "Button_base__disabled_b713e04a",
-  content$5 = "Button_content_298de63f",
-  content__fontAligned = "Button_content__fontAligned_66115778",
-  fadeInWithScale$53 = "Button_fadeInWithScale_6bcdc8c",
-  slideUp$53 = "Button_slideUp_6bcdc8c",
-  blink$53 = "Button_blink_6bcdc8c",
-  scale$53 = "Button_scale_6bcdc8c",
-  rotate$53 = "Button_rotate_6bcdc8c",
-  windowIn$53 = "Button_windowIn_6bcdc8c",
-  fadeOut$53 = "Button_fadeOut_6bcdc8c",
-  fadeIn$53 = "Button_fadeIn_6bcdc8c",
-  button_module_default = {
-    background: background$6,
-    border: border$4,
-    overlay: overlay$3,
-    base: base$44,
-    base__enabled: base__enabled$1,
-    base__disabled: base__disabled$5,
-    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
-    "base__size-small": "Button_base__size-small_fc7095a4",
-    "base__size-medium": "Button_base__size-medium_814d61f0",
-    "base__size-large": "Button_base__size-large_83da852e",
-    "base__theme-primary": "Button_base__theme-primary_8ba55469",
-    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
-    content: content$5,
-    content__fontAligned: content__fontAligned,
-    fadeInWithScale: fadeInWithScale$53,
-    slideUp: slideUp$53,
-    blink: blink$53,
-    scale: scale$53,
-    rotate: rotate$53,
-    windowIn: windowIn$53,
-    fadeOut: fadeOut$53,
-    fadeIn: fadeIn$53,
-  },
-  Button$1 = (0, import_react.forwardRef)(function (
-    {
-      children: e,
-      size: t = sizes$5.large,
-      theme: n = themes.primary,
-      disabled: r = !1,
-      silent: a = !1,
-      autoAlignContent: o = !0,
-      classNames: i,
-      className: s,
-      ...u
-    },
-    l,
-  ) {
-    return (0, import_jsx_runtime.jsxs)(HeadlessButton, {
-      ...u,
-      ref: l,
-      silent: a,
-      disabled: r,
-      className: clsx(
-        button_module_default.base,
-        button_module_default[`base__size-${t}`],
-        button_module_default[`base__theme-${n}`],
-        r ? button_module_default.base__disabled : button_module_default.base__enabled,
-        s,
-        i?.base,
-      ),
-      onClick: function (e) {
-        r || u.onClick?.(e);
-      },
-      children: [
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.background, i?.background),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.border, i?.border),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(button_module_default.overlay, i?.overlay),
-        }),
-        (0, import_jsx_runtime.jsx)("div", {
-          className: clsx(
-            button_module_default.content,
-            o && button_module_default.content__fontAligned,
-            i?.content,
-          ),
-          children: e,
-        }),
-      ],
-    });
-  });
-((Button$1.themes = themes), (Button$1.sizes = sizes$5));
 var RouterContext = (0, import_react.createContext)(void 0);
 function useRouter() {
   const e = (0, import_react.useContext)(RouterContext);
@@ -34029,15 +34029,15 @@ export {
   useProgressBarSounds as $,
   comparer as $n,
   getRegionalDateTime as $r,
-  FormatString as $t,
+  sizes$9 as $t,
   usePopover as A,
   animated as An,
   reduce as Ar,
-  WITHOUT_ROLE as At,
+  heavyTankRoles as At,
   Currency$1 as B,
   useIsFirstRender as Bn,
   constFalse as Br,
-  VehicleLevel as Bt,
+  isTypeValidValue as Bt,
   CardsWrapper as C,
   useSimpleTooltip as Cn,
   findIndex$1 as Cr,
@@ -34045,63 +34045,63 @@ export {
   VehicleImage as D,
   useTimeout as Dn,
   join as Dr,
-  VehicleInfo as Dt,
+  WITHOUT_ROLE as Dt,
   RentalCounter as E,
   isEqual as En,
   get as Er,
-  themes as Et,
+  vehicleState as Et,
   useVerticalDrag as F,
   useLayoutReady as Fn,
   iter as Fr,
-  mediumTankRoles as Ft,
+  Image$1 as Ft,
   Reward$1 as G,
   useScreenSize as Gn,
   enableFullScreenModeSupported$1 as Gr,
-  types$2 as Gt,
+  sizes$7 as Gt,
   sizes$3 as H,
   useUnmount$1 as Hn,
   identity as Hr,
-  isRentVehicle as Ht,
+  types$2 as Ht,
   Reward as I,
   useCallbackOnEsc as In,
   keyCodes as Ir,
-  roles as It,
+  ResourceImage as It,
   getRewardValueType as J,
   useUpscale as Jn,
   initExternalPaddings$1 as Jr,
-  sizes$8 as Jt,
+  FormatText$1 as Jt,
   formatPrintf as K,
   usePrevious as Kn,
   forceTriggerMouseMove$1 as Kr,
-  TruncatedText as Kt,
+  themes as Kt,
   SimpleTooltip as L,
   useCloseOnEsc as Ln,
   keyStringCodes as Lr,
-  directions$1 as Lt,
+  VehicleLevel as Lt,
   Video as M,
   useSprings as Mn,
   some as Mr,
-  getRoleByKey as Mt,
+  mediumTankRoles as Mt,
   Checkbox as N,
   useTransition$1 as Nn,
   sort as Nr,
-  heavyTankRoles as Nt,
+  roles as Nt,
   ErrorHandler as O,
   useSkipFrame as On,
   map as Or,
-  sizes$6 as Ot,
+  atSpgRoles as Ot,
   sizes$2 as P,
   useLoop as Pn,
   unsafeGet as Pr,
-  lightTankRoles as Pt,
+  directions$1 as Pt,
   positions$2 as Q,
   breakpointsByType as Qn,
   play$1 as Qr,
-  require_classnames as Qt,
+  defineStyledComponent as Qt,
   Tooltip$1 as R,
   useKeydownListener as Rn,
   DisposeBuilder as Rr,
-  Image$1 as Rt,
+  getVehicleImageKey as Rt,
   statusTypes as S,
   useSounds as Sn,
   find as Sr,
@@ -34113,27 +34113,27 @@ export {
   types$1 as U,
   throttle_default$1 as Un,
   noop$3 as Ur,
-  isTypeValidValue as Ut,
+  TruncatedText as Ut,
   discountTypes as V,
   useMount$1 as Vn,
   emptyFunction$2 as Vr,
-  getVehicleImageKey as Vt,
+  sameTanksRemap as Vt,
   renderResolvedString as W,
   useEvent$1 as Wn,
   clamp$2 as Wr,
-  sameTanksRemap as Wt,
+  Tabs as Wt,
   RewardType as X,
   require_jsx_runtime as Xn,
   remToPx$1 as Xr,
-  defineStyledComponent as Xt,
+  require_classnames as Xt,
   ImageSize as Y,
   useMedia as Yn,
   pxToRem$1 as Yr,
-  themes$1 as Yt,
+  CloseButton as Yt,
   ControlledProgressBar as Z,
   MediaHeight as Zn,
   sendEvent$2 as Zr,
-  CloseButton as Zt,
+  Button$1 as Zt,
   ButtonType as _,
   initializeModelWithContext as _n,
   reaction as _r,
@@ -34158,7 +34158,7 @@ export {
   action as dr,
   Bar$2 as dt,
   capitalize as ei,
-  FormatText$1 as en,
+  themes$1 as en,
   isNumber as er,
   useRegisterComponent as et,
   Orange as f,
@@ -34182,11 +34182,11 @@ export {
   nationById as j,
   useSpring as jn,
   slice as jr,
-  atSpgRoles as jt,
+  lightTankRoles as jt,
   Popover as k,
   useScaleState as kn,
   mapNonNullable as kr,
-  vehicleState as kt,
+  getRoleByKey as kt,
   ProgressBar as l,
   require_react_dom as li,
   RewardType$1 as ln,
@@ -34214,7 +34214,7 @@ export {
   getFormattedValue as q,
   useAdaptive as qn,
   getScale$2 as qr,
-  Tabs as qt,
+  FormatString as qt,
   CurrencyType as r,
   normalizeResource as ri,
   getRewardImage as rn,
@@ -34242,7 +34242,7 @@ export {
   Card as w,
   useSpecialTooltip as wn,
   findIndexLast as wr,
-  Button$1 as wt,
+  VehicleInfo as wt,
   ProgressBar$1 as x,
   SoundsProvider as xn,
   filterMap as xr,
@@ -34254,5 +34254,5 @@ export {
   WithDiscount as z,
   useHandleKeydown as zn,
   addEventListener as zr,
-  ResourceImage as zt,
+  isRentVehicle as zt,
 };

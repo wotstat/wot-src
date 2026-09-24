@@ -7,16 +7,16 @@ import {
   St as i,
   U as n,
   V as o,
-  at as c,
-  dt as p,
-  it as r,
-  un as m,
-  ut as d,
+  _t as c,
+  ct as p,
+  nt as r,
+  rt as m,
+  un as d,
   vt as _,
   yt as h,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
-/* empty css                 */ var [u, g] = i()(
+/* empty css                 */ var [g, u] = i()(
     ({ observableModel: s }) => ({ root: s.object() }),
     ({ externalModel: s }) => ({ openChallenge: s.createCallbackNoArgs("onClick") }),
   ),
@@ -33,9 +33,9 @@ import "../../chunks/_wg-global-styles.js";
   w = "App_close_654073f5",
   L = s(l(), 1),
   M = R.strings.user_missions.hub.challenge_missions.notification.shield,
-  z = _(function () {
-    const { model: s, controls: l } = g(),
-      { attempts: i, missionID: p, isPopUp: _ } = s.root.get();
+  z = c(function () {
+    const { model: s, controls: l } = u(),
+      { attempts: i, missionID: c, isPopUp: _ } = s.root.get();
     return (0, L.jsxs)(t, {
       className: e(j, _ && x),
       children: [
@@ -55,9 +55,9 @@ import "../../chunks/_wg-global-styles.js";
                   className: k,
                   children: [i, (0, L.jsx)("span", { className: v })],
                 }),
-                (0, L.jsx)(d, { text: M.title(), className: f, upgradeLegacy: !0 }),
-                (0, L.jsx)(d, {
-                  params: { mission: p },
+                (0, L.jsx)(p, { text: M.title(), className: f, upgradeLegacy: !0 }),
+                (0, L.jsx)(p, {
+                  params: { mission: c },
                   text: M.text(),
                   className: y,
                   upgradeLegacy: !0,
@@ -73,8 +73,8 @@ import "../../chunks/_wg-global-styles.js";
             }),
           ],
         }),
-        _ && (0, L.jsx)(r, { size: c.small, onClose: m, className: w }),
+        _ && (0, L.jsx)(r, { size: m.small, onClose: d, className: w }),
       ],
     });
   });
-h((0, L.jsx)(u, { children: (0, L.jsx)(p, { children: (0, L.jsx)(z, {}) }) }));
+h((0, L.jsx)(g, { children: (0, L.jsx)(_, { children: (0, L.jsx)(z, {}) }) }));

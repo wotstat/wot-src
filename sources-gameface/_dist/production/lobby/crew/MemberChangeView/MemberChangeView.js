@@ -3266,8 +3266,8 @@
           $ = "HorizontalBar_base__active_ad89b",
           G = "HorizontalBar_leftButton_eb8c3",
           V = "HorizontalBar_rightButton_f5116",
-          U = "HorizontalBar_track_fd3af",
-          Z = "HorizontalBar_thumb_bb7e0",
+          Z = "HorizontalBar_track_fd3af",
+          U = "HorizontalBar_thumb_bb7e0",
           q = "HorizontalBar_rail_a3d9e",
           Y = "disable",
           X = { pending: !1, offset: 0 },
@@ -3422,7 +3422,7 @@
                 u().createElement(
                   "div",
                   {
-                    className: m()(U, t.track),
+                    className: m()(Z, t.track),
                     onMouseDown: (t) => {
                       const a = d.current;
                       if (a && 0 === t.button)
@@ -3441,7 +3441,7 @@
                     ref: o,
                     onMouseEnter: y,
                   },
-                  u().createElement("div", { ref: d, className: m()(Z, t.thumb) }),
+                  u().createElement("div", { ref: d, className: m()(U, t.thumb) }),
                   u().createElement("div", { className: m()(q, t.rail) }),
                 ),
                 u().createElement("div", {
@@ -3955,7 +3955,7 @@
               t
             );
           },
-          Ue = Te
+          Ze = Te
             ? (e) => {
                 const t = [];
                 return (
@@ -3984,14 +3984,14 @@
                 }
                 return (s !== e.length && r.push(e.slice(s)), r);
               },
-          Ze = (e, t = "", n) => {
+          Ue = (e, t = "", n) => {
             const a = [];
             return (
               $e(
                 e,
                 /(\n+|[\xa0\ufeff]+)/g,
                 (e) => {
-                  a.push({ blockType: Be.Word, colorTag: t, childList: Ue(e, n) });
+                  a.push({ blockType: Be.Word, colorTag: t, childList: Ze(e, n) });
                 },
                 (e) => {
                   const n = e[0],
@@ -4027,13 +4027,13 @@
                 s,
                 /(?:%\(|{)(.*?)[)}][sd]?/g,
                 (e) => {
-                  r.push(...Ze(e, n, a));
+                  r.push(...Ue(e, n, a));
                 },
                 (e) => {
                   const s = e[1],
                     i = void 0 === t[s] ? e[0] : t[s];
                   "string" == typeof i || "number" == typeof i
-                    ? r.push(...Ze(String(i), n, a))
+                    ? r.push(...Ue(String(i), n, a))
                     : r.push({ blockType: Be.Binding, colorTag: n, childList: [i] });
                 },
               ),
@@ -4616,11 +4616,11 @@
               )
             );
           }),
-          Ut = (0, i.memo)(function (e) {
+          Zt = (0, i.memo)(function (e) {
             const t = (0, i.useMemo)(() => ({ rootId: e.resId }), [e.resId]);
             return u().createElement(w, { options: t }, u().createElement(Vt, e));
           }),
-          Zt = {
+          Ut = {
             base: "FlagIcon_base_f548c",
             base__c_1080x454: "FlagIcon_base__c_1080x454_e8eeb",
             base__c_240x118: "FlagIcon_base__c_240x118_d9935",
@@ -4641,7 +4641,7 @@
           },
           Xt = u().memo(({ nation: e, size: t = qt.c1080x454, className: n }) =>
             u().createElement("div", {
-              className: m()(Zt.base, Zt[`base__${t}`], n),
+              className: m()(Ut.base, Ut[`base__${t}`], n),
               style: { backgroundImage: `url('${Yt[t].$dyn(e)}')` },
             }),
           );
@@ -4995,7 +4995,7 @@
               e
             );
           })({}),
-          Un = (function (e) {
+          Zn = (function (e) {
             return (
               (e.Default = "default"),
               (e.Selected = "selected"),
@@ -5003,7 +5003,7 @@
               e
             );
           })({});
-        var Zn = n(137),
+        var Un = n(137),
           qn = n(4612);
         const Yn = "Content_base_bfd91",
           Xn = "Content_base__disabled_e88c3",
@@ -5061,7 +5061,7 @@
                         ),
                   ),
                 ),
-                u().createElement(Zn.n, {
+                u().createElement(Un.n, {
                   data: e.skills,
                   collapseType: qn.t6.Overlap,
                   isBonusSkillsVisible: s,
@@ -5210,7 +5210,7 @@
               children: b,
             }) => {
               const E = e.tankmanKind === Vn.Recruit,
-                p = e.cardState === Un.Disabled,
+                p = e.cardState === Zn.Disabled,
                 f = p && Boolean(e.disableIcon || e.disableReason),
                 h = { tooltipId: E ? jn.XG : jn.v$, targetId: E ? e.recruitID : e.tankmanID };
               return u().createElement(
@@ -5508,7 +5508,7 @@
         var $a = n(3925);
         const Ga = "VoiceOverButton_base_ae533",
           Va = "VoiceOverButton_soundIcon_d35a2",
-          Ua = u().memo(({ onClick: e }) =>
+          Za = u().memo(({ onClick: e }) =>
             u().createElement(
               Cn.i,
               {
@@ -5529,7 +5529,7 @@
               ),
             ),
           ),
-          Za = ({ className: e }) => u().createElement("div", { className: m()(Sa.base, e) }),
+          Ua = ({ className: e }) => u().createElement("div", { className: m()(Sa.base, e) }),
           qa = {
             base__selected: "MemberChangeTankman_base__selected_c3c07",
             base__error: "MemberChangeTankman_base__error_b04d9",
@@ -5556,10 +5556,10 @@
               }, [n, l]),
               !l)
             )
-              return u().createElement(Za, { className: t });
+              return u().createElement(Ua, { className: t });
             const o = l.tankmanKind === Vn.Recruit,
-              c = l.cardState === Un.Selected,
-              d = !(c || l.cardState === Un.Disabled);
+              c = l.cardState === Zn.Selected,
+              d = !(c || l.cardState === Zn.Disabled);
             return u().createElement(Na, {
               withBonusSkills: !0,
               tankman: l,
@@ -5567,7 +5567,7 @@
               actions:
                 l.hasVoiceover &&
                 l.tankmanKind === Vn.Recruit &&
-                u().createElement(Ua, { onClick: () => s.playRecruitVoiceover(l.recruitID) }),
+                u().createElement(Za, { onClick: () => s.playRecruitVoiceover(l.recruitID) }),
               className: m()(
                 qa[`base__${l.cardState}`],
                 c && qa.base__selected,
@@ -5754,7 +5754,7 @@
                     u().createElement(
                       mn,
                       t.vehicleInfo.get(),
-                      u().createElement(Ut, {
+                      u().createElement(Zt, {
                         showBackground: !1,
                         resId: R.views.lobby.hangar.subViews.VehicleParams("resId"),
                       }),
@@ -5868,60 +5868,65 @@
       },
       285: (e, t, n) => {
         "use strict";
-        n.d(t, { C: () => p });
+        n.d(t, { C: () => f });
         var a = n(9849),
           r = n.n(a),
-          s = n(7363),
-          i = n.n(s);
-        const u = "NumberRange_base_fab6b",
-          l = "NumberRange_base__animation_d9d14",
-          o = "NumberRange_from_aa86f",
-          c = "NumberRange_from__red_ce35d",
-          d = "NumberRange_separator_fd341",
-          m = i().memo(function ({ from: e, to: t, className: n }) {
-            return i().createElement(
+          s = n(828),
+          i = n(7363),
+          u = n.n(i);
+        const l = "NumberRange_base_fab6b",
+          o = "NumberRange_base__animation_d9d14",
+          c = "NumberRange_from_aa86f",
+          d = "NumberRange_from__red_ce35d",
+          m = "NumberRange_separator_fd341",
+          _ = u().memo(function ({ from: e, to: t, isAnimated: n, isFromRed: a, className: s }) {
+            return u().createElement(
               "div",
-              { className: r()(u, e <= 0 && l, n) },
-              i().createElement("div", { className: r()(o, e <= 0 && t > 0 && c) }, e),
-              e !== t &&
-                i().createElement(
-                  i().Fragment,
+              { className: r()(l, n && o, s) },
+              u().createElement("div", { className: r()(c, a && d) }, e),
+              void 0 !== t &&
+                u().createElement(
+                  u().Fragment,
                   null,
-                  i().createElement("div", { className: d }, "/"),
-                  i().createElement("div", null, t),
+                  u().createElement("div", { className: m }, "/"),
+                  u().createElement("div", null, t),
                 ),
             );
           }),
-          _ = "NumberRangeWithLabel_base_e56d6",
-          g = "NumberRangeWithLabel_title_ea468",
-          b = "NumberRangeWithLabel_counter_cf012",
-          E = "NumberRangeWithLabel_counterGlow_bb198",
-          p = ({
+          g = "NumberRangeWithLabel_base_e56d6",
+          b = "NumberRangeWithLabel_title_ea468",
+          E = "NumberRangeWithLabel_counter_cf012",
+          p = "NumberRangeWithLabel_counterGlow_bb198",
+          f = ({
             title: e,
             isGlowVisible: t = !1,
             className: n,
             classNames: a,
-            from: u,
-            to: l,
+            from: l,
+            to: o,
           }) => {
-            const o = (0, s.useMemo)(
-              () => ({
-                left: u !== l ? 7 * String(u).length + 4 : Math.round((7 * String(u).length) / 2),
-              }),
-              [u, l],
-            );
-            return i().createElement(
+            const c = s.Z5.getNumberFormat(l, s.B3.INTEGRAL),
+              d = (0, i.useMemo)(
+                () => ({ left: l !== o ? 7 * c.length + 4 : Math.round((7 * c.length) / 2) }),
+                [c, l, o],
+              );
+            return u().createElement(
               "div",
-              { className: r()(_, n) },
-              i().createElement("div", { className: g }, e),
-              i().createElement(
+              { className: r()(g, n) },
+              u().createElement("div", { className: b }, e),
+              u().createElement(
                 "div",
-                { className: b },
-                i().createElement(m, { from: u, to: l }),
+                { className: E },
+                u().createElement(_, {
+                  from: c,
+                  to: l !== o ? s.Z5.getNumberFormat(o, s.B3.INTEGRAL) : void 0,
+                  isAnimated: l <= 0,
+                  isFromRed: l <= 0 && o > 0,
+                }),
                 t &&
-                  i().createElement("div", {
-                    style: o,
-                    className: r()(E, null == a ? void 0 : a.counterGlow),
+                  u().createElement("div", {
+                    style: d,
+                    className: r()(p, null == a ? void 0 : a.counterGlow),
                   }),
               ),
             );
@@ -7503,7 +7508,7 @@
           $ = "CrewOperationsButton_button_bbefd",
           G = "CrewOperationsButton_icon_c8815",
           V = "CrewOperationsButton_autoReturnIcon_c15c7",
-          U = (0, l.Pi)(({ classMix: e, isWidgetDisabled: t }) => {
+          Z = (0, l.Pi)(({ classMix: e, isWidgetDisabled: t }) => {
             const n = E().model.crewOperations.get();
             return s().createElement(
               "div",
@@ -7535,7 +7540,7 @@
               ),
             );
           });
-        var Z = n(6064);
+        var U = n(6064);
         const q = "CrewToggleButton_base_dda9e",
           Y = "CrewToggleButton_button_da7b6",
           X = "CrewToggleButton_iconContainer_c57f5",
@@ -7554,7 +7559,7 @@
               "div",
               { className: f()(q, i) },
               s().createElement(
-                Z.C,
+                U.C,
                 {
                   type: D.L$.primary,
                   isActive: t === A.On,
@@ -7588,7 +7593,7 @@
             return s().createElement(
               "div",
               { className: C },
-              s().createElement(U, { classMix: f()(y, w), isWidgetDisabled: e }),
+              s().createElement(Z, { classMix: f()(y, w), isWidgetDisabled: e }),
               s().createElement(O, { classMix: f()(y, F), isWidgetDisabled: e }),
               r.state !== A.Hidden &&
                 s().createElement(
@@ -8029,8 +8034,8 @@
           $e = "CrewSlot_changeCrew_ce523",
           Ge = "CrewSlot_content_aee79",
           Ve = "CrewSlot_content__withChangeCrewButton_c149b",
-          Ue = "CrewSlot_layer_e5ffa";
-        var Ze = n(941),
+          Ze = "CrewSlot_layer_e5ffa";
+        var Ue = n(941),
           qe = n(2736),
           Ye = n(370);
         const Xe = "SpecializationAndName_base_eefbf",
@@ -8050,7 +8055,7 @@
               "div",
               { className: Xe },
               s().createElement(
-                Ze.t,
+                Ue.t,
                 {
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                   args: { tooltipId: qe.rs, slotIdx: n, tankmanID: t },
@@ -8189,7 +8194,7 @@
               "div",
               { className: f()(ot.base, n && ot.base__disabled, ot[`base__${i}`]) },
               s().createElement(
-                Ze.t,
+                Ue.t,
                 {
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                   args: { tooltipId: qe.v$, tankmanID: t.tankmanID },
@@ -8492,7 +8497,10 @@
                 {
                   args: S,
                   isEnabled:
-                    !u && !a.isCurrentLayoutSkillsTraining && !a.isCurrentLayoutMentorAssigment,
+                    -1 !== n.tankmanID &&
+                    !u &&
+                    !a.isCurrentLayoutSkillsTraining &&
+                    !a.isCurrentLayoutMentorAssigment,
                   targetId: R.views.lobby.crew.widgets.CrewWidget("resId"),
                 },
                 s().createElement(
@@ -8518,14 +8526,14 @@
                           type: be.UntrainedTankmanHighlight,
                           slotSize: m,
                           isHigh: F,
-                          className: Ue,
+                          className: Ze,
                         }),
                       i &&
                         s().createElement(Ee, {
                           type: A ? be.SelectedHighlight2 : be.SelectedHighlight,
                           slotSize: m,
                           isHigh: F,
-                          className: Ue,
+                          className: Ze,
                         }),
                       s().createElement(
                         he,
@@ -8927,8 +8935,8 @@
           $ = n(4578),
           G = n(1421);
         const V = "PopupButton_base_fe996",
-          U = "PopupButton_popupButtonLabel_ee82d",
-          Z = "PopupButton_buttonIconWrapper_d7915",
+          Z = "PopupButton_popupButtonLabel_ee82d",
+          U = "PopupButton_buttonIconWrapper_d7915",
           q = "PopupButton_buttonIcon_cd266",
           Y = "PopupButton_buttonIcon__isHighlighted_b114e",
           X = "PopupButton_discountAlert_b70fd",
@@ -8938,7 +8946,7 @@
               { className: V },
               r().createElement(
                 "div",
-                { className: U },
+                { className: Z },
                 R.strings.crew.filter.popup.button.title(),
               ),
               r().createElement(
@@ -8950,7 +8958,7 @@
                 },
                 r().createElement(
                   "div",
-                  { id: "popup_btn", className: Z },
+                  { id: "popup_btn", className: U },
                   r().createElement(
                     _.C,
                     { type: z.L$.ghost, size: z.qE.small, isActive: e, hasIndicator: !1 },
@@ -9332,13 +9340,13 @@
                 M(p);
               }, [p, l]));
             const V = (0, a.useCallback)((e) => y && y(e), [y]),
-              U = (0, a.useCallback)(
+              Z = (0, a.useCallback)(
                 (e) => {
                   (P.disableHighlightOnFocus && O && M(!1), C && C(e));
                 },
                 [O, C, P.disableHighlightOnFocus],
               ),
-              Z = (0, a.useCallback)((e) => F && F(e), [F]),
+              U = (0, a.useCallback)((e) => F && F(e), [F]),
               q = (0, a.useCallback)((e) => k && k(e), [k]),
               Y = (0, a.useCallback)((e) => w && w(e), [w]),
               X = (0, a.useMemo)(
@@ -9366,7 +9374,7 @@
                 className: ne,
                 onMouseEnter: V,
                 onMouseDown: q,
-                onMouseUp: Z,
+                onMouseUp: U,
                 onMouseLeave: Y,
               },
               r().createElement(
@@ -9387,7 +9395,7 @@
                       selectOnFocus: P.selectOnFocus,
                       maxLength: P.maxLength,
                       classMix: S,
-                      onFocus: U,
+                      onFocus: Z,
                       onChange: W,
                       onClear: $,
                     },

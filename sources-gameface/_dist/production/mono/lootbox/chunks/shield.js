@@ -1,7 +1,7 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Ht as a, Vt as s, ft as n, h as i, m as t } from "./lib.js";
+import { Ht as a, Vt as s, _ as n, ft as i, g as t } from "./lib.js";
 import { r } from "./resources.js";
-var o = e(n()),
+var o = e(i()),
   c = {
     ENTRY_POINT: {
       icon: { emptyIconBrightness: 0.4, boxesIconBrightness: 0.4 },
@@ -48,16 +48,16 @@ var o = e(n()),
     return s(e, a);
   };
 function h(e, a) {
-  const s = l[i(e)],
-    n = s?.COMMON ? g(c.COMMON, s.COMMON) : c.COMMON;
-  if (!a) return n;
+  const s = l[n(e)],
+    i = s?.COMMON ? g(c.COMMON, s.COMMON) : c.COMMON;
+  if (!a) return i;
   const t = s ? g(c[a], s[a]) : c[a],
-    r = Object.keys(t).filter((e) => e in n);
+    r = Object.keys(t).filter((e) => e in i);
   if (r.length > 0)
     throw new Error(
       `[getConfig] Name conflict in "${e}.${String(a)}": keys [${r.join(", ")}] exist in both componentConfig and commonConfig.`,
     );
-  return { ...t, ...n };
+  return { ...t, ...i };
 }
 var d = {
     base: "Number_cf3a5bc4",

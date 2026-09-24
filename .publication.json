@@ -1,7 +1,7 @@
 {
   "branch": "wot-common-test",
   "client_type": "sd",
-  "commit_subject": "2.4.1.0 #953",
+  "commit_subject": "2.4.1.0 #954",
   "counts": {
     "locales": {
       "EN": 320,
@@ -13,7 +13,7 @@
     "stubs": 100
   },
   "default_locale": "EN",
-  "descriptor_sha256": "23d0f36b0c14273104cfd49e603d1ae227d9473d3d65e0242be277a78dccc473",
+  "descriptor_sha256": "978a9b1a6137c5325fd4fc25f6d341fddd243d7e990e96c3f49e7e8be96379e0",
   "languages": [
     "EN",
     "RU"
@@ -21,8 +21,8 @@
   "publisher": "wargaming",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-09-19T07:42:45.985934Z",
-  "snapshot_id": "sha256:1e3bcba37b4f32ddf5ca8422f6b1da50c42a6a4c02bbf0e36a157f21d377d84f",
+  "snapshot_created_at": "2026-09-24T15:52:39.210554Z",
+  "snapshot_id": "sha256:cccd24d7fa68ff92469b06dbca91549231ed976668390d7abb34c65cea3178c7",
   "target": "wot-common-test",
-  "version_name": "2.4.1.5448"
+  "version_name": "2.4.1.5454"
 }

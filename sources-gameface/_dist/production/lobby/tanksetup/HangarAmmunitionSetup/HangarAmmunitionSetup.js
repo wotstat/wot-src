@@ -3884,7 +3884,7 @@
                   id: O,
                   itemInstalledSetupIdx: x,
                   isMountedMoreThanOne: T,
-                  contextMenuDisabled: D,
+                  contextMenuDisabled: D || j,
                   isSetupSwitching: s,
                 };
               return o().createElement(
@@ -5679,102 +5679,103 @@
             name: t,
             tooltipArgs: a,
             contextMenuArgs: n,
-            imageSource: s,
-            overlayType: u,
-            highlightType: r,
-            isModernized: l,
-            level: _,
-            isDisabled: d,
-            isCurrent: m,
-            isActive: p,
-            isLocked: b,
-            isAbilitiesCard: g = !1,
-            isClickable: E = !0,
-            details: f,
-            options: h,
-            actions: v,
-            specializations: C,
-            extraImages: A,
-            onSlotClick: D,
-            shouldHandleMouseOver: F,
-            category: S,
-            onTooltipShow: y,
-            onTooltipHide: B,
-            lockReason: w,
+            contextMenuDisabled: s,
+            imageSource: u,
+            overlayType: r,
+            highlightType: l,
+            isModernized: _,
+            level: d,
+            isDisabled: m,
+            isCurrent: p,
+            isActive: b,
+            isLocked: g,
+            isAbilitiesCard: E = !1,
+            isClickable: f = !0,
+            details: h,
+            options: v,
+            actions: C,
+            specializations: A,
+            extraImages: D,
+            onSlotClick: F,
+            shouldHandleMouseOver: S,
+            category: y,
+            onTooltipShow: B,
+            onTooltipHide: w,
+            lockReason: k,
           }) => {
-            const k = (0, Pa.GS)(),
-              x = (0, i.useState)({ isBaseHovered: !1, isActionsHovered: !1 }),
-              T = x[0],
-              I = x[1],
-              N = (0, i.useState)(!1),
-              L = N[0],
-              O = N[1],
-              M = (0, i.useState)(!1),
-              P = M[0],
-              $ = M[1],
-              z = (0, i.useCallback)(() => {
-                (!T.isActionsHovered && Ae.$.playHighlight(),
-                  I({ isBaseHovered: !0, isActionsHovered: !1 }),
-                  F && O(!0));
-              }, [T.isActionsHovered, F]),
+            const x = (0, Pa.GS)(),
+              T = (0, i.useState)({ isBaseHovered: !1, isActionsHovered: !1 }),
+              I = T[0],
+              N = T[1],
+              L = (0, i.useState)(!1),
+              O = L[0],
+              M = L[1],
+              P = (0, i.useState)(!1),
+              $ = P[0],
+              z = P[1],
               H = (0, i.useCallback)(() => {
-                F && O(!1);
-              }, [F]),
+                (!I.isActionsHovered && Ae.$.playHighlight(),
+                  N({ isBaseHovered: !0, isActionsHovered: !1 }),
+                  S && M(!0));
+              }, [I.isActionsHovered, S]),
               j = (0, i.useCallback)(() => {
-                I({ isBaseHovered: !1, isActionsHovered: !0 });
-              }, []),
+                S && M(!1);
+              }, [S]),
               W = (0, i.useCallback)(() => {
-                I({ isBaseHovered: !1, isActionsHovered: !1 });
+                N({ isBaseHovered: !1, isActionsHovered: !0 });
               }, []),
-              G = E && (!d || g),
-              U = (0, i.useCallback)(() => {
-                G && D && (Ae.$.playClick(), D());
-              }, [D, G]),
-              Z = T.isBaseHovered || T.isActionsHovered,
-              V = (0, i.useMemo)(() => {
+              G = (0, i.useCallback)(() => {
+                N({ isBaseHovered: !1, isActionsHovered: !1 });
+              }, []),
+              U = f && (!m || E),
+              Z = (0, i.useCallback)(() => {
+                U && F && (Ae.$.playClick(), F());
+              }, [F, U]),
+              V = I.isBaseHovered || I.isActionsHovered,
+              q = (0, i.useMemo)(() => {
                 let e = o().createElement(
                   "div",
                   {
-                    onMouseEnter: z,
-                    onMouseLeave: W,
+                    onMouseEnter: H,
+                    onMouseLeave: G,
                     className: Qa.hover,
                     onMouseDown: (e) => {
-                      0 === e.nativeEvent.button && ($(!0), U());
+                      0 === e.nativeEvent.button && (z(!0), Z());
                     },
                     onMouseUp: (e) => {
-                      0 === e.nativeEvent.button && $(!1);
+                      0 === e.nativeEvent.button && z(!1);
                     },
                   },
-                  d && g && o().createElement(nn, { className: Qa.locked }),
+                  m && E && o().createElement(nn, { className: Qa.locked }),
                 );
                 return (
-                  a && (e = o().createElement(Ya, { args: a, onShow: y, onHide: B }, e)),
-                  n && (e = o().createElement(_t, { args: n }, e)),
+                  a && (e = o().createElement(Ya, { args: a, onShow: B, onHide: w }, e)),
+                  n && (e = o().createElement(_t, { args: n, isEnabled: !s }, e)),
                   e
                 );
-              }, [d, g, z, W, U, a, n, y, B, P]),
-              q = (0, i.useMemo)(() => ({ backgroundImage: `url(${s})` }), [s]),
-              X =
-                k === Pa.cJ.Large || k === Pa.cJ.Huge
+              }, [m, E, H, G, Z, a, n, s, B, w, $]),
+              X = (0, i.useMemo)(() => ({ backgroundImage: `url(${u})` }), [u]),
+              K =
+                x === Pa.cJ.Large || x === Pa.cJ.Huge
                   ? R.images.gui.maps.shop.artefacts.c_180x135
                   : R.images.gui.maps.icons.quests.bonuses.small,
-              K = (0, i.useMemo)(() => {
-                let e;
-                return (
-                  u && (e = l ? X.$dyn(`${u}_${_}_overlay`) : X.$dyn(`${u}_overlay`)),
-                  e && { backgroundImage: `url(${e})` }
-                );
-              }, [X, u, l, _]),
               Y = (0, i.useMemo)(() => {
                 let e;
-                return (r && (e = X.$dyn(`${r}_highlight`)), e && { backgroundImage: `url(${e})` });
-              }, [X, r]),
+                return (
+                  r && (e = _ ? K.$dyn(`${r}_${d}_overlay`) : K.$dyn(`${r}_overlay`)),
+                  e && { backgroundImage: `url(${e})` }
+                );
+              }, [K, r, _, d]),
               J = (0, i.useMemo)(() => {
+                let e;
+                return (l && (e = K.$dyn(`${l}_highlight`)), e && { backgroundImage: `url(${e})` });
+              }, [K, l]),
+              Q = (0, i.useMemo)(() => {
                 const e =
-                    (k === Pa.cJ.Large || k === Pa.cJ.Huge ? Pa.cJ.Large : Pa.cJ.Medium) + "_" + S,
+                    (x === Pa.cJ.Large || x === Pa.cJ.Huge ? Pa.cJ.Large : Pa.cJ.Medium) + "_" + y,
                   t = R.images.gui.maps.icons.specialization.$dyn(e);
                 return t && { backgroundImage: `url(${t})` };
-              }, [S, k]);
+              }, [y, x]);
             return o().createElement(
               "div",
               { className: Qa.base },
@@ -5784,72 +5785,72 @@
                   id: e,
                   className: c()(
                     Qa.content,
-                    Qa[`content__${k}`],
-                    Z && E && !d && Qa.content__hovered,
-                    !Z && Qa.content__out,
-                    p && Qa.content__installed,
-                    m && Qa.content__current,
-                    d && Qa.content__disabled,
-                    !G && Qa.content__nonclickable,
+                    Qa[`content__${x}`],
+                    V && f && !m && Qa.content__hovered,
+                    !V && Qa.content__out,
+                    b && Qa.content__installed,
+                    p && Qa.content__current,
+                    m && Qa.content__disabled,
+                    !U && Qa.content__nonclickable,
                   ),
-                  onMouseLeave: H,
+                  onMouseLeave: j,
                 },
+                J &&
+                  o().createElement(
+                    "div",
+                    { className: Qa.types },
+                    o().createElement("div", {
+                      className: c()(Qa.highlight, Qa[`highlight__${l}`]),
+                      style: J,
+                    }),
+                  ),
+                o().createElement("div", { className: Qa.image, style: X }, D),
+                m && o().createElement("div", { className: Qa.disabled }),
+                Q &&
+                  o().createElement("span", {
+                    className: c()(Qa.category, Qa[`category__${x}`]),
+                    style: Q,
+                  }),
                 Y &&
                   o().createElement(
                     "div",
                     { className: Qa.types },
                     o().createElement("div", {
-                      className: c()(Qa.highlight, Qa[`highlight__${r}`]),
+                      className: c()(Qa.overlay, Qa[`overlay__${r}`]),
                       style: Y,
                     }),
                   ),
-                o().createElement("div", { className: Qa.image, style: q }, A),
-                d && o().createElement("div", { className: Qa.disabled }),
-                J &&
-                  o().createElement("span", {
-                    className: c()(Qa.category, Qa[`category__${k}`]),
-                    style: J,
-                  }),
-                K &&
-                  o().createElement(
-                    "div",
-                    { className: Qa.types },
-                    o().createElement("div", {
-                      className: c()(Qa.overlay, Qa[`overlay__${u}`]),
-                      style: K,
-                    }),
-                  ),
-                C && o().createElement("div", { className: Qa.specialization }, C),
+                A && o().createElement("div", { className: Qa.specialization }, A),
                 o().createElement(
                   "div",
-                  { className: c()(Qa.name, d && Qa.name__disabled) },
+                  { className: c()(Qa.name, m && Qa.name__disabled) },
                   o().createElement(Ja.n, {
                     key: t,
-                    mediaSize: k,
+                    mediaSize: x,
                     linesCount: 3,
                     blocks: (0, Ja.D)(systemLocale.toUpperCase(t)),
                   }),
                 ),
-                f && o().createElement("div", { className: Qa.details }, f),
+                h && o().createElement("div", { className: Qa.details }, h),
                 o().createElement(
                   "div",
-                  { className: c()(Qa.options, d && Qa.options__disabled) },
-                  h,
+                  { className: c()(Qa.options, m && Qa.options__disabled) },
+                  v,
                 ),
-                V,
+                q,
                 o().createElement(
                   "div",
-                  { onMouseEnter: j, onMouseLeave: W, className: Qa.actions },
-                  F && v
-                    ? (0, i.cloneElement)(v, Object.assign({}, v.props, { isMouseOverCard: L }))
-                    : v,
+                  { onMouseEnter: W, onMouseLeave: G, className: Qa.actions },
+                  S && C
+                    ? (0, i.cloneElement)(C, Object.assign({}, C.props, { isMouseOverCard: O }))
+                    : C,
                 ),
               ),
-              b &&
+              g &&
                 o().createElement(
                   "div",
                   { className: Qa.locked },
-                  o().createElement(_n, { reason: w, isCritical: d, parentId: e }),
+                  o().createElement(_n, { reason: k, isCritical: m, parentId: e }),
                 ),
             );
           };
@@ -5966,6 +5967,7 @@
               name: _,
               tooltipArgs: P,
               contextMenuArgs: $,
+              contextMenuDisabled: t,
               imageSource: z,
               isClickable: !0,
               isCurrent: e,
@@ -6099,6 +6101,7 @@
               name: d,
               tooltipArgs: P,
               contextMenuArgs: $,
+              contextMenuDisabled: t,
               imageSource: z,
               isCurrent: e,
               isActive: x,
@@ -6407,6 +6410,7 @@
               name: _,
               tooltipArgs: W,
               contextMenuArgs: G,
+              contextMenuDisabled: e,
               imageSource: U,
               isCurrent: a,
               isActive: L,

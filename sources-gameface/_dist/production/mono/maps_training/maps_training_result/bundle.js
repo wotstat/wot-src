@@ -14,8 +14,8 @@ import {
   g as m,
   it as u,
   m as g,
-  nt as p,
-  t as b,
+  n as p,
+  nt as b,
   w as f,
 } from "../chunks/lib.js";
 import "../chunks/_wg-global-styles.js";
@@ -77,7 +77,7 @@ function A({ rewardGot: e, doneValue: a, wasDone: s, animState: t }) {
   return (0, I.jsx)("div", {
     className: j(S.base, S, t),
     children: (0, I.jsx)("div", {
-      className: p(S.item, (e || s) && S.item__got),
+      className: b(S.item, (e || s) && S.item__got),
       children: s ? D.readOrEmpty("maps_training.result.allRewardGot") : k[a],
     }),
   });
@@ -237,7 +237,7 @@ function P({ value: e, label: a, icon: s, index: t, animState: n, all: i }) {
     className: j(G.base, G, n),
     style: { transitionDelay: 0.9 + 0.1 * t + "s" },
     children: [
-      (0, I.jsx)("div", { className: p(G.icon, G[`icon__${s}`]) }),
+      (0, I.jsx)("div", { className: b(G.icon, G[`icon__${s}`]) }),
       (0, I.jsx)("div", {
         className: G.value,
         children:
@@ -257,14 +257,14 @@ var B = "Tank_64c86de0",
   q = "Tank_back_29d05476";
 function H({ vehicleImage: e, isAnyNotDone: a }) {
   return (0, I.jsxs)("div", {
-    className: p(B, a && L),
+    className: b(B, a && L),
     children: [
-      (0, I.jsx)("div", { className: p(W, z) }),
+      (0, I.jsx)("div", { className: b(W, z) }),
       (0, I.jsx)("div", {
         className: F,
         children: (0, I.jsx)("div", { className: U, style: { backgroundImage: `url(${e})` } }),
       }),
-      (0, I.jsx)("div", { className: p(W, Y) }),
+      (0, I.jsx)("div", { className: b(W, Y) }),
       (0, I.jsx)("div", { className: q }),
     ],
   });
@@ -288,14 +288,14 @@ function Q({ animState: e, hasReward: a }) {
     ],
     l = s.doneValue.get() !== w.Done;
   return (0, I.jsxs)("div", {
-    className: p(j(J.base, J, e), l && J.base__defeat),
+    className: b(j(J.base, J, e), l && J.base__defeat),
     children: [
       (0, I.jsx)(H, { vehicleImage: s.vehicleImage.get(), isAnyNotDone: l }),
       (0, I.jsx)("div", {
         className: J.stats,
         children: r.map((a, s) => (0, I.jsx)(P, { index: s, animState: e, ...a }, `item_${s}`)),
       }),
-      !a && (0, I.jsx)("div", { className: p(J.separator, l && J.separator__failed) }),
+      !a && (0, I.jsx)("div", { className: b(J.separator, l && J.separator__failed) }),
     ],
   });
 }
@@ -328,7 +328,7 @@ var X = {
       m = e.mapID.get(),
       u = e.mapName.get(),
       g = l === w.Done,
-      p = e.rewards.get().length > 0;
+      b = e.rewards.get().length > 0;
     (0, T.useEffect)(
       function () {
         t === h.Init &&
@@ -344,12 +344,12 @@ var X = {
     );
     const f = (0, T.useCallback)(
       function () {
-        (p || g
+        (b || g
           ? r.sound(R.sounds.gui_random_reward_end())
           : d && r.sound(R.sounds.gui_random_reward_appear()),
           n(h.Done));
       },
-      [p, g, d],
+      [b, g, d],
     );
     a(i.ESCAPE, s.close);
     const v = (0, T.useMemo)(
@@ -366,7 +366,7 @@ var X = {
     return (0, I.jsxs)("div", {
       className: j(X.base, X, t),
       children: [
-        (0, I.jsx)("div", { className: X.close, children: (0, I.jsx)(b, { onClose: s.close }) }),
+        (0, I.jsx)("div", { className: X.close, children: (0, I.jsx)(p, { onClose: s.close }) }),
         (0, I.jsxs)("div", {
           className: X.bg,
           style: v,
@@ -386,7 +386,7 @@ var X = {
                 (0, I.jsx)("div", { className: X.title, children: ee[l] }),
               ],
             }),
-            (0, I.jsx)(Q, { hasReward: p, animState: t }),
+            (0, I.jsx)(Q, { hasReward: b, animState: t }),
             (0, I.jsx)(O, { animState: t, doneValue: l, wasDone: d, onAnimationCompete: f }),
           ],
         }),

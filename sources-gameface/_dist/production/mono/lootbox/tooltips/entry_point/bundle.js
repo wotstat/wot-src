@@ -5,12 +5,12 @@ import {
   R as r,
   V as i,
   Vt as a,
-  c as o,
-  ft as n,
-  g as c,
-  jt as l,
-  p as d,
-  s as m,
+  ft as o,
+  h as n,
+  jt as c,
+  s as l,
+  u as d,
+  v as m,
   yt as x,
   z as _,
 } from "../../chunks/lib.js";
@@ -29,11 +29,11 @@ var j = {
   [u, b] = i()(({ observableModel: e }) => {
     const s = e.object().get().eventName;
     return { root: e.object(), resources: x.box(p(j, s)), computes: {} };
-  }, l),
+  }, c),
   h = "Timer_f577f798",
   v = "Timer_text_fda9edbe",
   f = "Timer_9f04d336",
-  g = e(n(), 1);
+  g = e(o(), 1);
 var T = t(function () {
     const { model: e } = b(),
       { eventExpireTime: s } = e.root.get(),
@@ -42,7 +42,7 @@ var T = t(function () {
       className: h,
       children: [
         (0, g.jsx)("div", { className: v, children: t.timerText }),
-        (0, g.jsx)(c, { className: f, start: s }),
+        (0, g.jsx)(m, { className: f, start: s }),
       ],
     });
   }),
@@ -58,7 +58,7 @@ var w = t(function () {
       className: N.base,
       children: [
         (0, g.jsx)("div", { className: N.title, children: s.title }),
-        (0, g.jsx)(d, { classMix: N.description, text: s.description }),
+        (0, g.jsx)(n, { classMix: N.description, text: s.description }),
         (0, g.jsx)(T, {}),
       ],
     });
@@ -95,7 +95,7 @@ var z = t(function () {
           className: P,
           children: [
             (0, g.jsx)(E, { className: k, icon: s.alert }),
-            (0, g.jsx)("div", { className: D, children: (0, g.jsx)(d, { text: t.warningTitle }) }),
+            (0, g.jsx)("div", { className: D, children: (0, g.jsx)(n, { text: t.warningTitle }) }),
           ],
         }),
         (0, g.jsx)("div", { className: B, children: t.warningDescription }),
@@ -106,8 +106,8 @@ var z = t(function () {
 var V = t(function () {
   const { model: e } = b(),
     { isEnabled: s } = e.root.get();
-  return (0, g.jsx)(m, {
-    children: (0, g.jsx)(m.Decorator, {
+  return (0, g.jsx)(l, {
+    children: (0, g.jsx)(l.Decorator, {
       children: (0, g.jsx)("div", {
         className: M,
         children: s ? (0, g.jsx)(w, {}) : (0, g.jsx)(z, {}),
@@ -118,7 +118,7 @@ var V = t(function () {
 s();
 r(
   new _()
-    .add(o)
+    .add(d)
     .addWithProps(u, {})
     .render((0, g.jsx)(V, {})),
 );

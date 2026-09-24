@@ -5,31 +5,31 @@ import {
   R as t,
   U as r,
   Z as p,
-  _ as i,
+  g as i,
   jt as l,
   kt as n,
   lt as m,
-  wt as o,
-  xt as d,
-  y as c,
+  m as o,
+  wt as d,
+  xt as c,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { t as h } from "../chunks/vendor.js";
 var u = e(l(), 1),
-  [_, f] = p()(
+  [f, _] = p()(
     ({ observableModel: e }) => ({ ...e.primitives(["petNameID", "hasUpdate", "isVisible"]) }),
-    d,
+    c,
   ),
   b = "App_4f546f10",
   j = "App_base__hidden_4f2b7a98",
   x = "App_inner_f0b59ee5",
   N = "App_name_a1466fa8",
   v = "App_bubble_14dbfc23",
-  k = m(),
-  g = a.resolve("strings"),
-  y = h(function () {
+  g = m(),
+  k = a.resolve("strings"),
+  A = h(function () {
     const e = u.useRef(null),
-      { model: s } = f(),
+      { model: s } = _(),
       a = s.isVisible.get(),
       r = s.petNameID.get(),
       p = s.hasUpdate.get();
@@ -39,36 +39,36 @@ var u = e(l(), 1),
         if (!s) return;
         const a = s.scrollWidth,
           t = s.scrollHeight;
-        o(a, t);
+        d(a, t);
       }, [e]),
-      (0, k.jsx)("div", {
+      (0, g.jsx)("div", {
         ref: e,
         className: n(b, !a && j),
-        children: (0, k.jsxs)("div", {
+        children: (0, g.jsxs)("div", {
           className: x,
           children: [
-            (0, k.jsx)("div", {
+            (0, g.jsx)("div", {
               className: N,
               children:
                 0 === r
-                  ? (0, k.jsx)(t, { path: "pet_system.petHouseMarker.default" })
-                  : (0, k.jsx)(t, {
+                  ? (0, g.jsx)(t, { path: "pet_system.petHouseMarker.default" })
+                  : (0, g.jsx)(t, {
                       path: "pet_system.petHouseMarker.pet",
                       params: {
-                        petName: g.readOr(`pet_names.petName_${r}`, () =>
-                          g.readOrEmpty("pet_names.petName_default"),
+                        petName: k.readOr(`pet_names.petName_${r}`, () =>
+                          k.readOrEmpty("pet_names.petName_default"),
                         ),
                       },
                     }),
             }),
-            (0, k.jsx)(i.Root, {
+            (0, g.jsx)(o.Root, {
               className: v,
               hidden: !p,
-              children: (0, k.jsx)(i.Icon, { type: c.bubble }),
+              children: (0, g.jsx)(o.Icon, { type: i.bubble }),
             }),
           ],
         }),
       })
     );
   });
-s((0, k.jsx)(r, { children: (0, k.jsx)(_, { children: (0, k.jsx)(y, {}) }) }));
+s((0, g.jsx)(r, { children: (0, g.jsx)(f, { children: (0, g.jsx)(A, {}) }) }));

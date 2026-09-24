@@ -1,5 +1,5 @@
 import { r as o } from "./rolldown-runtime.js";
-import { B as e, C as t, Jt as s, S as a, on as r, w as n, y as i } from "./lib.js";
+import { B as e, C as t, Jt as s, S as a, on as r, v as n, w as i } from "./lib.js";
 var l = o(s(), 1);
 function p({ bonuses: o, questId: s, size: p, resId: d, ...v }) {
   const u = r(o, (o) => {
@@ -8,7 +8,7 @@ function p({ bonuses: o, questId: s, size: p, resId: d, ...v }) {
         name: o.name,
         image: a(o, p),
         value: o.value,
-        valueType: n(o.name),
+        valueType: i(o.name),
         special:
           "overlayType" in o &&
           o.overlayType &&
@@ -30,11 +30,11 @@ function p({ bonuses: o, questId: s, size: p, resId: d, ...v }) {
       };
       var r;
     }),
-    y = {
+    m = {
       contentId: R.views.lobby.tooltips.AdditionalRewardsTooltip("resId"),
       args: { showFromIndex: v.count, questId: s },
       resId: d,
     };
-  return (0, l.jsx)(i, { ...v, data: u, boxRewardTooltip: y, size: p });
+  return (0, l.jsx)(n, { ...v, data: u, boxRewardTooltip: m, size: p });
 }
 export { p as t };
