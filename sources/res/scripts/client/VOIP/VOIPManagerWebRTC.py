@@ -265,6 +265,8 @@ class VOIPManagerWebRTC(VOIPHandler):
 
     def __setMicMute(self, muted):
         _logger.debug(b'SetMicMute: %s', str(muted))
+        if self.__getOwnPlayerDBID() != 0 and self.isCurrentChannelEnabled() and len(self.__channelUsers) == 0:
+            self.onPlayerSpeaking(self.__getOwnPlayerDBID(), not muted)
         if muted:
             BigWorld.VOIP.disableMicrophone()
         else:
@@ -423,7 +425,7 @@ class VOIPManagerWebRTC(VOIPHandler):
         if int(data[VOIPCommon.KEY_RETURN_CODE]) != VOIPCommon.CODE_SUCCESS:
             _logger.error(b'Participant is not removed: %r', data)
             return
-        dbid = data[VOIPCommon.KEY_PARTICIPANT_URI]
+        dbid = int(data[VOIPCommon.KEY_PARTICIPANT_URI])
         if dbid in self.__channelUsers:
             del self.__channelUsers[dbid]
         self.onPlayerSpeaking(dbid, False)
@@ -436,6 +438,8 @@ class VOIPManagerWebRTC(VOIPHandler):
         dbid = int(data[VOIPCommon.KEY_PARTICIPANT_URI])
         if dbid == 0:
             dbid = self.__getOwnPlayerDBID()
+            if len(self.__channelUsers) == 0:
+                return
         talking = int(data[VOIPCommon.KEY_IS_SPEAKING])
         if dbid in self.__channelUsers:
             channelUser = self.__channelUsers[dbid]
@@ -449,8 +453,6 @@ class VOIPManagerWebRTC(VOIPHandler):
         return
 
     def __getOwnPlayerDBID(self):
-        if self.__dbid != 0:
-            return self.__dbid
         self.__dbid = getAccountDatabaseID() or getAvatarDatabaseID()
         return self.__dbid
 

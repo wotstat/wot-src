@@ -344,7 +344,7 @@ class WtMainPrizeDiscountTokenBonusPacker(WtTokenBonusPacker):
         discountName = discountNameArray[1] if len(discountNameArray) > 1 else token.id
         model.setName(discountName)
         discountTokenCount = cls._gameEventCtrl.getCurrentMainPrizeDiscountTokensCount()
-        discount = discountTokenCount * cls._gameEventCtrl.getMainPrizeDiscountPerToken()
+        discount = discountTokenCount * 10
         model.setIcon(discountName + b'_' + str(discount))
         model.setLabel(backport.text(R.strings.event.WTEventAwardsView.mainRewards.dyn(discountName)(), discount=discount))
         return
