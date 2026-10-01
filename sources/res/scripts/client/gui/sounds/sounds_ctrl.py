@@ -3,6 +3,7 @@ from gui.sounds.ambients import GuiAmbientsCtrl
 from gui.sounds.sound_constants import EnabledStatus
 from gui.sounds.sound_systems import getCurrentSoundSystem
 from gui.sounds.sound_utils import SOUND_DEBUG
+from gui.sounds.mixer_volume import SystemMixerVolumeCtrl
 from helpers import dependency
 from skeletons.gui.game_control import IGameSessionController
 from skeletons.gui.shared import IItemsCache
@@ -16,17 +17,20 @@ class SoundsController(ISoundsController):
         super(SoundsController, self).__init__()
         self.__soundSystem = getCurrentSoundSystem()
         self.__guiAmbients = GuiAmbientsCtrl(weakref.proxy(self))
+        self.__mixerVolume = SystemMixerVolumeCtrl()
         SOUND_DEBUG(b'Sound system has been created', self.__soundSystem)
         return
 
     def init(self):
         self.__soundSystem.init()
         self.__guiAmbients.init()
+        self.__mixerVolume.init()
         return
 
     def fini(self):
         self.__soundSystem.fini()
         self.__guiAmbients.fini()
+        self.__mixerVolume.fini()
         return
 
     def start(self):
@@ -58,6 +62,13 @@ class SoundsController(ISoundsController):
 
     def isEnabled(self):
         return EnabledStatus.isEnabled(SoundGroups.g_instance.getEnableStatus())
+
+    def isSystemMixerVolumeDisabled(self):
+        return self.__mixerVolume.isSystemMixerVolumeDisabled()
+
+    def markNeedInvAppMixerVolume(self):
+        self.__mixerVolume.markNeedInvAppMixerVolume()
+        return
 
     def setEnvForSpace(self, spaceID, newEnv):
         return self.__guiAmbients.setEnvForSpace(spaceID, newEnv)

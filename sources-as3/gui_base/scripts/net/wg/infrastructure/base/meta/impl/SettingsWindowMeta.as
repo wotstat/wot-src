@@ -42,6 +42,10 @@ package net.wg.infrastructure.base.meta.impl
       
       public var openColorSettings:Function;
       
+      public var showSystemMixerVolumeDisabledPage:Function;
+      
+      public var isSystemMixerVolumeDisabled:Function;
+      
       private var _dataProvider:DataProvider;
       
       private var _vectorSettingsNewCountersVo:Vector.<SettingsNewCountersVo>;
@@ -184,6 +188,18 @@ package net.wg.infrastructure.base.meta.impl
       {
          App.utils.asserter.assertNotNull(this.openColorSettings,"openColorSettings" + Errors.CANT_NULL);
          this.openColorSettings();
+      }
+      
+      public function showSystemMixerVolumeDisabledPageS() : void
+      {
+         App.utils.asserter.assertNotNull(this.showSystemMixerVolumeDisabledPage,"showSystemMixerVolumeDisabledPage" + Errors.CANT_NULL);
+         this.showSystemMixerVolumeDisabledPage();
+      }
+      
+      public function isSystemMixerVolumeDisabledS() : Boolean
+      {
+         App.utils.asserter.assertNotNull(this.isSystemMixerVolumeDisabled,"isSystemMixerVolumeDisabled" + Errors.CANT_NULL);
+         return this.isSystemMixerVolumeDisabled();
       }
       
       final public function as_setCaptureDevices(param1:Number, param2:Array) : void

@@ -1218,6 +1218,21 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 			<icon>MessageIcon</icon>
 			<message>&lt;font color='#8C8C7E'&gt;%(text)s&lt;/font&gt;</message>
 		</GameGreetingSysMessage>
+		<SystemMixerVolumeDisabledSysMessage>
+			<priority>high</priority>
+			<lifeTime>30000</lifeTime>
+			<type>red</type>
+			<icon>WarningIcon</icon>
+			<message>&lt;font face="$TitleFont" size="15" color="#E9E2BF"&gt;_(#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/header)&lt;/font&gt;&lt;br/&gt;&lt;font color="#8C8C7E"&gt;_(#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/body)&lt;/font&gt;</message>
+			<buttonsLayout>
+				<button>
+					<type>submit</type>
+					<label>_(#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/button)</label>
+					<action>systemMixerVolumeDisabledPage</action>
+					<width>120</width>
+				</button>
+			</buttonsLayout>
+		</SystemMixerVolumeDisabledSysMessage>
 		<PowerLevelSysMessage>
 			<priority>low</priority>
 			<type>green</type>

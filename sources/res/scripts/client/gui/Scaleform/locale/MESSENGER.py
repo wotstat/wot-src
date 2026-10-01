@@ -1273,6 +1273,11 @@ class MESSENGER(object):
     SERVICECHANNELMESSAGES_STALLPURCHASERECEIPT_BODY = b'#messenger:serviceChannelMessages/stallPurchaseReceipt/body'
     VOIP_INITINPROGRESS = b'#messenger:voip/initInProgress'
     VOIP_READY = b'#messenger:voip/ready'
+    SERVICECHANNELMESSAGES_SESSIONPROGRESSREWARDSCOMPLETE_HEADER = b'#messenger:serviceChannelMessages/sessionProgressRewardsComplete/header'
+    SERVICECHANNELMESSAGES_SESSIONPROGRESSREWARDSCOMPLETE_BODY = b'#messenger:serviceChannelMessages/sessionProgressRewardsComplete/body'
+    SERVICECHANNELMESSAGES_SYSTEMMIXERVOLUMEDISABLEDSYSMESSAGE_HEADER = b'#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/header'
+    SERVICECHANNELMESSAGES_SYSTEMMIXERVOLUMEDISABLEDSYSMESSAGE_BODY = b'#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/body'
+    SERVICECHANNELMESSAGES_SYSTEMMIXERVOLUMEDISABLEDSYSMESSAGE_BUTTON = b'#messenger:serviceChannelMessages/systemMixerVolumeDisabledSysMessage/button'
     CLIENT_ERROR_SHARED_ENUM = (
      CLIENT_ERROR_SHARED_TRY_LATER,
      CLIENT_ERROR_SHARED_GENERIC,

@@ -66,6 +66,14 @@ class SettingsWindowMeta(AbstractWindowView):
         self._printOverrideError(b'openColorSettings')
         return
 
+    def showSystemMixerVolumeDisabledPage(self):
+        self._printOverrideError(b'showSystemMixerVolumeDisabledPage')
+        return
+
+    def isSystemMixerVolumeDisabled(self):
+        self._printOverrideError(b'isSystemMixerVolumeDisabled')
+        return
+
     def as_setDataS(self, settingsData):
         if self._isDAAPIInited():
             return self.flashObject.as_setData(settingsData)

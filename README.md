@@ -1,4 +1,4 @@
-# wot-src • mt-ru • 1.45.0.0 #2284
+# wot-src • mt-ru • 1.45.0.0 #2290
 
 [![wot-eu status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-eu.json)](https://github.com/wotstat/wot-src/tree/wot-eu)
 [![wot-na status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwotstat.github.io%2Fgame-unpack-pipeline%2Fbadges%2Fwot-na.json)](https://github.com/wotstat/wot-src/tree/wot-na)
@@ -58,8 +58,8 @@ stubs/               # полный manifest payload IDE stubs
 
 - Target: `mt-ru`
 - Ветка: `mt-ru`
-- Версия: `1.45.0.8259`
+- Версия: `1.45.0.8309`
 - Publisher: `lesta`
-- GameSnapshot: `sha256:836102947659981a97bd147ecb39861ae1751f1f9cb81547e5fd0a60dbb1e052`
+- GameSnapshot: `sha256:148712cdc139ba799ced0758cd1b02100513f554e3708c310afcfd790772c0fe`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

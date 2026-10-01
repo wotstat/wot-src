@@ -1,15 +1,15 @@
 {
   "branch": "mt-ru",
   "client_type": "sd",
-  "commit_subject": "1.45.0.0 #2284",
+  "commit_subject": "1.45.0.0 #2290",
   "counts": {
     "locales": {},
-    "sources": 18084,
+    "sources": 18085,
     "sources_as3": 6655,
     "sources_gameface": 1645,
     "stubs": 75
   },
-  "descriptor_sha256": "c15da4abc33ba9c165e7426ce99067bc6aa2a64ccd5458b55be9c1dcea8ab051",
+  "descriptor_sha256": "f8ab0b7d64c9e851718bcd6e7e10910b37f432a203d33f89814d7fdcf272ec8e",
   "languages": [
     "BE",
     "RU"
@@ -17,8 +17,8 @@
   "publisher": "lesta",
   "schema_version": 1,
   "snapshot_contract_version": "1.1.0",
-  "snapshot_created_at": "2026-09-24T05:46:55.092141Z",
-  "snapshot_id": "sha256:836102947659981a97bd147ecb39861ae1751f1f9cb81547e5fd0a60dbb1e052",
+  "snapshot_created_at": "2026-10-01T06:51:30.662458Z",
+  "snapshot_id": "sha256:148712cdc139ba799ced0758cd1b02100513f554e3708c310afcfd790772c0fe",
   "target": "mt-ru",
-  "version_name": "1.45.0.8259"
+  "version_name": "1.45.0.8309"
 }

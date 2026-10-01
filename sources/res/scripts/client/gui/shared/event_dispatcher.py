@@ -2603,3 +2603,8 @@ def showSummerSaleConfirmView(productCode):
     result = yield th_await(showSingleDialogWithResultData(productCode=productCode, layoutID=SummerSaleConfirmView.LAYOUT_ID, wrappedViewClass=SummerSaleConfirmView))
     raise AsyncReturn(result)
     return
+
+
+def showSystemMixerVolumeDisabledPage():
+    g_eventBus.handleEvent(events.OpenLinkEvent(events.OpenLinkEvent.PARSED, url=b'systemMixerVolumeDisabledPage'), EVENT_BUS_SCOPE.DEFAULT)
+    return
