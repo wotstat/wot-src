@@ -16,14 +16,14 @@ import {
   m as _,
   g as u,
   aM as g,
-  q as h,
-  x as b,
+  Q as h,
+  v as b,
   aN as p,
   aO as f,
   aA as x,
   aP as v,
   aQ as y,
-  a4 as j,
+  x as j,
   E as N,
   G as w,
   ay as I,
@@ -31,7 +31,7 @@ import {
   aR as k,
   u as S,
   ar as T,
-  K as D,
+  q as D,
   aS as E,
   ab as P,
   aT as $,
@@ -45,21 +45,21 @@ import {
   aW as V,
   at as W,
   F,
-  aX as K,
-  aY as q,
+  aX as q,
+  aY as K,
   y as X,
   D as Y,
   aZ as U,
   z as G,
-  a_ as J,
-  a$ as Q,
+  a_ as Q,
+  a$ as J,
   b0 as Z,
   b1 as ee,
   b2 as se,
   j as ae,
   B as te,
   b3 as ne,
-  v as ie,
+  R as ie,
   b4 as re,
   p as le,
   o as ce,
@@ -67,7 +67,7 @@ import {
   aJ as de,
   c as me,
 } from "./lib.js";
-import { g as _e, I as ue, b as ge } from "./get_reward_image.js";
+import { b as _e, I as ue, a as ge } from "./get_reward_image.js";
 const he = { tension: 800, friction: 40 },
   be = {
     from: { opacity: 0, transform: "translateY(50px)" },
@@ -233,8 +233,8 @@ const Me = "to_active_challenge",
       children: Ve.readOrEmpty("user_missions.hub.challenge_missions.card.activeLabel"),
     }),
   Fe = "PreviewableReward_5e9e4c84",
-  Ke = "PreviewableReward_name_a3e59465",
-  qe = "PreviewableReward_label_62ca7a49",
+  qe = "PreviewableReward_name_a3e59465",
+  Ke = "PreviewableReward_label_62ca7a49",
   Xe = "PreviewableReward_iconPosition_9043e7b9",
   Ye = "PreviewableReward_icon_7cb83516",
   Ue = u.resolve("strings"),
@@ -259,19 +259,19 @@ const Me = "to_active_challenge",
         }),
         e.label &&
           l.jsx(h, {
-            classMix: c(Ke, n?.name),
+            classMix: c(qe, n?.name),
             text:
               "attachmentsTitle" !== a
                 ? e.label
                 : Ue.readOrEmpty(`quests.bonusName.attachments_set.${e.icon}`, "silent") ||
                   Ue.readOrEmpty("quests.bonusName.attachments_set.default"),
           }),
-        l.jsx("div", { className: c(qe, n?.label), children: i }),
+        l.jsx("div", { className: c(Ke, n?.label), children: i }),
       ],
     });
   },
-  Je = "AttachmentSet_name_ed624d0c",
-  Qe = {
+  Qe = "AttachmentSet_name_ed624d0c",
+  Je = {
     base: "CurrenciesDescription_5a5f9bec",
     count: "CurrenciesDescription_count_2d00f3a7",
     count__credits: "CurrenciesDescription_count__credits_15e8d585",
@@ -369,7 +369,7 @@ const Me = "to_active_challenge",
         kingReward: e,
         openPreview: s,
         labelKey: "attachmentsTitle",
-        classNames: { name: Je },
+        classNames: { name: Qe },
       }),
     [Ce]: ({ kingReward: e }) => {
       const { label: s } = e;
@@ -385,13 +385,13 @@ const Me = "to_active_challenge",
       const s = e.bonusType ?? "",
         a = Number(e.value ?? 0);
       return l.jsxs("div", {
-        className: Qe.base,
+        className: Je.base,
         children: [
           l.jsx(b, {
-            className: c(Qe.count, Qe[`count__${s}`]),
+            className: c(Je.count, Je[`count__${s}`]),
             text: p.formatNumber("integral", a),
           }),
-          l.jsx("div", { className: Qe.name, children: Ze.readOrEmpty(`quests.bonusName.${s}`) }),
+          l.jsx("div", { className: Je.name, children: Ze.readOrEmpty(`quests.bonusName.${s}`) }),
         ],
       });
     },
@@ -506,19 +506,19 @@ const Me = "to_active_challenge",
         l.jsx("div", { className: Hs }),
       ],
     }),
-  Ks = {
+  qs = {
     base: "ConditionsList_77f64f73",
     base__locked: "ConditionsList_base__locked_2b33f65e",
     condition: "ConditionsList_condition_1282d07b",
   },
-  qs = ({ mission: e, state: s }) =>
+  Ks = ({ mission: e, state: s }) =>
     l.jsx("div", {
-      className: c(Ks.base, Ks[`base__${s}`]),
+      className: c(qs.base, qs[`base__${s}`]),
       children: _(e.postBattleCondition.items, (e, s, a) =>
         l.jsxs(
           "div",
           {
-            className: Ks.condition,
+            className: qs.condition,
             children: [l.jsx(Ls, { condition: e }), s < a.length - 1 && l.jsx(Fs, {})],
           },
           `${s}`,
@@ -529,8 +529,8 @@ const Me = "to_active_challenge",
   Ys = u.resolve("images");
 const Us = "RewardImage_5b6b980",
   Gs = "RewardImage_count_21fdceb9";
-const Js = "RewardName_text_debdee3b";
-const Qs = "Reward_cd75c111",
+const Qs = "RewardName_text_debdee3b";
+const Js = "Reward_cd75c111",
   Zs = u.resolve("aliases"),
   ea = s.forwardRef(function (
     { reward: e, missionId: a, className: t = "", disabledRewardTooltip: n = !1, ...i },
@@ -550,7 +550,7 @@ const Qs = "Reward_cd75c111",
             Number(o),
           );
       }, [n, o]),
-      l.jsx("div", { ref: r, ...m, className: c(Qs, t), children: i.children })
+      l.jsx("div", { ref: r, ...m, className: c(Js, t), children: i.children })
     );
   });
 ((ea.Image = function ({ showCounter: e, count: s, image: a, className: t = "" }) {
@@ -568,7 +568,7 @@ const Qs = "Reward_cd75c111",
 }),
   (ea.Name = function ({ reward: e, className: s = "" }) {
     const { label: a } = e;
-    return l.jsx(b, { className: c(Js, s), text: p.formatNumber("integral", Number(a)) });
+    return l.jsx(b, { className: c(Qs, s), text: p.formatNumber("integral", Number(a)) });
   }),
   (ea.Overlay = function ({ size: e, special: s, className: a }) {
     return l.jsx("div", {
@@ -664,7 +664,7 @@ function ca({
           l.jsxs("div", {
             className: la.card,
             children: [
-              l.jsx(qs, { mission: e, state: s }),
+              l.jsx(Ks, { mission: e, state: s }),
               l.jsx(ra, { sortedRewards: d, missionId: r, disabledRewardTooltip: n }),
             ],
           }),
@@ -941,8 +941,8 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
       ],
     }),
   Fa = "left",
-  Ka = "right",
-  qa = "both",
+  qa = "right",
+  Ka = "both",
   Xa = "none",
   Ya = {
     base: "CardsContent_5a377872",
@@ -1048,7 +1048,7 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
         l.jsx("div", {
           className: c(
             Ya.mask,
-            Ya[`mask__${((K = R), (q = S), K || q ? (K ? (q ? Xa : Ka) : Fa) : qa)}`],
+            Ya[`mask__${((q = R), (K = S), q || K ? (q ? (K ? Xa : qa) : Fa) : Ka)}`],
           ),
           ref: r,
           children: l.jsx(d.div, {
@@ -1098,24 +1098,24 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
         l.jsx(H, { classNames: { base: Ya.scrollBar } }),
       ],
     });
-    var K, q;
+    var q, K;
   }),
   Ga = "Badges_active_2b01effc",
-  Ja = "Badges_active__shown_962cc4d1",
-  Qa = "Badges_bubble_44df09e",
+  Qa = "Badges_active__shown_962cc4d1",
+  Ja = "Badges_bubble_44df09e",
   Za = s.memo(function ({ status: e }) {
     const s = W(e) === fe;
     return l.jsxs(l.Fragment, {
       children: [
         e === fe &&
           l.jsx("div", {
-            className: c(Ga, s && Ja),
+            className: c(Ga, s && Qa),
             children: l.jsx(F, { path: "user_missions.hub.challenge_missions.missionsActive" }),
           }),
         e === xe &&
-          l.jsx(K.Root, {
-            className: Qa,
-            children: l.jsx(K.Value, {
+          l.jsx(q.Root, {
+            className: Ja,
+            children: l.jsx(q.Value, {
               size: "medium",
               value: R.strings.user_missions.hub.challenge_missions.new(),
             }),
@@ -1140,7 +1140,7 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
     const n = t > 0;
     return l.jsxs(l.Fragment, {
       children: [
-        l.jsx("div", { className: et, children: l.jsx(q, { text: e }) }),
+        l.jsx("div", { className: et, children: l.jsx(K, { text: e }) }),
         l.jsx("div", {
           className: st,
           children: s
@@ -1216,7 +1216,7 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
                   X,
                   {
                     type: G.accent,
-                    format: _ > J ? U.compact : U.default,
+                    format: _ > Q ? U.compact : U.default,
                     size: n.weight < w.extraLarge.weight ? Y.x24x24 : Y.x32x32,
                     className: ot.timer,
                     start: _,
@@ -1239,7 +1239,7 @@ const Ba = "CardsList_cardsWrapper_6c2823cb",
 function gt({ challengeID: e, isSelected: s, onSelect: a, complexity: t, className: n, ...i }) {
   return l.jsx("div", {
     ...i,
-    children: l.jsx(Q, {
+    children: l.jsx(J, {
       classNames: { wrapper: _t, card: ut },
       className: n,
       selected: s,
@@ -1473,13 +1473,13 @@ function Ht({ challengeData: e, hasOpacity: s = !1 }) {
 const Vt = "RestartAction_6898d409",
   Wt = "RestartAction_button_3a224126",
   Ft = "RestartAction_info_6898d409",
-  Kt = "RestartAction_text_2929e8aa",
-  qt = "RestartAction_infoIcon_6c17b18",
+  qt = "RestartAction_text_2929e8aa",
+  Kt = "RestartAction_infoIcon_6c17b18",
   Xt = u.resolve("aliases"),
   Yt = u.resolve("views"),
   Ut = Xt.read((e) => e.user_missions.hub.challengeMissions.MainView("resId")),
   Gt = Yt.read((e) => e.mono.user_missions.tooltips.challenges_restart_tooltip("resId"));
-function Jt({ challengeData: e, onAction: s, hasButton: a }) {
+function Qt({ challengeData: e, onAction: s, hasButton: a }) {
   const t = e.remainingFreeRestarts,
     n = e.isEnoughMoney,
     i = e.currencyType === re.crystal,
@@ -1509,15 +1509,15 @@ function Jt({ challengeData: e, onAction: s, hasButton: a }) {
                 l.jsx(h, {
                   text: Nn.readOrEmpty(`${wn}.restart.text`),
                   binding: { count: t },
-                  classMix: Kt,
+                  classMix: qt,
                 }),
-              l.jsx("div", { className: qt }),
+              l.jsx("div", { className: Kt }),
             ],
           }),
     ],
   });
 }
-const Qt = "RestartInfo_cf799b5c",
+const Jt = "RestartInfo_cf799b5c",
   Zt = "RestartInfo_text_48b53e90",
   en = "RestartInfo_infoIcon_12406d73",
   sn = u.resolve("aliases"),
@@ -1529,7 +1529,7 @@ function rn({ challengeData: e }) {
     a = s > 0,
     t = j({ resId: tn, contentId: nn });
   return l.jsxs("div", {
-    className: Qt,
+    className: Jt,
     ...t,
     children: [
       l.jsx(Ht, { challengeData: e, hasOpacity: !0 }),
@@ -1549,7 +1549,7 @@ function cn(e) {
     t = s.remainingAttempts;
   return l.jsx("div", {
     className: c(ln, a),
-    children: 0 === t ? l.jsx(Jt, { ...e }) : l.jsx(rn, { challengeData: s }),
+    children: 0 === t ? l.jsx(Qt, { ...e }) : l.jsx(rn, { challengeData: s }),
   });
 }
 const on = "StatusInfo_162c825c",
@@ -1583,7 +1583,7 @@ function yn({
             {
               size: Y.x24x24,
               type: G.accent,
-              format: e > J ? U.compact : U.default,
+              format: e > Q ? U.compact : U.default,
               start: e,
               classNames: { icon: mn, label: _n },
             },

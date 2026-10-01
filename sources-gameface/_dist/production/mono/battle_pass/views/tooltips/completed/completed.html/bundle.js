@@ -1,5 +1,5 @@
 import { g as s, j as e, w as t, f as a } from "../../../../chunks/vendor.js";
-import { i as o, R as n, cd as c, J as l, U as i, d } from "../../../../chunks/lib.js";
+import { i as o, S as n, cd as c, J as l, U as i, d } from "../../../../chunks/lib.js";
 import { I as m } from "../../../../chunks/icon_text_block.js";
 /* empty css                       */ var r = ((s) => (
   (s.COMMON = "common"),
@@ -77,7 +77,7 @@ const [_, x] = o()(({ observableModel: e }) => {
   B = "Content_info_a37d477a",
   F = "Content_unlock_8083471",
   L = R.strings.battle_pass.tooltips,
-  Y = t(() => {
+  S = t(() => {
     const { model: s } = x(),
       { isBattlePassPurchased: t, notChosenRewardCount: o, isAvailableTankmen: n } = s.root.get(),
       c = o > 0,
@@ -133,5 +133,5 @@ const [_, x] = o()(({ observableModel: e }) => {
       ],
     });
   }),
-  E = () => e.jsx(c, { children: e.jsx(c.Decorator, { children: e.jsx(Y, {}) }) });
-d(new l().add(i).addWithProps(_, {}).render(e.jsx(E, {})));
+  Y = () => e.jsx(c, { children: e.jsx(c.Decorator, { children: e.jsx(S, {}) }) });
+d(new l().add(i).addWithProps(_, {}).render(e.jsx(Y, {})));

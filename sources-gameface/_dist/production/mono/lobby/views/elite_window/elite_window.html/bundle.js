@@ -1,21 +1,21 @@
-import { t as e, j as s, k as a } from "../../../chunks/vendor.js";
+import { D as e, j as s, s as a } from "../../../chunks/vendor.js";
 import {
-  i,
-  r as l,
-  u as o,
-  n as t,
-  F as c,
-  P as n,
-  B as r,
-  t as d,
-  s as _,
-  V as m,
-  a as g,
-  b as v,
-  k as N,
-  T as p,
-  c as x,
-  U as j,
+  d as i,
+  o as l,
+  av as o,
+  aw as t,
+  ax as c,
+  ay as n,
+  P as r,
+  az as d,
+  aA as _,
+  af as m,
+  t as g,
+  aq as v,
+  ac as N,
+  aB as x,
+  au as p,
+  at as j,
 } from "../../../chunks/lib.js";
 var h = ((e) => (
   (e.STANDARD = "standard"),
@@ -23,7 +23,7 @@ var h = ((e) => (
   (e.VEH_SKILL_TREE = "vehSkillTree"),
   e
 ))(h || {});
-const [b, P] = i()(
+const [b, f] = i()(
     ({ observableModel: e }) => ({
       ...e.primitives(["type", "isPrestigeAvailable"]),
       vehicleInfo: e.object("vehicleInfo"),
@@ -34,21 +34,21 @@ const [b, P] = i()(
       close: e.createCallbackNoArgs("onClose"),
     }),
   ),
-  f = "Icon_glow_b6f80802",
-  k = "Icon_glow__light_3f310309",
-  u = "Icon_glow__strong_cd5dd8a1",
+  P = "Icon_glow_b6f80802",
+  u = "Icon_glow__light_3f310309",
+  k = "Icon_glow__strong_cd5dd8a1",
   w = "Icon_7f7c6297",
   y = "Icon_tankIcon_34bc69b9",
   C = l.resolve("images"),
   S = e(({ vehicleType: e }) => {
-    const { model: i } = P(),
+    const { model: i } = f(),
       l = o({ value: "c_440x330" }, { small: { value: "c_600x450" } }),
       c = C.readOrEmpty(`elitewindow.tank_icons.${l.value}.${t(e)}`);
     return s.jsxs("div", {
       className: w,
       children: [
-        s.jsx("div", { className: a(f, u) }),
-        !i.isPrestigeAvailable.get() && s.jsx("div", { className: a(f, k) }),
+        s.jsx("div", { className: a(P, k) }),
+        !i.isPrestigeAvailable.get() && s.jsx("div", { className: a(P, u) }),
         s.jsx("div", { className: y, style: { backgroundImage: `url(${c})` } }),
       ],
     });
@@ -64,7 +64,7 @@ const [b, P] = i()(
   H = "ProgressionBlock_icon_230ee763",
   z = R.strings.elite_window.elite_window,
   L = e(({ className: e }) => {
-    const { model: i } = P(),
+    const { model: i } = f(),
       l = i.type.get(),
       o =
         l === h.POST_PROGRESSION ? z.post_progression.description() : z.vanity_progression.title(),
@@ -91,55 +91,55 @@ const [b, P] = i()(
       ],
     });
   }),
-  F = "Content_glow_7d6ef440",
-  $ = "Content_glow__strong_4a868d52",
+  $ = "Content_glow_7d6ef440",
+  F = "Content_glow__strong_4a868d52",
   M = "Content_9af045a3",
-  V = "Content_base__hasPostProgression_a9391767",
+  q = "Content_base__hasPostProgression_a9391767",
   K = "Content_main_f562db1d",
-  U = "Content_section_57c57489",
+  V = "Content_section_57c57489",
   W = "Content_section__image_7f1ebf74",
-  q = "Content_section__body_8837b3f5",
-  J = "Content_section__title_806db271",
-  Q = "Content_section__description_e93395a4",
+  J = "Content_section__body_8837b3f5",
+  Q = "Content_section__title_806db271",
+  U = "Content_section__description_e93395a4",
   X = "Content_prestigeBadge_a19642a7",
   Y = "Content_prestigeEmblem_5e4cfab0",
   Z = "Content_postProgression_9f8673d",
   ee = "Content_arrow_82982ba8",
   se = R.strings.elite_window.elite_window,
   ae = e(({ className: e }) => {
-    const { model: i, controls: l } = P(),
+    const { model: i, controls: l } = f(),
       o = i.vehicleInfo.get(),
       t = i.type.get(),
       r = i.isPrestigeAvailable.get(),
       d = i.prestigeEmblem.get();
     return s.jsxs("div", {
-      className: a(M, t !== h.STANDARD && V),
+      className: a(M, t !== h.STANDARD && q),
       children: [
         s.jsxs("div", {
           className: K,
           children: [
             s.jsx("div", { className: ee }),
             s.jsxs("div", {
-              className: U,
+              className: V,
               children: [
                 s.jsx("div", { className: W, children: s.jsx(S, { vehicleType: o.vehicleType }) }),
                 s.jsxs("div", {
-                  className: q,
+                  className: J,
                   children: [
-                    s.jsx("div", { className: J, children: se.elite.title() }),
-                    s.jsx(c, { className: Q, text: se.elite.description(), split: !0 }),
+                    s.jsx("div", { className: Q, children: se.elite.title() }),
+                    s.jsx(c, { className: U, text: se.elite.description(), split: !0 }),
                   ],
                 }),
               ],
             }),
             r &&
               s.jsxs("div", {
-                className: U,
+                className: V,
                 children: [
                   s.jsxs("div", {
                     className: a(W, X),
                     children: [
-                      s.jsx("div", { className: a(F, $) }),
+                      s.jsx("div", { className: a($, F) }),
                       s.jsx(n, {
                         level: d.level,
                         grade: d.grade ?? 1,
@@ -150,10 +150,10 @@ const [b, P] = i()(
                     ],
                   }),
                   s.jsxs("div", {
-                    className: q,
+                    className: J,
                     children: [
-                      s.jsx("div", { className: J, children: se.prestige.title() }),
-                      s.jsx(c, { className: Q, text: se.prestige.description(), split: !0 }),
+                      s.jsx("div", { className: Q, children: se.prestige.title() }),
+                      s.jsx(c, { className: U, text: se.prestige.description(), split: !0 }),
                     ],
                   }),
                 ],
@@ -168,7 +168,7 @@ const [b, P] = i()(
   le = "Footer_button_cc34b9a4",
   oe = R.strings.elite_window.elite_window,
   te = e(({ className: e }) => {
-    const { model: i, controls: l } = P(),
+    const { model: i, controls: l } = f(),
       o = i.type.get();
     return s.jsxs("div", {
       className: a(ie, e),
@@ -200,7 +200,7 @@ const [b, P] = i()(
   de = "Header_title_b0ea43f0",
   _e = R.strings.elite_window.elite_window,
   me = e(({ className: e }) => {
-    const { model: i } = P(),
+    const { model: i } = f(),
       l = i.vehicleInfo.get();
     if (l.vehicleType in g)
       return s.jsxs("div", {
@@ -221,10 +221,10 @@ const [b, P] = i()(
   ge = "App_f208273f",
   ve = "App_backgroundGlare_3ba092e8",
   Ne = "App_header_494088d4",
-  pe = "App_footer_ac8fd39",
-  xe = "App_closeButton_c796cf51",
+  xe = "App_footer_ac8fd39",
+  pe = "App_closeButton_c796cf51",
   je = e(function () {
-    const { controls: e } = P();
+    const { controls: e } = f();
     return (
       v(N.ESCAPE, e.close),
       s.jsxs("div", {
@@ -232,8 +232,8 @@ const [b, P] = i()(
         children: [
           s.jsx("div", { className: ve }),
           s.jsx("div", {
-            className: xe,
-            children: s.jsx(p, {
+            className: pe,
+            children: s.jsx(x, {
               caption: R.strings.menu.viewHeader.closeBtn.label(),
               type: "close",
               side: "right",
@@ -242,9 +242,9 @@ const [b, P] = i()(
           }),
           s.jsx(me, { className: Ne }),
           s.jsx(ae, {}),
-          s.jsx(te, { className: pe }),
+          s.jsx(te, { className: xe }),
         ],
       })
     );
   });
-x(s.jsx(b, { children: s.jsx(j, { children: s.jsx(je, {}) }) }));
+p(s.jsx(b, { children: s.jsx(j, { children: s.jsx(je, {}) }) }));

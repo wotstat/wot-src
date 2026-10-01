@@ -15,38 +15,38 @@ import {
   i as _,
   c as m,
   n as u,
-  al as p,
-  dj as f,
-  au as k,
-  b9 as b,
-  av as x,
+  aP as p,
+  dt as f,
+  Z as b,
+  H as k,
+  P as x,
   r as h,
-  aT as j,
-  aJ as v,
-  aK as g,
-  aI as y,
-  cu as N,
-  dk as w,
+  b9 as j,
+  ab as v,
+  a9 as g,
+  aa as y,
+  cD as N,
+  du as w,
   x as P,
-  a8 as B,
-  a9 as E,
-  dl as T,
-  aH as C,
-  dm as H,
-  cx as O,
+  aE as B,
+  G as E,
+  ds as T,
+  b2 as C,
+  dv as H,
+  cF as O,
   J as L,
   F as S,
 } from "../../../chunks/lib.js";
 import { B as I, j as V, a as D, S as $, k as z, i as M } from "../../../chunks/perk.js";
 import { T as U } from "../../../chunks/tankman_role.js";
 import { a as F, T as R } from "../../../chunks/user_account_model.js";
-/* empty css                    */ const A = "commander",
-  Z = "default",
+/* empty css                    */ const Z = "commander",
+  A = "default",
   W = "active",
   G = "activeDisable",
-  J = "disable",
-  X = "low",
-  q = "newFull",
+  X = "disable",
+  q = "low",
+  J = "newFull",
   K = "newLow",
   Q = "newDisableFull",
   Y = "newDisableLow",
@@ -77,7 +77,7 @@ const ne = ie(p(e({ tankman: f }))),
   _e = "EfficiencyBonus_battleBoostersOverlay_798a4d63",
   me = "EfficiencyBonus_bonusPercentage_bb4d7cec";
 function ue(e) {
-  return e.type === A || "brotherhood" === e.type
+  return e.type === Z || "brotherhood" === e.type
     ? `tankmen.skills.medium.${e.name}`
     : `artefact.${e.name}`;
 }
@@ -89,11 +89,11 @@ const pe = s(function ({ className: e }) {
       children: [
         a.jsx("div", {
           className: te,
-          children: a.jsx(k, {
+          children: a.jsx(b, {
             path: "crew.crewInfoTooltip.efficiencyBonus.title",
             params: {
               color: "#80D43A",
-              value: b.formatReal("woZeroDigits", Math.round(100 * n) / 100),
+              value: k.formatReal("woZeroDigits", Math.round(100 * n) / 100),
             },
           }),
         }),
@@ -101,7 +101,7 @@ const pe = s(function ({ className: e }) {
           className: le,
           children: s.map((e, s) => {
             const n = 0 === e.bonus;
-            if (e.type !== A || !n)
+            if (e.type !== Z || !n)
               return a.jsxs(
                 "div",
                 {
@@ -117,11 +117,11 @@ const pe = s(function ({ className: e }) {
                     !n &&
                       a.jsx("div", {
                         className: me,
-                        children: a.jsx(k, {
+                        children: a.jsx(b, {
                           upgradeLegacy: !0,
                           path: "common.plusPercentValue",
                           params: {
-                            value: b.formatReal("woZeroDigits", Math.round(100 * e.bonus) / 100),
+                            value: k.formatReal("woZeroDigits", Math.round(100 * e.bonus) / 100),
                           },
                         }),
                       }),
@@ -135,8 +135,8 @@ const pe = s(function ({ className: e }) {
     });
   }),
   fe = "Header_b0317c12",
-  ke = "Header_role_2ccc4739",
-  be = "Header_roleIcon_830cdda2",
+  be = "Header_role_2ccc4739",
+  ke = "Header_roleIcon_830cdda2",
   xe = "Header_roleName_c9393f08",
   he = "Header_name_f879f6e9",
   je = "Header_image_7903c260";
@@ -150,9 +150,9 @@ const ge = s(function ({ className: e }) {
       className: i(fe, e),
       children: [
         a.jsxs("div", {
-          className: ke,
+          className: be,
           children: [
-            a.jsx(U, { role: s, className: be }),
+            a.jsx(U, { role: s, className: ke }),
             a.jsx("div", {
               className: xe,
               children: l.readOrEmpty(`item_types.tankman.roles.${s}`),
@@ -188,7 +188,7 @@ const ge = s(function ({ className: e }) {
           children: [
             a.jsx("div", {
               className: ye.percentage,
-              children: a.jsx(k, {
+              children: a.jsx(b, {
                 path: "common.percentValue",
                 params: { value: r },
                 upgradeLegacy: !0,
@@ -251,8 +251,8 @@ const Ee = {
     perkIcon: "PerkTile_perkIcon_e41d7d0a",
     currentProgress: "PerkTile_currentProgress_dd2e40d8",
   },
-  Te = [J, Q, Y, G],
-  Ce = [Q, q],
+  Te = [X, Q, Y, G],
+  Ce = [Q, J],
   He = [W, G],
   Oe = s(function ({ index: e, withBonus: s, role: n, className: r }) {
     const {
@@ -268,7 +268,7 @@ const Ee = {
       {
         perks: p,
         newPerkCount: f,
-        actualProgress: b,
+        actualProgress: k,
       } = (function ({
         withBonus: e,
         role: s,
@@ -313,7 +313,7 @@ const Ee = {
         return Boolean(l && e && l === e.name)
           ? c
             ? W
-            : Z
+            : A
           : e || n
             ? e && e.state === w.learning && !o
               ? c
@@ -324,14 +324,14 @@ const Ee = {
                   ? Y
                   : Q
                 : c || e?.state === w.irrelevant
-                  ? J
+                  ? X
                   : o || (void 0 !== t && r && t >= 0 && t < 100)
                     ? n
                       ? K
-                      : X
+                      : q
                     : n
-                      ? q
-                      : Z
+                      ? J
+                      : A
             : ee;
       })({
         perk: p[e],
@@ -341,7 +341,7 @@ const Ee = {
         insideNativeTank: o,
         newPerk: h,
         lastAvailablePerk: v,
-        actualProgress: b,
+        actualProgress: k,
       });
     return a.jsxs("div", {
       className: i(Ee.base, s && Ee.base__bonus, Ee[`base__${g}`], r),
@@ -354,9 +354,9 @@ const Ee = {
         He.includes(g) &&
           a.jsx("div", {
             className: Ee.currentProgress,
-            children: a.jsx(k, {
+            children: a.jsx(b, {
               path: "common.percentValue",
-              params: { value: b },
+              params: { value: k },
               upgradeLegacy: !0,
             }),
           }),
@@ -395,20 +395,20 @@ const ze = "PerksBlock_f82e9f49",
   Ue = "PerksBlock_perksBlockWrapper__bonus_e20f2761",
   Fe = "PerksBlock_perksBlockWrapper__compact_9d1d73ac",
   Re = "PerksBlock_perksBlockHeader_64846481",
-  Ae = "PerksBlock_perkCounter_fd44504f",
-  Ze = "PerksBlock_perksText_dec68431",
+  Ze = "PerksBlock_perkCounter_fd44504f",
+  Ae = "PerksBlock_perksText_dec68431",
   We = "PerksBlock_accelerateTraining_dc79b4c3",
   Ge = "PerksBlock_accelerateTrainingIcon_c34017ae";
-function Je(e) {
+function Xe(e) {
   return e && e.some((e) => e.state === w.learning);
 }
-const Xe = s(function ({ className: e }) {
+const qe = s(function ({ className: e }) {
     const { role: s, perks: n, bonusPerks: r, quickTraining: t } = ne().tankman,
       l = h.resolve("strings"),
       c = r.reduce((e, s) => e + s.skills.length, 0),
       o = r.length > 0,
-      d = !t && !o && !Je(n),
-      _ = !t && o && !Je(r[r.length - 1]?.skills);
+      d = !t && !o && !Xe(n),
+      _ = !t && o && !Xe(r[r.length - 1]?.skills);
     return a.jsxs("div", {
       className: i(ze, e),
       children: [
@@ -418,9 +418,9 @@ const Xe = s(function ({ className: e }) {
             a.jsxs("div", {
               className: Re,
               children: [
-                a.jsx(M, { className: Ae, value: n.length, main: !0 }),
+                a.jsx(M, { className: Ze, value: n.length, main: !0 }),
                 a.jsx("div", {
-                  className: Ze,
+                  className: Ae,
                   children: l.readOrEmpty("crew.crewInfoTooltip.perksBlock.major"),
                 }),
               ],
@@ -435,9 +435,9 @@ const Xe = s(function ({ className: e }) {
               a.jsxs("div", {
                 className: Re,
                 children: [
-                  a.jsx(M, { className: Ae, value: c, main: !1 }),
+                  a.jsx(M, { className: Ze, value: c, main: !1 }),
                   a.jsx("div", {
-                    className: Ze,
+                    className: Ae,
                     children: l.readOrEmpty("crew.crewInfoTooltip.perksBlock.bonus"),
                   }),
                 ],
@@ -456,7 +456,7 @@ const Xe = s(function ({ className: e }) {
       ],
     });
   }),
-  qe = "Specialization_b8ff1390",
+  Je = "Specialization_b8ff1390",
   Ke = "Specialization_specializationTitle_9a88dfae",
   Qe = "Specialization_specializationList_b4709f0f",
   Ye = "Specialization_specializationItem_51eceac3",
@@ -466,7 +466,7 @@ const Xe = s(function ({ className: e }) {
     const { nativeVehicle: s } = ne().tankman,
       n = h.resolve("strings");
     return a.jsxs("div", {
-      className: i(qe, e),
+      className: i(Je, e),
       children: [
         a.jsx("div", {
           className: Ke,
@@ -487,7 +487,7 @@ const Xe = s(function ({ className: e }) {
               className: Ye,
               children: [
                 a.jsx("div", { className: ss }),
-                a.jsx(k, {
+                a.jsx(b, {
                   path: `crew.crewInfoTooltip.specialization.vehicleType.${j(s.type)}`,
                   params: {
                     nation: n.readOrEmpty(`crew.crewInfoTooltip.specialization.nation.${s.nation}`),
@@ -633,7 +633,7 @@ const ds = "Index_4a4da35",
             i && a.jsx(os, {}),
             a.jsx(as, { className: us }),
             n && a.jsx(Pe, { className: us }),
-            a.jsx(Xe, { className: us }),
+            a.jsx(qe, { className: us }),
             a.jsx(pe, {}),
           ],
         }),
@@ -645,15 +645,15 @@ const ds = "Index_4a4da35",
       value: "Module",
     }),
   ),
-  ks = ie(p(e({ textPath: t() }))),
-  bs = "Index_5056ae66",
+  bs = ie(p(e({ textPath: t() }))),
+  ks = "Index_5056ae66",
   xs = h.resolve("strings"),
   hs = s(function () {
-    const { textPath: e } = ks();
+    const { textPath: e } = bs();
     if (xs.readOrEmpty(e, "silent"))
       return a.jsx(T, {
         children: a.jsx(T.Decorator, {
-          children: a.jsx("div", { className: bs, children: a.jsx(k, { path: e, split: !0 }) }),
+          children: a.jsx("div", { className: ks, children: a.jsx(b, { path: e, split: !0 }) }),
         }),
       });
   }),
@@ -722,8 +722,8 @@ const Hs = "Bonuslist_30606a62",
   Us = "Bonuslist_name_5f548721",
   Fs = "Bonuslist_list_item__pro_30606a62",
   Rs = "Bonuslist_list__pro_15c23dd",
-  As = "Bonuslist_list__extended_b282b07a",
-  Zs = "Bonuslist_proBenefits_10504c1",
+  Zs = "Bonuslist_list__extended_b282b07a",
+  As = "Bonuslist_proBenefits_10504c1",
   Ws = "Bonuslist_proBenefits__upgraded_1052ec71";
 function Gs() {
   const {
@@ -745,14 +745,14 @@ function Gs() {
     },
     [m, u] = _(d),
     [p, f] = _(s),
-    k = d.length;
+    b = d.length;
   return a.jsxs("div", {
     className: Hs,
     children: [
       a.jsx("div", {
-        className: i(Os, k >= 12 && As),
+        className: i(Os, b >= 12 && Zs),
         children:
-          k > 0 &&
+          b > 0 &&
           a.jsxs(a.Fragment, {
             children: [
               a.jsx("div", {
@@ -805,7 +805,7 @@ function Gs() {
         !t &&
         c !== F.Pro &&
         a.jsxs("div", {
-          className: i(Zs, r === R.UnlockPro && Ws),
+          className: i(As, r === R.UnlockPro && Ws),
           children: [
             r === R.UnlockPro && a.jsx(Cs, { unlockType: R.UnlockPro }),
             a.jsxs("div", {
@@ -864,7 +864,7 @@ function Gs() {
     ],
   });
 }
-const Js = {
+const Xs = {
   base: "Header_5400049d",
   base_column: "Header_base_column_e43fe643",
   background: "Header_background_fbb8754f",
@@ -882,24 +882,24 @@ const Js = {
   periodicity: "Header_periodicity_65f475ba",
   extendsOn: "Header_extendsOn_f208a15b",
 };
-function Xs({ expiryTime: e, periodicity: s, state: n, type: r }) {
+function qs({ expiryTime: e, periodicity: s, state: n, type: r }) {
   const { isCnRegion: t } = Ps(),
     l = h.resolve("strings");
   return a.jsxs("div", {
-    className: Js.base,
+    className: Xs.base,
     children: [
       a.jsx("div", {
-        className: Js.base_column,
-        children: a.jsx("div", { className: i(Js.icon, Js[`icon__${r.toLowerCase()}`]) }),
+        className: Xs.base_column,
+        children: a.jsx("div", { className: i(Xs.icon, Xs[`icon__${r.toLowerCase()}`]) }),
       }),
       a.jsxs("div", {
-        className: Js.base_column,
+        className: Xs.base_column,
         children: [
           a.jsxs("div", {
-            className: Js.state,
+            className: Xs.state,
             children: [
               a.jsxs("div", {
-                className: Js.state_title,
+                className: Xs.state_title,
                 children: [
                   l.readOrEmpty(
                     "subscription.headerButton.tooltip.title" +
@@ -916,20 +916,20 @@ function Xs({ expiryTime: e, periodicity: s, state: n, type: r }) {
               }),
               "Inactive" !== n &&
                 a.jsx("div", {
-                  className: i(Js.state_status, Js[`state_status__${n.toLowerCase()}`]),
+                  className: i(Xs.state_status, Xs[`state_status__${n.toLowerCase()}`]),
                   children: l.readOrEmpty(`subscription.headerButton.tooltip.${n}`),
                 }),
             ],
           }),
           "Inactive" === n &&
             a.jsx("div", {
-              className: Js.getSubscriptionHint,
+              className: Xs.getSubscriptionHint,
               children: l.readOrEmpty("subscription.headerButton.tooltip.getSubscriptionHint"),
             }),
           s &&
             "Pro" === r &&
             a.jsx("div", {
-              className: Js.periodicity,
+              className: Xs.periodicity,
               children: a.jsx(C, {
                 text: l.readOrEmpty("subscription.headerButton.tooltip.periodicity"),
                 params: { number: 30 * s },
@@ -938,7 +938,7 @@ function Xs({ expiryTime: e, periodicity: s, state: n, type: r }) {
             }),
           e && "None" !== r
             ? a.jsx("div", {
-                className: Js.extendsOn,
+                className: Xs.extendsOn,
                 children: a.jsx(C, {
                   text: l.readOrEmpty(
                     "subscription.headerButton.tooltip." +
@@ -951,11 +951,11 @@ function Xs({ expiryTime: e, periodicity: s, state: n, type: r }) {
             : null,
         ],
       }),
-      a.jsx("div", { className: i(Js.background, Js[`background__${r.toLowerCase()}`]) }),
+      a.jsx("div", { className: i(Xs.background, Xs[`background__${r.toLowerCase()}`]) }),
     ],
   });
 }
-const qs = {
+const Js = {
     decorator: "Index_decorator_29808c75",
     wrapper: "Index_wrapper_99411988",
     wrapper__pro: "Index_wrapper__pro_fe256643",
@@ -963,13 +963,13 @@ const qs = {
   Ks = s(function () {
     const { state: e, type: s, periodicity: n, expiryTime: r, tooltipVariant: t } = Ps();
     return a.jsx("div", {
-      className: qs.base,
+      className: Js.base,
       children: a.jsx(T.Decorator, {
-        className: qs.decorator,
+        className: Js.decorator,
         children: a.jsxs("div", {
-          className: i(qs.wrapper, s === F.Pro && qs.wrapper__pro),
+          className: i(Js.wrapper, s === F.Pro && Js.wrapper__pro),
           children: [
-            a.jsx(Xs, { expiryTime: r, periodicity: n, state: e, type: s }),
+            a.jsx(qs, { expiryTime: r, periodicity: n, state: e, type: s }),
             s === F.None && a.jsx(Cs, { unlockType: t }),
             a.jsx(Gs, {}),
           ],

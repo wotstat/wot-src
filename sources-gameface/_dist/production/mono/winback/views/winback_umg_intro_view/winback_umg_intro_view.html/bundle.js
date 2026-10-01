@@ -1,4 +1,4 @@
-import { j as s, x as e, h as i } from "../../../chunks/vendor.js";
+import { j as s, y as e, h as i } from "../../../chunks/vendor.js";
 import {
   X as a,
   F as t,
@@ -6,13 +6,13 @@ import {
   Z as o,
   i as r,
   r as c,
-  u as l,
+  s as l,
   _ as d,
   $ as m,
   a0 as u,
   a1 as p,
   a2 as g,
-  b as _,
+  v as _,
   U as h,
 } from "../../../chunks/lib.js";
 import { u as b, S as f } from "../../../chunks/use_preload_images_state.js";
@@ -53,9 +53,9 @@ const [N, A] = r("WinbackUmgIntroViewModel")(
     ({ observableModel: s }) => s.object(),
     ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClose") }),
   ),
-  B = "App_a630decb",
-  V = "App_base__hidden_1de0b422",
-  y = "App_background_c144dcf",
+  y = "App_a630decb",
+  B = "App_base__hidden_1de0b422",
+  V = "App_background_c144dcf",
   E = "App_bgFoggingAndBlurring_46add9c6",
   P = "App_container_4d03d2df",
   $ = "App_closeButton_f5179698",
@@ -76,11 +76,11 @@ const [N, A] = r("WinbackUmgIntroViewModel")(
     l(a.close);
     const g = d({ value: m.small }, { large: { value: m.medium } });
     return s.jsxs("div", {
-      className: i(B, !c && V),
+      className: i(y, !c && B),
       children: [
         n
           ? s.jsx(v, { src: n })
-          : s.jsx("div", { className: y, children: s.jsx("div", { className: E }) }),
+          : s.jsx("div", { className: V, children: s.jsx("div", { className: E }) }),
         c &&
           s.jsxs("div", {
             className: P,

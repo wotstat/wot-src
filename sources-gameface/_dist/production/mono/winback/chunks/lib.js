@@ -1911,6 +1911,17 @@ function UIProvider(e) {
     }),
   });
 }
+function makeEngineEvent(e) {
+  return (t) => (
+    engine.on(e, t),
+    () => {
+      engine.off(e, t);
+    }
+  );
+}
+function setTrackMouseOutside(e) {
+  viewEnv.setTrackMouseOnStage(e);
+}
 reactExports.forwardRef(function (e, t) {
   const n = reactExports.useRef(null);
   return (
@@ -1925,195 +1936,6 @@ reactExports.forwardRef(function (e, t) {
     jsxRuntimeExports.jsx("div", { ...e, ref: assignRefs([t, n]) })
   );
 });
-var MOUSE_BUTTON_CODES = ((e) => (
-  (e[(e.LEFT = 0)] = "LEFT"),
-  (e[(e.WHEEL = 1)] = "WHEEL"),
-  (e[(e.RIGHT = 2)] = "RIGHT"),
-  (e[(e.FOURTH = 3)] = "FOURTH"),
-  (e[(e.FIFTH = 4)] = "FIFTH"),
-  e
-))(MOUSE_BUTTON_CODES || {});
-function playSound$1(e) {
-  engine.call("PlaySound", e).catch((t) => {
-    console.error("[lib/sounds.js] playSound(", e, "): ", t);
-  });
-}
-const Sound = {
-  playHighlight() {
-    playSound$1("highlight");
-  },
-  playClick() {
-    playSound$1("play");
-  },
-  playYes() {
-    playSound$1("yes1");
-  },
-};
-var ButtonType = ((e) => (
-    (e.main = "main"),
-    (e.primary = "primary"),
-    (e.primaryGreen = "primaryGreen"),
-    (e.primaryRed = "primaryRed"),
-    (e.secondary = "secondary"),
-    (e.ghost = "ghost"),
-    e
-  ))(ButtonType || {}),
-  ButtonSize = ((e) => (
-    (e.extraSmall = "extraSmall"),
-    (e.small = "small"),
-    (e.medium = "medium"),
-    (e.large = "large"),
-    e
-  ))(ButtonSize || {});
-const base$e = "Cbutton_24fc9a0c",
-  base__main = "Cbutton_base__main_2f199578",
-  base__primary = "Cbutton_base__primary_9da8a692",
-  base__primaryGreen = "Cbutton_base__primaryGreen_74301f4e",
-  base__primaryRed = "Cbutton_base__primaryRed_d184ac",
-  base__secondary = "Cbutton_base__secondary_22ff48c2",
-  base__ghost = "Cbutton_base__ghost_fd3acf91",
-  base__extraSmall$1 = "Cbutton_base__extraSmall_f64ebb9e",
-  base__small$5 = "Cbutton_base__small_a71bc2a9",
-  base__medium$3 = "Cbutton_base__medium_d82a1b14",
-  base__large$3 = "Cbutton_base__large_f02aee17",
-  base__disabled$2 = "Cbutton_base__disabled_96f239bb",
-  back = "Cbutton_back_ffaa618f",
-  texture = "Cbutton_texture_f462b307",
-  state = "Cbutton_state_bf8d0bab",
-  base__focus = "Cbutton_base__focus_180a9717",
-  stateHighlightHover = "Cbutton_stateHighlightHover_7e2b860e",
-  stateHighlightActive = "Cbutton_stateHighlightActive_f3d8fd6a",
-  stateDisabled = "Cbutton_stateDisabled_7b91392f",
-  base__highlightActive = "Cbutton_base__highlightActive_180a9717",
-  content$3 = "Cbutton_content_faaa9067",
-  buttonStyles = {
-    base: base$e,
-    base__main: base__main,
-    base__primary: base__primary,
-    base__primaryGreen: base__primaryGreen,
-    base__primaryRed: base__primaryRed,
-    base__secondary: base__secondary,
-    base__ghost: base__ghost,
-    base__extraSmall: base__extraSmall$1,
-    base__small: base__small$5,
-    base__medium: base__medium$3,
-    base__large: base__large$3,
-    base__disabled: base__disabled$2,
-    back: back,
-    texture: texture,
-    state: state,
-    base__focus: base__focus,
-    stateHighlightHover: stateHighlightHover,
-    stateHighlightActive: stateHighlightActive,
-    stateDisabled: stateDisabled,
-    base__highlightActive: base__highlightActive,
-    content: content$3,
-  },
-  Button$1 = ({
-    children: e,
-    size: t,
-    disabled: n,
-    mixClass: s,
-    onMouseEnter: r,
-    onMouseMove: o,
-    onMouseDown: a,
-    onMouseUp: i,
-    onMouseLeave: c,
-    onClick: l,
-    isFocused: u = !1,
-    type: d = ButtonType.primary,
-    soundHover: p = "highlight",
-    soundClick: _ = "play",
-  }) => {
-    const m = reactExports.useRef(null),
-      [g, h] = reactExports.useState(u),
-      [f, E] = reactExports.useState(!1);
-    return (
-      reactExports.useEffect(() => {
-        function e(e) {
-          g && null !== m.current && !m.current.contains(e.target) && h(!1);
-        }
-        return (
-          document.addEventListener("mousedown", e),
-          () => {
-            document.removeEventListener("mousedown", e);
-          }
-        );
-      }, [g]),
-      reactExports.useEffect(() => {
-        h(u);
-      }, [u]),
-      jsxRuntimeExports.jsxs("div", {
-        ref: m,
-        className: cx(
-          buttonStyles.base,
-          buttonStyles[`base__${d}`],
-          n && buttonStyles.base__disabled,
-          t && buttonStyles[`base__${t}`],
-          g && buttonStyles.base__focus,
-          f && buttonStyles.base__highlightActive,
-          s,
-        ),
-        onMouseEnter: function (e) {
-          n || (null !== p && playSound$1(p), r && r(e));
-        },
-        onMouseMove: function (e) {
-          o && o(e);
-        },
-        onMouseUp: function (e) {
-          n || (i && i(e), E(!1));
-        },
-        onMouseDown: function (e) {
-          if (n) return;
-          const t = e.button === MOUSE_BUTTON_CODES.LEFT;
-          (null !== _ && t && playSound$1(_),
-            a && a(e),
-            u && (n || (m.current && (m.current.focus(), h(!0)))),
-            t && E(!0));
-        },
-        onMouseLeave: function (e) {
-          n || (c && c(e), E(!1));
-        },
-        onClick: function (e) {
-          n || (l && l(e));
-        },
-        children: [
-          d !== ButtonType.ghost &&
-            jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
-              children: [
-                jsxRuntimeExports.jsx("div", { className: buttonStyles.back }),
-                jsxRuntimeExports.jsx("span", { className: buttonStyles.texture }),
-              ],
-            }),
-          jsxRuntimeExports.jsxs("span", {
-            className: cx(buttonStyles.state, buttonStyles.state__default),
-            children: [
-              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateDisabled }),
-              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateHighlightHover }),
-              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateHighlightActive }),
-            ],
-          }),
-          jsxRuntimeExports.jsx("span", {
-            className: buttonStyles.content,
-            lang: R.strings.settings.LANGUAGE_CODE(),
-            children: e,
-          }),
-        ],
-      })
-    );
-  },
-  CButton = Button$1;
-function makeEngineEvent(e) {
-  return (t) => (
-    engine.on(e, t),
-    () => {
-      engine.off(e, t);
-    }
-  );
-}
-function setTrackMouseOutside(e) {
-  viewEnv.setTrackMouseOnStage(e);
-}
 const onResize = makeEngineEvent("clientResized"),
   onScaleUpdated = makeEngineEvent("self.onScaleUpdated"),
   onMinimize = makeEngineEvent("clientMinimized"),
@@ -2199,7 +2021,7 @@ const mouse = initMouseEvents(),
       { value: "Module" },
     ),
   );
-function playSound(e) {
+function playSound$1(e) {
   engine.call("PlaySound", e).catch((t) => {
     console.error(`playSound('${e}'): `, t);
   });
@@ -2228,7 +2050,7 @@ const graphicsQuality = {
         getMouseGlobalPosition: getMouseGlobalPosition,
         getSize: getSize$1,
         graphicsQuality: graphicsQuality,
-        playSound: playSound,
+        playSound: playSound$1,
         setRTPC: setRTPC,
       },
       Symbol.toStringTag,
@@ -2236,8 +2058,8 @@ const graphicsQuality = {
     ),
   ),
   sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
-  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
-  play = { ...plays, sound: playSound },
+  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound$1(sounds[t])), e), {}),
+  play = { ...plays, sound: playSound$1 },
   sound = { play: play },
   ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
   ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
@@ -2453,7 +2275,7 @@ const view = Object.freeze(
     ),
   ),
   env = { view: view, client: client, sound: sound },
-  base$d = "Textbutton_b1283086",
+  base$e = "Textbutton_b1283086",
   base__right = "Textbutton_base__right_78d4c03f",
   icon$4 = "Textbutton_icon_9ba4c60",
   icon__back = "Textbutton_icon__back_599b35e4",
@@ -2470,7 +2292,7 @@ const view = Object.freeze(
   base__left = "Textbutton_base__left_599b35e4",
   shine = "Textbutton_shine_527e4656",
   styles$e = {
-    base: base$d,
+    base: base$e,
     base__right: base__right,
     icon: icon$4,
     icon__back: icon__back,
@@ -2548,6 +2370,184 @@ const view = Object.freeze(
       ],
     });
   };
+var MOUSE_BUTTON_CODES = ((e) => (
+  (e[(e.LEFT = 0)] = "LEFT"),
+  (e[(e.WHEEL = 1)] = "WHEEL"),
+  (e[(e.RIGHT = 2)] = "RIGHT"),
+  (e[(e.FOURTH = 3)] = "FOURTH"),
+  (e[(e.FIFTH = 4)] = "FIFTH"),
+  e
+))(MOUSE_BUTTON_CODES || {});
+function playSound(e) {
+  engine.call("PlaySound", e).catch((t) => {
+    console.error("[lib/sounds.js] playSound(", e, "): ", t);
+  });
+}
+const Sound = {
+  playHighlight() {
+    playSound("highlight");
+  },
+  playClick() {
+    playSound("play");
+  },
+  playYes() {
+    playSound("yes1");
+  },
+};
+var ButtonType = ((e) => (
+    (e.main = "main"),
+    (e.primary = "primary"),
+    (e.primaryGreen = "primaryGreen"),
+    (e.primaryRed = "primaryRed"),
+    (e.secondary = "secondary"),
+    (e.ghost = "ghost"),
+    e
+  ))(ButtonType || {}),
+  ButtonSize = ((e) => (
+    (e.extraSmall = "extraSmall"),
+    (e.small = "small"),
+    (e.medium = "medium"),
+    (e.large = "large"),
+    e
+  ))(ButtonSize || {});
+const base$d = "Cbutton_24fc9a0c",
+  base__main = "Cbutton_base__main_2f199578",
+  base__primary = "Cbutton_base__primary_9da8a692",
+  base__primaryGreen = "Cbutton_base__primaryGreen_74301f4e",
+  base__primaryRed = "Cbutton_base__primaryRed_d184ac",
+  base__secondary = "Cbutton_base__secondary_22ff48c2",
+  base__ghost = "Cbutton_base__ghost_fd3acf91",
+  base__extraSmall$1 = "Cbutton_base__extraSmall_f64ebb9e",
+  base__small$5 = "Cbutton_base__small_a71bc2a9",
+  base__medium$3 = "Cbutton_base__medium_d82a1b14",
+  base__large$3 = "Cbutton_base__large_f02aee17",
+  base__disabled$2 = "Cbutton_base__disabled_96f239bb",
+  back = "Cbutton_back_ffaa618f",
+  texture = "Cbutton_texture_f462b307",
+  state = "Cbutton_state_bf8d0bab",
+  base__focus = "Cbutton_base__focus_180a9717",
+  stateHighlightHover = "Cbutton_stateHighlightHover_7e2b860e",
+  stateHighlightActive = "Cbutton_stateHighlightActive_f3d8fd6a",
+  stateDisabled = "Cbutton_stateDisabled_7b91392f",
+  base__highlightActive = "Cbutton_base__highlightActive_180a9717",
+  content$3 = "Cbutton_content_faaa9067",
+  buttonStyles = {
+    base: base$d,
+    base__main: base__main,
+    base__primary: base__primary,
+    base__primaryGreen: base__primaryGreen,
+    base__primaryRed: base__primaryRed,
+    base__secondary: base__secondary,
+    base__ghost: base__ghost,
+    base__extraSmall: base__extraSmall$1,
+    base__small: base__small$5,
+    base__medium: base__medium$3,
+    base__large: base__large$3,
+    base__disabled: base__disabled$2,
+    back: back,
+    texture: texture,
+    state: state,
+    base__focus: base__focus,
+    stateHighlightHover: stateHighlightHover,
+    stateHighlightActive: stateHighlightActive,
+    stateDisabled: stateDisabled,
+    base__highlightActive: base__highlightActive,
+    content: content$3,
+  },
+  Button$1 = ({
+    children: e,
+    size: t,
+    disabled: n,
+    mixClass: s,
+    onMouseEnter: r,
+    onMouseMove: o,
+    onMouseDown: a,
+    onMouseUp: i,
+    onMouseLeave: c,
+    onClick: l,
+    isFocused: u = !1,
+    type: d = ButtonType.primary,
+    soundHover: p = "highlight",
+    soundClick: _ = "play",
+  }) => {
+    const m = reactExports.useRef(null),
+      [g, h] = reactExports.useState(u),
+      [f, E] = reactExports.useState(!1);
+    return (
+      reactExports.useEffect(() => {
+        function e(e) {
+          g && null !== m.current && !m.current.contains(e.target) && h(!1);
+        }
+        return (
+          document.addEventListener("mousedown", e),
+          () => {
+            document.removeEventListener("mousedown", e);
+          }
+        );
+      }, [g]),
+      reactExports.useEffect(() => {
+        h(u);
+      }, [u]),
+      jsxRuntimeExports.jsxs("div", {
+        ref: m,
+        className: cx(
+          buttonStyles.base,
+          buttonStyles[`base__${d}`],
+          n && buttonStyles.base__disabled,
+          t && buttonStyles[`base__${t}`],
+          g && buttonStyles.base__focus,
+          f && buttonStyles.base__highlightActive,
+          s,
+        ),
+        onMouseEnter: function (e) {
+          n || (null !== p && playSound(p), r && r(e));
+        },
+        onMouseMove: function (e) {
+          o && o(e);
+        },
+        onMouseUp: function (e) {
+          n || (i && i(e), E(!1));
+        },
+        onMouseDown: function (e) {
+          if (n) return;
+          const t = e.button === MOUSE_BUTTON_CODES.LEFT;
+          (null !== _ && t && playSound(_),
+            a && a(e),
+            u && (n || (m.current && (m.current.focus(), h(!0)))),
+            t && E(!0));
+        },
+        onMouseLeave: function (e) {
+          n || (c && c(e), E(!1));
+        },
+        onClick: function (e) {
+          n || (l && l(e));
+        },
+        children: [
+          d !== ButtonType.ghost &&
+            jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
+              children: [
+                jsxRuntimeExports.jsx("div", { className: buttonStyles.back }),
+                jsxRuntimeExports.jsx("span", { className: buttonStyles.texture }),
+              ],
+            }),
+          jsxRuntimeExports.jsxs("span", {
+            className: cx(buttonStyles.state, buttonStyles.state__default),
+            children: [
+              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateDisabled }),
+              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateHighlightHover }),
+              jsxRuntimeExports.jsx("span", { className: buttonStyles.stateHighlightActive }),
+            ],
+          }),
+          jsxRuntimeExports.jsx("span", {
+            className: buttonStyles.content,
+            lang: R.strings.settings.LANGUAGE_CODE(),
+            children: e,
+          }),
+        ],
+      })
+    );
+  },
+  CButton = Button$1;
 let ClickOutsideManager$1 = class e {
   entries = [];
   _listenMouse = !1;
@@ -4925,7 +4925,7 @@ const defaultSettings = {
       [h],
     );
     const f = (e) => {
-      e.target.classList.contains(DISABLE_CLASS$1) || playSound$1("highlight");
+      e.target.classList.contains(DISABLE_CLASS$1) || playSound("highlight");
     };
     return jsxRuntimeExports.jsxs("div", {
       className: cx(styles$7.base, t.base),
@@ -4937,7 +4937,7 @@ const defaultSettings = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS$1) ||
               e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), g(Direction.Next));
+              (playSound("play"), g(Direction.Next));
           },
           onMouseUp: h,
           ref: o,
@@ -4948,7 +4948,7 @@ const defaultSettings = {
           onMouseDown: (t) => {
             const s = c.current;
             if (s && t.button === MOUSE_BUTTON_LEFT$1)
-              if ((playSound$1("play"), t.target === s))
+              if ((playSound("play"), t.target === s))
                 p({ pending: !0, offset: t.screenX - s.getBoundingClientRect().x });
               else {
                 ((t) => {
@@ -4972,7 +4972,7 @@ const defaultSettings = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS$1) ||
               e.button !== MOUSE_BUTTON_LEFT$1 ||
-              (playSound$1("play"), g(Direction.Prev));
+              (playSound("play"), g(Direction.Prev));
           },
           onMouseUp: h,
           ref: a,
@@ -5149,7 +5149,7 @@ const DEFAULT_VERTICAL_API_CONTEXT = {
       [f],
     );
     const E = (e) => {
-      e.target.classList.contains(DISABLE_CLASS) || playSound$1("highlight");
+      e.target.classList.contains(DISABLE_CLASS) || playSound("highlight");
     };
     return jsxRuntimeExports.jsxs("div", {
       className: cx(styles$6.base, t.base),
@@ -5161,7 +5161,7 @@ const DEFAULT_VERTICAL_API_CONTEXT = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS) ||
               e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), h(Direction.Next));
+              (playSound("play"), h(Direction.Next));
           },
           ref: o,
           onMouseEnter: E,
@@ -5171,7 +5171,7 @@ const DEFAULT_VERTICAL_API_CONTEXT = {
           onMouseDown: (t) => {
             const s = c.current;
             if (s && t.button === MOUSE_BUTTON_LEFT)
-              if ((playSound$1("play"), t.target === s))
+              if ((playSound("play"), t.target === s))
                 p({ pending: !0, offset: t.screenY - s.getBoundingClientRect().y });
               else {
                 ((t) => {
@@ -5197,7 +5197,7 @@ const DEFAULT_VERTICAL_API_CONTEXT = {
           onMouseDown: (e) => {
             e.target.classList.contains(DISABLE_CLASS) ||
               e.button !== MOUSE_BUTTON_LEFT ||
-              (playSound$1("play"), h(Direction.Prev));
+              (playSound("play"), h(Direction.Prev));
           },
           onMouseUp: f,
           ref: a,
@@ -5851,7 +5851,7 @@ const base = "Tooltipdecorator_ea72f443",
 export {
   sizes$1 as $,
   Input as A,
-  ButtonType as B,
+  ButtonSize as B,
   CButton as C,
   DynamicTooltipWrapper as D,
   InputType as E,
@@ -5877,7 +5877,7 @@ export {
   useLoadPlugin as Y,
   isReactComponent as Z,
   useAdaptive as _,
-  ButtonSize as a,
+  ButtonType as a,
   CloseButton as a0,
   Button as a1,
   injectGFPlugins as a2,
@@ -5885,27 +5885,27 @@ export {
   PopoverDecoratorForwarded as a4,
   TooltipDecorator as a5,
   FormatText as a6,
-  runView as b,
+  buttonStyles as b,
   createLayoutReadyInEffect$1 as c,
-  buttonStyles as d,
-  getRewardTooltipConfig as e,
+  getRewardTooltipConfig as d,
+  getRewardValueType as e,
   filter as f,
   get as g,
-  getRewardValueType as h,
+  getRewardImage as h,
   initializeModelWithContext as i,
-  getRewardImage as j,
-  playSound$2 as k,
-  getFormattedValue as l,
-  getOverlay as m,
+  playSound$2 as j,
+  getFormattedValue as k,
+  getOverlay as l,
+  BonusNames as m,
   noop as n,
-  BonusNames as o,
+  normalizeResource as o,
   pxToRem$1 as p,
-  normalizeResource as q,
+  breakpoints as q,
   resources as r,
-  useMedia as s,
+  useCallbackOnEsc as s,
   toRoman as t,
-  useCallbackOnEsc as u,
-  breakpoints as v,
+  useMedia as u,
+  runView as v,
   constFalse as w,
   map as x,
   identity as y,

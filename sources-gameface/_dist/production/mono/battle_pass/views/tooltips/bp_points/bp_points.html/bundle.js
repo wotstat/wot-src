@@ -1,9 +1,9 @@
 import { j as s, w as e, k as t } from "../../../../chunks/vendor.js";
 import {
   m as i,
-  G as a,
+  L as a,
   i as l,
-  R as n,
+  S as n,
   h as o,
   j as r,
   cd as c,
@@ -70,21 +70,21 @@ import { P as m, a as p } from "../../../../chunks/per_battle_points_table.js";
     n,
   ),
   P = "Header_a103bd21",
-  C = "Header_icon_eed746ab",
-  L = "Header_labels_f416515f",
+  L = "Header_icon_eed746ab",
+  C = "Header_labels_f416515f",
   k = "Header_title_381c9f5b",
-  V = "Header_subtitle_632b6de",
-  W = R.strings.battle_pass.tooltips.points,
-  S = () =>
+  S = "Header_subtitle_632b6de",
+  V = R.strings.battle_pass.tooltips.points,
+  W = () =>
     s.jsxs("div", {
       className: P,
       children: [
-        s.jsx("div", { className: C }),
+        s.jsx("div", { className: L }),
         s.jsxs("div", {
-          className: L,
+          className: C,
           children: [
-            s.jsx("div", { className: k, children: W.title() }),
-            s.jsx("div", { className: V, children: W.subtitle() }),
+            s.jsx("div", { className: k, children: V.title() }),
+            s.jsx("div", { className: S, children: V.subtitle() }),
           ],
         }),
       ],
@@ -123,11 +123,11 @@ import { P as m, a as p } from "../../../../chunks/per_battle_points_table.js";
   A = "Content_separator_774f59ff",
   D = "Content_subtitleRules_2104a67e",
   F = "Content_subtitleVehicles_ead57094",
-  G = "Content_pointsWrapper_21e79339",
-  J = "Content_footerSeparator_a66c0c84",
-  U = "Content_footer_92eb1524",
-  q = "Content_footer__offset_9202885e",
-  z = R.strings.battle_pass.tooltips.points,
+  J = "Content_pointsWrapper_21e79339",
+  U = "Content_footerSeparator_a66c0c84",
+  q = "Content_footer_92eb1524",
+  z = "Content_footer__offset_9202885e",
+  G = R.strings.battle_pass.tooltips.points,
   I = e(() => {
     const { model: e } = w(),
       { items: i } = e.vehiclesList.get(),
@@ -135,21 +135,21 @@ import { P as m, a as p } from "../../../../chunks/per_battle_points_table.js";
     return s.jsxs("div", {
       className: M,
       children: [
-        s.jsx(S, {}),
-        s.jsx("div", { className: D, children: z.rules() }),
+        s.jsx(W, {}),
+        s.jsx("div", { className: D, children: G.rules() }),
         s.jsxs("div", {
-          className: G,
+          className: J,
           children: [s.jsx(B, {}), l && s.jsx(x, {}), s.jsx("div", { className: A })],
         }),
         i.length > 0 &&
           s.jsxs(s.Fragment, {
             children: [
-              s.jsx("div", { className: F, children: z.specialVehicles() }),
+              s.jsx("div", { className: F, children: G.specialVehicles() }),
               s.jsx(f, { vehiclesList: i }),
-              s.jsx("div", { className: J, children: s.jsx("div", { className: A }) }),
+              s.jsx("div", { className: U, children: s.jsx("div", { className: A }) }),
             ],
           }),
-        s.jsx("div", { className: t(U, !i.length && q), children: s.jsx(a, { text: z.footer() }) }),
+        s.jsx("div", { className: t(q, !i.length && z), children: s.jsx(a, { text: G.footer() }) }),
       ],
     });
   }),

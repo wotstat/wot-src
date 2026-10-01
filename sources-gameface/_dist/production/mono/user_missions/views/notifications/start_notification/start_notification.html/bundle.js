@@ -1,14 +1,14 @@
 import { D as s, j as e, e as a } from "../../../../chunks/vendor.js";
 import {
   i as l,
-  a2 as t,
-  x as n,
+  N as t,
+  v as n,
   o,
   t as c,
   p as i,
   C as r,
   n as p,
-  a3 as m,
+  w as m,
   r as b,
   U as _,
 } from "../../../../chunks/lib.js";
@@ -22,8 +22,8 @@ import {
   u = "App_wrapper_ffdbb6e9",
   f = "App_description_bb08788d",
   A = "App_title_cd1a36ec",
-  C = "App_text_b138bc7f",
-  N = "App_button_cec9cac4",
+  N = "App_text_b138bc7f",
+  C = "App_button_cec9cac4",
   k = "App_close_654073f5",
   v = R.strings.user_missions.hub.challenge_missions.notification.start,
   w = s(function () {
@@ -46,10 +46,10 @@ import {
             }),
             e.jsxs("div", {
               className: f,
-              children: [e.jsx(n, { text: w, className: A }), e.jsx(n, { text: M, className: C })],
+              children: [e.jsx(n, { text: w, className: A }), e.jsx(n, { text: M, className: N })],
             }),
             e.jsx(o, {
-              className: N,
+              className: C,
               size: i.small,
               onClick: l.openChallenge,
               theme: c.primary,

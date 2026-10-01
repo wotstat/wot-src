@@ -1,5 +1,5 @@
 import { p as e, q as t, i as o, j as a, e as s, k as r, l, s as n, r as i } from "./vendor.js";
-import { i as c, B as u, d as m, e as g, I as d, F as f, R as p } from "./lib.js";
+import { i as c, B as u, a as m, b as g, I as d, F as f, R as p } from "./lib.js";
 const _ = "escape",
   b = "close",
   D = "confirm",

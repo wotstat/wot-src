@@ -1,5 +1,5 @@
 import { j as e, w as s, f as t } from "../../../../chunks/vendor.js";
-import { i, R as a, cq as l, cd as o, J as r, U as n, d as c } from "../../../../chunks/lib.js";
+import { i, S as a, cq as l, cd as o, J as r, U as n, d as c } from "../../../../chunks/lib.js";
 import { W as d, V as p } from "../../../../chunks/wot_plus_banner.js";
 import { B as _ } from "../../../../chunks/types.js";
 import { P as m, a as h } from "../../../../chunks/per_battle_points_table.js";
@@ -66,21 +66,21 @@ import { P as m, a as h } from "../../../../chunks/per_battle_points_table.js";
   }),
   F = "Points_4c36b52e",
   I = "Points_pointsSplitter_a76cd1d",
-  E = "Points_pointsCurrentLabel_e046ee39",
-  G = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
-  O = s(({ isCompleted: s = !1 }) => {
+  S = "Points_pointsCurrentLabel_e046ee39",
+  E = Object.freeze({ INTEGRAL: 0, GOLD: 1 }),
+  G = s(({ isCompleted: s = !1 }) => {
     const { model: t } = C(),
       { pointsCurrent: i, pointsTotal: a } = t.root.get();
     return e.jsxs("div", {
       className: F,
       children: [
-        e.jsx("div", { className: s ? "" : E, children: l(i, G.INTEGRAL) }),
+        e.jsx("div", { className: s ? "" : S, children: l(i, E.INTEGRAL) }),
         e.jsx("div", { className: I, children: "/" }),
-        l(a, G.INTEGRAL),
+        l(a, E.INTEGRAL),
       ],
     });
   }),
-  S = "Content_9914692a",
+  O = "Content_9914692a",
   A = "Content_separator_73a6536a",
   M = "Content_base__big_983f301e",
   V = "Content_base__small_5ddeabe7",
@@ -99,7 +99,7 @@ import { P as m, a as h } from "../../../../chunks/per_battle_points_table.js";
       } = s.root.get(),
       d = o === r;
     return e.jsx("div", {
-      className: t(S, d ? V : M),
+      className: t(O, d ? V : M),
       children: e.jsxs("div", {
         className: W,
         children: [
@@ -109,7 +109,7 @@ import { P as m, a as h } from "../../../../chunks/per_battle_points_table.js";
           }),
           e.jsx(p, { isSpecial: n, vehicleLevel: i, vehicleName: a, vehicleType: l, isElite: c }),
           e.jsx("div", { className: A }),
-          e.jsx(O, { isCompleted: d }),
+          e.jsx(G, { isCompleted: d }),
           d
             ? e.jsx(N, {
                 label: R.strings.battle_pass.tooltips.vehiclePoints.pointsObtained(),

@@ -3,8 +3,8 @@ import {
   B as e,
   N as s,
   D as n,
-  E as i,
-  X as a,
+  E as a,
+  X as i,
   F as l,
   Y as r,
   G as o,
@@ -12,7 +12,7 @@ import {
   H as u,
   _ as d,
 } from "./vendor.js";
-import { r as f, dE as g, dF as h, bi as p, T as v, dG as m, dH as y } from "./lib.js";
+import { r as f, dE as g, dF as h, by as p, as as v, dG as m, dH as y } from "./lib.js";
 const b = f.resolve("strings");
 function _(t, e, s = "...") {
   if (
@@ -67,7 +67,7 @@ const k = { delete: "delete", save: "save", import: "import" },
     r((t) => (t.length > 0 ? t : void 0)),
   ),
   P = { New: "new", Existing: "existing" },
-  R = e({ id: t(l(), a(1)), playlistState: s(n([i(P.Existing), i(P.New)])) }),
+  R = e({ id: t(l(), i(1)), playlistState: s(n([a(P.Existing), a(P.New)])) }),
   S = e({ title: l() }),
   U = e({
     titles: t(
@@ -118,21 +118,21 @@ function G(t) {
     }
   }
   ((s[3] = (n - 5) >>> 8), (s[4] = (n - 5) & 255));
-  let i = "",
-    a = 0n,
+  let a = "",
+    i = 0n,
     l = 0;
   const r = s.slice(0, n);
   for (const o of r)
-    for (a = (a << 8n) | BigInt(o), l += 8; l >= 6;) {
+    for (i = (i << 8n) | BigInt(o), l += 8; l >= 6;) {
       l -= 6;
-      const t = Number((a >> BigInt(l)) & 0x3fn);
-      ((i += C[t]), (a &= (1n << BigInt(l)) - 1n));
+      const t = Number((i >> BigInt(l)) & 0x3fn);
+      ((a += C[t]), (i &= (1n << BigInt(l)) - 1n));
     }
   if (l > 0) {
-    const t = 63 & Number(a << BigInt(6 - l));
-    i += C[t];
+    const t = 63 & Number(i << BigInt(6 - l));
+    a += C[t];
   }
-  return B(i);
+  return B(a);
 }
 function H(t) {
   if (0 === t.length) return x("INVALID_INPUT");
@@ -146,8 +146,8 @@ function H(t) {
       ((s -= 8), n.push(Number((e >> BigInt(s)) & 0xffn)), (e &= (1n << BigInt(s)) - 1n));
   }
   if (n.length < 6) return x("INCORRECT_LEN");
-  const i = (n[0] << 8) | n[1],
-    a = n[2] << 8,
+  const a = (n[0] << 8) | n[1],
+    i = n[2] << 8,
     l = 5 + ((n[3] << 8) | n[4]),
     r = [];
   for (let o = 5; o < l;) {
@@ -161,7 +161,7 @@ function H(t) {
     } while (!(128 & ~t));
     r.push(e);
   }
-  return B({ numbers: r, hash: i, version: a });
+  return B({ numbers: r, hash: a, version: i });
 }
 export {
   P as E,

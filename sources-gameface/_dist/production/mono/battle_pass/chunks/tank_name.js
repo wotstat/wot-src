@@ -1,5 +1,5 @@
 import { j as e } from "./vendor.js";
-import { aS as a, cp as s, s as l, at as i } from "./lib.js";
+import { aT as a, cp as s, s as l, au as i } from "./lib.js";
 const n = (e) => {
     switch (e) {
       case i.heavyTank:
@@ -20,27 +20,27 @@ const n = (e) => {
     vehicleType: m,
     vehicleLvl: c,
     isElite: t,
-    classNames: o,
-    vehicleTypeIconSize: u = l.x64x64,
+    classNames: u,
+    vehicleTypeIconSize: o = l.x64x64,
     isShortName: v = !1,
     custom: h = !1,
   }) =>
     e.jsx("div", {
-      className: null == o ? void 0 : o.base,
+      className: null == u ? void 0 : u.base,
       children: e.jsxs(a, {
         children: [
           e.jsx(a.Level, {
-            className: null == o ? void 0 : o.level,
+            className: null == u ? void 0 : u.level,
             value: c,
             numberType: s.numberTypes.roman,
           }),
           e.jsx(a.Type, {
-            className: null == o ? void 0 : o.typeIcon,
+            className: null == u ? void 0 : u.typeIcon,
             type: n(m),
             premium: t,
-            size: u,
+            size: o,
           }),
-          e.jsx(a.Name, { className: null == o ? void 0 : o.name, children: v ? r : i }),
+          e.jsx(a.Name, { className: null == u ? void 0 : u.name, children: v ? r : i }),
         ],
       }),
     });

@@ -1,21 +1,21 @@
 import { L as e, r as s, j as t, f as a } from "./vendor.js";
 import {
-  $ as o,
+  ax as o,
   dJ as n,
   dK as r,
   i,
   l as c,
   r as l,
   dL as d,
-  cj as m,
-  ck as p,
+  a4 as m,
+  ct as p,
   dM as g,
-  dp as _,
+  dk as _,
   dN as u,
-  cw as h,
+  cE as h,
   dO as x,
   dP as b,
-  cr as v,
+  cA as v,
   dQ as T,
   dR as f,
 } from "./lib.js";
@@ -30,7 +30,7 @@ const w = {
     }),
     controls: () => o(n("onClick", "onClose")),
   },
-  [j, y] = i("TeaserModel")(
+  [y, j] = i("TeaserModel")(
     ({ observableModel: e }) =>
       e.primitives([
         "type",
@@ -66,32 +66,32 @@ const w = {
   },
   k = "Teaser:Base",
   W = e(function ({ className: e, classNames: o }) {
-    const { model: n, controls: r } = y(),
+    const { model: n, controls: r } = j(),
       i = n.type.get() || N.News,
       w = n.postCounter.get(),
-      j = n.text.get(),
+      y = n.text.get(),
       W = n.description.get(),
       M = n.finishTime.get(),
-      B = n.isVideo.get(),
-      E = n.image.get(),
+      E = n.isVideo.get(),
+      B = n.image.get(),
       P = c(),
       L = l.resolve("strings");
-    const $ = s.useCallback(
+    const A = s.useCallback(
         (e) => {
           (e.stopPropagation(), r.onClose());
         },
         [r],
       ),
-      [S, A] = s.useState(null);
+      [S, $] = s.useState(null);
     s.useLayoutEffect(() => {
       let e;
       const s = d(m(M || 0), p());
-      if (!M || s <= 0) return void A(null);
+      if (!M || s <= 0) return void $(null);
       const t = Math.floor(f.seconds(s)),
         a = g(m(M), _(1)) ? u.Extended : u.Long;
-      if ((A({ duration: t, style: a }), a === u.Extended)) {
+      if (($({ duration: t, style: a }), a === u.Extended)) {
         const s = d(m(t + 1), _(1));
-        e = setTimeout(() => A((e) => ({ ...e, style: u.Long })), Math.min(s, h));
+        e = setTimeout(() => $((e) => ({ ...e, style: u.Long })), Math.min(s, h));
       }
       return () => {
         e && (clearTimeout(e), (e = void 0));
@@ -103,9 +103,9 @@ const w = {
       s.useEffect(() => {
         const e = new Image();
         return (
-          (e.src = E),
+          (e.src = B),
           (e.onload = () => {
-            (I({ path: E, height: e.height, width: e.width }), z(!0));
+            (I({ path: B, height: e.height, width: e.width }), z(!0));
           }),
           (e.onerror = () => {
             z(!0);
@@ -114,10 +114,10 @@ const w = {
             ((e.src = ""), I(null));
           }
         );
-      }, [E]),
+      }, [B]),
       O
         ? t.jsxs("div", {
-            className: a(C.base, C[`base__${i}Type`], B && C.base__video, e),
+            className: a(C.base, C[`base__${i}Type`], E && C.base__video, e),
             onClick: function (e) {
               (P.play("click", { target: k, original: e }), r.onClick());
             },
@@ -158,10 +158,10 @@ const w = {
                     type: "close",
                     side: "right",
                     classNames: { base: a(C.closeButton, o?.closeButton) },
-                    onClick: $,
+                    onClick: A,
                     caption: "",
                   }),
-                  j && t.jsx("div", { className: a(C.text, o?.text), children: j }),
+                  y && t.jsx("div", { className: a(C.text, o?.text), children: y }),
                   (W || S) &&
                     t.jsxs("div", {
                       className: C.bottomContent,
@@ -186,7 +186,7 @@ const w = {
     );
   });
 function M({ className: e, classNames: s, ...a }) {
-  return t.jsx(j, {
+  return t.jsx(y, {
     ...a,
     mode: "real",
     mocks: w,

@@ -9,7 +9,7 @@ import {
   j as _,
   w as m,
   x as u,
-  P as g,
+  V as g,
   B as p,
   O as b,
   N as f,
@@ -234,8 +234,8 @@ function O({ value: e, label: a, icon: n, index: i, animState: r, all: o }) {
     ],
   });
 }
-const G = "Tank_64c86de0",
-  V = "Tank_wrap_51cfa705",
+const V = "Tank_64c86de0",
+  G = "Tank_wrap_51cfa705",
   $ = "Tank_image_20e440df",
   P = "Tank_bg_73a7932a",
   B = "Tank_bg__back_9e9e3ca6",
@@ -244,11 +244,11 @@ const G = "Tank_64c86de0",
   W = "Tank_back_29d05476";
 function z({ vehicleImage: e, isAnyNotDone: a }) {
   return s.jsxs("div", {
-    className: t(G, a && U),
+    className: t(V, a && U),
     children: [
       s.jsx("div", { className: t(P, B) }),
       s.jsx("div", {
-        className: V,
+        className: G,
         children: s.jsx("div", { className: $, style: { backgroundImage: `url(${e})` } }),
       }),
       s.jsx("div", { className: t(P, F) }),
