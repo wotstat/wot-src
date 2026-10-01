@@ -751,8 +751,10 @@
       129: (u, e, t) => {
         "use strict";
         var a = t(179),
-          r = t.n(a);
-        const n = (u, e, t) =>
+          r = t.n(a),
+          n = t(493),
+          i = t.n(n);
+        const E = (u, e, t) =>
           e.extraLargeHeight ||
           e.largeHeight ||
           e.mediumHeight ||
@@ -766,16 +768,16 @@
               ? u
               : null
             : u;
-        var i = t(67);
-        const E = {
+        var A = t(67);
+        const F = {
           extraLarge: { weight: 4, width: 2560, height: 1440 },
           large: { weight: 3, width: 1920, height: 1080 },
           medium: { weight: 2, width: 1600, height: 900 },
           small: { weight: 1, width: 1366, height: 768 },
           extraSmall: { weight: 0, width: 1024, height: 768 },
         };
-        var A;
-        function F(u, e, t) {
+        var o;
+        function l(u, e, t) {
           const a = (function (u, e) {
               switch (!0) {
                 case u >= e.extraLarge.width:
@@ -839,14 +841,14 @@
             (u.mediumHeight = "mediumHeight"),
             (u.smallHeight = "smallHeight"),
             (u.extraSmallHeight = "extraSmallHeight"));
-        })(A || (A = {}));
-        const o = i.O.client.getSize("rem"),
-          l = o.width,
-          s = o.height,
-          D = Object.assign({ width: l, height: s }, F(l, s, E)),
-          c = (0, a.createContext)(D),
-          d = ["children"];
-        const B = (u) => {
+        })(o || (o = {}));
+        const s = A.O.client.getSize("rem"),
+          D = s.width,
+          c = s.height,
+          d = Object.assign({ width: D, height: c }, l(D, c, F)),
+          B = (0, a.createContext)(d),
+          C = ["children"];
+        const _ = (u) => {
           let e = u.children,
             t = (function (u, e) {
               if (null == u) return {};
@@ -856,18 +858,18 @@
                 n = Object.keys(u);
               for (a = 0; a < n.length; a++) ((t = n[a]), e.indexOf(t) >= 0 || (r[t] = u[t]));
               return r;
-            })(u, d);
-          const r = (0, a.useContext)(c),
-            i = r.extraLarge,
-            E = r.large,
+            })(u, C);
+          const r = (0, a.useContext)(B),
+            n = r.extraLarge,
+            i = r.large,
             A = r.medium,
             F = r.small,
             o = r.extraSmall,
             l = r.extraLargeWidth,
             s = r.largeWidth,
             D = r.mediumWidth,
-            B = r.smallWidth,
-            C = r.extraSmallWidth,
+            c = r.smallWidth,
+            d = r.extraSmallWidth,
             _ = r.extraLargeHeight,
             m = r.largeHeight,
             h = r.mediumHeight,
@@ -875,17 +877,17 @@
             w = r.extraSmallHeight,
             v = { extraLarge: _, large: m, medium: h, small: g, extraSmall: w };
           if (t.extraLarge || t.large || t.medium || t.small || t.extraSmall) {
-            if (t.extraLarge && i) return e;
-            if (t.large && E) return e;
+            if (t.extraLarge && n) return e;
+            if (t.large && i) return e;
             if (t.medium && A) return e;
             if (t.small && F) return e;
             if (t.extraSmall && o) return e;
           } else {
-            if (t.extraLargeWidth && l) return n(e, t, v);
-            if (t.largeWidth && s) return n(e, t, v);
-            if (t.mediumWidth && D) return n(e, t, v);
-            if (t.smallWidth && B) return n(e, t, v);
-            if (t.extraSmallWidth && C) return n(e, t, v);
+            if (t.extraLargeWidth && l) return E(e, t, v);
+            if (t.largeWidth && s) return E(e, t, v);
+            if (t.mediumWidth && D) return E(e, t, v);
+            if (t.smallWidth && c) return E(e, t, v);
+            if (t.extraSmallWidth && d) return E(e, t, v);
             if (!(
               t.extraLargeWidth ||
               t.largeWidth ||
@@ -902,7 +904,7 @@
           }
           return null;
         };
-        B.defaultProps = {
+        _.defaultProps = {
           extraLarge: !1,
           large: !1,
           medium: !1,
@@ -919,104 +921,104 @@
           smallHeight: !1,
           extraSmallHeight: !1,
         };
-        (0, a.memo)(B);
-        const C = (u) => {
+        (0, a.memo)(_);
+        const m = (u) => {
             const e = (0, a.useRef)(!1);
             e.current || (u(), (e.current = !0));
           },
-          _ = (0, a.memo)(({ children: u }) => {
-            const e = (0, a.useContext)(c),
+          h = (0, a.memo)(({ children: u }) => {
+            const e = (0, a.useContext)(B),
               t = (0, a.useState)(e),
               n = t[0],
-              A = t[1],
-              o = (0, a.useCallback)((u, e) => {
-                const t = i.O.view.pxToRem(u),
-                  a = i.O.view.pxToRem(e);
-                A(Object.assign({ width: t, height: a }, F(t, a, E)));
+              i = t[1],
+              E = (0, a.useCallback)((u, e) => {
+                const t = A.O.view.pxToRem(u),
+                  a = A.O.view.pxToRem(e);
+                i(Object.assign({ width: t, height: a }, l(t, a, F)));
               }, []);
-            (C(() => {
-              engine.on("clientResized", o);
+            (m(() => {
+              engine.on("clientResized", E);
             }),
-              (0, a.useEffect)(() => () => engine.off("clientResized", o), [o]));
-            const l = (0, a.useMemo)(() => Object.assign({}, n), [n]);
-            return r().createElement(c.Provider, { value: l }, u);
+              (0, a.useEffect)(() => () => engine.off("clientResized", E), [E]));
+            const o = (0, a.useMemo)(() => Object.assign({}, n), [n]);
+            return r().createElement(B.Provider, { value: o }, u);
           });
-        var m = t(483),
-          h = t.n(m),
-          g = t(926),
-          w = t.n(g);
-        let v, p, f;
+        var g = t(483),
+          w = t.n(g),
+          v = t(926),
+          p = t.n(v);
+        let f, b, x;
         (!(function (u) {
-          ((u[(u.ExtraSmall = E.extraSmall.width)] = "ExtraSmall"),
-            (u[(u.Small = E.small.width)] = "Small"),
-            (u[(u.Medium = E.medium.width)] = "Medium"),
-            (u[(u.Large = E.large.width)] = "Large"),
-            (u[(u.ExtraLarge = E.extraLarge.width)] = "ExtraLarge"));
-        })(v || (v = {})),
+          ((u[(u.ExtraSmall = F.extraSmall.width)] = "ExtraSmall"),
+            (u[(u.Small = F.small.width)] = "Small"),
+            (u[(u.Medium = F.medium.width)] = "Medium"),
+            (u[(u.Large = F.large.width)] = "Large"),
+            (u[(u.ExtraLarge = F.extraLarge.width)] = "ExtraLarge"));
+        })(f || (f = {})),
           (function (u) {
-            ((u[(u.ExtraSmall = E.extraSmall.width)] = "ExtraSmall"),
-              (u[(u.Small = E.small.width)] = "Small"),
-              (u[(u.Medium = E.medium.width)] = "Medium"),
-              (u[(u.Large = E.large.width)] = "Large"),
-              (u[(u.ExtraLarge = E.extraLarge.width)] = "ExtraLarge"));
-          })(p || (p = {})),
+            ((u[(u.ExtraSmall = F.extraSmall.width)] = "ExtraSmall"),
+              (u[(u.Small = F.small.width)] = "Small"),
+              (u[(u.Medium = F.medium.width)] = "Medium"),
+              (u[(u.Large = F.large.width)] = "Large"),
+              (u[(u.ExtraLarge = F.extraLarge.width)] = "ExtraLarge"));
+          })(b || (b = {})),
           (function (u) {
-            ((u[(u.ExtraSmall = E.extraSmall.height)] = "ExtraSmall"),
-              (u[(u.Small = E.small.height)] = "Small"),
-              (u[(u.Medium = E.medium.height)] = "Medium"),
-              (u[(u.Large = E.large.height)] = "Large"),
-              (u[(u.ExtraLarge = E.extraLarge.height)] = "ExtraLarge"));
-          })(f || (f = {})));
-        const b = () => {
-            const u = (0, a.useContext)(c),
+            ((u[(u.ExtraSmall = F.extraSmall.height)] = "ExtraSmall"),
+              (u[(u.Small = F.small.height)] = "Small"),
+              (u[(u.Medium = F.medium.height)] = "Medium"),
+              (u[(u.Large = F.large.height)] = "Large"),
+              (u[(u.ExtraLarge = F.extraLarge.height)] = "ExtraLarge"));
+          })(x || (x = {})));
+        const S = () => {
+            const u = (0, a.useContext)(B),
               e = u.width,
               t = u.height,
               r = ((u) => {
                 switch (!0) {
                   case u.extraLarge:
-                    return v.ExtraLarge;
+                    return f.ExtraLarge;
                   case u.large:
-                    return v.Large;
+                    return f.Large;
                   case u.medium:
-                    return v.Medium;
+                    return f.Medium;
                   case u.small:
-                    return v.Small;
+                    return f.Small;
                   case u.extraSmall:
-                    return v.ExtraSmall;
+                    return f.ExtraSmall;
                   default:
-                    return (console.error("Unreachable media context resolution"), v.ExtraSmall);
+                    return (console.error("Unreachable media context resolution"), f.ExtraSmall);
                 }
               })(u),
               n = ((u) => {
                 switch (!0) {
                   case u.extraLargeWidth:
-                    return p.ExtraLarge;
+                    return b.ExtraLarge;
                   case u.largeWidth:
-                    return p.Large;
+                    return b.Large;
                   case u.mediumWidth:
-                    return p.Medium;
+                    return b.Medium;
                   case u.smallWidth:
-                    return p.Small;
+                    return b.Small;
                   case u.extraSmallWidth:
-                    return p.ExtraSmall;
+                    return b.ExtraSmall;
                   default:
-                    return (console.error("Unreachable media context resolution"), p.ExtraSmall);
+                    return (console.error("Unreachable media context resolution"), b.ExtraSmall);
                 }
               })(u),
               i = ((u) => {
                 switch (!0) {
                   case u.extraLargeHeight:
-                    return f.ExtraLarge;
+                    return x.ExtraLarge;
                   case u.largeHeight:
-                    return f.Large;
+                    return x.Large;
                   case u.mediumHeight:
-                    return f.Medium;
+                    return x.Medium;
                   case u.smallHeight:
-                    return f.Small;
+                    return x.Small;
                   case u.extraSmallHeight:
-                    return f.ExtraSmall;
+                    return x.ExtraSmall;
                   default:
-                    return (console.error("Unreachable media context resolution"), f.ExtraSmall);
+                    return (console.error("Unreachable media context resolution"), x.ExtraSmall);
                 }
               })(u);
             return {
@@ -1027,10 +1029,10 @@
               remScreenHeight: t,
             };
           },
-          x = ["children", "className"];
-        function S() {
+          L = ["children", "className"];
+        function M() {
           return (
-            (S =
+            (M =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1039,31 +1041,31 @@
                 }
                 return u;
               }),
-            S.apply(this, arguments)
+            M.apply(this, arguments)
           );
         }
-        const L = {
-            [p.ExtraSmall]: "",
-            [p.Small]: w().SMALL_WIDTH,
-            [p.Medium]: `${w().SMALL_WIDTH} ${w().MEDIUM_WIDTH}`,
-            [p.Large]: `${w().SMALL_WIDTH} ${w().MEDIUM_WIDTH} ${w().LARGE_WIDTH}`,
-            [p.ExtraLarge]: `${w().SMALL_WIDTH} ${w().MEDIUM_WIDTH} ${w().LARGE_WIDTH} ${w().EXTRA_LARGE_WIDTH}`,
+        const T = {
+            [b.ExtraSmall]: "",
+            [b.Small]: p().SMALL_WIDTH,
+            [b.Medium]: `${p().SMALL_WIDTH} ${p().MEDIUM_WIDTH}`,
+            [b.Large]: `${p().SMALL_WIDTH} ${p().MEDIUM_WIDTH} ${p().LARGE_WIDTH}`,
+            [b.ExtraLarge]: `${p().SMALL_WIDTH} ${p().MEDIUM_WIDTH} ${p().LARGE_WIDTH} ${p().EXTRA_LARGE_WIDTH}`,
           },
-          M = {
+          O = {
+            [x.ExtraSmall]: "",
+            [x.Small]: p().SMALL_HEIGHT,
+            [x.Medium]: `${p().SMALL_HEIGHT} ${p().MEDIUM_HEIGHT}`,
+            [x.Large]: `${p().SMALL_HEIGHT} ${p().MEDIUM_HEIGHT} ${p().LARGE_HEIGHT}`,
+            [x.ExtraLarge]: `${p().SMALL_HEIGHT} ${p().MEDIUM_HEIGHT} ${p().LARGE_HEIGHT} ${p().EXTRA_LARGE_HEIGHT}`,
+          },
+          y = {
             [f.ExtraSmall]: "",
-            [f.Small]: w().SMALL_HEIGHT,
-            [f.Medium]: `${w().SMALL_HEIGHT} ${w().MEDIUM_HEIGHT}`,
-            [f.Large]: `${w().SMALL_HEIGHT} ${w().MEDIUM_HEIGHT} ${w().LARGE_HEIGHT}`,
-            [f.ExtraLarge]: `${w().SMALL_HEIGHT} ${w().MEDIUM_HEIGHT} ${w().LARGE_HEIGHT} ${w().EXTRA_LARGE_HEIGHT}`,
+            [f.Small]: p().SMALL,
+            [f.Medium]: `${p().SMALL} ${p().MEDIUM}`,
+            [f.Large]: `${p().SMALL} ${p().MEDIUM} ${p().LARGE}`,
+            [f.ExtraLarge]: `${p().SMALL} ${p().MEDIUM} ${p().LARGE} ${p().EXTRA_LARGE}`,
           },
-          T = {
-            [v.ExtraSmall]: "",
-            [v.Small]: w().SMALL,
-            [v.Medium]: `${w().SMALL} ${w().MEDIUM}`,
-            [v.Large]: `${w().SMALL} ${w().MEDIUM} ${w().LARGE}`,
-            [v.ExtraLarge]: `${w().SMALL} ${w().MEDIUM} ${w().LARGE} ${w().EXTRA_LARGE}`,
-          },
-          O = (u) => {
+          P = (u) => {
             let e = u.children,
               t = u.className,
               a = (function (u, e) {
@@ -1074,30 +1076,28 @@
                   n = Object.keys(u);
                 for (a = 0; a < n.length; a++) ((t = n[a]), e.indexOf(t) >= 0 || (r[t] = u[t]));
                 return r;
-              })(u, x);
-            const n = b(),
+              })(u, L);
+            const n = S(),
               i = n.mediaWidth,
               E = n.mediaHeight,
               A = n.mediaSize;
-            return r().createElement("div", S({ className: h()(t, L[i], M[E], T[A]) }, a), e);
+            return r().createElement("div", M({ className: w()(t, T[i], O[E], y[A]) }, a), e);
           },
-          y = ["children"];
-        const P = (u) => {
-          let e = u.children,
-            t = (function (u, e) {
-              if (null == u) return {};
-              var t,
-                a,
-                r = {},
-                n = Object.keys(u);
-              for (a = 0; a < n.length; a++) ((t = n[a]), e.indexOf(t) >= 0 || (r[t] = u[t]));
-              return r;
-            })(u, y);
-          return r().createElement(_, null, r().createElement(O, t, e));
-        };
-        var k = t(493),
-          H = t.n(k);
-        const I = 33,
+          k = ["children"];
+        const H = (u) => {
+            let e = u.children,
+              t = (function (u, e) {
+                if (null == u) return {};
+                var t,
+                  a,
+                  r = {},
+                  n = Object.keys(u);
+                for (a = 0; a < n.length; a++) ((t = n[a]), e.indexOf(t) >= 0 || (r[t] = u[t]));
+                return r;
+              })(u, k);
+            return r().createElement(h, null, r().createElement(P, t, e));
+          },
+          I = 33,
           N = 0,
           W = !0,
           U = "play";
@@ -1306,7 +1306,7 @@
             l = F[1],
             s = (0, a.useRef)(-1);
           return (
-            C(() => {
+            m(() => {
               if (
                 ("boolean" == typeof e &&
                   ((e = e ? tu.Deep : tu.None),
@@ -1381,7 +1381,6 @@
           content: "Content_content_a1",
           highlight: "Content_highlight_e6",
           shadow: "Content_shadow_96",
-          icon: "Content_icon_ab",
           title: "Content_title_a9",
           endDate: "Content_endDate_82",
           timerIcon: "Content_timerIcon_99",
@@ -1511,7 +1510,7 @@
               E = (0, a.useState)(Fu.Big),
               A = E[0],
               F = E[1],
-              o = h()(Eu.base, Eu[`base__${A}`]),
+              o = w()(Eu.base, Eu[`base__${A}`]),
               l = R.strings.mapbox.entryPoint.title(),
               s = (0, a.useMemo)(() => lu(e), [e]);
             return (
@@ -1558,7 +1557,6 @@
                 r().createElement(
                   "div",
                   { className: Eu.content },
-                  r().createElement("div", { className: Eu.icon }),
                   r().createElement("div", { className: Eu.title }, l),
                   r().createElement(
                     "div",
@@ -1571,8 +1569,8 @@
             );
           };
         engine.whenReady.then(() => {
-          H().render(
-            r().createElement(P, null, r().createElement(cu, null)),
+          i().render(
+            r().createElement(H, null, r().createElement(cu, null)),
             document.getElementById("root"),
           );
         });

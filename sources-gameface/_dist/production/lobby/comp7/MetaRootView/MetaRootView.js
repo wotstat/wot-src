@@ -1148,14 +1148,14 @@
             k.apply(this, arguments)
           );
         }
-        const T = {
+        const x = {
             [w.ExtraSmall]: "",
             [w.Small]: F().SMALL_WIDTH,
             [w.Medium]: `${F().SMALL_WIDTH} ${F().MEDIUM_WIDTH}`,
             [w.Large]: `${F().SMALL_WIDTH} ${F().MEDIUM_WIDTH} ${F().LARGE_WIDTH}`,
             [w.ExtraLarge]: `${F().SMALL_WIDTH} ${F().MEDIUM_WIDTH} ${F().LARGE_WIDTH} ${F().EXTRA_LARGE_WIDTH}`,
           },
-          x = {
+          T = {
             [S.ExtraSmall]: "",
             [S.Small]: F().SMALL_HEIGHT,
             [S.Medium]: `${F().SMALL_HEIGHT} ${F().MEDIUM_HEIGHT}`,
@@ -1185,7 +1185,7 @@
               s = n.mediaWidth,
               o = n.mediaHeight,
               i = n.mediaSize;
-            return u().createElement("div", k({ className: C()(a, T[s], x[o], N[i]) }, r), t);
+            return u().createElement("div", k({ className: C()(a, x[s], T[o], N[i]) }, r), t);
           },
           L = ["children"];
         const M = (e) => {
@@ -1743,7 +1743,7 @@
             );
           };
         var ke = a(7030);
-        const Te = {
+        const xe = {
             base: "Frame_base_af",
             base__small: "Frame_base__small_f0",
             base__medium: "Frame_base__medium_05",
@@ -1752,31 +1752,31 @@
             border__bottom: "Frame_border__bottom_52",
             arrow: "Frame_arrow_c3",
           },
-          xe = u().forwardRef(function (
+          Te = u().forwardRef(function (
             { classNames: e, arrowRef: t, size: a = "medium", className: r },
             n,
           ) {
             return u().createElement(
               "div",
-              { className: C()(Te.base, Te[`base__${a}`], r), ref: n },
+              { className: C()(xe.base, xe[`base__${a}`], r), ref: n },
               u().createElement("div", {
                 className: C()(
-                  Te.border,
-                  Te.border__top,
+                  xe.border,
+                  xe.border__top,
                   null == e ? void 0 : e.border,
                   null == e ? void 0 : e.borderTop,
                 ),
               }),
               u().createElement("div", {
                 className: C()(
-                  Te.border,
-                  Te.border__bottom,
+                  xe.border,
+                  xe.border__bottom,
                   null == e ? void 0 : e.border,
                   null == e ? void 0 : e.borderBottom,
                 ),
               }),
               u().createElement("div", {
-                className: C()(Te.arrow, null == e ? void 0 : e.arrow),
+                className: C()(xe.arrow, null == e ? void 0 : e.arrow),
                 ref: t,
               }),
             );
@@ -2011,7 +2011,7 @@
                     ),
                   ),
                 ),
-                u().createElement(xe, {
+                u().createElement(Te, {
                   arrowRef: E,
                   ref: g,
                   size: o,
@@ -2515,7 +2515,7 @@
             startDate: u().createElement(At, { datetime: e, format: pt.SHORT_DATE }),
             endDate: u().createElement(At, { datetime: t, format: pt.SHORT_DATE }),
           }),
-          Tt = (e, t, a) => {
+          xt = (e, t, a) => {
             const r = t - a,
               n = ((e, t) => wt(e - t))(t, a);
             return r >= 604800
@@ -2530,7 +2530,7 @@
                       ? u().createElement(Ct, { text: Rt.secondsLeft(), binding: n })
                       : void 0;
           },
-          xt = ({
+          Tt = ({
             startTimestamp: e,
             endTimestamp: t,
             currentTimestamp: a,
@@ -2551,7 +2551,7 @@
                     Rt.name(),
                     u().createElement("div", { className: yt }),
                   ),
-                Tt(e, t, a),
+                xt(e, t, a),
               ),
             ),
           Nt = "ScheduleSubheading_base_f7",
@@ -2575,7 +2575,7 @@
                 "div",
                 { className: C()(Nt, e) },
                 l < i
-                  ? u().createElement(xt, {
+                  ? u().createElement(Tt, {
                       startTimestamp: o,
                       endTimestamp: i,
                       currentTimestamp: l,
@@ -2668,13 +2668,13 @@
               },
               [n, i, c],
             ),
-            T = (0, s.useCallback)(
+            x = (0, s.useCallback)(
               (e) => {
                 d && d(e);
               },
               [d],
             ),
-            x = (0, s.useCallback)(
+            T = (0, s.useCallback)(
               (e) => {
                 n || (_ && _(e), D(!1));
               },
@@ -2724,8 +2724,8 @@
                 ref: p,
                 className: L,
                 onMouseEnter: k,
-                onMouseMove: T,
-                onMouseUp: x,
+                onMouseMove: x,
+                onMouseUp: T,
                 onMouseDown: N,
                 onMouseLeave: I,
                 onClick: y,
@@ -3069,11 +3069,11 @@
               y = e.alignSelf,
               R = e.wrap,
               k = e.flexWrap,
-              T = void 0 === k ? (R ? "wrap" : void 0) : k,
-              x = e.grow,
+              x = void 0 === k ? (R ? "wrap" : void 0) : k,
+              T = e.grow,
               N = e.shrink,
               I = e.flex,
-              L = void 0 === I ? (x || N ? `${x ? 1 : 0} ${N ? 1 : 0} auto` : void 0) : I,
+              L = void 0 === I ? (T || N ? `${T ? 1 : 0} ${N ? 1 : 0} auto` : void 0) : I,
               M = e.style,
               O = e.children,
               H = (function (e, t) {
@@ -3105,13 +3105,13 @@
                     alignSelf: y,
                     display: f || P ? "flex" : void 0,
                     flexDirection: f,
-                    flexWrap: T,
+                    flexWrap: x,
                     justifyContent: w,
                     alignItems: P,
                   }),
                   computedClassNames: t,
                 };
-              }, [a, r, i, c, m, E, M, L, y, f, T, w, P]),
+              }, [a, r, i, c, m, E, M, L, y, f, x, w, P]),
               $ = W.computedStyle,
               U = W.computedClassNames;
             return u().createElement(
@@ -3292,32 +3292,32 @@
             "LastUpdateNote_base_7f"),
           Ra = "LastUpdateNote_infoIcon_5c",
           ka = "LastUpdateNote_lineDivider_2c";
-        let Ta;
+        let xa;
         !(function (e) {
           ((e[(e.ICON = 0)] = "ICON"), (e[(e.LINE = 1)] = "LINE"));
-        })(Ta || (Ta = {}));
-        const xa = R.strings.comp7.lastUpdateNote,
+        })(xa || (xa = {}));
+        const Ta = R.strings.comp7.lastUpdateNote,
           Na = ({
             timestamp: e,
             className: t,
             classNames: a,
             dateTimeFormat: r = pt.SHORT_TIME,
-            dividerType: n = Ta.ICON,
+            dividerType: n = xa.ICON,
           }) =>
             u().createElement(
               "div",
               { className: C()(ya, t) },
               u().createElement(Pa, {
-                text: xa.info(),
+                text: Ta.info(),
                 format: { binding: { date: u().createElement(At, { datetime: e, format: r }) } },
               }),
-              n === Ta.ICON &&
+              n === xa.ICON &&
                 u().createElement(
                   qe,
-                  { body: xa.tooltip.info() },
+                  { body: Ta.tooltip.info() },
                   u().createElement("div", { className: C()(Ra, null == a ? void 0 : a.icon) }),
                 ),
-              n === Ta.LINE &&
+              n === xa.LINE &&
                 u().createElement("div", { className: C()(ka, null == a ? void 0 : a.line) }),
             );
         class Ia extends u().PureComponent {
@@ -4034,7 +4034,7 @@
           for (let r = 0; r < e; r++) a.push(t(r));
           return a;
         };
-        let kr, Tr;
+        let kr, xr;
         (!(function (e) {
           ((e[(e.A = 1)] = "A"),
             (e[(e.B = 2)] = "B"),
@@ -4046,10 +4046,10 @@
             ((e[(e.Achieved = 0)] = "Achieved"),
               (e[(e.Current = 1)] = "Current"),
               (e[(e.Inactive = 2)] = "Inactive"));
-          })(Tr || (Tr = {})));
-        const xr = R.strings.comp7.division,
+          })(xr || (xr = {})));
+        const Tr = R.strings.comp7.division,
           Nr = { [kr.A]: "A", [kr.B]: "B", [kr.C]: "C", [kr.D]: "D", [kr.E]: "E" },
-          Ir = (e) => xr.$dyn(Nr[e]);
+          Ir = (e) => Tr.$dyn(Nr[e]);
         let Lr;
         !(function (e) {
           ((e[(e.First = 6)] = "First"),
@@ -4121,7 +4121,7 @@
               u().createElement(zr, { rank: r, size: Ur.x40 }),
               u().createElement(Pa, {
                 className: Yr,
-                text: ((s = n), lt(xr.text(), { division: Ir(s) })),
+                text: ((s = n), lt(Tr.text(), { division: Ir(s) })),
               }),
             );
             var s;
@@ -4476,8 +4476,8 @@
             );
           }),
           kn = "Leaderboard_base_ec",
-          Tn = "Leaderboard_content_a5",
-          xn = "Leaderboard_shadowsContainer_bc",
+          xn = "Leaderboard_content_a5",
+          Tn = "Leaderboard_shadowsContainer_bc",
           Nn = "Leaderboard_shadowsContainer__bottom_b4",
           In = "Leaderboard_shadow_3f",
           Ln = "Leaderboard_shadow__left_ee",
@@ -4518,10 +4518,10 @@
                 u().createElement(un, null),
                 u().createElement(
                   "div",
-                  { className: Tn, onWheel: d },
+                  { className: xn, onWheel: d },
                   u().createElement(
                     "div",
-                    { className: xn },
+                    { className: Tn },
                     u().createElement("div", { className: C()(In, Ln) }),
                     u().createElement("div", { className: C()(In, Mn) }),
                     u().createElement("div", { className: C()(In, On) }),
@@ -4541,7 +4541,7 @@
                   ),
                   u().createElement(
                     "div",
-                    { className: C()(xn, Nn) },
+                    { className: C()(Tn, Nn) },
                     u().createElement("div", { className: C()(In, Ln) }),
                     u().createElement("div", { className: C()(In, Mn) }),
                     u().createElement("div", { className: C()(In, On) }),
@@ -5129,7 +5129,7 @@
                     return {
                       list: Ds(t),
                       count: t.length,
-                      currentDivisionIndex: Fe(t, (e) => e.state === Tr.Current),
+                      currentDivisionIndex: Fe(t, (e) => e.state === xr.Current),
                       elitePercent: Fs(t),
                     };
                   },
@@ -5147,7 +5147,7 @@
                     return {
                       state: Ps(e, t.root.get().currentItemIndex, a),
                       division:
-                        null == (r = De(u(e), (e) => e.state === Tr.Current)) ? void 0 : r.name,
+                        null == (r = De(u(e), (e) => e.state === xr.Current)) ? void 0 : r.name,
                     };
                   },
                   { equals: zt },
@@ -5195,8 +5195,8 @@
             },
           ),
           ks = Rs[0],
-          Ts = Rs[1];
-        var xs = a(7006);
+          xs = Rs[1];
+        var Ts = a(7006);
         const Ns = ["iron", "bronze", "silver", "gold", "champion", "legend"],
           Is = (e, t, a) => {
             const r = (0, s.useMemo)(() => {
@@ -5220,7 +5220,7 @@
               _ = d[1],
               E = (0, s.useRef)(l);
             E.current = l;
-            const g = (0, xs.useSpring)(() => ({ opacity: 0, config: { duration: a } })),
+            const g = (0, Ts.useSpring)(() => ({ opacity: 0, config: { duration: a } })),
               p = g[0],
               b = g[1];
             return (
@@ -5414,7 +5414,7 @@
                   u().createElement(Na, {
                     timestamp: l,
                     className: P,
-                    dividerType: b ? Ta.LINE : Ta.ICON,
+                    dividerType: b ? xa.LINE : xa.ICON,
                   }),
                 !f &&
                   u().createElement(Wa, {
@@ -5430,8 +5430,8 @@
             );
           },
           ku = "RatingScore_base_bd",
-          Tu = "RatingScore_rating_c9",
-          xu = "RatingScore_content_62",
+          xu = "RatingScore_rating_c9",
+          Tu = "RatingScore_content_62",
           Nu = "RatingScore_score_33",
           Iu = "RatingScore_counter_1a",
           Lu = "RatingScore_title_e4",
@@ -5441,10 +5441,10 @@
               { className: C()(ku, r) },
               u().createElement(
                 "div",
-                { className: Tu },
+                { className: xu },
                 u().createElement(
                   "div",
-                  { className: xu },
+                  { className: Tu },
                   u().createElement("div", { className: Nu }, e),
                   u().createElement("div", { className: Lu }, R.strings.comp7.ratingScore.title()),
                 ),
@@ -5459,7 +5459,7 @@
           zu = "ItemFooter_rankItemFooter_e6",
           Gu = (0, q.Pi)(({ className: e }) => {
             var t;
-            const a = Ts().model,
+            const a = xs().model,
               r = a.root.get(),
               n = r.currentScore,
               s = r.myPosition,
@@ -5535,7 +5535,7 @@
             return a > e ? a : e;
           }, 0),
           Zu = (0, q.Pi)(({ className: e }) => {
-            const t = Ts().model,
+            const t = xs().model,
               a = qu().width,
               r = (0, s.createRef)(),
               n = Ku * a,
@@ -5607,7 +5607,7 @@
           Ju = "ParallaxContainer_base_17",
           eo = ju.map((e) => e.path),
           to = (0, q.Pi)(({ className: e }) => {
-            const t = Ts(),
+            const t = xs(),
               a = t.model,
               r = t.controls,
               n = a.isParallaxPreloaded.get(),
@@ -6151,7 +6151,7 @@
             [Ur.x320]: 400,
             [Ur.x420]: 550,
           },
-          To = ({
+          xo = ({
             size: e,
             rank: t,
             division: a,
@@ -6201,9 +6201,9 @@
               }),
             );
           },
-          xo = [Lr.Fifth, Lr.Sixth],
+          To = [Lr.Fifth, Lr.Sixth],
           No = (e, t, a) =>
-            e !== Bs.Current || a ? yo.Hidden : xo.includes(t) ? yo.Gold : yo.Silver,
+            e !== Bs.Current || a ? yo.Hidden : To.includes(t) ? yo.Gold : yo.Silver,
           Io = "RankItemDivider_base_c4",
           Lo = () => u().createElement("div", { className: Io }),
           Mo = {
@@ -6804,14 +6804,14 @@
             );
           },
           ki = "RankProgressDivisions_base_54",
-          Ti = (0, q.Pi)(({ itemIndex: e, rank: t, customDivisions: a }) => {
-            const r = Ts().model,
+          xi = (0, q.Pi)(({ itemIndex: e, rank: t, customDivisions: a }) => {
+            const r = xs().model,
               n = null != a ? a : r.computes.divisions(e);
             return u().createElement(
               "div",
               { className: ki },
               ve(n, (e) => {
-                const a = e.state === Tr.Current;
+                const a = e.state === xr.Current;
                 return u().createElement(Ri, {
                   key: e.name,
                   rank: t,
@@ -6821,7 +6821,7 @@
               }),
             );
           }),
-          xi = {
+          Ti = {
             point: "RankProgressPoint_point_b1",
             point__top: "RankProgressPoint_point__top_d2",
             point__bottom: "RankProgressPoint_point__bottom_d9",
@@ -6842,9 +6842,9 @@
             direction: n,
           }) => {
             const s = "number" == typeof e ? u().createElement(Ia, { value: e }) : e,
-              o = C()(xi.point, xi[`point__${n}`]),
-              i = C()(xi.pointLine, xi[`pointLine__${n}`], a && xi.pointLine__extended),
-              l = C()(xi.pointValue, xi[`pointValue__${n}`], t && xi.pointValue__highlight);
+              o = C()(Ti.point, Ti[`point__${n}`]),
+              i = C()(Ti.pointLine, Ti[`pointLine__${n}`], a && Ti.pointLine__extended),
+              l = C()(Ti.pointValue, Ti[`pointValue__${n}`], t && Ti.pointValue__highlight);
             return u().createElement(
               "div",
               { className: o, style: r },
@@ -6932,7 +6932,7 @@
             line: { duration: 0, delay: 0 },
           },
           zi = (0, q.Pi)(({ itemIndex: e, progressState: t }) => {
-            const a = Ts().model,
+            const a = xs().model,
               r = a.root.get().currentScore,
               n = a.qualificationModel.isActive.get(),
               s = a.computes.item(e).rank,
@@ -6947,7 +6947,7 @@
             return u().createElement(
               "div",
               { style: { width: `${E}rem` }, className: C()($i.base, $i[`base__${t}`]) },
-              u().createElement(Ti, { itemIndex: e, rank: s, customDivisions: l }),
+              u().createElement(xi, { itemIndex: e, rank: s, customDivisions: l }),
               u().createElement(Wi, {
                 divisionsCount: c,
                 direction: Li.Top,
@@ -7008,7 +7008,7 @@
           },
           Qi = (0, q.Pi)(({ itemIndex: e, progressState: t }) => {
             var a, r;
-            const n = Ts().model,
+            const n = xs().model,
               s = n.computes.modelItems(),
               o = n.computes.divisionsConfig(e),
               i = n.computes.divisionsByType(e, Ss.TRANSFER),
@@ -7019,7 +7019,7 @@
                 (a =
                   null == c || null == (r = c.divisions)
                     ? void 0
-                    : r.findIndex((e) => e.type === Ss.TRANSFER && e.state === Tr.Current))
+                    : r.findIndex((e) => e.type === Ss.TRANSFER && e.state === xr.Current))
                   ? a
                   : -1,
               m = e === l && d === o.currentDivisionIndex,
@@ -7031,7 +7031,7 @@
               u().createElement(
                 "div",
                 { className: C()(Xi.transferProgression, Xi[`transferProgression__${t}`]) },
-                u().createElement(Ti, { itemIndex: e, rank: c.rank, customDivisions: i }),
+                u().createElement(xi, { itemIndex: e, rank: c.rank, customDivisions: i }),
                 u().createElement(Wi, {
                   divisionsCount: 1,
                   direction: Li.Top,
@@ -7058,7 +7058,7 @@
           }),
           Yi = "AchievedRankStatus_base_70",
           Ki = (0, q.Pi)(({ itemIndex: e, progressState: t }) => {
-            const a = Ts().model.computes.item(e).rank;
+            const a = xs().model.computes.item(e).rank;
             switch (a) {
               case Lr.First:
               case Lr.Second:
@@ -7108,7 +7108,7 @@
           nl = R.strings.comp7.honorRankDescription,
           sl = (0, q.Pi)(() => {
             var e, t, a;
-            const r = Ts(),
+            const r = xs(),
               n = r.model,
               s = r.controls,
               o = n.computes.modelItems(),
@@ -7148,7 +7148,7 @@
           il = "RankEliteProgression_elitePercent_61",
           ll = "RankEliteProgression_elitePercent__current_d1",
           cl = (0, q.Pi)(({ itemIndex: e }) => {
-            const t = Ts().model,
+            const t = xs().model,
               a = t.computes.item(e).rank,
               r = t.computes.divisions(e);
             return u().createElement(
@@ -7158,7 +7158,7 @@
                 "div",
                 { className: ul },
                 ve(r, (e) => {
-                  const t = e.state === Tr.Current;
+                  const t = e.state === xr.Current;
                   return u().createElement(Ri, {
                     key: e.name,
                     rank: a,
@@ -7171,7 +7171,7 @@
                 "div",
                 { className: ol },
                 ve(r, (e, t) => {
-                  const a = e.state === Tr.Current;
+                  const a = e.state === xr.Current;
                   return u().createElement(Pa, {
                     key: t,
                     text: R.strings.comp7.division.elite(),
@@ -7188,7 +7188,7 @@
         })(dl || (dl = {}));
         const ml = "CurrentRankStatus_base_d4",
           _l = (0, q.Pi)(({ itemIndex: e, progressState: t }) => {
-            const a = Ts().model,
+            const a = xs().model,
               r = a.computes.item(e).rank,
               n = a.qualificationModel.isActive.get(),
               o = a.computes.rankSettings(e, n).division;
@@ -7245,7 +7245,7 @@
           pl = "FutureRankStatus_base_c2",
           bl = "FutureRankStatus_lock_d0",
           fl = (0, q.Pi)(({ itemIndex: e }) => {
-            const t = Ts().model,
+            const t = xs().model,
               a = t.computes.item(e).rank,
               r = t.computes.rankPointsDiapason(e),
               n = r.from,
@@ -7312,7 +7312,7 @@
             slideUpIn: "RankItem_slideUpIn_ee",
           },
           Cl = (0, q.Pi)(({ itemIndex: e, isViewed: t, hasDivider: a = !0 }) => {
-            const r = Ts().model,
+            const r = xs().model,
               n = r.qualificationModel.isActive.get(),
               s = P().mediaSize,
               o = r.computes.item(e).rank,
@@ -7365,7 +7365,7 @@
                 u().createElement(
                   "div",
                   null,
-                  u().createElement(To, {
+                  u().createElement(xo, {
                     size: g,
                     rank: o,
                     division: E,
@@ -7398,7 +7398,7 @@
           Bl = "RankItemContainer_title__active_f0",
           wl = (0, q.Pi)(
             ({ itemIndex: e, itemWidth: t, isViewed: a, onMouseDown: r, hasDivider: n }) => {
-              const s = Ts().model.computes.item(e);
+              const s = xs().model.computes.item(e);
               return u().createElement(
                 "div",
                 { className: Dl, style: { "--itemWidth": `${t}rem` }, onMouseDown: r },
@@ -7417,7 +7417,7 @@
               currentViewedItemIndex: a,
               setCurrentViewedItemIndex: r,
             }) => {
-              const n = Ts().model,
+              const n = xs().model,
                 o = n.root.get().currentItemIndex,
                 i = n.computes.itemsLength(),
                 l = P().mediaSize,
@@ -7464,14 +7464,14 @@
             },
           ),
           kl = R.strings.comp7.qualification,
-          Tl = { hasHtmlContent: !0 },
-          xl = ({ maxBattlesCount: e, children: t }) =>
+          xl = { hasHtmlContent: !0 },
+          Tl = ({ maxBattlesCount: e, children: t }) =>
             u().createElement(
               qe,
               {
                 header: kl.conditionTooltip.header(),
                 body: lt(kl.conditionTooltip.body(e), { maxBattlesCount: e }),
-                args: Tl,
+                args: xl,
               },
               u().createElement("div", null, t),
             ),
@@ -7527,7 +7527,7 @@
             );
           },
           $l = (0, q.Pi)(({ index: e, className: t }) => {
-            const a = Ts().model,
+            const a = xs().model,
               r = P().mediaSize,
               n = a.computes.qualificationBattle(e);
             return u().createElement(Wl, {
@@ -7540,7 +7540,7 @@
           Ul = "BattlesProgression_base_a1",
           zl = "BattlesProgression_item_73",
           Gl = (0, q.Pi)(({ className: e }) => {
-            const t = Ts().model;
+            const t = xs().model;
             return u().createElement(
               "div",
               { className: C()(Ul, e) },
@@ -7567,7 +7567,7 @@
           uc = R.strings.comp7.qualification,
           oc = { base: rc, icon: nc },
           ic = (0, q.Pi)(({ className: e }) => {
-            const t = Ts(),
+            const t = xs(),
               a = t.model,
               r = t.controls,
               n = a.qualificationModel.battlesCount.get(),
@@ -7629,7 +7629,7 @@
                         binding: { maxBattlesCount: s },
                       }),
                       u().createElement(
-                        xl,
+                        Tl,
                         { maxBattlesCount: s },
                         u().createElement("div", { className: ac }),
                       ),
@@ -7678,7 +7678,7 @@
           },
           cc = R.strings.comp7.page.heading,
           dc = (0, q.Pi)(() => {
-            const e = Ts().model,
+            const e = xs().model,
               t = e.root.get().currentItemIndex,
               a = (0, s.useState)(t),
               r = a[0],
@@ -7859,6 +7859,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -7891,13 +7892,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(pc || (pc = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -8048,11 +8043,6 @@
             pc.PremiumPlusUniversal,
             pc.GoldenTicket,
             pc.RewardsSlots,
-            pc.WtStamp,
-            pc.WtTicket,
-            pc.WtMainPrizeDiscount,
-            pc.WtHunter,
-            pc.WtHunterCollection,
           ],
           Pc = [pc.Gold, pc.Credits, pc.Crystal, pc.FreeXp],
           yc = [pc.BattlePassPoints],
@@ -8070,8 +8060,8 @@
             (e.s400 = "400"),
             (e.s600 = "600"));
         })(kc || (kc = {}));
-        const Tc = ["engravings", "backgrounds"],
-          xc = ["engraving", "background"],
+        const xc = ["engravings", "backgrounds"],
+          Tc = ["engraving", "background"],
           Nc = (e, t = fc.Small) => {
             const a = e.name,
               r = e.type,
@@ -8127,11 +8117,11 @@
                 return `R.images.gui.maps.icons.crewBooks.books.${t}.${s}`;
               case "dogTagComponents":
                 return ((e, t, a) => {
-                  const r = Tc[e];
+                  const r = xc[e];
                   if (r) {
                     const n = R.images.gui.maps.icons.dogtags.$dyn(t).$dyn(r),
                       s = n.$dyn(a);
-                    return s ? `${s}` : `${n.$dyn(xc[e])}`;
+                    return s ? `${s}` : `${n.$dyn(Tc[e])}`;
                   }
                   return (
                     console.error(
@@ -8218,6 +8208,8 @@
               case pc.StyleProgress:
               case pc.LbStyleProgress:
                 return Ic(s, t, Fc.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${t}.${u}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${t}.${a}`;
             }
@@ -8603,7 +8595,7 @@
                   u().createElement(
                     "div",
                     { className: rd.tooltipArea },
-                    u().createElement(To, {
+                    u().createElement(xo, {
                       rank: e,
                       size: s,
                       type: Ro.Static,
@@ -8718,14 +8710,14 @@
               y = S[1],
               R = (0, s.useState)(o),
               k = R[0],
-              T = R[1],
-              x = (0, s.useRef)(null),
+              x = R[1],
+              T = (0, s.useRef)(null),
               N = (0, s.useCallback)(() => {
-                x.current && (x.current.focus(), T(!0));
+                T.current && (T.current.focus(), x(!0));
               }, []),
               I = (0, s.useCallback)(
                 (e) => {
-                  k && null !== x.current && !x.current.contains(e.target) && T(!1);
+                  k && null !== T.current && !T.current.contains(e.target) && x(!1);
                 },
                 [k],
               );
@@ -8739,7 +8731,7 @@
               [I],
             ),
               (0, s.useEffect)(() => {
-                T(o);
+                x(o);
               }, [o]));
             const L = (0, s.useCallback)(
                 (e) => {
@@ -8773,13 +8765,13 @@
               ),
               U = (0, s.useCallback)(
                 (e) => {
-                  (T(!0), A && A(e));
+                  (x(!0), A && A(e));
                 },
                 [A],
               ),
               z = (0, s.useCallback)(
                 (e) => {
-                  (T(!1), v && v(e));
+                  (x(!1), v && v(e));
                 },
                 [v],
               ),
@@ -8797,7 +8789,7 @@
               "div",
               od(
                 {
-                  ref: x,
+                  ref: T,
                   className: G,
                   onClick: L,
                   onMouseEnter: H,
@@ -8934,7 +8926,7 @@
             },
           ),
           kd = (e) => (e >= B.Large ? Ur.x110 : e >= B.Medium ? Ur.x64 : Ur.x48),
-          Td = (e) =>
+          xd = (e) =>
             e >= B.ExtraLarge
               ? fc.S600x450
               : e >= B.Large
@@ -8942,7 +8934,7 @@
                 : e >= B.Medium
                   ? fc.S296x222
                   : fc.S232x174,
-          xd = (e) => (e >= w.Medium ? 5 : 4),
+          Td = (e) => (e >= w.Medium ? 5 : 4),
           Nd = "RankRewardsPage_base_fd",
           Id = "RankRewardsPage_content_3f",
           Ld = "RankRewardsPage_scrollContainer_f2",
@@ -9032,8 +9024,8 @@
                   }),
                 [S, y, k, C, E, b, D, w],
               ));
-            const T = (e) => "idle" === b && e === E && !d,
-              x = (0, ke.useSpring)(_e),
+            const x = (e) => "idle" === b && e === E && !d,
+              T = (0, ke.useSpring)(_e),
               N = { lineHeight: 1.5 },
               I = no(C) - C;
             return u().createElement(
@@ -9043,7 +9035,7 @@
               u().createElement(It, null),
               u().createElement(
                 ke.animated.div,
-                { className: Id, style: x },
+                { className: Id, style: T },
                 u().createElement(
                   wo,
                   {
@@ -9060,12 +9052,12 @@
                     u().createElement(Rd, {
                       key: e,
                       itemIndex: e,
-                      visibleRewardsCount: xd(a),
+                      visibleRewardsCount: Td(a),
                       rankState: Ps(e, l, d),
                       rankEmblemSize: kd(t),
-                      mainRewardSize: Td(t),
+                      mainRewardSize: xd(t),
                       itemWidth: C,
-                      hasHighlight: T(e),
+                      hasHighlight: x(e),
                       isQualification: d,
                       onPreviewClick: () => o.goToPreview(e, A),
                     }),
@@ -9441,7 +9433,7 @@
             km.apply(this, arguments)
           );
         }
-        const Tm = (0, q.Pi)(
+        const xm = (0, q.Pi)(
             ({ levelRef: e }) => {
               const t = om().model.computes.levels();
               return u().createElement(
@@ -9452,7 +9444,7 @@
             },
             { forwardRef: !0 },
           ),
-          xm = {
+          Tm = {
             base: "RewardCard_base_1f",
             base__mediaLarge: "RewardCard_base__mediaLarge_1a",
             base__mediaExtraExtraLarge: "RewardCard_base__mediaExtraExtraLarge_c5",
@@ -9497,21 +9489,21 @@
           Wm = ({ isCompleted: e, isActive: t, isLast: a, rewards: r }) => {
             const n = P(),
               s = C()(
-                xm.base,
-                n.mediaSize === B.Medium && xm.base__mediaMedium,
-                n.mediaSize === B.Large && xm.base__mediaLarge,
-                n.remScreenHeight >= 1200 && xm.base__mediaExtraExtraLarge,
+                Tm.base,
+                n.mediaSize === B.Medium && Tm.base__mediaMedium,
+                n.mediaSize === B.Large && Tm.base__mediaLarge,
+                n.remScreenHeight >= 1200 && Tm.base__mediaExtraExtraLarge,
               ),
-              o = C()(xm.activeBlock, t && xm.activeBlock__completed),
-              i = C()(xm.bgCompleted, (t || e) && xm.bgCompleted__completed);
+              o = C()(Tm.activeBlock, t && Tm.activeBlock__completed),
+              i = C()(Tm.bgCompleted, (t || e) && Tm.bgCompleted__completed);
             return u().createElement(
               "div",
               { className: s },
               u().createElement("div", { className: o }),
               u().createElement("div", { className: i }),
               u().createElement(Hm, { rewards: r, isActive: t, isCompleted: e }),
-              u().createElement("div", { className: xm.border }),
-              a && u().createElement("div", { className: C()(xm.border, xm.border__right) }),
+              u().createElement("div", { className: Tm.border }),
+              a && u().createElement("div", { className: C()(Tm.border, Tm.border__right) }),
             );
           },
           $m = "RewardCards_base_07",
@@ -9841,7 +9833,7 @@
               k = () => {
                 R(v.goal);
               },
-              T = (0, s.useCallback)(() => {
+              x = (0, s.useCallback)(() => {
                 const e = F.current,
                   t = r().length;
                 if (e && t > 0) {
@@ -9856,8 +9848,8 @@
               }, [y, o, r, F, S, D, v.goal, R]);
             return (
               (0, s.useEffect)(() => {
-                T();
-              }, [p, T]),
+                x();
+              }, [p, x]),
               (0, s.useEffect)(() => {
                 const e = (function () {
                   var e,
@@ -9874,7 +9866,7 @@
                             });
                           }));
                         const a = S();
-                        (R(a && e && a !== e ? (t * a) / e : t), T());
+                        (R(a && e && a !== e ? (t * a) / e : t), x());
                       }),
                       function () {
                         var t = this,
@@ -9922,7 +9914,7 @@
                   u().createElement(
                     a_,
                     { api: t, updateProgressBarPosition: k },
-                    u().createElement(Tm, { levelRef: A }),
+                    u().createElement(xm, { levelRef: A }),
                     u().createElement(
                       "div",
                       { className: Jm.progress },
@@ -10236,8 +10228,8 @@
           y_ = "ResetStatus_base__ended_5e",
           R_ = "ResetStatus_endedTextTitle_20",
           k_ = "ResetStatus_endedTextSubtitle_6e",
-          T_ = R.strings.comp7.weeklyQuests.resetStatus,
-          x_ = (0, q.Pi)(({ className: e }) => {
+          x_ = R.strings.comp7.weeklyQuests.resetStatus,
+          T_ = (0, q.Pi)(({ className: e }) => {
             const t = om().model,
               a = t.root.get(),
               r = a.seasonState,
@@ -10247,18 +10239,18 @@
               ? u().createElement(
                   "div",
                   { className: C()(P_, y_, e) },
-                  u().createElement(Ct, { text: T_.ended.lastWeek.title(), classMix: R_ }),
+                  u().createElement(Ct, { text: x_.ended.lastWeek.title(), classMix: R_ }),
                 )
               : s()
                 ? u().createElement(
                     "div",
                     { className: C()(P_, y_, e) },
-                    u().createElement(Ct, { text: T_.ended.title(), classMix: R_ }),
-                    u().createElement(Ct, { text: T_.ended.subtitle(), classMix: k_ }),
+                    u().createElement(Ct, { text: x_.ended.title(), classMix: R_ }),
+                    u().createElement(Ct, { text: x_.ended.subtitle(), classMix: k_ }),
                     u().createElement(S_, {
                       size: w_.Big,
                       currentTimerDate: n,
-                      text: T_.ended.title(),
+                      text: x_.ended.title(),
                     }),
                   )
                 : r === o_.LastWeek
@@ -10268,7 +10260,7 @@
                       u().createElement(S_, {
                         size: w_.Small,
                         currentTimerDate: n,
-                        text: T_.lastWeek(),
+                        text: x_.lastWeek(),
                       }),
                     )
                   : u().createElement(
@@ -10277,7 +10269,7 @@
                       u().createElement(S_, {
                         size: w_.Small,
                         currentTimerDate: n,
-                        text: T_.timer(),
+                        text: x_.timer(),
                       }),
                     );
           }),
@@ -10532,7 +10524,7 @@
               u().createElement(
                 ke.animated.div,
                 { className: X_, style: e },
-                u().createElement(x_, { className: Q_ }),
+                u().createElement(T_, { className: Q_ }),
                 u().createElement(q_, null),
                 u().createElement(u_, { className: Y_ }),
               ),

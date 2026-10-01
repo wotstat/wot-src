@@ -84,7 +84,7 @@
         }
         (t.r(i),
           t.d(i, {
-            addModelObserver: () => R,
+            addModelObserver: () => S,
             addPreloadTexture: () => f,
             children: () => n,
             displayStatus: () => D,
@@ -93,7 +93,7 @@
             extraSize: () => q,
             forceTriggerMouseMove: () => $,
             freezeTextureBeforeResize: () => P,
-            getBrowserTexturePath: () => S,
+            getBrowserTexturePath: () => R,
             getDisplayStatus: () => X,
             getScale: () => O,
             getSize: () => M,
@@ -267,10 +267,10 @@
         function x(u) {
           viewEnv.setHitAreaPaddingsRem(u, u, u, u, 15);
         }
-        function S(u, e, t, r = 1) {
+        function R(u, e, t, r = 1) {
           return viewEnv.getWebBrowserTexturePath(u, e, t, r);
         }
-        function R(u, e, t) {
+        function S(u, e, t) {
           return viewEnv.addDataChangedCallback(u, e, t);
         }
         function T(u) {
@@ -1368,6 +1368,7 @@
               (u.SelectableBonus = "selectableBonus"),
               (u.StyleProgressToken = "styleProgressToken"),
               (u.TmanToken = "tmanToken"),
+              (u.PortalEventDiscount25 = "portalEventDiscountToken"),
               (u.NaturalCover = "naturalCover"),
               (u.BpCoin = "bpcoin"),
               (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1400,13 +1401,7 @@
               (u.GoldenTicket = "goldenticket"),
               (u.LbStyleProgress = "lbStyleProgress"),
               (u.RewardsSlots = "rewardsSlots"),
-              (u.WtStamp = "stamp"),
-              (u.WtHunter = "wt_hunter"),
-              (u.WtBoss = "wt_boss"),
-              (u.WtHunterCollection = "hunter_collection"),
-              (u.WtTicket = "wtevent_ticket"),
-              (u.WtMainPrizeDiscount = "main_prize_discount"),
-              (u.WtTicket25 = "wtevent_ticket25"));
+              (u.RazlomCoin = "razlom_coin"));
           })(Z || (Z = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1546,11 +1541,6 @@
             Z.PremiumPlusUniversal,
             Z.GoldenTicket,
             Z.RewardsSlots,
-            Z.WtStamp,
-            Z.WtTicket,
-            Z.WtMainPrizeDiscount,
-            Z.WtHunter,
-            Z.WtHunterCollection,
           ],
           ou = [Z.Gold, Z.Credits, Z.Crystal, Z.FreeXp],
           lu = [Z.BattlePassPoints],
@@ -1726,6 +1716,8 @@
               case Z.StyleProgress:
               case Z.LbStyleProgress:
                 return Cu(n, e, iu.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -1824,8 +1816,8 @@
           return !1;
         }
         console.log;
-        var Su = t(174);
-        function Ru(u, e) {
+        var Ru = t(174);
+        function Su(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
           if (
@@ -1969,7 +1961,7 @@
                             };
                           },
                           dispose: function () {
-                            for (var u, t = Ru(a.keys()); !(u = t()).done;) n(u.value, e);
+                            for (var u, t = Su(a.keys()); !(u = t()).done;) n(u.value, e);
                           },
                           unsubscribe: n,
                         };
@@ -1991,11 +1983,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const r = null != e ? e : l(u),
-                              a = Su.LO.box(r, { equals: xu });
+                              a = Ru.LO.box(r, { equals: xu });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, Su.aD)((u) => a.set(u)),
+                                  (0, Ru.aD)((u) => a.set(u)),
                                   u,
                                 ),
                               a
@@ -2003,11 +1995,11 @@
                           },
                           object: (u, e) => {
                             const r = null != e ? e : l(u),
-                              a = Su.LO.box(r, { equals: xu });
+                              a = Ru.LO.box(r, { equals: xu });
                             return (
                               "real" === t &&
                                 o.subscribe(
-                                  (0, Su.aD)((u) => a.set(u)),
+                                  (0, Ru.aD)((u) => a.set(u)),
                                   u,
                                 ),
                               a
@@ -2016,11 +2008,11 @@
                           primitives: (u, e) => {
                             const r = l(e);
                             if (Array.isArray(u)) {
-                              const a = u.reduce((u, e) => ((u[e] = Su.LO.box(r[e], {})), u), {});
+                              const a = u.reduce((u, e) => ((u[e] = Ru.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, Su.aD)((e) => {
+                                    (0, Ru.aD)((e) => {
                                       u.forEach((u) => {
                                         a[u].set(e[u]);
                                       });
@@ -2033,11 +2025,11 @@
                             {
                               const a = u,
                                 n = Object.entries(a),
-                                i = n.reduce((u, [e, t]) => ((u[t] = Su.LO.box(r[e], {})), u), {});
+                                i = n.reduce((u, [e, t]) => ((u[t] = Ru.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   o.subscribe(
-                                    (0, Su.aD)((u) => {
+                                    (0, Ru.aD)((u) => {
                                       n.forEach(([e, t]) => {
                                         i[t].set(u[e]);
                                       });
@@ -2092,7 +2084,7 @@
                   regularBonusModels: u.array("regularRewards", []),
                   intermediateBonusModels: u.array("intermediateRewards", []),
                 },
-                t = Su.LO.box(0),
+                t = Ru.LO.box(0),
                 r = (0, ku.Om)(() => Lu(e.vehicles.get(), fu), { equals: xu }),
                 a = (0, ku.Om)(
                   () => {
@@ -2172,7 +2164,7 @@
               nextTask: u.createCallbackNoArgs("onNextTask"),
               showVehicle: u.createCallbackNoArgs("onShowVehicle"),
               chooseVehicle: u.createCallback(Iu, "onChooseVehicle"),
-              showMore: (0, Su.aD)(() =>
+              showMore: (0, Ru.aD)(() =>
                 e.additionalRewardsPage.set(e.additionalRewardsPage.get() + 1),
               ),
             }),
@@ -2588,7 +2580,7 @@
                 ),
             );
           }),
-          Se = [
+          Re = [
             "children",
             "contentId",
             "args",
@@ -2604,7 +2596,7 @@
             "onShow",
             "onHide",
           ];
-        function Re(u) {
+        function Se(u) {
           return Object.entries(u || {}).map(([u, e]) => {
             const t = { __Type: "GFValueProxy", name: u };
             switch (typeof e) {
@@ -2664,7 +2656,7 @@
                   n = Object.keys(u);
                 for (r = 0; r < n.length; r++) ((t = n[r]), e.indexOf(t) >= 0 || (a[t] = u[t]));
                 return a;
-              })(u, Se);
+              })(u, Re);
             const p = (0, r.useRef)({
                 timeoutId: 0,
                 isVisible: !1,
@@ -2692,7 +2684,7 @@
               ),
               v = (0, r.useCallback)(() => {
                 (p.current.isVisible && p.current.timeoutId) ||
-                  (Te(t, m, { isMouseEvent: !0, on: !0, arguments: Re(a) }, b),
+                  (Te(t, m, { isMouseEvent: !0, on: !0, arguments: Se(a) }, b),
                   C && C(),
                   (p.current.isVisible = !0));
               }, [t, m, a, b, C]),
@@ -3222,11 +3214,11 @@
                     void 0
                   : w,
               x = u.alignItems,
-              S =
+              R =
                 void 0 === x
                   ? (C ? "flex-start" : h && "center") || (p && "flex-end") || void 0
                   : x,
-              R = u.alignSelf,
+              S = u.alignSelf,
               T = u.wrap,
               M = u.flexWrap,
               y = void 0 === M ? (T ? "wrap" : void 0) : M,
@@ -3262,16 +3254,16 @@
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== n && "number" == typeof n ? n + "rem" : n,
                     flex: k,
-                    alignSelf: R,
-                    display: B || S ? "flex" : void 0,
+                    alignSelf: S,
+                    display: B || R ? "flex" : void 0,
                     flexDirection: B,
                     flexWrap: y,
                     justifyContent: f,
-                    alignItems: S,
+                    alignItems: R,
                   }),
                   computedClassNames: e,
                 };
-              }, [t, n, o, E, _, m, N, k, R, B, y, f, S]),
+              }, [t, n, o, E, _, m, N, k, S, B, y, f, R]),
               G = U.computedStyle,
               W = U.computedClassNames;
             return a().createElement(
@@ -3456,8 +3448,8 @@
         }
         const ft = ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE()),
           xt = "TokenReward_base_9f",
-          St = "TokenReward_image_cb",
-          Rt = "TokenReward_title_72",
+          Rt = "TokenReward_image_cb",
+          St = "TokenReward_title_72",
           Tt = "TokenReward_description_b0",
           Mt = "TokenReward_actionContainer_1c",
           yt = "TokenReward_action_a9",
@@ -3489,9 +3481,9 @@
                     R.views.lobby.battle_matters.tooltips.BattleMattersTokenTooltipView("resId"),
                   args: l,
                 },
-                a().createElement("div", { className: St, style: { backgroundImage: o } }),
+                a().createElement("div", { className: Rt, style: { backgroundImage: o } }),
               ),
-              a().createElement("div", { className: Rt }, Lt.title()),
+              a().createElement("div", { className: St }, Lt.title()),
               a().createElement(pt, {
                 className: Tt,
                 format: { binding: { level: s } },

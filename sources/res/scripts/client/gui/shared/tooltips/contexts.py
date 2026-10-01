@@ -79,7 +79,7 @@ class StatsConfiguration(object):
 
 
 class StatusConfiguration(object):
-    __slots__ = (b'vehicle', b'slotIdx', b'eqs', b'checkBuying', b'node', b'isAwardWindow', b'isSpecialWindow', b'isResearchPage', b'checkNotSuitable', b'showCustomStates', b'useWhiteBg', b'withSlots', b'isCompare', b'eqSetupIDx', b'battleRoyale')
+    __slots__ = (b'vehicle', b'slotIdx', b'eqs', b'checkBuying', b'node', b'isAwardWindow', b'isResearchPage', b'checkNotSuitable', b'showCustomStates', b'useWhiteBg', b'withSlots', b'isCompare', b'eqSetupIDx', b'battleRoyale')
 
     def __init__(self):
         self.vehicle = None
@@ -96,7 +96,6 @@ class StatusConfiguration(object):
         self.isCompare = False
         self.eqSetupIDx = None
         self.battleRoyale = None
-        self.isSpecialWindow = False
         return
 
 
@@ -341,24 +340,6 @@ class ShopContext(AwardContext):
         value = super(ShopContext, self).getStatsConfiguration(item)
         value.inventoryCount = True
         value.vehiclesCount = True
-        return value
-
-
-class WtEventPortalContext(DefaultContext):
-
-    def buildItem(self, *args, **kwargs):
-        return super(WtEventPortalContext, self).buildItem(args[0])
-
-    def getStatsConfiguration(self, item):
-        value = super(WtEventPortalContext, self).getStatsConfiguration(item)
-        value.sellPrice = False
-        value.buyPrice = False
-        value.unlockPrice = False
-        return value
-
-    def getStatusConfiguration(self, item):
-        value = super(WtEventPortalContext, self).getStatusConfiguration(item)
-        value.isSpecialWindow = True
         return value
 
 

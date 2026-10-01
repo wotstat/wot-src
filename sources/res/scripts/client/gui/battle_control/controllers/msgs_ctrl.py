@@ -8,6 +8,7 @@ from gui.battle_control.controllers.interfaces import IBattleController
 from items.battle_royale import isSpawnedBot, isHunterBot
 from skeletons.gui.battle_session import IBattleSessionProvider
 from supply_shared import Supply
+from portal_common.portal_constants import ARENA_GUI_TYPE
 
 class _ENTITY_TYPE(object):
     UNKNOWN = b'unknown'
@@ -333,6 +334,19 @@ class EpicBattleMessagesController(BattleMessagesController):
         return
 
 
+class PortalMessagesController(BattleMessagesController):
+
+    def __init__(self, setup):
+        super(PortalMessagesController, self).__init__(setup)
+        self._attackReasonCodes[_AR_INDICES[b'minefield_eq']] = b'MINEFIELD_EQ'
+        self._attackReasonCodes[_AR_INDICES[b'guided_missile']] = b'GUIDED_MISSILE'
+        self._attackReasonCodes[_AR_INDICES[b'sentinel_attack']] = b'SENTINEL_ATTACK'
+        self._attackReasonCodes[_AR_INDICES[b'super_boss_aura']] = b'SUPER_BOSS_AURA'
+        self._attackReasonCodes[_AR_INDICES[b'periodic']] = b'PERIODIC'
+        self._attackReasonCodes[_AR_INDICES[b'death_zone']] = b'DEATH_ZONE'
+        return
+
+
 @dependency.replace_none_kwargs(battleSessionProvider=IBattleSessionProvider)
 def _isHideVehicleKilledMsg(vehicleID, battleSessionProvider=None):
     ctx = battleSessionProvider.getCtx()
@@ -422,6 +436,11 @@ def createBattleMessagesCtrl(setup):
             ctrl = BattleRoyaleBattleMessagesPlayer(setup)
         else:
             ctrl = BattleRoyaleBattleMessagesController(setup)
+    elif BigWorld.player().arena.guiType == ARENA_GUI_TYPE.PORTAL:
+        if setup.isReplayPlaying:
+            ctrl = BattleMessagesPlayer(setup)
+        else:
+            ctrl = PortalMessagesController(setup)
     elif setup.isReplayPlaying:
         ctrl = BattleMessagesPlayer(setup)
     else:

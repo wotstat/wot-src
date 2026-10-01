@@ -312,6 +312,9 @@
   z-index: -1;
   transition: opacity 0.3s ease-in-out;
 }
+.App_base__special_40 .App_highlight_64 {
+  background-image: url("R.images.gui.maps.icons.blackMarket.border_blue");
+}
 .App_base_96:hover .App_highlight_64 {
   opacity: 1;
 }

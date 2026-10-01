@@ -146,32 +146,110 @@ body {
   opacity: 0;
 }
 
-.SeniorityAwardCoin_base_f6 {
-  background: no-repeat center / cover;
+.Box_mt__XS_0c {
+  margin-top: 4rem;
+}
+.Box_mt__SM_eb {
+  margin-top: 8rem;
+}
+.Box_mt__SMp_cf {
+  margin-top: 10rem;
+}
+.Box_mt__MD_25 {
+  margin-top: 16rem;
+}
+.Box_mt__MDp_49 {
+  margin-top: 20rem;
+}
+.Box_mt__LG_e8 {
+  margin-top: 32rem;
+}
+.Box_mt__XL_83 {
+  margin-top: 64rem;
 }
 
-.SeniorityAwardCoin_base__large_86 {
-  width: 300rem;
-  height: 300rem;
-  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin_large");
+.Box_mr__XS_7c {
+  margin-right: 4rem;
 }
 
-.SeniorityAwardCoin_base__medium_f5 {
-  width: 226rem;
-  height: 226rem;
-  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin");
+.Box_mr__SM_08 {
+  margin-right: 8rem;
 }
 
-.SeniorityAwardCoin_base__small_a5 {
-  width: 80rem;
-  height: 80rem;
-  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin_small");
+.Box_mr__SMp_06 {
+  margin-right: 10rem;
 }
 
-.SeniorityAwardCoin_base__extraSmall_a1 {
-  width: 56rem;
-  height: 56rem;
-  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin_extraSmall");
+.Box_mr__MD_4a {
+  margin-right: 16rem;
+}
+
+.Box_mr__MDp_b6 {
+  margin-right: 20rem;
+}
+
+.Box_mr__LG_d0 {
+  margin-right: 32rem;
+}
+
+.Box_mr__XL_db {
+  margin-right: 64rem;
+}
+
+.Box_mb__XS_bb {
+  margin-bottom: 4rem;
+}
+
+.Box_mb__SM_83 {
+  margin-bottom: 8rem;
+}
+
+.Box_mb__SMp_04 {
+  margin-bottom: 10rem;
+}
+
+.Box_mb__MD_ed {
+  margin-bottom: 16rem;
+}
+
+.Box_mb__MDp_65 {
+  margin-bottom: 20rem;
+}
+
+.Box_mb__LG_c8 {
+  margin-bottom: 32rem;
+}
+
+.Box_mb__XL_f8 {
+  margin-bottom: 64rem;
+}
+
+.Box_ml__XS_8a {
+  margin-left: 4rem;
+}
+
+.Box_ml__SM_e6 {
+  margin-left: 8rem;
+}
+
+.Box_ml__SMp_fb {
+  margin-left: 10rem;
+}
+
+.Box_ml__MD_2b {
+  margin-left: 16rem;
+}
+
+.Box_ml__MDp_c7 {
+  margin-left: 20rem;
+}
+
+.Box_ml__LG_39 {
+  margin-left: 32rem;
+}
+
+.Box_ml__XL_4a {
+  margin-left: 64rem;
 }
 
 .FormatText_base_d0 {
@@ -179,97 +257,312 @@ body {
   flex-wrap: wrap;
 }
 
-@keyframes AnimatedCount_fadeOut_32 {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
+/* eslint-disable-next-line expectedscss*/
+.Text_paragraph-P10_2c {
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
-@keyframes AnimatedCount_fadeIn_35 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+.Text_paragraph-P12_22 {
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
-@keyframes AnimatedCount_raysAppearance_e3 {
-  0% {
-    opacity: 0;
-    transform: translateY(20rem);
-  }
-
-  100% {
-    opacity: 0.5;
-    transform: translateY(0);
-  }
+.Text_paragraph-P14_a7 {
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
-@keyframes AnimatedCount_rotate_5f {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+.Text_paragraph-P16_90 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
-@keyframes AnimatedCount_fadeInWithScale_b4 {
-  0% {
-    opacity: 0;
-    transform: scale(2);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+.Text_paragraph-P18_50 {
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
-@keyframes AnimatedCount_slideUp_9a {
-  0% {
-    opacity: 0;
-    transform: translateY(20rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.Text_paragraph-P24_33 {
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 32rem;
 }
-@keyframes AnimatedCount_scale_99 {
-  0% {
-    transform: scale(0);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+.Text_heading-H14_8b {
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
-.AnimatedCount_base_7e {
-  opacity: 0;
-  animation-name: AnimatedCount_fadeIn_35;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1);
-  animation-delay: 50ms;
-  animation-iteration-count: 1;
-  position: relative;
-  z-index: 0;
+.Text_heading-H15_9e {
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
 }
-.AnimatedCount_value_72 {
-  color: #e9e2bf;
+.Text_heading-H18_b7 {
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H20R_f6 {
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.Text_heading-H22_27 {
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.Text_heading-H24R_be {
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.Text_heading-H24_0c {
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.Text_heading-H28_78 {
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H36_32 {
   font-size: 36rem;
   font-weight: 700;
   line-height: 1.1;
 }
-.mediaMedium .AnimatedCount_value_72 {
-  color: #e9e2bf;
+.Text_heading-H56_c3 {
   font-size: 56rem;
   font-weight: 700;
   line-height: 1.1;
+}
+.Text_heading-H73_8f {
+  font-size: 73rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Text_heading-H144_a9 {
+  font-size: 144rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.Text_BLACK_REAL_30 {
+  color: #000000;
+}
+.Text_WHITE_REAL_bc {
+  color: #ffffff;
+}
+.Text_WHITE_62 {
+  color: #f2f2f7;
+}
+.Text_WHITE_ORANGE_54 {
+  color: #fefeec;
+}
+.Text_WHITE_SPANISH_df {
+  color: #e9e2bf;
+}
+.Text_PAR_15 {
+  color: #8c8c7e;
+}
+.Text_PAR_SECONDARY_5d {
+  color: #595950;
+}
+.Text_PAR_TERTIARY_c9 {
+  color: #37362e;
+}
+.Text_INFO_RED_30 {
+  color: #ff0000;
+}
+.Text_RED_66 {
+  color: #ff2717;
+}
+.Text_RED_DARK_d8 {
+  color: #b70000;
+}
+.Text_YELLOW_ed {
+  color: #feab34;
+}
+.Text_ORANGE_be {
+  color: #ee7000;
+}
+.Text_CREAM_57 {
+  color: #ffdd99;
+}
+.Text_BROWN_18 {
+  color: #cbac77;
+}
+.Text_GREEN_BRIGHT_3f {
+  color: #80d43a;
+}
+.Text_GREEN_e3 {
+  color: #7ab300;
+}
+.Text_GREEN_DARK_f1 {
+  color: #497212;
+}
+.Text_BLUE_BOOSTER_21 {
+  color: #ccffff;
+}
+.Text_BLUE_TEAMKILLER_ab {
+  color: #09e2ff;
+}
+.Text_CRED_f7 {
+  color: #ced9d9;
+}
+.Text_GOLD_28 {
+  color: #ffc363;
+}
+.Text_BOND_be {
+  color: #c9c9b6;
+}
+.Text_PROM_65 {
+  color: #a29b70;
+}
+
+.MainReward_base_94 {
+  width: 296rem;
+  height: 222rem;
+  position: relative;
+}
+.mediaMedium .MainReward_base_94 {
+  width: 350rem;
+  height: 260rem;
+}
+.mediaExtraLarge .MainReward_base_94 {
+  width: 400rem;
+  height: 300rem;
+}
+.MainReward_base__withCoins_ca {
+  width: 80rem;
+  height: 80rem;
+}
+.mediaMedium .MainReward_base__withCoins_ca {
+  width: 80rem;
+  height: 80rem;
+}
+.mediaLarge .MainReward_base__withCoins_ca {
+  width: 80rem;
+  height: 80rem;
+}
+
+.MainReward_icon_c8 {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center / contain;
+}
+
+.MainReward_value_41 {
+  color: #e9e2bf;
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
+  position: absolute;
+  bottom: 27rem;
+  left: 170rem;
+}
+
+.mediaSmall .MainReward_value_41 {
+  bottom: 31rem;
+}
+
+.mediaMedium .MainReward_value_41 {
+  bottom: 35rem;
+  left: 270rem;
+}
+
+.mediaExtraLarge .MainReward_value_41 {
+  color: #e9e2bf;
+  font-size: 36rem;
+  font-weight: 700;
+  line-height: 1.1;
+  left: 320rem;
+}
+
+.MainReward_base__withCoins_ca .MainReward_value_41 {
+  bottom: -19rem;
+  left: 60rem;
+}
+
+.MainReward_base__credits_5a .MainReward_value_41,
+.MainReward_base__gold_5b .MainReward_value_41,
+.MainReward_base__crystal_32 .MainReward_value_41 {
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.MainReward_overlay_c7 {
+  width: 200%;
+  height: 200%;
+  background: no-repeat center / 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-49%, -47%);
+  pointer-events: none;
+}
+
+.MainReward_label_5f {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -19rem;
+  color: #e9e2bf;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.mediaMedium .MainReward_label_5f {
+  bottom: -26rem;
+}
+
+.mediaExtraLarge .MainReward_label_5f {
+  bottom: -14rem;
+}
+
+.MainReward_label__large_ef {
+  color: #e9e2bf;
+  font-size: 22rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.mediaMedium .MainReward_label__large_ef {
+  color: #e9e2bf;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.mediaLarge .MainReward_label__large_ef {
+  color: #e9e2bf;
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.SeniorityAwardCoin_base_f6 {
+  width: 296rem;
+  height: 222rem;
+  background: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin") no-repeat top / contain;
+}
+
+.mediaMedium .SeniorityAwardCoin_base_f6 {
+  width: 400rem;
+  height: 300rem;
+  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin_large");
+}
+
+.mediaExtraLarge .SeniorityAwardCoin_base_f6 {
+  width: 600rem;
+  height: 450rem;
+  background-image: url("R.images.gui.maps.icons.seniorityAwards.rewards.sacoin_extraLarge");
 }
 
 @keyframes AwardCoin_fadeOut_45 {
@@ -342,17 +635,69 @@ body {
   }
 }
 .AwardCoin_base_a3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 296rem;
+  height: 222rem;
   position: relative;
+}
+.mediaMedium .AwardCoin_base_a3 {
+  width: 400rem;
+  height: 300rem;
+}
+.mediaExtraLarge .AwardCoin_base_a3 {
+  width: 600rem;
+  height: 450rem;
 }
 .AwardCoin_coin_30 {
   opacity: 0;
   animation: AwardCoin_fadeInWithScale_e6 0.4s forwards 0s;
 }
 .AwardCoin_count_2f {
+  opacity: 0;
+  animation-name: AwardCoin_fadeIn_73;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.07, 0.82, 0.17, 1);
+  animation-delay: 50ms;
+  animation-iteration-count: 1;
   position: absolute;
-  bottom: 10rem;
-  left: 70%;
+  right: 20rem;
+  bottom: 20rem;
+  z-index: 0;
   pointer-events: none;
+}
+.mediaExtraLarge .AwardCoin_count_2f {
+  bottom: 22rem;
+}
+.AwardCoin_value_f6 {
+  color: #e9e2bf;
+  font-size: 28rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.mediaExtraLarge .AwardCoin_value_f6 {
+  color: #e9e2bf;
+  font-size: 36rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.AwardCoin_label_c1 {
+  color: #e9e2bf;
+  font-size: 24rem;
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  height: 64rem;
+  text-align: center;
+  position: absolute;
+  bottom: -38rem;
+}
+.mediaMedium .AwardCoin_label_c1 {
+  bottom: -54rem;
 }
 
 .SeniorityReward_base_e4 {
@@ -388,7 +733,7 @@ body {
 }
 
 .SeniorityReward_label_da {
-  color: #ffffff;
+  color: #e9e2bf;
   font-size: 20rem;
   font-weight: 400;
   line-height: 1.2;
@@ -407,8 +752,12 @@ body {
 }
 
 .SeniorityReward_base__withCoins_ea .SeniorityReward_label_da {
+  color: #e9e2bf;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
   font-size: 16rem;
-  bottom: -15rem;
+  bottom: -7rem;
   left: 60rem;
 }
 
@@ -555,21 +904,140 @@ body {
   padding-top: 15rem;
 }
 .Rewards_base__withCoins_62 {
-  padding-top: 230rem;
+  padding-top: 250rem;
 }
 .mediaMedium .Rewards_base__withCoins_62 {
-  padding-top: 245rem;
+  padding-top: 307rem;
 }
 .mediaLarge .Rewards_base__withCoins_62 {
-  padding-top: 245rem;
+  padding-top: 305rem;
 }
 .mediaExtraLarge .Rewards_base__withCoins_62 {
-  padding-top: 320rem;
+  padding-top: 475rem;
 }
 .Rewards_rewards_c5 {
   display: flex;
   flex-direction: row;
-  margin-top: 10rem;
+  margin-top: 21rem;
+}
+.mediaMedium .Rewards_rewards_c5 {
+  margin-top: 19rem;
+}
+.mediaExtraLarge .Rewards_rewards_c5 {
+  padding-top: 18rem;
+}
+
+@keyframes MainRewards_fadeOut_92 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes MainRewards_fadeIn_a4 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes MainRewards_raysAppearance_f4 {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+}
+@keyframes MainRewards_rotate_84 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes MainRewards_fadeInWithScale_50 {
+  0% {
+    opacity: 0;
+    transform: scale(2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes MainRewards_slideUp_66 {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes MainRewards_scale_d4 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.MainRewards_base_53 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 290rem;
+  position: absolute;
+  bottom: 199rem;
+  left: 50%;
+  z-index: 4;
+  transform: translateX(-50%);
+}
+.mediaMedium .MainRewards_base_53 {
+  min-height: 356rem;
+  bottom: 255rem;
+}
+.mediaLarge .MainRewards_base_53 {
+  bottom: 300rem;
+}
+.mediaExtraLarge .MainRewards_base_53 {
+  min-height: 510rem;
+  bottom: 328rem;
+}
+.MainRewards_awardCoin_5c {
+  position: relative;
+}
+.MainRewards_glow_31 {
+  width: 810rem;
+  height: 810rem;
+  background: url("R.images.gui.maps.icons.seniorityAwards.ribbon.light") no-repeat center / contain;
+  opacity: 0.4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.mediaLarge .MainRewards_glow_31 {
+  width: 996rem;
+  height: 996rem;
+}
+.MainRewards_mainReward_e5 {
+  margin: 0 12rem;
 }
 
 @keyframes Ribbon_fadeOut_6b {
@@ -666,10 +1134,18 @@ body {
   height: 706rem;
   margin-top: 240rem;
 }
-.mediaLarge .Ribbon_base__withCoins_66 .Ribbon_ribbon_33 {
+.Ribbon_base__withMainRewards_c1 .Ribbon_ribbon_33 {
+  height: 427rem;
+}
+.mediaMedium .Ribbon_base__withMainRewards_c1 .Ribbon_ribbon_33 {
+  height: 500rem;
+}
+.mediaLarge .Ribbon_base__withMainRewards_c1 .Ribbon_ribbon_33 {
+  height: 531rem;
   margin-top: 190rem;
 }
-.mediaExtraLarge .Ribbon_base__withCoins_66 .Ribbon_ribbon_33 {
+.mediaExtraLarge .Ribbon_base__withMainRewards_c1 .Ribbon_ribbon_33 {
+  height: 708rem;
   margin-top: 290rem;
 }
 .Ribbon_rewards_4b {
@@ -685,22 +1161,6 @@ body {
 }
 .mediaExtraLarge .Ribbon_rewards_4b {
   width: 2560rem;
-}
-.Ribbon_awardCoin_1e {
-  position: absolute;
-  bottom: 260rem;
-  left: 50%;
-  z-index: 4;
-  transform: translateX(-50%);
-}
-.mediaMedium .Ribbon_awardCoin_1e {
-  bottom: 235rem;
-}
-.mediaLarge .Ribbon_awardCoin_1e {
-  bottom: 335rem;
-}
-.mediaExtraLarge .Ribbon_awardCoin_1e {
-  bottom: 445rem;
 }
 .Ribbon_radialLines_e5 {
   width: 483rem;
@@ -721,41 +1181,26 @@ body {
   transform: translateX(-50%);
   pointer-events: none;
 }
+.mediaMedium .Ribbon_linesWrapper_ca {
+  bottom: 100rem;
+}
 .mediaLarge .Ribbon_linesWrapper_ca {
-  bottom: 5rem;
+  bottom: 60rem;
 }
 .mediaExtraLarge .Ribbon_linesWrapper_ca {
-  bottom: 185rem;
+  bottom: 250rem;
 }
-.Ribbon_base__withCoins_66 .Ribbon_linesWrapper_ca {
-  bottom: 115rem;
+.Ribbon_base__withMainRewards_c1 .Ribbon_linesWrapper_ca {
+  bottom: 30rem;
 }
-.mediaSmall .Ribbon_base__withCoins_66 .Ribbon_linesWrapper_ca {
-  bottom: 135rem;
+.mediaMedium .Ribbon_base__withMainRewards_c1 .Ribbon_linesWrapper_ca {
+  bottom: 10rem;
 }
-.mediaMedium .Ribbon_base__withCoins_66 .Ribbon_linesWrapper_ca {
-  bottom: 110rem;
+.mediaLarge .Ribbon_base__withMainRewards_c1 .Ribbon_linesWrapper_ca {
+  bottom: 60rem;
 }
-.mediaLarge .Ribbon_base__withCoins_66 .Ribbon_linesWrapper_ca {
-  bottom: 150rem;
-}
-.mediaExtraLarge .Ribbon_base__withCoins_66 .Ribbon_linesWrapper_ca {
-  bottom: 260rem;
-}
-.Ribbon_glow_05 {
-  width: 810rem;
-  height: 810rem;
-  background: url("R.images.gui.maps.icons.seniorityAwards.ribbon.light") no-repeat center / contain;
-  opacity: 0.4;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-.mediaLarge .Ribbon_glow_05 {
-  width: 996rem;
-  height: 996rem;
+.mediaExtraLarge .Ribbon_base__withMainRewards_c1 .Ribbon_linesWrapper_ca {
+  bottom: 250rem;
 }
 
 .HorizontalBar_base_49 {
@@ -1007,27 +1452,27 @@ body {
 
 .Vehicle_image_80 {
   width: 360rem;
-  height: 273rem;
+  height: 270rem;
   background: no-repeat center / contain;
 }
 
 .mediaSmall .Vehicle_image_80 {
   width: 420rem;
-  height: 319rem;
+  height: 315rem;
 }
 
 .mediaMedium .Vehicle_image_80 {
   width: 500rem;
-  height: 379rem;
+  height: 375rem;
 }
 
 .mediaLarge .Vehicle_image_80 {
   width: 600rem;
-  height: 455rem;
+  height: 450rem;
 }
 
 .mediaExtraLarge .Vehicle_image_80 {
-  width: 750rem;
+  width: 746rem;
   height: 562rem;
 }
 
@@ -1063,6 +1508,7 @@ body {
   line-height: 1.15;
   display: flex;
   align-items: center;
+  margin-top: -20rem;
 }
 
 .mediaMedium .Vehicle_vehicleName_a1 {
@@ -1151,6 +1597,7 @@ body {
 
 .Vehicles_scrollTrack_bd {
   margin: 0;
+  top: 1rem;
 }
 
 .Vehicles_item_16 {
@@ -1194,11 +1641,23 @@ body {
   visibility: hidden;
   position: absolute;
   right: 0;
-  bottom: -40rem;
+  bottom: -27rem;
   left: 0;
   transition:
     opacity 0.2s ease-out,
     visibility 0.2s ease-out;
+}
+
+.mediaSmall .Vehicles_bar_5d {
+  bottom: -32rem;
+}
+
+.mediaMedium .Vehicles_bar_5d {
+  margin-top: -35rem;
+}
+
+.mediaExtraLarge .Vehicles_bar_5d {
+  margin-top: -82rem;
 }
 
 .Vehicles_bar__visible_8b {
@@ -1213,45 +1672,52 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+  z-index: 3;
 }
-
 .Content_vehicles_a7 {
   width: 100%;
-  padding-top: 12%;
+  padding-top: 13%;
   position: absolute;
   transition: opacity 0.2s 0.3s ease-in;
 }
-
 .mediaSmall .Content_vehicles_a7 {
-  padding-top: 7%;
+  padding-top: 10%;
 }
-
 .mediaMediumHeight .Content_vehicles_a7 {
   padding-top: 15%;
 }
-
 .mediaMedium .Content_vehicles_a7 {
-  padding-top: 7%;
+  padding-top: 9%;
 }
-
 .mediaExtraLargeWidth .Content_vehicles_a7 {
   padding-top: 255rem;
 }
-
 .mediaExtraLarge .Content_vehicles_a7 {
-  padding-top: 12%;
+  padding-top: 10%;
 }
-
+.Content_vehicles__single_81 {
+  padding-top: 11%;
+}
+.mediaSmall .Content_vehicles__single_81 {
+  padding-top: 7%;
+}
+.mediaMedium .Content_vehicles__single_81 {
+  padding-top: 9%;
+}
+.mediaLargeWidth .Content_vehicles__single_81 {
+  padding-top: 11%;
+}
+.mediaExtraLarge .Content_vehicles__single_81 {
+  padding-top: 9%;
+}
 .Content_vehicles__hidden_f1 {
   opacity: 0;
   transition-delay: 0s;
   pointer-events: none;
 }
-
 .Content_ribbon_90 {
   transition: opacity 0.2s 0.3s ease-in;
 }
-
 .Content_ribbon__hidden_90 {
   opacity: 0;
   transition-delay: 0s;
@@ -1556,13 +2022,17 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   font-size: 16rem;
   font-weight: 400;
   line-height: 1.25;
-  margin-bottom: 20rem;
+  margin-bottom: 18rem;
 }
 .mediaMedium .Footer_description_ac {
   color: #fefeec;
   font-size: 20rem;
   font-weight: 400;
   line-height: 1.2;
+  margin-bottom: 20rem;
+}
+.mediaExtraLarge .Footer_description_ac {
+  margin-bottom: 17rem;
 }
 .Footer_buttonHolder_0e {
   opacity: 0;
@@ -1586,276 +2056,6 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 .mediaMedium .Footer_buttonText_0b {
   font-size: 18rem;
-}
-
-.Box_mt__XS_0c {
-  margin-top: 4rem;
-}
-.Box_mt__SM_eb {
-  margin-top: 8rem;
-}
-.Box_mt__SMp_cf {
-  margin-top: 10rem;
-}
-.Box_mt__MD_25 {
-  margin-top: 16rem;
-}
-.Box_mt__MDp_49 {
-  margin-top: 20rem;
-}
-.Box_mt__LG_e8 {
-  margin-top: 32rem;
-}
-.Box_mt__XL_83 {
-  margin-top: 64rem;
-}
-
-.Box_mr__XS_7c {
-  margin-right: 4rem;
-}
-
-.Box_mr__SM_08 {
-  margin-right: 8rem;
-}
-
-.Box_mr__SMp_06 {
-  margin-right: 10rem;
-}
-
-.Box_mr__MD_4a {
-  margin-right: 16rem;
-}
-
-.Box_mr__MDp_b6 {
-  margin-right: 20rem;
-}
-
-.Box_mr__LG_d0 {
-  margin-right: 32rem;
-}
-
-.Box_mr__XL_db {
-  margin-right: 64rem;
-}
-
-.Box_mb__XS_bb {
-  margin-bottom: 4rem;
-}
-
-.Box_mb__SM_83 {
-  margin-bottom: 8rem;
-}
-
-.Box_mb__SMp_04 {
-  margin-bottom: 10rem;
-}
-
-.Box_mb__MD_ed {
-  margin-bottom: 16rem;
-}
-
-.Box_mb__MDp_65 {
-  margin-bottom: 20rem;
-}
-
-.Box_mb__LG_c8 {
-  margin-bottom: 32rem;
-}
-
-.Box_mb__XL_f8 {
-  margin-bottom: 64rem;
-}
-
-.Box_ml__XS_8a {
-  margin-left: 4rem;
-}
-
-.Box_ml__SM_e6 {
-  margin-left: 8rem;
-}
-
-.Box_ml__SMp_fb {
-  margin-left: 10rem;
-}
-
-.Box_ml__MD_2b {
-  margin-left: 16rem;
-}
-
-.Box_ml__MDp_c7 {
-  margin-left: 20rem;
-}
-
-.Box_ml__LG_39 {
-  margin-left: 32rem;
-}
-
-.Box_ml__XL_4a {
-  margin-left: 64rem;
-}
-
-/* eslint-disable-next-line expectedscss*/
-.Text_paragraph-P10_2c {
-  font-size: 10rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_paragraph-P12_22 {
-  font-size: 12rem;
-  font-weight: 400;
-  line-height: 1.3;
-}
-.Text_paragraph-P14_a7 {
-  font-size: 14rem;
-  font-weight: 400;
-  line-height: 1.3;
-}
-.Text_paragraph-P16_90 {
-  font-size: 16rem;
-  font-weight: 400;
-  line-height: 1.25;
-}
-.Text_paragraph-P18_50 {
-  font-size: 18rem;
-  font-weight: 400;
-  line-height: 1.25;
-}
-.Text_paragraph-P24_33 {
-  font-size: 24rem;
-  font-weight: 400;
-  line-height: 32rem;
-}
-.Text_heading-H14_8b {
-  font-size: 14rem;
-  font-weight: 700;
-  line-height: 1.15;
-}
-.Text_heading-H15_9e {
-  font-size: 15rem;
-  font-weight: 700;
-  line-height: 1.15;
-}
-.Text_heading-H18_b7 {
-  font-size: 18rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H20R_f6 {
-  font-size: 20rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_heading-H22_27 {
-  font-size: 22rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.Text_heading-H24R_be {
-  font-size: 24rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.Text_heading-H24_0c {
-  font-size: 24rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.Text_heading-H28_78 {
-  font-size: 28rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H36_32 {
-  font-size: 36rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H56_c3 {
-  font-size: 56rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H73_8f {
-  font-size: 73rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.Text_heading-H144_a9 {
-  font-size: 144rem;
-  font-weight: 700;
-  line-height: 1;
-}
-.Text_BLACK_REAL_30 {
-  color: #000000;
-}
-.Text_WHITE_REAL_bc {
-  color: #ffffff;
-}
-.Text_WHITE_62 {
-  color: #f2f2f7;
-}
-.Text_WHITE_ORANGE_54 {
-  color: #fefeec;
-}
-.Text_WHITE_SPANISH_df {
-  color: #e9e2bf;
-}
-.Text_PAR_15 {
-  color: #8c8c7e;
-}
-.Text_PAR_SECONDARY_5d {
-  color: #595950;
-}
-.Text_PAR_TERTIARY_c9 {
-  color: #37362e;
-}
-.Text_INFO_RED_30 {
-  color: #ff0000;
-}
-.Text_RED_66 {
-  color: #ff2717;
-}
-.Text_RED_DARK_d8 {
-  color: #b70000;
-}
-.Text_YELLOW_ed {
-  color: #feab34;
-}
-.Text_ORANGE_be {
-  color: #ee7000;
-}
-.Text_CREAM_57 {
-  color: #ffdd99;
-}
-.Text_BROWN_18 {
-  color: #cbac77;
-}
-.Text_GREEN_BRIGHT_3f {
-  color: #80d43a;
-}
-.Text_GREEN_e3 {
-  color: #7ab300;
-}
-.Text_GREEN_DARK_f1 {
-  color: #497212;
-}
-.Text_BLUE_BOOSTER_21 {
-  color: #ccffff;
-}
-.Text_BLUE_TEAMKILLER_ab {
-  color: #09e2ff;
-}
-.Text_CRED_f7 {
-  color: #ced9d9;
-}
-.Text_GOLD_28 {
-  color: #ffc363;
-}
-.Text_BOND_be {
-  color: #c9c9b6;
-}
-.Text_PROM_65 {
-  color: #a29b70;
 }
 
 .FormatGradientText_gradientBox_86 {
@@ -1942,23 +2142,24 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   mask-image: linear-gradient(transparent, #fff);
 }
 .Header_subTitleBox_01 {
-  color: #f2f2f7;
+  color: #ffffff;
   font-size: 36rem;
   font-weight: 700;
   line-height: 1.1;
+  font-size: 45rem;
+  line-height: 1.15;
   position: relative;
 }
-.mediaMedium .Header_subTitleBox_01 {
-  color: #f2f2f7;
-  font-size: 56rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
 .mediaLarge .Header_subTitleBox_01 {
-  color: #f2f2f7;
+  color: #ffffff;
   font-size: 73rem;
   font-weight: 700;
   line-height: 1.1;
+  line-height: 1.15;
+}
+.mediaExtraLarge .Header_subTitleBox_01 {
+  font-size: 100rem;
+  line-height: 1.16;
 }
 .Header_subTitle_e7 {
   justify-content: center;
@@ -2052,43 +2253,69 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
+}
+.App_bgWrapper__side_c0 {
+  background-color: transparent;
+  z-index: 5;
+  pointer-events: none;
+}
+.App_bgWrapper__sideRibbon_44 {
+  z-index: 1;
 }
 .App_background_1f {
   width: 1000%;
   height: 100%;
-  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_background") repeat
-    no-repeat center top / contain;
+  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_background_wall") repeat
+    center top / contain;
 }
 .App_foreground_dd {
   width: 1000%;
-  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_foreground") repeat
-    no-repeat left bottom / contain;
+  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_foreground_platform")
+    repeat 50.8% bottom / contain;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
 }
-.App_vignette_db {
+.App_bg_smoke_19 {
+  width: 1000%;
+  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_foreground_smoke")
+    repeat left bottom / contain;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.App_bg_side_4b {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
+  pointer-events: none;
 }
-.App_vignette__mid_69 {
-  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_vignette_bg_mid") repeat
-    no-repeat center / contain;
-  left: 0;
-}
-.App_vignette__left_28 {
-  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_vignette_bg_left")
+.App_bg_side__left_5e {
+  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_construction_bg_left")
     no-repeat left top / contain;
   left: 0;
 }
-.App_vignette__right_fe {
-  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_vignette_bg_right")
+.App_bg_side__right_e5 {
+  background: url("R.images.gui.maps.icons.seniorityAwards.seniority_awards_construction_bg_right")
     no-repeat right center / contain;
   right: 0;
+}
+.App_vignette_db {
+  width: 100%;
+  background: radial-gradient(
+    49.47% 57.64% at 50% 50%,
+    rgba(0, 0, 0, 0) 64.99%,
+    rgba(0, 0, 0, 0.1) 79.88%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 .App_shadow_03 {
   height: 300rem;
@@ -2145,7 +2372,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   animation-iteration-count: 1;
   position: absolute;
   top: 42rem;
-  z-index: 2;
+  z-index: 5;
 }
 .App_textButton__back_92 {
   left: 5rem;
@@ -2176,7 +2403,7 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   align-items: center;
   position: absolute;
   top: 40rem;
-  z-index: 1;
+  z-index: 5;
 }
 .mediaLarge .App_header_de {
   top: 46rem;
@@ -2195,10 +2422,10 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   width: 100%;
   position: absolute;
   bottom: 50rem;
-  z-index: 3;
+  z-index: 4;
 }
 .mediaMediumHeight .App_footer_72 {
-  bottom: 81rem;
+  bottom: 80rem;
 }
 .mediaExtraLargeHeight .App_footer_72 {
   bottom: 6vh;

@@ -3,30 +3,31 @@ from gui.shared.utils.functions import stripColorTagDescrTags
 from helpers import i18n
 _TEXT_FORMAT = b"{0[0]}{1}{0[1]}\n<font size='1' > </font>\n"
 _TOOLTIP_KIND = (b'header', b'body', b'note', b'attention')
+_HTML_COMPLEX = b'html_templates:lobby/tooltips_complex'
 _BLOCK_TAGS_MAP = {b'HEADER': {b'INFO': (
-                       makeHtmlString(b'html_templates:lobby/tooltips_complex', b'header_info_start'),
-                       makeHtmlString(b'html_templates:lobby/tooltips_complex', b'header_info_end')), 
+                       makeHtmlString(_HTML_COMPLEX, b'header_info_start'),
+                       makeHtmlString(_HTML_COMPLEX, b'header_info_end')), 
                b'WARNING': (
-                          makeHtmlString(b'html_templates:lobby/tooltips_complex', b'header_warning_start'),
-                          makeHtmlString(b'html_templates:lobby/tooltips_complex', b'header_warning_end'))}, 
+                          makeHtmlString(_HTML_COMPLEX, b'header_warning_start'),
+                          makeHtmlString(_HTML_COMPLEX, b'header_warning_end'))}, 
    b'BODY': {b'INFO': (
-                     makeHtmlString(b'html_templates:lobby/tooltips_complex', b'body_info_start'),
-                     makeHtmlString(b'html_templates:lobby/tooltips_complex', b'body_info_end')), 
+                     makeHtmlString(_HTML_COMPLEX, b'body_info_start'),
+                     makeHtmlString(_HTML_COMPLEX, b'body_info_end')), 
              b'WARNING': (
-                        makeHtmlString(b'html_templates:lobby/tooltips_complex', b'body_warning_start'),
-                        makeHtmlString(b'html_templates:lobby/tooltips_complex', b'body_warning_end'))}, 
+                        makeHtmlString(_HTML_COMPLEX, b'body_warning_start'),
+                        makeHtmlString(_HTML_COMPLEX, b'body_warning_end'))}, 
    b'NOTE': {b'INFO': (
-                     makeHtmlString(b'html_templates:lobby/tooltips_complex', b'note_info_start'),
-                     makeHtmlString(b'html_templates:lobby/tooltips_complex', b'note_info_end')), 
+                     makeHtmlString(_HTML_COMPLEX, b'note_info_start'),
+                     makeHtmlString(_HTML_COMPLEX, b'note_info_end')), 
              b'WARNING': [
-                        makeHtmlString(b'html_templates:lobby/tooltips_complex', b'note_warning_start'),
-                        makeHtmlString(b'html_templates:lobby/tooltips_complex', b'note_warning_end')]}, 
+                        makeHtmlString(_HTML_COMPLEX, b'note_warning_start'),
+                        makeHtmlString(_HTML_COMPLEX, b'note_warning_end')]}, 
    b'ATTENTION': {b'INFO': (
-                          makeHtmlString(b'html_templates:lobby/tooltips_complex', b'attention_info_start'),
-                          makeHtmlString(b'html_templates:lobby/tooltips_complex', b'attention_info_end')), 
+                          makeHtmlString(_HTML_COMPLEX, b'attention_info_start'),
+                          makeHtmlString(_HTML_COMPLEX, b'attention_info_end')), 
                   b'WARNING': (
-                             makeHtmlString(b'html_templates:lobby/tooltips_complex', b'attention_warning_start'),
-                             makeHtmlString(b'html_templates:lobby/tooltips_complex', b'attention_warning_end'))}}
+                             makeHtmlString(_HTML_COMPLEX, b'attention_warning_start'),
+                             makeHtmlString(_HTML_COMPLEX, b'attention_warning_end'))}}
 
 def _getTags(blockType, formatType):
     blockTag = _BLOCK_TAGS_MAP[blockType]
@@ -84,3 +85,7 @@ def doFormatToolTip(tooltipID, formatType):
     if tooltipID.startswith(b'#'):
         return _doFormatToolTipFromKey(tooltipID, formatType)
     return _doFormatToolTipFromText(tooltipID, formatType)
+
+
+def doAdvancedCounterText(text):
+    return makeHtmlString(_HTML_COMPLEX, b'advanced_counter', {b'text': text})

@@ -57,9 +57,7 @@ from uilogging.wot_plus.logging_constants import NotificationAdditionalData
 from web.web_client_api import webApiCollection
 from web.web_client_api.sound import HangarSoundWebApi
 from th_async import th_async, th_await
-from gui.shared.event_dispatcher import showVehicleTechTreeView
-import logging
-_logger = logging.getLogger(__name__)
+from gui.shared.event_dispatcher import showVehicleTechTreeView, showSystemMixerVolumeDisabledPage
 if typing.TYPE_CHECKING:
     from typing import Tuple
     from notification.NotificationsModel import NotificationsModel
@@ -1285,21 +1283,6 @@ class _OpenAchievementsScreen(NavigationDisabledActionHandler):
         return
 
 
-class _OpenEventLootBoxesShopHandler(NavigationDisabledActionHandler):
-
-    @classmethod
-    def getNotType(cls):
-        return NOTIFICATION_TYPE.MESSAGE
-
-    @classmethod
-    def getActions(cls):
-        return (b'openEventLootBoxesShop',)
-
-    def doAction(self, model, entityID, action):
-        _logger.error(b'NEEDS IMPLEMENT DO ACTION!!')
-        return
-
-
 class _OpenReferralProgramMainViewHandler(NavigationDisabledActionHandler):
     __referralProgramController = dependency.descriptor(IReferralProgramController)
 
@@ -1676,6 +1659,21 @@ class _BattleMattersTaskReminder(NavigationDisabledActionHandler):
         return
 
 
+class _OpenSystemMixerVolumeDisabledPageHandler(ActionHandler):
+
+    @classmethod
+    def getNotType(cls):
+        return NOTIFICATION_TYPE.MESSAGE
+
+    @classmethod
+    def getActions(cls):
+        return (b'systemMixerVolumeDisabledPage',)
+
+    def handleAction(self, model, entityID, action):
+        showSystemMixerVolumeDisabledPage()
+        return
+
+
 _AVAILABLE_HANDLERS = (
  ShowBattleResultsHandler,
  ShowFortBattleResultsHandler,
@@ -1738,7 +1736,6 @@ _AVAILABLE_HANDLERS = (
  _OpenSeniorityAwards,
  _OpenMissingEventsHandler,
  _OpenReferralProgramMainViewHandler,
- _OpenEventLootBoxesShopHandler,
  _OpenCollectionHandler,
  _OpenCollectionRewardHandler,
  _OpenArmoryYardMain,
@@ -1757,7 +1754,8 @@ _AVAILABLE_HANDLERS = (
  ShowParagonsResearchesViewHandler,
  ParagonsSelectRewardViewHandler,
  _OpenBattleMattersHandler,
- _BattleMattersTaskReminder)
+ _BattleMattersTaskReminder,
+ _OpenSystemMixerVolumeDisabledPageHandler)
 registerNotificationsActionsHandlers(_AVAILABLE_HANDLERS)
 
 class NotificationsActionsHandlers(object):

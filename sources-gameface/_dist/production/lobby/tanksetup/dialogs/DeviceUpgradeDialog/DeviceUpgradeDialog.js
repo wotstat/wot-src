@@ -1093,14 +1093,14 @@
             [f.Large]: `${h().SMALL_HEIGHT} ${h().MEDIUM_HEIGHT} ${h().LARGE_HEIGHT}`,
             [f.ExtraLarge]: `${h().SMALL_HEIGHT} ${h().MEDIUM_HEIGHT} ${h().LARGE_HEIGHT} ${h().EXTRA_LARGE_HEIGHT}`,
           },
-          P = {
+          L = {
             [v.ExtraSmall]: "",
             [v.Small]: h().SMALL,
             [v.Medium]: `${h().SMALL} ${h().MEDIUM}`,
             [v.Large]: `${h().SMALL} ${h().MEDIUM} ${h().LARGE}`,
             [v.ExtraLarge]: `${h().SMALL} ${h().MEDIUM} ${h().LARGE} ${h().EXTRA_LARGE}`,
           },
-          L = (u) => {
+          P = (u) => {
             let e = u.children,
               t = u.className,
               n = (function (u, e) {
@@ -1116,7 +1116,7 @@
               i = a.mediaWidth,
               o = a.mediaHeight,
               s = a.mediaSize;
-            return r().createElement("div", T({ className: g()(t, x[i], S[o], P[s]) }, n), e);
+            return r().createElement("div", T({ className: g()(t, x[i], S[o], L[s]) }, n), e);
           },
           k = ["children"];
         const M = (u) => {
@@ -1130,7 +1130,7 @@
               for (n = 0; n < a.length; n++) ((t = a[n]), e.indexOf(t) >= 0 || (r[t] = u[t]));
               return r;
             })(u, k);
-          return r().createElement(B, null, r().createElement(L, t, e));
+          return r().createElement(B, null, r().createElement(P, t, e));
         };
         var O = t(493),
           N = t.n(O);
@@ -1662,13 +1662,13 @@
               },
               [i, s, E],
             ),
-            P = (0, n.useCallback)(
+            L = (0, n.useCallback)(
               (u) => {
                 c && c(u);
               },
               [c],
             ),
-            L = (0, n.useCallback)(
+            P = (0, n.useCallback)(
               (u) => {
                 i || (A && A(u), v(!1));
               },
@@ -1718,8 +1718,8 @@
                 ref: d,
                 className: O,
                 onMouseEnter: S,
-                onMouseMove: P,
-                onMouseUp: L,
+                onMouseMove: L,
+                onMouseUp: P,
                 onMouseDown: k,
                 onMouseLeave: M,
                 onClick: x,
@@ -1964,8 +1964,8 @@
             );
             var c;
           },
-          Pu = "TextOverflow_base_3b",
-          Lu = ({ content: u, classMix: e }) => {
+          Lu = "TextOverflow_base_3b",
+          Pu = ({ content: u, classMix: e }) => {
             const t = (0, n.useRef)(null),
               a = (0, n.useState)(!0),
               i = a[0],
@@ -1993,7 +1993,7 @@
               r().createElement(
                 Su,
                 { isEnabled: i, body: u },
-                r().createElement("div", { ref: t, className: g()(Pu, e) }, u),
+                r().createElement("div", { ref: t, className: g()(Lu, e) }, u),
               )
             );
           };
@@ -2052,7 +2052,7 @@
                   r().createElement(
                     hu,
                     { size: gu.medium, type: s, disabled: a, onClick: l, isFocused: e },
-                    r().createElement(Lu, { classMix: _, content: i || "" }),
+                    r().createElement(Pu, { classMix: _, content: i || "" }),
                   ),
                 ),
               );
@@ -2536,6 +2536,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2568,13 +2569,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(ie || (ie = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -2713,11 +2708,6 @@
           ie.PremiumPlusUniversal,
           ie.GoldenTicket,
           ie.RewardsSlots,
-          ie.WtStamp,
-          ie.WtTicket,
-          ie.WtMainPrizeDiscount,
-          ie.WtHunter,
-          ie.WtHunterCollection,
           ie.Gold,
           ie.Credits,
           ie.Crystal,
@@ -2940,8 +2930,8 @@
           Te = "Column_column_e1",
           xe = "Column_column__nextLevel_4d",
           Se = "Column_icon_99",
-          Pe = "Column_indicators_90",
-          Le = "Column_indicators__currentLevel_40",
+          Le = "Column_indicators_90",
+          Pe = "Column_indicators__currentLevel_40",
           Re = "Column_indicators__nextLevel_8e",
           ke = "Column_arrow_12",
           Me = "Column_arrow__hidden_07";
@@ -2981,7 +2971,7 @@
                   ),
                   r().createElement(
                     "div",
-                    { className: g()(Pe, u === Oe.CurrentLevel && Le, u === Oe.NextLevel && Re) },
+                    { className: g()(Le, u === Oe.CurrentLevel && Pe, u === Oe.NextLevel && Re) },
                     t.map(({ value: u, id: t }, n) =>
                       r().createElement(fe, {
                         key: t,

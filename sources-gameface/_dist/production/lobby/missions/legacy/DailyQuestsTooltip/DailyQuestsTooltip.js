@@ -91,7 +91,7 @@
           })(B || (B = {})));
         const D = "ProgressBarDeltaSimple_base_6c",
           p = "ProgressBarDeltaSimple_delta_99",
-          C = (0, r.memo)(
+          g = (0, r.memo)(
             ({
               transitionDuration: e,
               transitionDelay: u,
@@ -107,8 +107,8 @@
                 _ = d[0],
                 A = d[1],
                 F = _ === B.In,
-                C = _ === B.End,
-                g = _ === B.Idle,
+                g = _ === B.End,
+                C = _ === B.Idle,
                 b = (0, r.useCallback)(
                   (e) => {
                     (A(e), l && l(e));
@@ -116,13 +116,13 @@
                   [l],
                 );
               ((0, r.useEffect)(() => {
-                if (g && !t) {
+                if (C && !t) {
                   const e = u;
                   return (0, m.F)(() => {
                     b(B.In);
                   }, e);
                 }
-              }, [b, t, g, u]),
+              }, [b, t, C, u]),
                 (0, r.useEffect)(() => {
                   if (F) {
                     const t = e + u;
@@ -153,20 +153,20 @@
                   () => ({ width: `${Math.abs(n - a)}%`, left: `${c ? a : n}%` }),
                   [n, c, a],
                 );
-              return C
+              return g
                 ? null
                 : o().createElement(
                     "div",
                     { className: D, style: f },
                     o().createElement(
                       "div",
-                      { style: g ? v : w, className: p },
+                      { style: C ? v : w, className: p },
                       o().createElement(E, { size: s }),
                     ),
                   );
             },
           ),
-          g = (0, r.memo)(
+          C = (0, r.memo)(
             ({
               to: e,
               size: u,
@@ -197,7 +197,7 @@
                   baseStyles: E,
                 }),
                 t >= 0 &&
-                  o().createElement(C, {
+                  o().createElement(g, {
                     transitionDuration: i.delta.duration,
                     transitionDelay: i.delta.delay,
                     freezed: i.freezed,
@@ -216,7 +216,7 @@
           f = (e) => (e ? { left: 0 } : { right: 0 }),
           h = (e, u) => (e ? { right: 100 - u + "%" } : { left: `${u}%` }),
           y = (e) => ({ transitionDuration: `${e}ms` }),
-          P = (0, r.memo)(
+          R = (0, r.memo)(
             ({
               transitionDuration: e,
               transitionDelay: u,
@@ -233,10 +233,10 @@
                 B = A[0],
                 D = A[1],
                 p = B === F.End,
-                C = B === F.Idle,
-                g = B === F.Grow,
-                P = B === F.Shrink,
-                R = (0, r.useCallback)(
+                g = B === F.Idle,
+                C = B === F.Grow,
+                R = B === F.Shrink,
+                P = (0, r.useCallback)(
                   (e) => {
                     (D(e), c && c(e));
                   },
@@ -245,20 +245,20 @@
                 S = (0, r.useCallback)(
                   (e, u) =>
                     (0, m.F)(() => {
-                      R(e);
+                      P(e);
                     }, u),
-                  [R],
+                  [P],
                 );
               (0, r.useEffect)(() => {
                 if (!t)
-                  return C
+                  return g
                     ? S(F.Grow, u)
-                    : g
+                    : C
                       ? S(F.Shrink, e)
-                      : P
+                      : R
                         ? S(F.End, e)
                         : void (p && l && l());
-              }, [S, t, p, g, C, P, l, u, e]);
+              }, [S, t, p, C, g, R, l, u, e]);
               const T = (0, r.useMemo)(() => Object.assign({ width: "100%" }, y(e), f(_)), [_, e]),
                 O = (0, r.useMemo)(() => Object.assign({ width: "0%" }, y(e), f(_)), [_, e]),
                 k = (0, r.useMemo)(() => Object.assign({ width: "0%" }, h(_, n), y(e)), [n, _, e]),
@@ -270,16 +270,16 @@
               const N = s()(b, d, _ && 0 === i && v);
               return o().createElement(
                 "div",
-                { style: C ? k : I, className: N },
+                { style: g ? k : I, className: N },
                 o().createElement(
                   "div",
-                  { style: P ? O : T, className: w },
+                  { style: R ? O : T, className: w },
                   o().createElement(E, { size: a }),
                 ),
               );
             },
           ),
-          R = (0, r.memo)(
+          P = (0, r.memo)(
             ({
               to: e,
               size: u,
@@ -318,7 +318,7 @@
                   baseStyles: A ? p : D,
                 }),
                 t >= 0 &&
-                  o().createElement(P, {
+                  o().createElement(R, {
                     transitionDuration: i.delta.duration,
                     transitionDelay: i.delta.delay,
                     onChangeAnimationState: B,
@@ -368,9 +368,9 @@
               }, [a, u, t, n.to]);
             switch (n.animationSettings.type) {
               case i.r.Simple:
-                return o().createElement(g, T({}, n, { onEndAnimation: c, isComplete: a }));
+                return o().createElement(C, T({}, n, { onEndAnimation: c, isComplete: a }));
               case i.r.Growing:
-                return o().createElement(R, T({}, n, { onEndAnimation: c, isComplete: a }));
+                return o().createElement(P, T({}, n, { onEndAnimation: c, isComplete: a }));
               default:
                 return null;
             }
@@ -603,7 +603,7 @@
         }
         (t.r(o),
           t.d(o, {
-            addModelObserver: () => R,
+            addModelObserver: () => P,
             addPreloadTexture: () => h,
             children: () => r,
             displayStatus: () => B,
@@ -612,7 +612,7 @@
             extraSize: () => V,
             forceTriggerMouseMove: () => q,
             freezeTextureBeforeResize: () => I,
-            getBrowserTexturePath: () => P,
+            getBrowserTexturePath: () => R,
             getDisplayStatus: () => j,
             getScale: () => N,
             getSize: () => T,
@@ -628,7 +628,7 @@
             setEventHandled: () => G,
             setInputPaddingsRem: () => y,
             setSidePaddingsRem: () => S,
-            whenTutorialReady: () => W,
+            whenTutorialReady: () => Q,
           }));
         const l = a("clientResized"),
           c = { down: a("mousedown"), up: a("mouseup"), move: a("mousemove") };
@@ -729,8 +729,8 @@
             },
           },
           p = ["args"];
-        const C = 2,
-          g = 16,
+        const g = 2,
+          C = 16,
           b = 32,
           v = 64,
           w = (e, u) => {
@@ -771,13 +771,13 @@
           },
           f = {
             close(e) {
-              w("popover" === e ? C : b);
+              w("popover" === e ? g : b);
             },
             minimize() {
               w(v);
             },
             move(e) {
-              w(g, { isMouseEvent: !0, on: e });
+              w(C, { isMouseEvent: !0, on: e });
             },
           };
         function h(e) {
@@ -786,10 +786,10 @@
         function y(e) {
           viewEnv.setHitAreaPaddingsRem(e, e, e, e, 15);
         }
-        function P(e, u, t, n = 1) {
+        function R(e, u, t, n = 1) {
           return viewEnv.getWebBrowserTexturePath(e, u, t, n);
         }
-        function R(e, u, t) {
+        function P(e, u, t) {
           return viewEnv.addDataChangedCallback(e, u, t);
         }
         function S(e) {
@@ -850,7 +850,7 @@
               viewEnv.getExtraSizeRem(e, u);
             },
           },
-          W = Promise.all([
+          Q = Promise.all([
             new Promise((e) => {
               window.isDomBuilt ? e() : D.onDomBuilt(e);
             }),
@@ -1205,8 +1205,8 @@
             } else viewEnv.handleViewEvent({ __Type: t, type: e });
             var n;
           },
-          C = () => p(i.CLOSE),
-          g = (e, u) => {
+          g = () => p(i.CLOSE),
+          C = (e, u) => {
             e.keyCode === _.n.ESCAPE && u();
           };
         var b = t(572);
@@ -1221,7 +1221,7 @@
             DateFormatType: d,
             makeGlobalBoundingBox: B,
             sendMoveEvent: (e) => p(i.MOVE, { isMouseEvent: !0, on: e }),
-            sendCloseEvent: C,
+            sendCloseEvent: g,
             sendClosePopOverEvent: () => p(i.POP_OVER, { on: !1 }),
             sendShowContextMenuEvent: (e, u, t = 0) => {
               p(i.CONTEXT_MENU, {
@@ -1257,14 +1257,14 @@
               });
             },
             addEscapeListener: (e) => {
-              const u = (u) => g(u, e);
+              const u = (u) => C(u, e);
               return (
                 window.addEventListener("keydown", u),
                 () => window.removeEventListener("keydown", u)
               );
             },
             closeOnEsc: (e) => {
-              g(e, C);
+              C(e, g);
             },
             handleViewEvent: p,
             onBindingsReady: D,
@@ -1406,7 +1406,7 @@
             )
           );
         });
-        let m, F, B, D, p, C, g, b, v, w;
+        let m, F, B, D, p, g, C, b, v, w;
         (!(function (e) {
           ((e.Items = "items"),
             (e.Equipment = "equipment"),
@@ -1439,6 +1439,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1471,13 +1472,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(m || (m = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1555,7 +1550,7 @@
           })(p || (p = {})),
           (function (e) {
             e.BATTLE_BOOSTER = "battleBooster";
-          })(C || (C = {})),
+          })(g || (g = {})),
           (function (e) {
             ((e.BATTLE_BOOSTER = "battleBooster"),
               (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
@@ -1570,7 +1565,7 @@
               (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(g || (g = {})),
+          })(C || (C = {})),
           (function (e) {
             ((e.Small = "400x300"), (e.Big = "600x450"));
           })(b || (b = {})),
@@ -1664,8 +1659,8 @@
               B = e.targetId,
               D = void 0 === B ? 0 : B,
               p = e.onShow,
-              C = e.onHide,
-              g = (function (e, u) {
+              g = e.onHide,
+              C = (function (e, u) {
                 if (null == e) return {};
                 var t,
                   n,
@@ -1710,10 +1705,10 @@
                   const e = b.current.timeoutId;
                   (e > 0 && (clearTimeout(e), (b.current.timeoutId = 0)),
                     P(t, A, { on: !1 }, v),
-                    b.current.isVisible && C && C(),
+                    b.current.isVisible && g && g(),
                     (b.current.isVisible = !1));
                 }
-              }, [t, A, v, C]),
+              }, [t, A, v, g]),
               S = (0, s.useCallback)((e) => {
                 b.current.isVisible &&
                   ((b.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
@@ -1767,7 +1762,7 @@
                         (!1 === d && f(), null == a || a(u), null == e || e(u));
                       })(u.props.onMouseDown),
                     },
-                    g,
+                    C,
                   ),
                 )
               : u;
@@ -1942,11 +1937,6 @@
             m.PremiumPlusUniversal,
             m.GoldenTicket,
             m.RewardsSlots,
-            m.WtStamp,
-            m.WtTicket,
-            m.WtMainPrizeDiscount,
-            m.WtHunter,
-            m.WtHunterCollection,
           ],
           z = [m.Gold, m.Credits, m.Crystal, m.FreeXp],
           q = [m.BattlePassPoints],
@@ -1965,7 +1955,7 @@
             (e.s600 = "600"));
         })(Y || (Y = {}));
         const V = ["engravings", "backgrounds"],
-          W = ["engraving", "background"],
+          Q = ["engraving", "background"],
           H = (e, u = B.Small) => {
             const t = e.name,
               n = e.type,
@@ -2025,7 +2015,7 @@
                   if (n) {
                     const s = R.images.gui.maps.icons.dogtags.$dyn(u).$dyn(n),
                       r = s.$dyn(t);
-                    return r ? `${r}` : `${s.$dyn(W[e])}`;
+                    return r ? `${r}` : `${s.$dyn(Q[e])}`;
                   }
                   return (
                     console.error(
@@ -2111,12 +2101,14 @@
                 })(u)}`;
               case m.StyleProgress:
               case m.LbStyleProgress:
-                return Q(r, u, v.ProgressionStyle);
+                return W(r, u, v.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${o}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
           },
-          Q = (e, u, t) => {
+          W = (e, u, t) => {
             const n = R.images.gui.maps.icons.quests.bonuses.$dyn(u),
               s = n.$dyn(e);
             return String(null != s ? s : n.$dyn(t));
@@ -2165,38 +2157,38 @@
                 switch (e) {
                   case p.BATTLE_BOOSTER:
                   case p.BATTLE_BOOSTER_REPLACE:
-                    return C.BATTLE_BOOSTER;
+                    return g.BATTLE_BOOSTER;
                 }
               })(s),
               m = ((e) => {
                 if (void 0 === e) return null;
                 switch (e) {
                   case p.BATTLE_BOOSTER:
-                    return g.BATTLE_BOOSTER;
+                    return C.BATTLE_BOOSTER;
                   case p.BATTLE_BOOSTER_REPLACE:
-                    return g.BATTLE_BOOSTER_REPLACE;
+                    return C.BATTLE_BOOSTER_REPLACE;
                   case p.BUILT_IN_EQUIPMENT:
-                    return g.BUILT_IN_EQUIPMENT;
+                    return C.BUILT_IN_EQUIPMENT;
                   case p.EQUIPMENT_PLUS:
-                    return g.EQUIPMENT_PLUS;
+                    return C.EQUIPMENT_PLUS;
                   case p.EQUIPMENT_TROPHY_BASIC:
-                    return g.EQUIPMENT_TROPHY_BASIC;
+                    return C.EQUIPMENT_TROPHY_BASIC;
                   case p.EQUIPMENT_TROPHY_UPGRADED:
-                    return g.EQUIPMENT_TROPHY_UPGRADED;
+                    return C.EQUIPMENT_TROPHY_UPGRADED;
                   case p.EQUIPMENT_MODERNIZED_UPGRADED_1:
-                    return g.EQUIPMENT_MODERNIZED_UPGRADED_1;
+                    return C.EQUIPMENT_MODERNIZED_UPGRADED_1;
                   case p.EQUIPMENT_MODERNIZED_UPGRADED_2:
-                    return g.EQUIPMENT_MODERNIZED_UPGRADED_2;
+                    return C.EQUIPMENT_MODERNIZED_UPGRADED_2;
                   case p.EQUIPMENT_MODERNIZED_UPGRADED_3:
-                    return g.EQUIPMENT_MODERNIZED_UPGRADED_3;
+                    return C.EQUIPMENT_MODERNIZED_UPGRADED_3;
                   case p.PROGRESSION_STYLE_UPGRADED_1:
-                    return g.PROGRESSION_STYLE_UPGRADED_1;
+                    return C.PROGRESSION_STYLE_UPGRADED_1;
                   case p.PROGRESSION_STYLE_UPGRADED_2:
-                    return g.PROGRESSION_STYLE_UPGRADED_2;
+                    return C.PROGRESSION_STYLE_UPGRADED_2;
                   case p.PROGRESSION_STYLE_UPGRADED_3:
-                    return g.PROGRESSION_STYLE_UPGRADED_3;
+                    return C.PROGRESSION_STYLE_UPGRADED_3;
                   case p.PROGRESSION_STYLE_UPGRADED_4:
-                    return g.PROGRESSION_STYLE_UPGRADED_4;
+                    return C.PROGRESSION_STYLE_UPGRADED_4;
                 }
               })(s),
               F = ((e, u) => {
@@ -2561,8 +2553,8 @@
           return n;
         }
         const pe = (e) => (0 === e ? window : window.subViews.get(e));
-        var Ce = t(946);
-        const ge = ((e, u) => {
+        var ge = t(946);
+        const Ce = ((e, u) => {
             const t = (0, s.createContext)({});
             return [
               function ({ mode: o = "real", options: a, children: i, mocks: l }) {
@@ -2743,7 +2735,7 @@
                   bonusCondition: e.object("bonusCondition"),
                   postBattleCondition: e.object("postBattleCondition"),
                 },
-                t = (0, Ce.Om)(
+                t = (0, ge.Om)(
                   (e) => {
                     return (
                       (u = e),
@@ -2760,14 +2752,14 @@
             },
             ({}) => ({}),
           ),
-          be = ge[0],
-          ve = ge[1],
+          be = Ce[0],
+          ve = Ce[1],
           we = "DailyQuestsTooltipContent_base_ac",
           fe = "DailyQuestsTooltipContent_rewards_wrapper_8f",
           he = "DailyQuestsTooltipContent_info_db",
           ye = "DailyQuestsTooltipContent_icon_32",
-          Pe = "DailyQuestsTooltipContent_status_07",
-          Re = "DailyQuestsTooltipContent_statusIcon_4b",
+          Re = "DailyQuestsTooltipContent_status_07",
+          Pe = "DailyQuestsTooltipContent_statusIcon_4b",
           Se = "DailyQuestsTooltipContent_status_completed_ba",
           Te = "DailyQuestsTooltipContent_separator_11",
           Oe = "DailyQuestsTooltipContent_conditions_operator_c9",
@@ -2786,7 +2778,7 @@
               d = Ae(e.computes.getBonuses(e.bonuses.get())),
               _ = Ae(e.computes.getBonuses(e.subscriptionBonuses.get())),
               A = l()(we),
-              m = l()(Pe, { [Se]: "done" === o }),
+              m = l()(Re, { [Se]: "done" === o }),
               F = (0, s.useMemo)(
                 () =>
                   ((e) =>
@@ -2849,7 +2841,7 @@
               r().createElement(
                 "div",
                 { className: m },
-                r().createElement("div", { className: Re }),
+                r().createElement("div", { className: Pe }),
                 F,
               ),
             );
@@ -2882,8 +2874,8 @@
           B = "BattleConditions_description_inlineOperator_34",
           D = "BattleConditions_progress_c0",
           p = "BattleConditions_progress__completed_1b",
-          C = "BattleConditions_progress_current_fa",
-          g = "BattleConditions_progress_separator_d0",
+          g = "BattleConditions_progress_current_fa",
+          C = "BattleConditions_progress_separator_d0",
           b = "BattleConditions_progress_total_62",
           v = "BattleConditions_progressBarWrapper_85",
           w = "BattleConditions_timingFunction_8f";
@@ -2929,8 +2921,8 @@
                     o().createElement(
                       "div",
                       { className: s()(A, null == l ? void 0 : l.progressInfo), style: a },
-                      o().createElement("div", { className: C }, c),
-                      o().createElement("div", { className: g }, "/"),
+                      o().createElement("div", { className: g }, c),
+                      o().createElement("div", { className: C }, "/"),
                       o().createElement("div", { className: b }, d),
                     ),
                   )
@@ -2940,8 +2932,8 @@
                     o().createElement(
                       "div",
                       { className: s()(A, null == l ? void 0 : l.progressInfo), style: a },
-                      o().createElement("div", { className: C }, c),
-                      o().createElement("div", { className: g }, "/"),
+                      o().createElement("div", { className: g }, c),
+                      o().createElement("div", { className: C }, "/"),
                       o().createElement("div", { className: b }, d),
                     ),
                     o().createElement(
@@ -2975,10 +2967,10 @@
             progressBarTheme: A,
             inlineOperatorStyles: D,
             useAmpersand: p,
-            classNames: C,
+            classNames: g,
           }) => {
             if (e.items.length <= 0 || (void 0 !== n && 0 === n)) return null;
-            const g = Object.assign({}, d, { textAlign: `${a}` });
+            const C = Object.assign({}, d, { textAlign: `${a}` });
             return o().createElement(
               "div",
               { className: t ? m : F },
@@ -3020,7 +3012,7 @@
                         progressInfoStyles: _,
                         inlineOperatorStyles: D,
                         useAmpersand: p,
-                        classNames: C,
+                        classNames: g,
                       })
                     : o().createElement(
                         y,
@@ -3031,14 +3023,14 @@
                           progressInfoStyles: _,
                           progressBarTheme: A,
                           classNames: {
-                            progressBar: null == C ? void 0 : C.progressBar,
-                            progressInfo: null == C ? void 0 : C.progressInfo,
+                            progressBar: null == g ? void 0 : g.progressBar,
+                            progressInfo: null == g ? void 0 : g.progressInfo,
                           },
                         },
                         b.showOperator && r
                           ? o().createElement(
                               "div",
-                              { className: s()(l, null == C ? void 0 : C.text), style: d },
+                              { className: s()(l, null == g ? void 0 : g.text), style: d },
                               v,
                               o().createElement(
                                 "span",
@@ -3048,7 +3040,7 @@
                             )
                           : o().createElement(
                               "div",
-                              { className: s()(l, null == C ? void 0 : C.text), style: g },
+                              { className: s()(l, null == g ? void 0 : g.text), style: C },
                               v,
                             ),
                       ),
@@ -3079,8 +3071,8 @@
           progressBarStyles: B,
           progressBarTheme: D,
           textStyles: p,
-          progressInfoStyles: C,
-          inlineOperatorStyles: g,
+          progressInfoStyles: g,
+          inlineOperatorStyles: C,
           useAmpersand: b,
           className: v,
           classNames: w,
@@ -3100,9 +3092,9 @@
               swapProgress: m,
               progressBarStyles: B,
               progressBarTheme: D,
-              inlineOperatorStyles: g,
+              inlineOperatorStyles: C,
               textStyles: p,
-              progressInfoStyles: C,
+              progressInfoStyles: g,
               useAmpersand: b,
               classNames: w,
             }),

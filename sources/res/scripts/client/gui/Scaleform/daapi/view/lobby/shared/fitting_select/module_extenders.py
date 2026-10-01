@@ -1,5 +1,5 @@
 import typing
-from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, ServerSettingsManager
+from account_helpers.settings_core.ServerSettingsManager import UI_STORAGE_KEYS, ServerSettingsManager, SETTINGS_SECTIONS
 from gui.shared.gui_items import GUI_ITEM_TYPE
 from gui.shared.utils import TURBOSHAFT_ENGINE_POWER, ROCKET_ACCELERATION_ENGINE_POWER
 from gui.shared.gui_items.vehicle_modules import VehicleEngine, VehicleGun
@@ -29,7 +29,7 @@ class ModuleParamsExtender(object):
 
     def updatedHighlightSettings(self, settings):
         if not self.__settingsUpdated:
-            settings.updateUIStorageCounter(self.__settingsKey)
+            settings.updateUIStorageCounter(SETTINGS_SECTIONS.UI_STORAGE, self.__settingsKey)
             self.__settingsUpdated = True
         return
 
@@ -177,4 +177,22 @@ def fittingSelectModuleExtenders():
     return (
      AutoReloadParamsExtender(), DualGunParamsExtender(),
      AutoloadDualGunParamsExtender(), ClipDualGunParamsExtender(),
-     TurboshaftParamsExtender(), RocketAccelerationParamsExtender())
+     TurboshaftParamsExtender(), RocketAccelerationParamsExtender(),
+     ClipGunDualAccuracyParamsExtender())
+
+
+class ClipGunDualAccuracyParamsExtender(ReplaceModuleParamsExtender):
+
+    def __init__(self):
+        super(ClipGunDualAccuracyParamsExtender, self).__init__(UI_STORAGE_KEYS.CLIP_GUN_DUAL_ACCURACY_HIGHLIGHTS_COUNTER, (
+         _ModuleParamExtendInfo(b'reloadTime', b'reloadTimeSecs'),))
+        return
+
+    def check(self, vehicleModule, vehicleDescriptor):
+        if vehicleModule.itemTypeID == GUI_ITEM_TYPE.GUN:
+            gun = typing.cast(VehicleGun, vehicleModule)
+            return gun.isClipGunDualAccuracy(vehicleDescriptor)
+        return False
+
+    def highlightCheck(self, settings):
+        return settings.checkClipGunDualAccuracyHighlights()

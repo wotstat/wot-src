@@ -44,6 +44,10 @@ package net.wg.gui.lobby.hangar.quests
       
       private static const SHOW_CONTENT_DELAY_STEP_INDEX:int = 100;
       
+      private static const HIT_AREA_SPRITE_NAME:String = "hitAreaSprite";
+      
+      private var _hitArea:Sprite = null;
+      
       private var _questsInformers:Vector.<IQuestInformerButton> = null;
       
       private var _itemsTween:Vector.<Tween> = null;
@@ -80,6 +84,14 @@ package net.wg.gui.lobby.hangar.quests
       {
          super();
          mouseEnabled = false;
+         this._hitArea = new Sprite();
+         this._hitArea.name = HIT_AREA_SPRITE_NAME;
+         this._hitArea.graphics.clear();
+         this._hitArea.graphics.beginFill(16711680,0);
+         this._hitArea.graphics.drawRect(0,0,1,1);
+         this._hitArea.graphics.endFill();
+         this._hitArea.visible = false;
+         addChild(this._hitArea);
       }
       
       private static function animFlagContent(param1:IQuestInformerButton, param2:Boolean, param3:int) : void
@@ -102,6 +114,7 @@ package net.wg.gui.lobby.hangar.quests
             App.soundMgr.playControlsSnd(SoundManagerStates.SND_OUT,SoundTypes.HANGAR_FLAG_GROUP,null);
             this.onAnimQuests(this._questsInformers,false);
          }
+         this.updateHitArea();
       }
       
       final public function animExpand() : void
@@ -111,6 +124,7 @@ package net.wg.gui.lobby.hangar.quests
             this._isAnimExpanded = true;
             this.onAnimQuests(this._questsInformers,true);
          }
+         this.updateHitArea();
       }
       
       public function animPosition(param1:int, param2:Object) : void
@@ -133,6 +147,8 @@ package net.wg.gui.lobby.hangar.quests
       final public function dispose() : void
       {
          this._disposed = true;
+         removeChild(this._hitArea);
+         this._hitArea = null;
          this.clearQuests();
          this.clearIcon();
          App.utils.data.cleanupDynamicObject(this._questsMap);
@@ -230,6 +246,21 @@ package net.wg.gui.lobby.hangar.quests
          else
          {
             this.updateQuests(param1,param2);
+         }
+      }
+      
+      private function updateHitArea() : void
+      {
+         if(Boolean(this._isAnimExpanded) && Boolean(this._questsInformers) && this._questsInformers.length > 0)
+         {
+            this._hitArea.width = this._questsInformers.length * (HEADER_QUESTS_CONSTANTS.QUEST_BUTTON_VISUAL_WIDTH + HEADER_QUESTS_CONSTANTS.QUESTS_BUTTON_GAP);
+            this._hitArea.height = HEADER_QUESTS_CONSTANTS.QUEST_BUTTON_VISUAL_HEIGHT;
+            this._hitArea.x = this._isRightSide ? 0 : -(this._hitArea.width + HEADER_QUESTS_CONSTANTS.QUESTS_BUTTON_GAP);
+            this._hitArea.visible = true;
+         }
+         else
+         {
+            this._hitArea.visible = false;
          }
       }
       

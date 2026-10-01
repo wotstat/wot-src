@@ -56,7 +56,7 @@ if IS_CELLAPP or IS_CLIENT or IS_BOT or IS_UE_EDITOR:
     from ModelHitTester import HitTesterManager, BoundingBoxManager, createBBoxManagerForModels
 if IS_CELLAPP or IS_CLIENT or IS_UE_EDITOR or IS_WEB or IS_PROCESS_REPLAY:
     import material_kinds
-    from material_kinds import EFFECT_MATERIALS
+    from material_kinds import EFFECT_MATERIALS, LIQUID_MATERIALS
 if IS_CLIENT or IS_UE_EDITOR:
     from helpers import i18n
     from helpers import EffectsList
@@ -193,8 +193,7 @@ VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES = (
  b'centerRotationFwdSpeedFactor',
  b'moduleDamageFactor',
  b'engineAndFuelTanksDamageFactor',
- b'receivedDamageFactor',
- b'proofHealth')
+ b'receivedDamageFactor')
 VEHICLE_MISC_ATTRIBUTE_FACTOR_INDICES = dict((value, index) for index, value in enumerate(VEHICLE_MISC_ATTRIBUTE_FACTOR_NAMES))
 
 class EnhancementItem(object):
@@ -353,14 +352,14 @@ def vehicleAttributeFactors():
        b'gun/chargeTimeBonus': 0.0, 
        b'gun/reloadLockTimeBonus': 0.0, 
        b'gun/loadShellIntoDualGunBonus': 0.0, 
-       b'proofHealth': 0, 
        b'ammoBayHealthFactor': 1.0, 
        b'fuelTankHealthFactor': 1.0, 
        b'engineHealthFactor': 1.0, 
        b'chassisHealthFactor': 1.0, 
        b'trackRammingDamageFactor': 1.0, 
        b'penaltyReloadTime': 0.0, 
-       b'vehicle/canBeDamaged': True}
+       b'vehicle/canBeDamaged': True, 
+       b'vehicle/canBeRammed': True}
     for ten in TANKMAN_EXTRA_NAMES:
         factors[ten + CHANCE_TO_HIT_SUFFIX_FACTOR] = 0.0
 
@@ -1219,8 +1218,12 @@ class VehicleDescriptor(object):
                         for materialName in EFFECT_MATERIALS:
                             prereqs.update(effectsDescr[materialName + b'Hit'][1].prerequisites())
 
-                        prereqs.update(effectsDescr[b'shallowWaterHit'][1].prerequisites())
-                        prereqs.update(effectsDescr[b'deepWaterHit'][1].prerequisites())
+                        for materialName in LIQUID_MATERIALS:
+                            shallowEffName = b'shallow' + materialName.title() + b'Hit'
+                            deepEffName = b'deep' + materialName.title() + b'Hit'
+                            prereqs.update(effectsDescr[shallowEffName][1].prerequisites())
+                            prereqs.update(effectsDescr[deepEffName][1].prerequisites())
+
                         prereqs.update(effectsDescr[b'armorResisted'][1].prerequisites())
                         prereqs.update(effectsDescr[b'armorBasicRicochet'][1].prerequisites())
                         prereqs.update(effectsDescr[b'armorRicochet'][1].prerequisites())
@@ -1295,8 +1298,12 @@ class VehicleDescriptor(object):
                             for materialName in EFFECT_MATERIALS:
                                 readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[materialName + b'Hit'][1].prerequisites()))
 
-                            readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[b'shallowWaterHit'][1].prerequisites()))
-                            readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[b'deepWaterHit'][1].prerequisites()))
+                            for materialName in LIQUID_MATERIALS:
+                                shallowEffName = b'shallow' + materialName.title() + b'Hit'
+                                deepEffName = b'deep' + materialName.title() + b'Hit'
+                                readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[shallowEffName][1].prerequisites()))
+                                readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[deepEffName][1].prerequisites()))
+
                             readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[b'armorResisted'][1].prerequisites()))
                             readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[b'armorBasicRicochet'][1].prerequisites()))
                             readyPrereqs.update(_extractNeededPrereqs(prereqs, effectsDescr[b'armorRicochet'][1].prerequisites()))
@@ -1641,8 +1648,7 @@ class VehicleDescriptor(object):
            b'deviceDamageFactor': 1.0, 
            b'armorDamageFactor': 1.0, 
            b'gun/temperature/heatingFactor': 1.0, 
-           b'trackRammingDamageFactor': 1.0, 
-           b'proofHealth': 0}
+           b'trackRammingDamageFactor': 1.0}
         if IS_CELLAPP or IS_CLIENT or IS_UE_EDITOR or IS_WEB or IS_BOT or onAnyApp:
             trackCenterOffset = chassis.topRightCarryingPoint[0]
             self.physics = {b'weight': weight, 
@@ -2031,7 +2037,6 @@ class VehicleType(object):
             self.extrasDict = copyMethod(commonConfig[b'extrasDict'])
             self.devices = copyMethod(commonConfig[b'_devices'])
             self.tankmen = _selectCrewExtras(self.crewRoles, self.extrasDict)
-            self.armorMaxHealth = _xml.readIntOrNone(xmlCtx, section, b'armorMaxHealth')
         if IS_CLIENT or IS_WEB or IS_BOT:
             self.i18nInfo = basicInfo.i18n
         if IS_CLIENT or IS_UE_EDITOR:
@@ -2956,7 +2961,6 @@ class VehicleList(object):
             if item.level == VEHICLE_LEVEL_EARN_CRYSTAL and b'earn_crystals' not in tags and len(set(tags) & MODES_WITHOUT_CRYSTAL_EARNINGS) == 0:
                 _xml.raiseWrongXml(ctx, b'tags', b'vehicle %s with level %s does not have tag earn_crystals' % (vname, item.level))
             item.tags = tags
-            item.rawTags = _xml.readString(ctx, vsection, b'tags').split()
             res[innationID] = item
             if IS_CLIENT or IS_WEB or IS_BOT:
                 item.i18n = shared_readers.readUserText(vsection)
@@ -3086,16 +3090,6 @@ def isVehicleTypeCompactDescr(vehDescr):
     if cdType is int or cdType is long:
         return True
     return False
-
-
-def getEquipmentByName(name):
-    eqID = g_cache.equipmentIDs()[name]
-    return g_cache.equipments()[eqID]
-
-
-def getOptionalDeviceByName(name):
-    optDevID = g_cache.optionalDeviceIDs()[name]
-    return g_cache.optionalDevices()[optDevID]
 
 
 def getVehicleType(compactDescr):
@@ -5433,9 +5427,8 @@ def _readShell(xmlCtx, section, name, nationID, shellTypeID, icons):
     shell.isTracer = section.readBool(b'isTracer', False)
     if shell.isTracer:
         shell.isForceTracer = section.readBool(b'isForceTracer', False)
-    shell.skipSelfDamage = section.readBool(b'skipSelfDamage', False)
     if IS_CLIENT or IS_WEB:
-        shell.i18n = shared_components.I18nComponent(userStringKey=section.readString(b'userString'), descriptionKey=section.readString(b'description'), shortDescriptionSpecialKey=section.readString(b'shortDescriptionSpecial'), longDescriptionSpecialKey=section.readString(b'longDescriptionSpecial'))
+        shell.i18n = shared_components.I18nComponent(section.readString(b'userString'), section.readString(b'description'))
         v = _xml.readNonEmptyString(xmlCtx, section, b'icon')
         if icons.get(v) is None:
             _xml.raiseWrongXml(xmlCtx, b'icon', b"unknown icon '%s'" % v)
@@ -5489,7 +5482,7 @@ def _readShell(xmlCtx, section, name, nationID, shellTypeID, icons):
             shellType.explosionRadius = cachedFloat(section.readFloat(b'explosionRadius'))
             if shellType.explosionRadius <= 0.0:
                 shellType.explosionRadius = cachedFloat(shell.caliber * shell.caliber / 5555.0)
-            explosionSettings = (b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor', b'explosionDisableDamageFalloff')
+            explosionSettings = (b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor')
             for f in explosionSettings:
                 factor = section.readFloat(f)
                 if factor <= 0:
@@ -6554,18 +6547,22 @@ def _readShotEffects(xmlCtx, section):
                 else:
                     res[subEffName] = res[defSubEffName]
 
-            if section.has_key(b'deepWaterHit'):
-                res[b'deepWaterHit'] = __readEffectsTimeLine(xmlCtx, _xml.getSubsection(xmlCtx, section, b'deepWaterHit'))
-                hitPrefabs[b'deepWaterHit'] = _xml.readStringOrEmpty(xmlCtx, section, b'deepWaterHit/prefab')
-            if section.has_key(b'shallowWaterHit'):
-                res[b'shallowWaterHit'] = __readEffectsTimeLine(xmlCtx, _xml.getSubsection(xmlCtx, section, b'shallowWaterHit'))
-                hitPrefabs[b'shallowWaterHit'] = _xml.readStringOrEmpty(xmlCtx, section, b'shallowWaterHit/prefab')
-            if not res.has_key(b'deepWaterHit'):
-                v = res.get(b'shallowWaterHit')
-                res[b'deepWaterHit'] = v if v else res[defSubEffName]
-            if not res.has_key(b'shallowWaterHit'):
-                res[b'shallowWaterHit'] = res[b'deepWaterHit']
-            res[b'hitPrefabs'] = hitPrefabs
+            for subEffName in LIQUID_MATERIALS:
+                shallowEffName = b'shallow' + subEffName.title() + b'Hit'
+                deepEffName = b'deep' + subEffName.title() + b'Hit'
+                if section.has_key(deepEffName):
+                    res[deepEffName] = __readEffectsTimeLine(xmlCtx, _xml.getSubsection(xmlCtx, section, deepEffName))
+                    hitPrefabs[deepEffName] = _xml.readStringOrEmpty(xmlCtx, section, deepEffName + b'/prefab')
+                if section.has_key(shallowEffName):
+                    res[shallowEffName] = __readEffectsTimeLine(xmlCtx, _xml.getSubsection(xmlCtx, section, shallowEffName))
+                    hitPrefabs[shallowEffName] = _xml.readStringOrEmpty(xmlCtx, section, shallowEffName + b'/prefab')
+                if not res.has_key(deepEffName):
+                    v = res.get(shallowEffName)
+                    res[deepEffName] = v if v else res[defSubEffName]
+                if not res.has_key(shallowEffName):
+                    res[shallowEffName] = res[deepEffName]
+                res[b'hitPrefabs'] = hitPrefabs
+
     return res
 
 
@@ -6632,7 +6629,6 @@ def _readCommonConfig(xmlCtx, section):
        b'explosionDamageFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDamageFactor')), 
        b'explosionDamageAbsorptionFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDamageAbsorptionFactor')), 
        b'explosionEdgeDamageFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionEdgeDamageFactor')), 
-       b'explosionDisableDamageFalloff': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/explosionDisableDamageFalloff')), 
        b'shellFragmentsDamageAbsorptionFactor': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/shellFragmentsDamageAbsorptionFactor')), 
        b'allowMortarShooting': (_xml.readBool(xmlCtx, section, b'miscParams/allowMortarShooting')), 
        b'radarDefaults': {b'radarRadius': (_xml.readNonNegativeFloat(xmlCtx, section, b'miscParams/radarDefaults/radarRadius')), 
@@ -7299,7 +7295,7 @@ def _readTurretDetachmentEffects(xmlCtx, section, subsectionName, defaultEffects
 
 if IS_CLIENT or IS_UE_EDITOR:
     _vehicleEffectKindNames = tuple([
-     436, 437, 438, 439, 440, 441, 442, 443] + [b'%sCollisionLight' % name for name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % name for name in EFFECT_MATERIALS] + [b'explosionCandle%d' % i for i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
+     433, 434, 435, 436, 437, 438, 439, 440] + [b'%sCollisionLight' % name for name in EFFECT_MATERIALS] + [b'%sCollisionHeavy' % name for name in EFFECT_MATERIALS] + [b'explosionCandle%d' % i for i in xrange(1, 5)] + [b'fullDestruction'] + [b'dynamicCollision'])
     _damagedStateGroupEffectKindNames = (
      b'ammoBayExplosion',
      b'ammoBayBurnOff',
@@ -7519,6 +7515,7 @@ def _readImpactParams(xmlCtx, section, paramName):
             params.damageAbsorptionType = DamageAbsorptionLabelToType.get(label)
         params.useEffectiveArmor = subsection.has_key(b'useEffectiveArmor')
         params.isActive = params.radius and (params.damages[0] or params.damages[1])
+        params.useFactorAfterCalcDamage = subsection.has_key(b'useFactorAfterCalcDamage')
         return params
 
 

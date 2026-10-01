@@ -70,6 +70,13 @@
 			<undamaged>vehicles/american/A184_HTPC/normal/lod0/Hull.model</undamaged>
 			<destroyed>vehicles/american/A184_HTPC/crash/lod0/Hull.model</destroyed>
 			<exploded>vehicles/american/A184_HTPC/crash/lod0/Hull.model</exploded>
+			<sets>
+				<A184_HTPC_3Dst_01>
+					<undamaged>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/normal/lod0/Hull.model</undamaged>
+					<destroyed>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Hull.model</destroyed>
+					<exploded>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Hull.model</exploded>
+				</A184_HTPC_3Dst_01>
+			</sets>
 		</models>
 		<swinging>
 			<lodDist>FAR</lodDist>
@@ -636,6 +643,33 @@
 				<showOn>4368</showOn>
 				<clipAngle>0.679805994</clipAngle>
 			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15045</slotId>
+				<tags>formfactor_square</tags>
+				<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+				<position>0.00367300003 1.13242602 2.8678329</position>
+				<rotation>0.463028014 0.0260719992 3.11982393</rotation>
+				<scale>0.40583 0.238424 0.405829</scale>
+				<showOn>16</showOn>
+			</slot>
+			<slot>
+				<slotType>projectionDecal</slotType>
+				<slotId>15046</slotId>
+				<tags>formfactor_square</tags>
+				<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+				<position>0.531646013 1.32386804 2.13047409</position>
+				<rotation>0.041904 -0.017164 3.1221</rotation>
+				<scale>0.582305014 0.342103004 0.582304001</scale>
+				<showOn>16</showOn>
+				<verticalMirror>true</verticalMirror>
+			</slot>
+			<slot>
+				<slotType>attachment</slotType>
+				<slotId>18000</slotId>
+				<position>0 0 0</position>
+				<rotation>0 0 0</rotation>
+			</slot>
 		</customizationSlots>
 		<customization>
 			<customizableVehicleAreas>
@@ -677,6 +711,13 @@
 				<undamaged>vehicles/american/A184_HTPC/normal/lod0/Chassis.model</undamaged>
 				<destroyed>vehicles/american/A184_HTPC/crash/lod0/Chassis.model</destroyed>
 				<exploded>vehicles/american/A184_HTPC/crash/lod0/Chassis.model</exploded>
+				<sets>
+					<A184_HTPC_3Dst_01>
+						<undamaged>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/normal/lod0/Chassis.model</undamaged>
+						<destroyed>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Chassis.model</destroyed>
+						<exploded>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Chassis.model</exploded>
+					</A184_HTPC_3Dst_01>
+				</sets>
 			</models>
 			<traces>
 				<lodDist>MEDIUM</lodDist>
@@ -1768,6 +1809,13 @@
 						<undamaged>vehicles/american/A184_HTPC/normal/lod0/Gun_01.model</undamaged>
 						<destroyed>vehicles/american/A184_HTPC/crash/lod0/Gun_01.model</destroyed>
 						<exploded>vehicles/american/A184_HTPC/crash/lod0/Gun_01.model</exploded>
+						<sets>
+							<A184_HTPC_3Dst_01>
+								<undamaged>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/normal/lod0/Gun_01.model</undamaged>
+								<destroyed>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Gun_01.model</destroyed>
+								<exploded>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Gun_01.model</exploded>
+							</A184_HTPC_3Dst_01>
+						</sets>
 					</models>
 					<hitTester>
 						<collisionModelServer>vehicles/american/A184_HTPC/collision/Gun_01.model</collisionModelServer>
@@ -1785,6 +1833,13 @@
 				<undamaged>vehicles/american/A184_HTPC/normal/lod0/Turret_01.model</undamaged>
 				<destroyed>vehicles/american/A184_HTPC/crash/lod0/Turret_01.model</destroyed>
 				<exploded>vehicles/american/A184_HTPC/crash/lod0/Turret_01.model</exploded>
+				<sets>
+					<A184_HTPC_3Dst_01>
+						<undamaged>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/normal/lod0/Turret_01.model</undamaged>
+						<destroyed>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Turret_01.model</destroyed>
+						<exploded>vehicles/american/A184_HTPC/_skins/A184_HTPC_3Dst_01/crash/lod0/Turret_01.model</exploded>
+					</A184_HTPC_3Dst_01>
+				</sets>
 			</models>
 			<hitTester>
 				<collisionModelServer>vehicles/american/A184_HTPC/collision/Turret_01.model</collisionModelServer>
@@ -2360,6 +2415,47 @@
 					<showOn>256</showOn>
 					<clipAngle>1.35849</clipAngle>
 					<anchorShift>-1.29999999e-05</anchorShift>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35047</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+					<position>0.00025099999 2.48206902 0.857537985</position>
+					<rotation>0.265688986 -0.00856900029 3.127213</rotation>
+					<scale>0.684653997 0.684653997 0.684653997</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35048</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+					<position>-0.919031978 2.35020304 0.289665997</position>
+					<rotation>0.724442005 -1.54908299 -3.07154298</rotation>
+					<scale>0.518769026 0.518769026 0.518769026</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35049</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+					<position>0.839373 2.32899 0.290187</position>
+					<rotation>0.724442005 1.54908299 -3.07154298</rotation>
+					<scale>0.495956004 0.49595499 0.495956004</scale>
+					<showOn>256</showOn>
+				</slot>
+				<slot>
+					<slotType>projectionDecal</slotType>
+					<slotId>35050</slotId>
+					<tags>formfactor_square</tags>
+					<compatibleModels>A184_HTPC_3Dst_01</compatibleModels>
+					<position>0.288502 2.555006 -1.36836</position>
+					<rotation>3.138081 -0.013915 -0.01419</rotation>
+					<scale>0.570685983 0.570685983 0.570685983</scale>
+					<showOn>256</showOn>
+					<verticalMirror>true</verticalMirror>
 				</slot>
 			</customizationSlots>
 			<customization>

@@ -1206,7 +1206,7 @@
           );
         };
         var z = u(364);
-        const W = [
+        const U = [
           "children",
           "contentId",
           "args",
@@ -1222,7 +1222,7 @@
           "onShow",
           "onHide",
         ];
-        function U(e) {
+        function W(e) {
           return Object.entries(e || {}).map(([e, t]) => {
             const u = { __Type: "GFValueProxy", name: e };
             switch (typeof t) {
@@ -1282,7 +1282,7 @@
                   a = Object.keys(e);
                 for (n = 0; n < a.length; n++) ((u = a[n]), t.indexOf(u) >= 0 || (r[u] = e[u]));
                 return r;
-              })(e, W);
+              })(e, U);
             const F = (0, a.useRef)({
                 timeoutId: 0,
                 isVisible: !1,
@@ -1292,7 +1292,7 @@
               v = (0, a.useMemo)(() => h || G().resId, [h]),
               b = (0, a.useCallback)(() => {
                 (F.current.isVisible && F.current.timeoutId) ||
-                  (V(u, E, { isMouseEvent: !0, on: !0, arguments: U(n) }, v),
+                  (V(u, E, { isMouseEvent: !0, on: !0, arguments: W(n) }, v),
                   C && C(),
                   (F.current.isVisible = !0));
               }, [u, E, n, v, C]),
@@ -1802,8 +1802,8 @@
             : e;
         var Ge = u(946);
         const ze = (e) => (2 & e) > 0,
-          We = (e) => (4 & e) > 0,
-          Ue = (e) => (256 & e) > 0,
+          Ue = (e) => (4 & e) > 0,
+          We = (e) => (256 & e) > 0,
           Ve = (e) => 0 == (256 & e),
           $e = (e) => (1073741824 & e) > 0,
           je = (e) => (536870912 & e) > 0,
@@ -2057,7 +2057,7 @@
                 ),
                 d = (0, Ge.Om)(() => Me(n(), (e) => $e(e.state)), { equals: re }),
                 _ = (0, Ge.Om)(() => Oe(n(), (e) => e.blueprintCanConvert), { equals: re }),
-                m = (0, Ge.Om)(() => Me(n(), (e) => Ue(e.state)), { equals: re }),
+                m = (0, Ge.Om)(() => Me(n(), (e) => We(e.state)), { equals: re }),
                 E = (0, Ge.Om)((e) => Me(n(), (t) => t.row === e && Ve(t.state)), { equals: re }),
                 A = (0, Ge.Om)(() => Oe(n(), (e) => 1 === e.column), { equals: re }),
                 g = (0, Ge.Om)((e) => Me(t.nodesRelation.get(), (t) => t.nodeOutId === e), {
@@ -2416,7 +2416,7 @@
             ml__LG: "Box_ml__LG_39",
             ml__XL: "Box_ml__XL_4a",
           },
-          Wt = [
+          Ut = [
             "className",
             "width",
             "height",
@@ -2444,9 +2444,9 @@
             "style",
             "children",
           ];
-        function Ut() {
+        function Wt() {
           return (
-            (Ut =
+            (Wt =
               Object.assign ||
               function (e) {
                 for (var t = 1; t < arguments.length; t++) {
@@ -2455,7 +2455,7 @@
                 }
                 return e;
               }),
-            Ut.apply(this, arguments)
+            Wt.apply(this, arguments)
           );
         }
         Object.keys(xt());
@@ -2524,7 +2524,7 @@
                   a = Object.keys(e);
                 for (n = 0; n < a.length; n++) ((u = a[n]), t.indexOf(u) >= 0 || (r[u] = e[u]));
                 return r;
-              })(e, Wt);
+              })(e, Ut);
             const G = (0, a.useMemo)(() => {
                 const e = { mt: i, mr: c, mb: _, ml: E },
                   t = ((e) =>
@@ -2553,10 +2553,10 @@
                 };
               }, [u, n, i, c, _, E, M, I, T, h, R, y, P]),
               z = G.computedStyle,
-              W = G.computedClassNames;
+              U = G.computedClassNames;
             return o().createElement(
               "div",
-              Ut({ className: F()(zt.base, ...W, t), style: z }, H),
+              Wt({ className: F()(zt.base, ...U, t), style: z }, H),
               O,
             );
           });
@@ -3002,11 +3002,11 @@
           Hu = "BlueprintSwitcher_icon_5d",
           Gu = "BlueprintSwitcher_sequence_d4",
           zu = "BlueprintSwitcher_glow_f8",
-          Wu = "BlueprintSwitcher_glow__toBlueprintMode_7c";
-        var Uu;
+          Uu = "BlueprintSwitcher_glow__toBlueprintMode_7c";
+        var Wu;
         !(function (e) {
           ((e.PLAY = "play"), (e.STOP = "stop"));
-        })(Uu || (Uu = {}));
+        })(Wu || (Wu = {}));
         const Vu = R.strings.techtree.vehicle_tree.header,
           $u = "R.images.gui.maps.icons.techtree.researchTree.blueprintsHeader.switcher",
           ju = (0, a.memo)(({ isBlueprintMode: e, isBlueprintModeEnabled: t, onClick: u }) => {
@@ -3055,7 +3055,7 @@
             return o().createElement(
               "div",
               { className: F()(Iu, !t && Mu) },
-              o().createElement("div", { className: F()(zu, _ && Wu) }),
+              o().createElement("div", { className: F()(zu, _ && Uu) }),
               o().createElement("div", { className: Ou, id: "blueprint-switcher" }),
               o().createElement(
                 "div",
@@ -3070,7 +3070,7 @@
                   { body: D },
                   o().createElement(Nu, {
                     frameTime: 15,
-                    state: l ? Uu.PLAY : Uu.STOP,
+                    state: l ? Wu.PLAY : Wu.STOP,
                     width: p.width,
                     height: p.height,
                     frameCount: p.frameCount,
@@ -3214,8 +3214,8 @@
           Hn = "HorizontalVerticalConnector_base__dashed_02",
           Gn = "HorizontalVerticalConnector_base__thick_90",
           zn = "HorizontalVerticalConnector_base__inBattle_9e",
-          Wn = "HorizontalVerticalConnector_base__blueprint_b8",
-          Un = "HorizontalVerticalConnector_base__earlyAccess_cd",
+          Un = "HorizontalVerticalConnector_base__blueprint_b8",
+          Wn = "HorizontalVerticalConnector_base__earlyAccess_cd",
           Vn = "HorizontalVerticalConnector_base__paragonsReadyToReset_64",
           $n = "HorizontalVerticalConnector_part__vertical_fa",
           jn = "HorizontalVerticalConnector_part__start_94",
@@ -3236,7 +3236,7 @@
               return o().createElement(
                 "div",
                 {
-                  className: F()(kn, u && Gn, n && Hn, r && Wn, a && Un, s && zn, i && Vn),
+                  className: F()(kn, u && Gn, n && Hn, r && Un, a && Wn, s && zn, i && Vn),
                   style: { "--size": t },
                 },
                 o().createElement(
@@ -3683,7 +3683,7 @@
           Hr = "ActionButton_actionButtonHover_ae",
           Gr = "ActionButton_actionButtonHover__visible_7d",
           zr = "ActionButton_recoveryText_c1",
-          Wr = (0, we.Pi)(
+          Ur = (0, we.Pi)(
             ({
               vehicleCD: e,
               buyPrice: t,
@@ -3751,7 +3751,7 @@
               );
             },
           ),
-          Ur = (0, a.memo)(Wr),
+          Wr = (0, a.memo)(Ur),
           Vr = "AddBluePrintButton_base_2b",
           $r = "AddBluePrintButton_hovered_5f",
           jr = "AddBluePrintButton_hovered__visible_cb",
@@ -3988,8 +3988,8 @@
                 H = T.getLastParagonsResetNodeId,
                 G = T.getParagonsUnlockedBranchToShow,
                 z = T.getFirstParagonsUnLockedNodeId,
-                W = T.getLastParagonsUnLockedNodeId,
-                U = T.getIsUnlockedNode,
+                U = T.getLastParagonsUnLockedNodeId,
+                W = T.getIsUnlockedNode,
                 V = D.paragonsHoveredNodes.get(),
                 $ = D.paragonsResetAnimationStatus.get(),
                 j = D.paragonsLockedAnimationStatus.get(),
@@ -4004,10 +4004,10 @@
                 te = N(),
                 ue = M(),
                 ne = G(),
-                re = Ue(t),
+                re = We(t),
                 ae = ((e) => (128 & e) > 0)(t),
                 oe = ((e) => (1 & e) > 0)(t),
-                se = We(t),
+                se = Ue(t),
                 ie = ((e) => (32 & e) > 0)(t),
                 le = ze(t),
                 de = ((e) => (16 & e) > 0)(t),
@@ -4019,7 +4019,7 @@
                 pe = ((e) => (262144 & e) > 0)(t),
                 he = Xe(u),
                 Ce = Boolean(null == ne ? void 0 : ne.unlockedVehicleCDs.includes(n)),
-                De = U(n),
+                De = W(n),
                 Be = Boolean(ue.find((e) => e.id === n)),
                 Fe = X.includes(n),
                 ve = V.includes(n),
@@ -4095,7 +4095,7 @@
                 nt = O(),
                 rt = H(),
                 at = z(),
-                ot = W(),
+                ot = U(),
                 st = (0, a.useMemo)(
                   () => (Ae ? ee.findIndex((e) => e.id === n) * la : 0),
                   [ee, Ae, n],
@@ -4161,7 +4161,7 @@
                       onMouseEnter: Ze,
                       onMouseLeave: Qe,
                     },
-                    o().createElement(Ur, {
+                    o().createElement(Wr, {
                       vehicleCD: r.vehicleCD,
                       buyPrice: r.buyPrice,
                       explorePrice: r.unlockPrice,
@@ -4490,8 +4490,8 @@
                                 return (
                                   l &&
                                     ((_ =
-                                      We(i.state) &&
-                                      (We(l.state) || ze(l.state)) &&
+                                      Ue(i.state) &&
+                                      (Ue(l.state) || ze(l.state)) &&
                                       ($e(i.state) || !$e(l.state))),
                                     (E = $e(i.state) && $e(l.state) && r),
                                     (m =
@@ -4610,6 +4610,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -4642,13 +4643,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(va || (va = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -4787,11 +4782,6 @@
           va.PremiumPlusUniversal,
           va.GoldenTicket,
           va.RewardsSlots,
-          va.WtStamp,
-          va.WtTicket,
-          va.WtMainPrizeDiscount,
-          va.WtHunter,
-          va.WtHunterCollection,
           va.Gold,
           va.Credits,
           va.Crystal,
@@ -4882,7 +4872,7 @@
               o().createElement(Oa, { text: e, timeStamp: t, mixClass: Ga }),
             ),
           ),
-          Wa = {
+          Ua = {
             base: "ProgressBar_base_45",
             base__medium: "ProgressBar_base__medium_62",
             base__small: "ProgressBar_base__small_df",
@@ -4891,15 +4881,15 @@
             background__small: "ProgressBar_background__small_46",
             lineWrapper: "ProgressBar_lineWrapper_6a",
           };
-        let Ua, Va;
+        let Wa, Va;
         (!(function (e) {
           ((e.Small = "small"), (e.Medium = "medium"), (e.Big = "big"), (e.Default = "big"));
-        })(Ua || (Ua = {})),
+        })(Wa || (Wa = {})),
           (function (e) {
             ((e[(e.Simple = 0)] = "Simple"), (e[(e.Growing = 1)] = "Growing"));
           })(Va || (Va = {})));
-        const $a = ({ size: e = Ua.Default, classMix: t }) =>
-            o().createElement("div", { className: F()(Wa.background, Wa[`background__${e}`], t) }),
+        const $a = ({ size: e = Wa.Default, classMix: t }) =>
+            o().createElement("div", { className: F()(Ua.background, Ua[`background__${e}`], t) }),
           ja = {
             base: "ProgressBarBlink_base_24",
             base__medium: "ProgressBarBlink_base__medium_ec",
@@ -5406,7 +5396,7 @@
             ({
               maxValue: e = 100,
               theme: t = bo,
-              size: u = Ua.Default,
+              size: u = Wa.Default,
               animationSettings: n = fo,
               disabled: r = !1,
               withoutBackground: s = !1,
@@ -5425,7 +5415,7 @@
                 }, [u, t, e]))(l, e, c);
               return o().createElement(
                 "div",
-                { className: F()(Wa.base, Wa[`base__${u}`]), style: Bo(t) },
+                { className: F()(Ua.base, Ua[`base__${u}`]), style: Bo(t) },
                 !s && o().createElement($a, { size: u, classMix: i }),
                 o().createElement(Do, {
                   size: u,
@@ -5479,7 +5469,7 @@
           );
         }
         const zo = (e, t) => ("number" == typeof t ? t : e.offsetLeft),
-          Wo = (e) => {
+          Uo = (e) => {
             let t = e.api,
               u = e.value,
               n = e.maxValue,
@@ -5555,11 +5545,11 @@
               )
             );
           },
-          Uo = (e, t) => (t < 0 ? 0 : e[t].maxPoints),
+          Wo = (e, t) => (t < 0 ? 0 : e[t].maxPoints),
           Vo = (e, t, u) => {
             let n = 0;
-            const r = Uo(u, t - 2),
-              a = Uo(u, u.length - 1) / u.length;
+            const r = Wo(u, t - 2),
+              a = Wo(u, u.length - 1) / u.length;
             return (
               u.forEach((u, o) => {
                 o < t &&
@@ -5608,12 +5598,12 @@
                         o().createElement("div", { className: F()(qo, Ko) }),
                       ),
                     ),
-                  o().createElement(Wo, {
+                  o().createElement(Uo, {
                     animationSettings: wo,
                     value: Vo(e, t, u),
                     maxValue: n,
                     api: s,
-                    size: Ua.Small,
+                    size: Wa.Small,
                   }),
                 ),
               );
@@ -6012,8 +6002,8 @@
           Hs = "PausedEntryPointState_entryPoint_73",
           Gs = "PausedEntryPointState_entryPoint__small_d0",
           zs = "PausedEntryPointState_iconWrapper_69",
-          Ws = "PausedEntryPointState_icon_ca",
-          Us = "PausedEntryPointState_icon__disabled_79",
+          Us = "PausedEntryPointState_icon_ca",
+          Ws = "PausedEntryPointState_icon__disabled_79",
           Vs = "PausedEntryPointState_entryPoint__hovered_55",
           $s = (0, a.memo)(
             ({ isHovered: e, isShowTime: t, textTime: u, closeoutTimeStamp: n, onClick: r }) =>
@@ -6026,7 +6016,7 @@
                   o().createElement(
                     "div",
                     { className: zs },
-                    o().createElement("div", { className: F()(Ws, Us) }),
+                    o().createElement("div", { className: F()(Us, Ws) }),
                     t && o().createElement(za, { textTime: u, closeoutTimeStamp: n }),
                   ),
                 ),
@@ -6571,8 +6561,8 @@
           Hi = "EarlyAccessButton_touchableZone_30",
           Gi = "EarlyAccessButton_base__disabled_b8",
           zi = "EarlyAccessButton_background_4a",
-          Wi = "EarlyAccessButton_base__scaled_47",
-          Ui = "EarlyAccessButton_backgroundHovered_e1",
+          Ui = "EarlyAccessButton_base__scaled_47",
+          Wi = "EarlyAccessButton_backgroundHovered_e1",
           Vi = "EarlyAccessButton_base__hovered_92",
           $i = "EarlyAccessButton_icon_c2",
           ji = ({ isDisabled: e, children: t }) =>
@@ -6603,7 +6593,7 @@
               l = e.buttonState === Mi.DISABLED;
             return o().createElement(
               "div",
-              { className: F()(Oi, l && Gi, r && Vi, i && Wi) },
+              { className: F()(Oi, l && Gi, r && Vi, i && Ui) },
               o().createElement(
                 ji,
                 { isDisabled: l },
@@ -6625,7 +6615,7 @@
                 o().createElement(
                   o().Fragment,
                   null,
-                  o().createElement("div", { className: Ui }),
+                  o().createElement("div", { className: Wi }),
                   o().createElement("div", { className: $i }),
                 ),
             );
@@ -7538,8 +7528,8 @@
             )
           );
         zl.Default = Gl;
-        const Wl = { Vertical: r, Horizontal: n },
-          Ul = "ScrollDrag_base_55",
+        const Ul = { Vertical: r, Horizontal: n },
+          Wl = "ScrollDrag_base_55",
           Vl = "ScrollDrag_base__grabbing_12",
           $l = "ScrollDrag_base__noDrag_02",
           jl = ({
@@ -7592,7 +7582,7 @@
             return o().createElement(
               "div",
               {
-                className: F()(Ul, n && Vl, !u && !t && $l),
+                className: F()(Wl, n && Vl, !u && !t && $l),
                 onMouseDown: (e) => {
                   0 === e.nativeEvent.button && (y(!0), g(e.clientX), v(e.clientY));
                 },
@@ -7652,8 +7642,8 @@
             H = M.getPremiumNodes,
             G = M.getNodeById,
             z = M.getNodeConnectors,
-            W = M.getRowData,
-            U = M.getFirstNode,
+            U = M.getRowData,
+            W = M.getFirstNode,
             V = M.getInBattleNations,
             $ = M.getRowButtons,
             j = M.getLastParagonsUnLockedNodeId,
@@ -7695,9 +7685,9 @@
             me && (fe("researches_premium_panel_slide_out"), Ee(!1));
           }, [A]);
           const Ge = document.getElementById(qe.CONVERT),
-            ze = Wl.Horizontal.useHorizontalScrollApi(),
-            We = Wl.Vertical.useVerticalScrollApi(),
-            Ue = (0, a.useCallback)(
+            ze = Ul.Horizontal.useHorizontalScrollApi(),
+            Ue = Ul.Vertical.useVerticalScrollApi(),
+            We = (0, a.useCallback)(
               () =>
                 (({ convertHint: e, setHintConvertProperties: t, convertHintProperties: u }) => {
                   e &&
@@ -7717,9 +7707,9 @@
                 }),
               [u.setHintConvertProperties, Ge, N],
             ),
-            Ve = oe(Ue, [Ue], 500);
+            Ve = oe(We, [We], 500);
           (0, a.useEffect)(() => {
-            Ue();
+            We();
           }, []);
           const $e = (0, a.useMemo)(
               () =>
@@ -7734,14 +7724,14 @@
             Xe = Boolean(je),
             Ke = (0, a.useMemo)(
               () =>
-                Object.assign({}, We, {
+                Object.assign({}, Ue, {
                   handleMouseWheel: Xe
                     ? (e) => {
                         e.preventDefault();
                       }
-                    : We.handleMouseWheel,
+                    : Ue.handleMouseWheel,
                 }),
-              [We, Xe],
+              [Ue, Xe],
             );
           (({ id: e, horizontalApi: t, verticalApi: u, deps: n }) => {
             const r = () => {
@@ -7812,10 +7802,10 @@
             (0, a.useEffect)(() => {
               let e = 0,
                 t = -1;
-              const u = U();
+              const u = W();
               ne.forEach((u) => {
-                const n = W(u),
-                  r = W(ne.length - u + 1);
+                const n = U(u),
+                  r = U(ne.length - u + 1);
                 (0 === e && n.length && (e = u), -1 === t && r.length && (t = ne.length - u + 1));
               });
               const n = Array.from({ length: e - 1 }, (e, t) => t + 1),
@@ -7906,16 +7896,16 @@
                 setIsDragging: Ie,
                 horizontalApi: $e,
                 verticalApi: Ke,
-                onDrag: Ue,
+                onDrag: We,
               },
               o().createElement(
-                Wl.Horizontal.Area,
+                Ul.Horizontal.Area,
                 { api: $e },
                 o().createElement(
                   "div",
                   { className: at },
                   o().createElement(
-                    Wl.Vertical.Area,
+                    Ul.Vertical.Area,
                     { api: Ke, classNames: { content: F()(At, ve && pt, K.length && gt) } },
                     Rt((e) =>
                       o().createElement(
@@ -8014,12 +8004,12 @@
             o().createElement(
               "div",
               { className: dt, onMouseEnter: Pt },
-              o().createElement(Wl.Horizontal.Bar, { api: $e, onDrag: Ue, isOnView: S }),
+              o().createElement(Ul.Horizontal.Bar, { api: $e, onDrag: We, isOnView: S }),
             ),
             o().createElement(
               "div",
               { className: F()(_t, (c || !K) && mt, (me || !ve) && Et) },
-              o().createElement(Wl.Vertical.Bar, { api: Ke, isOnView: S }),
+              o().createElement(Ul.Vertical.Bar, { api: Ke, isOnView: S }),
             ),
             o().createElement(
               "div",

@@ -2184,7 +2184,8 @@
         (t.d(e, { g: () => r }),
           (function (u) {
             ((u[(u.DailyQuests = 0)] = "DailyQuests"),
-              (u[(u.PremiumQuests = 1)] = "PremiumQuests"));
+              (u[(u.PremiumQuests = 1)] = "PremiumQuests"),
+              (u[(u.SerialEnter = 2)] = "SerialEnter"));
           })(r || (r = {})));
       },
       3099: (u, e, t) => {

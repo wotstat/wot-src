@@ -153,9 +153,9 @@
             addPreloadTexture: () => a,
             children: () => n,
             displayStatus: () => r.W,
-            displayStatusIs: () => T,
+            displayStatusIs: () => f,
             events: () => E.U,
-            extraSize: () => f,
+            extraSize: () => R,
             forceTriggerMouseMove: () => b,
             freezeTextureBeforeResize: () => B,
             getBrowserTexturePath: () => i,
@@ -174,7 +174,7 @@
             setEventHandled: () => v,
             setInputPaddingsRem: () => o,
             setSidePaddingsRem: () => F,
-            whenTutorialReady: () => R,
+            whenTutorialReady: () => T,
           }));
         var n = t(722),
           r = t(112),
@@ -238,11 +238,11 @@
         function h() {
           return viewEnv.getShowingStatus();
         }
-        const T = Object.keys(r.W).reduce(
+        const f = Object.keys(r.W).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === r.W[e]), u),
             {},
           ),
-          f = {
+          R = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -250,7 +250,7 @@
               viewEnv.getExtraSizeRem(u, e);
             },
           },
-          R = Promise.all([
+          T = Promise.all([
             new Promise((u) => {
               window.isDomBuilt ? u() : E.U.onDomBuilt(u);
             }),
@@ -948,7 +948,7 @@
         })(b || (b = {}));
         var h = t(596);
         Date.now();
-        const T = (u = 1) => {
+        const f = (u = 1) => {
             const e = new Error().stack;
             let t,
               n = R.invalid("resId");
@@ -962,7 +962,7 @@
               { caller: t, stack: e, resId: n }
             );
           },
-          f = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
+          T = (u, e) => u.split(".").reduce((u, e) => u && u[e], e),
           P = (u) => {
             const e = (0, n.useRef)(!1);
             e.current || (u(), (e.current = !0));
@@ -972,12 +972,12 @@
           O = (u) =>
             ((u, e) =>
               u.split(".").reduce((u, t) => {
-                const n = f(`${u}.${t}`, window);
+                const n = T(`${u}.${t}`, window);
                 return S(n) ? e(u, t, n) : `${u}.${t}`;
               }))(u, (u, e) => `${u}.${e}.value`),
           k = (u) => {
             const e = ((u) => {
-                const e = T(),
+                const e = f(),
                   t = e.caller,
                   n = e.resId,
                   r = window.__feature && window.__feature !== t && t ? `subViews.${t}` : "";
@@ -989,7 +989,7 @@
               const u = [n[0]];
               return (
                 n.reduce((e, n) => {
-                  const r = f(y(t, `${e}.${n}`), window);
+                  const r = T(y(t, `${e}.${n}`), window);
                   return S(r) ? (u.push(r.id), `${e}.${n}.value`) : (u.push(n), `${e}.${n}`);
                 }),
                 u.reduce((u, e) => u + "." + e)
@@ -1005,7 +1005,7 @@
         const x = (u = "model", e = M.Deep) => {
             const t = (0, n.useState)(0),
               r = (t[0], t[1]),
-              E = (0, n.useMemo)(() => T(), []),
+              E = (0, n.useMemo)(() => f(), []),
               s = E.caller,
               a = E.resId,
               o = (0, n.useMemo)(
@@ -1014,7 +1014,7 @@
               ),
               i = (0, n.useState)(() =>
                 ((u) => {
-                  const e = f(u, window);
+                  const e = T(u, window);
                   for (const u in e) "function" == typeof e[u] && (e[u] = e[u].bind(e));
                   return S(e) ? e.value : e;
                 })(O(o)),
@@ -1068,7 +1068,7 @@
               }
               return n;
             });
-        let L, U, G, $, q, Y, W, H, V;
+        let L, U, G, $, q, Y, V, H, z;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -1101,6 +1101,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1133,13 +1134,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(L || (L = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1232,14 +1227,14 @@
               (u.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (u.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (u.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(W || (W = {})),
+          })(V || (V = {})),
           (function (u) {
             ((u.Small = "400x300"), (u.Big = "600x450"));
           })(H || (H = {})),
           (function (u) {
             u.ProgressionStyle = "progressionStyle";
-          })(V || (V = {})));
-        class z extends r().PureComponent {
+          })(z || (z = {})));
+        class j extends r().PureComponent {
           render() {
             let u;
             if ("gold" === this.props.format) u = h.B3.GOLD;
@@ -1248,8 +1243,8 @@
             return void 0 !== this.props.value && void 0 !== e ? e : null;
           }
         }
-        z.defaultProps = { format: "integral" };
-        const j = [
+        j.defaultProps = { format: "integral" };
+        const W = [
             L.Items,
             L.Equipment,
             L.Xp,
@@ -1289,11 +1284,6 @@
             L.PremiumPlusUniversal,
             L.GoldenTicket,
             L.RewardsSlots,
-            L.WtStamp,
-            L.WtTicket,
-            L.WtMainPrizeDiscount,
-            L.WtHunter,
-            L.WtHunterCollection,
           ],
           X = [L.Gold, L.Credits, L.Crystal, L.FreeXp],
           K = [L.BattlePassPoints],
@@ -1458,7 +1448,9 @@
                 })(e)}`;
               case L.StyleProgress:
               case L.LbStyleProgress:
-                return tu(E, e, V.ProgressionStyle);
+                return tu(E, e, z.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -1551,7 +1543,7 @@
                 prevTarget: null,
                 hideTimerId: null,
               }),
-              w = (0, n.useMemo)(() => d || T().resId, [d]),
+              w = (0, n.useMemo)(() => d || f().resId, [d]),
               b = (0, n.useCallback)(() => {
                 (v.current.isVisible && v.current.timeoutId) ||
                   (Eu(t, c, { isMouseEvent: !0, on: !0, arguments: ru(r) }, w),
@@ -1567,7 +1559,7 @@
                     (v.current.isVisible = !1));
                 }
               }, [t, c, w, p]),
-              f = (0, n.useCallback)((u) => {
+              R = (0, n.useCallback)((u) => {
                 v.current.isVisible &&
                   ((v.current.prevTarget = document.elementFromPoint(u.clientX, u.clientY)),
                   (v.current.hideTimerId = window.setTimeout(() => {
@@ -1578,9 +1570,9 @@
             ((0, n.useEffect)(() => {
               const u = v.current.hideTimerId;
               return (
-                document.addEventListener("wheel", f, { capture: !0 }),
+                document.addEventListener("wheel", R, { capture: !0 }),
                 () => {
-                  (document.removeEventListener("wheel", f, { capture: !0 }),
+                  (document.removeEventListener("wheel", R, { capture: !0 }),
                     u && window.clearTimeout(u));
                 }
               );
@@ -1603,12 +1595,12 @@
                   Object.assign(
                     {
                       onMouseEnter:
-                        ((R = e.props.onMouseEnter),
+                        ((T = e.props.onMouseEnter),
                         (u) => {
                           (u.clientX === window.innerWidth && u.clientY === window.innerHeight) ||
                             ((v.current.timeoutId = window.setTimeout(b, A ? 100 : 400)),
                             E && E(u),
-                            R && R(u));
+                            T && T(u));
                         }),
                       onMouseLeave: ((u) => (e) => {
                         (h(), null == s || s(e), null == u || u(e));
@@ -1624,7 +1616,7 @@
                   ),
                 )
               : e;
-            var R;
+            var T;
           },
           au = ["children"];
         function ou() {
@@ -1796,31 +1788,31 @@
                 if (void 0 === u) return null;
                 switch (u) {
                   case q.BATTLE_BOOSTER:
-                    return W.BATTLE_BOOSTER;
+                    return V.BATTLE_BOOSTER;
                   case q.BATTLE_BOOSTER_REPLACE:
-                    return W.BATTLE_BOOSTER_REPLACE;
+                    return V.BATTLE_BOOSTER_REPLACE;
                   case q.BUILT_IN_EQUIPMENT:
-                    return W.BUILT_IN_EQUIPMENT;
+                    return V.BUILT_IN_EQUIPMENT;
                   case q.EQUIPMENT_PLUS:
-                    return W.EQUIPMENT_PLUS;
+                    return V.EQUIPMENT_PLUS;
                   case q.EQUIPMENT_TROPHY_BASIC:
-                    return W.EQUIPMENT_TROPHY_BASIC;
+                    return V.EQUIPMENT_TROPHY_BASIC;
                   case q.EQUIPMENT_TROPHY_UPGRADED:
-                    return W.EQUIPMENT_TROPHY_UPGRADED;
+                    return V.EQUIPMENT_TROPHY_UPGRADED;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_1:
-                    return W.EQUIPMENT_MODERNIZED_UPGRADED_1;
+                    return V.EQUIPMENT_MODERNIZED_UPGRADED_1;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_2:
-                    return W.EQUIPMENT_MODERNIZED_UPGRADED_2;
+                    return V.EQUIPMENT_MODERNIZED_UPGRADED_2;
                   case q.EQUIPMENT_MODERNIZED_UPGRADED_3:
-                    return W.EQUIPMENT_MODERNIZED_UPGRADED_3;
+                    return V.EQUIPMENT_MODERNIZED_UPGRADED_3;
                   case q.PROGRESSION_STYLE_UPGRADED_1:
-                    return W.PROGRESSION_STYLE_UPGRADED_1;
+                    return V.PROGRESSION_STYLE_UPGRADED_1;
                   case q.PROGRESSION_STYLE_UPGRADED_2:
-                    return W.PROGRESSION_STYLE_UPGRADED_2;
+                    return V.PROGRESSION_STYLE_UPGRADED_2;
                   case q.PROGRESSION_STYLE_UPGRADED_3:
-                    return W.PROGRESSION_STYLE_UPGRADED_3;
+                    return V.PROGRESSION_STYLE_UPGRADED_3;
                   case q.PROGRESSION_STYLE_UPGRADED_4:
-                    return W.PROGRESSION_STYLE_UPGRADED_4;
+                    return V.PROGRESSION_STYLE_UPGRADED_4;
                 }
               })(E),
               C = ((u, e) => {
@@ -1832,7 +1824,7 @@
                   }
                   case $.CURRENCY:
                   case $.NUMBER:
-                    return r().createElement(z, { format: "integral", value: Number(u) });
+                    return r().createElement(j, { format: "integral", value: Number(u) });
                   case $.PREMIUM_PLUS: {
                     const e = Number(u);
                     return isNaN(e) ? u : null;
@@ -1928,7 +1920,7 @@
             value__crystal: "RewardLabelResolver_value__crystal_9c",
             value__premiumTank: "RewardLabelResolver_value__premiumTank_ab",
           };
-        let hu, Tu, fu, Ru, Pu;
+        let hu, fu, Ru, Tu, Pu;
         (!(function (u) {
           ((u[(u.Engraving = 0)] = "Engraving"), (u[(u.Background = 1)] = "Background"));
         })(hu || (hu = {})),
@@ -1936,10 +1928,10 @@
             ((u[(u.Equipped = 0)] = "Equipped"),
               (u[(u.Locked = 1)] = "Locked"),
               (u[(u.Open = 2)] = "Open"));
-          })(Tu || (Tu = {})),
+          })(fu || (fu = {})),
           (function (u) {
             ((u.Engraving = "engraving"), (u.Background = "background"));
-          })(fu || (fu = {})),
+          })(Ru || (Ru = {})),
           (function (u) {
             ((u.Dedication = "dedication"),
               (u.Skill = "skill"),
@@ -1948,7 +1940,7 @@
               (u.Medal = "triumph_medal"),
               (u.Base = "base"),
               (u.Static = "static"));
-          })(Ru || (Ru = {})),
+          })(Tu || (Tu = {})),
           (function (u) {
             ((u.Dedication = "dedication"),
               (u.Triumph = "triumph"),
@@ -1956,14 +1948,14 @@
               (u.Static = "static"));
           })(Pu || (Pu = {})));
         (Pu.Dedication,
-          Ru.Dedication,
+          Tu.Dedication,
           Pu.Triumph,
-          Ru.Triumph,
+          Tu.Triumph,
           Pu.Season,
-          Ru.Skill,
-          Ru.RankedSkill,
+          Tu.Skill,
+          Tu.RankedSkill,
           Pu.Static,
-          Ru.Static);
+          Tu.Static);
         let Su;
         !(function (u) {
           ((u.NUMBER = "NUMBER"), (u.PERCENTAGE = "PERCENTAGE"));
@@ -2096,7 +2088,7 @@
                   E = eu(u, G.Small),
                   s =
                     ((a = u.name),
-                    j.includes(a)
+                    W.includes(a)
                       ? $.MULTI
                       : X.includes(a)
                         ? $.CURRENCY
@@ -2122,9 +2114,9 @@
           $u = "App_background_79",
           qu = "App_remaining_f8",
           Yu = "RewardsTooltipHeader_header_f4",
-          Wu = "RewardsTooltipHeader_description_fe",
+          Vu = "RewardsTooltipHeader_description_fe",
           Hu = "RewardsTooltipHeader_count_d1",
-          Vu = () => {
+          zu = () => {
             const u = x(),
               e = u.headerText,
               t = u.headerCount,
@@ -2146,12 +2138,12 @@
               n &&
                 r().createElement(
                   "div",
-                  { className: Wu },
+                  { className: Vu },
                   r().createElement(_, { text: n, binding: a }),
                 ),
             );
           },
-          zu = () => {
+          ju = () => {
             const u = x("model.bonus"),
               e = (0, n.useRef)(null),
               t = (0, n.useRef)(null),
@@ -2185,7 +2177,7 @@
                   r().createElement(
                     "div",
                     { className: $u },
-                    r().createElement(Vu, null),
+                    r().createElement(zu, null),
                     r().createElement(
                       "div",
                       { ref: t },
@@ -2206,7 +2198,7 @@
             );
           };
         engine.whenReady.then(() => {
-          s().render(r().createElement(zu, null), document.getElementById("root"));
+          s().render(r().createElement(ju, null), document.getElementById("root"));
         });
       },
     },

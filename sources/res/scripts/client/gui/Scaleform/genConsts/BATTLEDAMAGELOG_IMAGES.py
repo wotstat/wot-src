@@ -50,3 +50,6 @@ class BATTLEDAMAGELOG_IMAGES(object):
     WHITE_ICON_FLAMER_16X16 = b'whiteIconFlamer16x16'
     WHITE_ICON_MORTAR_16X16 = b'whiteIconMortar16x16'
     WHITE_ICON_AIRSHIP_16X16 = b'whiteIconAirship16x16'
+    DAMAGE_LOG_SENTINEL_ENEMY_16X16 = b'damageLog_sentinel_enemy_16x16'
+    DAMAGE_LOG_PERIODIC_16X16 = b'damageLog_periodic_16x16'
+    DAMAGE_LOG_PERIODIC_ENEMY_16X16 = b'damageLog_periodic_16x16'

@@ -1223,11 +1223,11 @@
             V.apply(this, arguments)
           );
         }
-        const X = {
+        const $ = {
             [U.PREVIEW]: "R.images.gui.maps.icons.library.previewVehicle",
             [U.COMPARE]: "R.images.gui.maps.icons.library.compareVehicle",
           },
-          $ = (0, r.memo)((u) => {
+          X = (0, r.memo)((u) => {
             let e = u.label,
               t = u.isVisibleLabel,
               a = void 0 !== t && t,
@@ -1294,7 +1294,7 @@
                 },
                 [d],
               ),
-              $ = (0, r.useCallback)(
+              X = (0, r.useCallback)(
                 (u) => {
                   (x(!0), D && D(u), E && I(E), o && O());
                 },
@@ -1347,7 +1347,7 @@
                   onClick: N,
                   onMouseEnter: Y,
                   onMouseLeave: q,
-                  onMouseDown: $,
+                  onMouseDown: X,
                   onMouseUp: j,
                   onFocus: z,
                   onBlur: K,
@@ -1356,7 +1356,7 @@
               ),
               n().createElement("div", {
                 className: Z,
-                style: { backgroundImage: `url(${X[b]})` },
+                style: { backgroundImage: `url(${$[b]})` },
               }),
               n().createElement("div", { className: H.label }, e),
             );
@@ -2021,8 +2021,8 @@
           return !1;
         }
         console.log;
-        var Xu = t(174);
-        function $u(u, e) {
+        var $u = t(174);
+        function Xu(u, e) {
           var t = ("undefined" != typeof Symbol && u[Symbol.iterator]) || u["@@iterator"];
           if (t) return (t = t.call(u)).next.bind(t);
           if (
@@ -2111,7 +2111,7 @@
                             };
                           },
                           dispose: function () {
-                            for (var u, t = $u(n.keys()); !(u = t()).done;) a(u.value, e);
+                            for (var u, t = Xu(n.keys()); !(u = t()).done;) a(u.value, e);
                           },
                           unsubscribe: a,
                         };
@@ -2133,11 +2133,11 @@
                         observableModel: {
                           array: (u, e) => {
                             const r = null != e ? e : l(u),
-                              n = Xu.LO.box(r, { equals: Vu });
+                              n = $u.LO.box(r, { equals: Vu });
                             return (
                               "real" === t &&
                                 s.subscribe(
-                                  (0, Xu.aD)((u) => n.set(u)),
+                                  (0, $u.aD)((u) => n.set(u)),
                                   u,
                                 ),
                               n
@@ -2145,11 +2145,11 @@
                           },
                           object: (u, e) => {
                             const r = null != e ? e : l(u),
-                              n = Xu.LO.box(r, { equals: Vu });
+                              n = $u.LO.box(r, { equals: Vu });
                             return (
                               "real" === t &&
                                 s.subscribe(
-                                  (0, Xu.aD)((u) => n.set(u)),
+                                  (0, $u.aD)((u) => n.set(u)),
                                   u,
                                 ),
                               n
@@ -2158,11 +2158,11 @@
                           primitives: (u, e) => {
                             const r = l(e);
                             if (Array.isArray(u)) {
-                              const n = u.reduce((u, e) => ((u[e] = Xu.LO.box(r[e], {})), u), {});
+                              const n = u.reduce((u, e) => ((u[e] = $u.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   s.subscribe(
-                                    (0, Xu.aD)((e) => {
+                                    (0, $u.aD)((e) => {
                                       u.forEach((u) => {
                                         n[u].set(e[u]);
                                       });
@@ -2175,11 +2175,11 @@
                             {
                               const n = u,
                                 a = Object.entries(n),
-                                i = a.reduce((u, [e, t]) => ((u[t] = Xu.LO.box(r[e], {})), u), {});
+                                i = a.reduce((u, [e, t]) => ((u[t] = $u.LO.box(r[e], {})), u), {});
                               return (
                                 "real" === t &&
                                   s.subscribe(
-                                    (0, Xu.aD)((u) => {
+                                    (0, $u.aD)((u) => {
                                       a.forEach(([e, t]) => {
                                         i[t].set(u[e]);
                                       });
@@ -2925,7 +2925,7 @@
           return e;
         }
         ["ko", "no"].includes(R.strings.settings.LANGUAGE_CODE());
-        let Ve, Xe, $e, je, Ye, qe, ze, Ke, Qe;
+        let Ve, $e, Xe, je, Ye, qe, ze, Ke, Qe;
         (!(function (u) {
           ((u.Items = "items"),
             (u.Equipment = "equipment"),
@@ -2958,6 +2958,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2990,13 +2991,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(Ve || (Ve = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -3036,7 +3031,7 @@
               (u.BattlePassPoints = "battlePassPoints"),
               (u.BattleBadge = "dossier_badge"),
               (u.BattleAchievement = "dossier_achievement"));
-          })(Xe || (Xe = {})),
+          })($e || ($e = {})),
           (function (u) {
             ((u.Big = "big"),
               (u.Small = "small"),
@@ -3049,7 +3044,7 @@
               (u.S128x100 = "s128x100"),
               (u.S80x80 = "s80x80"),
               (u.S48x48 = "s48x48"));
-          })($e || ($e = {})),
+          })(Xe || (Xe = {})),
           (function (u) {
             ((u.MULTI = "multi"),
               (u.CURRENCY = "currency"),
@@ -3136,11 +3131,6 @@
             Ve.PremiumPlusUniversal,
             Ve.GoldenTicket,
             Ve.RewardsSlots,
-            Ve.WtStamp,
-            Ve.WtTicket,
-            Ve.WtMainPrizeDiscount,
-            Ve.WtHunter,
-            Ve.WtHunterCollection,
           ],
           Je = [Ve.Gold, Ve.Credits, Ve.Crystal, Ve.FreeXp],
           ut = [Ve.BattlePassPoints],
@@ -3160,7 +3150,7 @@
         })(tt || (tt = {}));
         const rt = ["engravings", "backgrounds"],
           nt = ["engraving", "background"],
-          at = (u, e = $e.Small) => {
+          at = (u, e = Xe.Small) => {
             const t = u.name,
               r = u.type,
               n = u.value,
@@ -3169,17 +3159,17 @@
               o = u.dogTagType,
               s = ((u) => {
                 switch (u) {
-                  case $e.S600x450:
+                  case Xe.S600x450:
                     return "c_600x450";
-                  case $e.S400x300:
+                  case Xe.S400x300:
                     return "c_400x300";
-                  case $e.S296x222:
+                  case Xe.S296x222:
                     return "c_296x222";
-                  case $e.S232x174:
+                  case Xe.S232x174:
                     return "c_232x174";
-                  case $e.Big:
+                  case Xe.Big:
                     return "c_80x80";
-                  case $e.Small:
+                  case Xe.Small:
                     return "c_48x48";
                   default:
                     return u;
@@ -3203,9 +3193,9 @@
               case "battleToken":
                 return ((u, e) => {
                   switch (e) {
-                    case $e.Big:
+                    case Xe.Big:
                       return u.iconBig.replace("..", "img://gui");
-                    case $e.Small:
+                    case Xe.Small:
                       return u.iconSmall.replace("..", "img://gui");
                     default:
                       return `R.images.gui.maps.icons.quests.bonuses.${e}.${u.icon}`;
@@ -3233,21 +3223,21 @@
               case "dossier_achievement":
                 return `R.images.gui.maps.icons.achievement.${((u) => {
                   switch (u) {
-                    case $e.S600x450:
+                    case Xe.S600x450:
                       return "c_600x450";
-                    case $e.S400x300:
+                    case Xe.S400x300:
                       return "c_400x300";
-                    case $e.S296x222:
+                    case Xe.S296x222:
                       return "c_296x222";
-                    case $e.S232x174:
+                    case Xe.S232x174:
                       return "c_232x174";
-                    case $e.S180x135:
+                    case Xe.S180x135:
                       return "big";
-                    case $e.Big:
-                    case $e.S80x80:
+                    case Xe.Big:
+                    case Xe.S80x80:
                       return "c_80x80";
-                    case $e.Small:
-                    case $e.S48x48:
+                    case Xe.Small:
+                    case Xe.S48x48:
                       return "c_48x48";
                     default:
                       return u;
@@ -3283,29 +3273,31 @@
               case "armory_coin":
                 return `R.images.armory_yard.gui.maps.icons.token.sf${((u) => {
                   switch (u) {
-                    case $e.Mini:
+                    case Xe.Mini:
                       return tt.s32;
-                    case $e.Small:
-                    case $e.S48x48:
+                    case Xe.Small:
+                    case Xe.S48x48:
                       return tt.s48;
-                    case $e.S80x80:
-                    case $e.Big:
+                    case Xe.S80x80:
+                    case Xe.Big:
                       return tt.s80;
-                    case $e.S128x100:
+                    case Xe.S128x100:
                       return tt.s116;
-                    case $e.S180x135:
-                    case $e.S232x174:
-                    case $e.S296x222:
+                    case Xe.S180x135:
+                    case Xe.S232x174:
+                    case Xe.S296x222:
                       return tt.s296;
-                    case $e.S400x300:
+                    case Xe.S400x300:
                       return tt.s400;
-                    case $e.S600x450:
+                    case Xe.S600x450:
                       return tt.s600;
                   }
                 })(e)}`;
               case Ve.StyleProgress:
               case Ve.LbStyleProgress:
                 return ot(a, e, Qe.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
@@ -3345,7 +3337,7 @@
         const lt = (u) => ("overlayType" in u ? u.overlayType : void 0),
           ct = (u, e) => {
             const t = w(),
-              r = e || (t.mediaSize < b.Medium ? $e.Small : $e.Big);
+              r = e || (t.mediaSize < b.Medium ? Xe.Small : Xe.Big);
             var n, a;
             return {
               parsedRewards:
@@ -3477,7 +3469,7 @@
             name: u,
             image: e,
             isPeriodic: t = !1,
-            size: r = $e.Big,
+            size: r = Xe.Big,
             special: a,
             value: i,
             valueType: o,
@@ -3651,7 +3643,7 @@
                     ((u, e = !1, t) => {
                       const a = e ? Pt.body.honor() : Pt.body.default(),
                         i = t === Ou.InInventory,
-                        o = u.name === Xe.BattleAchievement,
+                        o = u.name === $e.BattleAchievement,
                         s = o ? u.label : Pt.body.campaign();
                       return n().createElement(
                         "div",
@@ -3678,8 +3670,8 @@
           Gt = "ResearchCondition_progressValue_4a",
           Wt = "ResearchCondition_progressValue__withMargin_54",
           Vt = "ResearchCondition_progressValue__from_5a",
-          Xt = "ResearchCondition_experienceTextValue_88",
-          $t = "ResearchCondition_experienceText_3e",
+          $t = "ResearchCondition_experienceTextValue_88",
+          Xt = "ResearchCondition_experienceText_3e",
           jt = R.strings.personal_missions_3.VehicleView.researchCondition,
           Yt = ({ from: u, to: e, operationName: t, isFinalRewardsView: r }) => {
             return n().createElement(
@@ -3706,9 +3698,9 @@
                 }),
                 n().createElement(
                   "div",
-                  { className: Xt },
+                  { className: $t },
                   n().createElement(Tu, {
-                    className: $t,
+                    className: Xt,
                     text: r
                       ? ((a = lu(jt.finalBody())), a.replace(/&zwnbsp;/g, "\ufeff"))
                       : jt.body(),
@@ -4024,13 +4016,13 @@
                     n().createElement(
                       "div",
                       mr({ className: L }, x),
-                      n().createElement($, {
+                      n().createElement(X, {
                         onClick: R,
                         type: U.COMPARE,
                         label: n().createElement(Tu, { text: lu(Fr.VehicleView.compare.label()) }),
                       }),
                       !F &&
-                        n().createElement($, {
+                        n().createElement(X, {
                           onClick: S,
                           type: U.PREVIEW,
                           label: n().createElement(Tu, { text: Fr.VehicleView.preview.label() }),

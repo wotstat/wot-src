@@ -5,3 +5,5 @@ class BATTLE_NOTIFICATIONS_TIMER_COLORS(object):
     GREEN_DISABLED = b'green_disabled'
     YELLOW = b'yellow'
     GRAY = b'gray'
+    BLUE = b'blue'
+    DARK_RED = b'dark_red'

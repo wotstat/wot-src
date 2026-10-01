@@ -50,8 +50,8 @@
 			<ambientLumMultiplier>1</ambientLumMultiplier>
 			<sunLumMultiplier>30</sunLumMultiplier>
 			<skyLumMultiplier>5</skyLumMultiplier>
-			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 			<LDR2HDRsaturation>1</LDR2HDRsaturation>
+			<LDR2HDRenableLumaMask>false</LDR2HDRenableLumaMask>
 		</environment>
 		<tonemappings>
 			<tonemapping>
@@ -152,7 +152,7 @@
 		</influences>
 	</SSAO>
 	<Shadow>
-		<maxShadowsSplitCount>5</maxShadowsSplitCount>
+		<maxShadowsSplitCount>4</maxShadowsSplitCount>
 		<maxDynamicViewDistance>100</maxDynamicViewDistance>
 		<lightSize>1</lightSize>
 		<dynamicShadowsLightSize>13</dynamicShadowsLightSize>
@@ -190,11 +190,30 @@
 	</cloudsShadow>
 	<PBS>
 		<ForwardSHMultiplier>1</ForwardSHMultiplier>
-		<flakesEnabled>false</flakesEnabled>
 		<flakesDensityThreshold>0.800000012</flakesDensityThreshold>
 		<flakesUvScale>0.800000012</flakesUvScale>
 		<flakesGloss>0.889999986</flakesGloss>
 		<flakesSurfNormalNoiseWeight>0.100000001</flakesSurfNormalNoiseWeight>
+		<flakesEnabled>false</flakesEnabled>
+		<useBC6PackingFormat>false</useBC6PackingFormat>
+		<mossDirectMult>1</mossDirectMult>
+		<mossIndirectMult>1</mossIndirectMult>
+		<mossSheenFactor>0.5</mossSheenFactor>
+		<mossGrassSheenFactor>0.5</mossGrassSheenFactor>
+		<mossAddColor>0 0 0</mossAddColor>
+		<mossAddColorTint>0</mossAddColorTint>
+		<mossIndirectBRDFFactor>0.800000012</mossIndirectBRDFFactor>
+		<mossMinMaskMult>1</mossMinMaskMult>
+		<mossMaxMaskMult>1</mossMaxMaskMult>
+		<snowDirectMult>1</snowDirectMult>
+		<snowScatterColor>0 0 0</snowScatterColor>
+		<snowScatterColorTint>0</snowScatterColorTint>
+		<snowIndirectMultShittySS>0.200000003</snowIndirectMultShittySS>
+		<snowIndirectMultBase>1</snowIndirectMultBase>
+		<snowIndirectBRDFFactor>0.800000012</snowIndirectBRDFFactor>
+		<snowMinMaskMult>1</snowMinMaskMult>
+		<snowMaxMaskMult>1</snowMaxMaskMult>
+		<shadingModel>0</shadingModel>
 	</PBS>
 	<Weather>
 		<wind>
@@ -229,7 +248,7 @@
 		<sunColorForward>255 255 255</sunColorForward>
 		<sunTextureForward>system/maps/psf_rgbe.dds</sunTextureForward>
 		<sunLightColorForward>0.949020028 0.866666973 0.796078026</sunLightColorForward>
-		<ambientColorForward>0.537254989 0.55686301 0.631372988</ambientColorForward>
+		<ambientColorForward>0.639216006 0.658824027 0.74901998</ambientColorForward>
 		<starttime>10</starttime>
 	</day_night_cycle>
 	<dirt>
@@ -254,6 +273,8 @@
 		<waveMaskTexture>system/maps/wetness_waves.dds</waveMaskTexture>
 		<waveMaskUVScale>0.25</waveMaskUVScale>
 		<waveMaskSpeed>0.141320005</waveMaskSpeed>
+		<waterGlossMultiplier>1</waterGlossMultiplier>
+		<wetCoastGlossMultiplier>1</wetCoastGlossMultiplier>
 	</Wetness>
 	<visibilityMask>4294967295</visibilityMask>
 	<VFXLighting>
@@ -265,6 +286,8 @@
 		<PsIllumMultForward>1</PsIllumMultForward>
 		<PsRibbonMultDeferred>1</PsRibbonMultDeferred>
 		<PsRibbonMultForward>1</PsRibbonMultForward>
+		<particleEnvironmentTintEnabledDeferred>false</particleEnvironmentTintEnabledDeferred>
+		<particleEnvironmentTintEnabledForward>false</particleEnvironmentTintEnabledForward>
 	</VFXLighting>
 	<WeatherDependentSettings>
 		<environment_dependent_emission>

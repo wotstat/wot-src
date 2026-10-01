@@ -79,6 +79,9 @@ package net.wg.gui.lobby.hangar
                   break;
                case HANGAR_CONSTS.BR_PANELS:
                   this._hangar.tryRemoveBattleRoyaleContainer();
+                  break;
+               case HANGAR_CONSTS.PORTAL_EVENT_MODIFIERS:
+                  this._hangar.tryRemovePortalEventModifiers();
             }
          }
       }
@@ -135,6 +138,9 @@ package net.wg.gui.lobby.hangar
                   break;
                case HANGAR_CONSTS.BR_PANELS:
                   this._hangar.createBattleRoyaleComponents();
+                  break;
+               case HANGAR_CONSTS.PORTAL_EVENT_MODIFIERS:
+                  this._hangar.addPortalEventModifiers();
             }
          }
       }

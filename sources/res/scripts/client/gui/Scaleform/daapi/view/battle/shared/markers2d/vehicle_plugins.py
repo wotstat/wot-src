@@ -33,6 +33,7 @@ from messenger.proto.events import g_messengerEvents
 from skeletons.account_helpers.settings_core import ISettingsCore
 from skeletons.gui.battle_session import IBattleSessionProvider
 from constants import ARENA_PERIOD
+from th_async import th_async, th_await, delay
 if typing.TYPE_CHECKING:
     from Vehicle import Vehicle
     from gui.Scaleform.daapi.view.battle.shared.markers2d.markers import VehicleMarker
@@ -158,7 +159,32 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         self.invalidateVehiclesInfo(self.sessionProvider.getArenaDP())
         return
 
-    def invalidateVehiclesInfo(self, arenaDP):
+    @th_async
+    def __invalidateVehiclesInfoPortal(self, arenaDP):
+        getProps = arenaDP.getPlayerGuiProps
+        getParts = self.sessionProvider.getCtx().getPlayerFullNameParts
+        feedback = self.sessionProvider.shared.feedback
+        vInfoList = [vInfo for vInfo in arenaDP.getVehiclesInfoIterator()]
+        for vInfo in vInfoList:
+            vehicleID = vInfo.vehicleID
+            if vehicleID == self._playerVehicleID or vInfo.isObserver():
+                continue
+            if not vInfo.isAlive() and vInfo.isBot:
+                continue
+            if vehicleID not in self._markers:
+                marker = self.__addMarkerToPool(vehicleID, vInfo=vInfo, vProxy=feedback.getVehicleProxy(vehicleID))
+                if marker is None:
+                    continue
+            else:
+                marker = self._markers[vehicleID]
+            self.__setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
+            self._setMarkerInitialState(marker, vInfo=vInfo)
+            self._processDelayedMarkers(vehicleID)
+            yield th_await(delay(0))
+
+        return
+
+    def __invalidateVehiclesInfoDefault(self, arenaDP):
         getProps = arenaDP.getPlayerGuiProps
         getParts = self.sessionProvider.getCtx().getPlayerFullNameParts
         feedback = self.sessionProvider.shared.feedback
@@ -172,10 +198,19 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
                     continue
             else:
                 marker = self._markers[vehicleID]
-            self._setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
+            self.__setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
             self._setMarkerInitialState(marker, vInfo=vInfo)
             self._processDelayedMarkers(vehicleID)
 
+        return
+
+    def invalidateVehiclesInfo(self, arenaDP):
+        from gui.battle_control.avatar_getter import getArena
+        arena = getArena()
+        if arena and arena.bonusType == getattr(constants.ARENA_BONUS_TYPE, b'PORTAL', -1):
+            self.__invalidateVehiclesInfoPortal(self.sessionProvider.getArenaDP())
+        else:
+            self.__invalidateVehiclesInfoDefault(self.sessionProvider.getArenaDP())
         return
 
     def addVehicleInfo(self, vInfo, arenaDP):
@@ -190,7 +225,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             marker = self.__addMarkerToPool(vehicleID, vInfo=vInfo, vProxy=feedback.getVehicleProxy(vehicleID))
             if marker is None:
                 return
-            self._setVehicleInfo(marker, vInfo, ctx.getPlayerGuiProps(vehicleID, vInfo.team), ctx.getPlayerFullNameParts(vehicleID))
+            self.__setVehicleInfo(marker, vInfo, ctx.getPlayerGuiProps(vehicleID, vInfo.team), ctx.getPlayerFullNameParts(vehicleID))
             self._setMarkerInitialState(marker, vInfo=vInfo)
             self._processDelayedMarkers(vehicleID)
             return
@@ -203,7 +238,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             if vehicleID not in self._markers:
                 continue
             marker = self._markers[vehicleID]
-            self._setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
+            self.__setVehicleInfo(marker, vInfo, getProps(vehicleID, vInfo.team), getParts(vehicleID))
 
         return
 
@@ -463,7 +498,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
     def __canUpdateStatus(self, handle):
         return any(marker.getMarkerID() == handle for marker in self._markers.itervalues())
 
-    def _setVehicleInfo(self, marker, vInfo, guiProps, nameParts):
+    def __setVehicleInfo(self, marker, vInfo, guiProps, nameParts):
         markerID = marker.getMarkerID()
         vType = vInfo.vehicleType
         guiPropsName = (b'team{}').format(vInfo.team) if avatar_getter.isVehiclesColorized() else guiProps.name()
@@ -537,7 +572,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             return
 
     def __addMarkerToPool(self, vehicleID, vInfo, vProxy=None):
-        if not self._needsMarker(vInfo):
+        if not self.__needsMarker(vInfo):
             return
         else:
             if vProxy is not None:
@@ -584,7 +619,8 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             self._invokeMarker(marker.getMarkerID(), b'setSpeaking', speaking)
         return
 
-    def _needsMarker(self, vInfo):
+    @staticmethod
+    def __needsMarker(vInfo):
         return vInfo.isAlive() or not (isSpawnedBot(vInfo.vehicleType.tags) or isHunterBot(vInfo.vehicleType.tags))
 
     def __setEntityName(self, vInfo, arenaDP):
@@ -600,7 +636,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
         return
 
     def _onVehicleMarkerAdded(self, vProxy, vInfo, guiProps):
-        if not self._needsMarker(vInfo):
+        if not self.__needsMarker(vInfo):
             return
         else:
             vehicleID = vInfo.vehicleID
@@ -618,7 +654,7 @@ class VehicleMarkerPlugin(MarkerPlugin, ChatCommunicationComponent, IArenaVehicl
             marker = self.__addMarkerToPool(vehicleID, vInfo=vInfo, vProxy=vProxy)
             if marker is None:
                 return
-            self._setVehicleInfo(marker, vInfo, guiProps, self.sessionProvider.getCtx().getPlayerFullNameParts(vehicleID))
+            self.__setVehicleInfo(marker, vInfo, guiProps, self.sessionProvider.getCtx().getPlayerFullNameParts(vehicleID))
             self._setMarkerInitialState(marker, vInfo=vInfo)
             self._processDelayedMarkers(vehicleID)
             return

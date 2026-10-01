@@ -509,7 +509,7 @@ class ItemsRequester(IItemsRequester):
     _AccountItem = namedtuple(b'_AccountItem', [1, 2, 3, 4, 
      5, 6, 7, 8, 9])
 
-    def __init__(self, inventory, stats, dossiers, goodies, shop, recycleBin, vehicleRotation, ranked, battleRoyale, badges, epicMetaGame, tokens, festivityRequester, armoryYard, blueprints=None, sessionStatsRequester=None, anonymizerRequester=None, battlePassRequester=None, giftSystemRequester=None, gameRestrictionsRequester=None, resourceWellRequester=None, achievements20Requester=None, refProgramRequester=None):
+    def __init__(self, inventory, stats, dossiers, goodies, shop, recycleBin, vehicleRotation, ranked, battleRoyale, badges, epicMetaGame, tokens, festivityRequester, armoryYard, blueprints=None, sessionStatsRequester=None, anonymizerRequester=None, battlePassRequester=None, giftSystemRequester=None, gameRestrictionsRequester=None, resourceWellRequester=None, achievements20Requester=None, refProgramRequester=None, sessionProgressRewardsRequester=None):
         self.__inventory = inventory
         self.__stats = stats
         self.__dossiers = dossiers
@@ -533,11 +533,11 @@ class ItemsRequester(IItemsRequester):
         self.__resourceWell = resourceWellRequester
         self.__achievements20 = achievements20Requester
         self.__refProgram = refProgramRequester
+        self.__sessionProgressRewards = sessionProgressRewardsRequester
         self.__itemsCache = defaultdict(dict)
         self.__brokenSyncAlreadyLoggedTypes = set()
         self.__fittingItemRequesters = {
          self.__inventory, self.__stats, self.__shop, self.__vehicleRotation, self.__recycleBin}
-        self.__ignoreFittingItemsSync = False
         self.__vehCustomStateCache = defaultdict(dict)
         return
 
@@ -633,6 +633,10 @@ class ItemsRequester(IItemsRequester):
     def refProgram(self):
         return self.__refProgram
 
+    @property
+    def sessionProgressRewards(self):
+        return self.__sessionProgressRewards
+
     def __onCompletedCallback(self, waitingToClose=None, milestone=None):
         from gui.Scaleform.Waiting import Waiting
         if waitingToClose:
@@ -650,6 +654,7 @@ class ItemsRequester(IItemsRequester):
         yield self.__shop.request()
         Waiting.hide(b'download/shop')
         g_playerEvents.onLoadingMilestoneReached(Milestones.INVENTORY)
+        Waiting.show(b'download/sessionProgressRewards')
         Waiting.show(b'download/refProgram')
         Waiting.show(b'download/achievements20')
         Waiting.show(b'download/resourceWell')
@@ -689,7 +694,8 @@ class ItemsRequester(IItemsRequester):
          callerWrapper(self.__gameRestrictions.request(), onCompleted=partial(self.__onCompletedCallback, b'download/gameRestrictions', None)),
          callerWrapper(self.__resourceWell.request(), onCompleted=partial(self.__onCompletedCallback, b'download/resourceWell', None)),
          callerWrapper(self.__achievements20.request(), onCompleted=partial(self.__onCompletedCallback, b'download/achievements20', None)),
-         callerWrapper(self.__refProgram.request(), onCompleted=partial(self.__onCompletedCallback, b'download/refProgram', None)))
+         callerWrapper(self.__refProgram.request(), onCompleted=partial(self.__onCompletedCallback, b'download/refProgram', None)),
+         callerWrapper(self.__sessionProgressRewards.request(), onCompleted=partial(self.__onCompletedCallback, b'download/sessionProgressRewards', None)))
         self.__brokenSyncAlreadyLoggedTypes.clear()
         callback(self)
         return
@@ -756,7 +762,6 @@ class ItemsRequester(IItemsRequester):
         self.__anonymizer.clear()
         self.__giftSystem.clear()
         self.__gameRestrictions.clear()
-        self.__ignoreFittingItemsSync = True
         return
 
     def onDisconnected(self):
@@ -769,7 +774,6 @@ class ItemsRequester(IItemsRequester):
 
     def invalidateCache(self, diff=None):
         invalidate = defaultdict(set)
-        self.__ignoreFittingItemsSync = False
         if diff is None:
             LOG_DEBUG(b'Gui items cache full invalidation')
             for itemTypeID, cache in self.__itemsCache.iteritems():
@@ -1370,8 +1374,6 @@ class ItemsRequester(IItemsRequester):
             return set()
 
     def __checkFittingItemsSync(self, itemTypeID):
-        if self.__ignoreFittingItemsSync:
-            return
         unsyncedList = [r.__class__.__name__ for r in self.__fittingItemRequesters if not r.isSynced()]
         if not unsyncedList or itemTypeID in self.__brokenSyncAlreadyLoggedTypes:
             return

@@ -849,6 +849,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -881,13 +882,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(E || (E = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1333,11 +1328,6 @@
             E.PremiumPlusUniversal,
             E.GoldenTicket,
             E.RewardsSlots,
-            E.WtStamp,
-            E.WtTicket,
-            E.WtMainPrizeDiscount,
-            E.WtHunter,
-            E.WtHunterCollection,
           ],
           y = [E.Gold, E.Credits, E.Crystal, E.FreeXp],
           N = [E.BattlePassPoints],
@@ -1502,12 +1492,14 @@
                 })(e)}`;
               case E.StyleProgress:
               case E.LbStyleProgress:
-                return q(a, e, m.ProgressionStyle);
+                return W(a, e, m.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${e}.${s}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${e}.${t}`;
             }
           },
-          W = (u, e, t) => {
+          q = (u, e, t) => {
             const r = e && { contentId: e };
             return Object.assign(
               {
@@ -1520,7 +1512,7 @@
               t,
             );
           },
-          q = (u, e, t) => {
+          W = (u, e, t) => {
             const r = R.images.gui.maps.icons.quests.bonuses.$dyn(e),
               n = r.$dyn(u);
             return String(null != n ? n : r.$dyn(t));
@@ -2157,10 +2149,10 @@
                 };
               }, [t, a, E, A, _, D, I, N, R, C, O, S, x]),
               G = H.computedStyle,
-              W = H.computedClassNames;
+              q = H.computedClassNames;
             return n().createElement(
               "div",
-              Bu({ className: o()(du.base, ...W, e), style: G }, U),
+              Bu({ className: o()(du.base, ...q, e), style: G }, U),
               k,
             );
           });
@@ -2325,7 +2317,7 @@
             SM: { mt: "SM", mr: "SM", mb: "SM", ml: "SM" },
             XS: { mt: "XS", mr: "XS", mb: "XS", ml: "XS" },
           },
-          Wu =
+          qu =
             (Object.keys(Gu),
             {
               "heading-H144": { mt: "XL", mr: "LG", mb: "LG", ml: "LG" },
@@ -2347,8 +2339,8 @@
               "paragraph-P12": Hu,
               "paragraph-P10": Hu,
             }),
-          qu =
-            (Object.keys(Wu),
+          Wu =
+            (Object.keys(qu),
             (u) =>
               u
                 ? ((u) => Iu.includes(u))(u)
@@ -2381,7 +2373,7 @@
                 return n;
               })(u, yu);
             const p = (0, r.useMemo)(() => {
-                const u = qu(s),
+                const u = Wu(s),
                   e = u.colorClassName,
                   t = u.colorStyle,
                   r = void 0 === t ? {} : t;
@@ -2395,10 +2387,10 @@
                 {
                   className: o()(Lu.base, t && Lu[t], h, a),
                   style: g,
-                  mt: !0 === l ? Wu[t || "paragraph-P16"].mt : l,
-                  mr: !0 === F ? Wu[t || "paragraph-P16"].mr : F,
-                  mb: !0 === c ? Wu[t || "paragraph-P16"].mb : c,
-                  ml: !0 === d ? Wu[t || "paragraph-P16"].ml : d,
+                  mt: !0 === l ? qu[t || "paragraph-P16"].mt : l,
+                  mr: !0 === F ? qu[t || "paragraph-P16"].mr : F,
+                  mb: !0 === c ? qu[t || "paragraph-P16"].mb : c,
+                  ml: !0 === d ? qu[t || "paragraph-P16"].ml : d,
                 },
                 C,
               ),
@@ -2579,7 +2571,7 @@
                           : I.includes(t)
                             ? F.PREMIUM_PLUS
                             : F.STRING),
-                  tooltipArgs: W({ tooltipId: e.tooltipId, tooltipContentId: e.tooltipContentId }),
+                  tooltipArgs: q({ tooltipId: e.tooltipId, tooltipContentId: e.tooltipContentId }),
                 });
                 var t;
               }),

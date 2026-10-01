@@ -37,6 +37,10 @@ package net.wg.infrastructure.base.meta
       
       function openColorSettingsS() : void;
       
+      function showSystemMixerVolumeDisabledPageS() : void;
+      
+      function isSystemMixerVolumeDisabledS() : Boolean;
+      
       function as_setData(param1:Object) : void;
       
       function as_setCaptureDevices(param1:Number, param2:Array) : void;
@@ -70,8 +74,6 @@ package net.wg.infrastructure.base.meta
       function as_setBattleContextHintsEnabled(param1:Boolean) : void;
       
       function as_setBattleContextHintsResetEnabled(param1:Boolean) : void;
-      
-      function as_setTigerEvent(param1:Boolean) : void;
       
       function as_setVOIPTestReady(param1:Boolean) : void;
       

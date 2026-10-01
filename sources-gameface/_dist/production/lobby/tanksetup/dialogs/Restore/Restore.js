@@ -221,7 +221,7 @@
             setEventHandled: () => g,
             setInputPaddingsRem: () => o,
             setSidePaddingsRem: () => c,
-            whenTutorialReady: () => w,
+            whenTutorialReady: () => x,
           }));
         var n = t(3722),
           r = t(6112),
@@ -297,7 +297,7 @@
               viewEnv.getExtraSizeRem(e, u);
             },
           },
-          w = Promise.all([
+          x = Promise.all([
             new Promise((e) => {
               window.isDomBuilt ? e() : i.U.onDomBuilt(e);
             }),
@@ -1009,7 +1009,7 @@
                   g && g(),
                   (f.current.isVisible = !0));
               }, [t, F, r, S, g]),
-              w = (0, n.useCallback)(() => {
+              x = (0, n.useCallback)(() => {
                 if (f.current.isVisible || f.current.timeoutId) {
                   const e = f.current.timeoutId;
                   (e > 0 && (clearTimeout(e), (f.current.timeoutId = 0)),
@@ -1018,35 +1018,35 @@
                     (f.current.isVisible = !1));
                 }
               }, [t, F, S, b]),
-              x = (0, n.useCallback)((e) => {
+              w = (0, n.useCallback)((e) => {
                 f.current.isVisible &&
                   ((f.current.prevTarget = document.elementFromPoint(e.clientX, e.clientY)),
                   (f.current.hideTimerId = window.setTimeout(() => {
                     const u = document.elementFromPoint(e.clientX, e.clientY);
-                    u && !u.isSameNode(f.current.prevTarget) && w();
+                    u && !u.isSameNode(f.current.prevTarget) && x();
                   }, 200)));
               }, []);
             ((0, n.useEffect)(() => {
               const e = f.current.hideTimerId;
               return (
-                document.addEventListener("wheel", x, { capture: !0 }),
+                document.addEventListener("wheel", w, { capture: !0 }),
                 () => {
-                  (document.removeEventListener("wheel", x, { capture: !0 }),
+                  (document.removeEventListener("wheel", w, { capture: !0 }),
                     e && window.clearTimeout(e));
                 }
               );
             }, []),
               (0, n.useEffect)(() => {
-                !1 === B && w();
-              }, [B, w]),
+                !1 === B && x();
+              }, [B, x]),
               (0, n.useEffect)(
                 () => (
-                  window.addEventListener("mouseleave", w),
+                  window.addEventListener("mouseleave", x),
                   () => {
-                    (window.removeEventListener("mouseleave", w), w());
+                    (window.removeEventListener("mouseleave", x), x());
                   }
                 ),
-                [w],
+                [x],
               ));
             return B
               ? (0, n.cloneElement)(
@@ -1062,13 +1062,13 @@
                             P && P(e));
                         }),
                       onMouseLeave: ((e) => (u) => {
-                        (w(), null == a || a(u), null == e || e(u));
+                        (x(), null == a || a(u), null == e || e(u));
                       })(u.props.onMouseLeave),
                       onClick: ((e) => (u) => {
-                        (!1 === d && w(), null == o || o(u), null == e || e(u));
+                        (!1 === d && x(), null == o || o(u), null == e || e(u));
                       })(u.props.onClick),
                       onMouseDown: ((e) => (u) => {
-                        (!1 === d && w(), null == s || s(u), null == e || e(u));
+                        (!1 === d && x(), null == s || s(u), null == e || e(u));
                       })(u.props.onMouseDown),
                     },
                     v,
@@ -1196,7 +1196,7 @@
             ? r().createElement(m, h({}, u, { contentId: i || s }), n)
             : r().createElement(D, u, n);
         };
-        let b, v, f, S, y, w, x, P, T;
+        let b, v, f, S, y, x, w, P, T;
         (!(function (e) {
           ((e.Items = "items"),
             (e.Equipment = "equipment"),
@@ -1229,6 +1229,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1261,13 +1262,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(b || (b = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1345,7 +1340,7 @@
           })(y || (y = {})),
           (function (e) {
             e.BATTLE_BOOSTER = "battleBooster";
-          })(w || (w = {})),
+          })(x || (x = {})),
           (function (e) {
             ((e.BATTLE_BOOSTER = "battleBooster"),
               (e.BATTLE_BOOSTER_REPLACE = "battleBoosterReplace"),
@@ -1360,7 +1355,7 @@
               (e.PROGRESSION_STYLE_UPGRADED_2 = "progressionStyleUpgraded_2"),
               (e.PROGRESSION_STYLE_UPGRADED_3 = "progressionStyleUpgraded_3"),
               (e.PROGRESSION_STYLE_UPGRADED_4 = "progressionStyleUpgraded_4"));
-          })(x || (x = {})),
+          })(w || (w = {})),
           (function (e) {
             ((e.Small = "400x300"), (e.Big = "600x450"));
           })(P || (P = {})),
@@ -1416,11 +1411,6 @@
           b.PremiumPlusUniversal,
           b.GoldenTicket,
           b.RewardsSlots,
-          b.WtStamp,
-          b.WtTicket,
-          b.WtMainPrizeDiscount,
-          b.WtHunter,
-          b.WtHunterCollection,
           b.Gold,
           b.Credits,
           b.Crystal,
@@ -1485,38 +1475,38 @@
                 switch (e) {
                   case y.BATTLE_BOOSTER:
                   case y.BATTLE_BOOSTER_REPLACE:
-                    return w.BATTLE_BOOSTER;
+                    return x.BATTLE_BOOSTER;
                 }
               })(i),
               d = ((e) => {
                 if (void 0 === e) return null;
                 switch (e) {
                   case y.BATTLE_BOOSTER:
-                    return x.BATTLE_BOOSTER;
+                    return w.BATTLE_BOOSTER;
                   case y.BATTLE_BOOSTER_REPLACE:
-                    return x.BATTLE_BOOSTER_REPLACE;
+                    return w.BATTLE_BOOSTER_REPLACE;
                   case y.BUILT_IN_EQUIPMENT:
-                    return x.BUILT_IN_EQUIPMENT;
+                    return w.BUILT_IN_EQUIPMENT;
                   case y.EQUIPMENT_PLUS:
-                    return x.EQUIPMENT_PLUS;
+                    return w.EQUIPMENT_PLUS;
                   case y.EQUIPMENT_TROPHY_BASIC:
-                    return x.EQUIPMENT_TROPHY_BASIC;
+                    return w.EQUIPMENT_TROPHY_BASIC;
                   case y.EQUIPMENT_TROPHY_UPGRADED:
-                    return x.EQUIPMENT_TROPHY_UPGRADED;
+                    return w.EQUIPMENT_TROPHY_UPGRADED;
                   case y.EQUIPMENT_MODERNIZED_UPGRADED_1:
-                    return x.EQUIPMENT_MODERNIZED_UPGRADED_1;
+                    return w.EQUIPMENT_MODERNIZED_UPGRADED_1;
                   case y.EQUIPMENT_MODERNIZED_UPGRADED_2:
-                    return x.EQUIPMENT_MODERNIZED_UPGRADED_2;
+                    return w.EQUIPMENT_MODERNIZED_UPGRADED_2;
                   case y.EQUIPMENT_MODERNIZED_UPGRADED_3:
-                    return x.EQUIPMENT_MODERNIZED_UPGRADED_3;
+                    return w.EQUIPMENT_MODERNIZED_UPGRADED_3;
                   case y.PROGRESSION_STYLE_UPGRADED_1:
-                    return x.PROGRESSION_STYLE_UPGRADED_1;
+                    return w.PROGRESSION_STYLE_UPGRADED_1;
                   case y.PROGRESSION_STYLE_UPGRADED_2:
-                    return x.PROGRESSION_STYLE_UPGRADED_2;
+                    return w.PROGRESSION_STYLE_UPGRADED_2;
                   case y.PROGRESSION_STYLE_UPGRADED_3:
-                    return x.PROGRESSION_STYLE_UPGRADED_3;
+                    return w.PROGRESSION_STYLE_UPGRADED_3;
                   case y.PROGRESSION_STYLE_UPGRADED_4:
-                    return x.PROGRESSION_STYLE_UPGRADED_4;
+                    return w.PROGRESSION_STYLE_UPGRADED_4;
                 }
               })(i),
               D = ((e, u) => {
@@ -2382,8 +2372,8 @@
           fe = ve[0],
           Se = ve[1],
           ye = "App_background_00",
-          we = "App_center_8e",
-          xe = "App_glow_46",
+          xe = "App_center_8e",
+          we = "App_glow_46",
           Pe = "App_reward_38";
         let Te, Ne, Me;
         (!(function (e) {
@@ -2703,13 +2693,13 @@
             y = (0, n.useCallback)(() => {
               a || (F.current && (F.current.focus(), C(!0)));
             }, [a]),
-            w = (0, n.useCallback)(
+            x = (0, n.useCallback)(
               (e) => {
                 B && null !== F.current && !F.current.contains(e.target) && C(!1);
               },
               [B],
             ),
-            x = (0, n.useCallback)(
+            w = (0, n.useCallback)(
               (e) => {
                 a || (D && D(e));
               },
@@ -2761,12 +2751,12 @@
           return (
             (0, n.useEffect)(
               () => (
-                document.addEventListener("mousedown", w),
+                document.addEventListener("mousedown", x),
                 () => {
-                  document.removeEventListener("mousedown", w);
+                  document.removeEventListener("mousedown", x);
                 }
               ),
-              [w],
+              [x],
             ),
             (0, n.useEffect)(() => {
               C(t);
@@ -2781,7 +2771,7 @@
                 onMouseUp: N,
                 onMouseDown: M,
                 onMouseLeave: O,
-                onClick: x,
+                onClick: w,
               },
               i !== uu.ghost &&
                 r().createElement(
@@ -3501,7 +3491,7 @@
           fu = ["xl", "lg", "md", "sm", "xs"],
           Su = (e) => e.includes("_") && ((e) => fu.includes(e))(e.split("_").at(-1)),
           yu = [hu.ExtraLarge, hu.Large, hu.Medium, hu.Small, hu.ExtraSmall],
-          wu = (e, u) =>
+          xu = (e, u) =>
             Object.keys(e).reduce((t, n) => {
               if (n in t) return t;
               if (Su(n)) {
@@ -3522,9 +3512,9 @@
                 t
               );
             }, {}),
-          xu = (e, u = wu) => {
+          wu = (e, u = xu) => {
             const t = (
-              (e, u = wu) =>
+              (e, u = xu) =>
               (t) => {
                 const i = vu().mediaSize,
                   a = (0, n.useMemo)(() => u(t, i), [t, i]);
@@ -3621,7 +3611,7 @@
           },
           Ru = (Object.keys(Mu), ["mt", "mr", "mb", "ml"]),
           Ou = { mt: "marginTop", mr: "marginRight", mb: "marginBottom", ml: "marginLeft" },
-          Lu = xu((e) => {
+          Lu = wu((e) => {
             let u = e.className,
               t = e.width,
               i = e.height,
@@ -3653,11 +3643,11 @@
                     void 0
                   : f,
               y = e.alignItems,
-              w =
+              x =
                 void 0 === y
                   ? (C ? "flex-start" : h && "center") || (g && "flex-end") || void 0
                   : y,
-              x = e.alignSelf,
+              w = e.alignSelf,
               P = e.wrap,
               T = e.flexWrap,
               N = void 0 === T ? (P ? "wrap" : void 0) : T,
@@ -3693,16 +3683,16 @@
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== i && "number" == typeof i ? i + "rem" : i,
                     flex: L,
-                    alignSelf: x,
-                    display: B || w ? "flex" : void 0,
+                    alignSelf: w,
+                    display: B || x ? "flex" : void 0,
                     flexDirection: B,
                     flexWrap: N,
                     justifyContent: S,
-                    alignItems: w,
+                    alignItems: x,
                   }),
                   computedClassNames: u,
                 };
-              }, [t, i, l, c, m, d, k, L, x, B, N, S, w]),
+              }, [t, i, l, c, m, d, k, L, w, B, N, S, x]),
               G = H.computedStyle,
               W = H.computedClassNames;
             return r().createElement(
@@ -3828,7 +3818,7 @@
                   ? { colorClassName: Uu[e] }
                   : { colorStyle: { color: e } }
                 : {}),
-          Yu = xu((e) => {
+          Yu = wu((e) => {
             let u = e.text,
               t = e.variant,
               i = e.className,
@@ -3944,8 +3934,8 @@
               content: r().createElement(Je, null),
               buttons: r().createElement(pu, null),
               displayFlags: i,
-              classMix: o()(ye, xe),
-              classNames: { center: we },
+              classMix: o()(ye, we),
+              classNames: { center: xe },
             })
           );
         });

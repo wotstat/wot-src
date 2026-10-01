@@ -1,3 +1,209 @@
+.HorizontalBar_base_49 {
+  display: flex;
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}
+
+.HorizontalBar_base__nonActive_82 {
+  visibility: hidden;
+}
+
+.HorizontalBar_base_49 .disable,
+.HorizontalBar_base_49 .disable:hover {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.HorizontalBar_leftButton_5f,
+.HorizontalBar_rightButton_03 {
+  width: 13rem;
+  height: 13rem;
+  border: 1rem solid #7e7b68;
+  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
+  background: no-repeat center / 7rem 5rem;
+  opacity: 0.5;
+  z-index: 1;
+  transform: rotate(-90deg);
+  transition: opacity 130ms linear;
+  cursor: pointer;
+}
+
+.HorizontalBar_leftButton_5f:hover,
+.HorizontalBar_rightButton_03:hover {
+  opacity: 1;
+}
+
+.HorizontalBar_leftButton_5f {
+  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_top");
+}
+
+.HorizontalBar_rightButton_03 {
+  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_down");
+}
+
+.HorizontalBar_track_0d {
+  flex: 1;
+  margin: 0 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.HorizontalBar_thumb_fd {
+  display: none;
+  flex: 0 0 100%;
+  width: 100%;
+  min-width: 20rem;
+  height: 13rem;
+  border: 1rem solid #7e7b68;
+  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
+  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.thumb_horizontal")
+    no-repeat center / 8rem 7rem;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+  transition: opacity 130ms linear;
+  cursor: pointer;
+}
+
+.HorizontalBar_thumb_fd:hover {
+  opacity: 1;
+}
+
+.HorizontalBar_rail_32 {
+  height: 0;
+  border-top: 1rem solid #2f2e24;
+  position: absolute;
+  top: 6rem;
+  right: 5rem;
+  left: 5rem;
+}
+
+.HorizontalBar_rail_32:hover {
+  opacity: 0.7;
+}
+
+.HorizontalScroll_base_29 {
+  width: 100%;
+}
+
+.HorizontalScroll_wrapper_1e {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.HorizontalScroll_defaultScrollArea_8d {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+.VerticalBar_base_f3 {
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  height: 100%;
+  position: relative;
+}
+
+.VerticalBar_base__nonActive_42 {
+  visibility: hidden;
+}
+
+.VerticalBar_base_f3 .disable,
+.VerticalBar_base_f3 .disable:hover {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.VerticalBar_topButton_d7,
+.VerticalBar_bottomButton_06 {
+  width: 13rem;
+  height: 13rem;
+  border: 1rem solid #7e7b68;
+  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
+  background: no-repeat center / 7rem 5rem;
+  opacity: 0.5;
+  z-index: 1;
+  transition: opacity 130ms linear;
+  cursor: pointer;
+}
+
+.VerticalBar_topButton_d7:hover,
+.VerticalBar_bottomButton_06:hover {
+  opacity: 1;
+}
+
+.VerticalBar_topButton_d7 {
+  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_top");
+}
+
+.VerticalBar_bottomButton_06 {
+  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_down");
+}
+
+.VerticalBar_track_df {
+  flex: 1;
+  margin: 1rem 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.VerticalBar_thumb_32 {
+  display: flex;
+  flex: 0 0 13rem;
+  width: 13rem;
+  height: 100%;
+  min-height: 20rem;
+  border: 1rem solid #7e7b68;
+  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
+  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.thumb") no-repeat center /
+    7rem 8rem;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+  transition: opacity 130ms linear;
+  cursor: pointer;
+}
+
+.VerticalBar_thumb_32:hover {
+  opacity: 1;
+}
+
+.VerticalBar_rail_43 {
+  width: 0;
+  height: 100%;
+  border-left: 1rem solid #2f2e24;
+  border-top: 5rem solid transparent;
+  border-bottom: 5rem solid transparent;
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  z-index: 0;
+}
+
+.VerticalBar_rail_43:hover {
+  opacity: 0.7;
+}
+
+.VerticalScroll_content_cb {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.VerticalScroll_defaultScroll_f8 {
+  display: flex;
+}
+
+.VerticalScroll_bar_1e {
+  flex: 1;
+  margin-left: 7rem;
+}
+
+.VerticalScroll_area_af {
+  flex: 1;
+}
+
 .Box_mt__XS_0c {
   margin-top: 4rem;
 }
@@ -664,212 +870,6 @@
 }
 .ProgressBarDeltaGrow_base__withoutBounce_b5 .ProgressBarDeltaGrow_glow_68 {
   transition-timing-function: cubic-bezier(1, 0, 0.75, 0.75);
-}
-
-.HorizontalBar_base_49 {
-  display: flex;
-  width: 100%;
-  height: 13rem;
-  position: relative;
-}
-
-.HorizontalBar_base__nonActive_82 {
-  visibility: hidden;
-}
-
-.HorizontalBar_base_49 .disable,
-.HorizontalBar_base_49 .disable:hover {
-  opacity: 0.3;
-  cursor: default;
-}
-
-.HorizontalBar_leftButton_5f,
-.HorizontalBar_rightButton_03 {
-  width: 13rem;
-  height: 13rem;
-  border: 1rem solid #7e7b68;
-  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
-  background: no-repeat center / 7rem 5rem;
-  opacity: 0.5;
-  z-index: 1;
-  transform: rotate(-90deg);
-  transition: opacity 130ms linear;
-  cursor: pointer;
-}
-
-.HorizontalBar_leftButton_5f:hover,
-.HorizontalBar_rightButton_03:hover {
-  opacity: 1;
-}
-
-.HorizontalBar_leftButton_5f {
-  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_top");
-}
-
-.HorizontalBar_rightButton_03 {
-  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_down");
-}
-
-.HorizontalBar_track_0d {
-  flex: 1;
-  margin: 0 1rem;
-  position: relative;
-  cursor: pointer;
-}
-
-.HorizontalBar_thumb_fd {
-  display: none;
-  flex: 0 0 100%;
-  width: 100%;
-  min-width: 20rem;
-  height: 13rem;
-  border: 1rem solid #7e7b68;
-  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
-  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.thumb_horizontal")
-    no-repeat center / 8rem 7rem;
-  opacity: 0.5;
-  position: absolute;
-  z-index: 1;
-  transition: opacity 130ms linear;
-  cursor: pointer;
-}
-
-.HorizontalBar_thumb_fd:hover {
-  opacity: 1;
-}
-
-.HorizontalBar_rail_32 {
-  height: 0;
-  border-top: 1rem solid #2f2e24;
-  position: absolute;
-  top: 6rem;
-  right: 5rem;
-  left: 5rem;
-}
-
-.HorizontalBar_rail_32:hover {
-  opacity: 0.7;
-}
-
-.HorizontalScroll_base_29 {
-  width: 100%;
-}
-
-.HorizontalScroll_wrapper_1e {
-  display: flex;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.HorizontalScroll_defaultScrollArea_8d {
-  width: 100%;
-  margin-bottom: 7rem;
-}
-
-.VerticalBar_base_f3 {
-  display: flex;
-  flex-direction: column;
-  width: 13rem;
-  height: 100%;
-  position: relative;
-}
-
-.VerticalBar_base__nonActive_42 {
-  visibility: hidden;
-}
-
-.VerticalBar_base_f3 .disable,
-.VerticalBar_base_f3 .disable:hover {
-  opacity: 0.3;
-  cursor: default;
-}
-
-.VerticalBar_topButton_d7,
-.VerticalBar_bottomButton_06 {
-  width: 13rem;
-  height: 13rem;
-  border: 1rem solid #7e7b68;
-  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
-  background: no-repeat center / 7rem 5rem;
-  opacity: 0.5;
-  z-index: 1;
-  transition: opacity 130ms linear;
-  cursor: pointer;
-}
-
-.VerticalBar_topButton_d7:hover,
-.VerticalBar_bottomButton_06:hover {
-  opacity: 1;
-}
-
-.VerticalBar_topButton_d7 {
-  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_top");
-}
-
-.VerticalBar_bottomButton_06 {
-  background-image: url("R.images.gui.maps.icons.components.scroll_area.arrow_down");
-}
-
-.VerticalBar_track_df {
-  flex: 1;
-  margin: 1rem 0;
-  position: relative;
-  cursor: pointer;
-}
-
-.VerticalBar_thumb_32 {
-  display: flex;
-  flex: 0 0 13rem;
-  width: 13rem;
-  height: 100%;
-  min-height: 20rem;
-  border: 1rem solid #7e7b68;
-  box-shadow: inset 0 0 1rem rgba(255, 255, 190, 0.3);
-  background: #26241b url("R.images.gui.maps.icons.components.scroll_area.thumb") no-repeat center /
-    7rem 8rem;
-  opacity: 0.5;
-  position: absolute;
-  z-index: 1;
-  transition: opacity 130ms linear;
-  cursor: pointer;
-}
-
-.VerticalBar_thumb_32:hover {
-  opacity: 1;
-}
-
-.VerticalBar_rail_43 {
-  width: 0;
-  height: 100%;
-  border-left: 1rem solid #2f2e24;
-  border-top: 5rem solid transparent;
-  border-bottom: 5rem solid transparent;
-  position: absolute;
-  top: 0;
-  left: 6rem;
-  z-index: 0;
-}
-
-.VerticalBar_rail_43:hover {
-  opacity: 0.7;
-}
-
-.VerticalScroll_content_cb {
-  height: 100%;
-  overflow-y: hidden;
-}
-
-.VerticalScroll_defaultScroll_f8 {
-  display: flex;
-}
-
-.VerticalScroll_bar_1e {
-  flex: 1;
-  margin-left: 7rem;
-}
-
-.VerticalScroll_area_af {
-  flex: 1;
 }
 
 .Reward_base_ea {
@@ -2650,6 +2650,980 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   margin-left: 25rem;
 }
 
+.App_base_a6 {
+  display: flex;
+  flex-direction: column;
+  width: 766rem;
+}
+
+.mediaSmall .App_base_a6 {
+  width: 826rem;
+}
+
+.mediaMedium .App_base_a6 {
+  width: 976rem;
+}
+
+.mediaLarge .App_base_a6 {
+  width: 1092rem;
+}
+
+.App_grid_61,
+.App_lastRow_97 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.App_lastRow_97 {
+  flex-wrap: nowrap;
+}
+
+@keyframes CalendarHeader_fadeIn_8b {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes CalendarHeader_fadeOut_70 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.CalendarHeader_base_70 {
+  width: 100%;
+  height: 90rem;
+  margin-bottom: 8rem;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.mediaMedium .CalendarHeader_base_70 {
+  height: 110rem;
+}
+
+.CalendarHeader_base__current_43 {
+  background: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_small") no-repeat
+    center / cover;
+}
+
+.mediaSmall .CalendarHeader_base__current_43 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_medium");
+}
+
+.mediaMedium .CalendarHeader_base__current_43 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_big");
+}
+
+.mediaLarge .CalendarHeader_base__current_43 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_large");
+}
+
+.CalendarHeader_base__current_43 .CalendarHeader_border_93 {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.CalendarHeader_base__current_43 .CalendarHeader_rewards_44 {
+  opacity: 1;
+}
+
+.CalendarHeader_base__today_aa {
+  background: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_small") no-repeat
+    center / cover;
+}
+
+.mediaSmall .CalendarHeader_base__today_aa {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_medium");
+}
+
+.mediaMedium .CalendarHeader_base__today_aa {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_big");
+}
+
+.mediaLarge .CalendarHeader_base__today_aa {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_large");
+}
+
+.CalendarHeader_base__today_aa .CalendarHeader_border_93 {
+  border-color: rgba(97, 255, 0, 0.35);
+}
+
+.CalendarHeader_base__today_aa .CalendarHeader_rewards_44 {
+  opacity: 1;
+}
+
+.CalendarHeader_base__claiming_b5 {
+  background: none;
+}
+
+.CalendarHeader_base__claiming_b5 .CalendarHeader_check_53 {
+  animation: CalendarHeader_claimCheckAppear_49 0.7s ease-out;
+}
+
+.CalendarHeader_base__claiming_b5 .CalendarHeader_rewards_44 {
+  opacity: 1;
+}
+
+.CalendarHeader_base__completed_98 {
+  background: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_completed_small") no-repeat
+    center / cover;
+}
+
+.mediaSmall .CalendarHeader_base__completed_98 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_completed_medium");
+}
+
+.mediaMedium .CalendarHeader_base__completed_98 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_completed_big");
+}
+
+.mediaLarge .CalendarHeader_base__completed_98 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_completed_large");
+}
+
+.CalendarHeader_base__completed_98 .CalendarHeader_border_93 {
+  border-color: rgba(97, 255, 0, 0.7);
+}
+
+.CalendarHeader_base__completed_98 .CalendarHeader_rewards_44 {
+  opacity: 0.4;
+}
+
+.CalendarHeader_base__disabled_34 .CalendarHeader_border_93 {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.CalendarHeader_claimBg_9b {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.CalendarHeader_claimBg__current_09 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_small");
+  z-index: 2;
+}
+
+.mediaSmall .CalendarHeader_claimBg__current_09 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_medium");
+}
+
+.mediaMedium .CalendarHeader_claimBg__current_09 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_big");
+}
+
+.mediaLarge .CalendarHeader_claimBg__current_09 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_current_large");
+}
+
+.CalendarHeader_claimBg__today_b9 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_small");
+  z-index: 1;
+}
+
+.mediaSmall .CalendarHeader_claimBg__today_b9 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_medium");
+}
+
+.mediaMedium .CalendarHeader_claimBg__today_b9 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_big");
+}
+
+.mediaLarge .CalendarHeader_claimBg__today_b9 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.header_card.bg_today_large");
+}
+
+.CalendarHeader_claimBg__out_93 {
+  animation: CalendarHeader_fadeOut_70 0.7s ease-in-out forwards;
+}
+
+.CalendarHeader_claimBg__in_d6 {
+  opacity: 0;
+  animation: CalendarHeader_fadeIn_8b 0.52s ease-in-out 0.28s forwards;
+}
+
+.CalendarHeader_border_93 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1rem solid rgba(255, 255, 255, 0.5);
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.CalendarHeader_border__current_4d {
+  border-color: rgba(255, 255, 255, 0.5);
+  z-index: 5;
+}
+
+.CalendarHeader_border__today_e3 {
+  border-color: rgba(97, 255, 0, 0.35);
+  z-index: 4;
+}
+
+.CalendarHeader_border__out_8d {
+  animation: CalendarHeader_fadeOut_70 0.7s ease-in-out forwards;
+}
+
+.CalendarHeader_border__in_6d {
+  opacity: 0;
+  animation: CalendarHeader_fadeIn_8b 0.52s ease-in-out 0.28s forwards;
+}
+
+.CalendarHeader_day_85 {
+  color: #e9e2bf;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  position: absolute;
+  top: 15rem;
+  left: 15rem;
+  z-index: 6;
+}
+
+.mediaLarge .CalendarHeader_day_85 {
+  color: #e9e2bf;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.CalendarHeader_check_53 {
+  width: 48rem;
+  height: 48rem;
+  background: url("R.images.gui.maps.icons.daily.calendar.check") no-repeat center / contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 6;
+}
+
+.CalendarHeader_content_79 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 24rem 0 48rem;
+  position: relative;
+  z-index: 6;
+}
+
+.mediaMedium .CalendarHeader_content_79 {
+  padding: 0 40rem 0 64rem;
+}
+
+.CalendarHeader_rewards_44 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.CalendarHeader_reward_98 {
+  margin-right: 15rem;
+}
+
+.CalendarHeader_reward_98:last-child {
+  margin-right: 0;
+}
+
+.CalendarHeader_separator_aa {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 65rem;
+  margin: 0 32rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 1) 49.48%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  opacity: 0.1;
+}
+
+.mediaMedium .CalendarHeader_separator_aa {
+  margin: 0 44rem;
+}
+
+.CalendarHeader_textBlock_9c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.CalendarHeader_title_22 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin-bottom: 8rem;
+}
+
+.CalendarHeader_titleMain_50 {
+  color: #ffffff;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  flex-shrink: 0;
+}
+
+.CalendarHeader_subtitle_24 {
+  color: #f2f2f7;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0.5;
+}
+
+@keyframes CalendarHeader_claimCheckAppear_49 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Preview_base_1f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 60rem;
+  opacity: 0.7;
+  position: relative;
+  transition: opacity 0.25s ease-out;
+  cursor: pointer;
+}
+
+.Preview_base__hovered_ee {
+  opacity: 1;
+}
+.Preview_icon_f3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("R.images.gui.maps.icons.library.previewVehicle") no-repeat center / contain;
+  transition: opacity 0.25s ease-out;
+  pointer-events: none;
+}
+.Preview_icon__small_a1 {
+  width: 70rem;
+  height: 70rem;
+}
+.Preview_icon__normal_5c {
+  width: 100rem;
+  height: 100rem;
+}
+.Preview_base__mouseDown_d0 .Preview_icon_f3 {
+  opacity: 0.7;
+}
+.Preview_label_2e {
+  color: #ffdd99;
+  font-size: 14rem;
+  line-height: 1.25;
+  text-shadow:
+    0 0 4rem rgba(255, 127, 0, 0.25),
+    0 0 8rem #ff2a00,
+    0 0 12rem #e52;
+  opacity: 0;
+  position: absolute;
+  bottom: -8rem;
+  transform: translateY(-5rem);
+  transition:
+    transform 0.25s ease-out,
+    opacity 0.25s ease-out;
+}
+.Preview_base__visibleLabel_92 .Preview_label_2e,
+.Preview_base__hovered_ee .Preview_label_2e {
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+@keyframes RewardCard_fadeIn_3e {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes RewardCard_fadeOut_cd {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.RewardCard_base_7a {
+  flex-shrink: 0;
+  width: 150rem;
+  height: 150rem;
+  margin: 0 4rem 4rem 0;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.mediaSmall .RewardCard_base_7a {
+  width: 162rem;
+  height: 162rem;
+}
+
+.mediaMedium .RewardCard_base_7a {
+  width: 192rem;
+  height: 192rem;
+}
+
+.mediaLarge .RewardCard_base_7a {
+  width: 212rem;
+  height: 212rem;
+  margin: 0 8rem 8rem 0;
+}
+
+.RewardCard_base_7a:nth-child(5n) {
+  margin-right: 0;
+}
+
+.RewardCard_base__final_cf {
+  width: 304rem;
+  height: 150rem;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.mediaSmall .RewardCard_base__final_cf {
+  width: 328rem;
+  height: 162rem;
+}
+
+.mediaMedium .RewardCard_base__final_cf {
+  width: 388rem;
+  height: 192rem;
+}
+
+.mediaLarge .RewardCard_base__final_cf {
+  width: 432rem;
+  height: 212rem;
+}
+
+.RewardCard_base__disabled_58 .RewardCard_bg_c6 {
+  background: rgba(125, 149, 162, 0.07);
+}
+
+.RewardCard_base__disabled_58 .RewardCard_border_b7 {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.RewardCard_base__disabled_58 .RewardCard_day_4e {
+  opacity: 0.5;
+}
+
+.RewardCard_base__disabled_58 .RewardCard_reward_4b {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.RewardCard_base__disabled_58 .RewardCard_finalMain_74 .RewardCard_reward_4b {
+  filter: none;
+  opacity: 0.7;
+}
+
+.RewardCard_base__current_dc .RewardCard_bg_c6 {
+  background: url("R.images.gui.maps.icons.daily.calendar.card.bg_current") no-repeat center / cover;
+}
+
+.RewardCard_base__current_dc .RewardCard_border_b7 {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.RewardCard_base__current_dc .RewardCard_day_4e,
+.RewardCard_base__current_dc .RewardCard_reward_4b {
+  filter: none;
+  opacity: 1;
+}
+
+.RewardCard_base__today_0a .RewardCard_bg_c6 {
+  background: url("R.images.gui.maps.icons.daily.calendar.card.bg_today") no-repeat center / cover;
+}
+
+.RewardCard_base__today_0a .RewardCard_border_b7 {
+  border-color: rgba(97, 255, 0, 0.2);
+}
+
+.RewardCard_base__today_0a .RewardCard_day_4e,
+.RewardCard_base__today_0a .RewardCard_reward_4b {
+  filter: none;
+  opacity: 1;
+}
+
+.RewardCard_base__completed_9c .RewardCard_bg_c6 {
+  background: rgba(125, 149, 162, 0.12);
+}
+
+.RewardCard_base__completed_9c .RewardCard_border_b7 {
+  border-color: rgba(97, 255, 0, 0.3);
+}
+
+.RewardCard_base__completed_9c .RewardCard_day_4e {
+  opacity: 1;
+}
+
+.RewardCard_base__completed_9c .RewardCard_reward_4b {
+  filter: none;
+  opacity: 0.4;
+}
+
+.RewardCard_base__completed_9c .RewardCard_finalMain_74 .RewardCard_reward_4b {
+  opacity: 0.7;
+}
+
+.RewardCard_base__claiming_0f .RewardCard_day_4e,
+.RewardCard_base__claiming_0f .RewardCard_reward_4b {
+  filter: none;
+  opacity: 1;
+}
+
+.RewardCard_base__claiming_0f .RewardCard_check_8f {
+  animation: RewardCard_claimCheckAppear_62 0.7s ease-out;
+}
+
+.RewardCard_bg_c6 {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  background: rgba(125, 149, 162, 0.18);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.RewardCard_claimBg_83 {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.RewardCard_claimBg__current_cb {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.card.bg_current");
+  z-index: 2;
+}
+
+.RewardCard_claimBg__today_88 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.card.bg_today");
+  z-index: 1;
+}
+
+.RewardCard_claimBg__out_11 {
+  animation: RewardCard_fadeOut_cd 0.7s ease-in-out forwards;
+}
+
+.RewardCard_claimBg__in_f6 {
+  opacity: 0;
+  animation: RewardCard_fadeIn_3e 0.52s ease-in-out 0.28s forwards;
+}
+
+.RewardCard_glow_86 {
+  width: 180rem;
+  height: 82rem;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.RewardCard_glow__current_41 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.card.glow_current");
+}
+
+.RewardCard_glow__today_96 {
+  background-image: url("R.images.gui.maps.icons.daily.calendar.card.glow_today");
+}
+
+.RewardCard_glow__out_da {
+  z-index: 3;
+  animation: RewardCard_claimGlowOut_98 0.7s ease-in-out forwards;
+}
+
+.RewardCard_glow__in_bd {
+  opacity: 0;
+  z-index: 2;
+  animation: RewardCard_claimGlowIn_f0 0.52s ease-in-out 0.28s forwards;
+}
+
+.RewardCard_disabledOverlay_3c {
+  width: 100%;
+  height: 100%;
+  background: url("R.images.gui.maps.icons.daily.icons.disabled_pattern") center / 9rem repeat;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.RewardCard_border_b7 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1rem solid rgba(255, 255, 255, 0.35);
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.RewardCard_border__current_16 {
+  border-color: rgba(255, 255, 255, 0.5);
+  z-index: 5;
+}
+
+.RewardCard_border__today_96 {
+  border-color: rgba(97, 255, 0, 0.2);
+  z-index: 4;
+}
+
+.RewardCard_border__out_ff {
+  animation: RewardCard_fadeOut_cd 0.7s ease-in-out forwards;
+}
+
+.RewardCard_border__in_f9 {
+  opacity: 0;
+  animation: RewardCard_fadeIn_3e 0.52s ease-in-out 0.28s forwards;
+}
+
+.RewardCard_day_4e {
+  color: #e9e2bf;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.15;
+  position: absolute;
+  top: 6rem;
+  left: 12rem;
+  z-index: 6;
+}
+
+.mediaSmall .RewardCard_day_4e {
+  top: 10rem;
+}
+
+.mediaMedium .RewardCard_day_4e {
+  top: 15rem;
+  left: 18rem;
+}
+
+.mediaLarge .RewardCard_day_4e {
+  color: #e9e2bf;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.RewardCard_check_8f {
+  width: 52rem;
+  height: 52rem;
+  background: url("R.images.gui.maps.icons.daily.calendar.check") no-repeat center / contain;
+  position: absolute;
+  top: -10rem;
+  right: -10rem;
+  z-index: 6;
+}
+
+.mediaSmall .RewardCard_check_8f {
+  top: -7rem;
+  right: -7rem;
+}
+
+.mediaMedium .RewardCard_check_8f {
+  top: -3rem;
+  right: -3rem;
+}
+
+.mediaLarge .RewardCard_check_8f {
+  top: -1rem;
+  right: -1rem;
+}
+
+.RewardCard_rewards_49 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 23rem;
+  position: relative;
+  z-index: 6;
+}
+
+.mediaSmall .RewardCard_rewards_49 {
+  padding: 0 29rem;
+}
+
+.mediaMedium .RewardCard_rewards_49 {
+  padding: 0 12rem;
+}
+
+.mediaLarge .RewardCard_rewards_49 {
+  padding: 0 22rem;
+}
+
+.RewardCard_rewards__final_76 {
+  display: block;
+  padding: 0;
+}
+
+.RewardCard_topReward_ec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48rem;
+}
+
+.mediaMedium .RewardCard_topReward_ec {
+  height: 80rem;
+}
+
+.RewardCard_bottomRow_5f {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 48rem;
+}
+
+.mediaMedium .RewardCard_bottomRow_5f {
+  height: 80rem;
+}
+
+.RewardCard_finalMain_74 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180rem;
+  height: 135rem;
+  margin: 0;
+  position: absolute;
+  top: 7rem;
+  left: 32rem;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.RewardCard_finalMain_74 .RewardCard_reward_4b {
+  width: 100%;
+  height: 100%;
+}
+
+.mediaSmall .RewardCard_finalMain_74 {
+  top: 13rem;
+  left: 35rem;
+}
+
+.mediaMedium .RewardCard_finalMain_74 {
+  width: 216rem;
+  height: 162rem;
+  top: 12rem;
+  left: 40rem;
+}
+
+.mediaLarge .RewardCard_finalMain_74 {
+  top: 22rem;
+  left: 48rem;
+}
+
+.RewardCard_finalMainLight_32 {
+  width: 400rem;
+  height: 400rem;
+  background: url("R.images.gui.maps.icons.daily.calendar.card.rewards.bgRareLightCurrent")
+    no-repeat center / contain;
+  mix-blend-mode: screen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.RewardCard_finalMainTooltip_b1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.RewardCard_preview_9e {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.RewardCard_finalMain_74:hover .RewardCard_preview_9e {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.RewardCard_previewButton_5f {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+.RewardCard_finalMain_74:hover .RewardCard_previewButton_5f {
+  opacity: 1;
+}
+
+.RewardCard_finalAside_7e {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 21rem;
+  right: 32rem;
+  z-index: 2;
+}
+
+.mediaSmall .RewardCard_finalAside_7e {
+  top: 24rem;
+  right: 36rem;
+}
+
+.mediaMedium .RewardCard_finalAside_7e {
+  top: 50%;
+  right: 40rem;
+  transform: translateY(-50%);
+}
+
+.mediaLarge .RewardCard_finalAside_7e {
+  top: 50%;
+  right: 48rem;
+  transform: translateY(-50%);
+}
+
+.RewardCard_reward_4b {
+  margin: 0;
+}
+
+.RewardCard_bottomRow_5f .RewardCard_reward_4b {
+  margin-right: 8rem;
+}
+
+.RewardCard_bottomRow_5f .RewardCard_reward_4b:last-child {
+  margin-right: 0;
+}
+
+.RewardCard_finalAside_7e .RewardCard_reward_4b {
+  margin-bottom: 12rem;
+}
+
+.RewardCard_finalAside_7e .RewardCard_reward_4b:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes RewardCard_claimCheckAppear_62 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes RewardCard_claimGlowOut_98 {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) scaleX(1);
+  }
+}
+
+@keyframes RewardCard_claimGlowIn_f0 {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scaleX(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1);
+  }
+}
+
 @keyframes DailyQuestsTab_fadeIn_6b {
   0% {
     opacity: 0;
@@ -3011,6 +3985,422 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   margin: 0 6rem 0 4rem;
 }
 
+@keyframes App_fadeIn_51 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes App_fadeOut_24 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.App_base_af {
+  width: 340rem;
+  height: 90rem;
+  margin-bottom: 8rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.App_base__selected_17 {
+  cursor: default;
+}
+
+.App_base__claiming_00 {
+  cursor: default;
+  pointer-events: none;
+}
+
+.App_base__claiming_00 .App_line1_59,
+.App_base__claiming_00 .App_line2_be {
+  opacity: 1;
+  transition: none;
+}
+
+.mediaLarge .App_base_af {
+  width: 480rem;
+  height: 100rem;
+}
+
+.App_bg_ee,
+.App_hoverBg_8f {
+  width: 340rem;
+  height: 90rem;
+  background: no-repeat center / cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mediaLarge .App_bg_ee,
+.mediaLarge .App_hoverBg_8f {
+  width: 480rem;
+  height: 100rem;
+}
+
+.App_bg_ee {
+  opacity: 1;
+  z-index: 0;
+  transition: opacity 0.5s;
+}
+
+.App_base__default_3e .App_bg_ee {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default");
+}
+
+.mediaLarge .App_base__default_3e .App_bg_ee {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default_big");
+}
+
+.App_base__done_fe .App_bg_ee {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default");
+}
+
+.mediaLarge .App_base__done_fe .App_bg_ee {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default_big");
+}
+
+.App_base__hover_f8 .App_bg_ee,
+.App_base__selected_17 .App_bg_ee {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.App_hoverBg_8f {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.hover");
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.mediaLarge .App_hoverBg_8f {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.hover_big");
+}
+
+.App_base__done_fe .App_hoverBg_8f {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_hover");
+}
+
+.mediaLarge .App_base__done_fe .App_hoverBg_8f {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_hover_big");
+}
+
+.App_base__hover_f8 .App_hoverBg_8f {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.App_selectedBg_85 {
+  width: 372rem;
+  height: 122rem;
+  background: url("R.images.gui.maps.icons.daily.quests.tabs.selected") no-repeat center / cover;
+  opacity: 0;
+  position: absolute;
+  top: -13rem;
+  left: -16rem;
+  z-index: 2;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.mediaLarge .App_selectedBg_85 {
+  width: 512rem;
+  height: 132rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected_big");
+}
+
+.App_base__done_fe .App_selectedBg_85 {
+  width: 381rem;
+  height: 130rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected");
+  top: -15rem;
+  left: -20rem;
+}
+
+.mediaLarge .App_base__done_fe .App_selectedBg_85 {
+  width: 521rem;
+  height: 140rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected_big");
+}
+
+.App_base__selected_17 .App_selectedBg_85 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.App_claimSelectedBg_9e {
+  width: 372rem;
+  height: 122rem;
+  background: no-repeat center / cover;
+  position: absolute;
+  top: -13rem;
+  left: -16rem;
+  pointer-events: none;
+}
+
+.mediaLarge .App_claimSelectedBg_9e {
+  width: 512rem;
+  height: 132rem;
+}
+
+.App_claimSelectedBg__default_fb {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected");
+  z-index: 4;
+}
+
+.mediaLarge .App_claimSelectedBg__default_fb {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.selected_big");
+}
+
+.App_claimSelectedBg__done_cf {
+  width: 381rem;
+  height: 130rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected");
+  top: -15rem;
+  left: -20rem;
+  z-index: 3;
+}
+
+.mediaLarge .App_claimSelectedBg__done_cf {
+  width: 521rem;
+  height: 140rem;
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_selected_big");
+}
+
+.App_claimSelectedBg__out_93 {
+  animation: App_fadeOut_24 0.7s ease-in-out forwards;
+}
+
+.App_claimSelectedBg__in_84 {
+  opacity: 0;
+  animation: App_fadeIn_51 0.52s ease-in-out 0.28s forwards;
+}
+
+.App_claimDefaultBg_a2 {
+  width: 340rem;
+  height: 90rem;
+  background: no-repeat center / cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.mediaLarge .App_claimDefaultBg_a2 {
+  width: 480rem;
+  height: 100rem;
+}
+
+.App_claimDefaultBg__default_ea {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default");
+  z-index: 4;
+}
+
+.mediaLarge .App_claimDefaultBg__default_ea {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.default_big");
+}
+
+.App_claimDefaultBg__done_6b {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default");
+  z-index: 3;
+}
+
+.mediaLarge .App_claimDefaultBg__done_6b {
+  background-image: url("R.images.gui.maps.icons.daily.quests.tabs.completed_default_big");
+}
+
+.App_claimDefaultBg__out_83 {
+  animation: App_fadeOut_24 0.7s ease-in-out forwards;
+}
+
+.App_claimDefaultBg__in_c0 {
+  opacity: 0;
+  animation: App_fadeIn_51 0.52s ease-in-out 0.28s forwards;
+}
+
+.App_content_6a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.App_iconWrapper_95 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 90rem;
+  height: 100%;
+}
+
+.mediaLarge .App_iconWrapper_95 {
+  width: 116rem;
+}
+
+.App_icon_0c {
+  width: 48rem;
+  height: 48rem;
+  background: url("R.images.gui.maps.icons.daily.icons.icon_session") no-repeat center / contain;
+}
+
+.mediaLarge .App_icon_0c {
+  width: 64rem;
+  height: 64rem;
+}
+
+.App_separator_06 {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 70rem;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.mediaLarge .App_separator_06 {
+  height: 80rem;
+}
+
+.App_textBlock_4e {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+  min-width: 0;
+  padding: 0 16rem 0 24rem;
+  position: relative;
+}
+
+.mediaLarge .App_textBlock_4e {
+  padding: 0 20rem 0 28rem;
+}
+
+.App_textLayerMeasure_31 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.App_textLayerMeasure_31 .App_line1_59,
+.App_textLayerMeasure_31 .App_line2_be {
+  opacity: 1;
+  transition: none;
+}
+
+.App_textLayer_08 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.App_textBlock__claiming_b0 .App_textLayer_08 {
+  box-sizing: border-box;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 16rem;
+  bottom: 0;
+  left: 24rem;
+}
+
+.mediaLarge .App_textBlock__claiming_b0 .App_textLayer_08 {
+  right: 20rem;
+  left: 28rem;
+}
+
+.App_textLayer__out_4b {
+  animation: App_fadeOut_24 0.7s ease-in-out forwards;
+}
+
+.App_textLayer__in_11 {
+  opacity: 0;
+  animation: App_fadeIn_51 0.52s ease-in-out 0.28s forwards;
+}
+
+.App_textLayer__in_11 .App_line2_be {
+  animation: App_claimLine2OpacityIn_bd 0.8s ease-in-out forwards;
+}
+
+.App_textLayer_08 .App_line1_59,
+.App_textLayer_08 .App_line2_be {
+  opacity: 1;
+  transition: none;
+}
+
+.App_line1_59,
+.App_line2_be {
+  color: #ffffff;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.mediaLarge .App_line1_59,
+.mediaLarge .App_line2_be {
+  color: #ffffff;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.25;
+  opacity: 0.7;
+}
+
+.App_base__hover_f8 .App_line1_59,
+.App_base__selected_17 .App_line1_59,
+.App_base__done_fe .App_line1_59,
+.App_base__claiming_00 .App_line1_59,
+.App_base__hover_f8 .App_line2_be,
+.App_base__selected_17 .App_line2_be,
+.App_base__done_fe .App_line2_be,
+.App_base__claiming_00 .App_line2_be {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.App_line2_be {
+  margin-top: 2rem;
+}
+
+.App_base__done_fe .App_line2_be {
+  opacity: 0.7;
+}
+
+@keyframes App_claimLine2OpacityIn_bd {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
 .TabCathegory_base_76 {
   color: #fefeec;
   font-size: 18rem;
@@ -3100,10 +4490,11 @@ This bug is reproduced in Google Chrome 81.0.4044.113
 }
 
 .MainPage_base_fa {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: 100%;
   padding: 48rem 0 0;
@@ -3126,21 +4517,38 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 516rem;
+  width: 806rem;
   height: 100%;
+  min-height: 0;
   margin-left: 60rem;
+  overflow: hidden;
 }
 
 .mediaSmall .MainPage_contentWrapper_03 {
-  width: 826rem;
+  width: 866rem;
 }
 
 .mediaMedium .MainPage_contentWrapper_03 {
-  width: 980rem;
+  width: 1016rem;
 }
 
 .mediaLarge .MainPage_contentWrapper_03 {
   width: 1175rem;
+}
+
+.MainPage_scroll_e6 {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.MainPage_scrollArea_2e {
+  width: 100%;
+  height: 100%;
+}
+
+.MainPage_scrollContent_27 {
+  width: 100%;
 }
 
 @keyframes App_hiddenBlink_62 {
@@ -3258,7 +4666,8 @@ This bug is reproduced in Google Chrome 81.0.4044.113
   left: 0;
   z-index: -1;
 }
-.App_background__dailyQuests_ab {
+.App_background__dailyQuests_ab,
+.App_background__serialEnter_7e {
   background-image: url("R.images.gui.maps.icons.daily.quests.bg_standart");
 }
 .App_background__premiumQuests_35 {

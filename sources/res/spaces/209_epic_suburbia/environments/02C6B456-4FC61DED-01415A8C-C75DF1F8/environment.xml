@@ -152,7 +152,7 @@
 		</influences>
 	</SSAO>
 	<Shadow>
-		<maxShadowsSplitCount>5</maxShadowsSplitCount>
+		<maxShadowsSplitCount>4</maxShadowsSplitCount>
 		<maxDynamicViewDistance>16384</maxDynamicViewDistance>
 		<lightSize>1</lightSize>
 		<dynamicShadowsLightSize>13</dynamicShadowsLightSize>
@@ -292,8 +292,8 @@
 		<sunScaleForward>0</sunScaleForward>
 		<sunColorForward>246.074997 206.18158 163.639877</sunColorForward>
 		<sunTextureForward></sunTextureForward>
-		<sunLightColorForward>0.419999987 0.264936 0.121799998</sunLightColorForward>
-		<ambientColorForward>0.480250001 0.509121001 0.564999998</ambientColorForward>
+		<sunLightColorForward>0.501960993 0.31764701 0.145098001</sunLightColorForward>
+		<ambientColorForward>0.576470971 0.615685999 0.678430974</ambientColorForward>
 		<starttime>10</starttime>
 	</day_night_cycle>
 	<dirt>

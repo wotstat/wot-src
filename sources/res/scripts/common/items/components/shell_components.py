@@ -67,7 +67,7 @@ class DistanceDamageFactor(object):
 
 
 class HighExplosiveImpactParams(object):
-    __slots__ = (b'radius', b'damages', b'coneAngleCos', b'piercingSpalls', b'damageAbsorptionType', b'isActive', b'useEffectiveArmor')
+    __slots__ = (b'radius', b'damages', b'coneAngleCos', b'piercingSpalls', b'damageAbsorptionType', b'isActive', b'useEffectiveArmor', b'useFactorAfterCalcDamage')
 
     def __init__(self):
         self.radius = component_constants.ZERO_FLOAT
@@ -77,14 +77,15 @@ class HighExplosiveImpactParams(object):
         self.damageAbsorptionType = None
         self.useEffectiveArmor = False
         self.isActive = True
+        self.useFactorAfterCalcDamage = False
         return
 
     def __repr__(self):
-        return (b'HighExplosiveImpactParams(radius={}, damages={}, coneAngleCos={}, piersingSpalls={}, damageAbsorption={}, useEffectiveArmor={})').format(self.radius, self.damages, self.coneAngleCos, self.piercingSpalls, DamageAbsorptionTypeToLabel[self.damageAbsorptionType] if self.damageAbsorptionType else None, self.useEffectiveArmor)
+        return (b'HighExplosiveImpactParams(radius={}, damages={}, coneAngleCos={}, piersingSpalls={}, damageAbsorption={}, useEffectiveArmor={}, useFactorAfterCalcDamage={})').format(self.radius, self.damages, self.coneAngleCos, self.piercingSpalls, DamageAbsorptionTypeToLabel[self.damageAbsorptionType] if self.damageAbsorptionType else None, self.useEffectiveArmor, self.useFactorAfterCalcDamage)
 
 
 class HighExplosiveType(ShellType):
-    __slots__ = (b'explosionRadius', b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor', b'mechanics', b'blastWave', b'shellFragments', b'armorSpalls', b'shellFragmentsDamageAbsorptionFactor', b'obstaclePenetration', b'shieldPenetration', b'maxDamage', b'protectFromDirectHits', b'protectFromIndirectHits', b'protectFromDestroy', b'explosionDisableDamageFalloff')
+    __slots__ = (b'explosionRadius', b'explosionDamageFactor', b'explosionDamageAbsorptionFactor', b'explosionEdgeDamageFactor', b'mechanics', b'blastWave', b'shellFragments', b'armorSpalls', b'shellFragmentsDamageAbsorptionFactor', b'obstaclePenetration', b'shieldPenetration', b'maxDamage', b'protectFromDirectHits', b'protectFromIndirectHits', b'protectFromDestroy')
 
     def __init__(self, name):
         super(HighExplosiveType, self).__init__(name)
@@ -93,7 +94,6 @@ class HighExplosiveType(ShellType):
         self.explosionDamageAbsorptionFactor = component_constants.ZERO_FLOAT
         self.explosionEdgeDamageFactor = component_constants.ZERO_FLOAT
         self.shellFragmentsDamageAbsorptionFactor = component_constants.ZERO_FLOAT
-        self.explosionDisableDamageFalloff = component_constants.ZERO_FLOAT
         self.mechanics = SHELL_MECHANICS_TYPE.LEGACY
         self.obstaclePenetration = None
         self.shieldPenetration = None
@@ -107,7 +107,7 @@ class HighExplosiveType(ShellType):
         return
 
     def __repr__(self):
-        return (b'HighExplosiveType(explosionRadius={}, explosionDamageFactor={}, explosionDamageAbsorptionFactor={}, explosionEdgeDamageFactor={}, mechanics={}, obstaclePenetration={}, shieldPenetration={}, blastWave={}, shellFragments={}, armorSpalls={}, shellFragmentsDamageAbsorptionFactor={}, protectFromDirectHits = {}, protectFromIndirectHits = {}, protectFromDestroy = {}, explosionDisableDamageFalloff = {}, ').format(self.explosionRadius, self.explosionDamageFactor, self.explosionDamageAbsorptionFactor, self.explosionEdgeDamageFactor, self.mechanics, self.obstaclePenetration, self.shieldPenetration, self.blastWave, self.shellFragments, self.armorSpalls, self.shellFragmentsDamageAbsorptionFactor, self.protectFromDirectHits, self.protectFromIndirectHits, self.protectFromDestroy, self.explosionDisableDamageFalloff)
+        return (b'HighExplosiveType(explosionRadius={}, explosionDamageFactor={}, explosionDamageAbsorptionFactor={}, explosionEdgeDamageFactor={}, mechanics={}, obstaclePenetration={}, shieldPenetration={}, blastWave={}, shellFragments={}, armorSpalls={}, shellFragmentsDamageAbsorptionFactor={}, protectFromDirectHits = {}, protectFromIndirectHits = {}, protectFromDestroy = {}').format(self.explosionRadius, self.explosionDamageFactor, self.explosionDamageAbsorptionFactor, self.explosionEdgeDamageFactor, self.mechanics, self.obstaclePenetration, self.shieldPenetration, self.blastWave, self.shellFragments, self.armorSpalls, self.shellFragmentsDamageAbsorptionFactor, self.protectFromDirectHits, self.protectFromIndirectHits, self.protectFromDestroy)
 
 
 class SmokeType(ShellType):

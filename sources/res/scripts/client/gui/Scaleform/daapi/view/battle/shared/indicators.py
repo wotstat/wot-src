@@ -491,7 +491,7 @@ class SixthSenseIndicator(SixthSenseMeta):
         self.settingsCore.onSettingsChanged += self.__onSettingsChanged
         ctrl = self.sessionProvider.shared.vehicleState
         if ctrl is not None:
-            ctrl.onVehicleStateUpdated += self._onVehicleStateUpdated
+            ctrl.onVehicleStateUpdated += self.__onVehicleStateUpdated
             ctrl.onVehicleControlling += self.__onVehicleChanged
         aih_global_binding.subscribe(aih_global_binding.BINDING_ID.CTRL_MODE_NAME, self.__onControlModeChanged)
         self.__onControlModeChanged()
@@ -501,7 +501,7 @@ class SixthSenseIndicator(SixthSenseMeta):
         self.__cancelCallback()
         ctrl = self.sessionProvider.shared.vehicleState
         if ctrl is not None:
-            ctrl.onVehicleStateUpdated -= self._onVehicleStateUpdated
+            ctrl.onVehicleStateUpdated -= self.__onVehicleStateUpdated
             ctrl.onVehicleControlling -= self.__onVehicleChanged
         aih_global_binding.unsubscribe(aih_global_binding.BINDING_ID.CTRL_MODE_NAME, self.__onControlModeChanged)
         self.settingsCore.onSettingsChanged -= self.__onSettingsChanged
@@ -579,7 +579,7 @@ class SixthSenseIndicator(SixthSenseMeta):
         self.__applyIndicatorState(shouldShow, showImmediate=True, hideImmediate=True)
         return
 
-    def _onVehicleStateUpdated(self, state, value):
+    def __onVehicleStateUpdated(self, state, value):
         if state == VEHICLE_VIEW_STATE.SWITCHING:
             self.__resetIndicator()
             return

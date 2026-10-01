@@ -32,7 +32,7 @@
 	<effect>
 		<name>water</name>
 		<hardness_map>0.02 0.2</hardness_map>
-		<not_ground_material>true</not_ground_material>
+		<liquid_material>true</liquid_material>
 		<hardness_rtpc>0.2</hardness_rtpc>
 	</effect>
 	<effect>
@@ -44,5 +44,11 @@
 		<name>oil</name>
 		<hardness_map>0.02 0.2</hardness_map>
 		<hardness_rtpc>0</hardness_rtpc>
+	</effect>
+	<effect>
+		<name>lava</name>
+		<hardness_map>0.02 0.2</hardness_map>
+		<liquid_material>true</liquid_material>
+		<hardness_rtpc>0.2</hardness_rtpc>
 	</effect>
 </root>

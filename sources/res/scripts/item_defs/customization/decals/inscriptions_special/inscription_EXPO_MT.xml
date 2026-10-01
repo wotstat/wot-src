@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy" xmlns:intunion="intunion">
+	<itemGroup>
+		<name>Battle Pass 12 2023</name>
+		<userString>#vehicle_customization:inscription/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>MT inscriptions 25g notInShop</priceGroup>
+		<tags>hiddenInUI</tags>
+		<decal>
+			<id>31032</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/special/EXPO_inscription_MT.dds</texture>
+			<userString>#vehicle_customization:inscription/EXPO_MT</userString>
+		</decal>
+		<type>INSCRIPTION</type>
+	</itemGroup>
+</root>

@@ -86,16 +86,16 @@
               x = e.center,
               S = e.flexEnd,
               T = e.spaceBetween,
-              P = e.spaceAround,
-              R = e.justifyContent,
+              R = e.spaceAround,
+              P = e.justifyContent,
               y =
-                void 0 === R
+                void 0 === P
                   ? (w ? "flex-start" : x && "center") ||
                     (S && "flex-end") ||
                     (T && "space-between") ||
-                    (P && "space-around") ||
+                    (R && "space-around") ||
                     void 0
-                  : R,
+                  : P,
               O = e.alignItems,
               N =
                 void 0 === O
@@ -107,9 +107,9 @@
               I = void 0 === k ? (L ? "wrap" : void 0) : k,
               U = e.grow,
               H = e.shrink,
-              W = e.flex,
-              G = void 0 === W ? (U || H ? `${U ? 1 : 0} ${H ? 1 : 0} auto` : void 0) : W,
-              $ = e.style,
+              $ = e.flex,
+              G = void 0 === $ ? (U || H ? `${U ? 1 : 0} ${H ? 1 : 0} auto` : void 0) : $,
+              W = e.style,
               j = e.children,
               z = (function (e, u) {
                 if (null == e) return {};
@@ -133,7 +133,7 @@
                       return ("number" == typeof r && (u[d[t]] = r + "rem"), u);
                     }, {}))(e);
                 return {
-                  computedStyle: Object.assign({}, $, n, {
+                  computedStyle: Object.assign({}, W, n, {
                     width: void 0 !== t && "number" == typeof t ? t + "rem" : t,
                     height: void 0 !== r && "number" == typeof r ? r + "rem" : r,
                     flex: G,
@@ -146,7 +146,7 @@
                   }),
                   computedClassNames: u,
                 };
-              }, [t, r, i, D, g, h, $, G, M, f, I, y, N]),
+              }, [t, r, i, D, g, h, W, G, M, f, I, y, N]),
               X = Z.computedStyle,
               q = Z.computedClassNames;
             return l().createElement(
@@ -469,6 +469,7 @@
               (e.SelectableBonus = "selectableBonus"),
               (e.StyleProgressToken = "styleProgressToken"),
               (e.TmanToken = "tmanToken"),
+              (e.PortalEventDiscount25 = "portalEventDiscountToken"),
               (e.NaturalCover = "naturalCover"),
               (e.BpCoin = "bpcoin"),
               (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -501,13 +502,7 @@
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
               (e.RewardsSlots = "rewardsSlots"),
-              (e.WtStamp = "stamp"),
-              (e.WtHunter = "wt_hunter"),
-              (e.WtBoss = "wt_boss"),
-              (e.WtHunterCollection = "hunter_collection"),
-              (e.WtTicket = "wtevent_ticket"),
-              (e.WtMainPrizeDiscount = "main_prize_discount"),
-              (e.WtTicket25 = "wtevent_ticket25"));
+              (e.RazlomCoin = "razlom_coin"));
           })(r || (r = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -655,11 +650,6 @@
             s.E4.PremiumPlusUniversal,
             s.E4.GoldenTicket,
             s.E4.RewardsSlots,
-            s.E4.WtStamp,
-            s.E4.WtTicket,
-            s.E4.WtMainPrizeDiscount,
-            s.E4.WtHunter,
-            s.E4.WtHunterCollection,
           ],
           o = [s.E4.Gold, s.E4.Credits, s.E4.Crystal, s.E4.FreeXp],
           l = [s.E4.BattlePassPoints],
@@ -835,6 +825,8 @@
               case s.E4.StyleProgress:
               case s.E4.LbStyleProgress:
                 return C(a, u, s.ye.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2936,7 +2928,7 @@
               u,
             );
           },
-          W = ["children", "body", "header", "note", "alert", "args"];
+          $ = ["children", "body", "header", "note", "alert", "args"];
         function G() {
           return (
             (G =
@@ -2951,7 +2943,7 @@
             G.apply(this, arguments)
           );
         }
-        const $ = R.views.common.tooltip_window.simple_tooltip_content,
+        const W = R.views.common.tooltip_window.simple_tooltip_content,
           j = (e) => {
             let u = e.children,
               t = e.body,
@@ -2967,7 +2959,7 @@
                   a = Object.keys(e);
                 for (r = 0; r < a.length; r++) ((t = a[r]), u.indexOf(t) >= 0 || (n[t] = e[t]));
                 return n;
-              })(e, W);
+              })(e, $);
             const c = (0, s.useMemo)(() => {
               const e = Object.assign({}, o, { body: t, header: r, note: n, alert: a });
               for (const u in e) void 0 === e[u] && delete e[u];
@@ -2979,7 +2971,7 @@
                 {
                   contentId:
                     ((E = null == o ? void 0 : o.hasHtmlContent),
-                    E ? $.SimpleTooltipHtmlContent("resId") : $.SimpleTooltipContent("resId")),
+                    E ? W.SimpleTooltipHtmlContent("resId") : W.SimpleTooltipContent("resId")),
                   decoratorId: R.views.common.tooltip_window.tooltip_window.TooltipWindow("resId"),
                   args: c,
                 },
@@ -3371,8 +3363,8 @@
           xe = "ProgressBarDeltaGrow_glow_68",
           Se = (e) => (e ? { left: 0 } : { right: 0 }),
           Te = (e, u) => (e ? { right: 100 - u + "%" } : { left: `${u}%` }),
-          Pe = (e) => ({ transitionDuration: `${e}ms` }),
-          Re = (0, s.memo)(
+          Re = (e) => ({ transitionDuration: `${e}ms` }),
+          Pe = (0, s.memo)(
             ({
               transitionDuration: e,
               transitionDelay: u,
@@ -3416,16 +3408,16 @@
                         : void (F && l && l());
               }, [h, t, F, B, D, g, l, u, e]);
               const p = (0, s.useMemo)(
-                  () => Object.assign({ width: "100%" }, Pe(e), Se(m)),
+                  () => Object.assign({ width: "100%" }, Re(e), Se(m)),
                   [m, e],
                 ),
-                v = (0, s.useMemo)(() => Object.assign({ width: "0%" }, Pe(e), Se(m)), [m, e]),
+                v = (0, s.useMemo)(() => Object.assign({ width: "0%" }, Re(e), Se(m)), [m, e]),
                 b = (0, s.useMemo)(
-                  () => Object.assign({ width: "0%" }, Te(m, r), Pe(e)),
+                  () => Object.assign({ width: "0%" }, Te(m, r), Re(e)),
                   [r, m, e],
                 ),
                 f = (0, s.useMemo)(
-                  () => Object.assign({ width: `${Math.abs(o - r)}%` }, Te(m, r), Pe(e)),
+                  () => Object.assign({ width: `${Math.abs(o - r)}%` }, Te(m, r), Re(e)),
                   [r, m, o, e],
                 );
               if (F) return null;
@@ -3480,7 +3472,7 @@
                   baseStyles: _ ? D : F,
                 }),
                 t >= 0 &&
-                  i().createElement(Re, {
+                  i().createElement(Pe, {
                     transitionDuration: o.delta.duration,
                     transitionDelay: o.delta.delay,
                     onChangeAnimationState: d,
@@ -3624,7 +3616,7 @@
                 : i().createElement(Me, Ue({ key: `${n}-${u}` }, c));
             },
           ),
-          We = (e) => ({
+          $e = (e) => ({
             "--progress-base": `url(${e.bgImageBase})`,
             "--progress-line-base": e.line.bgColorBase,
             "--progress-line-disabled": e.line.bgColorDisabled,
@@ -3643,7 +3635,7 @@
             }
             return e;
           },
-          $e = {
+          We = {
             bgImageBase: "R.images.gui.maps.icons.components.progress_bar.pattern_grey",
             line: {
               bgColorBase: "#f50",
@@ -3673,7 +3665,7 @@
           ze = (0, s.memo)(
             ({
               maxValue: e = 100,
-              theme: u = $e,
+              theme: u = We,
               size: t = ce.Default,
               animationSettings: r = je,
               disabled: a = !1,
@@ -3693,7 +3685,7 @@
                 }, [t, u, e]))(c, e, E);
               return i().createElement(
                 "div",
-                { className: n()(le.base, le[`base__${t}`]), style: We(u) },
+                { className: n()(le.base, le[`base__${t}`]), style: $e(u) },
                 !o && i().createElement(me, { size: t, classMix: l }),
                 i().createElement(He, {
                   size: t,
@@ -3734,7 +3726,7 @@
               r = e.maxValue,
               a = void 0 === r ? 100 : r,
               o = e.theme,
-              l = void 0 === o ? $e : o,
+              l = void 0 === o ? We : o,
               c = (function (e, u) {
                 if (null == e) return {};
                 var t,
@@ -3773,7 +3765,7 @@
                 },
                 [A],
               ),
-              F = (0, s.useMemo)(() => We(l), [l]);
+              F = (0, s.useMemo)(() => $e(l), [l]);
             return (
               (u.current.update = d),
               i().createElement(
@@ -4168,8 +4160,8 @@
           xu = R.strings.paragons.entryPoint.tooltip,
           Su = xu.firstEntry,
           Tu = xu.notAvailable,
-          Pu = [1, 2, 3, 4],
-          Ru = [1, 2, 3, 4, 5],
+          Ru = [1, 2, 3, 4],
+          Pu = [1, 2, 3, 4, 5],
           yu = (0, s.memo)(({ isNotChosen: e, vehicleToReset: u, vehicleCount: t }) =>
             i().createElement(
               "div",
@@ -4192,7 +4184,7 @@
                   className: n()(wu.subTitle, wu.subTitle__withPadding),
                   text: Su.steps.rewardsSubTitle(),
                 }),
-                Ru.map((e) =>
+                Pu.map((e) =>
                   i().createElement(
                     "div",
                     { className: wu.rewardRow, key: e },
@@ -4207,7 +4199,7 @@
                     "div",
                     { className: wu.steps },
                     i().createElement(Y.ZP, { text: Su.steps.subTitle(), className: wu.subTitle }),
-                    Pu.map((e) =>
+                    Ru.map((e) =>
                       i().createElement(fu, {
                         key: e,
                         className: wu.step,
@@ -4275,7 +4267,7 @@
             description: "SmallTooltip_description_1f",
             descriptionText: "SmallTooltip_descriptionText_3b",
           },
-          Wu = (0, s.memo)(({ state: e, points: u }) =>
+          $u = (0, s.memo)(({ state: e, points: u }) =>
             i().createElement(
               "div",
               { className: Hu.base },
@@ -4313,7 +4305,7 @@
             ),
           ),
           Gu = R.strings.paragons.entryPoint.tooltip,
-          $u = (0, F.Pi)(() => {
+          Wu = (0, F.Pi)(() => {
             const e = T().model,
               u = e.root.get(),
               t = u.progressState,
@@ -4332,7 +4324,7 @@
               case d.Paused:
                 return i().createElement(Iu, null);
               case d.AllChaptersCompleted:
-                return i().createElement(Wu, { state: t, points: r });
+                return i().createElement($u, { state: t, points: r });
               case d.NotAvailable:
                 return i().createElement(yu, {
                   isNotChosen: !1,
@@ -4341,7 +4333,7 @@
                 });
               case d.ChapterNotChosen:
                 return r
-                  ? i().createElement(Wu, { state: t, points: r })
+                  ? i().createElement($u, { state: t, points: r })
                   : i().createElement(yu, { isNotChosen: !0 });
               default:
                 return i().createElement(_u, {
@@ -4362,7 +4354,7 @@
           });
         engine.whenReady.then(() => {
           A().render(
-            i().createElement(S, null, i().createElement(m, null, i().createElement($u, null))),
+            i().createElement(S, null, i().createElement(m, null, i().createElement(Wu, null))),
             document.getElementById("root"),
           );
         });

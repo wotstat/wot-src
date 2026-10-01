@@ -265,7 +265,7 @@ class VOIPManagerWebRTC(VOIPHandler):
 
     def __setMicMute(self, muted):
         _logger.debug(b'SetMicMute: %s', str(muted))
-        if self.__getOwnPlayerDBID() != 0 and self.isCurrentChannelEnabled() and len(self.__channelUsers) == 0:
+        if self.__getOwnPlayerDBID() != 0 and self.isCurrentChannelEnabled() and not self.__channelUsers:
             self.onPlayerSpeaking(self.__getOwnPlayerDBID(), not muted)
         if muted:
             BigWorld.VOIP.disableMicrophone()
@@ -415,10 +415,7 @@ class VOIPManagerWebRTC(VOIPHandler):
         dbid = int(data[VOIPCommon.KEY_PARTICIPANT_URI])
         self.__channelUsers[dbid] = {b'talking': False, b'dbid': dbid, b'muted': False}
         user = self.usersStorage.getUser(dbid)
-        muted = False
-        if user:
-            muted = user.isMuted
-        self.__muteParticipantForMe(dbid, muted)
+        self.__muteParticipantForMe(dbid, user and user.isMuted())
         return
 
     def onParticipantRemoved(self, data):
@@ -438,7 +435,7 @@ class VOIPManagerWebRTC(VOIPHandler):
         dbid = int(data[VOIPCommon.KEY_PARTICIPANT_URI])
         if dbid == 0:
             dbid = self.__getOwnPlayerDBID()
-            if len(self.__channelUsers) == 0:
+            if not self.__channelUsers:
                 return
         talking = int(data[VOIPCommon.KEY_IS_SPEAKING])
         if dbid in self.__channelUsers:

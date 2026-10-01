@@ -23,7 +23,6 @@ package net.wg.gui.lobby.settings
    import net.wg.gui.components.windows.WindowEvent;
    import net.wg.gui.events.ViewStackEvent;
    import net.wg.gui.interfaces.ISettingsBase;
-   import net.wg.gui.lobby.settings.components.EventSettingLabel;
    import net.wg.gui.lobby.settings.components.evnts.LimitedUIEvent;
    import net.wg.gui.lobby.settings.config.SettingsConfigHelper;
    import net.wg.gui.lobby.settings.events.AlternativeVoiceEvent;
@@ -116,8 +115,6 @@ package net.wg.gui.lobby.settings
       
       public var applyBtn:SoundButtonEx = null;
       
-      public var eventDisableLabel:EventSettingLabel = null;
-      
       private var _invalidTabs:Object = {};
       
       private var _invalidTabsNewCounterData:Object = {};
@@ -135,8 +132,6 @@ package net.wg.gui.lobby.settings
       private var _tabToSelect:int = -1;
       
       private var _graphicsPresetToSelect:int = -1;
-      
-      private var _isEvent:Boolean = false;
       
       private var _disabledTabsOverlay:DisabledTabsOverlay = null;
       
@@ -201,6 +196,8 @@ package net.wg.gui.lobby.settings
          addEventListener(SettingViewEvent.ON_GAMMA_SETTING_OPEN,this.onOnGammaSettingOpenHandler);
          addEventListener(SettingViewEvent.ON_COLOR_SETTING_OPEN,this.onOnColorSettingOpenHandler);
          addEventListener(SettingViewEvent.ON_RESET_BATTLE_CONTEXT_HINTS,this.onBattleContextHintResetHandler);
+         addEventListener(SettingViewEvent.ON_SOUND_SYSTEM_OFF_LINK_CLICKED,this.onSoundSystemOffLinkClickedHandler);
+         addEventListener(SettingViewEvent.GET_SYSTEM_OFF_STATUS,this.onGetSystemOffStatusHandler);
          updateStage(App.appWidth,App.appHeight);
          window.addEventListener(WindowEvent.SCALE_Y_CHANGED,this.onWindowScaleYChangedHandler);
       }
@@ -238,8 +235,6 @@ package net.wg.gui.lobby.settings
          this.tabLine = null;
          this.applyBtn.dispose();
          this.applyBtn = null;
-         this.eventDisableLabel.dispose();
-         this.eventDisableLabel = null;
          if(Boolean(this.view))
          {
             this.view.removeEventListener(ViewStackEvent.NEED_UPDATE,this.onViewNeedUpdateHandler);
@@ -272,6 +267,8 @@ package net.wg.gui.lobby.settings
          removeEventListener(SettingViewEvent.ON_GAMMA_SETTING_OPEN,this.onOnGammaSettingOpenHandler);
          removeEventListener(SettingViewEvent.ON_COLOR_SETTING_OPEN,this.onOnColorSettingOpenHandler);
          removeEventListener(SettingViewEvent.ON_RESET_BATTLE_CONTEXT_HINTS,this.onBattleContextHintResetHandler);
+         removeEventListener(SettingViewEvent.ON_SOUND_SYSTEM_OFF_LINK_CLICKED,this.onSoundSystemOffLinkClickedHandler);
+         removeEventListener(SettingViewEvent.GET_SYSTEM_OFF_STATUS,this.onGetSystemOffStatusHandler);
          this._settingsConfigHelper.changesData.clear();
          this._settingsConfigHelper = null;
          this._invalidTabs = App.utils.data.cleanupDynamicObject(this._invalidTabs);
@@ -456,16 +453,6 @@ package net.wg.gui.lobby.settings
          {
             _loc2_.setPresetAfterAutoDetect(this._graphicsPresetToSelect);
             this._graphicsPresetToSelect = -1;
-         }
-      }
-      
-      public function as_setTigerEvent(param1:Boolean) : void
-      {
-         this.eventDisableLabel.visible = param1;
-         this._isEvent = param1;
-         if(Boolean(this.view) && this.view.currentView is FeedbackSettings)
-         {
-            FeedbackSettings(this.view.currentView).setIsEvent(this._isEvent);
          }
       }
       
@@ -772,10 +759,6 @@ package net.wg.gui.lobby.settings
             {
                this._isFeedbackDPInstalled = true;
                FeedbackSettings(_loc4_).setDataProvider(this._feedbackDataProvider);
-            }
-            if(_loc4_ is FeedbackSettings)
-            {
-               FeedbackSettings(_loc4_).setIsEvent(this._isEvent);
             }
          }
       }
@@ -1274,7 +1257,6 @@ package net.wg.gui.lobby.settings
          {
             this._isFeedbackDPInstalled = true;
             FeedbackSettings(_loc2_).setDataProvider(this._feedbackDataProvider);
-            FeedbackSettings(_loc2_).setIsEvent(this._isEvent);
          }
       }
       
@@ -1468,6 +1450,22 @@ package net.wg.gui.lobby.settings
       private function onBattleContextHintResetHandler(param1:SettingViewEvent) : void
       {
          showWarningDialogS(SETTINGS_DIALOGS.RESET_BATTLE_CONTEXT_HINTS_NOTIFICATION,null,false);
+      }
+      
+      private function onSoundSystemOffLinkClickedHandler(param1:SettingViewEvent) : void
+      {
+         showSystemMixerVolumeDisabledPageS();
+      }
+      
+      private function onGetSystemOffStatusHandler(param1:SettingViewEvent) : void
+      {
+         var _loc3_:Boolean = false;
+         var _loc2_:SoundSettings = this.getSoundSettings();
+         if(Boolean(_loc2_))
+         {
+            _loc3_ = isSystemMixerVolumeDisabledS();
+            _loc2_.setSystemMixerVolumeDisabled(_loc3_);
+         }
       }
    }
 }

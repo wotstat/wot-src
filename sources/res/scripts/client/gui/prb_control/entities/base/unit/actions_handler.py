@@ -21,7 +21,7 @@ class AbstractActionsHandler(object):
     def showGUI(self):
         return
 
-    def setPlayerInfoChanged(self):
+    def setPlayerInfoChanged(self, pInfo=None):
         return
 
     def setPlayersChanged(self):

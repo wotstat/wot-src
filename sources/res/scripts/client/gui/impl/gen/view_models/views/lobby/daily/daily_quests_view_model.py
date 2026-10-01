@@ -15,7 +15,7 @@ class DailyTabs(IntEnum):
 class DailyQuestsViewModel(ViewModel):
     __slots__ = (b'onClose', b'onTabClick', b'onInfoClick', b'onShowInfo', b'onInfoToggle', b'onBuyPremiumBtnClick', b'onRerollEnabled', b'onClaimRewards')
 
-    def __init__(self, properties=8, commands=8):
+    def __init__(self, properties=7, commands=8):
         super(DailyQuestsViewModel, self).__init__(properties=properties, commands=commands)
         return
 
@@ -76,13 +76,6 @@ class DailyQuestsViewModel(ViewModel):
         self._setNumber(6, value)
         return
 
-    def getIntroSeen(self):
-        return self._getBool(7)
-
-    def setIntroSeen(self, value):
-        self._setBool(7, value)
-        return
-
     def _initialize(self):
         super(DailyQuestsViewModel, self)._initialize()
         self._addStringProperty(b'dailyType')
@@ -92,7 +85,6 @@ class DailyQuestsViewModel(ViewModel):
         self._addArrayProperty(b'dailyBattleTypes', Array())
         self._addArrayProperty(b'serialEnterBattleTypes', Array())
         self._addNumberProperty(b'currentTabIdx', 0)
-        self._addBoolProperty(b'introSeen', False)
         self.onClose = self._addCommand(b'onClose')
         self.onTabClick = self._addCommand(b'onTabClick')
         self.onInfoClick = self._addCommand(b'onInfoClick')

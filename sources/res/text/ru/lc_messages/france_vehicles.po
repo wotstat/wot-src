@@ -25,6 +25,12 @@ msgstr "AMX 40"
 msgid "AMX40_descr"
 msgstr "Проектирование танка началось в марте 1940 года. Корпус практически не имел прямых углов, бронелисты имели сложную криволинейную форму. Предполагалось, что в 1941–1942 годах AMX 40 заменит танки SOMUA S35 и S40, однако в июле 1940 года проектирование было прекращено. Прототип построен не был."
 
+msgid "AMX40_portal"
+msgstr "AMX 40 Marat"
+
+msgid "AMX40_portal_short"
+msgstr "AMX 40 Marat"
+
 msgid "AMX40_short"
 msgstr "AMX 40"
 
@@ -208,6 +214,9 @@ msgstr "AMX B 270"
 msgid "AMX_B_271"
 msgstr "AMX B 271"
 
+msgid "AMX_B_271_H"
+msgstr "AMX B 271"
+
 msgid "AMX_B_271_SH"
 msgstr "AMX B 271"
 
@@ -355,6 +364,9 @@ msgstr "105 mm AC court mle. 1934 S"
 msgid "Canon_de_105_court_mle_1934S_AC_short"
 msgstr "105 mm AC court\nmle. 1934 S"
 
+msgid "Canon_de_105_court_mle_1934S_H"
+msgstr "105 mm court mle. 1934 S"
+
 msgid "Canon_de_105_court_mle_1934S_SH"
 msgstr "105 mm court mle. 1934 S"
 
@@ -412,6 +424,9 @@ msgstr "Canon de 75 mm Vo 920 m/s"
 msgid "Canon_de_75mm_Vo_920_m_s_EBR"
 msgstr "Canon de 75 mm Vo 920 m/s (EBR)"
 
+msgid "Canon_de_75mm_Vo_920_m_s_dualgun_H"
+msgstr "Canon de 75 mm Vo 920 m/s DP"
+
 msgid "Canon_de_75mm_Vo_920_m_s_dualgun_SH"
 msgstr "Canon de 75 mm Vo 920 m/s DP"
 
@@ -421,6 +436,9 @@ msgstr "Canon de 90 mm Vo 930 m/s"
 msgid "Chassis_105_leFH18B2"
 msgstr "leFH18B2"
 
+msgid "Chassis_AMC_35_H"
+msgstr "AMC 35"
+
 msgid "Chassis_AMC_35_SH"
 msgstr "AMC 35"
 
@@ -428,6 +446,9 @@ msgid "Chassis_AMX13_57_100"
 msgstr "AMX 13 57"
 
 msgid "Chassis_AMX13_57_100_GrandFinal"
+msgstr "AMX 13 57"
+
+msgid "Chassis_AMX13_57_100_H"
 msgstr "AMX 13 57"
 
 msgid "Chassis_AMX13_57_100_SH"
@@ -576,6 +597,9 @@ msgstr "Batignolles-Châtillon 155 mle. 56"
 
 msgid "Chassis_Bat_Chatillon25t_2"
 msgstr "Batignolles-Châtillon 25 t"
+
+msgid "Chassis_Bat_Chatillon25t_2_H"
+msgstr "Bat.-Châtillon 25 t"
 
 msgid "Chassis_Bat_Chatillon25t_2_SH"
 msgstr "Bat.-Châtillon 25 t"
@@ -906,6 +930,9 @@ msgstr "Detroit Diesel 6V53T-S"
 
 msgid "Detroit_Diesel_6V53T-S_short"
 msgstr "Detroit Diesel\n6V53T-S"
+
+msgid "Detroit_Diesel_6V53T_H"
+msgstr "Detroit Diesel 6V53T"
 
 msgid "Detroit_Diesel_6V53T_SH"
 msgstr "Detroit Diesel 6V53T"
@@ -1342,6 +1369,21 @@ msgstr "Хорошая динамика, отличное орудие с маг
 msgid "F134_ARL_Projet_F"
 msgstr "ARL Projet F"
 
+msgid "F134_ARL_Projet_F_T"
+msgstr "ARL Projet F Test"
+
+msgid "F134_ARL_Projet_F_T_descr"
+msgstr ".\n\nХарактеристики машины могут быть изменены без компенсации."
+
+msgid "F134_ARL_Projet_F_T_long_special"
+msgstr "?empty?"
+
+msgid "F134_ARL_Projet_F_T_short"
+msgstr "Projet F (T)"
+
+msgid "F134_ARL_Projet_F_T_short_special"
+msgstr "?empty?"
+
 msgid "F134_ARL_Projet_F_descr"
 msgstr "Перед началом Второй мировой войны французская армия запустила программу разработки сверхтяжёлых танков прорыва. Оккупация Франции остановила все работы, но летом 1944 года Париж и его окрестности были освобождены, что позволило возобновить разработку танков. Летом 1945 года инженеры фирмы ARL представили инициативный проект сверхтяжёлого танка прорыва, подобного тем, что разрабатывались до войны, но на новой технологической базе. Проект получил название Projet F. Танк проектировался из крупных литых и катаных элементов, был оснащён электромеханической трансмиссией. В передней части размещалась вспомогательная башенка, которую предполагалось вооружить либо малокалиберной пушкой, либо огнемётом. В основной башне размещалось мощное 138,6-мм корабельное орудие, а наличие дальномера у командира значительно повышало точность стрельбы. По итогам войны стало понятно, что сверхтяжёлые танки слишком уязвимы для авиации и дороги в производстве, а в послевоенной Франции было не до производства столь дорогих машин. Поэтому работы над проектом ARL Projet F не продвинулись дальше эскизной проработки.\n\nХарактеристики машины могут быть изменены без компенсации."
 
@@ -1470,6 +1512,15 @@ msgstr "AMR 35"
 
 msgid "F42_AMR_35_short_special"
 msgstr "Хорошее орудие, отличная маскировка"
+
+msgid "F43_AMC_35_H"
+msgstr "Василиск"
+
+msgid "F43_AMC_35_H_descr"
+msgstr "Лёгкость, плавность форм, изящество — три кита, на которых зиждется танкостроение французов. В этой машине никакого заимствования, никаких технологий, добытых путём промышленного шпионажа — только оригинальные и эффективные идеи и решения."
+
+msgid "F43_AMC_35_H_short"
+msgstr "Василиск"
 
 msgid "F64_AMX_50Fosh_B"
 msgstr "AMX 50 Foch B"
@@ -1825,6 +1876,9 @@ msgstr "Hispano-Suiza HS 110"
 msgid "Hispano-Suiza_HS110_A"
 msgstr "Hispano-Suiza HS 110 pré-série"
 
+msgid "Hispano-Suiza_HS110_H"
+msgstr "Hispano-Suiza HS 110"
+
 msgid "Hispano-Suiza_HS110_SH"
 msgstr "Hispano-Suiza HS 110"
 
@@ -2179,6 +2233,9 @@ msgstr "SCR 508"
 msgid "SCR_508_1"
 msgstr "SCR 508/2"
 
+msgid "SCR_508_H"
+msgstr "SCR 508"
+
 msgid "SCR_508_SH"
 msgstr "SCR 508"
 
@@ -2204,6 +2261,9 @@ msgid "SCR_528F_F144"
 msgstr "SCR 528F"
 
 msgid "SCR_528_F"
+msgstr "SCR-528 F"
+
+msgid "SCR_528_F_H"
 msgstr "SCR-528 F"
 
 msgid "SCR_528_F_SH"
@@ -2331,6 +2391,9 @@ msgstr "TRVP-13-A3"
 
 msgid "TRVP_13_A_1"
 msgstr "TRVP-13-A1"
+
+msgid "TRVP_13_H"
+msgstr "TRVP-13"
 
 msgid "TRVP_13_P"
 msgstr "TRVP-13"
@@ -2578,6 +2641,9 @@ msgstr "AMX Canon d'assaut de 105"
 msgid "Turret_1_F97_ELC_EVEN_90"
 msgstr "ELC EVEN tourelle de 90"
 
+msgid "Turret_1_F97_ELC_EVEN_90_H"
+msgstr "EVEN-Z Tourelle"
+
 msgid "Turret_1_F97_ELC_EVEN_90_SH"
 msgstr "EVEN-Z Tourelle"
 
@@ -2671,6 +2737,9 @@ msgstr "D2 APX 4"
 msgid "Turret_2_F109_AMD_Panhard_178B"
 msgstr "Panhard AMD 178B FL 1"
 
+msgid "Turret_2_F62_ELC_AMX_H"
+msgstr "Basé sur un ELC bis"
+
 msgid "Turret_2_F62_ELC_AMX_SH"
 msgstr "Basé sur un ELC bis"
 
@@ -2697,6 +2766,9 @@ msgstr "ARL 42"
 
 msgid "Turret_2_Somua_S35"
 msgstr "ARL 2C"
+
+msgid "Turret_3_F87_Bat-Chatillon12t_H"
+msgstr "Basé sur un Bat.-Châtillon 12 t"
 
 msgid "Turret_3_F87_Bat-Chatillon12t_SH"
 msgstr "Basé sur un Bat.-Châtillon 12 t"
@@ -2785,8 +2857,14 @@ msgstr "105 mm OFL-105E3"
 msgid "_105mm_APCR_OFL_E1"
 msgstr "OFL-105-57"
 
+msgid "_105mm_APCR_OFL_H"
+msgstr "APCR-OLF"
+
 msgid "_105mm_APCR_OFL_SH"
 msgstr "APCR-OLF"
+
+msgid "_105mm_AP_OFL_H"
+msgstr "Prf. 105"
 
 msgid "_105mm_AP_OFL_SH"
 msgstr "Prf. 105"
@@ -2795,6 +2873,9 @@ msgid "_105mm_CN_105"
 msgstr "105 mm CN 105"
 
 msgid "_105mm_CN_105_57"
+msgstr "105 mm mle. 57 (D. 1504)"
+
+msgid "_105mm_CN_105_57_H"
 msgstr "105 mm mle. 57 (D. 1504)"
 
 msgid "_105mm_CN_105_57_SH"
@@ -2863,6 +2944,9 @@ msgstr "OCC 105-F1"
 msgid "_105mm_OCO_mle._1936"
 msgstr "OCO mle. 1936"
 
+msgid "_105mm_OCO_mle._1936_H"
+msgstr "Prf. mle. 1936"
+
 msgid "_105mm_OCO_mle._1936_SH"
 msgstr "Prf. mle. 1936"
 
@@ -2913,6 +2997,9 @@ msgstr "OFL-105 D. 1504"
 
 msgid "_105mm_OFL_105_D1504_L51"
 msgstr "OFL-105 D. 1504 L/51"
+
+msgid "_105mm_OFL_105_D1_H"
+msgstr "OLF-105D1"
 
 msgid "_105mm_OFL_105_D1_SH"
 msgstr "OLF-105D1"
@@ -3046,6 +3133,9 @@ msgstr "120 mm SA46"
 msgid "_127mm_54_Model_1948"
 msgstr "127 mm/54 Model 1948"
 
+msgid "_127mm_54_Model_1948_H"
+msgstr "127 mm/54 Model 1948"
+
 msgid "_127mm_54_Model_1948_SH"
 msgstr "127 mm/54 Model 1948"
 
@@ -3058,8 +3148,14 @@ msgstr "Capped Common Semi-AP"
 msgid "_127mm_Common_HE"
 msgstr "Common HE"
 
+msgid "_127mm_OE_127_D_700_H"
+msgstr "OE-127 D. 700"
+
 msgid "_127mm_OE_127_D_700_SH"
 msgstr "OE-127 D. 700"
+
+msgid "_127mm_OE_127_Mle_55_H"
+msgstr "OE-127-Mle. 55"
 
 msgid "_127mm_OE_127_Mle_55_SH"
 msgstr "OE-127-Mle. 55"
@@ -3313,6 +3409,9 @@ msgstr "Frt.Prf. mle. 1944"
 msgid "_75mm_FrtPrf1944A"
 msgstr "Frt.Prf. mle. 1944A"
 
+msgid "_75mm_FrtPrf1946_H"
+msgstr "75 Frt.Prf. mle. 1945"
+
 msgid "_75mm_FrtPrf1946_SH"
 msgstr "75 Frt.Prf. mle. 1945"
 
@@ -3354,6 +3453,9 @@ msgstr "OCC mle. 54"
 
 msgid "_75mm_OCO_mle._1926"
 msgstr "OCO mle. 1926"
+
+msgid "_75mm_OCO_mle._1926_H"
+msgstr "Prf. mle. 1926"
 
 msgid "_75mm_OCO_mle._1926_SH"
 msgstr "Prf. mle. 1926"
@@ -3517,6 +3619,9 @@ msgstr "90 mm F3"
 msgid "_90mm_F3M"
 msgstr "90 mm F3M"
 
+msgid "_90mm_F3M_H"
+msgstr "90 mm F3M"
+
 msgid "_90mm_F3M_SH"
 msgstr "90 mm F3M"
 
@@ -3529,8 +3634,14 @@ msgstr "Frt.Prf. mle. 1944"
 msgid "_90mm_FrtPrf1944_02"
 msgstr "OCC mle. 1944"
 
+msgid "_90mm_FrtPrf1945_H"
+msgstr "90 Frt.Prf. mle. 1945"
+
 msgid "_90mm_FrtPrf1945_SH"
 msgstr "90 Frt.Prf. mle. 1945"
+
+msgid "_90mm_HEAT_OCC_F1_H"
+msgstr "Prf. 90 F1"
 
 msgid "_90mm_HEAT_OCC_F1_SH"
 msgstr "Prf. 90 F1"
@@ -3546,6 +3657,9 @@ msgstr "OCC"
 
 msgid "_90mm_OCC_90_62_F142"
 msgstr "OCC 90-62"
+
+msgid "_90mm_OCC_90_H"
+msgstr "Prf. 90"
 
 msgid "_90mm_OCC_90_SH"
 msgstr "Prf. 90"
@@ -3573,6 +3687,9 @@ msgstr "OFL"
 
 msgid "_90mm_OFL_90F1_F142"
 msgstr "OFL 90-F1"
+
+msgid "_90mm_OFL_90_DS2_H"
+msgstr "OLF-90-DS2"
 
 msgid "_90mm_OFL_90_DS2_SH"
 msgstr "OLF-90-DS2"
@@ -3609,6 +3726,9 @@ msgstr "90 mm AC DCA 45"
 
 msgid "_90mm_canon_DCA_45_AC_A_02"
 msgstr "90 mm AC DCA 45 Auto"
+
+msgid "_90mm_canon_DCA_45_AC_A_dualgun_H"
+msgstr "90 mm AC DCA 45 DP"
 
 msgid "_90mm_canon_DCA_45_AC_A_dualgun_SH"
 msgstr "90 mm AC DCA 45 DP"

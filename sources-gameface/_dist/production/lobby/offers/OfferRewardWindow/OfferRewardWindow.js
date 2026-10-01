@@ -33,13 +33,13 @@
             addPreloadTexture: () => f,
             children: () => r,
             displayStatus: () => B,
-            displayStatusIs: () => q,
+            displayStatusIs: () => j,
             events: () => C,
-            extraSize: () => j,
-            forceTriggerMouseMove: () => W,
+            extraSize: () => z,
+            forceTriggerMouseMove: () => V,
             freezeTextureBeforeResize: () => M,
             getBrowserTexturePath: () => P,
-            getDisplayStatus: () => V,
+            getDisplayStatus: () => q,
             getScale: () => N,
             getSize: () => O,
             getViewGlobalPosition: () => k,
@@ -54,7 +54,7 @@
             setEventHandled: () => H,
             setInputPaddingsRem: () => T,
             setSidePaddingsRem: () => y,
-            whenTutorialReady: () => z,
+            whenTutorialReady: () => W,
           }));
         const E = i("clientResized"),
           l = { down: i("mousedown"), up: i("mouseup"), move: i("mousemove") };
@@ -258,17 +258,17 @@
         function Y() {
           return viewEnv.isEventHandled();
         }
-        function W() {
+        function V() {
           viewEnv.forceTriggerMouseMove();
         }
-        function V() {
+        function q() {
           return viewEnv.getShowingStatus();
         }
-        const q = Object.keys(B).reduce(
+        const j = Object.keys(B).reduce(
             (u, e) => ((u[e] = () => viewEnv.getShowingStatus() === B[e]), u),
             {},
           ),
-          j = {
+          z = {
             set: (u, e) => {
               viewEnv.setExtraSizeRem(u, e);
             },
@@ -276,7 +276,7 @@
               viewEnv.getExtraSizeRem(u, e);
             },
           },
-          z = Promise.all([
+          W = Promise.all([
             new Promise((u) => {
               window.isDomBuilt ? u() : C.onDomBuilt(u);
             }),
@@ -1378,10 +1378,10 @@
           soundClick: "play",
         };
         const Y = (0, n.memo)(H),
-          W = ["children"];
-        function V() {
+          V = ["children"];
+        function q() {
           return (
-            (V =
+            (q =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1390,10 +1390,10 @@
                 }
                 return u;
               }),
-            V.apply(this, arguments)
+            q.apply(this, arguments)
           );
         }
-        const q = (u) => {
+        const j = (u) => {
           let e = u.children,
             t = (function (u, e) {
               if (null == u) return {};
@@ -1403,10 +1403,10 @@
                 r = Object.keys(u);
               for (n = 0; n < r.length; n++) ((t = r[n]), e.indexOf(t) >= 0 || (o[t] = u[t]));
               return o;
-            })(u, W);
+            })(u, V);
           return o().createElement(
             w,
-            V(
+            q(
               {
                 contentId:
                   R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent(
@@ -1419,9 +1419,9 @@
             e,
           );
         };
-        function j() {
+        function z() {
           return (
-            (j =
+            (z =
               Object.assign ||
               function (u) {
                 for (var e = 1; e < arguments.length; e++) {
@@ -1430,10 +1430,10 @@
                 }
                 return u;
               }),
-            j.apply(this, arguments)
+            z.apply(this, arguments)
           );
         }
-        const z = ({ children: u, tooltipArgs: e, className: t }) => {
+        const W = ({ children: u, tooltipArgs: e, className: t }) => {
           if (!e) return u;
           const n = o().createElement("div", { className: t }, u);
           if (e.header || e.body) return o().createElement(y, e, n);
@@ -1441,8 +1441,8 @@
             s = e.args,
             i = null == s ? void 0 : s.contentId;
           return r || i
-            ? o().createElement(w, j({}, e, { contentId: r || i }), n)
-            : o().createElement(q, e, n);
+            ? o().createElement(w, z({}, e, { contentId: r || i }), n)
+            : o().createElement(j, e, n);
         };
         let X, $, K, Q, Z, J, uu, eu, tu;
         (!(function (u) {
@@ -1477,6 +1477,7 @@
             (u.SelectableBonus = "selectableBonus"),
             (u.StyleProgressToken = "styleProgressToken"),
             (u.TmanToken = "tmanToken"),
+            (u.PortalEventDiscount25 = "portalEventDiscountToken"),
             (u.NaturalCover = "naturalCover"),
             (u.BpCoin = "bpcoin"),
             (u.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1509,13 +1510,7 @@
             (u.GoldenTicket = "goldenticket"),
             (u.LbStyleProgress = "lbStyleProgress"),
             (u.RewardsSlots = "rewardsSlots"),
-            (u.WtStamp = "stamp"),
-            (u.WtHunter = "wt_hunter"),
-            (u.WtBoss = "wt_boss"),
-            (u.WtHunterCollection = "hunter_collection"),
-            (u.WtTicket = "wtevent_ticket"),
-            (u.WtMainPrizeDiscount = "main_prize_discount"),
-            (u.WtTicket25 = "wtevent_ticket25"));
+            (u.RazlomCoin = "razlom_coin"));
         })(X || (X = {})),
           (function (u) {
             ((u.Gold = "gold"),
@@ -1665,11 +1660,6 @@
             X.PremiumPlusUniversal,
             X.GoldenTicket,
             X.RewardsSlots,
-            X.WtStamp,
-            X.WtTicket,
-            X.WtMainPrizeDiscount,
-            X.WtHunter,
-            X.WtHunterCollection,
           ],
           ru = [X.Gold, X.Credits, X.Crystal, X.FreeXp],
           su = [X.BattlePassPoints],
@@ -1787,7 +1777,7 @@
               "div",
               { className: S()(Eu.base, Eu[`base__${n}`], E), style: a },
               o().createElement(
-                z,
+                W,
                 { tooltipArgs: A, className: Eu.tooltipWrapper },
                 o().createElement(
                   o().Fragment,
@@ -1832,7 +1822,7 @@
               ),
               t &&
                 o().createElement(
-                  z,
+                  W,
                   { tooltipArgs: _ },
                   o().createElement("div", {
                     className: S()(Eu.timer, null == l ? void 0 : l.periodicIcon),

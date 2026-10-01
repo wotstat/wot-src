@@ -74,6 +74,7 @@ from messenger import MessengerEntry
 from battle_modifiers_common import BattleModifiers, BattleParams
 import VOIP
 from helpers.thermal_vision.constants import RTPC_EVENT_WARNING
+from messenger.proto.bw_chat2.battle_chat_cmd import BASE_CMD_NAMES, EPIC_GLOBAL_CMD_NAMES
 _logger = logging.getLogger(__name__)
 
 class _CRUISE_CONTROL_MODE(object):
@@ -298,6 +299,7 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
             self.invRotationOnBackMovement = False
             self.onSwitchingViewPoint = Event.Event()
             self.onGoodiesSnapshotUpdated = Event.Event()
+            self.onVehicleChangeFinished = Event.Event()
             self.__isVehicleAlive = True
             self.__firstHealthUpdate = True
             self.__deadOnLoading = False
@@ -572,6 +574,7 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
             if ctrl is not None:
                 ctrl.updateAttachedVehicle(self.vehicle.id)
             self.__aimingBooster = None
+            self.onVehicleChangeFinished(self.vehicle.id)
         return
 
     def onSpaceLoaded(self):
@@ -1062,66 +1065,63 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
     def updateVehicleHealth(self, vehicleID, health, deathReasonID, isCrewActive, isRespawn):
         if vehicleID != self.playerVehicleID or not self.userSeesWorld():
             return
-        if not self.userSeesWorld():
-            return
-        else:
-            rawHealth = health
-            health = max(0, health)
-            isAlive = health > 0 and isCrewActive
-            wasAlive = self.__isVehicleAlive or self.__firstHealthUpdate
-            wasRespawnAvailable = self.__isRespawnAvailable
-            if self.__deadOnLoading:
-                wasAlive = False
-                self.__deadOnLoading = False
-            self.__firstHealthUpdate = False
-            self.__isVehicleAlive = isAlive
-            self.__isRespawnAvailable = isRespawn
-            LOG_DEBUG_DEV(b'[RESPAWN] client.Avatar.updateVehicleHealth', vehicleID, health, deathReasonID, isCrewActive, isRespawn, wasAlive)
-            self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.HEALTH, health, vehicleID)
-            vehicle = BigWorld.entities.get(self.playerVehicleID)
-            if vehicle is not None and vehicle.maxHealth == health:
-                self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.FULL_HP, None)
-            if not wasAlive and isAlive:
-                self.__disableRespawnMode = True
-                self.__isObserver = None
-                self.guiSessionProvider.movingToRespawnBase(BigWorld.entities.get(self.playerVehicleID))
-                self.inputHandler.movingToRespawnBase()
-                MusicControllerWWISE.onPostmortemState(False)
-                if self.vehicle:
-                    self.vehicle.ownVehicle.initialUpdate(force=True)
-            if not isAlive and wasAlive:
-                if self.gunRotator:
-                    self.gunRotator.stop()
-                if health > 0 and not isCrewActive:
-                    self.soundNotifications.play(b'crew_deactivated')
-                    self.__deviceStates = {b'crew': b'destroyed'}
-                    self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.CREW_DEACTIVATED, deathReasonID)
-                elif not self.guiSessionProvider.getCtx().isObserver(self.playerVehicleID):
-                    self.soundNotifications.play(b'vehicle_destroyed')
-                    self.__deviceStates = {b'vehicle': b'destroyed'}
-                    self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.DESTROYED, deathReasonID)
-                if self.vehicle is not None:
-                    self.guiSessionProvider.shared.viewPoints.updateAttachedVehicle(self.vehicle.id)
-                    ctrl = self.guiSessionProvider.dynamic.vehicleCount
-                    if ctrl is not None:
-                        ctrl.updateAttachedVehicle(self.vehicle.id)
-                self.inputHandler.activatePostmortem(isRespawn)
-                self.__cruiseControlMode = _CRUISE_CONTROL_MODE.NONE
-                self.__updateCruiseControlPanel()
-                self.__stopUntilFire = False
-                if rawHealth <= 0:
-                    vehicle = BigWorld.entities.get(self.playerVehicleID)
-                    if vehicle is not None:
-                        prevHealth = vehicle.health
-                        vehicle.health = rawHealth
-                        vehicle.set_health(prevHealth)
-            if not isAlive and wasAlive or not isAlive and wasRespawnAvailable and not isRespawn:
+        rawHealth = health
+        health = max(0, health)
+        isAlive = health > 0 and isCrewActive
+        wasAlive = self.__isVehicleAlive or self.__firstHealthUpdate
+        wasRespawnAvailable = self.__isRespawnAvailable
+        if self.__deadOnLoading:
+            wasAlive = False
+            self.__deadOnLoading = False
+        self.__firstHealthUpdate = False
+        self.__isVehicleAlive = isAlive
+        self.__isRespawnAvailable = isRespawn
+        LOG_DEBUG_DEV(b'[RESPAWN] client.Avatar.updateVehicleHealth', vehicleID, health, deathReasonID, isCrewActive, isRespawn, wasAlive)
+        self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.HEALTH, health, vehicleID)
+        if not wasAlive and isAlive:
+            self.__disableRespawnMode = True
+            self.__isObserver = None
+            self.guiSessionProvider.movingToRespawnBase(BigWorld.entities.get(self.playerVehicleID))
+            self.inputHandler.movingToRespawnBase()
+            MusicControllerWWISE.onPostmortemState(False)
+            if self.vehicle:
+                self.vehicle.ownVehicle.initialUpdate(force=True)
+        if not isAlive and wasAlive:
+            dynamicVehicleChangeComponent = self.components.get(b'DynamicVehicleChangeComponent')
+            if dynamicVehicleChangeComponent and dynamicVehicleChangeComponent.isActive():
+                dynamicVehicleChangeComponent.onOriginalVehicleDeath()
+            if self.gunRotator:
+                self.gunRotator.stop()
+            if health > 0 and not isCrewActive:
+                self.soundNotifications.play(b'crew_deactivated')
+                self.__deviceStates = {b'crew': b'destroyed'}
+                self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.CREW_DEACTIVATED, deathReasonID)
+            elif not self.guiSessionProvider.getCtx().isObserver(self.playerVehicleID):
+                self.soundNotifications.play(b'vehicle_destroyed')
+                self.__deviceStates = {b'vehicle': b'destroyed'}
+                self.guiSessionProvider.invalidateVehicleState(VEHICLE_VIEW_STATE.DESTROYED, deathReasonID)
+            if self.vehicle is not None:
+                self.guiSessionProvider.shared.viewPoints.updateAttachedVehicle(self.vehicle.id)
+                ctrl = self.guiSessionProvider.dynamic.vehicleCount
+                if ctrl is not None:
+                    ctrl.updateAttachedVehicle(self.vehicle.id)
+            self.inputHandler.activatePostmortem(isRespawn)
+            self.__cruiseControlMode = _CRUISE_CONTROL_MODE.NONE
+            self.__updateCruiseControlPanel()
+            self.__stopUntilFire = False
+            if rawHealth <= 0:
                 vehicle = BigWorld.entities.get(self.playerVehicleID)
-                noRespawnPossible = not (self.respawnEnabled or bool(vehicle.enableExternalRespawn))
-                self.guiSessionProvider.switchToPostmortem(noRespawnPossible, isRespawn)
-                postmortemMusicState = noRespawnPossible or not isRespawn
-                MusicControllerWWISE.onPostmortemState(postmortemMusicState)
-            return
+                if vehicle is not None:
+                    prevHealth = vehicle.health
+                    vehicle.health = rawHealth
+                    vehicle.set_health(prevHealth)
+        if not isAlive and wasAlive or not isAlive and wasRespawnAvailable and not isRespawn:
+            vehicle = BigWorld.entities.get(self.playerVehicleID)
+            noRespawnPossible = not (self.respawnEnabled or bool(vehicle.enableExternalRespawn))
+            self.guiSessionProvider.switchToPostmortem(noRespawnPossible, isRespawn)
+            postmortemMusicState = noRespawnPossible or not isRespawn
+            MusicControllerWWISE.onPostmortemState(postmortemMusicState)
+        return
 
     def updateVehicleGunReloadTime(self, vehicleID, timeLeft, baseTime):
         if vehicleID != self.playerVehicleID and vehicleID != self.observedVehicleID:
@@ -2019,7 +2019,7 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
                 return
             if not keyDown:
                 self.__cancelWaitingForCharge()
-            if self.isGunLocked or self.isGunLockedForcefully or self.__isOwnBarrelUnderWater():
+            if self.isGunLocked or self.__isOwnBarrelUnderWater():
                 if not isRepeat:
                     self.showVehicleError(self.__cantShootCriticals[b'gun_locked'])
                 return
@@ -2055,7 +2055,8 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
                 if not isRepeat:
                     self.__gunDamagedSound()
                 self.showVehicleError(msgName)
-                return (False, None)
+                return (
+                 False, None)
 
         canShoot, error = self.guiSessionProvider.shared.ammo.canShoot(isRepeat)
         if not canShoot:
@@ -2063,7 +2064,7 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
                 self.showVehicleError(self.__cantShootCriticals[error], args={b'typeDescriptor': (self.getVehicleDescriptor())})
             return (False, error)
         else:
-            if self.isGunLocked or self.isGunLockedForcefully or self.__isOwnBarrelUnderWater():
+            if self.isGunLocked or self.__isOwnBarrelUnderWater():
                 if not isRepeat:
                     self.showVehicleError(self.__cantShootCriticals[b'gun_locked'])
                 return (False, error)
@@ -2373,7 +2374,11 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
 
     def messenger_onActionByServer_chat2(self, actionID, reqID, args):
         from messenger_common_chat2 import MESSENGER_ACTION_IDS as actions
-        LOG_DEBUG(b'messenger_onActionByServer', actions.getActionName(actionID), reqID, args)
+        actionName = actions.getActionName(actionID)
+        if actionName in (b'command:DEFENDING_BASE', b'command:DEFEND_BASE', b'command:ATTACKING_BASE', b'command:ATTACK_BASE'):
+            if args.has_key(b'strArg1'):
+                args[b'strArg1'] = b''
+        LOG_DEBUG(b'messenger_onActionByServer', actionName, reqID, args)
         MessengerEntry.g_instance.protos.BW_CHAT2.onActionReceived(actionID, reqID, args)
         return
 
@@ -2524,7 +2529,7 @@ class PlayerAvatar(BigWorld.Entity, ClientChat, CombatEquipmentManager, AvatarOb
         if not g_offlineMapCreator.Active():
             self.inputHandler = AvatarInputHandler.AvatarInputHandler(self.spaceID)
             prereqs += self.inputHandler.prerequisites()
-        self.soundNotifications = IngameSoundNotifications.IngameSoundNotifications(self.arena.arenaType)
+        self.soundNotifications = IngameSoundNotifications.IngameSoundNotifications()
         self.complexSoundNotifications = IngameSoundNotifications.ComplexSoundNotifications()
         arena = BigWorld.player().arena
         notificationsRemapping = arena.arenaType.notificationsRemapping or {}

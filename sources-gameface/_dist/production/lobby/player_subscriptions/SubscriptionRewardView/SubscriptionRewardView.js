@@ -52,7 +52,7 @@
             displayStatusIs: () => q,
             events: () => B,
             extraSize: () => Y,
-            forceTriggerMouseMove: () => $,
+            forceTriggerMouseMove: () => W,
             freezeTextureBeforeResize: () => L,
             getBrowserTexturePath: () => T,
             getDisplayStatus: () => V,
@@ -60,7 +60,7 @@
             getSize: () => P,
             getViewGlobalPosition: () => y,
             isClientAccessible: () => H,
-            isEventHandled: () => W,
+            isEventHandled: () => $,
             isFocused: () => U,
             pxToRem: () => k,
             remToPx: () => I,
@@ -271,10 +271,10 @@
         function G() {
           return viewEnv.setEventHandled();
         }
-        function W() {
+        function $() {
           return viewEnv.isEventHandled();
         }
-        function $() {
+        function W() {
           viewEnv.forceTriggerMouseMove();
         }
         function V() {
@@ -1135,7 +1135,7 @@
           (function (e) {
             ((e.extraSmall = "extraSmall"), (e.small = "small"), (e.medium = "medium"));
           })(G || (G = {})));
-        const W = ({
+        const $ = ({
           children: e,
           size: u,
           isFocused: t,
@@ -1266,13 +1266,13 @@
             )
           );
         };
-        W.defaultProps = {
+        $.defaultProps = {
           type: H.primary,
           isFocused: !1,
           soundHover: "highlight",
           soundClick: "play",
         };
-        const $ = (0, r.memo)(W);
+        const W = (0, r.memo)($);
         let V, q, Y, j, z, X, K, Q, Z;
         (!(function (e) {
           ((e.Items = "items"),
@@ -1306,6 +1306,7 @@
             (e.SelectableBonus = "selectableBonus"),
             (e.StyleProgressToken = "styleProgressToken"),
             (e.TmanToken = "tmanToken"),
+            (e.PortalEventDiscount25 = "portalEventDiscountToken"),
             (e.NaturalCover = "naturalCover"),
             (e.BpCoin = "bpcoin"),
             (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -1338,13 +1339,7 @@
             (e.GoldenTicket = "goldenticket"),
             (e.LbStyleProgress = "lbStyleProgress"),
             (e.RewardsSlots = "rewardsSlots"),
-            (e.WtStamp = "stamp"),
-            (e.WtHunter = "wt_hunter"),
-            (e.WtBoss = "wt_boss"),
-            (e.WtHunterCollection = "hunter_collection"),
-            (e.WtTicket = "wtevent_ticket"),
-            (e.WtMainPrizeDiscount = "main_prize_discount"),
-            (e.WtTicket25 = "wtevent_ticket25"));
+            (e.RazlomCoin = "razlom_coin"));
         })(V || (V = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -1495,11 +1490,6 @@
             V.PremiumPlusUniversal,
             V.GoldenTicket,
             V.RewardsSlots,
-            V.WtStamp,
-            V.WtTicket,
-            V.WtMainPrizeDiscount,
-            V.WtHunter,
-            V.WtHunterCollection,
           ],
           te = [V.Gold, V.Credits, V.Crystal, V.FreeXp],
           re = [V.BattlePassPoints],
@@ -1665,6 +1655,8 @@
               case V.StyleProgress:
               case V.LbStyleProgress:
                 return ce(a, u, Z.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2384,13 +2376,13 @@
         const Ue = (e, u) => e.split(".").reduce((e, u) => e && e[u], u),
           He = (e) => e && "ArrayItem" === e.__proto__.constructor.name,
           Ge = (e, u) => (e.length > 0 ? `${e}.${u}` : u),
-          We = (e) =>
+          $e = (e) =>
             ((e, u) =>
               e.split(".").reduce((e, t) => {
                 const r = Ue(`${e}.${t}`, window);
                 return He(r) ? u(e, t, r) : `${e}.${t}`;
               }))(e, (e, u) => `${e}.${u}.value`),
-          $e = (e) => {
+          We = (e) => {
             const u = ((e) => {
                 const u = _e(),
                   t = u.caller,
@@ -2432,7 +2424,7 @@
                   const u = Ue(e, window);
                   for (const e in u) "function" == typeof u[e] && (u[e] = u[e].bind(u));
                   return He(u) ? u.value : u;
-                })(We(o)),
+                })($e(o)),
               ),
               c = l[0],
               E = l[1],
@@ -2453,7 +2445,7 @@
                         ? (e === c && n((e) => e + 1), E(e))
                         : E(Object.assign([], e));
                     },
-                    r = $e(e);
+                    r = We(e);
                   _.current = Ve.addCallback(r, t, s, u === qe.Deep);
                 }
               }),
@@ -2672,7 +2664,7 @@
                   ),
                 ),
                 n().createElement(
-                  $,
+                  W,
                   { mixClass: Ze.chooseButton, onClick: () => o() },
                   i ? eu.selectRewards : eu.affirmative,
                 ),

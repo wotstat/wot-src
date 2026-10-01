@@ -1158,14 +1158,14 @@
               { caller: t, stack: u, resId: r }
             );
           },
-          W = (e, u) => e.split(".").reduce((e, u) => e && e[u], u),
-          $ = (e) => e && "ArrayItem" === e.__proto__.constructor.name,
+          $ = (e, u) => e.split(".").reduce((e, u) => e && e[u], u),
+          W = (e) => e && "ArrayItem" === e.__proto__.constructor.name,
           z = (e, u) => (e.length > 0 ? `${e}.${u}` : u),
           q = (e) =>
             ((e, u) =>
               e.split(".").reduce((e, t) => {
-                const r = W(`${e}.${t}`, window);
-                return $(r) ? u(e, t, r) : `${e}.${t}`;
+                const r = $(`${e}.${t}`, window);
+                return W(r) ? u(e, t, r) : `${e}.${t}`;
               }))(e, (e, u) => `${e}.${u}.value`),
           Y = (e) => {
             const u = ((e) => {
@@ -1181,8 +1181,8 @@
               const e = [r[0]];
               return (
                 r.reduce((u, r) => {
-                  const n = W(z(t, `${u}.${r}`), window);
-                  return $(n) ? (e.push(n.id), `${u}.${r}.value`) : (e.push(r), `${u}.${r}`);
+                  const n = $(z(t, `${u}.${r}`), window);
+                  return W(n) ? (e.push(n.id), `${u}.${r}.value`) : (e.push(r), `${u}.${r}`);
                 }),
                 e.reduce((e, u) => e + "." + u)
               );
@@ -1206,9 +1206,9 @@
               ),
               l = (0, r.useState)(() =>
                 ((e) => {
-                  const u = W(e, window);
+                  const u = $(e, window);
                   for (const e in u) "function" == typeof u[e] && (u[e] = u[e].bind(u));
-                  return $(u) ? u.value : u;
+                  return W(u) ? u.value : u;
                 })(q(o)),
               ),
               E = l[0],
@@ -1866,7 +1866,7 @@
             (e.HeightMedium = "heightMedium"),
             (e.HeightLarge = "heightLarge"));
         })(Ge || (Ge = {}));
-        const We = (e) => {
+        const $e = (e) => {
             switch (!0) {
               case e.extraSmallHeight:
               case e.smallHeight:
@@ -1879,7 +1879,7 @@
                 return Ge.HeightLarge;
             }
           },
-          $e = (e) => {
+          We = (e) => {
             switch (!0) {
               case e.extraSmallWidth:
                 return Ge.WidthSmall;
@@ -1894,7 +1894,7 @@
           },
           ze = () => {
             const e = n().useContext(F);
-            return { horizontalSize: $e(e), verticalSize: We(e) };
+            return { horizontalSize: We(e), verticalSize: $e(e) };
           },
           qe = "Progression_base_f1",
           Ye = "Progression_dividersConrainer_55",
@@ -1997,6 +1997,7 @@
               (e.SelectableBonus = "selectableBonus"),
               (e.StyleProgressToken = "styleProgressToken"),
               (e.TmanToken = "tmanToken"),
+              (e.PortalEventDiscount25 = "portalEventDiscountToken"),
               (e.NaturalCover = "naturalCover"),
               (e.BpCoin = "bpcoin"),
               (e.BattlaPassFinalAchievement = "dossier_achievement"),
@@ -2029,13 +2030,7 @@
               (e.GoldenTicket = "goldenticket"),
               (e.LbStyleProgress = "lbStyleProgress"),
               (e.RewardsSlots = "rewardsSlots"),
-              (e.WtStamp = "stamp"),
-              (e.WtHunter = "wt_hunter"),
-              (e.WtBoss = "wt_boss"),
-              (e.WtHunterCollection = "hunter_collection"),
-              (e.WtTicket = "wtevent_ticket"),
-              (e.WtMainPrizeDiscount = "main_prize_discount"),
-              (e.WtTicket25 = "wtevent_ticket25"));
+              (e.RazlomCoin = "razlom_coin"));
           })(eu || (eu = {})),
           (function (e) {
             ((e.Gold = "gold"),
@@ -2175,11 +2170,6 @@
             eu.PremiumPlusUniversal,
             eu.GoldenTicket,
             eu.RewardsSlots,
-            eu.WtStamp,
-            eu.WtTicket,
-            eu.WtMainPrizeDiscount,
-            eu.WtHunter,
-            eu.WtHunterCollection,
           ],
           Eu = [eu.Gold, eu.Credits, eu.Crystal, eu.FreeXp],
           cu = [eu.BattlePassPoints],
@@ -2345,6 +2335,8 @@
               case eu.StyleProgress:
               case eu.LbStyleProgress:
                 return gu(a, u, ou.ProgressionStyle);
+              case "portal":
+                return `R.images.gui.maps.icons.rewards.${u}.${i}`;
               default:
                 return `R.images.gui.maps.icons.quests.bonuses.${u}.${t}`;
             }
@@ -2858,8 +2850,8 @@
               }),
             );
           },
-          Wu = "Rewards_base_5e",
-          $u = "Rewards_rewardsList_8c",
+          $u = "Rewards_base_5e",
+          Wu = "Rewards_rewardsList_8c",
           zu = (e, u) => ({ left: e * u }),
           qu = () => {
             const e = (0, r.useRef)(null),
@@ -2888,11 +2880,11 @@
               ),
               n().createElement(
                 "div",
-                { ref: e, className: Wu },
+                { ref: e, className: $u },
                 l.map(({ value: e }, u) =>
                   n().createElement(
                     "div",
-                    { key: u, className: $u, style: zu(t, e.battlesCount) },
+                    { key: u, className: Wu, style: zu(t, e.battlesCount) },
                     n().createElement(Gu, {
                       battleBonuses: e.bonuses,
                       isCurrent: u === c,

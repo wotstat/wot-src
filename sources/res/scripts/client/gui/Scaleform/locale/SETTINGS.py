@@ -1,7 +1,6 @@
 from debug_utils import LOG_WARNING
 
 class SETTINGS(object):
-    EVENTSETTINGDISABLED = b'#settings:eventSettingDisabled'
     LANGUAGE_CODE = b'#settings:LANGUAGE_CODE'
     WINDOWTITLE = b'#settings:windowTitle'
     TITLE = b'#settings:title'
@@ -259,6 +258,8 @@ class SETTINGS(object):
     VERTSYNC_OFF = b'#settings:vertSync/Off'
     SOUNDS_MASTERVOLUMETOGGLE = b'#settings:sounds/masterVolumeToggle'
     SOUNDS_MASTERVOLUMETOGGLE_DESCRIPTION = b'#settings:sounds/masterVolumeToggle/description'
+    SOUNDS_SYSTEMMIXERVOLUMEDISABLEDLINK = b'#settings:sounds/systemMixerVolumeDisabledLink'
+    SOUNDS_SYSTEMMIXERVOLUMEDISABLEDLINK_DESCRIPTION = b'#settings:sounds/systemMixerVolumeDisabledLink/description'
     SOUNDS_BULBVOICES = b'#settings:sounds/bulbVoices'
     SOUNDS_BULBVOICES_DESCRIPTION = b'#settings:sounds/bulbVoices/description'
     SOUNDS_ARTYBULBVOICES = b'#settings:sounds/artyBulbVoices'

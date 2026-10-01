@@ -21,6 +21,7 @@ class ITEM_TYPES(object):
     TURRET_DESC = b'#item_types:turret/desc'
     TURRET_TAGS = b'#item_types:turret/tags'
     GUN_NAME = b'#item_types:gun/name'
+    CLIPGUN_NAME = b'#item_types:clipGun/name'
     DUALGUN_NAME = b'#item_types:dualGun/name'
     FLAMEGUN_NAME = b'#item_types:flameGun/name'
     AUTOSHOOTFLAMEGUN_NAME = b'#item_types:autoShootFlameGun/name'

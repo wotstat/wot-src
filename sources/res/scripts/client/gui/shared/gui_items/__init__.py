@@ -368,6 +368,13 @@ class KPI(object):
         GAME_CREDITS = b'gameCredits'
         GAME_FL_XP = b'gameFlXp'
         GAME_FREE_XP_AND_CREW_XP = b'gameFreeXpAndCrewXp'
+        VEHICLE_EXTRA_ABILITY_CHASSIS_ROTATION_SPEED = b'extraAbilityParamChassisRotationSpeed'
+        VEHICLE_EXTRA_ABILITY_TURRET_ROTATION_SPEED = b'extraAbilityParamTurretRotationSpeed'
+        VEHICLE_EXTRA_ABILITY_GUN_CLIP_COOLDOWN = b'extraAbilityParamGunClipCooldown'
+        VEHICLE_EXTRA_ABILITY_SPEED_BONUS = b'extraAbilityParamSpeedBonus'
+        VEHICLE_EXTRA_ABILITY_SHELL_DAMAGE = b'extraAbilityParamShellDamage'
+        VEHICLE_EXTRA_ABILITY_SHELL_PIERCING = b'extraAbilityParamShellPiercing'
+        VEHICLE_EXTRA_ABILITY_SHELL_SPEED = b'extraAbilityParamShellSpeed'
 
     class Type(CONST_CONTAINER):
         MUL = b'mul'
@@ -577,7 +584,9 @@ CREW_SKILL_TO_KPI_NAME_MAP = {b'repair': (KPI.Name.CREW_SKILL_REPAIR),
    b'radioman_lastEffort': (KPI.Name.CREW_SKILL_LAST_EFFORT), 
    b'gunner_rancorous': (KPI.Name.CREW_SKILL_RANCOROUS)}
 AGGREGATE_TO_SINGLE_TYPE_KPI_MAP = {(KPI.Type.AGGREGATE_MUL): (KPI.Type.MUL)}
-_KPI_ABILITIES_FORMATTERS = {b'shot_passion': (lambda abilityEq, defaultTxt: {b'defaultText': defaultTxt, b'increaseDamage': (int(abilityEq.maxDamageIncreasePerShot * 100))})}
+_KPI_ABILITIES_FORMATTERS = {b'shot_passion_old': (lambda abilityEq, defaultTxt: {b'defaultText': defaultTxt, 
+                         b'increaseDamage': (int(abilityEq.maxDamageIncreasePerShot * 100))}), 
+   b'shot_passion': (lambda abilityEq, defaultTxt: {b'customDescr': (backport.text(R.strings.menu.shot_passion.extraParams.name.vehicleGunReloadTime()))})}
 
 def getKpiAbilityFormatter(abilityEquipment):
     return _KPI_ABILITIES_FORMATTERS.get(abilityEquipment.name)

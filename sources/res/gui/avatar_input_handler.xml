@@ -779,6 +779,16 @@
 			<keyBindToVehicle>KEY_B</keyBindToVehicle>
 		</camera>
 	</videoMode>
+	<atgmMode>
+		<defaultOffset>0.0 0.0</defaultOffset>
+		<camera>
+			<sensitivity>0.15</sensitivity>
+			<angularVelocity>1.0</angularVelocity>
+			<angularVelocityAcceleration>0.8</angularVelocityAcceleration>
+			<linearFriction>2.0</linearFriction>
+			<rotationFriction>1.0</rotationFriction>
+		</camera>
+	</atgmMode>
 	<epicVideoMode>
 		<defaultOffset>0.0 0.0</defaultOffset>
 		<camera>

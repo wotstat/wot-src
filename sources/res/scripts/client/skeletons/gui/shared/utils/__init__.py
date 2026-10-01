@@ -116,6 +116,11 @@ class IItemsRequester(requesters.IRequester):
         return
 
     @property
+    def sessionProgressRewards(self):
+        raise NotImplementedError
+        return
+
+    @property
     def armoryYard(self):
         raise NotImplementedError
         return

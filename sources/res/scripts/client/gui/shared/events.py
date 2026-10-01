@@ -6,7 +6,7 @@ from shared_utils import CONST_CONTAINER
 if typing.TYPE_CHECKING:
     from gui.Scaleform.framework.managers.loaders import GuiImplViewLoadParams
     from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
-__all__ = (b'ArgsEvent', b'ComponentEvent', b'LoadViewEvent', b'LoadGuiImplViewEvent', b'ShowDialogEvent', b'LoginEvent', b'LoginEventEx', b'LobbySimpleEvent', b'FightButtonDisablingEvent', b'FightButtonEvent', b'CloseWindowEvent', b'BrowserEvent', b'HangarVehicleEvent', b'HangarCustomizationEvent', b'GameEvent', b'BootcampEvent', b'ViewEventType', b'OpenLinkEvent', b'ChannelManagementEvent', b'PreBattleChannelEvent', b'AmmunitionSetupViewEvent', b'HasCtxEvent', b'DogTagsEvent', b'FullscreenModeSelectorEvent', b'MarkersManagerEvent', b'ModeSelectorPopoverEvent', b'ModeSubSelectorEvent', b'ArmoryYardEvent', b'HangarSimpleEvent')
+__all__ = (b'ArgsEvent', b'ComponentEvent', b'LoadViewEvent', b'LoadGuiImplViewEvent', b'ShowDialogEvent', b'LoginEvent', b'LoginEventEx', b'LobbySimpleEvent', b'FightButtonDisablingEvent', b'FightButtonEvent', b'CloseWindowEvent', b'BrowserEvent', b'HangarVehicleEvent', b'HangarCustomizationEvent', b'GameEvent', b'BootcampEvent', b'ViewEventType', b'OpenLinkEvent', b'ChannelManagementEvent', b'PreBattleChannelEvent', b'AmmunitionSetupViewEvent', b'HasCtxEvent', b'DogTagsEvent', b'FullscreenModeSelectorEvent', b'MarkersManagerEvent', b'ModeSelectorPopoverEvent', b'ModeSubSelectorEvent', b'ArmoryYardEvent')
 _logger = logging.getLogger(__name__)
 
 class HasCtxEvent(SharedEvent):
@@ -85,8 +85,6 @@ class GameEvent(HasCtxEvent):
     POINT_OF_INTEREST_REMOVED = b'game/changeAmmunitionSetup'
     PREBATTLE_INPUT_STATE_LOCKED = b'game/inputStateLocked'
     BATTLE_CONTEXT_HINT_ACTIVATED = b'game/battleContextHintActivated'
-    SHOW_SPAWN_POINTS = b'game/showSpawnPoints'
-    HIDE_SPAWN_POINTS = b'game/hideSpawnPoints'
 
 
 class GUICommonEvent(SharedEvent):
@@ -691,14 +689,6 @@ class SeniorityAwardsEvent(HasCtxEvent):
     ON_ENTRY_VIEW_LOADED = b'seniorityAwards/onEntryViewLoaded'
 
 
-class WtEventPortalsEvent(HasCtxEvent):
-    ON_PORTAL_VIEW_CLOSED = b'wtEvent/onPortalViewClosed'
-    ON_PORTAL_AWARD_VIEW_CLOSED = b'wtEvent/onPortalAwardViewClosed'
-    ON_VEHICLE_AWARD_VIEW_CLOSED = b'wtEvent/onVehicleAwardViewClosed'
-    ON_ALL_PORTAL_VIEWS_CLOSED = b'wtEvent/onAllPortalViewClosed'
-    ON_BACK_TO_PORTAL = b'wtEvent/onBackToPortal'
-
-
 class ReferralProgramEvent(HasCtxEvent):
     REFERRAL_PROGRAM_ACTIVATED = b'referralProgramActivated'
     REFERRAL_PROGRAM_DEACTIVATED = b'referralProgrammDeactivated'
@@ -916,17 +906,3 @@ class RespawnViewEvent(SharedEvent):
 
 class SummerSaleViewEvent(SharedEvent):
     ON_CLOSE_REWARD_VIEW = b'ON_CLOSE_REWARD_VIEW'
-
-
-class HangarSimpleEvent(HasCtxEvent):
-    HANGAR_LOADED = b'HangarSimpleEvent/hangarLoaded'
-    HANGAR_UNLOADED = b'HangarSimpleEvent/hangarUnLoaded'
-    VEHICLE_PREVIEW_LOADED = b'HangarSimpleEvent/vehiclePreviewLoaded'
-    VEHICLE_PREVIEW_UNLOADED = b'HangarSimpleEvent/vehiclePreviewUnLoaded'
-    EVENT_PORTAL_SELECTED = b'HangarSimpleEvent/eventPortalSelected'
-    EVENT_VEHICLE_SELECTED = b'HangarSimpleEvent/eventVehicleSelected'
-    SHOW_CONFIRM_DIALOG = b'HangarSimpleEvent/showConfirmDialog'
-    CLOSE_CONFIRM_DIALOG = b'HangarSimpleEvent/closeConfirmDialog'
-    DISPATCHER_ENTITY_WAS_UPDATED = b'HangarSimpleEvent/DispatcherEntityWasUpdated'
-    VEHICLE_PREVIEW_CLOSE = b'HangarSimpleEvent/VehiclePreviewClose'
-    UPDATE_CAROUSEL_VEHICLE_STATES = b'HangarSimpleEvent/UpdateCarouselVehicleStates'

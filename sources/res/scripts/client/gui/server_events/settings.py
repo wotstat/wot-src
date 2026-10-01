@@ -19,8 +19,8 @@ class _PMSettings(utils.SettingRecord):
 
 class _DQSettings(utils.SettingRecord):
 
-    def __init__(self, lastVisitedDQTabIdx=None, premMissionsTabDiscovered=False, lastBonusMissionVisited=None, dailyQuestsIntroSeen=False, *args, **kwargs):
-        super(_DQSettings, self).__init__(lastVisitedDQTabIdx=lastVisitedDQTabIdx, premMissionsTabDiscovered=premMissionsTabDiscovered, lastBonusMissionVisited=lastBonusMissionVisited, dailyQuestsIntroSeen=dailyQuestsIntroSeen)
+    def __init__(self, lastVisitedDQTabIdx=None, premMissionsTabDiscovered=False, lastBonusMissionVisited=None, *args, **kwargs):
+        super(_DQSettings, self).__init__(lastVisitedDQTabIdx=lastVisitedDQTabIdx, premMissionsTabDiscovered=premMissionsTabDiscovered, lastBonusMissionVisited=lastBonusMissionVisited)
         return
 
     def setLastVisitedDQTab(self, lastVisitedDQTabIdx):
@@ -33,10 +33,6 @@ class _DQSettings(utils.SettingRecord):
 
     def setLastBonusMissionVisited(self, lastBonusMissionVisited):
         self.update(lastBonusMissionVisited=lastBonusMissionVisited)
-        return
-
-    def setDailyQuestsIntroSeen(self, dailyQuestsIntroSeen):
-        self.update(dailyQuestsIntroSeen=dailyQuestsIntroSeen)
         return
 
 
