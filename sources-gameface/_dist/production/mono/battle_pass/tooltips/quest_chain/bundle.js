@@ -1,21 +1,21 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
-  Or as r,
-  Ur as a,
-  Xn as s,
+  Dr as r,
+  Hr as a,
+  Yn as s,
   _n as _,
-  ci as n,
-  fn as d,
+  fn as n,
+  li as d,
   n as c,
   on as l,
   pn as t,
   r as i,
-  tn as o,
-  ui as u,
+  si as o,
+  tn as u,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as b } from "../../chunks/vendor.js";
-u();
+d();
 var y = {
     base: "CurrencyReward_1a2de39e",
     icon: "CurrencyReward_icon_fc335ed4",
@@ -41,8 +41,8 @@ var y = {
   },
   v = s(),
   w = ({ value: e, type: r }) => {
-    const a = n(y.value, y[`value__${r}`]),
-      s = n(y.icon, y[`icon__${r}`]);
+    const a = o(y.value, y[`value__${r}`]),
+      s = o(y.icon, y[`icon__${r}`]);
     return (0, v.jsxs)("div", {
       className: y.base,
       children: [
@@ -66,8 +66,8 @@ var y = {
   I = R.strings.battle_pass.tooltips.battlePassQuestsChain,
   P = I.title(),
   X = I.text(),
-  O = I.secondaryText(),
-  U = b(() => {
+  W = I.secondaryText(),
+  D = b(() => {
     const { model: e } = f(),
       { items: a } = e.rewards.get();
     return (0, v.jsxs)("div", {
@@ -87,14 +87,14 @@ var y = {
             (0, v.jsx)("div", { className: m }),
           ],
         }),
-        (0, v.jsx)("div", { className: k, children: O }),
+        (0, v.jsx)("div", { className: k, children: W }),
       ],
     });
   }),
-  W = () => (0, v.jsx)(c, { children: (0, v.jsx)(c.Decorator, { children: (0, v.jsx)(U, {}) }) });
-d(
+  O = () => (0, v.jsx)(c, { children: (0, v.jsx)(c.Decorator, { children: (0, v.jsx)(D, {}) }) });
+n(
   new t()
-    .add(o)
+    .add(u)
     .addWithProps(C, {})
-    .render((0, v.jsx)(W, {})),
+    .render((0, v.jsx)(O, {})),
 );

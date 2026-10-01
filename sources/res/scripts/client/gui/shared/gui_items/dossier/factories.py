@@ -406,7 +406,7 @@ _ACHIEVEMENTS_BY_NAME = {(_AB.TOTAL, b'warrior'): (_CustomAchieveFactory.get(_as
    (_AB.SINGLE, b'BattlePassCommonPr_19'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'BattlePassCommonPr_20'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'BattlePassCommonPr_21'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
-   (_AB.SINGLE, b'BPReserveAchievement_2'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
+   (_AB.SINGLE, b'BattlePassCommonPr_21extra_1'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'BPReserveAchievement_3'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'BPReserveAchievement_4'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 
    (_AB.SINGLE, b'BPReserveAchievement_5'): (_AchieveFactory.get(_abstract_achievements.DeprecatedAchievement)), 

@@ -10,9 +10,9 @@ import {
   at as c,
   f as l,
   it as u,
-  nt as p,
-  q as d,
-  r as m,
+  n as p,
+  nt as d,
+  q as m,
   w as _,
   x as T,
 } from "../chunks/lib.js";
@@ -48,14 +48,14 @@ function E({ descr: e, onShowPrevTip: s, onShowNextTip: a, focusedIndex: i }) {
         className: b,
         children: [
           (0, k.jsx)("div", {
-            className: p(j, w, i === F.PrevTip && M),
+            className: d(j, w, i === F.PrevTip && M),
             onClick: function () {
               (o.click(), s());
             },
             onMouseOver: o.highlight,
           }),
           (0, k.jsx)("div", {
-            className: p(j, S, i === F.NextTip && M),
+            className: d(j, S, i === F.NextTip && M),
             onClick: function () {
               (o.click(), a());
             },
@@ -115,10 +115,10 @@ var [C, O] = i()(
             ? z.readOrEmpty("maps_training.queue.delayTime")
             : "";
     s(n.ESCAPE, a.menu);
-    const [u, d] = (0, v.useState)(-1);
+    const [u, m] = (0, v.useState)(-1);
     return (
       s(n.TAB, function () {
-        d((u + 1) % 3);
+        m((u + 1) % 3);
       }),
       s(n.ENTER, function () {
         0 === u ? a.quit() : 1 === u ? a.showPrevTip() : 2 === u && a.showNextTip();
@@ -136,13 +136,13 @@ var [C, O] = i()(
           (0, k.jsxs)("div", {
             className: Q,
             children: [
-              (0, k.jsx)(m, {
+              (0, k.jsx)(p, {
                 classMix: A,
                 text: z.readOrEmpty("maps_training.queue.time"),
                 binding: o,
               }),
               (0, k.jsx)(l, {
-                className: p(D, 0 === u && W),
+                className: d(D, 0 === u && W),
                 theme: l.themes.secondary,
                 size: l.sizes.small,
                 onClick: a.quit,
@@ -164,4 +164,4 @@ var [C, O] = i()(
   });
 _((0, k.jsx)(a, { children: (0, k.jsx)(C, { children: (0, k.jsx)(G, {}) }) }), {
   fullScreen: !0,
-}).then(() => d(document.getElementById("root")));
+}).then(() => m(document.getElementById("root")));

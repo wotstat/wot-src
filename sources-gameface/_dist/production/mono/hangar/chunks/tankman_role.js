@@ -1,5 +1,5 @@
 import { r as C } from "./rolldown-runtime.js";
-import { $ as e, hi as l, ro as i, to as t } from "./lib.js";
+import { $ as e, eo as l, mi as i, no as t } from "./lib.js";
 var n = (function (C) {
     return (
       (C.UNKNOWN = "unknown"),
@@ -52,7 +52,7 @@ var n = (function (C) {
   r = (function (C) {
     return ((C.UNDEFINED = "undefined"), (C.SILVER = "silver"), (C.GOLD = "gold"), C);
   })({}),
-  o = (i(), C(l())),
+  o = (t(), C(i())),
   a = "TankmanRole_3bb08c81",
   s = {
     [e.commander]: (C) =>
@@ -160,8 +160,8 @@ var n = (function (C) {
       }),
   };
 function h({ role: C = "", className: e }) {
-  const l = s[C];
-  if (l) return (0, o.jsx)(l, { className: t(a, e) });
+  const i = s[C];
+  if (i) return (0, o.jsx)(i, { className: l(a, e) });
   console.error(`Unknown role type ${C}`);
 }
 export { n, r, h as t };

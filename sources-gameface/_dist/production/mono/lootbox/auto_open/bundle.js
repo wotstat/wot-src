@@ -18,8 +18,8 @@ import {
   Vt as w,
   ft as h,
   j as x,
-  lt as j,
-  tt as v,
+  lt as v,
+  tt as j,
   wt as f,
   x as N,
 } from "../chunks/lib.js";
@@ -35,7 +35,7 @@ var B = "Footer_877c593c",
 function A({ children: e, className: a = "" }) {
   return (0, z.jsx)("div", { className: w(B, a), children: e });
 }
-var D = {
+var S = {
     images: {
       background: "autoOpenView.background",
       scrollLipTop: "autoOpenView.scrollLipTop",
@@ -49,15 +49,15 @@ var D = {
       submitButtonText: "autoOpenView.submitButtonText",
     },
   },
-  S = { dynamicTexts: { rewardsPremiumDay: "common.rewards.premiumDay" } },
-  [V, H] = p()(
+  V = { dynamicTexts: { rewardsPremiumDay: "common.rewards.premiumDay" } },
+  [D, H] = p()(
     ({ observableModel: e }) => {
       const l = e.object().get().eventName,
         r = { ...e.primitives(["boxesQuantity"]), rewardRows: e.arrayClone("rewardRows") },
         c = s((e) => b(r.rewardRows.get(), e)),
         n = s((e) => c(e)?.rewards.items),
-        t = s(() => y(D, l), { equals: a }),
-        o = s(() => C(S, l), { equals: a });
+        t = s(() => y(S, l), { equals: a }),
+        o = s(() => C(V, l), { equals: a });
       return {
         ...r,
         eventName: l,
@@ -149,19 +149,20 @@ function ae({ reward: e, children: a }) {
   });
 }),
   (ae.Label = function ({ reward: e, premiumText: a }) {
-    const { name: s, compensation: l, isCompensation: r, value: c } = e,
-      n = _(s),
-      t = r ? l.label : e.label,
-      o = e.name === m.Customizations,
-      i = e.name === m.PremiumPlus,
-      d = e.name === m.TmanToken,
-      u = o || i || d ? null : N(c || t, n);
+    const { name: s, compensation: l, isCompensation: r, value: c, vehicleShortName: n } = e,
+      t = _(s),
+      o = r ? l.label : e.label,
+      i = e.name === m.Customizations,
+      d = e.name === m.PremiumPlus,
+      u = e.name === m.TmanToken,
+      b = e.name !== m.Vehicles || r ? c || o : n || o,
+      p = i || d || u ? null : N(b, t);
     return (0, z.jsxs)(z.Fragment, {
       children: [
-        u && (0, z.jsx)("div", { className: w(Y.label, Y[`label__${e.name}`]), children: u }),
-        o &&
-          (0, z.jsx)("div", { className: w(Y.label, Y.label__customizations), children: e.label }),
+        p && (0, z.jsx)("div", { className: w(Y.label, Y[`label__${e.name}`]), children: p }),
         i &&
+          (0, z.jsx)("div", { className: w(Y.label, Y.label__customizations), children: e.label }),
+        d &&
           (0, z.jsxs)("div", {
             className: w(Y.label, Y.label__premium),
             children: [(0, z.jsx)("span", { className: Y.accentGold, children: e.value }), " ", a],
@@ -246,13 +247,13 @@ var _e = i(function ({ className: e }) {
   we = "App_header_fcbfe4a9",
   he = "App_title_903814c5",
   xe = "App_scrollArea_4a3767fe",
-  je = "App_footer_36d816be";
-var ve = i(function () {
+  ve = "App_footer_36d816be";
+var je = i(function () {
   const { model: e, controls: a } = H(),
     { images: s, texts: l } = e.computes.resources(),
-    c = j({ buttonSize: t.medium }, { large: { buttonSize: t.large } });
+    c = v({ buttonSize: t.medium }, { large: { buttonSize: t.large } });
   return (
-    v(a.close),
+    j(a.close),
     (0, z.jsxs)("div", {
       className: be,
       style: { backgroundImage: `url(${s.background})` },
@@ -264,7 +265,7 @@ var ve = i(function () {
         }),
         (0, z.jsx)(_e, { className: xe }),
         (0, z.jsx)(A, {
-          className: je,
+          className: ve,
           children: (0, z.jsx)(r, {
             size: c.buttonSize,
             onClick: a.close,
@@ -275,4 +276,4 @@ var ve = i(function () {
     })
   );
 });
-u((0, z.jsx)(V, { children: (0, z.jsx)(c, { children: (0, z.jsx)(ve, {}) }) }));
+u((0, z.jsx)(D, { children: (0, z.jsx)(c, { children: (0, z.jsx)(je, {}) }) }));

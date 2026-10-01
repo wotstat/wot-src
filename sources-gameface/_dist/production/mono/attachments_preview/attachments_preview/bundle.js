@@ -13,11 +13,11 @@ import {
   R as d,
   S as _,
   T as h,
-  V as x,
-  _ as p,
+  V as p,
+  _ as x,
   a as u,
-  b as v,
-  c as g,
+  b as g,
+  c as v,
   d as b,
   f as y,
   g as f,
@@ -39,7 +39,7 @@ import {
   z as R,
 } from "../chunks/lib.js";
 import { t as D } from "../chunks/vendor.js";
-var L = e(x(), 1),
+var L = e(p(), 1),
   M = "ScrollContent_alignedWrapper_aeca2e8f",
   W = "ScrollContent_scrollBar_fa01fa0a",
   q = k(),
@@ -73,7 +73,7 @@ var L = e(x(), 1),
     ({ observableModel: e }) => ({
       root: e.object(),
       attachments: e.array("attachments"),
-      ...e.primitives(["attachmentSetID"]),
+      ...e.primitives(["attachmentSetID", "feature"]),
     }),
     o,
   ),
@@ -180,7 +180,7 @@ var ie = "Container_6c2fdff0",
       { tooltipContentId: m, tooltipId: o } = e;
     return (0, q.jsx)("div", {
       ref: i,
-      ...v(
+      ...g(
         (0, L.useMemo)(
           () => ({ contentId: Number(m), args: { tooltipId: o }, disabled: s }),
           [s, m, o],
@@ -229,8 +229,8 @@ var le = "Attachment_109d6468",
   de = "Attachment_name_4d1f2df8",
   _e = "Attachment_description_4b8654e5",
   he = i.resolve("strings"),
-  xe = i.resolve("videos");
-function pe({ attachment: e }) {
+  pe = i.resolve("videos");
+function xe({ attachment: e }) {
   const { assetSize: a, overlaySize: s } = Z(K.AttachmentPreview),
     t = e.overlayType;
   return (0, q.jsxs)("div", {
@@ -250,7 +250,7 @@ function pe({ attachment: e }) {
           ((r = t),
           (r === u.ATTACHMENT_EPIC || r === u.ATTACHMENT_LEGENDARY) &&
             (0, q.jsx)(E, {
-              src: xe.readOrEmpty(`rarity.cycle_${t}`),
+              src: pe.readOrEmpty(`rarity.cycle_${t}`),
               autoplay: !0,
               loop: !0,
               className: oe,
@@ -267,14 +267,14 @@ function pe({ attachment: e }) {
   var r;
 }
 var ue = "Header_9981b078",
-  ve = "Header_title_48684f06",
-  ge = "Header_description_20baac9";
+  ge = "Header_title_48684f06",
+  ve = "Header_description_20baac9";
 function be({ title: e, description: a, className: s = "" }) {
   return (0, q.jsxs)("div", {
     className: R(ue, s),
     children: [
-      (0, q.jsx)($, { text: e, className: ve }),
-      (0, q.jsx)(z, { className: ge, text: a }),
+      (0, q.jsx)($, { text: e, className: ge }),
+      (0, q.jsx)(z, { className: ve, text: a }),
     ],
   });
 }
@@ -290,10 +290,13 @@ var ye = "App_7b0d0f3d",
     P(m.ESCAPE, l.closeView);
     const a = _({ buttonSize: N.medium }, { large: { buttonSize: N.large } }),
       s = e.attachmentSetID.get(),
-      t = je.readOrEmpty("quests.bonusName.attachments_set.default"),
-      r = je.readOrEmpty(`quests.bonusName.attachments_set.${s}`, "silent"),
-      i = ze.readOrEmpty("attachments_preview.background.default"),
-      n = ze.readOrEmpty(`attachments_preview.background.${s}`, "silent") || i,
+      t = e.feature.get(),
+      r = je.readOrEmpty("quests.bonusName.attachments_set.default"),
+      i = je.readOrEmpty(`quests.bonusName.attachments_set.${s}`, "silent"),
+      n =
+        ze.readOrEmpty(`attachments_preview.background.${s}`, "silent") ||
+        ze.readOrEmpty(`attachments_preview.background.${t}`, "silent") ||
+        ze.readOrEmpty("attachments_preview.background.default"),
       o = ((e) => {
         const [a, s] = (0, L.useState)(!1);
         return (
@@ -333,16 +336,16 @@ var ye = "App_7b0d0f3d",
             (0, q.jsx)(A, { onClose: l.closeView, className: fe }),
             (0, q.jsx)(be, {
               className: Se,
-              title: r || t,
+              title: i || r,
               description: je.readOrEmpty("attachments_preview.description"),
             }),
             (0, q.jsx)(V, {
               children: (0, q.jsx)("div", {
                 className: Ee,
-                children: c(e.attachments.get(), (e, a) => (0, q.jsx)(pe, { attachment: e }, a)),
+                children: c(e.attachments.get(), (e, a) => (0, q.jsx)(xe, { attachment: e }, a)),
               }),
             }),
-            (0, q.jsx)(g, {
+            (0, q.jsx)(v, {
               className: Ne,
               size: a.buttonSize,
               onClick: l.closeView,
@@ -400,7 +403,7 @@ var ye = "App_7b0d0f3d",
       ],
     }),
   };
-p(
+x(
   (0, q.jsx)(F, {
     mocks: we,
     mode: "real",

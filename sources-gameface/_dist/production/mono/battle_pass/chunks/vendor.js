@@ -1,14 +1,14 @@
 import { r as e, t } from "./rolldown-runtime.js";
-import { hr as n, li as r, mr as s, pr as i, ui as a, ur as o } from "./lib.js";
-var u = e(a());
+import { ci as n, fr as r, li as s, lr as i, mr as a, pr as o } from "./lib.js";
+var u = e(s());
 if (!u.useState) throw new Error("mobx-react-lite requires React with Hooks support");
-if (!n) throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
-var l = e(r());
+if (!a) throw new Error("mobx-react-lite@3 requires mobx at least version 6 to be available");
+var l = e(n());
 function c(e) {
   e();
 }
 function p(e) {
-  return s(e);
+  return o(e);
 }
 var f,
   d,
@@ -88,7 +88,7 @@ var f,
     (null === (t = e.reaction) || void 0 === t || t.dispose(), (e.reaction = null));
   }),
   v = t((e) => {
-    var t = a();
+    var t = s();
     var n =
         "function" == typeof Object.is
           ? Object.is
@@ -96,8 +96,8 @@ var f,
               return (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t);
             },
       r = t.useState,
-      s = t.useEffect,
-      i = t.useLayoutEffect,
+      i = t.useEffect,
+      a = t.useLayoutEffect,
       o = t.useDebugValue;
     function u(e) {
       var t = e.getSnapshot;
@@ -118,17 +118,17 @@ var f,
           }
         : function (e, t) {
             var n = t(),
-              a = r({ inst: { value: n, getSnapshot: t } }),
-              l = a[0].inst,
-              c = a[1];
+              s = r({ inst: { value: n, getSnapshot: t } }),
+              l = s[0].inst,
+              c = s[1];
             return (
-              i(
+              a(
                 function () {
                   ((l.value = n), (l.getSnapshot = t), u(l) && c({ inst: l }));
                 },
                 [e, n, t],
               ),
-              s(
+              i(
                 function () {
                   return (
                     u(l) && c({ inst: l }),
@@ -149,7 +149,7 @@ var f,
     t.exports = v();
   })();
 function b(e) {
-  e.reaction = new o("observer".concat(e.name), function () {
+  e.reaction = new i("observer".concat(e.name), function () {
     var t;
     ((e.stateVersion = Symbol()), null === (t = e.onStoreChange) || void 0 === t || t.call(e));
   });
@@ -257,7 +257,7 @@ function k(e, t) {
 var C,
   N,
   O = { $$typeof: !0, render: !0, compare: !0, type: !0, displayName: !0 };
-((N = l.unstable_batchedUpdates) || (N = c), i({ reactionScheduler: N }));
+((N = l.unstable_batchedUpdates) || (N = c), r({ reactionScheduler: N }));
 C = m.finalizeAllImmediately;
 function j(e) {
   return {

@@ -96,6 +96,7 @@ class FortRushHudView(ViewImpl):
     def _getEvents(self):
         events = []
         events.append((g_playerEvents.onArenaPeriodChange, self._onArenaPeriodChange))
+        events.append((g_playerEvents.onRoundFinished, self._onRoundFinished))
         player = BigWorld.player()
         if player is not None and player.inputHandler is not None:
             events.append((
@@ -137,8 +138,14 @@ class FortRushHudView(ViewImpl):
                 hudVisibility.set(b'captureIndicators', True)
                 hudVisibility.set(b'capturePointsMarker', True)
             elif arenaPeriod == ARENA_PERIOD.AFTERBATTLE:
+                hudVisibility.set(b'announcement', False)
                 hudVisibility.set(b'scorePanel', True)
                 hudVisibility.set(b'captureIndicators', True)
+        return
+
+    def _onRoundFinished(self, *args):
+        with self.viewModel.transaction() as transaction:
+            transaction.getHudVisibility().set(b'announcement', False)
         return
 
     def _onArenaPeriodChange(self, arenaPeriod, *args):

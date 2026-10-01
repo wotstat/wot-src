@@ -25194,16 +25194,17 @@ function Portal({
   paddingsRem: a = {},
   lazy: o = !1,
   closeByEscape: i = !0,
-  onBeforePositionChange: s = noop$2,
-  freeSpaceRem: l = 8,
-  animationTransitions: u,
-  ...c
+  closeOnAnchorMove: s = !1,
+  onBeforePositionChange: l = noop$2,
+  freeSpaceRem: u = 8,
+  animationTransitions: c,
+  ...d
 }) {
-  const d = usePopover(),
-    f = import_react.useRef(null),
-    p = import_react.useRef(void 0),
-    [m, _] = (0, import_react.useState)(),
-    h = (0, import_react.useMemo)(
+  const f = usePopover(),
+    p = import_react.useRef(null),
+    m = import_react.useRef(void 0),
+    [_, h] = (0, import_react.useState)(),
+    g = (0, import_react.useMemo)(
       () => ({
         top: remToPx$1(a.top || defaultPaddingsRem.top),
         bottom: remToPx$1(a.bottom || defaultPaddingsRem.bottom),
@@ -25212,55 +25213,57 @@ function Portal({
       }),
       [a.bottom, a.top, a.left, a.right],
     ),
-    g = remToPx$1(l),
-    b = (0, import_react.useMemo)(() => ({ ...animationTransitionsDefault, ...u }), [u]),
-    v = (0, import_react.useMemo)(
+    b = remToPx$1(u),
+    v = (0, import_react.useMemo)(() => ({ ...animationTransitionsDefault, ...c }), [c]),
+    y = (0, import_react.useMemo)(
       () => (t ? (document.querySelector(t) ?? document.body) : document.body),
       [t],
     );
   (0, import_react.useEffect)(() => {
-    p.current = void 0;
-    const e = f.current;
+    m.current = void 0;
+    const e = p.current;
     if (!e) return;
-    const t = document.querySelector(`[data-popover-trigger-id="${d.id}"]`),
-      a = e.querySelector(`[data-popover-display-id="${d.id}"]`);
+    const t = document.querySelector(`[data-popover-trigger-id="${f.id}"]`),
+      a = e.querySelector(`[data-popover-display-id="${f.id}"]`);
     if (!t || !a) return;
     const o = watchResizes([t, e, document.body], ([t, a, o]) => {
-      if (!d.opened) return void _(void 0);
-      if (!1 === s(d, { callerBounding: t, containerBounding: a, bodyBounding: o })) return;
-      if (p.current && !isEqual(p.current, t)) return void d.close();
-      p.current = t;
-      const i = getUpdatedPosition(r, h, t, a, o);
-      (_(i),
-        updatePosition(n, g, i, h, t, a, o, e),
+      if (!f.opened) return void h(void 0);
+      if (!1 === l(f, { callerBounding: t, containerBounding: a, bodyBounding: o })) return;
+      if (s) {
+        if (m.current && !isEqual(m.current, t)) return void f.close();
+        m.current = t;
+      }
+      const i = getUpdatedPosition(r, g, t, a, o);
+      (h(i),
+        updatePosition(n, b, i, g, t, a, o, e),
         runInAction(() => {
-          (d.trigger.setBounding(t), d.portal.setBounding(a), d.portal.setPosition(i));
+          (f.trigger.setBounding(t), f.portal.setBounding(a), f.portal.setPosition(i));
         }));
     });
     return (o.start(), o.stop);
-  }, [d, s, h, n, g, d.id, d.portal, d.trigger, r, d.opened]);
-  const y = (0, import_react.useCallback)(() => {
-    const e = f.current;
+  }, [f, l, s, g, n, b, f.id, f.portal, f.trigger, r, f.opened]);
+  const S = (0, import_react.useCallback)(() => {
+    const e = p.current;
     e &&
       document.activeElement &&
       document.activeElement instanceof HTMLElement &&
       e.contains(document.activeElement) &&
       document.activeElement.blur();
   }, []);
-  ((0, import_react.useEffect)(() => d.subscribe.onBeforeClose(y), [d.subscribe, y]),
-    useHandleKeydown(i && d.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
-      d.close();
+  ((0, import_react.useEffect)(() => f.subscribe.onBeforeClose(S), [f.subscribe, S]),
+    useHandleKeydown(i && f.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
+      f.close();
     }),
     (0, import_react.useEffect)(() => {
-      if (!d.opened) return;
-      const e = f.current;
+      if (!f.opened) return;
+      const e = p.current;
       if (!e) return;
       const t = e;
       function n(e) {
         const n = e.target;
         if (!(n instanceof HTMLElement)) return !1;
-        const r = `[data-popover-trigger-id="${d.id}"]`,
-          a = `[data-popover-outside-click-whitelist-id="${d.id}"]`;
+        const r = `[data-popover-trigger-id="${f.id}"]`,
+          a = `[data-popover-outside-click-whitelist-id="${f.id}"]`;
         return !(
           t === n ||
           t.contains(n) ||
@@ -25273,50 +25276,50 @@ function Portal({
       return new DisposeBuilder()
         .add(
           addEventListener(document, "click", (e) => {
-            n(e) && d.close();
+            n(e) && f.close();
           }),
         )
         .add(
           mouse$1.down(([e, t]) => {
-            if ("outside" === t) return d.close();
+            if ("outside" === t) return f.close();
             const r = e.button;
-            (r !== mouseButtons.right && r !== mouseButtons.wheel) || (n(e) && d.close());
+            (r !== mouseButtons.right && r !== mouseButtons.wheel) || (n(e) && f.close());
           }),
         ).dispose;
-    }, [d]));
-  const [S, w] = useSpring(() => ({
-      from: { opacity: 0, transform: b[r] },
+    }, [f]));
+  const [w, E] = useSpring(() => ({
+      from: { opacity: 0, transform: v[r] },
       config: { easing: easings$1.easeInOutCubic, duration: 250 },
     })),
-    E = import_react.useRef(b);
+    x = import_react.useRef(v);
   return (
-    (E.current = b),
+    (x.current = v),
     (0, import_react.useEffect)(() => {
-      if (!m) return;
-      const e = { opacity: 0, transform: E.current[m] };
-      w.start({
-        from: d.opened ? e : void 0,
-        to: d.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
+      if (!_) return;
+      const e = { opacity: 0, transform: x.current[_] };
+      E.start({
+        from: f.opened ? e : void 0,
+        to: f.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
       });
-    }, [w, m, d.opened]),
-    !d.opened && o
+    }, [E, _, f.opened]),
+    !f.opened && o
       ? null
       : (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, {
           children: import_react_dom.createPortal(
             (0, import_jsx_runtime.jsx)(animated.div, {
-              ...c,
-              ref: f,
+              ...d,
+              ref: p,
               style: {
                 position: "absolute",
                 top: "0",
                 left: "0",
-                pointerEvents: S.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: S.opacity.to((e) => (0 !== e || d.opened ? "block" : "none")),
-                ...c.style,
+                pointerEvents: w.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: w.opacity.to((e) => (0 !== e || f.opened ? "block" : "none")),
+                ...d.style,
               },
-              children: (0, import_jsx_runtime.jsx)(animated.div, { style: S, children: e }),
+              children: (0, import_jsx_runtime.jsx)(animated.div, { style: w, children: e }),
             }),
-            v,
+            y,
           ),
         })
   );

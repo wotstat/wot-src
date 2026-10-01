@@ -1,18 +1,18 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Ur as t,
-  Xn as n,
+  Hr as t,
+  Yn as n,
   _n as e,
   bt as i,
   fn as a,
-  n as o,
-  pn as r,
-  tn as c,
-  ui as d,
+  li as o,
+  n as r,
+  pn as c,
+  tn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as l } from "../../chunks/vendor.js";
-d();
+o();
 var [x, h] = e()(({ observableModel: s }) => ({ ...s.primitives(["count", "days"]) }), t),
   _ = "Content_471ad094",
   j = "Content_separator_5b0d3262",
@@ -55,10 +55,10 @@ var [x, h] = e()(({ observableModel: s }) => ({ ...s.primitives(["count", "days"
       ],
     });
   }),
-  k = () => (0, v.jsx)(o, { children: (0, v.jsx)(o.Decorator, { children: (0, v.jsx)(M, {}) }) });
+  k = () => (0, v.jsx)(r, { children: (0, v.jsx)(r.Decorator, { children: (0, v.jsx)(M, {}) }) });
 a(
-  new r()
-    .add(c)
+  new c()
+    .add(d)
     .addWithProps(x, {})
     .render((0, v.jsx)(k, {})),
 );

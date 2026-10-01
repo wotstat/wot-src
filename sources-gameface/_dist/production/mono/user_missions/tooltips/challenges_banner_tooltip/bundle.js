@@ -1,23 +1,23 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
-  Dn as s,
-  E as a,
-  I as r,
-  Jt as i,
-  O as t,
+  A as s,
+  Dn as a,
+  Jt as r,
+  N as i,
+  P as t,
   Pn as n,
   St as l,
   T as c,
   Yt as d,
   _t as o,
   ct as m,
-  k as _,
-  ln as u,
-  on as g,
-  qt as x,
-  un as j,
-  vt as h,
-  x as v,
+  j as _,
+  k as u,
+  ln as g,
+  on as x,
+  qt as j,
+  un as h,
+  vt as v,
   yt as p,
 } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
@@ -37,14 +37,14 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       bonuses: e.array("mission.bonuses"),
       conditions: e.object("mission.postBattleCondition"),
     }),
-    j,
+    h,
   ),
   L = "Default_img_81672d94",
   k = "Default_header_314adb08",
   C = "Default_description_e8e99be8",
   O = "Default_separator_4490ce49",
   $ = "Default_timerStatus_b2f607e",
-  E = e(i(), 1),
+  E = e(r(), 1),
   M = n.resolve("strings"),
   B = "hangar_event_banners.event.ChallengeEventBanner.tooltip",
   H = o(function () {
@@ -72,7 +72,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
               (0, E.jsx)("div", { className: O }),
               (0, E.jsx)(m, {
                 text: M.readOrEmpty(`${B}.timer.text`),
-                params: { timer: (0, E.jsx)(a, { size: t.x24x24, type: _.accent, start: s }, s) },
+                params: { timer: (0, E.jsx)(_, { size: i.x24x24, type: t.accent, start: s }, s) },
                 className: $,
                 upgradeLegacy: !0,
               }),
@@ -82,14 +82,14 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
     });
   }),
   D = "Header_3d842ff",
-  T = "Header_title_a2935114",
-  z = "Header_info_e7e5cf7c",
-  P = "Header_progress_2c5b28cb",
+  P = "Header_title_a2935114",
+  T = "Header_info_e7e5cf7c",
+  z = "Header_progress_2c5b28cb",
   S = "Header_accent_78fe2ee9",
   X = "Header_divider_e9b65048",
-  F = "Header_shields_ae11a84e",
-  q = "Header_shieldsCount_eb5f7f96",
-  A = "Header_shieldIcon_155019e1",
+  A = "Header_shields_ae11a84e",
+  F = "Header_shieldsCount_eb5f7f96",
+  q = "Header_shieldIcon_155019e1",
   K = n.resolve("strings"),
   J = o(function () {
     const { model: e } = I(),
@@ -101,7 +101,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       className: D,
       children: [
         (0, E.jsx)("div", {
-          className: T,
+          className: P,
           children: (0, E.jsx)(m, {
             text: K.readOrEmpty(
               "user_missions.challenge_missions.entrypoint.tooltip.challengeTitle",
@@ -110,10 +110,10 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
           }),
         }),
         (0, E.jsxs)("div", {
-          className: z,
+          className: T,
           children: [
             (0, E.jsx)("div", {
-              className: P,
+              className: z,
               children: (0, E.jsx)(m, {
                 text: K.readOrEmpty("user_missions.hub.challenge_missions.missionsCount"),
                 params: {
@@ -124,10 +124,10 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
             }),
             (0, E.jsx)("div", { className: X }),
             (0, E.jsxs)("div", {
-              className: F,
+              className: A,
               children: [
-                (0, E.jsx)("span", { className: q, children: i }),
-                (0, E.jsx)("div", { className: A }),
+                (0, E.jsx)("span", { className: F, children: i }),
+                (0, E.jsx)("div", { className: q }),
               ],
             }),
           ],
@@ -143,7 +143,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
   W = n.resolve("images"),
   Z = ({ condition: e }) => {
     const { iconKey: s, descrData: a } = e,
-      { breakpoint: r } = x(),
+      { breakpoint: r } = j(),
       i = r.weight >= d.large.weight ? 4 : 3,
       t = `userMissions.challenges.missionIcons.c_80.${s}`,
       n =
@@ -158,7 +158,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
         }),
         (0, E.jsx)("div", {
           className: U,
-          children: (0, E.jsx)(c, { text: `${a}`, lines: i, className: V }),
+          children: (0, E.jsx)(u, { text: `${a}`, lines: i, className: V }),
         }),
       ],
     });
@@ -171,7 +171,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
     (0, E.jsxs)("div", {
       className: ee,
       children: [
-        (0, E.jsx)("div", { className: s(se, ae) }),
+        (0, E.jsx)("div", { className: a(se, ae) }),
         (0, E.jsx)("span", {
           children: re.readOrEmpty("user_missions.hub.challenge_missions.card.or"),
         }),
@@ -185,7 +185,7 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
       s = e.conditions.get();
     return (0, E.jsx)("div", {
       className: te,
-      children: g(s.items, (e, s, a) =>
+      children: x(s.items, (e, s, a) =>
         (0, E.jsxs)(
           "div",
           {
@@ -200,31 +200,31 @@ var w = ["gold", "credits", "freeXP", "crystal", "equipCoin", "bptaler"],
   ce = "customization";
 var de = "Overlay_7ff640ef",
   oe = n.resolve("images");
-function me({ size: e, special: a, className: r }) {
+function me({ size: e, special: s, className: r }) {
   return (0, E.jsx)("div", {
-    className: s(de, r),
-    style: { backgroundImage: `url(${oe.readOrEmpty(`quests.bonuses.${e}.${v(a)}_overlay`)})` },
+    className: a(de, r),
+    style: { backgroundImage: `url(${oe.readOrEmpty(`quests.bonuses.${e}.${c(s)}_overlay`)})` },
   });
 }
 var _e = "RewardImage_98da984",
   ue = "RewardImage_count_971e488d";
-function ge({ showCounter: e, count: a, image: r, className: i = "" }) {
+function ge({ showCounter: e, count: s, image: r, className: i = "" }) {
   return (0, E.jsx)("div", {
-    className: s(_e, i),
+    className: a(_e, i),
     style: { backgroundImage: `url(${r})` },
     children:
       e &&
       (0, E.jsx)(m, {
         text: R.strings.user_missions.hub.challenge_missions.reward.multi(),
         className: ue,
-        params: { count: a },
+        params: { count: s },
       }),
   });
 }
 var xe = "RewardName_text_79eb0561";
-function je({ reward: e, className: a = "" }) {
+function je({ reward: e, className: s = "" }) {
   const { label: r } = e;
-  return (0, E.jsx)(m, { className: s(xe, a), text: b(r), upgradeLegacy: !0 });
+  return (0, E.jsx)(m, { className: a(xe, s), text: b(r), upgradeLegacy: !0 });
 }
 var he = {
     base: "RewardsList_397c9761",
@@ -243,8 +243,8 @@ var he = {
   },
   ve = o(function () {
     const { model: e } = I(),
-      a = e.bonuses.get(),
-      r = u(a),
+      s = e.bonuses.get(),
+      r = g(s),
       i = (function (e) {
         const s = e.filter((e) => e.name === ce),
           a = e.filter((e) => e.name !== ce),
@@ -257,7 +257,7 @@ var he = {
         (0, E.jsx)("div", { className: he.divider }),
         (0, E.jsx)("div", {
           className: he.rewardsContainer,
-          children: i.map((e, a) => {
+          children: i.map((e, s) => {
             const i = w.includes(e.name ?? ""),
               t = (function (e, s) {
                 const a = s.filter((e) => e.name === ce).length;
@@ -274,14 +274,14 @@ var he = {
                     showCounter: n,
                     count: t,
                     image: f(e, N.Big),
-                    className: s(he.rewardImage, n && he.rewardImage__counter),
+                    className: a(he.rewardImage, n && he.rewardImage__counter),
                   }),
                   l && (0, E.jsx)(me, { special: l, size: N.Small, className: he.overlay }),
                   i &&
-                    (0, E.jsx)(je, { reward: e, className: s(he.label, he[`label__${e.name}`]) }),
+                    (0, E.jsx)(je, { reward: e, className: a(he.label, he[`label__${e.name}`]) }),
                 ],
               },
-              `${e.id}__${a}`,
+              `${e.id}__${s}`,
             );
           }),
         }),
@@ -306,7 +306,7 @@ var fe = "TimerBlock_divider_c31a7a65",
           className: Ne,
           children: (0, E.jsx)(m, {
             text: ye.readOrEmpty("user_missions.hub.challenge_missions.header.timer.text"),
-            params: { timer: (0, E.jsx)(a, { size: t.x24x24, type: _.accent, start: s }, s) },
+            params: { timer: (0, E.jsx)(_, { size: i.x24x24, type: t.accent, start: s }, s) },
             className: we,
             upgradeLegacy: !0,
           }),
@@ -330,10 +330,10 @@ var fe = "TimerBlock_divider_c31a7a65",
     return (0, E.jsx)("div", { className: Le, children: r });
   });
 p(
-  (0, E.jsx)(h, {
+  (0, E.jsx)(v, {
     children: (0, E.jsx)(y, {
-      children: (0, E.jsx)(r, {
-        children: (0, E.jsx)(r.Decorator, { children: (0, E.jsx)(Ce, {}) }),
+      children: (0, E.jsx)(s, {
+        children: (0, E.jsx)(s.Decorator, { children: (0, E.jsx)(Ce, {}) }),
       }),
     }),
   }),

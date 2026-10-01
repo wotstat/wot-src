@@ -11,6 +11,25 @@ class FortRushBattleRibbonsPanel(BattleRibbonsPanel):
         super(FortRushBattleRibbonsPanel, self).__init__(ribbonsAggregator=ribbons_aggregator.createRibbonsAggregator())
         return
 
+    def _populate(self):
+        super(FortRushBattleRibbonsPanel, self)._populate()
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is not None:
+            ctrl.onRespawnBaseMoving += self.__onRespawnBaseMoving
+        return
+
+    def _dispose(self):
+        ctrl = self.sessionProvider.shared.vehicleState
+        if ctrl is not None:
+            ctrl.onRespawnBaseMoving -= self.__onRespawnBaseMoving
+        super(FortRushBattleRibbonsPanel, self)._dispose()
+        return
+
+    def __onRespawnBaseMoving(self):
+        self._ribbonsAggregator.clearRibbonsData()
+        self.as_resetS()
+        return
+
     def _getRibbonsConfig(self):
         result = super(FortRushBattleRibbonsPanel, self)._getRibbonsConfig()
         result.extend([

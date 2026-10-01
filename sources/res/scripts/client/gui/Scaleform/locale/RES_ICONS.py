@@ -4836,7 +4836,7 @@ class RES_ICONS(object):
     MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_AIRDEFENSESUITE = b'../maps/icons/attachments_preview/background/airDefenseSuite.png'
     MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_DEFAULT = b'../maps/icons/attachments_preview/background/default.png'
     MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_OCEANICSENTINEL = b'../maps/icons/attachments_preview/background/oceanicSentinel.png'
-    MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_OPBCT = b'../maps/icons/attachments_preview/background/OpBCt.png'
+    MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_OPEN_BUNDLE = b'../maps/icons/attachments_preview/background/open_bundle.png'
     MAPS_ICONS_ATTACHMENTS_PREVIEW_BACKGROUND_SEARCHANDDESTROY = b'../maps/icons/attachments_preview/background/searchAndDestroy.png'
     MAPS_ICONS_AWARDS_BATTLESWORDS = b'../maps/icons/awards/battleSwords.png'
     MAPS_ICONS_AWARDS_BECOMERECRUITER = b'../maps/icons/awards/becomeRecruiter.png'
@@ -25920,6 +25920,11 @@ class RES_ICONS(object):
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_2 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_2.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_3 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_3.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_4 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_4.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_5 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_5.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_6 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_6.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_7 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_7.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_8 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_8.png'
+    MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_BP21_9 = b'../maps/icons/tankmen/icons/204x256/tankmen_bp21_9.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_MTLB1_1 = b'../maps/icons/tankmen/icons/204x256/tankmen_mtlb1_1.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_MTLB1_2 = b'../maps/icons/tankmen/icons/204x256/tankmen_mtlb1_2.png'
     MAPS_ICONS_TANKMEN_ICONS_204X256_TANKMEN_MTLB1_3 = b'../maps/icons/tankmen/icons/204x256/tankmen_mtlb1_3.png'
@@ -26295,6 +26300,11 @@ class RES_ICONS(object):
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_2 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_2.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_3 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_3.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_4 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_4.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_5 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_5.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_6 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_6.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_7 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_7.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_8 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_8.png'
+    MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_9 = b'../maps/icons/tankmen/icons/special/tankmen_bp21_9.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_1 = b'../maps/icons/tankmen/icons/special/tankmen_mtlb1_1.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_2 = b'../maps/icons/tankmen/icons/special/tankmen_mtlb1_2.png'
     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_3 = b'../maps/icons/tankmen/icons/special/tankmen_mtlb1_3.png'
@@ -44242,6 +44252,11 @@ class RES_ICONS(object):
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_2,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_3,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_4,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_5,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_6,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_7,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_8,
+     MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_BP21_9,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_1,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_2,
      MAPS_ICONS_TANKMEN_ICONS_SPECIAL_TANKMEN_MTLB1_3,

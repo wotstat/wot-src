@@ -119,7 +119,6 @@ class GAME(CONST_CONTAINER):
     EPIC_RANDOM_PLAYERS_PANELS_STATE = b'epicppState'
     GAMEPLAY_MASK = b'gameplayMask'
     GAMEPLAY_CTF = b'gameplay_ctf'
-    GAMEPLAY_DEV_MAPS = b'gameplay_devMaps'
     SHOW_VECTOR_ON_MAP = b'showVectorOnMap'
     SHOW_SECTOR_ON_MAP = b'showSectorOnMap'
     SHOW_VEH_MODELS_ON_MAP = b'showVehModelsOnMap'

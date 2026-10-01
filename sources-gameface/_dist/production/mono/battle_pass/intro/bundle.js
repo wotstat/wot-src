@@ -1,42 +1,42 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  $t as s,
-  Br as t,
-  In as a,
-  Lr as n,
-  Or as l,
-  Qn as r,
-  Qr as o,
-  Rn as i,
-  Xn as d,
+  Dr as s,
+  Et as t,
+  Fn as a,
+  Ir as n,
+  Jn as l,
+  Ln as r,
+  Tt as o,
+  Xn as i,
+  Xr as d,
   Yn as c,
-  Yt as _,
-  Zn as u,
-  Zr as m,
-  Zt as b,
-  _n as p,
-  ar as f,
-  ci as h,
-  en as C,
-  fn as v,
-  gn as x,
-  pi as j,
-  pn as g,
-  ti as k,
-  tn as S,
-  ui as N,
+  Zn as _,
+  Zr as u,
+  Zt as m,
+  _n as b,
+  ei as p,
+  fi as f,
+  fn as h,
+  gn as C,
+  ir as v,
+  li as x,
+  pn as j,
+  si as g,
+  tn as k,
+  wt as S,
+  zr as N,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as w } from "../chunks/vendor.js";
-var y = e(N(), 1),
+var y = e(x(), 1),
   I = "Bullets_212d5391",
-  B = "Bullets_bullet_ba77929c",
-  E = "Bullets_bullet__active_abbe1a09",
-  W = d();
+  E = "Bullets_bullet_ba77929c",
+  W = "Bullets_bullet__active_abbe1a09",
+  B = c();
 function O({ count: e, current: s, className: t }) {
-  return (0, W.jsx)("div", {
-    className: h(I, t),
-    children: f(e, (e) => (0, W.jsx)("div", { className: h(B, e + 1 === s && E) }, e)),
+  return (0, B.jsx)("div", {
+    className: g(I, t),
+    children: v(e, (e) => (0, B.jsx)("div", { className: g(E, e + 1 === s && W) }, e)),
   });
 }
 var $ = {
@@ -54,11 +54,11 @@ var $ = {
     fadeOut: "Slider_fadeOut_263edf46",
     fadeIn: "Slider_fadeIn_263edf46",
   },
-  L = ({ children: e, currentSlide: s }) => {
+  D = ({ children: e, currentSlide: s }) => {
     const t = (0, y.useRef)(null),
-      { breakpoint: a } = c(),
-      n = a.weight < r.medium.weight,
-      l = e,
+      { breakpoint: a } = l(),
+      n = a.weight < _.medium.weight,
+      r = e,
       [o, i] = (0, y.useState)(0),
       d = () => {
         if (!t.current) return;
@@ -78,19 +78,19 @@ var $ = {
         ),
         [],
       ),
-      (0, W.jsx)("div", {
-        className: h($.base, n && $.base__large),
-        children: (0, W.jsx)("div", {
+      (0, B.jsx)("div", {
+        className: g($.base, n && $.base__large),
+        children: (0, B.jsx)("div", {
           className: $.trackWrapper,
           ref: t,
-          children: (0, W.jsx)("div", {
+          children: (0, B.jsx)("div", {
             className: $.track,
             style: { transform: `translateX(-${o * (s - 1)}rem)` },
-            children: l.map((e, t) =>
-              (0, W.jsx)(
+            children: r.map((e, t) =>
+              (0, B.jsx)(
                 "div",
                 {
-                  className: h($.slide, n && $.slide__large, t + 1 === s && $.slide__active),
+                  className: g($.slide, n && $.slide__large, t + 1 === s && $.slide__active),
                   style: { width: `${o}rem` },
                   children: e,
                 },
@@ -102,25 +102,25 @@ var $ = {
       })
     );
   },
-  D = "DescriptioBlock_cd7c382c",
-  M = "DescriptioBlock_icon_be43f59b",
-  P = "DescriptioBlock_title_62eb5c5",
-  U = "DescriptioBlock_description_2e359fe8",
-  z = ({ icon: e, title: s, descr: t }) => {
+  L = "DescriptioBlock_cd7c382c",
+  z = "DescriptioBlock_icon_be43f59b",
+  M = "DescriptioBlock_title_62eb5c5",
+  P = "DescriptioBlock_description_2e359fe8",
+  U = ({ icon: e, title: s, descr: t }) => {
     const a = (0, y.useCallback)((e) => {
       e.stopPropagation();
     }, []);
-    return (0, W.jsxs)("div", {
-      className: D,
+    return (0, B.jsxs)("div", {
+      className: L,
       onClick: a,
       children: [
-        (0, W.jsx)("div", { className: M, style: { backgroundImage: `url(${e})` } }),
-        (0, W.jsx)("div", { className: P, children: s }),
-        (0, W.jsx)("div", { className: U, children: t && k(t) }),
+        (0, B.jsx)("div", { className: z, style: { backgroundImage: `url(${e})` } }),
+        (0, B.jsx)("div", { className: M, children: s }),
+        (0, B.jsx)("div", { className: P, children: t && p(t) }),
       ],
     });
   },
-  Z = {
+  F = {
     base: "Content_90bca771",
     bg: "Content_bg_3c3188a8",
     shadow: "Content_shadow_7e9b4ef",
@@ -143,94 +143,94 @@ var $ = {
     fadeOut: "Content_fadeOut_da09528a",
     fadeIn: "Content_fadeIn_da09528a",
   },
-  A = j.resolve("images"),
-  F = j.resolve("strings"),
-  Q = ({ slides: e, onClose: t }) => {
-    const [a, l] = (0, y.useState)(1),
-      r = 1 === a,
-      d = a === e.length,
-      m = e.length <= 1,
-      { breakpoint: p } = c(),
-      f = p.height <= u.Small ? s.small : s.medium,
-      v = A.readOrEmpty("battlePass.backgrounds.common", "silent"),
-      x = (0, y.useCallback)(
+  T = f.resolve("images"),
+  X = f.resolve("strings"),
+  Z = ({ slides: e, onClose: s }) => {
+    const [a, d] = (0, y.useState)(1),
+      c = 1 === a,
+      _ = a === e.length,
+      b = e.length <= 1,
+      { breakpoint: p } = l(),
+      f = p.height <= i.Small ? o.small : o.medium,
+      h = T.readOrEmpty("battlePass.backgrounds.common", "silent"),
+      C = (0, y.useCallback)(
         function () {
-          r || (l(a - 1), o.sound(R.sounds.play()), o.sound(R.sounds.bp_glide_01()));
+          c || (d(a - 1), u.sound(R.sounds.play()), u.sound(R.sounds.bp_glide_01()));
         },
-        [r, a],
+        [c, a],
       ),
-      j = (0, y.useCallback)(
+      v = (0, y.useCallback)(
         function () {
-          d || (l(a + 1), o.sound(R.sounds.play()), o.sound(R.sounds.bp_glide_01()));
+          _ || (d(a + 1), u.sound(R.sounds.play()), u.sound(R.sounds.bp_glide_01()));
         },
-        [d, a],
+        [_, a],
       ),
-      g = () => o.sound(R.sounds.highlight());
+      x = () => u.sound(R.sounds.highlight());
     return (
-      i(n.ARROW_LEFT, x),
-      i(n.ARROW_RIGHT, j),
-      (0, W.jsxs)("div", {
-        className: Z.base,
-        style: { backgroundImage: `url(${v})` },
+      r(n.ARROW_LEFT, C),
+      r(n.ARROW_RIGHT, v),
+      (0, B.jsxs)("div", {
+        className: F.base,
+        style: { backgroundImage: `url(${h})` },
         children: [
-          (0, W.jsxs)(W.Fragment, {
+          (0, B.jsxs)(B.Fragment, {
             children: [
-              (0, W.jsx)("div", { className: Z.bg, style: { backgroundImage: `url(${v})` } }),
-              (0, W.jsx)("div", { className: Z.shadow }),
+              (0, B.jsx)("div", { className: F.bg, style: { backgroundImage: `url(${h})` } }),
+              (0, B.jsx)("div", { className: F.shadow }),
             ],
           }),
-          (0, W.jsx)(_, { onClose: t, className: Z.closeButton }),
-          (0, W.jsxs)("div", {
-            className: Z.content,
+          (0, B.jsx)(m, { onClose: s, className: F.closeButton }),
+          (0, B.jsxs)("div", {
+            className: F.content,
             children: [
-              !m &&
-                (0, W.jsx)(b, {
-                  theme: C.secondary,
-                  onClick: x,
-                  onMouseEnter: g,
-                  className: h(Z.sliderControl, Z.sliderControl__prev),
-                  disabled: r,
-                  children: (0, W.jsx)("div", { className: Z.prev }),
+              !b &&
+                (0, B.jsx)(S, {
+                  theme: t.secondary,
+                  onClick: C,
+                  onMouseEnter: x,
+                  className: g(F.sliderControl, F.sliderControl__prev),
+                  disabled: c,
+                  children: (0, B.jsx)("div", { className: F.prev }),
                 }),
-              !m &&
-                (0, W.jsx)(b, {
-                  theme: C.secondary,
-                  onClick: j,
-                  onMouseEnter: g,
-                  className: h(Z.sliderControl, Z.sliderControl__next),
-                  disabled: d,
-                  children: (0, W.jsx)("div", { className: Z.next }),
+              !b &&
+                (0, B.jsx)(S, {
+                  theme: t.secondary,
+                  onClick: v,
+                  onMouseEnter: x,
+                  className: g(F.sliderControl, F.sliderControl__next),
+                  disabled: _,
+                  children: (0, B.jsx)("div", { className: F.next }),
                 }),
-              (0, W.jsx)(L, {
+              (0, B.jsx)(D, {
                 currentSlide: a,
                 children: e.map((e, s) =>
-                  (0, W.jsx)(
-                    z,
+                  (0, B.jsx)(
+                    U,
                     {
-                      icon: A.readOrEmpty(`battlePass.intro.${e}`),
-                      title: F.readOrEmpty(`battle_pass.intro.${e}.title`),
-                      descr: F.readOrEmpty(`battle_pass.intro.${e}.text`),
+                      icon: T.readOrEmpty(`battlePass.intro.${e}`),
+                      title: X.readOrEmpty(`battle_pass.intro.${e}.title`),
+                      descr: X.readOrEmpty(`battle_pass.intro.${e}.text`),
                     },
                     s,
                   ),
                 ),
               }),
-              (0, W.jsxs)("div", {
-                className: Z.bottomContainer,
+              (0, B.jsxs)("div", {
+                className: F.bottomContainer,
                 children: [
-                  (0, W.jsx)("div", {
-                    className: Z.buttonWrapper,
-                    children: (0, W.jsx)(b, {
-                      theme: C.primary,
+                  (0, B.jsx)("div", {
+                    className: F.buttonWrapper,
+                    children: (0, B.jsx)(S, {
+                      theme: t.primary,
                       size: f,
-                      className: Z.actionButton,
-                      onClick: d ? t : j,
-                      children: d
-                        ? F.readOrEmpty("battle_pass.intro.affirmative.button")
-                        : F.readOrEmpty("battle_pass.intro.next.button"),
+                      className: F.actionButton,
+                      onClick: _ ? s : v,
+                      children: _
+                        ? X.readOrEmpty("battle_pass.intro.affirmative.button")
+                        : X.readOrEmpty("battle_pass.intro.next.button"),
                     }),
                   }),
-                  (0, W.jsx)(O, { count: e.length, current: a, className: Z.bullets }),
+                  (0, B.jsx)(O, { count: e.length, current: a, className: F.bullets }),
                 ],
               }),
             ],
@@ -239,22 +239,22 @@ var $ = {
       })
     );
   },
-  [T, X] = p()(
+  [A, q] = b()(
     ({ observableModel: e }) => {
-      const s = { root: e.object(), slides: e.array("slides") },
-        a = x(() => l(s.slides.get(), (e) => e), { equals: t });
-      return { ...s, computes: { getSlides: a } };
+      const t = { root: e.object(), slides: e.array("slides") },
+        a = C(() => s(t.slides.get(), (e) => e), { equals: N });
+      return { ...t, computes: { getSlides: a } };
     },
     ({ externalModel: e }) => ({}),
   ),
-  Y = w(() => {
-    const { model: e } = X(),
+  G = w(() => {
+    const { model: e } = q(),
       s = e.computes.getSlides();
-    return (a(() => m.close()), (0, W.jsx)(Q, { slides: s, onClose: m.close }));
+    return (a(() => d.close()), (0, B.jsx)(Z, { slides: s, onClose: d.close }));
   });
-v(
-  new g()
-    .add(S)
-    .addWithProps(T, {})
-    .render((0, W.jsx)(Y, {})),
+h(
+  new j()
+    .add(k)
+    .addWithProps(A, {})
+    .render((0, B.jsx)(G, {})),
 );

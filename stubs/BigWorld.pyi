@@ -1203,9 +1203,10 @@ class AvatarSubfilters:
 
 class EventType:
     LOADING_VIEW: ClassVar[EventType]  # native value: 1
+    LOAD_CANCELLED: ClassVar[EventType]  # native value: 4
     LOAD_FAILED: ClassVar[EventType]  # native value: 3
     VIEW_CREATED: ClassVar[EventType]  # native value: 0
-    VIEW_DESTROYED: ClassVar[EventType]  # native value: 4
+    VIEW_DESTROYED: ClassVar[EventType]  # native value: 5
     VIEW_LOADED: ClassVar[EventType]  # native value: 2
 
 class FilterInterpolationType:
@@ -1238,6 +1239,7 @@ CAMERA_SHOT_POINT: Final[AvatarSubfilters] = AvatarSubfilters.CAMERA_SHOT_POINT
 LINEAR: Final[FilterInterpolationType] = FilterInterpolationType.LINEAR
 LIVEKIT: Final[VOIPBackend] = VOIPBackend.LIVEKIT
 LOADING_VIEW: Final[EventType] = EventType.LOADING_VIEW
+LOAD_CANCELLED: Final[EventType] = EventType.LOAD_CANCELLED
 LOAD_FAILED: Final[EventType] = EventType.LOAD_FAILED
 Parent: Final[SpawnTarget] = SpawnTarget.Parent
 REPLAY_ABORTED_CORRUPTED_DATA: Final[ReplayTerminatedReason] = ReplayTerminatedReason.REPLAY_ABORTED_CORRUPTED_DATA

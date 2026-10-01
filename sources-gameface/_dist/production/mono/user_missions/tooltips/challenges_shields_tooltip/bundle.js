@@ -1,5 +1,5 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
-import { I as e, Jt as t, On as i, bt as n, vt as a, yt as r } from "../../chunks/lib.js";
+import { A as e, Jt as t, On as i, bt as n, vt as a, yt as r } from "../../chunks/lib.js";
 import "../../chunks/_wg-global-styles.js";
 /* empty css                 */ i();
 var l = "Content_31a760a2",

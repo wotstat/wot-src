@@ -13,12 +13,24 @@ if typing.TYPE_CHECKING:
     from items.vehicle_mechanics_types import VehicleMechanicKey
 _WIDGET_ALIASES_BY_MECHANIC = {}
 
+class VisibilityState(object):
+    DEFAULT = 0
+    IN_POSTMORTEM = 1
+
+    @staticmethod
+    def validate(state, value):
+        if state & VisibilityState.IN_POSTMORTEM:
+            return False
+        return value
+
+
 class VehicleMechanicsWidgetsPresenter(ViewComponent, VehiclePassengerInfoWatcher, IVehicleTrackedMechanicsView):
     __sessionProvider = dependency.descriptor(IBattleSessionProvider)
 
     def __init__(self):
         super(VehicleMechanicsWidgetsPresenter, self).__init__()
         self.__updatersCollection = ViewUpdatersCollection()
+        self.__visibilityState = VisibilityState.DEFAULT
         return
 
     @eventHandler
@@ -27,12 +39,7 @@ class VehicleMechanicsWidgetsPresenter(ViewComponent, VehiclePassengerInfoWatche
         for mechanic, resIds in viewitems(_WIDGET_ALIASES_BY_MECHANIC):
             isTracked = mechanic in trackedMechanics
             for resId in resIds:
-                child = self._getChild(resId)
-                if child is None:
-                    if isTracked:
-                        self._constructChild(resId)
-                else:
-                    child.setEnabled(isTracked)
+                self.__enableComponent(isTracked, resId)
 
         return
 
@@ -61,6 +68,7 @@ class VehicleMechanicsWidgetsPresenter(ViewComponent, VehiclePassengerInfoWatche
     def _finalize(self):
         self.stopVehiclePassengerListening(self.__onVehicleControlling)
         self.__updatersCollection.finalize()
+        self.__visibilityState = VisibilityState.DEFAULT
         super(VehicleMechanicsWidgetsPresenter, self)._finalize()
         return
 
@@ -69,10 +77,19 @@ class VehicleMechanicsWidgetsPresenter(ViewComponent, VehiclePassengerInfoWatche
         return
 
     def __onSwitchToPostmortem(self, _, __):
+        self.__visibilityState |= VisibilityState.IN_POSTMORTEM
         for resIds in viewvalues(_WIDGET_ALIASES_BY_MECHANIC):
             for resId in resIds:
-                child = self.getChildByPosId(resId)
-                if child is not None:
-                    child.setEnabled(False)
+                self.__enableComponent(False, resId)
 
+        return
+
+    def __enableComponent(self, value, resId):
+        value = VisibilityState.validate(self.__visibilityState, value)
+        child = self.getChildByPosId(resId)
+        if child is None:
+            if value:
+                self._constructChild(resId)
+        else:
+            child.setEnabled(value)
         return

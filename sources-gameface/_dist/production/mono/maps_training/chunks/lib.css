@@ -1705,11 +1705,6 @@ html[lang="th"] .Input_placeholder__largeSize_6dbe7ba2 {
   padding-bottom: 0;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Formattext_bb80854d {
-  display: flex;
-  flex-wrap: wrap;
-} /* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
 .CloseButton_7488a1b8 {
   display: flex;
   justify-content: center;
@@ -1772,6 +1767,11 @@ html[lang="th"] .Input_placeholder__largeSize_6dbe7ba2 {
 }
 .media-upscale .CloseButton_base__x32x32_6466ea31:hover {
   background-image: url(R.images.gui.maps.icons.ui_kit.close_button.icon_x32x32_hover);
+} /* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Formattext_bb80854d {
+  display: flex;
+  flex-wrap: wrap;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Tooltip_6d997cee {

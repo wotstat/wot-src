@@ -1,55 +1,55 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
   An as a,
-  Br as s,
-  Hr as t,
+  Dr as s,
+  Fn as t,
+  Fr as n,
   I as i,
-  In as n,
-  Ir as r,
-  Jn as o,
-  Nn as l,
-  Or as d,
-  Qn as c,
-  Qr as _,
-  R as m,
-  Xn as p,
-  Yn as u,
-  Yr as w,
-  _ as b,
-  _n as h,
-  an as g,
-  bt as T,
-  ci as f,
-  cn as A,
-  cr as x,
-  dn as v,
-  dr as P,
-  fn as y,
-  g as S,
-  gn as N,
-  gr as B,
-  h as L,
-  in as j,
-  ir as E,
-  jn as k,
-  ln as I,
-  o as U,
-  on as C,
-  pi as V,
-  pn as W,
-  r as Y,
-  rn as $,
-  ti as F,
-  tn as O,
-  ui as M,
+  Jn as r,
+  Jr as l,
+  Mn as o,
+  R as d,
+  Vr as c,
+  Yn as _,
+  Zn as m,
+  Zr as p,
+  _ as u,
+  _n as w,
+  an as b,
+  bt as h,
+  cn as g,
+  dn as T,
+  ei as f,
+  fi as A,
+  fn as x,
+  g as v,
+  gn as P,
+  h as y,
+  hr as S,
+  in as N,
+  kn as L,
+  li as B,
+  ln as j,
+  o as E,
+  on as k,
+  pn as I,
+  qn as U,
+  r as V,
+  rn as C,
+  rr as W,
+  si as $,
+  sr as F,
+  tn as Y,
+  ur as O,
+  zr as M,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as z } from "../chunks/vendor.js";
 import { i as D, r as G, s as H } from "../chunks/utils.js";
 import { n as q } from "../chunks/filename.js";
-import { n as Q, t as X } from "../chunks/useKeyup.js";
-var J = e(M(), 1),
-  K = (function (e) {
+import { n as J, t as Z } from "../chunks/useKeyup.js";
+var K = e(B(), 1),
+  X = (function (e) {
     return (
       (e.BUY_BATTLE_PASS = "buyBattlePassReason"),
       (e.BUY_BATTLE_PASS_LEVELS = "buyBattlePassLevelsReason"),
@@ -60,7 +60,7 @@ var J = e(M(), 1),
       e
     );
   })({}),
-  [Z, ee] = h()(
+  [Q, ee] = w()(
     ({ observableModel: e }) => {
       const a = {
           root: e.object(),
@@ -68,81 +68,81 @@ var J = e(M(), 1),
           additionalRewards: e.array("additionalRewards.items"),
           packageRewards: e.array("packageRewards.items"),
           starterPackRewards: e.array("starterPackRewards.items"),
-          canToOpenAdditionView: B.box(!1),
+          canToOpenAdditionView: S.box(!1),
         },
-        i = N(() => {
+        t = P(() => {
           const { reason: e } = a.root.get();
-          return e === K.BUY_BATTLE_PASS;
+          return e === X.BUY_BATTLE_PASS;
         }),
-        n = N(() => {
+        n = P(() => {
           const { reason: e } = a.root.get();
-          return e === K.BUY_BATTLE_PASS_WITH_LEVELS;
+          return e === X.BUY_BATTLE_PASS_WITH_LEVELS;
         }),
-        r = N(() => {
+        i = P(() => {
           const { reason: e } = a.root.get();
-          return e === K.BUY_MULTIPLE_BATTLE_PASS;
+          return e === X.BUY_MULTIPLE_BATTLE_PASS;
         }),
-        o = N(() => i() || r() || n()),
-        l = N(() => {
+        r = P(() => t() || i() || n()),
+        l = P(() => {
           const { reason: e } = a.root.get();
-          return e === K.STYLE_UPGRADE;
+          return e === X.STYLE_UPGRADE;
         }),
-        c = N(
+        o = P(
           () =>
-            o() && !a.canToOpenAdditionView.get()
-              ? [...d(a.starterPackRewards.get(), t), ...d(a.packageRewards.get(), t)]
-              : d(a.additionalRewards.get(), t),
-          { equals: s },
+            r() && !a.canToOpenAdditionView.get()
+              ? [...s(a.starterPackRewards.get(), c), ...s(a.packageRewards.get(), c)]
+              : s(a.additionalRewards.get(), c),
+          { equals: M },
         ),
-        _ = N(() => c().length),
-        m = N(() => _() > 0),
-        p = N(() => d(a.mainRewards.get(), t), { equals: s }),
-        u = N(() => {
-          const e = p();
+        d = P(() => o().length),
+        _ = P(() => d() > 0),
+        m = P(() => s(a.mainRewards.get(), c), { equals: M }),
+        p = P(() => {
+          const e = m();
           if (1 === e.length) return e;
           const a = [...e],
             s = a[0];
           return a[1] && s ? ((a[0] = a[1]), (a[1] = s), a) : a;
         }),
-        w = N(() => (a.root.get().isFinalReward ? u() : p())),
-        b = N(() => w().length),
-        h = N(() => {
+        u = P(() => (a.root.get().isFinalReward ? p() : m())),
+        w = P(() => u().length),
+        b = P(() => {
           const { isFinalReward: e } = a.root.get();
-          return 1 === b() || e;
+          return 1 === w() || e;
         }),
-        g = N(() => {
+        h = P(() => {
           const { isFinalReward: e } = a.root.get();
-          return (2 !== w().length && e) || o() || l();
+          return (2 !== u().length && e) || r() || l();
         }),
-        T = [K.BUY_BATTLE_PASS_LEVELS, K.BUY_BATTLE_PASS_WITH_LEVELS, K.DEFAULT].includes(
+        g = [X.BUY_BATTLE_PASS_LEVELS, X.BUY_BATTLE_PASS_WITH_LEVELS, X.DEFAULT].includes(
           a.root.get().reason,
         ),
-        f = N(() => {
+        T = P(() => {
           const { isPostProgressionUnlocked: e, isExtra: s, isFinalReward: t } = a.root.get();
-          return e && !s && t && T;
+          return e && !s && t && g;
         });
       return {
         ...a,
         computes: {
-          isReasonBuy: i,
+          isReasonBuy: t,
           isReasonBuyWithLevels: n,
-          isMultiplePurchase: r,
-          isReasonBuyCurrently: o,
+          isMultiplePurchase: i,
+          isReasonBuyCurrently: r,
           isReasonStyleUpgrade: l,
-          getAdditionalRewards: c,
-          getAdditionalRewardsLength: _,
-          hasAdditionalRewards: m,
-          getRewards: w,
-          getRewardsLength: b,
-          hasBigSizeReward: h,
-          getFinalRewards: u,
-          hasGlowAnimation: g,
-          hasPostProgressionBanner: f,
+          getAdditionalRewards: o,
+          getAdditionalRewardsLength: d,
+          hasAdditionalRewards: _,
+          getRewards: u,
+          getRewardsLength: w,
+          hasBigSizeReward: b,
+          getFinalRewards: p,
+          hasGlowAnimation: h,
+          hasPostProgressionBanner: T,
         },
       };
     },
     ({ model: e, externalModel: a }) => ({
-      enableToOpenAdditionView: P(() => {
+      enableToOpenAdditionView: O(() => {
         e.canToOpenAdditionView.set(!0);
       }),
       buy: a.createCallbackNoArgs("onBuyClick"),
@@ -153,52 +153,52 @@ var J = e(M(), 1),
   ae = "AdditionalRewards_c7f66cac",
   se = "AdditionalRewards_title_3afa6e1a",
   te = "AdditionalRewards_title__updateAnimation_3afa6e1a",
-  ie = "AdditionalRewards_reward_79ca4edb",
-  ne = "AdditionalRewards_rewardsList_532db93b",
-  re = p(),
-  oe = R.strings.battle_pass.battlePassAwardsView,
-  le = z(({ rewards: e, pageNumber: s, className: t }) => {
-    const { model: n } = ee(),
-      r = n.canToOpenAdditionView.get(),
-      { breakpoint: o } = u(),
-      d = o.weight >= c.large.weight ? A.Big : A.Small,
-      m = l(e, {
+  ne = "AdditionalRewards_reward_79ca4edb",
+  ie = "AdditionalRewards_rewardsList_532db93b",
+  re = _(),
+  le = R.strings.battle_pass.battlePassAwardsView,
+  oe = z(({ rewards: e, pageNumber: a, className: s }) => {
+    const { model: t } = ee(),
+      n = t.canToOpenAdditionView.get(),
+      { breakpoint: l } = r(),
+      d = l.weight >= m.large.weight ? g.Big : g.Small,
+      c = o(e, {
         from: { opacity: 0, y: "20rem" },
         enter: { opacity: 1, y: "0rem" },
         trail: 100,
         config: { duration: 300, easing: G },
-        onStart: () => _.sound(R.sounds.bp_reward()),
-        delay: 1 === s ? 1600 - (r ? 800 : 0) : 100,
+        onStart: () => p.sound(R.sounds.bp_reward()),
+        delay: 1 === a ? 1600 - (n ? 800 : 0) : 100,
       });
     return (0, re.jsxs)("div", {
-      className: f(ae, t),
+      className: $(ae, s),
       children: [
-        (0, re.jsx)("div", { className: f(se, r && te), children: oe.additionalRewards.subText() }),
+        (0, re.jsx)("div", { className: $(se, n && te), children: le.additionalRewards.subText() }),
         (0, re.jsx)("div", {
-          className: ne,
-          children: m((e, s) => {
-            const t = s.item || s.name,
-              n = $(s, d),
-              r = (() => {
-                const e = s.value.split("_");
+          className: ie,
+          children: c((e, a) => {
+            const s = a.item || a.name,
+              t = C(a, d),
+              n = (() => {
+                const e = a.value.split("_");
                 return "universal" === e[0]
-                  ? { value: e[e.length - 1], valueType: v.MULTI }
-                  : { value: s.value, valueType: g(s.name) };
+                  ? { value: e[e.length - 1], valueType: T.MULTI }
+                  : { value: a.value, valueType: b(a.name) };
               })(),
-              o = j({ tooltipId: s.tooltipId }, Number(s.tooltipContentId), {
+              r = N({ tooltipId: a.tooltipId }, Number(a.tooltipContentId), {
                 ignoreShowDelay: !0,
               });
-            return (0, re.jsx)(a.div, {
-              className: ie,
+            return (0, re.jsx)(L.div, {
+              className: ne,
               style: e,
               children: (0, re.jsx)(i, {
-                name: t,
-                image: n,
-                special: s.overlayType,
-                value: r.value,
-                valueType: r.valueType,
+                name: s,
+                image: t,
+                special: a.overlayType,
+                value: n.value,
+                valueType: n.valueType,
                 size: d,
-                tooltipArgs: o,
+                tooltipArgs: r,
               }),
             });
           }),
@@ -218,13 +218,13 @@ var J = e(M(), 1),
   ge = R.strings.battle_pass.battlePassAwardsView.footer,
   Te = z(({ className: e, parentRef: a }) => {
     const { model: s, controls: t } = ee(),
-      { seasonStopped: i, currentLevel: n } = s.root.get();
-    X({ [r.ENTER]: t.buy, [r.SPACE]: t.buy });
-    const { breakpoint: o } = u(),
-      l = o.weight >= c.medium.weight;
+      { seasonStopped: i, currentLevel: l } = s.root.get();
+    Z({ [n.ENTER]: t.buy, [n.SPACE]: t.buy });
+    const { breakpoint: o } = r(),
+      d = o.weight >= m.medium.weight;
     return (0, re.jsxs)("div", {
       ref: a,
-      className: f(de, e),
+      className: $(de, e),
       children: [
         (0, re.jsxs)("div", {
           className: ce,
@@ -236,7 +236,7 @@ var J = e(M(), 1),
                 (0, re.jsx)("div", { className: pe, children: ge.bpTitle() }),
                 (0, re.jsx)("div", {
                   className: ue,
-                  children: n >= 45 ? ge.bpLastStagesTitle() : ge.bpInProgressTitle(),
+                  children: l >= 45 ? ge.bpLastStagesTitle() : ge.bpInProgressTitle(),
                 }),
               ],
             }),
@@ -248,10 +248,10 @@ var J = e(M(), 1),
             (0, re.jsx)("div", { className: he }),
             (0, re.jsx)("div", {
               className: be,
-              children: (0, re.jsx)(L, {
+              children: (0, re.jsx)(y, {
                 disabled: i,
-                type: b.main,
-                size: l ? S.medium : S.small,
+                type: u.main,
+                size: d ? v.medium : v.small,
                 onClick: t.buy,
                 children: ge.bpButtonTitle(),
               }),
@@ -270,37 +270,37 @@ var J = e(M(), 1),
   ye = "Footer_buttonContainer_873ac017",
   Se = "Footer_postProgressionButton_45a39895",
   Ne = R.strings.battle_pass.battlePassAwardsView,
-  Be = z(({ button: e, className: a }) => {
+  Le = z(({ button: e, className: a }) => {
     const { model: s, controls: t } = ee(),
-      { breakpoint: i } = u(),
-      { reason: n, chapterID: r, isBaseStyleLevel: o, isPostProgressionUnlocked: l } = s.root.get(),
-      d = s.computes.hasPostProgressionBanner(),
+      { breakpoint: n } = r(),
+      { reason: i, chapterID: l, isBaseStyleLevel: o, isPostProgressionUnlocked: d } = s.root.get(),
+      c = s.computes.hasPostProgressionBanner(),
       _ = s.computes.isReasonBuyCurrently(),
-      m = ((e, a, s) => {
+      p = ((e, a, s) => {
         switch (e) {
-          case K.BUY_BATTLE_PASS:
-            return (0, re.jsx)(T, {
+          case X.BUY_BATTLE_PASS:
+            return (0, re.jsx)(h, {
               text: Ne.mainReward.bpBuyAwardsCaption(),
               binding: { chapter: R.strings.battle_pass.chapter.fullName.$num(a) },
             });
-          case K.BUY_BATTLE_PASS_WITH_LEVELS:
-            return (0, re.jsx)(T, {
+          case X.BUY_BATTLE_PASS_WITH_LEVELS:
+            return (0, re.jsx)(h, {
               text: Ne.mainReward.bpBuyWithLevels(),
               binding: { chapter: R.strings.battle_pass.chapter.fullName.$num(a) },
             });
-          case K.BUY_MULTIPLE_BATTLE_PASS:
+          case X.BUY_MULTIPLE_BATTLE_PASS:
             return Ne.footer.allChaptersText();
-          case K.STYLE_UPGRADE:
+          case X.STYLE_UPGRADE:
             return s ? Ne.footer.bpDescriptionGotStyle() : "";
           default:
             return "";
         }
-      })(n, r, o),
-      p = i.weight >= c.medium.weight;
+      })(i, l, o),
+      w = n.weight >= m.medium.weight;
     return (0, re.jsxs)("div", {
-      className: f(fe, a, l && Ae),
+      className: $(fe, a, d && Ae),
       children: [
-        d
+        c
           ? (0, re.jsxs)("div", {
               className: Re,
               children: [
@@ -308,22 +308,22 @@ var J = e(M(), 1),
                 (0, re.jsx)("div", { children: Ne.footer.postProgressionText() }),
               ],
             })
-          : Boolean(m) && (0, re.jsx)("div", { className: f(ve, _ && Pe), children: m }),
+          : Boolean(p) && (0, re.jsx)("div", { className: $(ve, _ && Pe), children: p }),
         (0, re.jsxs)("div", {
           className: ye,
           "data-test-id": "buttonContainer",
           children: [
-            (0, re.jsx)(L, {
-              type: b.primary,
-              size: p ? S.medium : S.small,
+            (0, re.jsx)(y, {
+              type: u.primary,
+              size: w ? v.medium : v.small,
               onClick: e.onClick,
               children: e.text,
             }),
-            d &&
+            c &&
               e.hasPostProgressionButton &&
-              (0, re.jsx)(L, {
-                type: b.secondary,
-                size: p ? S.medium : S.small,
+              (0, re.jsx)(y, {
+                type: u.secondary,
+                size: w ? v.medium : v.small,
                 onClick: t.onShowPostProgression,
                 mixClass: Se,
                 children: Ne.footer.postProgressionButton(),
@@ -333,7 +333,7 @@ var J = e(M(), 1),
       ],
     });
   }),
-  Le = (e, a) => {
+  Be = (e, a) => {
     const s = a.postfix ? `_${a.postfix}` : "";
     return ((e) => {
       const a = e.path.$dyn(`${e.name}_${e.id}`),
@@ -351,37 +351,37 @@ var J = e(M(), 1),
       s = e.computes.isMultiplePurchase()
         ? { backgroundImage: "url(R.images.gui.maps.icons.battlePass.rewards.bp_icon_triple)" }
         : {
-            backgroundImage: `url(${Le({ path: R.images.gui.maps.icons.battlePass.rewards.chapterLogo, name: je.Chapter, id: a }, { name: "bp_icon" })})`,
+            backgroundImage: `url(${Be({ path: R.images.gui.maps.icons.battlePass.rewards.chapterLogo, name: je.Chapter, id: a }, { name: "bp_icon" })})`,
           };
     return (0, re.jsx)("div", { className: Ee, style: s });
   }),
   Ie = "Glow_ae7a850f",
   Ue = "Glow_91b75819",
-  Ce = ({ className: e }) =>
+  Ve = ({ className: e }) =>
     (0, re.jsx)("div", {
-      className: f(Ie, e),
+      className: $(Ie, e),
       children: (0, re.jsx)("img", {
         className: Ue,
         src: "swf://gui/flash/animations/battlePass/rays.swf",
         alt: "",
       }),
     }),
-  Ve = "AttachmentOverlay_cb258ef",
+  Ce = "AttachmentOverlay_cb258ef",
   We = ({ overlayType: e, rewardSize: a, className: s }) =>
     (0, re.jsx)("div", {
-      className: f(Ve, s),
+      className: $(Ce, s),
       style: {
         backgroundImage: `url(R.images.gui.maps.icons.customization.rarity.glowWithSign.${a}.${e})`,
       },
     }),
-  Ye = "Compensation_50897e74",
-  $e = V.resolve("images"),
-  Fe = ({ className: e }) => {
-    const a = o(
-      $e.readOrEmpty("battlePass.icons.compensation"),
-      $e.readOrEmpty("battlePass.icons.compensation_large"),
+  $e = "Compensation_50897e74",
+  Fe = A.resolve("images"),
+  Ye = ({ className: e }) => {
+    const a = U(
+      Fe.readOrEmpty("battlePass.icons.compensation"),
+      Fe.readOrEmpty("battlePass.icons.compensation_large"),
     );
-    return (0, re.jsx)("div", { className: f(Ye, e), style: { backgroundImage: `url(${a})` } });
+    return (0, re.jsx)("div", { className: $($e, e), style: { backgroundImage: `url(${a})` } });
   },
   Oe = {
     base: "TankName_6f5fa973",
@@ -399,11 +399,11 @@ var J = e(M(), 1),
   Me = (e, a) => ({
     backgroundImage: `url(R.images.gui.maps.icons.vehicleTypes.big.${e.replace("-", "_")}${a ? "_elite" : ""})`,
   }),
-  ze = ({ isElite: e, vehicleName: a, vehicleType: s, vehicleLvl: t, isWide: i }) =>
+  ze = ({ isElite: e, vehicleName: a, vehicleType: s, vehicleLvl: t, isWide: n }) =>
     (0, re.jsxs)("div", {
-      className: f(Oe.base, i && Oe.base__wide),
+      className: $(Oe.base, n && Oe.base__wide),
       children: [
-        (0, re.jsx)("div", { className: Oe.level, children: E(t) }),
+        (0, re.jsx)("div", { className: Oe.level, children: W(t) }),
         (0, re.jsx)("div", { className: Oe.type, style: Me(s, e) }),
         (0, re.jsx)("div", { className: Oe.name, children: a }),
       ],
@@ -412,24 +412,24 @@ var J = e(M(), 1),
   Ge = R.strings.battle_pass,
   He = ({ type: e, value: a }) => {
     switch (e) {
-      case I.BattlaPassFinalAchievement:
-        return (0, re.jsx)(T, {
+      case j.BattlaPassFinalAchievement:
+        return (0, re.jsx)(h, {
           text: Ge.battlePassAwardsView.mainReward.reward(),
           binding: { name: a },
         });
-      case I.TmanToken:
-        return (0, re.jsx)(T, {
+      case j.TmanToken:
+        return (0, re.jsx)(h, {
           classMix: De,
           text: Ge.battlePassAwardsView.mainReward.commander(),
           binding: { name: a },
         });
-      case I.Gold:
-      case I.Credits:
-      case I.Crystal:
-      case I.EquipCoin:
-        return (0, re.jsx)(C, { format: "integral", value: Number(a) });
+      case j.Gold:
+      case j.Credits:
+      case j.Crystal:
+      case j.EquipCoin:
+        return (0, re.jsx)(k, { format: "integral", value: Number(a) });
       default:
-        return (0, re.jsx)(re.Fragment, { children: F(a) });
+        return (0, re.jsx)(re.Fragment, { children: f(a) });
     }
   },
   qe = {
@@ -450,39 +450,39 @@ var J = e(M(), 1),
     fadeOut: "Title_fadeOut_2e63cf3",
     fadeIn: "Title_fadeIn_2e63cf3",
   },
-  Qe = R.strings.battle_pass,
-  Xe = ({ reward: e, size: a, className: s }) => {
+  Je = R.strings.battle_pass,
+  Ze = ({ reward: e, size: a, className: s }) => {
     const {
         name: t,
-        userName: i,
-        vehicleLvl: n,
+        userName: n,
+        vehicleLvl: i,
         vehicleName: r,
-        vehicleType: o,
-        isElite: l,
+        vehicleType: l,
+        isElite: o,
         isCollectionEntity: d,
       } = e,
-      c = t === I.Vehicles;
+      c = t === j.Vehicles;
     return (0, re.jsxs)("div", {
-      className: f(qe.base, qe[`base__${a}`], qe[`base__${t}`], s),
+      className: $(qe.base, qe[`base__${a}`], qe[`base__${t}`], s),
       children: [
         (0, re.jsx)("div", {
           className: qe.title,
           children:
-            c && n && r && o
+            c && i && r && l
               ? (0, re.jsx)(ze, {
-                  vehicleLvl: n,
+                  vehicleLvl: i,
                   vehicleName: r,
-                  vehicleType: o,
-                  isElite: l || !1,
-                  isWide: a === Ze.Wide,
+                  vehicleType: l,
+                  isElite: o || !1,
+                  isWide: a === Qe.Wide,
                 })
-              : (0, re.jsx)(He, { type: t, value: i }),
+              : (0, re.jsx)(He, { type: t, value: n }),
         }),
-        d && (0, re.jsx)("div", { className: qe.subtitle, children: Qe.common.collectionText() }),
+        d && (0, re.jsx)("div", { className: qe.subtitle, children: Je.common.collectionText() }),
       ],
     });
   },
-  Je = {
+  Ke = {
     base: "Reward_c14bb065",
     imageWrapper: "Reward_imageWrapper_ee9e0933",
     image: "Reward_image_39bfebdb",
@@ -504,117 +504,117 @@ var J = e(M(), 1),
     windowIn: "Reward_windowIn_21f091ec",
     fadeOut: "Reward_fadeOut_21f091ec",
   },
-  Ke = R.strings.battle_pass,
-  Ze = (function (e) {
+  Xe = R.strings.battle_pass,
+  Qe = (function (e) {
     return ((e.Normal = "normal"), (e.Wide = "wide"), (e.Small = "small"), e);
   })({}),
-  ea = [I.BattlaPassFinalAchievement, I.TmanToken, I.Vehicles],
+  ea = [j.BattlaPassFinalAchievement, j.TmanToken, j.Vehicles],
   aa = [
-    Y.credits,
-    Y.gold,
-    Y.crystal,
-    Y.xp,
-    Y.freeXP,
-    Y.equipCoin,
-    I.BattlaPassFinalAchievement,
-    I.TmanToken,
-    I.Vehicles,
-    I.PremiumPlus,
-    I.BattlePassTaler,
+    V.credits,
+    V.gold,
+    V.crystal,
+    V.xp,
+    V.freeXP,
+    V.equipCoin,
+    j.BattlaPassFinalAchievement,
+    j.TmanToken,
+    j.Vehicles,
+    j.PremiumPlus,
+    j.BattlePassTaler,
   ],
   sa = z(({ reward: e, rewardListIndex: a }) => {
     const { model: s } = ee(),
       t = s.canToOpenAdditionView.get(),
-      i = s.computes.hasBigSizeReward(),
-      n = s.computes.getRewardsLength(),
+      n = s.computes.hasBigSizeReward(),
+      i = s.computes.getRewardsLength(),
       {
         overlayType: r,
-        tooltipContentId: o,
-        tooltipId: l,
-        name: d,
-        userName: c,
-        value: _,
+        tooltipContentId: l,
+        tooltipId: o,
+        name: c,
+        userName: _,
+        value: m,
         isCompensation: p,
       } = e,
       u = (() => {
-        const e = _.split("_");
-        return "universal" === e[0] ? e[e.length - 1] : _;
+        const e = m.split("_");
+        return "universal" === e[0] ? e[e.length - 1] : m;
       })(),
-      w = ((b = d), !aa.includes(b) && Number(u) > 1);
+      w = ((b = c), !aa.includes(b) && Number(u) > 1);
     var b;
-    const h = ((e) => ea.includes(e))(d) || (c && c.length > 0),
-      g = i ? (1 === n || 1 === a ? "wide" : "small") : "normal";
+    const T = ((e) => ea.includes(e))(c) || (_ && _.length > 0),
+      f = n ? (1 === i || 1 === a ? "wide" : "small") : "normal";
     return (0, re.jsxs)("div", {
-      className: f(Je.base, Je[`base__${g}`], t && Je.base__updateAnimation),
+      className: $(Ke.base, Ke[`base__${f}`], t && Ke.base__updateAnimation),
       children: [
-        (0, re.jsx)(m, {
+        (0, re.jsx)(d, {
           ignoreShowDelay: !0,
-          contentId: Number(o),
-          args: { tooltipId: l },
+          contentId: Number(l),
+          args: { tooltipId: o },
           children: (0, re.jsxs)("div", {
-            className: Je.imageWrapper,
+            className: Ke.imageWrapper,
             children: [
               (0, re.jsx)("div", {
-                className: Je.image,
+                className: Ke.image,
                 style: D(e),
                 children:
-                  p && (0, re.jsx)(Fe, { className: f(Je.compensation, Je[`compensation__${g}`]) }),
+                  p && (0, re.jsx)(Ye, { className: $(Ke.compensation, Ke[`compensation__${f}`]) }),
               }),
-              H(d) &&
+              H(c) &&
                 (0, re.jsx)(We, {
                   overlayType: r,
-                  rewardSize: A.S600x450,
-                  className: Je.attachment,
+                  rewardSize: g.S600x450,
+                  className: Ke.attachment,
                 }),
               w &&
                 (0, re.jsx)("div", {
-                  className: Je.count,
-                  children: (0, re.jsx)(T, {
-                    text: Ke.common.multiplier(),
+                  className: Ke.count,
+                  children: (0, re.jsx)(h, {
+                    text: Xe.common.multiplier(),
                     binding: { multiplier: u },
                   }),
                 }),
             ],
           }),
         }),
-        h && (0, re.jsx)(Xe, { reward: e, size: g, className: Je.title }),
+        T && (0, re.jsx)(Ze, { reward: e, size: f, className: Ke.title }),
       ],
     });
   }),
   ta = "Rewards_1a8854f",
-  ia = "Rewards_base__updateSize_222a87fa",
-  na = z(() => {
+  na = "Rewards_base__updateSize_222a87fa",
+  ia = z(() => {
     const { model: e } = ee(),
       a = e.canToOpenAdditionView.get(),
       s = e.computes.getRewards();
     return (0, re.jsx)("div", {
-      className: f(ta, a && ia),
+      className: $(ta, a && na),
       children: s.map((e, a) => (0, re.jsx)(sa, { reward: e, rewardListIndex: a }, `reward-${a}`)),
     });
   }),
   ra = "Ribbon_2234841",
-  oa = "Ribbon_base__indentWide_72bb1f1",
-  la = z(() => {
+  la = "Ribbon_base__indentWide_72bb1f1",
+  oa = z(() => {
     const { model: e } = ee(),
       { isBattlePassPurchased: a, chapterID: s } = e.root.get(),
       t = e.computes.hasBigSizeReward(),
-      i = e.computes.isReasonBuyCurrently(),
-      n = t || i,
-      { breakpoint: r } = u(),
+      n = e.computes.isReasonBuyCurrently(),
+      i = t || n,
+      { breakpoint: l } = r(),
       o = ((e) => {
         switch (e) {
-          case c.small.name:
+          case m.small.name:
             return "small";
-          case c.medium.name:
+          case m.medium.name:
             return "medium";
           default:
             return "large";
         }
-      })(r.name),
-      l = {
-        backgroundImage: `url(${Le({ path: R.images.gui.maps.icons.battlePass.logo.ribbon, name: je.Chapter, id: s }, { name: "ribbon", postfix: `${o}${a ? "_with_bp" : ""}` })})`,
+      })(l.name),
+      d = {
+        backgroundImage: `url(${Be({ path: R.images.gui.maps.icons.battlePass.logo.ribbon, name: je.Chapter, id: s }, { name: "ribbon", postfix: `${o}${a ? "_with_bp" : ""}` })})`,
       };
-    return (0, re.jsx)("div", { className: f(ra, n && oa), style: l });
+    return (0, re.jsx)("div", { className: $(ra, i && la), style: d });
   }),
   da = "MainRewards_c825d49e",
   ca = "MainRewards_glow_31c8c598",
@@ -622,29 +622,29 @@ var J = e(M(), 1),
   ma = z(({ className: e }) => {
     const { model: s } = ee(),
       t = s.canToOpenAdditionView.get(),
-      i = s.computes.isReasonBuyCurrently(),
-      n = s.computes.hasGlowAnimation(),
-      [r, o] = (0, J.useState)(!1),
-      { contentOpacity: l } = k({
+      n = s.computes.isReasonBuyCurrently(),
+      i = s.computes.hasGlowAnimation(),
+      [r, l] = (0, K.useState)(!1),
+      { contentOpacity: o } = a({
         from: { contentOpacity: 1 },
         contentOpacity: t ? 1 : 0,
         config: { duration: 400 },
         onResolve: () => {
-          t && o(!0);
+          t && l(!0);
         },
       });
     return (0, re.jsxs)("div", {
-      className: f(da, e),
+      className: $(da, e),
       children: [
-        n && !t && (0, re.jsx)(Ce, { className: ca }),
+        i && !t && (0, re.jsx)(Ve, { className: ca }),
         (0, re.jsx)("div", { className: _a }),
-        (0, re.jsx)(la, {}),
-        i && !r
-          ? (0, re.jsx)(a.div, {
-              style: { opacity: l.to({ output: [1, 0] }) },
+        (0, re.jsx)(oa, {}),
+        n && !r
+          ? (0, re.jsx)(L.div, {
+              style: { opacity: o.to({ output: [1, 0] }) },
               children: (0, re.jsx)(ke, {}),
             })
-          : (0, re.jsx)(na, {}),
+          : (0, re.jsx)(ia, {}),
       ],
     });
   }),
@@ -664,47 +664,47 @@ var J = e(M(), 1),
   ya = "App_mainRewards_de1e5f92",
   Sa = "App_mainRewards__slideTop_bc21615e",
   Na = "App_mainRewards__animateSlide_7838291c",
-  Ba = "App_footer_e0204304",
-  La = "App_footer__hide_642d4e09",
+  La = "App_footer_e0204304",
+  Ba = "App_footer__hide_642d4e09",
   ja = "App_footer__diffTop_8dc6cdec",
   Ea = "App_banner_e0204304",
   ka = "App_banner__showPreparation_ca795627",
   Ia = R.strings.battle_pass,
   Ua = (e) =>
     e
-      ? (0, re.jsx)(T, {
+      ? (0, re.jsx)(h, {
           text: Ia.battlePassAwardsView.header.bpTitle(),
           binding: { chapter: Ia.chapter.fullNameUppercased.$num(e) },
         })
       : Ia.battlePassAwardsView.header.bpTitleWithoutChapter(),
-  Ca = (e, a) => {
+  Va = (e, a) => {
     switch (e) {
-      case K.BUY_BATTLE_PASS:
-      case K.BUY_MULTIPLE_BATTLE_PASS:
-      case K.BUY_BATTLE_PASS_WITH_LEVELS:
+      case X.BUY_BATTLE_PASS:
+      case X.BUY_MULTIPLE_BATTLE_PASS:
+      case X.BUY_BATTLE_PASS_WITH_LEVELS:
         return Ia.battlePassAwardsView.header.bpTitleWithoutChapter();
-      case K.BUY_BATTLE_PASS_LEVELS:
-      case K.STYLE_UPGRADE:
-      case K.DEFAULT:
+      case X.BUY_BATTLE_PASS_LEVELS:
+      case X.STYLE_UPGRADE:
+      case X.DEFAULT:
         return Ua(a);
     }
     return (console.warn("Unknown title reason: ", e), Ua(a));
   },
-  Va = (e, a, s) => {
+  Ca = (e, a, s) => {
     switch (e) {
-      case K.BUY_BATTLE_PASS:
-      case K.BUY_MULTIPLE_BATTLE_PASS:
-      case K.BUY_BATTLE_PASS_WITH_LEVELS:
+      case X.BUY_BATTLE_PASS:
+      case X.BUY_MULTIPLE_BATTLE_PASS:
+      case X.BUY_BATTLE_PASS_WITH_LEVELS:
         return Ia.battlePassAwardsView.header.bpBoughtText();
-      case K.BUY_BATTLE_PASS_LEVELS:
+      case X.BUY_BATTLE_PASS_LEVELS:
         return a
           ? Ia.battlePassAwardsView.header.bpFinalLevelText()
           : Ia.battlePassAwardsView.header.bpLevelsText();
-      case K.STYLE_UPGRADE:
+      case X.STYLE_UPGRADE:
         return s
           ? Ia.battlePassAwardsView.header.styleReceivedText()
           : Ia.battlePassAwardsView.header.styleUpgradedText();
-      case K.DEFAULT:
+      case X.DEFAULT:
         return a
           ? Ia.battlePassAwardsView.header.bpFinalLevelText()
           : Ia.battlePassAwardsView.header.bpLevelsText();
@@ -715,57 +715,57 @@ var J = e(M(), 1),
     s
       ? Ia.battlePassAwardsView.additionalRewards.seeMoreButtonText()
       : e
-        ? (0, re.jsx)(T, {
+        ? (0, re.jsx)(h, {
             text: Ia.battlePassAwardsView.additionalRewards.bpRemainLevelsAwardsText(),
             binding: { remainingAwardsCount: a },
           })
         : Ia.battlePassAwardsView.additionalRewards.button(),
-  Ya = z(() => {
+  $a = z(() => {
     const { model: e, controls: a } = ee(),
       {
         reason: s,
-        chapterID: t,
+        chapterID: n,
         isFinalReward: i,
         isBaseStyleLevel: r,
         isNeedToShowOffer: o,
       } = e.root.get(),
-      l = e.canToOpenAdditionView.get(),
-      d = e.computes.getAdditionalRewards(),
-      c = e.computes.getAdditionalRewardsLength(),
-      _ = e.computes.hasAdditionalRewards(),
-      m = e.computes.isReasonBuyCurrently(),
-      p = e.computes.isReasonBuyWithLevels(),
-      u = e.computes.isReasonStyleUpgrade(),
+      d = e.canToOpenAdditionView.get(),
+      c = e.computes.getAdditionalRewards(),
+      _ = e.computes.getAdditionalRewardsLength(),
+      m = e.computes.hasAdditionalRewards(),
+      p = e.computes.isReasonBuyCurrently(),
+      u = e.computes.isReasonBuyWithLevels(),
+      w = e.computes.isReasonStyleUpgrade(),
       b = e.computes.hasPostProgressionBanner(),
       h = e.computes.hasBigSizeReward(),
       g = e.computes.getRewards().length > 0,
-      [T, A] = (0, J.useState)(1),
-      [v, P] = (0, J.useState)(0),
-      [y, S] = (0, J.useState)(!1),
-      N = m && g && !l,
-      B = `${w(v)}rem`;
-    n(a.close);
-    const L = { title: Ca(s, t), subtitle: Va(s, i, r) },
-      j = d.slice(10 * (T - 1), 10 * T),
-      E = j.length,
-      k = Math.ceil(c / 10),
-      I = T < k,
-      C = k > 1,
-      V = o && !u && !I && !b,
-      W = V && C,
-      Y = !V || W,
-      $ = (0, J.useRef)(null),
-      F = () => {
-        x(() => {
-          $ && $.current && P($.current.offsetHeight);
+      [T, f] = (0, K.useState)(1),
+      [A, x] = (0, K.useState)(0),
+      [v, P] = (0, K.useState)(!1),
+      y = p && g && !d,
+      S = `${l(A)}rem`;
+    t(a.close);
+    const N = { title: Va(s, n), subtitle: Ca(s, i, r) },
+      L = c.slice(10 * (T - 1), 10 * T),
+      B = L.length,
+      j = Math.ceil(_ / 10),
+      k = T < j,
+      I = j > 1,
+      U = o && !w && !k && !b,
+      V = U && I,
+      C = !U || V,
+      W = (0, K.useRef)(null),
+      Y = () => {
+        F(() => {
+          W && W.current && x(W.current.offsetHeight);
         });
       };
-    ((0, J.useEffect)(() => {
-      (F(), S(!1));
-    }, [V, W]),
-      (0, J.useEffect)(() => {
+    ((0, K.useEffect)(() => {
+      (Y(), P(!1));
+    }, [U, V]),
+      (0, K.useEffect)(() => {
         const e = () => {
-          (F(), S(!0));
+          (Y(), P(!0));
         };
         return (
           window.addEventListener("resize", e),
@@ -774,31 +774,31 @@ var J = e(M(), 1),
           }
         );
       }, []));
-    const O = ((e, a, s, t, i, n) => ({
-        onClick: n,
-        text: Wa(i, a > t * (s + 1) ? 10 : a - t * s, e),
-        hasPostProgressionButton: !e && !i,
-      }))(N, c, T, E, I, () => {
-        N ? a.enableToOpenAdditionView() : I ? A(T + 1) : a.close();
+    const O = ((e, a, s, t, n, i) => ({
+        onClick: i,
+        text: Wa(n, a > t * (s + 1) ? 10 : a - t * s, e),
+        hasPostProgressionButton: !e && !n,
+      }))(y, _, T, B, k, () => {
+        y ? a.enableToOpenAdditionView() : k ? f(T + 1) : a.close();
       }),
-      M = h && _,
+      M = h && m,
       z = {
-        backgroundImage: t
-          ? `url(${q(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, t)})`
+        backgroundImage: n
+          ? `url(${q(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, n)})`
           : "url(R.images.gui.maps.icons.battlePass.backgrounds.common)",
-        "--banner-height": B,
+        "--banner-height": S,
       };
     return (0, re.jsxs)("div", {
-      className: f(pa, p && l && Pa),
+      className: $(pa, u && d && Pa),
       style: z,
       children: [
-        (0, re.jsx)("div", { className: f(ua, !t && wa) }),
+        (0, re.jsx)("div", { className: $(ua, !n && wa) }),
         (0, re.jsxs)("div", {
           className: ba,
           children: [
             (0, re.jsx)("div", {
               className: ha,
-              children: (0, re.jsx)(U, {
+              children: (0, re.jsx)(E, {
                 caption: R.strings.menu.viewHeader.closeBtn.label(),
                 type: "close",
                 side: "right",
@@ -810,32 +810,32 @@ var J = e(M(), 1),
               children: [
                 (0, re.jsx)("div", {
                   className: Ta,
-                  children: (0, re.jsx)(Q, { title: L.title, status: L.subtitle }),
+                  children: (0, re.jsx)(J, { title: N.title, status: N.subtitle }),
                 }),
                 (0, re.jsxs)("div", {
-                  className: f(fa, M && Aa),
+                  className: $(fa, M && Aa),
                   children: [
-                    (0, re.jsx)(ma, { className: f(ya, W && Sa, W && !y && Na) }),
-                    _ &&
-                      (0, re.jsx)(le, {
-                        rewards: j,
+                    (0, re.jsx)(ma, { className: $(ya, V && Sa, V && !v && Na) }),
+                    m &&
+                      (0, re.jsx)(oe, {
+                        rewards: L,
                         pageNumber: T,
-                        className: f(Ra, W && xa, W && !y && va),
+                        className: $(Ra, V && xa, V && !v && va),
                       }),
                   ],
                 }),
               ],
             }),
-            Y && (0, re.jsx)(Be, { button: O, className: f(Ba, W && La, !V && ja) }),
-            V && (0, re.jsx)(Te, { className: f(Ea, C && ka), parentRef: $ }),
+            C && (0, re.jsx)(Le, { button: O, className: $(La, V && Ba, !U && ja) }),
+            U && (0, re.jsx)(Te, { className: $(Ea, I && ka), parentRef: W }),
           ],
         }),
       ],
     });
   });
-y(
-  new W()
-    .add(O)
-    .addWithProps(Z, {})
-    .render((0, re.jsx)(Ya, {})),
+x(
+  new I()
+    .add(Y)
+    .addWithProps(Q, {})
+    .render((0, re.jsx)($a, {})),
 );

@@ -1,25 +1,25 @@
 import { r as e } from "./rolldown-runtime.js";
 import {
-  Mr as t,
-  Or as o,
-  Pt as a,
-  cr as r,
-  ea as n,
-  fi as s,
-  hi as l,
-  hr as c,
-  ir as m,
-  li as d,
-  pr as i,
-  ro as u,
-  to as b,
-  tr as _,
-  ui as p,
-  uo as I,
+  $i as t,
+  Mr as o,
+  Or as a,
+  Pt as r,
+  ci as n,
+  cr as s,
+  di as l,
+  eo as c,
+  hr as m,
+  ir as d,
+  li as i,
+  lo as u,
+  mi as b,
+  no as _,
+  pr as p,
+  tr as I,
   xr as y,
 } from "./lib.js";
 import { n as P, r as g, t as h } from "../footer/bundle.js";
-var [v, f] = c("PlatoonProvider")(
+var [v, x] = m("PlatoonProvider")(
     ({ observableModel: e }) => {
       const t = {
           ...e.primitives([
@@ -33,12 +33,12 @@ var [v, f] = c("PlatoonProvider")(
           ]),
           members: e.arrayClone("members"),
         },
-        o = i.structural(() => {
+        o = p.structural(() => {
           try {
             const e = JSON.parse(t.tooltipParams.get()),
               o = t.tooltipHeader.get(),
-              r = t.tooltipBody.get();
-            return { header: (o && a(_(o), e)) ?? void 0, body: (r && a(_(r), e)) ?? void 0 };
+              a = t.tooltipBody.get();
+            return { header: (o && r(I(o), e)) ?? void 0, body: (a && r(I(a), e)) ?? void 0 };
           } catch (e) {
             return {};
           }
@@ -47,7 +47,7 @@ var [v, f] = c("PlatoonProvider")(
     },
     ({ externalModel: e }) => ({ onInPlatoonAction: e.createCallbackNoArgs("onInPlatoonAction") }),
   ),
-  x = e(u(), 1),
+  f = e(_(), 1),
   N = "member",
   A = "player",
   S = "commander",
@@ -69,22 +69,22 @@ var L = (e, t, o) => (e ? `${o}_${t}` : t === k ? "search" : "empty_member"),
     memberIcon__searchState: "Platoon_memberIcon__searchState_78daa44d",
     memberIcon__readyState: "Platoon_memberIcon__readyState_407793d7",
   },
-  O = e(l(), 1),
-  W = r(function ({ popoverTargetID: e, classNames: a }) {
-    const r = f(),
-      l = y(),
-      c = s(d({ value: P.small }, { medium: { value: P.medium } }).value, p),
-      i = r.model.state.get(),
-      u = r.model.useWelcomeLayout.get(),
-      _ = r.model.commanderIndex.get(),
-      v = r.model.playerIndex.get(),
-      W = o(r.model.computes.tooltipArgs()),
-      w = t(
+  O = e(b(), 1),
+  W = s(function ({ popoverTargetID: e, classNames: r }) {
+    const s = x(),
+      m = y(),
+      b = l(n({ value: P.small }, { medium: { value: P.medium } }).value, i),
+      _ = s.model.state.get(),
+      p = s.model.useWelcomeLayout.get(),
+      I = s.model.commanderIndex.get(),
+      v = s.model.playerIndex.get(),
+      W = a(s.model.computes.tooltipArgs()),
+      w = o(
         "squadTypeSelectPopover",
         void 0,
-        (0, x.useMemo)(
+        (0, f.useMemo)(
           () => ({
-            resId: e ?? I.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
+            resId: e ?? u.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
           }),
           [e],
         ),
@@ -93,34 +93,34 @@ var L = (e, t, o) => (e ? `${o}_${t}` : t === k ? "search" : "empty_member"),
       ...W,
       onClick: function (e) {
         (W.onClick(),
-          "DISABLED" !== i &&
-            (l.play("click", { target: "platoon", original: e }),
-            "IN_PLATOON" !== i && u ? w.onClick(e) : r.controls.onInPlatoonAction()));
+          "DISABLED" !== _ &&
+            (m.play("click", { target: "platoon", original: e }),
+            "IN_PLATOON" !== _ && p ? w.onClick(e) : s.controls.onInPlatoonAction()));
       },
       onMouseEnter: function (e) {
         (W.onMouseEnter(e),
-          "DISABLED" !== i && l.play("mouse-enter", { target: "platoon", original: e }));
+          "DISABLED" !== _ && m.play("mouse-enter", { target: "platoon", original: e }));
       },
-      className: b(M.base, a?.base),
+      className: c(M.base, r?.base),
       "data-test-id": "platoonWidget",
       children: (() => {
-        switch (i) {
+        switch (_) {
           case "CREATE":
-            return (0, O.jsx)(m, { ...g(c, "creation"), className: b(M.button, a?.button) });
+            return (0, O.jsx)(d, { ...g(b, "creation"), className: c(M.button, r?.button) });
           case "DISABLED":
-            return (0, O.jsx)(m, {
-              ...g(c, "creation_disabled"),
-              className: b(M.button, M.button__disabled, a?.button),
+            return (0, O.jsx)(d, {
+              ...g(b, "creation_disabled"),
+              className: c(M.button, M.button__disabled, r?.button),
             });
           case "SEARCHING":
-            return (0, O.jsx)(m, {
-              ...g(c, "search"),
-              className: b(M.button, M.button__search, a?.button),
+            return (0, O.jsx)(d, {
+              ...g(b, "search"),
+              className: c(M.button, M.button__search, r?.button),
             });
           case "IN_PLATOON":
-            return n(r.model.members.get(), (e, t) => {
-              const o = ((n = t === _), (r = t === v) && n ? j : r ? A : n ? S : N);
-              var r, n;
+            return t(s.model.members.get(), (e, t) => {
+              const o = ((n = t === I), (a = t === v) && n ? j : a ? A : n ? S : N);
+              var a, n;
               const s = (function (e) {
                   switch (e) {
                     case "empty":
@@ -138,18 +138,18 @@ var L = (e, t, o) => (e ? `${o}_${t}` : t === k ? "search" : "empty_member"),
                   }
                 })(e.state),
                 l = h(`${o}_${s}`),
-                d = l && s === C;
+                m = l && s === C;
               return (0, O.jsx)(
                 "div",
                 {
                   className: M.memberIconWrapper,
-                  children: (0, O.jsx)(m, {
-                    ...g(c, L(l, s, o), d),
-                    className: b(
+                  children: (0, O.jsx)(d, {
+                    ...g(b, L(l, s, o), m),
+                    className: c(
                       M.memberIcon,
                       s === k && M.memberIcon__searchState,
-                      d && M.memberIcon__readyState,
-                      a?.memberIcon,
+                      m && M.memberIcon__readyState,
+                      r?.memberIcon,
                     ),
                   }),
                 },
@@ -157,7 +157,7 @@ var L = (e, t, o) => (e ? `${o}_${t}` : t === k ? "search" : "empty_member"),
               );
             });
           default:
-            return void console.error("Platoon widget: met unexpected platoon state ", i);
+            return void console.error("Platoon widget: met unexpected platoon state ", _);
         }
       })(),
     });

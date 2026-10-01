@@ -39,7 +39,16 @@ class Intro(ViewImpl):
          (
           self.viewModel.onClose, self.__onClose),
          (
-          self.viewModel.onExternalLink, self.__onExternalLink))
+          self.viewModel.onExternalLink, self.__onExternalLink),
+         (
+          self.__openBundle.onStatusChanged, self.__onStatusChanged),
+         (
+          self.__openBundle.onSettingsChanged, self.__onStatusChanged))
+
+    def __onStatusChanged(self, *_):
+        if not self.__openBundle.isBundleActive(self.__bundleID):
+            self.destroyWindow()
+        return
 
     def __onClose(self):
         self.destroyWindow()

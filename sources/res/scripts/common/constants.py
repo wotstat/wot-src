@@ -2149,12 +2149,6 @@ class USER_SERVER_SETTINGS:
             return not settings[cls.GAME_EXTENDED] >> 2 & 1
         return False
 
-    @classmethod
-    def isMapsInDevEnabled(cls, settings):
-        if settings and cls.GAME_EXTENDED_2 in settings:
-            return bool(settings[cls.GAME_EXTENDED_2] >> 5 & 1)
-        return False
-
 
 INT_USER_SETTINGS_KEYS = {(USER_SERVER_SETTINGS.VERSION): b'Settings version', 
    (USER_SERVER_SETTINGS.GAME): b'Game section settings', 
@@ -3742,10 +3736,6 @@ class RandomizationType(object):
     UNIFORM = b'UNIFORM'
 
 
-class RANDOM_FLAGS:
-    IS_MAPS_IN_DEVELOPMENT_ENABLED = 2
-
-
 class PENALTY_TYPES(enum.Enum):
     WARNING = b'warning'
     PENALTY = b'penalty'
@@ -4292,15 +4282,15 @@ class SHELL_CALIBRATION_STATE(enum.IntEnum):
 VEHICLE_MIN_ABS_INITIAL_SPEED = 0.1
 SHOT_PREDICTION_BUFFER = 0.3
 QUEST_BONUS_TYPES = {
- 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 
- 957, 1118, 
- 1119, 1120, 1121, 1122, 1123, 1124, 
- 1125, 1126, 1127, 1128, 1129, 
- 1130, 
- 1131, 1132, 1133, 1134, 1135, 1136, 
- 1137, 1138, 1139, 1140, 
- 1141, 
- 1142, 1143, 1144}
+ 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 
+ 957, 1116, 
+ 1117, 1118, 1119, 1120, 1121, 1122, 
+ 1123, 1124, 1125, 1126, 1127, 
+ 1128, 
+ 1129, 1130, 1131, 1132, 1133, 1134, 
+ 1135, 1136, 1137, 1138, 
+ 1139, 
+ 1140, 1141, 1142}
 
 class W2GT_STAGES(object):
     STAGE1 = b'stage1'

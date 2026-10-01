@@ -1,23 +1,23 @@
 import { r as e } from "./rolldown-runtime.js";
-import { Q as n, hi as a, rr as s, to as i, uo as r } from "./lib.js";
+import { Q as n, eo as a, lo as s, mi as i, rr as r } from "./lib.js";
 import "./tankman_role.js";
-var t = "new_skill",
-  l = "doge_role",
+var l = "new_skill",
+  t = "doge_role",
   o = "new_skill",
   c = "brotherhood",
   f = "default",
   u = "active",
   d = "activeDisable",
   v = "disable",
-  k = "low",
-  m = "newFull",
+  m = "low",
+  k = "newFull",
   b = "newLow",
   g = "newDisableFull",
   _ = "newDisableLow",
   w = "newActive",
   h = "newActiveDisable",
   y = [v, g, _, d, h],
-  p = [g, m];
+  p = [g, k];
 function T(e) {
   return e.find((e) => 100 === e.bonus)?.name;
 }
@@ -27,8 +27,8 @@ function E(e) {
       skills: s,
       newCount: i,
       trainingProgress: r,
-      vehEfficacy: t,
-      efficacy: l,
+      vehEfficacy: l,
+      efficacy: t,
       role: c,
       nativeTank: f,
       vehicleBonusDetails: u,
@@ -39,15 +39,15 @@ function E(e) {
       id: a,
       name: n.name,
       state: n.state,
-      vehEfficacy: t,
-      efficacy: l,
+      vehEfficacy: l,
+      efficacy: t,
       role: c,
       nativeTank: f,
       instruction: T(u),
     });
   for (let v = 0; v < i; v++) {
     const e = 100 !== r && v === i - 1 ? n.learning : n.learned;
-    d.push({ id: a, name: o, state: e, vehEfficacy: t, efficacy: l, role: c, nativeTank: f });
+    d.push({ id: a, name: o, state: e, vehEfficacy: l, efficacy: t, role: c, nativeTank: f });
   }
   return d;
 }
@@ -58,8 +58,8 @@ function D(e) {
     newPerksCount: s,
     trainingProgress: i,
     currentVehicleSkillsEfficiency: r,
-    skillsEfficiency: t,
-    role: l,
+    skillsEfficiency: l,
+    role: t,
     insideNativeTank: o,
     vehicleBonusDetails: c,
   } = e;
@@ -69,8 +69,8 @@ function D(e) {
     newCount: s,
     trainingProgress: i,
     vehEfficacy: r,
-    efficacy: t,
-    role: l,
+    efficacy: l,
+    role: t,
     nativeTank: o,
     vehicleBonusDetails: c,
   });
@@ -81,8 +81,8 @@ function P(e) {
     bonusPerks: s,
     currentVehicleSkillsEfficiency: i,
     skillsEfficiency: r,
-    insideNativeTank: t,
-    vehicleBonusDetails: l,
+    insideNativeTank: l,
+    vehicleBonusDetails: t,
   } = e;
   let o = [];
   for (const n of s)
@@ -95,8 +95,8 @@ function P(e) {
         vehEfficacy: i,
         efficacy: r,
         role: n.role,
-        nativeTank: t,
-        vehicleBonusDetails: l,
+        nativeTank: l,
+        vehicleBonusDetails: t,
       }),
     );
   return o.sort((e, a) =>
@@ -117,36 +117,36 @@ function I({
   efficacy: s,
   nativeTank: i,
   newPerk: r,
-  withInstruction: t,
+  withInstruction: l,
 }) {
-  const l = !i && -1 === a,
-    o = !l && a < 1,
+  const t = !i && -1 === a,
+    o = !t && a < 1,
     c = s.level < 1;
-  return t
-    ? l
+  return l
+    ? t
       ? u
       : f
     : e !== n.learning || o || r
       ? r && e === n.learning
-        ? l
+        ? t
           ? h
           : w
-        : r && l && c
+        : r && t && c
           ? _
-          : r && l && !c
+          : r && t && !c
             ? e === n.learning
               ? _
               : g
-            : l || e === n.irrelevant
+            : t || e === n.irrelevant
               ? v
               : o && !r
-                ? k
+                ? m
                 : (o && r) || r
                   ? e === n.learning
                     ? b
-                    : m
+                    : k
                   : f
-      : l
+      : t
         ? d
         : u;
 }
@@ -162,30 +162,30 @@ var L = "optDevices",
     perk: "TankmanLevel_perk_390beec8",
     borderImage__noise: "TankmanLevel_borderImage__noise_e53df2b",
   },
-  A = e(a()),
-  S = r.resolve("images"),
-  F = s("Perk");
-function V({ value: e, main: n, ...a }) {
-  const s = n ? "components.button.default_border_pattern_radius_4" : "loadout.crew.dashed_border";
+  A = e(i()),
+  S = s.resolve("images"),
+  F = r("Perk");
+function V({ value: e, main: n, ...s }) {
+  const i = n ? "components.button.default_border_pattern_radius_4" : "loadout.crew.dashed_border";
   return (0, A.jsxs)(F, {
-    ...a,
+    ...s,
     children: [
       n && (0, A.jsx)("div", { className: N.border }),
       (0, A.jsx)("div", {
-        className: i(N.borderImage, n && N.borderImage__noise),
-        style: { borderImageSource: `url(${S.readOrEmpty(s)})` },
+        className: a(N.borderImage, n && N.borderImage__noise),
+        style: { borderImageSource: `url(${S.readOrEmpty(i)})` },
       }),
       e,
     ],
   });
 }
 export {
-  t as _,
+  l as _,
   B as a,
   o as c,
   y as d,
   I as f,
-  l as g,
+  t as g,
   p as h,
   C as i,
   c as l,

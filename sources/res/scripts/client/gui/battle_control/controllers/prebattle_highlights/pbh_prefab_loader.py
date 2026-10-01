@@ -83,6 +83,11 @@ class PBHPrefabLoader(object):
 
     def __onPrefabLoaded(self, objects, queue):
         go = queue.gameObject(objects[0])
+        if self.__prefabStatus != PrefabLoaderStatus.LOADING:
+            _logger.debug(b'PBH prefab loaded after loader reset/clear, discard')
+            if go is not None:
+                go.destroy()
+            return
 
         def afterSubmit():
 

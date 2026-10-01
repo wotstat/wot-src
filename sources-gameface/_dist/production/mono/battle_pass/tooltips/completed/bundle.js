@@ -1,26 +1,26 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Ur as e,
-  Xn as t,
+  Hr as e,
+  Yn as t,
   _n as a,
-  ci as n,
-  fn as o,
-  gn as c,
-  n as i,
-  pn as l,
-  tn as r,
-  ui as d,
+  fn as n,
+  gn as o,
+  li as c,
+  n as l,
+  pn as i,
+  si as r,
+  tn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as m } from "../../chunks/vendor.js";
 import { t as _ } from "../../chunks/icon_text_block.js";
-d();
+c();
 var x = (function (s) {
     return ((s.COMMON = "common"), (s.EXTRA = "extra"), (s.HOLIDAY = "holiday"), s);
   })({}),
   [p, u] = a()(({ observableModel: s }) => {
     const e = { root: s.object() },
-      t = c(() => e.root.get().chapterType === x.HOLIDAY);
+      t = o(() => e.root.get().chapterType === x.HOLIDAY);
     return { ...e, computes: { isHoliday: t } };
   }, e),
   j = "Message_3327d7a0",
@@ -48,7 +48,7 @@ var x = (function (s) {
   M = "CustomContent_check_67de302c",
   T = "CustomContent_text_edf6432",
   y = R.strings.battle_pass.tooltips,
-  O = m(() => {
+  H = m(() => {
     const { model: s } = u(),
       { isBattlePassPurchased: e } = s.root.get();
     return (0, C.jsxs)(C.Fragment, {
@@ -81,77 +81,77 @@ var x = (function (s) {
       ],
     });
   }),
-  A = "Content_d9cfcd3f",
-  D = "Content_base__noDescription_b474774a",
-  H = "Content_title_22d0441e",
+  O = "Content_d9cfcd3f",
+  A = "Content_base__noDescription_b474774a",
+  D = "Content_title_22d0441e",
   W = "Content_subTitle_7bb4259d",
   B = "Content_tank_dcd7ba89",
   I = "Content_footer_e0404414",
-  F = "Content_flare_273bab95",
-  L = "Content_messageWrapper_21d573e9",
-  X = "Content_info_a37d477a",
-  Y = "Content_unlock_8083471",
-  E = R.strings.battle_pass.tooltips,
-  S = m(() => {
+  Y = "Content_flare_273bab95",
+  F = "Content_messageWrapper_21d573e9",
+  L = "Content_info_a37d477a",
+  E = "Content_unlock_8083471",
+  S = R.strings.battle_pass.tooltips,
+  X = m(() => {
     const { model: s } = u(),
       { isBattlePassPurchased: e, notChosenRewardCount: t, isAvailableTankmen: a } = s.root.get(),
-      o = t > 0,
-      c = s.computes.isHoliday();
+      n = t > 0,
+      o = s.computes.isHoliday();
     return (0, C.jsxs)("div", {
-      className: n(A, e && !o && !a && D),
+      className: r(O, e && !n && !a && A),
       children: [
-        (0, C.jsx)("div", { className: H, children: E.completed.title() }),
+        (0, C.jsx)("div", { className: D, children: S.completed.title() }),
         (0, C.jsx)("div", {
           className: W,
-          children: c ? E.completed.oneChapterSubTitle() : E.completed.subTitle(),
+          children: o ? S.completed.oneChapterSubTitle() : S.completed.subTitle(),
         }),
-        c
-          ? (0, C.jsx)(O, {})
+        o
+          ? (0, C.jsx)(H, {})
           : (0, C.jsxs)(C.Fragment, {
               children: [
                 (0, C.jsx)("div", { className: B }),
                 (0, C.jsxs)("div", {
                   className: I,
                   children: [
-                    (0, C.jsx)("div", { className: F }),
+                    (0, C.jsx)("div", { className: Y }),
                     (0, C.jsx)("div", {
-                      className: L,
-                      children: (0, C.jsx)(v, { text: E.completed.message() }),
+                      className: F,
+                      children: (0, C.jsx)(v, { text: S.completed.message() }),
                     }),
                   ],
                 }),
               ],
             }),
         (0, C.jsxs)("div", {
-          className: X,
+          className: L,
           children: [
-            o &&
+            n &&
               (0, C.jsx)(_, {
                 icon: R.images.gui.maps.icons.battlePass.tooltips.bow_small(),
-                text: t > 1 ? E.claimRewards.multiple() : E.claimRewards.c_1(),
-                className: Y,
+                text: t > 1 ? S.claimRewards.multiple() : S.claimRewards.c_1(),
+                className: E,
               }),
             !e &&
               (0, C.jsx)(_, {
                 icon: R.images.gui.maps.icons.battlePass.progression.icon_lock_current_small(),
-                text: E.unlockBattlePass(),
-                className: Y,
+                text: S.unlockBattlePass(),
+                className: E,
               }),
             a &&
               (0, C.jsx)(_, {
                 icon: R.images.gui.maps.icons.battlePass.icons.tankmen_small(),
-                text: E.completed.tankmenNotRecieved(),
-                className: n(Y),
+                text: S.completed.tankmenNotRecieved(),
+                className: r(E),
               }),
           ],
         }),
       ],
     });
   }),
-  U = () => (0, C.jsx)(i, { children: (0, C.jsx)(i.Decorator, { children: (0, C.jsx)(S, {}) }) });
-o(
-  new l()
-    .add(r)
+  $ = () => (0, C.jsx)(l, { children: (0, C.jsx)(l.Decorator, { children: (0, C.jsx)(X, {}) }) });
+n(
+  new i()
+    .add(d)
     .addWithProps(p, {})
-    .render((0, C.jsx)(U, {})),
+    .render((0, C.jsx)($, {})),
 );

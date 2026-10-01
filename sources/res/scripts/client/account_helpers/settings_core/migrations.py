@@ -1081,8 +1081,6 @@ def _migrateTo108(core, data, initialized):
 
 
 def _migrateTo109(core, data, initialized):
-    from account_helpers.settings_core.ServerSettingsManager import GAME_EXTENDED_2
-    data[GAME_EXTENDED_2][GAME.GAMEPLAY_DEV_MAPS] = True
     return
 
 
@@ -1534,14 +1532,13 @@ def _migrateTo146(core, data, initialized):
 
 
 def _migrateTo147(core, data, initialized):
-    from account_helpers.settings_core.ServerSettingsManager import GAME_EXTENDED_2, SETTINGS_SECTIONS
+    from account_helpers.settings_core.ServerSettingsManager import SETTINGS_SECTIONS
     from account_helpers.AccountSettings import AccountSettings
     default = AccountSettings.getSettingsDefault(GAME.GAMEPLAY_MASK)
     storedValue = _getSettingsCache().getSectionSettings(SETTINGS_SECTIONS.GAMEPLAY, default)
     import ArenaType
     newMask = storedValue & ~ArenaType.getGameplaysMask((b'ctf30x30', b'domination30x30'))
     data[b'gameplayData'][GAME.GAMEPLAY_MASK] = newMask & 65535
-    data[GAME_EXTENDED_2][GAME.GAMEPLAY_DEV_MAPS] = True
     return
 
 

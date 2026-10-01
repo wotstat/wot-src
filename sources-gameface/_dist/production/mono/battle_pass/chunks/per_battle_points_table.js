@@ -1,6 +1,6 @@
 import { r as a } from "./rolldown-runtime.js";
-import { Xn as s, bt as e, ci as l, ui as i } from "./lib.js";
-var t = a(i(), 1),
+import { Yn as s, bt as e, li as l, si as i } from "./lib.js";
+var t = a(l(), 1),
   n = {
     base: "Styles_f631575c",
     separator: "Styles_separator_46f5d10f",
@@ -21,14 +21,14 @@ var t = a(i(), 1),
     fadeIn: "Styles_fadeIn_8a923a08",
   },
   o = s(),
-  d = (0, t.memo)(({ columnWidth: a, header: s, labels: e, headerClassMix: i, labelClassMix: t }) =>
+  d = (0, t.memo)(({ columnWidth: a, header: s, labels: e, headerClassMix: l, labelClassMix: t }) =>
     (0, o.jsxs)("div", {
       className: n.labelColumn,
       style: { width: `${a}rem` },
       children: [
-        (0, o.jsx)("div", { className: l(n.tableHeader, i), children: s }),
+        (0, o.jsx)("div", { className: i(n.tableHeader, l), children: s }),
         e.map((a, s) =>
-          (0, o.jsx)("div", { className: l(n.label, n.label__table, t), children: a }, s),
+          (0, o.jsx)("div", { className: i(n.label, n.label__table, t), children: a }, s),
         ),
       ],
     }),
@@ -47,19 +47,19 @@ var t = a(i(), 1),
     value: a,
     hasAdditionalPoints: s = !1,
     externalValue: e = 0,
-    isSpecial: i = !1,
+    isSpecial: l = !1,
     showIcon: t = !0,
   }) =>
     (0, o.jsxs)("div", {
       className: r,
       children: [
         (0, o.jsxs)("div", {
-          className: l(c, i && _),
+          className: i(c, l && _),
           children: [
             (0, o.jsx)("div", { className: p, children: a }),
             s &&
               (0, o.jsxs)("div", {
-                className: l(b, i && m),
+                className: i(b, l && m),
                 children: [
                   (0, o.jsx)("div", { className: h }),
                   (0, o.jsx)("div", { className: x }),
@@ -71,12 +71,12 @@ var t = a(i(), 1),
         t && (0, o.jsx)("div", { className: j }),
       ],
     }),
-  u = R.strings.battle_pass.tooltips,
-  y = ({ win: a, points: s, hasAdditionalPoints: e = !1, hasDraw: l = !0, battleType: i = "" }) => {
+  y = R.strings.battle_pass.tooltips,
+  S = ({ win: a, points: s, hasAdditionalPoints: e = !1, hasDraw: l = !0, battleType: i = "" }) => {
     const t = ((a, s, e) => (a ? e.win() : s ? e.lose() : e.loseWithoutDraw()))(
       a,
       l,
-      "comp7" === i ? u.prestigePoints : u.pointsTable,
+      "comp7" === i ? y.prestigePoints : y.pointsTable,
     );
     return (0, o.jsxs)("div", {
       className: n.pointsColumn,
@@ -101,7 +101,7 @@ var t = a(i(), 1),
       ],
     });
   },
-  S = "PointsTable_pointIcon_363eb4a4",
+  u = "PointsTable_pointIcon_363eb4a4",
   w = "PointsTable_headerText_6ce716db",
   f = R.strings.battle_pass.tooltips.pointsTable,
   N = ({
@@ -117,27 +117,27 @@ var t = a(i(), 1),
         (0, o.jsx)(d, {
           header: (0, o.jsxs)("div", {
             className: w,
-            children: [(0, o.jsx)("div", { className: S }), f.header()],
+            children: [(0, o.jsx)("div", { className: u }), f.header()],
           }),
           columnWidth: t,
           labels: a.items.map(({ value: a }) =>
             (0, o.jsx)(e, { text: l, binding: { place: a.topCount } }),
           ),
         }),
-        (0, o.jsx)(y, { points: a, hasAdditionalPoints: s, win: !0, battleType: n }),
-        (0, o.jsx)(y, { points: a, hasAdditionalPoints: s, win: !1, hasDraw: i, battleType: n }),
+        (0, o.jsx)(S, { points: a, hasAdditionalPoints: s, win: !0, battleType: n }),
+        (0, o.jsx)(S, { points: a, hasAdditionalPoints: s, win: !1, hasDraw: i, battleType: n }),
       ],
     }),
   C = ({
     separatorRows: a,
     children: s,
     showSeparator: e = !0,
-    stretchBg: i = !1,
+    stretchBg: l = !1,
     mixClass: t = "",
   }) =>
     (0, o.jsxs)("div", {
-      className: l(t, n.base),
-      style: i ? { width: "100%", backgroundSize: "100% 100%" } : {},
+      className: i(t, n.base),
+      style: l ? { width: "100%", backgroundSize: "100% 100%" } : {},
       children: [
         e &&
           (0, o.jsx)("div", {

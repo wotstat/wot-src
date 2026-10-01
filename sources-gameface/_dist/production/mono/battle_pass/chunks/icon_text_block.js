@@ -1,17 +1,17 @@
 import { r as s } from "./rolldown-runtime.js";
-import { Xn as e, ci as o, t, ui as a } from "./lib.js";
-var c = s(a(), 1),
-  r = "IconTextBlock_4710821f",
-  l = "IconTextBlock_icon_f2e57275",
+import { Yn as e, li as o, si as t, t as a } from "./lib.js";
+var c = s(o(), 1),
+  l = "IconTextBlock_4710821f",
+  r = "IconTextBlock_icon_f2e57275",
   i = "IconTextBlock_text_e1bd5a75",
   m = e(),
-  n = (0, c.memo)(({ icon: s, text: e, className: a }) => {
+  n = (0, c.memo)(({ icon: s, text: e, className: o }) => {
     const n = (0, c.useMemo)(() => ({ backgroundImage: `url(${s})` }), [s]);
     return (0, m.jsxs)("div", {
-      className: o(r, a),
+      className: t(l, o),
       children: [
-        (0, m.jsx)("div", { className: l, style: n }),
-        (0, m.jsx)(t, { classMix: i, text: e }),
+        (0, m.jsx)("div", { className: r, style: n }),
+        (0, m.jsx)(a, { classMix: i, text: e }),
       ],
     });
   });

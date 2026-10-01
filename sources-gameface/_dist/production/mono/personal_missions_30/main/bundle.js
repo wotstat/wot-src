@@ -7,22 +7,22 @@ import {
   Bt as n,
   C as r,
   Ct as o,
-  D as l,
-  Dt as d,
-  Et as c,
-  F as _,
-  Ft as m,
-  G as u,
-  Gt as p,
-  H as g,
-  Ht as h,
-  I as b,
-  It as f,
-  Jt as v,
-  K as N,
-  L as I,
-  M as x,
-  N as E,
+  Dt as l,
+  Et as d,
+  F as c,
+  Ft as _,
+  G as m,
+  Gt as u,
+  H as p,
+  Ht as g,
+  I as h,
+  It as b,
+  Jt as f,
+  K as v,
+  L as N,
+  M as I,
+  N as x,
+  O as E,
   Ot as y,
   P as S,
   Q as O,
@@ -31,8 +31,8 @@ import {
   Rt as j,
   S as A,
   Tt as P,
-  U as T,
-  V as M,
+  V as T,
+  W as M,
   X as D,
   Xt as L,
   Y as V,
@@ -57,28 +57,28 @@ import {
   it as ae,
   j as te,
   jt as ie,
-  k as ne,
-  l as re,
-  ln as oe,
-  lt as le,
-  m as de,
-  mt as ce,
-  nt as _e,
-  on as me,
-  ot as ue,
-  p as pe,
-  pt as ge,
-  q as he,
-  qt as be,
-  rt as fe,
-  s as ve,
-  sn as Ne,
-  st as Ie,
-  tt as xe,
-  u as Ee,
-  ut as ye,
-  v as Se,
-  vt as Oe,
+  l as ne,
+  ln as re,
+  lt as oe,
+  m as le,
+  mt as de,
+  nt as ce,
+  on as _e,
+  ot as me,
+  p as ue,
+  pt as pe,
+  q as ge,
+  qt as he,
+  rt as be,
+  s as fe,
+  sn as ve,
+  st as Ne,
+  tt as Ie,
+  u as xe,
+  ut as Ee,
+  v as ye,
+  vt as Se,
+  w as Oe,
   wt as Ce,
   x as we,
   xt as je,
@@ -87,8 +87,8 @@ import {
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { a as Te, i as Me, n as De, r as Le, t as Re } from "../chunks/vendor.js";
-import "../chunks/common.js";
 import { n as Ve, r as ke, t as Be } from "../chunks/enums.js";
+import "../chunks/common.js";
 import { r as He, t as $e } from "../chunks/helpers.js";
 import { t as Qe } from "../chunks/style_bonus_model.js";
 var Fe = "operationId",
@@ -216,8 +216,8 @@ function bs(e, s) {
 var fs = "missions",
   vs = "assembling",
   Ns = "progression",
-  Is = { carouselButton: xe("carouselButton"), bp_slide: xe("bp_slide") },
-  xs = { step: { ...b.step, factor: 9 }, animationConfig: { ...b.animationConfig, tension: 120 } },
+  Is = { carouselButton: Ie("carouselButton"), bp_slide: Ie("bp_slide") },
+  xs = { step: { ...M.step, factor: 9 }, animationConfig: { ...M.animationConfig, tension: 120 } },
   Es = {
     opacity: 0,
     transform: "translateY(-20rem)",
@@ -245,8 +245,8 @@ var fs = "missions",
         status: e.observableModel.object("status"),
         operations: e.observableModel.arrayClone("operations"),
         menuItems: e.observableModel.arrayClone("menuItems"),
-        activeDetailId: m.box(""),
-        currentState: m.box(
+        activeDetailId: _.box(""),
+        currentState: _.box(
           e.observableModel.primitives(["mainScreenState"]).mainScreenState.get(),
         ),
       };
@@ -263,7 +263,7 @@ var fs = "missions",
                 ? _s.send({ type: "HIDE_DETAIL_INFO", action: hs })
                 : a === Ns &&
                   e === Ue.MISSIONS &&
-                  f(() => {
+                  b(() => {
                     s.currentState.set(fs);
                   }),
             t)
@@ -296,7 +296,7 @@ var fs = "missions",
           const i = a();
           if (!i) return;
           const n = i.details.findIndex((e) => e.id === t),
-            r = e === h.ARROW_LEFT ? n - 1 : n + 1,
+            r = e === g.ARROW_LEFT ? n - 1 : n + 1,
             o = i.details[r];
           return o ? { index: r, detail: o } : void 0;
         });
@@ -359,40 +359,40 @@ var fs = "missions",
           e,
         );
       }),
-      [c, _] = le(() => ({
+      [c, _] = oe(() => ({
         from: { opacity: 0, transform: "translateY(20rem)" },
         config: { duration: 300, easing: Q.easeOutQuart },
       })),
-      [m, u] = le(() => ({
+      [m, u] = oe(() => ({
         from: { opacity: 0, transform: "translateY(20rem)", pointerEvents: "none" },
         config: { duration: 300, easing: Q.easeOutQuart },
       })),
-      [p, g] = le(() => ({
+      [p, g] = oe(() => ({
         from: { opacity: 0 },
         config: { duration: 300, easing: Q.easeOutQuart },
       })),
-      [h, b] = le(() => ({
+      [h, b] = oe(() => ({
         from: { opacity: 1, transform: "translateY(0rem)" },
         config: { duration: 200 },
       })),
-      [f, v] = le(() => ({
+      [f, v] = oe(() => ({
         from: { opacity: 1, transform: "translateY(0rem)" },
         config: { duration: 300, easing: Q.easeOutQuart },
       })),
-      [N, I] = le(() => ({
+      [N, I] = oe(() => ({
         from: { opacity: 0, transform: "translateY(0rem)" },
         config: { duration: 300, easing: Q.easeOutQuart },
       })),
-      [x, E] = le(() => ({
+      [x, E] = oe(() => ({
         from: { opacity: 0, transform: "translate(-50%, 20rem)" },
         config: { duration: 300 },
       })),
-      [y, S] = le(() => ({
+      [y, S] = oe(() => ({
         from: { opacity: 0, transform: "translateX(-20rem)" },
         config: { duration: 300 },
       }));
     return (
-      ce(() => {
+      de(() => {
         bs(
           [
             _.start({ opacity: 1, transform: "translateY(0rem)", delay: 360 }),
@@ -690,17 +690,17 @@ var fs = "missions",
   Ts = "ZoomOut_line_227e84e1",
   Ms = "ZoomOut_icon_2967d894";
 function Ds({ className: e }) {
-  const s = oe.resolve("sounds"),
+  const s = re.resolve("sounds"),
     { zoomOutStyle: a, animationInProgress: t } = As(),
-    i = _e(
+    i = ce(
       ke.CUSTOM_SIMPLE,
       (0, ze.useMemo)(
         () => ({
-          body: oe
+          body: re
             .resolve("strings")
             .readOrEmpty("personal_missions_30.tooltip.assembling.zoomOut"),
           split: !1,
-          resId: oe
+          resId: re
             .resolve("views")
             .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
         }),
@@ -709,10 +709,10 @@ function Ds({ className: e }) {
     );
   return (0, Cs.jsxs)(Y.div, {
     style: a,
-    className: me(Ps, e),
+    className: _e(Ps, e),
     children: [
       (0, Cs.jsx)("div", { className: Ts }),
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         path: "personal_missions_30.common.zoom_out",
         ...i,
         onClick: function () {
@@ -739,17 +739,17 @@ var Ls = "InfoBox_ea99595d",
   Qs = "InfoBox_textArea_fbe24a5d",
   Fs = "InfoBox_text_860b4630",
   Ws = Te(function ({ className: e }) {
-    const s = oe.resolve("strings"),
+    const s = re.resolve("strings"),
       { model: t, controls: i } = Os(),
       n = t.activeDetailId.get(),
       r = t.computes.detailById(n),
       { detailInfoStyle: o } = As(),
-      l = _e(
+      l = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
             body: s.readOrEmpty("personal_missions_30.tooltip.assembling.viewAnimation"),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -759,7 +759,7 @@ var Ls = "InfoBox_ea99595d",
     const d = s.readOrEmpty(`personal_missions_30.detail.descr.historical.${n}`).split("\n");
     return (0, Cs.jsxs)(Y.div, {
       style: o,
-      className: me(Ls, e),
+      className: _e(Ls, e),
       children: [
         (0, Cs.jsxs)("div", {
           className: Rs,
@@ -769,14 +769,14 @@ var Ls = "InfoBox_ea99595d",
               children: s.readOrEmpty("personal_missions_30.main.assembling.component"),
             }),
             r?.hasAssemblingVideo &&
-              (0, Cs.jsx)(I, {
+              (0, Cs.jsx)(N, {
                 theme: "secondary",
                 className: Vs,
                 ...l,
                 onClick: function () {
                   (i.showDetailVideo(n), l.onClick());
                 },
-                children: (0, Cs.jsx)(T, {
+                children: (0, Cs.jsx)(p, {
                   path: "personal_missions_30.common.video",
                   width: 32,
                   height: 32,
@@ -785,16 +785,16 @@ var Ls = "InfoBox_ea99595d",
               }),
           ],
         }),
-        (0, Cs.jsx)(M, {
+        (0, Cs.jsx)(T, {
           split: !0,
           text: s.readOrEmpty(`personal_missions_30.detail.name.${n}`),
           className: Hs,
         }),
-        (0, Cs.jsx)(ne, {
-          children: (0, Cs.jsx)(a, {
+        (0, Cs.jsx)(a, {
+          children: (0, Cs.jsx)(te, {
             className: $s,
             areaClassName: Qs,
-            children: d.map((e, s) => (0, Cs.jsx)(M, { split: !0, text: e, className: Fs }, s)),
+            children: d.map((e, s) => (0, Cs.jsx)(T, { split: !0, text: e, className: Fs }, s)),
           }),
         }),
       ],
@@ -810,11 +810,11 @@ var Ls = "InfoBox_ea99595d",
       a = e.activeDetailId.get(),
       { animationInProgress: t } = As();
     return (
-      ge(h.ESCAPE, function () {
+      pe(g.ESCAPE, function () {
         t || (a ? _s.send({ type: "HIDE_DETAIL_INFO", action: gs }) : s.goBack());
       }),
       (0, Cs.jsx)("div", {
-        className: me(qs, t && zs),
+        className: _e(qs, t && zs),
         children:
           a &&
           (0, Cs.jsxs)("div", {
@@ -832,9 +832,9 @@ var Ls = "InfoBox_ea99595d",
   };
 function Zs({ className: e, type: s = "default" }) {
   return (0, Cs.jsxs)("div", {
-    className: me(Xs.base, Xs[`base__${s}`], e),
+    className: _e(Xs.base, Xs[`base__${s}`], e),
     children: [
-      "default" === s && (0, Cs.jsx)("div", { className: me(Xs.separator, Xs.separator__left) }),
+      "default" === s && (0, Cs.jsx)("div", { className: _e(Xs.separator, Xs.separator__left) }),
       (0, Cs.jsx)("div", { className: Xs.separatorPattern }),
       "default" === s && (0, Cs.jsx)("div", { className: Xs.separator }),
     ],
@@ -853,10 +853,10 @@ var Js = "assault",
       id: e,
       label:
         ((s = e),
-        oe
+        re
           .resolve("intl")
           .toUpperCase(
-            oe.resolve("strings").readOrEmpty(`personal_missions_30.common.category.${s}`),
+            re.resolve("strings").readOrEmpty(`personal_missions_30.common.category.${s}`),
           )),
     };
     var s;
@@ -898,7 +898,7 @@ var [da, ca] = O()(({ observableModel: e }) => {
         vehicleLevelsById: r,
       },
     };
-  }, p),
+  }, u),
   _a = {
     base: "VehicleItem_4773539d",
     base__role: "VehicleItem_base__role_f4574026",
@@ -906,13 +906,13 @@ var [da, ca] = O()(({ observableModel: e }) => {
     header: "VehicleItem_header_5a7536ee",
   };
 function ma({ item: e, type: s = ia, className: a }) {
-  const t = oe.resolve("strings"),
+  const t = re.resolve("strings"),
     i = s === na ? "roles" : "vehicleTypes",
     n = s === na ? "personal_missions_30.common.role" : "menu.header.vehicleType";
   return (0, Cs.jsxs)("div", {
-    className: me(_a.base, _a[`base__${s}`], a),
+    className: _e(_a.base, _a[`base__${s}`], a),
     children: [
-      (0, Cs.jsx)(T, { path: `personal_missions_30.common.${i}.${K(e)}`, className: _a.icon }),
+      (0, Cs.jsx)(p, { path: `personal_missions_30.common.${i}.${K(e)}`, className: _a.icon }),
       (0, Cs.jsx)("div", { className: _a.header, children: t.readOrEmpty(`${n}.${K(e)}`) }),
     ],
   });
@@ -927,15 +927,15 @@ var ua = {
     highlightedText: "CategoryInfo_highlightedText_76a530ff",
   },
   pa = Te(function ({ className: e }) {
-    const s = oe.resolve("strings"),
+    const s = re.resolve("strings"),
       { model: a } = Os(),
       { model: t } = ca(),
       n = t.missionsCategory.get(),
       o = a.activeOperationId.get();
     return (0, Cs.jsxs)("div", {
-      className: me(ua.base, e),
+      className: _e(ua.base, e),
       children: [
-        (0, Cs.jsx)(T, {
+        (0, Cs.jsx)(p, {
           path: `personal_missions_30.category.c_64x64.${n}`,
           width: "64rem",
           height: "64rem",
@@ -960,18 +960,18 @@ var ua = {
                   className: ua.highlightedText,
                   children: t.computes.operationNameById(o),
                 }),
-                minLevel: c(t.computes.vehicleLevelsById(o).minLevel),
-                maxLevel: c(t.computes.vehicleLevelsById(o).maxLevel),
+                minLevel: d(t.computes.vehicleLevelsById(o).minLevel),
+                maxLevel: d(t.computes.vehicleLevelsById(o).maxLevel),
               },
               className: ua.description,
             }),
             (0, Cs.jsx)(i, {
               path: `personal_missions_30.main.missions.category.vehicles.${n}`,
               params: {
-                HT: (0, Cs.jsx)(ma, { item: we }),
-                MT: (0, Cs.jsx)(ma, { item: r }),
-                LT: (0, Cs.jsx)(ma, { item: A }),
-                TD: (0, Cs.jsx)(ma, { item: F }),
+                HT: (0, Cs.jsx)(ma, { item: A }),
+                MT: (0, Cs.jsx)(ma, { item: Oe }),
+                LT: (0, Cs.jsx)(ma, { item: r }),
+                TD: (0, Cs.jsx)(ma, { item: we }),
                 SPG: (0, Cs.jsx)(ma, { item: "SPG" }),
                 breakthrough: (0, Cs.jsx)(ma, { item: ea, type: na }),
                 assault: (0, Cs.jsx)(ma, { item: Js, type: na }),
@@ -988,12 +988,12 @@ var ua = {
   });
 function ga({ id: e, label: s }) {
   const a = ae({
-    contentId: oe
+    contentId: re
       .resolve("views")
       .read((e) => e.mono.personal_missions_30.tooltips.missions_category_tooltip("resId")),
     args: { category: e },
   });
-  return (0, Cs.jsx)(H.Tab, { tabId: e, ...a, children: s });
+  return (0, Cs.jsx)(ye.Tab, { tabId: e, ...a, children: s });
 }
 var ha = (function (e) {
     return (
@@ -1004,7 +1004,7 @@ var ha = (function (e) {
       e
     );
   })({}),
-  ba = e(Ne(), 1),
+  ba = e(ve(), 1),
   fa = {
     base: "ArrowButton_472a47bc",
     base__small: "ArrowButton_base__small_406dfd6e",
@@ -1023,14 +1023,14 @@ var ha = (function (e) {
     { arrowDirection: e = va.right, size: s, className: a, classNames: t, ...i },
     n,
   ) {
-    return (0, Cs.jsx)(I, {
+    return (0, Cs.jsx)(N, {
       ...i,
       theme: "secondary",
-      className: me(fa.base, fa[`base__${s}`], fa[`base__${e}`], a),
+      className: _e(fa.base, fa[`base__${s}`], fa[`base__${e}`], a),
       autoAlignContent: !1,
       classNames: t,
       ref: n,
-      children: (0, Cs.jsx)("div", { className: me(fa.icon, t?.icon) }),
+      children: (0, Cs.jsx)("div", { className: _e(fa.icon, t?.icon) }),
     });
   });
 Ea.direction = va;
@@ -1047,8 +1047,8 @@ function Aa({ children: e }) {
       e,
       (0, Cs.jsx)("div", { className: Sa }),
       (0, Cs.jsx)("div", { className: Oa }),
-      (0, Cs.jsx)("div", { className: me(Ca, wa) }),
-      (0, Cs.jsx)("div", { className: me(Ca, ja) }),
+      (0, Cs.jsx)("div", { className: _e(Ca, wa) }),
+      (0, Cs.jsx)("div", { className: _e(Ca, ja) }),
     ],
   });
 }
@@ -1075,7 +1075,7 @@ function Ta({
   className: n,
 }) {
   return (0, Cs.jsxs)("div", {
-    className: me(Pa.base, Pa[`base__${s}`], Pa[`base__${e}`], n),
+    className: _e(Pa.base, Pa[`base__${s}`], Pa[`base__${e}`], n),
     children: [
       (0, Cs.jsx)("div", { className: Pa.line }),
       (0, Cs.jsx)(Aa, {
@@ -1090,7 +1090,7 @@ function Ta({
                   params: {
                     maxValue: t,
                     currentValue: (0, Cs.jsx)("div", {
-                      className: me(Pa.currentValue, a === t && Pa.currentValue__done),
+                      className: _e(Pa.currentValue, a === t && Pa.currentValue__done),
                       children: a,
                     }),
                   },
@@ -1125,21 +1125,21 @@ var Ma = "VehiclesProgress_d2b4bea6",
 function ka({ currentProgress: e, maxProgress: s, className: a, ...t }) {
   return (0, Cs.jsx)("div", {
     ...t,
-    className: me(Ma, a),
-    children: d(s, (s) =>
+    className: _e(Ma, a),
+    children: l(s, (s) =>
       (0, Cs.jsxs)(
         "div",
         {
           className: Da,
           children: [
-            (0, Cs.jsx)(T, {
+            (0, Cs.jsx)(p, {
               className: Ra,
               path: "personal_missions_30.common.card.vehicle",
               width: "64rem",
               height: "64rem",
             }),
-            (0, Cs.jsx)(T, {
-              className: me(La, s < e && Va),
+            (0, Cs.jsx)(p, {
+              className: _e(La, s < e && Va),
               path: "personal_missions_30.common.card.done",
               width: "64rem",
               height: "64rem",
@@ -1163,7 +1163,7 @@ function Wa({
   maxProgressValue: t,
   className: i,
 }) {
-  const n = oe.resolve("views"),
+  const n = re.resolve("views"),
     { breakpoint: r } = W(),
     l = He(r.weight, o.medium) && s === ms,
     d = ae({
@@ -1173,14 +1173,14 @@ function Wa({
       args: { missionIndex: e },
     });
   return (0, Cs.jsxs)("div", {
-    className: me(Ba, i),
+    className: _e(Ba, i),
     children: [
       !l &&
         (0, Cs.jsxs)("div", {
           className: Ha,
           children: [
             (0, Cs.jsx)("div", { className: $a }),
-            (0, Cs.jsx)(T, {
+            (0, Cs.jsx)(p, {
               className: Qa,
               path: "personal_missions_30.common.card.done_separator",
               width: "16rem",
@@ -1193,7 +1193,7 @@ function Wa({
     ],
   });
 }
-var qa = e(g(), 1),
+var qa = e(ee(), 1),
   Ua = (e, s) => window.getComputedStyle(e, null).getPropertyValue(s),
   Ya = (e, s, a) => {
     const t = a.getContext("2d"),
@@ -1231,12 +1231,12 @@ var qa = e(g(), 1),
     { text: e, lines: s, className: a, onChange: t, split: i, simpleTooltipParams: n, ...r },
     o,
   ) {
-    const l = _e(
+    const l = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
             ...n,
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -1248,8 +1248,8 @@ var qa = e(g(), 1),
       [_, m] = (0, ze.useState)(!1),
       [u, p] = (0, ze.useState)([]),
       [g, h] = (0, ze.useState)(0),
-      b = ue(),
-      f = (0, ze.useMemo)(() => document.createElement("canvas"), []),
+      b = me(),
+      v = (0, ze.useMemo)(() => document.createElement("canvas"), []),
       N = (0, ze.useCallback)(() => (c.current ? c.current.getBoundingClientRect().height : 0), []),
       I = (0, ze.useCallback)(
         (e) => {
@@ -1268,11 +1268,11 @@ var qa = e(g(), 1),
             const n = e.reduce((e, s) => e + s.length, 0),
               r = a.slice(n);
             if (i === s - 1) return (e.push(r), e);
-            const o = za({ start: 0, end: r.length, words: r, element: d.current, canvas: f });
+            const o = za({ start: 0, end: r.length, words: r, element: d.current, canvas: v });
             return (e.push(r.slice(0, o)), e);
           }, []),
         );
-      }, [f, I, s, e]),
+      }, [v, I, s, e]),
       E = (0, ze.useCallback)(() => {
         b.run(() => {
           (h(N() * s), x());
@@ -1280,7 +1280,7 @@ var qa = e(g(), 1),
       }, [N, s, b, x]);
     return (
       (0, ze.useEffect)(E, [E]),
-      Ie(E, [E]),
+      Ne(E, [E]),
       (0, ze.useEffect)(() => {
         t?.(_);
       }, [t, _]),
@@ -1301,8 +1301,8 @@ var qa = e(g(), 1),
           (0, Cs.jsx)("div", {
             ref: d,
             className: Xa,
-            style: { maxHeight: `${v(g)}rem` },
-            children: (0, Cs.jsx)(M, { text: e, split: i }),
+            style: { maxHeight: `${f(g)}rem` },
+            children: (0, Cs.jsx)(T, { text: e, split: i }),
           }),
           (0, Cs.jsx)("div", {
             className: Za,
@@ -1356,9 +1356,9 @@ function nt({
     d = e === us,
     c = (0, ze.useMemo)(() => ({ header: a, body: s }), [s, a]);
   return (0, Cs.jsxs)("div", {
-    className: me(it.base, it[`base__${e}`], r),
+    className: _e(it.base, it[`base__${e}`], r),
     children: [
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         className: it.image,
         path: d
           ? `personal_missions_30.quest_type.c_128x128.icon_battle_condition_${t}`
@@ -1397,14 +1397,14 @@ var rt = "QuestSeparator_43fba5a4",
   dt = "QuestSeparator_text_a5a5c2eb";
 function ct({ className: e }) {
   return (0, Cs.jsxs)("div", {
-    className: me(rt, e),
+    className: _e(rt, e),
     children: [
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         path: "personal_missions_30.common.card.dots",
         width: "48rem",
         height: "4rem",
       }),
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         path: "personal_missions_30.common.card.arrow",
         width: "16rem",
         height: "16rem",
@@ -1413,13 +1413,13 @@ function ct({ className: e }) {
         className: dt,
         path: "personal_missions_30.main.mission.mission.quest.separator",
       }),
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         className: lt,
         path: "personal_missions_30.common.card.arrow",
         width: "16rem",
         height: "16rem",
       }),
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         className: ot,
         path: "personal_missions_30.common.card.dots",
         width: "48rem",
@@ -1437,7 +1437,7 @@ var _t = {
 };
 function mt({ cardType: e, mission: { allQuestsRequired: s, quests: a }, className: t }) {
   return (0, Cs.jsx)("div", {
-    className: me(_t.base, _t[`base__${e}`], t),
+    className: _e(_t.base, _t[`base__${e}`], t),
     children: a.map((t, i) =>
       (0, Cs.jsxs)(
         ze.Fragment,
@@ -1463,11 +1463,11 @@ var ut = {
   reward: "Rewards_reward_28325b8d",
   base__big: "Rewards_base__big_405577a5",
 };
-function pt({ rewards: e, imageSize: s = l.Small, className: a }) {
+function pt({ rewards: e, imageSize: s = E.Small, className: a }) {
   return (0, Cs.jsx)("div", {
-    className: me(ut.base, ut[`base__${s}`], a),
+    className: _e(ut.base, ut[`base__${s}`], a),
     children: e.map((e, a) =>
-      (0, Cs.jsx)("div", { className: ut.reward, children: (0, Cs.jsx)(de, { ...$e(e, s) }) }, a),
+      (0, Cs.jsx)("div", { className: ut.reward, children: (0, Cs.jsx)(le, { ...$e(e, s) }) }, a),
     ),
   });
 }
@@ -1477,11 +1477,11 @@ var gt = {
   base__missions: "Disabled_base__missions_3cd47f61",
 };
 function ht({ cardType: e = ms }) {
-  const s = oe.resolve("strings");
+  const s = re.resolve("strings");
   return (0, Cs.jsxs)("div", {
-    className: me(gt.base, gt[`base__${e}`]),
+    className: _e(gt.base, gt[`base__${e}`]),
     children: [
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         path: "personal_missions_30.common.card.alert",
         width: "48rem",
         height: "48rem",
@@ -1515,22 +1515,22 @@ var bt = {
   missionNumber: "MissionsCard_missionNumber_1408b413",
 };
 function ft(e) {
-  return e === ha.COMPLETED ? ee.done : e === ha.LOCKED ? ee.locked : void 0;
+  return e === ha.COMPLETED ? J.done : e === ha.LOCKED ? J.locked : void 0;
 }
 var vt = (0, ze.memo)(
     (0, ze.forwardRef)(function ({ index: e, mission: s }, a) {
-      const t = oe.resolve("strings"),
+      const t = re.resolve("strings"),
         i = s.missionStatus === ha.ACTIVE,
-        n = s.missionStatus === ha.ACTIVE ? l.Big : l.Small,
+        n = s.missionStatus === ha.ACTIVE ? E.Big : E.Small,
         r = s.missionStatus === ha.LOCKED || s.missionStatus === ha.DISABLED,
-        o = _e(
+        o = ce(
           ke.CUSTOM_SIMPLE,
           (0, ze.useMemo)(
             () => ({
               body: t.readOrEmpty(
-                `personal_missions_30.main.missions.card.tooltip.${s.missionStatus === ha.COMPLETED ? ee.done : ee.locked}`,
+                `personal_missions_30.main.missions.card.tooltip.${s.missionStatus === ha.COMPLETED ? J.done : J.locked}`,
               ),
-              resId: oe
+              resId: re
                 .resolve("views")
                 .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
             }),
@@ -1539,16 +1539,16 @@ var vt = (0, ze.memo)(
         );
       return (0, Cs.jsxs)("div", {
         ref: V([a]),
-        className: me(bt.base, bt[`base__${s.missionStatus}`]),
+        className: _e(bt.base, bt[`base__${s.missionStatus}`]),
         children: [
-          (0, Cs.jsx)(Ta, { ...s, cardType: us, className: me(i && bt.missionNumber) }),
-          (0, Cs.jsx)(J, {
+          (0, Cs.jsx)(Ta, { ...s, cardType: us, className: _e(i && bt.missionNumber) }),
+          (0, Cs.jsx)(H, {
             disableMouse: !0,
             selected: i,
             status: ft(s.missionStatus),
             disabled: r,
             className: bt.content,
-            classNames: { wrapper: me(!r && bt.cardWrapper), card: bt.cardComponent },
+            classNames: { wrapper: _e(!r && bt.cardWrapper), card: bt.cardComponent },
             children: (0, Cs.jsx)("div", {
               className: bt.card,
               children: (() => {
@@ -1593,7 +1593,7 @@ var vt = (0, ze.memo)(
               children: [
                 (0, Cs.jsx)("div", { className: bt.brightLine }),
                 (0, Cs.jsx)("div", { className: bt.shadowLine }),
-                (0, Cs.jsx)(T, {
+                (0, Cs.jsx)(p, {
                   path: "personal_missions_30.common.card.status_lock_icon",
                   className: bt.lockedIcon,
                 }),
@@ -1606,8 +1606,8 @@ var vt = (0, ze.memo)(
   ),
   Nt = "DraggingOverlay_599243d";
 function It() {
-  const e = ue();
-  return (se(() => e.run(be)), (0, Cs.jsx)("div", { className: Nt }));
+  const e = me();
+  return (se(() => e.run(he)), (0, Cs.jsx)("div", { className: Nt }));
 }
 var xt = {
     base: "ScrollableCards_cede7903",
@@ -1627,17 +1627,17 @@ var xt = {
       r = a.computes.missionsByCategory(n),
       l = j(r, (e) => e.missionStatus === ha.ACTIVE),
       d = (0, ze.useRef)([]),
-      c = (0, ze.useRef)(null),
+      _ = (0, ze.useRef)(null),
       m = (0, ze.useRef)(null),
-      { api: u } = _(),
-      p = ue(),
+      { api: u } = h(),
+      p = me(),
       g = X(),
-      h = E(u, x.horizontal, void 0, { gapBeforeStart: 5 }),
-      b = $(() => {
+      b = S(u, x.horizontal, void 0, { gapBeforeStart: 5 }),
+      f = $(() => {
         p.run(() => {
           if (void 0 === l) return;
           const e = d.current[l],
-            s = c.current,
+            s = _.current,
             a = m.current,
             t = u.getWrapperSize();
           e &&
@@ -1651,7 +1651,7 @@ var xt = {
                 : (a.classList.remove(Et), s.classList.remove(Et)));
         });
       }),
-      f = (0, ze.useCallback)(
+      v = (0, ze.useCallback)(
         function (e) {
           const s = u.getWrapperSize(),
             a = d.current[e];
@@ -1659,47 +1659,47 @@ var xt = {
         },
         [u],
       ),
-      v = (0, ze.useCallback)(
+      N = (0, ze.useCallback)(
         function (e) {
           const s = u.animationScroll.scrollPosition.get(),
-            a = f(e);
+            a = v(e);
           (0 === s && a < 0) || s === a || (g.play("bp_slide"), u.applyScroll(a));
         },
-        [u, f, g],
+        [u, v, g],
       );
     ((0, ze.useEffect)(() => {
       if (void 0 === l) return;
       const e = u.animationScroll.scrollPosition.get(),
-        s = f(l);
-      ((0 === e && s < 0) || e === s) && b();
-    }, [l, u.animationScroll.scrollPosition, f, b]),
+        s = v(l);
+      ((0 === e && s < 0) || e === s) && f();
+    }, [l, u.animationScroll.scrollPosition, v, f]),
       (0, ze.useEffect)(() => {
-        void 0 !== l && e === cs && p.run(() => v(l));
-      }, [l, v, p, e, u, b]),
+        void 0 !== l && e === cs && p.run(() => N(l));
+      }, [l, N, p, e, u, f]),
       (0, ze.useEffect)(
         () => (
-          u.events.on("change", b),
-          u.events.on("recalculateContent", b),
-          u.events.on("resizeHandled", b),
+          u.events.on("change", f),
+          u.events.on("recalculateContent", f),
+          u.events.on("resizeHandled", f),
           () => {
-            (u.events.off("change", b),
-              u.events.off("recalculateContent", b),
-              u.events.off("resizeHandled", b));
+            (u.events.off("change", f),
+              u.events.off("recalculateContent", f),
+              u.events.off("resizeHandled", f));
           }
         ),
-        [l, u, p, b],
+        [l, u, p, f],
       ));
-    const N = (0, ze.useCallback)((e) => {
+    const I = (0, ze.useCallback)((e) => {
         d.current.push(e);
       }, []),
-      I = _e(
+      E = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
-            body: oe
+            body: re
               .resolve("strings")
               .readOrEmpty("personal_missions_30.main.missions.button.tooltip.toActiveMission"),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -1707,20 +1707,20 @@ var xt = {
         ),
       );
     function y() {
-      (void 0 !== l && v(l), g.play("carouselButton"), I.onClick());
+      (void 0 !== l && N(l), g.play("carouselButton"), E.onClick());
     }
     function O(e) {
-      (g.play("mouse-enter"), I.onMouseEnter(e));
+      (g.play("mouse-enter"), E.onMouseEnter(e));
     }
     return (0, Cs.jsxs)("div", {
       className: xt.base,
       children: [
-        (0, Cs.jsx)(S, {
+        (0, Cs.jsx)(c, {
           areaClassName: xt.scroll,
           children: (0, Cs.jsx)("div", {
             className: xt.content,
             children: r.map((e, s) =>
-              (0, Cs.jsx)(vt, { mission: e, index: s, ref: N }, e.currentMissionNumber),
+              (0, Cs.jsx)(vt, { mission: e, index: s, ref: I }, e.currentMissionNumber),
             ),
           }),
         }),
@@ -1729,27 +1729,27 @@ var xt = {
             children: [
               (0, Cs.jsx)(Ea, {
                 silent: !0,
-                ...I,
-                ref: c,
+                ...E,
+                ref: _,
                 size: i,
                 arrowDirection: "left",
                 onClick: y,
                 onMouseEnter: O,
-                className: me(xt.button, xt.button__left, xt.button__hidden),
+                className: _e(xt.button, xt.button__left, xt.button__hidden),
               }),
               (0, Cs.jsx)(Ea, {
                 silent: !0,
-                ...I,
+                ...E,
                 size: i,
                 ref: m,
                 arrowDirection: "right",
                 onClick: y,
                 onMouseEnter: O,
-                className: me(xt.button, xt.button__right, xt.button__hidden),
+                className: _e(xt.button, xt.button__right, xt.button__hidden),
               }),
             ],
           }),
-        ba.createPortal("dragging" === h.type && (0, Cs.jsx)(It, {}), document.body),
+        ba.createPortal("dragging" === b.type && (0, Cs.jsx)(It, {}), document.body),
       ],
     });
   }),
@@ -1767,12 +1767,12 @@ var xt = {
       t = He(a.weight, o.large),
       { animationInProgress: i } = As(),
       n = Re(_s, (e) => e.value),
-      [r, l] = le(() => ({ from: { opacity: 0 } })),
-      [d, c] = le(() => ({ from: { opacity: 0 } })),
-      [_, m] = le(() => ({ from: { opacity: 0, transform: "translateY(-20rem)" } })),
-      [u, p] = le(() => ({ from: { opacity: 0, transform: "translateY(20rem)" } }));
+      [r, l] = oe(() => ({ from: { opacity: 0 } })),
+      [d, c] = oe(() => ({ from: { opacity: 0 } })),
+      [_, m] = oe(() => ({ from: { opacity: 0, transform: "translateY(-20rem)" } })),
+      [u, p] = oe(() => ({ from: { opacity: 0, transform: "translateY(20rem)" } }));
     return (
-      ce(() => {
+      de(() => {
         l.start({
           opacity: 1,
           config: { duration: 300, easing: Q.easeOutCubic },
@@ -1790,7 +1790,7 @@ var xt = {
           },
         });
       }),
-      ge(h.ESCAPE, () => {
+      pe(g.ESCAPE, () => {
         i || e.goBack();
       }),
       (0, ze.useEffect)(() => {
@@ -1807,10 +1807,10 @@ var xt = {
         style: r,
         className: St,
         children: [
-          (0, Cs.jsx)(H, {
+          (0, Cs.jsx)(ye, {
             active: s.missionsCategory.get(),
-            theme: Ae.primary,
-            size: t ? Se.small : Se.large,
+            theme: F.primary,
+            size: t ? Ae.small : Ae.large,
             onActiveChange: (s) => {
               var a;
               ((a = () => {
@@ -1875,8 +1875,8 @@ var xt = {
             },
             children: (0, Cs.jsx)(Y.div, {
               style: d,
-              children: (0, Cs.jsx)(H.Switcher, {
-                className: me(Ot, i && Ct),
+              children: (0, Cs.jsx)(ye.Switcher, {
+                className: _e(Ot, i && Ct),
                 children: oa.map(({ id: e, label: s }) => (0, Cs.jsx)(ga, { id: e, label: s }, e)),
               }),
             }),
@@ -1890,7 +1890,7 @@ var xt = {
           }),
           (0, Cs.jsx)(Y.div, {
             style: u,
-            children: (0, Cs.jsx)(te, {
+            children: (0, Cs.jsx)(I, {
               settings: xs,
               children: (0, Cs.jsx)(yt, { currentAnimationState: n }),
             }),
@@ -1931,7 +1931,7 @@ var xt = {
     );
   })({});
 function Vt(e) {
-  return d(e, (e) => ({
+  return l(e, (e) => ({
     id: `quest_${e}`,
     questType: "damage",
     questCondition: "Kill 10 000 vehicles",
@@ -2223,7 +2223,7 @@ var kt = [
     { name: "credits", value: "250 000" },
   ],
   zt = { maximumMissions: 15, completedMissions: 3, maxProgressValue: 4 },
-  Gt = d(zt.maximumMissions, (e) => ({
+  Gt = l(zt.maximumMissions, (e) => ({
     missionStatus: Ut(e + 1).status,
     currentMissionNumber: e + 1,
     allQuestsRequired: Ce(),
@@ -2273,7 +2273,7 @@ var kt = [
         missionsCategory: Be.ASSAULT,
       },
     }),
-    controls: () => p,
+    controls: () => u,
   },
   Xt = { context: "model.missionsModel" };
 function Zt() {
@@ -2284,7 +2284,7 @@ var Jt = "Background_af83c19a",
   si = "Background_noise_c5b84c8b";
 function ai({ className: e }) {
   return (0, Cs.jsxs)("div", {
-    className: me(Jt, e),
+    className: _e(Jt, e),
     children: [(0, Cs.jsx)("div", { className: ei }), (0, Cs.jsx)("div", { className: si })],
   });
 }
@@ -2296,15 +2296,15 @@ var oi = new Set([Ve.COMPLETED, Ve.COMPLETED_WITH_HONORS]),
   li = "Fill_done_81de6102",
   di = "Fill_done__hidden_4a8ded52",
   ci = "Fill_done__doneStatic_b04e330e",
-  _i = Y(T),
+  _i = Y(p),
   mi = (0, ze.memo)(function ({ animationConfig: e, classNames: s }) {
     const a = z(),
       { activeComponents: t } = z(),
       i = 100 * a.percentage,
       n = 100 * (a.previous?.percentage ?? 0),
       r = void 0 === a.previous ? i : n,
-      o = ue(),
-      [l, d] = le(() => ({ width: r }));
+      o = me(),
+      [l, d] = oe(() => ({ width: r }));
     return (
       (0, ze.useEffect)(() => {
         o.run(() =>
@@ -2322,7 +2322,7 @@ var oi = new Set([Ve.COMPLETED, Ve.COMPLETED_WITH_HONORS]),
       }, [i, d, r, a.animationType, e, t, o]),
       (0, Cs.jsx)(_i, {
         path: "ui.progressbar.bg_pattern_base_filled_large",
-        className: me(s?.done, li, !a.progressCompleted && di, a.progressCompleted && ci),
+        className: _e(s?.done, li, !a.progressCompleted && di, a.progressCompleted && ci),
         repeat: "repeat",
         position: "left top",
         style: { width: l.width.to((e) => `${e}%`) },
@@ -2334,11 +2334,11 @@ var oi = new Set([Ve.COMPLETED, Ve.COMPLETED_WITH_HONORS]),
   gi = ["growing", "shrinking"],
   hi = ze.memo(function (e) {
     const { introAnimationDone: s } = As(),
-      a = _e(
+      a = ce(
         ke.PROGRESSION,
         (0, ze.useMemo)(
           () => ({
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -2348,17 +2348,17 @@ var oi = new Set([Ve.COMPLETED, Ve.COMPLETED_WITH_HONORS]),
     return (0, Cs.jsx)("div", {
       className: ui,
       ...a,
-      children: (0, Cs.jsxs)(re, {
+      children: (0, Cs.jsxs)(ne, {
         size: "large",
         value: s ? e.value : e.prevValue,
         maxValue: e.maxValue,
         className: pi,
         animationType: "grow",
         children: [
-          (0, Cs.jsxs)(re.Fill, {
-            children: [(0, Cs.jsx)(re.Fill.Filled, {}), (0, Cs.jsx)(mi, {})],
+          (0, Cs.jsxs)(ne.Fill, {
+            children: [(0, Cs.jsx)(ne.Fill.Filled, {}), (0, Cs.jsx)(mi, {})],
           }),
-          (0, Cs.jsx)(Ee, { from: e.prevValue, steps: gi }),
+          (0, Cs.jsx)(xe, { from: e.prevValue, steps: gi }),
         ],
       }),
     });
@@ -2370,7 +2370,7 @@ var oi = new Set([Ve.COMPLETED, Ve.COMPLETED_WITH_HONORS]),
 function Ii({ operationState: e, maxPoint: s, className: a }) {
   const t = oi.has(e);
   return (0, Cs.jsxs)("div", {
-    className: me(bi, t && vi, a),
+    className: _e(bi, t && vi, a),
     children: [
       (0, Cs.jsx)("div", { className: fi }),
       !t && (0, Cs.jsx)("div", { className: Ni, children: s }),
@@ -2383,23 +2383,23 @@ var xi = "ContentWrapper_border_e0f7c2c",
 function Si({ children: e }) {
   return (0, Cs.jsxs)(Cs.Fragment, {
     children: [
-      (0, Cs.jsx)(Zs, { className: me(xi, yi) }),
+      (0, Cs.jsx)(Zs, { className: _e(xi, yi) }),
       e,
-      (0, Cs.jsx)(Zs, { className: me(xi, Ei) }),
+      (0, Cs.jsx)(Zs, { className: _e(xi, Ei) }),
     ],
   });
 }
 var Oi = "InProgress_status_a90e1754",
   Ci = "InProgress_point_12655571";
 function wi({ earnedPoint: e, id: s, maxPoint: a }) {
-  const t = oe.resolve("strings");
+  const t = re.resolve("strings");
   return (0, Cs.jsx)(Si, {
     children: (0, Cs.jsx)(i, {
-      ..._e(
+      ...ce(
         ke.PM3_POINTS,
         (0, ze.useMemo)(
           () => ({
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -2409,7 +2409,7 @@ function wi({ earnedPoint: e, id: s, maxPoint: a }) {
       className: Oi,
       path: "personal_missions_30.main.progression.detail.status.active",
       params: {
-        icon: (0, Cs.jsx)(T, {
+        icon: (0, Cs.jsx)(p, {
           path: "personal_missions_30.points.c_24x24",
           width: "24rem",
           height: "24rem",
@@ -2428,23 +2428,23 @@ var ji = "NotReceived_wrapper_4d14069c",
   Ti = "NotReceived_glareAttention_c2d53c79",
   Mi = Te(function ({ firstElementByStatus: e, id: s, onClaim: a }) {
     const { controls: t } = Os(),
-      i = oe.resolve("strings"),
+      i = re.resolve("strings"),
       { animationInProgress: n } = As(),
-      r = _e(
+      r = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
             body: i.readOrEmpty(
               "personal_missions_30.main.progression.mountButton." + (e ? "active" : "disable"),
             ),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
           [e, i],
         ),
       ),
-      [o, l] = le(() => ({
+      [o, l] = oe(() => ({
         from: { transform: "translate(10%, -220%) rotate(30deg)" },
         to: { transform: "translate(-60%, 30%) rotate(30deg)" },
         loop: !0,
@@ -2455,7 +2455,7 @@ var ji = "NotReceived_wrapper_4d14069c",
       children: (0, Cs.jsxs)("div", {
         className: ji,
         children: [
-          (0, Cs.jsx)(I, {
+          (0, Cs.jsx)(N, {
             disabled: !e,
             theme: "primary",
             size: "small",
@@ -2501,72 +2501,72 @@ var ji = "NotReceived_wrapper_4d14069c",
     video: "Detail_video_82d3b729",
   },
   Li = Te(function ({ index: e, detail: s, detailsLength: a, className: t }) {
-    const n = oe.resolve("strings"),
-      r = oe.resolve("videos"),
-      o = oe.resolve("sounds"),
+    const n = re.resolve("strings"),
+      r = re.resolve("videos"),
+      o = re.resolve("sounds"),
       { model: l, controls: d } = Os(),
       c = l.computes.activeOperation(),
       _ = l.currentState.get(),
-      m = l.computes.requiredDetailsPoint(),
-      [p, g] = (0, ze.useState)(s),
-      h = l.computes.firstDetailIndexByStatus(Dt.NOT_RECEIVED) === e,
-      b = l.activeDetailId.get(),
-      f = p.status === Dt.DONE,
-      v = b === p.id,
-      { animationInProgress: N } = As(),
-      I = _e(
+      u = l.computes.requiredDetailsPoint(),
+      [g, h] = (0, ze.useState)(s),
+      b = l.computes.firstDetailIndexByStatus(Dt.NOT_RECEIVED) === e,
+      f = l.activeDetailId.get(),
+      v = g.status === Dt.DONE,
+      N = f === g.id,
+      { animationInProgress: I } = As(),
+      x = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
-            body: oe
+            body: re
               .resolve("strings")
               .readOrEmpty("personal_missions_30.main.progression.tooltip.detail.notDone"),
             split: !1,
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
           [],
         ),
       ),
-      [x, E] = le(() => ({ from: { opacity: 1 }, config: { duration: 200 } }));
-    function y(e, s) {
+      [E, y] = oe(() => ({ from: { opacity: 1 }, config: { duration: 200 } }));
+    function S(e, s) {
       (_ === Ns &&
         (l.activeDetailId.set(s), _s.send({ type: "TO_DETAIL_INFO", detailId: s, action: e })),
         _ === vs &&
-          ("" === b
+          ("" === f
             ? (e === gs && (l.activeDetailId.set(s), d.showDetailInfo(s)),
               e === ps && _s.send({ type: "HIDE_DETAIL_INFO", detailId: s, action: e }))
             : _s.send({ type: "HIDE_DETAIL_INFO", detailId: s, action: e })));
     }
-    function S(e) {
-      (I.onClick(),
-        v ||
-          N ||
-          (f && (o.play("yes1"), y(gs, e)),
-          h && (d.updateAnimationState(Ye.ANIMATION_STARTED), y(ps, e))));
+    function O(e) {
+      (x.onClick(),
+        N ||
+          I ||
+          (v && (o.play("yes1"), S(gs, e)),
+          b && (d.updateAnimationState(Ye.ANIMATION_STARTED), S(ps, e))));
     }
     if (
       ((0, ze.useEffect)(() => {
-        p.status !== s.status
-          ? E.start({
+        g.status !== s.status
+          ? y.start({
               opacity: 0,
               onRest: () => {
-                (g({ ...s }), E.start({ opacity: 1, delay: 150 }));
+                (h({ ...s }), y.start({ opacity: 1, delay: 150 }));
               },
             })
-          : p.earnedPoint !== s.earnedPoint && g({ ...s });
-      }, [E, s, p.status, p.earnedPoint]),
-      c && m)
+          : g.earnedPoint !== s.earnedPoint && h({ ...s });
+      }, [y, s, g.status, g.earnedPoint]),
+      c && u)
     )
       return (0, Cs.jsxs)("div", {
         "data-name": "Detail",
-        className: me(
+        className: _e(
           Di.base,
-          Di[`base__${p.status}`],
+          Di[`base__${g.status}`],
           Di[`base__${c.operationState}`],
-          v && f && Di.base__selected,
-          h && Di.base__firstNotReceived,
+          N && v && Di.base__selected,
+          b && Di.base__firstNotReceived,
           t,
         ),
         children: [
@@ -2574,16 +2574,16 @@ var ji = "NotReceived_wrapper_4d14069c",
             (0, Cs.jsx)(Ii, {
               maxPoint: 0,
               operationState: c.operationState,
-              className: me(Di.divider, Di.divider__first),
+              className: _e(Di.divider, Di.divider__first),
             }),
           (0, Cs.jsx)("div", { className: Di.background }),
           (0, Cs.jsx)("div", { className: Di.glow }),
           (0, Cs.jsx)(Y.div, {
-            style: x,
+            style: E,
             className: Di.wrapper,
             children:
-              h &&
-              (0, Cs.jsx)(u, {
+              b &&
+              (0, Cs.jsx)(m, {
                 src: r.readOrEmpty("personal_missions_30.main.detail_glow"),
                 className: Di.video,
                 loop: !0,
@@ -2595,42 +2595,42 @@ var ji = "NotReceived_wrapper_4d14069c",
             children: [
               (0, Cs.jsx)("div", {
                 className: Di.detailName,
-                children: n.readOrEmpty(`personal_missions_30.detail.name.${p.id}`),
+                children: n.readOrEmpty(`personal_missions_30.detail.name.${g.id}`),
               }),
-              (0, Cs.jsx)(T, {
-                path: `personal_missions_30.vehicle_detail.c_400x150.${p.id}`,
+              (0, Cs.jsx)(p, {
+                path: `personal_missions_30.vehicle_detail.c_400x150.${g.id}`,
                 className: Di.detail,
-                ...(!v && !f && I),
-                onClick: () => S(p.id),
+                ...(!N && !v && x),
+                onClick: () => O(g.id),
                 onMouseEnter: function (e) {
-                  (!v && !f && I.onMouseEnter(e), ((f && !v) || h) && o.play("bp_improved_reward"));
+                  (!N && !v && x.onMouseEnter(e), ((v && !N) || b) && o.play("bp_improved_reward"));
                 },
               }),
-              (0, Cs.jsx)(T, {
+              (0, Cs.jsx)(p, {
                 path: "personal_missions_30.main.progression.arrow",
                 className: Di.arrow,
               }),
-              (0, Cs.jsx)(T, {
+              (0, Cs.jsx)(p, {
                 path: "personal_missions_30.main.progression.preview_icon",
                 className: Di.preview,
               }),
               (0, Cs.jsx)(Y.div, {
-                style: x,
-                className: me(Di.wrapper, p.status === Dt.DONE && Di.wrapper__disabled),
+                style: E,
+                className: _e(Di.wrapper, g.status === Dt.DONE && Di.wrapper__disabled),
                 children: (() => {
-                  switch (p.status) {
+                  switch (g.status) {
                     case Dt.IN_PROGRESS:
-                      return (0, Cs.jsx)(wi, { ...p });
+                      return (0, Cs.jsx)(wi, { ...g });
                     case Dt.NOT_RECEIVED:
-                      return (0, Cs.jsx)(Mi, { id: p.id, firstElementByStatus: h, onClaim: S });
+                      return (0, Cs.jsx)(Mi, { id: g.id, firstElementByStatus: b, onClaim: O });
                   }
                 })(),
               }),
               (0, Cs.jsx)(i, {
                 path: "personal_missions_30.main.progression.detailNumber",
-                className: me(
+                className: _e(
                   Di.detailNumber,
-                  p.status === Dt.IN_PROGRESS && Di.detailNumber__inProgress,
+                  g.status === Dt.IN_PROGRESS && Di.detailNumber__inProgress,
                 ),
                 params: {
                   number: String(e + 1).padStart(
@@ -2642,8 +2642,8 @@ var ji = "NotReceived_wrapper_4d14069c",
             ],
           }),
           (0, Cs.jsx)(Ii, {
-            maxPoint: m[e],
-            className: me(Di.divider, e === a - 1 && Di.divider__last),
+            maxPoint: u[e],
+            className: _e(Di.divider, e === a - 1 && Di.divider__last),
             operationState: c.operationState,
           }),
         ],
@@ -2678,7 +2678,7 @@ var Bi = Te(
         u = ki(m, l, r, i),
         p = ki(m, d, r, i);
       return (0, Cs.jsxs)("div", {
-        className: me(Vi, e),
+        className: _e(Vi, e),
         ref: s,
         children: [
           !oi.has(c) &&
@@ -2705,20 +2705,20 @@ var Bi = Te(
     bold: "AdditionalReward_bold_22e4e246",
     icon: "AdditionalReward_icon_286945a9",
   },
-  $i = oe.resolve("sounds"),
-  Qi = oe.resolve("strings"),
+  $i = re.resolve("sounds"),
+  Qi = re.resolve("strings"),
   Fi = Te(function ({
     reward: { completedTasks: e, items: s, rewardsType: a, tasksNumber: t },
     index: n,
   }) {
     const { controls: r } = Os(),
       o = e === t ? ni : ri,
-      d = _e(
+      l = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
             body: Qi.readOrEmpty(`personal_missions_30.main.progression.tooltip.rewards.${a}`),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -2726,10 +2726,10 @@ var Bi = Te(
         ),
       );
     return (0, Cs.jsxs)("div", {
-      className: me(Hi.base, Hi[`base__${o}`], 0 === n && Hi.status__hidden),
+      className: _e(Hi.base, Hi[`base__${o}`], 0 === n && Hi.status__hidden),
       children: [
         (0, Cs.jsx)(i, {
-          ...d,
+          ...l,
           className: Hi.title,
           path: `personal_missions_30.main.progression.reward.title.${a}`,
         }),
@@ -2741,7 +2741,7 @@ var Bi = Te(
             return (0, Cs.jsxs)(
               "div",
               {
-                className: me(Hi.reward, a && Hi.reward__style),
+                className: _e(Hi.reward, a && Hi.reward__style),
                 onMouseEnter: () => {
                   a && $i.play("bp_improved_reward");
                 },
@@ -2749,9 +2749,9 @@ var Bi = Te(
                   a && ($i.play("yes1"), r.showStylePreview(e.id));
                 },
                 children: [
-                  (0, Cs.jsx)(de, { ...$e(e, l.Big) }),
+                  (0, Cs.jsx)(le, { ...$e(e, E.Big) }),
                   a &&
-                    (0, Cs.jsx)(T, {
+                    (0, Cs.jsx)(p, {
                       path: "personal_missions_30.main.progression.preview_icon",
                       width: "100rem",
                       height: "100rem",
@@ -2781,7 +2781,7 @@ var Bi = Te(
               case ni:
                 return (0, Cs.jsxs)(Cs.Fragment, {
                   children: [
-                    (0, Cs.jsx)(T, {
+                    (0, Cs.jsx)(p, {
                       path: "personal_missions_30.main.progression.arrow__small",
                       height: "24rem",
                       width: "24rem",
@@ -2810,8 +2810,8 @@ var Bi = Te(
   Gi = "MainReward_button_10f377d",
   Ki = "MainReward_buttonContent_e44cd18e",
   Xi = Te(function ({ className: e }) {
-    const s = oe.resolve("strings"),
-      a = oe.resolve("sounds"),
+    const s = re.resolve("strings"),
+      a = re.resolve("sounds"),
       { model: t, controls: i } = Os(),
       n = t.computes.activeOperation(),
       r = t.activeOperationId.get(),
@@ -2821,15 +2821,15 @@ var Bi = Te(
       _ || (n?.vehicleInHangar ? i.showVehicleInHangar() : (a.play("yes"), i.showVehiclePreview()));
     }
     return (0, Cs.jsxs)("div", {
-      className: me(Wi, e),
+      className: _e(Wi, e),
       "data-name": "MainReward",
       children: [
-        (0, Cs.jsx)(T, {
+        (0, Cs.jsx)(p, {
           className: qi,
           path: `personal_missions_30.operation_vehicle.c_296x222.vehicle_3_${r}`,
         }),
         n?.vehicleInHangar
-          ? (0, Cs.jsx)(I, {
+          ? (0, Cs.jsx)(N, {
               theme: "secondary",
               size: "small",
               className: Gi,
@@ -2837,7 +2837,7 @@ var Bi = Te(
               onClick: m,
               children: s.readOrEmpty("personal_missions_30.main.progression.reward.previewButton"),
             })
-          : (0, Cs.jsx)(T, {
+          : (0, Cs.jsx)(p, {
               path: "personal_missions_30.main.progression.preview_icon",
               width: "100rem",
               height: "100rem",
@@ -2847,12 +2847,12 @@ var Bi = Te(
                 _ || a.play("highlight");
               },
             }),
-        (0, Cs.jsxs)(ve, {
+        (0, Cs.jsxs)(fe, {
           className: Ui,
           children: [
-            (0, Cs.jsx)(ve.Level, { className: Yi, value: l, numberType: "roman" }),
-            q(d) && (0, Cs.jsx)(ve.Type, { type: d, premium: o }),
-            (0, Cs.jsx)(ve.Name, { className: Yi, children: c }),
+            (0, Cs.jsx)(fe.Level, { className: Yi, value: l, numberType: "roman" }),
+            q(d) && (0, Cs.jsx)(fe.Type, { type: d, premium: o }),
+            (0, Cs.jsx)(fe.Name, { className: Yi, children: c }),
           ],
         }),
       ],
@@ -2869,7 +2869,7 @@ var Bi = Te(
       if (t)
         return (0, Cs.jsxs)("div", {
           ref: s,
-          className: me(Zi, e),
+          className: _e(Zi, e),
           children: [
             (0, Cs.jsx)("div", { className: Ji, children: (0, Cs.jsx)(Xi, { className: sn }) }),
             t.rewards.map((e, s) =>
@@ -2880,7 +2880,7 @@ var Bi = Te(
                     className: Ji,
                     children: [
                       s > 0 &&
-                        (0, Cs.jsx)(T, {
+                        (0, Cs.jsx)(p, {
                           path: "personal_missions_30.main.progression.divider",
                           width: "3rem",
                           height: "110rem",
@@ -2920,34 +2920,34 @@ var Bi = Te(
   nn = Te(function ({ className: e }) {
     const s = (0, ze.useRef)(null),
       a = (0, ze.useRef)(null),
-      { api: t } = _(),
-      i = ue(),
-      n = ue(),
+      { api: t } = h(),
+      i = me(),
+      n = me(),
       { animationInProgress: r } = As(),
       l = Re(_s, (e) => e.value),
-      d = Oe(l),
-      c = X(),
+      d = Se(l),
+      _ = X(),
       [m, u] = (0, ze.useState)("hidden"),
-      p = E(t, x.horizontal, void 0, { gapBeforeStart: 5 }),
-      { model: g } = Os(),
-      b = g.computes.activeOperation(),
-      f = g.activeOperationId.get(),
-      v = g.operations.get(),
-      N = g.computes.firstDetailIndexByStatus(Dt.NOT_RECEIVED),
-      I = g.computes.firstDetailIndexByStatus(Dt.IN_PROGRESS),
-      y = -1 === N ? I : N,
+      p = S(t, x.horizontal, void 0, { gapBeforeStart: 5 }),
+      { model: b } = Os(),
+      f = b.computes.activeOperation(),
+      v = b.activeOperationId.get(),
+      N = b.operations.get(),
+      I = b.computes.firstDetailIndexByStatus(Dt.NOT_RECEIVED),
+      E = b.computes.firstDetailIndexByStatus(Dt.IN_PROGRESS),
+      y = -1 === I ? E : I,
       { breakpoint: O } = W(),
       C = He(O.weight, o.large) ? ii : ti,
       w = k(C.rewardWidth),
       j = k(C.detailWidth),
-      A = _e(
+      A = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
-            body: oe
+            body: re
               .resolve("strings")
               .readOrEmpty("personal_missions_30.main.progression.tooltip.toActiveStage"),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -2955,10 +2955,10 @@ var Bi = Te(
         ),
       );
     function P() {
-      void 0 !== y && (c.play("carouselButton"), A.onClick(), M(y));
+      void 0 !== y && (_.play("carouselButton"), A.onClick(), M(y));
     }
     function T(e) {
-      (c.play("mouse-enter"), A.onMouseEnter(e));
+      (_.play("mouse-enter"), A.onMouseEnter(e));
     }
     function M(e) {
       i.run(() => {
@@ -2968,26 +2968,26 @@ var Bi = Te(
           o = t.getWrapperSize();
         if (!a || !o) return;
         const l = -1 === e ? n : j * e - o / 2 + w / 2;
-        (0 === r && l < 0) || r === l || (c.play("bp_slide"), t.applyScroll(l));
+        (0 === r && l < 0) || r === l || (_.play("bp_slide"), t.applyScroll(l));
       });
     }
     function D(e) {
       if (r) return;
-      const s = g.computes.nextActiveDetail(e);
+      const s = b.computes.nextActiveDetail(e);
       s &&
-        s.index !== N &&
         s.index !== I &&
+        s.index !== E &&
         (_s.send({ type: "HIDE_DETAIL_INFO", detailId: s.detail.id, action: gs }), M(s.index));
     }
     return (
-      ge(h.ARROW_LEFT, () => D(h.ARROW_LEFT)),
-      ge(h.ARROW_RIGHT, () => D(h.ARROW_RIGHT)),
+      pe(g.ARROW_LEFT, () => D(g.ARROW_LEFT)),
+      pe(g.ARROW_RIGHT, () => D(g.ARROW_RIGHT)),
       (0, ze.useEffect)(() => {
         void 0 !== y && (l !== cs || (d !== Ke && void 0 !== d) || M(y));
-      }, [f, l]),
+      }, [v, l]),
       (0, ze.useEffect)(() => {
         t.recalculateContent();
-      }, [v]),
+      }, [N]),
       (0, ze.useEffect)(() => {
         const e = () => {
           const e = s.current,
@@ -2996,7 +2996,7 @@ var Bi = Te(
             o = t.animationScroll.scrollPosition.get(),
             l = t.getWrapperSize();
           if (e && i && l) {
-            if (b && !oi.has(b.operationState)) {
+            if (f && !oi.has(f.operationState)) {
               const s = r - e.offsetWidth + w;
               if (o <= s) {
                 const a = Math.ceil(s - o);
@@ -3006,7 +3006,7 @@ var Bi = Te(
               } else (i.classList.remove("mask"), (e.style.transform = "translateX(-0px)"));
             } else (i.classList.remove("mask"), (e.style.transform = "translateX(-0px)"));
             u(
-              -1 !== N || -1 !== I
+              -1 !== I || -1 !== E
                 ? (function (e, s, a, t) {
                     if (void 0 === t) return "hidden";
                     const i = t * s;
@@ -3029,22 +3029,22 @@ var Bi = Te(
               t.events.off("resizeHandled", e));
           }
         );
-      }, [b, t, j, y, I, N, w, n]),
+      }, [f, t, j, y, E, I, w, n]),
       (0, Cs.jsxs)("div", {
         "data-name": "Progression",
-        className: me(tn.base, tn[`base__${b?.operationState}`], tn[`base__${m}`], e),
+        className: _e(tn.base, tn[`base__${f?.operationState}`], tn[`base__${m}`], e),
         children: [
-          (0, Cs.jsx)("div", { className: me(tn.shadow, tn.shadow__left) }),
-          (0, Cs.jsx)("div", { className: me(tn.shadow, tn.shadow__right) }),
+          (0, Cs.jsx)("div", { className: _e(tn.shadow, tn.shadow__left) }),
+          (0, Cs.jsx)("div", { className: _e(tn.shadow, tn.shadow__right) }),
           (0, Cs.jsxs)("div", {
             className: tn.wrapper,
             children: [
               (0, Cs.jsx)(ai, { className: tn.background }),
-              (0, Cs.jsx)(S, {
+              (0, Cs.jsx)(c, {
                 areaClassName: tn.scrollArea,
                 barClassNames: { base: tn.bar },
                 children: (0, Cs.jsxs)("div", {
-                  className: me(tn.content, r && tn.content__disabled),
+                  className: _e(tn.content, r && tn.content__disabled),
                   children: [
                     (0, Cs.jsx)(Bi, { ref: a, className: tn.progressbar }),
                     (0, Cs.jsx)(an, { ref: s, className: tn.rewards }),
@@ -3060,7 +3060,7 @@ var Bi = Te(
             ...A,
             onClick: P,
             onMouseEnter: T,
-            className: me(
+            className: _e(
               tn.arrowButton,
               tn.arrowButton__left,
               "left" === m && tn.arrowButton__visible,
@@ -3073,7 +3073,7 @@ var Bi = Te(
             ...A,
             onClick: P,
             onMouseEnter: T,
-            className: me(
+            className: _e(
               tn.arrowButton,
               tn.arrowButton__right,
               "right" === m && tn.arrowButton__visible,
@@ -3119,30 +3119,30 @@ var Bi = Te(
   },
   cn = new Set([Rt.COMPLETED, Rt.PAUSED, Rt.AVAILABLE]),
   _n = Te(function ({ currentAnimationState: e, className: s }) {
-    const a = oe.resolve("strings"),
-      t = oe.resolve("images"),
+    const a = re.resolve("strings"),
+      t = re.resolve("images"),
       { model: n } = Os(),
       {
         currentOperationName: r,
         nextOperationName: o,
         requiredVehicleLevel: l,
-        status: d,
+        status: c,
         operationIdToPerform: _,
       } = n.status.get(),
       m = n.computes.operationStateToPerform(_),
-      u = ln[d],
-      p = d === Rt.COMPLETED ? "secondary" : "primary",
+      u = ln[c],
+      p = c === Rt.COMPLETED ? "secondary" : "primary",
       { statusStyle: g } = As(),
-      [h, b] = le(() => ({
+      [h, b] = oe(() => ({
         from: { transform: "translate(10%, -220%) rotate(30deg)" },
         to: { transform: "translate(-60%, 30%) rotate(30deg)" },
         loop: !0,
-        delay: d === Rt.NEXT_OPERATION_AVAILABLE ? 15e3 : 3e3,
+        delay: c === Rt.NEXT_OPERATION_AVAILABLE ? 15e3 : 3e3,
         config: { duration: 1e3, easing: G.easeOutCirc },
       }));
     return (0, Cs.jsxs)(Y.div, {
       style: g,
-      className: me(dn.base, on.has(d) && dn.base__hasGradient, s),
+      className: _e(dn.base, on.has(c) && dn.base__hasGradient, s),
       children: [
         u &&
           (0, Cs.jsx)("div", {
@@ -3152,11 +3152,11 @@ var Bi = Te(
             },
           }),
         (0, Cs.jsx)(i, {
-          path: `personal_missions_30.main.operation.status.${d}`,
+          path: `personal_missions_30.main.operation.status.${c}`,
           params: (() => {
-            switch (d) {
+            switch (c) {
               case Rt.REQUIRES_VEHICLE:
-                return { requiredVehicleLevel: c(l) };
+                return { requiredVehicleLevel: d(l) };
               case Rt.PAUSED:
               case Rt.COMPLETED:
               case Rt.AVAILABLE:
@@ -3168,24 +3168,24 @@ var Bi = Te(
             }
           })(),
         }),
-        rn.has(d) &&
+        rn.has(c) &&
           m !== Ve.LOCKED &&
           (0, Cs.jsxs)("div", {
             className: dn.button,
             children: [
-              (0, Cs.jsx)(I, {
+              (0, Cs.jsx)(N, {
                 onClick: function () {
                   e === cs &&
-                    (cn.has(d)
+                    (cn.has(c)
                       ? _s.send({ type: "UPDATE_STATUS" })
                       : _s.send({ type: "SWITCH_OPERATION", operationId: _ }));
                 },
                 theme: p,
                 size: "small",
-                classNames: { content: me(dn.buttonContent, dn[`buttonContent__${p}`]) },
-                children: a.readOrEmpty(`personal_missions_30.main.operation.button.${d}`),
+                classNames: { content: _e(dn.buttonContent, dn[`buttonContent__${p}`]) },
+                children: a.readOrEmpty(`personal_missions_30.main.operation.button.${c}`),
               }),
-              (d === Rt.AVAILABLE || d === Rt.NEXT_OPERATION_AVAILABLE) &&
+              (c === Rt.AVAILABLE || c === Rt.NEXT_OPERATION_AVAILABLE) &&
                 (0, Cs.jsx)(Y.div, { style: h, className: dn.glareAttention }),
             ],
           }),
@@ -3213,11 +3213,11 @@ var Bi = Te(
     [Ve.LOCKED]: "lock_closed",
   };
 function pn({ state: e, selected: s, className: a }) {
-  const t = oe.resolve("strings");
+  const t = re.resolve("strings");
   return (0, Cs.jsxs)("div", {
-    className: me(mn.base, mn[`base__${e}`], s ? mn.base__selected : mn.base__textHidden, a),
+    className: _e(mn.base, mn[`base__${e}`], s ? mn.base__selected : mn.base__textHidden, a),
     children: [
-      (0, Cs.jsx)(T, { path: `personal_missions_30.main.menu.icons.${un[e]}`, className: mn.icon }),
+      (0, Cs.jsx)(p, { path: `personal_missions_30.main.menu.icons.${un[e]}`, className: mn.icon }),
       e !== Ve.LOCKED &&
         (0, Cs.jsx)("div", {
           className: mn.text,
@@ -3231,14 +3231,14 @@ var gn = "VehicleName_c038d9d8",
   bn = "VehicleName_playVideoButton_10de3bdb",
   fn = Te(function ({ operationName: e }) {
     const { controls: s } = Os(),
-      a = oe.resolve("strings"),
-      t = oe.resolve("sounds"),
-      i = _e(
+      a = re.resolve("strings"),
+      t = re.resolve("sounds"),
+      i = ce(
         ke.CUSTOM_SIMPLE,
         (0, ze.useMemo)(
           () => ({
             body: a.readOrEmpty("personal_missions_30.main.menuItem.tooltip.videoIntro"),
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -3249,7 +3249,7 @@ var gn = "VehicleName_c038d9d8",
       className: gn,
       children: [
         (0, Cs.jsx)("div", { className: hn, children: e }),
-        (0, Cs.jsx)(T, {
+        (0, Cs.jsx)(p, {
           className: bn,
           path: "personal_missions_30.main.menu.icons.solid.video",
           width: 32,
@@ -3277,25 +3277,25 @@ var gn = "VehicleName_c038d9d8",
     state: "MenuItem_state_b65b146b",
   };
 function Nn({ state: e, operationId: s, operationIcon: a, operationName: t, selected: i }) {
-  const n = oe.resolve("strings"),
-    r = oe.resolve("sounds"),
-    o = fe(
+  const n = re.resolve("strings"),
+    r = re.resolve("sounds"),
+    o = be(
       "operation",
       (0, ze.useMemo)(() => [s], [s]),
     ),
-    l = _e(
+    l = ce(
       ke.CUSTOM_SIMPLE,
       (0, ze.useMemo)(
         () => ({
           body: n.readOrEmpty("personal_missions_30.campaignSelector.operation.tooltip.locked"),
-          resId: oe
+          resId: re
             .resolve("views")
             .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
         }),
         [n],
       ),
     ),
-    d = ye(e, {
+    d = Ee(e, {
       initial: { opacity: 1 },
       from: { opacity: 0 },
       enter: {
@@ -3309,12 +3309,12 @@ function Nn({ state: e, operationId: s, operationIcon: a, operationName: t, sele
       exitBeforeEnter: !0,
     });
   return (0, Cs.jsx)("div", {
-    className: me(vn.base, vn[`base__${e}`], i && vn.base__selected),
+    className: _e(vn.base, vn[`base__${e}`], i && vn.base__selected),
     children: (0, Cs.jsxs)("div", {
       className: vn.wrapper,
       ...(e === Ve.LOCKED ? l : o),
       children: [
-        (0, Cs.jsx)(T, {
+        (0, Cs.jsx)(p, {
           path: `personal_missions_30.operation_vehicle.c_150x100.${a}`,
           className: vn.vehicleImage,
           onMouseEnter: function () {
@@ -3362,7 +3362,7 @@ var In = "Menu_f1a51291",
       { menuStyle: o } = As();
     return (0, Cs.jsxs)(Y.div, {
       style: o,
-      className: me(In, e),
+      className: _e(In, e),
       children: [
         (0, Cs.jsx)("div", {
           className: xn,
@@ -3382,7 +3382,7 @@ var In = "Menu_f1a51291",
                     children: (0, Cs.jsx)(Nn, { ...e, selected: i === e.operationId }),
                   }),
                   s !== a.length - 1 &&
-                    (0, Cs.jsx)(T, {
+                    (0, Cs.jsx)(p, {
                       path: "personal_missions_30.main.menu.icons.chevron_right",
                       width: 10,
                       height: 26,
@@ -3417,8 +3417,8 @@ var In = "Menu_f1a51291",
   Rn = "NewOperationBanner_title_7b95faf7",
   Vn = "NewOperationBanner_maskedArea_ca087475",
   kn = "NewOperationBanner_glareHover_bbd5ed5e",
-  Bn = oe.resolve("sounds"),
-  Hn = oe.resolve("strings"),
+  Bn = re.resolve("sounds"),
+  Hn = re.resolve("strings"),
   $n = [
     { opacity: 0.4, config: { duration: 1300, easing: Q.easeInCubic } },
     { opacity: 1, config: { duration: 1300, easing: Q.easeOutCubic } },
@@ -3428,7 +3428,7 @@ var In = "Menu_f1a51291",
       { bannerState: a, firstTimeEntrance: t, operationId: i } = s.banner.get(),
       n = (0, ze.useRef)(0),
       { bannerStyle: r, introAnimationDone: o } = As(),
-      [l, d] = le(() => ({ from: { opacity: 0 } }));
+      [l, d] = oe(() => ({ from: { opacity: 0 } }));
     (0, ze.useEffect)(() => {
       o &&
         d.start({
@@ -3451,13 +3451,13 @@ var In = "Menu_f1a51291",
           },
         });
     }, [d, o]);
-    const c = fe(
+    const c = be(
       "operation",
       (0, ze.useMemo)(() => [i], [i]),
     );
     return (0, Cs.jsxs)(Y.div, {
       style: r,
-      className: me(wn, e),
+      className: _e(wn, e),
       children: [
         t &&
           (0, Cs.jsxs)(Cs.Fragment, {
@@ -3485,20 +3485,20 @@ var In = "Menu_f1a51291",
             t &&
               (0, Cs.jsx)(Y.div, {
                 style: l,
-                children: (0, Cs.jsx)(T, {
+                children: (0, Cs.jsx)(p, {
                   path: "personal_missions_30.main.new_operation_banner.attention_border",
                   width: "140rem",
                   height: "240rem",
                   className: Dn,
                 }),
               }),
-            (0, Cs.jsx)(T, {
+            (0, Cs.jsx)(p, {
               path: "personal_missions_30.main.new_operation_banner.border",
               width: "100%",
               height: "100%",
               className: Pn,
             }),
-            (0, Cs.jsx)(T, {
+            (0, Cs.jsx)(p, {
               path: "personal_missions_30.main.new_operation_banner.background",
               width: "100%",
               height: "100%",
@@ -3506,13 +3506,13 @@ var In = "Menu_f1a51291",
             }),
             (0, Cs.jsx)("div", { className: Vn, children: (0, Cs.jsx)("div", { className: kn }) }),
             a !== Cn.DEFAULT &&
-              (0, Cs.jsx)(T, {
+              (0, Cs.jsx)(p, {
                 path: `personal_missions_30.main.new_operation_banner.badge_${a}`,
                 width: "82rem",
                 height: "60rem",
                 className: Mn,
               }),
-            (0, Cs.jsx)(T, {
+            (0, Cs.jsx)(p, {
               path: "personal_missions_30.main.new_operation_banner.vehicle",
               width: "130rem",
               height: "180rem",
@@ -3532,7 +3532,7 @@ var In = "Menu_f1a51291",
   Gn = "Completed_glow_a9f265a3",
   Kn = "Completed_rays_8566affd",
   Xn = Te(function ({ className: e }) {
-    const s = oe.resolve("strings"),
+    const s = re.resolve("strings"),
       { model: a } = Os(),
       {
         currentOperationName: t,
@@ -3544,14 +3544,14 @@ var In = "Menu_f1a51291",
       c = a.campaignName.get(),
       { breakpoint: _ } = W(),
       m = He(_.weight, o.large) ? w.small : w.medium,
-      { completedStateStyle: u, animationInProgress: p } = As();
+      { completedStateStyle: u, animationInProgress: g } = As();
     return (0, Cs.jsxs)(Y.div, {
       style: u,
-      className: me(Fn, e),
+      className: _e(Fn, e),
       children: [
         (0, Cs.jsx)("div", { className: Gn }),
         (0, Cs.jsx)("div", { className: Kn }),
-        (0, Cs.jsx)(T, {
+        (0, Cs.jsx)(p, {
           className: Wn,
           path: "personal_missions_30.campaign_selector.done_160",
           width: "160rem",
@@ -3579,12 +3579,12 @@ var In = "Menu_f1a51291",
         }),
         l !== Rt.CAMPAIGN_FINISHED &&
           d !== Ve.LOCKED &&
-          (0, Cs.jsx)(I, {
+          (0, Cs.jsx)(N, {
             className: Yn,
             theme: "primary",
             size: m,
             onClick: function () {
-              p ||
+              g ||
                 _s.send({ type: "SWITCH_OPERATION", operationId: r, operationType: "additional" });
             },
             children: s.readOrEmpty("personal_missions_30.main.complete.button"),
@@ -3596,11 +3596,11 @@ var In = "Menu_f1a51291",
   Jn = "Completed_image_3b32a21f",
   er = "Completed_text_3d00c33a";
 function sr({ missionCategory: e }) {
-  const s = oe.resolve("strings");
+  const s = re.resolve("strings");
   return (0, Cs.jsxs)("div", {
     className: Zn,
     children: [
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         className: Jn,
         path: "personal_missions_30.common.card.done_small",
         width: "80rem",
@@ -3614,7 +3614,7 @@ function sr({ missionCategory: e }) {
         .split("\n")
         .map((s) =>
           (0, Cs.jsx)(
-            M,
+            T,
             {
               className: er,
               text: s,
@@ -3635,11 +3635,11 @@ var tr = "Title_1676083a",
   ir = "Title_text_3a1c405f",
   nr = "Title_image_899d070e";
 function rr({ missionCategory: e }) {
-  const s = oe.resolve("strings");
+  const s = re.resolve("strings");
   return (0, Cs.jsxs)("div", {
     className: tr,
     children: [
-      (0, Cs.jsx)(T, {
+      (0, Cs.jsx)(p, {
         path: `personal_missions_30.category.c_32x32.${e}`,
         width: "32rem",
         height: "32rem",
@@ -3666,10 +3666,10 @@ var or = {
 };
 function lr({ missionCategory: e, className: s }) {
   return (0, Cs.jsxs)("div", {
-    className: me(or.base, or[`base__${e}`], s),
+    className: _e(or.base, or[`base__${e}`], s),
     children: [
       (0, Cs.jsx)("div", { className: or.line }),
-      (0, Cs.jsx)(T, { path: `personal_missions_30.common.card.${e}_types`, className: or.image }),
+      (0, Cs.jsx)(p, { path: `personal_missions_30.common.card.${e}_types`, className: or.image }),
       (0, Cs.jsx)("div", { className: or.line }),
     ],
   });
@@ -3687,8 +3687,8 @@ var dr = "DefaultCard_2c35f6e",
   vr = "DefaultCard_rewards_14dfa3b1",
   Nr = ["currentMissionNumber", "currentProgressValue", "missionStatus"],
   Ir = Te(function ({ index: e, mission: s }) {
-    const a = oe.resolve("views"),
-      t = oe.resolve("sounds"),
+    const a = re.resolve("views"),
+      t = re.resolve("sounds"),
       { controls: i } = Os(),
       n = Re(_s, (e) => e.value),
       [r, o] = (0, ze.useState)(s),
@@ -3698,7 +3698,7 @@ var dr = "DefaultCard_2c35f6e",
         ),
         args: { category: r.missionCategory },
       }),
-      [d, c] = le(() => ({ from: { opacity: 0, transform: "translateY(20rem)" } })),
+      [d, c] = oe(() => ({ from: { opacity: 0, transform: "translateY(20rem)" } })),
       _ = (0, ze.useMemo)(
         () => Nr.some((e) => r[e] !== s[e]),
         [
@@ -3711,7 +3711,7 @@ var dr = "DefaultCard_2c35f6e",
         ],
       );
     return (
-      ce(() => {
+      de(() => {
         n === cs &&
           c.start({
             opacity: 1,
@@ -3783,7 +3783,7 @@ var dr = "DefaultCard_2c35f6e",
             currentMissionNumber: r.currentMissionNumber,
             maxMissions: r.maxMissions,
           }),
-          (0, Cs.jsx)(J, {
+          (0, Cs.jsx)(H, {
             className: cr,
             classNames: { wrapper: _r },
             multiple: !0,
@@ -3857,19 +3857,19 @@ var dr = "DefaultCard_2c35f6e",
     progressHidden: n,
     className: r,
   }) {
-    const o = oe.resolve("strings"),
+    const o = re.resolve("strings"),
       { model: l, controls: d } = Os(),
       { status: c } = l.status.get(),
       _ = t === Ve.ACTIVE && c !== Rt.PAUSED && !n,
       m = _ && e === s,
-      [u, p] = (0, ze.useState)({ currentPoints: e, maxPoints: s, completed: m, progressShown: _ }),
-      { animationInProgress: g } = As(),
-      h = Re(_s, (e) => e.value),
-      b = _e(
+      [u, g] = (0, ze.useState)({ currentPoints: e, maxPoints: s, completed: m, progressShown: _ }),
+      { animationInProgress: h } = As(),
+      b = Re(_s, (e) => e.value),
+      f = ce(
         ke.PM3_POINTS,
         (0, ze.useMemo)(
           () => ({
-            resId: oe
+            resId: re
               .resolve("views")
               .read((e) => e.mono.personal_missions_30.tooltips.param_tooltip("resId")),
           }),
@@ -3878,22 +3878,22 @@ var dr = "DefaultCard_2c35f6e",
       );
     return (
       (0, ze.useEffect)(() => {
-        (h !== ds && h !== Ke) ||
-          p({ currentPoints: e, maxPoints: s, completed: m, progressShown: _ });
-      }, [h, m, e, s, _]),
+        (b !== ds && b !== Ke) ||
+          g({ currentPoints: e, maxPoints: s, completed: m, progressShown: _ });
+      }, [b, m, e, s, _]),
       (0, ze.useEffect)(() => {
         (u.currentPoints === e && u.progressShown === _) ||
-          h !== cs ||
+          b !== cs ||
           !_ ||
           _s.send({ type: "HIDE_ADDITIONAL_MISSIONS" });
-      }, [h, e, _, u.currentPoints, u.progressShown]),
-      (0, Cs.jsx)(J, {
-        className: me(xr.base, u.completed && xr.base__completed, xr[`base__${a}`]),
+      }, [b, e, _, u.currentPoints, u.progressShown]),
+      (0, Cs.jsx)(H, {
+        className: _e(xr.base, u.completed && xr.base__completed, xr[`base__${a}`]),
         classNames: { wrapper: r },
         onClick: function () {
           d.openAdditionalMission();
         },
-        status: u.completed ? ee.done : void 0,
+        status: u.completed ? J.done : void 0,
         children: (0, Cs.jsxs)("div", {
           className: xr.wrapper,
           children: [
@@ -3907,9 +3907,9 @@ var dr = "DefaultCard_2c35f6e",
               children: [
                 (0, Cs.jsxs)("div", {
                   className: xr.status,
-                  ...b,
+                  ...f,
                   children: [
-                    (0, Cs.jsx)(T, {
+                    (0, Cs.jsx)(p, {
                       path: `personal_missions_30.main.additional_card.${a}`,
                       className: xr.image,
                     }),
@@ -3950,7 +3950,7 @@ var dr = "DefaultCard_2c35f6e",
     if (!t) return null;
     const i = t.additionalMissions.some((e) => e.isProgressHidden);
     return (0, Cs.jsxs)("div", {
-      className: me(yr, e),
+      className: _e(yr, e),
       children: [
         t.missions.map((e, s) => (0, Cs.jsx)(Ir, { mission: e, index: s }, s)),
         t.operationState !== Ve.COMPLETED &&
@@ -4027,7 +4027,7 @@ var dr = "DefaultCard_2c35f6e",
       t = e.currentState.get(),
       { progressionStyle: i, animationInProgress: n } = As(),
       r = t === vs || n;
-    ge(h.ESCAPE, function () {
+    pe(g.ESCAPE, function () {
       if (n) return;
       s.goBack();
     });
@@ -4061,10 +4061,10 @@ var dr = "DefaultCard_2c35f6e",
         L(!0);
       }),
       (0, Cs.jsxs)("div", {
-        className: me(Dr.base, Dr[`base__${t}`], Dr[`base__${a?.operationState}`]),
+        className: _e(Dr.base, Dr[`base__${t}`], Dr[`base__${a?.operationState}`]),
         "data-name": "Dashboard",
         children: [
-          (0, Cs.jsx)(pe, {
+          (0, Cs.jsx)(ue, {
             className: Dr.sceneWrapper,
             moveSpace: l,
             onMouseOver3dScene: o,
@@ -4075,7 +4075,7 @@ var dr = "DefaultCard_2c35f6e",
           (0, Cs.jsx)("div", { className: Dr.progressionShadow }),
           (0, Cs.jsx)("div", { className: Dr.missionsShadow }),
           (0, Cs.jsxs)("div", {
-            className: me(Dr.wrapper, n && Dr.wrapper__disabled),
+            className: _e(Dr.wrapper, n && Dr.wrapper__disabled),
             "data-test-id": `isDisabled-${String(n)}`,
             children: [
               (() => {
@@ -4093,7 +4093,7 @@ var dr = "DefaultCard_2c35f6e",
               (0, Cs.jsx)(Y.div, {
                 style: i,
                 className: Dr.progress,
-                children: (0, Cs.jsx)(te, { settings: xs, children: (0, Cs.jsx)(nn, {}) }),
+                children: (0, Cs.jsx)(I, { settings: xs, children: (0, Cs.jsx)(nn, {}) }),
               }),
             ],
           }),
@@ -4101,10 +4101,10 @@ var dr = "DefaultCard_2c35f6e",
       })
     );
   });
-he(
+ge(
   (0, Cs.jsx)(Ss, {
     children: (0, Cs.jsx)(js, {
-      children: (0, Cs.jsx)(N, { soundsOverrides: Is, children: (0, Cs.jsx)(Lr, {}) }),
+      children: (0, Cs.jsx)(v, { soundsOverrides: Is, children: (0, Cs.jsx)(Lr, {}) }),
     }),
   }),
   { fullScreen: !0 },

@@ -1,63 +1,63 @@
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  $t as t,
-  Ar as a,
-  Br as s,
-  C as r,
-  Cn as n,
-  Cr as o,
-  Dn as c,
-  Er as d,
-  Gt as l,
-  Hn as i,
-  In as _,
-  Jt as b,
-  K as u,
-  Kt as m,
-  Lr as p,
-  Or as f,
-  Pr as g,
-  Qn as C,
-  Qr as w,
-  Rn as h,
-  Sr as v,
-  Tn as y,
-  Wt as x,
-  Xn as k,
-  Y as j,
-  Yn as N,
-  Yt as I,
-  Zt as T,
-  _n as B,
-  ci as S,
-  cr as E,
-  ct as O,
-  dr as G,
-  dt as A,
-  en as $,
-  fn as W,
-  ft as z,
-  gn as M,
-  gr as L,
-  pi as D,
-  pn as U,
-  sr as P,
-  st as q,
-  ti as F,
-  tn as H,
-  ui as Y,
-  ut as K,
-  vt as Q,
-  w as J,
+  C as t,
+  Cn as a,
+  Dr as s,
+  En as r,
+  Et as n,
+  Fn as o,
+  Ir as c,
+  Jn as d,
+  Jt as l,
+  K as i,
+  Ln as _,
+  Nr as b,
+  Sr as u,
+  Tn as m,
+  Tr as p,
+  Tt as f,
+  Vn as g,
+  Y as C,
+  Yn as w,
+  Yt as h,
+  Zn as v,
+  Zr as x,
+  Zt as y,
+  _n as k,
+  ct as j,
+  dt as N,
+  ei as I,
+  en as T,
+  fi as B,
+  fn as S,
+  ft as E,
+  gn as O,
+  hr as G,
+  kr as A,
+  li as $,
+  or as z,
+  pn as W,
+  qt as M,
+  si as L,
+  sr as D,
+  st as U,
+  tn as q,
+  ur as P,
+  ut as F,
+  vt as Y,
+  w as Z,
+  wt as H,
+  xr as J,
+  zr as K,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
-import { h as X } from "../chunks/vendor.js";
-import { n as Z, t as V } from "../chunks/filename.js";
-var ee = e(Y()),
+import { h as V } from "../chunks/vendor.js";
+import { n as Q, t as X } from "../chunks/filename.js";
+var ee = e($()),
   te = "state_limited",
   ae = "state_received",
-  se = D.resolve("strings"),
-  re = D.resolve("images");
+  se = B.resolve("strings"),
+  re = B.resolve("images");
 function ne(e) {
   const t = e.match(/(?:_(?:t|tier))?(\d+)\b/);
   if (t && void 0 !== t[1]) return t && t[1] ? parseInt(t[1], 10) : null;
@@ -86,7 +86,7 @@ function ce(e) {
 function de(e, t) {
   return t && "none" !== t ? t : e;
 }
-var le = (e, t = j.Small, a) => {
+var le = (e, t = C.Small, a) => {
     if ("modernized_device" === a) {
       const a = ne(e);
       if (a) return re.readOrEmpty(`quests.bonuses.${t}.modernized_devices_t${a}_gift`, "silent");
@@ -107,7 +107,7 @@ var le = (e, t = j.Small, a) => {
       s = se.readOrEmpty(`artefacts.${e}.name`, "silent");
     return (
       a ||
-      (s && "string" == typeof s ? F(s) : (console.error("title for reward is not provided"), null))
+      (s && "string" == typeof s ? I(s) : (console.error("title for reward is not provided"), null))
     );
   };
 function be(e, t) {
@@ -126,33 +126,33 @@ var ue = (e, t = "s180x135", a = "R.images.gui.maps.icons.selectableReward.rewar
 var me = (function (e) {
     return ((e.None = "none"), (e.Accepting = "accepting"), e);
   })({}),
-  [pe, fe] = B()(
+  [pe, fe] = k()(
     ({ observableModel: e }) => {
       const t = {
           root: e.object(),
           tabs: e.array("tabs"),
           rewards: e.array("rewards"),
-          animationState: L.box("none"),
+          animationState: G.box("none"),
         },
-        r = M(
+        a = O(
           (e) => {
-            const a = g(t.tabs.get(), e);
+            const a = b(t.tabs.get(), e);
             return { ...a, optDeviceType: ce(a.type) };
           },
-          { equals: s },
+          { equals: K },
         ),
-        n = M(
+        s = O(
           (e) => {
-            const a = g(t.rewards.get(), e);
+            const a = b(t.rewards.get(), e);
             return { ...a, optDeviceType: ce(a.type) };
           },
-          { equals: s },
+          { equals: K },
         ),
-        o = M(() => a(t.tabs.get(), (e, t) => e + t.limit, 0));
-      return { ...t, computes: { tabByIndex: r, rewardByIndex: n, rewardsToClaimTotal: o } };
+        r = O(() => A(t.tabs.get(), (e, t) => e + t.limit, 0));
+      return { ...t, computes: { tabByIndex: a, rewardByIndex: s, rewardsToClaimTotal: r } };
     },
     ({ externalModel: e, model: t }) => {
-      const a = G((e) => t.animationState.set(e));
+      const a = P((e) => t.animationState.set(e));
       return {
         close: e.createCallbackNoArgs("onCloseClick"),
         submit: e.createCallbackNoArgs("onOkClick"),
@@ -181,53 +181,53 @@ var me = (function (e) {
     fadeOut: "Category_fadeOut_b894c2f0",
     fadeIn: "Category_fadeIn_b894c2f0",
   },
-  Ce = k(),
-  we = D.resolve("strings"),
-  he = D.resolve("views").read((e) =>
+  Ce = w(),
+  we = B.resolve("strings"),
+  he = B.resolve("views").read((e) =>
     e.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
   ),
-  ve = X(({ index: e, className: t, classNames: a }) => {
+  ve = V(({ index: e, className: t, classNames: a }) => {
     const {
         breakpoint: { weight: s },
-      } = N(),
+      } = d(),
       { model: r, controls: n } = fe(),
       o = r.animationState.get(),
-      { optDeviceType: c, count: d, limit: l, type: i } = r.computes.tabByIndex(e),
-      _ = d === l,
-      m = r.root.get().selectedTab === i,
-      p = we.readOrEmpty(`selectable_reward.tabs.items.${c}`, "silent"),
-      f = s >= C.medium.weight ? j.Big : j.Small,
-      g = y((0, ee.useMemo)(() => ({ contentId: he, args: { type: i } }), [i]));
+      { optDeviceType: c, count: l, limit: _, type: b } = r.computes.tabByIndex(e),
+      u = l === _,
+      p = r.root.get().selectedTab === b,
+      f = we.readOrEmpty(`selectable_reward.tabs.items.${c}`, "silent"),
+      g = s >= v.medium.weight ? C.Big : C.Small,
+      w = m((0, ee.useMemo)(() => ({ contentId: he, args: { type: b } }), [b]));
     return (0, Ce.jsxs)("div", {
-      className: S(ge.base, _ && ge.base__completed, !m && d && ge[`base__${o}`], t),
+      className: L(ge.base, u && ge.base__completed, !p && l && ge[`base__${o}`], t),
       onClick: () => {
-        (w.sound("bp_click"), n.openTab(i));
+        (x.sound("bp_click"), n.openTab(b));
       },
-      onMouseEnter: () => w.sound("bp_highlight"),
+      onMouseEnter: () => x.sound("bp_highlight"),
       children: [
         (0, Ce.jsxs)("div", {
-          ...g,
+          ...w,
           className: ge.imageContainer,
           children: [
             (0, Ce.jsx)("div", {
               className: ge.image,
-              style: { backgroundImage: `url(${le(i, f, c)})` },
+              style: { backgroundImage: `url(${le(b, g, c)})` },
             }),
             (0, Ce.jsx)("div", { className: ge.check }),
           ],
         }),
         (0, Ce.jsx)("div", {
           className: ge.counter,
-          children: u(we.readOrEmpty("selectable_reward.tabs.counter"), { count: d, limit: l }),
+          children: i(we.readOrEmpty("selectable_reward.tabs.counter"), { count: l, limit: _ }),
         }),
         (0, Ce.jsx)("div", {
-          className: S(ge.title, a?.title),
-          children: (0, Ce.jsx)(b, { text: ie(i, c), params: { equipmentType: p } }),
+          className: L(ge.title, a?.title),
+          children: (0, Ce.jsx)(T, { text: ie(b, c), params: { equipmentType: f } }),
         }),
       ],
     });
   });
-var ye = {
+var xe = {
     base: "SelectButton_696eeaa5",
     base__plus: "SelectButton_base__plus_caa30688",
     base__disabled: "SelectButton_base__disabled_953b567",
@@ -241,12 +241,12 @@ var ye = {
     fadeOut: "SelectButton_fadeOut_41cc3cb2",
     fadeIn: "SelectButton_fadeIn_41cc3cb2",
   },
-  xe = (function (e) {
+  ye = (function (e) {
     return ((e.Plus = "plus"), (e.Minus = "minus"), e);
   })({}),
   ke = ({ type: e = "plus", isEnabled: t = !0, onClick: a }) =>
     (0, Ce.jsx)("div", {
-      className: S(ye.base, ye[`base__${e}`], !t && ye.base__disabled),
+      className: L(xe.base, xe[`base__${e}`], !t && xe.base__disabled),
       onClick: (e) => {
         (e.stopPropagation(), t && a(e));
       },
@@ -279,56 +279,56 @@ var ye = {
     fadeOut: "Reward_fadeOut_21f091ec",
     fadeIn: "Reward_fadeIn_21f091ec",
   },
-  Ne = D.resolve("strings"),
-  Ie = D.resolve("views").read((e) =>
+  Ne = B.resolve("strings"),
+  Ie = B.resolve("views").read((e) =>
     e.common.tooltip_window.backport_tooltip_content.BackportTooltipContent("resId"),
   ),
-  Re = X(({ index: e, className: t }) => {
-    const { model: a, controls: s } = fe(),
-      r = a.animationState.get(),
+  Re = V(({ index: e, className: t }) => {
+    const { model: s, controls: r } = fe(),
+      n = s.animationState.get(),
       {
         type: o,
         count: c,
         state: d,
         storageCount: l,
-        packSize: i,
-        optDeviceType: _,
-      } = a.computes.rewardByIndex(e),
-      { addReward: b, reduceReward: m } = s,
-      p = "state_normal" === d,
-      f = d === te,
-      g = d === ae,
-      C = c > 0 && !g,
-      h = C || p,
-      v = r === me.Accepting && C,
-      x = n(
+        packSize: _,
+        optDeviceType: b,
+      } = s.computes.rewardByIndex(e),
+      { addReward: u, reduceReward: p } = r,
+      f = "state_normal" === d,
+      g = d === te,
+      C = d === ae,
+      w = c > 0 && !C,
+      h = w || f,
+      v = n === me.Accepting && w,
+      y = a(
         (0, ee.useMemo)(
           () =>
-            f && 0 === c
+            g && 0 === c
               ? {
                   header: Ne.readOrEmpty("selectable_reward.reward.tooltip.state_limited.header"),
                   body: Ne.readOrEmpty("selectable_reward.reward.tooltip.state_limited.body"),
                 }
               : { isEnabled: !1 },
-          [f, c],
+          [g, c],
         ),
       ),
-      k = y((0, ee.useMemo)(() => ({ contentId: Ie, args: { type: o } }), [o]));
+      k = m((0, ee.useMemo)(() => ({ contentId: Ie, args: { type: o } }), [o]));
     return (0, Ce.jsxs)("div", {
-      className: S(
+      className: L(
         je.base,
         t,
-        C && je.base__selected,
+        w && je.base__selected,
         v && je.base__accepting,
         je[`base__${((j = d), j.replace(/_\w/g, (e) => e[1]?.toUpperCase() ?? e))}`],
       ),
       onClick: () => {
-        p ? (w.sound("bp_click"), b(o)) : (f || g) && w.sound("bp_click_limit");
+        f ? (x.sound("bp_click"), u(o)) : (g || C) && x.sound("bp_click_limit");
       },
-      onMouseEnter: () => w.sound("bp_highlight"),
+      onMouseEnter: () => x.sound("bp_highlight"),
       children: [
         (0, Ce.jsxs)("div", {
-          className: S(je.storage, l <= 0 && je.storage__hidden),
+          className: L(je.storage, l <= 0 && je.storage__hidden),
           children: [(0, Ce.jsx)("div", { className: je.storageIcon }), l],
         }),
         (0, Ce.jsxs)("div", {
@@ -339,16 +339,16 @@ var ye = {
               className: je.image,
               style: { backgroundImage: `url(${ue(o)})` },
             }),
-            _ !== oe.None &&
+            b !== oe.None &&
               (0, Ce.jsx)("div", {
                 className: je.optDeviceType,
-                style: { backgroundImage: `url(${be(o, _)})` },
+                style: { backgroundImage: `url(${be(o, b)})` },
               }),
-            i > 1 &&
+            _ > 1 &&
               (0, Ce.jsx)("div", {
                 className: je.packSize,
-                children: u(Ne.readOrEmpty("selectable_reward.reward.packSizeCount"), {
-                  packSize: i,
+                children: i(Ne.readOrEmpty("selectable_reward.reward.packSizeCount"), {
+                  packSize: _,
                 }),
               }),
           ],
@@ -363,26 +363,26 @@ var ye = {
                   className: je.select,
                   children: [
                     (0, Ce.jsx)(ke, {
-                      type: xe.Minus,
-                      isEnabled: C,
+                      type: ye.Minus,
+                      isEnabled: w,
                       onClick: () => {
-                        (w.sound("bp_click_minus"), m(o));
+                        (x.sound("bp_click_minus"), p(o));
                       },
                     }),
                     (0, Ce.jsx)(ke, {
-                      type: xe.Plus,
-                      isEnabled: p,
+                      type: ye.Plus,
+                      isEnabled: f,
                       onClick: () => {
-                        p && (w.sound("bp_click_plus"), b(o));
+                        f && (x.sound("bp_click_plus"), u(o));
                       },
                     }),
                   ],
                 }),
               ],
             })
-          : (f || g) &&
+          : (g || C) &&
             (0, Ce.jsx)("div", {
-              ...(f ? x : {}),
+              ...(g ? y : {}),
               className: je.state,
               children: (0, Ce.jsx)("div", {
                 className: je.stateText,
@@ -419,46 +419,46 @@ var ye = {
     fadeOut: "ContentGrid_fadeOut_e365c19f",
     fadeIn: "ContentGrid_fadeIn_e365c19f",
   },
-  Be = X(({ className: e, onScrollableChange: t }) => {
-    const { model: a } = fe(),
-      { selectedTab: s } = a.root.get(),
-      n = a.rewards.get(),
-      o = a.tabs.get(),
-      c = v(o, (e) => e.type === s),
-      d = c.count >= c.limit,
-      { api: l } = z(),
-      [i, _] = Q(l),
-      [b, u] = (0, ee.useState)(!1),
-      m = (0, ee.useRef)(t);
+  Be = V(({ className: e, onScrollableChange: a }) => {
+    const { model: r } = fe(),
+      { selectedTab: n } = r.root.get(),
+      o = r.rewards.get(),
+      c = r.tabs.get(),
+      d = J(c, (e) => e.type === n),
+      l = d.count >= d.limit,
+      { api: i } = E(),
+      [_, b] = Y(i),
+      [u, m] = (0, ee.useState)(!1),
+      p = (0, ee.useRef)(a);
     return (
-      (m.current = t),
+      (p.current = a),
       (0, ee.useEffect)(() => {
         const e = () => {
-          const [, e] = l.getBounds(),
+          const [, e] = i.getBounds(),
             t = e > 0;
-          u((e) => (e !== t ? t : e));
+          m((e) => (e !== t ? t : e));
         };
-        return (l.recalculateContent(), e(), l.events.on("recalculateContent", e));
-      }, [n.length, l, s]),
+        return (i.recalculateContent(), e(), i.events.on("recalculateContent", e));
+      }, [o.length, i, n]),
       (0, ee.useEffect)(() => {
-        m.current?.(b);
-      }, [b]),
+        p.current?.(u);
+      }, [u]),
       (0, Ce.jsxs)("div", {
-        className: S(Te.base, e),
+        className: L(Te.base, e),
         children: [
           (0, Ce.jsx)("div", {
-            className: S(Te.mask, Te[`mask__${K(i, _)}`]),
-            children: (0, Ce.jsx)(O, {
+            className: L(Te.mask, Te[`mask__${F(_, b)}`]),
+            children: (0, Ce.jsx)(j, {
               classNames: {
-                content: S(Te.scrollAreaContent, !b && Te.scrollAreaContent__centered),
+                content: L(Te.scrollAreaContent, !u && Te.scrollAreaContent__centered),
               },
               children: (0, Ce.jsx)("div", {
                 className: Te.scrollArea,
-                children: (0, Ce.jsx)(r, {
+                children: (0, Ce.jsx)(t, {
                   border: "contour",
                   enabled: !0,
                   className: Te.cardsGrid,
-                  children: f(n, (e, t) => {
+                  children: s(o, (e, t) => {
                     const { count: a, state: s, type: r } = e,
                       { disabled: n, statusType: o } = (function (e, t, a) {
                         const s = e === te,
@@ -468,9 +468,9 @@ var ye = {
                           disabled: n && (s || r || a),
                           statusType: r ? "done" : s && n ? "alert" : void 0,
                         };
-                      })(s, a, d);
+                      })(s, a, l);
                     return (0, Ce.jsx)(
-                      J,
+                      Z,
                       {
                         selected: a > 0,
                         disabled: n,
@@ -479,7 +479,7 @@ var ye = {
                         classNames: {
                           mainContainerContent: Te.cardContent,
                           status: {
-                            wrapper: S(Te.statusWrapper, Te[`statusWrapper__${o}`]),
+                            wrapper: L(Te.statusWrapper, Te[`statusWrapper__${o}`]),
                             icon: Te.icon,
                           },
                         },
@@ -493,41 +493,41 @@ var ye = {
               }),
             }),
           }),
-          (0, Ce.jsx)(A, { classNames: { base: Te.scrollBar } }),
+          (0, Ce.jsx)(N, { classNames: { base: Te.scrollBar } }),
         ],
       })
     );
   }),
   Se = "Footer_775b7239",
   Ee = "Footer_buttons_877c593c",
-  Oe = D.resolve("strings"),
-  Ge = X(({ buttonsSize: e, classNames: a }) => {
-    const { model: s, controls: r } = fe(),
-      { totalRewardCount: o } = s.root.get(),
-      d = o > 0,
+  Oe = B.resolve("strings"),
+  Ge = V(({ buttonsSize: e, classNames: t }) => {
+    const { model: s, controls: o } = fe(),
+      { totalRewardCount: c } = s.root.get(),
+      l = c > 0,
       {
-        breakpoint: { weight: l },
-      } = N(),
-      i = e ?? ((e) => (e > C.small.weight ? t.medium : t.small))(l),
-      _ = c(),
-      b = n(
+        breakpoint: { weight: i },
+      } = d(),
+      _ = e ?? ((e) => (e > v.small.weight ? f.medium : f.small))(i),
+      b = r(),
+      u = a(
         (0, ee.useMemo)(
-          () => ({ disabled: d, body: Oe.readOrEmpty("selectable_reward.tooltips.footer.body") }),
-          [d],
+          () => ({ disabled: l, body: Oe.readOrEmpty("selectable_reward.tooltips.footer.body") }),
+          [l],
         ),
       );
     return (0, Ce.jsx)("div", {
       className: Se,
       children: (0, Ce.jsx)("div", {
-        ...b,
+        ...u,
         className: Ee,
-        children: (0, Ce.jsx)(T, {
-          size: i,
-          theme: $.primary,
-          disabled: !d,
-          className: a?.button,
+        children: (0, Ce.jsx)(H, {
+          size: _,
+          theme: n.primary,
+          disabled: !l,
+          className: t?.button,
           onClick: () => {
-            (r.setAnimationState(me.Accepting), _.run(r.submit, 600));
+            (o.setAnimationState(me.Accepting), b.run(o.submit, 600));
           },
           children: Oe.readOrEmpty("selectable_reward.footer.okBtn.label"),
         }),
@@ -564,72 +564,72 @@ var ye = {
     windowIn: "Content_windowIn_da09528a",
     fadeOut: "Content_fadeOut_da09528a",
   },
-  $e = X(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
-    const r = (0, ee.useRef)(!1),
-      [n, c] = (0, ee.useState)(!1),
-      [i, _] = (0, ee.useState)(null),
-      [b, u] = (0, ee.useState)(!1),
+  $e = V(({ title: e, subTitle: t, classNames: a, buttonsSize: r }) => {
+    const n = (0, ee.useRef)(!1),
+      [o, d] = (0, ee.useState)(!1),
+      [i, b] = (0, ee.useState)(null),
+      [m, f] = (0, ee.useState)(!1),
       { model: g, controls: C } = fe(),
       w = g.tabs.get(),
       { selectedTab: v } = g.root.get(),
-      y = g.animationState.get(),
-      k = o(w, (e) => e.type === v) ?? -1;
+      x = g.animationState.get(),
+      y = u(w, (e) => e.type === v) ?? -1;
     return (
       (0, ee.useEffect)(() => {
-        if (!n)
-          return P(() => {
-            c(!0);
+        if (!o)
+          return z(() => {
+            d(!0);
           }, 300);
-      }, [n]),
+      }, [o]),
       (0, ee.useEffect)(() => {
         const e = (e) => {
-          (e.code !== p.ARROW_LEFT && e.code !== p.ARROW_RIGHT) || (r.current = !1);
+          (e.code !== c.ARROW_LEFT && e.code !== c.ARROW_RIGHT) || (n.current = !1);
         };
         return (window.addEventListener("keyup", e), () => window.removeEventListener("keyup", e));
       }, []),
-      h(p.ARROW_LEFT, () => {
-        if (r.current) return;
-        if (((r.current = !0), k <= 0)) return;
-        const e = d(w, k - 1);
+      _(c.ARROW_LEFT, () => {
+        if (n.current) return;
+        if (((n.current = !0), y <= 0)) return;
+        const e = p(w, y - 1);
         C.openTab(e.type);
       }),
-      h(p.ARROW_RIGHT, () => {
-        if (r.current) return;
-        if (((r.current = !0), k < 0 || k === w.length - 1)) return;
-        const e = d(w, k + 1);
+      _(c.ARROW_RIGHT, () => {
+        if (n.current) return;
+        if (((n.current = !0), y < 0 || y === w.length - 1)) return;
+        const e = p(w, y + 1);
         C.openTab(e.type);
       }),
       (0, Ce.jsxs)("div", {
-        className: S(Ae.base, Ae[`base__${y}`]),
+        className: L(Ae.base, Ae[`base__${x}`]),
         children: [
-          (0, Ce.jsxs)(x, {
+          (0, Ce.jsxs)(M, {
             size: l.large,
-            theme: m.custom,
+            theme: h.custom,
             active: v,
             children: [
               (0, Ce.jsxs)("div", {
-                className: S(Ae.wrapper, n && Ae.wrapper__shown),
+                className: L(Ae.wrapper, o && Ae.wrapper__shown),
                 children: [
                   (0, Ce.jsxs)("div", {
-                    className: S(Ae.heading, a?.heading),
+                    className: L(Ae.heading, a?.heading),
                     children: [
-                      (0, Ce.jsx)("div", { className: S(Ae.title, a?.title), children: e }),
-                      (0, Ce.jsx)("div", { className: S(Ae.subTitle, a?.subTitle), children: t }),
+                      (0, Ce.jsx)("div", { className: L(Ae.title, a?.title), children: e }),
+                      (0, Ce.jsx)("div", { className: L(Ae.subTitle, a?.subTitle), children: t }),
                     ],
                   }),
                   (0, Ce.jsx)("div", {
                     className: Ae.tabs,
-                    children: f(w, (e, t) => {
+                    children: s(w, (e, t) => {
                       const s = v === e.type,
                         r = i === e.type && !s,
                         n = {
                           base: Ae.tabBase,
-                          background: S(
+                          background: L(
                             Ae.tabBackground,
                             s && Ae.tabBackground__active,
                             r && Ae.tabBackground__hover,
                           ),
-                          borderImage: S(
+                          borderImage: L(
                             Ae.tabBorderImage,
                             s && Ae.tabBorderImage__active,
                             r && Ae.tabBorderImage__hover,
@@ -637,12 +637,12 @@ var ye = {
                           content: Ae.tabContent,
                         };
                       return (0, Ce.jsx)(
-                        x.Tab,
+                        M.Tab,
                         {
                           tabId: e.type,
                           classNames: n,
-                          onMouseEnter: () => _(e.type),
-                          onMouseLeave: () => _(null),
+                          onMouseEnter: () => b(e.type),
+                          onMouseLeave: () => b(null),
                           onClick: () => C.openTab(e.type),
                           children: (0, Ce.jsx)(ve, {
                             index: t,
@@ -656,41 +656,41 @@ var ye = {
                   }),
                 ],
               }),
-              (0, Ce.jsx)(x.Content, {
+              (0, Ce.jsx)(M.Content, {
                 children: () =>
                   (0, Ce.jsx)("div", {
-                    className: S(Ae.contentTab, n && Ae.contentTab__shown),
-                    children: (0, Ce.jsx)(q, {
-                      children: (0, Ce.jsx)(Be, { onScrollableChange: u }),
+                    className: L(Ae.contentTab, o && Ae.contentTab__shown),
+                    children: (0, Ce.jsx)(U, {
+                      children: (0, Ce.jsx)(Be, { onScrollableChange: f }),
                     }),
                   }),
               }),
             ],
           }),
           (0, Ce.jsxs)("div", {
-            className: S(Ae.footer, a?.footer),
+            className: L(Ae.footer, a?.footer),
             children: [
-              b && (0, Ce.jsx)("div", { className: Ae.bottomLip }),
-              (0, Ce.jsx)(Ge, { buttonsSize: s, classNames: a?.footerClassNames }),
+              m && (0, Ce.jsx)("div", { className: Ae.bottomLip }),
+              (0, Ce.jsx)(Ge, { buttonsSize: r, classNames: a?.footerClassNames }),
             ],
           }),
         ],
       })
     );
   }),
-  We = "Error_9f7ff239",
-  ze = "Error_title_881f33d",
+  ze = "Error_9f7ff239",
+  We = "Error_title_881f33d",
   Me = "Error_description_9cc31237",
   Le = "Error_footer_2ba80f61",
   De = "Error_button_1befe7e6",
-  Ue = D.resolve("strings"),
-  Pe = X(() => {
+  Ue = B.resolve("strings"),
+  qe = V(() => {
     const { controls: e } = fe();
     return (0, Ce.jsxs)("div", {
-      className: We,
+      className: ze,
       children: [
         (0, Ce.jsx)("div", {
-          className: ze,
+          className: We,
           children: Ue.readOrEmpty("selectable_reward.error.title"),
         }),
         (0, Ce.jsx)("div", {
@@ -699,10 +699,10 @@ var ye = {
         }),
         (0, Ce.jsx)("div", {
           className: Le,
-          children: (0, Ce.jsx)(T, {
+          children: (0, Ce.jsx)(H, {
             className: De,
-            theme: $.primary,
-            size: t.medium,
+            theme: n.primary,
+            size: f.medium,
             onClick: e.close,
             children: Ue.readOrEmpty("selectable_reward.error.button"),
           }),
@@ -710,75 +710,75 @@ var ye = {
       ],
     });
   }),
-  qe = "RewardSelection_496b50e",
-  Fe = X(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
+  Pe = "RewardSelection_496b50e",
+  Fe = V(({ title: e, subTitle: t, classNames: a, buttonsSize: s }) => {
     const { model: r } = fe(),
       n = r.tabs.get();
     return (0, Ce.jsx)("div", {
-      className: qe,
+      className: Pe,
       children:
         n.length > 0
           ? (0, Ce.jsx)($e, { title: e, subTitle: t, classNames: a, buttonsSize: s })
-          : (0, Ce.jsx)(Pe, {}),
+          : (0, Ce.jsx)(qe, {}),
     });
   }),
-  He = ({ title: e = "", subTitle: t = "", modelProviderContext: a }) =>
+  Ye = ({ title: e = "", subTitle: t = "", modelProviderContext: a }) =>
     (0, Ce.jsx)(pe, {
       options: { context: a },
       children: (0, Ce.jsx)(Fe, { title: e, subTitle: t }),
     }),
-  [Ye, Ke] = B()(
+  [Ze, He] = k()(
     ({ observableModel: e }) => ({ root: e.object() }),
     ({ externalModel: e }) => ({
       close: e.createCallbackNoArgs("selectableRewardModel.onCloseClick"),
     }),
   ),
-  Qe = "App_285de3af",
-  Je = "App_background_189ce663",
-  Xe = "App_backgroundBlur_b6c090aa",
-  Ze = "App_shadow_b56b33f2",
-  Ve = "App_content_54c70e4",
+  Je = "App_285de3af",
+  Ke = "App_background_189ce663",
+  Ve = "App_backgroundBlur_b6c090aa",
+  Qe = "App_shadow_b56b33f2",
+  Xe = "App_content_54c70e4",
   et = "App_close_fbc86043",
   tt = R.strings.battle_pass.rewardChoice,
-  at = X(() => {
-    const { model: e, controls: t } = Ke(),
+  at = V(() => {
+    const { model: e, controls: t } = He(),
       { chapterID: a, level: s } = e.root.get(),
       r = Boolean(s),
-      [n, o] = (0, ee.useState)(!1);
-    (i(t.close),
-      _(t.close),
+      [n, c] = (0, ee.useState)(!1);
+    (g(t.close),
+      o(t.close),
       (0, ee.useEffect)(
         () =>
-          E(() => {
-            o(!0);
+          D(() => {
+            c(!0);
           }),
         [],
       ));
-    const c = (0, ee.useMemo)(
+    const d = (0, ee.useMemo)(
       () =>
         ((e, t) =>
           t
             ? {
-                backgroundImage: `url(${Z(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, e)})`,
+                backgroundImage: `url(${Q(R.images.gui.maps.icons.battlePass.backgrounds.chapter_general, e)})`,
               }
-            : V())(a, r),
+            : X())(a, r),
       [a, r],
     );
     return (0, Ce.jsxs)("div", {
-      className: Qe,
+      className: Je,
       children: [
         (0, Ce.jsx)("div", {
-          className: Je,
-          style: c,
-          children: (0, Ce.jsx)("div", { className: Xe }),
+          className: Ke,
+          style: d,
+          children: (0, Ce.jsx)("div", { className: Ve }),
         }),
-        (0, Ce.jsx)("div", { className: Ze }),
+        (0, Ce.jsx)("div", { className: Qe }),
         n &&
           (0, Ce.jsxs)("div", {
-            className: Ve,
+            className: Xe,
             children: [
-              (0, Ce.jsx)(I, { className: et, onClose: t.close }),
-              (0, Ce.jsx)(He, {
+              (0, Ce.jsx)(y, { className: et, onClose: t.close }),
+              (0, Ce.jsx)(Ye, {
                 modelProviderContext: "model.selectableRewardModel",
                 title: tt.title(),
               }),
@@ -787,9 +787,9 @@ var ye = {
       ],
     });
   });
-W(
-  new U()
-    .add(H)
-    .add(Ye)
+S(
+  new W()
+    .add(q)
+    .add(Ze)
     .render((0, Ce.jsx)(at, {})),
 );

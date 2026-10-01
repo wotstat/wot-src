@@ -1598,7 +1598,7 @@ class UnitEntity(_UnitEntity):
         return
 
     def _doStartBattleRequest(self, ctx, flags, callback):
-        self._requestsProcessor.doRequest(ctx, b'startBattle', vehInvID=ctx.selectVehInvID, gameplaysMask=ctx.getGamePlayMask(), arenaTypeID=ctx.getDemoArenaTypeID(), callback=callback, stopAutoSearch=flags.isInSearch(), randomFlags=ctx.getRandomFlags())
+        self._requestsProcessor.doRequest(ctx, b'startBattle', vehInvID=ctx.selectVehInvID, gameplaysMask=ctx.getGamePlayMask(), arenaTypeID=ctx.getDemoArenaTypeID(), callback=callback, stopAutoSearch=flags.isInSearch())
         return
 
     def _doStopBattleRequest(self, ctx, callback):

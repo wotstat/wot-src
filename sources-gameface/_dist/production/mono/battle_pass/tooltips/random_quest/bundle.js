@@ -1,19 +1,19 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Xn as e,
+  Yn as e,
   _n as t,
   bt as a,
-  ci as i,
-  fn as n,
+  fn as i,
+  li as n,
   n as r,
   pn as d,
-  t as c,
-  tn as o,
-  ui as l,
+  si as c,
+  t as o,
+  tn as l,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as x } from "../../chunks/vendor.js";
-var m = s(l(), 1),
+var m = s(n(), 1),
   [j, _] = t()(
     ({ observableModel: s }) => ({ root: s.object() }),
     () => ({}),
@@ -25,7 +25,7 @@ var m = s(l(), 1),
   u = ({ children: s, className: e }) => {
     const t = m.Children.toArray(s);
     return (0, b.jsx)("div", {
-      className: i(h, e),
+      className: c(h, e),
       children: t.map((s, e) =>
         (0, b.jsxs)("div", { className: p, children: [(0, b.jsx)("div", { className: v }), s] }, e),
       ),
@@ -55,16 +55,16 @@ var m = s(l(), 1),
         (0, b.jsxs)(u, {
           className: C,
           children: [
-            (0, b.jsx)(c, { text: y.rewards.consumables(), classMix: T }),
-            (0, b.jsx)(c, { text: y.rewards.directives(), classMix: T }),
-            (0, b.jsx)(c, { text: y.rewards.personal_reserves(), classMix: T }),
-            (0, b.jsx)(c, { text: y.rewards.premium(), classMix: T }),
-            (0, b.jsx)(c, { text: y.rewards.money(), classMix: T }),
-            (0, b.jsx)(c, { text: y.rewards.standardEquipment(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.consumables(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.directives(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.personal_reserves(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.premium(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.money(), classMix: T }),
+            (0, b.jsx)(o, { text: y.rewards.standardEquipment(), classMix: T }),
           ],
         }),
         (0, b.jsx)("div", { className: f }),
-        (0, b.jsx)(c, {
+        (0, b.jsx)(o, {
           text: y.expireTime(),
           binding: {
             day: n.getDate(),
@@ -76,9 +76,9 @@ var m = s(l(), 1),
     });
   }),
   L = () => (0, b.jsx)(r, { children: (0, b.jsx)(r.Decorator, { children: (0, b.jsx)(D, {}) }) });
-n(
+i(
   new d()
-    .add(o)
+    .add(l)
     .addWithProps(j, {})
     .render((0, b.jsx)(L, {})),
 );

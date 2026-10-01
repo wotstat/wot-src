@@ -2,9 +2,9 @@ import { n as s } from "../../chunks/rolldown-runtime.js";
 import {
   B as e,
   Gt as n,
-  J as o,
-  Q as i,
-  U as t,
+  H as o,
+  J as i,
+  Q as t,
   V as a,
   X as r,
   a as l,
@@ -21,7 +21,7 @@ import {
 import "../../chunks/global.js";
 import { a as b } from "../../chunks/vendor.js";
 import { t as f } from "../../chunks/gradient_decorator.js";
-var [v, N] = i()((s) => {
+var [v, N] = t()((s) => {
   const e = s.observableModel.primitives(["params", "type"]);
   return {
     type: e.type,
@@ -72,21 +72,21 @@ var D = "BulletListTem_71e7474e",
     });
   },
   E = "InnerBlock_ea6c3fd8",
-  S = "InnerBlock_title_15bf72a",
-  U = "InnerBlock_description_20b6cccd",
+  H = "InnerBlock_title_15bf72a",
+  S = "InnerBlock_description_20b6cccd",
   q = "InnerBlock_subTitle_b0d5cb4f",
   G = "InnerBlock_bullets_813d7b5";
-function H() {
+function J() {
   return (0, P.jsxs)("div", {
     className: E,
     children: [
       (0, P.jsx)(e, {
         path: "personal_missions_30.tooltip.personalMissionsPoints.innerBlock.title",
-        className: S,
+        className: H,
       }),
       (0, P.jsx)(e, {
         path: "personal_missions_30.tooltip.personalMissionsPoints.innerBlock.description",
-        className: U,
+        className: S,
       }),
       (0, P.jsx)(e, {
         path: "personal_missions_30.tooltip.personalMissionsPoints.innerBlock.subTitle",
@@ -110,17 +110,17 @@ function H() {
     ],
   });
 }
-var J = "Index_3644a37a",
-  Q = "Index_icon_d52a6788",
+var Q = "Index_3644a37a",
+  U = "Index_icon_d52a6788",
   V = "Index_footer_b90ef2bf",
   X = s({ default: () => z });
 function z() {
   return (0, P.jsx)(m.Decorator, {
     children: (0, P.jsxs)("div", {
-      className: J,
+      className: Q,
       children: [
-        (0, P.jsx)(t, { path: "personal_missions_30.points.c_296x222", className: Q }),
-        (0, P.jsx)(f, { children: (0, P.jsx)(H, {}) }),
+        (0, P.jsx)(o, { path: "personal_missions_30.points.c_296x222", className: U }),
+        (0, P.jsx)(f, { children: (0, P.jsx)(J, {}) }),
         (0, P.jsx)(e, {
           split: !0,
           path: "personal_missions_30.tooltip.personalMissionsPoints.footer",
@@ -214,4 +214,4 @@ var cs = b(function () {
     n = ls[e]?.Component;
   return (0, P.jsx)(m, { children: n ? (0, P.jsx)(n, {}) : (0, P.jsx)(rs, { type: e }) });
 });
-x(new o().add(v).render((0, P.jsx)(cs, {})));
+x(new i().add(v).render((0, P.jsx)(cs, {})));

@@ -1067,53 +1067,6 @@ html[lang="th"] .Button_base__size-large_83da852e .Button_content__fontAligned_6
   position: absolute;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
-.Tooltip_6d997cee {
-  display: flex;
-  position: absolute;
-}
-
-.Tooltip_decorator_b3486d4e {
-  padding: 4rem 6rem 8rem;
-  border-image-source: url(R.atlases.components.tooltip_background) repeat center/contain;
-  border-image-slice: 24 fill;
-  border-image-width: 24rem;
-  position: relative;
-} /* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.Formattext_bb80854d {
-  display: flex;
-  flex-wrap: wrap;
-} /* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
-.Currency_72d4be39 {
-  display: flex;
-  align-items: center;
-  color: var(--color-general-secondary);
-  text-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.3);
-}
-.Currency_base__reverse_f12e61b0 {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-.Currency_base__notEnough_9a7842f {
-  color: var(--color-status-error);
-}
-.Currency_base__credits_7b9ae721 {
-  color: var(--color-currency-credits);
-}
-.Currency_base__gold_d6e3cbc {
-  color: var(--color-currency-gold);
-}
-.Currency_base__freeXP_d29d5a57 {
-  color: var(--color-currency-free-experience);
-}
-.Currency_base__crystal_f830cb47 {
-  color: var(--color-currency-bond);
-}
-.Currency_base__tankXP_1707c68b {
-  color: var(--color-currency-combat-experience);
-} /* stylelint-disable selector-no-qualifying-type */
-/* stylelint-disable selector-no-qualifying-type */
 .MultilineOverflow_ec9f8e47 {
   position: relative;
 }
@@ -1280,6 +1233,19 @@ html[lang="th"] .Button_base__size-large_83da852e .Button_content__fontAligned_6
   opacity: 0.8;
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
+.Tooltip_6d997cee {
+  display: flex;
+  position: absolute;
+}
+
+.Tooltip_decorator_b3486d4e {
+  padding: 4rem 6rem 8rem;
+  border-image-source: url(R.atlases.components.tooltip_background) repeat center/contain;
+  border-image-slice: 24 fill;
+  border-image-width: 24rem;
+  position: relative;
+} /* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
 .Multilineoverflow_c23f658d {
   position: relative;
 }
@@ -1311,6 +1277,40 @@ html[lang="th"] .Button_base__size-large_83da852e .Button_content__fontAligned_6
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+} /* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Formattext_bb80854d {
+  display: flex;
+  flex-wrap: wrap;
+} /* stylelint-disable selector-no-qualifying-type */
+/* stylelint-disable selector-no-qualifying-type */
+.Currency_72d4be39 {
+  display: flex;
+  align-items: center;
+  color: var(--color-general-secondary);
+  text-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.3);
+}
+.Currency_base__reverse_f12e61b0 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.Currency_base__notEnough_9a7842f {
+  color: var(--color-status-error);
+}
+.Currency_base__credits_7b9ae721 {
+  color: var(--color-currency-credits);
+}
+.Currency_base__gold_d6e3cbc {
+  color: var(--color-currency-gold);
+}
+.Currency_base__freeXP_d29d5a57 {
+  color: var(--color-currency-free-experience);
+}
+.Currency_base__crystal_f830cb47 {
+  color: var(--color-currency-bond);
+}
+.Currency_base__tankXP_1707c68b {
+  color: var(--color-currency-combat-experience);
 } /* stylelint-disable selector-no-qualifying-type */
 /* stylelint-disable selector-no-qualifying-type */
 .Reward_base__s24x24_954b5cee {

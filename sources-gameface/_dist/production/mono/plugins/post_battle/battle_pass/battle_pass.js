@@ -6857,7 +6857,9 @@ var fp,
               return a;
             }),
             i = $c.primitive(() => {
-              const e = t.bpTopExternalPoints.get().reduce((e, t) => e + t.points, 0);
+              const e = t.bpTopExternalPoints
+                .get()
+                .reduce((e, t) => (t.isActive ? e + t.points : e), 0);
               return t.bpTopPoints.get() + t.questPoints.get() + t.bonusCapPoints.get() + e;
             }),
             o = $c.primitive(

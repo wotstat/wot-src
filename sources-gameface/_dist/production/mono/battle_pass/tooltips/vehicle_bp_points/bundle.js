@@ -1,44 +1,44 @@
 import { r as e } from "../../chunks/rolldown-runtime.js";
 import {
-  Ur as s,
-  Xn as t,
+  Hr as s,
+  Yn as t,
   _n as i,
-  ci as a,
-  fn as o,
-  n as l,
-  oi as n,
+  ai as a,
+  fn as l,
+  li as o,
+  n,
   pn as r,
-  tn as c,
-  ui as d,
+  si as c,
+  tn as d,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as p } from "../../chunks/vendor.js";
 import { t as _ } from "../../chunks/types.js";
 import { n as m, t as h } from "../../chunks/wot_plus_banner.js";
 import { n as j, t as b } from "../../chunks/per_battle_points_table.js";
-d();
+o();
 var v = "BlockCompleted_separator_83511b0d",
   x = "BlockCompleted_whiteBg_a08ae6b3",
   N = "BlockCompleted_whiteBgLine_8eb9ddee",
   P = "BlockCompleted_whiteBgIcon_94f12276",
   g = "BlockCompleted_description_13a24155",
-  u = t(),
-  C = ({ label: e, description: s }) =>
-    (0, u.jsxs)(u.Fragment, {
+  C = t(),
+  u = ({ label: e, description: s }) =>
+    (0, C.jsxs)(C.Fragment, {
       children: [
-        (0, u.jsx)("div", { className: v }),
-        (0, u.jsx)("div", {
+        (0, C.jsx)("div", { className: v }),
+        (0, C.jsx)("div", {
           className: x,
-          children: (0, u.jsxs)("div", {
+          children: (0, C.jsxs)("div", {
             className: N,
-            children: [(0, u.jsx)("div", { className: P }), e],
+            children: [(0, C.jsx)("div", { className: P }), e],
           }),
         }),
         s &&
-          (0, u.jsxs)(u.Fragment, {
+          (0, C.jsxs)(C.Fragment, {
             children: [
-              (0, u.jsx)("div", { className: v }),
-              (0, u.jsx)("div", { className: g, children: s }),
+              (0, C.jsx)("div", { className: v }),
+              (0, C.jsx)("div", { className: g, children: s }),
             ],
           }),
       ],
@@ -57,18 +57,18 @@ var v = "BlockCompleted_separator_83511b0d",
   E = p(() => {
     const { model: e } = f(),
       { pointsReward: s, isSpecialVehicle: t, battleType: i, isWotPlusShown: a } = e.root.get(),
-      o = e.rewardPoints.get();
-    return (0, u.jsxs)(u.Fragment, {
+      l = e.rewardPoints.get();
+    return (0, C.jsxs)(C.Fragment, {
       children: [
-        (0, u.jsx)("div", {
+        (0, C.jsx)("div", {
           className: T,
           children: t ? F.special.descr() : F.$dyn(i) || F.descr(),
         }),
-        (0, u.jsx)(b, {
-          separatorRows: o.items,
+        (0, C.jsx)(b, {
+          separatorRows: l.items,
           mixClass: L,
-          children: (0, u.jsx)(j, {
-            rewardPoints: o,
+          children: (0, C.jsx)(j, {
+            rewardPoints: l,
             hasAdditionalPoints: a,
             topPlace:
               R.strings.battle_pass.tooltips[
@@ -77,14 +77,14 @@ var v = "BlockCompleted_separator_83511b0d",
             battleType: i,
           }),
         }),
-        a && (0, u.jsx)(h, {}),
-        (0, u.jsxs)("div", {
+        a && (0, C.jsx)(h, {}),
+        (0, C.jsxs)("div", {
           className: k,
           children: [
             F.award(),
-            (0, u.jsx)("div", {
+            (0, C.jsx)("div", {
               className: B,
-              children: (0, u.jsx)("div", { className: y, children: s }),
+              children: (0, C.jsx)("div", { className: y, children: s }),
             }),
           ],
         }),
@@ -98,65 +98,65 @@ var v = "BlockCompleted_separator_83511b0d",
   M = p(({ isCompleted: e = !1 }) => {
     const { model: s } = f(),
       { pointsCurrent: t, pointsTotal: i } = s.root.get();
-    return (0, u.jsxs)("div", {
+    return (0, C.jsxs)("div", {
       className: G,
       children: [
-        (0, u.jsx)("div", { className: e ? "" : S, children: n(t, A.INTEGRAL) }),
-        (0, u.jsx)("div", { className: O, children: "/" }),
-        n(i, A.INTEGRAL),
+        (0, C.jsx)("div", { className: e ? "" : S, children: a(t, A.INTEGRAL) }),
+        (0, C.jsx)("div", { className: O, children: "/" }),
+        a(i, A.INTEGRAL),
       ],
     });
   }),
   D = "Content_9914692a",
-  V = "Content_separator_73a6536a",
-  W = "Content_base__big_983f301e",
-  z = "Content_base__small_5ddeabe7",
-  H = "Content_title_6a70595e",
-  U = "Content_titleLabel_e593300",
-  X = p(() => {
+  H = "Content_separator_73a6536a",
+  V = "Content_base__big_983f301e",
+  W = "Content_base__small_5ddeabe7",
+  z = "Content_title_6a70595e",
+  Y = "Content_titleLabel_e593300",
+  $ = p(() => {
     const { model: e } = f(),
       {
         vehicleLevel: s,
         vehicleName: t,
         vehicleType: i,
-        pointsCurrent: o,
+        pointsCurrent: a,
         pointsTotal: l,
-        isSpecialVehicle: n,
-        isElite: r,
+        isSpecialVehicle: o,
+        isElite: n,
       } = e.root.get(),
-      c = o === l;
-    return (0, u.jsx)("div", {
-      className: a(D, c ? z : W),
-      children: (0, u.jsxs)("div", {
-        className: H,
+      r = a === l;
+    return (0, C.jsx)("div", {
+      className: c(D, r ? W : V),
+      children: (0, C.jsxs)("div", {
+        className: z,
         children: [
-          (0, u.jsx)("div", {
-            className: U,
+          (0, C.jsx)("div", {
+            className: Y,
             children: R.strings.battle_pass.tooltips.vehiclePoints.title(),
           }),
-          (0, u.jsx)(m, {
-            isSpecial: n,
+          (0, C.jsx)(m, {
+            isSpecial: o,
             vehicleLevel: s,
             vehicleName: t,
             vehicleType: i,
-            isElite: r,
+            isElite: n,
           }),
-          (0, u.jsx)("div", { className: V }),
-          (0, u.jsx)(M, { isCompleted: c }),
-          c
-            ? (0, u.jsx)(C, {
+          (0, C.jsx)("div", { className: H }),
+          (0, C.jsx)(M, { isCompleted: r }),
+          r
+            ? (0, C.jsx)(u, {
                 label: R.strings.battle_pass.tooltips.vehiclePoints.pointsObtained(),
                 description: R.strings.battle_pass.tooltips.vehiclePoints.continuePlaying(),
               })
-            : (0, u.jsx)(E, {}),
+            : (0, C.jsx)(E, {}),
         ],
       }),
     });
   }),
-  $ = () => (0, u.jsx)(l, { children: (0, u.jsx)(l.Decorator, { children: (0, u.jsx)(X, {}) }) });
-o(
+  q = () => (0, C.jsx)(n, { children: (0, C.jsx)(n.Decorator, { children: (0, C.jsx)($, {}) }) });
+l(
   new r()
-    .add(c)
+    .add(d)
     .addWithProps(w, {})
-    .render((0, u.jsx)($, {})),
+    .render((0, C.jsx)(q, {})),
 );

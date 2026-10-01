@@ -1,17 +1,17 @@
 import { r as s } from "../../chunks/rolldown-runtime.js";
 import {
-  Ur as e,
-  Xn as o,
+  Hr as e,
+  Yn as o,
   _n as r,
   fn as n,
-  n as t,
-  pn as a,
-  tn as i,
-  ui as c,
+  li as t,
+  n as a,
+  pn as i,
+  tn as c,
 } from "../../chunks/lib.js";
 import "../../chunks/global.js";
 import { h as d } from "../../chunks/vendor.js";
-c();
+t();
 var [l, h] = r()(({ observableModel: s }) => ({ root: s.object() }), e),
   j = "Content_59739b4",
   m = "Content_title_14ef9ac4",
@@ -19,7 +19,7 @@ var [l, h] = r()(({ observableModel: s }) => ({ root: s.object() }), e),
   _ = "Content_description2_54cf7dba",
   b = o(),
   x = R.strings.battle_pass.tooltips.iconLock,
-  u = d(() => {
+  v = d(() => {
     const { model: s } = h(),
       { isHoliday: e } = s.root.get();
     return (0, b.jsxs)("div", {
@@ -31,10 +31,10 @@ var [l, h] = r()(({ observableModel: s }) => ({ root: s.object() }), e),
       ],
     });
   }),
-  v = () => (0, b.jsx)(t, { children: (0, b.jsx)(t.Decorator, { children: (0, b.jsx)(u, {}) }) });
+  f = () => (0, b.jsx)(a, { children: (0, b.jsx)(a.Decorator, { children: (0, b.jsx)(v, {}) }) });
 n(
-  new a()
-    .add(i)
+  new i()
+    .add(c)
     .addWithProps(l, {})
-    .render((0, b.jsx)(v, {})),
+    .render((0, b.jsx)(f, {})),
 );

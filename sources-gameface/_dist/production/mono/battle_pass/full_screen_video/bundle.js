@@ -1,71 +1,71 @@
-import { r as s } from "../chunks/rolldown-runtime.js";
+import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  Gn as e,
-  In as o,
-  Qr as n,
-  Xn as a,
-  _n as r,
-  fn as t,
-  kn as l,
-  nn as i,
-  pi as c,
-  pn as d,
-  sr as u,
-  tn as m,
-  ui as p,
+  Fn as s,
+  On as o,
+  Wn as n,
+  Yn as a,
+  Zr as r,
+  _n as l,
+  fi as t,
+  fn as i,
+  li as c,
+  nn as d,
+  or as u,
+  pn as m,
+  tn as p,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { h as f } from "../chunks/vendor.js";
 import { d as h } from "../chunks/utils.js";
-var j = s(p(), 1),
-  [b, v] = r()(
-    ({ observableModel: s }) => ({ root: s.object() }),
-    ({ externalModel: s }) => ({ close: s.createCallbackNoArgs("onClose") }),
+var j = e(c(), 1),
+  [b, v] = l()(
+    ({ observableModel: e }) => ({ root: e.object() }),
+    ({ externalModel: e }) => ({ close: e.createCallbackNoArgs("onClose") }),
   ),
-  k = "App_fab90a23",
-  g = "App_video_826e570a",
+  g = "App_fab90a23",
+  k = "App_video_826e570a",
   y = a(),
   N = f(() => {
-    const { model: s, controls: a } = v(),
-      { videoName: r, audioName: t, isWindowAccessible: d } = s.root.get(),
-      { width: m, height: p } = e(),
-      f = l(),
+    const { model: e, controls: a } = v(),
+      { videoName: l, audioName: i, isWindowAccessible: c } = e.root.get(),
+      { width: m, height: p } = n(),
+      f = o(),
       b = (0, j.useRef)(null),
-      N = c.resolve("videos").readOrEmpty(r);
+      N = t.resolve("videos").readOrEmpty(l);
     return (
       (0, j.useEffect)(() => {
-        const s = b.current;
-        if (s)
-          return d
-            ? Boolean(s.getCurrentTime())
-              ? s.play()
+        const e = b.current;
+        if (e)
+          return c
+            ? Boolean(e.getCurrentTime())
+              ? e.play()
               : u(() => {
-                  (s.play(), n.sound(t));
+                  (e.play(), r.sound(i));
                 }, 300)
-            : s.pause();
-      }, [b, d, t]),
+            : e.pause();
+      }, [b, c, i]),
       (0, j.useEffect)(() => {
-        const s = b.current;
-        engine.on("clientMinimized", (e) => {
-          s && (e ? s.pause() : s.play());
+        const e = b.current;
+        engine.on("clientMinimized", (s) => {
+          e && (s ? e.pause() : e.play());
         });
       }, [b]),
-      o(a.close),
+      s(a.close),
       (0, y.jsx)("div", {
-        className: k,
-        children: (0, y.jsx)(i, {
-          className: g,
+        className: g,
+        children: (0, y.jsx)(d, {
+          className: k,
           src: N,
           onEnded: a.close,
           ref: b,
-          style: h(m, p, f, r),
+          style: h(m, p, f, l),
         }),
       })
     );
   });
-t(
-  new d()
-    .add(m)
+i(
+  new m()
+    .add(p)
     .addWithProps(b, {})
     .render((0, y.jsx)(N, {})),
 );

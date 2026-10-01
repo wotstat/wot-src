@@ -464,13 +464,14 @@ var Ot = (e) => ({ type: "ok", value: e }),
             vehicles: e.vehicles.model,
             myVehicles: e.myVehicles.model,
             enabled: a.enabled,
+            selectedID: a.selectedID,
             nationsOrder: e.filters.model.nations,
             filters: ae.box(r(), { deep: !1 }),
             searchName: ae.box("", { deep: !1 }),
             edit: { initial: ae.box(void 0, { deep: !1 }), dirty: a.dirtyEdit },
           },
           l = T.shallow(() => s.keys),
-          o = T.primitive(() => qe(Ut, a.selectedID.get())),
+          o = T.primitive(() => qe(Ut, i.selectedID.get())),
           n = T.structural((e) => {
             try {
               const t = s.get(e);
@@ -568,9 +569,10 @@ var Ot = (e) => ({ type: "ok", value: e }),
       },
       ({ model: e, externalModel: t }) => {
         const s = t.createCallback(
-          (e) => ({ id: e.id, data: JSON.stringify(e.initial), skipRedirect: e.skipRedirect }),
-          "onCreate",
-        );
+            (e) => ({ id: e.id, data: JSON.stringify(e.initial), skipRedirect: e.skipRedirect }),
+            "onCreate",
+          ),
+          a = t.createCallback((e) => ({ id: e }), "onSelect");
         return {
           filters: oe({
             update: (t) => {
@@ -595,7 +597,9 @@ var Ot = (e) => ({ type: "ok", value: e }),
             ),
             setDirty: t.createCallback((e) => ({ value: e }), "onSetDirtyEdit"),
           },
-          select: t.createCallback((e = "") => ({ id: e }), "onSelect"),
+          select: xe((t = "") => {
+            (e.selectedID.set(t), a(t));
+          }),
           save: t.createCallback((e) => ({ id: e }), "onSave"),
           exit: t.createCallback((e) => ({ id: e }), "onDiscard"),
           goToAboutVehicle: t.createCallback((e) => ({ intCD: e }), "onGoToAboutVehicle"),

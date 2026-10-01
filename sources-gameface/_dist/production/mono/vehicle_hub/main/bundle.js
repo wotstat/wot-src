@@ -4711,7 +4711,8 @@ var Dl = {
   base__narrow: "TtcColumn_base__narrow_dbeaff6f",
   headerName: "TtcColumn_headerName_1031e73d",
   list: "TtcColumn_list_ef66cbdf",
-  scrollArea: "TtcColumn_scrollArea_f2d23ec6",
+  scrollClip: "TtcColumn_scrollClip_7d3b5fb4",
+  scrollArea: "TtcColumn_scrollArea_363a17c",
   scrollContent: "TtcColumn_scrollContent_7bffb7ea",
   scrollContent__top: "TtcColumn_scrollContent__top_b4e45275",
   scrollContent__bottom: "TtcColumn_scrollContent__bottom_bec151c",
@@ -4746,49 +4747,55 @@ function $l({ narrow: e, header: t, characteristics: s, modifications: a, classN
           className: Dl.content,
           children: (0, Yt.jsxs)(ye, {
             children: [
-              (0, Yt.jsx)(Vl, {
-                children: (0, Yt.jsxs)("div", {
-                  className: Dl.listContent,
-                  children: [
-                    s &&
-                      s.map((e, t) =>
-                        (0, Yt.jsx)(
-                          Ll.Row,
-                          {
-                            name: e.name,
-                            type: e.type,
-                            amount: e.amount,
-                            tooltipId: e.tooltipId,
-                            narrow: !1,
-                            className: Dl.listRow,
-                          },
-                          t,
-                        ),
-                      ),
-                    a &&
-                      (0, Yt.jsxs)(Yt.Fragment, {
-                        children: [
-                          (0, Yt.jsx)("div", {
-                            className: Dl.dividerRow,
-                            children: (0, Yt.jsx)(Ll.Divider, { narrow: e, className: Dl.divider }),
-                          }),
-                          a.map((e, t) =>
-                            (0, Yt.jsx)(
-                              Ll.Row,
-                              {
-                                name: e.name,
-                                type: e.type,
-                                amount: e.amount,
-                                tooltipId: e.tooltipId,
-                                narrow: !1,
-                                className: Dl.listRow,
-                              },
-                              t,
-                            ),
+              (0, Yt.jsx)("div", {
+                className: Dl.scrollClip,
+                children: (0, Yt.jsx)(Vl, {
+                  children: (0, Yt.jsxs)("div", {
+                    className: Dl.listContent,
+                    children: [
+                      s &&
+                        s.map((e, t) =>
+                          (0, Yt.jsx)(
+                            Ll.Row,
+                            {
+                              name: e.name,
+                              type: e.type,
+                              amount: e.amount,
+                              tooltipId: e.tooltipId,
+                              narrow: !1,
+                              className: Dl.listRow,
+                            },
+                            t,
                           ),
-                        ],
-                      }),
-                  ],
+                        ),
+                      a &&
+                        (0, Yt.jsxs)(Yt.Fragment, {
+                          children: [
+                            (0, Yt.jsx)("div", {
+                              className: Dl.dividerRow,
+                              children: (0, Yt.jsx)(Ll.Divider, {
+                                narrow: e,
+                                className: Dl.divider,
+                              }),
+                            }),
+                            a.map((e, t) =>
+                              (0, Yt.jsx)(
+                                Ll.Row,
+                                {
+                                  name: e.name,
+                                  type: e.type,
+                                  amount: e.amount,
+                                  tooltipId: e.tooltipId,
+                                  narrow: !1,
+                                  className: Dl.listRow,
+                                },
+                                t,
+                              ),
+                            ),
+                          ],
+                        }),
+                    ],
+                  }),
                 }),
               }),
               (0, Yt.jsx)(Qe, { classNames: { base: Dl.verticalBar } }),

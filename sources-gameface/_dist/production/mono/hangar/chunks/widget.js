@@ -1,41 +1,41 @@
 import { r as e } from "./rolldown-runtime.js";
 import {
-  C as s,
-  Fi as t,
-  Ha as a,
-  Ja as o,
-  Li as n,
-  Si as r,
-  Va as i,
-  Wa as c,
+  Ba as s,
+  C as t,
+  Ii as a,
+  Ka as o,
+  Pi as n,
+  Ra as r,
+  Ua as i,
+  Va as c,
   cr as l,
-  gr as d,
-  hi as m,
+  eo as d,
+  gr as m,
   hr as p,
   i as g,
-  n as u,
-  qa as _,
-  r as h,
-  ro as x,
-  t as b,
-  to as f,
-  uo as v,
-  xr as T,
-  za as N,
+  lo as u,
+  mi as _,
+  n as h,
+  no as x,
+  qa as b,
+  r as f,
+  t as v,
+  xi as T,
+  xr as N,
 } from "./lib.js";
 var w = (function (e) {
   return ((e.News = "news"), (e.ShopPromo = "shopPromo"), (e.None = "none"), e);
 })({});
 (w.News, w.News, w.ShopPromo, Math.floor(Date.now() / 1e3));
 var y = {
-    getter: d({
+    getter: m({
       type: w.News,
       description:
         "Watch very interesting video, with very long, very very interesting and meaningful description!",
       isVideo: !0,
       image: "https://pie-webbrg-cdn-stg.wgcdn.co/dcont/fb/image/whats_new_475x230_2.png",
     }),
-    controls: () => n(t("onClick", "onClose")),
+    controls: () => a(n("onClick", "onClose")),
   },
   [C, j] = p("TeaserModel")(
     ({ observableModel: e }) =>
@@ -72,123 +72,123 @@ var y = {
     extendedText: "Teaser_extendedText_286b5b73",
     countdown: "Teaser_countdown_40e45fc1",
   },
-  M = e(m(), 1),
+  M = e(_(), 1),
   B = "Teaser:Base",
-  E = l(function ({ className: e, classNames: t }) {
+  P = l(function ({ className: e, classNames: a }) {
     const { model: n, controls: l } = j(),
-      d = n.type.get() || w.News,
-      m = n.postCounter.get(),
-      p = n.text.get(),
+      m = n.type.get() || w.News,
+      p = n.postCounter.get(),
+      _ = n.text.get(),
       x = n.description.get(),
       y = n.finishTime.get(),
       C = n.isVideo.get(),
-      E = n.image.get(),
-      P = T(),
-      S = v.resolve("strings");
-    const L = (0, k.useCallback)(
+      P = n.image.get(),
+      E = N(),
+      S = u.resolve("strings");
+    const V = (0, k.useCallback)(
         (e) => {
           (e.stopPropagation(), l.onClose());
         },
         [l],
       ),
-      [V, $] = (0, k.useState)(null);
+      [$, A] = (0, k.useState)(null);
     (0, k.useLayoutEffect)(() => {
       let e;
-      const s = N(o(y || 0), _());
-      if (!y || s <= 0) return void $(null);
-      const t = Math.floor(a.seconds(s)),
-        n = c(o(y), i(1)) ? h.Extended : h.Long;
-      if (($({ duration: t, style: n }), n === h.Extended)) {
-        const s = N(o(t + 1), i(1));
-        e = setTimeout(() => $((e) => ({ ...e, style: h.Long })), Math.min(s, r));
+      const t = r(b(y || 0), o());
+      if (!y || t <= 0) return void A(null);
+      const a = Math.floor(c.seconds(t)),
+        n = i(b(y), s(1)) ? f.Extended : f.Long;
+      if ((A({ duration: a, style: n }), n === f.Extended)) {
+        const t = r(b(a + 1), s(1));
+        e = setTimeout(() => A((e) => ({ ...e, style: f.Long })), Math.min(t, T));
       }
       return () => {
         e && (clearTimeout(e), (e = void 0));
       };
     }, [y]);
-    const [A, z] = (0, k.useState)(null),
-      [I, q] = (0, k.useState)(!1);
+    const [I, L] = (0, k.useState)(null),
+      [q, z] = (0, k.useState)(!1);
     return (
       (0, k.useEffect)(() => {
         const e = new Image();
         return (
-          (e.src = E),
+          (e.src = P),
           (e.onload = () => {
-            (z({ path: E, height: e.height, width: e.width }), q(!0));
+            (L({ path: P, height: e.height, width: e.width }), z(!0));
           }),
           (e.onerror = () => {
-            q(!0);
+            z(!0);
           }),
           () => {
-            ((e.src = ""), z(null));
+            ((e.src = ""), L(null));
           }
         );
-      }, [E]),
-      I
+      }, [P]),
+      q
         ? (0, M.jsxs)("div", {
-            className: f(W.base, W[`base__${d}Type`], C && W.base__video, e),
+            className: d(W.base, W[`base__${m}Type`], C && W.base__video, e),
             onClick: function (e) {
-              (P.play("click", { target: B, original: e }), l.onClick());
+              (E.play("click", { target: B, original: e }), l.onClick());
             },
             onMouseEnter: function (e) {
-              P.play("mouse-enter", { target: B, original: e });
+              E.play("mouse-enter", { target: B, original: e });
             },
             children: [
               (0, M.jsx)("div", {
-                className: f(W.contentWrapper, t?.contentWrapper),
+                className: d(W.contentWrapper, a?.contentWrapper),
                 children: (0, M.jsx)("div", {
-                  className: f(W.imageWrapper, t?.imageWrapper),
+                  className: d(W.imageWrapper, a?.imageWrapper),
                   children:
-                    A &&
+                    I &&
                     (0, M.jsx)("div", {
-                      className: f(W.image, t?.image),
+                      className: d(W.image, a?.image),
                       style: {
-                        backgroundImage: `url(${A.path})`,
-                        height: `${A.height}rem`,
-                        width: `${A.width}rem`,
+                        backgroundImage: `url(${I.path})`,
+                        height: `${I.height}rem`,
+                        width: `${I.width}rem`,
                       },
                     }),
                 }),
               }),
-              (0, M.jsx)("div", { className: f(W.vignette, t?.vignette) }),
+              (0, M.jsx)("div", { className: d(W.vignette, a?.vignette) }),
               (0, M.jsxs)("div", {
-                className: f(W.contentWrapper, t?.contentWrapper),
+                className: d(W.contentWrapper, a?.contentWrapper),
                 children: [
                   (0, M.jsxs)("div", {
-                    className: f(W.title, t?.title),
+                    className: d(W.title, a?.title),
                     children: [
                       S.readOrEmpty("menu.promo.teaser.title"),
-                      Boolean(m) &&
-                        m > 0 &&
+                      Boolean(p) &&
+                        p > 0 &&
                         (0, M.jsx)(g, {
-                          className: f(W.counter, t?.counter),
-                          value: m,
+                          className: d(W.counter, a?.counter),
+                          value: p,
                           size: "small",
                         }),
                     ],
                   }),
-                  (0, M.jsx)(b, {
+                  (0, M.jsx)(v, {
                     type: "close",
                     side: "right",
-                    classNames: { base: f(W.closeButton, t?.closeButton) },
-                    onClick: L,
+                    classNames: { base: d(W.closeButton, a?.closeButton) },
+                    onClick: V,
                     caption: "",
                   }),
-                  p && (0, M.jsx)("div", { className: f(W.text, t?.text), children: p }),
-                  (x || V) &&
+                  _ && (0, M.jsx)("div", { className: d(W.text, a?.text), children: _ }),
+                  (x || $) &&
                     (0, M.jsxs)("div", {
                       className: W.bottomContent,
                       children: [
                         x &&
                           (0, M.jsx)("div", {
-                            className: f(W.description, t?.description),
-                            children: (0, M.jsx)(s, {
+                            className: d(W.description, a?.description),
+                            children: (0, M.jsx)(t, {
                               classMix: W.extendedText,
                               text: x,
                               isTruncationAvailable: !0,
                             }),
                           }),
-                        V && (0, M.jsx)(u, { className: f(W.countdown, t?.countdown), ...V }),
+                        $ && (0, M.jsx)(h, { className: d(W.countdown, a?.countdown), ...$ }),
                       ],
                     }),
                 ],
@@ -198,12 +198,12 @@ var y = {
         : null
     );
   });
-function P({ className: e, classNames: s, ...t }) {
+function E({ className: e, classNames: s, ...t }) {
   return (0, M.jsx)(C, {
     ...t,
     mode: "real",
     mocks: y,
-    children: (0, M.jsx)(E, { className: e, classNames: s }),
+    children: (0, M.jsx)(P, { className: e, classNames: s }),
   });
 }
-export { P as default };
+export { E as default };

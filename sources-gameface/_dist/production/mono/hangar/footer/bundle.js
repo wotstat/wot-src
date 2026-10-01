@@ -5,66 +5,66 @@ const __vite__mapDeps = (
 ) => i.map((i) => d[i]);
 import { r as e } from "../chunks/rolldown-runtime.js";
 import {
-  $i as t,
-  Bi as a,
-  Br as o,
-  Hr as n,
+  $a as t,
+  $r as a,
+  Ai as o,
+  Ca as n,
   In as s,
   Kn as r,
-  Mi as i,
-  Mn as l,
-  Mr as c,
-  Nn as d,
-  Nr as u,
-  Or as m,
-  Pi as _,
-  Qn as h,
-  Ri as f,
-  Rn as y,
-  Sa as b,
-  Ta as p,
+  Kr as i,
+  Li as l,
+  Mn as c,
+  Mr as d,
+  Ni as u,
+  Nn as m,
+  Nr as _,
+  Or as h,
+  Qi as f,
+  Qn as y,
+  Rn as b,
+  Vr as p,
   Xn as g,
-  Yn as v,
-  Zn as x,
-  ai as w,
-  ci as C,
-  cr as B,
+  Yn as x,
+  Zn as v,
+  ci as w,
+  cr as C,
+  di as B,
   dr as N,
-  ei as j,
-  eo as M,
-  fi as R,
-  ga as k,
-  gn as S,
-  hi as P,
-  hn as E,
-  hr as I,
-  ir as O,
-  ji as z,
-  jn as W,
+  eo as j,
+  fa as M,
+  gn as k,
+  ha as R,
+  hn as S,
+  hr as P,
+  ii as E,
+  ir as I,
+  ji as O,
+  jn as z,
   kr as A,
   li as L,
-  lr as V,
-  mr as D,
-  nr as F,
-  pa as $,
-  pr as G,
-  qr as H,
-  ro as T,
-  to as U,
-  ui as q,
-  uo as Q,
-  ur as K,
-  wa as X,
-  xr as Y,
-  yr as Z,
-  zn as J,
+  lo as V,
+  lr as W,
+  mi as D,
+  mr as F,
+  no as $,
+  nr as G,
+  pr as H,
+  si as T,
+  ur as U,
+  wa as Q,
+  xa as q,
+  xr as K,
+  yr as X,
+  zi as Y,
+  zn as Z,
+  zr as J,
 } from "../chunks/lib.js";
 import "../chunks/global.js";
 import { t as ee } from "../chunks/divider.js";
-var [te, ae] = I("ChatsProvider")(
+var [te, ae] = P("ChatsProvider")(
     ({ observableModel: e }) => {
       const t = { chats: e.dict("messages") },
-        a = G.shallow(() =>
+        a = H.shallow(() =>
           Array.from(
             t.chats.values().sort((e, t) => {
               const { order: a, prebattle: o } = e.get(),
@@ -82,57 +82,57 @@ var [te, ae] = I("ChatsProvider")(
       openChannelsWindow: e.createCallback((e) => e, "onChatsAction"),
     }),
   ),
-  [oe, ne] = I("ContactsListModel")(
+  [oe, ne] = P("ContactsListModel")(
     ({ observableModel: e }) => ({ ...e.primitives(["contactsCount"]) }),
-    k,
+    R,
   ),
-  [se, re] = I()(
+  [se, re] = P()(
     ({ observableModel: e }) => ({ ...e.primitives(["oldStyle"]) }),
     ({ externalModel: e }) => ({ openGameMenu: e.createCallbackNoArgs("onOpenGameMenu") }),
   ),
-  [ie, le] = I()(
+  [ie, le] = P()(
     ({ observableModel: e }) => ({
       ...e.primitives({
         newNotificationsCount: "newNotificationsCount",
         hasImportantNotification: "importantNotificationPresent",
       }),
     }),
-    k,
+    R,
   ),
-  [ce, de] = I("ReferralProgramProvider")(
+  [ce, de] = P("ReferralProgramProvider")(
     ({ observableModel: e }) => ({
       ...e.primitives(["firstIndication", "enabled", "bubbleCount"]),
     }),
     ({ externalModel: e }) => ({ openReferralProgram: e.createCallbackNoArgs("onClick") }),
   ),
-  [ue, me] = I("ServerInfoProvider")(
+  [ue, me] = P("ServerInfoProvider")(
     ({ observableModel: e }) => ({ ...e.primitives(["serverName", "status", "colorBlind"]) }),
-    k,
+    R,
   ),
-  [_e, he] = I("SessionStatisticProvider")(
+  [_e, he] = P("SessionStatisticProvider")(
     ({ observableModel: e }) => ({
       ...e.primitives(["battleCount", "enabled", "sessionStatsEnabled", "winback"]),
     }),
-    k,
+    R,
   ),
-  [fe, ye] = I("VehicleCompareProvider")(
+  [fe, ye] = P("VehicleCompareProvider")(
     ({ observableModel: e }) => {
-      const o = {
+      const t = {
           ...e.primitives({ isEnabled: "enabled" }),
           vehicles: e.arrayClone("vehicles"),
-          compareButtonDOMRect: a.box({ left: 0, width: 0 }, { deep: !1 }),
+          compareButtonDOMRect: Y.box({ left: 0, width: 0 }, { deep: !1 }),
         },
-        n = D(() => t(o.vehicles.get())),
-        s = D(() => o.vehicles.get().length);
-      return { ...o, computes: { getLastVehicle: n, getVehiclesCount: s } };
+        a = F(() => f(t.vehicles.get())),
+        o = F(() => t.vehicles.get().length);
+      return { ...t, computes: { getLastVehicle: a, getVehiclesCount: o } };
     },
     ({ model: e }) => ({
-      setCompareButtonDOMRect: f((t) => {
+      setCompareButtonDOMRect: l((t) => {
         e.compareButtonDOMRect.set(t);
       }),
     }),
   ),
-  be = e(T(), 1),
+  be = e($(), 1),
   pe = {
     frames: {
       commanderPlayer_ready: { h: 64, w: 64, x: 0, y: 0 },
@@ -155,7 +155,7 @@ var [te, ae] = I("ChatsProvider")(
     },
     meta: { size: { h: 144, w: 96 } },
   },
-  ve = {
+  xe = {
     frames: {
       commanderPlayer_ready: { h: 128, w: 128, x: 0, y: 0 },
       commander_ready: { h: 128, w: 128, x: 128, y: 0 },
@@ -166,7 +166,7 @@ var [te, ae] = I("ChatsProvider")(
     },
     meta: { size: { h: 384, w: 256 } },
   },
-  xe = {
+  ve = {
     frames: {
       chat: { h: 32, w: 32, x: 0, y: 0 },
       commanderPlayer_inBattle: { h: 32, w: 32, x: 32, y: 0 },
@@ -245,33 +245,33 @@ var [te, ae] = I("ChatsProvider")(
 function Ne(e) {
   return (
     "string" == typeof e &&
-    (e in xe.frames ||
+    (e in ve.frames ||
       e in we.frames ||
       e in Ce.frames ||
       e in ge.frames ||
       e in pe.frames ||
-      e in ve.frames)
+      e in xe.frames)
   );
 }
 function je(e, t, a = !1) {
   return e === Be.upscale
     ? a
-      ? { config: ve, path: "header_footer.footer_highlighted_upscale", icon: t }
+      ? { config: xe, path: "header_footer.footer_highlighted_upscale", icon: t }
       : { config: Ce, path: "header_footer.footer_upscale", icon: t }
     : e === Be.medium
       ? a
         ? { config: pe, path: "header_footer.footer_highlighted_large", icon: t }
-        : { config: xe, path: "header_footer.footer_large", icon: t }
+        : { config: ve, path: "header_footer.footer_large", icon: t }
       : a
         ? { config: ge, path: "header_footer.footer_highlighted_small", icon: t }
         : { config: we, path: "header_footer.footer_small", icon: t };
 }
 function Me(e, t) {
-  const a = b("px");
-  return { x: X(e + a.x - 8), y: X(t + a.y - 8 - 356), width: 424, height: 356 };
+  const a = q("px");
+  return { x: n(e + a.x - 8), y: n(t + a.y - 8 - 356), width: 424, height: 356 };
 }
-var Re = "maskLeft",
-  ke = "maskRight",
+var ke = "maskLeft",
+  Re = "maskRight",
   Se = "maskBoth",
   Pe = "none";
 function Ee(e, t, a) {
@@ -288,17 +288,17 @@ function Ee(e, t, a) {
 var Ie = "ChatButton_58c17ddd",
   Oe = "ChatButton_base__glow_e84e99cd",
   ze = "ChatButton_overlay_d0e16554",
-  We = "ChatButton_base__unreadMessages_1daa9390",
-  Ae = "ChatButton_content_1735f2eb",
-  Le = "ChatButton_name_a3b5f0d7",
-  Ve = "ChatButton_closeIcon_7b57d2d1",
-  De = e(P(), 1),
+  Ae = "ChatButton_base__unreadMessages_1daa9390",
+  Le = "ChatButton_content_1735f2eb",
+  Ve = "ChatButton_name_a3b5f0d7",
+  We = "ChatButton_closeIcon_7b57d2d1",
+  De = e(D(), 1),
   Fe = /^#.*?:/,
-  $e = Q.resolve("strings");
+  $e = V.resolve("strings");
 function Ge(e) {
   return e.match(Fe) ? $e.readOrEmpty(e.slice(1).replace(/[:/]/g, ".")) : e;
 }
-var He = B(
+var He = C(
     (0, be.forwardRef)(function (
       {
         id: e,
@@ -313,29 +313,29 @@ var He = B(
       },
       d,
     ) {
-      const u = m({ header: a ? `${a}/header` : void 0, body: a ? `${a}/body` : t }),
-        _ = Z(
+      const u = h({ header: a ? `${a}/header` : void 0, body: a ? `${a}/body` : t }),
+        m = X(
           "channelList",
           (0, be.useMemo)(() => ({ clientID: e, canClose: !n }), [e, n]),
         );
       return (0, De.jsxs)(s, {
         ref: d,
         ...u,
-        ..._,
-        theme: J.secondary,
-        size: y.small,
+        ...m,
+        theme: Z.secondary,
+        size: b.small,
         onClick: function (t) {
           const { left: a, top: o } = t.currentTarget.getBoundingClientRect();
           (u.onClick(), l(e, Me(a, o)));
         },
-        className: U(Ie, (o || r) && Oe, r && We, i),
-        classNames: { overlay: ze, content: Ae },
+        className: j(Ie, (o || r) && Oe, r && Ae, i),
+        classNames: { overlay: ze, content: Le },
         autoAlignContent: !1,
         children: [
-          (0, De.jsx)("div", { className: Le, children: Ge(t) }),
+          (0, De.jsx)("div", { className: Ve, children: Ge(t) }),
           !n &&
             (0, De.jsx)("div", {
-              className: Ve,
+              className: We,
               onClick: function (t) {
                 (t.stopPropagation(), c(e));
               },
@@ -374,66 +374,66 @@ function Ue({ itemWidth: e, api: t, children: a }) {
     children: [
       !c &&
         (0, De.jsx)(s, {
-          theme: J.secondary,
-          size: y.small,
+          theme: Z.secondary,
+          size: b.small,
           autoAlignContent: !1,
           onMouseDown: () => m(-1),
           onMouseUp: _,
           onMouseLeave: _,
           disabled: i,
-          className: U(Te.arrowButton, Te.arrowButton__left, i && Te.arrowButton__disabled),
+          className: j(Te.arrowButton, Te.arrowButton__left, i && Te.arrowButton__disabled),
         }),
       (0, De.jsx)("div", {
-        className: U(
+        className: j(
           Te.content,
-          Te[`content__${((h = i), (f = l), h || f ? (f ? (h ? Pe : Re) : ke) : Se)}`],
+          Te[`content__${((h = i), (f = l), h || f ? (f ? (h ? Pe : ke) : Re) : Se)}`],
         ),
         children: a,
       }),
       !c &&
         (0, De.jsx)(s, {
-          theme: J.secondary,
-          size: y.small,
+          theme: Z.secondary,
+          size: b.small,
           autoAlignContent: !1,
           onMouseDown: () => m(1),
           onMouseUp: _,
           onMouseLeave: _,
           disabled: l,
-          className: U(Te.arrowButton, Te.arrowButton__right, l && Te.arrowButton__disabled),
+          className: j(Te.arrowButton, Te.arrowButton__right, l && Te.arrowButton__disabled),
         }),
     ],
   });
   var h, f;
 }
-var qe = "ChatCarousel_545467f0",
-  Qe = "ChatCarousel_scrollWrapper_578773a",
+var Qe = "ChatCarousel_545467f0",
+  qe = "ChatCarousel_scrollWrapper_578773a",
   Ke = "ChatCarousel_scrollContent_61109c3c",
   Xe = "ChatCarousel_button_8bb458f8",
   Ye = "ChatCarousel_button__firstItem_e66db7f4",
   Ze = "ChatCarousel_divider_312a4ca4",
-  Je = B(function ({ className: e }) {
-    const { api: t } = x(),
-      { model: a, controls: o } = ae(),
-      n = a.computes.sortedChats(),
-      s = C(n),
-      [r, i] = (0, be.useState)(-1),
-      [l, c] = (0, be.useState)(!1),
-      d = (0, be.useRef)(null),
-      m = (0, be.useRef)(null);
+  Je = C(function ({ className: e }) {
+    const { api: t } = v(),
+      { model: o, controls: n } = ae(),
+      s = o.computes.sortedChats(),
+      r = T(s),
+      [l, c] = (0, be.useState)(-1),
+      [d, u] = (0, be.useState)(!1),
+      m = (0, be.useRef)(null),
+      h = (0, be.useRef)(null);
     ((0, be.useLayoutEffect)(() => {
       const e = t.getContainerSize(),
         a = t.getWrapperSize();
       if (e && a) {
-        if ((e < a && t.applyScroll(0), m.current)) {
-          const a = m.current - e;
+        if ((e < a && t.applyScroll(0), h.current)) {
+          const a = h.current - e;
           if (0 !== a) {
             const e = t.animationScroll.scrollPosition.get();
             t.applyScroll(e - a);
           }
         }
-        m.current = e;
+        h.current = e;
       }
-    }, [n.length, t]),
+    }, [s.length, t]),
       (0, be.useEffect)(() => {
         const e = () => {
           const e = t.getContainerSize(),
@@ -442,65 +442,65 @@ var qe = "ChatCarousel_545467f0",
         };
         return (
           e(),
-          new $().add(t.events.on("resizeHandled", e)).add(t.events.on("recalculateContent", e))
+          new M().add(t.events.on("resizeHandled", e)).add(t.events.on("recalculateContent", e))
             .dispose
         );
-      }, [t, n.length]),
+      }, [t, s.length]),
       (0, be.useEffect)(() => {
         function e() {
           const e = t.contentRef.current?.getBoundingClientRect();
-          e && o.updateWindowAnchor(Me(e.right, e.top));
+          e && n.updateWindowAnchor(Me(e.right, e.top));
         }
-        return new $()
+        return new M()
           .add(t.events.on("resizeHandled", e))
           .add(t.events.on("recalculateContent", e)).dispose;
-      }, [t, o]),
+      }, [t, n]),
       (0, be.useEffect)(() => {
-        if (s && n.length > s.length) {
-          const e = n.findIndex((e) => !s.includes(e));
-          -1 !== e && (i(e), c(!0));
+        if (r && s.length > r.length) {
+          const e = s.findIndex((e) => !r.includes(e));
+          -1 !== e && (c(e), u(!0));
         }
-      }, [n, s, t]));
-    const _ = (0, be.useRef)(0);
-    (H(() => {
-      if (-1 !== r && d.current && t.wrapperRef.current && l) {
+      }, [s, r, t]));
+    const f = (0, be.useRef)(0);
+    (i(() => {
+      if (-1 !== l && m.current && t.wrapperRef.current && d) {
         const e = t.animationScroll.scrollPosition.get(),
-          a = d.current.getBoundingClientRect(),
+          a = m.current.getBoundingClientRect(),
           o = t.wrapperRef.current.getBoundingClientRect();
         ((a.left >= o.left && a.right <= o.right) ||
-          (_.current = window.setTimeout(() => t.applyScroll(Ee(o, a, e)), 100)),
-          c(!1));
+          (f.current = window.setTimeout(() => t.applyScroll(Ee(o, a, e)), 100)),
+          u(!1));
       }
-    }, [r, t, l]),
-      j(() => clearTimeout(_.current)));
-    const h = u(92, []);
+    }, [l, t, d]),
+      a(() => clearTimeout(f.current)));
+    const y = _(92, []);
     return (0, De.jsxs)(De.Fragment, {
       children: [
-        n.length > 0 && (0, De.jsx)(ee, { className: Ze }),
+        s.length > 0 && (0, De.jsx)(ee, { className: Ze }),
         (0, De.jsx)("div", {
-          className: U(qe, e),
+          className: j(Qe, e),
           children: (0, De.jsx)(Ue, {
             api: t,
-            itemWidth: h,
-            children: (0, De.jsx)(v, {
-              classNames: { wrapper: Qe, content: Ke },
-              children: n.map((e, t) => {
-                const { id: a, name: n, selected: s, viewed: i, system: l, tooltipId: c } = e.get();
+            itemWidth: y,
+            children: (0, De.jsx)(x, {
+              classNames: { wrapper: qe, content: Ke },
+              children: s.map((e, t) => {
+                const { id: a, name: o, selected: s, viewed: r, system: i, tooltipId: c } = e.get();
                 return (0, De.jsx)(
                   He,
                   {
-                    ref: t === r ? d : null,
+                    ref: t === l ? m : null,
                     id: a,
-                    name: n,
+                    name: o,
                     opened: s,
-                    hasUnreadMessages: !i,
-                    systemChat: l,
+                    hasUnreadMessages: !r,
+                    systemChat: i,
                     tooltipId: c,
-                    onClick: o.openChat,
-                    onClose: o.deleteChat,
-                    className: U(Xe, 0 === t && Ye),
+                    onClick: n.openChat,
+                    onClose: n.deleteChat,
+                    className: j(Xe, 0 === t && Ye),
                   },
-                  n,
+                  o,
                 );
               }),
             }),
@@ -514,50 +514,50 @@ function et(e) {
 }
 var tt = "ChatChannels_c801bb1d",
   at = "ChatChannels_icon_a3ff928f";
-var ot = B(function ({ className: e }) {
+var ot = C(function ({ className: e }) {
     const { controls: t } = ae(),
-      a = Y(),
-      o = Q.resolve("strings"),
-      n = R(L({ value: Be.small }, { medium: { value: Be.medium } }).value, q),
-      s = m({
+      a = K(),
+      o = V.resolve("strings"),
+      s = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
+      r = h({
         header: o.readOrEmpty("tooltips.loby_messenger.channels_button.header"),
         body: o.readOrEmpty("tooltips.loby_messenger.channels_button.body"),
       });
     return (0, De.jsx)("div", {
-      ...s,
+      ...r,
       onClick: function (e) {
-        const { left: o, top: n } = e.currentTarget.getBoundingClientRect();
+        const { left: o, top: s } = e.currentTarget.getBoundingClientRect();
         (a.play("click", { target: "ChannelsButton", original: e }),
           t.openChannelsWindow(
             (function (e, t) {
-              const a = b("px");
-              return { x: X(e + a.x - 8), y: X(t + a.y - 8 - 347), width: 269, height: 347 };
-            })(o, n),
+              const a = q("px");
+              return { x: n(e + a.x - 8), y: n(t + a.y - 8 - 347), width: 269, height: 347 };
+            })(o, s),
           ),
-          s.onClick());
+          r.onClick());
       },
       onMouseEnter: function (e) {
-        (a.play("mouse-enter", { target: "ChannelsButton", original: e }), s.onMouseEnter(e));
+        (a.play("mouse-enter", { target: "ChannelsButton", original: e }), r.onMouseEnter(e));
       },
-      className: U(tt, e),
-      children: (0, De.jsx)(O, { ...je(n, "chat"), className: at }),
+      className: j(tt, e),
+      children: (0, De.jsx)(I, { ...je(s, "chat"), className: at }),
     });
   }),
   nt = "Contacts_51abbb46",
   st = "Contacts_icon_a516b2cd",
   rt = "Contacts_friendsOnlineCount_20e5b06c",
-  it = B(function () {
-    const e = Q.resolve("intl"),
-      t = Q.resolve("strings"),
+  it = C(function () {
+    const e = V.resolve("intl"),
+      t = V.resolve("strings"),
       { model: a } = ne(),
       o = a.contactsCount.get(),
-      n = R(L({ value: Be.small }, { medium: { value: Be.medium } }).value, q),
-      s = m({
+      n = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
+      s = h({
         header: t.readOrEmpty("tooltips.loby_messenger.contacts_button.header"),
         body: t.readOrEmpty("tooltips.loby_messenger.contacts_button.body"),
       }),
-      r = c("ContactsPopover"),
-      i = Y();
+      r = d("ContactsPopover"),
+      i = K();
     return (0, De.jsxs)("div", {
       ...r,
       ...s,
@@ -570,7 +570,7 @@ var ot = B(function ({ className: e }) {
       },
       "data-test-id": "contacts",
       children: [
-        (0, De.jsx)(O, { ...je(n, "contacts"), className: st }),
+        (0, De.jsx)(I, { ...je(n, "contacts"), className: st }),
         o > 0 && (0, De.jsx)("div", { className: rt, children: e.formatNumber("integral", o) }),
       ],
     });
@@ -599,7 +599,7 @@ var ot = B(function ({ className: e }) {
 function _t(e, t) {
   return 0 === e && t === lt.High ? ut : e < t ? dt : mt;
 }
-var ht = B(function () {
+var ht = C(function () {
     const { model: e } = me(),
       t = e.serverName.get(),
       a = e.status.get(),
@@ -609,15 +609,15 @@ var ht = B(function () {
         "serversInfo",
         (0, be.useMemo)(() => [], []),
       ),
-      className: U(ct.base, ct[`base__${o}`]),
+      className: j(ct.base, ct[`base__${o}`]),
       children: [
         (0, De.jsx)("div", { className: ct.serverName, children: t }),
         (0, De.jsx)("div", {
           className: ct.indicator,
-          children: i(3, (e) =>
+          children: O(3, (e) =>
             (0, De.jsx)(
               "div",
-              { className: U(ct.indicatorBar, ct[`indicatorBar__${_t(e, a)}`]) },
+              { className: j(ct.indicatorBar, ct[`indicatorBar__${_t(e, a)}`]) },
               `indicatorBar-${e}`,
             ),
           ),
@@ -626,12 +626,12 @@ var ht = B(function () {
     });
   }),
   ft = (0, be.lazy)(() =>
-    l(() => import("../chunks/widget2.js"), __vite__mapDeps([0, 1]), import.meta.url),
+    c(() => import("../chunks/widget2.js"), __vite__mapDeps([0, 1]), import.meta.url),
   );
 function yt(e) {
   const t = e.options.rootId;
   if (t)
-    return (0, De.jsx)(d, {
+    return (0, De.jsx)(m, {
       id: t,
       children: (0, De.jsx)(be.Suspense, { children: (0, De.jsx)(ft, { ...e }) }),
     });
@@ -640,18 +640,18 @@ function yt(e) {
 var bt = "ReferralProgram_valueContainer_a1a1e336",
   pt = "ReferralProgram_value_b1636df4",
   gt = "ReferralProgram_54cc6b2f",
-  vt = "ReferralProgram_icon_219cf8",
-  xt = "ReferralProgram_icon__highlighted_77ea5c59",
+  xt = "ReferralProgram_icon_219cf8",
+  vt = "ReferralProgram_icon__highlighted_77ea5c59",
   wt = "ReferralProgram_notifications_d09a7c8a",
-  Ct = B(function ({ className: e }) {
-    const t = Y(),
-      a = Q.resolve("strings"),
+  Ct = C(function ({ className: e }) {
+    const t = K(),
+      a = V.resolve("strings"),
       { model: o, controls: n } = de(),
       s = o.bubbleCount.get() > 0,
       r = o.firstIndication.get(),
-      i = L({ value: F.small }, { medium: { value: F.medium } }),
-      l = R(i.value, q),
-      c = m({
+      i = w({ value: G.small }, { medium: { value: G.medium } }),
+      l = B(i.value, L),
+      c = h({
         header: s
           ? a.readOrEmpty("tooltips.loby_messenger.referral_button.new_season.header")
           : a.readOrEmpty("tooltips.loby_messenger.referral_button.header"),
@@ -661,7 +661,7 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
       });
     return (0, De.jsxs)("div", {
       "data-test-id": "referral-program",
-      className: U(gt, e),
+      className: j(gt, e),
       onClick: function (e) {
         (t.play("click", { target: "ReferralProgram", original: e }),
           n.openReferralProgram(),
@@ -672,11 +672,11 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
       },
       onMouseLeave: c?.onMouseLeave,
       children: [
-        (0, De.jsx)(O, { ...je(l, "referral_program", r), className: U(vt, r && xt) }),
-        (0, De.jsx)(h.Root, {
+        (0, De.jsx)(I, { ...je(l, "referral_program", r), className: j(xt, r && vt) }),
+        (0, De.jsx)(y.Root, {
           hidden: !s,
           className: wt,
-          children: (0, De.jsx)(h.Value, {
+          children: (0, De.jsx)(y.Value, {
             value: o.bubbleCount.get(),
             size: i.value,
             classNames: { valueContainer: bt, value: pt },
@@ -689,12 +689,12 @@ var bt = "ReferralProgram_valueContainer_a1a1e336",
   Nt = "SessionStatistic_base__enabled_aac72629",
   jt = "SessionStatistic_icon_ebed106f",
   Mt = "SessionStatistic_icon__enabled_bd94c361",
-  Rt = "SessionStatistic_battleCount_488e1028",
-  kt = "enabled",
+  kt = "SessionStatistic_battleCount_488e1028",
+  Rt = "enabled",
   St = "disabled",
   Pt = "winback";
-var Et = B(function () {
-    const e = Q.resolve("intl"),
+var Et = C(function () {
+    const e = V.resolve("intl"),
       { model: t } = he(),
       a = t.battleCount.get(),
       o = t.enabled.get(),
@@ -703,36 +703,36 @@ var Et = B(function () {
         ((i = o),
         t.winback.get()
           ? { sessionStatisticState: Pt, iconEnabled: !1 }
-          : { sessionStatisticState: i ? kt : St, iconEnabled: i });
+          : { sessionStatisticState: i ? Rt : St, iconEnabled: i });
     var i;
-    const l = R(L({ value: Be.small }, { medium: { value: Be.medium } }).value, q),
-      d = Q.resolve("strings"),
-      u = m({
-        header: d.readOrEmpty("session_stats.tooltip.mainBtn.header"),
-        body: d.readOrEmpty(`session_stats.tooltip.mainBtn.body.${s}`),
+    const l = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
+      c = V.resolve("strings"),
+      u = h({
+        header: c.readOrEmpty("session_stats.tooltip.mainBtn.header"),
+        body: c.readOrEmpty(`session_stats.tooltip.mainBtn.body.${s}`),
       }),
-      _ = c("SessionStatsPopover"),
-      h = Y();
+      m = d("SessionStatsPopover"),
+      _ = K();
     return (
       n &&
       (0, De.jsxs)("div", {
-        ..._,
+        ...m,
         ...u,
-        className: U(Bt, r && Nt),
+        className: j(Bt, r && Nt),
         onClick: function (e) {
-          (r && (h.play("click", { target: "SessionStatisticButton", original: e }), _?.onClick(e)),
+          (r && (_.play("click", { target: "SessionStatisticButton", original: e }), m?.onClick(e)),
             u?.onClick());
         },
         onMouseEnter: function (e) {
-          (r && h.play("mouse-enter", { target: "SessionStatisticButton", original: e }),
+          (r && _.play("mouse-enter", { target: "SessionStatisticButton", original: e }),
             u?.onMouseEnter(e));
         },
         children: [
-          (0, De.jsx)(O, {
+          (0, De.jsx)(I, {
             ...je(l, r ? "session_stats" : "session_stats_disabled"),
-            className: U(jt, r && Mt),
+            className: j(jt, r && Mt),
           }),
-          a > 0 && (0, De.jsx)("div", { className: Rt, children: e.formatNumber("integral", a) }),
+          a > 0 && (0, De.jsx)("div", { className: kt, children: e.formatNumber("integral", a) }),
         ],
       })
     );
@@ -740,19 +740,19 @@ var Et = B(function () {
   It = "VehicleCompare_cff2d129",
   Ot = "VehicleCompare_icon_cbce43e9",
   zt = "VehicleCompare_vehicleCount_691224b7",
-  Wt = B(function (e) {
+  At = C(function (e) {
     const { model: t } = ye(),
       a = t.computes.getVehiclesCount(),
       o = a > 0 && t.enabled.get();
-    return (0, De.jsx)(At, { className: e.className, count: a, visible: o });
+    return (0, De.jsx)(Lt, { className: e.className, count: a, visible: o });
   }),
-  At = B(function ({ count: e, visible: t, className: a }) {
+  Lt = C(function ({ count: e, visible: t, className: a }) {
     const { controls: o } = ye(),
-      n = C(e),
+      n = T(e),
       s = (0, be.useRef)(null),
-      r = Q.resolve("intl"),
-      i = Q.resolve("strings"),
-      l = c("VehicleCompareCartPopover");
+      r = V.resolve("intl"),
+      i = V.resolve("strings"),
+      l = d("VehicleCompareCartPopover");
     ((0, be.useEffect)(() => {
       if (void 0 !== n) {
         if (0 === n && 1 === e && s.current) {
@@ -763,36 +763,36 @@ var Et = B(function () {
       }
     }, [l, e, n]),
       (0, be.useEffect)(() => {
-        _(() => {
+        u(() => {
           s.current && o.setCompareButtonDOMRect(s.current.getBoundingClientRect());
         });
       }));
-    const d = R(L({ value: Be.small }, { medium: { value: Be.medium } }).value, q),
-      u = m({ body: i.readOrEmpty("tooltips.loby_messenger.vehicle_compare_button.body") }),
-      h = Y();
+    const c = B(w({ value: Be.small }, { medium: { value: Be.medium } }).value, L),
+      m = h({ body: i.readOrEmpty("tooltips.loby_messenger.vehicle_compare_button.body") }),
+      _ = K();
     if (t)
       return (0, De.jsxs)("div", {
         ...l,
-        ...u,
+        ...m,
         ref: s,
-        className: U(It, a),
+        className: j(It, a),
         onClick: function (e) {
-          (h.play("click", { target: "VehicleCompareButton", original: e }),
+          (_.play("click", { target: "VehicleCompareButton", original: e }),
             l?.onClick(e),
-            u?.onClick());
+            m?.onClick());
         },
         onMouseEnter: function (e) {
-          (h.play("mouse-enter", { target: "VehicleCompareButton", original: e }),
-            u?.onMouseEnter(e));
+          (_.play("mouse-enter", { target: "VehicleCompareButton", original: e }),
+            m?.onMouseEnter(e));
         },
         children: [
-          (0, De.jsx)(O, { ...je(d, "comparison"), className: Ot }),
+          (0, De.jsx)(I, { ...je(c, "comparison"), className: Ot }),
           (0, De.jsx)("div", { className: zt, children: r.formatNumber("integral", e) }),
         ],
       });
   }),
-  Lt = "Footer_valueContainer_f6f9da36",
-  Vt = "Footer_value_96c42424",
+  Vt = "Footer_valueContainer_f6f9da36",
+  Wt = "Footer_value_96c42424",
   Dt = "Footer_c3a0f302",
   Ft = "Footer_section_9d3d3a12",
   $t = "Footer_button_c7203e02",
@@ -800,36 +800,36 @@ var Et = B(function () {
   Ht = "Footer_icon__notification_827f4505",
   Tt = "Footer_iconImage_50c8b940",
   Ut = "Footer_notifications_d2687e3",
-  qt = "Footer_divider_4ccd0230",
-  Qt = "Footer_vehicleCompare_531bca52";
-var Kt = B(
+  Qt = "Footer_divider_4ccd0230",
+  qt = "Footer_vehicleCompare_531bca52";
+var Kt = C(
     (0, be.forwardRef)(function ({ className: e }, t) {
       const { model: a } = le(),
         { model: o } = de(),
         n = a.newNotificationsCount.get(),
         s = n > 0,
         { controls: r } = re(),
-        i = Y(),
-        l = Q.resolve("strings"),
-        d = (0, be.useMemo)(() => [], []),
-        u = C(n) ?? n,
-        _ = L({ value: F.small }, { medium: { value: F.medium } }),
-        f = R(_.value, q),
-        y = A("settingsButton", d),
-        b = m({
+        i = K(),
+        l = V.resolve("strings"),
+        c = (0, be.useMemo)(() => [], []),
+        u = T(n) ?? n,
+        m = w({ value: G.small }, { medium: { value: G.medium } }),
+        _ = B(m.value, L),
+        f = A("settingsButton", c),
+        b = h({
           header: l.readOrEmpty("tooltips.loby_messenger.service_button.header"),
           body: l.readOrEmpty("tooltips.loby_messenger.service_button.body"),
         }),
-        p = c("notificationsList");
+        p = d("notificationsList");
       const g = (0, be.useMemo)(
         () => ({
-          rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
+          rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.Platoon("resId")),
         }),
         [],
       );
       return (0, De.jsxs)("div", {
         ref: t,
-        className: U(Dt, e),
+        className: j(Dt, e),
         children: [
           (0, De.jsxs)("div", {
             className: Ft,
@@ -844,30 +844,30 @@ var Kt = B(
           (0, De.jsxs)("div", {
             className: Ft,
             children: [
-              (0, De.jsx)(Wt, { className: Qt }),
+              (0, De.jsx)(At, { className: qt }),
               (0, De.jsx)(Et, {}),
-              (0, De.jsx)(ee, { className: qt }),
+              (0, De.jsx)(ee, { className: Qt }),
               (0, De.jsx)(ht, {}),
               (0, De.jsx)("div", {
-                ...y,
+                ...f,
                 className: Gt,
                 "data-test-id": "menu",
                 onClick: function (e) {
                   (i.play("click", { target: "GameMenuButton", original: e }),
                     r.openGameMenu(),
-                    y?.onClick());
+                    f?.onClick());
                 },
                 onMouseEnter: function (e) {
                   (i.play("mouse-enter", { target: "GameMenuButton", original: e }),
-                    y?.onMouseEnter(e));
+                    f?.onMouseEnter(e));
                 },
-                children: (0, De.jsx)(O, { ...je(f, "game_menu_button"), className: Tt }),
+                children: (0, De.jsx)(I, { ...je(_, "game_menu_button"), className: Tt }),
               }),
-              (0, De.jsx)(ee, { className: qt }),
+              (0, De.jsx)(ee, { className: Qt }),
               (0, De.jsxs)("div", {
                 ...p,
                 ...b,
-                className: U(Gt, Ht),
+                className: j(Gt, Ht),
                 "data-test-id": "notificationCenter",
                 onClick: function (e) {
                   (i.play("click", { target: "GameMenuButton", original: e }),
@@ -879,14 +879,14 @@ var Kt = B(
                     b?.onMouseEnter(e));
                 },
                 children: [
-                  (0, De.jsx)(O, { ...je(f, "notification_button", s), className: Tt }),
-                  (0, De.jsx)(h.Root, {
+                  (0, De.jsx)(I, { ...je(_, "notification_button", s), className: Tt }),
+                  (0, De.jsx)(y.Root, {
                     hidden: n <= 0,
                     className: Ut,
-                    children: (0, De.jsx)(h.Value, {
-                      value: ((v = n), (x = u), 0 === v ? x : v),
-                      size: _.value,
-                      classNames: { valueContainer: Lt, value: Vt },
+                    children: (0, De.jsx)(y.Value, {
+                      value: ((x = n), (v = u), 0 === x ? v : x),
+                      size: m.value,
+                      classNames: { valueContainer: Vt, value: Wt },
                     }),
                   }),
                 ],
@@ -895,29 +895,29 @@ var Kt = B(
           }),
         ],
       });
-      var v, x;
+      var x, v;
     }),
   ),
   Xt = "CompareBubble_border_741a305",
   Yt = "CompareBubble_f502af37",
   Zt = "CompareBubble_text_46c430aa",
   Jt = "CompareBubble_type_573849d2";
-function ea({ tier: e, type: t, isPremium: a, longName: s, onRest: r }) {
-  const [i] = n(() => ({
+function ea({ tier: e, type: a, isPremium: n, longName: s, onRest: r }) {
+  const [i] = p(() => ({
     from: { opacity: 0, y: 0 },
     to: async (e) => {
-      (await e({ opacity: 1, y: p(20) }), await z(1e3), await e({ opacity: 0, y: p(40) }));
+      (await e({ opacity: 1, y: Q(20) }), await o(1e3), await e({ opacity: 0, y: Q(40) }));
     },
-    config: { duration: 300, easing: M.easeInQuad },
+    config: { duration: 300, easing: t.easeInQuad },
     onRest: r,
   }));
-  return (0, De.jsxs)(o.div, {
+  return (0, De.jsxs)(J.div, {
     className: Yt,
     style: i,
     children: [
       (0, De.jsx)("div", { className: Xt }),
-      (0, De.jsx)(W, { value: e, className: Zt }),
-      (0, De.jsx)(E, { className: Jt, type: t, size: S.x24x24, premium: a }),
+      (0, De.jsx)(z, { value: e, className: Zt }),
+      (0, De.jsx)(S, { className: Jt, type: a, size: k.x24x24, premium: n }),
       (0, De.jsx)("div", { className: Zt, children: s }),
     ],
   });
@@ -926,13 +926,13 @@ var ta = "App_bcf56f63",
   aa = "App_bubble_ce2d4ee4",
   oa = "App_footer_8633140e",
   na = "App_footer__oldStyle_ed955e9f";
-var sa = B(function () {
-  const e = w(250, 0),
+var sa = C(function () {
+  const e = E(250, 0),
     { model: t } = re(),
     { model: a } = ye(),
     o = a.computes.getVehiclesCount(),
     n = a.compareButtonDOMRect.get(),
-    s = C(o),
+    s = T(o),
     r = (0, be.useRef)(0),
     [i, l] = (0, be.useState)(!1),
     c = o > 0 && a.enabled.get() && i,
@@ -959,48 +959,48 @@ var sa = B(function () {
               },
             }),
           }),
-        (0, De.jsx)(Kt, { ref: e, className: U(oa, t.oldStyle.get() && na) }),
+        (0, De.jsx)(Kt, { ref: e, className: j(oa, t.oldStyle.get() && na) }),
       ],
     })
   );
 });
-K(
+U(
   new N()
-    .add(V)
+    .add(W)
     .add(se)
     .addWithProps(oe, {
       options: {
-        rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.ContactsList("resId")),
+        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ContactsList("resId")),
       },
     })
     .addWithProps(ce, {
       options: {
-        rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.ReferralProgram("resId")),
+        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ReferralProgram("resId")),
       },
     })
     .addWithProps(fe, {
       options: {
-        rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.VehicleCompare("resId")),
+        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.VehicleCompare("resId")),
       },
     })
     .addWithProps(_e, {
       options: {
-        rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.SessionStats("resId")),
+        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.SessionStats("resId")),
       },
     })
     .addWithProps(ie, {
       options: {
-        rootId: Q.resolve("aliases").read((e) =>
+        rootId: V.resolve("aliases").read((e) =>
           e.lobby_footer.default.NotificationsCenter("resId"),
         ),
       },
     })
     .addWithProps(te, {
-      options: { rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.Chats("resId")) },
+      options: { rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.Chats("resId")) },
     })
     .addWithProps(ue, {
       options: {
-        rootId: Q.resolve("aliases").read((e) => e.lobby_footer.default.ServerInfo("resId")),
+        rootId: V.resolve("aliases").read((e) => e.lobby_footer.default.ServerInfo("resId")),
       },
     })
     .render((0, De.jsx)(sa, {})),

@@ -954,11 +954,13 @@
 					<param>4.8
 						<name>timeToOverheat</name>
 					</param>
-					<param>23.8
+					<param>25
 						<name>overheatDuration</name>
+						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>
-					<param>11.9
+					<param>12.5
 						<name>coolingTime</name>
+						<template>vehicle_hub.characteristics.templates.upTo</template>
 					</param>
 					<param>2
 						<name>coolingDelay</name>
