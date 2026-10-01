@@ -1,27 +1,27 @@
-import { r as a, j as e, f as s, t as r, m as t, n as i } from "../../../chunks/vendor.js";
+import { r as a, j as e, f as s, D as r, k as t, l as i } from "../../../chunks/vendor.js";
 import {
-  d as n,
-  e as d,
-  i as o,
-  f as c,
-  g as l,
-  r as m,
-  h as p,
-  u as _,
-  I as y,
-  m as u,
-  R as x,
-  j as g,
-  l as f,
-  b as h,
-  o as j,
-  C as v,
-  B as N,
-  t as b,
-  k as w,
-  p as A,
-  c as T,
-  U as C,
+  aC as n,
+  aD as d,
+  d as o,
+  aE as c,
+  O as l,
+  o as m,
+  aF as p,
+  av as _,
+  aG as y,
+  aH as u,
+  aI as x,
+  aJ as g,
+  aK as f,
+  aq as h,
+  aL as v,
+  ar as j,
+  P as N,
+  az as b,
+  ac as w,
+  aM as A,
+  au as T,
+  at as C,
 } from "../../../chunks/lib.js";
 const [E, H] = o()(
     ({ observableModel: a }) => ({ mainRewards: a.array("mainRewards") }),
@@ -31,40 +31,40 @@ const [E, H] = o()(
     }),
   ),
   O = "TextMask_gradient_4dbfb7a9",
-  k = "TextMask_9987747a",
-  M = "TextMask_gradient__top_f63df556",
+  M = "TextMask_9987747a",
+  k = "TextMask_gradient__top_f63df556",
   S = "TextMask_gradient__bottom_9724ea06",
-  Q = ({ text: a, className: r }) =>
+  z = ({ text: a, className: r }) =>
     e.jsxs("span", {
-      className: s(k, r),
+      className: s(M, r),
       children: [
         a,
-        e.jsx("span", { className: s(O, M), children: a }),
+        e.jsx("span", { className: s(O, k), children: a }),
         e.jsx("span", { className: s(O, S), children: a }),
       ],
     }),
-  W = ({ text: a, openTag: s, closeTag: r, classNames: t }) => {
+  Q = ({ text: a, openTag: s, closeTag: r, classNames: t }) => {
     const [i, n] = a.split(s);
     if (!n) return a;
     const [d, o] = n.split(r);
     return e.jsxs("span", {
       className: t?.title,
-      children: [i && c(i), d && e.jsx(Q, { className: t?.highlight, text: d }), o && c(o)],
+      children: [i && c(i), d && e.jsx(z, { className: t?.highlight, text: d }), o && c(o)],
     });
   },
-  z = "Header_7d83acf6",
-  B = "Header_subTitleWrapper_dd95ac49",
+  W = "Header_7d83acf6",
+  D = "Header_subTitleWrapper_dd95ac49",
   I = "Header_subTitle_11b912d7",
-  D = "Header_arrow_de9151",
+  B = "Header_arrow_de9151",
   P = "Header_arrowHead_4e2a2709",
-  $ = "Header_arrowBody_27276e71",
-  L = "Header_arrow__left_65f475ba",
-  U = "Header_arrow__right_65f475ba",
-  q = "Header_title_c5f44fd0",
-  F = "Header_underTitleWrapper_4dc05e5a",
-  G = "Header_wing_c1b09cf4",
-  J = "Header_wing__left_a6e40196",
-  K = "Header_wing__right_f408d2da",
+  L = "Header_arrowBody_27276e71",
+  $ = "Header_arrow__left_65f475ba",
+  q = "Header_arrow__right_65f475ba",
+  F = "Header_title_c5f44fd0",
+  G = "Header_underTitleWrapper_4dc05e5a",
+  J = "Header_wing_c1b09cf4",
+  K = "Header_wing__left_a6e40196",
+  U = "Header_wing__right_f408d2da",
   V = "Header_underTitle_a88a751e",
   X = r(function () {
     const a = l(),
@@ -95,35 +95,35 @@ const [E, H] = o()(
         }))(a),
       );
     return e.jsxs("div", {
-      className: z,
+      className: W,
       children: [
         e.jsxs(i.div, {
           style: c,
-          className: B,
+          className: D,
           children: [
             e.jsxs("div", {
-              className: s(D, L),
-              children: [e.jsx("div", { className: $ }), e.jsx("div", { className: P })],
+              className: s(B, $),
+              children: [e.jsx("div", { className: L }), e.jsx("div", { className: P })],
             }),
-            d && e.jsx(Q, { className: I, text: d }),
+            d && e.jsx(z, { className: I, text: d }),
             e.jsxs("div", {
-              className: s(D, U),
-              children: [e.jsx("div", { className: P }), e.jsx("div", { className: $ })],
+              className: s(B, q),
+              children: [e.jsx("div", { className: P }), e.jsx("div", { className: L })],
             }),
           ],
         }),
         n &&
           e.jsx(i.div, {
             style: _,
-            className: q,
-            children: e.jsx(W, { text: n, openTag: "{gold_Open}", closeTag: "{gold_Close}" }),
+            className: F,
+            children: e.jsx(Q, { text: n, openTag: "{gold_Open}", closeTag: "{gold_Close}" }),
           }),
         e.jsxs("div", {
-          className: F,
+          className: G,
           children: [
             o && e.jsx("div", { className: V, children: o }),
-            e.jsx("div", { className: s(G, J) }),
-            e.jsx("div", { className: s(G, K) }),
+            e.jsx("div", { className: s(J, K) }),
+            e.jsx("div", { className: s(J, U) }),
           ],
         }),
       ],
@@ -195,8 +195,8 @@ const [E, H] = o()(
   ga = "App_raysWrapper_e48e223c",
   fa = "App_godrays_3df409cd",
   ha = "App_rays_20aa2b69",
-  ja = "App_wrapperButton_6d5ac65d",
-  va = "App_button_7b36300d",
+  va = "App_wrapperButton_6d5ac65d",
+  ja = "App_button_7b36300d",
   Na = "App_buttonContent_cd42fca3",
   ba = 300,
   wa = 2400,
@@ -207,19 +207,19 @@ const [E, H] = o()(
     delay: a,
     config: { duration: 400, easings: p.easeOutQuad },
   }),
-  Ra = (a) => ({
+  Ca = (a) => ({
     from: { opacity: 0 },
     to: { opacity: 1 },
     delay: a,
     config: { duration: 600, easings: p.easeOutQuad },
   }),
-  Ca = (a) => ({
+  Ea = (a) => ({
     from: { opacity: 0 },
     to: { opacity: 1 },
     delay: a,
     config: { duration: ba, easings: p.easeOutQuad },
   }),
-  Ea = (a) => ({
+  Ra = (a) => ({
     from: { opacity: 0, y: "0rem" },
     to: { opacity: 1, y: "-10rem" },
     delay: a,
@@ -255,23 +255,23 @@ const [E, H] = o()(
         return wa + a * ba;
       }, [p.mainRewards]),
       [A, T] = t(() => Ta(2e3)),
-      [C, E] = t(() => Ra(Aa)),
-      [O, k] = t(() => Ca(f())),
-      [M, S] = t(() => Ea(f()));
+      [C, E] = t(() => Ca(Aa)),
+      [O, M] = t(() => Ea(f())),
+      [k, S] = t(() => Ra(f()));
     return (
       a.useLayoutEffect(() => {
         o(!1);
         const a = f();
         (T.start({ ...Ta(2e3) }),
           E.start({
-            ...Ra(Aa),
+            ...Ca(Aa),
             onStart: () => {
               y.play("animation", { target: "godrays" });
             },
           }),
-          k.start({ ...Ca(a) }),
+          M.start({ ...Ea(a) }),
           S.start({
-            ...Ea(a),
+            ...Ra(a),
             onStart: () => {
               y.play("animation", { target: "end" });
             },
@@ -279,13 +279,13 @@ const [E, H] = o()(
           }),
           T.set({ opacity: 0, y: "0rem" }),
           E.set({ opacity: 0 }),
-          k.set({ opacity: 0 }),
+          M.set({ opacity: 0 }),
           S.set({ opacity: 0, y: "0rem" }));
-      }, [S, k, E, T, f, y]),
+      }, [S, M, E, T, f, y]),
       e.jsxs("div", {
         className: s(oa),
         children: [
-          e.jsx(j, {
+          e.jsx(v, {
             src: R.videos.achievements.bg_reward_screen(),
             autoplay: !0,
             loop: !0,
@@ -306,7 +306,7 @@ const [E, H] = o()(
               }),
             ],
           }),
-          e.jsx(i.div, { style: O, className: ca, children: e.jsx(v, { onClose: x }) }),
+          e.jsx(i.div, { style: O, className: ca, children: e.jsx(j, { onClose: x }) }),
           e.jsx(X, {}),
           e.jsxs("div", {
             className: la,
@@ -324,11 +324,11 @@ const [E, H] = o()(
                 }),
               }),
               e.jsx(i.div, {
-                style: M,
-                className: ja,
+                style: k,
+                className: va,
                 children: e.jsx(N, {
                   theme: b.primary,
-                  classNames: { base: va, content: Na },
+                  classNames: { base: ja, content: Na },
                   onClick: () => {
                     r && _.close("confirm");
                   },

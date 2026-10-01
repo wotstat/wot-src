@@ -1,4 +1,4 @@
-import { x as s, j as e } from "../../../../chunks/vendor.js";
+import { y as s, j as e } from "../../../../chunks/vendor.js";
 import {
   i as a,
   a3 as o,
@@ -6,7 +6,7 @@ import {
   F as i,
   z as n,
   C as c,
-  b as l,
+  v as l,
   U as d,
 } from "../../../../chunks/lib.js";
 /* empty css                       */ const [p, r] = a("WinbackLeaveModePopoverViewModel")(
@@ -16,12 +16,12 @@ import {
   b = "App_5ad914ec",
   m = "App_header_1d0278d1",
   j = "App_title_7858e66b",
-  x = "App_info_84a9d944",
-  _ = "App_description_bd5cc206",
-  h = "App_battlesLeft_43359d1b",
-  k = "App_battlesCount_edd27fd7",
-  u = "App_button_db861d1e",
-  v = s(function () {
+  _ = "App_info_84a9d944",
+  h = "App_description_bd5cc206",
+  k = "App_battlesLeft_43359d1b",
+  x = "App_battlesCount_edd27fd7",
+  v = "App_button_db861d1e",
+  u = s(function () {
     const { model: s, controls: a } = r();
     return (
       o(),
@@ -35,20 +35,20 @@ import {
                 e.jsx(i, { className: j, path: "winback.winbackPopover.title" }),
                 e.jsx(n, {
                   contentId: R.views.mono.winback.tooltips.mode_info_tooltip("resId"),
-                  children: e.jsx("div", { className: x }),
+                  children: e.jsx("div", { className: _ }),
                 }),
               ],
             }),
-            e.jsx(i, { className: _, path: "winback.winbackPopover.description" }),
+            e.jsx(i, { className: h, path: "winback.winbackPopover.description" }),
             e.jsx(i, {
-              className: h,
+              className: k,
               path: "winback.winbackPopover.battlesCount",
               params: {
-                battlesCount: e.jsx("span", { className: k, children: s.battlesCount.get() }),
+                battlesCount: e.jsx("span", { className: x, children: s.battlesCount.get() }),
               },
             }),
             e.jsx(c, {
-              mixClass: u,
+              mixClass: v,
               onClick: a.close,
               children: e.jsx(i, { path: "winback.winbackPopover.turnOff" }),
             }),
@@ -57,4 +57,4 @@ import {
       })
     );
   });
-l(e.jsx(p, { children: e.jsx(d, { children: e.jsx(v, {}) }) }), { immediateLayout: !1 });
+l(e.jsx(p, { children: e.jsx(d, { children: e.jsx(u, {}) }) }), { immediateLayout: !1 });

@@ -13,13 +13,13 @@ import {
   h as comparer$1,
   R as React,
   i as ReactDOM,
-  k as cx,
-  l as cva,
-  m as useSpring,
-  n as animated,
-  p as ReactDOM$1,
-  q as runInAction,
-  s as autorun,
+  k as useSpring,
+  l as animated,
+  m as cva,
+  n as ReactDOM$1,
+  p as runInAction,
+  q as autorun,
+  s as cx,
 } from "./vendor.js";
 const resources = createContainer();
 function concatWithPath(e, t) {
@@ -2617,415 +2617,82 @@ async function runView(
     ),
     r && (initExternalPaddings$1(t), enableFullScreenModeSupported$1()));
 }
-function ColorsProvider(e) {
-  return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: e.children });
-}
-function UIProvider(e) {
-  return jsxRuntimeExports.jsx(ColorsProvider, {
-    children: jsxRuntimeExports.jsx(SoundsProvider, {
-      overrides: e.soundsOverrides,
-      severity: e.soundSeverity,
-      silent: e.soundsOff,
-      children: e.children,
-    }),
-  });
-}
-function makeEngineEvent(e) {
-  return (t) => (
-    engine.on(e, t),
-    () => {
-      engine.off(e, t);
-    }
-  );
-}
-function setTrackMouseOutside(e) {
-  viewEnv.setTrackMouseOnStage(e);
-}
-const internalMouse = {
-  down: makeEngineEvent("mousedown"),
-  up: makeEngineEvent("mouseup"),
-  move: makeEngineEvent("mousemove"),
-};
-function initMouseEvents() {
-  const e = { listeners: 0, enabled: !0, initialized: !1 };
-  function t() {
-    e.enabled && setTrackMouseOutside(!1);
-  }
-  function s() {
-    e.enabled && setTrackMouseOutside(!0);
-  }
-  function r() {
-    e.enabled
-      ? e.listeners < 1
-        ? ((e.initialized = !1),
-          document.body.removeEventListener("mouseenter", t),
-          document.body.removeEventListener("mouseleave", s))
-        : e.initialized ||
-          ((e.initialized = !0),
-          document.body.addEventListener("mouseenter", t),
-          document.body.addEventListener("mouseleave", s))
-      : setTrackMouseOutside(!1);
-  }
-  return {
-    ...["down", "up", "move"].reduce(
-      (t, s) => (
-        (t[s] = (function (t) {
-          return (s) => {
-            e.listeners += 1;
-            let n = !0;
-            const a = `mouse${t}`,
-              o = internalMouse[t]((e) => s([e, "outside"]));
-            function i(e) {
-              s([e, "inside"]);
-            }
-            return (
-              window.addEventListener(a, i),
-              r(),
-              () => {
-                n && (o(), window.removeEventListener(a, i), (e.listeners -= 1), r(), (n = !1));
-              }
-            );
-          };
-        })(s)),
-        t
-      ),
-      {},
-    ),
-    disable() {
-      ((e.enabled = !1), r());
-    },
-    enable() {
-      ((e.enabled = !0), r());
-    },
-    enableOutside() {
-      e.enabled && setTrackMouseOutside(!0);
-    },
-    disableOutside() {
-      e.enabled && setTrackMouseOutside(!1);
-    },
-  };
-}
-function playSound(e) {
-  engine.call("PlaySound", e).catch((t) => {
-    console.error(`playSound('${e}'): `, t);
-  });
-}
-initMouseEvents();
-const sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
-  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
-  play = { ...plays, sound: playSound },
-  sound = { play: play },
-  ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
-  ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
-function arabic2roman$1(e) {
-  let t = "";
-  for (let s = ARABIC.length - 1; s >= 0; s--)
-    for (; e >= ARABIC[s];) ((t += ROMAN[s]), (e -= ARABIC[s]));
-  return t;
-}
-const ROMAN_FORBIDDEN_LANGUAGE_CODES = ["ko", "no"];
-function getTextureUrl(e, t, s = 1) {
-  return viewEnv.getChildTexturePath(e, t.width, t.height, s);
-}
-function getBgUrl(e, t, s) {
-  return `url(${getTextureUrl(e, t, s)})`;
-}
-ROMAN_FORBIDDEN_LANGUAGE_CODES.includes(R.strings.settings.LANGUAGE_CODE());
-const children = Object.freeze(
-    Object.defineProperty(
-      { __proto__: null, getBgUrl: getBgUrl, getTextureUrl: getTextureUrl },
-      Symbol.toStringTag,
-      { value: "Module" },
-    ),
-  ),
-  displayStatus = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
-  events = {
-    onTextureFrozen: makeEngineEvent("self.onTextureFrozen"),
-    onTextureReady: makeEngineEvent("self.onTextureReady"),
-    onDomBuilt: makeEngineEvent("self.onDomBuilt"),
-    onLoaded: makeEngineEvent("self.onLoaded"),
-    onDisplayChanged: makeEngineEvent("self.onShowingStatusChanged"),
-    onFocusUpdated: makeEngineEvent("self.onFocusChanged"),
-    children: {
-      onAdded: makeEngineEvent("children.onAdded"),
-      onLoaded: makeEngineEvent("children.onLoaded"),
-      onRemoved: makeEngineEvent("children.onRemoved"),
-      onAttached: makeEngineEvent("children.onAttached"),
-      onTextureReady: makeEngineEvent("children.onTextureReady"),
-      onRequestPosition: makeEngineEvent("children.requestPosition"),
-    },
+const UNKNOWN_NATION = "none",
+  list = [
+    "ussr",
+    "germany",
+    "usa",
+    "china",
+    "france",
+    "uk",
+    "japan",
+    "czech",
+    "sweden",
+    "poland",
+    "italy",
+  ],
+  nationById = (e) => list[e] ?? UNKNOWN_NATION,
+  LIGHT_TANK = "lightTank",
+  MEDIUM_TANK = "mediumTank",
+  HEAVY_TANK = "heavyTank",
+  SPG = "SPG",
+  AT_SPG = "AT-SPG",
+  types$2 = {
+    lightTank: LIGHT_TANK,
+    mediumTank: MEDIUM_TANK,
+    heavyTank: HEAVY_TANK,
+    SPG: SPG,
+    "AT-SPG": AT_SPG,
   },
-  viewEventTypes = { closePopover: 2, move: 16, close: 32, minimize: 64 },
-  createViewEventArguments$1 = (e) =>
-    Object.entries(e).map(([e, t]) => {
-      const s = "GFValueProxy";
-      switch (typeof t) {
-        case "number":
-          return { __Type: s, name: e, number: t };
-        case "boolean":
-          return { __Type: s, name: e, bool: t };
-        default:
-          return { __Type: s, name: e, string: t.toString() };
-      }
-    }),
-  sendViewEvent = (e, t) => {
-    const s = "GFViewEventProxy";
-    if (void 0 !== t) {
-      const { args: r, ...n } = t;
-      return void 0 !== r
-        ? viewEnv.handleViewEvent({
-            __Type: s,
-            type: e,
-            ...n,
-            arguments: createViewEventArguments$1(r),
-          })
-        : viewEnv.handleViewEvent({ __Type: s, type: e, ...n });
-    }
-    return viewEnv.handleViewEvent({ __Type: s, type: e });
+  typeValues = Object.values(types$2),
+  isTypeValidValue = (e) => typeValues.includes(e);
+function getVehicleImageKey(e) {
+  const t = e.indexOf(":");
+  return normalizeResource(t < 0 ? e.toLowerCase() : e.substring(t + 1).toLowerCase());
+}
+function isRentVehicle(e) {
+  return e.rent.isRented;
+}
+const RUDY_PL = 51345,
+  RUDY_USSR = 59393,
+  RUDIES = [RUDY_USSR, RUDY_PL],
+  sameTanksRemap = { [RUDY_PL]: RUDIES, [RUDY_USSR]: RUDIES },
+  WITHOUT_ROLE = "without_role",
+  roles = {
+    assault: "assault",
+    sniper: "sniper",
+    support: "support",
+    universal: "universal",
+    break: "break",
+    scout: "scout",
+    spg: "spg",
   },
-  sendEvent = {
-    close(e) {
-      sendViewEvent("popover" === e ? viewEventTypes.closePopover : viewEventTypes.close);
-    },
-    minimize() {
-      sendViewEvent(viewEventTypes.minimize);
-    },
-    move(e) {
-      sendViewEvent(viewEventTypes.move, { isMouseEvent: !0, on: e });
-    },
-  },
-  ALL_SIDES = 15;
-function addPreloadTexture(e) {
-  viewEnv.addPreloadTexture(e);
-}
-function setInputPaddingsRem(e) {
-  viewEnv.setHitAreaPaddingsRem(e, e, e, e, ALL_SIDES);
-}
-function getBrowserTexturePath(e, t, s, r = 1) {
-  return viewEnv.getWebBrowserTexturePath(e, t, s, r);
-}
-function addModelObserver(e, t, s) {
-  return viewEnv.addDataChangedCallback(e, t, s);
-}
-function setSidePaddingsRem(e) {
-  viewEnv.setHitAreaPaddingsRem(e.top, e.right, e.bottom, e.left, ALL_SIDES);
-}
-function getSize(e = "px") {
-  return "rem" === e ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
-}
-function resize(e, t, s = "px") {
-  return "rem" === s ? viewEnv.resizeViewRem(e, t) : viewEnv.resizeViewPx(e, t);
-}
-function getViewGlobalPosition(e = "rem") {
-  const t = viewEnv.getViewGlobalPositionRem();
-  return "rem" === e ? t : { x: remToPx(t.x), y: remToPx(t.y) };
-}
-function freezeTextureBeforeResize() {
-  viewEnv.freezeTextureBeforeResize();
-}
-function getScale() {
-  return viewEnv.getScale();
-}
-function pxToRem(e) {
-  return viewEnv.pxToRem(e);
-}
-function remToPx(e) {
-  return viewEnv.remToPx(e);
-}
-function setAnimateWindow(e, t) {
-  viewEnv.setAnimateWindow(e, t);
-}
-function isFocused() {
-  return viewEnv.isFocused();
-}
-function setEventHandled() {
-  return viewEnv.setEventHandled();
-}
-function isEventHandled() {
-  return viewEnv.isEventHandled();
-}
-function forceTriggerMouseMove() {
-  viewEnv.forceTriggerMouseMove();
-}
-function getDisplayStatus() {
-  return viewEnv.getShowingStatus();
-}
-const getFontNames = (() => {
-    let e = [];
-    return () => (0 === e.length && (e = Object.keys(viewEnv.getFontsConfig())), e);
-  })(),
-  arabic2roman = arabic2roman$1;
-function getExternalPaddingsRem() {
-  return viewEnv.getExternalPaddingsRem();
-}
-const displayStatusIs = Object.keys(displayStatus).reduce(
-    (e, t) => ((e[t] = () => viewEnv.getShowingStatus() === displayStatus[t]), e),
-    {},
-  ),
-  extraSize = {
-    set: (e, t) => {
-      viewEnv.setExtraSizeRem(e, t);
-    },
-    get: (e, t) => {
-      viewEnv.getExtraSizeRem(e, t);
-    },
-  },
-  whenTutorialReady = Promise.all([
-    new Promise((e) => {
-      window.isDomBuilt ? e() : events.onDomBuilt(e);
-    }),
-    engine.whenReady,
-  ]);
-function enableFullScreenModeSupported() {
-  viewEnv.setFullscreenModeSupported(!0);
-}
-function initExternalPaddings(e) {
-  function t() {
-    const { top: t, right: s, bottom: r, left: n } = viewEnv.getExternalPaddingsRem();
-    (e.style.setProperty("--external-padding-top", `${t}rem`),
-      e.style.setProperty("--external-padding-right", `${s}rem`),
-      e.style.setProperty("--external-padding-bottom", `${r}rem`),
-      e.style.setProperty("--external-padding-left", `${n}rem`));
-  }
-  (t(), engine.on("self.onPaddingsUpdated", () => t()));
-}
-const view = Object.freeze(
-    Object.defineProperty(
-      {
-        __proto__: null,
-        addModelObserver: addModelObserver,
-        addPreloadTexture: addPreloadTexture,
-        arabic2roman: arabic2roman,
-        children: children,
-        displayStatus: displayStatus,
-        displayStatusIs: displayStatusIs,
-        enableFullScreenModeSupported: enableFullScreenModeSupported,
-        events: events,
-        extraSize: extraSize,
-        forceTriggerMouseMove: forceTriggerMouseMove,
-        freezeTextureBeforeResize: freezeTextureBeforeResize,
-        getBrowserTexturePath: getBrowserTexturePath,
-        getDisplayStatus: getDisplayStatus,
-        getExternalPaddingsRem: getExternalPaddingsRem,
-        getFontNames: getFontNames,
-        getScale: getScale,
-        getSize: getSize,
-        getViewGlobalPosition: getViewGlobalPosition,
-        initExternalPaddings: initExternalPaddings,
-        isEventHandled: isEventHandled,
-        isFocused: isFocused,
-        pxToRem: pxToRem,
-        remToPx: remToPx,
-        resize: resize,
-        sendEvent: sendEvent,
-        setAnimateWindow: setAnimateWindow,
-        setEventHandled: setEventHandled,
-        setInputPaddingsRem: setInputPaddingsRem,
-        setSidePaddingsRem: setSidePaddingsRem,
-        whenTutorialReady: whenTutorialReady,
-      },
-      Symbol.toStringTag,
-      { value: "Module" },
-    ),
-  ),
-  env = { view: view, sound: sound },
-  root$d = "Textbutton_root_599b35e4",
-  base$r = "Textbutton_b1283086",
-  base__right$1 = "Textbutton_base__right_78d4c03f",
-  icon$b = "Textbutton_icon_9ba4c60",
-  icon__back = "Textbutton_icon__back_599b35e4",
-  icon__forward = "Textbutton_icon__forward_4ef35d4d",
-  icon__close = "Textbutton_icon__close_b2af8bd5",
-  icon__info = "Textbutton_icon__info_6cbc7293",
-  glow$1 = "Textbutton_glow_1ddc70ba",
-  caption = "Textbutton_caption_4350685c",
-  caption__back = "Textbutton_caption__back_599b35e4",
-  caption__forward = "Textbutton_caption__forward_599b35e4",
-  caption__close = "Textbutton_caption__close_c29bdb5",
-  caption__info = "Textbutton_caption__info_ccd96b67",
-  goto = "Textbutton_goto_d2c81cbd",
-  base__left$1 = "Textbutton_base__left_599b35e4",
-  shine = "Textbutton_shine_527e4656",
-  styles$v = {
-    root: root$d,
-    base: base$r,
-    base__right: base__right$1,
-    icon: icon$b,
-    icon__back: icon__back,
-    icon__forward: icon__forward,
-    icon__close: icon__close,
-    icon__info: icon__info,
-    glow: glow$1,
-    caption: caption,
-    caption__back: caption__back,
-    caption__forward: caption__forward,
-    caption__close: caption__close,
-    caption__info: caption__info,
-    goto: goto,
-    base__left: base__left$1,
-    shine: shine,
-  },
-  TextButton = ({
-    caption: e,
-    onClick: t,
-    goto: s,
-    classNames: r,
-    onMouseEnter: n,
-    onMouseLeave: a,
-    onMouseDown: o,
-    onMouseUp: i,
-    side: l = "left",
-    type: c = "back",
-    soundHover: u = "highlight",
-    soundClick: d = "play",
-    ..._
-  }) => {
-    const p = reactExports.useCallback(
-        (e) => {
-          (n?.(e), env.sound.play.sound(u));
-        },
-        [n, u],
-      ),
-      m = reactExports.useCallback(
-        (e) => {
-          a?.(e);
-        },
-        [a],
-      ),
-      g = reactExports.useCallback(
-        (e) => {
-          (o?.(e), env.sound.play.sound(d));
-        },
-        [o, d],
-      ),
-      f = reactExports.useCallback(
-        (e) => {
-          i?.(e);
-        },
-        [i],
-      );
-    return jsxRuntimeExports.jsxs("div", {
-      className: cx(styles$v.base, styles$v[`base__${c}`], styles$v[`base__${l}`], r?.base),
-      onMouseEnter: p,
-      onMouseLeave: m,
-      onMouseDown: g,
-      onMouseUp: f,
-      onClick: t,
-      ..._,
-      children: [
-        "info" !== c && jsxRuntimeExports.jsx("div", { className: styles$v.shine }),
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$v.icon, styles$v[`icon__${c}`], styles$v[`icon__${l}`], r?.icon),
-          children: jsxRuntimeExports.jsx("div", { className: cx(styles$v.glow, r?.glow) }),
-        }),
-        jsxRuntimeExports.jsx("div", {
-          className: cx(styles$v.caption, styles$v[`caption__${c}`], r?.caption),
-          children: e,
-        }),
-        s && jsxRuntimeExports.jsx("div", { className: cx(styles$v.goto, r?.goto), children: s }),
-      ],
-    });
-  },
+  mapRoleByKey = [
+    WITHOUT_ROLE,
+    roles.spg,
+    roles.assault,
+    roles.break,
+    roles.universal,
+    roles.support,
+    roles.assault,
+    roles.support,
+    roles.universal,
+    roles.sniper,
+    roles.assault,
+    roles.universal,
+    roles.sniper,
+    roles.support,
+    roles.universal,
+    WITHOUT_ROLE,
+    roles.scout,
+    roles.support,
+  ],
+  getRoleByKey = (e) => mapRoleByKey[e] ?? WITHOUT_ROLE,
+  atSpgRoles = [roles.assault, roles.universal, roles.sniper, roles.support],
+  heavyTankRoles = [roles.assault, roles.break, roles.universal, roles.support],
+  mediumTankRoles = [roles.assault, roles.support, roles.universal, roles.sniper],
+  lightTankRoles = [roles.universal, roles.scout, roles.support],
+  vehicleState = { UNSUITABLE_TO_QUEUE: "unsuitableToQueue" },
   NodeTypes = { Text: 1, Tag: 2, Var: 3 };
 function parseArguments(e) {
   const t = [];
@@ -3094,11 +2761,11 @@ function parse(e, t) {
 }
 const COLORS =
     "blackReal, whiteReal, white, whiteOrange, whiteSpanish, par, parSecondary, parTertiary, infoRed, red, redDark, yellow, orange, cream, brown, greenBright, green, greenDark, blueBooster, blueTeamkiller, cred, gold, bond, prom",
-  base$q = "FormatText_db904f12",
+  base$r = "FormatText_db904f12",
   base__fullSize = "FormatText_base__fullSize_a514958e",
   nowrap = "FormatText_nowrap_ff69eca3",
-  styles$u = { COLORS: COLORS, base: base$q, base__fullSize: base__fullSize, nowrap: nowrap },
-  legacyColors = new Set(styles$u.COLORS?.split(", ") ?? []);
+  styles$v = { COLORS: COLORS, base: base$r, base__fullSize: base__fullSize, nowrap: nowrap },
+  legacyColors = new Set(styles$v.COLORS?.split(", ") ?? []);
 let keyId = 0;
 function takeKey() {
   return ++keyId;
@@ -3129,7 +2796,7 @@ function splitArray(e) {
         {
           children: [
             jsxRuntimeExports.jsxs("span", {
-              className: styles$u.nowrap,
+              className: styles$v.nowrap,
               children: [split(r), n[0]],
             }),
             a,
@@ -3308,7 +2975,7 @@ const defaultBrackets = { start: "{{", end: "}}" },
       ),
       _ = reactExports.useMemo(() => parse(l ? `{{@ split}}${u}{{/}}` : u, t), [t, u, l]),
       p = reactExports.useMemo(() => render(_, d, e.params), [_, d, e.params]),
-      m = clsx(styles$u.base, a && styles$u.base__fullSize, c.className);
+      m = clsx(styles$v.base, a && styles$v.base__fullSize, c.className);
     return e.inline
       ? (console.warn(
           "[FormatText] using the 'inline' props causes memory leaks due to incorrect working of the 'cohinline' attribute in GF version 1.48.2.3. Can cause client crashes.",
@@ -3330,6 +2997,1004 @@ function FormatString({ path: e, ...t }) {
     ...t,
   });
 }
+const formatters = Object.fromEntries(
+  Object.entries(defaultFormatters).map(([e]) => [e, (e) => e]),
+);
+function renderString(e, t = {}) {
+  const s = parse(e, defaultBrackets);
+  return String(render(s, formatters, t));
+}
+function renderResolvedString(e, t = {}) {
+  const s = resources.resolve("strings").readOrEmpty(e);
+  return 0 === s.length ? s : renderString(s, t);
+}
+const Context$1 = reactExports.createContext(void 0);
+function useHorizontalScroll() {
+  const e = reactExports.useContext(Context$1);
+  if (!e)
+    throw new Error("useHorizontalScroll must be used within a Scroll.Horizontal.Base component");
+  return e;
+}
+var Direction = ((e) => ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e))(
+  Direction || {},
+);
+const defaultSettings = {
+    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
+    animationConfig: { tension: 170, friction: 26 },
+  },
+  createApiHook = ({
+    getContainerSize: e,
+    getBounds: t,
+    setScrollPosition: s,
+    getDirection: r,
+    getWrapperSize: n,
+    triggerMouseMoveOnUpdate: a = !1,
+  }) => {
+    const o = (e, s) => {
+      const [r, n] = t(e);
+      return clamp(r, n, s);
+    };
+    return (i = {}) => {
+      const { settings: l = defaultSettings } = i,
+        [c, u] = reactExports.useState(!1),
+        d = reactExports.useRef(null),
+        _ = reactExports.useRef(null),
+        p = reactExports.useRef({ wrapper: 0, container: 0 }),
+        m = useEmitter(),
+        g = useThrottle(
+          () => {
+            forceTriggerMouseMove$1();
+          },
+          [],
+          150,
+        ),
+        [f, x] = useSpring(() => ({
+          scrollPosition: 0,
+          onChange: (e) => {
+            const t = d.current;
+            t && (s(t, e), m.trigger("change", e));
+          },
+          onRest: (e) => m.trigger("rest", e),
+          onStart: (e) => m.trigger("start", e),
+          onPause: (e) => m.trigger("pause", e),
+        })),
+        h = reactExports.useCallback(
+          (e, t, s) => {
+            const r = f.scrollPosition.get(),
+              n = (f.scrollPosition.goal ?? 0) - r;
+            return o(e, t * s + n + r);
+          },
+          [f.scrollPosition],
+        ),
+        E = reactExports.useCallback(
+          function (e, { immediate: t = !1, reset: s = !0 } = {}) {
+            const r = d.current;
+            if (!r) return;
+            const n = o(r, e);
+            f.scrollPosition.goal !== n &&
+              x.start({
+                scrollPosition: n,
+                immediate: t,
+                reset: s,
+                config: l.animationConfig,
+                from: { scrollPosition: o(r, f.scrollPosition.get()) },
+                onChange: () => {
+                  a && g();
+                },
+              });
+          },
+          [f.scrollPosition, x, l.animationConfig, g],
+        ),
+        b = reactExports.useCallback(
+          function (e) {
+            const t = d.current,
+              s = _.current;
+            if (!t || !s) return;
+            const r = ((e, t) => {
+                switch (t.type) {
+                  case "proportional":
+                    return n(e) / t.factor;
+                  case "fixed":
+                    return t.value;
+                }
+              })(s, l.step),
+              a = h(t, e, r);
+            E(a);
+          },
+          [E, h, l.step],
+        ),
+        y = reactExports.useCallback(
+          function (e) {
+            c ||
+              (0 !== e.deltaY && b(r(e)),
+              d.current && m.trigger("mouseWheel", e, f.scrollPosition, t(d.current)));
+          },
+          [f.scrollPosition, b, m, c],
+        ),
+        v = reactExports.useCallback(
+          function () {
+            const e = d.current;
+            e && (E(o(e, f.scrollPosition.goal), { immediate: !0 }), m.trigger("resizeHandled"));
+          },
+          [E, f.scrollPosition.goal, m],
+        );
+      useRefResizeObserver(_, (e) => {
+        const t = e.target;
+        if (!(t instanceof HTMLElement)) return;
+        const s = n(t);
+        p.current.wrapper !== s && v();
+      });
+      const R = useEvent(function () {
+          const t = d.current;
+          if (!t) return;
+          const s = e(t),
+            r = _.current ? n(_.current) : 0;
+          if (p.current.container !== s || p.current.wrapper !== r) {
+            const e = o(t, f.scrollPosition.goal);
+            (e !== f.scrollPosition.goal && E(e, { immediate: !0 }),
+              (p.current.container = s),
+              (p.current.wrapper = r),
+              m.trigger("recalculateContent"));
+          }
+        }),
+        w = useSkipFrame();
+      reactExports.useEffect(() => addEventListener(window, "resize", () => w.run(v)), [v, w]);
+      return reactExports.useMemo(
+        () => ({
+          getWrapperSize: () => (_.current ? n(_.current) : void 0),
+          getContainerSize: () => (d.current ? e(d.current) : void 0),
+          getBounds: () =>
+            d.current
+              ? t(d.current)
+              : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
+          stepTimeout: l.step.clampedArrowStepTimeout,
+          settings: l,
+          clampPosition: o,
+          handleMouseWheel: y,
+          applyScroll: E,
+          applyStepTo: b,
+          contentRef: d,
+          wrapperRef: _,
+          scrollPosition: x,
+          animationScroll: f,
+          recalculateContent: R,
+          disabled: c,
+          setDisabled: u,
+          events: { on: m.on, off: m.off },
+        }),
+        [l, y, E, b, x, f, R, c, u, m.on, m.off],
+      );
+    };
+  },
+  DEFAULT_HORIZONTAL_API_CONFIG = {
+    getBounds: (e) => [0, Math.max(0, e.offsetWidth - (e.parentElement?.offsetWidth ?? 0))],
+    getContainerSize: (e) => e.offsetWidth,
+    getWrapperSize: (e) => e.offsetWidth,
+    setScrollPosition: (e, t) => {
+      e.style.transform = `translateX(-${0 | (t.value.scrollPosition ?? 0)}px)`;
+    },
+    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
+    triggerMouseMoveOnUpdate: !0,
+  },
+  useApi$1 = createApiHook(DEFAULT_HORIZONTAL_API_CONFIG),
+  IGNORE_DEFAULT = [2, 2];
+function useScrollBounding(e, [t, s] = IGNORE_DEFAULT) {
+  const [r, n] = reactExports.useState(!0),
+    [a, o] = reactExports.useState(!0);
+  return (
+    reactExports.useEffect(() => {
+      function r() {
+        if (!e.contentRef.current) return;
+        const r = e.animationScroll.scrollPosition.get(),
+          [a, i] = e.getBounds(),
+          l = r >= i - s;
+        (n(r <= a + t), o(l));
+      }
+      return new DisposeBuilder()
+        .add(createLayoutReadyInEffect(r))
+        .add(e.events.on("resizeHandled", r))
+        .add(e.events.on("recalculateContent", r))
+        .add(e.events.on("change", r)).dispose;
+    }, [e, t, s]),
+    [r, a]
+  );
+}
+const scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
+  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
+  MOUSE_BUTTON_LEFT = 0,
+  root$d = "Thumb_root_830942bb",
+  background$2 = "Thumb_background_7f3dd6ac",
+  border$3 = "Thumb_border_5749138b",
+  innerBorder = "Thumb_innerBorder_42bafd18",
+  icon$b = "Thumb_icon_dca8bf26",
+  base$q = "Thumb_6ff3e706",
+  base__vertical$1 = "Thumb_base__vertical_55a67c91",
+  base__horizontal = "Thumb_base__horizontal_27ca7ace",
+  base__active$1 = "Thumb_base__active_830942bb",
+  styles$u = {
+    root: root$d,
+    background: background$2,
+    border: border$3,
+    innerBorder: innerBorder,
+    icon: icon$b,
+    base: base$q,
+    base__vertical: base__vertical$1,
+    base__horizontal: base__horizontal,
+    base__active: base__active$1,
+  },
+  BOUNCING_OFFSET = 2,
+  MIN_THUMB_SIZE = 13,
+  FORWARD_DISABLED = "forwardDisabled",
+  BACKWARD_DISABLED = "backwardDisabled";
+function updateDisabledStates(e, t) {
+  if (!e.trackRef.current || !e.thumbRef.current) return;
+  const s = e.trackRef.current.parentNode;
+  if (s instanceof HTMLElement) {
+    if (0 === t)
+      return (s.classList.add(BACKWARD_DISABLED), void s.classList.remove(FORWARD_DISABLED));
+    if (e.isBoundThumb(t))
+      return (s.classList.remove(BACKWARD_DISABLED), void s.classList.add(FORWARD_DISABLED));
+    (s.classList.remove(BACKWARD_DISABLED), s.classList.remove(FORWARD_DISABLED));
+  }
+}
+function Thumb(e) {
+  const t = reactExports.useRef(null),
+    [s, r] = reactExports.useState(!1),
+    n = useEvent(function () {
+      const s = t.current,
+        r = e.trackRef.current,
+        n = e.api.getWrapperSize(),
+        a = e.api.getContainerSize();
+      if (!(n && a && s && r)) return;
+      const o = Math.min(1, n / a),
+        i = "horizontal" === e.direction ? "width" : "height";
+      return ((s.style[i] = `${e.calculateSize(r, o)}px`), (s.style.display = "flex"), o);
+    }),
+    [a, o] = useSpring(() => ({
+      from: { ...e.styles.closed, "--bouncingCorrection": "0px" },
+      easings: easings.easeInCubic,
+      config: { duration: 200 },
+    }));
+  reactExports.useEffect(() => {
+    s || e.dragging
+      ? o.start({
+          to: e.styles.opened,
+          onRest() {
+            t.current?.classList.add(styles$u.base__active);
+          },
+        })
+      : o.start({
+          to: e.styles.closed,
+          delay: 500,
+          onRest() {
+            t.current?.classList.remove(styles$u.base__active);
+          },
+        });
+  }, [s, e.dragging, e.styles.closed, e.styles.opened, o]);
+  const i = useEvent(function () {
+      const s = e.trackRef.current,
+        r = t.current,
+        n = e.railBeforeRef.current,
+        a = e.railAfterRef.current,
+        i = e.api.getWrapperSize(),
+        l = e.api.getContainerSize();
+      if (!(i && s && r && n && a && l)) return;
+      const c = e.api.animationScroll.scrollPosition.get(),
+        u = Math.min(1, i / l),
+        d = l !== i ? clamp(0, 1, c / (l - i)) : 0,
+        _ = e.calculateSize(s, u),
+        p = (("horizontal" === e.direction ? s.offsetWidth : s.offsetHeight) - _) * d || 0,
+        m = Math.round((2 * d - 1) * BOUNCING_OFFSET);
+      (r.style.setProperty("--thumbOffset", `${p}px`),
+        e.onUpdate?.({ thumbSize: _, thumbOffset: p, newBouncingCorrection: m }));
+      const g = 0 === p || e.isBoundThumb(p) ? 0 : m;
+      return (
+        o.start({
+          to: { "--bouncingCorrection": `${g}px` },
+          ...(0 === g ? { delay: 100, config: { duration: 100 } } : { immediate: !0 }),
+        }),
+        p
+      );
+    }),
+    l = useSkipFrame(),
+    c = useEvent(function () {
+      n();
+      const t = i();
+      "number" == typeof t && updateDisabledStates(e, t);
+    });
+  reactExports.useEffect(() => l.run(c));
+  const { api: u } = e;
+  return (
+    reactExports.useEffect(() => {
+      function e() {
+        l.run(c);
+      }
+      return (
+        u.events.on("recalculateContent", e),
+        u.events.on("rest", c),
+        u.events.on("change", c),
+        u.events.on("resizeHandled", e),
+        () => {
+          (u.events.off("recalculateContent", e),
+            u.events.off("rest", c),
+            u.events.off("change", c),
+            u.events.off("resizeHandled", e));
+        }
+      );
+    }, [u, l, c]),
+    jsxRuntimeExports.jsxs(animated.div, {
+      ref: assignRefs([t, e.thumbRef]),
+      className: clsx(styles$u.base, styles$u[`base__${e.direction}`], e.className),
+      style: a,
+      onMouseEnter: () => r(!0),
+      onMouseLeave: () => r(!1),
+      children: [
+        jsxRuntimeExports.jsx("div", { className: styles$u.background }),
+        jsxRuntimeExports.jsx("div", { className: styles$u.border }),
+        jsxRuntimeExports.jsx("div", { className: styles$u.innerBorder }),
+        jsxRuntimeExports.jsx("div", { className: styles$u.icon }),
+      ],
+    })
+  );
+}
+const initBarDraggingState = { pending: !1, offset: 0 };
+function useBarDragging(e, t, s, r, n) {
+  const [a, o] = reactExports.useState(initBarDraggingState),
+    i = useEvent(t),
+    l = reactExports.useCallback(
+      (t) => {
+        (o(t),
+          e.current && i({ type: t.pending ? "dragStart" : "dragEnd", dragElement: e.current }));
+      },
+      [i, e],
+    );
+  return (
+    reactExports.useEffect(() => {
+      if (!a.pending) return;
+      const t = mouse.move(function ([t]) {
+          const o = s.contentRef.current;
+          if (!o) return;
+          const l = r.current,
+            c = e.current;
+          if (!o || !l || !c) return;
+          const u = n(t, a, { parent: l, thumb: c }),
+            d = u * (s.getContainerSize() ?? 0);
+          (s.scrollPosition.start({
+            scrollPosition: s.clampPosition(o, d),
+            reset: !0,
+            immediate: !0,
+            from: { scrollPosition: s.animationScroll.scrollPosition.get() },
+          }),
+            i({ type: "dragging", dragElement: c, elementOffset: u, contentOffset: d }));
+        }),
+        o = mouse.up(() => {
+          l(initBarDraggingState);
+        });
+      return () => {
+        (t(), o());
+      };
+    }, [s, a.offset, a.pending, i, l, e, r, a, n]),
+    l
+  );
+}
+const DISABLE_CLASS = "disable",
+  ACTIVE_CLASS = "scroll-active";
+function useUpdateStatesBar({ api: e, baseRef: t }) {
+  const s = useSkipFrame(),
+    r = useEvent(function () {
+      const s = e.getWrapperSize(),
+        r = e.getContainerSize();
+      if (null === t.current || void 0 === r || void 0 === s) return;
+      1 === Math.min(1, s / r || 1)
+        ? t.current.classList.remove(ACTIVE_CLASS)
+        : t.current.classList.add(ACTIVE_CLASS);
+    });
+  (reactExports.useEffect(() => s.run(r)),
+    reactExports.useEffect(() => {
+      function t() {
+        s.run(r);
+      }
+      return (
+        e.events.on("recalculateContent", t),
+        e.events.on("resizeHandled", t),
+        () => {
+          (e.events.off("recalculateContent", t), e.events.off("resizeHandled", t));
+        }
+      );
+    }, [e, s, r]));
+}
+function getElementCoordinates(e, t) {
+  const s = e.getBoundingClientRect(),
+    r = t === scrollOrientations.horizontal ? s.x : s.y;
+  return { start: r, end: t === scrollOrientations.horizontal ? r + s.width : r + s.height };
+}
+function getCoordinate(e, t, s, r, n, a) {
+  return {
+    occurredEvent: a === scrollOrientations.horizontal ? e.screenX : e.screenY,
+    bar: getElementCoordinates(t, a),
+    thumb: getElementCoordinates(s, a),
+    backButton: getElementCoordinates(r, a),
+    forwardButton: getElementCoordinates(n, a),
+  };
+}
+function useBarHandlers(e, t, s, r, n, a, o) {
+  const i = useSounds(),
+    l = n.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
+    [c, u] = useRepeatCallback((e) => n.applyStepTo(e), l, [n]);
+  reactExports.useEffect(
+    () => (
+      document.addEventListener("mouseup", u, !0),
+      () => document.removeEventListener("mouseup", u, !0)
+    ),
+    [u],
+  );
+  const d = reactExports.useCallback(
+      (e) => {
+        e.target.classList.contains(DISABLE_CLASS) ||
+          (i.play("click", { target: "Scroll:Back", original: e }), c(Direction.Next));
+      },
+      [c, i],
+    ),
+    _ = reactExports.useCallback(
+      (e) => {
+        e.target.classList.contains(DISABLE_CLASS) ||
+          (i.play("click", { target: "Scroll:Forward", original: e }), c(Direction.Prev));
+      },
+      [c, i],
+    ),
+    p = reactExports.useCallback(
+      (l) => {
+        const c = e.current,
+          u = t.current,
+          p = s.current,
+          m = r.current;
+        if (!(c && u && p && m && l.button === MOUSE_BUTTON_LEFT)) return;
+        const g = getCoordinate(l, c, u, p, m, o),
+          f = g.thumb.start <= g.occurredEvent && g.occurredEvent <= g.thumb.end,
+          x =
+            (g.backButton.start <= g.occurredEvent && g.occurredEvent <= g.backButton.end) ||
+            (g.forwardButton.start <= g.occurredEvent && g.occurredEvent <= g.forwardButton.end);
+        if (f) a({ pending: !0, offset: g.occurredEvent - g.thumb.start });
+        else if (x) {
+          ((g.occurredEvent > g.thumb.start ? Direction.Prev : Direction.Next) === Direction.Next
+            ? d
+            : _)(l);
+        } else {
+          const e = g.occurredEvent - g.bar.start,
+            t = g.thumb.end - g.thumb.start,
+            s = g.bar.end - g.bar.start,
+            r = n.getContainerSize();
+          if ("number" != typeof r || Number.isNaN(r))
+            return console.error("Incorrect container size");
+          const a = ((e - t / 2) / s) * r;
+          n.applyScroll(a);
+        }
+        i.play("click", { target: "Scroll:" + (f ? "thumb" : x ? "button" : ""), original: l });
+      },
+      [e, t, s, r, i, o, a, d, _, n],
+    ),
+    m = reactExports.useCallback(
+      (e) => {
+        e.target.classList.contains(DISABLE_CLASS) ||
+          i.play("mouse-enter", { target: "Scroll:Bar", original: e });
+      },
+      [i],
+    );
+  return reactExports.useMemo(
+    () => ({
+      handleMouseBackDown: d,
+      handleMouseEnter: m,
+      handleMouseDownTrack: p,
+      handleMouseForwardDown: _,
+      handleMouseForwardUp: u,
+      handleMouseBackUp: u,
+    }),
+    [d, m, p, _, u],
+  );
+}
+const rail$1 = "HorizontalBar_rail_37858d8f",
+  base$p = "HorizontalBar_4df27ac3",
+  track$1 = "HorizontalBar_track_649dc296",
+  rail__left = "HorizontalBar_rail__left_1a906b4e",
+  rail__right = "HorizontalBar_rail__right_cd24364e",
+  button__right = "HorizontalBar_button__right_e8f0aa2d",
+  button__left = "HorizontalBar_button__left_da330e13",
+  button$1 = "HorizontalBar_button_cbabd91",
+  styles$t = {
+    rail: rail$1,
+    base: base$p,
+    track: track$1,
+    rail__left: rail__left,
+    rail__right: rail__right,
+    button__right: button__right,
+    button__left: button__left,
+    button: button$1,
+  },
+  THUMB_TO_RAIL_OFFSET$1 = 5,
+  THUMB_STYLES$1 = {
+    closed: { height: "3rem", top: "4rem" },
+    opened: { height: "11rem", top: "0rem" },
+  },
+  calculateThumbSize$1 = (e, t) => Math.max(remToPx$1(MIN_THUMB_SIZE), e.offsetWidth * t),
+  Bar$1 = reactExports.memo(function ({ classNames: e = {}, onDrag: t = noop }) {
+    const s = reactExports.useRef(null),
+      r = reactExports.useRef(null),
+      n = reactExports.useRef(null),
+      a = reactExports.useRef(null),
+      o = reactExports.useRef(null),
+      i = reactExports.useRef(null),
+      l = reactExports.useRef(null),
+      [c, u] = reactExports.useState(!1),
+      { api: d } = useHorizontalScroll();
+    useUpdateStatesBar({ baseRef: s, api: d });
+    const _ = useEvent(
+        (e, t, { parent: s }) =>
+          (e.screenX - t.offset - s.getBoundingClientRect().x) / s.offsetWidth,
+      ),
+      p = useEvent((e) => e - (a.current.offsetWidth - o.current.offsetWidth) >= -0.5),
+      m = reactExports.useCallback(
+        (e) => ("dragStart" === e.type ? u(!0) : "dragEnd" === e.type && u(!1), t(e)),
+        [t],
+      ),
+      g = useBarDragging(o, m, d, a, _),
+      f = useEvent(({ thumbSize: e, thumbOffset: t, newBouncingCorrection: s }) => {
+        const r = a.current,
+          n = i.current,
+          o = l.current;
+        if (!r || !n || !o) return;
+        const c = remToPx$1(THUMB_TO_RAIL_OFFSET$1);
+        ((n.style.width = `${t - c + s}px`),
+          (o.style.width = r.offsetWidth - e - t - c - s + "px"));
+      }),
+      { handleMouseEnter: x, handleMouseDownTrack: h } = useBarHandlers(
+        s,
+        o,
+        n,
+        r,
+        d,
+        g,
+        scrollOrientations.horizontal,
+      );
+    return jsxRuntimeExports.jsxs("div", {
+      className: clsx(styles$t.base, e.base),
+      ref: s,
+      onWheel: d.handleMouseWheel,
+      onMouseDown: h,
+      onMouseEnter: x,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          ref: r,
+          className: clsx(styles$t.button, styles$t.button__left, e.leftButton),
+        }),
+        jsxRuntimeExports.jsxs("div", {
+          ref: a,
+          className: clsx(styles$t.track, e.track),
+          children: [
+            jsxRuntimeExports.jsx("div", {
+              ref: i,
+              className: clsx(styles$t.rail, styles$t.rail__left, e.leftRail),
+            }),
+            jsxRuntimeExports.jsx(Thumb, {
+              dragging: c,
+              api: d,
+              calculateOffset: _,
+              calculateSize: calculateThumbSize$1,
+              direction: "horizontal",
+              isBoundThumb: p,
+              railAfterRef: i,
+              railBeforeRef: l,
+              styles: THUMB_STYLES$1,
+              onUpdate: f,
+              thumbRef: o,
+              trackRef: a,
+            }),
+            jsxRuntimeExports.jsx("div", {
+              ref: l,
+              className: clsx(styles$t.rail, styles$t.rail__right, e.rightRail),
+            }),
+          ],
+        }),
+        jsxRuntimeExports.jsx("div", {
+          ref: n,
+          className: clsx(styles$t.button, styles$t.button__right, e.rightButton),
+        }),
+      ],
+    });
+  }),
+  base$o = "HorizontalScroll_5b201d2b",
+  wrapper = "HorizontalScroll_wrapper_2fb60496",
+  defaultScrollArea = "HorizontalScroll_defaultScrollArea_a5c0f45",
+  styles$s = { base: base$o, wrapper: wrapper, defaultScrollArea: defaultScrollArea },
+  DefaultScroll$1 = ({
+    children: e,
+    className: t,
+    barClassNames: s,
+    areaClassName: r,
+    classNames: n,
+    scrollClassName: a,
+    onDrag: o,
+  }) => {
+    const { api: i } = useHorizontalScroll(),
+      l = reactExports.useMemo(() => {
+        const e = s || {};
+        return { ...e, base: clsx(styles$s.base, e.base) };
+      }, [s]);
+    return jsxRuntimeExports.jsxs("div", {
+      className: clsx(styles$s.defaultScroll, t),
+      onWheel: i.handleMouseWheel,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          className: clsx(styles$s.defaultScrollArea, r),
+          children: jsxRuntimeExports.jsx(Area$1, { className: a, classNames: n, children: e }),
+        }),
+        jsxRuntimeExports.jsx(Bar$1, { onDrag: o, classNames: l }),
+      ],
+    });
+  };
+function Area$1({ className: e, classNames: t, children: s }) {
+  const { api: r } = useHorizontalScroll();
+  return jsxRuntimeExports.jsx("div", {
+    className: clsx(styles$s.base, e),
+    children: jsxRuntimeExports.jsx("div", {
+      className: clsx(styles$s.wrapper, t?.wrapper),
+      onWheel: r.handleMouseWheel,
+      ref: r.wrapperRef,
+      children: jsxRuntimeExports.jsx("div", {
+        className: clsx(styles$s.content, t?.content),
+        ref: r.contentRef,
+        children: s,
+      }),
+    }),
+  });
+}
+((Area$1.Bar = Bar$1), (Area$1.Default = DefaultScroll$1));
+const dragDirections = { horizontal: "horizontal", vertical: "vertical" };
+function getEventCoordinate(e, t) {
+  switch (t) {
+    case dragDirections.horizontal:
+      return e.clientX;
+    case dragDirections.vertical:
+      return e.clientY;
+    default:
+      assert(!1, `Such drag direction ${t} is not supported`);
+  }
+}
+function getScreenCoordinate(e, t) {
+  switch (t) {
+    case dragDirections.horizontal:
+      return e.screenX;
+    case dragDirections.vertical:
+      return e.screenY;
+    default:
+      assert(!1, `Such drag direction ${t} is not supported`);
+  }
+}
+const INITIAL_DRAGGING_STATE = { type: "idle" };
+function useScrollByDragElements(e, t, s, r) {
+  const {
+      contentRef: n,
+      wrapperRef: a,
+      scrollPosition: o,
+      clampPosition: i,
+      animationScroll: l,
+      events: c,
+      disabled: u,
+    } = e,
+    [d, _] = reactExports.useState(INITIAL_DRAGGING_STATE),
+    [p, m] = reactExports.useState(0),
+    { gapBeforeStart: g } = {},
+    f = useSkipFrame(),
+    x = useEvent(() => {
+      f.run(() => {
+        const t = e.contentRef.current,
+          s = e.getWrapperSize(),
+          r = e.getContainerSize();
+        t &&
+          s &&
+          r &&
+          !u &&
+          (t.style.cursor = r <= s ? "auto" : "dragging" === d.type ? "move" : "grab");
+      });
+    });
+  return (
+    reactExports.useEffect(() => {
+      x();
+    }, [d.type, x]),
+    useResize(() => {
+      x();
+    }, [x]),
+    reactExports.useEffect(() => {
+      if ("pending" !== d.type) return;
+      const e = n.current,
+        s = a.current;
+      if (null === e || null === s) return;
+      const r = mouse.move(([e]) => {
+          const s = getScreenCoordinate(e, t);
+          (void 0 === g || Math.abs(p - s) > g) &&
+            _({
+              type: "dragging",
+              positionFrom: s,
+              previousScrollPosition: l.scrollPosition.get(),
+            });
+        }),
+        o = mouse.up(() => _({ type: "scrollComplete" }));
+      return () => {
+        (r(), o());
+      };
+    }, [l.scrollPosition, n, p, t, d, g, a]),
+    reactExports.useEffect(() => {
+      if ("dragging" !== d.type) return;
+      const e = mouse.move(([e, r]) => {
+        const c = n.current,
+          u = a.current;
+        if ("outside" === r) return void _({ type: "scrollComplete" });
+        const p = getEventCoordinate(e, t);
+        if (null === c || null === u || ("inside" === r && p < 0)) return;
+        const m = u.offsetLeft,
+          g = "inside" === r ? p : p - m,
+          f = d.positionFrom - g,
+          x = d.previousScrollPosition + f;
+        o.start({
+          scrollPosition: i(c, x),
+          from: { scrollPosition: l.scrollPosition.get() },
+          ...s,
+        });
+      });
+      const r = mouse.up(function () {
+        _({ type: "scrollComplete" });
+      });
+      return () => {
+        (e(), r());
+      };
+    }, [l.scrollPosition, i, n, d, o, a, s, t]),
+    reactExports.useEffect(() => {
+      if ("scrollComplete" !== d.type) return;
+      const e = () => {
+        _(INITIAL_DRAGGING_STATE);
+      };
+      return (e(), c.on("rest", e), () => c.off("rest", e));
+    }, [l.scrollPosition, d.type, c]),
+    reactExports.useEffect(() => {
+      if (u) return;
+      const e = n.current;
+      if (!e) return;
+      const s = (e) => {
+        if (e.button !== mouseButtons.left) return;
+        const s = getScreenCoordinate(e, t);
+        (m(s),
+          _(
+            void 0 === g || g <= 0
+              ? {
+                  type: "dragging",
+                  positionFrom: s,
+                  previousScrollPosition: l.scrollPosition.get(),
+                }
+              : { type: "pending" },
+          ));
+      };
+      return (e.addEventListener("mousedown", s), () => e.removeEventListener("mousedown", s));
+    }, [l.scrollPosition, n, u, t, g]),
+    d
+  );
+}
+function Base$7({ settings: e, children: t }) {
+  const s = useApi$1({ settings: e }),
+    r = reactExports.useMemo(() => ({ api: s }), [s]);
+  return jsxRuntimeExports.jsx(Context$1.Provider, { value: r, children: t });
+}
+const Context = reactExports.createContext(void 0);
+function useVerticalScroll() {
+  const e = reactExports.useContext(Context);
+  if (!e) throw new Error("useVerticalScroll must be used within a Scroll.Vertical.Base component");
+  return e;
+}
+const DEFAULT_VERTICAL_API_CONFIG = {
+    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
+    getContainerSize: (e) => e.scrollHeight,
+    getWrapperSize: (e) => e.offsetHeight,
+    setScrollPosition: (e, t) => {
+      e.scrollTop = Math.trunc(t.value.scrollPosition ?? 0);
+    },
+    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
+  },
+  useApi = createApiHook(DEFAULT_VERTICAL_API_CONFIG),
+  rail = "VerticalBar_rail_3d663c9",
+  base$n = "VerticalBar_7187fa00",
+  track = "VerticalBar_track_ff482708",
+  rail__top = "VerticalBar_rail__top_ee531f43",
+  rail__bottom = "VerticalBar_rail__bottom_3eaa33b1",
+  button__bottom = "VerticalBar_button__bottom_6880f123",
+  button__top = "VerticalBar_button__top_b8383775",
+  button = "VerticalBar_button_7b0e4aca",
+  styles$r = {
+    rail: rail,
+    base: base$n,
+    track: track,
+    rail__top: rail__top,
+    rail__bottom: rail__bottom,
+    button__bottom: button__bottom,
+    button__top: button__top,
+    button: button,
+  },
+  THUMB_TO_RAIL_OFFSET = 5,
+  THUMB_STYLES = {
+    closed: { width: "3rem", left: "3rem" },
+    opened: { width: "9rem", left: "0rem" },
+  },
+  calculateThumbSize = (e, t) => Math.max(remToPx$1(MIN_THUMB_SIZE), e.offsetHeight * t),
+  Bar = reactExports.memo(function ({ classNames: e = {}, onDrag: t = noop }) {
+    const s = reactExports.useRef(null),
+      r = reactExports.useRef(null),
+      n = reactExports.useRef(null),
+      a = reactExports.useRef(null),
+      o = reactExports.useRef(null),
+      i = reactExports.useRef(null),
+      l = reactExports.useRef(null),
+      [c, u] = reactExports.useState(!1),
+      { api: d } = useVerticalScroll();
+    useUpdateStatesBar({ baseRef: s, api: d });
+    const _ = useEvent((e) => e - (a.current.offsetHeight - o.current.offsetHeight) >= -0.5),
+      p = useEvent(
+        (e, t, { parent: s }) =>
+          (e.screenY - t.offset - s.getBoundingClientRect().y) / s.offsetHeight,
+      ),
+      m = reactExports.useCallback(
+        (e) => ("dragStart" === e.type ? u(!0) : "dragEnd" === e.type && u(!1), t(e)),
+        [t],
+      ),
+      g = useBarDragging(o, m, d, a, p),
+      f = useEvent(({ thumbSize: e, thumbOffset: t, newBouncingCorrection: s }) => {
+        const r = a.current,
+          n = i.current,
+          o = l.current;
+        if (!r || !n || !o) return;
+        const c = remToPx$1(THUMB_TO_RAIL_OFFSET);
+        ((n.style.height = `${t - c + s}px`),
+          (o.style.height = r.offsetHeight - e - t - c - s + "px"));
+      }),
+      { handleMouseEnter: x, handleMouseDownTrack: h } = useBarHandlers(
+        s,
+        o,
+        r,
+        n,
+        d,
+        g,
+        scrollOrientations.vertical,
+      );
+    return jsxRuntimeExports.jsxs("div", {
+      className: clsx(styles$r.base, e.base),
+      ref: s,
+      onWheel: d.handleMouseWheel,
+      onMouseDown: h,
+      onMouseEnter: x,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          ref: r,
+          className: clsx(styles$r.button, styles$r.button__top, e.topButton),
+        }),
+        jsxRuntimeExports.jsxs("div", {
+          ref: a,
+          className: clsx(styles$r.track, e.track),
+          children: [
+            jsxRuntimeExports.jsx("div", {
+              ref: i,
+              className: clsx(styles$r.rail, styles$r.rail__top, e.topRail),
+            }),
+            jsxRuntimeExports.jsx(Thumb, {
+              dragging: c,
+              api: d,
+              calculateOffset: p,
+              calculateSize: calculateThumbSize,
+              direction: "vertical",
+              isBoundThumb: _,
+              railAfterRef: i,
+              railBeforeRef: l,
+              styles: THUMB_STYLES,
+              onUpdate: f,
+              thumbRef: o,
+              trackRef: a,
+            }),
+            jsxRuntimeExports.jsx("div", {
+              ref: l,
+              className: clsx(styles$r.rail, styles$r.rail__bottom, e.bottomRail),
+            }),
+          ],
+        }),
+        jsxRuntimeExports.jsx("div", {
+          ref: n,
+          className: clsx(styles$r.button, styles$r.button__bottom, e.bottomButton),
+        }),
+      ],
+    });
+  }),
+  content$4 = "VerticalScroll_content_f30246e6",
+  defaultScroll = "VerticalScroll_defaultScroll_c69fa70e",
+  area = "VerticalScroll_area_a3c0086a",
+  styles$q = { content: content$4, defaultScroll: defaultScroll, area: area },
+  DefaultScroll = ({
+    children: e,
+    className: t,
+    barClassNames: s,
+    areaClassName: r,
+    scrollClassName: n,
+    scrollClassNames: a,
+    onDrag: o,
+  }) => {
+    const { api: i } = useVerticalScroll(),
+      l = reactExports.useMemo(() => {
+        const e = s || {};
+        return { ...e, base: clsx(styles$q.base, e.base) };
+      }, [s]);
+    return jsxRuntimeExports.jsxs("div", {
+      className: clsx(styles$q.defaultScroll, t),
+      onWheel: i.handleMouseWheel,
+      children: [
+        jsxRuntimeExports.jsx("div", {
+          className: clsx(styles$q.area, r),
+          children: jsxRuntimeExports.jsx(Area, { className: n, classNames: a, children: e }),
+        }),
+        jsxRuntimeExports.jsx(Bar, { onDrag: o, classNames: l }),
+      ],
+    });
+  },
+  Area = ({ className: e, classNames: t, children: s, ...r }) => {
+    const { api: n } = useVerticalScroll();
+    return (
+      reactExports.useEffect(() =>
+        createLayoutReadyInEffect(() => createLayoutReadyInEffect(n.recalculateContent)),
+      ),
+      jsxRuntimeExports.jsx("div", {
+        className: clsx(styles$q.base, t?.wrapper, e),
+        ref: n.wrapperRef,
+        onWheel: n.handleMouseWheel,
+        children: jsxRuntimeExports.jsx("div", {
+          ...r,
+          className: clsx(styles$q.content, t?.content),
+          ref: n.contentRef,
+          children: s,
+        }),
+      })
+    );
+  };
+function Base$6({ children: e }) {
+  const t = useApi(),
+    s = reactExports.useMemo(() => ({ api: t }), [t]);
+  return jsxRuntimeExports.jsx(Context.Provider, { value: s, children: e });
+}
+function defineStyledComponent(e, t, s) {
+  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : s?.variants,
+    n = r ? Object.keys(r) : [];
+  if ("object" == typeof t) {
+    const s = t,
+      r = cva(s.className, s.cva),
+      a = s.element,
+      o = reactExports.forwardRef(function (e, t) {
+        return reactExports.createElement(a, {
+          ...("function" == typeof a ? e : cleanProps(n, e)),
+          ref: t,
+          className: r(e),
+        });
+      });
+    return ((o.displayName = e), s.cva && (o.cva = s.cva), o);
+  }
+  const a = cva(t, s),
+    o = reactExports.forwardRef(function (t, s) {
+      return jsxRuntimeExports.jsx("div", {
+        "data-name": e,
+        ...cleanProps(n, t),
+        ref: s,
+        className: a(t),
+      });
+    });
+  return ((o.displayName = e), s && (o.cva = s), o);
+}
+function cleanProps(e, t) {
+  if (0 === e.length) return t;
+  const s = { ...t };
+  for (const r of e) delete s[r];
+  return s;
+}
+Area.Default = DefaultScroll;
 const undef = () => {};
 function withResolvePath(e) {
   const t = e;
@@ -3459,308 +4124,850 @@ withResolvePath(
       : jsxRuntimeExports.jsx("img", { ...l, ref: t, src: n, width: s, height: r });
   }),
 );
-const MIN_LEVEL$1 = 1,
-  grades = { gold: "gold", enamel: "enamel", prestige: "prestige" },
-  sizes$7 = { xs: "xs", sm: "sm", md: "md", mdLg: "mdLg", lg: "lg", xl: "xl", xxl: "xxl" },
-  sizesEmblems = {
-    xs: "48x48",
-    sm: "72x72",
-    md: "115x84",
-    mdLg: "143x104",
-    lg: "170x124",
-    xl: "400x300",
-    xxl: "600x450",
-  },
-  sizesFonts = {
-    xs: "6x12",
-    sm: "9x19",
-    md: "16x33",
-    mdLg: "20x41",
-    lg: "23x48",
-    xl: "53x120",
-    xxl: "77x176",
-  };
-function icon$a(e, t, s) {
-  return t === grades.prestige ? `.c_${sizesEmblems[s]}.${t}` : `.c_${sizesEmblems[s]}.${t}.c_${e}`;
+const contextInstance$1 = reactExports.createContext(null),
+  positions = { left: "left", right: "right", top: "top", bottom: "bottom" };
+Object.values(positions);
+const verticalPositions = ["top", "bottom"],
+  oppositePositions = { top: "bottom", bottom: "top", left: "right", right: "left" };
+function isVerticalPosition(e) {
+  return verticalPositions.includes(e);
 }
-const root$c = "VehiclePrestigeEmblem_root_9eca5e7f",
-  icon$9 = "VehiclePrestigeEmblem_icon_940474a9",
-  base__xs = "VehiclePrestigeEmblem_base__xs_678b197f",
-  base__sm = "VehiclePrestigeEmblem_base__sm_f0368fa3",
-  base__md = "VehiclePrestigeEmblem_base__md_63f722e6",
-  base__mdLg = "VehiclePrestigeEmblem_base__mdLg_bb48be4b",
-  base__lg = "VehiclePrestigeEmblem_base__lg_69373327",
-  base__xl = "VehiclePrestigeEmblem_base__xl_3144948a",
-  base__xxl = "VehiclePrestigeEmblem_base__xxl_fec732e8",
-  base$p = "VehiclePrestigeEmblem_24849b0a",
-  level$1 = "VehiclePrestigeEmblem_level_8cc4a042",
-  levelIcon__xs = "VehiclePrestigeEmblem_levelIcon__xs_d11b6645",
-  levelIcon__sm = "VehiclePrestigeEmblem_levelIcon__sm_900b8c7f",
-  levelIcon__md = "VehiclePrestigeEmblem_levelIcon__md_914fcef3",
-  levelIcon__mdLg = "VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370",
-  levelIcon__lg = "VehiclePrestigeEmblem_levelIcon__lg_2fd402cc",
-  levelIcon__xl = "VehiclePrestigeEmblem_levelIcon__xl_8c7e5b4d",
-  levelIcon__xxl = "VehiclePrestigeEmblem_levelIcon__xxl_f852cb4e",
-  styles$t = {
-    root: root$c,
-    icon: icon$9,
-    base__xs: base__xs,
-    base__sm: base__sm,
-    base__md: base__md,
-    base__mdLg: base__mdLg,
-    base__lg: base__lg,
-    base__xl: base__xl,
-    base__xxl: base__xxl,
-    base: base$p,
-    level: level$1,
-    levelIcon__xs: levelIcon__xs,
-    levelIcon__sm: levelIcon__sm,
-    levelIcon__md: levelIcon__md,
-    levelIcon__mdLg: levelIcon__mdLg,
-    levelIcon__lg: levelIcon__lg,
-    levelIcon__xl: levelIcon__xl,
-    levelIcon__xxl: levelIcon__xxl,
-  };
-function Level({ level: e, type: t, size: s, classNames: r, ...n }) {
-  const a = e.toString().split("");
-  return jsxRuntimeExports.jsx("div", {
-    ...n,
-    className: styles$t.level,
-    children: a.map((e, n) =>
-      jsxRuntimeExports.jsx(
-        Image,
-        {
-          className: clsx(styles$t.levelIcon, styles$t[`levelIcon__${s}`], r?.levelIcon),
-          path: `prestige.emblemFont.c_${sizesFonts[s]}.${t === grades.enamel ? grades.gold : t}.c_${e}`,
+function usePopoverOptional() {
+  return reactExports.useContext(contextInstance$1);
+}
+function usePopover() {
+  const e = reactExports.useContext(contextInstance$1);
+  if (!e) throw new Error("usePopover must be used within a Popover");
+  return e;
+}
+const initialState = { opened: !1 };
+function usePopoverInstance(e) {
+  const [t, s] = reactExports.useState(initialState),
+    r = reactExports.useMemo(() => {
+      const t = observable.box(),
+        r = { onBeforeOpen: new Set(), onBeforeClose: new Set() },
+        n = { bounding: observable.box(), position: observable.box() };
+      function a(e) {
+        s((t) => {
+          const s = e(t);
+          return (
+            t.opened === s.opened ||
+              (s.opened ? r.onBeforeOpen.forEach((e) => e()) : r.onBeforeClose.forEach((e) => e())),
+            s
+          );
+        });
+      }
+      return {
+        id: e,
+        open: () => a((e) => ({ ...e, opened: !0 })),
+        close: () => a((e) => ({ ...e, opened: !1 })),
+        toggle: () => a((e) => ({ ...e, opened: !e.opened })),
+        subscribe: {
+          onBeforeOpen: (e) => (r.onBeforeOpen.add(e), () => r.onBeforeOpen.delete(e)),
+          onBeforeClose: (e) => (r.onBeforeClose.add(e), () => r.onBeforeClose.delete(e)),
         },
-        n,
-      ),
-    ),
-  });
+        portal: {
+          bounding: n.bounding,
+          setBounding: takeAction(n.bounding),
+          position: n.position,
+          setPosition: takeAction(n.position),
+        },
+        trigger: { bounding: t, setBounding: takeAction(t) },
+      };
+    }, [e]);
+  return reactExports.useMemo(() => ({ ...r, ...t }), [r, t]);
 }
-const PrestigeEmblem = reactExports.forwardRef(function (
-  { level: e, grade: t, type: s, size: r, classNames: n, ...a },
-  o,
-) {
-  return e < MIN_LEVEL$1
-    ? null
-    : jsxRuntimeExports.jsxs("div", {
-        ...a,
-        ref: o,
-        className: clsx(styles$t.base, styles$t[`base__${r}`], n?.base),
-        children: [
-          jsxRuntimeExports.jsx(Image, {
-            path: `prestige.emblem${icon$a(t, s, r)}`,
-            className: clsx(styles$t.icon, n?.icon),
+const border$2 = "Popover_border_d0a76717",
+  title$2 = "Popover_title_e4a0437a",
+  subtitle = "Popover_subtitle_1c7535c8",
+  header = "Popover_header_de23fc15",
+  body = "Popover_body_22163d58",
+  divider = "Popover_divider_46fe6f15",
+  decoration$1 = "Popover_decoration_134219d5",
+  close = "Popover_close_ad4a9c7b",
+  styles$p = {
+    border: border$2,
+    title: title$2,
+    subtitle: subtitle,
+    header: header,
+    body: body,
+    divider: divider,
+    decoration: decoration$1,
+    close: close,
+  },
+  Close = reactExports.forwardRef(({ className: e, children: t, ...s }, r) => {
+    const n = usePopoverOptional(),
+      a = useSounds(),
+      o = useUpscale("ui_kit.close_button.icon_small", "ui_kit.close_button.icon_medium");
+    return (
+      reactExports.useEffect(
+        () =>
+          onResize(function () {
+            n?.close();
           }),
-          s !== grades.prestige &&
-            jsxRuntimeExports.jsx(Level, {
-              level: e,
-              type: s,
-              size: r,
-              classNames: { levelIcon: n?.level },
+        [n],
+      ),
+      jsxRuntimeExports.jsx("div", {
+        ...s,
+        onClick: function (e) {
+          (s.onClick?.(e),
+            a.play("close", { target: "react-popover:close", original: e }),
+            n?.close());
+        },
+        onMouseEnter: function (e) {
+          (s.onMouseEnter?.(e),
+            a.play("mouse-enter", { target: "react-popover:close", original: e }));
+        },
+        ref: r,
+        className: clsx(styles$p.close, e),
+        children: t ?? jsxRuntimeExports.jsx(Image, { path: o, width: 24, height: 24 }),
+      })
+    );
+  }),
+  OPEN_ANIMATION_DURATION = 250,
+  animationTransitions = {
+    top: "translate(0rem, 50rem) scale(0.9)",
+    bottom: "translate(0rem, -50rem) scale(0.9)",
+    left: "translate(50rem, 0rem) scale(0.9)",
+    right: "translate(-50rem, 0rem) scale(0.9)",
+  },
+  defaultPaddingsRem = { top: 0, bottom: 0, left: 0, right: 0 };
+function Portal({
+  children: e,
+  target: t,
+  pivot: s = 0,
+  position: r = "top",
+  paddingsRem: n = {},
+  lazy: a = !1,
+  closeByEscape: o = !0,
+  onBeforePositionChange: i = noop,
+  freeSpaceRem: l = 8,
+  ...c
+}) {
+  const u = usePopover(),
+    d = React.useRef(null),
+    [_, p] = reactExports.useState(),
+    m = reactExports.useMemo(
+      () => ({
+        top: remToPx$1(n.top || defaultPaddingsRem.top),
+        bottom: remToPx$1(n.bottom || defaultPaddingsRem.bottom),
+        left: remToPx$1(n.left || defaultPaddingsRem.left),
+        right: remToPx$1(n.right || defaultPaddingsRem.right),
+      }),
+      [n.bottom, n.top, n.left, n.right],
+    ),
+    g = remToPx$1(l),
+    f = reactExports.useMemo(
+      () => (t ? (document.querySelector(t) ?? document.body) : document.body),
+      [t],
+    );
+  reactExports.useEffect(() => {
+    const e = d.current;
+    if (!e) return;
+    const t = document.querySelector(`[data-popover-trigger-id="${u.id}"]`),
+      n = e.querySelector(`[data-popover-display-id="${u.id}"]`);
+    if (!t || !n) return;
+    const a = watchResizes([t, e, document.body], ([t, n, a]) => {
+      if (!u.opened) return void p(void 0);
+      if (!1 === i(u, { callerBounding: t, containerBounding: n, bodyBounding: a })) return;
+      const o = getUpdatedPosition(r, m, t, n, a);
+      (p(o),
+        updatePosition(s, g, o, m, t, n, a, e),
+        runInAction(() => {
+          (u.trigger.setBounding(t), u.portal.setBounding(n), u.portal.setPosition(o));
+        }));
+    });
+    return (a.start(), a.stop);
+  }, [u, i, m, s, g, u.id, u.portal, u.trigger, r, u.opened]);
+  const x = reactExports.useCallback(() => {
+    const e = d.current;
+    e &&
+      document.activeElement &&
+      document.activeElement instanceof HTMLElement &&
+      e.contains(document.activeElement) &&
+      document.activeElement.blur();
+  }, []);
+  (reactExports.useEffect(() => u.subscribe.onBeforeClose(x), [u.subscribe, x]),
+    useHandleKeydown(o && u.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
+      u.close();
+    }),
+    reactExports.useEffect(() => {
+      if (!u.opened) return;
+      const e = d.current;
+      if (!e) return;
+      const t = e;
+      function s(e) {
+        const s = e.target;
+        if (!(s instanceof HTMLElement)) return !1;
+        const r = `[data-popover-trigger-id="${u.id}"]`,
+          n = `[data-popover-outside-click-whitelist-id="${u.id}"]`;
+        return !(
+          t === s ||
+          t.contains(s) ||
+          s.matches(r) ||
+          s.matches(n) ||
+          s.closest(r) ||
+          s.closest(n)
+        );
+      }
+      return new DisposeBuilder()
+        .add(
+          addEventListener(document, "click", (e) => {
+            s(e) && u.close();
+          }),
+        )
+        .add(
+          mouse.down(([e, t]) => {
+            if ("outside" === t) return u.close();
+            const r = e.button;
+            (r !== mouseButtons.right && r !== mouseButtons.wheel) || (s(e) && u.close());
+          }),
+        ).dispose;
+    }, [u]));
+  const [h, E] = useSpring(() => ({
+    from: { opacity: 0, transform: animationTransitions[r] },
+    config: { easing: easings.easeInOutCubic, duration: OPEN_ANIMATION_DURATION },
+  }));
+  return (
+    reactExports.useEffect(() => {
+      if (!_) return;
+      const e = { opacity: 0, transform: animationTransitions[_] };
+      E.start({
+        from: u.opened ? e : void 0,
+        to: u.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
+      });
+    }, [E, _, u.opened]),
+    !u.opened && a
+      ? null
+      : jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
+          children: ReactDOM$1.createPortal(
+            jsxRuntimeExports.jsx(animated.div, {
+              ...c,
+              ref: d,
+              style: {
+                position: "absolute",
+                top: "0",
+                left: "0",
+                pointerEvents: h.opacity.to((e) => (1 === e ? "auto" : "none")),
+                display: h.opacity.to((e) => (0 !== e || u.opened ? "block" : "none")),
+                ...c.style,
+              },
+              children: jsxRuntimeExports.jsx(animated.div, { style: h, children: e }),
+            }),
+            f,
+          ),
+        })
+  );
+}
+function getUpdatedPosition(e, t, s, r, n) {
+  return ("top" === e && s.top - r.height - t.top < 0) ||
+    ("bottom" === e && s.bottom + r.height + t.bottom > n.height) ||
+    ("left" === e && s.left - r.width - t.left < 0) ||
+    ("right" === e && s.right + r.width + t.right > n.width)
+    ? oppositePositions[e]
+    : e;
+}
+function applyTransform(e, t, s, r, n) {
+  ((e = clamp(s.left, n.width - r.offsetWidth - s.right, e)),
+    (t = clamp(s.top, n.height - r.offsetHeight - s.bottom, t)),
+    (r.style.transform = `translate(${e}px, ${t}px)`));
+}
+function updatePosition(e, t, s, r, n, a, o, i) {
+  if ("top" === s) {
+    const s = (a.width - n.width) * e;
+    applyTransform(n.left - s, n.top - a.height - t, r, i, o);
+  } else if ("bottom" === s) {
+    const s = (a.width - n.width) * e;
+    applyTransform(n.left - s, n.bottom + t, r, i, o);
+  } else if ("left" === s) {
+    const s = n.left - a.width - t,
+      l = (a.height - n.height) * e;
+    applyTransform(s, n.top - l, r, i, o);
+  } else if ("right" === s) {
+    const s = n.right + t,
+      l = (a.height - n.height) * e;
+    applyTransform(s, n.top - l, r, i, o);
+  }
+}
+const root$c = "PopoverTip_root_a48d88bb",
+  base$m = "PopoverTip_163a336f",
+  arrow = "PopoverTip_arrow_44c7d6a5",
+  glow$1 = "PopoverTip_glow_da3f9be9",
+  styles$o = {
+    root: root$c,
+    base: base$m,
+    "base__flip-left": "PopoverTip_base__flip-left_3cc0dadc",
+    "base__flip-right": "PopoverTip_base__flip-right_6a5605b6",
+    "base__flip-top": "PopoverTip_base__flip-top_6bcc69e1",
+    "base__flip-bottom": "PopoverTip_base__flip-bottom_416a1dc4",
+    arrow: arrow,
+    "arrow__position-top": "PopoverTip_arrow__position-top_a95d47a6",
+    "arrow__position-bottom": "PopoverTip_arrow__position-bottom_9d75ac12",
+    "arrow__position-left": "PopoverTip_arrow__position-left_ca4ced33",
+    "arrow__position-right": "PopoverTip_arrow__position-right_9dc94f7a",
+    glow: glow$1,
+  },
+  verticals = [positions.top, positions.bottom],
+  horizontals = [positions.left, positions.right],
+  rotations = { top: 180, bottom: 0, left: 90, right: -90 },
+  Tip = reactExports.forwardRef(({ ...e }, t) => {
+    const s = reactExports.useRef(null),
+      r = usePopoverOptional(),
+      [n, a] = reactExports.useState(e.size),
+      [o, i] = reactExports.useState(
+        e.position || (r && oppositePositions[r.portal.position.get()]) || "bottom",
+      ),
+      [l, c] = reactExports.useState(e.offset),
+      u = useEvent((t, s, r) => {
+        let n = o;
+        if ((e.position || ((n = oppositePositions[r]), i(n)), !e.size)) {
+          const e = isVerticalPosition(n)
+            ? `${Math.min(t.width, s.width)}px`
+            : `${Math.min(t.height, s.height)}px`;
+          a(e);
+        }
+        if (!e.offset) {
+          const e = isVerticalPosition(n)
+            ? `${Math.max(0, t.left - s.left)}px`
+            : `${Math.max(0, t.top - s.top)}px`;
+          c(e);
+        }
+      });
+    return (
+      reactExports.useEffect(() => {
+        if (s.current && r)
+          return autorun(() => {
+            const e = r.trigger.bounding.get(),
+              t = r.portal.bounding.get(),
+              s = r.portal.position.get();
+            e && s && t && u(e, t, s);
+          });
+      }, [r, u]),
+      jsxRuntimeExports.jsxs("div", {
+        ...e,
+        ref: assignRefs([t, s]),
+        style: {
+          width: (verticals.includes(o) && n) || "1rem",
+          height: (horizontals.includes(o) && n) || "1rem",
+          top: (horizontals.includes(o) && l) || "auto",
+          bottom: "bottom" === o ? "0" : "auto",
+          left: (verticals.includes(o) && l) || "auto",
+          right: "right" === o ? "0" : "auto",
+          ...e.style,
+        },
+        className: clsx(styles$o.base, e.flipped && styles$o[`base__flipped-${o}`], e.className),
+        children: [
+          jsxRuntimeExports.jsx("div", {
+            className: clsx(styles$o.arrow, styles$o[`arrow__position-${o}`]),
+            style: { transform: `translate(-50%, -50%) rotate(${rotations[o]}deg)` },
+          }),
+          !1 === e.noGlow &&
+            jsxRuntimeExports.jsx("div", {
+              className: styles$o.glow,
+              style: { transform: `translate(-50%, -50%) rotate(${rotations[o]}deg)` },
             }),
         ],
-      });
-});
-PrestigeEmblem.sizes = sizes$7;
-const themes = { primary: "primary", secondary: "secondary", custom: "custom" },
-  sizes$6 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" };
-function defineStyledComponent(e, t, s) {
-  const r = "object" == typeof t && "cva" in t ? t.cva?.variants : s?.variants,
-    n = r ? Object.keys(r) : [];
-  if ("object" == typeof t) {
-    const s = t,
-      r = cva(s.className, s.cva),
-      a = s.element,
-      o = reactExports.forwardRef(function (e, t) {
-        return reactExports.createElement(a, {
-          ...("function" == typeof a ? e : cleanProps(n, e)),
-          ref: t,
-          className: r(e),
-        });
-      });
-    return ((o.displayName = e), s.cva && (o.cva = s.cva), o);
-  }
-  const a = cva(t, s),
-    o = reactExports.forwardRef(function (t, s) {
-      return jsxRuntimeExports.jsx("div", {
-        "data-name": e,
-        ...cleanProps(n, t),
-        ref: s,
-        className: a(t),
-      });
+      })
+    );
+  });
+function Trigger({ children: e }) {
+  const t = usePopover();
+  return e({ onClick: t.toggle, "data-popover-trigger-id": t.id }, t);
+}
+Tip.positions = positions;
+const Title = defineStyledComponent("Title", styles$p.title),
+  Subtitle = defineStyledComponent("Subtitle", styles$p.subtitle),
+  Header = defineStyledComponent("Header", styles$p.header),
+  Divider = defineStyledComponent("Divider", styles$p.divider),
+  Body = defineStyledComponent("Body", styles$p.body),
+  Decoration$1 = defineStyledComponent("Decoration", styles$p.decoration),
+  Display = reactExports.forwardRef((e, t) => {
+    const s = usePopoverOptional();
+    return jsxRuntimeExports.jsxs(Decoration$1, {
+      ...e,
+      ref: t,
+      "data-popover-display-id": s?.id,
+      children: [jsxRuntimeExports.jsx("div", { className: styles$p.border }), e.children],
     });
-  return ((o.displayName = e), s && (o.cva = s), o);
+  });
+function Popover(e) {
+  const t = reactExports.useId();
+  return jsxRuntimeExports.jsx(contextInstance$1.Provider, {
+    value: usePopoverInstance(e.id ?? t),
+    children: e.children,
+  });
 }
-function cleanProps(e, t) {
-  if (0 === e.length) return t;
-  const s = { ...t };
-  for (const r of e) delete s[r];
-  return s;
+((Popover.Close = Close),
+  (Popover.Title = Title),
+  (Popover.Subtitle = Subtitle),
+  (Popover.Header = Header),
+  (Popover.Divider = Divider),
+  (Popover.Body = Body),
+  (Popover.Tip = Tip),
+  (Popover.Display = Display),
+  (Popover.use = usePopover),
+  (Popover.Portal = Portal),
+  (Popover.Trigger = Trigger));
+const states = { default: "default", alert: "alert", error: "error", done: "done" },
+  messageTypes = { alert: "alert", error: "error" },
+  types$1 = {
+    text: "text",
+    password: "password",
+    number: "number",
+    htmlNumber: "htmlNumber",
+    email: "email",
+    integer: "integer",
+  },
+  sizes$7 = { medium: "medium", large: "large" },
+  icons = { search: "search" },
+  defaultConfig = { type: types$1.text, size: sizes$7.medium, state: states.default, disabled: !1 },
+  placeholderVisibility = { focusedOrValue: "focusedOrValue", value: "value" },
+  contextInstance = reactExports.createContext(null);
+function useInput() {
+  const e = reactExports.useContext(contextInstance);
+  if (!e) throw new Error("useInput must be used within an Input");
+  return e;
 }
-const base$o = "HeadlessButton_df8536fc",
-  styles$s = { base: base$o },
-  HeadlessButtonBase = defineStyledComponent("Button", {
-    element: "button",
-    className: styles$s.base,
+function useInputInstance({ value: e, size: t, type: s, state: r, disabled: n }) {
+  const a = reactExports.useRef(null),
+    [o, i] = reactExports.useState(!1),
+    l = useEvent((e) => {
+      if (!a.current) return;
+      const t = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set;
+      if (t) {
+        t.call(a.current, e);
+        const s = new Event("input", { bubbles: !0 });
+        a.current.dispatchEvent(s);
+      }
+    }),
+    c = n ?? defaultConfig.disabled,
+    u = usePrevious(c);
+  return (
+    reactExports.useLayoutEffect(() => {
+      !u && c && a.current?.blur();
+    }, [c, u]),
+    reactExports.useLayoutEffect(() => {
+      o ? (a.current?.blur(), setTimeout(() => a.current?.focus())) : a.current?.blur();
+    }, [o]),
+    reactExports.useMemo(
+      () => ({
+        value: e,
+        size: t ?? defaultConfig.size,
+        type: s ?? defaultConfig.type,
+        state: r ?? defaultConfig.state,
+        disabled: c,
+        focused: o,
+        setFocused: i,
+        inputRef: a,
+        setValue: l,
+        clear: () => l(""),
+        focus: () => i(!0),
+      }),
+      [c, o, l, t, r, s, e],
+    )
+  );
+}
+const root$b = "Input_root_494bd5d6",
+  disabledOverlay$1 = "Input_disabledOverlay_3e980046",
+  icon$a = "Input_icon_ed3c6a4a",
+  clearButton = "Input_clearButton_d26b0bd5",
+  decoration = "Input_decoration_b561de7a",
+  decoration__focused = "Input_decoration__focused_494bd5d6",
+  decoration__alertState = "Input_decoration__alertState_a3c7d971",
+  decoration__errorState = "Input_decoration__errorState_a889ba00",
+  decoration__doneState = "Input_decoration__doneState_273150be",
+  decoration__disabled = "Input_decoration__disabled_74e25c08",
+  fieldWrapper = "Input_fieldWrapper_a4454e66",
+  field__mediumSize = "Input_field__mediumSize_7a1efba0",
+  placeholder__mediumSize = "Input_placeholder__mediumSize_2b8cbadc",
+  field__largeSize = "Input_field__largeSize_2b4f0b27",
+  placeholder__largeSize = "Input_placeholder__largeSize_6dbe7ba2",
+  field = "Input_field_7f2a0d1d",
+  field__focused = "Input_field__focused_5a0a7a6c",
+  field__disabled = "Input_field__disabled_15b2ae5c",
+  placeholder = "Input_placeholder_6ec6c232",
+  placeholder__disabled = "Input_placeholder__disabled_58b85003",
+  message = "Input_message_d4aa42ca",
+  message__visible = "Input_message__visible_a76c109c",
+  message__alertType = "Input_message__alertType_34d13f9f",
+  message__errorType = "Input_message__errorType_c0d7caba",
+  message__mediumSize = "Input_message__mediumSize_a2972578",
+  message__largeSize = "Input_message__largeSize_a5a35f73",
+  icon__focused = "Input_icon__focused_a76c109c",
+  icon__mediumSize = "Input_icon__mediumSize_f7d15078",
+  icon__largeSize = "Input_icon__largeSize_b80deb39",
+  icon__searchIcon = "Input_icon__searchIcon_494bd5d6",
+  icon__upscale = "Input_icon__upscale_494bd5d6",
+  clearButton__mediumSize = "Input_clearButton__mediumSize_d43f0915",
+  clearButton__largeSize = "Input_clearButton__largeSize_240e111e",
+  clearButton__visible = "Input_clearButton__visible_8d3756eb",
+  clearButton__upscale = "Input_clearButton__upscale_494bd5d6",
+  styles$n = {
+    root: root$b,
+    disabledOverlay: disabledOverlay$1,
+    icon: icon$a,
+    clearButton: clearButton,
+    decoration: decoration,
+    decoration__focused: decoration__focused,
+    decoration__alertState: decoration__alertState,
+    decoration__errorState: decoration__errorState,
+    decoration__doneState: decoration__doneState,
+    decoration__disabled: decoration__disabled,
+    fieldWrapper: fieldWrapper,
+    field__mediumSize: field__mediumSize,
+    placeholder__mediumSize: placeholder__mediumSize,
+    field__largeSize: field__largeSize,
+    placeholder__largeSize: placeholder__largeSize,
+    field: field,
+    field__focused: field__focused,
+    field__disabled: field__disabled,
+    placeholder: placeholder,
+    placeholder__disabled: placeholder__disabled,
+    message: message,
+    message__visible: message__visible,
+    message__alertType: message__alertType,
+    message__errorType: message__errorType,
+    message__mediumSize: message__mediumSize,
+    message__largeSize: message__largeSize,
+    icon__focused: icon__focused,
+    icon__mediumSize: icon__mediumSize,
+    icon__largeSize: icon__largeSize,
+    icon__searchIcon: icon__searchIcon,
+    icon__upscale: icon__upscale,
+    clearButton__mediumSize: clearButton__mediumSize,
+    clearButton__largeSize: clearButton__largeSize,
+    clearButton__visible: clearButton__visible,
+    clearButton__upscale: clearButton__upscale,
+  },
+  soundPlayEventTarget$1 = "Input:ClearButton",
+  ClearButton = reactExports.forwardRef(function ({ className: e, children: t, ...s }, r) {
+    const n = useSounds(),
+      { value: a, clear: o, size: i, disabled: l, focus: c } = useInput(),
+      u = useUpscale(void 0, styles$n.clearButton__upscale);
+    return jsxRuntimeExports.jsx("button", {
+      ...s,
+      type: "button",
+      ref: r,
+      className: clsx(
+        styles$n.clearButton,
+        a && !l && styles$n.clearButton__visible,
+        styles$n[`clearButton__${i}Size`],
+        u,
+        e,
+      ),
+      onMouseEnter: function (e) {
+        (n.play("mouse-enter", { target: soundPlayEventTarget$1, original: e }),
+          s.onMouseEnter?.(e));
+      },
+      onClick: function (e) {
+        (n.play("close", { target: soundPlayEventTarget$1, original: e }),
+          e.stopPropagation(),
+          a && o(),
+          c(),
+          s.onClick?.(e));
+      },
+      children: t,
+    });
   }),
-  HeadlessButton = reactExports.forwardRef(function (
+  soundPlayEventTarget = "Input:Decoration",
+  Decoration = reactExports.forwardRef(function ({ className: e, children: t, ...s }, r) {
+    const n = useSounds(),
+      { state: a, disabled: o, focused: i, focus: l } = useInput();
+    return jsxRuntimeExports.jsxs("div", {
+      ...s,
+      ref: r,
+      className: clsx(
+        styles$n.decoration,
+        styles$n[`decoration__${a}State`],
+        o && styles$n.decoration__disabled,
+        i && styles$n.decoration__focused,
+        e,
+      ),
+      onMouseEnter: function (e) {
+        (n.play("mouse-enter", { target: soundPlayEventTarget, original: e }), s.onMouseEnter?.(e));
+      },
+      onClick: function (e) {
+        (n.play("click", { target: soundPlayEventTarget, original: e }), l(), s.onClick?.(e));
+      },
+      children: [jsxRuntimeExports.jsx("div", { className: styles$n.disabledOverlay }), t],
+    });
+  }),
+  allowSeparators = new Set([",", "."]);
+function findFirstSeparatorIndex(e) {
+  for (let t = 0; t < e.length; t++) {
+    const s = e[t];
+    if (allowSeparators.has(s)) return t;
+  }
+}
+function cleanInputNumber(e) {
+  const t = e.replace(/[^0-9,.]/g, "");
+  if ("0" === t) return t;
+  const s = t.replace(/^0+(?!\b)/, "").replace(/(,|\.){2,}/g, "$1"),
+    r = findFirstSeparatorIndex(s);
+  if (void 0 === r) return s;
+  {
+    const e = s.slice(0, r),
+      t = s.slice(r + 1),
+      n = e.replace(/[,.]/g, ""),
+      a = t.replace(/[,.]/g, "");
+    return `${0 === n.length ? "0" : n}.${a}`;
+  }
+}
+function cleanInputInteger(e) {
+  return e.replace(/[^0-9]/g, "").replace(/^0+(?!\b)/, "");
+}
+const Placeholder = reactExports.forwardRef(function (
+    { visibility: e = placeholderVisibility.focusedOrValue, className: t, children: s, ...r },
+    n,
+  ) {
+    const { focused: a, value: o, size: i, disabled: l } = useInput();
+    if (!{ focusedOrValue: a || o, value: o }[e])
+      return jsxRuntimeExports.jsx("div", {
+        ...r,
+        ref: n,
+        className: clsx(
+          styles$n.placeholder,
+          l && styles$n.placeholder__disabled,
+          styles$n[`placeholder__${i}Size`],
+          t,
+        ),
+        children: s,
+      });
+  }),
+  typeToHtmlType = {
+    text: "text",
+    password: "password",
+    number: "text",
+    email: "email",
+    htmlNumber: "number",
+    integer: "text",
+  },
+  Field = reactExports.forwardRef(function (
     {
-      children: e,
-      onClick: t,
-      onMouseEnter: s,
-      soundTarget: r,
-      disabled: n = !1,
-      silent: a = !1,
+      className: e,
+      classNames: t,
+      wrapperRef: s,
+      placeholderRef: r,
+      placeholderVisibility: n,
+      children: a,
       ...o
     },
     i,
   ) {
-    const l = useSounds();
-    return jsxRuntimeExports.jsx(HeadlessButtonBase, {
-      ...o,
-      ref: i,
-      onMouseEnter: function (e) {
-        (n || a || l.play("mouse-enter", { target: r || "Button", original: e }), s?.(e));
-      },
-      onClick: function (e) {
-        n || (a || l.play("click", { target: r || "Button", original: e }), t?.(e));
-      },
-      children: e,
+    const {
+      type: l,
+      value: c,
+      disabled: u,
+      size: d,
+      inputRef: _,
+      focused: p,
+      setFocused: m,
+    } = useInput();
+    return jsxRuntimeExports.jsxs("div", {
+      className: clsx(styles$n.fieldWrapper, t?.wrapper),
+      ref: s,
+      children: [
+        jsxRuntimeExports.jsx("input", {
+          ...o,
+          "data-name": "Input",
+          ref: assignRefs([i, _]),
+          value: c,
+          disabled: u,
+          type: typeToHtmlType[l] ?? l,
+          className: clsx(
+            styles$n.field,
+            styles$n[`field__${d}Size`],
+            p && styles$n.field__focused,
+            u && styles$n.field__disabled,
+            e,
+          ),
+          onChange: function (e) {
+            if (u) return (e.preventDefault(), void _.current?.blur());
+            const { value: t } = e.target;
+            (l === types$1.number
+              ? (e.target.value = cleanInputNumber(t))
+              : l === types$1.integer && (e.target.value = cleanInputInteger(t)),
+              o.onChange?.(e));
+          },
+          onFocus: function (e) {
+            (m(!0), o.onFocus?.(e));
+          },
+          onBlur: function (e) {
+            (m(!1), o.onBlur?.(e));
+          },
+          onDoubleClick: function (e) {
+            (_.current?.select(), o.onDoubleClick?.(e));
+          },
+        }),
+        "string" == typeof a || "number" == typeof a
+          ? jsxRuntimeExports.jsx(Placeholder, {
+              className: t?.placeholder,
+              ref: r,
+              visibility: n,
+              children: a,
+            })
+          : a,
+      ],
     });
   }),
-  root$b = "Button_root_6bcdc8c",
-  background$2 = "Button_background_98ebcfb8",
-  border$3 = "Button_border_7e6390d7",
-  overlay$3 = "Button_overlay_174632c8",
-  base$n = "Button_70871946",
-  base__enabled = "Button_base__enabled_96634d40",
-  base__disabled$2 = "Button_base__disabled_b713e04a",
-  content$4 = "Button_content_298de63f",
-  content__fontAligned = "Button_content__fontAligned_66115778",
-  styles$r = {
-    root: root$b,
-    background: background$2,
-    border: border$3,
-    overlay: overlay$3,
-    base: base$n,
-    base__enabled: base__enabled,
+  iconsSet = new Set(Object.values(icons)),
+  Icon = reactExports.forwardRef(function ({ className: e, icon: t, children: s, ...r }, n) {
+    const { size: a, focused: o } = useInput(),
+      i = useUpscale(void 0, styles$n.icon__upscale);
+    return jsxRuntimeExports.jsx("div", {
+      ...r,
+      ref: n,
+      className: clsx(
+        styles$n.icon,
+        styles$n[`icon__${a}Size`],
+        o && styles$n.icon__focused,
+        t && iconsSet.has(t) && styles$n[`icon__${t}Icon`],
+        i,
+        e,
+      ),
+      style: t && !iconsSet.has(t) ? { "--background-image": `url(${t})` } : void 0,
+      children: s,
+    });
+  }),
+  Message = reactExports.forwardRef(function (
+    { className: e, type: t = messageTypes.alert, visible: s = !0, children: r, ...n },
+    a,
+  ) {
+    const { size: o } = useInput();
+    return jsxRuntimeExports.jsx("div", {
+      ...n,
+      ref: a,
+      className: clsx(
+        styles$n.message,
+        s && styles$n.message__visible,
+        styles$n[`message__${t}Type`],
+        styles$n[`message__${o}Size`],
+        e,
+      ),
+      children: r,
+    });
+  });
+function Provider({ children: e, ...t }) {
+  return jsxRuntimeExports.jsx(contextInstance.Provider, {
+    value: useInputInstance(t),
+    children: e,
+  });
+}
+const Input = reactExports.forwardRef(function (
+  { value: e, state: t, disabled: s, type: r, size: n, ...a },
+  o,
+) {
+  return jsxRuntimeExports.jsx(Provider, {
+    value: e,
+    type: r,
+    size: n,
+    state: t,
+    disabled: s,
+    children: jsxRuntimeExports.jsx(Decoration, {
+      children: jsxRuntimeExports.jsx(Field, { ...a, ref: o }),
+    }),
+  });
+});
+((Input.types = types$1),
+  (Input.messageTypes = messageTypes),
+  (Input.sizes = sizes$7),
+  (Input.states = states),
+  (Input.icons = icons),
+  (Input.Provider = Provider),
+  (Input.Decoration = Decoration),
+  (Input.Field = Field),
+  (Input.Placeholder = Placeholder),
+  (Input.Message = Message),
+  (Input.Icon = Icon),
+  (Input.ClearButton = ClearButton));
+const toggleThemes = { primary: "primary", custom: "custom" },
+  toggleSizes = { extraSmall: "extraSmall", small: "small", medium: "medium" },
+  base$l = "Toggle_cdf77db0",
+  base__fullSizeContent = "Toggle_base__fullSizeContent_1b52d9ec",
+  base__activated = "Toggle_base__activated_d584e080",
+  base__disabled$2 = "Toggle_base__disabled_b564a69b",
+  background$1 = "Toggle_background_78cd67c0",
+  border$1 = "Toggle_border_3d0d0d39",
+  bulb = "Toggle_bulb_fe6d0fba",
+  overlay$3 = "Toggle_overlay_e2999686",
+  content$3 = "Toggle_content_17eff4d2",
+  styles$m = {
+    base: base$l,
+    "base__size-small": "Toggle_base__size-small_b76142a1",
+    "base__size-medium": "Toggle_base__size-medium_a0d408f5",
+    base__fullSizeContent: base__fullSizeContent,
+    "base__theme-primary": "Toggle_base__theme-primary_3e3de333",
+    base__activated: base__activated,
     base__disabled: base__disabled$2,
-    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
-    "base__size-small": "Button_base__size-small_fc7095a4",
-    "base__size-medium": "Button_base__size-medium_814d61f0",
-    "base__size-large": "Button_base__size-large_83da852e",
-    "base__theme-primary": "Button_base__theme-primary_8ba55469",
-    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
-    content: content$4,
-    content__fontAligned: content__fontAligned,
+    background: background$1,
+    border: border$1,
+    bulb: bulb,
+    overlay: overlay$3,
+    content: content$3,
   },
-  Button = reactExports.forwardRef(function (
+  Base$5 = defineStyledComponent("Toggle", styles$m.base, {
+    variants: {
+      theme: {
+        [toggleThemes.primary]: styles$m["base__theme-primary"],
+        [toggleThemes.custom]: void 0,
+      },
+      size: {
+        [toggleSizes.extraSmall]: styles$m["base__size-extraSmall"],
+        [toggleSizes.small]: styles$m["base__size-small"],
+        [toggleSizes.medium]: styles$m["base__size-medium"],
+      },
+      activated: { true: styles$m.base__activated },
+      disabled: { true: styles$m.base__disabled },
+    },
+    defaultVariants: { theme: toggleThemes.primary, size: toggleSizes.extraSmall },
+  }),
+  ToggleBase = reactExports.forwardRef(function (e, t) {
+    const s = useSounds();
+    return jsxRuntimeExports.jsx(Base$5, {
+      ...e,
+      ref: t,
+      onMouseEnter: function (t) {
+        (s.play("mouse-enter", { target: Base$5.displayName, original: t }), e.onMouseEnter?.(t));
+      },
+      onClick: function (t) {
+        (s.play("click", { target: Base$5.displayName, original: t }), e.onClick?.(t));
+      },
+      children: e.children,
+    });
+  }),
+  Toggle = reactExports.forwardRef(function (
     {
       children: e,
-      size: t = sizes$6.large,
-      theme: s = themes.primary,
-      disabled: r = !1,
-      silent: n = !1,
-      autoAlignContent: a = !0,
-      classNames: o,
-      className: i,
-      ...l
+      size: t = toggleSizes.extraSmall,
+      theme: s = toggleThemes.primary,
+      fullSizeContent: r,
+      classNames: n,
+      className: a,
+      ...o
     },
-    c,
+    i,
   ) {
-    return jsxRuntimeExports.jsxs(HeadlessButton, {
-      ...l,
-      ref: c,
-      silent: n,
-      disabled: r,
-      className: clsx(
-        styles$r.base,
-        styles$r[`base__size-${t}`],
-        styles$r[`base__theme-${s}`],
-        r ? styles$r.base__disabled : styles$r.base__enabled,
-        i,
-        o?.base,
-      ),
-      onClick: function (e) {
-        r || l.onClick?.(e);
-      },
+    return jsxRuntimeExports.jsxs(ToggleBase, {
+      ...o,
+      ref: i,
+      size: t,
+      theme: s,
+      className: clsx(a, r && styles$m.base__fullSizeContent, n?.base),
       children: [
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$r.background, o?.background) }),
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$r.border, o?.border) }),
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$r.overlay, o?.overlay) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$m.border, n?.border) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$m.background, n?.background) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$m.bulb, n?.bulb) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$m.overlay, n?.overlay) }),
         jsxRuntimeExports.jsx("div", {
-          className: clsx(styles$r.content, a && styles$r.content__fontAligned, o?.content),
+          className: clsx(styles$m.content, n?.content),
           children: e,
         }),
       ],
     });
   });
-((Button.themes = themes), (Button.sizes = sizes$6));
-const LIGHT_TANK = "lightTank",
-  MEDIUM_TANK = "mediumTank",
-  HEAVY_TANK = "heavyTank",
-  SPG = "SPG",
-  AT_SPG = "AT-SPG",
-  types$2 = {
-    lightTank: LIGHT_TANK,
-    mediumTank: MEDIUM_TANK,
-    heavyTank: HEAVY_TANK,
-    SPG: SPG,
-    "AT-SPG": AT_SPG,
-  },
-  typeValues = Object.values(types$2),
-  isTypeValidValue = (e) => typeValues.includes(e);
-function getVehicleImageKey(e) {
-  const t = e.indexOf(":");
-  return normalizeResource(t < 0 ? e.toLowerCase() : e.substring(t + 1).toLowerCase());
-}
-function isRentVehicle(e) {
-  return e.rent.isRented;
-}
-const RUDY_PL = 51345,
-  RUDY_USSR = 59393,
-  RUDIES = [RUDY_USSR, RUDY_PL],
-  sameTanksRemap = { [RUDY_PL]: RUDIES, [RUDY_USSR]: RUDIES },
-  WITHOUT_ROLE = "without_role",
-  roles = {
-    assault: "assault",
-    sniper: "sniper",
-    support: "support",
-    universal: "universal",
-    break: "break",
-    scout: "scout",
-    spg: "spg",
-  },
-  mapRoleByKey = [
-    WITHOUT_ROLE,
-    roles.spg,
-    roles.assault,
-    roles.break,
-    roles.universal,
-    roles.support,
-    roles.assault,
-    roles.support,
-    roles.universal,
-    roles.sniper,
-    roles.assault,
-    roles.universal,
-    roles.sniper,
-    roles.support,
-    roles.universal,
-    WITHOUT_ROLE,
-    roles.scout,
-    roles.support,
-  ],
-  getRoleByKey = (e) => mapRoleByKey[e] ?? WITHOUT_ROLE,
-  atSpgRoles = [roles.assault, roles.universal, roles.sniper, roles.support],
-  heavyTankRoles = [roles.assault, roles.break, roles.universal, roles.support],
-  mediumTankRoles = [roles.assault, roles.support, roles.universal, roles.sniper],
-  lightTankRoles = [roles.universal, roles.scout, roles.support],
-  vehicleState = { UNSUITABLE_TO_QUEUE: "unsuitableToQueue" },
-  base$m = "VehicleLevel_3c938122",
-  styles$q = { base: base$m },
+((Toggle.themes = toggleThemes), (Toggle.sizes = toggleSizes));
+const base$k = "VehicleLevel_3c938122",
+  styles$l = { base: base$k },
   numberTypes = { arabic: "arabic", roman: "roman" };
 function getLevelType(e, t) {
   return e || (t ? numberTypes.arabic : numberTypes.roman);
@@ -3770,74 +4977,12 @@ const VehicleLevel = reactExports.forwardRef(function ({ value: e, numberType: t
   return jsxRuntimeExports.jsx("div", {
     ...s,
     "data-name": "VehicleLevel",
-    className: clsx(styles$q.base, s.className),
+    className: clsx(styles$l.base, s.className),
     ref: r,
     children: n,
   });
 });
 VehicleLevel.numberTypes = numberTypes;
-const MIN_LEVEL = 1,
-  TYPE_PRESTIGE = "prestige",
-  directions$1 = { left: "left", right: "right" },
-  lengths = { short: "short", medium: "medium", long: "long" },
-  iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
-  icon$8 = (e, t, s) => (t === TYPE_PRESTIGE ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${s}`),
-  root$a = "VehiclePrestigeLevel_root_4426b46c",
-  base$l = "VehiclePrestigeLevel_a750cce",
-  icon$7 = "VehiclePrestigeLevel_icon_ef024cc3",
-  base__left = "VehiclePrestigeLevel_base__left_4426b46c",
-  level = "VehiclePrestigeLevel_level_10f410ba",
-  level__short = "VehiclePrestigeLevel_level__short_d1939fb1",
-  base__right = "VehiclePrestigeLevel_base__right_4426b46c",
-  level__medium = "VehiclePrestigeLevel_level__medium_90aed80f",
-  level__long = "VehiclePrestigeLevel_level__long_26625167",
-  base__iron = "VehiclePrestigeLevel_base__iron_4426b46c",
-  base__bronze = "VehiclePrestigeLevel_base__bronze_4426b46c",
-  base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
-  base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
-  base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
-  styles$p = {
-    root: root$a,
-    base: base$l,
-    icon: icon$7,
-    base__left: base__left,
-    level: level,
-    level__short: level__short,
-    base__right: base__right,
-    level__medium: level__medium,
-    level__long: level__long,
-    base__iron: base__iron,
-    base__bronze: base__bronze,
-    base__silver: base__silver,
-    base__gold: base__gold$1,
-    base__enamel: base__enamel,
-  };
-function PrestigeLevel({ level: e, grade: t, type: s, direction: r, classNames: n, ...a }) {
-  return e < MIN_LEVEL || "undefined" === s
-    ? null
-    : jsxRuntimeExports.jsxs("div", {
-        ...a,
-        className: clsx(
-          styles$p.base,
-          styles$p[`base__${s}`],
-          styles$p[`base__${r}`],
-          a.className,
-          n?.base,
-        ),
-        children: [
-          jsxRuntimeExports.jsx(Image, {
-            path: `prestige.tab.${icon$8(e, s, t)}`,
-            className: clsx(styles$p.icon, n?.icon),
-          }),
-          s !== TYPE_PRESTIGE &&
-            jsxRuntimeExports.jsx("div", {
-              className: clsx(styles$p.level, styles$p[`level__${iconLength(e)}`], n?.level),
-              children: e,
-            }),
-        ],
-      });
-}
-PrestigeLevel.direction = directions$1;
 const SvgAssaultX16X16 = (e) =>
     reactExports.createElement(
       "svg",
@@ -4312,25 +5457,25 @@ const SvgAssaultX16X16 = (e) =>
     [`${roles.universal}_x48x48`]: SvgUniversalX48X48,
     [`${roles.scout}_x48x48`]: SvgScoutX48X48,
   },
-  root$9 = "VehicleRole_root_741b56a9",
-  base$k = "VehicleRole_e70537d3",
+  root$a = "VehicleRole_root_741b56a9",
+  base$j = "VehicleRole_e70537d3",
   base__x16x16 = "VehicleRole_base__x16x16_f444f190",
   base__x24x24$1 = "VehicleRole_base__x24x24_cc02d077",
   base__x32x32$1 = "VehicleRole_base__x32x32_2180a099",
   base__x48x48$1 = "VehicleRole_base__x48x48_2a01e86c",
-  icon$6 = "VehicleRole_icon_7f7f6256",
-  styles$o = {
-    root: root$9,
-    base: base$k,
+  icon$9 = "VehicleRole_icon_7f7f6256",
+  styles$k = {
+    root: root$a,
+    base: base$j,
     base__x16x16: base__x16x16,
     base__x24x24: base__x24x24$1,
     base__x32x32: base__x32x32$1,
     base__x48x48: base__x48x48$1,
-    icon: icon$6,
+    icon: icon$9,
   },
-  sizes$5 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
+  sizes$6 = { x16x16: "x16x16", x24x24: "x24x24", x32x32: "x32x32", x48x48: "x48x48" },
   VehicleRole = reactExports.forwardRef(function (
-    { roleKey: e, size: t = sizes$5.x24x24, classNames: s, ...r },
+    { roleKey: e, size: t = sizes$6.x24x24, classNames: s, ...r },
     n,
   ) {
     const a = ROLE_TO_COMPONENT[`${e}_${t}`];
@@ -4338,13 +5483,13 @@ const SvgAssaultX16X16 = (e) =>
       return jsxRuntimeExports.jsx("div", {
         ...r,
         ref: n,
-        className: clsx(styles$o.base, styles$o[`base__${t}`], s?.base),
-        children: jsxRuntimeExports.jsx(a, { className: clsx(styles$o.icon, s?.icon) }),
+        className: clsx(styles$k.base, styles$k[`base__${t}`], s?.base),
+        children: jsxRuntimeExports.jsx(a, { className: clsx(styles$k.icon, s?.icon) }),
       });
     console.error(`Unknown vehicle role type ${e} with size ${t}`);
   });
-VehicleRole.sizes = sizes$5;
-const sizes$4 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
+VehicleRole.sizes = sizes$6;
+const sizes$5 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: "x96x96" },
   upscaledSizes = { x24x24: "x64x64", x48x48: "x96x96", x64x64: "x96x96", x96x96: "x96x96" },
   mapTypes = {
     [types$2.lightTank]: "light_tank",
@@ -4353,8 +5498,8 @@ const sizes$4 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: 
     [types$2.SPG]: "spg",
     [types$2["AT-SPG"]]: "tank_destroyer",
   },
-  root$8 = "VehicleType_root_4e0d61e4",
-  base$j = "VehicleType_30b4aab0",
+  root$9 = "VehicleType_root_4e0d61e4",
+  base$i = "VehicleType_30b4aab0",
   base__x24x24 = "VehicleType_base__x24x24_a3dc7aa3",
   base__x48x48 = "VehicleType_base__x48x48_cb59f57a",
   base__x64x64 = "VehicleType_base__x64x64_bb9b890",
@@ -4363,10 +5508,10 @@ const sizes$4 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: 
   base__premium__x48x48 = "VehicleType_base__premium__x48x48_e19c5d21",
   base__premium__x64x64 = "VehicleType_base__premium__x64x64_ba9a2a05",
   base__premium__x96x96 = "VehicleType_base__premium__x96x96_d837a523",
-  icon$5 = "VehicleType_icon_b15d2628",
-  styles$n = {
-    root: root$8,
-    base: base$j,
+  icon$8 = "VehicleType_icon_b15d2628",
+  styles$j = {
+    root: root$9,
+    base: base$i,
     base__x24x24: base__x24x24,
     base__x48x48: base__x48x48,
     base__x64x64: base__x64x64,
@@ -4375,38 +5520,486 @@ const sizes$4 = { x24x24: "x24x24", x48x48: "x48x48", x64x64: "x64x64", x96x96: 
     base__premium__x48x48: base__premium__x48x48,
     base__premium__x64x64: base__premium__x64x64,
     base__premium__x96x96: base__premium__x96x96,
-    icon: icon$5,
+    icon: icon$8,
   },
   VehicleType = reactExports.forwardRef(function (
-    { type: e, size: t = sizes$4.x48x48, premium: s = !1, fit: r = "contain", ...n },
+    { type: e, size: t = sizes$5.x48x48, premium: s = !1, fit: r = "contain", ...n },
     a,
   ) {
-    const o = useUpscale(sizes$4[t], upscaledSizes[t]);
+    const o = useUpscale(sizes$5[t], upscaledSizes[t]);
     return jsxRuntimeExports.jsx(Image, {
       ...n,
       ref: a,
       fit: r,
       className: clsx(
-        styles$n.base,
-        s ? styles$n[`base__premium__${t}`] : styles$n[`base__${t}`],
+        styles$j.base,
+        s ? styles$j[`base__premium__${t}`] : styles$j[`base__${t}`],
         n.className,
       ),
       path: `ui_kit.vehicle_type.${o}.${s ? "premium_" : ""}${normalizeResource(mapTypes[e])}_${o}`,
     });
   });
-((VehicleType.types = types$2), (VehicleType.sizes = sizes$4));
-const base$i = "VehicleInfo_1732f1f0",
+((VehicleType.types = types$2), (VehicleType.sizes = sizes$5));
+const themes = { primary: "primary", secondary: "secondary", custom: "custom" },
+  sizes$4 = { extraSmall: "extraSmall", small: "small", medium: "medium", large: "large" },
+  base$h = "HeadlessButton_df8536fc",
+  styles$i = { base: base$h },
+  HeadlessButtonBase = defineStyledComponent("Button", {
+    element: "button",
+    className: styles$i.base,
+  }),
+  HeadlessButton = reactExports.forwardRef(function (
+    {
+      children: e,
+      onClick: t,
+      onMouseEnter: s,
+      soundTarget: r,
+      disabled: n = !1,
+      silent: a = !1,
+      ...o
+    },
+    i,
+  ) {
+    const l = useSounds();
+    return jsxRuntimeExports.jsx(HeadlessButtonBase, {
+      ...o,
+      ref: i,
+      onMouseEnter: function (e) {
+        (n || a || l.play("mouse-enter", { target: r || "Button", original: e }), s?.(e));
+      },
+      onClick: function (e) {
+        n || (a || l.play("click", { target: r || "Button", original: e }), t?.(e));
+      },
+      children: e,
+    });
+  }),
+  root$8 = "Button_root_6bcdc8c",
+  background = "Button_background_98ebcfb8",
+  border = "Button_border_7e6390d7",
+  overlay$2 = "Button_overlay_174632c8",
+  base$g = "Button_70871946",
+  base__enabled = "Button_base__enabled_96634d40",
+  base__disabled$1 = "Button_base__disabled_b713e04a",
+  content$2 = "Button_content_298de63f",
+  content__fontAligned = "Button_content__fontAligned_66115778",
+  styles$h = {
+    root: root$8,
+    background: background,
+    border: border,
+    overlay: overlay$2,
+    base: base$g,
+    base__enabled: base__enabled,
+    base__disabled: base__disabled$1,
+    "base__size-extraSmall": "Button_base__size-extraSmall_d0cdb5ed",
+    "base__size-small": "Button_base__size-small_fc7095a4",
+    "base__size-medium": "Button_base__size-medium_814d61f0",
+    "base__size-large": "Button_base__size-large_83da852e",
+    "base__theme-primary": "Button_base__theme-primary_8ba55469",
+    "base__theme-secondary": "Button_base__theme-secondary_3fa4afc",
+    content: content$2,
+    content__fontAligned: content__fontAligned,
+  },
+  Button = reactExports.forwardRef(function (
+    {
+      children: e,
+      size: t = sizes$4.large,
+      theme: s = themes.primary,
+      disabled: r = !1,
+      silent: n = !1,
+      autoAlignContent: a = !0,
+      classNames: o,
+      className: i,
+      ...l
+    },
+    c,
+  ) {
+    return jsxRuntimeExports.jsxs(HeadlessButton, {
+      ...l,
+      ref: c,
+      silent: n,
+      disabled: r,
+      className: clsx(
+        styles$h.base,
+        styles$h[`base__size-${t}`],
+        styles$h[`base__theme-${s}`],
+        r ? styles$h.base__disabled : styles$h.base__enabled,
+        i,
+        o?.base,
+      ),
+      onClick: function (e) {
+        r || l.onClick?.(e);
+      },
+      children: [
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$h.background, o?.background) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$h.border, o?.border) }),
+        jsxRuntimeExports.jsx("div", { className: clsx(styles$h.overlay, o?.overlay) }),
+        jsxRuntimeExports.jsx("div", {
+          className: clsx(styles$h.content, a && styles$h.content__fontAligned, o?.content),
+          children: e,
+        }),
+      ],
+    });
+  });
+((Button.themes = themes), (Button.sizes = sizes$4));
+const Slot = React.forwardRef((e, t) => {
+  const { children: s, ...r } = e,
+    n = React.Children.toArray(s),
+    a = n.find(isSlottable);
+  if (a) {
+    const e = a.props.children,
+      s = n.map((t) =>
+        t === a
+          ? React.Children.count(e) > 1
+            ? React.Children.only(null)
+            : React.isValidElement(e)
+              ? e.props.children
+              : null
+          : t,
+      );
+    return jsxRuntimeExports.jsx(SlotClone, {
+      ...r,
+      ref: t,
+      children: React.isValidElement(e) ? React.cloneElement(e, void 0, s) : null,
+    });
+  }
+  return jsxRuntimeExports.jsx(SlotClone, { ...r, ref: t, children: s });
+});
+Slot.displayName = "Slot";
+const SlotClone = React.forwardRef((e, t) => {
+  const { children: s, ...r } = e;
+  if (React.isValidElement(s)) {
+    const e = getElementRef(s),
+      n = mergeProps(r, s.props);
+    return (
+      s.type !== React.Fragment && (n.ref = t ? assignRefs([t, e]) : e),
+      React.cloneElement(s, n)
+    );
+  }
+  return (console.warn("Invalid children", s), null);
+});
+SlotClone.displayName = "SlotClone";
+const Slottable = ({ children: e }) =>
+  jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: e });
+function isSlottable(e) {
+  return React.isValidElement(e) && e.type === Slottable;
+}
+function mergeProps(e, t) {
+  const s = { ...e, ...t };
+  for (const r in t) {
+    const n = e[r],
+      a = t[r];
+    r.startsWith("on")
+      ? n && a
+        ? (s[r] = (...e) => {
+            (a(...e), n(...e));
+          })
+        : n && (s[r] = n)
+      : "style" === r
+        ? (s[r] = { ...n, ...a })
+        : "className" === r && (s[r] = [n, a].filter(Boolean).join(" "));
+  }
+  return s;
+}
+function getElementRef(e) {
+  return e.props.ref || e.ref;
+}
+const base$f = "TruncateText_dcb41d92",
+  styles$g = { base: base$f },
+  TruncatedText = reactExports.forwardRef(function (
+    { text: e, tooltipParams: t, className: s, ...r },
+    n,
+  ) {
+    const a = useSimpleTooltip({ header: t?.header, body: t?.body || e }),
+      o = reactExports.useRef(null),
+      [i, l] = reactExports.useState(!1),
+      c = reactExports.useCallback(() => {
+        o.current &&
+          l(o.current.scrollWidth - Math.ceil(o.current.getBoundingClientRect().width) > 0);
+      }, []);
+    return (
+      reactExports.useEffect(() => {
+        i || a.onMouseLeave();
+      }, [i, a]),
+      useLayoutReady(c, [c]),
+      useResizeLayoutReady(c, [c]),
+      useRefResizeObserver(o, c),
+      jsxRuntimeExports.jsx("div", {
+        ...r,
+        ref: assignRefs([n, o]),
+        className: clsx(styles$g.base, s),
+        ...(i ? a : {}),
+        children: e,
+      })
+    );
+  });
+function asMemoized(e) {
+  return e;
+}
+function Sprite(e) {
+  const t = e.sprite.frames[e.icon]?.frame;
+  return t
+    ? jsxRuntimeExports.jsx(Image, {
+        ...e,
+        path: e.path,
+        fit: `${e.sprite.meta.size.w}rem ${e.sprite.meta.size.h}rem`,
+        position: `${-t.x}rem ${-t.y}rem`,
+        width: t.w,
+        height: t.h,
+        className: e.className,
+      })
+    : (console.error(`Error in Sprite: Frame for icon "${e.icon}" not found in path "${e.path}"`),
+      null);
+}
+function useHoverState(e) {
+  const [t, s] = reactExports.useState(!1);
+  return [t ? `${e}_hover` : e, s];
+}
+const RouterContext = reactExports.createContext(void 0);
+function useRouter() {
+  const e = reactExports.useContext(RouterContext);
+  if (!e) throw new Error("useRouter must be used within a RouterProvider");
+  return e;
+}
+reactExports.createContext(void 0);
+const directions$1 = { horizontal: "horizontal" },
+  PERCENT_OF_VISIBLE_ELEMENTS = 1.5,
+  SAFETY_FACTOR = 0.25;
+function calculateRangeRows(e, t, s) {
+  if (0 === t) return [0, 0];
+  const r = e.animationScroll.scrollPosition.get(),
+    n = e.getWrapperSize();
+  if ("number" != typeof n || 0 === n) return [0, 0];
+  const a = Math.ceil((n / s) * PERCENT_OF_VISIBLE_ELEMENTS),
+    o = Math.max(0, Math.ceil(r / s) - Math.floor(a * SAFETY_FACTOR));
+  return [o, Math.min(t, o + a)];
+}
+function DefaultWrapper(e) {
+  return jsxRuntimeExports.jsx("div", { ...e });
+}
+function calculateRangeItems(e, t, s) {
+  if (0 === t) return [0, 0];
+  const r = e.animationScroll.scrollPosition.get(),
+    n = e.getWrapperSize();
+  if ("number" != typeof n || 0 === n || Number.isNaN(r)) return [0, 0];
+  const a = Math.ceil((n / s) * PERCENT_OF_VISIBLE_ELEMENTS),
+    o = clamp(0, t, Math.ceil(r / s) - Math.floor(a * SAFETY_FACTOR));
+  return [o, Math.min(t, o + a)];
+}
+const initVisibleRange = [0, 0];
+function useVisibleRange(e, t, s, r, n) {
+  const [a, o] = reactExports.useState(initVisibleRange),
+    i = reactExports.useRef(initVisibleRange),
+    [l, c] = useOptionalTransition(s),
+    u = usePrevious(l),
+    d = useThrottleCall(t, !0),
+    _ = useEvent(() => {
+      c(() => {
+        const [e, t] = i.current;
+        o((s) => {
+          const [r, n] = s;
+          return e === r && t === n ? s : [e, t];
+        });
+      });
+    }),
+    p = useEvent(() => {
+      d.call(() => {
+        const e = r();
+        (i.current[0] === e[0] && i.current[1] === e[1]) || ((i.current = e), l || _());
+      });
+    });
+  return (
+    reactExports.useEffect(() => {
+      u && !l && ((i.current[0] === a[0] && i.current[1] === a[1]) || _());
+    }, [l, u, _, a]),
+    reactExports.useLayoutEffect(
+      () => (
+        e.events.on("change", p),
+        e.events.on("recalculateContent", p),
+        e.events.on("resizeHandled", p),
+        p(),
+        () => {
+          (e.events.off("change", p),
+            e.events.off("recalculateContent", p),
+            e.events.off("resizeHandled", p));
+        }
+      ),
+      [e.events, p, n],
+    ),
+    a
+  );
+}
+const renderScrollDefault$1 = (e) => jsxRuntimeExports.jsx(DefaultScroll$1, { ...e });
+function HorizontalList({
+  totalElements: e,
+  throttle: t = 0,
+  api: s,
+  elementWidth: r,
+  wrappers: n,
+  className: a,
+  renderElement: o,
+  asyncRenderEnabled: i = !1,
+  renderScroll: l = renderScrollDefault$1,
+}) {
+  const c = useVisibleRange(s, t, i, () => calculateRangeItems(s, e, r), e),
+    u = n?.Element ?? reactExports.Fragment,
+    d = n?.Content ?? DefaultWrapper,
+    [_, p] = c,
+    m = Math.min(e, p),
+    g = clamp(0, m, _);
+  return l(
+    {
+      className: a,
+      children: jsxRuntimeExports.jsxs(d, {
+        children: [
+          jsxRuntimeExports.jsx("div", { style: { width: _ * r } }),
+          mapRange(g, Math.max(m, g), (e) => jsxRuntimeExports.jsx(u, { children: o(e) }, e)),
+          jsxRuntimeExports.jsx("div", { style: { width: Math.max(0, e - p) * r } }),
+        ],
+      }),
+    },
+    c,
+  );
+}
+const renderScrollDefault = (e) => jsxRuntimeExports.jsx(DefaultScroll, { ...e });
+function VerticalList({
+  api: e,
+  className: t,
+  totalElements: s,
+  elementHeight: r,
+  itemsPerRow: n = 1,
+  wrappers: a,
+  throttle: o = 0,
+  asyncRenderEnabled: i = !1,
+  renderElement: l,
+  renderScroll: c = renderScrollDefault,
+}) {
+  const u = Math.ceil(s / n),
+    d = useVisibleRange(e, o, i, () => calculateRangeRows(e, u, r));
+  reactExports.useEffect(e.recalculateContent, [e, d]);
+  const [_, p] = d,
+    m = a?.Element ?? reactExports.Fragment,
+    g = a?.Content ?? DefaultWrapper,
+    f = Math.min(s, p * n),
+    x = clamp(0, f, _ * n);
+  return c(
+    {
+      className: t,
+      children: jsxRuntimeExports.jsxs(g, {
+        children: [
+          jsxRuntimeExports.jsx("div", { style: { width: "100%", height: _ * r } }),
+          mapRange(x, Math.max(x, f), (e) => jsxRuntimeExports.jsx(m, { children: l(e) }, e)),
+          jsxRuntimeExports.jsx("div", {
+            style: { width: "100%", height: Math.max(0, u - p) * r },
+          }),
+        ],
+      }),
+    },
+    d,
+  );
+}
+function List(e) {
+  return e.direction === directions$1.horizontal
+    ? jsxRuntimeExports.jsx(HorizontalList, { ...e })
+    : jsxRuntimeExports.jsx(VerticalList, { ...e });
+}
+List.displayName = "VirtualList";
+const base$e = "ScrollVelocityGuardContent_6b5de46d",
+  base__disableInteractivity = "ScrollVelocityGuardContent_base__disableInteractivity_e6c30513",
+  styles$f = { base: base$e, base__disableInteractivity: base__disableInteractivity },
+  DEFAULT_VELOCITY_LIMITATION = 1;
+function ScrollVelocityGuardContent({
+  api: e,
+  className: t,
+  velocityLimit: s = DEFAULT_VELOCITY_LIMITATION,
+  ...r
+}) {
+  const [n, a] = reactExports.useState(!1);
+  return (
+    useMount(() =>
+      e.events.on("change", () => {
+        a(Math.abs(e.animationScroll.scrollPosition.velocity) > s);
+      }),
+    ),
+    jsxRuntimeExports.jsx(DefaultWrapper, {
+      ...r,
+      className: clsx(styles$f.base, n && styles$f.base__disableInteractivity, t),
+    })
+  );
+}
+const MIN_LEVEL$1 = 1,
+  TYPE_PRESTIGE = "prestige",
+  directions = { left: "left", right: "right" },
+  lengths = { short: "short", medium: "medium", long: "long" },
+  iconLength = (e) => (e < 10 ? lengths.short : e < 100 ? lengths.medium : lengths.long),
+  icon$7 = (e, t, s) => (t === TYPE_PRESTIGE ? TYPE_PRESTIGE : `${t}.${iconLength(e)}.c_${s}`),
+  root$7 = "VehiclePrestigeLevel_root_4426b46c",
+  base$d = "VehiclePrestigeLevel_a750cce",
+  icon$6 = "VehiclePrestigeLevel_icon_ef024cc3",
+  base__left$1 = "VehiclePrestigeLevel_base__left_4426b46c",
+  level$1 = "VehiclePrestigeLevel_level_10f410ba",
+  level__short = "VehiclePrestigeLevel_level__short_d1939fb1",
+  base__right$1 = "VehiclePrestigeLevel_base__right_4426b46c",
+  level__medium = "VehiclePrestigeLevel_level__medium_90aed80f",
+  level__long = "VehiclePrestigeLevel_level__long_26625167",
+  base__iron = "VehiclePrestigeLevel_base__iron_4426b46c",
+  base__bronze = "VehiclePrestigeLevel_base__bronze_4426b46c",
+  base__silver = "VehiclePrestigeLevel_base__silver_4426b46c",
+  base__gold$1 = "VehiclePrestigeLevel_base__gold_4426b46c",
+  base__enamel = "VehiclePrestigeLevel_base__enamel_4426b46c",
+  styles$e = {
+    root: root$7,
+    base: base$d,
+    icon: icon$6,
+    base__left: base__left$1,
+    level: level$1,
+    level__short: level__short,
+    base__right: base__right$1,
+    level__medium: level__medium,
+    level__long: level__long,
+    base__iron: base__iron,
+    base__bronze: base__bronze,
+    base__silver: base__silver,
+    base__gold: base__gold$1,
+    base__enamel: base__enamel,
+  };
+function PrestigeLevel({ level: e, grade: t, type: s, direction: r, classNames: n, ...a }) {
+  return e < MIN_LEVEL$1 || "undefined" === s
+    ? null
+    : jsxRuntimeExports.jsxs("div", {
+        ...a,
+        className: clsx(
+          styles$e.base,
+          styles$e[`base__${s}`],
+          styles$e[`base__${r}`],
+          a.className,
+          n?.base,
+        ),
+        children: [
+          jsxRuntimeExports.jsx(Image, {
+            path: `prestige.tab.${icon$7(e, s, t)}`,
+            className: clsx(styles$e.icon, n?.icon),
+          }),
+          s !== TYPE_PRESTIGE &&
+            jsxRuntimeExports.jsx("div", {
+              className: clsx(styles$e.level, styles$e[`level__${iconLength(e)}`], n?.level),
+              children: e,
+            }),
+        ],
+      });
+}
+PrestigeLevel.direction = directions;
+const base$c = "VehicleInfo_1732f1f0",
   name = "VehicleInfo_name_3989ca04",
   name__premium = "VehicleInfo_name__premium_258b3b93",
-  styles$m = { base: base$i, name: name, name__premium: name__premium },
-  VehicleName = defineStyledComponent("VehicleName", styles$m.name, {
-    variants: { premium: { true: styles$m.name__premium } },
+  styles$d = { base: base$c, name: name, name__premium: name__premium },
+  VehicleName = defineStyledComponent("VehicleName", styles$d.name, {
+    variants: { premium: { true: styles$d.name__premium } },
   }),
   VehicleInfo = reactExports.forwardRef(function (e, t) {
     return jsxRuntimeExports.jsx("div", {
       ...e,
       ref: t,
-      className: clsx(styles$m.base, e.className),
+      className: clsx(styles$d.base, e.className),
     });
   });
 ((VehicleInfo.Prestige = PrestigeLevel),
@@ -4414,6 +6007,607 @@ const base$i = "VehicleInfo_1732f1f0",
   (VehicleInfo.Type = VehicleType),
   (VehicleInfo.Name = VehicleName),
   (VehicleInfo.Role = VehicleRole));
+const base__x120x96 = "VehicleImage_base__x120x96_32ca06f1",
+  base__x190x152 = "VehicleImage_base__x190x152_41379c70",
+  base__x380x304 = "VehicleImage_base__x380x304_274f87fe",
+  styles$c = {
+    base__x120x96: base__x120x96,
+    base__x190x152: base__x190x152,
+    base__x380x304: base__x380x304,
+  },
+  sizes$3 = { x120x96: "x120x96", x190x152: "x190x152", x380x304: "x380x304" },
+  Base$4 = defineStyledComponent("VehicleImage", {
+    element: Image,
+    className: styles$c.base,
+    cva: {
+      variants: {
+        size: {
+          [sizes$3.x120x96]: styles$c.base__x120x96,
+          [sizes$3.x190x152]: styles$c.base__x190x152,
+          [sizes$3.x380x304]: styles$c.base__x380x304,
+        },
+      },
+    },
+  });
+function UnknownVehicleImage({ size: e = sizes$3.x380x304, ...t }) {
+  return jsxRuntimeExports.jsx(Base$4, { ...t, size: e, path: `vehicle.${e}.tank_empty` });
+}
+const VehicleImage = reactExports.forwardRef(function (
+  { size: e = sizes$3.x380x304, name: t, width: s, height: r, className: n, ...a },
+  o,
+) {
+  const i = resources.resolve("images"),
+    l = `vehicle.${e}.${getVehicleImageKey(t)}`;
+  return i.has(l)
+    ? jsxRuntimeExports.jsx(Base$4, {
+        ...a,
+        ref: o,
+        size: e,
+        className: n,
+        path: l,
+        width: s,
+        height: r,
+      })
+    : (console.warn(`Fail to retrieve icon maps/icons/vehicle/${e}/${getVehicleImageKey(t)}`),
+      jsxRuntimeExports.jsx(UnknownVehicleImage, { size: e, className: n, width: s, height: r }));
+});
+function ColorsProvider(e) {
+  return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: e.children });
+}
+function UIProvider(e) {
+  return jsxRuntimeExports.jsx(ColorsProvider, {
+    children: jsxRuntimeExports.jsx(SoundsProvider, {
+      overrides: e.soundsOverrides,
+      severity: e.soundSeverity,
+      silent: e.soundsOff,
+      children: e.children,
+    }),
+  });
+}
+((VehicleImage.UnknownVehicleImage = UnknownVehicleImage), (VehicleImage.size = sizes$3));
+const root$6 = "CloseButton_root_987cb365",
+  base$b = "CloseButton_7488a1b8",
+  base__medium = "CloseButton_base__medium_97d04067",
+  base__small$2 = "CloseButton_base__small_c1b29bae",
+  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
+  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
+  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
+  styles$b = {
+    root: root$6,
+    base: base$b,
+    base__medium: base__medium,
+    base__small: base__small$2,
+    base__extraSmall: base__extraSmall,
+    base__x96x96: base__x96x96,
+    base__x32x32: base__x32x32,
+  },
+  sizes$2 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
+  upscaleImageSizes = {
+    [sizes$2.medium]: "x96x96",
+    [sizes$2.small]: sizes$2.medium,
+    [sizes$2.extraSmall]: "x32x32",
+  };
+function CloseButton({
+  size: e = sizes$2.medium,
+  hoverSound: t = sounds$1.highlight,
+  clickSound: s = sounds$1.click,
+  className: r,
+  onHover: n,
+  onClose: a,
+}) {
+  const o = useUpscale(styles$b[`base__${e}`], styles$b[`base__${upscaleImageSizes[e]}`]);
+  return jsxRuntimeExports.jsx("div", {
+    className: cx(styles$b.base, o, r),
+    onMouseEnter: () => {
+      (play$1.sound(t), n?.());
+    },
+    onClick: () => {
+      (play$1.sound(s), a());
+    },
+  });
+}
+function makeEngineEvent(e) {
+  return (t) => (
+    engine.on(e, t),
+    () => {
+      engine.off(e, t);
+    }
+  );
+}
+function setTrackMouseOutside(e) {
+  viewEnv.setTrackMouseOnStage(e);
+}
+CloseButton.size = sizes$2;
+const internalMouse = {
+  down: makeEngineEvent("mousedown"),
+  up: makeEngineEvent("mouseup"),
+  move: makeEngineEvent("mousemove"),
+};
+function initMouseEvents() {
+  const e = { listeners: 0, enabled: !0, initialized: !1 };
+  function t() {
+    e.enabled && setTrackMouseOutside(!1);
+  }
+  function s() {
+    e.enabled && setTrackMouseOutside(!0);
+  }
+  function r() {
+    e.enabled
+      ? e.listeners < 1
+        ? ((e.initialized = !1),
+          document.body.removeEventListener("mouseenter", t),
+          document.body.removeEventListener("mouseleave", s))
+        : e.initialized ||
+          ((e.initialized = !0),
+          document.body.addEventListener("mouseenter", t),
+          document.body.addEventListener("mouseleave", s))
+      : setTrackMouseOutside(!1);
+  }
+  return {
+    ...["down", "up", "move"].reduce(
+      (t, s) => (
+        (t[s] = (function (t) {
+          return (s) => {
+            e.listeners += 1;
+            let n = !0;
+            const a = `mouse${t}`,
+              o = internalMouse[t]((e) => s([e, "outside"]));
+            function i(e) {
+              s([e, "inside"]);
+            }
+            return (
+              window.addEventListener(a, i),
+              r(),
+              () => {
+                n && (o(), window.removeEventListener(a, i), (e.listeners -= 1), r(), (n = !1));
+              }
+            );
+          };
+        })(s)),
+        t
+      ),
+      {},
+    ),
+    disable() {
+      ((e.enabled = !1), r());
+    },
+    enable() {
+      ((e.enabled = !0), r());
+    },
+    enableOutside() {
+      e.enabled && setTrackMouseOutside(!0);
+    },
+    disableOutside() {
+      e.enabled && setTrackMouseOutside(!1);
+    },
+  };
+}
+function playSound(e) {
+  engine.call("PlaySound", e).catch((t) => {
+    console.error(`playSound('${e}'): `, t);
+  });
+}
+initMouseEvents();
+const sounds = { highlight: "highlight", click: "play", yes1: "yes1" },
+  plays = Object.keys(sounds).reduce((e, t) => ((e[t] = () => playSound(sounds[t])), e), {}),
+  play = { ...plays, sound: playSound },
+  sound = { play: play },
+  ROMAN = ["I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"],
+  ARABIC = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1e3];
+function arabic2roman$1(e) {
+  let t = "";
+  for (let s = ARABIC.length - 1; s >= 0; s--)
+    for (; e >= ARABIC[s];) ((t += ROMAN[s]), (e -= ARABIC[s]));
+  return t;
+}
+const ROMAN_FORBIDDEN_LANGUAGE_CODES = ["ko", "no"];
+function getTextureUrl(e, t, s = 1) {
+  return viewEnv.getChildTexturePath(e, t.width, t.height, s);
+}
+function getBgUrl(e, t, s) {
+  return `url(${getTextureUrl(e, t, s)})`;
+}
+ROMAN_FORBIDDEN_LANGUAGE_CODES.includes(R.strings.settings.LANGUAGE_CODE());
+const children = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, getBgUrl: getBgUrl, getTextureUrl: getTextureUrl },
+      Symbol.toStringTag,
+      { value: "Module" },
+    ),
+  ),
+  displayStatus = { showing: 0, shown: 1, hiding: 2, hidden: 3 },
+  events = {
+    onTextureFrozen: makeEngineEvent("self.onTextureFrozen"),
+    onTextureReady: makeEngineEvent("self.onTextureReady"),
+    onDomBuilt: makeEngineEvent("self.onDomBuilt"),
+    onLoaded: makeEngineEvent("self.onLoaded"),
+    onDisplayChanged: makeEngineEvent("self.onShowingStatusChanged"),
+    onFocusUpdated: makeEngineEvent("self.onFocusChanged"),
+    children: {
+      onAdded: makeEngineEvent("children.onAdded"),
+      onLoaded: makeEngineEvent("children.onLoaded"),
+      onRemoved: makeEngineEvent("children.onRemoved"),
+      onAttached: makeEngineEvent("children.onAttached"),
+      onTextureReady: makeEngineEvent("children.onTextureReady"),
+      onRequestPosition: makeEngineEvent("children.requestPosition"),
+    },
+  },
+  viewEventTypes = { closePopover: 2, move: 16, close: 32, minimize: 64 },
+  createViewEventArguments$1 = (e) =>
+    Object.entries(e).map(([e, t]) => {
+      const s = "GFValueProxy";
+      switch (typeof t) {
+        case "number":
+          return { __Type: s, name: e, number: t };
+        case "boolean":
+          return { __Type: s, name: e, bool: t };
+        default:
+          return { __Type: s, name: e, string: t.toString() };
+      }
+    }),
+  sendViewEvent = (e, t) => {
+    const s = "GFViewEventProxy";
+    if (void 0 !== t) {
+      const { args: r, ...n } = t;
+      return void 0 !== r
+        ? viewEnv.handleViewEvent({
+            __Type: s,
+            type: e,
+            ...n,
+            arguments: createViewEventArguments$1(r),
+          })
+        : viewEnv.handleViewEvent({ __Type: s, type: e, ...n });
+    }
+    return viewEnv.handleViewEvent({ __Type: s, type: e });
+  },
+  sendEvent = {
+    close(e) {
+      sendViewEvent("popover" === e ? viewEventTypes.closePopover : viewEventTypes.close);
+    },
+    minimize() {
+      sendViewEvent(viewEventTypes.minimize);
+    },
+    move(e) {
+      sendViewEvent(viewEventTypes.move, { isMouseEvent: !0, on: e });
+    },
+  },
+  ALL_SIDES = 15;
+function addPreloadTexture(e) {
+  viewEnv.addPreloadTexture(e);
+}
+function setInputPaddingsRem(e) {
+  viewEnv.setHitAreaPaddingsRem(e, e, e, e, ALL_SIDES);
+}
+function getBrowserTexturePath(e, t, s, r = 1) {
+  return viewEnv.getWebBrowserTexturePath(e, t, s, r);
+}
+function addModelObserver(e, t, s) {
+  return viewEnv.addDataChangedCallback(e, t, s);
+}
+function setSidePaddingsRem(e) {
+  viewEnv.setHitAreaPaddingsRem(e.top, e.right, e.bottom, e.left, ALL_SIDES);
+}
+function getSize(e = "px") {
+  return "rem" === e ? viewEnv.getViewSizeRem() : viewEnv.getViewSizePx();
+}
+function resize(e, t, s = "px") {
+  return "rem" === s ? viewEnv.resizeViewRem(e, t) : viewEnv.resizeViewPx(e, t);
+}
+function getViewGlobalPosition(e = "rem") {
+  const t = viewEnv.getViewGlobalPositionRem();
+  return "rem" === e ? t : { x: remToPx(t.x), y: remToPx(t.y) };
+}
+function freezeTextureBeforeResize() {
+  viewEnv.freezeTextureBeforeResize();
+}
+function getScale() {
+  return viewEnv.getScale();
+}
+function pxToRem(e) {
+  return viewEnv.pxToRem(e);
+}
+function remToPx(e) {
+  return viewEnv.remToPx(e);
+}
+function setAnimateWindow(e, t) {
+  viewEnv.setAnimateWindow(e, t);
+}
+function isFocused() {
+  return viewEnv.isFocused();
+}
+function setEventHandled() {
+  return viewEnv.setEventHandled();
+}
+function isEventHandled() {
+  return viewEnv.isEventHandled();
+}
+function forceTriggerMouseMove() {
+  viewEnv.forceTriggerMouseMove();
+}
+function getDisplayStatus() {
+  return viewEnv.getShowingStatus();
+}
+const getFontNames = (() => {
+    let e = [];
+    return () => (0 === e.length && (e = Object.keys(viewEnv.getFontsConfig())), e);
+  })(),
+  arabic2roman = arabic2roman$1;
+function getExternalPaddingsRem() {
+  return viewEnv.getExternalPaddingsRem();
+}
+const displayStatusIs = Object.keys(displayStatus).reduce(
+    (e, t) => ((e[t] = () => viewEnv.getShowingStatus() === displayStatus[t]), e),
+    {},
+  ),
+  extraSize = {
+    set: (e, t) => {
+      viewEnv.setExtraSizeRem(e, t);
+    },
+    get: (e, t) => {
+      viewEnv.getExtraSizeRem(e, t);
+    },
+  },
+  whenTutorialReady = Promise.all([
+    new Promise((e) => {
+      window.isDomBuilt ? e() : events.onDomBuilt(e);
+    }),
+    engine.whenReady,
+  ]);
+function enableFullScreenModeSupported() {
+  viewEnv.setFullscreenModeSupported(!0);
+}
+function initExternalPaddings(e) {
+  function t() {
+    const { top: t, right: s, bottom: r, left: n } = viewEnv.getExternalPaddingsRem();
+    (e.style.setProperty("--external-padding-top", `${t}rem`),
+      e.style.setProperty("--external-padding-right", `${s}rem`),
+      e.style.setProperty("--external-padding-bottom", `${r}rem`),
+      e.style.setProperty("--external-padding-left", `${n}rem`));
+  }
+  (t(), engine.on("self.onPaddingsUpdated", () => t()));
+}
+const view = Object.freeze(
+    Object.defineProperty(
+      {
+        __proto__: null,
+        addModelObserver: addModelObserver,
+        addPreloadTexture: addPreloadTexture,
+        arabic2roman: arabic2roman,
+        children: children,
+        displayStatus: displayStatus,
+        displayStatusIs: displayStatusIs,
+        enableFullScreenModeSupported: enableFullScreenModeSupported,
+        events: events,
+        extraSize: extraSize,
+        forceTriggerMouseMove: forceTriggerMouseMove,
+        freezeTextureBeforeResize: freezeTextureBeforeResize,
+        getBrowserTexturePath: getBrowserTexturePath,
+        getDisplayStatus: getDisplayStatus,
+        getExternalPaddingsRem: getExternalPaddingsRem,
+        getFontNames: getFontNames,
+        getScale: getScale,
+        getSize: getSize,
+        getViewGlobalPosition: getViewGlobalPosition,
+        initExternalPaddings: initExternalPaddings,
+        isEventHandled: isEventHandled,
+        isFocused: isFocused,
+        pxToRem: pxToRem,
+        remToPx: remToPx,
+        resize: resize,
+        sendEvent: sendEvent,
+        setAnimateWindow: setAnimateWindow,
+        setEventHandled: setEventHandled,
+        setInputPaddingsRem: setInputPaddingsRem,
+        setSidePaddingsRem: setSidePaddingsRem,
+        whenTutorialReady: whenTutorialReady,
+      },
+      Symbol.toStringTag,
+      { value: "Module" },
+    ),
+  ),
+  env = { view: view, sound: sound },
+  root$5 = "Textbutton_root_599b35e4",
+  base$a = "Textbutton_b1283086",
+  base__right = "Textbutton_base__right_78d4c03f",
+  icon$5 = "Textbutton_icon_9ba4c60",
+  icon__back = "Textbutton_icon__back_599b35e4",
+  icon__forward = "Textbutton_icon__forward_4ef35d4d",
+  icon__close = "Textbutton_icon__close_b2af8bd5",
+  icon__info = "Textbutton_icon__info_6cbc7293",
+  glow = "Textbutton_glow_1ddc70ba",
+  caption = "Textbutton_caption_4350685c",
+  caption__back = "Textbutton_caption__back_599b35e4",
+  caption__forward = "Textbutton_caption__forward_599b35e4",
+  caption__close = "Textbutton_caption__close_c29bdb5",
+  caption__info = "Textbutton_caption__info_ccd96b67",
+  goto = "Textbutton_goto_d2c81cbd",
+  base__left = "Textbutton_base__left_599b35e4",
+  shine = "Textbutton_shine_527e4656",
+  styles$a = {
+    root: root$5,
+    base: base$a,
+    base__right: base__right,
+    icon: icon$5,
+    icon__back: icon__back,
+    icon__forward: icon__forward,
+    icon__close: icon__close,
+    icon__info: icon__info,
+    glow: glow,
+    caption: caption,
+    caption__back: caption__back,
+    caption__forward: caption__forward,
+    caption__close: caption__close,
+    caption__info: caption__info,
+    goto: goto,
+    base__left: base__left,
+    shine: shine,
+  },
+  TextButton = ({
+    caption: e,
+    onClick: t,
+    goto: s,
+    classNames: r,
+    onMouseEnter: n,
+    onMouseLeave: a,
+    onMouseDown: o,
+    onMouseUp: i,
+    side: l = "left",
+    type: c = "back",
+    soundHover: u = "highlight",
+    soundClick: d = "play",
+    ..._
+  }) => {
+    const p = reactExports.useCallback(
+        (e) => {
+          (n?.(e), env.sound.play.sound(u));
+        },
+        [n, u],
+      ),
+      m = reactExports.useCallback(
+        (e) => {
+          a?.(e);
+        },
+        [a],
+      ),
+      g = reactExports.useCallback(
+        (e) => {
+          (o?.(e), env.sound.play.sound(d));
+        },
+        [o, d],
+      ),
+      f = reactExports.useCallback(
+        (e) => {
+          i?.(e);
+        },
+        [i],
+      );
+    return jsxRuntimeExports.jsxs("div", {
+      className: cx(styles$a.base, styles$a[`base__${c}`], styles$a[`base__${l}`], r?.base),
+      onMouseEnter: p,
+      onMouseLeave: m,
+      onMouseDown: g,
+      onMouseUp: f,
+      onClick: t,
+      ..._,
+      children: [
+        "info" !== c && jsxRuntimeExports.jsx("div", { className: styles$a.shine }),
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$a.icon, styles$a[`icon__${c}`], styles$a[`icon__${l}`], r?.icon),
+          children: jsxRuntimeExports.jsx("div", { className: cx(styles$a.glow, r?.glow) }),
+        }),
+        jsxRuntimeExports.jsx("div", {
+          className: cx(styles$a.caption, styles$a[`caption__${c}`], r?.caption),
+          children: e,
+        }),
+        s && jsxRuntimeExports.jsx("div", { className: cx(styles$a.goto, r?.goto), children: s }),
+      ],
+    });
+  },
+  MIN_LEVEL = 1,
+  grades = { gold: "gold", enamel: "enamel", prestige: "prestige" },
+  sizes$1 = { xs: "xs", sm: "sm", md: "md", mdLg: "mdLg", lg: "lg", xl: "xl", xxl: "xxl" },
+  sizesEmblems = {
+    xs: "48x48",
+    sm: "72x72",
+    md: "115x84",
+    mdLg: "143x104",
+    lg: "170x124",
+    xl: "400x300",
+    xxl: "600x450",
+  },
+  sizesFonts = {
+    xs: "6x12",
+    sm: "9x19",
+    md: "16x33",
+    mdLg: "20x41",
+    lg: "23x48",
+    xl: "53x120",
+    xxl: "77x176",
+  };
+function icon$4(e, t, s) {
+  return t === grades.prestige ? `.c_${sizesEmblems[s]}.${t}` : `.c_${sizesEmblems[s]}.${t}.c_${e}`;
+}
+const root$4 = "VehiclePrestigeEmblem_root_9eca5e7f",
+  icon$3 = "VehiclePrestigeEmblem_icon_940474a9",
+  base__xs = "VehiclePrestigeEmblem_base__xs_678b197f",
+  base__sm = "VehiclePrestigeEmblem_base__sm_f0368fa3",
+  base__md = "VehiclePrestigeEmblem_base__md_63f722e6",
+  base__mdLg = "VehiclePrestigeEmblem_base__mdLg_bb48be4b",
+  base__lg = "VehiclePrestigeEmblem_base__lg_69373327",
+  base__xl = "VehiclePrestigeEmblem_base__xl_3144948a",
+  base__xxl = "VehiclePrestigeEmblem_base__xxl_fec732e8",
+  base$9 = "VehiclePrestigeEmblem_24849b0a",
+  level = "VehiclePrestigeEmblem_level_8cc4a042",
+  levelIcon__xs = "VehiclePrestigeEmblem_levelIcon__xs_d11b6645",
+  levelIcon__sm = "VehiclePrestigeEmblem_levelIcon__sm_900b8c7f",
+  levelIcon__md = "VehiclePrestigeEmblem_levelIcon__md_914fcef3",
+  levelIcon__mdLg = "VehiclePrestigeEmblem_levelIcon__mdLg_cf5f7370",
+  levelIcon__lg = "VehiclePrestigeEmblem_levelIcon__lg_2fd402cc",
+  levelIcon__xl = "VehiclePrestigeEmblem_levelIcon__xl_8c7e5b4d",
+  levelIcon__xxl = "VehiclePrestigeEmblem_levelIcon__xxl_f852cb4e",
+  styles$9 = {
+    root: root$4,
+    icon: icon$3,
+    base__xs: base__xs,
+    base__sm: base__sm,
+    base__md: base__md,
+    base__mdLg: base__mdLg,
+    base__lg: base__lg,
+    base__xl: base__xl,
+    base__xxl: base__xxl,
+    base: base$9,
+    level: level,
+    levelIcon__xs: levelIcon__xs,
+    levelIcon__sm: levelIcon__sm,
+    levelIcon__md: levelIcon__md,
+    levelIcon__mdLg: levelIcon__mdLg,
+    levelIcon__lg: levelIcon__lg,
+    levelIcon__xl: levelIcon__xl,
+    levelIcon__xxl: levelIcon__xxl,
+  };
+function Level({ level: e, type: t, size: s, classNames: r, ...n }) {
+  const a = e.toString().split("");
+  return jsxRuntimeExports.jsx("div", {
+    ...n,
+    className: styles$9.level,
+    children: a.map((e, n) =>
+      jsxRuntimeExports.jsx(
+        Image,
+        {
+          className: clsx(styles$9.levelIcon, styles$9[`levelIcon__${s}`], r?.levelIcon),
+          path: `prestige.emblemFont.c_${sizesFonts[s]}.${t === grades.enamel ? grades.gold : t}.c_${e}`,
+        },
+        n,
+      ),
+    ),
+  });
+}
+const PrestigeEmblem = reactExports.forwardRef(function (
+  { level: e, grade: t, type: s, size: r, classNames: n, ...a },
+  o,
+) {
+  return e < MIN_LEVEL
+    ? null
+    : jsxRuntimeExports.jsxs("div", {
+        ...a,
+        ref: o,
+        className: clsx(styles$9.base, styles$9[`base__${r}`], n?.base),
+        children: [
+          jsxRuntimeExports.jsx(Image, {
+            path: `prestige.emblem${icon$4(t, s, r)}`,
+            className: clsx(styles$9.icon, n?.icon),
+          }),
+          s !== grades.prestige &&
+            jsxRuntimeExports.jsx(Level, {
+              level: e,
+              type: s,
+              size: r,
+              classNames: { levelIcon: n?.level },
+            }),
+        ],
+      });
+});
+PrestigeEmblem.sizes = sizes$1;
 const DEFAULT_NAME_KEYFRAME = "Point",
   THRESHOLD = 0.02;
 function createLoop(e) {
@@ -4602,49 +6796,7 @@ const VideoForwarded = reactExports.forwardRef(function (
       })
     );
   }),
-  Video = reactExports.memo(VideoForwarded),
-  root$7 = "CloseButton_root_987cb365",
-  base$h = "CloseButton_7488a1b8",
-  base__medium = "CloseButton_base__medium_97d04067",
-  base__small$2 = "CloseButton_base__small_c1b29bae",
-  base__extraSmall = "CloseButton_base__extraSmall_f52764c1",
-  base__x96x96 = "CloseButton_base__x96x96_8157b84d",
-  base__x32x32 = "CloseButton_base__x32x32_6466ea31",
-  styles$l = {
-    root: root$7,
-    base: base$h,
-    base__medium: base__medium,
-    base__small: base__small$2,
-    base__extraSmall: base__extraSmall,
-    base__x96x96: base__x96x96,
-    base__x32x32: base__x32x32,
-  },
-  sizes$3 = { medium: "medium", small: "small", extraSmall: "extraSmall" },
-  upscaleImageSizes = {
-    [sizes$3.medium]: "x96x96",
-    [sizes$3.small]: sizes$3.medium,
-    [sizes$3.extraSmall]: "x32x32",
-  };
-function CloseButton({
-  size: e = sizes$3.medium,
-  hoverSound: t = sounds$1.highlight,
-  clickSound: s = sounds$1.click,
-  className: r,
-  onHover: n,
-  onClose: a,
-}) {
-  const o = useUpscale(styles$l[`base__${e}`], styles$l[`base__${upscaleImageSizes[e]}`]);
-  return jsxRuntimeExports.jsx("div", {
-    className: cx(styles$l.base, o, r),
-    onMouseEnter: () => {
-      (play$1.sound(t), n?.());
-    },
-    onClick: () => {
-      (play$1.sound(s), a());
-    },
-  });
-}
-CloseButton.size = sizes$3;
+  Video = reactExports.memo(VideoForwarded);
 var RewardType$1 = ((e) => (
     (e.Items = "items"),
     (e.Equipment = "equipment"),
@@ -4970,7 +7122,7 @@ const getSizeFolder$1 = (e) => {
         return e;
     }
   },
-  root$6 = "Reward_root_21f091ec",
+  root$3 = "Reward_root_21f091ec",
   base__s24x24 = "Reward_base__s24x24_954b5cee",
   base__s48x48$1 = "Reward_base__s48x48_21f091ec",
   base__small$1 = "Reward_base__small_3eddf28d",
@@ -4982,11 +7134,11 @@ const getSizeFolder$1 = (e) => {
   base__s296x222$1 = "Reward_base__s296x222_52f0615b",
   base__s400x300$1 = "Reward_base__s400x300_a8627e1b",
   base__s600x450$1 = "Reward_base__s600x450_e27f3852",
-  base$g = "Reward_d65e1e12",
+  base$8 = "Reward_d65e1e12",
   base__dynamicBox = "Reward_base__dynamicBox_45d7782b",
   tooltipWrapper$1 = "Reward_tooltipWrapper_75b925a5",
-  icon$4 = "Reward_icon_e152f13b",
-  overlay$2 = "Reward_overlay_8cbe65c9",
+  icon$2 = "Reward_icon_e152f13b",
+  overlay$1 = "Reward_overlay_8cbe65c9",
   highlight$1 = "Reward_highlight_f1cd08e0",
   image__s24x24 = "Reward_image__s24x24_954b5cee",
   image__s48x48 = "Reward_image__s48x48_21f091ec",
@@ -5007,10 +7159,10 @@ const getSizeFolder$1 = (e) => {
   info__gold$1 = "Reward_info__gold_c751be5d",
   info__crystal$1 = "Reward_info__crystal_18ccfdd0",
   info__premiumTank$1 = "Reward_info__premiumTank_7862152",
-  title$2 = "Reward_title_fbcf4b5",
+  title$1 = "Reward_title_fbcf4b5",
   timer$1 = "Reward_timer_22ba7b8b",
-  styles$k = {
-    root: root$6,
+  styles$8 = {
+    root: root$3,
     base__s24x24: base__s24x24,
     base__s48x48: base__s48x48$1,
     base__small: base__small$1,
@@ -5022,11 +7174,11 @@ const getSizeFolder$1 = (e) => {
     base__s296x222: base__s296x222$1,
     base__s400x300: base__s400x300$1,
     base__s600x450: base__s600x450$1,
-    base: base$g,
+    base: base$8,
     base__dynamicBox: base__dynamicBox,
     tooltipWrapper: tooltipWrapper$1,
-    icon: icon$4,
-    overlay: overlay$2,
+    icon: icon$2,
+    overlay: overlay$1,
     highlight: highlight$1,
     image__s24x24: image__s24x24,
     image__s48x48: image__s48x48,
@@ -5047,7 +7199,7 @@ const getSizeFolder$1 = (e) => {
     info__gold: info__gold$1,
     info__crystal: info__crystal$1,
     info__premiumTank: info__premiumTank$1,
-    title: title$2,
+    title: title$1,
     timer: timer$1,
   },
   images = resources.resolve("images"),
@@ -5083,7 +7235,7 @@ const getSizeFolder$1 = (e) => {
       }),
       E = useSimpleTooltip({ header: p?.header, body: p?.body });
     return jsxRuntimeExports.jsxs("div", {
-      className: cx(styles$k.base, styles$k[`base__${n}`], !r && styles$k.base__dynamicBox, u),
+      className: cx(styles$8.base, styles$8[`base__${n}`], !r && styles$8.base__dynamicBox, u),
       style: c,
       ...h,
       children: [
@@ -5091,26 +7243,26 @@ const getSizeFolder$1 = (e) => {
           children: [
             jsxRuntimeExports.jsxs("div", {
               className: cx(
-                styles$k.image,
-                r ? styles$k.image__fixedBox : styles$k[`image__${n}`],
+                styles$8.image,
+                r ? styles$8.image__fixedBox : styles$8[`image__${n}`],
                 d?.image,
               ),
               children: [
                 g &&
                   jsxRuntimeExports.jsx("div", {
-                    className: cx(styles$k.highlight, d?.highlight),
+                    className: cx(styles$8.highlight, d?.highlight),
                     style: {
                       backgroundImage: `url(${images.readOrEmpty(`quests.bonuses.${m}.${g}_highlight`)})`,
                     },
                   }),
                 t &&
                   jsxRuntimeExports.jsx("div", {
-                    className: cx(styles$k.icon, d?.rewardIcon),
+                    className: cx(styles$8.icon, d?.rewardIcon),
                     style: { backgroundImage: `url(${t})` },
                   }),
                 f &&
                   jsxRuntimeExports.jsx("div", {
-                    className: cx(styles$k.overlay, d?.overlay),
+                    className: cx(styles$8.overlay, d?.overlay),
                     style: {
                       backgroundImage: `url(${images.readOrEmpty(`quests.bonuses.${m}.${f}_overlay`)})`,
                     },
@@ -5120,37 +7272,28 @@ const getSizeFolder$1 = (e) => {
             x &&
               jsxRuntimeExports.jsx("div", {
                 className: cx(
-                  styles$k.info,
-                  styles$k[`info__${e}`],
-                  i === ValueTypes$1.MULTI && styles$k.info__multi,
+                  styles$8.info,
+                  styles$8[`info__${e}`],
+                  i === ValueTypes$1.MULTI && styles$8.info__multi,
                   d?.info,
                 ),
                 children: x,
               }),
-            l && jsxRuntimeExports.jsx("div", { className: styles$k.title, children: l }),
+            l && jsxRuntimeExports.jsx("div", { className: styles$8.title, children: l }),
           ],
         }),
-        s && jsxRuntimeExports.jsx("div", { className: cx(styles$k.timer, d?.periodicIcon), ...E }),
+        s && jsxRuntimeExports.jsx("div", { className: cx(styles$8.timer, d?.periodicIcon), ...E }),
       ],
     });
   },
-  formatters = Object.fromEntries(Object.entries(defaultFormatters).map(([e]) => [e, (e) => e]));
-function renderString(e, t = {}) {
-  const s = parse(e, defaultBrackets);
-  return String(render(s, formatters, t));
-}
-function renderResolvedString(e, t = {}) {
-  const s = resources.resolve("strings").readOrEmpty(e);
-  return 0 === s.length ? s : renderString(s, t);
-}
-const base$f = "RewardsList_b956755b",
-  base__vertical$1 = "RewardsList_base__vertical_59db3c9f",
+  base$7 = "RewardsList_b956755b",
+  base__vertical = "RewardsList_base__vertical_59db3c9f",
   reward = "RewardsList_reward_fc200613",
   reward__vertical = "RewardsList_reward__vertical_5f09c6e0",
   boxRewardClassName = "RewardsList_boxRewardClassName_882c908d",
-  styles$j = {
-    base: base$f,
-    base__vertical: base__vertical$1,
+  styles$7 = {
+    base: base$7,
+    base__vertical: base__vertical,
     reward: reward,
     reward__vertical: reward__vertical,
     boxRewardClassName: boxRewardClassName,
@@ -5184,7 +7327,7 @@ reactExports.memo(function ({
         count: e.length - (n || 0),
       });
   return jsxRuntimeExports.jsx("div", {
-    className: cx(styles$j.base, r && styles$j.base__vertical, a),
+    className: cx(styles$7.base, r && styles$7.base__vertical, a),
     children:
       void 0 !== p
         ? jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
@@ -5195,7 +7338,7 @@ reactExports.memo(function ({
                   jsxRuntimeExports.jsx(
                     "div",
                     {
-                      className: cx(styles$j.reward, r && styles$j.reward__vertical, o),
+                      className: cx(styles$7.reward, r && styles$7.reward__vertical, o),
                       children: jsxRuntimeExports.jsx(Reward$1, {
                         size: s,
                         isFixedBoxSize: t,
@@ -5206,7 +7349,7 @@ reactExports.memo(function ({
                   ),
                 ),
               jsxRuntimeExports.jsx("div", {
-                className: cx(styles$j.reward, r && styles$j.reward__vertical, o),
+                className: cx(styles$7.reward, r && styles$7.reward__vertical, o),
                 children: jsxRuntimeExports.jsx(Reward$1, {
                   name: "more",
                   isFixedBoxSize: t,
@@ -5214,7 +7357,7 @@ reactExports.memo(function ({
                   size: s,
                   value: m,
                   tooltipArgs: i,
-                  className: cx(styles$j.boxRewardClassName, c),
+                  className: cx(styles$7.boxRewardClassName, c),
                   classNames: u,
                 }),
               }),
@@ -5224,7 +7367,7 @@ reactExports.memo(function ({
             jsxRuntimeExports.jsx(
               "div",
               {
-                className: cx(styles$j.reward, r && styles$j.reward__vertical, o),
+                className: cx(styles$7.reward, r && styles$7.reward__vertical, o),
                 children: jsxRuntimeExports.jsx(Reward$1, { size: s, isFixedBoxSize: t, ...e }),
               },
               n,
@@ -5232,2147 +7375,6 @@ reactExports.memo(function ({
           ),
   });
 });
-const UNKNOWN_NATION = "none",
-  list = [
-    "ussr",
-    "germany",
-    "usa",
-    "china",
-    "france",
-    "uk",
-    "japan",
-    "czech",
-    "sweden",
-    "poland",
-    "italy",
-  ],
-  nationById = (e) => list[e] ?? UNKNOWN_NATION,
-  Context$1 = reactExports.createContext(void 0);
-function useHorizontalScroll() {
-  const e = reactExports.useContext(Context$1);
-  if (!e)
-    throw new Error("useHorizontalScroll must be used within a Scroll.Horizontal.Base component");
-  return e;
-}
-var Direction = ((e) => ((e[(e.Next = -1)] = "Next"), (e[(e.Prev = 1)] = "Prev"), e))(
-  Direction || {},
-);
-const defaultSettings = {
-    step: { type: "proportional", factor: 4, clampedArrowStepTimeout: 100 },
-    animationConfig: { tension: 170, friction: 26 },
-  },
-  createApiHook = ({
-    getContainerSize: e,
-    getBounds: t,
-    setScrollPosition: s,
-    getDirection: r,
-    getWrapperSize: n,
-    triggerMouseMoveOnUpdate: a = !1,
-  }) => {
-    const o = (e, s) => {
-      const [r, n] = t(e);
-      return clamp(r, n, s);
-    };
-    return (i = {}) => {
-      const { settings: l = defaultSettings } = i,
-        [c, u] = reactExports.useState(!1),
-        d = reactExports.useRef(null),
-        _ = reactExports.useRef(null),
-        p = reactExports.useRef({ wrapper: 0, container: 0 }),
-        m = useEmitter(),
-        g = useThrottle(
-          () => {
-            forceTriggerMouseMove$1();
-          },
-          [],
-          150,
-        ),
-        [f, x] = useSpring(() => ({
-          scrollPosition: 0,
-          onChange: (e) => {
-            const t = d.current;
-            t && (s(t, e), m.trigger("change", e));
-          },
-          onRest: (e) => m.trigger("rest", e),
-          onStart: (e) => m.trigger("start", e),
-          onPause: (e) => m.trigger("pause", e),
-        })),
-        h = reactExports.useCallback(
-          (e, t, s) => {
-            const r = f.scrollPosition.get(),
-              n = (f.scrollPosition.goal ?? 0) - r;
-            return o(e, t * s + n + r);
-          },
-          [f.scrollPosition],
-        ),
-        E = reactExports.useCallback(
-          function (e, { immediate: t = !1, reset: s = !0 } = {}) {
-            const r = d.current;
-            if (!r) return;
-            const n = o(r, e);
-            f.scrollPosition.goal !== n &&
-              x.start({
-                scrollPosition: n,
-                immediate: t,
-                reset: s,
-                config: l.animationConfig,
-                from: { scrollPosition: o(r, f.scrollPosition.get()) },
-                onChange: () => {
-                  a && g();
-                },
-              });
-          },
-          [f.scrollPosition, x, l.animationConfig, g],
-        ),
-        b = reactExports.useCallback(
-          function (e) {
-            const t = d.current,
-              s = _.current;
-            if (!t || !s) return;
-            const r = ((e, t) => {
-                switch (t.type) {
-                  case "proportional":
-                    return n(e) / t.factor;
-                  case "fixed":
-                    return t.value;
-                }
-              })(s, l.step),
-              a = h(t, e, r);
-            E(a);
-          },
-          [E, h, l.step],
-        ),
-        y = reactExports.useCallback(
-          function (e) {
-            c ||
-              (0 !== e.deltaY && b(r(e)),
-              d.current && m.trigger("mouseWheel", e, f.scrollPosition, t(d.current)));
-          },
-          [f.scrollPosition, b, m, c],
-        ),
-        v = reactExports.useCallback(
-          function () {
-            const e = d.current;
-            e && (E(o(e, f.scrollPosition.goal), { immediate: !0 }), m.trigger("resizeHandled"));
-          },
-          [E, f.scrollPosition.goal, m],
-        );
-      useRefResizeObserver(_, (e) => {
-        const t = e.target;
-        if (!(t instanceof HTMLElement)) return;
-        const s = n(t);
-        p.current.wrapper !== s && v();
-      });
-      const R = useEvent(function () {
-          const t = d.current;
-          if (!t) return;
-          const s = e(t),
-            r = _.current ? n(_.current) : 0;
-          if (p.current.container !== s || p.current.wrapper !== r) {
-            const e = o(t, f.scrollPosition.goal);
-            (e !== f.scrollPosition.goal && E(e, { immediate: !0 }),
-              (p.current.container = s),
-              (p.current.wrapper = r),
-              m.trigger("recalculateContent"));
-          }
-        }),
-        w = useSkipFrame();
-      reactExports.useEffect(() => addEventListener(window, "resize", () => w.run(v)), [v, w]);
-      return reactExports.useMemo(
-        () => ({
-          getWrapperSize: () => (_.current ? n(_.current) : void 0),
-          getContainerSize: () => (d.current ? e(d.current) : void 0),
-          getBounds: () =>
-            d.current
-              ? t(d.current)
-              : (console.warn("getBounds: contentRef.current is null"), [0, 0]),
-          stepTimeout: l.step.clampedArrowStepTimeout,
-          settings: l,
-          clampPosition: o,
-          handleMouseWheel: y,
-          applyScroll: E,
-          applyStepTo: b,
-          contentRef: d,
-          wrapperRef: _,
-          scrollPosition: x,
-          animationScroll: f,
-          recalculateContent: R,
-          disabled: c,
-          setDisabled: u,
-          events: { on: m.on, off: m.off },
-        }),
-        [l, y, E, b, x, f, R, c, u, m.on, m.off],
-      );
-    };
-  },
-  DEFAULT_HORIZONTAL_API_CONFIG = {
-    getBounds: (e) => [0, Math.max(0, e.offsetWidth - (e.parentElement?.offsetWidth ?? 0))],
-    getContainerSize: (e) => e.offsetWidth,
-    getWrapperSize: (e) => e.offsetWidth,
-    setScrollPosition: (e, t) => {
-      e.style.transform = `translateX(-${0 | (t.value.scrollPosition ?? 0)}px)`;
-    },
-    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
-    triggerMouseMoveOnUpdate: !0,
-  },
-  useApi$1 = createApiHook(DEFAULT_HORIZONTAL_API_CONFIG),
-  IGNORE_DEFAULT = [2, 2];
-function useScrollBounding(e, [t, s] = IGNORE_DEFAULT) {
-  const [r, n] = reactExports.useState(!0),
-    [a, o] = reactExports.useState(!0);
-  return (
-    reactExports.useEffect(() => {
-      function r() {
-        if (!e.contentRef.current) return;
-        const r = e.animationScroll.scrollPosition.get(),
-          [a, i] = e.getBounds(),
-          l = r >= i - s;
-        (n(r <= a + t), o(l));
-      }
-      return new DisposeBuilder()
-        .add(createLayoutReadyInEffect(r))
-        .add(e.events.on("resizeHandled", r))
-        .add(e.events.on("recalculateContent", r))
-        .add(e.events.on("change", r)).dispose;
-    }, [e, t, s]),
-    [r, a]
-  );
-}
-const scrollOrientations = { horizontal: "horizontal", vertical: "vertical" },
-  CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT = 100,
-  MOUSE_BUTTON_LEFT = 0,
-  root$5 = "Thumb_root_830942bb",
-  background$1 = "Thumb_background_7f3dd6ac",
-  border$2 = "Thumb_border_5749138b",
-  innerBorder = "Thumb_innerBorder_42bafd18",
-  icon$3 = "Thumb_icon_dca8bf26",
-  base$e = "Thumb_6ff3e706",
-  base__vertical = "Thumb_base__vertical_55a67c91",
-  base__horizontal = "Thumb_base__horizontal_27ca7ace",
-  base__active$1 = "Thumb_base__active_830942bb",
-  styles$i = {
-    root: root$5,
-    background: background$1,
-    border: border$2,
-    innerBorder: innerBorder,
-    icon: icon$3,
-    base: base$e,
-    base__vertical: base__vertical,
-    base__horizontal: base__horizontal,
-    base__active: base__active$1,
-  },
-  BOUNCING_OFFSET = 2,
-  MIN_THUMB_SIZE = 13,
-  FORWARD_DISABLED = "forwardDisabled",
-  BACKWARD_DISABLED = "backwardDisabled";
-function updateDisabledStates(e, t) {
-  if (!e.trackRef.current || !e.thumbRef.current) return;
-  const s = e.trackRef.current.parentNode;
-  if (s instanceof HTMLElement) {
-    if (0 === t)
-      return (s.classList.add(BACKWARD_DISABLED), void s.classList.remove(FORWARD_DISABLED));
-    if (e.isBoundThumb(t))
-      return (s.classList.remove(BACKWARD_DISABLED), void s.classList.add(FORWARD_DISABLED));
-    (s.classList.remove(BACKWARD_DISABLED), s.classList.remove(FORWARD_DISABLED));
-  }
-}
-function Thumb(e) {
-  const t = reactExports.useRef(null),
-    [s, r] = reactExports.useState(!1),
-    n = useEvent(function () {
-      const s = t.current,
-        r = e.trackRef.current,
-        n = e.api.getWrapperSize(),
-        a = e.api.getContainerSize();
-      if (!(n && a && s && r)) return;
-      const o = Math.min(1, n / a),
-        i = "horizontal" === e.direction ? "width" : "height";
-      return ((s.style[i] = `${e.calculateSize(r, o)}px`), (s.style.display = "flex"), o);
-    }),
-    [a, o] = useSpring(() => ({
-      from: { ...e.styles.closed, "--bouncingCorrection": "0px" },
-      easings: easings.easeInCubic,
-      config: { duration: 200 },
-    }));
-  reactExports.useEffect(() => {
-    s || e.dragging
-      ? o.start({
-          to: e.styles.opened,
-          onRest() {
-            t.current?.classList.add(styles$i.base__active);
-          },
-        })
-      : o.start({
-          to: e.styles.closed,
-          delay: 500,
-          onRest() {
-            t.current?.classList.remove(styles$i.base__active);
-          },
-        });
-  }, [s, e.dragging, e.styles.closed, e.styles.opened, o]);
-  const i = useEvent(function () {
-      const s = e.trackRef.current,
-        r = t.current,
-        n = e.railBeforeRef.current,
-        a = e.railAfterRef.current,
-        i = e.api.getWrapperSize(),
-        l = e.api.getContainerSize();
-      if (!(i && s && r && n && a && l)) return;
-      const c = e.api.animationScroll.scrollPosition.get(),
-        u = Math.min(1, i / l),
-        d = l !== i ? clamp(0, 1, c / (l - i)) : 0,
-        _ = e.calculateSize(s, u),
-        p = (("horizontal" === e.direction ? s.offsetWidth : s.offsetHeight) - _) * d || 0,
-        m = Math.round((2 * d - 1) * BOUNCING_OFFSET);
-      (r.style.setProperty("--thumbOffset", `${p}px`),
-        e.onUpdate?.({ thumbSize: _, thumbOffset: p, newBouncingCorrection: m }));
-      const g = 0 === p || e.isBoundThumb(p) ? 0 : m;
-      return (
-        o.start({
-          to: { "--bouncingCorrection": `${g}px` },
-          ...(0 === g ? { delay: 100, config: { duration: 100 } } : { immediate: !0 }),
-        }),
-        p
-      );
-    }),
-    l = useSkipFrame(),
-    c = useEvent(function () {
-      n();
-      const t = i();
-      "number" == typeof t && updateDisabledStates(e, t);
-    });
-  reactExports.useEffect(() => l.run(c));
-  const { api: u } = e;
-  return (
-    reactExports.useEffect(() => {
-      function e() {
-        l.run(c);
-      }
-      return (
-        u.events.on("recalculateContent", e),
-        u.events.on("rest", c),
-        u.events.on("change", c),
-        u.events.on("resizeHandled", e),
-        () => {
-          (u.events.off("recalculateContent", e),
-            u.events.off("rest", c),
-            u.events.off("change", c),
-            u.events.off("resizeHandled", e));
-        }
-      );
-    }, [u, l, c]),
-    jsxRuntimeExports.jsxs(animated.div, {
-      ref: assignRefs([t, e.thumbRef]),
-      className: clsx(styles$i.base, styles$i[`base__${e.direction}`], e.className),
-      style: a,
-      onMouseEnter: () => r(!0),
-      onMouseLeave: () => r(!1),
-      children: [
-        jsxRuntimeExports.jsx("div", { className: styles$i.background }),
-        jsxRuntimeExports.jsx("div", { className: styles$i.border }),
-        jsxRuntimeExports.jsx("div", { className: styles$i.innerBorder }),
-        jsxRuntimeExports.jsx("div", { className: styles$i.icon }),
-      ],
-    })
-  );
-}
-const initBarDraggingState = { pending: !1, offset: 0 };
-function useBarDragging(e, t, s, r, n) {
-  const [a, o] = reactExports.useState(initBarDraggingState),
-    i = useEvent(t),
-    l = reactExports.useCallback(
-      (t) => {
-        (o(t),
-          e.current && i({ type: t.pending ? "dragStart" : "dragEnd", dragElement: e.current }));
-      },
-      [i, e],
-    );
-  return (
-    reactExports.useEffect(() => {
-      if (!a.pending) return;
-      const t = mouse.move(function ([t]) {
-          const o = s.contentRef.current;
-          if (!o) return;
-          const l = r.current,
-            c = e.current;
-          if (!o || !l || !c) return;
-          const u = n(t, a, { parent: l, thumb: c }),
-            d = u * (s.getContainerSize() ?? 0);
-          (s.scrollPosition.start({
-            scrollPosition: s.clampPosition(o, d),
-            reset: !0,
-            immediate: !0,
-            from: { scrollPosition: s.animationScroll.scrollPosition.get() },
-          }),
-            i({ type: "dragging", dragElement: c, elementOffset: u, contentOffset: d }));
-        }),
-        o = mouse.up(() => {
-          l(initBarDraggingState);
-        });
-      return () => {
-        (t(), o());
-      };
-    }, [s, a.offset, a.pending, i, l, e, r, a, n]),
-    l
-  );
-}
-const DISABLE_CLASS = "disable",
-  ACTIVE_CLASS = "scroll-active";
-function useUpdateStatesBar({ api: e, baseRef: t }) {
-  const s = useSkipFrame(),
-    r = useEvent(function () {
-      const s = e.getWrapperSize(),
-        r = e.getContainerSize();
-      if (null === t.current || void 0 === r || void 0 === s) return;
-      1 === Math.min(1, s / r || 1)
-        ? t.current.classList.remove(ACTIVE_CLASS)
-        : t.current.classList.add(ACTIVE_CLASS);
-    });
-  (reactExports.useEffect(() => s.run(r)),
-    reactExports.useEffect(() => {
-      function t() {
-        s.run(r);
-      }
-      return (
-        e.events.on("recalculateContent", t),
-        e.events.on("resizeHandled", t),
-        () => {
-          (e.events.off("recalculateContent", t), e.events.off("resizeHandled", t));
-        }
-      );
-    }, [e, s, r]));
-}
-function getElementCoordinates(e, t) {
-  const s = e.getBoundingClientRect(),
-    r = t === scrollOrientations.horizontal ? s.x : s.y;
-  return { start: r, end: t === scrollOrientations.horizontal ? r + s.width : r + s.height };
-}
-function getCoordinate(e, t, s, r, n, a) {
-  return {
-    occurredEvent: a === scrollOrientations.horizontal ? e.screenX : e.screenY,
-    bar: getElementCoordinates(t, a),
-    thumb: getElementCoordinates(s, a),
-    backButton: getElementCoordinates(r, a),
-    forwardButton: getElementCoordinates(n, a),
-  };
-}
-function useBarHandlers(e, t, s, r, n, a, o) {
-  const i = useSounds(),
-    l = n.stepTimeout || CLAMPED_ARROW_STEP_TIMEOUT_DEFAULT,
-    [c, u] = useRepeatCallback((e) => n.applyStepTo(e), l, [n]);
-  reactExports.useEffect(
-    () => (
-      document.addEventListener("mouseup", u, !0),
-      () => document.removeEventListener("mouseup", u, !0)
-    ),
-    [u],
-  );
-  const d = reactExports.useCallback(
-      (e) => {
-        e.target.classList.contains(DISABLE_CLASS) ||
-          (i.play("click", { target: "Scroll:Back", original: e }), c(Direction.Next));
-      },
-      [c, i],
-    ),
-    _ = reactExports.useCallback(
-      (e) => {
-        e.target.classList.contains(DISABLE_CLASS) ||
-          (i.play("click", { target: "Scroll:Forward", original: e }), c(Direction.Prev));
-      },
-      [c, i],
-    ),
-    p = reactExports.useCallback(
-      (l) => {
-        const c = e.current,
-          u = t.current,
-          p = s.current,
-          m = r.current;
-        if (!(c && u && p && m && l.button === MOUSE_BUTTON_LEFT)) return;
-        const g = getCoordinate(l, c, u, p, m, o),
-          f = g.thumb.start <= g.occurredEvent && g.occurredEvent <= g.thumb.end,
-          x =
-            (g.backButton.start <= g.occurredEvent && g.occurredEvent <= g.backButton.end) ||
-            (g.forwardButton.start <= g.occurredEvent && g.occurredEvent <= g.forwardButton.end);
-        if (f) a({ pending: !0, offset: g.occurredEvent - g.thumb.start });
-        else if (x) {
-          ((g.occurredEvent > g.thumb.start ? Direction.Prev : Direction.Next) === Direction.Next
-            ? d
-            : _)(l);
-        } else {
-          const e = g.occurredEvent - g.bar.start,
-            t = g.thumb.end - g.thumb.start,
-            s = g.bar.end - g.bar.start,
-            r = n.getContainerSize();
-          if ("number" != typeof r || Number.isNaN(r))
-            return console.error("Incorrect container size");
-          const a = ((e - t / 2) / s) * r;
-          n.applyScroll(a);
-        }
-        i.play("click", { target: "Scroll:" + (f ? "thumb" : x ? "button" : ""), original: l });
-      },
-      [e, t, s, r, i, o, a, d, _, n],
-    ),
-    m = reactExports.useCallback(
-      (e) => {
-        e.target.classList.contains(DISABLE_CLASS) ||
-          i.play("mouse-enter", { target: "Scroll:Bar", original: e });
-      },
-      [i],
-    );
-  return reactExports.useMemo(
-    () => ({
-      handleMouseBackDown: d,
-      handleMouseEnter: m,
-      handleMouseDownTrack: p,
-      handleMouseForwardDown: _,
-      handleMouseForwardUp: u,
-      handleMouseBackUp: u,
-    }),
-    [d, m, p, _, u],
-  );
-}
-const rail$1 = "HorizontalBar_rail_37858d8f",
-  base$d = "HorizontalBar_4df27ac3",
-  track$1 = "HorizontalBar_track_649dc296",
-  rail__left = "HorizontalBar_rail__left_1a906b4e",
-  rail__right = "HorizontalBar_rail__right_cd24364e",
-  button__right = "HorizontalBar_button__right_e8f0aa2d",
-  button__left = "HorizontalBar_button__left_da330e13",
-  button$1 = "HorizontalBar_button_cbabd91",
-  styles$h = {
-    rail: rail$1,
-    base: base$d,
-    track: track$1,
-    rail__left: rail__left,
-    rail__right: rail__right,
-    button__right: button__right,
-    button__left: button__left,
-    button: button$1,
-  },
-  THUMB_TO_RAIL_OFFSET$1 = 5,
-  THUMB_STYLES$1 = {
-    closed: { height: "3rem", top: "4rem" },
-    opened: { height: "11rem", top: "0rem" },
-  },
-  calculateThumbSize$1 = (e, t) => Math.max(remToPx$1(MIN_THUMB_SIZE), e.offsetWidth * t),
-  Bar$1 = reactExports.memo(function ({ classNames: e = {}, onDrag: t = noop }) {
-    const s = reactExports.useRef(null),
-      r = reactExports.useRef(null),
-      n = reactExports.useRef(null),
-      a = reactExports.useRef(null),
-      o = reactExports.useRef(null),
-      i = reactExports.useRef(null),
-      l = reactExports.useRef(null),
-      [c, u] = reactExports.useState(!1),
-      { api: d } = useHorizontalScroll();
-    useUpdateStatesBar({ baseRef: s, api: d });
-    const _ = useEvent(
-        (e, t, { parent: s }) =>
-          (e.screenX - t.offset - s.getBoundingClientRect().x) / s.offsetWidth,
-      ),
-      p = useEvent((e) => e - (a.current.offsetWidth - o.current.offsetWidth) >= -0.5),
-      m = reactExports.useCallback(
-        (e) => ("dragStart" === e.type ? u(!0) : "dragEnd" === e.type && u(!1), t(e)),
-        [t],
-      ),
-      g = useBarDragging(o, m, d, a, _),
-      f = useEvent(({ thumbSize: e, thumbOffset: t, newBouncingCorrection: s }) => {
-        const r = a.current,
-          n = i.current,
-          o = l.current;
-        if (!r || !n || !o) return;
-        const c = remToPx$1(THUMB_TO_RAIL_OFFSET$1);
-        ((n.style.width = `${t - c + s}px`),
-          (o.style.width = r.offsetWidth - e - t - c - s + "px"));
-      }),
-      { handleMouseEnter: x, handleMouseDownTrack: h } = useBarHandlers(
-        s,
-        o,
-        n,
-        r,
-        d,
-        g,
-        scrollOrientations.horizontal,
-      );
-    return jsxRuntimeExports.jsxs("div", {
-      className: clsx(styles$h.base, e.base),
-      ref: s,
-      onWheel: d.handleMouseWheel,
-      onMouseDown: h,
-      onMouseEnter: x,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          ref: r,
-          className: clsx(styles$h.button, styles$h.button__left, e.leftButton),
-        }),
-        jsxRuntimeExports.jsxs("div", {
-          ref: a,
-          className: clsx(styles$h.track, e.track),
-          children: [
-            jsxRuntimeExports.jsx("div", {
-              ref: i,
-              className: clsx(styles$h.rail, styles$h.rail__left, e.leftRail),
-            }),
-            jsxRuntimeExports.jsx(Thumb, {
-              dragging: c,
-              api: d,
-              calculateOffset: _,
-              calculateSize: calculateThumbSize$1,
-              direction: "horizontal",
-              isBoundThumb: p,
-              railAfterRef: i,
-              railBeforeRef: l,
-              styles: THUMB_STYLES$1,
-              onUpdate: f,
-              thumbRef: o,
-              trackRef: a,
-            }),
-            jsxRuntimeExports.jsx("div", {
-              ref: l,
-              className: clsx(styles$h.rail, styles$h.rail__right, e.rightRail),
-            }),
-          ],
-        }),
-        jsxRuntimeExports.jsx("div", {
-          ref: n,
-          className: clsx(styles$h.button, styles$h.button__right, e.rightButton),
-        }),
-      ],
-    });
-  }),
-  base$c = "HorizontalScroll_5b201d2b",
-  wrapper = "HorizontalScroll_wrapper_2fb60496",
-  defaultScrollArea = "HorizontalScroll_defaultScrollArea_a5c0f45",
-  styles$g = { base: base$c, wrapper: wrapper, defaultScrollArea: defaultScrollArea },
-  DefaultScroll$1 = ({
-    children: e,
-    className: t,
-    barClassNames: s,
-    areaClassName: r,
-    classNames: n,
-    scrollClassName: a,
-    onDrag: o,
-  }) => {
-    const { api: i } = useHorizontalScroll(),
-      l = reactExports.useMemo(() => {
-        const e = s || {};
-        return { ...e, base: clsx(styles$g.base, e.base) };
-      }, [s]);
-    return jsxRuntimeExports.jsxs("div", {
-      className: clsx(styles$g.defaultScroll, t),
-      onWheel: i.handleMouseWheel,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          className: clsx(styles$g.defaultScrollArea, r),
-          children: jsxRuntimeExports.jsx(Area$1, { className: a, classNames: n, children: e }),
-        }),
-        jsxRuntimeExports.jsx(Bar$1, { onDrag: o, classNames: l }),
-      ],
-    });
-  };
-function Area$1({ className: e, classNames: t, children: s }) {
-  const { api: r } = useHorizontalScroll();
-  return jsxRuntimeExports.jsx("div", {
-    className: clsx(styles$g.base, e),
-    children: jsxRuntimeExports.jsx("div", {
-      className: clsx(styles$g.wrapper, t?.wrapper),
-      onWheel: r.handleMouseWheel,
-      ref: r.wrapperRef,
-      children: jsxRuntimeExports.jsx("div", {
-        className: clsx(styles$g.content, t?.content),
-        ref: r.contentRef,
-        children: s,
-      }),
-    }),
-  });
-}
-((Area$1.Bar = Bar$1), (Area$1.Default = DefaultScroll$1));
-const dragDirections = { horizontal: "horizontal", vertical: "vertical" };
-function getEventCoordinate(e, t) {
-  switch (t) {
-    case dragDirections.horizontal:
-      return e.clientX;
-    case dragDirections.vertical:
-      return e.clientY;
-    default:
-      assert(!1, `Such drag direction ${t} is not supported`);
-  }
-}
-function getScreenCoordinate(e, t) {
-  switch (t) {
-    case dragDirections.horizontal:
-      return e.screenX;
-    case dragDirections.vertical:
-      return e.screenY;
-    default:
-      assert(!1, `Such drag direction ${t} is not supported`);
-  }
-}
-const INITIAL_DRAGGING_STATE = { type: "idle" };
-function useScrollByDragElements(e, t, s, r) {
-  const {
-      contentRef: n,
-      wrapperRef: a,
-      scrollPosition: o,
-      clampPosition: i,
-      animationScroll: l,
-      events: c,
-      disabled: u,
-    } = e,
-    [d, _] = reactExports.useState(INITIAL_DRAGGING_STATE),
-    [p, m] = reactExports.useState(0),
-    { gapBeforeStart: g } = {},
-    f = useSkipFrame(),
-    x = useEvent(() => {
-      f.run(() => {
-        const t = e.contentRef.current,
-          s = e.getWrapperSize(),
-          r = e.getContainerSize();
-        t &&
-          s &&
-          r &&
-          !u &&
-          (t.style.cursor = r <= s ? "auto" : "dragging" === d.type ? "move" : "grab");
-      });
-    });
-  return (
-    reactExports.useEffect(() => {
-      x();
-    }, [d.type, x]),
-    useResize(() => {
-      x();
-    }, [x]),
-    reactExports.useEffect(() => {
-      if ("pending" !== d.type) return;
-      const e = n.current,
-        s = a.current;
-      if (null === e || null === s) return;
-      const r = mouse.move(([e]) => {
-          const s = getScreenCoordinate(e, t);
-          (void 0 === g || Math.abs(p - s) > g) &&
-            _({
-              type: "dragging",
-              positionFrom: s,
-              previousScrollPosition: l.scrollPosition.get(),
-            });
-        }),
-        o = mouse.up(() => _({ type: "scrollComplete" }));
-      return () => {
-        (r(), o());
-      };
-    }, [l.scrollPosition, n, p, t, d, g, a]),
-    reactExports.useEffect(() => {
-      if ("dragging" !== d.type) return;
-      const e = mouse.move(([e, r]) => {
-        const c = n.current,
-          u = a.current;
-        if ("outside" === r) return void _({ type: "scrollComplete" });
-        const p = getEventCoordinate(e, t);
-        if (null === c || null === u || ("inside" === r && p < 0)) return;
-        const m = u.offsetLeft,
-          g = "inside" === r ? p : p - m,
-          f = d.positionFrom - g,
-          x = d.previousScrollPosition + f;
-        o.start({
-          scrollPosition: i(c, x),
-          from: { scrollPosition: l.scrollPosition.get() },
-          ...s,
-        });
-      });
-      const r = mouse.up(function () {
-        _({ type: "scrollComplete" });
-      });
-      return () => {
-        (e(), r());
-      };
-    }, [l.scrollPosition, i, n, d, o, a, s, t]),
-    reactExports.useEffect(() => {
-      if ("scrollComplete" !== d.type) return;
-      const e = () => {
-        _(INITIAL_DRAGGING_STATE);
-      };
-      return (e(), c.on("rest", e), () => c.off("rest", e));
-    }, [l.scrollPosition, d.type, c]),
-    reactExports.useEffect(() => {
-      if (u) return;
-      const e = n.current;
-      if (!e) return;
-      const s = (e) => {
-        if (e.button !== mouseButtons.left) return;
-        const s = getScreenCoordinate(e, t);
-        (m(s),
-          _(
-            void 0 === g || g <= 0
-              ? {
-                  type: "dragging",
-                  positionFrom: s,
-                  previousScrollPosition: l.scrollPosition.get(),
-                }
-              : { type: "pending" },
-          ));
-      };
-      return (e.addEventListener("mousedown", s), () => e.removeEventListener("mousedown", s));
-    }, [l.scrollPosition, n, u, t, g]),
-    d
-  );
-}
-function Base$7({ settings: e, children: t }) {
-  const s = useApi$1({ settings: e }),
-    r = reactExports.useMemo(() => ({ api: s }), [s]);
-  return jsxRuntimeExports.jsx(Context$1.Provider, { value: r, children: t });
-}
-const Context = reactExports.createContext(void 0);
-function useVerticalScroll() {
-  const e = reactExports.useContext(Context);
-  if (!e) throw new Error("useVerticalScroll must be used within a Scroll.Vertical.Base component");
-  return e;
-}
-const DEFAULT_VERTICAL_API_CONFIG = {
-    getBounds: (e) => [0, e.scrollHeight - e.offsetHeight],
-    getContainerSize: (e) => e.scrollHeight,
-    getWrapperSize: (e) => e.offsetHeight,
-    setScrollPosition: (e, t) => {
-      e.scrollTop = Math.trunc(t.value.scrollPosition ?? 0);
-    },
-    getDirection: (e) => (e.deltaY > 1 ? Direction.Next : Direction.Prev),
-  },
-  useApi = createApiHook(DEFAULT_VERTICAL_API_CONFIG),
-  rail = "VerticalBar_rail_3d663c9",
-  base$b = "VerticalBar_7187fa00",
-  track = "VerticalBar_track_ff482708",
-  rail__top = "VerticalBar_rail__top_ee531f43",
-  rail__bottom = "VerticalBar_rail__bottom_3eaa33b1",
-  button__bottom = "VerticalBar_button__bottom_6880f123",
-  button__top = "VerticalBar_button__top_b8383775",
-  button = "VerticalBar_button_7b0e4aca",
-  styles$f = {
-    rail: rail,
-    base: base$b,
-    track: track,
-    rail__top: rail__top,
-    rail__bottom: rail__bottom,
-    button__bottom: button__bottom,
-    button__top: button__top,
-    button: button,
-  },
-  THUMB_TO_RAIL_OFFSET = 5,
-  THUMB_STYLES = {
-    closed: { width: "3rem", left: "3rem" },
-    opened: { width: "9rem", left: "0rem" },
-  },
-  calculateThumbSize = (e, t) => Math.max(remToPx$1(MIN_THUMB_SIZE), e.offsetHeight * t),
-  Bar = reactExports.memo(function ({ classNames: e = {}, onDrag: t = noop }) {
-    const s = reactExports.useRef(null),
-      r = reactExports.useRef(null),
-      n = reactExports.useRef(null),
-      a = reactExports.useRef(null),
-      o = reactExports.useRef(null),
-      i = reactExports.useRef(null),
-      l = reactExports.useRef(null),
-      [c, u] = reactExports.useState(!1),
-      { api: d } = useVerticalScroll();
-    useUpdateStatesBar({ baseRef: s, api: d });
-    const _ = useEvent((e) => e - (a.current.offsetHeight - o.current.offsetHeight) >= -0.5),
-      p = useEvent(
-        (e, t, { parent: s }) =>
-          (e.screenY - t.offset - s.getBoundingClientRect().y) / s.offsetHeight,
-      ),
-      m = reactExports.useCallback(
-        (e) => ("dragStart" === e.type ? u(!0) : "dragEnd" === e.type && u(!1), t(e)),
-        [t],
-      ),
-      g = useBarDragging(o, m, d, a, p),
-      f = useEvent(({ thumbSize: e, thumbOffset: t, newBouncingCorrection: s }) => {
-        const r = a.current,
-          n = i.current,
-          o = l.current;
-        if (!r || !n || !o) return;
-        const c = remToPx$1(THUMB_TO_RAIL_OFFSET);
-        ((n.style.height = `${t - c + s}px`),
-          (o.style.height = r.offsetHeight - e - t - c - s + "px"));
-      }),
-      { handleMouseEnter: x, handleMouseDownTrack: h } = useBarHandlers(
-        s,
-        o,
-        r,
-        n,
-        d,
-        g,
-        scrollOrientations.vertical,
-      );
-    return jsxRuntimeExports.jsxs("div", {
-      className: clsx(styles$f.base, e.base),
-      ref: s,
-      onWheel: d.handleMouseWheel,
-      onMouseDown: h,
-      onMouseEnter: x,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          ref: r,
-          className: clsx(styles$f.button, styles$f.button__top, e.topButton),
-        }),
-        jsxRuntimeExports.jsxs("div", {
-          ref: a,
-          className: clsx(styles$f.track, e.track),
-          children: [
-            jsxRuntimeExports.jsx("div", {
-              ref: i,
-              className: clsx(styles$f.rail, styles$f.rail__top, e.topRail),
-            }),
-            jsxRuntimeExports.jsx(Thumb, {
-              dragging: c,
-              api: d,
-              calculateOffset: p,
-              calculateSize: calculateThumbSize,
-              direction: "vertical",
-              isBoundThumb: _,
-              railAfterRef: i,
-              railBeforeRef: l,
-              styles: THUMB_STYLES,
-              onUpdate: f,
-              thumbRef: o,
-              trackRef: a,
-            }),
-            jsxRuntimeExports.jsx("div", {
-              ref: l,
-              className: clsx(styles$f.rail, styles$f.rail__bottom, e.bottomRail),
-            }),
-          ],
-        }),
-        jsxRuntimeExports.jsx("div", {
-          ref: n,
-          className: clsx(styles$f.button, styles$f.button__bottom, e.bottomButton),
-        }),
-      ],
-    });
-  }),
-  content$3 = "VerticalScroll_content_f30246e6",
-  defaultScroll = "VerticalScroll_defaultScroll_c69fa70e",
-  area = "VerticalScroll_area_a3c0086a",
-  styles$e = { content: content$3, defaultScroll: defaultScroll, area: area },
-  DefaultScroll = ({
-    children: e,
-    className: t,
-    barClassNames: s,
-    areaClassName: r,
-    scrollClassName: n,
-    scrollClassNames: a,
-    onDrag: o,
-  }) => {
-    const { api: i } = useVerticalScroll(),
-      l = reactExports.useMemo(() => {
-        const e = s || {};
-        return { ...e, base: clsx(styles$e.base, e.base) };
-      }, [s]);
-    return jsxRuntimeExports.jsxs("div", {
-      className: clsx(styles$e.defaultScroll, t),
-      onWheel: i.handleMouseWheel,
-      children: [
-        jsxRuntimeExports.jsx("div", {
-          className: clsx(styles$e.area, r),
-          children: jsxRuntimeExports.jsx(Area, { className: n, classNames: a, children: e }),
-        }),
-        jsxRuntimeExports.jsx(Bar, { onDrag: o, classNames: l }),
-      ],
-    });
-  },
-  Area = ({ className: e, classNames: t, children: s, ...r }) => {
-    const { api: n } = useVerticalScroll();
-    return (
-      reactExports.useEffect(() =>
-        createLayoutReadyInEffect(() => createLayoutReadyInEffect(n.recalculateContent)),
-      ),
-      jsxRuntimeExports.jsx("div", {
-        className: clsx(styles$e.base, t?.wrapper, e),
-        ref: n.wrapperRef,
-        onWheel: n.handleMouseWheel,
-        children: jsxRuntimeExports.jsx("div", {
-          ...r,
-          className: clsx(styles$e.content, t?.content),
-          ref: n.contentRef,
-          children: s,
-        }),
-      })
-    );
-  };
-function Base$6({ children: e }) {
-  const t = useApi(),
-    s = reactExports.useMemo(() => ({ api: t }), [t]);
-  return jsxRuntimeExports.jsx(Context.Provider, { value: s, children: e });
-}
-Area.Default = DefaultScroll;
-const contextInstance$1 = reactExports.createContext(null),
-  positions = { left: "left", right: "right", top: "top", bottom: "bottom" };
-Object.values(positions);
-const verticalPositions = ["top", "bottom"],
-  oppositePositions = { top: "bottom", bottom: "top", left: "right", right: "left" };
-function isVerticalPosition(e) {
-  return verticalPositions.includes(e);
-}
-function usePopoverOptional() {
-  return reactExports.useContext(contextInstance$1);
-}
-function usePopover() {
-  const e = reactExports.useContext(contextInstance$1);
-  if (!e) throw new Error("usePopover must be used within a Popover");
-  return e;
-}
-const initialState = { opened: !1 };
-function usePopoverInstance(e) {
-  const [t, s] = reactExports.useState(initialState),
-    r = reactExports.useMemo(() => {
-      const t = observable.box(),
-        r = { onBeforeOpen: new Set(), onBeforeClose: new Set() },
-        n = { bounding: observable.box(), position: observable.box() };
-      function a(e) {
-        s((t) => {
-          const s = e(t);
-          return (
-            t.opened === s.opened ||
-              (s.opened ? r.onBeforeOpen.forEach((e) => e()) : r.onBeforeClose.forEach((e) => e())),
-            s
-          );
-        });
-      }
-      return {
-        id: e,
-        open: () => a((e) => ({ ...e, opened: !0 })),
-        close: () => a((e) => ({ ...e, opened: !1 })),
-        toggle: () => a((e) => ({ ...e, opened: !e.opened })),
-        subscribe: {
-          onBeforeOpen: (e) => (r.onBeforeOpen.add(e), () => r.onBeforeOpen.delete(e)),
-          onBeforeClose: (e) => (r.onBeforeClose.add(e), () => r.onBeforeClose.delete(e)),
-        },
-        portal: {
-          bounding: n.bounding,
-          setBounding: takeAction(n.bounding),
-          position: n.position,
-          setPosition: takeAction(n.position),
-        },
-        trigger: { bounding: t, setBounding: takeAction(t) },
-      };
-    }, [e]);
-  return reactExports.useMemo(() => ({ ...r, ...t }), [r, t]);
-}
-const border$1 = "Popover_border_d0a76717",
-  title$1 = "Popover_title_e4a0437a",
-  subtitle = "Popover_subtitle_1c7535c8",
-  header = "Popover_header_de23fc15",
-  body = "Popover_body_22163d58",
-  divider = "Popover_divider_46fe6f15",
-  decoration$1 = "Popover_decoration_134219d5",
-  close = "Popover_close_ad4a9c7b",
-  styles$d = {
-    border: border$1,
-    title: title$1,
-    subtitle: subtitle,
-    header: header,
-    body: body,
-    divider: divider,
-    decoration: decoration$1,
-    close: close,
-  },
-  Close = reactExports.forwardRef(({ className: e, children: t, ...s }, r) => {
-    const n = usePopoverOptional(),
-      a = useSounds(),
-      o = useUpscale("ui_kit.close_button.icon_small", "ui_kit.close_button.icon_medium");
-    return (
-      reactExports.useEffect(
-        () =>
-          onResize(function () {
-            n?.close();
-          }),
-        [n],
-      ),
-      jsxRuntimeExports.jsx("div", {
-        ...s,
-        onClick: function (e) {
-          (s.onClick?.(e),
-            a.play("close", { target: "react-popover:close", original: e }),
-            n?.close());
-        },
-        onMouseEnter: function (e) {
-          (s.onMouseEnter?.(e),
-            a.play("mouse-enter", { target: "react-popover:close", original: e }));
-        },
-        ref: r,
-        className: clsx(styles$d.close, e),
-        children: t ?? jsxRuntimeExports.jsx(Image, { path: o, width: 24, height: 24 }),
-      })
-    );
-  }),
-  OPEN_ANIMATION_DURATION = 250,
-  animationTransitions = {
-    top: "translate(0rem, 50rem) scale(0.9)",
-    bottom: "translate(0rem, -50rem) scale(0.9)",
-    left: "translate(50rem, 0rem) scale(0.9)",
-    right: "translate(-50rem, 0rem) scale(0.9)",
-  },
-  defaultPaddingsRem = { top: 0, bottom: 0, left: 0, right: 0 };
-function Portal({
-  children: e,
-  target: t,
-  pivot: s = 0,
-  position: r = "top",
-  paddingsRem: n = {},
-  lazy: a = !1,
-  closeByEscape: o = !0,
-  onBeforePositionChange: i = noop,
-  freeSpaceRem: l = 8,
-  ...c
-}) {
-  const u = usePopover(),
-    d = React.useRef(null),
-    [_, p] = reactExports.useState(),
-    m = reactExports.useMemo(
-      () => ({
-        top: remToPx$1(n.top || defaultPaddingsRem.top),
-        bottom: remToPx$1(n.bottom || defaultPaddingsRem.bottom),
-        left: remToPx$1(n.left || defaultPaddingsRem.left),
-        right: remToPx$1(n.right || defaultPaddingsRem.right),
-      }),
-      [n.bottom, n.top, n.left, n.right],
-    ),
-    g = remToPx$1(l),
-    f = reactExports.useMemo(
-      () => (t ? (document.querySelector(t) ?? document.body) : document.body),
-      [t],
-    );
-  reactExports.useEffect(() => {
-    const e = d.current;
-    if (!e) return;
-    const t = document.querySelector(`[data-popover-trigger-id="${u.id}"]`),
-      n = e.querySelector(`[data-popover-display-id="${u.id}"]`);
-    if (!t || !n) return;
-    const a = watchResizes([t, e, document.body], ([t, n, a]) => {
-      if (!u.opened) return void p(void 0);
-      if (!1 === i(u, { callerBounding: t, containerBounding: n, bodyBounding: a })) return;
-      const o = getUpdatedPosition(r, m, t, n, a);
-      (p(o),
-        updatePosition(s, g, o, m, t, n, a, e),
-        runInAction(() => {
-          (u.trigger.setBounding(t), u.portal.setBounding(n), u.portal.setPosition(o));
-        }));
-    });
-    return (a.start(), a.stop);
-  }, [u, i, m, s, g, u.id, u.portal, u.trigger, r, u.opened]);
-  const x = reactExports.useCallback(() => {
-    const e = d.current;
-    e &&
-      document.activeElement &&
-      document.activeElement instanceof HTMLElement &&
-      e.contains(document.activeElement) &&
-      document.activeElement.blur();
-  }, []);
-  (reactExports.useEffect(() => u.subscribe.onBeforeClose(x), [u.subscribe, x]),
-    useHandleKeydown(o && u.opened ? keyCodes.ESCAPE : keyCodes.NONE, () => {
-      u.close();
-    }),
-    reactExports.useEffect(() => {
-      if (!u.opened) return;
-      const e = d.current;
-      if (!e) return;
-      const t = e;
-      function s(e) {
-        const s = e.target;
-        if (!(s instanceof HTMLElement)) return !1;
-        const r = `[data-popover-trigger-id="${u.id}"]`,
-          n = `[data-popover-outside-click-whitelist-id="${u.id}"]`;
-        return !(
-          t === s ||
-          t.contains(s) ||
-          s.matches(r) ||
-          s.matches(n) ||
-          s.closest(r) ||
-          s.closest(n)
-        );
-      }
-      return new DisposeBuilder()
-        .add(
-          addEventListener(document, "click", (e) => {
-            s(e) && u.close();
-          }),
-        )
-        .add(
-          mouse.down(([e, t]) => {
-            if ("outside" === t) return u.close();
-            const r = e.button;
-            (r !== mouseButtons.right && r !== mouseButtons.wheel) || (s(e) && u.close());
-          }),
-        ).dispose;
-    }, [u]));
-  const [h, E] = useSpring(() => ({
-    from: { opacity: 0, transform: animationTransitions[r] },
-    config: { easing: easings.easeInOutCubic, duration: OPEN_ANIMATION_DURATION },
-  }));
-  return (
-    reactExports.useEffect(() => {
-      if (!_) return;
-      const e = { opacity: 0, transform: animationTransitions[_] };
-      E.start({
-        from: u.opened ? e : void 0,
-        to: u.opened ? { opacity: 1, transform: "translate(0rem, 0rem) scale(1)" } : e,
-      });
-    }, [E, _, u.opened]),
-    !u.opened && a
-      ? null
-      : jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
-          children: ReactDOM$1.createPortal(
-            jsxRuntimeExports.jsx(animated.div, {
-              ...c,
-              ref: d,
-              style: {
-                position: "absolute",
-                top: "0",
-                left: "0",
-                pointerEvents: h.opacity.to((e) => (1 === e ? "auto" : "none")),
-                display: h.opacity.to((e) => (0 !== e || u.opened ? "block" : "none")),
-                ...c.style,
-              },
-              children: jsxRuntimeExports.jsx(animated.div, { style: h, children: e }),
-            }),
-            f,
-          ),
-        })
-  );
-}
-function getUpdatedPosition(e, t, s, r, n) {
-  return ("top" === e && s.top - r.height - t.top < 0) ||
-    ("bottom" === e && s.bottom + r.height + t.bottom > n.height) ||
-    ("left" === e && s.left - r.width - t.left < 0) ||
-    ("right" === e && s.right + r.width + t.right > n.width)
-    ? oppositePositions[e]
-    : e;
-}
-function applyTransform(e, t, s, r, n) {
-  ((e = clamp(s.left, n.width - r.offsetWidth - s.right, e)),
-    (t = clamp(s.top, n.height - r.offsetHeight - s.bottom, t)),
-    (r.style.transform = `translate(${e}px, ${t}px)`));
-}
-function updatePosition(e, t, s, r, n, a, o, i) {
-  if ("top" === s) {
-    const s = (a.width - n.width) * e;
-    applyTransform(n.left - s, n.top - a.height - t, r, i, o);
-  } else if ("bottom" === s) {
-    const s = (a.width - n.width) * e;
-    applyTransform(n.left - s, n.bottom + t, r, i, o);
-  } else if ("left" === s) {
-    const s = n.left - a.width - t,
-      l = (a.height - n.height) * e;
-    applyTransform(s, n.top - l, r, i, o);
-  } else if ("right" === s) {
-    const s = n.right + t,
-      l = (a.height - n.height) * e;
-    applyTransform(s, n.top - l, r, i, o);
-  }
-}
-const root$4 = "PopoverTip_root_a48d88bb",
-  base$a = "PopoverTip_163a336f",
-  arrow = "PopoverTip_arrow_44c7d6a5",
-  glow = "PopoverTip_glow_da3f9be9",
-  styles$c = {
-    root: root$4,
-    base: base$a,
-    "base__flip-left": "PopoverTip_base__flip-left_3cc0dadc",
-    "base__flip-right": "PopoverTip_base__flip-right_6a5605b6",
-    "base__flip-top": "PopoverTip_base__flip-top_6bcc69e1",
-    "base__flip-bottom": "PopoverTip_base__flip-bottom_416a1dc4",
-    arrow: arrow,
-    "arrow__position-top": "PopoverTip_arrow__position-top_a95d47a6",
-    "arrow__position-bottom": "PopoverTip_arrow__position-bottom_9d75ac12",
-    "arrow__position-left": "PopoverTip_arrow__position-left_ca4ced33",
-    "arrow__position-right": "PopoverTip_arrow__position-right_9dc94f7a",
-    glow: glow,
-  },
-  verticals = [positions.top, positions.bottom],
-  horizontals = [positions.left, positions.right],
-  rotations = { top: 180, bottom: 0, left: 90, right: -90 },
-  Tip = reactExports.forwardRef(({ ...e }, t) => {
-    const s = reactExports.useRef(null),
-      r = usePopoverOptional(),
-      [n, a] = reactExports.useState(e.size),
-      [o, i] = reactExports.useState(
-        e.position || (r && oppositePositions[r.portal.position.get()]) || "bottom",
-      ),
-      [l, c] = reactExports.useState(e.offset),
-      u = useEvent((t, s, r) => {
-        let n = o;
-        if ((e.position || ((n = oppositePositions[r]), i(n)), !e.size)) {
-          const e = isVerticalPosition(n)
-            ? `${Math.min(t.width, s.width)}px`
-            : `${Math.min(t.height, s.height)}px`;
-          a(e);
-        }
-        if (!e.offset) {
-          const e = isVerticalPosition(n)
-            ? `${Math.max(0, t.left - s.left)}px`
-            : `${Math.max(0, t.top - s.top)}px`;
-          c(e);
-        }
-      });
-    return (
-      reactExports.useEffect(() => {
-        if (s.current && r)
-          return autorun(() => {
-            const e = r.trigger.bounding.get(),
-              t = r.portal.bounding.get(),
-              s = r.portal.position.get();
-            e && s && t && u(e, t, s);
-          });
-      }, [r, u]),
-      jsxRuntimeExports.jsxs("div", {
-        ...e,
-        ref: assignRefs([t, s]),
-        style: {
-          width: (verticals.includes(o) && n) || "1rem",
-          height: (horizontals.includes(o) && n) || "1rem",
-          top: (horizontals.includes(o) && l) || "auto",
-          bottom: "bottom" === o ? "0" : "auto",
-          left: (verticals.includes(o) && l) || "auto",
-          right: "right" === o ? "0" : "auto",
-          ...e.style,
-        },
-        className: clsx(styles$c.base, e.flipped && styles$c[`base__flipped-${o}`], e.className),
-        children: [
-          jsxRuntimeExports.jsx("div", {
-            className: clsx(styles$c.arrow, styles$c[`arrow__position-${o}`]),
-            style: { transform: `translate(-50%, -50%) rotate(${rotations[o]}deg)` },
-          }),
-          !1 === e.noGlow &&
-            jsxRuntimeExports.jsx("div", {
-              className: styles$c.glow,
-              style: { transform: `translate(-50%, -50%) rotate(${rotations[o]}deg)` },
-            }),
-        ],
-      })
-    );
-  });
-function Trigger({ children: e }) {
-  const t = usePopover();
-  return e({ onClick: t.toggle, "data-popover-trigger-id": t.id }, t);
-}
-Tip.positions = positions;
-const Title = defineStyledComponent("Title", styles$d.title),
-  Subtitle = defineStyledComponent("Subtitle", styles$d.subtitle),
-  Header = defineStyledComponent("Header", styles$d.header),
-  Divider = defineStyledComponent("Divider", styles$d.divider),
-  Body = defineStyledComponent("Body", styles$d.body),
-  Decoration$1 = defineStyledComponent("Decoration", styles$d.decoration),
-  Display = reactExports.forwardRef((e, t) => {
-    const s = usePopoverOptional();
-    return jsxRuntimeExports.jsxs(Decoration$1, {
-      ...e,
-      ref: t,
-      "data-popover-display-id": s?.id,
-      children: [jsxRuntimeExports.jsx("div", { className: styles$d.border }), e.children],
-    });
-  });
-function Popover(e) {
-  const t = reactExports.useId();
-  return jsxRuntimeExports.jsx(contextInstance$1.Provider, {
-    value: usePopoverInstance(e.id ?? t),
-    children: e.children,
-  });
-}
-((Popover.Close = Close),
-  (Popover.Title = Title),
-  (Popover.Subtitle = Subtitle),
-  (Popover.Header = Header),
-  (Popover.Divider = Divider),
-  (Popover.Body = Body),
-  (Popover.Tip = Tip),
-  (Popover.Display = Display),
-  (Popover.use = usePopover),
-  (Popover.Portal = Portal),
-  (Popover.Trigger = Trigger));
-const states = { default: "default", alert: "alert", error: "error", done: "done" },
-  messageTypes = { alert: "alert", error: "error" },
-  types$1 = {
-    text: "text",
-    password: "password",
-    number: "number",
-    htmlNumber: "htmlNumber",
-    email: "email",
-    integer: "integer",
-  },
-  sizes$2 = { medium: "medium", large: "large" },
-  icons = { search: "search" },
-  defaultConfig = { type: types$1.text, size: sizes$2.medium, state: states.default, disabled: !1 },
-  placeholderVisibility = { focusedOrValue: "focusedOrValue", value: "value" },
-  contextInstance = reactExports.createContext(null);
-function useInput() {
-  const e = reactExports.useContext(contextInstance);
-  if (!e) throw new Error("useInput must be used within an Input");
-  return e;
-}
-function useInputInstance({ value: e, size: t, type: s, state: r, disabled: n }) {
-  const a = reactExports.useRef(null),
-    [o, i] = reactExports.useState(!1),
-    l = useEvent((e) => {
-      if (!a.current) return;
-      const t = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set;
-      if (t) {
-        t.call(a.current, e);
-        const s = new Event("input", { bubbles: !0 });
-        a.current.dispatchEvent(s);
-      }
-    }),
-    c = n ?? defaultConfig.disabled,
-    u = usePrevious(c);
-  return (
-    reactExports.useLayoutEffect(() => {
-      !u && c && a.current?.blur();
-    }, [c, u]),
-    reactExports.useLayoutEffect(() => {
-      o ? (a.current?.blur(), setTimeout(() => a.current?.focus())) : a.current?.blur();
-    }, [o]),
-    reactExports.useMemo(
-      () => ({
-        value: e,
-        size: t ?? defaultConfig.size,
-        type: s ?? defaultConfig.type,
-        state: r ?? defaultConfig.state,
-        disabled: c,
-        focused: o,
-        setFocused: i,
-        inputRef: a,
-        setValue: l,
-        clear: () => l(""),
-        focus: () => i(!0),
-      }),
-      [c, o, l, t, r, s, e],
-    )
-  );
-}
-const root$3 = "Input_root_494bd5d6",
-  disabledOverlay$1 = "Input_disabledOverlay_3e980046",
-  icon$2 = "Input_icon_ed3c6a4a",
-  clearButton = "Input_clearButton_d26b0bd5",
-  decoration = "Input_decoration_b561de7a",
-  decoration__focused = "Input_decoration__focused_494bd5d6",
-  decoration__alertState = "Input_decoration__alertState_a3c7d971",
-  decoration__errorState = "Input_decoration__errorState_a889ba00",
-  decoration__doneState = "Input_decoration__doneState_273150be",
-  decoration__disabled = "Input_decoration__disabled_74e25c08",
-  fieldWrapper = "Input_fieldWrapper_a4454e66",
-  field__mediumSize = "Input_field__mediumSize_7a1efba0",
-  placeholder__mediumSize = "Input_placeholder__mediumSize_2b8cbadc",
-  field__largeSize = "Input_field__largeSize_2b4f0b27",
-  placeholder__largeSize = "Input_placeholder__largeSize_6dbe7ba2",
-  field = "Input_field_7f2a0d1d",
-  field__focused = "Input_field__focused_5a0a7a6c",
-  field__disabled = "Input_field__disabled_15b2ae5c",
-  placeholder = "Input_placeholder_6ec6c232",
-  placeholder__disabled = "Input_placeholder__disabled_58b85003",
-  message = "Input_message_d4aa42ca",
-  message__visible = "Input_message__visible_a76c109c",
-  message__alertType = "Input_message__alertType_34d13f9f",
-  message__errorType = "Input_message__errorType_c0d7caba",
-  message__mediumSize = "Input_message__mediumSize_a2972578",
-  message__largeSize = "Input_message__largeSize_a5a35f73",
-  icon__focused = "Input_icon__focused_a76c109c",
-  icon__mediumSize = "Input_icon__mediumSize_f7d15078",
-  icon__largeSize = "Input_icon__largeSize_b80deb39",
-  icon__searchIcon = "Input_icon__searchIcon_494bd5d6",
-  icon__upscale = "Input_icon__upscale_494bd5d6",
-  clearButton__mediumSize = "Input_clearButton__mediumSize_d43f0915",
-  clearButton__largeSize = "Input_clearButton__largeSize_240e111e",
-  clearButton__visible = "Input_clearButton__visible_8d3756eb",
-  clearButton__upscale = "Input_clearButton__upscale_494bd5d6",
-  styles$b = {
-    root: root$3,
-    disabledOverlay: disabledOverlay$1,
-    icon: icon$2,
-    clearButton: clearButton,
-    decoration: decoration,
-    decoration__focused: decoration__focused,
-    decoration__alertState: decoration__alertState,
-    decoration__errorState: decoration__errorState,
-    decoration__doneState: decoration__doneState,
-    decoration__disabled: decoration__disabled,
-    fieldWrapper: fieldWrapper,
-    field__mediumSize: field__mediumSize,
-    placeholder__mediumSize: placeholder__mediumSize,
-    field__largeSize: field__largeSize,
-    placeholder__largeSize: placeholder__largeSize,
-    field: field,
-    field__focused: field__focused,
-    field__disabled: field__disabled,
-    placeholder: placeholder,
-    placeholder__disabled: placeholder__disabled,
-    message: message,
-    message__visible: message__visible,
-    message__alertType: message__alertType,
-    message__errorType: message__errorType,
-    message__mediumSize: message__mediumSize,
-    message__largeSize: message__largeSize,
-    icon__focused: icon__focused,
-    icon__mediumSize: icon__mediumSize,
-    icon__largeSize: icon__largeSize,
-    icon__searchIcon: icon__searchIcon,
-    icon__upscale: icon__upscale,
-    clearButton__mediumSize: clearButton__mediumSize,
-    clearButton__largeSize: clearButton__largeSize,
-    clearButton__visible: clearButton__visible,
-    clearButton__upscale: clearButton__upscale,
-  },
-  soundPlayEventTarget$1 = "Input:ClearButton",
-  ClearButton = reactExports.forwardRef(function ({ className: e, children: t, ...s }, r) {
-    const n = useSounds(),
-      { value: a, clear: o, size: i, disabled: l, focus: c } = useInput(),
-      u = useUpscale(void 0, styles$b.clearButton__upscale);
-    return jsxRuntimeExports.jsx("button", {
-      ...s,
-      type: "button",
-      ref: r,
-      className: clsx(
-        styles$b.clearButton,
-        a && !l && styles$b.clearButton__visible,
-        styles$b[`clearButton__${i}Size`],
-        u,
-        e,
-      ),
-      onMouseEnter: function (e) {
-        (n.play("mouse-enter", { target: soundPlayEventTarget$1, original: e }),
-          s.onMouseEnter?.(e));
-      },
-      onClick: function (e) {
-        (n.play("close", { target: soundPlayEventTarget$1, original: e }),
-          e.stopPropagation(),
-          a && o(),
-          c(),
-          s.onClick?.(e));
-      },
-      children: t,
-    });
-  }),
-  soundPlayEventTarget = "Input:Decoration",
-  Decoration = reactExports.forwardRef(function ({ className: e, children: t, ...s }, r) {
-    const n = useSounds(),
-      { state: a, disabled: o, focused: i, focus: l } = useInput();
-    return jsxRuntimeExports.jsxs("div", {
-      ...s,
-      ref: r,
-      className: clsx(
-        styles$b.decoration,
-        styles$b[`decoration__${a}State`],
-        o && styles$b.decoration__disabled,
-        i && styles$b.decoration__focused,
-        e,
-      ),
-      onMouseEnter: function (e) {
-        (n.play("mouse-enter", { target: soundPlayEventTarget, original: e }), s.onMouseEnter?.(e));
-      },
-      onClick: function (e) {
-        (n.play("click", { target: soundPlayEventTarget, original: e }), l(), s.onClick?.(e));
-      },
-      children: [jsxRuntimeExports.jsx("div", { className: styles$b.disabledOverlay }), t],
-    });
-  }),
-  allowSeparators = new Set([",", "."]);
-function findFirstSeparatorIndex(e) {
-  for (let t = 0; t < e.length; t++) {
-    const s = e[t];
-    if (allowSeparators.has(s)) return t;
-  }
-}
-function cleanInputNumber(e) {
-  const t = e.replace(/[^0-9,.]/g, "");
-  if ("0" === t) return t;
-  const s = t.replace(/^0+(?!\b)/, "").replace(/(,|\.){2,}/g, "$1"),
-    r = findFirstSeparatorIndex(s);
-  if (void 0 === r) return s;
-  {
-    const e = s.slice(0, r),
-      t = s.slice(r + 1),
-      n = e.replace(/[,.]/g, ""),
-      a = t.replace(/[,.]/g, "");
-    return `${0 === n.length ? "0" : n}.${a}`;
-  }
-}
-function cleanInputInteger(e) {
-  return e.replace(/[^0-9]/g, "").replace(/^0+(?!\b)/, "");
-}
-const Placeholder = reactExports.forwardRef(function (
-    { visibility: e = placeholderVisibility.focusedOrValue, className: t, children: s, ...r },
-    n,
-  ) {
-    const { focused: a, value: o, size: i, disabled: l } = useInput();
-    if (!{ focusedOrValue: a || o, value: o }[e])
-      return jsxRuntimeExports.jsx("div", {
-        ...r,
-        ref: n,
-        className: clsx(
-          styles$b.placeholder,
-          l && styles$b.placeholder__disabled,
-          styles$b[`placeholder__${i}Size`],
-          t,
-        ),
-        children: s,
-      });
-  }),
-  typeToHtmlType = {
-    text: "text",
-    password: "password",
-    number: "text",
-    email: "email",
-    htmlNumber: "number",
-    integer: "text",
-  },
-  Field = reactExports.forwardRef(function (
-    {
-      className: e,
-      classNames: t,
-      wrapperRef: s,
-      placeholderRef: r,
-      placeholderVisibility: n,
-      children: a,
-      ...o
-    },
-    i,
-  ) {
-    const {
-      type: l,
-      value: c,
-      disabled: u,
-      size: d,
-      inputRef: _,
-      focused: p,
-      setFocused: m,
-    } = useInput();
-    return jsxRuntimeExports.jsxs("div", {
-      className: clsx(styles$b.fieldWrapper, t?.wrapper),
-      ref: s,
-      children: [
-        jsxRuntimeExports.jsx("input", {
-          ...o,
-          "data-name": "Input",
-          ref: assignRefs([i, _]),
-          value: c,
-          disabled: u,
-          type: typeToHtmlType[l] ?? l,
-          className: clsx(
-            styles$b.field,
-            styles$b[`field__${d}Size`],
-            p && styles$b.field__focused,
-            u && styles$b.field__disabled,
-            e,
-          ),
-          onChange: function (e) {
-            if (u) return (e.preventDefault(), void _.current?.blur());
-            const { value: t } = e.target;
-            (l === types$1.number
-              ? (e.target.value = cleanInputNumber(t))
-              : l === types$1.integer && (e.target.value = cleanInputInteger(t)),
-              o.onChange?.(e));
-          },
-          onFocus: function (e) {
-            (m(!0), o.onFocus?.(e));
-          },
-          onBlur: function (e) {
-            (m(!1), o.onBlur?.(e));
-          },
-          onDoubleClick: function (e) {
-            (_.current?.select(), o.onDoubleClick?.(e));
-          },
-        }),
-        "string" == typeof a || "number" == typeof a
-          ? jsxRuntimeExports.jsx(Placeholder, {
-              className: t?.placeholder,
-              ref: r,
-              visibility: n,
-              children: a,
-            })
-          : a,
-      ],
-    });
-  }),
-  iconsSet = new Set(Object.values(icons)),
-  Icon = reactExports.forwardRef(function ({ className: e, icon: t, children: s, ...r }, n) {
-    const { size: a, focused: o } = useInput(),
-      i = useUpscale(void 0, styles$b.icon__upscale);
-    return jsxRuntimeExports.jsx("div", {
-      ...r,
-      ref: n,
-      className: clsx(
-        styles$b.icon,
-        styles$b[`icon__${a}Size`],
-        o && styles$b.icon__focused,
-        t && iconsSet.has(t) && styles$b[`icon__${t}Icon`],
-        i,
-        e,
-      ),
-      style: t && !iconsSet.has(t) ? { "--background-image": `url(${t})` } : void 0,
-      children: s,
-    });
-  }),
-  Message = reactExports.forwardRef(function (
-    { className: e, type: t = messageTypes.alert, visible: s = !0, children: r, ...n },
-    a,
-  ) {
-    const { size: o } = useInput();
-    return jsxRuntimeExports.jsx("div", {
-      ...n,
-      ref: a,
-      className: clsx(
-        styles$b.message,
-        s && styles$b.message__visible,
-        styles$b[`message__${t}Type`],
-        styles$b[`message__${o}Size`],
-        e,
-      ),
-      children: r,
-    });
-  });
-function Provider({ children: e, ...t }) {
-  return jsxRuntimeExports.jsx(contextInstance.Provider, {
-    value: useInputInstance(t),
-    children: e,
-  });
-}
-const Input = reactExports.forwardRef(function (
-  { value: e, state: t, disabled: s, type: r, size: n, ...a },
-  o,
-) {
-  return jsxRuntimeExports.jsx(Provider, {
-    value: e,
-    type: r,
-    size: n,
-    state: t,
-    disabled: s,
-    children: jsxRuntimeExports.jsx(Decoration, {
-      children: jsxRuntimeExports.jsx(Field, { ...a, ref: o }),
-    }),
-  });
-});
-((Input.types = types$1),
-  (Input.messageTypes = messageTypes),
-  (Input.sizes = sizes$2),
-  (Input.states = states),
-  (Input.icons = icons),
-  (Input.Provider = Provider),
-  (Input.Decoration = Decoration),
-  (Input.Field = Field),
-  (Input.Placeholder = Placeholder),
-  (Input.Message = Message),
-  (Input.Icon = Icon),
-  (Input.ClearButton = ClearButton));
-const toggleThemes = { primary: "primary", custom: "custom" },
-  toggleSizes = { extraSmall: "extraSmall", small: "small", medium: "medium" },
-  base$9 = "Toggle_cdf77db0",
-  base__fullSizeContent = "Toggle_base__fullSizeContent_1b52d9ec",
-  base__activated = "Toggle_base__activated_d584e080",
-  base__disabled$1 = "Toggle_base__disabled_b564a69b",
-  background = "Toggle_background_78cd67c0",
-  border = "Toggle_border_3d0d0d39",
-  bulb = "Toggle_bulb_fe6d0fba",
-  overlay$1 = "Toggle_overlay_e2999686",
-  content$2 = "Toggle_content_17eff4d2",
-  styles$a = {
-    base: base$9,
-    "base__size-small": "Toggle_base__size-small_b76142a1",
-    "base__size-medium": "Toggle_base__size-medium_a0d408f5",
-    base__fullSizeContent: base__fullSizeContent,
-    "base__theme-primary": "Toggle_base__theme-primary_3e3de333",
-    base__activated: base__activated,
-    base__disabled: base__disabled$1,
-    background: background,
-    border: border,
-    bulb: bulb,
-    overlay: overlay$1,
-    content: content$2,
-  },
-  Base$5 = defineStyledComponent("Toggle", styles$a.base, {
-    variants: {
-      theme: {
-        [toggleThemes.primary]: styles$a["base__theme-primary"],
-        [toggleThemes.custom]: void 0,
-      },
-      size: {
-        [toggleSizes.extraSmall]: styles$a["base__size-extraSmall"],
-        [toggleSizes.small]: styles$a["base__size-small"],
-        [toggleSizes.medium]: styles$a["base__size-medium"],
-      },
-      activated: { true: styles$a.base__activated },
-      disabled: { true: styles$a.base__disabled },
-    },
-    defaultVariants: { theme: toggleThemes.primary, size: toggleSizes.extraSmall },
-  }),
-  ToggleBase = reactExports.forwardRef(function (e, t) {
-    const s = useSounds();
-    return jsxRuntimeExports.jsx(Base$5, {
-      ...e,
-      ref: t,
-      onMouseEnter: function (t) {
-        (s.play("mouse-enter", { target: Base$5.displayName, original: t }), e.onMouseEnter?.(t));
-      },
-      onClick: function (t) {
-        (s.play("click", { target: Base$5.displayName, original: t }), e.onClick?.(t));
-      },
-      children: e.children,
-    });
-  }),
-  Toggle = reactExports.forwardRef(function (
-    {
-      children: e,
-      size: t = toggleSizes.extraSmall,
-      theme: s = toggleThemes.primary,
-      fullSizeContent: r,
-      classNames: n,
-      className: a,
-      ...o
-    },
-    i,
-  ) {
-    return jsxRuntimeExports.jsxs(ToggleBase, {
-      ...o,
-      ref: i,
-      size: t,
-      theme: s,
-      className: clsx(a, r && styles$a.base__fullSizeContent, n?.base),
-      children: [
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$a.border, n?.border) }),
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$a.background, n?.background) }),
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$a.bulb, n?.bulb) }),
-        jsxRuntimeExports.jsx("div", { className: clsx(styles$a.overlay, n?.overlay) }),
-        jsxRuntimeExports.jsx("div", {
-          className: clsx(styles$a.content, n?.content),
-          children: e,
-        }),
-      ],
-    });
-  });
-((Toggle.themes = toggleThemes), (Toggle.sizes = toggleSizes));
-const Slot = React.forwardRef((e, t) => {
-  const { children: s, ...r } = e,
-    n = React.Children.toArray(s),
-    a = n.find(isSlottable);
-  if (a) {
-    const e = a.props.children,
-      s = n.map((t) =>
-        t === a
-          ? React.Children.count(e) > 1
-            ? React.Children.only(null)
-            : React.isValidElement(e)
-              ? e.props.children
-              : null
-          : t,
-      );
-    return jsxRuntimeExports.jsx(SlotClone, {
-      ...r,
-      ref: t,
-      children: React.isValidElement(e) ? React.cloneElement(e, void 0, s) : null,
-    });
-  }
-  return jsxRuntimeExports.jsx(SlotClone, { ...r, ref: t, children: s });
-});
-Slot.displayName = "Slot";
-const SlotClone = React.forwardRef((e, t) => {
-  const { children: s, ...r } = e;
-  if (React.isValidElement(s)) {
-    const e = getElementRef(s),
-      n = mergeProps(r, s.props);
-    return (
-      s.type !== React.Fragment && (n.ref = t ? assignRefs([t, e]) : e),
-      React.cloneElement(s, n)
-    );
-  }
-  return (console.warn("Invalid children", s), null);
-});
-SlotClone.displayName = "SlotClone";
-const Slottable = ({ children: e }) =>
-  jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: e });
-function isSlottable(e) {
-  return React.isValidElement(e) && e.type === Slottable;
-}
-function mergeProps(e, t) {
-  const s = { ...e, ...t };
-  for (const r in t) {
-    const n = e[r],
-      a = t[r];
-    r.startsWith("on")
-      ? n && a
-        ? (s[r] = (...e) => {
-            (a(...e), n(...e));
-          })
-        : n && (s[r] = n)
-      : "style" === r
-        ? (s[r] = { ...n, ...a })
-        : "className" === r && (s[r] = [n, a].filter(Boolean).join(" "));
-  }
-  return s;
-}
-function getElementRef(e) {
-  return e.props.ref || e.ref;
-}
-const base$8 = "TruncateText_dcb41d92",
-  styles$9 = { base: base$8 },
-  TruncatedText = reactExports.forwardRef(function (
-    { text: e, tooltipParams: t, className: s, ...r },
-    n,
-  ) {
-    const a = useSimpleTooltip({ header: t?.header, body: t?.body || e }),
-      o = reactExports.useRef(null),
-      [i, l] = reactExports.useState(!1),
-      c = reactExports.useCallback(() => {
-        o.current &&
-          l(o.current.scrollWidth - Math.ceil(o.current.getBoundingClientRect().width) > 0);
-      }, []);
-    return (
-      reactExports.useEffect(() => {
-        i || a.onMouseLeave();
-      }, [i, a]),
-      useLayoutReady(c, [c]),
-      useResizeLayoutReady(c, [c]),
-      useRefResizeObserver(o, c),
-      jsxRuntimeExports.jsx("div", {
-        ...r,
-        ref: assignRefs([n, o]),
-        className: clsx(styles$9.base, s),
-        ...(i ? a : {}),
-        children: e,
-      })
-    );
-  });
-function asMemoized(e) {
-  return e;
-}
-function Sprite(e) {
-  const t = e.sprite.frames[e.icon]?.frame;
-  return t
-    ? jsxRuntimeExports.jsx(Image, {
-        ...e,
-        path: e.path,
-        fit: `${e.sprite.meta.size.w}rem ${e.sprite.meta.size.h}rem`,
-        position: `${-t.x}rem ${-t.y}rem`,
-        width: t.w,
-        height: t.h,
-        className: e.className,
-      })
-    : (console.error(`Error in Sprite: Frame for icon "${e.icon}" not found in path "${e.path}"`),
-      null);
-}
-function useHoverState(e) {
-  const [t, s] = reactExports.useState(!1);
-  return [t ? `${e}_hover` : e, s];
-}
-const RouterContext = reactExports.createContext(void 0);
-function useRouter() {
-  const e = reactExports.useContext(RouterContext);
-  if (!e) throw new Error("useRouter must be used within a RouterProvider");
-  return e;
-}
-reactExports.createContext(void 0);
-const directions = { horizontal: "horizontal" },
-  PERCENT_OF_VISIBLE_ELEMENTS = 1.5,
-  SAFETY_FACTOR = 0.25;
-function calculateRangeRows(e, t, s) {
-  if (0 === t) return [0, 0];
-  const r = e.animationScroll.scrollPosition.get(),
-    n = e.getWrapperSize();
-  if ("number" != typeof n || 0 === n) return [0, 0];
-  const a = Math.ceil((n / s) * PERCENT_OF_VISIBLE_ELEMENTS),
-    o = Math.max(0, Math.ceil(r / s) - Math.floor(a * SAFETY_FACTOR));
-  return [o, Math.min(t, o + a)];
-}
-function DefaultWrapper(e) {
-  return jsxRuntimeExports.jsx("div", { ...e });
-}
-function calculateRangeItems(e, t, s) {
-  if (0 === t) return [0, 0];
-  const r = e.animationScroll.scrollPosition.get(),
-    n = e.getWrapperSize();
-  if ("number" != typeof n || 0 === n || Number.isNaN(r)) return [0, 0];
-  const a = Math.ceil((n / s) * PERCENT_OF_VISIBLE_ELEMENTS),
-    o = clamp(0, t, Math.ceil(r / s) - Math.floor(a * SAFETY_FACTOR));
-  return [o, Math.min(t, o + a)];
-}
-const initVisibleRange = [0, 0];
-function useVisibleRange(e, t, s, r, n) {
-  const [a, o] = reactExports.useState(initVisibleRange),
-    i = reactExports.useRef(initVisibleRange),
-    [l, c] = useOptionalTransition(s),
-    u = usePrevious(l),
-    d = useThrottleCall(t, !0),
-    _ = useEvent(() => {
-      c(() => {
-        const [e, t] = i.current;
-        o((s) => {
-          const [r, n] = s;
-          return e === r && t === n ? s : [e, t];
-        });
-      });
-    }),
-    p = useEvent(() => {
-      d.call(() => {
-        const e = r();
-        (i.current[0] === e[0] && i.current[1] === e[1]) || ((i.current = e), l || _());
-      });
-    });
-  return (
-    reactExports.useEffect(() => {
-      u && !l && ((i.current[0] === a[0] && i.current[1] === a[1]) || _());
-    }, [l, u, _, a]),
-    reactExports.useLayoutEffect(
-      () => (
-        e.events.on("change", p),
-        e.events.on("recalculateContent", p),
-        e.events.on("resizeHandled", p),
-        p(),
-        () => {
-          (e.events.off("change", p),
-            e.events.off("recalculateContent", p),
-            e.events.off("resizeHandled", p));
-        }
-      ),
-      [e.events, p, n],
-    ),
-    a
-  );
-}
-const renderScrollDefault$1 = (e) => jsxRuntimeExports.jsx(DefaultScroll$1, { ...e });
-function HorizontalList({
-  totalElements: e,
-  throttle: t = 0,
-  api: s,
-  elementWidth: r,
-  wrappers: n,
-  className: a,
-  renderElement: o,
-  asyncRenderEnabled: i = !1,
-  renderScroll: l = renderScrollDefault$1,
-}) {
-  const c = useVisibleRange(s, t, i, () => calculateRangeItems(s, e, r), e),
-    u = n?.Element ?? reactExports.Fragment,
-    d = n?.Content ?? DefaultWrapper,
-    [_, p] = c,
-    m = Math.min(e, p),
-    g = clamp(0, m, _);
-  return l(
-    {
-      className: a,
-      children: jsxRuntimeExports.jsxs(d, {
-        children: [
-          jsxRuntimeExports.jsx("div", { style: { width: _ * r } }),
-          mapRange(g, Math.max(m, g), (e) => jsxRuntimeExports.jsx(u, { children: o(e) }, e)),
-          jsxRuntimeExports.jsx("div", { style: { width: Math.max(0, e - p) * r } }),
-        ],
-      }),
-    },
-    c,
-  );
-}
-const renderScrollDefault = (e) => jsxRuntimeExports.jsx(DefaultScroll, { ...e });
-function VerticalList({
-  api: e,
-  className: t,
-  totalElements: s,
-  elementHeight: r,
-  itemsPerRow: n = 1,
-  wrappers: a,
-  throttle: o = 0,
-  asyncRenderEnabled: i = !1,
-  renderElement: l,
-  renderScroll: c = renderScrollDefault,
-}) {
-  const u = Math.ceil(s / n),
-    d = useVisibleRange(e, o, i, () => calculateRangeRows(e, u, r));
-  reactExports.useEffect(e.recalculateContent, [e, d]);
-  const [_, p] = d,
-    m = a?.Element ?? reactExports.Fragment,
-    g = a?.Content ?? DefaultWrapper,
-    f = Math.min(s, p * n),
-    x = clamp(0, f, _ * n);
-  return c(
-    {
-      className: t,
-      children: jsxRuntimeExports.jsxs(g, {
-        children: [
-          jsxRuntimeExports.jsx("div", { style: { width: "100%", height: _ * r } }),
-          mapRange(x, Math.max(x, f), (e) => jsxRuntimeExports.jsx(m, { children: l(e) }, e)),
-          jsxRuntimeExports.jsx("div", {
-            style: { width: "100%", height: Math.max(0, u - p) * r },
-          }),
-        ],
-      }),
-    },
-    d,
-  );
-}
-function List(e) {
-  return e.direction === directions.horizontal
-    ? jsxRuntimeExports.jsx(HorizontalList, { ...e })
-    : jsxRuntimeExports.jsx(VerticalList, { ...e });
-}
-List.displayName = "VirtualList";
-const base$7 = "ScrollVelocityGuardContent_6b5de46d",
-  base__disableInteractivity = "ScrollVelocityGuardContent_base__disableInteractivity_e6c30513",
-  styles$8 = { base: base$7, base__disableInteractivity: base__disableInteractivity },
-  DEFAULT_VELOCITY_LIMITATION = 1;
-function ScrollVelocityGuardContent({
-  api: e,
-  className: t,
-  velocityLimit: s = DEFAULT_VELOCITY_LIMITATION,
-  ...r
-}) {
-  const [n, a] = reactExports.useState(!1);
-  return (
-    useMount(() =>
-      e.events.on("change", () => {
-        a(Math.abs(e.animationScroll.scrollPosition.velocity) > s);
-      }),
-    ),
-    jsxRuntimeExports.jsx(DefaultWrapper, {
-      ...r,
-      className: clsx(styles$8.base, n && styles$8.base__disableInteractivity, t),
-    })
-  );
-}
-const base__x120x96 = "VehicleImage_base__x120x96_32ca06f1",
-  base__x190x152 = "VehicleImage_base__x190x152_41379c70",
-  base__x380x304 = "VehicleImage_base__x380x304_274f87fe",
-  styles$7 = {
-    base__x120x96: base__x120x96,
-    base__x190x152: base__x190x152,
-    base__x380x304: base__x380x304,
-  },
-  sizes$1 = { x120x96: "x120x96", x190x152: "x190x152", x380x304: "x380x304" },
-  Base$4 = defineStyledComponent("VehicleImage", {
-    element: Image,
-    className: styles$7.base,
-    cva: {
-      variants: {
-        size: {
-          [sizes$1.x120x96]: styles$7.base__x120x96,
-          [sizes$1.x190x152]: styles$7.base__x190x152,
-          [sizes$1.x380x304]: styles$7.base__x380x304,
-        },
-      },
-    },
-  });
-function UnknownVehicleImage({ size: e = sizes$1.x380x304, ...t }) {
-  return jsxRuntimeExports.jsx(Base$4, { ...t, size: e, path: `vehicle.${e}.tank_empty` });
-}
-const VehicleImage = reactExports.forwardRef(function (
-  { size: e = sizes$1.x380x304, name: t, width: s, height: r, className: n, ...a },
-  o,
-) {
-  const i = resources.resolve("images"),
-    l = `vehicle.${e}.${getVehicleImageKey(t)}`;
-  return i.has(l)
-    ? jsxRuntimeExports.jsx(Base$4, {
-        ...a,
-        ref: o,
-        size: e,
-        className: n,
-        path: l,
-        width: s,
-        height: r,
-      })
-    : (console.warn(`Fail to retrieve icon maps/icons/vehicle/${e}/${getVehicleImageKey(t)}`),
-      jsxRuntimeExports.jsx(UnknownVehicleImage, { size: e, className: n, width: s, height: r }));
-});
-((VehicleImage.UnknownVehicleImage = UnknownVehicleImage), (VehicleImage.size = sizes$1));
 const getFromCallStack = (e = 1) => {
   const t = new Error().stack;
   let s,
@@ -9020,59 +9022,59 @@ const CardSingle = reactExports.forwardRef(({ className: e, classNames: t, ...s 
     );
   };
 export {
-  makeActions as $,
-  heavyTankRoles as A,
-  Button as B,
-  CloseButton as C,
-  isRentVehicle as D,
-  nationById as E,
-  FormatText as F,
-  vehicleState as G,
-  getRoleByKey as H,
-  ImageSize$1 as I,
-  computeds as J,
-  comparer as K,
-  getVehicleImageKey as L,
-  noop as M,
-  renderResolvedString as N,
-  createString as O,
-  PrestigeEmblem as P,
-  assert as Q,
-  Reward$1 as R,
-  LOWER_ALPHABET as S,
-  TextButton as T,
-  UIProvider as U,
-  VehicleInfo as V,
-  NUMBERS_ALPHABET as W,
-  sameTanksRemap as X,
-  iter as Y,
-  sort as Z,
-  isNumber as _,
-  types$2 as a,
+  useHoverState as $,
+  mapNonNullable as A,
+  Base$6 as B,
+  VehicleRole as C,
+  DefaultScroll as D,
+  VehicleLevel as E,
+  FormatString as F,
+  useUpscale as G,
+  useSimpleTooltip as H,
+  Image as I,
+  toggleSizes as J,
+  toggleThemes as K,
+  LOWER_ALPHABET as L,
+  useInput as M,
+  NUMBERS_ALPHABET as N,
+  useSounds as O,
+  Button as P,
+  defineStyledComponent as Q,
+  useTimeout as R,
+  Sprite as S,
+  Toggle as T,
+  writeClipboard as U,
+  VehicleType as V,
+  useRouter as W,
+  usePopover as X,
+  HeadlessButton as Y,
+  TruncatedText as Z,
+  asMemoized as _,
+  atSpgRoles as a,
   filter as a$,
-  mapNonNullable as a0,
-  useSimpleTooltip as a1,
-  Toggle as a2,
-  toggleSizes as a3,
-  toggleThemes as a4,
-  FormatString as a5,
-  Base$6 as a6,
-  DefaultScroll as a7,
-  useUpscale as a8,
-  Image as a9,
-  DisposeBuilder as aA,
-  remToPx$1 as aB,
-  useTooltip as aC,
-  intl$1 as aD,
-  directions$1 as aE,
-  isTypeValidValue as aF,
-  get as aG,
-  usePrevious as aH,
-  VehicleImage as aI,
-  useAdaptiveWidth as aJ,
-  List as aK,
-  ScrollVelocityGuardContent as aL,
-  JSXBuilder as aM,
+  Slot as a0,
+  useVerticalScroll as a1,
+  useScrollBounding as a2,
+  createLayoutReadyInEffect as a3,
+  Area as a4,
+  Popover as a5,
+  MediaWrapperElement as a6,
+  Bar as a7,
+  Slottable as a8,
+  Input as a9,
+  sizes$4 as aA,
+  TextButton as aB,
+  useScreenSize as aC,
+  useScaleState as aD,
+  convertNbsp as aE,
+  easings as aF,
+  ImageSize$1 as aG,
+  map as aH,
+  Reward$1 as aI,
+  getRewardTooltipConfig as aJ,
+  getRewardImage$1 as aK,
+  Video as aL,
+  createTargetOverrides as aM,
   some as aN,
   ImagesRClassProvider as aO,
   getRewardImage as aP,
@@ -9087,33 +9089,33 @@ export {
   scrollOrientations as aY,
   reduce as aZ,
   forEach as a_,
-  VehicleType as aa,
-  VehicleRole as ab,
-  VehicleLevel as ac,
-  useInput as ad,
-  defineStyledComponent as ae,
-  Sprite as af,
-  useTimeout as ag,
-  writeClipboard as ah,
-  useRouter as ai,
-  usePopover as aj,
-  HeadlessButton as ak,
-  TruncatedText as al,
-  asMemoized as am,
-  useHoverState as an,
-  Slot as ao,
-  useVerticalScroll as ap,
-  useScrollBounding as aq,
-  createLayoutReadyInEffect as ar,
-  Area as as,
-  Popover as at,
-  MediaWrapperElement as au,
-  Bar as av,
-  Slottable as aw,
-  Input as ax,
-  placeholderVisibility as ay,
-  sendEvent$1 as az,
-  useHandleKeydown as b,
+  placeholderVisibility as aa,
+  sendEvent$1 as ab,
+  keyCodes as ac,
+  DisposeBuilder as ad,
+  remToPx$1 as ae,
+  VehicleInfo as af,
+  useTooltip as ag,
+  intl$1 as ah,
+  directions as ai,
+  isTypeValidValue as aj,
+  get as ak,
+  usePrevious as al,
+  VehicleImage as am,
+  useAdaptiveWidth as an,
+  List as ao,
+  ScrollVelocityGuardContent as ap,
+  useHandleKeydown as aq,
+  CloseButton as ar,
+  JSXBuilder as as,
+  UIProvider as at,
+  runView as au,
+  useAdaptive as av,
+  normalizeResource as aw,
+  FormatText as ax,
+  PrestigeEmblem as ay,
+  themes as az,
+  mediumTankRoles as b,
   breakpoints as b0,
   Currency as b1,
   useIsFirstRender as b2,
@@ -9124,30 +9126,30 @@ export {
   types as b7,
   useParamTooltip as b8,
   CardSingle as b9,
-  sizes$4 as ba,
+  sizes$5 as ba,
   NotificationWrapper as bb,
-  runView as c,
-  useScreenSize as d,
-  useScaleState as e,
-  convertNbsp as f,
-  useSounds as g,
-  easings as h,
-  initializeModelWithContext as i,
-  getRewardTooltipConfig as j,
-  keyCodes as k,
-  getRewardImage$1 as l,
-  map as m,
-  normalizeResource as n,
-  Video as o,
-  createTargetOverrides as p,
-  mapRange as q,
-  resources as r,
-  sizes$6 as s,
-  themes as t,
-  useAdaptive as u,
-  roles as v,
-  identity as w,
-  atSpgRoles as x,
-  lightTankRoles as y,
-  mediumTankRoles as z,
+  isRentVehicle as c,
+  initializeModelWithContext as d,
+  computeds as e,
+  comparer as f,
+  getRoleByKey as g,
+  heavyTankRoles as h,
+  identity as i,
+  getVehicleImageKey as j,
+  noop as k,
+  lightTankRoles as l,
+  mapRange as m,
+  nationById as n,
+  resources as o,
+  renderResolvedString as p,
+  createString as q,
+  roles as r,
+  assert as s,
+  types$2 as t,
+  sameTanksRemap as u,
+  vehicleState as v,
+  iter as w,
+  sort as x,
+  isNumber as y,
+  makeActions as z,
 };

@@ -4,12 +4,12 @@ import {
   i as p,
   m as o,
   g as i,
-  n,
+  v as n,
   b as c,
   I as _,
   e as m,
-  h as j,
-  o as v,
+  h as v,
+  w as j,
   M as x,
   B as y,
   A as h,
@@ -96,8 +96,8 @@ import { S as b } from "../../../chunks/synergy_rewards.js";
                 r.jsxs(r.Fragment, {
                   children: [
                     r.jsx("div", { className: C, style: { backgroundImage: `url(${o})` } }),
-                    !j.isLow() &&
-                      r.jsx(v, {
+                    !v.isLow() &&
+                      r.jsx(j, {
                         className: $,
                         src: R.videos.pet_system.pet_rays(),
                         autoplay: !0,

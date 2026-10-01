@@ -1,9 +1,9 @@
-import { t as e, j as s, k as a } from "../../../../chunks/vendor.js";
-import { i as r, m as d, r as l, a1 as t, c, U as i } from "../../../../chunks/lib.js";
-const [o, n] = r()(
+import { D as e, j as s, s as a } from "../../../../chunks/vendor.js";
+import { d, aH as r, o as l, H as t, au as c, at as i } from "../../../../chunks/lib.js";
+const [o, n] = d()(
     ({ observableModel: e }) => ({
       upgrades: e.transform(
-        (e) => d(e, (e) => ({ state: e.state, isSelected: e.isSelected })),
+        (e) => r(e, (e) => ({ state: e.state, isSelected: e.isSelected })),
         "upgrades",
       ),
     }),
@@ -16,16 +16,16 @@ const [o, n] = r()(
   m = "Upgrade_background_5842edd3",
   g = "Upgrade_icon_9713156d",
   h = "Upgrade_base__doubled_f669c22b",
-  v = "Upgrade_description_88857dd8",
-  u = "Upgrade_text_8b58d19c",
+  u = "Upgrade_description_88857dd8",
+  v = "Upgrade_text_8b58d19c",
   b = "Upgrade_achievement_f4280c6d",
   j = l.resolve("strings"),
   x = l.resolve("images"),
   f = l.resolve("sounds"),
-  k = e(function ({ state: e, isSelected: r, doubled: d }) {
+  k = e(function ({ state: e, isSelected: d, doubled: r }) {
     const { controls: l } = n();
     return s.jsxs("div", {
-      className: a(p, r && _, d && h),
+      className: a(p, d && _, r && h),
       onClick: function () {
         (f.play("play"), l.select(e));
       },
@@ -39,9 +39,9 @@ const [o, n] = r()(
           style: { backgroundImage: `url(${x.readOrEmpty(`skillTree.comparison.${e}`)})` },
         }),
         s.jsx("div", {
-          className: v,
+          className: u,
           children: s.jsx("div", {
-            className: u,
+            className: v,
             children: j.readOrEmpty(`veh_skill_tree.comparison.${e}.title`),
           }),
         }),
@@ -57,7 +57,7 @@ const [o, n] = r()(
   S = e(function () {
     const { model: e } = n(),
       a = e.upgrades.get(),
-      r = t({
+      d = t({
         header: O.readOrEmpty("veh_skill_tree.comparison.tooltip.header"),
         body: O.readOrEmpty("veh_skill_tree.comparison.tooltip.body"),
       });
@@ -68,12 +68,12 @@ const [o, n] = r()(
           className: N,
           children: [
             O.readOrEmpty("veh_skill_tree.comparison.title"),
-            s.jsx("div", { className: U, ...r }),
+            s.jsx("div", { className: U, ...d }),
           ],
         }),
         s.jsx("div", {
           className: E,
-          children: d(a, (e, r) => s.jsx(k, { ...e, doubled: a.length < 3 }, r)),
+          children: r(a, (e, d) => s.jsx(k, { ...e, doubled: a.length < 3 }, d)),
         }),
       ],
     });

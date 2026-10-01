@@ -1,5 +1,5 @@
 import { r as s, j as a, f as e } from "./vendor.js";
-import { G as l } from "./lib.js";
+import { L as l } from "./lib.js";
 const i = {
     base: "Styles_f631575c",
     separator: "Styles_separator_46f5d10f",

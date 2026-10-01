@@ -2,16 +2,16 @@ import { g as e, j as s, r as a, s as i, f as n } from "../../../../chunks/vendo
 import {
   i as o,
   aC as t,
-  E as d,
+  ah as d,
   aD as r,
   v as c,
   aE as l,
-  Z as m,
+  y as m,
   R as _,
-  z as p,
-  C as g,
+  W as p,
+  ap as g,
   r as x,
-  a7 as j,
+  J as j,
   az as v,
   d as u,
 } from "../../../../chunks/lib.js";
@@ -80,21 +80,21 @@ function k({ conditions: e, isOrConditions: i }) {
     ),
   });
 }
-const E = "Rewards_133d6676",
-  $ = "Rewards_reward_37bfce6e",
+const $ = "Rewards_133d6676",
+  E = "Rewards_reward_37bfce6e",
   R = "Rewards_lock_aac08787",
   T = "Rewards_rewardItem__locked_854387f7",
   H = i(function () {
     const { model: e } = C();
     return s.jsx("div", {
-      className: E,
+      className: $,
       children: e.computes
         .getRewards()
         .map((e, a) =>
           s.jsxs(
             "div",
             {
-              className: $,
+              className: E,
               children: [
                 e.isLocked && s.jsx("div", { className: R }),
                 s.jsx(
@@ -127,10 +127,10 @@ const E = "Rewards_133d6676",
   Q = "Content_completedMessage_4a1d508e",
   U = "Content_conditionsHeader_45c8de10",
   B = "Content_conditionsTitle_7130eaea",
-  P = "Content_conditions_9af6a89e",
-  Z = "Content_vehicles_190316b7",
-  G = "Content_vehicle_7bb86a42",
-  J = x.resolve("strings"),
+  J = "Content_conditions_9af6a89e",
+  P = "Content_vehicles_190316b7",
+  W = "Content_vehicle_7bb86a42",
+  G = x.resolve("strings"),
   K = i(function () {
     const { model: e } = C(),
       a = e.campaignId.get(),
@@ -152,7 +152,7 @@ const E = "Rewards_133d6676",
                     s.jsx("div", { className: A }),
                     s.jsx("div", {
                       className: D,
-                      children: J.readOrEmpty(
+                      children: G.readOrEmpty(
                         "personal_missions_30.tooltip.umg.conditions.title.complete",
                       ),
                     }),
@@ -160,7 +160,7 @@ const E = "Rewards_133d6676",
                 }),
                 s.jsx(m, {
                   className: Q,
-                  text: J.readOrEmpty(
+                  text: G.readOrEmpty(
                     `personal_missions_30.tooltip.umg.conditions.allComplete.c_${a}`,
                   ),
                   params: { seriesName: e.title.get() },
@@ -177,28 +177,28 @@ const E = "Rewards_133d6676",
                       className: B,
                       children:
                         "active" === i
-                          ? J.readOrEmpty(
+                          ? G.readOrEmpty(
                               "personal_missions_30.tooltip.umg.conditions.title.active",
                             )
-                          : J.readOrEmpty(
+                          : G.readOrEmpty(
                               "personal_missions_30.tooltip.umg.conditions.title.improve",
                             ),
                     }),
                   }),
                 s.jsxs("div", {
-                  className: P,
+                  className: J,
                   children: [
                     s.jsx(k, { conditions: e.computes.getOrConditions(), isOrConditions: !0 }),
                     s.jsx(k, { conditions: e.computes.getAndConditions() }),
                     o > 1 &&
                       s.jsx("div", {
-                        className: Z,
+                        className: P,
                         children: j(o, (e) =>
                           s.jsx(
                             "div",
                             {
-                              className: G,
-                              children: e < t && s.jsx("div", { className: n(G, L) }),
+                              className: W,
+                              children: e < t && s.jsx("div", { className: n(W, L) }),
                             },
                             e,
                           ),
@@ -212,9 +212,9 @@ const E = "Rewards_133d6676",
       ],
     });
   }),
-  W = "Footer_1a3a6ef2",
-  X = "Footer_base__warning_703d8ea1",
-  Y = "Footer_line_ababbfe3",
+  X = "Footer_1a3a6ef2",
+  Y = "Footer_base__warning_703d8ea1",
+  Z = "Footer_line_ababbfe3",
   ee = "Footer_warning_251815cd",
   se = "Footer_warningIcon_dd3a1acb",
   ae = "Footer_warningText_fe7e2424",
@@ -229,9 +229,9 @@ const E = "Rewards_133d6676",
       ? null
       : "wrongVehicle" === a
         ? s.jsxs("div", {
-            className: n(W, X),
+            className: n(X, Y),
             children: [
-              s.jsx("div", { className: Y }),
+              s.jsx("div", { className: Z }),
               s.jsxs("div", {
                 className: ee,
                 children: [
@@ -251,9 +251,9 @@ const E = "Rewards_133d6676",
             ],
           })
         : s.jsxs("div", {
-            className: W,
+            className: X,
             children: [
-              s.jsx("div", { className: Y }),
+              s.jsx("div", { className: Z }),
               s.jsx("div", { className: ne }),
               s.jsx("div", {
                 className: oe,

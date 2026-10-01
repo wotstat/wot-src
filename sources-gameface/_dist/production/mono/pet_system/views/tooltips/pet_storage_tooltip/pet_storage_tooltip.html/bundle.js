@@ -1,13 +1,5 @@
 import { s as e, j as s, f as a } from "../../../../chunks/vendor.js";
-import {
-  i as t,
-  t as r,
-  r as n,
-  a6 as o,
-  v as p,
-  af as c,
-  k as l,
-} from "../../../../chunks/lib.js";
+import { i as t, o as r, r as n, a6 as o, p, af as c, k as l } from "../../../../chunks/lib.js";
 import { B as i } from "../../../../chunks/breed.js";
 import { S as m } from "../../../../chunks/warning_icon.js";
 /* empty css                       */ const [d, _] = t()(
